@@ -1,9 +1,10 @@
 ---
 title: PageSavingArgs
+linktitle: PageSavingArgs
 second_title: Aspose.Words for Java API Reference
-description: Provides data for the  event.
+description: Provides data for the  event in Java.
 type: docs
-weight: 442
+weight: 444
 url: /java/com.aspose.words/pagesavingargs/
 ---
 
@@ -13,7 +14,7 @@ java.lang.Object
 public class PageSavingArgs
 ```
 
-Provides data for the [IPageSavingCallback.pageSaving(com.aspose.words.PageSavingArgs)](../../com.aspose.words/ipagesavingcallback\#pageSaving-com.aspose.words.PageSavingArgs) event.
+Provides data for the [IPageSavingCallback.pageSaving(com.aspose.words.PageSavingArgs)](../../com.aspose.words/ipagesavingcallback/\#pageSaving-com.aspose.words.PageSavingArgs) event.
 
 To learn more, visit the [ Programming with Documents ][Programming with Documents] documentation article.
 

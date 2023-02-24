@@ -1,9 +1,10 @@
 ---
 title: OdsoFieldMapDataCollection
+linktitle: OdsoFieldMapDataCollection
 second_title: Aspose.Words for Java API Reference
-description: A typed collection of the  objects.
+description: A typed collection of the  objects in Java.
 type: docs
-weight: 418
+weight: 420
 url: /java/com.aspose.words/odsofieldmapdatacollection/
 ---
 
@@ -16,7 +17,7 @@ java.lang.Iterable
 public class OdsoFieldMapDataCollection implements Iterable
 ```
 
-A typed collection of the [OdsoFieldMapData](../../com.aspose.words/odsofieldmapdata) objects.
+A typed collection of the [OdsoFieldMapData](../../com.aspose.words/odsofieldmapdata/) objects.
 
 To learn more, visit the [ Mail Merge and Reporting ][Mail Merge and Reporting] documentation article.
 
@@ -53,7 +54,7 @@ Adds an object to the end of this collection.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [OdsoFieldMapData](../../com.aspose.words/odsofieldmapdata) | The object to add. Cannot be  null . |
+| value | [OdsoFieldMapData](../../com.aspose.words/odsofieldmapdata/) | The object to add. Cannot be  null . |
 
 **Returns:**
 int
@@ -94,7 +95,7 @@ Gets an item in this collection.
 | index | int |  |
 
 **Returns:**
-[OdsoFieldMapData](../../com.aspose.words/odsofieldmapdata) - An item in this collection.
+[OdsoFieldMapData](../../com.aspose.words/odsofieldmapdata/) - An item in this collection.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -176,7 +177,7 @@ Sets an item in this collection.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int |  |
-| value | [OdsoFieldMapData](../../com.aspose.words/odsofieldmapdata) | An item in this collection. |
+| value | [OdsoFieldMapData](../../com.aspose.words/odsofieldmapdata/) | An item in this collection. |
 
 ### toString() {#toString}
 ```

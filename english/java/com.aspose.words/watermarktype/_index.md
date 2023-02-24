@@ -1,9 +1,10 @@
 ---
 title: WatermarkType
+linktitle: WatermarkType
 second_title: Aspose.Words for Java API Reference
-description: Specifies the watermark type.
+description: Specifies the watermark type in Java.
 type: docs
-weight: 614
+weight: 616
 url: /java/com.aspose.words/watermarktype/
 ---
 

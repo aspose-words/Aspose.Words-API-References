@@ -1,9 +1,10 @@
 ---
 title: LayoutEntityType
+linktitle: LayoutEntityType
 second_title: Aspose.Words for Java API Reference
-description: Types of the layout entities.
+description: Types of the layout entities in Java.
 type: docs
-weight: 361
+weight: 362
 url: /java/com.aspose.words/layoutentitytype/
 ---
 
@@ -59,7 +60,7 @@ public static int CELL
 ```
 
 
-Represents a table cell. Cell may have [LINE](../../com.aspose.words/layoutentitytype\#LINE) and [ROW](../../com.aspose.words/layoutentitytype\#ROW) child entities.
+Represents a table cell. Cell may have [LINE](../../com.aspose.words/layoutentitytype/\#LINE) and [ROW](../../com.aspose.words/layoutentitytype/\#ROW) child entities.
 
 ### COLUMN {#COLUMN}
 ```
@@ -67,7 +68,7 @@ public static int COLUMN
 ```
 
 
-Represents a column of text on a page. Column may have the same child entities as [CELL](../../com.aspose.words/layoutentitytype\#CELL), plus [FOOTNOTE](../../com.aspose.words/layoutentitytype\#FOOTNOTE), [ENDNOTE](../../com.aspose.words/layoutentitytype\#ENDNOTE) and [NOTE\_SEPARATOR](../../com.aspose.words/layoutentitytype\#NOTE-SEPARATOR) entities.
+Represents a column of text on a page. Column may have the same child entities as [CELL](../../com.aspose.words/layoutentitytype/\#CELL), plus [FOOTNOTE](../../com.aspose.words/layoutentitytype/\#FOOTNOTE), [ENDNOTE](../../com.aspose.words/layoutentitytype/\#ENDNOTE) and [NOTE\_SEPARATOR](../../com.aspose.words/layoutentitytype/\#NOTE-SEPARATOR) entities.
 
 ### COMMENT {#COMMENT}
 ```
@@ -75,7 +76,7 @@ public static int COMMENT
 ```
 
 
-Represents placeholder for comment content. Comment may have [LINE](../../com.aspose.words/layoutentitytype\#LINE) and [ROW](../../com.aspose.words/layoutentitytype\#ROW) child entities.
+Represents placeholder for comment content. Comment may have [LINE](../../com.aspose.words/layoutentitytype/\#LINE) and [ROW](../../com.aspose.words/layoutentitytype/\#ROW) child entities.
 
 ### ENDNOTE {#ENDNOTE}
 ```
@@ -83,7 +84,7 @@ public static int ENDNOTE
 ```
 
 
-Represents placeholder for endnote content. Endnote may have [NOTE](../../com.aspose.words/layoutentitytype\#NOTE) child entities.
+Represents placeholder for endnote content. Endnote may have [NOTE](../../com.aspose.words/layoutentitytype/\#NOTE) child entities.
 
 ### FOOTNOTE {#FOOTNOTE}
 ```
@@ -91,7 +92,7 @@ public static int FOOTNOTE
 ```
 
 
-Represents placeholder for footnote content. Footnote may have [NOTE](../../com.aspose.words/layoutentitytype\#NOTE) child entities.
+Represents placeholder for footnote content. Footnote may have [NOTE](../../com.aspose.words/layoutentitytype/\#NOTE) child entities.
 
 ### HEADER_FOOTER {#HEADER-FOOTER}
 ```
@@ -99,7 +100,7 @@ public static int HEADER_FOOTER
 ```
 
 
-Represents placeholder for header/footer content on a page. HeaderFooter may have [LINE](../../com.aspose.words/layoutentitytype\#LINE) and [ROW](../../com.aspose.words/layoutentitytype\#ROW) child entities.
+Represents placeholder for header/footer content on a page. HeaderFooter may have [LINE](../../com.aspose.words/layoutentitytype/\#LINE) and [ROW](../../com.aspose.words/layoutentitytype/\#ROW) child entities.
 
 ### LINE {#LINE}
 ```
@@ -107,7 +108,7 @@ public static int LINE
 ```
 
 
-Represents line of characters of text and inline objects. Line may have [SPAN](../../com.aspose.words/layoutentitytype\#SPAN) child entities.
+Represents line of characters of text and inline objects. Line may have [SPAN](../../com.aspose.words/layoutentitytype/\#SPAN) child entities.
 
 ### NONE {#NONE}
 ```
@@ -123,7 +124,7 @@ public static int NOTE
 ```
 
 
-Represents placeholder for note content. Note may have [LINE](../../com.aspose.words/layoutentitytype\#LINE) and [ROW](../../com.aspose.words/layoutentitytype\#ROW) child entities.
+Represents placeholder for note content. Note may have [LINE](../../com.aspose.words/layoutentitytype/\#LINE) and [ROW](../../com.aspose.words/layoutentitytype/\#ROW) child entities.
 
 ### NOTE_SEPARATOR {#NOTE-SEPARATOR}
 ```
@@ -131,7 +132,7 @@ public static int NOTE_SEPARATOR
 ```
 
 
-Represents footnote/endnote separator. NoteSeparator may have [LINE](../../com.aspose.words/layoutentitytype\#LINE) and [ROW](../../com.aspose.words/layoutentitytype\#ROW) child entities.
+Represents footnote/endnote separator. NoteSeparator may have [LINE](../../com.aspose.words/layoutentitytype/\#LINE) and [ROW](../../com.aspose.words/layoutentitytype/\#ROW) child entities.
 
 ### PAGE {#PAGE}
 ```
@@ -139,7 +140,7 @@ public static int PAGE
 ```
 
 
-Represents page of a document. Page may have [COLUMN](../../com.aspose.words/layoutentitytype\#COLUMN), [HEADER\_FOOTER](../../com.aspose.words/layoutentitytype\#HEADER-FOOTER) and [COMMENT](../../com.aspose.words/layoutentitytype\#COMMENT) child entities.
+Represents page of a document. Page may have [COLUMN](../../com.aspose.words/layoutentitytype/\#COLUMN), [HEADER\_FOOTER](../../com.aspose.words/layoutentitytype/\#HEADER-FOOTER) and [COMMENT](../../com.aspose.words/layoutentitytype/\#COMMENT) child entities.
 
 ### ROW {#ROW}
 ```
@@ -147,7 +148,7 @@ public static int ROW
 ```
 
 
-Represents a table row. Row may have [CELL](../../com.aspose.words/layoutentitytype\#CELL) as child entities.
+Represents a table row. Row may have [CELL](../../com.aspose.words/layoutentitytype/\#CELL) as child entities.
 
 ### SPAN {#SPAN}
 ```
@@ -163,7 +164,7 @@ public static int TEXT_BOX
 ```
 
 
-Represents text area inside of a shape. Textbox may have [LINE](../../com.aspose.words/layoutentitytype\#LINE) and [ROW](../../com.aspose.words/layoutentitytype\#ROW) child entities.
+Represents text area inside of a shape. Textbox may have [LINE](../../com.aspose.words/layoutentitytype/\#LINE) and [ROW](../../com.aspose.words/layoutentitytype/\#ROW) child entities.
 
 ### length {#length}
 ```

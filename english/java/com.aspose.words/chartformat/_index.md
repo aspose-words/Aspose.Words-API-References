@@ -1,7 +1,8 @@
 ---
 title: ChartFormat
+linktitle: ChartFormat
 second_title: Aspose.Words for Java API Reference
-description: Represents the formatting of a chart element.
+description: Represents the formatting of a chart element in Java.
 type: docs
 weight: 62
 url: /java/com.aspose.words/chartformat/
@@ -180,7 +181,7 @@ public Fill getFill()
 Gets fill formatting for the parent chart element.
 
 **Returns:**
-[Fill](../../com.aspose.words/fill) - Fill formatting for the parent chart element.
+[Fill](../../com.aspose.words/fill/) - Fill formatting for the parent chart element.
 ### getFillType() {#getFillType}
 ```
 public int getFillType()
@@ -270,7 +271,7 @@ public GradientStopCollection getGradientStops()
 
 
 **Returns:**
-[GradientStopCollection](../../com.aspose.words/gradientstopcollection)
+[GradientStopCollection](../../com.aspose.words/gradientstopcollection/)
 ### getGradientStyle() {#getGradientStyle}
 ```
 public int getGradientStyle()
@@ -410,7 +411,7 @@ public Stroke getStroke()
 Gets line formatting for the parent chart element.
 
 **Returns:**
-[Stroke](../../com.aspose.words/stroke) - Line formatting for the parent chart element.
+[Stroke](../../com.aspose.words/stroke/) - Line formatting for the parent chart element.
 ### getStrokeImageBytes() {#getStrokeImageBytes}
 ```
 public byte[] getStrokeImageBytes()

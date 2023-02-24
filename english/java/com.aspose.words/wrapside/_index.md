@@ -1,9 +1,10 @@
 ---
 title: WrapSide
+linktitle: WrapSide
 second_title: Aspose.Words for Java API Reference
-description: Specifies what sides of the shape or picture the text wraps around.
+description: Specifies what sides of the shape or picture the text wraps around in Java.
 type: docs
-weight: 625
+weight: 627
 url: /java/com.aspose.words/wrapside/
 ---
 
@@ -19,7 +20,7 @@ Specifies what side(s) of the shape or picture the text wraps around.
 | Field | Description |
 | --- | --- |
 | [BOTH](#BOTH) | The document text wraps on both sides of the shape. |
-| [DEFAULT](#DEFAULT) | Default value is [BOTH](../../com.aspose.words/wrapside\#BOTH). |
+| [DEFAULT](#DEFAULT) | Default value is [BOTH](../../com.aspose.words/wrapside/\#BOTH). |
 | [LARGEST](#LARGEST) | The document text wraps on the side of the shape that is farthest from the page margin, leaving text free area on the other side of the shape. |
 | [LEFT](#LEFT) | The document text wraps on the left side of the shape only. |
 | [RIGHT](#RIGHT) | The document text wraps on the right side of the shape only. |
@@ -55,7 +56,7 @@ public static int DEFAULT
 ```
 
 
-Default value is [BOTH](../../com.aspose.words/wrapside\#BOTH).
+Default value is [BOTH](../../com.aspose.words/wrapside/\#BOTH).
 
 ### LARGEST {#LARGEST}
 ```

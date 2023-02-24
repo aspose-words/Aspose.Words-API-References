@@ -1,9 +1,10 @@
 ---
 title: NumberStyle
+linktitle: NumberStyle
 second_title: Aspose.Words for Java API Reference
-description: Specifies the number style for a list footnotes and endnotes page numbers.
+description: Specifies the number style for a list footnotes and endnotes page numbers in Java.
 type: docs
-weight: 413
+weight: 415
 url: /java/com.aspose.words/numberstyle/
 ---
 

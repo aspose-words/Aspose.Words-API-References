@@ -1,7 +1,8 @@
 ---
 title: DataException
+linktitle: DataException
 second_title: Aspose.Words for Java API Reference
-description: Represents the exception that is thrown when errors are generated using ADO.NET components.
+description: Represents the exception that is thrown when errors are generated using ADO.NET components in Java.
 type: docs
 weight: 16
 url: /java/com.aspose.words.net.system.data/dataexception/
@@ -18,7 +19,7 @@ Represents the exception that is thrown when errors are generated using ADO.NET 
 
 | Constructor | Description |
 | --- | --- |
-| [DataException(String s)](#DataException-java.lang.String) | Initializes a new instance of the [DataException](../../com.aspose.words.net.system.data/dataexception) class with the specified string. |
+| [DataException(String s)](#DataException-java.lang.String) | Initializes a new instance of the [DataException](../../com.aspose.words.net.system.data/dataexception/) class with the specified string. |
 | [DataException(Exception ex)](#DataException-java.lang.Exception) | Initializes a new instance of this class. |
 ## Methods
 
@@ -51,7 +52,7 @@ public DataException(String s)
 ```
 
 
-Initializes a new instance of the [DataException](../../com.aspose.words.net.system.data/dataexception) class with the specified string.
+Initializes a new instance of the [DataException](../../com.aspose.words.net.system.data/dataexception/) class with the specified string.
 
 **Parameters:**
 | Parameter | Type | Description |

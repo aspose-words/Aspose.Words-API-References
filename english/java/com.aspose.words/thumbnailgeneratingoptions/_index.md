@@ -1,9 +1,10 @@
 ---
 title: ThumbnailGeneratingOptions
+linktitle: ThumbnailGeneratingOptions
 second_title: Aspose.Words for Java API Reference
-description: Can be used to specify additional options when generating thumbnail for a document.
+description: Can be used to specify additional options when generating thumbnail for a document in Java.
 type: docs
-weight: 582
+weight: 584
 url: /java/com.aspose.words/thumbnailgeneratingoptions/
 ---
 
@@ -13,7 +14,7 @@ java.lang.Object
 public class ThumbnailGeneratingOptions
 ```
 
-Can be used to specify additional options when generating thumbnail for a document. User can call method [Document.updateThumbnail(com.aspose.words.ThumbnailGeneratingOptions)](../../com.aspose.words/document\#updateThumbnail-com.aspose.words.ThumbnailGeneratingOptions) to generate [BuiltInDocumentProperties.getThumbnail()](../../com.aspose.words/builtindocumentproperties\#getThumbnail) / [BuiltInDocumentProperties.setThumbnail(byte[])](../../com.aspose.words/builtindocumentproperties\#setThumbnail-byte) for a document.
+Can be used to specify additional options when generating thumbnail for a document. User can call method [Document.updateThumbnail(com.aspose.words.ThumbnailGeneratingOptions)](../../com.aspose.words/document/\#updateThumbnail-com.aspose.words.ThumbnailGeneratingOptions) to generate [BuiltInDocumentProperties.getThumbnail()](../../com.aspose.words/builtindocumentproperties/\#getThumbnail) / [BuiltInDocumentProperties.setThumbnail(byte[])](../../com.aspose.words/builtindocumentproperties/\#setThumbnail-byte) for a document.
 ## Methods
 
 | Method | Description |

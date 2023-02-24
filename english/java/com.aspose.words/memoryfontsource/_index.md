@@ -1,14 +1,15 @@
 ---
 title: MemoryFontSource
+linktitle: MemoryFontSource
 second_title: Aspose.Words for Java API Reference
-description: Represents the single TrueType font file stored in memory.
+description: Represents the single TrueType font file stored in memory in Java.
 type: docs
-weight: 397
+weight: 399
 url: /java/com.aspose.words/memoryfontsource/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.words.FontSourceBase](../../com.aspose.words/fontsourcebase)
+java.lang.Object, [com.aspose.words.FontSourceBase](../../com.aspose.words/fontsourcebase/)
 ```
 public class MemoryFontSource extends FontSourceBase
 ```
@@ -73,7 +74,7 @@ Ctor.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fontData | byte[] | Binary font data. |
-| priority | int | Font source priority. See the [FontSourceBase.getPriority()](../../com.aspose.words/fontsourcebase\#getPriority) property description for more information. |
+| priority | int | Font source priority. See the [FontSourceBase.getPriority()](../../com.aspose.words/fontsourcebase/\#getPriority) property description for more information. |
 
 ### MemoryFontSource(byte[] fontData, int priority, String cacheKey) {#MemoryFontSource-byte---int-java.lang.String}
 ```
@@ -87,8 +88,8 @@ Ctor.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fontData | byte[] | Binary font data. |
-| priority | int | Font source priority. See the [FontSourceBase.getPriority()](../../com.aspose.words/fontsourcebase\#getPriority) property description for more information. |
-| cacheKey | java.lang.String | The key of this source in the cache. See [getCacheKey()](../../com.aspose.words/memoryfontsource\#getCacheKey) property description for more information. |
+| priority | int | Font source priority. See the [FontSourceBase.getPriority()](../../com.aspose.words/fontsourcebase/\#getPriority) property description for more information. |
+| cacheKey | java.lang.String | The key of this source in the cache. See [getCacheKey()](../../com.aspose.words/memoryfontsource/\#getCacheKey) property description for more information. |
 
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
@@ -188,7 +189,7 @@ public int getType()
 Returns the type of the font source.
 
 **Returns:**
-int - The type of the font source. The returned value is one of [FontSourceType](../../com.aspose.words/fontsourcetype) constants.
+int - The type of the font source. The returned value is one of [FontSourceType](../../com.aspose.words/fontsourcetype/) constants.
 ### getWarningCallback() {#getWarningCallback}
 ```
 public IWarningCallback getWarningCallback()
@@ -198,7 +199,7 @@ public IWarningCallback getWarningCallback()
 Called during processing of font source when an issue is detected that might result in formatting fidelity loss.
 
 **Returns:**
-[IWarningCallback](../../com.aspose.words/iwarningcallback) - The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback) value.
+[IWarningCallback](../../com.aspose.words/iwarningcallback/) - The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback/) value.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()
@@ -236,7 +237,7 @@ Called during processing of font source when an issue is detected that might res
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IWarningCallback](../../com.aspose.words/iwarningcallback) | The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback) value. |
+| value | [IWarningCallback](../../com.aspose.words/iwarningcallback/) | The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback/) value. |
 
 ### toString() {#toString}
 ```

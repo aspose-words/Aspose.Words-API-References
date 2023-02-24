@@ -1,7 +1,8 @@
 ---
 title: CsvDataSource
+linktitle: CsvDataSource
 second_title: Aspose.Words for Java API Reference
-description: Provides access to data of a CSV file or stream to be used within a report.
+description: Provides access to data of a CSV file or stream to be used within a report in Java.
 type: docs
 weight: 100
 url: /java/com.aspose.words/csvdatasource/
@@ -17,9 +18,9 @@ Provides access to data of a CSV file or stream to be used within a report.
 
 To learn more, visit the [ LINQ Reporting Engine ][LINQ Reporting Engine] documentation article.
 
-To access data of the corresponding file or stream while generating a report, pass an instance of this class as a data source to one of [ReportingEngine](../../com.aspose.words/reportingengine). buildReport overloads.
+To access data of the corresponding file or stream while generating a report, pass an instance of this class as a data source to one of [ReportingEngine](../../com.aspose.words/reportingengine/). buildReport overloads.
 
-In template documents, a [CsvDataSource](../../com.aspose.words/csvdatasource) instance should be treated in the same way as if it was a [DataTable](../../com.aspose.words.net.system.data/datatable) instance. For more information, see template syntax reference(https://docs.aspose.com/display/wordsjava/Template+Syntax).
+In template documents, a [CsvDataSource](../../com.aspose.words/csvdatasource/) instance should be treated in the same way as if it was a [DataTable](../../com.aspose.words.net.system.data/datatable/) instance. For more information, see template syntax reference(https://docs.aspose.com/display/wordsjava/Template+Syntax).
 
 Data types of comma-separated values are determined automatically upon their string representations. So in template documents, you can work with typed values rather than just strings. The engine is capable to automatically recognize values of the following types:
 
@@ -31,7 +32,7 @@ Data types of comma-separated values are determined automatically upon their str
 
 Note that for automatic recognition of data types to work, string representations of comma-separated values should be formed using invariant culture settings.
 
-To override default behavior of CSV data loading, initialize and pass a [CsvDataLoadOptions](../../com.aspose.words/csvdataloadoptions) instance to a constructor of this class.
+To override default behavior of CSV data loading, initialize and pass a [CsvDataLoadOptions](../../com.aspose.words/csvdataloadoptions/) instance to a constructor of this class.
 
 
 [LINQ Reporting Engine]: https://docs.aspose.com/words/java/linq-reporting-engine/
@@ -81,7 +82,7 @@ Creates a new data source with data from a CSV file using the specified options 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | csvPath | java.lang.String | The path to the CSV file to be used as the data source. |
-| options | [CsvDataLoadOptions](../../com.aspose.words/csvdataloadoptions) | Options for parsing the CSV data. |
+| options | [CsvDataLoadOptions](../../com.aspose.words/csvdataloadoptions/) | Options for parsing the CSV data. |
 
 ### CsvDataSource(InputStream csvStream) {#CsvDataSource-java.io.InputStream}
 ```
@@ -108,7 +109,7 @@ Initializes a new instance of this class.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | csvStream | java.io.InputStream |  |
-| options | [CsvDataLoadOptions](../../com.aspose.words/csvdataloadoptions) |  |
+| options | [CsvDataLoadOptions](../../com.aspose.words/csvdataloadoptions/) |  |
 
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```

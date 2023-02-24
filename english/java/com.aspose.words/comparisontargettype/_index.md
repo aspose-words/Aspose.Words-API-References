@@ -1,7 +1,8 @@
 ---
 title: ComparisonTargetType
+linktitle: ComparisonTargetType
 second_title: Aspose.Words for Java API Reference
-description: Allows to specify base document which will be used during comparison.
+description: Allows to specify base document which will be used during comparison in Java.
 type: docs
 weight: 85
 url: /java/com.aspose.words/comparisontargettype/
@@ -13,7 +14,7 @@ java.lang.Object
 public class ComparisonTargetType
 ```
 
-Allows to specify base document which will be used during comparison. Default value is [CURRENT](../../com.aspose.words/comparisontargettype\#CURRENT). Relates to Microsoft Word "Show changes in" option in "Compare Documents" dialog box.
+Allows to specify base document which will be used during comparison. Default value is [CURRENT](../../com.aspose.words/comparisontargettype/\#CURRENT). Relates to Microsoft Word "Show changes in" option in "Compare Documents" dialog box.
 ## Fields
 
 | Field | Description |

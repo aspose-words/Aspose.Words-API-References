@@ -1,9 +1,10 @@
 ---
 title: PdfFontEmbeddingMode
+linktitle: PdfFontEmbeddingMode
 second_title: Aspose.Words for Java API Reference
-description: Specifies how Aspose.Words should embed fonts.
+description: Specifies how Aspose.Words should embed fonts in Java.
 type: docs
-weight: 459
+weight: 461
 url: /java/com.aspose.words/pdffontembeddingmode/
 ---
 

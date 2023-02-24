@@ -1,9 +1,10 @@
 ---
 title: VbaReferenceType
+linktitle: VbaReferenceType
 second_title: Aspose.Words for Java API Reference
-description: Allows to specify the type of a  object.
+description: Allows to specify the type of a  object in Java.
 type: docs
-weight: 603
+weight: 605
 url: /java/com.aspose.words/vbareferencetype/
 ---
 
@@ -13,7 +14,7 @@ java.lang.Object
 public class VbaReferenceType
 ```
 
-Allows to specify the type of a [VbaReference](../../com.aspose.words/vbareference) object.
+Allows to specify the type of a [VbaReference](../../com.aspose.words/vbareference/) object.
 ## Fields
 
 | Field | Description |

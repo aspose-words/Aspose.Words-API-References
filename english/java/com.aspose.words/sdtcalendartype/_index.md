@@ -1,9 +1,10 @@
 ---
 title: SdtCalendarType
+linktitle: SdtCalendarType
 second_title: Aspose.Words for Java API Reference
-description: Specifies the possible types of calendars which can be used to specify  /  in an Office Open XML document.
+description: Specifies the possible types of calendars which can be used to specify  /  in an Office Open XML document in Java.
 type: docs
-weight: 508
+weight: 510
 url: /java/com.aspose.words/sdtcalendartype/
 ---
 
@@ -13,7 +14,7 @@ java.lang.Object
 public class SdtCalendarType
 ```
 
-Specifies the possible types of calendars which can be used to specify [StructuredDocumentTag.getCalendarType()](../../com.aspose.words/structureddocumenttag\#getCalendarType) / [StructuredDocumentTag.setCalendarType(int)](../../com.aspose.words/structureddocumenttag\#setCalendarType-int) in an Office Open XML document.
+Specifies the possible types of calendars which can be used to specify [StructuredDocumentTag.getCalendarType()](../../com.aspose.words/structureddocumenttag/\#getCalendarType) / [StructuredDocumentTag.setCalendarType(int)](../../com.aspose.words/structureddocumenttag/\#setCalendarType-int) in an Office Open XML document.
 ## Fields
 
 | Field | Description |
@@ -57,7 +58,7 @@ public static int DEFAULT
 ```
 
 
-Used as default value in OOXML. Equals [GREGORIAN](../../com.aspose.words/sdtcalendartype\#GREGORIAN).
+Used as default value in OOXML. Equals [GREGORIAN](../../com.aspose.words/sdtcalendartype/\#GREGORIAN).
 
 ### GREGORIAN {#GREGORIAN}
 ```
@@ -145,7 +146,7 @@ public static int NONE
 ```
 
 
-Specifies that no calendar should be used. Usually in AW, None is the first and default value for enums, but not in this case. None is not default for OOXML, instead [GREGORIAN](../../com.aspose.words/sdtcalendartype\#GREGORIAN) is default and is first member of this enum.
+Specifies that no calendar should be used. Usually in AW, None is the first and default value for enums, but not in this case. None is not default for OOXML, instead [GREGORIAN](../../com.aspose.words/sdtcalendartype/\#GREGORIAN) is default and is first member of this enum.
 
 ### SAKA {#SAKA}
 ```

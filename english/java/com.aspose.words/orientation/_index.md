@@ -1,9 +1,10 @@
 ---
 title: Orientation
+linktitle: Orientation
 second_title: Aspose.Words for Java API Reference
-description: Specifies page orientation.
+description: Specifies page orientation in Java.
 type: docs
-weight: 433
+weight: 435
 url: /java/com.aspose.words/orientation/
 ---
 

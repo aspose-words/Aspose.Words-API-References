@@ -1,7 +1,8 @@
 ---
 title: EmphasisMark
+linktitle: EmphasisMark
 second_title: Aspose.Words for Java API Reference
-description: Specifies possible types of emphasis mark.
+description: Specifies possible types of emphasis mark in Java.
 type: docs
 weight: 145
 url: /java/com.aspose.words/emphasismark/

@@ -1,7 +1,8 @@
 ---
 title: Hyphenation
+linktitle: Hyphenation
 second_title: Aspose.Words for Java API Reference
-description: Provides methods for working with hyphenation dictionaries.
+description: Provides methods for working with hyphenation dictionaries in Java.
 type: docs
 weight: 335
 url: /java/com.aspose.words/hyphenation/
@@ -64,7 +65,7 @@ public static IHyphenationCallback getCallback()
 Gets callback interface used to request dictionaries when page layout of the document is built. This allows delay loading of dictionaries which may be useful when processing documents in many languages.
 
 **Returns:**
-[IHyphenationCallback](../../com.aspose.words/ihyphenationcallback) - Callback interface used to request dictionaries when page layout of the document is built.
+[IHyphenationCallback](../../com.aspose.words/ihyphenationcallback/) - Callback interface used to request dictionaries when page layout of the document is built.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -84,7 +85,7 @@ public static IWarningCallback getWarningCallback()
 Called during a load hyphenation patterns, when an issue is detected that might result in formatting fidelity loss.
 
 **Returns:**
-[IWarningCallback](../../com.aspose.words/iwarningcallback) - The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback) value.
+[IWarningCallback](../../com.aspose.words/iwarningcallback/) - The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback/) value.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()
@@ -148,7 +149,7 @@ public static void registerDictionary(String language, String fileName)
 
 Registers and loads a hyphenation dictionary for the specified language from file. Throws if dictionary cannot be read or has invalid format.
 
-This method can also be used to register Null dictionary to prevent [getCallback()](../../com.aspose.words/hyphenation\#getCallback) / [setCallback(com.aspose.words.IHyphenationCallback)](../../com.aspose.words/hyphenation\#setCallback-com.aspose.words.IHyphenationCallback) from being called repeatedly for the same language.
+This method can also be used to register Null dictionary to prevent [getCallback()](../../com.aspose.words/hyphenation/\#getCallback) / [setCallback(com.aspose.words.IHyphenationCallback)](../../com.aspose.words/hyphenation/\#setCallback-com.aspose.words.IHyphenationCallback) from being called repeatedly for the same language.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -158,7 +159,7 @@ This method can also be used to register Null dictionary to prevent [getCallback
 
 If this parameter is  null  or empty string then registered is Null dictionary and callback is not called anymore for this language.
 
-To enable callback again use [unregisterDictionary(java.lang.String)](../../com.aspose.words/hyphenation\#unregisterDictionary-java.lang.String) method. |
+To enable callback again use [unregisterDictionary(java.lang.String)](../../com.aspose.words/hyphenation/\#unregisterDictionary-java.lang.String) method. |
 
 ### setCallback(IHyphenationCallback value) {#setCallback-com.aspose.words.IHyphenationCallback}
 ```
@@ -171,7 +172,7 @@ Sets callback interface used to request dictionaries when page layout of the doc
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IHyphenationCallback](../../com.aspose.words/ihyphenationcallback) | Callback interface used to request dictionaries when page layout of the document is built. |
+| value | [IHyphenationCallback](../../com.aspose.words/ihyphenationcallback/) | Callback interface used to request dictionaries when page layout of the document is built. |
 
 ### setWarningCallback(IWarningCallback value) {#setWarningCallback-com.aspose.words.IWarningCallback}
 ```
@@ -184,7 +185,7 @@ Called during a load hyphenation patterns, when an issue is detected that might 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IWarningCallback](../../com.aspose.words/iwarningcallback) | The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback) value. |
+| value | [IWarningCallback](../../com.aspose.words/iwarningcallback/) | The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback/) value. |
 
 ### toString() {#toString}
 ```

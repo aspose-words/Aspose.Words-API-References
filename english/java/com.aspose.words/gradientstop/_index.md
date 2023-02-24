@@ -1,7 +1,8 @@
 ---
 title: GradientStop
+linktitle: GradientStop
 second_title: Aspose.Words for Java API Reference
-description: Represents one gradient stop.
+description: Represents one gradient stop in Java.
 type: docs
 weight: 310
 url: /java/com.aspose.words/gradientstop/
@@ -23,8 +24,8 @@ To learn more, visit the [ Working with Graphic Elements ][Working with Graphic 
 
 | Constructor | Description |
 | --- | --- |
-| [GradientStop(Color color, double position)](#GradientStop-java.awt.Color-double) | Initializes a new instance of the [GradientStop](../../com.aspose.words/gradientstop) class. |
-| [GradientStop(Color color, double position, double transparency)](#GradientStop-java.awt.Color-double-double) | Initializes a new instance of the [GradientStop](../../com.aspose.words/gradientstop) class. |
+| [GradientStop(Color color, double position)](#GradientStop-java.awt.Color-double) | Initializes a new instance of the [GradientStop](../../com.aspose.words/gradientstop/) class. |
+| [GradientStop(Color color, double position, double transparency)](#GradientStop-java.awt.Color-double-double) | Initializes a new instance of the [GradientStop](../../com.aspose.words/gradientstop/) class. |
 ## Methods
 
 | Method | Description |
@@ -37,7 +38,7 @@ To learn more, visit the [ Working with Graphic Elements ][Working with Graphic 
 | [hashCode()](#hashCode) |  |
 | [notify()](#notify) |  |
 | [notifyAll()](#notifyAll) |  |
-| [remove()](#remove) | Removes the gradient stop from the parent [GradientStopCollection](../../com.aspose.words/gradientstopcollection). |
+| [remove()](#remove) | Removes the gradient stop from the parent [GradientStopCollection](../../com.aspose.words/gradientstopcollection/). |
 | [setColor(Color value)](#setColor-java.awt.Color) | Sets a value representing the color of the gradient stop. |
 | [setPosition(double value)](#setPosition-double) | Sets a value representing the position of a stop within the gradient expressed as a percent in range 0.0 to 1.0. |
 | [setTransparency(double value)](#setTransparency-double) | Sets a value representing the transparency of the gradient fill expressed as a percent in range 0.0 to 1.0. |
@@ -51,7 +52,7 @@ public GradientStop(Color color, double position)
 ```
 
 
-Initializes a new instance of the [GradientStop](../../com.aspose.words/gradientstop) class.
+Initializes a new instance of the [GradientStop](../../com.aspose.words/gradientstop/) class.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -65,7 +66,7 @@ public GradientStop(Color color, double position, double transparency)
 ```
 
 
-Initializes a new instance of the [GradientStop](../../com.aspose.words/gradientstop) class.
+Initializes a new instance of the [GradientStop](../../com.aspose.words/gradientstop/) class.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -161,7 +162,7 @@ public void remove()
 ```
 
 
-Removes the gradient stop from the parent [GradientStopCollection](../../com.aspose.words/gradientstopcollection).
+Removes the gradient stop from the parent [GradientStopCollection](../../com.aspose.words/gradientstopcollection/).
 
 ### setColor(Color value) {#setColor-java.awt.Color}
 ```

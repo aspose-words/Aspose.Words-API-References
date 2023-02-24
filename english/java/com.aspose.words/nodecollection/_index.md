@@ -1,9 +1,10 @@
 ---
 title: NodeCollection
+linktitle: NodeCollection
 second_title: Aspose.Words for Java API Reference
-description: Represents a collection of nodes of a specific type.
+description: Represents a collection of nodes of a specific type in Java.
 type: docs
-weight: 408
+weight: 410
 url: /java/com.aspose.words/nodecollection/
 ---
 
@@ -20,15 +21,15 @@ Represents a collection of nodes of a specific type.
 
 To learn more, visit the [ Aspose.Words Document Object Model (DOM) ][Aspose.Words Document Object Model _DOM_] documentation article.
 
-[NodeCollection](../../com.aspose.words/nodecollection) does not own the nodes it contains, rather, is just a selection of nodes of the specified type, but the nodes are stored in the tree under their respective parent nodes.
+[NodeCollection](../../com.aspose.words/nodecollection/) does not own the nodes it contains, rather, is just a selection of nodes of the specified type, but the nodes are stored in the tree under their respective parent nodes.
 
-[NodeCollection](../../com.aspose.words/nodecollection) supports indexed access, iteration and provides add and remove methods.
+[NodeCollection](../../com.aspose.words/nodecollection/) supports indexed access, iteration and provides add and remove methods.
 
-The [NodeCollection](../../com.aspose.words/nodecollection) collection is "live", i.e. changes to the children of the node object that it was created from are immediately reflected in the nodes returned by the [NodeCollection](../../com.aspose.words/nodecollection) properties and methods.
+The [NodeCollection](../../com.aspose.words/nodecollection/) collection is "live", i.e. changes to the children of the node object that it was created from are immediately reflected in the nodes returned by the [NodeCollection](../../com.aspose.words/nodecollection/) properties and methods.
 
-[NodeCollection](../../com.aspose.words/nodecollection) is returned by **M:Aspose.Words.CompositeNode.GetChildNodes(Aspose.Words.NodeType,System.Boolean)** and also serves as a base class for typed node collections such as [SectionCollection](../../com.aspose.words/sectioncollection), [ParagraphCollection](../../com.aspose.words/paragraphcollection) etc.
+[NodeCollection](../../com.aspose.words/nodecollection/) is returned by **M:Aspose.Words.CompositeNode.GetChildNodes(Aspose.Words.NodeType,System.Boolean)** and also serves as a base class for typed node collections such as [SectionCollection](../../com.aspose.words/sectioncollection/), [ParagraphCollection](../../com.aspose.words/paragraphcollection/) etc.
 
-[NodeCollection](../../com.aspose.words/nodecollection) can be "flat" and contain only immediate children of the node it was created from, or it can be "deep" and contain all descendant children.
+[NodeCollection](../../com.aspose.words/nodecollection/) can be "flat" and contain only immediate children of the node it was created from, or it can be "deep" and contain all descendant children.
 
 
 [Aspose.Words Document Object Model _DOM_]: https://docs.aspose.com/words/java/aspose-words-document-object-model/
@@ -74,7 +75,7 @@ If the node being inserted was created from another document, you should use **M
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| node | [Node](../../com.aspose.words/node) | The node to be added to the end of the collection. |
+| node | [Node](../../com.aspose.words/node/) | The node to be added to the end of the collection. |
 
 ### clear() {#clear}
 ```
@@ -92,12 +93,12 @@ public boolean contains(Node node)
 
 Determines whether a node is in the collection.
 
-This method performs a linear search; therefore, the average execution time is proportional to [getCount()](../../com.aspose.words/nodecollection\#getCount).
+This method performs a linear search; therefore, the average execution time is proportional to [getCount()](../../com.aspose.words/nodecollection/\#getCount).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| node | [Node](../../com.aspose.words/node) | The node to locate. |
+| node | [Node](../../com.aspose.words/node/) | The node to locate. |
 
 **Returns:**
 boolean - \{ true  if item is found in the collection; otherwise,  false .
@@ -138,7 +139,7 @@ If index is greater than or equal to the number of items in the list, this retur
 If index is negative and its absolute value is greater than the number of items in the list, this returns a null reference. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The corresponding [Node](../../com.aspose.words/node) value.
+[Node](../../com.aspose.words/node/) - The corresponding [Node](../../com.aspose.words/node/) value.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -158,7 +159,7 @@ public CompositeNode getContainer()
 
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode)
+[CompositeNode](../../com.aspose.words/compositenode/)
 ### getCount() {#getCount}
 ```
 public int getCount()
@@ -178,7 +179,7 @@ public Node getCurrentNode()
 
 
 **Returns:**
-[Node](../../com.aspose.words/node)
+[Node](../../com.aspose.words/node/)
 ### getNextMatchingNode(Node curNode) {#getNextMatchingNode-com.aspose.words.Node}
 ```
 public Node getNextMatchingNode(Node curNode)
@@ -190,10 +191,10 @@ public Node getNextMatchingNode(Node curNode)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| curNode | [Node](../../com.aspose.words/node) |  |
+| curNode | [Node](../../com.aspose.words/node/) |  |
 
 **Returns:**
-[Node](../../com.aspose.words/node)
+[Node](../../com.aspose.words/node/)
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()
@@ -215,12 +216,12 @@ Returns the zero-based index of the specified node.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| node | [Node](../../com.aspose.words/node) | The node to locate. |
+| node | [Node](../../com.aspose.words/node/) | The node to locate. |
 
 **Returns:**
 int - The zero-based index of the node within the collection, if found; otherwise, -1.
 
-This method performs a linear search; therefore, the average execution time is proportional to [getCount()](../../com.aspose.words/nodecollection\#getCount).
+This method performs a linear search; therefore, the average execution time is proportional to [getCount()](../../com.aspose.words/nodecollection/\#getCount).
 ### insert(int index, Node node) {#insert-int-com.aspose.words.Node}
 ```
 public void insert(int index, Node node)
@@ -231,9 +232,9 @@ Inserts a node into the collection at the specified index.
 
 The node is inserted as a child into the node object from which the collection was created.
 
-If the index is equal to or greater than [getCount()](../../com.aspose.words/nodecollection\#getCount), the node is added at the end of the collection.
+If the index is equal to or greater than [getCount()](../../com.aspose.words/nodecollection/\#getCount), the node is added at the end of the collection.
 
-If the index is negative and its absolute value is greater than [getCount()](../../com.aspose.words/nodecollection\#getCount), the node is added at the end of the collection.
+If the index is negative and its absolute value is greater than [getCount()](../../com.aspose.words/nodecollection/\#getCount), the node is added at the end of the collection.
 
 If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
 
@@ -241,7 +242,7 @@ If the node being inserted was created from another document, you should use **M
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index of the node. Negative indexes are allowed and indicate access from the back of the list. For example -1 means the last node, -2 means the second before last and so on. |
-| node | [Node](../../com.aspose.words/node) | The node to insert. |
+| node | [Node](../../com.aspose.words/node/) | The node to insert. |
 
 ### iterator() {#iterator}
 ```
@@ -280,7 +281,7 @@ Removes the node from the collection and from the document.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| node | [Node](../../com.aspose.words/node) | The node to remove. |
+| node | [Node](../../com.aspose.words/node/) | The node to remove. |
 
 ### removeAt(int index) {#removeAt-int}
 ```

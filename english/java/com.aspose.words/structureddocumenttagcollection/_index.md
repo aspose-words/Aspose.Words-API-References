@@ -1,9 +1,10 @@
 ---
 title: StructuredDocumentTagCollection
+linktitle: StructuredDocumentTagCollection
 second_title: Aspose.Words for Java API Reference
-description: A collection of  instances that represent the structured document tags in the specified range.
+description: A collection of  instances that represent the structured document tags in the specified range in Java.
 type: docs
-weight: 537
+weight: 539
 url: /java/com.aspose.words/structureddocumenttagcollection/
 ---
 
@@ -16,12 +17,12 @@ java.lang.Iterable
 public class StructuredDocumentTagCollection implements Iterable
 ```
 
-A collection of [IStructuredDocumentTag](../../com.aspose.words/istructureddocumenttag) instances that represent the structured document tags in the specified range.
+A collection of [IStructuredDocumentTag](../../com.aspose.words/istructureddocumenttag/) instances that represent the structured document tags in the specified range.
 
 To learn more, visit the [ Structured Document Tags or Content Control ][Structured Document Tags or Content Control] documentation article.
 
 
-[Structured Document Tags or Content Control]: https://docs.aspose.com/words/java/structured-document-tags-or-content-control/
+[Structured Document Tags or Content Control]: https://docs.aspose.com/words/java/working-with-content-control-sdt/
 ## Methods
 
 | Method | Description |
@@ -72,7 +73,7 @@ Returns the structured document tag at the specified index.
 | index | int | An index into the collection. |
 
 **Returns:**
-[IStructuredDocumentTag](../../com.aspose.words/istructureddocumenttag) - The structured document tag at the specified index.
+[IStructuredDocumentTag](../../com.aspose.words/istructureddocumenttag/) - The structured document tag at the specified index.
 ### getById(int id) {#getById-int}
 ```
 public IStructuredDocumentTag getById(int id)
@@ -89,7 +90,7 @@ Returns null if the structured document tag with the specified identifier cannot
 | id | int | The structured document tag identifier. |
 
 **Returns:**
-[IStructuredDocumentTag](../../com.aspose.words/istructureddocumenttag)
+[IStructuredDocumentTag](../../com.aspose.words/istructureddocumenttag/)
 ### getByTag(String tag) {#getByTag-java.lang.String}
 ```
 public IStructuredDocumentTag getByTag(String tag)
@@ -106,7 +107,7 @@ Returns null if the structured document tag with the specified tag cannot be fou
 | tag | java.lang.String | The tag of the structured document tag. |
 
 **Returns:**
-[IStructuredDocumentTag](../../com.aspose.words/istructureddocumenttag)
+[IStructuredDocumentTag](../../com.aspose.words/istructureddocumenttag/)
 ### getByTitle(String title) {#getByTitle-java.lang.String}
 ```
 public IStructuredDocumentTag getByTitle(String title)
@@ -123,7 +124,7 @@ Returns null if the structured document tag with the specified title cannot be f
 | title | java.lang.String | The title of structured document tag. |
 
 **Returns:**
-[IStructuredDocumentTag](../../com.aspose.words/istructureddocumenttag)
+[IStructuredDocumentTag](../../com.aspose.words/istructureddocumenttag/)
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()

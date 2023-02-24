@@ -1,7 +1,8 @@
 ---
 title: EmbeddedFontFormat
+linktitle: EmbeddedFontFormat
 second_title: Aspose.Words for Java API Reference
-description: Specifies format of particular embedded font inside  object.
+description: Specifies format of particular embedded font inside  object in Java.
 type: docs
 weight: 142
 url: /java/com.aspose.words/embeddedfontformat/
@@ -13,7 +14,7 @@ java.lang.Object
 public class EmbeddedFontFormat
 ```
 
-Specifies format of particular embedded font inside [FontInfo](../../com.aspose.words/fontinfo) object.
+Specifies format of particular embedded font inside [FontInfo](../../com.aspose.words/fontinfo/) object.
 
 When saving a document to a file, only embedded fonts of corresponding format are written down.
 ## Fields

@@ -1,14 +1,15 @@
 ---
 title: TabStopCollection
+linktitle: TabStopCollection
 second_title: Aspose.Words for Java API Reference
-description: A collection of  objects that represent custom tabs for a paragraph or a style.
+description: A collection of  objects that represent custom tabs for a paragraph or a style in Java.
 type: docs
-weight: 551
+weight: 553
 url: /java/com.aspose.words/tabstopcollection/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.words.InternableComplexAttr](../../com.aspose.words/internablecomplexattr)
+java.lang.Object, [com.aspose.words.InternableComplexAttr](../../com.aspose.words/internablecomplexattr/)
 
 **All Implemented Interfaces:**
 java.lang.Cloneable
@@ -16,13 +17,13 @@ java.lang.Cloneable
 public class TabStopCollection extends InternableComplexAttr implements Cloneable
 ```
 
-A collection of [TabStop](../../com.aspose.words/tabstop) objects that represent custom tabs for a paragraph or a style.
+A collection of [TabStop](../../com.aspose.words/tabstop/) objects that represent custom tabs for a paragraph or a style.
 
 To learn more, visit the [ Aspose.Words Document Object Model (DOM) ][Aspose.Words Document Object Model _DOM_] documentation article.
 
 In Microsoft Word documents, a tab stop can be defined in the properties of a paragraph style or directly in the properties of a paragraph. A style can be based on another style. Therefore, the complete set of tab stops for a given object is a combination of tab stops defined directly on this object and tab stops inherited from the parent styles.
 
-In Aspose.Words, when you obtain a [TabStopCollection](../../com.aspose.words/tabstopcollection) for a paragraph or a style, it contains only the custom tab stops defined directly for this paragraph or style. The collection does not include tab stops defined in the parent styles or default tab stops.
+In Aspose.Words, when you obtain a [TabStopCollection](../../com.aspose.words/tabstopcollection/) for a paragraph or a style, it contains only the custom tab stops defined directly for this paragraph or style. The collection does not include tab stops defined in the parent styles or default tab stops.
 
 
 [Aspose.Words Document Object Model _DOM_]: https://docs.aspose.com/words/java/aspose-words-document-object-model/
@@ -35,7 +36,7 @@ In Aspose.Words, when you obtain a [TabStopCollection](../../com.aspose.words/ta
 | [after(double position)](#after-double) | Gets a first tab stop to the right of the specified position. |
 | [before(double position)](#before-double) | Gets a first tab stop to the left of the specified position. |
 | [clear()](#clear) | Deletes all tab stop positions. |
-| [equals(TabStopCollection rhs)](#equals-com.aspose.words.TabStopCollection) | Determines whether the specified [TabStopCollection](../../com.aspose.words/tabstopcollection) is equal in value to the current [TabStopCollection](../../com.aspose.words/tabstopcollection). |
+| [equals(TabStopCollection rhs)](#equals-com.aspose.words.TabStopCollection) | Determines whether the specified [TabStopCollection](../../com.aspose.words/tabstopcollection/) is equal in value to the current [TabStopCollection](../../com.aspose.words/tabstopcollection/). |
 | [equals(Object obj)](#equals-java.lang.Object) | Determines whether the specified object is equal in value to the current object. |
 | [get(double position)](#get-double) | Gets a tab stop at the specified position. |
 | [get(int index)](#get-int) | Retrieves a tab stop from the collection. |
@@ -66,7 +67,7 @@ If a tab stop already exists at the specified position, it is replaced.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tabStop | [TabStop](../../com.aspose.words/tabstop) | A tab stop object to add. |
+| tabStop | [TabStop](../../com.aspose.words/tabstop/) | A tab stop object to add. |
 
 ### add(double position, int alignment, int leader) {#add-double-int-int}
 ```
@@ -91,7 +92,7 @@ public TabStop after(double position)
 
 Gets a first tab stop to the right of the specified position.
 
-Skips tab stops with [TabStop.getAlignment()](../../com.aspose.words/tabstop\#getAlignment) / [TabStop.setAlignment(int)](../../com.aspose.words/tabstop\#setAlignment-int) set to [TabAlignment.BAR](../../com.aspose.words/tabalignment\#BAR).
+Skips tab stops with [TabStop.getAlignment()](../../com.aspose.words/tabstop/\#getAlignment) / [TabStop.setAlignment(int)](../../com.aspose.words/tabstop/\#setAlignment-int) set to [TabAlignment.BAR](../../com.aspose.words/tabalignment/\#BAR).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -99,7 +100,7 @@ Skips tab stops with [TabStop.getAlignment()](../../com.aspose.words/tabstop\#ge
 | position | double | The reference position (in points). |
 
 **Returns:**
-[TabStop](../../com.aspose.words/tabstop) - A tab stop object or  null  if a suitable tab stop was not found.
+[TabStop](../../com.aspose.words/tabstop/) - A tab stop object or  null  if a suitable tab stop was not found.
 ### before(double position) {#before-double}
 ```
 public TabStop before(double position)
@@ -108,7 +109,7 @@ public TabStop before(double position)
 
 Gets a first tab stop to the left of the specified position.
 
-Skips tab stops with [TabStop.getAlignment()](../../com.aspose.words/tabstop\#getAlignment) / [TabStop.setAlignment(int)](../../com.aspose.words/tabstop\#setAlignment-int) set to [TabAlignment.BAR](../../com.aspose.words/tabalignment\#BAR).
+Skips tab stops with [TabStop.getAlignment()](../../com.aspose.words/tabstop/\#getAlignment) / [TabStop.setAlignment(int)](../../com.aspose.words/tabstop/\#setAlignment-int) set to [TabAlignment.BAR](../../com.aspose.words/tabalignment/\#BAR).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -116,7 +117,7 @@ Skips tab stops with [TabStop.getAlignment()](../../com.aspose.words/tabstop\#ge
 | position | double | The reference position (in points). |
 
 **Returns:**
-[TabStop](../../com.aspose.words/tabstop) - A tab stop object or  null  if a suitable tab stop was not found.
+[TabStop](../../com.aspose.words/tabstop/) - A tab stop object or  null  if a suitable tab stop was not found.
 ### clear() {#clear}
 ```
 public void clear()
@@ -131,12 +132,12 @@ public boolean equals(TabStopCollection rhs)
 ```
 
 
-Determines whether the specified [TabStopCollection](../../com.aspose.words/tabstopcollection) is equal in value to the current [TabStopCollection](../../com.aspose.words/tabstopcollection).
+Determines whether the specified [TabStopCollection](../../com.aspose.words/tabstopcollection/) is equal in value to the current [TabStopCollection](../../com.aspose.words/tabstopcollection/).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rhs | [TabStopCollection](../../com.aspose.words/tabstopcollection) |  |
+| rhs | [TabStopCollection](../../com.aspose.words/tabstopcollection/) |  |
 
 **Returns:**
 boolean
@@ -169,7 +170,7 @@ Gets a tab stop at the specified position. Returns  null  if no tab stop is foun
 | position | double | The position (in points) of the tab stop. |
 
 **Returns:**
-[TabStop](../../com.aspose.words/tabstop) - A tab stop at the specified position.
+[TabStop](../../com.aspose.words/tabstop/) - A tab stop at the specified position.
 ### get(int index) {#get-int}
 ```
 public TabStop get(int index)
@@ -184,7 +185,7 @@ Retrieves a tab stop from the collection.  Gets a tab stop at the given index.
 | index | int | An index into the collection of tab stops. |
 
 **Returns:**
-[TabStop](../../com.aspose.words/tabstop) - The corresponding [TabStop](../../com.aspose.words/tabstop) value.
+[TabStop](../../com.aspose.words/tabstop/) - The corresponding [TabStop](../../com.aspose.words/tabstop/) value.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()

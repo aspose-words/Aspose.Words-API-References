@@ -1,7 +1,8 @@
 ---
 title: RefSizeF
+linktitle: RefSizeF
 second_title: Aspose.Words for Java API Reference
-description: Represents Out/Ref constructions for SizeF struct
+description: Represents Out/Ref constructions for SizeF struct in Java.
 type: docs
 weight: 21
 url: /java/com.aspose.words.ref/refsizef/

@@ -1,16 +1,17 @@
 ---
 title: IFieldUserPromptRespondent
+linktitle: IFieldUserPromptRespondent
 second_title: Aspose.Words for Java API Reference
-description: Represents the respondent to user prompts during field update.
+description: Represents the respondent to user prompts during field update in Java.
 type: docs
-weight: 650
+weight: 652
 url: /java/com.aspose.words/ifielduserpromptrespondent/
 ---
 ```
 public interface IFieldUserPromptRespondent
 ```
 
-Represents the respondent to user prompts during field update. The ASK and FILLIN fields are the examples of fields that prompt the user for some response. Implement this interface and assign it to the [FieldOptions.getUserPromptRespondent()](../../com.aspose.words/fieldoptions\#getUserPromptRespondent) / [FieldOptions.setUserPromptRespondent(com.aspose.words.IFieldUserPromptRespondent)](../../com.aspose.words/fieldoptions\#setUserPromptRespondent-com.aspose.words.IFieldUserPromptRespondent) property to establish interaction between field update and the user.
+Represents the respondent to user prompts during field update. The ASK and FILLIN fields are the examples of fields that prompt the user for some response. Implement this interface and assign it to the [FieldOptions.getUserPromptRespondent()](../../com.aspose.words/fieldoptions/\#getUserPromptRespondent) / [FieldOptions.setUserPromptRespondent(com.aspose.words.IFieldUserPromptRespondent)](../../com.aspose.words/fieldoptions/\#setUserPromptRespondent-com.aspose.words.IFieldUserPromptRespondent) property to establish interaction between field update and the user.
 ## Methods
 
 | Method | Description |

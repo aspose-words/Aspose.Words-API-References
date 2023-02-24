@@ -1,9 +1,10 @@
 ---
 title: List
+linktitle: List
 second_title: Aspose.Words for Java API Reference
-description: Represents formatting of a list.
+description: Represents formatting of a list in Java.
 type: docs
-weight: 370
+weight: 371
 url: /java/com.aspose.words/list/
 ---
 
@@ -22,13 +23,13 @@ To learn more, visit the [ Working with Lists ][Working with Lists] documentatio
 
 A list in a Microsoft Word document is a set of list formatting properties. Each list can have up to 9 levels and formatting properties, such as number style, start value, indent, tab position etc are defined separately for each level.
 
-A [List](../../com.aspose.words/list) object always belongs to the [ListCollection](../../com.aspose.words/listcollection) collection.
+A [List](../../com.aspose.words/list/) object always belongs to the [ListCollection](../../com.aspose.words/listcollection/) collection.
 
-To create a new list, use the Add methods of the [ListCollection](../../com.aspose.words/listcollection) collection.
+To create a new list, use the Add methods of the [ListCollection](../../com.aspose.words/listcollection/) collection.
 
-To modify formatting of a list, use [ListLevel](../../com.aspose.words/listlevel) objects found in the [getListLevels()](../../com.aspose.words/list\#getListLevels) collection.
+To modify formatting of a list, use [ListLevel](../../com.aspose.words/listlevel/) objects found in the [getListLevels()](../../com.aspose.words/list/\#getListLevels) collection.
 
-To apply or remove list formatting from a paragraph, use [ListFormat](../../com.aspose.words/listformat).
+To apply or remove list formatting from a paragraph, use [ListFormat](../../com.aspose.words/listformat/).
 
 
 [Working with Lists]: https://docs.aspose.com/words/java/working-with-lists/
@@ -68,7 +69,7 @@ Compares the specified list to the current list.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | [List](../../com.aspose.words/list) |  |
+| other | [List](../../com.aspose.words/list/) |  |
 
 **Returns:**
 int
@@ -83,7 +84,7 @@ Compares with the specified list.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| list | [List](../../com.aspose.words/list) |  |
+| list | [List](../../com.aspose.words/list/) |  |
 
 **Returns:**
 boolean
@@ -123,7 +124,7 @@ Gets the owner document.
 A list always has a parent document and is valid only in the context of that document.
 
 **Returns:**
-[DocumentBase](../../com.aspose.words/documentbase) - The owner document.
+[DocumentBase](../../com.aspose.words/documentbase/) - The owner document.
 ### getListId() {#getListId}
 ```
 public int getListId()
@@ -132,7 +133,7 @@ public int getListId()
 
 Gets the unique identifier of the list.
 
-You do not normally need to use this property. But if you use it, you normally do so in conjunction with the [ListCollection.getListByListId(int)](../../com.aspose.words/listcollection\#getListByListId-int) method to find a list by its identifier.
+You do not normally need to use this property. But if you use it, you normally do so in conjunction with the [ListCollection.getListByListId(int)](../../com.aspose.words/listcollection/\#getListByListId-int) method to find a list by its identifier.
 
 **Returns:**
 int - The unique identifier of the list.
@@ -147,7 +148,7 @@ Gets the collection of list levels for this list.
 Use this property to access and modify formatting individual to each level of the list.
 
 **Returns:**
-[ListLevelCollection](../../com.aspose.words/listlevelcollection) - The collection of list levels for this list.
+[ListLevelCollection](../../com.aspose.words/listlevelcollection/) - The collection of list levels for this list.
 ### getStyle() {#getStyle}
 ```
 public Style getStyle()
@@ -158,12 +159,12 @@ Gets the list style that this list references or defines.
 
 If this list is not associated with a list style, the property will return  null .
 
-A list could be a reference to a list style, in this case [isListStyleReference()](../../com.aspose.words/list\#isListStyleReference) will be  true .
+A list could be a reference to a list style, in this case [isListStyleReference()](../../com.aspose.words/list/\#isListStyleReference) will be  true .
 
-A list could be a definition of a list style, in this case [isListStyleDefinition()](../../com.aspose.words/list\#isListStyleDefinition) will be  true . Such a list cannot be applied to paragraphs in the document directly.
+A list could be a definition of a list style, in this case [isListStyleDefinition()](../../com.aspose.words/list/\#isListStyleDefinition) will be  true . Such a list cannot be applied to paragraphs in the document directly.
 
 **Returns:**
-[Style](../../com.aspose.words/style) - The list style that this list references or defines.
+[Style](../../com.aspose.words/style/) - The list style that this list references or defines.
 ### hasSameTemplate(List other) {#hasSameTemplate-com.aspose.words.List}
 ```
 public boolean hasSameTemplate(List other)
@@ -175,7 +176,7 @@ Returns true if the current list and the given list are created from the same te
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| other | [List](../../com.aspose.words/list) |  |
+| other | [List](../../com.aspose.words/list/) |  |
 
 **Returns:**
 boolean
@@ -197,7 +198,7 @@ public boolean isListStyleDefinition()
 
 Returns  true  if this list is a definition of a list style.
 
-When this property is  true , the [getStyle()](../../com.aspose.words/list\#getStyle) property returns the list style that this list defines.
+When this property is  true , the [getStyle()](../../com.aspose.words/list/\#getStyle) property returns the list style that this list defines.
 
 By modifying properties of a list that defines a list style, you modify the properties of the list style.
 
@@ -241,7 +242,7 @@ Specifies whether list should be restarted at each section. Default value is  fa
 
 This option is supported only in RTF, DOC and DOCX document formats.
 
-This option will be written to DOCX only if [OoxmlCompliance](../../com.aspose.words/ooxmlcompliance) is higher then [OoxmlCompliance.ECMA\_376\_2006](../../com.aspose.words/ooxmlcompliance\#ECMA-376-2006).
+This option will be written to DOCX only if [OoxmlCompliance](../../com.aspose.words/ooxmlcompliance/) is higher then [OoxmlCompliance.ECMA\_376\_2006](../../com.aspose.words/ooxmlcompliance/\#ECMA-376-2006).
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -255,7 +256,7 @@ Specifies whether list should be restarted at each section. Default value is  fa
 
 This option is supported only in RTF, DOC and DOCX document formats.
 
-This option will be written to DOCX only if [OoxmlCompliance](../../com.aspose.words/ooxmlcompliance) is higher then [OoxmlCompliance.ECMA\_376\_2006](../../com.aspose.words/ooxmlcompliance\#ECMA-376-2006).
+This option will be written to DOCX only if [OoxmlCompliance](../../com.aspose.words/ooxmlcompliance/) is higher then [OoxmlCompliance.ECMA\_376\_2006](../../com.aspose.words/ooxmlcompliance/\#ECMA-376-2006).
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -1,7 +1,8 @@
 ---
 title: ConstraintException
+linktitle: ConstraintException
 second_title: Aspose.Words for Java API Reference
-description: Represents the exception that is thrown when attempting an action that violates a constraint.
+description: Represents the exception that is thrown when attempting an action that violates a constraint in Java.
 type: docs
 weight: 12
 url: /java/com.aspose.words.net.system.data/constraintexception/
@@ -18,7 +19,7 @@ Represents the exception that is thrown when attempting an action that violates 
 
 | Constructor | Description |
 | --- | --- |
-| [ConstraintException(String s)](#ConstraintException-java.lang.String) | Initializes a new instance of the [ConstraintException](../../com.aspose.words.net.system.data/constraintexception) class with the specified string. |
+| [ConstraintException(String s)](#ConstraintException-java.lang.String) | Initializes a new instance of the [ConstraintException](../../com.aspose.words.net.system.data/constraintexception/) class with the specified string. |
 ## Methods
 
 | Method | Description |
@@ -50,7 +51,7 @@ public ConstraintException(String s)
 ```
 
 
-Initializes a new instance of the [ConstraintException](../../com.aspose.words.net.system.data/constraintexception) class with the specified string.
+Initializes a new instance of the [ConstraintException](../../com.aspose.words.net.system.data/constraintexception/) class with the specified string.
 
 **Parameters:**
 | Parameter | Type | Description |

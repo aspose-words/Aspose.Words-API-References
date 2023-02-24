@@ -1,9 +1,10 @@
 ---
 title: IReplacingCallback
+linktitle: IReplacingCallback
 second_title: Aspose.Words for Java API Reference
-description: Implement this interface if you want to have your own custom method called during a find and replace operation.
+description: Implement this interface if you want to have your own custom method called during a find and replace operation in Java.
 type: docs
-weight: 660
+weight: 662
 url: /java/com.aspose.words/ireplacingcallback/
 ---
 ```
@@ -27,7 +28,7 @@ A user defined method that is called during a replace operation for each match f
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| args | [ReplacingArgs](../../com.aspose.words/replacingargs) |  |
+| args | [ReplacingArgs](../../com.aspose.words/replacingargs/) |  |
 
 **Returns:**
-int - A [ReplaceAction](../../com.aspose.words/replaceaction) value that specifies the action to be taken for the current match. The returned value is one of [ReplaceAction](../../com.aspose.words/replaceaction) constants.
+int - A [ReplaceAction](../../com.aspose.words/replaceaction/) value that specifies the action to be taken for the current match. The returned value is one of [ReplaceAction](../../com.aspose.words/replaceaction/) constants.

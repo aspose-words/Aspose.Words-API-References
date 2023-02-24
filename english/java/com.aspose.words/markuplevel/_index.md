@@ -1,9 +1,10 @@
 ---
 title: MarkupLevel
+linktitle: MarkupLevel
 second_title: Aspose.Words for Java API Reference
-description: Specifies the level in the document tree where a particular  can occur.
+description: Specifies the level in the document tree where a particular  can occur in Java.
 type: docs
-weight: 394
+weight: 396
 url: /java/com.aspose.words/markuplevel/
 ---
 
@@ -13,7 +14,7 @@ java.lang.Object
 public class MarkupLevel
 ```
 
-Specifies the level in the document tree where a particular [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) can occur.
+Specifies the level in the document tree where a particular [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) can occur.
 ## Fields
 
 | Field | Description |

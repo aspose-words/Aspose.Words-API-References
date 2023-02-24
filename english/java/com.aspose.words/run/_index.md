@@ -1,14 +1,15 @@
 ---
 title: Run
+linktitle: Run
 second_title: Aspose.Words for Java API Reference
-description: Represents a run of characters with the same font formatting.
+description: Represents a run of characters with the same font formatting in Java.
 type: docs
-weight: 501
+weight: 503
 url: /java/com.aspose.words/run/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.words.Node](../../com.aspose.words/node), [com.aspose.words.Inline](../../com.aspose.words/inline)
+java.lang.Object, [com.aspose.words.Node](../../com.aspose.words/node/), [com.aspose.words.Inline](../../com.aspose.words/inline/)
 ```
 public class Run extends Inline
 ```
@@ -19,7 +20,7 @@ To learn more, visit the [ Programming with Documents ][Programming with Documen
 
 All text of the document is stored in runs of text.
 
-[Run](../../com.aspose.words/run) can only be a child of [Paragraph](../../com.aspose.words/paragraph) or inline [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag).
+[Run](../../com.aspose.words/run/) can only be a child of [Paragraph](../../com.aspose.words/paragraph/) or inline [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/).
 
 
 [Programming with Documents]: https://docs.aspose.com/words/java/programming-with-documents/
@@ -27,7 +28,7 @@ All text of the document is stored in runs of text.
 
 | Constructor | Description |
 | --- | --- |
-| [Run(DocumentBase doc)](#Run-com.aspose.words.DocumentBase) | Initializes a new instance of the [Run](../../com.aspose.words/run) class. |
+| [Run(DocumentBase doc)](#Run-com.aspose.words.DocumentBase) | Initializes a new instance of the [Run](../../com.aspose.words/run/) class. |
 | [Run(DocumentBase doc, String text)](#Run-com.aspose.words.DocumentBase-java.lang.String) | Initializes a new instance of the **Run** class. |
 ## Methods
 
@@ -49,12 +50,12 @@ All text of the document is stored in runs of text.
 | [getDocument_IInline()](#getDocument-IInline) |  |
 | [getFont()](#getFont) | Provides access to the font formatting of this object. |
 | [getNextSibling()](#getNextSibling) | Gets the node immediately following this node. |
-| [getNodeType()](#getNodeType) | Returns [NodeType.RUN](../../com.aspose.words/nodetype\#RUN). |
+| [getNodeType()](#getNodeType) | Returns [NodeType.RUN](../../com.aspose.words/nodetype/\#RUN). |
 | [getParentNode()](#getParentNode) | Gets the immediate parent of this node. |
-| [getParentParagraph()](#getParentParagraph) | Retrieves the parent [Paragraph](../../com.aspose.words/paragraph) of this node. |
+| [getParentParagraph()](#getParentParagraph) | Retrieves the parent [Paragraph](../../com.aspose.words/paragraph/) of this node. |
 | [getParentParagraph_IInline()](#getParentParagraph-IInline) |  |
 | [getPreviousSibling()](#getPreviousSibling) | Gets the node immediately preceding this node. |
-| [getRange()](#getRange) | Returns a [Range](../../com.aspose.words/range) object that represents the portion of a document that is contained in this node. |
+| [getRange()](#getRange) | Returns a [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node. |
 | [getText()](#getText) | Gets the text of the run. |
 | [hashCode()](#hashCode) |  |
 | [isComposite()](#isComposite) | Returns  true  if this node can contain other nodes. |
@@ -86,16 +87,16 @@ public Run(DocumentBase doc)
 ```
 
 
-Initializes a new instance of the [Run](../../com.aspose.words/run) class.
+Initializes a new instance of the [Run](../../com.aspose.words/run/) class.
 
-When [Run](../../com.aspose.words/run) is created, it belongs to the specified document, but is not yet part of the document and [Node.getParentNode()](../../com.aspose.words/node\#getParentNode) is  null .
+When [Run](../../com.aspose.words/run/) is created, it belongs to the specified document, but is not yet part of the document and [Node.getParentNode()](../../com.aspose.words/node/\#getParentNode) is  null .
 
-To append [Run](../../com.aspose.words/run) to the document use [CompositeNode.insertAfter(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode\#insertAfter-com.aspose.words.Node--com.aspose.words.Node) or [CompositeNode.insertBefore(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode\#insertBefore-com.aspose.words.Node--com.aspose.words.Node) on the paragraph where you want the run inserted.
+To append [Run](../../com.aspose.words/run/) to the document use [CompositeNode.insertAfter(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode/\#insertAfter-com.aspose.words.Node--com.aspose.words.Node) or [CompositeNode.insertBefore(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode/\#insertBefore-com.aspose.words.Node--com.aspose.words.Node) on the paragraph where you want the run inserted.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | [DocumentBase](../../com.aspose.words/documentbase) | The owner document. |
+| doc | [DocumentBase](../../com.aspose.words/documentbase/) | The owner document. |
 
 ### Run(DocumentBase doc, String text) {#Run-com.aspose.words.DocumentBase-java.lang.String}
 ```
@@ -105,14 +106,14 @@ public Run(DocumentBase doc, String text)
 
 Initializes a new instance of the **Run** class.
 
-When [Run](../../com.aspose.words/run) is created, it belongs to the specified document, but is not yet part of the document and [Node.getParentNode()](../../com.aspose.words/node\#getParentNode) is  null .
+When [Run](../../com.aspose.words/run/) is created, it belongs to the specified document, but is not yet part of the document and [Node.getParentNode()](../../com.aspose.words/node/\#getParentNode) is  null .
 
-To append [Run](../../com.aspose.words/run) to the document use [CompositeNode.insertAfter(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode\#insertAfter-com.aspose.words.Node--com.aspose.words.Node) or [CompositeNode.insertBefore(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode\#insertBefore-com.aspose.words.Node--com.aspose.words.Node) on the paragraph where you want the run inserted.
+To append [Run](../../com.aspose.words/run/) to the document use [CompositeNode.insertAfter(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode/\#insertAfter-com.aspose.words.Node--com.aspose.words.Node) or [CompositeNode.insertBefore(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode/\#insertBefore-com.aspose.words.Node--com.aspose.words.Node) on the paragraph where you want the run inserted.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | [DocumentBase](../../com.aspose.words/documentbase) | The owner document. |
+| doc | [DocumentBase](../../com.aspose.words/documentbase/) | The owner document. |
 | text | java.lang.String | The text of the run. |
 
 ### accept(DocumentVisitor visitor) {#accept-com.aspose.words.DocumentVisitor}
@@ -123,14 +124,14 @@ public boolean accept(DocumentVisitor visitor)
 
 Accepts a visitor.
 
-Calls [DocumentVisitor.visitRun(com.aspose.words.Run)](../../com.aspose.words/documentvisitor\#visitRun-com.aspose.words.Run).
+Calls [DocumentVisitor.visitRun(com.aspose.words.Run)](../../com.aspose.words/documentvisitor/\#visitRun-com.aspose.words.Run).
 
 For more info see the Visitor design pattern.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor) | The visitor that will visit the node. |
+| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor/) | The visitor that will visit the node. |
 
 **Returns:**
 boolean - \{ false  if the visitor requested the enumeration to stop.
@@ -168,7 +169,7 @@ This method always performs a deep copy of the node. The  isCloneChildren  param
 | isCloneChildren | boolean | True to recursively clone the subtree under the specified node; false to clone only the node itself. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The cloned node.
+[Node](../../com.aspose.words/node/) - The cloned node.
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
@@ -213,7 +214,7 @@ public CompositeNode getAncestor(int ancestorType)
 | ancestorType | int |  |
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode)
+[CompositeNode](../../com.aspose.words/compositenode/)
 ### getAncestor(Class ancestorType) {#getAncestor-java.lang.Class}
 ```
 public CompositeNode getAncestor(Class ancestorType)
@@ -228,7 +229,7 @@ Gets the first ancestor of the specified object type.
 | ancestorType | java.lang.Class | The object type of the ancestor to retrieve. |
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode) - The ancestor of the specified type or  null  if no ancestor of this type was found.
+[CompositeNode](../../com.aspose.words/compositenode/) - The ancestor of the specified type or  null  if no ancestor of this type was found.
 
 The ancestor type matches if it is equal to  ancestorType  or derived from  ancestorType .
 ### getClass() {#getClass}
@@ -299,7 +300,7 @@ Gets the document to which this node belongs.
 The node always belongs to a document even if it has just been created and not yet added to the tree, or if it has been removed from the tree.
 
 **Returns:**
-[DocumentBase](../../com.aspose.words/documentbase) - The document to which this node belongs.
+[DocumentBase](../../com.aspose.words/documentbase/) - The document to which this node belongs.
 ### getDocument_IInline() {#getDocument-IInline}
 ```
 public DocumentBase getDocument_IInline()
@@ -309,7 +310,7 @@ public DocumentBase getDocument_IInline()
 
 
 **Returns:**
-[DocumentBase](../../com.aspose.words/documentbase)
+[DocumentBase](../../com.aspose.words/documentbase/)
 ### getFont() {#getFont}
 ```
 public Font getFont()
@@ -319,7 +320,7 @@ public Font getFont()
 Provides access to the font formatting of this object.
 
 **Returns:**
-[Font](../../com.aspose.words/font) - The corresponding [Font](../../com.aspose.words/font) value.
+[Font](../../com.aspose.words/font/) - The corresponding [Font](../../com.aspose.words/font/) value.
 ### getNextSibling() {#getNextSibling}
 ```
 public Node getNextSibling()
@@ -329,17 +330,17 @@ public Node getNextSibling()
 Gets the node immediately following this node. If there is no next node, a  null  is returned.
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The node immediately following this node.
+[Node](../../com.aspose.words/node/) - The node immediately following this node.
 ### getNodeType() {#getNodeType}
 ```
 public int getNodeType()
 ```
 
 
-Returns [NodeType.RUN](../../com.aspose.words/nodetype\#RUN).
+Returns [NodeType.RUN](../../com.aspose.words/nodetype/\#RUN).
 
 **Returns:**
-int - \{[NodeType.RUN](../../com.aspose.words/nodetype\#RUN). The returned value is one of [NodeType](../../com.aspose.words/nodetype) constants.
+int - \{[NodeType.RUN](../../com.aspose.words/nodetype/\#RUN). The returned value is one of [NodeType](../../com.aspose.words/nodetype/) constants.
 ### getParentNode() {#getParentNode}
 ```
 public CompositeNode getParentNode()
@@ -351,17 +352,17 @@ Gets the immediate parent of this node.
 If a node has just been created and not yet added to the tree, or if it has been removed from the tree, the parent is  null .
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode) - The immediate parent of this node.
+[CompositeNode](../../com.aspose.words/compositenode/) - The immediate parent of this node.
 ### getParentParagraph() {#getParentParagraph}
 ```
 public Paragraph getParentParagraph()
 ```
 
 
-Retrieves the parent [Paragraph](../../com.aspose.words/paragraph) of this node.
+Retrieves the parent [Paragraph](../../com.aspose.words/paragraph/) of this node.
 
 **Returns:**
-[Paragraph](../../com.aspose.words/paragraph) - The corresponding [Paragraph](../../com.aspose.words/paragraph) value.
+[Paragraph](../../com.aspose.words/paragraph/) - The corresponding [Paragraph](../../com.aspose.words/paragraph/) value.
 ### getParentParagraph_IInline() {#getParentParagraph-IInline}
 ```
 public Paragraph getParentParagraph_IInline()
@@ -371,7 +372,7 @@ public Paragraph getParentParagraph_IInline()
 
 
 **Returns:**
-[Paragraph](../../com.aspose.words/paragraph)
+[Paragraph](../../com.aspose.words/paragraph/)
 ### getPreviousSibling() {#getPreviousSibling}
 ```
 public Node getPreviousSibling()
@@ -381,17 +382,17 @@ public Node getPreviousSibling()
 Gets the node immediately preceding this node. If there is no preceding node, a  null  is returned.
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The node immediately preceding this node.
+[Node](../../com.aspose.words/node/) - The node immediately preceding this node.
 ### getRange() {#getRange}
 ```
 public Range getRange()
 ```
 
 
-Returns a [Range](../../com.aspose.words/range) object that represents the portion of a document that is contained in this node.
+Returns a [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node.
 
 **Returns:**
-[Range](../../com.aspose.words/range) - A [Range](../../com.aspose.words/range) object that represents the portion of a document that is contained in this node.
+[Range](../../com.aspose.words/range/) - A [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node.
 ### getText() {#getText}
 ```
 public String getText()
@@ -418,7 +419,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (31362,6)
+Returns  true  if this node can contain other nodes. (31405,6)
 
 **Returns:**
 boolean - \{ true  if this node can contain other nodes.
@@ -483,10 +484,10 @@ Gets next node according to the pre-order tree traversal algorithm.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node) | The top node (limit) of traversal. |
+| rootNode | [Node](../../com.aspose.words/node/) | The top node (limit) of traversal. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - Next node in pre-order order. Null if reached the  rootNode .
+[Node](../../com.aspose.words/node/) - Next node in pre-order order. Null if reached the  rootNode .
 ### nodeTypeToString(int nodeType) {#nodeTypeToString-int}
 ```
 public static String nodeTypeToString(int nodeType)
@@ -529,10 +530,10 @@ Gets the previous node according to the pre-order tree traversal algorithm.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node) | The top node (limit) of traversal. |
+| rootNode | [Node](../../com.aspose.words/node/) | The top node (limit) of traversal. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - Previous node in pre-order order. Null if reached the  rootNode .
+[Node](../../com.aspose.words/node/) - Previous node in pre-order order. Null if reached the  rootNode .
 ### remove() {#remove}
 ```
 public void remove()
@@ -629,7 +630,7 @@ Exports the content of the node into a string using the specified save options.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions) | Specifies the options that control how the node is saved. |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) | Specifies the options that control how the node is saved. |
 
 **Returns:**
 java.lang.String - The content of the node in the specified format.

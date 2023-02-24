@@ -1,14 +1,15 @@
 ---
 title: Document
+linktitle: Document
 second_title: Aspose.Words for Java API Reference
-description: Represents a Word document.
+description: Represents a Word document in Java.
 type: docs
 weight: 121
 url: /java/com.aspose.words/document/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.words.Node](../../com.aspose.words/node), [com.aspose.words.CompositeNode](../../com.aspose.words/compositenode), [com.aspose.words.DocumentBase](../../com.aspose.words/documentbase)
+java.lang.Object, [com.aspose.words.Node](../../com.aspose.words/node/), [com.aspose.words.CompositeNode](../../com.aspose.words/compositenode/), [com.aspose.words.DocumentBase](../../com.aspose.words/documentbase/)
 ```
 public class Document extends DocumentBase
 ```
@@ -17,30 +18,30 @@ Represents a Word document.
 
 To learn more, visit the [ Working with Document ][Working with Document] documentation article.
 
-The [Document](../../com.aspose.words/document) is a central object in the Aspose.Words library.
+The [Document](../../com.aspose.words/document/) is a central object in the Aspose.Words library.
 
-To load an existing document in any of the [LoadFormat](../../com.aspose.words/loadformat) formats, pass a file name or a stream into one of the [Document](../../com.aspose.words/document) constructors. To create a blank document, call the constructor without parameters.
+To load an existing document in any of the [LoadFormat](../../com.aspose.words/loadformat/) formats, pass a file name or a stream into one of the [Document](../../com.aspose.words/document/) constructors. To create a blank document, call the constructor without parameters.
 
-Use one of the Save method overloads to save the document in any of the [SaveFormat](../../com.aspose.words/saveformat) formats.
+Use one of the Save method overloads to save the document in any of the [SaveFormat](../../com.aspose.words/saveformat/) formats.
 
-To draw document pages directly onto a **Graphics** object use [renderToScale(int, java.awt.Graphics2D, float, float, float)](../../com.aspose.words/document\#renderToScale-int--java.awt.Graphics2D--float--float--float) or [renderToSize(int, java.awt.Graphics2D, float, float, float, float)](../../com.aspose.words/document\#renderToSize-int--java.awt.Graphics2D--float--float--float--float) method.
+To draw document pages directly onto a **Graphics** object use [renderToScale(int, java.awt.Graphics2D, float, float, float)](../../com.aspose.words/document/\#renderToScale-int--java.awt.Graphics2D--float--float--float) or [renderToSize(int, java.awt.Graphics2D, float, float, float, float)](../../com.aspose.words/document/\#renderToSize-int--java.awt.Graphics2D--float--float--float--float) method.
 
-To print the document, use one of the [print(java.lang.String)](../../com.aspose.words/document\#print-java.lang.String) methods.
+To print the document, use one of the [print(java.lang.String)](../../com.aspose.words/document/\#print-java.lang.String) methods.
 
-[getMailMerge()](../../com.aspose.words/document\#getMailMerge) is the Aspose.Words's reporting engine that allows to populate reports designed in Microsoft Word with data from various data sources quickly and easily. The data can be from a java.sql.ResultSet or an array of values. **MailMerge** will go through the records found in the data source and insert them into mail merge fields in the document growing it as necessary.
+[getMailMerge()](../../com.aspose.words/document/\#getMailMerge) is the Aspose.Words's reporting engine that allows to populate reports designed in Microsoft Word with data from various data sources quickly and easily. The data can be from a java.sql.ResultSet or an array of values. **MailMerge** will go through the records found in the data source and insert them into mail merge fields in the document growing it as necessary.
 
-[Document](../../com.aspose.words/document) stores document-wide information such as [DocumentBase.getStyles()](../../com.aspose.words/documentbase\#getStyles), [getBuiltInDocumentProperties()](../../com.aspose.words/document\#getBuiltInDocumentProperties), [getCustomDocumentProperties()](../../com.aspose.words/document\#getCustomDocumentProperties), lists and macros. Most of these objects are accessible via the corresponding properties of the [Document](../../com.aspose.words/document).
+[Document](../../com.aspose.words/document/) stores document-wide information such as [DocumentBase.getStyles()](../../com.aspose.words/documentbase/\#getStyles), [getBuiltInDocumentProperties()](../../com.aspose.words/document/\#getBuiltInDocumentProperties), [getCustomDocumentProperties()](../../com.aspose.words/document/\#getCustomDocumentProperties), lists and macros. Most of these objects are accessible via the corresponding properties of the [Document](../../com.aspose.words/document/).
 
-The [Document](../../com.aspose.words/document) is a root node of a tree that contains all other nodes of the document. The tree is a Composite design pattern and in many ways similar to XmlDocument. The content of the document can be manipulated freely programmatically:
+The [Document](../../com.aspose.words/document/) is a root node of a tree that contains all other nodes of the document. The tree is a Composite design pattern and in many ways similar to XmlDocument. The content of the document can be manipulated freely programmatically:
 
- *  The nodes of the document can be accessed via typed collections, for example [getSections()](../../com.aspose.words/document\#getSections), [ParagraphCollection](../../com.aspose.words/paragraphcollection) etc.
- *  The nodes of the document can be selected by their node type using **M:Aspose.Words.CompositeNode.GetChildNodes(Aspose.Words.NodeType,System.Boolean)** or using an XPath query with [CompositeNode.selectNodes(java.lang.String)](../../com.aspose.words/compositenode\#selectNodes-java.lang.String) or [CompositeNode.selectSingleNode(java.lang.String)](../../com.aspose.words/compositenode\#selectSingleNode-java.lang.String).
- *  Content nodes can be added or removed from anywhere in the document using [CompositeNode.insertBefore(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode\#insertBefore-com.aspose.words.Node--com.aspose.words.Node), [CompositeNode.insertAfter(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode\#insertAfter-com.aspose.words.Node--com.aspose.words.Node), [CompositeNode.removeChild(com.aspose.words.Node)](../../com.aspose.words/compositenode\#removeChild-com.aspose.words.Node) and other methods provided by the base class [CompositeNode](../../com.aspose.words/compositenode).
+ *  The nodes of the document can be accessed via typed collections, for example [getSections()](../../com.aspose.words/document/\#getSections), [ParagraphCollection](../../com.aspose.words/paragraphcollection/) etc.
+ *  The nodes of the document can be selected by their node type using **M:Aspose.Words.CompositeNode.GetChildNodes(Aspose.Words.NodeType,System.Boolean)** or using an XPath query with [CompositeNode.selectNodes(java.lang.String)](../../com.aspose.words/compositenode/\#selectNodes-java.lang.String) or [CompositeNode.selectSingleNode(java.lang.String)](../../com.aspose.words/compositenode/\#selectSingleNode-java.lang.String).
+ *  Content nodes can be added or removed from anywhere in the document using [CompositeNode.insertBefore(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode/\#insertBefore-com.aspose.words.Node--com.aspose.words.Node), [CompositeNode.insertAfter(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode/\#insertAfter-com.aspose.words.Node--com.aspose.words.Node), [CompositeNode.removeChild(com.aspose.words.Node)](../../com.aspose.words/compositenode/\#removeChild-com.aspose.words.Node) and other methods provided by the base class [CompositeNode](../../com.aspose.words/compositenode/).
  *  The formatting attributes of each node can be changed via the properties of that node.
 
-Consider using [DocumentBuilder](../../com.aspose.words/documentbuilder) that simplifies the task of programmatically creating or populating the document tree.
+Consider using [DocumentBuilder](../../com.aspose.words/documentbuilder/) that simplifies the task of programmatically creating or populating the document tree.
 
-The [Document](../../com.aspose.words/document) can contain only [Section](../../com.aspose.words/section) objects.
+The [Document](../../com.aspose.words/document/) can contain only [Section](../../com.aspose.words/section/) objects.
 
 In Microsoft Word, a valid document needs to have at least one section.
 
@@ -66,19 +67,19 @@ In Microsoft Word, a valid document needs to have at least one section.
 | [appendDocument(Document srcDoc, int importFormatMode)](#appendDocument-com.aspose.words.Document-int) |  |
 | [appendDocument(Document srcDoc, int importFormatMode, ImportFormatOptions importFormatOptions)](#appendDocument-com.aspose.words.Document-int-com.aspose.words.ImportFormatOptions) |  |
 | [cleanup()](#cleanup) | Cleans unused styles and lists from the document. |
-| [cleanup(CleanupOptions options)](#cleanup-com.aspose.words.CleanupOptions) | Cleans unused styles and lists from the document depending on given [CleanupOptions](../../com.aspose.words/cleanupoptions). |
+| [cleanup(CleanupOptions options)](#cleanup-com.aspose.words.CleanupOptions) | Cleans unused styles and lists from the document depending on given [CleanupOptions](../../com.aspose.words/cleanupoptions/). |
 | [clearSectionAttrs()](#clearSectionAttrs) |  |
-| [compare(Document document, String author, Date dateTime)](#compare-com.aspose.words.Document-java.lang.String-java.util.Date) | Compares this document with another document producing changes as number of edit and format revisions [Revision](../../com.aspose.words/revision). |
-| [compare(Document document, String author, Date dateTime, CompareOptions options)](#compare-com.aspose.words.Document-java.lang.String-java.util.Date-com.aspose.words.CompareOptions) | Compares this document with another document producing changes as a number of edit and format revisions [Revision](../../com.aspose.words/revision). |
+| [compare(Document document, String author, Date dateTime)](#compare-com.aspose.words.Document-java.lang.String-java.util.Date) | Compares this document with another document producing changes as number of edit and format revisions [Revision](../../com.aspose.words/revision/). |
+| [compare(Document document, String author, Date dateTime, CompareOptions options)](#compare-com.aspose.words.Document-java.lang.String-java.util.Date-com.aspose.words.CompareOptions) | Compares this document with another document producing changes as a number of edit and format revisions [Revision](../../com.aspose.words/revision/). |
 | [copyStylesFromTemplate(Document template)](#copyStylesFromTemplate-com.aspose.words.Document) | Copies styles from the specified template to a document. |
 | [copyStylesFromTemplate(String template)](#copyStylesFromTemplate-java.lang.String) | Copies styles from the specified template to a document. |
 | [dd()](#dd) |  |
-| [deepClone()](#deepClone) | Performs a deep copy of the [Document](../../com.aspose.words/document). |
+| [deepClone()](#deepClone) | Performs a deep copy of the [Document](../../com.aspose.words/document/). |
 | [deepClone(boolean isCloneChildren)](#deepClone-boolean) | Creates a duplicate of the node. |
 | [ensureMinimum()](#ensureMinimum) | If the document contains no sections, creates one section with one paragraph. |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [expandTableStylesToDirectFormatting()](#expandTableStylesToDirectFormatting) | Converts formatting specified in table styles into direct formatting on tables in the document. |
-| [extractPages(int index, int count)](#extractPages-int-int) | Returns the [Document](../../com.aspose.words/document) object representing specified range of pages. |
+| [extractPages(int index, int count)](#extractPages-int-int) | Returns the [Document](../../com.aspose.words/document/) object representing specified range of pages. |
 | [fetchInheritedSectionAttr(int key)](#fetchInheritedSectionAttr-int) |  |
 | [fetchSectionAttr(int key)](#fetchSectionAttr-int) |  |
 | [get()](#get) |  |
@@ -105,26 +106,28 @@ In Microsoft Word, a valid document needs to have at least one section.
 | [getDirectSectionAttr(int key)](#getDirectSectionAttr-int) |  |
 | [getDocument()](#getDocument) |  |
 | [getEndnoteOptions()](#getEndnoteOptions) | Provides options that control numbering and positioning of endnotes in this document. |
-| [getFieldOptions()](#getFieldOptions) | Gets a [FieldOptions](../../com.aspose.words/fieldoptions) object that represents options to control field handling in the document. |
+| [getFieldOptions()](#getFieldOptions) | Gets a [FieldOptions](../../com.aspose.words/fieldoptions/) object that represents options to control field handling in the document. |
 | [getFirstChild()](#getFirstChild) | Gets the first child of the node. |
 | [getFirstSection()](#getFirstSection) | Gets the first section in the document. |
 | [getFontInfos()](#getFontInfos) | Provides access to properties of fonts used in this document. |
 | [getFontSettings()](#getFontSettings) | Gets document font settings. |
 | [getFootnoteOptions()](#getFootnoteOptions) | Provides options that control numbering and positioning of footnotes in this document. |
-| [getFrameset()](#getFrameset) | Returns a [getFrameset()](../../com.aspose.words/document\#getFrameset) instance if this document represents a frames page. |
+| [getFrameset()](#getFrameset) | Returns a [getFrameset()](../../com.aspose.words/document/\#getFrameset) instance if this document represents a frames page. |
 | [getGlossaryDocument()](#getGlossaryDocument) | Gets the glossary document within this document or template. |
 | [getGrammarChecked()](#getGrammarChecked) | Returns  true  if the document has been checked for grammar. |
 | [getHyphenationOptions()](#getHyphenationOptions) | Provides access to document hyphenation options. |
+| [getIncludeTextboxesFootnotesEndnotesInStat()](#getIncludeTextboxesFootnotesEndnotesInStat) | Specifies whether to include textboxes, footnotes and endnotes in word count statistics. |
+| [getJustificationMode()](#getJustificationMode) | Gets the character spacing adjustment of a document. |
 | [getLastChild()](#getLastChild) | Gets the last child of the node. |
 | [getLastSection()](#getLastSection) | Gets the last section in the document. |
-| [getLayoutOptions()](#getLayoutOptions) | Gets a [LayoutOptions](../../com.aspose.words/layoutoptions) object that represents options to control the layout process of this document. |
+| [getLayoutOptions()](#getLayoutOptions) | Gets a [LayoutOptions](../../com.aspose.words/layoutoptions/) object that represents options to control the layout process of this document. |
 | [getLists()](#getLists) | Provides access to the list formatting used in the document. |
-| [getMailMerge()](#getMailMerge) | Returns a [MailMerge](../../com.aspose.words/mailmerge) object that represents the mail merge functionality for the document. |
+| [getMailMerge()](#getMailMerge) | Returns a [MailMerge](../../com.aspose.words/mailmerge/) object that represents the mail merge functionality for the document. |
 | [getMailMergeSettings()](#getMailMergeSettings) | Gets the object that contains all of the mail merge information for a document. |
 | [getNextMatchingNode(Node curNode)](#getNextMatchingNode-com.aspose.words.Node) |  |
 | [getNextSibling()](#getNextSibling) | Gets the node immediately following this node. |
 | [getNodeChangingCallback()](#getNodeChangingCallback) | Called when a node is inserted or removed in the document. |
-| [getNodeType()](#getNodeType) | Returns [NodeType.DOCUMENT](../../com.aspose.words/nodetype\#DOCUMENT). |
+| [getNodeType()](#getNodeType) | Returns [NodeType.DOCUMENT](../../com.aspose.words/nodetype/\#DOCUMENT). |
 | [getOriginalFileName()](#getOriginalFileName) | Gets the original file name of the document. |
 | [getOriginalLoadFormat()](#getOriginalLoadFormat) | Gets the format of the original document that was loaded into this object. |
 | [getPackageCustomParts()](#getPackageCustomParts) | Gets the collection of custom parts (arbitrary content) that are linked to the OOXML package using "unknown relationships". |
@@ -134,7 +137,7 @@ In Microsoft Word, a valid document needs to have at least one section.
 | [getParentNode()](#getParentNode) | Gets the immediate parent of this node. |
 | [getPreviousSibling()](#getPreviousSibling) | Gets the node immediately preceding this node. |
 | [getProtectionType()](#getProtectionType) | Gets the currently active document protection type. |
-| [getRange()](#getRange) | Returns a [Range](../../com.aspose.words/range) object that represents the portion of a document that is contained in this node. |
+| [getRange()](#getRange) | Returns a [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node. |
 | [getRemovePersonalInformation()](#getRemovePersonalInformation) | Gets a flag indicating that Microsoft Word will remove all user information from comments, revisions and document properties upon saving the document. |
 | [getResourceLoadingCallback()](#getResourceLoadingCallback) | Allows to control how external resources are loaded. |
 | [getRevisions()](#getRevisions) | Gets a collection of revisions (tracked changes) that exist in this document. |
@@ -146,10 +149,10 @@ In Microsoft Word, a valid document needs to have at least one section.
 | [getSpellingChecked()](#getSpellingChecked) | Returns  true  if the document has been checked for spelling. |
 | [getStyles()](#getStyles) | Returns a collection of styles defined in the document. |
 | [getText()](#getText) | Gets the text of this node and of all its children. |
-| [getTheme()](#getTheme) | Gets the [getTheme()](../../com.aspose.words/document\#getTheme) object for this document. |
+| [getTheme()](#getTheme) | Gets the [getTheme()](../../com.aspose.words/document/\#getTheme) object for this document. |
 | [getTrackRevisions()](#getTrackRevisions) | True if changes are tracked when this document is edited in Microsoft Word. |
 | [getVariables()](#getVariables) | Returns the collection of variables added to a document or template. |
-| [getVbaProject()](#getVbaProject) | Gets a [getVbaProject()](../../com.aspose.words/document\#getVbaProject) / [setVbaProject(com.aspose.words.VbaProject)](../../com.aspose.words/document\#setVbaProject-com.aspose.words.VbaProject). |
+| [getVbaProject()](#getVbaProject) | Gets a [getVbaProject()](../../com.aspose.words/document/\#getVbaProject) / [setVbaProject(com.aspose.words.VbaProject)](../../com.aspose.words/document/\#setVbaProject-com.aspose.words.VbaProject). |
 | [getVersionsCount()](#getVersionsCount) | Gets the number of document versions that was stored in the DOC document. |
 | [getViewOptions()](#getViewOptions) | Provides options to control how the document is displayed in Microsoft Word. |
 | [getWarningCallback()](#getWarningCallback) | Called during various document processing procedures when an issue is detected that might result in data or formatting fidelity loss. |
@@ -170,7 +173,7 @@ In Microsoft Word, a valid document needs to have at least one section.
 | [joinRunsWithSameFormatting()](#joinRunsWithSameFormatting) | Joins runs with same formatting in all paragraphs of the document. |
 | [nextPreOrder(Node rootNode)](#nextPreOrder-com.aspose.words.Node) | Gets next node according to the pre-order tree traversal algorithm. |
 | [nodeTypeToString(int nodeType)](#nodeTypeToString-int) |  |
-| [normalizeFieldTypes()](#normalizeFieldTypes) | Changes field type values [FieldChar.getFieldType()](../../com.aspose.words/fieldchar\#getFieldType) of [FieldStart](../../com.aspose.words/fieldstart), [FieldSeparator](../../com.aspose.words/fieldseparator), [FieldEnd](../../com.aspose.words/fieldend) in the whole document so that they correspond to the field types contained in the field codes. |
+| [normalizeFieldTypes()](#normalizeFieldTypes) | Changes field type values [FieldChar.getFieldType()](../../com.aspose.words/fieldchar/\#getFieldType) of [FieldStart](../../com.aspose.words/fieldstart/), [FieldSeparator](../../com.aspose.words/fieldseparator/), [FieldEnd](../../com.aspose.words/fieldend/) in the whole document so that they correspond to the field types contained in the field codes. |
 | [notify()](#notify) |  |
 | [notifyAll()](#notifyAll) |  |
 | [prependChild(Node newChild)](#prependChild-com.aspose.words.Node) | Adds the specified node to the beginning of the list of child nodes for this node. |
@@ -186,7 +189,7 @@ In Microsoft Word, a valid document needs to have at least one section.
 | [removeChild(Node oldChild)](#removeChild-com.aspose.words.Node) | Removes the specified child node. |
 | [removeExternalSchemaReferences()](#removeExternalSchemaReferences) | Removes external XML schema references from this document. |
 | [removeMacros()](#removeMacros) | Removes all macros (the VBA project) as well as toolbars and command customizations from the document. |
-| [removeSmartTags()](#removeSmartTags) | Removes all [SmartTag](../../com.aspose.words/smarttag) descendant nodes of the current node. |
+| [removeSmartTags()](#removeSmartTags) | Removes all [SmartTag](../../com.aspose.words/smarttag/) descendant nodes of the current node. |
 | [renderToScale(int pageIndex, Graphics2D graphics, float x, float y, float scale)](#renderToScale-int-java.awt.Graphics2D-float-float-float) | Renders a document page into a  object to a specified scale. |
 | [renderToSize(int pageIndex, Graphics2D graphics, float x, float y, float width, float height)](#renderToSize-int-java.awt.Graphics2D-float-float-float-float) | Renders a document page into a  object to a specified size. |
 | [save(OutputStream stream, SaveOptions saveOptions)](#save-java.io.OutputStream-com.aspose.words.SaveOptions) |  |
@@ -195,7 +198,7 @@ In Microsoft Word, a valid document needs to have at least one section.
 | [save(String fileName, SaveOptions saveOptions)](#save-java.lang.String-com.aspose.words.SaveOptions) | Saves the document to a file using the specified save options. |
 | [save(String fileName, int saveFormat)](#save-java.lang.String-int) |  |
 | [selectNodes(String xpath)](#selectNodes-java.lang.String) | Selects a list of nodes matching the XPath expression. |
-| [selectSingleNode(String xpath)](#selectSingleNode-java.lang.String) | Selects the first [Node](../../com.aspose.words/node) that matches the XPath expression. |
+| [selectSingleNode(String xpath)](#selectSingleNode-java.lang.String) | Selects the first [Node](../../com.aspose.words/node/) that matches the XPath expression. |
 | [setAttachedTemplate(String value)](#setAttachedTemplate-java.lang.String) | Sets the full path of the template attached to the document. |
 | [setAutomaticallyUpdateStyles(boolean value)](#setAutomaticallyUpdateStyles-boolean) | Sets a flag indicating whether the styles in the document are updated to match the styles in the attached template each time the document is opened in MS Word. |
 | [setBackgroundShape(Shape value)](#setBackgroundShape-com.aspose.words.Shape) | Sets the background shape of the document. |
@@ -205,6 +208,8 @@ In Microsoft Word, a valid document needs to have at least one section.
 | [setFontSettings(FontSettings value)](#setFontSettings-com.aspose.words.FontSettings) | Sets document font settings. |
 | [setGlossaryDocument(GlossaryDocument value)](#setGlossaryDocument-com.aspose.words.GlossaryDocument) | Sets the glossary document within this document or template. |
 | [setGrammarChecked(boolean value)](#setGrammarChecked-boolean) | Returns  true  if the document has been checked for grammar. |
+| [setIncludeTextboxesFootnotesEndnotesInStat(boolean value)](#setIncludeTextboxesFootnotesEndnotesInStat-boolean) | Specifies whether to include textboxes, footnotes and endnotes in word count statistics. |
+| [setJustificationMode(int value)](#setJustificationMode-int) | Sets the character spacing adjustment of a document. |
 | [setMailMergeSettings(MailMergeSettings value)](#setMailMergeSettings-com.aspose.words.MailMergeSettings) | Sets the object that contains all of the mail merge information for a document. |
 | [setNodeChangingCallback(INodeChangingCallback value)](#setNodeChangingCallback-com.aspose.words.INodeChangingCallback) | Called when a node is inserted or removed in the document. |
 | [setPackageCustomParts(CustomPartCollection value)](#setPackageCustomParts-com.aspose.words.CustomPartCollection) | Sets the collection of custom parts (arbitrary content) that are linked to the OOXML package using "unknown relationships". |
@@ -218,7 +223,7 @@ In Microsoft Word, a valid document needs to have at least one section.
 | [setShowSpellingErrors(boolean value)](#setShowSpellingErrors-boolean) | Specifies whether to display spelling errors in this document. |
 | [setSpellingChecked(boolean value)](#setSpellingChecked-boolean) | Returns  true  if the document has been checked for spelling. |
 | [setTrackRevisions(boolean value)](#setTrackRevisions-boolean) | True if changes are tracked when this document is edited in Microsoft Word. |
-| [setVbaProject(VbaProject value)](#setVbaProject-com.aspose.words.VbaProject) | Sets a [getVbaProject()](../../com.aspose.words/document\#getVbaProject) / [setVbaProject(com.aspose.words.VbaProject)](../../com.aspose.words/document\#setVbaProject-com.aspose.words.VbaProject). |
+| [setVbaProject(VbaProject value)](#setVbaProject-com.aspose.words.VbaProject) | Sets a [getVbaProject()](../../com.aspose.words/document/\#getVbaProject) / [setVbaProject(com.aspose.words.VbaProject)](../../com.aspose.words/document/\#setVbaProject-com.aspose.words.VbaProject). |
 | [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.words.IWarningCallback) | Called during various document processing procedures when an issue is detected that might result in data or formatting fidelity loss. |
 | [startTrackRevisions(String author)](#startTrackRevisions-java.lang.String) | Starts automatically marking all further changes you make to the document programmatically as revision changes. |
 | [startTrackRevisions(String author, Date dateTime)](#startTrackRevisions-java.lang.String-java.util.Date) | Starts automatically marking all further changes you make to the document programmatically as revision changes. |
@@ -233,10 +238,10 @@ In Microsoft Word, a valid document needs to have at least one section.
 | [updateListLabels()](#updateListLabels) | Updates list labels for all list items in the document. |
 | [updatePageLayout()](#updatePageLayout) | Rebuilds the page layout of the document. |
 | [updateTableLayout()](#updateTableLayout) | Implements an earlier approach to table column widths re-calculation that has known issues. |
-| [updateThumbnail()](#updateThumbnail) | Updates [BuiltInDocumentProperties.getThumbnail()](../../com.aspose.words/builtindocumentproperties\#getThumbnail) / [BuiltInDocumentProperties.setThumbnail(byte[])](../../com.aspose.words/builtindocumentproperties\#setThumbnail-byte) of the document using default options. |
-| [updateThumbnail(ThumbnailGeneratingOptions options)](#updateThumbnail-com.aspose.words.ThumbnailGeneratingOptions) | Updates [BuiltInDocumentProperties.getThumbnail()](../../com.aspose.words/builtindocumentproperties\#getThumbnail) / [BuiltInDocumentProperties.setThumbnail(byte[])](../../com.aspose.words/builtindocumentproperties\#setThumbnail-byte) of the document according to the specified options. |
+| [updateThumbnail()](#updateThumbnail) | Updates [BuiltInDocumentProperties.getThumbnail()](../../com.aspose.words/builtindocumentproperties/\#getThumbnail) / [BuiltInDocumentProperties.setThumbnail(byte[])](../../com.aspose.words/builtindocumentproperties/\#setThumbnail-byte) of the document using default options. |
+| [updateThumbnail(ThumbnailGeneratingOptions options)](#updateThumbnail-com.aspose.words.ThumbnailGeneratingOptions) | Updates [BuiltInDocumentProperties.getThumbnail()](../../com.aspose.words/builtindocumentproperties/\#getThumbnail) / [BuiltInDocumentProperties.setThumbnail(byte[])](../../com.aspose.words/builtindocumentproperties/\#setThumbnail-byte) of the document according to the specified options. |
 | [updateWordCount()](#updateWordCount) | Updates word count properties of the document. |
-| [updateWordCount(boolean updateLinesCount)](#updateWordCount-boolean) | Updates word count properties of the document, optionally updates [BuiltInDocumentProperties.getLines()](../../com.aspose.words/builtindocumentproperties\#getLines) / [BuiltInDocumentProperties.setLines(int)](../../com.aspose.words/builtindocumentproperties\#setLines-int) property. |
+| [updateWordCount(boolean updateLinesCount)](#updateWordCount-boolean) | Updates word count properties of the document, optionally updates [BuiltInDocumentProperties.getLines()](../../com.aspose.words/builtindocumentproperties/\#getLines) / [BuiltInDocumentProperties.setLines(int)](../../com.aspose.words/builtindocumentproperties/\#setLines-int) property. |
 | [wait()](#wait) |  |
 | [wait(long arg0)](#wait-long) |  |
 | [wait(long arg0, int arg1)](#wait-long-int) |  |
@@ -248,9 +253,9 @@ public Document()
 
 Creates or loads a document.  Creates a blank Word document.
 
-The document paper size is Letter by default. If you want to change page setup, use [Section.getPageSetup()](../../com.aspose.words/section\#getPageSetup).
+The document paper size is Letter by default. If you want to change page setup, use [Section.getPageSetup()](../../com.aspose.words/section/\#getPageSetup).
 
-After creation, you can use [DocumentBuilder](../../com.aspose.words/documentbuilder) to add document content easily.
+After creation, you can use [DocumentBuilder](../../com.aspose.words/documentbuilder/) to add document content easily.
 
 ### Document(String fileName) {#Document-java.lang.String}
 ```
@@ -277,7 +282,7 @@ Opens an existing document from a file. Allows to specify additional options suc
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | java.lang.String | File name of the document to open. |
-| loadOptions | [LoadOptions](../../com.aspose.words/loadoptions) | Additional options to use when loading a document. Can be  null . |
+| loadOptions | [LoadOptions](../../com.aspose.words/loadoptions/) | Additional options to use when loading a document. Can be  null . |
 
 ### Document(InputStream stream) {#Document-java.io.InputStream}
 ```
@@ -304,7 +309,7 @@ Initializes a new instance of this class.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | java.io.InputStream |  |
-| loadOptions | [LoadOptions](../../com.aspose.words/loadoptions) |  |
+| loadOptions | [LoadOptions](../../com.aspose.words/loadoptions/) |  |
 
 ### accept(DocumentVisitor visitor) {#accept-com.aspose.words.DocumentVisitor}
 ```
@@ -314,24 +319,24 @@ public boolean accept(DocumentVisitor visitor)
 
 Accepts a visitor.
 
-Enumerates over this node and all of its children. Each node calls a corresponding method on [DocumentVisitor](../../com.aspose.words/documentvisitor).
+Enumerates over this node and all of its children. Each node calls a corresponding method on [DocumentVisitor](../../com.aspose.words/documentvisitor/).
 
 For more info see the Visitor design pattern.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor) | The visitor that will visit the nodes. |
+| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor/) | The visitor that will visit the nodes. |
 
 **Returns:**
-boolean - True if all nodes were visited; false if [DocumentVisitor](../../com.aspose.words/documentvisitor) stopped the operation before visiting all nodes. Calls [DocumentVisitor.visitDocumentStart(com.aspose.words.Document)](../../com.aspose.words/documentvisitor\#visitDocumentStart-com.aspose.words.Document), then calls [Node.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/node\#accept-com.aspose.words.DocumentVisitor) for all child nodes of the document and calls [DocumentVisitor.visitDocumentEnd(com.aspose.words.Document)](../../com.aspose.words/documentvisitor\#visitDocumentEnd-com.aspose.words.Document) at the end.
+boolean - True if all nodes were visited; false if [DocumentVisitor](../../com.aspose.words/documentvisitor/) stopped the operation before visiting all nodes. Calls [DocumentVisitor.visitDocumentStart(com.aspose.words.Document)](../../com.aspose.words/documentvisitor/\#visitDocumentStart-com.aspose.words.Document), then calls [Node.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/node/\#accept-com.aspose.words.DocumentVisitor) for all child nodes of the document and calls [DocumentVisitor.visitDocumentEnd(com.aspose.words.Document)](../../com.aspose.words/documentvisitor/\#visitDocumentEnd-com.aspose.words.Document) at the end.
 ### acceptAllRevisions() {#acceptAllRevisions}
 ```
 public void acceptAllRevisions()
 ```
 
 
-Accepts all tracked changes in the document. This method is a shortcut for [RevisionCollection.acceptAll()](../../com.aspose.words/revisioncollection\#acceptAll).
+Accepts all tracked changes in the document. This method is a shortcut for [RevisionCollection.acceptAll()](../../com.aspose.words/revisioncollection/\#acceptAll).
 
 ### add(Shape watermark) {#add-com.aspose.words.Shape}
 ```
@@ -344,7 +349,7 @@ public void add(Shape watermark)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| watermark | [Shape](../../com.aspose.words/shape) |  |
+| watermark | [Shape](../../com.aspose.words/shape/) |  |
 
 ### appendChild(Node newChild) {#appendChild-com.aspose.words.Node}
 ```
@@ -361,10 +366,10 @@ If the node being inserted was created from another document, you should use **M
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | The node to add. |
+| newChild | [Node](../../com.aspose.words/node/) | The node to add. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The node added.
+[Node](../../com.aspose.words/node/) - The node added.
 ### appendDocument(Document srcDoc, int importFormatMode) {#appendDocument-com.aspose.words.Document-int}
 ```
 public void appendDocument(Document srcDoc, int importFormatMode)
@@ -376,7 +381,7 @@ public void appendDocument(Document srcDoc, int importFormatMode)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| srcDoc | [Document](../../com.aspose.words/document) |  |
+| srcDoc | [Document](../../com.aspose.words/document/) |  |
 | importFormatMode | int |  |
 
 ### appendDocument(Document srcDoc, int importFormatMode, ImportFormatOptions importFormatOptions) {#appendDocument-com.aspose.words.Document-int-com.aspose.words.ImportFormatOptions}
@@ -390,9 +395,9 @@ public void appendDocument(Document srcDoc, int importFormatMode, ImportFormatOp
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| srcDoc | [Document](../../com.aspose.words/document) |  |
+| srcDoc | [Document](../../com.aspose.words/document/) |  |
 | importFormatMode | int |  |
-| importFormatOptions | [ImportFormatOptions](../../com.aspose.words/importformatoptions) |  |
+| importFormatOptions | [ImportFormatOptions](../../com.aspose.words/importformatoptions/) |  |
 
 ### cleanup() {#cleanup}
 ```
@@ -408,12 +413,12 @@ public void cleanup(CleanupOptions options)
 ```
 
 
-Cleans unused styles and lists from the document depending on given [CleanupOptions](../../com.aspose.words/cleanupoptions).
+Cleans unused styles and lists from the document depending on given [CleanupOptions](../../com.aspose.words/cleanupoptions/).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| options | [CleanupOptions](../../com.aspose.words/cleanupoptions) |  |
+| options | [CleanupOptions](../../com.aspose.words/cleanupoptions/) |  |
 
 ### clearSectionAttrs() {#clearSectionAttrs}
 ```
@@ -429,16 +434,16 @@ public void compare(Document document, String author, Date dateTime)
 ```
 
 
-Compares this document with another document producing changes as number of edit and format revisions [Revision](../../com.aspose.words/revision).
+Compares this document with another document producing changes as number of edit and format revisions [Revision](../../com.aspose.words/revision/).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| document | [Document](../../com.aspose.words/document) | Document to compare. |
+| document | [Document](../../com.aspose.words/document/) | Document to compare. |
 | author | java.lang.String | Initials of the author to use for revisions. |
 | dateTime | java.util.Date | The date and time to use for revisions. The following document nodes are not compared at the moment:
 
- *  [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag)
+ *  [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/)
  *  Item3
 
 Documents must not have revisions before comparison. |
@@ -449,15 +454,15 @@ public void compare(Document document, String author, Date dateTime, CompareOpti
 ```
 
 
-Compares this document with another document producing changes as a number of edit and format revisions [Revision](../../com.aspose.words/revision). Allows to specify comparison options using [CompareOptions](../../com.aspose.words/compareoptions).
+Compares this document with another document producing changes as a number of edit and format revisions [Revision](../../com.aspose.words/revision/). Allows to specify comparison options using [CompareOptions](../../com.aspose.words/compareoptions/).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| document | [Document](../../com.aspose.words/document) |  |
+| document | [Document](../../com.aspose.words/document/) |  |
 | author | java.lang.String |  |
 | dateTime | java.util.Date |  |
-| options | [CompareOptions](../../com.aspose.words/compareoptions) |  |
+| options | [CompareOptions](../../com.aspose.words/compareoptions/) |  |
 
 ### copyStylesFromTemplate(Document template) {#copyStylesFromTemplate-com.aspose.words.Document}
 ```
@@ -470,7 +475,7 @@ Copies styles from the specified template to a document. When styles are copied 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| template | [Document](../../com.aspose.words/document) |  |
+| template | [Document](../../com.aspose.words/document/) |  |
 
 ### copyStylesFromTemplate(String template) {#copyStylesFromTemplate-java.lang.String}
 ```
@@ -499,10 +504,10 @@ public Document deepClone()
 ```
 
 
-Performs a deep copy of the [Document](../../com.aspose.words/document).
+Performs a deep copy of the [Document](../../com.aspose.words/document/).
 
 **Returns:**
-[Document](../../com.aspose.words/document) - The cloned document.
+[Document](../../com.aspose.words/document/) - The cloned document.
 ### deepClone(boolean isCloneChildren) {#deepClone-boolean}
 ```
 public Node deepClone(boolean isCloneChildren)
@@ -521,7 +526,7 @@ This method always performs a deep copy of the node. The  isCloneChildren  param
 | isCloneChildren | boolean | True to recursively clone the subtree under the specified node; false to clone only the node itself. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The cloned node.
+[Node](../../com.aspose.words/node/) - The cloned node.
 ### ensureMinimum() {#ensureMinimum}
 ```
 public void ensureMinimum()
@@ -567,7 +572,7 @@ public Document extractPages(int index, int count)
 ```
 
 
-Returns the [Document](../../com.aspose.words/document) object representing specified range of pages. The resulting document should look like the one in MS Word, as if we had performed 'Print specific pages' \\u2013 the numbering, headers/footers and cross tables layout will be preserved. But due to a large number of nuances, appearing while reducing the number of pages, full match of the layout is a quiet complicated task requiring a lot of effort. Depending on the document complexity there might be slight differences in the resulting document contents layout comparing to the source document. Any feedback would be greatly appreciated.
+Returns the [Document](../../com.aspose.words/document/) object representing specified range of pages. The resulting document should look like the one in MS Word, as if we had performed 'Print specific pages' \\u2013 the numbering, headers/footers and cross tables layout will be preserved. But due to a large number of nuances, appearing while reducing the number of pages, full match of the layout is a quiet complicated task requiring a lot of effort. Depending on the document complexity there might be slight differences in the resulting document contents layout comparing to the source document. Any feedback would be greatly appreciated.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -576,7 +581,7 @@ Returns the [Document](../../com.aspose.words/document) object representing spec
 | count | int | Number of pages to be extracted. |
 
 **Returns:**
-[Document](../../com.aspose.words/document)
+[Document](../../com.aspose.words/document/)
 ### fetchInheritedSectionAttr(int key) {#fetchInheritedSectionAttr-int}
 ```
 public Object fetchInheritedSectionAttr(int key)
@@ -616,7 +621,7 @@ public Shape get()
 
 
 **Returns:**
-[Shape](../../com.aspose.words/shape)
+[Shape](../../com.aspose.words/shape/)
 ### getAncestor(int ancestorType) {#getAncestor-int}
 ```
 public CompositeNode getAncestor(int ancestorType)
@@ -631,7 +636,7 @@ public CompositeNode getAncestor(int ancestorType)
 | ancestorType | int |  |
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode)
+[CompositeNode](../../com.aspose.words/compositenode/)
 ### getAncestor(Class ancestorType) {#getAncestor-java.lang.Class}
 ```
 public CompositeNode getAncestor(Class ancestorType)
@@ -646,7 +651,7 @@ Gets the first ancestor of the specified object type.
 | ancestorType | java.lang.Class | The object type of the ancestor to retrieve. |
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode) - The ancestor of the specified type or  null  if no ancestor of this type was found.
+[CompositeNode](../../com.aspose.words/compositenode/) - The ancestor of the specified type or  null  if no ancestor of this type was found.
 
 The ancestor type matches if it is equal to  ancestorType  or derived from  ancestorType .
 ### getAttachedTemplate() {#getAttachedTemplate}
@@ -679,14 +684,14 @@ public Shape getBackgroundShape()
 
 Gets the background shape of the document. Can be  null .
 
-Microsoft Word allows only a shape that has its [ShapeBase.getShapeType()](../../com.aspose.words/shapebase\#getShapeType) property equal to [ShapeType.RECTANGLE](../../com.aspose.words/shapetype\#RECTANGLE) to be used as a background shape for a document.
+Microsoft Word allows only a shape that has its [ShapeBase.getShapeType()](../../com.aspose.words/shapebase/\#getShapeType) property equal to [ShapeType.RECTANGLE](../../com.aspose.words/shapetype/\#RECTANGLE) to be used as a background shape for a document.
 
 Microsoft Word supports only the fill properties of a background shape. All other properties are ignored.
 
-Setting this property to a non-null value will also set the [ViewOptions.getDisplayBackgroundShape()](../../com.aspose.words/viewoptions\#getDisplayBackgroundShape) / [ViewOptions.setDisplayBackgroundShape(boolean)](../../com.aspose.words/viewoptions\#setDisplayBackgroundShape-boolean) to  true .
+Setting this property to a non-null value will also set the [ViewOptions.getDisplayBackgroundShape()](../../com.aspose.words/viewoptions/\#getDisplayBackgroundShape) / [ViewOptions.setDisplayBackgroundShape(boolean)](../../com.aspose.words/viewoptions/\#setDisplayBackgroundShape-boolean) to  true .
 
 **Returns:**
-[Shape](../../com.aspose.words/shape) - The background shape of the document.
+[Shape](../../com.aspose.words/shape/) - The background shape of the document.
 ### getBuiltInDocumentProperties() {#getBuiltInDocumentProperties}
 ```
 public BuiltInDocumentProperties getBuiltInDocumentProperties()
@@ -696,7 +701,7 @@ public BuiltInDocumentProperties getBuiltInDocumentProperties()
 Returns a collection that represents all the built-in document properties of the document.
 
 **Returns:**
-[BuiltInDocumentProperties](../../com.aspose.words/builtindocumentproperties) - A collection that represents all the built-in document properties of the document.
+[BuiltInDocumentProperties](../../com.aspose.words/builtindocumentproperties/) - A collection that represents all the built-in document properties of the document.
 ### getChild(int nodeType, int index, boolean isDeep) {#getChild-int-int-boolean}
 ```
 public Node getChild(int nodeType, int index, boolean isDeep)
@@ -713,7 +718,7 @@ public Node getChild(int nodeType, int index, boolean isDeep)
 | isDeep | boolean |  |
 
 **Returns:**
-[Node](../../com.aspose.words/node)
+[Node](../../com.aspose.words/node/)
 ### getChildNodes() {#getChildNodes}
 ```
 public NodeCollection getChildNodes()
@@ -722,12 +727,12 @@ public NodeCollection getChildNodes()
 
 Gets all immediate child nodes of this node.
 
-Note, [getChildNodes()](../../com.aspose.words/compositenode\#getChildNodes) is equivalent to calling **M:Aspose.Words.CompositeNode.GetChildNodes(Aspose.Words.NodeType,System.Boolean)** with arguments ( [NodeType.ANY](../../com.aspose.words/nodetype\#ANY),  false ) and creates and returns a new collection every time it is accessed.
+Note, [getChildNodes()](../../com.aspose.words/compositenode/\#getChildNodes) is equivalent to calling **M:Aspose.Words.CompositeNode.GetChildNodes(Aspose.Words.NodeType,System.Boolean)** with arguments ( [NodeType.ANY](../../com.aspose.words/nodetype/\#ANY),  false ) and creates and returns a new collection every time it is accessed.
 
 If there are no child nodes, this property returns an empty collection.
 
 **Returns:**
-[NodeCollection](../../com.aspose.words/nodecollection) - All immediate child nodes of this node.
+[NodeCollection](../../com.aspose.words/nodecollection/) - All immediate child nodes of this node.
 ### getChildNodes(int nodeType, boolean isDeep) {#getChildNodes-int-boolean}
 ```
 public NodeCollection getChildNodes(int nodeType, boolean isDeep)
@@ -743,7 +748,7 @@ public NodeCollection getChildNodes(int nodeType, boolean isDeep)
 | isDeep | boolean |  |
 
 **Returns:**
-[NodeCollection](../../com.aspose.words/nodecollection)
+[NodeCollection](../../com.aspose.words/nodecollection/)
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -763,7 +768,7 @@ public CompatibilityOptions getCompatibilityOptions()
 Provides access to document compatibility options (that is, the user preferences entered on the **Compatibility** tab of the **Options** dialog in Word).
 
 **Returns:**
-[CompatibilityOptions](../../com.aspose.words/compatibilityoptions) - The corresponding [CompatibilityOptions](../../com.aspose.words/compatibilityoptions) value.
+[CompatibilityOptions](../../com.aspose.words/compatibilityoptions/) - The corresponding [CompatibilityOptions](../../com.aspose.words/compatibilityoptions/) value.
 ### getCompliance() {#getCompliance}
 ```
 public int getCompliance()
@@ -772,10 +777,10 @@ public int getCompliance()
 
 Gets the OOXML compliance version determined from the loaded document content. Makes sense only for OOXML documents.
 
-If you created a new blank document or load non OOXML document returns the [OoxmlCompliance.ECMA\_376\_2006](../../com.aspose.words/ooxmlcompliance\#ECMA-376-2006) value.
+If you created a new blank document or load non OOXML document returns the [OoxmlCompliance.ECMA\_376\_2006](../../com.aspose.words/ooxmlcompliance/\#ECMA-376-2006) value.
 
 **Returns:**
-int - The OOXML compliance version determined from the loaded document content. The returned value is one of [OoxmlCompliance](../../com.aspose.words/ooxmlcompliance) constants.
+int - The OOXML compliance version determined from the loaded document content. The returned value is one of [OoxmlCompliance](../../com.aspose.words/ooxmlcompliance/) constants.
 ### getContainer() {#getContainer}
 ```
 public CompositeNode getContainer()
@@ -785,7 +790,7 @@ public CompositeNode getContainer()
 
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode)
+[CompositeNode](../../com.aspose.words/compositenode/)
 ### getCount() {#getCount}
 ```
 public int getCount()
@@ -805,7 +810,7 @@ public Node getCurrentNode()
 
 
 **Returns:**
-[Node](../../com.aspose.words/node)
+[Node](../../com.aspose.words/node/)
 ### getCustomDocumentProperties() {#getCustomDocumentProperties}
 ```
 public CustomDocumentProperties getCustomDocumentProperties()
@@ -815,7 +820,7 @@ public CustomDocumentProperties getCustomDocumentProperties()
 Returns a collection that represents all the custom document properties of the document.
 
 **Returns:**
-[CustomDocumentProperties](../../com.aspose.words/customdocumentproperties) - A collection that represents all the custom document properties of the document.
+[CustomDocumentProperties](../../com.aspose.words/customdocumentproperties/) - A collection that represents all the custom document properties of the document.
 ### getCustomNodeId() {#getCustomNodeId}
 ```
 public int getCustomNodeId()
@@ -845,7 +850,7 @@ Aspose.Words loads and saves Custom XML Parts into OOXML and DOC documents only.
 This property cannot be  null .
 
 **Returns:**
-[CustomXmlPartCollection](../../com.aspose.words/customxmlpartcollection) - The collection of Custom XML Data Storage Parts.
+[CustomXmlPartCollection](../../com.aspose.words/customxmlpartcollection/) - The collection of Custom XML Data Storage Parts.
 ### getDefaultTabStop() {#getDefaultTabStop}
 ```
 public double getDefaultTabStop()
@@ -864,12 +869,12 @@ public DigitalSignatureCollection getDigitalSignatures()
 
 Gets the collection of digital signatures for this document and their validation results.
 
-This collection contains digital signatures that were loaded from the original document. These digital signatures will not be saved when you save this [Document](../../com.aspose.words/document) object into a file or stream because saving or converting will produce a document that is different from the original and the original digital signatures will no longer be valid.
+This collection contains digital signatures that were loaded from the original document. These digital signatures will not be saved when you save this [Document](../../com.aspose.words/document/) object into a file or stream because saving or converting will produce a document that is different from the original and the original digital signatures will no longer be valid.
 
 This collection is never  null . If the document is not signed, it will contain zero elements.
 
 **Returns:**
-[DigitalSignatureCollection](../../com.aspose.words/digitalsignaturecollection) - The collection of digital signatures for this document and their validation results.
+[DigitalSignatureCollection](../../com.aspose.words/digitalsignaturecollection/) - The collection of digital signatures for this document and their validation results.
 ### getDirectSectionAttr(int key) {#getDirectSectionAttr-int}
 ```
 public Object getDirectSectionAttr(int key)
@@ -896,7 +901,7 @@ Gets the document to which this node belongs.
 The node always belongs to a document even if it has just been created and not yet added to the tree, or if it has been removed from the tree.
 
 **Returns:**
-[DocumentBase](../../com.aspose.words/documentbase)
+[DocumentBase](../../com.aspose.words/documentbase/)
 ### getEndnoteOptions() {#getEndnoteOptions}
 ```
 public EndnoteOptions getEndnoteOptions()
@@ -906,17 +911,17 @@ public EndnoteOptions getEndnoteOptions()
 Provides options that control numbering and positioning of endnotes in this document.
 
 **Returns:**
-[EndnoteOptions](../../com.aspose.words/endnoteoptions) - The corresponding [EndnoteOptions](../../com.aspose.words/endnoteoptions) value.
+[EndnoteOptions](../../com.aspose.words/endnoteoptions/) - The corresponding [EndnoteOptions](../../com.aspose.words/endnoteoptions/) value.
 ### getFieldOptions() {#getFieldOptions}
 ```
 public FieldOptions getFieldOptions()
 ```
 
 
-Gets a [FieldOptions](../../com.aspose.words/fieldoptions) object that represents options to control field handling in the document.
+Gets a [FieldOptions](../../com.aspose.words/fieldoptions/) object that represents options to control field handling in the document.
 
 **Returns:**
-[FieldOptions](../../com.aspose.words/fieldoptions) - A [FieldOptions](../../com.aspose.words/fieldoptions) object that represents options to control field handling in the document.
+[FieldOptions](../../com.aspose.words/fieldoptions/) - A [FieldOptions](../../com.aspose.words/fieldoptions/) object that represents options to control field handling in the document.
 ### getFirstChild() {#getFirstChild}
 ```
 public Node getFirstChild()
@@ -926,7 +931,7 @@ public Node getFirstChild()
 Gets the first child of the node. If there is no first child node, a  null  is returned.
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The first child of the node.
+[Node](../../com.aspose.words/node/) - The first child of the node.
 ### getFirstSection() {#getFirstSection}
 ```
 public Section getFirstSection()
@@ -936,7 +941,7 @@ public Section getFirstSection()
 Gets the first section in the document. Returns  null  if there are no sections.
 
 **Returns:**
-[Section](../../com.aspose.words/section) - The first section in the document.
+[Section](../../com.aspose.words/section/) - The first section in the document.
 ### getFontInfos() {#getFontInfos}
 ```
 public FontInfoCollection getFontInfos()
@@ -950,7 +955,7 @@ This collection of font definitions is loaded as is from the document. Font defi
 Do not rely on this collection to ascertain that a particular font is used in the document. You should only use this collection to get information about fonts that might be used in the document.
 
 **Returns:**
-[FontInfoCollection](../../com.aspose.words/fontinfocollection) - The corresponding [FontInfoCollection](../../com.aspose.words/fontinfocollection) value.
+[FontInfoCollection](../../com.aspose.words/fontinfocollection/) - The corresponding [FontInfoCollection](../../com.aspose.words/fontinfocollection/) value.
 ### getFontSettings() {#getFontSettings}
 ```
 public FontSettings getFontSettings()
@@ -959,12 +964,12 @@ public FontSettings getFontSettings()
 
 Gets document font settings.
 
-This property allows to specify font settings per document. If set to  null , default static font settings [FontSettings.getDefaultInstance()](../../com.aspose.words/fontsettings\#getDefaultInstance) will be used.
+This property allows to specify font settings per document. If set to  null , default static font settings [FontSettings.getDefaultInstance()](../../com.aspose.words/fontsettings/\#getDefaultInstance) will be used.
 
 The default value is  null .
 
 **Returns:**
-[FontSettings](../../com.aspose.words/fontsettings) - Document font settings.
+[FontSettings](../../com.aspose.words/fontsettings/) - Document font settings.
 ### getFootnoteOptions() {#getFootnoteOptions}
 ```
 public FootnoteOptions getFootnoteOptions()
@@ -974,17 +979,17 @@ public FootnoteOptions getFootnoteOptions()
 Provides options that control numbering and positioning of footnotes in this document.
 
 **Returns:**
-[FootnoteOptions](../../com.aspose.words/footnoteoptions) - The corresponding [FootnoteOptions](../../com.aspose.words/footnoteoptions) value.
+[FootnoteOptions](../../com.aspose.words/footnoteoptions/) - The corresponding [FootnoteOptions](../../com.aspose.words/footnoteoptions/) value.
 ### getFrameset() {#getFrameset}
 ```
 public Frameset getFrameset()
 ```
 
 
-Returns a [getFrameset()](../../com.aspose.words/document\#getFrameset) instance if this document represents a frames page. If the document is not framed, the property has the  null  value.
+Returns a [getFrameset()](../../com.aspose.words/document/\#getFrameset) instance if this document represents a frames page. If the document is not framed, the property has the  null  value.
 
 **Returns:**
-[Frameset](../../com.aspose.words/frameset) - A [getFrameset()](../../com.aspose.words/document\#getFrameset) instance if this document represents a frames page.
+[Frameset](../../com.aspose.words/frameset/) - A [getFrameset()](../../com.aspose.words/document/\#getFrameset) instance if this document represents a frames page.
 ### getGlossaryDocument() {#getGlossaryDocument}
 ```
 public GlossaryDocument getGlossaryDocument()
@@ -995,10 +1000,10 @@ Gets the glossary document within this document or template. A glossary document
 
 This property returns  null  if the document does not have a glossary document.
 
-You can add a glossary document to a document by creating a [GlossaryDocument](../../com.aspose.words/glossarydocument) object and assigning to this property.
+You can add a glossary document to a document by creating a [GlossaryDocument](../../com.aspose.words/glossarydocument/) object and assigning to this property.
 
 **Returns:**
-[GlossaryDocument](../../com.aspose.words/glossarydocument) - The glossary document within this document or template.
+[GlossaryDocument](../../com.aspose.words/glossarydocument/) - The glossary document within this document or template.
 ### getGrammarChecked() {#getGrammarChecked}
 ```
 public boolean getGrammarChecked()
@@ -1018,7 +1023,27 @@ public HyphenationOptions getHyphenationOptions()
 Provides access to document hyphenation options.
 
 **Returns:**
-[HyphenationOptions](../../com.aspose.words/hyphenationoptions) - The corresponding [HyphenationOptions](../../com.aspose.words/hyphenationoptions) value.
+[HyphenationOptions](../../com.aspose.words/hyphenationoptions/) - The corresponding [HyphenationOptions](../../com.aspose.words/hyphenationoptions/) value.
+### getIncludeTextboxesFootnotesEndnotesInStat() {#getIncludeTextboxesFootnotesEndnotesInStat}
+```
+public boolean getIncludeTextboxesFootnotesEndnotesInStat()
+```
+
+
+Specifies whether to include textboxes, footnotes and endnotes in word count statistics.
+
+**Returns:**
+boolean - The corresponding  boolean  value.
+### getJustificationMode() {#getJustificationMode}
+```
+public int getJustificationMode()
+```
+
+
+Gets the character spacing adjustment of a document.
+
+**Returns:**
+int - The character spacing adjustment of a document. The returned value is one of [JustificationMode](../../com.aspose.words/justificationmode/) constants.
 ### getLastChild() {#getLastChild}
 ```
 public Node getLastChild()
@@ -1028,7 +1053,7 @@ public Node getLastChild()
 Gets the last child of the node. If there is no last child node, a  null  is returned.
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The last child of the node.
+[Node](../../com.aspose.words/node/) - The last child of the node.
 ### getLastSection() {#getLastSection}
 ```
 public Section getLastSection()
@@ -1038,17 +1063,17 @@ public Section getLastSection()
 Gets the last section in the document. Returns  null  if there are no sections.
 
 **Returns:**
-[Section](../../com.aspose.words/section) - The last section in the document.
+[Section](../../com.aspose.words/section/) - The last section in the document.
 ### getLayoutOptions() {#getLayoutOptions}
 ```
 public LayoutOptions getLayoutOptions()
 ```
 
 
-Gets a [LayoutOptions](../../com.aspose.words/layoutoptions) object that represents options to control the layout process of this document.
+Gets a [LayoutOptions](../../com.aspose.words/layoutoptions/) object that represents options to control the layout process of this document.
 
 **Returns:**
-[LayoutOptions](../../com.aspose.words/layoutoptions) - A [LayoutOptions](../../com.aspose.words/layoutoptions) object that represents options to control the layout process of this document.
+[LayoutOptions](../../com.aspose.words/layoutoptions/) - A [LayoutOptions](../../com.aspose.words/layoutoptions/) object that represents options to control the layout process of this document.
 ### getLists() {#getLists}
 ```
 public ListCollection getLists()
@@ -1057,20 +1082,20 @@ public ListCollection getLists()
 
 Provides access to the list formatting used in the document.
 
-For more information see the description of the [ListCollection](../../com.aspose.words/listcollection) class.
+For more information see the description of the [ListCollection](../../com.aspose.words/listcollection/) class.
 
 **Returns:**
-[ListCollection](../../com.aspose.words/listcollection) - The corresponding [ListCollection](../../com.aspose.words/listcollection) value.
+[ListCollection](../../com.aspose.words/listcollection/) - The corresponding [ListCollection](../../com.aspose.words/listcollection/) value.
 ### getMailMerge() {#getMailMerge}
 ```
 public MailMerge getMailMerge()
 ```
 
 
-Returns a [MailMerge](../../com.aspose.words/mailmerge) object that represents the mail merge functionality for the document.
+Returns a [MailMerge](../../com.aspose.words/mailmerge/) object that represents the mail merge functionality for the document.
 
 **Returns:**
-[MailMerge](../../com.aspose.words/mailmerge) - A [MailMerge](../../com.aspose.words/mailmerge) object that represents the mail merge functionality for the document.
+[MailMerge](../../com.aspose.words/mailmerge/) - A [MailMerge](../../com.aspose.words/mailmerge/) object that represents the mail merge functionality for the document.
 ### getMailMergeSettings() {#getMailMergeSettings}
 ```
 public MailMergeSettings getMailMergeSettings()
@@ -1084,7 +1109,7 @@ You can use this object to specify a mail merge data source for a document and t
 This object is never  null .
 
 **Returns:**
-[MailMergeSettings](../../com.aspose.words/mailmergesettings) - The object that contains all of the mail merge information for a document.
+[MailMergeSettings](../../com.aspose.words/mailmergesettings/) - The object that contains all of the mail merge information for a document.
 ### getNextMatchingNode(Node curNode) {#getNextMatchingNode-com.aspose.words.Node}
 ```
 public Node getNextMatchingNode(Node curNode)
@@ -1096,10 +1121,10 @@ public Node getNextMatchingNode(Node curNode)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| curNode | [Node](../../com.aspose.words/node) |  |
+| curNode | [Node](../../com.aspose.words/node/) |  |
 
 **Returns:**
-[Node](../../com.aspose.words/node)
+[Node](../../com.aspose.words/node/)
 ### getNextSibling() {#getNextSibling}
 ```
 public Node getNextSibling()
@@ -1109,7 +1134,7 @@ public Node getNextSibling()
 Gets the node immediately following this node. If there is no next node, a  null  is returned.
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The node immediately following this node.
+[Node](../../com.aspose.words/node/) - The node immediately following this node.
 ### getNodeChangingCallback() {#getNodeChangingCallback}
 ```
 public INodeChangingCallback getNodeChangingCallback()
@@ -1119,17 +1144,17 @@ public INodeChangingCallback getNodeChangingCallback()
 Called when a node is inserted or removed in the document.
 
 **Returns:**
-[INodeChangingCallback](../../com.aspose.words/inodechangingcallback) - The corresponding [INodeChangingCallback](../../com.aspose.words/inodechangingcallback) value.
+[INodeChangingCallback](../../com.aspose.words/inodechangingcallback/) - The corresponding [INodeChangingCallback](../../com.aspose.words/inodechangingcallback/) value.
 ### getNodeType() {#getNodeType}
 ```
 public int getNodeType()
 ```
 
 
-Returns [NodeType.DOCUMENT](../../com.aspose.words/nodetype\#DOCUMENT).
+Returns [NodeType.DOCUMENT](../../com.aspose.words/nodetype/\#DOCUMENT).
 
 **Returns:**
-int - \{[NodeType.DOCUMENT](../../com.aspose.words/nodetype\#DOCUMENT). The returned value is one of [NodeType](../../com.aspose.words/nodetype) constants.
+int - \{[NodeType.DOCUMENT](../../com.aspose.words/nodetype/\#DOCUMENT). The returned value is one of [NodeType](../../com.aspose.words/nodetype/) constants.
 ### getOriginalFileName() {#getOriginalFileName}
 ```
 public String getOriginalFileName()
@@ -1150,10 +1175,10 @@ public int getOriginalLoadFormat()
 
 Gets the format of the original document that was loaded into this object.
 
-If you created a new blank document, returns the [LoadFormat.DOC](../../com.aspose.words/loadformat\#DOC) value.
+If you created a new blank document, returns the [LoadFormat.DOC](../../com.aspose.words/loadformat/\#DOC) value.
 
 **Returns:**
-int - The format of the original document that was loaded into this object. The returned value is one of [LoadFormat](../../com.aspose.words/loadformat) constants.
+int - The format of the original document that was loaded into this object. The returned value is one of [LoadFormat](../../com.aspose.words/loadformat/) constants.
 ### getPackageCustomParts() {#getPackageCustomParts}
 ```
 public CustomPartCollection getPackageCustomParts()
@@ -1162,25 +1187,25 @@ public CustomPartCollection getPackageCustomParts()
 
 Gets the collection of custom parts (arbitrary content) that are linked to the OOXML package using "unknown relationships".
 
-Do not confuse these custom parts with Custom XML Data. If you need to access Custom XML parts, use the [getCustomXmlParts()](../../com.aspose.words/document\#getCustomXmlParts) / [setCustomXmlParts(com.aspose.words.CustomXmlPartCollection)](../../com.aspose.words/document\#setCustomXmlParts-com.aspose.words.CustomXmlPartCollection) property.
+Do not confuse these custom parts with Custom XML Data. If you need to access Custom XML parts, use the [getCustomXmlParts()](../../com.aspose.words/document/\#getCustomXmlParts) / [setCustomXmlParts(com.aspose.words.CustomXmlPartCollection)](../../com.aspose.words/document/\#setCustomXmlParts-com.aspose.words.CustomXmlPartCollection) property.
 
-This collection contains OOXML parts whose parent is the OOXML package and they targets are of an "unknown relationship". For more information see [CustomPart](../../com.aspose.words/custompart).
+This collection contains OOXML parts whose parent is the OOXML package and they targets are of an "unknown relationship". For more information see [CustomPart](../../com.aspose.words/custompart/).
 
 Aspose.Words loads and saves custom parts into OOXML documents only.
 
 This property cannot be  null .
 
 **Returns:**
-[CustomPartCollection](../../com.aspose.words/custompartcollection) - The collection of custom parts (arbitrary content) that are linked to the OOXML package using "unknown relationships".
+[CustomPartCollection](../../com.aspose.words/custompartcollection/) - The collection of custom parts (arbitrary content) that are linked to the OOXML package using "unknown relationships".
 ### getPageColor() {#getPageColor}
 ```
 public Color getPageColor()
 ```
 
 
-Gets the page color of the document. This property is a simpler version of [getBackgroundShape()](../../com.aspose.words/documentbase\#getBackgroundShape) / [setBackgroundShape(com.aspose.words.Shape)](../../com.aspose.words/documentbase\#setBackgroundShape-com.aspose.words.Shape).
+Gets the page color of the document. This property is a simpler version of [getBackgroundShape()](../../com.aspose.words/documentbase/\#getBackgroundShape) / [setBackgroundShape(com.aspose.words.Shape)](../../com.aspose.words/documentbase/\#setBackgroundShape-com.aspose.words.Shape).
 
-This property provides a simple way to specify a solid page color for the document. Setting this property creates and sets an appropriate [getBackgroundShape()](../../com.aspose.words/documentbase\#getBackgroundShape) / [setBackgroundShape(com.aspose.words.Shape)](../../com.aspose.words/documentbase\#setBackgroundShape-com.aspose.words.Shape).
+This property provides a simple way to specify a solid page color for the document. Setting this property creates and sets an appropriate [getBackgroundShape()](../../com.aspose.words/documentbase/\#getBackgroundShape) / [setBackgroundShape(com.aspose.words.Shape)](../../com.aspose.words/documentbase/\#setBackgroundShape-com.aspose.words.Shape).
 
 If the page color is not set (e.g. there is no background shape in the document) returns a zero color.
 
@@ -1210,7 +1235,7 @@ Gets the page size, orientation and other information about a page that might be
 | pageIndex | int | The 0-based page index. |
 
 **Returns:**
-[PageInfo](../../com.aspose.words/pageinfo)
+[PageInfo](../../com.aspose.words/pageinfo/)
 ### getParentNode() {#getParentNode}
 ```
 public CompositeNode getParentNode()
@@ -1222,7 +1247,7 @@ Gets the immediate parent of this node.
 If a node has just been created and not yet added to the tree, or if it has been removed from the tree, the parent is  null .
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode) - The immediate parent of this node.
+[CompositeNode](../../com.aspose.words/compositenode/) - The immediate parent of this node.
 ### getPreviousSibling() {#getPreviousSibling}
 ```
 public Node getPreviousSibling()
@@ -1232,7 +1257,7 @@ public Node getPreviousSibling()
 Gets the node immediately preceding this node. If there is no preceding node, a  null  is returned.
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The node immediately preceding this node.
+[Node](../../com.aspose.words/node/) - The node immediately preceding this node.
 ### getProtectionType() {#getProtectionType}
 ```
 public int getProtectionType()
@@ -1241,26 +1266,26 @@ public int getProtectionType()
 
 Gets the currently active document protection type.
 
-This property allows to retrieve the currently set document protection type. To change the document protection type use the **M:Aspose.Words.Document.Protect(Aspose.Words.ProtectionType,System.String)** and [unprotect()](../../com.aspose.words/document\#unprotect) methods.
+This property allows to retrieve the currently set document protection type. To change the document protection type use the **M:Aspose.Words.Document.Protect(Aspose.Words.ProtectionType,System.String)** and [unprotect()](../../com.aspose.words/document/\#unprotect) methods.
 
 When a document is protected, the user can make only limited changes, such as adding annotations, making revisions, or completing a form.
 
-Note that document protection is different from write protection. Write protection is specified using the [getWriteProtection()](../../com.aspose.words/document\#getWriteProtection)
+Note that document protection is different from write protection. Write protection is specified using the [getWriteProtection()](../../com.aspose.words/document/\#getWriteProtection)
 
 **M:Aspose.Words.Document.Protect(Aspose.Words.ProtectionType,System.String)**
 
 **Returns:**
-int - The currently active document protection type. The returned value is one of [ProtectionType](../../com.aspose.words/protectiontype) constants.
+int - The currently active document protection type. The returned value is one of [ProtectionType](../../com.aspose.words/protectiontype/) constants.
 ### getRange() {#getRange}
 ```
 public Range getRange()
 ```
 
 
-Returns a [Range](../../com.aspose.words/range) object that represents the portion of a document that is contained in this node.
+Returns a [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node.
 
 **Returns:**
-[Range](../../com.aspose.words/range) - A [Range](../../com.aspose.words/range) object that represents the portion of a document that is contained in this node.
+[Range](../../com.aspose.words/range/) - A [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node.
 ### getRemovePersonalInformation() {#getRemovePersonalInformation}
 ```
 public boolean getRemovePersonalInformation()
@@ -1280,7 +1305,7 @@ public IResourceLoadingCallback getResourceLoadingCallback()
 Allows to control how external resources are loaded.
 
 **Returns:**
-[IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback) - The corresponding [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback) value.
+[IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback/) - The corresponding [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback/) value.
 ### getRevisions() {#getRevisions}
 ```
 public RevisionCollection getRevisions()
@@ -1292,17 +1317,17 @@ Gets a collection of revisions (tracked changes) that exist in this document.
 The returned collection is a "live" collection, which means if you remove parts of a document that contain revisions, the deleted revisions will automatically disappear from this collection.
 
 **Returns:**
-[RevisionCollection](../../com.aspose.words/revisioncollection) - A collection of revisions (tracked changes) that exist in this document.
+[RevisionCollection](../../com.aspose.words/revisioncollection/) - A collection of revisions (tracked changes) that exist in this document.
 ### getRevisionsView() {#getRevisionsView}
 ```
 public int getRevisionsView()
 ```
 
 
-Gets a value indicating whether to work with the original or revised version of a document. The default value is  **[RevisionsView.ORIGINAL](../../com.aspose.words/revisionsview\#ORIGINAL)** .
+Gets a value indicating whether to work with the original or revised version of a document. The default value is  **[RevisionsView.ORIGINAL](../../com.aspose.words/revisionsview/\#ORIGINAL)** .
 
 **Returns:**
-int - A value indicating whether to work with the original or revised version of a document. The returned value is one of [RevisionsView](../../com.aspose.words/revisionsview) constants.
+int - A value indicating whether to work with the original or revised version of a document. The returned value is one of [RevisionsView](../../com.aspose.words/revisionsview/) constants.
 ### getSections() {#getSections}
 ```
 public SectionCollection getSections()
@@ -1312,7 +1337,7 @@ public SectionCollection getSections()
 Returns a collection that represents all sections in the document.
 
 **Returns:**
-[SectionCollection](../../com.aspose.words/sectioncollection) - A collection that represents all sections in the document.
+[SectionCollection](../../com.aspose.words/sectioncollection/) - A collection that represents all sections in the document.
 ### getShadeFormData() {#getShadeFormData}
 ```
 public boolean getShadeFormData()
@@ -1361,10 +1386,10 @@ public StyleCollection getStyles()
 
 Returns a collection of styles defined in the document.
 
-For more information see the description of the [StyleCollection](../../com.aspose.words/stylecollection) class.
+For more information see the description of the [StyleCollection](../../com.aspose.words/stylecollection/) class.
 
 **Returns:**
-[StyleCollection](../../com.aspose.words/stylecollection) - A collection of styles defined in the document.
+[StyleCollection](../../com.aspose.words/stylecollection/) - A collection of styles defined in the document.
 ### getText() {#getText}
 ```
 public String getText()
@@ -1373,7 +1398,7 @@ public String getText()
 
 Gets the text of this node and of all its children.
 
-The returned string includes all control and special characters as described in [ControlChar](../../com.aspose.words/controlchar).
+The returned string includes all control and special characters as described in [ControlChar](../../com.aspose.words/controlchar/).
 
 **Returns:**
 java.lang.String
@@ -1383,10 +1408,10 @@ public Theme getTheme()
 ```
 
 
-Gets the [getTheme()](../../com.aspose.words/document\#getTheme) object for this document.
+Gets the [getTheme()](../../com.aspose.words/document/\#getTheme) object for this document.
 
 **Returns:**
-[Theme](../../com.aspose.words/theme) - The [getTheme()](../../com.aspose.words/document\#getTheme) object for this document.
+[Theme](../../com.aspose.words/theme/) - The [getTheme()](../../com.aspose.words/document/\#getTheme) object for this document.
 ### getTrackRevisions() {#getTrackRevisions}
 ```
 public boolean getTrackRevisions()
@@ -1397,7 +1422,7 @@ True if changes are tracked when this document is edited in Microsoft Word.
 
 Setting this option only instructs Microsoft Word whether the track changes is turned on or off. This property has no effect on changes to the document that you make programmatically via Aspose.Words.
 
-If you want to automatically track changes as they are made programmatically by Aspose.Words to this document use the [startTrackRevisions(java.lang.String, java.util.Date)](../../com.aspose.words/document\#startTrackRevisions-java.lang.String--java.util.Date) method.
+If you want to automatically track changes as they are made programmatically by Aspose.Words to this document use the [startTrackRevisions(java.lang.String, java.util.Date)](../../com.aspose.words/document/\#startTrackRevisions-java.lang.String--java.util.Date) method.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -1410,17 +1435,17 @@ public VariableCollection getVariables()
 Returns the collection of variables added to a document or template.
 
 **Returns:**
-[VariableCollection](../../com.aspose.words/variablecollection) - The collection of variables added to a document or template.
+[VariableCollection](../../com.aspose.words/variablecollection/) - The collection of variables added to a document or template.
 ### getVbaProject() {#getVbaProject}
 ```
 public VbaProject getVbaProject()
 ```
 
 
-Gets a [getVbaProject()](../../com.aspose.words/document\#getVbaProject) / [setVbaProject(com.aspose.words.VbaProject)](../../com.aspose.words/document\#setVbaProject-com.aspose.words.VbaProject).
+Gets a [getVbaProject()](../../com.aspose.words/document/\#getVbaProject) / [setVbaProject(com.aspose.words.VbaProject)](../../com.aspose.words/document/\#setVbaProject-com.aspose.words.VbaProject).
 
 **Returns:**
-[VbaProject](../../com.aspose.words/vbaproject) - A [getVbaProject()](../../com.aspose.words/document\#getVbaProject) / [setVbaProject(com.aspose.words.VbaProject)](../../com.aspose.words/document\#setVbaProject-com.aspose.words.VbaProject).
+[VbaProject](../../com.aspose.words/vbaproject/) - A [getVbaProject()](../../com.aspose.words/document/\#getVbaProject) / [setVbaProject(com.aspose.words.VbaProject)](../../com.aspose.words/document/\#setVbaProject-com.aspose.words.VbaProject).
 ### getVersionsCount() {#getVersionsCount}
 ```
 public int getVersionsCount()
@@ -1444,17 +1469,17 @@ public ViewOptions getViewOptions()
 Provides options to control how the document is displayed in Microsoft Word.
 
 **Returns:**
-[ViewOptions](../../com.aspose.words/viewoptions) - The corresponding [ViewOptions](../../com.aspose.words/viewoptions) value.
+[ViewOptions](../../com.aspose.words/viewoptions/) - The corresponding [ViewOptions](../../com.aspose.words/viewoptions/) value.
 ### getWarningCallback() {#getWarningCallback}
 ```
 public IWarningCallback getWarningCallback()
 ```
 
 
-Called during various document processing procedures when an issue is detected that might result in data or formatting fidelity loss. Document may generate warnings at any stage of its existence, so it's important to setup warning callback as early as possible to avoid the warnings loss. E.g. such properties as [Document.getPageCount()](../../com.aspose.words/document\#getPageCount) actually build the document layout which is used later for rendering, and the layout warnings may be lost if warning callback is specified just for the rendering calls later.
+Called during various document processing procedures when an issue is detected that might result in data or formatting fidelity loss. Document may generate warnings at any stage of its existence, so it's important to setup warning callback as early as possible to avoid the warnings loss. E.g. such properties as [Document.getPageCount()](../../com.aspose.words/document/\#getPageCount) actually build the document layout which is used later for rendering, and the layout warnings may be lost if warning callback is specified just for the rendering calls later.
 
 **Returns:**
-[IWarningCallback](../../com.aspose.words/iwarningcallback) - The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback) value.
+[IWarningCallback](../../com.aspose.words/iwarningcallback/) - The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback/) value.
 ### getWatermark() {#getWatermark}
 ```
 public Watermark getWatermark()
@@ -1464,7 +1489,7 @@ public Watermark getWatermark()
 Provides access to the document watermark.
 
 **Returns:**
-[Watermark](../../com.aspose.words/watermark) - The corresponding [Watermark](../../com.aspose.words/watermark) value.
+[Watermark](../../com.aspose.words/watermark/) - The corresponding [Watermark](../../com.aspose.words/watermark/) value.
 ### getWebExtensionTaskPanes() {#getWebExtensionTaskPanes}
 ```
 public TaskPaneCollection getWebExtensionTaskPanes()
@@ -1474,7 +1499,7 @@ public TaskPaneCollection getWebExtensionTaskPanes()
 Returns a collection that represents a list of task pane add-ins.
 
 **Returns:**
-[TaskPaneCollection](../../com.aspose.words/taskpanecollection) - A collection that represents a list of task pane add-ins.
+[TaskPaneCollection](../../com.aspose.words/taskpanecollection/) - A collection that represents a list of task pane add-ins.
 ### getWriteProtection() {#getWriteProtection}
 ```
 public WriteProtection getWriteProtection()
@@ -1484,7 +1509,7 @@ public WriteProtection getWriteProtection()
 Provides access to the document write protection options.
 
 **Returns:**
-[WriteProtection](../../com.aspose.words/writeprotection) - The corresponding [WriteProtection](../../com.aspose.words/writeprotection) value.
+[WriteProtection](../../com.aspose.words/writeprotection/) - The corresponding [WriteProtection](../../com.aspose.words/writeprotection/) value.
 ### hasChildNodes() {#hasChildNodes}
 ```
 public boolean hasChildNodes()
@@ -1511,7 +1536,7 @@ public boolean hasRevisions()
 ```
 
 
-Returns  true  if the document has any tracked changes. This property is a shortcut for comparing [RevisionCollection.getCount()](../../com.aspose.words/revisioncollection\#getCount) to zero.
+Returns  true  if the document has any tracked changes. This property is a shortcut for comparing [RevisionCollection.getCount()](../../com.aspose.words/revisioncollection/\#getCount) to zero.
 
 **Returns:**
 boolean - \{ true  if the document has any tracked changes.
@@ -1535,22 +1560,22 @@ Imports a node from another document to the current document.
 
 Imports a node from another document to the current document.
 
-This method uses the [ImportFormatMode.USE\_DESTINATION\_STYLES](../../com.aspose.words/importformatmode\#USE-DESTINATION-STYLES) option to resolve formatting.
+This method uses the [ImportFormatMode.USE\_DESTINATION\_STYLES](../../com.aspose.words/importformatmode/\#USE-DESTINATION-STYLES) option to resolve formatting.
 
 Importing a node creates a copy of the source node belonging to the importing document. The returned node has no parent. The source node is not altered or removed from the original document.
 
-Before a node from another document can be inserted into this document, it must be imported. During import, document-specific properties such as references to styles and lists are translated from the original to the importing document. After the node was imported, it can be inserted into the appropriate place in the document using [CompositeNode.insertBefore(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode\#insertBefore-com.aspose.words.Node--com.aspose.words.Node) or [CompositeNode.insertAfter(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode\#insertAfter-com.aspose.words.Node--com.aspose.words.Node).
+Before a node from another document can be inserted into this document, it must be imported. During import, document-specific properties such as references to styles and lists are translated from the original to the importing document. After the node was imported, it can be inserted into the appropriate place in the document using [CompositeNode.insertBefore(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode/\#insertBefore-com.aspose.words.Node--com.aspose.words.Node) or [CompositeNode.insertAfter(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode/\#insertAfter-com.aspose.words.Node--com.aspose.words.Node).
 
 If the source node already belongs to the destination document, then simply a deep clone of the source node is created.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| srcNode | [Node](../../com.aspose.words/node) | The node being imported. |
+| srcNode | [Node](../../com.aspose.words/node/) | The node being imported. |
 | isImportChildren | boolean | \{ true  to import all child nodes recursively; otherwise,  false . |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The cloned node that belongs to the current document.
+[Node](../../com.aspose.words/node/) - The cloned node that belongs to the current document.
 ### importNode(Node srcNode, boolean isImportChildren, int importFormatMode) {#importNode-com.aspose.words.Node-boolean-int}
 ```
 public Node importNode(Node srcNode, boolean isImportChildren, int importFormatMode)
@@ -1562,12 +1587,12 @@ public Node importNode(Node srcNode, boolean isImportChildren, int importFormatM
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| srcNode | [Node](../../com.aspose.words/node) |  |
+| srcNode | [Node](../../com.aspose.words/node/) |  |
 | isImportChildren | boolean |  |
 | importFormatMode | int |  |
 
 **Returns:**
-[Node](../../com.aspose.words/node)
+[Node](../../com.aspose.words/node/)
 ### indexOf(Node child) {#indexOf-com.aspose.words.Node}
 ```
 public int indexOf(Node child)
@@ -1579,7 +1604,7 @@ Returns the index of the specified child node in the child node array. Returns -
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| child | [Node](../../com.aspose.words/node) |  |
+| child | [Node](../../com.aspose.words/node/) |  |
 
 **Returns:**
 int
@@ -1600,11 +1625,11 @@ If the node being inserted was created from another document, you should use **M
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | The [Node](../../com.aspose.words/node) to insert. |
-| refChild | [Node](../../com.aspose.words/node) | The [Node](../../com.aspose.words/node) that is the reference node. The  newChild  is placed after the  refChild . |
+| newChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) to insert. |
+| refChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) that is the reference node. The  newChild  is placed after the  refChild . |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The inserted node.
+[Node](../../com.aspose.words/node/) - The inserted node.
 ### insertBefore(Node newChild, Node refChild) {#insertBefore-com.aspose.words.Node-com.aspose.words.Node}
 ```
 public Node insertBefore(Node newChild, Node refChild)
@@ -1622,11 +1647,11 @@ If the node being inserted was created from another document, you should use **M
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | The [Node](../../com.aspose.words/node) to insert. |
-| refChild | [Node](../../com.aspose.words/node) | The [Node](../../com.aspose.words/node) that is the reference node. The  newChild  is placed before this node. |
+| newChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) to insert. |
+| refChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) that is the reference node. The  newChild  is placed before this node. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The inserted node.
+[Node](../../com.aspose.words/node/) - The inserted node.
 ### isComposite() {#isComposite}
 ```
 public boolean isComposite()
@@ -1657,7 +1682,7 @@ Joins runs with same formatting in all paragraphs of the document.
 
 This is an optimization method. Some documents contain adjacent runs with same formatting. Usually this occurs if a document was intensively edited manually. You can reduce the document size and speed up further processing by joining these runs.
 
-The operation checks every [Paragraph](../../com.aspose.words/paragraph) node in the document for adjacent [Run](../../com.aspose.words/run) nodes having identical properties. It ignores unique identifiers used to track editing sessions of run creation and modification. First run in every joining sequence accumulates all text. Remaining runs are deleted from the document.
+The operation checks every [Paragraph](../../com.aspose.words/paragraph/) node in the document for adjacent [Run](../../com.aspose.words/run/) nodes having identical properties. It ignores unique identifiers used to track editing sessions of run creation and modification. First run in every joining sequence accumulates all text. Remaining runs are deleted from the document.
 
 **Returns:**
 int - Number of joins performed. When **N** adjacent runs are being joined they count as **N - 1** joins.
@@ -1672,10 +1697,10 @@ Gets next node according to the pre-order tree traversal algorithm.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node) | The top node (limit) of traversal. |
+| rootNode | [Node](../../com.aspose.words/node/) | The top node (limit) of traversal. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - Next node in pre-order order. Null if reached the  rootNode .
+[Node](../../com.aspose.words/node/) - Next node in pre-order order. Null if reached the  rootNode .
 ### nodeTypeToString(int nodeType) {#nodeTypeToString-int}
 ```
 public static String nodeTypeToString(int nodeType)
@@ -1697,11 +1722,11 @@ public void normalizeFieldTypes()
 ```
 
 
-Changes field type values [FieldChar.getFieldType()](../../com.aspose.words/fieldchar\#getFieldType) of [FieldStart](../../com.aspose.words/fieldstart), [FieldSeparator](../../com.aspose.words/fieldseparator), [FieldEnd](../../com.aspose.words/fieldend) in the whole document so that they correspond to the field types contained in the field codes.
+Changes field type values [FieldChar.getFieldType()](../../com.aspose.words/fieldchar/\#getFieldType) of [FieldStart](../../com.aspose.words/fieldstart/), [FieldSeparator](../../com.aspose.words/fieldseparator/), [FieldEnd](../../com.aspose.words/fieldend/) in the whole document so that they correspond to the field types contained in the field codes.
 
 Use this method after document changes that affect field types.
 
-To change field type values in a specific part of the document use [Range.normalizeFieldTypes()](../../com.aspose.words/range\#normalizeFieldTypes).
+To change field type values in a specific part of the document use [Range.normalizeFieldTypes()](../../com.aspose.words/range/\#normalizeFieldTypes).
 
 ### notify() {#notify}
 ```
@@ -1734,10 +1759,10 @@ If the node being inserted was created from another document, you should use **M
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | The node to add. |
+| newChild | [Node](../../com.aspose.words/node/) | The node to add. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The node added.
+[Node](../../com.aspose.words/node/) - The node added.
 ### previousPreOrder(Node rootNode) {#previousPreOrder-com.aspose.words.Node}
 ```
 public Node previousPreOrder(Node rootNode)
@@ -1749,10 +1774,10 @@ Gets the previous node according to the pre-order tree traversal algorithm.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node) | The top node (limit) of traversal. |
+| rootNode | [Node](../../com.aspose.words/node/) | The top node (limit) of traversal. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - Previous node in pre-order order. Null if reached the  rootNode .
+[Node](../../com.aspose.words/node/) - Previous node in pre-order order. Null if reached the  rootNode .
 ### print() {#print}
 ```
 public void print()
@@ -1865,10 +1890,10 @@ The parent of  oldChild  is set to  null  after the node is removed.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| oldChild | [Node](../../com.aspose.words/node) | The node to remove. |
+| oldChild | [Node](../../com.aspose.words/node/) | The node to remove. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The removed node.
+[Node](../../com.aspose.words/node/) - The removed node.
 ### removeExternalSchemaReferences() {#removeExternalSchemaReferences}
 ```
 public void removeExternalSchemaReferences()
@@ -1893,7 +1918,7 @@ public void removeSmartTags()
 ```
 
 
-Removes all [SmartTag](../../com.aspose.words/smarttag) descendant nodes of the current node. This method does not remove the content of the smart tags.
+Removes all [SmartTag](../../com.aspose.words/smarttag/) descendant nodes of the current node. This method does not remove the content of the smart tags.
 
 ### renderToScale(int pageIndex, Graphics2D graphics, float x, float y, float scale) {#renderToScale-int-java.awt.Graphics2D-float-float-float}
 ```
@@ -1946,10 +1971,10 @@ public SaveOutputParameters save(OutputStream stream, SaveOptions saveOptions)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | java.io.OutputStream |  |
-| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions) |  |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) |  |
 
 **Returns:**
-[SaveOutputParameters](../../com.aspose.words/saveoutputparameters)
+[SaveOutputParameters](../../com.aspose.words/saveoutputparameters/)
 ### save(OutputStream stream, int saveFormat) {#save-java.io.OutputStream-int}
 ```
 public SaveOutputParameters save(OutputStream stream, int saveFormat)
@@ -1965,7 +1990,7 @@ public SaveOutputParameters save(OutputStream stream, int saveFormat)
 | saveFormat | int |  |
 
 **Returns:**
-[SaveOutputParameters](../../com.aspose.words/saveoutputparameters)
+[SaveOutputParameters](../../com.aspose.words/saveoutputparameters/)
 ### save(String fileName) {#save-java.lang.String}
 ```
 public SaveOutputParameters save(String fileName)
@@ -1980,7 +2005,7 @@ Saves the document.  Saves the document to a file. Automatically determines the 
 | fileName | java.lang.String | The name for the document. If a document with the specified file name already exists, the existing document is overwritten. |
 
 **Returns:**
-[SaveOutputParameters](../../com.aspose.words/saveoutputparameters) - Additional information that you can optionally use.
+[SaveOutputParameters](../../com.aspose.words/saveoutputparameters/) - Additional information that you can optionally use.
 ### save(String fileName, SaveOptions saveOptions) {#save-java.lang.String-com.aspose.words.SaveOptions}
 ```
 public SaveOutputParameters save(String fileName, SaveOptions saveOptions)
@@ -1993,10 +2018,10 @@ Saves the document to a file using the specified save options.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | java.lang.String | The name for the document. If a document with the specified file name already exists, the existing document is overwritten. |
-| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions) | Specifies the options that control how the document is saved. Can be  null . |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) | Specifies the options that control how the document is saved. Can be  null . |
 
 **Returns:**
-[SaveOutputParameters](../../com.aspose.words/saveoutputparameters) - Additional information that you can optionally use.
+[SaveOutputParameters](../../com.aspose.words/saveoutputparameters/) - Additional information that you can optionally use.
 ### save(String fileName, int saveFormat) {#save-java.lang.String-int}
 ```
 public SaveOutputParameters save(String fileName, int saveFormat)
@@ -2012,7 +2037,7 @@ public SaveOutputParameters save(String fileName, int saveFormat)
 | saveFormat | int |  |
 
 **Returns:**
-[SaveOutputParameters](../../com.aspose.words/saveoutputparameters)
+[SaveOutputParameters](../../com.aspose.words/saveoutputparameters/)
 ### selectNodes(String xpath) {#selectNodes-java.lang.String}
 ```
 public NodeList selectNodes(String xpath)
@@ -2029,14 +2054,14 @@ Only expressions with element names are supported at the moment. Expressions tha
 | xpath | java.lang.String | The XPath expression. |
 
 **Returns:**
-[NodeList](../../com.aspose.words/nodelist) - A list of nodes matching the XPath query.
+[NodeList](../../com.aspose.words/nodelist/) - A list of nodes matching the XPath query.
 ### selectSingleNode(String xpath) {#selectSingleNode-java.lang.String}
 ```
 public Node selectSingleNode(String xpath)
 ```
 
 
-Selects the first [Node](../../com.aspose.words/node) that matches the XPath expression.
+Selects the first [Node](../../com.aspose.words/node/) that matches the XPath expression.
 
 Only expressions with element names are supported at the moment. Expressions that use attribute names are not supported.
 
@@ -2046,7 +2071,7 @@ Only expressions with element names are supported at the moment. Expressions tha
 | xpath | java.lang.String | The XPath expression. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The first [Node](../../com.aspose.words/node) that matches the XPath query or  null  if no matching node is found.
+[Node](../../com.aspose.words/node/) - The first [Node](../../com.aspose.words/node/) that matches the XPath query or  null  if no matching node is found.
 ### setAttachedTemplate(String value) {#setAttachedTemplate-java.lang.String}
 ```
 public void setAttachedTemplate(String value)
@@ -2083,16 +2108,16 @@ public void setBackgroundShape(Shape value)
 
 Sets the background shape of the document. Can be  null .
 
-Microsoft Word allows only a shape that has its [ShapeBase.getShapeType()](../../com.aspose.words/shapebase\#getShapeType) property equal to [ShapeType.RECTANGLE](../../com.aspose.words/shapetype\#RECTANGLE) to be used as a background shape for a document.
+Microsoft Word allows only a shape that has its [ShapeBase.getShapeType()](../../com.aspose.words/shapebase/\#getShapeType) property equal to [ShapeType.RECTANGLE](../../com.aspose.words/shapetype/\#RECTANGLE) to be used as a background shape for a document.
 
 Microsoft Word supports only the fill properties of a background shape. All other properties are ignored.
 
-Setting this property to a non-null value will also set the [ViewOptions.getDisplayBackgroundShape()](../../com.aspose.words/viewoptions\#getDisplayBackgroundShape) / [ViewOptions.setDisplayBackgroundShape(boolean)](../../com.aspose.words/viewoptions\#setDisplayBackgroundShape-boolean) to  true .
+Setting this property to a non-null value will also set the [ViewOptions.getDisplayBackgroundShape()](../../com.aspose.words/viewoptions/\#getDisplayBackgroundShape) / [ViewOptions.setDisplayBackgroundShape(boolean)](../../com.aspose.words/viewoptions/\#setDisplayBackgroundShape-boolean) to  true .
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Shape](../../com.aspose.words/shape) | The background shape of the document. |
+| value | [Shape](../../com.aspose.words/shape/) | The background shape of the document. |
 
 ### setCustomNodeId(int value) {#setCustomNodeId-int}
 ```
@@ -2128,7 +2153,7 @@ This property cannot be  null .
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CustomXmlPartCollection](../../com.aspose.words/customxmlpartcollection) | The collection of Custom XML Data Storage Parts. |
+| value | [CustomXmlPartCollection](../../com.aspose.words/customxmlpartcollection/) | The collection of Custom XML Data Storage Parts. |
 
 ### setDefaultTabStop(double value) {#setDefaultTabStop-double}
 ```
@@ -2151,14 +2176,14 @@ public void setFontSettings(FontSettings value)
 
 Sets document font settings.
 
-This property allows to specify font settings per document. If set to  null , default static font settings [FontSettings.getDefaultInstance()](../../com.aspose.words/fontsettings\#getDefaultInstance) will be used.
+This property allows to specify font settings per document. If set to  null , default static font settings [FontSettings.getDefaultInstance()](../../com.aspose.words/fontsettings/\#getDefaultInstance) will be used.
 
 The default value is  null .
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [FontSettings](../../com.aspose.words/fontsettings) | Document font settings. |
+| value | [FontSettings](../../com.aspose.words/fontsettings/) | Document font settings. |
 
 ### setGlossaryDocument(GlossaryDocument value) {#setGlossaryDocument-com.aspose.words.GlossaryDocument}
 ```
@@ -2170,12 +2195,12 @@ Sets the glossary document within this document or template. A glossary document
 
 This property returns  null  if the document does not have a glossary document.
 
-You can add a glossary document to a document by creating a [GlossaryDocument](../../com.aspose.words/glossarydocument) object and assigning to this property.
+You can add a glossary document to a document by creating a [GlossaryDocument](../../com.aspose.words/glossarydocument/) object and assigning to this property.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [GlossaryDocument](../../com.aspose.words/glossarydocument) | The glossary document within this document or template. |
+| value | [GlossaryDocument](../../com.aspose.words/glossarydocument/) | The glossary document within this document or template. |
 
 ### setGrammarChecked(boolean value) {#setGrammarChecked-boolean}
 ```
@@ -2189,6 +2214,32 @@ Returns  true  if the document has been checked for grammar. To recheck the gram
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | \{ true  if the document has been checked for grammar. |
+
+### setIncludeTextboxesFootnotesEndnotesInStat(boolean value) {#setIncludeTextboxesFootnotesEndnotesInStat-boolean}
+```
+public void setIncludeTextboxesFootnotesEndnotesInStat(boolean value)
+```
+
+
+Specifies whether to include textboxes, footnotes and endnotes in word count statistics.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The corresponding  boolean  value. |
+
+### setJustificationMode(int value) {#setJustificationMode-int}
+```
+public void setJustificationMode(int value)
+```
+
+
+Sets the character spacing adjustment of a document.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The character spacing adjustment of a document. The value must be one of [JustificationMode](../../com.aspose.words/justificationmode/) constants. |
 
 ### setMailMergeSettings(MailMergeSettings value) {#setMailMergeSettings-com.aspose.words.MailMergeSettings}
 ```
@@ -2205,7 +2256,7 @@ This object is never  null .
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [MailMergeSettings](../../com.aspose.words/mailmergesettings) | The object that contains all of the mail merge information for a document. |
+| value | [MailMergeSettings](../../com.aspose.words/mailmergesettings/) | The object that contains all of the mail merge information for a document. |
 
 ### setNodeChangingCallback(INodeChangingCallback value) {#setNodeChangingCallback-com.aspose.words.INodeChangingCallback}
 ```
@@ -2218,7 +2269,7 @@ Called when a node is inserted or removed in the document.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [INodeChangingCallback](../../com.aspose.words/inodechangingcallback) | The corresponding [INodeChangingCallback](../../com.aspose.words/inodechangingcallback) value. |
+| value | [INodeChangingCallback](../../com.aspose.words/inodechangingcallback/) | The corresponding [INodeChangingCallback](../../com.aspose.words/inodechangingcallback/) value. |
 
 ### setPackageCustomParts(CustomPartCollection value) {#setPackageCustomParts-com.aspose.words.CustomPartCollection}
 ```
@@ -2228,9 +2279,9 @@ public void setPackageCustomParts(CustomPartCollection value)
 
 Sets the collection of custom parts (arbitrary content) that are linked to the OOXML package using "unknown relationships".
 
-Do not confuse these custom parts with Custom XML Data. If you need to access Custom XML parts, use the [getCustomXmlParts()](../../com.aspose.words/document\#getCustomXmlParts) / [setCustomXmlParts(com.aspose.words.CustomXmlPartCollection)](../../com.aspose.words/document\#setCustomXmlParts-com.aspose.words.CustomXmlPartCollection) property.
+Do not confuse these custom parts with Custom XML Data. If you need to access Custom XML parts, use the [getCustomXmlParts()](../../com.aspose.words/document/\#getCustomXmlParts) / [setCustomXmlParts(com.aspose.words.CustomXmlPartCollection)](../../com.aspose.words/document/\#setCustomXmlParts-com.aspose.words.CustomXmlPartCollection) property.
 
-This collection contains OOXML parts whose parent is the OOXML package and they targets are of an "unknown relationship". For more information see [CustomPart](../../com.aspose.words/custompart).
+This collection contains OOXML parts whose parent is the OOXML package and they targets are of an "unknown relationship". For more information see [CustomPart](../../com.aspose.words/custompart/).
 
 Aspose.Words loads and saves custom parts into OOXML documents only.
 
@@ -2239,7 +2290,7 @@ This property cannot be  null .
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CustomPartCollection](../../com.aspose.words/custompartcollection) | The collection of custom parts (arbitrary content) that are linked to the OOXML package using "unknown relationships". |
+| value | [CustomPartCollection](../../com.aspose.words/custompartcollection/) | The collection of custom parts (arbitrary content) that are linked to the OOXML package using "unknown relationships". |
 
 ### setPageColor(Color value) {#setPageColor-java.awt.Color}
 ```
@@ -2247,9 +2298,9 @@ public void setPageColor(Color value)
 ```
 
 
-Sets the page color of the document. This property is a simpler version of [getBackgroundShape()](../../com.aspose.words/documentbase\#getBackgroundShape) / [setBackgroundShape(com.aspose.words.Shape)](../../com.aspose.words/documentbase\#setBackgroundShape-com.aspose.words.Shape).
+Sets the page color of the document. This property is a simpler version of [getBackgroundShape()](../../com.aspose.words/documentbase/\#getBackgroundShape) / [setBackgroundShape(com.aspose.words.Shape)](../../com.aspose.words/documentbase/\#setBackgroundShape-com.aspose.words.Shape).
 
-This property provides a simple way to specify a solid page color for the document. Setting this property creates and sets an appropriate [getBackgroundShape()](../../com.aspose.words/documentbase\#getBackgroundShape) / [setBackgroundShape(com.aspose.words.Shape)](../../com.aspose.words/documentbase\#setBackgroundShape-com.aspose.words.Shape).
+This property provides a simple way to specify a solid page color for the document. Setting this property creates and sets an appropriate [getBackgroundShape()](../../com.aspose.words/documentbase/\#getBackgroundShape) / [setBackgroundShape(com.aspose.words.Shape)](../../com.aspose.words/documentbase/\#setBackgroundShape-com.aspose.words.Shape).
 
 If the page color is not set (e.g. there is no background shape in the document) returns a zero color.
 
@@ -2282,7 +2333,7 @@ Allows to control how external resources are loaded.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback) | The corresponding [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback) value. |
+| value | [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback/) | The corresponding [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback/) value. |
 
 ### setRevisionsView(int value) {#setRevisionsView-int}
 ```
@@ -2290,12 +2341,12 @@ public void setRevisionsView(int value)
 ```
 
 
-Sets a value indicating whether to work with the original or revised version of a document. The default value is  **[RevisionsView.ORIGINAL](../../com.aspose.words/revisionsview\#ORIGINAL)** .
+Sets a value indicating whether to work with the original or revised version of a document. The default value is  **[RevisionsView.ORIGINAL](../../com.aspose.words/revisionsview/\#ORIGINAL)** .
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | A value indicating whether to work with the original or revised version of a document. The value must be one of [RevisionsView](../../com.aspose.words/revisionsview) constants. |
+| value | int | A value indicating whether to work with the original or revised version of a document. The value must be one of [RevisionsView](../../com.aspose.words/revisionsview/) constants. |
 
 ### setSectionAttr(int key, Object value) {#setSectionAttr-int-java.lang.Object}
 ```
@@ -2373,7 +2424,7 @@ True if changes are tracked when this document is edited in Microsoft Word.
 
 Setting this option only instructs Microsoft Word whether the track changes is turned on or off. This property has no effect on changes to the document that you make programmatically via Aspose.Words.
 
-If you want to automatically track changes as they are made programmatically by Aspose.Words to this document use the [startTrackRevisions(java.lang.String, java.util.Date)](../../com.aspose.words/document\#startTrackRevisions-java.lang.String--java.util.Date) method.
+If you want to automatically track changes as they are made programmatically by Aspose.Words to this document use the [startTrackRevisions(java.lang.String, java.util.Date)](../../com.aspose.words/document/\#startTrackRevisions-java.lang.String--java.util.Date) method.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2386,12 +2437,12 @@ public void setVbaProject(VbaProject value)
 ```
 
 
-Sets a [getVbaProject()](../../com.aspose.words/document\#getVbaProject) / [setVbaProject(com.aspose.words.VbaProject)](../../com.aspose.words/document\#setVbaProject-com.aspose.words.VbaProject).
+Sets a [getVbaProject()](../../com.aspose.words/document/\#getVbaProject) / [setVbaProject(com.aspose.words.VbaProject)](../../com.aspose.words/document/\#setVbaProject-com.aspose.words.VbaProject).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [VbaProject](../../com.aspose.words/vbaproject) | A [getVbaProject()](../../com.aspose.words/document\#getVbaProject) / [setVbaProject(com.aspose.words.VbaProject)](../../com.aspose.words/document\#setVbaProject-com.aspose.words.VbaProject). |
+| value | [VbaProject](../../com.aspose.words/vbaproject/) | A [getVbaProject()](../../com.aspose.words/document/\#getVbaProject) / [setVbaProject(com.aspose.words.VbaProject)](../../com.aspose.words/document/\#setVbaProject-com.aspose.words.VbaProject). |
 
 ### setWarningCallback(IWarningCallback value) {#setWarningCallback-com.aspose.words.IWarningCallback}
 ```
@@ -2399,12 +2450,12 @@ public void setWarningCallback(IWarningCallback value)
 ```
 
 
-Called during various document processing procedures when an issue is detected that might result in data or formatting fidelity loss. Document may generate warnings at any stage of its existence, so it's important to setup warning callback as early as possible to avoid the warnings loss. E.g. such properties as [Document.getPageCount()](../../com.aspose.words/document\#getPageCount) actually build the document layout which is used later for rendering, and the layout warnings may be lost if warning callback is specified just for the rendering calls later.
+Called during various document processing procedures when an issue is detected that might result in data or formatting fidelity loss. Document may generate warnings at any stage of its existence, so it's important to setup warning callback as early as possible to avoid the warnings loss. E.g. such properties as [Document.getPageCount()](../../com.aspose.words/document/\#getPageCount) actually build the document layout which is used later for rendering, and the layout warnings may be lost if warning callback is specified just for the rendering calls later.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IWarningCallback](../../com.aspose.words/iwarningcallback) | The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback) value. |
+| value | [IWarningCallback](../../com.aspose.words/iwarningcallback/) | The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback/) value. |
 
 ### startTrackRevisions(String author) {#startTrackRevisions-java.lang.String}
 ```
@@ -2418,9 +2469,9 @@ If you call this method and then make some changes to the document programmatica
 
 Currently Aspose.Words supports tracking of node insertions and deletions only. Formatting changes are not recorded as revisions.
 
-Automatic tracking of changes is supported both when modifying this document through node manipulations as well as when using [DocumentBuilder](../../com.aspose.words/documentbuilder)
+Automatic tracking of changes is supported both when modifying this document through node manipulations as well as when using [DocumentBuilder](../../com.aspose.words/documentbuilder/)
 
-This method does not change the [getTrackRevisions()](../../com.aspose.words/document\#getTrackRevisions) / [setTrackRevisions(boolean)](../../com.aspose.words/document\#setTrackRevisions-boolean) option and does not use its value for the purposes of revision tracking.
+This method does not change the [getTrackRevisions()](../../com.aspose.words/document/\#getTrackRevisions) / [setTrackRevisions(boolean)](../../com.aspose.words/document/\#setTrackRevisions-boolean) option and does not use its value for the purposes of revision tracking.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2439,9 +2490,9 @@ If you call this method and then make some changes to the document programmatica
 
 Currently Aspose.Words supports tracking of node insertions and deletions only. Formatting changes are not recorded as revisions.
 
-Automatic tracking of changes is supported both when modifying this document through node manipulations as well as when using [DocumentBuilder](../../com.aspose.words/documentbuilder)
+Automatic tracking of changes is supported both when modifying this document through node manipulations as well as when using [DocumentBuilder](../../com.aspose.words/documentbuilder/)
 
-This method does not change the [getTrackRevisions()](../../com.aspose.words/document\#getTrackRevisions) / [setTrackRevisions(boolean)](../../com.aspose.words/document\#setTrackRevisions-boolean) option and does not use its value for the purposes of revision tracking.
+This method does not change the [getTrackRevisions()](../../com.aspose.words/document/\#getTrackRevisions) / [setTrackRevisions(boolean)](../../com.aspose.words/document/\#setTrackRevisions-boolean) option and does not use its value for the purposes of revision tracking.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2478,7 +2529,7 @@ Exports the content of the node into a string using the specified save options.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions) | Specifies the options that control how the node is saved. |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) | Specifies the options that control how the node is saved. |
 
 **Returns:**
 java.lang.String - The content of the node in the specified format.
@@ -2507,7 +2558,7 @@ Unlinks fields in the whole document.
 
 Replaces all the fields in the whole document with their most recent results.
 
-To unlink fields in a specific part of the document use [Range.unlinkFields()](../../com.aspose.words/range\#unlinkFields).
+To unlink fields in a specific part of the document use [Range.unlinkFields()](../../com.aspose.words/range/\#unlinkFields).
 
 ### unprotect() {#unprotect}
 ```
@@ -2519,7 +2570,7 @@ Removes protection from the document.  Removes protection from the document rega
 
 This method unprotects the document even if it has a protection password.
 
-Note that document protection is different from write protection. Write protection is specified using the [getWriteProtection()](../../com.aspose.words/document\#getWriteProtection).
+Note that document protection is different from write protection. Write protection is specified using the [getWriteProtection()](../../com.aspose.words/document/\#getWriteProtection).
 
 ### unprotect(String password) {#unprotect-java.lang.String}
 ```
@@ -2531,7 +2582,7 @@ Removes protection from the document if a correct password is specified.
 
 This method unprotects the document only if a correct password is specified.
 
-Note that document protection is different from write protection. Write protection is specified using the [getWriteProtection()](../../com.aspose.words/document\#getWriteProtection).
+Note that document protection is different from write protection. Write protection is specified using the [getWriteProtection()](../../com.aspose.words/document/\#getWriteProtection).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2554,11 +2605,11 @@ There is no need to update fields after executing a mail merge because mail merg
 
 This method does not update all field types. For the detailed list of supported field types, see the Programmers Guide.
 
-This method does not update fields that are related to the page layout algorithms (e.g. PAGE, PAGES, PAGEREF). The page layout-related fields are updated when you render a document or call [updatePageLayout()](../../com.aspose.words/document\#updatePageLayout).
+This method does not update fields that are related to the page layout algorithms (e.g. PAGE, PAGES, PAGEREF). The page layout-related fields are updated when you render a document or call [updatePageLayout()](../../com.aspose.words/document/\#updatePageLayout).
 
-Use the [normalizeFieldTypes()](../../com.aspose.words/document\#normalizeFieldTypes) method before fields updating if there were document changes that affected field types.
+Use the [normalizeFieldTypes()](../../com.aspose.words/document/\#normalizeFieldTypes) method before fields updating if there were document changes that affected field types.
 
-To update fields in a specific part of the document use [Range.updateFields()](../../com.aspose.words/range\#updateFields).
+To update fields in a specific part of the document use [Range.updateFields()](../../com.aspose.words/range/\#updateFields).
 
 ### updateListLabels() {#updateListLabels}
 ```
@@ -2568,7 +2619,7 @@ public void updateListLabels()
 
 Updates list labels for all list items in the document.
 
-This method updates list label properties such as [ListLabel.getLabelValue()](../../com.aspose.words/listlabel\#getLabelValue) and [ListLabel.getLabelString()](../../com.aspose.words/listlabel\#getLabelString) for each [Paragraph.getListLabel()](../../com.aspose.words/paragraph\#getListLabel) object in the document.
+This method updates list label properties such as [ListLabel.getLabelValue()](../../com.aspose.words/listlabel/\#getLabelValue) and [ListLabel.getLabelString()](../../com.aspose.words/listlabel/\#getLabelString) for each [Paragraph.getListLabel()](../../com.aspose.words/paragraph/\#getListLabel) object in the document.
 
 Also, this method is sometimes implicitly called when updating fields in the document. This is required because some fields that may reference list numbers (such as TOC or REF) need them be up-to-date.
 
@@ -2582,7 +2633,7 @@ Rebuilds the page layout of the document.
 
 This method formats a document into pages and updates the page number related fields in the document such as PAGE, PAGES, PAGEREF and REF. The up-to-date page layout information is required for a correct rendering of the document to fixed-page formats.
 
-This method is automatically invoked when you first convert a document to PDF, XPS, image or print it. However, if you modify the document after rendering and then attempt to render it again - Aspose.Words will not update the page layout automatically. In this case you should call [updatePageLayout()](../../com.aspose.words/document\#updatePageLayout) before rendering again.
+This method is automatically invoked when you first convert a document to PDF, XPS, image or print it. However, if you modify the document after rendering and then attempt to render it again - Aspose.Words will not update the page layout automatically. In this case you should call [updatePageLayout()](../../com.aspose.words/document/\#updatePageLayout) before rendering again.
 
 ### updateTableLayout() {#updateTableLayout}
 ```
@@ -2598,7 +2649,7 @@ public void updateThumbnail()
 ```
 
 
-Updates [BuiltInDocumentProperties.getThumbnail()](../../com.aspose.words/builtindocumentproperties\#getThumbnail) / [BuiltInDocumentProperties.setThumbnail(byte[])](../../com.aspose.words/builtindocumentproperties\#setThumbnail-byte) of the document using default options.
+Updates [BuiltInDocumentProperties.getThumbnail()](../../com.aspose.words/builtindocumentproperties/\#getThumbnail) / [BuiltInDocumentProperties.setThumbnail(byte[])](../../com.aspose.words/builtindocumentproperties/\#setThumbnail-byte) of the document using default options.
 
 ### updateThumbnail(ThumbnailGeneratingOptions options) {#updateThumbnail-com.aspose.words.ThumbnailGeneratingOptions}
 ```
@@ -2606,12 +2657,12 @@ public void updateThumbnail(ThumbnailGeneratingOptions options)
 ```
 
 
-Updates [BuiltInDocumentProperties.getThumbnail()](../../com.aspose.words/builtindocumentproperties\#getThumbnail) / [BuiltInDocumentProperties.setThumbnail(byte[])](../../com.aspose.words/builtindocumentproperties\#setThumbnail-byte) of the document according to the specified options. The [ThumbnailGeneratingOptions](../../com.aspose.words/thumbnailgeneratingoptions) allows you to specify the source of thumbnail, size and other options. If attempt to generate thumbnail fails, doesn't change one.
+Updates [BuiltInDocumentProperties.getThumbnail()](../../com.aspose.words/builtindocumentproperties/\#getThumbnail) / [BuiltInDocumentProperties.setThumbnail(byte[])](../../com.aspose.words/builtindocumentproperties/\#setThumbnail-byte) of the document according to the specified options. The [ThumbnailGeneratingOptions](../../com.aspose.words/thumbnailgeneratingoptions/) allows you to specify the source of thumbnail, size and other options. If attempt to generate thumbnail fails, doesn't change one.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| options | [ThumbnailGeneratingOptions](../../com.aspose.words/thumbnailgeneratingoptions) | The generating options to use. |
+| options | [ThumbnailGeneratingOptions](../../com.aspose.words/thumbnailgeneratingoptions/) | The generating options to use. |
 
 ### updateWordCount() {#updateWordCount}
 ```
@@ -2621,9 +2672,9 @@ public void updateWordCount()
 
 Updates word count properties of the document.
 
-[updateWordCount()](../../com.aspose.words/document\#updateWordCount) recalculates and updates Characters, Words and Paragraphs properties in the [getBuiltInDocumentProperties()](../../com.aspose.words/document\#getBuiltInDocumentProperties) collection of the [Document](../../com.aspose.words/document).
+[updateWordCount()](../../com.aspose.words/document/\#updateWordCount) recalculates and updates Characters, Words and Paragraphs properties in the [getBuiltInDocumentProperties()](../../com.aspose.words/document/\#getBuiltInDocumentProperties) collection of the [Document](../../com.aspose.words/document/).
 
-Note that [updateWordCount()](../../com.aspose.words/document\#updateWordCount) does not update number of lines and pages properties. Use the [updateWordCount()](../../com.aspose.words/document\#updateWordCount) overload and pass  true  value as a parameter to do that.
+Note that [updateWordCount()](../../com.aspose.words/document/\#updateWordCount) does not update number of lines and pages properties. Use the [updateWordCount()](../../com.aspose.words/document/\#updateWordCount) overload and pass  true  value as a parameter to do that.
 
 When you use an evaluation version, the evaluation watermark will also be included in the word count.
 
@@ -2633,7 +2684,7 @@ public void updateWordCount(boolean updateLinesCount)
 ```
 
 
-Updates word count properties of the document, optionally updates [BuiltInDocumentProperties.getLines()](../../com.aspose.words/builtindocumentproperties\#getLines) / [BuiltInDocumentProperties.setLines(int)](../../com.aspose.words/builtindocumentproperties\#setLines-int) property. This method will rebuild page layout of the document.
+Updates word count properties of the document, optionally updates [BuiltInDocumentProperties.getLines()](../../com.aspose.words/builtindocumentproperties/\#getLines) / [BuiltInDocumentProperties.setLines(int)](../../com.aspose.words/builtindocumentproperties/\#setLines-int) property. This method will rebuild page layout of the document.
 
 **Parameters:**
 | Parameter | Type | Description |

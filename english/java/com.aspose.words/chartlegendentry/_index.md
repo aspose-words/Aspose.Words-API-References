@@ -1,7 +1,8 @@
 ---
 title: ChartLegendEntry
+linktitle: ChartLegendEntry
 second_title: Aspose.Words for Java API Reference
-description: Represents a chart legend entry.
+description: Represents a chart legend entry in Java.
 type: docs
 weight: 64
 url: /java/com.aspose.words/chartlegendentry/
@@ -87,7 +88,7 @@ public Font getFont()
 Provides access to the font formatting of this legend entry.
 
 **Returns:**
-[Font](../../com.aspose.words/font) - The corresponding [Font](../../com.aspose.words/font) value.
+[Font](../../com.aspose.words/font/) - The corresponding [Font](../../com.aspose.words/font/) value.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()

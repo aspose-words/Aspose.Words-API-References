@@ -1,9 +1,10 @@
 ---
 title: SignatureLineOptions
+linktitle: SignatureLineOptions
 second_title: Aspose.Words for Java API Reference
-description: Allows to specify options for signature line being inserted.
+description: Allows to specify options for signature line being inserted in Java.
 type: docs
-weight: 529
+weight: 531
 url: /java/com.aspose.words/signaturelineoptions/
 ---
 
@@ -13,7 +14,7 @@ java.lang.Object
 public class SignatureLineOptions
 ```
 
-Allows to specify options for signature line being inserted. Used in [DocumentBuilder](../../com.aspose.words/documentbuilder).
+Allows to specify options for signature line being inserted. Used in [DocumentBuilder](../../com.aspose.words/documentbuilder/).
 
 To learn more, visit the [ Work with Digital Signatures ][Work with Digital Signatures] documentation article.
 

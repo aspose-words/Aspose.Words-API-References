@@ -1,7 +1,8 @@
 ---
 title: FieldOptions
+linktitle: FieldOptions
 second_title: Aspose.Words for Java API Reference
-description: Represents options to control field handling in a document.
+description: Represents options to control field handling in a document in Java.
 type: docs
 weight: 228
 url: /java/com.aspose.words/fieldoptions/
@@ -29,14 +30,14 @@ To learn more, visit the [ Working with Fields ][Working with Fields] documentat
 | [getClass()](#getClass) |  |
 | [getComparisonExpressionEvaluator()](#getComparisonExpressionEvaluator) | Gets the field comparison expressions evaluator. |
 | [getCurrentUser()](#getCurrentUser) | Gets the current user information. |
-| [getCustomTocStyleSeparator()](#getCustomTocStyleSeparator) | Gets custom style separator for the \\t switch in [FieldToc](../../com.aspose.words/fieldtoc) field. |
+| [getCustomTocStyleSeparator()](#getCustomTocStyleSeparator) | Gets custom style separator for the \\t switch in [FieldToc](../../com.aspose.words/fieldtoc/) field. |
 | [getDefaultDocumentAuthor()](#getDefaultDocumentAuthor) | Gets default document author's name. |
-| [getFieldDatabaseProvider()](#getFieldDatabaseProvider) | Gets a provider that returns a query result for the [FieldDatabase](../../com.aspose.words/fielddatabase) field. |
-| [getFieldIndexFormat()](#getFieldIndexFormat) | Gets a [getFieldIndexFormat()](../../com.aspose.words/fieldoptions\#getFieldIndexFormat) / [setFieldIndexFormat(int)](../../com.aspose.words/fieldoptions\#setFieldIndexFormat-int) that represents the formatting for the [FieldIndex](../../com.aspose.words/fieldindex) fields in the document. |
+| [getFieldDatabaseProvider()](#getFieldDatabaseProvider) | Gets a provider that returns a query result for the [FieldDatabase](../../com.aspose.words/fielddatabase/) field. |
+| [getFieldIndexFormat()](#getFieldIndexFormat) | Gets a [getFieldIndexFormat()](../../com.aspose.words/fieldoptions/\#getFieldIndexFormat) / [setFieldIndexFormat(int)](../../com.aspose.words/fieldoptions/\#setFieldIndexFormat-int) that represents the formatting for the [FieldIndex](../../com.aspose.words/fieldindex/) fields in the document. |
 | [getFieldUpdateCultureProvider()](#getFieldUpdateCultureProvider) | Gets a provider that returns a culture object specific for each particular field. |
 | [getFieldUpdateCultureSource()](#getFieldUpdateCultureSource) | Specifies what culture to use to format the field result. |
-| [getFieldUpdatingCallback()](#getFieldUpdatingCallback) | Gets [IFieldUpdatingCallback](../../com.aspose.words/ifieldupdatingcallback) implementation |
-| [getFieldUpdatingProgressCallback()](#getFieldUpdatingProgressCallback) | Gets [IFieldUpdatingProgressCallback](../../com.aspose.words/ifieldupdatingprogresscallback) implementation. |
+| [getFieldUpdatingCallback()](#getFieldUpdatingCallback) | Gets [IFieldUpdatingCallback](../../com.aspose.words/ifieldupdatingcallback/) implementation |
+| [getFieldUpdatingProgressCallback()](#getFieldUpdatingProgressCallback) | Gets [IFieldUpdatingProgressCallback](../../com.aspose.words/ifieldupdatingprogresscallback/) implementation. |
 | [getFileName()](#getFileName) | Gets the file name of the document. |
 | [getLegacyNumberFormat()](#getLegacyNumberFormat) | Gets the value indicating whether legacy (early than AW 13.10) number format for fields is enabled or not. |
 | [getPreProcessCulture()](#getPreProcessCulture) | Gets the culture to preprocess field values. |
@@ -54,14 +55,14 @@ To learn more, visit the [ Working with Fields ][Working with Fields] documentat
 | [setBuiltInTemplatesPaths(String[] value)](#setBuiltInTemplatesPaths-java.lang.String) | Sets paths of MS Word built-in templates. |
 | [setComparisonExpressionEvaluator(IComparisonExpressionEvaluator value)](#setComparisonExpressionEvaluator-com.aspose.words.IComparisonExpressionEvaluator) | Sets the field comparison expressions evaluator. |
 | [setCurrentUser(UserInformation value)](#setCurrentUser-com.aspose.words.UserInformation) | Sets the current user information. |
-| [setCustomTocStyleSeparator(String value)](#setCustomTocStyleSeparator-java.lang.String) | Sets custom style separator for the \\t switch in [FieldToc](../../com.aspose.words/fieldtoc) field. |
+| [setCustomTocStyleSeparator(String value)](#setCustomTocStyleSeparator-java.lang.String) | Sets custom style separator for the \\t switch in [FieldToc](../../com.aspose.words/fieldtoc/) field. |
 | [setDefaultDocumentAuthor(String value)](#setDefaultDocumentAuthor-java.lang.String) | Sets default document author's name. |
-| [setFieldDatabaseProvider(IFieldDatabaseProvider value)](#setFieldDatabaseProvider-com.aspose.words.IFieldDatabaseProvider) | Sets a provider that returns a query result for the [FieldDatabase](../../com.aspose.words/fielddatabase) field. |
-| [setFieldIndexFormat(int value)](#setFieldIndexFormat-int) | Sets a [getFieldIndexFormat()](../../com.aspose.words/fieldoptions\#getFieldIndexFormat) / [setFieldIndexFormat(int)](../../com.aspose.words/fieldoptions\#setFieldIndexFormat-int) that represents the formatting for the [FieldIndex](../../com.aspose.words/fieldindex) fields in the document. |
+| [setFieldDatabaseProvider(IFieldDatabaseProvider value)](#setFieldDatabaseProvider-com.aspose.words.IFieldDatabaseProvider) | Sets a provider that returns a query result for the [FieldDatabase](../../com.aspose.words/fielddatabase/) field. |
+| [setFieldIndexFormat(int value)](#setFieldIndexFormat-int) | Sets a [getFieldIndexFormat()](../../com.aspose.words/fieldoptions/\#getFieldIndexFormat) / [setFieldIndexFormat(int)](../../com.aspose.words/fieldoptions/\#setFieldIndexFormat-int) that represents the formatting for the [FieldIndex](../../com.aspose.words/fieldindex/) fields in the document. |
 | [setFieldUpdateCultureProvider(IFieldUpdateCultureProvider value)](#setFieldUpdateCultureProvider-com.aspose.words.IFieldUpdateCultureProvider) | Sets a provider that returns a culture object specific for each particular field. |
 | [setFieldUpdateCultureSource(int value)](#setFieldUpdateCultureSource-int) | Specifies what culture to use to format the field result. |
-| [setFieldUpdatingCallback(IFieldUpdatingCallback value)](#setFieldUpdatingCallback-com.aspose.words.IFieldUpdatingCallback) | Sets [IFieldUpdatingCallback](../../com.aspose.words/ifieldupdatingcallback) implementation |
-| [setFieldUpdatingProgressCallback(IFieldUpdatingProgressCallback value)](#setFieldUpdatingProgressCallback-com.aspose.words.IFieldUpdatingProgressCallback) | Sets [IFieldUpdatingProgressCallback](../../com.aspose.words/ifieldupdatingprogresscallback) implementation. |
+| [setFieldUpdatingCallback(IFieldUpdatingCallback value)](#setFieldUpdatingCallback-com.aspose.words.IFieldUpdatingCallback) | Sets [IFieldUpdatingCallback](../../com.aspose.words/ifieldupdatingcallback/) implementation |
+| [setFieldUpdatingProgressCallback(IFieldUpdatingProgressCallback value)](#setFieldUpdatingProgressCallback-com.aspose.words.IFieldUpdatingProgressCallback) | Sets [IFieldUpdatingProgressCallback](../../com.aspose.words/ifieldupdatingprogresscallback/) implementation. |
 | [setFileName(String value)](#setFileName-java.lang.String) | Sets the file name of the document. |
 | [setLegacyNumberFormat(boolean value)](#setLegacyNumberFormat-boolean) | Sets the value indicating whether legacy (early than AW 13.10) number format for fields is enabled or not. |
 | [setPreProcessCulture(System.Globalization.CultureInfo value)](#setPreProcessCulture-com.aspose.words.net.System.Globalization.CultureInfo) | Sets the culture to preprocess field values. |
@@ -95,10 +96,10 @@ public IBarcodeGenerator getBarcodeGenerator()
 ```
 
 
-Gets or set custom barcode generator. Custom barcode generator should implement public interface [IBarcodeGenerator](../../com.aspose.words/ibarcodegenerator).
+Gets or set custom barcode generator. Custom barcode generator should implement public interface [IBarcodeGenerator](../../com.aspose.words/ibarcodegenerator/).
 
 **Returns:**
-[IBarcodeGenerator](../../com.aspose.words/ibarcodegenerator) - Or set custom barcode generator.
+[IBarcodeGenerator](../../com.aspose.words/ibarcodegenerator/) - Or set custom barcode generator.
 ### getBuiltInTemplatesPaths() {#getBuiltInTemplatesPaths}
 ```
 public String[] getBuiltInTemplatesPaths()
@@ -107,7 +108,7 @@ public String[] getBuiltInTemplatesPaths()
 
 Gets paths of MS Word built-in templates.
 
-This property is used by the [FieldAutoText](../../com.aspose.words/fieldautotext) and [FieldGlossary](../../com.aspose.words/fieldglossary) fields, if referenced auto text entry is not found in the [Document.getAttachedTemplate()](../../com.aspose.words/document\#getAttachedTemplate) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document\#setAttachedTemplate-java.lang.String) template.
+This property is used by the [FieldAutoText](../../com.aspose.words/fieldautotext/) and [FieldGlossary](../../com.aspose.words/fieldglossary/) fields, if referenced auto text entry is not found in the [Document.getAttachedTemplate()](../../com.aspose.words/document/\#getAttachedTemplate) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document/\#setAttachedTemplate-java.lang.String) template.
 
 By default MS Word stores built-in templates in c:\\Users\\\\AppData\\Roaming\\Microsoft\\Document Building Blocks\\1033\\16\\Built-In Building Blocks.dotx and C:\\Users\\\\AppData\\Roaming\\Microsoft\\Templates\\Normal.dotm files.
 
@@ -132,7 +133,7 @@ public IComparisonExpressionEvaluator getComparisonExpressionEvaluator()
 Gets the field comparison expressions evaluator.
 
 **Returns:**
-[IComparisonExpressionEvaluator](../../com.aspose.words/icomparisonexpressionevaluator) - The field comparison expressions evaluator.
+[IComparisonExpressionEvaluator](../../com.aspose.words/icomparisonexpressionevaluator/) - The field comparison expressions evaluator.
 ### getCurrentUser() {#getCurrentUser}
 ```
 public UserInformation getCurrentUser()
@@ -142,17 +143,17 @@ public UserInformation getCurrentUser()
 Gets the current user information.
 
 **Returns:**
-[UserInformation](../../com.aspose.words/userinformation) - The current user information.
+[UserInformation](../../com.aspose.words/userinformation/) - The current user information.
 ### getCustomTocStyleSeparator() {#getCustomTocStyleSeparator}
 ```
 public String getCustomTocStyleSeparator()
 ```
 
 
-Gets custom style separator for the \\t switch in [FieldToc](../../com.aspose.words/fieldtoc) field. By default, custom styles defined by the \\t switch in the [FieldToc](../../com.aspose.words/fieldtoc) field are separated by a delimiter taken from the current culture. This property overrides that behaviour by specifying a user defined delimiter.
+Gets custom style separator for the \\t switch in [FieldToc](../../com.aspose.words/fieldtoc/) field. By default, custom styles defined by the \\t switch in the [FieldToc](../../com.aspose.words/fieldtoc/) field are separated by a delimiter taken from the current culture. This property overrides that behaviour by specifying a user defined delimiter.
 
 **Returns:**
-java.lang.String - Custom style separator for the \\t switch in [FieldToc](../../com.aspose.words/fieldtoc) field.
+java.lang.String - Custom style separator for the \\t switch in [FieldToc](../../com.aspose.words/fieldtoc/) field.
 ### getDefaultDocumentAuthor() {#getDefaultDocumentAuthor}
 ```
 public String getDefaultDocumentAuthor()
@@ -169,20 +170,20 @@ public IFieldDatabaseProvider getFieldDatabaseProvider()
 ```
 
 
-Gets a provider that returns a query result for the [FieldDatabase](../../com.aspose.words/fielddatabase) field.
+Gets a provider that returns a query result for the [FieldDatabase](../../com.aspose.words/fielddatabase/) field.
 
 **Returns:**
-[IFieldDatabaseProvider](../../com.aspose.words/ifielddatabaseprovider) - A provider that returns a query result for the [FieldDatabase](../../com.aspose.words/fielddatabase) field.
+[IFieldDatabaseProvider](../../com.aspose.words/ifielddatabaseprovider/) - A provider that returns a query result for the [FieldDatabase](../../com.aspose.words/fielddatabase/) field.
 ### getFieldIndexFormat() {#getFieldIndexFormat}
 ```
 public int getFieldIndexFormat()
 ```
 
 
-Gets a [getFieldIndexFormat()](../../com.aspose.words/fieldoptions\#getFieldIndexFormat) / [setFieldIndexFormat(int)](../../com.aspose.words/fieldoptions\#setFieldIndexFormat-int) that represents the formatting for the [FieldIndex](../../com.aspose.words/fieldindex) fields in the document.
+Gets a [getFieldIndexFormat()](../../com.aspose.words/fieldoptions/\#getFieldIndexFormat) / [setFieldIndexFormat(int)](../../com.aspose.words/fieldoptions/\#setFieldIndexFormat-int) that represents the formatting for the [FieldIndex](../../com.aspose.words/fieldindex/) fields in the document.
 
 **Returns:**
-int - A [getFieldIndexFormat()](../../com.aspose.words/fieldoptions\#getFieldIndexFormat) / [setFieldIndexFormat(int)](../../com.aspose.words/fieldoptions\#setFieldIndexFormat-int) that represents the formatting for the [FieldIndex](../../com.aspose.words/fieldindex) fields in the document. The returned value is one of [FieldIndexFormat](../../com.aspose.words/fieldindexformat) constants.
+int - A [getFieldIndexFormat()](../../com.aspose.words/fieldoptions/\#getFieldIndexFormat) / [setFieldIndexFormat(int)](../../com.aspose.words/fieldoptions/\#setFieldIndexFormat-int) that represents the formatting for the [FieldIndex](../../com.aspose.words/fieldindex/) fields in the document. The returned value is one of [FieldIndexFormat](../../com.aspose.words/fieldindexformat/) constants.
 ### getFieldUpdateCultureProvider() {#getFieldUpdateCultureProvider}
 ```
 public IFieldUpdateCultureProvider getFieldUpdateCultureProvider()
@@ -191,12 +192,12 @@ public IFieldUpdateCultureProvider getFieldUpdateCultureProvider()
 
 Gets a provider that returns a culture object specific for each particular field.
 
-The provider is requested when the value of [getFieldUpdateCultureSource()](../../com.aspose.words/fieldoptions\#getFieldUpdateCultureSource) / [setFieldUpdateCultureSource(int)](../../com.aspose.words/fieldoptions\#setFieldUpdateCultureSource-int) is [FieldUpdateCultureSource.FIELD\_CODE](../../com.aspose.words/fieldupdateculturesource\#FIELD-CODE).
+The provider is requested when the value of [getFieldUpdateCultureSource()](../../com.aspose.words/fieldoptions/\#getFieldUpdateCultureSource) / [setFieldUpdateCultureSource(int)](../../com.aspose.words/fieldoptions/\#setFieldUpdateCultureSource-int) is [FieldUpdateCultureSource.FIELD\_CODE](../../com.aspose.words/fieldupdateculturesource/\#FIELD-CODE).
 
 If the provider is present, then the culture object it returns is used for the field update. Otherwise, a system culture is used.
 
 **Returns:**
-[IFieldUpdateCultureProvider](../../com.aspose.words/ifieldupdatecultureprovider) - A provider that returns a culture object specific for each particular field.
+[IFieldUpdateCultureProvider](../../com.aspose.words/ifieldupdatecultureprovider/) - A provider that returns a culture object specific for each particular field.
 ### getFieldUpdateCultureSource() {#getFieldUpdateCultureSource}
 ```
 public int getFieldUpdateCultureSource()
@@ -210,27 +211,27 @@ By default, the culture of the current thread is used.
 The setting affects only date/time fields with \\\\@ format switch.
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [FieldUpdateCultureSource](../../com.aspose.words/fieldupdateculturesource) constants.
+int - The corresponding  int  value. The returned value is one of [FieldUpdateCultureSource](../../com.aspose.words/fieldupdateculturesource/) constants.
 ### getFieldUpdatingCallback() {#getFieldUpdatingCallback}
 ```
 public IFieldUpdatingCallback getFieldUpdatingCallback()
 ```
 
 
-Gets [IFieldUpdatingCallback](../../com.aspose.words/ifieldupdatingcallback) implementation
+Gets [IFieldUpdatingCallback](../../com.aspose.words/ifieldupdatingcallback/) implementation
 
 **Returns:**
-[IFieldUpdatingCallback](../../com.aspose.words/ifieldupdatingcallback) - \{[IFieldUpdatingCallback](../../com.aspose.words/ifieldupdatingcallback) implementation
+[IFieldUpdatingCallback](../../com.aspose.words/ifieldupdatingcallback/) - \{[IFieldUpdatingCallback](../../com.aspose.words/ifieldupdatingcallback/) implementation
 ### getFieldUpdatingProgressCallback() {#getFieldUpdatingProgressCallback}
 ```
 public IFieldUpdatingProgressCallback getFieldUpdatingProgressCallback()
 ```
 
 
-Gets [IFieldUpdatingProgressCallback](../../com.aspose.words/ifieldupdatingprogresscallback) implementation.
+Gets [IFieldUpdatingProgressCallback](../../com.aspose.words/ifieldupdatingprogresscallback/) implementation.
 
 **Returns:**
-[IFieldUpdatingProgressCallback](../../com.aspose.words/ifieldupdatingprogresscallback) - \{[IFieldUpdatingProgressCallback](../../com.aspose.words/ifieldupdatingprogresscallback) implementation.
+[IFieldUpdatingProgressCallback](../../com.aspose.words/ifieldupdatingprogresscallback/) - \{[IFieldUpdatingProgressCallback](../../com.aspose.words/ifieldupdatingprogresscallback/) implementation.
 ### getFileName() {#getFileName}
 ```
 public String getFileName()
@@ -239,7 +240,7 @@ public String getFileName()
 
 Gets the file name of the document.
 
-This property is used by the [FieldFileName](../../com.aspose.words/fieldfilename) field with higher priority than the [Document.getOriginalFileName()](../../com.aspose.words/document\#getOriginalFileName) property.
+This property is used by the [FieldFileName](../../com.aspose.words/fieldfilename/) field with higher priority than the [Document.getOriginalFileName()](../../com.aspose.words/document/\#getOriginalFileName) property.
 
 **Returns:**
 java.lang.String - The file name of the document.
@@ -267,12 +268,12 @@ public System.Globalization.CultureInfo getPreProcessCulture()
 
 Gets the culture to preprocess field values.
 
-Currently this property only affects value of the [FieldDocProperty](../../com.aspose.words/fielddocproperty) field.
+Currently this property only affects value of the [FieldDocProperty](../../com.aspose.words/fielddocproperty/) field.
 
-The default value is  null . When this property is set to  null , the [FieldDocProperty](../../com.aspose.words/fielddocproperty) field's value is preprocessed with the culture controlled by the [getFieldUpdateCultureSource()](../../com.aspose.words/fieldoptions\#getFieldUpdateCultureSource) / [setFieldUpdateCultureSource(int)](../../com.aspose.words/fieldoptions\#setFieldUpdateCultureSource-int) property.
+The default value is  null . When this property is set to  null , the [FieldDocProperty](../../com.aspose.words/fielddocproperty/) field's value is preprocessed with the culture controlled by the [getFieldUpdateCultureSource()](../../com.aspose.words/fieldoptions/\#getFieldUpdateCultureSource) / [setFieldUpdateCultureSource(int)](../../com.aspose.words/fieldoptions/\#setFieldUpdateCultureSource-int) property.
 
 **Returns:**
-[CultureInfo](../../com.aspose.words.net.system.globalization/cultureinfo) - The culture to preprocess field values.
+[CultureInfo](../../com.aspose.words.net.system.globalization/cultureinfo/) - The culture to preprocess field values.
 ### getResultFormatter() {#getResultFormatter}
 ```
 public IFieldResultFormatter getResultFormatter()
@@ -282,7 +283,7 @@ public IFieldResultFormatter getResultFormatter()
 Allows to control how the field result is formatted.
 
 **Returns:**
-[IFieldResultFormatter](../../com.aspose.words/ifieldresultformatter) - The corresponding [IFieldResultFormatter](../../com.aspose.words/ifieldresultformatter) value.
+[IFieldResultFormatter](../../com.aspose.words/ifieldresultformatter/) - The corresponding [IFieldResultFormatter](../../com.aspose.words/ifieldresultformatter/) value.
 ### getTemplateName() {#getTemplateName}
 ```
 public String getTemplateName()
@@ -291,7 +292,7 @@ public String getTemplateName()
 
 Gets the file name of the template used by the document.
 
-This property is used by the [FieldTemplate](../../com.aspose.words/fieldtemplate) field if the [Document.getAttachedTemplate()](../../com.aspose.words/document\#getAttachedTemplate) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document\#setAttachedTemplate-java.lang.String) property is empty.
+This property is used by the [FieldTemplate](../../com.aspose.words/fieldtemplate/) field if the [Document.getAttachedTemplate()](../../com.aspose.words/document/\#getAttachedTemplate) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document/\#setAttachedTemplate-java.lang.String) property is empty.
 
 If this property is empty, the default template file name  Normal.dotm  is used.
 
@@ -306,7 +307,7 @@ public ToaCategories getToaCategories()
 Gets the table of authorities categories.
 
 **Returns:**
-[ToaCategories](../../com.aspose.words/toacategories) - The table of authorities categories.
+[ToaCategories](../../com.aspose.words/toacategories/) - The table of authorities categories.
 ### getUseInvariantCultureNumberFormat() {#getUseInvariantCultureNumberFormat}
 ```
 public boolean getUseInvariantCultureNumberFormat()
@@ -331,12 +332,12 @@ public IFieldUserPromptRespondent getUserPromptRespondent()
 
 Gets the respondent to user prompts during field update.
 
-If the value of this property is set to  null , the fields that require user response on prompting (such as [FieldAsk](../../com.aspose.words/fieldask) or [FieldFillIn](../../com.aspose.words/fieldfillin)) are not updated.
+If the value of this property is set to  null , the fields that require user response on prompting (such as [FieldAsk](../../com.aspose.words/fieldask/) or [FieldFillIn](../../com.aspose.words/fieldfillin/)) are not updated.
 
 The default value is  null .
 
 **Returns:**
-[IFieldUserPromptRespondent](../../com.aspose.words/ifielduserpromptrespondent) - The respondent to user prompts during field update.
+[IFieldUserPromptRespondent](../../com.aspose.words/ifielduserpromptrespondent/) - The respondent to user prompts during field update.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()
@@ -404,12 +405,12 @@ public void setBarcodeGenerator(IBarcodeGenerator value)
 ```
 
 
-Gets or set custom barcode generator. Custom barcode generator should implement public interface [IBarcodeGenerator](../../com.aspose.words/ibarcodegenerator).
+Gets or set custom barcode generator. Custom barcode generator should implement public interface [IBarcodeGenerator](../../com.aspose.words/ibarcodegenerator/).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IBarcodeGenerator](../../com.aspose.words/ibarcodegenerator) | Or set custom barcode generator. |
+| value | [IBarcodeGenerator](../../com.aspose.words/ibarcodegenerator/) | Or set custom barcode generator. |
 
 ### setBuiltInTemplatesPaths(String[] value) {#setBuiltInTemplatesPaths-java.lang.String}
 ```
@@ -419,7 +420,7 @@ public void setBuiltInTemplatesPaths(String[] value)
 
 Sets paths of MS Word built-in templates.
 
-This property is used by the [FieldAutoText](../../com.aspose.words/fieldautotext) and [FieldGlossary](../../com.aspose.words/fieldglossary) fields, if referenced auto text entry is not found in the [Document.getAttachedTemplate()](../../com.aspose.words/document\#getAttachedTemplate) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document\#setAttachedTemplate-java.lang.String) template.
+This property is used by the [FieldAutoText](../../com.aspose.words/fieldautotext/) and [FieldGlossary](../../com.aspose.words/fieldglossary/) fields, if referenced auto text entry is not found in the [Document.getAttachedTemplate()](../../com.aspose.words/document/\#getAttachedTemplate) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document/\#setAttachedTemplate-java.lang.String) template.
 
 By default MS Word stores built-in templates in c:\\Users\\\\AppData\\Roaming\\Microsoft\\Document Building Blocks\\1033\\16\\Built-In Building Blocks.dotx and C:\\Users\\\\AppData\\Roaming\\Microsoft\\Templates\\Normal.dotm files.
 
@@ -439,7 +440,7 @@ Sets the field comparison expressions evaluator.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IComparisonExpressionEvaluator](../../com.aspose.words/icomparisonexpressionevaluator) | The field comparison expressions evaluator. |
+| value | [IComparisonExpressionEvaluator](../../com.aspose.words/icomparisonexpressionevaluator/) | The field comparison expressions evaluator. |
 
 ### setCurrentUser(UserInformation value) {#setCurrentUser-com.aspose.words.UserInformation}
 ```
@@ -452,7 +453,7 @@ Sets the current user information.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [UserInformation](../../com.aspose.words/userinformation) | The current user information. |
+| value | [UserInformation](../../com.aspose.words/userinformation/) | The current user information. |
 
 ### setCustomTocStyleSeparator(String value) {#setCustomTocStyleSeparator-java.lang.String}
 ```
@@ -460,12 +461,12 @@ public void setCustomTocStyleSeparator(String value)
 ```
 
 
-Sets custom style separator for the \\t switch in [FieldToc](../../com.aspose.words/fieldtoc) field. By default, custom styles defined by the \\t switch in the [FieldToc](../../com.aspose.words/fieldtoc) field are separated by a delimiter taken from the current culture. This property overrides that behaviour by specifying a user defined delimiter.
+Sets custom style separator for the \\t switch in [FieldToc](../../com.aspose.words/fieldtoc/) field. By default, custom styles defined by the \\t switch in the [FieldToc](../../com.aspose.words/fieldtoc/) field are separated by a delimiter taken from the current culture. This property overrides that behaviour by specifying a user defined delimiter.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | Custom style separator for the \\t switch in [FieldToc](../../com.aspose.words/fieldtoc) field. |
+| value | java.lang.String | Custom style separator for the \\t switch in [FieldToc](../../com.aspose.words/fieldtoc/) field. |
 
 ### setDefaultDocumentAuthor(String value) {#setDefaultDocumentAuthor-java.lang.String}
 ```
@@ -486,12 +487,12 @@ public void setFieldDatabaseProvider(IFieldDatabaseProvider value)
 ```
 
 
-Sets a provider that returns a query result for the [FieldDatabase](../../com.aspose.words/fielddatabase) field.
+Sets a provider that returns a query result for the [FieldDatabase](../../com.aspose.words/fielddatabase/) field.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IFieldDatabaseProvider](../../com.aspose.words/ifielddatabaseprovider) | A provider that returns a query result for the [FieldDatabase](../../com.aspose.words/fielddatabase) field. |
+| value | [IFieldDatabaseProvider](../../com.aspose.words/ifielddatabaseprovider/) | A provider that returns a query result for the [FieldDatabase](../../com.aspose.words/fielddatabase/) field. |
 
 ### setFieldIndexFormat(int value) {#setFieldIndexFormat-int}
 ```
@@ -499,12 +500,12 @@ public void setFieldIndexFormat(int value)
 ```
 
 
-Sets a [getFieldIndexFormat()](../../com.aspose.words/fieldoptions\#getFieldIndexFormat) / [setFieldIndexFormat(int)](../../com.aspose.words/fieldoptions\#setFieldIndexFormat-int) that represents the formatting for the [FieldIndex](../../com.aspose.words/fieldindex) fields in the document.
+Sets a [getFieldIndexFormat()](../../com.aspose.words/fieldoptions/\#getFieldIndexFormat) / [setFieldIndexFormat(int)](../../com.aspose.words/fieldoptions/\#setFieldIndexFormat-int) that represents the formatting for the [FieldIndex](../../com.aspose.words/fieldindex/) fields in the document.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | A [getFieldIndexFormat()](../../com.aspose.words/fieldoptions\#getFieldIndexFormat) / [setFieldIndexFormat(int)](../../com.aspose.words/fieldoptions\#setFieldIndexFormat-int) that represents the formatting for the [FieldIndex](../../com.aspose.words/fieldindex) fields in the document. The value must be one of [FieldIndexFormat](../../com.aspose.words/fieldindexformat) constants. |
+| value | int | A [getFieldIndexFormat()](../../com.aspose.words/fieldoptions/\#getFieldIndexFormat) / [setFieldIndexFormat(int)](../../com.aspose.words/fieldoptions/\#setFieldIndexFormat-int) that represents the formatting for the [FieldIndex](../../com.aspose.words/fieldindex/) fields in the document. The value must be one of [FieldIndexFormat](../../com.aspose.words/fieldindexformat/) constants. |
 
 ### setFieldUpdateCultureProvider(IFieldUpdateCultureProvider value) {#setFieldUpdateCultureProvider-com.aspose.words.IFieldUpdateCultureProvider}
 ```
@@ -514,14 +515,14 @@ public void setFieldUpdateCultureProvider(IFieldUpdateCultureProvider value)
 
 Sets a provider that returns a culture object specific for each particular field.
 
-The provider is requested when the value of [getFieldUpdateCultureSource()](../../com.aspose.words/fieldoptions\#getFieldUpdateCultureSource) / [setFieldUpdateCultureSource(int)](../../com.aspose.words/fieldoptions\#setFieldUpdateCultureSource-int) is [FieldUpdateCultureSource.FIELD\_CODE](../../com.aspose.words/fieldupdateculturesource\#FIELD-CODE).
+The provider is requested when the value of [getFieldUpdateCultureSource()](../../com.aspose.words/fieldoptions/\#getFieldUpdateCultureSource) / [setFieldUpdateCultureSource(int)](../../com.aspose.words/fieldoptions/\#setFieldUpdateCultureSource-int) is [FieldUpdateCultureSource.FIELD\_CODE](../../com.aspose.words/fieldupdateculturesource/\#FIELD-CODE).
 
 If the provider is present, then the culture object it returns is used for the field update. Otherwise, a system culture is used.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IFieldUpdateCultureProvider](../../com.aspose.words/ifieldupdatecultureprovider) | A provider that returns a culture object specific for each particular field. |
+| value | [IFieldUpdateCultureProvider](../../com.aspose.words/ifieldupdatecultureprovider/) | A provider that returns a culture object specific for each particular field. |
 
 ### setFieldUpdateCultureSource(int value) {#setFieldUpdateCultureSource-int}
 ```
@@ -538,7 +539,7 @@ The setting affects only date/time fields with \\\\@ format switch.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [FieldUpdateCultureSource](../../com.aspose.words/fieldupdateculturesource) constants. |
+| value | int | The corresponding  int  value. The value must be one of [FieldUpdateCultureSource](../../com.aspose.words/fieldupdateculturesource/) constants. |
 
 ### setFieldUpdatingCallback(IFieldUpdatingCallback value) {#setFieldUpdatingCallback-com.aspose.words.IFieldUpdatingCallback}
 ```
@@ -546,12 +547,12 @@ public void setFieldUpdatingCallback(IFieldUpdatingCallback value)
 ```
 
 
-Sets [IFieldUpdatingCallback](../../com.aspose.words/ifieldupdatingcallback) implementation
+Sets [IFieldUpdatingCallback](../../com.aspose.words/ifieldupdatingcallback/) implementation
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IFieldUpdatingCallback](../../com.aspose.words/ifieldupdatingcallback) | \{[IFieldUpdatingCallback](../../com.aspose.words/ifieldupdatingcallback) implementation |
+| value | [IFieldUpdatingCallback](../../com.aspose.words/ifieldupdatingcallback/) | \{[IFieldUpdatingCallback](../../com.aspose.words/ifieldupdatingcallback/) implementation |
 
 ### setFieldUpdatingProgressCallback(IFieldUpdatingProgressCallback value) {#setFieldUpdatingProgressCallback-com.aspose.words.IFieldUpdatingProgressCallback}
 ```
@@ -559,12 +560,12 @@ public void setFieldUpdatingProgressCallback(IFieldUpdatingProgressCallback valu
 ```
 
 
-Sets [IFieldUpdatingProgressCallback](../../com.aspose.words/ifieldupdatingprogresscallback) implementation.
+Sets [IFieldUpdatingProgressCallback](../../com.aspose.words/ifieldupdatingprogresscallback/) implementation.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IFieldUpdatingProgressCallback](../../com.aspose.words/ifieldupdatingprogresscallback) | \{[IFieldUpdatingProgressCallback](../../com.aspose.words/ifieldupdatingprogresscallback) implementation. |
+| value | [IFieldUpdatingProgressCallback](../../com.aspose.words/ifieldupdatingprogresscallback/) | \{[IFieldUpdatingProgressCallback](../../com.aspose.words/ifieldupdatingprogresscallback/) implementation. |
 
 ### setFileName(String value) {#setFileName-java.lang.String}
 ```
@@ -574,7 +575,7 @@ public void setFileName(String value)
 
 Sets the file name of the document.
 
-This property is used by the [FieldFileName](../../com.aspose.words/fieldfilename) field with higher priority than the [Document.getOriginalFileName()](../../com.aspose.words/document\#getOriginalFileName) property.
+This property is used by the [FieldFileName](../../com.aspose.words/fieldfilename/) field with higher priority than the [Document.getOriginalFileName()](../../com.aspose.words/document/\#getOriginalFileName) property.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -608,14 +609,14 @@ public void setPreProcessCulture(System.Globalization.CultureInfo value)
 
 Sets the culture to preprocess field values.
 
-Currently this property only affects value of the [FieldDocProperty](../../com.aspose.words/fielddocproperty) field.
+Currently this property only affects value of the [FieldDocProperty](../../com.aspose.words/fielddocproperty/) field.
 
-The default value is  null . When this property is set to  null , the [FieldDocProperty](../../com.aspose.words/fielddocproperty) field's value is preprocessed with the culture controlled by the [getFieldUpdateCultureSource()](../../com.aspose.words/fieldoptions\#getFieldUpdateCultureSource) / [setFieldUpdateCultureSource(int)](../../com.aspose.words/fieldoptions\#setFieldUpdateCultureSource-int) property.
+The default value is  null . When this property is set to  null , the [FieldDocProperty](../../com.aspose.words/fielddocproperty/) field's value is preprocessed with the culture controlled by the [getFieldUpdateCultureSource()](../../com.aspose.words/fieldoptions/\#getFieldUpdateCultureSource) / [setFieldUpdateCultureSource(int)](../../com.aspose.words/fieldoptions/\#setFieldUpdateCultureSource-int) property.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CultureInfo](../../com.aspose.words.net.system.globalization/cultureinfo) | The culture to preprocess field values. |
+| value | [CultureInfo](../../com.aspose.words.net.system.globalization/cultureinfo/) | The culture to preprocess field values. |
 
 ### setResultFormatter(IFieldResultFormatter value) {#setResultFormatter-com.aspose.words.IFieldResultFormatter}
 ```
@@ -628,7 +629,7 @@ Allows to control how the field result is formatted.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IFieldResultFormatter](../../com.aspose.words/ifieldresultformatter) | The corresponding [IFieldResultFormatter](../../com.aspose.words/ifieldresultformatter) value. |
+| value | [IFieldResultFormatter](../../com.aspose.words/ifieldresultformatter/) | The corresponding [IFieldResultFormatter](../../com.aspose.words/ifieldresultformatter/) value. |
 
 ### setTemplateName(String value) {#setTemplateName-java.lang.String}
 ```
@@ -638,7 +639,7 @@ public void setTemplateName(String value)
 
 Sets the file name of the template used by the document.
 
-This property is used by the [FieldTemplate](../../com.aspose.words/fieldtemplate) field if the [Document.getAttachedTemplate()](../../com.aspose.words/document\#getAttachedTemplate) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document\#setAttachedTemplate-java.lang.String) property is empty.
+This property is used by the [FieldTemplate](../../com.aspose.words/fieldtemplate/) field if the [Document.getAttachedTemplate()](../../com.aspose.words/document/\#getAttachedTemplate) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document/\#setAttachedTemplate-java.lang.String) property is empty.
 
 If this property is empty, the default template file name  Normal.dotm  is used.
 
@@ -658,7 +659,7 @@ Sets the table of authorities categories.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ToaCategories](../../com.aspose.words/toacategories) | The table of authorities categories. |
+| value | [ToaCategories](../../com.aspose.words/toacategories/) | The table of authorities categories. |
 
 ### setUseInvariantCultureNumberFormat(boolean value) {#setUseInvariantCultureNumberFormat-boolean}
 ```
@@ -687,14 +688,14 @@ public void setUserPromptRespondent(IFieldUserPromptRespondent value)
 
 Sets the respondent to user prompts during field update.
 
-If the value of this property is set to  null , the fields that require user response on prompting (such as [FieldAsk](../../com.aspose.words/fieldask) or [FieldFillIn](../../com.aspose.words/fieldfillin)) are not updated.
+If the value of this property is set to  null , the fields that require user response on prompting (such as [FieldAsk](../../com.aspose.words/fieldask/) or [FieldFillIn](../../com.aspose.words/fieldfillin/)) are not updated.
 
 The default value is  null .
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IFieldUserPromptRespondent](../../com.aspose.words/ifielduserpromptrespondent) | The respondent to user prompts during field update. |
+| value | [IFieldUserPromptRespondent](../../com.aspose.words/ifielduserpromptrespondent/) | The respondent to user prompts during field update. |
 
 ### toString() {#toString}
 ```

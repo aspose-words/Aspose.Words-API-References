@@ -1,9 +1,10 @@
 ---
 title: IFieldMergingCallback
+linktitle: IFieldMergingCallback
 second_title: Aspose.Words for Java API Reference
-description: Implement this interface if you want to control how data is inserted into merge fields during a mail merge operation.
+description: Implement this interface if you want to control how data is inserted into merge fields during a mail merge operation in Java.
 type: docs
-weight: 645
+weight: 647
 url: /java/com.aspose.words/ifieldmergingcallback/
 ---
 ```
@@ -28,7 +29,7 @@ Called when the Aspose.Words mail merge engine is about to insert data into a me
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| args | [FieldMergingArgs](../../com.aspose.words/fieldmergingargs) |  |
+| args | [FieldMergingArgs](../../com.aspose.words/fieldmergingargs/) |  |
 
 ### imageFieldMerging(ImageFieldMergingArgs args) {#imageFieldMerging-com.aspose.words.ImageFieldMergingArgs}
 ```
@@ -41,5 +42,5 @@ Called when the Aspose.Words mail merge engine is about to insert an image into 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| args | [ImageFieldMergingArgs](../../com.aspose.words/imagefieldmergingargs) |  |
+| args | [ImageFieldMergingArgs](../../com.aspose.words/imagefieldmergingargs/) |  |
 

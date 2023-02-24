@@ -1,9 +1,10 @@
 ---
 title: OdsoDataSourceType
+linktitle: OdsoDataSourceType
 second_title: Aspose.Words for Java API Reference
-description: Specifies the type of the external data source to be connected to as part of the ODSO connection information.
+description: Specifies the type of the external data source to be connected to as part of the ODSO connection information in Java.
 type: docs
-weight: 416
+weight: 418
 url: /java/com.aspose.words/odsodatasourcetype/
 ---
 
@@ -22,7 +23,7 @@ The OOXML specification is very vague for this enum. I guess it might correspond
 | --- | --- |
 | [ADDRESS_BOOK](#ADDRESS-BOOK) | Specifies that a given document has been connected to an address book of contacts. |
 | [DATABASE](#DATABASE) | Specifies that a given document has been connected to a database. |
-| [DEFAULT](#DEFAULT) | Equals to [NONE](../../com.aspose.words/odsodatasourcetype\#NONE). |
+| [DEFAULT](#DEFAULT) | Equals to [NONE](../../com.aspose.words/odsodatasourcetype/\#NONE). |
 | [DOCUMENT_1](#DOCUMENT-1) | Specifies that a given document has been connected to another document format supported by the producing application. |
 | [DOCUMENT_2](#DOCUMENT-2) | Specifies that a given document has been connected to another document format supported by the producing application. |
 | [EMAIL](#EMAIL) | Specifies that a given document has been connected to an e-mail application. |
@@ -71,7 +72,7 @@ public static int DEFAULT
 ```
 
 
-Equals to [NONE](../../com.aspose.words/odsodatasourcetype\#NONE).
+Equals to [NONE](../../com.aspose.words/odsodatasourcetype/\#NONE).
 
 ### DOCUMENT_1 {#DOCUMENT-1}
 ```

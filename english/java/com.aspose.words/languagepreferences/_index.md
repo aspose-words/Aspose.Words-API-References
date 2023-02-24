@@ -1,9 +1,10 @@
 ---
 title: LanguagePreferences
+linktitle: LanguagePreferences
 second_title: Aspose.Words for Java API Reference
-description: Allows to set up language preferences.
+description: Allows to set up language preferences in Java.
 type: docs
-weight: 359
+weight: 360
 url: /java/com.aspose.words/languagepreferences/
 ---
 
@@ -97,10 +98,10 @@ public int getDefaultEditingLanguage()
 
 Gets or sets default editing language.
 
-The default value is [EditingLanguage.ENGLISH\_US](../../com.aspose.words/editinglanguage\#ENGLISH-US).
+The default value is [EditingLanguage.ENGLISH\_US](../../com.aspose.words/editinglanguage/\#ENGLISH-US).
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [EditingLanguage](../../com.aspose.words/editinglanguage) constants.
+int - The corresponding  int  value. The returned value is one of [EditingLanguage](../../com.aspose.words/editinglanguage/) constants.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()
@@ -135,12 +136,12 @@ public void setDefaultEditingLanguage(int value)
 
 Gets or sets default editing language.
 
-The default value is [EditingLanguage.ENGLISH\_US](../../com.aspose.words/editinglanguage\#ENGLISH-US).
+The default value is [EditingLanguage.ENGLISH\_US](../../com.aspose.words/editinglanguage/\#ENGLISH-US).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [EditingLanguage](../../com.aspose.words/editinglanguage) constants. |
+| value | int | The corresponding  int  value. The value must be one of [EditingLanguage](../../com.aspose.words/editinglanguage/) constants. |
 
 ### toString() {#toString}
 ```

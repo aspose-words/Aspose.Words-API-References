@@ -1,7 +1,8 @@
 ---
 title: CsvDataLoadOptions
+linktitle: CsvDataLoadOptions
 second_title: Aspose.Words for Java API Reference
-description: Represents options for parsing CSV data.
+description: Represents options for parsing CSV data in Java.
 type: docs
 weight: 99
 url: /java/com.aspose.words/csvdataloadoptions/
@@ -17,7 +18,7 @@ Represents options for parsing CSV data.
 
 To learn more, visit the [ LINQ Reporting Engine ][LINQ Reporting Engine] documentation article.
 
-An instance of this class can be passed into constructors of [CsvDataSource](../../com.aspose.words/csvdatasource).
+An instance of this class can be passed into constructors of [CsvDataSource](../../com.aspose.words/csvdatasource/).
 
 
 [LINQ Reporting Engine]: https://docs.aspose.com/words/java/linq-reporting-engine/

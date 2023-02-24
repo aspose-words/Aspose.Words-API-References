@@ -1,9 +1,10 @@
 ---
 title: OfficeMathJustification
+linktitle: OfficeMathJustification
 second_title: Aspose.Words for Java API Reference
-description: Specifies the justification of the equation.
+description: Specifies the justification of the equation in Java.
 type: docs
-weight: 426
+weight: 428
 url: /java/com.aspose.words/officemathjustification/
 ---
 
@@ -20,7 +21,7 @@ Specifies the justification of the equation.
 | --- | --- |
 | [CENTER](#CENTER) | Centers each instance of mathematical text individually with respect to margins. |
 | [CENTER_GROUP](#CENTER-GROUP) | Justifies instances of mathematical text to the left with respect to each other, and centers the group of mathematical text (the Math Paragraph) with respect to the page. |
-| [DEFAULT](#DEFAULT) | Default value [CENTER\_GROUP](../../com.aspose.words/officemathjustification\#CENTER-GROUP). |
+| [DEFAULT](#DEFAULT) | Default value [CENTER\_GROUP](../../com.aspose.words/officemathjustification/\#CENTER-GROUP). |
 | [INLINE](#INLINE) | Inline position of Math. |
 | [LEFT](#LEFT) | Left justification of Math Paragraph. |
 | [RIGHT](#RIGHT) | Right Justification of Math Paragraph. |
@@ -64,7 +65,7 @@ public static int DEFAULT
 ```
 
 
-Default value [CENTER\_GROUP](../../com.aspose.words/officemathjustification\#CENTER-GROUP).
+Default value [CENTER\_GROUP](../../com.aspose.words/officemathjustification/\#CENTER-GROUP).
 
 ### INLINE {#INLINE}
 ```

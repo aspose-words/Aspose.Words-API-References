@@ -1,7 +1,8 @@
 ---
 title: DocumentPropertyCollection
+linktitle: DocumentPropertyCollection
 second_title: Aspose.Words for Java API Reference
-description: Base class for  and  collections.
+description: Base class for  and  collections in Java.
 type: docs
 weight: 128
 url: /java/com.aspose.words/documentpropertycollection/
@@ -16,7 +17,7 @@ java.lang.Iterable
 public abstract class DocumentPropertyCollection implements Iterable
 ```
 
-Base class for [BuiltInDocumentProperties](../../com.aspose.words/builtindocumentproperties) and [CustomDocumentProperties](../../com.aspose.words/customdocumentproperties) collections.
+Base class for [BuiltInDocumentProperties](../../com.aspose.words/builtindocumentproperties/) and [CustomDocumentProperties](../../com.aspose.words/customdocumentproperties/) collections.
 
 To learn more, visit the [ Work with Document Properties ][Work with Document Properties] documentation article.
 
@@ -38,7 +39,7 @@ The properties in the collection are sorted alphabetically by name.
 | [clear()](#clear) | Removes all properties from the collection. |
 | [contains(String name)](#contains-java.lang.String) | Returns  true  if a property with the specified name exists in the collection. |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [get(int index)](#get-int) | Returns a [DocumentProperty](../../com.aspose.words/documentproperty) object by index. |
+| [get(int index)](#get-int) | Returns a [DocumentProperty](../../com.aspose.words/documentproperty/) object by index. |
 | [get(String name)](#get-java.lang.String) | Provides access to the collection items. |
 | [getClass()](#getClass) |  |
 | [getCount()](#getCount) | Gets number of items in the collection. |
@@ -103,24 +104,24 @@ public DocumentProperty get(int index)
 ```
 
 
-Returns a [DocumentProperty](../../com.aspose.words/documentproperty) object by index.
+Returns a [DocumentProperty](../../com.aspose.words/documentproperty/) object by index.
 
 **Note:**  In Java this method is slow because iterates over all nodes.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | Zero-based index of the [DocumentProperty](../../com.aspose.words/documentproperty) to retrieve. |
+| index | int | Zero-based index of the [DocumentProperty](../../com.aspose.words/documentproperty/) to retrieve. |
 
 **Returns:**
-[DocumentProperty](../../com.aspose.words/documentproperty) - A [DocumentProperty](../../com.aspose.words/documentproperty) object by index.
+[DocumentProperty](../../com.aspose.words/documentproperty/) - A [DocumentProperty](../../com.aspose.words/documentproperty/) object by index.
 ### get(String name) {#get-java.lang.String}
 ```
 public DocumentProperty get(String name)
 ```
 
 
-Provides access to the collection items.  Returns a [DocumentProperty](../../com.aspose.words/documentproperty) object by the name of the property.
+Provides access to the collection items.  Returns a [DocumentProperty](../../com.aspose.words/documentproperty/) object by the name of the property.
 
 Returns  null  if a property with the specified name is not found.
 
@@ -130,7 +131,7 @@ Returns  null  if a property with the specified name is not found.
 | name | java.lang.String | The case-insensitive name of the property to retrieve. |
 
 **Returns:**
-[DocumentProperty](../../com.aspose.words/documentproperty) - The corresponding [DocumentProperty](../../com.aspose.words/documentproperty) value.
+[DocumentProperty](../../com.aspose.words/documentproperty/) - The corresponding [DocumentProperty](../../com.aspose.words/documentproperty/) value.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()

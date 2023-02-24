@@ -1,14 +1,15 @@
 ---
 title: WebExtensionReferenceCollection
+linktitle: WebExtensionReferenceCollection
 second_title: Aspose.Words for Java API Reference
-description: Specifies a list of web extension references.
+description: Specifies a list of web extension references in Java.
 type: docs
-weight: 622
+weight: 624
 url: /java/com.aspose.words/webextensionreferencecollection/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.words.BaseWebExtensionCollection](../../com.aspose.words/basewebextensioncollection)
+java.lang.Object, [com.aspose.words.BaseWebExtensionCollection](../../com.aspose.words/basewebextensioncollection/)
 ```
 public class WebExtensionReferenceCollection extends BaseWebExtensionCollection
 ```

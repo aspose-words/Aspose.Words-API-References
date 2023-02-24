@@ -1,9 +1,10 @@
 ---
 title: ViewOptions
+linktitle: ViewOptions
 second_title: Aspose.Words for Java API Reference
-description: Provides various options that control how a document is shown in Microsoft Word.
+description: Provides various options that control how a document is shown in Microsoft Word in Java.
 type: docs
-weight: 605
+weight: 607
 url: /java/com.aspose.words/viewoptions/
 ---
 
@@ -115,7 +116,7 @@ Controls the view mode in Microsoft Word.
 Although Aspose.Words is able to read and write this option, its usage is application-specific. For example MS Word 2013 does not respect the value of this option.
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [ViewType](../../com.aspose.words/viewtype) constants.
+int - The corresponding  int  value. The returned value is one of [ViewType](../../com.aspose.words/viewtype/) constants.
 ### getZoomPercent() {#getZoomPercent}
 ```
 public int getZoomPercent()
@@ -139,7 +140,7 @@ public int getZoomType()
 Gets a zoom value based on the size of the window.
 
 **Returns:**
-int - A zoom value based on the size of the window. The returned value is one of [ZoomType](../../com.aspose.words/zoomtype) constants.
+int - A zoom value based on the size of the window. The returned value is one of [ZoomType](../../com.aspose.words/zoomtype/) constants.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()
@@ -220,7 +221,7 @@ Although Aspose.Words is able to read and write this option, its usage is applic
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [ViewType](../../com.aspose.words/viewtype) constants. |
+| value | int | The corresponding  int  value. The value must be one of [ViewType](../../com.aspose.words/viewtype/) constants. |
 
 ### setZoomPercent(int value) {#setZoomPercent-int}
 ```
@@ -250,7 +251,7 @@ Sets a zoom value based on the size of the window.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | A zoom value based on the size of the window. The value must be one of [ZoomType](../../com.aspose.words/zoomtype) constants. |
+| value | int | A zoom value based on the size of the window. The value must be one of [ZoomType](../../com.aspose.words/zoomtype/) constants. |
 
 ### toString() {#toString}
 ```

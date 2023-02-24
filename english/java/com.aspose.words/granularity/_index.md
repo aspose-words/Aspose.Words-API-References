@@ -1,7 +1,8 @@
 ---
 title: Granularity
+linktitle: Granularity
 second_title: Aspose.Words for Java API Reference
-description: Specifies the granularity of changes to track when comparing two documents.
+description: Specifies the granularity of changes to track when comparing two documents in Java.
 type: docs
 weight: 314
 url: /java/com.aspose.words/granularity/

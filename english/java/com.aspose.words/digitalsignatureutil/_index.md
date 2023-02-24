@@ -1,7 +1,8 @@
 ---
 title: DigitalSignatureUtil
+linktitle: DigitalSignatureUtil
 second_title: Aspose.Words for Java API Reference
-description: Provides methods for signing document.
+description: Provides methods for signing document in Java.
 type: docs
 weight: 115
 url: /java/com.aspose.words/digitalsignatureutil/
@@ -19,7 +20,7 @@ To learn more, visit the [ Work with Digital Signatures ][Work with Digital Sign
 
 Since digital signature works with file content rather than Document Object Model these methods are put into a separate class.
 
-Supported formats are [LoadFormat.DOC](../../com.aspose.words/loadformat\#DOC) and [LoadFormat.DOCX](../../com.aspose.words/loadformat\#DOCX).
+Supported formats are [LoadFormat.DOC](../../com.aspose.words/loadformat/\#DOC) and [LoadFormat.DOCX](../../com.aspose.words/loadformat/\#DOCX).
 
 
 [Work with Digital Signatures]: https://docs.aspose.com/words/java/working-with-digital-signatures/
@@ -38,8 +39,8 @@ Supported formats are [LoadFormat.DOC](../../com.aspose.words/loadformat\#DOC) a
 | [removeAllSignatures(String srcFileName, String dstFileName)](#removeAllSignatures-java.lang.String-java.lang.String) | Removes all digital signatures from source file and writes unsigned file to destination file. |
 | [sign(InputStream srcStream, OutputStream dstStream, CertificateHolder certHolder)](#sign-java.io.InputStream-java.io.OutputStream-com.aspose.words.CertificateHolder) |  |
 | [sign(InputStream srcStream, OutputStream dstStream, CertificateHolder certHolder, SignOptions signOptions)](#sign-java.io.InputStream-java.io.OutputStream-com.aspose.words.CertificateHolder-com.aspose.words.SignOptions) |  |
-| [sign(String srcFileName, String dstFileName, CertificateHolder certHolder)](#sign-java.lang.String-java.lang.String-com.aspose.words.CertificateHolder) | Signs source document using given [CertificateHolder](../../com.aspose.words/certificateholder) with digital signature and writes signed document to destination file. |
-| [sign(String srcFileName, String dstFileName, CertificateHolder certHolder, SignOptions signOptions)](#sign-java.lang.String-java.lang.String-com.aspose.words.CertificateHolder-com.aspose.words.SignOptions) | Signs source document using given [CertificateHolder](../../com.aspose.words/certificateholder) and [SignOptions](../../com.aspose.words/signoptions) with digital signature and writes signed document to destination file. |
+| [sign(String srcFileName, String dstFileName, CertificateHolder certHolder)](#sign-java.lang.String-java.lang.String-com.aspose.words.CertificateHolder) | Signs source document using given [CertificateHolder](../../com.aspose.words/certificateholder/) with digital signature and writes signed document to destination file. |
+| [sign(String srcFileName, String dstFileName, CertificateHolder certHolder, SignOptions signOptions)](#sign-java.lang.String-java.lang.String-com.aspose.words.CertificateHolder-com.aspose.words.SignOptions) | Signs source document using given [CertificateHolder](../../com.aspose.words/certificateholder/) and [SignOptions](../../com.aspose.words/signoptions/) with digital signature and writes signed document to destination file. |
 | [toString()](#toString) |  |
 | [wait()](#wait) |  |
 | [wait(long arg0)](#wait-long) |  |
@@ -93,7 +94,7 @@ public static DigitalSignatureCollection loadSignatures(InputStream stream)
 | stream | java.io.InputStream |  |
 
 **Returns:**
-[DigitalSignatureCollection](../../com.aspose.words/digitalsignaturecollection)
+[DigitalSignatureCollection](../../com.aspose.words/digitalsignaturecollection/)
 ### loadSignatures(String fileName) {#loadSignatures-java.lang.String}
 ```
 public static DigitalSignatureCollection loadSignatures(String fileName)
@@ -108,7 +109,7 @@ Loads digital signatures from document.
 | fileName | java.lang.String | Path to the document. |
 
 **Returns:**
-[DigitalSignatureCollection](../../com.aspose.words/digitalsignaturecollection) - Collection of digital signatures. Returns empty collection if file is not signed.
+[DigitalSignatureCollection](../../com.aspose.words/digitalsignaturecollection/) - Collection of digital signatures. Returns empty collection if file is not signed.
 ### notify() {#notify}
 ```
 public final native void notify()
@@ -166,7 +167,7 @@ public static void sign(InputStream srcStream, OutputStream dstStream, Certifica
 | --- | --- | --- |
 | srcStream | java.io.InputStream |  |
 | dstStream | java.io.OutputStream |  |
-| certHolder | [CertificateHolder](../../com.aspose.words/certificateholder) |  |
+| certHolder | [CertificateHolder](../../com.aspose.words/certificateholder/) |  |
 
 ### sign(InputStream srcStream, OutputStream dstStream, CertificateHolder certHolder, SignOptions signOptions) {#sign-java.io.InputStream-java.io.OutputStream-com.aspose.words.CertificateHolder-com.aspose.words.SignOptions}
 ```
@@ -181,8 +182,8 @@ public static void sign(InputStream srcStream, OutputStream dstStream, Certifica
 | --- | --- | --- |
 | srcStream | java.io.InputStream |  |
 | dstStream | java.io.OutputStream |  |
-| certHolder | [CertificateHolder](../../com.aspose.words/certificateholder) |  |
-| signOptions | [SignOptions](../../com.aspose.words/signoptions) |  |
+| certHolder | [CertificateHolder](../../com.aspose.words/certificateholder/) |  |
+| signOptions | [SignOptions](../../com.aspose.words/signoptions/) |  |
 
 ### sign(String srcFileName, String dstFileName, CertificateHolder certHolder) {#sign-java.lang.String-java.lang.String-com.aspose.words.CertificateHolder}
 ```
@@ -190,16 +191,16 @@ public static void sign(String srcFileName, String dstFileName, CertificateHolde
 ```
 
 
-Signs source document using given [CertificateHolder](../../com.aspose.words/certificateholder) with digital signature and writes signed document to destination file.
+Signs source document using given [CertificateHolder](../../com.aspose.words/certificateholder/) with digital signature and writes signed document to destination file.
 
-Document should be either [LoadFormat.DOC](../../com.aspose.words/loadformat\#DOC) or [LoadFormat.DOCX](../../com.aspose.words/loadformat\#DOCX).
+Document should be either [LoadFormat.DOC](../../com.aspose.words/loadformat/\#DOC) or [LoadFormat.DOCX](../../com.aspose.words/loadformat/\#DOCX).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | srcFileName | java.lang.String | The file name of the document to sign. |
 | dstFileName | java.lang.String | The file name of the signed document output. |
-| certHolder | [CertificateHolder](../../com.aspose.words/certificateholder) | \{[CertificateHolder](../../com.aspose.words/certificateholder) object with certificate that used to sign file. |
+| certHolder | [CertificateHolder](../../com.aspose.words/certificateholder/) | \{[CertificateHolder](../../com.aspose.words/certificateholder/) object with certificate that used to sign file. |
 
 ### sign(String srcFileName, String dstFileName, CertificateHolder certHolder, SignOptions signOptions) {#sign-java.lang.String-java.lang.String-com.aspose.words.CertificateHolder-com.aspose.words.SignOptions}
 ```
@@ -207,17 +208,17 @@ public static void sign(String srcFileName, String dstFileName, CertificateHolde
 ```
 
 
-Signs source document using given [CertificateHolder](../../com.aspose.words/certificateholder) and [SignOptions](../../com.aspose.words/signoptions) with digital signature and writes signed document to destination file.
+Signs source document using given [CertificateHolder](../../com.aspose.words/certificateholder/) and [SignOptions](../../com.aspose.words/signoptions/) with digital signature and writes signed document to destination file.
 
-Document should be either [LoadFormat.DOC](../../com.aspose.words/loadformat\#DOC) or [LoadFormat.DOCX](../../com.aspose.words/loadformat\#DOCX).
+Document should be either [LoadFormat.DOC](../../com.aspose.words/loadformat/\#DOC) or [LoadFormat.DOCX](../../com.aspose.words/loadformat/\#DOCX).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | srcFileName | java.lang.String | The file name of the document to sign. |
 | dstFileName | java.lang.String | The file name of the signed document output. |
-| certHolder | [CertificateHolder](../../com.aspose.words/certificateholder) | \{[CertificateHolder](../../com.aspose.words/certificateholder) object with certificate that used to sign file. |
-| signOptions | [SignOptions](../../com.aspose.words/signoptions) | \{[SignOptions](../../com.aspose.words/signoptions) object with various signing options. |
+| certHolder | [CertificateHolder](../../com.aspose.words/certificateholder/) | \{[CertificateHolder](../../com.aspose.words/certificateholder/) object with certificate that used to sign file. |
+| signOptions | [SignOptions](../../com.aspose.words/signoptions/) | \{[SignOptions](../../com.aspose.words/signoptions/) object with various signing options. |
 
 ### toString() {#toString}
 ```

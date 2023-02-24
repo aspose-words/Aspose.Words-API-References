@@ -1,7 +1,8 @@
 ---
 title: ImlRenderingMode
+linktitle: ImlRenderingMode
 second_title: Aspose.Words for Java API Reference
-description: Specifies how ink InkML objects are rendered to fixed page formats.
+description: Specifies how ink InkML objects are rendered to fixed page formats in Java.
 type: docs
 weight: 347
 url: /java/com.aspose.words/imlrenderingmode/
@@ -44,7 +45,7 @@ public static int FALLBACK
 ```
 
 
-If fall-back shape is available for ink (InkML) object, Aspose.Words renders fall-back shape instead of the InkML. Please note that after saving a document to a fixed page format with fall-back rendering mode, InkML objects in the AW document model are permanently replaced with their fall-back counterparts. As a result, saving the same document again will always use fall-back shapes, even if [ImlRenderingMode](../../com.aspose.words/imlrenderingmode) is set to [INK\_ML](../../com.aspose.words/imlrenderingmode\#INK-ML).
+If fall-back shape is available for ink (InkML) object, Aspose.Words renders fall-back shape instead of the InkML. Please note that after saving a document to a fixed page format with fall-back rendering mode, InkML objects in the AW document model are permanently replaced with their fall-back counterparts. As a result, saving the same document again will always use fall-back shapes, even if [ImlRenderingMode](../../com.aspose.words/imlrenderingmode/) is set to [INK\_ML](../../com.aspose.words/imlrenderingmode/\#INK-ML).
 
 ### INK_ML {#INK-ML}
 ```

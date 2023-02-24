@@ -1,7 +1,8 @@
 ---
 title: ChartDataPoint
+linktitle: ChartDataPoint
 second_title: Aspose.Words for Java API Reference
-description: Allows to specify formatting of a single data point on the chart.
+description: Allows to specify formatting of a single data point on the chart in Java.
 type: docs
 weight: 60
 url: /java/com.aspose.words/chartdatapoint/
@@ -11,7 +12,7 @@ url: /java/com.aspose.words/chartdatapoint/
 java.lang.Object
 
 **All Implemented Interfaces:**
-[com.aspose.words.IChartDataPoint](../../com.aspose.words/ichartdatapoint), java.lang.Cloneable
+[com.aspose.words.IChartDataPoint](../../com.aspose.words/ichartdatapoint/), java.lang.Cloneable
 ```
 public class ChartDataPoint implements IChartDataPoint, Cloneable
 ```
@@ -20,7 +21,7 @@ Allows to specify formatting of a single data point on the chart.
 
 To learn more, visit the [ Working with Charts ][Working with Charts] documentation article.
 
-On a series, the [ChartDataPoint](../../com.aspose.words/chartdatapoint) object is a member of the [ChartDataPointCollection](../../com.aspose.words/chartdatapointcollection). The [ChartDataPointCollection](../../com.aspose.words/chartdatapointcollection) contains a [ChartDataPoint](../../com.aspose.words/chartdatapoint) object for each point.
+On a series, the [ChartDataPoint](../../com.aspose.words/chartdatapoint/) object is a member of the [ChartDataPointCollection](../../com.aspose.words/chartdatapointcollection/). The [ChartDataPointCollection](../../com.aspose.words/chartdatapointcollection/) contains a [ChartDataPoint](../../com.aspose.words/chartdatapoint/) object for each point.
 
 
 [Working with Charts]: https://docs.aspose.com/words/java/working-with-charts/
@@ -110,7 +111,7 @@ public ChartFormat getFormat()
 Provides access to fill and line formatting of this data point.
 
 **Returns:**
-[ChartFormat](../../com.aspose.words/chartformat) - The corresponding [ChartFormat](../../com.aspose.words/chartformat) value.
+[ChartFormat](../../com.aspose.words/chartformat/) - The corresponding [ChartFormat](../../com.aspose.words/chartformat/) value.
 ### getIndex() {#getIndex}
 ```
 public int getIndex()
@@ -140,7 +141,7 @@ public ChartMarker getMarker()
 Specifies a data marker. Marker is automatically created when requested.
 
 **Returns:**
-[ChartMarker](../../com.aspose.words/chartmarker)
+[ChartMarker](../../com.aspose.words/chartmarker/)
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()

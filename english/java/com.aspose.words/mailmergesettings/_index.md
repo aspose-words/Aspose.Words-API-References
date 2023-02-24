@@ -1,9 +1,10 @@
 ---
 title: MailMergeSettings
+linktitle: MailMergeSettings
 second_title: Aspose.Words for Java API Reference
-description: Specifies all of the mail merge information for a document.
+description: Specifies all of the mail merge information for a document in Java.
 type: docs
-weight: 388
+weight: 389
 url: /java/com.aspose.words/mailmergesettings/
 ---
 
@@ -22,15 +23,15 @@ To learn more, visit the [ Mail Merge and Reporting ][Mail Merge and Reporting] 
 
 You can use this object to specify a mail merge data source for a document and this information (along with the available data fields) will appear in Microsoft Word when the user opens this document. Or you can use this object to query mail merge settings that the user has specified in Microsoft Word for this document.
 
-You do not normally need to create objects of this class directly because Mail merge settings of a document are always available via the [Document.getMailMergeSettings()](../../com.aspose.words/document\#getMailMergeSettings) / [Document.setMailMergeSettings(com.aspose.words.MailMergeSettings)](../../com.aspose.words/document\#setMailMergeSettings-com.aspose.words.MailMergeSettings) property.
+You do not normally need to create objects of this class directly because Mail merge settings of a document are always available via the [Document.getMailMergeSettings()](../../com.aspose.words/document/\#getMailMergeSettings) / [Document.setMailMergeSettings(com.aspose.words.MailMergeSettings)](../../com.aspose.words/document/\#setMailMergeSettings-com.aspose.words.MailMergeSettings) property.
 
-To detect whether this document is a mail merge main document, check the value of the [getMainDocumentType()](../../com.aspose.words/mailmergesettings\#getMainDocumentType) / [setMainDocumentType(int)](../../com.aspose.words/mailmergesettings\#setMainDocumentType-int) property.
+To detect whether this document is a mail merge main document, check the value of the [getMainDocumentType()](../../com.aspose.words/mailmergesettings/\#getMainDocumentType) / [setMainDocumentType(int)](../../com.aspose.words/mailmergesettings/\#setMainDocumentType-int) property.
 
-To remove mail merge settings and data source information from a document you can use the [clear()](../../com.aspose.words/mailmergesettings\#clear) method. Aspose.Words will not write mail merge settings to a document if the [getMainDocumentType()](../../com.aspose.words/mailmergesettings\#getMainDocumentType) / [setMainDocumentType(int)](../../com.aspose.words/mailmergesettings\#setMainDocumentType-int) property is set to [MailMergeMainDocumentType.NOT\_A\_MERGE\_DOCUMENT](../../com.aspose.words/mailmergemaindocumenttype\#NOT-A-MERGE-DOCUMENT) or the [getDataType()](../../com.aspose.words/mailmergesettings\#getDataType) / [setDataType(int)](../../com.aspose.words/mailmergesettings\#setDataType-int) property is set to [MailMergeDataType.NONE](../../com.aspose.words/mailmergedatatype\#NONE).
+To remove mail merge settings and data source information from a document you can use the [clear()](../../com.aspose.words/mailmergesettings/\#clear) method. Aspose.Words will not write mail merge settings to a document if the [getMainDocumentType()](../../com.aspose.words/mailmergesettings/\#getMainDocumentType) / [setMainDocumentType(int)](../../com.aspose.words/mailmergesettings/\#setMainDocumentType-int) property is set to [MailMergeMainDocumentType.NOT\_A\_MERGE\_DOCUMENT](../../com.aspose.words/mailmergemaindocumenttype/\#NOT-A-MERGE-DOCUMENT) or the [getDataType()](../../com.aspose.words/mailmergesettings/\#getDataType) / [setDataType(int)](../../com.aspose.words/mailmergesettings/\#setDataType-int) property is set to [MailMergeDataType.NONE](../../com.aspose.words/mailmergedatatype/\#NONE).
 
-The best way to learn how to use the properties of this object is to create a document with a desired data source manually in Microsoft Word and then open that document using Aspose.Words and examine the properties of the [Document.getMailMergeSettings()](../../com.aspose.words/document\#getMailMergeSettings) / [Document.setMailMergeSettings(com.aspose.words.MailMergeSettings)](../../com.aspose.words/document\#setMailMergeSettings-com.aspose.words.MailMergeSettings) and [getOdso()](../../com.aspose.words/mailmergesettings\#getOdso) / [setOdso(com.aspose.words.Odso)](../../com.aspose.words/mailmergesettings\#setOdso-com.aspose.words.Odso) objects. This is a good approach to take if you want to learn how to programmatically configure a data source, for example.
+The best way to learn how to use the properties of this object is to create a document with a desired data source manually in Microsoft Word and then open that document using Aspose.Words and examine the properties of the [Document.getMailMergeSettings()](../../com.aspose.words/document/\#getMailMergeSettings) / [Document.setMailMergeSettings(com.aspose.words.MailMergeSettings)](../../com.aspose.words/document/\#setMailMergeSettings-com.aspose.words.MailMergeSettings) and [getOdso()](../../com.aspose.words/mailmergesettings/\#getOdso) / [setOdso(com.aspose.words.Odso)](../../com.aspose.words/mailmergesettings/\#setOdso-com.aspose.words.Odso) objects. This is a good approach to take if you want to learn how to programmatically configure a data source, for example.
 
-Aspose.Words preserves mail merge information when loading, saving and converting documents between different formats, but does not use this information when performing its own mail merge using the [MailMerge](../../com.aspose.words/mailmerge) object.
+Aspose.Words preserves mail merge information when loading, saving and converting documents between different formats, but does not use this information when performing its own mail merge using the [MailMerge](../../com.aspose.words/mailmerge/) object.
 
 
 [Mail Merge and Reporting]: https://docs.aspose.com/words/java/mail-merge-and-reporting/
@@ -98,7 +99,7 @@ public MailMergeSettings deepClone()
 Returns a deep clone of this object.
 
 **Returns:**
-[MailMergeSettings](../../com.aspose.words/mailmergesettings)
+[MailMergeSettings](../../com.aspose.words/mailmergesettings/)
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
@@ -140,10 +141,10 @@ public int getCheckErrors()
 ```
 
 
-Specifies the type of error reporting which shall be conducted by Microsoft Word when performing a mail merge. The default value is [MailMergeCheckErrors.DEFAULT](../../com.aspose.words/mailmergecheckerrors\#DEFAULT).
+Specifies the type of error reporting which shall be conducted by Microsoft Word when performing a mail merge. The default value is [MailMergeCheckErrors.DEFAULT](../../com.aspose.words/mailmergecheckerrors/\#DEFAULT).
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [MailMergeCheckErrors](../../com.aspose.words/mailmergecheckerrors) constants.
+int - The corresponding  int  value. The returned value is one of [MailMergeCheckErrors](../../com.aspose.words/mailmergecheckerrors/) constants.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -180,20 +181,20 @@ public int getDataType()
 ```
 
 
-Specifies the type of the mail-merge data source and the method of data access. The default value is [MailMergeDataType.DEFAULT](../../com.aspose.words/mailmergedatatype\#DEFAULT).
+Specifies the type of the mail-merge data source and the method of data access. The default value is [MailMergeDataType.DEFAULT](../../com.aspose.words/mailmergedatatype/\#DEFAULT).
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [MailMergeDataType](../../com.aspose.words/mailmergedatatype) constants.
+int - The corresponding  int  value. The returned value is one of [MailMergeDataType](../../com.aspose.words/mailmergedatatype/) constants.
 ### getDestination() {#getDestination}
 ```
 public int getDestination()
 ```
 
 
-Specifies how Microsoft Word will output the results of a mail merge. The default value is [MailMergeDestination.DEFAULT](../../com.aspose.words/mailmergedestination\#DEFAULT).
+Specifies how Microsoft Word will output the results of a mail merge. The default value is [MailMergeDestination.DEFAULT](../../com.aspose.words/mailmergedestination/\#DEFAULT).
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [MailMergeDestination](../../com.aspose.words/mailmergedestination) constants.
+int - The corresponding  int  value. The returned value is one of [MailMergeDestination](../../com.aspose.words/mailmergedestination/) constants.
 ### getDoNotSupressBlankLines() {#getDoNotSupressBlankLines}
 ```
 public boolean getDoNotSupressBlankLines()
@@ -250,12 +251,12 @@ public int getMainDocumentType()
 ```
 
 
-Specifies the mail-merge main document type. The default value is [MailMergeMainDocumentType.DEFAULT](../../com.aspose.words/mailmergemaindocumenttype\#DEFAULT).
+Specifies the mail-merge main document type. The default value is [MailMergeMainDocumentType.DEFAULT](../../com.aspose.words/mailmergemaindocumenttype/\#DEFAULT).
 
 The main document is the document that contains information that is the same for each version of the merged document.
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [MailMergeMainDocumentType](../../com.aspose.words/mailmergemaindocumenttype) constants.
+int - The corresponding  int  value. The returned value is one of [MailMergeMainDocumentType](../../com.aspose.words/mailmergemaindocumenttype/) constants.
 ### getOdso() {#getOdso}
 ```
 public Odso getOdso()
@@ -267,7 +268,7 @@ Gets the object that specifies the Office Data Source Object (ODSO) settings.
 This object is never  null .
 
 **Returns:**
-[Odso](../../com.aspose.words/odso) - The object that specifies the Office Data Source Object (ODSO) settings.
+[Odso](../../com.aspose.words/odso/) - The object that specifies the Office Data Source Object (ODSO) settings.
 ### getQuery() {#getQuery}
 ```
 public String getQuery()
@@ -346,12 +347,12 @@ public void setCheckErrors(int value)
 ```
 
 
-Specifies the type of error reporting which shall be conducted by Microsoft Word when performing a mail merge. The default value is [MailMergeCheckErrors.DEFAULT](../../com.aspose.words/mailmergecheckerrors\#DEFAULT).
+Specifies the type of error reporting which shall be conducted by Microsoft Word when performing a mail merge. The default value is [MailMergeCheckErrors.DEFAULT](../../com.aspose.words/mailmergecheckerrors/\#DEFAULT).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [MailMergeCheckErrors](../../com.aspose.words/mailmergecheckerrors) constants. |
+| value | int | The corresponding  int  value. The value must be one of [MailMergeCheckErrors](../../com.aspose.words/mailmergecheckerrors/) constants. |
 
 ### setConnectString(String value) {#setConnectString-java.lang.String}
 ```
@@ -385,12 +386,12 @@ public void setDataType(int value)
 ```
 
 
-Specifies the type of the mail-merge data source and the method of data access. The default value is [MailMergeDataType.DEFAULT](../../com.aspose.words/mailmergedatatype\#DEFAULT).
+Specifies the type of the mail-merge data source and the method of data access. The default value is [MailMergeDataType.DEFAULT](../../com.aspose.words/mailmergedatatype/\#DEFAULT).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [MailMergeDataType](../../com.aspose.words/mailmergedatatype) constants. |
+| value | int | The corresponding  int  value. The value must be one of [MailMergeDataType](../../com.aspose.words/mailmergedatatype/) constants. |
 
 ### setDestination(int value) {#setDestination-int}
 ```
@@ -398,12 +399,12 @@ public void setDestination(int value)
 ```
 
 
-Specifies how Microsoft Word will output the results of a mail merge. The default value is [MailMergeDestination.DEFAULT](../../com.aspose.words/mailmergedestination\#DEFAULT).
+Specifies how Microsoft Word will output the results of a mail merge. The default value is [MailMergeDestination.DEFAULT](../../com.aspose.words/mailmergedestination/\#DEFAULT).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [MailMergeDestination](../../com.aspose.words/mailmergedestination) constants. |
+| value | int | The corresponding  int  value. The value must be one of [MailMergeDestination](../../com.aspose.words/mailmergedestination/) constants. |
 
 ### setDoNotSupressBlankLines(boolean value) {#setDoNotSupressBlankLines-boolean}
 ```
@@ -476,14 +477,14 @@ public void setMainDocumentType(int value)
 ```
 
 
-Specifies the mail-merge main document type. The default value is [MailMergeMainDocumentType.DEFAULT](../../com.aspose.words/mailmergemaindocumenttype\#DEFAULT).
+Specifies the mail-merge main document type. The default value is [MailMergeMainDocumentType.DEFAULT](../../com.aspose.words/mailmergemaindocumenttype/\#DEFAULT).
 
 The main document is the document that contains information that is the same for each version of the merged document.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [MailMergeMainDocumentType](../../com.aspose.words/mailmergemaindocumenttype) constants. |
+| value | int | The corresponding  int  value. The value must be one of [MailMergeMainDocumentType](../../com.aspose.words/mailmergemaindocumenttype/) constants. |
 
 ### setOdso(Odso value) {#setOdso-com.aspose.words.Odso}
 ```
@@ -498,7 +499,7 @@ This object is never  null .
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Odso](../../com.aspose.words/odso) | The object that specifies the Office Data Source Object (ODSO) settings. |
+| value | [Odso](../../com.aspose.words/odso/) | The object that specifies the Office Data Source Object (ODSO) settings. |
 
 ### setQuery(String value) {#setQuery-java.lang.String}
 ```

@@ -1,9 +1,10 @@
 ---
 title: ScriptShapingLevel
+linktitle: ScriptShapingLevel
 second_title: Aspose.Words for Java API Reference
-description: 
+description: Describes shaping levels required by a script in Java.
 type: docs
-weight: 506
+weight: 508
 url: /java/com.aspose.words/scriptshapinglevel/
 ---
 
@@ -12,14 +13,16 @@ java.lang.Object
 ```
 public class ScriptShapingLevel
 ```
+
+Describes shaping levels required by a script.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [FULL](#FULL) |  |
-| [MINIMUM](#MINIMUM) |  |
-| [NONE](#NONE) |  |
-| [UNKNOWN](#UNKNOWN) |  |
+| [FULL](#FULL) | Script requires full shaping support. |
+| [MINIMUM](#MINIMUM) | Script requires minimum shaping support. |
+| [NONE](#NONE) | Script does not require shaping. |
+| [UNKNOWN](#UNKNOWN) | This is used when the level for the script is not specified. |
 | [length](#length) |  |
 ## Methods
 
@@ -44,11 +47,15 @@ public static int FULL
 ```
 
 
+Script requires full shaping support.
+
 ### MINIMUM {#MINIMUM}
 ```
 public static int MINIMUM
 ```
 
+
+Script requires minimum shaping support. It is not clear, what Minimum means. Minimum is set for some very popular scripts (Latin, Cyrillic...).
 
 ### NONE {#NONE}
 ```
@@ -56,11 +63,15 @@ public static int NONE
 ```
 
 
+Script does not require shaping.
+
 ### UNKNOWN {#UNKNOWN}
 ```
 public static int UNKNOWN
 ```
 
+
+This is used when the level for the script is not specified. It should not happen.
 
 ### length {#length}
 ```

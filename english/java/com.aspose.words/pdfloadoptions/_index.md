@@ -1,19 +1,20 @@
 ---
 title: PdfLoadOptions
+linktitle: PdfLoadOptions
 second_title: Aspose.Words for Java API Reference
-description: Allows to specify additional options when loading Pdf document into a  object.
+description: Allows to specify additional options when loading Pdf document into a  object in Java.
 type: docs
-weight: 462
+weight: 464
 url: /java/com.aspose.words/pdfloadoptions/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.words.LoadOptions](../../com.aspose.words/loadoptions)
+java.lang.Object, [com.aspose.words.LoadOptions](../../com.aspose.words/loadoptions/)
 ```
 public class PdfLoadOptions extends LoadOptions
 ```
 
-Allows to specify additional options when loading Pdf document into a [Document](../../com.aspose.words/document) object.
+Allows to specify additional options when loading Pdf document into a [Document](../../com.aspose.words/document/) object.
 
 To learn more, visit the [ Specify Load Options ][Specify Load Options] documentation article.
 
@@ -153,12 +154,12 @@ Allows to specify document font settings.
 
 When loading some formats, Aspose.Words may require to resolve the fonts. For example, when loading HTML documents Aspose.Words may resolve the fonts to perform font fallback.
 
-If set to  null , default static font settings [FontSettings.getDefaultInstance()](../../com.aspose.words/fontsettings\#getDefaultInstance) will be used.
+If set to  null , default static font settings [FontSettings.getDefaultInstance()](../../com.aspose.words/fontsettings/\#getDefaultInstance) will be used.
 
 The default value is  null .
 
 **Returns:**
-[FontSettings](../../com.aspose.words/fontsettings) - The corresponding [FontSettings](../../com.aspose.words/fontsettings) value.
+[FontSettings](../../com.aspose.words/fontsettings/) - The corresponding [FontSettings](../../com.aspose.words/fontsettings/) value.
 ### getIgnoreOleData() {#getIgnoreOleData}
 ```
 public boolean getIgnoreOleData()
@@ -182,29 +183,29 @@ public LanguagePreferences getLanguagePreferences()
 Gets language preferences that will be used when document is loading.
 
 **Returns:**
-[LanguagePreferences](../../com.aspose.words/languagepreferences) - Language preferences that will be used when document is loading.
+[LanguagePreferences](../../com.aspose.words/languagepreferences/) - Language preferences that will be used when document is loading.
 ### getLoadFormat() {#getLoadFormat}
 ```
 public int getLoadFormat()
 ```
 
 
-Specifies the format of the document to be loaded. Default is [LoadFormat.AUTO](../../com.aspose.words/loadformat\#AUTO).
+Specifies the format of the document to be loaded. Default is [LoadFormat.AUTO](../../com.aspose.words/loadformat/\#AUTO).
 
-It is recommended that you specify the [LoadFormat.AUTO](../../com.aspose.words/loadformat\#AUTO) value and let Aspose.Words detect the file format automatically. If you know the format of the document you are about to load, you can specify the format explicitly and this will slightly reduce the loading time by the overhead associated with auto detecting the format. If you specify an explicit load format and it will turn out to be wrong, the auto detection will be invoked and a second attempt to load the file will be made.
+It is recommended that you specify the [LoadFormat.AUTO](../../com.aspose.words/loadformat/\#AUTO) value and let Aspose.Words detect the file format automatically. If you know the format of the document you are about to load, you can specify the format explicitly and this will slightly reduce the loading time by the overhead associated with auto detecting the format. If you specify an explicit load format and it will turn out to be wrong, the auto detection will be invoked and a second attempt to load the file will be made.
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [LoadFormat](../../com.aspose.words/loadformat) constants.
+int - The corresponding  int  value. The returned value is one of [LoadFormat](../../com.aspose.words/loadformat/) constants.
 ### getMswVersion() {#getMswVersion}
 ```
 public int getMswVersion()
 ```
 
 
-Allows to specify that the document loading process should match a specific MS Word version. Default value is [MsWordVersion.WORD\_2019](../../com.aspose.words/mswordversion\#WORD-2019) Different Word versions may handle certain aspects of document content and formatting slightly differently during the loading process, which may result in minor differences in Document Object Model.
+Allows to specify that the document loading process should match a specific MS Word version. Default value is [MsWordVersion.WORD\_2019](../../com.aspose.words/mswordversion/\#WORD-2019) Different Word versions may handle certain aspects of document content and formatting slightly differently during the loading process, which may result in minor differences in Document Object Model.
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [MsWordVersion](../../com.aspose.words/mswordversion) constants.
+int - The corresponding  int  value. The returned value is one of [MsWordVersion](../../com.aspose.words/mswordversion/) constants.
 ### getPageCount() {#getPageCount}
 ```
 public int getPageCount()
@@ -259,10 +260,10 @@ public IDocumentLoadingCallback getProgressCallback()
 
 Called during loading a document and accepts data about loading progress.
 
-[LoadFormat.DOCX](../../com.aspose.words/loadformat\#DOCX), [LoadFormat.FLAT\_OPC](../../com.aspose.words/loadformat\#FLAT-OPC), [LoadFormat.DOCM](../../com.aspose.words/loadformat\#DOCM), [LoadFormat.DOTM](../../com.aspose.words/loadformat\#DOTM), [LoadFormat.DOTX](../../com.aspose.words/loadformat\#DOTX), [LoadFormat.MARKDOWN](../../com.aspose.words/loadformat\#MARKDOWN), [LoadFormat.RTF](../../com.aspose.words/loadformat\#RTF), [LoadFormat.WORD\_ML](../../com.aspose.words/loadformat\#WORD-ML), [LoadFormat.DOC](../../com.aspose.words/loadformat\#DOC), [LoadFormat.DOT](../../com.aspose.words/loadformat\#DOT), [LoadFormat.ODT](../../com.aspose.words/loadformat\#ODT), [LoadFormat.OTT](../../com.aspose.words/loadformat\#OTT) formats supported.
+[LoadFormat.DOCX](../../com.aspose.words/loadformat/\#DOCX), [LoadFormat.FLAT\_OPC](../../com.aspose.words/loadformat/\#FLAT-OPC), [LoadFormat.DOCM](../../com.aspose.words/loadformat/\#DOCM), [LoadFormat.DOTM](../../com.aspose.words/loadformat/\#DOTM), [LoadFormat.DOTX](../../com.aspose.words/loadformat/\#DOTX), [LoadFormat.MARKDOWN](../../com.aspose.words/loadformat/\#MARKDOWN), [LoadFormat.RTF](../../com.aspose.words/loadformat/\#RTF), [LoadFormat.WORD\_ML](../../com.aspose.words/loadformat/\#WORD-ML), [LoadFormat.DOC](../../com.aspose.words/loadformat/\#DOC), [LoadFormat.DOT](../../com.aspose.words/loadformat/\#DOT), [LoadFormat.ODT](../../com.aspose.words/loadformat/\#ODT), [LoadFormat.OTT](../../com.aspose.words/loadformat/\#OTT) formats supported.
 
 **Returns:**
-[IDocumentLoadingCallback](../../com.aspose.words/idocumentloadingcallback) - The corresponding [IDocumentLoadingCallback](../../com.aspose.words/idocumentloadingcallback) value.
+[IDocumentLoadingCallback](../../com.aspose.words/idocumentloadingcallback/) - The corresponding [IDocumentLoadingCallback](../../com.aspose.words/idocumentloadingcallback/) value.
 ### getResourceLoadingCallback() {#getResourceLoadingCallback}
 ```
 public IResourceLoadingCallback getResourceLoadingCallback()
@@ -272,7 +273,7 @@ public IResourceLoadingCallback getResourceLoadingCallback()
 Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML.
 
 **Returns:**
-[IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback) - The corresponding [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback) value.
+[IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback/) - The corresponding [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback/) value.
 ### getSkipPdfImages() {#getSkipPdfImages}
 ```
 public boolean getSkipPdfImages()
@@ -316,7 +317,7 @@ public IWarningCallback getWarningCallback()
 Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss.
 
 **Returns:**
-[IWarningCallback](../../com.aspose.words/iwarningcallback) - The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback) value.
+[IWarningCallback](../../com.aspose.words/iwarningcallback/) - The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback/) value.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()
@@ -414,14 +415,14 @@ Allows to specify document font settings.
 
 When loading some formats, Aspose.Words may require to resolve the fonts. For example, when loading HTML documents Aspose.Words may resolve the fonts to perform font fallback.
 
-If set to  null , default static font settings [FontSettings.getDefaultInstance()](../../com.aspose.words/fontsettings\#getDefaultInstance) will be used.
+If set to  null , default static font settings [FontSettings.getDefaultInstance()](../../com.aspose.words/fontsettings/\#getDefaultInstance) will be used.
 
 The default value is  null .
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [FontSettings](../../com.aspose.words/fontsettings) | The corresponding [FontSettings](../../com.aspose.words/fontsettings) value. |
+| value | [FontSettings](../../com.aspose.words/fontsettings/) | The corresponding [FontSettings](../../com.aspose.words/fontsettings/) value. |
 
 ### setIgnoreOleData(boolean value) {#setIgnoreOleData-boolean}
 ```
@@ -446,14 +447,14 @@ public void setLoadFormat(int value)
 ```
 
 
-Specifies the format of the document to be loaded. Default is [LoadFormat.AUTO](../../com.aspose.words/loadformat\#AUTO).
+Specifies the format of the document to be loaded. Default is [LoadFormat.AUTO](../../com.aspose.words/loadformat/\#AUTO).
 
-It is recommended that you specify the [LoadFormat.AUTO](../../com.aspose.words/loadformat\#AUTO) value and let Aspose.Words detect the file format automatically. If you know the format of the document you are about to load, you can specify the format explicitly and this will slightly reduce the loading time by the overhead associated with auto detecting the format. If you specify an explicit load format and it will turn out to be wrong, the auto detection will be invoked and a second attempt to load the file will be made.
+It is recommended that you specify the [LoadFormat.AUTO](../../com.aspose.words/loadformat/\#AUTO) value and let Aspose.Words detect the file format automatically. If you know the format of the document you are about to load, you can specify the format explicitly and this will slightly reduce the loading time by the overhead associated with auto detecting the format. If you specify an explicit load format and it will turn out to be wrong, the auto detection will be invoked and a second attempt to load the file will be made.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [LoadFormat](../../com.aspose.words/loadformat) constants. |
+| value | int | The corresponding  int  value. The value must be one of [LoadFormat](../../com.aspose.words/loadformat/) constants. |
 
 ### setMswVersion(int value) {#setMswVersion-int}
 ```
@@ -461,12 +462,12 @@ public void setMswVersion(int value)
 ```
 
 
-Allows to specify that the document loading process should match a specific MS Word version. Default value is [MsWordVersion.WORD\_2019](../../com.aspose.words/mswordversion\#WORD-2019) Different Word versions may handle certain aspects of document content and formatting slightly differently during the loading process, which may result in minor differences in Document Object Model.
+Allows to specify that the document loading process should match a specific MS Word version. Default value is [MsWordVersion.WORD\_2019](../../com.aspose.words/mswordversion/\#WORD-2019) Different Word versions may handle certain aspects of document content and formatting slightly differently during the loading process, which may result in minor differences in Document Object Model.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [MsWordVersion](../../com.aspose.words/mswordversion) constants. |
+| value | int | The corresponding  int  value. The value must be one of [MsWordVersion](../../com.aspose.words/mswordversion/) constants. |
 
 ### setPageCount(int value) {#setPageCount-int}
 ```
@@ -534,12 +535,12 @@ public void setProgressCallback(IDocumentLoadingCallback value)
 
 Called during loading a document and accepts data about loading progress.
 
-[LoadFormat.DOCX](../../com.aspose.words/loadformat\#DOCX), [LoadFormat.FLAT\_OPC](../../com.aspose.words/loadformat\#FLAT-OPC), [LoadFormat.DOCM](../../com.aspose.words/loadformat\#DOCM), [LoadFormat.DOTM](../../com.aspose.words/loadformat\#DOTM), [LoadFormat.DOTX](../../com.aspose.words/loadformat\#DOTX), [LoadFormat.MARKDOWN](../../com.aspose.words/loadformat\#MARKDOWN), [LoadFormat.RTF](../../com.aspose.words/loadformat\#RTF), [LoadFormat.WORD\_ML](../../com.aspose.words/loadformat\#WORD-ML), [LoadFormat.DOC](../../com.aspose.words/loadformat\#DOC), [LoadFormat.DOT](../../com.aspose.words/loadformat\#DOT), [LoadFormat.ODT](../../com.aspose.words/loadformat\#ODT), [LoadFormat.OTT](../../com.aspose.words/loadformat\#OTT) formats supported.
+[LoadFormat.DOCX](../../com.aspose.words/loadformat/\#DOCX), [LoadFormat.FLAT\_OPC](../../com.aspose.words/loadformat/\#FLAT-OPC), [LoadFormat.DOCM](../../com.aspose.words/loadformat/\#DOCM), [LoadFormat.DOTM](../../com.aspose.words/loadformat/\#DOTM), [LoadFormat.DOTX](../../com.aspose.words/loadformat/\#DOTX), [LoadFormat.MARKDOWN](../../com.aspose.words/loadformat/\#MARKDOWN), [LoadFormat.RTF](../../com.aspose.words/loadformat/\#RTF), [LoadFormat.WORD\_ML](../../com.aspose.words/loadformat/\#WORD-ML), [LoadFormat.DOC](../../com.aspose.words/loadformat/\#DOC), [LoadFormat.DOT](../../com.aspose.words/loadformat/\#DOT), [LoadFormat.ODT](../../com.aspose.words/loadformat/\#ODT), [LoadFormat.OTT](../../com.aspose.words/loadformat/\#OTT) formats supported.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IDocumentLoadingCallback](../../com.aspose.words/idocumentloadingcallback) | The corresponding [IDocumentLoadingCallback](../../com.aspose.words/idocumentloadingcallback) value. |
+| value | [IDocumentLoadingCallback](../../com.aspose.words/idocumentloadingcallback/) | The corresponding [IDocumentLoadingCallback](../../com.aspose.words/idocumentloadingcallback/) value. |
 
 ### setResourceLoadingCallback(IResourceLoadingCallback value) {#setResourceLoadingCallback-com.aspose.words.IResourceLoadingCallback}
 ```
@@ -552,7 +553,7 @@ Allows to control how external resources (images, style sheets) are loaded when 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback) | The corresponding [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback) value. |
+| value | [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback/) | The corresponding [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback/) value. |
 
 ### setSkipPdfImages(boolean value) {#setSkipPdfImages-boolean}
 ```
@@ -608,7 +609,7 @@ Called during a load operation, when an issue is detected that might result in d
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IWarningCallback](../../com.aspose.words/iwarningcallback) | The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback) value. |
+| value | [IWarningCallback](../../com.aspose.words/iwarningcallback/) | The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback/) value. |
 
 ### toString() {#toString}
 ```

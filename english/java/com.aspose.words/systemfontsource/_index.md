@@ -1,14 +1,15 @@
 ---
 title: SystemFontSource
+linktitle: SystemFontSource
 second_title: Aspose.Words for Java API Reference
-description: Represents all TrueType fonts installed to the system.
+description: Represents all TrueType fonts installed to the system in Java.
 type: docs
-weight: 547
+weight: 549
 url: /java/com.aspose.words/systemfontsource/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.words.FontSourceBase](../../com.aspose.words/fontsourcebase)
+java.lang.Object, [com.aspose.words.FontSourceBase](../../com.aspose.words/fontsourcebase/)
 ```
 public class SystemFontSource extends FontSourceBase
 ```
@@ -65,7 +66,7 @@ Ctor.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| priority | int | Font source priority. See the [FontSourceBase.getPriority()](../../com.aspose.words/fontsourcebase\#getPriority) property description for more information. |
+| priority | int | Font source priority. See the [FontSourceBase.getPriority()](../../com.aspose.words/fontsourcebase/\#getPriority) property description for more information. |
 
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
@@ -155,7 +156,7 @@ public int getType()
 Returns the type of the font source.
 
 **Returns:**
-int - The type of the font source. The returned value is one of [FontSourceType](../../com.aspose.words/fontsourcetype) constants.
+int - The type of the font source. The returned value is one of [FontSourceType](../../com.aspose.words/fontsourcetype/) constants.
 ### getWarningCallback() {#getWarningCallback}
 ```
 public IWarningCallback getWarningCallback()
@@ -165,7 +166,7 @@ public IWarningCallback getWarningCallback()
 Called during processing of font source when an issue is detected that might result in formatting fidelity loss.
 
 **Returns:**
-[IWarningCallback](../../com.aspose.words/iwarningcallback) - The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback) value.
+[IWarningCallback](../../com.aspose.words/iwarningcallback/) - The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback/) value.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()
@@ -203,7 +204,7 @@ Called during processing of font source when an issue is detected that might res
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IWarningCallback](../../com.aspose.words/iwarningcallback) | The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback) value. |
+| value | [IWarningCallback](../../com.aspose.words/iwarningcallback/) | The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback/) value. |
 
 ### toString() {#toString}
 ```

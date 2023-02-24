@@ -1,7 +1,8 @@
 ---
 title: ConditionalStyleType
+linktitle: ConditionalStyleType
 second_title: Aspose.Words for Java API Reference
-description: Represents possible table areas to which conditional formatting may be defined in a table style.
+description: Represents possible table areas to which conditional formatting may be defined in a table style in Java.
 type: docs
 weight: 92
 url: /java/com.aspose.words/conditionalstyletype/

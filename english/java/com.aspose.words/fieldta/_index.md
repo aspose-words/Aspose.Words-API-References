@@ -1,14 +1,15 @@
 ---
 title: FieldTA
+linktitle: FieldTA
 second_title: Aspose.Words for Java API Reference
-description: Implements the TA field.
+description: Implements the TA field in Java.
 type: docs
 weight: 250
 url: /java/com.aspose.words/fieldta/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.words.Field](../../com.aspose.words/field)
+java.lang.Object, [com.aspose.words.Field](../../com.aspose.words/field/)
 ```
 public class FieldTA extends Field
 ```
@@ -32,7 +33,7 @@ Defines the text and page number for a table of authorities entry, which is used
 | [getEntryCategory()](#getEntryCategory) | Gets the integral entry category, which is a number that corresponds to the order of categories. |
 | [getFieldCode()](#getFieldCode) | Returns text between field start and field separator (or field end if there is no separator). |
 | [getFieldCode(boolean includeChildFieldCodes)](#getFieldCode-boolean) | Returns text between field start and field separator (or field end if there is no separator). |
-| [getFormat()](#getFormat) | Gets a [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting. |
+| [getFormat()](#getFormat) | Gets a [FieldFormat](../../com.aspose.words/fieldformat/) object that provides typed access to field's formatting. |
 | [getLocaleId()](#getLocaleId) | Gets the LCID of the field. |
 | [getLongCitation()](#getLongCitation) | Gets the long citation for the entry. |
 | [getPageRangeBookmarkName()](#getPageRangeBookmarkName) | Gets the name of the bookmark that marks a range of pages that is inserted as the entry's page number. |
@@ -98,7 +99,7 @@ public String getDisplayResult()
 ```
 
 
-Gets the text that represents the displayed field result. The [Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels) method must be called to obtain correct value for the [FieldListNum](../../com.aspose.words/fieldlistnum), [FieldAutoNum](../../com.aspose.words/fieldautonum), [FieldAutoNumOut](../../com.aspose.words/fieldautonumout) and [FieldAutoNumLgl](../../com.aspose.words/fieldautonumlgl) fields.
+Gets the text that represents the displayed field result. The [Document.updateListLabels()](../../com.aspose.words/document/\#updateListLabels) method must be called to obtain correct value for the [FieldListNum](../../com.aspose.words/fieldlistnum/), [FieldAutoNum](../../com.aspose.words/fieldautonum/), [FieldAutoNumOut](../../com.aspose.words/fieldautonumout/) and [FieldAutoNumLgl](../../com.aspose.words/fieldautonumlgl/) fields.
 
 **Returns:**
 java.lang.String - The text that represents the displayed field result.
@@ -111,7 +112,7 @@ public FieldEnd getEnd()
 Gets the node that represents the field end.
 
 **Returns:**
-[FieldEnd](../../com.aspose.words/fieldend) - The node that represents the field end.
+[FieldEnd](../../com.aspose.words/fieldend/) - The node that represents the field end.
 ### getEntryCategory() {#getEntryCategory}
 ```
 public String getEntryCategory()
@@ -153,10 +154,10 @@ public FieldFormat getFormat()
 ```
 
 
-Gets a [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting.
+Gets a [FieldFormat](../../com.aspose.words/fieldformat/) object that provides typed access to field's formatting.
 
 **Returns:**
-[FieldFormat](../../com.aspose.words/fieldformat) - A [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting.
+[FieldFormat](../../com.aspose.words/fieldformat/) - A [FieldFormat](../../com.aspose.words/fieldformat/) object that provides typed access to field's formatting.
 ### getLocaleId() {#getLocaleId}
 ```
 public int getLocaleId()
@@ -206,7 +207,7 @@ public FieldSeparator getSeparator()
 Gets the node that represents the field separator. Can be  null .
 
 **Returns:**
-[FieldSeparator](../../com.aspose.words/fieldseparator) - The node that represents the field separator.
+[FieldSeparator](../../com.aspose.words/fieldseparator/) - The node that represents the field separator.
 ### getShortCitation() {#getShortCitation}
 ```
 public String getShortCitation()
@@ -226,7 +227,7 @@ public FieldStart getStart()
 Gets the node that represents the start of the field.
 
 **Returns:**
-[FieldStart](../../com.aspose.words/fieldstart) - The node that represents the start of the field.
+[FieldStart](../../com.aspose.words/fieldstart/) - The node that represents the start of the field.
 ### getSwitchType(String switchName) {#getSwitchType-java.lang.String}
 ```
 public int getSwitchType(String switchName)
@@ -251,7 +252,7 @@ public int getType()
 Gets the Microsoft Word field type.
 
 **Returns:**
-int - The Microsoft Word field type. The returned value is one of [FieldType](../../com.aspose.words/fieldtype) constants.
+int - The Microsoft Word field type. The returned value is one of [FieldType](../../com.aspose.words/fieldtype/) constants.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()
@@ -379,7 +380,7 @@ public Node remove()
 Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns  null .
 
 **Returns:**
-[Node](../../com.aspose.words/node)
+[Node](../../com.aspose.words/node/)
 ### setEntryCategory(String value) {#setEntryCategory-java.lang.String}
 ```
 public void setEntryCategory(String value)

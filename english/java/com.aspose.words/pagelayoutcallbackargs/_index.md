@@ -1,9 +1,10 @@
 ---
 title: PageLayoutCallbackArgs
+linktitle: PageLayoutCallbackArgs
 second_title: Aspose.Words for Java API Reference
-description: An argument passed into
+description: An argument passed into in Java.
 type: docs
-weight: 439
+weight: 441
 url: /java/com.aspose.words/pagelayoutcallbackargs/
 ---
 
@@ -13,7 +14,7 @@ java.lang.Object
 public class PageLayoutCallbackArgs
 ```
 
-An argument passed into [IPageLayoutCallback.notify(com.aspose.words.PageLayoutCallbackArgs)](../../com.aspose.words/ipagelayoutcallback\#notify-com.aspose.words.PageLayoutCallbackArgs)
+An argument passed into [IPageLayoutCallback.notify(com.aspose.words.PageLayoutCallbackArgs)](../../com.aspose.words/ipagelayoutcallback/\#notify-com.aspose.words.PageLayoutCallbackArgs)
 
 To learn more, visit the [ Converting to Fixed-page Format ][Converting to Fixed-page Format] documentation article.
 
@@ -69,7 +70,7 @@ public Document getDocument()
 Gets document.
 
 **Returns:**
-[Document](../../com.aspose.words/document) - Document.
+[Document](../../com.aspose.words/document/) - Document.
 ### getEvent() {#getEvent}
 ```
 public int getEvent()
@@ -79,7 +80,7 @@ public int getEvent()
 Gets event.
 
 **Returns:**
-int - Event. The returned value is one of [PageLayoutEvent](../../com.aspose.words/pagelayoutevent) constants.
+int - Event. The returned value is one of [PageLayoutEvent](../../com.aspose.words/pagelayoutevent/) constants.
 ### getPageIndex() {#getPageIndex}
 ```
 public int getPageIndex()

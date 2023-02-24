@@ -1,9 +1,10 @@
 ---
 title: TableStyleOptions
+linktitle: TableStyleOptions
 second_title: Aspose.Words for Java API Reference
-description: Specifies how table style is applied to a table.
+description: Specifies how table style is applied to a table in Java.
 type: docs
-weight: 557
+weight: 559
 url: /java/com.aspose.words/tablestyleoptions/
 ---
 

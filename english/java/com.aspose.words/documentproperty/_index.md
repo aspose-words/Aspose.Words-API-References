@@ -1,7 +1,8 @@
 ---
 title: DocumentProperty
+linktitle: DocumentProperty
 second_title: Aspose.Words for Java API Reference
-description: Represents a custom or built-in document property.
+description: Represents a custom or built-in document property in Java.
 type: docs
 weight: 127
 url: /java/com.aspose.words/documentproperty/
@@ -102,7 +103,7 @@ public int getType()
 Gets the data type of the property.
 
 **Returns:**
-int - The data type of the property. The returned value is one of [PropertyType](../../com.aspose.words/propertytype) constants.
+int - The data type of the property. The returned value is one of [PropertyType](../../com.aspose.words/propertytype/) constants.
 ### getValue() {#getValue}
 ```
 public Object getValue()
@@ -174,7 +175,7 @@ public boolean toBool()
 
 Returns the property value as bool.
 
-Throws an exception if the property type is not [PropertyType.BOOLEAN](../../com.aspose.words/propertytype\#BOOLEAN).
+Throws an exception if the property type is not [PropertyType.BOOLEAN](../../com.aspose.words/propertytype/\#BOOLEAN).
 
 **Returns:**
 boolean
@@ -186,7 +187,7 @@ public byte[] toByteArray()
 
 Returns the property value as byte array.
 
-Throws an exception if the property type is not [PropertyType.BYTE\_ARRAY](../../com.aspose.words/propertytype\#BYTE-ARRAY).
+Throws an exception if the property type is not [PropertyType.BYTE\_ARRAY](../../com.aspose.words/propertytype/\#BYTE-ARRAY).
 
 **Returns:**
 byte[]
@@ -198,7 +199,7 @@ public Date toDateTime()
 
 Returns the property value as **DateTime** in UTC.
 
-Throws an exception if the property type is not [PropertyType.DATE\_TIME](../../com.aspose.words/propertytype\#DATE-TIME).
+Throws an exception if the property type is not [PropertyType.DATE\_TIME](../../com.aspose.words/propertytype/\#DATE-TIME).
 
 Microsoft Word stores only the date part (no time) for custom date properties.
 
@@ -210,7 +211,7 @@ public double toDouble()
 ```
 
 
-Returns the property value as double. Throws an exception if the property type is not [PropertyType.NUMBER](../../com.aspose.words/propertytype\#NUMBER).
+Returns the property value as double. Throws an exception if the property type is not [PropertyType.NUMBER](../../com.aspose.words/propertytype/\#NUMBER).
 
 **Returns:**
 double
@@ -220,7 +221,7 @@ public int toInt()
 ```
 
 
-Returns the property value as integer. Throws an exception if the property type is not [PropertyType.NUMBER](../../com.aspose.words/propertytype\#NUMBER).
+Returns the property value as integer. Throws an exception if the property type is not [PropertyType.NUMBER](../../com.aspose.words/propertytype/\#NUMBER).
 
 **Returns:**
 int

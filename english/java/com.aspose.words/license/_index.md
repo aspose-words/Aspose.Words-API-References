@@ -1,9 +1,10 @@
 ---
 title: License
+linktitle: License
 second_title: Aspose.Words for Java API Reference
-description: Provides methods to license the component.
+description: Provides methods to license the component in Java.
 type: docs
-weight: 366
+weight: 367
 url: /java/com.aspose.words/license/
 ---
 

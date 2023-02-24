@@ -1,9 +1,10 @@
 ---
 title: ListLabel
+linktitle: ListLabel
 second_title: Aspose.Words for Java API Reference
-description: Defines properties specific to a list label.
+description: Defines properties specific to a list label in Java.
 type: docs
-weight: 373
+weight: 374
 url: /java/com.aspose.words/listlabel/
 ---
 
@@ -129,7 +130,7 @@ public Font getFont()
 Gets the list label font.
 
 **Returns:**
-[Font](../../com.aspose.words/font) - The list label font.
+[Font](../../com.aspose.words/font/) - The list label font.
 ### getLabelString() {#getLabelString}
 ```
 public String getLabelString()
@@ -146,7 +147,7 @@ public int getLabelValue()
 ```
 
 
-Gets a numeric value for this label. Use the [Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels) method to update the value of this property.
+Gets a numeric value for this label. Use the [Document.updateListLabels()](../../com.aspose.words/document/\#updateListLabels) method to update the value of this property.
 
 **Returns:**
 int - A numeric value for this label.

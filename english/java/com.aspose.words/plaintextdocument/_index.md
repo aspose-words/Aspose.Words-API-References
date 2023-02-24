@@ -1,9 +1,10 @@
 ---
 title: PlainTextDocument
+linktitle: PlainTextDocument
 second_title: Aspose.Words for Java API Reference
-description: Allows to extract plain-text representation of the documents content.
+description: Allows to extract plain-text representation of the documents content in Java.
 type: docs
-weight: 469
+weight: 471
 url: /java/com.aspose.words/plaintextdocument/
 ---
 
@@ -32,9 +33,9 @@ To learn more, visit the [ Working with Text Document ][Working with Text Docume
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getBuiltInDocumentProperties()](#getBuiltInDocumentProperties) | Gets [getBuiltInDocumentProperties()](../../com.aspose.words/plaintextdocument\#getBuiltInDocumentProperties) of the document. |
+| [getBuiltInDocumentProperties()](#getBuiltInDocumentProperties) | Gets [getBuiltInDocumentProperties()](../../com.aspose.words/plaintextdocument/\#getBuiltInDocumentProperties) of the document. |
 | [getClass()](#getClass) |  |
-| [getCustomDocumentProperties()](#getCustomDocumentProperties) | Gets [getCustomDocumentProperties()](../../com.aspose.words/plaintextdocument\#getCustomDocumentProperties) of the document. |
+| [getCustomDocumentProperties()](#getCustomDocumentProperties) | Gets [getCustomDocumentProperties()](../../com.aspose.words/plaintextdocument/\#getCustomDocumentProperties) of the document. |
 | [getText()](#getText) | Gets textual content of the document concatenated as a string. |
 | [hashCode()](#hashCode) |  |
 | [notify()](#notify) |  |
@@ -68,7 +69,7 @@ Creates a plain text document from a file. Allows to specify additional options 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | java.lang.String | Name of the file to extract the text from. |
-| loadOptions | [LoadOptions](../../com.aspose.words/loadoptions) | Additional options to use when loading a document. Can be  null . |
+| loadOptions | [LoadOptions](../../com.aspose.words/loadoptions/) | Additional options to use when loading a document. Can be  null . |
 
 ### PlainTextDocument(InputStream stream) {#PlainTextDocument-java.io.InputStream}
 ```
@@ -95,7 +96,7 @@ Initializes a new instance of this class.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | java.io.InputStream |  |
-| loadOptions | [LoadOptions](../../com.aspose.words/loadoptions) |  |
+| loadOptions | [LoadOptions](../../com.aspose.words/loadoptions/) |  |
 
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
@@ -118,10 +119,10 @@ public BuiltInDocumentProperties getBuiltInDocumentProperties()
 ```
 
 
-Gets [getBuiltInDocumentProperties()](../../com.aspose.words/plaintextdocument\#getBuiltInDocumentProperties) of the document.
+Gets [getBuiltInDocumentProperties()](../../com.aspose.words/plaintextdocument/\#getBuiltInDocumentProperties) of the document.
 
 **Returns:**
-[BuiltInDocumentProperties](../../com.aspose.words/builtindocumentproperties) - \{[getBuiltInDocumentProperties()](../../com.aspose.words/plaintextdocument\#getBuiltInDocumentProperties) of the document.
+[BuiltInDocumentProperties](../../com.aspose.words/builtindocumentproperties/) - \{[getBuiltInDocumentProperties()](../../com.aspose.words/plaintextdocument/\#getBuiltInDocumentProperties) of the document.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -138,10 +139,10 @@ public CustomDocumentProperties getCustomDocumentProperties()
 ```
 
 
-Gets [getCustomDocumentProperties()](../../com.aspose.words/plaintextdocument\#getCustomDocumentProperties) of the document.
+Gets [getCustomDocumentProperties()](../../com.aspose.words/plaintextdocument/\#getCustomDocumentProperties) of the document.
 
 **Returns:**
-[CustomDocumentProperties](../../com.aspose.words/customdocumentproperties) - \{[getCustomDocumentProperties()](../../com.aspose.words/plaintextdocument\#getCustomDocumentProperties) of the document.
+[CustomDocumentProperties](../../com.aspose.words/customdocumentproperties/) - \{[getCustomDocumentProperties()](../../com.aspose.words/plaintextdocument/\#getCustomDocumentProperties) of the document.
 ### getText() {#getText}
 ```
 public String getText()

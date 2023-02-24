@@ -1,7 +1,8 @@
 ---
 title: Fill
+linktitle: Fill
 second_title: Aspose.Words for Java API Reference
-description: Represents fill formatting for an object.
+description: Represents fill formatting for an object in Java.
 type: docs
 weight: 269
 url: /java/com.aspose.words/fill/
@@ -17,7 +18,7 @@ Represents fill formatting for an object.
 
 To learn more, visit the [ Working with Graphic Elements ][Working with Graphic Elements] documentation article.
 
-Use the [ShapeBase.getFill()](../../com.aspose.words/shapebase\#getFill) or [Font.getFill()](../../com.aspose.words/font\#getFill) property to access fill properties of an object. You do not create instances of the [Fill](../../com.aspose.words/fill) class directly.
+Use the [ShapeBase.getFill()](../../com.aspose.words/shapebase/\#getFill) or [Font.getFill()](../../com.aspose.words/font/\#getFill) property to access fill properties of an object. You do not create instances of the [Fill](../../com.aspose.words/fill/) class directly.
 
 
 [Working with Graphic Elements]: https://docs.aspose.com/words/java/working-with-graphic-elements/
@@ -32,14 +33,14 @@ Use the [ShapeBase.getFill()](../../com.aspose.words/shapebase\#getFill) or [Fon
 | [getFillType()](#getFillType) | Gets a fill type. |
 | [getForeColor()](#getForeColor) | Gets a Color object that represents the foreground color for the fill. |
 | [getGradientAngle()](#getGradientAngle) | Gets the angle of the gradient fill. |
-| [getGradientStops()](#getGradientStops) | Gets a collection of [GradientStop](../../com.aspose.words/gradientstop) objects for the fill. |
-| [getGradientStyle()](#getGradientStyle) | Gets the gradient style [GradientStyle](../../com.aspose.words/gradientstyle) for the fill. |
-| [getGradientVariant()](#getGradientVariant) | Gets the gradient variant [GradientVariant](../../com.aspose.words/gradientvariant) for the fill. |
+| [getGradientStops()](#getGradientStops) | Gets a collection of [GradientStop](../../com.aspose.words/gradientstop/) objects for the fill. |
+| [getGradientStyle()](#getGradientStyle) | Gets the gradient style [GradientStyle](../../com.aspose.words/gradientstyle/) for the fill. |
+| [getGradientVariant()](#getGradientVariant) | Gets the gradient variant [GradientVariant](../../com.aspose.words/gradientvariant/) for the fill. |
 | [getImageBytes()](#getImageBytes) | Gets the raw bytes of the fill texture or pattern. |
 | [getOn()](#getOn) | Gets value that is  true  if the formatting applied to this instance, is visible. |
 | [getOpacity()](#getOpacity) | Gets the degree of opacity of the specified fill as a value between 0.0 (clear) and 1.0 (opaque). |
-| [getPattern()](#getPattern) | Gets a [PatternType](../../com.aspose.words/patterntype) for the fill. |
-| [getPresetTexture()](#getPresetTexture) | Gets a [PresetTexture](../../com.aspose.words/presettexture) for the fill. |
+| [getPattern()](#getPattern) | Gets a [PatternType](../../com.aspose.words/patterntype/) for the fill. |
+| [getPresetTexture()](#getPresetTexture) | Gets a [PresetTexture](../../com.aspose.words/presettexture/) for the fill. |
 | [getRotateWithObject()](#getRotateWithObject) | Gets whether the fill rotates with the specified object. |
 | [getTextureAlignment()](#getTextureAlignment) | Gets the alignment for tile texture fill. |
 | [getTransparency()](#getTransparency) | Gets the degree of transparency of the specified fill as a value between 0.0 (opaque) and 1.0 (clear). |
@@ -127,7 +128,7 @@ public int getFillType()
 Gets a fill type.
 
 **Returns:**
-int - A fill type. The returned value is one of [FillType](../../com.aspose.words/filltype) constants.
+int - A fill type. The returned value is one of [FillType](../../com.aspose.words/filltype/) constants.
 ### getForeColor() {#getForeColor}
 ```
 public Color getForeColor()
@@ -154,30 +155,30 @@ public GradientStopCollection getGradientStops()
 ```
 
 
-Gets a collection of [GradientStop](../../com.aspose.words/gradientstop) objects for the fill.
+Gets a collection of [GradientStop](../../com.aspose.words/gradientstop/) objects for the fill.
 
 **Returns:**
-[GradientStopCollection](../../com.aspose.words/gradientstopcollection) - A collection of [GradientStop](../../com.aspose.words/gradientstop) objects for the fill.
+[GradientStopCollection](../../com.aspose.words/gradientstopcollection/) - A collection of [GradientStop](../../com.aspose.words/gradientstop/) objects for the fill.
 ### getGradientStyle() {#getGradientStyle}
 ```
 public int getGradientStyle()
 ```
 
 
-Gets the gradient style [GradientStyle](../../com.aspose.words/gradientstyle) for the fill.
+Gets the gradient style [GradientStyle](../../com.aspose.words/gradientstyle/) for the fill.
 
 **Returns:**
-int - The gradient style [GradientStyle](../../com.aspose.words/gradientstyle) for the fill. The returned value is one of [GradientStyle](../../com.aspose.words/gradientstyle) constants.
+int - The gradient style [GradientStyle](../../com.aspose.words/gradientstyle/) for the fill. The returned value is one of [GradientStyle](../../com.aspose.words/gradientstyle/) constants.
 ### getGradientVariant() {#getGradientVariant}
 ```
 public int getGradientVariant()
 ```
 
 
-Gets the gradient variant [GradientVariant](../../com.aspose.words/gradientvariant) for the fill.
+Gets the gradient variant [GradientVariant](../../com.aspose.words/gradientvariant/) for the fill.
 
 **Returns:**
-int - The gradient variant [GradientVariant](../../com.aspose.words/gradientvariant) for the fill. The returned value is one of [GradientVariant](../../com.aspose.words/gradientvariant) constants.
+int - The gradient variant [GradientVariant](../../com.aspose.words/gradientvariant/) for the fill. The returned value is one of [GradientVariant](../../com.aspose.words/gradientvariant/) constants.
 ### getImageBytes() {#getImageBytes}
 ```
 public byte[] getImageBytes()
@@ -206,7 +207,7 @@ public double getOpacity()
 ```
 
 
-Gets the degree of opacity of the specified fill as a value between 0.0 (clear) and 1.0 (opaque). This property is the opposite of property [getTransparency()](../../com.aspose.words/fill\#getTransparency) / [setTransparency(double)](../../com.aspose.words/fill\#setTransparency-double).
+Gets the degree of opacity of the specified fill as a value between 0.0 (clear) and 1.0 (opaque). This property is the opposite of property [getTransparency()](../../com.aspose.words/fill/\#getTransparency) / [setTransparency(double)](../../com.aspose.words/fill/\#setTransparency-double).
 
 **Returns:**
 double - The degree of opacity of the specified fill as a value between 0.0 (clear) and 1.0 (opaque).
@@ -216,20 +217,20 @@ public int getPattern()
 ```
 
 
-Gets a [PatternType](../../com.aspose.words/patterntype) for the fill.
+Gets a [PatternType](../../com.aspose.words/patterntype/) for the fill.
 
 **Returns:**
-int - A [PatternType](../../com.aspose.words/patterntype) for the fill. The returned value is one of [PatternType](../../com.aspose.words/patterntype) constants.
+int - A [PatternType](../../com.aspose.words/patterntype/) for the fill. The returned value is one of [PatternType](../../com.aspose.words/patterntype/) constants.
 ### getPresetTexture() {#getPresetTexture}
 ```
 public int getPresetTexture()
 ```
 
 
-Gets a [PresetTexture](../../com.aspose.words/presettexture) for the fill.
+Gets a [PresetTexture](../../com.aspose.words/presettexture/) for the fill.
 
 **Returns:**
-int - A [PresetTexture](../../com.aspose.words/presettexture) for the fill. The returned value is one of [PresetTexture](../../com.aspose.words/presettexture) constants.
+int - A [PresetTexture](../../com.aspose.words/presettexture/) for the fill. The returned value is one of [PresetTexture](../../com.aspose.words/presettexture/) constants.
 ### getRotateWithObject() {#getRotateWithObject}
 ```
 public boolean getRotateWithObject()
@@ -249,14 +250,14 @@ public int getTextureAlignment()
 Gets the alignment for tile texture fill.
 
 **Returns:**
-int - The alignment for tile texture fill. The returned value is one of [TextureAlignment](../../com.aspose.words/texturealignment) constants.
+int - The alignment for tile texture fill. The returned value is one of [TextureAlignment](../../com.aspose.words/texturealignment/) constants.
 ### getTransparency() {#getTransparency}
 ```
 public double getTransparency()
 ```
 
 
-Gets the degree of transparency of the specified fill as a value between 0.0 (opaque) and 1.0 (clear). This property is the opposite of property [getOpacity()](../../com.aspose.words/fill\#getOpacity) / [setOpacity(double)](../../com.aspose.words/fill\#setOpacity-double).
+Gets the degree of transparency of the specified fill as a value between 0.0 (opaque) and 1.0 (clear). This property is the opposite of property [getOpacity()](../../com.aspose.words/fill/\#getOpacity) / [setOpacity(double)](../../com.aspose.words/fill/\#setOpacity-double).
 
 **Returns:**
 double - The degree of transparency of the specified fill as a value between 0.0 (opaque) and 1.0 (clear).
@@ -478,7 +479,7 @@ public void setOpacity(double value)
 ```
 
 
-Sets the degree of opacity of the specified fill as a value between 0.0 (clear) and 1.0 (opaque). This property is the opposite of property [getTransparency()](../../com.aspose.words/fill\#getTransparency) / [setTransparency(double)](../../com.aspose.words/fill\#setTransparency-double).
+Sets the degree of opacity of the specified fill as a value between 0.0 (clear) and 1.0 (opaque). This property is the opposite of property [getTransparency()](../../com.aspose.words/fill/\#getTransparency) / [setTransparency(double)](../../com.aspose.words/fill/\#setTransparency-double).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -509,7 +510,7 @@ Sets the alignment for tile texture fill.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The alignment for tile texture fill. The value must be one of [TextureAlignment](../../com.aspose.words/texturealignment) constants. |
+| value | int | The alignment for tile texture fill. The value must be one of [TextureAlignment](../../com.aspose.words/texturealignment/) constants. |
 
 ### setTransparency(double value) {#setTransparency-double}
 ```
@@ -517,7 +518,7 @@ public void setTransparency(double value)
 ```
 
 
-Sets the degree of transparency of the specified fill as a value between 0.0 (opaque) and 1.0 (clear). This property is the opposite of property [getOpacity()](../../com.aspose.words/fill\#getOpacity) / [setOpacity(double)](../../com.aspose.words/fill\#setOpacity-double).
+Sets the degree of transparency of the specified fill as a value between 0.0 (opaque) and 1.0 (clear). This property is the opposite of property [getOpacity()](../../com.aspose.words/fill/\#getOpacity) / [setOpacity(double)](../../com.aspose.words/fill/\#setOpacity-double).
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -1,9 +1,10 @@
 ---
 title: RowFormat
+linktitle: RowFormat
 second_title: Aspose.Words for Java API Reference
-description: Represents all formatting for a table row.
+description: Represents all formatting for a table row in Java.
 type: docs
-weight: 498
+weight: 500
 url: /java/com.aspose.words/rowformat/
 ---
 
@@ -102,7 +103,7 @@ public BorderCollection getBorders()
 Gets the collection of default cell borders for the row.
 
 **Returns:**
-[BorderCollection](../../com.aspose.words/bordercollection) - The collection of default cell borders for the row.
+[BorderCollection](../../com.aspose.words/bordercollection/) - The collection of default cell borders for the row.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -157,7 +158,7 @@ public int getHeightRule()
 Gets the rule for determining the height of the table row.
 
 **Returns:**
-int - The rule for determining the height of the table row. The returned value is one of [HeightRule](../../com.aspose.words/heightrule) constants.
+int - The rule for determining the height of the table row. The returned value is one of [HeightRule](../../com.aspose.words/heightrule/) constants.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()
@@ -248,7 +249,7 @@ Sets the rule for determining the height of the table row.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The rule for determining the height of the table row. The value must be one of [HeightRule](../../com.aspose.words/heightrule) constants. |
+| value | int | The rule for determining the height of the table row. The value must be one of [HeightRule](../../com.aspose.words/heightrule/) constants. |
 
 ### toString() {#toString}
 ```

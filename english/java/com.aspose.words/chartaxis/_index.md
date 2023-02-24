@@ -1,7 +1,8 @@
 ---
 title: ChartAxis
+linktitle: ChartAxis
 second_title: Aspose.Words for Java API Reference
-description: Represents the axis options of the chart.
+description: Represents the axis options of the chart in Java.
 type: docs
 weight: 56
 url: /java/com.aspose.words/chartaxis/
@@ -44,7 +45,7 @@ To learn more, visit the [ Working with Charts ][Working with Charts] documentat
 | [getMinorUnit()](#getMinorUnit) | Gets the distance between minor tick marks. |
 | [getMinorUnitIsAuto()](#getMinorUnitIsAuto) | Gets a flag indicating whether default distance between minor tick marks shall be used. |
 | [getMinorUnitScale()](#getMinorUnitScale) | Gets the scale value for minor tick marks on the time category axis. |
-| [getNumberFormat()](#getNumberFormat) | Returns a [ChartNumberFormat](../../com.aspose.words/chartnumberformat) object that allows defining number formats for the axis. |
+| [getNumberFormat()](#getNumberFormat) | Returns a [ChartNumberFormat](../../com.aspose.words/chartnumberformat/) object that allows defining number formats for the axis. |
 | [getReverseOrder()](#getReverseOrder) | Gets a flag indicating whether values of axis should be displayed in reverse order, i.e. |
 | [getScaling()](#getScaling) | Provides access to the scaling options of the axis. |
 | [getTickLabelAlignment()](#getTickLabelAlignment) | Gets text alignment of axis tick labels. |
@@ -123,17 +124,17 @@ public int getBaseTimeUnit()
 Gets the smallest time unit that is represented on the time category axis. The property has effect only for time category axes.
 
 **Returns:**
-int - The smallest time unit that is represented on the time category axis. The returned value is one of [AxisTimeUnit](../../com.aspose.words/axistimeunit) constants.
+int - The smallest time unit that is represented on the time category axis. The returned value is one of [AxisTimeUnit](../../com.aspose.words/axistimeunit/) constants.
 ### getCategoryType() {#getCategoryType}
 ```
 public int getCategoryType()
 ```
 
 
-Gets type of the category axis. Only text categories ( [AxisCategoryType.CATEGORY](../../com.aspose.words/axiscategorytype\#CATEGORY)) are allowed in MS Office 2016 new charts.
+Gets type of the category axis. Only text categories ( [AxisCategoryType.CATEGORY](../../com.aspose.words/axiscategorytype/\#CATEGORY)) are allowed in MS Office 2016 new charts.
 
 **Returns:**
-int - Type of the category axis. The returned value is one of [AxisCategoryType](../../com.aspose.words/axiscategorytype) constants.
+int - Type of the category axis. The returned value is one of [AxisCategoryType](../../com.aspose.words/axiscategorytype/) constants.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -152,12 +153,12 @@ public int getCrosses()
 
 Specifies how this axis crosses the perpendicular axis.
 
-Default value is [AxisCrosses.AUTOMATIC](../../com.aspose.words/axiscrosses\#AUTOMATIC).
+Default value is [AxisCrosses.AUTOMATIC](../../com.aspose.words/axiscrosses/\#AUTOMATIC).
 
 The property is not supported by MS Office 2016 new charts.
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [AxisCrosses](../../com.aspose.words/axiscrosses) constants.
+int - The corresponding  int  value. The returned value is one of [AxisCrosses](../../com.aspose.words/axiscrosses/) constants.
 ### getCrossesAt() {#getCrossesAt}
 ```
 public double getCrossesAt()
@@ -166,7 +167,7 @@ public double getCrossesAt()
 
 Specifies where on the perpendicular axis the axis crosses.
 
-The property has effect only if [getCrosses()](../../com.aspose.words/chartaxis\#getCrosses) / [setCrosses(int)](../../com.aspose.words/chartaxis\#setCrosses-int) are set to [AxisCrosses.CUSTOM](../../com.aspose.words/axiscrosses\#CUSTOM). It is not supported by MS Office 2016 new charts.
+The property has effect only if [getCrosses()](../../com.aspose.words/chartaxis/\#getCrosses) / [setCrosses(int)](../../com.aspose.words/chartaxis/\#setCrosses-int) are set to [AxisCrosses.CUSTOM](../../com.aspose.words/axiscrosses/\#CUSTOM). It is not supported by MS Office 2016 new charts.
 
 The units are determined by the type of axis. When the axis is a value axis, the value of the property is a decimal number on the value axis. When the axis is a time category axis, the value is defined as an integer number of days relative to the base date (30/12/1899). For a text category axis, the value is an integer category number, starting with 1 as the first category.
 
@@ -181,7 +182,7 @@ public AxisDisplayUnit getDisplayUnit()
 Specifies the scaling value of the display units for the value axis. The property has effect only for value axes.
 
 **Returns:**
-[AxisDisplayUnit](../../com.aspose.words/axisdisplayunit) - The corresponding [AxisDisplayUnit](../../com.aspose.words/axisdisplayunit) value.
+[AxisDisplayUnit](../../com.aspose.words/axisdisplayunit/) - The corresponding [AxisDisplayUnit](../../com.aspose.words/axisdisplayunit/) value.
 ### getDocument() {#getDocument}
 ```
 public DocumentBase getDocument()
@@ -191,7 +192,7 @@ public DocumentBase getDocument()
 Returns the Document the title holder belongs.
 
 **Returns:**
-[DocumentBase](../../com.aspose.words/documentbase) - The Document the title holder belongs.
+[DocumentBase](../../com.aspose.words/documentbase/) - The Document the title holder belongs.
 ### getHidden() {#getHidden}
 ```
 public boolean getHidden()
@@ -211,7 +212,7 @@ public int getMajorTickMark()
 Gets the major tick marks.
 
 **Returns:**
-int - The major tick marks. The returned value is one of [AxisTickMark](../../com.aspose.words/axistickmark) constants.
+int - The major tick marks. The returned value is one of [AxisTickMark](../../com.aspose.words/axistickmark/) constants.
 ### getMajorUnit() {#getMajorUnit}
 ```
 public double getMajorUnit()
@@ -222,7 +223,7 @@ Gets the distance between major tick marks.
 
 Valid range of a value is greater than zero. The property has effect for time category and value axes.
 
-Setting this property sets the [getMajorUnitIsAuto()](../../com.aspose.words/chartaxis\#getMajorUnitIsAuto) / [setMajorUnitIsAuto(boolean)](../../com.aspose.words/chartaxis\#setMajorUnitIsAuto-boolean) property to  false .
+Setting this property sets the [getMajorUnitIsAuto()](../../com.aspose.words/chartaxis/\#getMajorUnitIsAuto) / [setMajorUnitIsAuto(boolean)](../../com.aspose.words/chartaxis/\#setMajorUnitIsAuto-boolean) property to  false .
 
 **Returns:**
 double - The distance between major tick marks.
@@ -245,7 +246,7 @@ public int getMajorUnitScale()
 Gets the scale value for major tick marks on the time category axis. The property has effect only for time category axes.
 
 **Returns:**
-int - The scale value for major tick marks on the time category axis. The returned value is one of [AxisTimeUnit](../../com.aspose.words/axistimeunit) constants.
+int - The scale value for major tick marks on the time category axis. The returned value is one of [AxisTimeUnit](../../com.aspose.words/axistimeunit/) constants.
 ### getMinorTickMark() {#getMinorTickMark}
 ```
 public int getMinorTickMark()
@@ -255,7 +256,7 @@ public int getMinorTickMark()
 Gets the minor tick marks for the axis.
 
 **Returns:**
-int - The minor tick marks for the axis. The returned value is one of [AxisTickMark](../../com.aspose.words/axistickmark) constants.
+int - The minor tick marks for the axis. The returned value is one of [AxisTickMark](../../com.aspose.words/axistickmark/) constants.
 ### getMinorUnit() {#getMinorUnit}
 ```
 public double getMinorUnit()
@@ -266,7 +267,7 @@ Gets the distance between minor tick marks.
 
 Valid range of a value is greater than zero. The property has effect for time category and value axes.
 
-Setting this property sets the [getMinorUnitIsAuto()](../../com.aspose.words/chartaxis\#getMinorUnitIsAuto) / [setMinorUnitIsAuto(boolean)](../../com.aspose.words/chartaxis\#setMinorUnitIsAuto-boolean) property to  false .
+Setting this property sets the [getMinorUnitIsAuto()](../../com.aspose.words/chartaxis/\#getMinorUnitIsAuto) / [setMinorUnitIsAuto(boolean)](../../com.aspose.words/chartaxis/\#setMinorUnitIsAuto-boolean) property to  false .
 
 **Returns:**
 double - The distance between minor tick marks.
@@ -289,17 +290,17 @@ public int getMinorUnitScale()
 Gets the scale value for minor tick marks on the time category axis. The property has effect only for time category axes.
 
 **Returns:**
-int - The scale value for minor tick marks on the time category axis. The returned value is one of [AxisTimeUnit](../../com.aspose.words/axistimeunit) constants.
+int - The scale value for minor tick marks on the time category axis. The returned value is one of [AxisTimeUnit](../../com.aspose.words/axistimeunit/) constants.
 ### getNumberFormat() {#getNumberFormat}
 ```
 public ChartNumberFormat getNumberFormat()
 ```
 
 
-Returns a [ChartNumberFormat](../../com.aspose.words/chartnumberformat) object that allows defining number formats for the axis.
+Returns a [ChartNumberFormat](../../com.aspose.words/chartnumberformat/) object that allows defining number formats for the axis.
 
 **Returns:**
-[ChartNumberFormat](../../com.aspose.words/chartnumberformat) - A [ChartNumberFormat](../../com.aspose.words/chartnumberformat) object that allows defining number formats for the axis.
+[ChartNumberFormat](../../com.aspose.words/chartnumberformat/) - A [ChartNumberFormat](../../com.aspose.words/chartnumberformat/) object that allows defining number formats for the axis.
 ### getReverseOrder() {#getReverseOrder}
 ```
 public boolean getReverseOrder()
@@ -319,7 +320,7 @@ public AxisScaling getScaling()
 Provides access to the scaling options of the axis.
 
 **Returns:**
-[AxisScaling](../../com.aspose.words/axisscaling) - The corresponding [AxisScaling](../../com.aspose.words/axisscaling) value.
+[AxisScaling](../../com.aspose.words/axisscaling/) - The corresponding [AxisScaling](../../com.aspose.words/axisscaling/) value.
 ### getTickLabelAlignment() {#getTickLabelAlignment}
 ```
 public int getTickLabelAlignment()
@@ -330,12 +331,12 @@ Gets text alignment of axis tick labels.
 
 This property has effect only for multi-line labels.
 
-Default value is [ParagraphAlignment.CENTER](../../com.aspose.words/paragraphalignment\#CENTER).
+Default value is [ParagraphAlignment.CENTER](../../com.aspose.words/paragraphalignment/\#CENTER).
 
 .
 
 **Returns:**
-int - Text alignment of axis tick labels. The returned value is one of [ParagraphAlignment](../../com.aspose.words/paragraphalignment) constants.
+int - Text alignment of axis tick labels. The returned value is one of [ParagraphAlignment](../../com.aspose.words/paragraphalignment/) constants.
 ### getTickLabelOffset() {#getTickLabelOffset}
 ```
 public int getTickLabelOffset()
@@ -361,7 +362,7 @@ public int getTickLabelPosition()
 Gets the position of the tick labels on the axis. The property is not supported by MS Office 2016 new charts.
 
 **Returns:**
-int - The position of the tick labels on the axis. The returned value is one of [AxisTickLabelPosition](../../com.aspose.words/axisticklabelposition) constants.
+int - The position of the tick labels on the axis. The returned value is one of [AxisTickLabelPosition](../../com.aspose.words/axisticklabelposition/) constants.
 ### getTickLabelSpacing() {#getTickLabelSpacing}
 ```
 public int getTickLabelSpacing()
@@ -372,7 +373,7 @@ Gets the interval, at which tick labels are drawn.
 
 The property has effect for text category and series axes. It is not supported by MS Office 2016 new charts. Valid range of a value is greater than or equal to 1.
 
-Setting this property sets the [getTickLabelSpacingIsAuto()](../../com.aspose.words/chartaxis\#getTickLabelSpacingIsAuto) / [setTickLabelSpacingIsAuto(boolean)](../../com.aspose.words/chartaxis\#setTickLabelSpacingIsAuto-boolean) property to  false .
+Setting this property sets the [getTickLabelSpacingIsAuto()](../../com.aspose.words/chartaxis/\#getTickLabelSpacingIsAuto) / [setTickLabelSpacingIsAuto(boolean)](../../com.aspose.words/chartaxis/\#setTickLabelSpacingIsAuto-boolean) property to  false .
 
 **Returns:**
 int - The interval, at which tick labels are drawn.
@@ -413,7 +414,7 @@ public ChartTitle getTitle()
 
 
 **Returns:**
-[ChartTitle](../../com.aspose.words/charttitle)
+[ChartTitle](../../com.aspose.words/charttitle/)
 ### getTitleDeleted() {#getTitleDeleted}
 ```
 public boolean getTitleDeleted()
@@ -443,7 +444,7 @@ public int getType()
 Returns type of the axis.
 
 **Returns:**
-int - Type of the axis. The returned value is one of [ChartAxisType](../../com.aspose.words/chartaxistype) constants.
+int - Type of the axis. The returned value is one of [ChartAxisType](../../com.aspose.words/chartaxistype/) constants.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()
@@ -514,7 +515,7 @@ Sets the smallest time unit that is represented on the time category axis. The p
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The smallest time unit that is represented on the time category axis. The value must be one of [AxisTimeUnit](../../com.aspose.words/axistimeunit) constants. |
+| value | int | The smallest time unit that is represented on the time category axis. The value must be one of [AxisTimeUnit](../../com.aspose.words/axistimeunit/) constants. |
 
 ### setCategoryType(int value) {#setCategoryType-int}
 ```
@@ -522,12 +523,12 @@ public void setCategoryType(int value)
 ```
 
 
-Sets type of the category axis. Only text categories ( [AxisCategoryType.CATEGORY](../../com.aspose.words/axiscategorytype\#CATEGORY)) are allowed in MS Office 2016 new charts.
+Sets type of the category axis. Only text categories ( [AxisCategoryType.CATEGORY](../../com.aspose.words/axiscategorytype/\#CATEGORY)) are allowed in MS Office 2016 new charts.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | Type of the category axis. The value must be one of [AxisCategoryType](../../com.aspose.words/axiscategorytype) constants. |
+| value | int | Type of the category axis. The value must be one of [AxisCategoryType](../../com.aspose.words/axiscategorytype/) constants. |
 
 ### setCrosses(int value) {#setCrosses-int}
 ```
@@ -537,14 +538,14 @@ public void setCrosses(int value)
 
 Specifies how this axis crosses the perpendicular axis.
 
-Default value is [AxisCrosses.AUTOMATIC](../../com.aspose.words/axiscrosses\#AUTOMATIC).
+Default value is [AxisCrosses.AUTOMATIC](../../com.aspose.words/axiscrosses/\#AUTOMATIC).
 
 The property is not supported by MS Office 2016 new charts.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [AxisCrosses](../../com.aspose.words/axiscrosses) constants. |
+| value | int | The corresponding  int  value. The value must be one of [AxisCrosses](../../com.aspose.words/axiscrosses/) constants. |
 
 ### setCrossesAt(double value) {#setCrossesAt-double}
 ```
@@ -554,7 +555,7 @@ public void setCrossesAt(double value)
 
 Specifies where on the perpendicular axis the axis crosses.
 
-The property has effect only if [getCrosses()](../../com.aspose.words/chartaxis\#getCrosses) / [setCrosses(int)](../../com.aspose.words/chartaxis\#setCrosses-int) are set to [AxisCrosses.CUSTOM](../../com.aspose.words/axiscrosses\#CUSTOM). It is not supported by MS Office 2016 new charts.
+The property has effect only if [getCrosses()](../../com.aspose.words/chartaxis/\#getCrosses) / [setCrosses(int)](../../com.aspose.words/chartaxis/\#setCrosses-int) are set to [AxisCrosses.CUSTOM](../../com.aspose.words/axiscrosses/\#CUSTOM). It is not supported by MS Office 2016 new charts.
 
 The units are determined by the type of axis. When the axis is a value axis, the value of the property is a decimal number on the value axis. When the axis is a time category axis, the value is defined as an integer number of days relative to the base date (30/12/1899). For a text category axis, the value is an integer category number, starting with 1 as the first category.
 
@@ -587,7 +588,7 @@ Sets the major tick marks.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The major tick marks. The value must be one of [AxisTickMark](../../com.aspose.words/axistickmark) constants. |
+| value | int | The major tick marks. The value must be one of [AxisTickMark](../../com.aspose.words/axistickmark/) constants. |
 
 ### setMajorUnit(double value) {#setMajorUnit-double}
 ```
@@ -599,7 +600,7 @@ Sets the distance between major tick marks.
 
 Valid range of a value is greater than zero. The property has effect for time category and value axes.
 
-Setting this property sets the [getMajorUnitIsAuto()](../../com.aspose.words/chartaxis\#getMajorUnitIsAuto) / [setMajorUnitIsAuto(boolean)](../../com.aspose.words/chartaxis\#setMajorUnitIsAuto-boolean) property to  false .
+Setting this property sets the [getMajorUnitIsAuto()](../../com.aspose.words/chartaxis/\#getMajorUnitIsAuto) / [setMajorUnitIsAuto(boolean)](../../com.aspose.words/chartaxis/\#setMajorUnitIsAuto-boolean) property to  false .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -630,7 +631,7 @@ Sets the scale value for major tick marks on the time category axis. The propert
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The scale value for major tick marks on the time category axis. The value must be one of [AxisTimeUnit](../../com.aspose.words/axistimeunit) constants. |
+| value | int | The scale value for major tick marks on the time category axis. The value must be one of [AxisTimeUnit](../../com.aspose.words/axistimeunit/) constants. |
 
 ### setMinorTickMark(int value) {#setMinorTickMark-int}
 ```
@@ -643,7 +644,7 @@ Sets the minor tick marks for the axis.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The minor tick marks for the axis. The value must be one of [AxisTickMark](../../com.aspose.words/axistickmark) constants. |
+| value | int | The minor tick marks for the axis. The value must be one of [AxisTickMark](../../com.aspose.words/axistickmark/) constants. |
 
 ### setMinorUnit(double value) {#setMinorUnit-double}
 ```
@@ -655,7 +656,7 @@ Sets the distance between minor tick marks.
 
 Valid range of a value is greater than zero. The property has effect for time category and value axes.
 
-Setting this property sets the [getMinorUnitIsAuto()](../../com.aspose.words/chartaxis\#getMinorUnitIsAuto) / [setMinorUnitIsAuto(boolean)](../../com.aspose.words/chartaxis\#setMinorUnitIsAuto-boolean) property to  false .
+Setting this property sets the [getMinorUnitIsAuto()](../../com.aspose.words/chartaxis/\#getMinorUnitIsAuto) / [setMinorUnitIsAuto(boolean)](../../com.aspose.words/chartaxis/\#setMinorUnitIsAuto-boolean) property to  false .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -686,7 +687,7 @@ Sets the scale value for minor tick marks on the time category axis. The propert
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The scale value for minor tick marks on the time category axis. The value must be one of [AxisTimeUnit](../../com.aspose.words/axistimeunit) constants. |
+| value | int | The scale value for minor tick marks on the time category axis. The value must be one of [AxisTimeUnit](../../com.aspose.words/axistimeunit/) constants. |
 
 ### setReverseOrder(boolean value) {#setReverseOrder-boolean}
 ```
@@ -711,14 +712,14 @@ Sets text alignment of axis tick labels.
 
 This property has effect only for multi-line labels.
 
-Default value is [ParagraphAlignment.CENTER](../../com.aspose.words/paragraphalignment\#CENTER).
+Default value is [ParagraphAlignment.CENTER](../../com.aspose.words/paragraphalignment/\#CENTER).
 
 .
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | Text alignment of axis tick labels. The value must be one of [ParagraphAlignment](../../com.aspose.words/paragraphalignment) constants. |
+| value | int | Text alignment of axis tick labels. The value must be one of [ParagraphAlignment](../../com.aspose.words/paragraphalignment/) constants. |
 
 ### setTickLabelOffset(int value) {#setTickLabelOffset-int}
 ```
@@ -750,7 +751,7 @@ Sets the position of the tick labels on the axis. The property is not supported 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The position of the tick labels on the axis. The value must be one of [AxisTickLabelPosition](../../com.aspose.words/axisticklabelposition) constants. |
+| value | int | The position of the tick labels on the axis. The value must be one of [AxisTickLabelPosition](../../com.aspose.words/axisticklabelposition/) constants. |
 
 ### setTickLabelSpacing(int value) {#setTickLabelSpacing-int}
 ```
@@ -762,7 +763,7 @@ Sets the interval, at which tick labels are drawn.
 
 The property has effect for text category and series axes. It is not supported by MS Office 2016 new charts. Valid range of a value is greater than or equal to 1.
 
-Setting this property sets the [getTickLabelSpacingIsAuto()](../../com.aspose.words/chartaxis\#getTickLabelSpacingIsAuto) / [setTickLabelSpacingIsAuto(boolean)](../../com.aspose.words/chartaxis\#setTickLabelSpacingIsAuto-boolean) property to  false .
+Setting this property sets the [getTickLabelSpacingIsAuto()](../../com.aspose.words/chartaxis/\#getTickLabelSpacingIsAuto) / [setTickLabelSpacingIsAuto(boolean)](../../com.aspose.words/chartaxis/\#setTickLabelSpacingIsAuto-boolean) property to  false .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -814,7 +815,7 @@ public void setTitle(ChartTitle value)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ChartTitle](../../com.aspose.words/charttitle) |  |
+| value | [ChartTitle](../../com.aspose.words/charttitle/) |  |
 
 ### setTitleDeleted(boolean value) {#setTitleDeleted-boolean}
 ```

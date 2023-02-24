@@ -1,7 +1,8 @@
 ---
 title: ArrowLength
+linktitle: ArrowLength
 second_title: Aspose.Words for Java API Reference
-description: Length of the arrow at the end of a line.
+description: Length of the arrow at the end of a line in Java.
 type: docs
 weight: 11
 url: /java/com.aspose.words/arrowlength/
@@ -18,7 +19,7 @@ Length of the arrow at the end of a line.
 
 | Field | Description |
 | --- | --- |
-| [DEFAULT](#DEFAULT) | Same as [SHORT](../../com.aspose.words/arrowlength\#SHORT). |
+| [DEFAULT](#DEFAULT) | Same as [SHORT](../../com.aspose.words/arrowlength/\#SHORT). |
 | [LONG](#LONG) |  |
 | [MEDIUM](#MEDIUM) |  |
 | [SHORT](#SHORT) |  |
@@ -46,7 +47,7 @@ public static int DEFAULT
 ```
 
 
-Same as [SHORT](../../com.aspose.words/arrowlength\#SHORT).
+Same as [SHORT](../../com.aspose.words/arrowlength/\#SHORT).
 
 ### LONG {#LONG}
 ```

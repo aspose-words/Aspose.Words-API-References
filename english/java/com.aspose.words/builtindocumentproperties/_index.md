@@ -1,14 +1,15 @@
 ---
 title: BuiltInDocumentProperties
+linktitle: BuiltInDocumentProperties
 second_title: Aspose.Words for Java API Reference
-description: A collection of built-in document properties.
+description: A collection of built-in document properties in Java.
 type: docs
 weight: 46
 url: /java/com.aspose.words/builtindocumentproperties/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.words.DocumentPropertyCollection](../../com.aspose.words/documentpropertycollection)
+java.lang.Object, [com.aspose.words.DocumentPropertyCollection](../../com.aspose.words/documentpropertycollection/)
 ```
 public class BuiltInDocumentProperties extends DocumentPropertyCollection
 ```
@@ -17,7 +18,7 @@ A collection of built-in document properties.
 
 To learn more, visit the [ Work with Document Properties ][Work with Document Properties] documentation article.
 
-Provides access to [DocumentProperty](../../com.aspose.words/documentproperty) objects by their names (using an indexer) and via a set of typed properties that return values of appropriate types.
+Provides access to [DocumentProperty](../../com.aspose.words/documentproperty/) objects by their names (using an indexer) and via a set of typed properties that return values of appropriate types.
 
 The names of the properties are case-insensitive.
 
@@ -32,8 +33,8 @@ The properties in the collection are sorted alphabetically by name.
 | [clear()](#clear) | Removes all properties from the collection. |
 | [contains(String name)](#contains-java.lang.String) | Returns  true  if a property with the specified name exists in the collection. |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [get(int index)](#get-int) | Returns a [DocumentProperty](../../com.aspose.words/documentproperty) object by index. |
-| [get(String name)](#get-java.lang.String) | Returns a [DocumentProperty](../../com.aspose.words/documentproperty) object. |
+| [get(int index)](#get-int) | Returns a [DocumentProperty](../../com.aspose.words/documentproperty/) object by index. |
+| [get(String name)](#get-java.lang.String) | Returns a [DocumentProperty](../../com.aspose.words/documentproperty/) object. |
 | [getAuthor()](#getAuthor) | Gets the name of the document's author. |
 | [getBytes()](#getBytes) | Represents an estimate of the number of bytes in the document. |
 | [getCategory()](#getCategory) | Gets the category of the document. |
@@ -155,28 +156,28 @@ public DocumentProperty get(int index)
 ```
 
 
-Returns a [DocumentProperty](../../com.aspose.words/documentproperty) object by index.
+Returns a [DocumentProperty](../../com.aspose.words/documentproperty/) object by index.
 
 **Note:**  In Java this method is slow because iterates over all nodes.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | Zero-based index of the [DocumentProperty](../../com.aspose.words/documentproperty) to retrieve. |
+| index | int | Zero-based index of the [DocumentProperty](../../com.aspose.words/documentproperty/) to retrieve. |
 
 **Returns:**
-[DocumentProperty](../../com.aspose.words/documentproperty) - A [DocumentProperty](../../com.aspose.words/documentproperty) object by index.
+[DocumentProperty](../../com.aspose.words/documentproperty/) - A [DocumentProperty](../../com.aspose.words/documentproperty/) object by index.
 ### get(String name) {#get-java.lang.String}
 ```
 public DocumentProperty get(String name)
 ```
 
 
-Returns a [DocumentProperty](../../com.aspose.words/documentproperty) object.  Returns a [DocumentProperty](../../com.aspose.words/documentproperty) object by the name of the property.
+Returns a [DocumentProperty](../../com.aspose.words/documentproperty/) object.  Returns a [DocumentProperty](../../com.aspose.words/documentproperty/) object by the name of the property.
 
-The string names of the properties correspond to the names of the typed properties available from [BuiltInDocumentProperties](../../com.aspose.words/builtindocumentproperties).
+The string names of the properties correspond to the names of the typed properties available from [BuiltInDocumentProperties](../../com.aspose.words/builtindocumentproperties/).
 
-If you request a property that is not present in the document, but the name of the property is recognized as a valid built-in name, a new [DocumentProperty](../../com.aspose.words/documentproperty) is created, added to the collection and returned. The newly created property is assigned a default value (empty string, zero,  false  or DateTime.MinValue depending on the type of the built-in property).
+If you request a property that is not present in the document, but the name of the property is recognized as a valid built-in name, a new [DocumentProperty](../../com.aspose.words/documentproperty/) is created, added to the collection and returned. The newly created property is assigned a default value (empty string, zero,  false  or DateTime.MinValue depending on the type of the built-in property).
 
 If you request a property that is not present in the document and the name is not recognized as a built-in name, a  null  is returned.
 
@@ -186,7 +187,7 @@ If you request a property that is not present in the document and the name is no
 | name | java.lang.String | The case-insensitive name of the property to retrieve. |
 
 **Returns:**
-[DocumentProperty](../../com.aspose.words/documentproperty) - The corresponding [DocumentProperty](../../com.aspose.words/documentproperty) value.
+[DocumentProperty](../../com.aspose.words/documentproperty/) - The corresponding [DocumentProperty](../../com.aspose.words/documentproperty/) value.
 ### getAuthor() {#getAuthor}
 ```
 public String getAuthor()
@@ -229,7 +230,7 @@ public int getCharacters()
 
 Represents an estimate of the number of characters in the document.
 
-Aspose.Words updates this property when you call [Document.updateWordCount()](../../com.aspose.words/document\#updateWordCount).
+Aspose.Words updates this property when you call [Document.updateWordCount()](../../com.aspose.words/document/\#updateWordCount).
 
 **Returns:**
 int - The corresponding  int  value.
@@ -241,7 +242,7 @@ public int getCharactersWithSpaces()
 
 Represents an estimate of the number of characters (including spaces) in the document.
 
-Aspose.Words updates this property when you call [Document.updateWordCount()](../../com.aspose.words/document\#updateWordCount).
+Aspose.Words updates this property when you call [Document.updateWordCount()](../../com.aspose.words/document/\#updateWordCount).
 
 **Returns:**
 int - The corresponding  int  value.
@@ -329,9 +330,9 @@ Specifies document headings and their names.
 
 Every heading pair occupies two elements in this array.
 
-The first element of the pair is a java.lang.String and specifies the heading name. The second element of the pair is an int and specifies the count of document parts for this heading in the [getTitlesOfParts()](../../com.aspose.words/builtindocumentproperties\#getTitlesOfParts) / [setTitlesOfParts(java.lang.String[])](../../com.aspose.words/builtindocumentproperties\#setTitlesOfParts-java.lang.String) property.
+The first element of the pair is a java.lang.String and specifies the heading name. The second element of the pair is an int and specifies the count of document parts for this heading in the [getTitlesOfParts()](../../com.aspose.words/builtindocumentproperties/\#getTitlesOfParts) / [setTitlesOfParts(java.lang.String[])](../../com.aspose.words/builtindocumentproperties/\#setTitlesOfParts-java.lang.String) property.
 
-The total sum of counts for all heading pairs in this property must be equal to the number of elements in the [getTitlesOfParts()](../../com.aspose.words/builtindocumentproperties\#getTitlesOfParts) / [setTitlesOfParts(java.lang.String[])](../../com.aspose.words/builtindocumentproperties\#setTitlesOfParts-java.lang.String) property.
+The total sum of counts for all heading pairs in this property must be equal to the number of elements in the [getTitlesOfParts()](../../com.aspose.words/builtindocumentproperties/\#getTitlesOfParts) / [setTitlesOfParts(java.lang.String[])](../../com.aspose.words/builtindocumentproperties/\#setTitlesOfParts-java.lang.String) property.
 
 Aspose.Words does not update this property.
 
@@ -409,7 +410,7 @@ public int getLines()
 
 Represents an estimate of the number of lines in the document.
 
-Aspose.Words updates this property when you call [Document.updateWordCount(boolean)](../../com.aspose.words/document\#updateWordCount-boolean).
+Aspose.Words updates this property when you call [Document.updateWordCount(boolean)](../../com.aspose.words/document/\#updateWordCount-boolean).
 
 **Returns:**
 int - The corresponding  int  value.
@@ -453,7 +454,7 @@ public int getPages()
 
 Represents an estimate of the number of pages in the document.
 
-Aspose.Words updates this property when you call [Document.updatePageLayout()](../../com.aspose.words/document\#updatePageLayout).
+Aspose.Words updates this property when you call [Document.updatePageLayout()](../../com.aspose.words/document/\#updatePageLayout).
 
 **Returns:**
 int - The corresponding  int  value.
@@ -465,7 +466,7 @@ public int getParagraphs()
 
 Represents an estimate of the number of paragraphs in the document.
 
-Aspose.Words updates this property when you call [Document.updateWordCount()](../../com.aspose.words/document\#updateWordCount).
+Aspose.Words updates this property when you call [Document.updateWordCount()](../../com.aspose.words/document/\#updateWordCount).
 
 **Returns:**
 int - The corresponding  int  value.
@@ -491,12 +492,12 @@ Specifies the security level of a document as a numeric value.
 
 Use this property for informational purposes only because Microsoft Word does not always set this property. This property is available in DOC and OOXML documents only.
 
-To protect or unprotect a document use the **M:Aspose.Words.Document.Protect(Aspose.Words.ProtectionType,System.String)** and [Document.unprotect()](../../com.aspose.words/document\#unprotect) methods.
+To protect or unprotect a document use the **M:Aspose.Words.Document.Protect(Aspose.Words.ProtectionType,System.String)** and [Document.unprotect()](../../com.aspose.words/document/\#unprotect) methods.
 
 Aspose.Words updates this property to a correct value before saving a document.
 
 **Returns:**
-int - The corresponding  int  value. The returned value is a bitwise combination of [DocumentSecurity](../../com.aspose.words/documentsecurity) constants.
+int - The corresponding  int  value. The returned value is a bitwise combination of [DocumentSecurity](../../com.aspose.words/documentsecurity/) constants.
 ### getSubject() {#getSubject}
 ```
 public String getSubject()
@@ -519,7 +520,7 @@ In Microsoft Word, this property is for informational purposes only and usually 
 
 Empty string means the document is attached to the Normal template.
 
-To get or set the actual name of the attached template, use the [Document.getAttachedTemplate()](../../com.aspose.words/document\#getAttachedTemplate) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document\#setAttachedTemplate-java.lang.String) property.
+To get or set the actual name of the attached template, use the [Document.getAttachedTemplate()](../../com.aspose.words/document/\#getAttachedTemplate) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document/\#setAttachedTemplate-java.lang.String) property.
 
 **Returns:**
 java.lang.String - The informational name of the document template.
@@ -591,7 +592,7 @@ public int getWords()
 
 Represents an estimate of the number of words in the document.
 
-Aspose.Words updates this property when you call [Document.updateWordCount()](../../com.aspose.words/document\#updateWordCount).
+Aspose.Words updates this property when you call [Document.updateWordCount()](../../com.aspose.words/document/\#updateWordCount).
 
 **Returns:**
 int - The corresponding  int  value.
@@ -727,7 +728,7 @@ public void setCharacters(int value)
 
 Represents an estimate of the number of characters in the document.
 
-Aspose.Words updates this property when you call [Document.updateWordCount()](../../com.aspose.words/document\#updateWordCount).
+Aspose.Words updates this property when you call [Document.updateWordCount()](../../com.aspose.words/document/\#updateWordCount).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -742,7 +743,7 @@ public void setCharactersWithSpaces(int value)
 
 Represents an estimate of the number of characters (including spaces) in the document.
 
-Aspose.Words updates this property when you call [Document.updateWordCount()](../../com.aspose.words/document\#updateWordCount).
+Aspose.Words updates this property when you call [Document.updateWordCount()](../../com.aspose.words/document/\#updateWordCount).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -828,9 +829,9 @@ Specifies document headings and their names.
 
 Every heading pair occupies two elements in this array.
 
-The first element of the pair is a java.lang.String and specifies the heading name. The second element of the pair is an int and specifies the count of document parts for this heading in the [getTitlesOfParts()](../../com.aspose.words/builtindocumentproperties\#getTitlesOfParts) / [setTitlesOfParts(java.lang.String[])](../../com.aspose.words/builtindocumentproperties\#setTitlesOfParts-java.lang.String) property.
+The first element of the pair is a java.lang.String and specifies the heading name. The second element of the pair is an int and specifies the count of document parts for this heading in the [getTitlesOfParts()](../../com.aspose.words/builtindocumentproperties/\#getTitlesOfParts) / [setTitlesOfParts(java.lang.String[])](../../com.aspose.words/builtindocumentproperties/\#setTitlesOfParts-java.lang.String) property.
 
-The total sum of counts for all heading pairs in this property must be equal to the number of elements in the [getTitlesOfParts()](../../com.aspose.words/builtindocumentproperties\#getTitlesOfParts) / [setTitlesOfParts(java.lang.String[])](../../com.aspose.words/builtindocumentproperties\#setTitlesOfParts-java.lang.String) property.
+The total sum of counts for all heading pairs in this property must be equal to the number of elements in the [getTitlesOfParts()](../../com.aspose.words/builtindocumentproperties/\#getTitlesOfParts) / [setTitlesOfParts(java.lang.String[])](../../com.aspose.words/builtindocumentproperties/\#setTitlesOfParts-java.lang.String) property.
 
 Aspose.Words does not update this property.
 
@@ -926,7 +927,7 @@ public void setLines(int value)
 
 Represents an estimate of the number of lines in the document.
 
-Aspose.Words updates this property when you call [Document.updateWordCount(boolean)](../../com.aspose.words/document\#updateWordCount-boolean).
+Aspose.Words updates this property when you call [Document.updateWordCount(boolean)](../../com.aspose.words/document/\#updateWordCount-boolean).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -982,7 +983,7 @@ public void setPages(int value)
 
 Represents an estimate of the number of pages in the document.
 
-Aspose.Words updates this property when you call [Document.updatePageLayout()](../../com.aspose.words/document\#updatePageLayout).
+Aspose.Words updates this property when you call [Document.updatePageLayout()](../../com.aspose.words/document/\#updatePageLayout).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -997,7 +998,7 @@ public void setParagraphs(int value)
 
 Represents an estimate of the number of paragraphs in the document.
 
-Aspose.Words updates this property when you call [Document.updateWordCount()](../../com.aspose.words/document\#updateWordCount).
+Aspose.Words updates this property when you call [Document.updateWordCount()](../../com.aspose.words/document/\#updateWordCount).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1029,14 +1030,14 @@ Specifies the security level of a document as a numeric value.
 
 Use this property for informational purposes only because Microsoft Word does not always set this property. This property is available in DOC and OOXML documents only.
 
-To protect or unprotect a document use the **M:Aspose.Words.Document.Protect(Aspose.Words.ProtectionType,System.String)** and [Document.unprotect()](../../com.aspose.words/document\#unprotect) methods.
+To protect or unprotect a document use the **M:Aspose.Words.Document.Protect(Aspose.Words.ProtectionType,System.String)** and [Document.unprotect()](../../com.aspose.words/document/\#unprotect) methods.
 
 Aspose.Words updates this property to a correct value before saving a document.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be a bitwise combination of [DocumentSecurity](../../com.aspose.words/documentsecurity) constants. |
+| value | int | The corresponding  int  value. The value must be a bitwise combination of [DocumentSecurity](../../com.aspose.words/documentsecurity/) constants. |
 
 ### setSubject(String value) {#setSubject-java.lang.String}
 ```
@@ -1063,7 +1064,7 @@ In Microsoft Word, this property is for informational purposes only and usually 
 
 Empty string means the document is attached to the Normal template.
 
-To get or set the actual name of the attached template, use the [Document.getAttachedTemplate()](../../com.aspose.words/document\#getAttachedTemplate) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document\#setAttachedTemplate-java.lang.String) property.
+To get or set the actual name of the attached template, use the [Document.getAttachedTemplate()](../../com.aspose.words/document/\#getAttachedTemplate) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document/\#setAttachedTemplate-java.lang.String) property.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1153,7 +1154,7 @@ public void setWords(int value)
 
 Represents an estimate of the number of words in the document.
 
-Aspose.Words updates this property when you call [Document.updateWordCount()](../../com.aspose.words/document\#updateWordCount).
+Aspose.Words updates this property when you call [Document.updateWordCount()](../../com.aspose.words/document/\#updateWordCount).
 
 **Parameters:**
 | Parameter | Type | Description |

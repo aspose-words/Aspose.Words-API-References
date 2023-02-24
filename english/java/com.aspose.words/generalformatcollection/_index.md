@@ -1,7 +1,8 @@
 ---
 title: GeneralFormatCollection
+linktitle: GeneralFormatCollection
 second_title: Aspose.Words for Java API Reference
-description: Represents a typed collection of general formats.
+description: Represents a typed collection of general formats in Java.
 type: docs
 weight: 307
 url: /java/com.aspose.words/generalformatcollection/
@@ -83,7 +84,7 @@ Gets a general format at the specified index.
 | index | int | The index of a general format. |
 
 **Returns:**
-int - A general format. The returned value is one of [GeneralFormat](../../com.aspose.words/generalformat) constants.
+int - A general format. The returned value is one of [GeneralFormat](../../com.aspose.words/generalformat/) constants.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()

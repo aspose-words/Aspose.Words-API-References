@@ -1,9 +1,10 @@
 ---
 title: TextBoxAnchor
+linktitle: TextBoxAnchor
 second_title: Aspose.Words for Java API Reference
-description: Specifies values used for shape text vertical alignment.
+description: Specifies values used for shape text vertical alignment in Java.
 type: docs
-weight: 563
+weight: 565
 url: /java/com.aspose.words/textboxanchor/
 ---
 

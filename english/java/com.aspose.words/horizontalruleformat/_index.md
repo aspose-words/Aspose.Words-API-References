@@ -1,7 +1,8 @@
 ---
 title: HorizontalRuleFormat
+linktitle: HorizontalRuleFormat
 second_title: Aspose.Words for Java API Reference
-description: Represents horizontal rule formatting.
+description: Represents horizontal rule formatting in Java.
 type: docs
 weight: 324
 url: /java/com.aspose.words/horizontalruleformat/
@@ -65,10 +66,10 @@ public int getAlignment()
 
 Gets the alignment of the horizontal rule.
 
-The default value is [HorizontalRuleAlignment.LEFT](../../com.aspose.words/horizontalrulealignment\#LEFT).
+The default value is [HorizontalRuleAlignment.LEFT](../../com.aspose.words/horizontalrulealignment/\#LEFT).
 
 **Returns:**
-int - The alignment of the horizontal rule. The returned value is one of [HorizontalRuleAlignment](../../com.aspose.words/horizontalrulealignment) constants.
+int - The alignment of the horizontal rule. The returned value is one of [HorizontalRuleAlignment](../../com.aspose.words/horizontalrulealignment/) constants.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -87,7 +88,7 @@ public Color getColor()
 
 Gets the brush color that fills the horizontal rule.
 
-This is a shortcut to the [Fill.getColor()](../../com.aspose.words/fill\#getColor) / [Fill.setColor(java.awt.Color)](../../com.aspose.words/fill\#setColor-java.awt.Color) property.
+This is a shortcut to the [Fill.getColor()](../../com.aspose.words/fill/\#getColor) / [Fill.setColor(java.awt.Color)](../../com.aspose.words/fill/\#setColor-java.awt.Color) property.
 
 The default value is .
 
@@ -101,7 +102,7 @@ public double getHeight()
 
 Gets the height of the horizontal rule.
 
-This is a shortcut to the [ShapeBase.getHeight()](../../com.aspose.words/shapebase\#getHeight) / [ShapeBase.setHeight(double)](../../com.aspose.words/shapebase\#setHeight-double) property.
+This is a shortcut to the [ShapeBase.getHeight()](../../com.aspose.words/shapebase/\#getHeight) / [ShapeBase.setHeight(double)](../../com.aspose.words/shapebase/\#setHeight-double) property.
 
 Valid values \\u200b\\u200brange from 0 to 1584 inclusive.
 
@@ -169,12 +170,12 @@ public void setAlignment(int value)
 
 Sets the alignment of the horizontal rule.
 
-The default value is [HorizontalRuleAlignment.LEFT](../../com.aspose.words/horizontalrulealignment\#LEFT).
+The default value is [HorizontalRuleAlignment.LEFT](../../com.aspose.words/horizontalrulealignment/\#LEFT).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The alignment of the horizontal rule. The value must be one of [HorizontalRuleAlignment](../../com.aspose.words/horizontalrulealignment) constants. |
+| value | int | The alignment of the horizontal rule. The value must be one of [HorizontalRuleAlignment](../../com.aspose.words/horizontalrulealignment/) constants. |
 
 ### setColor(Color value) {#setColor-java.awt.Color}
 ```
@@ -184,7 +185,7 @@ public void setColor(Color value)
 
 Sets the brush color that fills the horizontal rule.
 
-This is a shortcut to the [Fill.getColor()](../../com.aspose.words/fill\#getColor) / [Fill.setColor(java.awt.Color)](../../com.aspose.words/fill\#setColor-java.awt.Color) property.
+This is a shortcut to the [Fill.getColor()](../../com.aspose.words/fill/\#getColor) / [Fill.setColor(java.awt.Color)](../../com.aspose.words/fill/\#setColor-java.awt.Color) property.
 
 The default value is .
 
@@ -201,7 +202,7 @@ public void setHeight(double value)
 
 Sets the height of the horizontal rule.
 
-This is a shortcut to the [ShapeBase.getHeight()](../../com.aspose.words/shapebase\#getHeight) / [ShapeBase.setHeight(double)](../../com.aspose.words/shapebase\#setHeight-double) property.
+This is a shortcut to the [ShapeBase.getHeight()](../../com.aspose.words/shapebase/\#getHeight) / [ShapeBase.setHeight(double)](../../com.aspose.words/shapebase/\#setHeight-double) property.
 
 Valid values \\u200b\\u200brange from 0 to 1584 inclusive.
 

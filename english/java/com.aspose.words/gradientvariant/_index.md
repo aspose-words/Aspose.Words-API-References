@@ -1,7 +1,8 @@
 ---
 title: GradientVariant
+linktitle: GradientVariant
 second_title: Aspose.Words for Java API Reference
-description: Specifies the variant for a gradient fill.
+description: Specifies the variant for a gradient fill in Java.
 type: docs
 weight: 313
 url: /java/com.aspose.words/gradientvariant/
@@ -71,7 +72,7 @@ public static int VARIANT_3
 ```
 
 
-Gradient variant 3. This variant is not applicable to gradient fill with the style [GradientStyle.FROM\_CENTER](../../com.aspose.words/gradientstyle\#FROM-CENTER), if object has markup language [ShapeMarkupLanguage.VML](../../com.aspose.words/shapemarkuplanguage\#VML).
+Gradient variant 3. This variant is not applicable to gradient fill with the style [GradientStyle.FROM\_CENTER](../../com.aspose.words/gradientstyle/\#FROM-CENTER), if object has markup language [ShapeMarkupLanguage.VML](../../com.aspose.words/shapemarkuplanguage/\#VML).
 
 ### VARIANT_4 {#VARIANT-4}
 ```
@@ -79,7 +80,7 @@ public static int VARIANT_4
 ```
 
 
-Gradient variant 4. This variant is not applicable to gradient fill with the style [GradientStyle.FROM\_CENTER](../../com.aspose.words/gradientstyle\#FROM-CENTER), if object has markup language [ShapeMarkupLanguage.VML](../../com.aspose.words/shapemarkuplanguage\#VML).
+Gradient variant 4. This variant is not applicable to gradient fill with the style [GradientStyle.FROM\_CENTER](../../com.aspose.words/gradientstyle/\#FROM-CENTER), if object has markup language [ShapeMarkupLanguage.VML](../../com.aspose.words/shapemarkuplanguage/\#VML).
 
 ### length {#length}
 ```

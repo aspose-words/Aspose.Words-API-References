@@ -1,7 +1,8 @@
 ---
 title: FlipOrientation
+linktitle: FlipOrientation
 second_title: Aspose.Words for Java API Reference
-description: Possible values for the orientation of a shape.
+description: Possible values for the orientation of a shape in Java.
 type: docs
 weight: 275
 url: /java/com.aspose.words/fliporientation/

@@ -1,7 +1,8 @@
 ---
 title: FieldCollection
+linktitle: FieldCollection
 second_title: Aspose.Words for Java API Reference
-description: A collection of  objects that represents the fields in the specified range.
+description: A collection of  objects that represents the fields in the specified range in Java.
 type: docs
 weight: 170
 url: /java/com.aspose.words/fieldcollection/
@@ -16,15 +17,15 @@ java.lang.Iterable
 public class FieldCollection implements Iterable
 ```
 
-A collection of [Field](../../com.aspose.words/field) objects that represents the fields in the specified range.
+A collection of [Field](../../com.aspose.words/field/) objects that represents the fields in the specified range.
 
 To learn more, visit the [ Working with Fields ][Working with Fields] documentation article.
 
 An instance of this collection iterates fields which start fall within the specified range.
 
-The [FieldCollection](../../com.aspose.words/fieldcollection) collection does not own the fields it contains, rather, is just a selection of fields.
+The [FieldCollection](../../com.aspose.words/fieldcollection/) collection does not own the fields it contains, rather, is just a selection of fields.
 
-The [FieldCollection](../../com.aspose.words/fieldcollection) collection is "live", i.e. changes to the children of the node object that it was created from are immediately reflected in the fields returned by the [FieldCollection](../../com.aspose.words/fieldcollection) properties and methods.
+The [FieldCollection](../../com.aspose.words/fieldcollection/) collection is "live", i.e. changes to the children of the node object that it was created from are immediately reflected in the fields returned by the [FieldCollection](../../com.aspose.words/fieldcollection/) properties and methods.
 
 
 [Working with Fields]: https://docs.aspose.com/words/java/working-with-fields/
@@ -92,7 +93,7 @@ If index is negative and its absolute value is greater than the number of items 
 | index | int | An index into the collection. |
 
 **Returns:**
-[Field](../../com.aspose.words/field) - A field at the specified index.
+[Field](../../com.aspose.words/field/) - A field at the specified index.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -160,7 +161,7 @@ Removes the specified field from this collection and from the document.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| field | [Field](../../com.aspose.words/field) | A field to remove. |
+| field | [Field](../../com.aspose.words/field/) | A field to remove. |
 
 ### removeAt(int index) {#removeAt-int}
 ```

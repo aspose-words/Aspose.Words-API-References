@@ -1,7 +1,8 @@
 ---
 title: DataRowCollection
+linktitle: DataRowCollection
 second_title: Aspose.Words for Java API Reference
-description: Represents a collection of rows for a .
+description: Represents a collection of rows for a in Java.
 type: docs
 weight: 21
 url: /java/com.aspose.words.net.system.data/datarowcollection/
@@ -16,13 +17,13 @@ java.lang.Iterable
 public class DataRowCollection implements Iterable
 ```
 
-Represents a collection of rows for a [DataTable](../../com.aspose.words.net.system.data/datatable).
+Represents a collection of rows for a [DataTable](../../com.aspose.words.net.system.data/datatable/).
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [add(System.Data.DataRow row)](#add-com.aspose.words.net.System.Data.DataRow) | Adds the specified [DataRow](../../com.aspose.words.net.system.data/datarow) to the [DataRowCollection](../../com.aspose.words.net.system.data/datarowcollection) object. |
-| [add(Object[] values)](#add-java.lang.Object...) | Creates a row using specified values and adds it to the [DataRowCollection](../../com.aspose.words.net.system.data/datarowcollection). |
+| [add(System.Data.DataRow row)](#add-com.aspose.words.net.System.Data.DataRow) | Adds the specified [DataRow](../../com.aspose.words.net.system.data/datarow/) to the [DataRowCollection](../../com.aspose.words.net.system.data/datarowcollection/) object. |
+| [add(Object[] values)](#add-java.lang.Object...) | Creates a row using specified values and adds it to the [DataRowCollection](../../com.aspose.words.net.system.data/datarowcollection/). |
 | [clear()](#clear) | Clears the collection of all rows. |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [find(Object[] keys)](#find-java.lang.Object) | Gets the row that contains the specified primary key values. |
@@ -30,7 +31,7 @@ Represents a collection of rows for a [DataTable](../../com.aspose.words.net.sys
 | [get(int index)](#get-int) | Gets the row at the specified index. |
 | [get(Object[] values)](#get-java.lang.Object) | Gets the row that contains the specified values. |
 | [getClass()](#getClass) |  |
-| [getCount()](#getCount) | Gets the total number of [DataRow](../../com.aspose.words.net.system.data/datarow) objects in this collection. |
+| [getCount()](#getCount) | Gets the total number of [DataRow](../../com.aspose.words.net.system.data/datarow/) objects in this collection. |
 | [hashCode()](#hashCode) |  |
 | [insertAt(System.Data.DataRow row, int pos)](#insertAt-com.aspose.words.net.System.Data.DataRow-int) | Inserts a new row into the collection at the specified location. |
 | [iterator()](#iterator) | Gets an java.util.Iterator for this collection. |
@@ -47,12 +48,12 @@ public void add(System.Data.DataRow row)
 ```
 
 
-Adds the specified [DataRow](../../com.aspose.words.net.system.data/datarow) to the [DataRowCollection](../../com.aspose.words.net.system.data/datarowcollection) object.
+Adds the specified [DataRow](../../com.aspose.words.net.system.data/datarow/) to the [DataRowCollection](../../com.aspose.words.net.system.data/datarowcollection/) object.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| row | [DataRow](../../com.aspose.words.net.system.data/datarow) | The [DataRow](../../com.aspose.words.net.system.data/datarow) to add. |
+| row | [DataRow](../../com.aspose.words.net.system.data/datarow/) | The [DataRow](../../com.aspose.words.net.system.data/datarow/) to add. |
 
 ### add(Object[] values) {#add-java.lang.Object...}
 ```
@@ -60,7 +61,7 @@ public void add(Object[] values)
 ```
 
 
-Creates a row using specified values and adds it to the [DataRowCollection](../../com.aspose.words.net.system.data/datarowcollection).
+Creates a row using specified values and adds it to the [DataRowCollection](../../com.aspose.words.net.system.data/datarowcollection/).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -104,7 +105,7 @@ Gets the row that contains the specified primary key values.
 | keys | java.lang.Object[] | An array of primary key values to find. The type of the array is Object. |
 
 **Returns:**
-[DataRow](../../com.aspose.words.net.system.data/datarow) - A [DataRow](../../com.aspose.words.net.system.data/datarow) object that contains the primary key values specified; otherwise a null value if the primary key value does not exist in the [DataRowCollection](../../com.aspose.words.net.system.data/datarowcollection).
+[DataRow](../../com.aspose.words.net.system.data/datarow/) - A [DataRow](../../com.aspose.words.net.system.data/datarow/) object that contains the primary key values specified; otherwise a null value if the primary key value does not exist in the [DataRowCollection](../../com.aspose.words.net.system.data/datarowcollection/).
 ### find(String primaryKeyValue) {#find-java.lang.String}
 ```
 public System.Data.DataRow find(String primaryKeyValue)
@@ -119,7 +120,7 @@ Gets the row specified by the primary key value.
 | primaryKeyValue | java.lang.String | The primary key value of the DataRow to find. |
 
 **Returns:**
-[DataRow](../../com.aspose.words.net.system.data/datarow) - A DataRow that contains the primary key value specified; otherwise a null value if the primary key value does not exist in the DataRowCollection.
+[DataRow](../../com.aspose.words.net.system.data/datarow/) - A DataRow that contains the primary key value specified; otherwise a null value if the primary key value does not exist in the DataRowCollection.
 ### get(int index) {#get-int}
 ```
 public System.Data.DataRow get(int index)
@@ -134,7 +135,7 @@ Gets the row at the specified index.
 | index | int | The zero-based index of the row to return. |
 
 **Returns:**
-[DataRow](../../com.aspose.words.net.system.data/datarow) - The specified [DataRow](../../com.aspose.words.net.system.data/datarow).
+[DataRow](../../com.aspose.words.net.system.data/datarow/) - The specified [DataRow](../../com.aspose.words.net.system.data/datarow/).
 ### get(Object[] values) {#get-java.lang.Object}
 ```
 public System.Data.DataRow get(Object[] values)
@@ -149,7 +150,7 @@ Gets the row that contains the specified values. If there is primary key's colum
 | values | java.lang.Object[] | row's data |
 
 **Returns:**
-[DataRow](../../com.aspose.words.net.system.data/datarow) - found row or `null`
+[DataRow](../../com.aspose.words.net.system.data/datarow/) - found row or `null`
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -166,10 +167,10 @@ public int getCount()
 ```
 
 
-Gets the total number of [DataRow](../../com.aspose.words.net.system.data/datarow) objects in this collection.
+Gets the total number of [DataRow](../../com.aspose.words.net.system.data/datarow/) objects in this collection.
 
 **Returns:**
-int - The total number of [DataRow](../../com.aspose.words.net.system.data/datarow) objects in this collection.
+int - The total number of [DataRow](../../com.aspose.words.net.system.data/datarow/) objects in this collection.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()
@@ -191,7 +192,7 @@ Inserts a new row into the collection at the specified location.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| row | [DataRow](../../com.aspose.words.net.system.data/datarow) | The [DataRow](../../com.aspose.words.net.system.data/datarow) to add. |
+| row | [DataRow](../../com.aspose.words.net.system.data/datarow/) | The [DataRow](../../com.aspose.words.net.system.data/datarow/) to add. |
 | pos | int | The (zero-based) location in the collection where you want to add the DataRow. |
 
 ### iterator() {#iterator}

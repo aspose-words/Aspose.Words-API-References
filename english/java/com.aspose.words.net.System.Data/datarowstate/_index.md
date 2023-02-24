@@ -1,7 +1,8 @@
 ---
 title: DataRowState
+linktitle: DataRowState
 second_title: Aspose.Words for Java API Reference
-description: Represents a state of rows.
+description: Represents a state of rows in Java.
 type: docs
 weight: 22
 url: /java/com.aspose.words.net.system.data/datarowstate/

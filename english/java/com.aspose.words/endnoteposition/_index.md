@@ -1,7 +1,8 @@
 ---
 title: EndnotePosition
+linktitle: EndnotePosition
 second_title: Aspose.Words for Java API Reference
-description: Defines the endnote position.
+description: Defines the endnote position in Java.
 type: docs
 weight: 148
 url: /java/com.aspose.words/endnoteposition/

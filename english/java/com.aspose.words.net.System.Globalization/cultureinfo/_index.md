@@ -1,7 +1,8 @@
 ---
 title: CultureInfo
+linktitle: CultureInfo
 second_title: Aspose.Words for Java API Reference
-description: Map for .Nets System.Globalization.CultureInfo.
+description: Map for .Nets System.Globalization.CultureInfo in Java.
 type: docs
 weight: 10
 url: /java/com.aspose.words.net.system.globalization/cultureinfo/
@@ -110,7 +111,7 @@ public System.Globalization.DateTimeFormatInfo getDateTimeFormat()
 Gets .Net-style DateTimeFormatInfo
 
 **Returns:**
-[DateTimeFormatInfo](../../com.aspose.words.net.system.globalization/datetimeformatinfo)
+[DateTimeFormatInfo](../../com.aspose.words.net.system.globalization/datetimeformatinfo/)
 ### getLocale(System.Globalization.CultureInfo cultureInfo) {#getLocale-com.aspose.words.net.System.Globalization.CultureInfo}
 ```
 public Locale getLocale(System.Globalization.CultureInfo cultureInfo)
@@ -122,7 +123,7 @@ Gets java Locale from .Net-style CultureInfo
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| cultureInfo | [CultureInfo](../../com.aspose.words.net.system.globalization/cultureinfo) |  |
+| cultureInfo | [CultureInfo](../../com.aspose.words.net.system.globalization/cultureinfo/) |  |
 
 **Returns:**
 java.util.Locale

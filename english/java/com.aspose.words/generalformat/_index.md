@@ -1,7 +1,8 @@
 ---
 title: GeneralFormat
+linktitle: GeneralFormat
 second_title: Aspose.Words for Java API Reference
-description: Specifies a general format that is applied to a numeric text or any field result.
+description: Specifies a general format that is applied to a numeric text or any field result in Java.
 type: docs
 weight: 306
 url: /java/com.aspose.words/generalformat/

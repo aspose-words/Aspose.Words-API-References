@@ -1,14 +1,15 @@
 ---
 title: SmartTag
+linktitle: SmartTag
 second_title: Aspose.Words for Java API Reference
-description: This element specifies the presence of a smart tag around one or more inline structures runs images fieldsetc. within a paragraph.
+description: This element specifies the presence of a smart tag around one or more inline structures runs images fieldsetc. within a paragraph in Java.
 type: docs
-weight: 530
+weight: 532
 url: /java/com.aspose.words/smarttag/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.words.Node](../../com.aspose.words/node), [com.aspose.words.CompositeNode](../../com.aspose.words/compositenode)
+java.lang.Object, [com.aspose.words.Node](../../com.aspose.words/node/), [com.aspose.words.CompositeNode](../../com.aspose.words/compositenode/)
 ```
 public class SmartTag extends CompositeNode
 ```
@@ -19,17 +20,17 @@ To learn more, visit the [ Structured Document Tags or Content Control ][Structu
 
 Smart tags is a kind of custom XML markup. Smart tags provide a facility for embedding customer-defined semantics into the document via the ability to provide a basic namespace/name for a run or set of runs within a document.
 
-[SmartTag](../../com.aspose.words/smarttag) can be a child of a [Paragraph](../../com.aspose.words/paragraph) or another [SmartTag](../../com.aspose.words/smarttag) node.
+[SmartTag](../../com.aspose.words/smarttag/) can be a child of a [Paragraph](../../com.aspose.words/paragraph/) or another [SmartTag](../../com.aspose.words/smarttag/) node.
 
-The complete list of child nodes that can occur inside a smart tag consists of [BookmarkStart](../../com.aspose.words/bookmarkstart), [BookmarkEnd](../../com.aspose.words/bookmarkend), [FieldStart](../../com.aspose.words/fieldstart), [FieldSeparator](../../com.aspose.words/fieldseparator), [FieldEnd](../../com.aspose.words/fieldend), [FormField](../../com.aspose.words/formfield), [Comment](../../com.aspose.words/comment), [Footnote](../../com.aspose.words/footnote), [Run](../../com.aspose.words/run), [SpecialChar](../../com.aspose.words/specialchar), [Shape](../../com.aspose.words/shape), [GroupShape](../../com.aspose.words/groupshape), [CommentRangeStart](../../com.aspose.words/commentrangestart), [CommentRangeEnd](../../com.aspose.words/commentrangeend), [SmartTag](../../com.aspose.words/smarttag).
+The complete list of child nodes that can occur inside a smart tag consists of [BookmarkStart](../../com.aspose.words/bookmarkstart/), [BookmarkEnd](../../com.aspose.words/bookmarkend/), [FieldStart](../../com.aspose.words/fieldstart/), [FieldSeparator](../../com.aspose.words/fieldseparator/), [FieldEnd](../../com.aspose.words/fieldend/), [FormField](../../com.aspose.words/formfield/), [Comment](../../com.aspose.words/comment/), [Footnote](../../com.aspose.words/footnote/), [Run](../../com.aspose.words/run/), [SpecialChar](../../com.aspose.words/specialchar/), [Shape](../../com.aspose.words/shape/), [GroupShape](../../com.aspose.words/groupshape/), [CommentRangeStart](../../com.aspose.words/commentrangestart/), [CommentRangeEnd](../../com.aspose.words/commentrangeend/), [SmartTag](../../com.aspose.words/smarttag/).
 
 
-[Structured Document Tags or Content Control]: https://docs.aspose.com/words/java/structured-document-tags-or-content-control/
+[Structured Document Tags or Content Control]: https://docs.aspose.com/words/java/working-with-content-control-sdt/
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [SmartTag(DocumentBase doc)](#SmartTag-com.aspose.words.DocumentBase) | Initializes a new instance of the [SmartTag](../../com.aspose.words/smarttag) class. |
+| [SmartTag(DocumentBase doc)](#SmartTag-com.aspose.words.DocumentBase) | Initializes a new instance of the [SmartTag](../../com.aspose.words/smarttag/) class. |
 ## Methods
 
 | Method | Description |
@@ -56,11 +57,11 @@ The complete list of child nodes that can occur inside a smart tag consists of [
 | [getLevel_IMarkupNode()](#getLevel-IMarkupNode) |  |
 | [getNextMatchingNode(Node curNode)](#getNextMatchingNode-com.aspose.words.Node) |  |
 | [getNextSibling()](#getNextSibling) | Gets the node immediately following this node. |
-| [getNodeType()](#getNodeType) | Returns [NodeType.SMART\_TAG](../../com.aspose.words/nodetype\#SMART-TAG). |
+| [getNodeType()](#getNodeType) | Returns [NodeType.SMART\_TAG](../../com.aspose.words/nodetype/\#SMART-TAG). |
 | [getParentNode()](#getParentNode) | Gets the immediate parent of this node. |
 | [getPreviousSibling()](#getPreviousSibling) | Gets the node immediately preceding this node. |
 | [getProperties()](#getProperties) | A collection of the smart tag properties. |
-| [getRange()](#getRange) | Returns a [Range](../../com.aspose.words/range) object that represents the portion of a document that is contained in this node. |
+| [getRange()](#getRange) | Returns a [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node. |
 | [getText()](#getText) | Gets the text of this node and of all its children. |
 | [getUri()](#getUri) | Specifies the namespace URI of the smart tag. |
 | [hasChildNodes()](#hasChildNodes) | Returns  true  if this node has any child nodes. |
@@ -79,9 +80,9 @@ The complete list of child nodes that can occur inside a smart tag consists of [
 | [remove()](#remove) | Removes itself from the parent. |
 | [removeAllChildren()](#removeAllChildren) | Removes all the child nodes of the current node. |
 | [removeChild(Node oldChild)](#removeChild-com.aspose.words.Node) | Removes the specified child node. |
-| [removeSmartTags()](#removeSmartTags) | Removes all [SmartTag](../../com.aspose.words/smarttag) descendant nodes of the current node. |
+| [removeSmartTags()](#removeSmartTags) | Removes all [SmartTag](../../com.aspose.words/smarttag/) descendant nodes of the current node. |
 | [selectNodes(String xpath)](#selectNodes-java.lang.String) | Selects a list of nodes matching the XPath expression. |
-| [selectSingleNode(String xpath)](#selectSingleNode-java.lang.String) | Selects the first [Node](../../com.aspose.words/node) that matches the XPath expression. |
+| [selectSingleNode(String xpath)](#selectSingleNode-java.lang.String) | Selects the first [Node](../../com.aspose.words/node/) that matches the XPath expression. |
 | [setCustomNodeId(int value)](#setCustomNodeId-int) | Specifies custom node identifier. |
 | [setElement(String value)](#setElement-java.lang.String) | Specifies the name of the smart tag within the document. |
 | [setUri(String value)](#setUri-java.lang.String) | Specifies the namespace URI of the smart tag. |
@@ -97,16 +98,16 @@ public SmartTag(DocumentBase doc)
 ```
 
 
-Initializes a new instance of the [SmartTag](../../com.aspose.words/smarttag) class.
+Initializes a new instance of the [SmartTag](../../com.aspose.words/smarttag/) class.
 
 When you create a new node, you need to specify a document to which the node belongs. A node cannot exist without a document because it depends on the document-wide structures such as lists and styles. Although a node always belongs to a document, a node might or might not be a part of the document tree.
 
-When a node is created, it belongs to a document, but is not yet part of the document tree and [Node.getParentNode()](../../com.aspose.words/node\#getParentNode) is  null . To insert a node into the document, use the [CompositeNode.insertAfter(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode\#insertAfter-com.aspose.words.Node--com.aspose.words.Node) or [CompositeNode.insertBefore(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode\#insertBefore-com.aspose.words.Node--com.aspose.words.Node) methods on the parent node.
+When a node is created, it belongs to a document, but is not yet part of the document tree and [Node.getParentNode()](../../com.aspose.words/node/\#getParentNode) is  null . To insert a node into the document, use the [CompositeNode.insertAfter(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode/\#insertAfter-com.aspose.words.Node--com.aspose.words.Node) or [CompositeNode.insertBefore(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode/\#insertBefore-com.aspose.words.Node--com.aspose.words.Node) methods on the parent node.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | [DocumentBase](../../com.aspose.words/documentbase) | The owner document. |
+| doc | [DocumentBase](../../com.aspose.words/documentbase/) | The owner document. |
 
 ### accept(DocumentVisitor visitor) {#accept-com.aspose.words.DocumentVisitor}
 ```
@@ -116,17 +117,17 @@ public boolean accept(DocumentVisitor visitor)
 
 Accepts a visitor.
 
-Enumerates over this node and all of its children. Each node calls a corresponding method on [DocumentVisitor](../../com.aspose.words/documentvisitor).
+Enumerates over this node and all of its children. Each node calls a corresponding method on [DocumentVisitor](../../com.aspose.words/documentvisitor/).
 
 For more info see the Visitor design pattern.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor) | The visitor that will visit the nodes. |
+| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor/) | The visitor that will visit the nodes. |
 
 **Returns:**
-boolean - True if all nodes were visited; false if [DocumentVisitor](../../com.aspose.words/documentvisitor) stopped the operation before visiting all nodes. Calls [DocumentVisitor.visitSmartTagStart(com.aspose.words.SmartTag)](../../com.aspose.words/documentvisitor\#visitSmartTagStart-com.aspose.words.SmartTag), then calls [Node.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/node\#accept-com.aspose.words.DocumentVisitor) for all child nodes of the smart tag and calls [DocumentVisitor.visitSmartTagEnd(com.aspose.words.SmartTag)](../../com.aspose.words/documentvisitor\#visitSmartTagEnd-com.aspose.words.SmartTag) at the end.
+boolean - True if all nodes were visited; false if [DocumentVisitor](../../com.aspose.words/documentvisitor/) stopped the operation before visiting all nodes. Calls [DocumentVisitor.visitSmartTagStart(com.aspose.words.SmartTag)](../../com.aspose.words/documentvisitor/\#visitSmartTagStart-com.aspose.words.SmartTag), then calls [Node.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/node/\#accept-com.aspose.words.DocumentVisitor) for all child nodes of the smart tag and calls [DocumentVisitor.visitSmartTagEnd(com.aspose.words.SmartTag)](../../com.aspose.words/documentvisitor/\#visitSmartTagEnd-com.aspose.words.SmartTag) at the end.
 ### appendChild(Node newChild) {#appendChild-com.aspose.words.Node}
 ```
 public Node appendChild(Node newChild)
@@ -142,10 +143,10 @@ If the node being inserted was created from another document, you should use **M
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | The node to add. |
+| newChild | [Node](../../com.aspose.words/node/) | The node to add. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The node added.
+[Node](../../com.aspose.words/node/) - The node added.
 ### dd() {#dd}
 ```
 public void dd()
@@ -172,7 +173,7 @@ This method always performs a deep copy of the node. The  isCloneChildren  param
 | isCloneChildren | boolean | True to recursively clone the subtree under the specified node; false to clone only the node itself. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The cloned node.
+[Node](../../com.aspose.words/node/) - The cloned node.
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
@@ -202,7 +203,7 @@ public CompositeNode getAncestor(int ancestorType)
 | ancestorType | int |  |
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode)
+[CompositeNode](../../com.aspose.words/compositenode/)
 ### getAncestor(Class ancestorType) {#getAncestor-java.lang.Class}
 ```
 public CompositeNode getAncestor(Class ancestorType)
@@ -217,7 +218,7 @@ Gets the first ancestor of the specified object type.
 | ancestorType | java.lang.Class | The object type of the ancestor to retrieve. |
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode) - The ancestor of the specified type or  null  if no ancestor of this type was found.
+[CompositeNode](../../com.aspose.words/compositenode/) - The ancestor of the specified type or  null  if no ancestor of this type was found.
 
 The ancestor type matches if it is equal to  ancestorType  or derived from  ancestorType .
 ### getChild(int nodeType, int index, boolean isDeep) {#getChild-int-int-boolean}
@@ -236,7 +237,7 @@ public Node getChild(int nodeType, int index, boolean isDeep)
 | isDeep | boolean |  |
 
 **Returns:**
-[Node](../../com.aspose.words/node)
+[Node](../../com.aspose.words/node/)
 ### getChildNodes() {#getChildNodes}
 ```
 public NodeCollection getChildNodes()
@@ -245,12 +246,12 @@ public NodeCollection getChildNodes()
 
 Gets all immediate child nodes of this node.
 
-Note, [getChildNodes()](../../com.aspose.words/compositenode\#getChildNodes) is equivalent to calling **M:Aspose.Words.CompositeNode.GetChildNodes(Aspose.Words.NodeType,System.Boolean)** with arguments ( [NodeType.ANY](../../com.aspose.words/nodetype\#ANY),  false ) and creates and returns a new collection every time it is accessed.
+Note, [getChildNodes()](../../com.aspose.words/compositenode/\#getChildNodes) is equivalent to calling **M:Aspose.Words.CompositeNode.GetChildNodes(Aspose.Words.NodeType,System.Boolean)** with arguments ( [NodeType.ANY](../../com.aspose.words/nodetype/\#ANY),  false ) and creates and returns a new collection every time it is accessed.
 
 If there are no child nodes, this property returns an empty collection.
 
 **Returns:**
-[NodeCollection](../../com.aspose.words/nodecollection) - All immediate child nodes of this node.
+[NodeCollection](../../com.aspose.words/nodecollection/) - All immediate child nodes of this node.
 ### getChildNodes(int nodeType, boolean isDeep) {#getChildNodes-int-boolean}
 ```
 public NodeCollection getChildNodes(int nodeType, boolean isDeep)
@@ -266,7 +267,7 @@ public NodeCollection getChildNodes(int nodeType, boolean isDeep)
 | isDeep | boolean |  |
 
 **Returns:**
-[NodeCollection](../../com.aspose.words/nodecollection)
+[NodeCollection](../../com.aspose.words/nodecollection/)
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -286,7 +287,7 @@ public CompositeNode getContainer()
 
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode)
+[CompositeNode](../../com.aspose.words/compositenode/)
 ### getCount() {#getCount}
 ```
 public int getCount()
@@ -306,7 +307,7 @@ public Node getCurrentNode()
 
 
 **Returns:**
-[Node](../../com.aspose.words/node)
+[Node](../../com.aspose.words/node/)
 ### getCustomNodeId() {#getCustomNodeId}
 ```
 public int getCustomNodeId()
@@ -334,7 +335,7 @@ Gets the document to which this node belongs.
 The node always belongs to a document even if it has just been created and not yet added to the tree, or if it has been removed from the tree.
 
 **Returns:**
-[DocumentBase](../../com.aspose.words/documentbase) - The document to which this node belongs.
+[DocumentBase](../../com.aspose.words/documentbase/) - The document to which this node belongs.
 ### getElement() {#getElement}
 ```
 public String getElement()
@@ -358,7 +359,7 @@ public Node getFirstChild()
 Gets the first child of the node. If there is no first child node, a  null  is returned.
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The first child of the node.
+[Node](../../com.aspose.words/node/) - The first child of the node.
 ### getLastChild() {#getLastChild}
 ```
 public Node getLastChild()
@@ -368,7 +369,7 @@ public Node getLastChild()
 Gets the last child of the node. If there is no last child node, a  null  is returned.
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The last child of the node.
+[Node](../../com.aspose.words/node/) - The last child of the node.
 ### getLevel_IMarkupNode() {#getLevel-IMarkupNode}
 ```
 public int getLevel_IMarkupNode()
@@ -390,10 +391,10 @@ public Node getNextMatchingNode(Node curNode)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| curNode | [Node](../../com.aspose.words/node) |  |
+| curNode | [Node](../../com.aspose.words/node/) |  |
 
 **Returns:**
-[Node](../../com.aspose.words/node)
+[Node](../../com.aspose.words/node/)
 ### getNextSibling() {#getNextSibling}
 ```
 public Node getNextSibling()
@@ -403,17 +404,17 @@ public Node getNextSibling()
 Gets the node immediately following this node. If there is no next node, a  null  is returned.
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The node immediately following this node.
+[Node](../../com.aspose.words/node/) - The node immediately following this node.
 ### getNodeType() {#getNodeType}
 ```
 public int getNodeType()
 ```
 
 
-Returns [NodeType.SMART\_TAG](../../com.aspose.words/nodetype\#SMART-TAG).
+Returns [NodeType.SMART\_TAG](../../com.aspose.words/nodetype/\#SMART-TAG).
 
 **Returns:**
-int - \{[NodeType.SMART\_TAG](../../com.aspose.words/nodetype\#SMART-TAG). The returned value is one of [NodeType](../../com.aspose.words/nodetype) constants.
+int - \{[NodeType.SMART\_TAG](../../com.aspose.words/nodetype/\#SMART-TAG). The returned value is one of [NodeType](../../com.aspose.words/nodetype/) constants.
 ### getParentNode() {#getParentNode}
 ```
 public CompositeNode getParentNode()
@@ -425,7 +426,7 @@ Gets the immediate parent of this node.
 If a node has just been created and not yet added to the tree, or if it has been removed from the tree, the parent is  null .
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode) - The immediate parent of this node.
+[CompositeNode](../../com.aspose.words/compositenode/) - The immediate parent of this node.
 ### getPreviousSibling() {#getPreviousSibling}
 ```
 public Node getPreviousSibling()
@@ -435,7 +436,7 @@ public Node getPreviousSibling()
 Gets the node immediately preceding this node. If there is no preceding node, a  null  is returned.
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The node immediately preceding this node.
+[Node](../../com.aspose.words/node/) - The node immediately preceding this node.
 ### getProperties() {#getProperties}
 ```
 public CustomXmlPropertyCollection getProperties()
@@ -447,17 +448,17 @@ A collection of the smart tag properties.
 Cannot be  null .
 
 **Returns:**
-[CustomXmlPropertyCollection](../../com.aspose.words/customxmlpropertycollection) - The corresponding [CustomXmlPropertyCollection](../../com.aspose.words/customxmlpropertycollection) value.
+[CustomXmlPropertyCollection](../../com.aspose.words/customxmlpropertycollection/) - The corresponding [CustomXmlPropertyCollection](../../com.aspose.words/customxmlpropertycollection/) value.
 ### getRange() {#getRange}
 ```
 public Range getRange()
 ```
 
 
-Returns a [Range](../../com.aspose.words/range) object that represents the portion of a document that is contained in this node.
+Returns a [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node.
 
 **Returns:**
-[Range](../../com.aspose.words/range) - A [Range](../../com.aspose.words/range) object that represents the portion of a document that is contained in this node.
+[Range](../../com.aspose.words/range/) - A [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node.
 ### getText() {#getText}
 ```
 public String getText()
@@ -466,7 +467,7 @@ public String getText()
 
 Gets the text of this node and of all its children.
 
-The returned string includes all control and special characters as described in [ControlChar](../../com.aspose.words/controlchar).
+The returned string includes all control and special characters as described in [ControlChar](../../com.aspose.words/controlchar/).
 
 **Returns:**
 java.lang.String
@@ -515,7 +516,7 @@ Returns the index of the specified child node in the child node array. Returns -
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| child | [Node](../../com.aspose.words/node) |  |
+| child | [Node](../../com.aspose.words/node/) |  |
 
 **Returns:**
 int
@@ -536,11 +537,11 @@ If the node being inserted was created from another document, you should use **M
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | The [Node](../../com.aspose.words/node) to insert. |
-| refChild | [Node](../../com.aspose.words/node) | The [Node](../../com.aspose.words/node) that is the reference node. The  newChild  is placed after the  refChild . |
+| newChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) to insert. |
+| refChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) that is the reference node. The  newChild  is placed after the  refChild . |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The inserted node.
+[Node](../../com.aspose.words/node/) - The inserted node.
 ### insertBefore(Node newChild, Node refChild) {#insertBefore-com.aspose.words.Node-com.aspose.words.Node}
 ```
 public Node insertBefore(Node newChild, Node refChild)
@@ -558,11 +559,11 @@ If the node being inserted was created from another document, you should use **M
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | The [Node](../../com.aspose.words/node) to insert. |
-| refChild | [Node](../../com.aspose.words/node) | The [Node](../../com.aspose.words/node) that is the reference node. The  newChild  is placed before this node. |
+| newChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) to insert. |
+| refChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) that is the reference node. The  newChild  is placed before this node. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The inserted node.
+[Node](../../com.aspose.words/node/) - The inserted node.
 ### isComposite() {#isComposite}
 ```
 public boolean isComposite()
@@ -594,10 +595,10 @@ Gets next node according to the pre-order tree traversal algorithm.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node) | The top node (limit) of traversal. |
+| rootNode | [Node](../../com.aspose.words/node/) | The top node (limit) of traversal. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - Next node in pre-order order. Null if reached the  rootNode .
+[Node](../../com.aspose.words/node/) - Next node in pre-order order. Null if reached the  rootNode .
 ### nodeTypeToString(int nodeType) {#nodeTypeToString-int}
 ```
 public static String nodeTypeToString(int nodeType)
@@ -644,10 +645,10 @@ If the node being inserted was created from another document, you should use **M
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | The node to add. |
+| newChild | [Node](../../com.aspose.words/node/) | The node to add. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The node added.
+[Node](../../com.aspose.words/node/) - The node added.
 ### previousPreOrder(Node rootNode) {#previousPreOrder-com.aspose.words.Node}
 ```
 public Node previousPreOrder(Node rootNode)
@@ -659,10 +660,10 @@ Gets the previous node according to the pre-order tree traversal algorithm.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node) | The top node (limit) of traversal. |
+| rootNode | [Node](../../com.aspose.words/node/) | The top node (limit) of traversal. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - Previous node in pre-order order. Null if reached the  rootNode .
+[Node](../../com.aspose.words/node/) - Previous node in pre-order order. Null if reached the  rootNode .
 ### remove() {#remove}
 ```
 public void remove()
@@ -692,17 +693,17 @@ The parent of  oldChild  is set to  null  after the node is removed.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| oldChild | [Node](../../com.aspose.words/node) | The node to remove. |
+| oldChild | [Node](../../com.aspose.words/node/) | The node to remove. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The removed node.
+[Node](../../com.aspose.words/node/) - The removed node.
 ### removeSmartTags() {#removeSmartTags}
 ```
 public void removeSmartTags()
 ```
 
 
-Removes all [SmartTag](../../com.aspose.words/smarttag) descendant nodes of the current node. This method does not remove the content of the smart tags.
+Removes all [SmartTag](../../com.aspose.words/smarttag/) descendant nodes of the current node. This method does not remove the content of the smart tags.
 
 ### selectNodes(String xpath) {#selectNodes-java.lang.String}
 ```
@@ -720,14 +721,14 @@ Only expressions with element names are supported at the moment. Expressions tha
 | xpath | java.lang.String | The XPath expression. |
 
 **Returns:**
-[NodeList](../../com.aspose.words/nodelist) - A list of nodes matching the XPath query.
+[NodeList](../../com.aspose.words/nodelist/) - A list of nodes matching the XPath query.
 ### selectSingleNode(String xpath) {#selectSingleNode-java.lang.String}
 ```
 public Node selectSingleNode(String xpath)
 ```
 
 
-Selects the first [Node](../../com.aspose.words/node) that matches the XPath expression.
+Selects the first [Node](../../com.aspose.words/node/) that matches the XPath expression.
 
 Only expressions with element names are supported at the moment. Expressions that use attribute names are not supported.
 
@@ -737,7 +738,7 @@ Only expressions with element names are supported at the moment. Expressions tha
 | xpath | java.lang.String | The XPath expression. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The first [Node](../../com.aspose.words/node) that matches the XPath query or  null  if no matching node is found.
+[Node](../../com.aspose.words/node/) - The first [Node](../../com.aspose.words/node/) that matches the XPath query or  null  if no matching node is found.
 ### setCustomNodeId(int value) {#setCustomNodeId-int}
 ```
 public void setCustomNodeId(int value)
@@ -812,7 +813,7 @@ Exports the content of the node into a string using the specified save options.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions) | Specifies the options that control how the node is saved. |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) | Specifies the options that control how the node is saved. |
 
 **Returns:**
 java.lang.String - The content of the node in the specified format.

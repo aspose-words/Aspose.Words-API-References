@@ -1,9 +1,10 @@
 ---
 title: SvgTextOutputMode
+linktitle: SvgTextOutputMode
 second_title: Aspose.Words for Java API Reference
-description: 
+description:  in Java.
 type: docs
-weight: 546
+weight: 548
 url: /java/com.aspose.words/svgtextoutputmode/
 ---
 

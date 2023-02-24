@@ -1,7 +1,8 @@
 ---
 title: JsonDataSource
+linktitle: JsonDataSource
 second_title: Aspose.Words for Java API Reference
-description: Provides access to data of a JSON file or stream to be used within a report.
+description: Provides access to data of a JSON file or stream to be used within a report in Java.
 type: docs
 weight: 356
 url: /java/com.aspose.words/jsondatasource/
@@ -17,9 +18,9 @@ Provides access to data of a JSON file or stream to be used within a report.
 
 To learn more, visit the [ LINQ Reporting Engine ][LINQ Reporting Engine] documentation article.
 
-To access data of the corresponding file or stream while generating a report, pass an instance of this class as a data source to one of [ReportingEngine](../../com.aspose.words/reportingengine). buildReport overloads.
+To access data of the corresponding file or stream while generating a report, pass an instance of this class as a data source to one of [ReportingEngine](../../com.aspose.words/reportingengine/). buildReport overloads.
 
-In template documents, if a top-level JSON element is an array, a [JsonDataSource](../../com.aspose.words/jsondatasource) instance should be treated in the same way as if it was a [DataTable](../../com.aspose.words.net.system.data/datatable) instance. If a top-level JSON element is an object, a [JsonDataSource](../../com.aspose.words/jsondatasource) instance should be treated in the same way as if it was a [DataRow](../../com.aspose.words.net.system.data/datarow) instance. For more information, see template syntax reference(https://docs.aspose.com/display/wordsjava/Template+Syntax).
+In template documents, if a top-level JSON element is an array, a [JsonDataSource](../../com.aspose.words/jsondatasource/) instance should be treated in the same way as if it was a [DataTable](../../com.aspose.words.net.system.data/datatable/) instance. If a top-level JSON element is an object, a [JsonDataSource](../../com.aspose.words/jsondatasource/) instance should be treated in the same way as if it was a [DataRow](../../com.aspose.words.net.system.data/datarow/) instance. For more information, see template syntax reference(https://docs.aspose.com/display/wordsjava/Template+Syntax).
 
 In template documents, you can work with typed values of JSON elements. For convenience, the engine replaces the set of JSON simple types with the following one:
 
@@ -31,7 +32,7 @@ In template documents, you can work with typed values of JSON elements. For conv
 
 The engine automatically recognizes values of the extra types upon their JSON representations.
 
-To override default behavior of JSON data loading, initialize and pass a [JsonDataLoadOptions](../../com.aspose.words/jsondataloadoptions) instance to a constructor of this class.
+To override default behavior of JSON data loading, initialize and pass a [JsonDataLoadOptions](../../com.aspose.words/jsondataloadoptions/) instance to a constructor of this class.
 
 
 [LINQ Reporting Engine]: https://docs.aspose.com/words/java/linq-reporting-engine/
@@ -94,7 +95,7 @@ Creates a new data source with data from a JSON file using the specified options
 | Parameter | Type | Description |
 | --- | --- | --- |
 | jsonPath | java.lang.String | The path to the JSON file to be used as the data source. |
-| options | [JsonDataLoadOptions](../../com.aspose.words/jsondataloadoptions) | Options for parsing JSON data. |
+| options | [JsonDataLoadOptions](../../com.aspose.words/jsondataloadoptions/) | Options for parsing JSON data. |
 
 ### JsonDataSource(InputStream jsonStream, JsonDataLoadOptions options) {#JsonDataSource-java.io.InputStream-com.aspose.words.JsonDataLoadOptions}
 ```
@@ -108,7 +109,7 @@ Initializes a new instance of this class.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | jsonStream | java.io.InputStream |  |
-| options | [JsonDataLoadOptions](../../com.aspose.words/jsondataloadoptions) |  |
+| options | [JsonDataLoadOptions](../../com.aspose.words/jsondataloadoptions/) |  |
 
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```

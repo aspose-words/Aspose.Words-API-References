@@ -1,9 +1,10 @@
 ---
 title: TxtTrailingSpacesOptions
+linktitle: TxtTrailingSpacesOptions
 second_title: Aspose.Words for Java API Reference
-description: Specifies available options for trailing spaces handling during import from  file.
+description: Specifies available options for trailing spaces handling during import from  file in Java.
 type: docs
-weight: 591
+weight: 593
 url: /java/com.aspose.words/txttrailingspacesoptions/
 ---
 
@@ -13,7 +14,7 @@ java.lang.Object
 public class TxtTrailingSpacesOptions
 ```
 
-Specifies available options for trailing spaces handling during import from [LoadFormat.TEXT](../../com.aspose.words/loadformat\#TEXT) file.
+Specifies available options for trailing spaces handling during import from [LoadFormat.TEXT](../../com.aspose.words/loadformat/\#TEXT) file.
 ## Fields
 
 | Field | Description |

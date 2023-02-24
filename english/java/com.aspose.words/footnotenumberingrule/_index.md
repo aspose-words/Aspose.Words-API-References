@@ -1,7 +1,8 @@
 ---
 title: FootnoteNumberingRule
+linktitle: FootnoteNumberingRule
 second_title: Aspose.Words for Java API Reference
-description: Determines when automatic footnote or endnote numbering restarts.
+description: Determines when automatic footnote or endnote numbering restarts in Java.
 type: docs
 weight: 294
 url: /java/com.aspose.words/footnotenumberingrule/
@@ -19,7 +20,7 @@ Determines when automatic footnote or endnote numbering restarts.
 | Field | Description |
 | --- | --- |
 | [CONTINUOUS](#CONTINUOUS) | Numbering continuous throughout the document. |
-| [DEFAULT](#DEFAULT) | Equals [CONTINUOUS](../../com.aspose.words/footnotenumberingrule\#CONTINUOUS). |
+| [DEFAULT](#DEFAULT) | Equals [CONTINUOUS](../../com.aspose.words/footnotenumberingrule/\#CONTINUOUS). |
 | [RESTART_PAGE](#RESTART-PAGE) | Numbering restarts at each page. |
 | [RESTART_SECTION](#RESTART-SECTION) | Numbering restarts at each section. |
 | [length](#length) |  |
@@ -54,7 +55,7 @@ public static int DEFAULT
 ```
 
 
-Equals [CONTINUOUS](../../com.aspose.words/footnotenumberingrule\#CONTINUOUS).
+Equals [CONTINUOUS](../../com.aspose.words/footnotenumberingrule/\#CONTINUOUS).
 
 ### RESTART_PAGE {#RESTART-PAGE}
 ```

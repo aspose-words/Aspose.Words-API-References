@@ -1,7 +1,8 @@
 ---
 title: Constraint
+linktitle: Constraint
 second_title: Aspose.Words for Java API Reference
-description: Represents a constraint that can be enforced on one or more  objects.
+description: Represents a constraint that can be enforced on one or more  objects in Java.
 type: docs
 weight: 10
 url: /java/com.aspose.words.net.system.data/constraint/
@@ -13,7 +14,7 @@ java.lang.Object
 public abstract class Constraint
 ```
 
-Represents a constraint that can be enforced on one or more [DataColumn](../../com.aspose.words.net.system.data/datacolumn) objects.
+Represents a constraint that can be enforced on one or more [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) objects.
 ## Constructors
 
 | Constructor | Description |
@@ -25,11 +26,11 @@ Represents a constraint that can be enforced on one or more [DataColumn](../../c
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getClass()](#getClass) |  |
-| [getConstraintName()](#getConstraintName) | The name of a constraint in the [ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection). |
+| [getConstraintName()](#getConstraintName) | The name of a constraint in the [ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection/). |
 | [hashCode()](#hashCode) |  |
 | [notify()](#notify) |  |
 | [notifyAll()](#notifyAll) |  |
-| [setConstraintName(String value)](#setConstraintName-java.lang.String) | The name of a constraint in the [ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection). |
+| [setConstraintName(String value)](#setConstraintName-java.lang.String) | The name of a constraint in the [ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection/). |
 | [toString()](#toString) |  |
 | [wait()](#wait) |  |
 | [wait(long arg0)](#wait-long) |  |
@@ -71,10 +72,10 @@ public String getConstraintName()
 ```
 
 
-The name of a constraint in the [ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection).
+The name of a constraint in the [ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection/).
 
 **Returns:**
-java.lang.String - The name of the [Constraint](../../com.aspose.words.net.system.data/constraint).
+java.lang.String - The name of the [Constraint](../../com.aspose.words.net.system.data/constraint/).
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()
@@ -107,12 +108,12 @@ public void setConstraintName(String value)
 ```
 
 
-The name of a constraint in the [ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection).
+The name of a constraint in the [ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection/).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | The name of the [Constraint](../../com.aspose.words.net.system.data/constraint). |
+| value | java.lang.String | The name of the [Constraint](../../com.aspose.words.net.system.data/constraint/). |
 
 ### toString() {#toString}
 ```

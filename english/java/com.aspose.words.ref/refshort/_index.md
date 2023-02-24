@@ -1,7 +1,8 @@
 ---
 title: RefShort
+linktitle: RefShort
 second_title: Aspose.Words for Java API Reference
-description: Represents Out/Ref constructions for Short primitive type
+description: Represents Out/Ref constructions for Short primitive type in Java.
 type: docs
 weight: 19
 url: /java/com.aspose.words.ref/refshort/

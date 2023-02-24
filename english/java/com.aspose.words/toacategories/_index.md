@@ -1,9 +1,10 @@
 ---
 title: ToaCategories
+linktitle: ToaCategories
 second_title: Aspose.Words for Java API Reference
-description: Represents a table of authorities categories.
+description: Represents a table of authorities categories in Java.
 type: docs
-weight: 584
+weight: 586
 url: /java/com.aspose.words/toacategories/
 ---
 
@@ -94,10 +95,10 @@ public static ToaCategories getDefaultCategories()
 ```
 
 
-Gets the default table of authorities categories. Use the [FieldOptions.getToaCategories()](../../com.aspose.words/fieldoptions\#getToaCategories) / [FieldOptions.setToaCategories(com.aspose.words.ToaCategories)](../../com.aspose.words/fieldoptions\#setToaCategories-com.aspose.words.ToaCategories) property to specify table of authorities categories for a single document.
+Gets the default table of authorities categories. Use the [FieldOptions.getToaCategories()](../../com.aspose.words/fieldoptions/\#getToaCategories) / [FieldOptions.setToaCategories(com.aspose.words.ToaCategories)](../../com.aspose.words/fieldoptions/\#setToaCategories-com.aspose.words.ToaCategories) property to specify table of authorities categories for a single document.
 
 **Returns:**
-[ToaCategories](../../com.aspose.words/toacategories) - The default table of authorities categories.
+[ToaCategories](../../com.aspose.words/toacategories/) - The default table of authorities categories.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()

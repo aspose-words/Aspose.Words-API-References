@@ -1,7 +1,8 @@
 ---
 title: RefLong
+linktitle: RefLong
 second_title: Aspose.Words for Java API Reference
-description: Represents Out/Ref constructions for Long primitive type
+description: Represents Out/Ref constructions for Long primitive type in Java.
 type: docs
 weight: 16
 url: /java/com.aspose.words.ref/reflong/

@@ -1,9 +1,10 @@
 ---
 title: Odso
+linktitle: Odso
 second_title: Aspose.Words for Java API Reference
-description: Specifies the Office Data Source Object ODSO settings for a mail merge data source.
+description: Specifies the Office Data Source Object ODSO settings for a mail merge data source in Java.
 type: docs
-weight: 415
+weight: 417
 url: /java/com.aspose.words/odso/
 ---
 
@@ -22,9 +23,9 @@ To learn more, visit the [ Mail Merge and Reporting ][Mail Merge and Reporting] 
 
 ODSO seems to be the "new" way the newer Microsoft Word versions prefer to use when specifying certain types of data sources for a mail merge document. ODSO probably first appeared in Microsoft Word 2000.
 
-The use of ODSO is poorly documented and the best way to learn how to use the properties of this object is to create a document with a desired data source manually in Microsoft Word and then open that document using Aspose.Words and examine the properties of the [Document.getMailMergeSettings()](../../com.aspose.words/document\#getMailMergeSettings) / [Document.setMailMergeSettings(com.aspose.words.MailMergeSettings)](../../com.aspose.words/document\#setMailMergeSettings-com.aspose.words.MailMergeSettings) and [MailMergeSettings.getOdso()](../../com.aspose.words/mailmergesettings\#getOdso) / [MailMergeSettings.setOdso(com.aspose.words.Odso)](../../com.aspose.words/mailmergesettings\#setOdso-com.aspose.words.Odso) objects. This is a good approach to take if you want to learn how to programmatically configure a data source, for example.
+The use of ODSO is poorly documented and the best way to learn how to use the properties of this object is to create a document with a desired data source manually in Microsoft Word and then open that document using Aspose.Words and examine the properties of the [Document.getMailMergeSettings()](../../com.aspose.words/document/\#getMailMergeSettings) / [Document.setMailMergeSettings(com.aspose.words.MailMergeSettings)](../../com.aspose.words/document/\#setMailMergeSettings-com.aspose.words.MailMergeSettings) and [MailMergeSettings.getOdso()](../../com.aspose.words/mailmergesettings/\#getOdso) / [MailMergeSettings.setOdso(com.aspose.words.Odso)](../../com.aspose.words/mailmergesettings/\#setOdso-com.aspose.words.Odso) objects. This is a good approach to take if you want to learn how to programmatically configure a data source, for example.
 
-You do not normally need to create objects of this class directly because ODSO settings are always available via the [MailMergeSettings.getOdso()](../../com.aspose.words/mailmergesettings\#getOdso) / [MailMergeSettings.setOdso(com.aspose.words.Odso)](../../com.aspose.words/mailmergesettings\#setOdso-com.aspose.words.Odso) property.
+You do not normally need to create objects of this class directly because ODSO settings are always available via the [MailMergeSettings.getOdso()](../../com.aspose.words/mailmergesettings/\#getOdso) / [MailMergeSettings.setOdso(com.aspose.words.Odso)](../../com.aspose.words/mailmergesettings/\#setOdso-com.aspose.words.Odso) property.
 
 
 [Mail Merge and Reporting]: https://docs.aspose.com/words/java/mail-merge-and-reporting/
@@ -67,7 +68,7 @@ public Odso deepClone()
 Returns a deep clone of this object.
 
 **Returns:**
-[Odso](../../com.aspose.words/odso)
+[Odso](../../com.aspose.words/odso/)
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
@@ -121,12 +122,12 @@ public int getDataSourceType()
 ```
 
 
-Specifies the type of the external data source to be connected to as part of the ODSO connection information for this mail merge. The default value is [OdsoDataSourceType.DEFAULT](../../com.aspose.words/odsodatasourcetype\#DEFAULT).
+Specifies the type of the external data source to be connected to as part of the ODSO connection information for this mail merge. The default value is [OdsoDataSourceType.DEFAULT](../../com.aspose.words/odsodatasourcetype/\#DEFAULT).
 
 This setting is purely a suggestion of the data source type that is being used for this mail merge.
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [OdsoDataSourceType](../../com.aspose.words/odsodatasourcetype) constants.
+int - The corresponding  int  value. The returned value is one of [OdsoDataSourceType](../../com.aspose.words/odsodatasourcetype/) constants.
 ### getFieldMapDatas() {#getFieldMapDatas}
 ```
 public OdsoFieldMapDataCollection getFieldMapDatas()
@@ -136,7 +137,7 @@ public OdsoFieldMapDataCollection getFieldMapDatas()
 Gets a collection of objects that specify how columns from the external data source are mapped to the predefined merge field names in the document. This object is never  null .
 
 **Returns:**
-[OdsoFieldMapDataCollection](../../com.aspose.words/odsofieldmapdatacollection) - A collection of objects that specify how columns from the external data source are mapped to the predefined merge field names in the document.
+[OdsoFieldMapDataCollection](../../com.aspose.words/odsofieldmapdatacollection/) - A collection of objects that specify how columns from the external data source are mapped to the predefined merge field names in the document.
 ### getFirstRowContainsColumnNames() {#getFirstRowContainsColumnNames}
 ```
 public boolean getFirstRowContainsColumnNames()
@@ -158,7 +159,7 @@ public OdsoRecipientDataCollection getRecipientDatas()
 Gets a collection of objects that specify inclusion/exclusion of individual records in the mail merge. This object is never  null .
 
 **Returns:**
-[OdsoRecipientDataCollection](../../com.aspose.words/odsorecipientdatacollection) - A collection of objects that specify inclusion/exclusion of individual records in the mail merge.
+[OdsoRecipientDataCollection](../../com.aspose.words/odsorecipientdatacollection/) - A collection of objects that specify inclusion/exclusion of individual records in the mail merge.
 ### getTableName() {#getTableName}
 ```
 public String getTableName()
@@ -239,14 +240,14 @@ public void setDataSourceType(int value)
 ```
 
 
-Specifies the type of the external data source to be connected to as part of the ODSO connection information for this mail merge. The default value is [OdsoDataSourceType.DEFAULT](../../com.aspose.words/odsodatasourcetype\#DEFAULT).
+Specifies the type of the external data source to be connected to as part of the ODSO connection information for this mail merge. The default value is [OdsoDataSourceType.DEFAULT](../../com.aspose.words/odsodatasourcetype/\#DEFAULT).
 
 This setting is purely a suggestion of the data source type that is being used for this mail merge.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [OdsoDataSourceType](../../com.aspose.words/odsodatasourcetype) constants. |
+| value | int | The corresponding  int  value. The value must be one of [OdsoDataSourceType](../../com.aspose.words/odsodatasourcetype/) constants. |
 
 ### setFieldMapDatas(OdsoFieldMapDataCollection value) {#setFieldMapDatas-com.aspose.words.OdsoFieldMapDataCollection}
 ```
@@ -259,7 +260,7 @@ Sets a collection of objects that specify how columns from the external data sou
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [OdsoFieldMapDataCollection](../../com.aspose.words/odsofieldmapdatacollection) | A collection of objects that specify how columns from the external data source are mapped to the predefined merge field names in the document. |
+| value | [OdsoFieldMapDataCollection](../../com.aspose.words/odsofieldmapdatacollection/) | A collection of objects that specify how columns from the external data source are mapped to the predefined merge field names in the document. |
 
 ### setFirstRowContainsColumnNames(boolean value) {#setFirstRowContainsColumnNames-boolean}
 ```
@@ -287,7 +288,7 @@ Sets a collection of objects that specify inclusion/exclusion of individual reco
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [OdsoRecipientDataCollection](../../com.aspose.words/odsorecipientdatacollection) | A collection of objects that specify inclusion/exclusion of individual records in the mail merge. |
+| value | [OdsoRecipientDataCollection](../../com.aspose.words/odsorecipientdatacollection/) | A collection of objects that specify inclusion/exclusion of individual records in the mail merge. |
 
 ### setTableName(String value) {#setTableName-java.lang.String}
 ```

@@ -1,7 +1,8 @@
 ---
 title: FontInfo
+linktitle: FontInfo
 second_title: Aspose.Words for Java API Reference
-description: Specifies information about a font used in the document.
+description: Specifies information about a font used in the document in Java.
 type: docs
 weight: 282
 url: /java/com.aspose.words/fontinfo/
@@ -20,7 +21,7 @@ Specifies information about a font used in the document.
 
 To learn more, visit the [ Working with Fonts ][Working with Fonts] documentation article.
 
-You do not create instances of this class directly. Use the [DocumentBase.getFontInfos()](../../com.aspose.words/documentbase\#getFontInfos) property to access the collection of fonts defined in a document.
+You do not create instances of this class directly. Use the [DocumentBase.getFontInfos()](../../com.aspose.words/documentbase/\#getFontInfos) property to access the collection of fonts defined in a document.
 
 
 [Working with Fonts]: https://docs.aspose.com/words/java/working-with-fonts/
@@ -139,7 +140,7 @@ public int getFamily()
 Gets the font family this font belongs to.
 
 **Returns:**
-int - The font family this font belongs to. The returned value is one of [FontFamily](../../com.aspose.words/fontfamily) constants.
+int - The font family this font belongs to. The returned value is one of [FontFamily](../../com.aspose.words/fontfamily/) constants.
 ### getName() {#getName}
 ```
 public String getName()
@@ -175,7 +176,7 @@ public int getPitch()
 The pitch indicates if the font is fixed pitch, proportionally spaced, or relies on a default setting.
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [FontPitch](../../com.aspose.words/fontpitch) constants.
+int - The corresponding  int  value. The returned value is one of [FontPitch](../../com.aspose.words/fontpitch/) constants.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()
@@ -264,7 +265,7 @@ Sets the font family this font belongs to.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The font family this font belongs to. The value must be one of [FontFamily](../../com.aspose.words/fontfamily) constants. |
+| value | int | The font family this font belongs to. The value must be one of [FontFamily](../../com.aspose.words/fontfamily/) constants. |
 
 ### setPanose(byte[] value) {#setPanose-byte}
 ```
@@ -294,7 +295,7 @@ The pitch indicates if the font is fixed pitch, proportionally spaced, or relies
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [FontPitch](../../com.aspose.words/fontpitch) constants. |
+| value | int | The corresponding  int  value. The value must be one of [FontPitch](../../com.aspose.words/fontpitch/) constants. |
 
 ### toString() {#toString}
 ```

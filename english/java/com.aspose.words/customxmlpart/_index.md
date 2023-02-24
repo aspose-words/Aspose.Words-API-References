@@ -1,7 +1,8 @@
 ---
 title: CustomXmlPart
+linktitle: CustomXmlPart
 second_title: Aspose.Words for Java API Reference
-description: Represents a Custom XML Data Storage Part custom XML data within a package.
+description: Represents a Custom XML Data Storage Part custom XML data within a package in Java.
 type: docs
 weight: 105
 url: /java/com.aspose.words/customxmlpart/
@@ -20,10 +21,10 @@ Represents a Custom XML Data Storage Part (custom XML data within a package).
 
 To learn more, visit the [ Structured Document Tags or Content Control ][Structured Document Tags or Content Control] documentation article.
 
-A DOCX or DOC document can contain one or more Custom XML Data Storage parts. Aspose.Words preserves and allows to create and extract Custom XML Data via the [Document.getCustomXmlParts()](../../com.aspose.words/document\#getCustomXmlParts) / [Document.setCustomXmlParts(com.aspose.words.CustomXmlPartCollection)](../../com.aspose.words/document\#setCustomXmlParts-com.aspose.words.CustomXmlPartCollection) collection.
+A DOCX or DOC document can contain one or more Custom XML Data Storage parts. Aspose.Words preserves and allows to create and extract Custom XML Data via the [Document.getCustomXmlParts()](../../com.aspose.words/document/\#getCustomXmlParts) / [Document.setCustomXmlParts(com.aspose.words.CustomXmlPartCollection)](../../com.aspose.words/document/\#setCustomXmlParts-com.aspose.words.CustomXmlPartCollection) collection.
 
 
-[Structured Document Tags or Content Control]: https://docs.aspose.com/words/java/structured-document-tags-or-content-control/
+[Structured Document Tags or Content Control]: https://docs.aspose.com/words/java/working-with-content-control-sdt/
 ## Methods
 
 | Method | Description |
@@ -32,7 +33,7 @@ A DOCX or DOC document can contain one or more Custom XML Data Storage parts. As
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getClass()](#getClass) |  |
 | [getData()](#getData) | Gets the XML content of this Custom XML Data Storage Part. |
-| [getDataChecksum()](#getDataChecksum) | Specifies a cyclic redundancy check (CRC) checksum of the [getData()](../../com.aspose.words/customxmlpart\#getData) / [setData(byte[])](../../com.aspose.words/customxmlpart\#setData-byte) content. |
+| [getDataChecksum()](#getDataChecksum) | Specifies a cyclic redundancy check (CRC) checksum of the [getData()](../../com.aspose.words/customxmlpart/\#getData) / [setData(byte[])](../../com.aspose.words/customxmlpart/\#setData-byte) content. |
 | [getId()](#getId) | Gets the string that identifies this custom XML part within an OOXML document. |
 | [getSchemas()](#getSchemas) | Specifies the set of XML schemas that are associated with this custom XML part. |
 | [hashCode()](#hashCode) |  |
@@ -50,10 +51,10 @@ public CustomXmlPart deepClone()
 ```
 
 
-Makes a "deep enough" copy of the object. Does not duplicate the bytes of the [getData()](../../com.aspose.words/customxmlpart\#getData) / [setData(byte[])](../../com.aspose.words/customxmlpart\#setData-byte) value.
+Makes a "deep enough" copy of the object. Does not duplicate the bytes of the [getData()](../../com.aspose.words/customxmlpart/\#getData) / [setData(byte[])](../../com.aspose.words/customxmlpart/\#setData-byte) value.
 
 **Returns:**
-[CustomXmlPart](../../com.aspose.words/customxmlpart)
+[CustomXmlPart](../../com.aspose.words/customxmlpart/)
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
@@ -97,7 +98,7 @@ public long getDataChecksum()
 ```
 
 
-Specifies a cyclic redundancy check (CRC) checksum of the [getData()](../../com.aspose.words/customxmlpart\#getData) / [setData(byte[])](../../com.aspose.words/customxmlpart\#setData-byte) content.
+Specifies a cyclic redundancy check (CRC) checksum of the [getData()](../../com.aspose.words/customxmlpart/\#getData) / [setData(byte[])](../../com.aspose.words/customxmlpart/\#setData-byte) content.
 
 **Returns:**
 long - The corresponding  long  value.
@@ -126,7 +127,7 @@ public CustomXmlSchemaCollection getSchemas()
 Specifies the set of XML schemas that are associated with this custom XML part.
 
 **Returns:**
-[CustomXmlSchemaCollection](../../com.aspose.words/customxmlschemacollection) - The corresponding [CustomXmlSchemaCollection](../../com.aspose.words/customxmlschemacollection) value.
+[CustomXmlSchemaCollection](../../com.aspose.words/customxmlschemacollection/) - The corresponding [CustomXmlSchemaCollection](../../com.aspose.words/customxmlschemacollection/) value.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()

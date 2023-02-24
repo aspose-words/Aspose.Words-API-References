@@ -1,7 +1,8 @@
 ---
 title: HtmlFixedPageHorizontalAlignment
+linktitle: HtmlFixedPageHorizontalAlignment
 second_title: Aspose.Words for Java API Reference
-description: Specifies the horizontal alignment for pages in output HTML document.
+description: Specifies the horizontal alignment for pages in output HTML document in Java.
 type: docs
 weight: 327
 url: /java/com.aspose.words/htmlfixedpagehorizontalalignment/

@@ -1,7 +1,8 @@
 ---
 title: BuildingBlockType
+linktitle: BuildingBlockType
 second_title: Aspose.Words for Java API Reference
-description: Specifies a building block type.
+description: Specifies a building block type in Java.
 type: docs
 weight: 45
 url: /java/com.aspose.words/buildingblocktype/
@@ -24,7 +25,7 @@ Corresponds to the **ST\_DocPartType** type in OOXML.
 | [AUTOMATICALLY_REPLACE_NAME_WITH_CONTENT](#AUTOMATICALLY-REPLACE-NAME-WITH-CONTENT) | Allows the building block to be automatically inserted into the document whenever its name is entered into an application. |
 | [AUTO_CORRECT](#AUTO-CORRECT) | The building block is associated with the spelling and grammar tools. |
 | [AUTO_TEXT](#AUTO-TEXT) | The building block is an AutoText entry. |
-| [DEFAULT](#DEFAULT) | Save as [NONE](../../com.aspose.words/buildingblocktype\#NONE). |
+| [DEFAULT](#DEFAULT) | Save as [NONE](../../com.aspose.words/buildingblocktype/\#NONE). |
 | [FORM_FIELD_HELP_TEXT](#FORM-FIELD-HELP-TEXT) | The building block is a form field help text. |
 | [NONE](#NONE) | No type information is specified for the building block. |
 | [NORMAL](#NORMAL) | The building block is a normal (i.e. |
@@ -85,7 +86,7 @@ public static int DEFAULT
 ```
 
 
-Save as [NONE](../../com.aspose.words/buildingblocktype\#NONE).
+Save as [NONE](../../com.aspose.words/buildingblocktype/\#NONE).
 
 ### FORM_FIELD_HELP_TEXT {#FORM-FIELD-HELP-TEXT}
 ```

@@ -1,7 +1,8 @@
 ---
 title: ControlChar
+linktitle: ControlChar
 second_title: Aspose.Words for Java API Reference
-description: Control characters often encountered in documents.
+description: Control characters often encountered in documents in Java.
 type: docs
 weight: 95
 url: /java/com.aspose.words/controlchar/
@@ -17,7 +18,7 @@ Control characters often encountered in documents.
 
 To learn more, visit the [ Working With Control Characters ][Working With Control Characters] documentation article.
 
-Provides both char and string versions of the same constants. For example: string [LINE\_BREAK](../../com.aspose.words/controlchar\#LINE-BREAK) and char [LINE\_BREAK\_CHAR](../../com.aspose.words/controlchar\#LINE-BREAK-CHAR) have the same value.
+Provides both char and string versions of the same constants. For example: string [LINE\_BREAK](../../com.aspose.words/controlchar/\#LINE-BREAK) and char [LINE\_BREAK\_CHAR](../../com.aspose.words/controlchar/\#LINE-BREAK-CHAR) have the same value.
 
 
 [Working With Control Characters]: https://docs.aspose.com/words/java/working-with-control-characters/
@@ -104,7 +105,7 @@ public static String CR
 ```
 
 
-Carriage return character: "\\x000d" or "\\r". Same as [PARAGRAPH\_BREAK](../../com.aspose.words/controlchar\#PARAGRAPH-BREAK).
+Carriage return character: "\\x000d" or "\\r". Same as [PARAGRAPH\_BREAK](../../com.aspose.words/controlchar/\#PARAGRAPH-BREAK).
 
 ### CR_LF {#CR-LF}
 ```
@@ -152,7 +153,7 @@ public static String LF
 ```
 
 
-Line feed character: "\\x000a" or "\\n". Same as [LINE\_FEED](../../com.aspose.words/controlchar\#LINE-FEED).
+Line feed character: "\\x000a" or "\\n". Same as [LINE\_FEED](../../com.aspose.words/controlchar/\#LINE-FEED).
 
 ### LINE_BREAK {#LINE-BREAK}
 ```
@@ -176,7 +177,7 @@ public static String LINE_FEED
 ```
 
 
-Line feed character: "\\x000a" or "\\n". Same as [LF](../../com.aspose.words/controlchar\#LF).
+Line feed character: "\\x000a" or "\\n". Same as [LF](../../com.aspose.words/controlchar/\#LF).
 
 ### LINE_FEED_CHAR {#LINE-FEED-CHAR}
 ```
@@ -230,7 +231,7 @@ public static String PAGE_BREAK
 ```
 
 
-Page break character: "\\x000c" or "\\f". Note it has the same value as [SECTION\_BREAK](../../com.aspose.words/controlchar\#SECTION-BREAK).
+Page break character: "\\x000c" or "\\f". Note it has the same value as [SECTION\_BREAK](../../com.aspose.words/controlchar/\#SECTION-BREAK).
 
 ### PAGE_BREAK_CHAR {#PAGE-BREAK-CHAR}
 ```
@@ -246,7 +247,7 @@ public static String PARAGRAPH_BREAK
 ```
 
 
-End of paragraph character: "\\x000d" or "\\r". Same as [CR](../../com.aspose.words/controlchar\#CR)
+End of paragraph character: "\\x000d" or "\\r". Same as [CR](../../com.aspose.words/controlchar/\#CR)
 
 ### PARAGRAPH_BREAK_CHAR {#PARAGRAPH-BREAK-CHAR}
 ```
@@ -262,7 +263,7 @@ public static String SECTION_BREAK
 ```
 
 
-End of section character: "\\x000c" or "\\f". Note it has the same value as [PAGE\_BREAK](../../com.aspose.words/controlchar\#PAGE-BREAK).
+End of section character: "\\x000c" or "\\f". Note it has the same value as [PAGE\_BREAK](../../com.aspose.words/controlchar/\#PAGE-BREAK).
 
 ### SECTION_BREAK_CHAR {#SECTION-BREAK-CHAR}
 ```

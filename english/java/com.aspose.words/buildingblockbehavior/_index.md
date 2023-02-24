@@ -1,7 +1,8 @@
 ---
 title: BuildingBlockBehavior
+linktitle: BuildingBlockBehavior
 second_title: Aspose.Words for Java API Reference
-description: Specifies the behavior that shall be applied to the contents of the building block when it is inserted into the main document.
+description: Specifies the behavior that shall be applied to the contents of the building block when it is inserted into the main document in Java.
 type: docs
 weight: 42
 url: /java/com.aspose.words/buildingblockbehavior/
@@ -21,7 +22,7 @@ Corresponds to the **ST\_DocPartBehavior** type in OOXML.
 | Field | Description |
 | --- | --- |
 | [CONTENT](#CONTENT) | Specifies that the building block shall be inserted as inline content. |
-| [DEFAULT](#DEFAULT) | Same as [CONTENT](../../com.aspose.words/buildingblockbehavior\#CONTENT). |
+| [DEFAULT](#DEFAULT) | Same as [CONTENT](../../com.aspose.words/buildingblockbehavior/\#CONTENT). |
 | [PAGE](#PAGE) | Specifies that the building block shall be added into its own page. |
 | [PARAGRAPH](#PARAGRAPH) | Specifies that the building block shall be inserted into its own paragraph. |
 | [length](#length) |  |
@@ -56,7 +57,7 @@ public static int DEFAULT
 ```
 
 
-Same as [CONTENT](../../com.aspose.words/buildingblockbehavior\#CONTENT).
+Same as [CONTENT](../../com.aspose.words/buildingblockbehavior/\#CONTENT).
 
 ### PAGE {#PAGE}
 ```

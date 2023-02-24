@@ -1,9 +1,10 @@
 ---
 title: TabLeader
+linktitle: TabLeader
 second_title: Aspose.Words for Java API Reference
-description: Specifies the type of the leader line displayed under the tab character.
+description: Specifies the type of the leader line displayed under the tab character in Java.
 type: docs
-weight: 549
+weight: 551
 url: /java/com.aspose.words/tableader/
 ---
 

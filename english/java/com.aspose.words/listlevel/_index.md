@@ -1,9 +1,10 @@
 ---
 title: ListLevel
+linktitle: ListLevel
 second_title: Aspose.Words for Java API Reference
-description: Defines formatting for a list level.
+description: Defines formatting for a list level in Java.
 type: docs
-weight: 374
+weight: 375
 url: /java/com.aspose.words/listlevel/
 ---
 
@@ -20,9 +21,9 @@ Defines formatting for a list level.
 
 To learn more, visit the [ Working with Lists ][Working with Lists] documentation article.
 
-You do not create objects of this class. List level objects are created automatically when a list is created. You access [ListLevel](../../com.aspose.words/listlevel) objects via the [ListLevelCollection](../../com.aspose.words/listlevelcollection) collection.
+You do not create objects of this class. List level objects are created automatically when a list is created. You access [ListLevel](../../com.aspose.words/listlevel/) objects via the [ListLevelCollection](../../com.aspose.words/listlevelcollection/) collection.
 
-Use the properties of [ListLevel](../../com.aspose.words/listlevel) to specify list formatting for individual list levels.
+Use the properties of [ListLevel](../../com.aspose.words/listlevel/) to specify list formatting for individual list levels.
 
 
 [Working with Lists]: https://docs.aspose.com/words/java/working-with-lists/
@@ -88,7 +89,7 @@ public void createPictureBullet()
 ```
 
 
-Creates picture bullet shape for the current list level. Please note, [getNumberStyle()](../../com.aspose.words/listlevel\#getNumberStyle) / [setNumberStyle(int)](../../com.aspose.words/listlevel\#setNumberStyle-int) will be set to [NumberStyle.BULLET](../../com.aspose.words/numberstyle\#BULLET) and [getNumberFormat()](../../com.aspose.words/listlevel\#getNumberFormat) / [setNumberFormat(java.lang.String)](../../com.aspose.words/listlevel\#setNumberFormat-java.lang.String) to "\\xF0B7" to properly display picture bullet. Red cross image will be set as picture bullet image upon creating. To change it please use [getImageData()](../../com.aspose.words/listlevel\#getImageData).
+Creates picture bullet shape for the current list level. Please note, [getNumberStyle()](../../com.aspose.words/listlevel/\#getNumberStyle) / [setNumberStyle(int)](../../com.aspose.words/listlevel/\#setNumberStyle-int) will be set to [NumberStyle.BULLET](../../com.aspose.words/numberstyle/\#BULLET) and [getNumberFormat()](../../com.aspose.words/listlevel/\#getNumberFormat) / [setNumberFormat(java.lang.String)](../../com.aspose.words/listlevel/\#setNumberFormat-java.lang.String) to "\\xF0B7" to properly display picture bullet. Red cross image will be set as picture bullet image upon creating. To change it please use [getImageData()](../../com.aspose.words/listlevel/\#getImageData).
 
 ### deletePictureBullet() {#deletePictureBullet}
 ```
@@ -109,7 +110,7 @@ Compares with the specified ListLevel.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| level | [ListLevel](../../com.aspose.words/listlevel) |  |
+| level | [ListLevel](../../com.aspose.words/listlevel/) |  |
 
 **Returns:**
 boolean
@@ -151,10 +152,10 @@ public int getAlignment()
 
 Gets the justification of the actual number of the list item.
 
-The list label is justified relative to the [getNumberPosition()](../../com.aspose.words/listlevel\#getNumberPosition) / [setNumberPosition(double)](../../com.aspose.words/listlevel\#setNumberPosition-double) property.
+The list label is justified relative to the [getNumberPosition()](../../com.aspose.words/listlevel/\#getNumberPosition) / [setNumberPosition(double)](../../com.aspose.words/listlevel/\#setNumberPosition-double) property.
 
 **Returns:**
-int - The justification of the actual number of the list item. The returned value is one of [ListLevelAlignment](../../com.aspose.words/listlevelalignment) constants.
+int - The justification of the actual number of the list item. The returned value is one of [ListLevelAlignment](../../com.aspose.words/listlevelalignment/) constants.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -232,17 +233,17 @@ public Font getFont()
 Specifies character formatting used for the list label.
 
 **Returns:**
-[Font](../../com.aspose.words/font) - The corresponding [Font](../../com.aspose.words/font) value.
+[Font](../../com.aspose.words/font/) - The corresponding [Font](../../com.aspose.words/font/) value.
 ### getImageData() {#getImageData}
 ```
 public ImageData getImageData()
 ```
 
 
-Returns image data of the picture bullet shape for the current list level. If this level doesn't define picture bullet returns  null . Before setting new image for non picture bullet shape, please use [createPictureBullet()](../../com.aspose.words/listlevel\#createPictureBullet) method first.
+Returns image data of the picture bullet shape for the current list level. If this level doesn't define picture bullet returns  null . Before setting new image for non picture bullet shape, please use [createPictureBullet()](../../com.aspose.words/listlevel/\#createPictureBullet) method first.
 
 **Returns:**
-[ImageData](../../com.aspose.words/imagedata) - Image data of the picture bullet shape for the current list level.
+[ImageData](../../com.aspose.words/imagedata/) - Image data of the picture bullet shape for the current list level.
 ### getLinkedStyle() {#getLinkedStyle}
 ```
 public Style getLinkedStyle()
@@ -254,7 +255,7 @@ Gets the paragraph style that is linked to this list level.
 This property is  null  when the list level is not linked to a paragraph style. This property can be set to  null .
 
 **Returns:**
-[Style](../../com.aspose.words/style) - The paragraph style that is linked to this list level.
+[Style](../../com.aspose.words/style/) - The paragraph style that is linked to this list level.
 ### getNumberFormat() {#getNumberFormat}
 ```
 public String getNumberFormat()
@@ -279,7 +280,7 @@ public double getNumberPosition()
 
 Gets the position (in points) of the number or bullet for the list level.
 
-[getNumberPosition()](../../com.aspose.words/listlevel\#getNumberPosition) / [setNumberPosition(double)](../../com.aspose.words/listlevel\#setNumberPosition-double) corresponds to LeftIndent plus FirstLineIndent of the paragraph.
+[getNumberPosition()](../../com.aspose.words/listlevel/\#getNumberPosition) / [setNumberPosition(double)](../../com.aspose.words/listlevel/\#setNumberPosition-double) corresponds to LeftIndent plus FirstLineIndent of the paragraph.
 
 **Returns:**
 double - The position (in points) of the number or bullet for the list level.
@@ -292,7 +293,7 @@ public int getNumberStyle()
 Gets the number style for this list level.
 
 **Returns:**
-int - The number style for this list level. The returned value is one of [NumberStyle](../../com.aspose.words/numberstyle) constants.
+int - The number style for this list level. The returned value is one of [NumberStyle](../../com.aspose.words/numberstyle/) constants.
 ### getRestartAfterLevel() {#getRestartAfterLevel}
 ```
 public int getRestartAfterLevel()
@@ -325,7 +326,7 @@ public double getTabPosition()
 
 Gets the tab position (in points) for the list level.
 
-Has effect only when [getTrailingCharacter()](../../com.aspose.words/listlevel\#getTrailingCharacter) / [setTrailingCharacter(int)](../../com.aspose.words/listlevel\#setTrailingCharacter-int) is a tab.
+Has effect only when [getTrailingCharacter()](../../com.aspose.words/listlevel/\#getTrailingCharacter) / [setTrailingCharacter(int)](../../com.aspose.words/listlevel/\#setTrailingCharacter-int) is a tab.
 
 **Returns:**
 double - The tab position (in points) for the list level.
@@ -337,7 +338,7 @@ public double getTextPosition()
 
 Gets the position (in points) for the second line of wrapping text for the list level.
 
-[getTextPosition()](../../com.aspose.words/listlevel\#getTextPosition) / [setTextPosition(double)](../../com.aspose.words/listlevel\#setTextPosition-double) corresponds to LeftIndent of the paragraph.
+[getTextPosition()](../../com.aspose.words/listlevel/\#getTextPosition) / [setTextPosition(double)](../../com.aspose.words/listlevel/\#setTextPosition-double) corresponds to LeftIndent of the paragraph.
 
 **Returns:**
 double - The position (in points) for the second line of wrapping text for the list level.
@@ -350,7 +351,7 @@ public int getTrailingCharacter()
 Gets the character inserted after the number for the list level.
 
 **Returns:**
-int - The character inserted after the number for the list level. The returned value is one of [ListTrailingCharacter](../../com.aspose.words/listtrailingcharacter) constants.
+int - The character inserted after the number for the list level. The returned value is one of [ListTrailingCharacter](../../com.aspose.words/listtrailingcharacter/) constants.
 ### hashCode() {#hashCode}
 ```
 public int hashCode()
@@ -421,12 +422,12 @@ public void setAlignment(int value)
 
 Sets the justification of the actual number of the list item.
 
-The list label is justified relative to the [getNumberPosition()](../../com.aspose.words/listlevel\#getNumberPosition) / [setNumberPosition(double)](../../com.aspose.words/listlevel\#setNumberPosition-double) property.
+The list label is justified relative to the [getNumberPosition()](../../com.aspose.words/listlevel/\#getNumberPosition) / [setNumberPosition(double)](../../com.aspose.words/listlevel/\#setNumberPosition-double) property.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The justification of the actual number of the list item. The value must be one of [ListLevelAlignment](../../com.aspose.words/listlevelalignment) constants. |
+| value | int | The justification of the actual number of the list item. The value must be one of [ListLevelAlignment](../../com.aspose.words/listlevelalignment/) constants. |
 
 ### setLinkedStyle(Style value) {#setLinkedStyle-com.aspose.words.Style}
 ```
@@ -441,7 +442,7 @@ This property is  null  when the list level is not linked to a paragraph style. 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Style](../../com.aspose.words/style) | The paragraph style that is linked to this list level. |
+| value | [Style](../../com.aspose.words/style/) | The paragraph style that is linked to this list level. |
 
 ### setNumberFormat(String value) {#setNumberFormat-java.lang.String}
 ```
@@ -470,7 +471,7 @@ public void setNumberPosition(double value)
 
 Sets the position (in points) of the number or bullet for the list level.
 
-[getNumberPosition()](../../com.aspose.words/listlevel\#getNumberPosition) / [setNumberPosition(double)](../../com.aspose.words/listlevel\#setNumberPosition-double) corresponds to LeftIndent plus FirstLineIndent of the paragraph.
+[getNumberPosition()](../../com.aspose.words/listlevel/\#getNumberPosition) / [setNumberPosition(double)](../../com.aspose.words/listlevel/\#setNumberPosition-double) corresponds to LeftIndent plus FirstLineIndent of the paragraph.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -488,7 +489,7 @@ Sets the number style for this list level.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The number style for this list level. The value must be one of [NumberStyle](../../com.aspose.words/numberstyle) constants. |
+| value | int | The number style for this list level. The value must be one of [NumberStyle](../../com.aspose.words/numberstyle/) constants. |
 
 ### setRestartAfterLevel(int value) {#setRestartAfterLevel-int}
 ```
@@ -542,7 +543,7 @@ public void setTabPosition(double value)
 
 Sets the tab position (in points) for the list level.
 
-Has effect only when [getTrailingCharacter()](../../com.aspose.words/listlevel\#getTrailingCharacter) / [setTrailingCharacter(int)](../../com.aspose.words/listlevel\#setTrailingCharacter-int) is a tab.
+Has effect only when [getTrailingCharacter()](../../com.aspose.words/listlevel/\#getTrailingCharacter) / [setTrailingCharacter(int)](../../com.aspose.words/listlevel/\#setTrailingCharacter-int) is a tab.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -557,7 +558,7 @@ public void setTextPosition(double value)
 
 Sets the position (in points) for the second line of wrapping text for the list level.
 
-[getTextPosition()](../../com.aspose.words/listlevel\#getTextPosition) / [setTextPosition(double)](../../com.aspose.words/listlevel\#setTextPosition-double) corresponds to LeftIndent of the paragraph.
+[getTextPosition()](../../com.aspose.words/listlevel/\#getTextPosition) / [setTextPosition(double)](../../com.aspose.words/listlevel/\#setTextPosition-double) corresponds to LeftIndent of the paragraph.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -575,7 +576,7 @@ Sets the character inserted after the number for the list level.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The character inserted after the number for the list level. The value must be one of [ListTrailingCharacter](../../com.aspose.words/listtrailingcharacter) constants. |
+| value | int | The character inserted after the number for the list level. The value must be one of [ListTrailingCharacter](../../com.aspose.words/listtrailingcharacter/) constants. |
 
 ### toString() {#toString}
 ```

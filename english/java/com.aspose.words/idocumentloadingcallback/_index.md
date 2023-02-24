@@ -1,9 +1,10 @@
 ---
 title: IDocumentLoadingCallback
+linktitle: IDocumentLoadingCallback
 second_title: Aspose.Words for Java API Reference
-description: Implement this interface if you want to have your own custom method called during loading a document.
+description: Implement this interface if you want to have your own custom method called during loading a document in Java.
 type: docs
-weight: 640
+weight: 642
 url: /java/com.aspose.words/idocumentloadingcallback/
 ---
 ```
@@ -27,7 +28,7 @@ This is called to notify of document loading progress.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| args | [DocumentLoadingArgs](../../com.aspose.words/documentloadingargs) | An argument of the event. The primary uses for this interface is to allow application code to obtain progress status and abort loading process.
+| args | [DocumentLoadingArgs](../../com.aspose.words/documentloadingargs/) | An argument of the event. The primary uses for this interface is to allow application code to obtain progress status and abort loading process.
 
 An exception should be threw from the progress callback for abortion and it should be caught in the consumer code. |
 

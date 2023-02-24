@@ -1,9 +1,10 @@
 ---
 title: IDocumentSavingCallback
+linktitle: IDocumentSavingCallback
 second_title: Aspose.Words for Java API Reference
-description: Implement this interface if you want to have your own custom method called during saving a document.
+description: Implement this interface if you want to have your own custom method called during saving a document in Java.
 type: docs
-weight: 643
+weight: 645
 url: /java/com.aspose.words/idocumentsavingcallback/
 ---
 ```
@@ -27,7 +28,7 @@ This is called to notify of document saving progress.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| args | [DocumentSavingArgs](../../com.aspose.words/documentsavingargs) | An argument of the event. The primary uses for this interface is to allow application code to obtain progress status and abort saving process.
+| args | [DocumentSavingArgs](../../com.aspose.words/documentsavingargs/) | An argument of the event. The primary uses for this interface is to allow application code to obtain progress status and abort saving process.
 
 An exception should be threw from the progress callback for abortion and it should be caught in the consumer code. |
 

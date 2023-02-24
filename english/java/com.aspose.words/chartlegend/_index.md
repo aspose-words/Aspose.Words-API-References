@@ -1,7 +1,8 @@
 ---
 title: ChartLegend
+linktitle: ChartLegend
 second_title: Aspose.Words for Java API Reference
-description: Represents chart legend properties.
+description: Represents chart legend properties in Java.
 type: docs
 weight: 63
 url: /java/com.aspose.words/chartlegend/
@@ -26,7 +27,7 @@ To learn more, visit the [ Working with Charts ][Working with Charts] documentat
 
 | Constructor | Description |
 | --- | --- |
-| [ChartLegend()](#ChartLegend) | Initializes a new instance of the [ChartLegend](../../com.aspose.words/chartlegend) class. |
+| [ChartLegend()](#ChartLegend) | Initializes a new instance of the [ChartLegend](../../com.aspose.words/chartlegend/) class. |
 ## Methods
 
 | Method | Description |
@@ -51,7 +52,7 @@ public ChartLegend()
 ```
 
 
-Initializes a new instance of the [ChartLegend](../../com.aspose.words/chartlegend) class.
+Initializes a new instance of the [ChartLegend](../../com.aspose.words/chartlegend/) class.
 
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
@@ -87,7 +88,7 @@ public ChartLegendEntryCollection getLegendEntries()
 Returns a collection of legend entries for all series and trendlines of the parent chart.
 
 **Returns:**
-[ChartLegendEntryCollection](../../com.aspose.words/chartlegendentrycollection) - A collection of legend entries for all series and trendlines of the parent chart.
+[ChartLegendEntryCollection](../../com.aspose.words/chartlegendentrycollection/) - A collection of legend entries for all series and trendlines of the parent chart.
 ### getOverlay() {#getOverlay}
 ```
 public boolean getOverlay()
@@ -104,10 +105,10 @@ public int getPosition()
 ```
 
 
-Specifies the position of the legend on a chart. Default value is [LegendPosition.RIGHT](../../com.aspose.words/legendposition\#RIGHT).
+Specifies the position of the legend on a chart. Default value is [LegendPosition.RIGHT](../../com.aspose.words/legendposition/\#RIGHT).
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [LegendPosition](../../com.aspose.words/legendposition) constants.
+int - The corresponding  int  value. The returned value is one of [LegendPosition](../../com.aspose.words/legendposition/) constants.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()
@@ -153,12 +154,12 @@ public void setPosition(int value)
 ```
 
 
-Specifies the position of the legend on a chart. Default value is [LegendPosition.RIGHT](../../com.aspose.words/legendposition\#RIGHT).
+Specifies the position of the legend on a chart. Default value is [LegendPosition.RIGHT](../../com.aspose.words/legendposition/\#RIGHT).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [LegendPosition](../../com.aspose.words/legendposition) constants. |
+| value | int | The corresponding  int  value. The value must be one of [LegendPosition](../../com.aspose.words/legendposition/) constants. |
 
 ### toString() {#toString}
 ```

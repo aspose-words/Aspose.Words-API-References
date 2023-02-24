@@ -1,14 +1,15 @@
 ---
 title: FieldMergingArgs
+linktitle: FieldMergingArgs
 second_title: Aspose.Words for Java API Reference
-description: Provides data for the MergeField event.
+description: Provides data for the MergeField event in Java.
 type: docs
 weight: 219
 url: /java/com.aspose.words/fieldmergingargs/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.words.FieldMergingArgsBase](../../com.aspose.words/fieldmergingargsbase)
+java.lang.Object, [com.aspose.words.FieldMergingArgsBase](../../com.aspose.words/fieldmergingargsbase/)
 ```
 public class FieldMergingArgs extends FieldMergingArgsBase
 ```
@@ -27,7 +28,7 @@ The **MergeField** event occurs during mail merge when a simple mail merge field
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getClass()](#getClass) |  |
-| [getDocument()](#getDocument) | Returns the [getDocument()](../../com.aspose.words/fieldmergingargsbase\#getDocument) object for which the mail merge is performed. |
+| [getDocument()](#getDocument) | Returns the [getDocument()](../../com.aspose.words/fieldmergingargsbase/\#getDocument) object for which the mail merge is performed. |
 | [getDocumentFieldName()](#getDocumentFieldName) | Gets the name of the merge field as specified in the document. |
 | [getField()](#getField) | Gets the object that represents the current merge field. |
 | [getFieldName()](#getFieldName) | Gets the name of the merge field in the data source. |
@@ -75,10 +76,10 @@ public Document getDocument()
 ```
 
 
-Returns the [getDocument()](../../com.aspose.words/fieldmergingargsbase\#getDocument) object for which the mail merge is performed.
+Returns the [getDocument()](../../com.aspose.words/fieldmergingargsbase/\#getDocument) object for which the mail merge is performed.
 
 **Returns:**
-[Document](../../com.aspose.words/document) - The [getDocument()](../../com.aspose.words/fieldmergingargsbase\#getDocument) object for which the mail merge is performed.
+[Document](../../com.aspose.words/document/) - The [getDocument()](../../com.aspose.words/fieldmergingargsbase/\#getDocument) object for which the mail merge is performed.
 ### getDocumentFieldName() {#getDocumentFieldName}
 ```
 public String getDocumentFieldName()
@@ -89,7 +90,7 @@ Gets the name of the merge field as specified in the document.
 
 If you have a mapping from a document field name to a different data source field name, then this is the original field name as specified in the document.
 
-If you specified a field name prefix, for example "Image:MyFieldName" in the document, then [getDocumentFieldName()](../../com.aspose.words/fieldmergingargsbase\#getDocumentFieldName) returns field name without the prefix, that is "MyFieldName".
+If you specified a field name prefix, for example "Image:MyFieldName" in the document, then [getDocumentFieldName()](../../com.aspose.words/fieldmergingargsbase/\#getDocumentFieldName) returns field name without the prefix, that is "MyFieldName".
 
 **Returns:**
 java.lang.String - The name of the merge field as specified in the document.
@@ -102,7 +103,7 @@ public FieldMergeField getField()
 Gets the object that represents the current merge field.
 
 **Returns:**
-[FieldMergeField](../../com.aspose.words/fieldmergefield) - The object that represents the current merge field.
+[FieldMergeField](../../com.aspose.words/fieldmergefield/) - The object that represents the current merge field.
 ### getFieldName() {#getFieldName}
 ```
 public String getFieldName()
@@ -113,7 +114,7 @@ Gets the name of the merge field in the data source.
 
 If you have a mapping from a document field name to a different data source field name, then this is the mapped field name.
 
-If you specified a field name prefix, for example "Image:MyFieldName" in the document, then [getFieldName()](../../com.aspose.words/fieldmergingargsbase\#getFieldName) returns field name without the prefix, that is "MyFieldName".
+If you specified a field name prefix, for example "Image:MyFieldName" in the document, then [getFieldName()](../../com.aspose.words/fieldmergingargsbase/\#getFieldName) returns field name without the prefix, that is "MyFieldName".
 
 **Returns:**
 java.lang.String - The name of the merge field in the data source.
@@ -157,7 +158,7 @@ Gets the text that will be inserted into the document for the current merge fiel
 
 When your event handler is called, this property is set to  null .
 
-If you leave Text as  null , the mail merge engine will insert [FieldMergingArgsBase.getFieldValue()](../../com.aspose.words/fieldmergingargsbase\#getFieldValue) / [FieldMergingArgsBase.setFieldValue(java.lang.Object)](../../com.aspose.words/fieldmergingargsbase\#setFieldValue-java.lang.Object) in place of the merge field.
+If you leave Text as  null , the mail merge engine will insert [FieldMergingArgsBase.getFieldValue()](../../com.aspose.words/fieldmergingargsbase/\#getFieldValue) / [FieldMergingArgsBase.setFieldValue(java.lang.Object)](../../com.aspose.words/fieldmergingargsbase/\#setFieldValue-java.lang.Object) in place of the merge field.
 
 If you set Text to any string (including empty), the string will be inserted into the document in place of the merge field.
 
@@ -212,7 +213,7 @@ Sets the text that will be inserted into the document for the current merge fiel
 
 When your event handler is called, this property is set to  null .
 
-If you leave Text as  null , the mail merge engine will insert [FieldMergingArgsBase.getFieldValue()](../../com.aspose.words/fieldmergingargsbase\#getFieldValue) / [FieldMergingArgsBase.setFieldValue(java.lang.Object)](../../com.aspose.words/fieldmergingargsbase\#setFieldValue-java.lang.Object) in place of the merge field.
+If you leave Text as  null , the mail merge engine will insert [FieldMergingArgsBase.getFieldValue()](../../com.aspose.words/fieldmergingargsbase/\#getFieldValue) / [FieldMergingArgsBase.setFieldValue(java.lang.Object)](../../com.aspose.words/fieldmergingargsbase/\#setFieldValue-java.lang.Object) in place of the merge field.
 
 If you set Text to any string (including empty), the string will be inserted into the document in place of the merge field.
 

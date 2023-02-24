@@ -1,7 +1,8 @@
 ---
 title: DocumentLoadingArgs
+linktitle: DocumentLoadingArgs
 second_title: Aspose.Words for Java API Reference
-description: An argument passed into .
+description: An argument passed into in Java.
 type: docs
 weight: 125
 url: /java/com.aspose.words/documentloadingargs/
@@ -13,7 +14,7 @@ java.lang.Object
 public class DocumentLoadingArgs
 ```
 
-An argument passed into [IDocumentLoadingCallback.notify(com.aspose.words.DocumentLoadingArgs)](../../com.aspose.words/idocumentloadingcallback\#notify-com.aspose.words.DocumentLoadingArgs).
+An argument passed into [IDocumentLoadingCallback.notify(com.aspose.words.DocumentLoadingArgs)](../../com.aspose.words/idocumentloadingcallback/\#notify-com.aspose.words.DocumentLoadingArgs).
 
 To learn more, visit the [ Specify Load Options ][Specify Load Options] documentation article.
 

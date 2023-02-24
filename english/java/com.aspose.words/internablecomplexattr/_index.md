@@ -1,7 +1,8 @@
 ---
 title: InternableComplexAttr
+linktitle: InternableComplexAttr
 second_title: Aspose.Words for Java API Reference
-description: Base class for internable complex attribute.
+description: Base class for internable complex attribute in Java.
 type: docs
 weight: 353
 url: /java/com.aspose.words/internablecomplexattr/

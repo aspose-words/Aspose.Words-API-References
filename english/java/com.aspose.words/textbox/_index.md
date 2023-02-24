@@ -1,9 +1,10 @@
 ---
 title: TextBox
+linktitle: TextBox
 second_title: Aspose.Words for Java API Reference
-description: Defines attributes that specify how a text is displayed inside a shape.
+description: Defines attributes that specify how a text is displayed inside a shape in Java.
 type: docs
-weight: 562
+weight: 564
 url: /java/com.aspose.words/textbox/
 ---
 
@@ -17,7 +18,7 @@ Defines attributes that specify how a text is displayed inside a shape.
 
 To learn more, visit the [ Working with Shapes ][Working with Shapes] documentation article.
 
-Use the [Shape.getTextBox()](../../com.aspose.words/shape\#getTextBox) property to access text properties of a shape. You do not create instances of the [TextBox](../../com.aspose.words/textbox) class directly.
+Use the [Shape.getTextBox()](../../com.aspose.words/shape/\#getTextBox) property to access text properties of a shape. You do not create instances of the [TextBox](../../com.aspose.words/textbox/) class directly.
 
 
 [Working with Shapes]: https://docs.aspose.com/words/java/working-with-shapes/
@@ -25,7 +26,7 @@ Use the [Shape.getTextBox()](../../com.aspose.words/shape\#getTextBox) property 
 
 | Method | Description |
 | --- | --- |
-| [breakForwardLink()](#breakForwardLink) | Breaks the link to the next [TextBox](../../com.aspose.words/textbox). |
+| [breakForwardLink()](#breakForwardLink) | Breaks the link to the next [TextBox](../../com.aspose.words/textbox/). |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getClass()](#getClass) |  |
 | [getFitShapeToText()](#getFitShapeToText) | Determines whether Microsoft Word will grow the shape to fit text. |
@@ -34,13 +35,13 @@ Use the [Shape.getTextBox()](../../com.aspose.words/shape\#getTextBox) property 
 | [getInternalMarginRight()](#getInternalMarginRight) | Specifies the inner right margin in points for a shape. |
 | [getInternalMarginTop()](#getInternalMarginTop) | Specifies the inner top margin in points for a shape. |
 | [getLayoutFlow()](#getLayoutFlow) | Determines the flow of the text layout in a shape. |
-| [getNext()](#getNext) | Gets a [TextBox](../../com.aspose.words/textbox) that represents the next [TextBox](../../com.aspose.words/textbox) in a sequence of shapes. |
-| [getParent()](#getParent) | Gets a parent shape for the [TextBox](../../com.aspose.words/textbox). |
-| [getPrevious()](#getPrevious) | Returns a [TextBox](../../com.aspose.words/textbox) that represents the previous [TextBox](../../com.aspose.words/textbox) in a sequence of shapes. |
+| [getNext()](#getNext) | Gets a [TextBox](../../com.aspose.words/textbox/) that represents the next [TextBox](../../com.aspose.words/textbox/) in a sequence of shapes. |
+| [getParent()](#getParent) | Gets a parent shape for the [TextBox](../../com.aspose.words/textbox/). |
+| [getPrevious()](#getPrevious) | Returns a [TextBox](../../com.aspose.words/textbox/) that represents the previous [TextBox](../../com.aspose.words/textbox/) in a sequence of shapes. |
 | [getTextBoxWrapMode()](#getTextBoxWrapMode) | Determines how text wraps inside a shape. |
 | [getVerticalAnchor()](#getVerticalAnchor) | Specifies the vertical alignment of the text within a shape. |
 | [hashCode()](#hashCode) |  |
-| [isValidLinkTarget(TextBox target)](#isValidLinkTarget-com.aspose.words.TextBox) | Determines whether this [TextBox](../../com.aspose.words/textbox) can be linked to the target [TextBox](../../com.aspose.words/textbox). |
+| [isValidLinkTarget(TextBox target)](#isValidLinkTarget-com.aspose.words.TextBox) | Determines whether this [TextBox](../../com.aspose.words/textbox/) can be linked to the target [TextBox](../../com.aspose.words/textbox/). |
 | [notify()](#notify) |  |
 | [notifyAll()](#notifyAll) |  |
 | [setFitShapeToText(boolean value)](#setFitShapeToText-boolean) | Determines whether Microsoft Word will grow the shape to fit text. |
@@ -49,7 +50,7 @@ Use the [Shape.getTextBox()](../../com.aspose.words/shape\#getTextBox) property 
 | [setInternalMarginRight(double value)](#setInternalMarginRight-double) | Specifies the inner right margin in points for a shape. |
 | [setInternalMarginTop(double value)](#setInternalMarginTop-double) | Specifies the inner top margin in points for a shape. |
 | [setLayoutFlow(int value)](#setLayoutFlow-int) | Determines the flow of the text layout in a shape. |
-| [setNext(TextBox value)](#setNext-com.aspose.words.TextBox) | Sets a [TextBox](../../com.aspose.words/textbox) that represents the next [TextBox](../../com.aspose.words/textbox) in a sequence of shapes. |
+| [setNext(TextBox value)](#setNext-com.aspose.words.TextBox) | Sets a [TextBox](../../com.aspose.words/textbox/) that represents the next [TextBox](../../com.aspose.words/textbox/) in a sequence of shapes. |
 | [setTextBoxWrapMode(int value)](#setTextBoxWrapMode-int) | Determines how text wraps inside a shape. |
 | [setVerticalAnchor(int value)](#setVerticalAnchor-int) | Specifies the vertical alignment of the text within a shape. |
 | [toString()](#toString) |  |
@@ -62,7 +63,7 @@ public void breakForwardLink()
 ```
 
 
-Breaks the link to the next [TextBox](../../com.aspose.words/textbox). [breakForwardLink()](../../com.aspose.words/textbox\#breakForwardLink) doesn't break all other links in the current sequence of shapes. For example: 1-2-3-4 sequence and [breakForwardLink()](../../com.aspose.words/textbox\#breakForwardLink) at the 2-nd textbox will create two sequences 1-2, 3-4.
+Breaks the link to the next [TextBox](../../com.aspose.words/textbox/). [breakForwardLink()](../../com.aspose.words/textbox/\#breakForwardLink) doesn't break all other links in the current sequence of shapes. For example: 1-2-3-4 sequence and [breakForwardLink()](../../com.aspose.words/textbox/\#breakForwardLink) at the 2-nd textbox will create two sequences 1-2, 3-4.
 
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
@@ -157,40 +158,40 @@ public int getLayoutFlow()
 
 Determines the flow of the text layout in a shape.
 
-The default value is [LayoutFlow.HORIZONTAL](../../com.aspose.words/layoutflow\#HORIZONTAL).
+The default value is [LayoutFlow.HORIZONTAL](../../com.aspose.words/layoutflow/\#HORIZONTAL).
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [LayoutFlow](../../com.aspose.words/layoutflow) constants.
+int - The corresponding  int  value. The returned value is one of [LayoutFlow](../../com.aspose.words/layoutflow/) constants.
 ### getNext() {#getNext}
 ```
 public TextBox getNext()
 ```
 
 
-Gets a [TextBox](../../com.aspose.words/textbox) that represents the next [TextBox](../../com.aspose.words/textbox) in a sequence of shapes.
+Gets a [TextBox](../../com.aspose.words/textbox/) that represents the next [TextBox](../../com.aspose.words/textbox/) in a sequence of shapes.
 
 **Returns:**
-[TextBox](../../com.aspose.words/textbox) - A [TextBox](../../com.aspose.words/textbox) that represents the next [TextBox](../../com.aspose.words/textbox) in a sequence of shapes.
+[TextBox](../../com.aspose.words/textbox/) - A [TextBox](../../com.aspose.words/textbox/) that represents the next [TextBox](../../com.aspose.words/textbox/) in a sequence of shapes.
 ### getParent() {#getParent}
 ```
 public Shape getParent()
 ```
 
 
-Gets a parent shape for the [TextBox](../../com.aspose.words/textbox).
+Gets a parent shape for the [TextBox](../../com.aspose.words/textbox/).
 
 **Returns:**
-[Shape](../../com.aspose.words/shape) - A parent shape for the [TextBox](../../com.aspose.words/textbox).
+[Shape](../../com.aspose.words/shape/) - A parent shape for the [TextBox](../../com.aspose.words/textbox/).
 ### getPrevious() {#getPrevious}
 ```
 public TextBox getPrevious()
 ```
 
 
-Returns a [TextBox](../../com.aspose.words/textbox) that represents the previous [TextBox](../../com.aspose.words/textbox) in a sequence of shapes.
+Returns a [TextBox](../../com.aspose.words/textbox/) that represents the previous [TextBox](../../com.aspose.words/textbox/) in a sequence of shapes.
 
 **Returns:**
-[TextBox](../../com.aspose.words/textbox) - A [TextBox](../../com.aspose.words/textbox) that represents the previous [TextBox](../../com.aspose.words/textbox) in a sequence of shapes.
+[TextBox](../../com.aspose.words/textbox/) - A [TextBox](../../com.aspose.words/textbox/) that represents the previous [TextBox](../../com.aspose.words/textbox/) in a sequence of shapes.
 ### getTextBoxWrapMode() {#getTextBoxWrapMode}
 ```
 public int getTextBoxWrapMode()
@@ -199,10 +200,10 @@ public int getTextBoxWrapMode()
 
 Determines how text wraps inside a shape.
 
-The default value is [TextBoxWrapMode.SQUARE](../../com.aspose.words/textboxwrapmode\#SQUARE).
+The default value is [TextBoxWrapMode.SQUARE](../../com.aspose.words/textboxwrapmode/\#SQUARE).
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [TextBoxWrapMode](../../com.aspose.words/textboxwrapmode) constants.
+int - The corresponding  int  value. The returned value is one of [TextBoxWrapMode](../../com.aspose.words/textboxwrapmode/) constants.
 ### getVerticalAnchor() {#getVerticalAnchor}
 ```
 public int getVerticalAnchor()
@@ -211,10 +212,10 @@ public int getVerticalAnchor()
 
 Specifies the vertical alignment of the text within a shape.
 
-The default value is [TextBoxAnchor.TOP](../../com.aspose.words/textboxanchor\#TOP).
+The default value is [TextBoxAnchor.TOP](../../com.aspose.words/textboxanchor/\#TOP).
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [TextBoxAnchor](../../com.aspose.words/textboxanchor) constants.
+int - The corresponding  int  value. The returned value is one of [TextBoxAnchor](../../com.aspose.words/textboxanchor/) constants.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()
@@ -231,12 +232,12 @@ public boolean isValidLinkTarget(TextBox target)
 ```
 
 
-Determines whether this [TextBox](../../com.aspose.words/textbox) can be linked to the target [TextBox](../../com.aspose.words/textbox).
+Determines whether this [TextBox](../../com.aspose.words/textbox/) can be linked to the target [TextBox](../../com.aspose.words/textbox/).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| target | [TextBox](../../com.aspose.words/textbox) |  |
+| target | [TextBox](../../com.aspose.words/textbox/) |  |
 
 **Returns:**
 boolean
@@ -339,12 +340,12 @@ public void setLayoutFlow(int value)
 
 Determines the flow of the text layout in a shape.
 
-The default value is [LayoutFlow.HORIZONTAL](../../com.aspose.words/layoutflow\#HORIZONTAL).
+The default value is [LayoutFlow.HORIZONTAL](../../com.aspose.words/layoutflow/\#HORIZONTAL).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [LayoutFlow](../../com.aspose.words/layoutflow) constants. |
+| value | int | The corresponding  int  value. The value must be one of [LayoutFlow](../../com.aspose.words/layoutflow/) constants. |
 
 ### setNext(TextBox value) {#setNext-com.aspose.words.TextBox}
 ```
@@ -352,12 +353,12 @@ public void setNext(TextBox value)
 ```
 
 
-Sets a [TextBox](../../com.aspose.words/textbox) that represents the next [TextBox](../../com.aspose.words/textbox) in a sequence of shapes.
+Sets a [TextBox](../../com.aspose.words/textbox/) that represents the next [TextBox](../../com.aspose.words/textbox/) in a sequence of shapes.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [TextBox](../../com.aspose.words/textbox) | A [TextBox](../../com.aspose.words/textbox) that represents the next [TextBox](../../com.aspose.words/textbox) in a sequence of shapes. |
+| value | [TextBox](../../com.aspose.words/textbox/) | A [TextBox](../../com.aspose.words/textbox/) that represents the next [TextBox](../../com.aspose.words/textbox/) in a sequence of shapes. |
 
 ### setTextBoxWrapMode(int value) {#setTextBoxWrapMode-int}
 ```
@@ -367,12 +368,12 @@ public void setTextBoxWrapMode(int value)
 
 Determines how text wraps inside a shape.
 
-The default value is [TextBoxWrapMode.SQUARE](../../com.aspose.words/textboxwrapmode\#SQUARE).
+The default value is [TextBoxWrapMode.SQUARE](../../com.aspose.words/textboxwrapmode/\#SQUARE).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [TextBoxWrapMode](../../com.aspose.words/textboxwrapmode) constants. |
+| value | int | The corresponding  int  value. The value must be one of [TextBoxWrapMode](../../com.aspose.words/textboxwrapmode/) constants. |
 
 ### setVerticalAnchor(int value) {#setVerticalAnchor-int}
 ```
@@ -382,12 +383,12 @@ public void setVerticalAnchor(int value)
 
 Specifies the vertical alignment of the text within a shape.
 
-The default value is [TextBoxAnchor.TOP](../../com.aspose.words/textboxanchor\#TOP).
+The default value is [TextBoxAnchor.TOP](../../com.aspose.words/textboxanchor/\#TOP).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [TextBoxAnchor](../../com.aspose.words/textboxanchor) constants. |
+| value | int | The corresponding  int  value. The value must be one of [TextBoxAnchor](../../com.aspose.words/textboxanchor/) constants. |
 
 ### toString() {#toString}
 ```

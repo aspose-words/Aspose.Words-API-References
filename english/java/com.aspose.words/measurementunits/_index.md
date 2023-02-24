@@ -1,9 +1,10 @@
 ---
 title: MeasurementUnits
+linktitle: MeasurementUnits
 second_title: Aspose.Words for Java API Reference
-description: Specifies the unit of measurement.
+description: Specifies the unit of measurement in Java.
 type: docs
-weight: 396
+weight: 398
 url: /java/com.aspose.words/measurementunits/
 ---
 

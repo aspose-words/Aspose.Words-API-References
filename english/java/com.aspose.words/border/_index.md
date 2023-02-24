@@ -1,14 +1,15 @@
 ---
 title: Border
+linktitle: Border
 second_title: Aspose.Words for Java API Reference
-description: Represents a border of an object.
+description: Represents a border of an object in Java.
 type: docs
 weight: 36
 url: /java/com.aspose.words/border/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.words.InternableComplexAttr](../../com.aspose.words/internablecomplexattr)
+java.lang.Object, [com.aspose.words.InternableComplexAttr](../../com.aspose.words/internablecomplexattr/)
 
 **All Implemented Interfaces:**
 java.lang.Cloneable
@@ -41,7 +42,7 @@ Borders can be applied to various document elements including paragraph, run of 
 | [getTintAndShade()](#getTintAndShade) | Gets a double value that lightens or darkens a color. |
 | [hashCode()](#hashCode) |  |
 | [isInheritedComplexAttr()](#isInheritedComplexAttr) |  |
-| [isVisible()](#isVisible) | Returns  true  if the [getLineStyle()](../../com.aspose.words/border\#getLineStyle) / [setLineStyle(int)](../../com.aspose.words/border\#setLineStyle-int) is not [LineStyle.NONE](../../com.aspose.words/linestyle\#NONE). |
+| [isVisible()](#isVisible) | Returns  true  if the [getLineStyle()](../../com.aspose.words/border/\#getLineStyle) / [setLineStyle(int)](../../com.aspose.words/border/\#setLineStyle-int) is not [LineStyle.NONE](../../com.aspose.words/linestyle/\#NONE). |
 | [notify()](#notify) |  |
 | [notifyAll()](#notifyAll) |  |
 | [setColor(Color value)](#setColor-java.awt.Color) | Sets the border color. |
@@ -74,7 +75,7 @@ Determines whether the specified border is equal in value to the current border.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rhs | [Border](../../com.aspose.words/border) |  |
+| rhs | [Border](../../com.aspose.words/border/) |  |
 
 **Returns:**
 boolean
@@ -134,7 +135,7 @@ Gets the border style.
 If you set line style to none, then line width is automatically changed to zero.
 
 **Returns:**
-int - The border style. The returned value is one of [LineStyle](../../com.aspose.words/linestyle) constants.
+int - The border style. The returned value is one of [LineStyle](../../com.aspose.words/linestyle/) constants.
 ### getLineWidth() {#getLineWidth}
 ```
 public double getLineWidth()
@@ -168,7 +169,7 @@ public int getThemeColor()
 Gets the theme color in the applied color scheme that is associated with this Border object.
 
 **Returns:**
-int - The theme color in the applied color scheme that is associated with this Border object. The returned value is one of [ThemeColor](../../com.aspose.words/themecolor) constants.
+int - The theme color in the applied color scheme that is associated with this Border object. The returned value is one of [ThemeColor](../../com.aspose.words/themecolor/) constants.
 ### getTintAndShade() {#getTintAndShade}
 ```
 public double getTintAndShade()
@@ -209,10 +210,10 @@ public boolean isVisible()
 ```
 
 
-Returns  true  if the [getLineStyle()](../../com.aspose.words/border\#getLineStyle) / [setLineStyle(int)](../../com.aspose.words/border\#setLineStyle-int) is not [LineStyle.NONE](../../com.aspose.words/linestyle\#NONE).
+Returns  true  if the [getLineStyle()](../../com.aspose.words/border/\#getLineStyle) / [setLineStyle(int)](../../com.aspose.words/border/\#setLineStyle-int) is not [LineStyle.NONE](../../com.aspose.words/linestyle/\#NONE).
 
 **Returns:**
-boolean - \{ true  if the [getLineStyle()](../../com.aspose.words/border\#getLineStyle) / [setLineStyle(int)](../../com.aspose.words/border\#setLineStyle-int) is not [LineStyle.NONE](../../com.aspose.words/linestyle\#NONE).
+boolean - \{ true  if the [getLineStyle()](../../com.aspose.words/border/\#getLineStyle) / [setLineStyle(int)](../../com.aspose.words/border/\#setLineStyle-int) is not [LineStyle.NONE](../../com.aspose.words/linestyle/\#NONE).
 ### notify() {#notify}
 ```
 public final native void notify()
@@ -268,7 +269,7 @@ If you set line style to none, then line width is automatically changed to zero.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The border style. The value must be one of [LineStyle](../../com.aspose.words/linestyle) constants. |
+| value | int | The border style. The value must be one of [LineStyle](../../com.aspose.words/linestyle/) constants. |
 
 ### setLineWidth(double value) {#setLineWidth-double}
 ```
@@ -311,7 +312,7 @@ Sets the theme color in the applied color scheme that is associated with this Bo
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The theme color in the applied color scheme that is associated with this Border object. The value must be one of [ThemeColor](../../com.aspose.words/themecolor) constants. |
+| value | int | The theme color in the applied color scheme that is associated with this Border object. The value must be one of [ThemeColor](../../com.aspose.words/themecolor/) constants. |
 
 ### setTintAndShade(double value) {#setTintAndShade-double}
 ```

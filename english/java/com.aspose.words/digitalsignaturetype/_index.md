@@ -1,7 +1,8 @@
 ---
 title: DigitalSignatureType
+linktitle: DigitalSignatureType
 second_title: Aspose.Words for Java API Reference
-description: Specifies the type of a digital signature.
+description: Specifies the type of a digital signature in Java.
 type: docs
 weight: 114
 url: /java/com.aspose.words/digitalsignaturetype/

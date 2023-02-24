@@ -1,9 +1,10 @@
 ---
 title: OdsoRecipientDataCollection
+linktitle: OdsoRecipientDataCollection
 second_title: Aspose.Words for Java API Reference
-description: A typed collection of
+description: A typed collection of in Java.
 type: docs
-weight: 421
+weight: 423
 url: /java/com.aspose.words/odsorecipientdatacollection/
 ---
 
@@ -16,7 +17,7 @@ java.lang.Iterable
 public class OdsoRecipientDataCollection implements Iterable
 ```
 
-A typed collection of [OdsoRecipientData](../../com.aspose.words/odsorecipientdata)
+A typed collection of [OdsoRecipientData](../../com.aspose.words/odsorecipientdata/)
 
 To learn more, visit the [ Mail Merge and Reporting ][Mail Merge and Reporting] documentation article.
 
@@ -53,7 +54,7 @@ Adds an object to the end of this collection.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [OdsoRecipientData](../../com.aspose.words/odsorecipientdata) | The object to add. Cannot be  null . |
+| value | [OdsoRecipientData](../../com.aspose.words/odsorecipientdata/) | The object to add. Cannot be  null . |
 
 **Returns:**
 int
@@ -94,7 +95,7 @@ Gets an item in this collection.
 | index | int |  |
 
 **Returns:**
-[OdsoRecipientData](../../com.aspose.words/odsorecipientdata) - An item in this collection.
+[OdsoRecipientData](../../com.aspose.words/odsorecipientdata/) - An item in this collection.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -176,7 +177,7 @@ Sets an item in this collection.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int |  |
-| value | [OdsoRecipientData](../../com.aspose.words/odsorecipientdata) | An item in this collection. |
+| value | [OdsoRecipientData](../../com.aspose.words/odsorecipientdata/) | An item in this collection. |
 
 ### toString() {#toString}
 ```

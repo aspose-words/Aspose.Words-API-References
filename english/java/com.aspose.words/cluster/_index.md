@@ -1,7 +1,8 @@
 ---
 title: Cluster
+linktitle: Cluster
 second_title: Aspose.Words for Java API Reference
-description: 
+description: Encapsulates code points and glyphs composing a grapheme in Java.
 type: docs
 weight: 74
 url: /java/com.aspose.words/cluster/
@@ -12,24 +13,26 @@ java.lang.Object
 ```
 public class Cluster
 ```
+
+Encapsulates code points and glyphs composing a grapheme.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [Cluster(int[] codepoints, Glyph[] glyphs)](#Cluster-int---com.aspose.words.Glyph) | Initializes a new instance of this class. |
+| [Cluster(int[] codepoints, Glyph[] glyphs)](#Cluster-int---com.aspose.words.Glyph) | Initializes new instance of this class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [deepClone()](#deepClone) |  |
+| [deepClone()](#deepClone) | Returns a deep clone of this instance. |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getClass()](#getClass) |  |
-| [getCodepoints()](#getCodepoints) |  |
-| [getCodepointsLength()](#getCodepointsLength) |  |
-| [getGlyphs()](#getGlyphs) |  |
-| [getString()](#getString) |  |
-| [getString(Cluster[] clusters)](#getString-com.aspose.words.Cluster) |  |
-| [getWidth(int em, float fontSize)](#getWidth-int-float) |  |
+| [getCodepoints()](#getCodepoints) | Gets codepoints of the cluster. |
+| [getCodepointsLength()](#getCodepointsLength) | Gets total number of codepoints in the [Cluster](../../com.aspose.words/cluster/). |
+| [getGlyphs()](#getGlyphs) | Gets glyphs of the cluster. |
+| [getString()](#getString) | Creates java.lang.String using codepoints from this cluster. |
+| [getString(Cluster[] clusters)](#getString-com.aspose.words.Cluster) | Creates java.lang.String using codepoints from the specified clusters. |
+| [getWidth(int em, float fontSize)](#getWidth-int-float) | Returns width of the cluster. |
 | [hashCode()](#hashCode) |  |
 | [notify()](#notify) |  |
 | [notifyAll()](#notifyAll) |  |
@@ -43,13 +46,13 @@ public Cluster(int[] codepoints, Glyph[] glyphs)
 ```
 
 
-Initializes a new instance of this class.
+Initializes new instance of this class.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| codepoints | int[] |  |
-| glyphs | [Glyph\[\]](../../com.aspose.words/glyph) |  |
+| codepoints | int[] | Array of Unicode points composing a grapheme. |
+| glyphs | [Glyph\[\]](../../com.aspose.words/glyph/) | Array of [Glyph](../../com.aspose.words/glyph/) > composing a grapheme. |
 
 ### deepClone() {#deepClone}
 ```
@@ -57,10 +60,10 @@ public Cluster deepClone()
 ```
 
 
-
+Returns a deep clone of this instance.
 
 **Returns:**
-[Cluster](../../com.aspose.words/cluster)
+[Cluster](../../com.aspose.words/cluster/)
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
@@ -92,37 +95,37 @@ public int[] getCodepoints()
 ```
 
 
-
+Gets codepoints of the cluster.
 
 **Returns:**
-int[]
+int[] - Codepoints of the cluster.
 ### getCodepointsLength() {#getCodepointsLength}
 ```
 public int getCodepointsLength()
 ```
 
 
-
+Gets total number of codepoints in the [Cluster](../../com.aspose.words/cluster/).
 
 **Returns:**
-int
+int - Total number of codepoints in the [Cluster](../../com.aspose.words/cluster/).
 ### getGlyphs() {#getGlyphs}
 ```
 public Glyph[] getGlyphs()
 ```
 
 
-
+Gets glyphs of the cluster.
 
 **Returns:**
-com.aspose.words.Glyph[]
+com.aspose.words.Glyph[] - Glyphs of the cluster.
 ### getString() {#getString}
 ```
 public String getString()
 ```
 
 
-
+Creates java.lang.String using codepoints from this cluster.
 
 **Returns:**
 java.lang.String
@@ -132,12 +135,12 @@ public static String getString(Cluster[] clusters)
 ```
 
 
-
+Creates java.lang.String using codepoints from the specified clusters.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| clusters | [Cluster\[\]](../../com.aspose.words/cluster) |  |
+| clusters | [Cluster\[\]](../../com.aspose.words/cluster/) |  |
 
 **Returns:**
 java.lang.String
@@ -147,7 +150,7 @@ public float getWidth(int em, float fontSize)
 ```
 
 
-
+Returns width of the cluster.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -1,7 +1,8 @@
 ---
 title: FontInfoCollection
+linktitle: FontInfoCollection
 second_title: Aspose.Words for Java API Reference
-description: Represents a collection of fonts used in a document.
+description: Represents a collection of fonts used in a document in Java.
 type: docs
 weight: 283
 url: /java/com.aspose.words/fontinfocollection/
@@ -20,9 +21,9 @@ Represents a collection of fonts used in a document.
 
 To learn more, visit the [ Working with Fonts ][Working with Fonts] documentation article.
 
-Items are [FontInfo](../../com.aspose.words/fontinfo) objects.
+Items are [FontInfo](../../com.aspose.words/fontinfo/) objects.
 
-You do not create instances of this class directly. Use the [DocumentBase.getFontInfos()](../../com.aspose.words/documentbase\#getFontInfos) property to access the collection of fonts defined in the document.
+You do not create instances of this class directly. Use the [DocumentBase.getFontInfos()](../../com.aspose.words/documentbase/\#getFontInfos) property to access the collection of fonts defined in the document.
 
 
 [Working with Fonts]: https://docs.aspose.com/words/java/working-with-fonts/
@@ -94,7 +95,7 @@ Gets a font at the specified index.
 | index | int | Zero-based index of the font. |
 
 **Returns:**
-[FontInfo](../../com.aspose.words/fontinfo) - A font at the specified index.
+[FontInfo](../../com.aspose.words/fontinfo/) - A font at the specified index.
 ### get(String name) {#get-java.lang.String}
 ```
 public FontInfo get(String name)
@@ -109,7 +110,7 @@ Provides access to the collection items.  Gets a font with the specified name.
 | name | java.lang.String | Case-insensitive name of the font to locate. |
 
 **Returns:**
-[FontInfo](../../com.aspose.words/fontinfo) - The corresponding [FontInfo](../../com.aspose.words/fontinfo) value.
+[FontInfo](../../com.aspose.words/fontinfo/) - The corresponding [FontInfo](../../com.aspose.words/fontinfo/) value.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -138,7 +139,7 @@ public boolean getEmbedSystemFonts()
 
 Specifies whether or not to embed System fonts into the document. Default value for this property is  false .
 
-This option works only when [getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrueTypeFonts) / [setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrueTypeFonts-boolean) option is set to  true .
+This option works only when [getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection/\#getEmbedTrueTypeFonts) / [setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection/\#setEmbedTrueTypeFonts-boolean) option is set to  true .
 
 Setting this property to  true  is useful if the user is on an East Asian system and wants to create a document that is readable by others who do not have fonts for that language on their system. For example, a user on a Japanese system could choose to embed the fonts in a document so that the Japanese document would be readable on all systems.
 
@@ -168,7 +169,7 @@ public boolean getSaveSubsetFonts()
 
 Specifies whether or not to save a subset of the embedded TrueType fonts with the document. Default value for this property is  false .
 
-This option works only when [getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrueTypeFonts) / [setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrueTypeFonts-boolean) property is set to  true .
+This option works only when [getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection/\#getEmbedTrueTypeFonts) / [setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection/\#setEmbedTrueTypeFonts-boolean) property is set to  true .
 
 This option works for DOC, DOCX and RTF formats only.
 
@@ -218,7 +219,7 @@ public void setEmbedSystemFonts(boolean value)
 
 Specifies whether or not to embed System fonts into the document. Default value for this property is  false .
 
-This option works only when [getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrueTypeFonts) / [setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrueTypeFonts-boolean) option is set to  true .
+This option works only when [getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection/\#getEmbedTrueTypeFonts) / [setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection/\#setEmbedTrueTypeFonts-boolean) option is set to  true .
 
 Setting this property to  true  is useful if the user is on an East Asian system and wants to create a document that is readable by others who do not have fonts for that language on their system. For example, a user on a Japanese system could choose to embed the fonts in a document so that the Japanese document would be readable on all systems.
 
@@ -254,7 +255,7 @@ public void setSaveSubsetFonts(boolean value)
 
 Specifies whether or not to save a subset of the embedded TrueType fonts with the document. Default value for this property is  false .
 
-This option works only when [getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrueTypeFonts) / [setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrueTypeFonts-boolean) property is set to  true .
+This option works only when [getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection/\#getEmbedTrueTypeFonts) / [setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection/\#setEmbedTrueTypeFonts-boolean) property is set to  true .
 
 This option works for DOC, DOCX and RTF formats only.
 

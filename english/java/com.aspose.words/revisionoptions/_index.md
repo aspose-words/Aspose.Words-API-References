@@ -1,9 +1,10 @@
 ---
 title: RevisionOptions
+linktitle: RevisionOptions
 second_title: Aspose.Words for Java API Reference
-description: Allows to control how document revisions are handled during layout process.
+description: Allows to control how document revisions are handled during layout process in Java.
 type: docs
-weight: 492
+weight: 494
 url: /java/com.aspose.words/revisionoptions/
 ---
 
@@ -29,17 +30,17 @@ To learn more, visit the [ Converting to Fixed-page Format ][Converting to Fixed
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getClass()](#getClass) |  |
 | [getCommentColor()](#getCommentColor) | Allows to specify the color to be used for comments. |
-| [getDeletedTextColor()](#getDeletedTextColor) | Allows to specify the color to be used for deleted content [RevisionType.DELETION](../../com.aspose.words/revisiontype\#DELETION). |
-| [getDeletedTextEffect()](#getDeletedTextEffect) | Allows to specify the effect to be applied to the deleted content [RevisionType.DELETION](../../com.aspose.words/revisiontype\#DELETION). |
-| [getInsertedTextColor()](#getInsertedTextColor) | Allows to specify the color to be used for inserted content [RevisionType.INSERTION](../../com.aspose.words/revisiontype\#INSERTION). |
-| [getInsertedTextEffect()](#getInsertedTextEffect) | Allows to specify the effect to be applied to the inserted content [RevisionType.INSERTION](../../com.aspose.words/revisiontype\#INSERTION). |
+| [getDeletedTextColor()](#getDeletedTextColor) | Allows to specify the color to be used for deleted content [RevisionType.DELETION](../../com.aspose.words/revisiontype/\#DELETION). |
+| [getDeletedTextEffect()](#getDeletedTextEffect) | Allows to specify the effect to be applied to the deleted content [RevisionType.DELETION](../../com.aspose.words/revisiontype/\#DELETION). |
+| [getInsertedTextColor()](#getInsertedTextColor) | Allows to specify the color to be used for inserted content [RevisionType.INSERTION](../../com.aspose.words/revisiontype/\#INSERTION). |
+| [getInsertedTextEffect()](#getInsertedTextEffect) | Allows to specify the effect to be applied to the inserted content [RevisionType.INSERTION](../../com.aspose.words/revisiontype/\#INSERTION). |
 | [getMeasurementUnit()](#getMeasurementUnit) | Allows to specify the measurement units for revision comments. |
-| [getMovedFromTextColor()](#getMovedFromTextColor) | Allows to specify the color to be used for areas where content was moved from [RevisionType.MOVING](../../com.aspose.words/revisiontype\#MOVING). |
-| [getMovedFromTextEffect()](#getMovedFromTextEffect) | Allows to specify the effect to be applied to the areas where content was moved from [RevisionType.MOVING](../../com.aspose.words/revisiontype\#MOVING). |
-| [getMovedToTextColor()](#getMovedToTextColor) | Allows to specify the color to be used for areas where content was moved to [RevisionType.MOVING](../../com.aspose.words/revisiontype\#MOVING). |
-| [getMovedToTextEffect()](#getMovedToTextEffect) | Allows to specify the effect to be applied to the areas where content was moved to [RevisionType.MOVING](../../com.aspose.words/revisiontype\#MOVING). |
-| [getRevisedPropertiesColor()](#getRevisedPropertiesColor) | Allows to specify the color to be used for content with changes of formatting properties [RevisionType.FORMAT\_CHANGE](../../com.aspose.words/revisiontype\#FORMAT-CHANGE) Default value is [RevisionColor.NO\_HIGHLIGHT](../../com.aspose.words/revisioncolor\#NO-HIGHLIGHT). |
-| [getRevisedPropertiesEffect()](#getRevisedPropertiesEffect) | Allows to specify the effect for content areas with changes of formatting properties [RevisionType.FORMAT\_CHANGE](../../com.aspose.words/revisiontype\#FORMAT-CHANGE) Default value is [RevisionTextEffect.NONE](../../com.aspose.words/revisiontexteffect\#NONE) [RevisionTextEffect.HIDDEN](../../com.aspose.words/revisiontexteffect\#HIDDEN) is not allowed and will cause java.lang.IllegalArgumentException. |
+| [getMovedFromTextColor()](#getMovedFromTextColor) | Allows to specify the color to be used for areas where content was moved from [RevisionType.MOVING](../../com.aspose.words/revisiontype/\#MOVING). |
+| [getMovedFromTextEffect()](#getMovedFromTextEffect) | Allows to specify the effect to be applied to the areas where content was moved from [RevisionType.MOVING](../../com.aspose.words/revisiontype/\#MOVING). |
+| [getMovedToTextColor()](#getMovedToTextColor) | Allows to specify the color to be used for areas where content was moved to [RevisionType.MOVING](../../com.aspose.words/revisiontype/\#MOVING). |
+| [getMovedToTextEffect()](#getMovedToTextEffect) | Allows to specify the effect to be applied to the areas where content was moved to [RevisionType.MOVING](../../com.aspose.words/revisiontype/\#MOVING). |
+| [getRevisedPropertiesColor()](#getRevisedPropertiesColor) | Allows to specify the color to be used for content with changes of formatting properties [RevisionType.FORMAT\_CHANGE](../../com.aspose.words/revisiontype/\#FORMAT-CHANGE) Default value is [RevisionColor.NO\_HIGHLIGHT](../../com.aspose.words/revisioncolor/\#NO-HIGHLIGHT). |
+| [getRevisedPropertiesEffect()](#getRevisedPropertiesEffect) | Allows to specify the effect for content areas with changes of formatting properties [RevisionType.FORMAT\_CHANGE](../../com.aspose.words/revisiontype/\#FORMAT-CHANGE) Default value is [RevisionTextEffect.NONE](../../com.aspose.words/revisiontexteffect/\#NONE) [RevisionTextEffect.HIDDEN](../../com.aspose.words/revisiontexteffect/\#HIDDEN) is not allowed and will cause java.lang.IllegalArgumentException. |
 | [getRevisionBarsColor()](#getRevisionBarsColor) | Allows to specify the color to be used for side bars that identify document lines containing revised information. |
 | [getRevisionBarsPosition()](#getRevisionBarsPosition) | Gets rendering position of revision bars. |
 | [getRevisionBarsWidth()](#getRevisionBarsWidth) | Gets width of revision bars, points. |
@@ -51,17 +52,17 @@ To learn more, visit the [ Converting to Fixed-page Format ][Converting to Fixed
 | [notify()](#notify) |  |
 | [notifyAll()](#notifyAll) |  |
 | [setCommentColor(int value)](#setCommentColor-int) | Allows to specify the color to be used for comments. |
-| [setDeletedTextColor(int value)](#setDeletedTextColor-int) | Allows to specify the color to be used for deleted content [RevisionType.DELETION](../../com.aspose.words/revisiontype\#DELETION). |
-| [setDeletedTextEffect(int value)](#setDeletedTextEffect-int) | Allows to specify the effect to be applied to the deleted content [RevisionType.DELETION](../../com.aspose.words/revisiontype\#DELETION). |
-| [setInsertedTextColor(int value)](#setInsertedTextColor-int) | Allows to specify the color to be used for inserted content [RevisionType.INSERTION](../../com.aspose.words/revisiontype\#INSERTION). |
-| [setInsertedTextEffect(int value)](#setInsertedTextEffect-int) | Allows to specify the effect to be applied to the inserted content [RevisionType.INSERTION](../../com.aspose.words/revisiontype\#INSERTION). |
+| [setDeletedTextColor(int value)](#setDeletedTextColor-int) | Allows to specify the color to be used for deleted content [RevisionType.DELETION](../../com.aspose.words/revisiontype/\#DELETION). |
+| [setDeletedTextEffect(int value)](#setDeletedTextEffect-int) | Allows to specify the effect to be applied to the deleted content [RevisionType.DELETION](../../com.aspose.words/revisiontype/\#DELETION). |
+| [setInsertedTextColor(int value)](#setInsertedTextColor-int) | Allows to specify the color to be used for inserted content [RevisionType.INSERTION](../../com.aspose.words/revisiontype/\#INSERTION). |
+| [setInsertedTextEffect(int value)](#setInsertedTextEffect-int) | Allows to specify the effect to be applied to the inserted content [RevisionType.INSERTION](../../com.aspose.words/revisiontype/\#INSERTION). |
 | [setMeasurementUnit(int value)](#setMeasurementUnit-int) | Allows to specify the measurement units for revision comments. |
-| [setMovedFromTextColor(int value)](#setMovedFromTextColor-int) | Allows to specify the color to be used for areas where content was moved from [RevisionType.MOVING](../../com.aspose.words/revisiontype\#MOVING). |
-| [setMovedFromTextEffect(int value)](#setMovedFromTextEffect-int) | Allows to specify the effect to be applied to the areas where content was moved from [RevisionType.MOVING](../../com.aspose.words/revisiontype\#MOVING). |
-| [setMovedToTextColor(int value)](#setMovedToTextColor-int) | Allows to specify the color to be used for areas where content was moved to [RevisionType.MOVING](../../com.aspose.words/revisiontype\#MOVING). |
-| [setMovedToTextEffect(int value)](#setMovedToTextEffect-int) | Allows to specify the effect to be applied to the areas where content was moved to [RevisionType.MOVING](../../com.aspose.words/revisiontype\#MOVING). |
-| [setRevisedPropertiesColor(int value)](#setRevisedPropertiesColor-int) | Allows to specify the color to be used for content with changes of formatting properties [RevisionType.FORMAT\_CHANGE](../../com.aspose.words/revisiontype\#FORMAT-CHANGE) Default value is [RevisionColor.NO\_HIGHLIGHT](../../com.aspose.words/revisioncolor\#NO-HIGHLIGHT). |
-| [setRevisedPropertiesEffect(int value)](#setRevisedPropertiesEffect-int) | Allows to specify the effect for content areas with changes of formatting properties [RevisionType.FORMAT\_CHANGE](../../com.aspose.words/revisiontype\#FORMAT-CHANGE) Default value is [RevisionTextEffect.NONE](../../com.aspose.words/revisiontexteffect\#NONE) [RevisionTextEffect.HIDDEN](../../com.aspose.words/revisiontexteffect\#HIDDEN) is not allowed and will cause java.lang.IllegalArgumentException. |
+| [setMovedFromTextColor(int value)](#setMovedFromTextColor-int) | Allows to specify the color to be used for areas where content was moved from [RevisionType.MOVING](../../com.aspose.words/revisiontype/\#MOVING). |
+| [setMovedFromTextEffect(int value)](#setMovedFromTextEffect-int) | Allows to specify the effect to be applied to the areas where content was moved from [RevisionType.MOVING](../../com.aspose.words/revisiontype/\#MOVING). |
+| [setMovedToTextColor(int value)](#setMovedToTextColor-int) | Allows to specify the color to be used for areas where content was moved to [RevisionType.MOVING](../../com.aspose.words/revisiontype/\#MOVING). |
+| [setMovedToTextEffect(int value)](#setMovedToTextEffect-int) | Allows to specify the effect to be applied to the areas where content was moved to [RevisionType.MOVING](../../com.aspose.words/revisiontype/\#MOVING). |
+| [setRevisedPropertiesColor(int value)](#setRevisedPropertiesColor-int) | Allows to specify the color to be used for content with changes of formatting properties [RevisionType.FORMAT\_CHANGE](../../com.aspose.words/revisiontype/\#FORMAT-CHANGE) Default value is [RevisionColor.NO\_HIGHLIGHT](../../com.aspose.words/revisioncolor/\#NO-HIGHLIGHT). |
+| [setRevisedPropertiesEffect(int value)](#setRevisedPropertiesEffect-int) | Allows to specify the effect for content areas with changes of formatting properties [RevisionType.FORMAT\_CHANGE](../../com.aspose.words/revisiontype/\#FORMAT-CHANGE) Default value is [RevisionTextEffect.NONE](../../com.aspose.words/revisiontexteffect/\#NONE) [RevisionTextEffect.HIDDEN](../../com.aspose.words/revisiontexteffect/\#HIDDEN) is not allowed and will cause java.lang.IllegalArgumentException. |
 | [setRevisionBarsColor(int value)](#setRevisionBarsColor-int) | Allows to specify the color to be used for side bars that identify document lines containing revised information. |
 | [setRevisionBarsPosition(int value)](#setRevisionBarsPosition-int) | Sets rendering position of revision bars. |
 | [setRevisionBarsWidth(float value)](#setRevisionBarsWidth-float) | Sets width of revision bars, points. |
@@ -104,140 +105,140 @@ public int getCommentColor()
 ```
 
 
-Allows to specify the color to be used for comments. Default value is [RevisionColor.RED](../../com.aspose.words/revisioncolor\#RED). If set this property to [RevisionColor.BY\_AUTHOR](../../com.aspose.words/revisioncolor\#BY-AUTHOR) or [RevisionColor.NO\_HIGHLIGHT](../../com.aspose.words/revisioncolor\#NO-HIGHLIGHT) values, as the result this property will be set to default color.
+Allows to specify the color to be used for comments. Default value is [RevisionColor.RED](../../com.aspose.words/revisioncolor/\#RED). If set this property to [RevisionColor.BY\_AUTHOR](../../com.aspose.words/revisioncolor/\#BY-AUTHOR) or [RevisionColor.NO\_HIGHLIGHT](../../com.aspose.words/revisioncolor/\#NO-HIGHLIGHT) values, as the result this property will be set to default color.
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [RevisionColor](../../com.aspose.words/revisioncolor) constants.
+int - The corresponding  int  value. The returned value is one of [RevisionColor](../../com.aspose.words/revisioncolor/) constants.
 ### getDeletedTextColor() {#getDeletedTextColor}
 ```
 public int getDeletedTextColor()
 ```
 
 
-Allows to specify the color to be used for deleted content [RevisionType.DELETION](../../com.aspose.words/revisiontype\#DELETION). Default value is [RevisionColor.BY\_AUTHOR](../../com.aspose.words/revisioncolor\#BY-AUTHOR).
+Allows to specify the color to be used for deleted content [RevisionType.DELETION](../../com.aspose.words/revisiontype/\#DELETION). Default value is [RevisionColor.BY\_AUTHOR](../../com.aspose.words/revisioncolor/\#BY-AUTHOR).
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [RevisionColor](../../com.aspose.words/revisioncolor) constants.
+int - The corresponding  int  value. The returned value is one of [RevisionColor](../../com.aspose.words/revisioncolor/) constants.
 ### getDeletedTextEffect() {#getDeletedTextEffect}
 ```
 public int getDeletedTextEffect()
 ```
 
 
-Allows to specify the effect to be applied to the deleted content [RevisionType.DELETION](../../com.aspose.words/revisiontype\#DELETION). Default value is [RevisionTextEffect.STRIKE\_THROUGH](../../com.aspose.words/revisiontexteffect\#STRIKE-THROUGH)
+Allows to specify the effect to be applied to the deleted content [RevisionType.DELETION](../../com.aspose.words/revisiontype/\#DELETION). Default value is [RevisionTextEffect.STRIKE\_THROUGH](../../com.aspose.words/revisiontexteffect/\#STRIKE-THROUGH)
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [RevisionTextEffect](../../com.aspose.words/revisiontexteffect) constants.
+int - The corresponding  int  value. The returned value is one of [RevisionTextEffect](../../com.aspose.words/revisiontexteffect/) constants.
 ### getInsertedTextColor() {#getInsertedTextColor}
 ```
 public int getInsertedTextColor()
 ```
 
 
-Allows to specify the color to be used for inserted content [RevisionType.INSERTION](../../com.aspose.words/revisiontype\#INSERTION). Default value is [RevisionColor.BY\_AUTHOR](../../com.aspose.words/revisioncolor\#BY-AUTHOR).
+Allows to specify the color to be used for inserted content [RevisionType.INSERTION](../../com.aspose.words/revisiontype/\#INSERTION). Default value is [RevisionColor.BY\_AUTHOR](../../com.aspose.words/revisioncolor/\#BY-AUTHOR).
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [RevisionColor](../../com.aspose.words/revisioncolor) constants.
+int - The corresponding  int  value. The returned value is one of [RevisionColor](../../com.aspose.words/revisioncolor/) constants.
 ### getInsertedTextEffect() {#getInsertedTextEffect}
 ```
 public int getInsertedTextEffect()
 ```
 
 
-Allows to specify the effect to be applied to the inserted content [RevisionType.INSERTION](../../com.aspose.words/revisiontype\#INSERTION). Default value is [RevisionTextEffect.UNDERLINE](../../com.aspose.words/revisiontexteffect\#UNDERLINE). Values of [RevisionTextEffect.HIDDEN](../../com.aspose.words/revisiontexteffect\#HIDDEN) and [RevisionTextEffect.DOUBLE\_STRIKE\_THROUGH](../../com.aspose.words/revisiontexteffect\#DOUBLE-STRIKE-THROUGH) are not allowed and will cause java.lang.IllegalArgumentException.
+Allows to specify the effect to be applied to the inserted content [RevisionType.INSERTION](../../com.aspose.words/revisiontype/\#INSERTION). Default value is [RevisionTextEffect.UNDERLINE](../../com.aspose.words/revisiontexteffect/\#UNDERLINE). Values of [RevisionTextEffect.HIDDEN](../../com.aspose.words/revisiontexteffect/\#HIDDEN) and [RevisionTextEffect.DOUBLE\_STRIKE\_THROUGH](../../com.aspose.words/revisiontexteffect/\#DOUBLE-STRIKE-THROUGH) are not allowed and will cause java.lang.IllegalArgumentException.
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [RevisionTextEffect](../../com.aspose.words/revisiontexteffect) constants.
+int - The corresponding  int  value. The returned value is one of [RevisionTextEffect](../../com.aspose.words/revisiontexteffect/) constants.
 ### getMeasurementUnit() {#getMeasurementUnit}
 ```
 public int getMeasurementUnit()
 ```
 
 
-Allows to specify the measurement units for revision comments. Default value is [MeasurementUnits.CENTIMETERS](../../com.aspose.words/measurementunits\#CENTIMETERS)
+Allows to specify the measurement units for revision comments. Default value is [MeasurementUnits.CENTIMETERS](../../com.aspose.words/measurementunits/\#CENTIMETERS)
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [MeasurementUnits](../../com.aspose.words/measurementunits) constants.
+int - The corresponding  int  value. The returned value is one of [MeasurementUnits](../../com.aspose.words/measurementunits/) constants.
 ### getMovedFromTextColor() {#getMovedFromTextColor}
 ```
 public int getMovedFromTextColor()
 ```
 
 
-Allows to specify the color to be used for areas where content was moved from [RevisionType.MOVING](../../com.aspose.words/revisiontype\#MOVING). Default value is [RevisionColor.BY\_AUTHOR](../../com.aspose.words/revisioncolor\#BY-AUTHOR).
+Allows to specify the color to be used for areas where content was moved from [RevisionType.MOVING](../../com.aspose.words/revisiontype/\#MOVING). Default value is [RevisionColor.BY\_AUTHOR](../../com.aspose.words/revisioncolor/\#BY-AUTHOR).
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [RevisionColor](../../com.aspose.words/revisioncolor) constants.
+int - The corresponding  int  value. The returned value is one of [RevisionColor](../../com.aspose.words/revisioncolor/) constants.
 ### getMovedFromTextEffect() {#getMovedFromTextEffect}
 ```
 public int getMovedFromTextEffect()
 ```
 
 
-Allows to specify the effect to be applied to the areas where content was moved from [RevisionType.MOVING](../../com.aspose.words/revisiontype\#MOVING). Default value is [RevisionTextEffect.DOUBLE\_STRIKE\_THROUGH](../../com.aspose.words/revisiontexteffect\#DOUBLE-STRIKE-THROUGH)
+Allows to specify the effect to be applied to the areas where content was moved from [RevisionType.MOVING](../../com.aspose.words/revisiontype/\#MOVING). Default value is [RevisionTextEffect.DOUBLE\_STRIKE\_THROUGH](../../com.aspose.words/revisiontexteffect/\#DOUBLE-STRIKE-THROUGH)
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [RevisionTextEffect](../../com.aspose.words/revisiontexteffect) constants.
+int - The corresponding  int  value. The returned value is one of [RevisionTextEffect](../../com.aspose.words/revisiontexteffect/) constants.
 ### getMovedToTextColor() {#getMovedToTextColor}
 ```
 public int getMovedToTextColor()
 ```
 
 
-Allows to specify the color to be used for areas where content was moved to [RevisionType.MOVING](../../com.aspose.words/revisiontype\#MOVING). Default value is [RevisionColor.BY\_AUTHOR](../../com.aspose.words/revisioncolor\#BY-AUTHOR).
+Allows to specify the color to be used for areas where content was moved to [RevisionType.MOVING](../../com.aspose.words/revisiontype/\#MOVING). Default value is [RevisionColor.BY\_AUTHOR](../../com.aspose.words/revisioncolor/\#BY-AUTHOR).
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [RevisionColor](../../com.aspose.words/revisioncolor) constants.
+int - The corresponding  int  value. The returned value is one of [RevisionColor](../../com.aspose.words/revisioncolor/) constants.
 ### getMovedToTextEffect() {#getMovedToTextEffect}
 ```
 public int getMovedToTextEffect()
 ```
 
 
-Allows to specify the effect to be applied to the areas where content was moved to [RevisionType.MOVING](../../com.aspose.words/revisiontype\#MOVING). Default value is [RevisionTextEffect.DOUBLE\_UNDERLINE](../../com.aspose.words/revisiontexteffect\#DOUBLE-UNDERLINE) Values of [RevisionTextEffect.HIDDEN](../../com.aspose.words/revisiontexteffect\#HIDDEN) and [RevisionTextEffect.DOUBLE\_STRIKE\_THROUGH](../../com.aspose.words/revisiontexteffect\#DOUBLE-STRIKE-THROUGH) are not allowed and will cause java.lang.IllegalArgumentException.
+Allows to specify the effect to be applied to the areas where content was moved to [RevisionType.MOVING](../../com.aspose.words/revisiontype/\#MOVING). Default value is [RevisionTextEffect.DOUBLE\_UNDERLINE](../../com.aspose.words/revisiontexteffect/\#DOUBLE-UNDERLINE) Values of [RevisionTextEffect.HIDDEN](../../com.aspose.words/revisiontexteffect/\#HIDDEN) and [RevisionTextEffect.DOUBLE\_STRIKE\_THROUGH](../../com.aspose.words/revisiontexteffect/\#DOUBLE-STRIKE-THROUGH) are not allowed and will cause java.lang.IllegalArgumentException.
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [RevisionTextEffect](../../com.aspose.words/revisiontexteffect) constants.
+int - The corresponding  int  value. The returned value is one of [RevisionTextEffect](../../com.aspose.words/revisiontexteffect/) constants.
 ### getRevisedPropertiesColor() {#getRevisedPropertiesColor}
 ```
 public int getRevisedPropertiesColor()
 ```
 
 
-Allows to specify the color to be used for content with changes of formatting properties [RevisionType.FORMAT\_CHANGE](../../com.aspose.words/revisiontype\#FORMAT-CHANGE) Default value is [RevisionColor.NO\_HIGHLIGHT](../../com.aspose.words/revisioncolor\#NO-HIGHLIGHT).
+Allows to specify the color to be used for content with changes of formatting properties [RevisionType.FORMAT\_CHANGE](../../com.aspose.words/revisiontype/\#FORMAT-CHANGE) Default value is [RevisionColor.NO\_HIGHLIGHT](../../com.aspose.words/revisioncolor/\#NO-HIGHLIGHT).
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [RevisionColor](../../com.aspose.words/revisioncolor) constants.
+int - The corresponding  int  value. The returned value is one of [RevisionColor](../../com.aspose.words/revisioncolor/) constants.
 ### getRevisedPropertiesEffect() {#getRevisedPropertiesEffect}
 ```
 public int getRevisedPropertiesEffect()
 ```
 
 
-Allows to specify the effect for content areas with changes of formatting properties [RevisionType.FORMAT\_CHANGE](../../com.aspose.words/revisiontype\#FORMAT-CHANGE) Default value is [RevisionTextEffect.NONE](../../com.aspose.words/revisiontexteffect\#NONE) [RevisionTextEffect.HIDDEN](../../com.aspose.words/revisiontexteffect\#HIDDEN) is not allowed and will cause java.lang.IllegalArgumentException.
+Allows to specify the effect for content areas with changes of formatting properties [RevisionType.FORMAT\_CHANGE](../../com.aspose.words/revisiontype/\#FORMAT-CHANGE) Default value is [RevisionTextEffect.NONE](../../com.aspose.words/revisiontexteffect/\#NONE) [RevisionTextEffect.HIDDEN](../../com.aspose.words/revisiontexteffect/\#HIDDEN) is not allowed and will cause java.lang.IllegalArgumentException.
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [RevisionTextEffect](../../com.aspose.words/revisiontexteffect) constants.
+int - The corresponding  int  value. The returned value is one of [RevisionTextEffect](../../com.aspose.words/revisiontexteffect/) constants.
 ### getRevisionBarsColor() {#getRevisionBarsColor}
 ```
 public int getRevisionBarsColor()
 ```
 
 
-Allows to specify the color to be used for side bars that identify document lines containing revised information. Default value is [RevisionColor.RED](../../com.aspose.words/revisioncolor\#RED). Setting this property to [RevisionColor.BY\_AUTHOR](../../com.aspose.words/revisioncolor\#BY-AUTHOR) or [RevisionColor.NO\_HIGHLIGHT](../../com.aspose.words/revisioncolor\#NO-HIGHLIGHT) values will result in hiding revision bars from the layout.
+Allows to specify the color to be used for side bars that identify document lines containing revised information. Default value is [RevisionColor.RED](../../com.aspose.words/revisioncolor/\#RED). Setting this property to [RevisionColor.BY\_AUTHOR](../../com.aspose.words/revisioncolor/\#BY-AUTHOR) or [RevisionColor.NO\_HIGHLIGHT](../../com.aspose.words/revisioncolor/\#NO-HIGHLIGHT) values will result in hiding revision bars from the layout.
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [RevisionColor](../../com.aspose.words/revisioncolor) constants.
+int - The corresponding  int  value. The returned value is one of [RevisionColor](../../com.aspose.words/revisioncolor/) constants.
 ### getRevisionBarsPosition() {#getRevisionBarsPosition}
 ```
 public int getRevisionBarsPosition()
 ```
 
 
-Gets rendering position of revision bars. Default value is [HorizontalAlignment.OUTSIDE](../../com.aspose.words/horizontalalignment\#OUTSIDE). Values of [HorizontalAlignment.CENTER](../../com.aspose.words/horizontalalignment\#CENTER) and [HorizontalAlignment.INSIDE](../../com.aspose.words/horizontalalignment\#INSIDE) are not allowed and will cause java.lang.IllegalArgumentException.
+Gets rendering position of revision bars. Default value is [HorizontalAlignment.OUTSIDE](../../com.aspose.words/horizontalalignment/\#OUTSIDE). Values of [HorizontalAlignment.CENTER](../../com.aspose.words/horizontalalignment/\#CENTER) and [HorizontalAlignment.INSIDE](../../com.aspose.words/horizontalalignment/\#INSIDE) are not allowed and will cause java.lang.IllegalArgumentException.
 
 **Returns:**
-int - Rendering position of revision bars. The returned value is one of [HorizontalAlignment](../../com.aspose.words/horizontalalignment) constants.
+int - Rendering position of revision bars. The returned value is one of [HorizontalAlignment](../../com.aspose.words/horizontalalignment/) constants.
 ### getRevisionBarsWidth() {#getRevisionBarsWidth}
 ```
 public float getRevisionBarsWidth()
@@ -254,10 +255,10 @@ public int getShowInBalloons()
 ```
 
 
-Allows to specify whether the revisions are rendered in the balloons. Default value is [ShowInBalloons.NONE](../../com.aspose.words/showinballoons\#NONE). Note that revisions are not rendered in balloons for [CommentDisplayMode.SHOW\_IN\_ANNOTATIONS](../../com.aspose.words/commentdisplaymode\#SHOW-IN-ANNOTATIONS).
+Allows to specify whether the revisions are rendered in the balloons. Default value is [ShowInBalloons.NONE](../../com.aspose.words/showinballoons/\#NONE). Note that revisions are not rendered in balloons for [CommentDisplayMode.SHOW\_IN\_ANNOTATIONS](../../com.aspose.words/commentdisplaymode/\#SHOW-IN-ANNOTATIONS).
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [ShowInBalloons](../../com.aspose.words/showinballoons) constants.
+int - The corresponding  int  value. The returned value is one of [ShowInBalloons](../../com.aspose.words/showinballoons/) constants.
 ### getShowOriginalRevision() {#getShowOriginalRevision}
 ```
 public boolean getShowOriginalRevision()
@@ -320,12 +321,12 @@ public void setCommentColor(int value)
 ```
 
 
-Allows to specify the color to be used for comments. Default value is [RevisionColor.RED](../../com.aspose.words/revisioncolor\#RED). If set this property to [RevisionColor.BY\_AUTHOR](../../com.aspose.words/revisioncolor\#BY-AUTHOR) or [RevisionColor.NO\_HIGHLIGHT](../../com.aspose.words/revisioncolor\#NO-HIGHLIGHT) values, as the result this property will be set to default color.
+Allows to specify the color to be used for comments. Default value is [RevisionColor.RED](../../com.aspose.words/revisioncolor/\#RED). If set this property to [RevisionColor.BY\_AUTHOR](../../com.aspose.words/revisioncolor/\#BY-AUTHOR) or [RevisionColor.NO\_HIGHLIGHT](../../com.aspose.words/revisioncolor/\#NO-HIGHLIGHT) values, as the result this property will be set to default color.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [RevisionColor](../../com.aspose.words/revisioncolor) constants. |
+| value | int | The corresponding  int  value. The value must be one of [RevisionColor](../../com.aspose.words/revisioncolor/) constants. |
 
 ### setDeletedTextColor(int value) {#setDeletedTextColor-int}
 ```
@@ -333,12 +334,12 @@ public void setDeletedTextColor(int value)
 ```
 
 
-Allows to specify the color to be used for deleted content [RevisionType.DELETION](../../com.aspose.words/revisiontype\#DELETION). Default value is [RevisionColor.BY\_AUTHOR](../../com.aspose.words/revisioncolor\#BY-AUTHOR).
+Allows to specify the color to be used for deleted content [RevisionType.DELETION](../../com.aspose.words/revisiontype/\#DELETION). Default value is [RevisionColor.BY\_AUTHOR](../../com.aspose.words/revisioncolor/\#BY-AUTHOR).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [RevisionColor](../../com.aspose.words/revisioncolor) constants. |
+| value | int | The corresponding  int  value. The value must be one of [RevisionColor](../../com.aspose.words/revisioncolor/) constants. |
 
 ### setDeletedTextEffect(int value) {#setDeletedTextEffect-int}
 ```
@@ -346,12 +347,12 @@ public void setDeletedTextEffect(int value)
 ```
 
 
-Allows to specify the effect to be applied to the deleted content [RevisionType.DELETION](../../com.aspose.words/revisiontype\#DELETION). Default value is [RevisionTextEffect.STRIKE\_THROUGH](../../com.aspose.words/revisiontexteffect\#STRIKE-THROUGH)
+Allows to specify the effect to be applied to the deleted content [RevisionType.DELETION](../../com.aspose.words/revisiontype/\#DELETION). Default value is [RevisionTextEffect.STRIKE\_THROUGH](../../com.aspose.words/revisiontexteffect/\#STRIKE-THROUGH)
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [RevisionTextEffect](../../com.aspose.words/revisiontexteffect) constants. |
+| value | int | The corresponding  int  value. The value must be one of [RevisionTextEffect](../../com.aspose.words/revisiontexteffect/) constants. |
 
 ### setInsertedTextColor(int value) {#setInsertedTextColor-int}
 ```
@@ -359,12 +360,12 @@ public void setInsertedTextColor(int value)
 ```
 
 
-Allows to specify the color to be used for inserted content [RevisionType.INSERTION](../../com.aspose.words/revisiontype\#INSERTION). Default value is [RevisionColor.BY\_AUTHOR](../../com.aspose.words/revisioncolor\#BY-AUTHOR).
+Allows to specify the color to be used for inserted content [RevisionType.INSERTION](../../com.aspose.words/revisiontype/\#INSERTION). Default value is [RevisionColor.BY\_AUTHOR](../../com.aspose.words/revisioncolor/\#BY-AUTHOR).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [RevisionColor](../../com.aspose.words/revisioncolor) constants. |
+| value | int | The corresponding  int  value. The value must be one of [RevisionColor](../../com.aspose.words/revisioncolor/) constants. |
 
 ### setInsertedTextEffect(int value) {#setInsertedTextEffect-int}
 ```
@@ -372,12 +373,12 @@ public void setInsertedTextEffect(int value)
 ```
 
 
-Allows to specify the effect to be applied to the inserted content [RevisionType.INSERTION](../../com.aspose.words/revisiontype\#INSERTION). Default value is [RevisionTextEffect.UNDERLINE](../../com.aspose.words/revisiontexteffect\#UNDERLINE). Values of [RevisionTextEffect.HIDDEN](../../com.aspose.words/revisiontexteffect\#HIDDEN) and [RevisionTextEffect.DOUBLE\_STRIKE\_THROUGH](../../com.aspose.words/revisiontexteffect\#DOUBLE-STRIKE-THROUGH) are not allowed and will cause java.lang.IllegalArgumentException.
+Allows to specify the effect to be applied to the inserted content [RevisionType.INSERTION](../../com.aspose.words/revisiontype/\#INSERTION). Default value is [RevisionTextEffect.UNDERLINE](../../com.aspose.words/revisiontexteffect/\#UNDERLINE). Values of [RevisionTextEffect.HIDDEN](../../com.aspose.words/revisiontexteffect/\#HIDDEN) and [RevisionTextEffect.DOUBLE\_STRIKE\_THROUGH](../../com.aspose.words/revisiontexteffect/\#DOUBLE-STRIKE-THROUGH) are not allowed and will cause java.lang.IllegalArgumentException.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [RevisionTextEffect](../../com.aspose.words/revisiontexteffect) constants. |
+| value | int | The corresponding  int  value. The value must be one of [RevisionTextEffect](../../com.aspose.words/revisiontexteffect/) constants. |
 
 ### setMeasurementUnit(int value) {#setMeasurementUnit-int}
 ```
@@ -385,12 +386,12 @@ public void setMeasurementUnit(int value)
 ```
 
 
-Allows to specify the measurement units for revision comments. Default value is [MeasurementUnits.CENTIMETERS](../../com.aspose.words/measurementunits\#CENTIMETERS)
+Allows to specify the measurement units for revision comments. Default value is [MeasurementUnits.CENTIMETERS](../../com.aspose.words/measurementunits/\#CENTIMETERS)
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [MeasurementUnits](../../com.aspose.words/measurementunits) constants. |
+| value | int | The corresponding  int  value. The value must be one of [MeasurementUnits](../../com.aspose.words/measurementunits/) constants. |
 
 ### setMovedFromTextColor(int value) {#setMovedFromTextColor-int}
 ```
@@ -398,12 +399,12 @@ public void setMovedFromTextColor(int value)
 ```
 
 
-Allows to specify the color to be used for areas where content was moved from [RevisionType.MOVING](../../com.aspose.words/revisiontype\#MOVING). Default value is [RevisionColor.BY\_AUTHOR](../../com.aspose.words/revisioncolor\#BY-AUTHOR).
+Allows to specify the color to be used for areas where content was moved from [RevisionType.MOVING](../../com.aspose.words/revisiontype/\#MOVING). Default value is [RevisionColor.BY\_AUTHOR](../../com.aspose.words/revisioncolor/\#BY-AUTHOR).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [RevisionColor](../../com.aspose.words/revisioncolor) constants. |
+| value | int | The corresponding  int  value. The value must be one of [RevisionColor](../../com.aspose.words/revisioncolor/) constants. |
 
 ### setMovedFromTextEffect(int value) {#setMovedFromTextEffect-int}
 ```
@@ -411,12 +412,12 @@ public void setMovedFromTextEffect(int value)
 ```
 
 
-Allows to specify the effect to be applied to the areas where content was moved from [RevisionType.MOVING](../../com.aspose.words/revisiontype\#MOVING). Default value is [RevisionTextEffect.DOUBLE\_STRIKE\_THROUGH](../../com.aspose.words/revisiontexteffect\#DOUBLE-STRIKE-THROUGH)
+Allows to specify the effect to be applied to the areas where content was moved from [RevisionType.MOVING](../../com.aspose.words/revisiontype/\#MOVING). Default value is [RevisionTextEffect.DOUBLE\_STRIKE\_THROUGH](../../com.aspose.words/revisiontexteffect/\#DOUBLE-STRIKE-THROUGH)
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [RevisionTextEffect](../../com.aspose.words/revisiontexteffect) constants. |
+| value | int | The corresponding  int  value. The value must be one of [RevisionTextEffect](../../com.aspose.words/revisiontexteffect/) constants. |
 
 ### setMovedToTextColor(int value) {#setMovedToTextColor-int}
 ```
@@ -424,12 +425,12 @@ public void setMovedToTextColor(int value)
 ```
 
 
-Allows to specify the color to be used for areas where content was moved to [RevisionType.MOVING](../../com.aspose.words/revisiontype\#MOVING). Default value is [RevisionColor.BY\_AUTHOR](../../com.aspose.words/revisioncolor\#BY-AUTHOR).
+Allows to specify the color to be used for areas where content was moved to [RevisionType.MOVING](../../com.aspose.words/revisiontype/\#MOVING). Default value is [RevisionColor.BY\_AUTHOR](../../com.aspose.words/revisioncolor/\#BY-AUTHOR).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [RevisionColor](../../com.aspose.words/revisioncolor) constants. |
+| value | int | The corresponding  int  value. The value must be one of [RevisionColor](../../com.aspose.words/revisioncolor/) constants. |
 
 ### setMovedToTextEffect(int value) {#setMovedToTextEffect-int}
 ```
@@ -437,12 +438,12 @@ public void setMovedToTextEffect(int value)
 ```
 
 
-Allows to specify the effect to be applied to the areas where content was moved to [RevisionType.MOVING](../../com.aspose.words/revisiontype\#MOVING). Default value is [RevisionTextEffect.DOUBLE\_UNDERLINE](../../com.aspose.words/revisiontexteffect\#DOUBLE-UNDERLINE) Values of [RevisionTextEffect.HIDDEN](../../com.aspose.words/revisiontexteffect\#HIDDEN) and [RevisionTextEffect.DOUBLE\_STRIKE\_THROUGH](../../com.aspose.words/revisiontexteffect\#DOUBLE-STRIKE-THROUGH) are not allowed and will cause java.lang.IllegalArgumentException.
+Allows to specify the effect to be applied to the areas where content was moved to [RevisionType.MOVING](../../com.aspose.words/revisiontype/\#MOVING). Default value is [RevisionTextEffect.DOUBLE\_UNDERLINE](../../com.aspose.words/revisiontexteffect/\#DOUBLE-UNDERLINE) Values of [RevisionTextEffect.HIDDEN](../../com.aspose.words/revisiontexteffect/\#HIDDEN) and [RevisionTextEffect.DOUBLE\_STRIKE\_THROUGH](../../com.aspose.words/revisiontexteffect/\#DOUBLE-STRIKE-THROUGH) are not allowed and will cause java.lang.IllegalArgumentException.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [RevisionTextEffect](../../com.aspose.words/revisiontexteffect) constants. |
+| value | int | The corresponding  int  value. The value must be one of [RevisionTextEffect](../../com.aspose.words/revisiontexteffect/) constants. |
 
 ### setRevisedPropertiesColor(int value) {#setRevisedPropertiesColor-int}
 ```
@@ -450,12 +451,12 @@ public void setRevisedPropertiesColor(int value)
 ```
 
 
-Allows to specify the color to be used for content with changes of formatting properties [RevisionType.FORMAT\_CHANGE](../../com.aspose.words/revisiontype\#FORMAT-CHANGE) Default value is [RevisionColor.NO\_HIGHLIGHT](../../com.aspose.words/revisioncolor\#NO-HIGHLIGHT).
+Allows to specify the color to be used for content with changes of formatting properties [RevisionType.FORMAT\_CHANGE](../../com.aspose.words/revisiontype/\#FORMAT-CHANGE) Default value is [RevisionColor.NO\_HIGHLIGHT](../../com.aspose.words/revisioncolor/\#NO-HIGHLIGHT).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [RevisionColor](../../com.aspose.words/revisioncolor) constants. |
+| value | int | The corresponding  int  value. The value must be one of [RevisionColor](../../com.aspose.words/revisioncolor/) constants. |
 
 ### setRevisedPropertiesEffect(int value) {#setRevisedPropertiesEffect-int}
 ```
@@ -463,12 +464,12 @@ public void setRevisedPropertiesEffect(int value)
 ```
 
 
-Allows to specify the effect for content areas with changes of formatting properties [RevisionType.FORMAT\_CHANGE](../../com.aspose.words/revisiontype\#FORMAT-CHANGE) Default value is [RevisionTextEffect.NONE](../../com.aspose.words/revisiontexteffect\#NONE) [RevisionTextEffect.HIDDEN](../../com.aspose.words/revisiontexteffect\#HIDDEN) is not allowed and will cause java.lang.IllegalArgumentException.
+Allows to specify the effect for content areas with changes of formatting properties [RevisionType.FORMAT\_CHANGE](../../com.aspose.words/revisiontype/\#FORMAT-CHANGE) Default value is [RevisionTextEffect.NONE](../../com.aspose.words/revisiontexteffect/\#NONE) [RevisionTextEffect.HIDDEN](../../com.aspose.words/revisiontexteffect/\#HIDDEN) is not allowed and will cause java.lang.IllegalArgumentException.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [RevisionTextEffect](../../com.aspose.words/revisiontexteffect) constants. |
+| value | int | The corresponding  int  value. The value must be one of [RevisionTextEffect](../../com.aspose.words/revisiontexteffect/) constants. |
 
 ### setRevisionBarsColor(int value) {#setRevisionBarsColor-int}
 ```
@@ -476,12 +477,12 @@ public void setRevisionBarsColor(int value)
 ```
 
 
-Allows to specify the color to be used for side bars that identify document lines containing revised information. Default value is [RevisionColor.RED](../../com.aspose.words/revisioncolor\#RED). Setting this property to [RevisionColor.BY\_AUTHOR](../../com.aspose.words/revisioncolor\#BY-AUTHOR) or [RevisionColor.NO\_HIGHLIGHT](../../com.aspose.words/revisioncolor\#NO-HIGHLIGHT) values will result in hiding revision bars from the layout.
+Allows to specify the color to be used for side bars that identify document lines containing revised information. Default value is [RevisionColor.RED](../../com.aspose.words/revisioncolor/\#RED). Setting this property to [RevisionColor.BY\_AUTHOR](../../com.aspose.words/revisioncolor/\#BY-AUTHOR) or [RevisionColor.NO\_HIGHLIGHT](../../com.aspose.words/revisioncolor/\#NO-HIGHLIGHT) values will result in hiding revision bars from the layout.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [RevisionColor](../../com.aspose.words/revisioncolor) constants. |
+| value | int | The corresponding  int  value. The value must be one of [RevisionColor](../../com.aspose.words/revisioncolor/) constants. |
 
 ### setRevisionBarsPosition(int value) {#setRevisionBarsPosition-int}
 ```
@@ -489,12 +490,12 @@ public void setRevisionBarsPosition(int value)
 ```
 
 
-Sets rendering position of revision bars. Default value is [HorizontalAlignment.OUTSIDE](../../com.aspose.words/horizontalalignment\#OUTSIDE). Values of [HorizontalAlignment.CENTER](../../com.aspose.words/horizontalalignment\#CENTER) and [HorizontalAlignment.INSIDE](../../com.aspose.words/horizontalalignment\#INSIDE) are not allowed and will cause java.lang.IllegalArgumentException.
+Sets rendering position of revision bars. Default value is [HorizontalAlignment.OUTSIDE](../../com.aspose.words/horizontalalignment/\#OUTSIDE). Values of [HorizontalAlignment.CENTER](../../com.aspose.words/horizontalalignment/\#CENTER) and [HorizontalAlignment.INSIDE](../../com.aspose.words/horizontalalignment/\#INSIDE) are not allowed and will cause java.lang.IllegalArgumentException.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | Rendering position of revision bars. The value must be one of [HorizontalAlignment](../../com.aspose.words/horizontalalignment) constants. |
+| value | int | Rendering position of revision bars. The value must be one of [HorizontalAlignment](../../com.aspose.words/horizontalalignment/) constants. |
 
 ### setRevisionBarsWidth(float value) {#setRevisionBarsWidth-float}
 ```
@@ -515,12 +516,12 @@ public void setShowInBalloons(int value)
 ```
 
 
-Allows to specify whether the revisions are rendered in the balloons. Default value is [ShowInBalloons.NONE](../../com.aspose.words/showinballoons\#NONE). Note that revisions are not rendered in balloons for [CommentDisplayMode.SHOW\_IN\_ANNOTATIONS](../../com.aspose.words/commentdisplaymode\#SHOW-IN-ANNOTATIONS).
+Allows to specify whether the revisions are rendered in the balloons. Default value is [ShowInBalloons.NONE](../../com.aspose.words/showinballoons/\#NONE). Note that revisions are not rendered in balloons for [CommentDisplayMode.SHOW\_IN\_ANNOTATIONS](../../com.aspose.words/commentdisplaymode/\#SHOW-IN-ANNOTATIONS).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [ShowInBalloons](../../com.aspose.words/showinballoons) constants. |
+| value | int | The corresponding  int  value. The value must be one of [ShowInBalloons](../../com.aspose.words/showinballoons/) constants. |
 
 ### setShowOriginalRevision(boolean value) {#setShowOriginalRevision-boolean}
 ```

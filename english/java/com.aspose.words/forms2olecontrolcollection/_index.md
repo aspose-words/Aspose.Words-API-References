@@ -1,7 +1,8 @@
 ---
 title: Forms2OleControlCollection
+linktitle: Forms2OleControlCollection
 second_title: Aspose.Words for Java API Reference
-description: Represents collection of  objects.
+description: Represents collection of  objects in Java.
 type: docs
 weight: 301
 url: /java/com.aspose.words/forms2olecontrolcollection/
@@ -16,18 +17,18 @@ java.lang.Iterable
 public class Forms2OleControlCollection implements Iterable
 ```
 
-Represents collection of [Forms2OleControl](../../com.aspose.words/forms2olecontrol) objects.
+Represents collection of [Forms2OleControl](../../com.aspose.words/forms2olecontrol/) objects.
 
 To learn more, visit the [ Working with Ole Objects ][Working with Ole Objects] documentation article.
 
 
-[Working with Ole Objects]: https://docs.aspose.com/words/java/working-with-ole-objects-and-online-video/
+[Working with Ole Objects]: https://docs.aspose.com/words/java/working-with-ole-objects/
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [get(int index)](#get-int) | Gets [Forms2OleControl](../../com.aspose.words/forms2olecontrol) object at a specified index. |
+| [get(int index)](#get-int) | Gets [Forms2OleControl](../../com.aspose.words/forms2olecontrol/) object at a specified index. |
 | [getClass()](#getClass) |  |
 | [getCount()](#getCount) | Gets count of objects in the collection. |
 | [hashCode()](#hashCode) |  |
@@ -59,7 +60,7 @@ public Forms2OleControl get(int index)
 ```
 
 
-Gets [Forms2OleControl](../../com.aspose.words/forms2olecontrol) object at a specified index.
+Gets [Forms2OleControl](../../com.aspose.words/forms2olecontrol/) object at a specified index.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -67,7 +68,7 @@ Gets [Forms2OleControl](../../com.aspose.words/forms2olecontrol) object at a spe
 | index | int |  |
 
 **Returns:**
-[Forms2OleControl](../../com.aspose.words/forms2olecontrol) - \{[Forms2OleControl](../../com.aspose.words/forms2olecontrol) object at a specified index.
+[Forms2OleControl](../../com.aspose.words/forms2olecontrol/) - \{[Forms2OleControl](../../com.aspose.words/forms2olecontrol/) object at a specified index.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()

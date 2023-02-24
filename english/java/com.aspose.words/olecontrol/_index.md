@@ -1,9 +1,10 @@
 ---
 title: OleControl
+linktitle: OleControl
 second_title: Aspose.Words for Java API Reference
-description: Represents OLE ActiveX control.
+description: Represents OLE ActiveX control in Java.
 type: docs
-weight: 428
+weight: 430
 url: /java/com.aspose.words/olecontrol/
 ---
 
@@ -18,20 +19,21 @@ Represents OLE ActiveX control.
 To learn more, visit the [ Working with Ole Objects ][Working with Ole Objects] documentation article.
 
 
-[Working with Ole Objects]: https://docs.aspose.com/words/java/working-with-ole-objects-and-online-video/
+[Working with Ole Objects]: https://docs.aspose.com/words/java/working-with-ole-objects/
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getClass()](#getClass) |  |
-| [getClsid()](#getClsid) |  |
+| [getClsidInternal()](#getClsidInternal) |  |
 | [getExtensionForUser(String progId)](#getExtensionForUser-java.lang.String) |  |
 | [getFileNameForUser()](#getFileNameForUser) |  |
 | [getId()](#getId) |  |
 | [getName()](#getName) | Gets name of the ActiveX control. |
 | [hashCode()](#hashCode) |  |
-| [isForms2OleControl()](#isForms2OleControl) | Returns  true  if the control is a [Forms2OleControl](../../com.aspose.words/forms2olecontrol). |
+| [isForms2OleControl()](#isForms2OleControl) | Returns  true  if the control is a [Forms2OleControl](../../com.aspose.words/forms2olecontrol/). |
+| [isForms2OleControlInternal()](#isForms2OleControlInternal) |  |
 | [notify()](#notify) |  |
 | [notifyAll()](#notifyAll) |  |
 | [setId(int value)](#setId-int) |  |
@@ -65,9 +67,9 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getClsid() {#getClsid}
+### getClsidInternal() {#getClsidInternal}
 ```
-public String getClsid()
+public String getClsidInternal()
 ```
 
 
@@ -136,10 +138,20 @@ public boolean isForms2OleControl()
 ```
 
 
-Returns  true  if the control is a [Forms2OleControl](../../com.aspose.words/forms2olecontrol).
+Returns  true  if the control is a [Forms2OleControl](../../com.aspose.words/forms2olecontrol/).
 
 **Returns:**
-boolean - \{ true  if the control is a [Forms2OleControl](../../com.aspose.words/forms2olecontrol).
+boolean - \{ true  if the control is a [Forms2OleControl](../../com.aspose.words/forms2olecontrol/).
+### isForms2OleControlInternal() {#isForms2OleControlInternal}
+```
+public boolean isForms2OleControlInternal()
+```
+
+
+
+
+**Returns:**
+boolean
 ### notify() {#notify}
 ```
 public final native void notify()

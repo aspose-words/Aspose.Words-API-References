@@ -1,9 +1,10 @@
 ---
 title: RevisionTextEffect
+linktitle: RevisionTextEffect
 second_title: Aspose.Words for Java API Reference
-description: Allows to specify decoration effect for revisions of document text.
+description: Allows to specify decoration effect for revisions of document text in Java.
 type: docs
-weight: 493
+weight: 495
 url: /java/com.aspose.words/revisiontexteffect/
 ---
 
@@ -67,7 +68,7 @@ public static int DOUBLE_STRIKE_THROUGH
 ```
 
 
-Revised content is double stroked through and colored. Only works for [RevisionType.DELETION](../../com.aspose.words/revisiontype\#DELETION), [RevisionType.FORMAT\_CHANGE](../../com.aspose.words/revisiontype\#FORMAT-CHANGE) and [RevisionType.MOVING](../../com.aspose.words/revisiontype\#MOVING) ('move from' type).
+Revised content is double stroked through and colored. Only works for [RevisionType.DELETION](../../com.aspose.words/revisiontype/\#DELETION), [RevisionType.FORMAT\_CHANGE](../../com.aspose.words/revisiontype/\#FORMAT-CHANGE) and [RevisionType.MOVING](../../com.aspose.words/revisiontype/\#MOVING) ('move from' type).
 
 ### DOUBLE_UNDERLINE {#DOUBLE-UNDERLINE}
 ```
@@ -83,7 +84,7 @@ public static int HIDDEN
 ```
 
 
-Revised content is hidden. Only works for [RevisionType.DELETION](../../com.aspose.words/revisiontype\#DELETION) and [RevisionType.MOVING](../../com.aspose.words/revisiontype\#MOVING) ('move from' type).
+Revised content is hidden. Only works for [RevisionType.DELETION](../../com.aspose.words/revisiontype/\#DELETION) and [RevisionType.MOVING](../../com.aspose.words/revisiontype/\#MOVING) ('move from' type).
 
 ### ITALIC {#ITALIC}
 ```
@@ -99,7 +100,7 @@ public static int NONE
 ```
 
 
-Revised content has no special effects applied. This corresponds to [RevisionColor.NO\_HIGHLIGHT](../../com.aspose.words/revisioncolor\#NO-HIGHLIGHT).
+Revised content has no special effects applied. This corresponds to [RevisionColor.NO\_HIGHLIGHT](../../com.aspose.words/revisioncolor/\#NO-HIGHLIGHT).
 
 ### STRIKE_THROUGH {#STRIKE-THROUGH}
 ```

@@ -1,7 +1,8 @@
 ---
 title: DataRow
+linktitle: DataRow
 second_title: Aspose.Words for Java API Reference
-description: Represents a row of data in a .
+description: Represents a row of data in a in Java.
 type: docs
 weight: 20
 url: /java/com.aspose.words.net.system.data/datarow/
@@ -13,31 +14,31 @@ java.lang.Object
 public class DataRow
 ```
 
-Represents a row of data in a [DataTable](../../com.aspose.words.net.system.data/datatable).
+Represents a row of data in a [DataTable](../../com.aspose.words.net.system.data/datatable/).
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [delete()](#delete) | Deletes the [DataRow](../../com.aspose.words.net.system.data/datarow). |
+| [delete()](#delete) | Deletes the [DataRow](../../com.aspose.words.net.system.data/datarow/). |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [get(System.Data.DataColumn column)](#get-com.aspose.words.net.System.Data.DataColumn) | Gets the data stored in the specified [DataColumn](../../com.aspose.words.net.system.data/datacolumn). |
+| [get(System.Data.DataColumn column)](#get-com.aspose.words.net.System.Data.DataColumn) | Gets the data stored in the specified [DataColumn](../../com.aspose.words.net.system.data/datacolumn/). |
 | [get(int columnIndex)](#get-int) | Gets the data stored in the column specified by index. |
 | [get(String columnName)](#get-java.lang.String) | Gets the data stored in the column specified by name. |
-| [getChildRows(System.Data.DataRelation relation)](#getChildRows-com.aspose.words.net.System.Data.DataRelation) | Gets the child rows of this [DataRow](../../com.aspose.words.net.system.data/datarow) using the specified [DataRelation](../../com.aspose.words.net.system.data/datarelation). |
+| [getChildRows(System.Data.DataRelation relation)](#getChildRows-com.aspose.words.net.System.Data.DataRelation) | Gets the child rows of this [DataRow](../../com.aspose.words.net.system.data/datarow/) using the specified [DataRelation](../../com.aspose.words.net.system.data/datarelation/). |
 | [getClass()](#getClass) |  |
 | [getItemArray()](#getItemArray) | Gets all the values for this row through an array. |
 | [getKeyValues(System.Data.DataKey childKey)](#getKeyValues-com.aspose.words.net.System.Data.DataKey) |  |
 | [getOriginalValue(String columnName)](#getOriginalValue-java.lang.String) |  |
-| [getParentRow(System.Data.DataRelation relation)](#getParentRow-com.aspose.words.net.System.Data.DataRelation) | Gets the parent row of a [DataRow](../../com.aspose.words.net.system.data/datarow) using the specified [DataRelation](../../com.aspose.words.net.system.data/datarelation). |
-| [getParentRows(System.Data.DataRelation relation)](#getParentRows-com.aspose.words.net.System.Data.DataRelation) | Gets the parent rows of a [DataRow](../../com.aspose.words.net.system.data/datarow) using the specified [DataRelation](../../com.aspose.words.net.system.data/datarelation). |
-| [getRowState()](#getRowState) | Gets the current state of the row with regard to its relationship to the [DataRowCollection](../../com.aspose.words.net.system.data/datarowcollection). |
-| [getTable()](#getTable) | Gets the [DataTable](../../com.aspose.words.net.system.data/datatable) for which this row has a schema. |
+| [getParentRow(System.Data.DataRelation relation)](#getParentRow-com.aspose.words.net.System.Data.DataRelation) | Gets the parent row of a [DataRow](../../com.aspose.words.net.system.data/datarow/) using the specified [DataRelation](../../com.aspose.words.net.system.data/datarelation/). |
+| [getParentRows(System.Data.DataRelation relation)](#getParentRows-com.aspose.words.net.System.Data.DataRelation) | Gets the parent rows of a [DataRow](../../com.aspose.words.net.system.data/datarow/) using the specified [DataRelation](../../com.aspose.words.net.system.data/datarelation/). |
+| [getRowState()](#getRowState) | Gets the current state of the row with regard to its relationship to the [DataRowCollection](../../com.aspose.words.net.system.data/datarowcollection/). |
+| [getTable()](#getTable) | Gets the [DataTable](../../com.aspose.words.net.system.data/datatable/) for which this row has a schema. |
 | [hashCode()](#hashCode) |  |
 | [notify()](#notify) |  |
 | [notifyAll()](#notifyAll) |  |
 | [readFrom(ResultSet resultSet)](#readFrom-java.sql.ResultSet) | Reads values from the java.sql.ResultSet |
 | [remove(int index)](#remove-int) |  |
-| [set(System.Data.DataColumn value, Object column)](#set-com.aspose.words.net.System.Data.DataColumn-java.lang.Object) | Sets the data stored in the specified [DataColumn](../../com.aspose.words.net.system.data/datacolumn). |
+| [set(System.Data.DataColumn value, Object column)](#set-com.aspose.words.net.System.Data.DataColumn-java.lang.Object) | Sets the data stored in the specified [DataColumn](../../com.aspose.words.net.system.data/datacolumn/). |
 | [set(int value, Object columnIndex)](#set-int-java.lang.Object) | Sets the data stored in the column specified by index. |
 | [set(String value, Object columnName)](#set-java.lang.String-java.lang.Object) | Sets the data stored in the column specified by name. |
 | [setItemArray(Object[] value)](#setItemArray-java.lang.Object) | Sets all the values for this row through an array. |
@@ -53,7 +54,7 @@ public void delete()
 ```
 
 
-Deletes the [DataRow](../../com.aspose.words.net.system.data/datarow).
+Deletes the [DataRow](../../com.aspose.words.net.system.data/datarow/).
 
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
@@ -76,12 +77,12 @@ public Object get(System.Data.DataColumn column)
 ```
 
 
-Gets the data stored in the specified [DataColumn](../../com.aspose.words.net.system.data/datacolumn).
+Gets the data stored in the specified [DataColumn](../../com.aspose.words.net.system.data/datacolumn/).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| column | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) | A [DataColumn](../../com.aspose.words.net.system.data/datacolumn) that contains the data. |
+| column | [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) | A [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) that contains the data. |
 
 **Returns:**
 java.lang.Object - An java.lang.Object that contains the data.
@@ -121,15 +122,15 @@ public System.Data.DataRow[] getChildRows(System.Data.DataRelation relation)
 ```
 
 
-Gets the child rows of this [DataRow](../../com.aspose.words.net.system.data/datarow) using the specified [DataRelation](../../com.aspose.words.net.system.data/datarelation).
+Gets the child rows of this [DataRow](../../com.aspose.words.net.system.data/datarow/) using the specified [DataRelation](../../com.aspose.words.net.system.data/datarelation/).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| relation | [DataRelation](../../com.aspose.words.net.system.data/datarelation) | The [DataRelation](../../com.aspose.words.net.system.data/datarelation) to use. |
+| relation | [DataRelation](../../com.aspose.words.net.system.data/datarelation/) | The [DataRelation](../../com.aspose.words.net.system.data/datarelation/) to use. |
 
 **Returns:**
-com.aspose.words.net.System.Data.DataRow[] - An array of [DataRow](../../com.aspose.words.net.system.data/datarow) objects or an array of length zero.
+com.aspose.words.net.System.Data.DataRow[] - An array of [DataRow](../../com.aspose.words.net.system.data/datarow/) objects or an array of length zero.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -161,7 +162,7 @@ public Object[] getKeyValues(System.Data.DataKey childKey)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| childKey | [DataKey](../../com.aspose.words.net.system.data/datakey) |  |
+| childKey | [DataKey](../../com.aspose.words.net.system.data/datakey/) |  |
 
 **Returns:**
 java.lang.Object[]
@@ -186,50 +187,50 @@ public System.Data.DataRow getParentRow(System.Data.DataRelation relation)
 ```
 
 
-Gets the parent row of a [DataRow](../../com.aspose.words.net.system.data/datarow) using the specified [DataRelation](../../com.aspose.words.net.system.data/datarelation).
+Gets the parent row of a [DataRow](../../com.aspose.words.net.system.data/datarow/) using the specified [DataRelation](../../com.aspose.words.net.system.data/datarelation/).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| relation | [DataRelation](../../com.aspose.words.net.system.data/datarelation) | The [DataRelation](../../com.aspose.words.net.system.data/datarelation) to use. |
+| relation | [DataRelation](../../com.aspose.words.net.system.data/datarelation/) | The [DataRelation](../../com.aspose.words.net.system.data/datarelation/) to use. |
 
 **Returns:**
-[DataRow](../../com.aspose.words.net.system.data/datarow) - The parent [DataRow](../../com.aspose.words.net.system.data/datarow) of the current row.
+[DataRow](../../com.aspose.words.net.system.data/datarow/) - The parent [DataRow](../../com.aspose.words.net.system.data/datarow/) of the current row.
 ### getParentRows(System.Data.DataRelation relation) {#getParentRows-com.aspose.words.net.System.Data.DataRelation}
 ```
 public System.Data.DataRow[] getParentRows(System.Data.DataRelation relation)
 ```
 
 
-Gets the parent rows of a [DataRow](../../com.aspose.words.net.system.data/datarow) using the specified [DataRelation](../../com.aspose.words.net.system.data/datarelation).
+Gets the parent rows of a [DataRow](../../com.aspose.words.net.system.data/datarow/) using the specified [DataRelation](../../com.aspose.words.net.system.data/datarelation/).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| relation | [DataRelation](../../com.aspose.words.net.system.data/datarelation) | The [DataRelation](../../com.aspose.words.net.system.data/datarelation) to use. |
+| relation | [DataRelation](../../com.aspose.words.net.system.data/datarelation/) | The [DataRelation](../../com.aspose.words.net.system.data/datarelation/) to use. |
 
 **Returns:**
-com.aspose.words.net.System.Data.DataRow[] - An array of [DataRow](../../com.aspose.words.net.system.data/datarow) objects or an array of length zero.
+com.aspose.words.net.System.Data.DataRow[] - An array of [DataRow](../../com.aspose.words.net.system.data/datarow/) objects or an array of length zero.
 ### getRowState() {#getRowState}
 ```
 public int getRowState()
 ```
 
 
-Gets the current state of the row with regard to its relationship to the [DataRowCollection](../../com.aspose.words.net.system.data/datarowcollection).
+Gets the current state of the row with regard to its relationship to the [DataRowCollection](../../com.aspose.words.net.system.data/datarowcollection/).
 
 **Returns:**
-int - One of the [DataRowState](../../com.aspose.words.net.system.data/datarowstate) values. The returned value is a bitwise combination of [DataRowState](../../com.aspose.words.net.system.data/datarowstate) constants.
+int - One of the [DataRowState](../../com.aspose.words.net.system.data/datarowstate/) values. The returned value is a bitwise combination of [DataRowState](../../com.aspose.words.net.system.data/datarowstate/) constants.
 ### getTable() {#getTable}
 ```
 public System.Data.DataTable getTable()
 ```
 
 
-Gets the [DataTable](../../com.aspose.words.net.system.data/datatable) for which this row has a schema.
+Gets the [DataTable](../../com.aspose.words.net.system.data/datatable/) for which this row has a schema.
 
 **Returns:**
-[DataTable](../../com.aspose.words.net.system.data/datatable) - The [DataTable](../../com.aspose.words.net.system.data/datatable) to which this row belongs.
+[DataTable](../../com.aspose.words.net.system.data/datatable/) - The [DataTable](../../com.aspose.words.net.system.data/datatable/) to which this row belongs.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()
@@ -290,13 +291,13 @@ public void set(System.Data.DataColumn value, Object column)
 ```
 
 
-Sets the data stored in the specified [DataColumn](../../com.aspose.words.net.system.data/datacolumn).
+Sets the data stored in the specified [DataColumn](../../com.aspose.words.net.system.data/datacolumn/).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) | An java.lang.Object that contains the data. |
-| column | java.lang.Object | A [DataColumn](../../com.aspose.words.net.system.data/datacolumn) that contains the data. |
+| value | [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) | An java.lang.Object that contains the data. |
+| column | java.lang.Object | A [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) that contains the data. |
 
 ### set(int value, Object columnIndex) {#set-int-java.lang.Object}
 ```

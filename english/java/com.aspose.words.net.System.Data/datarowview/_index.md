@@ -1,7 +1,8 @@
 ---
 title: DataRowView
+linktitle: DataRowView
 second_title: Aspose.Words for Java API Reference
-description: Represents a customized view of a .
+description: Represents a customized view of a in Java.
 type: docs
 weight: 23
 url: /java/com.aspose.words.net.system.data/datarowview/
@@ -13,7 +14,7 @@ java.lang.Object
 public class DataRowView
 ```
 
-Represents a customized view of a [DataRow](../../com.aspose.words.net.system.data/datarow).
+Represents a customized view of a [DataRow](../../com.aspose.words.net.system.data/datarow/).
 ## Constructors
 
 | Constructor | Description |
@@ -25,7 +26,7 @@ Represents a customized view of a [DataRow](../../com.aspose.words.net.system.da
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getClass()](#getClass) |  |
-| [getRow()](#getRow) | Gets the [DataRow](../../com.aspose.words.net.system.data/datarow) being viewed. |
+| [getRow()](#getRow) | Gets the [DataRow](../../com.aspose.words.net.system.data/datarow/) being viewed. |
 | [hashCode()](#hashCode) |  |
 | [notify()](#notify) |  |
 | [notifyAll()](#notifyAll) |  |
@@ -44,8 +45,8 @@ Initializes a new instance of this class.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| view | [DataView](../../com.aspose.words.net.system.data/dataview) |  |
-| row | [DataRow](../../com.aspose.words.net.system.data/datarow) |  |
+| view | [DataView](../../com.aspose.words.net.system.data/dataview/) |  |
+| row | [DataRow](../../com.aspose.words.net.system.data/datarow/) |  |
 
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
@@ -78,10 +79,10 @@ public System.Data.DataRow getRow()
 ```
 
 
-Gets the [DataRow](../../com.aspose.words.net.system.data/datarow) being viewed.
+Gets the [DataRow](../../com.aspose.words.net.system.data/datarow/) being viewed.
 
 **Returns:**
-[DataRow](../../com.aspose.words.net.system.data/datarow) - The [DataRow](../../com.aspose.words.net.system.data/datarow) being viewed by the [DataRowView](../../com.aspose.words.net.system.data/datarowview).
+[DataRow](../../com.aspose.words.net.system.data/datarow/) - The [DataRow](../../com.aspose.words.net.system.data/datarow/) being viewed by the [DataRowView](../../com.aspose.words.net.system.data/datarowview/).
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()

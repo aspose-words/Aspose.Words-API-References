@@ -1,9 +1,10 @@
 ---
 title: IPageLayoutCallback
+linktitle: IPageLayoutCallback
 second_title: Aspose.Words for Java API Reference
-description: Implement this interface if you want to have your own custom method called during build and rendering of page layout model.
+description: Implement this interface if you want to have your own custom method called during build and rendering of page layout model in Java.
 type: docs
-weight: 658
+weight: 660
 url: /java/com.aspose.words/ipagelayoutcallback/
 ---
 ```
@@ -33,5 +34,5 @@ This is called to notify of layout build and rendering progress.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| args | [PageLayoutCallbackArgs](../../com.aspose.words/pagelayoutcallbackargs) | An argument of the event. Exception when thrown by implementation aborts layout build process. |
+| args | [PageLayoutCallbackArgs](../../com.aspose.words/pagelayoutcallbackargs/) | An argument of the event. Exception when thrown by implementation aborts layout build process. |
 

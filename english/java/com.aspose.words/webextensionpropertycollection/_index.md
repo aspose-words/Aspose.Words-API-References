@@ -1,14 +1,15 @@
 ---
 title: WebExtensionPropertyCollection
+linktitle: WebExtensionPropertyCollection
 second_title: Aspose.Words for Java API Reference
-description: Specifies a set of web extension custom properties.
+description: Specifies a set of web extension custom properties in Java.
 type: docs
-weight: 620
+weight: 622
 url: /java/com.aspose.words/webextensionpropertycollection/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.words.BaseWebExtensionCollection](../../com.aspose.words/basewebextensioncollection)
+java.lang.Object, [com.aspose.words.BaseWebExtensionCollection](../../com.aspose.words/basewebextensioncollection/)
 ```
 public class WebExtensionPropertyCollection extends BaseWebExtensionCollection
 ```

@@ -1,9 +1,10 @@
 ---
 title: WarningInfo
+linktitle: WarningInfo
 second_title: Aspose.Words for Java API Reference
-description: Contains information about a warning that Aspose.Words issued during document loading or saving.
+description: Contains information about a warning that Aspose.Words issued during document loading or saving in Java.
 type: docs
-weight: 608
+weight: 610
 url: /java/com.aspose.words/warninginfo/
 ---
 
@@ -17,7 +18,7 @@ Contains information about a warning that Aspose.Words issued during document lo
 
 To learn more, visit the [ Programming with Documents ][Programming with Documents] documentation article.
 
-You do not create instances of this class. Objects of this class are created and passed by Aspose.Words to the [IWarningCallback.warning(com.aspose.words.WarningInfo)](../../com.aspose.words/iwarningcallback\#warning-com.aspose.words.WarningInfo) method.
+You do not create instances of this class. Objects of this class are created and passed by Aspose.Words to the [IWarningCallback.warning(com.aspose.words.WarningInfo)](../../com.aspose.words/iwarningcallback/\#warning-com.aspose.words.WarningInfo) method.
 
 
 [Programming with Documents]: https://docs.aspose.com/words/java/programming-with-documents/
@@ -81,7 +82,7 @@ public int getSource()
 Returns the source of the warning.
 
 **Returns:**
-int - The source of the warning. The returned value is one of [WarningSource](../../com.aspose.words/warningsource) constants.
+int - The source of the warning. The returned value is one of [WarningSource](../../com.aspose.words/warningsource/) constants.
 ### getWarningType() {#getWarningType}
 ```
 public int getWarningType()
@@ -91,7 +92,7 @@ public int getWarningType()
 Returns the type of the warning.
 
 **Returns:**
-int - The type of the warning. The returned value is a bitwise combination of [WarningType](../../com.aspose.words/warningtype) constants.
+int - The type of the warning. The returned value is a bitwise combination of [WarningType](../../com.aspose.words/warningtype/) constants.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()

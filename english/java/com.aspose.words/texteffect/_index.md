@@ -1,9 +1,10 @@
 ---
 title: TextEffect
+linktitle: TextEffect
 second_title: Aspose.Words for Java API Reference
-description: Animation effect for text runs.
+description: Animation effect for text runs in Java.
 type: docs
-weight: 568
+weight: 570
 url: /java/com.aspose.words/texteffect/
 ---
 

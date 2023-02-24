@@ -1,7 +1,8 @@
 ---
 title: DocumentSplitCriteria
+linktitle: DocumentSplitCriteria
 second_title: Aspose.Words for Java API Reference
-description: Specifies how the document is split into parts when saving to   or  format.
+description: Specifies how the document is split into parts when saving to   or  format in Java.
 type: docs
 weight: 132
 url: /java/com.aspose.words/documentsplitcriteria/
@@ -13,11 +14,11 @@ java.lang.Object
 public class DocumentSplitCriteria
 ```
 
-Specifies how the document is split into parts when saving to [SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB) or [SaveFormat.AZW\_3](../../com.aspose.words/saveformat\#AZW-3) format.
+Specifies how the document is split into parts when saving to [SaveFormat.HTML](../../com.aspose.words/saveformat/\#HTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat/\#EPUB) or [SaveFormat.AZW\_3](../../com.aspose.words/saveformat/\#AZW-3) format.
 
-[DocumentSplitCriteria](../../com.aspose.words/documentsplitcriteria) is a set of flags which can be combined. For instance you can split the document at page breaks and heading paragraphs in the same export operation.
+[DocumentSplitCriteria](../../com.aspose.words/documentsplitcriteria/) is a set of flags which can be combined. For instance you can split the document at page breaks and heading paragraphs in the same export operation.
 
-Different criteria can partially overlap. For instance, **Heading 1** style is frequently given [ParagraphFormat.getPageBreakBefore()](../../com.aspose.words/paragraphformat\#getPageBreakBefore) / [ParagraphFormat.setPageBreakBefore(boolean)](../../com.aspose.words/paragraphformat\#setPageBreakBefore-boolean) property so it falls under two criteria: [PAGE\_BREAK](../../com.aspose.words/documentsplitcriteria\#PAGE-BREAK) and [HEADING\_PARAGRAPH](../../com.aspose.words/documentsplitcriteria\#HEADING-PARAGRAPH). Some section breaks can cause page breaks and so on. In typical cases specifying only one flag is the most practical option.
+Different criteria can partially overlap. For instance, **Heading 1** style is frequently given [ParagraphFormat.getPageBreakBefore()](../../com.aspose.words/paragraphformat/\#getPageBreakBefore) / [ParagraphFormat.setPageBreakBefore(boolean)](../../com.aspose.words/paragraphformat/\#setPageBreakBefore-boolean) property so it falls under two criteria: [PAGE\_BREAK](../../com.aspose.words/documentsplitcriteria/\#PAGE-BREAK) and [HEADING\_PARAGRAPH](../../com.aspose.words/documentsplitcriteria/\#HEADING-PARAGRAPH). Some section breaks can cause page breaks and so on. In typical cases specifying only one flag is the most practical option.
 ## Fields
 
 | Field | Description |
@@ -54,7 +55,7 @@ public static int COLUMN_BREAK
 ```
 
 
-The document is split into parts at column breaks. A column break can be specified by a [ControlChar.COLUMN\_BREAK](../../com.aspose.words/controlchar\#COLUMN-BREAK) character or a section break specifying start of new section in a new column.
+The document is split into parts at column breaks. A column break can be specified by a [ControlChar.COLUMN\_BREAK](../../com.aspose.words/controlchar/\#COLUMN-BREAK) character or a section break specifying start of new section in a new column.
 
 ### HEADING_PARAGRAPH {#HEADING-PARAGRAPH}
 ```
@@ -62,7 +63,7 @@ public static int HEADING_PARAGRAPH
 ```
 
 
-The document is split into parts at a paragraph formatted using a heading style **Heading 1**, **Heading 2** etc. Use together with [HtmlSaveOptions.getDocumentSplitHeadingLevel()](../../com.aspose.words/htmlsaveoptions\#getDocumentSplitHeadingLevel) / [HtmlSaveOptions.setDocumentSplitHeadingLevel(int)](../../com.aspose.words/htmlsaveoptions\#setDocumentSplitHeadingLevel-int) to specify the heading levels (from 1 to the specified level) at which to split.
+The document is split into parts at a paragraph formatted using a heading style **Heading 1**, **Heading 2** etc. Use together with [HtmlSaveOptions.getDocumentSplitHeadingLevel()](../../com.aspose.words/htmlsaveoptions/\#getDocumentSplitHeadingLevel) / [HtmlSaveOptions.setDocumentSplitHeadingLevel(int)](../../com.aspose.words/htmlsaveoptions/\#setDocumentSplitHeadingLevel-int) to specify the heading levels (from 1 to the specified level) at which to split.
 
 ### NONE {#NONE}
 ```
@@ -78,7 +79,7 @@ public static int PAGE_BREAK
 ```
 
 
-The document is split into parts at explicit page breaks. A page break can be specified by a [ControlChar.PAGE\_BREAK](../../com.aspose.words/controlchar\#PAGE-BREAK) character, a section break specifying start of new section on a new page, or a paragraph that has its [ParagraphFormat.getPageBreakBefore()](../../com.aspose.words/paragraphformat\#getPageBreakBefore) / [ParagraphFormat.setPageBreakBefore(boolean)](../../com.aspose.words/paragraphformat\#setPageBreakBefore-boolean) property set to  true .
+The document is split into parts at explicit page breaks. A page break can be specified by a [ControlChar.PAGE\_BREAK](../../com.aspose.words/controlchar/\#PAGE-BREAK) character, a section break specifying start of new section on a new page, or a paragraph that has its [ParagraphFormat.getPageBreakBefore()](../../com.aspose.words/paragraphformat/\#getPageBreakBefore) / [ParagraphFormat.setPageBreakBefore(boolean)](../../com.aspose.words/paragraphformat/\#setPageBreakBefore-boolean) property set to  true .
 
 ### SECTION_BREAK {#SECTION-BREAK}
 ```

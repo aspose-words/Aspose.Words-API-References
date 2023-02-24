@@ -1,7 +1,8 @@
 ---
 title: RefByte
+linktitle: RefByte
 second_title: Aspose.Words for Java API Reference
-description: Represents Out/Ref constructions for Byte primitive type
+description: Represents Out/Ref constructions for Byte primitive type in Java.
 type: docs
 weight: 12
 url: /java/com.aspose.words.ref/refbyte/

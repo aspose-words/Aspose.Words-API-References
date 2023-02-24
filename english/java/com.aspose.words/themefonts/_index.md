@@ -1,9 +1,10 @@
 ---
 title: ThemeFonts
+linktitle: ThemeFonts
 second_title: Aspose.Words for Java API Reference
-description: Represents a collection of fonts in the font scheme allowing to specify different fonts for different languages  /   /  and  / .
+description: Represents a collection of fonts in the font scheme allowing to specify different fonts for different languages  /   /  and  / in Java.
 type: docs
-weight: 581
+weight: 583
 url: /java/com.aspose.words/themefonts/
 ---
 
@@ -16,7 +17,7 @@ java.lang.Cloneable
 public class ThemeFonts implements Cloneable
 ```
 
-Represents a collection of fonts in the font scheme, allowing to specify different fonts for different languages [getLatin()](../../com.aspose.words/themefonts\#getLatin) / [setLatin(java.lang.String)](../../com.aspose.words/themefonts\#setLatin-java.lang.String), [getEastAsian()](../../com.aspose.words/themefonts\#getEastAsian) / [setEastAsian(java.lang.String)](../../com.aspose.words/themefonts\#setEastAsian-java.lang.String) and [getComplexScript()](../../com.aspose.words/themefonts\#getComplexScript) / [setComplexScript(java.lang.String)](../../com.aspose.words/themefonts\#setComplexScript-java.lang.String).
+Represents a collection of fonts in the font scheme, allowing to specify different fonts for different languages [getLatin()](../../com.aspose.words/themefonts/\#getLatin) / [setLatin(java.lang.String)](../../com.aspose.words/themefonts/\#setLatin-java.lang.String), [getEastAsian()](../../com.aspose.words/themefonts/\#getEastAsian) / [setEastAsian(java.lang.String)](../../com.aspose.words/themefonts/\#setEastAsian-java.lang.String) and [getComplexScript()](../../com.aspose.words/themefonts/\#getComplexScript) / [setComplexScript(java.lang.String)](../../com.aspose.words/themefonts/\#setComplexScript-java.lang.String).
 
 To learn more, visit the [ Working with Styles and Themes ][Working with Styles and Themes] documentation article.
 

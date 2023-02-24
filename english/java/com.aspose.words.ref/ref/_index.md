@@ -1,7 +1,8 @@
 ---
 title: Ref
+linktitle: Ref
 second_title: Aspose.Words for Java API Reference
-description: Represents Generic Out/Ref constructions
+description: Represents Generic Out/Ref constructions in Java.
 type: docs
 weight: 10
 url: /java/com.aspose.words.ref/ref/

@@ -1,9 +1,10 @@
 ---
 title: XmlDataLoadOptions
+linktitle: XmlDataLoadOptions
 second_title: Aspose.Words for Java API Reference
-description: Represents options for XML data loading.
+description: Represents options for XML data loading in Java.
 type: docs
-weight: 631
+weight: 633
 url: /java/com.aspose.words/xmldataloadoptions/
 ---
 
@@ -17,7 +18,7 @@ Represents options for XML data loading.
 
 To learn more, visit the [ LINQ Reporting Engine ][LINQ Reporting Engine] documentation article.
 
-An instance of this class can be passed into constructors of [XmlDataSource](../../com.aspose.words/xmldatasource).
+An instance of this class can be passed into constructors of [XmlDataSource](../../com.aspose.words/xmldatasource/).
 
 
 [LINQ Reporting Engine]: https://docs.aspose.com/words/java/linq-reporting-engine/

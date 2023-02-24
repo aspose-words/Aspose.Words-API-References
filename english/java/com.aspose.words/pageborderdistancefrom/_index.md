@@ -1,9 +1,10 @@
 ---
 title: PageBorderDistanceFrom
+linktitle: PageBorderDistanceFrom
 second_title: Aspose.Words for Java API Reference
-description: Specifies the positioning of the page border relative to the page margin.
+description: Specifies the positioning of the page border relative to the page margin in Java.
 type: docs
-weight: 437
+weight: 439
 url: /java/com.aspose.words/pageborderdistancefrom/
 ---
 

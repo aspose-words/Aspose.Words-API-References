@@ -1,9 +1,10 @@
 ---
 title: IFontSavingCallback
+linktitle: IFontSavingCallback
 second_title: Aspose.Words for Java API Reference
-description: Implement this interface if you want to receive notifications and control how Aspose.Words saves fonts when exporting a document to HTML format.
+description: Implement this interface if you want to receive notifications and control how Aspose.Words saves fonts when exporting a document to HTML format in Java.
 type: docs
-weight: 651
+weight: 653
 url: /java/com.aspose.words/ifontsavingcallback/
 ---
 ```
@@ -27,5 +28,5 @@ Called when Aspose.Words is about to save a font resource.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| args | [FontSavingArgs](../../com.aspose.words/fontsavingargs) |  |
+| args | [FontSavingArgs](../../com.aspose.words/fontsavingargs/) |  |
 

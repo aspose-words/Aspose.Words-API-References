@@ -1,7 +1,8 @@
 ---
 title: GraphicsQualityOptions
+linktitle: GraphicsQualityOptions
 second_title: Aspose.Words for Java API Reference
-description: Allows to specify additional .
+description: Allows to specify additional in Java.
 type: docs
 weight: 315
 url: /java/com.aspose.words/graphicsqualityoptions/

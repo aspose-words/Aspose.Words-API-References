@@ -1,14 +1,15 @@
 ---
 title: Forms2OleControl
+linktitle: Forms2OleControl
 second_title: Aspose.Words for Java API Reference
-description: Represents Microsoft Forms 2.0 OLE control.
+description: Represents Microsoft Forms 2.0 OLE control in Java.
 type: docs
 weight: 300
 url: /java/com.aspose.words/forms2olecontrol/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.words.OleControl](../../com.aspose.words/olecontrol)
+java.lang.Object, [com.aspose.words.OleControl](../../com.aspose.words/olecontrol/)
 ```
 public abstract class Forms2OleControl extends OleControl
 ```
@@ -18,7 +19,7 @@ Represents Microsoft Forms 2.0 OLE control.
 To learn more, visit the [ Working with Ole Objects ][Working with Ole Objects] documentation article.
 
 
-[Working with Ole Objects]: https://docs.aspose.com/words/java/working-with-ole-objects-and-online-video/
+[Working with Ole Objects]: https://docs.aspose.com/words/java/working-with-ole-objects/
 ## Constructors
 
 | Constructor | Description |
@@ -32,7 +33,7 @@ To learn more, visit the [ Working with Ole Objects ][Working with Ole Objects] 
 | [getCaption()](#getCaption) | Gets Caption property of control. |
 | [getChildNodes()](#getChildNodes) | Gets collection of immediate child controls. |
 | [getClass()](#getClass) |  |
-| [getClsid()](#getClsid) |  |
+| [getClsidInternal()](#getClsidInternal) |  |
 | [getEnabled()](#getEnabled) | Returns  true  if control is in enabled state. |
 | [getExtensionForUser(String progId)](#getExtensionForUser-java.lang.String) |  |
 | [getFileNameForUser()](#getFileNameForUser) |  |
@@ -41,7 +42,8 @@ To learn more, visit the [ Working with Ole Objects ][Working with Ole Objects] 
 | [getType()](#getType) | Gets type of Forms 2.0 control. |
 | [getValue()](#getValue) | Gets underlying Value property which often represents control state. |
 | [hashCode()](#hashCode) |  |
-| [isForms2OleControl()](#isForms2OleControl) | Returns  true  if the control is a [Forms2OleControl](../../com.aspose.words/forms2olecontrol). |
+| [isForms2OleControl()](#isForms2OleControl) | Returns  true  if the control is a [Forms2OleControl](../../com.aspose.words/forms2olecontrol/). |
+| [isForms2OleControlInternal()](#isForms2OleControlInternal) |  |
 | [notify()](#notify) |  |
 | [notifyAll()](#notifyAll) |  |
 | [setId(int value)](#setId-int) |  |
@@ -90,7 +92,7 @@ public Forms2OleControlCollection getChildNodes()
 Gets collection of immediate child controls. Returns  null  if this control can not have children.
 
 **Returns:**
-[Forms2OleControlCollection](../../com.aspose.words/forms2olecontrolcollection) - Collection of immediate child controls.
+[Forms2OleControlCollection](../../com.aspose.words/forms2olecontrolcollection/) - Collection of immediate child controls.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -101,9 +103,9 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getClsid() {#getClsid}
+### getClsidInternal() {#getClsidInternal}
 ```
-public String getClsid()
+public String getClsidInternal()
 ```
 
 
@@ -175,7 +177,7 @@ public abstract int getType()
 Gets type of Forms 2.0 control.
 
 **Returns:**
-int - Type of Forms 2.0 control. The returned value is one of [Forms2OleControlType](../../com.aspose.words/forms2olecontroltype) constants.
+int - Type of Forms 2.0 control. The returned value is one of [Forms2OleControlType](../../com.aspose.words/forms2olecontroltype/) constants.
 ### getValue() {#getValue}
 ```
 public String getValue()
@@ -202,10 +204,20 @@ public boolean isForms2OleControl()
 ```
 
 
-Returns  true  if the control is a [Forms2OleControl](../../com.aspose.words/forms2olecontrol).
+Returns  true  if the control is a [Forms2OleControl](../../com.aspose.words/forms2olecontrol/).
 
 **Returns:**
-boolean - \{ true  if the control is a [Forms2OleControl](../../com.aspose.words/forms2olecontrol).
+boolean - \{ true  if the control is a [Forms2OleControl](../../com.aspose.words/forms2olecontrol/).
+### isForms2OleControlInternal() {#isForms2OleControlInternal}
+```
+public boolean isForms2OleControlInternal()
+```
+
+
+
+
+**Returns:**
+boolean
 ### notify() {#notify}
 ```
 public final native void notify()

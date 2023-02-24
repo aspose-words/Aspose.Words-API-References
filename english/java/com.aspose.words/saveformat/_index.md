@@ -1,9 +1,10 @@
 ---
 title: SaveFormat
+linktitle: SaveFormat
 second_title: Aspose.Words for Java API Reference
-description: Indicates the format in which the document is saved.
+description: Indicates the format in which the document is saved in Java.
 type: docs
-weight: 503
+weight: 505
 url: /java/com.aspose.words/saveformat/
 ---
 
@@ -38,6 +39,7 @@ Indicates the format in which the document is saved. **M:Aspose.Words.Document.S
 | [JPEG](#JPEG) | Renders a page of the document and saves it as a JPEG file. |
 | [MARKDOWN](#MARKDOWN) | Saves the document in the Markdown format. |
 | [MHTML](#MHTML) | Saves the document in the MHTML (Web archive) format. |
+| [MOBI](#MOBI) | Saves the document in the MOBI format. |
 | [ODT](#ODT) | Saves the document as an ODF Text Document. |
 | [OPEN_XPS](#OPEN-XPS) | Saves the document in the OpenXPS (Ecma-388) format. |
 | [OTT](#OTT) | Saves the document as an ODF Text Document Template. |
@@ -232,6 +234,14 @@ public static int MHTML
 
 
 Saves the document in the MHTML (Web archive) format.
+
+### MOBI {#MOBI}
+```
+public static int MOBI
+```
+
+
+Saves the document in the MOBI format.
 
 ### ODT {#ODT}
 ```

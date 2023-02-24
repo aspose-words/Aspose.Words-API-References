@@ -1,9 +1,10 @@
 ---
 title: Metered
+linktitle: Metered
 second_title: Aspose.Words for Java API Reference
-description: Provides methods to set metered key.
+description: Provides methods to set metered key in Java.
 type: docs
-weight: 402
+weight: 404
 url: /java/com.aspose.words/metered/
 ---
 

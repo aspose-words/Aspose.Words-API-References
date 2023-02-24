@@ -1,9 +1,10 @@
 ---
 title: OutlineOptions
+linktitle: OutlineOptions
 second_title: Aspose.Words for Java API Reference
-description: Allows to specify outline options.
+description: Allows to specify outline options in Java.
 type: docs
-weight: 435
+weight: 437
 url: /java/com.aspose.words/outlineoptions/
 ---
 
@@ -66,10 +67,10 @@ public BookmarksOutlineLevelCollection getBookmarksOutlineLevels()
 
 Allows to specify individual bookmarks outline level.
 
-If bookmark level is not specified in this collection then [getDefaultBookmarksOutlineLevel()](../../com.aspose.words/outlineoptions\#getDefaultBookmarksOutlineLevel) / [setDefaultBookmarksOutlineLevel(int)](../../com.aspose.words/outlineoptions\#setDefaultBookmarksOutlineLevel-int) value is used.
+If bookmark level is not specified in this collection then [getDefaultBookmarksOutlineLevel()](../../com.aspose.words/outlineoptions/\#getDefaultBookmarksOutlineLevel) / [setDefaultBookmarksOutlineLevel(int)](../../com.aspose.words/outlineoptions/\#setDefaultBookmarksOutlineLevel-int) value is used.
 
 **Returns:**
-[BookmarksOutlineLevelCollection](../../com.aspose.words/bookmarksoutlinelevelcollection) - The corresponding [BookmarksOutlineLevelCollection](../../com.aspose.words/bookmarksoutlinelevelcollection) value.
+[BookmarksOutlineLevelCollection](../../com.aspose.words/bookmarksoutlinelevelcollection/) - The corresponding [BookmarksOutlineLevelCollection](../../com.aspose.words/bookmarksoutlinelevelcollection/) value.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -112,7 +113,7 @@ public int getDefaultBookmarksOutlineLevel()
 
 Specifies the default level in the document outline at which to display Word bookmarks.
 
-Individual bookmarks level could be specified using [getBookmarksOutlineLevels()](../../com.aspose.words/outlineoptions\#getBookmarksOutlineLevels) property.
+Individual bookmarks level could be specified using [getBookmarksOutlineLevels()](../../com.aspose.words/outlineoptions/\#getBookmarksOutlineLevels) property.
 
 Specify 0 and Word bookmarks will not be displayed in the document outline. Specify 1 and Word bookmarks will be displayed in the document outline at level 1; 2 for level 2 and so on.
 
@@ -214,7 +215,7 @@ public void setDefaultBookmarksOutlineLevel(int value)
 
 Specifies the default level in the document outline at which to display Word bookmarks.
 
-Individual bookmarks level could be specified using [getBookmarksOutlineLevels()](../../com.aspose.words/outlineoptions\#getBookmarksOutlineLevels) property.
+Individual bookmarks level could be specified using [getBookmarksOutlineLevels()](../../com.aspose.words/outlineoptions/\#getBookmarksOutlineLevels) property.
 
 Specify 0 and Word bookmarks will not be displayed in the document outline. Specify 1 and Word bookmarks will be displayed in the document outline at level 1; 2 for level 2 and so on.
 

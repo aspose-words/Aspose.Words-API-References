@@ -1,9 +1,10 @@
 ---
 title: IFieldUpdatingCallback
+linktitle: IFieldUpdatingCallback
 second_title: Aspose.Words for Java API Reference
-description: Implement this interface if you want to have your own custom methods called during a field update.
+description: Implement this interface if you want to have your own custom methods called during a field update in Java.
 type: docs
-weight: 648
+weight: 650
 url: /java/com.aspose.words/ifieldupdatingcallback/
 ---
 ```
@@ -28,7 +29,7 @@ A user defined method that is called just after a field is updated.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| field | [Field](../../com.aspose.words/field) |  |
+| field | [Field](../../com.aspose.words/field/) |  |
 
 ### fieldUpdating(Field field) {#fieldUpdating-com.aspose.words.Field}
 ```
@@ -41,5 +42,5 @@ A user defined method that is called just before a field is updated.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| field | [Field](../../com.aspose.words/field) |  |
+| field | [Field](../../com.aspose.words/field/) |  |
 

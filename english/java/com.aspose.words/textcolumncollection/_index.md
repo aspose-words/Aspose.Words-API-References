@@ -1,9 +1,10 @@
 ---
 title: TextColumnCollection
+linktitle: TextColumnCollection
 second_title: Aspose.Words for Java API Reference
-description: A collection of  objects that represent all the columns of text in a section of a document.
+description: A collection of  objects that represent all the columns of text in a section of a document in Java.
 type: docs
-weight: 566
+weight: 568
 url: /java/com.aspose.words/textcolumncollection/
 ---
 
@@ -13,15 +14,15 @@ java.lang.Object
 public class TextColumnCollection
 ```
 
-A collection of [TextColumn](../../com.aspose.words/textcolumn) objects that represent all the columns of text in a section of a document.
+A collection of [TextColumn](../../com.aspose.words/textcolumn/) objects that represent all the columns of text in a section of a document.
 
 To learn more, visit the [ Working with Sections ][Working with Sections] documentation article.
 
-Use [setCount(int)](../../com.aspose.words/textcolumncollection\#setCount-int) to set the number of text columns.
+Use [setCount(int)](../../com.aspose.words/textcolumncollection/\#setCount-int) to set the number of text columns.
 
-To make all columns equal width and spaced evenly, set [getEvenlySpaced()](../../com.aspose.words/textcolumncollection\#getEvenlySpaced) / [setEvenlySpaced(boolean)](../../com.aspose.words/textcolumncollection\#setEvenlySpaced-boolean) to  true  and specify the amount of space between the columns in [getSpacing()](../../com.aspose.words/textcolumncollection\#getSpacing) / [setSpacing(double)](../../com.aspose.words/textcolumncollection\#setSpacing-double). MS Word will automatically calculate column widths.
+To make all columns equal width and spaced evenly, set [getEvenlySpaced()](../../com.aspose.words/textcolumncollection/\#getEvenlySpaced) / [setEvenlySpaced(boolean)](../../com.aspose.words/textcolumncollection/\#setEvenlySpaced-boolean) to  true  and specify the amount of space between the columns in [getSpacing()](../../com.aspose.words/textcolumncollection/\#getSpacing) / [setSpacing(double)](../../com.aspose.words/textcolumncollection/\#setSpacing-double). MS Word will automatically calculate column widths.
 
-If you have [getEvenlySpaced()](../../com.aspose.words/textcolumncollection\#getEvenlySpaced) / [setEvenlySpaced(boolean)](../../com.aspose.words/textcolumncollection\#setEvenlySpaced-boolean) set to  false , you need to specify width and spacing for each column individually. Use the indexer to access individual [TextColumn](../../com.aspose.words/textcolumn) objects.
+If you have [getEvenlySpaced()](../../com.aspose.words/textcolumncollection/\#getEvenlySpaced) / [setEvenlySpaced(boolean)](../../com.aspose.words/textcolumncollection/\#setEvenlySpaced-boolean) set to  false , you need to specify width and spacing for each column individually. Use the indexer to access individual [TextColumn](../../com.aspose.words/textcolumn/) objects.
 
 When using custom column widths, make sure the sum of all column widths and spacings between them equals page width minus left and right page margins.
 
@@ -79,7 +80,7 @@ Returns a text column at the specified index.
 | index | int |  |
 
 **Returns:**
-[TextColumn](../../com.aspose.words/textcolumn) - A text column at the specified index.
+[TextColumn](../../com.aspose.words/textcolumn/) - A text column at the specified index.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -126,7 +127,7 @@ public double getSpacing()
 ```
 
 
-When columns are evenly spaced, gets or sets the amount of space between each column in points. Has effect only when [getEvenlySpaced()](../../com.aspose.words/textcolumncollection\#getEvenlySpaced) / [setEvenlySpaced(boolean)](../../com.aspose.words/textcolumncollection\#setEvenlySpaced-boolean) is set to  true .
+When columns are evenly spaced, gets or sets the amount of space between each column in points. Has effect only when [getEvenlySpaced()](../../com.aspose.words/textcolumncollection/\#getEvenlySpaced) / [setEvenlySpaced(boolean)](../../com.aspose.words/textcolumncollection/\#setEvenlySpaced-boolean) is set to  true .
 
 **Returns:**
 double - The corresponding  double  value.
@@ -138,7 +139,7 @@ public double getWidth()
 
 When columns are evenly spaced, gets the width of the columns.
 
-Has effect only when [getEvenlySpaced()](../../com.aspose.words/textcolumncollection\#getEvenlySpaced) / [setEvenlySpaced(boolean)](../../com.aspose.words/textcolumncollection\#setEvenlySpaced-boolean) is set to  true .
+Has effect only when [getEvenlySpaced()](../../com.aspose.words/textcolumncollection/\#getEvenlySpaced) / [setEvenlySpaced(boolean)](../../com.aspose.words/textcolumncollection/\#setEvenlySpaced-boolean) is set to  true .
 
 **Returns:**
 double - The corresponding  double  value.
@@ -176,7 +177,7 @@ public void setCount(int newCount)
 
 Arranges text into the specified number of text columns.
 
-When [getEvenlySpaced()](../../com.aspose.words/textcolumncollection\#getEvenlySpaced) / [setEvenlySpaced(boolean)](../../com.aspose.words/textcolumncollection\#setEvenlySpaced-boolean) is  false  and you increase the number of columns, new [TextColumn](../../com.aspose.words/textcolumn) objects are created with zero width and spacing. You need to set width and spacing for the new columns.
+When [getEvenlySpaced()](../../com.aspose.words/textcolumncollection/\#getEvenlySpaced) / [setEvenlySpaced(boolean)](../../com.aspose.words/textcolumncollection/\#setEvenlySpaced-boolean) is  false  and you increase the number of columns, new [TextColumn](../../com.aspose.words/textcolumn/) objects are created with zero width and spacing. You need to set width and spacing for the new columns.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -215,7 +216,7 @@ public void setSpacing(double value)
 ```
 
 
-When columns are evenly spaced, gets or sets the amount of space between each column in points. Has effect only when [getEvenlySpaced()](../../com.aspose.words/textcolumncollection\#getEvenlySpaced) / [setEvenlySpaced(boolean)](../../com.aspose.words/textcolumncollection\#setEvenlySpaced-boolean) is set to  true .
+When columns are evenly spaced, gets or sets the amount of space between each column in points. Has effect only when [getEvenlySpaced()](../../com.aspose.words/textcolumncollection/\#getEvenlySpaced) / [setEvenlySpaced(boolean)](../../com.aspose.words/textcolumncollection/\#setEvenlySpaced-boolean) is set to  true .
 
 **Parameters:**
 | Parameter | Type | Description |

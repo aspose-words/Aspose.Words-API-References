@@ -1,14 +1,15 @@
 ---
 title: Table
+linktitle: Table
 second_title: Aspose.Words for Java API Reference
-description: Represents a table in a Word document.
+description: Represents a table in a Word document in Java.
 type: docs
-weight: 552
+weight: 554
 url: /java/com.aspose.words/table/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.words.Node](../../com.aspose.words/node), [com.aspose.words.CompositeNode](../../com.aspose.words/compositenode)
+java.lang.Object, [com.aspose.words.Node](../../com.aspose.words/node/), [com.aspose.words.CompositeNode](../../com.aspose.words/compositenode/)
 ```
 public class Table extends CompositeNode
 ```
@@ -17,11 +18,11 @@ Represents a table in a Word document.
 
 To learn more, visit the [ Working with Tables ][Working with Tables] documentation article.
 
-[Table](../../com.aspose.words/table) is a block-level node and can be a child of classes derived from [Story](../../com.aspose.words/story) or [InlineStory](../../com.aspose.words/inlinestory).
+[Table](../../com.aspose.words/table/) is a block-level node and can be a child of classes derived from [Story](../../com.aspose.words/story/) or [InlineStory](../../com.aspose.words/inlinestory/).
 
-[Table](../../com.aspose.words/table) can contain one or more [Row](../../com.aspose.words/row) nodes.
+[Table](../../com.aspose.words/table/) can contain one or more [Row](../../com.aspose.words/row/) nodes.
 
-A minimal valid table needs to have at least one [Row](../../com.aspose.words/row).
+A minimal valid table needs to have at least one [Row](../../com.aspose.words/row/).
 
 
 [Working with Tables]: https://docs.aspose.com/words/java/working-with-tables/
@@ -29,7 +30,7 @@ A minimal valid table needs to have at least one [Row](../../com.aspose.words/ro
 
 | Constructor | Description |
 | --- | --- |
-| [Table(DocumentBase doc)](#Table-com.aspose.words.DocumentBase) | Initializes a new instance of the [Table](../../com.aspose.words/table) class. |
+| [Table(DocumentBase doc)](#Table-com.aspose.words.DocumentBase) | Initializes a new instance of the [Table](../../com.aspose.words/table/) class. |
 ## Methods
 
 | Method | Description |
@@ -39,10 +40,10 @@ A minimal valid table needs to have at least one [Row](../../com.aspose.words/ro
 | [autoFit(int behavior)](#autoFit-int) |  |
 | [clearBorders()](#clearBorders) | Removes all table and cell borders on this table. |
 | [clearShading()](#clearShading) | Removes all shading on the table. |
-| [convertToHorizontallyMergedCells()](#convertToHorizontallyMergedCells) | Converts cells horizontally merged by width to cells merged by [CellFormat.getHorizontalMerge()](../../com.aspose.words/cellformat\#getHorizontalMerge) / [CellFormat.setHorizontalMerge(int)](../../com.aspose.words/cellformat\#setHorizontalMerge-int). |
+| [convertToHorizontallyMergedCells()](#convertToHorizontallyMergedCells) | Converts cells horizontally merged by width to cells merged by [CellFormat.getHorizontalMerge()](../../com.aspose.words/cellformat/\#getHorizontalMerge) / [CellFormat.setHorizontalMerge(int)](../../com.aspose.words/cellformat/\#setHorizontalMerge-int). |
 | [dd()](#dd) |  |
 | [deepClone(boolean isCloneChildren)](#deepClone-boolean) | Creates a duplicate of the node. |
-| [ensureMinimum()](#ensureMinimum) | If the table has no rows, creates and appends one [Row](../../com.aspose.words/row). |
+| [ensureMinimum()](#ensureMinimum) | If the table has no rows, creates and appends one [Row](../../com.aspose.words/row/). |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getAbsoluteHorizontalDistance()](#getAbsoluteHorizontalDistance) | Gets absolute horizontal floating table position specified by the table properties, in points. |
 | [getAbsoluteVerticalDistance()](#getAbsoluteVerticalDistance) | Gets absolute vertical floating table position specified by the table properties, in points. |
@@ -70,19 +71,19 @@ A minimal valid table needs to have at least one [Row](../../com.aspose.words/ro
 | [getDistanceTop()](#getDistanceTop) | Gets distance between table top and the surrounding text, in points. |
 | [getDocument()](#getDocument) | Gets the document to which this node belongs. |
 | [getFirstChild()](#getFirstChild) | Gets the first child of the node. |
-| [getFirstRow()](#getFirstRow) | Returns the first [Row](../../com.aspose.words/row) node in the table. |
+| [getFirstRow()](#getFirstRow) | Returns the first [Row](../../com.aspose.words/row/) node in the table. |
 | [getHorizontalAnchor()](#getHorizontalAnchor) | Gets the base object from which the horizontal positioning of floating table should be calculated. |
 | [getLastChild()](#getLastChild) | Gets the last child of the node. |
-| [getLastRow()](#getLastRow) | Returns the last [Row](../../com.aspose.words/row) node in the table. |
+| [getLastRow()](#getLastRow) | Returns the last [Row](../../com.aspose.words/row/) node in the table. |
 | [getLeftIndent()](#getLeftIndent) | Gets the value that represents the left indent of the table. |
 | [getLeftPadding()](#getLeftPadding) | Gets the amount of space (in points) to add to the left of the contents of cells. |
 | [getNextMatchingNode(Node curNode)](#getNextMatchingNode-com.aspose.words.Node) |  |
 | [getNextSibling()](#getNextSibling) | Gets the node immediately following this node. |
-| [getNodeType()](#getNodeType) | Returns [NodeType.TABLE](../../com.aspose.words/nodetype\#TABLE). |
+| [getNodeType()](#getNodeType) | Returns [NodeType.TABLE](../../com.aspose.words/nodetype/\#TABLE). |
 | [getParentNode()](#getParentNode) | Gets the immediate parent of this node. |
 | [getPreferredWidth()](#getPreferredWidth) | Gets the table preferred width. |
 | [getPreviousSibling()](#getPreviousSibling) | Gets the node immediately preceding this node. |
-| [getRange()](#getRange) | Returns a [Range](../../com.aspose.words/range) object that represents the portion of a document that is contained in this node. |
+| [getRange()](#getRange) | Returns a [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node. |
 | [getRelativeHorizontalAlignment()](#getRelativeHorizontalAlignment) | Gets floating table relative horizontal alignment. |
 | [getRelativeVerticalAlignment()](#getRelativeVerticalAlignment) | Gets floating table relative vertical alignment. |
 | [getRightPadding()](#getRightPadding) | Gets the amount of space (in points) to add to the right of the contents of cells. |
@@ -92,7 +93,7 @@ A minimal valid table needs to have at least one [Row](../../com.aspose.words/ro
 | [getStyleName()](#getStyleName) | Gets the name of the table style applied to this table. |
 | [getStyleOptions()](#getStyleOptions) | Gets bit flags that specify how a table style is applied to this table. |
 | [getText()](#getText) | Gets the text of this node and of all its children. |
-| [getTextWrapping()](#getTextWrapping) | Gets [getTextWrapping()](../../com.aspose.words/table\#getTextWrapping) / [setTextWrapping(int)](../../com.aspose.words/table\#setTextWrapping-int) for table. |
+| [getTextWrapping()](#getTextWrapping) | Gets [getTextWrapping()](../../com.aspose.words/table/\#getTextWrapping) / [setTextWrapping(int)](../../com.aspose.words/table/\#setTextWrapping-int) for table. |
 | [getTitle()](#getTitle) | Gets title of this table. |
 | [getTopPadding()](#getTopPadding) | Gets the amount of space (in points) to add above the contents of cells. |
 | [getVerticalAnchor()](#getVerticalAnchor) | Gets the base object from which the vertical positioning of floating table should be calculated. |
@@ -112,9 +113,9 @@ A minimal valid table needs to have at least one [Row](../../com.aspose.words/ro
 | [remove()](#remove) | Removes itself from the parent. |
 | [removeAllChildren()](#removeAllChildren) | Removes all the child nodes of the current node. |
 | [removeChild(Node oldChild)](#removeChild-com.aspose.words.Node) | Removes the specified child node. |
-| [removeSmartTags()](#removeSmartTags) | Removes all [SmartTag](../../com.aspose.words/smarttag) descendant nodes of the current node. |
+| [removeSmartTags()](#removeSmartTags) | Removes all [SmartTag](../../com.aspose.words/smarttag/) descendant nodes of the current node. |
 | [selectNodes(String xpath)](#selectNodes-java.lang.String) | Selects a list of nodes matching the XPath expression. |
-| [selectSingleNode(String xpath)](#selectSingleNode-java.lang.String) | Selects the first [Node](../../com.aspose.words/node) that matches the XPath expression. |
+| [selectSingleNode(String xpath)](#selectSingleNode-java.lang.String) | Selects the first [Node](../../com.aspose.words/node/) that matches the XPath expression. |
 | [setAbsoluteHorizontalDistance(double value)](#setAbsoluteHorizontalDistance-double) | Sets absolute horizontal floating table position specified by the table properties, in points. |
 | [setAbsoluteVerticalDistance(double value)](#setAbsoluteVerticalDistance-double) | Sets absolute vertical floating table position specified by the table properties, in points. |
 | [setAlignment(int value)](#setAlignment-int) | Specifies how an inline table is aligned in the document. |
@@ -139,7 +140,7 @@ A minimal valid table needs to have at least one [Row](../../com.aspose.words/ro
 | [setStyleIdentifier(int value)](#setStyleIdentifier-int) | Sets the locale independent style identifier of the table style applied to this table. |
 | [setStyleName(String value)](#setStyleName-java.lang.String) | Sets the name of the table style applied to this table. |
 | [setStyleOptions(int value)](#setStyleOptions-int) | Sets bit flags that specify how a table style is applied to this table. |
-| [setTextWrapping(int value)](#setTextWrapping-int) | Sets [getTextWrapping()](../../com.aspose.words/table\#getTextWrapping) / [setTextWrapping(int)](../../com.aspose.words/table\#setTextWrapping-int) for table. |
+| [setTextWrapping(int value)](#setTextWrapping-int) | Sets [getTextWrapping()](../../com.aspose.words/table/\#getTextWrapping) / [setTextWrapping(int)](../../com.aspose.words/table/\#setTextWrapping-int) for table. |
 | [setTitle(String value)](#setTitle-java.lang.String) | Sets title of this table. |
 | [setTopPadding(double value)](#setTopPadding-double) | Sets the amount of space (in points) to add above the contents of cells. |
 | [setVerticalAnchor(int value)](#setVerticalAnchor-int) | Gets the base object from which the vertical positioning of floating table should be calculated. |
@@ -155,16 +156,16 @@ public Table(DocumentBase doc)
 ```
 
 
-Initializes a new instance of the [Table](../../com.aspose.words/table) class.
+Initializes a new instance of the [Table](../../com.aspose.words/table/) class.
 
-When [Table](../../com.aspose.words/table) is created, it belongs to the specified document, but is not yet part of the document and [Node.getParentNode()](../../com.aspose.words/node\#getParentNode) is  null .
+When [Table](../../com.aspose.words/table/) is created, it belongs to the specified document, but is not yet part of the document and [Node.getParentNode()](../../com.aspose.words/node/\#getParentNode) is  null .
 
-To append [Table](../../com.aspose.words/table) to the document use [CompositeNode.insertAfter(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode\#insertAfter-com.aspose.words.Node--com.aspose.words.Node) or [CompositeNode.insertBefore(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode\#insertBefore-com.aspose.words.Node--com.aspose.words.Node) on the story where you want the table inserted.
+To append [Table](../../com.aspose.words/table/) to the document use [CompositeNode.insertAfter(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode/\#insertAfter-com.aspose.words.Node--com.aspose.words.Node) or [CompositeNode.insertBefore(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode/\#insertBefore-com.aspose.words.Node--com.aspose.words.Node) on the story where you want the table inserted.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | [DocumentBase](../../com.aspose.words/documentbase) | The owner document. |
+| doc | [DocumentBase](../../com.aspose.words/documentbase/) | The owner document. |
 
 ### accept(DocumentVisitor visitor) {#accept-com.aspose.words.DocumentVisitor}
 ```
@@ -174,17 +175,17 @@ public boolean accept(DocumentVisitor visitor)
 
 Accepts a visitor.
 
-Enumerates over this node and all of its children. Each node calls a corresponding method on [DocumentVisitor](../../com.aspose.words/documentvisitor).
+Enumerates over this node and all of its children. Each node calls a corresponding method on [DocumentVisitor](../../com.aspose.words/documentvisitor/).
 
 For more info see the Visitor design pattern.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor) | The visitor that will visit the nodes. |
+| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor/) | The visitor that will visit the nodes. |
 
 **Returns:**
-boolean - True if all nodes were visited; false if [DocumentVisitor](../../com.aspose.words/documentvisitor) stopped the operation before visiting all nodes. Calls [DocumentVisitor.visitTableStart(com.aspose.words.Table)](../../com.aspose.words/documentvisitor\#visitTableStart-com.aspose.words.Table), then calls [Node.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/node\#accept-com.aspose.words.DocumentVisitor) for all child nodes of the section and calls [DocumentVisitor.visitTableEnd(com.aspose.words.Table)](../../com.aspose.words/documentvisitor\#visitTableEnd-com.aspose.words.Table) at the end.
+boolean - True if all nodes were visited; false if [DocumentVisitor](../../com.aspose.words/documentvisitor/) stopped the operation before visiting all nodes. Calls [DocumentVisitor.visitTableStart(com.aspose.words.Table)](../../com.aspose.words/documentvisitor/\#visitTableStart-com.aspose.words.Table), then calls [Node.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/node/\#accept-com.aspose.words.DocumentVisitor) for all child nodes of the section and calls [DocumentVisitor.visitTableEnd(com.aspose.words.Table)](../../com.aspose.words/documentvisitor/\#visitTableEnd-com.aspose.words.Table) at the end.
 ### appendChild(Node newChild) {#appendChild-com.aspose.words.Node}
 ```
 public Node appendChild(Node newChild)
@@ -200,10 +201,10 @@ If the node being inserted was created from another document, you should use **M
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | The node to add. |
+| newChild | [Node](../../com.aspose.words/node/) | The node to add. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The node added.
+[Node](../../com.aspose.words/node/) - The node added.
 ### autoFit(int behavior) {#autoFit-int}
 ```
 public void autoFit(int behavior)
@@ -239,11 +240,11 @@ public void convertToHorizontallyMergedCells()
 ```
 
 
-Converts cells horizontally merged by width to cells merged by [CellFormat.getHorizontalMerge()](../../com.aspose.words/cellformat\#getHorizontalMerge) / [CellFormat.setHorizontalMerge(int)](../../com.aspose.words/cellformat\#setHorizontalMerge-int).
+Converts cells horizontally merged by width to cells merged by [CellFormat.getHorizontalMerge()](../../com.aspose.words/cellformat/\#getHorizontalMerge) / [CellFormat.setHorizontalMerge(int)](../../com.aspose.words/cellformat/\#setHorizontalMerge-int).
 
-Table cells can be horizontally merged either using merge flags [CellFormat.getHorizontalMerge()](../../com.aspose.words/cellformat\#getHorizontalMerge) / [CellFormat.setHorizontalMerge(int)](../../com.aspose.words/cellformat\#setHorizontalMerge-int) or using cell width [CellFormat.getWidth()](../../com.aspose.words/cellformat\#getWidth) / [CellFormat.setWidth(double)](../../com.aspose.words/cellformat\#setWidth-double).
+Table cells can be horizontally merged either using merge flags [CellFormat.getHorizontalMerge()](../../com.aspose.words/cellformat/\#getHorizontalMerge) / [CellFormat.setHorizontalMerge(int)](../../com.aspose.words/cellformat/\#setHorizontalMerge-int) or using cell width [CellFormat.getWidth()](../../com.aspose.words/cellformat/\#getWidth) / [CellFormat.setWidth(double)](../../com.aspose.words/cellformat/\#setWidth-double).
 
-When table cell is merged by width property [CellFormat.getHorizontalMerge()](../../com.aspose.words/cellformat\#getHorizontalMerge) / [CellFormat.setHorizontalMerge(int)](../../com.aspose.words/cellformat\#setHorizontalMerge-int) is meaningless but sometimes having merge flags is more convenient way.
+When table cell is merged by width property [CellFormat.getHorizontalMerge()](../../com.aspose.words/cellformat/\#getHorizontalMerge) / [CellFormat.setHorizontalMerge(int)](../../com.aspose.words/cellformat/\#setHorizontalMerge-int) is meaningless but sometimes having merge flags is more convenient way.
 
 Use this method to transforms table cells horizontally merged by width to cells merged by merge flags.
 
@@ -273,14 +274,14 @@ This method always performs a deep copy of the node. The  isCloneChildren  param
 | isCloneChildren | boolean | True to recursively clone the subtree under the specified node; false to clone only the node itself. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The cloned node.
+[Node](../../com.aspose.words/node/) - The cloned node.
 ### ensureMinimum() {#ensureMinimum}
 ```
 public void ensureMinimum()
 ```
 
 
-If the table has no rows, creates and appends one [Row](../../com.aspose.words/row).
+If the table has no rows, creates and appends one [Row](../../com.aspose.words/row/).
 
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
@@ -325,10 +326,10 @@ public int getAlignment()
 
 Specifies how an inline table is aligned in the document.
 
-The default value is [TableAlignment.LEFT](../../com.aspose.words/tablealignment\#LEFT).
+The default value is [TableAlignment.LEFT](../../com.aspose.words/tablealignment/\#LEFT).
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [TableAlignment](../../com.aspose.words/tablealignment) constants.
+int - The corresponding  int  value. The returned value is one of [TableAlignment](../../com.aspose.words/tablealignment/) constants.
 ### getAllowAutoFit() {#getAllowAutoFit}
 ```
 public boolean getAllowAutoFit()
@@ -377,7 +378,7 @@ public CompositeNode getAncestor(int ancestorType)
 | ancestorType | int |  |
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode)
+[CompositeNode](../../com.aspose.words/compositenode/)
 ### getAncestor(Class ancestorType) {#getAncestor-java.lang.Class}
 ```
 public CompositeNode getAncestor(Class ancestorType)
@@ -392,7 +393,7 @@ Gets the first ancestor of the specified object type.
 | ancestorType | java.lang.Class | The object type of the ancestor to retrieve. |
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode) - The ancestor of the specified type or  null  if no ancestor of this type was found.
+[CompositeNode](../../com.aspose.words/compositenode/) - The ancestor of the specified type or  null  if no ancestor of this type was found.
 
 The ancestor type matches if it is equal to  ancestorType  or derived from  ancestorType .
 ### getBidi() {#getBidi}
@@ -445,7 +446,7 @@ public Node getChild(int nodeType, int index, boolean isDeep)
 | isDeep | boolean |  |
 
 **Returns:**
-[Node](../../com.aspose.words/node)
+[Node](../../com.aspose.words/node/)
 ### getChildNodes() {#getChildNodes}
 ```
 public NodeCollection getChildNodes()
@@ -454,12 +455,12 @@ public NodeCollection getChildNodes()
 
 Gets all immediate child nodes of this node.
 
-Note, [getChildNodes()](../../com.aspose.words/compositenode\#getChildNodes) is equivalent to calling **M:Aspose.Words.CompositeNode.GetChildNodes(Aspose.Words.NodeType,System.Boolean)** with arguments ( [NodeType.ANY](../../com.aspose.words/nodetype\#ANY),  false ) and creates and returns a new collection every time it is accessed.
+Note, [getChildNodes()](../../com.aspose.words/compositenode/\#getChildNodes) is equivalent to calling **M:Aspose.Words.CompositeNode.GetChildNodes(Aspose.Words.NodeType,System.Boolean)** with arguments ( [NodeType.ANY](../../com.aspose.words/nodetype/\#ANY),  false ) and creates and returns a new collection every time it is accessed.
 
 If there are no child nodes, this property returns an empty collection.
 
 **Returns:**
-[NodeCollection](../../com.aspose.words/nodecollection) - All immediate child nodes of this node.
+[NodeCollection](../../com.aspose.words/nodecollection/) - All immediate child nodes of this node.
 ### getChildNodes(int nodeType, boolean isDeep) {#getChildNodes-int-boolean}
 ```
 public NodeCollection getChildNodes(int nodeType, boolean isDeep)
@@ -475,7 +476,7 @@ public NodeCollection getChildNodes(int nodeType, boolean isDeep)
 | isDeep | boolean |  |
 
 **Returns:**
-[NodeCollection](../../com.aspose.words/nodecollection)
+[NodeCollection](../../com.aspose.words/nodecollection/)
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -495,7 +496,7 @@ public CompositeNode getContainer()
 
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode)
+[CompositeNode](../../com.aspose.words/compositenode/)
 ### getCount() {#getCount}
 ```
 public int getCount()
@@ -515,7 +516,7 @@ public Node getCurrentNode()
 
 
 **Returns:**
-[Node](../../com.aspose.words/node)
+[Node](../../com.aspose.words/node/)
 ### getCustomNodeId() {#getCustomNodeId}
 ```
 public int getCustomNodeId()
@@ -542,7 +543,7 @@ Gets description of this table. It provides an alternative text representation o
 
 The default value is an empty string.
 
-This property is meaningful for ISO/IEC 29500 compliant DOCX documents ( [OoxmlCompliance](../../com.aspose.words/ooxmlcompliance)). When saved to pre-ISO/IEC 29500 formats, the property is ignored.
+This property is meaningful for ISO/IEC 29500 compliant DOCX documents ( [OoxmlCompliance](../../com.aspose.words/ooxmlcompliance/)). When saved to pre-ISO/IEC 29500 formats, the property is ignored.
 
 **Returns:**
 java.lang.String - Description of this table.
@@ -597,7 +598,7 @@ Gets the document to which this node belongs.
 The node always belongs to a document even if it has just been created and not yet added to the tree, or if it has been removed from the tree.
 
 **Returns:**
-[DocumentBase](../../com.aspose.words/documentbase) - The document to which this node belongs.
+[DocumentBase](../../com.aspose.words/documentbase/) - The document to which this node belongs.
 ### getFirstChild() {#getFirstChild}
 ```
 public Node getFirstChild()
@@ -607,27 +608,27 @@ public Node getFirstChild()
 Gets the first child of the node. If there is no first child node, a  null  is returned.
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The first child of the node.
+[Node](../../com.aspose.words/node/) - The first child of the node.
 ### getFirstRow() {#getFirstRow}
 ```
 public Row getFirstRow()
 ```
 
 
-Returns the first [Row](../../com.aspose.words/row) node in the table.
+Returns the first [Row](../../com.aspose.words/row/) node in the table.
 
 **Returns:**
-[Row](../../com.aspose.words/row) - The first [Row](../../com.aspose.words/row) node in the table.
+[Row](../../com.aspose.words/row/) - The first [Row](../../com.aspose.words/row/) node in the table.
 ### getHorizontalAnchor() {#getHorizontalAnchor}
 ```
 public int getHorizontalAnchor()
 ```
 
 
-Gets the base object from which the horizontal positioning of floating table should be calculated. Default value is [RelativeHorizontalPosition.COLUMN](../../com.aspose.words/relativehorizontalposition\#COLUMN).
+Gets the base object from which the horizontal positioning of floating table should be calculated. Default value is [RelativeHorizontalPosition.COLUMN](../../com.aspose.words/relativehorizontalposition/\#COLUMN).
 
 **Returns:**
-int - The base object from which the horizontal positioning of floating table should be calculated. The returned value is one of [RelativeHorizontalPosition](../../com.aspose.words/relativehorizontalposition) constants.
+int - The base object from which the horizontal positioning of floating table should be calculated. The returned value is one of [RelativeHorizontalPosition](../../com.aspose.words/relativehorizontalposition/) constants.
 ### getLastChild() {#getLastChild}
 ```
 public Node getLastChild()
@@ -637,17 +638,17 @@ public Node getLastChild()
 Gets the last child of the node. If there is no last child node, a  null  is returned.
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The last child of the node.
+[Node](../../com.aspose.words/node/) - The last child of the node.
 ### getLastRow() {#getLastRow}
 ```
 public Row getLastRow()
 ```
 
 
-Returns the last [Row](../../com.aspose.words/row) node in the table.
+Returns the last [Row](../../com.aspose.words/row/) node in the table.
 
 **Returns:**
-[Row](../../com.aspose.words/row) - The last [Row](../../com.aspose.words/row) node in the table.
+[Row](../../com.aspose.words/row/) - The last [Row](../../com.aspose.words/row/) node in the table.
 ### getLeftIndent() {#getLeftIndent}
 ```
 public double getLeftIndent()
@@ -679,10 +680,10 @@ public Node getNextMatchingNode(Node curNode)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| curNode | [Node](../../com.aspose.words/node) |  |
+| curNode | [Node](../../com.aspose.words/node/) |  |
 
 **Returns:**
-[Node](../../com.aspose.words/node)
+[Node](../../com.aspose.words/node/)
 ### getNextSibling() {#getNextSibling}
 ```
 public Node getNextSibling()
@@ -692,17 +693,17 @@ public Node getNextSibling()
 Gets the node immediately following this node. If there is no next node, a  null  is returned.
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The node immediately following this node.
+[Node](../../com.aspose.words/node/) - The node immediately following this node.
 ### getNodeType() {#getNodeType}
 ```
 public int getNodeType()
 ```
 
 
-Returns [NodeType.TABLE](../../com.aspose.words/nodetype\#TABLE).
+Returns [NodeType.TABLE](../../com.aspose.words/nodetype/\#TABLE).
 
 **Returns:**
-int - \{[NodeType.TABLE](../../com.aspose.words/nodetype\#TABLE). The returned value is one of [NodeType](../../com.aspose.words/nodetype) constants.
+int - \{[NodeType.TABLE](../../com.aspose.words/nodetype/\#TABLE). The returned value is one of [NodeType](../../com.aspose.words/nodetype/) constants.
 ### getParentNode() {#getParentNode}
 ```
 public CompositeNode getParentNode()
@@ -714,7 +715,7 @@ Gets the immediate parent of this node.
 If a node has just been created and not yet added to the tree, or if it has been removed from the tree, the parent is  null .
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode) - The immediate parent of this node.
+[CompositeNode](../../com.aspose.words/compositenode/) - The immediate parent of this node.
 ### getPreferredWidth() {#getPreferredWidth}
 ```
 public PreferredWidth getPreferredWidth()
@@ -723,10 +724,10 @@ public PreferredWidth getPreferredWidth()
 
 Gets the table preferred width.
 
-The default value is [PreferredWidth.AUTO](../../com.aspose.words/preferredwidth\#AUTO).
+The default value is [PreferredWidth.AUTO](../../com.aspose.words/preferredwidth/\#AUTO).
 
 **Returns:**
-[PreferredWidth](../../com.aspose.words/preferredwidth) - The table preferred width.
+[PreferredWidth](../../com.aspose.words/preferredwidth/) - The table preferred width.
 ### getPreviousSibling() {#getPreviousSibling}
 ```
 public Node getPreviousSibling()
@@ -736,17 +737,17 @@ public Node getPreviousSibling()
 Gets the node immediately preceding this node. If there is no preceding node, a  null  is returned.
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The node immediately preceding this node.
+[Node](../../com.aspose.words/node/) - The node immediately preceding this node.
 ### getRange() {#getRange}
 ```
 public Range getRange()
 ```
 
 
-Returns a [Range](../../com.aspose.words/range) object that represents the portion of a document that is contained in this node.
+Returns a [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node.
 
 **Returns:**
-[Range](../../com.aspose.words/range) - A [Range](../../com.aspose.words/range) object that represents the portion of a document that is contained in this node.
+[Range](../../com.aspose.words/range/) - A [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node.
 ### getRelativeHorizontalAlignment() {#getRelativeHorizontalAlignment}
 ```
 public int getRelativeHorizontalAlignment()
@@ -756,7 +757,7 @@ public int getRelativeHorizontalAlignment()
 Gets floating table relative horizontal alignment.
 
 **Returns:**
-int - Floating table relative horizontal alignment. The returned value is one of [HorizontalAlignment](../../com.aspose.words/horizontalalignment) constants.
+int - Floating table relative horizontal alignment. The returned value is one of [HorizontalAlignment](../../com.aspose.words/horizontalalignment/) constants.
 ### getRelativeVerticalAlignment() {#getRelativeVerticalAlignment}
 ```
 public int getRelativeVerticalAlignment()
@@ -766,7 +767,7 @@ public int getRelativeVerticalAlignment()
 Gets floating table relative vertical alignment.
 
 **Returns:**
-int - Floating table relative vertical alignment. The returned value is one of [VerticalAlignment](../../com.aspose.words/verticalalignment) constants.
+int - Floating table relative vertical alignment. The returned value is one of [VerticalAlignment](../../com.aspose.words/verticalalignment/) constants.
 ### getRightPadding() {#getRightPadding}
 ```
 public double getRightPadding()
@@ -786,7 +787,7 @@ public RowCollection getRows()
 Provides typed access to the rows of the table.
 
 **Returns:**
-[RowCollection](../../com.aspose.words/rowcollection) - The corresponding [RowCollection](../../com.aspose.words/rowcollection) value.
+[RowCollection](../../com.aspose.words/rowcollection/) - The corresponding [RowCollection](../../com.aspose.words/rowcollection/) value.
 ### getStyle() {#getStyle}
 ```
 public Style getStyle()
@@ -796,7 +797,7 @@ public Style getStyle()
 Gets the table style applied to this table.
 
 **Returns:**
-[Style](../../com.aspose.words/style) - The table style applied to this table.
+[Style](../../com.aspose.words/style/) - The table style applied to this table.
 ### getStyleIdentifier() {#getStyleIdentifier}
 ```
 public int getStyleIdentifier()
@@ -806,7 +807,7 @@ public int getStyleIdentifier()
 Gets the locale independent style identifier of the table style applied to this table.
 
 **Returns:**
-int - The locale independent style identifier of the table style applied to this table. The returned value is one of [StyleIdentifier](../../com.aspose.words/styleidentifier) constants.
+int - The locale independent style identifier of the table style applied to this table. The returned value is one of [StyleIdentifier](../../com.aspose.words/styleidentifier/) constants.
 ### getStyleName() {#getStyleName}
 ```
 public String getStyleName()
@@ -826,7 +827,7 @@ public int getStyleOptions()
 Gets bit flags that specify how a table style is applied to this table.
 
 **Returns:**
-int - Bit flags that specify how a table style is applied to this table. The returned value is a bitwise combination of [TableStyleOptions](../../com.aspose.words/tablestyleoptions) constants.
+int - Bit flags that specify how a table style is applied to this table. The returned value is a bitwise combination of [TableStyleOptions](../../com.aspose.words/tablestyleoptions/) constants.
 ### getText() {#getText}
 ```
 public String getText()
@@ -835,7 +836,7 @@ public String getText()
 
 Gets the text of this node and of all its children.
 
-The returned string includes all control and special characters as described in [ControlChar](../../com.aspose.words/controlchar).
+The returned string includes all control and special characters as described in [ControlChar](../../com.aspose.words/controlchar/).
 
 **Returns:**
 java.lang.String
@@ -845,10 +846,10 @@ public int getTextWrapping()
 ```
 
 
-Gets [getTextWrapping()](../../com.aspose.words/table\#getTextWrapping) / [setTextWrapping(int)](../../com.aspose.words/table\#setTextWrapping-int) for table.
+Gets [getTextWrapping()](../../com.aspose.words/table/\#getTextWrapping) / [setTextWrapping(int)](../../com.aspose.words/table/\#setTextWrapping-int) for table.
 
 **Returns:**
-int - \{[getTextWrapping()](../../com.aspose.words/table\#getTextWrapping) / [setTextWrapping(int)](../../com.aspose.words/table\#setTextWrapping-int) for table. The returned value is one of [TextWrapping](../../com.aspose.words/textwrapping) constants.
+int - \{[getTextWrapping()](../../com.aspose.words/table/\#getTextWrapping) / [setTextWrapping(int)](../../com.aspose.words/table/\#setTextWrapping-int) for table. The returned value is one of [TextWrapping](../../com.aspose.words/textwrapping/) constants.
 ### getTitle() {#getTitle}
 ```
 public String getTitle()
@@ -859,7 +860,7 @@ Gets title of this table. It provides an alternative text representation of the 
 
 The default value is an empty string.
 
-This property is meaningful for ISO/IEC 29500 compliant DOCX documents ( [OoxmlCompliance](../../com.aspose.words/ooxmlcompliance)). When saved to pre-ISO/IEC 29500 formats, the property is ignored.
+This property is meaningful for ISO/IEC 29500 compliant DOCX documents ( [OoxmlCompliance](../../com.aspose.words/ooxmlcompliance/)). When saved to pre-ISO/IEC 29500 formats, the property is ignored.
 
 **Returns:**
 java.lang.String - Title of this table.
@@ -879,10 +880,10 @@ public int getVerticalAnchor()
 ```
 
 
-Gets the base object from which the vertical positioning of floating table should be calculated. Default value is [RelativeVerticalPosition.MARGIN](../../com.aspose.words/relativeverticalposition\#MARGIN).
+Gets the base object from which the vertical positioning of floating table should be calculated. Default value is [RelativeVerticalPosition.MARGIN](../../com.aspose.words/relativeverticalposition/\#MARGIN).
 
 **Returns:**
-int - The base object from which the vertical positioning of floating table should be calculated. The returned value is one of [RelativeVerticalPosition](../../com.aspose.words/relativeverticalposition) constants.
+int - The base object from which the vertical positioning of floating table should be calculated. The returned value is one of [RelativeVerticalPosition](../../com.aspose.words/relativeverticalposition/) constants.
 ### hasChildNodes() {#hasChildNodes}
 ```
 public boolean hasChildNodes()
@@ -914,7 +915,7 @@ Returns the index of the specified child node in the child node array. Returns -
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| child | [Node](../../com.aspose.words/node) |  |
+| child | [Node](../../com.aspose.words/node/) |  |
 
 **Returns:**
 int
@@ -935,11 +936,11 @@ If the node being inserted was created from another document, you should use **M
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | The [Node](../../com.aspose.words/node) to insert. |
-| refChild | [Node](../../com.aspose.words/node) | The [Node](../../com.aspose.words/node) that is the reference node. The  newChild  is placed after the  refChild . |
+| newChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) to insert. |
+| refChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) that is the reference node. The  newChild  is placed after the  refChild . |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The inserted node.
+[Node](../../com.aspose.words/node/) - The inserted node.
 ### insertBefore(Node newChild, Node refChild) {#insertBefore-com.aspose.words.Node-com.aspose.words.Node}
 ```
 public Node insertBefore(Node newChild, Node refChild)
@@ -957,11 +958,11 @@ If the node being inserted was created from another document, you should use **M
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | The [Node](../../com.aspose.words/node) to insert. |
-| refChild | [Node](../../com.aspose.words/node) | The [Node](../../com.aspose.words/node) that is the reference node. The  newChild  is placed before this node. |
+| newChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) to insert. |
+| refChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) that is the reference node. The  newChild  is placed before this node. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The inserted node.
+[Node](../../com.aspose.words/node/) - The inserted node.
 ### isComposite() {#isComposite}
 ```
 public boolean isComposite()
@@ -993,10 +994,10 @@ Gets next node according to the pre-order tree traversal algorithm.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node) | The top node (limit) of traversal. |
+| rootNode | [Node](../../com.aspose.words/node/) | The top node (limit) of traversal. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - Next node in pre-order order. Null if reached the  rootNode .
+[Node](../../com.aspose.words/node/) - Next node in pre-order order. Null if reached the  rootNode .
 ### nodeTypeToString(int nodeType) {#nodeTypeToString-int}
 ```
 public static String nodeTypeToString(int nodeType)
@@ -1043,10 +1044,10 @@ If the node being inserted was created from another document, you should use **M
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | The node to add. |
+| newChild | [Node](../../com.aspose.words/node/) | The node to add. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The node added.
+[Node](../../com.aspose.words/node/) - The node added.
 ### previousPreOrder(Node rootNode) {#previousPreOrder-com.aspose.words.Node}
 ```
 public Node previousPreOrder(Node rootNode)
@@ -1058,10 +1059,10 @@ Gets the previous node according to the pre-order tree traversal algorithm.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node) | The top node (limit) of traversal. |
+| rootNode | [Node](../../com.aspose.words/node/) | The top node (limit) of traversal. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - Previous node in pre-order order. Null if reached the  rootNode .
+[Node](../../com.aspose.words/node/) - Previous node in pre-order order. Null if reached the  rootNode .
 ### remove() {#remove}
 ```
 public void remove()
@@ -1091,17 +1092,17 @@ The parent of  oldChild  is set to  null  after the node is removed.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| oldChild | [Node](../../com.aspose.words/node) | The node to remove. |
+| oldChild | [Node](../../com.aspose.words/node/) | The node to remove. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The removed node.
+[Node](../../com.aspose.words/node/) - The removed node.
 ### removeSmartTags() {#removeSmartTags}
 ```
 public void removeSmartTags()
 ```
 
 
-Removes all [SmartTag](../../com.aspose.words/smarttag) descendant nodes of the current node. This method does not remove the content of the smart tags.
+Removes all [SmartTag](../../com.aspose.words/smarttag/) descendant nodes of the current node. This method does not remove the content of the smart tags.
 
 ### selectNodes(String xpath) {#selectNodes-java.lang.String}
 ```
@@ -1119,14 +1120,14 @@ Only expressions with element names are supported at the moment. Expressions tha
 | xpath | java.lang.String | The XPath expression. |
 
 **Returns:**
-[NodeList](../../com.aspose.words/nodelist) - A list of nodes matching the XPath query.
+[NodeList](../../com.aspose.words/nodelist/) - A list of nodes matching the XPath query.
 ### selectSingleNode(String xpath) {#selectSingleNode-java.lang.String}
 ```
 public Node selectSingleNode(String xpath)
 ```
 
 
-Selects the first [Node](../../com.aspose.words/node) that matches the XPath expression.
+Selects the first [Node](../../com.aspose.words/node/) that matches the XPath expression.
 
 Only expressions with element names are supported at the moment. Expressions that use attribute names are not supported.
 
@@ -1136,7 +1137,7 @@ Only expressions with element names are supported at the moment. Expressions tha
 | xpath | java.lang.String | The XPath expression. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The first [Node](../../com.aspose.words/node) that matches the XPath query or  null  if no matching node is found.
+[Node](../../com.aspose.words/node/) - The first [Node](../../com.aspose.words/node/) that matches the XPath query or  null  if no matching node is found.
 ### setAbsoluteHorizontalDistance(double value) {#setAbsoluteHorizontalDistance-double}
 ```
 public void setAbsoluteHorizontalDistance(double value)
@@ -1171,12 +1172,12 @@ public void setAlignment(int value)
 
 Specifies how an inline table is aligned in the document.
 
-The default value is [TableAlignment.LEFT](../../com.aspose.words/tablealignment\#LEFT).
+The default value is [TableAlignment.LEFT](../../com.aspose.words/tablealignment/\#LEFT).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [TableAlignment](../../com.aspose.words/tablealignment) constants. |
+| value | int | The corresponding  int  value. The value must be one of [TableAlignment](../../com.aspose.words/tablealignment/) constants. |
 
 ### setAllowAutoFit(boolean value) {#setAllowAutoFit-boolean}
 ```
@@ -1312,7 +1313,7 @@ Sets description of this table. It provides an alternative text representation o
 
 The default value is an empty string.
 
-This property is meaningful for ISO/IEC 29500 compliant DOCX documents ( [OoxmlCompliance](../../com.aspose.words/ooxmlcompliance)). When saved to pre-ISO/IEC 29500 formats, the property is ignored.
+This property is meaningful for ISO/IEC 29500 compliant DOCX documents ( [OoxmlCompliance](../../com.aspose.words/ooxmlcompliance/)). When saved to pre-ISO/IEC 29500 formats, the property is ignored.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1325,12 +1326,12 @@ public void setHorizontalAnchor(int value)
 ```
 
 
-Gets the base object from which the horizontal positioning of floating table should be calculated. Default value is [RelativeHorizontalPosition.COLUMN](../../com.aspose.words/relativehorizontalposition\#COLUMN).
+Gets the base object from which the horizontal positioning of floating table should be calculated. Default value is [RelativeHorizontalPosition.COLUMN](../../com.aspose.words/relativehorizontalposition/\#COLUMN).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The base object from which the horizontal positioning of floating table should be calculated. The value must be one of [RelativeHorizontalPosition](../../com.aspose.words/relativehorizontalposition) constants. |
+| value | int | The base object from which the horizontal positioning of floating table should be calculated. The value must be one of [RelativeHorizontalPosition](../../com.aspose.words/relativehorizontalposition/) constants. |
 
 ### setLeftIndent(double value) {#setLeftIndent-double}
 ```
@@ -1366,12 +1367,12 @@ public void setPreferredWidth(PreferredWidth value)
 
 Sets the table preferred width.
 
-The default value is [PreferredWidth.AUTO](../../com.aspose.words/preferredwidth\#AUTO).
+The default value is [PreferredWidth.AUTO](../../com.aspose.words/preferredwidth/\#AUTO).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PreferredWidth](../../com.aspose.words/preferredwidth) | The table preferred width. |
+| value | [PreferredWidth](../../com.aspose.words/preferredwidth/) | The table preferred width. |
 
 ### setRelativeHorizontalAlignment(int value) {#setRelativeHorizontalAlignment-int}
 ```
@@ -1384,7 +1385,7 @@ Sets floating table relative horizontal alignment.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | Floating table relative horizontal alignment. The value must be one of [HorizontalAlignment](../../com.aspose.words/horizontalalignment) constants. |
+| value | int | Floating table relative horizontal alignment. The value must be one of [HorizontalAlignment](../../com.aspose.words/horizontalalignment/) constants. |
 
 ### setRelativeVerticalAlignment(int value) {#setRelativeVerticalAlignment-int}
 ```
@@ -1397,7 +1398,7 @@ Sets floating table relative vertical alignment.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | Floating table relative vertical alignment. The value must be one of [VerticalAlignment](../../com.aspose.words/verticalalignment) constants. |
+| value | int | Floating table relative vertical alignment. The value must be one of [VerticalAlignment](../../com.aspose.words/verticalalignment/) constants. |
 
 ### setRightPadding(double value) {#setRightPadding-double}
 ```
@@ -1438,7 +1439,7 @@ Sets the table style applied to this table.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Style](../../com.aspose.words/style) | The table style applied to this table. |
+| value | [Style](../../com.aspose.words/style/) | The table style applied to this table. |
 
 ### setStyleIdentifier(int value) {#setStyleIdentifier-int}
 ```
@@ -1451,7 +1452,7 @@ Sets the locale independent style identifier of the table style applied to this 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The locale independent style identifier of the table style applied to this table. The value must be one of [StyleIdentifier](../../com.aspose.words/styleidentifier) constants. |
+| value | int | The locale independent style identifier of the table style applied to this table. The value must be one of [StyleIdentifier](../../com.aspose.words/styleidentifier/) constants. |
 
 ### setStyleName(String value) {#setStyleName-java.lang.String}
 ```
@@ -1477,7 +1478,7 @@ Sets bit flags that specify how a table style is applied to this table.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | Bit flags that specify how a table style is applied to this table. The value must be a bitwise combination of [TableStyleOptions](../../com.aspose.words/tablestyleoptions) constants. |
+| value | int | Bit flags that specify how a table style is applied to this table. The value must be a bitwise combination of [TableStyleOptions](../../com.aspose.words/tablestyleoptions/) constants. |
 
 ### setTextWrapping(int value) {#setTextWrapping-int}
 ```
@@ -1485,12 +1486,12 @@ public void setTextWrapping(int value)
 ```
 
 
-Sets [getTextWrapping()](../../com.aspose.words/table\#getTextWrapping) / [setTextWrapping(int)](../../com.aspose.words/table\#setTextWrapping-int) for table.
+Sets [getTextWrapping()](../../com.aspose.words/table/\#getTextWrapping) / [setTextWrapping(int)](../../com.aspose.words/table/\#setTextWrapping-int) for table.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | \{[getTextWrapping()](../../com.aspose.words/table\#getTextWrapping) / [setTextWrapping(int)](../../com.aspose.words/table\#setTextWrapping-int) for table. The value must be one of [TextWrapping](../../com.aspose.words/textwrapping) constants. |
+| value | int | \{[getTextWrapping()](../../com.aspose.words/table/\#getTextWrapping) / [setTextWrapping(int)](../../com.aspose.words/table/\#setTextWrapping-int) for table. The value must be one of [TextWrapping](../../com.aspose.words/textwrapping/) constants. |
 
 ### setTitle(String value) {#setTitle-java.lang.String}
 ```
@@ -1502,7 +1503,7 @@ Sets title of this table. It provides an alternative text representation of the 
 
 The default value is an empty string.
 
-This property is meaningful for ISO/IEC 29500 compliant DOCX documents ( [OoxmlCompliance](../../com.aspose.words/ooxmlcompliance)). When saved to pre-ISO/IEC 29500 formats, the property is ignored.
+This property is meaningful for ISO/IEC 29500 compliant DOCX documents ( [OoxmlCompliance](../../com.aspose.words/ooxmlcompliance/)). When saved to pre-ISO/IEC 29500 formats, the property is ignored.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1528,12 +1529,12 @@ public void setVerticalAnchor(int value)
 ```
 
 
-Gets the base object from which the vertical positioning of floating table should be calculated. Default value is [RelativeVerticalPosition.MARGIN](../../com.aspose.words/relativeverticalposition\#MARGIN).
+Gets the base object from which the vertical positioning of floating table should be calculated. Default value is [RelativeVerticalPosition.MARGIN](../../com.aspose.words/relativeverticalposition/\#MARGIN).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The base object from which the vertical positioning of floating table should be calculated. The value must be one of [RelativeVerticalPosition](../../com.aspose.words/relativeverticalposition) constants. |
+| value | int | The base object from which the vertical positioning of floating table should be calculated. The value must be one of [RelativeVerticalPosition](../../com.aspose.words/relativeverticalposition/) constants. |
 
 ### toString() {#toString}
 ```
@@ -1556,7 +1557,7 @@ Exports the content of the node into a string using the specified save options.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions) | Specifies the options that control how the node is saved. |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) | Specifies the options that control how the node is saved. |
 
 **Returns:**
 java.lang.String - The content of the node in the specified format.

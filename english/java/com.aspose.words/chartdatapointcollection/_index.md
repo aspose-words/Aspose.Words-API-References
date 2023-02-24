@@ -1,7 +1,8 @@
 ---
 title: ChartDataPointCollection
+linktitle: ChartDataPointCollection
 second_title: Aspose.Words for Java API Reference
-description: Represents collection of a .
+description: Represents collection of a in Java.
 type: docs
 weight: 61
 url: /java/com.aspose.words/chartdatapointcollection/
@@ -16,7 +17,7 @@ java.lang.Iterable
 public class ChartDataPointCollection implements Iterable
 ```
 
-Represents collection of a [ChartDataPoint](../../com.aspose.words/chartdatapoint).
+Represents collection of a [ChartDataPoint](../../com.aspose.words/chartdatapoint/).
 
 To learn more, visit the [ Working with Charts ][Working with Charts] documentation article.
 
@@ -26,11 +27,11 @@ To learn more, visit the [ Working with Charts ][Working with Charts] documentat
 
 | Method | Description |
 | --- | --- |
-| [clearFormat()](#clearFormat) | Clears format of all [ChartDataPoint](../../com.aspose.words/chartdatapoint) in this collection. |
+| [clearFormat()](#clearFormat) | Clears format of all [ChartDataPoint](../../com.aspose.words/chartdatapoint/) in this collection. |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [get(int index)](#get-int) | Returns [ChartDataPoint](../../com.aspose.words/chartdatapoint) for the specified index. |
+| [get(int index)](#get-int) | Returns [ChartDataPoint](../../com.aspose.words/chartdatapoint/) for the specified index. |
 | [getClass()](#getClass) |  |
-| [getCount()](#getCount) | Returns the number of [ChartDataPoint](../../com.aspose.words/chartdatapoint) in this collection. |
+| [getCount()](#getCount) | Returns the number of [ChartDataPoint](../../com.aspose.words/chartdatapoint/) in this collection. |
 | [hashCode()](#hashCode) |  |
 | [iterator()](#iterator) | Returns an enumerator object. |
 | [notify()](#notify) |  |
@@ -45,7 +46,7 @@ public void clearFormat()
 ```
 
 
-Clears format of all [ChartDataPoint](../../com.aspose.words/chartdatapoint) in this collection.
+Clears format of all [ChartDataPoint](../../com.aspose.words/chartdatapoint/) in this collection.
 
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
@@ -68,7 +69,7 @@ public ChartDataPoint get(int index)
 ```
 
 
-Returns [ChartDataPoint](../../com.aspose.words/chartdatapoint) for the specified index.
+Returns [ChartDataPoint](../../com.aspose.words/chartdatapoint/) for the specified index.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -76,7 +77,7 @@ Returns [ChartDataPoint](../../com.aspose.words/chartdatapoint) for the specifie
 | index | int |  |
 
 **Returns:**
-[ChartDataPoint](../../com.aspose.words/chartdatapoint) - \{[ChartDataPoint](../../com.aspose.words/chartdatapoint) for the specified index.
+[ChartDataPoint](../../com.aspose.words/chartdatapoint/) - \{[ChartDataPoint](../../com.aspose.words/chartdatapoint/) for the specified index.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -93,10 +94,10 @@ public int getCount()
 ```
 
 
-Returns the number of [ChartDataPoint](../../com.aspose.words/chartdatapoint) in this collection.
+Returns the number of [ChartDataPoint](../../com.aspose.words/chartdatapoint/) in this collection.
 
 **Returns:**
-int - The number of [ChartDataPoint](../../com.aspose.words/chartdatapoint) in this collection.
+int - The number of [ChartDataPoint](../../com.aspose.words/chartdatapoint/) in this collection.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()

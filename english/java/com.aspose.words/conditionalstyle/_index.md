@@ -1,7 +1,8 @@
 ---
 title: ConditionalStyle
+linktitle: ConditionalStyle
 second_title: Aspose.Words for Java API Reference
-description: Represents special formatting applied to some area of a table with assigned table style.
+description: Represents special formatting applied to some area of a table with assigned table style in Java.
 type: docs
 weight: 90
 url: /java/com.aspose.words/conditionalstyle/
@@ -47,7 +48,7 @@ To learn more, visit the [ Working with Tables ][Working with Tables] documentat
 | [getLeftPadding()](#getLeftPadding) | Gets the amount of space (in points) to add to the left of the contents of table cells. |
 | [getParagraphFormat()](#getParagraphFormat) | Gets the paragraph formatting of the conditional style. |
 | [getRightPadding()](#getRightPadding) | Gets the amount of space (in points) to add to the right of the contents of table cells. |
-| [getShading()](#getShading) | Gets a [Shading](../../com.aspose.words/shading) object that refers to the shading formatting for this conditional style. |
+| [getShading()](#getShading) | Gets a [Shading](../../com.aspose.words/shading/) object that refers to the shading formatting for this conditional style. |
 | [getTopPadding()](#getTopPadding) | Gets the amount of space (in points) to add above the contents of table cells. |
 | [getType()](#getType) | Gets table area to which this conditional style relates. |
 | [hashCode()](#hashCode) |  |
@@ -189,7 +190,7 @@ public BorderCollection getBorders()
 Gets the collection of default cell borders for the conditional style.
 
 **Returns:**
-[BorderCollection](../../com.aspose.words/bordercollection) - The collection of default cell borders for the conditional style.
+[BorderCollection](../../com.aspose.words/bordercollection/) - The collection of default cell borders for the conditional style.
 ### getBottomPadding() {#getBottomPadding}
 ```
 public double getBottomPadding()
@@ -296,7 +297,7 @@ public Font getFont()
 Gets the character formatting of the conditional style.
 
 **Returns:**
-[Font](../../com.aspose.words/font) - The character formatting of the conditional style.
+[Font](../../com.aspose.words/font/) - The character formatting of the conditional style.
 ### getLeftPadding() {#getLeftPadding}
 ```
 public double getLeftPadding()
@@ -316,7 +317,7 @@ public ParagraphFormat getParagraphFormat()
 Gets the paragraph formatting of the conditional style.
 
 **Returns:**
-[ParagraphFormat](../../com.aspose.words/paragraphformat) - The paragraph formatting of the conditional style.
+[ParagraphFormat](../../com.aspose.words/paragraphformat/) - The paragraph formatting of the conditional style.
 ### getRightPadding() {#getRightPadding}
 ```
 public double getRightPadding()
@@ -333,10 +334,10 @@ public Shading getShading()
 ```
 
 
-Gets a [Shading](../../com.aspose.words/shading) object that refers to the shading formatting for this conditional style.
+Gets a [Shading](../../com.aspose.words/shading/) object that refers to the shading formatting for this conditional style.
 
 **Returns:**
-[Shading](../../com.aspose.words/shading) - A [Shading](../../com.aspose.words/shading) object that refers to the shading formatting for this conditional style.
+[Shading](../../com.aspose.words/shading/) - A [Shading](../../com.aspose.words/shading/) object that refers to the shading formatting for this conditional style.
 ### getTopPadding() {#getTopPadding}
 ```
 public double getTopPadding()
@@ -356,7 +357,7 @@ public int getType()
 Gets table area to which this conditional style relates.
 
 **Returns:**
-int - Table area to which this conditional style relates. The returned value is one of [ConditionalStyleType](../../com.aspose.words/conditionalstyletype) constants.
+int - Table area to which this conditional style relates. The returned value is one of [ConditionalStyleType](../../com.aspose.words/conditionalstyletype/) constants.
 ### hashCode() {#hashCode}
 ```
 public int hashCode()

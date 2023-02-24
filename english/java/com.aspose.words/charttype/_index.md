@@ -1,7 +1,8 @@
 ---
 title: ChartType
+linktitle: ChartType
 second_title: Aspose.Words for Java API Reference
-description: Specifies type of a chart.
+description: Specifies type of a chart in Java.
 type: docs
 weight: 71
 url: /java/com.aspose.words/charttype/

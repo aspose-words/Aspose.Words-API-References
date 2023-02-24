@@ -1,9 +1,10 @@
 ---
 title: RevisionType
+linktitle: RevisionType
 second_title: Aspose.Words for Java API Reference
-description: Specifies the type of change being tracked in .
+description: Specifies the type of change being tracked in in Java.
 type: docs
-weight: 494
+weight: 496
 url: /java/com.aspose.words/revisiontype/
 ---
 
@@ -13,7 +14,7 @@ java.lang.Object
 public class RevisionType
 ```
 
-Specifies the type of change being tracked in [Revision](../../com.aspose.words/revision).
+Specifies the type of change being tracked in [Revision](../../com.aspose.words/revision/).
 ## Fields
 
 | Field | Description |

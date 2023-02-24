@@ -1,7 +1,8 @@
 ---
 title: CustomPartCollection
+linktitle: CustomPartCollection
 second_title: Aspose.Words for Java API Reference
-description: Represents a collection of  objects.
+description: Represents a collection of  objects in Java.
 type: docs
 weight: 104
 url: /java/com.aspose.words/custompartcollection/
@@ -16,14 +17,14 @@ java.lang.Iterable
 public class CustomPartCollection implements Iterable
 ```
 
-Represents a collection of [CustomPart](../../com.aspose.words/custompart) objects.
+Represents a collection of [CustomPart](../../com.aspose.words/custompart/) objects.
 
 To learn more, visit the [ Structured Document Tags or Content Control ][Structured Document Tags or Content Control] documentation article.
 
-You do not normally need to create instances of this class. You access custom parts related to the OOXML package via the [Document.getPackageCustomParts()](../../com.aspose.words/document\#getPackageCustomParts) / [Document.setPackageCustomParts(com.aspose.words.CustomPartCollection)](../../com.aspose.words/document\#setPackageCustomParts-com.aspose.words.CustomPartCollection) property.
+You do not normally need to create instances of this class. You access custom parts related to the OOXML package via the [Document.getPackageCustomParts()](../../com.aspose.words/document/\#getPackageCustomParts) / [Document.setPackageCustomParts(com.aspose.words.CustomPartCollection)](../../com.aspose.words/document/\#setPackageCustomParts-com.aspose.words.CustomPartCollection) property.
 
 
-[Structured Document Tags or Content Control]: https://docs.aspose.com/words/java/structured-document-tags-or-content-control/
+[Structured Document Tags or Content Control]: https://docs.aspose.com/words/java/working-with-content-control-sdt/
 ## Methods
 
 | Method | Description |
@@ -56,7 +57,7 @@ Adds an item to the collection.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| part | [CustomPart](../../com.aspose.words/custompart) | The item to add. |
+| part | [CustomPart](../../com.aspose.words/custompart/) | The item to add. |
 
 ### clear() {#clear}
 ```
@@ -75,7 +76,7 @@ public CustomPartCollection deepClone()
 Makes a deep copy of this collection and its items.
 
 **Returns:**
-[CustomPartCollection](../../com.aspose.words/custompartcollection)
+[CustomPartCollection](../../com.aspose.words/custompartcollection/)
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
@@ -105,7 +106,7 @@ Gets an item at the specified index.
 | index | int | Zero-based index of the item. |
 
 **Returns:**
-[CustomPart](../../com.aspose.words/custompart) - An item at the specified index.
+[CustomPart](../../com.aspose.words/custompart/) - An item at the specified index.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -187,7 +188,7 @@ Sets an item at the specified index.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | Zero-based index of the item. |
-| value | [CustomPart](../../com.aspose.words/custompart) | An item at the specified index. |
+| value | [CustomPart](../../com.aspose.words/custompart/) | An item at the specified index. |
 
 ### toString() {#toString}
 ```

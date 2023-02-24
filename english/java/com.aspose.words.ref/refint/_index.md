@@ -1,7 +1,8 @@
 ---
 title: RefInt
+linktitle: RefInt
 second_title: Aspose.Words for Java API Reference
-description: Represents Out/Ref constructions for Integer primitive type
+description: Represents Out/Ref constructions for Integer primitive type in Java.
 type: docs
 weight: 15
 url: /java/com.aspose.words.ref/refint/

@@ -1,7 +1,8 @@
 ---
 title: EditableRange
+linktitle: EditableRange
 second_title: Aspose.Words for Java API Reference
-description: Represents a single editable range.
+description: Represents a single editable range in Java.
 type: docs
 weight: 137
 url: /java/com.aspose.words/editablerange/
@@ -17,7 +18,7 @@ Represents a single editable range.
 
 To learn more, visit the [ Aspose.Words Document Object Model (DOM) ][Aspose.Words Document Object Model _DOM_] documentation article.
 
-[EditableRange](../../com.aspose.words/editablerange) is a "facade" object that encapsulates two nodes [getEditableRangeStart()](../../com.aspose.words/editablerange\#getEditableRangeStart) and [getEditableRangeEnd()](../../com.aspose.words/editablerange\#getEditableRangeEnd) in a document tree and allows to work with an editable range as a single object.
+[EditableRange](../../com.aspose.words/editablerange/) is a "facade" object that encapsulates two nodes [getEditableRangeStart()](../../com.aspose.words/editablerange/\#getEditableRangeStart) and [getEditableRangeEnd()](../../com.aspose.words/editablerange/\#getEditableRangeEnd) in a document tree and allows to work with an editable range as a single object.
 
 
 [Aspose.Words Document Object Model _DOM_]: https://docs.aspose.com/words/java/aspose-words-document-object-model/
@@ -76,7 +77,7 @@ public EditableRangeEnd getEditableRangeEnd()
 Gets the node that represents the end of the editable range.
 
 **Returns:**
-[EditableRangeEnd](../../com.aspose.words/editablerangeend) - The node that represents the end of the editable range.
+[EditableRangeEnd](../../com.aspose.words/editablerangeend/) - The node that represents the end of the editable range.
 ### getEditableRangeStart() {#getEditableRangeStart}
 ```
 public EditableRangeStart getEditableRangeStart()
@@ -86,7 +87,7 @@ public EditableRangeStart getEditableRangeStart()
 Gets the node that represents the start of the editable range.
 
 **Returns:**
-[EditableRangeStart](../../com.aspose.words/editablerangestart) - The node that represents the start of the editable range.
+[EditableRangeStart](../../com.aspose.words/editablerangestart/) - The node that represents the start of the editable range.
 ### getEditorGroup() {#getEditorGroup}
 ```
 public int getEditorGroup()
@@ -98,7 +99,7 @@ Gets an alias (or editing group) which shall be used to determine if the current
 Single user and editor group cannot be set simultaneously for the specific editable range, if the one is set, the other will be clear.
 
 **Returns:**
-int - An alias (or editing group) which shall be used to determine if the current user shall be allowed to edit this editable range. The returned value is one of [EditorType](../../com.aspose.words/editortype) constants.
+int - An alias (or editing group) which shall be used to determine if the current user shall be allowed to edit this editable range. The returned value is one of [EditorType](../../com.aspose.words/editortype/) constants.
 ### getId() {#getId}
 ```
 public int getId()
@@ -107,7 +108,7 @@ public int getId()
 
 Gets the editable range identifier.
 
-The region must be demarcated using the [getEditableRangeStart()](../../com.aspose.words/editablerange\#getEditableRangeStart) and [getEditableRangeEnd()](../../com.aspose.words/editablerange\#getEditableRangeEnd)
+The region must be demarcated using the [getEditableRangeStart()](../../com.aspose.words/editablerange/\#getEditableRangeStart) and [getEditableRangeEnd()](../../com.aspose.words/editablerange/\#getEditableRangeEnd)
 
 Editable range identifiers are supposed to be unique across a document and Aspose.Words automatically maintains editable range identifiers when loading, saving and combining documents.
 
@@ -180,7 +181,7 @@ Single user and editor group cannot be set simultaneously for the specific edita
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | An alias (or editing group) which shall be used to determine if the current user shall be allowed to edit this editable range. The value must be one of [EditorType](../../com.aspose.words/editortype) constants. |
+| value | int | An alias (or editing group) which shall be used to determine if the current user shall be allowed to edit this editable range. The value must be one of [EditorType](../../com.aspose.words/editortype/) constants. |
 
 ### setSingleUser(String value) {#setSingleUser-java.lang.String}
 ```

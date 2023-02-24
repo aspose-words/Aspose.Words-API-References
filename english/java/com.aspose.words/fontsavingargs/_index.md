@@ -1,7 +1,8 @@
 ---
 title: FontSavingArgs
+linktitle: FontSavingArgs
 second_title: Aspose.Words for Java API Reference
-description: Provides data for the  event.
+description: Provides data for the  event in Java.
 type: docs
 weight: 287
 url: /java/com.aspose.words/fontsavingargs/
@@ -13,17 +14,17 @@ java.lang.Object
 public class FontSavingArgs
 ```
 
-Provides data for the [IFontSavingCallback.fontSaving(com.aspose.words.FontSavingArgs)](../../com.aspose.words/ifontsavingcallback\#fontSaving-com.aspose.words.FontSavingArgs) event.
+Provides data for the [IFontSavingCallback.fontSaving(com.aspose.words.FontSavingArgs)](../../com.aspose.words/ifontsavingcallback/\#fontSaving-com.aspose.words.FontSavingArgs) event.
 
 To learn more, visit the [ Save a Document ][Save a Document] documentation article.
 
-When Aspose.Words saves a document to HTML or related formats and [HtmlSaveOptions.getExportFontResources()](../../com.aspose.words/htmlsaveoptions\#getExportFontResources) / [HtmlSaveOptions.setExportFontResources(boolean)](../../com.aspose.words/htmlsaveoptions\#setExportFontResources-boolean) is set to  true , it saves each font subject for export into a separate file.
+When Aspose.Words saves a document to HTML or related formats and [HtmlSaveOptions.getExportFontResources()](../../com.aspose.words/htmlsaveoptions/\#getExportFontResources) / [HtmlSaveOptions.setExportFontResources(boolean)](../../com.aspose.words/htmlsaveoptions/\#setExportFontResources-boolean) is set to  true , it saves each font subject for export into a separate file.
 
-[FontSavingArgs](../../com.aspose.words/fontsavingargs) controls whether particular font resource should be exported and how.
+[FontSavingArgs](../../com.aspose.words/fontsavingargs/) controls whether particular font resource should be exported and how.
 
-[FontSavingArgs](../../com.aspose.words/fontsavingargs) also allows to redefine how font file names are generated or to completely circumvent saving of fonts into files by providing your own stream objects.
+[FontSavingArgs](../../com.aspose.words/fontsavingargs/) also allows to redefine how font file names are generated or to completely circumvent saving of fonts into files by providing your own stream objects.
 
-To decide whether to save a particular font resource, use the [isExportNeeded()](../../com.aspose.words/fontsavingargs\#isExportNeeded) / [isExportNeeded(boolean)](../../com.aspose.words/fontsavingargs\#isExportNeeded-boolean) property.
+To decide whether to save a particular font resource, use the [isExportNeeded()](../../com.aspose.words/fontsavingargs/\#isExportNeeded) / [isExportNeeded(boolean)](../../com.aspose.words/fontsavingargs/\#isExportNeeded-boolean) property.
 
 To save fonts into streams instead of files, use the **P:Aspose.Words.Saving.FontSavingArgs.FontStream** property.
 
@@ -102,7 +103,7 @@ public Document getDocument()
 Gets the document object that is being saved.
 
 **Returns:**
-[Document](../../com.aspose.words/document) - The document object that is being saved.
+[Document](../../com.aspose.words/document/) - The document object that is being saved.
 ### getFontFamilyName() {#getFontFamilyName}
 ```
 public String getFontFamilyName()
@@ -131,7 +132,7 @@ When saving a document to a file, the generated font file name looks like *..*.
 
 When saving a document to a stream, the generated font file name looks like *Aspose.Words...*.
 
-[getFontFileName()](../../com.aspose.words/fontsavingargs\#getFontFileName) / [setFontFileName(java.lang.String)](../../com.aspose.words/fontsavingargs\#setFontFileName-java.lang.String) must contain only the file name without the path. Aspose.Words determines the path for saving using the document file name, the [HtmlSaveOptions.getFontsFolder()](../../com.aspose.words/htmlsaveoptions\#getFontsFolder) / [HtmlSaveOptions.setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolder-java.lang.String) and [HtmlSaveOptions.getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getFontsFolderAlias) / [HtmlSaveOptions.setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolderAlias-java.lang.String) properties.
+[getFontFileName()](../../com.aspose.words/fontsavingargs/\#getFontFileName) / [setFontFileName(java.lang.String)](../../com.aspose.words/fontsavingargs/\#setFontFileName-java.lang.String) must contain only the file name without the path. Aspose.Words determines the path for saving using the document file name, the [HtmlSaveOptions.getFontsFolder()](../../com.aspose.words/htmlsaveoptions/\#getFontsFolder) / [HtmlSaveOptions.setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setFontsFolder-java.lang.String) and [HtmlSaveOptions.getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getFontsFolderAlias) / [HtmlSaveOptions.setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setFontsFolderAlias-java.lang.String) properties.
 
 **P:Aspose.Words.Saving.FontSavingArgs.FontStream**
 
@@ -238,7 +239,7 @@ Allows to specify whether the current font will be subsetted before exporting as
 
 Fonts can be exported as complete original font files or subsetted to include only the characters that are used in the document. Subsetting allows to reduce the resulting font resource size.
 
-By default, Aspose.Words decides whether to perform subsetting or not by comparing the original font file size with the one specified in [HtmlSaveOptions.getFontResourcesSubsettingSizeThreshold()](../../com.aspose.words/htmlsaveoptions\#getFontResourcesSubsettingSizeThreshold) / [HtmlSaveOptions.setFontResourcesSubsettingSizeThreshold(int)](../../com.aspose.words/htmlsaveoptions\#setFontResourcesSubsettingSizeThreshold-int). You can override this behavior for individual fonts by setting the [isSubsettingNeeded()](../../com.aspose.words/fontsavingargs\#isSubsettingNeeded) / [isSubsettingNeeded(boolean)](../../com.aspose.words/fontsavingargs\#isSubsettingNeeded-boolean) property.
+By default, Aspose.Words decides whether to perform subsetting or not by comparing the original font file size with the one specified in [HtmlSaveOptions.getFontResourcesSubsettingSizeThreshold()](../../com.aspose.words/htmlsaveoptions/\#getFontResourcesSubsettingSizeThreshold) / [HtmlSaveOptions.setFontResourcesSubsettingSizeThreshold(int)](../../com.aspose.words/htmlsaveoptions/\#setFontResourcesSubsettingSizeThreshold-int). You can override this behavior for individual fonts by setting the [isSubsettingNeeded()](../../com.aspose.words/fontsavingargs/\#isSubsettingNeeded) / [isSubsettingNeeded(boolean)](../../com.aspose.words/fontsavingargs/\#isSubsettingNeeded-boolean) property.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -252,7 +253,7 @@ Allows to specify whether the current font will be subsetted before exporting as
 
 Fonts can be exported as complete original font files or subsetted to include only the characters that are used in the document. Subsetting allows to reduce the resulting font resource size.
 
-By default, Aspose.Words decides whether to perform subsetting or not by comparing the original font file size with the one specified in [HtmlSaveOptions.getFontResourcesSubsettingSizeThreshold()](../../com.aspose.words/htmlsaveoptions\#getFontResourcesSubsettingSizeThreshold) / [HtmlSaveOptions.setFontResourcesSubsettingSizeThreshold(int)](../../com.aspose.words/htmlsaveoptions\#setFontResourcesSubsettingSizeThreshold-int). You can override this behavior for individual fonts by setting the [isSubsettingNeeded()](../../com.aspose.words/fontsavingargs\#isSubsettingNeeded) / [isSubsettingNeeded(boolean)](../../com.aspose.words/fontsavingargs\#isSubsettingNeeded-boolean) property.
+By default, Aspose.Words decides whether to perform subsetting or not by comparing the original font file size with the one specified in [HtmlSaveOptions.getFontResourcesSubsettingSizeThreshold()](../../com.aspose.words/htmlsaveoptions/\#getFontResourcesSubsettingSizeThreshold) / [HtmlSaveOptions.setFontResourcesSubsettingSizeThreshold(int)](../../com.aspose.words/htmlsaveoptions/\#setFontResourcesSubsettingSizeThreshold-int). You can override this behavior for individual fonts by setting the [isSubsettingNeeded()](../../com.aspose.words/fontsavingargs/\#isSubsettingNeeded) / [isSubsettingNeeded(boolean)](../../com.aspose.words/fontsavingargs/\#isSubsettingNeeded-boolean) property.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -293,7 +294,7 @@ When saving a document to a file, the generated font file name looks like *..*.
 
 When saving a document to a stream, the generated font file name looks like *Aspose.Words...*.
 
-[getFontFileName()](../../com.aspose.words/fontsavingargs\#getFontFileName) / [setFontFileName(java.lang.String)](../../com.aspose.words/fontsavingargs\#setFontFileName-java.lang.String) must contain only the file name without the path. Aspose.Words determines the path for saving using the document file name, the [HtmlSaveOptions.getFontsFolder()](../../com.aspose.words/htmlsaveoptions\#getFontsFolder) / [HtmlSaveOptions.setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolder-java.lang.String) and [HtmlSaveOptions.getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getFontsFolderAlias) / [HtmlSaveOptions.setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolderAlias-java.lang.String) properties.
+[getFontFileName()](../../com.aspose.words/fontsavingargs/\#getFontFileName) / [setFontFileName(java.lang.String)](../../com.aspose.words/fontsavingargs/\#setFontFileName-java.lang.String) must contain only the file name without the path. Aspose.Words determines the path for saving using the document file name, the [HtmlSaveOptions.getFontsFolder()](../../com.aspose.words/htmlsaveoptions/\#getFontsFolder) / [HtmlSaveOptions.setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setFontsFolder-java.lang.String) and [HtmlSaveOptions.getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getFontsFolderAlias) / [HtmlSaveOptions.setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setFontsFolderAlias-java.lang.String) properties.
 
 **P:Aspose.Words.Saving.FontSavingArgs.FontStream**
 

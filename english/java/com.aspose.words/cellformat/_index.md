@@ -1,7 +1,8 @@
 ---
 title: CellFormat
+linktitle: CellFormat
 second_title: Aspose.Words for Java API Reference
-description: Represents all formatting for a table cell.
+description: Represents all formatting for a table cell in Java.
 type: docs
 weight: 50
 url: /java/com.aspose.words/cellformat/
@@ -37,7 +38,7 @@ To learn more, visit the [ Working with Tables ][Working with Tables] documentat
 | [getOrientation()](#getOrientation) | Gets the orientation of text in a table cell. |
 | [getPreferredWidth()](#getPreferredWidth) | Gets the preferred width of the cell. |
 | [getRightPadding()](#getRightPadding) | Gets the amount of space (in points) to add to the right of the contents of cell. |
-| [getShading()](#getShading) | Returns a [Shading](../../com.aspose.words/shading) object that refers to the shading formatting for the cell. |
+| [getShading()](#getShading) | Returns a [Shading](../../com.aspose.words/shading/) object that refers to the shading formatting for the cell. |
 | [getTopPadding()](#getTopPadding) | Gets the amount of space (in points) to add above the contents of cell. |
 | [getVerticalAlignment()](#getVerticalAlignment) | Gets the vertical alignment of text in the cell. |
 | [getVerticalMerge()](#getVerticalMerge) | Specifies how the cell is merged with other cells vertically. |
@@ -126,7 +127,7 @@ public BorderCollection getBorders()
 Gets collection of borders of the cell.
 
 **Returns:**
-[BorderCollection](../../com.aspose.words/bordercollection) - Collection of borders of the cell.
+[BorderCollection](../../com.aspose.words/bordercollection/) - Collection of borders of the cell.
 ### getBottomPadding() {#getBottomPadding}
 ```
 public double getBottomPadding()
@@ -181,7 +182,7 @@ public int getHorizontalMerge()
 Specifies how the cell is merged horizontally with other cells in the row.
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [CellMerge](../../com.aspose.words/cellmerge) constants.
+int - The corresponding  int  value. The returned value is one of [CellMerge](../../com.aspose.words/cellmerge/) constants.
 ### getLeftPadding() {#getLeftPadding}
 ```
 public double getLeftPadding()
@@ -201,7 +202,7 @@ public int getOrientation()
 Gets the orientation of text in a table cell.
 
 **Returns:**
-int - The orientation of text in a table cell. The returned value is one of [TextOrientation](../../com.aspose.words/textorientation) constants.
+int - The orientation of text in a table cell. The returned value is one of [TextOrientation](../../com.aspose.words/textorientation/) constants.
 ### getPreferredWidth() {#getPreferredWidth}
 ```
 public PreferredWidth getPreferredWidth()
@@ -214,10 +215,10 @@ The preferred width (along with the table's Auto Fit option) determines how the 
 
 The preferred width can be specified in points or in percent. The preferred width can also be specified as "auto", which means no preferred width is specified.
 
-The default value is [PreferredWidth.AUTO](../../com.aspose.words/preferredwidth\#AUTO).
+The default value is [PreferredWidth.AUTO](../../com.aspose.words/preferredwidth/\#AUTO).
 
 **Returns:**
-[PreferredWidth](../../com.aspose.words/preferredwidth) - The preferred width of the cell.
+[PreferredWidth](../../com.aspose.words/preferredwidth/) - The preferred width of the cell.
 ### getRightPadding() {#getRightPadding}
 ```
 public double getRightPadding()
@@ -234,10 +235,10 @@ public Shading getShading()
 ```
 
 
-Returns a [Shading](../../com.aspose.words/shading) object that refers to the shading formatting for the cell.
+Returns a [Shading](../../com.aspose.words/shading/) object that refers to the shading formatting for the cell.
 
 **Returns:**
-[Shading](../../com.aspose.words/shading) - A [Shading](../../com.aspose.words/shading) object that refers to the shading formatting for the cell.
+[Shading](../../com.aspose.words/shading/) - A [Shading](../../com.aspose.words/shading/) object that refers to the shading formatting for the cell.
 ### getTopPadding() {#getTopPadding}
 ```
 public double getTopPadding()
@@ -257,7 +258,7 @@ public int getVerticalAlignment()
 Gets the vertical alignment of text in the cell.
 
 **Returns:**
-int - The vertical alignment of text in the cell. The returned value is one of [CellVerticalAlignment](../../com.aspose.words/cellverticalalignment) constants.
+int - The vertical alignment of text in the cell. The returned value is one of [CellVerticalAlignment](../../com.aspose.words/cellverticalalignment/) constants.
 ### getVerticalMerge() {#getVerticalMerge}
 ```
 public int getVerticalMerge()
@@ -271,7 +272,7 @@ Cells can only be merged vertically if their left and right boundaries are ident
 When cells are vertically merged, the display areas of the merged cells are consolidated. The consolidated area is used to display the contents of the first vertically merged cell and all other vertically merged cells must be empty.
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [CellMerge](../../com.aspose.words/cellmerge) constants.
+int - The corresponding  int  value. The returned value is one of [CellMerge](../../com.aspose.words/cellmerge/) constants.
 ### getWidth() {#getWidth}
 ```
 public double getWidth()
@@ -282,7 +283,7 @@ Gets the width of the cell in points.
 
 The width is calculated by Aspose.Words on document loading and saving. Currently, not every combination of table, cell and document properties is supported. The returned value may not be accurate for some documents. It may not exactly match the cell width as calculated by MS Word when the document is opened in MS Word.
 
-Setting this property is not recommended. There is no guarantee that the cell will actually have the set width. The width may be adjusted to accommodate cell contents in an auto-fit table layout. Cells in other rows may have conflicting width settings. The table may be resized to fit into the container or to meet table width settings. Consider using [getPreferredWidth()](../../com.aspose.words/cellformat\#getPreferredWidth) / [setPreferredWidth(com.aspose.words.PreferredWidth)](../../com.aspose.words/cellformat\#setPreferredWidth-com.aspose.words.PreferredWidth) for setting the cell width. Setting this property sets [getPreferredWidth()](../../com.aspose.words/cellformat\#getPreferredWidth) / [setPreferredWidth(com.aspose.words.PreferredWidth)](../../com.aspose.words/cellformat\#setPreferredWidth-com.aspose.words.PreferredWidth) implicitly since version 15.8.
+Setting this property is not recommended. There is no guarantee that the cell will actually have the set width. The width may be adjusted to accommodate cell contents in an auto-fit table layout. Cells in other rows may have conflicting width settings. The table may be resized to fit into the container or to meet table width settings. Consider using [getPreferredWidth()](../../com.aspose.words/cellformat/\#getPreferredWidth) / [setPreferredWidth(com.aspose.words.PreferredWidth)](../../com.aspose.words/cellformat/\#setPreferredWidth-com.aspose.words.PreferredWidth) for setting the cell width. Setting this property sets [getPreferredWidth()](../../com.aspose.words/cellformat/\#getPreferredWidth) / [setPreferredWidth(com.aspose.words.PreferredWidth)](../../com.aspose.words/cellformat/\#setPreferredWidth-com.aspose.words.PreferredWidth) implicitly since version 15.8.
 
 **Returns:**
 double - The width of the cell in points.
@@ -373,7 +374,7 @@ Specifies how the cell is merged horizontally with other cells in the row.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [CellMerge](../../com.aspose.words/cellmerge) constants. |
+| value | int | The corresponding  int  value. The value must be one of [CellMerge](../../com.aspose.words/cellmerge/) constants. |
 
 ### setLeftPadding(double value) {#setLeftPadding-double}
 ```
@@ -399,7 +400,7 @@ Sets the orientation of text in a table cell.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The orientation of text in a table cell. The value must be one of [TextOrientation](../../com.aspose.words/textorientation) constants. |
+| value | int | The orientation of text in a table cell. The value must be one of [TextOrientation](../../com.aspose.words/textorientation/) constants. |
 
 ### setPaddings(double leftPadding, double topPadding, double rightPadding, double bottomPadding) {#setPaddings-double-double-double-double}
 ```
@@ -429,12 +430,12 @@ The preferred width (along with the table's Auto Fit option) determines how the 
 
 The preferred width can be specified in points or in percent. The preferred width can also be specified as "auto", which means no preferred width is specified.
 
-The default value is [PreferredWidth.AUTO](../../com.aspose.words/preferredwidth\#AUTO).
+The default value is [PreferredWidth.AUTO](../../com.aspose.words/preferredwidth/\#AUTO).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PreferredWidth](../../com.aspose.words/preferredwidth) | The preferred width of the cell. |
+| value | [PreferredWidth](../../com.aspose.words/preferredwidth/) | The preferred width of the cell. |
 
 ### setRightPadding(double value) {#setRightPadding-double}
 ```
@@ -473,7 +474,7 @@ Sets the vertical alignment of text in the cell.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The vertical alignment of text in the cell. The value must be one of [CellVerticalAlignment](../../com.aspose.words/cellverticalalignment) constants. |
+| value | int | The vertical alignment of text in the cell. The value must be one of [CellVerticalAlignment](../../com.aspose.words/cellverticalalignment/) constants. |
 
 ### setVerticalMerge(int value) {#setVerticalMerge-int}
 ```
@@ -490,7 +491,7 @@ When cells are vertically merged, the display areas of the merged cells are cons
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [CellMerge](../../com.aspose.words/cellmerge) constants. |
+| value | int | The corresponding  int  value. The value must be one of [CellMerge](../../com.aspose.words/cellmerge/) constants. |
 
 ### setWidth(double value) {#setWidth-double}
 ```
@@ -502,7 +503,7 @@ Gets the width of the cell in points.
 
 The width is calculated by Aspose.Words on document loading and saving. Currently, not every combination of table, cell and document properties is supported. The returned value may not be accurate for some documents. It may not exactly match the cell width as calculated by MS Word when the document is opened in MS Word.
 
-Setting this property is not recommended. There is no guarantee that the cell will actually have the set width. The width may be adjusted to accommodate cell contents in an auto-fit table layout. Cells in other rows may have conflicting width settings. The table may be resized to fit into the container or to meet table width settings. Consider using [getPreferredWidth()](../../com.aspose.words/cellformat\#getPreferredWidth) / [setPreferredWidth(com.aspose.words.PreferredWidth)](../../com.aspose.words/cellformat\#setPreferredWidth-com.aspose.words.PreferredWidth) for setting the cell width. Setting this property sets [getPreferredWidth()](../../com.aspose.words/cellformat\#getPreferredWidth) / [setPreferredWidth(com.aspose.words.PreferredWidth)](../../com.aspose.words/cellformat\#setPreferredWidth-com.aspose.words.PreferredWidth) implicitly since version 15.8.
+Setting this property is not recommended. There is no guarantee that the cell will actually have the set width. The width may be adjusted to accommodate cell contents in an auto-fit table layout. Cells in other rows may have conflicting width settings. The table may be resized to fit into the container or to meet table width settings. Consider using [getPreferredWidth()](../../com.aspose.words/cellformat/\#getPreferredWidth) / [setPreferredWidth(com.aspose.words.PreferredWidth)](../../com.aspose.words/cellformat/\#setPreferredWidth-com.aspose.words.PreferredWidth) for setting the cell width. Setting this property sets [getPreferredWidth()](../../com.aspose.words/cellformat/\#getPreferredWidth) / [setPreferredWidth(com.aspose.words.PreferredWidth)](../../com.aspose.words/cellformat/\#setPreferredWidth-com.aspose.words.PreferredWidth) implicitly since version 15.8.
 
 **Parameters:**
 | Parameter | Type | Description |

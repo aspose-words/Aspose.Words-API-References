@@ -1,9 +1,10 @@
 ---
 title: OdsoFieldMappingType
+linktitle: OdsoFieldMappingType
 second_title: Aspose.Words for Java API Reference
-description: Specifies the possible types used to indicate if a given mail merge field has been mapped to a column in the given external data source.
+description: Specifies the possible types used to indicate if a given mail merge field has been mapped to a column in the given external data source in Java.
 type: docs
-weight: 419
+weight: 421
 url: /java/com.aspose.words/odsofieldmappingtype/
 ---
 
@@ -19,7 +20,7 @@ Specifies the possible types used to indicate if a given mail merge field has be
 | Field | Description |
 | --- | --- |
 | [COLUMN](#COLUMN) | Specifies that the mail merge field has been mapped to a column in the given external data source. |
-| [DEFAULT](#DEFAULT) | Equals to [NULL](../../com.aspose.words/odsofieldmappingtype\#NULL). |
+| [DEFAULT](#DEFAULT) | Equals to [NULL](../../com.aspose.words/odsofieldmappingtype/\#NULL). |
 | [NULL](#NULL) | Specifies that the mail merge field has not been mapped to a column in the given external data source. |
 | [length](#length) |  |
 ## Methods
@@ -53,7 +54,7 @@ public static int DEFAULT
 ```
 
 
-Equals to [NULL](../../com.aspose.words/odsofieldmappingtype\#NULL).
+Equals to [NULL](../../com.aspose.words/odsofieldmappingtype/\#NULL).
 
 ### NULL {#NULL}
 ```

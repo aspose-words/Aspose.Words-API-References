@@ -1,9 +1,10 @@
 ---
 title: MetafileRenderingOptions
+linktitle: MetafileRenderingOptions
 second_title: Aspose.Words for Java API Reference
-description: Allows to specify additional metafile rendering options.
+description: Allows to specify additional metafile rendering options in Java.
 type: docs
-weight: 401
+weight: 403
 url: /java/com.aspose.words/metafilerenderingoptions/
 ---
 
@@ -81,10 +82,10 @@ EMF+ Dual metafiles contains both EMF+ and EMF parts. MS Word and GDI+ always re
 
 This option is used only when metafile is rendered as vector graphics. When metafile is rendered to bitmap, EMF+ part is always used.
 
-The default value is [EmfPlusDualRenderingMode.EMF\_PLUS\_WITH\_FALLBACK](../../com.aspose.words/emfplusdualrenderingmode\#EMF-PLUS-WITH-FALLBACK).
+The default value is [EmfPlusDualRenderingMode.EMF\_PLUS\_WITH\_FALLBACK](../../com.aspose.words/emfplusdualrenderingmode/\#EMF-PLUS-WITH-FALLBACK).
 
 **Returns:**
-int - A value determining how EMF+ Dual metafiles should be rendered. The returned value is one of [EmfPlusDualRenderingMode](../../com.aspose.words/emfplusdualrenderingmode) constants.
+int - A value determining how EMF+ Dual metafiles should be rendered. The returned value is one of [EmfPlusDualRenderingMode](../../com.aspose.words/emfplusdualrenderingmode/) constants.
 ### getEmulateRasterOperations() {#getEmulateRasterOperations}
 ```
 public boolean getEmulateRasterOperations()
@@ -113,10 +114,10 @@ public int getRenderingMode()
 
 Gets a value determining how metafile images should be rendered.
 
-The default value depends on the save format. For images it is [MetafileRenderingMode.BITMAP](../../com.aspose.words/metafilerenderingmode\#BITMAP). For other formats it is [MetafileRenderingMode.VECTOR\_WITH\_FALLBACK](../../com.aspose.words/metafilerenderingmode\#VECTOR-WITH-FALLBACK).
+The default value depends on the save format. For images it is [MetafileRenderingMode.BITMAP](../../com.aspose.words/metafilerenderingmode/\#BITMAP). For other formats it is [MetafileRenderingMode.VECTOR\_WITH\_FALLBACK](../../com.aspose.words/metafilerenderingmode/\#VECTOR-WITH-FALLBACK).
 
 **Returns:**
-int - A value determining how metafile images should be rendered. The returned value is one of [MetafileRenderingMode](../../com.aspose.words/metafilerenderingmode) constants.
+int - A value determining how metafile images should be rendered. The returned value is one of [MetafileRenderingMode](../../com.aspose.words/metafilerenderingmode/) constants.
 ### getScaleWmfFontsToMetafileSize() {#getScaleWmfFontsToMetafileSize}
 ```
 public boolean getScaleWmfFontsToMetafileSize()
@@ -215,12 +216,12 @@ EMF+ Dual metafiles contains both EMF+ and EMF parts. MS Word and GDI+ always re
 
 This option is used only when metafile is rendered as vector graphics. When metafile is rendered to bitmap, EMF+ part is always used.
 
-The default value is [EmfPlusDualRenderingMode.EMF\_PLUS\_WITH\_FALLBACK](../../com.aspose.words/emfplusdualrenderingmode\#EMF-PLUS-WITH-FALLBACK).
+The default value is [EmfPlusDualRenderingMode.EMF\_PLUS\_WITH\_FALLBACK](../../com.aspose.words/emfplusdualrenderingmode/\#EMF-PLUS-WITH-FALLBACK).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | A value determining how EMF+ Dual metafiles should be rendered. The value must be one of [EmfPlusDualRenderingMode](../../com.aspose.words/emfplusdualrenderingmode) constants. |
+| value | int | A value determining how EMF+ Dual metafiles should be rendered. The value must be one of [EmfPlusDualRenderingMode](../../com.aspose.words/emfplusdualrenderingmode/) constants. |
 
 ### setEmulateRasterOperations(boolean value) {#setEmulateRasterOperations-boolean}
 ```
@@ -253,12 +254,12 @@ public void setRenderingMode(int value)
 
 Sets a value determining how metafile images should be rendered.
 
-The default value depends on the save format. For images it is [MetafileRenderingMode.BITMAP](../../com.aspose.words/metafilerenderingmode\#BITMAP). For other formats it is [MetafileRenderingMode.VECTOR\_WITH\_FALLBACK](../../com.aspose.words/metafilerenderingmode\#VECTOR-WITH-FALLBACK).
+The default value depends on the save format. For images it is [MetafileRenderingMode.BITMAP](../../com.aspose.words/metafilerenderingmode/\#BITMAP). For other formats it is [MetafileRenderingMode.VECTOR\_WITH\_FALLBACK](../../com.aspose.words/metafilerenderingmode/\#VECTOR-WITH-FALLBACK).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | A value determining how metafile images should be rendered. The value must be one of [MetafileRenderingMode](../../com.aspose.words/metafilerenderingmode) constants. |
+| value | int | A value determining how metafile images should be rendered. The value must be one of [MetafileRenderingMode](../../com.aspose.words/metafilerenderingmode/) constants. |
 
 ### setScaleWmfFontsToMetafileSize(boolean value) {#setScaleWmfFontsToMetafileSize-boolean}
 ```

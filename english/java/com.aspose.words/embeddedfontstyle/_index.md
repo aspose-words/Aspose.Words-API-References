@@ -1,7 +1,8 @@
 ---
 title: EmbeddedFontStyle
+linktitle: EmbeddedFontStyle
 second_title: Aspose.Words for Java API Reference
-description: Specifies the style of an embedded font inside a  object.
+description: Specifies the style of an embedded font inside a  object in Java.
 type: docs
 weight: 143
 url: /java/com.aspose.words/embeddedfontstyle/
@@ -13,7 +14,7 @@ java.lang.Object
 public class EmbeddedFontStyle
 ```
 
-Specifies the style of an embedded font inside a [FontInfo](../../com.aspose.words/fontinfo) object.
+Specifies the style of an embedded font inside a [FontInfo](../../com.aspose.words/fontinfo/) object.
 ## Fields
 
 | Field | Description |

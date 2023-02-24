@@ -1,9 +1,10 @@
 ---
 title: WriteProtection
+linktitle: WriteProtection
 second_title: Aspose.Words for Java API Reference
-description: Specifies write protection settings for a document.
+description: Specifies write protection settings for a document in Java.
 type: docs
-weight: 627
+weight: 629
 url: /java/com.aspose.words/writeprotection/
 ---
 
@@ -24,7 +25,7 @@ Write protection specifies whether the author has recommended that the document 
 
 Write protection is different from document protection. Write protection is specified in Microsoft Word in the options of the Save As dialog box.
 
-You do not create instances of this class directly. You access document protection settings via the [Document.getWriteProtection()](../../com.aspose.words/document\#getWriteProtection) property.
+You do not create instances of this class directly. You access document protection settings via the [Document.getWriteProtection()](../../com.aspose.words/document/\#getWriteProtection) property.
 
 
 [Protect or Encrypt a Document]: https://docs.aspose.com/words/java/protect-or-encrypt-a-document/

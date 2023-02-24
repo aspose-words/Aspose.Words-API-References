@@ -1,9 +1,10 @@
 ---
 title: Node
+linktitle: Node
 second_title: Aspose.Words for Java API Reference
-description: Base class for all nodes of a Word document.
+description: Base class for all nodes of a Word document in Java.
 type: docs
-weight: 405
+weight: 407
 url: /java/com.aspose.words/node/
 ---
 
@@ -24,7 +25,7 @@ A document is represented as a tree of nodes, similar to DOM or XmlDocument.
 
 For more info see the Composite design pattern.
 
-The [Node](../../com.aspose.words/node) class:
+The [Node](../../com.aspose.words/node/) class:
 
  *  Defines the child node interface.
  *  Defines the interface for visiting nodes.
@@ -51,7 +52,7 @@ The [Node](../../com.aspose.words/node) class:
 | [getNodeType()](#getNodeType) | Gets the type of this node. |
 | [getParentNode()](#getParentNode) | Gets the immediate parent of this node. |
 | [getPreviousSibling()](#getPreviousSibling) | Gets the node immediately preceding this node. |
-| [getRange()](#getRange) | Returns a [Range](../../com.aspose.words/range) object that represents the portion of a document that is contained in this node. |
+| [getRange()](#getRange) | Returns a [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node. |
 | [getText()](#getText) | Gets the text of this node and of all its children. |
 | [hashCode()](#hashCode) |  |
 | [isComposite()](#isComposite) | Returns  true  if this node can contain other nodes. |
@@ -76,17 +77,17 @@ public abstract boolean accept(DocumentVisitor visitor)
 
 Accepts a visitor.
 
-Enumerates over this node and all of its children. Each node calls a corresponding method on [DocumentVisitor](../../com.aspose.words/documentvisitor).
+Enumerates over this node and all of its children. Each node calls a corresponding method on [DocumentVisitor](../../com.aspose.words/documentvisitor/).
 
 For more info see the Visitor design pattern.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor) | The visitor that will visit the nodes. |
+| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor/) | The visitor that will visit the nodes. |
 
 **Returns:**
-boolean - True if all nodes were visited; false if [DocumentVisitor](../../com.aspose.words/documentvisitor) stopped the operation before visiting all nodes.
+boolean - True if all nodes were visited; false if [DocumentVisitor](../../com.aspose.words/documentvisitor/) stopped the operation before visiting all nodes.
 ### dd() {#dd}
 ```
 public void dd()
@@ -113,7 +114,7 @@ This method always performs a deep copy of the node. The  isCloneChildren  param
 | isCloneChildren | boolean | True to recursively clone the subtree under the specified node; false to clone only the node itself. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The cloned node.
+[Node](../../com.aspose.words/node/) - The cloned node.
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
@@ -143,7 +144,7 @@ public CompositeNode getAncestor(int ancestorType)
 | ancestorType | int |  |
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode)
+[CompositeNode](../../com.aspose.words/compositenode/)
 ### getAncestor(Class ancestorType) {#getAncestor-java.lang.Class}
 ```
 public CompositeNode getAncestor(Class ancestorType)
@@ -158,7 +159,7 @@ Gets the first ancestor of the specified object type.
 | ancestorType | java.lang.Class | The object type of the ancestor to retrieve. |
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode) - The ancestor of the specified type or  null  if no ancestor of this type was found.
+[CompositeNode](../../com.aspose.words/compositenode/) - The ancestor of the specified type or  null  if no ancestor of this type was found.
 
 The ancestor type matches if it is equal to  ancestorType  or derived from  ancestorType .
 ### getClass() {#getClass}
@@ -198,7 +199,7 @@ Gets the document to which this node belongs.
 The node always belongs to a document even if it has just been created and not yet added to the tree, or if it has been removed from the tree.
 
 **Returns:**
-[DocumentBase](../../com.aspose.words/documentbase) - The document to which this node belongs.
+[DocumentBase](../../com.aspose.words/documentbase/) - The document to which this node belongs.
 ### getNextSibling() {#getNextSibling}
 ```
 public Node getNextSibling()
@@ -208,7 +209,7 @@ public Node getNextSibling()
 Gets the node immediately following this node. If there is no next node, a  null  is returned.
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The node immediately following this node.
+[Node](../../com.aspose.words/node/) - The node immediately following this node.
 ### getNodeType() {#getNodeType}
 ```
 public abstract int getNodeType()
@@ -218,7 +219,7 @@ public abstract int getNodeType()
 Gets the type of this node.
 
 **Returns:**
-int - The type of this node. The returned value is one of [NodeType](../../com.aspose.words/nodetype) constants.
+int - The type of this node. The returned value is one of [NodeType](../../com.aspose.words/nodetype/) constants.
 ### getParentNode() {#getParentNode}
 ```
 public CompositeNode getParentNode()
@@ -230,7 +231,7 @@ Gets the immediate parent of this node.
 If a node has just been created and not yet added to the tree, or if it has been removed from the tree, the parent is  null .
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode) - The immediate parent of this node.
+[CompositeNode](../../com.aspose.words/compositenode/) - The immediate parent of this node.
 ### getPreviousSibling() {#getPreviousSibling}
 ```
 public Node getPreviousSibling()
@@ -240,17 +241,17 @@ public Node getPreviousSibling()
 Gets the node immediately preceding this node. If there is no preceding node, a  null  is returned.
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The node immediately preceding this node.
+[Node](../../com.aspose.words/node/) - The node immediately preceding this node.
 ### getRange() {#getRange}
 ```
 public Range getRange()
 ```
 
 
-Returns a [Range](../../com.aspose.words/range) object that represents the portion of a document that is contained in this node.
+Returns a [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node.
 
 **Returns:**
-[Range](../../com.aspose.words/range) - A [Range](../../com.aspose.words/range) object that represents the portion of a document that is contained in this node.
+[Range](../../com.aspose.words/range/) - A [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node.
 ### getText() {#getText}
 ```
 public String getText()
@@ -259,7 +260,7 @@ public String getText()
 
 Gets the text of this node and of all its children.
 
-The returned string includes all control and special characters as described in [ControlChar](../../com.aspose.words/controlchar).
+The returned string includes all control and special characters as described in [ControlChar](../../com.aspose.words/controlchar/).
 
 **Returns:**
 java.lang.String
@@ -279,7 +280,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (31362,6)
+Returns  true  if this node can contain other nodes. (31405,6)
 
 **Returns:**
 boolean - \{ true  if this node can contain other nodes.
@@ -294,10 +295,10 @@ Gets next node according to the pre-order tree traversal algorithm.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node) | The top node (limit) of traversal. |
+| rootNode | [Node](../../com.aspose.words/node/) | The top node (limit) of traversal. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - Next node in pre-order order. Null if reached the  rootNode .
+[Node](../../com.aspose.words/node/) - Next node in pre-order order. Null if reached the  rootNode .
 ### nodeTypeToString(int nodeType) {#nodeTypeToString-int}
 ```
 public static String nodeTypeToString(int nodeType)
@@ -340,10 +341,10 @@ Gets the previous node according to the pre-order tree traversal algorithm.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node) | The top node (limit) of traversal. |
+| rootNode | [Node](../../com.aspose.words/node/) | The top node (limit) of traversal. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - Previous node in pre-order order. Null if reached the  rootNode .
+[Node](../../com.aspose.words/node/) - Previous node in pre-order order. Null if reached the  rootNode .
 ### remove() {#remove}
 ```
 public void remove()
@@ -392,7 +393,7 @@ Exports the content of the node into a string using the specified save options.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions) | Specifies the options that control how the node is saved. |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) | Specifies the options that control how the node is saved. |
 
 **Returns:**
 java.lang.String - The content of the node in the specified format.

@@ -1,16 +1,17 @@
 ---
 title: IStructuredDocumentTag
+linktitle: IStructuredDocumentTag
 second_title: Aspose.Words for Java API Reference
-description: Interface to define a common data for  and .
+description: Interface to define a common data for  and in Java.
 type: docs
-weight: 663
+weight: 665
 url: /java/com.aspose.words/istructureddocumenttag/
 ---
 ```
 public interface IStructuredDocumentTag
 ```
 
-Interface to define a common data for [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) and [StructuredDocumentTagRangeStart](../../com.aspose.words/structureddocumenttagrangestart).
+Interface to define a common data for [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) and [StructuredDocumentTagRangeStart](../../com.aspose.words/structureddocumenttagrangestart/).
 ## Methods
 
 | Method | Description |
@@ -20,12 +21,12 @@ Interface to define a common data for [StructuredDocumentTag](../../com.aspose.w
 | [getLevel()](#getLevel) | Gets the level at which this **SDT** occurs in the document tree. |
 | [getLockContentControl()](#getLockContentControl) | When set to true, this property will prohibit a user from deleting this **SDT**. |
 | [getLockContents()](#getLockContents) | When set to true, this property will prohibit a user from editing the contents of this **SDT**. |
-| [getPlaceholder()](#getPlaceholder) | Gets the [BuildingBlock](../../com.aspose.words/buildingblock) containing placeholder text which should be displayed when this SDT run contents are empty, the associated mapped XML element is empty as specified via the [getXmlMapping()](../../com.aspose.words/istructureddocumenttag\#getXmlMapping) element or the [isShowingPlaceholderText()](../../com.aspose.words/istructureddocumenttag\#isShowingPlaceholderText) / [isShowingPlaceholderText(boolean)](../../com.aspose.words/istructureddocumenttag\#isShowingPlaceholderText-boolean) element is true. |
-| [getPlaceholderName()](#getPlaceholderName) | Gets or sets Name of the [BuildingBlock](../../com.aspose.words/buildingblock) containing placeholder text. |
+| [getPlaceholder()](#getPlaceholder) | Gets the [BuildingBlock](../../com.aspose.words/buildingblock/) containing placeholder text which should be displayed when this SDT run contents are empty, the associated mapped XML element is empty as specified via the [getXmlMapping()](../../com.aspose.words/istructureddocumenttag/\#getXmlMapping) element or the [isShowingPlaceholderText()](../../com.aspose.words/istructureddocumenttag/\#isShowingPlaceholderText) / [isShowingPlaceholderText(boolean)](../../com.aspose.words/istructureddocumenttag/\#isShowingPlaceholderText-boolean) element is true. |
+| [getPlaceholderName()](#getPlaceholderName) | Gets or sets Name of the [BuildingBlock](../../com.aspose.words/buildingblock/) containing placeholder text. |
 | [getSdtType()](#getSdtType) | Gets type of this **Structured document tag**. |
 | [getTag()](#getTag) | Specifies a tag associated with the current SDT node. |
 | [getTitle()](#getTitle) | Specifies the friendly name associated with this **SDT**. |
-| [getWordOpenXML()](#getWordOpenXML) | Gets a string that represents the XML contained within the node in the [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat\#FLAT-OPC) format. |
+| [getWordOpenXML()](#getWordOpenXML) | Gets a string that represents the XML contained within the node in the [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat/\#FLAT-OPC) format. |
 | [getXmlMapping()](#getXmlMapping) | Gets an object that represents the mapping of this structured document tag to XML data in a custom XML part of the current document. |
 | [isRanged()](#isRanged) | Returns true if this instance is a ranged structured document tag. |
 | [isShowingPlaceholderText()](#isShowingPlaceholderText) | Specifies whether the content of this **SDT** shall be interpreted to contain placeholder text (as opposed to regular text contents within the SDT). |
@@ -33,7 +34,7 @@ Interface to define a common data for [StructuredDocumentTag](../../com.aspose.w
 | [setColor(Color value)](#setColor-java.awt.Color) | Sets the color of the structured document tag. |
 | [setLockContentControl(boolean value)](#setLockContentControl-boolean) | When set to true, this property will prohibit a user from deleting this **SDT**. |
 | [setLockContents(boolean value)](#setLockContents-boolean) | When set to true, this property will prohibit a user from editing the contents of this **SDT**. |
-| [setPlaceholderName(String value)](#setPlaceholderName-java.lang.String) | Gets or sets Name of the [BuildingBlock](../../com.aspose.words/buildingblock) containing placeholder text. |
+| [setPlaceholderName(String value)](#setPlaceholderName-java.lang.String) | Gets or sets Name of the [BuildingBlock](../../com.aspose.words/buildingblock/) containing placeholder text. |
 | [setTag(String value)](#setTag-java.lang.String) | Specifies a tag associated with the current SDT node. |
 | [setTitle(String value)](#setTitle-java.lang.String) | Specifies the friendly name associated with this **SDT**. |
 | [structuredDocumentTagNode()](#structuredDocumentTagNode) | Returns Node object that implements this interface. |
@@ -66,7 +67,7 @@ public abstract int getLevel()
 Gets the level at which this **SDT** occurs in the document tree.
 
 **Returns:**
-int - The level at which this **SDT** occurs in the document tree. The returned value is one of [MarkupLevel](../../com.aspose.words/markuplevel) constants.
+int - The level at which this **SDT** occurs in the document tree. The returned value is one of [MarkupLevel](../../com.aspose.words/markuplevel/) constants.
 ### getLockContentControl() {#getLockContentControl}
 ```
 public abstract boolean getLockContentControl()
@@ -93,19 +94,19 @@ public abstract BuildingBlock getPlaceholder()
 ```
 
 
-Gets the [BuildingBlock](../../com.aspose.words/buildingblock) containing placeholder text which should be displayed when this SDT run contents are empty, the associated mapped XML element is empty as specified via the [getXmlMapping()](../../com.aspose.words/istructureddocumenttag\#getXmlMapping) element or the [isShowingPlaceholderText()](../../com.aspose.words/istructureddocumenttag\#isShowingPlaceholderText) / [isShowingPlaceholderText(boolean)](../../com.aspose.words/istructureddocumenttag\#isShowingPlaceholderText-boolean) element is true. Can be null, meaning that the placeholder is not applicable for this Sdt.
+Gets the [BuildingBlock](../../com.aspose.words/buildingblock/) containing placeholder text which should be displayed when this SDT run contents are empty, the associated mapped XML element is empty as specified via the [getXmlMapping()](../../com.aspose.words/istructureddocumenttag/\#getXmlMapping) element or the [isShowingPlaceholderText()](../../com.aspose.words/istructureddocumenttag/\#isShowingPlaceholderText) / [isShowingPlaceholderText(boolean)](../../com.aspose.words/istructureddocumenttag/\#isShowingPlaceholderText-boolean) element is true. Can be null, meaning that the placeholder is not applicable for this Sdt.
 
 **Returns:**
-[BuildingBlock](../../com.aspose.words/buildingblock) - The [BuildingBlock](../../com.aspose.words/buildingblock) containing placeholder text which should be displayed when this SDT run contents are empty, the associated mapped XML element is empty as specified via the [getXmlMapping()](../../com.aspose.words/istructureddocumenttag\#getXmlMapping) element or the [isShowingPlaceholderText()](../../com.aspose.words/istructureddocumenttag\#isShowingPlaceholderText) / [isShowingPlaceholderText(boolean)](../../com.aspose.words/istructureddocumenttag\#isShowingPlaceholderText-boolean) element is true.
+[BuildingBlock](../../com.aspose.words/buildingblock/) - The [BuildingBlock](../../com.aspose.words/buildingblock/) containing placeholder text which should be displayed when this SDT run contents are empty, the associated mapped XML element is empty as specified via the [getXmlMapping()](../../com.aspose.words/istructureddocumenttag/\#getXmlMapping) element or the [isShowingPlaceholderText()](../../com.aspose.words/istructureddocumenttag/\#isShowingPlaceholderText) / [isShowingPlaceholderText(boolean)](../../com.aspose.words/istructureddocumenttag/\#isShowingPlaceholderText-boolean) element is true.
 ### getPlaceholderName() {#getPlaceholderName}
 ```
 public abstract String getPlaceholderName()
 ```
 
 
-Gets or sets Name of the [BuildingBlock](../../com.aspose.words/buildingblock) containing placeholder text.
+Gets or sets Name of the [BuildingBlock](../../com.aspose.words/buildingblock/) containing placeholder text.
 
-BuildingBlock with this name [BuildingBlock.getName()](../../com.aspose.words/buildingblock\#getName) / [BuildingBlock.setName(java.lang.String)](../../com.aspose.words/buildingblock\#setName-java.lang.String) has to be present in the [Document.getGlossaryDocument()](../../com.aspose.words/document\#getGlossaryDocument) / [Document.setGlossaryDocument(com.aspose.words.GlossaryDocument)](../../com.aspose.words/document\#setGlossaryDocument-com.aspose.words.GlossaryDocument) otherwise java.lang.IllegalStateException will occur.
+BuildingBlock with this name [BuildingBlock.getName()](../../com.aspose.words/buildingblock/\#getName) / [BuildingBlock.setName(java.lang.String)](../../com.aspose.words/buildingblock/\#setName-java.lang.String) has to be present in the [Document.getGlossaryDocument()](../../com.aspose.words/document/\#getGlossaryDocument) / [Document.setGlossaryDocument(com.aspose.words.GlossaryDocument)](../../com.aspose.words/document/\#setGlossaryDocument-com.aspose.words.GlossaryDocument) otherwise java.lang.IllegalStateException will occur.
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
@@ -118,7 +119,7 @@ public abstract int getSdtType()
 Gets type of this **Structured document tag**.
 
 **Returns:**
-int - Type of this **Structured document tag**. The returned value is one of [SdtType](../../com.aspose.words/sdttype) constants.
+int - Type of this **Structured document tag**. The returned value is one of [SdtType](../../com.aspose.words/sdttype/) constants.
 ### getTag() {#getTag}
 ```
 public abstract String getTag()
@@ -145,20 +146,20 @@ public abstract String getWordOpenXML()
 ```
 
 
-Gets a string that represents the XML contained within the node in the [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat\#FLAT-OPC) format.
+Gets a string that represents the XML contained within the node in the [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat/\#FLAT-OPC) format.
 
 **Returns:**
-java.lang.String - A string that represents the XML contained within the node in the [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat\#FLAT-OPC) format.
+java.lang.String - A string that represents the XML contained within the node in the [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat/\#FLAT-OPC) format.
 ### getXmlMapping() {#getXmlMapping}
 ```
 public abstract XmlMapping getXmlMapping()
 ```
 
 
-Gets an object that represents the mapping of this structured document tag to XML data in a custom XML part of the current document. You can use the [XmlMapping.setMapping(com.aspose.words.CustomXmlPart, java.lang.String, java.lang.String)](../../com.aspose.words/xmlmapping\#setMapping-com.aspose.words.CustomXmlPart--java.lang.String--java.lang.String) method of this object to map a structured document tag to XML data.
+Gets an object that represents the mapping of this structured document tag to XML data in a custom XML part of the current document. You can use the [XmlMapping.setMapping(com.aspose.words.CustomXmlPart, java.lang.String, java.lang.String)](../../com.aspose.words/xmlmapping/\#setMapping-com.aspose.words.CustomXmlPart--java.lang.String--java.lang.String) method of this object to map a structured document tag to XML data.
 
 **Returns:**
-[XmlMapping](../../com.aspose.words/xmlmapping) - An object that represents the mapping of this structured document tag to XML data in a custom XML part of the current document.
+[XmlMapping](../../com.aspose.words/xmlmapping/) - An object that represents the mapping of this structured document tag to XML data in a custom XML part of the current document.
 ### isRanged() {#isRanged}
 ```
 public abstract boolean isRanged()
@@ -241,9 +242,9 @@ public abstract void setPlaceholderName(String value)
 ```
 
 
-Gets or sets Name of the [BuildingBlock](../../com.aspose.words/buildingblock) containing placeholder text.
+Gets or sets Name of the [BuildingBlock](../../com.aspose.words/buildingblock/) containing placeholder text.
 
-BuildingBlock with this name [BuildingBlock.getName()](../../com.aspose.words/buildingblock\#getName) / [BuildingBlock.setName(java.lang.String)](../../com.aspose.words/buildingblock\#setName-java.lang.String) has to be present in the [Document.getGlossaryDocument()](../../com.aspose.words/document\#getGlossaryDocument) / [Document.setGlossaryDocument(com.aspose.words.GlossaryDocument)](../../com.aspose.words/document\#setGlossaryDocument-com.aspose.words.GlossaryDocument) otherwise java.lang.IllegalStateException will occur.
+BuildingBlock with this name [BuildingBlock.getName()](../../com.aspose.words/buildingblock/\#getName) / [BuildingBlock.setName(java.lang.String)](../../com.aspose.words/buildingblock/\#setName-java.lang.String) has to be present in the [Document.getGlossaryDocument()](../../com.aspose.words/document/\#getGlossaryDocument) / [Document.setGlossaryDocument(com.aspose.words.GlossaryDocument)](../../com.aspose.words/document/\#setGlossaryDocument-com.aspose.words.GlossaryDocument) otherwise java.lang.IllegalStateException will occur.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -285,4 +286,4 @@ public abstract Node structuredDocumentTagNode()
 Returns Node object that implements this interface.
 
 **Returns:**
-[Node](../../com.aspose.words/node)
+[Node](../../com.aspose.words/node/)

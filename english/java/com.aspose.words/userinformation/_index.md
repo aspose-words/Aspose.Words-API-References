@@ -1,9 +1,10 @@
 ---
 title: UserInformation
+linktitle: UserInformation
 second_title: Aspose.Words for Java API Reference
-description: Specifies information about the user.
+description: Specifies information about the user in Java.
 type: docs
-weight: 595
+weight: 597
 url: /java/com.aspose.words/userinformation/
 ---
 
@@ -80,10 +81,10 @@ public static UserInformation getDefaultUser()
 ```
 
 
-Default user information. Use the [FieldOptions.getCurrentUser()](../../com.aspose.words/fieldoptions\#getCurrentUser) / [FieldOptions.setCurrentUser(com.aspose.words.UserInformation)](../../com.aspose.words/fieldoptions\#setCurrentUser-com.aspose.words.UserInformation) property to specify user information for single document.
+Default user information. Use the [FieldOptions.getCurrentUser()](../../com.aspose.words/fieldoptions/\#getCurrentUser) / [FieldOptions.setCurrentUser(com.aspose.words.UserInformation)](../../com.aspose.words/fieldoptions/\#setCurrentUser-com.aspose.words.UserInformation) property to specify user information for single document.
 
 **Returns:**
-[UserInformation](../../com.aspose.words/userinformation) - The corresponding [UserInformation](../../com.aspose.words/userinformation) value.
+[UserInformation](../../com.aspose.words/userinformation/) - The corresponding [UserInformation](../../com.aspose.words/userinformation/) value.
 ### getInitials() {#getInitials}
 ```
 public String getInitials()

@@ -1,7 +1,8 @@
 ---
 title: CommentDisplayMode
+linktitle: CommentDisplayMode
 second_title: Aspose.Words for Java API Reference
-description: Specifies the rendering mode for document comments.
+description: Specifies the rendering mode for document comments in Java.
 type: docs
 weight: 79
 url: /java/com.aspose.words/commentdisplaymode/

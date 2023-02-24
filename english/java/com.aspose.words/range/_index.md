@@ -1,9 +1,10 @@
 ---
 title: Range
+linktitle: Range
 second_title: Aspose.Words for Java API Reference
-description: Represents a contiguous area in a document.
+description: Represents a contiguous area in a document in Java.
 type: docs
-weight: 476
+weight: 478
 url: /java/com.aspose.words/range/
 ---
 
@@ -19,9 +20,9 @@ To learn more, visit the [ Working with Ranges ][Working with Ranges] documentat
 
 The document is represented by a tree of nodes and the nodes provide operations to work with the tree, but some operations are easier to perform if the document is treated as a contiguous sequence of text.
 
-[Range](../../com.aspose.words/range) is a "facade" interface that provide methods that treat the document or portions of the document as "flat" text regardless of the fact that the document nodes are stored in a tree-like object model.
+[Range](../../com.aspose.words/range/) is a "facade" interface that provide methods that treat the document or portions of the document as "flat" text regardless of the fact that the document nodes are stored in a tree-like object model.
 
-[Range](../../com.aspose.words/range) does not contain any text or nodes, it is merely a view or "window" over a fragment of a document.
+[Range](../../com.aspose.words/range/) does not contain any text or nodes, it is merely a view or "window" over a fragment of a document.
 
 
 [Working with Ranges]: https://docs.aspose.com/words/java/working-with-ranges/
@@ -31,15 +32,15 @@ The document is represented by a tree of nodes and the nodes provide operations 
 | --- | --- |
 | [delete()](#delete) | Deletes all characters of the range. |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getBookmarks()](#getBookmarks) | Returns a [getBookmarks()](../../com.aspose.words/range\#getBookmarks) collection that represents all bookmarks in the range. |
+| [getBookmarks()](#getBookmarks) | Returns a [getBookmarks()](../../com.aspose.words/range/\#getBookmarks) collection that represents all bookmarks in the range. |
 | [getClass()](#getClass) |  |
-| [getFields()](#getFields) | Returns a [getFields()](../../com.aspose.words/range\#getFields) collection that represents all fields in the range. |
-| [getFormFields()](#getFormFields) | Returns a [getFormFields()](../../com.aspose.words/range\#getFormFields) collection that represents all form fields in the range. |
+| [getFields()](#getFields) | Returns a [getFields()](../../com.aspose.words/range/\#getFields) collection that represents all fields in the range. |
+| [getFormFields()](#getFormFields) | Returns a [getFormFields()](../../com.aspose.words/range/\#getFormFields) collection that represents all form fields in the range. |
 | [getRevisions()](#getRevisions) | Gets a collection of revisions (tracked changes) that exist in this range. |
-| [getStructuredDocumentTags()](#getStructuredDocumentTags) | Returns a [getStructuredDocumentTags()](../../com.aspose.words/range\#getStructuredDocumentTags) collection that represents all structured document tags in the range. |
+| [getStructuredDocumentTags()](#getStructuredDocumentTags) | Returns a [getStructuredDocumentTags()](../../com.aspose.words/range/\#getStructuredDocumentTags) collection that represents all structured document tags in the range. |
 | [getText()](#getText) | Gets the text of the range. |
 | [hashCode()](#hashCode) |  |
-| [normalizeFieldTypes()](#normalizeFieldTypes) | Changes field type values [FieldChar.getFieldType()](../../com.aspose.words/fieldchar\#getFieldType) of [FieldStart](../../com.aspose.words/fieldstart), [FieldSeparator](../../com.aspose.words/fieldseparator), [FieldEnd](../../com.aspose.words/fieldend) in this range so that they correspond to the field types contained in the field codes. |
+| [normalizeFieldTypes()](#normalizeFieldTypes) | Changes field type values [FieldChar.getFieldType()](../../com.aspose.words/fieldchar/\#getFieldType) of [FieldStart](../../com.aspose.words/fieldstart/), [FieldSeparator](../../com.aspose.words/fieldseparator/), [FieldEnd](../../com.aspose.words/fieldend/) in this range so that they correspond to the field types contained in the field codes. |
 | [notify()](#notify) |  |
 | [notifyAll()](#notifyAll) |  |
 | [replace(String pattern, String replacement)](#replace-java.lang.String-java.lang.String) | Replaces all occurrences of a specified character string pattern with a replacement string. |
@@ -82,10 +83,10 @@ public BookmarkCollection getBookmarks()
 ```
 
 
-Returns a [getBookmarks()](../../com.aspose.words/range\#getBookmarks) collection that represents all bookmarks in the range.
+Returns a [getBookmarks()](../../com.aspose.words/range/\#getBookmarks) collection that represents all bookmarks in the range.
 
 **Returns:**
-[BookmarkCollection](../../com.aspose.words/bookmarkcollection) - A [getBookmarks()](../../com.aspose.words/range\#getBookmarks) collection that represents all bookmarks in the range.
+[BookmarkCollection](../../com.aspose.words/bookmarkcollection/) - A [getBookmarks()](../../com.aspose.words/range/\#getBookmarks) collection that represents all bookmarks in the range.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -102,20 +103,20 @@ public FieldCollection getFields()
 ```
 
 
-Returns a [getFields()](../../com.aspose.words/range\#getFields) collection that represents all fields in the range.
+Returns a [getFields()](../../com.aspose.words/range/\#getFields) collection that represents all fields in the range.
 
 **Returns:**
-[FieldCollection](../../com.aspose.words/fieldcollection) - A [getFields()](../../com.aspose.words/range\#getFields) collection that represents all fields in the range.
+[FieldCollection](../../com.aspose.words/fieldcollection/) - A [getFields()](../../com.aspose.words/range/\#getFields) collection that represents all fields in the range.
 ### getFormFields() {#getFormFields}
 ```
 public FormFieldCollection getFormFields()
 ```
 
 
-Returns a [getFormFields()](../../com.aspose.words/range\#getFormFields) collection that represents all form fields in the range.
+Returns a [getFormFields()](../../com.aspose.words/range/\#getFormFields) collection that represents all form fields in the range.
 
 **Returns:**
-[FormFieldCollection](../../com.aspose.words/formfieldcollection) - A [getFormFields()](../../com.aspose.words/range\#getFormFields) collection that represents all form fields in the range.
+[FormFieldCollection](../../com.aspose.words/formfieldcollection/) - A [getFormFields()](../../com.aspose.words/range/\#getFormFields) collection that represents all form fields in the range.
 ### getRevisions() {#getRevisions}
 ```
 public RevisionCollection getRevisions()
@@ -127,17 +128,17 @@ Gets a collection of revisions (tracked changes) that exist in this range.
 The returned collection is a "live" collection, which means if you remove parts of a document that contain revisions, the deleted revisions will automatically disappear from this collection.
 
 **Returns:**
-[RevisionCollection](../../com.aspose.words/revisioncollection) - A collection of revisions (tracked changes) that exist in this range.
+[RevisionCollection](../../com.aspose.words/revisioncollection/) - A collection of revisions (tracked changes) that exist in this range.
 ### getStructuredDocumentTags() {#getStructuredDocumentTags}
 ```
 public StructuredDocumentTagCollection getStructuredDocumentTags()
 ```
 
 
-Returns a [getStructuredDocumentTags()](../../com.aspose.words/range\#getStructuredDocumentTags) collection that represents all structured document tags in the range.
+Returns a [getStructuredDocumentTags()](../../com.aspose.words/range/\#getStructuredDocumentTags) collection that represents all structured document tags in the range.
 
 **Returns:**
-[StructuredDocumentTagCollection](../../com.aspose.words/structureddocumenttagcollection) - A [getStructuredDocumentTags()](../../com.aspose.words/range\#getStructuredDocumentTags) collection that represents all structured document tags in the range.
+[StructuredDocumentTagCollection](../../com.aspose.words/structureddocumenttagcollection/) - A [getStructuredDocumentTags()](../../com.aspose.words/range/\#getStructuredDocumentTags) collection that represents all structured document tags in the range.
 ### getText() {#getText}
 ```
 public String getText()
@@ -146,7 +147,7 @@ public String getText()
 
 Gets the text of the range.
 
-The returned string includes all control and special characters as described in [ControlChar](../../com.aspose.words/controlchar).
+The returned string includes all control and special characters as described in [ControlChar](../../com.aspose.words/controlchar/).
 
 **Returns:**
 java.lang.String - The text of the range.
@@ -166,11 +167,11 @@ public void normalizeFieldTypes()
 ```
 
 
-Changes field type values [FieldChar.getFieldType()](../../com.aspose.words/fieldchar\#getFieldType) of [FieldStart](../../com.aspose.words/fieldstart), [FieldSeparator](../../com.aspose.words/fieldseparator), [FieldEnd](../../com.aspose.words/fieldend) in this range so that they correspond to the field types contained in the field codes.
+Changes field type values [FieldChar.getFieldType()](../../com.aspose.words/fieldchar/\#getFieldType) of [FieldStart](../../com.aspose.words/fieldstart/), [FieldSeparator](../../com.aspose.words/fieldseparator/), [FieldEnd](../../com.aspose.words/fieldend/) in this range so that they correspond to the field types contained in the field codes.
 
 Use this method after document changes that affect field types.
 
-To change field type values in the whole document use [Document.normalizeFieldTypes()](../../com.aspose.words/document\#normalizeFieldTypes).
+To change field type values in the whole document use [Document.normalizeFieldTypes()](../../com.aspose.words/document/\#normalizeFieldTypes).
 
 ### notify() {#notify}
 ```
@@ -196,7 +197,7 @@ public int replace(String pattern, String replacement)
 
 Replaces all occurrences of a specified character string pattern with a replacement string.
 
-The pattern will not be used as regular expression. Please use [replace(java.util.regex.Pattern, java.lang.String)](../../com.aspose.words/range\#replace-java.util.regex.Pattern--java.lang.String) if you need regular expressions.
+The pattern will not be used as regular expression. Please use [replace(java.util.regex.Pattern, java.lang.String)](../../com.aspose.words/range/\#replace-java.util.regex.Pattern--java.lang.String) if you need regular expressions.
 
 Used case-insensitive comparison.
 
@@ -209,7 +210,7 @@ You should use special meta-characters if you need to work with breaks:
  *  **&m** \- page break
  *  **&l** \- manual line break
 
-Use method [replace(java.lang.String, java.lang.String, com.aspose.words.FindReplaceOptions)](../../com.aspose.words/range\#replace-java.lang.String--java.lang.String--com.aspose.words.FindReplaceOptions) to have more flexible customization.
+Use method [replace(java.lang.String, java.lang.String, com.aspose.words.FindReplaceOptions)](../../com.aspose.words/range/\#replace-java.lang.String--java.lang.String--com.aspose.words.FindReplaceOptions) to have more flexible customization.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -238,7 +239,7 @@ public int replace(String pattern, String replacement, FindReplaceOptions option
 
 Replaces all occurrences of a specified character string pattern with a replacement string.
 
-The pattern will not be used as regular expression. Please use [replace(java.util.regex.Pattern, java.lang.String, com.aspose.words.FindReplaceOptions)](../../com.aspose.words/range\#replace-java.util.regex.Pattern--java.lang.String--com.aspose.words.FindReplaceOptions) if you need regular expressions.
+The pattern will not be used as regular expression. Please use [replace(java.util.regex.Pattern, java.lang.String, com.aspose.words.FindReplaceOptions)](../../com.aspose.words/range/\#replace-java.util.regex.Pattern--java.lang.String--com.aspose.words.FindReplaceOptions) if you need regular expressions.
 
 Method is able to process breaks in both pattern and replacement strings.
 
@@ -255,7 +256,7 @@ You should use special meta-characters if you need to work with breaks:
 | --- | --- | --- |
 | pattern | java.lang.String | A string to be replaced. |
 | replacement | java.lang.String | A string to replace all occurrences of pattern. |
-| options | [FindReplaceOptions](../../com.aspose.words/findreplaceoptions) | \{[FindReplaceOptions](../../com.aspose.words/findreplaceoptions) object to specify additional options. |
+| options | [FindReplaceOptions](../../com.aspose.words/findreplaceoptions/) | \{[FindReplaceOptions](../../com.aspose.words/findreplaceoptions/) object to specify additional options. |
 
 **Returns:**
 int - The number of replacements made.
@@ -289,7 +290,7 @@ You should use special meta-characters if you need to work with breaks:
  *  **&m** \- page break
  *  **&l** \- manual line break
 
-Use method [replace(java.util.regex.Pattern, java.lang.String, com.aspose.words.FindReplaceOptions)](../../com.aspose.words/range\#replace-java.util.regex.Pattern--java.lang.String--com.aspose.words.FindReplaceOptions) to have more flexible customization.
+Use method [replace(java.util.regex.Pattern, java.lang.String, com.aspose.words.FindReplaceOptions)](../../com.aspose.words/range/\#replace-java.util.regex.Pattern--java.lang.String--com.aspose.words.FindReplaceOptions) to have more flexible customization.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -335,7 +336,7 @@ You should use special meta-characters if you need to work with breaks:
 | --- | --- | --- |
 | pattern | java.util.regex.Pattern | A regular expression pattern used to find matches. |
 | replacement | java.lang.String | A string to replace all occurrences of pattern. |
-| options | [FindReplaceOptions](../../com.aspose.words/findreplaceoptions) | \{[FindReplaceOptions](../../com.aspose.words/findreplaceoptions) object to specify additional options. |
+| options | [FindReplaceOptions](../../com.aspose.words/findreplaceoptions/) | \{[FindReplaceOptions](../../com.aspose.words/findreplaceoptions/) object to specify additional options. |
 
 **Returns:**
 int - The number of replacements made.
@@ -359,7 +360,7 @@ public Document toDocument()
 Constructs a new fully formed document that contains the range.
 
 **Returns:**
-[Document](../../com.aspose.words/document)
+[Document](../../com.aspose.words/document/)
 ### toString() {#toString}
 ```
 public String toString()
@@ -380,7 +381,7 @@ Unlinks fields in this range.
 
 Replaces all the fields in this range with their most recent results.
 
-To unlink fields in the whole document use [unlinkFields()](../../com.aspose.words/range\#unlinkFields).
+To unlink fields in the whole document use [unlinkFields()](../../com.aspose.words/range/\#unlinkFields).
 
 ### updateFields() {#updateFields}
 ```
@@ -396,9 +397,9 @@ There is no need to update fields after executing a mail merge because mail merg
 
 This method does not update all field types. For the detailed list of supported field types, see the Programmers Guide.
 
-This method does not update fields that are related to the page layout algorithms (e.g. PAGE, PAGES, PAGEREF). The page layout-related fields are updated when you render a document or call [Document.updatePageLayout()](../../com.aspose.words/document\#updatePageLayout).
+This method does not update fields that are related to the page layout algorithms (e.g. PAGE, PAGES, PAGEREF). The page layout-related fields are updated when you render a document or call [Document.updatePageLayout()](../../com.aspose.words/document/\#updatePageLayout).
 
-To update fields in the whole document use [Document.updateFields()](../../com.aspose.words/document\#updateFields).
+To update fields in the whole document use [Document.updateFields()](../../com.aspose.words/document/\#updateFields).
 
 ### wait() {#wait}
 ```

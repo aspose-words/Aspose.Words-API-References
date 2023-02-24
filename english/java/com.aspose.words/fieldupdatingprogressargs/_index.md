@@ -1,7 +1,8 @@
 ---
 title: FieldUpdatingProgressArgs
+linktitle: FieldUpdatingProgressArgs
 second_title: Aspose.Words for Java API Reference
-description: Provides data for the field updating progress event.
+description: Provides data for the field updating progress event in Java.
 type: docs
 weight: 260
 url: /java/com.aspose.words/fieldupdatingprogressargs/

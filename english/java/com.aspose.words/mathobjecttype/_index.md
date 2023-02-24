@@ -1,9 +1,10 @@
 ---
 title: MathObjectType
+linktitle: MathObjectType
 second_title: Aspose.Words for Java API Reference
-description: Specifies type of an Office Math object.
+description: Specifies type of an Office Math object in Java.
 type: docs
-weight: 395
+weight: 397
 url: /java/com.aspose.words/mathobjecttype/
 ---
 
@@ -31,14 +32,14 @@ Specifies type of an Office Math object.
 | [FUNCTION](#FUNCTION) | Function-Apply object, which consists of a function name and an argument element acted upon. |
 | [FUNCTION_NAME](#FUNCTION-NAME) | Name of the function. |
 | [GROUP_CHARACTER](#GROUP-CHARACTER) | Group-Character object, consisting of a character drawn above or below text, often with the purpose of visually grouping items |
-| [LIMIT](#LIMIT) | Lower limit of the [LOWER\_LIMIT](../../com.aspose.words/mathobjecttype\#LOWER-LIMIT) object and the upper limit of the [UPPER\_LIMIT](../../com.aspose.words/mathobjecttype\#UPPER-LIMIT) function. |
+| [LIMIT](#LIMIT) | Lower limit of the [LOWER\_LIMIT](../../com.aspose.words/mathobjecttype/\#LOWER-LIMIT) object and the upper limit of the [UPPER\_LIMIT](../../com.aspose.words/mathobjecttype/\#UPPER-LIMIT) function. |
 | [LOWER_LIMIT](#LOWER-LIMIT) | Lower-Limit object, consisting of text on the baseline and reduced-size text immediately below it. |
 | [MATRIX](#MATRIX) | Matrix object, consisting of one or more elements laid out in one or more rows and one or more columns. |
 | [MATRIX_ROW](#MATRIX-ROW) | Single row of the matrix. |
 | [NUMERATOR](#NUMERATOR) | Numerator of the Fraction object. |
 | [N_ARY](#N-ARY) | N-ary object, consisting of an n-ary object, a base (or operand), and optional upper and lower limits. |
 | [O_MATH](#O-MATH) | Instance of mathematical text. |
-| [O_MATH_PARA](#O-MATH-PARA) | Math paragraph, or display math zone, that contains one or more [O\_MATH](../../com.aspose.words/mathobjecttype\#O-MATH) elements that are in display mode. |
+| [O_MATH_PARA](#O-MATH-PARA) | Math paragraph, or display math zone, that contains one or more [O\_MATH](../../com.aspose.words/mathobjecttype/\#O-MATH) elements that are in display mode. |
 | [PHANTOM](#PHANTOM) | Phantom object. |
 | [PRE_SUB_SUPERSCRIPT](#PRE-SUB-SUPERSCRIPT) | Pre-Sub-Superscript object, which consists of a base element and a subscript and superscript placed to the left of the base. |
 | [RADICAL](#RADICAL) | Radical object, consisting of a radical, a base element, and an optional degree . |
@@ -176,7 +177,7 @@ public static int LIMIT
 ```
 
 
-Lower limit of the [LOWER\_LIMIT](../../com.aspose.words/mathobjecttype\#LOWER-LIMIT) object and the upper limit of the [UPPER\_LIMIT](../../com.aspose.words/mathobjecttype\#UPPER-LIMIT) function.
+Lower limit of the [LOWER\_LIMIT](../../com.aspose.words/mathobjecttype/\#LOWER-LIMIT) object and the upper limit of the [UPPER\_LIMIT](../../com.aspose.words/mathobjecttype/\#UPPER-LIMIT) function.
 
 ### LOWER_LIMIT {#LOWER-LIMIT}
 ```
@@ -232,7 +233,7 @@ public static int O_MATH_PARA
 ```
 
 
-Math paragraph, or display math zone, that contains one or more [O\_MATH](../../com.aspose.words/mathobjecttype\#O-MATH) elements that are in display mode.
+Math paragraph, or display math zone, that contains one or more [O\_MATH](../../com.aspose.words/mathobjecttype/\#O-MATH) elements that are in display mode.
 
 ### PHANTOM {#PHANTOM}
 ```

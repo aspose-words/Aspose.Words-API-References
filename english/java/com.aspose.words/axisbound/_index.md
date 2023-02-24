@@ -1,7 +1,8 @@
 ---
 title: AxisBound
+linktitle: AxisBound
 second_title: Aspose.Words for Java API Reference
-description: Represents minimum or maximum bound of axis values.
+description: Represents minimum or maximum bound of axis values in Java.
 type: docs
 weight: 16
 url: /java/com.aspose.words/axisbound/

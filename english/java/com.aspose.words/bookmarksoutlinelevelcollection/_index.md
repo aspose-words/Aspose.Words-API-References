@@ -1,7 +1,8 @@
 ---
 title: BookmarksOutlineLevelCollection
+linktitle: BookmarksOutlineLevelCollection
 second_title: Aspose.Words for Java API Reference
-description: A collection of individual bookmarks outline level.
+description: A collection of individual bookmarks outline level in Java.
 type: docs
 weight: 35
 url: /java/com.aspose.words/bookmarksoutlinelevelcollection/

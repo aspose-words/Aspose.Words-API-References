@@ -1,9 +1,10 @@
 ---
 title: ListLevelCollection
+linktitle: ListLevelCollection
 second_title: Aspose.Words for Java API Reference
-description: A collection of list formatting for each level in a list.
+description: A collection of list formatting for each level in a list in Java.
 type: docs
-weight: 376
+weight: 377
 url: /java/com.aspose.words/listlevelcollection/
 ---
 
@@ -68,7 +69,7 @@ Gets a list level by index.
 | index | int |  |
 
 **Returns:**
-[ListLevel](../../com.aspose.words/listlevel) - A list level by index.
+[ListLevel](../../com.aspose.words/listlevel/) - A list level by index.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -139,7 +140,7 @@ Gets a list level by index.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int |  |
-| value | [ListLevel](../../com.aspose.words/listlevel) | A list level by index. |
+| value | [ListLevel](../../com.aspose.words/listlevel/) | A list level by index. |
 
 ### toString() {#toString}
 ```

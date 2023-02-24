@@ -1,9 +1,10 @@
 ---
 title: NumeralFormat
+linktitle: NumeralFormat
 second_title: Aspose.Words for Java API Reference
-description: Indicates the symbol set that is used to represent numbers while rendering to fixed page formats.
+description: Indicates the symbol set that is used to represent numbers while rendering to fixed page formats in Java.
 type: docs
-weight: 414
+weight: 416
 url: /java/com.aspose.words/numeralformat/
 ---
 

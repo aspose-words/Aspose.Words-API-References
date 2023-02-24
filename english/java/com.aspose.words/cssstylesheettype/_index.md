@@ -1,7 +1,8 @@
 ---
 title: CssStyleSheetType
+linktitle: CssStyleSheetType
 second_title: Aspose.Words for Java API Reference
-description: Specifies how CSS Cascading Style Sheet styles are exported to HTML.
+description: Specifies how CSS Cascading Style Sheet styles are exported to HTML in Java.
 type: docs
 weight: 98
 url: /java/com.aspose.words/cssstylesheettype/

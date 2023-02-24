@@ -1,7 +1,8 @@
 ---
 title: ExportFontFormat
+linktitle: ExportFontFormat
 second_title: Aspose.Words for Java API Reference
-description: Indicates the format that is used to export fonts while rendering to HTML fixed format.
+description: Indicates the format that is used to export fonts while rendering to HTML fixed format in Java.
 type: docs
 weight: 149
 url: /java/com.aspose.words/exportfontformat/

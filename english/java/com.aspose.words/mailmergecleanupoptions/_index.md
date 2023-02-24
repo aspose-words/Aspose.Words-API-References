@@ -1,9 +1,10 @@
 ---
 title: MailMergeCleanupOptions
+linktitle: MailMergeCleanupOptions
 second_title: Aspose.Words for Java API Reference
-description: Specifies options that determine what items are removed during mail merge.
+description: Specifies options that determine what items are removed during mail merge in Java.
 type: docs
-weight: 383
+weight: 384
 url: /java/com.aspose.words/mailmergecleanupoptions/
 ---
 
@@ -84,41 +85,41 @@ public static int REMOVE_STATIC_FIELDS
 ```
 
 
-Specifies whether static fields should be removed from the document. Static fields are fields, which results remain the same upon any document change. Fields, which do not store their results in a document and are calculated on the fly (like [FieldType.FIELD\_LIST\_NUM](../../com.aspose.words/fieldtype\#FIELD-LIST-NUM), [FieldType.FIELD\_SYMBOL](../../com.aspose.words/fieldtype\#FIELD-SYMBOL), etc.) are not considered to be static. Here is the full list of field types, which are not considered to be static:
+Specifies whether static fields should be removed from the document. Static fields are fields, which results remain the same upon any document change. Fields, which do not store their results in a document and are calculated on the fly (like [FieldType.FIELD\_LIST\_NUM](../../com.aspose.words/fieldtype/\#FIELD-LIST-NUM), [FieldType.FIELD\_SYMBOL](../../com.aspose.words/fieldtype/\#FIELD-SYMBOL), etc.) are not considered to be static. Here is the full list of field types, which are not considered to be static:
 
- *  [FieldType.FIELD\_ADVANCE](../../com.aspose.words/fieldtype\#FIELD-ADVANCE)
- *  [FieldType.FIELD\_AUTO\_NUM](../../com.aspose.words/fieldtype\#FIELD-AUTO-NUM)
- *  [FieldType.FIELD\_AUTO\_NUM\_LEGAL](../../com.aspose.words/fieldtype\#FIELD-AUTO-NUM-LEGAL)
- *  [FieldType.FIELD\_AUTO\_NUM\_OUTLINE](../../com.aspose.words/fieldtype\#FIELD-AUTO-NUM-OUTLINE)
- *  [FieldType.FIELD\_BARCODE](../../com.aspose.words/fieldtype\#FIELD-BARCODE)
- *  [FieldType.FIELD\_BIDI\_OUTLINE](../../com.aspose.words/fieldtype\#FIELD-BIDI-OUTLINE)
- *  [FieldType.FIELD\_DATE](../../com.aspose.words/fieldtype\#FIELD-DATE)
- *  [FieldType.FIELD\_DISPLAY\_BARCODE](../../com.aspose.words/fieldtype\#FIELD-DISPLAY-BARCODE)
- *  [FieldType.FIELD\_MERGE\_BARCODE](../../com.aspose.words/fieldtype\#FIELD-MERGE-BARCODE)
- *  [FieldType.FIELD\_FORM\_CHECK\_BOX](../../com.aspose.words/fieldtype\#FIELD-FORM-CHECK-BOX)
- *  [FieldType.FIELD\_FORM\_DROP\_DOWN](../../com.aspose.words/fieldtype\#FIELD-FORM-DROP-DOWN)
- *  [FieldType.FIELD\_FORMULA](../../com.aspose.words/fieldtype\#FIELD-FORMULA)
- *  [FieldType.FIELD\_GO\_TO\_BUTTON](../../com.aspose.words/fieldtype\#FIELD-GO-TO-BUTTON)
- *  [FieldType.FIELD\_HYPERLINK](../../com.aspose.words/fieldtype\#FIELD-HYPERLINK)
- *  [FieldType.FIELD\_INCLUDE\_TEXT](../../com.aspose.words/fieldtype\#FIELD-INCLUDE-TEXT)
- *  [FieldType.FIELD\_INDEX\_ENTRY](../../com.aspose.words/fieldtype\#FIELD-INDEX-ENTRY)
- *  [FieldType.FIELD\_LINK](../../com.aspose.words/fieldtype\#FIELD-LINK)
- *  [FieldType.FIELD\_LIST\_NUM](../../com.aspose.words/fieldtype\#FIELD-LIST-NUM)
- *  [FieldType.FIELD\_MACRO\_BUTTON](../../com.aspose.words/fieldtype\#FIELD-MACRO-BUTTON)
- *  [FieldType.FIELD\_NOTE\_REF](../../com.aspose.words/fieldtype\#FIELD-NOTE-REF)
- *  [FieldType.FIELD\_NUM\_PAGES](../../com.aspose.words/fieldtype\#FIELD-NUM-PAGES)
- *  [FieldType.FIELD\_PAGE](../../com.aspose.words/fieldtype\#FIELD-PAGE)
- *  [FieldType.FIELD\_PAGE\_REF](../../com.aspose.words/fieldtype\#FIELD-PAGE-REF)
- *  [FieldType.FIELD\_PRINT](../../com.aspose.words/fieldtype\#FIELD-PRINT)
- *  [FieldType.FIELD\_PRINT\_DATE](../../com.aspose.words/fieldtype\#FIELD-PRINT-DATE)
- *  [FieldType.FIELD\_PRIVATE](../../com.aspose.words/fieldtype\#FIELD-PRIVATE)
- *  [FieldType.FIELD\_REF\_DOC](../../com.aspose.words/fieldtype\#FIELD-REF-DOC)
- *  [FieldType.FIELD\_SECTION](../../com.aspose.words/fieldtype\#FIELD-SECTION)
- *  [FieldType.FIELD\_SECTION\_PAGES](../../com.aspose.words/fieldtype\#FIELD-SECTION-PAGES)
- *  [FieldType.FIELD\_SYMBOL](../../com.aspose.words/fieldtype\#FIELD-SYMBOL)
- *  [FieldType.FIELD\_TIME](../../com.aspose.words/fieldtype\#FIELD-TIME)
- *  [FieldType.FIELD\_TOA\_ENTRY](../../com.aspose.words/fieldtype\#FIELD-TOA-ENTRY)
- *  [FieldType.FIELD\_TOC\_ENTRY](../../com.aspose.words/fieldtype\#FIELD-TOC-ENTRY)
+ *  [FieldType.FIELD\_ADVANCE](../../com.aspose.words/fieldtype/\#FIELD-ADVANCE)
+ *  [FieldType.FIELD\_AUTO\_NUM](../../com.aspose.words/fieldtype/\#FIELD-AUTO-NUM)
+ *  [FieldType.FIELD\_AUTO\_NUM\_LEGAL](../../com.aspose.words/fieldtype/\#FIELD-AUTO-NUM-LEGAL)
+ *  [FieldType.FIELD\_AUTO\_NUM\_OUTLINE](../../com.aspose.words/fieldtype/\#FIELD-AUTO-NUM-OUTLINE)
+ *  [FieldType.FIELD\_BARCODE](../../com.aspose.words/fieldtype/\#FIELD-BARCODE)
+ *  [FieldType.FIELD\_BIDI\_OUTLINE](../../com.aspose.words/fieldtype/\#FIELD-BIDI-OUTLINE)
+ *  [FieldType.FIELD\_DATE](../../com.aspose.words/fieldtype/\#FIELD-DATE)
+ *  [FieldType.FIELD\_DISPLAY\_BARCODE](../../com.aspose.words/fieldtype/\#FIELD-DISPLAY-BARCODE)
+ *  [FieldType.FIELD\_MERGE\_BARCODE](../../com.aspose.words/fieldtype/\#FIELD-MERGE-BARCODE)
+ *  [FieldType.FIELD\_FORM\_CHECK\_BOX](../../com.aspose.words/fieldtype/\#FIELD-FORM-CHECK-BOX)
+ *  [FieldType.FIELD\_FORM\_DROP\_DOWN](../../com.aspose.words/fieldtype/\#FIELD-FORM-DROP-DOWN)
+ *  [FieldType.FIELD\_FORMULA](../../com.aspose.words/fieldtype/\#FIELD-FORMULA)
+ *  [FieldType.FIELD\_GO\_TO\_BUTTON](../../com.aspose.words/fieldtype/\#FIELD-GO-TO-BUTTON)
+ *  [FieldType.FIELD\_HYPERLINK](../../com.aspose.words/fieldtype/\#FIELD-HYPERLINK)
+ *  [FieldType.FIELD\_INCLUDE\_TEXT](../../com.aspose.words/fieldtype/\#FIELD-INCLUDE-TEXT)
+ *  [FieldType.FIELD\_INDEX\_ENTRY](../../com.aspose.words/fieldtype/\#FIELD-INDEX-ENTRY)
+ *  [FieldType.FIELD\_LINK](../../com.aspose.words/fieldtype/\#FIELD-LINK)
+ *  [FieldType.FIELD\_LIST\_NUM](../../com.aspose.words/fieldtype/\#FIELD-LIST-NUM)
+ *  [FieldType.FIELD\_MACRO\_BUTTON](../../com.aspose.words/fieldtype/\#FIELD-MACRO-BUTTON)
+ *  [FieldType.FIELD\_NOTE\_REF](../../com.aspose.words/fieldtype/\#FIELD-NOTE-REF)
+ *  [FieldType.FIELD\_NUM\_PAGES](../../com.aspose.words/fieldtype/\#FIELD-NUM-PAGES)
+ *  [FieldType.FIELD\_PAGE](../../com.aspose.words/fieldtype/\#FIELD-PAGE)
+ *  [FieldType.FIELD\_PAGE\_REF](../../com.aspose.words/fieldtype/\#FIELD-PAGE-REF)
+ *  [FieldType.FIELD\_PRINT](../../com.aspose.words/fieldtype/\#FIELD-PRINT)
+ *  [FieldType.FIELD\_PRINT\_DATE](../../com.aspose.words/fieldtype/\#FIELD-PRINT-DATE)
+ *  [FieldType.FIELD\_PRIVATE](../../com.aspose.words/fieldtype/\#FIELD-PRIVATE)
+ *  [FieldType.FIELD\_REF\_DOC](../../com.aspose.words/fieldtype/\#FIELD-REF-DOC)
+ *  [FieldType.FIELD\_SECTION](../../com.aspose.words/fieldtype/\#FIELD-SECTION)
+ *  [FieldType.FIELD\_SECTION\_PAGES](../../com.aspose.words/fieldtype/\#FIELD-SECTION-PAGES)
+ *  [FieldType.FIELD\_SYMBOL](../../com.aspose.words/fieldtype/\#FIELD-SYMBOL)
+ *  [FieldType.FIELD\_TIME](../../com.aspose.words/fieldtype/\#FIELD-TIME)
+ *  [FieldType.FIELD\_TOA\_ENTRY](../../com.aspose.words/fieldtype/\#FIELD-TOA-ENTRY)
+ *  [FieldType.FIELD\_TOC\_ENTRY](../../com.aspose.words/fieldtype/\#FIELD-TOC-ENTRY)
 
 ### REMOVE_UNUSED_FIELDS {#REMOVE-UNUSED-FIELDS}
 ```

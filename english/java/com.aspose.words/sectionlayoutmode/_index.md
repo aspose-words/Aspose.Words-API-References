@@ -1,9 +1,10 @@
 ---
 title: SectionLayoutMode
+linktitle: SectionLayoutMode
 second_title: Aspose.Words for Java API Reference
-description: Specifies the layout mode for a section allowing to define the document grid behavior.
+description: Specifies the layout mode for a section allowing to define the document grid behavior in Java.
 type: docs
-weight: 515
+weight: 517
 url: /java/com.aspose.words/sectionlayoutmode/
 ---
 

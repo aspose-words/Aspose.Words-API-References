@@ -1,9 +1,10 @@
 ---
 title: OleFormat
+linktitle: OleFormat
 second_title: Aspose.Words for Java API Reference
-description: Provides access to the data of an OLE object or ActiveX control.
+description: Provides access to the data of an OLE object or ActiveX control in Java.
 type: docs
-weight: 429
+weight: 431
 url: /java/com.aspose.words/oleformat/
 ---
 
@@ -17,10 +18,10 @@ Provides access to the data of an OLE object or ActiveX control.
 
 To learn more, visit the [ Working with Ole Objects ][Working with Ole Objects] documentation article.
 
-Use the [Shape.getOleFormat()](../../com.aspose.words/shape\#getOleFormat) property to access the data of an OLE object. You do not create instances of the [OleFormat](../../com.aspose.words/oleformat) class directly.
+Use the [Shape.getOleFormat()](../../com.aspose.words/shape/\#getOleFormat) property to access the data of an OLE object. You do not create instances of the [OleFormat](../../com.aspose.words/oleformat/) class directly.
 
 
-[Working with Ole Objects]: https://docs.aspose.com/words/java/working-with-ole-objects-and-online-video/
+[Working with Ole Objects]: https://docs.aspose.com/words/java/working-with-ole-objects/
 ## Methods
 
 | Method | Description |
@@ -30,10 +31,10 @@ Use the [Shape.getOleFormat()](../../com.aspose.words/shape\#getOleFormat) prope
 | [getClass()](#getClass) |  |
 | [getClsid()](#getClsid) | Gets the CLSID of the OLE object. |
 | [getIconCaption()](#getIconCaption) | Gets icon caption of OLE object. |
-| [getOleControl()](#getOleControl) | Gets [getOleControl()](../../com.aspose.words/oleformat\#getOleControl) objects if this OLE object is an ActiveX control. |
+| [getOleControl()](#getOleControl) | Gets [getOleControl()](../../com.aspose.words/oleformat/\#getOleControl) objects if this OLE object is an ActiveX control. |
 | [getOleEntry(String oleEntryName)](#getOleEntry-java.lang.String) |  |
 | [getOleIcon()](#getOleIcon) | Gets the draw aspect of the OLE object. |
-| [getOlePackage()](#getOlePackage) | Provide access to [OlePackage](../../com.aspose.words/olepackage) if OLE object is an OLE Package. |
+| [getOlePackage()](#getOlePackage) | Provide access to [OlePackage](../../com.aspose.words/olepackage/) if OLE object is an OLE Package. |
 | [getProgId()](#getProgId) | Gets the ProgID of the OLE object. |
 | [getRawData()](#getRawData) | Gets OLE object raw data. |
 | [getSourceFullName()](#getSourceFullName) | Gets the path and name of the source file for the linked OLE object. |
@@ -41,7 +42,7 @@ Use the [Shape.getOleFormat()](../../com.aspose.words/shape\#getOleFormat) prope
 | [getSuggestedExtension()](#getSuggestedExtension) | Gets the file extension suggested for the current embedded object if you want to save it into a file. |
 | [getSuggestedFileName()](#getSuggestedFileName) | Gets the file name suggested for the current embedded object if you want to save it into a file. |
 | [hashCode()](#hashCode) |  |
-| [isLink()](#isLink) | Returns  true  if the OLE object is linked (when [getSourceFullName()](../../com.aspose.words/oleformat\#getSourceFullName) / [setSourceFullName(java.lang.String)](../../com.aspose.words/oleformat\#setSourceFullName-java.lang.String) is specified). |
+| [isLink()](#isLink) | Returns  true  if the OLE object is linked (when [getSourceFullName()](../../com.aspose.words/oleformat/\#getSourceFullName) / [setSourceFullName(java.lang.String)](../../com.aspose.words/oleformat/\#setSourceFullName-java.lang.String) is specified). |
 | [isLocked()](#isLocked) | Specifies whether the link to the OLE object is locked from updates. |
 | [isLocked(boolean value)](#isLocked-boolean) | Specifies whether the link to the OLE object is locked from updates. |
 | [notify()](#notify) |  |
@@ -121,10 +122,10 @@ public OleControl getOleControl()
 ```
 
 
-Gets [getOleControl()](../../com.aspose.words/oleformat\#getOleControl) objects if this OLE object is an ActiveX control. Otherwise this property is null.
+Gets [getOleControl()](../../com.aspose.words/oleformat/\#getOleControl) objects if this OLE object is an ActiveX control. Otherwise this property is null.
 
 **Returns:**
-[OleControl](../../com.aspose.words/olecontrol) - \{[getOleControl()](../../com.aspose.words/oleformat\#getOleControl) objects if this OLE object is an ActiveX control.
+[OleControl](../../com.aspose.words/olecontrol/) - \{[getOleControl()](../../com.aspose.words/oleformat/\#getOleControl) objects if this OLE object is an ActiveX control.
 ### getOleEntry(String oleEntryName) {#getOleEntry-java.lang.String}
 ```
 public byte[] getOleEntry(String oleEntryName)
@@ -158,10 +159,10 @@ public OlePackage getOlePackage()
 ```
 
 
-Provide access to [OlePackage](../../com.aspose.words/olepackage) if OLE object is an OLE Package. Returns  null  otherwise. OLE Package is a legacy technology that allows to wrap any file format not present in the OLE registry of a Windows system into a generic package allowing to embed almost anything into a document. See [OlePackage](../../com.aspose.words/olepackage) type for more info.
+Provide access to [OlePackage](../../com.aspose.words/olepackage/) if OLE object is an OLE Package. Returns  null  otherwise. OLE Package is a legacy technology that allows to wrap any file format not present in the OLE registry of a Windows system into a generic package allowing to embed almost anything into a document. See [OlePackage](../../com.aspose.words/olepackage/) type for more info.
 
 **Returns:**
-[OlePackage](../../com.aspose.words/olepackage) - The corresponding [OlePackage](../../com.aspose.words/olepackage) value.
+[OlePackage](../../com.aspose.words/olepackage/) - The corresponding [OlePackage](../../com.aspose.words/olepackage/) value.
 ### getProgId() {#getProgId}
 ```
 public String getProgId()
@@ -198,7 +199,7 @@ Gets the path and name of the source file for the linked OLE object.
 
 The default value is an empty string.
 
-If [getSourceFullName()](../../com.aspose.words/oleformat\#getSourceFullName) / [setSourceFullName(java.lang.String)](../../com.aspose.words/oleformat\#setSourceFullName-java.lang.String) is not an empty string, the OLE object is linked.
+If [getSourceFullName()](../../com.aspose.words/oleformat/\#getSourceFullName) / [setSourceFullName(java.lang.String)](../../com.aspose.words/oleformat/\#setSourceFullName-java.lang.String) is not an empty string, the OLE object is linked.
 
 **Returns:**
 java.lang.String - The path and name of the source file for the linked OLE object.
@@ -212,7 +213,7 @@ Gets a string that is used to identify the portion of the source file that is be
 
 The default value is an empty string.
 
-For example, if the source file is a Microsoft Excel workbook, the [getSourceItem()](../../com.aspose.words/oleformat\#getSourceItem) / [setSourceItem(java.lang.String)](../../com.aspose.words/oleformat\#setSourceItem-java.lang.String) property might return "Workbook1!R3C1:R4C2" if the OLE object contains only a few cells from the worksheet.
+For example, if the source file is a Microsoft Excel workbook, the [getSourceItem()](../../com.aspose.words/oleformat/\#getSourceItem) / [setSourceItem(java.lang.String)](../../com.aspose.words/oleformat/\#setSourceItem-java.lang.String) property might return "Workbook1!R3C1:R4C2" if the OLE object contains only a few cells from the worksheet.
 
 **Returns:**
 java.lang.String - A string that is used to identify the portion of the source file that is being linked.
@@ -252,10 +253,10 @@ public boolean isLink()
 ```
 
 
-Returns  true  if the OLE object is linked (when [getSourceFullName()](../../com.aspose.words/oleformat\#getSourceFullName) / [setSourceFullName(java.lang.String)](../../com.aspose.words/oleformat\#setSourceFullName-java.lang.String) is specified).
+Returns  true  if the OLE object is linked (when [getSourceFullName()](../../com.aspose.words/oleformat/\#getSourceFullName) / [setSourceFullName(java.lang.String)](../../com.aspose.words/oleformat/\#setSourceFullName-java.lang.String) is specified).
 
 **Returns:**
-boolean - \{ true  if the OLE object is linked (when [getSourceFullName()](../../com.aspose.words/oleformat\#getSourceFullName) / [setSourceFullName(java.lang.String)](../../com.aspose.words/oleformat\#setSourceFullName-java.lang.String) is specified).
+boolean - \{ true  if the OLE object is linked (when [getSourceFullName()](../../com.aspose.words/oleformat/\#getSourceFullName) / [setSourceFullName(java.lang.String)](../../com.aspose.words/oleformat/\#setSourceFullName-java.lang.String) is specified).
 ### isLocked() {#isLocked}
 ```
 public boolean isLocked()
@@ -369,7 +370,7 @@ Sets the path and name of the source file for the linked OLE object.
 
 The default value is an empty string.
 
-If [getSourceFullName()](../../com.aspose.words/oleformat\#getSourceFullName) / [setSourceFullName(java.lang.String)](../../com.aspose.words/oleformat\#setSourceFullName-java.lang.String) is not an empty string, the OLE object is linked.
+If [getSourceFullName()](../../com.aspose.words/oleformat/\#getSourceFullName) / [setSourceFullName(java.lang.String)](../../com.aspose.words/oleformat/\#setSourceFullName-java.lang.String) is not an empty string, the OLE object is linked.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -386,7 +387,7 @@ Sets a string that is used to identify the portion of the source file that is be
 
 The default value is an empty string.
 
-For example, if the source file is a Microsoft Excel workbook, the [getSourceItem()](../../com.aspose.words/oleformat\#getSourceItem) / [setSourceItem(java.lang.String)](../../com.aspose.words/oleformat\#setSourceItem-java.lang.String) property might return "Workbook1!R3C1:R4C2" if the OLE object contains only a few cells from the worksheet.
+For example, if the source file is a Microsoft Excel workbook, the [getSourceItem()](../../com.aspose.words/oleformat/\#getSourceItem) / [setSourceItem(java.lang.String)](../../com.aspose.words/oleformat/\#setSourceItem-java.lang.String) property might return "Workbook1!R3C1:R4C2" if the OLE object contains only a few cells from the worksheet.
 
 **Parameters:**
 | Parameter | Type | Description |

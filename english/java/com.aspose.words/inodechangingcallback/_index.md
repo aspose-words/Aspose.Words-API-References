@@ -1,9 +1,10 @@
 ---
 title: INodeChangingCallback
+linktitle: INodeChangingCallback
 second_title: Aspose.Words for Java API Reference
-description: Implement this interface if you want to receive notifications when nodes are inserted or removed in the document.
+description: Implement this interface if you want to receive notifications when nodes are inserted or removed in the document in Java.
 type: docs
-weight: 657
+weight: 659
 url: /java/com.aspose.words/inodechangingcallback/
 ---
 ```
@@ -30,7 +31,7 @@ Called when a node belonging to this document has been inserted into another nod
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| args | [NodeChangingArgs](../../com.aspose.words/nodechangingargs) |  |
+| args | [NodeChangingArgs](../../com.aspose.words/nodechangingargs/) |  |
 
 ### nodeInserting(NodeChangingArgs args) {#nodeInserting-com.aspose.words.NodeChangingArgs}
 ```
@@ -43,7 +44,7 @@ Called just before a node belonging to this document is about to be inserted int
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| args | [NodeChangingArgs](../../com.aspose.words/nodechangingargs) |  |
+| args | [NodeChangingArgs](../../com.aspose.words/nodechangingargs/) |  |
 
 ### nodeRemoved(NodeChangingArgs args) {#nodeRemoved-com.aspose.words.NodeChangingArgs}
 ```
@@ -56,7 +57,7 @@ Called when a node belonging to this document has been removed from its parent.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| args | [NodeChangingArgs](../../com.aspose.words/nodechangingargs) |  |
+| args | [NodeChangingArgs](../../com.aspose.words/nodechangingargs/) |  |
 
 ### nodeRemoving(NodeChangingArgs args) {#nodeRemoving-com.aspose.words.NodeChangingArgs}
 ```
@@ -69,5 +70,5 @@ Called just before a node belonging to this document is about to be removed from
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| args | [NodeChangingArgs](../../com.aspose.words/nodechangingargs) |  |
+| args | [NodeChangingArgs](../../com.aspose.words/nodechangingargs/) |  |
 

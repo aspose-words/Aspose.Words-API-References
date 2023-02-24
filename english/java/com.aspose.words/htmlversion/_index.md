@@ -1,7 +1,8 @@
 ---
 title: HtmlVersion
+linktitle: HtmlVersion
 second_title: Aspose.Words for Java API Reference
-description: Indicates the version of HTML is used when saving the document to  and  formats.
+description: Indicates the version of HTML is used when saving the document to  and  formats in Java.
 type: docs
 weight: 334
 url: /java/com.aspose.words/htmlversion/
@@ -13,7 +14,7 @@ java.lang.Object
 public class HtmlVersion
 ```
 
-Indicates the version of HTML is used when saving the document to [SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML) and [SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML) formats.
+Indicates the version of HTML is used when saving the document to [SaveFormat.HTML](../../com.aspose.words/saveformat/\#HTML) and [SaveFormat.MHTML](../../com.aspose.words/saveformat/\#MHTML) formats.
 ## Fields
 
 | Field | Description |

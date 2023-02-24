@@ -1,9 +1,10 @@
 ---
 title: TaskPane
+linktitle: TaskPane
 second_title: Aspose.Words for Java API Reference
-description: Represents an add-in task pane object.
+description: Represents an add-in task pane object in Java.
 type: docs
-weight: 559
+weight: 561
 url: /java/com.aspose.words/taskpane/
 ---
 
@@ -77,7 +78,7 @@ public int getDockState()
 Specifies the last-docked location of this task pane object.
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [TaskPaneDockState](../../com.aspose.words/taskpanedockstate) constants.
+int - The corresponding  int  value. The returned value is one of [TaskPaneDockState](../../com.aspose.words/taskpanedockstate/) constants.
 ### getRow() {#getRow}
 ```
 public int getRow()
@@ -97,7 +98,7 @@ public WebExtension getWebExtension()
 Represents an web extension object.
 
 **Returns:**
-[WebExtension](../../com.aspose.words/webextension) - The corresponding [WebExtension](../../com.aspose.words/webextension) value.
+[WebExtension](../../com.aspose.words/webextension/) - The corresponding [WebExtension](../../com.aspose.words/webextension/) value.
 ### getWidth() {#getWidth}
 ```
 public double getWidth()
@@ -191,7 +192,7 @@ Specifies the last-docked location of this task pane object.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [TaskPaneDockState](../../com.aspose.words/taskpanedockstate) constants. |
+| value | int | The corresponding  int  value. The value must be one of [TaskPaneDockState](../../com.aspose.words/taskpanedockstate/) constants. |
 
 ### setRow(int value) {#setRow-int}
 ```

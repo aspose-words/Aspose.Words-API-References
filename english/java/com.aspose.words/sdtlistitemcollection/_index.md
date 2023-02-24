@@ -1,9 +1,10 @@
 ---
 title: SdtListItemCollection
+linktitle: SdtListItemCollection
 second_title: Aspose.Words for Java API Reference
-description: Provides access to  elements of a structured document tag.
+description: Provides access to  elements of a structured document tag in Java.
 type: docs
-weight: 511
+weight: 513
 url: /java/com.aspose.words/sdtlistitemcollection/
 ---
 
@@ -16,12 +17,12 @@ java.lang.Cloneable, java.lang.Iterable
 public class SdtListItemCollection implements Cloneable, Iterable
 ```
 
-Provides access to [SdtListItem](../../com.aspose.words/sdtlistitem) elements of a structured document tag.
+Provides access to [SdtListItem](../../com.aspose.words/sdtlistitem/) elements of a structured document tag.
 
 To learn more, visit the [ Structured Document Tags or Content Control ][Structured Document Tags or Content Control] documentation article.
 
 
-[Structured Document Tags or Content Control]: https://docs.aspose.com/words/java/structured-document-tags-or-content-control/
+[Structured Document Tags or Content Control]: https://docs.aspose.com/words/java/working-with-content-control-sdt/
 ## Methods
 
 | Method | Description |
@@ -29,7 +30,7 @@ To learn more, visit the [ Structured Document Tags or Content Control ][Structu
 | [add(SdtListItem item)](#add-com.aspose.words.SdtListItem) | Adds an item to this collection. |
 | [clear()](#clear) | Clears all items from this collection. |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [get(int index)](#get-int) | Returns a [SdtListItem](../../com.aspose.words/sdtlistitem) object given its zero-based index in the collection. |
+| [get(int index)](#get-int) | Returns a [SdtListItem](../../com.aspose.words/sdtlistitem/) object given its zero-based index in the collection. |
 | [getClass()](#getClass) |  |
 | [getCount()](#getCount) | Gets number of items in the collection. |
 | [getSelectedValue()](#getSelectedValue) | Specifies currently selected value in this list. |
@@ -54,7 +55,7 @@ Adds an item to this collection.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | [SdtListItem](../../com.aspose.words/sdtlistitem) |  |
+| item | [SdtListItem](../../com.aspose.words/sdtlistitem/) |  |
 
 ### clear() {#clear}
 ```
@@ -85,7 +86,7 @@ public SdtListItem get(int index)
 ```
 
 
-Returns a [SdtListItem](../../com.aspose.words/sdtlistitem) object given its zero-based index in the collection.
+Returns a [SdtListItem](../../com.aspose.words/sdtlistitem/) object given its zero-based index in the collection.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -93,7 +94,7 @@ Returns a [SdtListItem](../../com.aspose.words/sdtlistitem) object given its zer
 | index | int |  |
 
 **Returns:**
-[SdtListItem](../../com.aspose.words/sdtlistitem) - A [SdtListItem](../../com.aspose.words/sdtlistitem) object given its zero-based index in the collection.
+[SdtListItem](../../com.aspose.words/sdtlistitem/) - A [SdtListItem](../../com.aspose.words/sdtlistitem/) object given its zero-based index in the collection.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -123,7 +124,7 @@ public SdtListItem getSelectedValue()
 Specifies currently selected value in this list. Null value allowed, meaning that no currently selected entry is associated with this list item collection.
 
 **Returns:**
-[SdtListItem](../../com.aspose.words/sdtlistitem) - The corresponding [SdtListItem](../../com.aspose.words/sdtlistitem) value.
+[SdtListItem](../../com.aspose.words/sdtlistitem/) - The corresponding [SdtListItem](../../com.aspose.words/sdtlistitem/) value.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()
@@ -184,7 +185,7 @@ Specifies currently selected value in this list. Null value allowed, meaning tha
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [SdtListItem](../../com.aspose.words/sdtlistitem) | The corresponding [SdtListItem](../../com.aspose.words/sdtlistitem) value. |
+| value | [SdtListItem](../../com.aspose.words/sdtlistitem/) | The corresponding [SdtListItem](../../com.aspose.words/sdtlistitem/) value. |
 
 ### toString() {#toString}
 ```

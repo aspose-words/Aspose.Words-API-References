@@ -1,7 +1,8 @@
 ---
 title: ImageWatermarkOptions
+linktitle: ImageWatermarkOptions
 second_title: Aspose.Words for Java API Reference
-description: Contains options that can be specified when adding a watermark with image.
+description: Contains options that can be specified when adding a watermark with image in Java.
 type: docs
 weight: 346
 url: /java/com.aspose.words/imagewatermarkoptions/

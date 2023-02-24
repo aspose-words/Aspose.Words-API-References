@@ -1,7 +1,8 @@
 ---
 title: CustomXmlProperty
+linktitle: CustomXmlProperty
 second_title: Aspose.Words for Java API Reference
-description: Represents a single custom XML attribute or a smart tag property.
+description: Represents a single custom XML attribute or a smart tag property in Java.
 type: docs
 weight: 107
 url: /java/com.aspose.words/customxmlproperty/
@@ -20,10 +21,10 @@ Represents a single custom XML attribute or a smart tag property.
 
 To learn more, visit the [ Structured Document Tags or Content Control ][Structured Document Tags or Content Control] documentation article.
 
-Used as an item of a [CustomXmlPropertyCollection](../../com.aspose.words/customxmlpropertycollection) collection.
+Used as an item of a [CustomXmlPropertyCollection](../../com.aspose.words/customxmlpropertycollection/) collection.
 
 
-[Structured Document Tags or Content Control]: https://docs.aspose.com/words/java/structured-document-tags-or-content-control/
+[Structured Document Tags or Content Control]: https://docs.aspose.com/words/java/working-with-content-control-sdt/
 ## Constructors
 
 | Constructor | Description |

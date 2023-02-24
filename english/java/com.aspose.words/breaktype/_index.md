@@ -1,7 +1,8 @@
 ---
 title: BreakType
+linktitle: BreakType
 second_title: Aspose.Words for Java API Reference
-description: Specifies type of a break inside a document.
+description: Specifies type of a break inside a document in Java.
 type: docs
 weight: 39
 url: /java/com.aspose.words/breaktype/

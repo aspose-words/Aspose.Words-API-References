@@ -1,9 +1,10 @@
 ---
 title: XmlDataSource
+linktitle: XmlDataSource
 second_title: Aspose.Words for Java API Reference
-description: Provides access to data of an XML file or stream to be used within a report.
+description: Provides access to data of an XML file or stream to be used within a report in Java.
 type: docs
-weight: 632
+weight: 634
 url: /java/com.aspose.words/xmldatasource/
 ---
 
@@ -17,9 +18,9 @@ Provides access to data of an XML file or stream to be used within a report.
 
 To learn more, visit the [ LINQ Reporting Engine ][LINQ Reporting Engine] documentation article.
 
-To access data of the corresponding file or stream while generating a report, pass an instance of this class as a data source to one of [ReportingEngine](../../com.aspose.words/reportingengine). buildReport overloads.
+To access data of the corresponding file or stream while generating a report, pass an instance of this class as a data source to one of [ReportingEngine](../../com.aspose.words/reportingengine/). buildReport overloads.
 
-In template documents, if a top-level XML element contains only a list of elements of the same type, an [XmlDataSource](../../com.aspose.words/xmldatasource) instance should be treated in the same way as if it was a [DataTable](../../com.aspose.words.net.system.data/datatable) instance. Otherwise, an [XmlDataSource](../../com.aspose.words/xmldatasource) instance should be treated in the same way as if it was a [DataRow](../../com.aspose.words.net.system.data/datarow) instance. For more information, see template syntax reference(https://docs.aspose.com/display/wordsjava/Template+Syntax).
+In template documents, if a top-level XML element contains only a list of elements of the same type, an [XmlDataSource](../../com.aspose.words/xmldatasource/) instance should be treated in the same way as if it was a [DataTable](../../com.aspose.words.net.system.data/datatable/) instance. Otherwise, an [XmlDataSource](../../com.aspose.words/xmldatasource/) instance should be treated in the same way as if it was a [DataRow](../../com.aspose.words.net.system.data/datarow/) instance. For more information, see template syntax reference(https://docs.aspose.com/display/wordsjava/Template+Syntax).
 
 When XML Schema Definition is passed to a constructor of this class, data types of values of simple XML elements and attributes are determined according to the schema. So in template documents, you can work with typed values rather than just strings.
 
@@ -33,7 +34,7 @@ When XML Schema Definition is not passed to a constructor of this class, data ty
 
 Note that for automatic recognition of data types to work, string representations of values of simple XML elements and attributes should be formed using invariant culture settings.
 
-To override default behavior of XML data loading, initialize and pass a [XmlDataLoadOptions](../../com.aspose.words/xmldataloadoptions) instance to a constructor of this class.
+To override default behavior of XML data loading, initialize and pass a [XmlDataLoadOptions](../../com.aspose.words/xmldataloadoptions/) instance to a constructor of this class.
 
 
 [LINQ Reporting Engine]: https://docs.aspose.com/words/java/linq-reporting-engine/
@@ -128,7 +129,7 @@ Creates a new data source with data from an XML file using the specified options
 | Parameter | Type | Description |
 | --- | --- | --- |
 | xmlPath | java.lang.String | The path to the XML file to be used as the data source. |
-| options | [XmlDataLoadOptions](../../com.aspose.words/xmldataloadoptions) | Options for XML data loading. |
+| options | [XmlDataLoadOptions](../../com.aspose.words/xmldataloadoptions/) | Options for XML data loading. |
 
 ### XmlDataSource(InputStream xmlStream, XmlDataLoadOptions options) {#XmlDataSource-java.io.InputStream-com.aspose.words.XmlDataLoadOptions}
 ```
@@ -142,7 +143,7 @@ Initializes a new instance of this class.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | xmlStream | java.io.InputStream |  |
-| options | [XmlDataLoadOptions](../../com.aspose.words/xmldataloadoptions) |  |
+| options | [XmlDataLoadOptions](../../com.aspose.words/xmldataloadoptions/) |  |
 
 ### XmlDataSource(String xmlPath, String xmlSchemaPath, XmlDataLoadOptions options) {#XmlDataSource-java.lang.String-java.lang.String-com.aspose.words.XmlDataLoadOptions}
 ```
@@ -157,7 +158,7 @@ Creates a new data source with data from an XML file using an XML Schema Definit
 | --- | --- | --- |
 | xmlPath | java.lang.String | The path to the XML file to be used as the data source. |
 | xmlSchemaPath | java.lang.String | The path to the XML Schema Definition file that provides schema for the XML file. |
-| options | [XmlDataLoadOptions](../../com.aspose.words/xmldataloadoptions) | Options for XML data loading. |
+| options | [XmlDataLoadOptions](../../com.aspose.words/xmldataloadoptions/) | Options for XML data loading. |
 
 ### XmlDataSource(InputStream xmlStream, InputStream xmlSchemaStream, XmlDataLoadOptions options) {#XmlDataSource-java.io.InputStream-java.io.InputStream-com.aspose.words.XmlDataLoadOptions}
 ```
@@ -172,7 +173,7 @@ Initializes a new instance of this class.
 | --- | --- | --- |
 | xmlStream | java.io.InputStream |  |
 | xmlSchemaStream | java.io.InputStream |  |
-| options | [XmlDataLoadOptions](../../com.aspose.words/xmldataloadoptions) |  |
+| options | [XmlDataLoadOptions](../../com.aspose.words/xmldataloadoptions/) |  |
 
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
