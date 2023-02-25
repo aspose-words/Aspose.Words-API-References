@@ -1,9 +1,10 @@
 ---
 title: OdsoRecipientData
+linktitle: OdsoRecipientData
 second_title: Aspose.Words for Java API Reference
-description: Represents information about a single record within an external data source that is to be excluded from the mail merge.
+description: Represents information about a single record within an external data source that is to be excluded from the mail merge in Java.
 type: docs
-weight: 420
+weight: 422
 url: /java/com.aspose.words/odsorecipientdata/
 ---
 
@@ -20,7 +21,7 @@ Represents information about a single record within an external data source that
 
 To learn more, visit the [ Mail Merge and Reporting ][Mail Merge and Reporting] documentation article.
 
-If a record shall be merged into a merged document, then no information is needed about that record. However, if a given record shall not be merged into a merged document, then the value of the unique key for that record shall be stored in the [getUniqueTag()](../../com.aspose.words/odsorecipientdata\#getUniqueTag) / [setUniqueTag(byte[])](../../com.aspose.words/odsorecipientdata\#setUniqueTag-byte) property of this object to indicate this exclusion.
+If a record shall be merged into a merged document, then no information is needed about that record. However, if a given record shall not be merged into a merged document, then the value of the unique key for that record shall be stored in the [getUniqueTag()](../../com.aspose.words/odsorecipientdata/\#getUniqueTag) / [setUniqueTag(byte[])](../../com.aspose.words/odsorecipientdata/\#setUniqueTag-byte) property of this object to indicate this exclusion.
 
 
 [Mail Merge and Reporting]: https://docs.aspose.com/words/java/mail-merge-and-reporting/
@@ -55,7 +56,7 @@ public OdsoRecipientData deepClone()
 Returns a deep clone of this object.
 
 **Returns:**
-[OdsoRecipientData](../../com.aspose.words/odsorecipientdata)
+[OdsoRecipientData](../../com.aspose.words/odsorecipientdata/)
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
@@ -107,7 +108,7 @@ public int getHash()
 ```
 
 
-Represents the hash code for this record. Sometimes Microsoft Word uses [getHash()](../../com.aspose.words/odsorecipientdata\#getHash) / [setHash(int)](../../com.aspose.words/odsorecipientdata\#setHash-int) of a whole record instead of a [getUniqueTag()](../../com.aspose.words/odsorecipientdata\#getUniqueTag) / [setUniqueTag(byte[])](../../com.aspose.words/odsorecipientdata\#setUniqueTag-byte) value. The default value is 0.
+Represents the hash code for this record. Sometimes Microsoft Word uses [getHash()](../../com.aspose.words/odsorecipientdata/\#getHash) / [setHash(int)](../../com.aspose.words/odsorecipientdata/\#setHash-int) of a whole record instead of a [getUniqueTag()](../../com.aspose.words/odsorecipientdata/\#getUniqueTag) / [setUniqueTag(byte[])](../../com.aspose.words/odsorecipientdata/\#setUniqueTag-byte) value. The default value is 0.
 
 **Returns:**
 int - The corresponding  int  value.
@@ -179,7 +180,7 @@ public void setHash(int value)
 ```
 
 
-Represents the hash code for this record. Sometimes Microsoft Word uses [getHash()](../../com.aspose.words/odsorecipientdata\#getHash) / [setHash(int)](../../com.aspose.words/odsorecipientdata\#setHash-int) of a whole record instead of a [getUniqueTag()](../../com.aspose.words/odsorecipientdata\#getUniqueTag) / [setUniqueTag(byte[])](../../com.aspose.words/odsorecipientdata\#setUniqueTag-byte) value. The default value is 0.
+Represents the hash code for this record. Sometimes Microsoft Word uses [getHash()](../../com.aspose.words/odsorecipientdata/\#getHash) / [setHash(int)](../../com.aspose.words/odsorecipientdata/\#setHash-int) of a whole record instead of a [getUniqueTag()](../../com.aspose.words/odsorecipientdata/\#getUniqueTag) / [setUniqueTag(byte[])](../../com.aspose.words/odsorecipientdata/\#setUniqueTag-byte) value. The default value is 0.
 
 **Parameters:**
 | Parameter | Type | Description |

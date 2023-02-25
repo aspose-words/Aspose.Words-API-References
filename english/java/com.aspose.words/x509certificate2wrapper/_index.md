@@ -1,9 +1,10 @@
 ---
 title: X509Certificate2Wrapper
+linktitle: X509Certificate2Wrapper
 second_title: Aspose.Words for Java API Reference
-description: 
+description: JAVA-added public wrapper around ours internal X509Certificate2 in Java.
 type: docs
-weight: 628
+weight: 630
 url: /java/com.aspose.words/x509certificate2wrapper/
 ---
 
@@ -12,6 +13,8 @@ java.lang.Object
 ```
 public class X509Certificate2Wrapper
 ```
+
+JAVA-added public wrapper around ours internal X509Certificate2. Needed to smoothly emulate .Net api and simplify java user code. Ideally we have to use java.security.cert.X509Certificate instead this but we still didn't manage to get private key from java X509Certificate - may be fix later.
 ## Constructors
 
 | Constructor | Description |
@@ -23,7 +26,7 @@ public class X509Certificate2Wrapper
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getClass()](#getClass) |  |
-| [getJavaCertificateInfo()](#getJavaCertificateInfo) |  |
+| [getJavaCertificateInfo()](#getJavaCertificateInfo) | Java certificate is used to get generic certificate info: notBefore, notAfter, etc. |
 | [hashCode()](#hashCode) |  |
 | [notify()](#notify) |  |
 | [notifyAll()](#notifyAll) |  |
@@ -76,7 +79,7 @@ public X509Certificate getJavaCertificateInfo()
 ```
 
 
-
+Java certificate is used to get generic certificate info: notBefore, notAfter, etc.
 
 **Returns:**
 java.security.cert.X509Certificate

@@ -1,9 +1,10 @@
 ---
 title: MailMergeDataType
+linktitle: MailMergeDataType
 second_title: Aspose.Words for Java API Reference
-description: Specifies the type of an external mail merge data source.
+description: Specifies the type of an external mail merge data source in Java.
 type: docs
-weight: 384
+weight: 385
 url: /java/com.aspose.words/mailmergedatatype/
 ---
 
@@ -19,7 +20,7 @@ Specifies the type of an external mail merge data source.
 | Field | Description |
 | --- | --- |
 | [DATABASE](#DATABASE) | Specifies that a given document has been connected to an Access database via the Dynamic Data Exchange (DDE) system. |
-| [DEFAULT](#DEFAULT) | Equals to [NONE](../../com.aspose.words/mailmergedatatype\#NONE). |
+| [DEFAULT](#DEFAULT) | Equals to [NONE](../../com.aspose.words/mailmergedatatype/\#NONE). |
 | [NATIVE](#NATIVE) | Specifies that a given document has been connected to an external data source via the Office Data Source Object (ODSO) interface. |
 | [NONE](#NONE) | No mail merge data source is specified. |
 | [ODBC](#ODBC) | Specifies that a given document has been connected to an external data source via the Open Database Connectivity interface. |
@@ -58,7 +59,7 @@ public static int DEFAULT
 ```
 
 
-Equals to [NONE](../../com.aspose.words/mailmergedatatype\#NONE).
+Equals to [NONE](../../com.aspose.words/mailmergedatatype/\#NONE).
 
 ### NATIVE {#NATIVE}
 ```

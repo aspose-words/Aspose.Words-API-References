@@ -1,9 +1,10 @@
 ---
 title: TextFormFieldType
+linktitle: TextFormFieldType
 second_title: Aspose.Words for Java API Reference
-description: Specifies the type of a text form field.
+description: Specifies the type of a text form field in Java.
 type: docs
-weight: 569
+weight: 571
 url: /java/com.aspose.words/textformfieldtype/
 ---
 
@@ -18,7 +19,7 @@ Specifies the type of a text form field.
 
 | Field | Description |
 | --- | --- |
-| [CALCULATED](#CALCULATED) | The text form field value is calculated from the expression specified in the [FormField.getTextInputDefault()](../../com.aspose.words/formfield\#getTextInputDefault) / [FormField.setTextInputDefault(java.lang.String)](../../com.aspose.words/formfield\#setTextInputDefault-java.lang.String) property. |
+| [CALCULATED](#CALCULATED) | The text form field value is calculated from the expression specified in the [FormField.getTextInputDefault()](../../com.aspose.words/formfield/\#getTextInputDefault) / [FormField.setTextInputDefault(java.lang.String)](../../com.aspose.words/formfield/\#setTextInputDefault-java.lang.String) property. |
 | [CURRENT_DATE](#CURRENT-DATE) | The text form field value is the current date when the field is updated. |
 | [CURRENT_TIME](#CURRENT-TIME) | The text form field value is the current time when the field is updated. |
 | [DATE](#DATE) | The text form field can contain only a valid date value. |
@@ -48,7 +49,7 @@ public static int CALCULATED
 ```
 
 
-The text form field value is calculated from the expression specified in the [FormField.getTextInputDefault()](../../com.aspose.words/formfield\#getTextInputDefault) / [FormField.setTextInputDefault(java.lang.String)](../../com.aspose.words/formfield\#setTextInputDefault-java.lang.String) property.
+The text form field value is calculated from the expression specified in the [FormField.getTextInputDefault()](../../com.aspose.words/formfield/\#getTextInputDefault) / [FormField.setTextInputDefault(java.lang.String)](../../com.aspose.words/formfield/\#setTextInputDefault-java.lang.String) property.
 
 ### CURRENT_DATE {#CURRENT-DATE}
 ```

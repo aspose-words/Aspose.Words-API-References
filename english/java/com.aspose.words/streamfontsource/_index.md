@@ -1,14 +1,15 @@
 ---
 title: StreamFontSource
+linktitle: StreamFontSource
 second_title: Aspose.Words for Java API Reference
-description: Base class for user-defined stream font source.
+description: Base class for user-defined stream font source in Java.
 type: docs
-weight: 534
+weight: 536
 url: /java/com.aspose.words/streamfontsource/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.words.FontSourceBase](../../com.aspose.words/fontsourcebase)
+java.lang.Object, [com.aspose.words.FontSourceBase](../../com.aspose.words/fontsourcebase/)
 ```
 public abstract class StreamFontSource extends FontSourceBase
 ```
@@ -17,11 +18,11 @@ Base class for user-defined stream font source.
 
 To learn more, visit the [ Working with Fonts ][Working with Fonts] documentation article.
 
-In order to use the stream font source you should create a derived class from the [StreamFontSource](../../com.aspose.words/streamfontsource) and provide implementation of the [openFontDataStream()](../../com.aspose.words/streamfontsource\#openFontDataStream) method.
+In order to use the stream font source you should create a derived class from the [StreamFontSource](../../com.aspose.words/streamfontsource/) and provide implementation of the [openFontDataStream()](../../com.aspose.words/streamfontsource/\#openFontDataStream) method.
 
-[openFontDataStream()](../../com.aspose.words/streamfontsource\#openFontDataStream) method could be called several times. For the first time it will be called when Aspose.Words scans the provided font sources to get the list of available fonts. Later it may be called if the font is used in the document to parse the font data and to embed the font data to some output formats.
+[openFontDataStream()](../../com.aspose.words/streamfontsource/\#openFontDataStream) method could be called several times. For the first time it will be called when Aspose.Words scans the provided font sources to get the list of available fonts. Later it may be called if the font is used in the document to parse the font data and to embed the font data to some output formats.
 
-[StreamFontSource](../../com.aspose.words/streamfontsource) may be useful because it allows to load the font data only when it is required and not to store it in the memory for the [FontSettings](../../com.aspose.words/fontsettings) lifetime.
+[StreamFontSource](../../com.aspose.words/streamfontsource/) may be useful because it allows to load the font data only when it is required and not to store it in the memory for the [FontSettings](../../com.aspose.words/fontsettings/) lifetime.
 
 
 [Working with Fonts]: https://docs.aspose.com/words/java/working-with-fonts/
@@ -168,7 +169,7 @@ public int getType()
 Returns the type of the font source.
 
 **Returns:**
-int - The type of the font source. The returned value is one of [FontSourceType](../../com.aspose.words/fontsourcetype) constants.
+int - The type of the font source. The returned value is one of [FontSourceType](../../com.aspose.words/fontsourcetype/) constants.
 ### getWarningCallback() {#getWarningCallback}
 ```
 public IWarningCallback getWarningCallback()
@@ -178,7 +179,7 @@ public IWarningCallback getWarningCallback()
 Called during processing of font source when an issue is detected that might result in formatting fidelity loss.
 
 **Returns:**
-[IWarningCallback](../../com.aspose.words/iwarningcallback) - The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback) value.
+[IWarningCallback](../../com.aspose.words/iwarningcallback/) - The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback/) value.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()
@@ -226,7 +227,7 @@ Called during processing of font source when an issue is detected that might res
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IWarningCallback](../../com.aspose.words/iwarningcallback) | The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback) value. |
+| value | [IWarningCallback](../../com.aspose.words/iwarningcallback/) | The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback/) value. |
 
 ### toString() {#toString}
 ```

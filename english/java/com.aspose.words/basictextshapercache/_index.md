@@ -1,7 +1,8 @@
 ---
 title: BasicTextShaperCache
+linktitle: BasicTextShaperCache
 second_title: Aspose.Words for Java API Reference
-description: 
+description: Implements basic cache for  instances in Java.
 type: docs
 weight: 28
 url: /java/com.aspose.words/basictextshapercache/
@@ -11,15 +12,17 @@ url: /java/com.aspose.words/basictextshapercache/
 java.lang.Object
 
 **All Implemented Interfaces:**
-[com.aspose.words.ITextShaperFactory](../../com.aspose.words/itextshaperfactory)
+[com.aspose.words.ITextShaperFactory](../../com.aspose.words/itextshaperfactory/)
 ```
 public class BasicTextShaperCache implements ITextShaperFactory
 ```
+
+Implements basic cache for [ITextShaper](../../com.aspose.words/itextshaper/) instances. This class is thread-safe.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [BasicTextShaperCache(ITextShaperFactory factory)](#BasicTextShaperCache-com.aspose.words.ITextShaperFactory) | Initializes a new instance of this class. |
+| [BasicTextShaperCache(ITextShaperFactory factory)](#BasicTextShaperCache-com.aspose.words.ITextShaperFactory) | Wraps  factory  and caches [ITextShaperFactory.getTextShaper(java.lang.String, int)](../../com.aspose.words/itextshaperfactory/\#getTextShaper-java.lang.String--int) results. |
 ## Methods
 
 | Method | Description |
@@ -42,12 +45,12 @@ public BasicTextShaperCache(ITextShaperFactory factory)
 ```
 
 
-Initializes a new instance of this class.
+Wraps  factory  and caches [ITextShaperFactory.getTextShaper(java.lang.String, int)](../../com.aspose.words/itextshaperfactory/\#getTextShaper-java.lang.String--int) results.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| factory | [ITextShaperFactory](../../com.aspose.words/itextshaperfactory) |  |
+| factory | [ITextShaperFactory](../../com.aspose.words/itextshaperfactory/) |  |
 
 ### dispose() {#dispose}
 ```
@@ -88,7 +91,7 @@ public ITextShaper getTextShaper(String fontId, byte[] fontBlob, int faceIndex)
 ```
 
 
-
+Returns new instance of a text shaper for the font represented by  fontBlob  and  faceIndex .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -98,14 +101,14 @@ public ITextShaper getTextShaper(String fontId, byte[] fontBlob, int faceIndex)
 | faceIndex | int |  |
 
 **Returns:**
-[ITextShaper](../../com.aspose.words/itextshaper)
+[ITextShaper](../../com.aspose.words/itextshaper/)
 ### getTextShaper(String fontPath, int faceIndex) {#getTextShaper-java.lang.String-int}
 ```
 public ITextShaper getTextShaper(String fontPath, int faceIndex)
 ```
 
 
-
+Returns new instance of a text shaper for the font specified by  fontPath  and  faceIndex .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -114,7 +117,7 @@ public ITextShaper getTextShaper(String fontPath, int faceIndex)
 | faceIndex | int |  |
 
 **Returns:**
-[ITextShaper](../../com.aspose.words/itextshaper)
+[ITextShaper](../../com.aspose.words/itextshaper/)
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()

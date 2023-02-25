@@ -1,14 +1,15 @@
 ---
 title: FieldTC
+linktitle: FieldTC
 second_title: Aspose.Words for Java API Reference
-description: Implements the TC field.
+description: Implements the TC field in Java.
 type: docs
 weight: 251
 url: /java/com.aspose.words/fieldtc/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.words.Field](../../com.aspose.words/field)
+java.lang.Object, [com.aspose.words.Field](../../com.aspose.words/field/)
 ```
 public class FieldTC extends Field
 ```
@@ -33,7 +34,7 @@ Defines the text and page number for a table of contents (including a table of f
 | [getEntryLevel()](#getEntryLevel) | Gets the level of the entry. |
 | [getFieldCode()](#getFieldCode) | Returns text between field start and field separator (or field end if there is no separator). |
 | [getFieldCode(boolean includeChildFieldCodes)](#getFieldCode-boolean) | Returns text between field start and field separator (or field end if there is no separator). |
-| [getFormat()](#getFormat) | Gets a [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting. |
+| [getFormat()](#getFormat) | Gets a [FieldFormat](../../com.aspose.words/fieldformat/) object that provides typed access to field's formatting. |
 | [getLevel()](#getLevel) |  |
 | [getLocaleId()](#getLocaleId) | Gets the LCID of the field. |
 | [getOmitPageNumber()](#getOmitPageNumber) | Gets whether page number in TOC should be omitted for this field. |
@@ -101,7 +102,7 @@ public String getDisplayResult()
 ```
 
 
-Gets the text that represents the displayed field result. The [Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels) method must be called to obtain correct value for the [FieldListNum](../../com.aspose.words/fieldlistnum), [FieldAutoNum](../../com.aspose.words/fieldautonum), [FieldAutoNumOut](../../com.aspose.words/fieldautonumout) and [FieldAutoNumLgl](../../com.aspose.words/fieldautonumlgl) fields.
+Gets the text that represents the displayed field result. The [Document.updateListLabels()](../../com.aspose.words/document/\#updateListLabels) method must be called to obtain correct value for the [FieldListNum](../../com.aspose.words/fieldlistnum/), [FieldAutoNum](../../com.aspose.words/fieldautonum/), [FieldAutoNumOut](../../com.aspose.words/fieldautonumout/) and [FieldAutoNumLgl](../../com.aspose.words/fieldautonumlgl/) fields.
 
 **Returns:**
 java.lang.String - The text that represents the displayed field result.
@@ -124,7 +125,7 @@ public FieldEnd getEnd()
 Gets the node that represents the field end.
 
 **Returns:**
-[FieldEnd](../../com.aspose.words/fieldend) - The node that represents the field end.
+[FieldEnd](../../com.aspose.words/fieldend/) - The node that represents the field end.
 ### getEntryLevel() {#getEntryLevel}
 ```
 public String getEntryLevel()
@@ -166,10 +167,10 @@ public FieldFormat getFormat()
 ```
 
 
-Gets a [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting.
+Gets a [FieldFormat](../../com.aspose.words/fieldformat/) object that provides typed access to field's formatting.
 
 **Returns:**
-[FieldFormat](../../com.aspose.words/fieldformat) - A [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting.
+[FieldFormat](../../com.aspose.words/fieldformat/) - A [FieldFormat](../../com.aspose.words/fieldformat/) object that provides typed access to field's formatting.
 ### getLevel() {#getLevel}
 ```
 public int getLevel()
@@ -219,7 +220,7 @@ public Paragraph getParagraph()
 
 
 **Returns:**
-[Paragraph](../../com.aspose.words/paragraph)
+[Paragraph](../../com.aspose.words/paragraph/)
 ### getResult() {#getResult}
 ```
 public String getResult()
@@ -239,7 +240,7 @@ public FieldSeparator getSeparator()
 Gets the node that represents the field separator. Can be  null .
 
 **Returns:**
-[FieldSeparator](../../com.aspose.words/fieldseparator) - The node that represents the field separator.
+[FieldSeparator](../../com.aspose.words/fieldseparator/) - The node that represents the field separator.
 ### getSequenceValue(String sequenceIdentifier) {#getSequenceValue-java.lang.String}
 ```
 public int getSequenceValue(String sequenceIdentifier)
@@ -264,7 +265,7 @@ public FieldStart getStart()
 Gets the node that represents the start of the field.
 
 **Returns:**
-[FieldStart](../../com.aspose.words/fieldstart) - The node that represents the start of the field.
+[FieldStart](../../com.aspose.words/fieldstart/) - The node that represents the start of the field.
 ### getSwitchType(String switchName) {#getSwitchType-java.lang.String}
 ```
 public int getSwitchType(String switchName)
@@ -299,7 +300,7 @@ public int getType()
 Gets the Microsoft Word field type.
 
 **Returns:**
-int - The Microsoft Word field type. The returned value is one of [FieldType](../../com.aspose.words/fieldtype) constants.
+int - The Microsoft Word field type. The returned value is one of [FieldType](../../com.aspose.words/fieldtype/) constants.
 ### getTypeIdentifier() {#getTypeIdentifier}
 ```
 public String getTypeIdentifier()
@@ -411,7 +412,7 @@ public Node remove()
 Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns  null .
 
 **Returns:**
-[Node](../../com.aspose.words/node)
+[Node](../../com.aspose.words/node/)
 ### setEntryLevel(String value) {#setEntryLevel-java.lang.String}
 ```
 public void setEntryLevel(String value)

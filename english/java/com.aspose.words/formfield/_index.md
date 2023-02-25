@@ -1,14 +1,15 @@
 ---
 title: FormField
+linktitle: FormField
 second_title: Aspose.Words for Java API Reference
-description: Represents a single form field.
+description: Represents a single form field in Java.
 type: docs
 weight: 298
 url: /java/com.aspose.words/formfield/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.words.Node](../../com.aspose.words/node), [com.aspose.words.Inline](../../com.aspose.words/inline), [com.aspose.words.SpecialChar](../../com.aspose.words/specialchar)
+java.lang.Object, [com.aspose.words.Node](../../com.aspose.words/node/), [com.aspose.words.Inline](../../com.aspose.words/inline/), [com.aspose.words.SpecialChar](../../com.aspose.words/specialchar/)
 ```
 public class FormField extends SpecialChar
 ```
@@ -19,11 +20,11 @@ To learn more, visit the [ Working with Form Fields ][Working with Form Fields] 
 
 Microsoft Word provides the following form fields: checkbox, text input and dropdown (combobox).
 
-[FormField](../../com.aspose.words/formfield) is an inline-node and can only be a child of [Paragraph](../../com.aspose.words/paragraph).
+[FormField](../../com.aspose.words/formfield/) is an inline-node and can only be a child of [Paragraph](../../com.aspose.words/paragraph/).
 
-[FormField](../../com.aspose.words/formfield) is represented in a document by a special character and positioned as a character within a line of text.
+[FormField](../../com.aspose.words/formfield/) is represented in a document by a special character and positioned as a character within a line of text.
 
-A complete form field in a Word document is a complex structure represented by several nodes: field start, field code such as FORMTEXT, form field data, field separator, field result, field end and a bookmark. To programmatically create form fields in a Word document use [DocumentBuilder.insertCheckBox(java.lang.String, boolean, int)](../../com.aspose.words/documentbuilder\#insertCheckBox-java.lang.String--boolean--int), **M:Aspose.Words.DocumentBuilder.InsertTextInput(System.String,Aspose.Words.Fields.TextFormFieldType,System.String,System.String,System.Int32)** and [DocumentBuilder.insertComboBox(java.lang.String, java.lang.String[], int)](../../com.aspose.words/documentbuilder\#insertComboBox-java.lang.String--java.lang.String----int) which make sure all of the form field nodes are created in a correct order and in a suitable state.
+A complete form field in a Word document is a complex structure represented by several nodes: field start, field code such as FORMTEXT, form field data, field separator, field result, field end and a bookmark. To programmatically create form fields in a Word document use [DocumentBuilder.insertCheckBox(java.lang.String, boolean, int)](../../com.aspose.words/documentbuilder/\#insertCheckBox-java.lang.String--boolean--int), **M:Aspose.Words.DocumentBuilder.InsertTextInput(System.String,Aspose.Words.Fields.TextFormFieldType,System.String,System.String,System.Int32)** and [DocumentBuilder.insertComboBox(java.lang.String, java.lang.String[], int)](../../com.aspose.words/documentbuilder/\#insertComboBox-java.lang.String--java.lang.String----int) which make sure all of the form field nodes are created in a correct order and in a suitable state.
 
 
 [Working with Form Fields]: https://docs.aspose.com/words/java/working-with-form-fields/
@@ -59,14 +60,14 @@ A complete form field in a Word document is a complex structure represented by s
 | [getMaxLength()](#getMaxLength) | Maximum length for the text field. |
 | [getName()](#getName) | Gets the form field name. |
 | [getNextSibling()](#getNextSibling) | Gets the node immediately following this node. |
-| [getNodeType()](#getNodeType) | Returns [NodeType.FORM\_FIELD](../../com.aspose.words/nodetype\#FORM-FIELD). |
+| [getNodeType()](#getNodeType) | Returns [NodeType.FORM\_FIELD](../../com.aspose.words/nodetype/\#FORM-FIELD). |
 | [getOwnHelp()](#getOwnHelp) | Specifies the source of the text that's displayed in a message box when a form field has the focus and the user presses F1. |
 | [getOwnStatus()](#getOwnStatus) | Specifies the source of the text that's displayed in the status bar when a form field has the focus. |
 | [getParentNode()](#getParentNode) | Gets the immediate parent of this node. |
-| [getParentParagraph()](#getParentParagraph) | Retrieves the parent [Paragraph](../../com.aspose.words/paragraph) of this node. |
+| [getParentParagraph()](#getParentParagraph) | Retrieves the parent [Paragraph](../../com.aspose.words/paragraph/) of this node. |
 | [getParentParagraph_IInline()](#getParentParagraph-IInline) |  |
 | [getPreviousSibling()](#getPreviousSibling) | Gets the node immediately preceding this node. |
-| [getRange()](#getRange) | Returns a [Range](../../com.aspose.words/range) object that represents the portion of a document that is contained in this node. |
+| [getRange()](#getRange) | Returns a [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node. |
 | [getResult()](#getResult) | Gets a string that represents the result of this form field. |
 | [getStatusText()](#getStatusText) | Gets the text that's displayed in the status bar when a form field has the focus. |
 | [getText()](#getText) | Gets the special character that this node represents. |
@@ -112,7 +113,7 @@ A complete form field in a Word document is a complex structure represented by s
 | [setTextInputDefault(String value)](#setTextInputDefault-java.lang.String) | Sets the default string or a calculation expression of a text form field. |
 | [setTextInputFormat(String value)](#setTextInputFormat-java.lang.String) | Sets the text formatting for a text form field. |
 | [setTextInputType(int value)](#setTextInputType-int) | Sets the type of a text form field. |
-| [setTextInputValue(Object newValue)](#setTextInputValue-java.lang.Object) | Applies the text format specified in [getTextInputFormat()](../../com.aspose.words/formfield\#getTextInputFormat) / [setTextInputFormat(java.lang.String)](../../com.aspose.words/formfield\#setTextInputFormat-java.lang.String) and stores the value in [getResult()](../../com.aspose.words/formfield\#getResult) / [setResult(java.lang.String)](../../com.aspose.words/formfield\#setResult-java.lang.String). |
+| [setTextInputValue(Object newValue)](#setTextInputValue-java.lang.Object) | Applies the text format specified in [getTextInputFormat()](../../com.aspose.words/formfield/\#getTextInputFormat) / [setTextInputFormat(java.lang.String)](../../com.aspose.words/formfield/\#setTextInputFormat-java.lang.String) and stores the value in [getResult()](../../com.aspose.words/formfield/\#getResult) / [setResult(java.lang.String)](../../com.aspose.words/formfield/\#setResult-java.lang.String). |
 | [toString()](#toString) |  |
 | [toString(SaveOptions saveOptions)](#toString-com.aspose.words.SaveOptions) | Exports the content of the node into a string using the specified save options. |
 | [toString(int saveFormat)](#toString-int) |  |
@@ -127,14 +128,14 @@ public boolean accept(DocumentVisitor visitor)
 
 Accepts a visitor.
 
-Calls [DocumentVisitor.visitFormField(com.aspose.words.FormField)](../../com.aspose.words/documentvisitor\#visitFormField-com.aspose.words.FormField).
+Calls [DocumentVisitor.visitFormField(com.aspose.words.FormField)](../../com.aspose.words/documentvisitor/\#visitFormField-com.aspose.words.FormField).
 
 For more info see the Visitor design pattern.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor) | The visitor that will visit the node. |
+| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor/) | The visitor that will visit the node. |
 
 **Returns:**
 boolean - \{ false  if the visitor requested the enumeration to stop.
@@ -172,7 +173,7 @@ This method always performs a deep copy of the node. The  isCloneChildren  param
 | isCloneChildren | boolean | True to recursively clone the subtree under the specified node; false to clone only the node itself. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The cloned node.
+[Node](../../com.aspose.words/node/) - The cloned node.
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
@@ -217,7 +218,7 @@ public CompositeNode getAncestor(int ancestorType)
 | ancestorType | int |  |
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode)
+[CompositeNode](../../com.aspose.words/compositenode/)
 ### getAncestor(Class ancestorType) {#getAncestor-java.lang.Class}
 ```
 public CompositeNode getAncestor(Class ancestorType)
@@ -232,7 +233,7 @@ Gets the first ancestor of the specified object type.
 | ancestorType | java.lang.Class | The object type of the ancestor to retrieve. |
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode) - The ancestor of the specified type or  null  if no ancestor of this type was found.
+[CompositeNode](../../com.aspose.words/compositenode/) - The ancestor of the specified type or  null  if no ancestor of this type was found.
 
 The ancestor type matches if it is equal to  ancestorType  or derived from  ancestorType .
 ### getCalculateOnExit() {#getCalculateOnExit}
@@ -243,7 +244,7 @@ public boolean getCalculateOnExit()
 
 True if references to the specified form field are automatically updated whenever the field is exited.
 
-Setting [getCalculateOnExit()](../../com.aspose.words/formfield\#getCalculateOnExit) / [setCalculateOnExit(boolean)](../../com.aspose.words/formfield\#setCalculateOnExit-boolean) only affects the behavior of the form field when the document is opened in Microsoft Word. Aspose.Words never updates references to the form field.
+Setting [getCalculateOnExit()](../../com.aspose.words/formfield/\#getCalculateOnExit) / [setCalculateOnExit(boolean)](../../com.aspose.words/formfield/\#setCalculateOnExit-boolean) only affects the behavior of the form field when the document is opened in Microsoft Word. Aspose.Words never updates references to the form field.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -253,7 +254,7 @@ public double getCheckBoxSize()
 ```
 
 
-Gets the size of the checkbox in points. Has effect only when [isCheckBoxExactSize()](../../com.aspose.words/formfield\#isCheckBoxExactSize) / [isCheckBoxExactSize(boolean)](../../com.aspose.words/formfield\#isCheckBoxExactSize-boolean) is  true .
+Gets the size of the checkbox in points. Has effect only when [isCheckBoxExactSize()](../../com.aspose.words/formfield/\#isCheckBoxExactSize) / [isCheckBoxExactSize(boolean)](../../com.aspose.words/formfield/\#isCheckBoxExactSize-boolean) is  true .
 
 Applicable for a check box form field only.
 
@@ -351,7 +352,7 @@ Gets the document to which this node belongs.
 The node always belongs to a document even if it has just been created and not yet added to the tree, or if it has been removed from the tree.
 
 **Returns:**
-[DocumentBase](../../com.aspose.words/documentbase) - The document to which this node belongs.
+[DocumentBase](../../com.aspose.words/documentbase/) - The document to which this node belongs.
 ### getDocument_IInline() {#getDocument-IInline}
 ```
 public DocumentBase getDocument_IInline()
@@ -361,7 +362,7 @@ public DocumentBase getDocument_IInline()
 
 
 **Returns:**
-[DocumentBase](../../com.aspose.words/documentbase)
+[DocumentBase](../../com.aspose.words/documentbase/)
 ### getDropDownItems() {#getDropDownItems}
 ```
 public DropDownItemCollection getDropDownItems()
@@ -373,7 +374,7 @@ Provides access to the items of a dropdown form field.
 Microsoft Word allows maximum 25 items in a dropdown form field.
 
 **Returns:**
-[DropDownItemCollection](../../com.aspose.words/dropdownitemcollection) - The corresponding [DropDownItemCollection](../../com.aspose.words/dropdownitemcollection) value.
+[DropDownItemCollection](../../com.aspose.words/dropdownitemcollection/) - The corresponding [DropDownItemCollection](../../com.aspose.words/dropdownitemcollection/) value.
 ### getDropDownSelectedIndex() {#getDropDownSelectedIndex}
 ```
 public int getDropDownSelectedIndex()
@@ -433,7 +434,7 @@ public Font getFont()
 Provides access to the font formatting of this object.
 
 **Returns:**
-[Font](../../com.aspose.words/font) - The corresponding [Font](../../com.aspose.words/font) value.
+[Font](../../com.aspose.words/font/) - The corresponding [Font](../../com.aspose.words/font/) value.
 ### getHelpText() {#getHelpText}
 ```
 public String getHelpText()
@@ -442,7 +443,7 @@ public String getHelpText()
 
 Gets the text that's displayed in a message box when the form field has the focus and the user presses F1.
 
-If the [getOwnHelp()](../../com.aspose.words/formfield\#getOwnHelp) / [setOwnHelp(boolean)](../../com.aspose.words/formfield\#setOwnHelp-boolean) property is set to  true , [getHelpText()](../../com.aspose.words/formfield\#getHelpText) / [setHelpText(java.lang.String)](../../com.aspose.words/formfield\#setHelpText-java.lang.String) specifies the text string value. If [getOwnHelp()](../../com.aspose.words/formfield\#getOwnHelp) / [setOwnHelp(boolean)](../../com.aspose.words/formfield\#setOwnHelp-boolean) is set to  false , [getHelpText()](../../com.aspose.words/formfield\#getHelpText) / [setHelpText(java.lang.String)](../../com.aspose.words/formfield\#setHelpText-java.lang.String) specifies the name of an AutoText entry that contains help text for the form field.
+If the [getOwnHelp()](../../com.aspose.words/formfield/\#getOwnHelp) / [setOwnHelp(boolean)](../../com.aspose.words/formfield/\#setOwnHelp-boolean) property is set to  true , [getHelpText()](../../com.aspose.words/formfield/\#getHelpText) / [setHelpText(java.lang.String)](../../com.aspose.words/formfield/\#setHelpText-java.lang.String) specifies the text string value. If [getOwnHelp()](../../com.aspose.words/formfield/\#getOwnHelp) / [setOwnHelp(boolean)](../../com.aspose.words/formfield/\#setOwnHelp-boolean) is set to  false , [getHelpText()](../../com.aspose.words/formfield/\#getHelpText) / [setHelpText(java.lang.String)](../../com.aspose.words/formfield/\#setHelpText-java.lang.String) specifies the name of an AutoText entry that contains help text for the form field.
 
 Microsoft Word allows strings with at most 255 characters.
 
@@ -477,17 +478,17 @@ public Node getNextSibling()
 Gets the node immediately following this node. If there is no next node, a  null  is returned.
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The node immediately following this node.
+[Node](../../com.aspose.words/node/) - The node immediately following this node.
 ### getNodeType() {#getNodeType}
 ```
 public int getNodeType()
 ```
 
 
-Returns [NodeType.FORM\_FIELD](../../com.aspose.words/nodetype\#FORM-FIELD).
+Returns [NodeType.FORM\_FIELD](../../com.aspose.words/nodetype/\#FORM-FIELD).
 
 **Returns:**
-int - \{[NodeType.FORM\_FIELD](../../com.aspose.words/nodetype\#FORM-FIELD). The returned value is one of [NodeType](../../com.aspose.words/nodetype) constants.
+int - \{[NodeType.FORM\_FIELD](../../com.aspose.words/nodetype/\#FORM-FIELD). The returned value is one of [NodeType](../../com.aspose.words/nodetype/) constants.
 ### getOwnHelp() {#getOwnHelp}
 ```
 public boolean getOwnHelp()
@@ -496,7 +497,7 @@ public boolean getOwnHelp()
 
 Specifies the source of the text that's displayed in a message box when a form field has the focus and the user presses F1.
 
-If  true , the text specified by the [getHelpText()](../../com.aspose.words/formfield\#getHelpText) / [setHelpText(java.lang.String)](../../com.aspose.words/formfield\#setHelpText-java.lang.String) property is displayed. If  false , the text in the AutoText entry specified by the [getHelpText()](../../com.aspose.words/formfield\#getHelpText) / [setHelpText(java.lang.String)](../../com.aspose.words/formfield\#setHelpText-java.lang.String) property is displayed.
+If  true , the text specified by the [getHelpText()](../../com.aspose.words/formfield/\#getHelpText) / [setHelpText(java.lang.String)](../../com.aspose.words/formfield/\#setHelpText-java.lang.String) property is displayed. If  false , the text in the AutoText entry specified by the [getHelpText()](../../com.aspose.words/formfield/\#getHelpText) / [setHelpText(java.lang.String)](../../com.aspose.words/formfield/\#setHelpText-java.lang.String) property is displayed.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -508,7 +509,7 @@ public boolean getOwnStatus()
 
 Specifies the source of the text that's displayed in the status bar when a form field has the focus.
 
-If  true , the text specified by the [getStatusText()](../../com.aspose.words/formfield\#getStatusText) / [setStatusText(java.lang.String)](../../com.aspose.words/formfield\#setStatusText-java.lang.String) property is displayed. If  false , the text of the AutoText entry specified by the [getStatusText()](../../com.aspose.words/formfield\#getStatusText) / [setStatusText(java.lang.String)](../../com.aspose.words/formfield\#setStatusText-java.lang.String) property is displayed.
+If  true , the text specified by the [getStatusText()](../../com.aspose.words/formfield/\#getStatusText) / [setStatusText(java.lang.String)](../../com.aspose.words/formfield/\#setStatusText-java.lang.String) property is displayed. If  false , the text of the AutoText entry specified by the [getStatusText()](../../com.aspose.words/formfield/\#getStatusText) / [setStatusText(java.lang.String)](../../com.aspose.words/formfield/\#setStatusText-java.lang.String) property is displayed.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -523,17 +524,17 @@ Gets the immediate parent of this node.
 If a node has just been created and not yet added to the tree, or if it has been removed from the tree, the parent is  null .
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode) - The immediate parent of this node.
+[CompositeNode](../../com.aspose.words/compositenode/) - The immediate parent of this node.
 ### getParentParagraph() {#getParentParagraph}
 ```
 public Paragraph getParentParagraph()
 ```
 
 
-Retrieves the parent [Paragraph](../../com.aspose.words/paragraph) of this node.
+Retrieves the parent [Paragraph](../../com.aspose.words/paragraph/) of this node.
 
 **Returns:**
-[Paragraph](../../com.aspose.words/paragraph) - The corresponding [Paragraph](../../com.aspose.words/paragraph) value.
+[Paragraph](../../com.aspose.words/paragraph/) - The corresponding [Paragraph](../../com.aspose.words/paragraph/) value.
 ### getParentParagraph_IInline() {#getParentParagraph-IInline}
 ```
 public Paragraph getParentParagraph_IInline()
@@ -543,7 +544,7 @@ public Paragraph getParentParagraph_IInline()
 
 
 **Returns:**
-[Paragraph](../../com.aspose.words/paragraph)
+[Paragraph](../../com.aspose.words/paragraph/)
 ### getPreviousSibling() {#getPreviousSibling}
 ```
 public Node getPreviousSibling()
@@ -553,17 +554,17 @@ public Node getPreviousSibling()
 Gets the node immediately preceding this node. If there is no preceding node, a  null  is returned.
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The node immediately preceding this node.
+[Node](../../com.aspose.words/node/) - The node immediately preceding this node.
 ### getRange() {#getRange}
 ```
 public Range getRange()
 ```
 
 
-Returns a [Range](../../com.aspose.words/range) object that represents the portion of a document that is contained in this node.
+Returns a [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node.
 
 **Returns:**
-[Range](../../com.aspose.words/range) - A [Range](../../com.aspose.words/range) object that represents the portion of a document that is contained in this node.
+[Range](../../com.aspose.words/range/) - A [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node.
 ### getResult() {#getResult}
 ```
 public String getResult()
@@ -578,9 +579,9 @@ For a checkbox form field the result can be "1" or "0" to indicate checked or un
 
 For a dropdown form field the result is the string selected in the dropdown.
 
-Setting [getResult()](../../com.aspose.words/formfield\#getResult) / [setResult(java.lang.String)](../../com.aspose.words/formfield\#setResult-java.lang.String) for a text form field does not apply the text format specified in [getTextInputFormat()](../../com.aspose.words/formfield\#getTextInputFormat) / [setTextInputFormat(java.lang.String)](../../com.aspose.words/formfield\#setTextInputFormat-java.lang.String). If you want to set a value and apply the format, use the [setTextInputValue(java.lang.Object)](../../com.aspose.words/formfield\#setTextInputValue-java.lang.Object) method.
+Setting [getResult()](../../com.aspose.words/formfield/\#getResult) / [setResult(java.lang.String)](../../com.aspose.words/formfield/\#setResult-java.lang.String) for a text form field does not apply the text format specified in [getTextInputFormat()](../../com.aspose.words/formfield/\#getTextInputFormat) / [setTextInputFormat(java.lang.String)](../../com.aspose.words/formfield/\#setTextInputFormat-java.lang.String). If you want to set a value and apply the format, use the [setTextInputValue(java.lang.Object)](../../com.aspose.words/formfield/\#setTextInputValue-java.lang.Object) method.
 
-For a text form field the [getTextInputDefault()](../../com.aspose.words/formfield\#getTextInputDefault) / [setTextInputDefault(java.lang.String)](../../com.aspose.words/formfield\#setTextInputDefault-java.lang.String) value is applied if  value  is  null .
+For a text form field the [getTextInputDefault()](../../com.aspose.words/formfield/\#getTextInputDefault) / [setTextInputDefault(java.lang.String)](../../com.aspose.words/formfield/\#setTextInputDefault-java.lang.String) value is applied if  value  is  null .
 
 **Returns:**
 java.lang.String - A string that represents the result of this form field.
@@ -592,7 +593,7 @@ public String getStatusText()
 
 Gets the text that's displayed in the status bar when a form field has the focus.
 
-If the [getOwnStatus()](../../com.aspose.words/formfield\#getOwnStatus) / [setOwnStatus(boolean)](../../com.aspose.words/formfield\#setOwnStatus-boolean) property is set to  true , the [getStatusText()](../../com.aspose.words/formfield\#getStatusText) / [setStatusText(java.lang.String)](../../com.aspose.words/formfield\#setStatusText-java.lang.String) property specifies the status bar text. If the [getOwnStatus()](../../com.aspose.words/formfield\#getOwnStatus) / [setOwnStatus(boolean)](../../com.aspose.words/formfield\#setOwnStatus-boolean) property is set to  false , the [getStatusText()](../../com.aspose.words/formfield\#getStatusText) / [setStatusText(java.lang.String)](../../com.aspose.words/formfield\#setStatusText-java.lang.String) property specifies the name of an AutoText entry that contains status bar text for the form field.
+If the [getOwnStatus()](../../com.aspose.words/formfield/\#getOwnStatus) / [setOwnStatus(boolean)](../../com.aspose.words/formfield/\#setOwnStatus-boolean) property is set to  true , the [getStatusText()](../../com.aspose.words/formfield/\#getStatusText) / [setStatusText(java.lang.String)](../../com.aspose.words/formfield/\#setStatusText-java.lang.String) property specifies the status bar text. If the [getOwnStatus()](../../com.aspose.words/formfield/\#getOwnStatus) / [setOwnStatus(boolean)](../../com.aspose.words/formfield/\#setOwnStatus-boolean) property is set to  false , the [getStatusText()](../../com.aspose.words/formfield/\#getStatusText) / [setStatusText(java.lang.String)](../../com.aspose.words/formfield/\#setStatusText-java.lang.String) property specifies the name of an AutoText entry that contains status bar text for the form field.
 
 Microsoft Word allows strings with at most 138 characters.
 
@@ -616,11 +617,11 @@ public String getTextInputDefault()
 
 Gets the default string or a calculation expression of a text form field.
 
-The meaning of this property depends on the value of the [getTextInputType()](../../com.aspose.words/formfield\#getTextInputType) / [setTextInputType(int)](../../com.aspose.words/formfield\#setTextInputType-int) property.
+The meaning of this property depends on the value of the [getTextInputType()](../../com.aspose.words/formfield/\#getTextInputType) / [setTextInputType(int)](../../com.aspose.words/formfield/\#setTextInputType-int) property.
 
-When [getTextInputType()](../../com.aspose.words/formfield\#getTextInputType) / [setTextInputType(int)](../../com.aspose.words/formfield\#setTextInputType-int) is [TextFormFieldType.REGULAR](../../com.aspose.words/textformfieldtype\#REGULAR) or [TextFormFieldType.NUMBER](../../com.aspose.words/textformfieldtype\#NUMBER), this string specifies the default string for the text form field. This string is the content that Microsoft Word will display in the document when the form field is empty.
+When [getTextInputType()](../../com.aspose.words/formfield/\#getTextInputType) / [setTextInputType(int)](../../com.aspose.words/formfield/\#setTextInputType-int) is [TextFormFieldType.REGULAR](../../com.aspose.words/textformfieldtype/\#REGULAR) or [TextFormFieldType.NUMBER](../../com.aspose.words/textformfieldtype/\#NUMBER), this string specifies the default string for the text form field. This string is the content that Microsoft Word will display in the document when the form field is empty.
 
-When [getTextInputType()](../../com.aspose.words/formfield\#getTextInputType) / [setTextInputType(int)](../../com.aspose.words/formfield\#setTextInputType-int) is [TextFormFieldType.CALCULATED](../../com.aspose.words/textformfieldtype\#CALCULATED), then this string holds the expression to be calculated. The expression needs to be a formula valid according to Microsoft Word formula field requirements. When you set a new expression using this property, Aspose.Words calculates the formula result automatically and inserts it into the form field.
+When [getTextInputType()](../../com.aspose.words/formfield/\#getTextInputType) / [setTextInputType(int)](../../com.aspose.words/formfield/\#setTextInputType-int) is [TextFormFieldType.CALCULATED](../../com.aspose.words/textformfieldtype/\#CALCULATED), then this string holds the expression to be calculated. The expression needs to be a formula valid according to Microsoft Word formula field requirements. When you set a new expression using this property, Aspose.Words calculates the formula result automatically and inserts it into the form field.
 
 Microsoft Word allows strings with at most 255 characters.
 
@@ -651,7 +652,7 @@ public int getTextInputType()
 Gets the type of a text form field.
 
 **Returns:**
-int - The type of a text form field. The returned value is one of [TextFormFieldType](../../com.aspose.words/textformfieldtype) constants.
+int - The type of a text form field. The returned value is one of [TextFormFieldType](../../com.aspose.words/textformfieldtype/) constants.
 ### getType() {#getType}
 ```
 public int getType()
@@ -661,7 +662,7 @@ public int getType()
 Returns the form field type.
 
 **Returns:**
-int - The form field type. The returned value is one of [FieldType](../../com.aspose.words/fieldtype) constants.
+int - The form field type. The returned value is one of [FieldType](../../com.aspose.words/fieldtype/) constants.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()
@@ -705,7 +706,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (31362,6)
+Returns  true  if this node can contain other nodes. (31405,6)
 
 **Returns:**
 boolean - \{ true  if this node can contain other nodes.
@@ -770,10 +771,10 @@ Gets next node according to the pre-order tree traversal algorithm.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node) | The top node (limit) of traversal. |
+| rootNode | [Node](../../com.aspose.words/node/) | The top node (limit) of traversal. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - Next node in pre-order order. Null if reached the  rootNode .
+[Node](../../com.aspose.words/node/) - Next node in pre-order order. Null if reached the  rootNode .
 ### nodeTypeToString(int nodeType) {#nodeTypeToString-int}
 ```
 public static String nodeTypeToString(int nodeType)
@@ -816,10 +817,10 @@ Gets the previous node according to the pre-order tree traversal algorithm.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node) | The top node (limit) of traversal. |
+| rootNode | [Node](../../com.aspose.words/node/) | The top node (limit) of traversal. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - Previous node in pre-order order. Null if reached the  rootNode .
+[Node](../../com.aspose.words/node/) - Previous node in pre-order order. Null if reached the  rootNode .
 ### remove() {#remove}
 ```
 public void remove()
@@ -865,7 +866,7 @@ public void setCalculateOnExit(boolean value)
 
 True if references to the specified form field are automatically updated whenever the field is exited.
 
-Setting [getCalculateOnExit()](../../com.aspose.words/formfield\#getCalculateOnExit) / [setCalculateOnExit(boolean)](../../com.aspose.words/formfield\#setCalculateOnExit-boolean) only affects the behavior of the form field when the document is opened in Microsoft Word. Aspose.Words never updates references to the form field.
+Setting [getCalculateOnExit()](../../com.aspose.words/formfield/\#getCalculateOnExit) / [setCalculateOnExit(boolean)](../../com.aspose.words/formfield/\#setCalculateOnExit-boolean) only affects the behavior of the form field when the document is opened in Microsoft Word. Aspose.Words never updates references to the form field.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -878,7 +879,7 @@ public void setCheckBoxSize(double value)
 ```
 
 
-Sets the size of the checkbox in points. Has effect only when [isCheckBoxExactSize()](../../com.aspose.words/formfield\#isCheckBoxExactSize) / [isCheckBoxExactSize(boolean)](../../com.aspose.words/formfield\#isCheckBoxExactSize-boolean) is  true .
+Sets the size of the checkbox in points. Has effect only when [isCheckBoxExactSize()](../../com.aspose.words/formfield/\#isCheckBoxExactSize) / [isCheckBoxExactSize(boolean)](../../com.aspose.words/formfield/\#isCheckBoxExactSize-boolean) is  true .
 
 Applicable for a check box form field only.
 
@@ -1006,7 +1007,7 @@ public void setHelpText(String value)
 
 Sets the text that's displayed in a message box when the form field has the focus and the user presses F1.
 
-If the [getOwnHelp()](../../com.aspose.words/formfield\#getOwnHelp) / [setOwnHelp(boolean)](../../com.aspose.words/formfield\#setOwnHelp-boolean) property is set to  true , [getHelpText()](../../com.aspose.words/formfield\#getHelpText) / [setHelpText(java.lang.String)](../../com.aspose.words/formfield\#setHelpText-java.lang.String) specifies the text string value. If [getOwnHelp()](../../com.aspose.words/formfield\#getOwnHelp) / [setOwnHelp(boolean)](../../com.aspose.words/formfield\#setOwnHelp-boolean) is set to  false , [getHelpText()](../../com.aspose.words/formfield\#getHelpText) / [setHelpText(java.lang.String)](../../com.aspose.words/formfield\#setHelpText-java.lang.String) specifies the name of an AutoText entry that contains help text for the form field.
+If the [getOwnHelp()](../../com.aspose.words/formfield/\#getOwnHelp) / [setOwnHelp(boolean)](../../com.aspose.words/formfield/\#setOwnHelp-boolean) property is set to  true , [getHelpText()](../../com.aspose.words/formfield/\#getHelpText) / [setHelpText(java.lang.String)](../../com.aspose.words/formfield/\#setHelpText-java.lang.String) specifies the text string value. If [getOwnHelp()](../../com.aspose.words/formfield/\#getOwnHelp) / [setOwnHelp(boolean)](../../com.aspose.words/formfield/\#setOwnHelp-boolean) is set to  false , [getHelpText()](../../com.aspose.words/formfield/\#getHelpText) / [setHelpText(java.lang.String)](../../com.aspose.words/formfield/\#setHelpText-java.lang.String) specifies the name of an AutoText entry that contains help text for the form field.
 
 Microsoft Word allows strings with at most 255 characters.
 
@@ -1049,7 +1050,7 @@ public void setOwnHelp(boolean value)
 
 Specifies the source of the text that's displayed in a message box when a form field has the focus and the user presses F1.
 
-If  true , the text specified by the [getHelpText()](../../com.aspose.words/formfield\#getHelpText) / [setHelpText(java.lang.String)](../../com.aspose.words/formfield\#setHelpText-java.lang.String) property is displayed. If  false , the text in the AutoText entry specified by the [getHelpText()](../../com.aspose.words/formfield\#getHelpText) / [setHelpText(java.lang.String)](../../com.aspose.words/formfield\#setHelpText-java.lang.String) property is displayed.
+If  true , the text specified by the [getHelpText()](../../com.aspose.words/formfield/\#getHelpText) / [setHelpText(java.lang.String)](../../com.aspose.words/formfield/\#setHelpText-java.lang.String) property is displayed. If  false , the text in the AutoText entry specified by the [getHelpText()](../../com.aspose.words/formfield/\#getHelpText) / [setHelpText(java.lang.String)](../../com.aspose.words/formfield/\#setHelpText-java.lang.String) property is displayed.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1064,7 +1065,7 @@ public void setOwnStatus(boolean value)
 
 Specifies the source of the text that's displayed in the status bar when a form field has the focus.
 
-If  true , the text specified by the [getStatusText()](../../com.aspose.words/formfield\#getStatusText) / [setStatusText(java.lang.String)](../../com.aspose.words/formfield\#setStatusText-java.lang.String) property is displayed. If  false , the text of the AutoText entry specified by the [getStatusText()](../../com.aspose.words/formfield\#getStatusText) / [setStatusText(java.lang.String)](../../com.aspose.words/formfield\#setStatusText-java.lang.String) property is displayed.
+If  true , the text specified by the [getStatusText()](../../com.aspose.words/formfield/\#getStatusText) / [setStatusText(java.lang.String)](../../com.aspose.words/formfield/\#setStatusText-java.lang.String) property is displayed. If  false , the text of the AutoText entry specified by the [getStatusText()](../../com.aspose.words/formfield/\#getStatusText) / [setStatusText(java.lang.String)](../../com.aspose.words/formfield/\#setStatusText-java.lang.String) property is displayed.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1085,9 +1086,9 @@ For a checkbox form field the result can be "1" or "0" to indicate checked or un
 
 For a dropdown form field the result is the string selected in the dropdown.
 
-Setting [getResult()](../../com.aspose.words/formfield\#getResult) / [setResult(java.lang.String)](../../com.aspose.words/formfield\#setResult-java.lang.String) for a text form field does not apply the text format specified in [getTextInputFormat()](../../com.aspose.words/formfield\#getTextInputFormat) / [setTextInputFormat(java.lang.String)](../../com.aspose.words/formfield\#setTextInputFormat-java.lang.String). If you want to set a value and apply the format, use the [setTextInputValue(java.lang.Object)](../../com.aspose.words/formfield\#setTextInputValue-java.lang.Object) method.
+Setting [getResult()](../../com.aspose.words/formfield/\#getResult) / [setResult(java.lang.String)](../../com.aspose.words/formfield/\#setResult-java.lang.String) for a text form field does not apply the text format specified in [getTextInputFormat()](../../com.aspose.words/formfield/\#getTextInputFormat) / [setTextInputFormat(java.lang.String)](../../com.aspose.words/formfield/\#setTextInputFormat-java.lang.String). If you want to set a value and apply the format, use the [setTextInputValue(java.lang.Object)](../../com.aspose.words/formfield/\#setTextInputValue-java.lang.Object) method.
 
-For a text form field the [getTextInputDefault()](../../com.aspose.words/formfield\#getTextInputDefault) / [setTextInputDefault(java.lang.String)](../../com.aspose.words/formfield\#setTextInputDefault-java.lang.String) value is applied if  value  is  null .
+For a text form field the [getTextInputDefault()](../../com.aspose.words/formfield/\#getTextInputDefault) / [setTextInputDefault(java.lang.String)](../../com.aspose.words/formfield/\#setTextInputDefault-java.lang.String) value is applied if  value  is  null .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1116,7 +1117,7 @@ public void setStatusText(String value)
 
 Sets the text that's displayed in the status bar when a form field has the focus.
 
-If the [getOwnStatus()](../../com.aspose.words/formfield\#getOwnStatus) / [setOwnStatus(boolean)](../../com.aspose.words/formfield\#setOwnStatus-boolean) property is set to  true , the [getStatusText()](../../com.aspose.words/formfield\#getStatusText) / [setStatusText(java.lang.String)](../../com.aspose.words/formfield\#setStatusText-java.lang.String) property specifies the status bar text. If the [getOwnStatus()](../../com.aspose.words/formfield\#getOwnStatus) / [setOwnStatus(boolean)](../../com.aspose.words/formfield\#setOwnStatus-boolean) property is set to  false , the [getStatusText()](../../com.aspose.words/formfield\#getStatusText) / [setStatusText(java.lang.String)](../../com.aspose.words/formfield\#setStatusText-java.lang.String) property specifies the name of an AutoText entry that contains status bar text for the form field.
+If the [getOwnStatus()](../../com.aspose.words/formfield/\#getOwnStatus) / [setOwnStatus(boolean)](../../com.aspose.words/formfield/\#setOwnStatus-boolean) property is set to  true , the [getStatusText()](../../com.aspose.words/formfield/\#getStatusText) / [setStatusText(java.lang.String)](../../com.aspose.words/formfield/\#setStatusText-java.lang.String) property specifies the status bar text. If the [getOwnStatus()](../../com.aspose.words/formfield/\#getOwnStatus) / [setOwnStatus(boolean)](../../com.aspose.words/formfield/\#setOwnStatus-boolean) property is set to  false , the [getStatusText()](../../com.aspose.words/formfield/\#getStatusText) / [setStatusText(java.lang.String)](../../com.aspose.words/formfield/\#setStatusText-java.lang.String) property specifies the name of an AutoText entry that contains status bar text for the form field.
 
 Microsoft Word allows strings with at most 138 characters.
 
@@ -1133,11 +1134,11 @@ public void setTextInputDefault(String value)
 
 Sets the default string or a calculation expression of a text form field.
 
-The meaning of this property depends on the value of the [getTextInputType()](../../com.aspose.words/formfield\#getTextInputType) / [setTextInputType(int)](../../com.aspose.words/formfield\#setTextInputType-int) property.
+The meaning of this property depends on the value of the [getTextInputType()](../../com.aspose.words/formfield/\#getTextInputType) / [setTextInputType(int)](../../com.aspose.words/formfield/\#setTextInputType-int) property.
 
-When [getTextInputType()](../../com.aspose.words/formfield\#getTextInputType) / [setTextInputType(int)](../../com.aspose.words/formfield\#setTextInputType-int) is [TextFormFieldType.REGULAR](../../com.aspose.words/textformfieldtype\#REGULAR) or [TextFormFieldType.NUMBER](../../com.aspose.words/textformfieldtype\#NUMBER), this string specifies the default string for the text form field. This string is the content that Microsoft Word will display in the document when the form field is empty.
+When [getTextInputType()](../../com.aspose.words/formfield/\#getTextInputType) / [setTextInputType(int)](../../com.aspose.words/formfield/\#setTextInputType-int) is [TextFormFieldType.REGULAR](../../com.aspose.words/textformfieldtype/\#REGULAR) or [TextFormFieldType.NUMBER](../../com.aspose.words/textformfieldtype/\#NUMBER), this string specifies the default string for the text form field. This string is the content that Microsoft Word will display in the document when the form field is empty.
 
-When [getTextInputType()](../../com.aspose.words/formfield\#getTextInputType) / [setTextInputType(int)](../../com.aspose.words/formfield\#setTextInputType-int) is [TextFormFieldType.CALCULATED](../../com.aspose.words/textformfieldtype\#CALCULATED), then this string holds the expression to be calculated. The expression needs to be a formula valid according to Microsoft Word formula field requirements. When you set a new expression using this property, Aspose.Words calculates the formula result automatically and inserts it into the form field.
+When [getTextInputType()](../../com.aspose.words/formfield/\#getTextInputType) / [setTextInputType(int)](../../com.aspose.words/formfield/\#setTextInputType-int) is [TextFormFieldType.CALCULATED](../../com.aspose.words/textformfieldtype/\#CALCULATED), then this string holds the expression to be calculated. The expression needs to be a formula valid according to Microsoft Word formula field requirements. When you set a new expression using this property, Aspose.Words calculates the formula result automatically and inserts it into the form field.
 
 Microsoft Word allows strings with at most 255 characters.
 
@@ -1176,7 +1177,7 @@ Sets the type of a text form field.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The type of a text form field. The value must be one of [TextFormFieldType](../../com.aspose.words/textformfieldtype) constants. |
+| value | int | The type of a text form field. The value must be one of [TextFormFieldType](../../com.aspose.words/textformfieldtype/) constants. |
 
 ### setTextInputValue(Object newValue) {#setTextInputValue-java.lang.Object}
 ```
@@ -1184,12 +1185,12 @@ public void setTextInputValue(Object newValue)
 ```
 
 
-Applies the text format specified in [getTextInputFormat()](../../com.aspose.words/formfield\#getTextInputFormat) / [setTextInputFormat(java.lang.String)](../../com.aspose.words/formfield\#setTextInputFormat-java.lang.String) and stores the value in [getResult()](../../com.aspose.words/formfield\#getResult) / [setResult(java.lang.String)](../../com.aspose.words/formfield\#setResult-java.lang.String).
+Applies the text format specified in [getTextInputFormat()](../../com.aspose.words/formfield/\#getTextInputFormat) / [setTextInputFormat(java.lang.String)](../../com.aspose.words/formfield/\#setTextInputFormat-java.lang.String) and stores the value in [getResult()](../../com.aspose.words/formfield/\#getResult) / [setResult(java.lang.String)](../../com.aspose.words/formfield/\#setResult-java.lang.String).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newValue | java.lang.Object | Can be a string, number or a **DateTime** object. The [getTextInputDefault()](../../com.aspose.words/formfield\#getTextInputDefault) / [setTextInputDefault(java.lang.String)](../../com.aspose.words/formfield\#setTextInputDefault-java.lang.String) value is applied if  newValue  is  null . |
+| newValue | java.lang.Object | Can be a string, number or a **DateTime** object. The [getTextInputDefault()](../../com.aspose.words/formfield/\#getTextInputDefault) / [setTextInputDefault(java.lang.String)](../../com.aspose.words/formfield/\#setTextInputDefault-java.lang.String) value is applied if  newValue  is  null . |
 
 ### toString() {#toString}
 ```
@@ -1212,7 +1213,7 @@ Exports the content of the node into a string using the specified save options.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions) | Specifies the options that control how the node is saved. |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) | Specifies the options that control how the node is saved. |
 
 **Returns:**
 java.lang.String - The content of the node in the specified format.

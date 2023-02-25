@@ -1,9 +1,10 @@
 ---
 title: MailMergeDestination
+linktitle: MailMergeDestination
 second_title: Aspose.Words for Java API Reference
-description: Specifies the possible results which may be generated when a mail merge is carried out on a document.
+description: Specifies the possible results which may be generated when a mail merge is carried out on a document in Java.
 type: docs
-weight: 385
+weight: 386
 url: /java/com.aspose.words/mailmergedestination/
 ---
 
@@ -18,7 +19,7 @@ Specifies the possible results which may be generated when a mail merge is carri
 
 | Field | Description |
 | --- | --- |
-| [DEFAULT](#DEFAULT) | Equals to the [NEW\_DOCUMENT](../../com.aspose.words/mailmergedestination\#NEW-DOCUMENT) value. |
+| [DEFAULT](#DEFAULT) | Equals to the [NEW\_DOCUMENT](../../com.aspose.words/mailmergedestination/\#NEW-DOCUMENT) value. |
 | [EMAIL](#EMAIL) | Specifies that conforming hosting applications shall generate emails using the documents that result from populating the fields within a given document with data from the specified external data source. |
 | [FAX](#FAX) | Specifies that conforming hosting applications shall generate faxes using the documents that result from populating the fields within a given document with data from the specified external data source. |
 | [NEW_DOCUMENT](#NEW-DOCUMENT) | Specifies that conforming hosting applications shall generate new documents by populating the fields within a given document with data from the specified external data source. |
@@ -47,7 +48,7 @@ public static int DEFAULT
 ```
 
 
-Equals to the [NEW\_DOCUMENT](../../com.aspose.words/mailmergedestination\#NEW-DOCUMENT) value.
+Equals to the [NEW\_DOCUMENT](../../com.aspose.words/mailmergedestination/\#NEW-DOCUMENT) value.
 
 ### EMAIL {#EMAIL}
 ```

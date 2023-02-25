@@ -1,14 +1,15 @@
 ---
 title: Footnote
+linktitle: Footnote
 second_title: Aspose.Words for Java API Reference
-description: Represents a container for text of a footnote or endnote.
+description: Represents a container for text of a footnote or endnote in Java.
 type: docs
 weight: 293
 url: /java/com.aspose.words/footnote/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.words.Node](../../com.aspose.words/node), [com.aspose.words.CompositeNode](../../com.aspose.words/compositenode), [com.aspose.words.InlineStory](../../com.aspose.words/inlinestory)
+java.lang.Object, [com.aspose.words.Node](../../com.aspose.words/node/), [com.aspose.words.CompositeNode](../../com.aspose.words/compositenode/), [com.aspose.words.InlineStory](../../com.aspose.words/inlinestory/)
 ```
 public class Footnote extends InlineStory
 ```
@@ -17,11 +18,11 @@ Represents a container for text of a footnote or endnote.
 
 To learn more, visit the [ Working with Footnote and Endnote ][Working with Footnote and Endnote] documentation article.
 
-The [Footnote](../../com.aspose.words/footnote) class is used to represent both footnotes and endnotes in a Word document.
+The [Footnote](../../com.aspose.words/footnote/) class is used to represent both footnotes and endnotes in a Word document.
 
-[Footnote](../../com.aspose.words/footnote) is an inline-level node and can only be a child of [Paragraph](../../com.aspose.words/paragraph).
+[Footnote](../../com.aspose.words/footnote/) is an inline-level node and can only be a child of [Paragraph](../../com.aspose.words/paragraph/).
 
-[Footnote](../../com.aspose.words/footnote) can contain [Paragraph](../../com.aspose.words/paragraph) and [Table](../../com.aspose.words/table) child nodes.
+[Footnote](../../com.aspose.words/footnote/) can contain [Paragraph](../../com.aspose.words/paragraph/) and [Table](../../com.aspose.words/table/) child nodes.
 
 
 [Working with Footnote and Endnote]: https://docs.aspose.com/words/java/working-with-footnote-and-endnote/
@@ -64,15 +65,15 @@ The [Footnote](../../com.aspose.words/footnote) class is used to represent both 
 | [getLastParagraph()](#getLastParagraph) | Gets the last paragraph in the story. |
 | [getNextMatchingNode(Node curNode)](#getNextMatchingNode-com.aspose.words.Node) |  |
 | [getNextSibling()](#getNextSibling) | Gets the node immediately following this node. |
-| [getNodeType()](#getNodeType) | Returns [NodeType.FOOTNOTE](../../com.aspose.words/nodetype\#FOOTNOTE). |
+| [getNodeType()](#getNodeType) | Returns [NodeType.FOOTNOTE](../../com.aspose.words/nodetype/\#FOOTNOTE). |
 | [getParagraphs()](#getParagraphs) | Gets a collection of paragraphs that are immediate children of the story. |
 | [getParentNode()](#getParentNode) | Gets the immediate parent of this node. |
-| [getParentParagraph()](#getParentParagraph) | Retrieves the parent [Paragraph](../../com.aspose.words/paragraph) of this node. |
+| [getParentParagraph()](#getParentParagraph) | Retrieves the parent [Paragraph](../../com.aspose.words/paragraph/) of this node. |
 | [getParentParagraph_IInline()](#getParentParagraph-IInline) |  |
 | [getPreviousSibling()](#getPreviousSibling) | Gets the node immediately preceding this node. |
-| [getRange()](#getRange) | Returns a [Range](../../com.aspose.words/range) object that represents the portion of a document that is contained in this node. |
+| [getRange()](#getRange) | Returns a [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node. |
 | [getReferenceMark()](#getReferenceMark) | Gets/sets custom reference mark to be used for this footnote. |
-| [getStoryType()](#getStoryType) | Returns [StoryType.FOOTNOTES](../../com.aspose.words/storytype\#FOOTNOTES) or [StoryType.ENDNOTES](../../com.aspose.words/storytype\#ENDNOTES). |
+| [getStoryType()](#getStoryType) | Returns [StoryType.FOOTNOTES](../../com.aspose.words/storytype/\#FOOTNOTES) or [StoryType.ENDNOTES](../../com.aspose.words/storytype/\#ENDNOTES). |
 | [getTables()](#getTables) | Gets a collection of tables that are immediate children of the story. |
 | [getText()](#getText) | Gets the text of this node and of all its children. |
 | [hasChildNodes()](#hasChildNodes) | Returns  true  if this node has any child nodes. |
@@ -99,9 +100,9 @@ The [Footnote](../../com.aspose.words/footnote) class is used to represent both 
 | [removeChild(Node oldChild)](#removeChild-com.aspose.words.Node) | Removes the specified child node. |
 | [removeMoveRevisions()](#removeMoveRevisions) |  |
 | [removeRunAttr(int key)](#removeRunAttr-int) |  |
-| [removeSmartTags()](#removeSmartTags) | Removes all [SmartTag](../../com.aspose.words/smarttag) descendant nodes of the current node. |
+| [removeSmartTags()](#removeSmartTags) | Removes all [SmartTag](../../com.aspose.words/smarttag/) descendant nodes of the current node. |
 | [selectNodes(String xpath)](#selectNodes-java.lang.String) | Selects a list of nodes matching the XPath expression. |
-| [selectSingleNode(String xpath)](#selectSingleNode-java.lang.String) | Selects the first [Node](../../com.aspose.words/node) that matches the XPath expression. |
+| [selectSingleNode(String xpath)](#selectSingleNode-java.lang.String) | Selects the first [Node](../../com.aspose.words/node/) that matches the XPath expression. |
 | [setCustomNodeId(int value)](#setCustomNodeId-int) | Specifies custom node identifier. |
 | [setReferenceMark(String value)](#setReferenceMark-java.lang.String) | Gets/sets custom reference mark to be used for this footnote. |
 | [setRunAttr(int fontAttr, Object value)](#setRunAttr-int-java.lang.Object) |  |
@@ -122,7 +123,7 @@ Initializes a new instance of this class.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | [DocumentBase](../../com.aspose.words/documentbase) |  |
+| doc | [DocumentBase](../../com.aspose.words/documentbase/) |  |
 | footnoteType | int |  |
 
 ### accept(DocumentVisitor visitor) {#accept-com.aspose.words.DocumentVisitor}
@@ -133,17 +134,17 @@ public boolean accept(DocumentVisitor visitor)
 
 Accepts a visitor.
 
-Enumerates over this node and all of its children. Each node calls a corresponding method on [DocumentVisitor](../../com.aspose.words/documentvisitor).
+Enumerates over this node and all of its children. Each node calls a corresponding method on [DocumentVisitor](../../com.aspose.words/documentvisitor/).
 
 For more info see the Visitor design pattern.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor) | The visitor that will visit the nodes. |
+| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor/) | The visitor that will visit the nodes. |
 
 **Returns:**
-boolean - True if all nodes were visited; false if [DocumentVisitor](../../com.aspose.words/documentvisitor) stopped the operation before visiting all nodes. Calls DocumentVisitor.VisitFootnoteStart, then calls Accept for all child nodes of the footnote and calls DocumentVisitor.VisitFootnoteEnd at the end.
+boolean - True if all nodes were visited; false if [DocumentVisitor](../../com.aspose.words/documentvisitor/) stopped the operation before visiting all nodes. Calls DocumentVisitor.VisitFootnoteStart, then calls Accept for all child nodes of the footnote and calls DocumentVisitor.VisitFootnoteEnd at the end.
 ### appendChild(Node newChild) {#appendChild-com.aspose.words.Node}
 ```
 public Node appendChild(Node newChild)
@@ -159,10 +160,10 @@ If the node being inserted was created from another document, you should use **M
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | The node to add. |
+| newChild | [Node](../../com.aspose.words/node/) | The node to add. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The node added.
+[Node](../../com.aspose.words/node/) - The node added.
 ### clearRunAttrs() {#clearRunAttrs}
 ```
 public void clearRunAttrs()
@@ -197,7 +198,7 @@ This method always performs a deep copy of the node. The  isCloneChildren  param
 | isCloneChildren | boolean | True to recursively clone the subtree under the specified node; false to clone only the node itself. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The cloned node.
+[Node](../../com.aspose.words/node/) - The cloned node.
 ### ensureMinimum() {#ensureMinimum}
 ```
 public void ensureMinimum()
@@ -250,7 +251,7 @@ public CompositeNode getAncestor(int ancestorType)
 | ancestorType | int |  |
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode)
+[CompositeNode](../../com.aspose.words/compositenode/)
 ### getAncestor(Class ancestorType) {#getAncestor-java.lang.Class}
 ```
 public CompositeNode getAncestor(Class ancestorType)
@@ -265,7 +266,7 @@ Gets the first ancestor of the specified object type.
 | ancestorType | java.lang.Class | The object type of the ancestor to retrieve. |
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode) - The ancestor of the specified type or  null  if no ancestor of this type was found.
+[CompositeNode](../../com.aspose.words/compositenode/) - The ancestor of the specified type or  null  if no ancestor of this type was found.
 
 The ancestor type matches if it is equal to  ancestorType  or derived from  ancestorType .
 ### getChild(int nodeType, int index, boolean isDeep) {#getChild-int-int-boolean}
@@ -284,7 +285,7 @@ public Node getChild(int nodeType, int index, boolean isDeep)
 | isDeep | boolean |  |
 
 **Returns:**
-[Node](../../com.aspose.words/node)
+[Node](../../com.aspose.words/node/)
 ### getChildNodes() {#getChildNodes}
 ```
 public NodeCollection getChildNodes()
@@ -293,12 +294,12 @@ public NodeCollection getChildNodes()
 
 Gets all immediate child nodes of this node.
 
-Note, [getChildNodes()](../../com.aspose.words/compositenode\#getChildNodes) is equivalent to calling **M:Aspose.Words.CompositeNode.GetChildNodes(Aspose.Words.NodeType,System.Boolean)** with arguments ( [NodeType.ANY](../../com.aspose.words/nodetype\#ANY),  false ) and creates and returns a new collection every time it is accessed.
+Note, [getChildNodes()](../../com.aspose.words/compositenode/\#getChildNodes) is equivalent to calling **M:Aspose.Words.CompositeNode.GetChildNodes(Aspose.Words.NodeType,System.Boolean)** with arguments ( [NodeType.ANY](../../com.aspose.words/nodetype/\#ANY),  false ) and creates and returns a new collection every time it is accessed.
 
 If there are no child nodes, this property returns an empty collection.
 
 **Returns:**
-[NodeCollection](../../com.aspose.words/nodecollection) - All immediate child nodes of this node.
+[NodeCollection](../../com.aspose.words/nodecollection/) - All immediate child nodes of this node.
 ### getChildNodes(int nodeType, boolean isDeep) {#getChildNodes-int-boolean}
 ```
 public NodeCollection getChildNodes(int nodeType, boolean isDeep)
@@ -314,7 +315,7 @@ public NodeCollection getChildNodes(int nodeType, boolean isDeep)
 | isDeep | boolean |  |
 
 **Returns:**
-[NodeCollection](../../com.aspose.words/nodecollection)
+[NodeCollection](../../com.aspose.words/nodecollection/)
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -334,7 +335,7 @@ public CompositeNode getContainer()
 
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode)
+[CompositeNode](../../com.aspose.words/compositenode/)
 ### getCount() {#getCount}
 ```
 public int getCount()
@@ -354,7 +355,7 @@ public Node getCurrentNode()
 
 
 **Returns:**
-[Node](../../com.aspose.words/node)
+[Node](../../com.aspose.words/node/)
 ### getCustomNodeId() {#getCustomNodeId}
 ```
 public int getCustomNodeId()
@@ -413,7 +414,7 @@ Gets the document to which this node belongs.
 The node always belongs to a document even if it has just been created and not yet added to the tree, or if it has been removed from the tree.
 
 **Returns:**
-[DocumentBase](../../com.aspose.words/documentbase) - The document to which this node belongs.
+[DocumentBase](../../com.aspose.words/documentbase/) - The document to which this node belongs.
 ### getDocument_IInline() {#getDocument-IInline}
 ```
 public DocumentBase getDocument_IInline()
@@ -423,7 +424,7 @@ public DocumentBase getDocument_IInline()
 
 
 **Returns:**
-[DocumentBase](../../com.aspose.words/documentbase)
+[DocumentBase](../../com.aspose.words/documentbase/)
 ### getFirstChild() {#getFirstChild}
 ```
 public Node getFirstChild()
@@ -433,7 +434,7 @@ public Node getFirstChild()
 Gets the first child of the node. If there is no first child node, a  null  is returned.
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The first child of the node.
+[Node](../../com.aspose.words/node/) - The first child of the node.
 ### getFirstParagraph() {#getFirstParagraph}
 ```
 public Paragraph getFirstParagraph()
@@ -443,7 +444,7 @@ public Paragraph getFirstParagraph()
 Gets the first paragraph in the story.
 
 **Returns:**
-[Paragraph](../../com.aspose.words/paragraph) - The first paragraph in the story.
+[Paragraph](../../com.aspose.words/paragraph/) - The first paragraph in the story.
 ### getFont() {#getFont}
 ```
 public Font getFont()
@@ -453,7 +454,7 @@ public Font getFont()
 Provides access to the font formatting of the anchor character of this object.
 
 **Returns:**
-[Font](../../com.aspose.words/font) - The corresponding [Font](../../com.aspose.words/font) value.
+[Font](../../com.aspose.words/font/) - The corresponding [Font](../../com.aspose.words/font/) value.
 ### getFootnoteType() {#getFootnoteType}
 ```
 public int getFootnoteType()
@@ -463,7 +464,7 @@ public int getFootnoteType()
 Returns a value that specifies whether this is a footnote or endnote.
 
 **Returns:**
-int - A value that specifies whether this is a footnote or endnote. The returned value is one of [FootnoteType](../../com.aspose.words/footnotetype) constants.
+int - A value that specifies whether this is a footnote or endnote. The returned value is one of [FootnoteType](../../com.aspose.words/footnotetype/) constants.
 ### getLastChild() {#getLastChild}
 ```
 public Node getLastChild()
@@ -473,7 +474,7 @@ public Node getLastChild()
 Gets the last child of the node. If there is no last child node, a  null  is returned.
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The last child of the node.
+[Node](../../com.aspose.words/node/) - The last child of the node.
 ### getLastParagraph() {#getLastParagraph}
 ```
 public Paragraph getLastParagraph()
@@ -483,7 +484,7 @@ public Paragraph getLastParagraph()
 Gets the last paragraph in the story.
 
 **Returns:**
-[Paragraph](../../com.aspose.words/paragraph) - The last paragraph in the story.
+[Paragraph](../../com.aspose.words/paragraph/) - The last paragraph in the story.
 ### getNextMatchingNode(Node curNode) {#getNextMatchingNode-com.aspose.words.Node}
 ```
 public Node getNextMatchingNode(Node curNode)
@@ -495,10 +496,10 @@ public Node getNextMatchingNode(Node curNode)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| curNode | [Node](../../com.aspose.words/node) |  |
+| curNode | [Node](../../com.aspose.words/node/) |  |
 
 **Returns:**
-[Node](../../com.aspose.words/node)
+[Node](../../com.aspose.words/node/)
 ### getNextSibling() {#getNextSibling}
 ```
 public Node getNextSibling()
@@ -508,17 +509,17 @@ public Node getNextSibling()
 Gets the node immediately following this node. If there is no next node, a  null  is returned.
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The node immediately following this node.
+[Node](../../com.aspose.words/node/) - The node immediately following this node.
 ### getNodeType() {#getNodeType}
 ```
 public int getNodeType()
 ```
 
 
-Returns [NodeType.FOOTNOTE](../../com.aspose.words/nodetype\#FOOTNOTE).
+Returns [NodeType.FOOTNOTE](../../com.aspose.words/nodetype/\#FOOTNOTE).
 
 **Returns:**
-int - \{[NodeType.FOOTNOTE](../../com.aspose.words/nodetype\#FOOTNOTE). The returned value is one of [NodeType](../../com.aspose.words/nodetype) constants.
+int - \{[NodeType.FOOTNOTE](../../com.aspose.words/nodetype/\#FOOTNOTE). The returned value is one of [NodeType](../../com.aspose.words/nodetype/) constants.
 ### getParagraphs() {#getParagraphs}
 ```
 public ParagraphCollection getParagraphs()
@@ -528,7 +529,7 @@ public ParagraphCollection getParagraphs()
 Gets a collection of paragraphs that are immediate children of the story.
 
 **Returns:**
-[ParagraphCollection](../../com.aspose.words/paragraphcollection) - A collection of paragraphs that are immediate children of the story.
+[ParagraphCollection](../../com.aspose.words/paragraphcollection/) - A collection of paragraphs that are immediate children of the story.
 ### getParentNode() {#getParentNode}
 ```
 public CompositeNode getParentNode()
@@ -540,17 +541,17 @@ Gets the immediate parent of this node.
 If a node has just been created and not yet added to the tree, or if it has been removed from the tree, the parent is  null .
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode) - The immediate parent of this node.
+[CompositeNode](../../com.aspose.words/compositenode/) - The immediate parent of this node.
 ### getParentParagraph() {#getParentParagraph}
 ```
 public Paragraph getParentParagraph()
 ```
 
 
-Retrieves the parent [Paragraph](../../com.aspose.words/paragraph) of this node.
+Retrieves the parent [Paragraph](../../com.aspose.words/paragraph/) of this node.
 
 **Returns:**
-[Paragraph](../../com.aspose.words/paragraph) - The corresponding [Paragraph](../../com.aspose.words/paragraph) value.
+[Paragraph](../../com.aspose.words/paragraph/) - The corresponding [Paragraph](../../com.aspose.words/paragraph/) value.
 ### getParentParagraph_IInline() {#getParentParagraph-IInline}
 ```
 public Paragraph getParentParagraph_IInline()
@@ -560,7 +561,7 @@ public Paragraph getParentParagraph_IInline()
 
 
 **Returns:**
-[Paragraph](../../com.aspose.words/paragraph)
+[Paragraph](../../com.aspose.words/paragraph/)
 ### getPreviousSibling() {#getPreviousSibling}
 ```
 public Node getPreviousSibling()
@@ -570,17 +571,17 @@ public Node getPreviousSibling()
 Gets the node immediately preceding this node. If there is no preceding node, a  null  is returned.
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The node immediately preceding this node.
+[Node](../../com.aspose.words/node/) - The node immediately preceding this node.
 ### getRange() {#getRange}
 ```
 public Range getRange()
 ```
 
 
-Returns a [Range](../../com.aspose.words/range) object that represents the portion of a document that is contained in this node.
+Returns a [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node.
 
 **Returns:**
-[Range](../../com.aspose.words/range) - A [Range](../../com.aspose.words/range) object that represents the portion of a document that is contained in this node.
+[Range](../../com.aspose.words/range/) - A [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node.
 ### getReferenceMark() {#getReferenceMark}
 ```
 public String getReferenceMark()
@@ -589,7 +590,7 @@ public String getReferenceMark()
 
 Gets/sets custom reference mark to be used for this footnote. Default value is **empty string**, meaning auto-numbered footnotes are used.
 
-If this property is set to **empty string** or  null , then [isAuto()](../../com.aspose.words/footnote\#isAuto) / [isAuto(boolean)](../../com.aspose.words/footnote\#isAuto-boolean) property will automatically be set to  true , if set to anything else then [isAuto()](../../com.aspose.words/footnote\#isAuto) / [isAuto(boolean)](../../com.aspose.words/footnote\#isAuto-boolean) will be set to  false .
+If this property is set to **empty string** or  null , then [isAuto()](../../com.aspose.words/footnote/\#isAuto) / [isAuto(boolean)](../../com.aspose.words/footnote/\#isAuto-boolean) property will automatically be set to  true , if set to anything else then [isAuto()](../../com.aspose.words/footnote/\#isAuto) / [isAuto(boolean)](../../com.aspose.words/footnote/\#isAuto-boolean) will be set to  false .
 
 RTF-format can only store 1 symbol as custom reference mark, so upon export only the first symbol will be written others will be discard.
 
@@ -601,10 +602,10 @@ public int getStoryType()
 ```
 
 
-Returns [StoryType.FOOTNOTES](../../com.aspose.words/storytype\#FOOTNOTES) or [StoryType.ENDNOTES](../../com.aspose.words/storytype\#ENDNOTES).
+Returns [StoryType.FOOTNOTES](../../com.aspose.words/storytype/\#FOOTNOTES) or [StoryType.ENDNOTES](../../com.aspose.words/storytype/\#ENDNOTES).
 
 **Returns:**
-int - \{[StoryType.FOOTNOTES](../../com.aspose.words/storytype\#FOOTNOTES) or [StoryType.ENDNOTES](../../com.aspose.words/storytype\#ENDNOTES). The returned value is one of [StoryType](../../com.aspose.words/storytype) constants.
+int - \{[StoryType.FOOTNOTES](../../com.aspose.words/storytype/\#FOOTNOTES) or [StoryType.ENDNOTES](../../com.aspose.words/storytype/\#ENDNOTES). The returned value is one of [StoryType](../../com.aspose.words/storytype/) constants.
 ### getTables() {#getTables}
 ```
 public TableCollection getTables()
@@ -614,7 +615,7 @@ public TableCollection getTables()
 Gets a collection of tables that are immediate children of the story.
 
 **Returns:**
-[TableCollection](../../com.aspose.words/tablecollection) - A collection of tables that are immediate children of the story.
+[TableCollection](../../com.aspose.words/tablecollection/) - A collection of tables that are immediate children of the story.
 ### getText() {#getText}
 ```
 public String getText()
@@ -623,7 +624,7 @@ public String getText()
 
 Gets the text of this node and of all its children.
 
-The returned string includes all control and special characters as described in [ControlChar](../../com.aspose.words/controlchar).
+The returned string includes all control and special characters as described in [ControlChar](../../com.aspose.words/controlchar/).
 
 **Returns:**
 java.lang.String
@@ -658,7 +659,7 @@ Returns the index of the specified child node in the child node array. Returns -
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| child | [Node](../../com.aspose.words/node) |  |
+| child | [Node](../../com.aspose.words/node/) |  |
 
 **Returns:**
 int
@@ -679,11 +680,11 @@ If the node being inserted was created from another document, you should use **M
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | The [Node](../../com.aspose.words/node) to insert. |
-| refChild | [Node](../../com.aspose.words/node) | The [Node](../../com.aspose.words/node) that is the reference node. The  newChild  is placed after the  refChild . |
+| newChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) to insert. |
+| refChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) that is the reference node. The  newChild  is placed after the  refChild . |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The inserted node.
+[Node](../../com.aspose.words/node/) - The inserted node.
 ### insertBefore(Node newChild, Node refChild) {#insertBefore-com.aspose.words.Node-com.aspose.words.Node}
 ```
 public Node insertBefore(Node newChild, Node refChild)
@@ -701,18 +702,18 @@ If the node being inserted was created from another document, you should use **M
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | The [Node](../../com.aspose.words/node) to insert. |
-| refChild | [Node](../../com.aspose.words/node) | The [Node](../../com.aspose.words/node) that is the reference node. The  newChild  is placed before this node. |
+| newChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) to insert. |
+| refChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) that is the reference node. The  newChild  is placed before this node. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The inserted node.
+[Node](../../com.aspose.words/node/) - The inserted node.
 ### isAuto() {#isAuto}
 ```
 public boolean isAuto()
 ```
 
 
-Holds a value that specifies whether this is a auto-numbered footnote or footnote with user defined custom reference mark. [getReferenceMark()](../../com.aspose.words/footnote\#getReferenceMark) / [setReferenceMark(java.lang.String)](../../com.aspose.words/footnote\#setReferenceMark-java.lang.String) initialized with empty string if [isAuto()](../../com.aspose.words/footnote\#isAuto) / [isAuto(boolean)](../../com.aspose.words/footnote\#isAuto-boolean) set to  false .
+Holds a value that specifies whether this is a auto-numbered footnote or footnote with user defined custom reference mark. [getReferenceMark()](../../com.aspose.words/footnote/\#getReferenceMark) / [setReferenceMark(java.lang.String)](../../com.aspose.words/footnote/\#setReferenceMark-java.lang.String) initialized with empty string if [isAuto()](../../com.aspose.words/footnote/\#isAuto) / [isAuto(boolean)](../../com.aspose.words/footnote/\#isAuto-boolean) set to  false .
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -722,7 +723,7 @@ public void isAuto(boolean value)
 ```
 
 
-Holds a value that specifies whether this is a auto-numbered footnote or footnote with user defined custom reference mark. [getReferenceMark()](../../com.aspose.words/footnote\#getReferenceMark) / [setReferenceMark(java.lang.String)](../../com.aspose.words/footnote\#setReferenceMark-java.lang.String) initialized with empty string if [isAuto()](../../com.aspose.words/footnote\#isAuto) / [isAuto(boolean)](../../com.aspose.words/footnote\#isAuto-boolean) set to  false .
+Holds a value that specifies whether this is a auto-numbered footnote or footnote with user defined custom reference mark. [getReferenceMark()](../../com.aspose.words/footnote/\#getReferenceMark) / [setReferenceMark(java.lang.String)](../../com.aspose.words/footnote/\#setReferenceMark-java.lang.String) initialized with empty string if [isAuto()](../../com.aspose.words/footnote/\#isAuto) / [isAuto(boolean)](../../com.aspose.words/footnote/\#isAuto-boolean) set to  false .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -800,10 +801,10 @@ Gets next node according to the pre-order tree traversal algorithm.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node) | The top node (limit) of traversal. |
+| rootNode | [Node](../../com.aspose.words/node/) | The top node (limit) of traversal. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - Next node in pre-order order. Null if reached the  rootNode .
+[Node](../../com.aspose.words/node/) - Next node in pre-order order. Null if reached the  rootNode .
 ### nodeTypeToString(int nodeType) {#nodeTypeToString-int}
 ```
 public static String nodeTypeToString(int nodeType)
@@ -850,10 +851,10 @@ If the node being inserted was created from another document, you should use **M
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | The node to add. |
+| newChild | [Node](../../com.aspose.words/node/) | The node to add. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The node added.
+[Node](../../com.aspose.words/node/) - The node added.
 ### previousPreOrder(Node rootNode) {#previousPreOrder-com.aspose.words.Node}
 ```
 public Node previousPreOrder(Node rootNode)
@@ -865,10 +866,10 @@ Gets the previous node according to the pre-order tree traversal algorithm.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node) | The top node (limit) of traversal. |
+| rootNode | [Node](../../com.aspose.words/node/) | The top node (limit) of traversal. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - Previous node in pre-order order. Null if reached the  rootNode .
+[Node](../../com.aspose.words/node/) - Previous node in pre-order order. Null if reached the  rootNode .
 ### remove() {#remove}
 ```
 public void remove()
@@ -898,10 +899,10 @@ The parent of  oldChild  is set to  null  after the node is removed.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| oldChild | [Node](../../com.aspose.words/node) | The node to remove. |
+| oldChild | [Node](../../com.aspose.words/node/) | The node to remove. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The removed node.
+[Node](../../com.aspose.words/node/) - The removed node.
 ### removeMoveRevisions() {#removeMoveRevisions}
 ```
 public void removeMoveRevisions()
@@ -929,7 +930,7 @@ public void removeSmartTags()
 ```
 
 
-Removes all [SmartTag](../../com.aspose.words/smarttag) descendant nodes of the current node. This method does not remove the content of the smart tags.
+Removes all [SmartTag](../../com.aspose.words/smarttag/) descendant nodes of the current node. This method does not remove the content of the smart tags.
 
 ### selectNodes(String xpath) {#selectNodes-java.lang.String}
 ```
@@ -947,14 +948,14 @@ Only expressions with element names are supported at the moment. Expressions tha
 | xpath | java.lang.String | The XPath expression. |
 
 **Returns:**
-[NodeList](../../com.aspose.words/nodelist) - A list of nodes matching the XPath query.
+[NodeList](../../com.aspose.words/nodelist/) - A list of nodes matching the XPath query.
 ### selectSingleNode(String xpath) {#selectSingleNode-java.lang.String}
 ```
 public Node selectSingleNode(String xpath)
 ```
 
 
-Selects the first [Node](../../com.aspose.words/node) that matches the XPath expression.
+Selects the first [Node](../../com.aspose.words/node/) that matches the XPath expression.
 
 Only expressions with element names are supported at the moment. Expressions that use attribute names are not supported.
 
@@ -964,7 +965,7 @@ Only expressions with element names are supported at the moment. Expressions tha
 | xpath | java.lang.String | The XPath expression. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The first [Node](../../com.aspose.words/node) that matches the XPath query or  null  if no matching node is found.
+[Node](../../com.aspose.words/node/) - The first [Node](../../com.aspose.words/node/) that matches the XPath query or  null  if no matching node is found.
 ### setCustomNodeId(int value) {#setCustomNodeId-int}
 ```
 public void setCustomNodeId(int value)
@@ -992,7 +993,7 @@ public void setReferenceMark(String value)
 
 Gets/sets custom reference mark to be used for this footnote. Default value is **empty string**, meaning auto-numbered footnotes are used.
 
-If this property is set to **empty string** or  null , then [isAuto()](../../com.aspose.words/footnote\#isAuto) / [isAuto(boolean)](../../com.aspose.words/footnote\#isAuto-boolean) property will automatically be set to  true , if set to anything else then [isAuto()](../../com.aspose.words/footnote\#isAuto) / [isAuto(boolean)](../../com.aspose.words/footnote\#isAuto-boolean) will be set to  false .
+If this property is set to **empty string** or  null , then [isAuto()](../../com.aspose.words/footnote/\#isAuto) / [isAuto(boolean)](../../com.aspose.words/footnote/\#isAuto-boolean) property will automatically be set to  true , if set to anything else then [isAuto()](../../com.aspose.words/footnote/\#isAuto) / [isAuto(boolean)](../../com.aspose.words/footnote/\#isAuto-boolean) will be set to  false .
 
 RTF-format can only store 1 symbol as custom reference mark, so upon export only the first symbol will be written others will be discard.
 
@@ -1036,7 +1037,7 @@ Exports the content of the node into a string using the specified save options.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions) | Specifies the options that control how the node is saved. |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) | Specifies the options that control how the node is saved. |
 
 **Returns:**
 java.lang.String - The content of the node in the specified format.

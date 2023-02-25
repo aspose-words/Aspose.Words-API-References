@@ -1,7 +1,8 @@
 ---
 title: ChartDataLabel
+linktitle: ChartDataLabel
 second_title: Aspose.Words for Java API Reference
-description: Represents data label on a chart point or trendline.
+description: Represents data label on a chart point or trendline in Java.
 type: docs
 weight: 58
 url: /java/com.aspose.words/chartdatalabel/
@@ -20,7 +21,7 @@ Represents data label on a chart point or trendline.
 
 To learn more, visit the [ Working with Charts ][Working with Charts] documentation article.
 
-On a series, the [ChartDataLabel](../../com.aspose.words/chartdatalabel) object is a member of the [ChartDataLabelCollection](../../com.aspose.words/chartdatalabelcollection). The [ChartDataLabelCollection](../../com.aspose.words/chartdatalabelcollection) contains a [ChartDataLabel](../../com.aspose.words/chartdatalabel) object for each point.
+On a series, the [ChartDataLabel](../../com.aspose.words/chartdatalabel/) object is a member of the [ChartDataLabelCollection](../../com.aspose.words/chartdatalabelcollection/). The [ChartDataLabelCollection](../../com.aspose.words/chartdatalabelcollection/) contains a [ChartDataLabel](../../com.aspose.words/chartdatalabel/) object for each point.
 
 
 [Working with Charts]: https://docs.aspose.com/words/java/working-with-charts/
@@ -116,7 +117,7 @@ public Font getFont()
 Provides access to the font formatting of this data label.
 
 **Returns:**
-[Font](../../com.aspose.words/font) - The corresponding [Font](../../com.aspose.words/font) value.
+[Font](../../com.aspose.words/font/) - The corresponding [Font](../../com.aspose.words/font/) value.
 ### getIndex() {#getIndex}
 ```
 public int getIndex()
@@ -136,7 +137,7 @@ public ChartNumberFormat getNumberFormat()
 Returns number format of the parent element.
 
 **Returns:**
-[ChartNumberFormat](../../com.aspose.words/chartnumberformat) - Number format of the parent element.
+[ChartNumberFormat](../../com.aspose.words/chartnumberformat/) - Number format of the parent element.
 ### getSeparator() {#getSeparator}
 ```
 public String getSeparator()

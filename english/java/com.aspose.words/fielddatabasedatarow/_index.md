@@ -1,7 +1,8 @@
 ---
 title: FieldDatabaseDataRow
+linktitle: FieldDatabaseDataRow
 second_title: Aspose.Words for Java API Reference
-description: Provides data for the  field result.
+description: Provides data for the  field result in Java.
 type: docs
 weight: 176
 url: /java/com.aspose.words/fielddatabasedatarow/
@@ -13,7 +14,7 @@ java.lang.Object
 public class FieldDatabaseDataRow
 ```
 
-Provides data for the [FieldDatabase](../../com.aspose.words/fielddatabase) field result.
+Provides data for the [FieldDatabase](../../com.aspose.words/fielddatabase/) field result.
 
 To learn more, visit the [ Working with Fields ][Working with Fields] documentation article.
 
@@ -23,12 +24,12 @@ To learn more, visit the [ Working with Fields ][Working with Fields] documentat
 
 | Constructor | Description |
 | --- | --- |
-| [FieldDatabaseDataRow(String[] values)](#FieldDatabaseDataRow-java.lang.String...) | Initializes a new instance of the [FieldDatabaseDataRow](../../com.aspose.words/fielddatabasedatarow) class. |
+| [FieldDatabaseDataRow(String[] values)](#FieldDatabaseDataRow-java.lang.String...) | Initializes a new instance of the [FieldDatabaseDataRow](../../com.aspose.words/fielddatabasedatarow/) class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [createFrom(System.Data.DataRow dataRow)](#createFrom-com.aspose.words.net.System.Data.DataRow) | Initializes a new instance of the [FieldDatabaseDataRow](../../com.aspose.words/fielddatabasedatarow) class from the [DataRow](../../com.aspose.words.net.system.data/datarow) instance. |
+| [createFrom(System.Data.DataRow dataRow)](#createFrom-com.aspose.words.net.System.Data.DataRow) | Initializes a new instance of the [FieldDatabaseDataRow](../../com.aspose.words/fielddatabasedatarow/) class from the [DataRow](../../com.aspose.words.net.system.data/datarow/) instance. |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getClass()](#getClass) |  |
 | [getValues()](#getValues) | Gets values that belong to this row. |
@@ -45,7 +46,7 @@ public FieldDatabaseDataRow(String[] values)
 ```
 
 
-Initializes a new instance of the [FieldDatabaseDataRow](../../com.aspose.words/fielddatabasedatarow) class.
+Initializes a new instance of the [FieldDatabaseDataRow](../../com.aspose.words/fielddatabasedatarow/) class.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -58,15 +59,15 @@ public static FieldDatabaseDataRow createFrom(System.Data.DataRow dataRow)
 ```
 
 
-Initializes a new instance of the [FieldDatabaseDataRow](../../com.aspose.words/fielddatabasedatarow) class from the [DataRow](../../com.aspose.words.net.system.data/datarow) instance.
+Initializes a new instance of the [FieldDatabaseDataRow](../../com.aspose.words/fielddatabasedatarow/) class from the [DataRow](../../com.aspose.words.net.system.data/datarow/) instance.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dataRow | [DataRow](../../com.aspose.words.net.system.data/datarow) |  |
+| dataRow | [DataRow](../../com.aspose.words.net.system.data/datarow/) |  |
 
 **Returns:**
-[FieldDatabaseDataRow](../../com.aspose.words/fielddatabasedatarow)
+[FieldDatabaseDataRow](../../com.aspose.words/fielddatabasedatarow/)
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)

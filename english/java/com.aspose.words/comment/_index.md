@@ -1,14 +1,15 @@
 ---
 title: Comment
+linktitle: Comment
 second_title: Aspose.Words for Java API Reference
-description: Represents a container for text of a comment.
+description: Represents a container for text of a comment in Java.
 type: docs
 weight: 77
 url: /java/com.aspose.words/comment/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.words.Node](../../com.aspose.words/node), [com.aspose.words.CompositeNode](../../com.aspose.words/compositenode), [com.aspose.words.InlineStory](../../com.aspose.words/inlinestory)
+java.lang.Object, [com.aspose.words.Node](../../com.aspose.words/node/), [com.aspose.words.CompositeNode](../../com.aspose.words/compositenode/), [com.aspose.words.InlineStory](../../com.aspose.words/inlinestory/)
 ```
 public class Comment extends InlineStory
 ```
@@ -19,13 +20,13 @@ To learn more, visit the [ Working with Comments ][Working with Comments] docume
 
 A comment is an annotation which is anchored to a region of text or to a position in text. A comment can contain an arbitrary amount of block-level content.
 
-If a [Comment](../../com.aspose.words/comment) object occurs on its own, the comment is anchored to the position of the [Comment](../../com.aspose.words/comment) object.
+If a [Comment](../../com.aspose.words/comment/) object occurs on its own, the comment is anchored to the position of the [Comment](../../com.aspose.words/comment/) object.
 
-To anchor a comment to a region of text three objects are required: [Comment](../../com.aspose.words/comment), [CommentRangeStart](../../com.aspose.words/commentrangestart) and [CommentRangeEnd](../../com.aspose.words/commentrangeend). All three objects need to share the same [getId()](../../com.aspose.words/comment\#getId) value.
+To anchor a comment to a region of text three objects are required: [Comment](../../com.aspose.words/comment/), [CommentRangeStart](../../com.aspose.words/commentrangestart/) and [CommentRangeEnd](../../com.aspose.words/commentrangeend/). All three objects need to share the same [getId()](../../com.aspose.words/comment/\#getId) value.
 
-[Comment](../../com.aspose.words/comment) is an inline-level node and can only be a child of [Paragraph](../../com.aspose.words/paragraph).
+[Comment](../../com.aspose.words/comment/) is an inline-level node and can only be a child of [Paragraph](../../com.aspose.words/paragraph/).
 
-[Comment](../../com.aspose.words/comment) can contain [Paragraph](../../com.aspose.words/paragraph) and [Table](../../com.aspose.words/table) child nodes.
+[Comment](../../com.aspose.words/comment/) can contain [Paragraph](../../com.aspose.words/paragraph/) and [Table](../../com.aspose.words/table/) child nodes.
 
 
 [Working with Comments]: https://docs.aspose.com/words/java/working-with-comments/
@@ -33,8 +34,8 @@ To anchor a comment to a region of text three objects are required: [Comment](..
 
 | Constructor | Description |
 | --- | --- |
-| [Comment(DocumentBase doc)](#Comment-com.aspose.words.DocumentBase) | Initializes a new instance of the [Comment](../../com.aspose.words/comment) class. |
-| [Comment(DocumentBase doc, String author, String initial, Date dateTime)](#Comment-com.aspose.words.DocumentBase-java.lang.String-java.lang.String-java.util.Date) | Initializes a new instance of the [Comment](../../com.aspose.words/comment) class. |
+| [Comment(DocumentBase doc)](#Comment-com.aspose.words.DocumentBase) | Initializes a new instance of the [Comment](../../com.aspose.words/comment/) class. |
+| [Comment(DocumentBase doc, String author, String initial, Date dateTime)](#Comment-com.aspose.words.DocumentBase-java.lang.String-java.lang.String-java.util.Date) | Initializes a new instance of the [Comment](../../com.aspose.words/comment/) class. |
 ## Methods
 
 | Method | Description |
@@ -48,7 +49,7 @@ To anchor a comment to a region of text three objects are required: [Comment](..
 | [ensureMinimum()](#ensureMinimum) | If the last child is not a paragraph, creates and appends one empty paragraph. |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [fetchInheritedRunAttr(int fontAttr)](#fetchInheritedRunAttr-int) |  |
-| [getAncestor()](#getAncestor) | Returns the parent [Comment](../../com.aspose.words/comment) object. |
+| [getAncestor()](#getAncestor) | Returns the parent [Comment](../../com.aspose.words/comment/) object. |
 | [getAncestor(int ancestorType)](#getAncestor-int) |  |
 | [getAncestor(Class ancestorType)](#getAncestor-java.lang.Class) | Gets the first ancestor of the specified object type. |
 | [getAuthor()](#getAuthor) | Gets the author name for a comment. |
@@ -76,16 +77,16 @@ To anchor a comment to a region of text three objects are required: [Comment](..
 | [getLastParagraph()](#getLastParagraph) | Gets the last paragraph in the story. |
 | [getNextMatchingNode(Node curNode)](#getNextMatchingNode-com.aspose.words.Node) |  |
 | [getNextSibling()](#getNextSibling) | Gets the node immediately following this node. |
-| [getNodeType()](#getNodeType) | Returns [NodeType.COMMENT](../../com.aspose.words/nodetype\#COMMENT). |
+| [getNodeType()](#getNodeType) | Returns [NodeType.COMMENT](../../com.aspose.words/nodetype/\#COMMENT). |
 | [getParagraphs()](#getParagraphs) | Gets a collection of paragraphs that are immediate children of the story. |
 | [getParentIdInternal()](#getParentIdInternal) |  |
 | [getParentNode()](#getParentNode) | Gets the immediate parent of this node. |
-| [getParentParagraph()](#getParentParagraph) | Retrieves the parent [Paragraph](../../com.aspose.words/paragraph) of this node. |
+| [getParentParagraph()](#getParentParagraph) | Retrieves the parent [Paragraph](../../com.aspose.words/paragraph/) of this node. |
 | [getParentParagraph_IInline()](#getParentParagraph-IInline) |  |
 | [getPreviousSibling()](#getPreviousSibling) | Gets the node immediately preceding this node. |
-| [getRange()](#getRange) | Returns a [Range](../../com.aspose.words/range) object that represents the portion of a document that is contained in this node. |
-| [getReplies()](#getReplies) | Returns a collection of [Comment](../../com.aspose.words/comment) objects that are immediate children of the specified comment. |
-| [getStoryType()](#getStoryType) | Returns [StoryType.COMMENTS](../../com.aspose.words/storytype\#COMMENTS). |
+| [getRange()](#getRange) | Returns a [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node. |
+| [getReplies()](#getReplies) | Returns a collection of [Comment](../../com.aspose.words/comment/) objects that are immediate children of the specified comment. |
+| [getStoryType()](#getStoryType) | Returns [StoryType.COMMENTS](../../com.aspose.words/storytype/\#COMMENTS). |
 | [getTables()](#getTables) | Gets a collection of tables that are immediate children of the story. |
 | [getText()](#getText) | Gets the text of this node and of all its children. |
 | [hasChildNodes()](#hasChildNodes) | Returns  true  if this node has any child nodes. |
@@ -112,9 +113,9 @@ To anchor a comment to a region of text three objects are required: [Comment](..
 | [removeMoveRevisions()](#removeMoveRevisions) |  |
 | [removeReply(Comment reply)](#removeReply-com.aspose.words.Comment) | Removes the specified reply to this comment. |
 | [removeRunAttr(int key)](#removeRunAttr-int) |  |
-| [removeSmartTags()](#removeSmartTags) | Removes all [SmartTag](../../com.aspose.words/smarttag) descendant nodes of the current node. |
+| [removeSmartTags()](#removeSmartTags) | Removes all [SmartTag](../../com.aspose.words/smarttag/) descendant nodes of the current node. |
 | [selectNodes(String xpath)](#selectNodes-java.lang.String) | Selects a list of nodes matching the XPath expression. |
-| [selectSingleNode(String xpath)](#selectSingleNode-java.lang.String) | Selects the first [Node](../../com.aspose.words/node) that matches the XPath expression. |
+| [selectSingleNode(String xpath)](#selectSingleNode-java.lang.String) | Selects the first [Node](../../com.aspose.words/node/) that matches the XPath expression. |
 | [setAuthor(String value)](#setAuthor-java.lang.String) | Sets the author name for a comment. |
 | [setCustomNodeId(int value)](#setCustomNodeId-int) | Specifies custom node identifier. |
 | [setDateTime(Date value)](#setDateTime-java.util.Date) | Gets the date and time that the comment was made. |
@@ -136,18 +137,18 @@ public Comment(DocumentBase doc)
 ```
 
 
-Initializes a new instance of the [Comment](../../com.aspose.words/comment) class.
+Initializes a new instance of the [Comment](../../com.aspose.words/comment/) class.
 
-When [Comment](../../com.aspose.words/comment) is created, it belongs to the specified document, but is not yet part of the document and [Node.getParentNode()](../../com.aspose.words/node\#getParentNode) is  null .
+When [Comment](../../com.aspose.words/comment/) is created, it belongs to the specified document, but is not yet part of the document and [Node.getParentNode()](../../com.aspose.words/node/\#getParentNode) is  null .
 
-To append [Comment](../../com.aspose.words/comment) to the document use [CompositeNode.insertAfter(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode\#insertAfter-com.aspose.words.Node--com.aspose.words.Node) or [CompositeNode.insertBefore(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode\#insertBefore-com.aspose.words.Node--com.aspose.words.Node) on the paragraph where you want the comment inserted.
+To append [Comment](../../com.aspose.words/comment/) to the document use [CompositeNode.insertAfter(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode/\#insertAfter-com.aspose.words.Node--com.aspose.words.Node) or [CompositeNode.insertBefore(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode/\#insertBefore-com.aspose.words.Node--com.aspose.words.Node) on the paragraph where you want the comment inserted.
 
-After creating a comment, don't forget to set its [getAuthor()](../../com.aspose.words/comment\#getAuthor) / [setAuthor(java.lang.String)](../../com.aspose.words/comment\#setAuthor-java.lang.String), [getInitial()](../../com.aspose.words/comment\#getInitial) / [setInitial(java.lang.String)](../../com.aspose.words/comment\#setInitial-java.lang.String) and [getDateTime()](../../com.aspose.words/comment\#getDateTime) / [setDateTime(java.util.Date)](../../com.aspose.words/comment\#setDateTime-java.util.Date) properties.
+After creating a comment, don't forget to set its [getAuthor()](../../com.aspose.words/comment/\#getAuthor) / [setAuthor(java.lang.String)](../../com.aspose.words/comment/\#setAuthor-java.lang.String), [getInitial()](../../com.aspose.words/comment/\#getInitial) / [setInitial(java.lang.String)](../../com.aspose.words/comment/\#setInitial-java.lang.String) and [getDateTime()](../../com.aspose.words/comment/\#getDateTime) / [setDateTime(java.util.Date)](../../com.aspose.words/comment/\#setDateTime-java.util.Date) properties.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | [DocumentBase](../../com.aspose.words/documentbase) | The owner document. |
+| doc | [DocumentBase](../../com.aspose.words/documentbase/) | The owner document. |
 
 ### Comment(DocumentBase doc, String author, String initial, Date dateTime) {#Comment-com.aspose.words.DocumentBase-java.lang.String-java.lang.String-java.util.Date}
 ```
@@ -155,12 +156,12 @@ public Comment(DocumentBase doc, String author, String initial, Date dateTime)
 ```
 
 
-Initializes a new instance of the [Comment](../../com.aspose.words/comment) class.
+Initializes a new instance of the [Comment](../../com.aspose.words/comment/) class.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | [DocumentBase](../../com.aspose.words/documentbase) | The owner document. |
+| doc | [DocumentBase](../../com.aspose.words/documentbase/) | The owner document. |
 | author | java.lang.String | The author name for the comment. Cannot be  null . |
 | initial | java.lang.String | The author initials for the comment. Cannot be  null . |
 | dateTime | java.util.Date | The date and time for the comment. |
@@ -173,17 +174,17 @@ public boolean accept(DocumentVisitor visitor)
 
 Accepts a visitor.
 
-Enumerates over this node and all of its children. Each node calls a corresponding method on [DocumentVisitor](../../com.aspose.words/documentvisitor).
+Enumerates over this node and all of its children. Each node calls a corresponding method on [DocumentVisitor](../../com.aspose.words/documentvisitor/).
 
 For more info see the Visitor design pattern.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor) | The visitor that will visit the nodes. |
+| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor/) | The visitor that will visit the nodes. |
 
 **Returns:**
-boolean - True if all nodes were visited; false if [DocumentVisitor](../../com.aspose.words/documentvisitor) stopped the operation before visiting all nodes. Calls [DocumentVisitor.visitCommentStart(com.aspose.words.Comment)](../../com.aspose.words/documentvisitor\#visitCommentStart-com.aspose.words.Comment), then calls [Node.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/node\#accept-com.aspose.words.DocumentVisitor) for all child nodes of the comment and calls [DocumentVisitor.visitCommentEnd(com.aspose.words.Comment)](../../com.aspose.words/documentvisitor\#visitCommentEnd-com.aspose.words.Comment) at the end.
+boolean - True if all nodes were visited; false if [DocumentVisitor](../../com.aspose.words/documentvisitor/) stopped the operation before visiting all nodes. Calls [DocumentVisitor.visitCommentStart(com.aspose.words.Comment)](../../com.aspose.words/documentvisitor/\#visitCommentStart-com.aspose.words.Comment), then calls [Node.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/node/\#accept-com.aspose.words.DocumentVisitor) for all child nodes of the comment and calls [DocumentVisitor.visitCommentEnd(com.aspose.words.Comment)](../../com.aspose.words/documentvisitor/\#visitCommentEnd-com.aspose.words.Comment) at the end.
 ### addReply(String author, String initial, Date dateTime, String text) {#addReply-java.lang.String-java.lang.String-java.util.Date-java.lang.String}
 ```
 public Comment addReply(String author, String initial, Date dateTime, String text)
@@ -201,7 +202,7 @@ Adds a reply to this comment.
 | text | java.lang.String | The reply text. |
 
 **Returns:**
-[Comment](../../com.aspose.words/comment) - The created [Comment](../../com.aspose.words/comment) node for the reply. Due to the existing MS Office limitations only 1 level of replies is allowed in the document. An exception of type java.lang.IllegalStateException will be raised if this method is called on the existing Reply comment.
+[Comment](../../com.aspose.words/comment/) - The created [Comment](../../com.aspose.words/comment/) node for the reply. Due to the existing MS Office limitations only 1 level of replies is allowed in the document. An exception of type java.lang.IllegalStateException will be raised if this method is called on the existing Reply comment.
 ### appendChild(Node newChild) {#appendChild-com.aspose.words.Node}
 ```
 public Node appendChild(Node newChild)
@@ -217,10 +218,10 @@ If the node being inserted was created from another document, you should use **M
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | The node to add. |
+| newChild | [Node](../../com.aspose.words/node/) | The node to add. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The node added.
+[Node](../../com.aspose.words/node/) - The node added.
 ### clearRunAttrs() {#clearRunAttrs}
 ```
 public void clearRunAttrs()
@@ -255,7 +256,7 @@ This method always performs a deep copy of the node. The  isCloneChildren  param
 | isCloneChildren | boolean | True to recursively clone the subtree under the specified node; false to clone only the node itself. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The cloned node.
+[Node](../../com.aspose.words/node/) - The cloned node.
 ### ensureMinimum() {#ensureMinimum}
 ```
 public void ensureMinimum()
@@ -300,10 +301,10 @@ public Comment getAncestor()
 ```
 
 
-Returns the parent [Comment](../../com.aspose.words/comment) object. Returns  null  for top-level comments.
+Returns the parent [Comment](../../com.aspose.words/comment/) object. Returns  null  for top-level comments.
 
 **Returns:**
-[Comment](../../com.aspose.words/comment) - The parent [Comment](../../com.aspose.words/comment) object.
+[Comment](../../com.aspose.words/comment/) - The parent [Comment](../../com.aspose.words/comment/) object.
 ### getAncestor(int ancestorType) {#getAncestor-int}
 ```
 public CompositeNode getAncestor(int ancestorType)
@@ -318,7 +319,7 @@ public CompositeNode getAncestor(int ancestorType)
 | ancestorType | int |  |
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode)
+[CompositeNode](../../com.aspose.words/compositenode/)
 ### getAncestor(Class ancestorType) {#getAncestor-java.lang.Class}
 ```
 public CompositeNode getAncestor(Class ancestorType)
@@ -333,7 +334,7 @@ Gets the first ancestor of the specified object type.
 | ancestorType | java.lang.Class | The object type of the ancestor to retrieve. |
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode) - The ancestor of the specified type or  null  if no ancestor of this type was found.
+[CompositeNode](../../com.aspose.words/compositenode/) - The ancestor of the specified type or  null  if no ancestor of this type was found.
 
 The ancestor type matches if it is equal to  ancestorType  or derived from  ancestorType .
 ### getAuthor() {#getAuthor}
@@ -366,7 +367,7 @@ public Node getChild(int nodeType, int index, boolean isDeep)
 | isDeep | boolean |  |
 
 **Returns:**
-[Node](../../com.aspose.words/node)
+[Node](../../com.aspose.words/node/)
 ### getChildNodes() {#getChildNodes}
 ```
 public NodeCollection getChildNodes()
@@ -375,12 +376,12 @@ public NodeCollection getChildNodes()
 
 Gets all immediate child nodes of this node.
 
-Note, [getChildNodes()](../../com.aspose.words/compositenode\#getChildNodes) is equivalent to calling **M:Aspose.Words.CompositeNode.GetChildNodes(Aspose.Words.NodeType,System.Boolean)** with arguments ( [NodeType.ANY](../../com.aspose.words/nodetype\#ANY),  false ) and creates and returns a new collection every time it is accessed.
+Note, [getChildNodes()](../../com.aspose.words/compositenode/\#getChildNodes) is equivalent to calling **M:Aspose.Words.CompositeNode.GetChildNodes(Aspose.Words.NodeType,System.Boolean)** with arguments ( [NodeType.ANY](../../com.aspose.words/nodetype/\#ANY),  false ) and creates and returns a new collection every time it is accessed.
 
 If there are no child nodes, this property returns an empty collection.
 
 **Returns:**
-[NodeCollection](../../com.aspose.words/nodecollection) - All immediate child nodes of this node.
+[NodeCollection](../../com.aspose.words/nodecollection/) - All immediate child nodes of this node.
 ### getChildNodes(int nodeType, boolean isDeep) {#getChildNodes-int-boolean}
 ```
 public NodeCollection getChildNodes(int nodeType, boolean isDeep)
@@ -396,7 +397,7 @@ public NodeCollection getChildNodes(int nodeType, boolean isDeep)
 | isDeep | boolean |  |
 
 **Returns:**
-[NodeCollection](../../com.aspose.words/nodecollection)
+[NodeCollection](../../com.aspose.words/nodecollection/)
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -416,7 +417,7 @@ public CompositeNode getContainer()
 
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode)
+[CompositeNode](../../com.aspose.words/compositenode/)
 ### getCount() {#getCount}
 ```
 public int getCount()
@@ -436,7 +437,7 @@ public Node getCurrentNode()
 
 
 **Returns:**
-[Node](../../com.aspose.words/node)
+[Node](../../com.aspose.words/node/)
 ### getCustomNodeId() {#getCustomNodeId}
 ```
 public int getCustomNodeId()
@@ -507,7 +508,7 @@ Gets the document to which this node belongs.
 The node always belongs to a document even if it has just been created and not yet added to the tree, or if it has been removed from the tree.
 
 **Returns:**
-[DocumentBase](../../com.aspose.words/documentbase) - The document to which this node belongs.
+[DocumentBase](../../com.aspose.words/documentbase/) - The document to which this node belongs.
 ### getDocument_IInline() {#getDocument-IInline}
 ```
 public DocumentBase getDocument_IInline()
@@ -517,7 +518,7 @@ public DocumentBase getDocument_IInline()
 
 
 **Returns:**
-[DocumentBase](../../com.aspose.words/documentbase)
+[DocumentBase](../../com.aspose.words/documentbase/)
 ### getDone() {#getDone}
 ```
 public boolean getDone()
@@ -537,7 +538,7 @@ public Node getFirstChild()
 Gets the first child of the node. If there is no first child node, a  null  is returned.
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The first child of the node.
+[Node](../../com.aspose.words/node/) - The first child of the node.
 ### getFirstParagraph() {#getFirstParagraph}
 ```
 public Paragraph getFirstParagraph()
@@ -547,7 +548,7 @@ public Paragraph getFirstParagraph()
 Gets the first paragraph in the story.
 
 **Returns:**
-[Paragraph](../../com.aspose.words/paragraph) - The first paragraph in the story.
+[Paragraph](../../com.aspose.words/paragraph/) - The first paragraph in the story.
 ### getFont() {#getFont}
 ```
 public Font getFont()
@@ -557,7 +558,7 @@ public Font getFont()
 Provides access to the font formatting of the anchor character of this object.
 
 **Returns:**
-[Font](../../com.aspose.words/font) - The corresponding [Font](../../com.aspose.words/font) value.
+[Font](../../com.aspose.words/font/) - The corresponding [Font](../../com.aspose.words/font/) value.
 ### getId() {#getId}
 ```
 public int getId()
@@ -566,9 +567,9 @@ public int getId()
 
 Gets the comment identifier.
 
-The comment identifier allows to anchor a comment to a region of text in the document. The region must be demarcated using the [CommentRangeStart](../../com.aspose.words/commentrangestart) and [CommentRangeEnd](../../com.aspose.words/commentrangeend) object sharing the same identifier value as the [Comment](../../com.aspose.words/comment) object.
+The comment identifier allows to anchor a comment to a region of text in the document. The region must be demarcated using the [CommentRangeStart](../../com.aspose.words/commentrangestart/) and [CommentRangeEnd](../../com.aspose.words/commentrangeend/) object sharing the same identifier value as the [Comment](../../com.aspose.words/comment/) object.
 
-You would use this value when looking for the [CommentRangeStart](../../com.aspose.words/commentrangestart) and [CommentRangeEnd](../../com.aspose.words/commentrangeend) nodes that are linked to this comment.
+You would use this value when looking for the [CommentRangeStart](../../com.aspose.words/commentrangestart/) and [CommentRangeEnd](../../com.aspose.words/commentrangeend/) nodes that are linked to this comment.
 
 Comment identifiers are supposed to be unique across a document and Aspose.Words automatically maintains comment identifiers when loading, saving and combining documents.
 
@@ -607,7 +608,7 @@ public Node getLastChild()
 Gets the last child of the node. If there is no last child node, a  null  is returned.
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The last child of the node.
+[Node](../../com.aspose.words/node/) - The last child of the node.
 ### getLastParagraph() {#getLastParagraph}
 ```
 public Paragraph getLastParagraph()
@@ -617,7 +618,7 @@ public Paragraph getLastParagraph()
 Gets the last paragraph in the story.
 
 **Returns:**
-[Paragraph](../../com.aspose.words/paragraph) - The last paragraph in the story.
+[Paragraph](../../com.aspose.words/paragraph/) - The last paragraph in the story.
 ### getNextMatchingNode(Node curNode) {#getNextMatchingNode-com.aspose.words.Node}
 ```
 public Node getNextMatchingNode(Node curNode)
@@ -629,10 +630,10 @@ public Node getNextMatchingNode(Node curNode)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| curNode | [Node](../../com.aspose.words/node) |  |
+| curNode | [Node](../../com.aspose.words/node/) |  |
 
 **Returns:**
-[Node](../../com.aspose.words/node)
+[Node](../../com.aspose.words/node/)
 ### getNextSibling() {#getNextSibling}
 ```
 public Node getNextSibling()
@@ -642,17 +643,17 @@ public Node getNextSibling()
 Gets the node immediately following this node. If there is no next node, a  null  is returned.
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The node immediately following this node.
+[Node](../../com.aspose.words/node/) - The node immediately following this node.
 ### getNodeType() {#getNodeType}
 ```
 public int getNodeType()
 ```
 
 
-Returns [NodeType.COMMENT](../../com.aspose.words/nodetype\#COMMENT).
+Returns [NodeType.COMMENT](../../com.aspose.words/nodetype/\#COMMENT).
 
 **Returns:**
-int - \{[NodeType.COMMENT](../../com.aspose.words/nodetype\#COMMENT). The returned value is one of [NodeType](../../com.aspose.words/nodetype) constants.
+int - \{[NodeType.COMMENT](../../com.aspose.words/nodetype/\#COMMENT). The returned value is one of [NodeType](../../com.aspose.words/nodetype/) constants.
 ### getParagraphs() {#getParagraphs}
 ```
 public ParagraphCollection getParagraphs()
@@ -662,7 +663,7 @@ public ParagraphCollection getParagraphs()
 Gets a collection of paragraphs that are immediate children of the story.
 
 **Returns:**
-[ParagraphCollection](../../com.aspose.words/paragraphcollection) - A collection of paragraphs that are immediate children of the story.
+[ParagraphCollection](../../com.aspose.words/paragraphcollection/) - A collection of paragraphs that are immediate children of the story.
 ### getParentIdInternal() {#getParentIdInternal}
 ```
 public int getParentIdInternal()
@@ -684,17 +685,17 @@ Gets the immediate parent of this node.
 If a node has just been created and not yet added to the tree, or if it has been removed from the tree, the parent is  null .
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode) - The immediate parent of this node.
+[CompositeNode](../../com.aspose.words/compositenode/) - The immediate parent of this node.
 ### getParentParagraph() {#getParentParagraph}
 ```
 public Paragraph getParentParagraph()
 ```
 
 
-Retrieves the parent [Paragraph](../../com.aspose.words/paragraph) of this node.
+Retrieves the parent [Paragraph](../../com.aspose.words/paragraph/) of this node.
 
 **Returns:**
-[Paragraph](../../com.aspose.words/paragraph) - The corresponding [Paragraph](../../com.aspose.words/paragraph) value.
+[Paragraph](../../com.aspose.words/paragraph/) - The corresponding [Paragraph](../../com.aspose.words/paragraph/) value.
 ### getParentParagraph_IInline() {#getParentParagraph-IInline}
 ```
 public Paragraph getParentParagraph_IInline()
@@ -704,7 +705,7 @@ public Paragraph getParentParagraph_IInline()
 
 
 **Returns:**
-[Paragraph](../../com.aspose.words/paragraph)
+[Paragraph](../../com.aspose.words/paragraph/)
 ### getPreviousSibling() {#getPreviousSibling}
 ```
 public Node getPreviousSibling()
@@ -714,37 +715,37 @@ public Node getPreviousSibling()
 Gets the node immediately preceding this node. If there is no preceding node, a  null  is returned.
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The node immediately preceding this node.
+[Node](../../com.aspose.words/node/) - The node immediately preceding this node.
 ### getRange() {#getRange}
 ```
 public Range getRange()
 ```
 
 
-Returns a [Range](../../com.aspose.words/range) object that represents the portion of a document that is contained in this node.
+Returns a [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node.
 
 **Returns:**
-[Range](../../com.aspose.words/range) - A [Range](../../com.aspose.words/range) object that represents the portion of a document that is contained in this node.
+[Range](../../com.aspose.words/range/) - A [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node.
 ### getReplies() {#getReplies}
 ```
 public CommentCollection getReplies()
 ```
 
 
-Returns a collection of [Comment](../../com.aspose.words/comment) objects that are immediate children of the specified comment.
+Returns a collection of [Comment](../../com.aspose.words/comment/) objects that are immediate children of the specified comment.
 
 **Returns:**
-[CommentCollection](../../com.aspose.words/commentcollection) - A collection of [Comment](../../com.aspose.words/comment) objects that are immediate children of the specified comment.
+[CommentCollection](../../com.aspose.words/commentcollection/) - A collection of [Comment](../../com.aspose.words/comment/) objects that are immediate children of the specified comment.
 ### getStoryType() {#getStoryType}
 ```
 public int getStoryType()
 ```
 
 
-Returns [StoryType.COMMENTS](../../com.aspose.words/storytype\#COMMENTS).
+Returns [StoryType.COMMENTS](../../com.aspose.words/storytype/\#COMMENTS).
 
 **Returns:**
-int - \{[StoryType.COMMENTS](../../com.aspose.words/storytype\#COMMENTS). The returned value is one of [StoryType](../../com.aspose.words/storytype) constants.
+int - \{[StoryType.COMMENTS](../../com.aspose.words/storytype/\#COMMENTS). The returned value is one of [StoryType](../../com.aspose.words/storytype/) constants.
 ### getTables() {#getTables}
 ```
 public TableCollection getTables()
@@ -754,7 +755,7 @@ public TableCollection getTables()
 Gets a collection of tables that are immediate children of the story.
 
 **Returns:**
-[TableCollection](../../com.aspose.words/tablecollection) - A collection of tables that are immediate children of the story.
+[TableCollection](../../com.aspose.words/tablecollection/) - A collection of tables that are immediate children of the story.
 ### getText() {#getText}
 ```
 public String getText()
@@ -763,7 +764,7 @@ public String getText()
 
 Gets the text of this node and of all its children.
 
-The returned string includes all control and special characters as described in [ControlChar](../../com.aspose.words/controlchar).
+The returned string includes all control and special characters as described in [ControlChar](../../com.aspose.words/controlchar/).
 
 **Returns:**
 java.lang.String
@@ -798,7 +799,7 @@ Returns the index of the specified child node in the child node array. Returns -
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| child | [Node](../../com.aspose.words/node) |  |
+| child | [Node](../../com.aspose.words/node/) |  |
 
 **Returns:**
 int
@@ -819,11 +820,11 @@ If the node being inserted was created from another document, you should use **M
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | The [Node](../../com.aspose.words/node) to insert. |
-| refChild | [Node](../../com.aspose.words/node) | The [Node](../../com.aspose.words/node) that is the reference node. The  newChild  is placed after the  refChild . |
+| newChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) to insert. |
+| refChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) that is the reference node. The  newChild  is placed after the  refChild . |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The inserted node.
+[Node](../../com.aspose.words/node/) - The inserted node.
 ### insertBefore(Node newChild, Node refChild) {#insertBefore-com.aspose.words.Node-com.aspose.words.Node}
 ```
 public Node insertBefore(Node newChild, Node refChild)
@@ -841,11 +842,11 @@ If the node being inserted was created from another document, you should use **M
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | The [Node](../../com.aspose.words/node) to insert. |
-| refChild | [Node](../../com.aspose.words/node) | The [Node](../../com.aspose.words/node) that is the reference node. The  newChild  is placed before this node. |
+| newChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) to insert. |
+| refChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) that is the reference node. The  newChild  is placed before this node. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The inserted node.
+[Node](../../com.aspose.words/node/) - The inserted node.
 ### isComposite() {#isComposite}
 ```
 public boolean isComposite()
@@ -917,10 +918,10 @@ Gets next node according to the pre-order tree traversal algorithm.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node) | The top node (limit) of traversal. |
+| rootNode | [Node](../../com.aspose.words/node/) | The top node (limit) of traversal. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - Next node in pre-order order. Null if reached the  rootNode .
+[Node](../../com.aspose.words/node/) - Next node in pre-order order. Null if reached the  rootNode .
 ### nodeTypeToString(int nodeType) {#nodeTypeToString-int}
 ```
 public static String nodeTypeToString(int nodeType)
@@ -967,10 +968,10 @@ If the node being inserted was created from another document, you should use **M
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | The node to add. |
+| newChild | [Node](../../com.aspose.words/node/) | The node to add. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The node added.
+[Node](../../com.aspose.words/node/) - The node added.
 ### previousPreOrder(Node rootNode) {#previousPreOrder-com.aspose.words.Node}
 ```
 public Node previousPreOrder(Node rootNode)
@@ -982,10 +983,10 @@ Gets the previous node according to the pre-order tree traversal algorithm.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node) | The top node (limit) of traversal. |
+| rootNode | [Node](../../com.aspose.words/node/) | The top node (limit) of traversal. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - Previous node in pre-order order. Null if reached the  rootNode .
+[Node](../../com.aspose.words/node/) - Previous node in pre-order order. Null if reached the  rootNode .
 ### remove() {#remove}
 ```
 public void remove()
@@ -1023,10 +1024,10 @@ The parent of  oldChild  is set to  null  after the node is removed.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| oldChild | [Node](../../com.aspose.words/node) | The node to remove. |
+| oldChild | [Node](../../com.aspose.words/node/) | The node to remove. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The removed node.
+[Node](../../com.aspose.words/node/) - The removed node.
 ### removeMoveRevisions() {#removeMoveRevisions}
 ```
 public void removeMoveRevisions()
@@ -1046,7 +1047,7 @@ Removes the specified reply to this comment. All constituent nodes of the reply 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| reply | [Comment](../../com.aspose.words/comment) | The comment node of the deleting reply. |
+| reply | [Comment](../../com.aspose.words/comment/) | The comment node of the deleting reply. |
 
 ### removeRunAttr(int key) {#removeRunAttr-int}
 ```
@@ -1067,7 +1068,7 @@ public void removeSmartTags()
 ```
 
 
-Removes all [SmartTag](../../com.aspose.words/smarttag) descendant nodes of the current node. This method does not remove the content of the smart tags.
+Removes all [SmartTag](../../com.aspose.words/smarttag/) descendant nodes of the current node. This method does not remove the content of the smart tags.
 
 ### selectNodes(String xpath) {#selectNodes-java.lang.String}
 ```
@@ -1085,14 +1086,14 @@ Only expressions with element names are supported at the moment. Expressions tha
 | xpath | java.lang.String | The XPath expression. |
 
 **Returns:**
-[NodeList](../../com.aspose.words/nodelist) - A list of nodes matching the XPath query.
+[NodeList](../../com.aspose.words/nodelist/) - A list of nodes matching the XPath query.
 ### selectSingleNode(String xpath) {#selectSingleNode-java.lang.String}
 ```
 public Node selectSingleNode(String xpath)
 ```
 
 
-Selects the first [Node](../../com.aspose.words/node) that matches the XPath expression.
+Selects the first [Node](../../com.aspose.words/node/) that matches the XPath expression.
 
 Only expressions with element names are supported at the moment. Expressions that use attribute names are not supported.
 
@@ -1102,7 +1103,7 @@ Only expressions with element names are supported at the moment. Expressions tha
 | xpath | java.lang.String | The XPath expression. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The first [Node](../../com.aspose.words/node) that matches the XPath query or  null  if no matching node is found.
+[Node](../../com.aspose.words/node/) - The first [Node](../../com.aspose.words/node/) that matches the XPath query or  null  if no matching node is found.
 ### setAuthor(String value) {#setAuthor-java.lang.String}
 ```
 public void setAuthor(String value)
@@ -1260,7 +1261,7 @@ Exports the content of the node into a string using the specified save options.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions) | Specifies the options that control how the node is saved. |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) | Specifies the options that control how the node is saved. |
 
 **Returns:**
 java.lang.String - The content of the node in the specified format.

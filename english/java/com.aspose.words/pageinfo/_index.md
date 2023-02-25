@@ -1,9 +1,10 @@
 ---
 title: PageInfo
+linktitle: PageInfo
 second_title: Aspose.Words for Java API Reference
-description: Represents information about a particular document page.
+description: Represents information about a particular document page in Java.
 type: docs
-weight: 438
+weight: 440
 url: /java/com.aspose.words/pageinfo/
 ---
 
@@ -96,7 +97,7 @@ public int getPaperSize()
 Gets the paper size as enumeration.
 
 **Returns:**
-int - The paper size as enumeration. The returned value is one of [PaperSize](../../com.aspose.words/papersize) constants.
+int - The paper size as enumeration. The returned value is one of [PaperSize](../../com.aspose.words/papersize/) constants.
 ### getPaperTray() {#getPaperTray}
 ```
 public int getPaperTray()

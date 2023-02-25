@@ -1,9 +1,10 @@
 ---
 title: RevisionGroup
+linktitle: RevisionGroup
 second_title: Aspose.Words for Java API Reference
-description: Represents a group of sequential  objects.
+description: Represents a group of sequential  objects in Java.
 type: docs
-weight: 490
+weight: 492
 url: /java/com.aspose.words/revisiongroup/
 ---
 
@@ -13,7 +14,7 @@ java.lang.Object
 public class RevisionGroup
 ```
 
-Represents a group of sequential [Revision](../../com.aspose.words/revision) objects.
+Represents a group of sequential [Revision](../../com.aspose.words/revision/) objects.
 
 To learn more, visit the [ Track Changes in a Document ][Track Changes in a Document] documentation article.
 
@@ -79,7 +80,7 @@ public int getRevisionType()
 Gets the type of revisions included in this group.
 
 **Returns:**
-int - The type of revisions included in this group. The returned value is one of [RevisionType](../../com.aspose.words/revisiontype) constants.
+int - The type of revisions included in this group. The returned value is one of [RevisionType](../../com.aspose.words/revisiontype/) constants.
 ### getText() {#getText}
 ```
 public String getText()

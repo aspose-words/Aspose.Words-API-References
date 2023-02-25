@@ -1,9 +1,10 @@
 ---
 title: VbaReference
+linktitle: VbaReference
 second_title: Aspose.Words for Java API Reference
-description: Implements a reference to an Automation type library or VBA project.
+description: Implements a reference to an Automation type library or VBA project in Java.
 type: docs
-weight: 601
+weight: 603
 url: /java/com.aspose.words/vbareference/
 ---
 
@@ -34,7 +35,7 @@ To learn more, visit the [ Working with VBA Macros ][Working with VBA Macros] do
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getClass()](#getClass) |  |
 | [getLibId()](#getLibId) | Gets a string value containing the identifier of an Automation type library. |
-| [getType()](#getType) | Gets [VbaReferenceType](../../com.aspose.words/vbareferencetype) object that indicates the type of reference that a [VbaReference](../../com.aspose.words/vbareference) object represents. |
+| [getType()](#getType) | Gets [VbaReferenceType](../../com.aspose.words/vbareferencetype/) object that indicates the type of reference that a [VbaReference](../../com.aspose.words/vbareference/) object represents. |
 | [hashCode()](#hashCode) |  |
 | [notify()](#notify) |  |
 | [notifyAll()](#notifyAll) |  |
@@ -92,10 +93,10 @@ public abstract int getType()
 ```
 
 
-Gets [VbaReferenceType](../../com.aspose.words/vbareferencetype) object that indicates the type of reference that a [VbaReference](../../com.aspose.words/vbareference) object represents.
+Gets [VbaReferenceType](../../com.aspose.words/vbareferencetype/) object that indicates the type of reference that a [VbaReference](../../com.aspose.words/vbareference/) object represents.
 
 **Returns:**
-int - \{[VbaReferenceType](../../com.aspose.words/vbareferencetype) object that indicates the type of reference that a [VbaReference](../../com.aspose.words/vbareference) object represents. The returned value is one of [VbaReferenceType](../../com.aspose.words/vbareferencetype) constants.
+int - \{[VbaReferenceType](../../com.aspose.words/vbareferencetype/) object that indicates the type of reference that a [VbaReference](../../com.aspose.words/vbareference/) object represents. The returned value is one of [VbaReferenceType](../../com.aspose.words/vbareferencetype/) constants.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()

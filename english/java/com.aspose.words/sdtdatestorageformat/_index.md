@@ -1,9 +1,10 @@
 ---
 title: SdtDateStorageFormat
+linktitle: SdtDateStorageFormat
 second_title: Aspose.Words for Java API Reference
-description: Specifies how the date for a date SDT is stored/retrieved when the SDT is bound to an XML node in the documents data store.
+description: Specifies how the date for a date SDT is stored/retrieved when the SDT is bound to an XML node in the documents data store in Java.
 type: docs
-weight: 509
+weight: 511
 url: /java/com.aspose.words/sdtdatestorageformat/
 ---
 
@@ -20,7 +21,7 @@ Specifies how the date for a date SDT is stored/retrieved when the SDT is bound 
 | --- | --- |
 | [DATE](#DATE) | The date value for a date SDT is stored as a date in the standard XML Schema Date format. |
 | [DATE_TIME](#DATE-TIME) | The date value for a date SDT is stored as a date in the standard XML Schema DateTime format. |
-| [DEFAULT](#DEFAULT) | Defaults to [DATE\_TIME](../../com.aspose.words/sdtdatestorageformat\#DATE-TIME) |
+| [DEFAULT](#DEFAULT) | Defaults to [DATE\_TIME](../../com.aspose.words/sdtdatestorageformat/\#DATE-TIME) |
 | [TEXT](#TEXT) | The date value for a date SDT is stored as text. |
 | [length](#length) |  |
 ## Methods
@@ -62,7 +63,7 @@ public static int DEFAULT
 ```
 
 
-Defaults to [DATE\_TIME](../../com.aspose.words/sdtdatestorageformat\#DATE-TIME)
+Defaults to [DATE\_TIME](../../com.aspose.words/sdtdatestorageformat/\#DATE-TIME)
 
 ### TEXT {#TEXT}
 ```

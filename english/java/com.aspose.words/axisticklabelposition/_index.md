@@ -1,7 +1,8 @@
 ---
 title: AxisTickLabelPosition
+linktitle: AxisTickLabelPosition
 second_title: Aspose.Words for Java API Reference
-description: Specifies the possible positions for tick labels.
+description: Specifies the possible positions for tick labels in Java.
 type: docs
 weight: 23
 url: /java/com.aspose.words/axisticklabelposition/

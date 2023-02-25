@@ -1,7 +1,8 @@
 ---
 title: FindReplaceDirection
+linktitle: FindReplaceDirection
 second_title: Aspose.Words for Java API Reference
-description: Specifies direction for replace operations.
+description: Specifies direction for replace operations in Java.
 type: docs
 weight: 271
 url: /java/com.aspose.words/findreplacedirection/

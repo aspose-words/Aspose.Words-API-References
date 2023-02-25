@@ -1,7 +1,8 @@
 ---
 title: ChartLegendEntryCollection
+linktitle: ChartLegendEntryCollection
 second_title: Aspose.Words for Java API Reference
-description: Represents a collection of chart legend entries.
+description: Represents a collection of chart legend entries in Java.
 type: docs
 weight: 65
 url: /java/com.aspose.words/chartlegendentrycollection/
@@ -27,9 +28,9 @@ To learn more, visit the [ Working with Charts ][Working with Charts] documentat
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [get(int index)](#get-int) | Returns [ChartLegendEntry](../../com.aspose.words/chartlegendentry) for the specified index. |
+| [get(int index)](#get-int) | Returns [ChartLegendEntry](../../com.aspose.words/chartlegendentry/) for the specified index. |
 | [getClass()](#getClass) |  |
-| [getCount()](#getCount) | Returns the number of [ChartLegendEntry](../../com.aspose.words/chartlegendentry) in this collection. |
+| [getCount()](#getCount) | Returns the number of [ChartLegendEntry](../../com.aspose.words/chartlegendentry/) in this collection. |
 | [hashCode()](#hashCode) |  |
 | [iterator()](#iterator) | Returns an enumerator object. |
 | [notify()](#notify) |  |
@@ -59,7 +60,7 @@ public ChartLegendEntry get(int index)
 ```
 
 
-Returns [ChartLegendEntry](../../com.aspose.words/chartlegendentry) for the specified index.
+Returns [ChartLegendEntry](../../com.aspose.words/chartlegendentry/) for the specified index.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -67,7 +68,7 @@ Returns [ChartLegendEntry](../../com.aspose.words/chartlegendentry) for the spec
 | index | int |  |
 
 **Returns:**
-[ChartLegendEntry](../../com.aspose.words/chartlegendentry) - \{[ChartLegendEntry](../../com.aspose.words/chartlegendentry) for the specified index.
+[ChartLegendEntry](../../com.aspose.words/chartlegendentry/) - \{[ChartLegendEntry](../../com.aspose.words/chartlegendentry/) for the specified index.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -84,10 +85,10 @@ public int getCount()
 ```
 
 
-Returns the number of [ChartLegendEntry](../../com.aspose.words/chartlegendentry) in this collection.
+Returns the number of [ChartLegendEntry](../../com.aspose.words/chartlegendentry/) in this collection.
 
 **Returns:**
-int - The number of [ChartLegendEntry](../../com.aspose.words/chartlegendentry) in this collection.
+int - The number of [ChartLegendEntry](../../com.aspose.words/chartlegendentry/) in this collection.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()

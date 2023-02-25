@@ -1,7 +1,8 @@
 ---
 title: HtmlInsertOptions
+linktitle: HtmlInsertOptions
 second_title: Aspose.Words for Java API Reference
-description: Specifies options for the MAspose.Words.DocumentBuilder.InsertHtmlSystem.StringAspose.Words.HtmlInsertOptions method.
+description: Specifies options for the MAspose.Words.DocumentBuilder.InsertHtmlSystem.StringAspose.Words.HtmlInsertOptions method in Java.
 type: docs
 weight: 329
 url: /java/com.aspose.words/htmlinsertoptions/
@@ -21,7 +22,7 @@ Specifies options for the **M:Aspose.Words.DocumentBuilder.InsertHtml(System.Str
 | [NONE](#NONE) | Use the default options when inserting HTML. |
 | [PRESERVE_BLOCKS](#PRESERVE-BLOCKS) | Preserve properties of block-level elements. |
 | [REMOVE_LAST_EMPTY_PARAGRAPH](#REMOVE-LAST-EMPTY-PARAGRAPH) | Remove the empty paragraph that is normally inserted after HTML that ends with a block-level element. |
-| [USE_BUILDER_FORMATTING](#USE-BUILDER-FORMATTING) | Use font and paragraph formatting specified in [DocumentBuilder](../../com.aspose.words/documentbuilder) as base formatting for text inserted from HTML. |
+| [USE_BUILDER_FORMATTING](#USE-BUILDER-FORMATTING) | Use font and paragraph formatting specified in [DocumentBuilder](../../com.aspose.words/documentbuilder/) as base formatting for text inserted from HTML. |
 | [length](#length) |  |
 ## Methods
 
@@ -71,7 +72,7 @@ public static int REMOVE_LAST_EMPTY_PARAGRAPH
 ```
 
 
-Remove the empty paragraph that is normally inserted after HTML that ends with a block-level element. By default, [DocumentBuilder](../../com.aspose.words/documentbuilder) makes sure that the last block-level element imported from HTML is closed after import and inserts a paragraph break after the element. This paragraph break separates content imported from HTML from content of the template document. However, if a HTML fragment is inserted into an empty paragraph, that paragraph break will create an extra empty paragraph. If this behavior is undesired, specify this option.
+Remove the empty paragraph that is normally inserted after HTML that ends with a block-level element. By default, [DocumentBuilder](../../com.aspose.words/documentbuilder/) makes sure that the last block-level element imported from HTML is closed after import and inserts a paragraph break after the element. This paragraph break separates content imported from HTML from content of the template document. However, if a HTML fragment is inserted into an empty paragraph, that paragraph break will create an extra empty paragraph. If this behavior is undesired, specify this option.
 
 ### USE_BUILDER_FORMATTING {#USE-BUILDER-FORMATTING}
 ```
@@ -79,11 +80,11 @@ public static int USE_BUILDER_FORMATTING
 ```
 
 
-Use font and paragraph formatting specified in [DocumentBuilder](../../com.aspose.words/documentbuilder) as base formatting for text inserted from HTML.
+Use font and paragraph formatting specified in [DocumentBuilder](../../com.aspose.words/documentbuilder/) as base formatting for text inserted from HTML.
 
-If this option is not specified, formatting of [DocumentBuilder](../../com.aspose.words/documentbuilder) is ignored and text is inserted with default HTML formatting. As a result, the text looks as it is rendered in browsers.
+If this option is not specified, formatting of [DocumentBuilder](../../com.aspose.words/documentbuilder/) is ignored and text is inserted with default HTML formatting. As a result, the text looks as it is rendered in browsers.
 
-If this option is specified, formatting of inserted text is based on formatting specified in [DocumentBuilder](../../com.aspose.words/documentbuilder), and the text looks as if it were inserted using [DocumentBuilder.write(java.lang.String)](../../com.aspose.words/documentbuilder\#write-java.lang.String).
+If this option is specified, formatting of inserted text is based on formatting specified in [DocumentBuilder](../../com.aspose.words/documentbuilder/), and the text looks as if it were inserted using [DocumentBuilder.write(java.lang.String)](../../com.aspose.words/documentbuilder/\#write-java.lang.String).
 
 ### length {#length}
 ```

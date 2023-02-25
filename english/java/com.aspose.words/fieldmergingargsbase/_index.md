@@ -1,7 +1,8 @@
 ---
 title: FieldMergingArgsBase
+linktitle: FieldMergingArgsBase
 second_title: Aspose.Words for Java API Reference
-description: Base class for  and .
+description: Base class for  and in Java.
 type: docs
 weight: 220
 url: /java/com.aspose.words/fieldmergingargsbase/
@@ -13,7 +14,7 @@ java.lang.Object
 public abstract class FieldMergingArgsBase
 ```
 
-Base class for [FieldMergingArgs](../../com.aspose.words/fieldmergingargs) and [ImageFieldMergingArgs](../../com.aspose.words/imagefieldmergingargs).
+Base class for [FieldMergingArgs](../../com.aspose.words/fieldmergingargs/) and [ImageFieldMergingArgs](../../com.aspose.words/imagefieldmergingargs/).
 
 To learn more, visit the [ Mail Merge and Reporting ][Mail Merge and Reporting] documentation article.
 
@@ -30,7 +31,7 @@ To learn more, visit the [ Mail Merge and Reporting ][Mail Merge and Reporting] 
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getClass()](#getClass) |  |
-| [getDocument()](#getDocument) | Returns the [getDocument()](../../com.aspose.words/fieldmergingargsbase\#getDocument) object for which the mail merge is performed. |
+| [getDocument()](#getDocument) | Returns the [getDocument()](../../com.aspose.words/fieldmergingargsbase/\#getDocument) object for which the mail merge is performed. |
 | [getDocumentFieldName()](#getDocumentFieldName) | Gets the name of the merge field as specified in the document. |
 | [getField()](#getField) | Gets the object that represents the current merge field. |
 | [getFieldName()](#getFieldName) | Gets the name of the merge field in the data source. |
@@ -82,10 +83,10 @@ public Document getDocument()
 ```
 
 
-Returns the [getDocument()](../../com.aspose.words/fieldmergingargsbase\#getDocument) object for which the mail merge is performed.
+Returns the [getDocument()](../../com.aspose.words/fieldmergingargsbase/\#getDocument) object for which the mail merge is performed.
 
 **Returns:**
-[Document](../../com.aspose.words/document) - The [getDocument()](../../com.aspose.words/fieldmergingargsbase\#getDocument) object for which the mail merge is performed.
+[Document](../../com.aspose.words/document/) - The [getDocument()](../../com.aspose.words/fieldmergingargsbase/\#getDocument) object for which the mail merge is performed.
 ### getDocumentFieldName() {#getDocumentFieldName}
 ```
 public String getDocumentFieldName()
@@ -96,7 +97,7 @@ Gets the name of the merge field as specified in the document.
 
 If you have a mapping from a document field name to a different data source field name, then this is the original field name as specified in the document.
 
-If you specified a field name prefix, for example "Image:MyFieldName" in the document, then [getDocumentFieldName()](../../com.aspose.words/fieldmergingargsbase\#getDocumentFieldName) returns field name without the prefix, that is "MyFieldName".
+If you specified a field name prefix, for example "Image:MyFieldName" in the document, then [getDocumentFieldName()](../../com.aspose.words/fieldmergingargsbase/\#getDocumentFieldName) returns field name without the prefix, that is "MyFieldName".
 
 **Returns:**
 java.lang.String - The name of the merge field as specified in the document.
@@ -109,7 +110,7 @@ public FieldMergeField getField()
 Gets the object that represents the current merge field.
 
 **Returns:**
-[FieldMergeField](../../com.aspose.words/fieldmergefield) - The object that represents the current merge field.
+[FieldMergeField](../../com.aspose.words/fieldmergefield/) - The object that represents the current merge field.
 ### getFieldName() {#getFieldName}
 ```
 public String getFieldName()
@@ -120,7 +121,7 @@ Gets the name of the merge field in the data source.
 
 If you have a mapping from a document field name to a different data source field name, then this is the mapped field name.
 
-If you specified a field name prefix, for example "Image:MyFieldName" in the document, then [getFieldName()](../../com.aspose.words/fieldmergingargsbase\#getFieldName) returns field name without the prefix, that is "MyFieldName".
+If you specified a field name prefix, for example "Image:MyFieldName" in the document, then [getFieldName()](../../com.aspose.words/fieldmergingargsbase/\#getFieldName) returns field name without the prefix, that is "MyFieldName".
 
 **Returns:**
 java.lang.String - The name of the merge field in the data source.

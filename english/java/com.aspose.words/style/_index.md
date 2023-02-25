@@ -1,9 +1,10 @@
 ---
 title: Style
+linktitle: Style
 second_title: Aspose.Words for Java API Reference
-description: Represents a single built-in or user-defined style.
+description: Represents a single built-in or user-defined style in Java.
 type: docs
-weight: 540
+weight: 542
 url: /java/com.aspose.words/style/
 ---
 
@@ -34,6 +35,7 @@ To learn more, visit the [ Working with Styles and Themes ][Working with Styles 
 | [fetchInheritedRunAttr(int key)](#fetchInheritedRunAttr-int) |  |
 | [fetchParaAttr(int key)](#fetchParaAttr-int) |  |
 | [getAliases()](#getAliases) | Gets all aliases of this style. |
+| [getAutomaticallyUpdate()](#getAutomaticallyUpdate) | Specifies whether this style is automatically redefined based on the appropriate value. |
 | [getBaseStyleName()](#getBaseStyleName) | Gets/sets the name of the style this style is based on. |
 | [getBuiltIn()](#getBuiltIn) | True if this style is one of the built-in styles in MS Word. |
 | [getClass()](#getClass) |  |
@@ -43,7 +45,7 @@ To learn more, visit the [ Working with Styles and Themes ][Working with Styles 
 | [getDirectRunAttr(int key, int revisionsView)](#getDirectRunAttr-int-int) |  |
 | [getDocument()](#getDocument) | Gets the owner document. |
 | [getFont()](#getFont) | Gets the character formatting of the style. |
-| [getLinkedStyleName()](#getLinkedStyleName) | Gets the name of the [Style](../../com.aspose.words/style) linked to this one. |
+| [getLinkedStyleName()](#getLinkedStyleName) | Gets the name of the [Style](../../com.aspose.words/style/) linked to this one. |
 | [getList()](#getList) | Gets the list that defines formatting of this list style. |
 | [getListFormat()](#getListFormat) | Provides access to the list formatting properties of a paragraph style. |
 | [getName()](#getName) | Gets the name of the style. |
@@ -61,6 +63,7 @@ To learn more, visit the [ Working with Styles and Themes ][Working with Styles 
 | [remove()](#remove) | Removes the specified style from the document. |
 | [removeParaAttr(int key)](#removeParaAttr-int) |  |
 | [removeRunAttr(int key)](#removeRunAttr-int) |  |
+| [setAutomaticallyUpdate(boolean value)](#setAutomaticallyUpdate-boolean) | Specifies whether this style is automatically redefined based on the appropriate value. |
 | [setBaseStyleName(String value)](#setBaseStyleName-java.lang.String) | Gets/sets the name of the style this style is based on. |
 | [setName(String value)](#setName-java.lang.String) | Sets the name of the style. |
 | [setNextParagraphStyleName(String value)](#setNextParagraphStyleName-java.lang.String) | Gets/sets the name of the style to be applied automatically to a new paragraph inserted after a paragraph formatted with the specified style. |
@@ -97,7 +100,7 @@ Compares with the specified style. Styles Istds are compared for built-in styles
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| style | [Style](../../com.aspose.words/style) |  |
+| style | [Style](../../com.aspose.words/style/) |  |
 
 **Returns:**
 boolean
@@ -171,6 +174,22 @@ Gets all aliases of this style. If style has no aliases then empty array of stri
 
 **Returns:**
 java.lang.String[] - All aliases of this style.
+### getAutomaticallyUpdate() {#getAutomaticallyUpdate}
+```
+public boolean getAutomaticallyUpdate()
+```
+
+
+Specifies whether this style is automatically redefined based on the appropriate value.
+
+If the property value is set to true, MS Word automatically redefines the current style when the appropriate paragraph formatting has been changed.
+
+AutomaticallyUpdate property is applicable to paragraph styles only.
+
+The default value is  false .
+
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getBaseStyleName() {#getBaseStyleName}
 ```
 public String getBaseStyleName()
@@ -272,7 +291,7 @@ public DocumentBase getDocument()
 Gets the owner document.
 
 **Returns:**
-[DocumentBase](../../com.aspose.words/documentbase) - The owner document.
+[DocumentBase](../../com.aspose.words/documentbase/) - The owner document.
 ### getFont() {#getFont}
 ```
 public Font getFont()
@@ -284,17 +303,17 @@ Gets the character formatting of the style.
 For list styles this property returns  null .
 
 **Returns:**
-[Font](../../com.aspose.words/font) - The character formatting of the style.
+[Font](../../com.aspose.words/font/) - The character formatting of the style.
 ### getLinkedStyleName() {#getLinkedStyleName}
 ```
 public String getLinkedStyleName()
 ```
 
 
-Gets the name of the [Style](../../com.aspose.words/style) linked to this one. Returns empty string if no styles are linked.
+Gets the name of the [Style](../../com.aspose.words/style/) linked to this one. Returns empty string if no styles are linked.
 
 **Returns:**
-java.lang.String - The name of the [Style](../../com.aspose.words/style) linked to this one.
+java.lang.String - The name of the [Style](../../com.aspose.words/style/) linked to this one.
 ### getList() {#getList}
 ```
 public List getList()
@@ -306,7 +325,7 @@ Gets the list that defines formatting of this list style.
 This property is only valid for list styles. For other style types this property returns  null .
 
 **Returns:**
-[List](../../com.aspose.words/list) - The list that defines formatting of this list style.
+[List](../../com.aspose.words/list/) - The list that defines formatting of this list style.
 ### getListFormat() {#getListFormat}
 ```
 public ListFormat getListFormat()
@@ -318,7 +337,7 @@ Provides access to the list formatting properties of a paragraph style.
 This property is only valid for paragraph styles. For other style types this property returns  null .
 
 **Returns:**
-[ListFormat](../../com.aspose.words/listformat) - The corresponding [ListFormat](../../com.aspose.words/listformat) value.
+[ListFormat](../../com.aspose.words/listformat/) - The corresponding [ListFormat](../../com.aspose.words/listformat/) value.
 ### getName() {#getName}
 ```
 public String getName()
@@ -354,7 +373,7 @@ Gets the paragraph formatting of the style.
 For character and list styles this property returns  null .
 
 **Returns:**
-[ParagraphFormat](../../com.aspose.words/paragraphformat) - The paragraph formatting of the style.
+[ParagraphFormat](../../com.aspose.words/paragraphformat/) - The paragraph formatting of the style.
 ### getStyleIdentifier() {#getStyleIdentifier}
 ```
 public int getStyleIdentifier()
@@ -363,10 +382,10 @@ public int getStyleIdentifier()
 
 Gets the locale independent style identifier for a built-in style.
 
-For user defined (custom) styles, this property returns [StyleIdentifier.USER](../../com.aspose.words/styleidentifier\#USER).
+For user defined (custom) styles, this property returns [StyleIdentifier.USER](../../com.aspose.words/styleidentifier/\#USER).
 
 **Returns:**
-int - The locale independent style identifier for a built-in style. The returned value is one of [StyleIdentifier](../../com.aspose.words/styleidentifier) constants.
+int - The locale independent style identifier for a built-in style. The returned value is one of [StyleIdentifier](../../com.aspose.words/styleidentifier/) constants.
 ### getStyles() {#getStyles}
 ```
 public StyleCollection getStyles()
@@ -376,7 +395,7 @@ public StyleCollection getStyles()
 Gets the collection of styles this style belongs to.
 
 **Returns:**
-[StyleCollection](../../com.aspose.words/stylecollection) - The collection of styles this style belongs to.
+[StyleCollection](../../com.aspose.words/stylecollection/) - The collection of styles this style belongs to.
 ### getType() {#getType}
 ```
 public int getType()
@@ -386,7 +405,7 @@ public int getType()
 Gets the style type (paragraph or character).
 
 **Returns:**
-int - The style type (paragraph or character). The returned value is one of [StyleType](../../com.aspose.words/styletype) constants.
+int - The style type (paragraph or character). The returned value is one of [StyleType](../../com.aspose.words/styletype/) constants.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()
@@ -483,6 +502,25 @@ public void removeRunAttr(int key)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
+
+### setAutomaticallyUpdate(boolean value) {#setAutomaticallyUpdate-boolean}
+```
+public void setAutomaticallyUpdate(boolean value)
+```
+
+
+Specifies whether this style is automatically redefined based on the appropriate value.
+
+If the property value is set to true, MS Word automatically redefines the current style when the appropriate paragraph formatting has been changed.
+
+AutomaticallyUpdate property is applicable to paragraph styles only.
+
+The default value is  false .
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setBaseStyleName(String value) {#setBaseStyleName-java.lang.String}
 ```

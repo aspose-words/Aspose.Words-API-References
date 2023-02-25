@@ -1,7 +1,8 @@
 ---
 title: Bookmark
+linktitle: Bookmark
 second_title: Aspose.Words for Java API Reference
-description: Represents a single bookmark.
+description: Represents a single bookmark in Java.
 type: docs
 weight: 31
 url: /java/com.aspose.words/bookmark/
@@ -17,7 +18,7 @@ Represents a single bookmark.
 
 To learn more, visit the [ Working with Bookmarks ][Working with Bookmarks] documentation article.
 
-[Bookmark](../../com.aspose.words/bookmark) is a "facade" object that encapsulates two nodes [getBookmarkStart()](../../com.aspose.words/bookmark\#getBookmarkStart) and [getBookmarkEnd()](../../com.aspose.words/bookmark\#getBookmarkEnd) in a document tree and allows to work with a bookmark as a single object.
+[Bookmark](../../com.aspose.words/bookmark/) is a "facade" object that encapsulates two nodes [getBookmarkStart()](../../com.aspose.words/bookmark/\#getBookmarkStart) and [getBookmarkEnd()](../../com.aspose.words/bookmark/\#getBookmarkEnd) in a document tree and allows to work with a bookmark as a single object.
 
 
 [Working with Bookmarks]: https://docs.aspose.com/words/java/working-with-bookmarks/
@@ -68,7 +69,7 @@ public BookmarkEnd getBookmarkEnd()
 Gets the node that represents the end of the bookmark.
 
 **Returns:**
-[BookmarkEnd](../../com.aspose.words/bookmarkend) - The node that represents the end of the bookmark.
+[BookmarkEnd](../../com.aspose.words/bookmarkend/) - The node that represents the end of the bookmark.
 ### getBookmarkStart() {#getBookmarkStart}
 ```
 public BookmarkStart getBookmarkStart()
@@ -78,7 +79,7 @@ public BookmarkStart getBookmarkStart()
 Gets the node that represents the start of the bookmark.
 
 **Returns:**
-[BookmarkStart](../../com.aspose.words/bookmarkstart) - The node that represents the start of the bookmark.
+[BookmarkStart](../../com.aspose.words/bookmarkstart/) - The node that represents the start of the bookmark.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()

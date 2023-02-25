@@ -1,7 +1,8 @@
 ---
 title: RefBoolean
+linktitle: RefBoolean
 second_title: Aspose.Words for Java API Reference
-description: Represents Out/Ref constructions for Boolean primitive type
+description: Represents Out/Ref constructions for Boolean primitive type in Java.
 type: docs
 weight: 11
 url: /java/com.aspose.words.ref/refboolean/

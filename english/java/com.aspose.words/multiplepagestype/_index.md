@@ -1,9 +1,10 @@
 ---
 title: MultiplePagesType
+linktitle: MultiplePagesType
 second_title: Aspose.Words for Java API Reference
-description: Specifies how document is printed out.
+description: Specifies how document is printed out in Java.
 type: docs
-weight: 404
+weight: 406
 url: /java/com.aspose.words/multiplepagestype/
 ---
 
@@ -20,7 +21,7 @@ Specifies how document is printed out.
 | --- | --- |
 | [BOOK_FOLD_PRINTING](#BOOK-FOLD-PRINTING) | Specifies whether to print the document as a book fold. |
 | [BOOK_FOLD_PRINTING_REVERSE](#BOOK-FOLD-PRINTING-REVERSE) | Specifies whether to print the document as a reverse book fold. |
-| [DEFAULT](#DEFAULT) | Default value is [NORMAL](../../com.aspose.words/multiplepagestype\#NORMAL) |
+| [DEFAULT](#DEFAULT) | Default value is [NORMAL](../../com.aspose.words/multiplepagestype/\#NORMAL) |
 | [MIRROR_MARGINS](#MIRROR-MARGINS) | Swaps left and right margins on facing pages. |
 | [NORMAL](#NORMAL) | Normal printing, no multiple pages specified. |
 | [TWO_PAGES_PER_SHEET](#TWO-PAGES-PER-SHEET) | Prints two pages per sheet. |
@@ -64,7 +65,7 @@ public static int DEFAULT
 ```
 
 
-Default value is [NORMAL](../../com.aspose.words/multiplepagestype\#NORMAL)
+Default value is [NORMAL](../../com.aspose.words/multiplepagestype/\#NORMAL)
 
 ### MIRROR_MARGINS {#MIRROR-MARGINS}
 ```

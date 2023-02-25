@@ -1,9 +1,10 @@
 ---
 title: IChartDataPoint
+linktitle: IChartDataPoint
 second_title: Aspose.Words for Java API Reference
-description: Contains properties of a single data point on the chart.
+description: Contains properties of a single data point on the chart in Java.
 type: docs
-weight: 637
+weight: 639
 url: /java/com.aspose.words/ichartdatapoint/
 ---
 ```
@@ -61,7 +62,7 @@ public abstract ChartMarker getMarker()
 Specifies a data marker. Marker is automatically created when requested.
 
 **Returns:**
-[ChartMarker](../../com.aspose.words/chartmarker) - The corresponding [ChartMarker](../../com.aspose.words/chartmarker) value.
+[ChartMarker](../../com.aspose.words/chartmarker/) - The corresponding [ChartMarker](../../com.aspose.words/chartmarker/) value.
 ### setBubble3D(boolean value) {#setBubble3D-boolean}
 ```
 public abstract void setBubble3D(boolean value)

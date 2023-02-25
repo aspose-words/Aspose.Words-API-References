@@ -1,9 +1,10 @@
 ---
 title: TextWatermarkOptions
+linktitle: TextWatermarkOptions
 second_title: Aspose.Words for Java API Reference
-description: Contains options that can be specified when adding a watermark with text.
+description: Contains options that can be specified when adding a watermark with text in Java.
 type: docs
-weight: 573
+weight: 575
 url: /java/com.aspose.words/textwatermarkoptions/
 ---
 
@@ -107,10 +108,10 @@ public int getLayout()
 ```
 
 
-Gets layout of the watermark. The default value is [WatermarkLayout.DIAGONAL](../../com.aspose.words/watermarklayout\#DIAGONAL).
+Gets layout of the watermark. The default value is [WatermarkLayout.DIAGONAL](../../com.aspose.words/watermarklayout/\#DIAGONAL).
 
 **Returns:**
-int - Layout of the watermark. The returned value is one of [WatermarkLayout](../../com.aspose.words/watermarklayout) constants.
+int - Layout of the watermark. The returned value is one of [WatermarkLayout](../../com.aspose.words/watermarklayout/) constants.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()
@@ -209,12 +210,12 @@ public void setLayout(int value)
 ```
 
 
-Sets layout of the watermark. The default value is [WatermarkLayout.DIAGONAL](../../com.aspose.words/watermarklayout\#DIAGONAL).
+Sets layout of the watermark. The default value is [WatermarkLayout.DIAGONAL](../../com.aspose.words/watermarklayout/\#DIAGONAL).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | Layout of the watermark. The value must be one of [WatermarkLayout](../../com.aspose.words/watermarklayout) constants. |
+| value | int | Layout of the watermark. The value must be one of [WatermarkLayout](../../com.aspose.words/watermarklayout/) constants. |
 
 ### toString() {#toString}
 ```

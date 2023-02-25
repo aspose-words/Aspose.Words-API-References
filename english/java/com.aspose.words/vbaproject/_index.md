@@ -1,9 +1,10 @@
 ---
 title: VbaProject
+linktitle: VbaProject
 second_title: Aspose.Words for Java API Reference
-description: Provides access to VBA project information.
+description: Provides access to VBA project information in Java.
 type: docs
-weight: 600
+weight: 602
 url: /java/com.aspose.words/vbaproject/
 ---
 
@@ -26,12 +27,12 @@ To learn more, visit the [ Working with VBA Macros ][Working with VBA Macros] do
 
 | Constructor | Description |
 | --- | --- |
-| [VbaProject()](#VbaProject) | Creates a blank [VbaProject](../../com.aspose.words/vbaproject). |
+| [VbaProject()](#VbaProject) | Creates a blank [VbaProject](../../com.aspose.words/vbaproject/). |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [deepClone()](#deepClone) | Performs a copy of the [VbaProject](../../com.aspose.words/vbaproject). |
+| [deepClone()](#deepClone) | Performs a copy of the [VbaProject](../../com.aspose.words/vbaproject/). |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getClass()](#getClass) |  |
 | [getCodePage()](#getCodePage) | Returns the VBA project\\u2019s code page. |
@@ -39,7 +40,7 @@ To learn more, visit the [ Working with VBA Macros ][Working with VBA Macros] do
 | [getName()](#getName) | Gets VBA project name. |
 | [getReferences()](#getReferences) | Gets a collection of VBA project references. |
 | [hashCode()](#hashCode) |  |
-| [isSigned()](#isSigned) | Shows whether the [VbaProject](../../com.aspose.words/vbaproject) is signed or not. |
+| [isSigned()](#isSigned) | Shows whether the [VbaProject](../../com.aspose.words/vbaproject/) is signed or not. |
 | [notify()](#notify) |  |
 | [notifyAll()](#notifyAll) |  |
 | [setName(String value)](#setName-java.lang.String) | Sets VBA project name. |
@@ -53,7 +54,7 @@ public VbaProject()
 ```
 
 
-Creates a blank [VbaProject](../../com.aspose.words/vbaproject).
+Creates a blank [VbaProject](../../com.aspose.words/vbaproject/).
 
 ### deepClone() {#deepClone}
 ```
@@ -61,10 +62,10 @@ public VbaProject deepClone()
 ```
 
 
-Performs a copy of the [VbaProject](../../com.aspose.words/vbaproject).
+Performs a copy of the [VbaProject](../../com.aspose.words/vbaproject/).
 
 **Returns:**
-[VbaProject](../../com.aspose.words/vbaproject) - The cloned [VbaProject](../../com.aspose.words/vbaproject).
+[VbaProject](../../com.aspose.words/vbaproject/) - The cloned [VbaProject](../../com.aspose.words/vbaproject/).
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
@@ -109,7 +110,7 @@ public VbaModuleCollection getModules()
 Returns collection of VBA project modules.
 
 **Returns:**
-[VbaModuleCollection](../../com.aspose.words/vbamodulecollection) - Collection of VBA project modules.
+[VbaModuleCollection](../../com.aspose.words/vbamodulecollection/) - Collection of VBA project modules.
 ### getName() {#getName}
 ```
 public String getName()
@@ -129,7 +130,7 @@ public VbaReferenceCollection getReferences()
 Gets a collection of VBA project references.
 
 **Returns:**
-[VbaReferenceCollection](../../com.aspose.words/vbareferencecollection) - A collection of VBA project references.
+[VbaReferenceCollection](../../com.aspose.words/vbareferencecollection/) - A collection of VBA project references.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()
@@ -146,7 +147,7 @@ public boolean isSigned()
 ```
 
 
-Shows whether the [VbaProject](../../com.aspose.words/vbaproject) is signed or not.
+Shows whether the [VbaProject](../../com.aspose.words/vbaproject/) is signed or not.
 
 **Returns:**
 boolean - The corresponding  boolean  value.

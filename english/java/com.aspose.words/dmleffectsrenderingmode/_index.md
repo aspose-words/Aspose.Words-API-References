@@ -1,7 +1,8 @@
 ---
 title: DmlEffectsRenderingMode
+linktitle: DmlEffectsRenderingMode
 second_title: Aspose.Words for Java API Reference
-description: Specifies how DrawingML effects are rendered to fixed page formats.
+description: Specifies how DrawingML effects are rendered to fixed page formats in Java.
 type: docs
 weight: 118
 url: /java/com.aspose.words/dmleffectsrenderingmode/
@@ -45,7 +46,7 @@ public static int FINE
 ```
 
 
-DrawingML effects are rendered in fine mode which involves advanced processing. In this mode rendering of effects gives better results but at a higher performance cost than [SIMPLIFIED](../../com.aspose.words/dmleffectsrenderingmode\#SIMPLIFIED) mode.
+DrawingML effects are rendered in fine mode which involves advanced processing. In this mode rendering of effects gives better results but at a higher performance cost than [SIMPLIFIED](../../com.aspose.words/dmleffectsrenderingmode/\#SIMPLIFIED) mode.
 
 ### NONE {#NONE}
 ```

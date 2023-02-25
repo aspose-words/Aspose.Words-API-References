@@ -1,7 +1,8 @@
 ---
 title: ChartMarker
+linktitle: ChartMarker
 second_title: Aspose.Words for Java API Reference
-description: Represents a chart data marker.
+description: Represents a chart data marker in Java.
 type: docs
 weight: 66
 url: /java/com.aspose.words/chartmarker/
@@ -75,7 +76,7 @@ public ChartFormat getFormat()
 Provides access to fill and line formatting of this marker.
 
 **Returns:**
-[ChartFormat](../../com.aspose.words/chartformat) - The corresponding [ChartFormat](../../com.aspose.words/chartformat) value.
+[ChartFormat](../../com.aspose.words/chartformat/) - The corresponding [ChartFormat](../../com.aspose.words/chartformat/) value.
 ### getSize() {#getSize}
 ```
 public int getSize()
@@ -95,7 +96,7 @@ public int getSymbol()
 Gets chart marker symbol.
 
 **Returns:**
-int - Chart marker symbol. The returned value is one of [MarkerSymbol](../../com.aspose.words/markersymbol) constants.
+int - Chart marker symbol. The returned value is one of [MarkerSymbol](../../com.aspose.words/markersymbol/) constants.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()
@@ -154,7 +155,7 @@ Sets chart marker symbol.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | Chart marker symbol. The value must be one of [MarkerSymbol](../../com.aspose.words/markersymbol) constants. |
+| value | int | Chart marker symbol. The value must be one of [MarkerSymbol](../../com.aspose.words/markersymbol/) constants. |
 
 ### toString() {#toString}
 ```

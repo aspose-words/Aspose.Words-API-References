@@ -1,7 +1,8 @@
 ---
 title: CompareOptions
+linktitle: CompareOptions
 second_title: Aspose.Words for Java API Reference
-description: Allows to choose advanced options for document comparison operation.
+description: Allows to choose advanced options for document comparison operation in Java.
 type: docs
 weight: 82
 url: /java/com.aspose.words/compareoptions/
@@ -97,10 +98,10 @@ public int getGranularity()
 ```
 
 
-Specifies whether changes are tracked by character or by word. Default value is [Granularity.WORD\_LEVEL](../../com.aspose.words/granularity\#WORD-LEVEL).
+Specifies whether changes are tracked by character or by word. Default value is [Granularity.WORD\_LEVEL](../../com.aspose.words/granularity/\#WORD-LEVEL).
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [Granularity](../../com.aspose.words/granularity) constants.
+int - The corresponding  int  value. The returned value is one of [Granularity](../../com.aspose.words/granularity/) constants.
 ### getIgnoreCaseChanges() {#getIgnoreCaseChanges}
 ```
 public boolean getIgnoreCaseChanges()
@@ -200,7 +201,7 @@ public int getTarget()
 Specifies which document shall be used as a target during comparison.
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [ComparisonTargetType](../../com.aspose.words/comparisontargettype) constants.
+int - The corresponding  int  value. The returned value is one of [ComparisonTargetType](../../com.aspose.words/comparisontargettype/) constants.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()
@@ -246,12 +247,12 @@ public void setGranularity(int value)
 ```
 
 
-Specifies whether changes are tracked by character or by word. Default value is [Granularity.WORD\_LEVEL](../../com.aspose.words/granularity\#WORD-LEVEL).
+Specifies whether changes are tracked by character or by word. Default value is [Granularity.WORD\_LEVEL](../../com.aspose.words/granularity/\#WORD-LEVEL).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [Granularity](../../com.aspose.words/granularity) constants. |
+| value | int | The corresponding  int  value. The value must be one of [Granularity](../../com.aspose.words/granularity/) constants. |
 
 ### setIgnoreCaseChanges(boolean value) {#setIgnoreCaseChanges-boolean}
 ```
@@ -381,7 +382,7 @@ Specifies which document shall be used as a target during comparison.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [ComparisonTargetType](../../com.aspose.words/comparisontargettype) constants. |
+| value | int | The corresponding  int  value. The value must be one of [ComparisonTargetType](../../com.aspose.words/comparisontargettype/) constants. |
 
 ### toString() {#toString}
 ```

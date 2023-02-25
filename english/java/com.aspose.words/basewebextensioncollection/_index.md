@@ -1,7 +1,8 @@
 ---
 title: BaseWebExtensionCollection
+linktitle: BaseWebExtensionCollection
 second_title: Aspose.Words for Java API Reference
-description: Base class for    and  collections.
+description: Base class for    and  collections in Java.
 type: docs
 weight: 27
 url: /java/com.aspose.words/basewebextensioncollection/
@@ -16,7 +17,7 @@ java.lang.Iterable
 public abstract class BaseWebExtensionCollection implements Iterable
 ```
 
-Base class for [TaskPaneCollection](../../com.aspose.words/taskpanecollection), [WebExtensionBindingCollection](../../com.aspose.words/webextensionbindingcollection), [WebExtensionPropertyCollection](../../com.aspose.words/webextensionpropertycollection) and [WebExtensionReferenceCollection](../../com.aspose.words/webextensionreferencecollection) collections.
+Base class for [TaskPaneCollection](../../com.aspose.words/taskpanecollection/), [WebExtensionBindingCollection](../../com.aspose.words/webextensionbindingcollection/), [WebExtensionPropertyCollection](../../com.aspose.words/webextensionpropertycollection/) and [WebExtensionReferenceCollection](../../com.aspose.words/webextensionreferencecollection/) collections.
 
 To learn more, visit the [ Work with Office Add-ins ][Work with Office Add-ins] documentation article.
 

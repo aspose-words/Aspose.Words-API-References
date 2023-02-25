@@ -1,9 +1,10 @@
 ---
 title: RevisionCollection
+linktitle: RevisionCollection
 second_title: Aspose.Words for Java API Reference
-description: A collection of  objects that represent revisions in the document.
+description: A collection of  objects that represent revisions in the document in Java.
 type: docs
-weight: 488
+weight: 490
 url: /java/com.aspose.words/revisioncollection/
 ---
 
@@ -16,11 +17,11 @@ java.lang.Iterable
 public class RevisionCollection implements Iterable
 ```
 
-A collection of [Revision](../../com.aspose.words/revision) objects that represent revisions in the document.
+A collection of [Revision](../../com.aspose.words/revision/) objects that represent revisions in the document.
 
 To learn more, visit the [ Track Changes in a Document ][Track Changes in a Document] documentation article.
 
-You do not create instances of this class directly. Use the [Document.getRevisions()](../../com.aspose.words/document\#getRevisions) property to get revisions present in a document.
+You do not create instances of this class directly. Use the [Document.getRevisions()](../../com.aspose.words/document/\#getRevisions) property to get revisions present in a document.
 
 
 [Track Changes in a Document]: https://docs.aspose.com/words/java/track-changes-in-a-document/
@@ -30,7 +31,7 @@ You do not create instances of this class directly. Use the [Document.getRevisio
 | --- | --- |
 | [acceptAll()](#acceptAll) | Accepts all revisions in this collection. |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [get(int index)](#get-int) | Returns a [Revision](../../com.aspose.words/revision) at the specified index. |
+| [get(int index)](#get-int) | Returns a [Revision](../../com.aspose.words/revision/) at the specified index. |
 | [getClass()](#getClass) |  |
 | [getCount()](#getCount) | Returns the number of revisions in the collection. |
 | [getGroups()](#getGroups) | Collection of revision groups. |
@@ -72,7 +73,7 @@ public Revision get(int index)
 ```
 
 
-Returns a [Revision](../../com.aspose.words/revision) at the specified index.
+Returns a [Revision](../../com.aspose.words/revision/) at the specified index.
 
 The index is zero-based.
 
@@ -88,7 +89,7 @@ If index is negative and its absolute value is greater than the number of items 
 | index | int | An index into the collection. |
 
 **Returns:**
-[Revision](../../com.aspose.words/revision) - A [Revision](../../com.aspose.words/revision) at the specified index.
+[Revision](../../com.aspose.words/revision/) - A [Revision](../../com.aspose.words/revision/) at the specified index.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -118,7 +119,7 @@ public RevisionGroupCollection getGroups()
 Collection of revision groups.
 
 **Returns:**
-[RevisionGroupCollection](../../com.aspose.words/revisiongroupcollection) - The corresponding [RevisionGroupCollection](../../com.aspose.words/revisiongroupcollection) value.
+[RevisionGroupCollection](../../com.aspose.words/revisiongroupcollection/) - The corresponding [RevisionGroupCollection](../../com.aspose.words/revisiongroupcollection/) value.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()

@@ -1,16 +1,17 @@
 ---
 title: IBarcodeGenerator
+linktitle: IBarcodeGenerator
 second_title: Aspose.Words for Java API Reference
-description: Public interface for barcode custom generator.
+description: Public interface for barcode custom generator in Java.
 type: docs
-weight: 636
+weight: 638
 url: /java/com.aspose.words/ibarcodegenerator/
 ---
 ```
 public interface IBarcodeGenerator
 ```
 
-Public interface for barcode custom generator. Implementation should be provided by user. Generator instance should be passed through the [FieldOptions.getBarcodeGenerator()](../../com.aspose.words/fieldoptions\#getBarcodeGenerator) / [FieldOptions.setBarcodeGenerator(com.aspose.words.IBarcodeGenerator)](../../com.aspose.words/fieldoptions\#setBarcodeGenerator-com.aspose.words.IBarcodeGenerator) property.
+Public interface for barcode custom generator. Implementation should be provided by user. Generator instance should be passed through the [FieldOptions.getBarcodeGenerator()](../../com.aspose.words/fieldoptions/\#getBarcodeGenerator) / [FieldOptions.setBarcodeGenerator(com.aspose.words.IBarcodeGenerator)](../../com.aspose.words/fieldoptions/\#setBarcodeGenerator-com.aspose.words.IBarcodeGenerator) property.
 ## Methods
 
 | Method | Description |
@@ -28,7 +29,7 @@ Generate barcode image using the set of parameters (for DisplayBarcode field).
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| parameters | [BarcodeParameters](../../com.aspose.words/barcodeparameters) | The set of parameters |
+| parameters | [BarcodeParameters](../../com.aspose.words/barcodeparameters/) | The set of parameters |
 
 **Returns:**
 java.awt.image.BufferedImage - Image representing generated barcode.
@@ -43,7 +44,7 @@ Generate barcode image using the set of parameters (for old-fashioned Barcode fi
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| parameters | [BarcodeParameters](../../com.aspose.words/barcodeparameters) | The set of parameters |
+| parameters | [BarcodeParameters](../../com.aspose.words/barcodeparameters/) | The set of parameters |
 
 **Returns:**
 java.awt.image.BufferedImage - Image representing generated barcode.

@@ -1,9 +1,10 @@
 ---
 title: Revision
+linktitle: Revision
 second_title: Aspose.Words for Java API Reference
-description: Represents a revision tracked change in a document node or style.
+description: Represents a revision tracked change in a document node or style in Java.
 type: docs
-weight: 487
+weight: 489
 url: /java/com.aspose.words/revision/
 ---
 
@@ -13,7 +14,7 @@ java.lang.Object
 public class Revision
 ```
 
-Represents a revision (tracked change) in a document node or style. Use [getRevisionType()](../../com.aspose.words/revision\#getRevisionType) to check the type of this revision.
+Represents a revision (tracked change) in a document node or style. Use [getRevisionType()](../../com.aspose.words/revision/\#getRevisionType) to check the type of this revision.
 
 To learn more, visit the [ Track Changes in a Document ][Track Changes in a Document] documentation article.
 
@@ -101,30 +102,30 @@ public RevisionGroup getGroup()
 ```
 
 
-Gets the revision group. Returns  null  if the revision does not belong to any group. Revision has no group if revision type is [RevisionType.STYLE\_DEFINITION\_CHANGE](../../com.aspose.words/revisiontype\#STYLE-DEFINITION-CHANGE) or if the revision is not longer exist in document context (accepted/rejected).
+Gets the revision group. Returns  null  if the revision does not belong to any group. Revision has no group if revision type is [RevisionType.STYLE\_DEFINITION\_CHANGE](../../com.aspose.words/revisiontype/\#STYLE-DEFINITION-CHANGE) or if the revision is not longer exist in document context (accepted/rejected).
 
 **Returns:**
-[RevisionGroup](../../com.aspose.words/revisiongroup) - The revision group.
+[RevisionGroup](../../com.aspose.words/revisiongroup/) - The revision group.
 ### getParentNode() {#getParentNode}
 ```
 public Node getParentNode()
 ```
 
 
-Gets the immediate parent node (owner) of this revision. This property will work for any revision type other than [RevisionType.STYLE\_DEFINITION\_CHANGE](../../com.aspose.words/revisiontype\#STYLE-DEFINITION-CHANGE). If this revision relates to change of Style formatting, use [getParentStyle()](../../com.aspose.words/revision\#getParentStyle) instead.
+Gets the immediate parent node (owner) of this revision. This property will work for any revision type other than [RevisionType.STYLE\_DEFINITION\_CHANGE](../../com.aspose.words/revisiontype/\#STYLE-DEFINITION-CHANGE). If this revision relates to change of Style formatting, use [getParentStyle()](../../com.aspose.words/revision/\#getParentStyle) instead.
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The immediate parent node (owner) of this revision.
+[Node](../../com.aspose.words/node/) - The immediate parent node (owner) of this revision.
 ### getParentStyle() {#getParentStyle}
 ```
 public Style getParentStyle()
 ```
 
 
-Gets the immediate parent style (owner) of this revision. This property will work for only for the [RevisionType.STYLE\_DEFINITION\_CHANGE](../../com.aspose.words/revisiontype\#STYLE-DEFINITION-CHANGE) revision type. If this revision relates to changes on document nodes, use [getParentNode()](../../com.aspose.words/revision\#getParentNode) instead.
+Gets the immediate parent style (owner) of this revision. This property will work for only for the [RevisionType.STYLE\_DEFINITION\_CHANGE](../../com.aspose.words/revisiontype/\#STYLE-DEFINITION-CHANGE) revision type. If this revision relates to changes on document nodes, use [getParentNode()](../../com.aspose.words/revision/\#getParentNode) instead.
 
 **Returns:**
-[Style](../../com.aspose.words/style) - The immediate parent style (owner) of this revision.
+[Style](../../com.aspose.words/style/) - The immediate parent style (owner) of this revision.
 ### getRevisionType() {#getRevisionType}
 ```
 public int getRevisionType()
@@ -134,7 +135,7 @@ public int getRevisionType()
 Gets the type of this revision.
 
 **Returns:**
-int - The type of this revision. The returned value is one of [RevisionType](../../com.aspose.words/revisiontype) constants.
+int - The type of this revision. The returned value is one of [RevisionType](../../com.aspose.words/revisiontype/) constants.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()

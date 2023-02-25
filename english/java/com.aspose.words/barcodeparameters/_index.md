@@ -1,7 +1,8 @@
 ---
 title: BarcodeParameters
+linktitle: BarcodeParameters
 second_title: Aspose.Words for Java API Reference
-description: Container class for barcode parameters to pass-through to BarcodeGenerator.
+description: Container class for barcode parameters to pass-through to BarcodeGenerator in Java.
 type: docs
 weight: 26
 url: /java/com.aspose.words/barcodeparameters/
@@ -44,10 +45,10 @@ The set of parameters are according to DISPLAYBARCODE field options. See the exa
 | [getSymbolHeight()](#getSymbolHeight) | Bar code image height (in twips - 1/1440 inches) |
 | [getSymbolRotation()](#getSymbolRotation) | Rotation of the barcode symbol. |
 | [hashCode()](#hashCode) |  |
-| [isBookmark()](#isBookmark) | Whether [getPostalAddress()](../../com.aspose.words/barcodeparameters\#getPostalAddress) / [setPostalAddress(java.lang.String)](../../com.aspose.words/barcodeparameters\#setPostalAddress-java.lang.String) is the name of a bookmark. |
-| [isBookmark(boolean value)](#isBookmark-boolean) | Whether [getPostalAddress()](../../com.aspose.words/barcodeparameters\#getPostalAddress) / [setPostalAddress(java.lang.String)](../../com.aspose.words/barcodeparameters\#setPostalAddress-java.lang.String) is the name of a bookmark. |
-| [isUSPostalAddress()](#isUSPostalAddress) | Whether [getPostalAddress()](../../com.aspose.words/barcodeparameters\#getPostalAddress) / [setPostalAddress(java.lang.String)](../../com.aspose.words/barcodeparameters\#setPostalAddress-java.lang.String) is a U.S. |
-| [isUSPostalAddress(boolean value)](#isUSPostalAddress-boolean) | Whether [getPostalAddress()](../../com.aspose.words/barcodeparameters\#getPostalAddress) / [setPostalAddress(java.lang.String)](../../com.aspose.words/barcodeparameters\#setPostalAddress-java.lang.String) is a U.S. |
+| [isBookmark()](#isBookmark) | Whether [getPostalAddress()](../../com.aspose.words/barcodeparameters/\#getPostalAddress) / [setPostalAddress(java.lang.String)](../../com.aspose.words/barcodeparameters/\#setPostalAddress-java.lang.String) is the name of a bookmark. |
+| [isBookmark(boolean value)](#isBookmark-boolean) | Whether [getPostalAddress()](../../com.aspose.words/barcodeparameters/\#getPostalAddress) / [setPostalAddress(java.lang.String)](../../com.aspose.words/barcodeparameters/\#setPostalAddress-java.lang.String) is the name of a bookmark. |
+| [isUSPostalAddress()](#isUSPostalAddress) | Whether [getPostalAddress()](../../com.aspose.words/barcodeparameters/\#getPostalAddress) / [setPostalAddress(java.lang.String)](../../com.aspose.words/barcodeparameters/\#setPostalAddress-java.lang.String) is a U.S. |
+| [isUSPostalAddress(boolean value)](#isUSPostalAddress-boolean) | Whether [getPostalAddress()](../../com.aspose.words/barcodeparameters/\#getPostalAddress) / [setPostalAddress(java.lang.String)](../../com.aspose.words/barcodeparameters/\#setPostalAddress-java.lang.String) is a U.S. |
 | [notify()](#notify) |  |
 | [notifyAll()](#notifyAll) |  |
 | [setAddStartStopChar(boolean value)](#setAddStartStopChar-boolean) | Whether to add Start/Stop characters for barcode types NW7 and CODE39. |
@@ -260,7 +261,7 @@ public boolean isBookmark()
 ```
 
 
-Whether [getPostalAddress()](../../com.aspose.words/barcodeparameters\#getPostalAddress) / [setPostalAddress(java.lang.String)](../../com.aspose.words/barcodeparameters\#setPostalAddress-java.lang.String) is the name of a bookmark.
+Whether [getPostalAddress()](../../com.aspose.words/barcodeparameters/\#getPostalAddress) / [setPostalAddress(java.lang.String)](../../com.aspose.words/barcodeparameters/\#setPostalAddress-java.lang.String) is the name of a bookmark.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -270,7 +271,7 @@ public void isBookmark(boolean value)
 ```
 
 
-Whether [getPostalAddress()](../../com.aspose.words/barcodeparameters\#getPostalAddress) / [setPostalAddress(java.lang.String)](../../com.aspose.words/barcodeparameters\#setPostalAddress-java.lang.String) is the name of a bookmark.
+Whether [getPostalAddress()](../../com.aspose.words/barcodeparameters/\#getPostalAddress) / [setPostalAddress(java.lang.String)](../../com.aspose.words/barcodeparameters/\#setPostalAddress-java.lang.String) is the name of a bookmark.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -283,7 +284,7 @@ public boolean isUSPostalAddress()
 ```
 
 
-Whether [getPostalAddress()](../../com.aspose.words/barcodeparameters\#getPostalAddress) / [setPostalAddress(java.lang.String)](../../com.aspose.words/barcodeparameters\#setPostalAddress-java.lang.String) is a U.S. postal address.
+Whether [getPostalAddress()](../../com.aspose.words/barcodeparameters/\#getPostalAddress) / [setPostalAddress(java.lang.String)](../../com.aspose.words/barcodeparameters/\#setPostalAddress-java.lang.String) is a U.S. postal address.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -293,7 +294,7 @@ public void isUSPostalAddress(boolean value)
 ```
 
 
-Whether [getPostalAddress()](../../com.aspose.words/barcodeparameters\#getPostalAddress) / [setPostalAddress(java.lang.String)](../../com.aspose.words/barcodeparameters\#setPostalAddress-java.lang.String) is a U.S. postal address.
+Whether [getPostalAddress()](../../com.aspose.words/barcodeparameters/\#getPostalAddress) / [setPostalAddress(java.lang.String)](../../com.aspose.words/barcodeparameters/\#setPostalAddress-java.lang.String) is a U.S. postal address.
 
 **Parameters:**
 | Parameter | Type | Description |

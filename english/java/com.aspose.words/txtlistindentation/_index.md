@@ -1,9 +1,10 @@
 ---
 title: TxtListIndentation
+linktitle: TxtListIndentation
 second_title: Aspose.Words for Java API Reference
-description: Specifies how list levels are indented when document is exporting to  format.
+description: Specifies how list levels are indented when document is exporting to  format in Java.
 type: docs
-weight: 587
+weight: 589
 url: /java/com.aspose.words/txtlistindentation/
 ---
 
@@ -13,7 +14,7 @@ java.lang.Object
 public class TxtListIndentation
 ```
 
-Specifies how list levels are indented when document is exporting to [SaveFormat.TEXT](../../com.aspose.words/saveformat\#TEXT) format.
+Specifies how list levels are indented when document is exporting to [SaveFormat.TEXT](../../com.aspose.words/saveformat/\#TEXT) format.
 
 To learn more, visit the [ Save a Document ][Save a Document] documentation article.
 
@@ -26,12 +27,12 @@ To learn more, visit the [ Save a Document ][Save a Document] documentation arti
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getCharacter()](#getCharacter) | Gets which character to use for indenting list levels. |
 | [getClass()](#getClass) |  |
-| [getCount()](#getCount) | Gets how many [getCharacter()](../../com.aspose.words/txtlistindentation\#getCharacter) / [setCharacter(char)](../../com.aspose.words/txtlistindentation\#setCharacter-char) to use as indentation per one list level. |
+| [getCount()](#getCount) | Gets how many [getCharacter()](../../com.aspose.words/txtlistindentation/\#getCharacter) / [setCharacter(char)](../../com.aspose.words/txtlistindentation/\#setCharacter-char) to use as indentation per one list level. |
 | [hashCode()](#hashCode) |  |
 | [notify()](#notify) |  |
 | [notifyAll()](#notifyAll) |  |
 | [setCharacter(char value)](#setCharacter-char) | Sets which character to use for indenting list levels. |
-| [setCount(int value)](#setCount-int) | Sets how many [getCharacter()](../../com.aspose.words/txtlistindentation\#getCharacter) / [setCharacter(char)](../../com.aspose.words/txtlistindentation\#setCharacter-char) to use as indentation per one list level. |
+| [setCount(int value)](#setCount-int) | Sets how many [getCharacter()](../../com.aspose.words/txtlistindentation/\#getCharacter) / [setCharacter(char)](../../com.aspose.words/txtlistindentation/\#setCharacter-char) to use as indentation per one list level. |
 | [toString()](#toString) |  |
 | [wait()](#wait) |  |
 | [wait(long arg0)](#wait-long) |  |
@@ -77,10 +78,10 @@ public int getCount()
 ```
 
 
-Gets how many [getCharacter()](../../com.aspose.words/txtlistindentation\#getCharacter) / [setCharacter(char)](../../com.aspose.words/txtlistindentation\#setCharacter-char) to use as indentation per one list level. The default value is 0, that means no indentation.
+Gets how many [getCharacter()](../../com.aspose.words/txtlistindentation/\#getCharacter) / [setCharacter(char)](../../com.aspose.words/txtlistindentation/\#setCharacter-char) to use as indentation per one list level. The default value is 0, that means no indentation.
 
 **Returns:**
-int - How many [getCharacter()](../../com.aspose.words/txtlistindentation\#getCharacter) / [setCharacter(char)](../../com.aspose.words/txtlistindentation\#setCharacter-char) to use as indentation per one list level.
+int - How many [getCharacter()](../../com.aspose.words/txtlistindentation/\#getCharacter) / [setCharacter(char)](../../com.aspose.words/txtlistindentation/\#setCharacter-char) to use as indentation per one list level.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()
@@ -126,12 +127,12 @@ public void setCount(int value)
 ```
 
 
-Sets how many [getCharacter()](../../com.aspose.words/txtlistindentation\#getCharacter) / [setCharacter(char)](../../com.aspose.words/txtlistindentation\#setCharacter-char) to use as indentation per one list level. The default value is 0, that means no indentation.
+Sets how many [getCharacter()](../../com.aspose.words/txtlistindentation/\#getCharacter) / [setCharacter(char)](../../com.aspose.words/txtlistindentation/\#setCharacter-char) to use as indentation per one list level. The default value is 0, that means no indentation.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | How many [getCharacter()](../../com.aspose.words/txtlistindentation\#getCharacter) / [setCharacter(char)](../../com.aspose.words/txtlistindentation\#setCharacter-char) to use as indentation per one list level. |
+| value | int | How many [getCharacter()](../../com.aspose.words/txtlistindentation/\#getCharacter) / [setCharacter(char)](../../com.aspose.words/txtlistindentation/\#setCharacter-char) to use as indentation per one list level. |
 
 ### toString() {#toString}
 ```

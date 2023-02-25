@@ -1,7 +1,8 @@
 ---
 title: Chart
+linktitle: Chart
 second_title: Aspose.Words for Java API Reference
-description: Provides access to the chart shape properties.
+description: Provides access to the chart shape properties in Java.
 type: docs
 weight: 55
 url: /java/com.aspose.words/chart/
@@ -64,7 +65,7 @@ public ChartAxis getAxisX()
 Provides access to properties of the X axis of the chart.
 
 **Returns:**
-[ChartAxis](../../com.aspose.words/chartaxis) - The corresponding [ChartAxis](../../com.aspose.words/chartaxis) value.
+[ChartAxis](../../com.aspose.words/chartaxis/) - The corresponding [ChartAxis](../../com.aspose.words/chartaxis/) value.
 ### getAxisY() {#getAxisY}
 ```
 public ChartAxis getAxisY()
@@ -74,7 +75,7 @@ public ChartAxis getAxisY()
 Provides access to properties of the Y axis of the chart.
 
 **Returns:**
-[ChartAxis](../../com.aspose.words/chartaxis) - The corresponding [ChartAxis](../../com.aspose.words/chartaxis) value.
+[ChartAxis](../../com.aspose.words/chartaxis/) - The corresponding [ChartAxis](../../com.aspose.words/chartaxis/) value.
 ### getAxisZ() {#getAxisZ}
 ```
 public ChartAxis getAxisZ()
@@ -84,7 +85,7 @@ public ChartAxis getAxisZ()
 Provides access to properties of the Z axis of the chart.
 
 **Returns:**
-[ChartAxis](../../com.aspose.words/chartaxis) - The corresponding [ChartAxis](../../com.aspose.words/chartaxis) value.
+[ChartAxis](../../com.aspose.words/chartaxis/) - The corresponding [ChartAxis](../../com.aspose.words/chartaxis/) value.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -104,7 +105,7 @@ public ChartLegend getLegend()
 Provides access to the chart legend properties.
 
 **Returns:**
-[ChartLegend](../../com.aspose.words/chartlegend) - The corresponding [ChartLegend](../../com.aspose.words/chartlegend) value.
+[ChartLegend](../../com.aspose.words/chartlegend/) - The corresponding [ChartLegend](../../com.aspose.words/chartlegend/) value.
 ### getSeries() {#getSeries}
 ```
 public ChartSeriesCollection getSeries()
@@ -114,7 +115,7 @@ public ChartSeriesCollection getSeries()
 Provides access to series collection.
 
 **Returns:**
-[ChartSeriesCollection](../../com.aspose.words/chartseriescollection) - The corresponding [ChartSeriesCollection](../../com.aspose.words/chartseriescollection) value.
+[ChartSeriesCollection](../../com.aspose.words/chartseriescollection/) - The corresponding [ChartSeriesCollection](../../com.aspose.words/chartseriescollection/) value.
 ### getSourceFullName() {#getSourceFullName}
 ```
 public String getSourceFullName()
@@ -134,7 +135,7 @@ public ChartTitle getTitle()
 Provides access to the chart title properties.
 
 **Returns:**
-[ChartTitle](../../com.aspose.words/charttitle) - The corresponding [ChartTitle](../../com.aspose.words/charttitle) value.
+[ChartTitle](../../com.aspose.words/charttitle/) - The corresponding [ChartTitle](../../com.aspose.words/charttitle/) value.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()

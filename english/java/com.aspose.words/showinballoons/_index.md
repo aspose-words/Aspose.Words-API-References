@@ -1,9 +1,10 @@
 ---
 title: ShowInBalloons
+linktitle: ShowInBalloons
 second_title: Aspose.Words for Java API Reference
-description: Specifies which revisions are rendered in balloons.
+description: Specifies which revisions are rendered in balloons in Java.
 type: docs
-weight: 526
+weight: 528
 url: /java/com.aspose.words/showinballoons/
 ---
 
@@ -13,7 +14,7 @@ java.lang.Object
 public class ShowInBalloons
 ```
 
-Specifies which revisions are rendered in balloons. Note that revisions are not rendered in balloons for [CommentDisplayMode.SHOW\_IN\_ANNOTATIONS](../../com.aspose.words/commentdisplaymode\#SHOW-IN-ANNOTATIONS).
+Specifies which revisions are rendered in balloons. Note that revisions are not rendered in balloons for [CommentDisplayMode.SHOW\_IN\_ANNOTATIONS](../../com.aspose.words/commentdisplaymode/\#SHOW-IN-ANNOTATIONS).
 ## Fields
 
 | Field | Description |

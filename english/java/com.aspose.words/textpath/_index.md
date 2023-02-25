@@ -1,9 +1,10 @@
 ---
 title: TextPath
+linktitle: TextPath
 second_title: Aspose.Words for Java API Reference
-description: Defines the text and formatting of the text path of a WordArt object.
+description: Defines the text and formatting of the text path of a WordArt object in Java.
 type: docs
-weight: 571
+weight: 573
 url: /java/com.aspose.words/textpath/
 ---
 
@@ -17,7 +18,7 @@ Defines the text and formatting of the text path (of a WordArt object).
 
 To learn more, visit the [ Working with Shapes ][Working with Shapes] documentation article.
 
-Use the [Shape.getTextPath()](../../com.aspose.words/shape\#getTextPath) property to access WordArt properties of a shape. You do not create instances of the [TextPath](../../com.aspose.words/textpath) class directly.
+Use the [Shape.getTextPath()](../../com.aspose.words/shape/\#getTextPath) property to access WordArt properties of a shape. You do not create instances of the [TextPath](../../com.aspose.words/textpath/) class directly.
 
 
 [Working with Shapes]: https://docs.aspose.com/words/java/working-with-shapes/
@@ -301,10 +302,10 @@ public int getTextPathAlignment()
 
 Defines the alignment of text.
 
-The default value is [TextPathAlignment.CENTER](../../com.aspose.words/textpathalignment\#CENTER).
+The default value is [TextPathAlignment.CENTER](../../com.aspose.words/textpathalignment/\#CENTER).
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [TextPathAlignment](../../com.aspose.words/textpathalignment) constants.
+int - The corresponding  int  value. The returned value is one of [TextPathAlignment](../../com.aspose.words/textpathalignment/) constants.
 ### getTrim() {#getTrim}
 ```
 public boolean getTrim()
@@ -619,12 +620,12 @@ public void setTextPathAlignment(int value)
 
 Defines the alignment of text.
 
-The default value is [TextPathAlignment.CENTER](../../com.aspose.words/textpathalignment\#CENTER).
+The default value is [TextPathAlignment.CENTER](../../com.aspose.words/textpathalignment/\#CENTER).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [TextPathAlignment](../../com.aspose.words/textpathalignment) constants. |
+| value | int | The corresponding  int  value. The value must be one of [TextPathAlignment](../../com.aspose.words/textpathalignment/) constants. |
 
 ### setTrim(boolean value) {#setTrim-boolean}
 ```

@@ -1,7 +1,8 @@
 ---
 title: ComparisonEvaluationResult
+linktitle: ComparisonEvaluationResult
 second_title: Aspose.Words for Java API Reference
-description: The comparison evaluation result.
+description: The comparison evaluation result in Java.
 type: docs
 weight: 83
 url: /java/com.aspose.words/comparisonevaluationresult/

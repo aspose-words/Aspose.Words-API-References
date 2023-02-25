@@ -1,9 +1,10 @@
 ---
 title: MailMergeCheckErrors
+linktitle: MailMergeCheckErrors
 second_title: Aspose.Words for Java API Reference
-description: Specifies how Microsoft Word will report errors detected during mail merge.
+description: Specifies how Microsoft Word will report errors detected during mail merge in Java.
 type: docs
-weight: 382
+weight: 383
 url: /java/com.aspose.words/mailmergecheckerrors/
 ---
 
@@ -19,7 +20,7 @@ Specifies how Microsoft Word will report errors detected during mail merge.
 | Field | Description |
 | --- | --- |
 | [COLLECT_ERRORS](#COLLECT-ERRORS) | Complete the merge and report errors in a new document. |
-| [DEFAULT](#DEFAULT) | Equals to the [PAUSE\_ON\_ERROR](../../com.aspose.words/mailmergecheckerrors\#PAUSE-ON-ERROR) value. |
+| [DEFAULT](#DEFAULT) | Equals to the [PAUSE\_ON\_ERROR](../../com.aspose.words/mailmergecheckerrors/\#PAUSE-ON-ERROR) value. |
 | [PAUSE_ON_ERROR](#PAUSE-ON-ERROR) | Complete the merge and pause to report errors. |
 | [SIMULATE](#SIMULATE) | Simulate the merge and report errors in a new document. |
 | [length](#length) |  |
@@ -54,7 +55,7 @@ public static int DEFAULT
 ```
 
 
-Equals to the [PAUSE\_ON\_ERROR](../../com.aspose.words/mailmergecheckerrors\#PAUSE-ON-ERROR) value.
+Equals to the [PAUSE\_ON\_ERROR](../../com.aspose.words/mailmergecheckerrors/\#PAUSE-ON-ERROR) value.
 
 ### PAUSE_ON_ERROR {#PAUSE-ON-ERROR}
 ```

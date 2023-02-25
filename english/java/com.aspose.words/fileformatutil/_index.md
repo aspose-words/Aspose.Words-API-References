@@ -1,7 +1,8 @@
 ---
 title: FileFormatUtil
+linktitle: FileFormatUtil
 second_title: Aspose.Words for Java API Reference
-description: Provides utility methods for working with file formats such as detecting file format or converting file extensions to/from file format enums.
+description: Provides utility methods for working with file formats such as detecting file format or converting file extensions to/from file format enums in Java.
 type: docs
 weight: 268
 url: /java/com.aspose.words/fileformatutil/
@@ -28,7 +29,7 @@ To learn more, visit the [ Detect File Format and Check Format Compatibility ][D
 | [detectFileFormat(InputStream stream)](#detectFileFormat-java.io.InputStream) |  |
 | [detectFileFormat(String fileName)](#detectFileFormat-java.lang.String) | Detects and returns the information about a format of a document. |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [extensionToSaveFormat(String extension)](#extensionToSaveFormat-java.lang.String) | Converts a file name extension into a [SaveFormat](../../com.aspose.words/saveformat) value. |
+| [extensionToSaveFormat(String extension)](#extensionToSaveFormat-java.lang.String) | Converts a file name extension into a [SaveFormat](../../com.aspose.words/saveformat/) value. |
 | [getClass()](#getClass) |  |
 | [hashCode()](#hashCode) |  |
 | [imageTypeToExtension(int imageType)](#imageTypeToExtension-int) |  |
@@ -86,7 +87,7 @@ public static FileFormatInfo detectFileFormat(InputStream stream)
 | stream | java.io.InputStream |  |
 
 **Returns:**
-[FileFormatInfo](../../com.aspose.words/fileformatinfo)
+[FileFormatInfo](../../com.aspose.words/fileformatinfo/)
 ### detectFileFormat(String fileName) {#detectFileFormat-java.lang.String}
 ```
 public static FileFormatInfo detectFileFormat(String fileName)
@@ -95,9 +96,9 @@ public static FileFormatInfo detectFileFormat(String fileName)
 
 Detects and returns the information about a format of a document.  Detects and returns the information about a format of a document stored in a disk file.
 
-Even if this method detects the document format, it does not guarantee that the specified document is valid. This method only detects the document format by reading data that is sufficient for detection. To fully verify that a document is valid you need to load the document into a [Document](../../com.aspose.words/document) object.
+Even if this method detects the document format, it does not guarantee that the specified document is valid. This method only detects the document format by reading data that is sufficient for detection. To fully verify that a document is valid you need to load the document into a [Document](../../com.aspose.words/document/) object.
 
-This method throws [FileCorruptedException](../../com.aspose.words/filecorruptedexception) when the format is recognized, but the detection cannot complete because of corruption.
+This method throws [FileCorruptedException](../../com.aspose.words/filecorruptedexception/) when the format is recognized, but the detection cannot complete because of corruption.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -105,7 +106,7 @@ This method throws [FileCorruptedException](../../com.aspose.words/filecorrupted
 | fileName | java.lang.String | The file name. |
 
 **Returns:**
-[FileFormatInfo](../../com.aspose.words/fileformatinfo) - A [FileFormatInfo](../../com.aspose.words/fileformatinfo) object that contains the detected information.
+[FileFormatInfo](../../com.aspose.words/fileformatinfo/) - A [FileFormatInfo](../../com.aspose.words/fileformatinfo/) object that contains the detected information.
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
@@ -127,14 +128,14 @@ public static int extensionToSaveFormat(String extension)
 ```
 
 
-Converts a file name extension into a [SaveFormat](../../com.aspose.words/saveformat) value.
+Converts a file name extension into a [SaveFormat](../../com.aspose.words/saveformat/) value.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | extension | java.lang.String | The file extension. Can be with or without a leading dot. Case-insensitive.
 
-If the extension cannot be recognized, returns [SaveFormat.UNKNOWN](../../com.aspose.words/saveformat\#UNKNOWN). |
+If the extension cannot be recognized, returns [SaveFormat.UNKNOWN](../../com.aspose.words/saveformat/\#UNKNOWN). |
 
 **Returns:**
 int

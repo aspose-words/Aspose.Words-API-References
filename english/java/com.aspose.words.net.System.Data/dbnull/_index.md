@@ -1,7 +1,8 @@
 ---
 title: DBNull
+linktitle: DBNull
 second_title: Aspose.Words for Java API Reference
-description: 
+description: Represents a nonexistent value in Java.
 type: docs
 weight: 13
 url: /java/com.aspose.words.net.system.data/dbnull/
@@ -12,11 +13,13 @@ java.lang.Object
 ```
 public class DBNull
 ```
+
+Represents a nonexistent value. This class cannot be inherited.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [Value](#Value) |  |
+| [Value](#Value) | Initializes a new instance of the DBNull value. |
 ## Methods
 
 | Method | Description |
@@ -35,6 +38,8 @@ public class DBNull
 public static System.Data.DBNull Value
 ```
 
+
+Initializes a new instance of the DBNull value.
 
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```

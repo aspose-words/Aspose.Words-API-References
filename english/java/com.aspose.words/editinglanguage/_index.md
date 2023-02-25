@@ -1,7 +1,8 @@
 ---
 title: EditingLanguage
+linktitle: EditingLanguage
 second_title: Aspose.Words for Java API Reference
-description: Specifies the editing language.
+description: Specifies the editing language in Java.
 type: docs
 weight: 140
 url: /java/com.aspose.words/editinglanguage/

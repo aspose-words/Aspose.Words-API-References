@@ -1,14 +1,15 @@
 ---
 title: TableSubstitutionRule
+linktitle: TableSubstitutionRule
 second_title: Aspose.Words for Java API Reference
-description: Table font substitution rule.
+description: Table font substitution rule in Java.
 type: docs
-weight: 558
+weight: 560
 url: /java/com.aspose.words/tablesubstitutionrule/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.words.FontSubstitutionRule](../../com.aspose.words/fontsubstitutionrule)
+java.lang.Object, [com.aspose.words.FontSubstitutionRule](../../com.aspose.words/fontsubstitutionrule/)
 ```
 public class TableSubstitutionRule extends FontSubstitutionRule
 ```
@@ -17,7 +18,7 @@ Table font substitution rule.
 
 To learn more, visit the [ Working with Fonts ][Working with Fonts] documentation article.
 
-This rule defines the list of substitute font names to be used if the original font is not available. Substitutes will be checked for the font name and the [FontInfo.getAltName()](../../com.aspose.words/fontinfo\#getAltName) / [FontInfo.setAltName(java.lang.String)](../../com.aspose.words/fontinfo\#setAltName-java.lang.String) (if any).
+This rule defines the list of substitute font names to be used if the original font is not available. Substitutes will be checked for the font name and the [FontInfo.getAltName()](../../com.aspose.words/fontinfo/\#getAltName) / [FontInfo.setAltName(java.lang.String)](../../com.aspose.words/fontinfo/\#setAltName-java.lang.String) (if any).
 
 
 [Working with Fonts]: https://docs.aspose.com/words/java/working-with-fonts/

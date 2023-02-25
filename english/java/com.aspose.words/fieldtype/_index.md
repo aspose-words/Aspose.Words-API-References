@@ -1,7 +1,8 @@
 ---
 title: FieldType
+linktitle: FieldType
 second_title: Aspose.Words for Java API Reference
-description: Specifies Microsoft Word field types.
+description: Specifies Microsoft Word field types in Java.
 type: docs
 weight: 257
 url: /java/com.aspose.words/fieldtype/
@@ -669,7 +670,7 @@ public static int FIELD_OCX
 
 Specifies the OCX field.
 
-Normally, Aspose.Words will represent an ActiveX control as a [Shape](../../com.aspose.words/shape) object, but for some documents, where a control does not have data and/or seems to be invalid, it will be represented as a field.
+Normally, Aspose.Words will represent an ActiveX control as a [Shape](../../com.aspose.words/shape/) object, but for some documents, where a control does not have data and/or seems to be invalid, it will be represented as a field.
 
 ### FIELD_PAGE {#FIELD-PAGE}
 ```

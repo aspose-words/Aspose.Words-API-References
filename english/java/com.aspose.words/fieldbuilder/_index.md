@@ -1,7 +1,8 @@
 ---
 title: FieldBuilder
+linktitle: FieldBuilder
 second_title: Aspose.Words for Java API Reference
-description: Builds a field from field code tokens arguments and switches.
+description: Builds a field from field code tokens arguments and switches in Java.
 type: docs
 weight: 167
 url: /java/com.aspose.words/fieldbuilder/
@@ -28,8 +29,8 @@ To learn more, visit the [ Working with Fields ][Working with Fields] documentat
 
 | Method | Description |
 | --- | --- |
-| [addArgument(FieldArgumentBuilder argument)](#addArgument-com.aspose.words.FieldArgumentBuilder) | Adds a field's argument represented by [FieldArgumentBuilder](../../com.aspose.words/fieldargumentbuilder) to the field's code. |
-| [addArgument(FieldBuilder argument)](#addArgument-com.aspose.words.FieldBuilder) | Adds a child field represented by another [FieldBuilder](../../com.aspose.words/fieldbuilder) to the field's code. |
+| [addArgument(FieldArgumentBuilder argument)](#addArgument-com.aspose.words.FieldArgumentBuilder) | Adds a field's argument represented by [FieldArgumentBuilder](../../com.aspose.words/fieldargumentbuilder/) to the field's code. |
+| [addArgument(FieldBuilder argument)](#addArgument-com.aspose.words.FieldBuilder) | Adds a child field represented by another [FieldBuilder](../../com.aspose.words/fieldbuilder/) to the field's code. |
 | [addArgument(double argument)](#addArgument-double) | Adds a field's argument. |
 | [addArgument(int argument)](#addArgument-int) | Adds a field's argument. |
 | [addArgument(String argument)](#addArgument-java.lang.String) | Adds a field's argument. |
@@ -68,30 +69,30 @@ public FieldBuilder addArgument(FieldArgumentBuilder argument)
 ```
 
 
-Adds a field's argument represented by [FieldArgumentBuilder](../../com.aspose.words/fieldargumentbuilder) to the field's code. This overload is used when the argument consists of a mixture of different parts such as child fields, nodes, and plain text.
+Adds a field's argument represented by [FieldArgumentBuilder](../../com.aspose.words/fieldargumentbuilder/) to the field's code. This overload is used when the argument consists of a mixture of different parts such as child fields, nodes, and plain text.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| argument | [FieldArgumentBuilder](../../com.aspose.words/fieldargumentbuilder) |  |
+| argument | [FieldArgumentBuilder](../../com.aspose.words/fieldargumentbuilder/) |  |
 
 **Returns:**
-[FieldBuilder](../../com.aspose.words/fieldbuilder)
+[FieldBuilder](../../com.aspose.words/fieldbuilder/)
 ### addArgument(FieldBuilder argument) {#addArgument-com.aspose.words.FieldBuilder}
 ```
 public FieldBuilder addArgument(FieldBuilder argument)
 ```
 
 
-Adds a child field represented by another [FieldBuilder](../../com.aspose.words/fieldbuilder) to the field's code. This overload is used when the argument consists of a single child field.
+Adds a child field represented by another [FieldBuilder](../../com.aspose.words/fieldbuilder/) to the field's code. This overload is used when the argument consists of a single child field.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| argument | [FieldBuilder](../../com.aspose.words/fieldbuilder) |  |
+| argument | [FieldBuilder](../../com.aspose.words/fieldbuilder/) |  |
 
 **Returns:**
-[FieldBuilder](../../com.aspose.words/fieldbuilder)
+[FieldBuilder](../../com.aspose.words/fieldbuilder/)
 ### addArgument(double argument) {#addArgument-double}
 ```
 public FieldBuilder addArgument(double argument)
@@ -106,7 +107,7 @@ Adds a field's argument.
 | argument | double | The argument value. |
 
 **Returns:**
-[FieldBuilder](../../com.aspose.words/fieldbuilder)
+[FieldBuilder](../../com.aspose.words/fieldbuilder/)
 ### addArgument(int argument) {#addArgument-int}
 ```
 public FieldBuilder addArgument(int argument)
@@ -121,7 +122,7 @@ Adds a field's argument.
 | argument | int | The argument value. |
 
 **Returns:**
-[FieldBuilder](../../com.aspose.words/fieldbuilder)
+[FieldBuilder](../../com.aspose.words/fieldbuilder/)
 ### addArgument(String argument) {#addArgument-java.lang.String}
 ```
 public FieldBuilder addArgument(String argument)
@@ -136,7 +137,7 @@ Adds a field's argument.
 | argument | java.lang.String | The argument value. |
 
 **Returns:**
-[FieldBuilder](../../com.aspose.words/fieldbuilder)
+[FieldBuilder](../../com.aspose.words/fieldbuilder/)
 ### addSwitch(String switchName) {#addSwitch-java.lang.String}
 ```
 public FieldBuilder addSwitch(String switchName)
@@ -151,7 +152,7 @@ Adds a field's switch. This overload adds a flag (switch without argument).
 | switchName | java.lang.String | The switch name. |
 
 **Returns:**
-[FieldBuilder](../../com.aspose.words/fieldbuilder)
+[FieldBuilder](../../com.aspose.words/fieldbuilder/)
 ### addSwitch(String switchName, double switchArgument) {#addSwitch-java.lang.String-double}
 ```
 public FieldBuilder addSwitch(String switchName, double switchArgument)
@@ -167,7 +168,7 @@ Adds a field's switch.
 | switchArgument | double | The switch value. |
 
 **Returns:**
-[FieldBuilder](../../com.aspose.words/fieldbuilder)
+[FieldBuilder](../../com.aspose.words/fieldbuilder/)
 ### addSwitch(String switchName, int switchArgument) {#addSwitch-java.lang.String-int}
 ```
 public FieldBuilder addSwitch(String switchName, int switchArgument)
@@ -183,7 +184,7 @@ Adds a field's switch.
 | switchArgument | int | The switch value. |
 
 **Returns:**
-[FieldBuilder](../../com.aspose.words/fieldbuilder)
+[FieldBuilder](../../com.aspose.words/fieldbuilder/)
 ### addSwitch(String switchName, String switchArgument) {#addSwitch-java.lang.String-java.lang.String}
 ```
 public FieldBuilder addSwitch(String switchName, String switchArgument)
@@ -199,7 +200,7 @@ Adds a field's switch.
 | switchArgument | java.lang.String | The switch value. |
 
 **Returns:**
-[FieldBuilder](../../com.aspose.words/fieldbuilder)
+[FieldBuilder](../../com.aspose.words/fieldbuilder/)
 ### buildAndInsert(Inline refNode) {#buildAndInsert-com.aspose.words.Inline}
 ```
 public Field buildAndInsert(Inline refNode)
@@ -211,10 +212,10 @@ Builds and inserts a field into the document before the specified inline node.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| refNode | [Inline](../../com.aspose.words/inline) |  |
+| refNode | [Inline](../../com.aspose.words/inline/) |  |
 
 **Returns:**
-[Field](../../com.aspose.words/field) - A [Field](../../com.aspose.words/field) object that represents the inserted field.
+[Field](../../com.aspose.words/field/) - A [Field](../../com.aspose.words/field/) object that represents the inserted field.
 ### buildAndInsert(Paragraph refNode) {#buildAndInsert-com.aspose.words.Paragraph}
 ```
 public Field buildAndInsert(Paragraph refNode)
@@ -226,10 +227,10 @@ Builds and inserts a field into the document to the end of the specified paragra
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| refNode | [Paragraph](../../com.aspose.words/paragraph) |  |
+| refNode | [Paragraph](../../com.aspose.words/paragraph/) |  |
 
 **Returns:**
-[Field](../../com.aspose.words/field) - A [Field](../../com.aspose.words/field) object that represents the inserted field.
+[Field](../../com.aspose.words/field/) - A [Field](../../com.aspose.words/field/) object that represents the inserted field.
 ### buildBlock(DocumentBuilder documentBuilder) {#buildBlock-com.aspose.words.DocumentBuilder}
 ```
 public void buildBlock(DocumentBuilder documentBuilder)
@@ -241,7 +242,7 @@ public void buildBlock(DocumentBuilder documentBuilder)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| documentBuilder | [DocumentBuilder](../../com.aspose.words/documentbuilder) |  |
+| documentBuilder | [DocumentBuilder](../../com.aspose.words/documentbuilder/) |  |
 
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```

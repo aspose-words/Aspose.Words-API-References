@@ -1,9 +1,10 @@
 ---
 title: LineStyle
+linktitle: LineStyle
 second_title: Aspose.Words for Java API Reference
-description: Specifies line style of a .
+description: Specifies line style of a in Java.
 type: docs
-weight: 369
+weight: 370
 url: /java/com.aspose.words/linestyle/
 ---
 
@@ -13,7 +14,7 @@ java.lang.Object
 public class LineStyle
 ```
 
-Specifies line style of a [Border](../../com.aspose.words/border).
+Specifies line style of a [Border](../../com.aspose.words/border/).
 ## Fields
 
 | Field | Description |

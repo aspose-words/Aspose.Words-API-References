@@ -1,7 +1,8 @@
 ---
 title: FileFormatInfo
+linktitle: FileFormatInfo
 second_title: Aspose.Words for Java API Reference
-description: Contains data returned by  document format detection methods.
+description: Contains data returned by  document format detection methods in Java.
 type: docs
 weight: 267
 url: /java/com.aspose.words/fileformatinfo/
@@ -13,7 +14,7 @@ java.lang.Object
 public class FileFormatInfo
 ```
 
-Contains data returned by [FileFormatUtil](../../com.aspose.words/fileformatutil) document format detection methods.
+Contains data returned by [FileFormatUtil](../../com.aspose.words/fileformatutil/) document format detection methods.
 
 To learn more, visit the [ Detect File Format and Check Format Compatibility ][Detect File Format and Check Format Compatibility] documentation article.
 
@@ -81,10 +82,10 @@ public int getLoadFormat()
 
 Gets the detected document format.
 
-When an OOXML document is encrypted, it is not possible to ascertained whether it is an Excel, Word or PowerPoint document without decrypting it first so for an encrypted OOXML document this property will always return [LoadFormat.DOCX](../../com.aspose.words/loadformat\#DOCX).
+When an OOXML document is encrypted, it is not possible to ascertained whether it is an Excel, Word or PowerPoint document without decrypting it first so for an encrypted OOXML document this property will always return [LoadFormat.DOCX](../../com.aspose.words/loadformat/\#DOCX).
 
 **Returns:**
-int - The detected document format. The returned value is one of [LoadFormat](../../com.aspose.words/loadformat) constants.
+int - The detected document format. The returned value is one of [LoadFormat](../../com.aspose.words/loadformat/) constants.
 ### hasDigitalSignature() {#hasDigitalSignature}
 ```
 public boolean hasDigitalSignature()

@@ -1,7 +1,8 @@
 ---
 title: BorderType
+linktitle: BorderType
 second_title: Aspose.Words for Java API Reference
-description: Specifies sides of a border.
+description: Specifies sides of a border in Java.
 type: docs
 weight: 38
 url: /java/com.aspose.words/bordertype/

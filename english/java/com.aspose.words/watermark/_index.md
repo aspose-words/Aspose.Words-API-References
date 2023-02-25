@@ -1,9 +1,10 @@
 ---
 title: Watermark
+linktitle: Watermark
 second_title: Aspose.Words for Java API Reference
-description: Represents class to work with document watermark.
+description: Represents class to work with document watermark in Java.
 type: docs
-weight: 612
+weight: 614
 url: /java/com.aspose.words/watermark/
 ---
 
@@ -73,7 +74,7 @@ public int getType()
 Gets the watermark type.
 
 **Returns:**
-int - The watermark type. The returned value is one of [WatermarkType](../../com.aspose.words/watermarktype) constants.
+int - The watermark type. The returned value is one of [WatermarkType](../../com.aspose.words/watermarktype/) constants.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()
@@ -133,7 +134,7 @@ Adds Image watermark into the document.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | image | java.awt.image.BufferedImage | Image that is displayed as a watermark. |
-| options | [ImageWatermarkOptions](../../com.aspose.words/imagewatermarkoptions) | Defines additional options for the image watermark. |
+| options | [ImageWatermarkOptions](../../com.aspose.words/imagewatermarkoptions/) | Defines additional options for the image watermark. |
 
 ### setImage(String imagePath, ImageWatermarkOptions options) {#setImage-java.lang.String-com.aspose.words.ImageWatermarkOptions}
 ```
@@ -147,7 +148,7 @@ Adds Image watermark into the document.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | imagePath | java.lang.String | Path to the image file that is displayed as a watermark. |
-| options | [ImageWatermarkOptions](../../com.aspose.words/imagewatermarkoptions) | Defines additional options for the image watermark. |
+| options | [ImageWatermarkOptions](../../com.aspose.words/imagewatermarkoptions/) | Defines additional options for the image watermark. |
 
 ### setText(String text) {#setText-java.lang.String}
 ```
@@ -174,7 +175,7 @@ Adds Text watermark into the document.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | text | java.lang.String | Text that is displayed as a watermark. |
-| options | [TextWatermarkOptions](../../com.aspose.words/textwatermarkoptions) | Defines additional options for the text watermark. The text length must be in the range from 1 to 200 inclusive. The text cannot be  null  or contain only whitespaces. |
+| options | [TextWatermarkOptions](../../com.aspose.words/textwatermarkoptions/) | Defines additional options for the text watermark. The text length must be in the range from 1 to 200 inclusive. The text cannot be  null  or contain only whitespaces. |
 
 ### toString() {#toString}
 ```

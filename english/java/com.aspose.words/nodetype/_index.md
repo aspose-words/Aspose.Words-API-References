@@ -1,9 +1,10 @@
 ---
 title: NodeType
+linktitle: NodeType
 second_title: Aspose.Words for Java API Reference
-description: Specifies the type of a Word document node.
+description: Specifies the type of a Word document node in Java.
 type: docs
-weight: 412
+weight: 414
 url: /java/com.aspose.words/nodetype/
 ---
 
@@ -19,7 +20,7 @@ Specifies the type of a Word document node.
 | Field | Description |
 | --- | --- |
 | [ANY](#ANY) | Indicates all node types. |
-| [BODY](#BODY) | A [Body](../../com.aspose.words/body) object that contains the main text of a section (main text story). |
+| [BODY](#BODY) | A [Body](../../com.aspose.words/body/) object that contains the main text of a section (main text story). |
 | [BOOKMARK_END](#BOOKMARK-END) | An end of a bookmark marker. |
 | [BOOKMARK_START](#BOOKMARK-START) | A beginning of a bookmark marker. |
 | [BUILDING_BLOCK](#BUILDING-BLOCK) | A building block within a glossary document (e.g. |
@@ -27,7 +28,7 @@ Specifies the type of a Word document node.
 | [COMMENT](#COMMENT) | A comment in a Word document. |
 | [COMMENT_RANGE_END](#COMMENT-RANGE-END) | A marker node that represents the end of a commented range. |
 | [COMMENT_RANGE_START](#COMMENT-RANGE-START) | A marker node that represents the start of a commented range. |
-| [DOCUMENT](#DOCUMENT) | A [Document](../../com.aspose.words/document) object that, as the root of the document tree, provides access to the entire Word document. |
+| [DOCUMENT](#DOCUMENT) | A [Document](../../com.aspose.words/document/) object that, as the root of the document tree, provides access to the entire Word document. |
 | [EDITABLE_RANGE_END](#EDITABLE-RANGE-END) | An end of an editable range. |
 | [EDITABLE_RANGE_START](#EDITABLE-RANGE-START) | A beginning of an editable range. |
 | [FIELD_END](#FIELD-END) | A special character that designates the end of a Word field. |
@@ -37,7 +38,7 @@ Specifies the type of a Word document node.
 | [FORM_FIELD](#FORM-FIELD) | A form field. |
 | [GLOSSARY_DOCUMENT](#GLOSSARY-DOCUMENT) | A glossary document within the main document. |
 | [GROUP_SHAPE](#GROUP-SHAPE) | A group of shapes, images, OLE objects or other group shapes. |
-| [HEADER_FOOTER](#HEADER-FOOTER) | A [HeaderFooter](../../com.aspose.words/headerfooter) object that contains text of a particular header or footer inside a section. |
+| [HEADER_FOOTER](#HEADER-FOOTER) | A [HeaderFooter](../../com.aspose.words/headerfooter/) object that contains text of a particular header or footer inside a section. |
 | [MOVE_FROM_RANGE_END](#MOVE-FROM-RANGE-END) | An end of an MoveFrom range. |
 | [MOVE_FROM_RANGE_START](#MOVE-FROM-RANGE-START) | A beginning of an MoveFrom range. |
 | [MOVE_TO_RANGE_END](#MOVE-TO-RANGE-END) | An end of an MoveTo range. |
@@ -47,7 +48,7 @@ Specifies the type of a Word document node.
 | [PARAGRAPH](#PARAGRAPH) | A paragraph of text. |
 | [ROW](#ROW) | A row of a table. |
 | [RUN](#RUN) | A run of text. |
-| [SECTION](#SECTION) | A [Section](../../com.aspose.words/section) object that corresponds to one section in a Word document. |
+| [SECTION](#SECTION) | A [Section](../../com.aspose.words/section/) object that corresponds to one section in a Word document. |
 | [SHAPE](#SHAPE) | A drawing object, such as an OfficeArt shape, image or an OLE object. |
 | [SMART_TAG](#SMART-TAG) | A smart tag around one or more inline structures (runs, images, fields,etc.) within a paragraph |
 | [SPECIAL_CHAR](#SPECIAL-CHAR) | A special character that is not one of the more specific special character types. |
@@ -56,7 +57,7 @@ Specifies the type of a Word document node.
 | [STRUCTURED_DOCUMENT_TAG_RANGE_START](#STRUCTURED-DOCUMENT-TAG-RANGE-START) | A start of **ranged** structured document tag which accepts multi-sections content. |
 | [SUB_DOCUMENT](#SUB-DOCUMENT) | A subdocument node which is a link to another document. |
 | [SYSTEM](#SYSTEM) | Reserved for internal use by Aspose.Words. |
-| [TABLE](#TABLE) | A [Table](../../com.aspose.words/table) object that represents a table in a Word document. |
+| [TABLE](#TABLE) | A [Table](../../com.aspose.words/table/) object that represents a table in a Word document. |
 | [length](#length) |  |
 ## Methods
 
@@ -89,9 +90,9 @@ public static int BODY
 ```
 
 
-A [Body](../../com.aspose.words/body) object that contains the main text of a section (main text story).
+A [Body](../../com.aspose.words/body/) object that contains the main text of a section (main text story).
 
-A [Body](../../com.aspose.words/body) node can have [Paragraph](../../com.aspose.words/paragraph) and [Table](../../com.aspose.words/table) nodes.
+A [Body](../../com.aspose.words/body/) node can have [Paragraph](../../com.aspose.words/paragraph/) and [Table](../../com.aspose.words/table/) nodes.
 
 ### BOOKMARK_END {#BOOKMARK-END}
 ```
@@ -125,7 +126,7 @@ public static int CELL
 
 A cell of a table row.
 
-A [Cell](../../com.aspose.words/cell) node can have [Paragraph](../../com.aspose.words/paragraph) and [Table](../../com.aspose.words/table) nodes.
+A [Cell](../../com.aspose.words/cell/) node can have [Paragraph](../../com.aspose.words/paragraph/) and [Table](../../com.aspose.words/table/) nodes.
 
 ### COMMENT {#COMMENT}
 ```
@@ -135,7 +136,7 @@ public static int COMMENT
 
 A comment in a Word document.
 
-A [Comment](../../com.aspose.words/comment) node can have [Paragraph](../../com.aspose.words/paragraph) and [Table](../../com.aspose.words/table) nodes.
+A [Comment](../../com.aspose.words/comment/) node can have [Paragraph](../../com.aspose.words/paragraph/) and [Table](../../com.aspose.words/table/) nodes.
 
 ### COMMENT_RANGE_END {#COMMENT-RANGE-END}
 ```
@@ -159,9 +160,9 @@ public static int DOCUMENT
 ```
 
 
-A [Document](../../com.aspose.words/document) object that, as the root of the document tree, provides access to the entire Word document.
+A [Document](../../com.aspose.words/document/) object that, as the root of the document tree, provides access to the entire Word document.
 
-A [Document](../../com.aspose.words/document) node can have [Section](../../com.aspose.words/section) nodes.
+A [Document](../../com.aspose.words/document/) node can have [Section](../../com.aspose.words/section/) nodes.
 
 ### EDITABLE_RANGE_END {#EDITABLE-RANGE-END}
 ```
@@ -211,7 +212,7 @@ public static int FOOTNOTE
 
 A footnote or endnote in a Word document.
 
-A [Footnote](../../com.aspose.words/footnote) node can have [Paragraph](../../com.aspose.words/paragraph) and [Table](../../com.aspose.words/table) nodes.
+A [Footnote](../../com.aspose.words/footnote/) node can have [Paragraph](../../com.aspose.words/paragraph/) and [Table](../../com.aspose.words/table/) nodes.
 
 ### FORM_FIELD {#FORM-FIELD}
 ```
@@ -237,7 +238,7 @@ public static int GROUP_SHAPE
 
 A group of shapes, images, OLE objects or other group shapes.
 
-A [GroupShape](../../com.aspose.words/groupshape) node can contain other [Shape](../../com.aspose.words/shape) and [GroupShape](../../com.aspose.words/groupshape) nodes.
+A [GroupShape](../../com.aspose.words/groupshape/) node can contain other [Shape](../../com.aspose.words/shape/) and [GroupShape](../../com.aspose.words/groupshape/) nodes.
 
 ### HEADER_FOOTER {#HEADER-FOOTER}
 ```
@@ -245,9 +246,9 @@ public static int HEADER_FOOTER
 ```
 
 
-A [HeaderFooter](../../com.aspose.words/headerfooter) object that contains text of a particular header or footer inside a section.
+A [HeaderFooter](../../com.aspose.words/headerfooter/) object that contains text of a particular header or footer inside a section.
 
-A [HeaderFooter](../../com.aspose.words/headerfooter) node can have [Paragraph](../../com.aspose.words/paragraph) and [Table](../../com.aspose.words/table) nodes.
+A [HeaderFooter](../../com.aspose.words/headerfooter/) node can have [Paragraph](../../com.aspose.words/paragraph/) and [Table](../../com.aspose.words/table/) nodes.
 
 ### MOVE_FROM_RANGE_END {#MOVE-FROM-RANGE-END}
 ```
@@ -305,7 +306,7 @@ public static int PARAGRAPH
 
 A paragraph of text.
 
-A [Paragraph](../../com.aspose.words/paragraph) node is a container for inline level elements [Run](../../com.aspose.words/run), [FieldStart](../../com.aspose.words/fieldstart), [FieldSeparator](../../com.aspose.words/fieldseparator), [FieldEnd](../../com.aspose.words/fieldend), [FormField](../../com.aspose.words/formfield), [Shape](../../com.aspose.words/shape), [GroupShape](../../com.aspose.words/groupshape), [Footnote](../../com.aspose.words/footnote), [Comment](../../com.aspose.words/comment), [SpecialChar](../../com.aspose.words/specialchar), as well as [BookmarkStart](../../com.aspose.words/bookmarkstart) and [BookmarkEnd](../../com.aspose.words/bookmarkend).
+A [Paragraph](../../com.aspose.words/paragraph/) node is a container for inline level elements [Run](../../com.aspose.words/run/), [FieldStart](../../com.aspose.words/fieldstart/), [FieldSeparator](../../com.aspose.words/fieldseparator/), [FieldEnd](../../com.aspose.words/fieldend/), [FormField](../../com.aspose.words/formfield/), [Shape](../../com.aspose.words/shape/), [GroupShape](../../com.aspose.words/groupshape/), [Footnote](../../com.aspose.words/footnote/), [Comment](../../com.aspose.words/comment/), [SpecialChar](../../com.aspose.words/specialchar/), as well as [BookmarkStart](../../com.aspose.words/bookmarkstart/) and [BookmarkEnd](../../com.aspose.words/bookmarkend/).
 
 ### ROW {#ROW}
 ```
@@ -315,7 +316,7 @@ public static int ROW
 
 A row of a table.
 
-A [Row](../../com.aspose.words/row) node can have [Cell](../../com.aspose.words/cell) nodes.
+A [Row](../../com.aspose.words/row/) node can have [Cell](../../com.aspose.words/cell/) nodes.
 
 ### RUN {#RUN}
 ```
@@ -331,9 +332,9 @@ public static int SECTION
 ```
 
 
-A [Section](../../com.aspose.words/section) object that corresponds to one section in a Word document.
+A [Section](../../com.aspose.words/section/) object that corresponds to one section in a Word document.
 
-A [Section](../../com.aspose.words/section) node can have [Body](../../com.aspose.words/body) and [HeaderFooter](../../com.aspose.words/headerfooter) nodes.
+A [Section](../../com.aspose.words/section/) node can have [Body](../../com.aspose.words/body/) and [HeaderFooter](../../com.aspose.words/headerfooter/) nodes.
 
 ### SHAPE {#SHAPE}
 ```
@@ -343,7 +344,7 @@ public static int SHAPE
 
 A drawing object, such as an OfficeArt shape, image or an OLE object.
 
-A [Shape](../../com.aspose.words/shape) node can contain [Paragraph](../../com.aspose.words/paragraph) and [Table](../../com.aspose.words/table) nodes.
+A [Shape](../../com.aspose.words/shape/) node can contain [Paragraph](../../com.aspose.words/paragraph/) and [Table](../../com.aspose.words/table/) nodes.
 
 ### SMART_TAG {#SMART-TAG}
 ```
@@ -407,9 +408,9 @@ public static int TABLE
 ```
 
 
-A [Table](../../com.aspose.words/table) object that represents a table in a Word document.
+A [Table](../../com.aspose.words/table/) object that represents a table in a Word document.
 
-A [Table](../../com.aspose.words/table) node can have [Row](../../com.aspose.words/row) nodes.
+A [Table](../../com.aspose.words/table/) node can have [Row](../../com.aspose.words/row/) nodes.
 
 ### length {#length}
 ```

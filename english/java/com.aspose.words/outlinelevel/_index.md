@@ -1,9 +1,10 @@
 ---
 title: OutlineLevel
+linktitle: OutlineLevel
 second_title: Aspose.Words for Java API Reference
-description: Specifies the outline level of a paragraph in the document.
+description: Specifies the outline level of a paragraph in the document in Java.
 type: docs
-weight: 434
+weight: 436
 url: /java/com.aspose.words/outlinelevel/
 ---
 

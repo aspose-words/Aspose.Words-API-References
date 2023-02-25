@@ -1,9 +1,10 @@
 ---
 title: PageLayoutEvent
+linktitle: PageLayoutEvent
 second_title: Aspose.Words for Java API Reference
-description: A code of event raised during page layout model build and rendering.
+description: A code of event raised during page layout model build and rendering in Java.
 type: docs
-weight: 440
+weight: 442
 url: /java/com.aspose.words/pagelayoutevent/
 ---
 
@@ -58,7 +59,7 @@ public static int BUILD_FINISHED
 ```
 
 
-Build of the page layout has finished. Fired once. This is the last event which occurs when [Document.updatePageLayout()](../../com.aspose.words/document\#updatePageLayout) is called.
+Build of the page layout has finished. Fired once. This is the last event which occurs when [Document.updatePageLayout()](../../com.aspose.words/document/\#updatePageLayout) is called.
 
 ### BUILD_STARTED {#BUILD-STARTED}
 ```
@@ -66,7 +67,7 @@ public static int BUILD_STARTED
 ```
 
 
-Build of the page layout has started. Fired once. This is the first event which occurs when [Document.updatePageLayout()](../../com.aspose.words/document\#updatePageLayout) is called.
+Build of the page layout has started. Fired once. This is the first event which occurs when [Document.updatePageLayout()](../../com.aspose.words/document/\#updatePageLayout) is called.
 
 ### CONVERSION_FINISHED {#CONVERSION-FINISHED}
 ```
@@ -148,7 +149,7 @@ public static int WATCH_DOG
 
 Corresponds to a checkpoint in code which is often visited and which is suitable to abort process.
 
-While inside [IPageLayoutCallback.notify(com.aspose.words.PageLayoutCallbackArgs)](../../com.aspose.words/ipagelayoutcallback\#notify-com.aspose.words.PageLayoutCallbackArgs) throw custom exception to abort process.
+While inside [IPageLayoutCallback.notify(com.aspose.words.PageLayoutCallbackArgs)](../../com.aspose.words/ipagelayoutcallback/\#notify-com.aspose.words.PageLayoutCallbackArgs) throw custom exception to abort process.
 
 You can throw when handling any callback event to abort process.
 

@@ -1,7 +1,8 @@
 ---
 title: HorizontalAlignment
+linktitle: HorizontalAlignment
 second_title: Aspose.Words for Java API Reference
-description: Specifies horizontal alignment of a floating shape text frame or floating table.
+description: Specifies horizontal alignment of a floating shape text frame or floating table in Java.
 type: docs
 weight: 322
 url: /java/com.aspose.words/horizontalalignment/
@@ -19,7 +20,7 @@ Specifies horizontal alignment of a floating shape, text frame or floating table
 | Field | Description |
 | --- | --- |
 | [CENTER](#CENTER) | Specifies that the object shall be centered with respect to the horizontal alignment base. |
-| [DEFAULT](#DEFAULT) | Same as [NONE](../../com.aspose.words/horizontalalignment\#NONE). |
+| [DEFAULT](#DEFAULT) | Same as [NONE](../../com.aspose.words/horizontalalignment/\#NONE). |
 | [INSIDE](#INSIDE) | Specifies that the object shall be inside of the horizontal alignment base. |
 | [LEFT](#LEFT) | Specifies that the object shall be left aligned to the horizontal alignment base. |
 | [NONE](#NONE) | The object is explicitly positioned, usually using its **Left** property. |
@@ -57,7 +58,7 @@ public static int DEFAULT
 ```
 
 
-Same as [NONE](../../com.aspose.words/horizontalalignment\#NONE).
+Same as [NONE](../../com.aspose.words/horizontalalignment/\#NONE).
 
 ### INSIDE {#INSIDE}
 ```

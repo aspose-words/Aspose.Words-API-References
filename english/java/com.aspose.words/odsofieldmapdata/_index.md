@@ -1,9 +1,10 @@
 ---
 title: OdsoFieldMapData
+linktitle: OdsoFieldMapData
 second_title: Aspose.Words for Java API Reference
-description: Specifies how a column in the external data source shall be mapped to the predefined merge fields within the document.
+description: Specifies how a column in the external data source shall be mapped to the predefined merge fields within the document in Java.
 type: docs
-weight: 417
+weight: 419
 url: /java/com.aspose.words/odsofieldmapdata/
 ---
 
@@ -20,7 +21,7 @@ Specifies how a column in the external data source shall be mapped to the predef
 
 To learn more, visit the [ Mail Merge and Reporting ][Mail Merge and Reporting] documentation article.
 
-Microsoft Word provides some predefined merge field names that it allows to insert into a document as MERGEFIELD or use in the ADDRESSBLOCK or GREETINGLINE fields. The information specified in [OdsoFieldMapData](../../com.aspose.words/odsofieldmapdata) allows to map one column in the external data source to a single predefined merge field.
+Microsoft Word provides some predefined merge field names that it allows to insert into a document as MERGEFIELD or use in the ADDRESSBLOCK or GREETINGLINE fields. The information specified in [OdsoFieldMapData](../../com.aspose.words/odsofieldmapdata/) allows to map one column in the external data source to a single predefined merge field.
 
 
 [Mail Merge and Reporting]: https://docs.aspose.com/words/java/mail-merge-and-reporting/
@@ -32,15 +33,15 @@ Microsoft Word provides some predefined merge field names that it allows to inse
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getClass()](#getClass) |  |
 | [getColumn()](#getColumn) | Specifies the zero-based index of the column within an external data source which shall be mapped to the local name of a specific MERGEFIELD field. |
-| [getMappedName()](#getMappedName) | Specifies the predefined merge field name which shall be mapped to the column number specified by the [getColumn()](../../com.aspose.words/odsofieldmapdata\#getColumn) / [setColumn(int)](../../com.aspose.words/odsofieldmapdata\#setColumn-int) property within this field mapping. |
-| [getName()](#getName) | Specifies the column name within an external data source for the column whose index is specified by the [getColumn()](../../com.aspose.words/odsofieldmapdata\#getColumn) / [setColumn(int)](../../com.aspose.words/odsofieldmapdata\#setColumn-int) property. |
+| [getMappedName()](#getMappedName) | Specifies the predefined merge field name which shall be mapped to the column number specified by the [getColumn()](../../com.aspose.words/odsofieldmapdata/\#getColumn) / [setColumn(int)](../../com.aspose.words/odsofieldmapdata/\#setColumn-int) property within this field mapping. |
+| [getName()](#getName) | Specifies the column name within an external data source for the column whose index is specified by the [getColumn()](../../com.aspose.words/odsofieldmapdata/\#getColumn) / [setColumn(int)](../../com.aspose.words/odsofieldmapdata/\#setColumn-int) property. |
 | [getType()](#getType) | Specifies if a given mail merge field has been mapped to a column in the given external data source or not. |
 | [hashCode()](#hashCode) |  |
 | [notify()](#notify) |  |
 | [notifyAll()](#notifyAll) |  |
 | [setColumn(int value)](#setColumn-int) | Specifies the zero-based index of the column within an external data source which shall be mapped to the local name of a specific MERGEFIELD field. |
-| [setMappedName(String value)](#setMappedName-java.lang.String) | Specifies the predefined merge field name which shall be mapped to the column number specified by the [getColumn()](../../com.aspose.words/odsofieldmapdata\#getColumn) / [setColumn(int)](../../com.aspose.words/odsofieldmapdata\#setColumn-int) property within this field mapping. |
-| [setName(String value)](#setName-java.lang.String) | Specifies the column name within an external data source for the column whose index is specified by the [getColumn()](../../com.aspose.words/odsofieldmapdata\#getColumn) / [setColumn(int)](../../com.aspose.words/odsofieldmapdata\#setColumn-int) property. |
+| [setMappedName(String value)](#setMappedName-java.lang.String) | Specifies the predefined merge field name which shall be mapped to the column number specified by the [getColumn()](../../com.aspose.words/odsofieldmapdata/\#getColumn) / [setColumn(int)](../../com.aspose.words/odsofieldmapdata/\#setColumn-int) property within this field mapping. |
+| [setName(String value)](#setName-java.lang.String) | Specifies the column name within an external data source for the column whose index is specified by the [getColumn()](../../com.aspose.words/odsofieldmapdata/\#getColumn) / [setColumn(int)](../../com.aspose.words/odsofieldmapdata/\#setColumn-int) property. |
 | [setType(int value)](#setType-int) | Specifies if a given mail merge field has been mapped to a column in the given external data source or not. |
 | [toString()](#toString) |  |
 | [wait()](#wait) |  |
@@ -55,7 +56,7 @@ public OdsoFieldMapData deepClone()
 Returns a deep clone of this object.
 
 **Returns:**
-[OdsoFieldMapData](../../com.aspose.words/odsofieldmapdata)
+[OdsoFieldMapData](../../com.aspose.words/odsofieldmapdata/)
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
@@ -97,7 +98,7 @@ public String getMappedName()
 ```
 
 
-Specifies the predefined merge field name which shall be mapped to the column number specified by the [getColumn()](../../com.aspose.words/odsofieldmapdata\#getColumn) / [setColumn(int)](../../com.aspose.words/odsofieldmapdata\#setColumn-int) property within this field mapping. The default value is an empty string.
+Specifies the predefined merge field name which shall be mapped to the column number specified by the [getColumn()](../../com.aspose.words/odsofieldmapdata/\#getColumn) / [setColumn(int)](../../com.aspose.words/odsofieldmapdata/\#setColumn-int) property within this field mapping. The default value is an empty string.
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
@@ -107,7 +108,7 @@ public String getName()
 ```
 
 
-Specifies the column name within an external data source for the column whose index is specified by the [getColumn()](../../com.aspose.words/odsofieldmapdata\#getColumn) / [setColumn(int)](../../com.aspose.words/odsofieldmapdata\#setColumn-int) property. The default value is an empty string.
+Specifies the column name within an external data source for the column whose index is specified by the [getColumn()](../../com.aspose.words/odsofieldmapdata/\#getColumn) / [setColumn(int)](../../com.aspose.words/odsofieldmapdata/\#setColumn-int) property. The default value is an empty string.
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
@@ -117,10 +118,10 @@ public int getType()
 ```
 
 
-Specifies if a given mail merge field has been mapped to a column in the given external data source or not. The default value is [OdsoFieldMappingType.DEFAULT](../../com.aspose.words/odsofieldmappingtype\#DEFAULT).
+Specifies if a given mail merge field has been mapped to a column in the given external data source or not. The default value is [OdsoFieldMappingType.DEFAULT](../../com.aspose.words/odsofieldmappingtype/\#DEFAULT).
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [OdsoFieldMappingType](../../com.aspose.words/odsofieldmappingtype) constants.
+int - The corresponding  int  value. The returned value is one of [OdsoFieldMappingType](../../com.aspose.words/odsofieldmappingtype/) constants.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()
@@ -166,7 +167,7 @@ public void setMappedName(String value)
 ```
 
 
-Specifies the predefined merge field name which shall be mapped to the column number specified by the [getColumn()](../../com.aspose.words/odsofieldmapdata\#getColumn) / [setColumn(int)](../../com.aspose.words/odsofieldmapdata\#setColumn-int) property within this field mapping. The default value is an empty string.
+Specifies the predefined merge field name which shall be mapped to the column number specified by the [getColumn()](../../com.aspose.words/odsofieldmapdata/\#getColumn) / [setColumn(int)](../../com.aspose.words/odsofieldmapdata/\#setColumn-int) property within this field mapping. The default value is an empty string.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -179,7 +180,7 @@ public void setName(String value)
 ```
 
 
-Specifies the column name within an external data source for the column whose index is specified by the [getColumn()](../../com.aspose.words/odsofieldmapdata\#getColumn) / [setColumn(int)](../../com.aspose.words/odsofieldmapdata\#setColumn-int) property. The default value is an empty string.
+Specifies the column name within an external data source for the column whose index is specified by the [getColumn()](../../com.aspose.words/odsofieldmapdata/\#getColumn) / [setColumn(int)](../../com.aspose.words/odsofieldmapdata/\#setColumn-int) property. The default value is an empty string.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -192,12 +193,12 @@ public void setType(int value)
 ```
 
 
-Specifies if a given mail merge field has been mapped to a column in the given external data source or not. The default value is [OdsoFieldMappingType.DEFAULT](../../com.aspose.words/odsofieldmappingtype\#DEFAULT).
+Specifies if a given mail merge field has been mapped to a column in the given external data source or not. The default value is [OdsoFieldMappingType.DEFAULT](../../com.aspose.words/odsofieldmappingtype/\#DEFAULT).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [OdsoFieldMappingType](../../com.aspose.words/odsofieldmappingtype) constants. |
+| value | int | The corresponding  int  value. The value must be one of [OdsoFieldMappingType](../../com.aspose.words/odsofieldmappingtype/) constants. |
 
 ### toString() {#toString}
 ```

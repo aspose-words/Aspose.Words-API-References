@@ -1,7 +1,8 @@
 ---
 title: Rule
+linktitle: Rule
 second_title: Aspose.Words for Java API Reference
-description: Indicates the action that occurs when a  is enforced.
+description: Indicates the action that occurs when a  is enforced in Java.
 type: docs
 weight: 36
 url: /java/com.aspose.words.net.system.data/rule/
@@ -13,14 +14,14 @@ java.lang.Object, java.lang.Enum
 public enum Rule extends Enum<System.Data.Rule>
 ```
 
-Indicates the action that occurs when a [ForeignKeyConstraint](../../com.aspose.words.net.system.data/foreignkeyconstraint) is enforced.
+Indicates the action that occurs when a [ForeignKeyConstraint](../../com.aspose.words.net.system.data/foreignkeyconstraint/) is enforced.
 ## Fields
 
 | Field | Description |
 | --- | --- |
 | [CASCADE](#CASCADE) | Delete or update related rows. |
 | [NONE](#NONE) | No action taken on related rows. |
-| [SET_DEFAULT](#SET-DEFAULT) | Set values in related rows to the value contained in the [DataColumn.getDefaultValue()](../../com.aspose.words.net.system.data/datacolumn\#getDefaultValue) / [DataColumn.setDefaultValue(java.lang.Object)](../../com.aspose.words.net.system.data/datacolumn\#setDefaultValue-java.lang.Object) property. |
+| [SET_DEFAULT](#SET-DEFAULT) | Set values in related rows to the value contained in the [DataColumn.getDefaultValue()](../../com.aspose.words.net.system.data/datacolumn/\#getDefaultValue) / [DataColumn.setDefaultValue(java.lang.Object)](../../com.aspose.words.net.system.data/datacolumn/\#setDefaultValue-java.lang.Object) property. |
 | [SET_NULL](#SET-NULL) | Set values in related rows to DBNull. |
 ## Methods
 
@@ -64,7 +65,7 @@ public static final System.Data.Rule SET_DEFAULT
 ```
 
 
-Set values in related rows to the value contained in the [DataColumn.getDefaultValue()](../../com.aspose.words.net.system.data/datacolumn\#getDefaultValue) / [DataColumn.setDefaultValue(java.lang.Object)](../../com.aspose.words.net.system.data/datacolumn\#setDefaultValue-java.lang.Object) property.
+Set values in related rows to the value contained in the [DataColumn.getDefaultValue()](../../com.aspose.words.net.system.data/datacolumn/\#getDefaultValue) / [DataColumn.setDefaultValue(java.lang.Object)](../../com.aspose.words.net.system.data/datacolumn/\#setDefaultValue-java.lang.Object) property.
 
 ### SET_NULL {#SET-NULL}
 ```
@@ -210,7 +211,7 @@ public static System.Data.Rule valueOf(String name)
 | name | java.lang.String |  |
 
 **Returns:**
-[Rule](../../com.aspose.words.net.system.data/rule)
+[Rule](../../com.aspose.words.net.system.data/rule/)
 ### values() {#values}
 ```
 public static System.Data.Rule[] values()

@@ -1,9 +1,10 @@
 ---
 title: SaveOutputParameters
+linktitle: SaveOutputParameters
 second_title: Aspose.Words for Java API Reference
-description: This object is returned to the caller after a document is saved and contains additional information that has been generated or calculated during the save operation.
+description: This object is returned to the caller after a document is saved and contains additional information that has been generated or calculated during the save operation in Java.
 type: docs
-weight: 505
+weight: 507
 url: /java/com.aspose.words/saveoutputparameters/
 ---
 

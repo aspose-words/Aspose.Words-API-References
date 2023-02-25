@@ -1,7 +1,8 @@
 ---
 title: EndCap
+linktitle: EndCap
 second_title: Aspose.Words for Java API Reference
-description: Specifies line cap style.
+description: Specifies line cap style in Java.
 type: docs
 weight: 146
 url: /java/com.aspose.words/endcap/
@@ -18,7 +19,7 @@ Specifies line cap style.
 
 | Field | Description |
 | --- | --- |
-| [DEFAULT](#DEFAULT) | Default value is [FLAT](../../com.aspose.words/endcap\#FLAT). |
+| [DEFAULT](#DEFAULT) | Default value is [FLAT](../../com.aspose.words/endcap/\#FLAT). |
 | [FLAT](#FLAT) | Line ends at end point. |
 | [ROUND](#ROUND) | Rounded ends. |
 | [SQUARE](#SQUARE) | Square protrudes by half line width. |
@@ -46,7 +47,7 @@ public static int DEFAULT
 ```
 
 
-Default value is [FLAT](../../com.aspose.words/endcap\#FLAT).
+Default value is [FLAT](../../com.aspose.words/endcap/\#FLAT).
 
 ### FLAT {#FLAT}
 ```

@@ -1,7 +1,8 @@
 ---
 title: DigitalSignatureCollection
+linktitle: DigitalSignatureCollection
 second_title: Aspose.Words for Java API Reference
-description: Provides a read-only collection of digital signatures attached to a document.
+description: Provides a read-only collection of digital signatures attached to a document in Java.
 type: docs
 weight: 113
 url: /java/com.aspose.words/digitalsignaturecollection/
@@ -20,7 +21,7 @@ Provides a read-only collection of digital signatures attached to a document.
 
 To learn more, visit the [ Work with Digital Signatures ][Work with Digital Signatures] documentation article.
 
-[Document.getDigitalSignatures()](../../com.aspose.words/document\#getDigitalSignatures)
+[Document.getDigitalSignatures()](../../com.aspose.words/document/\#getDigitalSignatures)
 
 
 [Work with Digital Signatures]: https://docs.aspose.com/words/java/working-with-digital-signatures/
@@ -70,7 +71,7 @@ Gets a document signature at the specified index.
 | index | int | Zero-based index of the signature. |
 
 **Returns:**
-[DigitalSignature](../../com.aspose.words/digitalsignature) - A document signature at the specified index.
+[DigitalSignature](../../com.aspose.words/digitalsignature/) - A document signature at the specified index.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()

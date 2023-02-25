@@ -1,7 +1,8 @@
 ---
 title: GradientStyle
+linktitle: GradientStyle
 second_title: Aspose.Words for Java API Reference
-description: Specifies the style for a gradient fill.
+description: Specifies the style for a gradient fill in Java.
 type: docs
 weight: 312
 url: /java/com.aspose.words/gradientstyle/

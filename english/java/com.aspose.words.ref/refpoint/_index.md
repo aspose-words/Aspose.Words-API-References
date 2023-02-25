@@ -1,7 +1,8 @@
 ---
 title: RefPoint
+linktitle: RefPoint
 second_title: Aspose.Words for Java API Reference
-description: Represents Out/Ref constructions for Point struct
+description: Represents Out/Ref constructions for Point struct in Java.
 type: docs
 weight: 17
 url: /java/com.aspose.words.ref/refpoint/

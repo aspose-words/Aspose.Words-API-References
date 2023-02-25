@@ -1,7 +1,8 @@
 ---
 title: FontSourceType
+linktitle: FontSourceType
 second_title: Aspose.Words for Java API Reference
-description: Specifies the type of a font source.
+description: Specifies the type of a font source in Java.
 type: docs
 weight: 290
 url: /java/com.aspose.words/fontsourcetype/
@@ -18,11 +19,11 @@ Specifies the type of a font source.
 
 | Field | Description |
 | --- | --- |
-| [FONTS_FOLDER](#FONTS-FOLDER) | A [FolderFontSource](../../com.aspose.words/folderfontsource) object that represents folder with font files. |
-| [FONT_FILE](#FONT-FILE) | A [FileFontSource](../../com.aspose.words/filefontsource) object that represents single font file. |
-| [FONT_STREAM](#FONT-STREAM) | A [StreamFontSource](../../com.aspose.words/streamfontsource) object that represents a stream with font data. |
-| [MEMORY_FONT](#MEMORY-FONT) | A [MemoryFontSource](../../com.aspose.words/memoryfontsource) object that represents single font in memory. |
-| [SYSTEM_FONTS](#SYSTEM-FONTS) | A [SystemFontSource](../../com.aspose.words/systemfontsource) object that represents all fonts installed to the system. |
+| [FONTS_FOLDER](#FONTS-FOLDER) | A [FolderFontSource](../../com.aspose.words/folderfontsource/) object that represents folder with font files. |
+| [FONT_FILE](#FONT-FILE) | A [FileFontSource](../../com.aspose.words/filefontsource/) object that represents single font file. |
+| [FONT_STREAM](#FONT-STREAM) | A [StreamFontSource](../../com.aspose.words/streamfontsource/) object that represents a stream with font data. |
+| [MEMORY_FONT](#MEMORY-FONT) | A [MemoryFontSource](../../com.aspose.words/memoryfontsource/) object that represents single font in memory. |
+| [SYSTEM_FONTS](#SYSTEM-FONTS) | A [SystemFontSource](../../com.aspose.words/systemfontsource/) object that represents all fonts installed to the system. |
 | [length](#length) |  |
 ## Methods
 
@@ -47,7 +48,7 @@ public static int FONTS_FOLDER
 ```
 
 
-A [FolderFontSource](../../com.aspose.words/folderfontsource) object that represents folder with font files.
+A [FolderFontSource](../../com.aspose.words/folderfontsource/) object that represents folder with font files.
 
 ### FONT_FILE {#FONT-FILE}
 ```
@@ -55,7 +56,7 @@ public static int FONT_FILE
 ```
 
 
-A [FileFontSource](../../com.aspose.words/filefontsource) object that represents single font file.
+A [FileFontSource](../../com.aspose.words/filefontsource/) object that represents single font file.
 
 ### FONT_STREAM {#FONT-STREAM}
 ```
@@ -63,7 +64,7 @@ public static int FONT_STREAM
 ```
 
 
-A [StreamFontSource](../../com.aspose.words/streamfontsource) object that represents a stream with font data.
+A [StreamFontSource](../../com.aspose.words/streamfontsource/) object that represents a stream with font data.
 
 ### MEMORY_FONT {#MEMORY-FONT}
 ```
@@ -71,7 +72,7 @@ public static int MEMORY_FONT
 ```
 
 
-A [MemoryFontSource](../../com.aspose.words/memoryfontsource) object that represents single font in memory.
+A [MemoryFontSource](../../com.aspose.words/memoryfontsource/) object that represents single font in memory.
 
 ### SYSTEM_FONTS {#SYSTEM-FONTS}
 ```
@@ -79,7 +80,7 @@ public static int SYSTEM_FONTS
 ```
 
 
-A [SystemFontSource](../../com.aspose.words/systemfontsource) object that represents all fonts installed to the system.
+A [SystemFontSource](../../com.aspose.words/systemfontsource/) object that represents all fonts installed to the system.
 
 ### length {#length}
 ```

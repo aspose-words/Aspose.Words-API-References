@@ -1,9 +1,10 @@
 ---
 title: VerticalAlignment
+linktitle: VerticalAlignment
 second_title: Aspose.Words for Java API Reference
-description: Specifies vertical alignment of a floating shape text frame or a floating table.
+description: Specifies vertical alignment of a floating shape text frame or a floating table in Java.
 type: docs
-weight: 604
+weight: 606
 url: /java/com.aspose.words/verticalalignment/
 ---
 
@@ -20,7 +21,7 @@ Specifies vertical alignment of a floating shape, text frame or a floating table
 | --- | --- |
 | [BOTTOM](#BOTTOM) | Specifies that the object shall be at the bottom of the vertical alignment base. |
 | [CENTER](#CENTER) | Specifies that the object shall be centered with respect to the vertical alignment base. |
-| [DEFAULT](#DEFAULT) | Same as [NONE](../../com.aspose.words/verticalalignment\#NONE). |
+| [DEFAULT](#DEFAULT) | Same as [NONE](../../com.aspose.words/verticalalignment/\#NONE). |
 | [INLINE](#INLINE) | Not documented. |
 | [INSIDE](#INSIDE) | Specifies that the object shall be inside of the horizontal alignment base. |
 | [NONE](#NONE) | The object is explicitly positioned, usually using its **Top** property. |
@@ -66,7 +67,7 @@ public static int DEFAULT
 ```
 
 
-Same as [NONE](../../com.aspose.words/verticalalignment\#NONE).
+Same as [NONE](../../com.aspose.words/verticalalignment/\#NONE).
 
 ### INLINE {#INLINE}
 ```

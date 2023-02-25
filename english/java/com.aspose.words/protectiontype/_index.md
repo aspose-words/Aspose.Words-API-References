@@ -1,9 +1,10 @@
 ---
 title: ProtectionType
+linktitle: ProtectionType
 second_title: Aspose.Words for Java API Reference
-description: Protection type for a document.
+description: Protection type for a document in Java.
 type: docs
-weight: 474
+weight: 476
 url: /java/com.aspose.words/protectiontype/
 ---
 

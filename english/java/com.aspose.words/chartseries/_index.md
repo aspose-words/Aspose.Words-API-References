@@ -1,7 +1,8 @@
 ---
 title: ChartSeries
+linktitle: ChartSeries
 second_title: Aspose.Words for Java API Reference
-description: Represents chart series properties.
+description: Represents chart series properties in Java.
 type: docs
 weight: 68
 url: /java/com.aspose.words/chartseries/
@@ -11,7 +12,7 @@ url: /java/com.aspose.words/chartseries/
 java.lang.Object
 
 **All Implemented Interfaces:**
-[com.aspose.words.IChartDataPoint](../../com.aspose.words/ichartdatapoint), java.lang.Cloneable
+[com.aspose.words.IChartDataPoint](../../com.aspose.words/ichartdatapoint/), java.lang.Cloneable
 ```
 public class ChartSeries implements IChartDataPoint, Cloneable
 ```
@@ -96,7 +97,7 @@ public ChartDataLabelCollection getDataLabels()
 Specifies the settings for the data labels for the entire series.
 
 **Returns:**
-[ChartDataLabelCollection](../../com.aspose.words/chartdatalabelcollection) - The corresponding [ChartDataLabelCollection](../../com.aspose.words/chartdatalabelcollection) value.
+[ChartDataLabelCollection](../../com.aspose.words/chartdatalabelcollection/) - The corresponding [ChartDataLabelCollection](../../com.aspose.words/chartdatalabelcollection/) value.
 ### getDataPoints() {#getDataPoints}
 ```
 public ChartDataPointCollection getDataPoints()
@@ -106,7 +107,7 @@ public ChartDataPointCollection getDataPoints()
 Returns a collection of formatting objects for all data points in this series.
 
 **Returns:**
-[ChartDataPointCollection](../../com.aspose.words/chartdatapointcollection) - A collection of formatting objects for all data points in this series.
+[ChartDataPointCollection](../../com.aspose.words/chartdatapointcollection/) - A collection of formatting objects for all data points in this series.
 ### getExplosion() {#getExplosion}
 ```
 public int getExplosion()
@@ -126,7 +127,7 @@ public ChartFormat getFormat()
 Provides access to fill and line formatting of the series.
 
 **Returns:**
-[ChartFormat](../../com.aspose.words/chartformat) - The corresponding [ChartFormat](../../com.aspose.words/chartformat) value.
+[ChartFormat](../../com.aspose.words/chartformat/) - The corresponding [ChartFormat](../../com.aspose.words/chartformat/) value.
 ### getInvertIfNegative() {#getInvertIfNegative}
 ```
 public boolean getInvertIfNegative()
@@ -146,7 +147,7 @@ public ChartLegendEntry getLegendEntry()
 Gets a legend entry for this chart series.
 
 **Returns:**
-[ChartLegendEntry](../../com.aspose.words/chartlegendentry) - A legend entry for this chart series.
+[ChartLegendEntry](../../com.aspose.words/chartlegendentry/) - A legend entry for this chart series.
 ### getMarker() {#getMarker}
 ```
 public ChartMarker getMarker()
@@ -156,7 +157,7 @@ public ChartMarker getMarker()
 Specifies a data marker. Marker is automatically created when requested.
 
 **Returns:**
-[ChartMarker](../../com.aspose.words/chartmarker)
+[ChartMarker](../../com.aspose.words/chartmarker/)
 ### getName() {#getName}
 ```
 public String getName()

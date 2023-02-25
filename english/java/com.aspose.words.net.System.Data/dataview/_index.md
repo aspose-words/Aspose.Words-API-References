@@ -1,7 +1,8 @@
 ---
 title: DataView
+linktitle: DataView
 second_title: Aspose.Words for Java API Reference
-description: Represents a databindable customized view of a  for sorting filtering searching editing and navigation.
+description: Represents a databindable customized view of a  for sorting filtering searching editing and navigation in Java.
 type: docs
 weight: 28
 url: /java/com.aspose.words.net.system.data/dataview/
@@ -16,24 +17,24 @@ java.lang.Iterable
 public class DataView implements Iterable
 ```
 
-Represents a databindable, customized view of a [DataTable](../../com.aspose.words.net.system.data/datatable) for sorting, filtering, searching, editing, and navigation.
+Represents a databindable, customized view of a [DataTable](../../com.aspose.words.net.system.data/datatable/) for sorting, filtering, searching, editing, and navigation.
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [DataView(System.Data.DataTable table)](#DataView-com.aspose.words.net.System.Data.DataTable) | Initializes a new instance of the [DataView](../../com.aspose.words.net.system.data/dataview) class with the specified [DataTable](../../com.aspose.words.net.system.data/datatable). |
+| [DataView(System.Data.DataTable table)](#DataView-com.aspose.words.net.System.Data.DataTable) | Initializes a new instance of the [DataView](../../com.aspose.words.net.system.data/dataview/) class with the specified [DataTable](../../com.aspose.words.net.system.data/datatable/). |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [close()](#close) | Closes the [DataView](../../com.aspose.words.net.system.data/dataview). |
+| [close()](#close) | Closes the [DataView](../../com.aspose.words.net.system.data/dataview/). |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [get(int recordIndex)](#get-int) | Gets a row of data from a specified table. |
 | [getClass()](#getClass) |  |
-| [getCount()](#getCount) | Gets the number of records in the [DataView](../../com.aspose.words.net.system.data/dataview). |
-| [getTable()](#getTable) | Gets the source [DataTable](../../com.aspose.words.net.system.data/datatable). |
+| [getCount()](#getCount) | Gets the number of records in the [DataView](../../com.aspose.words.net.system.data/dataview/). |
+| [getTable()](#getTable) | Gets the source [DataTable](../../com.aspose.words.net.system.data/datatable/). |
 | [hashCode()](#hashCode) |  |
-| [iterator()](#iterator) | Gets an enumerator for this [DataView](../../com.aspose.words.net.system.data/dataview). |
+| [iterator()](#iterator) | Gets an enumerator for this [DataView](../../com.aspose.words.net.system.data/dataview/). |
 | [notify()](#notify) |  |
 | [notifyAll()](#notifyAll) |  |
 | [toString()](#toString) |  |
@@ -46,12 +47,12 @@ public DataView(System.Data.DataTable table)
 ```
 
 
-Initializes a new instance of the [DataView](../../com.aspose.words.net.system.data/dataview) class with the specified [DataTable](../../com.aspose.words.net.system.data/datatable).
+Initializes a new instance of the [DataView](../../com.aspose.words.net.system.data/dataview/) class with the specified [DataTable](../../com.aspose.words.net.system.data/datatable/).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| table | [DataTable](../../com.aspose.words.net.system.data/datatable) | A [DataTable](../../com.aspose.words.net.system.data/datatable) to add to the [DataView](../../com.aspose.words.net.system.data/dataview). |
+| table | [DataTable](../../com.aspose.words.net.system.data/datatable/) | A [DataTable](../../com.aspose.words.net.system.data/datatable/) to add to the [DataView](../../com.aspose.words.net.system.data/dataview/). |
 
 ### close() {#close}
 ```
@@ -59,7 +60,7 @@ public void close()
 ```
 
 
-Closes the [DataView](../../com.aspose.words.net.system.data/dataview).
+Closes the [DataView](../../com.aspose.words.net.system.data/dataview/).
 
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
@@ -87,10 +88,10 @@ Gets a row of data from a specified table.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| recordIndex | int | The index of a record in the [DataTable](../../com.aspose.words.net.system.data/datatable). |
+| recordIndex | int | The index of a record in the [DataTable](../../com.aspose.words.net.system.data/datatable/). |
 
 **Returns:**
-[DataRowView](../../com.aspose.words.net.system.data/datarowview) - A [DataRowView](../../com.aspose.words.net.system.data/datarowview) of the row that you want.
+[DataRowView](../../com.aspose.words.net.system.data/datarowview/) - A [DataRowView](../../com.aspose.words.net.system.data/datarowview/) of the row that you want.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -107,20 +108,20 @@ public int getCount()
 ```
 
 
-Gets the number of records in the [DataView](../../com.aspose.words.net.system.data/dataview).
+Gets the number of records in the [DataView](../../com.aspose.words.net.system.data/dataview/).
 
 **Returns:**
-int - The number of records in the [DataView](../../com.aspose.words.net.system.data/dataview).
+int - The number of records in the [DataView](../../com.aspose.words.net.system.data/dataview/).
 ### getTable() {#getTable}
 ```
 public System.Data.DataTable getTable()
 ```
 
 
-Gets the source [DataTable](../../com.aspose.words.net.system.data/datatable).
+Gets the source [DataTable](../../com.aspose.words.net.system.data/datatable/).
 
 **Returns:**
-[DataTable](../../com.aspose.words.net.system.data/datatable) - A [DataTable](../../com.aspose.words.net.system.data/datatable) that provides the data for this view.
+[DataTable](../../com.aspose.words.net.system.data/datatable/) - A [DataTable](../../com.aspose.words.net.system.data/datatable/) that provides the data for this view.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()
@@ -137,7 +138,7 @@ public Iterator iterator()
 ```
 
 
-Gets an enumerator for this [DataView](../../com.aspose.words.net.system.data/dataview).
+Gets an enumerator for this [DataView](../../com.aspose.words.net.system.data/dataview/).
 
 **Returns:**
 java.util.Iterator - An java.util.Iterator for navigating through the list.

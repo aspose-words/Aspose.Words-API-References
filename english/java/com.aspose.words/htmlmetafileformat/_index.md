@@ -1,7 +1,8 @@
 ---
 title: HtmlMetafileFormat
+linktitle: HtmlMetafileFormat
 second_title: Aspose.Words for Java API Reference
-description: Indicates the format in which metafiles are saved to HTML documents.
+description: Indicates the format in which metafiles are saved to HTML documents in Java.
 type: docs
 weight: 331
 url: /java/com.aspose.words/htmlmetafileformat/

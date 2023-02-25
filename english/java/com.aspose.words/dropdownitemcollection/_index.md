@@ -1,7 +1,8 @@
 ---
 title: DropDownItemCollection
+linktitle: DropDownItemCollection
 second_title: Aspose.Words for Java API Reference
-description: A collection of strings that represent all the items in a drop-down form field.
+description: A collection of strings that represent all the items in a drop-down form field in Java.
 type: docs
 weight: 136
 url: /java/com.aspose.words/dropdownitemcollection/

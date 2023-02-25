@@ -1,7 +1,8 @@
 ---
 title: ConditionalStyleCollection
+linktitle: ConditionalStyleCollection
 second_title: Aspose.Words for Java API Reference
-description: Represents a collection of  objects.
+description: Represents a collection of  objects in Java.
 type: docs
 weight: 91
 url: /java/com.aspose.words/conditionalstylecollection/
@@ -16,11 +17,11 @@ java.lang.Iterable
 public class ConditionalStyleCollection implements Iterable
 ```
 
-Represents a collection of [ConditionalStyle](../../com.aspose.words/conditionalstyle) objects.
+Represents a collection of [ConditionalStyle](../../com.aspose.words/conditionalstyle/) objects.
 
 To learn more, visit the [ Working with Tables ][Working with Tables] documentation article.
 
-It is not possible to add or remove items from this collection. It contains permanent set of items: one item for each value of the [ConditionalStyleType](../../com.aspose.words/conditionalstyletype) enumeration type.
+It is not possible to add or remove items from this collection. It contains permanent set of items: one item for each value of the [ConditionalStyleType](../../com.aspose.words/conditionalstyletype/) enumeration type.
 
 
 [Working with Tables]: https://docs.aspose.com/words/java/working-with-tables/
@@ -30,7 +31,7 @@ It is not possible to add or remove items from this collection. It contains perm
 | --- | --- |
 | [clearFormatting()](#clearFormatting) | Clears all conditional styles of the table style. |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [get(int index)](#get-int) | Retrieves a [ConditionalStyle](../../com.aspose.words/conditionalstyle) object by index. |
+| [get(int index)](#get-int) | Retrieves a [ConditionalStyle](../../com.aspose.words/conditionalstyle/) object by index. |
 | [getBottomLeftCell()](#getBottomLeftCell) | Gets the bottom left cell style. |
 | [getBottomRightCell()](#getBottomRightCell) | Gets the bottom right cell style. |
 | [getByConditionalStyleType(int conditionalStyleType)](#getByConditionalStyleType-int) |  |
@@ -83,7 +84,7 @@ public ConditionalStyle get(int index)
 ```
 
 
-Retrieves a [ConditionalStyle](../../com.aspose.words/conditionalstyle) object by index.
+Retrieves a [ConditionalStyle](../../com.aspose.words/conditionalstyle/) object by index.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -91,7 +92,7 @@ Retrieves a [ConditionalStyle](../../com.aspose.words/conditionalstyle) object b
 | index | int | Zero-based index of the conditional style to retrieve. |
 
 **Returns:**
-[ConditionalStyle](../../com.aspose.words/conditionalstyle) - The corresponding [ConditionalStyle](../../com.aspose.words/conditionalstyle) value.
+[ConditionalStyle](../../com.aspose.words/conditionalstyle/) - The corresponding [ConditionalStyle](../../com.aspose.words/conditionalstyle/) value.
 ### getBottomLeftCell() {#getBottomLeftCell}
 ```
 public ConditionalStyle getBottomLeftCell()
@@ -101,7 +102,7 @@ public ConditionalStyle getBottomLeftCell()
 Gets the bottom left cell style.
 
 **Returns:**
-[ConditionalStyle](../../com.aspose.words/conditionalstyle) - The bottom left cell style.
+[ConditionalStyle](../../com.aspose.words/conditionalstyle/) - The bottom left cell style.
 ### getBottomRightCell() {#getBottomRightCell}
 ```
 public ConditionalStyle getBottomRightCell()
@@ -111,7 +112,7 @@ public ConditionalStyle getBottomRightCell()
 Gets the bottom right cell style.
 
 **Returns:**
-[ConditionalStyle](../../com.aspose.words/conditionalstyle) - The bottom right cell style.
+[ConditionalStyle](../../com.aspose.words/conditionalstyle/) - The bottom right cell style.
 ### getByConditionalStyleType(int conditionalStyleType) {#getByConditionalStyleType-int}
 ```
 public ConditionalStyle getByConditionalStyleType(int conditionalStyleType)
@@ -126,7 +127,7 @@ public ConditionalStyle getByConditionalStyleType(int conditionalStyleType)
 | conditionalStyleType | int |  |
 
 **Returns:**
-[ConditionalStyle](../../com.aspose.words/conditionalstyle)
+[ConditionalStyle](../../com.aspose.words/conditionalstyle/)
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -156,7 +157,7 @@ public ConditionalStyle getEvenColumnBanding()
 Gets the even column banding style.
 
 **Returns:**
-[ConditionalStyle](../../com.aspose.words/conditionalstyle) - The even column banding style.
+[ConditionalStyle](../../com.aspose.words/conditionalstyle/) - The even column banding style.
 ### getEvenRowBanding() {#getEvenRowBanding}
 ```
 public ConditionalStyle getEvenRowBanding()
@@ -166,7 +167,7 @@ public ConditionalStyle getEvenRowBanding()
 Gets the even row banding style.
 
 **Returns:**
-[ConditionalStyle](../../com.aspose.words/conditionalstyle) - The even row banding style.
+[ConditionalStyle](../../com.aspose.words/conditionalstyle/) - The even row banding style.
 ### getFirstColumn() {#getFirstColumn}
 ```
 public ConditionalStyle getFirstColumn()
@@ -176,7 +177,7 @@ public ConditionalStyle getFirstColumn()
 Gets the first column style.
 
 **Returns:**
-[ConditionalStyle](../../com.aspose.words/conditionalstyle) - The first column style.
+[ConditionalStyle](../../com.aspose.words/conditionalstyle/) - The first column style.
 ### getFirstRow() {#getFirstRow}
 ```
 public ConditionalStyle getFirstRow()
@@ -186,7 +187,7 @@ public ConditionalStyle getFirstRow()
 Gets the first row style.
 
 **Returns:**
-[ConditionalStyle](../../com.aspose.words/conditionalstyle) - The first row style.
+[ConditionalStyle](../../com.aspose.words/conditionalstyle/) - The first row style.
 ### getLastColumn() {#getLastColumn}
 ```
 public ConditionalStyle getLastColumn()
@@ -196,7 +197,7 @@ public ConditionalStyle getLastColumn()
 Gets the last column style.
 
 **Returns:**
-[ConditionalStyle](../../com.aspose.words/conditionalstyle) - The last column style.
+[ConditionalStyle](../../com.aspose.words/conditionalstyle/) - The last column style.
 ### getLastRow() {#getLastRow}
 ```
 public ConditionalStyle getLastRow()
@@ -206,7 +207,7 @@ public ConditionalStyle getLastRow()
 Gets the last row style.
 
 **Returns:**
-[ConditionalStyle](../../com.aspose.words/conditionalstyle) - The last row style.
+[ConditionalStyle](../../com.aspose.words/conditionalstyle/) - The last row style.
 ### getOddColumnBanding() {#getOddColumnBanding}
 ```
 public ConditionalStyle getOddColumnBanding()
@@ -216,7 +217,7 @@ public ConditionalStyle getOddColumnBanding()
 Gets the odd column banding style.
 
 **Returns:**
-[ConditionalStyle](../../com.aspose.words/conditionalstyle) - The odd column banding style.
+[ConditionalStyle](../../com.aspose.words/conditionalstyle/) - The odd column banding style.
 ### getOddRowBanding() {#getOddRowBanding}
 ```
 public ConditionalStyle getOddRowBanding()
@@ -226,7 +227,7 @@ public ConditionalStyle getOddRowBanding()
 Gets the odd row banding style.
 
 **Returns:**
-[ConditionalStyle](../../com.aspose.words/conditionalstyle) - The odd row banding style.
+[ConditionalStyle](../../com.aspose.words/conditionalstyle/) - The odd row banding style.
 ### getTopLeftCell() {#getTopLeftCell}
 ```
 public ConditionalStyle getTopLeftCell()
@@ -236,7 +237,7 @@ public ConditionalStyle getTopLeftCell()
 Gets the top left cell style.
 
 **Returns:**
-[ConditionalStyle](../../com.aspose.words/conditionalstyle) - The top left cell style.
+[ConditionalStyle](../../com.aspose.words/conditionalstyle/) - The top left cell style.
 ### getTopRightCell() {#getTopRightCell}
 ```
 public ConditionalStyle getTopRightCell()
@@ -246,7 +247,7 @@ public ConditionalStyle getTopRightCell()
 Gets the top right cell style.
 
 **Returns:**
-[ConditionalStyle](../../com.aspose.words/conditionalstyle) - The top right cell style.
+[ConditionalStyle](../../com.aspose.words/conditionalstyle/) - The top right cell style.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()

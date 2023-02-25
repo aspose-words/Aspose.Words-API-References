@@ -1,7 +1,8 @@
 ---
 title: Direction
+linktitle: Direction
 second_title: Aspose.Words for Java API Reference
-description: 
+description: Text direction in Java.
 type: docs
 weight: 116
 url: /java/com.aspose.words/direction/
@@ -12,15 +13,17 @@ java.lang.Object
 ```
 public class Direction
 ```
+
+Text direction.
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [BTT](#BTT) |  |
-| [DEFAULT](#DEFAULT) |  |
-| [LTR](#LTR) |  |
-| [RTL](#RTL) |  |
-| [TTB](#TTB) |  |
+| [BTT](#BTT) | Bottom-to-top writing direction. |
+| [DEFAULT](#DEFAULT) | Default value, same as [LTR](../../com.aspose.words/direction/\#LTR). |
+| [LTR](#LTR) | Left-to-right writing direction. |
+| [RTL](#RTL) | Right-to-left writing direction. |
+| [TTB](#TTB) | Top-to-bottom writing direction. |
 | [length](#length) |  |
 ## Methods
 
@@ -45,11 +48,15 @@ public static int BTT
 ```
 
 
+Bottom-to-top writing direction.
+
 ### DEFAULT {#DEFAULT}
 ```
 public static int DEFAULT
 ```
 
+
+Default value, same as [LTR](../../com.aspose.words/direction/\#LTR).
 
 ### LTR {#LTR}
 ```
@@ -57,17 +64,23 @@ public static int LTR
 ```
 
 
+Left-to-right writing direction.
+
 ### RTL {#RTL}
 ```
 public static int RTL
 ```
 
 
+Right-to-left writing direction.
+
 ### TTB {#TTB}
 ```
 public static int TTB
 ```
 
+
+Top-to-bottom writing direction.
 
 ### length {#length}
 ```

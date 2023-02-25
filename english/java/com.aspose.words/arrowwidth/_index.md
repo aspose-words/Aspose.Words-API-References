@@ -1,7 +1,8 @@
 ---
 title: ArrowWidth
+linktitle: ArrowWidth
 second_title: Aspose.Words for Java API Reference
-description: Width of the arrow at the end of a line.
+description: Width of the arrow at the end of a line in Java.
 type: docs
 weight: 13
 url: /java/com.aspose.words/arrowwidth/
@@ -18,7 +19,7 @@ Width of the arrow at the end of a line.
 
 | Field | Description |
 | --- | --- |
-| [DEFAULT](#DEFAULT) | Same as [NARROW](../../com.aspose.words/arrowwidth\#NARROW). |
+| [DEFAULT](#DEFAULT) | Same as [NARROW](../../com.aspose.words/arrowwidth/\#NARROW). |
 | [MEDIUM](#MEDIUM) |  |
 | [NARROW](#NARROW) |  |
 | [WIDE](#WIDE) |  |
@@ -46,7 +47,7 @@ public static int DEFAULT
 ```
 
 
-Same as [NARROW](../../com.aspose.words/arrowwidth\#NARROW).
+Same as [NARROW](../../com.aspose.words/arrowwidth/\#NARROW).
 
 ### MEDIUM {#MEDIUM}
 ```

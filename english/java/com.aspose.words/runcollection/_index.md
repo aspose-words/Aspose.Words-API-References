@@ -1,19 +1,20 @@
 ---
 title: RunCollection
+linktitle: RunCollection
 second_title: Aspose.Words for Java API Reference
-description: Provides typed access to a collection of  nodes.
+description: Provides typed access to a collection of  nodes in Java.
 type: docs
-weight: 502
+weight: 504
 url: /java/com.aspose.words/runcollection/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.words.NodeCollection](../../com.aspose.words/nodecollection)
+java.lang.Object, [com.aspose.words.NodeCollection](../../com.aspose.words/nodecollection/)
 ```
 public class RunCollection extends NodeCollection
 ```
 
-Provides typed access to a collection of [Run](../../com.aspose.words/run) nodes.
+Provides typed access to a collection of [Run](../../com.aspose.words/run/) nodes.
 
 To learn more, visit the [ Programming with Documents ][Programming with Documents] documentation article.
 
@@ -27,7 +28,7 @@ To learn more, visit the [ Programming with Documents ][Programming with Documen
 | [clear()](#clear) | Removes all nodes from this collection and from the document. |
 | [contains(Node node)](#contains-com.aspose.words.Node) | Determines whether a node is in the collection. |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [get(int index)](#get-int) | Retrieves a [Run](../../com.aspose.words/run) at the given index. |
+| [get(int index)](#get-int) | Retrieves a [Run](../../com.aspose.words/run/) at the given index. |
 | [getClass()](#getClass) |  |
 | [getContainer()](#getContainer) |  |
 | [getCount()](#getCount) | Gets the number of nodes in the collection. |
@@ -61,7 +62,7 @@ If the node being inserted was created from another document, you should use **M
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| node | [Node](../../com.aspose.words/node) | The node to be added to the end of the collection. |
+| node | [Node](../../com.aspose.words/node/) | The node to be added to the end of the collection. |
 
 ### clear() {#clear}
 ```
@@ -79,12 +80,12 @@ public boolean contains(Node node)
 
 Determines whether a node is in the collection.
 
-This method performs a linear search; therefore, the average execution time is proportional to [getCount()](../../com.aspose.words/nodecollection\#getCount).
+This method performs a linear search; therefore, the average execution time is proportional to [getCount()](../../com.aspose.words/nodecollection/\#getCount).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| node | [Node](../../com.aspose.words/node) | The node to locate. |
+| node | [Node](../../com.aspose.words/node/) | The node to locate. |
 
 **Returns:**
 boolean - \{ true  if item is found in the collection; otherwise,  false .
@@ -109,7 +110,7 @@ public Node get(int index)
 ```
 
 
-Retrieves a [Run](../../com.aspose.words/run) at the given index.
+Retrieves a [Run](../../com.aspose.words/run/) at the given index.
 
 The index is zero-based.
 
@@ -125,7 +126,7 @@ If index is negative and its absolute value is greater than the number of items 
 | index | int | An index into the collection. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The corresponding [Run](../../com.aspose.words/run) value.
+[Node](../../com.aspose.words/node/) - The corresponding [Run](../../com.aspose.words/run/) value.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -145,7 +146,7 @@ public CompositeNode getContainer()
 
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode)
+[CompositeNode](../../com.aspose.words/compositenode/)
 ### getCount() {#getCount}
 ```
 public int getCount()
@@ -165,7 +166,7 @@ public Node getCurrentNode()
 
 
 **Returns:**
-[Node](../../com.aspose.words/node)
+[Node](../../com.aspose.words/node/)
 ### getNextMatchingNode(Node curNode) {#getNextMatchingNode-com.aspose.words.Node}
 ```
 public Node getNextMatchingNode(Node curNode)
@@ -177,10 +178,10 @@ public Node getNextMatchingNode(Node curNode)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| curNode | [Node](../../com.aspose.words/node) |  |
+| curNode | [Node](../../com.aspose.words/node/) |  |
 
 **Returns:**
-[Node](../../com.aspose.words/node)
+[Node](../../com.aspose.words/node/)
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()
@@ -202,12 +203,12 @@ Returns the zero-based index of the specified node.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| node | [Node](../../com.aspose.words/node) | The node to locate. |
+| node | [Node](../../com.aspose.words/node/) | The node to locate. |
 
 **Returns:**
 int - The zero-based index of the node within the collection, if found; otherwise, -1.
 
-This method performs a linear search; therefore, the average execution time is proportional to [getCount()](../../com.aspose.words/nodecollection\#getCount).
+This method performs a linear search; therefore, the average execution time is proportional to [getCount()](../../com.aspose.words/nodecollection/\#getCount).
 ### insert(int index, Node node) {#insert-int-com.aspose.words.Node}
 ```
 public void insert(int index, Node node)
@@ -218,9 +219,9 @@ Inserts a node into the collection at the specified index.
 
 The node is inserted as a child into the node object from which the collection was created.
 
-If the index is equal to or greater than [getCount()](../../com.aspose.words/nodecollection\#getCount), the node is added at the end of the collection.
+If the index is equal to or greater than [getCount()](../../com.aspose.words/nodecollection/\#getCount), the node is added at the end of the collection.
 
-If the index is negative and its absolute value is greater than [getCount()](../../com.aspose.words/nodecollection\#getCount), the node is added at the end of the collection.
+If the index is negative and its absolute value is greater than [getCount()](../../com.aspose.words/nodecollection/\#getCount), the node is added at the end of the collection.
 
 If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
 
@@ -228,7 +229,7 @@ If the node being inserted was created from another document, you should use **M
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index of the node. Negative indexes are allowed and indicate access from the back of the list. For example -1 means the last node, -2 means the second before last and so on. |
-| node | [Node](../../com.aspose.words/node) | The node to insert. |
+| node | [Node](../../com.aspose.words/node/) | The node to insert. |
 
 ### iterator() {#iterator}
 ```
@@ -267,7 +268,7 @@ Removes the node from the collection and from the document.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| node | [Node](../../com.aspose.words/node) | The node to remove. |
+| node | [Node](../../com.aspose.words/node/) | The node to remove. |
 
 ### removeAt(int index) {#removeAt-int}
 ```

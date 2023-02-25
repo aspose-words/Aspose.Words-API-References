@@ -1,9 +1,10 @@
 ---
 title: ShapeLineStyle
+linktitle: ShapeLineStyle
 second_title: Aspose.Words for Java API Reference
-description: Specifies the compound line style of a .
+description: Specifies the compound line style of a in Java.
 type: docs
-weight: 522
+weight: 524
 url: /java/com.aspose.words/shapelinestyle/
 ---
 
@@ -13,12 +14,12 @@ java.lang.Object
 public class ShapeLineStyle
 ```
 
-Specifies the compound line style of a [Shape](../../com.aspose.words/shape).
+Specifies the compound line style of a [Shape](../../com.aspose.words/shape/).
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [DEFAULT](#DEFAULT) | Default value is [SINGLE](../../com.aspose.words/shapelinestyle\#SINGLE). |
+| [DEFAULT](#DEFAULT) | Default value is [SINGLE](../../com.aspose.words/shapelinestyle/\#SINGLE). |
 | [DOUBLE](#DOUBLE) | Double lines of equal width. |
 | [SINGLE](#SINGLE) | Single line. |
 | [THICK_THIN](#THICK-THIN) | Double lines, one thick, one thin. |
@@ -48,7 +49,7 @@ public static int DEFAULT
 ```
 
 
-Default value is [SINGLE](../../com.aspose.words/shapelinestyle\#SINGLE).
+Default value is [SINGLE](../../com.aspose.words/shapelinestyle/\#SINGLE).
 
 ### DOUBLE {#DOUBLE}
 ```

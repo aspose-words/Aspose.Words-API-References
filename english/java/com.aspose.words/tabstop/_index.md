@@ -1,9 +1,10 @@
 ---
 title: TabStop
+linktitle: TabStop
 second_title: Aspose.Words for Java API Reference
-description: Represents a single custom tab stop.
+description: Represents a single custom tab stop in Java.
 type: docs
-weight: 550
+weight: 552
 url: /java/com.aspose.words/tabstop/
 ---
 
@@ -16,13 +17,13 @@ java.lang.Cloneable
 public class TabStop implements Cloneable
 ```
 
-Represents a single custom tab stop. The [TabStop](../../com.aspose.words/tabstop) object is a member of the [TabStopCollection](../../com.aspose.words/tabstopcollection) collection.
+Represents a single custom tab stop. The [TabStop](../../com.aspose.words/tabstop/) object is a member of the [TabStopCollection](../../com.aspose.words/tabstopcollection/) collection.
 
 To learn more, visit the [ Aspose.Words Document Object Model (DOM) ][Aspose.Words Document Object Model _DOM_] documentation article.
 
-Normally, a tab stop specifies a position where a tab stop exists. But because tab stops can be inherited from parent styles, it might be needed for the child object to define explicitly that there is no tab stop at a given position. To clear an inherited tab stop at a given position, create a [TabStop](../../com.aspose.words/tabstop) object and set [getAlignment()](../../com.aspose.words/tabstop\#getAlignment) / [setAlignment(int)](../../com.aspose.words/tabstop\#setAlignment-int) to [TabAlignment.CLEAR](../../com.aspose.words/tabalignment\#CLEAR).
+Normally, a tab stop specifies a position where a tab stop exists. But because tab stops can be inherited from parent styles, it might be needed for the child object to define explicitly that there is no tab stop at a given position. To clear an inherited tab stop at a given position, create a [TabStop](../../com.aspose.words/tabstop/) object and set [getAlignment()](../../com.aspose.words/tabstop/\#getAlignment) / [setAlignment(int)](../../com.aspose.words/tabstop/\#setAlignment-int) to [TabAlignment.CLEAR](../../com.aspose.words/tabalignment/\#CLEAR).
 
-For more information see [TabStopCollection](../../com.aspose.words/tabstopcollection).
+For more information see [TabStopCollection](../../com.aspose.words/tabstopcollection/).
 
 
 [Aspose.Words Document Object Model _DOM_]: https://docs.aspose.com/words/java/aspose-words-document-object-model/
@@ -36,7 +37,7 @@ For more information see [TabStopCollection](../../com.aspose.words/tabstopcolle
 
 | Method | Description |
 | --- | --- |
-| [equals(TabStop rhs)](#equals-com.aspose.words.TabStop) | Compares with the specified [TabStop](../../com.aspose.words/tabstop). |
+| [equals(TabStop rhs)](#equals-com.aspose.words.TabStop) | Compares with the specified [TabStop](../../com.aspose.words/tabstop/). |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getAlignment()](#getAlignment) | Gets the alignment of text at this tab stop. |
 | [getClass()](#getClass) |  |
@@ -86,12 +87,12 @@ public boolean equals(TabStop rhs)
 ```
 
 
-Compares with the specified [TabStop](../../com.aspose.words/tabstop).
+Compares with the specified [TabStop](../../com.aspose.words/tabstop/).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rhs | [TabStop](../../com.aspose.words/tabstop) |  |
+| rhs | [TabStop](../../com.aspose.words/tabstop/) |  |
 
 **Returns:**
 boolean
@@ -119,7 +120,7 @@ public int getAlignment()
 Gets the alignment of text at this tab stop.
 
 **Returns:**
-int - The alignment of text at this tab stop. The returned value is one of [TabAlignment](../../com.aspose.words/tabalignment) constants.
+int - The alignment of text at this tab stop. The returned value is one of [TabAlignment](../../com.aspose.words/tabalignment/) constants.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -139,7 +140,7 @@ public int getLeader()
 Gets the type of the leader line displayed under the tab character.
 
 **Returns:**
-int - The type of the leader line displayed under the tab character. The returned value is one of [TabLeader](../../com.aspose.words/tableader) constants.
+int - The type of the leader line displayed under the tab character. The returned value is one of [TabLeader](../../com.aspose.words/tableader/) constants.
 ### getPosition() {#getPosition}
 ```
 public double getPosition()
@@ -197,7 +198,7 @@ Sets the alignment of text at this tab stop.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The alignment of text at this tab stop. The value must be one of [TabAlignment](../../com.aspose.words/tabalignment) constants. |
+| value | int | The alignment of text at this tab stop. The value must be one of [TabAlignment](../../com.aspose.words/tabalignment/) constants. |
 
 ### setLeader(int value) {#setLeader-int}
 ```
@@ -210,7 +211,7 @@ Sets the type of the leader line displayed under the tab character.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The type of the leader line displayed under the tab character. The value must be one of [TabLeader](../../com.aspose.words/tableader) constants. |
+| value | int | The type of the leader line displayed under the tab character. The value must be one of [TabLeader](../../com.aspose.words/tableader/) constants. |
 
 ### toString() {#toString}
 ```

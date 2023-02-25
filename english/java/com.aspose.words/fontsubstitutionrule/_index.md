@@ -1,7 +1,8 @@
 ---
 title: FontSubstitutionRule
+linktitle: FontSubstitutionRule
 second_title: Aspose.Words for Java API Reference
-description: This is an abstract base class for the font substitution rule.
+description: This is an abstract base class for the font substitution rule in Java.
 type: docs
 weight: 291
 url: /java/com.aspose.words/fontsubstitutionrule/
@@ -19,11 +20,6 @@ To learn more, visit the [ Working with Fonts ][Working with Fonts] documentatio
 
 
 [Working with Fonts]: https://docs.aspose.com/words/java/working-with-fonts/
-## Constructors
-
-| Constructor | Description |
-| --- | --- |
-| [FontSubstitutionRule()](#FontSubstitutionRule) |  |
 ## Methods
 
 | Method | Description |
@@ -39,12 +35,6 @@ To learn more, visit the [ Working with Fonts ][Working with Fonts] documentatio
 | [wait()](#wait) |  |
 | [wait(long arg0)](#wait-long) |  |
 | [wait(long arg0, int arg1)](#wait-long-int) |  |
-### FontSubstitutionRule() {#FontSubstitutionRule}
-```
-public FontSubstitutionRule()
-```
-
-
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)

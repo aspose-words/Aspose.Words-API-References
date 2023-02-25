@@ -1,7 +1,8 @@
 ---
 title: RefDouble
+linktitle: RefDouble
 second_title: Aspose.Words for Java API Reference
-description: Represents Out/Ref constructions for Double primitive type
+description: Represents Out/Ref constructions for Double primitive type in Java.
 type: docs
 weight: 13
 url: /java/com.aspose.words.ref/refdouble/

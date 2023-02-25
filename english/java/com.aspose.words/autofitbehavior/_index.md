@@ -1,7 +1,8 @@
 ---
 title: AutoFitBehavior
+linktitle: AutoFitBehavior
 second_title: Aspose.Words for Java API Reference
-description: Determines how Aspose.Words resizes the table when you invoke the MAspose.Words.Tables.Table.AutoFitAspose.Words.Tables.AutoFitBehavior method.
+description: Determines how Aspose.Words resizes the table when you invoke the MAspose.Words.Tables.Table.AutoFitAspose.Words.Tables.AutoFitBehavior method in Java.
 type: docs
 weight: 15
 url: /java/com.aspose.words/autofitbehavior/
@@ -67,7 +68,7 @@ public static int FIXED_COLUMN_WIDTHS
 
 Aspose.Words disables the AutoFit option and removes the preferred with from the table.
 
-The widths of the cells remain as they are specified by their [CellFormat.getWidth()](../../com.aspose.words/cellformat\#getWidth) / [CellFormat.setWidth(double)](../../com.aspose.words/cellformat\#setWidth-double) properties.
+The widths of the cells remain as they are specified by their [CellFormat.getWidth()](../../com.aspose.words/cellformat/\#getWidth) / [CellFormat.setWidth(double)](../../com.aspose.words/cellformat/\#setWidth-double) properties.
 
 ### length {#length}
 ```

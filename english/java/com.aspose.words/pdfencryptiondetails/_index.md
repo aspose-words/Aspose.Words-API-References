@@ -1,9 +1,10 @@
 ---
 title: PdfEncryptionDetails
+linktitle: PdfEncryptionDetails
 second_title: Aspose.Words for Java API Reference
-description: Contains details for encrypting and access permissions for a PDF document.
+description: Contains details for encrypting and access permissions for a PDF document in Java.
 type: docs
-weight: 458
+weight: 460
 url: /java/com.aspose.words/pdfencryptiondetails/
 ---
 
@@ -90,7 +91,7 @@ public String getOwnerPassword()
 
 Specifies the owner password for the encrypted PDF document.
 
-The owner password allows the user to open an encrypted PDF document without any access restrictions specified in [getPermissions()](../../com.aspose.words/pdfencryptiondetails\#getPermissions) / [setPermissions(int)](../../com.aspose.words/pdfencryptiondetails\#setPermissions-int).
+The owner password allows the user to open an encrypted PDF document without any access restrictions specified in [getPermissions()](../../com.aspose.words/pdfencryptiondetails/\#getPermissions) / [setPermissions(int)](../../com.aspose.words/pdfencryptiondetails/\#setPermissions-int).
 
 The owner password cannot be the same as the user password.
 
@@ -102,10 +103,10 @@ public int getPermissions()
 ```
 
 
-Specifies the operations that are allowed to a user on an encrypted PDF document. The default value is [PdfPermissions.DISALLOW\_ALL](../../com.aspose.words/pdfpermissions\#DISALLOW-ALL).
+Specifies the operations that are allowed to a user on an encrypted PDF document. The default value is [PdfPermissions.DISALLOW\_ALL](../../com.aspose.words/pdfpermissions/\#DISALLOW-ALL).
 
 **Returns:**
-int - The corresponding  int  value. The returned value is a bitwise combination of [PdfPermissions](../../com.aspose.words/pdfpermissions) constants.
+int - The corresponding  int  value. The returned value is a bitwise combination of [PdfPermissions](../../com.aspose.words/pdfpermissions/) constants.
 ### getUserPassword() {#getUserPassword}
 ```
 public String getUserPassword()
@@ -114,7 +115,7 @@ public String getUserPassword()
 
 Specifies the user password required for opening the encrypted PDF document.
 
-The user password will be required to open an encrypted PDF document for viewing. The permissions specified in [getPermissions()](../../com.aspose.words/pdfencryptiondetails\#getPermissions) / [setPermissions(int)](../../com.aspose.words/pdfencryptiondetails\#setPermissions-int) will be enforced by the reader software.
+The user password will be required to open an encrypted PDF document for viewing. The permissions specified in [getPermissions()](../../com.aspose.words/pdfencryptiondetails/\#getPermissions) / [setPermissions(int)](../../com.aspose.words/pdfencryptiondetails/\#setPermissions-int) will be enforced by the reader software.
 
 The user password can be  null  or empty string, in this case no password will be required from the user when opening the PDF document. The user password cannot be the same as the owner password.
 
@@ -154,7 +155,7 @@ public void setOwnerPassword(String value)
 
 Specifies the owner password for the encrypted PDF document.
 
-The owner password allows the user to open an encrypted PDF document without any access restrictions specified in [getPermissions()](../../com.aspose.words/pdfencryptiondetails\#getPermissions) / [setPermissions(int)](../../com.aspose.words/pdfencryptiondetails\#setPermissions-int).
+The owner password allows the user to open an encrypted PDF document without any access restrictions specified in [getPermissions()](../../com.aspose.words/pdfencryptiondetails/\#getPermissions) / [setPermissions(int)](../../com.aspose.words/pdfencryptiondetails/\#setPermissions-int).
 
 The owner password cannot be the same as the user password.
 
@@ -169,12 +170,12 @@ public void setPermissions(int value)
 ```
 
 
-Specifies the operations that are allowed to a user on an encrypted PDF document. The default value is [PdfPermissions.DISALLOW\_ALL](../../com.aspose.words/pdfpermissions\#DISALLOW-ALL).
+Specifies the operations that are allowed to a user on an encrypted PDF document. The default value is [PdfPermissions.DISALLOW\_ALL](../../com.aspose.words/pdfpermissions/\#DISALLOW-ALL).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be a bitwise combination of [PdfPermissions](../../com.aspose.words/pdfpermissions) constants. |
+| value | int | The corresponding  int  value. The value must be a bitwise combination of [PdfPermissions](../../com.aspose.words/pdfpermissions/) constants. |
 
 ### setUserPassword(String value) {#setUserPassword-java.lang.String}
 ```
@@ -184,7 +185,7 @@ public void setUserPassword(String value)
 
 Specifies the user password required for opening the encrypted PDF document.
 
-The user password will be required to open an encrypted PDF document for viewing. The permissions specified in [getPermissions()](../../com.aspose.words/pdfencryptiondetails\#getPermissions) / [setPermissions(int)](../../com.aspose.words/pdfencryptiondetails\#setPermissions-int) will be enforced by the reader software.
+The user password will be required to open an encrypted PDF document for viewing. The permissions specified in [getPermissions()](../../com.aspose.words/pdfencryptiondetails/\#getPermissions) / [setPermissions(int)](../../com.aspose.words/pdfencryptiondetails/\#setPermissions-int) will be enforced by the reader software.
 
 The user password can be  null  or empty string, in this case no password will be required from the user when opening the PDF document. The user password cannot be the same as the owner password.
 

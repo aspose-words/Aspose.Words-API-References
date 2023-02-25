@@ -1,9 +1,10 @@
 ---
 title: ListTemplate
+linktitle: ListTemplate
 second_title: Aspose.Words for Java API Reference
-description: Specifies one of the predefined list formats available in Microsoft Word.
+description: Specifies one of the predefined list formats available in Microsoft Word in Java.
 type: docs
-weight: 377
+weight: 378
 url: /java/com.aspose.words/listtemplate/
 ---
 
@@ -26,10 +27,10 @@ Aspose.Words list templates correspond to the 21 list templates available in the
 | [BULLET_CIRCLE](#BULLET-CIRCLE) | The bullet of the first level is a circle. |
 | [BULLET_DEFAULT](#BULLET-DEFAULT) | Default bulleted list with 9 levels. |
 | [BULLET_DIAMONDS](#BULLET-DIAMONDS) | The bullet of the first level is a 4-diamond Wingding character. |
-| [BULLET_DISK](#BULLET-DISK) | Same as [BULLET\_DEFAULT](../../com.aspose.words/listtemplate\#BULLET-DEFAULT). |
+| [BULLET_DISK](#BULLET-DISK) | Same as [BULLET\_DEFAULT](../../com.aspose.words/listtemplate/\#BULLET-DEFAULT). |
 | [BULLET_SQUARE](#BULLET-SQUARE) | The bullet of the first level is a square. |
 | [BULLET_TICK](#BULLET-TICK) | The bullet of the first level is a tick Wingding character. |
-| [NUMBER_ARABIC_DOT](#NUMBER-ARABIC-DOT) | Same as [NUMBER\_DEFAULT](../../com.aspose.words/listtemplate\#NUMBER-DEFAULT). |
+| [NUMBER_ARABIC_DOT](#NUMBER-ARABIC-DOT) | Same as [NUMBER\_DEFAULT](../../com.aspose.words/listtemplate/\#NUMBER-DEFAULT). |
 | [NUMBER_ARABIC_PARENTHESIS](#NUMBER-ARABIC-PARENTHESIS) | The number of the first level is "1)". |
 | [NUMBER_DEFAULT](#NUMBER-DEFAULT) | Default numbered list with 9 levels. |
 | [NUMBER_LOWERCASE_LETTER_DOT](#NUMBER-LOWERCASE-LETTER-DOT) | The number of the first level is "a.". |
@@ -68,7 +69,7 @@ public static int BULLET_ARROW_HEAD
 ```
 
 
-The bullet of the first level is an arrow head Wingding character. The remaining levels are same as in [BULLET\_DEFAULT](../../com.aspose.words/listtemplate\#BULLET-DEFAULT).
+The bullet of the first level is an arrow head Wingding character. The remaining levels are same as in [BULLET\_DEFAULT](../../com.aspose.words/listtemplate/\#BULLET-DEFAULT).
 
 Corresponds to the 6th bulleted list template in the Bullets and Numbering dialog box in Microsoft Word.
 
@@ -78,7 +79,7 @@ public static int BULLET_CIRCLE
 ```
 
 
-The bullet of the first level is a circle. The remaining levels are same as in [BULLET\_DEFAULT](../../com.aspose.words/listtemplate\#BULLET-DEFAULT).
+The bullet of the first level is a circle. The remaining levels are same as in [BULLET\_DEFAULT](../../com.aspose.words/listtemplate/\#BULLET-DEFAULT).
 
 Corresponds to the 2nd bulleted list template in the Bullets and Numbering dialog box in Microsoft Word.
 
@@ -100,7 +101,7 @@ public static int BULLET_DIAMONDS
 ```
 
 
-The bullet of the first level is a 4-diamond Wingding character. The remaining levels are same as in [BULLET\_DEFAULT](../../com.aspose.words/listtemplate\#BULLET-DEFAULT).
+The bullet of the first level is a 4-diamond Wingding character. The remaining levels are same as in [BULLET\_DEFAULT](../../com.aspose.words/listtemplate/\#BULLET-DEFAULT).
 
 Corresponds to the 5th bulleted list template in the Bullets and Numbering dialog box in Microsoft Word.
 
@@ -110,7 +111,7 @@ public static int BULLET_DISK
 ```
 
 
-Same as [BULLET\_DEFAULT](../../com.aspose.words/listtemplate\#BULLET-DEFAULT).
+Same as [BULLET\_DEFAULT](../../com.aspose.words/listtemplate/\#BULLET-DEFAULT).
 
 Corresponds to the 1st bulleted list template in the Bullets and Numbering dialog box in Microsoft Word.
 
@@ -120,7 +121,7 @@ public static int BULLET_SQUARE
 ```
 
 
-The bullet of the first level is a square. The remaining levels are same as in [BULLET\_DEFAULT](../../com.aspose.words/listtemplate\#BULLET-DEFAULT).
+The bullet of the first level is a square. The remaining levels are same as in [BULLET\_DEFAULT](../../com.aspose.words/listtemplate/\#BULLET-DEFAULT).
 
 Corresponds to the 3rd bulleted list template in the Bullets and Numbering dialog box in Microsoft Word.
 
@@ -130,7 +131,7 @@ public static int BULLET_TICK
 ```
 
 
-The bullet of the first level is a tick Wingding character. The remaining levels are same as in [BULLET\_DEFAULT](../../com.aspose.words/listtemplate\#BULLET-DEFAULT).
+The bullet of the first level is a tick Wingding character. The remaining levels are same as in [BULLET\_DEFAULT](../../com.aspose.words/listtemplate/\#BULLET-DEFAULT).
 
 Corresponds to the 7th bulleted list template in the Bullets and Numbering dialog box in Microsoft Word.
 
@@ -140,7 +141,7 @@ public static int NUMBER_ARABIC_DOT
 ```
 
 
-Same as [NUMBER\_DEFAULT](../../com.aspose.words/listtemplate\#NUMBER-DEFAULT).
+Same as [NUMBER\_DEFAULT](../../com.aspose.words/listtemplate/\#NUMBER-DEFAULT).
 
 Corresponds to the 1st numbered list template in the Bullets and Numbering dialog box in Microsoft Word.
 
@@ -150,7 +151,7 @@ public static int NUMBER_ARABIC_PARENTHESIS
 ```
 
 
-The number of the first level is "1)". The remaining levels are same as in [NUMBER\_DEFAULT](../../com.aspose.words/listtemplate\#NUMBER-DEFAULT).
+The number of the first level is "1)". The remaining levels are same as in [NUMBER\_DEFAULT](../../com.aspose.words/listtemplate/\#NUMBER-DEFAULT).
 
 Corresponds to the 2nd numbered list template in the Bullets and Numbering dialog box in Microsoft Word.
 
@@ -172,7 +173,7 @@ public static int NUMBER_LOWERCASE_LETTER_DOT
 ```
 
 
-The number of the first level is "a.". The remaining levels are same as in [NUMBER\_DEFAULT](../../com.aspose.words/listtemplate\#NUMBER-DEFAULT).
+The number of the first level is "a.". The remaining levels are same as in [NUMBER\_DEFAULT](../../com.aspose.words/listtemplate/\#NUMBER-DEFAULT).
 
 Corresponds to the 6th numbered list template in the Bullets and Numbering dialog box in Microsoft Word.
 
@@ -182,7 +183,7 @@ public static int NUMBER_LOWERCASE_LETTER_PARENTHESIS
 ```
 
 
-The number of the first level is "a)". The remaining levels are same as in [NUMBER\_DEFAULT](../../com.aspose.words/listtemplate\#NUMBER-DEFAULT).
+The number of the first level is "a)". The remaining levels are same as in [NUMBER\_DEFAULT](../../com.aspose.words/listtemplate/\#NUMBER-DEFAULT).
 
 Corresponds to the 5th numbered list template in the Bullets and Numbering dialog box in Microsoft Word.
 
@@ -192,7 +193,7 @@ public static int NUMBER_LOWERCASE_ROMAN_DOT
 ```
 
 
-The number of the first level is "i.". The remaining levels are same as in [NUMBER\_DEFAULT](../../com.aspose.words/listtemplate\#NUMBER-DEFAULT).
+The number of the first level is "i.". The remaining levels are same as in [NUMBER\_DEFAULT](../../com.aspose.words/listtemplate/\#NUMBER-DEFAULT).
 
 Corresponds to the 7th numbered list template in the Bullets and Numbering dialog box in Microsoft Word.
 
@@ -202,7 +203,7 @@ public static int NUMBER_UPPERCASE_LETTER_DOT
 ```
 
 
-The number of the first level is "A.". The remaining levels are same as in [NUMBER\_DEFAULT](../../com.aspose.words/listtemplate\#NUMBER-DEFAULT).
+The number of the first level is "A.". The remaining levels are same as in [NUMBER\_DEFAULT](../../com.aspose.words/listtemplate/\#NUMBER-DEFAULT).
 
 Corresponds to the 4th numbered list template in the Bullets and Numbering dialog box in Microsoft Word.
 
@@ -212,7 +213,7 @@ public static int NUMBER_UPPERCASE_ROMAN_DOT
 ```
 
 
-The number of the first level is "I.". The remaining levels are same as in [NUMBER\_DEFAULT](../../com.aspose.words/listtemplate\#NUMBER-DEFAULT).
+The number of the first level is "I.". The remaining levels are same as in [NUMBER\_DEFAULT](../../com.aspose.words/listtemplate/\#NUMBER-DEFAULT).
 
 Corresponds to the 3rd numbered list template in the Bullets and Numbering dialog box in Microsoft Word.
 

@@ -1,7 +1,8 @@
 ---
 title: HeightRule
+linktitle: HeightRule
 second_title: Aspose.Words for Java API Reference
-description: Specifies the rule for determining the height of an object.
+description: Specifies the rule for determining the height of an object in Java.
 type: docs
 weight: 321
 url: /java/com.aspose.words/heightrule/

@@ -1,9 +1,10 @@
 ---
 title: WebExtension
+linktitle: WebExtension
 second_title: Aspose.Words for Java API Reference
-description: Represents a web extension object.
+description: Represents a web extension object in Java.
 type: docs
-weight: 615
+weight: 617
 url: /java/com.aspose.words/webextension/
 ---
 
@@ -64,7 +65,7 @@ public WebExtensionReferenceCollection getAlternateReferences()
 Specifies alternate references to a web extension.
 
 **Returns:**
-[WebExtensionReferenceCollection](../../com.aspose.words/webextensionreferencecollection) - The corresponding [WebExtensionReferenceCollection](../../com.aspose.words/webextensionreferencecollection) value.
+[WebExtensionReferenceCollection](../../com.aspose.words/webextensionreferencecollection/) - The corresponding [WebExtensionReferenceCollection](../../com.aspose.words/webextensionreferencecollection/) value.
 ### getBindings() {#getBindings}
 ```
 public WebExtensionBindingCollection getBindings()
@@ -74,7 +75,7 @@ public WebExtensionBindingCollection getBindings()
 Specifies a list of web extension bindings.
 
 **Returns:**
-[WebExtensionBindingCollection](../../com.aspose.words/webextensionbindingcollection) - The corresponding [WebExtensionBindingCollection](../../com.aspose.words/webextensionbindingcollection) value.
+[WebExtensionBindingCollection](../../com.aspose.words/webextensionbindingcollection/) - The corresponding [WebExtensionBindingCollection](../../com.aspose.words/webextensionbindingcollection/) value.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -104,7 +105,7 @@ public WebExtensionPropertyCollection getProperties()
 Represents a set of web extension custom properties.
 
 **Returns:**
-[WebExtensionPropertyCollection](../../com.aspose.words/webextensionpropertycollection) - The corresponding [WebExtensionPropertyCollection](../../com.aspose.words/webextensionpropertycollection) value.
+[WebExtensionPropertyCollection](../../com.aspose.words/webextensionpropertycollection/) - The corresponding [WebExtensionPropertyCollection](../../com.aspose.words/webextensionpropertycollection/) value.
 ### getReference() {#getReference}
 ```
 public WebExtensionReference getReference()
@@ -114,7 +115,7 @@ public WebExtensionReference getReference()
 Specifies the primary reference to an web extension.
 
 **Returns:**
-[WebExtensionReference](../../com.aspose.words/webextensionreference) - The corresponding [WebExtensionReference](../../com.aspose.words/webextensionreference) value.
+[WebExtensionReference](../../com.aspose.words/webextensionreference/) - The corresponding [WebExtensionReference](../../com.aspose.words/webextensionreference/) value.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()

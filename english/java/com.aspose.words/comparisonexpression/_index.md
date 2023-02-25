@@ -1,7 +1,8 @@
 ---
 title: ComparisonExpression
+linktitle: ComparisonExpression
 second_title: Aspose.Words for Java API Reference
-description: The comparison expression.
+description: The comparison expression in Java.
 type: docs
 weight: 84
 url: /java/com.aspose.words/comparisonexpression/

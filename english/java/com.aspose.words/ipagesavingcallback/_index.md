@@ -1,9 +1,10 @@
 ---
 title: IPageSavingCallback
+linktitle: IPageSavingCallback
 second_title: Aspose.Words for Java API Reference
-description: Implement this interface if you want to control how Aspose.Words saves separate pages when saving a document to fixed page formats.
+description: Implement this interface if you want to control how Aspose.Words saves separate pages when saving a document to fixed page formats in Java.
 type: docs
-weight: 659
+weight: 661
 url: /java/com.aspose.words/ipagesavingcallback/
 ---
 ```
@@ -27,5 +28,5 @@ Called when Aspose.Words saves a separate page to fixed page formats.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| args | [PageSavingArgs](../../com.aspose.words/pagesavingargs) |  |
+| args | [PageSavingArgs](../../com.aspose.words/pagesavingargs/) |  |
 

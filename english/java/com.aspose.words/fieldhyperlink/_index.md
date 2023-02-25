@@ -1,14 +1,15 @@
 ---
 title: FieldHyperlink
+linktitle: FieldHyperlink
 second_title: Aspose.Words for Java API Reference
-description: Implements the HYPERLINK field
+description: Implements the HYPERLINK field in Java.
 type: docs
 weight: 200
 url: /java/com.aspose.words/fieldhyperlink/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.words.Field](../../com.aspose.words/field)
+java.lang.Object, [com.aspose.words.Field](../../com.aspose.words/field/)
 ```
 public class FieldHyperlink extends Field
 ```
@@ -32,7 +33,7 @@ When selected, causes control to jump to the location such as a bookmark or a UR
 | [getEnd()](#getEnd) | Gets the node that represents the field end. |
 | [getFieldCode()](#getFieldCode) | Returns text between field start and field separator (or field end if there is no separator). |
 | [getFieldCode(boolean includeChildFieldCodes)](#getFieldCode-boolean) | Returns text between field start and field separator (or field end if there is no separator). |
-| [getFormat()](#getFormat) | Gets a [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting. |
+| [getFormat()](#getFormat) | Gets a [FieldFormat](../../com.aspose.words/fieldformat/) object that provides typed access to field's formatting. |
 | [getLocaleId()](#getLocaleId) | Gets the LCID of the field. |
 | [getOpenInNewWindow()](#getOpenInNewWindow) | Gets whether to open the destination site in a new web browser window. |
 | [getResult()](#getResult) | Gets text that is between the field separator and field end. |
@@ -109,7 +110,7 @@ public String getDisplayResult()
 ```
 
 
-Gets the text that represents the displayed field result. The [Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels) method must be called to obtain correct value for the [FieldListNum](../../com.aspose.words/fieldlistnum), [FieldAutoNum](../../com.aspose.words/fieldautonum), [FieldAutoNumOut](../../com.aspose.words/fieldautonumout) and [FieldAutoNumLgl](../../com.aspose.words/fieldautonumlgl) fields.
+Gets the text that represents the displayed field result. The [Document.updateListLabels()](../../com.aspose.words/document/\#updateListLabels) method must be called to obtain correct value for the [FieldListNum](../../com.aspose.words/fieldlistnum/), [FieldAutoNum](../../com.aspose.words/fieldautonum/), [FieldAutoNumOut](../../com.aspose.words/fieldautonumout/) and [FieldAutoNumLgl](../../com.aspose.words/fieldautonumlgl/) fields.
 
 **Returns:**
 java.lang.String - The text that represents the displayed field result.
@@ -122,7 +123,7 @@ public FieldEnd getEnd()
 Gets the node that represents the field end.
 
 **Returns:**
-[FieldEnd](../../com.aspose.words/fieldend) - The node that represents the field end.
+[FieldEnd](../../com.aspose.words/fieldend/) - The node that represents the field end.
 ### getFieldCode() {#getFieldCode}
 ```
 public String getFieldCode()
@@ -154,10 +155,10 @@ public FieldFormat getFormat()
 ```
 
 
-Gets a [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting.
+Gets a [FieldFormat](../../com.aspose.words/fieldformat/) object that provides typed access to field's formatting.
 
 **Returns:**
-[FieldFormat](../../com.aspose.words/fieldformat) - A [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting.
+[FieldFormat](../../com.aspose.words/fieldformat/) - A [FieldFormat](../../com.aspose.words/fieldformat/) object that provides typed access to field's formatting.
 ### getLocaleId() {#getLocaleId}
 ```
 public int getLocaleId()
@@ -207,7 +208,7 @@ public FieldSeparator getSeparator()
 Gets the node that represents the field separator. Can be  null .
 
 **Returns:**
-[FieldSeparator](../../com.aspose.words/fieldseparator) - The node that represents the field separator.
+[FieldSeparator](../../com.aspose.words/fieldseparator/) - The node that represents the field separator.
 ### getSourceNode() {#getSourceNode}
 ```
 public Inline getSourceNode()
@@ -217,7 +218,7 @@ public Inline getSourceNode()
 
 
 **Returns:**
-[Inline](../../com.aspose.words/inline)
+[Inline](../../com.aspose.words/inline/)
 ### getStart() {#getStart}
 ```
 public FieldStart getStart()
@@ -227,7 +228,7 @@ public FieldStart getStart()
 Gets the node that represents the start of the field.
 
 **Returns:**
-[FieldStart](../../com.aspose.words/fieldstart) - The node that represents the start of the field.
+[FieldStart](../../com.aspose.words/fieldstart/) - The node that represents the start of the field.
 ### getSubAddress() {#getSubAddress}
 ```
 public String getSubAddress()
@@ -272,7 +273,7 @@ public int getType()
 Gets the Microsoft Word field type.
 
 **Returns:**
-int - The Microsoft Word field type. The returned value is one of [FieldType](../../com.aspose.words/fieldtype) constants.
+int - The Microsoft Word field type. The returned value is one of [FieldType](../../com.aspose.words/fieldtype/) constants.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()
@@ -377,7 +378,7 @@ public Node remove()
 Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns  null .
 
 **Returns:**
-[Node](../../com.aspose.words/node)
+[Node](../../com.aspose.words/node/)
 ### setAddress(String value) {#setAddress-java.lang.String}
 ```
 public void setAddress(String value)

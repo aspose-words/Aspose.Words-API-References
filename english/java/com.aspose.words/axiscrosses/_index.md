@@ -1,7 +1,8 @@
 ---
 title: AxisCrosses
+linktitle: AxisCrosses
 second_title: Aspose.Words for Java API Reference
-description: Specifies the possible crossing points for an axis.
+description: Specifies the possible crossing points for an axis in Java.
 type: docs
 weight: 19
 url: /java/com.aspose.words/axiscrosses/

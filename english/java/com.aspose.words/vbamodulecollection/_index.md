@@ -1,9 +1,10 @@
 ---
 title: VbaModuleCollection
+linktitle: VbaModuleCollection
 second_title: Aspose.Words for Java API Reference
-description: Represents a collection of  objects.
+description: Represents a collection of  objects in Java.
 type: docs
-weight: 598
+weight: 600
 url: /java/com.aspose.words/vbamodulecollection/
 ---
 
@@ -16,7 +17,7 @@ java.lang.Iterable
 public class VbaModuleCollection implements Iterable
 ```
 
-Represents a collection of [VbaModule](../../com.aspose.words/vbamodule) objects.
+Represents a collection of [VbaModule](../../com.aspose.words/vbamodule/) objects.
 
 To learn more, visit the [ Working with VBA Macros ][Working with VBA Macros] documentation article.
 
@@ -28,8 +29,8 @@ To learn more, visit the [ Working with VBA Macros ][Working with VBA Macros] do
 | --- | --- |
 | [add(VbaModule vbaModule)](#add-com.aspose.words.VbaModule) | Adds a module to the collection. |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [get(int index)](#get-int) | Retrieves a [VbaModule](../../com.aspose.words/vbamodule) object by index. |
-| [get(String name)](#get-java.lang.String) | Retrieves a [VbaModule](../../com.aspose.words/vbamodule) object by name, or Null if not found. |
+| [get(int index)](#get-int) | Retrieves a [VbaModule](../../com.aspose.words/vbamodule/) object by index. |
+| [get(String name)](#get-java.lang.String) | Retrieves a [VbaModule](../../com.aspose.words/vbamodule/) object by name, or Null if not found. |
 | [getClass()](#getClass) |  |
 | [getCount()](#getCount) | Returns the number of VBA modules in the collection. |
 | [hashCode()](#hashCode) |  |
@@ -52,7 +53,7 @@ Adds a module to the collection.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| vbaModule | [VbaModule](../../com.aspose.words/vbamodule) |  |
+| vbaModule | [VbaModule](../../com.aspose.words/vbamodule/) |  |
 
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
@@ -75,7 +76,7 @@ public VbaModule get(int index)
 ```
 
 
-Retrieves a [VbaModule](../../com.aspose.words/vbamodule) object by index.
+Retrieves a [VbaModule](../../com.aspose.words/vbamodule/) object by index.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -83,14 +84,14 @@ Retrieves a [VbaModule](../../com.aspose.words/vbamodule) object by index.
 | index | int | Zero-based index of the module to retrieve. |
 
 **Returns:**
-[VbaModule](../../com.aspose.words/vbamodule) - The corresponding [VbaModule](../../com.aspose.words/vbamodule) value.
+[VbaModule](../../com.aspose.words/vbamodule/) - The corresponding [VbaModule](../../com.aspose.words/vbamodule/) value.
 ### get(String name) {#get-java.lang.String}
 ```
 public VbaModule get(String name)
 ```
 
 
-Retrieves a [VbaModule](../../com.aspose.words/vbamodule) object by name, or Null if not found.
+Retrieves a [VbaModule](../../com.aspose.words/vbamodule/) object by name, or Null if not found.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -98,7 +99,7 @@ Retrieves a [VbaModule](../../com.aspose.words/vbamodule) object by name, or Nul
 | name | java.lang.String |  |
 
 **Returns:**
-[VbaModule](../../com.aspose.words/vbamodule) - The corresponding [VbaModule](../../com.aspose.words/vbamodule) value.
+[VbaModule](../../com.aspose.words/vbamodule/) - The corresponding [VbaModule](../../com.aspose.words/vbamodule/) value.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -166,7 +167,7 @@ Removes the specified module from the collection.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| module | [VbaModule](../../com.aspose.words/vbamodule) | The module to remove. |
+| module | [VbaModule](../../com.aspose.words/vbamodule/) | The module to remove. |
 
 ### toString() {#toString}
 ```

@@ -1,7 +1,8 @@
 ---
 title: DownsampleOptions
+linktitle: DownsampleOptions
 second_title: Aspose.Words for Java API Reference
-description: Allows to specify downsample options.
+description: Allows to specify downsample options in Java.
 type: docs
 weight: 134
 url: /java/com.aspose.words/downsampleoptions/

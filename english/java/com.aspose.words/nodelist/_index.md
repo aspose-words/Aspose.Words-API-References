@@ -1,9 +1,10 @@
 ---
 title: NodeList
+linktitle: NodeList
 second_title: Aspose.Words for Java API Reference
-description: Represents a collection of nodes matching an XPath query executed using the  method.
+description: Represents a collection of nodes matching an XPath query executed using the  method in Java.
 type: docs
-weight: 410
+weight: 412
 url: /java/com.aspose.words/nodelist/
 ---
 
@@ -16,15 +17,15 @@ java.lang.Iterable
 public class NodeList implements Iterable
 ```
 
-Represents a collection of nodes matching an XPath query executed using the [CompositeNode.selectNodes(java.lang.String)](../../com.aspose.words/compositenode\#selectNodes-java.lang.String) method.
+Represents a collection of nodes matching an XPath query executed using the [CompositeNode.selectNodes(java.lang.String)](../../com.aspose.words/compositenode/\#selectNodes-java.lang.String) method.
 
 To learn more, visit the [ Aspose.Words Document Object Model (DOM) ][Aspose.Words Document Object Model _DOM_] documentation article.
 
-[NodeList](../../com.aspose.words/nodelist) is returned by [CompositeNode.selectNodes(java.lang.String)](../../com.aspose.words/compositenode\#selectNodes-java.lang.String) and contains a collection of nodes matching the XPath query.
+[NodeList](../../com.aspose.words/nodelist/) is returned by [CompositeNode.selectNodes(java.lang.String)](../../com.aspose.words/compositenode/\#selectNodes-java.lang.String) and contains a collection of nodes matching the XPath query.
 
-[NodeList](../../com.aspose.words/nodelist) supports indexed access and iteration.
+[NodeList](../../com.aspose.words/nodelist/) supports indexed access and iteration.
 
-Treat the [NodeList](../../com.aspose.words/nodelist) collection as a "snapshot" collection. [NodeList](../../com.aspose.words/nodelist) starts as a "live" collection because the nodes are not actually retrieved when the XPath query is run. The nodes are only retrieved upon access and at this time the node and all nodes that precede it are cached forming a "snapshot" collection.
+Treat the [NodeList](../../com.aspose.words/nodelist/) collection as a "snapshot" collection. [NodeList](../../com.aspose.words/nodelist/) starts as a "live" collection because the nodes are not actually retrieved when the XPath query is run. The nodes are only retrieved upon access and at this time the node and all nodes that precede it are cached forming a "snapshot" collection.
 
 
 [Aspose.Words Document Object Model _DOM_]: https://docs.aspose.com/words/java/aspose-words-document-object-model/
@@ -82,7 +83,7 @@ If index is negative and its absolute value is greater than the number of items 
 | index | int | An index into the list of nodes. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The corresponding [Node](../../com.aspose.words/node) value.
+[Node](../../com.aspose.words/node/) - The corresponding [Node](../../com.aspose.words/node/) value.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()

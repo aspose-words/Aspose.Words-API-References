@@ -1,9 +1,10 @@
 ---
 title: LegendPosition
+linktitle: LegendPosition
 second_title: Aspose.Words for Java API Reference
-description: Specifies the possible positions for a chart legend.
+description: Specifies the possible positions for a chart legend in Java.
 type: docs
-weight: 365
+weight: 366
 url: /java/com.aspose.words/legendposition/
 ---
 

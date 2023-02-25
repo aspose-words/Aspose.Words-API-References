@@ -1,7 +1,8 @@
 ---
 title: DigitalSignature
+linktitle: DigitalSignature
 second_title: Aspose.Words for Java API Reference
-description: Represents a digital signature on a document and the result of its verification.
+description: Represents a digital signature on a document and the result of its verification in Java.
 type: docs
 weight: 112
 url: /java/com.aspose.words/digitalsignature/
@@ -63,7 +64,7 @@ public CertificateHolder getCertificateHolder()
 Returns the certificate holder object that contains the certificate was used to sign the document.
 
 **Returns:**
-[CertificateHolder](../../com.aspose.words/certificateholder) - The certificate holder object that contains the certificate was used to sign the document.
+[CertificateHolder](../../com.aspose.words/certificateholder/) - The certificate holder object that contains the certificate was used to sign the document.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -113,7 +114,7 @@ public int getSignatureType()
 Gets the type of the digital signature.
 
 **Returns:**
-int - The type of the digital signature. The returned value is one of [DigitalSignatureType](../../com.aspose.words/digitalsignaturetype) constants.
+int - The type of the digital signature. The returned value is one of [DigitalSignatureType](../../com.aspose.words/digitalsignaturetype/) constants.
 ### getSubjectName() {#getSubjectName}
 ```
 public String getSubjectName()

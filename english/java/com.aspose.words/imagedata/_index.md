@@ -1,7 +1,8 @@
 ---
 title: ImageData
+linktitle: ImageData
 second_title: Aspose.Words for Java API Reference
-description: Defines an image for a shape.
+description: Defines an image for a shape in Java.
 type: docs
 weight: 339
 url: /java/com.aspose.words/imagedata/
@@ -17,13 +18,13 @@ Defines an image for a shape.
 
 To learn more, visit the [ Working with Images ][Working with Images] documentation article.
 
-Use the [Shape.getImageData()](../../com.aspose.words/shape\#getImageData) property to access and modify the image inside a shape. You do not create instances of the [ImageData](../../com.aspose.words/imagedata) class directly.
+Use the [Shape.getImageData()](../../com.aspose.words/shape/\#getImageData) property to access and modify the image inside a shape. You do not create instances of the [ImageData](../../com.aspose.words/imagedata/) class directly.
 
 An image can be stored inside a shape, linked to external file or both (linked and stored in the document).
 
-Regardless of whether the image is stored inside the shape or linked, you can always access the actual image using the [toByteArray()](../../com.aspose.words/imagedata\#toByteArray), [toImage()](../../com.aspose.words/imagedata\#toImage) or [save(java.lang.String)](../../com.aspose.words/imagedata\#save-java.lang.String) methods. If the image is stored inside the shape, you can also directly access it using the [getImageBytes()](../../com.aspose.words/imagedata\#getImageBytes) / [setImageBytes(byte[])](../../com.aspose.words/imagedata\#setImageBytes-byte) property.
+Regardless of whether the image is stored inside the shape or linked, you can always access the actual image using the [toByteArray()](../../com.aspose.words/imagedata/\#toByteArray), [toImage()](../../com.aspose.words/imagedata/\#toImage) or [save(java.lang.String)](../../com.aspose.words/imagedata/\#save-java.lang.String) methods. If the image is stored inside the shape, you can also directly access it using the [getImageBytes()](../../com.aspose.words/imagedata/\#getImageBytes) / [setImageBytes(byte[])](../../com.aspose.words/imagedata/\#setImageBytes-byte) property.
 
-To store an image inside a shape use the [setImage(java.lang.String)](../../com.aspose.words/imagedata\#setImage-java.lang.String) method. To link an image to a shape, set the [getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String) property.
+To store an image inside a shape use the [setImage(java.lang.String)](../../com.aspose.words/imagedata/\#setImage-java.lang.String) method. To link an image to a shape, set the [getSourceFullName()](../../com.aspose.words/imagedata/\#getSourceFullName) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata/\#setSourceFullName-java.lang.String) property.
 
 
 [Working with Images]: https://docs.aspose.com/words/java/working-with-images/
@@ -52,7 +53,7 @@ To store an image inside a shape use the [setImage(java.lang.String)](../../com.
 | [getTitle()](#getTitle) | Defines the title of an image. |
 | [hasImage()](#hasImage) | Returns  true  if the shape has image bytes or links an image. |
 | [hashCode()](#hashCode) |  |
-| [isLink()](#isLink) | Returns  true  if the image is linked to the shape (when [getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String) is specified). |
+| [isLink()](#isLink) | Returns  true  if the image is linked to the shape (when [getSourceFullName()](../../com.aspose.words/imagedata/\#getSourceFullName) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata/\#setSourceFullName-java.lang.String) is specified). |
 | [isLinkOnly()](#isLinkOnly) | Returns  true  if the image is linked and not stored in the document. |
 | [notify()](#notify) |  |
 | [notifyAll()](#notifyAll) |  |
@@ -132,7 +133,7 @@ public BorderCollection getBorders()
 Gets the collection of borders of the image. Borders only have effect for inline images.
 
 **Returns:**
-[BorderCollection](../../com.aspose.words/bordercollection) - The collection of borders of the image.
+[BorderCollection](../../com.aspose.words/bordercollection/) - The collection of borders of the image.
 ### getBrightness() {#getBrightness}
 ```
 public double getBrightness()
@@ -287,7 +288,7 @@ Gets the information about image size and resolution. (4269,6)
 If the image is linked only and not stored in the document, returns zero size.
 
 **Returns:**
-[ImageSize](../../com.aspose.words/imagesize) - The information about image size and resolution.
+[ImageSize](../../com.aspose.words/imagesize/) - The information about image size and resolution.
 ### getImageType() {#getImageType}
 ```
 public int getImageType()
@@ -297,7 +298,7 @@ public int getImageType()
 Gets the type of the image. (4279,6)
 
 **Returns:**
-int - The type of the image. The returned value is one of [ImageType](../../com.aspose.words/imagetype) constants.
+int - The type of the image. The returned value is one of [ImageType](../../com.aspose.words/imagetype/) constants.
 ### getSourceFullName() {#getSourceFullName}
 ```
 public String getSourceFullName()
@@ -308,7 +309,7 @@ Gets the path and name of the source file for the linked image.
 
 The default value is an empty string.
 
-If [getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String) is not an empty string, the image is linked.
+If [getSourceFullName()](../../com.aspose.words/imagedata/\#getSourceFullName) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata/\#setSourceFullName-java.lang.String) is not an empty string, the image is linked.
 
 **Returns:**
 java.lang.String - The path and name of the source file for the linked image.
@@ -350,10 +351,10 @@ public boolean isLink()
 ```
 
 
-Returns  true  if the image is linked to the shape (when [getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String) is specified). (4286,6)
+Returns  true  if the image is linked to the shape (when [getSourceFullName()](../../com.aspose.words/imagedata/\#getSourceFullName) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata/\#setSourceFullName-java.lang.String) is specified). (4286,6)
 
 **Returns:**
-boolean - \{ true  if the image is linked to the shape (when [getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String) is specified).
+boolean - \{ true  if the image is linked to the shape (when [getSourceFullName()](../../com.aspose.words/imagedata/\#getSourceFullName) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata/\#setSourceFullName-java.lang.String) is specified).
 ### isLinkOnly() {#isLinkOnly}
 ```
 public boolean isLinkOnly()
@@ -629,7 +630,7 @@ Sets the path and name of the source file for the linked image.
 
 The default value is an empty string.
 
-If [getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String) is not an empty string, the image is linked.
+If [getSourceFullName()](../../com.aspose.words/imagedata/\#getSourceFullName) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata/\#setSourceFullName-java.lang.String) is not an empty string, the image is linked.
 
 **Parameters:**
 | Parameter | Type | Description |

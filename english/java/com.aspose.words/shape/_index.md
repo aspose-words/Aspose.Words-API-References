@@ -1,14 +1,15 @@
 ---
 title: Shape
+linktitle: Shape
 second_title: Aspose.Words for Java API Reference
-description: Represents an object in the drawing layer such as an AutoShape textbox freeform OLE object ActiveX control or picture.
+description: Represents an object in the drawing layer such as an AutoShape textbox freeform OLE object ActiveX control or picture in Java.
 type: docs
-weight: 520
+weight: 522
 url: /java/com.aspose.words/shape/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.words.Node](../../com.aspose.words/node), [com.aspose.words.CompositeNode](../../com.aspose.words/compositenode), [com.aspose.words.ShapeBase](../../com.aspose.words/shapebase)
+java.lang.Object, [com.aspose.words.Node](../../com.aspose.words/node/), [com.aspose.words.CompositeNode](../../com.aspose.words/compositenode/), [com.aspose.words.ShapeBase](../../com.aspose.words/shapebase/)
 ```
 public class Shape extends ShapeBase
 ```
@@ -17,11 +18,11 @@ Represents an object in the drawing layer, such as an AutoShape, textbox, freefo
 
 To learn more, visit the [ Working with Shapes ][Working with Shapes] documentation article.
 
-Using the [Shape](../../com.aspose.words/shape) class you can create or modify shapes in a Microsoft Word document.
+Using the [Shape](../../com.aspose.words/shape/) class you can create or modify shapes in a Microsoft Word document.
 
-An important property of a shape is its [ShapeBase.getShapeType()](../../com.aspose.words/shapebase\#getShapeType). Shapes of different types can have different capabilities in a Word document. For example, only image and OLE shapes can have images inside them. Most of the shapes can have text, but not all.
+An important property of a shape is its [ShapeBase.getShapeType()](../../com.aspose.words/shapebase/\#getShapeType). Shapes of different types can have different capabilities in a Word document. For example, only image and OLE shapes can have images inside them. Most of the shapes can have text, but not all.
 
-Shapes that can have text, can contain [Paragraph](../../com.aspose.words/paragraph) and [Table](../../com.aspose.words/table) nodes as children.
+Shapes that can have text, can contain [Paragraph](../../com.aspose.words/paragraph/) and [Table](../../com.aspose.words/table/) nodes as children.
 
 
 [Working with Shapes]: https://docs.aspose.com/words/java/working-with-shapes/
@@ -56,7 +57,7 @@ Shapes that can have text, can contain [Paragraph](../../com.aspose.words/paragr
 | [getBounds()](#getBounds) | Gets the location and size of the containing block of the shape. |
 | [getBoundsInPoints()](#getBoundsInPoints) | Gets the location and size of the containing block of the shape in points, relative to the anchor of the topmost shape. |
 | [getBoundsWithEffects()](#getBoundsWithEffects) | Gets final extent that this shape object has after applying drawing effects. |
-| [getChart()](#getChart) | Provides access to the chart properties if this shape has a [Chart](../../com.aspose.words/chart). |
+| [getChart()](#getChart) | Provides access to the chart properties if this shape has a [Chart](../../com.aspose.words/chart/). |
 | [getChild(int nodeType, int index, boolean isDeep)](#getChild-int-int-boolean) |  |
 | [getChildNodes()](#getChildNodes) | Gets all immediate child nodes of this node. |
 | [getChildNodes(int nodeType, boolean isDeep)](#getChildNodes-int-boolean) |  |
@@ -117,7 +118,7 @@ Shapes that can have text, can contain [Paragraph](../../com.aspose.words/paragr
 | [getName()](#getName) | Gets the optional shape name. |
 | [getNextMatchingNode(Node curNode)](#getNextMatchingNode-com.aspose.words.Node) |  |
 | [getNextSibling()](#getNextSibling) | Gets the node immediately following this node. |
-| [getNodeType()](#getNodeType) | Returns [NodeType.SHAPE](../../com.aspose.words/nodetype\#SHAPE). |
+| [getNodeType()](#getNodeType) | Returns [NodeType.SHAPE](../../com.aspose.words/nodetype/\#SHAPE). |
 | [getOleFormat()](#getOleFormat) | Provides access to the OLE data of a shape. |
 | [getOn()](#getOn) |  |
 | [getOpacity()](#getOpacity) |  |
@@ -127,7 +128,7 @@ Shapes that can have text, can contain [Paragraph](../../com.aspose.words/paragr
 | [getPatternType()](#getPatternType) |  |
 | [getPresetTexture()](#getPresetTexture) |  |
 | [getPreviousSibling()](#getPreviousSibling) | Gets the node immediately preceding this node. |
-| [getRange()](#getRange) | Returns a [Range](../../com.aspose.words/range) object that represents the portion of a document that is contained in this node. |
+| [getRange()](#getRange) | Returns a [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node. |
 | [getRelativeHorizontalPosition()](#getRelativeHorizontalPosition) | Specifies relative to what the shape is positioned horizontally. |
 | [getRelativeVerticalPosition()](#getRelativeVerticalPosition) | Specifies relative to what the shape is positioned vertically. |
 | [getRight()](#getRight) | Gets the position of the right edge of the containing block of the shape. |
@@ -138,12 +139,12 @@ Shapes that can have text, can contain [Paragraph](../../com.aspose.words/paragr
 | [getShadowFormat()](#getShadowFormat) | Gets shadow formatting for the shape. |
 | [getShapeRenderer()](#getShapeRenderer) | Creates and returns an object that can be used to render this shape into an image. |
 | [getShapeType()](#getShapeType) | Gets the shape type. |
-| [getSignatureLine()](#getSignatureLine) | Gets [SignatureLine](../../com.aspose.words/signatureline) object if the shape is a signature line. |
+| [getSignatureLine()](#getSignatureLine) | Gets [SignatureLine](../../com.aspose.words/signatureline/) object if the shape is a signature line. |
 | [getSizeInPoints()](#getSizeInPoints) | Gets the size of the shape in points. |
 | [getStartArrowLength()](#getStartArrowLength) |  |
 | [getStartArrowType()](#getStartArrowType) |  |
 | [getStartArrowWidth()](#getStartArrowWidth) |  |
-| [getStoryType()](#getStoryType) | Returns [StoryType.TEXTBOX](../../com.aspose.words/storytype\#TEXTBOX). |
+| [getStoryType()](#getStoryType) | Returns [StoryType.TEXTBOX](../../com.aspose.words/storytype/\#TEXTBOX). |
 | [getStroke()](#getStroke) | Defines a stroke for a shape. |
 | [getStrokeColor()](#getStrokeColor) | Defines the color of a stroke. |
 | [getStrokeImageBytes()](#getStrokeImageBytes) |  |
@@ -167,10 +168,10 @@ Shapes that can have text, can contain [Paragraph](../../com.aspose.words/paragr
 | [getWrapType()](#getWrapType) | Defines whether the shape is inline or floating. |
 | [getZOrder()](#getZOrder) | Determines the display order of overlapping shapes. |
 | [getZOrder_IShape()](#getZOrder-IShape) |  |
-| [hasChart()](#hasChart) | Returns  true  if this [Shape](../../com.aspose.words/shape) has a [Chart](../../com.aspose.words/chart). |
+| [hasChart()](#hasChart) | Returns  true  if this [Shape](../../com.aspose.words/shape/) has a [Chart](../../com.aspose.words/chart/). |
 | [hasChildNodes()](#hasChildNodes) | Returns  true  if this node has any child nodes. |
 | [hasImage()](#hasImage) | Returns  true  if the shape has image bytes or links an image. |
-| [hasSmartArt()](#hasSmartArt) | Returns  true  if this [Shape](../../com.aspose.words/shape) has a SmartArt object. |
+| [hasSmartArt()](#hasSmartArt) | Returns  true  if this [Shape](../../com.aspose.words/shape/) has a SmartArt object. |
 | [hasVerticalTextFlow_ITextBox()](#hasVerticalTextFlow-ITextBox) |  |
 | [hashCode()](#hashCode) |  |
 | [indexOf(Node child)](#indexOf-com.aspose.words.Node) | Returns the index of the specified child node in the child node array. |
@@ -189,7 +190,7 @@ Shapes that can have text, can contain [Paragraph](../../com.aspose.words/paragr
 | [isLayoutInCell(boolean value)](#isLayoutInCell-boolean) | Sets a flag indicating whether the shape is displayed inside a table or outside of it. |
 | [isMoveFromRevision()](#isMoveFromRevision) | Returns  true  if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
 | [isMoveToRevision()](#isMoveToRevision) | Returns  true  if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
-| [isSignatureLine()](#isSignatureLine) | Indicates that shape is a [SignatureLine](../../com.aspose.words/signatureline). |
+| [isSignatureLine()](#isSignatureLine) | Indicates that shape is a [SignatureLine](../../com.aspose.words/signatureline/). |
 | [isTopLevel()](#isTopLevel) | Returns  true  if this shape is not a child of a group shape. |
 | [isWordArt()](#isWordArt) | Returns  true  if this shape is a WordArt object. |
 | [iterator()](#iterator) | Provides support for the for each style iteration over the child nodes of this node. |
@@ -209,9 +210,9 @@ Shapes that can have text, can contain [Paragraph](../../com.aspose.words/paragr
 | [removeMoveRevisions()](#removeMoveRevisions) |  |
 | [removeRunAttr(int key)](#removeRunAttr-int) |  |
 | [removeShapeAttr(int key)](#removeShapeAttr-int) | Reserved for system use. |
-| [removeSmartTags()](#removeSmartTags) | Removes all [SmartTag](../../com.aspose.words/smarttag) descendant nodes of the current node. |
+| [removeSmartTags()](#removeSmartTags) | Removes all [SmartTag](../../com.aspose.words/smarttag/) descendant nodes of the current node. |
 | [selectNodes(String xpath)](#selectNodes-java.lang.String) | Selects a list of nodes matching the XPath expression. |
-| [selectSingleNode(String xpath)](#selectSingleNode-java.lang.String) | Selects the first [Node](../../com.aspose.words/node) that matches the XPath expression. |
+| [selectSingleNode(String xpath)](#selectSingleNode-java.lang.String) | Selects the first [Node](../../com.aspose.words/node/) that matches the XPath expression. |
 | [setAllowOverlap(boolean value)](#setAllowOverlap-boolean) | Sets a value that specifies whether this shape can overlap other shapes. |
 | [setAlternativeText(String value)](#setAlternativeText-java.lang.String) | Defines alternative text to be displayed instead of a graphic. |
 | [setAnchorLocked(boolean value)](#setAnchorLocked-boolean) | Specifies whether the shape's anchor is locked. |
@@ -296,7 +297,7 @@ Initializes a new instance of this class.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | [DocumentBase](../../com.aspose.words/documentbase) |  |
+| doc | [DocumentBase](../../com.aspose.words/documentbase/) |  |
 | shapeType | int |  |
 
 ### accept(DocumentVisitor visitor) {#accept-com.aspose.words.DocumentVisitor}
@@ -307,17 +308,17 @@ public boolean accept(DocumentVisitor visitor)
 
 Accepts a visitor.
 
-Enumerates over this node and all of its children. Each node calls a corresponding method on [DocumentVisitor](../../com.aspose.words/documentvisitor).
+Enumerates over this node and all of its children. Each node calls a corresponding method on [DocumentVisitor](../../com.aspose.words/documentvisitor/).
 
 For more info see the Visitor design pattern.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor) | The visitor that will visit the nodes. |
+| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor/) | The visitor that will visit the nodes. |
 
 **Returns:**
-boolean - True if all nodes were visited; false if [DocumentVisitor](../../com.aspose.words/documentvisitor) stopped the operation before visiting all nodes. Calls [DocumentVisitor.visitShapeStart(com.aspose.words.Shape)](../../com.aspose.words/documentvisitor\#visitShapeStart-com.aspose.words.Shape), then calls [Node.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/node\#accept-com.aspose.words.DocumentVisitor) for all child nodes of the shape and calls [DocumentVisitor.visitShapeEnd(com.aspose.words.Shape)](../../com.aspose.words/documentvisitor\#visitShapeEnd-com.aspose.words.Shape) at the end.
+boolean - True if all nodes were visited; false if [DocumentVisitor](../../com.aspose.words/documentvisitor/) stopped the operation before visiting all nodes. Calls [DocumentVisitor.visitShapeStart(com.aspose.words.Shape)](../../com.aspose.words/documentvisitor/\#visitShapeStart-com.aspose.words.Shape), then calls [Node.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/node/\#accept-com.aspose.words.DocumentVisitor) for all child nodes of the shape and calls [DocumentVisitor.visitShapeEnd(com.aspose.words.Shape)](../../com.aspose.words/documentvisitor/\#visitShapeEnd-com.aspose.words.Shape) at the end.
 ### adjustWithEffects(Rectangle2D.Float source) {#adjustWithEffects-java.awt.geom.Rectangle2D.Float}
 ```
 public Rectangle2D.Float adjustWithEffects(Rectangle2D.Float source)
@@ -348,10 +349,10 @@ If the node being inserted was created from another document, you should use **M
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | The node to add. |
+| newChild | [Node](../../com.aspose.words/node/) | The node to add. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The node added.
+[Node](../../com.aspose.words/node/) - The node added.
 ### canHaveImage() {#canHaveImage}
 ```
 public boolean canHaveImage()
@@ -360,7 +361,7 @@ public boolean canHaveImage()
 
 Returns  true  if the shape type allows the shape to have an image.
 
-Although Microsoft Word has a special shape type for images, it appears that in Microsoft Word documents any shape except a group shape can have an image, therefore this property returns  true  for all shapes except [GroupShape](../../com.aspose.words/groupshape).
+Although Microsoft Word has a special shape type for images, it appears that in Microsoft Word documents any shape except a group shape can have an image, therefore this property returns  true  for all shapes except [GroupShape](../../com.aspose.words/groupshape/).
 
 **Returns:**
 boolean - \{ true  if the shape type allows the shape to have an image.
@@ -398,7 +399,7 @@ This method always performs a deep copy of the node. The  isCloneChildren  param
 | isCloneChildren | boolean | True to recursively clone the subtree under the specified node; false to clone only the node itself. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The cloned node.
+[Node](../../com.aspose.words/node/) - The cloned node.
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
@@ -501,7 +502,7 @@ public CompositeNode getAncestor(int ancestorType)
 | ancestorType | int |  |
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode)
+[CompositeNode](../../com.aspose.words/compositenode/)
 ### getAncestor(Class ancestorType) {#getAncestor-java.lang.Class}
 ```
 public CompositeNode getAncestor(Class ancestorType)
@@ -516,7 +517,7 @@ Gets the first ancestor of the specified object type.
 | ancestorType | java.lang.Class | The object type of the ancestor to retrieve. |
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode) - The ancestor of the specified type or  null  if no ancestor of this type was found.
+[CompositeNode](../../com.aspose.words/compositenode/) - The ancestor of the specified type or  null  if no ancestor of this type was found.
 
 The ancestor type matches if it is equal to  ancestorType  or derived from  ancestorType .
 ### getAnchorLocked() {#getAnchorLocked}
@@ -543,7 +544,7 @@ public boolean getAspectRatioLocked()
 
 Specifies whether the shape's aspect ratio is locked.
 
-The default value depends on the [ShapeType](../../com.aspose.words/shapetype), for the [ShapeType.IMAGE](../../com.aspose.words/shapetype\#IMAGE) it is  true  but for the other shape types it is  false .
+The default value depends on the [ShapeType](../../com.aspose.words/shapetype/), for the [ShapeType.IMAGE](../../com.aspose.words/shapetype/\#IMAGE) it is  true  but for the other shape types it is  false .
 
 Has effect for top level shapes only.
 
@@ -617,10 +618,10 @@ public Chart getChart()
 ```
 
 
-Provides access to the chart properties if this shape has a [Chart](../../com.aspose.words/chart). This property will return the [Chart](../../com.aspose.words/chart) object only if [hasChart()](../../com.aspose.words/shape\#hasChart) property is  true  for this [Shape](../../com.aspose.words/shape), and will throw an exception otherwise.
+Provides access to the chart properties if this shape has a [Chart](../../com.aspose.words/chart/). This property will return the [Chart](../../com.aspose.words/chart/) object only if [hasChart()](../../com.aspose.words/shape/\#hasChart) property is  true  for this [Shape](../../com.aspose.words/shape/), and will throw an exception otherwise.
 
 **Returns:**
-[Chart](../../com.aspose.words/chart) - The corresponding [Chart](../../com.aspose.words/chart) value.
+[Chart](../../com.aspose.words/chart/) - The corresponding [Chart](../../com.aspose.words/chart/) value.
 ### getChild(int nodeType, int index, boolean isDeep) {#getChild-int-int-boolean}
 ```
 public Node getChild(int nodeType, int index, boolean isDeep)
@@ -637,7 +638,7 @@ public Node getChild(int nodeType, int index, boolean isDeep)
 | isDeep | boolean |  |
 
 **Returns:**
-[Node](../../com.aspose.words/node)
+[Node](../../com.aspose.words/node/)
 ### getChildNodes() {#getChildNodes}
 ```
 public NodeCollection getChildNodes()
@@ -646,12 +647,12 @@ public NodeCollection getChildNodes()
 
 Gets all immediate child nodes of this node.
 
-Note, [getChildNodes()](../../com.aspose.words/compositenode\#getChildNodes) is equivalent to calling **M:Aspose.Words.CompositeNode.GetChildNodes(Aspose.Words.NodeType,System.Boolean)** with arguments ( [NodeType.ANY](../../com.aspose.words/nodetype\#ANY),  false ) and creates and returns a new collection every time it is accessed.
+Note, [getChildNodes()](../../com.aspose.words/compositenode/\#getChildNodes) is equivalent to calling **M:Aspose.Words.CompositeNode.GetChildNodes(Aspose.Words.NodeType,System.Boolean)** with arguments ( [NodeType.ANY](../../com.aspose.words/nodetype/\#ANY),  false ) and creates and returns a new collection every time it is accessed.
 
 If there are no child nodes, this property returns an empty collection.
 
 **Returns:**
-[NodeCollection](../../com.aspose.words/nodecollection) - All immediate child nodes of this node.
+[NodeCollection](../../com.aspose.words/nodecollection/) - All immediate child nodes of this node.
 ### getChildNodes(int nodeType, boolean isDeep) {#getChildNodes-int-boolean}
 ```
 public NodeCollection getChildNodes(int nodeType, boolean isDeep)
@@ -667,7 +668,7 @@ public NodeCollection getChildNodes(int nodeType, boolean isDeep)
 | isDeep | boolean |  |
 
 **Returns:**
-[NodeCollection](../../com.aspose.words/nodecollection)
+[NodeCollection](../../com.aspose.words/nodecollection/)
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -687,7 +688,7 @@ public CompositeNode getContainer()
 
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode)
+[CompositeNode](../../com.aspose.words/compositenode/)
 ### getCoordOrigin() {#getCoordOrigin}
 ```
 public Point getCoordOrigin()
@@ -731,7 +732,7 @@ public Node getCurrentNode()
 
 
 **Returns:**
-[Node](../../com.aspose.words/node)
+[Node](../../com.aspose.words/node/)
 ### getCustomNodeId() {#getCustomNodeId}
 ```
 public int getCustomNodeId()
@@ -871,7 +872,7 @@ Gets the document to which this node belongs.
 The node always belongs to a document even if it has just been created and not yet added to the tree, or if it has been removed from the tree.
 
 **Returns:**
-[DocumentBase](../../com.aspose.words/documentbase) - The document to which this node belongs.
+[DocumentBase](../../com.aspose.words/documentbase/) - The document to which this node belongs.
 ### getDocument_IInline() {#getDocument-IInline}
 ```
 public DocumentBase getDocument_IInline()
@@ -881,7 +882,7 @@ public DocumentBase getDocument_IInline()
 
 
 **Returns:**
-[DocumentBase](../../com.aspose.words/documentbase)
+[DocumentBase](../../com.aspose.words/documentbase/)
 ### getEndArrowLength() {#getEndArrowLength}
 ```
 public int getEndArrowLength()
@@ -941,7 +942,7 @@ public Fill getFill()
 Gets fill formatting for the shape.
 
 **Returns:**
-[Fill](../../com.aspose.words/fill) - Fill formatting for the shape.
+[Fill](../../com.aspose.words/fill/) - Fill formatting for the shape.
 ### getFillColor() {#getFillColor}
 ```
 public Color getFillColor()
@@ -950,7 +951,7 @@ public Color getFillColor()
 
 Defines the brush color that fills the closed path of the shape.
 
-This is a shortcut to the [Fill.getColor()](../../com.aspose.words/fill\#getColor) / [Fill.setColor(java.awt.Color)](../../com.aspose.words/fill\#setColor-java.awt.Color) property.
+This is a shortcut to the [Fill.getColor()](../../com.aspose.words/fill/\#getColor) / [Fill.setColor(java.awt.Color)](../../com.aspose.words/fill/\#setColor-java.awt.Color) property.
 
 The default value is .
 
@@ -1024,7 +1025,7 @@ public boolean getFilled()
 
 Determines whether the closed path of the shape will be filled.
 
-This is a shortcut to the [Fill.getOn()](../../com.aspose.words/fill\#getOn) / [Fill.setOn(boolean)](../../com.aspose.words/fill\#setOn-boolean) property.
+This is a shortcut to the [Fill.getOn()](../../com.aspose.words/fill/\#getOn) / [Fill.setOn(boolean)](../../com.aspose.words/fill/\#setOn-boolean) property.
 
 The default value is  true .
 
@@ -1049,7 +1050,7 @@ public Node getFirstChild()
 Gets the first child of the node. If there is no first child node, a  null  is returned.
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The first child of the node.
+[Node](../../com.aspose.words/node/) - The first child of the node.
 ### getFirstParagraph() {#getFirstParagraph}
 ```
 public Paragraph getFirstParagraph()
@@ -1059,7 +1060,7 @@ public Paragraph getFirstParagraph()
 Gets the first paragraph in the shape.
 
 **Returns:**
-[Paragraph](../../com.aspose.words/paragraph) - The first paragraph in the shape.
+[Paragraph](../../com.aspose.words/paragraph/) - The first paragraph in the shape.
 ### getFlipOrientation() {#getFlipOrientation}
 ```
 public int getFlipOrientation()
@@ -1068,10 +1069,10 @@ public int getFlipOrientation()
 
 Switches the orientation of a shape.
 
-The default value is [FlipOrientation.NONE](../../com.aspose.words/fliporientation\#NONE).
+The default value is [FlipOrientation.NONE](../../com.aspose.words/fliporientation/\#NONE).
 
 **Returns:**
-int - The corresponding  int  value. The returned value is a bitwise combination of [FlipOrientation](../../com.aspose.words/fliporientation) constants.
+int - The corresponding  int  value. The returned value is a bitwise combination of [FlipOrientation](../../com.aspose.words/fliporientation/) constants.
 ### getFont() {#getFont}
 ```
 public Font getFont()
@@ -1081,7 +1082,7 @@ public Font getFont()
 Provides access to the font formatting of this object.
 
 **Returns:**
-[Font](../../com.aspose.words/font) - The corresponding [Font](../../com.aspose.words/font) value.
+[Font](../../com.aspose.words/font/) - The corresponding [Font](../../com.aspose.words/font/) value.
 ### getGradientAngle() {#getGradientAngle}
 ```
 public double getGradientAngle()
@@ -1101,7 +1102,7 @@ public GradientStopCollection getGradientStops()
 
 
 **Returns:**
-[GradientStopCollection](../../com.aspose.words/gradientstopcollection)
+[GradientStopCollection](../../com.aspose.words/gradientstopcollection/)
 ### getGradientStyle() {#getGradientStyle}
 ```
 public int getGradientStyle()
@@ -1172,12 +1173,12 @@ public int getHorizontalAlignment()
 
 Specifies how the shape is positioned horizontally.
 
-The default value is [HorizontalAlignment.NONE](../../com.aspose.words/horizontalalignment\#NONE).
+The default value is [HorizontalAlignment.NONE](../../com.aspose.words/horizontalalignment/\#NONE).
 
 Has effect only for top level floating shapes.
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [HorizontalAlignment](../../com.aspose.words/horizontalalignment) constants.
+int - The corresponding  int  value. The returned value is one of [HorizontalAlignment](../../com.aspose.words/horizontalalignment/) constants.
 ### getHorizontalMargins_ITextBox() {#getHorizontalMargins-ITextBox}
 ```
 public float getHorizontalMargins_ITextBox()
@@ -1197,7 +1198,7 @@ public HorizontalRuleFormat getHorizontalRuleFormat()
 Provides access to the properties of the horizontal rule shape. For a shape that is not a horizontal rule, returns  null .
 
 **Returns:**
-[HorizontalRuleFormat](../../com.aspose.words/horizontalruleformat) - The corresponding [HorizontalRuleFormat](../../com.aspose.words/horizontalruleformat) value.
+[HorizontalRuleFormat](../../com.aspose.words/horizontalruleformat/) - The corresponding [HorizontalRuleFormat](../../com.aspose.words/horizontalruleformat/) value.
 ### getImageData() {#getImageData}
 ```
 public ImageData getImageData()
@@ -1207,7 +1208,7 @@ public ImageData getImageData()
 Provides access to the image of the shape. Returns  null  if the shape cannot have an image.
 
 **Returns:**
-[ImageData](../../com.aspose.words/imagedata) - The corresponding [ImageData](../../com.aspose.words/imagedata) value.
+[ImageData](../../com.aspose.words/imagedata/) - The corresponding [ImageData](../../com.aspose.words/imagedata/) value.
 ### getJoinStyle() {#getJoinStyle}
 ```
 public int getJoinStyle()
@@ -1227,7 +1228,7 @@ public Node getLastChild()
 Gets the last child of the node. If there is no last child node, a  null  is returned.
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The last child of the node.
+[Node](../../com.aspose.words/node/) - The last child of the node.
 ### getLastParagraph() {#getLastParagraph}
 ```
 public Paragraph getLastParagraph()
@@ -1237,7 +1238,7 @@ public Paragraph getLastParagraph()
 Gets the last paragraph in the shape.
 
 **Returns:**
-[Paragraph](../../com.aspose.words/paragraph) - The last paragraph in the shape.
+[Paragraph](../../com.aspose.words/paragraph/) - The last paragraph in the shape.
 ### getLeft() {#getLeft}
 ```
 public double getLeft()
@@ -1285,7 +1286,7 @@ public byte getMarkupLanguage()
 Gets MarkupLanguage used for this graphic object.
 
 **Returns:**
-byte - MarkupLanguage used for this graphic object. The returned value is one of [ShapeMarkupLanguage](../../com.aspose.words/shapemarkuplanguage) constants.
+byte - MarkupLanguage used for this graphic object. The returned value is one of [ShapeMarkupLanguage](../../com.aspose.words/shapemarkuplanguage/) constants.
 ### getMarkupLanguage_ITextBox() {#getMarkupLanguage-ITextBox}
 ```
 public byte getMarkupLanguage_ITextBox()
@@ -1321,10 +1322,10 @@ public Node getNextMatchingNode(Node curNode)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| curNode | [Node](../../com.aspose.words/node) |  |
+| curNode | [Node](../../com.aspose.words/node/) |  |
 
 **Returns:**
-[Node](../../com.aspose.words/node)
+[Node](../../com.aspose.words/node/)
 ### getNextSibling() {#getNextSibling}
 ```
 public Node getNextSibling()
@@ -1334,17 +1335,17 @@ public Node getNextSibling()
 Gets the node immediately following this node. If there is no next node, a  null  is returned.
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The node immediately following this node.
+[Node](../../com.aspose.words/node/) - The node immediately following this node.
 ### getNodeType() {#getNodeType}
 ```
 public int getNodeType()
 ```
 
 
-Returns [NodeType.SHAPE](../../com.aspose.words/nodetype\#SHAPE).
+Returns [NodeType.SHAPE](../../com.aspose.words/nodetype/\#SHAPE).
 
 **Returns:**
-int - \{[NodeType.SHAPE](../../com.aspose.words/nodetype\#SHAPE). The returned value is one of [NodeType](../../com.aspose.words/nodetype) constants.
+int - \{[NodeType.SHAPE](../../com.aspose.words/nodetype/\#SHAPE). The returned value is one of [NodeType](../../com.aspose.words/nodetype/) constants.
 ### getOleFormat() {#getOleFormat}
 ```
 public OleFormat getOleFormat()
@@ -1354,7 +1355,7 @@ public OleFormat getOleFormat()
 Provides access to the OLE data of a shape. For a shape that is not an OLE object or ActiveX control, returns  null .
 
 **Returns:**
-[OleFormat](../../com.aspose.words/oleformat) - The corresponding [OleFormat](../../com.aspose.words/oleformat) value.
+[OleFormat](../../com.aspose.words/oleformat/) - The corresponding [OleFormat](../../com.aspose.words/oleformat/) value.
 ### getOn() {#getOn}
 ```
 public boolean getOn()
@@ -1386,7 +1387,7 @@ Gets the immediate parent of this node.
 If a node has just been created and not yet added to the tree, or if it has been removed from the tree, the parent is  null .
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode) - The immediate parent of this node.
+[CompositeNode](../../com.aspose.words/compositenode/) - The immediate parent of this node.
 ### getParentParagraph() {#getParentParagraph}
 ```
 public Paragraph getParentParagraph()
@@ -1396,7 +1397,7 @@ public Paragraph getParentParagraph()
 Returns the immediate parent paragraph. For child shapes of a group shape and child shapes of an Office Math object always returns  null .
 
 **Returns:**
-[Paragraph](../../com.aspose.words/paragraph) - The immediate parent paragraph.
+[Paragraph](../../com.aspose.words/paragraph/) - The immediate parent paragraph.
 ### getParentParagraph_IInline() {#getParentParagraph-IInline}
 ```
 public Paragraph getParentParagraph_IInline()
@@ -1406,7 +1407,7 @@ public Paragraph getParentParagraph_IInline()
 
 
 **Returns:**
-[Paragraph](../../com.aspose.words/paragraph)
+[Paragraph](../../com.aspose.words/paragraph/)
 ### getPatternType() {#getPatternType}
 ```
 public int getPatternType()
@@ -1436,17 +1437,17 @@ public Node getPreviousSibling()
 Gets the node immediately preceding this node. If there is no preceding node, a  null  is returned.
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The node immediately preceding this node.
+[Node](../../com.aspose.words/node/) - The node immediately preceding this node.
 ### getRange() {#getRange}
 ```
 public Range getRange()
 ```
 
 
-Returns a [Range](../../com.aspose.words/range) object that represents the portion of a document that is contained in this node.
+Returns a [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node.
 
 **Returns:**
-[Range](../../com.aspose.words/range) - A [Range](../../com.aspose.words/range) object that represents the portion of a document that is contained in this node.
+[Range](../../com.aspose.words/range/) - A [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node.
 ### getRelativeHorizontalPosition() {#getRelativeHorizontalPosition}
 ```
 public int getRelativeHorizontalPosition()
@@ -1455,12 +1456,12 @@ public int getRelativeHorizontalPosition()
 
 Specifies relative to what the shape is positioned horizontally.
 
-The default value is [RelativeHorizontalPosition.COLUMN](../../com.aspose.words/relativehorizontalposition\#COLUMN).
+The default value is [RelativeHorizontalPosition.COLUMN](../../com.aspose.words/relativehorizontalposition/\#COLUMN).
 
 Has effect only for top level floating shapes.
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [RelativeHorizontalPosition](../../com.aspose.words/relativehorizontalposition) constants.
+int - The corresponding  int  value. The returned value is one of [RelativeHorizontalPosition](../../com.aspose.words/relativehorizontalposition/) constants.
 ### getRelativeVerticalPosition() {#getRelativeVerticalPosition}
 ```
 public int getRelativeVerticalPosition()
@@ -1469,12 +1470,12 @@ public int getRelativeVerticalPosition()
 
 Specifies relative to what the shape is positioned vertically.
 
-The default value is [RelativeVerticalPosition.PARAGRAPH](../../com.aspose.words/relativeverticalposition\#PARAGRAPH).
+The default value is [RelativeVerticalPosition.PARAGRAPH](../../com.aspose.words/relativeverticalposition/\#PARAGRAPH).
 
 Has effect only for top level floating shapes.
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [RelativeVerticalPosition](../../com.aspose.words/relativeverticalposition) constants.
+int - The corresponding  int  value. The returned value is one of [RelativeVerticalPosition](../../com.aspose.words/relativeverticalposition/) constants.
 ### getRight() {#getRight}
 ```
 public double getRight()
@@ -1542,7 +1543,7 @@ public ShadowFormat getShadowFormat()
 Gets shadow formatting for the shape.
 
 **Returns:**
-[ShadowFormat](../../com.aspose.words/shadowformat) - Shadow formatting for the shape.
+[ShadowFormat](../../com.aspose.words/shadowformat/) - Shadow formatting for the shape.
 ### getShapeRenderer() {#getShapeRenderer}
 ```
 public ShapeRenderer getShapeRenderer()
@@ -1551,10 +1552,10 @@ public ShapeRenderer getShapeRenderer()
 
 Creates and returns an object that can be used to render this shape into an image.
 
-This method just invokes the [ShapeRenderer](../../com.aspose.words/shaperenderer) constructor and passes this object as a parameter.
+This method just invokes the [ShapeRenderer](../../com.aspose.words/shaperenderer/) constructor and passes this object as a parameter.
 
 **Returns:**
-[ShapeRenderer](../../com.aspose.words/shaperenderer) - The renderer object for this shape.
+[ShapeRenderer](../../com.aspose.words/shaperenderer/) - The renderer object for this shape.
 ### getShapeType() {#getShapeType}
 ```
 public int getShapeType()
@@ -1564,17 +1565,17 @@ public int getShapeType()
 Gets the shape type.
 
 **Returns:**
-int - The shape type. The returned value is one of [ShapeType](../../com.aspose.words/shapetype) constants.
+int - The shape type. The returned value is one of [ShapeType](../../com.aspose.words/shapetype/) constants.
 ### getSignatureLine() {#getSignatureLine}
 ```
 public SignatureLine getSignatureLine()
 ```
 
 
-Gets [SignatureLine](../../com.aspose.words/signatureline) object if the shape is a signature line. Returns  null  otherwise. You can insert new [SignatureLine](../../com.aspose.words/signatureline) into the document using [DocumentBuilder.insertSignatureLine(com.aspose.words.SignatureLineOptions)](../../com.aspose.words/documentbuilder\#insertSignatureLine-com.aspose.words.SignatureLineOptions) and **M:Aspose.Words.DocumentBuilder.InsertSignatureLine(Aspose.Words.SignatureLineOptions,Aspose.Words.Drawing.RelativeHorizontalPosition,System.Double,Aspose.Words.Drawing.RelativeVerticalPosition,System.Double,Aspose.Words.Drawing.WrapType)**
+Gets [SignatureLine](../../com.aspose.words/signatureline/) object if the shape is a signature line. Returns  null  otherwise. You can insert new [SignatureLine](../../com.aspose.words/signatureline/) into the document using [DocumentBuilder.insertSignatureLine(com.aspose.words.SignatureLineOptions)](../../com.aspose.words/documentbuilder/\#insertSignatureLine-com.aspose.words.SignatureLineOptions) and **M:Aspose.Words.DocumentBuilder.InsertSignatureLine(Aspose.Words.SignatureLineOptions,Aspose.Words.Drawing.RelativeHorizontalPosition,System.Double,Aspose.Words.Drawing.RelativeVerticalPosition,System.Double,Aspose.Words.Drawing.WrapType)**
 
 **Returns:**
-[SignatureLine](../../com.aspose.words/signatureline) - \{[SignatureLine](../../com.aspose.words/signatureline) object if the shape is a signature line.
+[SignatureLine](../../com.aspose.words/signatureline/) - \{[SignatureLine](../../com.aspose.words/signatureline/) object if the shape is a signature line.
 ### getSizeInPoints() {#getSizeInPoints}
 ```
 public Point2D.Float getSizeInPoints()
@@ -1623,10 +1624,10 @@ public int getStoryType()
 ```
 
 
-Returns [StoryType.TEXTBOX](../../com.aspose.words/storytype\#TEXTBOX).
+Returns [StoryType.TEXTBOX](../../com.aspose.words/storytype/\#TEXTBOX).
 
 **Returns:**
-int - \{[StoryType.TEXTBOX](../../com.aspose.words/storytype\#TEXTBOX). The returned value is one of [StoryType](../../com.aspose.words/storytype) constants.
+int - \{[StoryType.TEXTBOX](../../com.aspose.words/storytype/\#TEXTBOX). The returned value is one of [StoryType](../../com.aspose.words/storytype/) constants.
 ### getStroke() {#getStroke}
 ```
 public Stroke getStroke()
@@ -1636,7 +1637,7 @@ public Stroke getStroke()
 Defines a stroke for a shape.
 
 **Returns:**
-[Stroke](../../com.aspose.words/stroke) - The corresponding [Stroke](../../com.aspose.words/stroke) value.
+[Stroke](../../com.aspose.words/stroke/) - The corresponding [Stroke](../../com.aspose.words/stroke/) value.
 ### getStrokeColor() {#getStrokeColor}
 ```
 public Color getStrokeColor()
@@ -1645,7 +1646,7 @@ public Color getStrokeColor()
 
 Defines the color of a stroke.
 
-This is a shortcut to the [Stroke.getColor()](../../com.aspose.words/stroke\#getColor) / [Stroke.setColor(java.awt.Color)](../../com.aspose.words/stroke\#setColor-java.awt.Color) property.
+This is a shortcut to the [Stroke.getColor()](../../com.aspose.words/stroke/\#getColor) / [Stroke.setColor(java.awt.Color)](../../com.aspose.words/stroke/\#setColor-java.awt.Color) property.
 
 The default value is .
 
@@ -1689,7 +1690,7 @@ public double getStrokeWeight()
 
 Defines the brush thickness that strokes the path of a shape in points.
 
-This is a shortcut to the [Stroke.getWeight()](../../com.aspose.words/stroke\#getWeight) / [Stroke.setWeight(double)](../../com.aspose.words/stroke\#setWeight-double) property.
+This is a shortcut to the [Stroke.getWeight()](../../com.aspose.words/stroke/\#getWeight) / [Stroke.setWeight(double)](../../com.aspose.words/stroke/\#setWeight-double) property.
 
 The default value is 0.75.
 
@@ -1703,7 +1704,7 @@ public boolean getStroked()
 
 Defines whether the path will be stroked.
 
-This is a shortcut to the [Stroke.getOn()](../../com.aspose.words/stroke\#getOn) / [Stroke.setOn(boolean)](../../com.aspose.words/stroke\#setOn-boolean) property.
+This is a shortcut to the [Stroke.getOn()](../../com.aspose.words/stroke/\#getOn) / [Stroke.setOn(boolean)](../../com.aspose.words/stroke/\#setOn-boolean) property.
 
 The default value is  true .
 
@@ -1729,7 +1730,7 @@ public String getText()
 
 Gets the text of this node and of all its children.
 
-The returned string includes all control and special characters as described in [ControlChar](../../com.aspose.words/controlchar).
+The returned string includes all control and special characters as described in [ControlChar](../../com.aspose.words/controlchar/).
 
 **Returns:**
 java.lang.String
@@ -1742,7 +1743,7 @@ public TextBox getTextBox()
 Defines attributes that specify how text is displayed in a shape.
 
 **Returns:**
-[TextBox](../../com.aspose.words/textbox) - The corresponding [TextBox](../../com.aspose.words/textbox) value.
+[TextBox](../../com.aspose.words/textbox/) - The corresponding [TextBox](../../com.aspose.words/textbox/) value.
 ### getTextBoxWrapMode_ITextBox() {#getTextBoxWrapMode-ITextBox}
 ```
 public int getTextBoxWrapMode_ITextBox()
@@ -1762,7 +1763,7 @@ public TextPath getTextPath()
 Defines the text of the text path (of a WordArt object).
 
 **Returns:**
-[TextPath](../../com.aspose.words/textpath) - The corresponding [TextPath](../../com.aspose.words/textpath) value.
+[TextPath](../../com.aspose.words/textpath/) - The corresponding [TextPath](../../com.aspose.words/textpath/) value.
 ### getTextboxLayoutFlow_ITextBox() {#getTextboxLayoutFlow-ITextBox}
 ```
 public int getTextboxLayoutFlow_ITextBox()
@@ -1823,12 +1824,12 @@ public int getVerticalAlignment()
 
 Specifies how the shape is positioned vertically.
 
-The default value is [VerticalAlignment.NONE](../../com.aspose.words/verticalalignment\#NONE).
+The default value is [VerticalAlignment.NONE](../../com.aspose.words/verticalalignment/\#NONE).
 
 Has effect only for top level floating shapes.
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [VerticalAlignment](../../com.aspose.words/verticalalignment) constants.
+int - The corresponding  int  value. The returned value is one of [VerticalAlignment](../../com.aspose.words/verticalalignment/) constants.
 ### getWeight() {#getWeight}
 ```
 public double getWeight()
@@ -1863,12 +1864,12 @@ public int getWrapSide()
 
 Specifies how the text is wrapped around the shape.
 
-The default value is [WrapSide.BOTH](../../com.aspose.words/wrapside\#BOTH).
+The default value is [WrapSide.BOTH](../../com.aspose.words/wrapside/\#BOTH).
 
 Has effect only for top level shapes.
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [WrapSide](../../com.aspose.words/wrapside) constants.
+int - The corresponding  int  value. The returned value is one of [WrapSide](../../com.aspose.words/wrapside/) constants.
 ### getWrapType() {#getWrapType}
 ```
 public int getWrapType()
@@ -1877,12 +1878,12 @@ public int getWrapType()
 
 Defines whether the shape is inline or floating. For floating shapes defines the wrapping mode for text around the shape.
 
-The default value is [WrapType.NONE](../../com.aspose.words/wraptype\#NONE).
+The default value is [WrapType.NONE](../../com.aspose.words/wraptype/\#NONE).
 
 Has effect only for top level shapes.
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [WrapType](../../com.aspose.words/wraptype) constants.
+int - The corresponding  int  value. The returned value is one of [WrapType](../../com.aspose.words/wraptype/) constants.
 ### getZOrder() {#getZOrder}
 ```
 public int getZOrder()
@@ -1919,10 +1920,10 @@ public boolean hasChart()
 ```
 
 
-Returns  true  if this [Shape](../../com.aspose.words/shape) has a [Chart](../../com.aspose.words/chart).
+Returns  true  if this [Shape](../../com.aspose.words/shape/) has a [Chart](../../com.aspose.words/chart/).
 
 **Returns:**
-boolean - \{ true  if this [Shape](../../com.aspose.words/shape) has a [Chart](../../com.aspose.words/chart).
+boolean - \{ true  if this [Shape](../../com.aspose.words/shape/) has a [Chart](../../com.aspose.words/chart/).
 ### hasChildNodes() {#hasChildNodes}
 ```
 public boolean hasChildNodes()
@@ -1949,10 +1950,10 @@ public boolean hasSmartArt()
 ```
 
 
-Returns  true  if this [Shape](../../com.aspose.words/shape) has a SmartArt object.
+Returns  true  if this [Shape](../../com.aspose.words/shape/) has a SmartArt object.
 
 **Returns:**
-boolean - \{ true  if this [Shape](../../com.aspose.words/shape) has a SmartArt object.
+boolean - \{ true  if this [Shape](../../com.aspose.words/shape/) has a SmartArt object.
 ### hasVerticalTextFlow_ITextBox() {#hasVerticalTextFlow-ITextBox}
 ```
 public boolean hasVerticalTextFlow_ITextBox()
@@ -1984,7 +1985,7 @@ Returns the index of the specified child node in the child node array. Returns -
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| child | [Node](../../com.aspose.words/node) |  |
+| child | [Node](../../com.aspose.words/node/) |  |
 
 **Returns:**
 int
@@ -2005,11 +2006,11 @@ If the node being inserted was created from another document, you should use **M
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | The [Node](../../com.aspose.words/node) to insert. |
-| refChild | [Node](../../com.aspose.words/node) | The [Node](../../com.aspose.words/node) that is the reference node. The  newChild  is placed after the  refChild . |
+| newChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) to insert. |
+| refChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) that is the reference node. The  newChild  is placed after the  refChild . |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The inserted node.
+[Node](../../com.aspose.words/node/) - The inserted node.
 ### insertBefore(Node newChild, Node refChild) {#insertBefore-com.aspose.words.Node-com.aspose.words.Node}
 ```
 public Node insertBefore(Node newChild, Node refChild)
@@ -2027,11 +2028,11 @@ If the node being inserted was created from another document, you should use **M
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | The [Node](../../com.aspose.words/node) to insert. |
-| refChild | [Node](../../com.aspose.words/node) | The [Node](../../com.aspose.words/node) that is the reference node. The  newChild  is placed before this node. |
+| newChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) to insert. |
+| refChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) that is the reference node. The  newChild  is placed before this node. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The inserted node.
+[Node](../../com.aspose.words/node/) - The inserted node.
 ### isComposite() {#isComposite}
 ```
 public boolean isComposite()
@@ -2048,7 +2049,7 @@ public boolean isDecorative()
 ```
 
 
-Gets the flag that specifies whether the shape is decorative in the document. Note that shape having not empty [getAlternativeText()](../../com.aspose.words/shapebase\#getAlternativeText) / [setAlternativeText(java.lang.String)](../../com.aspose.words/shapebase\#setAlternativeText-java.lang.String) cannot be decorative.
+Gets the flag that specifies whether the shape is decorative in the document. Note that shape having not empty [getAlternativeText()](../../com.aspose.words/shapebase/\#getAlternativeText) / [setAlternativeText(java.lang.String)](../../com.aspose.words/shapebase/\#setAlternativeText-java.lang.String) cannot be decorative.
 
 **Returns:**
 boolean - The flag that specifies whether the shape is decorative in the document.
@@ -2058,7 +2059,7 @@ public void isDecorative(boolean value)
 ```
 
 
-Sets the flag that specifies whether the shape is decorative in the document. Note that shape having not empty [getAlternativeText()](../../com.aspose.words/shapebase\#getAlternativeText) / [setAlternativeText(java.lang.String)](../../com.aspose.words/shapebase\#setAlternativeText-java.lang.String) cannot be decorative.
+Sets the flag that specifies whether the shape is decorative in the document. Note that shape having not empty [getAlternativeText()](../../com.aspose.words/shapebase/\#getAlternativeText) / [setAlternativeText(java.lang.String)](../../com.aspose.words/shapebase/\#setAlternativeText-java.lang.String) cannot be decorative.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2137,7 +2138,7 @@ Gets a flag indicating whether the shape is displayed inside a table or outside 
 
 The default value is  true .
 
-Has effect only for top level shapes, the property [getWrapType()](../../com.aspose.words/shapebase\#getWrapType) / [setWrapType(int)](../../com.aspose.words/shapebase\#setWrapType-int) of which is set to value other than [Inline](../../com.aspose.words/inline).
+Has effect only for top level shapes, the property [getWrapType()](../../com.aspose.words/shapebase/\#getWrapType) / [setWrapType(int)](../../com.aspose.words/shapebase/\#setWrapType-int) of which is set to value other than [Inline](../../com.aspose.words/inline/).
 
 **Returns:**
 boolean - A flag indicating whether the shape is displayed inside a table or outside of it.
@@ -2151,7 +2152,7 @@ Sets a flag indicating whether the shape is displayed inside a table or outside 
 
 The default value is  true .
 
-Has effect only for top level shapes, the property [getWrapType()](../../com.aspose.words/shapebase\#getWrapType) / [setWrapType(int)](../../com.aspose.words/shapebase\#setWrapType-int) of which is set to value other than [Inline](../../com.aspose.words/inline).
+Has effect only for top level shapes, the property [getWrapType()](../../com.aspose.words/shapebase/\#getWrapType) / [setWrapType(int)](../../com.aspose.words/shapebase/\#setWrapType-int) of which is set to value other than [Inline](../../com.aspose.words/inline/).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2184,7 +2185,7 @@ public boolean isSignatureLine()
 ```
 
 
-Indicates that shape is a [SignatureLine](../../com.aspose.words/signatureline).
+Indicates that shape is a [SignatureLine](../../com.aspose.words/signatureline/).
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -2244,10 +2245,10 @@ Gets next node according to the pre-order tree traversal algorithm.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node) | The top node (limit) of traversal. |
+| rootNode | [Node](../../com.aspose.words/node/) | The top node (limit) of traversal. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - Next node in pre-order order. Null if reached the  rootNode .
+[Node](../../com.aspose.words/node/) - Next node in pre-order order. Null if reached the  rootNode .
 ### nodeTypeToString(int nodeType) {#nodeTypeToString-int}
 ```
 public static String nodeTypeToString(int nodeType)
@@ -2322,10 +2323,10 @@ If the node being inserted was created from another document, you should use **M
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | The node to add. |
+| newChild | [Node](../../com.aspose.words/node/) | The node to add. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The node added.
+[Node](../../com.aspose.words/node/) - The node added.
 ### presetTextured(int presetTexture) {#presetTextured-int}
 ```
 public void presetTextured(int presetTexture)
@@ -2350,10 +2351,10 @@ Gets the previous node according to the pre-order tree traversal algorithm.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node) | The top node (limit) of traversal. |
+| rootNode | [Node](../../com.aspose.words/node/) | The top node (limit) of traversal. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - Previous node in pre-order order. Null if reached the  rootNode .
+[Node](../../com.aspose.words/node/) - Previous node in pre-order order. Null if reached the  rootNode .
 ### remove() {#remove}
 ```
 public void remove()
@@ -2383,10 +2384,10 @@ The parent of  oldChild  is set to  null  after the node is removed.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| oldChild | [Node](../../com.aspose.words/node) | The node to remove. |
+| oldChild | [Node](../../com.aspose.words/node/) | The node to remove. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The removed node.
+[Node](../../com.aspose.words/node/) - The removed node.
 ### removeMoveRevisions() {#removeMoveRevisions}
 ```
 public void removeMoveRevisions()
@@ -2427,7 +2428,7 @@ public void removeSmartTags()
 ```
 
 
-Removes all [SmartTag](../../com.aspose.words/smarttag) descendant nodes of the current node. This method does not remove the content of the smart tags.
+Removes all [SmartTag](../../com.aspose.words/smarttag/) descendant nodes of the current node. This method does not remove the content of the smart tags.
 
 ### selectNodes(String xpath) {#selectNodes-java.lang.String}
 ```
@@ -2445,14 +2446,14 @@ Only expressions with element names are supported at the moment. Expressions tha
 | xpath | java.lang.String | The XPath expression. |
 
 **Returns:**
-[NodeList](../../com.aspose.words/nodelist) - A list of nodes matching the XPath query.
+[NodeList](../../com.aspose.words/nodelist/) - A list of nodes matching the XPath query.
 ### selectSingleNode(String xpath) {#selectSingleNode-java.lang.String}
 ```
 public Node selectSingleNode(String xpath)
 ```
 
 
-Selects the first [Node](../../com.aspose.words/node) that matches the XPath expression.
+Selects the first [Node](../../com.aspose.words/node/) that matches the XPath expression.
 
 Only expressions with element names are supported at the moment. Expressions that use attribute names are not supported.
 
@@ -2462,7 +2463,7 @@ Only expressions with element names are supported at the moment. Expressions tha
 | xpath | java.lang.String | The XPath expression. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The first [Node](../../com.aspose.words/node) that matches the XPath query or  null  if no matching node is found.
+[Node](../../com.aspose.words/node/) - The first [Node](../../com.aspose.words/node/) that matches the XPath query or  null  if no matching node is found.
 ### setAllowOverlap(boolean value) {#setAllowOverlap-boolean}
 ```
 public void setAllowOverlap(boolean value)
@@ -2524,7 +2525,7 @@ public void setAspectRatioLocked(boolean value)
 
 Specifies whether the shape's aspect ratio is locked.
 
-The default value depends on the [ShapeType](../../com.aspose.words/shapetype), for the [ShapeType.IMAGE](../../com.aspose.words/shapetype\#IMAGE) it is  true  but for the other shape types it is  false .
+The default value depends on the [ShapeType](../../com.aspose.words/shapetype/), for the [ShapeType.IMAGE](../../com.aspose.words/shapetype/\#IMAGE) it is  true  but for the other shape types it is  false .
 
 Has effect for top level shapes only.
 
@@ -2757,7 +2758,7 @@ public void setFillColor(Color value)
 
 Defines the brush color that fills the closed path of the shape.
 
-This is a shortcut to the [Fill.getColor()](../../com.aspose.words/fill\#getColor) / [Fill.setColor(java.awt.Color)](../../com.aspose.words/fill\#setColor-java.awt.Color) property.
+This is a shortcut to the [Fill.getColor()](../../com.aspose.words/fill/\#getColor) / [Fill.setColor(java.awt.Color)](../../com.aspose.words/fill/\#setColor-java.awt.Color) property.
 
 The default value is .
 
@@ -2826,7 +2827,7 @@ public void setFilled(boolean value)
 
 Determines whether the closed path of the shape will be filled.
 
-This is a shortcut to the [Fill.getOn()](../../com.aspose.words/fill\#getOn) / [Fill.setOn(boolean)](../../com.aspose.words/fill\#setOn-boolean) property.
+This is a shortcut to the [Fill.getOn()](../../com.aspose.words/fill/\#getOn) / [Fill.setOn(boolean)](../../com.aspose.words/fill/\#setOn-boolean) property.
 
 The default value is  true .
 
@@ -2856,12 +2857,12 @@ public void setFlipOrientation(int value)
 
 Switches the orientation of a shape.
 
-The default value is [FlipOrientation.NONE](../../com.aspose.words/fliporientation\#NONE).
+The default value is [FlipOrientation.NONE](../../com.aspose.words/fliporientation/\#NONE).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be a bitwise combination of [FlipOrientation](../../com.aspose.words/fliporientation) constants. |
+| value | int | The corresponding  int  value. The value must be a bitwise combination of [FlipOrientation](../../com.aspose.words/fliporientation/) constants. |
 
 ### setGradientAngle(double value) {#setGradientAngle-double}
 ```
@@ -2932,14 +2933,14 @@ public void setHorizontalAlignment(int value)
 
 Specifies how the shape is positioned horizontally.
 
-The default value is [HorizontalAlignment.NONE](../../com.aspose.words/horizontalalignment\#NONE).
+The default value is [HorizontalAlignment.NONE](../../com.aspose.words/horizontalalignment/\#NONE).
 
 Has effect only for top level floating shapes.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [HorizontalAlignment](../../com.aspose.words/horizontalalignment) constants. |
+| value | int | The corresponding  int  value. The value must be one of [HorizontalAlignment](../../com.aspose.words/horizontalalignment/) constants. |
 
 ### setImage(byte[] imageBytes) {#setImage-byte}
 ```
@@ -3065,14 +3066,14 @@ public void setRelativeHorizontalPosition(int value)
 
 Specifies relative to what the shape is positioned horizontally.
 
-The default value is [RelativeHorizontalPosition.COLUMN](../../com.aspose.words/relativehorizontalposition\#COLUMN).
+The default value is [RelativeHorizontalPosition.COLUMN](../../com.aspose.words/relativehorizontalposition/\#COLUMN).
 
 Has effect only for top level floating shapes.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [RelativeHorizontalPosition](../../com.aspose.words/relativehorizontalposition) constants. |
+| value | int | The corresponding  int  value. The value must be one of [RelativeHorizontalPosition](../../com.aspose.words/relativehorizontalposition/) constants. |
 
 ### setRelativeVerticalPosition(int value) {#setRelativeVerticalPosition-int}
 ```
@@ -3082,14 +3083,14 @@ public void setRelativeVerticalPosition(int value)
 
 Specifies relative to what the shape is positioned vertically.
 
-The default value is [RelativeVerticalPosition.PARAGRAPH](../../com.aspose.words/relativeverticalposition\#PARAGRAPH).
+The default value is [RelativeVerticalPosition.PARAGRAPH](../../com.aspose.words/relativeverticalposition/\#PARAGRAPH).
 
 Has effect only for top level floating shapes.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [RelativeVerticalPosition](../../com.aspose.words/relativeverticalposition) constants. |
+| value | int | The corresponding  int  value. The value must be one of [RelativeVerticalPosition](../../com.aspose.words/relativeverticalposition/) constants. |
 
 ### setRotateWithObject(boolean value) {#setRotateWithObject-boolean}
 ```
@@ -3209,7 +3210,7 @@ public void setStrokeColor(Color value)
 
 Defines the color of a stroke.
 
-This is a shortcut to the [Stroke.getColor()](../../com.aspose.words/stroke\#getColor) / [Stroke.setColor(java.awt.Color)](../../com.aspose.words/stroke\#setColor-java.awt.Color) property.
+This is a shortcut to the [Stroke.getColor()](../../com.aspose.words/stroke/\#getColor) / [Stroke.setColor(java.awt.Color)](../../com.aspose.words/stroke/\#setColor-java.awt.Color) property.
 
 The default value is .
 
@@ -3252,7 +3253,7 @@ public void setStrokeWeight(double value)
 
 Defines the brush thickness that strokes the path of a shape in points.
 
-This is a shortcut to the [Stroke.getWeight()](../../com.aspose.words/stroke\#getWeight) / [Stroke.setWeight(double)](../../com.aspose.words/stroke\#setWeight-double) property.
+This is a shortcut to the [Stroke.getWeight()](../../com.aspose.words/stroke/\#getWeight) / [Stroke.setWeight(double)](../../com.aspose.words/stroke/\#setWeight-double) property.
 
 The default value is 0.75.
 
@@ -3269,7 +3270,7 @@ public void setStroked(boolean value)
 
 Defines whether the path will be stroked.
 
-This is a shortcut to the [Stroke.getOn()](../../com.aspose.words/stroke\#getOn) / [Stroke.setOn(boolean)](../../com.aspose.words/stroke\#setOn-boolean) property.
+This is a shortcut to the [Stroke.getOn()](../../com.aspose.words/stroke/\#getOn) / [Stroke.setOn(boolean)](../../com.aspose.words/stroke/\#setOn-boolean) property.
 
 The default value is  true .
 
@@ -3352,14 +3353,14 @@ public void setVerticalAlignment(int value)
 
 Specifies how the shape is positioned vertically.
 
-The default value is [VerticalAlignment.NONE](../../com.aspose.words/verticalalignment\#NONE).
+The default value is [VerticalAlignment.NONE](../../com.aspose.words/verticalalignment/\#NONE).
 
 Has effect only for top level floating shapes.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [VerticalAlignment](../../com.aspose.words/verticalalignment) constants. |
+| value | int | The corresponding  int  value. The value must be one of [VerticalAlignment](../../com.aspose.words/verticalalignment/) constants. |
 
 ### setWeight(double value) {#setWeight-double}
 ```
@@ -3401,14 +3402,14 @@ public void setWrapSide(int value)
 
 Specifies how the text is wrapped around the shape.
 
-The default value is [WrapSide.BOTH](../../com.aspose.words/wrapside\#BOTH).
+The default value is [WrapSide.BOTH](../../com.aspose.words/wrapside/\#BOTH).
 
 Has effect only for top level shapes.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [WrapSide](../../com.aspose.words/wrapside) constants. |
+| value | int | The corresponding  int  value. The value must be one of [WrapSide](../../com.aspose.words/wrapside/) constants. |
 
 ### setWrapType(int value) {#setWrapType-int}
 ```
@@ -3418,14 +3419,14 @@ public void setWrapType(int value)
 
 Defines whether the shape is inline or floating. For floating shapes defines the wrapping mode for text around the shape.
 
-The default value is [WrapType.NONE](../../com.aspose.words/wraptype\#NONE).
+The default value is [WrapType.NONE](../../com.aspose.words/wraptype/\#NONE).
 
 Has effect only for top level shapes.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [WrapType](../../com.aspose.words/wraptype) constants. |
+| value | int | The corresponding  int  value. The value must be one of [WrapType](../../com.aspose.words/wraptype/) constants. |
 
 ### setZOrder(int value) {#setZOrder-int}
 ```
@@ -3492,7 +3493,7 @@ Exports the content of the node into a string using the specified save options.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions) | Specifies the options that control how the node is saved. |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) | Specifies the options that control how the node is saved. |
 
 **Returns:**
 java.lang.String - The content of the node in the specified format.

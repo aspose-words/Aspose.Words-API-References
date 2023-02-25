@@ -1,7 +1,8 @@
 ---
 title: DataKey
+linktitle: DataKey
 second_title: Aspose.Words for Java API Reference
-description: 
+description: Represents a DataKey created from not duplicated in Java.
 type: docs
 weight: 17
 url: /java/com.aspose.words.net.system.data/datakey/
@@ -12,6 +13,8 @@ java.lang.Object
 ```
 public class DataKey
 ```
+
+Represents a DataKey created from not duplicated [DataColumn](../../com.aspose.words.net.system.data/datacolumn/)
 ## Methods
 
 | Method | Description |
@@ -63,10 +66,10 @@ public Object[] getKeyValues(System.Data.DataRow dataRow)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dataRow | [DataRow](../../com.aspose.words.net.system.data/datarow) |  |
+| dataRow | [DataRow](../../com.aspose.words.net.system.data/datarow/) |  |
 
 **Returns:**
-java.lang.Object[]
+java.lang.Object[] - Key values from given [DataRow](../../com.aspose.words.net.system.data/datarow/)
 ### getTable() {#getTable}
 ```
 public System.Data.DataTable getTable()
@@ -76,7 +79,7 @@ public System.Data.DataTable getTable()
 
 
 **Returns:**
-[DataTable](../../com.aspose.words.net.system.data/datatable)
+[DataTable](../../com.aspose.words.net.system.data/datatable/) - \{[DataTable](../../com.aspose.words.net.system.data/datatable/) connected to DataKey
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()

@@ -1,9 +1,10 @@
 ---
 title: VbaReferenceCollection
+linktitle: VbaReferenceCollection
 second_title: Aspose.Words for Java API Reference
-description: Represents a collection of  objects.
+description: Represents a collection of  objects in Java.
 type: docs
-weight: 602
+weight: 604
 url: /java/com.aspose.words/vbareferencecollection/
 ---
 
@@ -16,7 +17,7 @@ java.lang.Iterable
 public class VbaReferenceCollection implements Iterable
 ```
 
-Represents a collection of [VbaReference](../../com.aspose.words/vbareference) objects.
+Represents a collection of [VbaReference](../../com.aspose.words/vbareference/) objects.
 
 To learn more, visit the [ Working with VBA Macros ][Working with VBA Macros] documentation article.
 
@@ -27,15 +28,15 @@ To learn more, visit the [ Working with VBA Macros ][Working with VBA Macros] do
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [get(int index)](#get-int) | Gets [VbaReference](../../com.aspose.words/vbareference) object at the specified index. |
+| [get(int index)](#get-int) | Gets [VbaReference](../../com.aspose.words/vbareference/) object at the specified index. |
 | [getClass()](#getClass) |  |
 | [getCount()](#getCount) | Returns the number of VBA references in the collection. |
 | [hashCode()](#hashCode) |  |
 | [iterator()](#iterator) |  |
 | [notify()](#notify) |  |
 | [notifyAll()](#notifyAll) |  |
-| [remove(VbaReference item)](#remove-com.aspose.words.VbaReference) | Removes the first occurrence of a specified [VbaReference](../../com.aspose.words/vbareference) item from the collection. |
-| [removeAt(int index)](#removeAt-int) | Removes the [VbaReference](../../com.aspose.words/vbareference) element at the specified index of the collection. |
+| [remove(VbaReference item)](#remove-com.aspose.words.VbaReference) | Removes the first occurrence of a specified [VbaReference](../../com.aspose.words/vbareference/) item from the collection. |
+| [removeAt(int index)](#removeAt-int) | Removes the [VbaReference](../../com.aspose.words/vbareference/) element at the specified index of the collection. |
 | [toString()](#toString) |  |
 | [wait()](#wait) |  |
 | [wait(long arg0)](#wait-long) |  |
@@ -61,7 +62,7 @@ public VbaReference get(int index)
 ```
 
 
-Gets [VbaReference](../../com.aspose.words/vbareference) object at the specified index.
+Gets [VbaReference](../../com.aspose.words/vbareference/) object at the specified index.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -69,7 +70,7 @@ Gets [VbaReference](../../com.aspose.words/vbareference) object at the specified
 | index | int | The zero-based index of the reference to get. |
 
 **Returns:**
-[VbaReference](../../com.aspose.words/vbareference) - \{[VbaReference](../../com.aspose.words/vbareference) object at the specified index.
+[VbaReference](../../com.aspose.words/vbareference/) - \{[VbaReference](../../com.aspose.words/vbareference/) object at the specified index.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -132,12 +133,12 @@ public void remove(VbaReference item)
 ```
 
 
-Removes the first occurrence of a specified [VbaReference](../../com.aspose.words/vbareference) item from the collection.
+Removes the first occurrence of a specified [VbaReference](../../com.aspose.words/vbareference/) item from the collection.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| item | [VbaReference](../../com.aspose.words/vbareference) |  |
+| item | [VbaReference](../../com.aspose.words/vbareference/) |  |
 
 ### removeAt(int index) {#removeAt-int}
 ```
@@ -145,7 +146,7 @@ public void removeAt(int index)
 ```
 
 
-Removes the [VbaReference](../../com.aspose.words/vbareference) element at the specified index of the collection.
+Removes the [VbaReference](../../com.aspose.words/vbareference/) element at the specified index of the collection.
 
 **Parameters:**
 | Parameter | Type | Description |

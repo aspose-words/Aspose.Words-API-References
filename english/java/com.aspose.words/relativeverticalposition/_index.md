@@ -1,9 +1,10 @@
 ---
 title: RelativeVerticalPosition
+linktitle: RelativeVerticalPosition
 second_title: Aspose.Words for Java API Reference
-description: Specifies to what the vertical position of a shape or text frame is relative.
+description: Specifies to what the vertical position of a shape or text frame is relative in Java.
 type: docs
-weight: 478
+weight: 480
 url: /java/com.aspose.words/relativeverticalposition/
 ---
 
@@ -25,8 +26,8 @@ Specifies to what the vertical position of a shape or text frame is relative.
 | [OUTSIDE_MARGIN](#OUTSIDE-MARGIN) | Specifies that the vertical positioning shall be relative to the outside margin of the current page. |
 | [PAGE](#PAGE) | The object is positioned relative to the top edge of the page. |
 | [PARAGRAPH](#PARAGRAPH) | The object is positioned relative to the top of the paragraph that contains the anchor. |
-| [TABLE_DEFAULT](#TABLE-DEFAULT) | Default value is [MARGIN](../../com.aspose.words/relativeverticalposition\#MARGIN). |
-| [TEXT_FRAME_DEFAULT](#TEXT-FRAME-DEFAULT) | Default value is [PARAGRAPH](../../com.aspose.words/relativeverticalposition\#PARAGRAPH). |
+| [TABLE_DEFAULT](#TABLE-DEFAULT) | Default value is [MARGIN](../../com.aspose.words/relativeverticalposition/\#MARGIN). |
+| [TEXT_FRAME_DEFAULT](#TEXT-FRAME-DEFAULT) | Default value is [PARAGRAPH](../../com.aspose.words/relativeverticalposition/\#PARAGRAPH). |
 | [TOP_MARGIN](#TOP-MARGIN) | Specifies that the vertical positioning shall be relative to the top margin of the current page. |
 | [length](#length) |  |
 ## Methods
@@ -108,7 +109,7 @@ public static int TABLE_DEFAULT
 ```
 
 
-Default value is [MARGIN](../../com.aspose.words/relativeverticalposition\#MARGIN).
+Default value is [MARGIN](../../com.aspose.words/relativeverticalposition/\#MARGIN).
 
 ### TEXT_FRAME_DEFAULT {#TEXT-FRAME-DEFAULT}
 ```
@@ -116,7 +117,7 @@ public static int TEXT_FRAME_DEFAULT
 ```
 
 
-Default value is [PARAGRAPH](../../com.aspose.words/relativeverticalposition\#PARAGRAPH).
+Default value is [PARAGRAPH](../../com.aspose.words/relativeverticalposition/\#PARAGRAPH).
 
 ### TOP_MARGIN {#TOP-MARGIN}
 ```

@@ -1,7 +1,8 @@
 ---
 title: FontSourceBase
+linktitle: FontSourceBase
 second_title: Aspose.Words for Java API Reference
-description: This is an abstract base class for the classes that allow the user to specify various font sources.
+description: This is an abstract base class for the classes that allow the user to specify various font sources in Java.
 type: docs
 weight: 289
 url: /java/com.aspose.words/fontsourcebase/
@@ -117,7 +118,7 @@ public abstract int getType()
 Returns the type of the font source.
 
 **Returns:**
-int - The type of the font source. The returned value is one of [FontSourceType](../../com.aspose.words/fontsourcetype) constants.
+int - The type of the font source. The returned value is one of [FontSourceType](../../com.aspose.words/fontsourcetype/) constants.
 ### getWarningCallback() {#getWarningCallback}
 ```
 public IWarningCallback getWarningCallback()
@@ -127,7 +128,7 @@ public IWarningCallback getWarningCallback()
 Called during processing of font source when an issue is detected that might result in formatting fidelity loss.
 
 **Returns:**
-[IWarningCallback](../../com.aspose.words/iwarningcallback) - The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback) value.
+[IWarningCallback](../../com.aspose.words/iwarningcallback/) - The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback/) value.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()
@@ -165,7 +166,7 @@ Called during processing of font source when an issue is detected that might res
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IWarningCallback](../../com.aspose.words/iwarningcallback) | The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback) value. |
+| value | [IWarningCallback](../../com.aspose.words/iwarningcallback/) | The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback/) value. |
 
 ### toString() {#toString}
 ```

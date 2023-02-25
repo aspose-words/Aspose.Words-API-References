@@ -1,9 +1,10 @@
 ---
 title: PageSet
+linktitle: PageSet
 second_title: Aspose.Words for Java API Reference
-description: Describes a random set of pages.
+description: Describes a random set of pages in Java.
 type: docs
-weight: 443
+weight: 445
 url: /java/com.aspose.words/pageset/
 ---
 
@@ -79,7 +80,7 @@ Creates a page set based on ranges.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ranges | [PageRange\[\]](../../com.aspose.words/pagerange) | Array of page ranges. If a range is encountered that starts after the last page in the document, an exception will be thrown during rendering. All ranges that end after the last page are truncated to fit in the document. |
+| ranges | [PageRange\[\]](../../com.aspose.words/pagerange/) | Array of page ranges. If a range is encountered that starts after the last page in the document, an exception will be thrown during rendering. All ranges that end after the last page are truncated to fit in the document. |
 
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
@@ -105,7 +106,7 @@ public static PageSet getAll()
 Gets a set with all the pages of the document in their original order.
 
 **Returns:**
-[PageSet](../../com.aspose.words/pageset) - A set with all the pages of the document in their original order.
+[PageSet](../../com.aspose.words/pageset/) - A set with all the pages of the document in their original order.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -125,7 +126,7 @@ public static PageSet getEven()
 Gets a set with all the even pages of the document in their original order. Even pages have odd indices since page indices are zero-based.
 
 **Returns:**
-[PageSet](../../com.aspose.words/pageset) - A set with all the even pages of the document in their original order.
+[PageSet](../../com.aspose.words/pageset/) - A set with all the even pages of the document in their original order.
 ### getOdd() {#getOdd}
 ```
 public static PageSet getOdd()
@@ -135,7 +136,7 @@ public static PageSet getOdd()
 Gets a set with all the odd pages of the document in their original order. Odd pages have even indices since page indices are zero-based.
 
 **Returns:**
-[PageSet](../../com.aspose.words/pageset) - A set with all the odd pages of the document in their original order.
+[PageSet](../../com.aspose.words/pageset/) - A set with all the odd pages of the document in their original order.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()

@@ -1,9 +1,10 @@
 ---
 title: ViewType
+linktitle: ViewType
 second_title: Aspose.Words for Java API Reference
-description: Possible values for the view mode in Microsoft Word.
+description: Possible values for the view mode in Microsoft Word in Java.
 type: docs
-weight: 606
+weight: 608
 url: /java/com.aspose.words/viewtype/
 ---
 

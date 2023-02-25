@@ -1,29 +1,30 @@
 ---
 title: StructuredDocumentTagRangeStart
+linktitle: StructuredDocumentTagRangeStart
 second_title: Aspose.Words for Java API Reference
-description: Represents a start of ranged structured document tag which accepts multi-sections content.
+description: Represents a start of ranged structured document tag which accepts multi-sections content in Java.
 type: docs
-weight: 539
+weight: 541
 url: /java/com.aspose.words/structureddocumenttagrangestart/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.words.Node](../../com.aspose.words/node)
+java.lang.Object, [com.aspose.words.Node](../../com.aspose.words/node/)
 
 **All Implemented Interfaces:**
-[com.aspose.words.IStructuredDocumentTag](../../com.aspose.words/istructureddocumenttag), java.lang.Iterable
+[com.aspose.words.IStructuredDocumentTag](../../com.aspose.words/istructureddocumenttag/), java.lang.Iterable
 ```
 public class StructuredDocumentTagRangeStart extends Node implements IStructuredDocumentTag, Iterable
 ```
 
-Represents a start of **ranged** structured document tag which accepts multi-sections content. See also [StructuredDocumentTagRangeEnd](../../com.aspose.words/structureddocumenttagrangeend).
+Represents a start of **ranged** structured document tag which accepts multi-sections content. See also [StructuredDocumentTagRangeEnd](../../com.aspose.words/structureddocumenttagrangeend/).
 
 To learn more, visit the [ Structured Document Tags or Content Control ][Structured Document Tags or Content Control] documentation article.
 
-Can be immediate child of [Body](../../com.aspose.words/body) node **only**.
+Can be immediate child of [Body](../../com.aspose.words/body/) node **only**.
 
 
-[Structured Document Tags or Content Control]: https://docs.aspose.com/words/java/structured-document-tags-or-content-control/
+[Structured Document Tags or Content Control]: https://docs.aspose.com/words/java/working-with-content-control-sdt/
 ## Constructors
 
 | Constructor | Description |
@@ -54,16 +55,16 @@ Can be immediate child of [Body](../../com.aspose.words/body) node **only**.
 | [getNextSibling()](#getNextSibling) | Gets the node immediately following this node. |
 | [getNodeType()](#getNodeType) |  |
 | [getParentNode()](#getParentNode) | Gets the immediate parent of this node. |
-| [getPlaceholder()](#getPlaceholder) | Gets the [BuildingBlock](../../com.aspose.words/buildingblock) containing placeholder text which should be displayed when this structured document tag run contents are empty, the associated mapped XML element is empty as specified via the [getXmlMapping()](../../com.aspose.words/structureddocumenttagrangestart\#getXmlMapping) element or the [isShowingPlaceholderText()](../../com.aspose.words/structureddocumenttagrangestart\#isShowingPlaceholderText) / [isShowingPlaceholderText(boolean)](../../com.aspose.words/structureddocumenttagrangestart\#isShowingPlaceholderText-boolean) element is  true . |
-| [getPlaceholderName()](#getPlaceholderName) | Gets or sets Name of the [BuildingBlock](../../com.aspose.words/buildingblock) containing placeholder text. |
+| [getPlaceholder()](#getPlaceholder) | Gets the [BuildingBlock](../../com.aspose.words/buildingblock/) containing placeholder text which should be displayed when this structured document tag run contents are empty, the associated mapped XML element is empty as specified via the [getXmlMapping()](../../com.aspose.words/structureddocumenttagrangestart/\#getXmlMapping) element or the [isShowingPlaceholderText()](../../com.aspose.words/structureddocumenttagrangestart/\#isShowingPlaceholderText) / [isShowingPlaceholderText(boolean)](../../com.aspose.words/structureddocumenttagrangestart/\#isShowingPlaceholderText-boolean) element is  true . |
+| [getPlaceholderName()](#getPlaceholderName) | Gets or sets Name of the [BuildingBlock](../../com.aspose.words/buildingblock/) containing placeholder text. |
 | [getPreviousSibling()](#getPreviousSibling) | Gets the node immediately preceding this node. |
-| [getRange()](#getRange) | Returns a [Range](../../com.aspose.words/range) object that represents the portion of a document that is contained in this node. |
-| [getRangeEnd()](#getRangeEnd) | Specifies end of range if the [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) is a ranged structured document tag. |
+| [getRange()](#getRange) | Returns a [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node. |
+| [getRangeEnd()](#getRangeEnd) | Specifies end of range if the [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) is a ranged structured document tag. |
 | [getSdtType()](#getSdtType) | Gets type of this structured document tag. |
 | [getTag()](#getTag) | Specifies a tag associated with the current structured document tag node. |
 | [getText()](#getText) | Gets the text of this node and of all its children. |
 | [getTitle()](#getTitle) | Specifies the friendly name associated with this structured document tag. |
-| [getWordOpenXML()](#getWordOpenXML) | Gets a string that represents the XML contained within the node in the [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat\#FLAT-OPC) format. |
+| [getWordOpenXML()](#getWordOpenXML) | Gets a string that represents the XML contained within the node in the [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat/\#FLAT-OPC) format. |
 | [getXmlMapping()](#getXmlMapping) | Gets an object that represents the mapping of this structured document tag range to XML data in a custom XML part of the current document. |
 | [hashCode()](#hashCode) |  |
 | [isComposite()](#isComposite) | Returns  true  if this node can contain other nodes. |
@@ -83,7 +84,7 @@ Can be immediate child of [Body](../../com.aspose.words/body) node **only**.
 | [setCustomNodeId(int value)](#setCustomNodeId-int) | Specifies custom node identifier. |
 | [setLockContentControl(boolean value)](#setLockContentControl-boolean) | When set to  true , this property will prohibit a user from deleting this structured document tag. |
 | [setLockContents(boolean value)](#setLockContents-boolean) | When set to  true , this property will prohibit a user from editing the contents of this structured document tag. |
-| [setPlaceholderName(String value)](#setPlaceholderName-java.lang.String) | Gets or sets Name of the [BuildingBlock](../../com.aspose.words/buildingblock) containing placeholder text. |
+| [setPlaceholderName(String value)](#setPlaceholderName-java.lang.String) | Gets or sets Name of the [BuildingBlock](../../com.aspose.words/buildingblock/) containing placeholder text. |
 | [setTag(String value)](#setTag-java.lang.String) | Specifies a tag associated with the current structured document tag node. |
 | [setTitle(String value)](#setTitle-java.lang.String) | Specifies the friendly name associated with this structured document tag. |
 | [structuredDocumentTagNode()](#structuredDocumentTagNode) |  |
@@ -104,7 +105,7 @@ Initializes a new instance of this class.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | [DocumentBase](../../com.aspose.words/documentbase) |  |
+| doc | [DocumentBase](../../com.aspose.words/documentbase/) |  |
 | type | int |  |
 
 ### accept(DocumentVisitor visitor) {#accept-com.aspose.words.DocumentVisitor}
@@ -115,14 +116,14 @@ public boolean accept(DocumentVisitor visitor)
 
 Accepts a visitor.
 
-Enumerates over this node and all of its children. Each node calls a corresponding method on [DocumentVisitor](../../com.aspose.words/documentvisitor).
+Enumerates over this node and all of its children. Each node calls a corresponding method on [DocumentVisitor](../../com.aspose.words/documentvisitor/).
 
 For more info see the Visitor design pattern.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor) |  |
+| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor/) |  |
 
 **Returns:**
 boolean
@@ -137,10 +138,10 @@ Adds the specified node to the end of the stdContent range.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | The node to add. |
+| newChild | [Node](../../com.aspose.words/node/) | The node to add. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The node added.
+[Node](../../com.aspose.words/node/) - The node added.
 ### dd() {#dd}
 ```
 public void dd()
@@ -167,7 +168,7 @@ This method always performs a deep copy of the node. The  isCloneChildren  param
 | isCloneChildren | boolean | True to recursively clone the subtree under the specified node; false to clone only the node itself. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The cloned node.
+[Node](../../com.aspose.words/node/) - The cloned node.
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
@@ -197,7 +198,7 @@ public CompositeNode getAncestor(int ancestorType)
 | ancestorType | int |  |
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode)
+[CompositeNode](../../com.aspose.words/compositenode/)
 ### getAncestor(Class ancestorType) {#getAncestor-java.lang.Class}
 ```
 public CompositeNode getAncestor(Class ancestorType)
@@ -212,7 +213,7 @@ Gets the first ancestor of the specified object type.
 | ancestorType | java.lang.Class | The object type of the ancestor to retrieve. |
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode) - The ancestor of the specified type or  null  if no ancestor of this type was found.
+[CompositeNode](../../com.aspose.words/compositenode/) - The ancestor of the specified type or  null  if no ancestor of this type was found.
 
 The ancestor type matches if it is equal to  ancestorType  or derived from  ancestorType .
 ### getChildNodes() {#getChildNodes}
@@ -224,7 +225,7 @@ public NodeCollection getChildNodes()
 Gets all nodes between this range start node and the range end node.
 
 **Returns:**
-[NodeCollection](../../com.aspose.words/nodecollection) - All nodes between this range start node and the range end node.
+[NodeCollection](../../com.aspose.words/nodecollection/) - All nodes between this range start node and the range end node.
 ### getChildNodes(int nodeType, boolean isDeep) {#getChildNodes-int-boolean}
 ```
 public NodeCollection getChildNodes(int nodeType, boolean isDeep)
@@ -240,7 +241,7 @@ public NodeCollection getChildNodes(int nodeType, boolean isDeep)
 | isDeep | boolean |  |
 
 **Returns:**
-[NodeCollection](../../com.aspose.words/nodecollection)
+[NodeCollection](../../com.aspose.words/nodecollection/)
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -288,7 +289,7 @@ Gets the document to which this node belongs.
 The node always belongs to a document even if it has just been created and not yet added to the tree, or if it has been removed from the tree.
 
 **Returns:**
-[DocumentBase](../../com.aspose.words/documentbase) - The document to which this node belongs.
+[DocumentBase](../../com.aspose.words/documentbase/) - The document to which this node belongs.
 ### getId() {#getId}
 ```
 public int getId()
@@ -299,8 +300,8 @@ Specifies a unique read-only persistent numerical Id for this structured documen
 
 Id attribute shall follow these rules:
 
- *  The document shall retain structured document tag ids only if the whole document is cloned [Document.deepClone()](../../com.aspose.words/document\#deepClone).
- *  During [DocumentBase.importNode(com.aspose.words.Node, boolean)](../../com.aspose.words/documentbase\#importNode-com.aspose.words.Node--boolean) Id shall be retained if import does not cause conflicts with other structured document tag Ids in the target document.
+ *  The document shall retain structured document tag ids only if the whole document is cloned [Document.deepClone()](../../com.aspose.words/document/\#deepClone).
+ *  During [DocumentBase.importNode(com.aspose.words.Node, boolean)](../../com.aspose.words/documentbase/\#importNode-com.aspose.words.Node--boolean) Id shall be retained if import does not cause conflicts with other structured document tag Ids in the target document.
  *  If multiple structured document tag nodes specify the same decimal number value for the Id attribute, then the first structured document tag in the document shall maintain this original Id, and all subsequent structured document tag nodes shall have new identifiers assigned to them when the document is loaded.
  *  During standalone structured document tag **M:Aspose.Words.Markup.StructuredDocumentTag.Clone(System.Boolean,Aspose.Words.INodeCloningListener)** operation new unique ID will be generated for the cloned structured document tag node.
  *  If Id is not specified in the source document, then the structured document tag node shall have a new unique identifier assigned to it when the document is loaded.
@@ -316,7 +317,7 @@ public Node getLastChild()
 Gets the last child in the stdContent range. If there is no last child node, a  null  is returned.
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The last child in the stdContent range.
+[Node](../../com.aspose.words/node/) - The last child in the stdContent range.
 ### getLevel() {#getLevel}
 ```
 public int getLevel()
@@ -326,7 +327,7 @@ public int getLevel()
 Gets the level at which this structured document tag range start occurs in the document tree.
 
 **Returns:**
-int - The level at which this structured document tag range start occurs in the document tree. The returned value is one of [MarkupLevel](../../com.aspose.words/markuplevel) constants.
+int - The level at which this structured document tag range start occurs in the document tree. The returned value is one of [MarkupLevel](../../com.aspose.words/markuplevel/) constants.
 ### getLockContentControl() {#getLockContentControl}
 ```
 public boolean getLockContentControl()
@@ -356,7 +357,7 @@ public Node getNextSibling()
 Gets the node immediately following this node. If there is no next node, a  null  is returned.
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The node immediately following this node.
+[Node](../../com.aspose.words/node/) - The node immediately following this node.
 ### getNodeType() {#getNodeType}
 ```
 public int getNodeType()
@@ -378,26 +379,26 @@ Gets the immediate parent of this node.
 If a node has just been created and not yet added to the tree, or if it has been removed from the tree, the parent is  null .
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode) - The immediate parent of this node.
+[CompositeNode](../../com.aspose.words/compositenode/) - The immediate parent of this node.
 ### getPlaceholder() {#getPlaceholder}
 ```
 public BuildingBlock getPlaceholder()
 ```
 
 
-Gets the [BuildingBlock](../../com.aspose.words/buildingblock) containing placeholder text which should be displayed when this structured document tag run contents are empty, the associated mapped XML element is empty as specified via the [getXmlMapping()](../../com.aspose.words/structureddocumenttagrangestart\#getXmlMapping) element or the [isShowingPlaceholderText()](../../com.aspose.words/structureddocumenttagrangestart\#isShowingPlaceholderText) / [isShowingPlaceholderText(boolean)](../../com.aspose.words/structureddocumenttagrangestart\#isShowingPlaceholderText-boolean) element is  true . Can be  null , meaning that the placeholder is not applicable for this structured document tag.
+Gets the [BuildingBlock](../../com.aspose.words/buildingblock/) containing placeholder text which should be displayed when this structured document tag run contents are empty, the associated mapped XML element is empty as specified via the [getXmlMapping()](../../com.aspose.words/structureddocumenttagrangestart/\#getXmlMapping) element or the [isShowingPlaceholderText()](../../com.aspose.words/structureddocumenttagrangestart/\#isShowingPlaceholderText) / [isShowingPlaceholderText(boolean)](../../com.aspose.words/structureddocumenttagrangestart/\#isShowingPlaceholderText-boolean) element is  true . Can be  null , meaning that the placeholder is not applicable for this structured document tag.
 
 **Returns:**
-[BuildingBlock](../../com.aspose.words/buildingblock) - The [BuildingBlock](../../com.aspose.words/buildingblock) containing placeholder text which should be displayed when this structured document tag run contents are empty, the associated mapped XML element is empty as specified via the [getXmlMapping()](../../com.aspose.words/structureddocumenttagrangestart\#getXmlMapping) element or the [isShowingPlaceholderText()](../../com.aspose.words/structureddocumenttagrangestart\#isShowingPlaceholderText) / [isShowingPlaceholderText(boolean)](../../com.aspose.words/structureddocumenttagrangestart\#isShowingPlaceholderText-boolean) element is  true .
+[BuildingBlock](../../com.aspose.words/buildingblock/) - The [BuildingBlock](../../com.aspose.words/buildingblock/) containing placeholder text which should be displayed when this structured document tag run contents are empty, the associated mapped XML element is empty as specified via the [getXmlMapping()](../../com.aspose.words/structureddocumenttagrangestart/\#getXmlMapping) element or the [isShowingPlaceholderText()](../../com.aspose.words/structureddocumenttagrangestart/\#isShowingPlaceholderText) / [isShowingPlaceholderText(boolean)](../../com.aspose.words/structureddocumenttagrangestart/\#isShowingPlaceholderText-boolean) element is  true .
 ### getPlaceholderName() {#getPlaceholderName}
 ```
 public String getPlaceholderName()
 ```
 
 
-Gets or sets Name of the [BuildingBlock](../../com.aspose.words/buildingblock) containing placeholder text.
+Gets or sets Name of the [BuildingBlock](../../com.aspose.words/buildingblock/) containing placeholder text.
 
-[BuildingBlock](../../com.aspose.words/buildingblock) with this name [BuildingBlock.getName()](../../com.aspose.words/buildingblock\#getName) / [BuildingBlock.setName(java.lang.String)](../../com.aspose.words/buildingblock\#setName-java.lang.String) has to be present in the [Document.getGlossaryDocument()](../../com.aspose.words/document\#getGlossaryDocument) / [Document.setGlossaryDocument(com.aspose.words.GlossaryDocument)](../../com.aspose.words/document\#setGlossaryDocument-com.aspose.words.GlossaryDocument) otherwise java.lang.IllegalStateException will occur.
+[BuildingBlock](../../com.aspose.words/buildingblock/) with this name [BuildingBlock.getName()](../../com.aspose.words/buildingblock/\#getName) / [BuildingBlock.setName(java.lang.String)](../../com.aspose.words/buildingblock/\#setName-java.lang.String) has to be present in the [Document.getGlossaryDocument()](../../com.aspose.words/document/\#getGlossaryDocument) / [Document.setGlossaryDocument(com.aspose.words.GlossaryDocument)](../../com.aspose.words/document/\#setGlossaryDocument-com.aspose.words.GlossaryDocument) otherwise java.lang.IllegalStateException will occur.
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
@@ -410,27 +411,27 @@ public Node getPreviousSibling()
 Gets the node immediately preceding this node. If there is no preceding node, a  null  is returned.
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The node immediately preceding this node.
+[Node](../../com.aspose.words/node/) - The node immediately preceding this node.
 ### getRange() {#getRange}
 ```
 public Range getRange()
 ```
 
 
-Returns a [Range](../../com.aspose.words/range) object that represents the portion of a document that is contained in this node.
+Returns a [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node.
 
 **Returns:**
-[Range](../../com.aspose.words/range) - A [Range](../../com.aspose.words/range) object that represents the portion of a document that is contained in this node.
+[Range](../../com.aspose.words/range/) - A [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node.
 ### getRangeEnd() {#getRangeEnd}
 ```
 public StructuredDocumentTagRangeEnd getRangeEnd()
 ```
 
 
-Specifies end of range if the [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) is a ranged structured document tag. Otherwise returns  null .
+Specifies end of range if the [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) is a ranged structured document tag. Otherwise returns  null .
 
 **Returns:**
-[StructuredDocumentTagRangeEnd](../../com.aspose.words/structureddocumenttagrangeend) - The corresponding [StructuredDocumentTagRangeEnd](../../com.aspose.words/structureddocumenttagrangeend) value.
+[StructuredDocumentTagRangeEnd](../../com.aspose.words/structureddocumenttagrangeend/) - The corresponding [StructuredDocumentTagRangeEnd](../../com.aspose.words/structureddocumenttagrangeend/) value.
 ### getSdtType() {#getSdtType}
 ```
 public int getSdtType()
@@ -440,7 +441,7 @@ public int getSdtType()
 Gets type of this structured document tag.
 
 **Returns:**
-int - Type of this structured document tag. The returned value is one of [SdtType](../../com.aspose.words/sdttype) constants.
+int - Type of this structured document tag. The returned value is one of [SdtType](../../com.aspose.words/sdttype/) constants.
 ### getTag() {#getTag}
 ```
 public String getTag()
@@ -459,7 +460,7 @@ public String getText()
 
 Gets the text of this node and of all its children.
 
-The returned string includes all control and special characters as described in [ControlChar](../../com.aspose.words/controlchar).
+The returned string includes all control and special characters as described in [ControlChar](../../com.aspose.words/controlchar/).
 
 **Returns:**
 java.lang.String
@@ -479,20 +480,20 @@ public String getWordOpenXML()
 ```
 
 
-Gets a string that represents the XML contained within the node in the [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat\#FLAT-OPC) format.
+Gets a string that represents the XML contained within the node in the [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat/\#FLAT-OPC) format.
 
 **Returns:**
-java.lang.String - A string that represents the XML contained within the node in the [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat\#FLAT-OPC) format.
+java.lang.String - A string that represents the XML contained within the node in the [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat/\#FLAT-OPC) format.
 ### getXmlMapping() {#getXmlMapping}
 ```
 public XmlMapping getXmlMapping()
 ```
 
 
-Gets an object that represents the mapping of this structured document tag range to XML data in a custom XML part of the current document. You can use the [XmlMapping.setMapping(com.aspose.words.CustomXmlPart, java.lang.String, java.lang.String)](../../com.aspose.words/xmlmapping\#setMapping-com.aspose.words.CustomXmlPart--java.lang.String--java.lang.String) method of this object to map a structured document tag range to XML data.
+Gets an object that represents the mapping of this structured document tag range to XML data in a custom XML part of the current document. You can use the [XmlMapping.setMapping(com.aspose.words.CustomXmlPart, java.lang.String, java.lang.String)](../../com.aspose.words/xmlmapping/\#setMapping-com.aspose.words.CustomXmlPart--java.lang.String--java.lang.String) method of this object to map a structured document tag range to XML data.
 
 **Returns:**
-[XmlMapping](../../com.aspose.words/xmlmapping) - An object that represents the mapping of this structured document tag range to XML data in a custom XML part of the current document.
+[XmlMapping](../../com.aspose.words/xmlmapping/) - An object that represents the mapping of this structured document tag range to XML data in a custom XML part of the current document.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()
@@ -509,7 +510,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (31362,6)
+Returns  true  if this node can contain other nodes. (31405,6)
 
 **Returns:**
 boolean - \{ true  if this node can contain other nodes.
@@ -571,10 +572,10 @@ Gets next node according to the pre-order tree traversal algorithm.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node) | The top node (limit) of traversal. |
+| rootNode | [Node](../../com.aspose.words/node/) | The top node (limit) of traversal. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - Next node in pre-order order. Null if reached the  rootNode .
+[Node](../../com.aspose.words/node/) - Next node in pre-order order. Null if reached the  rootNode .
 ### nodeTypeToString(int nodeType) {#nodeTypeToString-int}
 ```
 public static String nodeTypeToString(int nodeType)
@@ -617,10 +618,10 @@ Gets the previous node according to the pre-order tree traversal algorithm.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node) | The top node (limit) of traversal. |
+| rootNode | [Node](../../com.aspose.words/node/) | The top node (limit) of traversal. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - Previous node in pre-order order. Null if reached the  rootNode .
+[Node](../../com.aspose.words/node/) - Previous node in pre-order order. Null if reached the  rootNode .
 ### remove() {#remove}
 ```
 public void remove()
@@ -709,9 +710,9 @@ public void setPlaceholderName(String value)
 ```
 
 
-Gets or sets Name of the [BuildingBlock](../../com.aspose.words/buildingblock) containing placeholder text.
+Gets or sets Name of the [BuildingBlock](../../com.aspose.words/buildingblock/) containing placeholder text.
 
-[BuildingBlock](../../com.aspose.words/buildingblock) with this name [BuildingBlock.getName()](../../com.aspose.words/buildingblock\#getName) / [BuildingBlock.setName(java.lang.String)](../../com.aspose.words/buildingblock\#setName-java.lang.String) has to be present in the [Document.getGlossaryDocument()](../../com.aspose.words/document\#getGlossaryDocument) / [Document.setGlossaryDocument(com.aspose.words.GlossaryDocument)](../../com.aspose.words/document\#setGlossaryDocument-com.aspose.words.GlossaryDocument) otherwise java.lang.IllegalStateException will occur.
+[BuildingBlock](../../com.aspose.words/buildingblock/) with this name [BuildingBlock.getName()](../../com.aspose.words/buildingblock/\#getName) / [BuildingBlock.setName(java.lang.String)](../../com.aspose.words/buildingblock/\#setName-java.lang.String) has to be present in the [Document.getGlossaryDocument()](../../com.aspose.words/document/\#getGlossaryDocument) / [Document.setGlossaryDocument(com.aspose.words.GlossaryDocument)](../../com.aspose.words/document/\#setGlossaryDocument-com.aspose.words.GlossaryDocument) otherwise java.lang.IllegalStateException will occur.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -753,7 +754,7 @@ public Node structuredDocumentTagNode()
 Returns Node object that implements this interface.
 
 **Returns:**
-[Node](../../com.aspose.words/node)
+[Node](../../com.aspose.words/node/)
 ### toString() {#toString}
 ```
 public String toString()
@@ -775,7 +776,7 @@ Exports the content of the node into a string using the specified save options.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions) | Specifies the options that control how the node is saved. |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) | Specifies the options that control how the node is saved. |
 
 **Returns:**
 java.lang.String - The content of the node in the specified format.

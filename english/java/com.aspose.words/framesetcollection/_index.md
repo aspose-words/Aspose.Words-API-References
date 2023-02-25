@@ -1,7 +1,8 @@
 ---
 title: FramesetCollection
+linktitle: FramesetCollection
 second_title: Aspose.Words for Java API Reference
-description: Represents a collection of instances of the  class.
+description: Represents a collection of instances of the  class in Java.
 type: docs
 weight: 305
 url: /java/com.aspose.words/framesetcollection/
@@ -16,7 +17,7 @@ java.lang.Iterable
 public class FramesetCollection implements Iterable
 ```
 
-Represents a collection of instances of the [Frameset](../../com.aspose.words/frameset) class.
+Represents a collection of instances of the [Frameset](../../com.aspose.words/frameset/) class.
 
 To learn more, visit the [ Programming with Documents ][Programming with Documents] documentation article.
 
@@ -67,7 +68,7 @@ Gets a frame or frames page at the specified index.
 | index | int |  |
 
 **Returns:**
-[Frameset](../../com.aspose.words/frameset) - A frame or frames page at the specified index.
+[Frameset](../../com.aspose.words/frameset/) - A frame or frames page at the specified index.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()

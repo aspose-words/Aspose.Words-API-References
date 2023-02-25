@@ -1,9 +1,10 @@
 ---
 title: MetafileRenderingMode
+linktitle: MetafileRenderingMode
 second_title: Aspose.Words for Java API Reference
-description: Specifies how Aspose.Words should render WMF and EMF metafiles.
+description: Specifies how Aspose.Words should render WMF and EMF metafiles in Java.
 type: docs
-weight: 400
+weight: 402
 url: /java/com.aspose.words/metafilerenderingmode/
 ---
 

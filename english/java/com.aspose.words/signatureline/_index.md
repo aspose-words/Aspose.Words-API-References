@@ -1,9 +1,10 @@
 ---
 title: SignatureLine
+linktitle: SignatureLine
 second_title: Aspose.Words for Java API Reference
-description: Provides access to signature line properties.
+description: Provides access to signature line properties in Java.
 type: docs
-weight: 528
+weight: 530
 url: /java/com.aspose.words/signatureline/
 ---
 
@@ -115,7 +116,7 @@ public UUID getId()
 
 Gets identifier for this signature line.
 
-This identifier can be associated with a digital signature, when signing document using [DigitalSignatureUtil](../../com.aspose.words/digitalsignatureutil). This value must be unique and by default it is randomly generated new Guid.
+This identifier can be associated with a digital signature, when signing document using [DigitalSignatureUtil](../../com.aspose.words/digitalsignatureutil/). This value must be unique and by default it is randomly generated new Guid.
 
 **Returns:**
 java.util.UUID - Identifier for this signature line.
@@ -125,7 +126,7 @@ public String getInstructions()
 ```
 
 
-Gets instructions to the signer that are displayed on signing the signature line. This property is ignored if [getDefaultInstructions()](../../com.aspose.words/signatureline\#getDefaultInstructions) / [setDefaultInstructions(boolean)](../../com.aspose.words/signatureline\#setDefaultInstructions-boolean) is set. Default value for this property is **empty string**.
+Gets instructions to the signer that are displayed on signing the signature line. This property is ignored if [getDefaultInstructions()](../../com.aspose.words/signatureline/\#getDefaultInstructions) / [setDefaultInstructions(boolean)](../../com.aspose.words/signatureline/\#setDefaultInstructions-boolean) is set. Default value for this property is **empty string**.
 
 **Returns:**
 java.lang.String - Instructions to the signer that are displayed on signing the signature line.
@@ -268,7 +269,7 @@ public void setId(UUID value)
 
 Sets identifier for this signature line.
 
-This identifier can be associated with a digital signature, when signing document using [DigitalSignatureUtil](../../com.aspose.words/digitalsignatureutil). This value must be unique and by default it is randomly generated new Guid.
+This identifier can be associated with a digital signature, when signing document using [DigitalSignatureUtil](../../com.aspose.words/digitalsignatureutil/). This value must be unique and by default it is randomly generated new Guid.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -281,7 +282,7 @@ public void setInstructions(String value)
 ```
 
 
-Sets instructions to the signer that are displayed on signing the signature line. This property is ignored if [getDefaultInstructions()](../../com.aspose.words/signatureline\#getDefaultInstructions) / [setDefaultInstructions(boolean)](../../com.aspose.words/signatureline\#setDefaultInstructions-boolean) is set. Default value for this property is **empty string**.
+Sets instructions to the signer that are displayed on signing the signature line. This property is ignored if [getDefaultInstructions()](../../com.aspose.words/signatureline/\#getDefaultInstructions) / [setDefaultInstructions(boolean)](../../com.aspose.words/signatureline/\#setDefaultInstructions-boolean) is set. Default value for this property is **empty string**.
 
 **Parameters:**
 | Parameter | Type | Description |

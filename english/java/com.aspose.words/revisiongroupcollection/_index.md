@@ -1,9 +1,10 @@
 ---
 title: RevisionGroupCollection
+linktitle: RevisionGroupCollection
 second_title: Aspose.Words for Java API Reference
-description: A collection of  objects that represent revision groups in the document.
+description: A collection of  objects that represent revision groups in the document in Java.
 type: docs
-weight: 491
+weight: 493
 url: /java/com.aspose.words/revisiongroupcollection/
 ---
 
@@ -16,11 +17,11 @@ java.lang.Iterable
 public class RevisionGroupCollection implements Iterable
 ```
 
-A collection of [RevisionGroup](../../com.aspose.words/revisiongroup) objects that represent revision groups in the document.
+A collection of [RevisionGroup](../../com.aspose.words/revisiongroup/) objects that represent revision groups in the document.
 
 To learn more, visit the [ Track Changes in a Document ][Track Changes in a Document] documentation article.
 
-You do not create instances of this class directly. Use the [RevisionCollection.getGroups()](../../com.aspose.words/revisioncollection\#getGroups) property to get revision groups present in a document.
+You do not create instances of this class directly. Use the [RevisionCollection.getGroups()](../../com.aspose.words/revisioncollection/\#getGroups) property to get revision groups present in a document.
 
 
 [Track Changes in a Document]: https://docs.aspose.com/words/java/track-changes-in-a-document/
@@ -69,7 +70,7 @@ Returns a revision group at the specified index.
 | index | int |  |
 
 **Returns:**
-[RevisionGroup](../../com.aspose.words/revisiongroup) - A revision group at the specified index.
+[RevisionGroup](../../com.aspose.words/revisiongroup/) - A revision group at the specified index.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()

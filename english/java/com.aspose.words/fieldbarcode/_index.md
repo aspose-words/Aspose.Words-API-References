@@ -1,14 +1,15 @@
 ---
 title: FieldBarcode
+linktitle: FieldBarcode
 second_title: Aspose.Words for Java API Reference
-description: Implements the BARCODE field.
+description: Implements the BARCODE field in Java.
 type: docs
 weight: 164
 url: /java/com.aspose.words/fieldbarcode/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.words.Field](../../com.aspose.words/field)
+java.lang.Object, [com.aspose.words.Field](../../com.aspose.words/field/)
 ```
 public class FieldBarcode extends Field
 ```
@@ -32,7 +33,7 @@ Inserts a postal barcode in a machine-readable form of address used by the U.S. 
 | [getFacingIdentificationMark()](#getFacingIdentificationMark) | Gets the type of a Facing Identification Mark (FIM) to insert. |
 | [getFieldCode()](#getFieldCode) | Returns text between field start and field separator (or field end if there is no separator). |
 | [getFieldCode(boolean includeChildFieldCodes)](#getFieldCode-boolean) | Returns text between field start and field separator (or field end if there is no separator). |
-| [getFormat()](#getFormat) | Gets a [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting. |
+| [getFormat()](#getFormat) | Gets a [FieldFormat](../../com.aspose.words/fieldformat/) object that provides typed access to field's formatting. |
 | [getLocaleId()](#getLocaleId) | Gets the LCID of the field. |
 | [getPostalAddress()](#getPostalAddress) | Gets the postal address used for generating a barcode or the name of the bookmark that refers to it. |
 | [getResult()](#getResult) | Gets text that is between the field separator and field end. |
@@ -41,14 +42,14 @@ Inserts a postal barcode in a machine-readable form of address used by the U.S. 
 | [getSwitchType(String switchName)](#getSwitchType-java.lang.String) |  |
 | [getType()](#getType) | Gets the Microsoft Word field type. |
 | [hashCode()](#hashCode) |  |
-| [isBookmark()](#isBookmark) | Gets whether [getPostalAddress()](../../com.aspose.words/fieldbarcode\#getPostalAddress) / [setPostalAddress(java.lang.String)](../../com.aspose.words/fieldbarcode\#setPostalAddress-java.lang.String) is the name of a bookmark. |
-| [isBookmark(boolean value)](#isBookmark-boolean) | Sets whether [getPostalAddress()](../../com.aspose.words/fieldbarcode\#getPostalAddress) / [setPostalAddress(java.lang.String)](../../com.aspose.words/fieldbarcode\#setPostalAddress-java.lang.String) is the name of a bookmark. |
+| [isBookmark()](#isBookmark) | Gets whether [getPostalAddress()](../../com.aspose.words/fieldbarcode/\#getPostalAddress) / [setPostalAddress(java.lang.String)](../../com.aspose.words/fieldbarcode/\#setPostalAddress-java.lang.String) is the name of a bookmark. |
+| [isBookmark(boolean value)](#isBookmark-boolean) | Sets whether [getPostalAddress()](../../com.aspose.words/fieldbarcode/\#getPostalAddress) / [setPostalAddress(java.lang.String)](../../com.aspose.words/fieldbarcode/\#setPostalAddress-java.lang.String) is the name of a bookmark. |
 | [isDirty()](#isDirty) | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [isDirty(boolean value)](#isDirty-boolean) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [isLocked()](#isLocked) | Gets whether the field is locked (should not recalculate its result). |
 | [isLocked(boolean value)](#isLocked-boolean) | Sets whether the field is locked (should not recalculate its result). |
-| [isUSPostalAddress()](#isUSPostalAddress) | Gets whether [getPostalAddress()](../../com.aspose.words/fieldbarcode\#getPostalAddress) / [setPostalAddress(java.lang.String)](../../com.aspose.words/fieldbarcode\#setPostalAddress-java.lang.String) is a U.S. |
-| [isUSPostalAddress(boolean value)](#isUSPostalAddress-boolean) | Sets whether [getPostalAddress()](../../com.aspose.words/fieldbarcode\#getPostalAddress) / [setPostalAddress(java.lang.String)](../../com.aspose.words/fieldbarcode\#setPostalAddress-java.lang.String) is a U.S. |
+| [isUSPostalAddress()](#isUSPostalAddress) | Gets whether [getPostalAddress()](../../com.aspose.words/fieldbarcode/\#getPostalAddress) / [setPostalAddress(java.lang.String)](../../com.aspose.words/fieldbarcode/\#setPostalAddress-java.lang.String) is a U.S. |
+| [isUSPostalAddress(boolean value)](#isUSPostalAddress-boolean) | Sets whether [getPostalAddress()](../../com.aspose.words/fieldbarcode/\#getPostalAddress) / [setPostalAddress(java.lang.String)](../../com.aspose.words/fieldbarcode/\#setPostalAddress-java.lang.String) is a U.S. |
 | [notify()](#notify) |  |
 | [notifyAll()](#notifyAll) |  |
 | [remove()](#remove) | Removes the field from the document. |
@@ -94,7 +95,7 @@ public String getDisplayResult()
 ```
 
 
-Gets the text that represents the displayed field result. The [Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels) method must be called to obtain correct value for the [FieldListNum](../../com.aspose.words/fieldlistnum), [FieldAutoNum](../../com.aspose.words/fieldautonum), [FieldAutoNumOut](../../com.aspose.words/fieldautonumout) and [FieldAutoNumLgl](../../com.aspose.words/fieldautonumlgl) fields.
+Gets the text that represents the displayed field result. The [Document.updateListLabels()](../../com.aspose.words/document/\#updateListLabels) method must be called to obtain correct value for the [FieldListNum](../../com.aspose.words/fieldlistnum/), [FieldAutoNum](../../com.aspose.words/fieldautonum/), [FieldAutoNumOut](../../com.aspose.words/fieldautonumout/) and [FieldAutoNumLgl](../../com.aspose.words/fieldautonumlgl/) fields.
 
 **Returns:**
 java.lang.String - The text that represents the displayed field result.
@@ -107,7 +108,7 @@ public FieldEnd getEnd()
 Gets the node that represents the field end.
 
 **Returns:**
-[FieldEnd](../../com.aspose.words/fieldend) - The node that represents the field end.
+[FieldEnd](../../com.aspose.words/fieldend/) - The node that represents the field end.
 ### getFacingIdentificationMark() {#getFacingIdentificationMark}
 ```
 public String getFacingIdentificationMark()
@@ -149,10 +150,10 @@ public FieldFormat getFormat()
 ```
 
 
-Gets a [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting.
+Gets a [FieldFormat](../../com.aspose.words/fieldformat/) object that provides typed access to field's formatting.
 
 **Returns:**
-[FieldFormat](../../com.aspose.words/fieldformat) - A [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting.
+[FieldFormat](../../com.aspose.words/fieldformat/) - A [FieldFormat](../../com.aspose.words/fieldformat/) object that provides typed access to field's formatting.
 ### getLocaleId() {#getLocaleId}
 ```
 public int getLocaleId()
@@ -192,7 +193,7 @@ public FieldSeparator getSeparator()
 Gets the node that represents the field separator. Can be  null .
 
 **Returns:**
-[FieldSeparator](../../com.aspose.words/fieldseparator) - The node that represents the field separator.
+[FieldSeparator](../../com.aspose.words/fieldseparator/) - The node that represents the field separator.
 ### getStart() {#getStart}
 ```
 public FieldStart getStart()
@@ -202,7 +203,7 @@ public FieldStart getStart()
 Gets the node that represents the start of the field.
 
 **Returns:**
-[FieldStart](../../com.aspose.words/fieldstart) - The node that represents the start of the field.
+[FieldStart](../../com.aspose.words/fieldstart/) - The node that represents the start of the field.
 ### getSwitchType(String switchName) {#getSwitchType-java.lang.String}
 ```
 public int getSwitchType(String switchName)
@@ -227,7 +228,7 @@ public int getType()
 Gets the Microsoft Word field type.
 
 **Returns:**
-int - The Microsoft Word field type. The returned value is one of [FieldType](../../com.aspose.words/fieldtype) constants.
+int - The Microsoft Word field type. The returned value is one of [FieldType](../../com.aspose.words/fieldtype/) constants.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()
@@ -244,22 +245,22 @@ public boolean isBookmark()
 ```
 
 
-Gets whether [getPostalAddress()](../../com.aspose.words/fieldbarcode\#getPostalAddress) / [setPostalAddress(java.lang.String)](../../com.aspose.words/fieldbarcode\#setPostalAddress-java.lang.String) is the name of a bookmark.
+Gets whether [getPostalAddress()](../../com.aspose.words/fieldbarcode/\#getPostalAddress) / [setPostalAddress(java.lang.String)](../../com.aspose.words/fieldbarcode/\#setPostalAddress-java.lang.String) is the name of a bookmark.
 
 **Returns:**
-boolean - Whether [getPostalAddress()](../../com.aspose.words/fieldbarcode\#getPostalAddress) / [setPostalAddress(java.lang.String)](../../com.aspose.words/fieldbarcode\#setPostalAddress-java.lang.String) is the name of a bookmark.
+boolean - Whether [getPostalAddress()](../../com.aspose.words/fieldbarcode/\#getPostalAddress) / [setPostalAddress(java.lang.String)](../../com.aspose.words/fieldbarcode/\#setPostalAddress-java.lang.String) is the name of a bookmark.
 ### isBookmark(boolean value) {#isBookmark-boolean}
 ```
 public void isBookmark(boolean value)
 ```
 
 
-Sets whether [getPostalAddress()](../../com.aspose.words/fieldbarcode\#getPostalAddress) / [setPostalAddress(java.lang.String)](../../com.aspose.words/fieldbarcode\#setPostalAddress-java.lang.String) is the name of a bookmark.
+Sets whether [getPostalAddress()](../../com.aspose.words/fieldbarcode/\#getPostalAddress) / [setPostalAddress(java.lang.String)](../../com.aspose.words/fieldbarcode/\#setPostalAddress-java.lang.String) is the name of a bookmark.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | Whether [getPostalAddress()](../../com.aspose.words/fieldbarcode\#getPostalAddress) / [setPostalAddress(java.lang.String)](../../com.aspose.words/fieldbarcode\#setPostalAddress-java.lang.String) is the name of a bookmark. |
+| value | boolean | Whether [getPostalAddress()](../../com.aspose.words/fieldbarcode/\#getPostalAddress) / [setPostalAddress(java.lang.String)](../../com.aspose.words/fieldbarcode/\#setPostalAddress-java.lang.String) is the name of a bookmark. |
 
 ### isDirty() {#isDirty}
 ```
@@ -313,22 +314,22 @@ public boolean isUSPostalAddress()
 ```
 
 
-Gets whether [getPostalAddress()](../../com.aspose.words/fieldbarcode\#getPostalAddress) / [setPostalAddress(java.lang.String)](../../com.aspose.words/fieldbarcode\#setPostalAddress-java.lang.String) is a U.S. postal address.
+Gets whether [getPostalAddress()](../../com.aspose.words/fieldbarcode/\#getPostalAddress) / [setPostalAddress(java.lang.String)](../../com.aspose.words/fieldbarcode/\#setPostalAddress-java.lang.String) is a U.S. postal address.
 
 **Returns:**
-boolean - Whether [getPostalAddress()](../../com.aspose.words/fieldbarcode\#getPostalAddress) / [setPostalAddress(java.lang.String)](../../com.aspose.words/fieldbarcode\#setPostalAddress-java.lang.String) is a U.S.
+boolean - Whether [getPostalAddress()](../../com.aspose.words/fieldbarcode/\#getPostalAddress) / [setPostalAddress(java.lang.String)](../../com.aspose.words/fieldbarcode/\#setPostalAddress-java.lang.String) is a U.S.
 ### isUSPostalAddress(boolean value) {#isUSPostalAddress-boolean}
 ```
 public void isUSPostalAddress(boolean value)
 ```
 
 
-Sets whether [getPostalAddress()](../../com.aspose.words/fieldbarcode\#getPostalAddress) / [setPostalAddress(java.lang.String)](../../com.aspose.words/fieldbarcode\#setPostalAddress-java.lang.String) is a U.S. postal address.
+Sets whether [getPostalAddress()](../../com.aspose.words/fieldbarcode/\#getPostalAddress) / [setPostalAddress(java.lang.String)](../../com.aspose.words/fieldbarcode/\#setPostalAddress-java.lang.String) is a U.S. postal address.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | Whether [getPostalAddress()](../../com.aspose.words/fieldbarcode\#getPostalAddress) / [setPostalAddress(java.lang.String)](../../com.aspose.words/fieldbarcode\#setPostalAddress-java.lang.String) is a U.S. |
+| value | boolean | Whether [getPostalAddress()](../../com.aspose.words/fieldbarcode/\#getPostalAddress) / [setPostalAddress(java.lang.String)](../../com.aspose.words/fieldbarcode/\#setPostalAddress-java.lang.String) is a U.S. |
 
 ### notify() {#notify}
 ```
@@ -355,7 +356,7 @@ public Node remove()
 Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns  null .
 
 **Returns:**
-[Node](../../com.aspose.words/node)
+[Node](../../com.aspose.words/node/)
 ### setFacingIdentificationMark(String value) {#setFacingIdentificationMark-java.lang.String}
 ```
 public void setFacingIdentificationMark(String value)

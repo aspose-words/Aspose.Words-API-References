@@ -1,7 +1,8 @@
 ---
 title: BookmarkCollection
+linktitle: BookmarkCollection
 second_title: Aspose.Words for Java API Reference
-description: A collection of  objects that represent the bookmarks in the specified range.
+description: A collection of  objects that represent the bookmarks in the specified range in Java.
 type: docs
 weight: 32
 url: /java/com.aspose.words/bookmarkcollection/
@@ -16,7 +17,7 @@ java.lang.Iterable
 public class BookmarkCollection implements Iterable
 ```
 
-A collection of [Bookmark](../../com.aspose.words/bookmark) objects that represent the bookmarks in the specified range.
+A collection of [Bookmark](../../com.aspose.words/bookmark/) objects that represent the bookmarks in the specified range.
 
 To learn more, visit the [ Working with Bookmarks ][Working with Bookmarks] documentation article.
 
@@ -88,7 +89,7 @@ If index is negative and its absolute value is greater than the number of items 
 | index | int | An index into the collection. |
 
 **Returns:**
-[Bookmark](../../com.aspose.words/bookmark) - A bookmark at the specified index.
+[Bookmark](../../com.aspose.words/bookmark/) - A bookmark at the specified index.
 ### get(String bookmarkName) {#get-java.lang.String}
 ```
 public Bookmark get(String bookmarkName)
@@ -105,7 +106,7 @@ Returns  null  if the bookmark with the specified name cannot be found.
 | bookmarkName | java.lang.String | Case-insensitive name of the bookmark. |
 
 **Returns:**
-[Bookmark](../../com.aspose.words/bookmark) - A bookmark by name.
+[Bookmark](../../com.aspose.words/bookmark/) - A bookmark by name.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -173,7 +174,7 @@ Removes the specified bookmark from the document.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| bookmark | [Bookmark](../../com.aspose.words/bookmark) | The bookmark to remove. |
+| bookmark | [Bookmark](../../com.aspose.words/bookmark/) | The bookmark to remove. |
 
 ### remove(String bookmarkName) {#remove-java.lang.String}
 ```

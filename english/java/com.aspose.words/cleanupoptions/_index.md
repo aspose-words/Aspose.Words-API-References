@@ -1,7 +1,8 @@
 ---
 title: CleanupOptions
+linktitle: CleanupOptions
 second_title: Aspose.Words for Java API Reference
-description: Allows to specify options for document cleaning.
+description: Allows to specify options for document cleaning in Java.
 type: docs
 weight: 73
 url: /java/com.aspose.words/cleanupoptions/
@@ -26,14 +27,14 @@ To learn more, visit the [ Clean Up a Document ][Clean Up a Document] documentat
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getClass()](#getClass) |  |
 | [getDuplicateStyle()](#getDuplicateStyle) | Gets/sets a flag indicating whether duplicate styles should be removed from document. |
-| [getUnusedBuiltinStyles()](#getUnusedBuiltinStyles) | Specifies that unused [Style.getBuiltIn()](../../com.aspose.words/style\#getBuiltIn) styles should be removed from document. |
+| [getUnusedBuiltinStyles()](#getUnusedBuiltinStyles) | Specifies that unused [Style.getBuiltIn()](../../com.aspose.words/style/\#getBuiltIn) styles should be removed from document. |
 | [getUnusedLists()](#getUnusedLists) | Specifies whether unused list and list definitions should be removed from document. |
 | [getUnusedStyles()](#getUnusedStyles) | Specifies whether unused styles should be removed from document. |
 | [hashCode()](#hashCode) |  |
 | [notify()](#notify) |  |
 | [notifyAll()](#notifyAll) |  |
 | [setDuplicateStyle(boolean value)](#setDuplicateStyle-boolean) | Gets/sets a flag indicating whether duplicate styles should be removed from document. |
-| [setUnusedBuiltinStyles(boolean value)](#setUnusedBuiltinStyles-boolean) | Specifies that unused [Style.getBuiltIn()](../../com.aspose.words/style\#getBuiltIn) styles should be removed from document. |
+| [setUnusedBuiltinStyles(boolean value)](#setUnusedBuiltinStyles-boolean) | Specifies that unused [Style.getBuiltIn()](../../com.aspose.words/style/\#getBuiltIn) styles should be removed from document. |
 | [setUnusedLists(boolean value)](#setUnusedLists-boolean) | Specifies whether unused list and list definitions should be removed from document. |
 | [setUnusedStyles(boolean value)](#setUnusedStyles-boolean) | Specifies whether unused styles should be removed from document. |
 | [toString()](#toString) |  |
@@ -81,7 +82,7 @@ public boolean getUnusedBuiltinStyles()
 ```
 
 
-Specifies that unused [Style.getBuiltIn()](../../com.aspose.words/style\#getBuiltIn) styles should be removed from document.
+Specifies that unused [Style.getBuiltIn()](../../com.aspose.words/style/\#getBuiltIn) styles should be removed from document.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -150,7 +151,7 @@ public void setUnusedBuiltinStyles(boolean value)
 ```
 
 
-Specifies that unused [Style.getBuiltIn()](../../com.aspose.words/style\#getBuiltIn) styles should be removed from document.
+Specifies that unused [Style.getBuiltIn()](../../com.aspose.words/style/\#getBuiltIn) styles should be removed from document.
 
 **Parameters:**
 | Parameter | Type | Description |

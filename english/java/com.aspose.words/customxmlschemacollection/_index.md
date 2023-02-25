@@ -1,7 +1,8 @@
 ---
 title: CustomXmlSchemaCollection
+linktitle: CustomXmlSchemaCollection
 second_title: Aspose.Words for Java API Reference
-description: A collection of strings that represent XML schemas that are associated with a custom XML part.
+description: A collection of strings that represent XML schemas that are associated with a custom XML part in Java.
 type: docs
 weight: 109
 url: /java/com.aspose.words/customxmlschemacollection/
@@ -20,10 +21,10 @@ A collection of strings that represent XML schemas that are associated with a cu
 
 To learn more, visit the [ Structured Document Tags or Content Control ][Structured Document Tags or Content Control] documentation article.
 
-You do not create instances of this class. You access the collection of XML schemas of a custom XML part via the [CustomXmlPart.getSchemas()](../../com.aspose.words/customxmlpart\#getSchemas) property.
+You do not create instances of this class. You access the collection of XML schemas of a custom XML part via the [CustomXmlPart.getSchemas()](../../com.aspose.words/customxmlpart/\#getSchemas) property.
 
 
-[Structured Document Tags or Content Control]: https://docs.aspose.com/words/java/structured-document-tags-or-content-control/
+[Structured Document Tags or Content Control]: https://docs.aspose.com/words/java/working-with-content-control-sdt/
 ## Methods
 
 | Method | Description |
@@ -77,7 +78,7 @@ public CustomXmlSchemaCollection deepClone()
 Makes a deep clone of this object.
 
 **Returns:**
-[CustomXmlSchemaCollection](../../com.aspose.words/customxmlschemacollection)
+[CustomXmlSchemaCollection](../../com.aspose.words/customxmlschemacollection/)
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)

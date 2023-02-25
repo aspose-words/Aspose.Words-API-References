@@ -1,9 +1,10 @@
 ---
 title: ShadowFormat
+linktitle: ShadowFormat
 second_title: Aspose.Words for Java API Reference
-description: Represents shadow formatting for an object.
+description: Represents shadow formatting for an object in Java.
 type: docs
-weight: 518
+weight: 520
 url: /java/com.aspose.words/shadowformat/
 ---
 
@@ -26,12 +27,12 @@ To learn more, visit the [ Working with Graphic Elements ][Working with Graphic 
 | [clear()](#clear) | Clears shadow format. |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getClass()](#getClass) |  |
-| [getType()](#getType) | Gets the specified [ShadowType](../../com.aspose.words/shadowtype) for ShadowFormat. |
+| [getType()](#getType) | Gets the specified [ShadowType](../../com.aspose.words/shadowtype/) for ShadowFormat. |
 | [getVisible()](#getVisible) | Returns  true  if the formatting applied to this instance is visible. |
 | [hashCode()](#hashCode) |  |
 | [notify()](#notify) |  |
 | [notifyAll()](#notifyAll) |  |
-| [setType(int value)](#setType-int) | Sets the specified [ShadowType](../../com.aspose.words/shadowtype) for ShadowFormat. |
+| [setType(int value)](#setType-int) | Sets the specified [ShadowType](../../com.aspose.words/shadowtype/) for ShadowFormat. |
 | [toString()](#toString) |  |
 | [wait()](#wait) |  |
 | [wait(long arg0)](#wait-long) |  |
@@ -75,17 +76,17 @@ public int getType()
 ```
 
 
-Gets the specified [ShadowType](../../com.aspose.words/shadowtype) for ShadowFormat.
+Gets the specified [ShadowType](../../com.aspose.words/shadowtype/) for ShadowFormat.
 
 **Returns:**
-int - The specified [ShadowType](../../com.aspose.words/shadowtype) for ShadowFormat. The returned value is one of [ShadowType](../../com.aspose.words/shadowtype) constants.
+int - The specified [ShadowType](../../com.aspose.words/shadowtype/) for ShadowFormat. The returned value is one of [ShadowType](../../com.aspose.words/shadowtype/) constants.
 ### getVisible() {#getVisible}
 ```
 public boolean getVisible()
 ```
 
 
-Returns  true  if the formatting applied to this instance is visible. Unlike [clear()](../../com.aspose.words/shadowformat\#clear), assigning  false  to Visible does not clear the formatting, it only hides the shape effect.
+Returns  true  if the formatting applied to this instance is visible. Unlike [clear()](../../com.aspose.words/shadowformat/\#clear), assigning  false  to Visible does not clear the formatting, it only hides the shape effect.
 
 **Returns:**
 boolean - \{ true  if the formatting applied to this instance is visible.
@@ -121,12 +122,12 @@ public void setType(int value)
 ```
 
 
-Sets the specified [ShadowType](../../com.aspose.words/shadowtype) for ShadowFormat.
+Sets the specified [ShadowType](../../com.aspose.words/shadowtype/) for ShadowFormat.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The specified [ShadowType](../../com.aspose.words/shadowtype) for ShadowFormat. The value must be one of [ShadowType](../../com.aspose.words/shadowtype) constants. |
+| value | int | The specified [ShadowType](../../com.aspose.words/shadowtype/) for ShadowFormat. The value must be one of [ShadowType](../../com.aspose.words/shadowtype/) constants. |
 
 ### toString() {#toString}
 ```

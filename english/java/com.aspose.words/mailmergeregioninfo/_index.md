@@ -1,9 +1,10 @@
 ---
 title: MailMergeRegionInfo
+linktitle: MailMergeRegionInfo
 second_title: Aspose.Words for Java API Reference
-description: Contains information about a mail merge region.
+description: Contains information about a mail merge region in Java.
 type: docs
-weight: 387
+weight: 388
 url: /java/com.aspose.words/mailmergeregioninfo/
 ---
 
@@ -73,7 +74,7 @@ public FieldMergeField getEndField()
 Returns an end field for the region.
 
 **Returns:**
-[FieldMergeField](../../com.aspose.words/fieldmergefield) - An end field for the region.
+[FieldMergeField](../../com.aspose.words/fieldmergefield/) - An end field for the region.
 ### getFields() {#getFields}
 ```
 public ArrayList getFields()
@@ -113,7 +114,7 @@ public MailMergeRegionInfo getParentRegion()
 Returns parent region info (null for top-level region).
 
 **Returns:**
-[MailMergeRegionInfo](../../com.aspose.words/mailmergeregioninfo) - Parent region info (null for top-level region).
+[MailMergeRegionInfo](../../com.aspose.words/mailmergeregioninfo/) - Parent region info (null for top-level region).
 ### getRegions() {#getRegions}
 ```
 public ArrayList getRegions()
@@ -133,7 +134,7 @@ public FieldMergeField getStartField()
 Returns a start field for the region.
 
 **Returns:**
-[FieldMergeField](../../com.aspose.words/fieldmergefield) - A start field for the region.
+[FieldMergeField](../../com.aspose.words/fieldmergefield/) - A start field for the region.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()

@@ -1,9 +1,10 @@
 ---
 title: OdtSaveMeasureUnit
+linktitle: OdtSaveMeasureUnit
 second_title: Aspose.Words for Java API Reference
-description: Specified units of measure to apply to measurable document content such as shape widths and other during saving.
+description: Specified units of measure to apply to measurable document content such as shape widths and other during saving in Java.
 type: docs
-weight: 422
+weight: 424
 url: /java/com.aspose.words/odtsavemeasureunit/
 ---
 

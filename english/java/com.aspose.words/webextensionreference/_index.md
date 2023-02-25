@@ -1,9 +1,10 @@
 ---
 title: WebExtensionReference
+linktitle: WebExtensionReference
 second_title: Aspose.Words for Java API Reference
-description: Represents the reference to a web extension.
+description: Represents the reference to a web extension in Java.
 type: docs
-weight: 621
+weight: 623
 url: /java/com.aspose.words/webextensionreference/
 ---
 
@@ -94,7 +95,7 @@ public int getStoreType()
 Specifies the type of marketplace.
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [WebExtensionStoreType](../../com.aspose.words/webextensionstoretype) constants.
+int - The corresponding  int  value. The returned value is one of [WebExtensionStoreType](../../com.aspose.words/webextensionstoretype/) constants.
 ### getVersion() {#getVersion}
 ```
 public String getVersion()
@@ -168,7 +169,7 @@ Specifies the type of marketplace.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [WebExtensionStoreType](../../com.aspose.words/webextensionstoretype) constants. |
+| value | int | The corresponding  int  value. The value must be one of [WebExtensionStoreType](../../com.aspose.words/webextensionstoretype/) constants. |
 
 ### setVersion(String value) {#setVersion-java.lang.String}
 ```

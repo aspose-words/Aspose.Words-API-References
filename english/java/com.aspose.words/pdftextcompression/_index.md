@@ -1,9 +1,10 @@
 ---
 title: PdfTextCompression
+linktitle: PdfTextCompression
 second_title: Aspose.Words for Java API Reference
-description: Specifies a type of compression applied to all content in the PDF file except images.
+description: Specifies a type of compression applied to all content in the PDF file except images in Java.
 type: docs
-weight: 466
+weight: 468
 url: /java/com.aspose.words/pdftextcompression/
 ---
 

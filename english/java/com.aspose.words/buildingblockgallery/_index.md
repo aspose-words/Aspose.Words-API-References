@@ -1,7 +1,8 @@
 ---
 title: BuildingBlockGallery
+linktitle: BuildingBlockGallery
 second_title: Aspose.Words for Java API Reference
-description: Specifies the predefined gallery into which a building block is classified.
+description: Specifies the predefined gallery into which a building block is classified in Java.
 type: docs
 weight: 44
 url: /java/com.aspose.words/buildingblockgallery/
@@ -44,7 +45,7 @@ Corresponds to the **ST\_DocPartGallery** type in OOXML.
 | [CUSTOM_TABLE_OF_CONTENTS](#CUSTOM-TABLE-OF-CONTENTS) |  |
 | [CUSTOM_TEXT_BOX](#CUSTOM-TEXT-BOX) |  |
 | [CUSTOM_WATERMARKS](#CUSTOM-WATERMARKS) |  |
-| [DEFAULT](#DEFAULT) | Same as [ALL](../../com.aspose.words/buildingblockgallery\#ALL). |
+| [DEFAULT](#DEFAULT) | Same as [ALL](../../com.aspose.words/buildingblockgallery/\#ALL). |
 | [EQUATIONS](#EQUATIONS) |  |
 | [FOOTERS](#FOOTERS) |  |
 | [HEADERS](#HEADERS) |  |
@@ -275,7 +276,7 @@ public static int DEFAULT
 ```
 
 
-Same as [ALL](../../com.aspose.words/buildingblockgallery\#ALL).
+Same as [ALL](../../com.aspose.words/buildingblockgallery/\#ALL).
 
 ### EQUATIONS {#EQUATIONS}
 ```

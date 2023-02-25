@@ -1,9 +1,10 @@
 ---
 title: TextColumn
+linktitle: TextColumn
 second_title: Aspose.Words for Java API Reference
-description: Represents a single text column.
+description: Represents a single text column in Java.
 type: docs
-weight: 565
+weight: 567
 url: /java/com.aspose.words/textcolumn/
 ---
 
@@ -16,13 +17,13 @@ java.lang.Cloneable
 public class TextColumn implements Cloneable
 ```
 
-Represents a single text column. [TextColumn](../../com.aspose.words/textcolumn) is a member of the [TextColumnCollection](../../com.aspose.words/textcolumncollection) collection. The [TextColumn](../../com.aspose.words/textcolumn) collection includes all the columns in a section of a document.
+Represents a single text column. [TextColumn](../../com.aspose.words/textcolumn/) is a member of the [TextColumnCollection](../../com.aspose.words/textcolumncollection/) collection. The [TextColumn](../../com.aspose.words/textcolumn/) collection includes all the columns in a section of a document.
 
 To learn more, visit the [ Working with Sections ][Working with Sections] documentation article.
 
-[TextColumn](../../com.aspose.words/textcolumn) objects are only used to specify columns with custom width and spacing. If you want the columns in the document to be of equal width, set TextColumns. [TextColumnCollection.getEvenlySpaced()](../../com.aspose.words/textcolumncollection\#getEvenlySpaced) / [TextColumnCollection.setEvenlySpaced(boolean)](../../com.aspose.words/textcolumncollection\#setEvenlySpaced-boolean) to  true .
+[TextColumn](../../com.aspose.words/textcolumn/) objects are only used to specify columns with custom width and spacing. If you want the columns in the document to be of equal width, set TextColumns. [TextColumnCollection.getEvenlySpaced()](../../com.aspose.words/textcolumncollection/\#getEvenlySpaced) / [TextColumnCollection.setEvenlySpaced(boolean)](../../com.aspose.words/textcolumncollection/\#setEvenlySpaced-boolean) to  true .
 
-When a new [TextColumn](../../com.aspose.words/textcolumn) is created it has its width and spacing set to zero.
+When a new [TextColumn](../../com.aspose.words/textcolumn/) is created it has its width and spacing set to zero.
 
 
 [Working with Sections]: https://docs.aspose.com/words/java/working-with-sections/

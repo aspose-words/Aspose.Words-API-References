@@ -1,7 +1,8 @@
 ---
 title: ArrowType
+linktitle: ArrowType
 second_title: Aspose.Words for Java API Reference
-description: Specifies the type of an arrow at a line end.
+description: Specifies the type of an arrow at a line end in Java.
 type: docs
 weight: 12
 url: /java/com.aspose.words/arrowtype/
@@ -19,7 +20,7 @@ Specifies the type of an arrow at a line end.
 | Field | Description |
 | --- | --- |
 | [ARROW](#ARROW) | The arrow is a solid triangle. |
-| [DEFAULT](#DEFAULT) | Same as [NONE](../../com.aspose.words/arrowtype\#NONE). |
+| [DEFAULT](#DEFAULT) | Same as [NONE](../../com.aspose.words/arrowtype/\#NONE). |
 | [DIAMOND](#DIAMOND) | The line end is a solid diamond. |
 | [NONE](#NONE) | The line does not have an arrow at the end. |
 | [OPEN](#OPEN) | The arrow is an open arrow. |
@@ -57,7 +58,7 @@ public static int DEFAULT
 ```
 
 
-Same as [NONE](../../com.aspose.words/arrowtype\#NONE).
+Same as [NONE](../../com.aspose.words/arrowtype/\#NONE).
 
 ### DIAMOND {#DIAMOND}
 ```

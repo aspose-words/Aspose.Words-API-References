@@ -1,9 +1,10 @@
 ---
 title: MergeFieldImageDimension
+linktitle: MergeFieldImageDimension
 second_title: Aspose.Words for Java API Reference
-description: Represents an image dimension i.e.
+description: Represents an image dimension i.e in Java.
 type: docs
-weight: 398
+weight: 400
 url: /java/com.aspose.words/mergefieldimagedimension/
 ---
 
@@ -20,7 +21,7 @@ Represents an image dimension (i.e. the width or the height) used across a mail 
 
 To learn more, visit the [ Working with Fields ][Working with Fields] documentation article.
 
-To indicate that the image should be inserted with its original dimension during a mail merge, you should assign a negative value to the [getValue()](../../com.aspose.words/mergefieldimagedimension\#getValue) / [setValue(double)](../../com.aspose.words/mergefieldimagedimension\#setValue-double) property.
+To indicate that the image should be inserted with its original dimension during a mail merge, you should assign a negative value to the [getValue()](../../com.aspose.words/mergefieldimagedimension/\#getValue) / [setValue(double)](../../com.aspose.words/mergefieldimagedimension/\#setValue-double) property.
 
 
 [Working with Fields]: https://docs.aspose.com/words/java/working-with-fields/
@@ -108,7 +109,7 @@ public int getUnit()
 The unit.
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [MergeFieldImageDimensionUnit](../../com.aspose.words/mergefieldimagedimensionunit) constants.
+int - The corresponding  int  value. The returned value is one of [MergeFieldImageDimensionUnit](../../com.aspose.words/mergefieldimagedimensionunit/) constants.
 ### getValue() {#getValue}
 ```
 public double getValue()
@@ -156,7 +157,7 @@ The unit.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [MergeFieldImageDimensionUnit](../../com.aspose.words/mergefieldimagedimensionunit) constants. |
+| value | int | The corresponding  int  value. The value must be one of [MergeFieldImageDimensionUnit](../../com.aspose.words/mergefieldimagedimensionunit/) constants. |
 
 ### setValue(double value) {#setValue-double}
 ```

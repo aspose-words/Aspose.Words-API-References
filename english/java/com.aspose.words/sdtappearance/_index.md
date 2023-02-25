@@ -1,9 +1,10 @@
 ---
 title: SdtAppearance
+linktitle: SdtAppearance
 second_title: Aspose.Words for Java API Reference
-description: Specifies the appearance of a structured document tag.
+description: Specifies the appearance of a structured document tag in Java.
 type: docs
-weight: 507
+weight: 509
 url: /java/com.aspose.words/sdtappearance/
 ---
 
@@ -19,7 +20,7 @@ Specifies the appearance of a structured document tag.
 | Field | Description |
 | --- | --- |
 | [BOUNDING_BOX](#BOUNDING-BOX) | Represents a structured document tag shown as a shaded rectangle or bounding box. |
-| [DEFAULT](#DEFAULT) | Defaults to [BOUNDING\_BOX](../../com.aspose.words/sdtappearance\#BOUNDING-BOX). |
+| [DEFAULT](#DEFAULT) | Defaults to [BOUNDING\_BOX](../../com.aspose.words/sdtappearance/\#BOUNDING-BOX). |
 | [HIDDEN](#HIDDEN) | Represents a structured document tag that is not shown. |
 | [TAGS](#TAGS) | Represents a structured document tag shown as start and end markers. |
 | [length](#length) |  |
@@ -54,7 +55,7 @@ public static int DEFAULT
 ```
 
 
-Defaults to [BOUNDING\_BOX](../../com.aspose.words/sdtappearance\#BOUNDING-BOX).
+Defaults to [BOUNDING\_BOX](../../com.aspose.words/sdtappearance/\#BOUNDING-BOX).
 
 ### HIDDEN {#HIDDEN}
 ```

@@ -1,9 +1,10 @@
 ---
 title: WebExtensionBinding
+linktitle: WebExtensionBinding
 second_title: Aspose.Words for Java API Reference
-description: Specifies a binding relationship between a web extension and the data in the document.
+description: Specifies a binding relationship between a web extension and the data in the document in Java.
 type: docs
-weight: 616
+weight: 618
 url: /java/com.aspose.words/webextensionbinding/
 ---
 
@@ -92,7 +93,7 @@ public int getBindingType()
 Specifies the binding type.
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [WebExtensionBindingType](../../com.aspose.words/webextensionbindingtype) constants.
+int - The corresponding  int  value. The returned value is one of [WebExtensionBindingType](../../com.aspose.words/webextensionbindingtype/) constants.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -163,7 +164,7 @@ Specifies the binding type.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [WebExtensionBindingType](../../com.aspose.words/webextensionbindingtype) constants. |
+| value | int | The corresponding  int  value. The value must be one of [WebExtensionBindingType](../../com.aspose.words/webextensionbindingtype/) constants. |
 
 ### setId(String value) {#setId-java.lang.String}
 ```

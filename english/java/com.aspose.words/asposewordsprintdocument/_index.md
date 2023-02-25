@@ -1,7 +1,8 @@
 ---
 title: AsposeWordsPrintDocument
+linktitle: AsposeWordsPrintDocument
 second_title: Aspose.Words for Java API Reference
-description: Provides a default implementation for printing of a  within the Java printing framework.
+description: Provides a default implementation for printing of a  within the Java printing framework in Java.
 type: docs
 weight: 14
 url: /java/com.aspose.words/asposewordsprintdocument/
@@ -16,15 +17,15 @@ java.awt.print.Pageable, java.awt.print.Printable
 public class AsposeWordsPrintDocument implements Pageable, Printable
 ```
 
-Provides a default implementation for printing of a [Document](../../com.aspose.words/document) within the Java printing framework.
+Provides a default implementation for printing of a [Document](../../com.aspose.words/document/) within the Java printing framework.
 
 To learn more, visit the [ Printing a Document Programmatically or Using Dialogs ][Printing a Document Programmatically or Using Dialogs] documentation article.
 
-[AsposeWordsPrintDocument](../../com.aspose.words/asposewordsprintdocument) overrides both  and .
+[AsposeWordsPrintDocument](../../com.aspose.words/asposewordsprintdocument/) overrides both  and .
 
-A single Aspose.Words document can consist of multiple sections that specify pages with different sizes, orientation and paper trays. [AsposeWordsPrintDocument](../../com.aspose.words/asposewordsprintdocument) should be used as  to properly print each of the different paper size, orientation, etc.
+A single Aspose.Words document can consist of multiple sections that specify pages with different sizes, orientation and paper trays. [AsposeWordsPrintDocument](../../com.aspose.words/asposewordsprintdocument/) should be used as  to properly print each of the different paper size, orientation, etc.
 
-On the other hand, if the document consists of a single section only, the developer can use [AsposeWordsPrintDocument](../../com.aspose.words/asposewordsprintdocument) as  to improve printing performance.
+On the other hand, if the document consists of a single section only, the developer can use [AsposeWordsPrintDocument](../../com.aspose.words/asposewordsprintdocument/) as  to improve printing performance.
 
 
 [Printing a Document Programmatically or Using Dialogs]: https://docs.aspose.com/words/java/print-a-document-programmatically-or-using-dialogs/
@@ -64,7 +65,7 @@ Initializes a new instance of this class.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| document | [Document](../../com.aspose.words/document) | The document to print. |
+| document | [Document](../../com.aspose.words/document/) | The document to print. |
 
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
@@ -100,7 +101,7 @@ public int getColorMode()
 Gets how non-colored pages are printed if the device supports color printing. Doesn't affect booklet printing.
 
 **Returns:**
-int - How non-colored pages are printed if the device supports color printing. The returned value is one of [ColorPrintMode](../../com.aspose.words/colorprintmode) constants.
+int - How non-colored pages are printed if the device supports color printing. The returned value is one of [ColorPrintMode](../../com.aspose.words/colorprintmode/) constants.
 ### getColorPagesPrinted() {#getColorPagesPrinted}
 ```
 public int getColorPagesPrinted()
@@ -205,7 +206,7 @@ Sets how non-colored pages are printed if the device supports color printing. Do
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | How non-colored pages are printed if the device supports color printing. The value must be one of [ColorPrintMode](../../com.aspose.words/colorprintmode) constants. |
+| value | int | How non-colored pages are printed if the device supports color printing. The value must be one of [ColorPrintMode](../../com.aspose.words/colorprintmode/) constants. |
 
 ### toString() {#toString}
 ```

@@ -1,7 +1,8 @@
 ---
 title: EditorType
+linktitle: EditorType
 second_title: Aspose.Words for Java API Reference
-description: Specifies the set of possible aliases or editing groups which can be used as aliases to determine if the current user shall be allowed to edit a single range defined by an editable range within a document.
+description: Specifies the set of possible aliases or editing groups which can be used as aliases to determine if the current user shall be allowed to edit a single range defined by an editable range within a document in Java.
 type: docs
 weight: 141
 url: /java/com.aspose.words/editortype/
@@ -21,7 +22,7 @@ Specifies the set of possible aliases (or editing groups) which can be used as a
 | [ADMINISTRATORS](#ADMINISTRATORS) | Specifies that users associated with the Administrators group shall be allowed to edit editable ranges using this editing type when document protection is enabled. |
 | [CONTRIBUTORS](#CONTRIBUTORS) | Specifies that users associated with the Contributors group shall be allowed to edit editable ranges using this editing type when document protection is enabled. |
 | [CURRENT](#CURRENT) | Specifies that users associated with the Current group shall be allowed to edit editable ranges using this editing type when document protection is enabled. |
-| [DEFAULT](#DEFAULT) | Same as [UNSPECIFIED](../../com.aspose.words/editortype\#UNSPECIFIED). |
+| [DEFAULT](#DEFAULT) | Same as [UNSPECIFIED](../../com.aspose.words/editortype/\#UNSPECIFIED). |
 | [EDITORS](#EDITORS) | Specifies that users associated with the Editors group shall be allowed to edit editable ranges using this editing type when document protection is enabled. |
 | [EVERYONE](#EVERYONE) | Specifies that all users that open the document shall be allowed to edit editable ranges using this editing type when document protection is enabled. |
 | [NONE](#NONE) | Specifies that none of the users that open the document shall be allowed to edit editable ranges using this editing type when document protection is enabled. |
@@ -75,7 +76,7 @@ public static int DEFAULT
 ```
 
 
-Same as [UNSPECIFIED](../../com.aspose.words/editortype\#UNSPECIFIED).
+Same as [UNSPECIFIED](../../com.aspose.words/editortype/\#UNSPECIFIED).
 
 ### EDITORS {#EDITORS}
 ```

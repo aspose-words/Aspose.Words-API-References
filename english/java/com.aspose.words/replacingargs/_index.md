@@ -1,9 +1,10 @@
 ---
 title: ReplacingArgs
+linktitle: ReplacingArgs
 second_title: Aspose.Words for Java API Reference
-description: Provides data for a custom replace operation.
+description: Provides data for a custom replace operation in Java.
 type: docs
-weight: 480
+weight: 482
 url: /java/com.aspose.words/replacingargs/
 ---
 
@@ -25,7 +26,7 @@ To learn more, visit the [ Find and Replace ][Find and Replace] documentation ar
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getClass()](#getClass) |  |
-| [getGroupIndex()](#getGroupIndex) | Identifies, by index, a captured group in the [getMatch()](../../com.aspose.words/replacingargs\#getMatch) that is to be replaced with the [getReplacement()](../../com.aspose.words/replacingargs\#getReplacement) / [setReplacement(java.lang.String)](../../com.aspose.words/replacingargs\#setReplacement-java.lang.String) string. |
+| [getGroupIndex()](#getGroupIndex) | Identifies, by index, a captured group in the [getMatch()](../../com.aspose.words/replacingargs/\#getMatch) that is to be replaced with the [getReplacement()](../../com.aspose.words/replacingargs/\#getReplacement) / [setReplacement(java.lang.String)](../../com.aspose.words/replacingargs/\#setReplacement-java.lang.String) string. |
 | [getMatch()](#getMatch) | The java.util.regex.Matcher resulting from a single regular expression match during a **Replace**. |
 | [getMatchNode()](#getMatchNode) | Gets the node that contains the beginning of the match. |
 | [getMatchOffset()](#getMatchOffset) | Gets the zero-based starting position of the match from the start of the node that contains the beginning of the match. |
@@ -33,7 +34,7 @@ To learn more, visit the [ Find and Replace ][Find and Replace] documentation ar
 | [hashCode()](#hashCode) |  |
 | [notify()](#notify) |  |
 | [notifyAll()](#notifyAll) |  |
-| [setGroupIndex(int value)](#setGroupIndex-int) | Identifies, by index, a captured group in the [getMatch()](../../com.aspose.words/replacingargs\#getMatch) that is to be replaced with the [getReplacement()](../../com.aspose.words/replacingargs\#getReplacement) / [setReplacement(java.lang.String)](../../com.aspose.words/replacingargs\#setReplacement-java.lang.String) string. |
+| [setGroupIndex(int value)](#setGroupIndex-int) | Identifies, by index, a captured group in the [getMatch()](../../com.aspose.words/replacingargs/\#getMatch) that is to be replaced with the [getReplacement()](../../com.aspose.words/replacingargs/\#getReplacement) / [setReplacement(java.lang.String)](../../com.aspose.words/replacingargs/\#setReplacement-java.lang.String) string. |
 | [setReplacement(String value)](#setReplacement-java.lang.String) | Sets the replacement string. |
 | [toString()](#toString) |  |
 | [wait()](#wait) |  |
@@ -70,7 +71,7 @@ public int getGroupIndex()
 ```
 
 
-Identifies, by index, a captured group in the [getMatch()](../../com.aspose.words/replacingargs\#getMatch) that is to be replaced with the [getReplacement()](../../com.aspose.words/replacingargs\#getReplacement) / [setReplacement(java.lang.String)](../../com.aspose.words/replacingargs\#setReplacement-java.lang.String) string.
+Identifies, by index, a captured group in the [getMatch()](../../com.aspose.words/replacingargs/\#getMatch) that is to be replaced with the [getReplacement()](../../com.aspose.words/replacingargs/\#getReplacement) / [setReplacement(java.lang.String)](../../com.aspose.words/replacingargs/\#setReplacement-java.lang.String) string.
 
 Default is zero.
 
@@ -97,7 +98,7 @@ public Node getMatchNode()
 Gets the node that contains the beginning of the match.
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The node that contains the beginning of the match.
+[Node](../../com.aspose.words/node/) - The node that contains the beginning of the match.
 ### getMatchOffset() {#getMatchOffset}
 ```
 public int getMatchOffset()
@@ -150,7 +151,7 @@ public void setGroupIndex(int value)
 ```
 
 
-Identifies, by index, a captured group in the [getMatch()](../../com.aspose.words/replacingargs\#getMatch) that is to be replaced with the [getReplacement()](../../com.aspose.words/replacingargs\#getReplacement) / [setReplacement(java.lang.String)](../../com.aspose.words/replacingargs\#setReplacement-java.lang.String) string.
+Identifies, by index, a captured group in the [getMatch()](../../com.aspose.words/replacingargs/\#getMatch) that is to be replaced with the [getReplacement()](../../com.aspose.words/replacingargs/\#getReplacement) / [setReplacement(java.lang.String)](../../com.aspose.words/replacingargs/\#setReplacement-java.lang.String) string.
 
 Default is zero.
 

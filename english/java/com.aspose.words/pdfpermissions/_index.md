@@ -1,9 +1,10 @@
 ---
 title: PdfPermissions
+linktitle: PdfPermissions
 second_title: Aspose.Words for Java API Reference
-description: Specifies the operations that are allowed to a user on an encrypted PDF document.
+description: Specifies the operations that are allowed to a user on an encrypted PDF document in Java.
 type: docs
-weight: 464
+weight: 466
 url: /java/com.aspose.words/pdfpermissions/
 ---
 
@@ -19,15 +20,15 @@ Specifies the operations that are allowed to a user on an encrypted PDF document
 | Field | Description |
 | --- | --- |
 | [ALLOW_ALL](#ALLOW-ALL) | Allows all operations on the PDF document. |
-| [CONTENT_COPY](#CONTENT-COPY) | Copy or otherwise extract text and graphics from the document by operations other than that controlled by [CONTENT\_COPY\_FOR\_ACCESSIBILITY](../../com.aspose.words/pdfpermissions\#CONTENT-COPY-FOR-ACCESSIBILITY). |
+| [CONTENT_COPY](#CONTENT-COPY) | Copy or otherwise extract text and graphics from the document by operations other than that controlled by [CONTENT\_COPY\_FOR\_ACCESSIBILITY](../../com.aspose.words/pdfpermissions/\#CONTENT-COPY-FOR-ACCESSIBILITY). |
 | [CONTENT_COPY_FOR_ACCESSIBILITY](#CONTENT-COPY-FOR-ACCESSIBILITY) | Extract text and graphics (in support of accessibility to users with disabilities or for other purposes). |
 | [DISALLOW_ALL](#DISALLOW-ALL) | Disallows all operations on the PDF document. |
-| [DOCUMENT_ASSEMBLY](#DOCUMENT-ASSEMBLY) | Assemble the document (insert, rotate, or delete pages and create document outline items or thumbnail images), even if [MODIFY\_CONTENTS](../../com.aspose.words/pdfpermissions\#MODIFY-CONTENTS) is clear. |
-| [FILL_IN](#FILL-IN) | Fill in existing interactive form fields (including signature fields), even if [MODIFY\_CONTENTS](../../com.aspose.words/pdfpermissions\#MODIFY-CONTENTS) is clear. |
+| [DOCUMENT_ASSEMBLY](#DOCUMENT-ASSEMBLY) | Assemble the document (insert, rotate, or delete pages and create document outline items or thumbnail images), even if [MODIFY\_CONTENTS](../../com.aspose.words/pdfpermissions/\#MODIFY-CONTENTS) is clear. |
+| [FILL_IN](#FILL-IN) | Fill in existing interactive form fields (including signature fields), even if [MODIFY\_CONTENTS](../../com.aspose.words/pdfpermissions/\#MODIFY-CONTENTS) is clear. |
 | [HIGH_RESOLUTION_PRINTING](#HIGH-RESOLUTION-PRINTING) | Print the document to a representation from which a faithful digital copy of the PDF content could be generated, based on an implementation-dependent algorithm. |
-| [MODIFY_ANNOTATIONS](#MODIFY-ANNOTATIONS) | Add or modify text annotations, fill in interactive form fields, and, if [MODIFY\_CONTENTS](../../com.aspose.words/pdfpermissions\#MODIFY-CONTENTS) is also set, create or modify interactive form fields (including signature fields). |
-| [MODIFY_CONTENTS](#MODIFY-CONTENTS) | Modify the contents of the document by operations other than those controlled by [MODIFY\_ANNOTATIONS](../../com.aspose.words/pdfpermissions\#MODIFY-ANNOTATIONS), [FILL\_IN](../../com.aspose.words/pdfpermissions\#FILL-IN), and [DOCUMENT\_ASSEMBLY](../../com.aspose.words/pdfpermissions\#DOCUMENT-ASSEMBLY). |
-| [PRINTING](#PRINTING) | Print the document (possibly not at the highest quality level, depending on whether [HIGH\_RESOLUTION\_PRINTING](../../com.aspose.words/pdfpermissions\#HIGH-RESOLUTION-PRINTING) is also set). |
+| [MODIFY_ANNOTATIONS](#MODIFY-ANNOTATIONS) | Add or modify text annotations, fill in interactive form fields, and, if [MODIFY\_CONTENTS](../../com.aspose.words/pdfpermissions/\#MODIFY-CONTENTS) is also set, create or modify interactive form fields (including signature fields). |
+| [MODIFY_CONTENTS](#MODIFY-CONTENTS) | Modify the contents of the document by operations other than those controlled by [MODIFY\_ANNOTATIONS](../../com.aspose.words/pdfpermissions/\#MODIFY-ANNOTATIONS), [FILL\_IN](../../com.aspose.words/pdfpermissions/\#FILL-IN), and [DOCUMENT\_ASSEMBLY](../../com.aspose.words/pdfpermissions/\#DOCUMENT-ASSEMBLY). |
+| [PRINTING](#PRINTING) | Print the document (possibly not at the highest quality level, depending on whether [HIGH\_RESOLUTION\_PRINTING](../../com.aspose.words/pdfpermissions/\#HIGH-RESOLUTION-PRINTING) is also set). |
 | [length](#length) |  |
 ## Methods
 
@@ -63,7 +64,7 @@ public static int CONTENT_COPY
 ```
 
 
-Copy or otherwise extract text and graphics from the document by operations other than that controlled by [CONTENT\_COPY\_FOR\_ACCESSIBILITY](../../com.aspose.words/pdfpermissions\#CONTENT-COPY-FOR-ACCESSIBILITY).
+Copy or otherwise extract text and graphics from the document by operations other than that controlled by [CONTENT\_COPY\_FOR\_ACCESSIBILITY](../../com.aspose.words/pdfpermissions/\#CONTENT-COPY-FOR-ACCESSIBILITY).
 
 ### CONTENT_COPY_FOR_ACCESSIBILITY {#CONTENT-COPY-FOR-ACCESSIBILITY}
 ```
@@ -87,7 +88,7 @@ public static int DOCUMENT_ASSEMBLY
 ```
 
 
-Assemble the document (insert, rotate, or delete pages and create document outline items or thumbnail images), even if [MODIFY\_CONTENTS](../../com.aspose.words/pdfpermissions\#MODIFY-CONTENTS) is clear.
+Assemble the document (insert, rotate, or delete pages and create document outline items or thumbnail images), even if [MODIFY\_CONTENTS](../../com.aspose.words/pdfpermissions/\#MODIFY-CONTENTS) is clear.
 
 ### FILL_IN {#FILL-IN}
 ```
@@ -95,7 +96,7 @@ public static int FILL_IN
 ```
 
 
-Fill in existing interactive form fields (including signature fields), even if [MODIFY\_CONTENTS](../../com.aspose.words/pdfpermissions\#MODIFY-CONTENTS) is clear.
+Fill in existing interactive form fields (including signature fields), even if [MODIFY\_CONTENTS](../../com.aspose.words/pdfpermissions/\#MODIFY-CONTENTS) is clear.
 
 ### HIGH_RESOLUTION_PRINTING {#HIGH-RESOLUTION-PRINTING}
 ```
@@ -103,7 +104,7 @@ public static int HIGH_RESOLUTION_PRINTING
 ```
 
 
-Print the document to a representation from which a faithful digital copy of the PDF content could be generated, based on an implementation-dependent algorithm. When this flag is clear (and [PRINTING](../../com.aspose.words/pdfpermissions\#PRINTING) is set), printing shall be limited to a low-level representation of the appearance, possibly of degraded quality.
+Print the document to a representation from which a faithful digital copy of the PDF content could be generated, based on an implementation-dependent algorithm. When this flag is clear (and [PRINTING](../../com.aspose.words/pdfpermissions/\#PRINTING) is set), printing shall be limited to a low-level representation of the appearance, possibly of degraded quality.
 
 ### MODIFY_ANNOTATIONS {#MODIFY-ANNOTATIONS}
 ```
@@ -111,7 +112,7 @@ public static int MODIFY_ANNOTATIONS
 ```
 
 
-Add or modify text annotations, fill in interactive form fields, and, if [MODIFY\_CONTENTS](../../com.aspose.words/pdfpermissions\#MODIFY-CONTENTS) is also set, create or modify interactive form fields (including signature fields).
+Add or modify text annotations, fill in interactive form fields, and, if [MODIFY\_CONTENTS](../../com.aspose.words/pdfpermissions/\#MODIFY-CONTENTS) is also set, create or modify interactive form fields (including signature fields).
 
 ### MODIFY_CONTENTS {#MODIFY-CONTENTS}
 ```
@@ -119,7 +120,7 @@ public static int MODIFY_CONTENTS
 ```
 
 
-Modify the contents of the document by operations other than those controlled by [MODIFY\_ANNOTATIONS](../../com.aspose.words/pdfpermissions\#MODIFY-ANNOTATIONS), [FILL\_IN](../../com.aspose.words/pdfpermissions\#FILL-IN), and [DOCUMENT\_ASSEMBLY](../../com.aspose.words/pdfpermissions\#DOCUMENT-ASSEMBLY).
+Modify the contents of the document by operations other than those controlled by [MODIFY\_ANNOTATIONS](../../com.aspose.words/pdfpermissions/\#MODIFY-ANNOTATIONS), [FILL\_IN](../../com.aspose.words/pdfpermissions/\#FILL-IN), and [DOCUMENT\_ASSEMBLY](../../com.aspose.words/pdfpermissions/\#DOCUMENT-ASSEMBLY).
 
 ### PRINTING {#PRINTING}
 ```
@@ -127,7 +128,7 @@ public static int PRINTING
 ```
 
 
-Print the document (possibly not at the highest quality level, depending on whether [HIGH\_RESOLUTION\_PRINTING](../../com.aspose.words/pdfpermissions\#HIGH-RESOLUTION-PRINTING) is also set).
+Print the document (possibly not at the highest quality level, depending on whether [HIGH\_RESOLUTION\_PRINTING](../../com.aspose.words/pdfpermissions/\#HIGH-RESOLUTION-PRINTING) is also set).
 
 ### length {#length}
 ```

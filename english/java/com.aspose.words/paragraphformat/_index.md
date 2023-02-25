@@ -1,9 +1,10 @@
 ---
 title: ParagraphFormat
+linktitle: ParagraphFormat
 second_title: Aspose.Words for Java API Reference
-description: Represents all the formatting for a paragraph.
+description: Represents all the formatting for a paragraph in Java.
 type: docs
-weight: 450
+weight: 452
 url: /java/com.aspose.words/paragraphformat/
 ---
 
@@ -49,11 +50,11 @@ To learn more, visit the [ Working with Paragraphs ][Working with Paragraphs] do
 | [getLineUnitAfter()](#getLineUnitAfter) | Gets the amount of spacing (in gridlines) after the paragraphs. |
 | [getLineUnitBefore()](#getLineUnitBefore) | Gets the amount of spacing (in gridlines) before the paragraphs. |
 | [getLinesToDrop()](#getLinesToDrop) | Gets the number of lines of the paragraph text used to calculate the drop cap height. |
-| [getNoSpaceBetweenParagraphsOfSameStyle()](#getNoSpaceBetweenParagraphsOfSameStyle) | When  true , [getSpaceBefore()](../../com.aspose.words/paragraphformat\#getSpaceBefore) / [setSpaceBefore(double)](../../com.aspose.words/paragraphformat\#setSpaceBefore-double) and [getSpaceAfter()](../../com.aspose.words/paragraphformat\#getSpaceAfter) / [setSpaceAfter(double)](../../com.aspose.words/paragraphformat\#setSpaceAfter-double) will be ignored between the paragraphs of the same style. |
+| [getNoSpaceBetweenParagraphsOfSameStyle()](#getNoSpaceBetweenParagraphsOfSameStyle) | When  true , [getSpaceBefore()](../../com.aspose.words/paragraphformat/\#getSpaceBefore) / [setSpaceBefore(double)](../../com.aspose.words/paragraphformat/\#setSpaceBefore-double) and [getSpaceAfter()](../../com.aspose.words/paragraphformat/\#getSpaceAfter) / [setSpaceAfter(double)](../../com.aspose.words/paragraphformat/\#setSpaceAfter-double) will be ignored between the paragraphs of the same style. |
 | [getOutlineLevel()](#getOutlineLevel) | Specifies the outline level of the paragraph in the document. |
 | [getPageBreakBefore()](#getPageBreakBefore) | True if a page break is forced before the paragraph. |
 | [getRightIndent()](#getRightIndent) | Gets the value (in points) that represents the right indent for paragraph. |
-| [getShading()](#getShading) | Returns a [Shading](../../com.aspose.words/shading) object that refers to the shading formatting for the paragraph. |
+| [getShading()](#getShading) | Returns a [Shading](../../com.aspose.words/shading/) object that refers to the shading formatting for the paragraph. |
 | [getSnapToGrid()](#getSnapToGrid) | Specifies whether the current paragraph should use the document grid lines per page settings when laying out the contents in the paragraph. |
 | [getSpaceAfter()](#getSpaceAfter) | Gets the amount of spacing (in points) after the paragraph. |
 | [getSpaceAfterAuto()](#getSpaceAfterAuto) | True if the amount of spacing after the paragraph is set automatically. |
@@ -92,7 +93,7 @@ To learn more, visit the [ Working with Paragraphs ][Working with Paragraphs] do
 | [setLineUnitAfter(double value)](#setLineUnitAfter-double) | Sets the amount of spacing (in gridlines) after the paragraphs. |
 | [setLineUnitBefore(double value)](#setLineUnitBefore-double) | Sets the amount of spacing (in gridlines) before the paragraphs. |
 | [setLinesToDrop(int value)](#setLinesToDrop-int) | Sets the number of lines of the paragraph text used to calculate the drop cap height. |
-| [setNoSpaceBetweenParagraphsOfSameStyle(boolean value)](#setNoSpaceBetweenParagraphsOfSameStyle-boolean) | When  true , [getSpaceBefore()](../../com.aspose.words/paragraphformat\#getSpaceBefore) / [setSpaceBefore(double)](../../com.aspose.words/paragraphformat\#setSpaceBefore-double) and [getSpaceAfter()](../../com.aspose.words/paragraphformat\#getSpaceAfter) / [setSpaceAfter(double)](../../com.aspose.words/paragraphformat\#setSpaceAfter-double) will be ignored between the paragraphs of the same style. |
+| [setNoSpaceBetweenParagraphsOfSameStyle(boolean value)](#setNoSpaceBetweenParagraphsOfSameStyle-boolean) | When  true , [getSpaceBefore()](../../com.aspose.words/paragraphformat/\#getSpaceBefore) / [setSpaceBefore(double)](../../com.aspose.words/paragraphformat/\#setSpaceBefore-double) and [getSpaceAfter()](../../com.aspose.words/paragraphformat/\#getSpaceAfter) / [setSpaceAfter(double)](../../com.aspose.words/paragraphformat/\#setSpaceAfter-double) will be ignored between the paragraphs of the same style. |
 | [setOutlineLevel(int value)](#setOutlineLevel-int) | Specifies the outline level of the paragraph in the document. |
 | [setPageBreakBefore(boolean value)](#setPageBreakBefore-boolean) | True if a page break is forced before the paragraph. |
 | [setRightIndent(double value)](#setRightIndent-double) | Sets the value (in points) that represents the right indent for paragraph. |
@@ -194,7 +195,7 @@ public int getAlignment()
 Gets text alignment for the paragraph.
 
 **Returns:**
-int - Text alignment for the paragraph. The returned value is one of [ParagraphAlignment](../../com.aspose.words/paragraphalignment) constants.
+int - Text alignment for the paragraph. The returned value is one of [ParagraphAlignment](../../com.aspose.words/paragraphalignment/) constants.
 ### getBidi() {#getBidi}
 ```
 public boolean getBidi()
@@ -216,7 +217,7 @@ public BorderCollection getBorders()
 Gets collection of borders of the paragraph.
 
 **Returns:**
-[BorderCollection](../../com.aspose.words/bordercollection) - Collection of borders of the paragraph.
+[BorderCollection](../../com.aspose.words/bordercollection/) - Collection of borders of the paragraph.
 ### getCharacterUnitFirstLineIndent() {#getCharacterUnitFirstLineIndent}
 ```
 public double getCharacterUnitFirstLineIndent()
@@ -283,7 +284,7 @@ public int getDropCapPosition()
 Gets the position for a drop cap text.
 
 **Returns:**
-int - The position for a drop cap text. The returned value is one of [DropCapPosition](../../com.aspose.words/dropcapposition) constants.
+int - The position for a drop cap text. The returned value is one of [DropCapPosition](../../com.aspose.words/dropcapposition/) constants.
 ### getFarEastLineBreakControl() {#getFarEastLineBreakControl}
 ```
 public boolean getFarEastLineBreakControl()
@@ -354,9 +355,9 @@ public double getLineSpacing()
 
 Gets the line spacing (in points) for the paragraph.
 
-When [getLineSpacingRule()](../../com.aspose.words/paragraphformat\#getLineSpacingRule) / [setLineSpacingRule(int)](../../com.aspose.words/paragraphformat\#setLineSpacingRule-int) property is set to [LineSpacingRule.AT\_LEAST](../../com.aspose.words/linespacingrule\#AT-LEAST), the line spacing can be greater than or equal to, but never less than the specified [getLineSpacing()](../../com.aspose.words/paragraphformat\#getLineSpacing) / [setLineSpacing(double)](../../com.aspose.words/paragraphformat\#setLineSpacing-double) value.
+When [getLineSpacingRule()](../../com.aspose.words/paragraphformat/\#getLineSpacingRule) / [setLineSpacingRule(int)](../../com.aspose.words/paragraphformat/\#setLineSpacingRule-int) property is set to [LineSpacingRule.AT\_LEAST](../../com.aspose.words/linespacingrule/\#AT-LEAST), the line spacing can be greater than or equal to, but never less than the specified [getLineSpacing()](../../com.aspose.words/paragraphformat/\#getLineSpacing) / [setLineSpacing(double)](../../com.aspose.words/paragraphformat/\#setLineSpacing-double) value.
 
-When [getLineSpacingRule()](../../com.aspose.words/paragraphformat\#getLineSpacingRule) / [setLineSpacingRule(int)](../../com.aspose.words/paragraphformat\#setLineSpacingRule-int) property is set to [LineSpacingRule.EXACTLY](../../com.aspose.words/linespacingrule\#EXACTLY), the line spacing never changes from the specified [getLineSpacing()](../../com.aspose.words/paragraphformat\#getLineSpacing) / [setLineSpacing(double)](../../com.aspose.words/paragraphformat\#setLineSpacing-double) value, even if a larger font is used within the paragraph.
+When [getLineSpacingRule()](../../com.aspose.words/paragraphformat/\#getLineSpacingRule) / [setLineSpacingRule(int)](../../com.aspose.words/paragraphformat/\#setLineSpacingRule-int) property is set to [LineSpacingRule.EXACTLY](../../com.aspose.words/linespacingrule/\#EXACTLY), the line spacing never changes from the specified [getLineSpacing()](../../com.aspose.words/paragraphformat/\#getLineSpacing) / [setLineSpacing(double)](../../com.aspose.words/paragraphformat/\#setLineSpacing-double) value, even if a larger font is used within the paragraph.
 
 **Returns:**
 double - The line spacing (in points) for the paragraph.
@@ -369,7 +370,7 @@ public int getLineSpacingRule()
 Gets the line spacing for the paragraph.
 
 **Returns:**
-int - The line spacing for the paragraph. The returned value is one of [LineSpacingRule](../../com.aspose.words/linespacingrule) constants.
+int - The line spacing for the paragraph. The returned value is one of [LineSpacingRule](../../com.aspose.words/linespacingrule/) constants.
 ### getLineUnitAfter() {#getLineUnitAfter}
 ```
 public double getLineUnitAfter()
@@ -406,7 +407,7 @@ public boolean getNoSpaceBetweenParagraphsOfSameStyle()
 ```
 
 
-When  true , [getSpaceBefore()](../../com.aspose.words/paragraphformat\#getSpaceBefore) / [setSpaceBefore(double)](../../com.aspose.words/paragraphformat\#setSpaceBefore-double) and [getSpaceAfter()](../../com.aspose.words/paragraphformat\#getSpaceAfter) / [setSpaceAfter(double)](../../com.aspose.words/paragraphformat\#setSpaceAfter-double) will be ignored between the paragraphs of the same style.
+When  true , [getSpaceBefore()](../../com.aspose.words/paragraphformat/\#getSpaceBefore) / [setSpaceBefore(double)](../../com.aspose.words/paragraphformat/\#setSpaceBefore-double) and [getSpaceAfter()](../../com.aspose.words/paragraphformat/\#getSpaceAfter) / [setSpaceAfter(double)](../../com.aspose.words/paragraphformat/\#setSpaceAfter-double) will be ignored between the paragraphs of the same style.
 
 This setting only takes affect when applied to a paragraph style. If applied to a paragraph directly, it has no effect.
 
@@ -421,7 +422,7 @@ public int getOutlineLevel()
 Specifies the outline level of the paragraph in the document.
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [OutlineLevel](../../com.aspose.words/outlinelevel) constants.
+int - The corresponding  int  value. The returned value is one of [OutlineLevel](../../com.aspose.words/outlinelevel/) constants.
 ### getPageBreakBefore() {#getPageBreakBefore}
 ```
 public boolean getPageBreakBefore()
@@ -448,10 +449,10 @@ public Shading getShading()
 ```
 
 
-Returns a [Shading](../../com.aspose.words/shading) object that refers to the shading formatting for the paragraph.
+Returns a [Shading](../../com.aspose.words/shading/) object that refers to the shading formatting for the paragraph.
 
 **Returns:**
-[Shading](../../com.aspose.words/shading) - A [Shading](../../com.aspose.words/shading) object that refers to the shading formatting for the paragraph.
+[Shading](../../com.aspose.words/shading/) - A [Shading](../../com.aspose.words/shading/) object that refers to the shading formatting for the paragraph.
 ### getSnapToGrid() {#getSnapToGrid}
 ```
 public boolean getSnapToGrid()
@@ -470,7 +471,7 @@ public double getSpaceAfter()
 
 Gets the amount of spacing (in points) after the paragraph.
 
-Has no effect when [getSpaceAfterAuto()](../../com.aspose.words/paragraphformat\#getSpaceAfterAuto) / [setSpaceAfterAuto(boolean)](../../com.aspose.words/paragraphformat\#setSpaceAfterAuto-boolean) is  true .
+Has no effect when [getSpaceAfterAuto()](../../com.aspose.words/paragraphformat/\#getSpaceAfterAuto) / [setSpaceAfterAuto(boolean)](../../com.aspose.words/paragraphformat/\#setSpaceAfterAuto-boolean) is  true .
 
 Valid values \\u200b\\u200brange from 0 to 1584 inclusive.
 
@@ -484,7 +485,7 @@ public boolean getSpaceAfterAuto()
 
 True if the amount of spacing after the paragraph is set automatically.
 
-When set to  true , overrides the effect of [getSpaceAfter()](../../com.aspose.words/paragraphformat\#getSpaceAfter) / [setSpaceAfter(double)](../../com.aspose.words/paragraphformat\#setSpaceAfter-double).
+When set to  true , overrides the effect of [getSpaceAfter()](../../com.aspose.words/paragraphformat/\#getSpaceAfter) / [setSpaceAfter(double)](../../com.aspose.words/paragraphformat/\#setSpaceAfter-double).
 
 When you set paragraph Space Before and Space After to Auto, Microsoft Word adds 14 points spacing between paragraphs automatically according to the following rules:
 
@@ -505,7 +506,7 @@ public double getSpaceBefore()
 
 Gets the amount of spacing (in points) before the paragraph.
 
-Has no effect when [getSpaceBeforeAuto()](../../com.aspose.words/paragraphformat\#getSpaceBeforeAuto) / [setSpaceBeforeAuto(boolean)](../../com.aspose.words/paragraphformat\#setSpaceBeforeAuto-boolean) is  true .
+Has no effect when [getSpaceBeforeAuto()](../../com.aspose.words/paragraphformat/\#getSpaceBeforeAuto) / [setSpaceBeforeAuto(boolean)](../../com.aspose.words/paragraphformat/\#setSpaceBeforeAuto-boolean) is  true .
 
 Valid values range from 0 to 1584 inclusive.
 
@@ -519,7 +520,7 @@ public boolean getSpaceBeforeAuto()
 
 True if the amount of spacing before the paragraph is set automatically.
 
-When set to  true , overrides the effect of [getSpaceBefore()](../../com.aspose.words/paragraphformat\#getSpaceBefore) / [setSpaceBefore(double)](../../com.aspose.words/paragraphformat\#setSpaceBefore-double).
+When set to  true , overrides the effect of [getSpaceBefore()](../../com.aspose.words/paragraphformat/\#getSpaceBefore) / [setSpaceBefore(double)](../../com.aspose.words/paragraphformat/\#setSpaceBefore-double).
 
 When you set paragraph Space Before and Space After to Auto, Microsoft Word adds 14 points spacing between paragraphs automatically according to the following rules:
 
@@ -541,7 +542,7 @@ public Style getStyle()
 Gets the paragraph style applied to this formatting.
 
 **Returns:**
-[Style](../../com.aspose.words/style) - The paragraph style applied to this formatting.
+[Style](../../com.aspose.words/style/) - The paragraph style applied to this formatting.
 ### getStyleIdentifier() {#getStyleIdentifier}
 ```
 public int getStyleIdentifier()
@@ -551,7 +552,7 @@ public int getStyleIdentifier()
 Gets the locale independent style identifier of the paragraph style applied to this formatting.
 
 **Returns:**
-int - The locale independent style identifier of the paragraph style applied to this formatting. The returned value is one of [StyleIdentifier](../../com.aspose.words/styleidentifier) constants.
+int - The locale independent style identifier of the paragraph style applied to this formatting. The returned value is one of [StyleIdentifier](../../com.aspose.words/styleidentifier/) constants.
 ### getStyleName() {#getStyleName}
 ```
 public String getStyleName()
@@ -591,7 +592,7 @@ public TabStopCollection getTabStops()
 Gets the collection of custom tab stops defined for this object.
 
 **Returns:**
-[TabStopCollection](../../com.aspose.words/tabstopcollection) - The collection of custom tab stops defined for this object.
+[TabStopCollection](../../com.aspose.words/tabstopcollection/) - The collection of custom tab stops defined for this object.
 ### getWidowControl() {#getWidowControl}
 ```
 public boolean getWidowControl()
@@ -695,7 +696,7 @@ Sets text alignment for the paragraph.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | Text alignment for the paragraph. The value must be one of [ParagraphAlignment](../../com.aspose.words/paragraphalignment) constants. |
+| value | int | Text alignment for the paragraph. The value must be one of [ParagraphAlignment](../../com.aspose.words/paragraphalignment/) constants. |
 
 ### setBidi(boolean value) {#setBidi-boolean}
 ```
@@ -778,7 +779,7 @@ Sets the position for a drop cap text.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The position for a drop cap text. The value must be one of [DropCapPosition](../../com.aspose.words/dropcapposition) constants. |
+| value | int | The position for a drop cap text. The value must be one of [DropCapPosition](../../com.aspose.words/dropcapposition/) constants. |
 
 ### setFarEastLineBreakControl(boolean value) {#setFarEastLineBreakControl-boolean}
 ```
@@ -868,9 +869,9 @@ public void setLineSpacing(double value)
 
 Sets the line spacing (in points) for the paragraph.
 
-When [getLineSpacingRule()](../../com.aspose.words/paragraphformat\#getLineSpacingRule) / [setLineSpacingRule(int)](../../com.aspose.words/paragraphformat\#setLineSpacingRule-int) property is set to [LineSpacingRule.AT\_LEAST](../../com.aspose.words/linespacingrule\#AT-LEAST), the line spacing can be greater than or equal to, but never less than the specified [getLineSpacing()](../../com.aspose.words/paragraphformat\#getLineSpacing) / [setLineSpacing(double)](../../com.aspose.words/paragraphformat\#setLineSpacing-double) value.
+When [getLineSpacingRule()](../../com.aspose.words/paragraphformat/\#getLineSpacingRule) / [setLineSpacingRule(int)](../../com.aspose.words/paragraphformat/\#setLineSpacingRule-int) property is set to [LineSpacingRule.AT\_LEAST](../../com.aspose.words/linespacingrule/\#AT-LEAST), the line spacing can be greater than or equal to, but never less than the specified [getLineSpacing()](../../com.aspose.words/paragraphformat/\#getLineSpacing) / [setLineSpacing(double)](../../com.aspose.words/paragraphformat/\#setLineSpacing-double) value.
 
-When [getLineSpacingRule()](../../com.aspose.words/paragraphformat\#getLineSpacingRule) / [setLineSpacingRule(int)](../../com.aspose.words/paragraphformat\#setLineSpacingRule-int) property is set to [LineSpacingRule.EXACTLY](../../com.aspose.words/linespacingrule\#EXACTLY), the line spacing never changes from the specified [getLineSpacing()](../../com.aspose.words/paragraphformat\#getLineSpacing) / [setLineSpacing(double)](../../com.aspose.words/paragraphformat\#setLineSpacing-double) value, even if a larger font is used within the paragraph.
+When [getLineSpacingRule()](../../com.aspose.words/paragraphformat/\#getLineSpacingRule) / [setLineSpacingRule(int)](../../com.aspose.words/paragraphformat/\#setLineSpacingRule-int) property is set to [LineSpacingRule.EXACTLY](../../com.aspose.words/linespacingrule/\#EXACTLY), the line spacing never changes from the specified [getLineSpacing()](../../com.aspose.words/paragraphformat/\#getLineSpacing) / [setLineSpacing(double)](../../com.aspose.words/paragraphformat/\#setLineSpacing-double) value, even if a larger font is used within the paragraph.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -888,7 +889,7 @@ Sets the line spacing for the paragraph.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The line spacing for the paragraph. The value must be one of [LineSpacingRule](../../com.aspose.words/linespacingrule) constants. |
+| value | int | The line spacing for the paragraph. The value must be one of [LineSpacingRule](../../com.aspose.words/linespacingrule/) constants. |
 
 ### setLineUnitAfter(double value) {#setLineUnitAfter-double}
 ```
@@ -935,7 +936,7 @@ public void setNoSpaceBetweenParagraphsOfSameStyle(boolean value)
 ```
 
 
-When  true , [getSpaceBefore()](../../com.aspose.words/paragraphformat\#getSpaceBefore) / [setSpaceBefore(double)](../../com.aspose.words/paragraphformat\#setSpaceBefore-double) and [getSpaceAfter()](../../com.aspose.words/paragraphformat\#getSpaceAfter) / [setSpaceAfter(double)](../../com.aspose.words/paragraphformat\#setSpaceAfter-double) will be ignored between the paragraphs of the same style.
+When  true , [getSpaceBefore()](../../com.aspose.words/paragraphformat/\#getSpaceBefore) / [setSpaceBefore(double)](../../com.aspose.words/paragraphformat/\#setSpaceBefore-double) and [getSpaceAfter()](../../com.aspose.words/paragraphformat/\#getSpaceAfter) / [setSpaceAfter(double)](../../com.aspose.words/paragraphformat/\#setSpaceAfter-double) will be ignored between the paragraphs of the same style.
 
 This setting only takes affect when applied to a paragraph style. If applied to a paragraph directly, it has no effect.
 
@@ -955,7 +956,7 @@ Specifies the outline level of the paragraph in the document.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [OutlineLevel](../../com.aspose.words/outlinelevel) constants. |
+| value | int | The corresponding  int  value. The value must be one of [OutlineLevel](../../com.aspose.words/outlinelevel/) constants. |
 
 ### setPageBreakBefore(boolean value) {#setPageBreakBefore-boolean}
 ```
@@ -1004,7 +1005,7 @@ public void setSpaceAfter(double value)
 
 Sets the amount of spacing (in points) after the paragraph.
 
-Has no effect when [getSpaceAfterAuto()](../../com.aspose.words/paragraphformat\#getSpaceAfterAuto) / [setSpaceAfterAuto(boolean)](../../com.aspose.words/paragraphformat\#setSpaceAfterAuto-boolean) is  true .
+Has no effect when [getSpaceAfterAuto()](../../com.aspose.words/paragraphformat/\#getSpaceAfterAuto) / [setSpaceAfterAuto(boolean)](../../com.aspose.words/paragraphformat/\#setSpaceAfterAuto-boolean) is  true .
 
 Valid values \\u200b\\u200brange from 0 to 1584 inclusive.
 
@@ -1021,7 +1022,7 @@ public void setSpaceAfterAuto(boolean value)
 
 True if the amount of spacing after the paragraph is set automatically.
 
-When set to  true , overrides the effect of [getSpaceAfter()](../../com.aspose.words/paragraphformat\#getSpaceAfter) / [setSpaceAfter(double)](../../com.aspose.words/paragraphformat\#setSpaceAfter-double).
+When set to  true , overrides the effect of [getSpaceAfter()](../../com.aspose.words/paragraphformat/\#getSpaceAfter) / [setSpaceAfter(double)](../../com.aspose.words/paragraphformat/\#setSpaceAfter-double).
 
 When you set paragraph Space Before and Space After to Auto, Microsoft Word adds 14 points spacing between paragraphs automatically according to the following rules:
 
@@ -1045,7 +1046,7 @@ public void setSpaceBefore(double value)
 
 Sets the amount of spacing (in points) before the paragraph.
 
-Has no effect when [getSpaceBeforeAuto()](../../com.aspose.words/paragraphformat\#getSpaceBeforeAuto) / [setSpaceBeforeAuto(boolean)](../../com.aspose.words/paragraphformat\#setSpaceBeforeAuto-boolean) is  true .
+Has no effect when [getSpaceBeforeAuto()](../../com.aspose.words/paragraphformat/\#getSpaceBeforeAuto) / [setSpaceBeforeAuto(boolean)](../../com.aspose.words/paragraphformat/\#setSpaceBeforeAuto-boolean) is  true .
 
 Valid values range from 0 to 1584 inclusive.
 
@@ -1062,7 +1063,7 @@ public void setSpaceBeforeAuto(boolean value)
 
 True if the amount of spacing before the paragraph is set automatically.
 
-When set to  true , overrides the effect of [getSpaceBefore()](../../com.aspose.words/paragraphformat\#getSpaceBefore) / [setSpaceBefore(double)](../../com.aspose.words/paragraphformat\#setSpaceBefore-double).
+When set to  true , overrides the effect of [getSpaceBefore()](../../com.aspose.words/paragraphformat/\#getSpaceBefore) / [setSpaceBefore(double)](../../com.aspose.words/paragraphformat/\#setSpaceBefore-double).
 
 When you set paragraph Space Before and Space After to Auto, Microsoft Word adds 14 points spacing between paragraphs automatically according to the following rules:
 
@@ -1089,7 +1090,7 @@ Sets the paragraph style applied to this formatting.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Style](../../com.aspose.words/style) | The paragraph style applied to this formatting. |
+| value | [Style](../../com.aspose.words/style/) | The paragraph style applied to this formatting. |
 
 ### setStyleIdentifier(int value) {#setStyleIdentifier-int}
 ```
@@ -1102,7 +1103,7 @@ Sets the locale independent style identifier of the paragraph style applied to t
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The locale independent style identifier of the paragraph style applied to this formatting. The value must be one of [StyleIdentifier](../../com.aspose.words/styleidentifier) constants. |
+| value | int | The locale independent style identifier of the paragraph style applied to this formatting. The value must be one of [StyleIdentifier](../../com.aspose.words/styleidentifier/) constants. |
 
 ### setStyleName(String value) {#setStyleName-java.lang.String}
 ```

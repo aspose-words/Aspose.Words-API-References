@@ -1,9 +1,10 @@
 ---
 title: ListCollection
+linktitle: ListCollection
 second_title: Aspose.Words for Java API Reference
-description: Stores and manages formatting of bulleted and numbered lists used in a document.
+description: Stores and manages formatting of bulleted and numbered lists used in a document in Java.
 type: docs
-weight: 371
+weight: 372
 url: /java/com.aspose.words/listcollection/
 ---
 
@@ -20,17 +21,17 @@ Stores and manages formatting of bulleted and numbered lists used in a document.
 
 To learn more, visit the [ Working with Lists ][Working with Lists] documentation article.
 
-A list in a Microsoft Word document is a set of list formatting properties. The formatting of the lists is stored in the [ListCollection](../../com.aspose.words/listcollection) collection separately from the paragraphs of text.
+A list in a Microsoft Word document is a set of list formatting properties. The formatting of the lists is stored in the [ListCollection](../../com.aspose.words/listcollection/) collection separately from the paragraphs of text.
 
-You do not create objects of this class. There is always only one [ListCollection](../../com.aspose.words/listcollection) object per document and it is accessible via the [DocumentBase.getLists()](../../com.aspose.words/documentbase\#getLists) property.
+You do not create objects of this class. There is always only one [ListCollection](../../com.aspose.words/listcollection/) object per document and it is accessible via the [DocumentBase.getLists()](../../com.aspose.words/documentbase/\#getLists) property.
 
-To create a new list based on a predefined list template or based on a list style, use the [add(com.aspose.words.Style)](../../com.aspose.words/listcollection\#add-com.aspose.words.Style) method.
+To create a new list based on a predefined list template or based on a list style, use the [add(com.aspose.words.Style)](../../com.aspose.words/listcollection/\#add-com.aspose.words.Style) method.
 
-To create a new list with formatting identical to an existing list, use the [addCopy(com.aspose.words.List)](../../com.aspose.words/listcollection\#addCopy-com.aspose.words.List) method.
+To create a new list with formatting identical to an existing list, use the [addCopy(com.aspose.words.List)](../../com.aspose.words/listcollection/\#addCopy-com.aspose.words.List) method.
 
-To make a paragraph bulleted or numbered, you need to apply list formatting to a paragraph by assigning a [List](../../com.aspose.words/list) object to the [ListFormat.getList()](../../com.aspose.words/listformat\#getList) / [ListFormat.setList(com.aspose.words.List)](../../com.aspose.words/listformat\#setList-com.aspose.words.List) property of [ListFormat](../../com.aspose.words/listformat).
+To make a paragraph bulleted or numbered, you need to apply list formatting to a paragraph by assigning a [List](../../com.aspose.words/list/) object to the [ListFormat.getList()](../../com.aspose.words/listformat/\#getList) / [ListFormat.setList(com.aspose.words.List)](../../com.aspose.words/listformat/\#setList-com.aspose.words.List) property of [ListFormat](../../com.aspose.words/listformat/).
 
-To remove list formatting from a paragraph, use the [ListFormat.removeNumbers()](../../com.aspose.words/listformat\#removeNumbers) method.
+To remove list formatting from a paragraph, use the [ListFormat.removeNumbers()](../../com.aspose.words/listformat/\#removeNumbers) method.
 
 If you know a bit about WordprocessingML, then you might know it defines separate concepts for "list" and "list definition". This exactly corresponds to how list formatting is stored in a Microsoft Word document at the low level. List definition is like a "schema" and list is like an instance of a list definition.
 
@@ -72,10 +73,10 @@ Creates a new list that references a list style and adds it to the collection of
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| listStyle | [Style](../../com.aspose.words/style) | The list style. |
+| listStyle | [Style](../../com.aspose.words/style/) | The list style. |
 
 **Returns:**
-[List](../../com.aspose.words/list) - The newly created list.
+[List](../../com.aspose.words/list/) - The newly created list.
 
 The newly created list references the list style. If you change the properties of the list style, it is reflected in the properties of the list. Vice versa, if you change the properties of the list, it is reflected in the properties of the list style.
 ### add(int listTemplate) {#add-int}
@@ -92,7 +93,7 @@ public List add(int listTemplate)
 | listTemplate | int |  |
 
 **Returns:**
-[List](../../com.aspose.words/list)
+[List](../../com.aspose.words/list/)
 ### addCopy(List srcList) {#addCopy-com.aspose.words.List}
 ```
 public List addCopy(List srcList)
@@ -104,10 +105,10 @@ Creates a new list by copying the specified list and adding it to the collection
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| srcList | [List](../../com.aspose.words/list) | The source list to copy from. |
+| srcList | [List](../../com.aspose.words/list/) | The source list to copy from. |
 
 **Returns:**
-[List](../../com.aspose.words/list) - The newly created list.
+[List](../../com.aspose.words/list/) - The newly created list.
 
 The source list can be from any document. If the source list belongs to a different document, a copy of the list is created and added to the current document.
 
@@ -141,7 +142,7 @@ Gets a list by index.
 | index | int |  |
 
 **Returns:**
-[List](../../com.aspose.words/list) - A list by index.
+[List](../../com.aspose.words/list/) - A list by index.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -171,7 +172,7 @@ public DocumentBase getDocument()
 Gets the owner document.
 
 **Returns:**
-[DocumentBase](../../com.aspose.words/documentbase) - The owner document.
+[DocumentBase](../../com.aspose.words/documentbase/) - The owner document.
 ### getListByListId(int listId) {#getListByListId-int}
 ```
 public List getListByListId(int listId)
@@ -186,9 +187,9 @@ Gets a list by a list identifier.
 | listId | int | The list identifier. |
 
 **Returns:**
-[List](../../com.aspose.words/list) - Returns the list object. Returns  null  if a list with the specified identifier was not found.
+[List](../../com.aspose.words/list/) - Returns the list object. Returns  null  if a list with the specified identifier was not found.
 
-You don't normally need to use this method. Most of the time you apply list formatting to paragraphs just by settings the [ListFormat.getList()](../../com.aspose.words/listformat\#getList) / [ListFormat.setList(com.aspose.words.List)](../../com.aspose.words/listformat\#setList-com.aspose.words.List) property of the [ListFormat](../../com.aspose.words/listformat) object.
+You don't normally need to use this method. Most of the time you apply list formatting to paragraphs just by settings the [ListFormat.getList()](../../com.aspose.words/listformat/\#getList) / [ListFormat.setList(com.aspose.words.List)](../../com.aspose.words/listformat/\#setList-com.aspose.words.List) property of the [ListFormat](../../com.aspose.words/listformat/) object.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()

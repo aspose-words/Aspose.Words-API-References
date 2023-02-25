@@ -1,7 +1,8 @@
 ---
 title: FieldFormat
+linktitle: FieldFormat
 second_title: Aspose.Words for Java API Reference
-description: Provides typed access to fields numeric date and time and general formatting.
+description: Provides typed access to fields numeric date and time and general formatting in Java.
 type: docs
 weight: 195
 url: /java/com.aspose.words/fieldformat/
@@ -81,7 +82,7 @@ public GeneralFormatCollection getGeneralFormats()
 Gets a collection of general formats that are applied to a numeric, text or any field result. Corresponds to the \\\* switches.
 
 **Returns:**
-[GeneralFormatCollection](../../com.aspose.words/generalformatcollection) - A collection of general formats that are applied to a numeric, text or any field result.
+[GeneralFormatCollection](../../com.aspose.words/generalformatcollection/) - A collection of general formats that are applied to a numeric, text or any field result.
 ### getNumericFormat() {#getNumericFormat}
 ```
 public String getNumericFormat()

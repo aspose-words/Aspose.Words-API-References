@@ -1,7 +1,8 @@
 ---
 title: FindReplaceOptions
+linktitle: FindReplaceOptions
 second_title: Aspose.Words for Java API Reference
-description: Specifies options for find/replace operations.
+description: Specifies options for find/replace operations in Java.
 type: docs
 weight: 272
 url: /java/com.aspose.words/findreplaceoptions/
@@ -42,7 +43,7 @@ To learn more, visit the [ Find and Replace ][Find and Replace] documentation ar
 | [getIgnoreFields()](#getIgnoreFields) | Gets a boolean value indicating either to ignore text inside fields. |
 | [getIgnoreFootnotes()](#getIgnoreFootnotes) | Gets a boolean value indicating either to ignore footnotes. |
 | [getIgnoreInserted()](#getIgnoreInserted) | Gets a boolean value indicating either to ignore text inside insert revisions. |
-| [getIgnoreStructuredDocumentTags()](#getIgnoreStructuredDocumentTags) | Gets a boolean value indicating either to ignore content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag). |
+| [getIgnoreStructuredDocumentTags()](#getIgnoreStructuredDocumentTags) | Gets a boolean value indicating either to ignore content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/). |
 | [getLegacyMode()](#getLegacyMode) | Gets a boolean value indicating that old find/replace algorithm is used. |
 | [getMatchCase()](#getMatchCase) | True indicates case-sensitive comparison, false indicates case-insensitive comparison. |
 | [getReplacingCallback()](#getReplacingCallback) | The user-defined method which is called before every replace occurrence. |
@@ -59,7 +60,7 @@ To learn more, visit the [ Find and Replace ][Find and Replace] documentation ar
 | [setIgnoreFields(boolean value)](#setIgnoreFields-boolean) | Sets a boolean value indicating either to ignore text inside fields. |
 | [setIgnoreFootnotes(boolean value)](#setIgnoreFootnotes-boolean) | Sets a boolean value indicating either to ignore footnotes. |
 | [setIgnoreInserted(boolean value)](#setIgnoreInserted-boolean) | Sets a boolean value indicating either to ignore text inside insert revisions. |
-| [setIgnoreStructuredDocumentTags(boolean value)](#setIgnoreStructuredDocumentTags-boolean) | Sets a boolean value indicating either to ignore content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag). |
+| [setIgnoreStructuredDocumentTags(boolean value)](#setIgnoreStructuredDocumentTags-boolean) | Sets a boolean value indicating either to ignore content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/). |
 | [setLegacyMode(boolean value)](#setLegacyMode-boolean) | Sets a boolean value indicating that old find/replace algorithm is used. |
 | [setMatchCase(boolean value)](#setMatchCase-boolean) | True indicates case-sensitive comparison, false indicates case-insensitive comparison. |
 | [setReplacingCallback(IReplacingCallback value)](#setReplacingCallback-com.aspose.words.IReplacingCallback) | The user-defined method which is called before every replace occurrence. |
@@ -102,7 +103,7 @@ Initializes a new instance of this class.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| replacingCallback | [IReplacingCallback](../../com.aspose.words/ireplacingcallback) |  |
+| replacingCallback | [IReplacingCallback](../../com.aspose.words/ireplacingcallback/) |  |
 
 ### FindReplaceOptions(int direction, IReplacingCallback replacingCallback) {#FindReplaceOptions-int-com.aspose.words.IReplacingCallback}
 ```
@@ -116,7 +117,7 @@ Initializes a new instance of this class.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | direction | int |  |
-| replacingCallback | [IReplacingCallback](../../com.aspose.words/ireplacingcallback) |  |
+| replacingCallback | [IReplacingCallback](../../com.aspose.words/ireplacingcallback/) |  |
 
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
@@ -142,7 +143,7 @@ public Font getApplyFont()
 Text formatting applied to new content.
 
 **Returns:**
-[Font](../../com.aspose.words/font) - The corresponding [Font](../../com.aspose.words/font) value.
+[Font](../../com.aspose.words/font/) - The corresponding [Font](../../com.aspose.words/font/) value.
 ### getApplyParagraphFormat() {#getApplyParagraphFormat}
 ```
 public ParagraphFormat getApplyParagraphFormat()
@@ -152,7 +153,7 @@ public ParagraphFormat getApplyParagraphFormat()
 Paragraph formatting applied to new content.
 
 **Returns:**
-[ParagraphFormat](../../com.aspose.words/paragraphformat) - The corresponding [ParagraphFormat](../../com.aspose.words/paragraphformat) value.
+[ParagraphFormat](../../com.aspose.words/paragraphformat/) - The corresponding [ParagraphFormat](../../com.aspose.words/paragraphformat/) value.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -169,10 +170,10 @@ public int getDirection()
 ```
 
 
-Selects direction for replace. Default value is [FindReplaceDirection.FORWARD](../../com.aspose.words/findreplacedirection\#FORWARD).
+Selects direction for replace. Default value is [FindReplaceDirection.FORWARD](../../com.aspose.words/findreplacedirection/\#FORWARD).
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [FindReplaceDirection](../../com.aspose.words/findreplacedirection) constants.
+int - The corresponding  int  value. The returned value is one of [FindReplaceDirection](../../com.aspose.words/findreplacedirection/) constants.
 ### getFindWholeWordsOnly() {#getFindWholeWordsOnly}
 ```
 public boolean getFindWholeWordsOnly()
@@ -201,9 +202,9 @@ public boolean getIgnoreFieldCodes()
 
 Gets a boolean value indicating either to ignore text inside field codes. The default value is  false .
 
-This option affects only field codes (it does not ignore nodes between [NodeType.FIELD\_SEPARATOR](../../com.aspose.words/nodetype\#FIELD-SEPARATOR) and [NodeType.FIELD\_END](../../com.aspose.words/nodetype\#FIELD-END)).
+This option affects only field codes (it does not ignore nodes between [NodeType.FIELD\_SEPARATOR](../../com.aspose.words/nodetype/\#FIELD-SEPARATOR) and [NodeType.FIELD\_END](../../com.aspose.words/nodetype/\#FIELD-END)).
 
-To ignore whole field, please use corresponding option [getIgnoreFields()](../../com.aspose.words/findreplaceoptions\#getIgnoreFields) / [setIgnoreFields(boolean)](../../com.aspose.words/findreplaceoptions\#setIgnoreFields-boolean).
+To ignore whole field, please use corresponding option [getIgnoreFields()](../../com.aspose.words/findreplaceoptions/\#getIgnoreFields) / [setIgnoreFields(boolean)](../../com.aspose.words/findreplaceoptions/\#setIgnoreFields-boolean).
 
 **Returns:**
 boolean - A boolean value indicating either to ignore text inside field codes.
@@ -215,9 +216,9 @@ public boolean getIgnoreFields()
 
 Gets a boolean value indicating either to ignore text inside fields. The default value is  false .
 
-This option affects whole field (all nodes between [NodeType.FIELD\_START](../../com.aspose.words/nodetype\#FIELD-START) and [NodeType.FIELD\_END](../../com.aspose.words/nodetype\#FIELD-END)).
+This option affects whole field (all nodes between [NodeType.FIELD\_START](../../com.aspose.words/nodetype/\#FIELD-START) and [NodeType.FIELD\_END](../../com.aspose.words/nodetype/\#FIELD-END)).
 
-To ignore only field codes, please use corresponding option [getIgnoreFieldCodes()](../../com.aspose.words/findreplaceoptions\#getIgnoreFieldCodes) / [setIgnoreFieldCodes(boolean)](../../com.aspose.words/findreplaceoptions\#setIgnoreFieldCodes-boolean).
+To ignore only field codes, please use corresponding option [getIgnoreFieldCodes()](../../com.aspose.words/findreplaceoptions/\#getIgnoreFieldCodes) / [setIgnoreFieldCodes(boolean)](../../com.aspose.words/findreplaceoptions/\#setIgnoreFieldCodes-boolean).
 
 **Returns:**
 boolean - A boolean value indicating either to ignore text inside fields.
@@ -247,14 +248,14 @@ public boolean getIgnoreStructuredDocumentTags()
 ```
 
 
-Gets a boolean value indicating either to ignore content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag). The default value is  false .
+Gets a boolean value indicating either to ignore content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/). The default value is  false .
 
-When this option is set to  true , the content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) will be treated as a simple text.
+When this option is set to  true , the content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) will be treated as a simple text.
 
-Otherwise, [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) will be processed as standalone Story and replacing pattern will be searched separately for each [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag), so that if pattern crosses a [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag), then replacement will not be performed for such pattern.
+Otherwise, [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) will be processed as standalone Story and replacing pattern will be searched separately for each [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/), so that if pattern crosses a [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/), then replacement will not be performed for such pattern.
 
 **Returns:**
-boolean - A boolean value indicating either to ignore content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag).
+boolean - A boolean value indicating either to ignore content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/).
 ### getLegacyMode() {#getLegacyMode}
 ```
 public boolean getLegacyMode()
@@ -284,7 +285,7 @@ public IReplacingCallback getReplacingCallback()
 The user-defined method which is called before every replace occurrence.
 
 **Returns:**
-[IReplacingCallback](../../com.aspose.words/ireplacingcallback) - The corresponding [IReplacingCallback](../../com.aspose.words/ireplacingcallback) value.
+[IReplacingCallback](../../com.aspose.words/ireplacingcallback/) - The corresponding [IReplacingCallback](../../com.aspose.words/ireplacingcallback/) value.
 ### getSmartParagraphBreakReplacement() {#getSmartParagraphBreakReplacement}
 ```
 public boolean getSmartParagraphBreakReplacement()
@@ -351,12 +352,12 @@ public void setDirection(int value)
 ```
 
 
-Selects direction for replace. Default value is [FindReplaceDirection.FORWARD](../../com.aspose.words/findreplacedirection\#FORWARD).
+Selects direction for replace. Default value is [FindReplaceDirection.FORWARD](../../com.aspose.words/findreplacedirection/\#FORWARD).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [FindReplaceDirection](../../com.aspose.words/findreplacedirection) constants. |
+| value | int | The corresponding  int  value. The value must be one of [FindReplaceDirection](../../com.aspose.words/findreplacedirection/) constants. |
 
 ### setFindWholeWordsOnly(boolean value) {#setFindWholeWordsOnly-boolean}
 ```
@@ -392,9 +393,9 @@ public void setIgnoreFieldCodes(boolean value)
 
 Sets a boolean value indicating either to ignore text inside field codes. The default value is  false .
 
-This option affects only field codes (it does not ignore nodes between [NodeType.FIELD\_SEPARATOR](../../com.aspose.words/nodetype\#FIELD-SEPARATOR) and [NodeType.FIELD\_END](../../com.aspose.words/nodetype\#FIELD-END)).
+This option affects only field codes (it does not ignore nodes between [NodeType.FIELD\_SEPARATOR](../../com.aspose.words/nodetype/\#FIELD-SEPARATOR) and [NodeType.FIELD\_END](../../com.aspose.words/nodetype/\#FIELD-END)).
 
-To ignore whole field, please use corresponding option [getIgnoreFields()](../../com.aspose.words/findreplaceoptions\#getIgnoreFields) / [setIgnoreFields(boolean)](../../com.aspose.words/findreplaceoptions\#setIgnoreFields-boolean).
+To ignore whole field, please use corresponding option [getIgnoreFields()](../../com.aspose.words/findreplaceoptions/\#getIgnoreFields) / [setIgnoreFields(boolean)](../../com.aspose.words/findreplaceoptions/\#setIgnoreFields-boolean).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -409,9 +410,9 @@ public void setIgnoreFields(boolean value)
 
 Sets a boolean value indicating either to ignore text inside fields. The default value is  false .
 
-This option affects whole field (all nodes between [NodeType.FIELD\_START](../../com.aspose.words/nodetype\#FIELD-START) and [NodeType.FIELD\_END](../../com.aspose.words/nodetype\#FIELD-END)).
+This option affects whole field (all nodes between [NodeType.FIELD\_START](../../com.aspose.words/nodetype/\#FIELD-START) and [NodeType.FIELD\_END](../../com.aspose.words/nodetype/\#FIELD-END)).
 
-To ignore only field codes, please use corresponding option [getIgnoreFieldCodes()](../../com.aspose.words/findreplaceoptions\#getIgnoreFieldCodes) / [setIgnoreFieldCodes(boolean)](../../com.aspose.words/findreplaceoptions\#setIgnoreFieldCodes-boolean).
+To ignore only field codes, please use corresponding option [getIgnoreFieldCodes()](../../com.aspose.words/findreplaceoptions/\#getIgnoreFieldCodes) / [setIgnoreFieldCodes(boolean)](../../com.aspose.words/findreplaceoptions/\#setIgnoreFieldCodes-boolean).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -450,16 +451,16 @@ public void setIgnoreStructuredDocumentTags(boolean value)
 ```
 
 
-Sets a boolean value indicating either to ignore content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag). The default value is  false .
+Sets a boolean value indicating either to ignore content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/). The default value is  false .
 
-When this option is set to  true , the content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) will be treated as a simple text.
+When this option is set to  true , the content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) will be treated as a simple text.
 
-Otherwise, [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) will be processed as standalone Story and replacing pattern will be searched separately for each [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag), so that if pattern crosses a [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag), then replacement will not be performed for such pattern.
+Otherwise, [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) will be processed as standalone Story and replacing pattern will be searched separately for each [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/), so that if pattern crosses a [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/), then replacement will not be performed for such pattern.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | A boolean value indicating either to ignore content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag). |
+| value | boolean | A boolean value indicating either to ignore content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/). |
 
 ### setLegacyMode(boolean value) {#setLegacyMode-boolean}
 ```
@@ -498,7 +499,7 @@ The user-defined method which is called before every replace occurrence.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IReplacingCallback](../../com.aspose.words/ireplacingcallback) | The corresponding [IReplacingCallback](../../com.aspose.words/ireplacingcallback) value. |
+| value | [IReplacingCallback](../../com.aspose.words/ireplacingcallback/) | The corresponding [IReplacingCallback](../../com.aspose.words/ireplacingcallback/) value. |
 
 ### setSmartParagraphBreakReplacement(boolean value) {#setSmartParagraphBreakReplacement-boolean}
 ```

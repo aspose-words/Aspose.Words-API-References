@@ -1,7 +1,8 @@
 ---
 title: Dml3DEffectsRenderingMode
+linktitle: Dml3DEffectsRenderingMode
 second_title: Aspose.Words for Java API Reference
-description: Specifies how 3D shape effects are rendered.
+description: Specifies how 3D shape effects are rendered in Java.
 type: docs
 weight: 117
 url: /java/com.aspose.words/dml3deffectsrenderingmode/
@@ -44,7 +45,7 @@ public static int ADVANCED
 ```
 
 
-Rendering of an extended list of special effects including advanced 3D effects such as bevels, lighting and materials. The current implementation uses OpenGL. Please make sure that OpenGL library version 1.1 or higher is installed on your system before use. This mode is still under development, and some things may not be supported, so it's recommended to use the [BASIC](../../com.aspose.words/dml3deffectsrenderingmode\#BASIC) mode if the rendering result is not acceptable. Please see documentation for details.
+Rendering of an extended list of special effects including advanced 3D effects such as bevels, lighting and materials. The current implementation uses OpenGL. Please make sure that OpenGL library version 1.1 or higher is installed on your system before use. This mode is still under development, and some things may not be supported, so it's recommended to use the [BASIC](../../com.aspose.words/dml3deffectsrenderingmode/\#BASIC) mode if the rendering result is not acceptable. Please see documentation for details.
 
 ### BASIC {#BASIC}
 ```

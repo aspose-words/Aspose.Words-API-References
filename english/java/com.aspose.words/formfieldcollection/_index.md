@@ -1,7 +1,8 @@
 ---
 title: FormFieldCollection
+linktitle: FormFieldCollection
 second_title: Aspose.Words for Java API Reference
-description: A collection of  objects that represent all the form fields in a range.
+description: A collection of  objects that represent all the form fields in a range in Java.
 type: docs
 weight: 299
 url: /java/com.aspose.words/formfieldcollection/
@@ -16,7 +17,7 @@ java.lang.Iterable
 public class FormFieldCollection implements Iterable
 ```
 
-A collection of [FormField](../../com.aspose.words/formfield) objects that represent all the form fields in a range.
+A collection of [FormField](../../com.aspose.words/formfield/) objects that represent all the form fields in a range.
 
 To learn more, visit the [ Working with Form Fields ][Working with Form Fields] documentation article.
 
@@ -87,7 +88,7 @@ If index is negative and its absolute value is greater than the number of items 
 | index | int | An index into the collection. |
 
 **Returns:**
-[FormField](../../com.aspose.words/formfield) - A form field at the specified index.
+[FormField](../../com.aspose.words/formfield/) - A form field at the specified index.
 ### get(String bookmarkName) {#get-java.lang.String}
 ```
 public FormField get(String bookmarkName)
@@ -102,7 +103,7 @@ Returns a form field by bookmark name. Returns  null  if the form field with the
 | bookmarkName | java.lang.String | Case-insensitive bookmark name. |
 
 **Returns:**
-[FormField](../../com.aspose.words/formfield) - A form field by bookmark name.
+[FormField](../../com.aspose.words/formfield/) - A form field by bookmark name.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()

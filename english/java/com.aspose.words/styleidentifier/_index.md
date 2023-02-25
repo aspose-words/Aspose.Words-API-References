@@ -1,9 +1,10 @@
 ---
 title: StyleIdentifier
+linktitle: StyleIdentifier
 second_title: Aspose.Words for Java API Reference
-description: Locale independent style identifier.
+description: Locale independent style identifier in Java.
 type: docs
-weight: 542
+weight: 544
 url: /java/com.aspose.words/styleidentifier/
 ---
 
@@ -17,7 +18,7 @@ Locale independent style identifier.
 
 The names of built-in styles in MS Word are localized for different languages. Using a style identifier you can find the correct style regardless of the document language.
 
-All user defined styles are assigned the [USER](../../com.aspose.words/styleidentifier\#USER) value.
+All user defined styles are assigned the [USER](../../com.aspose.words/styleidentifier/\#USER) value.
 ## Fields
 
 | Field | Description |

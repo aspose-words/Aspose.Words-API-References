@@ -1,9 +1,10 @@
 ---
 title: ReportBuildOptions
+linktitle: ReportBuildOptions
 second_title: Aspose.Words for Java API Reference
-description: Specifies options controlling behavior of  while building a report.
+description: Specifies options controlling behavior of  while building a report in Java.
 type: docs
-weight: 481
+weight: 483
 url: /java/com.aspose.words/reportbuildoptions/
 ---
 
@@ -13,7 +14,7 @@ java.lang.Object
 public class ReportBuildOptions
 ```
 
-Specifies options controlling behavior of [ReportingEngine](../../com.aspose.words/reportingengine) while building a report.
+Specifies options controlling behavior of [ReportingEngine](../../com.aspose.words/reportingengine/) while building a report.
 ## Fields
 
 | Field | Description |
@@ -95,7 +96,7 @@ Specifies that the engine should visit section child nodes (headers, footers, bo
 
 By default, the engine treats headers and footers as if they were linked to section breaks. That is, when visiting section child nodes, a body is visited first and only then, headers and footers are visited. This agrees with Microsoft Word behavior when copy-pasting or removing multi-section contents and produces more correct results in most scenarios.
 
-Prior to Aspose.Words 21.9, the engine used another visiting order: Section child nodes were visited in an order they appear in a document. Apply this value to [ReportingEngine.getOptions()](../../com.aspose.words/reportingengine\#getOptions) / [ReportingEngine.setOptions(int)](../../com.aspose.words/reportingengine\#setOptions-int) if compatibility with older versions of Aspose.Words is required.
+Prior to Aspose.Words 21.9, the engine used another visiting order: Section child nodes were visited in an order they appear in a document. Apply this value to [ReportingEngine.getOptions()](../../com.aspose.words/reportingengine/\#getOptions) / [ReportingEngine.setOptions(int)](../../com.aspose.words/reportingengine/\#setOptions-int) if compatibility with older versions of Aspose.Words is required.
 
 ### length {#length}
 ```

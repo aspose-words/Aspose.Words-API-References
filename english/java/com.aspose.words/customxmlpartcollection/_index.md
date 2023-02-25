@@ -1,7 +1,8 @@
 ---
 title: CustomXmlPartCollection
+linktitle: CustomXmlPartCollection
 second_title: Aspose.Words for Java API Reference
-description: Represents a collection of Custom XML Parts.
+description: Represents a collection of Custom XML Parts in Java.
 type: docs
 weight: 106
 url: /java/com.aspose.words/customxmlpartcollection/
@@ -16,14 +17,14 @@ java.lang.Iterable
 public class CustomXmlPartCollection implements Iterable
 ```
 
-Represents a collection of Custom XML Parts. The items are [CustomXmlPart](../../com.aspose.words/customxmlpart) objects.
+Represents a collection of Custom XML Parts. The items are [CustomXmlPart](../../com.aspose.words/customxmlpart/) objects.
 
 To learn more, visit the [ Structured Document Tags or Content Control ][Structured Document Tags or Content Control] documentation article.
 
-You do not normally need to create instances of this class. You can access custom XML data stored in a document via the [Document.getCustomXmlParts()](../../com.aspose.words/document\#getCustomXmlParts) / [Document.setCustomXmlParts(com.aspose.words.CustomXmlPartCollection)](../../com.aspose.words/document\#setCustomXmlParts-com.aspose.words.CustomXmlPartCollection) property.
+You do not normally need to create instances of this class. You can access custom XML data stored in a document via the [Document.getCustomXmlParts()](../../com.aspose.words/document/\#getCustomXmlParts) / [Document.setCustomXmlParts(com.aspose.words.CustomXmlPartCollection)](../../com.aspose.words/document/\#setCustomXmlParts-com.aspose.words.CustomXmlPartCollection) property.
 
 
-[Structured Document Tags or Content Control]: https://docs.aspose.com/words/java/structured-document-tags-or-content-control/
+[Structured Document Tags or Content Control]: https://docs.aspose.com/words/java/working-with-content-control-sdt/
 ## Methods
 
 | Method | Description |
@@ -58,7 +59,7 @@ Adds an item to the collection.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| part | [CustomXmlPart](../../com.aspose.words/customxmlpart) | The custom XML part to add. |
+| part | [CustomXmlPart](../../com.aspose.words/customxmlpart/) | The custom XML part to add. |
 
 ### add(String id, String xml) {#add-java.lang.String-java.lang.String}
 ```
@@ -75,7 +76,7 @@ Creates a new XML part with the specified XML and adds it to the collection.
 | xml | java.lang.String | XML data of the part. |
 
 **Returns:**
-[CustomXmlPart](../../com.aspose.words/customxmlpart) - Created custom XML part.
+[CustomXmlPart](../../com.aspose.words/customxmlpart/) - Created custom XML part.
 ### clear() {#clear}
 ```
 public void clear()
@@ -93,7 +94,7 @@ public CustomXmlPartCollection deepClone()
 Makes a deep copy of this collection and its items.
 
 **Returns:**
-[CustomXmlPartCollection](../../com.aspose.words/customxmlpartcollection)
+[CustomXmlPartCollection](../../com.aspose.words/customxmlpartcollection/)
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
@@ -123,7 +124,7 @@ Gets an item at the specified index.
 | index | int | Zero-based index of the item. |
 
 **Returns:**
-[CustomXmlPart](../../com.aspose.words/customxmlpart) - An item at the specified index.
+[CustomXmlPart](../../com.aspose.words/customxmlpart/) - An item at the specified index.
 ### getById(String id) {#getById-java.lang.String}
 ```
 public CustomXmlPart getById(String id)
@@ -138,7 +139,7 @@ Finds and returns a custom XML part by its identifier.
 | id | java.lang.String | Case-sensitive string that identifies the custom XML part. |
 
 **Returns:**
-[CustomXmlPart](../../com.aspose.words/customxmlpart) - Returns  null  if a custom XML part with the specified identifier is not found.
+[CustomXmlPart](../../com.aspose.words/customxmlpart/) - Returns  null  if a custom XML part with the specified identifier is not found.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -220,7 +221,7 @@ Sets an item at the specified index.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | Zero-based index of the item. |
-| value | [CustomXmlPart](../../com.aspose.words/customxmlpart) | An item at the specified index. |
+| value | [CustomXmlPart](../../com.aspose.words/customxmlpart/) | An item at the specified index. |
 
 ### toString() {#toString}
 ```

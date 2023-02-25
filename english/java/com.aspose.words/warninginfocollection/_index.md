@@ -1,9 +1,10 @@
 ---
 title: WarningInfoCollection
+linktitle: WarningInfoCollection
 second_title: Aspose.Words for Java API Reference
-description: Represents a typed collection of  objects.
+description: Represents a typed collection of  objects in Java.
 type: docs
-weight: 609
+weight: 611
 url: /java/com.aspose.words/warninginfocollection/
 ---
 
@@ -11,16 +12,16 @@ url: /java/com.aspose.words/warninginfocollection/
 java.lang.Object
 
 **All Implemented Interfaces:**
-[com.aspose.words.IWarningCallback](../../com.aspose.words/iwarningcallback), java.lang.Iterable
+[com.aspose.words.IWarningCallback](../../com.aspose.words/iwarningcallback/), java.lang.Iterable
 ```
 public class WarningInfoCollection implements IWarningCallback, Iterable
 ```
 
-Represents a typed collection of [WarningInfo](../../com.aspose.words/warninginfo) objects.
+Represents a typed collection of [WarningInfo](../../com.aspose.words/warninginfo/) objects.
 
 To learn more, visit the [ Programming with Documents ][Programming with Documents] documentation article.
 
-You can use this collection object as the simplest form of [IWarningCallback](../../com.aspose.words/iwarningcallback) implementation to gather all warnings that Aspose.Words generates during a load or save operation. Create an instance of this class and assign it to the [LoadOptions.getWarningCallback()](../../com.aspose.words/loadoptions\#getWarningCallback) / [LoadOptions.setWarningCallback(com.aspose.words.IWarningCallback)](../../com.aspose.words/loadoptions\#setWarningCallback-com.aspose.words.IWarningCallback) or [DocumentBase.getWarningCallback()](../../com.aspose.words/documentbase\#getWarningCallback) / [DocumentBase.setWarningCallback(com.aspose.words.IWarningCallback)](../../com.aspose.words/documentbase\#setWarningCallback-com.aspose.words.IWarningCallback) property.
+You can use this collection object as the simplest form of [IWarningCallback](../../com.aspose.words/iwarningcallback/) implementation to gather all warnings that Aspose.Words generates during a load or save operation. Create an instance of this class and assign it to the [LoadOptions.getWarningCallback()](../../com.aspose.words/loadoptions/\#getWarningCallback) / [LoadOptions.setWarningCallback(com.aspose.words.IWarningCallback)](../../com.aspose.words/loadoptions/\#setWarningCallback-com.aspose.words.IWarningCallback) or [DocumentBase.getWarningCallback()](../../com.aspose.words/documentbase/\#getWarningCallback) / [DocumentBase.setWarningCallback(com.aspose.words.IWarningCallback)](../../com.aspose.words/documentbase/\#setWarningCallback-com.aspose.words.IWarningCallback) property.
 
 
 [Programming with Documents]: https://docs.aspose.com/words/java/programming-with-documents/
@@ -41,7 +42,7 @@ You can use this collection object as the simplest form of [IWarningCallback](..
 | [wait()](#wait) |  |
 | [wait(long arg0)](#wait-long) |  |
 | [wait(long arg0, int arg1)](#wait-long-int) |  |
-| [warning(WarningInfo info)](#warning-com.aspose.words.WarningInfo) | Implements the [IWarningCallback](../../com.aspose.words/iwarningcallback) interface. |
+| [warning(WarningInfo info)](#warning-com.aspose.words.WarningInfo) | Implements the [IWarningCallback](../../com.aspose.words/iwarningcallback/) interface. |
 ### clear() {#clear}
 ```
 public void clear()
@@ -79,7 +80,7 @@ Gets an item at the specified index.
 | index | int | Zero-based index of the item. |
 
 **Returns:**
-[WarningInfo](../../com.aspose.words/warninginfo) - An item at the specified index.
+[WarningInfo](../../com.aspose.words/warninginfo/) - An item at the specified index.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -187,10 +188,10 @@ public void warning(WarningInfo info)
 ```
 
 
-Implements the [IWarningCallback](../../com.aspose.words/iwarningcallback) interface. Adds a warning to this collection.
+Implements the [IWarningCallback](../../com.aspose.words/iwarningcallback/) interface. Adds a warning to this collection.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| info | [WarningInfo](../../com.aspose.words/warninginfo) |  |
+| info | [WarningInfo](../../com.aspose.words/warninginfo/) |  |
 

@@ -1,9 +1,10 @@
 ---
 title: Margins
+linktitle: Margins
 second_title: Aspose.Words for Java API Reference
-description: Specifies preset margins.
+description: Specifies preset margins in Java.
 type: docs
-weight: 390
+weight: 391
 url: /java/com.aspose.words/margins/
 ---
 
@@ -56,7 +57,7 @@ public static int MIRRORED
 ```
 
 
-Mirrored margins. Setting margins to Mirrored will set the appropriate value for [PageSetup.getMultiplePages()](../../com.aspose.words/pagesetup\#getMultiplePages) / [PageSetup.setMultiplePages(int)](../../com.aspose.words/pagesetup\#setMultiplePages-int) property. This will affect the whole document, not just the current section.
+Mirrored margins. Setting margins to Mirrored will set the appropriate value for [PageSetup.getMultiplePages()](../../com.aspose.words/pagesetup/\#getMultiplePages) / [PageSetup.setMultiplePages(int)](../../com.aspose.words/pagesetup/\#setMultiplePages-int) property. This will affect the whole document, not just the current section.
 
 ### MODERATE {#MODERATE}
 ```

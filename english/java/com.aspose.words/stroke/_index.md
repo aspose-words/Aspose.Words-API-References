@@ -1,9 +1,10 @@
 ---
 title: Stroke
+linktitle: Stroke
 second_title: Aspose.Words for Java API Reference
-description: Defines a stroke for a shape.
+description: Defines a stroke for a shape in Java.
 type: docs
-weight: 535
+weight: 537
 url: /java/com.aspose.words/stroke/
 ---
 
@@ -17,7 +18,7 @@ Defines a stroke for a shape.
 
 To learn more, visit the [ Working with Shapes ][Working with Shapes] documentation article.
 
-Use the [Shape.getStroke()](../../com.aspose.words/shape\#getStroke) property to access stroke properties of a shape. You do not create instances of the [Stroke](../../com.aspose.words/stroke) class directly.
+Use the [Shape.getStroke()](../../com.aspose.words/shape/\#getStroke) property to access stroke properties of a shape. You do not create instances of the [Stroke](../../com.aspose.words/stroke/) class directly.
 
 
 [Working with Shapes]: https://docs.aspose.com/words/java/working-with-shapes/
@@ -94,7 +95,7 @@ public Color getBackColor()
 ```
 
 
-Gets the background color of the stroke. The default value for a [Shape](../../com.aspose.words/shape) is .
+Gets the background color of the stroke. The default value for a [Shape](../../com.aspose.words/shape/) is .
 
 **Returns:**
 java.awt.Color - The background color of the stroke.
@@ -116,7 +117,7 @@ public Color getColor()
 
 Defines the color of a stroke.
 
-The default value for a [Shape](../../com.aspose.words/shape) is .
+The default value for a [Shape](../../com.aspose.words/shape/) is .
 
 **Returns:**
 java.awt.Color - The corresponding java.awt.Color value.
@@ -128,7 +129,7 @@ public Color getColor2()
 
 Defines a second color for a stroke.
 
-The default value for a [Shape](../../com.aspose.words/shape) is .
+The default value for a [Shape](../../com.aspose.words/shape/) is .
 
 **Returns:**
 java.awt.Color - The corresponding java.awt.Color value.
@@ -140,10 +141,10 @@ public int getDashStyle()
 
 Specifies the dot and dash pattern for a stroke.
 
-The default value is [DashStyle.SOLID](../../com.aspose.words/dashstyle\#SOLID).
+The default value is [DashStyle.SOLID](../../com.aspose.words/dashstyle/\#SOLID).
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [DashStyle](../../com.aspose.words/dashstyle) constants.
+int - The corresponding  int  value. The returned value is one of [DashStyle](../../com.aspose.words/dashstyle/) constants.
 ### getEndArrowLength() {#getEndArrowLength}
 ```
 public int getEndArrowLength()
@@ -152,10 +153,10 @@ public int getEndArrowLength()
 
 Defines the arrowhead length for the end of a stroke.
 
-The default value is [ArrowLength.MEDIUM](../../com.aspose.words/arrowlength\#MEDIUM).
+The default value is [ArrowLength.MEDIUM](../../com.aspose.words/arrowlength/\#MEDIUM).
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [ArrowLength](../../com.aspose.words/arrowlength) constants.
+int - The corresponding  int  value. The returned value is one of [ArrowLength](../../com.aspose.words/arrowlength/) constants.
 ### getEndArrowType() {#getEndArrowType}
 ```
 public int getEndArrowType()
@@ -164,10 +165,10 @@ public int getEndArrowType()
 
 Defines the arrowhead for the end of a stroke.
 
-The default value is [ArrowType.NONE](../../com.aspose.words/arrowtype\#NONE).
+The default value is [ArrowType.NONE](../../com.aspose.words/arrowtype/\#NONE).
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [ArrowType](../../com.aspose.words/arrowtype) constants.
+int - The corresponding  int  value. The returned value is one of [ArrowType](../../com.aspose.words/arrowtype/) constants.
 ### getEndArrowWidth() {#getEndArrowWidth}
 ```
 public int getEndArrowWidth()
@@ -176,10 +177,10 @@ public int getEndArrowWidth()
 
 Defines the arrowhead width for the end of a stroke.
 
-The default value is [ArrowWidth.MEDIUM](../../com.aspose.words/arrowwidth\#MEDIUM).
+The default value is [ArrowWidth.MEDIUM](../../com.aspose.words/arrowwidth/\#MEDIUM).
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [ArrowWidth](../../com.aspose.words/arrowwidth) constants.
+int - The corresponding  int  value. The returned value is one of [ArrowWidth](../../com.aspose.words/arrowwidth/) constants.
 ### getEndCap() {#getEndCap}
 ```
 public int getEndCap()
@@ -188,17 +189,17 @@ public int getEndCap()
 
 Defines the cap style for the end of a stroke.
 
-The default value is [EndCap.FLAT](../../com.aspose.words/endcap\#FLAT).
+The default value is [EndCap.FLAT](../../com.aspose.words/endcap/\#FLAT).
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [EndCap](../../com.aspose.words/endcap) constants.
+int - The corresponding  int  value. The returned value is one of [EndCap](../../com.aspose.words/endcap/) constants.
 ### getForeColor() {#getForeColor}
 ```
 public Color getForeColor()
 ```
 
 
-Gets the foreground color of the stroke. The default value for a [Shape](../../com.aspose.words/shape) is .
+Gets the foreground color of the stroke. The default value for a [Shape](../../com.aspose.words/shape/) is .
 
 **Returns:**
 java.awt.Color - The foreground color of the stroke.
@@ -220,10 +221,10 @@ public int getJoinStyle()
 
 Defines the join style of a polyline.
 
-The default value is [JoinStyle.ROUND](../../com.aspose.words/joinstyle\#ROUND).
+The default value is [JoinStyle.ROUND](../../com.aspose.words/joinstyle/\#ROUND).
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [JoinStyle](../../com.aspose.words/joinstyle) constants.
+int - The corresponding  int  value. The returned value is one of [JoinStyle](../../com.aspose.words/joinstyle/) constants.
 ### getLineStyle() {#getLineStyle}
 ```
 public int getLineStyle()
@@ -232,10 +233,10 @@ public int getLineStyle()
 
 Defines the line style of the stroke.
 
-The default value is [ShapeLineStyle.SINGLE](../../com.aspose.words/shapelinestyle\#SINGLE).
+The default value is [ShapeLineStyle.SINGLE](../../com.aspose.words/shapelinestyle/\#SINGLE).
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [ShapeLineStyle](../../com.aspose.words/shapelinestyle) constants.
+int - The corresponding  int  value. The returned value is one of [ShapeLineStyle](../../com.aspose.words/shapelinestyle/) constants.
 ### getOn() {#getOn}
 ```
 public boolean getOn()
@@ -244,7 +245,7 @@ public boolean getOn()
 
 Defines whether the path will be stroked.
 
-The default value for a [Shape](../../com.aspose.words/shape) is  true .
+The default value for a [Shape](../../com.aspose.words/shape/) is  true .
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -268,10 +269,10 @@ public int getStartArrowLength()
 
 Defines the arrowhead length for the start of a stroke.
 
-The default value is [ArrowLength.MEDIUM](../../com.aspose.words/arrowlength\#MEDIUM).
+The default value is [ArrowLength.MEDIUM](../../com.aspose.words/arrowlength/\#MEDIUM).
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [ArrowLength](../../com.aspose.words/arrowlength) constants.
+int - The corresponding  int  value. The returned value is one of [ArrowLength](../../com.aspose.words/arrowlength/) constants.
 ### getStartArrowType() {#getStartArrowType}
 ```
 public int getStartArrowType()
@@ -280,10 +281,10 @@ public int getStartArrowType()
 
 Defines the arrowhead for the start of a stroke.
 
-The default value is [ArrowType.NONE](../../com.aspose.words/arrowtype\#NONE).
+The default value is [ArrowType.NONE](../../com.aspose.words/arrowtype/\#NONE).
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [ArrowType](../../com.aspose.words/arrowtype) constants.
+int - The corresponding  int  value. The returned value is one of [ArrowType](../../com.aspose.words/arrowtype/) constants.
 ### getStartArrowWidth() {#getStartArrowWidth}
 ```
 public int getStartArrowWidth()
@@ -292,10 +293,10 @@ public int getStartArrowWidth()
 
 Defines the arrowhead width for the start of a stroke.
 
-The default value is [ArrowWidth.MEDIUM](../../com.aspose.words/arrowwidth\#MEDIUM).
+The default value is [ArrowWidth.MEDIUM](../../com.aspose.words/arrowwidth/\#MEDIUM).
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [ArrowWidth](../../com.aspose.words/arrowwidth) constants.
+int - The corresponding  int  value. The returned value is one of [ArrowWidth](../../com.aspose.words/arrowwidth/) constants.
 ### getTransparency() {#getTransparency}
 ```
 public double getTransparency()
@@ -312,7 +313,7 @@ public boolean getVisible()
 ```
 
 
-Gets a flag indicating whether the stroke is visible. The default value for a [Shape](../../com.aspose.words/shape) is  true .
+Gets a flag indicating whether the stroke is visible. The default value for a [Shape](../../com.aspose.words/shape/) is  true .
 
 **Returns:**
 boolean - A flag indicating whether the stroke is visible.
@@ -324,7 +325,7 @@ public double getWeight()
 
 Defines the brush thickness that strokes the path of a shape in points.
 
-The default value for a [Shape](../../com.aspose.words/shape) is 0.75.
+The default value for a [Shape](../../com.aspose.words/shape/) is 0.75.
 
 **Returns:**
 double - The corresponding  double  value.
@@ -360,7 +361,7 @@ public void setBackColor(Color value)
 ```
 
 
-Sets the background color of the stroke. The default value for a [Shape](../../com.aspose.words/shape) is .
+Sets the background color of the stroke. The default value for a [Shape](../../com.aspose.words/shape/) is .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -375,7 +376,7 @@ public void setColor(Color value)
 
 Defines the color of a stroke.
 
-The default value for a [Shape](../../com.aspose.words/shape) is .
+The default value for a [Shape](../../com.aspose.words/shape/) is .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -390,7 +391,7 @@ public void setColor2(Color value)
 
 Defines a second color for a stroke.
 
-The default value for a [Shape](../../com.aspose.words/shape) is .
+The default value for a [Shape](../../com.aspose.words/shape/) is .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -405,12 +406,12 @@ public void setDashStyle(int value)
 
 Specifies the dot and dash pattern for a stroke.
 
-The default value is [DashStyle.SOLID](../../com.aspose.words/dashstyle\#SOLID).
+The default value is [DashStyle.SOLID](../../com.aspose.words/dashstyle/\#SOLID).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [DashStyle](../../com.aspose.words/dashstyle) constants. |
+| value | int | The corresponding  int  value. The value must be one of [DashStyle](../../com.aspose.words/dashstyle/) constants. |
 
 ### setEndArrowLength(int value) {#setEndArrowLength-int}
 ```
@@ -420,12 +421,12 @@ public void setEndArrowLength(int value)
 
 Defines the arrowhead length for the end of a stroke.
 
-The default value is [ArrowLength.MEDIUM](../../com.aspose.words/arrowlength\#MEDIUM).
+The default value is [ArrowLength.MEDIUM](../../com.aspose.words/arrowlength/\#MEDIUM).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [ArrowLength](../../com.aspose.words/arrowlength) constants. |
+| value | int | The corresponding  int  value. The value must be one of [ArrowLength](../../com.aspose.words/arrowlength/) constants. |
 
 ### setEndArrowType(int value) {#setEndArrowType-int}
 ```
@@ -435,12 +436,12 @@ public void setEndArrowType(int value)
 
 Defines the arrowhead for the end of a stroke.
 
-The default value is [ArrowType.NONE](../../com.aspose.words/arrowtype\#NONE).
+The default value is [ArrowType.NONE](../../com.aspose.words/arrowtype/\#NONE).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [ArrowType](../../com.aspose.words/arrowtype) constants. |
+| value | int | The corresponding  int  value. The value must be one of [ArrowType](../../com.aspose.words/arrowtype/) constants. |
 
 ### setEndArrowWidth(int value) {#setEndArrowWidth-int}
 ```
@@ -450,12 +451,12 @@ public void setEndArrowWidth(int value)
 
 Defines the arrowhead width for the end of a stroke.
 
-The default value is [ArrowWidth.MEDIUM](../../com.aspose.words/arrowwidth\#MEDIUM).
+The default value is [ArrowWidth.MEDIUM](../../com.aspose.words/arrowwidth/\#MEDIUM).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [ArrowWidth](../../com.aspose.words/arrowwidth) constants. |
+| value | int | The corresponding  int  value. The value must be one of [ArrowWidth](../../com.aspose.words/arrowwidth/) constants. |
 
 ### setEndCap(int value) {#setEndCap-int}
 ```
@@ -465,12 +466,12 @@ public void setEndCap(int value)
 
 Defines the cap style for the end of a stroke.
 
-The default value is [EndCap.FLAT](../../com.aspose.words/endcap\#FLAT).
+The default value is [EndCap.FLAT](../../com.aspose.words/endcap/\#FLAT).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [EndCap](../../com.aspose.words/endcap) constants. |
+| value | int | The corresponding  int  value. The value must be one of [EndCap](../../com.aspose.words/endcap/) constants. |
 
 ### setForeColor(Color value) {#setForeColor-java.awt.Color}
 ```
@@ -478,7 +479,7 @@ public void setForeColor(Color value)
 ```
 
 
-Sets the foreground color of the stroke. The default value for a [Shape](../../com.aspose.words/shape) is .
+Sets the foreground color of the stroke. The default value for a [Shape](../../com.aspose.words/shape/) is .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -493,12 +494,12 @@ public void setJoinStyle(int value)
 
 Defines the join style of a polyline.
 
-The default value is [JoinStyle.ROUND](../../com.aspose.words/joinstyle\#ROUND).
+The default value is [JoinStyle.ROUND](../../com.aspose.words/joinstyle/\#ROUND).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [JoinStyle](../../com.aspose.words/joinstyle) constants. |
+| value | int | The corresponding  int  value. The value must be one of [JoinStyle](../../com.aspose.words/joinstyle/) constants. |
 
 ### setLineStyle(int value) {#setLineStyle-int}
 ```
@@ -508,12 +509,12 @@ public void setLineStyle(int value)
 
 Defines the line style of the stroke.
 
-The default value is [ShapeLineStyle.SINGLE](../../com.aspose.words/shapelinestyle\#SINGLE).
+The default value is [ShapeLineStyle.SINGLE](../../com.aspose.words/shapelinestyle/\#SINGLE).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [ShapeLineStyle](../../com.aspose.words/shapelinestyle) constants. |
+| value | int | The corresponding  int  value. The value must be one of [ShapeLineStyle](../../com.aspose.words/shapelinestyle/) constants. |
 
 ### setOn(boolean value) {#setOn-boolean}
 ```
@@ -523,7 +524,7 @@ public void setOn(boolean value)
 
 Defines whether the path will be stroked.
 
-The default value for a [Shape](../../com.aspose.words/shape) is  true .
+The default value for a [Shape](../../com.aspose.words/shape/) is  true .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -553,12 +554,12 @@ public void setStartArrowLength(int value)
 
 Defines the arrowhead length for the start of a stroke.
 
-The default value is [ArrowLength.MEDIUM](../../com.aspose.words/arrowlength\#MEDIUM).
+The default value is [ArrowLength.MEDIUM](../../com.aspose.words/arrowlength/\#MEDIUM).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [ArrowLength](../../com.aspose.words/arrowlength) constants. |
+| value | int | The corresponding  int  value. The value must be one of [ArrowLength](../../com.aspose.words/arrowlength/) constants. |
 
 ### setStartArrowType(int value) {#setStartArrowType-int}
 ```
@@ -568,12 +569,12 @@ public void setStartArrowType(int value)
 
 Defines the arrowhead for the start of a stroke.
 
-The default value is [ArrowType.NONE](../../com.aspose.words/arrowtype\#NONE).
+The default value is [ArrowType.NONE](../../com.aspose.words/arrowtype/\#NONE).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [ArrowType](../../com.aspose.words/arrowtype) constants. |
+| value | int | The corresponding  int  value. The value must be one of [ArrowType](../../com.aspose.words/arrowtype/) constants. |
 
 ### setStartArrowWidth(int value) {#setStartArrowWidth-int}
 ```
@@ -583,12 +584,12 @@ public void setStartArrowWidth(int value)
 
 Defines the arrowhead width for the start of a stroke.
 
-The default value is [ArrowWidth.MEDIUM](../../com.aspose.words/arrowwidth\#MEDIUM).
+The default value is [ArrowWidth.MEDIUM](../../com.aspose.words/arrowwidth/\#MEDIUM).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [ArrowWidth](../../com.aspose.words/arrowwidth) constants. |
+| value | int | The corresponding  int  value. The value must be one of [ArrowWidth](../../com.aspose.words/arrowwidth/) constants. |
 
 ### setTransparency(double value) {#setTransparency-double}
 ```
@@ -609,7 +610,7 @@ public void setVisible(boolean value)
 ```
 
 
-Sets a flag indicating whether the stroke is visible. The default value for a [Shape](../../com.aspose.words/shape) is  true .
+Sets a flag indicating whether the stroke is visible. The default value for a [Shape](../../com.aspose.words/shape/) is  true .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -624,7 +625,7 @@ public void setWeight(double value)
 
 Defines the brush thickness that strokes the path of a shape in points.
 
-The default value for a [Shape](../../com.aspose.words/shape) is 0.75.
+The default value for a [Shape](../../com.aspose.words/shape/) is 0.75.
 
 **Parameters:**
 | Parameter | Type | Description |

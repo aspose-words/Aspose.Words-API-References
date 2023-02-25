@@ -1,14 +1,15 @@
 ---
 title: TaskPaneCollection
+linktitle: TaskPaneCollection
 second_title: Aspose.Words for Java API Reference
-description: Specifies a list of persisted task pane objects.
+description: Specifies a list of persisted task pane objects in Java.
 type: docs
-weight: 560
+weight: 562
 url: /java/com.aspose.words/taskpanecollection/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.words.BaseWebExtensionCollection](../../com.aspose.words/basewebextensioncollection)
+java.lang.Object, [com.aspose.words.BaseWebExtensionCollection](../../com.aspose.words/basewebextensioncollection/)
 ```
 public class TaskPaneCollection extends BaseWebExtensionCollection
 ```

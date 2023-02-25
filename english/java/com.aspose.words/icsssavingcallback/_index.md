@@ -1,9 +1,10 @@
 ---
 title: ICssSavingCallback
+linktitle: ICssSavingCallback
 second_title: Aspose.Words for Java API Reference
-description: Implement this interface if you want to control how Aspose.Words saves CSS Cascading Style Sheet when saving a document to HTML.
+description: Implement this interface if you want to control how Aspose.Words saves CSS Cascading Style Sheet when saving a document to HTML in Java.
 type: docs
-weight: 639
+weight: 641
 url: /java/com.aspose.words/icsssavingcallback/
 ---
 ```
@@ -27,5 +28,5 @@ Called when Aspose.Words saves an CSS (Cascading Style Sheet).
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| args | [CssSavingArgs](../../com.aspose.words/csssavingargs) |  |
+| args | [CssSavingArgs](../../com.aspose.words/csssavingargs/) |  |
 

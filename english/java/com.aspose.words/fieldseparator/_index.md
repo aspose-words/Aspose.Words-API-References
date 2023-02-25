@@ -1,14 +1,15 @@
 ---
 title: FieldSeparator
+linktitle: FieldSeparator
 second_title: Aspose.Words for Java API Reference
-description: Represents a Word field separator that separates the field code from the field result.
+description: Represents a Word field separator that separates the field code from the field result in Java.
 type: docs
 weight: 241
 url: /java/com.aspose.words/fieldseparator/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.words.Node](../../com.aspose.words/node), [com.aspose.words.Inline](../../com.aspose.words/inline), [com.aspose.words.SpecialChar](../../com.aspose.words/specialchar), [com.aspose.words.FieldChar](../../com.aspose.words/fieldchar)
+java.lang.Object, [com.aspose.words.Node](../../com.aspose.words/node/), [com.aspose.words.Inline](../../com.aspose.words/inline/), [com.aspose.words.SpecialChar](../../com.aspose.words/specialchar/), [com.aspose.words.FieldChar](../../com.aspose.words/fieldchar/)
 ```
 public class FieldSeparator extends FieldChar
 ```
@@ -17,13 +18,13 @@ Represents a Word field separator that separates the field code from the field r
 
 To learn more, visit the [ Working with Fields ][Working with Fields] documentation article.
 
-[FieldSeparator](../../com.aspose.words/fieldseparator) is an inline-level node and represented by the [ControlChar.FIELD\_SEPARATOR\_CHAR](../../com.aspose.words/controlchar\#FIELD-SEPARATOR-CHAR) control character in the document.
+[FieldSeparator](../../com.aspose.words/fieldseparator/) is an inline-level node and represented by the [ControlChar.FIELD\_SEPARATOR\_CHAR](../../com.aspose.words/controlchar/\#FIELD-SEPARATOR-CHAR) control character in the document.
 
-[FieldSeparator](../../com.aspose.words/fieldseparator) can only be a child of [Paragraph](../../com.aspose.words/paragraph).
+[FieldSeparator](../../com.aspose.words/fieldseparator/) can only be a child of [Paragraph](../../com.aspose.words/paragraph/).
 
 A complete field in a Microsoft Word document is a complex structure consisting of a field start character, field code, field separator character, field result and field end character. Some fields only have field start, field code and field end.
 
-To easily insert a new field into a document, use the [DocumentBuilder.insertField(java.lang.String)](../../com.aspose.words/documentbuilder\#insertField-java.lang.String) method.
+To easily insert a new field into a document, use the [DocumentBuilder.insertField(java.lang.String)](../../com.aspose.words/documentbuilder/\#insertField-java.lang.String) method.
 
 
 [Working with Fields]: https://docs.aspose.com/words/java/working-with-fields/
@@ -49,12 +50,12 @@ To easily insert a new field into a document, use the [DocumentBuilder.insertFie
 | [getFieldType()](#getFieldType) | Returns the type of the field. |
 | [getFont()](#getFont) | Provides access to the font formatting of this object. |
 | [getNextSibling()](#getNextSibling) | Gets the node immediately following this node. |
-| [getNodeType()](#getNodeType) | Returns [NodeType.FIELD\_SEPARATOR](../../com.aspose.words/nodetype\#FIELD-SEPARATOR). |
+| [getNodeType()](#getNodeType) | Returns [NodeType.FIELD\_SEPARATOR](../../com.aspose.words/nodetype/\#FIELD-SEPARATOR). |
 | [getParentNode()](#getParentNode) | Gets the immediate parent of this node. |
-| [getParentParagraph()](#getParentParagraph) | Retrieves the parent [Paragraph](../../com.aspose.words/paragraph) of this node. |
+| [getParentParagraph()](#getParentParagraph) | Retrieves the parent [Paragraph](../../com.aspose.words/paragraph/) of this node. |
 | [getParentParagraph_IInline()](#getParentParagraph-IInline) |  |
 | [getPreviousSibling()](#getPreviousSibling) | Gets the node immediately preceding this node. |
-| [getRange()](#getRange) | Returns a [Range](../../com.aspose.words/range) object that represents the portion of a document that is contained in this node. |
+| [getRange()](#getRange) | Returns a [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node. |
 | [getText()](#getText) | Gets the special character that this node represents. |
 | [hashCode()](#hashCode) |  |
 | [isComposite()](#isComposite) | Returns  true  if this node can contain other nodes. |
@@ -91,14 +92,14 @@ public boolean accept(DocumentVisitor visitor)
 
 Accepts a visitor.
 
-Calls [DocumentVisitor.visitFieldSeparator(com.aspose.words.FieldSeparator)](../../com.aspose.words/documentvisitor\#visitFieldSeparator-com.aspose.words.FieldSeparator).
+Calls [DocumentVisitor.visitFieldSeparator(com.aspose.words.FieldSeparator)](../../com.aspose.words/documentvisitor/\#visitFieldSeparator-com.aspose.words.FieldSeparator).
 
 For more info see the Visitor design pattern.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor) | The visitor that will visit the node. |
+| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor/) | The visitor that will visit the node. |
 
 **Returns:**
 boolean - **False** if the visitor requested the enumeration to stop.
@@ -136,7 +137,7 @@ This method always performs a deep copy of the node. The  isCloneChildren  param
 | isCloneChildren | boolean | True to recursively clone the subtree under the specified node; false to clone only the node itself. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The cloned node.
+[Node](../../com.aspose.words/node/) - The cloned node.
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
@@ -181,7 +182,7 @@ public CompositeNode getAncestor(int ancestorType)
 | ancestorType | int |  |
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode)
+[CompositeNode](../../com.aspose.words/compositenode/)
 ### getAncestor(Class ancestorType) {#getAncestor-java.lang.Class}
 ```
 public CompositeNode getAncestor(Class ancestorType)
@@ -196,7 +197,7 @@ Gets the first ancestor of the specified object type.
 | ancestorType | java.lang.Class | The object type of the ancestor to retrieve. |
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode) - The ancestor of the specified type or  null  if no ancestor of this type was found.
+[CompositeNode](../../com.aspose.words/compositenode/) - The ancestor of the specified type or  null  if no ancestor of this type was found.
 
 The ancestor type matches if it is equal to  ancestorType  or derived from  ancestorType .
 ### getClass() {#getClass}
@@ -267,7 +268,7 @@ Gets the document to which this node belongs.
 The node always belongs to a document even if it has just been created and not yet added to the tree, or if it has been removed from the tree.
 
 **Returns:**
-[DocumentBase](../../com.aspose.words/documentbase) - The document to which this node belongs.
+[DocumentBase](../../com.aspose.words/documentbase/) - The document to which this node belongs.
 ### getDocument_IInline() {#getDocument-IInline}
 ```
 public DocumentBase getDocument_IInline()
@@ -277,17 +278,17 @@ public DocumentBase getDocument_IInline()
 
 
 **Returns:**
-[DocumentBase](../../com.aspose.words/documentbase)
+[DocumentBase](../../com.aspose.words/documentbase/)
 ### getField() {#getField}
 ```
 public Field getField()
 ```
 
 
-Returns a field for the field char. A new [Field](../../com.aspose.words/field) object is created each time the method is called.
+Returns a field for the field char. A new [Field](../../com.aspose.words/field/) object is created each time the method is called.
 
 **Returns:**
-[Field](../../com.aspose.words/field) - A field for the field char.
+[Field](../../com.aspose.words/field/) - A field for the field char.
 ### getFieldType() {#getFieldType}
 ```
 public int getFieldType()
@@ -297,7 +298,7 @@ public int getFieldType()
 Returns the type of the field.
 
 **Returns:**
-int - The type of the field. The returned value is one of [FieldType](../../com.aspose.words/fieldtype) constants.
+int - The type of the field. The returned value is one of [FieldType](../../com.aspose.words/fieldtype/) constants.
 ### getFont() {#getFont}
 ```
 public Font getFont()
@@ -307,7 +308,7 @@ public Font getFont()
 Provides access to the font formatting of this object.
 
 **Returns:**
-[Font](../../com.aspose.words/font) - The corresponding [Font](../../com.aspose.words/font) value.
+[Font](../../com.aspose.words/font/) - The corresponding [Font](../../com.aspose.words/font/) value.
 ### getNextSibling() {#getNextSibling}
 ```
 public Node getNextSibling()
@@ -317,17 +318,17 @@ public Node getNextSibling()
 Gets the node immediately following this node. If there is no next node, a  null  is returned.
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The node immediately following this node.
+[Node](../../com.aspose.words/node/) - The node immediately following this node.
 ### getNodeType() {#getNodeType}
 ```
 public int getNodeType()
 ```
 
 
-Returns [NodeType.FIELD\_SEPARATOR](../../com.aspose.words/nodetype\#FIELD-SEPARATOR).
+Returns [NodeType.FIELD\_SEPARATOR](../../com.aspose.words/nodetype/\#FIELD-SEPARATOR).
 
 **Returns:**
-int - \{[NodeType.FIELD\_SEPARATOR](../../com.aspose.words/nodetype\#FIELD-SEPARATOR). The returned value is one of [NodeType](../../com.aspose.words/nodetype) constants.
+int - \{[NodeType.FIELD\_SEPARATOR](../../com.aspose.words/nodetype/\#FIELD-SEPARATOR). The returned value is one of [NodeType](../../com.aspose.words/nodetype/) constants.
 ### getParentNode() {#getParentNode}
 ```
 public CompositeNode getParentNode()
@@ -339,17 +340,17 @@ Gets the immediate parent of this node.
 If a node has just been created and not yet added to the tree, or if it has been removed from the tree, the parent is  null .
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode) - The immediate parent of this node.
+[CompositeNode](../../com.aspose.words/compositenode/) - The immediate parent of this node.
 ### getParentParagraph() {#getParentParagraph}
 ```
 public Paragraph getParentParagraph()
 ```
 
 
-Retrieves the parent [Paragraph](../../com.aspose.words/paragraph) of this node.
+Retrieves the parent [Paragraph](../../com.aspose.words/paragraph/) of this node.
 
 **Returns:**
-[Paragraph](../../com.aspose.words/paragraph) - The corresponding [Paragraph](../../com.aspose.words/paragraph) value.
+[Paragraph](../../com.aspose.words/paragraph/) - The corresponding [Paragraph](../../com.aspose.words/paragraph/) value.
 ### getParentParagraph_IInline() {#getParentParagraph-IInline}
 ```
 public Paragraph getParentParagraph_IInline()
@@ -359,7 +360,7 @@ public Paragraph getParentParagraph_IInline()
 
 
 **Returns:**
-[Paragraph](../../com.aspose.words/paragraph)
+[Paragraph](../../com.aspose.words/paragraph/)
 ### getPreviousSibling() {#getPreviousSibling}
 ```
 public Node getPreviousSibling()
@@ -369,17 +370,17 @@ public Node getPreviousSibling()
 Gets the node immediately preceding this node. If there is no preceding node, a  null  is returned.
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The node immediately preceding this node.
+[Node](../../com.aspose.words/node/) - The node immediately preceding this node.
 ### getRange() {#getRange}
 ```
 public Range getRange()
 ```
 
 
-Returns a [Range](../../com.aspose.words/range) object that represents the portion of a document that is contained in this node.
+Returns a [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node.
 
 **Returns:**
-[Range](../../com.aspose.words/range) - A [Range](../../com.aspose.words/range) object that represents the portion of a document that is contained in this node.
+[Range](../../com.aspose.words/range/) - A [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node.
 ### getText() {#getText}
 ```
 public String getText()
@@ -406,7 +407,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (31362,6)
+Returns  true  if this node can contain other nodes. (31405,6)
 
 **Returns:**
 boolean - \{ true  if this node can contain other nodes.
@@ -517,10 +518,10 @@ Gets next node according to the pre-order tree traversal algorithm.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node) | The top node (limit) of traversal. |
+| rootNode | [Node](../../com.aspose.words/node/) | The top node (limit) of traversal. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - Next node in pre-order order. Null if reached the  rootNode .
+[Node](../../com.aspose.words/node/) - Next node in pre-order order. Null if reached the  rootNode .
 ### nodeTypeToString(int nodeType) {#nodeTypeToString-int}
 ```
 public static String nodeTypeToString(int nodeType)
@@ -563,10 +564,10 @@ Gets the previous node according to the pre-order tree traversal algorithm.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node) | The top node (limit) of traversal. |
+| rootNode | [Node](../../com.aspose.words/node/) | The top node (limit) of traversal. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - Previous node in pre-order order. Null if reached the  rootNode .
+[Node](../../com.aspose.words/node/) - Previous node in pre-order order. Null if reached the  rootNode .
 ### remove() {#remove}
 ```
 public void remove()
@@ -650,7 +651,7 @@ Exports the content of the node into a string using the specified save options.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions) | Specifies the options that control how the node is saved. |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) | Specifies the options that control how the node is saved. |
 
 **Returns:**
 java.lang.String - The content of the node in the specified format.

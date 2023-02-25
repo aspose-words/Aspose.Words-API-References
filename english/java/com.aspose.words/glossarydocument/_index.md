@@ -1,14 +1,15 @@
 ---
 title: GlossaryDocument
+linktitle: GlossaryDocument
 second_title: Aspose.Words for Java API Reference
-description: Represents the root element for a glossary document within a Word document.
+description: Represents the root element for a glossary document within a Word document in Java.
 type: docs
 weight: 308
 url: /java/com.aspose.words/glossarydocument/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.words.Node](../../com.aspose.words/node), [com.aspose.words.CompositeNode](../../com.aspose.words/compositenode), [com.aspose.words.DocumentBase](../../com.aspose.words/documentbase)
+java.lang.Object, [com.aspose.words.Node](../../com.aspose.words/node/), [com.aspose.words.CompositeNode](../../com.aspose.words/compositenode/), [com.aspose.words.DocumentBase](../../com.aspose.words/documentbase/)
 ```
 public class GlossaryDocument extends DocumentBase
 ```
@@ -19,9 +20,9 @@ To learn more, visit the [ Aspose.Words Document Object Model (DOM) ][Aspose.Wor
 
 Some documents, usually templates, can contain AutoText, AutoCorrect entries and/or Building Blocks (also known as *glossary document entries*, *document parts* or *building blocks*).
 
-To access building blocks, you need to load a document into a [Document](../../com.aspose.words/document) object. Building blocks will be available via the [Document.getGlossaryDocument()](../../com.aspose.words/document\#getGlossaryDocument) / [Document.setGlossaryDocument(com.aspose.words.GlossaryDocument)](../../com.aspose.words/document\#setGlossaryDocument-com.aspose.words.GlossaryDocument) property.
+To access building blocks, you need to load a document into a [Document](../../com.aspose.words/document/) object. Building blocks will be available via the [Document.getGlossaryDocument()](../../com.aspose.words/document/\#getGlossaryDocument) / [Document.setGlossaryDocument(com.aspose.words.GlossaryDocument)](../../com.aspose.words/document/\#setGlossaryDocument-com.aspose.words.GlossaryDocument) property.
 
-[GlossaryDocument](../../com.aspose.words/glossarydocument) can contain any number of [BuildingBlock](../../com.aspose.words/buildingblock) objects. Each [BuildingBlock](../../com.aspose.words/buildingblock) represents one document part.
+[GlossaryDocument](../../com.aspose.words/glossarydocument/) can contain any number of [BuildingBlock](../../com.aspose.words/buildingblock/) objects. Each [BuildingBlock](../../com.aspose.words/buildingblock/) represents one document part.
 
 Corresponds to the **glossaryDocument** and **docParts** elements in OOXML.
 
@@ -59,11 +60,11 @@ Corresponds to the **glossaryDocument** and **docParts** elements in OOXML.
 | [getNextMatchingNode(Node curNode)](#getNextMatchingNode-com.aspose.words.Node) |  |
 | [getNextSibling()](#getNextSibling) | Gets the node immediately following this node. |
 | [getNodeChangingCallback()](#getNodeChangingCallback) | Called when a node is inserted or removed in the document. |
-| [getNodeType()](#getNodeType) | Returns the [NodeType.GLOSSARY\_DOCUMENT](../../com.aspose.words/nodetype\#GLOSSARY-DOCUMENT) value. |
+| [getNodeType()](#getNodeType) | Returns the [NodeType.GLOSSARY\_DOCUMENT](../../com.aspose.words/nodetype/\#GLOSSARY-DOCUMENT) value. |
 | [getPageColor()](#getPageColor) | Gets the page color of the document. |
 | [getParentNode()](#getParentNode) | Gets the immediate parent of this node. |
 | [getPreviousSibling()](#getPreviousSibling) | Gets the node immediately preceding this node. |
-| [getRange()](#getRange) | Returns a [Range](../../com.aspose.words/range) object that represents the portion of a document that is contained in this node. |
+| [getRange()](#getRange) | Returns a [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node. |
 | [getResourceLoadingCallback()](#getResourceLoadingCallback) | Allows to control how external resources are loaded. |
 | [getStyles()](#getStyles) | Returns a collection of styles defined in the document. |
 | [getText()](#getText) | Gets the text of this node and of all its children. |
@@ -86,9 +87,9 @@ Corresponds to the **glossaryDocument** and **docParts** elements in OOXML.
 | [remove()](#remove) | Removes itself from the parent. |
 | [removeAllChildren()](#removeAllChildren) | Removes all the child nodes of the current node. |
 | [removeChild(Node oldChild)](#removeChild-com.aspose.words.Node) | Removes the specified child node. |
-| [removeSmartTags()](#removeSmartTags) | Removes all [SmartTag](../../com.aspose.words/smarttag) descendant nodes of the current node. |
+| [removeSmartTags()](#removeSmartTags) | Removes all [SmartTag](../../com.aspose.words/smarttag/) descendant nodes of the current node. |
 | [selectNodes(String xpath)](#selectNodes-java.lang.String) | Selects a list of nodes matching the XPath expression. |
-| [selectSingleNode(String xpath)](#selectSingleNode-java.lang.String) | Selects the first [Node](../../com.aspose.words/node) that matches the XPath expression. |
+| [selectSingleNode(String xpath)](#selectSingleNode-java.lang.String) | Selects the first [Node](../../com.aspose.words/node/) that matches the XPath expression. |
 | [setBackgroundShape(Shape value)](#setBackgroundShape-com.aspose.words.Shape) | Sets the background shape of the document. |
 | [setCustomNodeId(int value)](#setCustomNodeId-int) | Specifies custom node identifier. |
 | [setNodeChangingCallback(INodeChangingCallback value)](#setNodeChangingCallback-com.aspose.words.INodeChangingCallback) | Called when a node is inserted or removed in the document. |
@@ -109,21 +110,21 @@ public boolean accept(DocumentVisitor visitor)
 
 Accepts a visitor.
 
-Enumerates over this node and all of its children. Each node calls a corresponding method on [DocumentVisitor](../../com.aspose.words/documentvisitor).
+Enumerates over this node and all of its children. Each node calls a corresponding method on [DocumentVisitor](../../com.aspose.words/documentvisitor/).
 
 For more info see the Visitor design pattern.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor) | The visitor that will visit the nodes. |
+| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor/) | The visitor that will visit the nodes. |
 
 **Returns:**
-boolean - True if all nodes were visited; false if [DocumentVisitor](../../com.aspose.words/documentvisitor) stopped the operation before visiting all nodes.
+boolean - True if all nodes were visited; false if [DocumentVisitor](../../com.aspose.words/documentvisitor/) stopped the operation before visiting all nodes.
 
-Calls [DocumentVisitor.visitGlossaryDocumentStart(com.aspose.words.GlossaryDocument)](../../com.aspose.words/documentvisitor\#visitGlossaryDocumentStart-com.aspose.words.GlossaryDocument), then calls [Node.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/node\#accept-com.aspose.words.DocumentVisitor) for all child nodes of this node and then calls [DocumentVisitor.visitGlossaryDocumentEnd(com.aspose.words.GlossaryDocument)](../../com.aspose.words/documentvisitor\#visitGlossaryDocumentEnd-com.aspose.words.GlossaryDocument) at the end.
+Calls [DocumentVisitor.visitGlossaryDocumentStart(com.aspose.words.GlossaryDocument)](../../com.aspose.words/documentvisitor/\#visitGlossaryDocumentStart-com.aspose.words.GlossaryDocument), then calls [Node.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/node/\#accept-com.aspose.words.DocumentVisitor) for all child nodes of this node and then calls [DocumentVisitor.visitGlossaryDocumentEnd(com.aspose.words.GlossaryDocument)](../../com.aspose.words/documentvisitor/\#visitGlossaryDocumentEnd-com.aspose.words.GlossaryDocument) at the end.
 
-Note: A glossary document node and its children are not visited when you execute a Visitor over a [Document](../../com.aspose.words/document). If you want to execute a Visitor over a glossary document, you need to call [accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/glossarydocument\#accept-com.aspose.words.DocumentVisitor).
+Note: A glossary document node and its children are not visited when you execute a Visitor over a [Document](../../com.aspose.words/document/). If you want to execute a Visitor over a glossary document, you need to call [accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/glossarydocument/\#accept-com.aspose.words.DocumentVisitor).
 ### appendChild(Node newChild) {#appendChild-com.aspose.words.Node}
 ```
 public Node appendChild(Node newChild)
@@ -139,10 +140,10 @@ If the node being inserted was created from another document, you should use **M
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | The node to add. |
+| newChild | [Node](../../com.aspose.words/node/) | The node to add. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The node added.
+[Node](../../com.aspose.words/node/) - The node added.
 ### dd() {#dd}
 ```
 public void dd()
@@ -169,7 +170,7 @@ This method always performs a deep copy of the node. The  isCloneChildren  param
 | isCloneChildren | boolean | True to recursively clone the subtree under the specified node; false to clone only the node itself. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The cloned node.
+[Node](../../com.aspose.words/node/) - The cloned node.
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
@@ -199,7 +200,7 @@ public CompositeNode getAncestor(int ancestorType)
 | ancestorType | int |  |
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode)
+[CompositeNode](../../com.aspose.words/compositenode/)
 ### getAncestor(Class ancestorType) {#getAncestor-java.lang.Class}
 ```
 public CompositeNode getAncestor(Class ancestorType)
@@ -214,7 +215,7 @@ Gets the first ancestor of the specified object type.
 | ancestorType | java.lang.Class | The object type of the ancestor to retrieve. |
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode) - The ancestor of the specified type or  null  if no ancestor of this type was found.
+[CompositeNode](../../com.aspose.words/compositenode/) - The ancestor of the specified type or  null  if no ancestor of this type was found.
 
 The ancestor type matches if it is equal to  ancestorType  or derived from  ancestorType .
 ### getBackgroundShape() {#getBackgroundShape}
@@ -225,14 +226,14 @@ public Shape getBackgroundShape()
 
 Gets the background shape of the document. Can be  null .
 
-Microsoft Word allows only a shape that has its [ShapeBase.getShapeType()](../../com.aspose.words/shapebase\#getShapeType) property equal to [ShapeType.RECTANGLE](../../com.aspose.words/shapetype\#RECTANGLE) to be used as a background shape for a document.
+Microsoft Word allows only a shape that has its [ShapeBase.getShapeType()](../../com.aspose.words/shapebase/\#getShapeType) property equal to [ShapeType.RECTANGLE](../../com.aspose.words/shapetype/\#RECTANGLE) to be used as a background shape for a document.
 
 Microsoft Word supports only the fill properties of a background shape. All other properties are ignored.
 
-Setting this property to a non-null value will also set the [ViewOptions.getDisplayBackgroundShape()](../../com.aspose.words/viewoptions\#getDisplayBackgroundShape) / [ViewOptions.setDisplayBackgroundShape(boolean)](../../com.aspose.words/viewoptions\#setDisplayBackgroundShape-boolean) to  true .
+Setting this property to a non-null value will also set the [ViewOptions.getDisplayBackgroundShape()](../../com.aspose.words/viewoptions/\#getDisplayBackgroundShape) / [ViewOptions.setDisplayBackgroundShape(boolean)](../../com.aspose.words/viewoptions/\#setDisplayBackgroundShape-boolean) to  true .
 
 **Returns:**
-[Shape](../../com.aspose.words/shape) - The background shape of the document.
+[Shape](../../com.aspose.words/shape/) - The background shape of the document.
 ### getBuildingBlock(int gallery, String category, String name) {#getBuildingBlock-int-java.lang.String-java.lang.String}
 ```
 public BuildingBlock getBuildingBlock(int gallery, String category, String name)
@@ -249,7 +250,7 @@ public BuildingBlock getBuildingBlock(int gallery, String category, String name)
 | name | java.lang.String |  |
 
 **Returns:**
-[BuildingBlock](../../com.aspose.words/buildingblock)
+[BuildingBlock](../../com.aspose.words/buildingblock/)
 ### getBuildingBlocks() {#getBuildingBlocks}
 ```
 public BuildingBlockCollection getBuildingBlocks()
@@ -259,7 +260,7 @@ public BuildingBlockCollection getBuildingBlocks()
 Returns a typed collection that represents all building blocks in the glossary document.
 
 **Returns:**
-[BuildingBlockCollection](../../com.aspose.words/buildingblockcollection) - A typed collection that represents all building blocks in the glossary document.
+[BuildingBlockCollection](../../com.aspose.words/buildingblockcollection/) - A typed collection that represents all building blocks in the glossary document.
 ### getChild(int nodeType, int index, boolean isDeep) {#getChild-int-int-boolean}
 ```
 public Node getChild(int nodeType, int index, boolean isDeep)
@@ -276,7 +277,7 @@ public Node getChild(int nodeType, int index, boolean isDeep)
 | isDeep | boolean |  |
 
 **Returns:**
-[Node](../../com.aspose.words/node)
+[Node](../../com.aspose.words/node/)
 ### getChildNodes() {#getChildNodes}
 ```
 public NodeCollection getChildNodes()
@@ -285,12 +286,12 @@ public NodeCollection getChildNodes()
 
 Gets all immediate child nodes of this node.
 
-Note, [getChildNodes()](../../com.aspose.words/compositenode\#getChildNodes) is equivalent to calling **M:Aspose.Words.CompositeNode.GetChildNodes(Aspose.Words.NodeType,System.Boolean)** with arguments ( [NodeType.ANY](../../com.aspose.words/nodetype\#ANY),  false ) and creates and returns a new collection every time it is accessed.
+Note, [getChildNodes()](../../com.aspose.words/compositenode/\#getChildNodes) is equivalent to calling **M:Aspose.Words.CompositeNode.GetChildNodes(Aspose.Words.NodeType,System.Boolean)** with arguments ( [NodeType.ANY](../../com.aspose.words/nodetype/\#ANY),  false ) and creates and returns a new collection every time it is accessed.
 
 If there are no child nodes, this property returns an empty collection.
 
 **Returns:**
-[NodeCollection](../../com.aspose.words/nodecollection) - All immediate child nodes of this node.
+[NodeCollection](../../com.aspose.words/nodecollection/) - All immediate child nodes of this node.
 ### getChildNodes(int nodeType, boolean isDeep) {#getChildNodes-int-boolean}
 ```
 public NodeCollection getChildNodes(int nodeType, boolean isDeep)
@@ -306,7 +307,7 @@ public NodeCollection getChildNodes(int nodeType, boolean isDeep)
 | isDeep | boolean |  |
 
 **Returns:**
-[NodeCollection](../../com.aspose.words/nodecollection)
+[NodeCollection](../../com.aspose.words/nodecollection/)
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -326,7 +327,7 @@ public CompositeNode getContainer()
 
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode)
+[CompositeNode](../../com.aspose.words/compositenode/)
 ### getCount() {#getCount}
 ```
 public int getCount()
@@ -346,7 +347,7 @@ public Node getCurrentNode()
 
 
 **Returns:**
-[Node](../../com.aspose.words/node)
+[Node](../../com.aspose.words/node/)
 ### getCustomNodeId() {#getCustomNodeId}
 ```
 public int getCustomNodeId()
@@ -374,7 +375,7 @@ Gets the document to which this node belongs.
 The node always belongs to a document even if it has just been created and not yet added to the tree, or if it has been removed from the tree.
 
 **Returns:**
-[DocumentBase](../../com.aspose.words/documentbase)
+[DocumentBase](../../com.aspose.words/documentbase/)
 ### getFirstBuildingBlock() {#getFirstBuildingBlock}
 ```
 public BuildingBlock getFirstBuildingBlock()
@@ -384,7 +385,7 @@ public BuildingBlock getFirstBuildingBlock()
 Gets the first building block in the glossary document. Returns  null  if there are no building blocks available.
 
 **Returns:**
-[BuildingBlock](../../com.aspose.words/buildingblock) - The first building block in the glossary document.
+[BuildingBlock](../../com.aspose.words/buildingblock/) - The first building block in the glossary document.
 ### getFirstChild() {#getFirstChild}
 ```
 public Node getFirstChild()
@@ -394,7 +395,7 @@ public Node getFirstChild()
 Gets the first child of the node. If there is no first child node, a  null  is returned.
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The first child of the node.
+[Node](../../com.aspose.words/node/) - The first child of the node.
 ### getFontInfos() {#getFontInfos}
 ```
 public FontInfoCollection getFontInfos()
@@ -408,7 +409,7 @@ This collection of font definitions is loaded as is from the document. Font defi
 Do not rely on this collection to ascertain that a particular font is used in the document. You should only use this collection to get information about fonts that might be used in the document.
 
 **Returns:**
-[FontInfoCollection](../../com.aspose.words/fontinfocollection) - The corresponding [FontInfoCollection](../../com.aspose.words/fontinfocollection) value.
+[FontInfoCollection](../../com.aspose.words/fontinfocollection/) - The corresponding [FontInfoCollection](../../com.aspose.words/fontinfocollection/) value.
 ### getLastBuildingBlock() {#getLastBuildingBlock}
 ```
 public BuildingBlock getLastBuildingBlock()
@@ -418,7 +419,7 @@ public BuildingBlock getLastBuildingBlock()
 Gets the last building block in the glossary document. Returns  null  if there are no building blocks available.
 
 **Returns:**
-[BuildingBlock](../../com.aspose.words/buildingblock) - The last building block in the glossary document.
+[BuildingBlock](../../com.aspose.words/buildingblock/) - The last building block in the glossary document.
 ### getLastChild() {#getLastChild}
 ```
 public Node getLastChild()
@@ -428,7 +429,7 @@ public Node getLastChild()
 Gets the last child of the node. If there is no last child node, a  null  is returned.
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The last child of the node.
+[Node](../../com.aspose.words/node/) - The last child of the node.
 ### getLists() {#getLists}
 ```
 public ListCollection getLists()
@@ -437,10 +438,10 @@ public ListCollection getLists()
 
 Provides access to the list formatting used in the document.
 
-For more information see the description of the [ListCollection](../../com.aspose.words/listcollection) class.
+For more information see the description of the [ListCollection](../../com.aspose.words/listcollection/) class.
 
 **Returns:**
-[ListCollection](../../com.aspose.words/listcollection) - The corresponding [ListCollection](../../com.aspose.words/listcollection) value.
+[ListCollection](../../com.aspose.words/listcollection/) - The corresponding [ListCollection](../../com.aspose.words/listcollection/) value.
 ### getNextMatchingNode(Node curNode) {#getNextMatchingNode-com.aspose.words.Node}
 ```
 public Node getNextMatchingNode(Node curNode)
@@ -452,10 +453,10 @@ public Node getNextMatchingNode(Node curNode)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| curNode | [Node](../../com.aspose.words/node) |  |
+| curNode | [Node](../../com.aspose.words/node/) |  |
 
 **Returns:**
-[Node](../../com.aspose.words/node)
+[Node](../../com.aspose.words/node/)
 ### getNextSibling() {#getNextSibling}
 ```
 public Node getNextSibling()
@@ -465,7 +466,7 @@ public Node getNextSibling()
 Gets the node immediately following this node. If there is no next node, a  null  is returned.
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The node immediately following this node.
+[Node](../../com.aspose.words/node/) - The node immediately following this node.
 ### getNodeChangingCallback() {#getNodeChangingCallback}
 ```
 public INodeChangingCallback getNodeChangingCallback()
@@ -475,26 +476,26 @@ public INodeChangingCallback getNodeChangingCallback()
 Called when a node is inserted or removed in the document.
 
 **Returns:**
-[INodeChangingCallback](../../com.aspose.words/inodechangingcallback) - The corresponding [INodeChangingCallback](../../com.aspose.words/inodechangingcallback) value.
+[INodeChangingCallback](../../com.aspose.words/inodechangingcallback/) - The corresponding [INodeChangingCallback](../../com.aspose.words/inodechangingcallback/) value.
 ### getNodeType() {#getNodeType}
 ```
 public int getNodeType()
 ```
 
 
-Returns the [NodeType.GLOSSARY\_DOCUMENT](../../com.aspose.words/nodetype\#GLOSSARY-DOCUMENT) value.
+Returns the [NodeType.GLOSSARY\_DOCUMENT](../../com.aspose.words/nodetype/\#GLOSSARY-DOCUMENT) value.
 
 **Returns:**
-int - The [NodeType.GLOSSARY\_DOCUMENT](../../com.aspose.words/nodetype\#GLOSSARY-DOCUMENT) value. The returned value is one of [NodeType](../../com.aspose.words/nodetype) constants.
+int - The [NodeType.GLOSSARY\_DOCUMENT](../../com.aspose.words/nodetype/\#GLOSSARY-DOCUMENT) value. The returned value is one of [NodeType](../../com.aspose.words/nodetype/) constants.
 ### getPageColor() {#getPageColor}
 ```
 public Color getPageColor()
 ```
 
 
-Gets the page color of the document. This property is a simpler version of [getBackgroundShape()](../../com.aspose.words/documentbase\#getBackgroundShape) / [setBackgroundShape(com.aspose.words.Shape)](../../com.aspose.words/documentbase\#setBackgroundShape-com.aspose.words.Shape).
+Gets the page color of the document. This property is a simpler version of [getBackgroundShape()](../../com.aspose.words/documentbase/\#getBackgroundShape) / [setBackgroundShape(com.aspose.words.Shape)](../../com.aspose.words/documentbase/\#setBackgroundShape-com.aspose.words.Shape).
 
-This property provides a simple way to specify a solid page color for the document. Setting this property creates and sets an appropriate [getBackgroundShape()](../../com.aspose.words/documentbase\#getBackgroundShape) / [setBackgroundShape(com.aspose.words.Shape)](../../com.aspose.words/documentbase\#setBackgroundShape-com.aspose.words.Shape).
+This property provides a simple way to specify a solid page color for the document. Setting this property creates and sets an appropriate [getBackgroundShape()](../../com.aspose.words/documentbase/\#getBackgroundShape) / [setBackgroundShape(com.aspose.words.Shape)](../../com.aspose.words/documentbase/\#setBackgroundShape-com.aspose.words.Shape).
 
 If the page color is not set (e.g. there is no background shape in the document) returns a zero color.
 
@@ -511,7 +512,7 @@ Gets the immediate parent of this node.
 If a node has just been created and not yet added to the tree, or if it has been removed from the tree, the parent is  null .
 
 **Returns:**
-[CompositeNode](../../com.aspose.words/compositenode) - The immediate parent of this node.
+[CompositeNode](../../com.aspose.words/compositenode/) - The immediate parent of this node.
 ### getPreviousSibling() {#getPreviousSibling}
 ```
 public Node getPreviousSibling()
@@ -521,17 +522,17 @@ public Node getPreviousSibling()
 Gets the node immediately preceding this node. If there is no preceding node, a  null  is returned.
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The node immediately preceding this node.
+[Node](../../com.aspose.words/node/) - The node immediately preceding this node.
 ### getRange() {#getRange}
 ```
 public Range getRange()
 ```
 
 
-Returns a [Range](../../com.aspose.words/range) object that represents the portion of a document that is contained in this node.
+Returns a [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node.
 
 **Returns:**
-[Range](../../com.aspose.words/range) - A [Range](../../com.aspose.words/range) object that represents the portion of a document that is contained in this node.
+[Range](../../com.aspose.words/range/) - A [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node.
 ### getResourceLoadingCallback() {#getResourceLoadingCallback}
 ```
 public IResourceLoadingCallback getResourceLoadingCallback()
@@ -541,7 +542,7 @@ public IResourceLoadingCallback getResourceLoadingCallback()
 Allows to control how external resources are loaded.
 
 **Returns:**
-[IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback) - The corresponding [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback) value.
+[IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback/) - The corresponding [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback/) value.
 ### getStyles() {#getStyles}
 ```
 public StyleCollection getStyles()
@@ -550,10 +551,10 @@ public StyleCollection getStyles()
 
 Returns a collection of styles defined in the document.
 
-For more information see the description of the [StyleCollection](../../com.aspose.words/stylecollection) class.
+For more information see the description of the [StyleCollection](../../com.aspose.words/stylecollection/) class.
 
 **Returns:**
-[StyleCollection](../../com.aspose.words/stylecollection) - A collection of styles defined in the document.
+[StyleCollection](../../com.aspose.words/stylecollection/) - A collection of styles defined in the document.
 ### getText() {#getText}
 ```
 public String getText()
@@ -562,7 +563,7 @@ public String getText()
 
 Gets the text of this node and of all its children.
 
-The returned string includes all control and special characters as described in [ControlChar](../../com.aspose.words/controlchar).
+The returned string includes all control and special characters as described in [ControlChar](../../com.aspose.words/controlchar/).
 
 **Returns:**
 java.lang.String
@@ -572,10 +573,10 @@ public IWarningCallback getWarningCallback()
 ```
 
 
-Called during various document processing procedures when an issue is detected that might result in data or formatting fidelity loss. Document may generate warnings at any stage of its existence, so it's important to setup warning callback as early as possible to avoid the warnings loss. E.g. such properties as [Document.getPageCount()](../../com.aspose.words/document\#getPageCount) actually build the document layout which is used later for rendering, and the layout warnings may be lost if warning callback is specified just for the rendering calls later.
+Called during various document processing procedures when an issue is detected that might result in data or formatting fidelity loss. Document may generate warnings at any stage of its existence, so it's important to setup warning callback as early as possible to avoid the warnings loss. E.g. such properties as [Document.getPageCount()](../../com.aspose.words/document/\#getPageCount) actually build the document layout which is used later for rendering, and the layout warnings may be lost if warning callback is specified just for the rendering calls later.
 
 **Returns:**
-[IWarningCallback](../../com.aspose.words/iwarningcallback) - The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback) value.
+[IWarningCallback](../../com.aspose.words/iwarningcallback/) - The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback/) value.
 ### hasChildNodes() {#hasChildNodes}
 ```
 public boolean hasChildNodes()
@@ -606,22 +607,22 @@ Imports a node from another document to the current document.
 
 Imports a node from another document to the current document.
 
-This method uses the [ImportFormatMode.USE\_DESTINATION\_STYLES](../../com.aspose.words/importformatmode\#USE-DESTINATION-STYLES) option to resolve formatting.
+This method uses the [ImportFormatMode.USE\_DESTINATION\_STYLES](../../com.aspose.words/importformatmode/\#USE-DESTINATION-STYLES) option to resolve formatting.
 
 Importing a node creates a copy of the source node belonging to the importing document. The returned node has no parent. The source node is not altered or removed from the original document.
 
-Before a node from another document can be inserted into this document, it must be imported. During import, document-specific properties such as references to styles and lists are translated from the original to the importing document. After the node was imported, it can be inserted into the appropriate place in the document using [CompositeNode.insertBefore(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode\#insertBefore-com.aspose.words.Node--com.aspose.words.Node) or [CompositeNode.insertAfter(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode\#insertAfter-com.aspose.words.Node--com.aspose.words.Node).
+Before a node from another document can be inserted into this document, it must be imported. During import, document-specific properties such as references to styles and lists are translated from the original to the importing document. After the node was imported, it can be inserted into the appropriate place in the document using [CompositeNode.insertBefore(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode/\#insertBefore-com.aspose.words.Node--com.aspose.words.Node) or [CompositeNode.insertAfter(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode/\#insertAfter-com.aspose.words.Node--com.aspose.words.Node).
 
 If the source node already belongs to the destination document, then simply a deep clone of the source node is created.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| srcNode | [Node](../../com.aspose.words/node) | The node being imported. |
+| srcNode | [Node](../../com.aspose.words/node/) | The node being imported. |
 | isImportChildren | boolean | \{ true  to import all child nodes recursively; otherwise,  false . |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The cloned node that belongs to the current document.
+[Node](../../com.aspose.words/node/) - The cloned node that belongs to the current document.
 ### importNode(Node srcNode, boolean isImportChildren, int importFormatMode) {#importNode-com.aspose.words.Node-boolean-int}
 ```
 public Node importNode(Node srcNode, boolean isImportChildren, int importFormatMode)
@@ -633,12 +634,12 @@ public Node importNode(Node srcNode, boolean isImportChildren, int importFormatM
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| srcNode | [Node](../../com.aspose.words/node) |  |
+| srcNode | [Node](../../com.aspose.words/node/) |  |
 | isImportChildren | boolean |  |
 | importFormatMode | int |  |
 
 **Returns:**
-[Node](../../com.aspose.words/node)
+[Node](../../com.aspose.words/node/)
 ### indexOf(Node child) {#indexOf-com.aspose.words.Node}
 ```
 public int indexOf(Node child)
@@ -650,7 +651,7 @@ Returns the index of the specified child node in the child node array. Returns -
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| child | [Node](../../com.aspose.words/node) |  |
+| child | [Node](../../com.aspose.words/node/) |  |
 
 **Returns:**
 int
@@ -671,11 +672,11 @@ If the node being inserted was created from another document, you should use **M
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | The [Node](../../com.aspose.words/node) to insert. |
-| refChild | [Node](../../com.aspose.words/node) | The [Node](../../com.aspose.words/node) that is the reference node. The  newChild  is placed after the  refChild . |
+| newChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) to insert. |
+| refChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) that is the reference node. The  newChild  is placed after the  refChild . |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The inserted node.
+[Node](../../com.aspose.words/node/) - The inserted node.
 ### insertBefore(Node newChild, Node refChild) {#insertBefore-com.aspose.words.Node-com.aspose.words.Node}
 ```
 public Node insertBefore(Node newChild, Node refChild)
@@ -693,11 +694,11 @@ If the node being inserted was created from another document, you should use **M
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | The [Node](../../com.aspose.words/node) to insert. |
-| refChild | [Node](../../com.aspose.words/node) | The [Node](../../com.aspose.words/node) that is the reference node. The  newChild  is placed before this node. |
+| newChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) to insert. |
+| refChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) that is the reference node. The  newChild  is placed before this node. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The inserted node.
+[Node](../../com.aspose.words/node/) - The inserted node.
 ### isComposite() {#isComposite}
 ```
 public boolean isComposite()
@@ -729,10 +730,10 @@ Gets next node according to the pre-order tree traversal algorithm.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node) | The top node (limit) of traversal. |
+| rootNode | [Node](../../com.aspose.words/node/) | The top node (limit) of traversal. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - Next node in pre-order order. Null if reached the  rootNode .
+[Node](../../com.aspose.words/node/) - Next node in pre-order order. Null if reached the  rootNode .
 ### nodeTypeToString(int nodeType) {#nodeTypeToString-int}
 ```
 public static String nodeTypeToString(int nodeType)
@@ -779,10 +780,10 @@ If the node being inserted was created from another document, you should use **M
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | The node to add. |
+| newChild | [Node](../../com.aspose.words/node/) | The node to add. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The node added.
+[Node](../../com.aspose.words/node/) - The node added.
 ### previousPreOrder(Node rootNode) {#previousPreOrder-com.aspose.words.Node}
 ```
 public Node previousPreOrder(Node rootNode)
@@ -794,10 +795,10 @@ Gets the previous node according to the pre-order tree traversal algorithm.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node) | The top node (limit) of traversal. |
+| rootNode | [Node](../../com.aspose.words/node/) | The top node (limit) of traversal. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - Previous node in pre-order order. Null if reached the  rootNode .
+[Node](../../com.aspose.words/node/) - Previous node in pre-order order. Null if reached the  rootNode .
 ### remove() {#remove}
 ```
 public void remove()
@@ -827,17 +828,17 @@ The parent of  oldChild  is set to  null  after the node is removed.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| oldChild | [Node](../../com.aspose.words/node) | The node to remove. |
+| oldChild | [Node](../../com.aspose.words/node/) | The node to remove. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The removed node.
+[Node](../../com.aspose.words/node/) - The removed node.
 ### removeSmartTags() {#removeSmartTags}
 ```
 public void removeSmartTags()
 ```
 
 
-Removes all [SmartTag](../../com.aspose.words/smarttag) descendant nodes of the current node. This method does not remove the content of the smart tags.
+Removes all [SmartTag](../../com.aspose.words/smarttag/) descendant nodes of the current node. This method does not remove the content of the smart tags.
 
 ### selectNodes(String xpath) {#selectNodes-java.lang.String}
 ```
@@ -855,14 +856,14 @@ Only expressions with element names are supported at the moment. Expressions tha
 | xpath | java.lang.String | The XPath expression. |
 
 **Returns:**
-[NodeList](../../com.aspose.words/nodelist) - A list of nodes matching the XPath query.
+[NodeList](../../com.aspose.words/nodelist/) - A list of nodes matching the XPath query.
 ### selectSingleNode(String xpath) {#selectSingleNode-java.lang.String}
 ```
 public Node selectSingleNode(String xpath)
 ```
 
 
-Selects the first [Node](../../com.aspose.words/node) that matches the XPath expression.
+Selects the first [Node](../../com.aspose.words/node/) that matches the XPath expression.
 
 Only expressions with element names are supported at the moment. Expressions that use attribute names are not supported.
 
@@ -872,7 +873,7 @@ Only expressions with element names are supported at the moment. Expressions tha
 | xpath | java.lang.String | The XPath expression. |
 
 **Returns:**
-[Node](../../com.aspose.words/node) - The first [Node](../../com.aspose.words/node) that matches the XPath query or  null  if no matching node is found.
+[Node](../../com.aspose.words/node/) - The first [Node](../../com.aspose.words/node/) that matches the XPath query or  null  if no matching node is found.
 ### setBackgroundShape(Shape value) {#setBackgroundShape-com.aspose.words.Shape}
 ```
 public void setBackgroundShape(Shape value)
@@ -881,16 +882,16 @@ public void setBackgroundShape(Shape value)
 
 Sets the background shape of the document. Can be  null .
 
-Microsoft Word allows only a shape that has its [ShapeBase.getShapeType()](../../com.aspose.words/shapebase\#getShapeType) property equal to [ShapeType.RECTANGLE](../../com.aspose.words/shapetype\#RECTANGLE) to be used as a background shape for a document.
+Microsoft Word allows only a shape that has its [ShapeBase.getShapeType()](../../com.aspose.words/shapebase/\#getShapeType) property equal to [ShapeType.RECTANGLE](../../com.aspose.words/shapetype/\#RECTANGLE) to be used as a background shape for a document.
 
 Microsoft Word supports only the fill properties of a background shape. All other properties are ignored.
 
-Setting this property to a non-null value will also set the [ViewOptions.getDisplayBackgroundShape()](../../com.aspose.words/viewoptions\#getDisplayBackgroundShape) / [ViewOptions.setDisplayBackgroundShape(boolean)](../../com.aspose.words/viewoptions\#setDisplayBackgroundShape-boolean) to  true .
+Setting this property to a non-null value will also set the [ViewOptions.getDisplayBackgroundShape()](../../com.aspose.words/viewoptions/\#getDisplayBackgroundShape) / [ViewOptions.setDisplayBackgroundShape(boolean)](../../com.aspose.words/viewoptions/\#setDisplayBackgroundShape-boolean) to  true .
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Shape](../../com.aspose.words/shape) | The background shape of the document. |
+| value | [Shape](../../com.aspose.words/shape/) | The background shape of the document. |
 
 ### setCustomNodeId(int value) {#setCustomNodeId-int}
 ```
@@ -922,7 +923,7 @@ Called when a node is inserted or removed in the document.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [INodeChangingCallback](../../com.aspose.words/inodechangingcallback) | The corresponding [INodeChangingCallback](../../com.aspose.words/inodechangingcallback) value. |
+| value | [INodeChangingCallback](../../com.aspose.words/inodechangingcallback/) | The corresponding [INodeChangingCallback](../../com.aspose.words/inodechangingcallback/) value. |
 
 ### setPageColor(Color value) {#setPageColor-java.awt.Color}
 ```
@@ -930,9 +931,9 @@ public void setPageColor(Color value)
 ```
 
 
-Sets the page color of the document. This property is a simpler version of [getBackgroundShape()](../../com.aspose.words/documentbase\#getBackgroundShape) / [setBackgroundShape(com.aspose.words.Shape)](../../com.aspose.words/documentbase\#setBackgroundShape-com.aspose.words.Shape).
+Sets the page color of the document. This property is a simpler version of [getBackgroundShape()](../../com.aspose.words/documentbase/\#getBackgroundShape) / [setBackgroundShape(com.aspose.words.Shape)](../../com.aspose.words/documentbase/\#setBackgroundShape-com.aspose.words.Shape).
 
-This property provides a simple way to specify a solid page color for the document. Setting this property creates and sets an appropriate [getBackgroundShape()](../../com.aspose.words/documentbase\#getBackgroundShape) / [setBackgroundShape(com.aspose.words.Shape)](../../com.aspose.words/documentbase\#setBackgroundShape-com.aspose.words.Shape).
+This property provides a simple way to specify a solid page color for the document. Setting this property creates and sets an appropriate [getBackgroundShape()](../../com.aspose.words/documentbase/\#getBackgroundShape) / [setBackgroundShape(com.aspose.words.Shape)](../../com.aspose.words/documentbase/\#setBackgroundShape-com.aspose.words.Shape).
 
 If the page color is not set (e.g. there is no background shape in the document) returns a zero color.
 
@@ -952,7 +953,7 @@ Allows to control how external resources are loaded.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback) | The corresponding [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback) value. |
+| value | [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback/) | The corresponding [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback/) value. |
 
 ### setWarningCallback(IWarningCallback value) {#setWarningCallback-com.aspose.words.IWarningCallback}
 ```
@@ -960,12 +961,12 @@ public void setWarningCallback(IWarningCallback value)
 ```
 
 
-Called during various document processing procedures when an issue is detected that might result in data or formatting fidelity loss. Document may generate warnings at any stage of its existence, so it's important to setup warning callback as early as possible to avoid the warnings loss. E.g. such properties as [Document.getPageCount()](../../com.aspose.words/document\#getPageCount) actually build the document layout which is used later for rendering, and the layout warnings may be lost if warning callback is specified just for the rendering calls later.
+Called during various document processing procedures when an issue is detected that might result in data or formatting fidelity loss. Document may generate warnings at any stage of its existence, so it's important to setup warning callback as early as possible to avoid the warnings loss. E.g. such properties as [Document.getPageCount()](../../com.aspose.words/document/\#getPageCount) actually build the document layout which is used later for rendering, and the layout warnings may be lost if warning callback is specified just for the rendering calls later.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IWarningCallback](../../com.aspose.words/iwarningcallback) | The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback) value. |
+| value | [IWarningCallback](../../com.aspose.words/iwarningcallback/) | The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback/) value. |
 
 ### toString() {#toString}
 ```
@@ -988,7 +989,7 @@ Exports the content of the node into a string using the specified save options.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions) | Specifies the options that control how the node is saved. |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) | Specifies the options that control how the node is saved. |
 
 **Returns:**
 java.lang.String - The content of the node in the specified format.

@@ -1,14 +1,15 @@
 ---
 title: Shading
+linktitle: Shading
 second_title: Aspose.Words for Java API Reference
-description: Contains shading attributes for an object.
+description: Contains shading attributes for an object in Java.
 type: docs
-weight: 517
+weight: 519
 url: /java/com.aspose.words/shading/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.words.InternableComplexAttr](../../com.aspose.words/internablecomplexattr)
+java.lang.Object, [com.aspose.words.InternableComplexAttr](../../com.aspose.words/internablecomplexattr/)
 
 **All Implemented Interfaces:**
 java.lang.Cloneable
@@ -27,25 +28,25 @@ To learn more, visit the [ Programming with Documents ][Programming with Documen
 | Method | Description |
 | --- | --- |
 | [clearFormatting()](#clearFormatting) | Removes shading from the object. |
-| [equals(Shading rhs)](#equals-com.aspose.words.Shading) | Determines whether the specified [Shading](../../com.aspose.words/shading) is equal in value to the current [Shading](../../com.aspose.words/shading). |
+| [equals(Shading rhs)](#equals-com.aspose.words.Shading) | Determines whether the specified [Shading](../../com.aspose.words/shading/) is equal in value to the current [Shading](../../com.aspose.words/shading/). |
 | [equals(Object obj)](#equals-java.lang.Object) | Determines whether the specified object is equal in value to the current object. |
-| [getBackgroundPatternColor()](#getBackgroundPatternColor) | Gets the color that's applied to the background of the [Shading](../../com.aspose.words/shading) object. |
-| [getBackgroundPatternThemeColor()](#getBackgroundPatternThemeColor) | Gets the background pattern theme color in the applied color scheme that is associated with this [Shading](../../com.aspose.words/shading) object. |
+| [getBackgroundPatternColor()](#getBackgroundPatternColor) | Gets the color that's applied to the background of the [Shading](../../com.aspose.words/shading/) object. |
+| [getBackgroundPatternThemeColor()](#getBackgroundPatternThemeColor) | Gets the background pattern theme color in the applied color scheme that is associated with this [Shading](../../com.aspose.words/shading/) object. |
 | [getBackgroundTintAndShade()](#getBackgroundTintAndShade) | Gets a double value that lightens or darkens a background theme color. |
 | [getClass()](#getClass) |  |
-| [getForegroundPatternColor()](#getForegroundPatternColor) | Gets the color that's applied to the foreground of the [Shading](../../com.aspose.words/shading) object. |
-| [getForegroundPatternThemeColor()](#getForegroundPatternThemeColor) | Gets the foreground pattern theme color in the applied color scheme that is associated with this [Shading](../../com.aspose.words/shading) object. |
+| [getForegroundPatternColor()](#getForegroundPatternColor) | Gets the color that's applied to the foreground of the [Shading](../../com.aspose.words/shading/) object. |
+| [getForegroundPatternThemeColor()](#getForegroundPatternThemeColor) | Gets the foreground pattern theme color in the applied color scheme that is associated with this [Shading](../../com.aspose.words/shading/) object. |
 | [getForegroundTintAndShade()](#getForegroundTintAndShade) | Gets a double value that lightens or darkens a foreground theme color. |
 | [getTexture()](#getTexture) | Gets the shading texture. |
 | [hashCode()](#hashCode) |  |
 | [isInheritedComplexAttr()](#isInheritedComplexAttr) |  |
 | [notify()](#notify) |  |
 | [notifyAll()](#notifyAll) |  |
-| [setBackgroundPatternColor(Color value)](#setBackgroundPatternColor-java.awt.Color) | Sets the color that's applied to the background of the [Shading](../../com.aspose.words/shading) object. |
-| [setBackgroundPatternThemeColor(int value)](#setBackgroundPatternThemeColor-int) | Sets the background pattern theme color in the applied color scheme that is associated with this [Shading](../../com.aspose.words/shading) object. |
+| [setBackgroundPatternColor(Color value)](#setBackgroundPatternColor-java.awt.Color) | Sets the color that's applied to the background of the [Shading](../../com.aspose.words/shading/) object. |
+| [setBackgroundPatternThemeColor(int value)](#setBackgroundPatternThemeColor-int) | Sets the background pattern theme color in the applied color scheme that is associated with this [Shading](../../com.aspose.words/shading/) object. |
 | [setBackgroundTintAndShade(double value)](#setBackgroundTintAndShade-double) | Sets a double value that lightens or darkens a background theme color. |
-| [setForegroundPatternColor(Color value)](#setForegroundPatternColor-java.awt.Color) | Sets the color that's applied to the foreground of the [Shading](../../com.aspose.words/shading) object. |
-| [setForegroundPatternThemeColor(int value)](#setForegroundPatternThemeColor-int) | Sets the foreground pattern theme color in the applied color scheme that is associated with this [Shading](../../com.aspose.words/shading) object. |
+| [setForegroundPatternColor(Color value)](#setForegroundPatternColor-java.awt.Color) | Sets the color that's applied to the foreground of the [Shading](../../com.aspose.words/shading/) object. |
+| [setForegroundPatternThemeColor(int value)](#setForegroundPatternThemeColor-int) | Sets the foreground pattern theme color in the applied color scheme that is associated with this [Shading](../../com.aspose.words/shading/) object. |
 | [setForegroundTintAndShade(double value)](#setForegroundTintAndShade-double) | Sets a double value that lightens or darkens a foreground theme color. |
 | [setTexture(int value)](#setTexture-int) | Sets the shading texture. |
 | [toString()](#toString) |  |
@@ -66,12 +67,12 @@ public boolean equals(Shading rhs)
 ```
 
 
-Determines whether the specified [Shading](../../com.aspose.words/shading) is equal in value to the current [Shading](../../com.aspose.words/shading).
+Determines whether the specified [Shading](../../com.aspose.words/shading/) is equal in value to the current [Shading](../../com.aspose.words/shading/).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| rhs | [Shading](../../com.aspose.words/shading) |  |
+| rhs | [Shading](../../com.aspose.words/shading/) |  |
 
 **Returns:**
 boolean
@@ -96,20 +97,20 @@ public Color getBackgroundPatternColor()
 ```
 
 
-Gets the color that's applied to the background of the [Shading](../../com.aspose.words/shading) object.
+Gets the color that's applied to the background of the [Shading](../../com.aspose.words/shading/) object.
 
 **Returns:**
-java.awt.Color - The color that's applied to the background of the [Shading](../../com.aspose.words/shading) object.
+java.awt.Color - The color that's applied to the background of the [Shading](../../com.aspose.words/shading/) object.
 ### getBackgroundPatternThemeColor() {#getBackgroundPatternThemeColor}
 ```
 public int getBackgroundPatternThemeColor()
 ```
 
 
-Gets the background pattern theme color in the applied color scheme that is associated with this [Shading](../../com.aspose.words/shading) object.
+Gets the background pattern theme color in the applied color scheme that is associated with this [Shading](../../com.aspose.words/shading/) object.
 
 **Returns:**
-int - The background pattern theme color in the applied color scheme that is associated with this [Shading](../../com.aspose.words/shading) object. The returned value is one of [ThemeColor](../../com.aspose.words/themecolor) constants.
+int - The background pattern theme color in the applied color scheme that is associated with this [Shading](../../com.aspose.words/shading/) object. The returned value is one of [ThemeColor](../../com.aspose.words/themecolor/) constants.
 ### getBackgroundTintAndShade() {#getBackgroundTintAndShade}
 ```
 public double getBackgroundTintAndShade()
@@ -140,20 +141,20 @@ public Color getForegroundPatternColor()
 ```
 
 
-Gets the color that's applied to the foreground of the [Shading](../../com.aspose.words/shading) object.
+Gets the color that's applied to the foreground of the [Shading](../../com.aspose.words/shading/) object.
 
 **Returns:**
-java.awt.Color - The color that's applied to the foreground of the [Shading](../../com.aspose.words/shading) object.
+java.awt.Color - The color that's applied to the foreground of the [Shading](../../com.aspose.words/shading/) object.
 ### getForegroundPatternThemeColor() {#getForegroundPatternThemeColor}
 ```
 public int getForegroundPatternThemeColor()
 ```
 
 
-Gets the foreground pattern theme color in the applied color scheme that is associated with this [Shading](../../com.aspose.words/shading) object.
+Gets the foreground pattern theme color in the applied color scheme that is associated with this [Shading](../../com.aspose.words/shading/) object.
 
 **Returns:**
-int - The foreground pattern theme color in the applied color scheme that is associated with this [Shading](../../com.aspose.words/shading) object. The returned value is one of [ThemeColor](../../com.aspose.words/themecolor) constants.
+int - The foreground pattern theme color in the applied color scheme that is associated with this [Shading](../../com.aspose.words/shading/) object. The returned value is one of [ThemeColor](../../com.aspose.words/themecolor/) constants.
 ### getForegroundTintAndShade() {#getForegroundTintAndShade}
 ```
 public double getForegroundTintAndShade()
@@ -177,7 +178,7 @@ public int getTexture()
 Gets the shading texture.
 
 **Returns:**
-int - The shading texture. The returned value is one of [TextureIndex](../../com.aspose.words/textureindex) constants.
+int - The shading texture. The returned value is one of [TextureIndex](../../com.aspose.words/textureindex/) constants.
 ### hashCode() {#hashCode}
 ```
 public int hashCode()
@@ -220,12 +221,12 @@ public void setBackgroundPatternColor(Color value)
 ```
 
 
-Sets the color that's applied to the background of the [Shading](../../com.aspose.words/shading) object.
+Sets the color that's applied to the background of the [Shading](../../com.aspose.words/shading/) object.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.awt.Color | The color that's applied to the background of the [Shading](../../com.aspose.words/shading) object. |
+| value | java.awt.Color | The color that's applied to the background of the [Shading](../../com.aspose.words/shading/) object. |
 
 ### setBackgroundPatternThemeColor(int value) {#setBackgroundPatternThemeColor-int}
 ```
@@ -233,12 +234,12 @@ public void setBackgroundPatternThemeColor(int value)
 ```
 
 
-Sets the background pattern theme color in the applied color scheme that is associated with this [Shading](../../com.aspose.words/shading) object.
+Sets the background pattern theme color in the applied color scheme that is associated with this [Shading](../../com.aspose.words/shading/) object.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The background pattern theme color in the applied color scheme that is associated with this [Shading](../../com.aspose.words/shading) object. The value must be one of [ThemeColor](../../com.aspose.words/themecolor) constants. |
+| value | int | The background pattern theme color in the applied color scheme that is associated with this [Shading](../../com.aspose.words/shading/) object. The value must be one of [ThemeColor](../../com.aspose.words/themecolor/) constants. |
 
 ### setBackgroundTintAndShade(double value) {#setBackgroundTintAndShade-double}
 ```
@@ -263,12 +264,12 @@ public void setForegroundPatternColor(Color value)
 ```
 
 
-Sets the color that's applied to the foreground of the [Shading](../../com.aspose.words/shading) object.
+Sets the color that's applied to the foreground of the [Shading](../../com.aspose.words/shading/) object.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.awt.Color | The color that's applied to the foreground of the [Shading](../../com.aspose.words/shading) object. |
+| value | java.awt.Color | The color that's applied to the foreground of the [Shading](../../com.aspose.words/shading/) object. |
 
 ### setForegroundPatternThemeColor(int value) {#setForegroundPatternThemeColor-int}
 ```
@@ -276,12 +277,12 @@ public void setForegroundPatternThemeColor(int value)
 ```
 
 
-Sets the foreground pattern theme color in the applied color scheme that is associated with this [Shading](../../com.aspose.words/shading) object.
+Sets the foreground pattern theme color in the applied color scheme that is associated with this [Shading](../../com.aspose.words/shading/) object.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The foreground pattern theme color in the applied color scheme that is associated with this [Shading](../../com.aspose.words/shading) object. The value must be one of [ThemeColor](../../com.aspose.words/themecolor) constants. |
+| value | int | The foreground pattern theme color in the applied color scheme that is associated with this [Shading](../../com.aspose.words/shading/) object. The value must be one of [ThemeColor](../../com.aspose.words/themecolor/) constants. |
 
 ### setForegroundTintAndShade(double value) {#setForegroundTintAndShade-double}
 ```
@@ -311,7 +312,7 @@ Sets the shading texture.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The shading texture. The value must be one of [TextureIndex](../../com.aspose.words/textureindex) constants. |
+| value | int | The shading texture. The value must be one of [TextureIndex](../../com.aspose.words/textureindex/) constants. |
 
 ### toString() {#toString}
 ```

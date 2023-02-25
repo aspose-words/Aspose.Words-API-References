@@ -1,7 +1,8 @@
 ---
 title: MappingType
+linktitle: MappingType
 second_title: Aspose.Words for Java API Reference
-description: Specifies how a  is mapped.
+description: Specifies how a  is mapped in Java.
 type: docs
 weight: 31
 url: /java/com.aspose.words.net.system.data/mappingtype/
@@ -13,7 +14,7 @@ java.lang.Object
 public class MappingType
 ```
 
-Specifies how a [DataColumn](../../com.aspose.words.net.system.data/datacolumn) is mapped.
+Specifies how a [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) is mapped.
 ## Fields
 
 | Field | Description |

@@ -1,7 +1,8 @@
 ---
 title: CustomPart
+linktitle: CustomPart
 second_title: Aspose.Words for Java API Reference
-description: Represents a custom arbitrary content part that is not defined by the ISO/IEC 29500 standard.
+description: Represents a custom arbitrary content part that is not defined by the ISO/IEC 29500 standard in Java.
 type: docs
 weight: 103
 url: /java/com.aspose.words/custompart/
@@ -24,12 +25,12 @@ This class represents an OOXML part that is a target of an "unknown relationship
 
 Microsoft Word preserves custom parts during open/save cycles. Some additional info can be found here http://blogs.msdn.com/dmahugh/archive/2006/11/25/arbitrary-content-in-an-opc-package.aspx
 
-Aspose.Words also roundtrips custom parts and in addition, allows to programmatically access such parts via the [CustomPart](../../com.aspose.words/custompart) and [CustomPartCollection](../../com.aspose.words/custompartcollection) objects.
+Aspose.Words also roundtrips custom parts and in addition, allows to programmatically access such parts via the [CustomPart](../../com.aspose.words/custompart/) and [CustomPartCollection](../../com.aspose.words/custompartcollection/) objects.
 
-Do not confuse custom parts with Custom XML Data. Use [CustomXmlPart](../../com.aspose.words/customxmlpart) if you need to access Custom XML Data.
+Do not confuse custom parts with Custom XML Data. Use [CustomXmlPart](../../com.aspose.words/customxmlpart/) if you need to access Custom XML Data.
 
 
-[Structured Document Tags or Content Control]: https://docs.aspose.com/words/java/structured-document-tags-or-content-control/
+[Structured Document Tags or Content Control]: https://docs.aspose.com/words/java/working-with-content-control-sdt/
 ## Methods
 
 | Method | Description |
@@ -60,10 +61,10 @@ public CustomPart deepClone()
 ```
 
 
-Makes a "deep enough" copy of the object. Does not duplicate the bytes of the [getData()](../../com.aspose.words/custompart\#getData) / [setData(byte[])](../../com.aspose.words/custompart\#setData-byte) value.
+Makes a "deep enough" copy of the object. Does not duplicate the bytes of the [getData()](../../com.aspose.words/custompart/\#getData) / [setData(byte[])](../../com.aspose.words/custompart/\#setData-byte) value.
 
 **Returns:**
-[CustomPart](../../com.aspose.words/custompart)
+[CustomPart](../../com.aspose.words/custompart/)
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
@@ -97,7 +98,7 @@ public String getContentType()
 
 Specifies the content type of this custom part.
 
-This property is applicable only when [isExternal()](../../com.aspose.words/custompart\#isExternal) / [isExternal(boolean)](../../com.aspose.words/custompart\#isExternal-boolean) is  false .
+This property is applicable only when [isExternal()](../../com.aspose.words/custompart/\#isExternal) / [isExternal(boolean)](../../com.aspose.words/custompart/\#isExternal-boolean) is  false .
 
 The default value is an empty string. A valid value must be a non-empty string.
 
@@ -111,7 +112,7 @@ public byte[] getData()
 
 Contains the data of this custom part.
 
-This property is applicable only when [isExternal()](../../com.aspose.words/custompart\#isExternal) / [isExternal(boolean)](../../com.aspose.words/custompart\#isExternal-boolean) is  false .
+This property is applicable only when [isExternal()](../../com.aspose.words/custompart/\#isExternal) / [isExternal(boolean)](../../com.aspose.words/custompart/\#isExternal-boolean) is  false .
 
 The default value is an empty byte array. The value cannot be  null .
 
@@ -206,7 +207,7 @@ public void setContentType(String value)
 
 Specifies the content type of this custom part.
 
-This property is applicable only when [isExternal()](../../com.aspose.words/custompart\#isExternal) / [isExternal(boolean)](../../com.aspose.words/custompart\#isExternal-boolean) is  false .
+This property is applicable only when [isExternal()](../../com.aspose.words/custompart/\#isExternal) / [isExternal(boolean)](../../com.aspose.words/custompart/\#isExternal-boolean) is  false .
 
 The default value is an empty string. A valid value must be a non-empty string.
 
@@ -223,7 +224,7 @@ public void setData(byte[] value)
 
 Contains the data of this custom part.
 
-This property is applicable only when [isExternal()](../../com.aspose.words/custompart\#isExternal) / [isExternal(boolean)](../../com.aspose.words/custompart\#isExternal-boolean) is  false .
+This property is applicable only when [isExternal()](../../com.aspose.words/custompart/\#isExternal) / [isExternal(boolean)](../../com.aspose.words/custompart/\#isExternal-boolean) is  false .
 
 The default value is an empty byte array. The value cannot be  null .
 

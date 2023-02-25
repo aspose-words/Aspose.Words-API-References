@@ -1,9 +1,10 @@
 ---
 title: MailMergeMainDocumentType
+linktitle: MailMergeMainDocumentType
 second_title: Aspose.Words for Java API Reference
-description: Specifies the possible types for a mail merge source document.
+description: Specifies the possible types for a mail merge source document in Java.
 type: docs
-weight: 386
+weight: 387
 url: /java/com.aspose.words/mailmergemaindocumenttype/
 ---
 
@@ -19,7 +20,7 @@ Specifies the possible types for a mail merge source document.
 | Field | Description |
 | --- | --- |
 | [CATALOG](#CATALOG) | Specifies that the mail merge source document is of the catalog type. |
-| [DEFAULT](#DEFAULT) | Equals to [NOT\_A\_MERGE\_DOCUMENT](../../com.aspose.words/mailmergemaindocumenttype\#NOT-A-MERGE-DOCUMENT) |
+| [DEFAULT](#DEFAULT) | Equals to [NOT\_A\_MERGE\_DOCUMENT](../../com.aspose.words/mailmergemaindocumenttype/\#NOT-A-MERGE-DOCUMENT) |
 | [EMAIL](#EMAIL) | Specifies that the mail merge source document is of the e-mail message type. |
 | [ENVELOPES](#ENVELOPES) | Specifies that the mail merge source document is of the envelope type. |
 | [FAX](#FAX) | Specifies that the mail merge source document is of the fax type. |
@@ -58,7 +59,7 @@ public static int DEFAULT
 ```
 
 
-Equals to [NOT\_A\_MERGE\_DOCUMENT](../../com.aspose.words/mailmergemaindocumenttype\#NOT-A-MERGE-DOCUMENT)
+Equals to [NOT\_A\_MERGE\_DOCUMENT](../../com.aspose.words/mailmergemaindocumenttype/\#NOT-A-MERGE-DOCUMENT)
 
 ### EMAIL {#EMAIL}
 ```

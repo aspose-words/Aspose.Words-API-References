@@ -1,7 +1,8 @@
 ---
 title: CustomXmlPropertyCollection
+linktitle: CustomXmlPropertyCollection
 second_title: Aspose.Words for Java API Reference
-description: Represents a collection of custom XML attributes or smart tag properties.
+description: Represents a collection of custom XML attributes or smart tag properties in Java.
 type: docs
 weight: 108
 url: /java/com.aspose.words/customxmlpropertycollection/
@@ -20,10 +21,10 @@ Represents a collection of custom XML attributes or smart tag properties.
 
 To learn more, visit the [ Structured Document Tags or Content Control ][Structured Document Tags or Content Control] documentation article.
 
-Items are [CustomXmlProperty](../../com.aspose.words/customxmlproperty) objects.
+Items are [CustomXmlProperty](../../com.aspose.words/customxmlproperty/) objects.
 
 
-[Structured Document Tags or Content Control]: https://docs.aspose.com/words/java/structured-document-tags-or-content-control/
+[Structured Document Tags or Content Control]: https://docs.aspose.com/words/java/working-with-content-control-sdt/
 ## Methods
 
 | Method | Description |
@@ -58,7 +59,7 @@ Adds a property to the collection.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| property | [CustomXmlProperty](../../com.aspose.words/customxmlproperty) | The property to add. |
+| property | [CustomXmlProperty](../../com.aspose.words/customxmlproperty/) | The property to add. |
 
 ### clear() {#clear}
 ```
@@ -112,7 +113,7 @@ Gets a property at the specified index.
 | index | int | Zero-based index of the property. |
 
 **Returns:**
-[CustomXmlProperty](../../com.aspose.words/customxmlproperty) - A property at the specified index.
+[CustomXmlProperty](../../com.aspose.words/customxmlproperty/) - A property at the specified index.
 ### get(String name) {#get-java.lang.String}
 ```
 public CustomXmlProperty get(String name)
@@ -127,7 +128,7 @@ Provides access to the collection items.  Gets a property with the specified nam
 | name | java.lang.String | Case-sensitive name of the property to locate. |
 
 **Returns:**
-[CustomXmlProperty](../../com.aspose.words/customxmlproperty) - The corresponding [CustomXmlProperty](../../com.aspose.words/customxmlproperty) value.
+[CustomXmlProperty](../../com.aspose.words/customxmlproperty/) - The corresponding [CustomXmlProperty](../../com.aspose.words/customxmlproperty/) value.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()

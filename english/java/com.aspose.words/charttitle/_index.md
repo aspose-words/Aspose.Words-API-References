@@ -1,7 +1,8 @@
 ---
 title: ChartTitle
+linktitle: ChartTitle
 second_title: Aspose.Words for Java API Reference
-description: Provides access to the chart title properties.
+description: Provides access to the chart title properties in Java.
 type: docs
 weight: 70
 url: /java/com.aspose.words/charttitle/
@@ -152,7 +153,7 @@ public String getText()
 ```
 
 
-Gets the text of the chart title. If  null  or empty value is specified, auto generated title will be shown. Use [getShow()](../../com.aspose.words/charttitle\#getShow) / [setShow(boolean)](../../com.aspose.words/charttitle\#setShow-boolean) option if you need to hide the Title.
+Gets the text of the chart title. If  null  or empty value is specified, auto generated title will be shown. Use [getShow()](../../com.aspose.words/charttitle/\#getShow) / [setShow(boolean)](../../com.aspose.words/charttitle/\#setShow-boolean) option if you need to hide the Title.
 
 **Returns:**
 java.lang.String - The text of the chart title.
@@ -241,7 +242,7 @@ public void setText(String value)
 ```
 
 
-Sets the text of the chart title. If  null  or empty value is specified, auto generated title will be shown. Use [getShow()](../../com.aspose.words/charttitle\#getShow) / [setShow(boolean)](../../com.aspose.words/charttitle\#setShow-boolean) option if you need to hide the Title.
+Sets the text of the chart title. If  null  or empty value is specified, auto generated title will be shown. Use [getShow()](../../com.aspose.words/charttitle/\#getShow) / [setShow(boolean)](../../com.aspose.words/charttitle/\#setShow-boolean) option if you need to hide the Title.
 
 **Parameters:**
 | Parameter | Type | Description |

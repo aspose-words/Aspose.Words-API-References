@@ -1,9 +1,10 @@
 ---
 title: NodeRendererBase
+linktitle: NodeRendererBase
 second_title: Aspose.Words for Java API Reference
-description: Base class for  and .
+description: Base class for  and in Java.
 type: docs
-weight: 411
+weight: 413
 url: /java/com.aspose.words/noderendererbase/
 ---
 
@@ -13,7 +14,7 @@ java.lang.Object
 public abstract class NodeRendererBase
 ```
 
-Base class for [ShapeRenderer](../../com.aspose.words/shaperenderer) and [OfficeMathRenderer](../../com.aspose.words/officemathrenderer).
+Base class for [ShapeRenderer](../../com.aspose.words/shaperenderer/) and [OfficeMathRenderer](../../com.aspose.words/officemathrenderer/).
 
 To learn more, visit the [ Working with Shapes ][Working with Shapes] documentation article.
 
@@ -79,7 +80,7 @@ public Rectangle getBoundsInPixels(float scale, float dpi)
 
 Calculates the bounds of the shape in pixels for a specified zoom factor and resolution.
 
-This method converts [getBoundsInPoints()](../../com.aspose.words/noderendererbase\#getBoundsInPoints) into rectangle in pixels.
+This method converts [getBoundsInPoints()](../../com.aspose.words/noderendererbase/\#getBoundsInPoints) into rectangle in pixels.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -97,7 +98,7 @@ public Rectangle getBoundsInPixels(float scale, float horizontalDpi, float verti
 
 Calculates the bounds of the shape in pixels for a specified zoom factor and resolution.
 
-This method converts [getBoundsInPoints()](../../com.aspose.words/noderendererbase\#getBoundsInPoints) into rectangle in pixels.
+This method converts [getBoundsInPoints()](../../com.aspose.words/noderendererbase/\#getBoundsInPoints) into rectangle in pixels.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -138,7 +139,7 @@ public Rectangle getOpaqueBoundsInPixels(float scale, float dpi)
 
 Calculates the opaque bounds of the shape in pixels for a specified zoom factor and resolution.
 
-This method converts [getOpaqueBoundsInPoints()](../../com.aspose.words/noderendererbase\#getOpaqueBoundsInPoints) into rectangle in pixels and it is useful when you want to create a bitmap for rendering the shape with only opaque part of the shape.
+This method converts [getOpaqueBoundsInPoints()](../../com.aspose.words/noderendererbase/\#getOpaqueBoundsInPoints) into rectangle in pixels and it is useful when you want to create a bitmap for rendering the shape with only opaque part of the shape.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -156,7 +157,7 @@ public Rectangle getOpaqueBoundsInPixels(float scale, float horizontalDpi, float
 
 Calculates the opaque bounds of the shape in pixels for a specified zoom factor and resolution.
 
-This method converts [getOpaqueBoundsInPoints()](../../com.aspose.words/noderendererbase\#getOpaqueBoundsInPoints) into rectangle in pixels and it is useful when you want to create a bitmap for rendering the shape with only opaque part of the shape.
+This method converts [getOpaqueBoundsInPoints()](../../com.aspose.words/noderendererbase/\#getOpaqueBoundsInPoints) into rectangle in pixels and it is useful when you want to create a bitmap for rendering the shape with only opaque part of the shape.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -187,7 +188,7 @@ public Dimension getSizeInPixels(float scale, float dpi)
 
 Calculates the size of the shape in pixels for a specified zoom factor and resolution.
 
-This method converts [getSizeInPoints()](../../com.aspose.words/noderendererbase\#getSizeInPoints) into size in pixels and it is useful when you want to create a bitmap for rendering the shape neatly onto the bitmap.
+This method converts [getSizeInPoints()](../../com.aspose.words/noderendererbase/\#getSizeInPoints) into size in pixels and it is useful when you want to create a bitmap for rendering the shape neatly onto the bitmap.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -205,7 +206,7 @@ public Dimension getSizeInPixels(float scale, float horizontalDpi, float vertica
 
 Calculates the size of the shape in pixels for a specified zoom factor and resolution.
 
-This method converts [getSizeInPoints()](../../com.aspose.words/noderendererbase\#getSizeInPoints) into size in pixels and it is useful when you want to create a bitmap for rendering the shape neatly onto the bitmap.
+This method converts [getSizeInPoints()](../../com.aspose.words/noderendererbase/\#getSizeInPoints) into size in pixels and it is useful when you want to create a bitmap for rendering the shape neatly onto the bitmap.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -303,7 +304,7 @@ public void save(OutputStream stream, ImageSaveOptions saveOptions)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | java.io.OutputStream |  |
-| saveOptions | [ImageSaveOptions](../../com.aspose.words/imagesaveoptions) |  |
+| saveOptions | [ImageSaveOptions](../../com.aspose.words/imagesaveoptions/) |  |
 
 ### save(String fileName, ImageSaveOptions saveOptions) {#save-java.lang.String-com.aspose.words.ImageSaveOptions}
 ```
@@ -317,7 +318,7 @@ Renders the shape and saves into an image.  Renders the shape into an image and 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | java.lang.String | The name for the image file. If a file with the specified name already exists, the existing file is overwritten. |
-| saveOptions | [ImageSaveOptions](../../com.aspose.words/imagesaveoptions) | Specifies the options that control how the shape is rendered and saved. Can be  null . |
+| saveOptions | [ImageSaveOptions](../../com.aspose.words/imagesaveoptions/) | Specifies the options that control how the shape is rendered and saved. Can be  null . |
 
 ### toString() {#toString}
 ```

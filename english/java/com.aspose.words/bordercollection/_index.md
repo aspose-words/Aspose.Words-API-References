@@ -1,7 +1,8 @@
 ---
 title: BorderCollection
+linktitle: BorderCollection
 second_title: Aspose.Words for Java API Reference
-description: A collection of  objects.
+description: A collection of  objects in Java.
 type: docs
 weight: 37
 url: /java/com.aspose.words/bordercollection/
@@ -16,11 +17,11 @@ java.lang.Iterable
 public class BorderCollection implements Iterable
 ```
 
-A collection of [Border](../../com.aspose.words/border) objects.
+A collection of [Border](../../com.aspose.words/border/) objects.
 
 To learn more, visit the [ Programming with Documents ][Programming with Documents] documentation article.
 
-Different document elements have different borders. For example, [ParagraphFormat](../../com.aspose.words/paragraphformat) has [getBottom()](../../com.aspose.words/bordercollection\#getBottom), [getLeft()](../../com.aspose.words/bordercollection\#getLeft), [getRight()](../../com.aspose.words/bordercollection\#getRight) and [getTop()](../../com.aspose.words/bordercollection\#getTop) borders. You can specify different formatting for each border independently or enumerate through all borders and apply same formatting.
+Different document elements have different borders. For example, [ParagraphFormat](../../com.aspose.words/paragraphformat/) has [getBottom()](../../com.aspose.words/bordercollection/\#getBottom), [getLeft()](../../com.aspose.words/bordercollection/\#getLeft), [getRight()](../../com.aspose.words/bordercollection/\#getRight) and [getTop()](../../com.aspose.words/bordercollection/\#getTop) borders. You can specify different formatting for each border independently or enumerate through all borders and apply same formatting.
 
 
 [Programming with Documents]: https://docs.aspose.com/words/java/programming-with-documents/
@@ -31,7 +32,7 @@ Different document elements have different borders. For example, [ParagraphForma
 | [clearFormatting()](#clearFormatting) | Removes all borders of an object. |
 | [equals(BorderCollection brColl)](#equals-com.aspose.words.BorderCollection) | Compares collections of borders. |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [get(int index)](#get-int) | Retrieves a [Border](../../com.aspose.words/border) object by index. |
+| [get(int index)](#get-int) | Retrieves a [Border](../../com.aspose.words/border/) object by index. |
 | [getBottom()](#getBottom) | Gets the bottom border. |
 | [getByBorderType(int borderType)](#getByBorderType-int) |  |
 | [getClass()](#getClass) |  |
@@ -78,7 +79,7 @@ Compares collections of borders.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| brColl | [BorderCollection](../../com.aspose.words/bordercollection) |  |
+| brColl | [BorderCollection](../../com.aspose.words/bordercollection/) |  |
 
 **Returns:**
 boolean
@@ -103,7 +104,7 @@ public Border get(int index)
 ```
 
 
-Retrieves a [Border](../../com.aspose.words/border) object by index.
+Retrieves a [Border](../../com.aspose.words/border/) object by index.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -111,7 +112,7 @@ Retrieves a [Border](../../com.aspose.words/border) object by index.
 | index | int | Zero-based index of the border to retrieve. |
 
 **Returns:**
-[Border](../../com.aspose.words/border) - The corresponding [Border](../../com.aspose.words/border) value.
+[Border](../../com.aspose.words/border/) - The corresponding [Border](../../com.aspose.words/border/) value.
 ### getBottom() {#getBottom}
 ```
 public Border getBottom()
@@ -121,7 +122,7 @@ public Border getBottom()
 Gets the bottom border.
 
 **Returns:**
-[Border](../../com.aspose.words/border) - The bottom border.
+[Border](../../com.aspose.words/border/) - The bottom border.
 ### getByBorderType(int borderType) {#getByBorderType-int}
 ```
 public Border getByBorderType(int borderType)
@@ -136,7 +137,7 @@ public Border getByBorderType(int borderType)
 | borderType | int |  |
 
 **Returns:**
-[Border](../../com.aspose.words/border)
+[Border](../../com.aspose.words/border/)
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -196,7 +197,7 @@ public Border getHorizontal()
 Gets the horizontal border that is used between cells or conforming paragraphs.
 
 **Returns:**
-[Border](../../com.aspose.words/border) - The horizontal border that is used between cells or conforming paragraphs.
+[Border](../../com.aspose.words/border/) - The horizontal border that is used between cells or conforming paragraphs.
 ### getLeft() {#getLeft}
 ```
 public Border getLeft()
@@ -206,7 +207,7 @@ public Border getLeft()
 Gets the left border.
 
 **Returns:**
-[Border](../../com.aspose.words/border) - The left border.
+[Border](../../com.aspose.words/border/) - The left border.
 ### getLineStyle() {#getLineStyle}
 ```
 public int getLineStyle()
@@ -220,7 +221,7 @@ Returns the style of the first border in the collection.
 Sets the style of all borders in the collection excluding diagonal borders.
 
 **Returns:**
-int - The border style. The returned value is one of [LineStyle](../../com.aspose.words/linestyle) constants.
+int - The border style. The returned value is one of [LineStyle](../../com.aspose.words/linestyle/) constants.
 ### getLineWidth() {#getLineWidth}
 ```
 public double getLineWidth()
@@ -244,7 +245,7 @@ public Border getRight()
 Gets the right border.
 
 **Returns:**
-[Border](../../com.aspose.words/border) - The right border.
+[Border](../../com.aspose.words/border/) - The right border.
 ### getShadow() {#getShadow}
 ```
 public boolean getShadow()
@@ -268,7 +269,7 @@ public Border getTop()
 Gets the top border.
 
 **Returns:**
-[Border](../../com.aspose.words/border) - The top border.
+[Border](../../com.aspose.words/border/) - The top border.
 ### getVertical() {#getVertical}
 ```
 public Border getVertical()
@@ -278,7 +279,7 @@ public Border getVertical()
 Gets the vertical border that is used between cells.
 
 **Returns:**
-[Border](../../com.aspose.words/border) - The vertical border that is used between cells.
+[Border](../../com.aspose.words/border/) - The vertical border that is used between cells.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()
@@ -366,7 +367,7 @@ Sets the style of all borders in the collection excluding diagonal borders.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The border style. The value must be one of [LineStyle](../../com.aspose.words/linestyle) constants. |
+| value | int | The border style. The value must be one of [LineStyle](../../com.aspose.words/linestyle/) constants. |
 
 ### setLineWidth(double value) {#setLineWidth-double}
 ```

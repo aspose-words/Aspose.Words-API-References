@@ -1,7 +1,8 @@
 ---
 title: ImageColorMode
+linktitle: ImageColorMode
 second_title: Aspose.Words for Java API Reference
-description: Specifies the color mode for the generated images of document pages.
+description: Specifies the color mode for the generated images of document pages in Java.
 type: docs
 weight: 338
 url: /java/com.aspose.words/imagecolormode/

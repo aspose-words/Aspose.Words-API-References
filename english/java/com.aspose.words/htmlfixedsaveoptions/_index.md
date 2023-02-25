@@ -1,19 +1,20 @@
 ---
 title: HtmlFixedSaveOptions
+linktitle: HtmlFixedSaveOptions
 second_title: Aspose.Words for Java API Reference
-description: Can be used to specify additional options when saving a document into the  format.
+description: Can be used to specify additional options when saving a document into the  format in Java.
 type: docs
 weight: 328
 url: /java/com.aspose.words/htmlfixedsaveoptions/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.words.SaveOptions](../../com.aspose.words/saveoptions), [com.aspose.words.FixedPageSaveOptions](../../com.aspose.words/fixedpagesaveoptions)
+java.lang.Object, [com.aspose.words.SaveOptions](../../com.aspose.words/saveoptions/), [com.aspose.words.FixedPageSaveOptions](../../com.aspose.words/fixedpagesaveoptions/)
 ```
 public class HtmlFixedSaveOptions extends FixedPageSaveOptions
 ```
 
-Can be used to specify additional options when saving a document into the [SaveFormat.HTML\_FIXED](../../com.aspose.words/saveformat\#HTML-FIXED) format.
+Can be used to specify additional options when saving a document into the [SaveFormat.HTML\_FIXED](../../com.aspose.words/saveformat/\#HTML-FIXED) format.
 
 To learn more, visit the [ Specify Save Options ][Specify Save Options] documentation article.
 
@@ -41,12 +42,12 @@ To learn more, visit the [ Specify Save Options ][Specify Save Options] document
 | [getExportEmbeddedSvg()](#getExportEmbeddedSvg) | Specifies whether SVG resources should be embedded into Html document. |
 | [getExportFormFields()](#getExportFormFields) | Gets indication of whether form fields are exported as interactive items (as 'input' tag) rather than converted to text or graphics. |
 | [getExportGeneratorName()](#getExportGeneratorName) | When  true , causes the name and version of Aspose.Words to be embedded into produced files. |
-| [getFontFormat()](#getFontFormat) | Gets [ExportFontFormat](../../com.aspose.words/exportfontformat) used for font exporting. |
+| [getFontFormat()](#getFontFormat) | Gets [ExportFontFormat](../../com.aspose.words/exportfontformat/) used for font exporting. |
 | [getImlRenderingMode()](#getImlRenderingMode) | Gets a value determining how ink (InkML) objects are rendered. |
 | [getJpegQuality()](#getJpegQuality) | Gets a value determining the quality of the JPEG images inside Html document. |
 | [getMemoryOptimization()](#getMemoryOptimization) | Gets value determining if memory optimization should be performed before saving the document. |
 | [getMetafileRenderingOptions()](#getMetafileRenderingOptions) | Allows to specify metafile rendering options. |
-| [getNumeralFormat()](#getNumeralFormat) | Gets [NumeralFormat](../../com.aspose.words/numeralformat) used for rendering of numerals. |
+| [getNumeralFormat()](#getNumeralFormat) | Gets [NumeralFormat](../../com.aspose.words/numeralformat/) used for rendering of numerals. |
 | [getOptimizeOutput()](#getOptimizeOutput) | Flag indicates whether it is required to optimize output. |
 | [getPageHorizontalAlignment()](#getPageHorizontalAlignment) | Specifies the horizontal alignment of pages in an HTML document. |
 | [getPageMargins()](#getPageMargins) | Specifies the margins around pages in an HTML document. |
@@ -57,15 +58,15 @@ To learn more, visit the [ Specify Save Options ][Specify Save Options] document
 | [getResourceSavingCallback()](#getResourceSavingCallback) | Allows to control how resources (images, fonts and css) are saved when a document is exported to fixed page Html format. |
 | [getResourcesFolder()](#getResourcesFolder) | Specifies the physical folder where resources (images, fonts, css) are saved when exporting a document to Html format. |
 | [getResourcesFolderAlias()](#getResourcesFolderAlias) | Specifies the name of the folder used to construct image URIs written into an Html document. |
-| [getSaveFontFaceCssSeparately()](#getSaveFontFaceCssSeparately) | Flag indicates whether "@font-face" CSS rules should be placed into a separate file "fontFaces.css" when a document is being saved with external stylesheet (that is, when [getExportEmbeddedCss()](../../com.aspose.words/htmlfixedsaveoptions\#getExportEmbeddedCss) / [setExportEmbeddedCss(boolean)](../../com.aspose.words/htmlfixedsaveoptions\#setExportEmbeddedCss-boolean) is  false ). |
+| [getSaveFontFaceCssSeparately()](#getSaveFontFaceCssSeparately) | Flag indicates whether "@font-face" CSS rules should be placed into a separate file "fontFaces.css" when a document is being saved with external stylesheet (that is, when [getExportEmbeddedCss()](../../com.aspose.words/htmlfixedsaveoptions/\#getExportEmbeddedCss) / [setExportEmbeddedCss(boolean)](../../com.aspose.words/htmlfixedsaveoptions/\#setExportEmbeddedCss-boolean) is  false ). |
 | [getSaveFormat()](#getSaveFormat) | Specifies the format in which the document will be saved if this save options object is used. |
 | [getShowPageBorder()](#getShowPageBorder) | Specifies whether border around pages should be shown. |
 | [getTempFolder()](#getTempFolder) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. |
-| [getUpdateCreatedTimeProperty()](#getUpdateCreatedTimeProperty) | Gets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date) property is updated before saving. |
+| [getUpdateCreatedTimeProperty()](#getUpdateCreatedTimeProperty) | Gets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties/\#getCreatedTime) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setCreatedTime-java.util.Date) property is updated before saving. |
 | [getUpdateFields()](#getUpdateFields) | Gets a value determining if fields of certain types should be updated before saving the document to a fixed page format. |
-| [getUpdateLastPrintedProperty()](#getUpdateLastPrintedProperty) | Gets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date) property is updated before saving. |
-| [getUpdateLastSavedTimeProperty()](#getUpdateLastSavedTimeProperty) | Gets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date) property is updated before saving. |
-| [getUpdateSdtContent()](#getUpdateSdtContent) | Gets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) is updated before saving. |
+| [getUpdateLastPrintedProperty()](#getUpdateLastPrintedProperty) | Gets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties/\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastPrinted-java.util.Date) property is updated before saving. |
+| [getUpdateLastSavedTimeProperty()](#getUpdateLastSavedTimeProperty) | Gets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties/\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastSavedTime-java.util.Date) property is updated before saving. |
+| [getUpdateSdtContent()](#getUpdateSdtContent) | Gets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) is updated before saving. |
 | [getUseAntiAliasing()](#getUseAntiAliasing) | Gets a value determining whether or not to use anti-aliasing for rendering. |
 | [getUseHighQualityRendering()](#getUseHighQualityRendering) | Gets a value determining whether or not to use high quality (i.e. |
 | [getUseTargetMachineFonts()](#getUseTargetMachineFonts) | Flag indicates whether fonts from target machine must be used to display the document. |
@@ -86,12 +87,12 @@ To learn more, visit the [ Specify Save Options ][Specify Save Options] document
 | [setExportEmbeddedSvg(boolean value)](#setExportEmbeddedSvg-boolean) | Specifies whether SVG resources should be embedded into Html document. |
 | [setExportFormFields(boolean value)](#setExportFormFields-boolean) | Sets indication of whether form fields are exported as interactive items (as 'input' tag) rather than converted to text or graphics. |
 | [setExportGeneratorName(boolean value)](#setExportGeneratorName-boolean) | When  true , causes the name and version of Aspose.Words to be embedded into produced files. |
-| [setFontFormat(int value)](#setFontFormat-int) | Sets [ExportFontFormat](../../com.aspose.words/exportfontformat) used for font exporting. |
+| [setFontFormat(int value)](#setFontFormat-int) | Sets [ExportFontFormat](../../com.aspose.words/exportfontformat/) used for font exporting. |
 | [setImlRenderingMode(int value)](#setImlRenderingMode-int) | Sets a value determining how ink (InkML) objects are rendered. |
 | [setJpegQuality(int value)](#setJpegQuality-int) | Sets a value determining the quality of the JPEG images inside Html document. |
 | [setMemoryOptimization(boolean value)](#setMemoryOptimization-boolean) | Sets value determining if memory optimization should be performed before saving the document. |
 | [setMetafileRenderingOptions(MetafileRenderingOptions value)](#setMetafileRenderingOptions-com.aspose.words.MetafileRenderingOptions) | Allows to specify metafile rendering options. |
-| [setNumeralFormat(int value)](#setNumeralFormat-int) | Sets [NumeralFormat](../../com.aspose.words/numeralformat) used for rendering of numerals. |
+| [setNumeralFormat(int value)](#setNumeralFormat-int) | Sets [NumeralFormat](../../com.aspose.words/numeralformat/) used for rendering of numerals. |
 | [setOptimizeOutput(boolean value)](#setOptimizeOutput-boolean) | Flag indicates whether it is required to optimize output. |
 | [setPageHorizontalAlignment(int value)](#setPageHorizontalAlignment-int) | Specifies the horizontal alignment of pages in an HTML document. |
 | [setPageMargins(double value)](#setPageMargins-double) | Specifies the margins around pages in an HTML document. |
@@ -102,15 +103,15 @@ To learn more, visit the [ Specify Save Options ][Specify Save Options] document
 | [setResourceSavingCallback(IResourceSavingCallback value)](#setResourceSavingCallback-com.aspose.words.IResourceSavingCallback) | Allows to control how resources (images, fonts and css) are saved when a document is exported to fixed page Html format. |
 | [setResourcesFolder(String value)](#setResourcesFolder-java.lang.String) | Specifies the physical folder where resources (images, fonts, css) are saved when exporting a document to Html format. |
 | [setResourcesFolderAlias(String value)](#setResourcesFolderAlias-java.lang.String) | Specifies the name of the folder used to construct image URIs written into an Html document. |
-| [setSaveFontFaceCssSeparately(boolean value)](#setSaveFontFaceCssSeparately-boolean) | Flag indicates whether "@font-face" CSS rules should be placed into a separate file "fontFaces.css" when a document is being saved with external stylesheet (that is, when [getExportEmbeddedCss()](../../com.aspose.words/htmlfixedsaveoptions\#getExportEmbeddedCss) / [setExportEmbeddedCss(boolean)](../../com.aspose.words/htmlfixedsaveoptions\#setExportEmbeddedCss-boolean) is  false ). |
+| [setSaveFontFaceCssSeparately(boolean value)](#setSaveFontFaceCssSeparately-boolean) | Flag indicates whether "@font-face" CSS rules should be placed into a separate file "fontFaces.css" when a document is being saved with external stylesheet (that is, when [getExportEmbeddedCss()](../../com.aspose.words/htmlfixedsaveoptions/\#getExportEmbeddedCss) / [setExportEmbeddedCss(boolean)](../../com.aspose.words/htmlfixedsaveoptions/\#setExportEmbeddedCss-boolean) is  false ). |
 | [setSaveFormat(int value)](#setSaveFormat-int) | Specifies the format in which the document will be saved if this save options object is used. |
 | [setShowPageBorder(boolean value)](#setShowPageBorder-boolean) | Specifies whether border around pages should be shown. |
 | [setTempFolder(String value)](#setTempFolder-java.lang.String) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. |
-| [setUpdateCreatedTimeProperty(boolean value)](#setUpdateCreatedTimeProperty-boolean) | Sets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date) property is updated before saving. |
+| [setUpdateCreatedTimeProperty(boolean value)](#setUpdateCreatedTimeProperty-boolean) | Sets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties/\#getCreatedTime) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setCreatedTime-java.util.Date) property is updated before saving. |
 | [setUpdateFields(boolean value)](#setUpdateFields-boolean) | Sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. |
-| [setUpdateLastPrintedProperty(boolean value)](#setUpdateLastPrintedProperty-boolean) | Sets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date) property is updated before saving. |
-| [setUpdateLastSavedTimeProperty(boolean value)](#setUpdateLastSavedTimeProperty-boolean) | Sets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date) property is updated before saving. |
-| [setUpdateSdtContent(boolean value)](#setUpdateSdtContent-boolean) | Sets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) is updated before saving. |
+| [setUpdateLastPrintedProperty(boolean value)](#setUpdateLastPrintedProperty-boolean) | Sets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties/\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastPrinted-java.util.Date) property is updated before saving. |
+| [setUpdateLastSavedTimeProperty(boolean value)](#setUpdateLastSavedTimeProperty-boolean) | Sets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties/\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastSavedTime-java.util.Date) property is updated before saving. |
+| [setUpdateSdtContent(boolean value)](#setUpdateSdtContent-boolean) | Sets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) is updated before saving. |
 | [setUseAntiAliasing(boolean value)](#setUseAntiAliasing-boolean) | Sets a value determining whether or not to use anti-aliasing for rendering. |
 | [setUseHighQualityRendering(boolean value)](#setUseHighQualityRendering-boolean) | Sets a value determining whether or not to use high quality (i.e. |
 | [setUseTargetMachineFonts(boolean value)](#setUseTargetMachineFonts-boolean) | Flag indicates whether fonts from target machine must be used to display the document. |
@@ -132,7 +133,7 @@ public static SaveOptions createSaveOptions(int saveFormat)
 | saveFormat | int |  |
 
 **Returns:**
-[SaveOptions](../../com.aspose.words/saveoptions)
+[SaveOptions](../../com.aspose.words/saveoptions/)
 ### createSaveOptions(String fileName) {#createSaveOptions-java.lang.String}
 ```
 public static SaveOptions createSaveOptions(String fileName)
@@ -147,7 +148,7 @@ Creates a save options object of a class suitable for the file extension specifi
 | fileName | java.lang.String | The extension of this file name determines the class of the save options object to create. |
 
 **Returns:**
-[SaveOptions](../../com.aspose.words/saveoptions) - An object of a class that derives from [SaveOptions](../../com.aspose.words/saveoptions).
+[SaveOptions](../../com.aspose.words/saveoptions/) - An object of a class that derives from [SaveOptions](../../com.aspose.words/saveoptions/).
 ### equals(Object obj) {#equals-java.lang.Object}
 ```
 public boolean equals(Object obj)
@@ -173,7 +174,7 @@ Gets a boolean value indicating whether to allow embedding fonts with PostScript
 
 Note, Word does not embed PostScript fonts, but can open documents with embedded fonts of this type.
 
-This option only works when [FontInfoCollection.getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrueTypeFonts) / [FontInfoCollection.setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrueTypeFonts-boolean) of the [DocumentBase.getFontInfos()](../../com.aspose.words/documentbase\#getFontInfos) property is set to  true .
+This option only works when [FontInfoCollection.getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection/\#getEmbedTrueTypeFonts) / [FontInfoCollection.setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection/\#setEmbedTrueTypeFonts-boolean) of the [DocumentBase.getFontInfos()](../../com.aspose.words/documentbase/\#getFontInfos) property is set to  true .
 
 **Returns:**
 boolean - A boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved.
@@ -193,10 +194,10 @@ public int getColorMode()
 ```
 
 
-Gets a value determining how colors are rendered. The default value is [ColorMode.NORMAL](../../com.aspose.words/colormode\#NORMAL).
+Gets a value determining how colors are rendered. The default value is [ColorMode.NORMAL](../../com.aspose.words/colormode/\#NORMAL).
 
 **Returns:**
-int - A value determining how colors are rendered. The returned value is one of [ColorMode](../../com.aspose.words/colormode) constants.
+int - A value determining how colors are rendered. The returned value is one of [ColorMode](../../com.aspose.words/colormode/) constants.
 ### getCssClassNamesPrefix() {#getCssClassNamesPrefix}
 ```
 public String getCssClassNamesPrefix()
@@ -213,7 +214,7 @@ public String getDefaultTemplate()
 ```
 
 
-Gets path to default template (including filename). Default value for this property is **empty string**. If specified, this path is used to load template when [Document.getAutomaticallyUpdateStyles()](../../com.aspose.words/document\#getAutomaticallyUpdateStyles) / [Document.setAutomaticallyUpdateStyles(boolean)](../../com.aspose.words/document\#setAutomaticallyUpdateStyles-boolean) is  true , but [Document.getAttachedTemplate()](../../com.aspose.words/document\#getAttachedTemplate) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document\#setAttachedTemplate-java.lang.String) is empty.
+Gets path to default template (including filename). Default value for this property is **empty string**. If specified, this path is used to load template when [Document.getAutomaticallyUpdateStyles()](../../com.aspose.words/document/\#getAutomaticallyUpdateStyles) / [Document.setAutomaticallyUpdateStyles(boolean)](../../com.aspose.words/document/\#setAutomaticallyUpdateStyles-boolean) is  true , but [Document.getAttachedTemplate()](../../com.aspose.words/document/\#getAttachedTemplate) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document/\#setAttachedTemplate-java.lang.String) is empty.
 
 **Returns:**
 java.lang.String - Path to default template (including filename).
@@ -223,34 +224,34 @@ public int getDml3DEffectsRenderingMode()
 ```
 
 
-Gets a value determining how 3D effects are rendered. The default value is [Dml3DEffectsRenderingMode.BASIC](../../com.aspose.words/dml3deffectsrenderingmode\#BASIC).
+Gets a value determining how 3D effects are rendered. The default value is [Dml3DEffectsRenderingMode.BASIC](../../com.aspose.words/dml3deffectsrenderingmode/\#BASIC).
 
 **Returns:**
-int - A value determining how 3D effects are rendered. The returned value is one of [Dml3DEffectsRenderingMode](../../com.aspose.words/dml3deffectsrenderingmode) constants.
+int - A value determining how 3D effects are rendered. The returned value is one of [Dml3DEffectsRenderingMode](../../com.aspose.words/dml3deffectsrenderingmode/) constants.
 ### getDmlEffectsRenderingMode() {#getDmlEffectsRenderingMode}
 ```
 public int getDmlEffectsRenderingMode()
 ```
 
 
-Gets a value determining how DrawingML effects are rendered. The default value is [DmlEffectsRenderingMode.SIMPLIFIED](../../com.aspose.words/dmleffectsrenderingmode\#SIMPLIFIED).
+Gets a value determining how DrawingML effects are rendered. The default value is [DmlEffectsRenderingMode.SIMPLIFIED](../../com.aspose.words/dmleffectsrenderingmode/\#SIMPLIFIED).
 
 This property is used when the document is exported to fixed page formats.
 
 **Returns:**
-int - A value determining how DrawingML effects are rendered. The returned value is one of [DmlEffectsRenderingMode](../../com.aspose.words/dmleffectsrenderingmode) constants.
+int - A value determining how DrawingML effects are rendered. The returned value is one of [DmlEffectsRenderingMode](../../com.aspose.words/dmleffectsrenderingmode/) constants.
 ### getDmlRenderingMode() {#getDmlRenderingMode}
 ```
 public int getDmlRenderingMode()
 ```
 
 
-Gets a value determining how DrawingML shapes are rendered. The default value is [DmlRenderingMode.FALLBACK](../../com.aspose.words/dmlrenderingmode\#FALLBACK).
+Gets a value determining how DrawingML shapes are rendered. The default value is [DmlRenderingMode.FALLBACK](../../com.aspose.words/dmlrenderingmode/\#FALLBACK).
 
 This property is used when the document is exported to fixed page formats.
 
 **Returns:**
-int - A value determining how DrawingML shapes are rendered. The returned value is one of [DmlRenderingMode](../../com.aspose.words/dmlrenderingmode) constants.
+int - A value determining how DrawingML shapes are rendered. The returned value is one of [DmlRenderingMode](../../com.aspose.words/dmlrenderingmode/) constants.
 ### getEncoding() {#getEncoding}
 ```
 public Charset getEncoding()
@@ -327,22 +328,22 @@ public int getFontFormat()
 ```
 
 
-Gets [ExportFontFormat](../../com.aspose.words/exportfontformat) used for font exporting. Default value is [ExportFontFormat.WOFF](../../com.aspose.words/exportfontformat\#WOFF).
+Gets [ExportFontFormat](../../com.aspose.words/exportfontformat/) used for font exporting. Default value is [ExportFontFormat.WOFF](../../com.aspose.words/exportfontformat/\#WOFF).
 
 **Returns:**
-int - \{[ExportFontFormat](../../com.aspose.words/exportfontformat) used for font exporting. The returned value is one of [ExportFontFormat](../../com.aspose.words/exportfontformat) constants.
+int - \{[ExportFontFormat](../../com.aspose.words/exportfontformat/) used for font exporting. The returned value is one of [ExportFontFormat](../../com.aspose.words/exportfontformat/) constants.
 ### getImlRenderingMode() {#getImlRenderingMode}
 ```
 public int getImlRenderingMode()
 ```
 
 
-Gets a value determining how ink (InkML) objects are rendered. The default value is [ImlRenderingMode.INK\_ML](../../com.aspose.words/imlrenderingmode\#INK-ML).
+Gets a value determining how ink (InkML) objects are rendered. The default value is [ImlRenderingMode.INK\_ML](../../com.aspose.words/imlrenderingmode/\#INK-ML).
 
 This property is used when the document is exported to fixed page formats.
 
 **Returns:**
-int - A value determining how ink (InkML) objects are rendered. The returned value is one of [ImlRenderingMode](../../com.aspose.words/imlrenderingmode) constants.
+int - A value determining how ink (InkML) objects are rendered. The returned value is one of [ImlRenderingMode](../../com.aspose.words/imlrenderingmode/) constants.
 ### getJpegQuality() {#getJpegQuality}
 ```
 public int getJpegQuality()
@@ -378,17 +379,17 @@ public MetafileRenderingOptions getMetafileRenderingOptions()
 Allows to specify metafile rendering options.
 
 **Returns:**
-[MetafileRenderingOptions](../../com.aspose.words/metafilerenderingoptions) - The corresponding [MetafileRenderingOptions](../../com.aspose.words/metafilerenderingoptions) value.
+[MetafileRenderingOptions](../../com.aspose.words/metafilerenderingoptions/) - The corresponding [MetafileRenderingOptions](../../com.aspose.words/metafilerenderingoptions/) value.
 ### getNumeralFormat() {#getNumeralFormat}
 ```
 public int getNumeralFormat()
 ```
 
 
-Gets [NumeralFormat](../../com.aspose.words/numeralformat) used for rendering of numerals. European numerals are used by default. If the value of this property is changed and page layout is already built then [Document.updatePageLayout()](../../com.aspose.words/document\#updatePageLayout) is invoked automatically to update any changes.
+Gets [NumeralFormat](../../com.aspose.words/numeralformat/) used for rendering of numerals. European numerals are used by default. If the value of this property is changed and page layout is already built then [Document.updatePageLayout()](../../com.aspose.words/document/\#updatePageLayout) is invoked automatically to update any changes.
 
 **Returns:**
-int - \{[NumeralFormat](../../com.aspose.words/numeralformat) used for rendering of numerals. The returned value is one of [NumeralFormat](../../com.aspose.words/numeralformat) constants.
+int - \{[NumeralFormat](../../com.aspose.words/numeralformat/) used for rendering of numerals. The returned value is one of [NumeralFormat](../../com.aspose.words/numeralformat/) constants.
 ### getOptimizeOutput() {#getOptimizeOutput}
 ```
 public boolean getOptimizeOutput()
@@ -405,10 +406,10 @@ public int getPageHorizontalAlignment()
 ```
 
 
-Specifies the horizontal alignment of pages in an HTML document. Default value is [HtmlFixedPageHorizontalAlignment.CENTER](../../com.aspose.words/htmlfixedpagehorizontalalignment\#CENTER).
+Specifies the horizontal alignment of pages in an HTML document. Default value is [HtmlFixedPageHorizontalAlignment.CENTER](../../com.aspose.words/htmlfixedpagehorizontalalignment/\#CENTER).
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [HtmlFixedPageHorizontalAlignment](../../com.aspose.words/htmlfixedpagehorizontalalignment) constants.
+int - The corresponding  int  value. The returned value is one of [HtmlFixedPageHorizontalAlignment](../../com.aspose.words/htmlfixedpagehorizontalalignment/) constants.
 ### getPageMargins() {#getPageMargins}
 ```
 public double getPageMargins()
@@ -417,11 +418,11 @@ public double getPageMargins()
 
 Specifies the margins around pages in an HTML document. The margins value is measured in points and should be equal to or greater than 0. Default value is 10 points.
 
-Depends on the value of [getPageHorizontalAlignment()](../../com.aspose.words/htmlfixedsaveoptions\#getPageHorizontalAlignment) / [setPageHorizontalAlignment(int)](../../com.aspose.words/htmlfixedsaveoptions\#setPageHorizontalAlignment-int) property:
+Depends on the value of [getPageHorizontalAlignment()](../../com.aspose.words/htmlfixedsaveoptions/\#getPageHorizontalAlignment) / [setPageHorizontalAlignment(int)](../../com.aspose.words/htmlfixedsaveoptions/\#setPageHorizontalAlignment-int) property:
 
- *  Defines top, bottom and left page margins if the value is [HtmlFixedPageHorizontalAlignment.LEFT](../../com.aspose.words/htmlfixedpagehorizontalalignment\#LEFT).
- *  Defines top, bottom and right page margins if the value is [HtmlFixedPageHorizontalAlignment.RIGHT](../../com.aspose.words/htmlfixedpagehorizontalalignment\#RIGHT).
- *  Defines top and bottom page margins if the value is [HtmlFixedPageHorizontalAlignment.CENTER](../../com.aspose.words/htmlfixedpagehorizontalalignment\#CENTER).
+ *  Defines top, bottom and left page margins if the value is [HtmlFixedPageHorizontalAlignment.LEFT](../../com.aspose.words/htmlfixedpagehorizontalalignment/\#LEFT).
+ *  Defines top, bottom and right page margins if the value is [HtmlFixedPageHorizontalAlignment.RIGHT](../../com.aspose.words/htmlfixedpagehorizontalalignment/\#RIGHT).
+ *  Defines top and bottom page margins if the value is [HtmlFixedPageHorizontalAlignment.CENTER](../../com.aspose.words/htmlfixedpagehorizontalalignment/\#CENTER).
 
 **Returns:**
 double - The corresponding  double  value.
@@ -434,7 +435,7 @@ public IPageSavingCallback getPageSavingCallback()
 Allows to control how separate pages are saved when a document is exported to fixed page format.
 
 **Returns:**
-[IPageSavingCallback](../../com.aspose.words/ipagesavingcallback) - The corresponding [IPageSavingCallback](../../com.aspose.words/ipagesavingcallback) value.
+[IPageSavingCallback](../../com.aspose.words/ipagesavingcallback/) - The corresponding [IPageSavingCallback](../../com.aspose.words/ipagesavingcallback/) value.
 ### getPageSet() {#getPageSet}
 ```
 public PageSet getPageSet()
@@ -444,7 +445,7 @@ public PageSet getPageSet()
 Gets the pages to render. Default is all the pages in the document.
 
 **Returns:**
-[PageSet](../../com.aspose.words/pageset) - The pages to render.
+[PageSet](../../com.aspose.words/pageset/) - The pages to render.
 ### getPrettyFormat() {#getPrettyFormat}
 ```
 public boolean getPrettyFormat()
@@ -465,10 +466,10 @@ public IDocumentSavingCallback getProgressCallback()
 
 Called during saving a document and accepts data about saving progress.
 
-Progress is reported when saving to [SaveFormat.DOCX](../../com.aspose.words/saveformat\#DOCX), [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat\#FLAT-OPC), [SaveFormat.DOCM](../../com.aspose.words/saveformat\#DOCM), [SaveFormat.DOTM](../../com.aspose.words/saveformat\#DOTM), [SaveFormat.DOTX](../../com.aspose.words/saveformat\#DOTX), [SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB), [SaveFormat.XAML\_FLOW](../../com.aspose.words/saveformat\#XAML-FLOW), or [SaveFormat.XAML\_FLOW\_PACK](../../com.aspose.words/saveformat\#XAML-FLOW-PACK).
+Progress is reported when saving to [SaveFormat.DOCX](../../com.aspose.words/saveformat/\#DOCX), [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat/\#FLAT-OPC), [SaveFormat.DOCM](../../com.aspose.words/saveformat/\#DOCM), [SaveFormat.DOTM](../../com.aspose.words/saveformat/\#DOTM), [SaveFormat.DOTX](../../com.aspose.words/saveformat/\#DOTX), [SaveFormat.HTML](../../com.aspose.words/saveformat/\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat/\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat/\#EPUB), [SaveFormat.XAML\_FLOW](../../com.aspose.words/saveformat/\#XAML-FLOW), or [SaveFormat.XAML\_FLOW\_PACK](../../com.aspose.words/saveformat/\#XAML-FLOW-PACK).
 
 **Returns:**
-[IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback) - The corresponding [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback) value.
+[IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback/) - The corresponding [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback/) value.
 ### getResourceSavingCallback() {#getResourceSavingCallback}
 ```
 public IResourceSavingCallback getResourceSavingCallback()
@@ -478,7 +479,7 @@ public IResourceSavingCallback getResourceSavingCallback()
 Allows to control how resources (images, fonts and css) are saved when a document is exported to fixed page Html format.
 
 **Returns:**
-[IResourceSavingCallback](../../com.aspose.words/iresourcesavingcallback) - The corresponding [IResourceSavingCallback](../../com.aspose.words/iresourcesavingcallback) value.
+[IResourceSavingCallback](../../com.aspose.words/iresourcesavingcallback/) - The corresponding [IResourceSavingCallback](../../com.aspose.words/iresourcesavingcallback/) value.
 ### getResourcesFolder() {#getResourcesFolder}
 ```
 public String getResourcesFolder()
@@ -487,13 +488,13 @@ public String getResourcesFolder()
 
 Specifies the physical folder where resources (images, fonts, css) are saved when exporting a document to Html format. Default is  null .
 
-Has effect only if [getExportEmbeddedImages()](../../com.aspose.words/htmlfixedsaveoptions\#getExportEmbeddedImages) / [setExportEmbeddedImages(boolean)](../../com.aspose.words/htmlfixedsaveoptions\#setExportEmbeddedImages-boolean) property is  false .
+Has effect only if [getExportEmbeddedImages()](../../com.aspose.words/htmlfixedsaveoptions/\#getExportEmbeddedImages) / [setExportEmbeddedImages(boolean)](../../com.aspose.words/htmlfixedsaveoptions/\#setExportEmbeddedImages-boolean) property is  false .
 
-When you save a [Document](../../com.aspose.words/document) in Html format, Aspose.Words needs to save all images embedded in the document as standalone files. [getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolder) / [setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolder-java.lang.String) allows you to specify where the images will be saved and [getResourcesFolderAlias()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolderAlias) / [setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolderAlias-java.lang.String) allows to specify how the image URIs will be constructed.
+When you save a [Document](../../com.aspose.words/document/) in Html format, Aspose.Words needs to save all images embedded in the document as standalone files. [getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions/\#getResourcesFolder) / [setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions/\#setResourcesFolder-java.lang.String) allows you to specify where the images will be saved and [getResourcesFolderAlias()](../../com.aspose.words/htmlfixedsaveoptions/\#getResourcesFolderAlias) / [setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions/\#setResourcesFolderAlias-java.lang.String) allows to specify how the image URIs will be constructed.
 
-If you save a document into a file and provide a file name, Aspose.Words, by default, saves the images in the same folder where the document file is saved. Use [getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolder) / [setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolder-java.lang.String) to override this behavior.
+If you save a document into a file and provide a file name, Aspose.Words, by default, saves the images in the same folder where the document file is saved. Use [getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions/\#getResourcesFolder) / [setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions/\#setResourcesFolder-java.lang.String) to override this behavior.
 
-If you save a document into a stream, Aspose.Words does not have a folder where to save the images, but still needs to save the images somewhere. In this case, you need to specify an accessible folder by using the [getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolder) / [setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolder-java.lang.String) property
+If you save a document into a stream, Aspose.Words does not have a folder where to save the images, but still needs to save the images somewhere. In this case, you need to specify an accessible folder by using the [getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions/\#getResourcesFolder) / [setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions/\#setResourcesFolder-java.lang.String) property
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
@@ -505,7 +506,7 @@ public String getResourcesFolderAlias()
 
 Specifies the name of the folder used to construct image URIs written into an Html document. Default is  null .
 
-When you save a [Document](../../com.aspose.words/document) in Html format, Aspose.Words needs to save all images embedded in the document as standalone files. [getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolder) / [setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolder-java.lang.String) allows you to specify where the images will be saved and [getResourcesFolderAlias()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolderAlias) / [setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolderAlias-java.lang.String) allows to specify how the image URIs will be constructed.
+When you save a [Document](../../com.aspose.words/document/) in Html format, Aspose.Words needs to save all images embedded in the document as standalone files. [getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions/\#getResourcesFolder) / [setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions/\#setResourcesFolder-java.lang.String) allows you to specify where the images will be saved and [getResourcesFolderAlias()](../../com.aspose.words/htmlfixedsaveoptions/\#getResourcesFolderAlias) / [setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions/\#setResourcesFolderAlias-java.lang.String) allows to specify how the image URIs will be constructed.
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
@@ -515,7 +516,7 @@ public boolean getSaveFontFaceCssSeparately()
 ```
 
 
-Flag indicates whether "@font-face" CSS rules should be placed into a separate file "fontFaces.css" when a document is being saved with external stylesheet (that is, when [getExportEmbeddedCss()](../../com.aspose.words/htmlfixedsaveoptions\#getExportEmbeddedCss) / [setExportEmbeddedCss(boolean)](../../com.aspose.words/htmlfixedsaveoptions\#setExportEmbeddedCss-boolean) is  false ). Default value is  false , all CSS rules are written into single file "styles.css". Setting this property to  true  restores the old behavior (separate files) for compatibility with legacy code.
+Flag indicates whether "@font-face" CSS rules should be placed into a separate file "fontFaces.css" when a document is being saved with external stylesheet (that is, when [getExportEmbeddedCss()](../../com.aspose.words/htmlfixedsaveoptions/\#getExportEmbeddedCss) / [setExportEmbeddedCss(boolean)](../../com.aspose.words/htmlfixedsaveoptions/\#setExportEmbeddedCss-boolean) is  false ). Default value is  false , all CSS rules are written into single file "styles.css". Setting this property to  true  restores the old behavior (separate files) for compatibility with legacy code.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -525,10 +526,10 @@ public int getSaveFormat()
 ```
 
 
-Specifies the format in which the document will be saved if this save options object is used. Can only be [SaveFormat.HTML\_FIXED](../../com.aspose.words/saveformat\#HTML-FIXED).
+Specifies the format in which the document will be saved if this save options object is used. Can only be [SaveFormat.HTML\_FIXED](../../com.aspose.words/saveformat/\#HTML-FIXED).
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [SaveFormat](../../com.aspose.words/saveformat) constants.
+int - The corresponding  int  value. The returned value is one of [SaveFormat](../../com.aspose.words/saveformat/) constants.
 ### getShowPageBorder() {#getShowPageBorder}
 ```
 public boolean getShowPageBorder()
@@ -549,7 +550,7 @@ Specifies the folder for temporary files used when saving to a DOC or DOCX file.
 
 When Aspose.Words saves a document, it needs to create temporary internal structures. By default, these internal structures are created in memory and the memory usage spikes for a short period while the document is being saved. When saving is complete, the memory is freed and reclaimed by the garbage collector.
 
-If you are saving a very large document (thousands of pages) and/or processing many documents at the same time, then the memory spike during saving can be significant enough to cause the system to throw java.lang.IndexOutOfBoundsException. Specifying a temporary folder using [getTempFolder()](../../com.aspose.words/saveoptions\#getTempFolder) / [setTempFolder(java.lang.String)](../../com.aspose.words/saveoptions\#setTempFolder-java.lang.String) will cause Aspose.Words to keep the internal structures in temporary files instead of memory. It reduces the memory usage during saving, but will decrease the save performance.
+If you are saving a very large document (thousands of pages) and/or processing many documents at the same time, then the memory spike during saving can be significant enough to cause the system to throw java.lang.IndexOutOfBoundsException. Specifying a temporary folder using [getTempFolder()](../../com.aspose.words/saveoptions/\#getTempFolder) / [setTempFolder(java.lang.String)](../../com.aspose.words/saveoptions/\#setTempFolder-java.lang.String) will cause Aspose.Words to keep the internal structures in temporary files instead of memory. It reduces the memory usage during saving, but will decrease the save performance.
 
 The folder must exist and be writable, otherwise an exception will be thrown.
 
@@ -563,10 +564,10 @@ public boolean getUpdateCreatedTimeProperty()
 ```
 
 
-Gets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date) property is updated before saving. Default value is  false ;
+Gets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties/\#getCreatedTime) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setCreatedTime-java.util.Date) property is updated before saving. Default value is  false ;
 
 **Returns:**
-boolean - A value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date) property is updated before saving.
+boolean - A value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties/\#getCreatedTime) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setCreatedTime-java.util.Date) property is updated before saving.
 ### getUpdateFields() {#getUpdateFields}
 ```
 public boolean getUpdateFields()
@@ -583,30 +584,30 @@ public boolean getUpdateLastPrintedProperty()
 ```
 
 
-Gets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date) property is updated before saving.
+Gets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties/\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastPrinted-java.util.Date) property is updated before saving.
 
 **Returns:**
-boolean - A value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date) property is updated before saving.
+boolean - A value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties/\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastPrinted-java.util.Date) property is updated before saving.
 ### getUpdateLastSavedTimeProperty() {#getUpdateLastSavedTimeProperty}
 ```
 public boolean getUpdateLastSavedTimeProperty()
 ```
 
 
-Gets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date) property is updated before saving.
+Gets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties/\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastSavedTime-java.util.Date) property is updated before saving.
 
 **Returns:**
-boolean - A value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date) property is updated before saving.
+boolean - A value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties/\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastSavedTime-java.util.Date) property is updated before saving.
 ### getUpdateSdtContent() {#getUpdateSdtContent}
 ```
 public boolean getUpdateSdtContent()
 ```
 
 
-Gets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) is updated before saving. The default value is  false .
+Gets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) is updated before saving. The default value is  false .
 
 **Returns:**
-boolean - Value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) is updated before saving.
+boolean - Value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) is updated before saving.
 ### getUseAntiAliasing() {#getUseAntiAliasing}
 ```
 public boolean getUseAntiAliasing()
@@ -617,7 +618,7 @@ Gets a value determining whether or not to use anti-aliasing for rendering.
 
 The default value is  false . When this value is set to  true  anti-aliasing is used for rendering.
 
-This property is used when the document is exported to the following formats: [SaveFormat.TIFF](../../com.aspose.words/saveformat\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat\#EMF). When the document is exported to the [SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB) and [SaveFormat.AZW\_3](../../com.aspose.words/saveformat\#AZW-3) formats this option is used for raster images.
+This property is used when the document is exported to the following formats: [SaveFormat.TIFF](../../com.aspose.words/saveformat/\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat/\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat/\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat/\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat/\#EMF). When the document is exported to the [SaveFormat.HTML](../../com.aspose.words/saveformat/\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat/\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat/\#EPUB), [SaveFormat.AZW\_3](../../com.aspose.words/saveformat/\#AZW-3) or [SaveFormat.MOBI](../../com.aspose.words/saveformat/\#MOBI) formats this option is used for raster images.
 
 **Returns:**
 boolean - A value determining whether or not to use anti-aliasing for rendering.
@@ -629,7 +630,7 @@ public boolean getUseHighQualityRendering()
 
 Gets a value determining whether or not to use high quality (i.e. slow) rendering algorithms. The default value is  false .
 
-This property is used when the document is exported to image formats: [SaveFormat.TIFF](../../com.aspose.words/saveformat\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat\#EMF).
+This property is used when the document is exported to image formats: [SaveFormat.TIFF](../../com.aspose.words/saveformat/\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat/\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat/\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat/\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat/\#EMF).
 
 **Returns:**
 boolean - A value determining whether or not to use high quality (i.e.
@@ -639,7 +640,7 @@ public boolean getUseTargetMachineFonts()
 ```
 
 
-Flag indicates whether fonts from target machine must be used to display the document. If this flag is set to  true , [getFontFormat()](../../com.aspose.words/htmlfixedsaveoptions\#getFontFormat) / [setFontFormat(int)](../../com.aspose.words/htmlfixedsaveoptions\#setFontFormat-int) and [getExportEmbeddedFonts()](../../com.aspose.words/htmlfixedsaveoptions\#getExportEmbeddedFonts) / [setExportEmbeddedFonts(boolean)](../../com.aspose.words/htmlfixedsaveoptions\#setExportEmbeddedFonts-boolean) properties do not have effect, also [getResourceSavingCallback()](../../com.aspose.words/htmlfixedsaveoptions\#getResourceSavingCallback) / [setResourceSavingCallback(com.aspose.words.IResourceSavingCallback)](../../com.aspose.words/htmlfixedsaveoptions\#setResourceSavingCallback-com.aspose.words.IResourceSavingCallback) is not fired for fonts. Default is  false .
+Flag indicates whether fonts from target machine must be used to display the document. If this flag is set to  true , [getFontFormat()](../../com.aspose.words/htmlfixedsaveoptions/\#getFontFormat) / [setFontFormat(int)](../../com.aspose.words/htmlfixedsaveoptions/\#setFontFormat-int) and [getExportEmbeddedFonts()](../../com.aspose.words/htmlfixedsaveoptions/\#getExportEmbeddedFonts) / [setExportEmbeddedFonts(boolean)](../../com.aspose.words/htmlfixedsaveoptions/\#setExportEmbeddedFonts-boolean) properties do not have effect, also [getResourceSavingCallback()](../../com.aspose.words/htmlfixedsaveoptions/\#getResourceSavingCallback) / [setResourceSavingCallback(com.aspose.words.IResourceSavingCallback)](../../com.aspose.words/htmlfixedsaveoptions/\#setResourceSavingCallback-com.aspose.words.IResourceSavingCallback) is not fired for fonts. Default is  false .
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -679,7 +680,7 @@ Sets a boolean value indicating whether to allow embedding fonts with PostScript
 
 Note, Word does not embed PostScript fonts, but can open documents with embedded fonts of this type.
 
-This option only works when [FontInfoCollection.getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrueTypeFonts) / [FontInfoCollection.setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrueTypeFonts-boolean) of the [DocumentBase.getFontInfos()](../../com.aspose.words/documentbase\#getFontInfos) property is set to  true .
+This option only works when [FontInfoCollection.getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection/\#getEmbedTrueTypeFonts) / [FontInfoCollection.setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection/\#setEmbedTrueTypeFonts-boolean) of the [DocumentBase.getFontInfos()](../../com.aspose.words/documentbase/\#getFontInfos) property is set to  true .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -692,12 +693,12 @@ public void setColorMode(int value)
 ```
 
 
-Sets a value determining how colors are rendered. The default value is [ColorMode.NORMAL](../../com.aspose.words/colormode\#NORMAL).
+Sets a value determining how colors are rendered. The default value is [ColorMode.NORMAL](../../com.aspose.words/colormode/\#NORMAL).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | A value determining how colors are rendered. The value must be one of [ColorMode](../../com.aspose.words/colormode) constants. |
+| value | int | A value determining how colors are rendered. The value must be one of [ColorMode](../../com.aspose.words/colormode/) constants. |
 
 ### setCssClassNamesPrefix(String value) {#setCssClassNamesPrefix-java.lang.String}
 ```
@@ -718,7 +719,7 @@ public void setDefaultTemplate(String value)
 ```
 
 
-Sets path to default template (including filename). Default value for this property is **empty string**. If specified, this path is used to load template when [Document.getAutomaticallyUpdateStyles()](../../com.aspose.words/document\#getAutomaticallyUpdateStyles) / [Document.setAutomaticallyUpdateStyles(boolean)](../../com.aspose.words/document\#setAutomaticallyUpdateStyles-boolean) is  true , but [Document.getAttachedTemplate()](../../com.aspose.words/document\#getAttachedTemplate) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document\#setAttachedTemplate-java.lang.String) is empty.
+Sets path to default template (including filename). Default value for this property is **empty string**. If specified, this path is used to load template when [Document.getAutomaticallyUpdateStyles()](../../com.aspose.words/document/\#getAutomaticallyUpdateStyles) / [Document.setAutomaticallyUpdateStyles(boolean)](../../com.aspose.words/document/\#setAutomaticallyUpdateStyles-boolean) is  true , but [Document.getAttachedTemplate()](../../com.aspose.words/document/\#getAttachedTemplate) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document/\#setAttachedTemplate-java.lang.String) is empty.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -731,12 +732,12 @@ public void setDml3DEffectsRenderingMode(int value)
 ```
 
 
-Sets a value determining how 3D effects are rendered. The default value is [Dml3DEffectsRenderingMode.BASIC](../../com.aspose.words/dml3deffectsrenderingmode\#BASIC).
+Sets a value determining how 3D effects are rendered. The default value is [Dml3DEffectsRenderingMode.BASIC](../../com.aspose.words/dml3deffectsrenderingmode/\#BASIC).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | A value determining how 3D effects are rendered. The value must be one of [Dml3DEffectsRenderingMode](../../com.aspose.words/dml3deffectsrenderingmode) constants. |
+| value | int | A value determining how 3D effects are rendered. The value must be one of [Dml3DEffectsRenderingMode](../../com.aspose.words/dml3deffectsrenderingmode/) constants. |
 
 ### setDmlEffectsRenderingMode(int value) {#setDmlEffectsRenderingMode-int}
 ```
@@ -744,14 +745,14 @@ public void setDmlEffectsRenderingMode(int value)
 ```
 
 
-Sets a value determining how DrawingML effects are rendered. The default value is [DmlEffectsRenderingMode.SIMPLIFIED](../../com.aspose.words/dmleffectsrenderingmode\#SIMPLIFIED).
+Sets a value determining how DrawingML effects are rendered. The default value is [DmlEffectsRenderingMode.SIMPLIFIED](../../com.aspose.words/dmleffectsrenderingmode/\#SIMPLIFIED).
 
 This property is used when the document is exported to fixed page formats.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | A value determining how DrawingML effects are rendered. The value must be one of [DmlEffectsRenderingMode](../../com.aspose.words/dmleffectsrenderingmode) constants. |
+| value | int | A value determining how DrawingML effects are rendered. The value must be one of [DmlEffectsRenderingMode](../../com.aspose.words/dmleffectsrenderingmode/) constants. |
 
 ### setDmlRenderingMode(int value) {#setDmlRenderingMode-int}
 ```
@@ -759,14 +760,14 @@ public void setDmlRenderingMode(int value)
 ```
 
 
-Sets a value determining how DrawingML shapes are rendered. The default value is [DmlRenderingMode.FALLBACK](../../com.aspose.words/dmlrenderingmode\#FALLBACK).
+Sets a value determining how DrawingML shapes are rendered. The default value is [DmlRenderingMode.FALLBACK](../../com.aspose.words/dmlrenderingmode/\#FALLBACK).
 
 This property is used when the document is exported to fixed page formats.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | A value determining how DrawingML shapes are rendered. The value must be one of [DmlRenderingMode](../../com.aspose.words/dmlrenderingmode) constants. |
+| value | int | A value determining how DrawingML shapes are rendered. The value must be one of [DmlRenderingMode](../../com.aspose.words/dmlrenderingmode/) constants. |
 
 ### setEncoding(Charset value) {#setEncoding-java.nio.charset.Charset}
 ```
@@ -865,12 +866,12 @@ public void setFontFormat(int value)
 ```
 
 
-Sets [ExportFontFormat](../../com.aspose.words/exportfontformat) used for font exporting. Default value is [ExportFontFormat.WOFF](../../com.aspose.words/exportfontformat\#WOFF).
+Sets [ExportFontFormat](../../com.aspose.words/exportfontformat/) used for font exporting. Default value is [ExportFontFormat.WOFF](../../com.aspose.words/exportfontformat/\#WOFF).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | \{[ExportFontFormat](../../com.aspose.words/exportfontformat) used for font exporting. The value must be one of [ExportFontFormat](../../com.aspose.words/exportfontformat) constants. |
+| value | int | \{[ExportFontFormat](../../com.aspose.words/exportfontformat/) used for font exporting. The value must be one of [ExportFontFormat](../../com.aspose.words/exportfontformat/) constants. |
 
 ### setImlRenderingMode(int value) {#setImlRenderingMode-int}
 ```
@@ -878,14 +879,14 @@ public void setImlRenderingMode(int value)
 ```
 
 
-Sets a value determining how ink (InkML) objects are rendered. The default value is [ImlRenderingMode.INK\_ML](../../com.aspose.words/imlrenderingmode\#INK-ML).
+Sets a value determining how ink (InkML) objects are rendered. The default value is [ImlRenderingMode.INK\_ML](../../com.aspose.words/imlrenderingmode/\#INK-ML).
 
 This property is used when the document is exported to fixed page formats.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | A value determining how ink (InkML) objects are rendered. The value must be one of [ImlRenderingMode](../../com.aspose.words/imlrenderingmode) constants. |
+| value | int | A value determining how ink (InkML) objects are rendered. The value must be one of [ImlRenderingMode](../../com.aspose.words/imlrenderingmode/) constants. |
 
 ### setJpegQuality(int value) {#setJpegQuality-int}
 ```
@@ -930,7 +931,7 @@ Allows to specify metafile rendering options.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [MetafileRenderingOptions](../../com.aspose.words/metafilerenderingoptions) | The corresponding [MetafileRenderingOptions](../../com.aspose.words/metafilerenderingoptions) value. |
+| value | [MetafileRenderingOptions](../../com.aspose.words/metafilerenderingoptions/) | The corresponding [MetafileRenderingOptions](../../com.aspose.words/metafilerenderingoptions/) value. |
 
 ### setNumeralFormat(int value) {#setNumeralFormat-int}
 ```
@@ -938,12 +939,12 @@ public void setNumeralFormat(int value)
 ```
 
 
-Sets [NumeralFormat](../../com.aspose.words/numeralformat) used for rendering of numerals. European numerals are used by default. If the value of this property is changed and page layout is already built then [Document.updatePageLayout()](../../com.aspose.words/document\#updatePageLayout) is invoked automatically to update any changes.
+Sets [NumeralFormat](../../com.aspose.words/numeralformat/) used for rendering of numerals. European numerals are used by default. If the value of this property is changed and page layout is already built then [Document.updatePageLayout()](../../com.aspose.words/document/\#updatePageLayout) is invoked automatically to update any changes.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | \{[NumeralFormat](../../com.aspose.words/numeralformat) used for rendering of numerals. The value must be one of [NumeralFormat](../../com.aspose.words/numeralformat) constants. |
+| value | int | \{[NumeralFormat](../../com.aspose.words/numeralformat/) used for rendering of numerals. The value must be one of [NumeralFormat](../../com.aspose.words/numeralformat/) constants. |
 
 ### setOptimizeOutput(boolean value) {#setOptimizeOutput-boolean}
 ```
@@ -964,12 +965,12 @@ public void setPageHorizontalAlignment(int value)
 ```
 
 
-Specifies the horizontal alignment of pages in an HTML document. Default value is [HtmlFixedPageHorizontalAlignment.CENTER](../../com.aspose.words/htmlfixedpagehorizontalalignment\#CENTER).
+Specifies the horizontal alignment of pages in an HTML document. Default value is [HtmlFixedPageHorizontalAlignment.CENTER](../../com.aspose.words/htmlfixedpagehorizontalalignment/\#CENTER).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [HtmlFixedPageHorizontalAlignment](../../com.aspose.words/htmlfixedpagehorizontalalignment) constants. |
+| value | int | The corresponding  int  value. The value must be one of [HtmlFixedPageHorizontalAlignment](../../com.aspose.words/htmlfixedpagehorizontalalignment/) constants. |
 
 ### setPageMargins(double value) {#setPageMargins-double}
 ```
@@ -979,11 +980,11 @@ public void setPageMargins(double value)
 
 Specifies the margins around pages in an HTML document. The margins value is measured in points and should be equal to or greater than 0. Default value is 10 points.
 
-Depends on the value of [getPageHorizontalAlignment()](../../com.aspose.words/htmlfixedsaveoptions\#getPageHorizontalAlignment) / [setPageHorizontalAlignment(int)](../../com.aspose.words/htmlfixedsaveoptions\#setPageHorizontalAlignment-int) property:
+Depends on the value of [getPageHorizontalAlignment()](../../com.aspose.words/htmlfixedsaveoptions/\#getPageHorizontalAlignment) / [setPageHorizontalAlignment(int)](../../com.aspose.words/htmlfixedsaveoptions/\#setPageHorizontalAlignment-int) property:
 
- *  Defines top, bottom and left page margins if the value is [HtmlFixedPageHorizontalAlignment.LEFT](../../com.aspose.words/htmlfixedpagehorizontalalignment\#LEFT).
- *  Defines top, bottom and right page margins if the value is [HtmlFixedPageHorizontalAlignment.RIGHT](../../com.aspose.words/htmlfixedpagehorizontalalignment\#RIGHT).
- *  Defines top and bottom page margins if the value is [HtmlFixedPageHorizontalAlignment.CENTER](../../com.aspose.words/htmlfixedpagehorizontalalignment\#CENTER).
+ *  Defines top, bottom and left page margins if the value is [HtmlFixedPageHorizontalAlignment.LEFT](../../com.aspose.words/htmlfixedpagehorizontalalignment/\#LEFT).
+ *  Defines top, bottom and right page margins if the value is [HtmlFixedPageHorizontalAlignment.RIGHT](../../com.aspose.words/htmlfixedpagehorizontalalignment/\#RIGHT).
+ *  Defines top and bottom page margins if the value is [HtmlFixedPageHorizontalAlignment.CENTER](../../com.aspose.words/htmlfixedpagehorizontalalignment/\#CENTER).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1001,7 +1002,7 @@ Allows to control how separate pages are saved when a document is exported to fi
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IPageSavingCallback](../../com.aspose.words/ipagesavingcallback) | The corresponding [IPageSavingCallback](../../com.aspose.words/ipagesavingcallback) value. |
+| value | [IPageSavingCallback](../../com.aspose.words/ipagesavingcallback/) | The corresponding [IPageSavingCallback](../../com.aspose.words/ipagesavingcallback/) value. |
 
 ### setPageSet(PageSet value) {#setPageSet-com.aspose.words.PageSet}
 ```
@@ -1014,7 +1015,7 @@ Sets the pages to render. Default is all the pages in the document.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PageSet](../../com.aspose.words/pageset) | The pages to render. |
+| value | [PageSet](../../com.aspose.words/pageset/) | The pages to render. |
 
 ### setPrettyFormat(boolean value) {#setPrettyFormat-boolean}
 ```
@@ -1039,12 +1040,12 @@ public void setProgressCallback(IDocumentSavingCallback value)
 
 Called during saving a document and accepts data about saving progress.
 
-Progress is reported when saving to [SaveFormat.DOCX](../../com.aspose.words/saveformat\#DOCX), [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat\#FLAT-OPC), [SaveFormat.DOCM](../../com.aspose.words/saveformat\#DOCM), [SaveFormat.DOTM](../../com.aspose.words/saveformat\#DOTM), [SaveFormat.DOTX](../../com.aspose.words/saveformat\#DOTX), [SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB), [SaveFormat.XAML\_FLOW](../../com.aspose.words/saveformat\#XAML-FLOW), or [SaveFormat.XAML\_FLOW\_PACK](../../com.aspose.words/saveformat\#XAML-FLOW-PACK).
+Progress is reported when saving to [SaveFormat.DOCX](../../com.aspose.words/saveformat/\#DOCX), [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat/\#FLAT-OPC), [SaveFormat.DOCM](../../com.aspose.words/saveformat/\#DOCM), [SaveFormat.DOTM](../../com.aspose.words/saveformat/\#DOTM), [SaveFormat.DOTX](../../com.aspose.words/saveformat/\#DOTX), [SaveFormat.HTML](../../com.aspose.words/saveformat/\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat/\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat/\#EPUB), [SaveFormat.XAML\_FLOW](../../com.aspose.words/saveformat/\#XAML-FLOW), or [SaveFormat.XAML\_FLOW\_PACK](../../com.aspose.words/saveformat/\#XAML-FLOW-PACK).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback) | The corresponding [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback) value. |
+| value | [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback/) | The corresponding [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback/) value. |
 
 ### setResourceSavingCallback(IResourceSavingCallback value) {#setResourceSavingCallback-com.aspose.words.IResourceSavingCallback}
 ```
@@ -1057,7 +1058,7 @@ Allows to control how resources (images, fonts and css) are saved when a documen
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IResourceSavingCallback](../../com.aspose.words/iresourcesavingcallback) | The corresponding [IResourceSavingCallback](../../com.aspose.words/iresourcesavingcallback) value. |
+| value | [IResourceSavingCallback](../../com.aspose.words/iresourcesavingcallback/) | The corresponding [IResourceSavingCallback](../../com.aspose.words/iresourcesavingcallback/) value. |
 
 ### setResourcesFolder(String value) {#setResourcesFolder-java.lang.String}
 ```
@@ -1067,13 +1068,13 @@ public void setResourcesFolder(String value)
 
 Specifies the physical folder where resources (images, fonts, css) are saved when exporting a document to Html format. Default is  null .
 
-Has effect only if [getExportEmbeddedImages()](../../com.aspose.words/htmlfixedsaveoptions\#getExportEmbeddedImages) / [setExportEmbeddedImages(boolean)](../../com.aspose.words/htmlfixedsaveoptions\#setExportEmbeddedImages-boolean) property is  false .
+Has effect only if [getExportEmbeddedImages()](../../com.aspose.words/htmlfixedsaveoptions/\#getExportEmbeddedImages) / [setExportEmbeddedImages(boolean)](../../com.aspose.words/htmlfixedsaveoptions/\#setExportEmbeddedImages-boolean) property is  false .
 
-When you save a [Document](../../com.aspose.words/document) in Html format, Aspose.Words needs to save all images embedded in the document as standalone files. [getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolder) / [setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolder-java.lang.String) allows you to specify where the images will be saved and [getResourcesFolderAlias()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolderAlias) / [setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolderAlias-java.lang.String) allows to specify how the image URIs will be constructed.
+When you save a [Document](../../com.aspose.words/document/) in Html format, Aspose.Words needs to save all images embedded in the document as standalone files. [getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions/\#getResourcesFolder) / [setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions/\#setResourcesFolder-java.lang.String) allows you to specify where the images will be saved and [getResourcesFolderAlias()](../../com.aspose.words/htmlfixedsaveoptions/\#getResourcesFolderAlias) / [setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions/\#setResourcesFolderAlias-java.lang.String) allows to specify how the image URIs will be constructed.
 
-If you save a document into a file and provide a file name, Aspose.Words, by default, saves the images in the same folder where the document file is saved. Use [getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolder) / [setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolder-java.lang.String) to override this behavior.
+If you save a document into a file and provide a file name, Aspose.Words, by default, saves the images in the same folder where the document file is saved. Use [getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions/\#getResourcesFolder) / [setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions/\#setResourcesFolder-java.lang.String) to override this behavior.
 
-If you save a document into a stream, Aspose.Words does not have a folder where to save the images, but still needs to save the images somewhere. In this case, you need to specify an accessible folder by using the [getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolder) / [setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolder-java.lang.String) property
+If you save a document into a stream, Aspose.Words does not have a folder where to save the images, but still needs to save the images somewhere. In this case, you need to specify an accessible folder by using the [getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions/\#getResourcesFolder) / [setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions/\#setResourcesFolder-java.lang.String) property
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1088,7 +1089,7 @@ public void setResourcesFolderAlias(String value)
 
 Specifies the name of the folder used to construct image URIs written into an Html document. Default is  null .
 
-When you save a [Document](../../com.aspose.words/document) in Html format, Aspose.Words needs to save all images embedded in the document as standalone files. [getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolder) / [setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolder-java.lang.String) allows you to specify where the images will be saved and [getResourcesFolderAlias()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolderAlias) / [setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolderAlias-java.lang.String) allows to specify how the image URIs will be constructed.
+When you save a [Document](../../com.aspose.words/document/) in Html format, Aspose.Words needs to save all images embedded in the document as standalone files. [getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions/\#getResourcesFolder) / [setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions/\#setResourcesFolder-java.lang.String) allows you to specify where the images will be saved and [getResourcesFolderAlias()](../../com.aspose.words/htmlfixedsaveoptions/\#getResourcesFolderAlias) / [setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions/\#setResourcesFolderAlias-java.lang.String) allows to specify how the image URIs will be constructed.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1101,7 +1102,7 @@ public void setSaveFontFaceCssSeparately(boolean value)
 ```
 
 
-Flag indicates whether "@font-face" CSS rules should be placed into a separate file "fontFaces.css" when a document is being saved with external stylesheet (that is, when [getExportEmbeddedCss()](../../com.aspose.words/htmlfixedsaveoptions\#getExportEmbeddedCss) / [setExportEmbeddedCss(boolean)](../../com.aspose.words/htmlfixedsaveoptions\#setExportEmbeddedCss-boolean) is  false ). Default value is  false , all CSS rules are written into single file "styles.css". Setting this property to  true  restores the old behavior (separate files) for compatibility with legacy code.
+Flag indicates whether "@font-face" CSS rules should be placed into a separate file "fontFaces.css" when a document is being saved with external stylesheet (that is, when [getExportEmbeddedCss()](../../com.aspose.words/htmlfixedsaveoptions/\#getExportEmbeddedCss) / [setExportEmbeddedCss(boolean)](../../com.aspose.words/htmlfixedsaveoptions/\#setExportEmbeddedCss-boolean) is  false ). Default value is  false , all CSS rules are written into single file "styles.css". Setting this property to  true  restores the old behavior (separate files) for compatibility with legacy code.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1114,12 +1115,12 @@ public void setSaveFormat(int value)
 ```
 
 
-Specifies the format in which the document will be saved if this save options object is used. Can only be [SaveFormat.HTML\_FIXED](../../com.aspose.words/saveformat\#HTML-FIXED).
+Specifies the format in which the document will be saved if this save options object is used. Can only be [SaveFormat.HTML\_FIXED](../../com.aspose.words/saveformat/\#HTML-FIXED).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [SaveFormat](../../com.aspose.words/saveformat) constants. |
+| value | int | The corresponding  int  value. The value must be one of [SaveFormat](../../com.aspose.words/saveformat/) constants. |
 
 ### setShowPageBorder(boolean value) {#setShowPageBorder-boolean}
 ```
@@ -1144,7 +1145,7 @@ Specifies the folder for temporary files used when saving to a DOC or DOCX file.
 
 When Aspose.Words saves a document, it needs to create temporary internal structures. By default, these internal structures are created in memory and the memory usage spikes for a short period while the document is being saved. When saving is complete, the memory is freed and reclaimed by the garbage collector.
 
-If you are saving a very large document (thousands of pages) and/or processing many documents at the same time, then the memory spike during saving can be significant enough to cause the system to throw java.lang.IndexOutOfBoundsException. Specifying a temporary folder using [getTempFolder()](../../com.aspose.words/saveoptions\#getTempFolder) / [setTempFolder(java.lang.String)](../../com.aspose.words/saveoptions\#setTempFolder-java.lang.String) will cause Aspose.Words to keep the internal structures in temporary files instead of memory. It reduces the memory usage during saving, but will decrease the save performance.
+If you are saving a very large document (thousands of pages) and/or processing many documents at the same time, then the memory spike during saving can be significant enough to cause the system to throw java.lang.IndexOutOfBoundsException. Specifying a temporary folder using [getTempFolder()](../../com.aspose.words/saveoptions/\#getTempFolder) / [setTempFolder(java.lang.String)](../../com.aspose.words/saveoptions/\#setTempFolder-java.lang.String) will cause Aspose.Words to keep the internal structures in temporary files instead of memory. It reduces the memory usage during saving, but will decrease the save performance.
 
 The folder must exist and be writable, otherwise an exception will be thrown.
 
@@ -1161,12 +1162,12 @@ public void setUpdateCreatedTimeProperty(boolean value)
 ```
 
 
-Sets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date) property is updated before saving. Default value is  false ;
+Sets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties/\#getCreatedTime) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setCreatedTime-java.util.Date) property is updated before saving. Default value is  false ;
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | A value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date) property is updated before saving. |
+| value | boolean | A value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties/\#getCreatedTime) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setCreatedTime-java.util.Date) property is updated before saving. |
 
 ### setUpdateFields(boolean value) {#setUpdateFields-boolean}
 ```
@@ -1187,12 +1188,12 @@ public void setUpdateLastPrintedProperty(boolean value)
 ```
 
 
-Sets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date) property is updated before saving.
+Sets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties/\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastPrinted-java.util.Date) property is updated before saving.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | A value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date) property is updated before saving. |
+| value | boolean | A value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties/\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastPrinted-java.util.Date) property is updated before saving. |
 
 ### setUpdateLastSavedTimeProperty(boolean value) {#setUpdateLastSavedTimeProperty-boolean}
 ```
@@ -1200,12 +1201,12 @@ public void setUpdateLastSavedTimeProperty(boolean value)
 ```
 
 
-Sets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date) property is updated before saving.
+Sets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties/\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastSavedTime-java.util.Date) property is updated before saving.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | A value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date) property is updated before saving. |
+| value | boolean | A value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties/\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastSavedTime-java.util.Date) property is updated before saving. |
 
 ### setUpdateSdtContent(boolean value) {#setUpdateSdtContent-boolean}
 ```
@@ -1213,12 +1214,12 @@ public void setUpdateSdtContent(boolean value)
 ```
 
 
-Sets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) is updated before saving. The default value is  false .
+Sets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) is updated before saving. The default value is  false .
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | Value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) is updated before saving. |
+| value | boolean | Value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) is updated before saving. |
 
 ### setUseAntiAliasing(boolean value) {#setUseAntiAliasing-boolean}
 ```
@@ -1230,7 +1231,7 @@ Sets a value determining whether or not to use anti-aliasing for rendering.
 
 The default value is  false . When this value is set to  true  anti-aliasing is used for rendering.
 
-This property is used when the document is exported to the following formats: [SaveFormat.TIFF](../../com.aspose.words/saveformat\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat\#EMF). When the document is exported to the [SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB) and [SaveFormat.AZW\_3](../../com.aspose.words/saveformat\#AZW-3) formats this option is used for raster images.
+This property is used when the document is exported to the following formats: [SaveFormat.TIFF](../../com.aspose.words/saveformat/\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat/\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat/\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat/\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat/\#EMF). When the document is exported to the [SaveFormat.HTML](../../com.aspose.words/saveformat/\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat/\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat/\#EPUB), [SaveFormat.AZW\_3](../../com.aspose.words/saveformat/\#AZW-3) or [SaveFormat.MOBI](../../com.aspose.words/saveformat/\#MOBI) formats this option is used for raster images.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1245,7 +1246,7 @@ public void setUseHighQualityRendering(boolean value)
 
 Sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms. The default value is  false .
 
-This property is used when the document is exported to image formats: [SaveFormat.TIFF](../../com.aspose.words/saveformat\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat\#EMF).
+This property is used when the document is exported to image formats: [SaveFormat.TIFF](../../com.aspose.words/saveformat/\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat/\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat/\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat/\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat/\#EMF).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1258,7 +1259,7 @@ public void setUseTargetMachineFonts(boolean value)
 ```
 
 
-Flag indicates whether fonts from target machine must be used to display the document. If this flag is set to  true , [getFontFormat()](../../com.aspose.words/htmlfixedsaveoptions\#getFontFormat) / [setFontFormat(int)](../../com.aspose.words/htmlfixedsaveoptions\#setFontFormat-int) and [getExportEmbeddedFonts()](../../com.aspose.words/htmlfixedsaveoptions\#getExportEmbeddedFonts) / [setExportEmbeddedFonts(boolean)](../../com.aspose.words/htmlfixedsaveoptions\#setExportEmbeddedFonts-boolean) properties do not have effect, also [getResourceSavingCallback()](../../com.aspose.words/htmlfixedsaveoptions\#getResourceSavingCallback) / [setResourceSavingCallback(com.aspose.words.IResourceSavingCallback)](../../com.aspose.words/htmlfixedsaveoptions\#setResourceSavingCallback-com.aspose.words.IResourceSavingCallback) is not fired for fonts. Default is  false .
+Flag indicates whether fonts from target machine must be used to display the document. If this flag is set to  true , [getFontFormat()](../../com.aspose.words/htmlfixedsaveoptions/\#getFontFormat) / [setFontFormat(int)](../../com.aspose.words/htmlfixedsaveoptions/\#setFontFormat-int) and [getExportEmbeddedFonts()](../../com.aspose.words/htmlfixedsaveoptions/\#getExportEmbeddedFonts) / [setExportEmbeddedFonts(boolean)](../../com.aspose.words/htmlfixedsaveoptions/\#setExportEmbeddedFonts-boolean) properties do not have effect, also [getResourceSavingCallback()](../../com.aspose.words/htmlfixedsaveoptions/\#getResourceSavingCallback) / [setResourceSavingCallback(com.aspose.words.IResourceSavingCallback)](../../com.aspose.words/htmlfixedsaveoptions/\#setResourceSavingCallback-com.aspose.words.IResourceSavingCallback) is not fired for fonts. Default is  false .
 
 **Parameters:**
 | Parameter | Type | Description |

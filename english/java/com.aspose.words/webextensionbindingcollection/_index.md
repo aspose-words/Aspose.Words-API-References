@@ -1,14 +1,15 @@
 ---
 title: WebExtensionBindingCollection
+linktitle: WebExtensionBindingCollection
 second_title: Aspose.Words for Java API Reference
-description: Specifies a list of web extension bindings.
+description: Specifies a list of web extension bindings in Java.
 type: docs
-weight: 617
+weight: 619
 url: /java/com.aspose.words/webextensionbindingcollection/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.words.BaseWebExtensionCollection](../../com.aspose.words/basewebextensioncollection)
+java.lang.Object, [com.aspose.words.BaseWebExtensionCollection](../../com.aspose.words/basewebextensioncollection/)
 ```
 public class WebExtensionBindingCollection extends BaseWebExtensionCollection
 ```

@@ -1,9 +1,10 @@
 ---
 title: PdfCompliance
+linktitle: PdfCompliance
 second_title: Aspose.Words for Java API Reference
-description: Specifies the PDF standards compliance level.
+description: Specifies the PDF standards compliance level in Java.
 type: docs
-weight: 453
+weight: 455
 url: /java/com.aspose.words/pdfcompliance/
 ---
 

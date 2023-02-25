@@ -1,7 +1,8 @@
 ---
 title: DashStyle
+linktitle: DashStyle
 second_title: Aspose.Words for Java API Reference
-description: Dashed line style.
+description: Dashed line style in Java.
 type: docs
 weight: 110
 url: /java/com.aspose.words/dashstyle/
@@ -20,7 +21,7 @@ Dashed line style.
 | --- | --- |
 | [DASH](#DASH) | Dash style. |
 | [DASH_DOT](#DASH-DOT) | Dash short dash. |
-| [DEFAULT](#DEFAULT) | Same as [SOLID](../../com.aspose.words/dashstyle\#SOLID). |
+| [DEFAULT](#DEFAULT) | Same as [SOLID](../../com.aspose.words/dashstyle/\#SOLID). |
 | [DOT](#DOT) | Square dot style. |
 | [LONG_DASH](#LONG-DASH) | Long dash style. |
 | [LONG_DASH_DOT](#LONG-DASH-DOT) | Long dash short dash. |
@@ -70,7 +71,7 @@ public static int DEFAULT
 ```
 
 
-Same as [SOLID](../../com.aspose.words/dashstyle\#SOLID).
+Same as [SOLID](../../com.aspose.words/dashstyle/\#SOLID).
 
 ### DOT {#DOT}
 ```

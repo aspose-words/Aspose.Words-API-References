@@ -1,7 +1,8 @@
 ---
 title: FieldArgumentBuilder
+linktitle: FieldArgumentBuilder
 second_title: Aspose.Words for Java API Reference
-description: Builds a complex field argument consisting of fields nodes and plain text.
+description: Builds a complex field argument consisting of fields nodes and plain text in Java.
 type: docs
 weight: 156
 url: /java/com.aspose.words/fieldargumentbuilder/
@@ -23,12 +24,12 @@ To learn more, visit the [ Working with Fields ][Working with Fields] documentat
 
 | Constructor | Description |
 | --- | --- |
-| [FieldArgumentBuilder()](#FieldArgumentBuilder) | Initializes an instance of the [FieldArgumentBuilder](../../com.aspose.words/fieldargumentbuilder) class. |
+| [FieldArgumentBuilder()](#FieldArgumentBuilder) | Initializes an instance of the [FieldArgumentBuilder](../../com.aspose.words/fieldargumentbuilder/) class. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [addField(FieldBuilder fieldBuilder)](#addField-com.aspose.words.FieldBuilder) | Adds a field represented by a [FieldBuilder](../../com.aspose.words/fieldbuilder) to the argument. |
+| [addField(FieldBuilder fieldBuilder)](#addField-com.aspose.words.FieldBuilder) | Adds a field represented by a [FieldBuilder](../../com.aspose.words/fieldbuilder/) to the argument. |
 | [addNode(Inline node)](#addNode-com.aspose.words.Inline) | Adds a node to the argument. |
 | [addText(String text)](#addText-java.lang.String) | Adds a plain text to the argument. |
 | [buildBlock(DocumentBuilder documentBuilder)](#buildBlock-com.aspose.words.DocumentBuilder) |  |
@@ -47,7 +48,7 @@ public FieldArgumentBuilder()
 ```
 
 
-Initializes an instance of the [FieldArgumentBuilder](../../com.aspose.words/fieldargumentbuilder) class.
+Initializes an instance of the [FieldArgumentBuilder](../../com.aspose.words/fieldargumentbuilder/) class.
 
 ### addField(FieldBuilder fieldBuilder) {#addField-com.aspose.words.FieldBuilder}
 ```
@@ -55,15 +56,15 @@ public FieldArgumentBuilder addField(FieldBuilder fieldBuilder)
 ```
 
 
-Adds a field represented by a [FieldBuilder](../../com.aspose.words/fieldbuilder) to the argument.
+Adds a field represented by a [FieldBuilder](../../com.aspose.words/fieldbuilder/) to the argument.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fieldBuilder | [FieldBuilder](../../com.aspose.words/fieldbuilder) |  |
+| fieldBuilder | [FieldBuilder](../../com.aspose.words/fieldbuilder/) |  |
 
 **Returns:**
-[FieldArgumentBuilder](../../com.aspose.words/fieldargumentbuilder)
+[FieldArgumentBuilder](../../com.aspose.words/fieldargumentbuilder/)
 ### addNode(Inline node) {#addNode-com.aspose.words.Inline}
 ```
 public FieldArgumentBuilder addNode(Inline node)
@@ -75,10 +76,10 @@ Adds a node to the argument. Only text level nodes are supported at the moment.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| node | [Inline](../../com.aspose.words/inline) |  |
+| node | [Inline](../../com.aspose.words/inline/) |  |
 
 **Returns:**
-[FieldArgumentBuilder](../../com.aspose.words/fieldargumentbuilder)
+[FieldArgumentBuilder](../../com.aspose.words/fieldargumentbuilder/)
 ### addText(String text) {#addText-java.lang.String}
 ```
 public FieldArgumentBuilder addText(String text)
@@ -93,7 +94,7 @@ Adds a plain text to the argument.
 | text | java.lang.String |  |
 
 **Returns:**
-[FieldArgumentBuilder](../../com.aspose.words/fieldargumentbuilder)
+[FieldArgumentBuilder](../../com.aspose.words/fieldargumentbuilder/)
 ### buildBlock(DocumentBuilder documentBuilder) {#buildBlock-com.aspose.words.DocumentBuilder}
 ```
 public void buildBlock(DocumentBuilder documentBuilder)
@@ -105,7 +106,7 @@ public void buildBlock(DocumentBuilder documentBuilder)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| documentBuilder | [DocumentBuilder](../../com.aspose.words/documentbuilder) |  |
+| documentBuilder | [DocumentBuilder](../../com.aspose.words/documentbuilder/) |  |
 
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```

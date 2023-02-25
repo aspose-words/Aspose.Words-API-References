@@ -1,7 +1,8 @@
 ---
 title: CssSavingArgs
+linktitle: CssSavingArgs
 second_title: Aspose.Words for Java API Reference
-description: Provides data for the  event.
+description: Provides data for the  event in Java.
 type: docs
 weight: 97
 url: /java/com.aspose.words/csssavingargs/
@@ -13,17 +14,17 @@ java.lang.Object
 public class CssSavingArgs
 ```
 
-Provides data for the [ICssSavingCallback.cssSaving(com.aspose.words.CssSavingArgs)](../../com.aspose.words/icsssavingcallback\#cssSaving-com.aspose.words.CssSavingArgs) event.
+Provides data for the [ICssSavingCallback.cssSaving(com.aspose.words.CssSavingArgs)](../../com.aspose.words/icsssavingcallback/\#cssSaving-com.aspose.words.CssSavingArgs) event.
 
 To learn more, visit the [ Save a Document ][Save a Document] documentation article.
 
 By default, when Aspose.Words saves a document to HTML, it saves CSS information inline (as a value of the **style** attribute on every element).
 
-[CssSavingArgs](../../com.aspose.words/csssavingargs) allows to save CSS information into file by providing your own stream object.
+[CssSavingArgs](../../com.aspose.words/csssavingargs/) allows to save CSS information into file by providing your own stream object.
 
 To save CSS into stream, use the **P:Aspose.Words.Saving.CssSavingArgs.CssStream** property.
 
-To suppress saving CSS into a file and embedding to HTML document use the [isExportNeeded()](../../com.aspose.words/csssavingargs\#isExportNeeded) / [isExportNeeded(boolean)](../../com.aspose.words/csssavingargs\#isExportNeeded-boolean) property.
+To suppress saving CSS into a file and embedding to HTML document use the [isExportNeeded()](../../com.aspose.words/csssavingargs/\#isExportNeeded) / [isExportNeeded(boolean)](../../com.aspose.words/csssavingargs/\#isExportNeeded-boolean) property.
 
 
 [Save a Document]: https://docs.aspose.com/words/java/save-a-document/
@@ -91,7 +92,7 @@ public Document getDocument()
 Gets the document object that is currently being saved.
 
 **Returns:**
-[Document](../../com.aspose.words/document) - The document object that is currently being saved.
+[Document](../../com.aspose.words/document/) - The document object that is currently being saved.
 ### getKeepCssStreamOpen() {#getKeepCssStreamOpen}
 ```
 public boolean getKeepCssStreamOpen()

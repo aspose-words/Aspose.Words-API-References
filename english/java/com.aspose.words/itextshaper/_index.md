@@ -1,14 +1,17 @@
 ---
 title: ITextShaper
+linktitle: ITextShaper
 second_title: Aspose.Words for Java API Reference
-description: 
+description: Provides methods for text shaping in Java.
 type: docs
-weight: 664
+weight: 666
 url: /java/com.aspose.words/itextshaper/
 ---
 ```
 public interface ITextShaper
 ```
+
+Provides methods for text shaping.
 ## Methods
 
 | Method | Description |

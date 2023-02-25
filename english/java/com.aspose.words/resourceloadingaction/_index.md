@@ -1,9 +1,10 @@
 ---
 title: ResourceLoadingAction
+linktitle: ResourceLoadingAction
 second_title: Aspose.Words for Java API Reference
-description: Specifies the mode of resource loading.
+description: Specifies the mode of resource loading in Java.
 type: docs
-weight: 483
+weight: 485
 url: /java/com.aspose.words/resourceloadingaction/
 ---
 
@@ -25,7 +26,7 @@ To learn more, visit the [ Specify Load Options ][Specify Load Options] document
 | --- | --- |
 | [DEFAULT](#DEFAULT) | Aspose.Words will load this resource as usual. |
 | [SKIP](#SKIP) | Aspose.Words will skip loading of this resource. |
-| [USER_PROVIDED](#USER-PROVIDED) | Aspose.Words will use byte array provided by user in [ResourceLoadingArgs.setData(byte[])](../../com.aspose.words/resourceloadingargs\#setData-byte) as resource data. |
+| [USER_PROVIDED](#USER-PROVIDED) | Aspose.Words will use byte array provided by user in [ResourceLoadingArgs.setData(byte[])](../../com.aspose.words/resourceloadingargs/\#setData-byte) as resource data. |
 | [length](#length) |  |
 ## Methods
 
@@ -66,7 +67,7 @@ public static int USER_PROVIDED
 ```
 
 
-Aspose.Words will use byte array provided by user in [ResourceLoadingArgs.setData(byte[])](../../com.aspose.words/resourceloadingargs\#setData-byte) as resource data.
+Aspose.Words will use byte array provided by user in [ResourceLoadingArgs.setData(byte[])](../../com.aspose.words/resourceloadingargs/\#setData-byte) as resource data.
 
 ### length {#length}
 ```

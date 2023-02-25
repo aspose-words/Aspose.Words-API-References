@@ -1,9 +1,10 @@
 ---
 title: LayoutEnumerator
+linktitle: LayoutEnumerator
 second_title: Aspose.Words for Java API Reference
-description: Enumerates page layout entities of a document.
+description: Enumerates page layout entities of a document in Java.
 type: docs
-weight: 362
+weight: 363
 url: /java/com.aspose.words/layoutenumerator/
 ---
 
@@ -13,7 +14,7 @@ java.lang.Object
 public class LayoutEnumerator
 ```
 
-Enumerates page layout entities of a document. You can use this class to walk over the page layout model. Available properties are type, geometry, text and page index where entity is rendered, as well as overall structure and relationships. Use combination of [LayoutCollector.getEntity(com.aspose.words.Node)](../../com.aspose.words/layoutcollector\#getEntity-com.aspose.words.Node) and [getCurrent()](../../com.aspose.words/layoutenumerator\#getCurrent) / [setCurrent(java.lang.Object)](../../com.aspose.words/layoutenumerator\#setCurrent-java.lang.Object) move to the entity which corresponds to a document node.
+Enumerates page layout entities of a document. You can use this class to walk over the page layout model. Available properties are type, geometry, text and page index where entity is rendered, as well as overall structure and relationships. Use combination of [LayoutCollector.getEntity(com.aspose.words.Node)](../../com.aspose.words/layoutcollector/\#getEntity-com.aspose.words.Node) and [getCurrent()](../../com.aspose.words/layoutenumerator/\#getCurrent) / [setCurrent(java.lang.Object)](../../com.aspose.words/layoutenumerator/\#setCurrent-java.lang.Object) move to the entity which corresponds to a document node.
 
 To learn more, visit the [ Converting to Fixed-page Format ][Converting to Fixed-page Format] documentation article.
 
@@ -66,9 +67,9 @@ Initializes new instance of this class.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| document | [Document](../../com.aspose.words/document) | A document whose page layout model to enumerate.
+| document | [Document](../../com.aspose.words/document/) | A document whose page layout model to enumerate.
 
-If page layout model of the document hasn't been built the enumerator calls [Document.updatePageLayout()](../../com.aspose.words/document\#updatePageLayout) to build it.
+If page layout model of the document hasn't been built the enumerator calls [Document.updatePageLayout()](../../com.aspose.words/document/\#updatePageLayout) to build it.
 
 Whenever document is updated and new page layout model is created, a new enumerator must be used to access it. |
 
@@ -101,7 +102,7 @@ Gets a named property of the entity.
 | key | java.lang.String | A name of the property (case-sensitive). |
 
 **Returns:**
-java.lang.Object - Null if property is not available, otherwise value of the property. This is currently used to get font properties of spans. See [Font](../../com.aspose.words/font) class for possible properties names. Not all properties are supported.
+java.lang.Object - Null if property is not available, otherwise value of the property. This is currently used to get font properties of spans. See [Font](../../com.aspose.words/font/) class for possible properties names. Not all properties are supported.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -131,14 +132,14 @@ public Document getDocument()
 Gets document this instance enumerates.
 
 **Returns:**
-[Document](../../com.aspose.words/document) - Document this instance enumerates.
+[Document](../../com.aspose.words/document/) - Document this instance enumerates.
 ### getKind() {#getKind}
 ```
 public String getKind()
 ```
 
 
-Gets the kind of the current entity. This can be an empty string but never  null . This is a more specific type of the current entity, e.g. bookmark span has [LayoutEntityType.SPAN](../../com.aspose.words/layoutentitytype\#SPAN) type and may have either a BOOKMARKSTART or BOOKMARKEND kind.
+Gets the kind of the current entity. This can be an empty string but never  null . This is a more specific type of the current entity, e.g. bookmark span has [LayoutEntityType.SPAN](../../com.aspose.words/layoutentitytype/\#SPAN) type and may have either a BOOKMARKSTART or BOOKMARKEND kind.
 
 **Returns:**
 java.lang.String - The kind of the current entity.
@@ -181,7 +182,7 @@ public int getType()
 Gets the type of the current entity.
 
 **Returns:**
-int - The type of the current entity. The returned value is a bitwise combination of [LayoutEntityType](../../com.aspose.words/layoutentitytype) constants.
+int - The type of the current entity. The returned value is a bitwise combination of [LayoutEntityType](../../com.aspose.words/layoutentitytype/) constants.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()
@@ -228,7 +229,7 @@ public boolean moveNextLogical()
 ```
 
 
-Moves to the next sibling entity in a logical order. When iterating lines of a paragraph broken across pages this method will move to the next line even if it resides on another page. Note that all [LayoutEntityType.SPAN](../../com.aspose.words/layoutentitytype\#SPAN) entities are linked together thus if [getCurrent()](../../com.aspose.words/layoutenumerator\#getCurrent) / [setCurrent(java.lang.Object)](../../com.aspose.words/layoutenumerator\#setCurrent-java.lang.Object) entity is span repeated calling of this method will iterates complete story of the document.
+Moves to the next sibling entity in a logical order. When iterating lines of a paragraph broken across pages this method will move to the next line even if it resides on another page. Note that all [LayoutEntityType.SPAN](../../com.aspose.words/layoutentitytype/\#SPAN) entities are linked together thus if [getCurrent()](../../com.aspose.words/layoutenumerator/\#getCurrent) / [setCurrent(java.lang.Object)](../../com.aspose.words/layoutenumerator/\#setCurrent-java.lang.Object) entity is span repeated calling of this method will iterates complete story of the document.
 
 **Returns:**
 boolean
@@ -273,7 +274,7 @@ public boolean movePreviousLogical()
 ```
 
 
-Moves to the previous sibling entity in a logical order. When iterating lines of a paragraph broken across pages this method will move to the previous line even if it resides on another page. Note that all [LayoutEntityType.SPAN](../../com.aspose.words/layoutentitytype\#SPAN) entities are linked together thus if [getCurrent()](../../com.aspose.words/layoutenumerator\#getCurrent) / [setCurrent(java.lang.Object)](../../com.aspose.words/layoutenumerator\#setCurrent-java.lang.Object) entity is span repeated calling of this method will iterates complete story of the document.
+Moves to the previous sibling entity in a logical order. When iterating lines of a paragraph broken across pages this method will move to the previous line even if it resides on another page. Note that all [LayoutEntityType.SPAN](../../com.aspose.words/layoutentitytype/\#SPAN) entities are linked together thus if [getCurrent()](../../com.aspose.words/layoutenumerator/\#getCurrent) / [setCurrent(java.lang.Object)](../../com.aspose.words/layoutenumerator/\#setCurrent-java.lang.Object) entity is span repeated calling of this method will iterates complete story of the document.
 
 **Returns:**
 boolean

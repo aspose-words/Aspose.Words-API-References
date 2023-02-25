@@ -1,9 +1,10 @@
 ---
 title: VbaModule
+linktitle: VbaModule
 second_title: Aspose.Words for Java API Reference
-description: Provides access to VBA project module.
+description: Provides access to VBA project module in Java.
 type: docs
-weight: 597
+weight: 599
 url: /java/com.aspose.words/vbamodule/
 ---
 
@@ -31,7 +32,7 @@ To learn more, visit the [ Working with VBA Macros ][Working with VBA Macros] do
 
 | Method | Description |
 | --- | --- |
-| [deepClone()](#deepClone) | Performs a copy of the [VbaModule](../../com.aspose.words/vbamodule). |
+| [deepClone()](#deepClone) | Performs a copy of the [VbaModule](../../com.aspose.words/vbamodule/). |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getClass()](#getClass) |  |
 | [getName()](#getName) | Gets VBA project module name. |
@@ -61,10 +62,10 @@ public VbaModule deepClone()
 ```
 
 
-Performs a copy of the [VbaModule](../../com.aspose.words/vbamodule).
+Performs a copy of the [VbaModule](../../com.aspose.words/vbamodule/).
 
 **Returns:**
-[VbaModule](../../com.aspose.words/vbamodule) - The cloned [VbaModule](../../com.aspose.words/vbamodule).
+[VbaModule](../../com.aspose.words/vbamodule/) - The cloned [VbaModule](../../com.aspose.words/vbamodule/).
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
@@ -119,7 +120,7 @@ public int getType()
 Specifies whether the module is a procedural module, document module, class module, or designer module.
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [VbaModuleType](../../com.aspose.words/vbamoduletype) constants.
+int - The corresponding  int  value. The returned value is one of [VbaModuleType](../../com.aspose.words/vbamoduletype/) constants.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()
@@ -183,7 +184,7 @@ Specifies whether the module is a procedural module, document module, class modu
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [VbaModuleType](../../com.aspose.words/vbamoduletype) constants. |
+| value | int | The corresponding  int  value. The value must be one of [VbaModuleType](../../com.aspose.words/vbamoduletype/) constants. |
 
 ### toString() {#toString}
 ```

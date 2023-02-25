@@ -1,9 +1,10 @@
 ---
 title: SignOptions
+linktitle: SignOptions
 second_title: Aspose.Words for Java API Reference
-description: Allows to specify options for document signing.
+description: Allows to specify options for document signing in Java.
 type: docs
-weight: 527
+weight: 529
 url: /java/com.aspose.words/signoptions/
 ---
 
@@ -30,7 +31,7 @@ To learn more, visit the [ Work with Digital Signatures ][Work with Digital Sign
 | [getProviderId()](#getProviderId) | Specifies the class ID of the signature provider. |
 | [getSignTime()](#getSignTime) | The date of signing. |
 | [getSignatureLineId()](#getSignatureLineId) | Signature line identifier. |
-| [getSignatureLineImage()](#getSignatureLineImage) | The image that will be shown in associated [SignatureLine](../../com.aspose.words/signatureline). |
+| [getSignatureLineImage()](#getSignatureLineImage) | The image that will be shown in associated [SignatureLine](../../com.aspose.words/signatureline/). |
 | [hashCode()](#hashCode) |  |
 | [notify()](#notify) |  |
 | [notifyAll()](#notifyAll) |  |
@@ -39,7 +40,7 @@ To learn more, visit the [ Work with Digital Signatures ][Work with Digital Sign
 | [setProviderId(UUID value)](#setProviderId-java.util.UUID) | Specifies the class ID of the signature provider. |
 | [setSignTime(Date value)](#setSignTime-java.util.Date) | The date of signing. |
 | [setSignatureLineId(UUID value)](#setSignatureLineId-java.util.UUID) | Signature line identifier. |
-| [setSignatureLineImage(byte[] value)](#setSignatureLineImage-byte) | The image that will be shown in associated [SignatureLine](../../com.aspose.words/signatureline). |
+| [setSignatureLineImage(byte[] value)](#setSignatureLineImage-byte) | The image that will be shown in associated [SignatureLine](../../com.aspose.words/signatureline/). |
 | [toString()](#toString) |  |
 | [wait()](#wait) |  |
 | [wait(long arg0)](#wait-long) |  |
@@ -121,7 +122,7 @@ public UUID getSignatureLineId()
 ```
 
 
-Signature line identifier. Default value is **Empty (all zeroes) Guid**. When set, it associates [SignatureLine](../../com.aspose.words/signatureline) with corresponding [DigitalSignature](../../com.aspose.words/digitalsignature).
+Signature line identifier. Default value is **Empty (all zeroes) Guid**. When set, it associates [SignatureLine](../../com.aspose.words/signatureline/) with corresponding [DigitalSignature](../../com.aspose.words/digitalsignature/).
 
 **Returns:**
 java.util.UUID - The corresponding java.util.UUID value.
@@ -131,7 +132,7 @@ public byte[] getSignatureLineImage()
 ```
 
 
-The image that will be shown in associated [SignatureLine](../../com.aspose.words/signatureline). Default value is  null .
+The image that will be shown in associated [SignatureLine](../../com.aspose.words/signatureline/). Default value is  null .
 
 **Returns:**
 byte[] - The corresponding byte[] value.
@@ -225,7 +226,7 @@ public void setSignatureLineId(UUID value)
 ```
 
 
-Signature line identifier. Default value is **Empty (all zeroes) Guid**. When set, it associates [SignatureLine](../../com.aspose.words/signatureline) with corresponding [DigitalSignature](../../com.aspose.words/digitalsignature).
+Signature line identifier. Default value is **Empty (all zeroes) Guid**. When set, it associates [SignatureLine](../../com.aspose.words/signatureline/) with corresponding [DigitalSignature](../../com.aspose.words/digitalsignature/).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -238,7 +239,7 @@ public void setSignatureLineImage(byte[] value)
 ```
 
 
-The image that will be shown in associated [SignatureLine](../../com.aspose.words/signatureline). Default value is  null .
+The image that will be shown in associated [SignatureLine](../../com.aspose.words/signatureline/). Default value is  null .
 
 **Parameters:**
 | Parameter | Type | Description |

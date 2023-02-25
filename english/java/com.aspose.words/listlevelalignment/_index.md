@@ -1,9 +1,10 @@
 ---
 title: ListLevelAlignment
+linktitle: ListLevelAlignment
 second_title: Aspose.Words for Java API Reference
-description: Specifies alignment for the list number or bullet.
+description: Specifies alignment for the list number or bullet in Java.
 type: docs
-weight: 375
+weight: 376
 url: /java/com.aspose.words/listlevelalignment/
 ---
 
@@ -15,7 +16,7 @@ public class ListLevelAlignment
 
 Specifies alignment for the list number or bullet.
 
-Used as a value for the [ListLevel.getAlignment()](../../com.aspose.words/listlevel\#getAlignment) / [ListLevel.setAlignment(int)](../../com.aspose.words/listlevel\#setAlignment-int) property.
+Used as a value for the [ListLevel.getAlignment()](../../com.aspose.words/listlevel/\#getAlignment) / [ListLevel.setAlignment(int)](../../com.aspose.words/listlevel/\#setAlignment-int) property.
 ## Fields
 
 | Field | Description |

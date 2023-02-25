@@ -1,9 +1,10 @@
 ---
 title: ResourceLoadingArgs
+linktitle: ResourceLoadingArgs
 second_title: Aspose.Words for Java API Reference
-description: Provides data for the  method.
+description: Provides data for the  method in Java.
 type: docs
-weight: 484
+weight: 486
 url: /java/com.aspose.words/resourceloadingargs/
 ---
 
@@ -13,7 +14,7 @@ java.lang.Object
 public class ResourceLoadingArgs
 ```
 
-Provides data for the [IResourceLoadingCallback.resourceLoading(com.aspose.words.ResourceLoadingArgs)](../../com.aspose.words/iresourceloadingcallback\#resourceLoading-com.aspose.words.ResourceLoadingArgs) method.
+Provides data for the [IResourceLoadingCallback.resourceLoading(com.aspose.words.ResourceLoadingArgs)](../../com.aspose.words/iresourceloadingcallback/\#resourceLoading-com.aspose.words.ResourceLoadingArgs) method.
 ## Methods
 
 | Method | Description |
@@ -22,12 +23,12 @@ Provides data for the [IResourceLoadingCallback.resourceLoading(com.aspose.words
 | [getClass()](#getClass) |  |
 | [getOriginalUri()](#getOriginalUri) | Original URI of the resource as specified in imported document. |
 | [getResourceType()](#getResourceType) | Type of resource. |
-| [getUri()](#getUri) | URI of the resource which is used for downloading if [IResourceLoadingCallback.resourceLoading(com.aspose.words.ResourceLoadingArgs)](../../com.aspose.words/iresourceloadingcallback\#resourceLoading-com.aspose.words.ResourceLoadingArgs) returns [ResourceLoadingAction.DEFAULT](../../com.aspose.words/resourceloadingaction\#DEFAULT). |
+| [getUri()](#getUri) | URI of the resource which is used for downloading if [IResourceLoadingCallback.resourceLoading(com.aspose.words.ResourceLoadingArgs)](../../com.aspose.words/iresourceloadingcallback/\#resourceLoading-com.aspose.words.ResourceLoadingArgs) returns [ResourceLoadingAction.DEFAULT](../../com.aspose.words/resourceloadingaction/\#DEFAULT). |
 | [hashCode()](#hashCode) |  |
 | [notify()](#notify) |  |
 | [notifyAll()](#notifyAll) |  |
-| [setData(byte[] data)](#setData-byte) | Sets user provided data of the resource which is used if [IResourceLoadingCallback.resourceLoading(com.aspose.words.ResourceLoadingArgs)](../../com.aspose.words/iresourceloadingcallback\#resourceLoading-com.aspose.words.ResourceLoadingArgs) returns [ResourceLoadingAction.USER\_PROVIDED](../../com.aspose.words/resourceloadingaction\#USER-PROVIDED). |
-| [setUri(String value)](#setUri-java.lang.String) | URI of the resource which is used for downloading if [IResourceLoadingCallback.resourceLoading(com.aspose.words.ResourceLoadingArgs)](../../com.aspose.words/iresourceloadingcallback\#resourceLoading-com.aspose.words.ResourceLoadingArgs) returns [ResourceLoadingAction.DEFAULT](../../com.aspose.words/resourceloadingaction\#DEFAULT). |
+| [setData(byte[] data)](#setData-byte) | Sets user provided data of the resource which is used if [IResourceLoadingCallback.resourceLoading(com.aspose.words.ResourceLoadingArgs)](../../com.aspose.words/iresourceloadingcallback/\#resourceLoading-com.aspose.words.ResourceLoadingArgs) returns [ResourceLoadingAction.USER\_PROVIDED](../../com.aspose.words/resourceloadingaction/\#USER-PROVIDED). |
+| [setUri(String value)](#setUri-java.lang.String) | URI of the resource which is used for downloading if [IResourceLoadingCallback.resourceLoading(com.aspose.words.ResourceLoadingArgs)](../../com.aspose.words/iresourceloadingcallback/\#resourceLoading-com.aspose.words.ResourceLoadingArgs) returns [ResourceLoadingAction.DEFAULT](../../com.aspose.words/resourceloadingaction/\#DEFAULT). |
 | [toString()](#toString) |  |
 | [wait()](#wait) |  |
 | [wait(long arg0)](#wait-long) |  |
@@ -76,14 +77,14 @@ public int getResourceType()
 Type of resource.
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [ResourceType](../../com.aspose.words/resourcetype) constants.
+int - The corresponding  int  value. The returned value is one of [ResourceType](../../com.aspose.words/resourcetype/) constants.
 ### getUri() {#getUri}
 ```
 public String getUri()
 ```
 
 
-URI of the resource which is used for downloading if [IResourceLoadingCallback.resourceLoading(com.aspose.words.ResourceLoadingArgs)](../../com.aspose.words/iresourceloadingcallback\#resourceLoading-com.aspose.words.ResourceLoadingArgs) returns [ResourceLoadingAction.DEFAULT](../../com.aspose.words/resourceloadingaction\#DEFAULT).
+URI of the resource which is used for downloading if [IResourceLoadingCallback.resourceLoading(com.aspose.words.ResourceLoadingArgs)](../../com.aspose.words/iresourceloadingcallback/\#resourceLoading-com.aspose.words.ResourceLoadingArgs) returns [ResourceLoadingAction.DEFAULT](../../com.aspose.words/resourceloadingaction/\#DEFAULT).
 
 Initially it's set to absolute URI of the resource, but user can redefine it to any value.
 
@@ -121,7 +122,7 @@ public void setData(byte[] data)
 ```
 
 
-Sets user provided data of the resource which is used if [IResourceLoadingCallback.resourceLoading(com.aspose.words.ResourceLoadingArgs)](../../com.aspose.words/iresourceloadingcallback\#resourceLoading-com.aspose.words.ResourceLoadingArgs) returns [ResourceLoadingAction.USER\_PROVIDED](../../com.aspose.words/resourceloadingaction\#USER-PROVIDED).
+Sets user provided data of the resource which is used if [IResourceLoadingCallback.resourceLoading(com.aspose.words.ResourceLoadingArgs)](../../com.aspose.words/iresourceloadingcallback/\#resourceLoading-com.aspose.words.ResourceLoadingArgs) returns [ResourceLoadingAction.USER\_PROVIDED](../../com.aspose.words/resourceloadingaction/\#USER-PROVIDED).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -134,7 +135,7 @@ public void setUri(String value)
 ```
 
 
-URI of the resource which is used for downloading if [IResourceLoadingCallback.resourceLoading(com.aspose.words.ResourceLoadingArgs)](../../com.aspose.words/iresourceloadingcallback\#resourceLoading-com.aspose.words.ResourceLoadingArgs) returns [ResourceLoadingAction.DEFAULT](../../com.aspose.words/resourceloadingaction\#DEFAULT).
+URI of the resource which is used for downloading if [IResourceLoadingCallback.resourceLoading(com.aspose.words.ResourceLoadingArgs)](../../com.aspose.words/iresourceloadingcallback/\#resourceLoading-com.aspose.words.ResourceLoadingArgs) returns [ResourceLoadingAction.DEFAULT](../../com.aspose.words/resourceloadingaction/\#DEFAULT).
 
 Initially it's set to absolute URI of the resource, but user can redefine it to any value.
 

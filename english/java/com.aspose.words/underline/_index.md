@@ -1,9 +1,10 @@
 ---
 title: Underline
+linktitle: Underline
 second_title: Aspose.Words for Java API Reference
-description: Indicates type of the underline applied to a font.
+description: Indicates type of the underline applied to a font in Java.
 type: docs
-weight: 592
+weight: 594
 url: /java/com.aspose.words/underline/
 ---
 

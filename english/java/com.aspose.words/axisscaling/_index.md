@@ -1,7 +1,8 @@
 ---
 title: AxisScaling
+linktitle: AxisScaling
 second_title: Aspose.Words for Java API Reference
-description: Represents the scaling options of the axis.
+description: Represents the scaling options of the axis in Java.
 type: docs
 weight: 22
 url: /java/com.aspose.words/axisscaling/
@@ -78,9 +79,9 @@ Gets the logarithmic base for a logarithmic axis.
 
 The property is not supported by MS Office 2016 new charts.
 
-Valid range of a floating point value is greater than or equal to 2 and less than or equal to 1000. The property has effect only if [getType()](../../com.aspose.words/axisscaling\#getType) / [setType(int)](../../com.aspose.words/axisscaling\#setType-int) is set to [AxisScaleType.LOGARITHMIC](../../com.aspose.words/axisscaletype\#LOGARITHMIC).
+Valid range of a floating point value is greater than or equal to 2 and less than or equal to 1000. The property has effect only if [getType()](../../com.aspose.words/axisscaling/\#getType) / [setType(int)](../../com.aspose.words/axisscaling/\#setType-int) is set to [AxisScaleType.LOGARITHMIC](../../com.aspose.words/axisscaletype/\#LOGARITHMIC).
 
-Setting this property sets the [getType()](../../com.aspose.words/axisscaling\#getType) / [setType(int)](../../com.aspose.words/axisscaling\#setType-int) property to [AxisScaleType.LOGARITHMIC](../../com.aspose.words/axisscaletype\#LOGARITHMIC).
+Setting this property sets the [getType()](../../com.aspose.words/axisscaling/\#getType) / [setType(int)](../../com.aspose.words/axisscaling/\#setType-int) property to [AxisScaleType.LOGARITHMIC](../../com.aspose.words/axisscaletype/\#LOGARITHMIC).
 
 **Returns:**
 double - The logarithmic base for a logarithmic axis.
@@ -93,7 +94,7 @@ public AxisBound getMaximum()
 Gets the maximum value of the axis. The default value is "auto".
 
 **Returns:**
-[AxisBound](../../com.aspose.words/axisbound) - The maximum value of the axis.
+[AxisBound](../../com.aspose.words/axisbound/) - The maximum value of the axis.
 ### getMinimum() {#getMinimum}
 ```
 public AxisBound getMinimum()
@@ -103,17 +104,17 @@ public AxisBound getMinimum()
 Gets minimum value of the axis. The default value is "auto".
 
 **Returns:**
-[AxisBound](../../com.aspose.words/axisbound) - Minimum value of the axis.
+[AxisBound](../../com.aspose.words/axisbound/) - Minimum value of the axis.
 ### getType() {#getType}
 ```
 public int getType()
 ```
 
 
-Gets scaling type of the axis. The [AxisScaleType.LINEAR](../../com.aspose.words/axisscaletype\#LINEAR) value is the only that is allowed in MS Office 2016 new charts.
+Gets scaling type of the axis. The [AxisScaleType.LINEAR](../../com.aspose.words/axisscaletype/\#LINEAR) value is the only that is allowed in MS Office 2016 new charts.
 
 **Returns:**
-int - Scaling type of the axis. The returned value is one of [AxisScaleType](../../com.aspose.words/axisscaletype) constants.
+int - Scaling type of the axis. The returned value is one of [AxisScaleType](../../com.aspose.words/axisscaletype/) constants.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()
@@ -150,9 +151,9 @@ Sets the logarithmic base for a logarithmic axis.
 
 The property is not supported by MS Office 2016 new charts.
 
-Valid range of a floating point value is greater than or equal to 2 and less than or equal to 1000. The property has effect only if [getType()](../../com.aspose.words/axisscaling\#getType) / [setType(int)](../../com.aspose.words/axisscaling\#setType-int) is set to [AxisScaleType.LOGARITHMIC](../../com.aspose.words/axisscaletype\#LOGARITHMIC).
+Valid range of a floating point value is greater than or equal to 2 and less than or equal to 1000. The property has effect only if [getType()](../../com.aspose.words/axisscaling/\#getType) / [setType(int)](../../com.aspose.words/axisscaling/\#setType-int) is set to [AxisScaleType.LOGARITHMIC](../../com.aspose.words/axisscaletype/\#LOGARITHMIC).
 
-Setting this property sets the [getType()](../../com.aspose.words/axisscaling\#getType) / [setType(int)](../../com.aspose.words/axisscaling\#setType-int) property to [AxisScaleType.LOGARITHMIC](../../com.aspose.words/axisscaletype\#LOGARITHMIC).
+Setting this property sets the [getType()](../../com.aspose.words/axisscaling/\#getType) / [setType(int)](../../com.aspose.words/axisscaling/\#setType-int) property to [AxisScaleType.LOGARITHMIC](../../com.aspose.words/axisscaletype/\#LOGARITHMIC).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -170,7 +171,7 @@ Sets the maximum value of the axis. The default value is "auto".
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [AxisBound](../../com.aspose.words/axisbound) | The maximum value of the axis. |
+| value | [AxisBound](../../com.aspose.words/axisbound/) | The maximum value of the axis. |
 
 ### setMinimum(AxisBound value) {#setMinimum-com.aspose.words.AxisBound}
 ```
@@ -183,7 +184,7 @@ Sets minimum value of the axis. The default value is "auto".
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [AxisBound](../../com.aspose.words/axisbound) | Minimum value of the axis. |
+| value | [AxisBound](../../com.aspose.words/axisbound/) | Minimum value of the axis. |
 
 ### setType(int value) {#setType-int}
 ```
@@ -191,12 +192,12 @@ public void setType(int value)
 ```
 
 
-Sets scaling type of the axis. The [AxisScaleType.LINEAR](../../com.aspose.words/axisscaletype\#LINEAR) value is the only that is allowed in MS Office 2016 new charts.
+Sets scaling type of the axis. The [AxisScaleType.LINEAR](../../com.aspose.words/axisscaletype/\#LINEAR) value is the only that is allowed in MS Office 2016 new charts.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | Scaling type of the axis. The value must be one of [AxisScaleType](../../com.aspose.words/axisscaletype) constants. |
+| value | int | Scaling type of the axis. The value must be one of [AxisScaleType](../../com.aspose.words/axisscaletype/) constants. |
 
 ### toString() {#toString}
 ```

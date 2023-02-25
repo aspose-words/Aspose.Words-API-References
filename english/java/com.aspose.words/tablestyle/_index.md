@@ -1,14 +1,15 @@
 ---
 title: TableStyle
+linktitle: TableStyle
 second_title: Aspose.Words for Java API Reference
-description: Represents a table style.
+description: Represents a table style in Java.
 type: docs
-weight: 556
+weight: 558
 url: /java/com.aspose.words/tablestyle/
 ---
 
 **Inheritance:**
-java.lang.Object, [com.aspose.words.Style](../../com.aspose.words/style)
+java.lang.Object, [com.aspose.words.Style](../../com.aspose.words/style/)
 ```
 public class TableStyle extends Style
 ```
@@ -41,6 +42,7 @@ To learn more, visit the [ Working with Tables ][Working with Tables] documentat
 | [getAliases()](#getAliases) | Gets all aliases of this style. |
 | [getAlignment()](#getAlignment) | Specifies the alignment for the table style. |
 | [getAllowBreakAcrossPages()](#getAllowBreakAcrossPages) | Gets a flag indicating whether text in a table row is allowed to split across a page break. |
+| [getAutomaticallyUpdate()](#getAutomaticallyUpdate) | Specifies whether this style is automatically redefined based on the appropriate value. |
 | [getBaseStyleName()](#getBaseStyleName) | Gets/sets the name of the style this style is based on. |
 | [getBidi()](#getBidi) | Gets whether this is a style for a right-to-left table. |
 | [getBorders()](#getBorders) | Gets the collection of default cell borders for the style. |
@@ -61,7 +63,7 @@ To learn more, visit the [ Working with Tables ][Working with Tables] documentat
 | [getFont()](#getFont) | Gets the character formatting of the style. |
 | [getLeftIndent()](#getLeftIndent) | Gets the value that represents the left indent of a table. |
 | [getLeftPadding()](#getLeftPadding) | Gets the amount of space (in points) to add to the left of the contents of table cells. |
-| [getLinkedStyleName()](#getLinkedStyleName) | Gets the name of the [Style](../../com.aspose.words/style) linked to this one. |
+| [getLinkedStyleName()](#getLinkedStyleName) | Gets the name of the [Style](../../com.aspose.words/style/) linked to this one. |
 | [getList()](#getList) | Gets the list that defines formatting of this list style. |
 | [getListFormat()](#getListFormat) | Provides access to the list formatting properties of a paragraph style. |
 | [getName()](#getName) | Gets the name of the style. |
@@ -69,7 +71,7 @@ To learn more, visit the [ Working with Tables ][Working with Tables] documentat
 | [getParagraphFormat()](#getParagraphFormat) | Gets the paragraph formatting of the style. |
 | [getRightPadding()](#getRightPadding) | Gets the amount of space (in points) to add to the right of the contents of table cells. |
 | [getRowStripe()](#getRowStripe) | Gets a number of rows to include in the banding when the style specifies odd/even row banding. |
-| [getShading()](#getShading) | Gets a [Shading](../../com.aspose.words/shading) object that refers to the shading formatting for table cells. |
+| [getShading()](#getShading) | Gets a [Shading](../../com.aspose.words/shading/) object that refers to the shading formatting for table cells. |
 | [getStyleIdentifier()](#getStyleIdentifier) | Gets the locale independent style identifier for a built-in style. |
 | [getStyles()](#getStyles) | Gets the collection of styles this style belongs to. |
 | [getTopPadding()](#getTopPadding) | Gets the amount of space (in points) to add above the contents of table cells. |
@@ -87,6 +89,7 @@ To learn more, visit the [ Working with Tables ][Working with Tables] documentat
 | [resetToDefaultAttrs()](#resetToDefaultAttrs) |  |
 | [setAlignment(int value)](#setAlignment-int) | Specifies the alignment for the table style. |
 | [setAllowBreakAcrossPages(boolean value)](#setAllowBreakAcrossPages-boolean) | Sets a flag indicating whether text in a table row is allowed to split across a page break. |
+| [setAutomaticallyUpdate(boolean value)](#setAutomaticallyUpdate-boolean) | Specifies whether this style is automatically redefined based on the appropriate value. |
 | [setBaseStyleName(String value)](#setBaseStyleName-java.lang.String) | Gets/sets the name of the style this style is based on. |
 | [setBidi(boolean value)](#setBidi-boolean) | Sets whether this is a style for a right-to-left table. |
 | [setBorderAttr(int key, Object value)](#setBorderAttr-int-java.lang.Object) |  |
@@ -152,7 +155,7 @@ Compares with the specified style. Styles Istds are compared for built-in styles
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| style | [Style](../../com.aspose.words/style) |  |
+| style | [Style](../../com.aspose.words/style/) |  |
 
 **Returns:**
 boolean
@@ -322,10 +325,10 @@ public int getAlignment()
 ```
 
 
-Specifies the alignment for the table style. The default value is [TableAlignment.LEFT](../../com.aspose.words/tablealignment\#LEFT).
+Specifies the alignment for the table style. The default value is [TableAlignment.LEFT](../../com.aspose.words/tablealignment/\#LEFT).
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [TableAlignment](../../com.aspose.words/tablealignment) constants.
+int - The corresponding  int  value. The returned value is one of [TableAlignment](../../com.aspose.words/tablealignment/) constants.
 ### getAllowBreakAcrossPages() {#getAllowBreakAcrossPages}
 ```
 public boolean getAllowBreakAcrossPages()
@@ -336,6 +339,22 @@ Gets a flag indicating whether text in a table row is allowed to split across a 
 
 **Returns:**
 boolean - A flag indicating whether text in a table row is allowed to split across a page break.
+### getAutomaticallyUpdate() {#getAutomaticallyUpdate}
+```
+public boolean getAutomaticallyUpdate()
+```
+
+
+Specifies whether this style is automatically redefined based on the appropriate value.
+
+If the property value is set to true, MS Word automatically redefines the current style when the appropriate paragraph formatting has been changed.
+
+AutomaticallyUpdate property is applicable to paragraph styles only.
+
+The default value is  false .
+
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getBaseStyleName() {#getBaseStyleName}
 ```
 public String getBaseStyleName()
@@ -369,7 +388,7 @@ public BorderCollection getBorders()
 Gets the collection of default cell borders for the style.
 
 **Returns:**
-[BorderCollection](../../com.aspose.words/bordercollection) - The collection of default cell borders for the style.
+[BorderCollection](../../com.aspose.words/bordercollection/) - The collection of default cell borders for the style.
 ### getBottomPadding() {#getBottomPadding}
 ```
 public double getBottomPadding()
@@ -429,7 +448,7 @@ public ConditionalStyleCollection getConditionalStyles()
 Collection of conditional styles that may be defined for this table style.
 
 **Returns:**
-[ConditionalStyleCollection](../../com.aspose.words/conditionalstylecollection) - The corresponding [ConditionalStyleCollection](../../com.aspose.words/conditionalstylecollection) value.
+[ConditionalStyleCollection](../../com.aspose.words/conditionalstylecollection/) - The corresponding [ConditionalStyleCollection](../../com.aspose.words/conditionalstylecollection/) value.
 ### getDirectBorderAttr(int key) {#getDirectBorderAttr-int}
 ```
 public Object getDirectBorderAttr(int key)
@@ -546,7 +565,7 @@ public DocumentBase getDocument()
 Gets the owner document.
 
 **Returns:**
-[DocumentBase](../../com.aspose.words/documentbase) - The owner document.
+[DocumentBase](../../com.aspose.words/documentbase/) - The owner document.
 ### getFont() {#getFont}
 ```
 public Font getFont()
@@ -558,7 +577,7 @@ Gets the character formatting of the style.
 For list styles this property returns  null .
 
 **Returns:**
-[Font](../../com.aspose.words/font) - The character formatting of the style.
+[Font](../../com.aspose.words/font/) - The character formatting of the style.
 ### getLeftIndent() {#getLeftIndent}
 ```
 public double getLeftIndent()
@@ -585,10 +604,10 @@ public String getLinkedStyleName()
 ```
 
 
-Gets the name of the [Style](../../com.aspose.words/style) linked to this one. Returns empty string if no styles are linked.
+Gets the name of the [Style](../../com.aspose.words/style/) linked to this one. Returns empty string if no styles are linked.
 
 **Returns:**
-java.lang.String - The name of the [Style](../../com.aspose.words/style) linked to this one.
+java.lang.String - The name of the [Style](../../com.aspose.words/style/) linked to this one.
 ### getList() {#getList}
 ```
 public List getList()
@@ -600,7 +619,7 @@ Gets the list that defines formatting of this list style.
 This property is only valid for list styles. For other style types this property returns  null .
 
 **Returns:**
-[List](../../com.aspose.words/list) - The list that defines formatting of this list style.
+[List](../../com.aspose.words/list/) - The list that defines formatting of this list style.
 ### getListFormat() {#getListFormat}
 ```
 public ListFormat getListFormat()
@@ -612,7 +631,7 @@ Provides access to the list formatting properties of a paragraph style.
 This property is only valid for paragraph styles. For other style types this property returns  null .
 
 **Returns:**
-[ListFormat](../../com.aspose.words/listformat) - The corresponding [ListFormat](../../com.aspose.words/listformat) value.
+[ListFormat](../../com.aspose.words/listformat/) - The corresponding [ListFormat](../../com.aspose.words/listformat/) value.
 ### getName() {#getName}
 ```
 public String getName()
@@ -648,7 +667,7 @@ Gets the paragraph formatting of the style.
 For character and list styles this property returns  null .
 
 **Returns:**
-[ParagraphFormat](../../com.aspose.words/paragraphformat) - The paragraph formatting of the style.
+[ParagraphFormat](../../com.aspose.words/paragraphformat/) - The paragraph formatting of the style.
 ### getRightPadding() {#getRightPadding}
 ```
 public double getRightPadding()
@@ -675,10 +694,10 @@ public Shading getShading()
 ```
 
 
-Gets a [Shading](../../com.aspose.words/shading) object that refers to the shading formatting for table cells.
+Gets a [Shading](../../com.aspose.words/shading/) object that refers to the shading formatting for table cells.
 
 **Returns:**
-[Shading](../../com.aspose.words/shading) - A [Shading](../../com.aspose.words/shading) object that refers to the shading formatting for table cells.
+[Shading](../../com.aspose.words/shading/) - A [Shading](../../com.aspose.words/shading/) object that refers to the shading formatting for table cells.
 ### getStyleIdentifier() {#getStyleIdentifier}
 ```
 public int getStyleIdentifier()
@@ -687,10 +706,10 @@ public int getStyleIdentifier()
 
 Gets the locale independent style identifier for a built-in style.
 
-For user defined (custom) styles, this property returns [StyleIdentifier.USER](../../com.aspose.words/styleidentifier\#USER).
+For user defined (custom) styles, this property returns [StyleIdentifier.USER](../../com.aspose.words/styleidentifier/\#USER).
 
 **Returns:**
-int - The locale independent style identifier for a built-in style. The returned value is one of [StyleIdentifier](../../com.aspose.words/styleidentifier) constants.
+int - The locale independent style identifier for a built-in style. The returned value is one of [StyleIdentifier](../../com.aspose.words/styleidentifier/) constants.
 ### getStyles() {#getStyles}
 ```
 public StyleCollection getStyles()
@@ -700,7 +719,7 @@ public StyleCollection getStyles()
 Gets the collection of styles this style belongs to.
 
 **Returns:**
-[StyleCollection](../../com.aspose.words/stylecollection) - The collection of styles this style belongs to.
+[StyleCollection](../../com.aspose.words/stylecollection/) - The collection of styles this style belongs to.
 ### getTopPadding() {#getTopPadding}
 ```
 public double getTopPadding()
@@ -720,17 +739,17 @@ public int getType()
 Gets the style type (paragraph or character).
 
 **Returns:**
-int - The style type (paragraph or character). The returned value is one of [StyleType](../../com.aspose.words/styletype) constants.
+int - The style type (paragraph or character). The returned value is one of [StyleType](../../com.aspose.words/styletype/) constants.
 ### getVerticalAlignment() {#getVerticalAlignment}
 ```
 public int getVerticalAlignment()
 ```
 
 
-Specifies the vertical alignment for the cells. The default value is [CellVerticalAlignment.TOP](../../com.aspose.words/cellverticalalignment\#TOP).
+Specifies the vertical alignment for the cells. The default value is [CellVerticalAlignment.TOP](../../com.aspose.words/cellverticalalignment/\#TOP).
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [CellVerticalAlignment](../../com.aspose.words/cellverticalalignment) constants.
+int - The corresponding  int  value. The returned value is one of [CellVerticalAlignment](../../com.aspose.words/cellverticalalignment/) constants.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()
@@ -842,12 +861,12 @@ public void setAlignment(int value)
 ```
 
 
-Specifies the alignment for the table style. The default value is [TableAlignment.LEFT](../../com.aspose.words/tablealignment\#LEFT).
+Specifies the alignment for the table style. The default value is [TableAlignment.LEFT](../../com.aspose.words/tablealignment/\#LEFT).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [TableAlignment](../../com.aspose.words/tablealignment) constants. |
+| value | int | The corresponding  int  value. The value must be one of [TableAlignment](../../com.aspose.words/tablealignment/) constants. |
 
 ### setAllowBreakAcrossPages(boolean value) {#setAllowBreakAcrossPages-boolean}
 ```
@@ -861,6 +880,25 @@ Sets a flag indicating whether text in a table row is allowed to split across a 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | A flag indicating whether text in a table row is allowed to split across a page break. |
+
+### setAutomaticallyUpdate(boolean value) {#setAutomaticallyUpdate-boolean}
+```
+public void setAutomaticallyUpdate(boolean value)
+```
+
+
+Specifies whether this style is automatically redefined based on the appropriate value.
+
+If the property value is set to true, MS Word automatically redefines the current style when the appropriate paragraph formatting has been changed.
+
+AutomaticallyUpdate property is applicable to paragraph styles only.
+
+The default value is  false .
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setBaseStyleName(String value) {#setBaseStyleName-java.lang.String}
 ```
@@ -1102,12 +1140,12 @@ public void setVerticalAlignment(int value)
 ```
 
 
-Specifies the vertical alignment for the cells. The default value is [CellVerticalAlignment.TOP](../../com.aspose.words/cellverticalalignment\#TOP).
+Specifies the vertical alignment for the cells. The default value is [CellVerticalAlignment.TOP](../../com.aspose.words/cellverticalalignment/\#TOP).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [CellVerticalAlignment](../../com.aspose.words/cellverticalalignment) constants. |
+| value | int | The corresponding  int  value. The value must be one of [CellVerticalAlignment](../../com.aspose.words/cellverticalalignment/) constants. |
 
 ### toString() {#toString}
 ```

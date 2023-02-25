@@ -1,9 +1,10 @@
 ---
 title: SdtListItem
+linktitle: SdtListItem
 second_title: Aspose.Words for Java API Reference
-description: This element specifies a single list item within a parent  or  structured document tag.
+description: This element specifies a single list item within a parent  or  structured document tag in Java.
 type: docs
-weight: 510
+weight: 512
 url: /java/com.aspose.words/sdtlistitem/
 ---
 
@@ -16,12 +17,12 @@ java.lang.Cloneable
 public class SdtListItem implements Cloneable
 ```
 
-This element specifies a single list item within a parent [SdtType.COMBO\_BOX](../../com.aspose.words/sdttype\#COMBO-BOX) or [SdtType.DROP\_DOWN\_LIST](../../com.aspose.words/sdttype\#DROP-DOWN-LIST) structured document tag.
+This element specifies a single list item within a parent [SdtType.COMBO\_BOX](../../com.aspose.words/sdttype/\#COMBO-BOX) or [SdtType.DROP\_DOWN\_LIST](../../com.aspose.words/sdttype/\#DROP-DOWN-LIST) structured document tag.
 
 To learn more, visit the [ Structured Document Tags or Content Control ][Structured Document Tags or Content Control] documentation article.
 
 
-[Structured Document Tags or Content Control]: https://docs.aspose.com/words/java/structured-document-tags-or-content-control/
+[Structured Document Tags or Content Control]: https://docs.aspose.com/words/java/working-with-content-control-sdt/
 ## Constructors
 
 | Constructor | Description |
@@ -34,7 +35,7 @@ To learn more, visit the [ Structured Document Tags or Content Control ][Structu
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getClass()](#getClass) |  |
-| [getDisplayText()](#getDisplayText) | Gets the text to display in the run content in place of the [getValue()](../../com.aspose.words/sdtlistitem\#getValue) attribute contents for this list item. |
+| [getDisplayText()](#getDisplayText) | Gets the text to display in the run content in place of the [getValue()](../../com.aspose.words/sdtlistitem/\#getValue) attribute contents for this list item. |
 | [getValue()](#getValue) | Gets the value of this list item. |
 | [hashCode()](#hashCode) |  |
 | [notify()](#notify) |  |
@@ -101,12 +102,12 @@ public String getDisplayText()
 ```
 
 
-Gets the text to display in the run content in place of the [getValue()](../../com.aspose.words/sdtlistitem\#getValue) attribute contents for this list item.
+Gets the text to display in the run content in place of the [getValue()](../../com.aspose.words/sdtlistitem/\#getValue) attribute contents for this list item.
 
 Cannot be  null  and cannot be an empty string.
 
 **Returns:**
-java.lang.String - The text to display in the run content in place of the [getValue()](../../com.aspose.words/sdtlistitem\#getValue) attribute contents for this list item.
+java.lang.String - The text to display in the run content in place of the [getValue()](../../com.aspose.words/sdtlistitem/\#getValue) attribute contents for this list item.
 ### getValue() {#getValue}
 ```
 public String getValue()

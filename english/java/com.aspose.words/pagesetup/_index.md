@@ -1,9 +1,10 @@
 ---
 title: PageSetup
+linktitle: PageSetup
 second_title: Aspose.Words for Java API Reference
-description: Represents the page setup properties of a section.
+description: Represents the page setup properties of a section in Java.
 type: docs
-weight: 444
+weight: 446
 url: /java/com.aspose.words/pagesetup/
 ---
 
@@ -17,7 +18,7 @@ Represents the page setup properties of a section.
 
 To learn more, visit the [ Working with Sections ][Working with Sections] documentation article.
 
-[PageSetup](../../com.aspose.words/pagesetup) object contains all the page setup attributes of a section (left margin, bottom margin, paper size, and so on) as properties.
+[PageSetup](../../com.aspose.words/pagesetup/) object contains all the page setup attributes of a section (left margin, bottom margin, paper size, and so on) as properties.
 
 
 [Working with Sections]: https://docs.aspose.com/words/java/working-with-sections/
@@ -55,7 +56,7 @@ To learn more, visit the [ Working with Sections ][Working with Sections] docume
 | [getLineNumberRestartMode()](#getLineNumberRestartMode) | Gets the way line numbering runs that is, whether it starts over at the beginning of a new page or section or runs continuously. |
 | [getLineStartingNumber()](#getLineStartingNumber) | Gets the starting line number. |
 | [getLinesPerPage()](#getLinesPerPage) | Gets the number of lines per page in the document grid. |
-| [getMargins()](#getMargins) | Gets preset [Margins](../../com.aspose.words/margins) of the page. |
+| [getMargins()](#getMargins) | Gets preset [Margins](../../com.aspose.words/margins/) of the page. |
 | [getMultiplePages()](#getMultiplePages) | For multiple page documents, gets or sets how a document is printed or rendered so that it can be bound as a booklet. |
 | [getOddAndEvenPagesHeaderFooter()](#getOddAndEvenPagesHeaderFooter) | True if the document has different headers and footers for odd-numbered and even-numbered pages. |
 | [getOrientation()](#getOrientation) | Gets the orientation of the page. |
@@ -72,7 +73,7 @@ To learn more, visit the [ Working with Sections ][Working with Sections] docume
 | [getSheetsPerBooklet()](#getSheetsPerBooklet) | Gets the number of pages to be included in each booklet. |
 | [getSuppressEndnotes()](#getSuppressEndnotes) | True if endnotes are printed at the end of the next section that doesn't suppress endnotes. |
 | [getTextColumns()](#getTextColumns) | Returns a collection that represents the set of text columns. |
-| [getTextOrientation()](#getTextOrientation) | Allows to specify [getTextOrientation()](../../com.aspose.words/pagesetup\#getTextOrientation) / [setTextOrientation(int)](../../com.aspose.words/pagesetup\#setTextOrientation-int) for the whole page. |
+| [getTextOrientation()](#getTextOrientation) | Allows to specify [getTextOrientation()](../../com.aspose.words/pagesetup/\#getTextOrientation) / [setTextOrientation(int)](../../com.aspose.words/pagesetup/\#setTextOrientation-int) for the whole page. |
 | [getTopMargin()](#getTopMargin) | Gets the distance (in points) between the top edge of the page and the top boundary of the body text. |
 | [getVerticalAlignment()](#getVerticalAlignment) | Gets the vertical alignment of text on each page in a document or section. |
 | [hashCode()](#hashCode) |  |
@@ -101,7 +102,7 @@ To learn more, visit the [ Working with Sections ][Working with Sections] docume
 | [setLineNumberRestartMode(int value)](#setLineNumberRestartMode-int) | Sets the way line numbering runs that is, whether it starts over at the beginning of a new page or section or runs continuously. |
 | [setLineStartingNumber(int value)](#setLineStartingNumber-int) | Sets the starting line number. |
 | [setLinesPerPage(int value)](#setLinesPerPage-int) | Sets the number of lines per page in the document grid. |
-| [setMargins(int value)](#setMargins-int) | Sets preset [Margins](../../com.aspose.words/margins) of the page. |
+| [setMargins(int value)](#setMargins-int) | Sets preset [Margins](../../com.aspose.words/margins/) of the page. |
 | [setMultiplePages(int value)](#setMultiplePages-int) | For multiple page documents, gets or sets how a document is printed or rendered so that it can be bound as a booklet. |
 | [setOddAndEvenPagesHeaderFooter(boolean value)](#setOddAndEvenPagesHeaderFooter-boolean) | True if the document has different headers and footers for odd-numbered and even-numbered pages. |
 | [setOrientation(int value)](#setOrientation-int) | Sets the orientation of the page. |
@@ -117,7 +118,7 @@ To learn more, visit the [ Working with Sections ][Working with Sections] docume
 | [setSectionStart(int value)](#setSectionStart-int) | Sets the type of section break for the specified object. |
 | [setSheetsPerBooklet(int value)](#setSheetsPerBooklet-int) | Sets the number of pages to be included in each booklet. |
 | [setSuppressEndnotes(boolean value)](#setSuppressEndnotes-boolean) | True if endnotes are printed at the end of the next section that doesn't suppress endnotes. |
-| [setTextOrientation(int value)](#setTextOrientation-int) | Allows to specify [getTextOrientation()](../../com.aspose.words/pagesetup\#getTextOrientation) / [setTextOrientation(int)](../../com.aspose.words/pagesetup\#setTextOrientation-int) for the whole page. |
+| [setTextOrientation(int value)](#setTextOrientation-int) | Allows to specify [getTextOrientation()](../../com.aspose.words/pagesetup/\#getTextOrientation) / [setTextOrientation(int)](../../com.aspose.words/pagesetup/\#setTextOrientation-int) for the whole page. |
 | [setTopMargin(double value)](#setTopMargin-double) | Sets the distance (in points) between the top edge of the page and the top boundary of the body text. |
 | [setVerticalAlignment(int value)](#setVerticalAlignment-int) | Sets the vertical alignment of text on each page in a document or section. |
 | [toString()](#toString) |  |
@@ -193,7 +194,7 @@ public int getBorderAppliesTo()
 Specifies which pages the page border is printed on.
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [PageBorderAppliesTo](../../com.aspose.words/pageborderappliesto) constants.
+int - The corresponding  int  value. The returned value is one of [PageBorderAppliesTo](../../com.aspose.words/pageborderappliesto/) constants.
 ### getBorderDistanceFrom() {#getBorderDistanceFrom}
 ```
 public int getBorderDistanceFrom()
@@ -203,7 +204,7 @@ public int getBorderDistanceFrom()
 Gets a value that indicates whether the specified page border is measured from the edge of the page or from the text it surrounds.
 
 **Returns:**
-int - A value that indicates whether the specified page border is measured from the edge of the page or from the text it surrounds. The returned value is one of [PageBorderDistanceFrom](../../com.aspose.words/pageborderdistancefrom) constants.
+int - A value that indicates whether the specified page border is measured from the edge of the page or from the text it surrounds. The returned value is one of [PageBorderDistanceFrom](../../com.aspose.words/pageborderdistancefrom/) constants.
 ### getBorderSurroundsFooter() {#getBorderSurroundsFooter}
 ```
 public boolean getBorderSurroundsFooter()
@@ -233,7 +234,7 @@ public BorderCollection getBorders()
 Gets a collection of the page borders.
 
 **Returns:**
-[BorderCollection](../../com.aspose.words/bordercollection) - A collection of the page borders.
+[BorderCollection](../../com.aspose.words/bordercollection/) - A collection of the page borders.
 ### getBottomMargin() {#getBottomMargin}
 ```
 public double getBottomMargin()
@@ -255,7 +256,7 @@ Gets the separator character that appears between the chapter number and the pag
 Before you can create page numbers that include chapter numbers, the document headings must have a numbered outline format applied.
 
 **Returns:**
-int - The separator character that appears between the chapter number and the page number. The returned value is one of [ChapterPageSeparator](../../com.aspose.words/chapterpageseparator) constants.
+int - The separator character that appears between the chapter number and the page number. The returned value is one of [ChapterPageSeparator](../../com.aspose.words/chapterpageseparator/) constants.
 ### getCharactersPerLine() {#getCharactersPerLine}
 ```
 public int getCharactersPerLine()
@@ -314,7 +315,7 @@ public EndnoteOptions getEndnoteOptions()
 Provides options that control numbering and positioning of endnotes in this section.
 
 **Returns:**
-[EndnoteOptions](../../com.aspose.words/endnoteoptions) - The corresponding [EndnoteOptions](../../com.aspose.words/endnoteoptions) value.
+[EndnoteOptions](../../com.aspose.words/endnoteoptions/) - The corresponding [EndnoteOptions](../../com.aspose.words/endnoteoptions/) value.
 ### getFirstPageTray() {#getFirstPageTray}
 ```
 public int getFirstPageTray()
@@ -344,7 +345,7 @@ public FootnoteOptions getFootnoteOptions()
 Provides options that control numbering and positioning of footnotes in this section.
 
 **Returns:**
-[FootnoteOptions](../../com.aspose.words/footnoteoptions) - The corresponding [FootnoteOptions](../../com.aspose.words/footnoteoptions) value.
+[FootnoteOptions](../../com.aspose.words/footnoteoptions/) - The corresponding [FootnoteOptions](../../com.aspose.words/footnoteoptions/) value.
 ### getGutter() {#getGutter}
 ```
 public double getGutter()
@@ -388,7 +389,7 @@ public int getLayoutMode()
 Gets the layout mode of this section.
 
 **Returns:**
-int - The layout mode of this section. The returned value is one of [SectionLayoutMode](../../com.aspose.words/sectionlayoutmode) constants.
+int - The layout mode of this section. The returned value is one of [SectionLayoutMode](../../com.aspose.words/sectionlayoutmode/) constants.
 ### getLeftMargin() {#getLeftMargin}
 ```
 public double getLeftMargin()
@@ -428,7 +429,7 @@ public int getLineNumberRestartMode()
 Gets the way line numbering runs that is, whether it starts over at the beginning of a new page or section or runs continuously.
 
 **Returns:**
-int - The way line numbering runs that is, whether it starts over at the beginning of a new page or section or runs continuously. The returned value is one of [LineNumberRestartMode](../../com.aspose.words/linenumberrestartmode) constants.
+int - The way line numbering runs that is, whether it starts over at the beginning of a new page or section or runs continuously. The returned value is one of [LineNumberRestartMode](../../com.aspose.words/linenumberrestartmode/) constants.
 ### getLineStartingNumber() {#getLineStartingNumber}
 ```
 public int getLineStartingNumber()
@@ -459,10 +460,10 @@ public int getMargins()
 ```
 
 
-Gets preset [Margins](../../com.aspose.words/margins) of the page.
+Gets preset [Margins](../../com.aspose.words/margins/) of the page.
 
 **Returns:**
-int - Preset [Margins](../../com.aspose.words/margins) of the page. The returned value is one of [Margins](../../com.aspose.words/margins) constants.
+int - Preset [Margins](../../com.aspose.words/margins/) of the page. The returned value is one of [Margins](../../com.aspose.words/margins/) constants.
 ### getMultiplePages() {#getMultiplePages}
 ```
 public int getMultiplePages()
@@ -472,7 +473,7 @@ public int getMultiplePages()
 For multiple page documents, gets or sets how a document is printed or rendered so that it can be bound as a booklet.
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [MultiplePagesType](../../com.aspose.words/multiplepagestype) constants.
+int - The corresponding  int  value. The returned value is one of [MultiplePagesType](../../com.aspose.words/multiplepagestype/) constants.
 ### getOddAndEvenPagesHeaderFooter() {#getOddAndEvenPagesHeaderFooter}
 ```
 public boolean getOddAndEvenPagesHeaderFooter()
@@ -491,10 +492,10 @@ public int getOrientation()
 
 Gets the orientation of the page.
 
-Changing [getOrientation()](../../com.aspose.words/pagesetup\#getOrientation) / [setOrientation(int)](../../com.aspose.words/pagesetup\#setOrientation-int) swaps [getPageWidth()](../../com.aspose.words/pagesetup\#getPageWidth) / [setPageWidth(double)](../../com.aspose.words/pagesetup\#setPageWidth-double) and [getPageHeight()](../../com.aspose.words/pagesetup\#getPageHeight) / [setPageHeight(double)](../../com.aspose.words/pagesetup\#setPageHeight-double).
+Changing [getOrientation()](../../com.aspose.words/pagesetup/\#getOrientation) / [setOrientation(int)](../../com.aspose.words/pagesetup/\#setOrientation-int) swaps [getPageWidth()](../../com.aspose.words/pagesetup/\#getPageWidth) / [setPageWidth(double)](../../com.aspose.words/pagesetup/\#setPageWidth-double) and [getPageHeight()](../../com.aspose.words/pagesetup/\#getPageHeight) / [setPageHeight(double)](../../com.aspose.words/pagesetup/\#setPageHeight-double).
 
 **Returns:**
-int - The orientation of the page. The returned value is one of [Orientation](../../com.aspose.words/orientation) constants.
+int - The orientation of the page. The returned value is one of [Orientation](../../com.aspose.words/orientation/) constants.
 ### getOtherPagesTray() {#getOtherPagesTray}
 ```
 public int getOtherPagesTray()
@@ -524,14 +525,14 @@ public int getPageNumberStyle()
 Gets the page number format.
 
 **Returns:**
-int - The page number format. The returned value is one of [NumberStyle](../../com.aspose.words/numberstyle) constants.
+int - The page number format. The returned value is one of [NumberStyle](../../com.aspose.words/numberstyle/) constants.
 ### getPageStartingNumber() {#getPageStartingNumber}
 ```
 public int getPageStartingNumber()
 ```
 
 
-Gets the starting page number of the section. The [getRestartPageNumbering()](../../com.aspose.words/pagesetup\#getRestartPageNumbering) / [setRestartPageNumbering(boolean)](../../com.aspose.words/pagesetup\#setRestartPageNumbering-boolean) property, if set to  false , will override the [getPageStartingNumber()](../../com.aspose.words/pagesetup\#getPageStartingNumber) / [setPageStartingNumber(int)](../../com.aspose.words/pagesetup\#setPageStartingNumber-int) property so that page numbering can continue from the previous section.
+Gets the starting page number of the section. The [getRestartPageNumbering()](../../com.aspose.words/pagesetup/\#getRestartPageNumbering) / [setRestartPageNumbering(boolean)](../../com.aspose.words/pagesetup/\#setRestartPageNumbering-boolean) property, if set to  false , will override the [getPageStartingNumber()](../../com.aspose.words/pagesetup/\#getPageStartingNumber) / [setPageStartingNumber(int)](../../com.aspose.words/pagesetup/\#setPageStartingNumber-int) property so that page numbering can continue from the previous section.
 
 **Returns:**
 int - The starting page number of the section.
@@ -553,17 +554,17 @@ public int getPaperSize()
 
 Gets the paper size.
 
-Setting this property updates [getPageWidth()](../../com.aspose.words/pagesetup\#getPageWidth) / [setPageWidth(double)](../../com.aspose.words/pagesetup\#setPageWidth-double) and [getPageHeight()](../../com.aspose.words/pagesetup\#getPageHeight) / [setPageHeight(double)](../../com.aspose.words/pagesetup\#setPageHeight-double) values. Setting this value to [PaperSize.CUSTOM](../../com.aspose.words/papersize\#CUSTOM) does not change existing values.
+Setting this property updates [getPageWidth()](../../com.aspose.words/pagesetup/\#getPageWidth) / [setPageWidth(double)](../../com.aspose.words/pagesetup/\#setPageWidth-double) and [getPageHeight()](../../com.aspose.words/pagesetup/\#getPageHeight) / [setPageHeight(double)](../../com.aspose.words/pagesetup/\#setPageHeight-double) values. Setting this value to [PaperSize.CUSTOM](../../com.aspose.words/papersize/\#CUSTOM) does not change existing values.
 
 **Returns:**
-int - The paper size. The returned value is one of [PaperSize](../../com.aspose.words/papersize) constants.
+int - The paper size. The returned value is one of [PaperSize](../../com.aspose.words/papersize/) constants.
 ### getRestartPageNumbering() {#getRestartPageNumbering}
 ```
 public boolean getRestartPageNumbering()
 ```
 
 
-True if page numbering restarts at the beginning of the section. If set to  false , the [getRestartPageNumbering()](../../com.aspose.words/pagesetup\#getRestartPageNumbering) / [setRestartPageNumbering(boolean)](../../com.aspose.words/pagesetup\#setRestartPageNumbering-boolean) property will override the [getPageStartingNumber()](../../com.aspose.words/pagesetup\#getPageStartingNumber) / [setPageStartingNumber(int)](../../com.aspose.words/pagesetup\#setPageStartingNumber-int) property so that page numbering can continue from the previous section.
+True if page numbering restarts at the beginning of the section. If set to  false , the [getRestartPageNumbering()](../../com.aspose.words/pagesetup/\#getRestartPageNumbering) / [setRestartPageNumbering(boolean)](../../com.aspose.words/pagesetup/\#setRestartPageNumbering-boolean) property will override the [getPageStartingNumber()](../../com.aspose.words/pagesetup/\#getPageStartingNumber) / [setPageStartingNumber(int)](../../com.aspose.words/pagesetup/\#setPageStartingNumber-int) property so that page numbering can continue from the previous section.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -596,7 +597,7 @@ public int getSectionStart()
 Gets the type of section break for the specified object.
 
 **Returns:**
-int - The type of section break for the specified object. The returned value is one of [SectionStart](../../com.aspose.words/sectionstart) constants.
+int - The type of section break for the specified object. The returned value is one of [SectionStart](../../com.aspose.words/sectionstart/) constants.
 ### getSheetsPerBooklet() {#getSheetsPerBooklet}
 ```
 public int getSheetsPerBooklet()
@@ -626,17 +627,17 @@ public TextColumnCollection getTextColumns()
 Returns a collection that represents the set of text columns.
 
 **Returns:**
-[TextColumnCollection](../../com.aspose.words/textcolumncollection) - A collection that represents the set of text columns.
+[TextColumnCollection](../../com.aspose.words/textcolumncollection/) - A collection that represents the set of text columns.
 ### getTextOrientation() {#getTextOrientation}
 ```
 public int getTextOrientation()
 ```
 
 
-Allows to specify [getTextOrientation()](../../com.aspose.words/pagesetup\#getTextOrientation) / [setTextOrientation(int)](../../com.aspose.words/pagesetup\#setTextOrientation-int) for the whole page. Default value is [TextOrientation.HORIZONTAL](../../com.aspose.words/textorientation\#HORIZONTAL) This property is only supported for MS Word native formats DOCX, WML, RTF and DOC.
+Allows to specify [getTextOrientation()](../../com.aspose.words/pagesetup/\#getTextOrientation) / [setTextOrientation(int)](../../com.aspose.words/pagesetup/\#setTextOrientation-int) for the whole page. Default value is [TextOrientation.HORIZONTAL](../../com.aspose.words/textorientation/\#HORIZONTAL) This property is only supported for MS Word native formats DOCX, WML, RTF and DOC.
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [TextOrientation](../../com.aspose.words/textorientation) constants.
+int - The corresponding  int  value. The returned value is one of [TextOrientation](../../com.aspose.words/textorientation/) constants.
 ### getTopMargin() {#getTopMargin}
 ```
 public double getTopMargin()
@@ -656,7 +657,7 @@ public int getVerticalAlignment()
 Gets the vertical alignment of text on each page in a document or section.
 
 **Returns:**
-int - The vertical alignment of text on each page in a document or section. The returned value is one of [PageVerticalAlignment](../../com.aspose.words/pageverticalalignment) constants.
+int - The vertical alignment of text on each page in a document or section. The returned value is one of [PageVerticalAlignment](../../com.aspose.words/pageverticalalignment/) constants.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()
@@ -722,7 +723,7 @@ Specifies which pages the page border is printed on.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [PageBorderAppliesTo](../../com.aspose.words/pageborderappliesto) constants. |
+| value | int | The corresponding  int  value. The value must be one of [PageBorderAppliesTo](../../com.aspose.words/pageborderappliesto/) constants. |
 
 ### setBorderAttr(int key, Object value) {#setBorderAttr-int-java.lang.Object}
 ```
@@ -749,7 +750,7 @@ Sets a value that indicates whether the specified page border is measured from t
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | A value that indicates whether the specified page border is measured from the edge of the page or from the text it surrounds. The value must be one of [PageBorderDistanceFrom](../../com.aspose.words/pageborderdistancefrom) constants. |
+| value | int | A value that indicates whether the specified page border is measured from the edge of the page or from the text it surrounds. The value must be one of [PageBorderDistanceFrom](../../com.aspose.words/pageborderdistancefrom/) constants. |
 
 ### setBorderSurroundsFooter(boolean value) {#setBorderSurroundsFooter-boolean}
 ```
@@ -803,7 +804,7 @@ Before you can create page numbers that include chapter numbers, the document he
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The separator character that appears between the chapter number and the page number. The value must be one of [ChapterPageSeparator](../../com.aspose.words/chapterpageseparator) constants. |
+| value | int | The separator character that appears between the chapter number and the page number. The value must be one of [ChapterPageSeparator](../../com.aspose.words/chapterpageseparator/) constants. |
 
 ### setCharactersPerLine(int value) {#setCharactersPerLine-int}
 ```
@@ -915,7 +916,7 @@ Sets the layout mode of this section.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The layout mode of this section. The value must be one of [SectionLayoutMode](../../com.aspose.words/sectionlayoutmode) constants. |
+| value | int | The layout mode of this section. The value must be one of [SectionLayoutMode](../../com.aspose.words/sectionlayoutmode/) constants. |
 
 ### setLeftMargin(double value) {#setLeftMargin-double}
 ```
@@ -967,7 +968,7 @@ Sets the way line numbering runs that is, whether it starts over at the beginnin
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The way line numbering runs that is, whether it starts over at the beginning of a new page or section or runs continuously. The value must be one of [LineNumberRestartMode](../../com.aspose.words/linenumberrestartmode) constants. |
+| value | int | The way line numbering runs that is, whether it starts over at the beginning of a new page or section or runs continuously. The value must be one of [LineNumberRestartMode](../../com.aspose.words/linenumberrestartmode/) constants. |
 
 ### setLineStartingNumber(int value) {#setLineStartingNumber-int}
 ```
@@ -1005,12 +1006,12 @@ public void setMargins(int value)
 ```
 
 
-Sets preset [Margins](../../com.aspose.words/margins) of the page.
+Sets preset [Margins](../../com.aspose.words/margins/) of the page.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | Preset [Margins](../../com.aspose.words/margins) of the page. The value must be one of [Margins](../../com.aspose.words/margins) constants. |
+| value | int | Preset [Margins](../../com.aspose.words/margins/) of the page. The value must be one of [Margins](../../com.aspose.words/margins/) constants. |
 
 ### setMultiplePages(int value) {#setMultiplePages-int}
 ```
@@ -1023,7 +1024,7 @@ For multiple page documents, gets or sets how a document is printed or rendered 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [MultiplePagesType](../../com.aspose.words/multiplepagestype) constants. |
+| value | int | The corresponding  int  value. The value must be one of [MultiplePagesType](../../com.aspose.words/multiplepagestype/) constants. |
 
 ### setOddAndEvenPagesHeaderFooter(boolean value) {#setOddAndEvenPagesHeaderFooter-boolean}
 ```
@@ -1046,12 +1047,12 @@ public void setOrientation(int value)
 
 Sets the orientation of the page.
 
-Changing [getOrientation()](../../com.aspose.words/pagesetup\#getOrientation) / [setOrientation(int)](../../com.aspose.words/pagesetup\#setOrientation-int) swaps [getPageWidth()](../../com.aspose.words/pagesetup\#getPageWidth) / [setPageWidth(double)](../../com.aspose.words/pagesetup\#setPageWidth-double) and [getPageHeight()](../../com.aspose.words/pagesetup\#getPageHeight) / [setPageHeight(double)](../../com.aspose.words/pagesetup\#setPageHeight-double).
+Changing [getOrientation()](../../com.aspose.words/pagesetup/\#getOrientation) / [setOrientation(int)](../../com.aspose.words/pagesetup/\#setOrientation-int) swaps [getPageWidth()](../../com.aspose.words/pagesetup/\#getPageWidth) / [setPageWidth(double)](../../com.aspose.words/pagesetup/\#setPageWidth-double) and [getPageHeight()](../../com.aspose.words/pagesetup/\#getPageHeight) / [setPageHeight(double)](../../com.aspose.words/pagesetup/\#setPageHeight-double).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The orientation of the page. The value must be one of [Orientation](../../com.aspose.words/orientation) constants. |
+| value | int | The orientation of the page. The value must be one of [Orientation](../../com.aspose.words/orientation/) constants. |
 
 ### setOtherPagesTray(int value) {#setOtherPagesTray-int}
 ```
@@ -1090,7 +1091,7 @@ Sets the page number format.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The page number format. The value must be one of [NumberStyle](../../com.aspose.words/numberstyle) constants. |
+| value | int | The page number format. The value must be one of [NumberStyle](../../com.aspose.words/numberstyle/) constants. |
 
 ### setPageStartingNumber(int value) {#setPageStartingNumber-int}
 ```
@@ -1098,7 +1099,7 @@ public void setPageStartingNumber(int value)
 ```
 
 
-Sets the starting page number of the section. The [getRestartPageNumbering()](../../com.aspose.words/pagesetup\#getRestartPageNumbering) / [setRestartPageNumbering(boolean)](../../com.aspose.words/pagesetup\#setRestartPageNumbering-boolean) property, if set to  false , will override the [getPageStartingNumber()](../../com.aspose.words/pagesetup\#getPageStartingNumber) / [setPageStartingNumber(int)](../../com.aspose.words/pagesetup\#setPageStartingNumber-int) property so that page numbering can continue from the previous section.
+Sets the starting page number of the section. The [getRestartPageNumbering()](../../com.aspose.words/pagesetup/\#getRestartPageNumbering) / [setRestartPageNumbering(boolean)](../../com.aspose.words/pagesetup/\#setRestartPageNumbering-boolean) property, if set to  false , will override the [getPageStartingNumber()](../../com.aspose.words/pagesetup/\#getPageStartingNumber) / [setPageStartingNumber(int)](../../com.aspose.words/pagesetup/\#setPageStartingNumber-int) property so that page numbering can continue from the previous section.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1126,12 +1127,12 @@ public void setPaperSize(int value)
 
 Sets the paper size.
 
-Setting this property updates [getPageWidth()](../../com.aspose.words/pagesetup\#getPageWidth) / [setPageWidth(double)](../../com.aspose.words/pagesetup\#setPageWidth-double) and [getPageHeight()](../../com.aspose.words/pagesetup\#getPageHeight) / [setPageHeight(double)](../../com.aspose.words/pagesetup\#setPageHeight-double) values. Setting this value to [PaperSize.CUSTOM](../../com.aspose.words/papersize\#CUSTOM) does not change existing values.
+Setting this property updates [getPageWidth()](../../com.aspose.words/pagesetup/\#getPageWidth) / [setPageWidth(double)](../../com.aspose.words/pagesetup/\#setPageWidth-double) and [getPageHeight()](../../com.aspose.words/pagesetup/\#getPageHeight) / [setPageHeight(double)](../../com.aspose.words/pagesetup/\#setPageHeight-double) values. Setting this value to [PaperSize.CUSTOM](../../com.aspose.words/papersize/\#CUSTOM) does not change existing values.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The paper size. The value must be one of [PaperSize](../../com.aspose.words/papersize) constants. |
+| value | int | The paper size. The value must be one of [PaperSize](../../com.aspose.words/papersize/) constants. |
 
 ### setRestartPageNumbering(boolean value) {#setRestartPageNumbering-boolean}
 ```
@@ -1139,7 +1140,7 @@ public void setRestartPageNumbering(boolean value)
 ```
 
 
-True if page numbering restarts at the beginning of the section. If set to  false , the [getRestartPageNumbering()](../../com.aspose.words/pagesetup\#getRestartPageNumbering) / [setRestartPageNumbering(boolean)](../../com.aspose.words/pagesetup\#setRestartPageNumbering-boolean) property will override the [getPageStartingNumber()](../../com.aspose.words/pagesetup\#getPageStartingNumber) / [setPageStartingNumber(int)](../../com.aspose.words/pagesetup\#setPageStartingNumber-int) property so that page numbering can continue from the previous section.
+True if page numbering restarts at the beginning of the section. If set to  false , the [getRestartPageNumbering()](../../com.aspose.words/pagesetup/\#getRestartPageNumbering) / [setRestartPageNumbering(boolean)](../../com.aspose.words/pagesetup/\#setRestartPageNumbering-boolean) property will override the [getPageStartingNumber()](../../com.aspose.words/pagesetup/\#getPageStartingNumber) / [setPageStartingNumber(int)](../../com.aspose.words/pagesetup/\#setPageStartingNumber-int) property so that page numbering can continue from the previous section.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1183,7 +1184,7 @@ Sets the type of section break for the specified object.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The type of section break for the specified object. The value must be one of [SectionStart](../../com.aspose.words/sectionstart) constants. |
+| value | int | The type of section break for the specified object. The value must be one of [SectionStart](../../com.aspose.words/sectionstart/) constants. |
 
 ### setSheetsPerBooklet(int value) {#setSheetsPerBooklet-int}
 ```
@@ -1217,12 +1218,12 @@ public void setTextOrientation(int value)
 ```
 
 
-Allows to specify [getTextOrientation()](../../com.aspose.words/pagesetup\#getTextOrientation) / [setTextOrientation(int)](../../com.aspose.words/pagesetup\#setTextOrientation-int) for the whole page. Default value is [TextOrientation.HORIZONTAL](../../com.aspose.words/textorientation\#HORIZONTAL) This property is only supported for MS Word native formats DOCX, WML, RTF and DOC.
+Allows to specify [getTextOrientation()](../../com.aspose.words/pagesetup/\#getTextOrientation) / [setTextOrientation(int)](../../com.aspose.words/pagesetup/\#setTextOrientation-int) for the whole page. Default value is [TextOrientation.HORIZONTAL](../../com.aspose.words/textorientation/\#HORIZONTAL) This property is only supported for MS Word native formats DOCX, WML, RTF and DOC.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [TextOrientation](../../com.aspose.words/textorientation) constants. |
+| value | int | The corresponding  int  value. The value must be one of [TextOrientation](../../com.aspose.words/textorientation/) constants. |
 
 ### setTopMargin(double value) {#setTopMargin-double}
 ```
@@ -1248,7 +1249,7 @@ Sets the vertical alignment of text on each page in a document or section.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The vertical alignment of text on each page in a document or section. The value must be one of [PageVerticalAlignment](../../com.aspose.words/pageverticalalignment) constants. |
+| value | int | The vertical alignment of text on each page in a document or section. The value must be one of [PageVerticalAlignment](../../com.aspose.words/pageverticalalignment/) constants. |
 
 ### toString() {#toString}
 ```
