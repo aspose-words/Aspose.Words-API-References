@@ -4,7 +4,7 @@ linktitle: MergePastedLists
 second_title: Aspose.Words for .NET API Reference
 description: ImportFormatOptions property. Gets or sets a boolean value that specifies whether pasted lists will be merged with surrounding lists. The default value is false in C#.
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.words/importformatoptions/mergepastedlists/
 ---
 ## ImportFormatOptions.MergePastedLists property

@@ -4,7 +4,7 @@ linktitle: Solid
 second_title: Aspose.Words for .NET API Reference
 description: Fill method. Sets the fill to a uniform color in C#.
 type: docs
-weight: 200
+weight: 240
 url: /net/aspose.words.drawing/fill/solid/
 ---
 ## Solid() {#solid}

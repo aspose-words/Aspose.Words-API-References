@@ -22,8 +22,12 @@ public class Fill
 | Name | Description |
 | --- | --- |
 | [BackColor](../../aspose.words.drawing/fill/backcolor/) { get; set; } | Gets or sets a Color object that represents the background color for the fill. |
+| [BackThemeColor](../../aspose.words.drawing/fill/backthemecolor/) { get; set; } | Gets or sets a ThemeColor object that represents the background color for the fill. |
+| [BackTintAndShade](../../aspose.words.drawing/fill/backtintandshade/) { get; set; } | Gets or sets a double value that lightens or darkens the background color. |
 | [FillType](../../aspose.words.drawing/fill/filltype/) { get; } | Gets a fill type. |
 | [ForeColor](../../aspose.words.drawing/fill/forecolor/) { get; set; } | Gets or sets a Color object that represents the foreground color for the fill. |
+| [ForeThemeColor](../../aspose.words.drawing/fill/forethemecolor/) { get; set; } | Gets or sets a ThemeColor object that represents the foreground color for the fill. |
+| [ForeTintAndShade](../../aspose.words.drawing/fill/foretintandshade/) { get; set; } | Gets or sets a double value that lightens or darkens the foreground color. |
 | [GradientAngle](../../aspose.words.drawing/fill/gradientangle/) { get; set; } | Gets or sets the angle of the gradient fill. |
 | [GradientStops](../../aspose.words.drawing/fill/gradientstops/) { get; } | Gets a collection of [`GradientStop`](../gradientstop/) objects for the fill. |
 | [GradientStyle](../../aspose.words.drawing/fill/gradientstyle/) { get; } | Gets the gradient style [`GradientStyle`](../gradientstyle/) for the fill. |
