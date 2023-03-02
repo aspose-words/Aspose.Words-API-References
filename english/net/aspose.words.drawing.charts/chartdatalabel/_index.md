@@ -51,6 +51,7 @@ On a series, the `ChartDataLabel` object is a member of the [`ChartDataLabelColl
 Shows how to apply labels to data points in a line chart.
 
 ```csharp
+public void DataLabels()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

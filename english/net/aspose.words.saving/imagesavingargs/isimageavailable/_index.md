@@ -26,6 +26,7 @@ When saving a group shape or a shape that doesn't require any image this propert
 Shows how to involve an image saving callback in an HTML conversion process.
 
 ```csharp
+public void ImageSavingCallback()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 

@@ -51,6 +51,7 @@ public class ShapeRenderer : NodeRendererBase
 Shows how to render a shape with a Graphics object and display it using a Windows Form.
 
 ```csharp
+public void RenderShapesOnForm()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -148,6 +149,7 @@ private class ShapeForm : Form
         }
     }
 
+    private readonly List<KeyValuePair<ShapeBase, float[]>> mShapesToRender;
 }
 ```
 

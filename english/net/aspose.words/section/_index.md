@@ -56,7 +56,7 @@ public sealed class Section : CompositeNode
 | [ClearHeadersFooters](../../aspose.words/section/clearheadersfooters/)() | Clears the headers and footers of this section. |
 | [Clone](../../aspose.words/section/clone/#clone_1)() | Creates a duplicate of this section. |
 | [Clone](../../aspose.words/node/clone/)(bool) | Creates a duplicate of the node. |
-| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Reserved for system use. IXPathNavigable. |
+| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Creates navigator which can be used to traverse and read nodes. |
 | [DeleteHeaderFooterShapes](../../aspose.words/section/deleteheaderfootershapes/)() | Deletes all shapes (drawing objects) from the headers and footers of this section. |
 | [EnsureMinimum](../../aspose.words/section/ensureminimum/)() | Ensures that the section has [`Body`](./body/) with one [`Paragraph`](../paragraph/). |
 | [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Gets the first ancestor of the specified [`NodeType`](../nodetype/). |

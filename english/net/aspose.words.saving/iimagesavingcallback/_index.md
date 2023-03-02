@@ -26,6 +26,7 @@ public interface IImageSavingCallback
 Shows how to rename the image name during saving into Markdown document.
 
 ```csharp
+public void RenameImages()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
@@ -79,6 +80,7 @@ public class SavedImageRename : IImageSavingCallback
 Shows how to split a document into parts and save them.
 
 ```csharp
+public void DocumentPartsFileNames()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
     string outFileName = "SavingCallback.DocumentPartsFileNames.html";

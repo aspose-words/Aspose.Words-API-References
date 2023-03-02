@@ -28,6 +28,7 @@ A [`VisitorAction`](../../visitoraction/) value that specifies how to continue t
 Shows how to print the node structure of every table in a document.
 
 ```csharp
+public void TableToText()
 {
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     TableStructurePrinter visitor = new TableStructurePrinter();
@@ -38,6 +39,7 @@ Shows how to print the node structure of every table in a document.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
+}
 
 /// <summary>
 /// Traverses a node's non-binary tree of child nodes.
@@ -184,6 +186,7 @@ public class TableStructurePrinter : DocumentVisitor
 Shows how to use a DocumentVisitor implementation to remove all hidden content from a document.
 
 ```csharp
+public void RemoveHiddenContentFromDocument()
 {
     Document doc = new Document(MyDir + "Hidden content.docx");
 
@@ -203,6 +206,7 @@ Shows how to use a DocumentVisitor implementation to remove all hidden content f
     doc.Accept(hiddenContentRemover);
 
     doc.Save(ArtifactsDir + "Font.RemoveHiddenContentFromDocument.docx");
+}
 
 /// <summary>
 /// Removes all visited nodes marked as "hidden content".

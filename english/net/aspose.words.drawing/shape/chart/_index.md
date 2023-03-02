@@ -24,8 +24,10 @@ This property will return the [`Chart`](../../../aspose.words.drawing.charts/cha
 Shows how to iterate over all the shapes in a document.
 
 ```csharp
+public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
+
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();
     doc.Accept(visitor);
 

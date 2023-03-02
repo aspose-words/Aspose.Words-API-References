@@ -20,6 +20,7 @@ public int RecordIndex { get; }
 Shows how to insert checkbox form fields into MERGEFIELDs as merge data during mail merge.
 
 ```csharp
+public void InsertCheckBox()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -41,6 +42,7 @@ Shows how to insert checkbox form fields into MERGEFIELDs as merge data during m
 
     doc.MailMerge.ExecuteWithRegions(dataTable);
     doc.Save(ArtifactsDir + "MailMergeEvent.InsertCheckBox.docx");
+}
 
 /// <summary>
 /// Upon encountering a MERGEFIELD with a specific name, inserts a check box form field instead of merge data text.

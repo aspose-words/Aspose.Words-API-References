@@ -28,6 +28,7 @@ A [`VisitorAction`](../../visitoraction/) value that specifies how to continue t
 Shows how to use a document visitor to print a document's node structure.
 
 ```csharp
+public void DocStructureToText()
 {
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     DocStructurePrinter visitor = new DocStructurePrinter();
@@ -38,6 +39,7 @@ Shows how to use a document visitor to print a document's node structure.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
+}
 
 /// <summary>
 /// Traverses a node's tree of child nodes.
@@ -190,6 +192,7 @@ public class DocStructurePrinter : DocumentVisitor
 Shows how to use a DocumentVisitor implementation to remove all hidden content from a document.
 
 ```csharp
+public void RemoveHiddenContentFromDocument()
 {
     Document doc = new Document(MyDir + "Hidden content.docx");
 
@@ -209,6 +212,7 @@ Shows how to use a DocumentVisitor implementation to remove all hidden content f
     doc.Accept(hiddenContentRemover);
 
     doc.Save(ArtifactsDir + "Font.RemoveHiddenContentFromDocument.docx");
+}
 
 /// <summary>
 /// Removes all visited nodes marked as "hidden content".

@@ -20,6 +20,7 @@ public MathObjectType MathObjectType { get; }
 Shows how to print the node structure of every office math node in a document.
 
 ```csharp
+public void OfficeMathToText()
 {
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     OfficeMathStructurePrinter visitor = new OfficeMathStructurePrinter();
@@ -30,6 +31,7 @@ Shows how to print the node structure of every office math node in a document.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
+}
 
 /// <summary>
 /// Traverses a node's non-binary tree of child nodes.

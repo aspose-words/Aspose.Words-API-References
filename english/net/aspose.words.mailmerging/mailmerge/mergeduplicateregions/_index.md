@@ -38,6 +38,7 @@ public void MergeDuplicateRegions(bool mergeDuplicateRegions)
 
     doc.MailMerge.ExecuteWithRegions(dataTable);
     doc.Save(ArtifactsDir + "MailMerge.MergeDuplicateRegions.docx");
+}
 
 /// <summary>
 /// Returns a document that contains two duplicate mail merge regions (sharing the same name in the "TableStart/End" tags).

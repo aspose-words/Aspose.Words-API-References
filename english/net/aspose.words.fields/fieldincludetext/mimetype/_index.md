@@ -39,6 +39,7 @@ public void FieldIncludeText()
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.INCLUDETEXT.docx");
+}
 
 /// <summary>
 /// Use a document builder to insert an INCLUDETEXT field with custom properties.

@@ -28,6 +28,7 @@ Some images in the document can be unavailable. To check image availability use 
 Shows how to involve an image saving callback in an HTML conversion process.
 
 ```csharp
+public void ImageSavingCallback()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 

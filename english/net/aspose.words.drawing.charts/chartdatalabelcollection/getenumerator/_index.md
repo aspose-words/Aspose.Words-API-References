@@ -20,6 +20,7 @@ public IEnumerator<ChartDataLabel> GetEnumerator()
 Shows how to apply labels to data points in a line chart.
 
 ```csharp
+public void DataLabels()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

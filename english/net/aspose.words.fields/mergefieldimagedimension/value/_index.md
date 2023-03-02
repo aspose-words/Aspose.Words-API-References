@@ -24,6 +24,7 @@ You should use a negative value to indicate that the original value of the corre
 Shows how to set the dimensions of images as MERGEFIELDS accepts them during a mail merge.
 
 ```csharp
+public void MergeFieldImageDimension()
 {
     Document doc = new Document();
 
@@ -48,6 +49,7 @@ Shows how to set the dimensions of images as MERGEFIELDS accepts them during a m
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.MERGEFIELD.ImageDimension.docx");
+}
 
 /// <summary>
 /// Sets the size of all mail merged images to one defined width and height.

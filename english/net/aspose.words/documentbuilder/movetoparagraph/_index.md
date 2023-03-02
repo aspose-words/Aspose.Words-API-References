@@ -45,6 +45,7 @@ Assert.AreEqual(0, paragraphs.IndexOf(builder.CurrentParagraph));
 
 // Move that cursor to a different paragraph will place that cursor in front of that paragraph.
 builder.MoveToParagraph(2, 0);
+
 // Any new content that we add will be inserted at that point.
 builder.Writeln("This is a new third paragraph. ");
 ```

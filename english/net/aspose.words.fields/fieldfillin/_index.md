@@ -88,6 +88,7 @@ public void FieldFillIn()
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.FILLIN.docx");
+}
 
 /// <summary>
 /// Prepends a line to the default response of every FILLIN field during a mail merge.

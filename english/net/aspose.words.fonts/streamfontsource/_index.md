@@ -46,6 +46,7 @@ In order to use the stream font source you should create a derived class from th
 Shows how to load fonts from stream.
 
 ```csharp
+public void StreamFontSourceFileRendering()
 {
     FontSettings fontSettings = new FontSettings();
     fontSettings.SetFontsSources(new FontSourceBase[] {new StreamFontSourceFile()});

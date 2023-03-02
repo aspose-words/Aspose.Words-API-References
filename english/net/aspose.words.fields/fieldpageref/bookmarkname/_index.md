@@ -53,6 +53,7 @@ public void FieldPageRef()
     doc.UpdatePageLayout();
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.PAGEREF.docx");
+}
 
 /// <summary>
 /// Uses a document builder to insert a PAGEREF field and sets its properties.

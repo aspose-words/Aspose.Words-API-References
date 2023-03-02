@@ -43,6 +43,7 @@ Assert.AreEqual(ProtectionType.ReadOnly, protectedDoc.ProtectionType);
 
 DocumentBuilder builder = new DocumentBuilder(protectedDoc);
 builder.Writeln("Text added to a protected document.");
+
 // There are two ways of removing protection from a document.
 // 1 - With no password:
 doc.Unprotect();
@@ -115,6 +116,7 @@ Assert.AreEqual(ProtectionType.ReadOnly, protectedDoc.ProtectionType);
 
 DocumentBuilder builder = new DocumentBuilder(protectedDoc);
 builder.Writeln("Text added to a protected document.");
+
 // There are two ways of removing protection from a document.
 // 1 - With no password:
 doc.Unprotect();

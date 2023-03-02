@@ -62,6 +62,7 @@ Currently editable ranges are supported only at the inline-level, that is inside
 Shows how to limit the editing rights of editable ranges to a specific group/user.
 
 ```csharp
+public void Visitor()
 {
     Document doc = new Document();
     doc.Protect(ProtectionType.ReadOnly, "MyPassword");

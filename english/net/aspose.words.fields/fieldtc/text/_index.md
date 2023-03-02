@@ -20,6 +20,7 @@ public string Text { get; set; }
 Shows how to insert a TOC field, and filter which TC fields end up as entries.
 
 ```csharp
+public void FieldTocEntryIdentifier()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -48,6 +49,7 @@ Shows how to insert a TOC field, and filter which TC fields end up as entries.
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.TC.docx");
+}
 
 /// <summary>
 /// Use a document builder to insert a TC field.

@@ -84,7 +84,7 @@ public class Table : CompositeNode
 | [ClearShading](../../aspose.words.tables/table/clearshading/)() | Removes all shading on the table. |
 | [Clone](../../aspose.words/node/clone/)(bool) | Creates a duplicate of the node. |
 | [ConvertToHorizontallyMergedCells](../../aspose.words.tables/table/converttohorizontallymergedcells/)() | Converts cells horizontally merged by width to cells merged by [`HorizontalMerge`](../cellformat/horizontalmerge/). |
-| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Reserved for system use. IXPathNavigable. |
+| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Creates navigator which can be used to traverse and read nodes. |
 | [EnsureMinimum](../../aspose.words.tables/table/ensureminimum/)() | If the table has no rows, creates and appends one [`Row`](../row/). |
 | [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Gets the first ancestor of the specified [`NodeType`](../../aspose.words/nodetype/). |
 | [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Gets the first ancestor of the specified object type. |
@@ -232,6 +232,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 Shows how to build a nested table without using a document builder.
 
 ```csharp
+public void CreateNestedTable()
 {
     Document doc = new Document();
 
@@ -244,6 +245,7 @@ Shows how to build a nested table without using a document builder.
     outerTable.FirstRow.FirstCell.AppendChild(innerTable);
 
     doc.Save(ArtifactsDir + "Table.CreateNestedTable.docx");
+}
 
 /// <summary>
 /// Creates a new table in the document with the given dimensions and text in each cell.

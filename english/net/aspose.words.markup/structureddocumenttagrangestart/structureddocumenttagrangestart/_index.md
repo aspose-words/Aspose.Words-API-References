@@ -39,6 +39,7 @@ The following types of SDT can be created:
 Shows how to create/remove structured document tag and its content.
 
 ```csharp
+public void SdtRangeExtendedMethods()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

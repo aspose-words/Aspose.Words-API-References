@@ -34,6 +34,7 @@ dstDoc.FirstSection.Body.AppendParagraph("Destination document text. ");
 // Append the source document to the destination document while preserving its formatting,
 // then save the source document to the local file system.
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.KeepSourceFormatting);
+
 dstDoc.Save(ArtifactsDir + "Document.AppendDocument.docx");
 ```
 

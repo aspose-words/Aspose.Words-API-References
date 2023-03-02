@@ -20,6 +20,7 @@ public IPageSavingCallback PageSavingCallback { get; set; }
 Shows how to use a callback to save a document to HTML page by page.
 
 ```csharp
+public void PageFileNames()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

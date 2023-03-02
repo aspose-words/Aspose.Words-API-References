@@ -63,6 +63,7 @@ Assert.AreEqual(LineStyle.Double, topBorder.LineStyle);
 
 // Clear the borders of all cells in the table, and then save the document.
 table.ClearBorders();
+doc.Save(ArtifactsDir + "Table.ClearBorders.docx");
 
 // Verify the values of the table's properties after re-opening the document.
 doc = new Document(ArtifactsDir + "Table.ClearBorders.docx");

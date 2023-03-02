@@ -58,7 +58,7 @@ public class BuildingBlock : CompositeNode
 | override [Accept](../../aspose.words.buildingblocks/buildingblock/accept/)(DocumentVisitor) | Accepts a visitor. |
 | [AppendChild](../../aspose.words/compositenode/appendchild/)(Node) | Adds the specified node to the end of the list of child nodes for this node. |
 | [Clone](../../aspose.words/node/clone/)(bool) | Creates a duplicate of the node. |
-| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Reserved for system use. IXPathNavigable. |
+| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Creates navigator which can be used to traverse and read nodes. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Gets the first ancestor of the specified [`NodeType`](../../aspose.words/nodetype/). |
 | [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Gets the first ancestor of the specified object type. |
 | [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Returns an Nth child node that matches the specified type. |
@@ -95,6 +95,7 @@ Corresponds to the **docPart**, **docPartPr** and **docPartBody** elements in OO
 Shows how to add a custom building block to a document.
 
 ```csharp
+public void CreateAndInsert()
 {
     // A document's glossary document stores building blocks.
     Document doc = new Document();
@@ -133,6 +134,7 @@ Shows how to add a custom building block to a document.
     // The block itself is a section that contains the text.
     Assert.AreEqual($"Text inside {customBlock.Name}\f", customBlock.FirstSection.Body.FirstParagraph.GetText());
     Assert.AreEqual(customBlock.FirstSection, customBlock.LastSection);
+
     // Now, we can insert it into the document as a new section.
     doc.AppendChild(doc.ImportNode(customBlock.FirstSection, true));
 

@@ -20,6 +20,7 @@ public IReplacingCallback ReplacingCallback { get; set; }
 Shows how to replace all occurrences of a regular expression pattern with another string, while tracking all such replacements.
 
 ```csharp
+public void ReplaceWithCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -70,6 +71,7 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 Shows how to apply a different font to new content via FindReplaceOptions.
 
 ```csharp
+public void ConvertNumbersToHexadecimal()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

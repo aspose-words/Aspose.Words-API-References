@@ -26,8 +26,10 @@ The default value is `true`.
 Shows how to iterate over all the shapes in a document.
 
 ```csharp
+public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
+
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();
     doc.Accept(visitor);
 

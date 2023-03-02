@@ -24,6 +24,7 @@ Document may generate warnings at any stage of its existence, so it's important 
 Shows how to use the IWarningCallback interface to monitor font substitution warnings.
 
 ```csharp
+public void SubstitutionWarning()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -47,6 +48,7 @@ Shows how to use the IWarningCallback interface to monitor font substitution war
 
     FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
+    Assert.True(callback.FontSubstitutionWarnings[0].WarningType == WarningType.FontSubstitution);
     Assert.True(callback.FontSubstitutionWarnings[0].Description
         .Equals(
             "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font."));

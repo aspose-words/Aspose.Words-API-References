@@ -39,6 +39,7 @@ doc.Save(ArtifactsDir + "Font.Hidden.docx");
 Shows how to use a DocumentVisitor implementation to remove all hidden content from a document.
 
 ```csharp
+public void RemoveHiddenContentFromDocument()
 {
     Document doc = new Document(MyDir + "Hidden content.docx");
 
@@ -58,6 +59,7 @@ Shows how to use a DocumentVisitor implementation to remove all hidden content f
     doc.Accept(hiddenContentRemover);
 
     doc.Save(ArtifactsDir + "Font.RemoveHiddenContentFromDocument.docx");
+}
 
 /// <summary>
 /// Removes all visited nodes marked as "hidden content".

@@ -24,6 +24,7 @@ Applies to Pie charts only. Leader lines create a visual connection between a da
 Shows how to apply labels to data points in a line chart.
 
 ```csharp
+public void DataLabels()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

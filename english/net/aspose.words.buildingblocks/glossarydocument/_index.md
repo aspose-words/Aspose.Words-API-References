@@ -59,7 +59,7 @@ public class GlossaryDocument : DocumentBase
 | override [Accept](../../aspose.words.buildingblocks/glossarydocument/accept/)(DocumentVisitor) | Accepts a visitor. |
 | [AppendChild](../../aspose.words/compositenode/appendchild/)(Node) | Adds the specified node to the end of the list of child nodes for this node. |
 | [Clone](../../aspose.words/node/clone/)(bool) | Creates a duplicate of the node. |
-| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Reserved for system use. IXPathNavigable. |
+| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Creates navigator which can be used to traverse and read nodes. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Gets the first ancestor of the specified [`NodeType`](../../aspose.words/nodetype/). |
 | [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Gets the first ancestor of the specified object type. |
 | [GetBuildingBlock](../../aspose.words.buildingblocks/glossarydocument/getbuildingblock/)(BuildingBlockGallery, string, string) | Finds a building block using the specified gallery, category and name. |
@@ -99,6 +99,7 @@ Corresponds to the **glossaryDocument** and **docParts** elements in OOXML.
 Shows ways of accessing building blocks in a glossary document.
 
 ```csharp
+public void GlossaryDocument()
 {
     Document doc = new Document();
     GlossaryDocument glossaryDoc = new GlossaryDocument();
@@ -130,6 +131,7 @@ Shows ways of accessing building blocks in a glossary document.
     // which will give every BuildingBlock in the GlossaryDocument a unique GUID
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
     glossaryDoc.Accept(visitor);
+
     Console.WriteLine(visitor.GetText());
 
     // In Microsoft Word, we can access the building blocks via "Insert" -> "Quick Parts" -> "Building Blocks Organizer".
@@ -173,6 +175,7 @@ public class GlossaryDocVisitor : DocumentVisitor
 
     public override VisitorAction VisitBuildingBlockStart(BuildingBlock block)
     {
+        block.Guid = Guid.NewGuid();
         mBlocksByGuid.Add(block.Guid, block);
         return VisitorAction.Continue;
     }

@@ -20,6 +20,7 @@ public IMailMergeCallback MailMergeCallback { get; set; }
 Shows how to define custom logic for handling events during mail merge.
 
 ```csharp
+public void Callback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
