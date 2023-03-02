@@ -20,6 +20,7 @@ public Image Image { get; set; }
 Shows how to use a callback to customize image merging logic.
 
 ```csharp
+public void MergeFieldImages()
 {
     Document doc = new Document();
 
@@ -45,6 +46,7 @@ Shows how to use a callback to customize image merging logic.
     doc.MailMerge.Execute(dataTable);
 
     doc.Save(ArtifactsDir + "Field.MERGEFIELD.Images.docx");
+}
 
 /// <summary>
 /// Contains a dictionary that maps names of images to local system filenames that contain these images.

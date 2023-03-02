@@ -20,6 +20,7 @@ public XamlFlowSaveOptions()
 Shows how to print the filenames of linked images created while converting a document to flow-form .xaml.
 
 ```csharp
+public void ImageFolder()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
@@ -49,6 +50,7 @@ Shows how to print the filenames of linked images created while converting a doc
 
     foreach (string resource in callback.Resources)
         Console.WriteLine($"{callback.ImagesFolderAlias}/{resource}");
+}
 
 /// <summary>
 /// Counts and prints filenames of images while their parent document is converted to flow-form .xaml.
@@ -101,6 +103,7 @@ public XamlFlowSaveOptions(SaveFormat saveFormat)
 Shows how to print the filenames of linked images created while converting a document to flow-form .xaml.
 
 ```csharp
+public void ImageFolder()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
@@ -130,6 +133,7 @@ Shows how to print the filenames of linked images created while converting a doc
 
     foreach (string resource in callback.Resources)
         Console.WriteLine($"{callback.ImagesFolderAlias}/{resource}");
+}
 
 /// <summary>
 /// Counts and prints filenames of images while their parent document is converted to flow-form .xaml.

@@ -25,7 +25,7 @@ public sealed class BasicTextShaperCache : IDisposable, ITextShaperFactory
 
 | Name | Description |
 | --- | --- |
-| [Dispose](../../aspose.words.shaping/basictextshapercache/dispose/)() |  |
+| [Dispose](../../aspose.words.shaping/basictextshapercache/dispose/)() | Disposes cached [`ITextShaper`](../itextshaper/) instances. |
 
 ### See Also
 

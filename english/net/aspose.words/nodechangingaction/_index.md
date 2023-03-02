@@ -27,6 +27,7 @@ public enum NodeChangingAction
 Shows how to use a NodeChangingCallback to monitor changes to the document tree in real-time as we edit it.
 
 ```csharp
+public void NodeChangingCallback()
 {
     Document doc = new Document();
     doc.NodeChangingCallback = new NodeChangingPrinter();

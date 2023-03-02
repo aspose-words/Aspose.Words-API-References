@@ -28,6 +28,7 @@ A [`VisitorAction`](../../visitoraction/) value that specifies how to continue t
 Shows how to create a group of shapes, and print its contents using a document visitor.
 
 ```csharp
+public void GroupOfShapes()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -61,6 +62,7 @@ Shows how to create a group of shapes, and print its contents using a document v
     group.Accept(printer);
 
     Console.WriteLine(printer.GetText());
+}
 
 /// <summary>
 /// Prints the contents of a visited shape group to the console.
@@ -112,6 +114,7 @@ public class ShapeGroupPrinter : DocumentVisitor
 Shows how to use a DocumentVisitor implementation to remove all hidden content from a document.
 
 ```csharp
+public void RemoveHiddenContentFromDocument()
 {
     Document doc = new Document(MyDir + "Hidden content.docx");
 
@@ -131,6 +134,7 @@ Shows how to use a DocumentVisitor implementation to remove all hidden content f
     doc.Accept(hiddenContentRemover);
 
     doc.Save(ArtifactsDir + "Font.RemoveHiddenContentFromDocument.docx");
+}
 
 /// <summary>
 /// Removes all visited nodes marked as "hidden content".

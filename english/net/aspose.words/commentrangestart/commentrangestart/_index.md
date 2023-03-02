@@ -31,6 +31,7 @@ To append a [`CommentRangeStart`](../) to the document use InsertAfter or Insert
 Shows how print the contents of all comments and their comment ranges using a document visitor.
 
 ```csharp
+public void CreateCommentsAndPrintAllInfo()
 {
     Document doc = new Document();
 

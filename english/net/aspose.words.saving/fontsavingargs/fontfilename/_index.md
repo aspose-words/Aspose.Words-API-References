@@ -34,6 +34,7 @@ When saving a document to a stream, the generated font file name looks like Aspo
 Shows how to define custom logic for exporting fonts when saving to HTML.
 
 ```csharp
+public void SaveExportedFonts()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
@@ -52,6 +53,8 @@ Shows how to define custom logic for exporting fonts when saving to HTML.
     {
         Console.WriteLine(fontFilename);
     }
+
+}
 
 /// <summary>
 /// Prints information about exported fonts and saves them in the same local system folder as their output .html.

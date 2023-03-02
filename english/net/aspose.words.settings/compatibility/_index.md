@@ -96,6 +96,7 @@ public enum Compatibility
 Shows how to optimize the document for different versions of Microsoft Word.
 
 ```csharp
+public void OptimizeFor()
 {
     Document doc = new Document();
 

@@ -71,7 +71,7 @@ public class Paragraph : CompositeNode
 | [AppendField](../../aspose.words/paragraph/appendfield/#appendfield)(FieldType, bool) | Appends a field to this paragraph. |
 | [AppendField](../../aspose.words/paragraph/appendfield/#appendfield_2)(string, string) | Appends a field to this paragraph. |
 | [Clone](../../aspose.words/node/clone/)(bool) | Creates a duplicate of the node. |
-| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Reserved for system use. IXPathNavigable. |
+| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Creates navigator which can be used to traverse and read nodes. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Gets the first ancestor of the specified [`NodeType`](../nodetype/). |
 | [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Gets the first ancestor of the specified object type. |
 | [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Returns an Nth child node that matches the specified type. |

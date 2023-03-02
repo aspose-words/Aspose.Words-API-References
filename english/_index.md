@@ -30,7 +30,7 @@ These are links to some useful resources:
 
 ![Aspose.Words for Java Product Logo](home_2.png)
 
-Aspose.Words for Java is a class library for document-processing jobs such as create, modify, convert, render, and print documents in Doc, Docx, PDF, HTML, and other supported formats. Aspose.Words for Java API References includes Java examples, code snippets and documentations of basic and advanced usage of Aspose.Words API. 
+Aspose.Words for Java is a class library for document processing tasks such as creating, editing, rendering, translating and printing documents in Doc, Docx, PDF, HTML and other supported formats. Aspose.Words for Java API References include Java samples, code snippets, and documentation for basic and advanced usage of Aspose.Words for Java API. 
 
 {{% /alert %}}
 
@@ -45,11 +45,11 @@ These are links to some useful resources:
 
 ![Aspose.Words for C++ Product Logo](home_3.png)
 
-Aspose.Words for C++ is a modern document Processing API to perform wide range of processing jobs. Aspose.Words API offers formatting, manipulation, mail merge, watermarking and more advanced features for your own C++ packages with out requiring Microsoft Word.
+Aspose.Words for C++ is a modern document processing API that performs many functions. The Aspose.Words API provides formatting, manipulation, mail merge, watermark, and advanced functionality in a C++ package without the need for Microsoft Word.
 
-Aspose.Words API supports most of the Microsoft Word formats, and may render the document pages to a number of image formats. It helps you to work with documents in DOC, DOCX, PDF, RTF, DOT, DOTX, DOTM, DOCM, FlatOPC, ODT, OTT, HTML, MHTML, MOBI, TXT, XPS, ps, TIFF, JPEG, PNG, BMP, SVG, EMF, GIF, PCL, EPUB, XML, XAML and more.
+The Aspose.Words API supports many Microsoft Word formats and can export pages to various document formats. DOC, DOCX, PDF, RTF, DOT, DOTX, DOTM, DOCM, FlatTOPC, ODT, OTT, HTML, MHTML, MOBI, TXT, XPS, ps, TIFF, JPEG, PNG, BMP, SVG, EMF, GIF, PCL, EPUB, XML, XAML, etc.
 
-Aspose.Words for C++ API References includes C++ examples, code-snippets and documentation of convert Word documents, create new Word documents, edit Word documents and other advanced document processing features.
+Aspose.Words for C++ API References contains C++ samples, code snippets, and information for converting Word documents, creating new documents, editing Word documents, and other document management features.
 
 {{% /alert %}}
 
@@ -63,8 +63,7 @@ These are links to some useful resources:
 
 ![Aspose.Words for Python via .NET Product Logo](home_4.png)
 
-Python package for Microsoft Word (DOC, DOCX, ODT), PDF, and Web (HTML, Markdown) documents. Aspose.Words for Python via.NET is a package designed to read and manipulate texts of different sorts. More than 100 Python classes are available in our collection to handle the low-level tasks involved in data formatting and document processing. Aspose.Words offers Python developers a special chance to build script-based document automation as a result. Aspose.Words for Python via .NET API References includes Python examples, code snippets, documentation of wide range of document processing features.
-
+Python packages for Microsoft Word (DOC, DOCX, ODT), PDF and Web (HTML, Markdown) documents. Aspose.Words for Python via .NET is a package designed to read and handle various text formats. Over 100 Python classes are available in the collection to perform basic tasks related to document formatting and processing. Aspose.Words offers Python developers a unique opportunity to create text-based document automation. The Aspose.Words API Tutorial for Python on .NET includes Python samples, code, and documentation for general document processing.
 {{% /alert %}}
 
 These are links to some useful resources:

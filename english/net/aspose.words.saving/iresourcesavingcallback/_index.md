@@ -26,6 +26,7 @@ public interface IResourceSavingCallback
 Shows how to use a callback to track external resources created while converting a document to HTML.
 
 ```csharp
+public void ResourceSavingCallback()
 {
     Document doc = new Document(MyDir + "Bullet points with alternative font.docx");
 
@@ -39,6 +40,7 @@ Shows how to use a callback to track external resources created while converting
     doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.UsingMachineFonts.html", saveOptions);
 
     Console.WriteLine(callback.GetText());
+}
 
 private class FontSavingCallback : IResourceSavingCallback
 {
@@ -64,6 +66,7 @@ private class FontSavingCallback : IResourceSavingCallback
 Shows how to use a callback to print the URIs of external resources created while converting a document to HTML.
 
 ```csharp
+public void HtmlFixedResourceFolder()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
@@ -91,6 +94,7 @@ Shows how to use a callback to print the URIs of external resources created whil
 
     Assert.False(Directory.Exists(ArtifactsDir + "HtmlFixedResourceFolder"));
     Assert.AreEqual(6, resourceFiles.Count(f => f.EndsWith(".jpeg") || f.EndsWith(".png") || f.EndsWith(".css")));
+}
 
 /// <summary>
 /// Counts and prints URIs of resources contained by as they are converted to fixed HTML.

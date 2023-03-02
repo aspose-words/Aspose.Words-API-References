@@ -82,6 +82,7 @@ You need to use mail merge regions if you want to dynamically grow portions insi
 Shows how to execute a mail merge with data from a DataTable.
 
 ```csharp
+public void ExecuteDataTable()
 {
     DataTable table = new DataTable("Test");
     table.Columns.Add("CustomerName");
@@ -103,6 +104,7 @@ Shows how to execute a mail merge with data from a DataTable.
     doc.MailMerge.Execute(table.Rows[1]);
 
     doc.Save(ArtifactsDir + "MailMerge.ExecuteDataTable.OneRow.docx");
+}
 
 /// <summary>
 /// Creates a mail merge source document.

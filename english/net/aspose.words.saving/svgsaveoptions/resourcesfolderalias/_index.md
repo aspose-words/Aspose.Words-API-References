@@ -24,6 +24,7 @@ When you save a [`Document`](../../../aspose.words/document/) in SVG format, Asp
 Shows how to manipulate and print the URIs of linked resources created while converting a document to .svg.
 
 ```csharp
+public void SvgResourceFolder()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 

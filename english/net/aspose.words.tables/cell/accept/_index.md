@@ -36,6 +36,7 @@ Calls [`VisitCellStart`](../../../aspose.words/documentvisitor/visitcellstart/),
 Shows how to print the node structure of every table in a document.
 
 ```csharp
+public void TableToText()
 {
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     TableStructurePrinter visitor = new TableStructurePrinter();
@@ -46,6 +47,7 @@ Shows how to print the node structure of every table in a document.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
+}
 
 /// <summary>
 /// Traverses a node's non-binary tree of child nodes.

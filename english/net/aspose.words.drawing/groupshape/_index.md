@@ -104,7 +104,7 @@ public class GroupShape : ShapeBase
 | [AdjustWithEffects](../../aspose.words.drawing/shapebase/adjustwitheffects/)(RectangleF) | Adds to the source rectangle values of the effect extent and returns the final rectangle. |
 | [AppendChild](../../aspose.words/compositenode/appendchild/)(Node) | Adds the specified node to the end of the list of child nodes for this node. |
 | [Clone](../../aspose.words/node/clone/)(bool) | Creates a duplicate of the node. |
-| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Reserved for system use. IXPathNavigable. |
+| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Creates navigator which can be used to traverse and read nodes. |
 | [FetchInheritedShapeAttr](../../aspose.words.drawing/shapebase/fetchinheritedshapeattr/)(int) | Reserved for system use. IShapeAttrSource. |
 | [FetchShapeAttr](../../aspose.words.drawing/shapebase/fetchshapeattr/)(int) | Reserved for system use. IShapeAttrSource. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Gets the first ancestor of the specified [`NodeType`](../../aspose.words/nodetype/). |
@@ -144,6 +144,7 @@ Each `GroupShape` defines a new coordinate system for its child shapes. The coor
 Shows how to create a group of shapes, and print its contents using a document visitor.
 
 ```csharp
+public void GroupOfShapes()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -177,6 +178,7 @@ Shows how to create a group of shapes, and print its contents using a document v
     group.Accept(printer);
 
     Console.WriteLine(printer.GetText());
+}
 
 /// <summary>
 /// Prints the contents of a visited shape group to the console.

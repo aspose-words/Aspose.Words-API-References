@@ -24,6 +24,7 @@ Works till 2007 compatibility mode. In 2010 and higher compatibility mode WordAr
 Shows how to work with WordArt.
 
 ```csharp
+public void InsertTextPaths()
 {
     Document doc = new Document();
 
@@ -89,6 +90,7 @@ Shows how to work with WordArt.
     shape.TextPath.TextPathAlignment = TextPathAlignment.Right;
 
     doc.Save(ArtifactsDir + "Shape.InsertTextPaths.docx");
+}
 
 /// <summary>
 /// Insert a new paragraph with a WordArt shape inside it.

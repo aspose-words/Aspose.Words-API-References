@@ -34,10 +34,12 @@ If index is negative and its absolute value is greater than the number of items 
 Shows how to add bookmarks and update their contents.
 
 ```csharp
+public void CreateUpdateAndPrintBookmarks()
 {
     // Create a document with three bookmarks, then use a custom document visitor implementation to print their contents.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
+
     PrintAllBookmarkInfo(bookmarks);
 
     // Bookmarks can be accessed in the bookmark collection by index or name, and their names can be updated.
@@ -144,10 +146,12 @@ Returns `null` if the bookmark with the specified name cannot be found.
 Shows how to add bookmarks and update their contents.
 
 ```csharp
+public void CreateUpdateAndPrintBookmarks()
 {
     // Create a document with three bookmarks, then use a custom document visitor implementation to print their contents.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
+
     PrintAllBookmarkInfo(bookmarks);
 
     // Bookmarks can be accessed in the bookmark collection by index or name, and their names can be updated.

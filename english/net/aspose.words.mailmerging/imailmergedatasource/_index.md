@@ -38,6 +38,7 @@ When a data source is created, it should be initialized to point to BOF (before 
 Shows how to execute a mail merge with a data source in the form of a custom object.
 
 ```csharp
+public void CustomDataSource()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -55,6 +56,7 @@ Shows how to execute a mail merge with a data source in the form of a custom obj
     doc.MailMerge.Execute(dataSource);
 
     doc.Save(ArtifactsDir + "MailMergeCustom.CustomDataSource.docx");
+}
 
 /// <summary>
 /// An example of a "data entity" class in your application.

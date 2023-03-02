@@ -20,6 +20,7 @@ public INodeChangingCallback NodeChangingCallback { get; set; }
 Shows how customize node changing with a callback.
 
 ```csharp
+public void FontChangeViaCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -37,6 +38,7 @@ Shows how customize node changing with a callback.
     doc.Range.Fields[0].Remove();
 
     Console.WriteLine(callback.GetLog());
+}
 
 /// <summary>
 /// Logs the date and time of each node insertion and removal.

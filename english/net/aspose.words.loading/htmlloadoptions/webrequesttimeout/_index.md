@@ -24,6 +24,7 @@ The number of milliseconds that Aspose.Words waits for a response, when loading 
 Shows how to set a time limit for web requests when loading a document with external resources linked by URLs.
 
 ```csharp
+public void WebRequestTimeout()
 {
     // Create a new HtmlLoadOptions object and verify its timeout threshold for a web request.
     HtmlLoadOptions options = new HtmlLoadOptions();

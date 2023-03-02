@@ -28,6 +28,7 @@ Comment identifiers are supposed to be unique across a document and Aspose.Words
 Shows how print the contents of all comments and their comment ranges using a document visitor.
 
 ```csharp
+public void CreateCommentsAndPrintAllInfo()
 {
     Document doc = new Document();
 

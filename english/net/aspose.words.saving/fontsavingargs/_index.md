@@ -50,6 +50,7 @@ To save fonts into streams instead of files, use the [`FontStream`](./fontstream
 Shows how to define custom logic for exporting fonts when saving to HTML.
 
 ```csharp
+public void SaveExportedFonts()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
@@ -68,6 +69,8 @@ Shows how to define custom logic for exporting fonts when saving to HTML.
     {
         Console.WriteLine(fontFilename);
     }
+
+}
 
 /// <summary>
 /// Prints information about exported fonts and saves them in the same local system folder as their output .html.

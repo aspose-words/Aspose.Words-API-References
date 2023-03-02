@@ -64,6 +64,7 @@ Defines the text and page number for a table of authorities entry, which is used
 Shows how to build and customize a table of authorities using TOA and TA fields.
 
 ```csharp
+public void FieldTOA()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -164,6 +165,7 @@ Shows how to build and customize a table of authorities using TOA and TA fields.
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.TOA.TA.docx");
+}
 
 private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCategory, string longCitation)
 {

@@ -27,6 +27,7 @@ public class ImportFormatOptions
 
 | Name | Description |
 | --- | --- |
+| [AdjustSentenceAndWordSpacing](../../aspose.words/importformatoptions/adjustsentenceandwordspacing/) { get; set; } | Gets or sets a boolean value that specifies whether to adjust sentence and word spacing automatically. The default value is `false`. |
 | [ForceCopyStyles](../../aspose.words/importformatoptions/forcecopystyles/) { get; set; } | Gets or sets a boolean value indicating either to copy conflicting styles in KeepSourceFormatting mode. The default value is `false`. |
 | [IgnoreHeaderFooter](../../aspose.words/importformatoptions/ignoreheaderfooter/) { get; set; } | Gets or sets a boolean value that specifies that source formatting of headers/footers content ignored if KeepSourceFormatting mode is used. The default value is `true`. |
 | [IgnoreTextBoxes](../../aspose.words/importformatoptions/ignoretextboxes/) { get; set; } | Gets or sets a boolean value that specifies that source formatting of textboxes content ignored if KeepSourceFormatting mode is used. The default value is `true`. |

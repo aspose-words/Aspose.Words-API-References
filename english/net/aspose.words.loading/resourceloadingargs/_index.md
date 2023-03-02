@@ -34,6 +34,7 @@ public class ResourceLoadingArgs
 Shows how to customize the process of loading external resources into a document.
 
 ```csharp
+public void ResourceLoadingCallback()
 {
     Document doc = new Document();
     doc.ResourceLoadingCallback = new ImageNameHandler();
@@ -49,6 +50,7 @@ Shows how to customize the process of loading external resources into a document
     Assert.AreEqual(3, doc.GetChildNodes(NodeType.Shape, true).Count);
 
     doc.Save(ArtifactsDir + "DocumentBase.ResourceLoadingCallback.docx");
+}
 
 /// <summary>
 /// Allows us to load images into a document using predefined shorthands, as opposed to URIs.

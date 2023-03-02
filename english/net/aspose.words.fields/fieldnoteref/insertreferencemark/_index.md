@@ -49,6 +49,7 @@ public void FieldNoteRef()
     doc.UpdatePageLayout();
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.NOTEREF.docx");
+}
 
 /// <summary>
 /// Uses a document builder to insert a NOTEREF field with specified properties.

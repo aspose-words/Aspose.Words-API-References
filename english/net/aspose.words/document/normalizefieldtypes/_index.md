@@ -36,6 +36,7 @@ Assert.AreEqual(FieldType.FieldDate, field.Type);
 
 // Manually change the raw text of the field, which determines the field code.
 Run fieldText = (Run)doc.FirstSection.Body.FirstParagraph.GetChildNodes(NodeType.Run, true)[0];
+fieldText.Text = "PAGE";
 
 // Changing the field code has changed this field to one of a different type,
 // but the field's type properties still display the old type.

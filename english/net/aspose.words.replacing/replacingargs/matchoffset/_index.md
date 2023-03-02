@@ -20,6 +20,7 @@ public int MatchOffset { get; }
 Shows how to apply a different font to new content via FindReplaceOptions.
 
 ```csharp
+public void ConvertNumbersToHexadecimal()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

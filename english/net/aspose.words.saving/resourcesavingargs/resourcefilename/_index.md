@@ -36,6 +36,7 @@ When saving a document to a stream, the generated resource file name looks like 
 Shows how to use a callback to track external resources created while converting a document to HTML.
 
 ```csharp
+public void ResourceSavingCallback()
 {
     Document doc = new Document(MyDir + "Bullet points with alternative font.docx");
 
@@ -49,6 +50,7 @@ Shows how to use a callback to track external resources created while converting
     doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.UsingMachineFonts.html", saveOptions);
 
     Console.WriteLine(callback.GetText());
+}
 
 private class FontSavingCallback : IResourceSavingCallback
 {

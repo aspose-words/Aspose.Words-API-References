@@ -118,7 +118,7 @@ public class Document : DocumentBase
 | [Compare](../../aspose.words/document/compare/#compare_1)(Document, string, DateTime, CompareOptions) | Compares this document with another document producing changes as a number of edit and format revisions [`Revision`](../revision/). Allows to specify comparison options using [`CompareOptions`](../../aspose.words.comparing/compareoptions/). |
 | [CopyStylesFromTemplate](../../aspose.words/document/copystylesfromtemplate/#copystylesfromtemplate)(Document) | Copies styles from the specified template to a document. |
 | [CopyStylesFromTemplate](../../aspose.words/document/copystylesfromtemplate/#copystylesfromtemplate_1)(string) | Copies styles from the specified template to a document. |
-| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Reserved for system use. IXPathNavigable. |
+| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Creates navigator which can be used to traverse and read nodes. |
 | [EnsureMinimum](../../aspose.words/document/ensureminimum/)() | If the document contains no sections, creates one section with one paragraph. |
 | [ExpandTableStylesToDirectFormatting](../../aspose.words/document/expandtablestylestodirectformatting/)() | Converts formatting specified in table styles into direct formatting on tables in the document. |
 | [ExtractPages](../../aspose.words/document/extractpages/)(int, int) | Returns the `Document` object representing specified range of pages. |
@@ -211,6 +211,7 @@ In Microsoft Word, a valid document needs to have at least one section.
 Shows how to execute a mail merge with data from a DataTable.
 
 ```csharp
+public void ExecuteDataTable()
 {
     DataTable table = new DataTable("Test");
     table.Columns.Add("CustomerName");
@@ -232,6 +233,7 @@ Shows how to execute a mail merge with data from a DataTable.
     doc.MailMerge.Execute(table.Rows[1]);
 
     doc.Save(ArtifactsDir + "MailMerge.ExecuteDataTable.OneRow.docx");
+}
 
 /// <summary>
 /// Creates a mail merge source document.

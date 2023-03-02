@@ -26,6 +26,7 @@ If `true`, the layout order of rows is reversed. This attribute is used for vert
 Shows how to work with WordArt.
 
 ```csharp
+public void InsertTextPaths()
 {
     Document doc = new Document();
 
@@ -91,6 +92,7 @@ Shows how to work with WordArt.
     shape.TextPath.TextPathAlignment = TextPathAlignment.Right;
 
     doc.Save(ArtifactsDir + "Shape.InsertTextPaths.docx");
+}
 
 /// <summary>
 /// Insert a new paragraph with a WordArt shape inside it.
