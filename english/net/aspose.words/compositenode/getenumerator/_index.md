@@ -53,6 +53,7 @@ foreach (Node child in children)
             Shape childShape = (Shape)child;
             Console.WriteLine("Shape:");
             Console.WriteLine($"\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
+            break;
     }
 ```
 

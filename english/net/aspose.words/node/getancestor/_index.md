@@ -32,9 +32,11 @@ The ancestor type matches if it is equal to *ancestorType* or derived from *ance
 Shows how to find out if a tables are nested.
 
 ```csharp
+public void CalculateDepthOfNestedTables()
 {
     Document doc = new Document(MyDir + "Nested tables.docx");
     NodeCollection tables = doc.GetChildNodes(NodeType.Table, true);
+
     for (int i = 0; i < tables.Count; i++)
     {
         Table table = (Table)tables[i];
@@ -131,9 +133,11 @@ The ancestor of the specified type or `null` if no ancestor of this type was fou
 Shows how to find out if a tables are nested.
 
 ```csharp
+public void CalculateDepthOfNestedTables()
 {
     Document doc = new Document(MyDir + "Nested tables.docx");
     NodeCollection tables = doc.GetChildNodes(NodeType.Table, true);
+
     for (int i = 0; i < tables.Count; i++)
     {
         Table table = (Table)tables[i];

@@ -25,6 +25,7 @@ Shows how to split the footnote section into a given number of columns.
 
 ```csharp
 Document doc = new Document(MyDir + "Footnotes and endnotes.docx");
+
 doc.FootnoteOptions.Columns = 2;
 doc.Save(ArtifactsDir + "Document.FootnoteColumns.docx");
 ```

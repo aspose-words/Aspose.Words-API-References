@@ -28,6 +28,7 @@ The stream will be closed after reading. There is no need to close it explicitly
 Shows how to load fonts from stream.
 
 ```csharp
+public void StreamFontSourceFileRendering()
 {
     FontSettings fontSettings = new FontSettings();
     fontSettings.SetFontsSources(new FontSourceBase[] {new StreamFontSourceFile()});

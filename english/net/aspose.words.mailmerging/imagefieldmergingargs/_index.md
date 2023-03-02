@@ -69,6 +69,7 @@ public void ImageFromBlob()
     }
 
     doc.Save(ArtifactsDir + "MailMergeEvent.ImageFromBlob.docx");
+}
 
 private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 {
@@ -91,6 +92,7 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 Shows how to set the dimensions of images as MERGEFIELDS accepts them during a mail merge.
 
 ```csharp
+public void MergeFieldImageDimension()
 {
     Document doc = new Document();
 
@@ -115,6 +117,7 @@ Shows how to set the dimensions of images as MERGEFIELDS accepts them during a m
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.MERGEFIELD.ImageDimension.docx");
+}
 
 /// <summary>
 /// Sets the size of all mail merged images to one defined width and height.

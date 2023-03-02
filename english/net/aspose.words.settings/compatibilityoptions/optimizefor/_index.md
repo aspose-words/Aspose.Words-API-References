@@ -76,6 +76,7 @@ Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0,
 Shows how to optimize the document for different versions of Microsoft Word.
 
 ```csharp
+public void OptimizeFor()
 {
     Document doc = new Document();
 

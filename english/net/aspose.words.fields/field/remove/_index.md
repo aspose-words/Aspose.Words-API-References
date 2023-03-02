@@ -57,6 +57,7 @@ Assert.AreEqual(0, fields.Count);
 Shows how to process PRIVATE fields.
 
 ```csharp
+public void FieldPrivate()
 {
     // Open a Corel WordPerfect document which we have converted to .docx format.
     Document doc = new Document(MyDir + "Field sample - PRIVATE.docx");

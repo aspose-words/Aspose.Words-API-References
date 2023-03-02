@@ -39,6 +39,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Chart chart = builder.InsertChart(ChartType.Pie, ConvertUtil.PixelToPoint(300), 
     ConvertUtil.PixelToPoint(300)).Chart;
+chart.Series.Clear();
 chart.Series.Add("My fruit",
     new[] { "Apples", "Bananas", "Cherries" },
     new[] { 1.3, 2.2, 1.5 });

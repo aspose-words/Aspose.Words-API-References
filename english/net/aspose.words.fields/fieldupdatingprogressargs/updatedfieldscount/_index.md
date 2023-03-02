@@ -20,6 +20,7 @@ public int UpdatedFieldsCount { get; }
 Shows how to use callback methods during a field update.
 
 ```csharp
+public void FieldUpdatingCallbackTest()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

@@ -20,6 +20,7 @@ public IFieldResultFormatter ResultFormatter { get; set; }
 Shows how to automatically apply a custom format to field results as the fields are updated.
 
 ```csharp
+public void FieldResultFormatting()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);

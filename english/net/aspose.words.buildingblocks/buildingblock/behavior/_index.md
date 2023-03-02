@@ -20,6 +20,7 @@ public BuildingBlockBehavior Behavior { get; set; }
 Shows how to add a custom building block to a document.
 
 ```csharp
+public void CreateAndInsert()
 {
     // A document's glossary document stores building blocks.
     Document doc = new Document();
@@ -58,6 +59,7 @@ Shows how to add a custom building block to a document.
     // The block itself is a section that contains the text.
     Assert.AreEqual($"Text inside {customBlock.Name}\f", customBlock.FirstSection.Body.FirstParagraph.GetText());
     Assert.AreEqual(customBlock.FirstSection, customBlock.LastSection);
+
     // Now, we can insert it into the document as a new section.
     doc.AppendChild(doc.ImportNode(customBlock.FirstSection, true));
 

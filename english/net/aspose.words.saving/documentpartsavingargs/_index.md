@@ -39,6 +39,7 @@ To save document parts into streams instead of files, use the [`DocumentPartStre
 Shows how to split a document into parts and save them.
 
 ```csharp
+public void DocumentPartsFileNames()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
     string outFileName = "SavingCallback.DocumentPartsFileNames.html";

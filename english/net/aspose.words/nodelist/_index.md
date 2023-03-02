@@ -54,7 +54,9 @@ using NUnit.Framework;
 
 namespace ApiExamples
 {
+    public class ExReplaceHyperlinks : ApiExampleBase
     {
+        public void Fields()
         {
             Document doc = new Document(MyDir + "Hyperlinks.docx");
 

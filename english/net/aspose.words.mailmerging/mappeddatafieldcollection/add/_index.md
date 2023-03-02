@@ -25,6 +25,7 @@ public void Add(string documentFieldName, string dataSourceFieldName)
 Shows how to map data columns and MERGEFIELDs with different names so the data is transferred between them during a mail merge.
 
 ```csharp
+public void MappedDataFieldCollection()
 {
     Document doc = CreateSourceDocMappedDataFields();
     DataTable dataTable = CreateSourceTableMappedDataFields();
@@ -68,6 +69,7 @@ Shows how to map data columns and MERGEFIELDs with different names so the data i
     mappedDataFields.Clear();
 
     Assert.AreEqual(0, mappedDataFields.Count);
+}
 
 /// <summary>
 /// Create a document with 2 MERGEFIELDs, one of which does not have a

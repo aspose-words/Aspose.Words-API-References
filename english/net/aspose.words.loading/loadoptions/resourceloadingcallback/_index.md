@@ -20,6 +20,7 @@ public IResourceLoadingCallback ResourceLoadingCallback { get; set; }
 Shows how to handle external resources when loading Html documents.
 
 ```csharp
+public void LoadOptionsCallback()
 {
     LoadOptions loadOptions = new LoadOptions();
     loadOptions.ResourceLoadingCallback = new HtmlLinkedResourceLoadingCallback();

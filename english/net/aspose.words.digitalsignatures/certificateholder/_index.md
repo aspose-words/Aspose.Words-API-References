@@ -86,7 +86,8 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 Shows how to add a signature line to a document, and then sign it using a digital certificate.
 
 ```csharp
-public static void Sign()
+[Description("WORDSNET-16868")]
+        public static void Sign()
         {
             string signeeName = "Ron Williams";
             string srcDocumentPath = MyDir + "Document.docx";

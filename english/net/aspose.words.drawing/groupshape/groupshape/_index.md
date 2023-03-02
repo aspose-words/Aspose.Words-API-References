@@ -30,6 +30,7 @@ You should specify desired shape properties after you created a shape.
 Shows how to create a group of shapes, and print its contents using a document visitor.
 
 ```csharp
+public void GroupOfShapes()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -63,6 +64,7 @@ Shows how to create a group of shapes, and print its contents using a document v
     group.Accept(printer);
 
     Console.WriteLine(printer.GetText());
+}
 
 /// <summary>
 /// Prints the contents of a visited shape group to the console.

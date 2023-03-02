@@ -20,6 +20,7 @@ public override SaveFormat SaveFormat { get; set; }
 Shows how to print the URIs of linked resources created while converting a document to fixed-form .xaml.
 
 ```csharp
+public void ResourceFolder()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
     ResourceUriPrinter callback = new ResourceUriPrinter();
@@ -48,6 +49,7 @@ Shows how to print the URIs of linked resources created while converting a docum
 
     foreach (string resource in callback.Resources)
         Console.WriteLine(resource);
+}
 
 /// <summary>
 /// Counts and prints URIs of resources created during conversion to fixed .xaml.

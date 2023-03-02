@@ -28,6 +28,7 @@ public enum MetafileRenderingMode
 Shows added a fallback to bitmap rendering and changing type of warnings about unsupported metafile records.
 
 ```csharp
+public void HandleBinaryRasterWarnings()
 {
     Document doc = new Document(MyDir + "WMF with image.docx");
 

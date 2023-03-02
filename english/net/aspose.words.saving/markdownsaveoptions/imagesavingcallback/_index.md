@@ -20,6 +20,7 @@ public IImageSavingCallback ImageSavingCallback { get; set; }
 Shows how to rename the image name during saving into Markdown document.
 
 ```csharp
+public void RenameImages()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 

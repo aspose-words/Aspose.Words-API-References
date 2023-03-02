@@ -20,6 +20,7 @@ public Document Document { get; }
 Shows how to involve an image saving callback in an HTML conversion process.
 
 ```csharp
+public void ImageSavingCallback()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 

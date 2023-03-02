@@ -4,7 +4,7 @@ linktitle: KeepSourceNumbering
 second_title: Aspose.Words for .NET API Reference
 description: ImportFormatOptions property. Gets or sets a boolean value that specifies how the numbering will be imported when it clashes in source and destination documents. The default value is false in C#.
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.words/importformatoptions/keepsourcenumbering/
 ---
 ## ImportFormatOptions.KeepSourceNumbering property

@@ -72,6 +72,7 @@ To easily insert a new field into a document, use the [`InsertField`](../../aspo
 Shows how to work with a collection of fields.
 
 ```csharp
+public void FieldCollection()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -110,6 +111,7 @@ Shows how to work with a collection of fields.
     }
 
     Console.WriteLine(fieldVisitor.GetText());
+}
 
 /// <summary>
 /// Document visitor implementation that prints field info.
@@ -178,7 +180,9 @@ using NUnit.Framework;
 
 namespace ApiExamples
 {
+    public class ExReplaceHyperlinks : ApiExampleBase
     {
+        public void Fields()
         {
             Document doc = new Document(MyDir + "Hyperlinks.docx");
 

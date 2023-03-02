@@ -36,6 +36,7 @@ Calls [`VisitBodyStart`](../../documentvisitor/visitbodystart/), then calls [`Ac
 Shows how to use a document visitor to print a document's node structure.
 
 ```csharp
+public void DocStructureToText()
 {
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     DocStructurePrinter visitor = new DocStructurePrinter();
@@ -46,6 +47,7 @@ Shows how to use a document visitor to print a document's node structure.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
+}
 
 /// <summary>
 /// Traverses a node's tree of child nodes.

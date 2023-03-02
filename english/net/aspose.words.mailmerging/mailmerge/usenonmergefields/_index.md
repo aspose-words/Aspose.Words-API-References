@@ -58,6 +58,7 @@ public void PreserveUnusedTags(bool preserveUnusedTags)
         Assert.AreEqual(0, doc.Range.Fields.Count(f => f.Type == FieldType.FieldMergeField));
     else
         Assert.AreEqual(1, doc.Range.Fields.Count(f => f.Type == FieldType.FieldMergeField));
+}
 
 /// <summary>
 /// Create a document and add two plaintext tags that may act as MERGEFIELDs during a mail merge.

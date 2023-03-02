@@ -4,7 +4,7 @@ linktitle: IgnoreHeaderFooter
 second_title: Aspose.Words for .NET API Reference
 description: ImportFormatOptions property. Gets or sets a boolean value that specifies that source formatting of headers/footers content ignored if KeepSourceFormatting mode is used. The default value is true in C#.
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.words/importformatoptions/ignoreheaderfooter/
 ---
 ## ImportFormatOptions.IgnoreHeaderFooter property

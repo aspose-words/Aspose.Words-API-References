@@ -34,6 +34,7 @@ For more info see the Visitor design pattern.
 Shows how print the contents of all comments and their comment ranges using a document visitor.
 
 ```csharp
+public void CreateCommentsAndPrintAllInfo()
 {
     Document doc = new Document();
 

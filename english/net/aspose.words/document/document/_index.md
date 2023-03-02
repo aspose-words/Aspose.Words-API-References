@@ -192,10 +192,12 @@ LoadOptions options = new LoadOptions("docPassword");
 // There are two ways of loading an encrypted document with a LoadOptions object.
 // 1 -  Load the document from the local file system by filename:
 doc = new Document(MyDir + "Encrypted.docx", options);
+
 // 2 -  Load the document from a stream:
 using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 {
     doc = new Document(stream, options);
+}
 ```
 
 Shows how to create and load documents.
@@ -282,7 +284,7 @@ const string url = "https://omextemplates.content.office.net/support/templates/e
 // Download the document into a byte array, then load that array into a document using a memory stream.
 using (HttpClient webClient = new HttpClient())
 {
-    byte[] dataBytes = await webClient.GetByteArrayAsync(url);
+    byte[] dataBytes = webClient.GetByteArrayAsync(url).GetAwaiter().GetResult();
 
     using (MemoryStream byteStream = new MemoryStream(dataBytes))
     {
@@ -378,6 +380,7 @@ using (HttpClient client = new HttpClient())
         Document doc = new Document(stream, options);
 
         // At this stage, we can read and edit the document's contents and then save it to the local file system.
+
         doc.Save(ArtifactsDir + "Document.InsertHtmlFromWebPage.docx");
     }
 }
@@ -397,10 +400,12 @@ LoadOptions options = new LoadOptions("docPassword");
 // There are two ways of loading an encrypted document with a LoadOptions object.
 // 1 -  Load the document from the local file system by filename:
 doc = new Document(MyDir + "Encrypted.docx", options);
+
 // 2 -  Load the document from a stream:
 using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 {
     doc = new Document(stream, options);
+}
 ```
 
 ### See Also

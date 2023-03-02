@@ -53,6 +53,7 @@ Aspose.Words list templates correspond to the 21 list templates available in the
 Shows how to create a document that contains all outline headings list templates.
 
 ```csharp
+public void OutlineHeadingTemplates()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -72,6 +73,7 @@ Shows how to create a document that contains all outline headings list templates
     AddOutlineHeadingParagraphs(builder, list, "Aspose.Words Outline - \"Chapters\"");
 
     doc.Save(ArtifactsDir + "Lists.OutlineHeadingTemplates.docx");
+}
 
 private static void AddOutlineHeadingParagraphs(DocumentBuilder builder, List list, string title)
 {

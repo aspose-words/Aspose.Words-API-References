@@ -24,6 +24,7 @@ public Section ParentSection { get; }
 Shows how to store endnotes at the end of each section, and modify their positions.
 
 ```csharp
+public void SuppressEndnotes()
 {
     Document doc = new Document();
     doc.RemoveAllChildren();
@@ -46,6 +47,7 @@ Shows how to store endnotes at the end of each section, and modify their positio
     pageSetup.SuppressEndnotes = true;
 
     doc.Save(ArtifactsDir + "PageSetup.SuppressEndnotes.docx");
+}
 
 /// <summary>
 /// Append a section with text and an endnote to a document.

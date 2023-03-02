@@ -33,6 +33,7 @@ public class ReplacingArgs
 Shows how to replace all occurrences of a regular expression pattern with another string, while tracking all such replacements.
 
 ```csharp
+public void ReplaceWithCallback()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -83,6 +84,7 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 Shows how to insert an entire document's contents as a replacement of a match in a find-and-replace operation.
 
 ```csharp
+public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
@@ -92,6 +94,8 @@ Shows how to insert an entire document's contents as a replacement of a match in
 
     mainDoc.Range.Replace(new Regex("\\[MY_DOCUMENT\\]"), "", options);
     mainDoc.Save(ArtifactsDir + "InsertDocument.InsertDocumentAtReplace.docx");
+
+}
 
 private class InsertDocumentAtReplaceHandler : IReplacingCallback
 {

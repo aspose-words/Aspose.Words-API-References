@@ -2,14 +2,14 @@
 title: CompositeNode.CreateNavigator
 linktitle: CreateNavigator
 second_title: Aspose.Words for .NET API Reference
-description: CompositeNode method. Reserved for system use. IXPathNavigable in C#.
+description: CompositeNode method. Creates navigator which can be used to traverse and read nodes in C#.
 type: docs
 weight: 80
 url: /net/aspose.words/compositenode/createnavigator/
 ---
 ## CompositeNode.CreateNavigator method
 
-Reserved for system use. IXPathNavigable.
+Creates navigator which can be used to traverse and read nodes.
 
 ```csharp
 [EditorBrowsable(EditorBrowsableState.Never)]
@@ -21,6 +21,7 @@ public XPathNavigator CreateNavigator()
 Shows how to create an XPathNavigator, and then use it to traverse and read nodes.
 
 ```csharp
+public void NodeXPathNavigator()
 {
     Document doc = new Document();
     XPathNavigator navigator = doc.CreateNavigator();
@@ -46,6 +47,7 @@ Shows how to create an XPathNavigator, and then use it to traverse and read node
         StringBuilder stringBuilder = new StringBuilder();
         MapDocument(navigator, stringBuilder, 0);
         Console.Write(stringBuilder.ToString());
+    }
 }
 
 /// <summary>

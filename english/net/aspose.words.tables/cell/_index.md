@@ -56,7 +56,7 @@ public class Cell : CompositeNode
 | override [Accept](../../aspose.words.tables/cell/accept/)(DocumentVisitor) | Accepts a visitor. |
 | [AppendChild](../../aspose.words/compositenode/appendchild/)(Node) | Adds the specified node to the end of the list of child nodes for this node. |
 | [Clone](../../aspose.words/node/clone/)(bool) | Creates a duplicate of the node. |
-| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Reserved for system use. IXPathNavigable. |
+| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Creates navigator which can be used to traverse and read nodes. |
 | [EnsureMinimum](../../aspose.words.tables/cell/ensureminimum/)() | If the last child is not a paragraph, creates and appends one empty paragraph. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Gets the first ancestor of the specified [`NodeType`](../../aspose.words/nodetype/). |
 | [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Gets the first ancestor of the specified object type. |
@@ -160,6 +160,7 @@ for (int i = 0; i < tables.Count; i++)
 Shows how to build a nested table without using a document builder.
 
 ```csharp
+public void CreateNestedTable()
 {
     Document doc = new Document();
 
@@ -172,6 +173,7 @@ Shows how to build a nested table without using a document builder.
     outerTable.FirstRow.FirstCell.AppendChild(innerTable);
 
     doc.Save(ArtifactsDir + "Table.CreateNestedTable.docx");
+}
 
 /// <summary>
 /// Creates a new table in the document with the given dimensions and text in each cell.

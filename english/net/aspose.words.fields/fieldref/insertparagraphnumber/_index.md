@@ -20,6 +20,7 @@ public bool InsertParagraphNumber { get; set; }
 Shows how to insert REF fields to reference bookmarks.
 
 ```csharp
+public void FieldRef()
 {
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -86,6 +87,7 @@ Shows how to insert REF fields to reference bookmarks.
 
     doc.UpdateFields();
     doc.Save(ArtifactsDir + "Field.REF.docx");
+}
 
 /// <summary>
 /// Get the document builder to insert a REF field, reference a bookmark with it, and add text before and after it.

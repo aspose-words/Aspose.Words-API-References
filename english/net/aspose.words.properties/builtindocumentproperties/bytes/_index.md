@@ -26,6 +26,7 @@ Aspose.Words does not update this property.
 Shows how to work with document properties in the "Content" category.
 
 ```csharp
+public void Content()
 {
     Document doc = new Document(MyDir + "Paragraphs.docx");
     BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
@@ -42,6 +43,7 @@ Shows how to work with document properties in the "Content" category.
 
     // The "Words", "Characters", and "CharactersWithSpaces" built-in properties also display various document statistics,
     // but we need to call the "UpdateWordCount" method on the whole document before we can expect them to contain accurate values.
+    doc.UpdateWordCount();
 
     Assert.AreEqual(1035, properties.Words);
     Assert.AreEqual(6026, properties.Characters);
@@ -77,6 +79,7 @@ Shows how to work with document properties in the "Content" category.
     Assert.False(properties.LinksUpToDate);
 
     doc.Save(ArtifactsDir + "DocumentProperties.Content.docx");
+}
 
 /// <summary>
 /// Counts the lines in a document.

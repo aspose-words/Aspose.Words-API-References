@@ -26,6 +26,7 @@ public interface IHyphenationCallback
 Shows how to open and register a dictionary from a file.
 
 ```csharp
+public void RegisterDictionary()
 {
     // Set up a callback that tracks warnings that occur during hyphenation dictionary registration.
     WarningInfoCollection warningInfoCollection = new WarningInfoCollection();

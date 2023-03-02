@@ -32,6 +32,7 @@ Another way to specify a folder where external CSS file is saved is to use [`Res
 Shows how to work with CSS stylesheets that an HTML conversion creates.
 
 ```csharp
+public void ExternalCssFilenames()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 

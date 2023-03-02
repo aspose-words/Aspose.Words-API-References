@@ -19,7 +19,7 @@ public double ForegroundTintAndShade { get; set; }
 
 The allowed values are in the range from -1 (the darkest) to 1 (the lightest) for this property. Zero (0) is neutral. Attempting to set this property to a value less than -1 or more than 1 results in ArgumentOutOfRangeException.
 
-Setting this property for Border object with non-theme colors results in InvalidOperationException.
+Setting this property for Shading object with non-theme colors results in InvalidOperationException.
 
 ## Examples
 

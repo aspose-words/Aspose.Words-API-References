@@ -28,6 +28,7 @@ public class TextBox
 | [InternalMarginTop](../../aspose.words.drawing/textbox/internalmargintop/) { get; set; } | Specifies the inner top margin in points for a shape. |
 | [LayoutFlow](../../aspose.words.drawing/textbox/layoutflow/) { get; set; } | Determines the flow of the text layout in a shape. |
 | [Next](../../aspose.words.drawing/textbox/next/) { get; set; } | Returns or sets a `TextBox` that represents the next `TextBox` in a sequence of shapes. |
+| [NoTextRotation](../../aspose.words.drawing/textbox/notextrotation/) { get; set; } | Gets or sets a boolean value indicating either text of the TextBox should not rotate when the shape is rotated. |
 | [Parent](../../aspose.words.drawing/textbox/parent/) { get; } | Gets a parent shape for the `TextBox`. |
 | [Previous](../../aspose.words.drawing/textbox/previous/) { get; } | Returns a `TextBox` that represents the previous `TextBox` in a sequence of shapes. |
 | [TextBoxWrapMode](../../aspose.words.drawing/textbox/textboxwrapmode/) { get; set; } | Determines how text wraps inside a shape. |

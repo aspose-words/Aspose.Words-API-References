@@ -83,6 +83,7 @@ axis.DisplayUnit.Unit = AxisBuiltInUnit.Millions;
 // We can set a more specific value by which tick labels will display their values.
 // This statement is equivalent to the one above.
 axis.DisplayUnit.CustomUnit = 1000000;
+
 doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 ```
 

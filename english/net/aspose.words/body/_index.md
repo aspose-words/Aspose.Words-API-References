@@ -55,7 +55,7 @@ public class Body : Story
 | [AppendChild](../../aspose.words/compositenode/appendchild/)(Node) | Adds the specified node to the end of the list of child nodes for this node. |
 | [AppendParagraph](../../aspose.words/story/appendparagraph/)(string) | A shortcut method that creates a [`Paragraph`](../paragraph/) object with optional text and appends it to the end of this object. |
 | [Clone](../../aspose.words/node/clone/)(bool) | Creates a duplicate of the node. |
-| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Reserved for system use. IXPathNavigable. |
+| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Creates navigator which can be used to traverse and read nodes. |
 | [DeleteShapes](../../aspose.words/story/deleteshapes/)() | Deletes all shapes from the text of this story. |
 | [EnsureMinimum](../../aspose.words/body/ensureminimum/)() | If the last child is not a paragraph, creates and appends one empty paragraph. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Gets the first ancestor of the specified [`NodeType`](../nodetype/). |

@@ -34,6 +34,7 @@ When saving a document to a stream, the generated image file name looks like Asp
 Shows how to split a document into parts and save them.
 
 ```csharp
+public void DocumentPartsFileNames()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
     string outFileName = "SavingCallback.DocumentPartsFileNames.html";
