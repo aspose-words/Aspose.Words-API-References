@@ -49,7 +49,6 @@ The `NodeImporter` class is like a context, that holds the "translation tables" 
 Shows how to insert the contents of one document to a bookmark in another document.
 
 ```csharp
-[Test]
 public void InsertAtBookmark()
 {
     Document doc = new Document();

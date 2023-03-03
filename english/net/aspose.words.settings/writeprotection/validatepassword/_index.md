@@ -23,7 +23,6 @@ Shows how to protect a document with a password.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world! This document is protected.");
-
 // Enter a password up to 15 characters in length, and then verify the document's protection status.
 doc.WriteProtection.SetPassword("MyPassword");
 doc.WriteProtection.ReadOnlyRecommended = true;

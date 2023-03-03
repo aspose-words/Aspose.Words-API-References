@@ -30,7 +30,6 @@ The ASK and FILLIN fields are the examples of fields that prompt the user for so
 Shows how to create an ASK field, and set its properties.
 
 ```csharp
-[Test]
 public void FieldAsk()
 {
     Document doc = new Document();

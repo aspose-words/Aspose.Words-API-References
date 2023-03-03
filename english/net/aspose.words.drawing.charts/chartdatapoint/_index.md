@@ -43,7 +43,6 @@ On a series, the `ChartDataPoint` object is a member of the [`ChartDataPointColl
 Shows how to work with data points on a line chart.
 
 ```csharp
-[Test]
 public void ChartDataPoint()
 {
     Document doc = new Document();

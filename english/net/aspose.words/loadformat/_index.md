@@ -66,7 +66,6 @@ using (HttpClient client = new HttpClient())
         Document doc = new Document(stream, options);
 
         // At this stage, we can read and edit the document's contents and then save it to the local file system.
-
         doc.Save(ArtifactsDir + "Document.InsertHtmlFromWebPage.docx");
     }
 }

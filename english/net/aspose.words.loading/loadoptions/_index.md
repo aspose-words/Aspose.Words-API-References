@@ -62,7 +62,6 @@ LoadOptions options = new LoadOptions("docPassword");
 // There are two ways of loading an encrypted document with a LoadOptions object.
 // 1 -  Load the document from the local file system by filename:
 doc = new Document(MyDir + "Encrypted.docx", options);
-
 // 2 -  Load the document from a stream:
 using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 {

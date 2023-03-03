@@ -20,8 +20,6 @@ public bool UseLegacyOrder { get; set; }
 Shows how to change the searching order of nodes when performing a find-and-replace text operation.
 
 ```csharp
-[TestCase(true)] // ExSkip
-[TestCase(false)] // ExSkip
 public void UseLegacyOrder(bool useLegacyOrder)
 {
     Document doc = new Document();

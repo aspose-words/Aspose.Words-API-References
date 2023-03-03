@@ -101,7 +101,6 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
     Shape chartShape = builder.InsertChart(chartType, width, height);
     Chart chart = chartShape.Chart;
     chart.Series.Clear();
-
     return chart;
 }
 ```
@@ -209,7 +208,6 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
     Shape chartShape = builder.InsertChart(chartType, width, height);
     Chart chart = chartShape.Chart;
     chart.Series.Clear();
-
     return chart;
 }
 ```
@@ -313,7 +311,6 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
     Shape chartShape = builder.InsertChart(chartType, width, height);
     Chart chart = chartShape.Chart;
     chart.Series.Clear();
-
     return chart;
 }
 ```
@@ -421,7 +418,6 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
     Shape chartShape = builder.InsertChart(chartType, width, height);
     Chart chart = chartShape.Chart;
     chart.Series.Clear();
-
     return chart;
 }
 ```

@@ -189,7 +189,6 @@ Shows how to use a DocumentVisitor implementation to remove all hidden content f
 public void RemoveHiddenContentFromDocument()
 {
     Document doc = new Document(MyDir + "Hidden content.docx");
-
     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
 
     // Below are three types of fields which can accept a document visitor,

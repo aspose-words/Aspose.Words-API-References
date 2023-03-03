@@ -124,7 +124,6 @@ public class HandleDocumentWarnings : IWarningCallback
 Shows how to set the property for finding the closest match for a missing font from the available font sources.
 
 ```csharp
-[Test]
 public void EnableFontSubstitution()
 {
     // Open a document that contains text formatted with a font that does not exist in any of our font sources.
