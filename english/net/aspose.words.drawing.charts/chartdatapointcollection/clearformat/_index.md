@@ -20,7 +20,6 @@ public void ClearFormat()
 Shows how to work with data points on a line chart.
 
 ```csharp
-[Test]
 public void ChartDataPoint()
 {
     Document doc = new Document();

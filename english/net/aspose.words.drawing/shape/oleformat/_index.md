@@ -23,7 +23,6 @@ Shows how to iterate over all the shapes in a document.
 public void VisitShapes()
 {
     Document doc = new Document(MyDir + "Revision shape.docx");
-
     ShapeAppearancePrinter visitor = new ShapeAppearancePrinter();
     doc.Accept(visitor);
 

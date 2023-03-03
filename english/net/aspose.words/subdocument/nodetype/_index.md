@@ -23,7 +23,6 @@ Shows how to access a master document's subdocument.
 Document doc = new Document(MyDir + "Master document.docx");
 
 NodeCollection subDocuments = doc.GetChildNodes(NodeType.SubDocument, true);
-
 // This node serves as a reference to an external document, and its contents cannot be accessed.
 SubDocument subDocument = (SubDocument)subDocuments[0];
 

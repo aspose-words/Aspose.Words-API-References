@@ -32,7 +32,6 @@ According to this rule Aspose.Words evaluates all the related fields in [`FontIn
 Shows how to set the property for finding the closest match for a missing font from the available font sources.
 
 ```csharp
-[Test]
 public void EnableFontSubstitution()
 {
     // Open a document that contains text formatted with a font that does not exist in any of our font sources.

@@ -23,7 +23,6 @@ Shows how to work with CITATION and BIBLIOGRAPHY fields.
 // Open a document containing bibliographical sources that we can find in
 // Microsoft Word via References -> Citations & Bibliography -> Manage Sources.
 Document doc = new Document(MyDir + "Bibliography.docx");
-
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Text to be cited with one source.");
 

@@ -20,7 +20,6 @@ public IWarningCallback WarningCallback { get; set; }
 Shows how to call warning callback when the font sources working with.
 
 ```csharp
-[Test]
 public void FontSourceWarning()
 {
     FontSettings settings = new FontSettings();

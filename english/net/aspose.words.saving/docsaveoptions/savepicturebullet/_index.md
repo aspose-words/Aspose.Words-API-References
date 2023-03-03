@@ -25,7 +25,6 @@ Shows how to omit PictureBullet data from the document when saving.
 
 ```csharp
 Document doc = new Document(MyDir + "Image bullet points.docx");
-
 // Some word processors, such as Microsoft Word 97, are incompatible with PictureBullet data.
 // By setting a flag in the SaveOptions object,
 // we can convert all image bullet points to ordinary bullet points while saving.

@@ -20,7 +20,6 @@ public int PageIndex { get; }
 Shows how to track layout changes with a layout callback.
 
 ```csharp
-[Test]
 public void PageLayoutCallback()
 {
     Document doc = new Document();

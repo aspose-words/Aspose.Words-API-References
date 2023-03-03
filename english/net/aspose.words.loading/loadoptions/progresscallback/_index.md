@@ -24,7 +24,6 @@ Docx, FlatOpc, Docm, Dotm, Dotx, Markdown, Rtf, WordML, Doc, Dot, Odt, Ott forma
 Shows how to notify the user if document loading exceeded expected loading time.
 
 ```csharp
-[Test]
 public void ProgressCallback()
 {
     LoadingProgressCallback progressCallback = new LoadingProgressCallback();

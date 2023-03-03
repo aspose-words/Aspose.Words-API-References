@@ -38,7 +38,6 @@ Shows how to print all of a document's comments and their replies.
 Document doc = new Document(MyDir + "Comments.docx");
 
 NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
-
 // If a comment has no ancestor, it is a "top-level" comment as opposed to a reply-type comment.
 // Print all top-level comments along with any replies they may have.
 foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null))

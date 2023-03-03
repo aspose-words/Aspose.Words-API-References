@@ -30,7 +30,6 @@ An exception should be threw from the progress callback for abortion and it shou
 Shows how to notify the user if document loading exceeded expected loading time.
 
 ```csharp
-[Test]
 public void ProgressCallback()
 {
     LoadingProgressCallback progressCallback = new LoadingProgressCallback();
