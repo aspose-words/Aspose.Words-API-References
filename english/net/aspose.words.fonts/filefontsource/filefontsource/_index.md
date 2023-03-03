@@ -99,7 +99,6 @@ public FileFontSource(string filePath, int priority, string cacheKey)
 Shows how to speed up the font cache initialization process.
 
 ```csharp
-[Test]
 public void LoadFontSearchCache()
 {
     const string cacheKey1 = "Arvo";

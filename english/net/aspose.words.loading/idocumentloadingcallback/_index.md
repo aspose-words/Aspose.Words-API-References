@@ -26,7 +26,6 @@ public interface IDocumentLoadingCallback
 Shows how to notify the user if document loading exceeded expected loading time.
 
 ```csharp
-[Test]
 public void ProgressCallback()
 {
     LoadingProgressCallback progressCallback = new LoadingProgressCallback();

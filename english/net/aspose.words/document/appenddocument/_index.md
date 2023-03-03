@@ -34,7 +34,6 @@ dstDoc.FirstSection.Body.AppendParagraph("Destination document text. ");
 // Append the source document to the destination document while preserving its formatting,
 // then save the source document to the local file system.
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.KeepSourceFormatting);
-
 dstDoc.Save(ArtifactsDir + "Document.AppendDocument.docx");
 ```
 
@@ -48,7 +47,6 @@ builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Template Document");
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Normal;
 builder.Writeln("Some content here");
-
 // Append all unencrypted documents with the .doc extension
 // from our local file system directory to the base document.
 List<string> docFiles = Directory.GetFiles(MyDir, "*.doc").Where(item => item.EndsWith(".doc")).ToList();

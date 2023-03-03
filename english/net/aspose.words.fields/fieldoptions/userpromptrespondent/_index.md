@@ -26,7 +26,6 @@ The default value is `null`.
 Shows how to create an ASK field, and set its properties.
 
 ```csharp
-[Test]
 public void FieldAsk()
 {
     Document doc = new Document();

@@ -48,13 +48,11 @@ string[] categories = { "Category 1", "Category 2", "Category 3", "Category 4" }
 // We can add a series with new values for existing categories.
 // This chart will now contain four clusters of four columns.
 chart.Series.Add("Series 4", categories, new[] { 4.4, 7.0, 3.5, 2.1 });
-
 // A chart series can also be removed by index, like this.
 // This will remove one of the three demo series that came with the chart.
 chartData.RemoveAt(2);
 
 Assert.False(chartData.Any(s => s.Name == "Series 3"));
-
 // We can also clear all the chart's data at once with this method.
 // When creating a new chart, this is the way to wipe all the demo data
 // before we can begin working on a blank chart.

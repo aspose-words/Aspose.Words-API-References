@@ -26,7 +26,6 @@ If the provider is present, then the culture object it returns is used for the f
 Shows how to specify a culture which parses date/time formatting for each field.
 
 ```csharp
-[Test]
 public void DefineDateTimeFormatting()
 {
     Document doc = new Document();

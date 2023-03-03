@@ -28,7 +28,6 @@ Exception when thrown by implementation aborts layout build process.
 Shows how to track layout changes with a layout callback.
 
 ```csharp
-[Test]
 public void PageLayoutCallback()
 {
     Document doc = new Document();

@@ -37,7 +37,6 @@ If the source node already belongs to the destination document, then simply a de
 Shows how to insert the contents of one document to a bookmark in another document.
 
 ```csharp
-[Test]
 public void InsertAtBookmark()
 {
     Document doc = new Document();

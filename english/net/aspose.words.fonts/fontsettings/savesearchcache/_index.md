@@ -28,7 +28,6 @@ See [`SetFontsSources`](../setfontssources/) method description for more info.
 Shows how to speed up the font cache initialization process.
 
 ```csharp
-[Test]
 public void LoadFontSearchCache()
 {
     const string cacheKey1 = "Arvo";

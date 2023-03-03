@@ -106,7 +106,6 @@ It is highly recommended to provide the same font sources when loading cache as 
 Shows how to speed up the font cache initialization process.
 
 ```csharp
-[Test]
 public void LoadFontSearchCache()
 {
     const string cacheKey1 = "Arvo";

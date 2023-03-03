@@ -29,7 +29,6 @@ User response (i.e. confirmed value contained in the prompt window).
 Shows how to create an ASK field, and set its properties.
 
 ```csharp
-[Test]
 public void FieldAsk()
 {
     Document doc = new Document();

@@ -36,7 +36,6 @@ public sealed class VbaReferenceCollection : IEnumerable<VbaReference>
 Shows how to get/remove an element from the VBA reference collection.
 
 ```csharp
-[Test]
 public void RemoveVbaReference()
 {
     const string brokenPath = @"X:\broken.dll";
