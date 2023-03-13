@@ -3,7 +3,7 @@ title: sdt_type property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets type of this structured document tag."
 type: docs
-weight: 130
+weight: 140
 url: /python-net/aspose.words.markup/structureddocumenttagrangestart/sdt_type/
 ---
 

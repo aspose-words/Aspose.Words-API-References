@@ -3,7 +3,7 @@ title: gradient_style property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets the gradient style [GradientStyle](../../gradientstyle/) for the fill."
 type: docs
-weight: 70
+weight: 110
 url: /python-net/aspose.words.drawing/fill/gradient_style/
 ---
 

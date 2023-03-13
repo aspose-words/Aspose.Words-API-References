@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: ConditionalStyle class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents special formatting applied to some area of a table with assigned table style"

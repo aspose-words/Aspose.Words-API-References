@@ -3,7 +3,7 @@ title: scaling property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Provides access to the scaling options of the axis."
 type: docs
-weight: 190
+weight: 210
 url: /python-net/aspose.words.drawing.charts/chartaxis/scaling/
 ---
 

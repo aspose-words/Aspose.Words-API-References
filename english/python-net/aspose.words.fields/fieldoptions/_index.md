@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: FieldOptions class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents options to control field handling in a document"

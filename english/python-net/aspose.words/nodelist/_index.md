@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: NodeList class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents a collection of nodes matching an XPath query executed using the [CompositeNode.select_nodes()](../compositenode/select_nodes/#str) method"

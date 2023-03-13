@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: StructuredDocumentTagRangeStart class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents a start of ranged structured document tag which accepts multi-sections content"
@@ -45,7 +45,7 @@ Can be immediate child of [Body](../../aspose.words/body/) node **only**.
 | [lock_content_control](./lock_content_control/) | When set to ``True``, this property will prohibit a user from deleting this structured document tag. |
 | [lock_contents](./lock_contents/) | When set to ``True``, this property will prohibit a user from editing the contents of this structured document tag. |
 | [next_sibling](../../aspose.words/node/next_sibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
-| [node_type](../../aspose.words/node/node_type/) | Gets the type of this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
+| [node_type](./node_type/) | Returns [NodeType.STRUCTURED_DOCUMENT_TAG_RANGE_START](../../aspose.words/nodetype/#STRUCTURED_DOCUMENT_TAG_RANGE_START). |
 | [parent_node](../../aspose.words/node/parent_node/) | Gets the immediate parent of this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [placeholder](./placeholder/) | Gets the [BuildingBlock](../../aspose.words.buildingblocks/buildingblock/) containing placeholder text which should be displayed when this structured document tag run contents are empty, the associated mapped XML element is empty as specified via the [StructuredDocumentTagRangeStart.xml_mapping](./xml_mapping/) element or the [StructuredDocumentTagRangeStart.is_showing_placeholder_text](./is_showing_placeholder_text/) element is ``True``. |
 | [placeholder_name](./placeholder_name/) | Gets or sets Name of the [BuildingBlock](../../aspose.words.buildingblocks/buildingblock/) containing placeholder text. |
@@ -62,7 +62,7 @@ Can be immediate child of [Body](../../aspose.words/body/) node **only**.
 
 | Name | Description |
 | --- | --- |
-|[ accept(visitor)](../../aspose.words/node/accept/#documentvisitor) | Accepts a visitor.<br>(Inherited from [Node](../../aspose.words/node/)) |
+|[ accept(visitor)](./accept/#documentvisitor) | Accepts a visitor. |
 |[ append_child(new_child)](./append_child/#node) | Adds the specified node to the end of the stdContent range. |
 |[ clone(is_clone_children)](../../aspose.words/node/clone/#bool) | Creates a duplicate of the node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ get_ancestor(ancestor_type)](../../aspose.words/node/get_ancestor/#unknown) | Gets the first ancestor of the specified object type.<br>(Inherited from [Node](../../aspose.words/node/)) |

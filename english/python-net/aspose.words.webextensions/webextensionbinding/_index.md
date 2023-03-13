@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: WebExtensionBinding class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies a binding relationship between a web extension and the data in the document"

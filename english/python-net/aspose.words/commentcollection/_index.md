@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: CommentCollection class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Provides typed access to a collection of [Comment](../comment/) nodes"

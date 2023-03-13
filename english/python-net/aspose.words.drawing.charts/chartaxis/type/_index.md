@@ -3,7 +3,7 @@ title: type property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Returns type of the axis."
 type: docs
-weight: 260
+weight: 280
 url: /python-net/aspose.words.drawing.charts/chartaxis/type/
 ---
 

@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: FieldDatabaseDataRow class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Provides data for the [FieldDatabase](../fielddatabase/) field result"
@@ -9,7 +9,7 @@ url: /python-net/aspose.words.fields/fielddatabasedatarow/
 
 ## FieldDatabaseDataRow class
 
-Provides data for the [FieldDatabase](../fielddatabase/) field result.
+Provides data for the [FieldDatabase](../fielddatabase/) field result. Please see System.Data.DataRow instance.
 To learn more, visit the [Working with Fields](https://docs.aspose.com/words/python-net/working-with-fields/) documentation article.
 
 

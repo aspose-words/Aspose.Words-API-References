@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: HeaderFooter class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents a container for the header or footer text of a section"

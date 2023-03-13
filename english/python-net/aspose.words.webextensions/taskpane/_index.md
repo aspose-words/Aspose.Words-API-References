@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: TaskPane class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents an add-in task pane object"

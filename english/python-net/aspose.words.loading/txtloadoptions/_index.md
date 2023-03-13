@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: TxtLoadOptions class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Allows to specify additional options when loading [LoadFormat.TEXT](../../aspose.words/loadformat/#TEXT) document into a [Document](../../aspose.words/document/) object"

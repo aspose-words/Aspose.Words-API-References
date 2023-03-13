@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: FileFormatInfo class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Contains data returned by [FileFormatUtil](../fileformatutil/) document format detection methods"

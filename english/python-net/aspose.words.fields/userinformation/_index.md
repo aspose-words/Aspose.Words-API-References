@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: UserInformation class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies information about the user"

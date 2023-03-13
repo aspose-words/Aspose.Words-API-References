@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: aspose.words.fields module
 second_title: Aspose.Words for Python via .NET API Reference
 description: "The aspose.words.fields module contains classes that represent Microsoft Word fields in a document."
@@ -46,8 +46,8 @@ represent Microsoft Word fields in a document.
 | [FieldCreateDate](./fieldcreatedate/) | Implements the CREATEDATE field. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/python-net/working-with-fields/) documentation article. |
 | [FieldData](./fielddata/) | Implements the DATA field. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/python-net/working-with-fields/) documentation article. |
 | [FieldDatabase](./fielddatabase/) | Implements the DATABASE field. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/python-net/working-with-fields/) documentation article. |
-| [FieldDatabaseDataRow](./fielddatabasedatarow/) | Provides data for the [FieldDatabase](./fielddatabase/) field result. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/python-net/working-with-fields/) documentation article. |
-| [FieldDatabaseDataTable](./fielddatabasedatatable/) | Provides data for the [FieldDatabase](./fielddatabase/) field result. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/python-net/working-with-fields/) documentation article. |
+| [FieldDatabaseDataRow](./fielddatabasedatarow/) | Provides data for the [FieldDatabase](./fielddatabase/) field result. Please see System.Data.DataRow instance. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/python-net/working-with-fields/) documentation article. |
+| [FieldDatabaseDataTable](./fielddatabasedatatable/) | Provides data for the [FieldDatabase](./fielddatabase/) field result. Please see System.Data.DataTable instance. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/python-net/working-with-fields/) documentation article. |
 | [FieldDate](./fielddate/) | Implements the DATE field. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/python-net/working-with-fields/) documentation article. |
 | [FieldDde](./fielddde/) | Implements the DDE field. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/python-net/working-with-fields/) documentation article. |
 | [FieldDdeAuto](./fieldddeauto/) | Implements the DDEAUTO field. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/python-net/working-with-fields/) documentation article. |

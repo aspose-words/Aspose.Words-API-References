@@ -3,7 +3,7 @@ title: gradient_variant property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets the gradient variant [GradientVariant](../../gradientvariant/) for the fill."
 type: docs
-weight: 80
+weight: 120
 url: /python-net/aspose.words.drawing/fill/gradient_variant/
 ---
 

@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: FieldFormat class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Provides typed access to field's numeric, date and time, and general formatting"

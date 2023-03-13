@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: aspose.words.tables module
 second_title: Aspose.Words for Python via .NET API Reference
 description: "The aspose.words.tables module contains classes that represent tables, rows, cells and their formatting."

@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: CommentRangeStart class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Denotes the start of a region of text that has a comment associated with it"

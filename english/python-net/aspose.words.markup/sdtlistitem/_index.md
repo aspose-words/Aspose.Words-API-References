@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: SdtListItem class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "This element specifies a single list item within a parent [SdtType.COMBO_BOX](../sdttype/#COMBO_BOX) or [SdtType.DROP_DOWN_LIST](../sdttype/#DROP_DOWN_LIST) structured document tag"

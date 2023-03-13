@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: RtfLoadOptions class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Allows to specify additional options when loading [LoadFormat.RTF](../../aspose.words/loadformat/#RTF) document into a [Document](../../aspose.words/document/) object"

@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: FieldCollection class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "A collection of [Field](../field/) objects that represents the fields in the specified range"

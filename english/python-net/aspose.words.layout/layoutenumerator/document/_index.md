@@ -3,7 +3,7 @@ title: document property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets document this instance enumerates."
 type: docs
-weight: 20
+weight: 30
 url: /python-net/aspose.words.layout/layoutenumerator/document/
 ---
 

@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: ChartSeries class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents chart series properties"
@@ -21,15 +21,15 @@ To learn more, visit the [Working with Charts](https://docs.aspose.com/words/pyt
 
 | Name | Description |
 | --- | --- |
-| [bubble_3d](../ichartdatapoint/bubble_3d/) | Specifies whether the bubbles in Bubble chart should have a 3-D effect applied to them.<br>(Inherited from [IChartDataPoint](../ichartdatapoint/)) |
+| [bubble_3d](./bubble_3d/) | Specifies whether the bubbles in Bubble chart should have a 3-D effect applied to them. |
 | [data_labels](./data_labels/) | Specifies the settings for the data labels for the entire series. |
 | [data_points](./data_points/) | Returns a collection of formatting objects for all data points in this series. |
-| [explosion](../ichartdatapoint/explosion/) | Specifies the amount the data point shall be moved from the center of the pie. Can be negative, negative means that property is not set and no explosion should be applied. Applies only to Pie charts.<br>(Inherited from [IChartDataPoint](../ichartdatapoint/)) |
+| [explosion](./explosion/) | Specifies the amount the data point shall be moved from the center of the pie. Can be negative, negative means that property is not set and no explosion should be applied. Applies only to Pie charts. |
 | [format](./format/) | Provides access to fill and line formatting of the series. |
 | [has_data_labels](./has_data_labels/) | Gets or sets a flag indicating whether data labels are displayed for the series. |
-| [invert_if_negative](../ichartdatapoint/invert_if_negative/) | Specifies whether the parent element shall inverts its colors if the value is negative.<br>(Inherited from [IChartDataPoint](../ichartdatapoint/)) |
+| [invert_if_negative](./invert_if_negative/) | Specifies whether the parent element shall inverts its colors if the value is negative. |
 | [legend_entry](./legend_entry/) | Gets a legend entry for this chart series. |
-| [marker](../ichartdatapoint/marker/) | Specifies a data marker. Marker is automatically created when requested.<br>(Inherited from [IChartDataPoint](../ichartdatapoint/)) |
+| [marker](./marker/) | Specifies a data marker. Marker is automatically created when requested. |
 | [name](./name/) | Gets or sets the name of the series, if name is not set explicitly it is generated using index. By default returns Series plus one based index. |
 | [smooth](./smooth/) | Allows to specify whether the line connecting the points on the chart shall be smoothed using Catmull-Rom splines. |
 

@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: DocumentLoadingArgs class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "An argument passed into [IDocumentLoadingCallback.notify()](../idocumentloadingcallback/notify/#documentloadingargs)"

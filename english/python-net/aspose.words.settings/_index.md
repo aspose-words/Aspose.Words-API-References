@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: aspose.words.settings module
 second_title: Aspose.Words for Python via .NET API Reference
 description: "The aspose.words.settings module contains classes and enums that are used when specifying various settings and options stored in a document"

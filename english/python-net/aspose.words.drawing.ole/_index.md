@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: aspose.words.drawing.ole module
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Contains classes to work with OLE / ActiveX controls and forms in Microsoft Word documents."

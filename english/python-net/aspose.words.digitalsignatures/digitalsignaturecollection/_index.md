@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: DigitalSignatureCollection class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Provides a read-only collection of digital signatures attached to a document"

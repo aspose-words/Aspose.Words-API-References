@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: SignatureLine class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Provides access to signature line properties"

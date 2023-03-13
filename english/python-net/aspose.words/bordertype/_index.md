@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: BorderType enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies sides of a border"

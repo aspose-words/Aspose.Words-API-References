@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: FileCorruptedException class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Thrown during document load, when the document appears to be corrupted and impossible to load"

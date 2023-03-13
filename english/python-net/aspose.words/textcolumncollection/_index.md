@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: TextColumnCollection class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "A collection of [TextColumn](../textcolumn/) objects that represent all the columns of text in a section of a document"

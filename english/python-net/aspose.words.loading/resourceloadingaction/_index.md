@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: ResourceLoadingAction enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies the mode of resource loading"

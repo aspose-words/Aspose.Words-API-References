@@ -1,0 +1,19 @@
+﻿---
+title: invert_if_negative property
+second_title: Aspose.Words for Python via .NET API Reference
+description: "Specifies whether the parent element shall inverts its colors if the value is negative."
+type: docs
+weight: 50
+url: /python-net/aspose.words.drawing.charts/chartdatapoint/invert_if_negative/
+---
+
+## ChartDataPoint.invert_if_negative property
+
+Specifies whether the parent element shall inverts its colors if the value is negative.
+
+
+### See Also
+
+* module [aspose.words.drawing.charts](../../)
+* class [ChartDataPoint](../)
+

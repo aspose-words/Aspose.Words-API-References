@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: Revision class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents a revision (tracked change) in a document node or style"

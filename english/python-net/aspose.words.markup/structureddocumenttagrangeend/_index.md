@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: StructuredDocumentTagRangeEnd class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents an end of ranged structured document tag which accepts multi-sections content"
@@ -36,7 +36,7 @@ Can be immediate child of [Body](../../aspose.words/body/) node **only**.
 | [id](./id/) | Specifies a unique read-only persistent numerical Id for this **StructuredDocumentTagRange** node. Corresponding [StructuredDocumentTagRangeStart](../structureddocumenttagrangestart/) node has the same [StructuredDocumentTagRangeStart.id](../structureddocumenttagrangestart/id/). |
 | [is_composite](../../aspose.words/node/is_composite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [next_sibling](../../aspose.words/node/next_sibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
-| [node_type](../../aspose.words/node/node_type/) | Gets the type of this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
+| [node_type](./node_type/) | Returns [NodeType.STRUCTURED_DOCUMENT_TAG_RANGE_END](../../aspose.words/nodetype/#STRUCTURED_DOCUMENT_TAG_RANGE_END). |
 | [parent_node](../../aspose.words/node/parent_node/) | Gets the immediate parent of this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [previous_sibling](../../aspose.words/node/previous_sibling/) | Gets the node immediately preceding this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [range](../../aspose.words/node/range/) | Returns a [Range](../../aspose.words/range/) object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
@@ -45,7 +45,7 @@ Can be immediate child of [Body](../../aspose.words/body/) node **only**.
 
 | Name | Description |
 | --- | --- |
-|[ accept(visitor)](../../aspose.words/node/accept/#documentvisitor) | Accepts a visitor.<br>(Inherited from [Node](../../aspose.words/node/)) |
+|[ accept(visitor)](./accept/#documentvisitor) | Accepts a visitor. |
 |[ clone(is_clone_children)](../../aspose.words/node/clone/#bool) | Creates a duplicate of the node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ get_ancestor(ancestor_type)](../../aspose.words/node/get_ancestor/#unknown) | Gets the first ancestor of the specified object type.<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ get_ancestor(ancestor_type)](../../aspose.words/node/get_ancestor/#nodetype) | Gets the first ancestor of the specified [NodeType](../../aspose.words/nodetype/).<br>(Inherited from [Node](../../aspose.words/node/)) |

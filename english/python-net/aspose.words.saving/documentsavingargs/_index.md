@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: DocumentSavingArgs class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "An argument passed into [IDocumentSavingCallback.notify()](../idocumentsavingcallback/notify/#documentsavingargs)"

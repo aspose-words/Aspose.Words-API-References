@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: XamlFlowSaveOptions class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Can be used to specify additional options when saving a document into the  [SaveFormat.XAML_FLOW](../../aspose.words/saveformat/#XAML_FLOW) or [SaveFormat.XAML_FLOW_PACK](../../aspose.words/saveformat/#XAML_FLOW_PACK) format"

@@ -3,7 +3,7 @@ title: parent property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets a parent shape for the [TextBox](../)."
 type: docs
-weight: 80
+weight: 90
 url: /python-net/aspose.words.drawing/textbox/parent/
 ---
 

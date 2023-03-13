@@ -3,7 +3,7 @@ title: import_node method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "aspose.words.DocumentBase.import_node method"
 type: docs
-weight: 90
+weight: 100
 url: /python-net/aspose.words/documentbase/import_node/
 ---
 

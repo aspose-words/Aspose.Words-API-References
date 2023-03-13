@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: Font class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Contains font attributes (font name, font size, color, and so on) for an object"

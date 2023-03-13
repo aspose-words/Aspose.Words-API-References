@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: LayoutOptions class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Holds the options that allow controlling the document layout process"

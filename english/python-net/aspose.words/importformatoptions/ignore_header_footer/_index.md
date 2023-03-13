@@ -3,7 +3,7 @@ title: ignore_header_footer property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets or sets a boolean value that specifies that source formatting of headers/footers content ignored if [ImportFormatMode.KEEP_SOURCE_FORMATTING](../../importformatmode/#KEEP_SOURCE_FORMATTING) mode is used"
 type: docs
-weight: 30
+weight: 40
 url: /python-net/aspose.words/importformatoptions/ignore_header_footer/
 ---
 

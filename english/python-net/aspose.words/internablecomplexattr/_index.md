@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: InternableComplexAttr class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Base class for internable complex attribute"

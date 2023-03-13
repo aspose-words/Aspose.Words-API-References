@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: MarkdownSaveOptions class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Class to specify additional options when saving a document into the [SaveFormat.MARKDOWN](../../aspose.words/saveformat/#MARKDOWN) format"

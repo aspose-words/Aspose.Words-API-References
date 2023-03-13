@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: FieldTC class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Implements the TC field"

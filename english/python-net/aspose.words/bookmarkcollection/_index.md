@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: BookmarkCollection class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "A collection of [Bookmark](../bookmark/) objects that represent the bookmarks in the specified range"

@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: TableSubstitutionRule class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Table font substitution rule"
@@ -36,7 +36,7 @@ Substitutes will be checked for the font name and the [FontInfo.alt_name](../fon
 |[ get_substitutes(original_font_name)](./get_substitutes/#str) | Returns array containing substitute font names for the specified original font name. |
 |[ load(file_name)](./load/#str) | Loads table substitution settings from XML file. |
 |[ load(stream)](./load/#bytesio) | Loads table substitution settings from XML stream. |
-|[ load_android_settings()](./load_android_settings/#default) | Loads predefined table substitution settings for Linux platform. |
+|[ load_android_settings()](./load_android_settings/#default) | Loads predefined table substitution settings for Android platform. |
 |[ load_linux_settings()](./load_linux_settings/#default) | Loads predefined table substitution settings for Linux platform. |
 |[ load_windows_settings()](./load_windows_settings/#default) | Loads predefined table substitution settings for Windows platform. |
 |[ save(file_name)](./save/#str) | Saves the current table substitution settings to file. |

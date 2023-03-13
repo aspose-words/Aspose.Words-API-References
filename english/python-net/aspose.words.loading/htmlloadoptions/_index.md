@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: HtmlLoadOptions class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Allows to specify additional options when loading HTML document into a [Document](../../aspose.words/document/) object"

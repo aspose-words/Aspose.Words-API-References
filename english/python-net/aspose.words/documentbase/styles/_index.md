@@ -3,7 +3,7 @@ title: styles property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Returns a collection of styles defined in the document."
 type: docs
-weight: 70
+weight: 80
 url: /python-net/aspose.words/documentbase/styles/
 ---
 

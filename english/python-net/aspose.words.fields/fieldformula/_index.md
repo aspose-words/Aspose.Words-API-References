@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: FieldFormula class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Implements the = (formula) field"

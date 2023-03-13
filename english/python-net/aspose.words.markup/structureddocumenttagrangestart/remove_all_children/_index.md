@@ -3,7 +3,7 @@ title: remove_all_children method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Removes all the nodes between this range start node and the range end node."
 type: docs
-weight: 200
+weight: 220
 url: /python-net/aspose.words.markup/structureddocumenttagrangestart/remove_all_children/
 ---
 

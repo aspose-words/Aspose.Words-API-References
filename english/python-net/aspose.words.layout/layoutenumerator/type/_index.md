@@ -3,7 +3,7 @@ title: type property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets the type of the current entity."
 type: docs
-weight: 70
+weight: 80
 url: /python-net/aspose.words.layout/layoutenumerator/type/
 ---
 

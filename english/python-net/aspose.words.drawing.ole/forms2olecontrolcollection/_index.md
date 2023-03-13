@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: Forms2OleControlCollection class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents collection of [Forms2OleControl](../forms2olecontrol/) objects"

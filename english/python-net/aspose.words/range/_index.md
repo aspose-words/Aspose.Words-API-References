@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: Range class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents a contiguous area in a document"

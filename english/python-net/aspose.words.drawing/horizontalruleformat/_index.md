@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: HorizontalRuleFormat class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents horizontal rule formatting"

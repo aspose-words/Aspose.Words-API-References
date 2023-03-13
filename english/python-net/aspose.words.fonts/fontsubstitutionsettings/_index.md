@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: FontSubstitutionSettings class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies font substitution mechanism settings"

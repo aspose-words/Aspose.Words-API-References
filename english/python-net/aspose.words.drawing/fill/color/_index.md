@@ -3,7 +3,7 @@ title: color property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets or sets a Color object that represents the foreground color for the fill."
 type: docs
-weight: 20
+weight: 40
 url: /python-net/aspose.words.drawing/fill/color/
 ---
 

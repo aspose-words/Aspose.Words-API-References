@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: TextBox class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Defines attributes that specify how a text is displayed inside a shape"
@@ -32,6 +32,7 @@ You do not create instances of the [TextBox](./) class directly.
 | [internal_margin_top](./internal_margin_top/) | Specifies the inner top margin in points for a shape. |
 | [layout_flow](./layout_flow/) | Determines the flow of the text layout in a shape. |
 | [next](./next/) | Returns or sets a [TextBox](./) that represents the next [TextBox](./) in a sequence of shapes. |
+| [no_text_rotation](./no_text_rotation/) | Gets or sets a boolean value indicating either text of the TextBox should not rotate when the shape is rotated. |
 | [parent](./parent/) | Gets a parent shape for the [TextBox](./). |
 | [previous](./previous/) | Returns a [TextBox](./) that represents the previous [TextBox](./) in a sequence of shapes. |
 | [text_box_wrap_mode](./text_box_wrap_mode/) | Determines how text wraps inside a shape. |

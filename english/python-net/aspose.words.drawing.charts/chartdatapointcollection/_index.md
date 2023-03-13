@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: ChartDataPointCollection class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents collection of a [ChartDataPoint](../chartdatapoint/)"

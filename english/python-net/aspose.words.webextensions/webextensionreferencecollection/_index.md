@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: WebExtensionReferenceCollection class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies a list of web extension references"
