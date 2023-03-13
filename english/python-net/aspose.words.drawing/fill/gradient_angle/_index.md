@@ -3,7 +3,7 @@ title: gradient_angle property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets or sets the angle of the gradient fill."
 type: docs
-weight: 50
+weight: 90
 url: /python-net/aspose.words.drawing/fill/gradient_angle/
 ---
 

@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: AxisBound class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents minimum or maximum bound of axis values"

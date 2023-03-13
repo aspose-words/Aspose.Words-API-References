@@ -3,7 +3,7 @@ title: image_bytes property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets the raw bytes of the fill texture or pattern."
 type: docs
-weight: 90
+weight: 130
 url: /python-net/aspose.words.drawing/fill/image_bytes/
 ---
 

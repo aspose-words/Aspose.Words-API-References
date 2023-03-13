@@ -3,7 +3,7 @@ title: vertical_anchor property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies the vertical alignment of the text within a shape."
 type: docs
-weight: 110
+weight: 120
 url: /python-net/aspose.words.drawing/textbox/vertical_anchor/
 ---
 

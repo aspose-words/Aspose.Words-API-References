@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: ChartAxis class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents the axis options of the chart"
@@ -26,6 +26,8 @@ To learn more, visit the [Working with Charts](https://docs.aspose.com/words/pyt
 | [crosses_at](./crosses_at/) | Specifies where on the perpendicular axis the axis crosses. |
 | [display_unit](./display_unit/) | Specifies the scaling value of the display units for the value axis. |
 | [document](./document/) | Returns the Document the title holder belongs. |
+| [has_major_gridlines](./has_major_gridlines/) | Gets or sets a flag indicating whether the axis has major gridlines. |
+| [has_minor_gridlines](./has_minor_gridlines/) | Gets or sets a flag indicating whether the axis has minor gridlines. |
 | [hidden](./hidden/) | Gets or sets a flag indicating whether this axis is hidden or not. |
 | [major_tick_mark](./major_tick_mark/) | Returns or sets the major tick marks. |
 | [major_unit](./major_unit/) | Returns or sets the distance between major tick marks. |

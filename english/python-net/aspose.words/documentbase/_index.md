@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: DocumentBase class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Provides the abstract base class for a main document and a glossary document of a Word document"
@@ -34,7 +34,7 @@ root node of the tree that contains all other nodes of the document.
 | [child_nodes](../compositenode/child_nodes/) | Gets all immediate child nodes of this node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [count](../compositenode/count/) | Gets the number of immediate children of this node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [custom_node_id](../node/custom_node_id/) | Specifies custom node identifier.<br>(Inherited from [Node](../node/)) |
-| [document](../node/document/) | Gets the document to which this node belongs.<br>(Inherited from [Node](../node/)) |
+| [document](./document/) | Gets this instance. |
 | [first_child](../compositenode/first_child/) | Gets the first child of the node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [font_infos](./font_infos/) | Provides access to properties of fonts used in this document. |
 | [has_child_nodes](../compositenode/has_child_nodes/) | Returns ``True`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../compositenode/)) |

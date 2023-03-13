@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: ChartNumberFormat class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents number formatting of the parent element"

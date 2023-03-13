@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: FieldDate class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Implements the DATE field"

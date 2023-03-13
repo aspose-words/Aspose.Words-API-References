@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: ChartLegend class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents chart legend properties"

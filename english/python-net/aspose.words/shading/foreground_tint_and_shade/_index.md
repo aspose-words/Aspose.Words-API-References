@@ -15,7 +15,7 @@ The allowed values are in the range from -1 (the darkest) to 1 (the lightest) fo
 Zero (0) is neutral. Attempting to set this property to a value less than -1 or more than 1
 results in System.ArgumentOutOfRangeException.
 
-Setting this property for Border object with non-theme colors
+Setting this property for Shading object with non-theme colors
 results in System.InvalidOperationException.
 
 

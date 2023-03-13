@@ -3,7 +3,7 @@ title: font_infos property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Provides access to properties of fonts used in this document."
 type: docs
-weight: 20
+weight: 30
 url: /python-net/aspose.words/documentbase/font_infos/
 ---
 

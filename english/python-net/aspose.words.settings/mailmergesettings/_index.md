@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: MailMergeSettings class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies all of the mail merge information for a document"

@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: ChartDataLabel class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents data label on a chart point or trendline"

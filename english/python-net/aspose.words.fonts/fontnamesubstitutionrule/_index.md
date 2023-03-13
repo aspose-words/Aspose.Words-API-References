@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: FontNameSubstitutionRule class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Font substitution rule for processing font name"

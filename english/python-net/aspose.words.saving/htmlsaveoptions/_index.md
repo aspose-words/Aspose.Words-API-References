@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: HtmlSaveOptions class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Can be used to specify additional options when saving a document into the [SaveFormat.HTML](../../aspose.words/saveformat/#HTML), [SaveFormat.MHTML](../../aspose.words/saveformat/#MHTML), [SaveFormat.EPUB](../../aspose.words/saveformat/#EPUB), [SaveFormat.AZW3](../../aspose.words/saveformat/#AZW3) or [SaveFormat.MOBI](../../aspose.words/saveformat/#MOBI) format"

@@ -3,7 +3,7 @@ title: fill_type property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets a fill type."
 type: docs
-weight: 30
+weight: 50
 url: /python-net/aspose.words.drawing/fill/fill_type/
 ---
 

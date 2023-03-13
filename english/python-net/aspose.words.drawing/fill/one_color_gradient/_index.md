@@ -3,7 +3,7 @@ title: one_color_gradient method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "aspose.words.drawing.Fill.one_color_gradient method"
 type: docs
-weight: 180
+weight: 220
 url: /python-net/aspose.words.drawing/fill/one_color_gradient/
 ---
 

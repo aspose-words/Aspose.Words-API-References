@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: ComparisonEvaluationResult class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "The comparison evaluation result"

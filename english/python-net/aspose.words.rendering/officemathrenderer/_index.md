@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: OfficeMathRenderer class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Provides methods to render an individual [OfficeMath](../../aspose.words.math/officemath/) to a raster or vector image or to a Graphics object"

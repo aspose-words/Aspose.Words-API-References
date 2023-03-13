@@ -29,7 +29,7 @@ If index is out of range, a ``None`` is returned.
 
 
 Note that markup nodes ([NodeType.STRUCTURED_DOCUMENT_TAG](../../nodetype/#STRUCTURED_DOCUMENT_TAG) and [NodeType.SMART_TAG](../../nodetype/#SMART_TAG))
-are traversed even when  =``False`` and [CompositeNode.get_child()](./#nodetype_int_bool) is invoked for non-markup node type. For example if the first run in a para 
+are traversed even when  =``False`` and [CompositeNode.get_child()](./#nodetype_int_bool) is invoked for non-markup node type. For example if the first run in a para
 is wrapped in a [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/), it will still be returned by [CompositeNode.get_child()](./#nodetype_int_bool)([NodeType.RUN](../../nodetype/#RUN), 0, ``False``).
 
 

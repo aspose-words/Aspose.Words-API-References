@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: CertificateHolder class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents a holder of X509Certificate2 instance"

@@ -3,7 +3,7 @@ title: two_color_gradient method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "aspose.words.drawing.Fill.two_color_gradient method"
 type: docs
-weight: 230
+weight: 270
 url: /python-net/aspose.words.drawing/fill/two_color_gradient/
 ---
 

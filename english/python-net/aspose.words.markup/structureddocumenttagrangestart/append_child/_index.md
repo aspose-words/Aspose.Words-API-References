@@ -3,7 +3,7 @@ title: append_child method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Adds the specified node to the end of the stdContent range."
 type: docs
-weight: 180
+weight: 200
 url: /python-net/aspose.words.markup/structureddocumenttagrangestart/append_child/
 ---
 

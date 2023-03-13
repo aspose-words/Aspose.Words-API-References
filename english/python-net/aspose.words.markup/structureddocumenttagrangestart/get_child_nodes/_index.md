@@ -3,7 +3,7 @@ title: get_child_nodes method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Returns a live collection of child nodes that match the specified types."
 type: docs
-weight: 190
+weight: 210
 url: /python-net/aspose.words.markup/structureddocumenttagrangestart/get_child_nodes/
 ---
 

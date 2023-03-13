@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: DocumentPartSavingArgs class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Provides data for the [IDocumentPartSavingCallback.document_part_saving()](../idocumentpartsavingcallback/document_part_saving/#documentpartsavingargs) callback"

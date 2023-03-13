@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: ImageSize class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Contains information about image size and resolution"

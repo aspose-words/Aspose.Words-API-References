@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: Shading class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Contains shading attributes for an object"

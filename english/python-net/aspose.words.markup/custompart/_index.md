@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: CustomPart class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents a custom (arbitrary content) part, that is not defined by the ISO/IEC 29500 standard"

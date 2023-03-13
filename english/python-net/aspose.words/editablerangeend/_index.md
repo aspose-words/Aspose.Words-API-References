@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: EditableRangeEnd class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents an end of an editable range in a Word document"

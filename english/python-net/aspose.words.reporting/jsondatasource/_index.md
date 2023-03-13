@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: JsonDataSource class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Provides access to data of a JSON file or stream to be used within a report"

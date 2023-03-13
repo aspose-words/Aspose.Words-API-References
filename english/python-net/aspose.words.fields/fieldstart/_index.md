@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: FieldStart class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents a start of a Word field in a document"

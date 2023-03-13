@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: Chart class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Provides access to the chart shape properties"

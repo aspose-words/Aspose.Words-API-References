@@ -1,7 +1,7 @@
 ﻿---
 title: load_android_settings method
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Loads predefined table substitution settings for Linux platform."
+description: "Loads predefined table substitution settings for Android platform."
 type: docs
 weight: 40
 url: /python-net/aspose.words.fonts/tablesubstitutionrule/load_android_settings/
@@ -9,7 +9,7 @@ url: /python-net/aspose.words.fonts/tablesubstitutionrule/load_android_settings/
 
 ## load_android_settings() {#default}
 
-Loads predefined table substitution settings for Linux platform.
+Loads predefined table substitution settings for Android platform.
 
 
 ```python

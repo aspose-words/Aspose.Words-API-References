@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: FindReplaceOptions class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies options for find/replace operations"

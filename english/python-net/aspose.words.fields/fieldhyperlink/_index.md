@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: FieldHyperlink class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Implements the HYPERLINK field To learn more, visit the [Working with Fields](https://docs.aspose.com/words/python-net/working-with-fields/) documentation article."

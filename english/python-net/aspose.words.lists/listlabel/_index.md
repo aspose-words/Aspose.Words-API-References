@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: ListLabel class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Defines properties specific to a list label"

@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: WarningInfo class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Contains information about a warning that Aspose.Words issued during document loading or saving"

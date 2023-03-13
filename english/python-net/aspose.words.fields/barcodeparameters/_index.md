@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: BarcodeParameters class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Container class for barcode parameters to pass-through to BarcodeGenerator"

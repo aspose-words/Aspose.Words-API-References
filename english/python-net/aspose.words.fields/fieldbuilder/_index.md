@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: FieldBuilder class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Builds a field from field code tokens (arguments and switches)"

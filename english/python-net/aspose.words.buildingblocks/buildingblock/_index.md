@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: BuildingBlock class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents a glossary document entry such as a Building Block, AutoText or an AutoCorrect entry"

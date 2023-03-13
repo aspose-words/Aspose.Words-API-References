@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: FieldMergingArgsBase class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Base class for [FieldMergingArgs](../fieldmergingargs/) and [ImageFieldMergingArgs](../imagefieldmergingargs/)"

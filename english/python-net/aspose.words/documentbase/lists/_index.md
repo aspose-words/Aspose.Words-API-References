@@ -3,7 +3,7 @@ title: lists property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Provides access to the list formatting used in the document."
 type: docs
-weight: 30
+weight: 40
 url: /python-net/aspose.words/documentbase/lists/
 ---
 

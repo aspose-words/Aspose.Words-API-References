@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: WriteProtection class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies write protection settings for a document"

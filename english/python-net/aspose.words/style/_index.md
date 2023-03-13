@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: Style class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents a single built-in or user-defined style"

@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: ListFormat class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Allows to control what list formatting is applied to a paragraph"

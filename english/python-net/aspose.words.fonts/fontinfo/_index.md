@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: FontInfo class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies information about a font used in the document"

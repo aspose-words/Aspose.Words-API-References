@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: MetafileRenderingOptions class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Allows to specify additional metafile rendering options"

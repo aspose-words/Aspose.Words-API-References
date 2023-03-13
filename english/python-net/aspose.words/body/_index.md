@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: Body class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents a container for the main text of a section"

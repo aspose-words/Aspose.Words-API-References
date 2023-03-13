@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: PageRange class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents a continuous range of pages"

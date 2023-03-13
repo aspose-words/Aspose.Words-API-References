@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: HyphenationOptions class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Allows to configure document hyphenation options"

@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: aspose.words.saving module
 second_title: Aspose.Words for Python via .NET API Reference
 description: "The aspose.words.saving module provides classes and enumerations that allow to specify additional options for saving or converting documents."
@@ -105,7 +105,7 @@ allow to specify additional options for saving or converting documents.
 | [PdfPermissions](./pdfpermissions/) | Specifies the operations that are allowed to a user on an encrypted PDF document. |
 | [PdfTextCompression](./pdftextcompression/) | Specifies a type of compression applied to all content in the PDF file except images. |
 | [PdfZoomBehavior](./pdfzoombehavior/) | Specifies the type of zoom applied to a PDF document when it is opened in a PDF viewer. |
-| [SvgTextOutputMode](./svgtextoutputmode/) |  |
+| [SvgTextOutputMode](./svgtextoutputmode/) | Allows to specify how text inside a document should be rendered when saving in SVG format. |
 | [TableContentAlignment](./tablecontentalignment/) | Allows to specify the alignment of the content of the table to be used when exporting into Markdown format. |
 | [TiffCompression](./tiffcompression/) | Specifies what type of compression to apply when saving page images into a TIFF file. |
 | [TxtExportHeadersFootersMode](./txtexportheadersfootersmode/) | Specifies the way headers and footers are exported to plain text format. |

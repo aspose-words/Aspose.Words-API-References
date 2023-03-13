@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: aspose.words.properties module
 second_title: Aspose.Words for Python via .NET API Reference
 description: "The aspose.words.properties module provides classes to work with custom and built-in document properties such as title, keywords, company etc."

@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: DigitalSignature class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents a digital signature on a document and the result of its verification"

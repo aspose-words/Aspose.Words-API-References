@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: DropDownItemCollection class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "A collection of strings that represent all the items in a drop-down form field"

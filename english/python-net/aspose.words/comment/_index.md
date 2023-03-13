@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: Comment class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents a container for text of a comment"

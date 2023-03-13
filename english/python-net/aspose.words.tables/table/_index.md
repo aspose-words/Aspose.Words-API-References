@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: Table class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents a table in a Word document"

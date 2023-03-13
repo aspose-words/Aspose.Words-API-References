@@ -3,7 +3,7 @@ title: keep_source_numbering property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets or sets a boolean value that specifies how the numbering will be imported when it clashes in source and destination documents"
 type: docs
-weight: 50
+weight: 60
 url: /python-net/aspose.words/importformatoptions/keep_source_numbering/
 ---
 

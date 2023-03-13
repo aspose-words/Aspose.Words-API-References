@@ -3,7 +3,7 @@ title: texture_alignment property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets or sets the alignment for tile texture fill."
 type: docs
-weight: 150
+weight: 190
 url: /python-net/aspose.words.drawing/fill/texture_alignment/
 ---
 

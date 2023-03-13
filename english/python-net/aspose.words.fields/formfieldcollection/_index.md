@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: FormFieldCollection class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "A collection of [FormField](../formfield/) objects that represent all the form fields in a range"

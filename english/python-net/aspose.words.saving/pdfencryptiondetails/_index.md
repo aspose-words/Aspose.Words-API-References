@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: PdfEncryptionDetails class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Contains details for encrypting and access permissions for a PDF document"

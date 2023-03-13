@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: ChartTitle class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Provides access to the chart title properties"
