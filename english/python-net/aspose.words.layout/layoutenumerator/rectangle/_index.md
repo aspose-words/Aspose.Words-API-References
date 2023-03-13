@@ -3,7 +3,7 @@ title: rectangle property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Returns the bounding rectangle of the current entity relative to the page top left corner (in points)."
 type: docs
-weight: 50
+weight: 60
 url: /python-net/aspose.words.layout/layoutenumerator/rectangle/
 ---
 

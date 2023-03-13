@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: PageInfo class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents information about a particular document page"

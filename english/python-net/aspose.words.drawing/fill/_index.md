@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: Fill class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents fill formatting for an object"
@@ -26,9 +26,13 @@ You do not create instances of the [Fill](./) class directly.
 | Name | Description |
 | --- | --- |
 | [back_color](./back_color/) | Gets or sets a Color object that represents the background color for the fill. |
+| [back_theme_color](./back_theme_color/) | Gets or sets a ThemeColor object that represents the background color for the fill. |
+| [back_tint_and_shade](./back_tint_and_shade/) | Gets or sets a double value that lightens or darkens the background color. |
 | [color](./color/) | Gets or sets a Color object that represents the foreground color for the fill. |
 | [fill_type](./fill_type/) | Gets a fill type. |
 | [fore_color](./fore_color/) | Gets or sets a Color object that represents the foreground color for the fill. |
+| [fore_theme_color](./fore_theme_color/) | Gets or sets a ThemeColor object that represents the foreground color for the fill. |
+| [fore_tint_and_shade](./fore_tint_and_shade/) | Gets or sets a double value that lightens or darkens the foreground color. |
 | [gradient_angle](./gradient_angle/) | Gets or sets the angle of the gradient fill. |
 | [gradient_stops](./gradient_stops/) | Gets a collection of [GradientStop](../gradientstop/) objects for the fill. |
 | [gradient_style](./gradient_style/) | Gets the gradient style [GradientStyle](../gradientstyle/) for the fill. |

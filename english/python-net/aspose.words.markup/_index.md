@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: aspose.words.markup module
 second_title: Aspose.Words for Python via .NET API Reference
 description: "The aspose.words.markup module contains classes that represent customer defined semantics in a document: smart tags, custom XML and structured document tags (content controls)."

@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: XmlDataSource class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Provides access to data of an XML file or stream to be used within a report"

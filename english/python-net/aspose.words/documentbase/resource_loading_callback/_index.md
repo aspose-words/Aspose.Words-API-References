@@ -3,7 +3,7 @@ title: resource_loading_callback property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Allows to control how external resources are loaded."
 type: docs
-weight: 60
+weight: 70
 url: /python-net/aspose.words/documentbase/resource_loading_callback/
 ---
 

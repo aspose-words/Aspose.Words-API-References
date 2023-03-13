@@ -3,7 +3,7 @@ title: pattern property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets a [PatternType](../../patterntype/) for the fill."
 type: docs
-weight: 120
+weight: 160
 url: /python-net/aspose.words.drawing/fill/pattern/
 ---
 

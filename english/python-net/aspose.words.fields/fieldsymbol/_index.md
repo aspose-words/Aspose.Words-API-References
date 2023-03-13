@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: FieldSymbol class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Implements a SYMBOL field"

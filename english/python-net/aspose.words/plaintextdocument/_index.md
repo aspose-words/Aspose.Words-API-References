@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: PlainTextDocument class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Allows to extract plain-text representation of the document's content"

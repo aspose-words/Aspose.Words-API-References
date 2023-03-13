@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: BuildVersionInfo class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Provides information about the current product name and version"

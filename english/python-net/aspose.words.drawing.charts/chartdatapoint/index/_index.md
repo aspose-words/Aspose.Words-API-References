@@ -3,7 +3,7 @@ title: index property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Index of the data point this object applies formatting to."
 type: docs
-weight: 20
+weight: 40
 url: /python-net/aspose.words.drawing.charts/chartdatapoint/index/
 ---
 

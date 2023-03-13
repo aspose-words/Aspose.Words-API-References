@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: ConvertUtil class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Provides helper functions to convert between various measurement units"

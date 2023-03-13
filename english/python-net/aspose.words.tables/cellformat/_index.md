@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: CellFormat class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents all formatting for a table cell"

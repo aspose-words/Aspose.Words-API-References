@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: EndnoteOptions class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents the endnote numbering options for a document or section"

@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: Paragraph class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents a paragraph of text"
@@ -59,7 +59,7 @@ the paragraph as it might make the paragraph invalid when the document is opened
 | [custom_node_id](../node/custom_node_id/) | Specifies custom node identifier.<br>(Inherited from [Node](../node/)) |
 | [document](../node/document/) | Gets the document to which this node belongs.<br>(Inherited from [Node](../node/)) |
 | [first_child](../compositenode/first_child/) | Gets the first child of the node.<br>(Inherited from [CompositeNode](../compositenode/)) |
-| [frame_format](./frame_format/) | Provides access to the paragraph formatting properties. |
+| [frame_format](./frame_format/) | Provides access to the frame formatting properties. |
 | [has_child_nodes](../compositenode/has_child_nodes/) | Returns ``True`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [is_composite](../node/is_composite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
 | [is_delete_revision](./is_delete_revision/) | Returns true if this object was deleted in Microsoft Word while change tracking was enabled. |

@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: KnownTypeSet class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents an unordered set (i.e"

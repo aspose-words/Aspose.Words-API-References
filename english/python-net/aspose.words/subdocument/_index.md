@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: SubDocument class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents a SubDocument - which is a reference to an externally stored document"

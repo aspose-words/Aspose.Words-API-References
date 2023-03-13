@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: VbaReference class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Implements a reference to an Automation type library or VBA project"

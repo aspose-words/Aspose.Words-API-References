@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: CustomDocumentProperties class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "A collection of custom document properties"

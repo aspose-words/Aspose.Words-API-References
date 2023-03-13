@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: FieldChar class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Base class for nodes that represent field characters in a document"

@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: ListLevelCollection class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "A collection of list formatting for each level in a list"

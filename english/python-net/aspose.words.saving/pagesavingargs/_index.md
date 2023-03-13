@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: PageSavingArgs class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Provides data for the [IPageSavingCallback.page_saving()](../ipagesavingcallback/page_saving/#pagesavingargs) event"

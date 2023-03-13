@@ -3,7 +3,7 @@ title: get_start_page_index method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets 1-based index of the page where node begins"
 type: docs
-weight: 60
+weight: 70
 url: /python-net/aspose.words.layout/layoutcollector/get_start_page_index/
 ---
 

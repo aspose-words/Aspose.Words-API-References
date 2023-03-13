@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: ReplacingArgs class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Provides data for a custom replace operation"

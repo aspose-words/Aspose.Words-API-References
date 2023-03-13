@@ -3,7 +3,7 @@ title: get_num_pages_spanned method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets number of pages the specified node spans"
 type: docs
-weight: 50
+weight: 60
 url: /python-net/aspose.words.layout/layoutcollector/get_num_pages_spanned/
 ---
 

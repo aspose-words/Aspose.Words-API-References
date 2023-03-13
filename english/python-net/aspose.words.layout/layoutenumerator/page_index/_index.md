@@ -3,7 +3,7 @@ title: page_index property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets the 1-based index of a page which contains the current entity."
 type: docs
-weight: 40
+weight: 50
 url: /python-net/aspose.words.layout/layoutenumerator/page_index/
 ---
 

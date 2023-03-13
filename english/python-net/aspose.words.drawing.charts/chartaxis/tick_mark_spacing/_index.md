@@ -3,7 +3,7 @@ title: tick_mark_spacing property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets or sets the interval, at which tick marks are drawn."
 type: docs
-weight: 250
+weight: 270
 url: /python-net/aspose.words.drawing.charts/chartaxis/tick_mark_spacing/
 ---
 

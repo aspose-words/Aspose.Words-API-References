@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: ChartDataPoint class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Allows to specify formatting of a single data point on the chart"
@@ -26,12 +26,12 @@ The [ChartDataPointCollection](../chartdatapointcollection/) contains a [ChartDa
 
 | Name | Description |
 | --- | --- |
-| [bubble_3d](../ichartdatapoint/bubble_3d/) | Specifies whether the bubbles in Bubble chart should have a 3-D effect applied to them.<br>(Inherited from [IChartDataPoint](../ichartdatapoint/)) |
-| [explosion](../ichartdatapoint/explosion/) | Specifies the amount the data point shall be moved from the center of the pie. Can be negative, negative means that property is not set and no explosion should be applied. Applies only to Pie charts.<br>(Inherited from [IChartDataPoint](../ichartdatapoint/)) |
+| [bubble_3d](./bubble_3d/) | Specifies whether the bubbles in Bubble chart should have a 3-D effect applied to them. |
+| [explosion](./explosion/) | Specifies the amount the data point shall be moved from the center of the pie. Can be negative, negative means that property is not set and no explosion should be applied. Applies only to Pie charts. |
 | [format](./format/) | Provides access to fill and line formatting of this data point. |
 | [index](./index/) | Index of the data point this object applies formatting to. |
-| [invert_if_negative](../ichartdatapoint/invert_if_negative/) | Specifies whether the parent element shall inverts its colors if the value is negative.<br>(Inherited from [IChartDataPoint](../ichartdatapoint/)) |
-| [marker](../ichartdatapoint/marker/) | Specifies a data marker. Marker is automatically created when requested.<br>(Inherited from [IChartDataPoint](../ichartdatapoint/)) |
+| [invert_if_negative](./invert_if_negative/) | Specifies whether the parent element shall inverts its colors if the value is negative. |
+| [marker](./marker/) | Specifies chart data marker. |
 
 ### Methods
 

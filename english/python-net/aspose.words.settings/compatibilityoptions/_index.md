@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: CompatibilityOptions class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Contains compatibility options (that is, the user preferences entered on the Compatibility tab of the Options dialog in Microsoft Word)"
@@ -29,7 +29,7 @@ To learn more, visit the [Detect File Format and Check Format Compatibility](htt
 | [balance_single_byte_double_byte_width](./balance_single_byte_double_byte_width/) | Balance Single Byte and Double Byte Characters. |
 | [cached_col_balance](./cached_col_balance/) | Use Cached Paragraph Information for Column Balancing. |
 | [conv_mail_merge_esc](./conv_mail_merge_esc/) | Treat Backslash Quotation Delimiter as Two Quotation Marks. |
-| [disable_open_type_font_formatting_features](./disable_open_type_font_formatting_features/) |  |
+| [disable_open_type_font_formatting_features](./disable_open_type_font_formatting_features/) | Specifies to disable OpenType font formatting features. |
 | [display_hangul_fixed_width](./display_hangul_fixed_width/) | Always Use Fixed Width for Hangul Characters. |
 | [do_not_autofit_constrained_tables](./do_not_autofit_constrained_tables/) | Do Not AutoFit Tables To Fit Next To Wrapped Objects. |
 | [do_not_break_constrained_forced_table](./do_not_break_constrained_forced_table/) | Don't Break Table Rows Around Floating Tables. |
@@ -73,7 +73,7 @@ To learn more, visit the [Detect File Format and Check Format Compatibility](htt
 | [suppress_top_spacing](./suppress_top_spacing/) | Ignore Minimum and Exact Line Height for First Line on Page. |
 | [suppress_top_spacing_wp](./suppress_top_spacing_wp/) | Emulate WordPerfect 5.x Line Spacing. |
 | [swap_borders_facing_pgs](./swap_borders_facing_pgs/) | Swap Paragraph Borders on Odd Numbered Pages. |
-| [swap_inside_and_outside_for_mirror_indents_and_relative_positioning](./swap_inside_and_outside_for_mirror_indents_and_relative_positioning/) |  |
+| [swap_inside_and_outside_for_mirror_indents_and_relative_positioning](./swap_inside_and_outside_for_mirror_indents_and_relative_positioning/) | Specifies to swap inside and outside for mirror indents and relative positioning. |
 | [transparent_metafiles](./transparent_metafiles/) | Specifies not to blank the area behind metafile pictures. |
 | [truncate_font_heights_like_wp6](./truncate_font_heights_like_wp6/) | Emulate WordPerfect 6.x Font Height Calculation. |
 | [ui_compat_97_to_2003](./ui_compat_97_to_2003/) | True to disable UI functionality which is not compatible with Word97-2003. Default value is ``False``. |
@@ -86,7 +86,7 @@ To learn more, visit the [Detect File Format and Check Format Compatibility](htt
 | [use_printer_metrics](./use_printer_metrics/) | Use Printer Metrics To Display Documents. |
 | [use_single_borderfor_contiguous_cells](./use_single_borderfor_contiguous_cells/) | Use Simplified Rules For Table Border Conflicts. |
 | [use_word2002_table_style_rules](./use_word2002_table_style_rules/) | Emulate Word 2002 Table Style Rules. |
-| [use_word2010_table_style_rules](./use_word2010_table_style_rules/) |  |
+| [use_word2010_table_style_rules](./use_word2010_table_style_rules/) | Specifies to use Word2010 table style rules. |
 | [use_word97_line_break_rules](./use_word97_line_break_rules/) | Emulate Word 97 East Asian Line Breaking. |
 | [wp_justification](./wp_justification/) | Emulate WordPerfect 6.x Paragraph Justification. |
 | [wp_space_width](./wp_space_width/) | Specifies whether to set the width of a space as is done in WordPerfect 5.x. |

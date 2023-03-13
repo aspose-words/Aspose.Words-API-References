@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: CustomXmlPart class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents a Custom XML Data Storage Part (custom XML data within a package)"

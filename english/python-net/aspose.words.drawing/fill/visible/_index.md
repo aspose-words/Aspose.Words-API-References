@@ -3,7 +3,7 @@ title: visible property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets or sets value that is ``True`` if the formatting applied to this instance, is visible."
 type: docs
-weight: 170
+weight: 210
 url: /python-net/aspose.words.drawing/fill/visible/
 ---
 

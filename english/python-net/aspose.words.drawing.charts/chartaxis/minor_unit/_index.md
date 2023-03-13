@@ -3,7 +3,7 @@ title: minor_unit property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Returns or sets the distance between minor tick marks."
 type: docs
-weight: 140
+weight: 160
 url: /python-net/aspose.words.drawing.charts/chartaxis/minor_unit/
 ---
 

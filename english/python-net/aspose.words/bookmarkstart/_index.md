@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: BookmarkStart class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents a start of a bookmark in a Word document"

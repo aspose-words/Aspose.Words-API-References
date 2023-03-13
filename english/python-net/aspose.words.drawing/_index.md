@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: aspose.words.drawing module
 second_title: Aspose.Words for Python via .NET API Reference
 description: "The aspose.words.drawing module provides classes that allow to create and modify drawing objects."

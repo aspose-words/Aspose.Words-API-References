@@ -3,7 +3,7 @@ title: text_box_wrap_mode property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Determines how text wraps inside a shape."
 type: docs
-weight: 100
+weight: 110
 url: /python-net/aspose.words.drawing/textbox/text_box_wrap_mode/
 ---
 

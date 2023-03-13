@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: DocumentVisitor class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Base class for custom document visitors"
@@ -90,8 +90,8 @@ For more information see the Visitor design pattern.
 |[ visit_smart_tag_start(smart_tag)](./visit_smart_tag_start/#smarttag) | Called when enumeration of a smart tag has started. |
 |[ visit_special_char(special_char)](./visit_special_char/#specialchar) | Called when a [SpecialChar](../specialchar/) node is encountered in the document. |
 |[ visit_structured_document_tag_end(sdt)](./visit_structured_document_tag_end/#structureddocumenttag) | Called when enumeration of a structured document tag has ended. |
-|[ visit_structured_document_tag_range_end(sdt_range_end)](./visit_structured_document_tag_range_end/#structureddocumenttagrangeend) |  |
-|[ visit_structured_document_tag_range_start(sdt_range_start)](./visit_structured_document_tag_range_start/#structureddocumenttagrangestart) |  |
+|[ visit_structured_document_tag_range_end(sdt_range_end)](./visit_structured_document_tag_range_end/#structureddocumenttagrangeend) | Called when a StructuredDocumentTagRangeEnd is encountered. |
+|[ visit_structured_document_tag_range_start(sdt_range_start)](./visit_structured_document_tag_range_start/#structureddocumenttagrangestart) | Called when a StructuredDocumentTagRangeStart is encountered. |
 |[ visit_structured_document_tag_start(sdt)](./visit_structured_document_tag_start/#structureddocumenttag) | Called when enumeration of a structured document tag has started. |
 |[ visit_sub_document(sub_document)](./visit_sub_document/#subdocument) | Called when a sub-document is encountered. |
 |[ visit_table_end(table)](./visit_table_end/#table) | Called when enumeration of a table has ended. |

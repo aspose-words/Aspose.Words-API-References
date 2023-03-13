@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: aspose.words.notes module
 second_title: Aspose.Words for Python via .NET API Reference
 description: "The aspose.words.notes module provides classes to work with Microsoft Word endnotes and footnotes."

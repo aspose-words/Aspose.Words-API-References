@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: ResourceSavingArgs class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Provides data for the [IResourceSavingCallback.resource_saving()](../iresourcesavingcallback/resource_saving/#resourcesavingargs) event"

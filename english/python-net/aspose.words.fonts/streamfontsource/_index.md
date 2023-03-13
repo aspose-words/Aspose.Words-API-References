@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: StreamFontSource class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Base class for user-defined stream font source"

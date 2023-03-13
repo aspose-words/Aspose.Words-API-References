@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: VariableCollection class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "A collection of document variables"

@@ -3,7 +3,7 @@ title: minor_unit_is_auto property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets or sets a flag indicating whether default distance between minor tick marks shall be used."
 type: docs
-weight: 150
+weight: 170
 url: /python-net/aspose.words.drawing.charts/chartaxis/minor_unit_is_auto/
 ---
 

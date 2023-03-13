@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: OleFormat class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Provides access to the data of an OLE object or ActiveX control"

@@ -3,7 +3,7 @@ title: data_points property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Returns a collection of formatting objects for all data points in this series."
 type: docs
-weight: 20
+weight: 30
 url: /python-net/aspose.words.drawing.charts/chartseries/data_points/
 ---
 

@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: UnsupportedFileFormatException class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Thrown during document load, when the document format is not recognized or not supported by Aspose.Words"

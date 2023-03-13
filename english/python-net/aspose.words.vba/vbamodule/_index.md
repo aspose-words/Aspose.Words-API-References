@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: VbaModule class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Provides access to VBA project module"

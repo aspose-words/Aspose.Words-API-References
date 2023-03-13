@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: Hyphenation class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Provides methods for working with hyphenation dictionaries"

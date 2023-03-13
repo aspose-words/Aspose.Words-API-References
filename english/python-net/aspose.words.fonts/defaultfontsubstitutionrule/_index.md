@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: DefaultFontSubstitutionRule class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Default font substitution rule"

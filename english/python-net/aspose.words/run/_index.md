@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: Run class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents a run of characters with the same font formatting"

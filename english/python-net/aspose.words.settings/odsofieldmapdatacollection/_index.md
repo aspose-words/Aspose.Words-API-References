@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: OdsoFieldMapDataCollection class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "A typed collection of the [OdsoFieldMapData](../odsofieldmapdata/) objects"

@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: ImageWatermarkOptions class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Contains options that can be specified when adding a watermark with image"

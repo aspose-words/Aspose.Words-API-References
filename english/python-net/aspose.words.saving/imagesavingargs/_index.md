@@ -1,4 +1,4 @@
-﻿---
+﻿﻿---
 title: ImageSavingArgs class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Provides data for the [IImageSavingCallback.image_saving()](../iimagesavingcallback/image_saving/#imagesavingargs) event"

@@ -3,7 +3,7 @@ title: is_valid_link_target method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Determines whether this [TextBox](../) can be linked to the target [TextBox](../)."
 type: docs
-weight: 130
+weight: 140
 url: /python-net/aspose.words.drawing/textbox/is_valid_link_target/
 ---
 
