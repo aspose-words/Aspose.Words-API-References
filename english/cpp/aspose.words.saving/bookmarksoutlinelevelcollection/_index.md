@@ -30,7 +30,7 @@ class BookmarksOutlineLevelCollection : public System::Collections::Generic::IEn
 | [end](./end/)() |  |
 | [end](./end/)() const |  |
 | [get_Count](./get_count/)() | Gets the number of elements contained in the collection. |
-| [GetEnumerator](./getenumerator/)() override |  |
+| [GetEnumerator](./getenumerator/)() override | Returns an enumerator object that can be used to iterate over all items in the collection. |
 | [GetType](./gettype/)() const override |  |
 | [idx_get](./idx_get/)(const System::String\&) | Gets or a sets a bookmark outline level by the bookmark name. |
 | [idx_get](./idx_get/)(int32_t) | Gets or sets a bookmark outline level at the specified index. |

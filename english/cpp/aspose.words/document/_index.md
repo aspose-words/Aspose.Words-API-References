@@ -57,7 +57,7 @@ class Document : public Aspose::Words::DocumentBase,
 | [get_CustomXmlParts](./get_customxmlparts/)() const | Gets or sets the collection of Custom XML Data Storage Parts. |
 | [get_DefaultTabStop](./get_defaulttabstop/)() | Gets or sets the interval (in points) between the default tab stops. |
 | [get_DigitalSignatures](./get_digitalsignatures/)() const | Gets the collection of digital signatures for this document and their validation results. |
-| [get_Document](../documentbase/get_document/)() const override | Gets the document to which this node belongs. |
+| [get_Document](../documentbase/get_document/)() const override | Gets this instance. |
 | [get_EndnoteOptions](./get_endnoteoptions/)() | Provides options that control numbering and positioning of endnotes in this document. |
 | [get_FieldOptions](./get_fieldoptions/)() | Gets a [FieldOptions](../../aspose.words.fields/fieldoptions/) object that represents options to control field handling in the document. |
 | [get_FirstChild](../compositenode/get_firstchild/)() const | Gets the first child of the node. |

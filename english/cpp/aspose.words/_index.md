@@ -114,7 +114,6 @@ The **Aspose.Words** namespace provides classes for generating, converting, modi
 | [HeightRule](./heightrule/) | Specifies the rule for determining the height of an object. |
 | [HtmlInsertOptions](./htmlinsertoptions/) | Specifies options for the [InsertHtml()](../) method. |
 | [ImportFormatMode](./importformatmode/) | Specifies how formatting is merged when importing content from another document. |
-| [LicenseState](./licensestate/) | LicenseState enumeration. |
 | [LineNumberRestartMode](./linenumberrestartmode/) | Determines when automatic line numbering restarts. |
 | [LineSpacingRule](./linespacingrule/) | Specifies line spacing values for a paragraph. |
 | [LineStyle](./linestyle/) | Specifies line style of a [Border](./border/). |

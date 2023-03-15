@@ -26,7 +26,7 @@ class TableSubstitutionRule : public Aspose::Words::Fonts::FontSubstitutionRule
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [Load](./load/)(const System::String\&) | Loads table substitution settings from XML file. |
 | [Load](./load/)(const System::SharedPtr\<System::IO::Stream\>\&) | Loads table substitution settings from XML stream. |
-| [LoadAndroidSettings](./loadandroidsettings/)() | Loads predefined table substitution settings for Linux platform. |
+| [LoadAndroidSettings](./loadandroidsettings/)() | Loads predefined table substitution settings for Android platform. |
 | [LoadLinuxSettings](./loadlinuxsettings/)() | Loads predefined table substitution settings for Linux platform. |
 | [LoadWindowsSettings](./loadwindowssettings/)() | Loads predefined table substitution settings for Windows platform. |
 | [Save](./save/)(const System::String\&) | Saves the current table substitution settings to file. |

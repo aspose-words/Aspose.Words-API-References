@@ -28,7 +28,7 @@ class CompatibilityOptions : public System::Object
 | [get_BalanceSingleByteDoubleByteWidth](./get_balancesinglebytedoublebytewidth/)() | Balance Single Byte and Double Byte Characters. |
 | [get_CachedColBalance](./get_cachedcolbalance/)() | Use Cached [Paragraph](../../aspose.words/paragraph/) Information for Column Balancing. |
 | [get_ConvMailMergeEsc](./get_convmailmergeesc/)() | Treat Backslash Quotation Delimiter as Two Quotation Marks. |
-| [get_DisableOpenTypeFontFormattingFeatures](./get_disableopentypefontformattingfeatures/)() |  |
+| [get_DisableOpenTypeFontFormattingFeatures](./get_disableopentypefontformattingfeatures/)() | Specifies to disable OpenType font formatting features. |
 | [get_DisplayHangulFixedWidth](./get_displayhangulfixedwidth/)() | Always Use Fixed Width for Hangul Characters. |
 | [get_DoNotAutofitConstrainedTables](./get_donotautofitconstrainedtables/)() | Do Not AutoFit [Tables](../../aspose.words.tables/) To Fit Next To Wrapped Objects. |
 | [get_DoNotBreakConstrainedForcedTable](./get_donotbreakconstrainedforcedtable/)() | Don't Break Table Rows Around Floating [Tables](../../aspose.words.tables/). |
@@ -72,7 +72,7 @@ class CompatibilityOptions : public System::Object
 | [get_SuppressTopSpacing](./get_suppresstopspacing/)() | Ignore Minimum and Exact Line Height for First Line on Page. |
 | [get_SuppressTopSpacingWP](./get_suppresstopspacingwp/)() | Emulate WordPerfect 5.x Line Spacing. |
 | [get_SwapBordersFacingPgs](./get_swapbordersfacingpgs/)() | Swap [Paragraph](../../aspose.words/paragraph/) Borders on Odd Numbered Pages. |
-| [get_SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning](./get_swapinsideandoutsideformirrorindentsandrelativepositioning/)() |  |
+| [get_SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning](./get_swapinsideandoutsideformirrorindentsandrelativepositioning/)() | Specifies to swap inside and outside for mirror indents and relative positioning. |
 | [get_TransparentMetafiles](./get_transparentmetafiles/)() | Specifies not to blank the area behind metafile pictures. |
 | [get_TruncateFontHeightsLikeWP6](./get_truncatefontheightslikewp6/)() | Emulate WordPerfect 6.x [Font](../../aspose.words/font/) Height Calculation. |
 | [get_UICompat97To2003](./get_uicompat97to2003/)() | True to disable UI functionality which is not compatible with Word97-2003. Default value is **false**. |
@@ -85,7 +85,7 @@ class CompatibilityOptions : public System::Object
 | [get_UsePrinterMetrics](./get_useprintermetrics/)() | Use Printer Metrics To Display Documents. |
 | [get_UseSingleBorderforContiguousCells](./get_usesingleborderforcontiguouscells/)() | Use Simplified Rules For Table [Border](../../aspose.words/border/) Conflicts. |
 | [get_UseWord2002TableStyleRules](./get_useword2002tablestylerules/)() | Emulate Word 2002 Table [Style](../../aspose.words/style/) Rules. |
-| [get_UseWord2010TableStyleRules](./get_useword2010tablestylerules/)() |  |
+| [get_UseWord2010TableStyleRules](./get_useword2010tablestylerules/)() | Specifies to use Word2010 table style rules. |
 | [get_UseWord97LineBreakRules](./get_useword97linebreakrules/)() | Emulate Word 97 East Asian Line Breaking. |
 | [get_WPJustification](./get_wpjustification/)() | Emulate WordPerfect 6.x [Paragraph](../../aspose.words/paragraph/) Justification. |
 | [get_WPSpaceWidth](./get_wpspacewidth/)() | Specifies whether to set the width of a space as is done in WordPerfect 5.x. |
@@ -102,7 +102,7 @@ class CompatibilityOptions : public System::Object
 | [set_BalanceSingleByteDoubleByteWidth](./set_balancesinglebytedoublebytewidth/)(bool) | Balance Single Byte and Double Byte Characters. |
 | [set_CachedColBalance](./set_cachedcolbalance/)(bool) | Use Cached [Paragraph](../../aspose.words/paragraph/) Information for Column Balancing. |
 | [set_ConvMailMergeEsc](./set_convmailmergeesc/)(bool) | Treat Backslash Quotation Delimiter as Two Quotation Marks. |
-| [set_DisableOpenTypeFontFormattingFeatures](./set_disableopentypefontformattingfeatures/)(bool) |  |
+| [set_DisableOpenTypeFontFormattingFeatures](./set_disableopentypefontformattingfeatures/)(bool) | Specifies to disable OpenType font formatting features. |
 | [set_DisplayHangulFixedWidth](./set_displayhangulfixedwidth/)(bool) | Always Use Fixed Width for Hangul Characters. |
 | [set_DoNotAutofitConstrainedTables](./set_donotautofitconstrainedtables/)(bool) | Do Not AutoFit [Tables](../../aspose.words.tables/) To Fit Next To Wrapped Objects. |
 | [set_DoNotBreakConstrainedForcedTable](./set_donotbreakconstrainedforcedtable/)(bool) | Don't Break Table Rows Around Floating [Tables](../../aspose.words.tables/). |
@@ -146,7 +146,7 @@ class CompatibilityOptions : public System::Object
 | [set_SuppressTopSpacing](./set_suppresstopspacing/)(bool) | Ignore Minimum and Exact Line Height for First Line on Page. |
 | [set_SuppressTopSpacingWP](./set_suppresstopspacingwp/)(bool) | Emulate WordPerfect 5.x Line Spacing. |
 | [set_SwapBordersFacingPgs](./set_swapbordersfacingpgs/)(bool) | Swap [Paragraph](../../aspose.words/paragraph/) Borders on Odd Numbered Pages. |
-| [set_SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning](./set_swapinsideandoutsideformirrorindentsandrelativepositioning/)(bool) |  |
+| [set_SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning](./set_swapinsideandoutsideformirrorindentsandrelativepositioning/)(bool) | Specifies to swap inside and outside for mirror indents and relative positioning. |
 | [set_TransparentMetafiles](./set_transparentmetafiles/)(bool) | Specifies not to blank the area behind metafile pictures. |
 | [set_TruncateFontHeightsLikeWP6](./set_truncatefontheightslikewp6/)(bool) | Emulate WordPerfect 6.x [Font](../../aspose.words/font/) Height Calculation. |
 | [set_UICompat97To2003](./set_uicompat97to2003/)(bool) | True to disable UI functionality which is not compatible with Word97-2003. Default value is **false**. |
@@ -159,7 +159,7 @@ class CompatibilityOptions : public System::Object
 | [set_UsePrinterMetrics](./set_useprintermetrics/)(bool) | Use Printer Metrics To Display Documents. |
 | [set_UseSingleBorderforContiguousCells](./set_usesingleborderforcontiguouscells/)(bool) | Use Simplified Rules For Table [Border](../../aspose.words/border/) Conflicts. |
 | [set_UseWord2002TableStyleRules](./set_useword2002tablestylerules/)(bool) | Emulate Word 2002 Table [Style](../../aspose.words/style/) Rules. |
-| [set_UseWord2010TableStyleRules](./set_useword2010tablestylerules/)(bool) |  |
+| [set_UseWord2010TableStyleRules](./set_useword2010tablestylerules/)(bool) | Specifies to use Word2010 table style rules. |
 | [set_UseWord97LineBreakRules](./set_useword97linebreakrules/)(bool) | Emulate Word 97 East Asian Line Breaking. |
 | [set_WPJustification](./set_wpjustification/)(bool) | Emulate WordPerfect 6.x [Paragraph](../../aspose.words/paragraph/) Justification. |
 | [set_WPSpaceWidth](./set_wpspacewidth/)(bool) | Specifies whether to set the width of a space as is done in WordPerfect 5.x. |

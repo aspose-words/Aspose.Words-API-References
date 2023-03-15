@@ -1,7 +1,7 @@
 ---
 title: get_SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: Specifies to swap inside and outside for mirror indents and relative positioning.
 type: docs
 weight: 703
 url: /cpp/aspose.words.settings/compatibilityoptions/get_swapinsideandoutsideformirrorindentsandrelativepositioning/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.settings/compatibilityoptions/get_swapinsideandoutsidefor
 ## CompatibilityOptions::get_SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning method
 
 
-
+Specifies to swap inside and outside for mirror indents and relative positioning.
 
 ```cpp
 bool Aspose::Words::Settings::CompatibilityOptions::get_SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning()

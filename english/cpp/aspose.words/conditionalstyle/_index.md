@@ -23,7 +23,7 @@ class ConditionalStyle : public Aspose::Words::IBorderAttrSource,
 | Method | Description |
 | --- | --- |
 | [ClearFormatting](./clearformatting/)() | Clears formatting of this conditional style. |
-| [Equals](./equals/)(System::SharedPtr\<System::Object\>) override |  |
+| [Equals](./equals/)(System::SharedPtr\<System::Object\>) override | Compares this conditional style with the specified object. |
 | [get_Borders](./get_borders/)() | Gets the collection of default cell borders for the conditional style. |
 | [get_BottomPadding](./get_bottompadding/)() | Gets or sets the amount of space (in points) to add below the contents of table cells. |
 | [get_Font](./get_font/)() | Gets the character formatting of the conditional style. |
