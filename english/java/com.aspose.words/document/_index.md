@@ -104,7 +104,7 @@ In Microsoft Word, a valid document needs to have at least one section.
 | [getDefaultTabStop()](#getDefaultTabStop) | Gets the interval (in points) between the default tab stops. |
 | [getDigitalSignatures()](#getDigitalSignatures) | Gets the collection of digital signatures for this document and their validation results. |
 | [getDirectSectionAttr(int key)](#getDirectSectionAttr-int) |  |
-| [getDocument()](#getDocument) |  |
+| [getDocument()](#getDocument) | Gets this instance. |
 | [getEndnoteOptions()](#getEndnoteOptions) | Provides options that control numbering and positioning of endnotes in this document. |
 | [getFieldOptions()](#getFieldOptions) | Gets a [FieldOptions](../../com.aspose.words/fieldoptions/) object that represents options to control field handling in the document. |
 | [getFirstChild()](#getFirstChild) | Gets the first child of the node. |
@@ -896,12 +896,10 @@ public DocumentBase getDocument()
 ```
 
 
-Gets the document to which this node belongs.
-
-The node always belongs to a document even if it has just been created and not yet added to the tree, or if it has been removed from the tree.
+Gets this instance.
 
 **Returns:**
-[DocumentBase](../../com.aspose.words/documentbase/)
+[DocumentBase](../../com.aspose.words/documentbase/) - This instance.
 ### getEndnoteOptions() {#getEndnoteOptions}
 ```
 public EndnoteOptions getEndnoteOptions()

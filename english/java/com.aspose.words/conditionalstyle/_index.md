@@ -30,7 +30,7 @@ To learn more, visit the [ Working with Tables ][Working with Tables] documentat
 | [clearFormatting()](#clearFormatting) | Clears formatting of this conditional style. |
 | [clearParaAttrs()](#clearParaAttrs) |  |
 | [clearRunAttrs()](#clearRunAttrs) |  |
-| [equals(Object obj)](#equals-java.lang.Object) |  |
+| [equals(Object obj)](#equals-java.lang.Object) | Compares this conditional style with the specified object. |
 | [fetchInheritedBorderAttr(int key)](#fetchInheritedBorderAttr-int) |  |
 | [fetchInheritedParaAttr(int key)](#fetchInheritedParaAttr-int) |  |
 | [fetchInheritedRunAttr(int key)](#fetchInheritedRunAttr-int) |  |
@@ -97,7 +97,7 @@ public boolean equals(Object obj)
 ```
 
 
-
+Compares this conditional style with the specified object.
 
 **Parameters:**
 | Parameter | Type | Description |

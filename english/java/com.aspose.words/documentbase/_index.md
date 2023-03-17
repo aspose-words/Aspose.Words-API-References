@@ -44,7 +44,7 @@ Aspose.Words represents a Word document as a tree of nodes. [DocumentBase](../..
 | [getCount()](#getCount) | Gets the number of immediate children of this node. |
 | [getCurrentNode()](#getCurrentNode) |  |
 | [getCustomNodeId()](#getCustomNodeId) | Specifies custom node identifier. |
-| [getDocument()](#getDocument) |  |
+| [getDocument()](#getDocument) | Gets this instance. |
 | [getFirstChild()](#getFirstChild) | Gets the first child of the node. |
 | [getFontInfos()](#getFontInfos) | Provides access to properties of fonts used in this document. |
 | [getLastChild()](#getLastChild) | Gets the last child of the node. |
@@ -331,12 +331,10 @@ public DocumentBase getDocument()
 ```
 
 
-Gets the document to which this node belongs.
-
-The node always belongs to a document even if it has just been created and not yet added to the tree, or if it has been removed from the tree.
+Gets this instance.
 
 **Returns:**
-[DocumentBase](../../com.aspose.words/documentbase/)
+[DocumentBase](../../com.aspose.words/documentbase/) - This instance.
 ### getFirstChild() {#getFirstChild}
 ```
 public Node getFirstChild()

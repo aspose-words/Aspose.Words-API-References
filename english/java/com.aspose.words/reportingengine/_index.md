@@ -32,7 +32,7 @@ To learn more, visit the [ LINQ Reporting Engine ][LINQ Reporting Engine] docume
 | [buildReport(Document document, Object dataSource)](#buildReport-com.aspose.words.Document-java.lang.Object) | Populates the specified template document with data from the specified source making it a ready report. |
 | [buildReport(Document document, Object dataSource, String dataSourceName)](#buildReport-com.aspose.words.Document-java.lang.Object-java.lang.String) | Populates the specified template document with data from the specified source making it a ready report. |
 | [buildReport(Document document, Object[] dataSources, String[] dataSourceNames)](#buildReport-com.aspose.words.Document-java.lang.Object---java.lang.String) | Populates the specified template document with data from the specified sources making it a ready report. |
-| [equals(Object obj)](#equals-java.lang.Object) |  |
+| [equals(Object obj)](#equals-java.lang.Object) | Determines whether the specified object is equal in value to the current object. |
 | [getClass()](#getClass) |  |
 | [getKnownTypes()](#getKnownTypes) | Gets an unordered set (i.e. |
 | [getOptions()](#getOptions) | Gets a set of flags controlling behavior of this [ReportingEngine](../../com.aspose.words/reportingengine/) instance while building a report. |
@@ -166,7 +166,7 @@ public boolean equals(Object obj)
 ```
 
 
-
+Determines whether the specified object is equal in value to the current object.
 
 **Parameters:**
 | Parameter | Type | Description |

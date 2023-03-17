@@ -34,7 +34,7 @@ Can be immediate child of [Body](../../com.aspose.words/body/) node **only**.
 
 | Method | Description |
 | --- | --- |
-| [accept(DocumentVisitor visitor)](#accept-com.aspose.words.DocumentVisitor) |  |
+| [accept(DocumentVisitor visitor)](#accept-com.aspose.words.DocumentVisitor) | Accepts a visitor. |
 | [appendChild(Node newChild)](#appendChild-com.aspose.words.Node) | Adds the specified node to the end of the stdContent range. |
 | [dd()](#dd) |  |
 | [deepClone(boolean isCloneChildren)](#deepClone-boolean) | Creates a duplicate of the node. |
@@ -53,7 +53,7 @@ Can be immediate child of [Body](../../com.aspose.words/body/) node **only**.
 | [getLockContentControl()](#getLockContentControl) | When set to  true , this property will prohibit a user from deleting this structured document tag. |
 | [getLockContents()](#getLockContents) | When set to  true , this property will prohibit a user from editing the contents of this structured document tag. |
 | [getNextSibling()](#getNextSibling) | Gets the node immediately following this node. |
-| [getNodeType()](#getNodeType) |  |
+| [getNodeType()](#getNodeType) | Returns [NodeType.STRUCTURED\_DOCUMENT\_TAG\_RANGE\_START](../../com.aspose.words/nodetype/\#STRUCTURED-DOCUMENT-TAG-RANGE-START). |
 | [getParentNode()](#getParentNode) | Gets the immediate parent of this node. |
 | [getPlaceholder()](#getPlaceholder) | Gets the [BuildingBlock](../../com.aspose.words/buildingblock/) containing placeholder text which should be displayed when this structured document tag run contents are empty, the associated mapped XML element is empty as specified via the [getXmlMapping()](../../com.aspose.words/structureddocumenttagrangestart/\#getXmlMapping) element or the [isShowingPlaceholderText()](../../com.aspose.words/structureddocumenttagrangestart/\#isShowingPlaceholderText) / [isShowingPlaceholderText(boolean)](../../com.aspose.words/structureddocumenttagrangestart/\#isShowingPlaceholderText-boolean) element is  true . |
 | [getPlaceholderName()](#getPlaceholderName) | Gets or sets Name of the [BuildingBlock](../../com.aspose.words/buildingblock/) containing placeholder text. |
@@ -123,10 +123,10 @@ For more info see the Visitor design pattern.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor/) |  |
+| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor/) | The visitor that will visit the nodes. |
 
 **Returns:**
-boolean
+boolean - True if all nodes were visited; false if [DocumentVisitor](../../com.aspose.words/documentvisitor/) stopped the operation before visiting all nodes.
 ### appendChild(Node newChild) {#appendChild-com.aspose.words.Node}
 ```
 public Node appendChild(Node newChild)
@@ -364,10 +364,10 @@ public int getNodeType()
 ```
 
 
-Gets the type of this node.
+Returns [NodeType.STRUCTURED\_DOCUMENT\_TAG\_RANGE\_START](../../com.aspose.words/nodetype/\#STRUCTURED-DOCUMENT-TAG-RANGE-START).
 
 **Returns:**
-int
+int - \{[NodeType.STRUCTURED\_DOCUMENT\_TAG\_RANGE\_START](../../com.aspose.words/nodetype/\#STRUCTURED-DOCUMENT-TAG-RANGE-START). The returned value is one of [NodeType](../../com.aspose.words/nodetype/) constants.
 ### getParentNode() {#getParentNode}
 ```
 public CompositeNode getParentNode()
@@ -510,7 +510,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (31405,6)
+Returns  true  if this node can contain other nodes. (31574,6)
 
 **Returns:**
 boolean - \{ true  if this node can contain other nodes.

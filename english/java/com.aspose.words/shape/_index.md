@@ -87,7 +87,11 @@ Shapes that can have text, can contain [Paragraph](../../com.aspose.words/paragr
 | [getFillColor()](#getFillColor) | Defines the brush color that fills the closed path of the shape. |
 | [getFillType()](#getFillType) |  |
 | [getFillableBackColor()](#getFillableBackColor) |  |
+| [getFillableBackThemeColor()](#getFillableBackThemeColor) |  |
+| [getFillableBackTintAndShade()](#getFillableBackTintAndShade) |  |
 | [getFillableForeColor()](#getFillableForeColor) |  |
+| [getFillableForeThemeColor()](#getFillableForeThemeColor) |  |
+| [getFillableForeTintAndShade()](#getFillableForeTintAndShade) |  |
 | [getFillableImageBytes()](#getFillableImageBytes) |  |
 | [getFillableTransparency()](#getFillableTransparency) |  |
 | [getFillableVisible()](#getFillableVisible) |  |
@@ -233,7 +237,11 @@ Shapes that can have text, can contain [Paragraph](../../com.aspose.words/paragr
 | [setEndCap(int value)](#setEndCap-int) |  |
 | [setFillColor(Color value)](#setFillColor-java.awt.Color) | Defines the brush color that fills the closed path of the shape. |
 | [setFillableBackColor(Color value)](#setFillableBackColor-java.awt.Color) |  |
+| [setFillableBackThemeColor(int value)](#setFillableBackThemeColor-int) |  |
+| [setFillableBackTintAndShade(double value)](#setFillableBackTintAndShade-double) |  |
 | [setFillableForeColor(Color value)](#setFillableForeColor-java.awt.Color) |  |
+| [setFillableForeThemeColor(int value)](#setFillableForeThemeColor-int) |  |
+| [setFillableForeTintAndShade(double value)](#setFillableForeTintAndShade-double) |  |
 | [setFillableTransparency(double value)](#setFillableTransparency-double) |  |
 | [setFillableVisible(boolean value)](#setFillableVisible-boolean) |  |
 | [setFilled(boolean value)](#setFilled-boolean) | Determines whether the closed path of the shape will be filled. |
@@ -977,6 +985,26 @@ public Color getFillableBackColor()
 
 **Returns:**
 java.awt.Color
+### getFillableBackThemeColor() {#getFillableBackThemeColor}
+```
+public int getFillableBackThemeColor()
+```
+
+
+
+
+**Returns:**
+int
+### getFillableBackTintAndShade() {#getFillableBackTintAndShade}
+```
+public double getFillableBackTintAndShade()
+```
+
+
+
+
+**Returns:**
+double
 ### getFillableForeColor() {#getFillableForeColor}
 ```
 public Color getFillableForeColor()
@@ -987,6 +1015,26 @@ public Color getFillableForeColor()
 
 **Returns:**
 java.awt.Color
+### getFillableForeThemeColor() {#getFillableForeThemeColor}
+```
+public int getFillableForeThemeColor()
+```
+
+
+
+
+**Returns:**
+int
+### getFillableForeTintAndShade() {#getFillableForeTintAndShade}
+```
+public double getFillableForeTintAndShade()
+```
+
+
+
+
+**Returns:**
+double
 ### getFillableImageBytes() {#getFillableImageBytes}
 ```
 public byte[] getFillableImageBytes()
@@ -2780,6 +2828,32 @@ public void setFillableBackColor(Color value)
 | --- | --- | --- |
 | value | java.awt.Color |  |
 
+### setFillableBackThemeColor(int value) {#setFillableBackThemeColor-int}
+```
+public void setFillableBackThemeColor(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setFillableBackTintAndShade(double value) {#setFillableBackTintAndShade-double}
+```
+public void setFillableBackTintAndShade(double value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | double |  |
+
 ### setFillableForeColor(Color value) {#setFillableForeColor-java.awt.Color}
 ```
 public void setFillableForeColor(Color value)
@@ -2792,6 +2866,32 @@ public void setFillableForeColor(Color value)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.awt.Color |  |
+
+### setFillableForeThemeColor(int value) {#setFillableForeThemeColor-int}
+```
+public void setFillableForeThemeColor(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setFillableForeTintAndShade(double value) {#setFillableForeTintAndShade-double}
+```
+public void setFillableForeTintAndShade(double value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | double |  |
 
 ### setFillableTransparency(double value) {#setFillableTransparency-double}
 ```

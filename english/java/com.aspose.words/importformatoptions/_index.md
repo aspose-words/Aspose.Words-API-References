@@ -25,6 +25,7 @@ To learn more, visit the [ Specify Load Options ][Specify Load Options] document
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getAdjustSentenceAndWordSpacing()](#getAdjustSentenceAndWordSpacing) | Gets a boolean value that specifies whether to adjust sentence and word spacing automatically. |
 | [getClass()](#getClass) |  |
 | [getForceCopyStyles()](#getForceCopyStyles) | Gets a boolean value indicating either to copy conflicting styles in [ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode/\#KEEP-SOURCE-FORMATTING) mode. |
 | [getIgnoreHeaderFooter()](#getIgnoreHeaderFooter) | Gets a boolean value that specifies that source formatting of headers/footers content ignored if [ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode/\#KEEP-SOURCE-FORMATTING) mode is used. |
@@ -35,6 +36,7 @@ To learn more, visit the [ Specify Load Options ][Specify Load Options] document
 | [hashCode()](#hashCode) |  |
 | [notify()](#notify) |  |
 | [notifyAll()](#notifyAll) |  |
+| [setAdjustSentenceAndWordSpacing(boolean value)](#setAdjustSentenceAndWordSpacing-boolean) | Sets a boolean value that specifies whether to adjust sentence and word spacing automatically. |
 | [setForceCopyStyles(boolean value)](#setForceCopyStyles-boolean) | Sets a boolean value indicating either to copy conflicting styles in [ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode/\#KEEP-SOURCE-FORMATTING) mode. |
 | [setIgnoreHeaderFooter(boolean value)](#setIgnoreHeaderFooter-boolean) | Sets a boolean value that specifies that source formatting of headers/footers content ignored if [ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode/\#KEEP-SOURCE-FORMATTING) mode is used. |
 | [setIgnoreTextBoxes(boolean value)](#setIgnoreTextBoxes-boolean) | Sets a boolean value that specifies that source formatting of textboxes content ignored if [ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode/\#KEEP-SOURCE-FORMATTING) mode is used. |
@@ -60,6 +62,16 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### getAdjustSentenceAndWordSpacing() {#getAdjustSentenceAndWordSpacing}
+```
+public boolean getAdjustSentenceAndWordSpacing()
+```
+
+
+Gets a boolean value that specifies whether to adjust sentence and word spacing automatically. The default value is  false .
+
+**Returns:**
+boolean - A boolean value that specifies whether to adjust sentence and word spacing automatically.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -165,6 +177,19 @@ public final native void notifyAll()
 
 
 
+
+### setAdjustSentenceAndWordSpacing(boolean value) {#setAdjustSentenceAndWordSpacing-boolean}
+```
+public void setAdjustSentenceAndWordSpacing(boolean value)
+```
+
+
+Sets a boolean value that specifies whether to adjust sentence and word spacing automatically. The default value is  false .
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | A boolean value that specifies whether to adjust sentence and word spacing automatically. |
 
 ### setForceCopyStyles(boolean value) {#setForceCopyStyles-boolean}
 ```

@@ -58,6 +58,10 @@ To learn more, visit the [ Working with Charts ][Working with Charts] documentat
 | [getTitleDeleted()](#getTitleDeleted) |  |
 | [getTitlePosition()](#getTitlePosition) |  |
 | [getType()](#getType) | Returns type of the axis. |
+| [hasMajorGridlines()](#hasMajorGridlines) | Gets a flag indicating whether the axis has major gridlines. |
+| [hasMajorGridlines(boolean value)](#hasMajorGridlines-boolean) | Sets a flag indicating whether the axis has major gridlines. |
+| [hasMinorGridlines()](#hasMinorGridlines) | Gets a flag indicating whether the axis has minor gridlines. |
+| [hasMinorGridlines(boolean value)](#hasMinorGridlines-boolean) | Sets a flag indicating whether the axis has minor gridlines. |
 | [hashCode()](#hashCode) |  |
 | [isInherited()](#isInherited) |  |
 | [isVisible()](#isVisible) |  |
@@ -445,6 +449,52 @@ Returns type of the axis.
 
 **Returns:**
 int - Type of the axis. The returned value is one of [ChartAxisType](../../com.aspose.words/chartaxistype/) constants.
+### hasMajorGridlines() {#hasMajorGridlines}
+```
+public boolean hasMajorGridlines()
+```
+
+
+Gets a flag indicating whether the axis has major gridlines.
+
+**Returns:**
+boolean - A flag indicating whether the axis has major gridlines.
+### hasMajorGridlines(boolean value) {#hasMajorGridlines-boolean}
+```
+public void hasMajorGridlines(boolean value)
+```
+
+
+Sets a flag indicating whether the axis has major gridlines.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | A flag indicating whether the axis has major gridlines. |
+
+### hasMinorGridlines() {#hasMinorGridlines}
+```
+public boolean hasMinorGridlines()
+```
+
+
+Gets a flag indicating whether the axis has minor gridlines.
+
+**Returns:**
+boolean - A flag indicating whether the axis has minor gridlines.
+### hasMinorGridlines(boolean value) {#hasMinorGridlines-boolean}
+```
+public void hasMinorGridlines(boolean value)
+```
+
+
+Sets a flag indicating whether the axis has minor gridlines.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | A flag indicating whether the axis has minor gridlines. |
+
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()

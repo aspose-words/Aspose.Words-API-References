@@ -34,7 +34,7 @@ This rule defines the list of substitute font names to be used if the original f
 | [hashCode()](#hashCode) |  |
 | [load(InputStream stream)](#load-java.io.InputStream) |  |
 | [load(String fileName)](#load-java.lang.String) | Loads table substitution settings from XML file. |
-| [loadAndroidSettings()](#loadAndroidSettings) | Loads predefined table substitution settings for Linux platform. |
+| [loadAndroidSettings()](#loadAndroidSettings) | Loads predefined table substitution settings for Android platform. |
 | [loadLinuxSettings()](#loadLinuxSettings) | Loads predefined table substitution settings for Linux platform. |
 | [loadWindowsSettings()](#loadWindowsSettings) | Loads predefined table substitution settings for Windows platform. |
 | [notify()](#notify) |  |
@@ -153,7 +153,7 @@ public void loadAndroidSettings()
 ```
 
 
-Loads predefined table substitution settings for Linux platform.
+Loads predefined table substitution settings for Android platform.
 
 ### loadLinuxSettings() {#loadLinuxSettings}
 ```

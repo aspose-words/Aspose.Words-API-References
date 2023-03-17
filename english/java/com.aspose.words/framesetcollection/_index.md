@@ -32,7 +32,7 @@ To learn more, visit the [ Programming with Documents ][Programming with Documen
 | [getClass()](#getClass) |  |
 | [getCount()](#getCount) | Gets the number of frames or frames pages contained in the collection. |
 | [hashCode()](#hashCode) |  |
-| [iterator()](#iterator) |  |
+| [iterator()](#iterator) | Returns an enumerator that iterates through the collection. |
 | [notify()](#notify) |  |
 | [notifyAll()](#notifyAll) |  |
 | [toString()](#toString) |  |
@@ -105,7 +105,7 @@ public Iterator iterator()
 ```
 
 
-
+Returns an enumerator that iterates through the collection.
 
 **Returns:**
 java.util.Iterator

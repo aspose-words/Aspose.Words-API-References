@@ -38,7 +38,7 @@ To learn more, visit the [ Detect File Format and Check Format Compatibility ][D
 | [getCachedColBalance()](#getCachedColBalance) | Use Cached Paragraph Information for Column Balancing. |
 | [getClass()](#getClass) |  |
 | [getConvMailMergeEsc()](#getConvMailMergeEsc) | Treat Backslash Quotation Delimiter as Two Quotation Marks. |
-| [getDisableOpenTypeFontFormattingFeatures()](#getDisableOpenTypeFontFormattingFeatures) |  |
+| [getDisableOpenTypeFontFormattingFeatures()](#getDisableOpenTypeFontFormattingFeatures) | Specifies to disable OpenType font formatting features. |
 | [getDisplayHangulFixedWidth()](#getDisplayHangulFixedWidth) | Always Use Fixed Width for Hangul Characters. |
 | [getDoNotAutofitConstrainedTables()](#getDoNotAutofitConstrainedTables) | Do Not AutoFit Tables To Fit Next To Wrapped Objects. |
 | [getDoNotBreakConstrainedForcedTable()](#getDoNotBreakConstrainedForcedTable) | Don't Break Table Rows Around Floating Tables. |
@@ -82,7 +82,7 @@ To learn more, visit the [ Detect File Format and Check Format Compatibility ][D
 | [getSuppressTopSpacing()](#getSuppressTopSpacing) | Ignore Minimum and Exact Line Height for First Line on Page. |
 | [getSuppressTopSpacingWP()](#getSuppressTopSpacingWP) | Emulate WordPerfect 5.x Line Spacing. |
 | [getSwapBordersFacingPgs()](#getSwapBordersFacingPgs) | Swap Paragraph Borders on Odd Numbered Pages. |
-| [getSwapInsideAndOutsideForMirrorIndentsAndRelativePositioning()](#getSwapInsideAndOutsideForMirrorIndentsAndRelativePositioning) |  |
+| [getSwapInsideAndOutsideForMirrorIndentsAndRelativePositioning()](#getSwapInsideAndOutsideForMirrorIndentsAndRelativePositioning) | Specifies to swap inside and outside for mirror indents and relative positioning. |
 | [getTransparentMetafiles()](#getTransparentMetafiles) | Specifies not to blank the area behind metafile pictures. |
 | [getTruncateFontHeightsLikeWP6()](#getTruncateFontHeightsLikeWP6) | Emulate WordPerfect 6.x Font Height Calculation. |
 | [getUICompat97To2003()](#getUICompat97To2003) | True to disable UI functionality which is not compatible with Word97-2003. |
@@ -95,7 +95,7 @@ To learn more, visit the [ Detect File Format and Check Format Compatibility ][D
 | [getUsePrinterMetrics()](#getUsePrinterMetrics) | Use Printer Metrics To Display Documents. |
 | [getUseSingleBorderforContiguousCells()](#getUseSingleBorderforContiguousCells) | Use Simplified Rules For Table Border Conflicts. |
 | [getUseWord2002TableStyleRules()](#getUseWord2002TableStyleRules) | Emulate Word 2002 Table Style Rules. |
-| [getUseWord2010TableStyleRules()](#getUseWord2010TableStyleRules) |  |
+| [getUseWord2010TableStyleRules()](#getUseWord2010TableStyleRules) | Specifies to use Word2010 table style rules. |
 | [getUseWord97LineBreakRules()](#getUseWord97LineBreakRules) | Emulate Word 97 East Asian Line Breaking. |
 | [getWPJustification()](#getWPJustification) | Emulate WordPerfect 6.x Paragraph Justification. |
 | [getWPSpaceWidth()](#getWPSpaceWidth) | Specifies whether to set the width of a space as is done in WordPerfect 5.x. |
@@ -113,7 +113,7 @@ To learn more, visit the [ Detect File Format and Check Format Compatibility ][D
 | [setBalanceSingleByteDoubleByteWidth(boolean value)](#setBalanceSingleByteDoubleByteWidth-boolean) | Balance Single Byte and Double Byte Characters. |
 | [setCachedColBalance(boolean value)](#setCachedColBalance-boolean) | Use Cached Paragraph Information for Column Balancing. |
 | [setConvMailMergeEsc(boolean value)](#setConvMailMergeEsc-boolean) | Treat Backslash Quotation Delimiter as Two Quotation Marks. |
-| [setDisableOpenTypeFontFormattingFeatures(boolean value)](#setDisableOpenTypeFontFormattingFeatures-boolean) |  |
+| [setDisableOpenTypeFontFormattingFeatures(boolean value)](#setDisableOpenTypeFontFormattingFeatures-boolean) | Specifies to disable OpenType font formatting features. |
 | [setDisplayHangulFixedWidth(boolean value)](#setDisplayHangulFixedWidth-boolean) | Always Use Fixed Width for Hangul Characters. |
 | [setDoNotAutofitConstrainedTables(boolean value)](#setDoNotAutofitConstrainedTables-boolean) | Do Not AutoFit Tables To Fit Next To Wrapped Objects. |
 | [setDoNotBreakConstrainedForcedTable(boolean value)](#setDoNotBreakConstrainedForcedTable-boolean) | Don't Break Table Rows Around Floating Tables. |
@@ -157,7 +157,7 @@ To learn more, visit the [ Detect File Format and Check Format Compatibility ][D
 | [setSuppressTopSpacing(boolean value)](#setSuppressTopSpacing-boolean) | Ignore Minimum and Exact Line Height for First Line on Page. |
 | [setSuppressTopSpacingWP(boolean value)](#setSuppressTopSpacingWP-boolean) | Emulate WordPerfect 5.x Line Spacing. |
 | [setSwapBordersFacingPgs(boolean value)](#setSwapBordersFacingPgs-boolean) | Swap Paragraph Borders on Odd Numbered Pages. |
-| [setSwapInsideAndOutsideForMirrorIndentsAndRelativePositioning(boolean value)](#setSwapInsideAndOutsideForMirrorIndentsAndRelativePositioning-boolean) |  |
+| [setSwapInsideAndOutsideForMirrorIndentsAndRelativePositioning(boolean value)](#setSwapInsideAndOutsideForMirrorIndentsAndRelativePositioning-boolean) | Specifies to swap inside and outside for mirror indents and relative positioning. |
 | [setTransparentMetafiles(boolean value)](#setTransparentMetafiles-boolean) | Specifies not to blank the area behind metafile pictures. |
 | [setTruncateFontHeightsLikeWP6(boolean value)](#setTruncateFontHeightsLikeWP6-boolean) | Emulate WordPerfect 6.x Font Height Calculation. |
 | [setUICompat97To2003(boolean value)](#setUICompat97To2003-boolean) | True to disable UI functionality which is not compatible with Word97-2003. |
@@ -170,7 +170,7 @@ To learn more, visit the [ Detect File Format and Check Format Compatibility ][D
 | [setUsePrinterMetrics(boolean value)](#setUsePrinterMetrics-boolean) | Use Printer Metrics To Display Documents. |
 | [setUseSingleBorderforContiguousCells(boolean value)](#setUseSingleBorderforContiguousCells-boolean) | Use Simplified Rules For Table Border Conflicts. |
 | [setUseWord2002TableStyleRules(boolean value)](#setUseWord2002TableStyleRules-boolean) | Emulate Word 2002 Table Style Rules. |
-| [setUseWord2010TableStyleRules(boolean value)](#setUseWord2010TableStyleRules-boolean) |  |
+| [setUseWord2010TableStyleRules(boolean value)](#setUseWord2010TableStyleRules-boolean) | Specifies to use Word2010 table style rules. |
 | [setUseWord97LineBreakRules(boolean value)](#setUseWord97LineBreakRules-boolean) | Emulate Word 97 East Asian Line Breaking. |
 | [setWPJustification(boolean value)](#setWPJustification-boolean) | Emulate WordPerfect 6.x Paragraph Justification. |
 | [setWPSpaceWidth(boolean value)](#setWPSpaceWidth-boolean) | Specifies whether to set the width of a space as is done in WordPerfect 5.x. |
@@ -300,10 +300,10 @@ public boolean getDisableOpenTypeFontFormattingFeatures()
 ```
 
 
-
+Specifies to disable OpenType font formatting features.
 
 **Returns:**
-boolean
+boolean - The corresponding  boolean  value.
 ### getDisplayHangulFixedWidth() {#getDisplayHangulFixedWidth}
 ```
 public boolean getDisplayHangulFixedWidth()
@@ -740,10 +740,10 @@ public boolean getSwapInsideAndOutsideForMirrorIndentsAndRelativePositioning()
 ```
 
 
-
+Specifies to swap inside and outside for mirror indents and relative positioning.
 
 **Returns:**
-boolean
+boolean - The corresponding  boolean  value.
 ### getTransparentMetafiles() {#getTransparentMetafiles}
 ```
 public boolean getTransparentMetafiles()
@@ -870,10 +870,10 @@ public boolean getUseWord2010TableStyleRules()
 ```
 
 
-
+Specifies to use Word2010 table style rules.
 
 **Returns:**
-boolean
+boolean - The corresponding  boolean  value.
 ### getUseWord97LineBreakRules() {#getUseWord97LineBreakRules}
 ```
 public boolean getUseWord97LineBreakRules()
@@ -1076,12 +1076,12 @@ public void setDisableOpenTypeFontFormattingFeatures(boolean value)
 ```
 
 
-
+Specifies to disable OpenType font formatting features.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setDisplayHangulFixedWidth(boolean value) {#setDisplayHangulFixedWidth-boolean}
 ```
@@ -1648,12 +1648,12 @@ public void setSwapInsideAndOutsideForMirrorIndentsAndRelativePositioning(boolea
 ```
 
 
-
+Specifies to swap inside and outside for mirror indents and relative positioning.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setTransparentMetafiles(boolean value) {#setTransparentMetafiles-boolean}
 ```
@@ -1817,12 +1817,12 @@ public void setUseWord2010TableStyleRules(boolean value)
 ```
 
 
-
+Specifies to use Word2010 table style rules.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setUseWord97LineBreakRules(boolean value) {#setUseWord97LineBreakRules-boolean}
 ```

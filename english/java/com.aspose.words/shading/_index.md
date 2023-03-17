@@ -121,7 +121,7 @@ Gets a double value that lightens or darkens a background theme color.
 
 The allowed values are in the range from -1 (the darkest) to 1 (the lightest) for this property. Zero (0) is neutral. Attempting to set this property to a value less than -1 or more than 1 results in java.lang.IllegalArgumentException.
 
-Setting this property for Border object with non-theme colors results in java.lang.IllegalStateException.
+Setting this property for Shading object with non-theme colors results in java.lang.IllegalStateException.
 
 **Returns:**
 double - A double value that lightens or darkens a background theme color.
@@ -165,7 +165,7 @@ Gets a double value that lightens or darkens a foreground theme color.
 
 The allowed values are in the range from -1 (the darkest) to 1 (the lightest) for this property. Zero (0) is neutral. Attempting to set this property to a value less than -1 or more than 1 results in java.lang.IllegalArgumentException.
 
-Setting this property for Border object with non-theme colors results in java.lang.IllegalStateException.
+Setting this property for Shading object with non-theme colors results in java.lang.IllegalStateException.
 
 **Returns:**
 double - A double value that lightens or darkens a foreground theme color.
@@ -251,7 +251,7 @@ Sets a double value that lightens or darkens a background theme color.
 
 The allowed values are in the range from -1 (the darkest) to 1 (the lightest) for this property. Zero (0) is neutral. Attempting to set this property to a value less than -1 or more than 1 results in java.lang.IllegalArgumentException.
 
-Setting this property for Border object with non-theme colors results in java.lang.IllegalStateException.
+Setting this property for Shading object with non-theme colors results in java.lang.IllegalStateException.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -294,7 +294,7 @@ Sets a double value that lightens or darkens a foreground theme color.
 
 The allowed values are in the range from -1 (the darkest) to 1 (the lightest) for this property. Zero (0) is neutral. Attempting to set this property to a value less than -1 or more than 1 results in java.lang.IllegalArgumentException.
 
-Setting this property for Border object with non-theme colors results in java.lang.IllegalStateException.
+Setting this property for Shading object with non-theme colors results in java.lang.IllegalStateException.
 
 **Parameters:**
 | Parameter | Type | Description |
