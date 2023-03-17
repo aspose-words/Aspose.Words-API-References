@@ -70,7 +70,7 @@ Do not include the end of paragraph [ControlChar.PARAGRAPH\_BREAK](../../com.asp
 | [getDocument()](#getDocument) | Gets the document to which this node belongs. |
 | [getEffectiveTabStops()](#getEffectiveTabStops) | Returns array of all tab stops applied to this paragraph, including applied indirectly by styles or lists. |
 | [getFirstChild()](#getFirstChild) | Gets the first child of the node. |
-| [getFrameFormat()](#getFrameFormat) | Provides access to the paragraph formatting properties. |
+| [getFrameFormat()](#getFrameFormat) | Provides access to the frame formatting properties. |
 | [getLastChild()](#getLastChild) | Gets the last child of the node. |
 | [getListFormat()](#getListFormat) | Provides access to the list formatting properties of the paragraph. |
 | [getListLabel()](#getListLabel) | Gets a [getListLabel()](../../com.aspose.words/paragraph/\#getListLabel) object that provides access to list numbering value and formatting for this paragraph. |
@@ -582,7 +582,7 @@ public FrameFormat getFrameFormat()
 ```
 
 
-Provides access to the paragraph formatting properties.
+Provides access to the frame formatting properties.
 
 **Returns:**
 [FrameFormat](../../com.aspose.words/frameformat/) - The corresponding [FrameFormat](../../com.aspose.words/frameformat/) value.

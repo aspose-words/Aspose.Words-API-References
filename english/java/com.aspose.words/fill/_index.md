@@ -28,10 +28,14 @@ Use the [ShapeBase.getFill()](../../com.aspose.words/shapebase/\#getFill) or [Fo
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getBackColor()](#getBackColor) | Gets a Color object that represents the background color for the fill. |
+| [getBackThemeColor()](#getBackThemeColor) | Gets a ThemeColor object that represents the background color for the fill. |
+| [getBackTintAndShade()](#getBackTintAndShade) | Gets a double value that lightens or darkens the background color. |
 | [getClass()](#getClass) |  |
 | [getColor()](#getColor) | Gets a Color object that represents the foreground color for the fill. |
 | [getFillType()](#getFillType) | Gets a fill type. |
 | [getForeColor()](#getForeColor) | Gets a Color object that represents the foreground color for the fill. |
+| [getForeThemeColor()](#getForeThemeColor) | Gets a ThemeColor object that represents the foreground color for the fill. |
+| [getForeTintAndShade()](#getForeTintAndShade) | Gets a double value that lightens or darkens the foreground color. |
 | [getGradientAngle()](#getGradientAngle) | Gets the angle of the gradient fill. |
 | [getGradientStops()](#getGradientStops) | Gets a collection of [GradientStop](../../com.aspose.words/gradientstop/) objects for the fill. |
 | [getGradientStyle()](#getGradientStyle) | Gets the gradient style [GradientStyle](../../com.aspose.words/gradientstyle/) for the fill. |
@@ -54,8 +58,12 @@ Use the [ShapeBase.getFill()](../../com.aspose.words/shapebase/\#getFill) or [Fo
 | [patterned(int patternType, Color foreColor, Color backColor)](#patterned-int-java.awt.Color-java.awt.Color) |  |
 | [presetTextured(int presetTexture)](#presetTextured-int) |  |
 | [setBackColor(Color value)](#setBackColor-java.awt.Color) | Sets a Color object that represents the background color for the fill. |
+| [setBackThemeColor(int value)](#setBackThemeColor-int) | Sets a ThemeColor object that represents the background color for the fill. |
+| [setBackTintAndShade(double value)](#setBackTintAndShade-double) | Sets a double value that lightens or darkens the background color. |
 | [setColor(Color value)](#setColor-java.awt.Color) | Sets a Color object that represents the foreground color for the fill. |
 | [setForeColor(Color value)](#setForeColor-java.awt.Color) | Sets a Color object that represents the foreground color for the fill. |
+| [setForeThemeColor(int value)](#setForeThemeColor-int) | Sets a ThemeColor object that represents the foreground color for the fill. |
+| [setForeTintAndShade(double value)](#setForeTintAndShade-double) | Sets a double value that lightens or darkens the foreground color. |
 | [setGradientAngle(double value)](#setGradientAngle-double) | Sets the angle of the gradient fill. |
 | [setImage(byte[] imageBytes)](#setImage-byte) | Changes the fill type to single image. |
 | [setImage(InputStream stream)](#setImage-java.io.InputStream) |  |
@@ -99,6 +107,28 @@ Gets a Color object that represents the background color for the fill.
 
 **Returns:**
 java.awt.Color - A Color object that represents the background color for the fill.
+### getBackThemeColor() {#getBackThemeColor}
+```
+public int getBackThemeColor()
+```
+
+
+Gets a ThemeColor object that represents the background color for the fill.
+
+**Returns:**
+int - A ThemeColor object that represents the background color for the fill. The returned value is one of [ThemeColor](../../com.aspose.words/themecolor/) constants.
+### getBackTintAndShade() {#getBackTintAndShade}
+```
+public double getBackTintAndShade()
+```
+
+
+Gets a double value that lightens or darkens the background color.
+
+The allowed values are within the range from -1 (the darkest) to 1 (the lightest) for this property. Zero (0) is neutral. Attempting to set this property to a value less than -1 or more than 1 results in java.lang.IllegalArgumentException.
+
+**Returns:**
+double - A double value that lightens or darkens the background color.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -139,6 +169,28 @@ Gets a Color object that represents the foreground color for the fill.
 
 **Returns:**
 java.awt.Color - A Color object that represents the foreground color for the fill.
+### getForeThemeColor() {#getForeThemeColor}
+```
+public int getForeThemeColor()
+```
+
+
+Gets a ThemeColor object that represents the foreground color for the fill.
+
+**Returns:**
+int - A ThemeColor object that represents the foreground color for the fill. The returned value is one of [ThemeColor](../../com.aspose.words/themecolor/) constants.
+### getForeTintAndShade() {#getForeTintAndShade}
+```
+public double getForeTintAndShade()
+```
+
+
+Gets a double value that lightens or darkens the foreground color.
+
+The allowed values are within the range from -1 (the darkest) to 1 (the lightest) for this property. Zero (0) is neutral. Attempting to set this property to a value less than -1 or more than 1 results in java.lang.IllegalArgumentException.
+
+**Returns:**
+double - A double value that lightens or darkens the foreground color.
 ### getGradientAngle() {#getGradientAngle}
 ```
 public double getGradientAngle()
@@ -382,6 +434,34 @@ Sets a Color object that represents the background color for the fill.
 | --- | --- | --- |
 | value | java.awt.Color | A Color object that represents the background color for the fill. |
 
+### setBackThemeColor(int value) {#setBackThemeColor-int}
+```
+public void setBackThemeColor(int value)
+```
+
+
+Sets a ThemeColor object that represents the background color for the fill.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | A ThemeColor object that represents the background color for the fill. The value must be one of [ThemeColor](../../com.aspose.words/themecolor/) constants. |
+
+### setBackTintAndShade(double value) {#setBackTintAndShade-double}
+```
+public void setBackTintAndShade(double value)
+```
+
+
+Sets a double value that lightens or darkens the background color.
+
+The allowed values are within the range from -1 (the darkest) to 1 (the lightest) for this property. Zero (0) is neutral. Attempting to set this property to a value less than -1 or more than 1 results in java.lang.IllegalArgumentException.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | double | A double value that lightens or darkens the background color. |
+
 ### setColor(Color value) {#setColor-java.awt.Color}
 ```
 public void setColor(Color value)
@@ -407,6 +487,34 @@ Sets a Color object that represents the foreground color for the fill.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.awt.Color | A Color object that represents the foreground color for the fill. |
+
+### setForeThemeColor(int value) {#setForeThemeColor-int}
+```
+public void setForeThemeColor(int value)
+```
+
+
+Sets a ThemeColor object that represents the foreground color for the fill.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | A ThemeColor object that represents the foreground color for the fill. The value must be one of [ThemeColor](../../com.aspose.words/themecolor/) constants. |
+
+### setForeTintAndShade(double value) {#setForeTintAndShade-double}
+```
+public void setForeTintAndShade(double value)
+```
+
+
+Sets a double value that lightens or darkens the foreground color.
+
+The allowed values are within the range from -1 (the darkest) to 1 (the lightest) for this property. Zero (0) is neutral. Attempting to set this property to a value less than -1 or more than 1 results in java.lang.IllegalArgumentException.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | double | A double value that lightens or darkens the foreground color. |
 
 ### setGradientAngle(double value) {#setGradientAngle-double}
 ```

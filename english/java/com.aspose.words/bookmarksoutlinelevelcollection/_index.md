@@ -41,7 +41,7 @@ Bookmark outline level may be a value from 0 to 9. Specify 0 and Word bookmark w
 | [getCount()](#getCount) | Gets the number of elements contained in the collection. |
 | [hashCode()](#hashCode) |  |
 | [indexOfKey(String name)](#indexOfKey-java.lang.String) | Returns the zero-based index of the specified bookmark in the collection. |
-| [iterator()](#iterator) |  |
+| [iterator()](#iterator) | Returns an iterator object that can be used to iterate over all items in the collection. |
 | [notify()](#notify) |  |
 | [notifyAll()](#notifyAll) |  |
 | [remove(String name)](#remove-java.lang.String) | Removes a bookmark with the specified name from the collection. |
@@ -185,7 +185,7 @@ public Iterator iterator()
 ```
 
 
-
+Returns an iterator object that can be used to iterate over all items in the collection.
 
 **Returns:**
 java.util.Iterator

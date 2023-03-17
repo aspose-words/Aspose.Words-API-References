@@ -36,6 +36,7 @@ Use the [Shape.getTextBox()](../../com.aspose.words/shape/\#getTextBox) property
 | [getInternalMarginTop()](#getInternalMarginTop) | Specifies the inner top margin in points for a shape. |
 | [getLayoutFlow()](#getLayoutFlow) | Determines the flow of the text layout in a shape. |
 | [getNext()](#getNext) | Gets a [TextBox](../../com.aspose.words/textbox/) that represents the next [TextBox](../../com.aspose.words/textbox/) in a sequence of shapes. |
+| [getNoTextRotation()](#getNoTextRotation) | Gets a boolean value indicating either text of the TextBox should not rotate when the shape is rotated. |
 | [getParent()](#getParent) | Gets a parent shape for the [TextBox](../../com.aspose.words/textbox/). |
 | [getPrevious()](#getPrevious) | Returns a [TextBox](../../com.aspose.words/textbox/) that represents the previous [TextBox](../../com.aspose.words/textbox/) in a sequence of shapes. |
 | [getTextBoxWrapMode()](#getTextBoxWrapMode) | Determines how text wraps inside a shape. |
@@ -51,6 +52,7 @@ Use the [Shape.getTextBox()](../../com.aspose.words/shape/\#getTextBox) property
 | [setInternalMarginTop(double value)](#setInternalMarginTop-double) | Specifies the inner top margin in points for a shape. |
 | [setLayoutFlow(int value)](#setLayoutFlow-int) | Determines the flow of the text layout in a shape. |
 | [setNext(TextBox value)](#setNext-com.aspose.words.TextBox) | Sets a [TextBox](../../com.aspose.words/textbox/) that represents the next [TextBox](../../com.aspose.words/textbox/) in a sequence of shapes. |
+| [setNoTextRotation(boolean value)](#setNoTextRotation-boolean) | Sets a boolean value indicating either text of the TextBox should not rotate when the shape is rotated. |
 | [setTextBoxWrapMode(int value)](#setTextBoxWrapMode-int) | Determines how text wraps inside a shape. |
 | [setVerticalAnchor(int value)](#setVerticalAnchor-int) | Specifies the vertical alignment of the text within a shape. |
 | [toString()](#toString) |  |
@@ -172,6 +174,18 @@ Gets a [TextBox](../../com.aspose.words/textbox/) that represents the next [Text
 
 **Returns:**
 [TextBox](../../com.aspose.words/textbox/) - A [TextBox](../../com.aspose.words/textbox/) that represents the next [TextBox](../../com.aspose.words/textbox/) in a sequence of shapes.
+### getNoTextRotation() {#getNoTextRotation}
+```
+public boolean getNoTextRotation()
+```
+
+
+Gets a boolean value indicating either text of the TextBox should not rotate when the shape is rotated.
+
+The default value is  false 
+
+**Returns:**
+boolean - A boolean value indicating either text of the TextBox should not rotate when the shape is rotated.
 ### getParent() {#getParent}
 ```
 public Shape getParent()
@@ -359,6 +373,21 @@ Sets a [TextBox](../../com.aspose.words/textbox/) that represents the next [Text
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [TextBox](../../com.aspose.words/textbox/) | A [TextBox](../../com.aspose.words/textbox/) that represents the next [TextBox](../../com.aspose.words/textbox/) in a sequence of shapes. |
+
+### setNoTextRotation(boolean value) {#setNoTextRotation-boolean}
+```
+public void setNoTextRotation(boolean value)
+```
+
+
+Sets a boolean value indicating either text of the TextBox should not rotate when the shape is rotated.
+
+The default value is  false 
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | A boolean value indicating either text of the TextBox should not rotate when the shape is rotated. |
 
 ### setTextBoxWrapMode(int value) {#setTextBoxWrapMode-int}
 ```

@@ -31,7 +31,7 @@ Can be immediate child of [Body](../../com.aspose.words/body/) node **only**.
 
 | Method | Description |
 | --- | --- |
-| [accept(DocumentVisitor visitor)](#accept-com.aspose.words.DocumentVisitor) |  |
+| [accept(DocumentVisitor visitor)](#accept-com.aspose.words.DocumentVisitor) | Accepts a visitor. |
 | [dd()](#dd) |  |
 | [deepClone(boolean isCloneChildren)](#deepClone-boolean) | Creates a duplicate of the node. |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
@@ -42,7 +42,7 @@ Can be immediate child of [Body](../../com.aspose.words/body/) node **only**.
 | [getDocument()](#getDocument) | Gets the document to which this node belongs. |
 | [getId()](#getId) | Specifies a unique read-only persistent numerical Id for this **StructuredDocumentTagRange** node. |
 | [getNextSibling()](#getNextSibling) | Gets the node immediately following this node. |
-| [getNodeType()](#getNodeType) |  |
+| [getNodeType()](#getNodeType) | Returns [NodeType.STRUCTURED\_DOCUMENT\_TAG\_RANGE\_END](../../com.aspose.words/nodetype/\#STRUCTURED-DOCUMENT-TAG-RANGE-END). |
 | [getParentNode()](#getParentNode) | Gets the immediate parent of this node. |
 | [getPreviousSibling()](#getPreviousSibling) | Gets the node immediately preceding this node. |
 | [getRange()](#getRange) | Returns a [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node. |
@@ -91,10 +91,10 @@ For more info see the Visitor design pattern.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor/) |  |
+| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor/) | The visitor that will visit the nodes. |
 
 **Returns:**
-boolean
+boolean - True if all nodes were visited; false if [DocumentVisitor](../../com.aspose.words/documentvisitor/) stopped the operation before visiting all nodes.
 ### dd() {#dd}
 ```
 public void dd()
@@ -233,10 +233,10 @@ public int getNodeType()
 ```
 
 
-Gets the type of this node.
+Returns [NodeType.STRUCTURED\_DOCUMENT\_TAG\_RANGE\_END](../../com.aspose.words/nodetype/\#STRUCTURED-DOCUMENT-TAG-RANGE-END).
 
 **Returns:**
-int
+int - \{[NodeType.STRUCTURED\_DOCUMENT\_TAG\_RANGE\_END](../../com.aspose.words/nodetype/\#STRUCTURED-DOCUMENT-TAG-RANGE-END). The returned value is one of [NodeType](../../com.aspose.words/nodetype/) constants.
 ### getParentNode() {#getParentNode}
 ```
 public CompositeNode getParentNode()
@@ -297,7 +297,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (31405,6)
+Returns  true  if this node can contain other nodes. (31574,6)
 
 **Returns:**
 boolean - \{ true  if this node can contain other nodes.

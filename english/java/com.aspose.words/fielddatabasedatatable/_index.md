@@ -14,7 +14,7 @@ java.lang.Object
 public class FieldDatabaseDataTable
 ```
 
-Provides data for the [FieldDatabase](../../com.aspose.words/fielddatabase/) field result.
+Provides data for the [FieldDatabase](../../com.aspose.words/fielddatabase/) field result. Please see [DataTable](../../com.aspose.words.net.system.data/datatable/) instance.
 
 To learn more, visit the [ Working with Fields ][Working with Fields] documentation article.
 

@@ -569,7 +569,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [StyleType](../com.aspose.words/styletype/) | Represents type of the style. |
 | [SubDocument](../com.aspose.words/subdocument/) | Represents a **SubDocument** \- which is a reference to an externally stored document. |
 | [SvgSaveOptions](../com.aspose.words/svgsaveoptions/) | Can be used to specify additional options when saving a document into the [SaveFormat.\#SVG](../com.aspose.words/saveformat/\#SVG) format. |
-| [SvgTextOutputMode](../com.aspose.words/svgtextoutputmode/) |  |
+| [SvgTextOutputMode](../com.aspose.words/svgtextoutputmode/) | Allows to specify how text inside a document should be rendered when saving in SVG format. |
 | [SystemFontSource](../com.aspose.words/systemfontsource/) | Represents all TrueType fonts installed to the system. |
 | [TabAlignment](../com.aspose.words/tabalignment/) | Specifies the alignment/type of a tab stop. |
 | [TabLeader](../com.aspose.words/tableader/) | Specifies the type of the leader line displayed under the tab character. |

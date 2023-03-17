@@ -28,15 +28,15 @@ To learn more, visit the [ Working with Charts ][Working with Charts] documentat
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getBubble3D()](#getBubble3D) |  |
+| [getBubble3D()](#getBubble3D) | Specifies whether the bubbles in Bubble chart should have a 3-D effect applied to them. |
 | [getClass()](#getClass) |  |
 | [getDataLabels()](#getDataLabels) | Specifies the settings for the data labels for the entire series. |
 | [getDataPoints()](#getDataPoints) | Returns a collection of formatting objects for all data points in this series. |
-| [getExplosion()](#getExplosion) |  |
+| [getExplosion()](#getExplosion) | Specifies the amount the data point shall be moved from the center of the pie. |
 | [getFormat()](#getFormat) | Provides access to fill and line formatting of the series. |
-| [getInvertIfNegative()](#getInvertIfNegative) |  |
+| [getInvertIfNegative()](#getInvertIfNegative) | Specifies whether the parent element shall inverts its colors if the value is negative. |
 | [getLegendEntry()](#getLegendEntry) | Gets a legend entry for this chart series. |
-| [getMarker()](#getMarker) |  |
+| [getMarker()](#getMarker) | Specifies a data marker. |
 | [getName()](#getName) | Gets the name of the series, if name is not set explicitly it is generated using index. |
 | [getSmooth()](#getSmooth) | Allows to specify whether the line connecting the points on the chart shall be smoothed using Catmull-Rom splines. |
 | [hasDataLabels()](#hasDataLabels) | Gets a flag indicating whether data labels are displayed for the series. |
@@ -44,9 +44,9 @@ To learn more, visit the [ Working with Charts ][Working with Charts] documentat
 | [hashCode()](#hashCode) |  |
 | [notify()](#notify) |  |
 | [notifyAll()](#notifyAll) |  |
-| [setBubble3D(boolean value)](#setBubble3D-boolean) |  |
-| [setExplosion(int value)](#setExplosion-int) |  |
-| [setInvertIfNegative(boolean value)](#setInvertIfNegative-boolean) |  |
+| [setBubble3D(boolean value)](#setBubble3D-boolean) | Specifies whether the bubbles in Bubble chart should have a 3-D effect applied to them. |
+| [setExplosion(int value)](#setExplosion-int) | Specifies the amount the data point shall be moved from the center of the pie. |
+| [setInvertIfNegative(boolean value)](#setInvertIfNegative-boolean) | Specifies whether the parent element shall inverts its colors if the value is negative. |
 | [setName(String value)](#setName-java.lang.String) | Sets the name of the series, if name is not set explicitly it is generated using index. |
 | [setSmooth(boolean value)](#setSmooth-boolean) | Allows to specify whether the line connecting the points on the chart shall be smoothed using Catmull-Rom splines. |
 | [toString()](#toString) |  |
@@ -77,7 +77,7 @@ public boolean getBubble3D()
 Specifies whether the bubbles in Bubble chart should have a 3-D effect applied to them.
 
 **Returns:**
-boolean
+boolean - The corresponding  boolean  value.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -117,7 +117,7 @@ public int getExplosion()
 Specifies the amount the data point shall be moved from the center of the pie. Can be negative, negative means that property is not set and no explosion should be applied. Applies only to Pie charts.
 
 **Returns:**
-int
+int - The corresponding  int  value.
 ### getFormat() {#getFormat}
 ```
 public ChartFormat getFormat()
@@ -137,7 +137,7 @@ public boolean getInvertIfNegative()
 Specifies whether the parent element shall inverts its colors if the value is negative.
 
 **Returns:**
-boolean
+boolean - The corresponding  boolean  value.
 ### getLegendEntry() {#getLegendEntry}
 ```
 public ChartLegendEntry getLegendEntry()
@@ -157,7 +157,7 @@ public ChartMarker getMarker()
 Specifies a data marker. Marker is automatically created when requested.
 
 **Returns:**
-[ChartMarker](../../com.aspose.words/chartmarker/)
+[ChartMarker](../../com.aspose.words/chartmarker/) - The corresponding [ChartMarker](../../com.aspose.words/chartmarker/) value.
 ### getName() {#getName}
 ```
 public String getName()
@@ -238,7 +238,7 @@ Specifies whether the bubbles in Bubble chart should have a 3-D effect applied t
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setExplosion(int value) {#setExplosion-int}
 ```
@@ -251,7 +251,7 @@ Specifies the amount the data point shall be moved from the center of the pie. C
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | int | The corresponding  int  value. |
 
 ### setInvertIfNegative(boolean value) {#setInvertIfNegative-boolean}
 ```
@@ -264,7 +264,7 @@ Specifies whether the parent element shall inverts its colors if the value is ne
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setName(String value) {#setName-java.lang.String}
 ```

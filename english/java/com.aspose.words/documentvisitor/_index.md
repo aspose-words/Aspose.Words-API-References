@@ -88,8 +88,8 @@ For more information see the Visitor design pattern.
 | [visitSmartTagStart(SmartTag smartTag)](#visitSmartTagStart-com.aspose.words.SmartTag) | Called when enumeration of a smart tag has started. |
 | [visitSpecialChar(SpecialChar specialChar)](#visitSpecialChar-com.aspose.words.SpecialChar) | Called when a [SpecialChar](../../com.aspose.words/specialchar/) node is encountered in the document. |
 | [visitStructuredDocumentTagEnd(StructuredDocumentTag sdt)](#visitStructuredDocumentTagEnd-com.aspose.words.StructuredDocumentTag) | Called when enumeration of a structured document tag has ended. |
-| [visitStructuredDocumentTagRangeEnd(StructuredDocumentTagRangeEnd sdtRangeEnd)](#visitStructuredDocumentTagRangeEnd-com.aspose.words.StructuredDocumentTagRangeEnd) |  |
-| [visitStructuredDocumentTagRangeStart(StructuredDocumentTagRangeStart sdtRangeStart)](#visitStructuredDocumentTagRangeStart-com.aspose.words.StructuredDocumentTagRangeStart) |  |
+| [visitStructuredDocumentTagRangeEnd(StructuredDocumentTagRangeEnd sdtRangeEnd)](#visitStructuredDocumentTagRangeEnd-com.aspose.words.StructuredDocumentTagRangeEnd) | Called when a StructuredDocumentTagRangeEnd is encountered. |
+| [visitStructuredDocumentTagRangeStart(StructuredDocumentTagRangeStart sdtRangeStart)](#visitStructuredDocumentTagRangeStart-com.aspose.words.StructuredDocumentTagRangeStart) | Called when a StructuredDocumentTagRangeStart is encountered. |
 | [visitStructuredDocumentTagStart(StructuredDocumentTag sdt)](#visitStructuredDocumentTagStart-com.aspose.words.StructuredDocumentTag) | Called when enumeration of a structured document tag has started. |
 | [visitSubDocument(SubDocument subDocument)](#visitSubDocument-com.aspose.words.SubDocument) | Called when a sub-document is encountered. |
 | [visitTableEnd(Table table)](#visitTableEnd-com.aspose.words.Table) | Called when enumeration of a table has ended. |
@@ -848,7 +848,7 @@ public int visitStructuredDocumentTagRangeEnd(StructuredDocumentTagRangeEnd sdtR
 ```
 
 
-
+Called when a StructuredDocumentTagRangeEnd is encountered.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -863,7 +863,7 @@ public int visitStructuredDocumentTagRangeStart(StructuredDocumentTagRangeStart 
 ```
 
 
-
+Called when a StructuredDocumentTagRangeStart is encountered.
 
 **Parameters:**
 | Parameter | Type | Description |

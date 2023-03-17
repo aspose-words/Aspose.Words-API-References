@@ -50,7 +50,7 @@ Corresponds to the **glossaryDocument** and **docParts** elements in OOXML.
 | [getCount()](#getCount) | Gets the number of immediate children of this node. |
 | [getCurrentNode()](#getCurrentNode) |  |
 | [getCustomNodeId()](#getCustomNodeId) | Specifies custom node identifier. |
-| [getDocument()](#getDocument) |  |
+| [getDocument()](#getDocument) | Gets this instance. |
 | [getFirstBuildingBlock()](#getFirstBuildingBlock) | Gets the first building block in the glossary document. |
 | [getFirstChild()](#getFirstChild) | Gets the first child of the node. |
 | [getFontInfos()](#getFontInfos) | Provides access to properties of fonts used in this document. |
@@ -370,12 +370,10 @@ public DocumentBase getDocument()
 ```
 
 
-Gets the document to which this node belongs.
-
-The node always belongs to a document even if it has just been created and not yet added to the tree, or if it has been removed from the tree.
+Gets this instance.
 
 **Returns:**
-[DocumentBase](../../com.aspose.words/documentbase/)
+[DocumentBase](../../com.aspose.words/documentbase/) - This instance.
 ### getFirstBuildingBlock() {#getFirstBuildingBlock}
 ```
 public BuildingBlock getFirstBuildingBlock()

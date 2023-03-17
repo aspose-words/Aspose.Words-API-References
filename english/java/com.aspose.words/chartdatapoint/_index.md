@@ -31,20 +31,20 @@ On a series, the [ChartDataPoint](../../com.aspose.words/chartdatapoint/) object
 | --- | --- |
 | [clearFormat()](#clearFormat) | Clears format of this data point. |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getBubble3D()](#getBubble3D) |  |
+| [getBubble3D()](#getBubble3D) | Specifies whether the bubbles in Bubble chart should have a 3-D effect applied to them. |
 | [getClass()](#getClass) |  |
-| [getExplosion()](#getExplosion) |  |
+| [getExplosion()](#getExplosion) | Specifies the amount the data point shall be moved from the center of the pie. |
 | [getFormat()](#getFormat) | Provides access to fill and line formatting of this data point. |
 | [getIndex()](#getIndex) | Index of the data point this object applies formatting to. |
-| [getInvertIfNegative()](#getInvertIfNegative) |  |
-| [getMarker()](#getMarker) |  |
+| [getInvertIfNegative()](#getInvertIfNegative) | Specifies whether the parent element shall inverts its colors if the value is negative. |
+| [getMarker()](#getMarker) | Specifies chart data marker. |
 | [hashCode()](#hashCode) |  |
 | [materializeSpPr()](#materializeSpPr) |  |
 | [notify()](#notify) |  |
 | [notifyAll()](#notifyAll) |  |
-| [setBubble3D(boolean value)](#setBubble3D-boolean) |  |
-| [setExplosion(int value)](#setExplosion-int) |  |
-| [setInvertIfNegative(boolean value)](#setInvertIfNegative-boolean) |  |
+| [setBubble3D(boolean value)](#setBubble3D-boolean) | Specifies whether the bubbles in Bubble chart should have a 3-D effect applied to them. |
+| [setExplosion(int value)](#setExplosion-int) | Specifies the amount the data point shall be moved from the center of the pie. |
+| [setInvertIfNegative(boolean value)](#setInvertIfNegative-boolean) | Specifies whether the parent element shall inverts its colors if the value is negative. |
 | [toString()](#toString) |  |
 | [wait()](#wait) |  |
 | [wait(long arg0)](#wait-long) |  |
@@ -81,7 +81,7 @@ public boolean getBubble3D()
 Specifies whether the bubbles in Bubble chart should have a 3-D effect applied to them.
 
 **Returns:**
-boolean
+boolean - The corresponding  boolean  value.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -101,7 +101,7 @@ public int getExplosion()
 Specifies the amount the data point shall be moved from the center of the pie. Can be negative, negative means that property is not set and no explosion should be applied. Applies only to Pie charts.
 
 **Returns:**
-int
+int - The corresponding  int  value.
 ### getFormat() {#getFormat}
 ```
 public ChartFormat getFormat()
@@ -131,17 +131,17 @@ public boolean getInvertIfNegative()
 Specifies whether the parent element shall inverts its colors if the value is negative.
 
 **Returns:**
-boolean
+boolean - The corresponding  boolean  value.
 ### getMarker() {#getMarker}
 ```
 public ChartMarker getMarker()
 ```
 
 
-Specifies a data marker. Marker is automatically created when requested.
+Specifies chart data marker.
 
 **Returns:**
-[ChartMarker](../../com.aspose.words/chartmarker/)
+[ChartMarker](../../com.aspose.words/chartmarker/) - The corresponding [ChartMarker](../../com.aspose.words/chartmarker/) value.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()
@@ -187,7 +187,7 @@ Specifies whether the bubbles in Bubble chart should have a 3-D effect applied t
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setExplosion(int value) {#setExplosion-int}
 ```
@@ -200,7 +200,7 @@ Specifies the amount the data point shall be moved from the center of the pie. C
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | int | The corresponding  int  value. |
 
 ### setInvertIfNegative(boolean value) {#setInvertIfNegative-boolean}
 ```
@@ -213,7 +213,7 @@ Specifies whether the parent element shall inverts its colors if the value is ne
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
+| value | boolean | The corresponding  boolean  value. |
 
 ### toString() {#toString}
 ```
