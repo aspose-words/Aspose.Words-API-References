@@ -26,12 +26,12 @@ class ChartDataPoint : public Aspose::Words::Drawing::Charts::IChartDataPoint,
 | [get_Format](./get_format/)() | Provides access to fill and line formatting of this data point. |
 | [get_Index](./get_index/)() | Index of the data point this object applies formatting to. |
 | [get_InvertIfNegative](./get_invertifnegative/)() override | Specifies whether the parent element shall inverts its colors if the value is negative. |
-| [get_Marker](./get_marker/)() override | Specifies a data marker. Marker is automatically created when requested. |
+| [get_Marker](./get_marker/)() override | Specifies chart data marker. |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_Bubble3D](./set_bubble3d/)(bool) override | Setter for [Aspose::Words::Drawing::Charts::IChartDataPoint::get_Bubble3D](../ichartdatapoint/get_bubble3d/). |
-| [set_Explosion](./set_explosion/)(int32_t) override | Setter for [Aspose::Words::Drawing::Charts::IChartDataPoint::get_Explosion](../ichartdatapoint/get_explosion/). |
-| [set_InvertIfNegative](./set_invertifnegative/)(bool) override | Setter for [Aspose::Words::Drawing::Charts::IChartDataPoint::get_InvertIfNegative](../ichartdatapoint/get_invertifnegative/). |
+| [set_Bubble3D](./set_bubble3d/)(bool) override | Specifies whether the bubbles in Bubble chart should have a 3-D effect applied to them. |
+| [set_Explosion](./set_explosion/)(int32_t) override | Specifies the amount the data point shall be moved from the center of the pie. Can be negative, negative means that property is not set and no explosion should be applied. Applies only to Pie charts. |
+| [set_InvertIfNegative](./set_invertifnegative/)(bool) override | Specifies whether the parent element shall inverts its colors if the value is negative. |
 | static [Type](./type/)() |  |
 
 ## Examples

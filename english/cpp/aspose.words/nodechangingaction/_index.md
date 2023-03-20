@@ -3,7 +3,7 @@ title: NodeChangingAction
 second_title: Aspose.Words for C++ API Reference
 description: Specifies the type of node change.
 type: docs
-weight: 1314
+weight: 1301
 url: /cpp/aspose.words/nodechangingaction/
 ---
 ## NodeChangingAction enum

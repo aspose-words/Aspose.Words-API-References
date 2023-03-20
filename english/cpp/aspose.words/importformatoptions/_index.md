@@ -19,6 +19,7 @@ class ImportFormatOptions : public System::Object
 
 | Method | Description |
 | --- | --- |
+| [get_AdjustSentenceAndWordSpacing](./get_adjustsentenceandwordspacing/)() const | Gets a boolean value that specifies whether to adjust sentence and word spacing automatically. The default value is **false**. |
 | [get_ForceCopyStyles](./get_forcecopystyles/)() const | Gets or sets a boolean value indicating either to copy conflicting styles in [KeepSourceFormatting](../importformatmode/) mode. The default value is **false**. |
 | [get_IgnoreHeaderFooter](./get_ignoreheaderfooter/)() const | Gets or sets a boolean value that specifies that source formatting of headers/footers content ignored if [KeepSourceFormatting](../importformatmode/) mode is used. The default value is **true**. |
 | [get_IgnoreTextBoxes](./get_ignoretextboxes/)() const | Gets or sets a boolean value that specifies that source formatting of textboxes content ignored if [KeepSourceFormatting](../importformatmode/) mode is used. The default value is **true**. |
@@ -28,6 +29,7 @@ class ImportFormatOptions : public System::Object
 | [GetType](./gettype/)() const override |  |
 | [ImportFormatOptions](./importformatoptions/)() |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
+| [set_AdjustSentenceAndWordSpacing](./set_adjustsentenceandwordspacing/)(bool) | Sets a boolean value that specifies whether to adjust sentence and word spacing automatically. The default value is **false**. |
 | [set_ForceCopyStyles](./set_forcecopystyles/)(bool) | Setter for [Aspose::Words::ImportFormatOptions::get_ForceCopyStyles](./get_forcecopystyles/). |
 | [set_IgnoreHeaderFooter](./set_ignoreheaderfooter/)(bool) | Setter for [Aspose::Words::ImportFormatOptions::get_IgnoreHeaderFooter](./get_ignoreheaderfooter/). |
 | [set_IgnoreTextBoxes](./set_ignoretextboxes/)(bool) | Setter for [Aspose::Words::ImportFormatOptions::get_IgnoreTextBoxes](./get_ignoretextboxes/). |

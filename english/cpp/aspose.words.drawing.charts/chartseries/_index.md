@@ -33,10 +33,10 @@ class ChartSeries : public Aspose::Words::Drawing::Charts::IChartDataPoint,
 | [get_Smooth](./get_smooth/)() const | Allows to specify whether the line connecting the points on the chart shall be smoothed using Catmull-Rom splines. |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_Bubble3D](./set_bubble3d/)(bool) override | Setter for [Aspose::Words::Drawing::Charts::IChartDataPoint::get_Bubble3D](../ichartdatapoint/get_bubble3d/). |
-| [set_Explosion](./set_explosion/)(int32_t) override | Setter for [Aspose::Words::Drawing::Charts::IChartDataPoint::get_Explosion](../ichartdatapoint/get_explosion/). |
+| [set_Bubble3D](./set_bubble3d/)(bool) override | Specifies whether the bubbles in Bubble chart should have a 3-D effect applied to them. |
+| [set_Explosion](./set_explosion/)(int32_t) override | Specifies the amount the data point shall be moved from the center of the pie. Can be negative, negative means that property is not set and no explosion should be applied. Applies only to Pie charts. |
 | [set_HasDataLabels](./set_hasdatalabels/)(bool) | Sets a flag indicating whether data labels are displayed for the series. |
-| [set_InvertIfNegative](./set_invertifnegative/)(bool) override | Setter for [Aspose::Words::Drawing::Charts::IChartDataPoint::get_InvertIfNegative](../ichartdatapoint/get_invertifnegative/). |
+| [set_InvertIfNegative](./set_invertifnegative/)(bool) override | Specifies whether the parent element shall inverts its colors if the value is negative. |
 | [set_Name](./set_name/)(const System::String\&) | Setter for [Aspose::Words::Drawing::Charts::ChartSeries::get_Name](./get_name/). |
 | [set_Smooth](./set_smooth/)(bool) | Setter for [Aspose::Words::Drawing::Charts::ChartSeries::get_Smooth](./get_smooth/). |
 | static [Type](./type/)() |  |

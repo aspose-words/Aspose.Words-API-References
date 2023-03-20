@@ -1,7 +1,7 @@
 ---
 title: set_InvertIfNegative
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Drawing::Charts::IChartDataPoint::get_InvertIfNegative.'
+description: Specifies whether the parent element shall inverts its colors if the value is negative.
 type: docs
 weight: 222
 url: /cpp/aspose.words.drawing.charts/chartseries/set_invertifnegative/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.drawing.charts/chartseries/set_invertifnegative/
 ## ChartSeries::set_InvertIfNegative method
 
 
-Setter for [Aspose::Words::Drawing::Charts::IChartDataPoint::get_InvertIfNegative](../../ichartdatapoint/get_invertifnegative/).
+Specifies whether the parent element shall inverts its colors if the value is negative.
 
 ```cpp
 void Aspose::Words::Drawing::Charts::ChartSeries::set_InvertIfNegative(bool value) override

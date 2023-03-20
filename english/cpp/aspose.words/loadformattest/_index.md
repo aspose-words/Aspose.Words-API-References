@@ -3,7 +3,7 @@ title: LoadFormatTest
 second_title: Aspose.Words for C++ API Reference
 description: LoadFormatTest enumeration.
 type: docs
-weight: 1275
+weight: 1262
 url: /cpp/aspose.words/loadformattest/
 ---
 ## LoadFormatTest enum

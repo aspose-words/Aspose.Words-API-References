@@ -3,7 +3,7 @@ title: set_MajorUnitIsAuto
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Drawing::Charts::ChartAxis::get_MajorUnitIsAuto.'
 type: docs
-weight: 482
+weight: 534
 url: /cpp/aspose.words.drawing.charts/chartaxis/set_majorunitisauto/
 ---
 ## ChartAxis::set_MajorUnitIsAuto method

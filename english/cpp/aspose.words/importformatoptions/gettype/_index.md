@@ -3,7 +3,7 @@ title: GetType
 second_title: Aspose.Words for C++ API Reference
 description: 
 type: docs
-weight: 105
+weight: 118
 url: /cpp/aspose.words/importformatoptions/gettype/
 ---
 ## ImportFormatOptions::GetType method

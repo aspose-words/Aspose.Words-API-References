@@ -20,9 +20,13 @@ class Fill : public System::Object
 | Method | Description |
 | --- | --- |
 | [get_BackColor](./get_backcolor/)() | Gets a Color object that represents the background color for the fill. |
+| [get_BackThemeColor](./get_backthemecolor/)() | Gets a ThemeColor object that represents the background color for the fill. |
+| [get_BackTintAndShade](./get_backtintandshade/)() | Gets or sets a double value that lightens or darkens the background color. |
 | [get_Color](./get_color/)() |  |
 | [get_FillType](./get_filltype/)() | Gets a fill type. |
 | [get_ForeColor](./get_forecolor/)() | Gets or sets a Color object that represents the foreground color for the fill. |
+| [get_ForeThemeColor](./get_forethemecolor/)() | Gets a ThemeColor object that represents the foreground color for the fill. |
+| [get_ForeTintAndShade](./get_foretintandshade/)() | Gets or sets a double value that lightens or darkens the foreground color. |
 | [get_GradientAngle](./get_gradientangle/)() | Gets or sets the angle of the gradient fill. |
 | [get_GradientStops](./get_gradientstops/)() | Gets a collection of [GradientStop](../gradientstop/) objects for the fill. |
 | [get_GradientStyle](./get_gradientstyle/)() | Gets the gradient style [GradientStyle](../gradientstyle/) for the fill. |
@@ -44,8 +48,12 @@ class Fill : public System::Object
 | [Patterned](./patterned/)(Aspose::Words::Drawing::PatternType, System::Drawing::Color, System::Drawing::Color) | Sets the specified fill to a pattern. |
 | [PresetTextured](./presettextured/)(Aspose::Words::Drawing::PresetTexture) | Sets the fill to a preset texture. |
 | [set_BackColor](./set_backcolor/)(System::Drawing::Color) | Sets a Color object that represents the background color for the fill. |
+| [set_BackThemeColor](./set_backthemecolor/)(Aspose::Words::Themes::ThemeColor) | Sets a ThemeColor object that represents the background color for the fill. |
+| [set_BackTintAndShade](./set_backtintandshade/)(double) | Setter for [Aspose::Words::Drawing::Fill::get_BackTintAndShade](./get_backtintandshade/). |
 | [set_Color](./set_color/)(System::Drawing::Color) |  |
 | [set_ForeColor](./set_forecolor/)(System::Drawing::Color) | Setter for [Aspose::Words::Drawing::Fill::get_ForeColor](./get_forecolor/). |
+| [set_ForeThemeColor](./set_forethemecolor/)(Aspose::Words::Themes::ThemeColor) | Sets a ThemeColor object that represents the foreground color for the fill. |
+| [set_ForeTintAndShade](./set_foretintandshade/)(double) | Setter for [Aspose::Words::Drawing::Fill::get_ForeTintAndShade](./get_foretintandshade/). |
 | [set_GradientAngle](./set_gradientangle/)(double) | Setter for [Aspose::Words::Drawing::Fill::get_GradientAngle](./get_gradientangle/). |
 | [set_On](./set_on/)(bool) |  |
 | [set_Opacity](./set_opacity/)(double) | Setter for [Aspose::Words::Drawing::Fill::get_Opacity](./get_opacity/). |

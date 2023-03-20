@@ -1,7 +1,7 @@
 ---
 title: set_Bubble3D
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Drawing::Charts::IChartDataPoint::get_Bubble3D.'
+description: Specifies whether the bubbles in Bubble chart should have a 3-D effect applied to them.
 type: docs
 weight: 183
 url: /cpp/aspose.words.drawing.charts/chartseries/set_bubble3d/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.drawing.charts/chartseries/set_bubble3d/
 ## ChartSeries::set_Bubble3D method
 
 
-Setter for [Aspose::Words::Drawing::Charts::IChartDataPoint::get_Bubble3D](../../ichartdatapoint/get_bubble3d/).
+Specifies whether the bubbles in Bubble chart should have a 3-D effect applied to them.
 
 ```cpp
 void Aspose::Words::Drawing::Charts::ChartSeries::set_Bubble3D(bool value) override

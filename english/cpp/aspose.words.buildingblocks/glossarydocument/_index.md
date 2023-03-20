@@ -27,7 +27,7 @@ class GlossaryDocument : public Aspose::Words::DocumentBase
 | [get_ChildNodes](../../aspose.words/compositenode/get_childnodes/)() | Gets all immediate child nodes of this node. |
 | [get_Count](../../aspose.words/compositenode/get_count/)() | Gets the number of immediate children of this node. |
 | [get_CustomNodeId](../../aspose.words/node/get_customnodeid/)() const | Specifies custom node identifier. |
-| [get_Document](../../aspose.words/documentbase/get_document/)() const override | Gets the document to which this node belongs. |
+| [get_Document](../../aspose.words/documentbase/get_document/)() const override | Gets this instance. |
 | [get_FirstBuildingBlock](./get_firstbuildingblock/)() | Gets the first building block in the glossary document. |
 | [get_FirstChild](../../aspose.words/compositenode/get_firstchild/)() const | Gets the first child of the node. |
 | [get_FontInfos](../../aspose.words/documentbase/get_fontinfos/)() const | Provides access to properties of fonts used in this document. |

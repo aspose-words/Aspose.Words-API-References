@@ -3,7 +3,7 @@ title: SetImage
 second_title: Aspose.Words for C++ API Reference
 description: Changes the fill type to single image.
 type: docs
-weight: 430
+weight: 534
 url: /cpp/aspose.words.drawing/fill/setimage/
 ---
 ## Fill::SetImage(const System::ArrayPtr\<uint8_t\>\&) method

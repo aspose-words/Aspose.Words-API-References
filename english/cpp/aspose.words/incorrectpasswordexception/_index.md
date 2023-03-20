@@ -3,7 +3,7 @@ title: IncorrectPasswordException
 second_title: Aspose.Words for C++ API Reference
 description: Thrown if a document is encrypted with a password and the password specified when opening the document is incorrect or missing. To learn more, visit the  documentation article.
 type: docs
-weight: 1743
+weight: 1730
 url: /cpp/aspose.words/incorrectpasswordexception/
 ---
 ## IncorrectPasswordException typedef

@@ -3,7 +3,7 @@ title: LoadFormat
 second_title: Aspose.Words for C++ API Reference
 description: Indicates the format of the document that is to be loaded.
 type: docs
-weight: 1262
+weight: 1249
 url: /cpp/aspose.words/loadformat/
 ---
 ## LoadFormat enum

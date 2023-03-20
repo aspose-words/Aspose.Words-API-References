@@ -3,7 +3,7 @@ title: TextDmlEffect
 second_title: Aspose.Words for C++ API Reference
 description: Dml text effect for text runs.
 type: docs
-weight: 1587
+weight: 1574
 url: /cpp/aspose.words/textdmleffect/
 ---
 ## TextDmlEffect enum

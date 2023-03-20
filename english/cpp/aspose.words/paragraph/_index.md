@@ -34,7 +34,7 @@ class Paragraph : public Aspose::Words::CompositeNode,
 | [get_CustomNodeId](../node/get_customnodeid/)() const | Specifies custom node identifier. |
 | virtual [get_Document](../node/get_document/)() const | Gets the document to which this node belongs. |
 | [get_FirstChild](../compositenode/get_firstchild/)() const | Gets the first child of the node. |
-| [get_FrameFormat](./get_frameformat/)() | Provides access to the paragraph formatting properties. |
+| [get_FrameFormat](./get_frameformat/)() | Provides access to the frame formatting properties. |
 | [get_HasChildNodes](../compositenode/get_haschildnodes/)() | Returns **true** if this node has any child nodes. |
 | [get_IsComposite](../compositenode/get_iscomposite/)() override | Returns **true** as this node can have child nodes. |
 | [get_IsDeleteRevision](./get_isdeleterevision/)() | Returns true if this object was deleted in Microsoft Word while change tracking was enabled. |

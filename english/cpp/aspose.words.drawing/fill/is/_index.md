@@ -3,7 +3,7 @@ title: Is
 second_title: Aspose.Words for C++ API Reference
 description: 
 type: docs
-weight: 248
+weight: 300
 url: /cpp/aspose.words.drawing/fill/is/
 ---
 ## Fill::Is method

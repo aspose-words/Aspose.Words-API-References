@@ -3,7 +3,7 @@ title: Margins
 second_title: Aspose.Words for C++ API Reference
 description: Specifies preset margins.
 type: docs
-weight: 1288
+weight: 1275
 url: /cpp/aspose.words/margins/
 ---
 ## Margins enum

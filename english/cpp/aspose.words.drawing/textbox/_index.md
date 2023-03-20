@@ -27,6 +27,7 @@ class TextBox : public System::Object
 | [get_InternalMarginTop](./get_internalmargintop/)() | Specifies the inner top margin in points for a shape. |
 | [get_LayoutFlow](./get_layoutflow/)() | Determines the flow of the text layout in a shape. |
 | [get_Next](./get_next/)() | Returns or sets a [TextBox](./) that represents the next [TextBox](./) in a sequence of shapes. |
+| [get_NoTextRotation](./get_notextrotation/)() | Gets a boolean value indicating either text of the [TextBox](./) should not rotate when the shape is rotated. |
 | [get_Parent](./get_parent/)() const | Gets a parent shape for the [TextBox](./). |
 | [get_Previous](./get_previous/)() | Returns a [TextBox](./) that represents the previous [TextBox](./) in a sequence of shapes. |
 | [get_TextBoxWrapMode](./get_textboxwrapmode/)() | Determines how text wraps inside a shape. |
@@ -41,6 +42,7 @@ class TextBox : public System::Object
 | [set_InternalMarginTop](./set_internalmargintop/)(double) | Setter for [Aspose::Words::Drawing::TextBox::get_InternalMarginTop](./get_internalmargintop/). |
 | [set_LayoutFlow](./set_layoutflow/)(Aspose::Words::Drawing::LayoutFlow) | Setter for [Aspose::Words::Drawing::TextBox::get_LayoutFlow](./get_layoutflow/). |
 | [set_Next](./set_next/)(const System::SharedPtr\<Aspose::Words::Drawing::TextBox\>\&) | Setter for [Aspose::Words::Drawing::TextBox::get_Next](./get_next/). |
+| [set_NoTextRotation](./set_notextrotation/)(bool) | Sets a boolean value indicating either text of the [TextBox](./) should not rotate when the shape is rotated. |
 | [set_TextBoxWrapMode](./set_textboxwrapmode/)(Aspose::Words::Drawing::TextBoxWrapMode) | Setter for [Aspose::Words::Drawing::TextBox::get_TextBoxWrapMode](./get_textboxwrapmode/). |
 | [set_VerticalAnchor](./set_verticalanchor/)(Aspose::Words::Drawing::TextBoxAnchor) | Setter for [Aspose::Words::Drawing::TextBox::get_VerticalAnchor](./get_verticalanchor/). |
 | static [Type](./type/)() |  |

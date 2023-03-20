@@ -28,6 +28,8 @@ class ChartAxis : public Aspose::Words::Drawing::Charts::Core::IDmlChartTitleHol
 | [get_CrossesAt](./get_crossesat/)() | Specifies where on the perpendicular axis the axis crosses. |
 | [get_DisplayUnit](./get_displayunit/)() | Specifies the scaling value of the display units for the value axis. |
 | [get_Document](./get_document/)() override | Returns the [Document](../../aspose.words/document/) the title holder belongs. |
+| [get_HasMajorGridlines](./get_hasmajorgridlines/)() | Gets a flag indicating whether the axis has major gridlines. |
+| [get_HasMinorGridlines](./get_hasminorgridlines/)() | Gets a flag indicating whether the axis has minor gridlines. |
 | [get_Hidden](./get_hidden/)() | Gets or sets a flag indicating whether this axis is hidden or not. |
 | [get_MajorTickMark](./get_majortickmark/)() | Returns or sets the major tick marks. |
 | [get_MajorUnit](./get_majorunit/)() | Returns or sets the distance between major tick marks. |
@@ -54,6 +56,8 @@ class ChartAxis : public Aspose::Words::Drawing::Charts::Core::IDmlChartTitleHol
 | [set_CategoryType](./set_categorytype/)(Aspose::Words::Drawing::Charts::AxisCategoryType) | Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_CategoryType](./get_categorytype/). |
 | [set_Crosses](./set_crosses/)(Aspose::Words::Drawing::Charts::AxisCrosses) | Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_Crosses](./get_crosses/). |
 | [set_CrossesAt](./set_crossesat/)(double) | Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_CrossesAt](./get_crossesat/). |
+| [set_HasMajorGridlines](./set_hasmajorgridlines/)(bool) | Sets a flag indicating whether the axis has major gridlines. |
+| [set_HasMinorGridlines](./set_hasminorgridlines/)(bool) | Sets a flag indicating whether the axis has minor gridlines. |
 | [set_Hidden](./set_hidden/)(bool) | Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_Hidden](./get_hidden/). |
 | [set_MajorTickMark](./set_majortickmark/)(Aspose::Words::Drawing::Charts::AxisTickMark) | Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_MajorTickMark](./get_majortickmark/). |
 | [set_MajorUnit](./set_majorunit/)(double) | Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_MajorUnit](./get_majorunit/). |

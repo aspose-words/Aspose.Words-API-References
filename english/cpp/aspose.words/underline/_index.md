@@ -3,7 +3,7 @@ title: Underline
 second_title: Aspose.Words for C++ API Reference
 description: Indicates type of the underline applied to a font.
 type: docs
-weight: 1639
+weight: 1626
 url: /cpp/aspose.words/underline/
 ---
 ## Underline enum
