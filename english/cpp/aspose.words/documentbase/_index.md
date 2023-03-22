@@ -26,7 +26,7 @@ class DocumentBase : public Aspose::Words::CompositeNode
 | [get_ChildNodes](../compositenode/get_childnodes/)() | Gets all immediate child nodes of this node. |
 | [get_Count](../compositenode/get_count/)() | Gets the number of immediate children of this node. |
 | [get_CustomNodeId](../node/get_customnodeid/)() const | Specifies custom node identifier. |
-| [get_Document](./get_document/)() const override | Gets the document to which this node belongs. |
+| [get_Document](./get_document/)() const override | Gets this instance. |
 | [get_FirstChild](../compositenode/get_firstchild/)() const | Gets the first child of the node. |
 | [get_FontInfos](./get_fontinfos/)() const | Provides access to properties of fonts used in this document. |
 | [get_HasChildNodes](../compositenode/get_haschildnodes/)() | Returns **true** if this node has any child nodes. |

@@ -1,7 +1,7 @@
 ---
 title: FieldDatabaseDataTable
 second_title: Aspose.Words for C++ API Reference
-description: Provides data for the FieldDatabase field result. To learn more, visit the  documentation article.
+description: Provides data for the FieldDatabase field result. Please see DataTable instance. To learn more, visit the  documentation article.
 type: docs
 weight: 378
 url: /cpp/aspose.words.fields/fielddatabasedatatable/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.fields/fielddatabasedatatable/
 ## FieldDatabaseDataTable class
 
 
-Provides data for the [FieldDatabase](../fielddatabase/) field result. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article.
+Provides data for the [FieldDatabase](../fielddatabase/) field result. Please see **DataTable** instance. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/cpp/working-with-fields/) documentation article.
 
 ```cpp
 class FieldDatabaseDataTable : public System::Object

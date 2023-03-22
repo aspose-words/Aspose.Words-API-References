@@ -3,7 +3,7 @@ title: GetType
 second_title: Aspose.Words for C++ API Reference
 description: 
 type: docs
-weight: 170
+weight: 183
 url: /cpp/aspose.words.drawing/textbox/gettype/
 ---
 ## TextBox::GetType method

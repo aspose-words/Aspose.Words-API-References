@@ -3,7 +3,7 @@ title: PageBorderDistanceFrom
 second_title: Aspose.Words for C++ API Reference
 description: Specifies the positioning of the page border relative to the page margin.
 type: docs
-weight: 1392
+weight: 1379
 url: /cpp/aspose.words/pageborderdistancefrom/
 ---
 ## PageBorderDistanceFrom enum

@@ -27,7 +27,7 @@ class FramesetCollection : public System::Collections::Generic::IEnumerable<Syst
 | [end](./end/)() const |  |
 | [FramesetCollection](./framesetcollection/)() |  |
 | [get_Count](./get_count/)() | Gets the number of frames or frames pages contained in the collection. |
-| [GetEnumerator](./getenumerator/)() override |  |
+| [GetEnumerator](./getenumerator/)() override | Returns an enumerator that iterates through the collection. |
 | [GetType](./gettype/)() const override |  |
 | [idx_get](./idx_get/)(int32_t) | Gets a frame or frames page at the specified index. |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |

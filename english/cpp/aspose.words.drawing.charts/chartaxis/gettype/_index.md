@@ -3,7 +3,7 @@ title: GetType
 second_title: Aspose.Words for C++ API Reference
 description: 
 type: docs
-weight: 352
+weight: 378
 url: /cpp/aspose.words.drawing.charts/chartaxis/gettype/
 ---
 ## ChartAxis::GetType method

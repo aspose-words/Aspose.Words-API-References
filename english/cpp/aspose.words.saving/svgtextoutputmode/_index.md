@@ -1,7 +1,7 @@
 ---
 title: SvgTextOutputMode
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: Allows to specify how text inside a document should be rendered when saving in SVG format.
 type: docs
 weight: 1067
 url: /cpp/aspose.words.saving/svgtextoutputmode/
@@ -9,7 +9,7 @@ url: /cpp/aspose.words.saving/svgtextoutputmode/
 ## SvgTextOutputMode enum
 
 
-
+Allows to specify how text inside a document should be rendered when saving in SVG format.
 
 ```cpp
 enum class SvgTextOutputMode

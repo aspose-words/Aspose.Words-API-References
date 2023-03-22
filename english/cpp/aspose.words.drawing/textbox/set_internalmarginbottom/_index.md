@@ -3,7 +3,7 @@ title: set_InternalMarginBottom
 second_title: Aspose.Words for C++ API Reference
 description: 'Setter for Aspose::Words::Drawing::TextBox::get_InternalMarginBottom.'
 type: docs
-weight: 222
+weight: 235
 url: /cpp/aspose.words.drawing/textbox/set_internalmarginbottom/
 ---
 ## TextBox::set_InternalMarginBottom method

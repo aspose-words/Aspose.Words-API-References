@@ -3,7 +3,7 @@ title: get_On
 second_title: Aspose.Words for C++ API Reference
 description: 
 type: docs
-weight: 131
+weight: 183
 url: /cpp/aspose.words.drawing/fill/get_on/
 ---
 ## Fill::get_On method
