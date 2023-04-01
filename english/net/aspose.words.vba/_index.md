@@ -13,7 +13,6 @@ The **Aspose.Words.Vba** namespace provides classes to work with VBA projects.
 
 | Class | Description |
 | --- | --- |
-| [VbaExecutableAttribute](./vbaexecutableattribute/) |  |
 | [VbaModule](./vbamodule/) | Provides access to VBA project module. |
 | [VbaModuleCollection](./vbamodulecollection/) | Represents a collection of [`VbaModule`](../aspose.words.vba/vbamodule/) objects. |
 | [VbaProject](./vbaproject/) | Provides access to VBA project information. A VBA project inside the document is defined as a collection of VBA modules. |
