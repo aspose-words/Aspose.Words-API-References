@@ -4,7 +4,7 @@ linktitle: FieldData
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FieldData class. Implements the DATA field in C#.
 type: docs
-weight: 1580
+weight: 1610
 url: /net/aspose.words.fields/fielddata/
 ---
 ## FieldData class

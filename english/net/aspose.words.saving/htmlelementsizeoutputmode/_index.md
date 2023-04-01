@@ -4,7 +4,7 @@ linktitle: HtmlElementSizeOutputMode
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Saving.HtmlElementSizeOutputMode enum. Specifies how Aspose.Words exports element widths and heights to HTML MHTML and EPUB in C#.
 type: docs
-weight: 4840
+weight: 4870
 url: /net/aspose.words.saving/htmlelementsizeoutputmode/
 ---
 ## HtmlElementSizeOutputMode enumeration

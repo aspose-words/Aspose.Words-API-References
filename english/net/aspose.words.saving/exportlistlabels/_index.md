@@ -4,7 +4,7 @@ linktitle: ExportListLabels
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Saving.ExportListLabels enum. Specifies how list labels are exported to HTML MHTML and EPUB in C#.
 type: docs
-weight: 4790
+weight: 4820
 url: /net/aspose.words.saving/exportlistlabels/
 ---
 ## ExportListLabels enumeration

@@ -4,7 +4,7 @@ linktitle: WrapSide
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Drawing.WrapSide enum. Specifies what sides of the shape or picture the text wraps around in C#.
 type: docs
-weight: 1240
+weight: 1270
 url: /net/aspose.words.drawing/wrapside/
 ---
 ## WrapSide enumeration

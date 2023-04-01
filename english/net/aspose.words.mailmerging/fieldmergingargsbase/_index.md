@@ -4,7 +4,7 @@ linktitle: FieldMergingArgsBase
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.MailMerging.FieldMergingArgsBase class. Base class for FieldMergingArgs and ImageFieldMergingArgs in C#.
 type: docs
-weight: 3580
+weight: 3610
 url: /net/aspose.words.mailmerging/fieldmergingargsbase/
 ---
 ## FieldMergingArgsBase class

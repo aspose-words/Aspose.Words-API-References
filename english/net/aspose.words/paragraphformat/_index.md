@@ -4,7 +4,7 @@ linktitle: ParagraphFormat
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.ParagraphFormat class. Represents all the formatting for a paragraph in C#.
 type: docs
-weight: 4210
+weight: 4240
 url: /net/aspose.words/paragraphformat/
 ---
 ## ParagraphFormat class

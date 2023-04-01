@@ -4,7 +4,7 @@ linktitle: Table
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Tables.Table class. Represents a table in a Word document in C#.
 type: docs
-weight: 6110
+weight: 6140
 url: /net/aspose.words.tables/table/
 ---
 ## Table class
@@ -40,10 +40,10 @@ public class Table : CompositeNode
 | [Count](../../aspose.words/compositenode/count/) { get; } | Gets the number of immediate children of this node. |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Specifies custom node identifier. |
 | [Description](../../aspose.words.tables/table/description/) { get; set; } | Gets or sets description of this table. It provides an alternative text representation of the information contained in the table. |
-| [DistanceBottom](../../aspose.words.tables/table/distancebottom/) { get; } | Gets distance between table bottom and the surrounding text, in points. |
-| [DistanceLeft](../../aspose.words.tables/table/distanceleft/) { get; } | Gets distance between table left and the surrounding text, in points. |
-| [DistanceRight](../../aspose.words.tables/table/distanceright/) { get; } | Gets distance between table right and the surrounding text, in points. |
-| [DistanceTop](../../aspose.words.tables/table/distancetop/) { get; } | Gets distance between table top and the surrounding text, in points. |
+| [DistanceBottom](../../aspose.words.tables/table/distancebottom/) { get; set; } | Gets or sets distance between table bottom and the surrounding text, in points. |
+| [DistanceLeft](../../aspose.words.tables/table/distanceleft/) { get; set; } | Gets or sets distance between table left and the surrounding text, in points. |
+| [DistanceRight](../../aspose.words.tables/table/distanceright/) { get; set; } | Gets or sets distance between table right and the surrounding text, in points. |
+| [DistanceTop](../../aspose.words.tables/table/distancetop/) { get; set; } | Gets or sets distance between table top and the surrounding text, in points. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Gets the document to which this node belongs. |
 | [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Gets the first child of the node. |
 | [FirstRow](../../aspose.words.tables/table/firstrow/) { get; } | Returns the first [`Row`](../row/) node in the table. |

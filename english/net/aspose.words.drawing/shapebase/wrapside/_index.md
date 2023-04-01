@@ -4,7 +4,7 @@ linktitle: WrapSide
 second_title: Aspose.Words for .NET API Reference
 description: ShapeBase property. Specifies how the text is wrapped around the shape in C#.
 type: docs
-weight: 530
+weight: 590
 url: /net/aspose.words.drawing/shapebase/wrapside/
 ---
 ## ShapeBase.WrapSide property

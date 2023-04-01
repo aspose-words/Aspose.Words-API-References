@@ -4,7 +4,7 @@ linktitle: XmlDataLoadOptions
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Reporting.XmlDataLoadOptions class. Represents options for XML data loading in C#.
 type: docs
-weight: 4520
+weight: 4550
 url: /net/aspose.words.reporting/xmldataloadoptions/
 ---
 ## XmlDataLoadOptions class

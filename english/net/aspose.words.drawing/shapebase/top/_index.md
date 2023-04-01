@@ -4,7 +4,7 @@ linktitle: Top
 second_title: Aspose.Words for .NET API Reference
 description: ShapeBase property. Gets or sets the position of the top edge of the containing block of the shape in C#.
 type: docs
-weight: 500
+weight: 540
 url: /net/aspose.words.drawing/shapebase/top/
 ---
 ## ShapeBase.Top property

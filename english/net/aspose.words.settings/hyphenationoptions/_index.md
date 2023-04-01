@@ -4,7 +4,7 @@ linktitle: HyphenationOptions
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Settings.HyphenationOptions class. Allows to configure document hyphenation options in C#.
 type: docs
-weight: 5560
+weight: 5590
 url: /net/aspose.words.settings/hyphenationoptions/
 ---
 ## HyphenationOptions class
