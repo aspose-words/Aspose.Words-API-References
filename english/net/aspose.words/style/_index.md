@@ -4,7 +4,7 @@ linktitle: Style
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Style class. Represents a single builtin or userdefined style in C#.
 type: docs
-weight: 5900
+weight: 5930
 url: /net/aspose.words/style/
 ---
 ## Style class
@@ -84,6 +84,8 @@ Style style = doc.Styles.Add(StyleType.Paragraph, "MyStyle");
 style.Font.Name = "Times New Roman";
 style.Font.Size = 16;
 style.Font.Color = Color.Navy;
+// Automatically redefine style.
+style.AutomaticallyUpdate = true;
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 

@@ -4,7 +4,7 @@ linktitle: CommentDisplayMode
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Layout.CommentDisplayMode enum. Specifies the rendering mode for document comments in C#.
 type: docs
-weight: 3110
+weight: 3140
 url: /net/aspose.words.layout/commentdisplaymode/
 ---
 ## CommentDisplayMode enumeration

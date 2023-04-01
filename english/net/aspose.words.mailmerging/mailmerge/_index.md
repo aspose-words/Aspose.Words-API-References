@@ -4,7 +4,7 @@ linktitle: MailMerge
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.MailMerging.MailMerge class. Represents the mail merge functionality in C#.
 type: docs
-weight: 3640
+weight: 3670
 url: /net/aspose.words.mailmerging/mailmerge/
 ---
 ## MailMerge class

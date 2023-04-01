@@ -4,7 +4,7 @@ linktitle: FieldIf
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FieldIf class. Implements the IF field in C#.
 type: docs
-weight: 1850
+weight: 1880
 url: /net/aspose.words.fields/fieldif/
 ---
 ## FieldIf class

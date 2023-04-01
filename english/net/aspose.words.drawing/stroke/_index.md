@@ -4,7 +4,7 @@ linktitle: Stroke
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Drawing.Stroke class. Defines a stroke for a shape in C#.
 type: docs
-weight: 1160
+weight: 1190
 url: /net/aspose.words.drawing/stroke/
 ---
 ## Stroke class
@@ -29,6 +29,7 @@ public class Stroke
 | [EndArrowType](../../aspose.words.drawing/stroke/endarrowtype/) { get; set; } | Defines the arrowhead for the end of a stroke. |
 | [EndArrowWidth](../../aspose.words.drawing/stroke/endarrowwidth/) { get; set; } | Defines the arrowhead width for the end of a stroke. |
 | [EndCap](../../aspose.words.drawing/stroke/endcap/) { get; set; } | Defines the cap style for the end of a stroke. |
+| [Fill](../../aspose.words.drawing/stroke/fill/) { get; } | Gets fill formatting for the `Stroke`. |
 | [ForeColor](../../aspose.words.drawing/stroke/forecolor/) { get; set; } | Gets or sets the foreground color of the stroke. |
 | [ImageBytes](../../aspose.words.drawing/stroke/imagebytes/) { get; } | Defines the image for a stroke image or pattern fill. |
 | [JoinStyle](../../aspose.words.drawing/stroke/joinstyle/) { get; set; } | Defines the join style of a polyline. |

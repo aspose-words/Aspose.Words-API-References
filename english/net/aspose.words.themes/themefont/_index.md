@@ -4,7 +4,7 @@ linktitle: ThemeFont
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Themes.ThemeFont enum. Specifies the types of theme font names for document themes in C#.
 type: docs
-weight: 6260
+weight: 6290
 url: /net/aspose.words.themes/themefont/
 ---
 ## ThemeFont enumeration

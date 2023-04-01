@@ -21,7 +21,6 @@ Shows how to remove styles from Style Gallery panel.
 
 ```csharp
 Document doc = new Document();
-
 // Note that remove styles work only with DOCX format for now.
 doc.Styles.ClearQuickStyleGallery();
 

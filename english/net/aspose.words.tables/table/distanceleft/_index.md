@@ -2,17 +2,17 @@
 title: Table.DistanceLeft
 linktitle: DistanceLeft
 second_title: Aspose.Words for .NET API Reference
-description: Table property. Gets distance between table left and the surrounding text in points in C#.
+description: Table property. Gets or sets distance between table left and the surrounding text in points in C#.
 type: docs
 weight: 130
 url: /net/aspose.words.tables/table/distanceleft/
 ---
 ## Table.DistanceLeft property
 
-Gets distance between table left and the surrounding text, in points.
+Gets or sets distance between table left and the surrounding text, in points.
 
 ```csharp
-public double DistanceLeft { get; }
+public double DistanceLeft { get; set; }
 ```
 
 ## Examples

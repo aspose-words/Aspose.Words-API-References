@@ -4,7 +4,7 @@ linktitle: FieldIndexFormat
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FieldIndexFormat enum. Specifies the formatting for the FieldIndex fields in a document in C#.
 type: docs
-weight: 1920
+weight: 1950
 url: /net/aspose.words.fields/fieldindexformat/
 ---
 ## FieldIndexFormat enumeration

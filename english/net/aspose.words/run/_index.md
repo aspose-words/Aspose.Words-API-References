@@ -4,7 +4,7 @@ linktitle: Run
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Run class. Represents a run of characters with the same font formatting in C#.
 type: docs
-weight: 4600
+weight: 4630
 url: /net/aspose.words/run/
 ---
 ## Run class
@@ -37,6 +37,7 @@ public class Run : Inline
 | [IsInsertRevision](../../aspose.words/inline/isinsertrevision/) { get; } | Returns true if this object was inserted in Microsoft Word while change tracking was enabled. |
 | [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | Returns `true` if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
 | [IsMoveToRevision](../../aspose.words/inline/ismovetorevision/) { get; } | Returns `true` if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
+| [IsPhoneticGuide](../../aspose.words/run/isphoneticguide/) { get; } | Gets a boolean value indicating either the run is a phonetic guide. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Gets the node immediately following this node. |
 | override [NodeType](../../aspose.words/run/nodetype/) { get; } | Returns Run. |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Gets the immediate parent of this node. |

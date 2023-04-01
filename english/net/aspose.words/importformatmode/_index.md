@@ -4,7 +4,7 @@ linktitle: ImportFormatMode
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.ImportFormatMode enum. Specifies how formatting is merged when importing content from another document in C#.
 type: docs
-weight: 3050
+weight: 3080
 url: /net/aspose.words/importformatmode/
 ---
 ## ImportFormatMode enumeration

@@ -4,7 +4,7 @@ linktitle: Metered
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Metered class. Provides methods to set metered key in C#.
 type: docs
-weight: 3950
+weight: 3980
 url: /net/aspose.words/metered/
 ---
 ## Metered class

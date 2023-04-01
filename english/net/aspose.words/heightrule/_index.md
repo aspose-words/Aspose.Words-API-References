@@ -4,7 +4,7 @@ linktitle: HeightRule
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.HeightRule enum. Specifies the rule for determining the height of an object in C#.
 type: docs
-weight: 2970
+weight: 3000
 url: /net/aspose.words/heightrule/
 ---
 ## HeightRule enumeration

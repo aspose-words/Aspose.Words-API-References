@@ -53,6 +53,8 @@ xAxis.MajorUnit = 7.0d;
 xAxis.MajorTickMark = AxisTickMark.Cross;
 xAxis.MinorUnit = 1.0d;
 xAxis.MinorTickMark = AxisTickMark.Outside;
+xAxis.HasMajorGridlines = true;
+xAxis.HasMinorGridlines = true;
 
 // Define Y-axis properties for decimal values.
 ChartAxis yAxis = chart.AxisY;
@@ -62,6 +64,8 @@ yAxis.MinorUnit = 50.0d;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;
 yAxis.Scaling.Minimum = new AxisBound(100);
 yAxis.Scaling.Maximum = new AxisBound(700);
+yAxis.HasMajorGridlines = true;
+yAxis.HasMinorGridlines = true;
 
 doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 ```

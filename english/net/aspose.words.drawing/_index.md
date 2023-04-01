@@ -50,7 +50,9 @@ The **Aspose.Words.Drawing** namespace provides classes that allow to create and
 | [PatternType](./patterntype/) | Specifies the fill pattern to be used to fill a shape. |
 | [PresetTexture](./presettexture/) | Specifies texture to be used to fill a shape. |
 | [RelativeHorizontalPosition](./relativehorizontalposition/) | Specifies to what the horizontal position of a shape or text frame is relative. |
+| [RelativeHorizontalSize](./relativehorizontalsize/) | Specifies relatively to what the width of a shape or a text frame is calculated horizontally. |
 | [RelativeVerticalPosition](./relativeverticalposition/) | Specifies to what the vertical position of a shape or text frame is relative. |
+| [RelativeVerticalSize](./relativeverticalsize/) | Specifies relatively to what the height of a shape or a text frame is calculated vertically. |
 | [ShadowType](./shadowtype/) | Specifies the type of a shape shadow. |
 | [ShapeLineStyle](./shapelinestyle/) | Specifies the compound line style of a [`Shape`](../aspose.words.drawing/shape/). |
 | [ShapeMarkupLanguage](./shapemarkuplanguage/) | Specifies Markup language used for the shape. |

@@ -4,7 +4,7 @@ linktitle: AxisY
 second_title: Aspose.Words for .NET API Reference
 description: Chart property. Provides access to properties of the Y axis of the chart in C#.
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.words.drawing.charts/chart/axisy/
 ---
 ## Chart.AxisY property

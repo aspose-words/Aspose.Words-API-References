@@ -25,6 +25,8 @@ public bool Equals(List list)
 
 ## Equals(object) {#equals_1}
 
+Determines whether the specified object is equal in value to the current object.
+
 ```csharp
 public override bool Equals(object obj)
 ```

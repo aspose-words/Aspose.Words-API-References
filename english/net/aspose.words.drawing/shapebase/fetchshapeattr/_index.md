@@ -4,7 +4,7 @@ linktitle: FetchShapeAttr
 second_title: Aspose.Words for .NET API Reference
 description: ShapeBase method. Reserved for system use. IShapeAttrSource in C#.
 type: docs
-weight: 580
+weight: 640
 url: /net/aspose.words.drawing/shapebase/fetchshapeattr/
 ---
 ## ShapeBase.FetchShapeAttr method
