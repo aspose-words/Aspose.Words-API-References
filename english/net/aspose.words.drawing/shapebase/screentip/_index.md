@@ -4,7 +4,7 @@ linktitle: ScreenTip
 second_title: Aspose.Words for .NET API Reference
 description: ShapeBase property. Defines the text displayed when the mouse pointer moves over the shape in C#.
 type: docs
-weight: 440
+weight: 480
 url: /net/aspose.words.drawing/shapebase/screentip/
 ---
 ## ShapeBase.ScreenTip property

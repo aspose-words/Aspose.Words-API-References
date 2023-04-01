@@ -2,17 +2,17 @@
 title: Table.DistanceBottom
 linktitle: DistanceBottom
 second_title: Aspose.Words for .NET API Reference
-description: Table property. Gets distance between table bottom and the surrounding text in points in C#.
+description: Table property. Gets or sets distance between table bottom and the surrounding text in points in C#.
 type: docs
 weight: 120
 url: /net/aspose.words.tables/table/distancebottom/
 ---
 ## Table.DistanceBottom property
 
-Gets distance between table bottom and the surrounding text, in points.
+Gets or sets distance between table bottom and the surrounding text, in points.
 
 ```csharp
-public double DistanceBottom { get; }
+public double DistanceBottom { get; set; }
 ```
 
 ## Examples

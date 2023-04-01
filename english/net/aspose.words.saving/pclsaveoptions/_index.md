@@ -4,7 +4,7 @@ linktitle: PclSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Saving.PclSaveOptions class. Can be used to specify additional options when saving a document into the Pcl format in C#.
 type: docs
-weight: 5180
+weight: 5210
 url: /net/aspose.words.saving/pclsaveoptions/
 ---
 ## PclSaveOptions class

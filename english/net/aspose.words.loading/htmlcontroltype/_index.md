@@ -4,7 +4,7 @@ linktitle: HtmlControlType
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Loading.HtmlControlType enum. Type of document nodes that represent input and select elements imported from HTML in C#.
 type: docs
-weight: 3430
+weight: 3460
 url: /net/aspose.words.loading/htmlcontroltype/
 ---
 ## HtmlControlType enumeration

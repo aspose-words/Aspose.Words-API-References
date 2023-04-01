@@ -4,7 +4,7 @@ linktitle: OdtSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Saving.OdtSaveOptions class. Can be used to specify additional options when saving a document into the Odt or Ott format in C#.
 type: docs
-weight: 5110
+weight: 5140
 url: /net/aspose.words.saving/odtsaveoptions/
 ---
 ## OdtSaveOptions class

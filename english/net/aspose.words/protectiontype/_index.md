@@ -4,7 +4,7 @@ linktitle: ProtectionType
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.ProtectionType enum. Protection type for a document in C#.
 type: docs
-weight: 4290
+weight: 4320
 url: /net/aspose.words/protectiontype/
 ---
 ## ProtectionType enumeration

@@ -4,7 +4,7 @@ linktitle: StoryType
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.StoryType enum. Text of a Word document is stored in stories. StoryType identifies a story in C#.
 type: docs
-weight: 5890
+weight: 5920
 url: /net/aspose.words/storytype/
 ---
 ## StoryType enumeration

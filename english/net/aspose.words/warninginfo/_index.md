@@ -4,7 +4,7 @@ linktitle: WarningInfo
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.WarningInfo class. Contains information about a warning that Aspose.Words issued during document loading or saving in C#.
 type: docs
-weight: 6390
+weight: 6430
 url: /net/aspose.words/warninginfo/
 ---
 ## WarningInfo class

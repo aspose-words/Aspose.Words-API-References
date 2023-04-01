@@ -4,7 +4,7 @@ linktitle: AxisX
 second_title: Aspose.Words for .NET API Reference
 description: Chart property. Provides access to properties of the X axis of the chart in C#.
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.words.drawing.charts/chart/axisx/
 ---
 ## Chart.AxisX property

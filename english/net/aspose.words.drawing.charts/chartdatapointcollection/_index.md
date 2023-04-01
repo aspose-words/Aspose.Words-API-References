@@ -4,7 +4,7 @@ linktitle: ChartDataPointCollection
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Drawing.Charts.ChartDataPointCollection class. Represents collection of a ChartDataPoint in C#.
 type: docs
-weight: 660
+weight: 670
 url: /net/aspose.words.drawing.charts/chartdatapointcollection/
 ---
 ## ChartDataPointCollection class

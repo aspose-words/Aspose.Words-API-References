@@ -4,7 +4,7 @@ linktitle: List
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Lists.List class. Represents formatting of a list in C#.
 type: docs
-weight: 3280
+weight: 3310
 url: /net/aspose.words.lists/list/
 ---
 ## List class
@@ -37,7 +37,7 @@ public class List : IComparable<List>
 | [CompareTo](../../aspose.words.lists/list/compareto/#compareto)(List) | Compares the specified list to the current list. |
 | [CompareTo](../../aspose.words.lists/list/compareto/#compareto_1)(object) | Compares the specified object to the current object. |
 | [Equals](../../aspose.words.lists/list/equals/#equals)(List) | Compares with the specified list. |
-| override [Equals](../../aspose.words.lists/list/equals/#equals_1)(object) |  |
+| override [Equals](../../aspose.words.lists/list/equals/#equals_1)(object) | Determines whether the specified object is equal in value to the current object. |
 | override [GetHashCode](../../aspose.words.lists/list/gethashcode/)() | Calculates hash code for this list object. |
 | [HasSameTemplate](../../aspose.words.lists/list/hassametemplate/)(List) | Returns true if the current list and the given list are created from the same template. |
 

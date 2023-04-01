@@ -19,6 +19,20 @@ public bool NoTextRotation { get; set; }
 
 The default value is `false`
 
+## Examples
+
+Shows how to disable text rotation when the shape is rotate.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Shape shape = builder.InsertShape(ShapeType.Ellipse, 20, 20);
+shape.TextBox.NoTextRotation = true;
+
+doc.Save(ArtifactsDir + "Shape.NoTextRotation.docx");
+```
+
 ### See Also
 
 * class [TextBox](../)

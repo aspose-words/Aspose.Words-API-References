@@ -4,7 +4,7 @@ linktitle: Right
 second_title: Aspose.Words for .NET API Reference
 description: ShapeBase property. Gets the position of the right edge of the containing block of the shape in C#.
 type: docs
-weight: 420
+weight: 460
 url: /net/aspose.words.drawing/shapebase/right/
 ---
 ## ShapeBase.Right property

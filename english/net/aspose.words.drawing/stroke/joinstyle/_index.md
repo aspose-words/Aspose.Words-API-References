@@ -4,7 +4,7 @@ linktitle: JoinStyle
 second_title: Aspose.Words for .NET API Reference
 description: Stroke property. Defines the join style of a polyline in C#.
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.words.drawing/stroke/joinstyle/
 ---
 ## Stroke.JoinStyle property

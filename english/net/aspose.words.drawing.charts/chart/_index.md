@@ -21,6 +21,7 @@ public class Chart
 
 | Name | Description |
 | --- | --- |
+| [Axes](../../aspose.words.drawing.charts/chart/axes/) { get; } | Gets a collection of all axes of this chart. |
 | [AxisX](../../aspose.words.drawing.charts/chart/axisx/) { get; } | Provides access to properties of the X axis of the chart. |
 | [AxisY](../../aspose.words.drawing.charts/chart/axisy/) { get; } | Provides access to properties of the Y axis of the chart. |
 | [AxisZ](../../aspose.words.drawing.charts/chart/axisz/) { get; } | Provides access to properties of the Z axis of the chart. |

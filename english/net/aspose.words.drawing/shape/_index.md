@@ -4,7 +4,7 @@ linktitle: Shape
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Drawing.Shape class. Represents an object in the drawing layer such as an AutoShape textbox freeform OLE object ActiveX control or picture in C#.
 type: docs
-weight: 1100
+weight: 1130
 url: /net/aspose.words.drawing/shape/
 ---
 ## Shape class
@@ -61,6 +61,7 @@ public sealed class Shape : ShapeBase
 | [HasImage](../../aspose.words.drawing/shape/hasimage/) { get; } | Returns `true` if the shape has image bytes or links an image. |
 | [HasSmartArt](../../aspose.words.drawing/shape/hassmartart/) { get; } | Returns `true` if this `Shape` has a SmartArt object. |
 | [Height](../../aspose.words.drawing/shapebase/height/) { get; set; } | Gets or sets the height of the containing block of the shape. |
+| [HeightRelative](../../aspose.words.drawing/shapebase/heightrelative/) { get; set; } | Gets or sets the value that represents the percentage of shape's relative height. |
 | [HorizontalAlignment](../../aspose.words.drawing/shapebase/horizontalalignment/) { get; set; } | Specifies how the shape is positioned horizontally. |
 | [HorizontalRuleFormat](../../aspose.words.drawing/shape/horizontalruleformat/) { get; } | Provides access to the properties of the horizontal rule shape. For a shape that is not a horizontal rule, returns `null`. |
 | [HRef](../../aspose.words.drawing/shapebase/href/) { get; set; } | Gets or sets the full hyperlink address for a shape. |
@@ -82,6 +83,7 @@ public sealed class Shape : ShapeBase
 | [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Gets the last child of the node. |
 | [LastParagraph](../../aspose.words.drawing/shape/lastparagraph/) { get; } | Gets the last paragraph in the shape. |
 | [Left](../../aspose.words.drawing/shapebase/left/) { get; set; } | Gets or sets the position of the left edge of the containing block of the shape. |
+| [LeftRelative](../../aspose.words.drawing/shapebase/leftrelative/) { get; set; } | Gets or sets the value that represents shape's relative left position in percent. |
 | [MarkupLanguage](../../aspose.words.drawing/shapebase/markuplanguage/) { get; } | Gets MarkupLanguage used for this graphic object. |
 | [Name](../../aspose.words.drawing/shapebase/name/) { get; set; } | Gets or sets the optional shape name. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Gets the node immediately following this node. |
@@ -92,7 +94,9 @@ public sealed class Shape : ShapeBase
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Gets the node immediately preceding this node. |
 | [Range](../../aspose.words/node/range/) { get; } | Returns a [`Range`](../../aspose.words/range/) object that represents the portion of a document that is contained in this node. |
 | [RelativeHorizontalPosition](../../aspose.words.drawing/shapebase/relativehorizontalposition/) { get; set; } | Specifies relative to what the shape is positioned horizontally. |
+| [RelativeHorizontalSize](../../aspose.words.drawing/shapebase/relativehorizontalsize/) { get; set; } | Gets or sets the value of shape's relative size in horizontal direction. |
 | [RelativeVerticalPosition](../../aspose.words.drawing/shapebase/relativeverticalposition/) { get; set; } | Specifies relative to what the shape is positioned vertically. |
+| [RelativeVerticalSize](../../aspose.words.drawing/shapebase/relativeverticalsize/) { get; set; } | Gets or sets the value of shape's relative size in vertical direction. |
 | [Right](../../aspose.words.drawing/shapebase/right/) { get; } | Gets the position of the right edge of the containing block of the shape. |
 | [Rotation](../../aspose.words.drawing/shapebase/rotation/) { get; set; } | Defines the angle (in degrees) that a shape is rotated. Positive value corresponds to clockwise rotation angle. |
 | [ScreenTip](../../aspose.words.drawing/shapebase/screentip/) { get; set; } | Defines the text displayed when the mouse pointer moves over the shape. |
@@ -111,8 +115,10 @@ public sealed class Shape : ShapeBase
 | [TextPath](../../aspose.words.drawing/shape/textpath/) { get; } | Defines the text of the text path (of a WordArt object). |
 | [Title](../../aspose.words.drawing/shapebase/title/) { get; set; } | Gets or sets the title (caption) of the current shape object. |
 | [Top](../../aspose.words.drawing/shapebase/top/) { get; set; } | Gets or sets the position of the top edge of the containing block of the shape. |
+| [TopRelative](../../aspose.words.drawing/shapebase/toprelative/) { get; set; } | Gets or sets the value that represents shape's relative top position in percent. |
 | [VerticalAlignment](../../aspose.words.drawing/shapebase/verticalalignment/) { get; set; } | Specifies how the shape is positioned vertically. |
 | [Width](../../aspose.words.drawing/shapebase/width/) { get; set; } | Gets or sets the width of the containing block of the shape. |
+| [WidthRelative](../../aspose.words.drawing/shapebase/widthrelative/) { get; set; } | Gets or sets the value that represents the percentage of shape's relative width. |
 | [WrapSide](../../aspose.words.drawing/shapebase/wrapside/) { get; set; } | Specifies how the text is wrapped around the shape. |
 | [WrapType](../../aspose.words.drawing/shapebase/wraptype/) { get; set; } | Defines whether the shape is inline or floating. For floating shapes defines the wrapping mode for text around the shape. |
 | [ZOrder](../../aspose.words.drawing/shapebase/zorder/) { get; set; } | Determines the display order of overlapping shapes. |

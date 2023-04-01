@@ -4,7 +4,7 @@ linktitle: ImageWatermarkOptions
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.ImageWatermarkOptions class. Contains options that can be specified when adding a watermark with image in C#.
 type: docs
-weight: 3040
+weight: 3070
 url: /net/aspose.words/imagewatermarkoptions/
 ---
 ## ImageWatermarkOptions class

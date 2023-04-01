@@ -4,7 +4,7 @@ linktitle: VbaModuleCollection
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Vba.VbaModuleCollection class. Represents a collection of VbaModule objects in C#.
 type: docs
-weight: 6320
+weight: 6360
 url: /net/aspose.words.vba/vbamodulecollection/
 ---
 ## VbaModuleCollection class

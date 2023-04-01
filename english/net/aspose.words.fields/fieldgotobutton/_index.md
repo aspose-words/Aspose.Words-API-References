@@ -4,7 +4,7 @@ linktitle: FieldGoToButton
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FieldGoToButton class. Implements the GOTOBUTTON field in C#.
 type: docs
-weight: 1820
+weight: 1850
 url: /net/aspose.words.fields/fieldgotobutton/
 ---
 ## FieldGoToButton class

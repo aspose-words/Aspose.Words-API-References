@@ -15,6 +15,20 @@ Gets or sets the character spacing adjustment of a document.
 public JustificationMode JustificationMode { get; set; }
 ```
 
+## Examples
+
+Shows how to manage character spacing control.
+
+```csharp
+Document doc = new Document(MyDir + "Document.docx");
+
+JustificationMode justificationMode = doc.JustificationMode;
+if (justificationMode == JustificationMode.Expand)                
+    doc.JustificationMode = JustificationMode.Compress;
+
+doc.Save(ArtifactsDir + "Document.SetJustificationMode.docx");
+```
+
 ### See Also
 
 * enum [JustificationMode](../../../aspose.words.settings/justificationmode/)
