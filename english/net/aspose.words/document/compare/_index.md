@@ -23,11 +23,6 @@ public void Compare(Document document, string author, DateTime dateTime)
 
 ## Remarks
 
-The following document nodes are not compared at the moment:
-
-* [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/)
-* Item3
-
 Documents must not have revisions before comparison.
 
 ## Examples
