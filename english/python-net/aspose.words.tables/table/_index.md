@@ -49,10 +49,10 @@ A minimal valid table needs to have at least one [Row](../row/).
 | [count](../../aspose.words/compositenode/count/) | Gets the number of immediate children of this node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [custom_node_id](../../aspose.words/node/custom_node_id/) | Specifies custom node identifier.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [description](./description/) | Gets or sets description of this table. It provides an alternative text representation of the information contained in the table. |
-| [distance_bottom](./distance_bottom/) | Gets distance between table bottom and the surrounding text, in points. |
-| [distance_left](./distance_left/) | Gets distance between table left and the surrounding text, in points. |
-| [distance_right](./distance_right/) | Gets distance between table right and the surrounding text, in points. |
-| [distance_top](./distance_top/) | Gets distance between table top and the surrounding text, in points. |
+| [distance_bottom](./distance_bottom/) | Gets or sets distance between table bottom and the surrounding text, in points. |
+| [distance_left](./distance_left/) | Gets or sets distance between table left and the surrounding text, in points. |
+| [distance_right](./distance_right/) | Gets or sets distance between table right and the surrounding text, in points. |
+| [distance_top](./distance_top/) | Gets or sets distance between table top and the surrounding text, in points. |
 | [document](../../aspose.words/node/document/) | Gets the document to which this node belongs.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [first_child](../../aspose.words/compositenode/first_child/) | Gets the first child of the node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [first_row](./first_row/) | Returns the first [Row](../row/) node in the table. |

@@ -24,6 +24,7 @@ The chart supported are Word 2007 (or higher) DrawingML Charts.
 | [AxisScaling](./axisscaling/) | Represents the scaling options of the axis. To learn more, visit the [Working with Charts](https://docs.aspose.com/words/python-net/working-with-charts/) documentation article. |
 | [Chart](./chart/) | Provides access to the chart shape properties. To learn more, visit the [Working with Charts](https://docs.aspose.com/words/python-net/working-with-charts/) documentation article. |
 | [ChartAxis](./chartaxis/) | Represents the axis options of the chart. To learn more, visit the [Working with Charts](https://docs.aspose.com/words/python-net/working-with-charts/) documentation article. |
+| [ChartAxisCollection](./chartaxiscollection/) | Represents a collection of chart axes. |
 | [ChartDataLabel](./chartdatalabel/) | Represents data label on a chart point or trendline. To learn more, visit the [Working with Charts](https://docs.aspose.com/words/python-net/working-with-charts/) documentation article. |
 | [ChartDataLabelCollection](./chartdatalabelcollection/) | Represents a collection of [ChartDataLabel](./chartdatalabel/). To learn more, visit the [Working with Charts](https://docs.aspose.com/words/python-net/working-with-charts/) documentation article. |
 | [ChartDataPoint](./chartdatapoint/) | Allows to specify formatting of a single data point on the chart. To learn more, visit the [Working with Charts](https://docs.aspose.com/words/python-net/working-with-charts/) documentation article. |

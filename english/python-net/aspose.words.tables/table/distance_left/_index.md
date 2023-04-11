@@ -1,7 +1,7 @@
 ﻿---
 title: distance_left property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets distance between table left and the surrounding text, in points."
+description: "Gets or sets distance between table left and the surrounding text, in points."
 type: docs
 weight: 130
 url: /python-net/aspose.words.tables/table/distance_left/
@@ -9,7 +9,7 @@ url: /python-net/aspose.words.tables/table/distance_left/
 
 ## Table.distance_left property
 
-Gets distance between table left and the surrounding text, in points.
+Gets or sets distance between table left and the surrounding text, in points.
 
 
 ### Examples

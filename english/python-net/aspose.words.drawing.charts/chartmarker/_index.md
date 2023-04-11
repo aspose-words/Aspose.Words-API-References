@@ -3,7 +3,7 @@ title: ChartMarker class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents a chart data marker"
 type: docs
-weight: 220
+weight: 230
 url: /python-net/aspose.words.drawing.charts/chartmarker/
 ---
 

@@ -3,7 +3,7 @@ title: exact_date_time_parse_formats property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets or sets exact formats for parsing JSON date-time values while loading JSON"
 type: docs
-weight: 40
+weight: 30
 url: /python-net/aspose.words.reporting/jsondataloadoptions/exact_date_time_parse_formats/
 ---
 

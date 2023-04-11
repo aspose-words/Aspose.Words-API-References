@@ -3,7 +3,7 @@ title: on property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Defines whether the path will be stroked."
 type: docs
-weight: 130
+weight: 140
 url: /python-net/aspose.words.drawing/stroke/on/
 ---
 

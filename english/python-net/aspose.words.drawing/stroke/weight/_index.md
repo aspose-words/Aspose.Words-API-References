@@ -3,7 +3,7 @@ title: weight property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Defines the brush thickness that strokes the path of a shape in points."
 type: docs
-weight: 200
+weight: 210
 url: /python-net/aspose.words.drawing/stroke/weight/
 ---
 

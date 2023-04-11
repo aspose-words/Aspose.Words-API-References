@@ -3,7 +3,7 @@ title: line_style property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Defines the line style of the stroke."
 type: docs
-weight: 120
+weight: 130
 url: /python-net/aspose.words.drawing/stroke/line_style/
 ---
 

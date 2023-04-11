@@ -3,7 +3,7 @@ title: ChartType enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies type of a chart."
 type: docs
-weight: 270
+weight: 280
 url: /python-net/aspose.words.drawing.charts/charttype/
 ---
 

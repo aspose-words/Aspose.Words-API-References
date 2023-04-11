@@ -3,7 +3,7 @@ title: get_math_renderer method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Creates and returns an object that can be used to render this equation into an image."
 type: docs
-weight: 80
+weight: 70
 url: /python-net/aspose.words.math/officemath/get_math_renderer/
 ---
 

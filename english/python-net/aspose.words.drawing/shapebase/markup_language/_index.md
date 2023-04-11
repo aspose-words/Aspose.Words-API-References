@@ -3,7 +3,7 @@ title: markup_language property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets MarkupLanguage used for this graphic object."
 type: docs
-weight: 370
+weight: 390
 url: /python-net/aspose.words.drawing/shapebase/markup_language/
 ---
 

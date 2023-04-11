@@ -3,7 +3,7 @@ title: start_arrow_type property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Defines the arrowhead for the start of a stroke."
 type: docs
-weight: 160
+weight: 170
 url: /python-net/aspose.words.drawing/stroke/start_arrow_type/
 ---
 

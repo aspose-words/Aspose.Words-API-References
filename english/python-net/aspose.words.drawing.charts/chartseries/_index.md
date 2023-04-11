@@ -3,7 +3,7 @@ title: ChartSeries class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents chart series properties"
 type: docs
-weight: 240
+weight: 250
 url: /python-net/aspose.words.drawing.charts/chartseries/
 ---
 

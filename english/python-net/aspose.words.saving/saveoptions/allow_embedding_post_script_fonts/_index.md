@@ -38,7 +38,7 @@ with open(FONTS_DIR + "AllegroOpen.otf", "rb") as file:
     otf = aw.fonts.MemoryFontSource(file.read())
 
 doc.font_settings = aw.fonts.FontSettings()
-doc.font_settings.set_fonts_sources([ otf ])
+doc.font_settings.set_fonts_sources([otf])
 
 # Embed TrueType fonts.
 doc.font_infos.embed_true_type_fonts = True

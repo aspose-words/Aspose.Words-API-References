@@ -3,7 +3,7 @@ title: join_style property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Defines the join style of a polyline."
 type: docs
-weight: 110
+weight: 120
 url: /python-net/aspose.words.drawing/stroke/join_style/
 ---
 

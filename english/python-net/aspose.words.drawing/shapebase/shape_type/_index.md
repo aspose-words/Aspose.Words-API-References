@@ -3,7 +3,7 @@ title: shape_type property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets the shape type."
 type: docs
-weight: 460
+weight: 500
 url: /python-net/aspose.words.drawing/shapebase/shape_type/
 ---
 

@@ -3,7 +3,7 @@ title: relative_vertical_position property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies relative to what the shape is positioned vertically."
 type: docs
-weight: 410
+weight: 440
 url: /python-net/aspose.words.drawing/shapebase/relative_vertical_position/
 ---
 

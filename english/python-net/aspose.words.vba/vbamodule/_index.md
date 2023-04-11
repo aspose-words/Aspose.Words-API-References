@@ -3,7 +3,7 @@ title: VbaModule class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Provides access to VBA project module"
 type: docs
-weight: 10
+weight: 20
 url: /python-net/aspose.words.vba/vbamodule/
 ---
 

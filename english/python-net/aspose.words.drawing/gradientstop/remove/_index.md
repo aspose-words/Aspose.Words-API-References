@@ -3,7 +3,7 @@ title: remove method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Removes the gradient stop from the parent [GradientStopCollection](../../gradientstopcollection/)."
 type: docs
-weight: 50
+weight: 60
 url: /python-net/aspose.words.drawing/gradientstop/remove/
 ---
 

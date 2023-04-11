@@ -3,7 +3,7 @@ title: series property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Provides access to series collection."
 type: docs
-weight: 50
+weight: 60
 url: /python-net/aspose.words.drawing.charts/chart/series/
 ---
 

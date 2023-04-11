@@ -22,7 +22,7 @@ builder = aw.DocumentBuilder(doc)
 
 builder.write("Hello world! ")
 builder.insert_text_input("My form field", aw.fields.TextFormFieldType.REGULAR, "",
-    "Text contents of form field, which are shaded in grey by default.", 0)
+                          "Text contents of form field, which are shaded in grey by default.", 0)
 
 # We can turn the grey shading off, so the bookmarked text will blend in with the other text.
 doc.shade_form_data = use_grey_shading

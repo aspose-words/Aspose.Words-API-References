@@ -3,7 +3,7 @@ title: overlay property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Determines whether other chart elements shall be allowed to overlap legend"
 type: docs
-weight: 30
+weight: 20
 url: /python-net/aspose.words.drawing.charts/chartlegend/overlay/
 ---
 

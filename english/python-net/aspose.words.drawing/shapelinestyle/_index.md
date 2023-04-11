@@ -3,7 +3,7 @@ title: ShapeLineStyle enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies the compound line style of a [Shape](../shape/)."
 type: docs
-weight: 320
+weight: 340
 url: /python-net/aspose.words.drawing/shapelinestyle/
 ---
 

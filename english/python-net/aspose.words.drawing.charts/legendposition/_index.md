@@ -3,7 +3,7 @@ title: LegendPosition enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies the possible positions for a chart legend."
 type: docs
-weight: 290
+weight: 300
 url: /python-net/aspose.words.drawing.charts/legendposition/
 ---
 

@@ -3,7 +3,7 @@ title: name property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets or sets the optional shape name."
 type: docs
-weight: 380
+weight: 400
 url: /python-net/aspose.words.drawing/shapebase/name/
 ---
 

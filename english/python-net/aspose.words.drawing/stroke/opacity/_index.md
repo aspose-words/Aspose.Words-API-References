@@ -3,7 +3,7 @@ title: opacity property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Defines the amount of transparency of a stroke"
 type: docs
-weight: 140
+weight: 150
 url: /python-net/aspose.words.drawing/stroke/opacity/
 ---
 

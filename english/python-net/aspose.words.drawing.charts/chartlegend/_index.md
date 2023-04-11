@@ -3,7 +3,7 @@ title: ChartLegend class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents chart legend properties"
 type: docs
-weight: 190
+weight: 200
 url: /python-net/aspose.words.drawing.charts/chartlegend/
 ---
 
@@ -14,11 +14,6 @@ To learn more, visit the [Working with Charts](https://docs.aspose.com/words/pyt
 
 
 
-
-### Constructors
-| Name | Description |
-| --- | --- |
-| [ChartLegend()](./__init__/#default) | Initializes a new instance of the [ChartLegend](./) class. |
 
 ### Properties
 

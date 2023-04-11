@@ -52,7 +52,6 @@ Shows how save a web page as a .docx file.
 url = "https://www.aspose.com/"
 
 with io.BytesIO(urlopen(url).read()) as stream:
-
     # The URL is used again as a "base_uri" to ensure that any relative image paths are retrieved correctly.
     options = aw.loading.LoadOptions(aw.LoadFormat.HTML, "", url)
 
