@@ -70,8 +70,8 @@ public class DocumentBuilder
 | [InsertField](../../aspose.words/documentbuilder/insertfield/#insertfield_1)(string) | Inserts a Word field into a document and updates the field result. |
 | [InsertField](../../aspose.words/documentbuilder/insertfield/#insertfield)([FieldType](../../aspose.words.fields/fieldtype/), bool) | Inserts a Word field into a document and optionally updates the field result. |
 | [InsertField](../../aspose.words/documentbuilder/insertfield/#insertfield_2)(string, string) | Inserts a Word field into a document without updating the field result. |
-| [InsertFootnote](../../aspose.words/documentbuilder/insertfootnote/#insertfootnote)([FootnoteType](../../aspose.words.notes/footnotetype/), string) | Inserts a footnote or endnote into the document. |
-| [InsertFootnote](../../aspose.words/documentbuilder/insertfootnote/#insertfootnote_1)([FootnoteType](../../aspose.words.notes/footnotetype/), string, string) | Inserts a footnote or endnote into the document. |
+| [InsertFootnote](../../aspose.words/documentbuilder/insertfootnote/#insertfootnote)(*[FootnoteType](../../aspose.words.notes/footnotetype/)*, string) | Inserts a footnote or endnote into the document. |
+| [InsertFootnote](../../aspose.words/documentbuilder/insertfootnote/#insertfootnote_1)(`[FootnoteType](../../aspose.words.notes/footnotetype/)`, string, string) | Inserts a footnote or endnote into the document. |
 | [InsertHorizontalRule](../../aspose.words/documentbuilder/inserthorizontalrule/)() | Inserts a horizontal rule shape into the document. |
 | [InsertHtml](../../aspose.words/documentbuilder/inserthtml/#inserthtml)(string) | Inserts an HTML string into the document. |
 | [InsertHtml](../../aspose.words/documentbuilder/inserthtml/#inserthtml_2)(string, bool) | Inserts an HTML string into the document. |
