@@ -7,7 +7,7 @@ type: docs
 weight: 310
 url: /net/aspose.words/documentbuilder/insertdocument/
 ---
-## InsertDocument(Document, ImportFormatMode) {#insertdocument}
+## InsertDocument([Document](aspose.words/document/), [ImportFormatMode](aspose.words/importformatmode/)) {#insertdocument}
 
 Inserts a document at the cursor position.
 
@@ -56,7 +56,7 @@ builder.Document.Save(ArtifactsDir + "DocumentBuilder.InsertDocument.docx");
 
 ---
 
-## InsertDocument(Document, ImportFormatMode, ImportFormatOptions) {#insertdocument_1}
+## InsertDocument([Document](aspose.words/document/), [ImportFormatMode](aspose.words/importformatmode/), [ImportFormatOptions](aspose.words/importformatoptions/)) {#insertdocument_1}
 
 Inserts a document at the cursor position.
 
