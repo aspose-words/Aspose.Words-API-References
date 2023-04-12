@@ -187,7 +187,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHtmlWithFormatting.docx");
 
 ---
 
-## InsertHtml(string, HtmlInsertOptions) {#inserthtml_1}
+## InsertHtml(string, [HtmlInsertOptions](aspose.words/htmlinsertoptions/)) {#inserthtml_1}
 
 Inserts an HTML string into the document. Allows to specify additional options.
 
