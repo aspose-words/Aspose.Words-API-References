@@ -7,7 +7,7 @@ type: docs
 weight: 700
 url: /net/aspose.words/document/save/
 ---
-## Save(string) {#save_2}
+## Save(`string`) {#save_2}
 
 Saves the document to a file. Automatically determines the save format from the extension.
 
@@ -58,7 +58,7 @@ pdfDoc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.docx");
 
 ---
 
-## Save(string, SaveFormat) {#save_3}
+## Save(`string`, [`SaveFormat`](../../saveformat/)) {#save_3}
 
 Saves the document to a file in the specified format.
 
@@ -95,7 +95,7 @@ doc.Save(ArtifactsDir + "Document.ConvertToHtml.html", SaveFormat.Html);
 
 ---
 
-## Save(string, SaveOptions) {#save_4}
+## Save(`string`, [`SaveOptions`](../../../aspose.words.saving/saveoptions/)) {#save_4}
 
 Saves the document to a file using the specified save options.
 
@@ -299,7 +299,7 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
 
 ---
 
-## Save(Stream, SaveFormat) {#save}
+## Save(`Stream`, [`SaveFormat`](../../saveformat/)) {#save}
 
 Saves the document to a stream using the specified format.
 
@@ -391,7 +391,7 @@ Document doc = new Document();
 
 ---
 
-## Save(Stream, SaveOptions) {#save_1}
+## Save(`Stream`, [`SaveOptions`](../../../aspose.words.saving/saveoptions/)) {#save_1}
 
 Saves the document to a stream using the specified save options.
 
@@ -446,7 +446,7 @@ using (Stream stream = File.Create(ArtifactsDir + "PdfSaveOptions.OnePage.pdf"))
 
 ---
 
-## Save(HttpResponse, string, ContentDisposition, SaveOptions) {#save_5}
+## Save(`HttpResponse`, `string`, [`ContentDisposition`](../../contentdisposition/), [`SaveOptions`](../../../aspose.words.saving/saveoptions/)) {#save_5}
 
 Sends the document to the client browser.
 

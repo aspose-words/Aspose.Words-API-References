@@ -65,7 +65,7 @@ Assert.AreEqual(4, doc.BuiltInDocumentProperties.Lines);
 
 ---
 
-## UpdateWordCount(bool) {#updatewordcount_1}
+## UpdateWordCount(`bool`) {#updatewordcount_1}
 
 Updates word count properties of the document, optionally updates [`Lines`](../../../aspose.words.properties/builtindocumentproperties/lines/) property.
 

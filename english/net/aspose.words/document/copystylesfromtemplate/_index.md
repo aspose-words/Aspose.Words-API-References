@@ -7,7 +7,7 @@ type: docs
 weight: 570
 url: /net/aspose.words/document/copystylesfromtemplate/
 ---
-## CopyStylesFromTemplate(string) {#copystylesfromtemplate_1}
+## CopyStylesFromTemplate(`string`) {#copystylesfromtemplate_1}
 
 Copies styles from the specified template to a document.
 
@@ -76,7 +76,7 @@ Assert.AreEqual(21, target.Styles.Count);
 
 ---
 
-## CopyStylesFromTemplate(Document) {#copystylesfromtemplate}
+## CopyStylesFromTemplate([`Document`](../)) {#copystylesfromtemplate}
 
 Copies styles from the specified template to a document.
 
