@@ -7,7 +7,7 @@ type: docs
 weight: 560
 url: /net/aspose.words/document/compare/
 ---
-## Compare(Document, string, DateTime) {#compare}
+## Compare([`Document`](../), `string`, `DateTime`) {#compare}
 
 Compares this document with another document producing changes as number of edit and format revisions [`Revision`](../../revision/).
 
@@ -22,6 +22,11 @@ public void Compare(Document document, string author, DateTime dateTime)
 | dateTime | DateTime | The date and time to use for revisions. |
 
 ## Remarks
+
+The following document nodes are not compared at the moment:
+
+* [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/)
+* Item3
 
 Documents must not have revisions before comparison.
 
@@ -64,7 +69,7 @@ Assert.AreEqual(docOriginal.GetText(), docEdited.GetText());
 
 ---
 
-## Compare(Document, string, DateTime, CompareOptions) {#compare_1}
+## Compare([`Document`](../), `string`, `DateTime`, [`CompareOptions`](../../../aspose.words.comparing/compareoptions/)) {#compare_1}
 
 Compares this document with another document producing changes as a number of edit and format revisions [`Revision`](../../revision/). Allows to specify comparison options using [`CompareOptions`](../../../aspose.words.comparing/compareoptions/).
 

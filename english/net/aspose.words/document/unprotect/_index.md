@@ -71,7 +71,7 @@ Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);
 
 ---
 
-## Unprotect(string) {#unprotect}
+## Unprotect(`string`) {#unprotect}
 
 Removes protection from the document if a correct password is specified.
 
