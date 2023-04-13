@@ -4,7 +4,7 @@ linktitle: Field
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.Field class. Represents a Microsoft Word document field in C#.
 type: docs
-weight: 1390
+weight: 1400
 url: /net/aspose.words.fields/field/
 ---
 ## Field class
@@ -37,11 +37,11 @@ public class Field
 | Name | Description |
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/#getfieldcode)() | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/#getfieldcode_1)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/#getfieldcode_1)(*bool*) | Returns text between field start and field separator (or field end if there is no separator). |
 | [Remove](../../aspose.words.fields/field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns `null`. |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Performs the field unlink. |
 | [Update](../../aspose.words.fields/field/update/#update)() | Performs the field update. Throws if the field is being updated already. |
-| [Update](../../aspose.words.fields/field/update/#update_1)(bool) | Performs a field update. Throws if the field is being updated already. |
+| [Update](../../aspose.words.fields/field/update/#update_1)(*bool*) | Performs a field update. Throws if the field is being updated already. |
 
 ## Remarks
 

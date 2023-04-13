@@ -4,7 +4,7 @@ linktitle: HtmlSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Saving.HtmlSaveOptions class. Can be used to specify additional options when saving a document into the Html Mhtml Epub Azw3 or Mobi format in C#.
 type: docs
-weight: 4920
+weight: 4930
 url: /net/aspose.words.saving/htmlsaveoptions/
 ---
 ## HtmlSaveOptions class
@@ -22,7 +22,7 @@ public class HtmlSaveOptions : SaveOptions
 | Name | Description |
 | --- | --- |
 | [HtmlSaveOptions](htmlsaveoptions/#constructor)() | Initializes a new instance of this class that can be used to save a document in the Html format. |
-| [HtmlSaveOptions](htmlsaveoptions/#constructor_1)(SaveFormat) | Initializes a new instance of this class that can be used to save a document in the Html, Mhtml, Epub, Azw3 or Mobi format. |
+| [HtmlSaveOptions](htmlsaveoptions/#constructor_1)(*[SaveFormat](../../aspose.words/saveformat/)*) | Initializes a new instance of this class that can be used to save a document in the Html, Mhtml, Epub, Azw3 or Mobi format. |
 
 ## Properties
 

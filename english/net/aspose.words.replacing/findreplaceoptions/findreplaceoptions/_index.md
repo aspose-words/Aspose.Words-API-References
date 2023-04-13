@@ -23,7 +23,7 @@ public FindReplaceOptions()
 
 ---
 
-## FindReplaceOptions(FindReplaceDirection) {#constructor_1}
+## FindReplaceOptions(*[FindReplaceDirection](../../findreplacedirection/)*) {#constructor_1}
 
 ```csharp
 public FindReplaceOptions(FindReplaceDirection direction)
@@ -38,7 +38,7 @@ public FindReplaceOptions(FindReplaceDirection direction)
 
 ---
 
-## FindReplaceOptions(IReplacingCallback) {#constructor_3}
+## FindReplaceOptions(*[IReplacingCallback](../../ireplacingcallback/)*) {#constructor_3}
 
 ```csharp
 public FindReplaceOptions(IReplacingCallback replacingCallback)
@@ -53,7 +53,7 @@ public FindReplaceOptions(IReplacingCallback replacingCallback)
 
 ---
 
-## FindReplaceOptions(FindReplaceDirection, IReplacingCallback) {#constructor_2}
+## FindReplaceOptions(*[FindReplaceDirection](../../findreplacedirection/), [IReplacingCallback](../../ireplacingcallback/)*) {#constructor_2}
 
 ```csharp
 public FindReplaceOptions(FindReplaceDirection direction, IReplacingCallback replacingCallback)

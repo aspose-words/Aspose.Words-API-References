@@ -4,7 +4,7 @@ linktitle: Table
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Tables.Table class. Represents a table in a Word document in C#.
 type: docs
-weight: 6140
+weight: 6150
 url: /net/aspose.words.tables/table/
 ---
 ## Table class
@@ -21,7 +21,7 @@ public class Table : CompositeNode
 
 | Name | Description |
 | --- | --- |
-| [Table](table/)(DocumentBase) | Initializes a new instance of the `Table` class. |
+| [Table](table/)(*[DocumentBase](../../aspose.words/documentbase/)*) | Initializes a new instance of the `Table` class. |
 
 ## Properties
 
@@ -77,38 +77,38 @@ public class Table : CompositeNode
 
 | Name | Description |
 | --- | --- |
-| override [Accept](../../aspose.words.tables/table/accept/)(DocumentVisitor) | Accepts a visitor. |
-| [AppendChild](../../aspose.words/compositenode/appendchild/)(Node) | Adds the specified node to the end of the list of child nodes for this node. |
-| [AutoFit](../../aspose.words.tables/table/autofit/)(AutoFitBehavior) | Resizes the table and cells according to the specified auto fit behavior. |
+| override [Accept](../../aspose.words.tables/table/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Accepts a visitor. |
+| [AppendChild](../../aspose.words/compositenode/appendchild/)(*[Node](../../aspose.words/node/)*) | Adds the specified node to the end of the list of child nodes for this node. |
+| [AutoFit](../../aspose.words.tables/table/autofit/)(*[AutoFitBehavior](../autofitbehavior/)*) | Resizes the table and cells according to the specified auto fit behavior. |
 | [ClearBorders](../../aspose.words.tables/table/clearborders/)() | Removes all table and cell borders on this table. |
 | [ClearShading](../../aspose.words.tables/table/clearshading/)() | Removes all shading on the table. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Creates a duplicate of the node. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Creates a duplicate of the node. |
 | [ConvertToHorizontallyMergedCells](../../aspose.words.tables/table/converttohorizontallymergedcells/)() | Converts cells horizontally merged by width to cells merged by [`HorizontalMerge`](../cellformat/horizontalmerge/). |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Creates navigator which can be used to traverse and read nodes. |
 | [EnsureMinimum](../../aspose.words.tables/table/ensureminimum/)() | If the table has no rows, creates and appends one [`Row`](../row/). |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Gets the first ancestor of the specified [`NodeType`](../../aspose.words/nodetype/). |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Gets the first ancestor of the specified object type. |
-| [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Returns an Nth child node that matches the specified type. |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | Returns a live collection of child nodes that match the specified type. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | Gets the first ancestor of the specified [`NodeType`](../../aspose.words/nodetype/). |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Gets the first ancestor of the specified object type. |
+| [GetChild](../../aspose.words/compositenode/getchild/)(*[NodeType](../../aspose.words/nodetype/), int, bool*) | Returns an Nth child node that matches the specified type. |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../../aspose.words/nodetype/), bool*) | Returns a live collection of child nodes that match the specified type. |
 | [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Provides support for the for each style iteration over the child nodes of this node. |
 | override [GetText](../../aspose.words/compositenode/gettext/)() | Gets the text of this node and of all its children. |
-| [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | Returns the index of the specified child node in the child node array. |
-| [InsertAfter](../../aspose.words/compositenode/insertafter/)(Node, Node) | Inserts the specified node immediately after the specified reference node. |
-| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(Node, Node) | Inserts the specified node immediately before the specified reference node. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Gets next node according to the pre-order tree traversal algorithm. |
-| [PrependChild](../../aspose.words/compositenode/prependchild/)(Node) | Adds the specified node to the beginning of the list of child nodes for this node. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Gets the previous node according to the pre-order tree traversal algorithm. |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../../aspose.words/node/)*) | Returns the index of the specified child node in the child node array. |
+| [InsertAfter](../../aspose.words/compositenode/insertafter/)(*[Node](../../aspose.words/node/), [Node](../../aspose.words/node/)*) | Inserts the specified node immediately after the specified reference node. |
+| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(*[Node](../../aspose.words/node/), [Node](../../aspose.words/node/)*) | Inserts the specified node immediately before the specified reference node. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Gets next node according to the pre-order tree traversal algorithm. |
+| [PrependChild](../../aspose.words/compositenode/prependchild/)(*[Node](../../aspose.words/node/)*) | Adds the specified node to the beginning of the list of child nodes for this node. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Gets the previous node according to the pre-order tree traversal algorithm. |
 | [Remove](../../aspose.words/node/remove/)() | Removes itself from the parent. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Removes all the child nodes of the current node. |
-| [RemoveChild](../../aspose.words/compositenode/removechild/)(Node) | Removes the specified child node. |
+| [RemoveChild](../../aspose.words/compositenode/removechild/)(*[Node](../../aspose.words/node/)*) | Removes the specified child node. |
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Removes all [`SmartTag`](../../aspose.words.markup/smarttag/) descendant nodes of the current node. |
-| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Selects a list of nodes matching the XPath expression. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Selects the first [`Node`](../../aspose.words/node/) that matches the XPath expression. |
-| [SetBorder](../../aspose.words.tables/table/setborder/)(BorderType, LineStyle, double, Color, bool) | Sets the specified table border to the specified line style, width and color. |
-| [SetBorders](../../aspose.words.tables/table/setborders/)(LineStyle, double, Color) | Sets all table borders to the specified line style, width and color. |
-| [SetShading](../../aspose.words.tables/table/setshading/)(TextureIndex, Color, Color) | Sets shading to the specified values on whole table. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exports the content of the node into a string in the specified format. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
+| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(*string*) | Selects a list of nodes matching the XPath expression. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(*string*) | Selects the first [`Node`](../../aspose.words/node/) that matches the XPath expression. |
+| [SetBorder](../../aspose.words.tables/table/setborder/)(*[BorderType](../../aspose.words/bordertype/), [LineStyle](../../aspose.words/linestyle/), double, Color, bool*) | Sets the specified table border to the specified line style, width and color. |
+| [SetBorders](../../aspose.words.tables/table/setborders/)(*[LineStyle](../../aspose.words/linestyle/), double, Color*) | Sets all table borders to the specified line style, width and color. |
+| [SetShading](../../aspose.words.tables/table/setshading/)(*[TextureIndex](../../aspose.words/textureindex/), Color, Color*) | Sets shading to the specified values on whole table. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Exports the content of the node into a string in the specified format. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exports the content of the node into a string using the specified save options. |
 
 ## Remarks
 

@@ -7,7 +7,7 @@ type: docs
 weight: 330
 url: /net/aspose.words/documentbuilder/insertfootnote/
 ---
-## InsertFootnote([FootnoteType](../../../aspose.words.notes/footnotetype/), string) {#insertfootnote}
+## InsertFootnote(*[FootnoteType](../../../aspose.words.notes/footnotetype/), string*) {#insertfootnote}
 
 Inserts a footnote or endnote into the document.
 
@@ -62,7 +62,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertFootnote.docx");
 
 ---
 
-## InsertFootnote([FootnoteType](../../../aspose.words.notes/footnotetype/), string, string) {#insertfootnote_1}
+## InsertFootnote(*[FootnoteType](../../../aspose.words.notes/footnotetype/), string, string*) {#insertfootnote_1}
 
 Inserts a footnote or endnote into the document.
 

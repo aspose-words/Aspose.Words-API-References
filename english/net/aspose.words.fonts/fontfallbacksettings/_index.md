@@ -4,7 +4,7 @@ linktitle: FontFallbackSettings
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fonts.FontFallbackSettings class. Specifies font fallback mechanism settings in C#.
 type: docs
-weight: 2770
+weight: 2780
 url: /net/aspose.words.fonts/fontfallbacksettings/
 ---
 ## FontFallbackSettings class
@@ -22,12 +22,12 @@ public class FontFallbackSettings
 | Name | Description |
 | --- | --- |
 | [BuildAutomatic](../../aspose.words.fonts/fontfallbacksettings/buildautomatic/)() | Automatically builds the fallback settings by scanning available fonts. |
-| [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load)(Stream) | Loads fallback settings from XML stream. |
-| [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load_1)(string) | Loads font fallback settings from XML file. |
+| [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load)(*Stream*) | Loads fallback settings from XML stream. |
+| [Load](../../aspose.words.fonts/fontfallbacksettings/load/#load_1)(*string*) | Loads font fallback settings from XML file. |
 | [LoadMsOfficeFallbackSettings](../../aspose.words.fonts/fontfallbacksettings/loadmsofficefallbacksettings/)() | Loads predefined fallback settings which mimics the Microsoft Word fallback and uses Microsoft office fonts. |
 | [LoadNotoFallbackSettings](../../aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/)() | Loads predefined fallback settings which uses Google Noto fonts. |
-| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save)(Stream) | Saves the current fallback settings to stream. |
-| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save_1)(string) | Saves the current fallback settings to file. |
+| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save)(*Stream*) | Saves the current fallback settings to stream. |
+| [Save](../../aspose.words.fonts/fontfallbacksettings/save/#save_1)(*string*) | Saves the current fallback settings to file. |
 
 ## Remarks
 

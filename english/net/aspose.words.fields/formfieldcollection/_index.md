@@ -4,7 +4,7 @@ linktitle: FormFieldCollection
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FormFieldCollection class. A collection of FormField objects that represent all the form fields in a range in C#.
 type: docs
-weight: 2510
+weight: 2520
 url: /net/aspose.words.fields/formfieldcollection/
 ---
 ## FormFieldCollection class
@@ -30,8 +30,8 @@ public class FormFieldCollection : IEnumerable<FormField>
 | --- | --- |
 | [Clear](../../aspose.words.fields/formfieldcollection/clear/)() | Removes all form fields from this collection and from the document. |
 | [GetEnumerator](../../aspose.words.fields/formfieldcollection/getenumerator/)() | Returns an enumerator object. |
-| [Remove](../../aspose.words.fields/formfieldcollection/remove/)(string) | Removes a form field with the specified name. |
-| [RemoveAt](../../aspose.words.fields/formfieldcollection/removeat/)(int) | Removes a form field at the specified index. |
+| [Remove](../../aspose.words.fields/formfieldcollection/remove/)(*string*) | Removes a form field with the specified name. |
+| [RemoveAt](../../aspose.words.fields/formfieldcollection/removeat/)(*int*) | Removes a form field at the specified index. |
 
 ## Examples
 

@@ -4,7 +4,7 @@ linktitle: Node
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Node class. Base class for all nodes of a Word document in C#.
 type: docs
-weight: 3990
+weight: 4000
 url: /net/aspose.words/node/
 ---
 ## Node class
@@ -34,17 +34,17 @@ public abstract class Node
 
 | Name | Description |
 | --- | --- |
-| abstract [Accept](../../aspose.words/node/accept/)(DocumentVisitor) | Accepts a visitor. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Creates a duplicate of the node. |
-| [GetAncestor](../../aspose.words/node/getancestor/#getancestor)(NodeType) | Gets the first ancestor of the specified [`NodeType`](../nodetype/). |
-| [GetAncestor](../../aspose.words/node/getancestor/#getancestor_1)(Type) | Gets the first ancestor of the specified object type. |
+| abstract [Accept](../../aspose.words/node/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Accepts a visitor. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Creates a duplicate of the node. |
+| [GetAncestor](../../aspose.words/node/getancestor/#getancestor)(*[NodeType](../nodetype/)*) | Gets the first ancestor of the specified [`NodeType`](../nodetype/). |
+| [GetAncestor](../../aspose.words/node/getancestor/#getancestor_1)(*Type*) | Gets the first ancestor of the specified object type. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Gets the text of this node and of all its children. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Gets next node according to the pre-order tree traversal algorithm. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Gets the previous node according to the pre-order tree traversal algorithm. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*Node*) | Gets next node according to the pre-order tree traversal algorithm. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*Node*) | Gets the previous node according to the pre-order tree traversal algorithm. |
 | [Remove](../../aspose.words/node/remove/)() | Removes itself from the parent. |
-| [ToString](../../aspose.words/node/tostring/#tostring_1)(SaveFormat) | Exports the content of the node into a string in the specified format. |
-| [ToString](../../aspose.words/node/tostring/#tostring_2)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
-| static [NodeTypeToString](../../aspose.words/node/nodetypetostring/)(NodeType) | A utility method that converts a node type enum value into a user friendly string. |
+| [ToString](../../aspose.words/node/tostring/#tostring_1)(*[SaveFormat](../saveformat/)*) | Exports the content of the node into a string in the specified format. |
+| [ToString](../../aspose.words/node/tostring/#tostring_2)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exports the content of the node into a string using the specified save options. |
+| static [NodeTypeToString](../../aspose.words/node/nodetypetostring/)(*[NodeType](../nodetype/)*) | A utility method that converts a node type enum value into a user friendly string. |
 
 ## Remarks
 

@@ -4,7 +4,7 @@ linktitle: PdfSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Saving.PdfSaveOptions class. Can be used to specify additional options when saving a document into the Pdf format in C#.
 type: docs
-weight: 5330
+weight: 5340
 url: /net/aspose.words.saving/pdfsaveoptions/
 ---
 ## PdfSaveOptions class
@@ -87,7 +87,7 @@ public class PdfSaveOptions : FixedPageSaveOptions
 | Name | Description |
 | --- | --- |
 | [Clone](../../aspose.words.saving/pdfsaveoptions/clone/)() | Creates a deep clone of this object. |
-| override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals/)(object) | Determines whether the specified object is equal in value to the current object. |
+| override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals/)(*object*) | Determines whether the specified object is equal in value to the current object. |
 
 ## Examples
 

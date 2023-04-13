@@ -4,7 +4,7 @@ linktitle: RevisionType
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.RevisionType enum. Specifies the type of change being tracked in Revision in C#.
 type: docs
-weight: 4610
+weight: 4620
 url: /net/aspose.words/revisiontype/
 ---
 ## RevisionType enumeration

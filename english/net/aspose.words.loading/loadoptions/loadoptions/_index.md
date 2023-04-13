@@ -47,7 +47,7 @@ using (Stream stream = File.OpenRead(MyDir + "Document.html"))
 
 ---
 
-## LoadOptions(string) {#constructor_2}
+## LoadOptions(*string*) {#constructor_2}
 
 A shortcut to initialize a new instance of this class with the specified password to load an encrypted document.
 
@@ -90,7 +90,7 @@ using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 
 ---
 
-## LoadOptions(LoadFormat, string, string) {#constructor_1}
+## LoadOptions(*[LoadFormat](../../../aspose.words/loadformat/), string, string*) {#constructor_1}
 
 A shortcut to initialize a new instance of this class with properties set to the specified values.
 

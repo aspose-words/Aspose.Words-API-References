@@ -4,7 +4,7 @@ linktitle: IPageSavingCallback
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Saving.IPageSavingCallback interface. Implement this interface if you want to control how Aspose.Words saves separate pages when saving a document to fixed page formats in C#.
 type: docs
-weight: 4990
+weight: 5000
 url: /net/aspose.words.saving/ipagesavingcallback/
 ---
 ## IPageSavingCallback interface
@@ -19,7 +19,7 @@ public interface IPageSavingCallback
 
 | Name | Description |
 | --- | --- |
-| [PageSaving](../../aspose.words.saving/ipagesavingcallback/pagesaving/)(PageSavingArgs) | Called when Aspose.Words saves a separate page to fixed page formats. |
+| [PageSaving](../../aspose.words.saving/ipagesavingcallback/pagesaving/)(*[PageSavingArgs](../pagesavingargs/)*) | Called when Aspose.Words saves a separate page to fixed page formats. |
 
 ## Examples
 

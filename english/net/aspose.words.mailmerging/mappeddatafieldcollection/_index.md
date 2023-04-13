@@ -4,7 +4,7 @@ linktitle: MappedDataFieldCollection
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.MailMerging.MappedDataFieldCollection class. Allows to automatically map between names of fields in your data source and names of mail merge fields in the document in C#.
 type: docs
-weight: 3700
+weight: 3710
 url: /net/aspose.words.mailmerging/mappeddatafieldcollection/
 ---
 ## MappedDataFieldCollection class
@@ -28,12 +28,12 @@ public class MappedDataFieldCollection : IEnumerable<KeyValuePair<string, string
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.words.mailmerging/mappeddatafieldcollection/add/)(string, string) | Adds a new field mapping. |
+| [Add](../../aspose.words.mailmerging/mappeddatafieldcollection/add/)(*string, string*) | Adds a new field mapping. |
 | [Clear](../../aspose.words.mailmerging/mappeddatafieldcollection/clear/)() | Removes all elements from the collection. |
-| [ContainsKey](../../aspose.words.mailmerging/mappeddatafieldcollection/containskey/)(string) | Determines whether a mapping from the specified field in the document exists in the collection. |
-| [ContainsValue](../../aspose.words.mailmerging/mappeddatafieldcollection/containsvalue/)(string) | Determines whether a mapping from the specified field in the data source exists in the collection. |
+| [ContainsKey](../../aspose.words.mailmerging/mappeddatafieldcollection/containskey/)(*string*) | Determines whether a mapping from the specified field in the document exists in the collection. |
+| [ContainsValue](../../aspose.words.mailmerging/mappeddatafieldcollection/containsvalue/)(*string*) | Determines whether a mapping from the specified field in the data source exists in the collection. |
 | [GetEnumerator](../../aspose.words.mailmerging/mappeddatafieldcollection/getenumerator/)() | Returns a dictionary enumerator object that can be used to iterate over all items in the collection. |
-| [Remove](../../aspose.words.mailmerging/mappeddatafieldcollection/remove/)(string) | Removes a field mapping. |
+| [Remove](../../aspose.words.mailmerging/mappeddatafieldcollection/remove/)(*string*) | Removes a field mapping. |
 
 ## Remarks
 

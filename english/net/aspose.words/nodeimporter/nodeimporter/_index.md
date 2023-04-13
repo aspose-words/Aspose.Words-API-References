@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/nodeimporter/nodeimporter/
 ---
-## NodeImporter(DocumentBase, DocumentBase, ImportFormatMode) {#constructor}
+## NodeImporter(*[DocumentBase](../../documentbase/), [DocumentBase](../../documentbase/), [ImportFormatMode](../../importformatmode/)*) {#constructor}
 
 Initializes a new instance of the [`NodeImporter`](../) class.
 
@@ -96,7 +96,7 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
 
 ---
 
-## NodeImporter(DocumentBase, DocumentBase, ImportFormatMode, ImportFormatOptions) {#constructor_1}
+## NodeImporter(*[DocumentBase](../../documentbase/), [DocumentBase](../../documentbase/), [ImportFormatMode](../../importformatmode/), [ImportFormatOptions](../../importformatoptions/)*) {#constructor_1}
 
 Initializes a new instance of the [`NodeImporter`](../) class.
 

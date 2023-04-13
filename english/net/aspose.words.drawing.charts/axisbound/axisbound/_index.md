@@ -80,7 +80,7 @@ doc.Save(ArtifactsDir + "Charts.AxisBound.docx");
 
 ---
 
-## AxisBound(double) {#constructor_1}
+## AxisBound(*double*) {#constructor_1}
 
 Creates an axis bound represented as a number.
 
@@ -147,7 +147,7 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 ---
 
-## AxisBound(DateTime) {#constructor_2}
+## AxisBound(*DateTime*) {#constructor_2}
 
 Creates an axis bound represented as datetime value.
 

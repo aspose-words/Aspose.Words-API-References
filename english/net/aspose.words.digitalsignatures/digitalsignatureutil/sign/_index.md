@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.digitalsignatures/digitalsignatureutil/sign/
 ---
-## Sign(Stream, Stream, CertificateHolder, SignOptions) {#sign_1}
+## Sign(*Stream, Stream, [CertificateHolder](../../certificateholder/), [SignOptions](../../signoptions/)*) {#sign_1}
 
 Signs source document using given [`CertificateHolder`](../../certificateholder/) and [`SignOptions`](../../signoptions/) with digital signature and writes signed document to destination stream.
 
@@ -63,7 +63,7 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 
 ---
 
-## Sign(string, string, CertificateHolder, SignOptions) {#sign_3}
+## Sign(*string, string, [CertificateHolder](../../certificateholder/), [SignOptions](../../signoptions/)*) {#sign_3}
 
 Signs source document using given [`CertificateHolder`](../../certificateholder/) and [`SignOptions`](../../signoptions/) with digital signature and writes signed document to destination file.
 
@@ -204,7 +204,7 @@ Shows how to add a signature line to a document, and then sign it using a digita
 
 ---
 
-## Sign(Stream, Stream, CertificateHolder) {#sign}
+## Sign(*Stream, Stream, [CertificateHolder](../../certificateholder/)*) {#sign}
 
 Signs source document using given [`CertificateHolder`](../../certificateholder/) with digital signature and writes signed document to destination stream.
 
@@ -271,7 +271,7 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 ---
 
-## Sign(string, string, CertificateHolder) {#sign_2}
+## Sign(*string, string, [CertificateHolder](../../certificateholder/)*) {#sign_2}
 
 Signs source document using given [`CertificateHolder`](../../certificateholder/) with digital signature and writes signed document to destination file.
 

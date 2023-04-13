@@ -4,7 +4,7 @@ linktitle: HtmlMetafileFormat
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Saving.HtmlMetafileFormat enum. Indicates the format in which metafiles are saved to HTML documents in C#.
 type: docs
-weight: 4900
+weight: 4910
 url: /net/aspose.words.saving/htmlmetafileformat/
 ---
 ## HtmlMetafileFormat enumeration

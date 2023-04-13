@@ -4,7 +4,7 @@ linktitle: StructuredDocumentTagRangeStart
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Markup.StructuredDocumentTagRangeStart class. Represents a start of ranged structured document tag which accepts multisections content. See also StructuredDocumentTagRangeEnd in C#.
 type: docs
-weight: 3910
+weight: 3920
 url: /net/aspose.words.markup/structureddocumenttagrangestart/
 ---
 ## StructuredDocumentTagRangeStart class
@@ -21,7 +21,7 @@ public class StructuredDocumentTagRangeStart : Node, IEnumerable<Node>, IStructu
 
 | Name | Description |
 | --- | --- |
-| [StructuredDocumentTagRangeStart](structureddocumenttagrangestart/)(DocumentBase, SdtType) | Initializes a new instance of the **Structured document tag range start** class. |
+| [StructuredDocumentTagRangeStart](structureddocumenttagrangestart/)(*[DocumentBase](../../aspose.words/documentbase/), [SdtType](../sdttype/)*) | Initializes a new instance of the **Structured document tag range start** class. |
 
 ## Properties
 
@@ -56,21 +56,21 @@ public class StructuredDocumentTagRangeStart : Node, IEnumerable<Node>, IStructu
 
 | Name | Description |
 | --- | --- |
-| override [Accept](../../aspose.words.markup/structureddocumenttagrangestart/accept/)(DocumentVisitor) | Accepts a visitor. |
-| [AppendChild](../../aspose.words.markup/structureddocumenttagrangestart/appendchild/)(Node) | Adds the specified node to the end of the stdContent range. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Creates a duplicate of the node. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Gets the first ancestor of the specified [`NodeType`](../../aspose.words/nodetype/). |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Gets the first ancestor of the specified object type. |
-| [GetChildNodes](../../aspose.words.markup/structureddocumenttagrangestart/getchildnodes/)(NodeType, bool) | Returns a live collection of child nodes that match the specified types. |
+| override [Accept](../../aspose.words.markup/structureddocumenttagrangestart/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Accepts a visitor. |
+| [AppendChild](../../aspose.words.markup/structureddocumenttagrangestart/appendchild/)(*[Node](../../aspose.words/node/)*) | Adds the specified node to the end of the stdContent range. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Creates a duplicate of the node. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | Gets the first ancestor of the specified [`NodeType`](../../aspose.words/nodetype/). |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Gets the first ancestor of the specified object type. |
+| [GetChildNodes](../../aspose.words.markup/structureddocumenttagrangestart/getchildnodes/)(*[NodeType](../../aspose.words/nodetype/), bool*) | Returns a live collection of child nodes that match the specified types. |
 | [GetEnumerator](../../aspose.words.markup/structureddocumenttagrangestart/getenumerator/)() | Provides support for the for each style iteration over the child nodes of this node. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Gets the text of this node and of all its children. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Gets next node according to the pre-order tree traversal algorithm. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Gets the previous node according to the pre-order tree traversal algorithm. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Gets next node according to the pre-order tree traversal algorithm. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Gets the previous node according to the pre-order tree traversal algorithm. |
 | [Remove](../../aspose.words/node/remove/)() | Removes itself from the parent. |
 | [RemoveAllChildren](../../aspose.words.markup/structureddocumenttagrangestart/removeallchildren/)() | Removes all the nodes between this range start node and the range end node. |
 | [RemoveSelfOnly](../../aspose.words.markup/structureddocumenttagrangestart/removeselfonly/)() | Removes this range start and appropriate range end nodes of the structured document tag, but keeps its content inside the document tree. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exports the content of the node into a string in the specified format. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Exports the content of the node into a string in the specified format. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exports the content of the node into a string using the specified save options. |
 
 ## Remarks
 

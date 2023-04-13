@@ -7,7 +7,7 @@ type: docs
 weight: 230
 url: /net/aspose.words.drawing/fill/setimage/
 ---
-## SetImage(string) {#setimage_2}
+## SetImage(*string*) {#setimage_2}
 
 Changes the fill type to single image.
 
@@ -51,7 +51,7 @@ doc.Save(ArtifactsDir + "Shape.FillImage.Stream.docx");
 
 ---
 
-## SetImage(Stream) {#setimage_1}
+## SetImage(*Stream*) {#setimage_1}
 
 Changes the fill type to single image.
 
@@ -71,7 +71,7 @@ public void SetImage(Stream stream)
 
 ---
 
-## SetImage(byte[]) {#setimage}
+## SetImage(*byte[]*) {#setimage}
 
 Changes the fill type to single image.
 

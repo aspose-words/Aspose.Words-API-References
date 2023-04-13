@@ -4,7 +4,7 @@ linktitle: Range
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Range class. Represents a contiguous area in a document in C#.
 type: docs
-weight: 4330
+weight: 4340
 url: /net/aspose.words/range/
 ---
 ## Range class
@@ -34,10 +34,10 @@ public class Range
 | --- | --- |
 | [Delete](../../aspose.words/range/delete/)() | Deletes all characters of the range. |
 | [NormalizeFieldTypes](../../aspose.words/range/normalizefieldtypes/)() | Changes field type values [`FieldType`](../../aspose.words.fields/fieldchar/fieldtype/) of [`FieldStart`](../../aspose.words.fields/fieldstart/), [`FieldSeparator`](../../aspose.words.fields/fieldseparator/), [`FieldEnd`](../../aspose.words.fields/fieldend/) in this range so that they correspond to the field types contained in the field codes. |
-| [Replace](../../aspose.words/range/replace/#replace_2)(Regex, string) | Replaces all occurrences of a character pattern specified by a regular expression with another string. |
-| [Replace](../../aspose.words/range/replace/#replace)(string, string) | Replaces all occurrences of a specified character string pattern with a replacement string. |
-| [Replace](../../aspose.words/range/replace/#replace_3)(Regex, string, FindReplaceOptions) | Replaces all occurrences of a character pattern specified by a regular expression with another string. |
-| [Replace](../../aspose.words/range/replace/#replace_1)(string, string, FindReplaceOptions) | Replaces all occurrences of a specified character string pattern with a replacement string. |
+| [Replace](../../aspose.words/range/replace/#replace_2)(*Regex, string*) | Replaces all occurrences of a character pattern specified by a regular expression with another string. |
+| [Replace](../../aspose.words/range/replace/#replace)(*string, string*) | Replaces all occurrences of a specified character string pattern with a replacement string. |
+| [Replace](../../aspose.words/range/replace/#replace_3)(*Regex, string, [FindReplaceOptions](../../aspose.words.replacing/findreplaceoptions/)*) | Replaces all occurrences of a character pattern specified by a regular expression with another string. |
+| [Replace](../../aspose.words/range/replace/#replace_1)(*string, string, [FindReplaceOptions](../../aspose.words.replacing/findreplaceoptions/)*) | Replaces all occurrences of a specified character string pattern with a replacement string. |
 | [ToDocument](../../aspose.words/range/todocument/)() | Constructs a new fully formed document that contains the range. |
 | [UnlinkFields](../../aspose.words/range/unlinkfields/)() | Unlinks fields in this range. |
 | [UpdateFields](../../aspose.words/range/updatefields/)() | Updates the values of document fields in this range. |

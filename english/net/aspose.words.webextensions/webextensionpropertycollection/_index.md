@@ -4,7 +4,7 @@ linktitle: WebExtensionPropertyCollection
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.WebExtensions.WebExtensionPropertyCollection class. Specifies a set of web extension custom properties in C#.
 type: docs
-weight: 6590
+weight: 6600
 url: /net/aspose.words.webextensions/webextensionpropertycollection/
 ---
 ## WebExtensionPropertyCollection class
@@ -28,10 +28,10 @@ public class WebExtensionPropertyCollection : BaseWebExtensionCollection<WebExte
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(WebExtensionProperty) |  |
+| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(*[WebExtensionProperty](../webextensionproperty/)*) |  |
 | [Clear](../../aspose.words.webextensions/basewebextensioncollection-1/clear/)() |  |
 | [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection-1/getenumerator/)() |  |
-| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(int) |  |
+| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(*int*) |  |
 
 ## Examples
 

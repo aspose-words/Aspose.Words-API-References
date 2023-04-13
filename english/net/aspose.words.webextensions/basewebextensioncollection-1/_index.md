@@ -4,7 +4,7 @@ linktitle: BaseWebExtensionCollectionT
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.WebExtensions.BaseWebExtensionCollection1T class. Base class for TaskPaneCollection WebExtensionBindingCollection WebExtensionPropertyCollection and WebExtensionReferenceCollection collections in C#.
 type: docs
-weight: 6500
+weight: 6510
 url: /net/aspose.words.webextensions/basewebextensioncollection-1/
 ---
 ## BaseWebExtensionCollection&lt;T&gt; class
@@ -33,10 +33,10 @@ public abstract class BaseWebExtensionCollection<T> : IEnumerable<T>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(T) | Adds specified item to the collection. |
+| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(*T*) | Adds specified item to the collection. |
 | [Clear](../../aspose.words.webextensions/basewebextensioncollection-1/clear/)() | Removes all elements from the collection. |
 | [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection-1/getenumerator/)() | Returns an enumerator that can iterate through a collection. |
-| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(int) | Removes the item at the specified index from the collection. |
+| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(*int*) | Removes the item at the specified index from the collection. |
 
 ## Examples
 

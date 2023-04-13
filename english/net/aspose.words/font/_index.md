@@ -4,7 +4,7 @@ linktitle: Font
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Font class. Contains font attributes font name font size color and so on for an object in C#.
 type: docs
-weight: 2700
+weight: 2710
 url: /net/aspose.words/font/
 ---
 ## Font class
@@ -81,7 +81,7 @@ public class Font
 | Name | Description |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/font/clearformatting/)() | Resets to default font formatting. |
-| [HasDmlEffect](../../aspose.words/font/hasdmleffect/)(TextDmlEffect) | Checks if particular DrawingML text effect is applied. |
+| [HasDmlEffect](../../aspose.words/font/hasdmleffect/)(*[TextDmlEffect](../textdmleffect/)*) | Checks if particular DrawingML text effect is applied. |
 
 ## Remarks
 

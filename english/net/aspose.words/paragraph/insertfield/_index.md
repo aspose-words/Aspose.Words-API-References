@@ -7,7 +7,7 @@ type: docs
 weight: 270
 url: /net/aspose.words/paragraph/insertfield/
 ---
-## InsertField(FieldType, bool, Node, bool) {#insertfield}
+## InsertField(*[FieldType](../../../aspose.words.fields/fieldtype/), bool, [Node](../../node/), bool*) {#insertfield}
 
 Inserts a field into this paragraph.
 
@@ -73,7 +73,7 @@ doc.Save(ArtifactsDir + "Paragraph.InsertField.docx");
 
 ---
 
-## InsertField(string, Node, bool) {#insertfield_1}
+## InsertField(*string, [Node](../../node/), bool*) {#insertfield_1}
 
 Inserts a field into this paragraph.
 
@@ -137,7 +137,7 @@ doc.Save(ArtifactsDir + "Paragraph.InsertField.docx");
 
 ---
 
-## InsertField(string, string, Node, bool) {#insertfield_2}
+## InsertField(*string, string, [Node](../../node/), bool*) {#insertfield_2}
 
 Inserts a field into this paragraph.
 

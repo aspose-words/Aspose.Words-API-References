@@ -4,7 +4,7 @@ linktitle: ImageSize
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Drawing.ImageSize class. Contains information about image size and resolution in C#.
 type: docs
-weight: 950
+weight: 960
 url: /net/aspose.words.drawing/imagesize/
 ---
 ## ImageSize class
@@ -21,8 +21,8 @@ public class ImageSize
 
 | Name | Description |
 | --- | --- |
-| [ImageSize](imagesize/#constructor)(int, int) | Initializes width and height to the given values in pixels. Initializes resolution to 96 dpi. |
-| [ImageSize](imagesize/#constructor_1)(int, int, double, double) | Initializes width, height and resolution to the given values. |
+| [ImageSize](imagesize/#constructor)(*int, int*) | Initializes width and height to the given values in pixels. Initializes resolution to 96 dpi. |
+| [ImageSize](imagesize/#constructor_1)(*int, int, double, double*) | Initializes width, height and resolution to the given values. |
 
 ## Properties
 

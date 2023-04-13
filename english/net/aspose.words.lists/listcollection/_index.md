@@ -4,7 +4,7 @@ linktitle: ListCollection
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Lists.ListCollection class. Stores and manages formatting of bulleted and numbered lists used in a document in C#.
 type: docs
-weight: 3320
+weight: 3330
 url: /net/aspose.words.lists/listcollection/
 ---
 ## ListCollection class
@@ -29,11 +29,11 @@ public class ListCollection : IEnumerable<List>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.words.lists/listcollection/add/#add)(ListTemplate) | Creates a new list based on a predefined template and adds it to the collection of lists in the document. |
-| [Add](../../aspose.words.lists/listcollection/add/#add_1)(Style) | Creates a new list that references a list style and adds it to the collection of lists in the document. |
-| [AddCopy](../../aspose.words.lists/listcollection/addcopy/)(List) | Creates a new list by copying the specified list and adding it to the collection of lists in the document. |
+| [Add](../../aspose.words.lists/listcollection/add/#add)(*[ListTemplate](../listtemplate/)*) | Creates a new list based on a predefined template and adds it to the collection of lists in the document. |
+| [Add](../../aspose.words.lists/listcollection/add/#add_1)(*[Style](../../aspose.words/style/)*) | Creates a new list that references a list style and adds it to the collection of lists in the document. |
+| [AddCopy](../../aspose.words.lists/listcollection/addcopy/)(*[List](../list/)*) | Creates a new list by copying the specified list and adding it to the collection of lists in the document. |
 | [GetEnumerator](../../aspose.words.lists/listcollection/getenumerator/)() | Gets the enumerator object that will enumerate lists in the document. |
-| [GetListByListId](../../aspose.words.lists/listcollection/getlistbylistid/)(int) | Gets a list by a list identifier. |
+| [GetListByListId](../../aspose.words.lists/listcollection/getlistbylistid/)(*int*) | Gets a list by a list identifier. |
 
 ## Remarks
 

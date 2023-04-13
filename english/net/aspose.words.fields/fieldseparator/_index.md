@@ -4,7 +4,7 @@ linktitle: FieldSeparator
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FieldSeparator class. Represents a Word field separator that separates the field code from the field result in C#.
 type: docs
-weight: 2260
+weight: 2270
 url: /net/aspose.words.fields/fieldseparator/
 ---
 ## FieldSeparator class
@@ -44,17 +44,17 @@ public class FieldSeparator : FieldChar
 
 | Name | Description |
 | --- | --- |
-| override [Accept](../../aspose.words.fields/fieldseparator/accept/)(DocumentVisitor) | Accepts a visitor. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Creates a duplicate of the node. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Gets the first ancestor of the specified [`NodeType`](../../aspose.words/nodetype/). |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Gets the first ancestor of the specified object type. |
+| override [Accept](../../aspose.words.fields/fieldseparator/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Accepts a visitor. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Creates a duplicate of the node. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | Gets the first ancestor of the specified [`NodeType`](../../aspose.words/nodetype/). |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Gets the first ancestor of the specified object type. |
 | [GetField](../../aspose.words.fields/fieldchar/getfield/)() | Returns a field for the field char. |
 | override [GetText](../../aspose.words/specialchar/gettext/)() | Gets the special character that this node represents. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Gets next node according to the pre-order tree traversal algorithm. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Gets the previous node according to the pre-order tree traversal algorithm. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Gets next node according to the pre-order tree traversal algorithm. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Gets the previous node according to the pre-order tree traversal algorithm. |
 | [Remove](../../aspose.words/node/remove/)() | Removes itself from the parent. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exports the content of the node into a string in the specified format. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Exports the content of the node into a string in the specified format. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exports the content of the node into a string using the specified save options. |
 
 ## Remarks
 

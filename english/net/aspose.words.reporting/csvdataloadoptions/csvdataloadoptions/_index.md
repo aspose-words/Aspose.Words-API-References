@@ -23,7 +23,7 @@ public CsvDataLoadOptions()
 
 ---
 
-## CsvDataLoadOptions(bool) {#constructor_1}
+## CsvDataLoadOptions(*bool*) {#constructor_1}
 
 Initializes a new instance of this class with specifying whether CSV data contains column names at the first line.
 

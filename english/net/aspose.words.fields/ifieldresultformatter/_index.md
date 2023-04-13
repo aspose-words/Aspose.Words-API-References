@@ -4,7 +4,7 @@ linktitle: IFieldResultFormatter
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.IFieldResultFormatter interface. Implement this interface if you want to control how the field result is formatted in C#.
 type: docs
-weight: 2570
+weight: 2580
 url: /net/aspose.words.fields/ifieldresultformatter/
 ---
 ## IFieldResultFormatter interface
@@ -19,10 +19,10 @@ public interface IFieldResultFormatter
 
 | Name | Description |
 | --- | --- |
-| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format)(double, GeneralFormat) | Called when Aspose.Words applies a number format switch, i.e. \* Ordinal. |
-| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format_1)(string, GeneralFormat) | Called when Aspose.Words applies a capitalization format switch, i.e. \* Upper. |
-| [FormatDateTime](../../aspose.words.fields/ifieldresultformatter/formatdatetime/)(DateTime, string, CalendarType) | Called when Aspose.Words applies a date/time format switch, i.e. \@ "dd.MM.yyyy". |
-| [FormatNumeric](../../aspose.words.fields/ifieldresultformatter/formatnumeric/)(double, string) | Called when Aspose.Words applies a numeric format switch, i.e. \# "#.##". |
+| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format)(*double, [GeneralFormat](../generalformat/)*) | Called when Aspose.Words applies a number format switch, i.e. \* Ordinal. |
+| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format_1)(*string, [GeneralFormat](../generalformat/)*) | Called when Aspose.Words applies a capitalization format switch, i.e. \* Upper. |
+| [FormatDateTime](../../aspose.words.fields/ifieldresultformatter/formatdatetime/)(*DateTime, string, [CalendarType](../../aspose.words/calendartype/)*) | Called when Aspose.Words applies a date/time format switch, i.e. \@ "dd.MM.yyyy". |
+| [FormatNumeric](../../aspose.words.fields/ifieldresultformatter/formatnumeric/)(*double, string*) | Called when Aspose.Words applies a numeric format switch, i.e. \# "#.##". |
 
 ## Examples
 

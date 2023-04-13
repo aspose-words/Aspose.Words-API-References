@@ -4,7 +4,7 @@ linktitle: WriteProtection
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Settings.WriteProtection class. Specifies write protection settings for a document in C#.
 type: docs
-weight: 5770
+weight: 5780
 url: /net/aspose.words.settings/writeprotection/
 ---
 ## WriteProtection class
@@ -28,8 +28,8 @@ public class WriteProtection
 
 | Name | Description |
 | --- | --- |
-| [SetPassword](../../aspose.words.settings/writeprotection/setpassword/)(string) | Sets the write protection password for the document. |
-| [ValidatePassword](../../aspose.words.settings/writeprotection/validatepassword/)(string) | Returns `true` if the specified password is the same as the write-protection password the document was protected with. If document is not write-protected with password then returns `false`. |
+| [SetPassword](../../aspose.words.settings/writeprotection/setpassword/)(*string*) | Sets the write protection password for the document. |
+| [ValidatePassword](../../aspose.words.settings/writeprotection/validatepassword/)(*string*) | Returns `true` if the specified password is the same as the write-protection password the document was protected with. If document is not write-protected with password then returns `false`. |
 
 ## Remarks
 

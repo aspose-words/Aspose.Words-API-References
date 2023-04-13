@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words/shading/equals/
 ---
-## Equals(Shading) {#equals}
+## Equals(*[Shading](../)*) {#equals}
 
 Determines whether the specified [`Shading`](../) is equal in value to the current [`Shading`](../).
 
@@ -23,7 +23,7 @@ public bool Equals(Shading rhs)
 
 ---
 
-## Equals(object) {#equals_1}
+## Equals(*object*) {#equals_1}
 
 Determines whether the specified object is equal in value to the current object.
 

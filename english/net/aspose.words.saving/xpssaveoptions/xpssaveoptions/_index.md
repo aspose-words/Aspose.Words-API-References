@@ -63,7 +63,7 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.OutlineLevels.xps", saveOptions);
 
 ---
 
-## XpsSaveOptions(SaveFormat) {#constructor_1}
+## XpsSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
 Initializes a new instance of this class that can be used to save a document in the Xps or OpenXps format.
 

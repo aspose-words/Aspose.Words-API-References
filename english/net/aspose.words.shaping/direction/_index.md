@@ -4,7 +4,7 @@ linktitle: Direction
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Shaping.Direction enum. Text direction in C#.
 type: docs
-weight: 5820
+weight: 5830
 url: /net/aspose.words.shaping/direction/
 ---
 ## Direction enumeration

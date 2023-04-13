@@ -4,7 +4,7 @@ linktitle: WebExtensionReferenceCollection
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.WebExtensions.WebExtensionReferenceCollection class. Specifies a list of web extension references in C#.
 type: docs
-weight: 6610
+weight: 6620
 url: /net/aspose.words.webextensions/webextensionreferencecollection/
 ---
 ## WebExtensionReferenceCollection class
@@ -28,10 +28,10 @@ public class WebExtensionReferenceCollection : BaseWebExtensionCollection<WebExt
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(WebExtensionReference) |  |
+| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(*[WebExtensionReference](../webextensionreference/)*) |  |
 | [Clear](../../aspose.words.webextensions/basewebextensioncollection-1/clear/)() |  |
 | [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection-1/getenumerator/)() |  |
-| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(int) |  |
+| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(*int*) |  |
 
 ### See Also
 

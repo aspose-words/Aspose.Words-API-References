@@ -4,7 +4,7 @@ linktitle: GradientStopCollection
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Drawing.GradientStopCollection class. Contains a collection of GradientStop objects in C#.
 type: docs
-weight: 870
+weight: 880
 url: /net/aspose.words.drawing/gradientstopcollection/
 ---
 ## GradientStopCollection class
@@ -28,11 +28,11 @@ public class GradientStopCollection : IEnumerable<GradientStop>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.words.drawing/gradientstopcollection/add/)(GradientStop) | Adds a specified [`GradientStop`](../gradientstop/) to a gradient. |
+| [Add](../../aspose.words.drawing/gradientstopcollection/add/)(*[GradientStop](../gradientstop/)*) | Adds a specified [`GradientStop`](../gradientstop/) to a gradient. |
 | [GetEnumerator](../../aspose.words.drawing/gradientstopcollection/getenumerator/)() | Returns an enumerator that iterates through the collection. |
-| [Insert](../../aspose.words.drawing/gradientstopcollection/insert/)(int, GradientStop) | Inserts a [`GradientStop`](../gradientstop/) to the collection at a specified index. |
-| [Remove](../../aspose.words.drawing/gradientstopcollection/remove/)(GradientStop) | Removes a specified [`GradientStop`](../gradientstop/) from the collection. |
-| [RemoveAt](../../aspose.words.drawing/gradientstopcollection/removeat/)(int) | Removes a [`GradientStop`](../gradientstop/) from the collection at a specified index. |
+| [Insert](../../aspose.words.drawing/gradientstopcollection/insert/)(*int, [GradientStop](../gradientstop/)*) | Inserts a [`GradientStop`](../gradientstop/) to the collection at a specified index. |
+| [Remove](../../aspose.words.drawing/gradientstopcollection/remove/)(*[GradientStop](../gradientstop/)*) | Removes a specified [`GradientStop`](../gradientstop/) from the collection. |
+| [RemoveAt](../../aspose.words.drawing/gradientstopcollection/removeat/)(*int*) | Removes a [`GradientStop`](../gradientstop/) from the collection at a specified index. |
 
 ## Remarks
 

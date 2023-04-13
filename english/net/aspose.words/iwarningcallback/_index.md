@@ -4,7 +4,7 @@ linktitle: IWarningCallback
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.IWarningCallback interface. Implement this interface if you want to have your own custom method called to capture loss of fidelity warnings that can occur during document loading or saving in C#.
 type: docs
-weight: 3060
+weight: 3070
 url: /net/aspose.words/iwarningcallback/
 ---
 ## IWarningCallback interface
@@ -19,7 +19,7 @@ public interface IWarningCallback
 
 | Name | Description |
 | --- | --- |
-| [Warning](../../aspose.words/iwarningcallback/warning/)(WarningInfo) | Aspose.Words invokes this method when it encounters some issue during document loading or saving that might result in loss of formatting or data fidelity. |
+| [Warning](../../aspose.words/iwarningcallback/warning/)(*[WarningInfo](../warninginfo/)*) | Aspose.Words invokes this method when it encounters some issue during document loading or saving that might result in loss of formatting or data fidelity. |
 
 ## Examples
 

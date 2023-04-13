@@ -4,7 +4,7 @@ linktitle: GeneralFormatCollection
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.GeneralFormatCollection class. Represents a typed collection of general formats in C#.
 type: docs
-weight: 2530
+weight: 2540
 url: /net/aspose.words.fields/generalformatcollection/
 ---
 ## GeneralFormatCollection class
@@ -28,10 +28,10 @@ public class GeneralFormatCollection : IEnumerable<GeneralFormat>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.words.fields/generalformatcollection/add/)(GeneralFormat) | Adds a general format to the collection. |
+| [Add](../../aspose.words.fields/generalformatcollection/add/)(*[GeneralFormat](../generalformat/)*) | Adds a general format to the collection. |
 | [GetEnumerator](../../aspose.words.fields/generalformatcollection/getenumerator/)() | Returns an enumerator object. |
-| [Remove](../../aspose.words.fields/generalformatcollection/remove/)(GeneralFormat) | Removes all occurrences of the specified general format from the collection. |
-| [RemoveAt](../../aspose.words.fields/generalformatcollection/removeat/)(int) | Removes a general format occurrence at the specified index. |
+| [Remove](../../aspose.words.fields/generalformatcollection/remove/)(*[GeneralFormat](../generalformat/)*) | Removes all occurrences of the specified general format from the collection. |
+| [RemoveAt](../../aspose.words.fields/generalformatcollection/removeat/)(*int*) | Removes a general format occurrence at the specified index. |
 
 ## Examples
 

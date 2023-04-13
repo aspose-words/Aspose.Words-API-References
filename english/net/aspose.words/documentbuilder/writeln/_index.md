@@ -7,7 +7,7 @@ type: docs
 weight: 660
 url: /net/aspose.words/documentbuilder/writeln/
 ---
-## Writeln(string) {#writeln_1}
+## Writeln(*string*) {#writeln_1}
 
 Inserts a string and a paragraph break into the document.
 

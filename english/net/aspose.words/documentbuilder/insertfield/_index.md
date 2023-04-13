@@ -7,7 +7,7 @@ type: docs
 weight: 320
 url: /net/aspose.words/documentbuilder/insertfield/
 ---
-## InsertField([FieldType](../../../aspose.words.fields/fieldtype/), bool) {#insertfield}
+## InsertField(*[FieldType](../../../aspose.words.fields/fieldtype/), bool*) {#insertfield}
 
 Inserts a Word field into a document and optionally updates the field result.
 
@@ -80,7 +80,7 @@ else
 
 ---
 
-## InsertField(string) {#insertfield_1}
+## InsertField(*string*) {#insertfield_1}
 
 Inserts a Word field into a document and updates the field result.
 
@@ -150,7 +150,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.MergeFields.docx");
 
 ---
 
-## InsertField(string, string) {#insertfield_2}
+## InsertField(*string, string*) {#insertfield_2}
 
 Inserts a Word field into a document without updating the field result.
 

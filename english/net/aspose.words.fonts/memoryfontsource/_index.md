@@ -4,7 +4,7 @@ linktitle: MemoryFontSource
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fonts.MemoryFontSource class. Represents the single TrueType font file stored in memory in C#.
 type: docs
-weight: 2890
+weight: 2900
 url: /net/aspose.words.fonts/memoryfontsource/
 ---
 ## MemoryFontSource class
@@ -21,9 +21,9 @@ public class MemoryFontSource : FontSourceBase
 
 | Name | Description |
 | --- | --- |
-| [MemoryFontSource](memoryfontsource/#constructor)(byte[]) | Ctor. |
-| [MemoryFontSource](memoryfontsource/#constructor_1)(byte[], int) | Ctor. |
-| [MemoryFontSource](memoryfontsource/#constructor_2)(byte[], int, string) | Ctor. |
+| [MemoryFontSource](memoryfontsource/#constructor)(*byte[]*) | Ctor. |
+| [MemoryFontSource](memoryfontsource/#constructor_1)(*byte[], int*) | Ctor. |
+| [MemoryFontSource](memoryfontsource/#constructor_2)(*byte[], int, string*) | Ctor. |
 
 ## Properties
 

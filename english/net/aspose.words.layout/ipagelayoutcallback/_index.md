@@ -4,7 +4,7 @@ linktitle: IPageLayoutCallback
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Layout.IPageLayoutCallback interface. Implement this interface if you want to have your own custom method called during build and rendering of page layout model in C#.
 type: docs
-weight: 3160
+weight: 3170
 url: /net/aspose.words.layout/ipagelayoutcallback/
 ---
 ## IPageLayoutCallback interface
@@ -19,7 +19,7 @@ public interface IPageLayoutCallback
 
 | Name | Description |
 | --- | --- |
-| [Notify](../../aspose.words.layout/ipagelayoutcallback/notify/)(PageLayoutCallbackArgs) | This is called to notify of layout build and rendering progress. |
+| [Notify](../../aspose.words.layout/ipagelayoutcallback/notify/)(*[PageLayoutCallbackArgs](../pagelayoutcallbackargs/)*) | This is called to notify of layout build and rendering progress. |
 
 ## Remarks
 

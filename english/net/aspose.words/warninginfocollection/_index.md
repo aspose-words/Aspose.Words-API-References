@@ -4,7 +4,7 @@ linktitle: WarningInfoCollection
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.WarningInfoCollection class. Represents a typed collection of WarningInfo objects in C#.
 type: docs
-weight: 6440
+weight: 6450
 url: /net/aspose.words/warninginfocollection/
 ---
 ## WarningInfoCollection class
@@ -36,7 +36,7 @@ public class WarningInfoCollection : IEnumerable<WarningInfo>, IWarningCallback
 | --- | --- |
 | [Clear](../../aspose.words/warninginfocollection/clear/)() | Removes all elements from the collection. |
 | [GetEnumerator](../../aspose.words/warninginfocollection/getenumerator/)() | Returns an enumerator object that can be used to iterate over all items in the collection. |
-| [Warning](../../aspose.words/warninginfocollection/warning/)(WarningInfo) | Implements the [`IWarningCallback`](../iwarningcallback/) interface. Adds a warning to this collection. |
+| [Warning](../../aspose.words/warninginfocollection/warning/)(*[WarningInfo](../warninginfo/)*) | Implements the [`IWarningCallback`](../iwarningcallback/) interface. Adds a warning to this collection. |
 
 ## Remarks
 

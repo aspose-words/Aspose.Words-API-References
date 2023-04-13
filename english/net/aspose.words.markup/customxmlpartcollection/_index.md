@@ -4,7 +4,7 @@ linktitle: CustomXmlPartCollection
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Markup.CustomXmlPartCollection class. Represents a collection of Custom XML Parts. The items are CustomXmlPart objects in C#.
 type: docs
-weight: 3750
+weight: 3760
 url: /net/aspose.words.markup/customxmlpartcollection/
 ---
 ## CustomXmlPartCollection class
@@ -34,13 +34,13 @@ public class CustomXmlPartCollection : IEnumerable<CustomXmlPart>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.words.markup/customxmlpartcollection/add/#add_1)(CustomXmlPart) | Adds an item to the collection. |
-| [Add](../../aspose.words.markup/customxmlpartcollection/add/#add)(string, string) | Creates a new XML part with the specified XML and adds it to the collection. |
+| [Add](../../aspose.words.markup/customxmlpartcollection/add/#add_1)(*[CustomXmlPart](../customxmlpart/)*) | Adds an item to the collection. |
+| [Add](../../aspose.words.markup/customxmlpartcollection/add/#add)(*string, string*) | Creates a new XML part with the specified XML and adds it to the collection. |
 | [Clear](../../aspose.words.markup/customxmlpartcollection/clear/)() | Removes all elements from the collection. |
 | [Clone](../../aspose.words.markup/customxmlpartcollection/clone/)() | Makes a deep copy of this collection and its items. |
-| [GetById](../../aspose.words.markup/customxmlpartcollection/getbyid/)(string) | Finds and returns a custom XML part by its identifier. |
+| [GetById](../../aspose.words.markup/customxmlpartcollection/getbyid/)(*string*) | Finds and returns a custom XML part by its identifier. |
 | [GetEnumerator](../../aspose.words.markup/customxmlpartcollection/getenumerator/)() | Returns an enumerator object that can be used to iterate over all items in the collection. |
-| [RemoveAt](../../aspose.words.markup/customxmlpartcollection/removeat/)(int) | Removes an item at the specified index. |
+| [RemoveAt](../../aspose.words.markup/customxmlpartcollection/removeat/)(*int*) | Removes an item at the specified index. |
 
 ## Remarks
 

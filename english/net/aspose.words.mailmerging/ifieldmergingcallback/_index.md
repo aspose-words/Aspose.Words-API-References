@@ -4,7 +4,7 @@ linktitle: IFieldMergingCallback
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.MailMerging.IFieldMergingCallback interface. Implement this interface if you want to control how data is inserted into merge fields during a mail merge operation in C#.
 type: docs
-weight: 3620
+weight: 3630
 url: /net/aspose.words.mailmerging/ifieldmergingcallback/
 ---
 ## IFieldMergingCallback interface
@@ -19,8 +19,8 @@ public interface IFieldMergingCallback
 
 | Name | Description |
 | --- | --- |
-| [FieldMerging](../../aspose.words.mailmerging/ifieldmergingcallback/fieldmerging/)(FieldMergingArgs) | Called when the Aspose.Words mail merge engine is about to insert data into a merge field in the document. |
-| [ImageFieldMerging](../../aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging/)(ImageFieldMergingArgs) | Called when the Aspose.Words mail merge engine is about to insert an image into a merge field. |
+| [FieldMerging](../../aspose.words.mailmerging/ifieldmergingcallback/fieldmerging/)(*[FieldMergingArgs](../fieldmergingargs/)*) | Called when the Aspose.Words mail merge engine is about to insert data into a merge field in the document. |
+| [ImageFieldMerging](../../aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging/)(*[ImageFieldMergingArgs](../imagefieldmergingargs/)*) | Called when the Aspose.Words mail merge engine is about to insert an image into a merge field. |
 
 ## Examples
 

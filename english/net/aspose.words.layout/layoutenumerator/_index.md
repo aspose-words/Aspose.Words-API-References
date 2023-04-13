@@ -4,7 +4,7 @@ linktitle: LayoutEnumerator
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Layout.LayoutEnumerator class. Enumerates page layout entities of a document. You can use this class to walk over the page layout model. Available properties are type geometry text and page index where entity is rendered as well as overall structure and relationships. Use combination of GetEntity and Current move to the entity which corresponds to a document node in C#.
 type: docs
-weight: 3190
+weight: 3200
 url: /net/aspose.words.layout/layoutenumerator/
 ---
 ## LayoutEnumerator class
@@ -21,7 +21,7 @@ public class LayoutEnumerator
 
 | Name | Description |
 | --- | --- |
-| [LayoutEnumerator](layoutenumerator/)(Document) | Initializes new instance of this class. |
+| [LayoutEnumerator](layoutenumerator/)(*[Document](../../aspose.words/document/)*) | Initializes new instance of this class. |
 
 ## Properties
 
@@ -45,7 +45,7 @@ public class LayoutEnumerator
 | [MoveNext](../../aspose.words.layout/layoutenumerator/movenext/)() | Moves to the next sibling entity in visual order. When iterating lines of a paragraph broken across pages this method will not move to the next page but rather move to the next entity on the same page. |
 | [MoveNextLogical](../../aspose.words.layout/layoutenumerator/movenextlogical/)() | Moves to the next sibling entity in a logical order. When iterating lines of a paragraph broken across pages this method will move to the next line even if it resides on another page. |
 | [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent/#moveparent)() | Moves to the parent entity. |
-| [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent/#moveparent_1)(LayoutEntityType) | Moves to the parent entity of the specified type. |
+| [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent/#moveparent_1)(*[LayoutEntityType](../layoutentitytype/)*) | Moves to the parent entity of the specified type. |
 | [MovePrevious](../../aspose.words.layout/layoutenumerator/moveprevious/)() | Moves to the previous sibling entity. |
 | [MovePreviousLogical](../../aspose.words.layout/layoutenumerator/movepreviouslogical/)() | Moves to the previous sibling entity in a logical order. When iterating lines of a paragraph broken across pages this method will move to the previous line even if it resides on another page. |
 | [Reset](../../aspose.words.layout/layoutenumerator/reset/)() | Moves the enumerator to the first page of the document. |

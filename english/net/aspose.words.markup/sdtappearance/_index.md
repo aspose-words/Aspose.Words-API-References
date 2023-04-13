@@ -4,7 +4,7 @@ linktitle: SdtAppearance
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Markup.SdtAppearance enum. Specifies the appearance of a structured document tag in C#.
 type: docs
-weight: 3810
+weight: 3820
 url: /net/aspose.words.markup/sdtappearance/
 ---
 ## SdtAppearance enumeration

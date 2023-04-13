@@ -4,7 +4,7 @@ linktitle: PageSet
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Saving.PageSet class. Describes a random set of pages in C#.
 type: docs
-weight: 5200
+weight: 5210
 url: /net/aspose.words.saving/pageset/
 ---
 ## PageSet class
@@ -21,9 +21,9 @@ public sealed class PageSet
 
 | Name | Description |
 | --- | --- |
-| [PageSet](pageset/#constructor_1)(int) | Creates an one-page set based on exact page index. |
-| [PageSet](pageset/#constructor_2)(params int[]) | Creates a page set based on exact page indices. |
-| [PageSet](pageset/#constructor)(params PageRange[]) | Creates a page set based on ranges. |
+| [PageSet](pageset/#constructor_1)(*int*) | Creates an one-page set based on exact page index. |
+| [PageSet](pageset/#constructor_2)(*params int[]*) | Creates a page set based on exact page indices. |
+| [PageSet](pageset/#constructor)(*params PageRange[]*) | Creates a page set based on ranges. |
 
 ## Properties
 

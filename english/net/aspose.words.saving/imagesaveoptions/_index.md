@@ -4,7 +4,7 @@ linktitle: ImageSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Saving.ImageSaveOptions class. Allows to specify additional options when rendering document pages or shapes to images in C#.
 type: docs
-weight: 5040
+weight: 5050
 url: /net/aspose.words.saving/imagesaveoptions/
 ---
 ## ImageSaveOptions class
@@ -21,7 +21,7 @@ public class ImageSaveOptions : FixedPageSaveOptions
 
 | Name | Description |
 | --- | --- |
-| [ImageSaveOptions](imagesaveoptions/)(SaveFormat) | Initializes a new instance of this class that can be used to save rendered images in the Tiff, Png, Bmp, Emf, Jpeg or Svg format. Png, Bmp, Jpeg or Svg format. |
+| [ImageSaveOptions](imagesaveoptions/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Initializes a new instance of this class that can be used to save rendered images in the Tiff, Png, Bmp, Emf, Jpeg or Svg format. Png, Bmp, Jpeg or Svg format. |
 
 ## Properties
 
@@ -73,7 +73,7 @@ public class ImageSaveOptions : FixedPageSaveOptions
 | Name | Description |
 | --- | --- |
 | [Clone](../../aspose.words.saving/imagesaveoptions/clone/)() | Creates a deep clone of this object. |
-| override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals/)(object) | Determines whether the specified object is equal in value to the current object. |
+| override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals/)(*object*) | Determines whether the specified object is equal in value to the current object. |
 
 ## Examples
 

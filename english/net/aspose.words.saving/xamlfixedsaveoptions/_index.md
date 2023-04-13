@@ -4,7 +4,7 @@ linktitle: XamlFixedSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Saving.XamlFixedSaveOptions class. Can be used to specify additional options when saving a document into the XamlFixed format in C#.
 type: docs
-weight: 5500
+weight: 5510
 url: /net/aspose.words.saving/xamlfixedsaveoptions/
 ---
 ## XamlFixedSaveOptions class
@@ -61,7 +61,7 @@ public class XamlFixedSaveOptions : FixedPageSaveOptions
 
 | Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals/)(object) | Determines whether the specified object is equal in value to the current object. |
+| override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals/)(*object*) | Determines whether the specified object is equal in value to the current object. |
 
 ## Examples
 

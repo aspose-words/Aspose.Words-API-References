@@ -4,7 +4,7 @@ linktitle: TextBox
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Drawing.TextBox class. Defines attributes that specify how a text is displayed inside a shape in C#.
 type: docs
-weight: 1200
+weight: 1210
 url: /net/aspose.words.drawing/textbox/
 ---
 ## TextBox class
@@ -39,7 +39,7 @@ public class TextBox
 | Name | Description |
 | --- | --- |
 | [BreakForwardLink](../../aspose.words.drawing/textbox/breakforwardlink/)() | Breaks the link to the next `TextBox`. |
-| [IsValidLinkTarget](../../aspose.words.drawing/textbox/isvalidlinktarget/)(TextBox) | Determines whether this `TextBox` can be linked to the target `TextBox`. |
+| [IsValidLinkTarget](../../aspose.words.drawing/textbox/isvalidlinktarget/)(*TextBox*) | Determines whether this `TextBox` can be linked to the target `TextBox`. |
 
 ## Remarks
 

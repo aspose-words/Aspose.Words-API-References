@@ -49,6 +49,7 @@ The **Aspose.Words.Drawing.Charts** namespace provides classes that allow to acc
 | [AxisTickMark](./axistickmark/) | Specifies the possible positions for tick marks. |
 | [AxisTimeUnit](./axistimeunit/) | Specifies the unit of time for axes. |
 | [ChartAxisType](./chartaxistype/) | Specifies type of chart axis. |
+| [ChartSeriesType](./chartseriestype/) |  |
 | [ChartType](./charttype/) | Specifies type of a chart. |
 | [LegendPosition](./legendposition/) | Specifies the possible positions for a chart legend. |
 | [MarkerSymbol](./markersymbol/) | Specifies marker symbol style. |

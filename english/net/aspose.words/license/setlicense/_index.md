@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/license/setlicense/
 ---
-## SetLicense(string) {#setlicense_1}
+## SetLicense(*string*) {#setlicense_1}
 
 Licenses the component.
 
@@ -68,7 +68,7 @@ license.SetLicense("Aspose.Words.NET.lic");
 
 ---
 
-## SetLicense(Stream) {#setlicense}
+## SetLicense(*Stream*) {#setlicense}
 
 Licenses the component.
 

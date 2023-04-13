@@ -4,7 +4,7 @@ linktitle: SdtListItemCollection
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Markup.SdtListItemCollection class. Provides access to SdtListItem elements of a structured document tag in C#.
 type: docs
-weight: 3850
+weight: 3860
 url: /net/aspose.words.markup/sdtlistitemcollection/
 ---
 ## SdtListItemCollection class
@@ -29,10 +29,10 @@ public class SdtListItemCollection : IEnumerable<SdtListItem>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.words.markup/sdtlistitemcollection/add/)(SdtListItem) | Adds an item to this collection. |
+| [Add](../../aspose.words.markup/sdtlistitemcollection/add/)(*[SdtListItem](../sdtlistitem/)*) | Adds an item to this collection. |
 | [Clear](../../aspose.words.markup/sdtlistitemcollection/clear/)() | Clears all items from this collection. |
 | [GetEnumerator](../../aspose.words.markup/sdtlistitemcollection/getenumerator/)() | Returns an enumerator object that can be used to iterate over all items in the collection. |
-| [RemoveAt](../../aspose.words.markup/sdtlistitemcollection/removeat/)(int) | Removes a list item at the specified index. |
+| [RemoveAt](../../aspose.words.markup/sdtlistitemcollection/removeat/)(*int*) | Removes a list item at the specified index. |
 
 ## Examples
 

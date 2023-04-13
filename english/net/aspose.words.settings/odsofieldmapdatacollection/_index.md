@@ -4,7 +4,7 @@ linktitle: OdsoFieldMapDataCollection
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Settings.OdsoFieldMapDataCollection class. A typed collection of the OdsoFieldMapData objects in C#.
 type: docs
-weight: 5710
+weight: 5720
 url: /net/aspose.words.settings/odsofieldmapdatacollection/
 ---
 ## OdsoFieldMapDataCollection class
@@ -34,10 +34,10 @@ public class OdsoFieldMapDataCollection : IEnumerable<OdsoFieldMapData>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.words.settings/odsofieldmapdatacollection/add/)(OdsoFieldMapData) | Adds an object to the end of this collection. |
+| [Add](../../aspose.words.settings/odsofieldmapdatacollection/add/)(*[OdsoFieldMapData](../odsofieldmapdata/)*) | Adds an object to the end of this collection. |
 | [Clear](../../aspose.words.settings/odsofieldmapdatacollection/clear/)() | Removes all elements from this collection. |
 | [GetEnumerator](../../aspose.words.settings/odsofieldmapdatacollection/getenumerator/)() | Returns an enumerator object that can be used to iterate over all items in the collection. |
-| [RemoveAt](../../aspose.words.settings/odsofieldmapdatacollection/removeat/)(int) | Removes the element at the specified index. |
+| [RemoveAt](../../aspose.words.settings/odsofieldmapdatacollection/removeat/)(*int*) | Removes the element at the specified index. |
 
 ## Examples
 

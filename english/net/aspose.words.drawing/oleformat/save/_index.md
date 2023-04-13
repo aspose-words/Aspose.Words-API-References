@@ -7,7 +7,7 @@ type: docs
 weight: 160
 url: /net/aspose.words.drawing/oleformat/save/
 ---
-## Save(Stream) {#save}
+## Save(*Stream*) {#save}
 
 Saves the data of the embedded object into the specified stream.
 
@@ -69,7 +69,7 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 
 ---
 
-## Save(string) {#save_1}
+## Save(*string*) {#save_1}
 
 Saves the data of the embedded object into a file with the specified name.
 

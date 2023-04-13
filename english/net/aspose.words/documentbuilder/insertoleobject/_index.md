@@ -7,7 +7,7 @@ type: docs
 weight: 390
 url: /net/aspose.words/documentbuilder/insertoleobject/
 ---
-## InsertOleObject(Stream, string, bool, Stream) {#insertoleobject}
+## InsertOleObject(*Stream, string, bool, Stream*) {#insertoleobject}
 
 Inserts an embedded OLE object from a stream into the document.
 
@@ -75,7 +75,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObjects.docx");
 
 ---
 
-## InsertOleObject(string, bool, bool, Stream) {#insertoleobject_1}
+## InsertOleObject(*string, bool, bool, Stream*) {#insertoleobject_1}
 
 Inserts an embedded or linked OLE object from a file into the document. Detects OLE object type using file extension.
 
@@ -136,7 +136,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObject.docx");
 
 ---
 
-## InsertOleObject(string, string, bool, bool, Stream) {#insertoleobject_2}
+## InsertOleObject(*string, string, bool, bool, Stream*) {#insertoleobject_2}
 
 Inserts an embedded or linked OLE object from a file into the document. Detects OLE object type using given progID parameter.
 

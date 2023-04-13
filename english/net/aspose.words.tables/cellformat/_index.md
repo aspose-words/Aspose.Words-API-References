@@ -4,7 +4,7 @@ linktitle: CellFormat
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Tables.CellFormat class. Represents all formatting for a table cell in C#.
 type: docs
-weight: 6060
+weight: 6070
 url: /net/aspose.words.tables/cellformat/
 ---
 ## CellFormat class
@@ -41,7 +41,7 @@ public class CellFormat
 | Name | Description |
 | --- | --- |
 | [ClearFormatting](../../aspose.words.tables/cellformat/clearformatting/)() | Resets to default cell formatting. Does not change the width of the cell. |
-| [SetPaddings](../../aspose.words.tables/cellformat/setpaddings/)(double, double, double, double) | Sets the amount of space (in points) to add to the left/top/right/bottom of the contents of cell. |
+| [SetPaddings](../../aspose.words.tables/cellformat/setpaddings/)(*double, double, double, double*) | Sets the amount of space (in points) to add to the left/top/right/bottom of the contents of cell. |
 
 ## Examples
 

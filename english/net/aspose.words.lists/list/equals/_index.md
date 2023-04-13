@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words.lists/list/equals/
 ---
-## Equals(List) {#equals}
+## Equals(*[List](../)*) {#equals}
 
 Compares with the specified list.
 
@@ -23,7 +23,7 @@ public bool Equals(List list)
 
 ---
 
-## Equals(object) {#equals_1}
+## Equals(*object*) {#equals_1}
 
 Determines whether the specified object is equal in value to the current object.
 

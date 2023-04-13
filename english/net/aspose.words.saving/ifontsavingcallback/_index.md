@@ -4,7 +4,7 @@ linktitle: IFontSavingCallback
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Saving.IFontSavingCallback interface. Implement this interface if you want to receive notifications and control how Aspose.Words saves fonts when exporting a document to HTML format in C#.
 type: docs
-weight: 4970
+weight: 4980
 url: /net/aspose.words.saving/ifontsavingcallback/
 ---
 ## IFontSavingCallback interface
@@ -19,7 +19,7 @@ public interface IFontSavingCallback
 
 | Name | Description |
 | --- | --- |
-| [FontSaving](../../aspose.words.saving/ifontsavingcallback/fontsaving/)(FontSavingArgs) | Called when Aspose.Words is about to save a font resource. |
+| [FontSaving](../../aspose.words.saving/ifontsavingcallback/fontsaving/)(*[FontSavingArgs](../fontsavingargs/)*) | Called when Aspose.Words is about to save a font resource. |
 
 ## Examples
 

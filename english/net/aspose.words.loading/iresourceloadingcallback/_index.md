@@ -4,7 +4,7 @@ linktitle: IResourceLoadingCallback
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Loading.IResourceLoadingCallback interface. Implement this interface if you want to control how Aspose.Words loads external resource when importing a document and inserting images using DocumentBuilder in C#.
 type: docs
-weight: 3490
+weight: 3500
 url: /net/aspose.words.loading/iresourceloadingcallback/
 ---
 ## IResourceLoadingCallback interface
@@ -19,7 +19,7 @@ public interface IResourceLoadingCallback
 
 | Name | Description |
 | --- | --- |
-| [ResourceLoading](../../aspose.words.loading/iresourceloadingcallback/resourceloading/)(ResourceLoadingArgs) | Called when Aspose.Words loads any external resource. |
+| [ResourceLoading](../../aspose.words.loading/iresourceloadingcallback/resourceloading/)(*[ResourceLoadingArgs](../resourceloadingargs/)*) | Called when Aspose.Words loads any external resource. |
 
 ## Examples
 

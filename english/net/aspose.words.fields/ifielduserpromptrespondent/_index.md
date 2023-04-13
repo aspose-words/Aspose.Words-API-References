@@ -4,7 +4,7 @@ linktitle: IFieldUserPromptRespondent
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.IFieldUserPromptRespondent interface. Represents the respondent to user prompts during field update in C#.
 type: docs
-weight: 2610
+weight: 2620
 url: /net/aspose.words.fields/ifielduserpromptrespondent/
 ---
 ## IFieldUserPromptRespondent interface
@@ -19,7 +19,7 @@ public interface IFieldUserPromptRespondent
 
 | Name | Description |
 | --- | --- |
-| [Respond](../../aspose.words.fields/ifielduserpromptrespondent/respond/)(string, string) | When implemented, returns a response from the user on prompting. Your implementation should return `null` to indicate that the user has not responded to the prompt (i.e. the user has pressed the Cancel button in the prompt window). |
+| [Respond](../../aspose.words.fields/ifielduserpromptrespondent/respond/)(*string, string*) | When implemented, returns a response from the user on prompting. Your implementation should return `null` to indicate that the user has not responded to the prompt (i.e. the user has pressed the Cancel button in the prompt window). |
 
 ## Remarks
 

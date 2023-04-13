@@ -4,7 +4,7 @@ linktitle: XamlFlowSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Saving.XamlFlowSaveOptions class. Can be used to specify additional options when saving a document into the XamlFlow or XamlFlowPack format in C#.
 type: docs
-weight: 5510
+weight: 5520
 url: /net/aspose.words.saving/xamlflowsaveoptions/
 ---
 ## XamlFlowSaveOptions class
@@ -22,7 +22,7 @@ public class XamlFlowSaveOptions : SaveOptions
 | Name | Description |
 | --- | --- |
 | [XamlFlowSaveOptions](xamlflowsaveoptions/#constructor)() | Initializes a new instance of this class that can be used to save a document in the XamlFlow format. |
-| [XamlFlowSaveOptions](xamlflowsaveoptions/#constructor_1)(SaveFormat) | Initializes a new instance of this class that can be used to save a document in the XamlFlow or XamlFlowPack format. |
+| [XamlFlowSaveOptions](xamlflowsaveoptions/#constructor_1)(*[SaveFormat](../../aspose.words/saveformat/)*) | Initializes a new instance of this class that can be used to save a document in the XamlFlow or XamlFlowPack format. |
 
 ## Properties
 

@@ -27,7 +27,7 @@ Use this method to convert any of the fills back to solid fill.
 
 ---
 
-## Solid(Color) {#solid_1}
+## Solid(*Color*) {#solid_1}
 
 Sets the fill to a specified uniform color.
 

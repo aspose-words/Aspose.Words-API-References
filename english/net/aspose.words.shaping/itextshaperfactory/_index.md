@@ -4,7 +4,7 @@ linktitle: ITextShaperFactory
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Shaping.ITextShaperFactory interface. An interface of a factory for constructing ITextShaper implementations in C#.
 type: docs
-weight: 5860
+weight: 5870
 url: /net/aspose.words.shaping/itextshaperfactory/
 ---
 ## ITextShaperFactory interface
@@ -19,8 +19,8 @@ public interface ITextShaperFactory
 
 | Name | Description |
 | --- | --- |
-| [GetTextShaper](../../aspose.words.shaping/itextshaperfactory/gettextshaper/#gettextshaper_1)(string, int) | Returns new instance of a text shaper for the font specified by *fontPath* and *faceIndex*. |
-| [GetTextShaper](../../aspose.words.shaping/itextshaperfactory/gettextshaper/#gettextshaper)(string, byte[], int) | Returns new instance of a text shaper for the font represented by *fontBlob* and *faceIndex*. |
+| [GetTextShaper](../../aspose.words.shaping/itextshaperfactory/gettextshaper/#gettextshaper_1)(*string, int*) | Returns new instance of a text shaper for the font specified by *fontPath* and *faceIndex*. |
+| [GetTextShaper](../../aspose.words.shaping/itextshaperfactory/gettextshaper/#gettextshaper)(*string, byte[], int*) | Returns new instance of a text shaper for the font represented by *fontBlob* and *faceIndex*. |
 
 ### See Also
 

@@ -4,7 +4,7 @@ linktitle: CompatibilityOptions
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Settings.CompatibilityOptions class. Contains compatibility options that is the user preferences entered on the Compatibility tab of the Options dialog in Microsoft Word in C#.
 type: docs
-weight: 5580
+weight: 5590
 url: /net/aspose.words.settings/compatibilityoptions/
 ---
 ## CompatibilityOptions class
@@ -97,7 +97,7 @@ public class CompatibilityOptions
 
 | Name | Description |
 | --- | --- |
-| [OptimizeFor](../../aspose.words.settings/compatibilityoptions/optimizefor/)(MsWordVersion) | Allows to optimize the document contents as well as default Aspose.Words behavior to a particular versions of MS Word. |
+| [OptimizeFor](../../aspose.words.settings/compatibilityoptions/optimizefor/)(*[MsWordVersion](../mswordversion/)*) | Allows to optimize the document contents as well as default Aspose.Words behavior to a particular versions of MS Word. |
 
 ## Examples
 

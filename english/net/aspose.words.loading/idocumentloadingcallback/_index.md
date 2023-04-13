@@ -4,7 +4,7 @@ linktitle: IDocumentLoadingCallback
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Loading.IDocumentLoadingCallback interface. Implement this interface if you want to have your own custom method called during loading a document in C#.
 type: docs
-weight: 3480
+weight: 3490
 url: /net/aspose.words.loading/idocumentloadingcallback/
 ---
 ## IDocumentLoadingCallback interface
@@ -19,7 +19,7 @@ public interface IDocumentLoadingCallback
 
 | Name | Description |
 | --- | --- |
-| [Notify](../../aspose.words.loading/idocumentloadingcallback/notify/)(DocumentLoadingArgs) | This is called to notify of document loading progress. |
+| [Notify](../../aspose.words.loading/idocumentloadingcallback/notify/)(*[DocumentLoadingArgs](../documentloadingargs/)*) | This is called to notify of document loading progress. |
 
 ## Examples
 

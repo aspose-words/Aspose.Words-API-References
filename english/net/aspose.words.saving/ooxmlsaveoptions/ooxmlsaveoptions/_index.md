@@ -55,7 +55,7 @@ Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0,
 
 ---
 
-## OoxmlSaveOptions(SaveFormat) {#constructor_1}
+## OoxmlSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
 Initializes a new instance of this class that can be used to save a document in the Docx, Docm, Dotx, Dotm or FlatOpc format.
 

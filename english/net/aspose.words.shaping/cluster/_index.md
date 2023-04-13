@@ -4,7 +4,7 @@ linktitle: Cluster
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Shaping.Cluster class. Encapsulates code points and glyphs composing a grapheme in C#.
 type: docs
-weight: 5810
+weight: 5820
 url: /net/aspose.words.shaping/cluster/
 ---
 ## Cluster class
@@ -19,7 +19,7 @@ public class Cluster
 
 | Name | Description |
 | --- | --- |
-| [Cluster](cluster/)(int[], Glyph[]) | Initializes new instance of this class. |
+| [Cluster](cluster/)(*int[], Glyph[]*) | Initializes new instance of this class. |
 
 ## Properties
 
@@ -35,8 +35,8 @@ public class Cluster
 | --- | --- |
 | [DeepClone](../../aspose.words.shaping/cluster/deepclone/)() | Returns a deep clone of this instance. |
 | [GetString](../../aspose.words.shaping/cluster/getstring/)() | Creates String using codepoints from this cluster. |
-| [GetWidth](../../aspose.words.shaping/cluster/getwidth/)(int, float) | Returns width of the cluster. |
-| static [GetString](../../aspose.words.shaping/cluster/getstring/)(Cluster[]) | Creates String using codepoints from the specified clusters. |
+| [GetWidth](../../aspose.words.shaping/cluster/getwidth/)(*int, float*) | Returns width of the cluster. |
+| static [GetString](../../aspose.words.shaping/cluster/getstring/)(*Cluster[]*) | Creates String using codepoints from the specified clusters. |
 
 ### See Also
 

@@ -4,7 +4,7 @@ linktitle: FindReplaceOptions
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Replacing.FindReplaceOptions class. Specifies options for find/replace operations in C#.
 type: docs
-weight: 4430
+weight: 4440
 url: /net/aspose.words.replacing/findreplaceoptions/
 ---
 ## FindReplaceOptions class
@@ -22,9 +22,9 @@ public class FindReplaceOptions
 | Name | Description |
 | --- | --- |
 | [FindReplaceOptions](findreplaceoptions/#constructor)() | The default constructor. |
-| [FindReplaceOptions](findreplaceoptions/#constructor_1)(FindReplaceDirection) |  |
-| [FindReplaceOptions](findreplaceoptions/#constructor_3)(IReplacingCallback) |  |
-| [FindReplaceOptions](findreplaceoptions/#constructor_2)(FindReplaceDirection, IReplacingCallback) |  |
+| [FindReplaceOptions](findreplaceoptions/#constructor_1)(*[FindReplaceDirection](../findreplacedirection/)*) |  |
+| [FindReplaceOptions](findreplaceoptions/#constructor_3)(*[IReplacingCallback](../ireplacingcallback/)*) |  |
+| [FindReplaceOptions](findreplaceoptions/#constructor_2)(*[FindReplaceDirection](../findreplacedirection/), [IReplacingCallback](../ireplacingcallback/)*) |  |
 
 ## Properties
 

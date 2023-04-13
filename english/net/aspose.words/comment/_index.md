@@ -21,8 +21,8 @@ public sealed class Comment : InlineStory
 
 | Name | Description |
 | --- | --- |
-| [Comment](comment/#constructor)(DocumentBase) | Initializes a new instance of the `Comment` class. |
-| [Comment](comment/#constructor_1)(DocumentBase, string, string, DateTime) | Initializes a new instance of the `Comment` class. |
+| [Comment](comment/#constructor)(*[DocumentBase](../documentbase/)*) | Initializes a new instance of the `Comment` class. |
+| [Comment](comment/#constructor_1)(*[DocumentBase](../documentbase/), string, string, DateTime*) | Initializes a new instance of the `Comment` class. |
 
 ## Properties
 
@@ -64,35 +64,35 @@ public sealed class Comment : InlineStory
 
 | Name | Description |
 | --- | --- |
-| override [Accept](../../aspose.words/comment/accept/)(DocumentVisitor) | Accepts a visitor. |
-| [AddReply](../../aspose.words/comment/addreply/)(string, string, DateTime, string) | Adds a reply to this comment. |
-| [AppendChild](../../aspose.words/compositenode/appendchild/)(Node) | Adds the specified node to the end of the list of child nodes for this node. |
-| [Clone](../../aspose.words/node/clone/)(bool) | Creates a duplicate of the node. |
+| override [Accept](../../aspose.words/comment/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Accepts a visitor. |
+| [AddReply](../../aspose.words/comment/addreply/)(*string, string, DateTime, string*) | Adds a reply to this comment. |
+| [AppendChild](../../aspose.words/compositenode/appendchild/)(*[Node](../node/)*) | Adds the specified node to the end of the list of child nodes for this node. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Creates a duplicate of the node. |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Creates navigator which can be used to traverse and read nodes. |
 | [EnsureMinimum](../../aspose.words/inlinestory/ensureminimum/)() | If the last child is not a paragraph, creates and appends one empty paragraph. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Gets the first ancestor of the specified [`NodeType`](../nodetype/). |
-| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Gets the first ancestor of the specified object type. |
-| [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Returns an Nth child node that matches the specified type. |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | Returns a live collection of child nodes that match the specified type. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Gets the first ancestor of the specified [`NodeType`](../nodetype/). |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Gets the first ancestor of the specified object type. |
+| [GetChild](../../aspose.words/compositenode/getchild/)(*[NodeType](../nodetype/), int, bool*) | Returns an Nth child node that matches the specified type. |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../nodetype/), bool*) | Returns a live collection of child nodes that match the specified type. |
 | [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Provides support for the for each style iteration over the child nodes of this node. |
 | override [GetText](../../aspose.words/compositenode/gettext/)() | Gets the text of this node and of all its children. |
-| [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | Returns the index of the specified child node in the child node array. |
-| [InsertAfter](../../aspose.words/compositenode/insertafter/)(Node, Node) | Inserts the specified node immediately after the specified reference node. |
-| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(Node, Node) | Inserts the specified node immediately before the specified reference node. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Gets next node according to the pre-order tree traversal algorithm. |
-| [PrependChild](../../aspose.words/compositenode/prependchild/)(Node) | Adds the specified node to the beginning of the list of child nodes for this node. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Gets the previous node according to the pre-order tree traversal algorithm. |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../node/)*) | Returns the index of the specified child node in the child node array. |
+| [InsertAfter](../../aspose.words/compositenode/insertafter/)(*[Node](../node/), [Node](../node/)*) | Inserts the specified node immediately after the specified reference node. |
+| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(*[Node](../node/), [Node](../node/)*) | Inserts the specified node immediately before the specified reference node. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Gets next node according to the pre-order tree traversal algorithm. |
+| [PrependChild](../../aspose.words/compositenode/prependchild/)(*[Node](../node/)*) | Adds the specified node to the beginning of the list of child nodes for this node. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Gets the previous node according to the pre-order tree traversal algorithm. |
 | [Remove](../../aspose.words/node/remove/)() | Removes itself from the parent. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Removes all the child nodes of the current node. |
 | [RemoveAllReplies](../../aspose.words/comment/removeallreplies/)() | Removes all replies to this comment. |
-| [RemoveChild](../../aspose.words/compositenode/removechild/)(Node) | Removes the specified child node. |
-| [RemoveReply](../../aspose.words/comment/removereply/)(Comment) | Removes the specified reply to this comment. |
+| [RemoveChild](../../aspose.words/compositenode/removechild/)(*[Node](../node/)*) | Removes the specified child node. |
+| [RemoveReply](../../aspose.words/comment/removereply/)(*Comment*) | Removes the specified reply to this comment. |
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Removes all [`SmartTag`](../../aspose.words.markup/smarttag/) descendant nodes of the current node. |
-| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Selects a list of nodes matching the XPath expression. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Selects the first [`Node`](../node/) that matches the XPath expression. |
-| [SetText](../../aspose.words/comment/settext/)(string) | This is a convenience method that allows to easily set text of the comment. |
-| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exports the content of the node into a string in the specified format. |
-| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
+| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(*string*) | Selects a list of nodes matching the XPath expression. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(*string*) | Selects the first [`Node`](../node/) that matches the XPath expression. |
+| [SetText](../../aspose.words/comment/settext/)(*string*) | This is a convenience method that allows to easily set text of the comment. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exports the content of the node into a string in the specified format. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exports the content of the node into a string using the specified save options. |
 
 ## Remarks
 

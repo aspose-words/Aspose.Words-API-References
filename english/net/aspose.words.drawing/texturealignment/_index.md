@@ -4,7 +4,7 @@ linktitle: TextureAlignment
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Drawing.TextureAlignment enum. Specifies the alignment for the tiling of the texture fill in C#.
 type: docs
-weight: 1250
+weight: 1260
 url: /net/aspose.words.drawing/texturealignment/
 ---
 ## TextureAlignment enumeration

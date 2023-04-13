@@ -4,7 +4,7 @@ linktitle: NodeCollection
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.NodeCollection class. Represents a collection of nodes of a specific type in C#.
 type: docs
-weight: 4020
+weight: 4030
 url: /net/aspose.words/nodecollection/
 ---
 ## NodeCollection class
@@ -28,14 +28,14 @@ public class NodeCollection : IEnumerable<Node>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.words/nodecollection/add/)(Node) | Adds a node to the end of the collection. |
+| [Add](../../aspose.words/nodecollection/add/)(*[Node](../node/)*) | Adds a node to the end of the collection. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Removes all nodes from this collection and from the document. |
-| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Determines whether a node is in the collection. |
+| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../node/)*) | Determines whether a node is in the collection. |
 | [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Provides a simple "foreach" style iteration over the collection of nodes. |
-| [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Returns the zero-based index of the specified node. |
-| [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Inserts a node into the collection at the specified index. |
-| [Remove](../../aspose.words/nodecollection/remove/)(Node) | Removes the node from the collection and from the document. |
-| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Removes the node at the specified index from the collection and from the document. |
+| [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../node/)*) | Returns the zero-based index of the specified node. |
+| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../node/)*) | Inserts a node into the collection at the specified index. |
+| [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../node/)*) | Removes the node from the collection and from the document. |
+| [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | Removes the node at the specified index from the collection and from the document. |
 | [ToArray](../../aspose.words/nodecollection/toarray/)() | Copies all nodes from the collection to a new array of nodes. |
 
 ## Remarks

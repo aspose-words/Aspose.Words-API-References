@@ -4,7 +4,7 @@ linktitle: WatermarkLayout
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.WatermarkLayout enum. Defines layout of the watermark relative to the watermark center in C#.
 type: docs
-weight: 6480
+weight: 6490
 url: /net/aspose.words/watermarklayout/
 ---
 ## WatermarkLayout enumeration

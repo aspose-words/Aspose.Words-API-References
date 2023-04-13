@@ -4,7 +4,7 @@ linktitle: HtmlLoadOptions
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Loading.HtmlLoadOptions class. Allows to specify additional options when loading HTML document into a Document object in C#.
 type: docs
-weight: 3470
+weight: 3480
 url: /net/aspose.words.loading/htmlloadoptions/
 ---
 ## HtmlLoadOptions class
@@ -22,8 +22,8 @@ public class HtmlLoadOptions : LoadOptions
 | Name | Description |
 | --- | --- |
 | [HtmlLoadOptions](htmlloadoptions/#constructor)() | Initializes a new instance of this class with default values. |
-| [HtmlLoadOptions](htmlloadoptions/#constructor_2)(string) | A shortcut to initialize a new instance of this class with the specified password to load an encrypted document. |
-| [HtmlLoadOptions](htmlloadoptions/#constructor_1)(LoadFormat, string, string) | A shortcut to initialize a new instance of this class with properties set to the specified values. |
+| [HtmlLoadOptions](htmlloadoptions/#constructor_2)(*string*) | A shortcut to initialize a new instance of this class with the specified password to load an encrypted document. |
+| [HtmlLoadOptions](htmlloadoptions/#constructor_1)(*[LoadFormat](../../aspose.words/loadformat/), string, string*) | A shortcut to initialize a new instance of this class with properties set to the specified values. |
 
 ## Properties
 

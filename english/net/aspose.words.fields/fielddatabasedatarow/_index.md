@@ -4,7 +4,7 @@ linktitle: FieldDatabaseDataRow
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FieldDatabaseDataRow class. Provides data for the FieldDatabase field result. Please see DataRow instance in C#.
 type: docs
-weight: 1630
+weight: 1640
 url: /net/aspose.words.fields/fielddatabasedatarow/
 ---
 ## FieldDatabaseDataRow class
@@ -21,7 +21,7 @@ public class FieldDatabaseDataRow
 
 | Name | Description |
 | --- | --- |
-| [FieldDatabaseDataRow](fielddatabasedatarow/)(params string[]) | Initializes a new instance of the `FieldDatabaseDataRow` class. |
+| [FieldDatabaseDataRow](fielddatabasedatarow/)(*params string[]*) | Initializes a new instance of the `FieldDatabaseDataRow` class. |
 
 ## Properties
 
@@ -33,7 +33,7 @@ public class FieldDatabaseDataRow
 
 | Name | Description |
 | --- | --- |
-| static [CreateFrom](../../aspose.words.fields/fielddatabasedatarow/createfrom/)(DataRow) | Initializes a new instance of the `FieldDatabaseDataRow` class from the DataRow instance. |
+| static [CreateFrom](../../aspose.words.fields/fielddatabasedatarow/createfrom/)(*DataRow*) | Initializes a new instance of the `FieldDatabaseDataRow` class from the DataRow instance. |
 
 ### See Also
 

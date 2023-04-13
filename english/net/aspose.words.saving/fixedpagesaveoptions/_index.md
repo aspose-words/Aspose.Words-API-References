@@ -4,7 +4,7 @@ linktitle: FixedPageSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Saving.FixedPageSaveOptions class. Contains common options that can be specified when saving a document into fixed page formats PDF XPS images etc in C#.
 type: docs
-weight: 4830
+weight: 4840
 url: /net/aspose.words.saving/fixedpagesaveoptions/
 ---
 ## FixedPageSaveOptions class
@@ -52,7 +52,7 @@ public abstract class FixedPageSaveOptions : SaveOptions
 
 | Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals/)(object) | Determines whether the specified object is equal in value to the current object. |
+| override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals/)(*object*) | Determines whether the specified object is equal in value to the current object. |
 
 ## Examples
 

@@ -4,7 +4,7 @@ linktitle: HeaderFooterType
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.HeaderFooterType enum. Identifies the type of header or footer found in a Word file in C#.
 type: docs
-weight: 2990
+weight: 3000
 url: /net/aspose.words/headerfootertype/
 ---
 ## HeaderFooterType enumeration

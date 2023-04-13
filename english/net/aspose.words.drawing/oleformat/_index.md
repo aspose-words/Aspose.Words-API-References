@@ -4,7 +4,7 @@ linktitle: OleFormat
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Drawing.OleFormat class. Provides access to the data of an OLE object or ActiveX control in C#.
 type: docs
-weight: 1030
+weight: 1040
 url: /net/aspose.words.drawing/oleformat/
 ---
 ## OleFormat class
@@ -39,10 +39,10 @@ public class OleFormat
 
 | Name | Description |
 | --- | --- |
-| [GetOleEntry](../../aspose.words.drawing/oleformat/getoleentry/)(string) | Gets OLE object data entry. |
+| [GetOleEntry](../../aspose.words.drawing/oleformat/getoleentry/)(*string*) | Gets OLE object data entry. |
 | [GetRawData](../../aspose.words.drawing/oleformat/getrawdata/)() | Gets OLE object raw data. |
-| [Save](../../aspose.words.drawing/oleformat/save/#save)(Stream) | Saves the data of the embedded object into the specified stream. |
-| [Save](../../aspose.words.drawing/oleformat/save/#save_1)(string) | Saves the data of the embedded object into a file with the specified name. |
+| [Save](../../aspose.words.drawing/oleformat/save/#save)(*Stream*) | Saves the data of the embedded object into the specified stream. |
+| [Save](../../aspose.words.drawing/oleformat/save/#save_1)(*string*) | Saves the data of the embedded object into a file with the specified name. |
 
 ## Remarks
 

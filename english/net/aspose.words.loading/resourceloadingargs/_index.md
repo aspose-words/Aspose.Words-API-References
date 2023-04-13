@@ -4,7 +4,7 @@ linktitle: ResourceLoadingArgs
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Loading.ResourceLoadingArgs class. Provides data for the ResourceLoading method in C#.
 type: docs
-weight: 3540
+weight: 3550
 url: /net/aspose.words.loading/resourceloadingargs/
 ---
 ## ResourceLoadingArgs class
@@ -27,7 +27,7 @@ public class ResourceLoadingArgs
 
 | Name | Description |
 | --- | --- |
-| [SetData](../../aspose.words.loading/resourceloadingargs/setdata/)(byte[]) | Sets user provided data of the resource which is used if [`ResourceLoading`](../iresourceloadingcallback/resourceloading/) returns UserProvided. |
+| [SetData](../../aspose.words.loading/resourceloadingargs/setdata/)(*byte[]*) | Sets user provided data of the resource which is used if [`ResourceLoading`](../iresourceloadingcallback/resourceloading/) returns UserProvided. |
 
 ## Examples
 

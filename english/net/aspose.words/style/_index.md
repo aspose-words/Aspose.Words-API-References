@@ -4,7 +4,7 @@ linktitle: Style
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Style class. Represents a single builtin or userdefined style in C#.
 type: docs
-weight: 5930
+weight: 5940
 url: /net/aspose.words/style/
 ---
 ## Style class
@@ -43,7 +43,7 @@ public class Style
 
 | Name | Description |
 | --- | --- |
-| [Equals](../../aspose.words/style/equals/#equals)(Style) | Compares with the specified style. Styles Istds are compared for built-in styles only. Styles defaults are not included in comparison. Base style, linked style and next paragraph style are recursively compared. |
+| [Equals](../../aspose.words/style/equals/#equals)(*Style*) | Compares with the specified style. Styles Istds are compared for built-in styles only. Styles defaults are not included in comparison. Base style, linked style and next paragraph style are recursively compared. |
 | [Remove](../../aspose.words/style/remove/)() | Removes the specified style from the document. |
 
 ## Examples

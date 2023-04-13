@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldbuilder/buildandinsert/
 ---
-## BuildAndInsert(Inline) {#buildandinsert}
+## BuildAndInsert(*[Inline](../../../aspose.words/inline/)*) {#buildandinsert}
 
 Builds and inserts a field into the document before the specified inline node.
 
@@ -54,7 +54,7 @@ doc.Save(ArtifactsDir + "Field.CreateWithFieldBuilder.docx");
 
 ---
 
-## BuildAndInsert(Paragraph) {#buildandinsert_1}
+## BuildAndInsert(*[Paragraph](../../../aspose.words/paragraph/)*) {#buildandinsert_1}
 
 Builds and inserts a field into the document to the end of the specified paragraph.
 

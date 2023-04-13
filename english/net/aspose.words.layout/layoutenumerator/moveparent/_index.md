@@ -165,7 +165,7 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 ---
 
-## MoveParent(LayoutEntityType) {#moveparent_1}
+## MoveParent(*[LayoutEntityType](../../layoutentitytype/)*) {#moveparent_1}
 
 Moves to the parent entity of the specified type.
 

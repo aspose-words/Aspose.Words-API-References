@@ -4,7 +4,7 @@ linktitle: HeaderFooterCollection
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.HeaderFooterCollection class. Provides typed access to HeaderFooter nodes of a Section in C#.
 type: docs
-weight: 2980
+weight: 2990
 url: /net/aspose.words/headerfootercollection/
 ---
 ## HeaderFooterCollection class
@@ -28,16 +28,16 @@ public class HeaderFooterCollection : NodeCollection
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.words/nodecollection/add/)(Node) | Adds a node to the end of the collection. |
+| [Add](../../aspose.words/nodecollection/add/)(*[Node](../node/)*) | Adds a node to the end of the collection. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Removes all nodes from this collection and from the document. |
-| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Determines whether a node is in the collection. |
+| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../node/)*) | Determines whether a node is in the collection. |
 | [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Provides a simple "foreach" style iteration over the collection of nodes. |
-| [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Returns the zero-based index of the specified node. |
-| [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Inserts a node into the collection at the specified index. |
-| [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious/#linktoprevious_1)(bool) | Links or unlinks all headers and footers to the corresponding headers and footers in the previous section. |
-| [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious/#linktoprevious)(HeaderFooterType, bool) | Links or unlinks the specified header or footer to the corresponding header or footer in the previous section. |
-| [Remove](../../aspose.words/nodecollection/remove/)(Node) | Removes the node from the collection and from the document. |
-| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Removes the node at the specified index from the collection and from the document. |
+| [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../node/)*) | Returns the zero-based index of the specified node. |
+| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../node/)*) | Inserts a node into the collection at the specified index. |
+| [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious/#linktoprevious_1)(*bool*) | Links or unlinks all headers and footers to the corresponding headers and footers in the previous section. |
+| [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious/#linktoprevious)(*[HeaderFooterType](../headerfootertype/), bool*) | Links or unlinks the specified header or footer to the corresponding header or footer in the previous section. |
+| [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../node/)*) | Removes the node from the collection and from the document. |
+| [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | Removes the node at the specified index from the collection and from the document. |
 | [ToArray](../../aspose.words/headerfootercollection/toarray/#toarray)() | Copies all `HeaderFoorter`s from the collection to a new array of `HeaderFoorter`s. (2 methods) |
 
 ## Remarks

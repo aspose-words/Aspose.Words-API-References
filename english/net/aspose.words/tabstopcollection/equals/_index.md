@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words/tabstopcollection/equals/
 ---
-## Equals(TabStopCollection) {#equals}
+## Equals(*[TabStopCollection](../)*) {#equals}
 
 Determines whether the specified [`TabStopCollection`](../) is equal in value to the current [`TabStopCollection`](../).
 
@@ -64,7 +64,7 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 
 ---
 
-## Equals(object) {#equals_1}
+## Equals(*object*) {#equals_1}
 
 Determines whether the specified object is equal in value to the current object.
 

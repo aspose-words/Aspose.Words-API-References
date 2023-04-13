@@ -53,7 +53,7 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 ---
 
-## DocSaveOptions(SaveFormat) {#constructor_1}
+## DocSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
 Initializes a new instance of this class that can be used to save a document in the Doc or Dot format.
 

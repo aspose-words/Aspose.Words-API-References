@@ -4,7 +4,7 @@ linktitle: DropDownItemCollection
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.DropDownItemCollection class. A collection of strings that represent all the items in a dropdown form field in C#.
 type: docs
-weight: 1380
+weight: 1390
 url: /net/aspose.words.fields/dropdownitemcollection/
 ---
 ## DropDownItemCollection class
@@ -28,14 +28,14 @@ public class DropDownItemCollection : IEnumerable<string>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.words.fields/dropdownitemcollection/add/)(string) | Adds a string to the end of the collection. |
+| [Add](../../aspose.words.fields/dropdownitemcollection/add/)(*string*) | Adds a string to the end of the collection. |
 | [Clear](../../aspose.words.fields/dropdownitemcollection/clear/)() | Removes all elements from the collection. |
-| [Contains](../../aspose.words.fields/dropdownitemcollection/contains/)(string) | Determines whether the collection contains the specified value. |
+| [Contains](../../aspose.words.fields/dropdownitemcollection/contains/)(*string*) | Determines whether the collection contains the specified value. |
 | [GetEnumerator](../../aspose.words.fields/dropdownitemcollection/getenumerator/)() | Returns an enumerator object that can be used to iterate over all items in the collection. |
-| [IndexOf](../../aspose.words.fields/dropdownitemcollection/indexof/)(string) | Returns the zero-based index of the specified value in the collection. |
-| [Insert](../../aspose.words.fields/dropdownitemcollection/insert/)(int, string) | Inserts a string into the collection at the specified index. |
-| [Remove](../../aspose.words.fields/dropdownitemcollection/remove/)(string) | Removes the specified value from the collection. |
-| [RemoveAt](../../aspose.words.fields/dropdownitemcollection/removeat/)(int) | Removes a value at the specified index. |
+| [IndexOf](../../aspose.words.fields/dropdownitemcollection/indexof/)(*string*) | Returns the zero-based index of the specified value in the collection. |
+| [Insert](../../aspose.words.fields/dropdownitemcollection/insert/)(*int, string*) | Inserts a string into the collection at the specified index. |
+| [Remove](../../aspose.words.fields/dropdownitemcollection/remove/)(*string*) | Removes the specified value from the collection. |
+| [RemoveAt](../../aspose.words.fields/dropdownitemcollection/removeat/)(*int*) | Removes a value at the specified index. |
 
 ## Examples
 

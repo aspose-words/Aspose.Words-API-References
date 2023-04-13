@@ -4,7 +4,7 @@ linktitle: FieldDatabaseDataTable
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FieldDatabaseDataTable class. Provides data for the FieldDatabase field result. Please see DataTable instance in C#.
 type: docs
-weight: 1640
+weight: 1650
 url: /net/aspose.words.fields/fielddatabasedatatable/
 ---
 ## FieldDatabaseDataTable class
@@ -21,7 +21,7 @@ public class FieldDatabaseDataTable
 
 | Name | Description |
 | --- | --- |
-| [FieldDatabaseDataTable](fielddatabasedatatable/)(params string[]) | Initializes a new instance of the `FieldDatabaseDataTable` class. |
+| [FieldDatabaseDataTable](fielddatabasedatatable/)(*params string[]*) | Initializes a new instance of the `FieldDatabaseDataTable` class. |
 
 ## Properties
 
@@ -34,7 +34,7 @@ public class FieldDatabaseDataTable
 
 | Name | Description |
 | --- | --- |
-| static [CreateFrom](../../aspose.words.fields/fielddatabasedatatable/createfrom/)(DataTable) | Initializes a new instance of the `FieldDatabaseDataTable` class from the DataTable instance. |
+| static [CreateFrom](../../aspose.words.fields/fielddatabasedatatable/createfrom/)(*DataTable*) | Initializes a new instance of the `FieldDatabaseDataTable` class from the DataTable instance. |
 
 ### See Also
 

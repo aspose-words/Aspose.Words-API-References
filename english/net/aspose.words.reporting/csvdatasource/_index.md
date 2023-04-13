@@ -4,7 +4,7 @@ linktitle: CsvDataSource
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Reporting.CsvDataSource class. Provides access to data of a CSV file or stream to be used within a report in C#.
 type: docs
-weight: 4480
+weight: 4490
 url: /net/aspose.words.reporting/csvdatasource/
 ---
 ## CsvDataSource class
@@ -21,10 +21,10 @@ public class CsvDataSource
 
 | Name | Description |
 | --- | --- |
-| [CsvDataSource](csvdatasource/#constructor)(Stream) | Creates a new data source with data from a CSV stream using default options for parsing CSV data. |
-| [CsvDataSource](csvdatasource/#constructor_2)(string) | Creates a new data source with data from a CSV file using default options for parsing CSV data. |
-| [CsvDataSource](csvdatasource/#constructor_1)(Stream, CsvDataLoadOptions) | Creates a new data source with data from a CSV stream using the specified options for parsing CSV data. |
-| [CsvDataSource](csvdatasource/#constructor_3)(string, CsvDataLoadOptions) | Creates a new data source with data from a CSV file using the specified options for parsing CSV data. |
+| [CsvDataSource](csvdatasource/#constructor)(*Stream*) | Creates a new data source with data from a CSV stream using default options for parsing CSV data. |
+| [CsvDataSource](csvdatasource/#constructor_2)(*string*) | Creates a new data source with data from a CSV file using default options for parsing CSV data. |
+| [CsvDataSource](csvdatasource/#constructor_1)(*Stream, [CsvDataLoadOptions](../csvdataloadoptions/)*) | Creates a new data source with data from a CSV stream using the specified options for parsing CSV data. |
+| [CsvDataSource](csvdatasource/#constructor_3)(*string, [CsvDataLoadOptions](../csvdataloadoptions/)*) | Creates a new data source with data from a CSV file using the specified options for parsing CSV data. |
 
 ## Remarks
 

@@ -4,7 +4,7 @@ linktitle: FontSourceType
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fonts.FontSourceType enum. Specifies the type of a font source in C#.
 type: docs
-weight: 2860
+weight: 2870
 url: /net/aspose.words.fonts/fontsourcetype/
 ---
 ## FontSourceType enumeration

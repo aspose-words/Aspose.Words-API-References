@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words/node/getancestor/
 ---
-## GetAncestor(Type) {#getancestor_1}
+## GetAncestor(*Type*) {#getancestor_1}
 
 Gets the first ancestor of the specified object type.
 
@@ -111,7 +111,7 @@ private static int GetChildTableCount(Table table)
 
 ---
 
-## GetAncestor(NodeType) {#getancestor}
+## GetAncestor(*[NodeType](../../nodetype/)*) {#getancestor}
 
 Gets the first ancestor of the specified [`NodeType`](../../nodetype/).
 

@@ -60,7 +60,7 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 
 ---
 
-## PdfDigitalSignatureTimestampSettings(string, string, string) {#constructor_1}
+## PdfDigitalSignatureTimestampSettings(*string, string, string*) {#constructor_1}
 
 Initializes an instance of this class.
 
@@ -119,7 +119,7 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", optio
 
 ---
 
-## PdfDigitalSignatureTimestampSettings(string, string, string, TimeSpan) {#constructor_2}
+## PdfDigitalSignatureTimestampSettings(*string, string, string, TimeSpan*) {#constructor_2}
 
 Initializes an instance of this class.
 

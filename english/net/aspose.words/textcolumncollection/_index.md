@@ -4,7 +4,7 @@ linktitle: TextColumnCollection
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.TextColumnCollection class. A collection of TextColumn objects that represent all the columns of text in a section of a document in C#.
 type: docs
-weight: 6200
+weight: 6210
 url: /net/aspose.words/textcolumncollection/
 ---
 ## TextColumnCollection class
@@ -32,7 +32,7 @@ public class TextColumnCollection
 
 | Name | Description |
 | --- | --- |
-| [SetCount](../../aspose.words/textcolumncollection/setcount/)(int) | Arranges text into the specified number of text columns. |
+| [SetCount](../../aspose.words/textcolumncollection/setcount/)(*int*) | Arranges text into the specified number of text columns. |
 
 ## Remarks
 

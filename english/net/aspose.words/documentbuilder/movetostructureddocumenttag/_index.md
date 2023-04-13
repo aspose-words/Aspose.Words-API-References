@@ -7,7 +7,7 @@ type: docs
 weight: 580
 url: /net/aspose.words/documentbuilder/movetostructureddocumenttag/
 ---
-## MoveToStructuredDocumentTag(int, int) {#movetostructureddocumenttag_1}
+## MoveToStructuredDocumentTag(*int, int*) {#movetostructureddocumenttag_1}
 
 Moves the cursor to a structured document tag in the current section.
 
@@ -63,7 +63,7 @@ doc.Save(ArtifactsDir + "Document.MoveToStructuredDocumentTag.docx");
 
 ---
 
-## MoveToStructuredDocumentTag([StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/), int) {#movetostructureddocumenttag}
+## MoveToStructuredDocumentTag(*[StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/), int*) {#movetostructureddocumenttag}
 
 Moves the cursor to the structured document tag.
 

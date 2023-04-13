@@ -7,7 +7,7 @@ type: docs
 weight: 250
 url: /net/aspose.words.drawing/fill/twocolorgradient/
 ---
-## TwoColorGradient(GradientStyle, GradientVariant) {#twocolorgradient}
+## TwoColorGradient(*[GradientStyle](../../gradientstyle/), [GradientVariant](../../gradientvariant/)*) {#twocolorgradient}
 
 Sets the specified fill to a two-color gradient.
 
@@ -68,7 +68,7 @@ doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);
 
 ---
 
-## TwoColorGradient(Color, Color, GradientStyle, GradientVariant) {#twocolorgradient_1}
+## TwoColorGradient(*Color, Color, [GradientStyle](../../gradientstyle/), [GradientVariant](../../gradientvariant/)*) {#twocolorgradient_1}
 
 Sets the specified fill to a two-color gradient.
 

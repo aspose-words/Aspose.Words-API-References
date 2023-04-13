@@ -4,7 +4,7 @@ linktitle: ReportingEngine
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Reporting.ReportingEngine class. Provides routines to populate template documents with data and a set of settings to control these routines in C#.
 type: docs
-weight: 4540
+weight: 4550
 url: /net/aspose.words.reporting/reportingengine/
 ---
 ## ReportingEngine class
@@ -35,10 +35,10 @@ public class ReportingEngine
 
 | Name | Description |
 | --- | --- |
-| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport)(Document, object) | Populates the specified template document with data from the specified source making it a ready report. |
-| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport_1)(Document, object, string) | Populates the specified template document with data from the specified source making it a ready report. |
-| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport_2)(Document, object[], string[]) | Populates the specified template document with data from the specified sources making it a ready report. |
-| [Equals](../../aspose.words.reporting/reportingengine/equals/)(object) | Determines whether the specified object is equal in value to the current object. |
+| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport)(*[Document](../../aspose.words/document/), object*) | Populates the specified template document with data from the specified source making it a ready report. |
+| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport_1)(*[Document](../../aspose.words/document/), object, string*) | Populates the specified template document with data from the specified source making it a ready report. |
+| [BuildReport](../../aspose.words.reporting/reportingengine/buildreport/#buildreport_2)(*[Document](../../aspose.words/document/), object[], string[]*) | Populates the specified template document with data from the specified sources making it a ready report. |
+| [Equals](../../aspose.words.reporting/reportingengine/equals/)(*object*) | Determines whether the specified object is equal in value to the current object. |
 | [GetHashCode](../../aspose.words.reporting/reportingengine/gethashcode/)() | Serves as a hash function for this type. |
 
 ### See Also

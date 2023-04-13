@@ -4,7 +4,7 @@ linktitle: StyleCollection
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.StyleCollection class. A collection of Style objects that represent both the builtin and userdefined styles in a document in C#.
 type: docs
-weight: 5940
+weight: 5950
 url: /net/aspose.words/stylecollection/
 ---
 ## StyleCollection class
@@ -31,8 +31,8 @@ public class StyleCollection : IEnumerable<Style>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.words/stylecollection/add/)(StyleType, string) | Creates a new user defined style and adds it the collection. |
-| [AddCopy](../../aspose.words/stylecollection/addcopy/)(Style) | Copies a style into this collection. |
+| [Add](../../aspose.words/stylecollection/add/)(*[StyleType](../styletype/), string*) | Creates a new user defined style and adds it the collection. |
+| [AddCopy](../../aspose.words/stylecollection/addcopy/)(*[Style](../style/)*) | Copies a style into this collection. |
 | [ClearQuickStyleGallery](../../aspose.words/stylecollection/clearquickstylegallery/)() | Removes all styles from the Quick Style Gallery panel. |
 | [GetEnumerator](../../aspose.words/stylecollection/getenumerator/)() | Gets an enumerator object that will enumerate styles in the alphabetical order of their names. |
 

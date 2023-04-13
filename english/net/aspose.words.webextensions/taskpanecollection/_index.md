@@ -4,7 +4,7 @@ linktitle: TaskPaneCollection
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.WebExtensions.TaskPaneCollection class. Specifies a list of persisted task pane objects in C#.
 type: docs
-weight: 6520
+weight: 6530
 url: /net/aspose.words.webextensions/taskpanecollection/
 ---
 ## TaskPaneCollection class
@@ -28,10 +28,10 @@ public class TaskPaneCollection : BaseWebExtensionCollection<TaskPane>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(TaskPane) |  |
+| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(*[TaskPane](../taskpane/)*) |  |
 | [Clear](../../aspose.words.webextensions/basewebextensioncollection-1/clear/)() |  |
 | [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection-1/getenumerator/)() |  |
-| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(int) |  |
+| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(*int*) |  |
 
 ## Examples
 

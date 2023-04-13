@@ -21,14 +21,14 @@ public static class DigitalSignatureUtil
 
 | Name | Description |
 | --- | --- |
-| static [LoadSignatures](../../aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/#loadsignatures)(Stream) | Loads digital signatures from document using stream. |
-| static [LoadSignatures](../../aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/#loadsignatures_1)(string) | Loads digital signatures from document. |
-| static [RemoveAllSignatures](../../aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/#removeallsignatures)(Stream, Stream) | Removes all digital signatures from document in source stream and writes unsigned document to destination stream. |
-| static [RemoveAllSignatures](../../aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/#removeallsignatures_1)(string, string) | Removes all digital signatures from source file and writes unsigned file to destination file. |
-| static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign)(Stream, Stream, CertificateHolder) | Signs source document using given [`CertificateHolder`](../certificateholder/) with digital signature and writes signed document to destination stream. |
-| static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign_2)(string, string, CertificateHolder) | Signs source document using given [`CertificateHolder`](../certificateholder/) with digital signature and writes signed document to destination file. |
-| static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign_1)(Stream, Stream, CertificateHolder, SignOptions) | Signs source document using given [`CertificateHolder`](../certificateholder/) and [`SignOptions`](../signoptions/) with digital signature and writes signed document to destination stream. |
-| static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign_3)(string, string, CertificateHolder, SignOptions) | Signs source document using given [`CertificateHolder`](../certificateholder/) and [`SignOptions`](../signoptions/) with digital signature and writes signed document to destination file. |
+| static [LoadSignatures](../../aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/#loadsignatures)(*Stream*) | Loads digital signatures from document using stream. |
+| static [LoadSignatures](../../aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/#loadsignatures_1)(*string*) | Loads digital signatures from document. |
+| static [RemoveAllSignatures](../../aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/#removeallsignatures)(*Stream, Stream*) | Removes all digital signatures from document in source stream and writes unsigned document to destination stream. |
+| static [RemoveAllSignatures](../../aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/#removeallsignatures_1)(*string, string*) | Removes all digital signatures from source file and writes unsigned file to destination file. |
+| static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign)(*Stream, Stream, [CertificateHolder](../certificateholder/)*) | Signs source document using given [`CertificateHolder`](../certificateholder/) with digital signature and writes signed document to destination stream. |
+| static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign_2)(*string, string, [CertificateHolder](../certificateholder/)*) | Signs source document using given [`CertificateHolder`](../certificateholder/) with digital signature and writes signed document to destination file. |
+| static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign_1)(*Stream, Stream, [CertificateHolder](../certificateholder/), [SignOptions](../signoptions/)*) | Signs source document using given [`CertificateHolder`](../certificateholder/) and [`SignOptions`](../signoptions/) with digital signature and writes signed document to destination stream. |
+| static [Sign](../../aspose.words.digitalsignatures/digitalsignatureutil/sign/#sign_3)(*string, string, [CertificateHolder](../certificateholder/), [SignOptions](../signoptions/)*) | Signs source document using given [`CertificateHolder`](../certificateholder/) and [`SignOptions`](../signoptions/) with digital signature and writes signed document to destination file. |
 
 ## Remarks
 
