@@ -4,7 +4,7 @@ linktitle: FieldBuilder
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FieldBuilder class. Builds a field from field code tokens arguments and switches in C#.
 type: docs
-weight: 1540
+weight: 1550
 url: /net/aspose.words.fields/fieldbuilder/
 ---
 ## FieldBuilder class

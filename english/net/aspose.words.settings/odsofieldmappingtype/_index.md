@@ -4,7 +4,7 @@ linktitle: OdsoFieldMappingType
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Settings.OdsoFieldMappingType enum. Specifies the possible types used to indicate if a given mail merge field has been mapped to a column in the given external data source in C#.
 type: docs
-weight: 5720
+weight: 5730
 url: /net/aspose.words.settings/odsofieldmappingtype/
 ---
 ## OdsoFieldMappingType enumeration

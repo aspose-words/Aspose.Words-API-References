@@ -7,7 +7,7 @@ type: docs
 weight: 440
 url: /net/aspose.words/documentbuilder/insertsignatureline/
 ---
-## InsertSignatureLine([SignatureLineOptions](../../signaturelineoptions/)) {#insertsignatureline}
+## InsertSignatureLine(SignatureLineOptions) {#insertsignatureline}
 
 Inserts a signature line at the current position.
 
@@ -83,7 +83,7 @@ Assert.True(signatureLine.IsValid);
 
 ---
 
-## InsertSignatureLine([SignatureLineOptions](../../signaturelineoptions/), [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, [WrapType](../../../aspose.words.drawing/wraptype/)) {#insertsignatureline_1}
+## InsertSignatureLine(SignatureLineOptions, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, WrapType) {#insertsignatureline_1}
 
 Inserts a signature line at the specified position.
 

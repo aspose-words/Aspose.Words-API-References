@@ -63,7 +63,7 @@ doc.Save(ArtifactsDir + "Document.MoveToStructuredDocumentTag.docx");
 
 ---
 
-## MoveToStructuredDocumentTag([StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/), int) {#movetostructureddocumenttag}
+## MoveToStructuredDocumentTag(StructuredDocumentTag, int) {#movetostructureddocumenttag}
 
 Moves the cursor to the structured document tag.
 

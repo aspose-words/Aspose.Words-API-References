@@ -4,7 +4,7 @@ linktitle: Range
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Range class. Represents a contiguous area in a document in C#.
 type: docs
-weight: 4330
+weight: 4340
 url: /net/aspose.words/range/
 ---
 ## Range class

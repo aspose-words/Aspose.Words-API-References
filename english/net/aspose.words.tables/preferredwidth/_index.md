@@ -4,7 +4,7 @@ linktitle: PreferredWidth
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Tables.PreferredWidth class. Represents a value and its unit of measure that is used to specify the preferred width of a table or a cell in C#.
 type: docs
-weight: 6090
+weight: 6100
 url: /net/aspose.words.tables/preferredwidth/
 ---
 ## PreferredWidth class

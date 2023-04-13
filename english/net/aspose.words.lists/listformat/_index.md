@@ -4,7 +4,7 @@ linktitle: ListFormat
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Lists.ListFormat class. Allows to control what list formatting is applied to a paragraph in C#.
 type: docs
-weight: 3330
+weight: 3340
 url: /net/aspose.words.lists/listformat/
 ---
 ## ListFormat class

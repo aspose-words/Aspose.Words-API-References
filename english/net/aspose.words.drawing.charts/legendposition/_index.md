@@ -4,7 +4,7 @@ linktitle: LegendPosition
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Drawing.Charts.LegendPosition enum. Specifies the possible positions for a chart legend in C#.
 type: docs
-weight: 790
+weight: 800
 url: /net/aspose.words.drawing.charts/legendposition/
 ---
 ## LegendPosition enumeration

@@ -31,6 +31,7 @@ public class ChartSeries : IChartDataPoint
 | [LegendEntry](../../aspose.words.drawing.charts/chartseries/legendentry/) { get; } | Gets a legend entry for this chart series. |
 | [Marker](../../aspose.words.drawing.charts/chartseries/marker/) { get; } | Specifies a data marker. Marker is automatically created when requested. |
 | [Name](../../aspose.words.drawing.charts/chartseries/name/) { get; set; } | Gets or sets the name of the series, if name is not set explicitly it is generated using index. By default returns Series plus one based index. |
+| [SeriesType](../../aspose.words.drawing.charts/chartseries/seriestype/) { get; } |  |
 | [Smooth](../../aspose.words.drawing.charts/chartseries/smooth/) { get; set; } | Allows to specify whether the line connecting the points on the chart shall be smoothed using Catmull-Rom splines. |
 
 ## Examples

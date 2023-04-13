@@ -4,7 +4,7 @@ linktitle: Fill
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Drawing.Fill class. Represents fill formatting for an object in C#.
 type: docs
-weight: 830
+weight: 840
 url: /net/aspose.words.drawing/fill/
 ---
 ## Fill class

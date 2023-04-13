@@ -4,7 +4,7 @@ linktitle: PsSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Saving.PsSaveOptions class. Can be used to specify additional options when saving a document into the Ps format in C#.
 type: docs
-weight: 5360
+weight: 5370
 url: /net/aspose.words.saving/pssaveoptions/
 ---
 ## PsSaveOptions class

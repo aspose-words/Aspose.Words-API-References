@@ -7,7 +7,7 @@ type: docs
 weight: 320
 url: /net/aspose.words/documentbuilder/insertfield/
 ---
-## InsertField([FieldType](../../../aspose.words.fields/fieldtype/), bool) {#insertfield}
+## InsertField(FieldType, bool) {#insertfield}
 
 Inserts a Word field into a document and optionally updates the field result.
 

@@ -4,7 +4,7 @@ linktitle: TxtExportHeadersFootersMode
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Saving.TxtExportHeadersFootersMode enum. Specifies the way headers and footers are exported to plain text format in C#.
 type: docs
-weight: 5450
+weight: 5460
 url: /net/aspose.words.saving/txtexportheadersfootersmode/
 ---
 ## TxtExportHeadersFootersMode enumeration

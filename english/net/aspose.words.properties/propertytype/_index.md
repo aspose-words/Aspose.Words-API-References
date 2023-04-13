@@ -4,7 +4,7 @@ linktitle: PropertyType
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Properties.PropertyType enum. Specifies data type of a document property in C#.
 type: docs
-weight: 4310
+weight: 4320
 url: /net/aspose.words.properties/propertytype/
 ---
 ## PropertyType enumeration

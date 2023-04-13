@@ -4,7 +4,7 @@ linktitle: FieldBarcode
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FieldBarcode class. Implements the BARCODE field in C#.
 type: docs
-weight: 1510
+weight: 1520
 url: /net/aspose.words.fields/fieldbarcode/
 ---
 ## FieldBarcode class

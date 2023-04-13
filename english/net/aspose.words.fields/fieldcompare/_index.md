@@ -4,7 +4,7 @@ linktitle: FieldCompare
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FieldCompare class. Implements the COMPARE field in C#.
 type: docs
-weight: 1590
+weight: 1600
 url: /net/aspose.words.fields/fieldcompare/
 ---
 ## FieldCompare class

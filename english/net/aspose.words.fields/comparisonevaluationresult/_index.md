@@ -4,7 +4,7 @@ linktitle: ComparisonEvaluationResult
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.ComparisonEvaluationResult class. The comparison evaluation result in C#.
 type: docs
-weight: 1360
+weight: 1370
 url: /net/aspose.words.fields/comparisonevaluationresult/
 ---
 ## ComparisonEvaluationResult class

@@ -4,7 +4,7 @@ linktitle: FieldFormCheckBox
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FieldFormCheckBox class. Implements the FORMCHECKBOX field in C#.
 type: docs
-weight: 1790
+weight: 1800
 url: /net/aspose.words.fields/fieldformcheckbox/
 ---
 ## FieldFormCheckBox class

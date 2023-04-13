@@ -22,7 +22,7 @@ public class DocumentBuilder
 | Name | Description |
 | --- | --- |
 | [DocumentBuilder](documentbuilder/#constructor)() | Initializes a new instance of this class. |
-| [DocumentBuilder](documentbuilder/#constructor_1)([Document](../document/)) | Initializes a new instance of this class. |
+| [DocumentBuilder](documentbuilder/#constructor_1)(Document) | Initializes a new instance of this class. |
 
 ## Properties
 
@@ -55,27 +55,27 @@ public class DocumentBuilder
 | [EndBookmark](../../aspose.words/documentbuilder/endbookmark/)(string) | Marks the current position in the document as a bookmark end. |
 | [EndColumnBookmark](../../aspose.words/documentbuilder/endcolumnbookmark/)(string) | Marks the current position in the document as a column bookmark end. The position must be in a table cell. |
 | [EndEditableRange](../../aspose.words/documentbuilder/endeditablerange/#endeditablerange)() | Marks the current position in the document as an editable range end. |
-| [EndEditableRange](../../aspose.words/documentbuilder/endeditablerange/#endeditablerange_1)([EditableRangeStart](../editablerangestart/)) | Marks the current position in the document as an editable range end. |
+| [EndEditableRange](../../aspose.words/documentbuilder/endeditablerange/#endeditablerange_1)(EditableRangeStart) | Marks the current position in the document as an editable range end. |
 | [EndRow](../../aspose.words/documentbuilder/endrow/)() | Ends a table row in the document. |
 | [EndTable](../../aspose.words/documentbuilder/endtable/)() | Ends a table in the document. |
-| [InsertBreak](../../aspose.words/documentbuilder/insertbreak/)([BreakType](../breaktype/)) | Inserts a break of the specified type into the document. |
+| [InsertBreak](../../aspose.words/documentbuilder/insertbreak/)(BreakType) | Inserts a break of the specified type into the document. |
 | [InsertCell](../../aspose.words/documentbuilder/insertcell/)() | Inserts a table cell into the document. |
-| [InsertChart](../../aspose.words/documentbuilder/insertchart/#insertchart_1)([ChartType](../../aspose.words.drawing.charts/charttype/), double, double) | Inserts an chart object into the document and scales it to the specified size. |
-| [InsertChart](../../aspose.words/documentbuilder/insertchart/#insertchart)([ChartType](../../aspose.words.drawing.charts/charttype/), [RelativeHorizontalPosition](../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../aspose.words.drawing/wraptype/)) | Inserts an chart object into the document and scales it to the specified size. |
+| [InsertChart](../../aspose.words/documentbuilder/insertchart/#insertchart_1)(ChartType, double, double) | Inserts an chart object into the document and scales it to the specified size. |
+| [InsertChart](../../aspose.words/documentbuilder/insertchart/#insertchart)(ChartType, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Inserts an chart object into the document and scales it to the specified size. |
 | [InsertCheckBox](../../aspose.words/documentbuilder/insertcheckbox/#insertcheckbox_1)(string, bool, int) | Inserts a checkbox form field at the current position. |
 | [InsertCheckBox](../../aspose.words/documentbuilder/insertcheckbox/#insertcheckbox)(string, bool, bool, int) | Inserts a checkbox form field at the current position. |
 | [InsertComboBox](../../aspose.words/documentbuilder/insertcombobox/)(string, string[], int) | Inserts a combobox form field at the current position. |
-| **[InsertDocument](../../aspose.words/documentbuilder/insertdocument/#insertdocument)**(*[Document](../document/)*, *[ImportFormatMode](../importformatmode/)*) | Inserts a document at the cursor position. |
-| [InsertDocument](../../aspose.words/documentbuilder/insertdocument/#insertdocument_1)([Document](../document/), [ImportFormatMode](../importformatmode/), [ImportFormatOptions](../importformatoptions/)) | Inserts a document at the cursor position. |
+| [InsertDocument](../../aspose.words/documentbuilder/insertdocument/#insertdocument)(Document, ImportFormatMode) | Inserts a document at the cursor position. |
+| [InsertDocument](../../aspose.words/documentbuilder/insertdocument/#insertdocument_1)(Document, ImportFormatMode, ImportFormatOptions) | Inserts a document at the cursor position. |
 | [InsertField](../../aspose.words/documentbuilder/insertfield/#insertfield_1)(string) | Inserts a Word field into a document and updates the field result. |
-| [InsertField](../../aspose.words/documentbuilder/insertfield/#insertfield)([FieldType](../../aspose.words.fields/fieldtype/), bool) | Inserts a Word field into a document and optionally updates the field result. |
+| [InsertField](../../aspose.words/documentbuilder/insertfield/#insertfield)(FieldType, bool) | Inserts a Word field into a document and optionally updates the field result. |
 | [InsertField](../../aspose.words/documentbuilder/insertfield/#insertfield_2)(string, string) | Inserts a Word field into a document without updating the field result. |
-| [InsertFootnote](../../aspose.words/documentbuilder/insertfootnote/#insertfootnote)(*[FootnoteType](../../aspose.words.notes/footnotetype/)*, *string*) | Inserts a footnote or endnote into the document. |
-| [InsertFootnote](../../aspose.words/documentbuilder/insertfootnote/#insertfootnote_1)([`FootnoteType`](../../aspose.words.notes/footnotetype/), `string`, `string`) | Inserts a footnote or endnote into the document. |
+| [InsertFootnote](../../aspose.words/documentbuilder/insertfootnote/#insertfootnote)(FootnoteType, string) | Inserts a footnote or endnote into the document. |
+| [InsertFootnote](../../aspose.words/documentbuilder/insertfootnote/#insertfootnote_1)(FootnoteType, string, string) | Inserts a footnote or endnote into the document. |
 | [InsertHorizontalRule](../../aspose.words/documentbuilder/inserthorizontalrule/)() | Inserts a horizontal rule shape into the document. |
 | [InsertHtml](../../aspose.words/documentbuilder/inserthtml/#inserthtml)(string) | Inserts an HTML string into the document. |
 | [InsertHtml](../../aspose.words/documentbuilder/inserthtml/#inserthtml_2)(string, bool) | Inserts an HTML string into the document. |
-| [InsertHtml](../../aspose.words/documentbuilder/inserthtml/#inserthtml_1)(string, [HtmlInsertOptions](../htmlinsertoptions/)) | Inserts an HTML string into the document. Allows to specify additional options. |
+| [InsertHtml](../../aspose.words/documentbuilder/inserthtml/#inserthtml_1)(string, HtmlInsertOptions) | Inserts an HTML string into the document. Allows to specify additional options. |
 | [InsertHyperlink](../../aspose.words/documentbuilder/inserthyperlink/)(string, string, bool) | Inserts a hyperlink into the document. |
 | [InsertImage](../../aspose.words/documentbuilder/insertimage/#insertimage)(byte[]) | Inserts an image from a byte array into the document. The image is inserted inline and at 100% scale. |
 | [InsertImage](../../aspose.words/documentbuilder/insertimage/#insertimage_3)(Image) | Inserts an image from a .NET Image object into the document. The image is inserted inline and at 100% scale. |
@@ -85,11 +85,11 @@ public class DocumentBuilder
 | [InsertImage](../../aspose.words/documentbuilder/insertimage/#insertimage_5)(Image, double, double) | Inserts an inline image from a .NET Image object into the document and scales it to the specified size. |
 | [InsertImage](../../aspose.words/documentbuilder/insertimage/#insertimage_8)(Stream, double, double) | Inserts an inline image from a stream into the document and scales it to the specified size. |
 | [InsertImage](../../aspose.words/documentbuilder/insertimage/#insertimage_11)(string, double, double) | Inserts an inline image from a file or URL into the document and scales it to the specified size. |
-| [InsertImage](../../aspose.words/documentbuilder/insertimage/#insertimage_1)(byte[], [RelativeHorizontalPosition](../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../aspose.words.drawing/wraptype/)) | Inserts an image from a byte array at the specified position and size. |
-| [InsertImage](../../aspose.words/documentbuilder/insertimage/#insertimage_4)(Image, [RelativeHorizontalPosition](../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../aspose.words.drawing/wraptype/)) | Inserts an image from a .NET Image object at the specified position and size. |
-| [InsertImage](../../aspose.words/documentbuilder/insertimage/#insertimage_7)(Stream, [RelativeHorizontalPosition](../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../aspose.words.drawing/wraptype/)) | Inserts an image from a stream at the specified position and size. |
-| [InsertImage](../../aspose.words/documentbuilder/insertimage/#insertimage_10)(string, [RelativeHorizontalPosition](../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../aspose.words.drawing/wraptype/)) | Inserts an image from a file or URL at the specified position and size. |
-| [InsertNode](../../aspose.words/documentbuilder/insertnode/)([Node](../node/)) | Inserts a node before the cursor. |
+| [InsertImage](../../aspose.words/documentbuilder/insertimage/#insertimage_1)(byte[], RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Inserts an image from a byte array at the specified position and size. |
+| [InsertImage](../../aspose.words/documentbuilder/insertimage/#insertimage_4)(Image, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Inserts an image from a .NET Image object at the specified position and size. |
+| [InsertImage](../../aspose.words/documentbuilder/insertimage/#insertimage_7)(Stream, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Inserts an image from a stream at the specified position and size. |
+| [InsertImage](../../aspose.words/documentbuilder/insertimage/#insertimage_10)(string, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Inserts an image from a file or URL at the specified position and size. |
+| [InsertNode](../../aspose.words/documentbuilder/insertnode/)(Node) | Inserts a node before the cursor. |
 | [InsertOleObject](../../aspose.words/documentbuilder/insertoleobject/#insertoleobject)(Stream, string, bool, Stream) | Inserts an embedded OLE object from a stream into the document. |
 | [InsertOleObject](../../aspose.words/documentbuilder/insertoleobject/#insertoleobject_1)(string, bool, bool, Stream) | Inserts an embedded or linked OLE object from a file into the document. Detects OLE object type using file extension. |
 | [InsertOleObject](../../aspose.words/documentbuilder/insertoleobject/#insertoleobject_2)(string, string, bool, bool, Stream) | Inserts an embedded or linked OLE object from a file into the document. Detects OLE object type using given progID parameter. |
@@ -98,30 +98,30 @@ public class DocumentBuilder
 | [InsertOleObjectAsIcon](../../aspose.words/documentbuilder/insertoleobjectasicon/#insertoleobjectasicon_2)(string, string, bool, string, string) | Inserts an embedded or linked OLE object as icon into the document. Allows to specify icon file and caption. Detects OLE object type using given progID parameter. |
 | [InsertOnlineVideo](../../aspose.words/documentbuilder/insertonlinevideo/#insertonlinevideo_1)(string, double, double) | Inserts an online video object into the document and scales it to the specified size. |
 | [InsertOnlineVideo](../../aspose.words/documentbuilder/insertonlinevideo/#insertonlinevideo_3)(string, string, byte[], double, double) | Inserts an online video object into the document and scales it to the specified size. |
-| [InsertOnlineVideo](../../aspose.words/documentbuilder/insertonlinevideo/#insertonlinevideo)(string, [RelativeHorizontalPosition](../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../aspose.words.drawing/wraptype/)) | Inserts an online video object into the document and scales it to the specified size. |
-| [InsertOnlineVideo](../../aspose.words/documentbuilder/insertonlinevideo/#insertonlinevideo_2)(string, string, byte[], [RelativeHorizontalPosition](../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../aspose.words.drawing/wraptype/)) | Inserts an online video object into the document and scales it to the specified size. |
+| [InsertOnlineVideo](../../aspose.words/documentbuilder/insertonlinevideo/#insertonlinevideo)(string, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Inserts an online video object into the document and scales it to the specified size. |
+| [InsertOnlineVideo](../../aspose.words/documentbuilder/insertonlinevideo/#insertonlinevideo_2)(string, string, byte[], RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Inserts an online video object into the document and scales it to the specified size. |
 | [InsertParagraph](../../aspose.words/documentbuilder/insertparagraph/)() | Inserts a paragraph break into the document. |
-| [InsertShape](../../aspose.words/documentbuilder/insertshape/#insertshape_1)([ShapeType](../../aspose.words.drawing/shapetype/), double, double) | Inserts inline shape with specified type and size. |
-| [InsertShape](../../aspose.words/documentbuilder/insertshape/#insertshape)([ShapeType](../../aspose.words.drawing/shapetype/), [RelativeHorizontalPosition](../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../aspose.words.drawing/wraptype/)) | Inserts free-floating shape with specified position, size and text wrap type. |
-| [InsertSignatureLine](../../aspose.words/documentbuilder/insertsignatureline/#insertsignatureline)([SignatureLineOptions](../signaturelineoptions/)) | Inserts a signature line at the current position. |
-| [InsertSignatureLine](../../aspose.words/documentbuilder/insertsignatureline/#insertsignatureline_1)([SignatureLineOptions](../signaturelineoptions/), [RelativeHorizontalPosition](../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../aspose.words.drawing/relativeverticalposition/), double, [WrapType](../../aspose.words.drawing/wraptype/)) | Inserts a signature line at the specified position. |
+| [InsertShape](../../aspose.words/documentbuilder/insertshape/#insertshape_1)(ShapeType, double, double) | Inserts inline shape with specified type and size. |
+| [InsertShape](../../aspose.words/documentbuilder/insertshape/#insertshape)(ShapeType, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Inserts free-floating shape with specified position, size and text wrap type. |
+| [InsertSignatureLine](../../aspose.words/documentbuilder/insertsignatureline/#insertsignatureline)(SignatureLineOptions) | Inserts a signature line at the current position. |
+| [InsertSignatureLine](../../aspose.words/documentbuilder/insertsignatureline/#insertsignatureline_1)(SignatureLineOptions, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, WrapType) | Inserts a signature line at the specified position. |
 | [InsertStyleSeparator](../../aspose.words/documentbuilder/insertstyleseparator/)() | Inserts style separator into the document. |
 | [InsertTableOfContents](../../aspose.words/documentbuilder/inserttableofcontents/)(string) | Inserts a TOC (table of contents) field into the document. |
-| [InsertTextInput](../../aspose.words/documentbuilder/inserttextinput/)(string, [TextFormFieldType](../../aspose.words.fields/textformfieldtype/), string, string, int) | Inserts a text form field at the current position. |
-| [MoveTo](../../aspose.words/documentbuilder/moveto/)([Node](../node/)) | Moves the cursor to an inline node or to the end of a paragraph. |
+| [InsertTextInput](../../aspose.words/documentbuilder/inserttextinput/)(string, TextFormFieldType, string, string, int) | Inserts a text form field at the current position. |
+| [MoveTo](../../aspose.words/documentbuilder/moveto/)(Node) | Moves the cursor to an inline node or to the end of a paragraph. |
 | [MoveToBookmark](../../aspose.words/documentbuilder/movetobookmark/#movetobookmark)(string) | Moves the cursor to a bookmark. |
 | [MoveToBookmark](../../aspose.words/documentbuilder/movetobookmark/#movetobookmark_1)(string, bool, bool) | Moves the cursor to a bookmark with greater precision. |
 | [MoveToCell](../../aspose.words/documentbuilder/movetocell/)(int, int, int, int) | Moves the cursor to a table cell in the current section. |
 | [MoveToDocumentEnd](../../aspose.words/documentbuilder/movetodocumentend/)() | Moves the cursor to the end of the document. |
 | [MoveToDocumentStart](../../aspose.words/documentbuilder/movetodocumentstart/)() | Moves the cursor to the beginning of the document. |
-| [MoveToField](../../aspose.words/documentbuilder/movetofield/)([Field](../../aspose.words.fields/field/), bool) | Moves the cursor to a field in the document. |
-| [MoveToHeaderFooter](../../aspose.words/documentbuilder/movetoheaderfooter/)([HeaderFooterType](../headerfootertype/)) | Moves the cursor to the beginning of a header or footer in the current section. |
+| [MoveToField](../../aspose.words/documentbuilder/movetofield/)(Field, bool) | Moves the cursor to a field in the document. |
+| [MoveToHeaderFooter](../../aspose.words/documentbuilder/movetoheaderfooter/)(HeaderFooterType) | Moves the cursor to the beginning of a header or footer in the current section. |
 | [MoveToMergeField](../../aspose.words/documentbuilder/movetomergefield/#movetomergefield)(string) | Moves the cursor to a position just beyond the specified merge field and removes the merge field. |
 | [MoveToMergeField](../../aspose.words/documentbuilder/movetomergefield/#movetomergefield_1)(string, bool, bool) | Moves the merge field to the specified merge field. |
 | [MoveToParagraph](../../aspose.words/documentbuilder/movetoparagraph/)(int, int) | Moves the cursor to a paragraph in the current section. |
 | [MoveToSection](../../aspose.words/documentbuilder/movetosection/)(int) | Moves the cursor to the beginning of the body in a specified section. |
 | [MoveToStructuredDocumentTag](../../aspose.words/documentbuilder/movetostructureddocumenttag/#movetostructureddocumenttag_1)(int, int) | Moves the cursor to a structured document tag in the current section. |
-| [MoveToStructuredDocumentTag](../../aspose.words/documentbuilder/movetostructureddocumenttag/#movetostructureddocumenttag)([StructuredDocumentTag](../../aspose.words.markup/structureddocumenttag/), int) | Moves the cursor to the structured document tag. |
+| [MoveToStructuredDocumentTag](../../aspose.words/documentbuilder/movetostructureddocumenttag/#movetostructureddocumenttag)(StructuredDocumentTag, int) | Moves the cursor to the structured document tag. |
 | [PopFont](../../aspose.words/documentbuilder/popfont/)() | Retrieves character formatting previously saved on the stack. |
 | [PushFont](../../aspose.words/documentbuilder/pushfont/)() | Saves current character formatting onto the stack. |
 | [StartBookmark](../../aspose.words/documentbuilder/startbookmark/)(string) | Marks the current position in the document as a bookmark start. |

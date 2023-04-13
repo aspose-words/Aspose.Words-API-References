@@ -4,7 +4,7 @@ linktitle: HtmlVersion
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Saving.HtmlVersion enum. Indicates the version of HTML is used when saving the document to Html and Mhtml formats in C#.
 type: docs
-weight: 4930
+weight: 4940
 url: /net/aspose.words.saving/htmlversion/
 ---
 ## HtmlVersion enumeration

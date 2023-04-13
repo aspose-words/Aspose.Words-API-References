@@ -4,7 +4,7 @@ linktitle: CellCollection
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Tables.CellCollection class. Provides typed access to a collection of Cell nodes in C#.
 type: docs
-weight: 6050
+weight: 6060
 url: /net/aspose.words.tables/cellcollection/
 ---
 ## CellCollection class

@@ -4,7 +4,7 @@ linktitle: FieldAutoNumLgl
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FieldAutoNumLgl class. Implements the AUTONUMLGL field in C#.
 type: docs
-weight: 1470
+weight: 1480
 url: /net/aspose.words.fields/fieldautonumlgl/
 ---
 ## FieldAutoNumLgl class

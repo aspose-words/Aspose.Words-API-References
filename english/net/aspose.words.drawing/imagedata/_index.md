@@ -4,7 +4,7 @@ linktitle: ImageData
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Drawing.ImageData class. Defines an image for a shape in C#.
 type: docs
-weight: 940
+weight: 950
 url: /net/aspose.words.drawing/imagedata/
 ---
 ## ImageData class

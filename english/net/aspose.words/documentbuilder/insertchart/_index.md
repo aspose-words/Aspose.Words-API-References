@@ -7,7 +7,7 @@ type: docs
 weight: 280
 url: /net/aspose.words/documentbuilder/insertchart/
 ---
-## InsertChart([ChartType](../../../aspose.words.drawing.charts/charttype/), double, double) {#insertchart_1}
+## InsertChart(ChartType, double, double) {#insertchart_1}
 
 Inserts an chart object into the document and scales it to the specified size.
 
@@ -57,7 +57,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertPieChart.docx");
 
 ---
 
-## InsertChart([ChartType](../../../aspose.words.drawing.charts/charttype/), [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)) {#insertchart}
+## InsertChart(ChartType, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertchart}
 
 Inserts an chart object into the document and scales it to the specified size.
 

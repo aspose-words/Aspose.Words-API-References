@@ -4,7 +4,7 @@ linktitle: LayoutEntityType
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Layout.LayoutEntityType enum. Types of the layout entities in C#.
 type: docs
-weight: 3180
+weight: 3190
 url: /net/aspose.words.layout/layoutentitytype/
 ---
 ## LayoutEntityType enumeration

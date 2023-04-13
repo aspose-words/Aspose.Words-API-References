@@ -70,7 +70,7 @@ Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph
 
 ---
 
-## Document(`string`) {#constructor_3}
+## Document(string) {#constructor_3}
 
 Opens an existing document from a file. Automatically detects the file format.
 
@@ -152,7 +152,7 @@ Assert.AreEqual("Hello world!", textFragmentAbsorber.Text.Trim());
 
 ---
 
-## Document(`string`, [`LoadOptions`](../../../aspose.words.loading/loadoptions/)) {#constructor_4}
+## Document(string, LoadOptions) {#constructor_4}
 
 Opens an existing document from a file. Allows to specify additional options such as an encryption password.
 
@@ -232,7 +232,7 @@ Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph
 
 ---
 
-## Document(`Stream`) {#constructor_1}
+## Document(Stream) {#constructor_1}
 
 Opens an existing document from a stream. Automatically detects the file format.
 
@@ -308,7 +308,7 @@ using (HttpClient webClient = new HttpClient())
 
 ---
 
-## Document(`Stream`, [`LoadOptions`](../../../aspose.words.loading/loadoptions/)) {#constructor_2}
+## Document(Stream, LoadOptions) {#constructor_2}
 
 Opens an existing document from a stream. Allows to specify additional options such as an encryption password.
 

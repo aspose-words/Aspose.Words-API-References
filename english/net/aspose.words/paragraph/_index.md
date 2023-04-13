@@ -4,7 +4,7 @@ linktitle: Paragraph
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Paragraph class. Represents a paragraph of text in C#.
 type: docs
-weight: 4210
+weight: 4220
 url: /net/aspose.words/paragraph/
 ---
 ## Paragraph class

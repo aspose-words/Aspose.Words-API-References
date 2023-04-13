@@ -4,7 +4,7 @@ linktitle: ToaCategories
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.ToaCategories class. Represents a table of authorities categories in C#.
 type: docs
-weight: 2650
+weight: 2660
 url: /net/aspose.words.fields/toacategories/
 ---
 ## ToaCategories class

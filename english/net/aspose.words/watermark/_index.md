@@ -4,7 +4,7 @@ linktitle: Watermark
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Watermark class. Represents class to work with document watermark in C#.
 type: docs
-weight: 6470
+weight: 6480
 url: /net/aspose.words/watermark/
 ---
 ## Watermark class

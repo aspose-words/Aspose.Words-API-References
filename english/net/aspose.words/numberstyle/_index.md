@@ -4,7 +4,7 @@ linktitle: NumberStyle
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.NumberStyle enum. Specifies the number style for a list footnotes and endnotes page numbers in C#.
 type: docs
-weight: 4130
+weight: 4140
 url: /net/aspose.words/numberstyle/
 ---
 ## NumberStyle enumeration
