@@ -19,7 +19,7 @@ public interface IDocumentReaderPlugin
 
 | Name | Description |
 | --- | --- |
-| [Read](../../aspose.words/idocumentreaderplugin/read/)(Stream, LoadOptions, Document) | Reads the data from the specified stream into the [`Document`](../document/) instance. |
+| [Read](../../aspose.words/idocumentreaderplugin/read/)(*Stream, [LoadOptions](../../aspose.words.loading/loadoptions/), [Document](../document/)*) | Reads the data from the specified stream into the [`Document`](../document/) instance. |
 
 ### See Also
 

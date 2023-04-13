@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words/bookmarkcollection/remove/
 ---
-## Remove(Bookmark) {#remove}
+## Remove(*[Bookmark](../../bookmark/)*) {#remove}
 
 Removes the specified bookmark from the document.
 
@@ -86,7 +86,7 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 
 ---
 
-## Remove(string) {#remove_1}
+## Remove(*string*) {#remove_1}
 
 Removes a bookmark with the specified name.
 

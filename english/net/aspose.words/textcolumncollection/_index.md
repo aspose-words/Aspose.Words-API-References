@@ -32,7 +32,7 @@ public class TextColumnCollection
 
 | Name | Description |
 | --- | --- |
-| [SetCount](../../aspose.words/textcolumncollection/setcount/)(int) | Arranges text into the specified number of text columns. |
+| [SetCount](../../aspose.words/textcolumncollection/setcount/)(*int*) | Arranges text into the specified number of text columns. |
 
 ## Remarks
 

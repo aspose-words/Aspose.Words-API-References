@@ -22,7 +22,7 @@ public class XpsSaveOptions : FixedPageSaveOptions
 | Name | Description |
 | --- | --- |
 | [XpsSaveOptions](xpssaveoptions/#constructor)() | Initializes a new instance of this class that can be used to save a document in the Xps format. |
-| [XpsSaveOptions](xpssaveoptions/#constructor_1)(SaveFormat) | Initializes a new instance of this class that can be used to save a document in the Xps or OpenXps format. |
+| [XpsSaveOptions](xpssaveoptions/#constructor_1)(*[SaveFormat](../../aspose.words/saveformat/)*) | Initializes a new instance of this class that can be used to save a document in the Xps or OpenXps format. |
 
 ## Properties
 
@@ -61,7 +61,7 @@ public class XpsSaveOptions : FixedPageSaveOptions
 
 | Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals/)(object) | Determines whether the specified object is equal in value to the current object. |
+| override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals/)(*object*) | Determines whether the specified object is equal in value to the current object. |
 
 ## Examples
 

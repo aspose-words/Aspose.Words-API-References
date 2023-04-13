@@ -19,7 +19,7 @@ public interface IDocumentSavingCallback
 
 | Name | Description |
 | --- | --- |
-| [Notify](../../aspose.words.saving/idocumentsavingcallback/notify/)(DocumentSavingArgs) | This is called to notify of document saving progress. |
+| [Notify](../../aspose.words.saving/idocumentsavingcallback/notify/)(*[DocumentSavingArgs](../documentsavingargs/)*) | This is called to notify of document saving progress. |
 
 ## Examples
 

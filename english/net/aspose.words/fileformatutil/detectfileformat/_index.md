@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/fileformatutil/detectfileformat/
 ---
-## DetectFileFormat(string) {#detectfileformat_1}
+## DetectFileFormat(*string*) {#detectfileformat_1}
 
 Detects and returns the information about a format of a document stored in a disk file.
 
@@ -81,7 +81,7 @@ Assert.AreEqual(1, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "File.Dete
 
 ---
 
-## DetectFileFormat(Stream) {#detectfileformat}
+## DetectFileFormat(*Stream*) {#detectfileformat}
 
 Detects and returns the information about a format of a document stored in a stream.
 

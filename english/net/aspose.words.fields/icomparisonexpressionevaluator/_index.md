@@ -19,7 +19,7 @@ public interface IComparisonExpressionEvaluator
 
 | Name | Description |
 | --- | --- |
-| [Evaluate](../../aspose.words.fields/icomparisonexpressionevaluator/evaluate/)(Field, ComparisonExpression) | Evaluates comparison expression. |
+| [Evaluate](../../aspose.words.fields/icomparisonexpressionevaluator/evaluate/)(*[Field](../field/), [ComparisonExpression](../comparisonexpression/)*) | Evaluates comparison expression. |
 
 ### See Also
 

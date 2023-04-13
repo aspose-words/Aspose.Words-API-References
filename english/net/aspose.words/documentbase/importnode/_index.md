@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words/documentbase/importnode/
 ---
-## ImportNode(Node, bool) {#importnode}
+## ImportNode(*[Node](../../node/), bool*) {#importnode}
 
 Imports a node from another document to the current document.
 
@@ -74,7 +74,7 @@ Assert.AreEqual("Destination document first paragraph text.\r\nSource document f
 
 ---
 
-## ImportNode(Node, bool, ImportFormatMode) {#importnode_1}
+## ImportNode(*[Node](../../node/), bool, [ImportFormatMode](../../importformatmode/)*) {#importnode_1}
 
 Imports a node from another document to the current document with an option to control formatting.
 

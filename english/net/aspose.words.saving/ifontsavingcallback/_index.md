@@ -19,7 +19,7 @@ public interface IFontSavingCallback
 
 | Name | Description |
 | --- | --- |
-| [FontSaving](../../aspose.words.saving/ifontsavingcallback/fontsaving/)(FontSavingArgs) | Called when Aspose.Words is about to save a font resource. |
+| [FontSaving](../../aspose.words.saving/ifontsavingcallback/fontsaving/)(*[FontSavingArgs](../fontsavingargs/)*) | Called when Aspose.Words is about to save a font resource. |
 
 ## Examples
 

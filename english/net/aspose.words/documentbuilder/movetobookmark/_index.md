@@ -7,7 +7,7 @@ type: docs
 weight: 490
 url: /net/aspose.words/documentbuilder/movetobookmark/
 ---
-## MoveToBookmark(string) {#movetobookmark}
+## MoveToBookmark(*string*) {#movetobookmark}
 
 Moves the cursor to a bookmark.
 
@@ -92,7 +92,7 @@ Assert.IsTrue(builder.IsAtStartOfParagraph);
 
 ---
 
-## MoveToBookmark(string, bool, bool) {#movetobookmark_1}
+## MoveToBookmark(*string, bool, bool*) {#movetobookmark_1}
 
 Moves the cursor to a bookmark with greater precision.
 

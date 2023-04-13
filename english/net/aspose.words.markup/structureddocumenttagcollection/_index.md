@@ -28,12 +28,12 @@ public class StructuredDocumentTagCollection : IEnumerable<IStructuredDocumentTa
 
 | Name | Description |
 | --- | --- |
-| [GetById](../../aspose.words.markup/structureddocumenttagcollection/getbyid/)(int) | Returns the structured document tag by identifier. |
-| [GetByTag](../../aspose.words.markup/structureddocumenttagcollection/getbytag/)(string) | Returns the first structured document tag encountered in the collection with the specified tag. |
-| [GetByTitle](../../aspose.words.markup/structureddocumenttagcollection/getbytitle/)(string) | Returns the first structured document tag encountered in the collection with the specified title. |
+| [GetById](../../aspose.words.markup/structureddocumenttagcollection/getbyid/)(*int*) | Returns the structured document tag by identifier. |
+| [GetByTag](../../aspose.words.markup/structureddocumenttagcollection/getbytag/)(*string*) | Returns the first structured document tag encountered in the collection with the specified tag. |
+| [GetByTitle](../../aspose.words.markup/structureddocumenttagcollection/getbytitle/)(*string*) | Returns the first structured document tag encountered in the collection with the specified title. |
 | [GetEnumerator](../../aspose.words.markup/structureddocumenttagcollection/getenumerator/)() | Returns an enumerator object. |
-| [Remove](../../aspose.words.markup/structureddocumenttagcollection/remove/)(int) | Removes the structured document tag with the specified identifier. |
-| [RemoveAt](../../aspose.words.markup/structureddocumenttagcollection/removeat/)(int) | Removes a structured document tag at the specified index. |
+| [Remove](../../aspose.words.markup/structureddocumenttagcollection/remove/)(*int*) | Removes the structured document tag with the specified identifier. |
+| [RemoveAt](../../aspose.words.markup/structureddocumenttagcollection/removeat/)(*int*) | Removes a structured document tag at the specified index. |
 
 ### See Also
 

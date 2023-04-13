@@ -22,7 +22,7 @@ public class OoxmlSaveOptions : SaveOptions
 | Name | Description |
 | --- | --- |
 | [OoxmlSaveOptions](ooxmlsaveoptions/#constructor)() | Initializes a new instance of this class that can be used to save a document in the Docx format. |
-| [OoxmlSaveOptions](ooxmlsaveoptions/#constructor_1)(SaveFormat) | Initializes a new instance of this class that can be used to save a document in the Docx, Docm, Dotx, Dotm or FlatOpc format. |
+| [OoxmlSaveOptions](ooxmlsaveoptions/#constructor_1)(*[SaveFormat](../../aspose.words/saveformat/)*) | Initializes a new instance of this class that can be used to save a document in the Docx, Docm, Dotx, Dotm or FlatOpc format. |
 
 ## Properties
 

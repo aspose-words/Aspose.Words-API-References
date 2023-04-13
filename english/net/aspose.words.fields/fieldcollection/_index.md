@@ -30,8 +30,8 @@ public class FieldCollection : IEnumerable<Field>
 | --- | --- |
 | [Clear](../../aspose.words.fields/fieldcollection/clear/)() | Removes all fields of this collection from the document and from this collection itself. |
 | [GetEnumerator](../../aspose.words.fields/fieldcollection/getenumerator/)() | Returns an enumerator object. |
-| [Remove](../../aspose.words.fields/fieldcollection/remove/)(Field) | Removes the specified field from this collection and from the document. |
-| [RemoveAt](../../aspose.words.fields/fieldcollection/removeat/)(int) | Removes a field at the specified index from this collection and from the document. |
+| [Remove](../../aspose.words.fields/fieldcollection/remove/)(*[Field](../field/)*) | Removes the specified field from this collection and from the document. |
+| [RemoveAt](../../aspose.words.fields/fieldcollection/removeat/)(*int*) | Removes a field at the specified index from this collection and from the document. |
 
 ## Remarks
 

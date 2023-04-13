@@ -28,8 +28,8 @@ public sealed class VbaReferenceCollection : IEnumerable<VbaReference>
 
 | Name | Description |
 | --- | --- |
-| [Remove](../../aspose.words.vba/vbareferencecollection/remove/)(VbaReference) | Removes the first occurrence of a specified [`VbaReference`](../vbareference/) item from the collection. |
-| [RemoveAt](../../aspose.words.vba/vbareferencecollection/removeat/)(int) | Removes the [`VbaReference`](../vbareference/) element at the specified index of the collection. |
+| [Remove](../../aspose.words.vba/vbareferencecollection/remove/)(*[VbaReference](../vbareference/)*) | Removes the first occurrence of a specified [`VbaReference`](../vbareference/) item from the collection. |
+| [RemoveAt](../../aspose.words.vba/vbareferencecollection/removeat/)(*int*) | Removes the [`VbaReference`](../vbareference/) element at the specified index of the collection. |
 
 ## Examples
 

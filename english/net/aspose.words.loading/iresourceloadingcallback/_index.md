@@ -19,7 +19,7 @@ public interface IResourceLoadingCallback
 
 | Name | Description |
 | --- | --- |
-| [ResourceLoading](../../aspose.words.loading/iresourceloadingcallback/resourceloading/)(ResourceLoadingArgs) | Called when Aspose.Words loads any external resource. |
+| [ResourceLoading](../../aspose.words.loading/iresourceloadingcallback/resourceloading/)(*[ResourceLoadingArgs](../resourceloadingargs/)*) | Called when Aspose.Words loads any external resource. |
 
 ## Examples
 

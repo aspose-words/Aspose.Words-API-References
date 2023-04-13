@@ -22,7 +22,7 @@ public class HtmlSaveOptions : SaveOptions
 | Name | Description |
 | --- | --- |
 | [HtmlSaveOptions](htmlsaveoptions/#constructor)() | Initializes a new instance of this class that can be used to save a document in the Html format. |
-| [HtmlSaveOptions](htmlsaveoptions/#constructor_1)(SaveFormat) | Initializes a new instance of this class that can be used to save a document in the Html, Mhtml, Epub, Azw3 or Mobi format. |
+| [HtmlSaveOptions](htmlsaveoptions/#constructor_1)(*[SaveFormat](../../aspose.words/saveformat/)*) | Initializes a new instance of this class that can be used to save a document in the Html, Mhtml, Epub, Azw3 or Mobi format. |
 
 ## Properties
 

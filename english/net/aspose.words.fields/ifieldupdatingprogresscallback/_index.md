@@ -19,7 +19,7 @@ public interface IFieldUpdatingProgressCallback
 
 | Name | Description |
 | --- | --- |
-| [Notify](../../aspose.words.fields/ifieldupdatingprogresscallback/notify/)(FieldUpdatingProgressArgs) | A user defined method that is called when updating progress is changed. |
+| [Notify](../../aspose.words.fields/ifieldupdatingprogresscallback/notify/)(*[FieldUpdatingProgressArgs](../fieldupdatingprogressargs/)*) | A user defined method that is called when updating progress is changed. |
 
 ## Examples
 

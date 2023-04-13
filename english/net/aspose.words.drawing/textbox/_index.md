@@ -39,7 +39,7 @@ public class TextBox
 | Name | Description |
 | --- | --- |
 | [BreakForwardLink](../../aspose.words.drawing/textbox/breakforwardlink/)() | Breaks the link to the next `TextBox`. |
-| [IsValidLinkTarget](../../aspose.words.drawing/textbox/isvalidlinktarget/)(TextBox) | Determines whether this `TextBox` can be linked to the target `TextBox`. |
+| [IsValidLinkTarget](../../aspose.words.drawing/textbox/isvalidlinktarget/)(*TextBox*) | Determines whether this `TextBox` can be linked to the target `TextBox`. |
 
 ## Remarks
 

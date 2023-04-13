@@ -21,8 +21,8 @@ public class SdtListItem
 
 | Name | Description |
 | --- | --- |
-| [SdtListItem](sdtlistitem/#constructor)(string) | Initializes a new instance of this class. |
-| [SdtListItem](sdtlistitem/#constructor_1)(string, string) | Initializes a new instance of this class. |
+| [SdtListItem](sdtlistitem/#constructor)(*string*) | Initializes a new instance of this class. |
+| [SdtListItem](sdtlistitem/#constructor_1)(*string, string*) | Initializes a new instance of this class. |
 
 ## Properties
 

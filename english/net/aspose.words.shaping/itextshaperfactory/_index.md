@@ -19,8 +19,8 @@ public interface ITextShaperFactory
 
 | Name | Description |
 | --- | --- |
-| [GetTextShaper](../../aspose.words.shaping/itextshaperfactory/gettextshaper/#gettextshaper_1)(string, int) | Returns new instance of a text shaper for the font specified by *fontPath* and *faceIndex*. |
-| [GetTextShaper](../../aspose.words.shaping/itextshaperfactory/gettextshaper/#gettextshaper)(string, byte[], int) | Returns new instance of a text shaper for the font represented by *fontBlob* and *faceIndex*. |
+| [GetTextShaper](../../aspose.words.shaping/itextshaperfactory/gettextshaper/#gettextshaper_1)(*string, int*) | Returns new instance of a text shaper for the font specified by *fontPath* and *faceIndex*. |
+| [GetTextShaper](../../aspose.words.shaping/itextshaperfactory/gettextshaper/#gettextshaper)(*string, byte[], int*) | Returns new instance of a text shaper for the font represented by *fontBlob* and *faceIndex*. |
 
 ### See Also
 

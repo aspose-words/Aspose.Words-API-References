@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.shaping/cluster/getstring/
 ---
-## GetString(Cluster[])
+## GetString(*Cluster[]*)
 
 Creates String using codepoints from the specified clusters.
 

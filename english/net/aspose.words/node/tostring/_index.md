@@ -7,7 +7,7 @@ type: docs
 weight: 160
 url: /net/aspose.words/node/tostring/
 ---
-## ToString(SaveFormat) {#tostring_1}
+## ToString(*[SaveFormat](../../saveformat/)*) {#tostring_1}
 
 Exports the content of the node into a string in the specified format.
 
@@ -97,7 +97,7 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 
 ---
 
-## ToString(SaveOptions) {#tostring_2}
+## ToString(*[SaveOptions](../../../aspose.words.saving/saveoptions/)*) {#tostring_2}
 
 Exports the content of the node into a string using the specified save options.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.fonts/memoryfontsource/memoryfontsource/
 ---
-## MemoryFontSource(byte[]) {#constructor}
+## MemoryFontSource(*byte[]*) {#constructor}
 
 Ctor.
 
@@ -43,7 +43,7 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 
 ---
 
-## MemoryFontSource(byte[], int) {#constructor_1}
+## MemoryFontSource(*byte[], int*) {#constructor_1}
 
 Ctor.
 
@@ -80,7 +80,7 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 
 ---
 
-## MemoryFontSource(byte[], int, string) {#constructor_2}
+## MemoryFontSource(*byte[], int, string*) {#constructor_2}
 
 Ctor.
 

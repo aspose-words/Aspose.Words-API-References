@@ -21,7 +21,7 @@ public class ImageSaveOptions : FixedPageSaveOptions
 
 | Name | Description |
 | --- | --- |
-| [ImageSaveOptions](imagesaveoptions/)(SaveFormat) | Initializes a new instance of this class that can be used to save rendered images in the Tiff, Png, Bmp, Emf, Jpeg or Svg format. Png, Bmp, Jpeg or Svg format. |
+| [ImageSaveOptions](imagesaveoptions/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Initializes a new instance of this class that can be used to save rendered images in the Tiff, Png, Bmp, Emf, Jpeg or Svg format. Png, Bmp, Jpeg or Svg format. |
 
 ## Properties
 
@@ -73,7 +73,7 @@ public class ImageSaveOptions : FixedPageSaveOptions
 | Name | Description |
 | --- | --- |
 | [Clone](../../aspose.words.saving/imagesaveoptions/clone/)() | Creates a deep clone of this object. |
-| override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals/)(object) | Determines whether the specified object is equal in value to the current object. |
+| override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals/)(*object*) | Determines whether the specified object is equal in value to the current object. |
 
 ## Examples
 

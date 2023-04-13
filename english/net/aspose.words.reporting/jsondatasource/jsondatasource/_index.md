@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.reporting/jsondatasource/jsondatasource/
 ---
-## JsonDataSource(string) {#constructor_2}
+## JsonDataSource(*string*) {#constructor_2}
 
 Creates a new data source with data from a JSON file using default options for parsing JSON data.
 
@@ -27,7 +27,7 @@ public JsonDataSource(string jsonPath)
 
 ---
 
-## JsonDataSource(Stream) {#constructor}
+## JsonDataSource(*Stream*) {#constructor}
 
 Creates a new data source with data from a JSON stream using default options for parsing JSON data.
 
@@ -47,7 +47,7 @@ public JsonDataSource(Stream jsonStream)
 
 ---
 
-## JsonDataSource(string, JsonDataLoadOptions) {#constructor_3}
+## JsonDataSource(*string, [JsonDataLoadOptions](../../jsondataloadoptions/)*) {#constructor_3}
 
 Creates a new data source with data from a JSON file using the specified options for parsing JSON data.
 
@@ -69,7 +69,7 @@ public JsonDataSource(string jsonPath, JsonDataLoadOptions options)
 
 ---
 
-## JsonDataSource(Stream, JsonDataLoadOptions) {#constructor_1}
+## JsonDataSource(*Stream, [JsonDataLoadOptions](../../jsondataloadoptions/)*) {#constructor_1}
 
 Creates a new data source with data from a JSON stream using the specified options for parsing JSON data.
 

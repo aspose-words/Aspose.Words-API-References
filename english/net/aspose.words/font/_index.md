@@ -81,7 +81,7 @@ public class Font
 | Name | Description |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/font/clearformatting/)() | Resets to default font formatting. |
-| [HasDmlEffect](../../aspose.words/font/hasdmleffect/)(TextDmlEffect) | Checks if particular DrawingML text effect is applied. |
+| [HasDmlEffect](../../aspose.words/font/hasdmleffect/)(*[TextDmlEffect](../textdmleffect/)*) | Checks if particular DrawingML text effect is applied. |
 
 ## Remarks
 

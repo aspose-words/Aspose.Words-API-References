@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.reporting/xmldatasource/xmldatasource/
 ---
-## XmlDataSource(string) {#constructor_4}
+## XmlDataSource(*string*) {#constructor_4}
 
 Creates a new data source with data from an XML file using default options for XML data loading.
 
@@ -27,7 +27,7 @@ public XmlDataSource(string xmlPath)
 
 ---
 
-## XmlDataSource(Stream) {#constructor}
+## XmlDataSource(*Stream*) {#constructor}
 
 Creates a new data source with data from an XML stream using default options for XML data loading.
 
@@ -47,7 +47,7 @@ public XmlDataSource(Stream xmlStream)
 
 ---
 
-## XmlDataSource(string, string) {#constructor_6}
+## XmlDataSource(*string, string*) {#constructor_6}
 
 Creates a new data source with data from an XML file using an XML Schema Definition file. Default options are used for XML data loading.
 
@@ -68,7 +68,7 @@ public XmlDataSource(string xmlPath, string xmlSchemaPath)
 
 ---
 
-## XmlDataSource(Stream, Stream) {#constructor_2}
+## XmlDataSource(*Stream, Stream*) {#constructor_2}
 
 Creates a new data source with data from an XML stream using an XML Schema Definition stream. Default options are used for XML data loading.
 
@@ -89,7 +89,7 @@ public XmlDataSource(Stream xmlStream, Stream xmlSchemaStream)
 
 ---
 
-## XmlDataSource(string, XmlDataLoadOptions) {#constructor_5}
+## XmlDataSource(*string, [XmlDataLoadOptions](../../xmldataloadoptions/)*) {#constructor_5}
 
 Creates a new data source with data from an XML file using the specified options for XML data loading.
 
@@ -111,7 +111,7 @@ public XmlDataSource(string xmlPath, XmlDataLoadOptions options)
 
 ---
 
-## XmlDataSource(Stream, XmlDataLoadOptions) {#constructor_1}
+## XmlDataSource(*Stream, [XmlDataLoadOptions](../../xmldataloadoptions/)*) {#constructor_1}
 
 Creates a new data source with data from an XML stream using the specified options for XML data loading.
 
@@ -133,7 +133,7 @@ public XmlDataSource(Stream xmlStream, XmlDataLoadOptions options)
 
 ---
 
-## XmlDataSource(string, string, XmlDataLoadOptions) {#constructor_7}
+## XmlDataSource(*string, string, [XmlDataLoadOptions](../../xmldataloadoptions/)*) {#constructor_7}
 
 Creates a new data source with data from an XML file using an XML Schema Definition file. The specified options are used for XML data loading.
 
@@ -156,7 +156,7 @@ public XmlDataSource(string xmlPath, string xmlSchemaPath, XmlDataLoadOptions op
 
 ---
 
-## XmlDataSource(Stream, Stream, XmlDataLoadOptions) {#constructor_3}
+## XmlDataSource(*Stream, Stream, [XmlDataLoadOptions](../../xmldataloadoptions/)*) {#constructor_3}
 
 Creates a new data source with data from an XML stream using an XML Schema Definition stream. The specified options are used for XML data loading.
 

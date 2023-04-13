@@ -97,7 +97,7 @@ public class CompatibilityOptions
 
 | Name | Description |
 | --- | --- |
-| [OptimizeFor](../../aspose.words.settings/compatibilityoptions/optimizefor/)(MsWordVersion) | Allows to optimize the document contents as well as default Aspose.Words behavior to a particular versions of MS Word. |
+| [OptimizeFor](../../aspose.words.settings/compatibilityoptions/optimizefor/)(*[MsWordVersion](../mswordversion/)*) | Allows to optimize the document contents as well as default Aspose.Words behavior to a particular versions of MS Word. |
 
 ## Examples
 

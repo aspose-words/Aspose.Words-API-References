@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/watermark/setimage/
 ---
-## SetImage(Image) {#setimage}
+## SetImage(*Image*) {#setimage}
 
 Adds Image watermark into the document.
 
@@ -33,7 +33,7 @@ public void SetImage(Image image)
 
 ---
 
-## SetImage(Image, ImageWatermarkOptions) {#setimage_1}
+## SetImage(*Image, [ImageWatermarkOptions](../../imagewatermarkoptions/)*) {#setimage_1}
 
 Adds Image watermark into the document.
 
@@ -90,7 +90,7 @@ Document doc = new Document();
 
 ---
 
-## SetImage(string, ImageWatermarkOptions) {#setimage_2}
+## SetImage(*string, [ImageWatermarkOptions](../../imagewatermarkoptions/)*) {#setimage_2}
 
 Adds Image watermark into the document.
 

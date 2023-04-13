@@ -19,8 +19,8 @@ public interface IFieldUpdatingCallback
 
 | Name | Description |
 | --- | --- |
-| [FieldUpdated](../../aspose.words.fields/ifieldupdatingcallback/fieldupdated/)(Field) | A user defined method that is called just after a field is updated. |
-| [FieldUpdating](../../aspose.words.fields/ifieldupdatingcallback/fieldupdating/)(Field) | A user defined method that is called just before a field is updated. |
+| [FieldUpdated](../../aspose.words.fields/ifieldupdatingcallback/fieldupdated/)(*[Field](../field/)*) | A user defined method that is called just after a field is updated. |
+| [FieldUpdating](../../aspose.words.fields/ifieldupdatingcallback/fieldupdating/)(*[Field](../field/)*) | A user defined method that is called just before a field is updated. |
 
 ## Examples
 

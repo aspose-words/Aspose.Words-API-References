@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.fields/ifieldresultformatter/format/
 ---
-## Format(string, GeneralFormat) {#format_1}
+## Format(*string, [GeneralFormat](../../generalformat/)*) {#format_1}
 
 Called when Aspose.Words applies a capitalization format switch, i.e. \* Upper.
 
@@ -162,7 +162,7 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 ---
 
-## Format(double, GeneralFormat) {#format}
+## Format(*double, [GeneralFormat](../../generalformat/)*) {#format}
 
 Called when Aspose.Words applies a number format switch, i.e. \* Ordinal.
 

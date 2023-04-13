@@ -76,7 +76,7 @@ Assert.AreEqual(1,
 
 ---
 
-## SystemFontSource(int) {#constructor_1}
+## SystemFontSource(*int*) {#constructor_1}
 
 Ctor.
 

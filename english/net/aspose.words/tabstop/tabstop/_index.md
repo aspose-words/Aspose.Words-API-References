@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/tabstop/tabstop/
 ---
-## TabStop(double) {#constructor}
+## TabStop(*double*) {#constructor}
 
 Initializes a new instance of this class.
 
@@ -64,7 +64,7 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 
 ---
 
-## TabStop(double, TabAlignment, TabLeader) {#constructor_1}
+## TabStop(*double, [TabAlignment](../../tabalignment/), [TabLeader](../../tableader/)*) {#constructor_1}
 
 Initializes a new instance of this class.
 

@@ -39,7 +39,7 @@ doc.Save(ArtifactsDir + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
 
 ---
 
-## OdtSaveOptions(string) {#constructor_2}
+## OdtSaveOptions(*string*) {#constructor_2}
 
 Initializes a new instance of this class that can be used to save a document in the Odt format encrypted with a password.
 
@@ -55,7 +55,7 @@ public OdtSaveOptions(string password)
 
 ---
 
-## OdtSaveOptions(SaveFormat) {#constructor_1}
+## OdtSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
 Initializes a new instance of this class that can be used to save a document in the Odt or Ott format.
 

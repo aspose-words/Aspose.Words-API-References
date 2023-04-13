@@ -21,7 +21,7 @@ public sealed class PageRange
 
 | Name | Description |
 | --- | --- |
-| [PageRange](pagerange/)(int, int) | Creates a new page range object. |
+| [PageRange](pagerange/)(*int, int*) | Creates a new page range object. |
 
 ### See Also
 

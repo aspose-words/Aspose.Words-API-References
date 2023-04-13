@@ -22,7 +22,7 @@ public class XamlFlowSaveOptions : SaveOptions
 | Name | Description |
 | --- | --- |
 | [XamlFlowSaveOptions](xamlflowsaveoptions/#constructor)() | Initializes a new instance of this class that can be used to save a document in the XamlFlow format. |
-| [XamlFlowSaveOptions](xamlflowsaveoptions/#constructor_1)(SaveFormat) | Initializes a new instance of this class that can be used to save a document in the XamlFlow or XamlFlowPack format. |
+| [XamlFlowSaveOptions](xamlflowsaveoptions/#constructor_1)(*[SaveFormat](../../aspose.words/saveformat/)*) | Initializes a new instance of this class that can be used to save a document in the XamlFlow or XamlFlowPack format. |
 
 ## Properties
 

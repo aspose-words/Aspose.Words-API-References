@@ -28,13 +28,13 @@ public class CustomXmlSchemaCollection : IEnumerable<string>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.words.markup/customxmlschemacollection/add/)(string) | Adds an item to the collection. |
+| [Add](../../aspose.words.markup/customxmlschemacollection/add/)(*string*) | Adds an item to the collection. |
 | [Clear](../../aspose.words.markup/customxmlschemacollection/clear/)() | Removes all elements from the collection. |
 | [Clone](../../aspose.words.markup/customxmlschemacollection/clone/)() | Makes a deep clone of this object. |
 | [GetEnumerator](../../aspose.words.markup/customxmlschemacollection/getenumerator/)() | Returns an enumerator object that can be used to iterate over all items in the collection. |
-| [IndexOf](../../aspose.words.markup/customxmlschemacollection/indexof/)(string) | Returns the zero-based index of the specified value in the collection. |
-| [Remove](../../aspose.words.markup/customxmlschemacollection/remove/)(string) | Removes the specified value from the collection. |
-| [RemoveAt](../../aspose.words.markup/customxmlschemacollection/removeat/)(int) | Removes a value at the specified index. |
+| [IndexOf](../../aspose.words.markup/customxmlschemacollection/indexof/)(*string*) | Returns the zero-based index of the specified value in the collection. |
+| [Remove](../../aspose.words.markup/customxmlschemacollection/remove/)(*string*) | Removes the specified value from the collection. |
+| [RemoveAt](../../aspose.words.markup/customxmlschemacollection/removeat/)(*int*) | Removes a value at the specified index. |
 
 ## Remarks
 

@@ -21,7 +21,7 @@ public class WebExtensionBinding
 
 | Name | Description |
 | --- | --- |
-| [WebExtensionBinding](webextensionbinding/)(string, WebExtensionBindingType, string) | Creates web extension binding with specified parameters. |
+| [WebExtensionBinding](webextensionbinding/)(*string, [WebExtensionBindingType](../webextensionbindingtype/), string*) | Creates web extension binding with specified parameters. |
 
 ## Properties
 

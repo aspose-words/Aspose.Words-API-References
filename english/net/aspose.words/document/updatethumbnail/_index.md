@@ -7,7 +7,7 @@ type: docs
 weight: 780
 url: /net/aspose.words/document/updatethumbnail/
 ---
-## UpdateThumbnail(ThumbnailGeneratingOptions) {#updatethumbnail_1}
+## UpdateThumbnail(*[ThumbnailGeneratingOptions](../../../aspose.words.rendering/thumbnailgeneratingoptions/)*) {#updatethumbnail_1}
 
 Updates [`Thumbnail`](../../../aspose.words.properties/builtindocumentproperties/thumbnail/) of the document according to the specified options.
 

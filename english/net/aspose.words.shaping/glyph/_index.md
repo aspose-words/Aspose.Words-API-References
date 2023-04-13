@@ -19,7 +19,7 @@ public class Glyph
 
 | Name | Description |
 | --- | --- |
-| [Glyph](glyph/)(int, short, short, short) | Initializes new instance of this class. |
+| [Glyph](glyph/)(*int, short, short, short*) | Initializes new instance of this class. |
 
 ## Properties
 
@@ -35,7 +35,7 @@ public class Glyph
 | Name | Description |
 | --- | --- |
 | [Clone](../../aspose.words.shaping/glyph/clone/)() | Returns a clone of this instance. |
-| virtual [GetWidth](../../aspose.words.shaping/glyph/getwidth/)(int, float) | Returns width (advance) of the glyph in points. |
+| virtual [GetWidth](../../aspose.words.shaping/glyph/getwidth/)(*int, float*) | Returns width (advance) of the glyph in points. |
 
 ### See Also
 

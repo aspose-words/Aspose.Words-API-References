@@ -33,8 +33,8 @@ public class FontInfo
 
 | Name | Description |
 | --- | --- |
-| [GetEmbeddedFont](../../aspose.words.fonts/fontinfo/getembeddedfont/)(EmbeddedFontFormat, EmbeddedFontStyle) | Gets a specific embedded font file. |
-| [GetEmbeddedFontAsOpenType](../../aspose.words.fonts/fontinfo/getembeddedfontasopentype/)(EmbeddedFontStyle) | Gets an embedded font file in OpenType format. Fonts in Embedded OpenType format are converted to OpenType. |
+| [GetEmbeddedFont](../../aspose.words.fonts/fontinfo/getembeddedfont/)(*[EmbeddedFontFormat](../embeddedfontformat/), [EmbeddedFontStyle](../embeddedfontstyle/)*) | Gets a specific embedded font file. |
+| [GetEmbeddedFontAsOpenType](../../aspose.words.fonts/fontinfo/getembeddedfontasopentype/)(*[EmbeddedFontStyle](../embeddedfontstyle/)*) | Gets an embedded font file in OpenType format. Fonts in Embedded OpenType format are converted to OpenType. |
 
 ## Remarks
 

@@ -21,8 +21,8 @@ public class ImageSize
 
 | Name | Description |
 | --- | --- |
-| [ImageSize](imagesize/#constructor)(int, int) | Initializes width and height to the given values in pixels. Initializes resolution to 96 dpi. |
-| [ImageSize](imagesize/#constructor_1)(int, int, double, double) | Initializes width, height and resolution to the given values. |
+| [ImageSize](imagesize/#constructor)(*int, int*) | Initializes width and height to the given values in pixels. Initializes resolution to 96 dpi. |
+| [ImageSize](imagesize/#constructor_1)(*int, int, double, double*) | Initializes width, height and resolution to the given values. |
 
 ## Properties
 

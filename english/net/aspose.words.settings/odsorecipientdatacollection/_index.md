@@ -34,10 +34,10 @@ public class OdsoRecipientDataCollection : IEnumerable<OdsoRecipientData>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.words.settings/odsorecipientdatacollection/add/)(OdsoRecipientData) | Adds an object to the end of this collection. |
+| [Add](../../aspose.words.settings/odsorecipientdatacollection/add/)(*[OdsoRecipientData](../odsorecipientdata/)*) | Adds an object to the end of this collection. |
 | [Clear](../../aspose.words.settings/odsorecipientdatacollection/clear/)() | Removes all elements from this collection. |
 | [GetEnumerator](../../aspose.words.settings/odsorecipientdatacollection/getenumerator/)() | Returns an enumerator object that can be used to iterate over all items in the collection. |
-| [RemoveAt](../../aspose.words.settings/odsorecipientdatacollection/removeat/)(int) | Removes the element at the specified index. |
+| [RemoveAt](../../aspose.words.settings/odsorecipientdatacollection/removeat/)(*int*) | Removes the element at the specified index. |
 
 ## Examples
 

@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words/range/replace/
 ---
-## Replace(string, string) {#replace}
+## Replace(*string, string*) {#replace}
 
 Replaces all occurrences of a specified character string pattern with a replacement string.
 
@@ -110,7 +110,7 @@ Assert.AreEqual("Every paragraph that ends with a full stop like this one will b
 
 ---
 
-## Replace(Regex, string) {#replace_2}
+## Replace(*Regex, string*) {#replace_2}
 
 Replaces all occurrences of a character pattern specified by a regular expression with another string.
 
@@ -174,7 +174,7 @@ Assert.AreEqual("I decided to get the curtains in lavender, ideal for the lavend
 
 ---
 
-## Replace(string, string, FindReplaceOptions) {#replace_1}
+## Replace(*string, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replace_1}
 
 Replaces all occurrences of a specified character string pattern with a replacement string.
 
@@ -321,7 +321,7 @@ Assert.AreEqual("Eggs\a50\a\a" +
 
 ---
 
-## Replace(Regex, string, FindReplaceOptions) {#replace_3}
+## Replace(*Regex, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replace_3}
 
 Replaces all occurrences of a character pattern specified by a regular expression with another string.
 

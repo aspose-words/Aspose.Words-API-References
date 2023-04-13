@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.shaping/itextshaperfactory/gettextshaper/
 ---
-## GetTextShaper(string, int) {#gettextshaper_1}
+## GetTextShaper(*string, int*) {#gettextshaper_1}
 
 Returns new instance of a text shaper for the font specified by *fontPath* and *faceIndex*.
 
@@ -29,7 +29,7 @@ public ITextShaper GetTextShaper(string fontPath, int faceIndex)
 
 ---
 
-## GetTextShaper(string, byte[], int) {#gettextshaper}
+## GetTextShaper(*string, byte[], int*) {#gettextshaper}
 
 Returns new instance of a text shaper for the font represented by *fontBlob* and *faceIndex*.
 

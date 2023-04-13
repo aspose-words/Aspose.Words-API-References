@@ -28,8 +28,8 @@ public sealed class VbaModuleCollection : IEnumerable<VbaModule>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.words.vba/vbamodulecollection/add/)(VbaModule) | Adds a module to the collection. |
-| [Remove](../../aspose.words.vba/vbamodulecollection/remove/)(VbaModule) | Removes the specified module from the collection. |
+| [Add](../../aspose.words.vba/vbamodulecollection/add/)(*[VbaModule](../vbamodule/)*) | Adds a module to the collection. |
+| [Remove](../../aspose.words.vba/vbamodulecollection/remove/)(*[VbaModule](../vbamodule/)*) | Removes the specified module from the collection. |
 
 ## Examples
 

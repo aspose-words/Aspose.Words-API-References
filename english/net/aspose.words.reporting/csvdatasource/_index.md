@@ -21,10 +21,10 @@ public class CsvDataSource
 
 | Name | Description |
 | --- | --- |
-| [CsvDataSource](csvdatasource/#constructor)(Stream) | Creates a new data source with data from a CSV stream using default options for parsing CSV data. |
-| [CsvDataSource](csvdatasource/#constructor_2)(string) | Creates a new data source with data from a CSV file using default options for parsing CSV data. |
-| [CsvDataSource](csvdatasource/#constructor_1)(Stream, CsvDataLoadOptions) | Creates a new data source with data from a CSV stream using the specified options for parsing CSV data. |
-| [CsvDataSource](csvdatasource/#constructor_3)(string, CsvDataLoadOptions) | Creates a new data source with data from a CSV file using the specified options for parsing CSV data. |
+| [CsvDataSource](csvdatasource/#constructor)(*Stream*) | Creates a new data source with data from a CSV stream using default options for parsing CSV data. |
+| [CsvDataSource](csvdatasource/#constructor_2)(*string*) | Creates a new data source with data from a CSV file using default options for parsing CSV data. |
+| [CsvDataSource](csvdatasource/#constructor_1)(*Stream, [CsvDataLoadOptions](../csvdataloadoptions/)*) | Creates a new data source with data from a CSV stream using the specified options for parsing CSV data. |
+| [CsvDataSource](csvdatasource/#constructor_3)(*string, [CsvDataLoadOptions](../csvdataloadoptions/)*) | Creates a new data source with data from a CSV file using the specified options for parsing CSV data. |
 
 ## Remarks
 

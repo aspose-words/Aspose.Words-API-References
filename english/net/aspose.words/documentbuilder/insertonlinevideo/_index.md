@@ -7,7 +7,7 @@ type: docs
 weight: 410
 url: /net/aspose.words/documentbuilder/insertonlinevideo/
 ---
-## InsertOnlineVideo(string, double, double) {#insertonlinevideo_1}
+## InsertOnlineVideo(*string, double, double*) {#insertonlinevideo_1}
 
 Inserts an online video object into the document and scales it to the specified size.
 
@@ -61,7 +61,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertVideoWithUrl.docx");
 
 ---
 
-## InsertOnlineVideo(string, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertonlinevideo}
+## InsertOnlineVideo(*string, [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertonlinevideo}
 
 Inserts an online video object into the document and scales it to the specified size.
 
@@ -130,7 +130,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideo.docx");
 
 ---
 
-## InsertOnlineVideo(string, string, byte[], double, double) {#insertonlinevideo_3}
+## InsertOnlineVideo(*string, string, byte[], double, double*) {#insertonlinevideo_3}
 
 Inserts an online video object into the document and scales it to the specified size.
 
@@ -203,7 +203,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideoCustomThumbnail.docx")
 
 ---
 
-## InsertOnlineVideo(string, string, byte[], RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) {#insertonlinevideo_2}
+## InsertOnlineVideo(*string, string, byte[], [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertonlinevideo_2}
 
 Inserts an online video object into the document and scales it to the specified size.
 

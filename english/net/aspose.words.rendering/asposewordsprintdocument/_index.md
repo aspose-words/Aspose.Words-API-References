@@ -21,7 +21,7 @@ public class AsposeWordsPrintDocument : PrintDocument
 
 | Name | Description |
 | --- | --- |
-| [AsposeWordsPrintDocument](asposewordsprintdocument/)(Document) | Initializes a new instance of this class. |
+| [AsposeWordsPrintDocument](asposewordsprintdocument/)(*[Document](../../aspose.words/document/)*) | Initializes a new instance of this class. |
 
 ## Properties
 

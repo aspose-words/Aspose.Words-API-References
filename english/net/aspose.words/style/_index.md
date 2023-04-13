@@ -43,7 +43,7 @@ public class Style
 
 | Name | Description |
 | --- | --- |
-| [Equals](../../aspose.words/style/equals/#equals)(Style) | Compares with the specified style. Styles Istds are compared for built-in styles only. Styles defaults are not included in comparison. Base style, linked style and next paragraph style are recursively compared. |
+| [Equals](../../aspose.words/style/equals/#equals)(*Style*) | Compares with the specified style. Styles Istds are compared for built-in styles only. Styles defaults are not included in comparison. Base style, linked style and next paragraph style are recursively compared. |
 | [Remove](../../aspose.words/style/remove/)() | Removes the specified style from the document. |
 
 ## Examples

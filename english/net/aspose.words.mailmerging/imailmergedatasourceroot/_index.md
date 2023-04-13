@@ -19,7 +19,7 @@ public interface IMailMergeDataSourceRoot
 
 | Name | Description |
 | --- | --- |
-| [GetDataSource](../../aspose.words.mailmerging/imailmergedatasourceroot/getdatasource/)(string) | The Aspose.Words mail merge engine invokes this method when it encounters a beginning of a top-level mail merge region. |
+| [GetDataSource](../../aspose.words.mailmerging/imailmergedatasourceroot/getdatasource/)(*string*) | The Aspose.Words mail merge engine invokes this method when it encounters a beginning of a top-level mail merge region. |
 
 ## Examples
 

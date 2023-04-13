@@ -36,7 +36,7 @@ public class WarningInfoCollection : IEnumerable<WarningInfo>, IWarningCallback
 | --- | --- |
 | [Clear](../../aspose.words/warninginfocollection/clear/)() | Removes all elements from the collection. |
 | [GetEnumerator](../../aspose.words/warninginfocollection/getenumerator/)() | Returns an enumerator object that can be used to iterate over all items in the collection. |
-| [Warning](../../aspose.words/warninginfocollection/warning/)(WarningInfo) | Implements the [`IWarningCallback`](../iwarningcallback/) interface. Adds a warning to this collection. |
+| [Warning](../../aspose.words/warninginfocollection/warning/)(*[WarningInfo](../warninginfo/)*) | Implements the [`IWarningCallback`](../iwarningcallback/) interface. Adds a warning to this collection. |
 
 ## Remarks
 

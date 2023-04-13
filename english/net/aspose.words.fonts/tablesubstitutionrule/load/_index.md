@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fonts/tablesubstitutionrule/load/
 ---
-## Load(string) {#load_1}
+## Load(*string*) {#load_1}
 
 Loads table substitution settings from XML file.
 
@@ -85,7 +85,7 @@ doc.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Custom.pdf");
 
 ---
 
-## Load(Stream) {#load}
+## Load(*Stream*) {#load}
 
 Loads table substitution settings from XML stream.
 

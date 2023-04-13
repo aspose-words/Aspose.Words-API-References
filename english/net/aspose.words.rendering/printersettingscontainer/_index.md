@@ -21,7 +21,7 @@ public class PrinterSettingsContainer
 
 | Name | Description |
 | --- | --- |
-| [PrinterSettingsContainer](printersettingscontainer/)(PrinterSettings) | Creates a container for PrinterSettings. |
+| [PrinterSettingsContainer](printersettingscontainer/)(*PrinterSettings*) | Creates a container for PrinterSettings. |
 
 ## Properties
 

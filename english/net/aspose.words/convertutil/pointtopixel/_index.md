@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words/convertutil/pointtopixel/
 ---
-## PointToPixel(double) {#pointtopixel}
+## PointToPixel(*double*) {#pointtopixel}
 
 Converts points to pixels at 96 dpi.
 
@@ -64,7 +64,7 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndPixels.docx");
 
 ---
 
-## PointToPixel(double, double) {#pointtopixel_1}
+## PointToPixel(*double, double*) {#pointtopixel_1}
 
 Converts points to pixels at the specified pixel resolution.
 

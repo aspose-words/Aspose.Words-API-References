@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/comment/comment/
 ---
-## Comment(DocumentBase) {#constructor}
+## Comment(*[DocumentBase](../../documentbase/)*) {#constructor}
 
 Initializes a new instance of the [`Comment`](../) class.
 
@@ -194,7 +194,7 @@ public class CommentInfoPrinter : DocumentVisitor
 
 ---
 
-## Comment(DocumentBase, string, string, DateTime) {#constructor_1}
+## Comment(*[DocumentBase](../../documentbase/), string, string, DateTime*) {#constructor_1}
 
 Initializes a new instance of the [`Comment`](../) class.
 

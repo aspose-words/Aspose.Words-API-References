@@ -31,7 +31,7 @@ public class FontInfoCollection : IEnumerable<FontInfo>
 
 | Name | Description |
 | --- | --- |
-| [Contains](../../aspose.words.fonts/fontinfocollection/contains/)(string) | Determines whether the collection contains a font with the given name. |
+| [Contains](../../aspose.words.fonts/fontinfocollection/contains/)(*string*) | Determines whether the collection contains a font with the given name. |
 | [GetEnumerator](../../aspose.words.fonts/fontinfocollection/getenumerator/)() | Returns an enumerator object that can be used to iterate over all items in the collection. |
 
 ## Remarks

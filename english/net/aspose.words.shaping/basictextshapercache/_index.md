@@ -19,7 +19,7 @@ public sealed class BasicTextShaperCache : IDisposable, ITextShaperFactory
 
 | Name | Description |
 | --- | --- |
-| [BasicTextShaperCache](basictextshapercache/)(ITextShaperFactory) | Wraps *factory* and caches [`GetTextShaper`](../itextshaperfactory/gettextshaper/) results. |
+| [BasicTextShaperCache](basictextshapercache/)(*[ITextShaperFactory](../itextshaperfactory/)*) | Wraps *factory* and caches [`GetTextShaper`](../itextshaperfactory/gettextshaper/) results. |
 
 ## Methods
 

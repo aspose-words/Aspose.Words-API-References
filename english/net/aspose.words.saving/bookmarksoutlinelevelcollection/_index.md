@@ -34,13 +34,13 @@ public class BookmarksOutlineLevelCollection : IEnumerable<KeyValuePair<string, 
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.words.saving/bookmarksoutlinelevelcollection/add/)(string, int) | Adds a bookmark to the collection. |
+| [Add](../../aspose.words.saving/bookmarksoutlinelevelcollection/add/)(*string, int*) | Adds a bookmark to the collection. |
 | [Clear](../../aspose.words.saving/bookmarksoutlinelevelcollection/clear/)() | Removes all elements from the collection. |
-| [Contains](../../aspose.words.saving/bookmarksoutlinelevelcollection/contains/)(string) | Determines whether the collection contains a bookmark with the given name. |
+| [Contains](../../aspose.words.saving/bookmarksoutlinelevelcollection/contains/)(*string*) | Determines whether the collection contains a bookmark with the given name. |
 | [GetEnumerator](../../aspose.words.saving/bookmarksoutlinelevelcollection/getenumerator/)() | Returns an enumerator object that can be used to iterate over all items in the collection. |
-| [IndexOfKey](../../aspose.words.saving/bookmarksoutlinelevelcollection/indexofkey/)(string) | Returns the zero-based index of the specified bookmark in the collection. |
-| [Remove](../../aspose.words.saving/bookmarksoutlinelevelcollection/remove/)(string) | Removes a bookmark with the specified name from the collection. |
-| [RemoveAt](../../aspose.words.saving/bookmarksoutlinelevelcollection/removeat/)(int) | Removes a bookmark at the specified index. |
+| [IndexOfKey](../../aspose.words.saving/bookmarksoutlinelevelcollection/indexofkey/)(*string*) | Returns the zero-based index of the specified bookmark in the collection. |
+| [Remove](../../aspose.words.saving/bookmarksoutlinelevelcollection/remove/)(*string*) | Removes a bookmark with the specified name from the collection. |
+| [RemoveAt](../../aspose.words.saving/bookmarksoutlinelevelcollection/removeat/)(*int*) | Removes a bookmark at the specified index. |
 
 ## Remarks
 

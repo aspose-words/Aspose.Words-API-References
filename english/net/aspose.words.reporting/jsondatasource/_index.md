@@ -21,10 +21,10 @@ public class JsonDataSource
 
 | Name | Description |
 | --- | --- |
-| [JsonDataSource](jsondatasource/#constructor)(Stream) | Creates a new data source with data from a JSON stream using default options for parsing JSON data. |
-| [JsonDataSource](jsondatasource/#constructor_2)(string) | Creates a new data source with data from a JSON file using default options for parsing JSON data. |
-| [JsonDataSource](jsondatasource/#constructor_1)(Stream, JsonDataLoadOptions) | Creates a new data source with data from a JSON stream using the specified options for parsing JSON data. |
-| [JsonDataSource](jsondatasource/#constructor_3)(string, JsonDataLoadOptions) | Creates a new data source with data from a JSON file using the specified options for parsing JSON data. |
+| [JsonDataSource](jsondatasource/#constructor)(*Stream*) | Creates a new data source with data from a JSON stream using default options for parsing JSON data. |
+| [JsonDataSource](jsondatasource/#constructor_2)(*string*) | Creates a new data source with data from a JSON file using default options for parsing JSON data. |
+| [JsonDataSource](jsondatasource/#constructor_1)(*Stream, [JsonDataLoadOptions](../jsondataloadoptions/)*) | Creates a new data source with data from a JSON stream using the specified options for parsing JSON data. |
+| [JsonDataSource](jsondatasource/#constructor_3)(*string, [JsonDataLoadOptions](../jsondataloadoptions/)*) | Creates a new data source with data from a JSON file using the specified options for parsing JSON data. |
 
 ## Remarks
 

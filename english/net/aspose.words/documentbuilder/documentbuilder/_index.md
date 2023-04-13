@@ -46,7 +46,7 @@ builder.Write("Hello world!");
 
 ---
 
-## DocumentBuilder(Document) {#constructor_1}
+## DocumentBuilder(*[Document](../../document/)*) {#constructor_1}
 
 Initializes a new instance of this class.
 

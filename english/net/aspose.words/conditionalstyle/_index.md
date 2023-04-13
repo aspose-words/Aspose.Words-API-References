@@ -36,7 +36,7 @@ public sealed class ConditionalStyle
 | Name | Description |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/conditionalstyle/clearformatting/)() | Clears formatting of this conditional style. |
-| override [Equals](../../aspose.words/conditionalstyle/equals/)(object) | Compares this conditional style with the specified object. |
+| override [Equals](../../aspose.words/conditionalstyle/equals/)(*object*) | Compares this conditional style with the specified object. |
 | override [GetHashCode](../../aspose.words/conditionalstyle/gethashcode/)() | Calculates hash code for this object. |
 
 ## Examples

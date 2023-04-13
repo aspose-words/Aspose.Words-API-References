@@ -28,11 +28,11 @@ public sealed class Watermark
 | Name | Description |
 | --- | --- |
 | [Remove](../../aspose.words/watermark/remove/)() | Removes the watermark. |
-| [SetImage](../../aspose.words/watermark/setimage/#setimage)(Image) | Adds Image watermark into the document. |
-| [SetImage](../../aspose.words/watermark/setimage/#setimage_1)(Image, ImageWatermarkOptions) | Adds Image watermark into the document. |
-| [SetImage](../../aspose.words/watermark/setimage/#setimage_2)(string, ImageWatermarkOptions) | Adds Image watermark into the document. |
-| [SetText](../../aspose.words/watermark/settext/#settext)(string) | Adds Text watermark into the document. |
-| [SetText](../../aspose.words/watermark/settext/#settext_1)(string, TextWatermarkOptions) | Adds Text watermark into the document. |
+| [SetImage](../../aspose.words/watermark/setimage/#setimage)(*Image*) | Adds Image watermark into the document. |
+| [SetImage](../../aspose.words/watermark/setimage/#setimage_1)(*Image, [ImageWatermarkOptions](../imagewatermarkoptions/)*) | Adds Image watermark into the document. |
+| [SetImage](../../aspose.words/watermark/setimage/#setimage_2)(*string, [ImageWatermarkOptions](../imagewatermarkoptions/)*) | Adds Image watermark into the document. |
+| [SetText](../../aspose.words/watermark/settext/#settext)(*string*) | Adds Text watermark into the document. |
+| [SetText](../../aspose.words/watermark/settext/#settext_1)(*string, [TextWatermarkOptions](../textwatermarkoptions/)*) | Adds Text watermark into the document. |
 
 ### See Also
 

@@ -21,8 +21,8 @@ public class MergeFieldImageDimension
 
 | Name | Description |
 | --- | --- |
-| [MergeFieldImageDimension](mergefieldimagedimension/#constructor)(double) | Creates an image dimension instance with the given value in points. |
-| [MergeFieldImageDimension](mergefieldimagedimension/#constructor_1)(double, MergeFieldImageDimensionUnit) | Creates an image dimension instance with the given value and the given unit. |
+| [MergeFieldImageDimension](mergefieldimagedimension/#constructor)(*double*) | Creates an image dimension instance with the given value in points. |
+| [MergeFieldImageDimension](mergefieldimagedimension/#constructor_1)(*double, [MergeFieldImageDimensionUnit](../mergefieldimagedimensionunit/)*) | Creates an image dimension instance with the given value and the given unit. |
 
 ## Properties
 

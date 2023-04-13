@@ -77,7 +77,7 @@ editableRange.Remove();
 
 ---
 
-## EndEditableRange(EditableRangeStart) {#endeditablerange_1}
+## EndEditableRange(*[EditableRangeStart](../../editablerangestart/)*) {#endeditablerange_1}
 
 Marks the current position in the document as an editable range end.
 

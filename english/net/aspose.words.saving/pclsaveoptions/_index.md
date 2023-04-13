@@ -60,8 +60,8 @@ public class PclSaveOptions : FixedPageSaveOptions
 
 | Name | Description |
 | --- | --- |
-| [AddPrinterFont](../../aspose.words.saving/pclsaveoptions/addprinterfont/)(string, string) | Adds information about font that is uploaded to the printer by manufacturer. |
-| override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals/)(object) | Determines whether the specified object is equal in value to the current object. |
+| [AddPrinterFont](../../aspose.words.saving/pclsaveoptions/addprinterfont/)(*string, string*) | Adds information about font that is uploaded to the printer by manufacturer. |
+| override [Equals](../../aspose.words.saving/fixedpagesaveoptions/equals/)(*object*) | Determines whether the specified object is equal in value to the current object. |
 
 ## Examples
 

@@ -21,14 +21,14 @@ public class NodeImporter
 
 | Name | Description |
 | --- | --- |
-| [NodeImporter](nodeimporter/#constructor)(DocumentBase, DocumentBase, ImportFormatMode) | Initializes a new instance of the `NodeImporter` class. |
-| [NodeImporter](nodeimporter/#constructor_1)(DocumentBase, DocumentBase, ImportFormatMode, ImportFormatOptions) | Initializes a new instance of the `NodeImporter` class. |
+| [NodeImporter](nodeimporter/#constructor)(*[DocumentBase](../documentbase/), [DocumentBase](../documentbase/), [ImportFormatMode](../importformatmode/)*) | Initializes a new instance of the `NodeImporter` class. |
+| [NodeImporter](nodeimporter/#constructor_1)(*[DocumentBase](../documentbase/), [DocumentBase](../documentbase/), [ImportFormatMode](../importformatmode/), [ImportFormatOptions](../importformatoptions/)*) | Initializes a new instance of the `NodeImporter` class. |
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
-| [ImportNode](../../aspose.words/nodeimporter/importnode/)(Node, bool) | Imports a node from one document into another. |
+| [ImportNode](../../aspose.words/nodeimporter/importnode/)(*[Node](../node/), bool*) | Imports a node from one document into another. |
 
 ## Remarks
 

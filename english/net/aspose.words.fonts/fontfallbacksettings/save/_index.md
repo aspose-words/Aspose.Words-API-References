@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.fonts/fontfallbacksettings/save/
 ---
-## Save(Stream) {#save}
+## Save(*Stream*) {#save}
 
 Saves the current fallback settings to stream.
 
@@ -53,7 +53,7 @@ using (FileStream fontFallbackStream =
 
 ---
 
-## Save(string) {#save_1}
+## Save(*string*) {#save_1}
 
 Saves the current fallback settings to file.
 

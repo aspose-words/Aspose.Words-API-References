@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fonts/fontfallbacksettings/load/
 ---
-## Load(string) {#load_1}
+## Load(*string*) {#load_1}
 
 Loads font fallback settings from XML file.
 
@@ -45,7 +45,7 @@ doc.FontSettings.FallbackSettings.Save(ArtifactsDir + "FallbackSettings.xml");
 
 ---
 
-## Load(Stream) {#load}
+## Load(*Stream*) {#load}
 
 Loads fallback settings from XML stream.
 

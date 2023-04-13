@@ -19,7 +19,7 @@ public interface IDocumentPartSavingCallback
 
 | Name | Description |
 | --- | --- |
-| [DocumentPartSaving](../../aspose.words.saving/idocumentpartsavingcallback/documentpartsaving/)(DocumentPartSavingArgs) | Called when Aspose.Words is about to save a document part. |
+| [DocumentPartSaving](../../aspose.words.saving/idocumentpartsavingcallback/documentpartsaving/)(*[DocumentPartSavingArgs](../documentpartsavingargs/)*) | Called when Aspose.Words is about to save a document part. |
 
 ## Examples
 

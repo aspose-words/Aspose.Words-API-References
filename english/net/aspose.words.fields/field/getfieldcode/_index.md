@@ -59,7 +59,7 @@ Assert.AreEqual(fieldIf.GetFieldCode(), fieldIf.GetFieldCode(true));
 
 ---
 
-## GetFieldCode(bool) {#getfieldcode_1}
+## GetFieldCode(*bool*) {#getfieldcode_1}
 
 Returns text between field start and field separator (or field end if there is no separator).
 

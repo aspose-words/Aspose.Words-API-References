@@ -21,8 +21,8 @@ public sealed class TabStop
 
 | Name | Description |
 | --- | --- |
-| [TabStop](tabstop/#constructor)(double) | Initializes a new instance of this class. |
-| [TabStop](tabstop/#constructor_1)(double, TabAlignment, TabLeader) | Initializes a new instance of this class. |
+| [TabStop](tabstop/#constructor)(*double*) | Initializes a new instance of this class. |
+| [TabStop](tabstop/#constructor_1)(*double, [TabAlignment](../tabalignment/), [TabLeader](../tableader/)*) | Initializes a new instance of this class. |
 
 ## Properties
 
@@ -37,7 +37,7 @@ public sealed class TabStop
 
 | Name | Description |
 | --- | --- |
-| [Equals](../../aspose.words/tabstop/equals/#equals)(TabStop) | Compares with the specified `TabStop`. |
+| [Equals](../../aspose.words/tabstop/equals/#equals)(*TabStop*) | Compares with the specified `TabStop`. |
 | override [GetHashCode](../../aspose.words/tabstop/gethashcode/)() | Calculates hash code for this object. |
 
 ## Remarks

@@ -19,7 +19,7 @@ public interface ICssSavingCallback
 
 | Name | Description |
 | --- | --- |
-| [CssSaving](../../aspose.words.saving/icsssavingcallback/csssaving/)(CssSavingArgs) | Called when Aspose.Words saves an CSS (Cascading Style Sheet). |
+| [CssSaving](../../aspose.words.saving/icsssavingcallback/csssaving/)(*[CssSavingArgs](../csssavingargs/)*) | Called when Aspose.Words saves an CSS (Cascading Style Sheet). |
 
 ## Examples
 

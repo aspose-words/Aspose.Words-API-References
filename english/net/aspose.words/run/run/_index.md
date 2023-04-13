@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/run/run/
 ---
-## Run(DocumentBase) {#constructor}
+## Run(*[DocumentBase](../../documentbase/)*) {#constructor}
 
 Initializes a new instance of the [`Run`](../) class.
 
@@ -81,7 +81,7 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 ---
 
-## Run(DocumentBase, string) {#constructor_1}
+## Run(*[DocumentBase](../../documentbase/), string*) {#constructor_1}
 
 Initializes a new instance of the **Run** class.
 

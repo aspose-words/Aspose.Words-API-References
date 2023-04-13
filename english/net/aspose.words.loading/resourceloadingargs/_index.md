@@ -27,7 +27,7 @@ public class ResourceLoadingArgs
 
 | Name | Description |
 | --- | --- |
-| [SetData](../../aspose.words.loading/resourceloadingargs/setdata/)(byte[]) | Sets user provided data of the resource which is used if [`ResourceLoading`](../iresourceloadingcallback/resourceloading/) returns UserProvided. |
+| [SetData](../../aspose.words.loading/resourceloadingargs/setdata/)(*byte[]*) | Sets user provided data of the resource which is used if [`ResourceLoading`](../iresourceloadingcallback/resourceloading/) returns UserProvided. |
 
 ## Examples
 

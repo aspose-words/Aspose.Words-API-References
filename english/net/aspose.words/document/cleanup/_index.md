@@ -62,7 +62,7 @@ Assert.AreEqual(4, doc.Styles.Count);
 
 ---
 
-## Cleanup(CleanupOptions) {#cleanup_1}
+## Cleanup(*[CleanupOptions](../../cleanupoptions/)*) {#cleanup_1}
 
 Cleans unused styles and lists from the document depending on given [`CleanupOptions`](../../cleanupoptions/).
 

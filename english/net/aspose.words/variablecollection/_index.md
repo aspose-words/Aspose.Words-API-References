@@ -28,13 +28,13 @@ public class VariableCollection : IEnumerable<KeyValuePair<string, string>>
 
 | Name | Description |
 | --- | --- |
-| [Add](../../aspose.words/variablecollection/add/)(string, string) | Adds a document variable to the collection. |
+| [Add](../../aspose.words/variablecollection/add/)(*string, string*) | Adds a document variable to the collection. |
 | [Clear](../../aspose.words/variablecollection/clear/)() | Removes all elements from the collection. |
-| [Contains](../../aspose.words/variablecollection/contains/)(string) | Determines whether the collection contains a document variable with the given name. |
+| [Contains](../../aspose.words/variablecollection/contains/)(*string*) | Determines whether the collection contains a document variable with the given name. |
 | [GetEnumerator](../../aspose.words/variablecollection/getenumerator/)() | Returns an enumerator object that can be used to iterate over all variable in the collection. |
-| [IndexOfKey](../../aspose.words/variablecollection/indexofkey/)(string) | Returns the zero-based index of the specified document variable in the collection. |
-| [Remove](../../aspose.words/variablecollection/remove/)(string) | Removes a document variable with the specified name from the collection. |
-| [RemoveAt](../../aspose.words/variablecollection/removeat/)(int) | Removes a document variable at the specified index. |
+| [IndexOfKey](../../aspose.words/variablecollection/indexofkey/)(*string*) | Returns the zero-based index of the specified document variable in the collection. |
+| [Remove](../../aspose.words/variablecollection/remove/)(*string*) | Removes a document variable with the specified name from the collection. |
+| [RemoveAt](../../aspose.words/variablecollection/removeat/)(*int*) | Removes a document variable at the specified index. |
 
 ## Remarks
 

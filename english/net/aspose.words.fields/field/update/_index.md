@@ -124,7 +124,7 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 ---
 
-## Update(bool) {#update_1}
+## Update(*bool*) {#update_1}
 
 Performs a field update. Throws if the field is being updated already.
 
