@@ -4,7 +4,7 @@ linktitle: ExportListLabels
 second_title: Aspose.Words for Java API Reference
 description: Specifies how list labels are exported to HTML MHTML and EPUB in Java.
 type: docs
-weight: 151
+weight: 152
 url: /java/com.aspose.words/exportlistlabels/
 ---
 
@@ -15,6 +15,110 @@ public class ExportListLabels
 ```
 
 Specifies how list labels are exported to HTML, MHTML and EPUB.
+
+ **Examples:** 
+
+Shows how to configure list exporting to HTML.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ List list = doc.getLists().add(ListTemplate.NUMBER_DEFAULT);
+ builder.getListFormat().setList(list);
+
+ builder.writeln("Default numbered list item 1.");
+ builder.writeln("Default numbered list item 2.");
+ builder.getListFormat().listIndent();
+ builder.writeln("Default numbered list item 3.");
+ builder.getListFormat().removeNumbers();
+
+ list = doc.getLists().add(ListTemplate.OUTLINE_HEADINGS_LEGAL);
+ builder.getListFormat().setList(list);
+
+ builder.writeln("Outline legal heading list item 1.");
+ builder.writeln("Outline legal heading list item 2.");
+ builder.getListFormat().listIndent();
+ builder.writeln("Outline legal heading list item 3.");
+ builder.getListFormat().listIndent();
+ builder.writeln("Outline legal heading list item 4.");
+ builder.getListFormat().listIndent();
+ builder.writeln("Outline legal heading list item 5.");
+ builder.getListFormat().removeNumbers();
+
+ // When saving the document to HTML, we can pass a SaveOptions object
+ // to decide which HTML elements the document will use to represent lists.
+ // Setting the "ExportListLabels" property to "ExportListLabels.AsInlineText"
+ // will create lists by formatting spans.
+ // Setting the "ExportListLabels" property to "ExportListLabels.Auto" will use the  tag
+ // to build lists in cases when using the  and  tags may cause loss of formatting.
+ // Setting the "ExportListLabels" property to "ExportListLabels.ByHtmlTags"
+ // will use  and  tags to build all lists.
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setExportListLabels(exportListLabels);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.List.html", options);
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.List.html"), StandardCharsets.UTF_8);
+
+ switch (exportListLabels) {
+     case ExportListLabels.AS_INLINE_TEXT:
+         Assert.assertTrue(outDocContents.contains(
+                 " " +
+                         "" +
+                         "a." +
+                         "       " +
+                         "" +
+                         "Default numbered list item 3." +
+                         ""));
+
+         Assert.assertTrue(outDocContents.contains(
+                 " " +
+                         "" +
+                         "2.1.1.1" +
+                         "       " +
+                         "" +
+                         "Outline legal heading list item 5." +
+                         ""));
+         break;
+     case ExportListLabels.AUTO:
+         Assert.assertTrue(outDocContents.contains(
+                 " " +
+                         " " +
+                         "Default numbered list item 3." +
+                         "" +
+                         ""));
+
+         Assert.assertTrue(outDocContents.contains(
+                 " " +
+                         "" +
+                         "2.1.1.1" +
+                         "       " +
+                         "" +
+                         "Outline legal heading list item 5." +
+                         ""));
+         break;
+     case ExportListLabels.BY_HTML_TAGS:
+         Assert.assertTrue(outDocContents.contains(
+                 " " +
+                         " " +
+                         "Default numbered list item 3." +
+                         "" +
+                         ""));
+
+         Assert.assertTrue(outDocContents.contains(
+                 " " +
+                         " " +
+                         "       " +
+                         "Outline legal heading list item 5." +
+                         "" +
+                         ""));
+         break;
+ }
+ 
+```
 ## Fields
 
 | Field | Description |
@@ -46,7 +150,11 @@ public static int AS_INLINE_TEXT
 ```
 
 
-Outputs all list labels as inline text. HTML
+Outputs all list labels as inline text.
+
+ **Remarks:** 
+
+HTML
 
 tag is used for any list label representation.
 
@@ -56,7 +164,11 @@ public static int AUTO
 ```
 
 
-Outputs list labels in auto mode. Uses HTML native elements when possible. HTML
+Outputs list labels in auto mode. Uses HTML native elements when possible.
+
+ **Remarks:** 
+
+HTML
 
  *  tags are used for list label representation if it doesn't cause formatting loss, otherwise the HTML
     
@@ -68,7 +180,11 @@ public static int BY_HTML_TAGS
 ```
 
 
-Outputs all list labels as HTML native elements. HTML
+Outputs all list labels as HTML native elements.
+
+ **Remarks:** 
+
+HTML
 
  *  tags are used for list label representation. Some formatting loss is possible.
 

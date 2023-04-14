@@ -4,7 +4,7 @@ linktitle: SdtType
 second_title: Aspose.Words for Java API Reference
 description: Specifies the type of a structured document tag SDT node in Java.
 type: docs
-weight: 514
+weight: 517
 url: /java/com.aspose.words/sdttype/
 ---
 
@@ -15,6 +15,139 @@ public class SdtType
 ```
 
 Specifies the type of a structured document tag (SDT) node.
+
+ **Examples:** 
+
+Shows how to create group structured document tag at the Row level.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+
+ // Create a Group structured document tag at the Row level.
+ StructuredDocumentTag groupSdt = new StructuredDocumentTag(doc, SdtType.GROUP, MarkupLevel.ROW);
+ table.appendChild(groupSdt);
+ groupSdt.isShowingPlaceholderText(false);
+ groupSdt.removeAllChildren();
+
+ // Create a child row of the structured document tag.
+ Row row = new Row(doc);
+ groupSdt.appendChild(row);
+
+ Cell cell = new Cell(doc);
+ row.appendChild(cell);
+
+ builder.endTable();
+
+ // Insert cell contents.
+ cell.ensureMinimum();
+ builder.moveTo(cell.getLastParagraph());
+ builder.write("Lorem ipsum dolor.");
+
+ // Insert text after the table.
+ builder.moveTo(table.getNextSibling());
+ builder.write("Nulla blandit nisi.");
+
+ doc.save(getArtifactsDir() + "StructuredDocumentTag.SdtAtRowLevel.docx");
+ 
+```
+
+Shows how to work with styles for content control elements.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Below are two ways to apply a style from the document to a structured document tag.
+ // 1 -  Apply a style object from the document's style collection:
+ Style quoteStyle = doc.getStyles().getByStyleIdentifier(StyleIdentifier.QUOTE);
+ StructuredDocumentTag sdtPlainText = new StructuredDocumentTag(doc, SdtType.PLAIN_TEXT, MarkupLevel.INLINE);
+ sdtPlainText.setStyle(quoteStyle);
+
+ // 2 -  Reference a style in the document by name:
+ StructuredDocumentTag sdtRichText = new StructuredDocumentTag(doc, SdtType.RICH_TEXT, MarkupLevel.INLINE);
+ sdtRichText.setStyleName("Quote");
+
+ builder.insertNode(sdtPlainText);
+ builder.insertNode(sdtRichText);
+
+ Assert.assertEquals(NodeType.STRUCTURED_DOCUMENT_TAG, sdtPlainText.getNodeType());
+
+ NodeCollection tags = doc.getChildNodes(NodeType.STRUCTURED_DOCUMENT_TAG, true);
+
+ for (StructuredDocumentTag sdt : (Iterable) tags) {
+     Assert.assertEquals(StyleIdentifier.QUOTE, sdt.getStyle().getStyleIdentifier());
+     Assert.assertEquals("Quote", sdt.getStyleName());
+ }
+ 
+```
+
+Shows how to fill a table with data from in an XML part.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ CustomXmlPart xmlPart = doc.getCustomXmlParts().add("Books",
+         "" +
+                 "" +
+                 "Everyday Italian" +
+                 "Giada De Laurentiis" +
+                 "" +
+                 "" +
+                 "The C Programming Language" +
+                 "Brian W. Kernighan, Dennis M. Ritchie" +
+                 "" +
+                 "" +
+                 "Learning XML" +
+                 "Erik T. Ray" +
+                 "" +
+                 "");
+
+ // Create headers for data from the XML content.
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Title");
+ builder.insertCell();
+ builder.write("Author");
+ builder.endRow();
+ builder.endTable();
+
+ // Create a table with a repeating section inside.
+ StructuredDocumentTag repeatingSectionSdt =
+         new StructuredDocumentTag(doc, SdtType.REPEATING_SECTION, MarkupLevel.ROW);
+ repeatingSectionSdt.getXmlMapping().setMapping(xmlPart, "/books[1]/book", "");
+ table.appendChild(repeatingSectionSdt);
+
+ // Add repeating section item inside the repeating section and mark it as a row.
+ // This table will have a row for each element that we can find in the XML document
+ // using the "/books[1]/book" XPath, of which there are three.
+ StructuredDocumentTag repeatingSectionItemSdt =
+         new StructuredDocumentTag(doc, SdtType.REPEATING_SECTION_ITEM, MarkupLevel.ROW);
+ repeatingSectionSdt.appendChild(repeatingSectionItemSdt);
+
+ Row row = new Row(doc);
+ repeatingSectionItemSdt.appendChild(row);
+
+ // Map XML data with created table cells for the title and author of each book.
+ StructuredDocumentTag titleSdt =
+         new StructuredDocumentTag(doc, SdtType.PLAIN_TEXT, MarkupLevel.CELL);
+ titleSdt.getXmlMapping().setMapping(xmlPart, "/books[1]/book[1]/title[1]", "");
+ row.appendChild(titleSdt);
+
+ StructuredDocumentTag authorSdt =
+         new StructuredDocumentTag(doc, SdtType.PLAIN_TEXT, MarkupLevel.CELL);
+ authorSdt.getXmlMapping().setMapping(xmlPart, "/books[1]/book[1]/author[1]", "");
+ row.appendChild(authorSdt);
+
+ doc.save(getArtifactsDir() + "StructuredDocumentTag.RepeatingSectionItem.docx");
+ 
+```
 ## Fields
 
 | Field | Description |
@@ -76,7 +209,11 @@ public static int CHECKBOX
 ```
 
 
-The SDT represents a checkbox when displayed in the document. This is MS-specific feature available since Office 2010 and not supported by the ISO/IEC 29500 OOXML standard.
+The SDT represents a checkbox when displayed in the document.
+
+ **Remarks:** 
+
+This is MS-specific feature available since Office 2010 and not supported by the ISO/IEC 29500 OOXML standard.
 
 ### CITATION {#CITATION}
 ```
@@ -124,7 +261,11 @@ public static int ENTITY_PICKER
 ```
 
 
-The SDT represents an entity picker that allows the user to select an instance of an external content type. This is MS-specific feature available since Office 2010 and not supported by the ISO/IEC 29500 OOXML standard.
+The SDT represents an entity picker that allows the user to select an instance of an external content type.
+
+ **Remarks:** 
+
+This is MS-specific feature available since Office 2010 and not supported by the ISO/IEC 29500 OOXML standard.
 
 ### EQUATION {#EQUATION}
 ```
@@ -172,7 +313,11 @@ public static int REPEATING_SECTION
 ```
 
 
-The SDT represents repeating section type when displayed in the document. This is MS-specific feature available since Office 2013 and not supported by the ISO/IEC 29500 OOXML standard.
+The SDT represents repeating section type when displayed in the document.
+
+ **Remarks:** 
+
+This is MS-specific feature available since Office 2013 and not supported by the ISO/IEC 29500 OOXML standard.
 
 ### REPEATING_SECTION_ITEM {#REPEATING-SECTION-ITEM}
 ```
@@ -180,7 +325,11 @@ public static int REPEATING_SECTION_ITEM
 ```
 
 
-The SDT represents repeating section item. This is MS-specific feature available since Office 2013 and not supported by the ISO/IEC 29500 OOXML standard.
+The SDT represents repeating section item.
+
+ **Remarks:** 
+
+This is MS-specific feature available since Office 2013 and not supported by the ISO/IEC 29500 OOXML standard.
 
 ### RICH_TEXT {#RICH-TEXT}
 ```

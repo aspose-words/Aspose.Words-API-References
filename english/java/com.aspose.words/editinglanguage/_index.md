@@ -4,7 +4,7 @@ linktitle: EditingLanguage
 second_title: Aspose.Words for Java API Reference
 description: Specifies the editing language in Java.
 type: docs
-weight: 140
+weight: 141
 url: /java/com.aspose.words/editinglanguage/
 ---
 
@@ -15,6 +15,24 @@ public class EditingLanguage
 ```
 
 Specifies the editing language.
+
+ **Examples:** 
+
+Shows how to apply language preferences when loading a document.
+
+```
+
+ LoadOptions loadOptions = new LoadOptions();
+ loadOptions.getLanguagePreferences().addEditingLanguage(EditingLanguage.JAPANESE);
+
+ Document doc = new Document(getMyDir() + "No default editing language.docx", loadOptions);
+
+ int localeIdFarEast = doc.getStyles().getDefaultFont().getLocaleIdFarEast();
+ System.out.println(localeIdFarEast == EditingLanguage.JAPANESE
+         ? "The document either has no any FarEast language set in defaults or it was set to Japanese originally."
+         : "The document default FarEast language was set to another than Japanese language originally, so it is not overridden.");
+ 
+```
 ## Fields
 
 | Field | Description |

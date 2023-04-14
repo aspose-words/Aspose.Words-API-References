@@ -2,9 +2,9 @@
 title: ShapeRenderer
 linktitle: ShapeRenderer
 second_title: Aspose.Words for Java API Reference
-description: Provides methods to render an individual  or  to a raster or vector image or to a Graphics object in Java.
+description: Provides methods to render an individual Shape or GroupShape to a raster or vector image or to a Graphics object in Java.
 type: docs
-weight: 526
+weight: 529
 url: /java/com.aspose.words/shaperenderer/
 ---
 
@@ -87,6 +87,8 @@ public Rectangle getBoundsInPixels(float scale, float dpi)
 
 Calculates the bounds of the shape in pixels for a specified zoom factor and resolution.
 
+ **Remarks:** 
+
 This method converts [getBoundsInPoints()](../../com.aspose.words/noderendererbase/\#getBoundsInPoints) into rectangle in pixels.
 
 **Parameters:**
@@ -97,6 +99,48 @@ This method converts [getBoundsInPoints()](../../com.aspose.words/noderendererba
 
 **Returns:**
 java.awt.Rectangle - The actual (as rendered on the page) bounding box of the shape in pixels.
+
+ **Examples:** 
+
+Shows how to measure and scale shapes.
+
+```
+
+ Document doc = new Document(getMyDir() + "Office math.docx");
+
+ OfficeMath officeMath = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true);
+ OfficeMathRenderer renderer = new OfficeMathRenderer(officeMath);
+
+ Assert.assertEquals(119.0f, renderer.getBoundsInPoints().getWidth(), 0.2f);
+ Assert.assertEquals(13.0f, renderer.getBoundsInPoints().getHeight(), 0.1f);
+
+ // Shapes with transparent parts may contain different values in the "OpaqueBoundsInPoints" properties.
+ Assert.assertEquals(119.0f, renderer.getOpaqueBoundsInPoints().getWidth(), 0.2f);
+ Assert.assertEquals(14.2f, renderer.getOpaqueBoundsInPoints().getHeight(), 0.1f);
+
+ // Get the shape size in pixels, with linear scaling to a specific DPI.
+ Rectangle bounds = renderer.getBoundsInPixels(1.0f, 96.0f);
+
+ Assert.assertEquals(159.0, bounds.getWidth());
+ Assert.assertEquals(18.0, bounds.getHeight());
+
+ // Get the shape size in pixels, but with a different DPI for the horizontal and vertical dimensions.
+ bounds = renderer.getBoundsInPixels(1.0f, 96.0f, 150.0f);
+ Assert.assertEquals(159.0, bounds.getWidth());
+ Assert.assertEquals(28.0, bounds.getHeight());
+
+ // The opaque bounds may vary here also.
+ bounds = renderer.getOpaqueBoundsInPixels(1.0f, 96.0f);
+
+ Assert.assertEquals(159.0, bounds.getWidth());
+ Assert.assertEquals(18.0, bounds.getHeight());
+
+ bounds = renderer.getOpaqueBoundsInPixels(1.0f, 96.0f, 150.0f);
+
+ Assert.assertEquals(159.0, bounds.getWidth());
+ Assert.assertEquals(30.0, bounds.getHeight());
+ 
+```
 ### getBoundsInPixels(float scale, float horizontalDpi, float verticalDpi) {#getBoundsInPixels-float-float-float}
 ```
 public Rectangle getBoundsInPixels(float scale, float horizontalDpi, float verticalDpi)
@@ -104,6 +148,8 @@ public Rectangle getBoundsInPixels(float scale, float horizontalDpi, float verti
 
 
 Calculates the bounds of the shape in pixels for a specified zoom factor and resolution.
+
+ **Remarks:** 
 
 This method converts [getBoundsInPoints()](../../com.aspose.words/noderendererbase/\#getBoundsInPoints) into rectangle in pixels.
 
@@ -116,6 +162,48 @@ This method converts [getBoundsInPoints()](../../com.aspose.words/noderendererba
 
 **Returns:**
 java.awt.Rectangle - The actual (as rendered on the page) bounding box of the shape in pixels.
+
+ **Examples:** 
+
+Shows how to measure and scale shapes.
+
+```
+
+ Document doc = new Document(getMyDir() + "Office math.docx");
+
+ OfficeMath officeMath = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true);
+ OfficeMathRenderer renderer = new OfficeMathRenderer(officeMath);
+
+ Assert.assertEquals(119.0f, renderer.getBoundsInPoints().getWidth(), 0.2f);
+ Assert.assertEquals(13.0f, renderer.getBoundsInPoints().getHeight(), 0.1f);
+
+ // Shapes with transparent parts may contain different values in the "OpaqueBoundsInPoints" properties.
+ Assert.assertEquals(119.0f, renderer.getOpaqueBoundsInPoints().getWidth(), 0.2f);
+ Assert.assertEquals(14.2f, renderer.getOpaqueBoundsInPoints().getHeight(), 0.1f);
+
+ // Get the shape size in pixels, with linear scaling to a specific DPI.
+ Rectangle bounds = renderer.getBoundsInPixels(1.0f, 96.0f);
+
+ Assert.assertEquals(159.0, bounds.getWidth());
+ Assert.assertEquals(18.0, bounds.getHeight());
+
+ // Get the shape size in pixels, but with a different DPI for the horizontal and vertical dimensions.
+ bounds = renderer.getBoundsInPixels(1.0f, 96.0f, 150.0f);
+ Assert.assertEquals(159.0, bounds.getWidth());
+ Assert.assertEquals(28.0, bounds.getHeight());
+
+ // The opaque bounds may vary here also.
+ bounds = renderer.getOpaqueBoundsInPixels(1.0f, 96.0f);
+
+ Assert.assertEquals(159.0, bounds.getWidth());
+ Assert.assertEquals(18.0, bounds.getHeight());
+
+ bounds = renderer.getOpaqueBoundsInPixels(1.0f, 96.0f, 150.0f);
+
+ Assert.assertEquals(159.0, bounds.getWidth());
+ Assert.assertEquals(30.0, bounds.getHeight());
+ 
+```
 ### getBoundsInPoints() {#getBoundsInPoints}
 ```
 public Rectangle2D.Float getBoundsInPoints()
@@ -124,7 +212,51 @@ public Rectangle2D.Float getBoundsInPoints()
 
 Gets the actual bounds of the shape in points.
 
+ **Remarks:** 
+
 This property returns the actual (as rendered on the page) bounding box of the shape. The bounds takes into account shape rotation (if any).
+
+ **Examples:** 
+
+Shows how to measure and scale shapes.
+
+```
+
+ Document doc = new Document(getMyDir() + "Office math.docx");
+
+ OfficeMath officeMath = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true);
+ OfficeMathRenderer renderer = new OfficeMathRenderer(officeMath);
+
+ Assert.assertEquals(119.0f, renderer.getBoundsInPoints().getWidth(), 0.2f);
+ Assert.assertEquals(13.0f, renderer.getBoundsInPoints().getHeight(), 0.1f);
+
+ // Shapes with transparent parts may contain different values in the "OpaqueBoundsInPoints" properties.
+ Assert.assertEquals(119.0f, renderer.getOpaqueBoundsInPoints().getWidth(), 0.2f);
+ Assert.assertEquals(14.2f, renderer.getOpaqueBoundsInPoints().getHeight(), 0.1f);
+
+ // Get the shape size in pixels, with linear scaling to a specific DPI.
+ Rectangle bounds = renderer.getBoundsInPixels(1.0f, 96.0f);
+
+ Assert.assertEquals(159.0, bounds.getWidth());
+ Assert.assertEquals(18.0, bounds.getHeight());
+
+ // Get the shape size in pixels, but with a different DPI for the horizontal and vertical dimensions.
+ bounds = renderer.getBoundsInPixels(1.0f, 96.0f, 150.0f);
+ Assert.assertEquals(159.0, bounds.getWidth());
+ Assert.assertEquals(28.0, bounds.getHeight());
+
+ // The opaque bounds may vary here also.
+ bounds = renderer.getOpaqueBoundsInPixels(1.0f, 96.0f);
+
+ Assert.assertEquals(159.0, bounds.getWidth());
+ Assert.assertEquals(18.0, bounds.getHeight());
+
+ bounds = renderer.getOpaqueBoundsInPixels(1.0f, 96.0f, 150.0f);
+
+ Assert.assertEquals(159.0, bounds.getWidth());
+ Assert.assertEquals(30.0, bounds.getHeight());
+ 
+```
 
 **Returns:**
 java.awt.geom.Rectangle2D.Float - The actual bounds of the shape in points.
@@ -146,6 +278,8 @@ public Rectangle getOpaqueBoundsInPixels(float scale, float dpi)
 
 Calculates the opaque bounds of the shape in pixels for a specified zoom factor and resolution.
 
+ **Remarks:** 
+
 This method converts [getOpaqueBoundsInPoints()](../../com.aspose.words/noderendererbase/\#getOpaqueBoundsInPoints) into rectangle in pixels and it is useful when you want to create a bitmap for rendering the shape with only opaque part of the shape.
 
 **Parameters:**
@@ -156,6 +290,48 @@ This method converts [getOpaqueBoundsInPoints()](../../com.aspose.words/noderend
 
 **Returns:**
 java.awt.Rectangle - The opaque rectangle of the shape in pixels.
+
+ **Examples:** 
+
+Shows how to measure and scale shapes.
+
+```
+
+ Document doc = new Document(getMyDir() + "Office math.docx");
+
+ OfficeMath officeMath = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true);
+ OfficeMathRenderer renderer = new OfficeMathRenderer(officeMath);
+
+ Assert.assertEquals(119.0f, renderer.getBoundsInPoints().getWidth(), 0.2f);
+ Assert.assertEquals(13.0f, renderer.getBoundsInPoints().getHeight(), 0.1f);
+
+ // Shapes with transparent parts may contain different values in the "OpaqueBoundsInPoints" properties.
+ Assert.assertEquals(119.0f, renderer.getOpaqueBoundsInPoints().getWidth(), 0.2f);
+ Assert.assertEquals(14.2f, renderer.getOpaqueBoundsInPoints().getHeight(), 0.1f);
+
+ // Get the shape size in pixels, with linear scaling to a specific DPI.
+ Rectangle bounds = renderer.getBoundsInPixels(1.0f, 96.0f);
+
+ Assert.assertEquals(159.0, bounds.getWidth());
+ Assert.assertEquals(18.0, bounds.getHeight());
+
+ // Get the shape size in pixels, but with a different DPI for the horizontal and vertical dimensions.
+ bounds = renderer.getBoundsInPixels(1.0f, 96.0f, 150.0f);
+ Assert.assertEquals(159.0, bounds.getWidth());
+ Assert.assertEquals(28.0, bounds.getHeight());
+
+ // The opaque bounds may vary here also.
+ bounds = renderer.getOpaqueBoundsInPixels(1.0f, 96.0f);
+
+ Assert.assertEquals(159.0, bounds.getWidth());
+ Assert.assertEquals(18.0, bounds.getHeight());
+
+ bounds = renderer.getOpaqueBoundsInPixels(1.0f, 96.0f, 150.0f);
+
+ Assert.assertEquals(159.0, bounds.getWidth());
+ Assert.assertEquals(30.0, bounds.getHeight());
+ 
+```
 ### getOpaqueBoundsInPixels(float scale, float horizontalDpi, float verticalDpi) {#getOpaqueBoundsInPixels-float-float-float}
 ```
 public Rectangle getOpaqueBoundsInPixels(float scale, float horizontalDpi, float verticalDpi)
@@ -163,6 +339,8 @@ public Rectangle getOpaqueBoundsInPixels(float scale, float horizontalDpi, float
 
 
 Calculates the opaque bounds of the shape in pixels for a specified zoom factor and resolution.
+
+ **Remarks:** 
 
 This method converts [getOpaqueBoundsInPoints()](../../com.aspose.words/noderendererbase/\#getOpaqueBoundsInPoints) into rectangle in pixels and it is useful when you want to create a bitmap for rendering the shape with only opaque part of the shape.
 
@@ -175,6 +353,48 @@ This method converts [getOpaqueBoundsInPoints()](../../com.aspose.words/noderend
 
 **Returns:**
 java.awt.Rectangle - The opaque rectangle of the shape in pixels.
+
+ **Examples:** 
+
+Shows how to measure and scale shapes.
+
+```
+
+ Document doc = new Document(getMyDir() + "Office math.docx");
+
+ OfficeMath officeMath = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true);
+ OfficeMathRenderer renderer = new OfficeMathRenderer(officeMath);
+
+ Assert.assertEquals(119.0f, renderer.getBoundsInPoints().getWidth(), 0.2f);
+ Assert.assertEquals(13.0f, renderer.getBoundsInPoints().getHeight(), 0.1f);
+
+ // Shapes with transparent parts may contain different values in the "OpaqueBoundsInPoints" properties.
+ Assert.assertEquals(119.0f, renderer.getOpaqueBoundsInPoints().getWidth(), 0.2f);
+ Assert.assertEquals(14.2f, renderer.getOpaqueBoundsInPoints().getHeight(), 0.1f);
+
+ // Get the shape size in pixels, with linear scaling to a specific DPI.
+ Rectangle bounds = renderer.getBoundsInPixels(1.0f, 96.0f);
+
+ Assert.assertEquals(159.0, bounds.getWidth());
+ Assert.assertEquals(18.0, bounds.getHeight());
+
+ // Get the shape size in pixels, but with a different DPI for the horizontal and vertical dimensions.
+ bounds = renderer.getBoundsInPixels(1.0f, 96.0f, 150.0f);
+ Assert.assertEquals(159.0, bounds.getWidth());
+ Assert.assertEquals(28.0, bounds.getHeight());
+
+ // The opaque bounds may vary here also.
+ bounds = renderer.getOpaqueBoundsInPixels(1.0f, 96.0f);
+
+ Assert.assertEquals(159.0, bounds.getWidth());
+ Assert.assertEquals(18.0, bounds.getHeight());
+
+ bounds = renderer.getOpaqueBoundsInPixels(1.0f, 96.0f, 150.0f);
+
+ Assert.assertEquals(159.0, bounds.getWidth());
+ Assert.assertEquals(30.0, bounds.getHeight());
+ 
+```
 ### getOpaqueBoundsInPoints() {#getOpaqueBoundsInPoints}
 ```
 public Rectangle2D.Float getOpaqueBoundsInPoints()
@@ -183,7 +403,51 @@ public Rectangle2D.Float getOpaqueBoundsInPoints()
 
 Gets the opaque bounds of the shape in points.
 
+ **Remarks:** 
+
 This property returns the opaque (i.e. transparent parts of the shape are ignored) bounding box of the shape. The bounds takes the shape rotation into account.
+
+ **Examples:** 
+
+Shows how to measure and scale shapes.
+
+```
+
+ Document doc = new Document(getMyDir() + "Office math.docx");
+
+ OfficeMath officeMath = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true);
+ OfficeMathRenderer renderer = new OfficeMathRenderer(officeMath);
+
+ Assert.assertEquals(119.0f, renderer.getBoundsInPoints().getWidth(), 0.2f);
+ Assert.assertEquals(13.0f, renderer.getBoundsInPoints().getHeight(), 0.1f);
+
+ // Shapes with transparent parts may contain different values in the "OpaqueBoundsInPoints" properties.
+ Assert.assertEquals(119.0f, renderer.getOpaqueBoundsInPoints().getWidth(), 0.2f);
+ Assert.assertEquals(14.2f, renderer.getOpaqueBoundsInPoints().getHeight(), 0.1f);
+
+ // Get the shape size in pixels, with linear scaling to a specific DPI.
+ Rectangle bounds = renderer.getBoundsInPixels(1.0f, 96.0f);
+
+ Assert.assertEquals(159.0, bounds.getWidth());
+ Assert.assertEquals(18.0, bounds.getHeight());
+
+ // Get the shape size in pixels, but with a different DPI for the horizontal and vertical dimensions.
+ bounds = renderer.getBoundsInPixels(1.0f, 96.0f, 150.0f);
+ Assert.assertEquals(159.0, bounds.getWidth());
+ Assert.assertEquals(28.0, bounds.getHeight());
+
+ // The opaque bounds may vary here also.
+ bounds = renderer.getOpaqueBoundsInPixels(1.0f, 96.0f);
+
+ Assert.assertEquals(159.0, bounds.getWidth());
+ Assert.assertEquals(18.0, bounds.getHeight());
+
+ bounds = renderer.getOpaqueBoundsInPixels(1.0f, 96.0f, 150.0f);
+
+ Assert.assertEquals(159.0, bounds.getWidth());
+ Assert.assertEquals(30.0, bounds.getHeight());
+ 
+```
 
 **Returns:**
 java.awt.geom.Rectangle2D.Float - The opaque bounds of the shape in points.
@@ -195,6 +459,8 @@ public Dimension getSizeInPixels(float scale, float dpi)
 
 Calculates the size of the shape in pixels for a specified zoom factor and resolution.
 
+ **Remarks:** 
+
 This method converts [getSizeInPoints()](../../com.aspose.words/noderendererbase/\#getSizeInPoints) into size in pixels and it is useful when you want to create a bitmap for rendering the shape neatly onto the bitmap.
 
 **Parameters:**
@@ -205,6 +471,48 @@ This method converts [getSizeInPoints()](../../com.aspose.words/noderendererbase
 
 **Returns:**
 java.awt.Dimension - The size of the shape in pixels.
+
+ **Examples:** 
+
+Shows how to measure and scale shapes.
+
+```
+
+ Document doc = new Document(getMyDir() + "Office math.docx");
+
+ OfficeMath officeMath = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true);
+ OfficeMathRenderer renderer = new OfficeMathRenderer(officeMath);
+
+ Assert.assertEquals(119.0f, renderer.getBoundsInPoints().getWidth(), 0.2f);
+ Assert.assertEquals(13.0f, renderer.getBoundsInPoints().getHeight(), 0.1f);
+
+ // Shapes with transparent parts may contain different values in the "OpaqueBoundsInPoints" properties.
+ Assert.assertEquals(119.0f, renderer.getOpaqueBoundsInPoints().getWidth(), 0.2f);
+ Assert.assertEquals(14.2f, renderer.getOpaqueBoundsInPoints().getHeight(), 0.1f);
+
+ // Get the shape size in pixels, with linear scaling to a specific DPI.
+ Rectangle bounds = renderer.getBoundsInPixels(1.0f, 96.0f);
+
+ Assert.assertEquals(159.0, bounds.getWidth());
+ Assert.assertEquals(18.0, bounds.getHeight());
+
+ // Get the shape size in pixels, but with a different DPI for the horizontal and vertical dimensions.
+ bounds = renderer.getBoundsInPixels(1.0f, 96.0f, 150.0f);
+ Assert.assertEquals(159.0, bounds.getWidth());
+ Assert.assertEquals(28.0, bounds.getHeight());
+
+ // The opaque bounds may vary here also.
+ bounds = renderer.getOpaqueBoundsInPixels(1.0f, 96.0f);
+
+ Assert.assertEquals(159.0, bounds.getWidth());
+ Assert.assertEquals(18.0, bounds.getHeight());
+
+ bounds = renderer.getOpaqueBoundsInPixels(1.0f, 96.0f, 150.0f);
+
+ Assert.assertEquals(159.0, bounds.getWidth());
+ Assert.assertEquals(30.0, bounds.getHeight());
+ 
+```
 ### getSizeInPixels(float scale, float horizontalDpi, float verticalDpi) {#getSizeInPixels-float-float-float}
 ```
 public Dimension getSizeInPixels(float scale, float horizontalDpi, float verticalDpi)
@@ -212,6 +520,8 @@ public Dimension getSizeInPixels(float scale, float horizontalDpi, float vertica
 
 
 Calculates the size of the shape in pixels for a specified zoom factor and resolution.
+
+ **Remarks:** 
 
 This method converts [getSizeInPoints()](../../com.aspose.words/noderendererbase/\#getSizeInPoints) into size in pixels and it is useful when you want to create a bitmap for rendering the shape neatly onto the bitmap.
 
@@ -224,6 +534,48 @@ This method converts [getSizeInPoints()](../../com.aspose.words/noderendererbase
 
 **Returns:**
 java.awt.Dimension - The size of the shape in pixels.
+
+ **Examples:** 
+
+Shows how to measure and scale shapes.
+
+```
+
+ Document doc = new Document(getMyDir() + "Office math.docx");
+
+ OfficeMath officeMath = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true);
+ OfficeMathRenderer renderer = new OfficeMathRenderer(officeMath);
+
+ Assert.assertEquals(119.0f, renderer.getBoundsInPoints().getWidth(), 0.2f);
+ Assert.assertEquals(13.0f, renderer.getBoundsInPoints().getHeight(), 0.1f);
+
+ // Shapes with transparent parts may contain different values in the "OpaqueBoundsInPoints" properties.
+ Assert.assertEquals(119.0f, renderer.getOpaqueBoundsInPoints().getWidth(), 0.2f);
+ Assert.assertEquals(14.2f, renderer.getOpaqueBoundsInPoints().getHeight(), 0.1f);
+
+ // Get the shape size in pixels, with linear scaling to a specific DPI.
+ Rectangle bounds = renderer.getBoundsInPixels(1.0f, 96.0f);
+
+ Assert.assertEquals(159.0, bounds.getWidth());
+ Assert.assertEquals(18.0, bounds.getHeight());
+
+ // Get the shape size in pixels, but with a different DPI for the horizontal and vertical dimensions.
+ bounds = renderer.getBoundsInPixels(1.0f, 96.0f, 150.0f);
+ Assert.assertEquals(159.0, bounds.getWidth());
+ Assert.assertEquals(28.0, bounds.getHeight());
+
+ // The opaque bounds may vary here also.
+ bounds = renderer.getOpaqueBoundsInPixels(1.0f, 96.0f);
+
+ Assert.assertEquals(159.0, bounds.getWidth());
+ Assert.assertEquals(18.0, bounds.getHeight());
+
+ bounds = renderer.getOpaqueBoundsInPixels(1.0f, 96.0f, 150.0f);
+
+ Assert.assertEquals(159.0, bounds.getWidth());
+ Assert.assertEquals(30.0, bounds.getHeight());
+ 
+```
 ### getSizeInPoints() {#getSizeInPoints}
 ```
 public Point2D.Float getSizeInPoints()
@@ -232,7 +584,51 @@ public Point2D.Float getSizeInPoints()
 
 Gets the actual size of the shape in points.
 
+ **Remarks:** 
+
 This property returns the size of the actual (as rendered on the page) bounding box of the shape. The size takes into account shape rotation (if any).
+
+ **Examples:** 
+
+Shows how to measure and scale shapes.
+
+```
+
+ Document doc = new Document(getMyDir() + "Office math.docx");
+
+ OfficeMath officeMath = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true);
+ OfficeMathRenderer renderer = new OfficeMathRenderer(officeMath);
+
+ Assert.assertEquals(119.0f, renderer.getBoundsInPoints().getWidth(), 0.2f);
+ Assert.assertEquals(13.0f, renderer.getBoundsInPoints().getHeight(), 0.1f);
+
+ // Shapes with transparent parts may contain different values in the "OpaqueBoundsInPoints" properties.
+ Assert.assertEquals(119.0f, renderer.getOpaqueBoundsInPoints().getWidth(), 0.2f);
+ Assert.assertEquals(14.2f, renderer.getOpaqueBoundsInPoints().getHeight(), 0.1f);
+
+ // Get the shape size in pixels, with linear scaling to a specific DPI.
+ Rectangle bounds = renderer.getBoundsInPixels(1.0f, 96.0f);
+
+ Assert.assertEquals(159.0, bounds.getWidth());
+ Assert.assertEquals(18.0, bounds.getHeight());
+
+ // Get the shape size in pixels, but with a different DPI for the horizontal and vertical dimensions.
+ bounds = renderer.getBoundsInPixels(1.0f, 96.0f, 150.0f);
+ Assert.assertEquals(159.0, bounds.getWidth());
+ Assert.assertEquals(28.0, bounds.getHeight());
+
+ // The opaque bounds may vary here also.
+ bounds = renderer.getOpaqueBoundsInPixels(1.0f, 96.0f);
+
+ Assert.assertEquals(159.0, bounds.getWidth());
+ Assert.assertEquals(18.0, bounds.getHeight());
+
+ bounds = renderer.getOpaqueBoundsInPixels(1.0f, 96.0f, 150.0f);
+
+ Assert.assertEquals(159.0, bounds.getWidth());
+ Assert.assertEquals(30.0, bounds.getHeight());
+ 
+```
 
 **Returns:**
 java.awt.geom.Point2D.Float - The actual size of the shape in points.
@@ -325,7 +721,28 @@ Renders the shape and saves into an image.  Renders the shape into an image and 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | java.lang.String | The name for the image file. If a file with the specified name already exists, the existing file is overwritten. |
-| saveOptions | [ImageSaveOptions](../../com.aspose.words/imagesaveoptions/) | Specifies the options that control how the shape is rendered and saved. Can be  null . |
+| saveOptions | [ImageSaveOptions](../../com.aspose.words/imagesaveoptions/) | Specifies the options that control how the shape is rendered and saved. Can be  null .
+
+ **Examples:** 
+
+Shows how to render an Office Math object into an image file in the local file system.
+
+```
+
+ Document doc = new Document(getMyDir() + "Office math.docx");
+
+ OfficeMath math = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true);
+
+ // Create an "ImageSaveOptions" object to pass to the node renderer's "Save" method to modify
+ // how it renders the OfficeMath node into an image.
+ ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.PNG);
+
+ // Set the "Scale" property to 5 to render the object to five times its original size.
+ saveOptions.setScale(5f);
+
+ math.getMathRenderer().save(getArtifactsDir() + "Shape.RenderOfficeMath.png", saveOptions);
+ 
+``` |
 
 ### toString() {#toString}
 ```

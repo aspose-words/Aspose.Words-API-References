@@ -4,7 +4,7 @@ linktitle: OdsoFieldMapData
 second_title: Aspose.Words for Java API Reference
 description: Specifies how a column in the external data source shall be mapped to the predefined merge fields within the document in Java.
 type: docs
-weight: 419
+weight: 420
 url: /java/com.aspose.words/odsofieldmapdata/
 ---
 
@@ -20,6 +20,8 @@ public class OdsoFieldMapData implements Cloneable
 Specifies how a column in the external data source shall be mapped to the predefined merge fields within the document.
 
 To learn more, visit the [ Mail Merge and Reporting ][Mail Merge and Reporting] documentation article.
+
+ **Remarks:** 
 
 Microsoft Word provides some predefined merge field names that it allows to insert into a document as MERGEFIELD or use in the ADDRESSBLOCK or GREETINGLINE fields. The information specified in [OdsoFieldMapData](../../com.aspose.words/odsofieldmapdata/) allows to map one column in the external data source to a single predefined merge field.
 

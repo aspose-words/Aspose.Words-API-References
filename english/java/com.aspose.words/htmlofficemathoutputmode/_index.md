@@ -4,7 +4,7 @@ linktitle: HtmlOfficeMathOutputMode
 second_title: Aspose.Words for Java API Reference
 description: Specifies how Aspose.Words exports OfficeMath to HTML MHTML and EPUB in Java.
 type: docs
-weight: 332
+weight: 333
 url: /java/com.aspose.words/htmlofficemathoutputmode/
 ---
 
@@ -15,6 +15,31 @@ public class HtmlOfficeMathOutputMode
 ```
 
 Specifies how Aspose.Words exports OfficeMath to HTML, MHTML and EPUB.
+
+ **Examples:** 
+
+Shows how to specify how to export Microsoft OfficeMath objects to HTML.
+
+```
+
+ Document doc = new Document(getMyDir() + "Office math.docx");
+
+ // When we save the document to HTML, we can pass a SaveOptions object
+ // to determine how the saving operation handles OfficeMath objects.
+ // Setting the "OfficeMathOutputMode" property to "HtmlOfficeMathOutputMode.Image"
+ // will render each OfficeMath object into an image.
+ // Setting the "OfficeMathOutputMode" property to "HtmlOfficeMathOutputMode.MathML"
+ // will convert each OfficeMath object into MathML.
+ // Setting the "OfficeMathOutputMode" property to "HtmlOfficeMathOutputMode.Text"
+ // will represent each OfficeMath formula using plain HTML text.
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setOfficeMathOutputMode(htmlOfficeMathOutputMode);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.OfficeMathOutputMode.html", options);
+ 
+```
 ## Fields
 
 | Field | Description |

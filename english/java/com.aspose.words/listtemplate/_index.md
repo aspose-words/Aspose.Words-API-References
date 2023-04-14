@@ -4,7 +4,7 @@ linktitle: ListTemplate
 second_title: Aspose.Words for Java API Reference
 description: Specifies one of the predefined list formats available in Microsoft Word in Java.
 type: docs
-weight: 378
+weight: 379
 url: /java/com.aspose.words/listtemplate/
 ---
 
@@ -16,9 +16,145 @@ public class ListTemplate
 
 Specifies one of the predefined list formats available in Microsoft Word.
 
+ **Remarks:** 
+
 A list template value is used as a parameter into the **M:Aspose.Words.Lists.ListCollection.Add(Aspose.Words.Lists.ListTemplate)** method.
 
 Aspose.Words list templates correspond to the 21 list templates available in the Bullets and Numbering dialog box in Microsoft Word 2003.
+
+ **Examples:** 
+
+Shows how to create a document that contains all outline headings list templates.
+
+```
+
+ public void outlineHeadingTemplates() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     List list = doc.getLists().add(ListTemplate.OUTLINE_HEADINGS_ARTICLE_SECTION);
+     addOutlineHeadingParagraphs(builder, list, "Aspose.Words Outline - \"Article Section\"");
+
+     list = doc.getLists().add(ListTemplate.OUTLINE_HEADINGS_LEGAL);
+     addOutlineHeadingParagraphs(builder, list, "Aspose.Words Outline - \"Legal\"");
+
+     builder.insertBreak(BreakType.PAGE_BREAK);
+
+     list = doc.getLists().add(ListTemplate.OUTLINE_HEADINGS_NUMBERS);
+     addOutlineHeadingParagraphs(builder, list, "Aspose.Words Outline - \"Numbers\"");
+
+     list = doc.getLists().add(ListTemplate.OUTLINE_HEADINGS_CHAPTER);
+     addOutlineHeadingParagraphs(builder, list, "Aspose.Words Outline - \"Chapters\"");
+
+     doc.save(getArtifactsDir() + "Lists.OutlineHeadingTemplates.docx");
+ }
+
+ private static void addOutlineHeadingParagraphs(final DocumentBuilder builder, final List list, final String title) {
+     builder.getParagraphFormat().clearFormatting();
+     builder.writeln(title);
+
+     for (int i = 0; i < 9; i++) {
+         builder.getListFormat().setList(list);
+         builder.getListFormat().setListLevelNumber(i);
+
+         String styleName = "Heading " + (i + 1);
+         builder.getParagraphFormat().setStyleName(styleName);
+         builder.writeln(styleName);
+     }
+
+     builder.getListFormat().removeNumbers();
+ }
+ 
+```
+
+Shows how to restart numbering in a list by copying a list.
+
+```
+
+ Document doc = new Document();
+
+ // A list allows us to organize and decorate sets of paragraphs with prefix symbols and indents.
+ // We can create nested lists by increasing the indent level.
+ // We can begin and end a list by using a document builder's "ListFormat" property.
+ // Each paragraph that we add between a list's start and the end will become an item in the list.
+ // Create a list from a Microsoft Word template, and customize its first list level.
+ List list1 = doc.getLists().add(ListTemplate.NUMBER_ARABIC_PARENTHESIS);
+ list1.getListLevels().get(0).getFont().setColor(Color.RED);
+ list1.getListLevels().get(0).setAlignment(ListLevelAlignment.RIGHT);
+
+ // Apply our list to some paragraphs.
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("List 1 starts below:");
+ builder.getListFormat().setList(list1);
+ builder.writeln("Item 1");
+ builder.writeln("Item 2");
+ builder.getListFormat().removeNumbers();
+
+ // We can add a copy of an existing list to the document's list collection
+ // to create a similar list without making changes to the original.
+ List list2 = doc.getLists().addCopy(list1);
+ list2.getListLevels().get(0).getFont().setColor(Color.BLUE);
+ list2.getListLevels().get(0).setStartAt(10);
+
+ // Apply the second list to new paragraphs.
+ builder.writeln("List 2 starts below:");
+ builder.getListFormat().setList(list2);
+ builder.writeln("Item 1");
+ builder.writeln("Item 2");
+ builder.getListFormat().removeNumbers();
+
+ doc.save(getArtifactsDir() + "Lists.RestartNumberingUsingListCopy.docx");
+ 
+```
+
+Shows how to work with list levels.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Assert.assertFalse(builder.getListFormat().isListItem());
+
+ // A list allows us to organize and decorate sets of paragraphs with prefix symbols and indents.
+ // We can create nested lists by increasing the indent level.
+ // We can begin and end a list by using a document builder's "ListFormat" property.
+ // Each paragraph that we add between a list's start and the end will become an item in the list.
+ // Below are two types of lists that we can create using a document builder.
+ // 1 -  A numbered list:
+ // Numbered lists create a logical order for their paragraphs by numbering each item.
+ builder.getListFormat().setList(doc.getLists().add(ListTemplate.NUMBER_DEFAULT));
+
+ Assert.assertTrue(builder.getListFormat().isListItem());
+
+ // By setting the "ListLevelNumber" property, we can increase the list level
+ // to begin a self-contained sub-list at the current list item.
+ // The Microsoft Word list template called "NumberDefault" uses numbers to create list levels for the first list level.
+ // Deeper list levels use letters and lowercase Roman numerals.
+ for (int i = 0; i < 9; i++) {
+     builder.getListFormat().setListLevelNumber(i);
+     builder.writeln("Level " + i);
+ }
+
+ // 2 -  A bulleted list:
+ // This list will apply an indent and a bullet symbol ("\ufffd") before each paragraph.
+ // Deeper levels of this list will use different symbols, such as "\ufffd" and "?".
+ builder.getListFormat().setList(doc.getLists().add(ListTemplate.BULLET_DEFAULT));
+
+ for (int i = 0; i < 9; i++) {
+     builder.getListFormat().setListLevelNumber(i);
+     builder.writeln("Level " + i);
+ }
+
+ // We can disable list formatting to not format any subsequent paragraphs as lists by un-setting the "List" flag.
+ builder.getListFormat().setList(null);
+
+ Assert.assertFalse(builder.getListFormat().isListItem());
+
+ doc.save(getArtifactsDir() + "Lists.SpecifyListLevel.docx");
+ 
+```
 ## Fields
 
 | Field | Description |

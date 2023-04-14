@@ -2,9 +2,9 @@
 title: HtmlVersion
 linktitle: HtmlVersion
 second_title: Aspose.Words for Java API Reference
-description: Indicates the version of HTML is used when saving the document to  and  formats in Java.
+description: Indicates the version of HTML is used when saving the document to SaveFormat.HTML and SaveFormat.MHTML formats in Java.
 type: docs
-weight: 334
+weight: 335
 url: /java/com.aspose.words/htmlversion/
 ---
 
@@ -15,6 +15,71 @@ public class HtmlVersion
 ```
 
 Indicates the version of HTML is used when saving the document to [SaveFormat.HTML](../../com.aspose.words/saveformat/\#HTML) and [SaveFormat.MHTML](../../com.aspose.words/saveformat/\#MHTML) formats.
+
+ **Examples:** 
+
+Shows how to display a DOCTYPE heading when converting documents to the Xhtml 1.0 transitional standard.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Hello world!");
+
+ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.HTML);
+ {
+     options.setHtmlVersion(HtmlVersion.XHTML);
+     options.setExportXhtmlTransitional(showDoctypeDeclaration);
+     options.setPrettyFormat(true);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.ExportXhtmlTransitional.html", options);
+
+ // Our document will only contain a DOCTYPE declaration heading if we have set the "ExportXhtmlTransitional" flag to "true".
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.ExportXhtmlTransitional.html"), StandardCharsets.UTF_8);
+
+ if (showDoctypeDeclaration)
+     Assert.assertTrue(outDocContents.contains(
+             "\r\n" +
+                     "\r\n" +
+                     ""));
+ else
+     Assert.assertTrue(outDocContents.contains(""));
+ 
+```
+
+Shows how to save a document to a specific version of HTML.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.HTML);
+ {
+     options.setHtmlVersion(htmlVersion);
+     options.setPrettyFormat(true);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.HtmlVersions.html", options);
+
+ // Our HTML documents will have minor differences to be compatible with different HTML versions.
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.HtmlVersions.html"), StandardCharsets.UTF_8);
+
+ switch (htmlVersion) {
+     case HtmlVersion.HTML_5:
+         Assert.assertTrue(outDocContents.contains(""));
+         Assert.assertTrue(outDocContents.contains(""));
+         Assert.assertTrue(outDocContents.contains(" "));
+         Assert.assertTrue(outDocContents.contains(" "));
+         break;
+     case HtmlVersion.XHTML:
+         Assert.assertTrue(outDocContents.contains(""));
+         Assert.assertTrue(outDocContents.contains(" "));
+         break;
+ }
+ 
+```
 ## Fields
 
 | Field | Description |
@@ -54,6 +119,8 @@ public static int XHTML
 
 
 Saves the document in compliance with the XHTML 1.0 Transitional standard.
+
+ **Remarks:** 
 
 Aspose.Words aims to output XHTML according to the XHTML 1.0 Transitional standard, but the output will not always validate against the DTD. Some structures inside a Microsoft Word document are hard or impossible to map to a document that will validate against the XHTML schema. For example, XHTML does not allow nested lists (UL cannot be nested inside another UL element), but in Microsoft Word document multilevel lists occur quite often.
 

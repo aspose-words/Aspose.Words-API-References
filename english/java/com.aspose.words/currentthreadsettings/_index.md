@@ -4,7 +4,7 @@ linktitle: CurrentThreadSettings
 second_title: Aspose.Words for Java API Reference
 description: This class helps to set thread-isolated Locale and Time Zone for a Aspose.Words application in Java.
 type: docs
-weight: 101
+weight: 102
 url: /java/com.aspose.words/currentthreadsettings/
 ---
 

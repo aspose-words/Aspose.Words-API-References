@@ -4,7 +4,7 @@ linktitle: FieldIfComparisonResult
 second_title: Aspose.Words for Java API Reference
 description: Specifies the result of the IF field condition evaluation in Java.
 type: docs
-weight: 202
+weight: 203
 url: /java/com.aspose.words/fieldifcomparisonresult/
 ---
 
@@ -15,6 +15,51 @@ public class FieldIfComparisonResult
 ```
 
 Specifies the result of the IF field condition evaluation.
+
+ **Examples:** 
+
+Shows how to insert an IF field.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.write("Statement 1: ");
+ FieldIf field = (FieldIf) builder.insertField(FieldType.FIELD_IF, true);
+ field.setLeftExpression("0");
+ field.setComparisonOperator("=");
+ field.setRightExpression("1");
+
+ // The IF field will display a string from either its "TrueText" property,
+ // or its "FalseText" property, depending on the truth of the statement that we have constructed.
+ field.setTrueText("True");
+ field.setFalseText("False");
+ field.update();
+
+ // In this case, "0 = 1" is incorrect, so the displayed result will be "False".
+ Assert.assertEquals(" IF  0 = 1 True False", field.getFieldCode());
+ Assert.assertEquals(FieldIfComparisonResult.FALSE, field.evaluateCondition());
+ Assert.assertEquals("False", field.getResult());
+
+ builder.write("\nStatement 2: ");
+ field = (FieldIf) builder.insertField(FieldType.FIELD_IF, true);
+ field.setLeftExpression("5");
+ field.setComparisonOperator("=");
+ field.setRightExpression("2 + 3");
+ field.setTrueText("True");
+ field.setFalseText("False");
+ field.update();
+
+ // This time the statement is correct, so the displayed result will be "True".
+ Assert.assertEquals(" IF  5 = \"2 + 3\" True False", field.getFieldCode());
+ Assert.assertEquals(FieldIfComparisonResult.TRUE, field.evaluateCondition());
+ Assert.assertEquals("True", field.getResult());
+
+ doc.updateFields();
+ doc.save(getArtifactsDir() + "Field.IF.docx");
+ 
+```
 ## Fields
 
 | Field | Description |

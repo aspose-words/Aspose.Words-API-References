@@ -4,7 +4,7 @@ linktitle: WarningType
 second_title: Aspose.Words for Java API Reference
 description: Specifies the type of a warning that is issued by Aspose.Words during document loading or saving in Java.
 type: docs
-weight: 613
+weight: 616
 url: /java/com.aspose.words/warningtype/
 ---
 
@@ -15,6 +15,58 @@ public class WarningType
 ```
 
 Specifies the type of a warning that is issued by Aspose.Words during document loading or saving.
+
+ **Examples:** 
+
+Shows how to set the property for finding the closest match for a missing font from the available font sources.
+
+```
+
+ public void enableFontSubstitution() throws Exception {
+     // Open a document that contains text formatted with a font that does not exist in any of our font sources.
+     Document doc = new Document(getMyDir() + "Missing font.docx");
+
+     // Assign a callback for handling font substitution warnings.
+     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
+     doc.setWarningCallback(substitutionWarningHandler);
+
+     // Set a default font name and enable font substitution.
+     FontSettings fontSettings = new FontSettings();
+     fontSettings.getSubstitutionSettings().getDefaultFontSubstitution().setDefaultFontName("Arial");
+     fontSettings.getSubstitutionSettings().getFontInfoSubstitution().setEnabled(true);
+
+     // We will get a font substitution warning if we save a document with a missing font.
+     doc.setFontSettings(fontSettings);
+     doc.save(getArtifactsDir() + "FontSettings.EnableFontSubstitution.pdf");
+
+     Iterator warnings = substitutionWarningHandler.FontWarnings.iterator();
+
+     while (warnings.hasNext())
+         System.out.println(warnings.next().getDescription());
+
+     // We can also verify warnings in the collection and clear them.
+     Assert.assertEquals(WarningSource.LAYOUT, substitutionWarningHandler.FontWarnings.get(0).getSource());
+     Assert.assertEquals("Font '28 Days Later' has not been found. Using 'Calibri' font instead. Reason: alternative name from document.",
+             substitutionWarningHandler.FontWarnings.get(0).getDescription());
+
+     substitutionWarningHandler.FontWarnings.clear();
+
+     Assert.assertTrue(substitutionWarningHandler.FontWarnings.getCount() == 0);
+ }
+
+ public static class HandleDocumentSubstitutionWarnings implements IWarningCallback {
+     /// 
+     /// Called every time a warning occurs during loading/saving.
+     /// 
+     public void warning(WarningInfo info) {
+         if (info.getWarningType() == WarningType.FONT_SUBSTITUTION)
+             FontWarnings.warning(info);
+     }
+
+     public WarningInfoCollection FontWarnings = new WarningInfoCollection();
+ }
+ 
+```
 ## Fields
 
 | Field | Description |

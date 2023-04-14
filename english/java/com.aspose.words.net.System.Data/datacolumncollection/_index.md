@@ -2,7 +2,7 @@
 title: DataColumnCollection
 linktitle: DataColumnCollection
 second_title: Aspose.Words for Java API Reference
-description: Represents a collection of  objects for a in Java.
+description: Represents a collection of DataColumn objects for a DataTable in Java.
 type: docs
 weight: 15
 url: /java/com.aspose.words.net.system.data/datacolumncollection/

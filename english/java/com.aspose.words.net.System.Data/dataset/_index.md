@@ -306,7 +306,7 @@ Reads XML schema and data into the DataSet using the specified file and [XmlRead
 | Parameter | Type | Description |
 | --- | --- | --- |
 | xmlPath | java.lang.String | the specified file |
-| readMode | [XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode/) | \{[XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode/) |
+| readMode | [XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode/) | [XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode/) |
 
 **Returns:**
 [XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode/) - mode which was used while reading

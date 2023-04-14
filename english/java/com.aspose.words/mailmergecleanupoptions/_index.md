@@ -4,7 +4,7 @@ linktitle: MailMergeCleanupOptions
 second_title: Aspose.Words for Java API Reference
 description: Specifies options that determine what items are removed during mail merge in Java.
 type: docs
-weight: 384
+weight: 385
 url: /java/com.aspose.words/mailmergecleanupoptions/
 ---
 
@@ -15,6 +15,32 @@ public class MailMergeCleanupOptions
 ```
 
 Specifies options that determine what items are removed during mail merge.
+
+ **Examples:** 
+
+Shows how to automatically remove unmerged merge fields during mail merge.
+
+```
+
+ doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_UNUSED_FIELDS);
+ 
+```
+
+Shows how to make sure empty paragraphs that result from merging fields with no data are removed from the document.
+
+```
+
+ doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS);
+ 
+```
+
+Shows how to instruct the mail merge engine to remove any containing fields from around a merge field during mail merge.
+
+```
+
+ doc.getMailMerge().setCleanupOptions(MailMergeCleanupOptions.REMOVE_CONTAINING_FIELDS);
+ 
+```
 ## Fields
 
 | Field | Description |
@@ -77,7 +103,11 @@ public static int REMOVE_EMPTY_TABLE_ROWS
 ```
 
 
-Specifies whether empty rows that contain mail merge regions should be removed from the document. This option applies only to mail merge with regions.
+Specifies whether empty rows that contain mail merge regions should be removed from the document.
+
+ **Remarks:** 
+
+This option applies only to mail merge with regions.
 
 ### REMOVE_STATIC_FIELDS {#REMOVE-STATIC-FIELDS}
 ```
@@ -85,7 +115,11 @@ public static int REMOVE_STATIC_FIELDS
 ```
 
 
-Specifies whether static fields should be removed from the document. Static fields are fields, which results remain the same upon any document change. Fields, which do not store their results in a document and are calculated on the fly (like [FieldType.FIELD\_LIST\_NUM](../../com.aspose.words/fieldtype/\#FIELD-LIST-NUM), [FieldType.FIELD\_SYMBOL](../../com.aspose.words/fieldtype/\#FIELD-SYMBOL), etc.) are not considered to be static. Here is the full list of field types, which are not considered to be static:
+Specifies whether static fields should be removed from the document. Static fields are fields, which results remain the same upon any document change. Fields, which do not store their results in a document and are calculated on the fly (like [FieldType.FIELD\_LIST\_NUM](../../com.aspose.words/fieldtype/\#FIELD-LIST-NUM), [FieldType.FIELD\_SYMBOL](../../com.aspose.words/fieldtype/\#FIELD-SYMBOL), etc.) are not considered to be static.
+
+ **Remarks:** 
+
+Here is the full list of field types, which are not considered to be static:
 
  *  [FieldType.FIELD\_ADVANCE](../../com.aspose.words/fieldtype/\#FIELD-ADVANCE)
  *  [FieldType.FIELD\_AUTO\_NUM](../../com.aspose.words/fieldtype/\#FIELD-AUTO-NUM)
@@ -135,7 +169,11 @@ public static int REMOVE_UNUSED_REGIONS
 ```
 
 
-Specifies whether unused mail merge regions should be removed from the document. This option applies only to mail merge with regions.
+Specifies whether unused mail merge regions should be removed from the document.
+
+ **Remarks:** 
+
+This option applies only to mail merge with regions.
 
 ### length {#length}
 ```

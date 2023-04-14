@@ -4,7 +4,7 @@ linktitle: OdtSaveMeasureUnit
 second_title: Aspose.Words for Java API Reference
 description: Specified units of measure to apply to measurable document content such as shape widths and other during saving in Java.
 type: docs
-weight: 424
+weight: 425
 url: /java/com.aspose.words/odtsavemeasureunit/
 ---
 
@@ -15,6 +15,28 @@ public class OdtSaveMeasureUnit
 ```
 
 Specified units of measure to apply to measurable document content such as shape, widths and other during saving.
+
+ **Examples:** 
+
+Shows how to use different measurement units to define style parameters of a saved ODT document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ // When we export the document to .odt, we can use an OdtSaveOptions object to modify how we save the document.
+ // We can set the "MeasureUnit" property to "OdtSaveMeasureUnit.Centimeters"
+ // to define content such as style parameters using the metric system, which Open Office uses.
+ // We can set the "MeasureUnit" property to "OdtSaveMeasureUnit.Inches"
+ // to define content such as style parameters using the imperial system, which Microsoft Word uses.
+ OdtSaveOptions saveOptions = new OdtSaveOptions();
+ {
+     saveOptions.setMeasureUnit(odtSaveMeasureUnit);
+ }
+
+ doc.save(getArtifactsDir() + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
+ 
+```
 ## Fields
 
 | Field | Description |

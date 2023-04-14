@@ -4,7 +4,7 @@ linktitle: LayoutFlow
 second_title: Aspose.Words for Java API Reference
 description: Determines the flow of the text layout in a textbox in Java.
 type: docs
-weight: 364
+weight: 365
 url: /java/com.aspose.words/layoutflow/
 ---
 
@@ -15,6 +15,30 @@ public class LayoutFlow
 ```
 
 Determines the flow of the text layout in a textbox.
+
+ **Examples:** 
+
+Shows how to add text to a text box, and change its orientation.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape textbox = new Shape(doc, ShapeType.TEXT_BOX);
+ textbox.setWidth(100.0);
+ textbox.setHeight(100.0);
+ textbox.getTextBox().setLayoutFlow(LayoutFlow.BOTTOM_TO_TOP);
+
+ textbox.appendChild(new Paragraph(doc));
+ builder.insertNode(textbox);
+
+ builder.moveTo(textbox.getFirstParagraph());
+ builder.write("This text is flipped 90 degrees to the left.");
+
+ doc.save(getArtifactsDir() + "Drawing.TextBox.docx");
+ 
+```
 ## Fields
 
 | Field | Description |

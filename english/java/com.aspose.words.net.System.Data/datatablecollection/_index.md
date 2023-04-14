@@ -2,7 +2,7 @@
 title: DataTableCollection
 linktitle: DataTableCollection
 second_title: Aspose.Words for Java API Reference
-description: Represents the collection of tables for the in Java.
+description: Represents the collection of tables for the DataSet in Java.
 type: docs
 weight: 26
 url: /java/com.aspose.words.net.system.data/datatablecollection/

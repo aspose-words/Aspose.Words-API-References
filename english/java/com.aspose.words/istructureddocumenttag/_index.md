@@ -2,9 +2,9 @@
 title: IStructuredDocumentTag
 linktitle: IStructuredDocumentTag
 second_title: Aspose.Words for Java API Reference
-description: Interface to define a common data for  and in Java.
+description: Interface to define a common data for StructuredDocumentTag and StructuredDocumentTagRangeStart in Java.
 type: docs
-weight: 665
+weight: 668
 url: /java/com.aspose.words/istructureddocumenttag/
 ---
 ```
@@ -94,7 +94,11 @@ public abstract BuildingBlock getPlaceholder()
 ```
 
 
-Gets the [BuildingBlock](../../com.aspose.words/buildingblock/) containing placeholder text which should be displayed when this SDT run contents are empty, the associated mapped XML element is empty as specified via the [getXmlMapping()](../../com.aspose.words/istructureddocumenttag/\#getXmlMapping) element or the [isShowingPlaceholderText()](../../com.aspose.words/istructureddocumenttag/\#isShowingPlaceholderText) / [isShowingPlaceholderText(boolean)](../../com.aspose.words/istructureddocumenttag/\#isShowingPlaceholderText-boolean) element is true. Can be null, meaning that the placeholder is not applicable for this Sdt.
+Gets the [BuildingBlock](../../com.aspose.words/buildingblock/) containing placeholder text which should be displayed when this SDT run contents are empty, the associated mapped XML element is empty as specified via the [getXmlMapping()](../../com.aspose.words/istructureddocumenttag/\#getXmlMapping) element or the [isShowingPlaceholderText()](../../com.aspose.words/istructureddocumenttag/\#isShowingPlaceholderText) / [isShowingPlaceholderText(boolean)](../../com.aspose.words/istructureddocumenttag/\#isShowingPlaceholderText-boolean) element is true.
+
+ **Remarks:** 
+
+Can be null, meaning that the placeholder is not applicable for this Sdt.
 
 **Returns:**
 [BuildingBlock](../../com.aspose.words/buildingblock/) - The [BuildingBlock](../../com.aspose.words/buildingblock/) containing placeholder text which should be displayed when this SDT run contents are empty, the associated mapped XML element is empty as specified via the [getXmlMapping()](../../com.aspose.words/istructureddocumenttag/\#getXmlMapping) element or the [isShowingPlaceholderText()](../../com.aspose.words/istructureddocumenttag/\#isShowingPlaceholderText) / [isShowingPlaceholderText(boolean)](../../com.aspose.words/istructureddocumenttag/\#isShowingPlaceholderText-boolean) element is true.
@@ -138,6 +142,25 @@ public abstract String getTitle()
 
 Specifies the friendly name associated with this **SDT**. Can not be null.
 
+ **Examples:** 
+
+Shows how to get structured document tag.
+
+```
+
+ Document doc = new Document(getMyDir() + "Structured document tags by id.docx");
+
+ // Get the structured document tag by Id.
+ IStructuredDocumentTag sdt = doc.getRange().getStructuredDocumentTags().getById(1160505028);
+ System.out.println(sdt.isRanged());
+ System.out.println(sdt.getTitle());
+
+ // Get the structured document tag or ranged tag by Title.
+ sdt = doc.getRange().getStructuredDocumentTags().getByTitle("Alias4");
+ System.out.println(sdt.getId());
+ 
+```
+
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
 ### getWordOpenXML() {#getWordOpenXML}
@@ -156,7 +179,11 @@ public abstract XmlMapping getXmlMapping()
 ```
 
 
-Gets an object that represents the mapping of this structured document tag to XML data in a custom XML part of the current document. You can use the [XmlMapping.setMapping(com.aspose.words.CustomXmlPart, java.lang.String, java.lang.String)](../../com.aspose.words/xmlmapping/\#setMapping-com.aspose.words.CustomXmlPart--java.lang.String--java.lang.String) method of this object to map a structured document tag to XML data.
+Gets an object that represents the mapping of this structured document tag to XML data in a custom XML part of the current document.
+
+ **Remarks:** 
+
+You can use the [XmlMapping.setMapping(com.aspose.words.CustomXmlPart, java.lang.String, java.lang.String)](../../com.aspose.words/xmlmapping/\#setMapping-com.aspose.words.CustomXmlPart--java.lang.String--java.lang.String) method of this object to map a structured document tag to XML data.
 
 **Returns:**
 [XmlMapping](../../com.aspose.words/xmlmapping/) - An object that represents the mapping of this structured document tag to XML data in a custom XML part of the current document.
@@ -167,6 +194,25 @@ public abstract boolean isRanged()
 
 
 Returns true if this instance is a ranged structured document tag.
+
+ **Examples:** 
+
+Shows how to get structured document tag.
+
+```
+
+ Document doc = new Document(getMyDir() + "Structured document tags by id.docx");
+
+ // Get the structured document tag by Id.
+ IStructuredDocumentTag sdt = doc.getRange().getStructuredDocumentTags().getById(1160505028);
+ System.out.println(sdt.isRanged());
+ System.out.println(sdt.getTitle());
+
+ // Get the structured document tag or ranged tag by Title.
+ sdt = doc.getRange().getStructuredDocumentTags().getByTitle("Alias4");
+ System.out.println(sdt.getId());
+ 
+```
 
 **Returns:**
 boolean
@@ -271,6 +317,25 @@ public abstract void setTitle(String value)
 
 
 Specifies the friendly name associated with this **SDT**. Can not be null.
+
+ **Examples:** 
+
+Shows how to get structured document tag.
+
+```
+
+ Document doc = new Document(getMyDir() + "Structured document tags by id.docx");
+
+ // Get the structured document tag by Id.
+ IStructuredDocumentTag sdt = doc.getRange().getStructuredDocumentTags().getById(1160505028);
+ System.out.println(sdt.isRanged());
+ System.out.println(sdt.getTitle());
+
+ // Get the structured document tag or ranged tag by Title.
+ sdt = doc.getRange().getStructuredDocumentTags().getByTitle("Alias4");
+ System.out.println(sdt.getId());
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |

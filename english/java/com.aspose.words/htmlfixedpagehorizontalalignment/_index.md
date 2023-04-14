@@ -4,7 +4,7 @@ linktitle: HtmlFixedPageHorizontalAlignment
 second_title: Aspose.Words for Java API Reference
 description: Specifies the horizontal alignment for pages in output HTML document in Java.
 type: docs
-weight: 327
+weight: 328
 url: /java/com.aspose.words/htmlfixedpagehorizontalalignment/
 ---
 
@@ -15,6 +15,41 @@ public class HtmlFixedPageHorizontalAlignment
 ```
 
 Specifies the horizontal alignment for pages in output HTML document.
+
+ **Examples:** 
+
+Shows how to set the horizontal alignment of pages when saving a document to HTML.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions();
+ {
+     htmlFixedSaveOptions.setPageHorizontalAlignment(pageHorizontalAlignment);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlFixedSaveOptions.HorizontalAlignment.html", htmlFixedSaveOptions);
+
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlFixedSaveOptions.HorizontalAlignment/styles.css"), StandardCharsets.UTF_8);
+
+ switch (pageHorizontalAlignment)
+ {
+     case HtmlFixedPageHorizontalAlignment.CENTER:
+         Assert.assertTrue(Pattern.compile(
+             "[.]awpage [{] position:relative; border:solid 1pt black; margin:10pt auto 10pt auto; overflow:hidden; [}]").matcher(outDocContents).find());
+         break;
+     case HtmlFixedPageHorizontalAlignment.LEFT:
+         Assert.assertTrue(Pattern.compile(
+             "[.]awpage [{] position:relative; border:solid 1pt black; margin:10pt auto 10pt 10pt; overflow:hidden; [}]").matcher(outDocContents).find());
+         break;
+     case HtmlFixedPageHorizontalAlignment.RIGHT:
+         Assert.assertTrue(Pattern.compile(
+             "[.]awpage [{] position:relative; border:solid 1pt black; margin:10pt 10pt 10pt auto; overflow:hidden; [}]").matcher(outDocContents).find());
+         break;
+ }
+ 
+```
 ## Fields
 
 | Field | Description |

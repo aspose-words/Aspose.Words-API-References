@@ -4,7 +4,7 @@ linktitle: Odso
 second_title: Aspose.Words for Java API Reference
 description: Specifies the Office Data Source Object ODSO settings for a mail merge data source in Java.
 type: docs
-weight: 417
+weight: 418
 url: /java/com.aspose.words/odso/
 ---
 
@@ -20,6 +20,8 @@ public class Odso implements Cloneable
 Specifies the Office Data Source Object (ODSO) settings for a mail merge data source.
 
 To learn more, visit the [ Mail Merge and Reporting ][Mail Merge and Reporting] documentation article.
+
+ **Remarks:** 
 
 ODSO seems to be the "new" way the newer Microsoft Word versions prefer to use when specifying certain types of data sources for a mail merge document. ODSO probably first appeared in Microsoft Word 2000.
 
@@ -102,6 +104,8 @@ public char getColumnDelimiter()
 
 Specifies the character which shall be interpreted as the column delimiter used to separate columns within external data sources. The default value is 0 which means there is no column delimiter defined.
 
+ **Remarks:** 
+
 RK I have never seen this in use.
 
 **Returns:**
@@ -124,6 +128,8 @@ public int getDataSourceType()
 
 Specifies the type of the external data source to be connected to as part of the ODSO connection information for this mail merge. The default value is [OdsoDataSourceType.DEFAULT](../../com.aspose.words/odsodatasourcetype/\#DEFAULT).
 
+ **Remarks:** 
+
 This setting is purely a suggestion of the data source type that is being used for this mail merge.
 
 **Returns:**
@@ -145,6 +151,8 @@ public boolean getFirstRowContainsColumnNames()
 
 
 Specifies that a hosting application shall treat the first row of data in the specified external data source as a header row containing the names of each column in the data source. The default value is  false .
+
+ **Remarks:** 
 
 RK I have never seen this in use.
 
@@ -214,6 +222,8 @@ public void setColumnDelimiter(char value)
 
 Specifies the character which shall be interpreted as the column delimiter used to separate columns within external data sources. The default value is 0 which means there is no column delimiter defined.
 
+ **Remarks:** 
+
 RK I have never seen this in use.
 
 **Parameters:**
@@ -242,6 +252,8 @@ public void setDataSourceType(int value)
 
 Specifies the type of the external data source to be connected to as part of the ODSO connection information for this mail merge. The default value is [OdsoDataSourceType.DEFAULT](../../com.aspose.words/odsodatasourcetype/\#DEFAULT).
 
+ **Remarks:** 
+
 This setting is purely a suggestion of the data source type that is being used for this mail merge.
 
 **Parameters:**
@@ -269,6 +281,8 @@ public void setFirstRowContainsColumnNames(boolean value)
 
 
 Specifies that a hosting application shall treat the first row of data in the specified external data source as a header row containing the names of each column in the data source. The default value is  false .
+
+ **Remarks:** 
 
 RK I have never seen this in use.
 

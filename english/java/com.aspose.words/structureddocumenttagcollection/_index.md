@@ -2,9 +2,9 @@
 title: StructuredDocumentTagCollection
 linktitle: StructuredDocumentTagCollection
 second_title: Aspose.Words for Java API Reference
-description: A collection of  instances that represent the structured document tags in the specified range in Java.
+description: A collection of IStructuredDocumentTag instances that represent the structured document tags in the specified range in Java.
 type: docs
-weight: 539
+weight: 542
 url: /java/com.aspose.words/structureddocumenttagcollection/
 ---
 
@@ -82,12 +82,33 @@ public IStructuredDocumentTag getById(int id)
 
 Returns the structured document tag by identifier.
 
+ **Remarks:** 
+
 Returns null if the structured document tag with the specified identifier cannot be found.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| id | int | The structured document tag identifier. |
+| id | int | The structured document tag identifier.
+
+ **Examples:** 
+
+Shows how to get structured document tag.
+
+```
+
+ Document doc = new Document(getMyDir() + "Structured document tags by id.docx");
+
+ // Get the structured document tag by Id.
+ IStructuredDocumentTag sdt = doc.getRange().getStructuredDocumentTags().getById(1160505028);
+ System.out.println(sdt.isRanged());
+ System.out.println(sdt.getTitle());
+
+ // Get the structured document tag or ranged tag by Title.
+ sdt = doc.getRange().getStructuredDocumentTags().getByTitle("Alias4");
+ System.out.println(sdt.getId());
+ 
+``` |
 
 **Returns:**
 [IStructuredDocumentTag](../../com.aspose.words/istructureddocumenttag/)
@@ -98,6 +119,8 @@ public IStructuredDocumentTag getByTag(String tag)
 
 
 Returns the first structured document tag encountered in the collection with the specified tag.
+
+ **Remarks:** 
 
 Returns null if the structured document tag with the specified tag cannot be found.
 
@@ -116,12 +139,33 @@ public IStructuredDocumentTag getByTitle(String title)
 
 Returns the first structured document tag encountered in the collection with the specified title.
 
+ **Remarks:** 
+
 Returns null if the structured document tag with the specified title cannot be found.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| title | java.lang.String | The title of structured document tag. |
+| title | java.lang.String | The title of structured document tag.
+
+ **Examples:** 
+
+Shows how to get structured document tag.
+
+```
+
+ Document doc = new Document(getMyDir() + "Structured document tags by id.docx");
+
+ // Get the structured document tag by Id.
+ IStructuredDocumentTag sdt = doc.getRange().getStructuredDocumentTags().getById(1160505028);
+ System.out.println(sdt.isRanged());
+ System.out.println(sdt.getTitle());
+
+ // Get the structured document tag or ranged tag by Title.
+ sdt = doc.getRange().getStructuredDocumentTags().getByTitle("Alias4");
+ System.out.println(sdt.getId());
+ 
+``` |
 
 **Returns:**
 [IStructuredDocumentTag](../../com.aspose.words/istructureddocumenttag/)
@@ -192,7 +236,35 @@ Removes the structured document tag with the specified identifier.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| id | int | The structured document tag identifier. |
+| id | int | The structured document tag identifier.
+
+ **Examples:** 
+
+Shows how to remove structured document tag.
+
+```
+
+ Document doc = new Document(getMyDir() + "Structured document tags.docx");
+
+ StructuredDocumentTagCollection structuredDocumentTags = doc.getRange().getStructuredDocumentTags();
+ IStructuredDocumentTag sdt;
+ for (int i = 0; i < structuredDocumentTags.getCount(); i++)
+ {
+     sdt = structuredDocumentTags.get(i);
+     System.out.println(sdt.getTitle());
+ }
+
+ sdt = structuredDocumentTags.getById(1691867797);
+ Assert.assertEquals(1691867797, sdt.getId());
+
+ Assert.assertEquals(5, structuredDocumentTags.getCount());
+ // Remove the structured document tag by Id.
+ structuredDocumentTags.remove(1691867797);
+ // Remove the structured document tag at position 0.
+ structuredDocumentTags.removeAt(0);
+ Assert.assertEquals(3, structuredDocumentTags.getCount());
+ 
+``` |
 
 ### removeAt(int index) {#removeAt-int}
 ```
@@ -205,7 +277,35 @@ Removes a structured document tag at the specified index.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | An index into the collection. |
+| index | int | An index into the collection.
+
+ **Examples:** 
+
+Shows how to remove structured document tag.
+
+```
+
+ Document doc = new Document(getMyDir() + "Structured document tags.docx");
+
+ StructuredDocumentTagCollection structuredDocumentTags = doc.getRange().getStructuredDocumentTags();
+ IStructuredDocumentTag sdt;
+ for (int i = 0; i < structuredDocumentTags.getCount(); i++)
+ {
+     sdt = structuredDocumentTags.get(i);
+     System.out.println(sdt.getTitle());
+ }
+
+ sdt = structuredDocumentTags.getById(1691867797);
+ Assert.assertEquals(1691867797, sdt.getId());
+
+ Assert.assertEquals(5, structuredDocumentTags.getCount());
+ // Remove the structured document tag by Id.
+ structuredDocumentTags.remove(1691867797);
+ // Remove the structured document tag at position 0.
+ structuredDocumentTags.removeAt(0);
+ Assert.assertEquals(3, structuredDocumentTags.getCount());
+ 
+``` |
 
 ### toString() {#toString}
 ```

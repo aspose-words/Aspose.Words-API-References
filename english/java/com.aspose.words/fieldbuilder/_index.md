@@ -4,7 +4,7 @@ linktitle: FieldBuilder
 second_title: Aspose.Words for Java API Reference
 description: Builds a field from field code tokens arguments and switches in Java.
 type: docs
-weight: 167
+weight: 168
 url: /java/com.aspose.words/fieldbuilder/
 ---
 
@@ -17,6 +17,88 @@ public class FieldBuilder
 Builds a field from field code tokens (arguments and switches).
 
 To learn more, visit the [ Working with Fields ][Working with Fields] documentation article.
+
+ **Examples:** 
+
+Shows how to construct fields using a field builder, and then insert them into the document.
+
+```
+
+ Document doc = new Document();
+
+ // Below are three examples of field construction done using a field builder.
+ // 1 -  Single field:
+ // Use a field builder to add a SYMBOL field which displays the \u0192 (Florin) symbol.
+ FieldBuilder builder = new FieldBuilder(FieldType.FIELD_SYMBOL);
+ builder.addArgument(402);
+ builder.addSwitch("\\f", "Arial");
+ builder.addSwitch("\\s", 25);
+ builder.addSwitch("\\u");
+ Field field = builder.buildAndInsert(doc.getFirstSection().getBody().getFirstParagraph());
+
+ Assert.assertEquals(field.getFieldCode(), " SYMBOL 402 \\f Arial \\s 25 \\u ");
+
+ // 2 -  Nested field:
+ // Use a field builder to create a formula field used as an inner field by another field builder.
+ FieldBuilder innerFormulaBuilder = new FieldBuilder(FieldType.FIELD_FORMULA);
+ innerFormulaBuilder.addArgument(100);
+ innerFormulaBuilder.addArgument("+");
+ innerFormulaBuilder.addArgument(74);
+
+ // Create another builder for another SYMBOL field, and insert the formula field
+ // that we have created above into the SYMBOL field as its argument.
+ builder = new FieldBuilder(FieldType.FIELD_SYMBOL);
+ builder.addArgument(innerFormulaBuilder);
+ field = builder.buildAndInsert(doc.getFirstSection().getBody().appendParagraph(""));
+
+ // The outer SYMBOL field will use the formula field result, 174, as its argument,
+ // which will make the field display the ® (Registered Sign) symbol since its character number is 174.
+ Assert.assertEquals(" SYMBOL  = 100 + 74  ", field.getFieldCode());
+
+ // 3 -  Multiple nested fields and arguments:
+ // Now, we will use a builder to create an IF field, which displays one of two custom string values,
+ // depending on the true/false value of its expression. To get a true/false value
+ // that determines which string the IF field displays, the IF field will test two numeric expressions for equality.
+ // We will provide the two expressions in the form of formula fields, which we will nest inside the IF field.
+ FieldBuilder leftExpression = new FieldBuilder(FieldType.FIELD_FORMULA);
+ leftExpression.addArgument(2);
+ leftExpression.addArgument("+");
+ leftExpression.addArgument(3);
+
+ FieldBuilder rightExpression = new FieldBuilder(FieldType.FIELD_FORMULA);
+ rightExpression.addArgument(2.5);
+ rightExpression.addArgument("*");
+ rightExpression.addArgument(5.2);
+
+ // Next, we will build two field arguments, which will serve as the true/false output strings for the IF field.
+ // These arguments will reuse the output values of our numeric expressions.
+ FieldArgumentBuilder trueOutput = new FieldArgumentBuilder();
+ trueOutput.addText("True, both expressions amount to ");
+ trueOutput.addField(leftExpression);
+
+ FieldArgumentBuilder falseOutput = new FieldArgumentBuilder();
+ falseOutput.addNode(new Run(doc, "False, "));
+ falseOutput.addField(leftExpression);
+ falseOutput.addNode(new Run(doc, " does not equal "));
+ falseOutput.addField(rightExpression);
+
+ // Finally, we will create one more field builder for the IF field and combine all of the expressions.
+ builder = new FieldBuilder(FieldType.FIELD_IF);
+ builder.addArgument(leftExpression);
+ builder.addArgument("=");
+ builder.addArgument(rightExpression);
+ builder.addArgument(trueOutput);
+ builder.addArgument(falseOutput);
+ field = builder.buildAndInsert(doc.getFirstSection().getBody().appendParagraph(""));
+
+ Assert.assertEquals(" IF  = 2 + 3  =  = 2.5 * 5.2  " +
+         "\"True, both expressions amount to  = 2 + 3 \" " +
+         "\"False,  = 2 + 3  does not equal  = 2.5 * 5.2 \" ", field.getFieldCode());
+
+ doc.updateFields();
+ doc.save(getArtifactsDir() + "Field.SYMBOL.docx");
+ 
+```
 
 
 [Working with Fields]: https://docs.aspose.com/words/java/working-with-fields/
@@ -69,7 +151,93 @@ public FieldBuilder addArgument(FieldArgumentBuilder argument)
 ```
 
 
-Adds a field's argument represented by [FieldArgumentBuilder](../../com.aspose.words/fieldargumentbuilder/) to the field's code. This overload is used when the argument consists of a mixture of different parts such as child fields, nodes, and plain text.
+Adds a field's argument represented by [FieldArgumentBuilder](../../com.aspose.words/fieldargumentbuilder/) to the field's code.
+
+ **Remarks:** 
+
+This overload is used when the argument consists of a mixture of different parts such as child fields, nodes, and plain text.
+
+ **Examples:** 
+
+Shows how to construct fields using a field builder, and then insert them into the document.
+
+```
+
+ Document doc = new Document();
+
+ // Below are three examples of field construction done using a field builder.
+ // 1 -  Single field:
+ // Use a field builder to add a SYMBOL field which displays the \u0192 (Florin) symbol.
+ FieldBuilder builder = new FieldBuilder(FieldType.FIELD_SYMBOL);
+ builder.addArgument(402);
+ builder.addSwitch("\\f", "Arial");
+ builder.addSwitch("\\s", 25);
+ builder.addSwitch("\\u");
+ Field field = builder.buildAndInsert(doc.getFirstSection().getBody().getFirstParagraph());
+
+ Assert.assertEquals(field.getFieldCode(), " SYMBOL 402 \\f Arial \\s 25 \\u ");
+
+ // 2 -  Nested field:
+ // Use a field builder to create a formula field used as an inner field by another field builder.
+ FieldBuilder innerFormulaBuilder = new FieldBuilder(FieldType.FIELD_FORMULA);
+ innerFormulaBuilder.addArgument(100);
+ innerFormulaBuilder.addArgument("+");
+ innerFormulaBuilder.addArgument(74);
+
+ // Create another builder for another SYMBOL field, and insert the formula field
+ // that we have created above into the SYMBOL field as its argument.
+ builder = new FieldBuilder(FieldType.FIELD_SYMBOL);
+ builder.addArgument(innerFormulaBuilder);
+ field = builder.buildAndInsert(doc.getFirstSection().getBody().appendParagraph(""));
+
+ // The outer SYMBOL field will use the formula field result, 174, as its argument,
+ // which will make the field display the ® (Registered Sign) symbol since its character number is 174.
+ Assert.assertEquals(" SYMBOL  = 100 + 74  ", field.getFieldCode());
+
+ // 3 -  Multiple nested fields and arguments:
+ // Now, we will use a builder to create an IF field, which displays one of two custom string values,
+ // depending on the true/false value of its expression. To get a true/false value
+ // that determines which string the IF field displays, the IF field will test two numeric expressions for equality.
+ // We will provide the two expressions in the form of formula fields, which we will nest inside the IF field.
+ FieldBuilder leftExpression = new FieldBuilder(FieldType.FIELD_FORMULA);
+ leftExpression.addArgument(2);
+ leftExpression.addArgument("+");
+ leftExpression.addArgument(3);
+
+ FieldBuilder rightExpression = new FieldBuilder(FieldType.FIELD_FORMULA);
+ rightExpression.addArgument(2.5);
+ rightExpression.addArgument("*");
+ rightExpression.addArgument(5.2);
+
+ // Next, we will build two field arguments, which will serve as the true/false output strings for the IF field.
+ // These arguments will reuse the output values of our numeric expressions.
+ FieldArgumentBuilder trueOutput = new FieldArgumentBuilder();
+ trueOutput.addText("True, both expressions amount to ");
+ trueOutput.addField(leftExpression);
+
+ FieldArgumentBuilder falseOutput = new FieldArgumentBuilder();
+ falseOutput.addNode(new Run(doc, "False, "));
+ falseOutput.addField(leftExpression);
+ falseOutput.addNode(new Run(doc, " does not equal "));
+ falseOutput.addField(rightExpression);
+
+ // Finally, we will create one more field builder for the IF field and combine all of the expressions.
+ builder = new FieldBuilder(FieldType.FIELD_IF);
+ builder.addArgument(leftExpression);
+ builder.addArgument("=");
+ builder.addArgument(rightExpression);
+ builder.addArgument(trueOutput);
+ builder.addArgument(falseOutput);
+ field = builder.buildAndInsert(doc.getFirstSection().getBody().appendParagraph(""));
+
+ Assert.assertEquals(" IF  = 2 + 3  =  = 2.5 * 5.2  " +
+         "\"True, both expressions amount to  = 2 + 3 \" " +
+         "\"False,  = 2 + 3  does not equal  = 2.5 * 5.2 \" ", field.getFieldCode());
+
+ doc.updateFields();
+ doc.save(getArtifactsDir() + "Field.SYMBOL.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -84,7 +252,93 @@ public FieldBuilder addArgument(FieldBuilder argument)
 ```
 
 
-Adds a child field represented by another [FieldBuilder](../../com.aspose.words/fieldbuilder/) to the field's code. This overload is used when the argument consists of a single child field.
+Adds a child field represented by another [FieldBuilder](../../com.aspose.words/fieldbuilder/) to the field's code.
+
+ **Remarks:** 
+
+This overload is used when the argument consists of a single child field.
+
+ **Examples:** 
+
+Shows how to construct fields using a field builder, and then insert them into the document.
+
+```
+
+ Document doc = new Document();
+
+ // Below are three examples of field construction done using a field builder.
+ // 1 -  Single field:
+ // Use a field builder to add a SYMBOL field which displays the \u0192 (Florin) symbol.
+ FieldBuilder builder = new FieldBuilder(FieldType.FIELD_SYMBOL);
+ builder.addArgument(402);
+ builder.addSwitch("\\f", "Arial");
+ builder.addSwitch("\\s", 25);
+ builder.addSwitch("\\u");
+ Field field = builder.buildAndInsert(doc.getFirstSection().getBody().getFirstParagraph());
+
+ Assert.assertEquals(field.getFieldCode(), " SYMBOL 402 \\f Arial \\s 25 \\u ");
+
+ // 2 -  Nested field:
+ // Use a field builder to create a formula field used as an inner field by another field builder.
+ FieldBuilder innerFormulaBuilder = new FieldBuilder(FieldType.FIELD_FORMULA);
+ innerFormulaBuilder.addArgument(100);
+ innerFormulaBuilder.addArgument("+");
+ innerFormulaBuilder.addArgument(74);
+
+ // Create another builder for another SYMBOL field, and insert the formula field
+ // that we have created above into the SYMBOL field as its argument.
+ builder = new FieldBuilder(FieldType.FIELD_SYMBOL);
+ builder.addArgument(innerFormulaBuilder);
+ field = builder.buildAndInsert(doc.getFirstSection().getBody().appendParagraph(""));
+
+ // The outer SYMBOL field will use the formula field result, 174, as its argument,
+ // which will make the field display the ® (Registered Sign) symbol since its character number is 174.
+ Assert.assertEquals(" SYMBOL  = 100 + 74  ", field.getFieldCode());
+
+ // 3 -  Multiple nested fields and arguments:
+ // Now, we will use a builder to create an IF field, which displays one of two custom string values,
+ // depending on the true/false value of its expression. To get a true/false value
+ // that determines which string the IF field displays, the IF field will test two numeric expressions for equality.
+ // We will provide the two expressions in the form of formula fields, which we will nest inside the IF field.
+ FieldBuilder leftExpression = new FieldBuilder(FieldType.FIELD_FORMULA);
+ leftExpression.addArgument(2);
+ leftExpression.addArgument("+");
+ leftExpression.addArgument(3);
+
+ FieldBuilder rightExpression = new FieldBuilder(FieldType.FIELD_FORMULA);
+ rightExpression.addArgument(2.5);
+ rightExpression.addArgument("*");
+ rightExpression.addArgument(5.2);
+
+ // Next, we will build two field arguments, which will serve as the true/false output strings for the IF field.
+ // These arguments will reuse the output values of our numeric expressions.
+ FieldArgumentBuilder trueOutput = new FieldArgumentBuilder();
+ trueOutput.addText("True, both expressions amount to ");
+ trueOutput.addField(leftExpression);
+
+ FieldArgumentBuilder falseOutput = new FieldArgumentBuilder();
+ falseOutput.addNode(new Run(doc, "False, "));
+ falseOutput.addField(leftExpression);
+ falseOutput.addNode(new Run(doc, " does not equal "));
+ falseOutput.addField(rightExpression);
+
+ // Finally, we will create one more field builder for the IF field and combine all of the expressions.
+ builder = new FieldBuilder(FieldType.FIELD_IF);
+ builder.addArgument(leftExpression);
+ builder.addArgument("=");
+ builder.addArgument(rightExpression);
+ builder.addArgument(trueOutput);
+ builder.addArgument(falseOutput);
+ field = builder.buildAndInsert(doc.getFirstSection().getBody().appendParagraph(""));
+
+ Assert.assertEquals(" IF  = 2 + 3  =  = 2.5 * 5.2  " +
+         "\"True, both expressions amount to  = 2 + 3 \" " +
+         "\"False,  = 2 + 3  does not equal  = 2.5 * 5.2 \" ", field.getFieldCode());
+
+ doc.updateFields();
+ doc.save(getArtifactsDir() + "Field.SYMBOL.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -104,7 +358,89 @@ Adds a field's argument.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| argument | double | The argument value. |
+| argument | double | The argument value.
+
+ **Examples:** 
+
+Shows how to construct fields using a field builder, and then insert them into the document.
+
+```
+
+ Document doc = new Document();
+
+ // Below are three examples of field construction done using a field builder.
+ // 1 -  Single field:
+ // Use a field builder to add a SYMBOL field which displays the \u0192 (Florin) symbol.
+ FieldBuilder builder = new FieldBuilder(FieldType.FIELD_SYMBOL);
+ builder.addArgument(402);
+ builder.addSwitch("\\f", "Arial");
+ builder.addSwitch("\\s", 25);
+ builder.addSwitch("\\u");
+ Field field = builder.buildAndInsert(doc.getFirstSection().getBody().getFirstParagraph());
+
+ Assert.assertEquals(field.getFieldCode(), " SYMBOL 402 \\f Arial \\s 25 \\u ");
+
+ // 2 -  Nested field:
+ // Use a field builder to create a formula field used as an inner field by another field builder.
+ FieldBuilder innerFormulaBuilder = new FieldBuilder(FieldType.FIELD_FORMULA);
+ innerFormulaBuilder.addArgument(100);
+ innerFormulaBuilder.addArgument("+");
+ innerFormulaBuilder.addArgument(74);
+
+ // Create another builder for another SYMBOL field, and insert the formula field
+ // that we have created above into the SYMBOL field as its argument.
+ builder = new FieldBuilder(FieldType.FIELD_SYMBOL);
+ builder.addArgument(innerFormulaBuilder);
+ field = builder.buildAndInsert(doc.getFirstSection().getBody().appendParagraph(""));
+
+ // The outer SYMBOL field will use the formula field result, 174, as its argument,
+ // which will make the field display the ® (Registered Sign) symbol since its character number is 174.
+ Assert.assertEquals(" SYMBOL  = 100 + 74  ", field.getFieldCode());
+
+ // 3 -  Multiple nested fields and arguments:
+ // Now, we will use a builder to create an IF field, which displays one of two custom string values,
+ // depending on the true/false value of its expression. To get a true/false value
+ // that determines which string the IF field displays, the IF field will test two numeric expressions for equality.
+ // We will provide the two expressions in the form of formula fields, which we will nest inside the IF field.
+ FieldBuilder leftExpression = new FieldBuilder(FieldType.FIELD_FORMULA);
+ leftExpression.addArgument(2);
+ leftExpression.addArgument("+");
+ leftExpression.addArgument(3);
+
+ FieldBuilder rightExpression = new FieldBuilder(FieldType.FIELD_FORMULA);
+ rightExpression.addArgument(2.5);
+ rightExpression.addArgument("*");
+ rightExpression.addArgument(5.2);
+
+ // Next, we will build two field arguments, which will serve as the true/false output strings for the IF field.
+ // These arguments will reuse the output values of our numeric expressions.
+ FieldArgumentBuilder trueOutput = new FieldArgumentBuilder();
+ trueOutput.addText("True, both expressions amount to ");
+ trueOutput.addField(leftExpression);
+
+ FieldArgumentBuilder falseOutput = new FieldArgumentBuilder();
+ falseOutput.addNode(new Run(doc, "False, "));
+ falseOutput.addField(leftExpression);
+ falseOutput.addNode(new Run(doc, " does not equal "));
+ falseOutput.addField(rightExpression);
+
+ // Finally, we will create one more field builder for the IF field and combine all of the expressions.
+ builder = new FieldBuilder(FieldType.FIELD_IF);
+ builder.addArgument(leftExpression);
+ builder.addArgument("=");
+ builder.addArgument(rightExpression);
+ builder.addArgument(trueOutput);
+ builder.addArgument(falseOutput);
+ field = builder.buildAndInsert(doc.getFirstSection().getBody().appendParagraph(""));
+
+ Assert.assertEquals(" IF  = 2 + 3  =  = 2.5 * 5.2  " +
+         "\"True, both expressions amount to  = 2 + 3 \" " +
+         "\"False,  = 2 + 3  does not equal  = 2.5 * 5.2 \" ", field.getFieldCode());
+
+ doc.updateFields();
+ doc.save(getArtifactsDir() + "Field.SYMBOL.docx");
+ 
+``` |
 
 **Returns:**
 [FieldBuilder](../../com.aspose.words/fieldbuilder/)
@@ -119,7 +455,89 @@ Adds a field's argument.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| argument | int | The argument value. |
+| argument | int | The argument value.
+
+ **Examples:** 
+
+Shows how to construct fields using a field builder, and then insert them into the document.
+
+```
+
+ Document doc = new Document();
+
+ // Below are three examples of field construction done using a field builder.
+ // 1 -  Single field:
+ // Use a field builder to add a SYMBOL field which displays the \u0192 (Florin) symbol.
+ FieldBuilder builder = new FieldBuilder(FieldType.FIELD_SYMBOL);
+ builder.addArgument(402);
+ builder.addSwitch("\\f", "Arial");
+ builder.addSwitch("\\s", 25);
+ builder.addSwitch("\\u");
+ Field field = builder.buildAndInsert(doc.getFirstSection().getBody().getFirstParagraph());
+
+ Assert.assertEquals(field.getFieldCode(), " SYMBOL 402 \\f Arial \\s 25 \\u ");
+
+ // 2 -  Nested field:
+ // Use a field builder to create a formula field used as an inner field by another field builder.
+ FieldBuilder innerFormulaBuilder = new FieldBuilder(FieldType.FIELD_FORMULA);
+ innerFormulaBuilder.addArgument(100);
+ innerFormulaBuilder.addArgument("+");
+ innerFormulaBuilder.addArgument(74);
+
+ // Create another builder for another SYMBOL field, and insert the formula field
+ // that we have created above into the SYMBOL field as its argument.
+ builder = new FieldBuilder(FieldType.FIELD_SYMBOL);
+ builder.addArgument(innerFormulaBuilder);
+ field = builder.buildAndInsert(doc.getFirstSection().getBody().appendParagraph(""));
+
+ // The outer SYMBOL field will use the formula field result, 174, as its argument,
+ // which will make the field display the ® (Registered Sign) symbol since its character number is 174.
+ Assert.assertEquals(" SYMBOL  = 100 + 74  ", field.getFieldCode());
+
+ // 3 -  Multiple nested fields and arguments:
+ // Now, we will use a builder to create an IF field, which displays one of two custom string values,
+ // depending on the true/false value of its expression. To get a true/false value
+ // that determines which string the IF field displays, the IF field will test two numeric expressions for equality.
+ // We will provide the two expressions in the form of formula fields, which we will nest inside the IF field.
+ FieldBuilder leftExpression = new FieldBuilder(FieldType.FIELD_FORMULA);
+ leftExpression.addArgument(2);
+ leftExpression.addArgument("+");
+ leftExpression.addArgument(3);
+
+ FieldBuilder rightExpression = new FieldBuilder(FieldType.FIELD_FORMULA);
+ rightExpression.addArgument(2.5);
+ rightExpression.addArgument("*");
+ rightExpression.addArgument(5.2);
+
+ // Next, we will build two field arguments, which will serve as the true/false output strings for the IF field.
+ // These arguments will reuse the output values of our numeric expressions.
+ FieldArgumentBuilder trueOutput = new FieldArgumentBuilder();
+ trueOutput.addText("True, both expressions amount to ");
+ trueOutput.addField(leftExpression);
+
+ FieldArgumentBuilder falseOutput = new FieldArgumentBuilder();
+ falseOutput.addNode(new Run(doc, "False, "));
+ falseOutput.addField(leftExpression);
+ falseOutput.addNode(new Run(doc, " does not equal "));
+ falseOutput.addField(rightExpression);
+
+ // Finally, we will create one more field builder for the IF field and combine all of the expressions.
+ builder = new FieldBuilder(FieldType.FIELD_IF);
+ builder.addArgument(leftExpression);
+ builder.addArgument("=");
+ builder.addArgument(rightExpression);
+ builder.addArgument(trueOutput);
+ builder.addArgument(falseOutput);
+ field = builder.buildAndInsert(doc.getFirstSection().getBody().appendParagraph(""));
+
+ Assert.assertEquals(" IF  = 2 + 3  =  = 2.5 * 5.2  " +
+         "\"True, both expressions amount to  = 2 + 3 \" " +
+         "\"False,  = 2 + 3  does not equal  = 2.5 * 5.2 \" ", field.getFieldCode());
+
+ doc.updateFields();
+ doc.save(getArtifactsDir() + "Field.SYMBOL.docx");
+ 
+``` |
 
 **Returns:**
 [FieldBuilder](../../com.aspose.words/fieldbuilder/)
@@ -134,7 +552,89 @@ Adds a field's argument.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| argument | java.lang.String | The argument value. |
+| argument | java.lang.String | The argument value.
+
+ **Examples:** 
+
+Shows how to construct fields using a field builder, and then insert them into the document.
+
+```
+
+ Document doc = new Document();
+
+ // Below are three examples of field construction done using a field builder.
+ // 1 -  Single field:
+ // Use a field builder to add a SYMBOL field which displays the \u0192 (Florin) symbol.
+ FieldBuilder builder = new FieldBuilder(FieldType.FIELD_SYMBOL);
+ builder.addArgument(402);
+ builder.addSwitch("\\f", "Arial");
+ builder.addSwitch("\\s", 25);
+ builder.addSwitch("\\u");
+ Field field = builder.buildAndInsert(doc.getFirstSection().getBody().getFirstParagraph());
+
+ Assert.assertEquals(field.getFieldCode(), " SYMBOL 402 \\f Arial \\s 25 \\u ");
+
+ // 2 -  Nested field:
+ // Use a field builder to create a formula field used as an inner field by another field builder.
+ FieldBuilder innerFormulaBuilder = new FieldBuilder(FieldType.FIELD_FORMULA);
+ innerFormulaBuilder.addArgument(100);
+ innerFormulaBuilder.addArgument("+");
+ innerFormulaBuilder.addArgument(74);
+
+ // Create another builder for another SYMBOL field, and insert the formula field
+ // that we have created above into the SYMBOL field as its argument.
+ builder = new FieldBuilder(FieldType.FIELD_SYMBOL);
+ builder.addArgument(innerFormulaBuilder);
+ field = builder.buildAndInsert(doc.getFirstSection().getBody().appendParagraph(""));
+
+ // The outer SYMBOL field will use the formula field result, 174, as its argument,
+ // which will make the field display the ® (Registered Sign) symbol since its character number is 174.
+ Assert.assertEquals(" SYMBOL  = 100 + 74  ", field.getFieldCode());
+
+ // 3 -  Multiple nested fields and arguments:
+ // Now, we will use a builder to create an IF field, which displays one of two custom string values,
+ // depending on the true/false value of its expression. To get a true/false value
+ // that determines which string the IF field displays, the IF field will test two numeric expressions for equality.
+ // We will provide the two expressions in the form of formula fields, which we will nest inside the IF field.
+ FieldBuilder leftExpression = new FieldBuilder(FieldType.FIELD_FORMULA);
+ leftExpression.addArgument(2);
+ leftExpression.addArgument("+");
+ leftExpression.addArgument(3);
+
+ FieldBuilder rightExpression = new FieldBuilder(FieldType.FIELD_FORMULA);
+ rightExpression.addArgument(2.5);
+ rightExpression.addArgument("*");
+ rightExpression.addArgument(5.2);
+
+ // Next, we will build two field arguments, which will serve as the true/false output strings for the IF field.
+ // These arguments will reuse the output values of our numeric expressions.
+ FieldArgumentBuilder trueOutput = new FieldArgumentBuilder();
+ trueOutput.addText("True, both expressions amount to ");
+ trueOutput.addField(leftExpression);
+
+ FieldArgumentBuilder falseOutput = new FieldArgumentBuilder();
+ falseOutput.addNode(new Run(doc, "False, "));
+ falseOutput.addField(leftExpression);
+ falseOutput.addNode(new Run(doc, " does not equal "));
+ falseOutput.addField(rightExpression);
+
+ // Finally, we will create one more field builder for the IF field and combine all of the expressions.
+ builder = new FieldBuilder(FieldType.FIELD_IF);
+ builder.addArgument(leftExpression);
+ builder.addArgument("=");
+ builder.addArgument(rightExpression);
+ builder.addArgument(trueOutput);
+ builder.addArgument(falseOutput);
+ field = builder.buildAndInsert(doc.getFirstSection().getBody().appendParagraph(""));
+
+ Assert.assertEquals(" IF  = 2 + 3  =  = 2.5 * 5.2  " +
+         "\"True, both expressions amount to  = 2 + 3 \" " +
+         "\"False,  = 2 + 3  does not equal  = 2.5 * 5.2 \" ", field.getFieldCode());
+
+ doc.updateFields();
+ doc.save(getArtifactsDir() + "Field.SYMBOL.docx");
+ 
+``` |
 
 **Returns:**
 [FieldBuilder](../../com.aspose.words/fieldbuilder/)
@@ -144,12 +644,98 @@ public FieldBuilder addSwitch(String switchName)
 ```
 
 
-Adds a field's switch. This overload adds a flag (switch without argument).
+Adds a field's switch.
+
+ **Remarks:** 
+
+This overload adds a flag (switch without argument).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| switchName | java.lang.String | The switch name. |
+| switchName | java.lang.String | The switch name.
+
+ **Examples:** 
+
+Shows how to construct fields using a field builder, and then insert them into the document.
+
+```
+
+ Document doc = new Document();
+
+ // Below are three examples of field construction done using a field builder.
+ // 1 -  Single field:
+ // Use a field builder to add a SYMBOL field which displays the \u0192 (Florin) symbol.
+ FieldBuilder builder = new FieldBuilder(FieldType.FIELD_SYMBOL);
+ builder.addArgument(402);
+ builder.addSwitch("\\f", "Arial");
+ builder.addSwitch("\\s", 25);
+ builder.addSwitch("\\u");
+ Field field = builder.buildAndInsert(doc.getFirstSection().getBody().getFirstParagraph());
+
+ Assert.assertEquals(field.getFieldCode(), " SYMBOL 402 \\f Arial \\s 25 \\u ");
+
+ // 2 -  Nested field:
+ // Use a field builder to create a formula field used as an inner field by another field builder.
+ FieldBuilder innerFormulaBuilder = new FieldBuilder(FieldType.FIELD_FORMULA);
+ innerFormulaBuilder.addArgument(100);
+ innerFormulaBuilder.addArgument("+");
+ innerFormulaBuilder.addArgument(74);
+
+ // Create another builder for another SYMBOL field, and insert the formula field
+ // that we have created above into the SYMBOL field as its argument.
+ builder = new FieldBuilder(FieldType.FIELD_SYMBOL);
+ builder.addArgument(innerFormulaBuilder);
+ field = builder.buildAndInsert(doc.getFirstSection().getBody().appendParagraph(""));
+
+ // The outer SYMBOL field will use the formula field result, 174, as its argument,
+ // which will make the field display the ® (Registered Sign) symbol since its character number is 174.
+ Assert.assertEquals(" SYMBOL  = 100 + 74  ", field.getFieldCode());
+
+ // 3 -  Multiple nested fields and arguments:
+ // Now, we will use a builder to create an IF field, which displays one of two custom string values,
+ // depending on the true/false value of its expression. To get a true/false value
+ // that determines which string the IF field displays, the IF field will test two numeric expressions for equality.
+ // We will provide the two expressions in the form of formula fields, which we will nest inside the IF field.
+ FieldBuilder leftExpression = new FieldBuilder(FieldType.FIELD_FORMULA);
+ leftExpression.addArgument(2);
+ leftExpression.addArgument("+");
+ leftExpression.addArgument(3);
+
+ FieldBuilder rightExpression = new FieldBuilder(FieldType.FIELD_FORMULA);
+ rightExpression.addArgument(2.5);
+ rightExpression.addArgument("*");
+ rightExpression.addArgument(5.2);
+
+ // Next, we will build two field arguments, which will serve as the true/false output strings for the IF field.
+ // These arguments will reuse the output values of our numeric expressions.
+ FieldArgumentBuilder trueOutput = new FieldArgumentBuilder();
+ trueOutput.addText("True, both expressions amount to ");
+ trueOutput.addField(leftExpression);
+
+ FieldArgumentBuilder falseOutput = new FieldArgumentBuilder();
+ falseOutput.addNode(new Run(doc, "False, "));
+ falseOutput.addField(leftExpression);
+ falseOutput.addNode(new Run(doc, " does not equal "));
+ falseOutput.addField(rightExpression);
+
+ // Finally, we will create one more field builder for the IF field and combine all of the expressions.
+ builder = new FieldBuilder(FieldType.FIELD_IF);
+ builder.addArgument(leftExpression);
+ builder.addArgument("=");
+ builder.addArgument(rightExpression);
+ builder.addArgument(trueOutput);
+ builder.addArgument(falseOutput);
+ field = builder.buildAndInsert(doc.getFirstSection().getBody().appendParagraph(""));
+
+ Assert.assertEquals(" IF  = 2 + 3  =  = 2.5 * 5.2  " +
+         "\"True, both expressions amount to  = 2 + 3 \" " +
+         "\"False,  = 2 + 3  does not equal  = 2.5 * 5.2 \" ", field.getFieldCode());
+
+ doc.updateFields();
+ doc.save(getArtifactsDir() + "Field.SYMBOL.docx");
+ 
+``` |
 
 **Returns:**
 [FieldBuilder](../../com.aspose.words/fieldbuilder/)
@@ -165,7 +751,89 @@ Adds a field's switch.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | switchName | java.lang.String | The switch name. |
-| switchArgument | double | The switch value. |
+| switchArgument | double | The switch value.
+
+ **Examples:** 
+
+Shows how to construct fields using a field builder, and then insert them into the document.
+
+```
+
+ Document doc = new Document();
+
+ // Below are three examples of field construction done using a field builder.
+ // 1 -  Single field:
+ // Use a field builder to add a SYMBOL field which displays the \u0192 (Florin) symbol.
+ FieldBuilder builder = new FieldBuilder(FieldType.FIELD_SYMBOL);
+ builder.addArgument(402);
+ builder.addSwitch("\\f", "Arial");
+ builder.addSwitch("\\s", 25);
+ builder.addSwitch("\\u");
+ Field field = builder.buildAndInsert(doc.getFirstSection().getBody().getFirstParagraph());
+
+ Assert.assertEquals(field.getFieldCode(), " SYMBOL 402 \\f Arial \\s 25 \\u ");
+
+ // 2 -  Nested field:
+ // Use a field builder to create a formula field used as an inner field by another field builder.
+ FieldBuilder innerFormulaBuilder = new FieldBuilder(FieldType.FIELD_FORMULA);
+ innerFormulaBuilder.addArgument(100);
+ innerFormulaBuilder.addArgument("+");
+ innerFormulaBuilder.addArgument(74);
+
+ // Create another builder for another SYMBOL field, and insert the formula field
+ // that we have created above into the SYMBOL field as its argument.
+ builder = new FieldBuilder(FieldType.FIELD_SYMBOL);
+ builder.addArgument(innerFormulaBuilder);
+ field = builder.buildAndInsert(doc.getFirstSection().getBody().appendParagraph(""));
+
+ // The outer SYMBOL field will use the formula field result, 174, as its argument,
+ // which will make the field display the ® (Registered Sign) symbol since its character number is 174.
+ Assert.assertEquals(" SYMBOL  = 100 + 74  ", field.getFieldCode());
+
+ // 3 -  Multiple nested fields and arguments:
+ // Now, we will use a builder to create an IF field, which displays one of two custom string values,
+ // depending on the true/false value of its expression. To get a true/false value
+ // that determines which string the IF field displays, the IF field will test two numeric expressions for equality.
+ // We will provide the two expressions in the form of formula fields, which we will nest inside the IF field.
+ FieldBuilder leftExpression = new FieldBuilder(FieldType.FIELD_FORMULA);
+ leftExpression.addArgument(2);
+ leftExpression.addArgument("+");
+ leftExpression.addArgument(3);
+
+ FieldBuilder rightExpression = new FieldBuilder(FieldType.FIELD_FORMULA);
+ rightExpression.addArgument(2.5);
+ rightExpression.addArgument("*");
+ rightExpression.addArgument(5.2);
+
+ // Next, we will build two field arguments, which will serve as the true/false output strings for the IF field.
+ // These arguments will reuse the output values of our numeric expressions.
+ FieldArgumentBuilder trueOutput = new FieldArgumentBuilder();
+ trueOutput.addText("True, both expressions amount to ");
+ trueOutput.addField(leftExpression);
+
+ FieldArgumentBuilder falseOutput = new FieldArgumentBuilder();
+ falseOutput.addNode(new Run(doc, "False, "));
+ falseOutput.addField(leftExpression);
+ falseOutput.addNode(new Run(doc, " does not equal "));
+ falseOutput.addField(rightExpression);
+
+ // Finally, we will create one more field builder for the IF field and combine all of the expressions.
+ builder = new FieldBuilder(FieldType.FIELD_IF);
+ builder.addArgument(leftExpression);
+ builder.addArgument("=");
+ builder.addArgument(rightExpression);
+ builder.addArgument(trueOutput);
+ builder.addArgument(falseOutput);
+ field = builder.buildAndInsert(doc.getFirstSection().getBody().appendParagraph(""));
+
+ Assert.assertEquals(" IF  = 2 + 3  =  = 2.5 * 5.2  " +
+         "\"True, both expressions amount to  = 2 + 3 \" " +
+         "\"False,  = 2 + 3  does not equal  = 2.5 * 5.2 \" ", field.getFieldCode());
+
+ doc.updateFields();
+ doc.save(getArtifactsDir() + "Field.SYMBOL.docx");
+ 
+``` |
 
 **Returns:**
 [FieldBuilder](../../com.aspose.words/fieldbuilder/)
@@ -181,7 +849,89 @@ Adds a field's switch.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | switchName | java.lang.String | The switch name. |
-| switchArgument | int | The switch value. |
+| switchArgument | int | The switch value.
+
+ **Examples:** 
+
+Shows how to construct fields using a field builder, and then insert them into the document.
+
+```
+
+ Document doc = new Document();
+
+ // Below are three examples of field construction done using a field builder.
+ // 1 -  Single field:
+ // Use a field builder to add a SYMBOL field which displays the \u0192 (Florin) symbol.
+ FieldBuilder builder = new FieldBuilder(FieldType.FIELD_SYMBOL);
+ builder.addArgument(402);
+ builder.addSwitch("\\f", "Arial");
+ builder.addSwitch("\\s", 25);
+ builder.addSwitch("\\u");
+ Field field = builder.buildAndInsert(doc.getFirstSection().getBody().getFirstParagraph());
+
+ Assert.assertEquals(field.getFieldCode(), " SYMBOL 402 \\f Arial \\s 25 \\u ");
+
+ // 2 -  Nested field:
+ // Use a field builder to create a formula field used as an inner field by another field builder.
+ FieldBuilder innerFormulaBuilder = new FieldBuilder(FieldType.FIELD_FORMULA);
+ innerFormulaBuilder.addArgument(100);
+ innerFormulaBuilder.addArgument("+");
+ innerFormulaBuilder.addArgument(74);
+
+ // Create another builder for another SYMBOL field, and insert the formula field
+ // that we have created above into the SYMBOL field as its argument.
+ builder = new FieldBuilder(FieldType.FIELD_SYMBOL);
+ builder.addArgument(innerFormulaBuilder);
+ field = builder.buildAndInsert(doc.getFirstSection().getBody().appendParagraph(""));
+
+ // The outer SYMBOL field will use the formula field result, 174, as its argument,
+ // which will make the field display the ® (Registered Sign) symbol since its character number is 174.
+ Assert.assertEquals(" SYMBOL  = 100 + 74  ", field.getFieldCode());
+
+ // 3 -  Multiple nested fields and arguments:
+ // Now, we will use a builder to create an IF field, which displays one of two custom string values,
+ // depending on the true/false value of its expression. To get a true/false value
+ // that determines which string the IF field displays, the IF field will test two numeric expressions for equality.
+ // We will provide the two expressions in the form of formula fields, which we will nest inside the IF field.
+ FieldBuilder leftExpression = new FieldBuilder(FieldType.FIELD_FORMULA);
+ leftExpression.addArgument(2);
+ leftExpression.addArgument("+");
+ leftExpression.addArgument(3);
+
+ FieldBuilder rightExpression = new FieldBuilder(FieldType.FIELD_FORMULA);
+ rightExpression.addArgument(2.5);
+ rightExpression.addArgument("*");
+ rightExpression.addArgument(5.2);
+
+ // Next, we will build two field arguments, which will serve as the true/false output strings for the IF field.
+ // These arguments will reuse the output values of our numeric expressions.
+ FieldArgumentBuilder trueOutput = new FieldArgumentBuilder();
+ trueOutput.addText("True, both expressions amount to ");
+ trueOutput.addField(leftExpression);
+
+ FieldArgumentBuilder falseOutput = new FieldArgumentBuilder();
+ falseOutput.addNode(new Run(doc, "False, "));
+ falseOutput.addField(leftExpression);
+ falseOutput.addNode(new Run(doc, " does not equal "));
+ falseOutput.addField(rightExpression);
+
+ // Finally, we will create one more field builder for the IF field and combine all of the expressions.
+ builder = new FieldBuilder(FieldType.FIELD_IF);
+ builder.addArgument(leftExpression);
+ builder.addArgument("=");
+ builder.addArgument(rightExpression);
+ builder.addArgument(trueOutput);
+ builder.addArgument(falseOutput);
+ field = builder.buildAndInsert(doc.getFirstSection().getBody().appendParagraph(""));
+
+ Assert.assertEquals(" IF  = 2 + 3  =  = 2.5 * 5.2  " +
+         "\"True, both expressions amount to  = 2 + 3 \" " +
+         "\"False,  = 2 + 3  does not equal  = 2.5 * 5.2 \" ", field.getFieldCode());
+
+ doc.updateFields();
+ doc.save(getArtifactsDir() + "Field.SYMBOL.docx");
+ 
+``` |
 
 **Returns:**
 [FieldBuilder](../../com.aspose.words/fieldbuilder/)
@@ -197,7 +947,89 @@ Adds a field's switch.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | switchName | java.lang.String | The switch name. |
-| switchArgument | java.lang.String | The switch value. |
+| switchArgument | java.lang.String | The switch value.
+
+ **Examples:** 
+
+Shows how to construct fields using a field builder, and then insert them into the document.
+
+```
+
+ Document doc = new Document();
+
+ // Below are three examples of field construction done using a field builder.
+ // 1 -  Single field:
+ // Use a field builder to add a SYMBOL field which displays the \u0192 (Florin) symbol.
+ FieldBuilder builder = new FieldBuilder(FieldType.FIELD_SYMBOL);
+ builder.addArgument(402);
+ builder.addSwitch("\\f", "Arial");
+ builder.addSwitch("\\s", 25);
+ builder.addSwitch("\\u");
+ Field field = builder.buildAndInsert(doc.getFirstSection().getBody().getFirstParagraph());
+
+ Assert.assertEquals(field.getFieldCode(), " SYMBOL 402 \\f Arial \\s 25 \\u ");
+
+ // 2 -  Nested field:
+ // Use a field builder to create a formula field used as an inner field by another field builder.
+ FieldBuilder innerFormulaBuilder = new FieldBuilder(FieldType.FIELD_FORMULA);
+ innerFormulaBuilder.addArgument(100);
+ innerFormulaBuilder.addArgument("+");
+ innerFormulaBuilder.addArgument(74);
+
+ // Create another builder for another SYMBOL field, and insert the formula field
+ // that we have created above into the SYMBOL field as its argument.
+ builder = new FieldBuilder(FieldType.FIELD_SYMBOL);
+ builder.addArgument(innerFormulaBuilder);
+ field = builder.buildAndInsert(doc.getFirstSection().getBody().appendParagraph(""));
+
+ // The outer SYMBOL field will use the formula field result, 174, as its argument,
+ // which will make the field display the ® (Registered Sign) symbol since its character number is 174.
+ Assert.assertEquals(" SYMBOL  = 100 + 74  ", field.getFieldCode());
+
+ // 3 -  Multiple nested fields and arguments:
+ // Now, we will use a builder to create an IF field, which displays one of two custom string values,
+ // depending on the true/false value of its expression. To get a true/false value
+ // that determines which string the IF field displays, the IF field will test two numeric expressions for equality.
+ // We will provide the two expressions in the form of formula fields, which we will nest inside the IF field.
+ FieldBuilder leftExpression = new FieldBuilder(FieldType.FIELD_FORMULA);
+ leftExpression.addArgument(2);
+ leftExpression.addArgument("+");
+ leftExpression.addArgument(3);
+
+ FieldBuilder rightExpression = new FieldBuilder(FieldType.FIELD_FORMULA);
+ rightExpression.addArgument(2.5);
+ rightExpression.addArgument("*");
+ rightExpression.addArgument(5.2);
+
+ // Next, we will build two field arguments, which will serve as the true/false output strings for the IF field.
+ // These arguments will reuse the output values of our numeric expressions.
+ FieldArgumentBuilder trueOutput = new FieldArgumentBuilder();
+ trueOutput.addText("True, both expressions amount to ");
+ trueOutput.addField(leftExpression);
+
+ FieldArgumentBuilder falseOutput = new FieldArgumentBuilder();
+ falseOutput.addNode(new Run(doc, "False, "));
+ falseOutput.addField(leftExpression);
+ falseOutput.addNode(new Run(doc, " does not equal "));
+ falseOutput.addField(rightExpression);
+
+ // Finally, we will create one more field builder for the IF field and combine all of the expressions.
+ builder = new FieldBuilder(FieldType.FIELD_IF);
+ builder.addArgument(leftExpression);
+ builder.addArgument("=");
+ builder.addArgument(rightExpression);
+ builder.addArgument(trueOutput);
+ builder.addArgument(falseOutput);
+ field = builder.buildAndInsert(doc.getFirstSection().getBody().appendParagraph(""));
+
+ Assert.assertEquals(" IF  = 2 + 3  =  = 2.5 * 5.2  " +
+         "\"True, both expressions amount to  = 2 + 3 \" " +
+         "\"False,  = 2 + 3  does not equal  = 2.5 * 5.2 \" ", field.getFieldCode());
+
+ doc.updateFields();
+ doc.save(getArtifactsDir() + "Field.SYMBOL.docx");
+ 
+``` |
 
 **Returns:**
 [FieldBuilder](../../com.aspose.words/fieldbuilder/)
@@ -216,6 +1048,33 @@ Builds and inserts a field into the document before the specified inline node.
 
 **Returns:**
 [Field](../../com.aspose.words/field/) - A [Field](../../com.aspose.words/field/) object that represents the inserted field.
+
+ **Examples:** 
+
+Shows how to create and insert a field using a field builder.
+
+```
+
+ Document doc = new Document();
+
+ // A convenient way of adding text content to a document is with a document builder.
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.write(" Hello world! This text is one Run, which is an inline node.");
+
+ // Fields have their builder, which we can use to construct a field code piece by piece.
+ // In this case, we will construct a BARCODE field representing a US postal code,
+ // and then insert it in front of a Run.
+ FieldBuilder fieldBuilder = new FieldBuilder(FieldType.FIELD_BARCODE);
+ fieldBuilder.addArgument("90210");
+ fieldBuilder.addSwitch("\\f", "A");
+ fieldBuilder.addSwitch("\\u");
+
+ fieldBuilder.buildAndInsert(doc.getFirstSection().getBody().getFirstParagraph().getRuns().get(0));
+
+ doc.updateFields();
+ doc.save(getArtifactsDir() + "Field.CreateWithFieldBuilder.docx");
+ 
+```
 ### buildAndInsert(Paragraph refNode) {#buildAndInsert-com.aspose.words.Paragraph}
 ```
 public Field buildAndInsert(Paragraph refNode)
@@ -231,6 +1090,88 @@ Builds and inserts a field into the document to the end of the specified paragra
 
 **Returns:**
 [Field](../../com.aspose.words/field/) - A [Field](../../com.aspose.words/field/) object that represents the inserted field.
+
+ **Examples:** 
+
+Shows how to construct fields using a field builder, and then insert them into the document.
+
+```
+
+ Document doc = new Document();
+
+ // Below are three examples of field construction done using a field builder.
+ // 1 -  Single field:
+ // Use a field builder to add a SYMBOL field which displays the \u0192 (Florin) symbol.
+ FieldBuilder builder = new FieldBuilder(FieldType.FIELD_SYMBOL);
+ builder.addArgument(402);
+ builder.addSwitch("\\f", "Arial");
+ builder.addSwitch("\\s", 25);
+ builder.addSwitch("\\u");
+ Field field = builder.buildAndInsert(doc.getFirstSection().getBody().getFirstParagraph());
+
+ Assert.assertEquals(field.getFieldCode(), " SYMBOL 402 \\f Arial \\s 25 \\u ");
+
+ // 2 -  Nested field:
+ // Use a field builder to create a formula field used as an inner field by another field builder.
+ FieldBuilder innerFormulaBuilder = new FieldBuilder(FieldType.FIELD_FORMULA);
+ innerFormulaBuilder.addArgument(100);
+ innerFormulaBuilder.addArgument("+");
+ innerFormulaBuilder.addArgument(74);
+
+ // Create another builder for another SYMBOL field, and insert the formula field
+ // that we have created above into the SYMBOL field as its argument.
+ builder = new FieldBuilder(FieldType.FIELD_SYMBOL);
+ builder.addArgument(innerFormulaBuilder);
+ field = builder.buildAndInsert(doc.getFirstSection().getBody().appendParagraph(""));
+
+ // The outer SYMBOL field will use the formula field result, 174, as its argument,
+ // which will make the field display the ® (Registered Sign) symbol since its character number is 174.
+ Assert.assertEquals(" SYMBOL  = 100 + 74  ", field.getFieldCode());
+
+ // 3 -  Multiple nested fields and arguments:
+ // Now, we will use a builder to create an IF field, which displays one of two custom string values,
+ // depending on the true/false value of its expression. To get a true/false value
+ // that determines which string the IF field displays, the IF field will test two numeric expressions for equality.
+ // We will provide the two expressions in the form of formula fields, which we will nest inside the IF field.
+ FieldBuilder leftExpression = new FieldBuilder(FieldType.FIELD_FORMULA);
+ leftExpression.addArgument(2);
+ leftExpression.addArgument("+");
+ leftExpression.addArgument(3);
+
+ FieldBuilder rightExpression = new FieldBuilder(FieldType.FIELD_FORMULA);
+ rightExpression.addArgument(2.5);
+ rightExpression.addArgument("*");
+ rightExpression.addArgument(5.2);
+
+ // Next, we will build two field arguments, which will serve as the true/false output strings for the IF field.
+ // These arguments will reuse the output values of our numeric expressions.
+ FieldArgumentBuilder trueOutput = new FieldArgumentBuilder();
+ trueOutput.addText("True, both expressions amount to ");
+ trueOutput.addField(leftExpression);
+
+ FieldArgumentBuilder falseOutput = new FieldArgumentBuilder();
+ falseOutput.addNode(new Run(doc, "False, "));
+ falseOutput.addField(leftExpression);
+ falseOutput.addNode(new Run(doc, " does not equal "));
+ falseOutput.addField(rightExpression);
+
+ // Finally, we will create one more field builder for the IF field and combine all of the expressions.
+ builder = new FieldBuilder(FieldType.FIELD_IF);
+ builder.addArgument(leftExpression);
+ builder.addArgument("=");
+ builder.addArgument(rightExpression);
+ builder.addArgument(trueOutput);
+ builder.addArgument(falseOutput);
+ field = builder.buildAndInsert(doc.getFirstSection().getBody().appendParagraph(""));
+
+ Assert.assertEquals(" IF  = 2 + 3  =  = 2.5 * 5.2  " +
+         "\"True, both expressions amount to  = 2 + 3 \" " +
+         "\"False,  = 2 + 3  does not equal  = 2.5 * 5.2 \" ", field.getFieldCode());
+
+ doc.updateFields();
+ doc.save(getArtifactsDir() + "Field.SYMBOL.docx");
+ 
+```
 ### buildBlock(DocumentBuilder documentBuilder) {#buildBlock-com.aspose.words.DocumentBuilder}
 ```
 public void buildBlock(DocumentBuilder documentBuilder)

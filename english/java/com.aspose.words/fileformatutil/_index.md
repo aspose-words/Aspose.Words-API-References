@@ -4,7 +4,7 @@ linktitle: FileFormatUtil
 second_title: Aspose.Words for Java API Reference
 description: Provides utility methods for working with file formats such as detecting file format or converting file extensions to/from file format enums in Java.
 type: docs
-weight: 268
+weight: 269
 url: /java/com.aspose.words/fileformatutil/
 ---
 
@@ -17,6 +17,21 @@ public class FileFormatUtil
 Provides utility methods for working with file formats, such as detecting file format or converting file extensions to/from file format enums.
 
 To learn more, visit the [ Detect File Format and Check Format Compatibility ][Detect File Format and Check Format Compatibility] documentation article.
+
+ **Examples:** 
+
+Shows how to detect encoding in an html file.
+
+```
+
+ FileFormatInfo info = FileFormatUtil.detectFileFormat(getMyDir() + "Document.html");
+
+ Assert.assertEquals(LoadFormat.HTML, info.getLoadFormat());
+
+ // The Encoding property is used only when we create a FileFormatInfo object for an html document.
+ Assert.assertEquals("windows-1252", info.getEncoding().name());
+ 
+```
 
 
 [Detect File Format and Check Format Compatibility]: https://docs.aspose.com/words/java/detect-file-format-and-check-format-compatibility/
@@ -96,6 +111,8 @@ public static FileFormatInfo detectFileFormat(String fileName)
 
 Detects and returns the information about a format of a document.  Detects and returns the information about a format of a document stored in a disk file.
 
+ **Remarks:** 
+
 Even if this method detects the document format, it does not guarantee that the specified document is valid. This method only detects the document format by reading data that is sufficient for detection. To fully verify that a document is valid you need to load the document into a [Document](../../com.aspose.words/document/) object.
 
 This method throws [FileCorruptedException](../../com.aspose.words/filecorruptedexception/) when the format is recognized, but the detection cannot complete because of corruption.
@@ -107,6 +124,53 @@ This method throws [FileCorruptedException](../../com.aspose.words/filecorrupted
 
 **Returns:**
 [FileFormatInfo](../../com.aspose.words/fileformatinfo/) - A [FileFormatInfo](../../com.aspose.words/fileformatinfo/) object that contains the detected information.
+
+ **Examples:** 
+
+Shows how to use the FileFormatUtil class to detect the document format and encryption.
+
+```
+
+ Document doc = new Document();
+
+ // Configure a SaveOptions object to encrypt the document
+ // with a password when we save it, and then save the document.
+ OdtSaveOptions saveOptions = new OdtSaveOptions(SaveFormat.ODT);
+ saveOptions.setPassword("MyPassword");
+
+ doc.save(getArtifactsDir() + "File.DetectDocumentEncryption.odt", saveOptions);
+
+ // Verify the file type of our document, and its encryption status.
+ FileFormatInfo info = FileFormatUtil.detectFileFormat(getArtifactsDir() + "File.DetectDocumentEncryption.odt");
+
+ Assert.assertEquals(".odt", FileFormatUtil.loadFormatToExtension(info.getLoadFormat()));
+ Assert.assertTrue(info.isEncrypted());
+ 
+```
+
+Shows how to use the FileFormatUtil class to detect the document format and presence of digital signatures.
+
+```
+
+ // Use a FileFormatInfo instance to verify that a document is not digitally signed.
+ FileFormatInfo info = FileFormatUtil.detectFileFormat(getMyDir() + "Document.docx");
+
+ Assert.assertEquals(".docx", FileFormatUtil.loadFormatToExtension(info.getLoadFormat()));
+ Assert.assertFalse(info.hasDigitalSignature());
+
+ CertificateHolder certificateHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw", null);
+ DigitalSignatureUtil.sign(getMyDir() + "Document.docx", getArtifactsDir() + "File.DetectDigitalSignatures.docx",
+         certificateHolder);
+
+ // Use a new FileFormatInstance to confirm that it is signed.
+ info = FileFormatUtil.detectFileFormat(getArtifactsDir() + "File.DetectDigitalSignatures.docx");
+
+ Assert.assertTrue(info.hasDigitalSignature());
+
+ // We can load and access the signatures of a signed document in a collection like this.
+ Assert.assertEquals(1, DigitalSignatureUtil.loadSignatures(getArtifactsDir() + "File.DetectDigitalSignatures.docx").getCount());
+ 
+```
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
@@ -134,6 +198,8 @@ Converts a file name extension into a [SaveFormat](../../com.aspose.words/savefo
 | Parameter | Type | Description |
 | --- | --- | --- |
 | extension | java.lang.String | The file extension. Can be with or without a leading dot. Case-insensitive.
+
+ **Remarks:** 
 
 If the extension cannot be recognized, returns [SaveFormat.UNKNOWN](../../com.aspose.words/saveformat/\#UNKNOWN). |
 

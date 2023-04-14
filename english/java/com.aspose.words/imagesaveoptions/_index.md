@@ -4,7 +4,7 @@ linktitle: ImageSaveOptions
 second_title: Aspose.Words for Java API Reference
 description: Allows to specify additional options when rendering document pages or shapes to images in Java.
 type: docs
-weight: 342
+weight: 343
 url: /java/com.aspose.words/imagesaveoptions/
 ---
 
@@ -20,6 +20,111 @@ public class ImageSaveOptions extends FixedPageSaveOptions implements Cloneable
 Allows to specify additional options when rendering document pages or shapes to images.
 
 To learn more, visit the [ Specify Save Options ][Specify Save Options] documentation article.
+
+ **Examples:** 
+
+Renders a page of a Word document into an image with transparent or colored background.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setName("Times New Roman");
+ builder.getFont().setSize(24.0);
+ builder.writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+
+ builder.insertImage(getImageDir() + "Logo.jpg");
+
+ // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
+ // to modify the way in which that method renders the document into an image.
+ ImageSaveOptions imgOptions = new ImageSaveOptions(SaveFormat.PNG);
+
+ // Set the "PaperColor" property to a transparent color to apply a transparent
+ // background to the document while rendering it to an image.
+ imgOptions.setPaperColor(new Color(1f, 0f, 0f, .5f));
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.PaperColor.Transparent.png", imgOptions);
+
+ // Set the "PaperColor" property to an opaque color to apply that color
+ // as the background of the document as we render it to an image.
+ imgOptions.setPaperColor(Color.cyan);
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.PaperColor.LightCoral.png", imgOptions);
+ 
+```
+
+Shows how to configure compression while saving a document as a JPEG.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.insertImage(getImageDir() + "Logo.jpg");
+
+ // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
+ // to modify the way in which that method renders the document into an image.
+ ImageSaveOptions imageOptions = new ImageSaveOptions(SaveFormat.JPEG);
+
+ // Set the "JpegQuality" property to "10" to use stronger compression when rendering the document.
+ // This will reduce the file size of the document, but the image will display more prominent compression artifacts.
+ imageOptions.setJpegQuality(10);
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.JpegQuality.HighCompression.jpg", imageOptions);
+
+ Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.JpegQuality.HighCompression.jpg").length() <= 20000);
+
+ // Set the "JpegQuality" property to "100" to use weaker compression when rending the document.
+ // This will improve the quality of the image at the cost of an increased file size.
+ imageOptions.setJpegQuality(100);
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.JpegQuality.HighQuality.jpg", imageOptions);
+
+ Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.JpegQuality.HighQuality.jpg").length() < 60000);
+ 
+```
+
+Shows how to specify a resolution while rendering a document to PNG.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setName("Times New Roman");
+ builder.getFont().setSize(24.0);
+ builder.writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+
+ builder.insertImage(getImageDir() + "Logo.jpg");
+
+ // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
+ // to modify the way in which that method renders the document into an image.
+ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.PNG);
+
+ // Set the "Resolution" property to "72" to render the document in 72dpi.
+ options.setResolution(72f);
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.Resolution.72dpi.png", options);
+
+ Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.Resolution.72dpi.png").length() <= 120000);
+
+ BufferedImage image = ImageIO.read(new File(getArtifactsDir() + "ImageSaveOptions.Resolution.72dpi.png"));
+
+ Assert.assertEquals(612, image.getWidth());
+ Assert.assertEquals(792, image.getHeight());
+ // Set the "Resolution" property to "300" to render the document in 300dpi.
+ options.setResolution(300f);
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.Resolution.300dpi.png", options);
+
+ Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.Resolution.300dpi.png").length() < 1170000);
+
+ image = ImageIO.read(new File(getArtifactsDir() + "ImageSaveOptions.Resolution.300dpi.png"));
+
+ Assert.assertEquals(2550, image.getWidth());
+ Assert.assertEquals(3300, image.getHeight());
+ 
+```
 
 
 [Specify Save Options]: https://docs.aspose.com/words/java/specify-save-options/
@@ -166,6 +271,29 @@ Creates a save options object of a class suitable for the file extension specifi
 
 **Returns:**
 [SaveOptions](../../com.aspose.words/saveoptions/) - An object of a class that derives from [SaveOptions](../../com.aspose.words/saveoptions/).
+
+ **Examples:** 
+
+Shows how to set a default template for documents that do not have attached templates.
+
+```
+
+ Document doc = new Document();
+
+ // Enable automatic style updating, but do not attach a template document.
+ doc.setAutomaticallyUpdateStyles(true);
+
+ Assert.assertEquals("", doc.getAttachedTemplate());
+
+ // Since there is no template document, the document had nowhere to track style changes.
+ // Use a SaveOptions object to automatically set a template
+ // if a document that we are saving does not have one.
+ SaveOptions options = SaveOptions.createSaveOptions("Document.DefaultTemplate.docx");
+ options.setDefaultTemplate(getMyDir() + "Business brochure.dotx");
+
+ doc.save(getArtifactsDir() + "Document.DefaultTemplate.docx", options);
+ 
+```
 ### deepClone() {#deepClone}
 ```
 public ImageSaveOptions deepClone()
@@ -173,6 +301,48 @@ public ImageSaveOptions deepClone()
 
 
 Creates a deep clone of this object.
+
+ **Examples:** 
+
+Shows how to select a bit-per-pixel rate with which to render a document to an image.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("Heading 1"));
+ builder.writeln("Hello world!");
+ builder.insertImage(getImageDir() + "Logo.jpg");
+
+ Assert.assertTrue(new File(getImageDir() + "Logo.jpg").length() < 21000);
+
+ // When we save the document as an image, we can pass a SaveOptions object to
+ // select a pixel format for the image that the saving operation will generate.
+ // Various bit per pixel rates will affect the quality and file size of the generated image.
+ ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.PNG);
+ imageSaveOptions.setPixelFormat(imagePixelFormat);
+
+ // We can clone ImageSaveOptions instances.
+ Assert.assertNotEquals(imageSaveOptions, imageSaveOptions.deepClone());
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.PixelFormat.png", imageSaveOptions);
+
+ switch (imagePixelFormat) {
+     case ImagePixelFormat.FORMAT_1_BPP_INDEXED:
+         Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.PixelFormat.png").length() <= 10000);
+         break;
+     case ImagePixelFormat.FORMAT_16_BPP_RGB_555:
+     case ImagePixelFormat.FORMAT_32_BPP_RGB:
+     case ImagePixelFormat.FORMAT_48_BPP_RGB:
+         Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.PixelFormat.png").length() < 156000);
+         break;
+     case ImagePixelFormat.FORMAT_24_BPP_RGB:
+         Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.PixelFormat.png").length() < 146000);
+         break;
+ }
+ 
+```
 
 **Returns:**
 [ImageSaveOptions](../../com.aspose.words/imagesaveoptions/)
@@ -199,9 +369,40 @@ public boolean getAllowEmbeddingPostScriptFonts()
 
 Gets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is  false .
 
+ **Remarks:** 
+
 Note, Word does not embed PostScript fonts, but can open documents with embedded fonts of this type.
 
 This option only works when [FontInfoCollection.getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection/\#getEmbedTrueTypeFonts) / [FontInfoCollection.setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection/\#setEmbedTrueTypeFonts-boolean) of the [DocumentBase.getFontInfos()](../../com.aspose.words/documentbase/\#getFontInfos) property is set to  true .
+
+ **Examples:** 
+
+Shows how to save the document with PostScript font.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setName("PostScriptFont");
+ builder.writeln("Some text with PostScript font.");
+
+ // Load the font with PostScript to use in the document.
+ MemoryFontSource otf = new MemoryFontSource(DocumentHelper.getBytesFromStream(new FileInputStream(getFontsDir() + "AllegroOpen.otf")));
+ doc.setFontSettings(new FontSettings());
+ doc.getFontSettings().setFontsSources(new FontSourceBase[]{otf});
+
+ // Embed TrueType fonts.
+ doc.getFontInfos().setEmbedTrueTypeFonts(true);
+
+ // Allow embedding PostScript fonts while embedding TrueType fonts.
+ // Microsoft Word does not embed PostScript fonts, but can open documents with embedded fonts of this type.
+ SaveOptions saveOptions = SaveOptions.createSaveOptions(SaveFormat.DOCX);
+ saveOptions.setAllowEmbeddingPostScriptFonts(true);
+
+ doc.save(getArtifactsDir() + "Document.AllowEmbeddingPostScriptFonts.docx", saveOptions);
+ 
+```
 
 **Returns:**
 boolean - A boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved.
@@ -221,7 +422,11 @@ public int getColorMode()
 ```
 
 
-Gets a value determining how colors are rendered. The default value is [ColorMode.NORMAL](../../com.aspose.words/colormode/\#NORMAL).
+Gets a value determining how colors are rendered.
+
+ **Remarks:** 
+
+The default value is [ColorMode.NORMAL](../../com.aspose.words/colormode/\#NORMAL).
 
 **Returns:**
 int - A value determining how colors are rendered. The returned value is one of [ColorMode](../../com.aspose.words/colormode/) constants.
@@ -231,7 +436,34 @@ public String getDefaultTemplate()
 ```
 
 
-Gets path to default template (including filename). Default value for this property is **empty string**. If specified, this path is used to load template when [Document.getAutomaticallyUpdateStyles()](../../com.aspose.words/document/\#getAutomaticallyUpdateStyles) / [Document.setAutomaticallyUpdateStyles(boolean)](../../com.aspose.words/document/\#setAutomaticallyUpdateStyles-boolean) is  true , but [Document.getAttachedTemplate()](../../com.aspose.words/document/\#getAttachedTemplate) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document/\#setAttachedTemplate-java.lang.String) is empty.
+Gets path to default template (including filename). Default value for this property is **empty string**.
+
+ **Remarks:** 
+
+If specified, this path is used to load template when [Document.getAutomaticallyUpdateStyles()](../../com.aspose.words/document/\#getAutomaticallyUpdateStyles) / [Document.setAutomaticallyUpdateStyles(boolean)](../../com.aspose.words/document/\#setAutomaticallyUpdateStyles-boolean) is  true , but [Document.getAttachedTemplate()](../../com.aspose.words/document/\#getAttachedTemplate) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document/\#setAttachedTemplate-java.lang.String) is empty.
+
+ **Examples:** 
+
+Shows how to set a default template for documents that do not have attached templates.
+
+```
+
+ Document doc = new Document();
+
+ // Enable automatic style updating, but do not attach a template document.
+ doc.setAutomaticallyUpdateStyles(true);
+
+ Assert.assertEquals("", doc.getAttachedTemplate());
+
+ // Since there is no template document, the document had nowhere to track style changes.
+ // Use a SaveOptions object to automatically set a template
+ // if a document that we are saving does not have one.
+ SaveOptions options = SaveOptions.createSaveOptions("Document.DefaultTemplate.docx");
+ options.setDefaultTemplate(getMyDir() + "Business brochure.dotx");
+
+ doc.save(getArtifactsDir() + "Document.DefaultTemplate.docx", options);
+ 
+```
 
 **Returns:**
 java.lang.String - Path to default template (including filename).
@@ -241,7 +473,11 @@ public int getDml3DEffectsRenderingMode()
 ```
 
 
-Gets a value determining how 3D effects are rendered. The default value is [Dml3DEffectsRenderingMode.BASIC](../../com.aspose.words/dml3deffectsrenderingmode/\#BASIC).
+Gets a value determining how 3D effects are rendered.
+
+ **Remarks:** 
+
+The default value is [Dml3DEffectsRenderingMode.BASIC](../../com.aspose.words/dml3deffectsrenderingmode/\#BASIC).
 
 **Returns:**
 int - A value determining how 3D effects are rendered. The returned value is one of [Dml3DEffectsRenderingMode](../../com.aspose.words/dml3deffectsrenderingmode/) constants.
@@ -251,7 +487,11 @@ public int getDmlEffectsRenderingMode()
 ```
 
 
-Gets a value determining how DrawingML effects are rendered. The default value is [DmlEffectsRenderingMode.SIMPLIFIED](../../com.aspose.words/dmleffectsrenderingmode/\#SIMPLIFIED).
+Gets a value determining how DrawingML effects are rendered.
+
+ **Remarks:** 
+
+The default value is [DmlEffectsRenderingMode.SIMPLIFIED](../../com.aspose.words/dmleffectsrenderingmode/\#SIMPLIFIED).
 
 This property is used when the document is exported to fixed page formats.
 
@@ -263,7 +503,11 @@ public int getDmlRenderingMode()
 ```
 
 
-Gets a value determining how DrawingML shapes are rendered. The default value is [DmlRenderingMode.FALLBACK](../../com.aspose.words/dmlrenderingmode/\#FALLBACK).
+Gets a value determining how DrawingML shapes are rendered.
+
+ **Remarks:** 
+
+The default value is [DmlRenderingMode.FALLBACK](../../com.aspose.words/dmlrenderingmode/\#FALLBACK).
 
 This property is used when the document is exported to fixed page formats.
 
@@ -277,6 +521,21 @@ public boolean getExportGeneratorName()
 
 When  true , causes the name and version of Aspose.Words to be embedded into produced files. Default value is  true .
 
+ **Examples:** 
+
+Shows how to disable adding name and version of Aspose.Words into produced files.
+
+```
+
+ Document doc = new Document();
+
+ // Use https://docs.aspose.com/words/net/generator-or-producer-name-included-in-output-documents/ to know how to check the result.
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(); { saveOptions.setExportGeneratorName(false); }
+
+ doc.save(getArtifactsDir() + "OoxmlSaveOptions.ExportGeneratorName.docx", saveOptions);
+ 
+```
+
 **Returns:**
 boolean - The corresponding  boolean  value.
 ### getGraphicsQualityOptions() {#getGraphicsQualityOptions}
@@ -287,9 +546,34 @@ public GraphicsQualityOptions getGraphicsQualityOptions()
 
 Allows to specify rendering mode and quality for the java.awt.Graphics2D object.
 
+ **Remarks:** 
+
 Use this property to override the Graphics settings provided by Aspose.Words engine by default.
 
 It will take effect only when a document is being saved to an image-like format.
+
+ **Examples:** 
+
+Shows how to set render quality options while converting documents to image formats.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ GraphicsQualityOptions qualityOptions = new GraphicsQualityOptions();
+ qualityOptions.getRenderingHints().put(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON); // SmoothingMode
+ qualityOptions.getRenderingHints().put(RenderingHints.KEY_TEXT_ANTIALIASING, RenderingHints.VALUE_TEXT_ANTIALIAS_ON); // TextRenderingHint
+ qualityOptions.getRenderingHints().put(RenderingHints.KEY_COLOR_RENDERING, RenderingHints.VALUE_COLOR_RENDER_QUALITY); // CompositingMode
+ qualityOptions.getRenderingHints().put(RenderingHints.KEY_RENDERING, RenderingHints.VALUE_RENDER_QUALITY); // CompositingQuality
+ qualityOptions.getRenderingHints().put(RenderingHints.KEY_INTERPOLATION, RenderingHints.VALUE_INTERPOLATION_BILINEAR); // InterpolationMode
+ qualityOptions.getRenderingHints().put(RenderingHints.KEY_FRACTIONALMETRICS, RenderingHints.VALUE_FRACTIONALMETRICS_ON); // StringFormat
+
+ ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.JPEG);
+ saveOptions.setGraphicsQualityOptions(qualityOptions);
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.GraphicsQuality.jpg", saveOptions);
+ 
+```
 
 **Returns:**
 [GraphicsQualityOptions](../../com.aspose.words/graphicsqualityoptions/) - The corresponding [GraphicsQualityOptions](../../com.aspose.words/graphicsqualityoptions/) value.
@@ -301,9 +585,48 @@ public float getHorizontalResolution()
 
 Gets the horizontal resolution for the generated images, in dots per inch.
 
+ **Remarks:** 
+
 This property has effect only when saving to raster image formats and affects the output size in pixels.
 
 The default value is 96.
+
+ **Examples:** 
+
+Shows how to edit the image while Aspose.Words converts a document to one.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("Heading 1"));
+ builder.writeln("Hello world!");
+ builder.insertImage(getImageDir() + "Logo.jpg");
+
+ // When we save the document as an image, we can pass a SaveOptions object to
+ // edit the image while the saving operation renders it.
+ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.PNG);
+ {
+     // We can adjust these properties to change the image's brightness and contrast.
+     // Both are on a 0-1 scale and are at 0.5 by default.
+     options.setImageBrightness(0.3f);
+     options.setImageContrast(0.7f);
+
+     // We can adjust horizontal and vertical resolution with these properties.
+     // This will affect the dimensions of the image.
+     // The default value for these properties is 96.0, for a resolution of 96dpi.
+     options.setHorizontalResolution(72f);
+     options.setVerticalResolution(72f);
+
+     // We can scale the image using this property. The default value is 1.0, for scaling of 100%.
+     // We can use this property to negate any changes in image dimensions that changing the resolution would cause.
+     options.setScale(96f / 72f);
+ }
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.EditImage.png", options);
+ 
+```
 
 **Returns:**
 float - The horizontal resolution for the generated images, in dots per inch.
@@ -315,9 +638,48 @@ public float getImageBrightness()
 
 Gets the brightness for the generated images.
 
+ **Remarks:** 
+
 This property has effect only when saving to raster image formats.
 
 The default value is 0.5. The value must be in the range between 0 and 1.
+
+ **Examples:** 
+
+Shows how to edit the image while Aspose.Words converts a document to one.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("Heading 1"));
+ builder.writeln("Hello world!");
+ builder.insertImage(getImageDir() + "Logo.jpg");
+
+ // When we save the document as an image, we can pass a SaveOptions object to
+ // edit the image while the saving operation renders it.
+ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.PNG);
+ {
+     // We can adjust these properties to change the image's brightness and contrast.
+     // Both are on a 0-1 scale and are at 0.5 by default.
+     options.setImageBrightness(0.3f);
+     options.setImageContrast(0.7f);
+
+     // We can adjust horizontal and vertical resolution with these properties.
+     // This will affect the dimensions of the image.
+     // The default value for these properties is 96.0, for a resolution of 96dpi.
+     options.setHorizontalResolution(72f);
+     options.setVerticalResolution(72f);
+
+     // We can scale the image using this property. The default value is 1.0, for scaling of 100%.
+     // We can use this property to negate any changes in image dimensions that changing the resolution would cause.
+     options.setScale(96f / 72f);
+ }
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.EditImage.png", options);
+ 
+```
 
 **Returns:**
 float - The brightness for the generated images.
@@ -329,9 +691,53 @@ public int getImageColorMode()
 
 Gets the color mode for the generated images.
 
+ **Remarks:** 
+
 This property has effect only when saving to raster image formats.
 
 The default value is [ImageColorMode.NONE](../../com.aspose.words/imagecolormode/\#NONE).
+
+ **Examples:** 
+
+Shows how to set a color mode when rendering documents.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("Heading 1"));
+ builder.writeln("Hello world!");
+ builder.insertImage(getImageDir() + "Logo.jpg");
+
+ Assert.assertTrue(new File(getImageDir() + "Logo.jpg").length() < 20200);
+
+ // When we save the document as an image, we can pass a SaveOptions object to
+ // select a color mode for the image that the saving operation will generate.
+ // If we set the "ImageColorMode" property to "ImageColorMode.BlackAndWhite",
+ // the saving operation will apply grayscale color reduction while rendering the document.
+ // If we set the "ImageColorMode" property to "ImageColorMode.Grayscale",
+ // the saving operation will render the document into a monochrome image.
+ // If we set the "ImageColorMode" property to "None", the saving operation will apply the default method
+ // and preserve all the document's colors in the output image.
+ ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.PNG);
+ imageSaveOptions.setImageColorMode(imageColorMode);
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.ColorMode.png", imageSaveOptions);
+
+ switch (imageColorMode) {
+     case ImageColorMode.NONE:
+         Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.ColorMode.png").length() < 156000);
+         break;
+     case ImageColorMode.GRAYSCALE:
+         Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.ColorMode.png").length() < 85000);
+         break;
+     case ImageColorMode.BLACK_AND_WHITE:
+         Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.ColorMode.png").length() <= 20000);
+         break;
+ }
+ 
+```
 
 **Returns:**
 int - The color mode for the generated images. The returned value is one of [ImageColorMode](../../com.aspose.words/imagecolormode/) constants.
@@ -343,9 +749,48 @@ public float getImageContrast()
 
 Gets the contrast for the generated images.
 
+ **Remarks:** 
+
 This property has effect only when saving to raster image formats.
 
 The default value is 0.5. The value must be in the range between 0 and 1.
+
+ **Examples:** 
+
+Shows how to edit the image while Aspose.Words converts a document to one.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("Heading 1"));
+ builder.writeln("Hello world!");
+ builder.insertImage(getImageDir() + "Logo.jpg");
+
+ // When we save the document as an image, we can pass a SaveOptions object to
+ // edit the image while the saving operation renders it.
+ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.PNG);
+ {
+     // We can adjust these properties to change the image's brightness and contrast.
+     // Both are on a 0-1 scale and are at 0.5 by default.
+     options.setImageBrightness(0.3f);
+     options.setImageContrast(0.7f);
+
+     // We can adjust horizontal and vertical resolution with these properties.
+     // This will affect the dimensions of the image.
+     // The default value for these properties is 96.0, for a resolution of 96dpi.
+     options.setHorizontalResolution(72f);
+     options.setVerticalResolution(72f);
+
+     // We can scale the image using this property. The default value is 1.0, for scaling of 100%.
+     // We can use this property to negate any changes in image dimensions that changing the resolution would cause.
+     options.setScale(96f / 72f);
+ }
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.EditImage.png", options);
+ 
+```
 
 **Returns:**
 float - The contrast for the generated images.
@@ -355,9 +800,33 @@ public int getImlRenderingMode()
 ```
 
 
-Gets a value determining how ink (InkML) objects are rendered. The default value is [ImlRenderingMode.INK\_ML](../../com.aspose.words/imlrenderingmode/\#INK-ML).
+Gets a value determining how ink (InkML) objects are rendered.
+
+ **Remarks:** 
+
+The default value is [ImlRenderingMode.INK\_ML](../../com.aspose.words/imlrenderingmode/\#INK-ML).
 
 This property is used when the document is exported to fixed page formats.
+
+ **Examples:** 
+
+Shows how to render Ink object.
+
+```
+
+ Document doc = new Document(getMyDir() + "Ink object.docx");
+
+ // Set 'ImlRenderingMode.InkML' ignores fall-back shape of ink (InkML) object and renders InkML itself.
+ // If the rendering result is unsatisfactory,
+ // please use 'ImlRenderingMode.Fallback' to get a result similar to previous versions.
+ ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.JPEG);
+ {
+     saveOptions.setImlRenderingMode(ImlRenderingMode.INK_ML);
+ }
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.RenderInkObject.jpeg", saveOptions);
+ 
+```
 
 **Returns:**
 int - A value determining how ink (InkML) objects are rendered. The returned value is one of [ImlRenderingMode](../../com.aspose.words/imlrenderingmode/) constants.
@@ -369,11 +838,45 @@ public int getJpegQuality()
 
 Gets a value determining the quality of the generated JPEG images.
 
+ **Remarks:** 
+
 Has effect only when saving to JPEG.
 
 Use this property to get or set the quality of generated images when saving in JPEG format. The value may vary from 0 to 100 where 0 means worst quality but maximum compression and 100 means best quality but minimum compression.
 
 The default value is 95.
+
+ **Examples:** 
+
+Shows how to configure compression while saving a document as a JPEG.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.insertImage(getImageDir() + "Logo.jpg");
+
+ // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
+ // to modify the way in which that method renders the document into an image.
+ ImageSaveOptions imageOptions = new ImageSaveOptions(SaveFormat.JPEG);
+
+ // Set the "JpegQuality" property to "10" to use stronger compression when rendering the document.
+ // This will reduce the file size of the document, but the image will display more prominent compression artifacts.
+ imageOptions.setJpegQuality(10);
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.JpegQuality.HighCompression.jpg", imageOptions);
+
+ Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.JpegQuality.HighCompression.jpg").length() <= 20000);
+
+ // Set the "JpegQuality" property to "100" to use weaker compression when rending the document.
+ // This will improve the quality of the image at the cost of an increased file size.
+ imageOptions.setJpegQuality(100);
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.JpegQuality.HighQuality.jpg", imageOptions);
+
+ Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.JpegQuality.HighQuality.jpg").length() < 60000);
+ 
+```
 
 **Returns:**
 int - A value determining the quality of the generated JPEG images.
@@ -383,7 +886,11 @@ public boolean getMemoryOptimization()
 ```
 
 
-Gets value determining if memory optimization should be performed before saving the document. Default value for this property is  false . Setting this option to  true  can significantly decrease memory consumption while saving large documents at the cost of slower saving time.
+Gets value determining if memory optimization should be performed before saving the document. Default value for this property is  false .
+
+ **Remarks:** 
+
+Setting this option to  true  can significantly decrease memory consumption while saving large documents at the cost of slower saving time.
 
 **Returns:**
 boolean - Value determining if memory optimization should be performed before saving the document.
@@ -395,6 +902,8 @@ public MetafileRenderingOptions getMetafileRenderingOptions()
 
 Allows to specify how metafiles are treated in the rendered output.
 
+ **Remarks:** 
+
 When [MetafileRenderingMode.VECTOR](../../com.aspose.words/metafilerenderingmode/\#VECTOR) is specified, Aspose.Words renders metafile to vector graphics using its own metafile rendering engine first and then renders vector graphics to the image.
 
 When [MetafileRenderingMode.BITMAP](../../com.aspose.words/metafilerenderingmode/\#BITMAP) is specified, Aspose.Words renders metafile directly to the image using the GDI+ metafile rendering engine.
@@ -402,6 +911,31 @@ When [MetafileRenderingMode.BITMAP](../../com.aspose.words/metafilerenderingmode
 GDI+ metafile rendering engine works faster, supports almost all metafile features but on low resolutions may produce inconsistent result when compared to the rest of vector graphics (especially for text) on the page. Aspose.Words metafile rendering engine will produce more consistent result even on low resolutions but works slower and may inaccurately render complex metafiles.
 
 The default value for [MetafileRenderingMode](../../com.aspose.words/metafilerenderingmode/) is [MetafileRenderingMode.BITMAP](../../com.aspose.words/metafilerenderingmode/\#BITMAP).
+
+ **Examples:** 
+
+Shows how to set the rendering mode when saving documents with Windows Metafile images to other image formats.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.insertImage(getImageDir() + "Windows MetaFile.wmf");
+
+ // When we save the document as an image, we can pass a SaveOptions object to
+ // determine how the saving operation will process Windows Metafiles in the document.
+ // If we set the "RenderingMode" property to "MetafileRenderingMode.Vector",
+ // or "MetafileRenderingMode.VectorWithFallback", we will render all metafiles as vector graphics.
+ // If we set the "RenderingMode" property to "MetafileRenderingMode.Bitmap", we will render all metafiles as bitmaps.
+ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.PNG);
+ options.getMetafileRenderingOptions().setRenderingMode(metafileRenderingMode);
+ // Aspose.Words uses GDI+ for raster operations emulation, when value is set to true.
+ options.getMetafileRenderingOptions().setUseGdiRasterOperationsEmulation(true);
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.WindowsMetaFile.png", options);
+ 
+```
 
 **Returns:**
 [MetafileRenderingOptions](../../com.aspose.words/metafilerenderingoptions/) - The corresponding [MetafileRenderingOptions](../../com.aspose.words/metafilerenderingoptions/) value.
@@ -411,10 +945,14 @@ public int getNumeralFormat()
 ```
 
 
-Gets [NumeralFormat](../../com.aspose.words/numeralformat/) used for rendering of numerals. European numerals are used by default. If the value of this property is changed and page layout is already built then [Document.updatePageLayout()](../../com.aspose.words/document/\#updatePageLayout) is invoked automatically to update any changes.
+Gets [NumeralFormat](../../com.aspose.words/numeralformat/) used for rendering of numerals. European numerals are used by default.
+
+ **Remarks:** 
+
+If the value of this property is changed and page layout is already built then [Document.updatePageLayout()](../../com.aspose.words/document/\#updatePageLayout) is invoked automatically to update any changes.
 
 **Returns:**
-int - \{[NumeralFormat](../../com.aspose.words/numeralformat/) used for rendering of numerals. The returned value is one of [NumeralFormat](../../com.aspose.words/numeralformat/) constants.
+int - [NumeralFormat](../../com.aspose.words/numeralformat/) used for rendering of numerals. The returned value is one of [NumeralFormat](../../com.aspose.words/numeralformat/) constants.
 ### getOptimizeOutput() {#getOptimizeOutput}
 ```
 public boolean getOptimizeOutput()
@@ -422,6 +960,51 @@ public boolean getOptimizeOutput()
 
 
 Flag indicates whether it is required to optimize output. If this flag is set redundant nested canvases and empty canvases are removed, also neighbor glyphs with the same formatting are concatenated. Note: The accuracy of the content display may be affected if this property is set to  true . Default is  false .
+
+ **Examples:** 
+
+Shows how to simplify a document when saving it to HTML by removing various redundant objects.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ HtmlFixedSaveOptions saveOptions = new HtmlFixedSaveOptions();
+ {
+     saveOptions.setOptimizeOutput(optimizeOutput);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html", saveOptions);
+
+ // The size of the optimized version of the document is almost a third of the size of the unoptimized document.
+ if (optimizeOutput)
+     Assert.assertEquals(62521.0,
+         new File(getArtifactsDir() + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html").length(), 200.0);
+ else
+     Assert.assertEquals(191770.0,
+         new File(getArtifactsDir() + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html").length(), 200.0);
+ 
+```
+
+Shows how to optimize document objects while saving to xps.
+
+```
+
+ Document doc = new Document(getMyDir() + "Unoptimized document.docx");
+
+ // Create an "XpsSaveOptions" object to pass to the document's "Save" method
+ // to modify how that method converts the document to .XPS.
+ XpsSaveOptions saveOptions = new XpsSaveOptions();
+
+ // Set the "OptimizeOutput" property to "true" to take measures such as removing nested or empty canvases
+ // and concatenating adjacent runs with identical formatting to optimize the output document's content.
+ // This may affect the appearance of the document.
+ // Set the "OptimizeOutput" property to "false" to save the document normally.
+ saveOptions.setOptimizeOutput(optimizeOutput);
+
+ doc.save(getArtifactsDir() + "XpsSaveOptions.OptimizeOutput.xps", saveOptions);
+ 
+```
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -433,6 +1016,60 @@ public IPageSavingCallback getPageSavingCallback()
 
 Allows to control how separate pages are saved when a document is exported to fixed page format.
 
+ **Examples:** 
+
+Shows how to use a callback to save a document to HTML page by page.
+
+```
+
+ public void pageFileNames() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     builder.writeln("Page 1.");
+     builder.insertBreak(BreakType.PAGE_BREAK);
+     builder.writeln("Page 2.");
+     builder.insertImage(getImageDir() + "Logo.jpg");
+     builder.insertBreak(BreakType.PAGE_BREAK);
+     builder.writeln("Page 3.");
+
+     // Create an "HtmlFixedSaveOptions" object, which we can pass to the document's "Save" method
+     // to modify how we convert the document to HTML.
+     HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions();
+
+     // We will save each page in this document to a separate HTML file in the local file system.
+     // Set a callback that allows us to name each output HTML document.
+     htmlFixedSaveOptions.setPageSavingCallback(new CustomFileNamePageSavingCallback());
+
+     doc.save(getArtifactsDir() + "SavingCallback.PageFileNames.html", htmlFixedSaveOptions);
+
+     String[] filePaths = DocumentHelper.directoryGetFiles(getArtifactsDir(), "SavingCallback.PageFileNames.Page_*").toArray(new String[0]);
+
+     Assert.assertEquals(3, filePaths.length);
+ }
+
+ /// 
+ /// Saves all pages to a file and directory specified within.
+ /// 
+ private static class CustomFileNamePageSavingCallback implements IPageSavingCallback {
+     public void pageSaving(PageSavingArgs args) throws Exception {
+         String outFileName = MessageFormat.format("{0}SavingCallback.PageFileNames.Page_{1}.html", getArtifactsDir(), args.getPageIndex());
+
+         // Below are two ways of specifying where Aspose.Words will save each page of the document.
+         // 1 -  Set a filename for the output page file:
+         args.setPageFileName(outFileName);
+
+         // 2 -  Create a custom stream for the output page file:
+         try (FileOutputStream outputStream = new FileOutputStream(outFileName)) {
+             args.setPageStream(outputStream);
+         }
+
+         Assert.assertFalse(args.getKeepPageStreamOpen());
+     }
+ }
+ 
+```
+
 **Returns:**
 [IPageSavingCallback](../../com.aspose.words/ipagesavingcallback/) - The corresponding [IPageSavingCallback](../../com.aspose.words/ipagesavingcallback/) value.
 ### getPageSet() {#getPageSet}
@@ -443,7 +1080,111 @@ public PageSet getPageSet()
 
 Gets the pages to render. Default is all the pages in the document.
 
+ **Remarks:** 
+
 This property has effect only when rendering document pages. This property is ignored when rendering shapes to images.
+
+ **Examples:** 
+
+Shows how to extract pages based on exact page ranges.
+
+```
+
+ Document doc = new Document(getMyDir() + "Images.docx");
+
+ ImageSaveOptions imageOptions = new ImageSaveOptions(SaveFormat.TIFF);
+ PageSet pageSet = new PageSet(new PageRange(1, 1), new PageRange(2, 3), new PageRange(1, 3), new PageRange(2, 4), new PageRange(1, 1));
+
+ imageOptions.setPageSet(pageSet);
+ doc.save(getArtifactsDir() + "ImageSaveOptions.ExportVariousPageRanges.tiff", imageOptions);
+ 
+```
+
+Shows how to render every page of a document to a separate TIFF image.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Page 1.");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("Page 2.");
+ builder.insertImage(getImageDir() + "Logo.jpg");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("Page 3.");
+
+ // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
+ // to modify the way in which that method renders the document into an image.
+ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.TIFF);
+
+ for (int i = 0; i < doc.getPageCount(); i++) {
+     // Set the "PageSet" property to the number of the first page from
+     // which to start rendering the document from.
+     options.setPageSet(new PageSet(i));
+
+     doc.save(getArtifactsDir() + MessageFormat.format("ImageSaveOptions.PageByPage.{0}.tiff", i + 1), options);
+ }
+ 
+```
+
+Shows how to specify which page in a document to render as an image.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("Heading 1"));
+ builder.writeln("Hello world! This is page 1.");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("This is page 2.");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("This is page 3.");
+
+ Assert.assertEquals(3, doc.getPageCount());
+
+ // When we save the document as an image, Aspose.Words only renders the first page by default.
+ // We can pass a SaveOptions object to specify a different page to render.
+ ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.GIF);
+
+ // Render every page of the document to a separate image file.
+ for (int i = 1; i <= doc.getPageCount(); i++) {
+     saveOptions.setPageSet(new PageSet(1));
+
+     doc.save(getArtifactsDir() + MessageFormat.format("ImageSaveOptions.PageIndex.Page {0}.gif", i), saveOptions);
+ }
+ 
+```
+
+Shows how to render one page from a document to a JPEG image.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Page 1.");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("Page 2.");
+ builder.insertImage(getImageDir() + "Logo.jpg");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("Page 3.");
+
+ // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
+ // to modify the way in which that method renders the document into an image.
+ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.JPEG);
+
+ // Set the "PageSet" to "1" to select the second page via
+ // the zero-based index to start rendering the document from.
+ options.setPageSet(new PageSet(1));
+
+ // When we save the document to the JPEG format, Aspose.Words only renders one page.
+ // This image will contain one page starting from page two,
+ // which will just be the second page of the original document.
+ doc.save(getArtifactsDir() + "ImageSaveOptions.OnePage.jpg", options);
+ 
+```
 
 **Returns:**
 [PageSet](../../com.aspose.words/pageset/) - The pages to render.
@@ -457,7 +1198,42 @@ Gets the background (paper) color for the generated images.
 
 The default value is .
 
+ **Remarks:** 
+
 When rendering pages of a document that specifies its own background color, then the document background color will override the color specified by this property.
+
+ **Examples:** 
+
+Renders a page of a Word document into an image with transparent or colored background.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setName("Times New Roman");
+ builder.getFont().setSize(24.0);
+ builder.writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+
+ builder.insertImage(getImageDir() + "Logo.jpg");
+
+ // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
+ // to modify the way in which that method renders the document into an image.
+ ImageSaveOptions imgOptions = new ImageSaveOptions(SaveFormat.PNG);
+
+ // Set the "PaperColor" property to a transparent color to apply a transparent
+ // background to the document while rendering it to an image.
+ imgOptions.setPaperColor(new Color(1f, 0f, 0f, .5f));
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.PaperColor.Transparent.png", imgOptions);
+
+ // Set the "PaperColor" property to an opaque color to apply that color
+ // as the background of the document as we render it to an image.
+ imgOptions.setPaperColor(Color.cyan);
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.PaperColor.LightCoral.png", imgOptions);
+ 
+```
 
 **Returns:**
 java.awt.Color - The background (paper) color for the generated images.
@@ -469,11 +1245,55 @@ public int getPixelFormat()
 
 Gets the pixel format for the generated images.
 
+ **Remarks:** 
+
 This property has effect only when saving to raster image formats.
 
 The default value is [ImagePixelFormat.FORMAT\_32\_BPP\_ARGB](../../com.aspose.words/imagepixelformat/\#FORMAT-32-BPP-ARGB).
 
 Pixel format of the output image may differ from the set value because of work of GDI+.
+
+ **Examples:** 
+
+Shows how to select a bit-per-pixel rate with which to render a document to an image.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("Heading 1"));
+ builder.writeln("Hello world!");
+ builder.insertImage(getImageDir() + "Logo.jpg");
+
+ Assert.assertTrue(new File(getImageDir() + "Logo.jpg").length() < 21000);
+
+ // When we save the document as an image, we can pass a SaveOptions object to
+ // select a pixel format for the image that the saving operation will generate.
+ // Various bit per pixel rates will affect the quality and file size of the generated image.
+ ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.PNG);
+ imageSaveOptions.setPixelFormat(imagePixelFormat);
+
+ // We can clone ImageSaveOptions instances.
+ Assert.assertNotEquals(imageSaveOptions, imageSaveOptions.deepClone());
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.PixelFormat.png", imageSaveOptions);
+
+ switch (imagePixelFormat) {
+     case ImagePixelFormat.FORMAT_1_BPP_INDEXED:
+         Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.PixelFormat.png").length() <= 10000);
+         break;
+     case ImagePixelFormat.FORMAT_16_BPP_RGB_555:
+     case ImagePixelFormat.FORMAT_32_BPP_RGB:
+     case ImagePixelFormat.FORMAT_48_BPP_RGB:
+         Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.PixelFormat.png").length() < 156000);
+         break;
+     case ImagePixelFormat.FORMAT_24_BPP_RGB:
+         Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.PixelFormat.png").length() < 146000);
+         break;
+ }
+ 
+```
 
 **Returns:**
 int - The pixel format for the generated images. The returned value is one of [ImagePixelFormat](../../com.aspose.words/imagepixelformat/) constants.
@@ -485,7 +1305,62 @@ public boolean getPrettyFormat()
 
 When  true , pretty formats output where applicable. Default value is  false .
 
+ **Remarks:** 
+
 Set to  true  to make HTML, MHTML, EPUB, WordML, RTF, DOCX and ODT output human readable. Useful for testing or debugging.
+
+ **Examples:** 
+
+Shows how to enhance the readability of the raw code of a saved .html document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Hello world!");
+
+ HtmlSaveOptions htmlOptions = new HtmlSaveOptions(SaveFormat.HTML);
+ {
+     htmlOptions.setPrettyFormat(usePrettyFormat);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.PrettyFormat.html", htmlOptions);
+
+ // Enabling pretty format makes the raw html code more readable by adding tab stop and new line characters.
+ String html = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.PrettyFormat.html"), StandardCharsets.UTF_8);
+
+ if (usePrettyFormat)
+     Assert.assertEquals(
+             "\r\n" +
+                     "\t\r\n" +
+                     "\t\t\r\n" +
+                     "\t\t\r\n" +
+                     MessageFormat.format("\t\t\r\n", BuildVersionInfo.getProduct(), BuildVersionInfo.getVersion()) +
+                     "\t\t\r\n" +
+                     "\t\t\r\n" +
+                     "\t\r\n" +
+                     "\t\r\n" +
+                     "\t\t \r\n" +
+                     "\t\t\t \r\n" +
+                     "\t\t\t\tHello world!\r\n" +
+                     "\t\t\t\r\n" +
+                     "\t\t\t \r\n" +
+                     "\t\t\t\t \r\n" +
+                     "\t\t\t\r\n" +
+                     "\t\t\r\n" +
+                     "\t\r\n",
+             html);
+ else
+     Assert.assertEquals(
+             "" +
+                     "" +
+                     MessageFormat.format("", BuildVersionInfo.getProduct(), BuildVersionInfo.getVersion()) +
+                     "" +
+                     " Hello world!" +
+                     "  ",
+             html);
+ 
+```
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -497,7 +1372,229 @@ public IDocumentSavingCallback getProgressCallback()
 
 Called during saving a document and accepts data about saving progress.
 
+ **Remarks:** 
+
 Progress is reported when saving to [SaveFormat.DOCX](../../com.aspose.words/saveformat/\#DOCX), [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat/\#FLAT-OPC), [SaveFormat.DOCM](../../com.aspose.words/saveformat/\#DOCM), [SaveFormat.DOTM](../../com.aspose.words/saveformat/\#DOTM), [SaveFormat.DOTX](../../com.aspose.words/saveformat/\#DOTX), [SaveFormat.HTML](../../com.aspose.words/saveformat/\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat/\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat/\#EPUB), [SaveFormat.XAML\_FLOW](../../com.aspose.words/saveformat/\#XAML-FLOW), or [SaveFormat.XAML\_FLOW\_PACK](../../com.aspose.words/saveformat/\#XAML-FLOW-PACK).
+
+ **Examples:** 
+
+Shows how to manage a document while saving to xamlflow.
+
+```
+
+ public void progressCallback(int saveFormat, String ext) throws Exception
+ {
+     Document doc = new Document(getMyDir() + "Big document.docx");
+
+     // Following formats are supported: XamlFlow, XamlFlowPack.
+     XamlFlowSaveOptions saveOptions = new XamlFlowSaveOptions(saveFormat);
+     {
+         saveOptions.setProgressCallback(new SavingProgressCallback());
+     }
+
+     try {
+         doc.save(getArtifactsDir() + MessageFormat.format("XamlFlowSaveOptions.ProgressCallback.{0}", ext), saveOptions);
+     }
+     catch (IllegalStateException exception) {
+         Assert.assertTrue(exception.getMessage().contains("EstimatedProgress"));
+     }
+ }
+
+ public static Object[][] progressCallbackDataProvider() throws Exception
+ {
+     return new Object[][]
+             {
+                     {SaveFormat.XAML_FLOW,  "xamlflow"},
+                     {SaveFormat.XAML_FLOW_PACK,  "xamlflowpack"},
+             };
+ }
+
+ /// 
+ /// Saving progress callback. Cancel a document saving after the "MaxDuration" seconds.
+ /// 
+ public static class SavingProgressCallback implements IDocumentSavingCallback
+ {
+     /// 
+     /// Ctr.
+     /// 
+     public SavingProgressCallback()
+     {
+         mSavingStartedAt = new Date();
+     }
+
+     /// 
+     /// Callback method which called during document saving.
+     /// 
+     /// Saving arguments.
+     public void notify(DocumentSavingArgs args)
+     {
+         Date canceledAt = new Date();
+         long diff = canceledAt.getTime() - mSavingStartedAt.getTime();
+         long ellapsedSeconds = TimeUnit.MILLISECONDS.toSeconds(diff);
+
+         if (ellapsedSeconds > MAX_DURATION)
+             throw new IllegalStateException(MessageFormat.format("EstimatedProgress = {0}; CanceledAt = {1}", args.getEstimatedProgress(), canceledAt));
+     }
+
+     /// 
+     /// Date and time when document saving is started.
+     /// 
+     private Date mSavingStartedAt;
+
+     /// 
+     /// Maximum allowed duration in sec.
+     /// 
+     private static final double MAX_DURATION = 0.01d;
+ }
+ 
+```
+
+Shows how to manage a document while saving to html.
+
+```
+
+ public void progressCallback(int saveFormat, String ext) throws Exception
+ {
+     Document doc = new Document(getMyDir() + "Big document.docx");
+
+     // Following formats are supported: Html, Mhtml, Epub.
+     HtmlSaveOptions saveOptions = new HtmlSaveOptions(saveFormat);
+     {
+         saveOptions.setProgressCallback(new SavingProgressCallback());
+     }
+
+     try {
+         doc.save(getArtifactsDir() + MessageFormat.format("HtmlSaveOptions.ProgressCallback.{0}", ext), saveOptions);
+     }
+     catch (IllegalStateException exception) {
+         Assert.assertTrue(exception.getMessage().contains("EstimatedProgress"));
+     }
+
+ }
+
+ public static Object[][] progressCallbackDataProvider() throws Exception
+ {
+     return new Object[][]
+             {
+                     {SaveFormat.HTML,  "html"},
+                     {SaveFormat.MHTML,  "mhtml"},
+                     {SaveFormat.EPUB,  "epub"},
+             };
+ }
+
+ /// 
+ /// Saving progress callback. Cancel a document saving after the "MaxDuration" seconds.
+ /// 
+ public static class SavingProgressCallback implements IDocumentSavingCallback
+ {
+     /// 
+     /// Ctr.
+     /// 
+     public SavingProgressCallback()
+     {
+         mSavingStartedAt = new Date();
+     }
+
+     /// 
+     /// Callback method which called during document saving.
+     /// 
+     /// Saving arguments.
+     public void notify(DocumentSavingArgs args)
+     {
+         Date canceledAt = new Date();
+         long diff = canceledAt.getTime() - mSavingStartedAt.getTime();
+         long ellapsedSeconds = TimeUnit.MILLISECONDS.toSeconds(diff);
+
+         if (ellapsedSeconds > MAX_DURATION)
+             throw new IllegalStateException(MessageFormat.format("EstimatedProgress = {0}; CanceledAt = {1}", args.getEstimatedProgress(), canceledAt));
+     }
+
+     /// 
+     /// Date and time when document saving is started.
+     /// 
+     private Date mSavingStartedAt;
+
+     /// 
+     /// Maximum allowed duration in sec.
+     /// 
+     private static final double MAX_DURATION = 0.01d;
+ }
+ 
+```
+
+Shows how to manage a document while saving to docx.
+
+```
+
+ public void progressCallback(int saveFormat, String ext) throws Exception
+ {
+     Document doc = new Document(getMyDir() + "Big document.docx");
+
+     // Following formats are supported: Docx, FlatOpc, Docm, Dotm, Dotx.
+     OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(saveFormat);
+     {
+         saveOptions.setProgressCallback(new SavingProgressCallback());
+     }
+
+     try {
+         doc.save(getArtifactsDir() + MessageFormat.format("OoxmlSaveOptions.ProgressCallback.{0}", ext), saveOptions);
+     }
+     catch (IllegalStateException exception) {
+         Assert.assertTrue(exception.getMessage().contains("EstimatedProgress"));
+     }
+ }
+
+ public static Object[][] progressCallbackDataProvider() throws Exception
+ {
+     return new Object[][]
+             {
+                     {SaveFormat.DOCX,  "docx"},
+                     {SaveFormat.DOCM,  "docm"},
+                     {SaveFormat.DOTM,  "dotm"},
+                     {SaveFormat.DOTX,  "dotx"},
+                     {SaveFormat.FLAT_OPC,  "flatopc"},
+             };
+ }
+
+ /// 
+ /// Saving progress callback. Cancel a document saving after the "MaxDuration" seconds.
+ /// 
+ public static class SavingProgressCallback implements IDocumentSavingCallback
+ {
+     /// 
+     /// Ctr.
+     /// 
+     public SavingProgressCallback()
+     {
+         mSavingStartedAt = new Date();
+     }
+
+     /// 
+     /// Callback method which called during document saving.
+     /// 
+     /// Saving arguments.
+     public void notify(DocumentSavingArgs args)
+     {
+         Date canceledAt = new Date();
+         long diff = canceledAt.getTime() - mSavingStartedAt.getTime();
+         long ellapsedSeconds = TimeUnit.MILLISECONDS.toSeconds(diff);
+
+         if (ellapsedSeconds > MAX_DURATION)
+             throw new IllegalStateException(MessageFormat.format("EstimatedProgress = {0}; CanceledAt = {1}", args.getEstimatedProgress(), canceledAt));
+     }
+
+     /// 
+     /// Date and time when document saving is started.
+     /// 
+     private Date mSavingStartedAt;
+
+     /// 
+     /// Maximum allowed duration in sec.
+     /// 
+     private static final double MAX_DURATION = 0.01d;
+ }
+ 
+```
 
 **Returns:**
 [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback/) - The corresponding [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback/) value.
@@ -509,9 +1606,48 @@ public int getSaveFormat()
 
 Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used. Can be a raster [SaveFormat.PNG](../../com.aspose.words/saveformat/\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat/\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat/\#JPEG) or vector [SaveFormat.SVG](../../com.aspose.words/saveformat/\#SVG).
 
+ **Remarks:** 
+
 On different platforms, the supported formats may be different. The number of other options depends on the selected format.
 
 Also, it is possible to save to SVG both via [ImageSaveOptions](../../com.aspose.words/imagesaveoptions/) and via [SvgSaveOptions](../../com.aspose.words/svgsaveoptions/).
+
+ **Examples:** 
+
+Shows how to edit the image while Aspose.Words converts a document to one.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("Heading 1"));
+ builder.writeln("Hello world!");
+ builder.insertImage(getImageDir() + "Logo.jpg");
+
+ // When we save the document as an image, we can pass a SaveOptions object to
+ // edit the image while the saving operation renders it.
+ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.PNG);
+ {
+     // We can adjust these properties to change the image's brightness and contrast.
+     // Both are on a 0-1 scale and are at 0.5 by default.
+     options.setImageBrightness(0.3f);
+     options.setImageContrast(0.7f);
+
+     // We can adjust horizontal and vertical resolution with these properties.
+     // This will affect the dimensions of the image.
+     // The default value for these properties is 96.0, for a resolution of 96dpi.
+     options.setHorizontalResolution(72f);
+     options.setVerticalResolution(72f);
+
+     // We can scale the image using this property. The default value is 1.0, for scaling of 100%.
+     // We can use this property to negate any changes in image dimensions that changing the resolution would cause.
+     options.setScale(96f / 72f);
+ }
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.EditImage.png", options);
+ 
+```
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [SaveFormat](../../com.aspose.words/saveformat/) constants.
@@ -521,7 +1657,67 @@ public float getScale()
 ```
 
 
-Gets the zoom factor for the generated images. The default value is 1.0. The value must be greater than 0.
+Gets the zoom factor for the generated images.
+
+ **Remarks:** 
+
+The default value is 1.0. The value must be greater than 0.
+
+ **Examples:** 
+
+Shows how to render an Office Math object into an image file in the local file system.
+
+```
+
+ Document doc = new Document(getMyDir() + "Office math.docx");
+
+ OfficeMath math = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true);
+
+ // Create an "ImageSaveOptions" object to pass to the node renderer's "Save" method to modify
+ // how it renders the OfficeMath node into an image.
+ ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.PNG);
+
+ // Set the "Scale" property to 5 to render the object to five times its original size.
+ saveOptions.setScale(5f);
+
+ math.getMathRenderer().save(getArtifactsDir() + "Shape.RenderOfficeMath.png", saveOptions);
+ 
+```
+
+Shows how to edit the image while Aspose.Words converts a document to one.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("Heading 1"));
+ builder.writeln("Hello world!");
+ builder.insertImage(getImageDir() + "Logo.jpg");
+
+ // When we save the document as an image, we can pass a SaveOptions object to
+ // edit the image while the saving operation renders it.
+ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.PNG);
+ {
+     // We can adjust these properties to change the image's brightness and contrast.
+     // Both are on a 0-1 scale and are at 0.5 by default.
+     options.setImageBrightness(0.3f);
+     options.setImageContrast(0.7f);
+
+     // We can adjust horizontal and vertical resolution with these properties.
+     // This will affect the dimensions of the image.
+     // The default value for these properties is 96.0, for a resolution of 96dpi.
+     options.setHorizontalResolution(72f);
+     options.setVerticalResolution(72f);
+
+     // We can scale the image using this property. The default value is 1.0, for scaling of 100%.
+     // We can use this property to negate any changes in image dimensions that changing the resolution would cause.
+     options.setScale(96f / 72f);
+ }
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.EditImage.png", options);
+ 
+```
 
 **Returns:**
 float - The zoom factor for the generated images.
@@ -533,6 +1729,8 @@ public String getTempFolder()
 
 Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is  null  and no temporary files are used.
 
+ **Remarks:** 
+
 When Aspose.Words saves a document, it needs to create temporary internal structures. By default, these internal structures are created in memory and the memory usage spikes for a short period while the document is being saved. When saving is complete, the memory is freed and reclaimed by the garbage collector.
 
 If you are saving a very large document (thousands of pages) and/or processing many documents at the same time, then the memory spike during saving can be significant enough to cause the system to throw java.lang.IndexOutOfBoundsException. Specifying a temporary folder using [getTempFolder()](../../com.aspose.words/saveoptions/\#getTempFolder) / [setTempFolder(java.lang.String)](../../com.aspose.words/saveoptions/\#setTempFolder-java.lang.String) will cause Aspose.Words to keep the internal structures in temporary files instead of memory. It reduces the memory usage during saving, but will decrease the save performance.
@@ -540,6 +1738,30 @@ If you are saving a very large document (thousands of pages) and/or processing m
 The folder must exist and be writable, otherwise an exception will be thrown.
 
 Aspose.Words automatically deletes all temporary files when saving is complete.
+
+ **Examples:** 
+
+Shows how to use the hard drive instead of memory when saving a document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ // When we save a document, various elements are temporarily stored in memory as the save operation is taking place.
+ // We can use this option to use a temporary folder in the local file system instead,
+ // which will reduce our application's memory overhead.
+ DocSaveOptions options = new DocSaveOptions();
+ options.setTempFolder(getArtifactsDir() + "TempFiles");
+
+ // The specified temporary folder must exist in the local file system before the save operation.
+ new File(options.getTempFolder()).mkdir();
+
+ doc.save(getArtifactsDir() + "DocSaveOptions.TempFolder.doc", options);
+
+ // The folder will persist with no residual contents from the load operation.
+ Assert.assertEquals(new File(options.getTempFolder()).listFiles().length, 0);
+ 
+```
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
@@ -551,7 +1773,35 @@ public byte getThresholdForFloydSteinbergDithering()
 
 Gets the threshold that determines the value of the binarization error in the Floyd-Steinberg method. when [ImageBinarizationMethod](../../com.aspose.words/imagebinarizationmethod/) is [ImageBinarizationMethod.FLOYD\_STEINBERG\_DITHERING](../../com.aspose.words/imagebinarizationmethod/\#FLOYD-STEINBERG-DITHERING).
 
+ **Remarks:** 
+
 The default value is 128.
+
+ **Examples:** 
+
+Shows how to set the TIFF binarization error threshold when using the Floyd-Steinberg method to render a TIFF image.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("Heading 1"));
+ builder.writeln("Hello world!");
+ builder.insertImage(getImageDir() + "Logo.jpg");
+
+ // When we save the document as a TIFF, we can pass a SaveOptions object to
+ // adjust the dithering that Aspose.Words will apply when rendering this image.
+ // The default value of the "ThresholdForFloydSteinbergDithering" property is 128.
+ // Higher values tend to produce darker images.
+ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.TIFF);
+ options.setTiffCompression(TiffCompression.CCITT_3);
+ options.setTiffBinarizationMethod(ImageBinarizationMethod.FLOYD_STEINBERG_DITHERING);
+ options.setThresholdForFloydSteinbergDithering((byte) 240);
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.FloydSteinbergDithering.tiff", options);
+ 
+```
 
 **Returns:**
 byte - The threshold that determines the value of the binarization error in the Floyd-Steinberg method.
@@ -563,7 +1813,35 @@ public int getTiffBinarizationMethod()
 
 Gets method used while converting images to 1 bpp format when [getSaveFormat()](../../com.aspose.words/imagesaveoptions/\#getSaveFormat) / [setSaveFormat(int)](../../com.aspose.words/imagesaveoptions/\#setSaveFormat-int) is [SaveFormat.TIFF](../../com.aspose.words/saveformat/\#TIFF) and [getTiffCompression()](../../com.aspose.words/imagesaveoptions/\#getTiffCompression) / [setTiffCompression(int)](../../com.aspose.words/imagesaveoptions/\#setTiffCompression-int) is equal to [TiffCompression.CCITT\_3](../../com.aspose.words/tiffcompression/\#CCITT-3) or [TiffCompression.CCITT\_4](../../com.aspose.words/tiffcompression/\#CCITT-4).
 
+ **Remarks:** 
+
 The default value is [ImageBinarizationMethod.THRESHOLD](../../com.aspose.words/imagebinarizationmethod/\#THRESHOLD).
+
+ **Examples:** 
+
+Shows how to set the TIFF binarization error threshold when using the Floyd-Steinberg method to render a TIFF image.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("Heading 1"));
+ builder.writeln("Hello world!");
+ builder.insertImage(getImageDir() + "Logo.jpg");
+
+ // When we save the document as a TIFF, we can pass a SaveOptions object to
+ // adjust the dithering that Aspose.Words will apply when rendering this image.
+ // The default value of the "ThresholdForFloydSteinbergDithering" property is 128.
+ // Higher values tend to produce darker images.
+ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.TIFF);
+ options.setTiffCompression(TiffCompression.CCITT_3);
+ options.setTiffBinarizationMethod(ImageBinarizationMethod.FLOYD_STEINBERG_DITHERING);
+ options.setThresholdForFloydSteinbergDithering((byte) 240);
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.FloydSteinbergDithering.tiff", options);
+ 
+```
 
 **Returns:**
 int - Method used while converting images to 1 bpp format when [getSaveFormat()](../../com.aspose.words/imagesaveoptions/\#getSaveFormat) / [setSaveFormat(int)](../../com.aspose.words/imagesaveoptions/\#setSaveFormat-int) is [SaveFormat.TIFF](../../com.aspose.words/saveformat/\#TIFF) and [getTiffCompression()](../../com.aspose.words/imagesaveoptions/\#getTiffCompression) / [setTiffCompression(int)](../../com.aspose.words/imagesaveoptions/\#setTiffCompression-int) is equal to [TiffCompression.CCITT\_3](../../com.aspose.words/tiffcompression/\#CCITT-3) or [TiffCompression.CCITT\_4](../../com.aspose.words/tiffcompression/\#CCITT-4). The returned value is one of [ImageBinarizationMethod](../../com.aspose.words/imagebinarizationmethod/) constants.
@@ -575,9 +1853,38 @@ public int getTiffCompression()
 
 Gets the type of compression to apply when saving generated images to the TIFF format.
 
+ **Remarks:** 
+
 Has effect only when saving to TIFF.
 
 The default value is [TiffCompression.CCITT\_4](../../com.aspose.words/tiffcompression/\#CCITT-4).
+
+ **Examples:** 
+
+Shows how to select the compression scheme to apply to a document that we convert into a TIFF image.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.insertImage(getImageDir() + "Logo.jpg");
+
+ // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
+ // to modify the way in which that method renders the document into an image.
+ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.TIFF);
+
+ // Set the "TiffCompression" property to "TiffCompression.None" to apply no compression while saving,
+ // which may result in a very large output file.
+ // Set the "TiffCompression" property to "TiffCompression.Rle" to apply RLE compression
+ // Set the "TiffCompression" property to "TiffCompression.Lzw" to apply LZW compression.
+ // Set the "TiffCompression" property to "TiffCompression.Ccitt3" to apply CCITT3 compression.
+ // Set the "TiffCompression" property to "TiffCompression.Ccitt4" to apply CCITT4 compression.
+ options.setTiffCompression(tiffCompression);
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.TiffImageCompression.tiff", options);
+ 
+```
 
 **Returns:**
 int - The type of compression to apply when saving generated images to the TIFF format. The returned value is one of [TiffCompression](../../com.aspose.words/tiffcompression/) constants.
@@ -597,7 +1904,11 @@ public boolean getUpdateFields()
 ```
 
 
-Gets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is  true . Allows to specify whether to mimic or not MS Word behavior.
+Gets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is  true .
+
+ **Remarks:** 
+
+Allows to specify whether to mimic or not MS Word behavior.
 
 **Returns:**
 boolean - A value determining if fields of certain types should be updated before saving the document to a fixed page format.
@@ -609,6 +1920,50 @@ public boolean getUpdateLastPrintedProperty()
 
 Gets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties/\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastPrinted-java.util.Date) property is updated before saving.
 
+ **Examples:** 
+
+Shows how to update a document's "CreatedTime" property when saving.
+
+```
+
+ Document doc = new Document();
+
+ Calendar calendar = Calendar.getInstance();
+ calendar.set(2019, 11, 20);
+ doc.getBuiltInDocumentProperties().setCreatedTime(calendar.getTime());
+
+ // This flag determines whether the created time, which is a built-in property, is updated.
+ // If so, then the date of the document's most recent save operation
+ // with this SaveOptions object passed as a parameter is used as the created time.
+ DocSaveOptions saveOptions = new DocSaveOptions();
+ saveOptions.setUpdateCreatedTimeProperty(isUpdateCreatedTimeProperty);
+
+ doc.save(getArtifactsDir() + "DocSaveOptions.UpdateCreatedTimeProperty.docx", saveOptions);
+ 
+```
+
+Shows how to update a document's "Last printed" property when saving.
+
+```
+
+ Document doc = new Document();
+
+ Calendar calendar = Calendar.getInstance();
+ calendar.set(2019, 11, 20);
+ doc.getBuiltInDocumentProperties().setLastPrinted(calendar.getTime());
+
+ // This flag determines whether the last printed date, which is a built-in property, is updated.
+ // If so, then the date of the document's most recent save operation
+ // with this SaveOptions object passed as a parameter is used as the print date.
+ DocSaveOptions saveOptions = new DocSaveOptions();
+ saveOptions.setUpdateLastPrintedProperty(isUpdateLastPrintedProperty);
+
+ // In Microsoft Word 2003, this property can be found via File -> Properties -> Statistics -> Printed.
+ // It can also be displayed in the document's body by using a PRINTDATE field.
+ doc.save(getArtifactsDir() + "DocSaveOptions.UpdateLastPrintedProperty.doc", saveOptions);
+ 
+```
+
 **Returns:**
 boolean - A value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties/\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastPrinted-java.util.Date) property is updated before saving.
 ### getUpdateLastSavedTimeProperty() {#getUpdateLastSavedTimeProperty}
@@ -619,6 +1974,27 @@ public boolean getUpdateLastSavedTimeProperty()
 
 Gets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties/\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastSavedTime-java.util.Date) property is updated before saving.
 
+ **Examples:** 
+
+Shows how to determine whether to preserve the document's "Last saved time" property when saving.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ // When we save the document to an OOXML format, we can create an OoxmlSaveOptions object
+ // and then pass it to the document's saving method to modify how we save the document.
+ // Set the "UpdateLastSavedTimeProperty" property to "true" to
+ // set the output document's "Last saved time" built-in property to the current date/time.
+ // Set the "UpdateLastSavedTimeProperty" property to "false" to
+ // preserve the original value of the input document's "Last saved time" built-in property.
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+ saveOptions.setUpdateLastSavedTimeProperty(updateLastSavedTimeProperty);
+
+ doc.save(getArtifactsDir() + "OoxmlSaveOptions.LastSavedTime.docx", saveOptions);
+ 
+```
+
 **Returns:**
 boolean - A value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties/\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastSavedTime-java.util.Date) property is updated before saving.
 ### getUpdateSdtContent() {#getUpdateSdtContent}
@@ -627,7 +2003,36 @@ public boolean getUpdateSdtContent()
 ```
 
 
-Gets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) is updated before saving. The default value is  false .
+Gets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) is updated before saving.
+
+ **Remarks:** 
+
+The default value is  false .
+
+ **Examples:** 
+
+Shows how to update structured document tags while saving a document to PDF.
+
+```
+
+ Document doc = new Document();
+
+ // Insert a drop-down list structured document tag.
+ StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.DROP_DOWN_LIST, MarkupLevel.BLOCK);
+ tag.getListItems().add(new SdtListItem("Value 1"));
+ tag.getListItems().add(new SdtListItem("Value 2"));
+ tag.getListItems().add(new SdtListItem("Value 3"));
+
+ // The drop-down list currently displays "Choose an item" as the default text.
+ // Set the "SelectedValue" property to one of the list items to get the tag to
+ // display that list item's value instead of the default text.
+ tag.getListItems().setSelectedValue(tag.getListItems().get(1));
+
+ doc.getFirstSection().getBody().appendChild(tag);
+
+ doc.save(getArtifactsDir() + "StructuredDocumentTag.UpdateSdtContent.pdf");
+ 
+```
 
 **Returns:**
 boolean - Value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) is updated before saving.
@@ -639,9 +2044,33 @@ public boolean getUseAntiAliasing()
 
 Gets a value determining whether or not to use anti-aliasing for rendering.
 
+ **Remarks:** 
+
 The default value is  false . When this value is set to  true  anti-aliasing is used for rendering.
 
 This property is used when the document is exported to the following formats: [SaveFormat.TIFF](../../com.aspose.words/saveformat/\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat/\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat/\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat/\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat/\#EMF). When the document is exported to the [SaveFormat.HTML](../../com.aspose.words/saveformat/\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat/\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat/\#EPUB), [SaveFormat.AZW\_3](../../com.aspose.words/saveformat/\#AZW-3) or [SaveFormat.MOBI](../../com.aspose.words/saveformat/\#MOBI) formats this option is used for raster images.
+
+ **Examples:** 
+
+Shows how to improve the quality of a rendered document with SaveOptions.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setSize(60.0);
+ builder.writeln("Some text.");
+
+ SaveOptions options = new ImageSaveOptions(SaveFormat.JPEG);
+ doc.save(getArtifactsDir() + "Document.ImageSaveOptions.Default.jpg", options);
+
+ options.setUseAntiAliasing(true);
+ options.setUseHighQualityRendering(true);
+
+ doc.save(getArtifactsDir() + "Document.ImageSaveOptions.HighQuality.jpg", options);
+ 
+```
 
 **Returns:**
 boolean - A value determining whether or not to use anti-aliasing for rendering.
@@ -653,6 +2082,8 @@ public boolean getUseGdiEmfRenderer()
 
 Gets a value determining whether to use GDI+ or Aspose.Words metafile renderer when saving to EMF.
 
+ **Remarks:** 
+
 If set to  true  GDI+ metafile renderer is used. I.e. content is written to GDI+ graphics object and saved to metafile.
 
 If set to  false  Aspose.Words metafile renderer is used. I.e. content is written directly to the metafile format with Aspose.Words.
@@ -663,6 +2094,35 @@ GDI+ saving works only on .NET.
 
 The default value is  true .
 
+ **Examples:** 
+
+Shows how to choose a renderer when converting a document to .emf.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("Heading 1"));
+ builder.writeln("Hello world!");
+ builder.insertImage(getImageDir() + "Logo.jpg");
+
+ // When we save the document as an EMF image, we can pass a SaveOptions object to select a renderer for the image.
+ // If we set the "UseGdiEmfRenderer" flag to "true", Aspose.Words will use the GDI+ renderer.
+ // If we set the "UseGdiEmfRenderer" flag to "false", Aspose.Words will use its own metafile renderer.
+ ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.EMF);
+ saveOptions.setUseGdiEmfRenderer(useGdiEmfRenderer);
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.Renderer.emf", saveOptions);
+
+ // The GDI+ renderer usually creates larger files.
+ if (useGdiEmfRenderer)
+     Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.Renderer.emf").length() < 300000);
+ else
+     Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.Renderer.emf").length() <= 30000);
+ 
+```
+
 **Returns:**
 boolean - A value determining whether to use GDI+ or Aspose.Words metafile renderer when saving to EMF.
 ### getUseHighQualityRendering() {#getUseHighQualityRendering}
@@ -671,9 +2131,35 @@ public boolean getUseHighQualityRendering()
 ```
 
 
-Gets a value determining whether or not to use high quality (i.e. slow) rendering algorithms. The default value is  false .
+Gets a value determining whether or not to use high quality (i.e. slow) rendering algorithms.
+
+ **Remarks:** 
+
+The default value is  false .
 
 This property is used when the document is exported to image formats: [SaveFormat.TIFF](../../com.aspose.words/saveformat/\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat/\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat/\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat/\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat/\#EMF).
+
+ **Examples:** 
+
+Shows how to improve the quality of a rendered document with SaveOptions.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setSize(60.0);
+ builder.writeln("Some text.");
+
+ SaveOptions options = new ImageSaveOptions(SaveFormat.JPEG);
+ doc.save(getArtifactsDir() + "Document.ImageSaveOptions.Default.jpg", options);
+
+ options.setUseAntiAliasing(true);
+ options.setUseHighQualityRendering(true);
+
+ doc.save(getArtifactsDir() + "Document.ImageSaveOptions.HighQuality.jpg", options);
+ 
+```
 
 **Returns:**
 boolean - A value determining whether or not to use high quality (i.e.
@@ -685,9 +2171,48 @@ public float getVerticalResolution()
 
 Gets the vertical resolution for the generated images, in dots per inch.
 
+ **Remarks:** 
+
 This property has effect only when saving to raster image formats and affects the output size in pixels.
 
 The default value is 96.
+
+ **Examples:** 
+
+Shows how to edit the image while Aspose.Words converts a document to one.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("Heading 1"));
+ builder.writeln("Hello world!");
+ builder.insertImage(getImageDir() + "Logo.jpg");
+
+ // When we save the document as an image, we can pass a SaveOptions object to
+ // edit the image while the saving operation renders it.
+ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.PNG);
+ {
+     // We can adjust these properties to change the image's brightness and contrast.
+     // Both are on a 0-1 scale and are at 0.5 by default.
+     options.setImageBrightness(0.3f);
+     options.setImageContrast(0.7f);
+
+     // We can adjust horizontal and vertical resolution with these properties.
+     // This will affect the dimensions of the image.
+     // The default value for these properties is 96.0, for a resolution of 96dpi.
+     options.setHorizontalResolution(72f);
+     options.setVerticalResolution(72f);
+
+     // We can scale the image using this property. The default value is 1.0, for scaling of 100%.
+     // We can use this property to negate any changes in image dimensions that changing the resolution would cause.
+     options.setScale(96f / 72f);
+ }
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.EditImage.png", options);
+ 
+```
 
 **Returns:**
 float - The vertical resolution for the generated images, in dots per inch.
@@ -725,9 +2250,40 @@ public void setAllowEmbeddingPostScriptFonts(boolean value)
 
 Sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is  false .
 
+ **Remarks:** 
+
 Note, Word does not embed PostScript fonts, but can open documents with embedded fonts of this type.
 
 This option only works when [FontInfoCollection.getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection/\#getEmbedTrueTypeFonts) / [FontInfoCollection.setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection/\#setEmbedTrueTypeFonts-boolean) of the [DocumentBase.getFontInfos()](../../com.aspose.words/documentbase/\#getFontInfos) property is set to  true .
+
+ **Examples:** 
+
+Shows how to save the document with PostScript font.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setName("PostScriptFont");
+ builder.writeln("Some text with PostScript font.");
+
+ // Load the font with PostScript to use in the document.
+ MemoryFontSource otf = new MemoryFontSource(DocumentHelper.getBytesFromStream(new FileInputStream(getFontsDir() + "AllegroOpen.otf")));
+ doc.setFontSettings(new FontSettings());
+ doc.getFontSettings().setFontsSources(new FontSourceBase[]{otf});
+
+ // Embed TrueType fonts.
+ doc.getFontInfos().setEmbedTrueTypeFonts(true);
+
+ // Allow embedding PostScript fonts while embedding TrueType fonts.
+ // Microsoft Word does not embed PostScript fonts, but can open documents with embedded fonts of this type.
+ SaveOptions saveOptions = SaveOptions.createSaveOptions(SaveFormat.DOCX);
+ saveOptions.setAllowEmbeddingPostScriptFonts(true);
+
+ doc.save(getArtifactsDir() + "Document.AllowEmbeddingPostScriptFonts.docx", saveOptions);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -740,7 +2296,11 @@ public void setColorMode(int value)
 ```
 
 
-Sets a value determining how colors are rendered. The default value is [ColorMode.NORMAL](../../com.aspose.words/colormode/\#NORMAL).
+Sets a value determining how colors are rendered.
+
+ **Remarks:** 
+
+The default value is [ColorMode.NORMAL](../../com.aspose.words/colormode/\#NORMAL).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -753,7 +2313,34 @@ public void setDefaultTemplate(String value)
 ```
 
 
-Sets path to default template (including filename). Default value for this property is **empty string**. If specified, this path is used to load template when [Document.getAutomaticallyUpdateStyles()](../../com.aspose.words/document/\#getAutomaticallyUpdateStyles) / [Document.setAutomaticallyUpdateStyles(boolean)](../../com.aspose.words/document/\#setAutomaticallyUpdateStyles-boolean) is  true , but [Document.getAttachedTemplate()](../../com.aspose.words/document/\#getAttachedTemplate) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document/\#setAttachedTemplate-java.lang.String) is empty.
+Sets path to default template (including filename). Default value for this property is **empty string**.
+
+ **Remarks:** 
+
+If specified, this path is used to load template when [Document.getAutomaticallyUpdateStyles()](../../com.aspose.words/document/\#getAutomaticallyUpdateStyles) / [Document.setAutomaticallyUpdateStyles(boolean)](../../com.aspose.words/document/\#setAutomaticallyUpdateStyles-boolean) is  true , but [Document.getAttachedTemplate()](../../com.aspose.words/document/\#getAttachedTemplate) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document/\#setAttachedTemplate-java.lang.String) is empty.
+
+ **Examples:** 
+
+Shows how to set a default template for documents that do not have attached templates.
+
+```
+
+ Document doc = new Document();
+
+ // Enable automatic style updating, but do not attach a template document.
+ doc.setAutomaticallyUpdateStyles(true);
+
+ Assert.assertEquals("", doc.getAttachedTemplate());
+
+ // Since there is no template document, the document had nowhere to track style changes.
+ // Use a SaveOptions object to automatically set a template
+ // if a document that we are saving does not have one.
+ SaveOptions options = SaveOptions.createSaveOptions("Document.DefaultTemplate.docx");
+ options.setDefaultTemplate(getMyDir() + "Business brochure.dotx");
+
+ doc.save(getArtifactsDir() + "Document.DefaultTemplate.docx", options);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -766,7 +2353,11 @@ public void setDml3DEffectsRenderingMode(int value)
 ```
 
 
-Sets a value determining how 3D effects are rendered. The default value is [Dml3DEffectsRenderingMode.BASIC](../../com.aspose.words/dml3deffectsrenderingmode/\#BASIC).
+Sets a value determining how 3D effects are rendered.
+
+ **Remarks:** 
+
+The default value is [Dml3DEffectsRenderingMode.BASIC](../../com.aspose.words/dml3deffectsrenderingmode/\#BASIC).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -779,7 +2370,11 @@ public void setDmlEffectsRenderingMode(int value)
 ```
 
 
-Sets a value determining how DrawingML effects are rendered. The default value is [DmlEffectsRenderingMode.SIMPLIFIED](../../com.aspose.words/dmleffectsrenderingmode/\#SIMPLIFIED).
+Sets a value determining how DrawingML effects are rendered.
+
+ **Remarks:** 
+
+The default value is [DmlEffectsRenderingMode.SIMPLIFIED](../../com.aspose.words/dmleffectsrenderingmode/\#SIMPLIFIED).
 
 This property is used when the document is exported to fixed page formats.
 
@@ -794,7 +2389,11 @@ public void setDmlRenderingMode(int value)
 ```
 
 
-Sets a value determining how DrawingML shapes are rendered. The default value is [DmlRenderingMode.FALLBACK](../../com.aspose.words/dmlrenderingmode/\#FALLBACK).
+Sets a value determining how DrawingML shapes are rendered.
+
+ **Remarks:** 
+
+The default value is [DmlRenderingMode.FALLBACK](../../com.aspose.words/dmlrenderingmode/\#FALLBACK).
 
 This property is used when the document is exported to fixed page formats.
 
@@ -811,6 +2410,21 @@ public void setExportGeneratorName(boolean value)
 
 When  true , causes the name and version of Aspose.Words to be embedded into produced files. Default value is  true .
 
+ **Examples:** 
+
+Shows how to disable adding name and version of Aspose.Words into produced files.
+
+```
+
+ Document doc = new Document();
+
+ // Use https://docs.aspose.com/words/net/generator-or-producer-name-included-in-output-documents/ to know how to check the result.
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(); { saveOptions.setExportGeneratorName(false); }
+
+ doc.save(getArtifactsDir() + "OoxmlSaveOptions.ExportGeneratorName.docx", saveOptions);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -824,9 +2438,34 @@ public void setGraphicsQualityOptions(GraphicsQualityOptions value)
 
 Allows to specify rendering mode and quality for the java.awt.Graphics2D object.
 
+ **Remarks:** 
+
 Use this property to override the Graphics settings provided by Aspose.Words engine by default.
 
 It will take effect only when a document is being saved to an image-like format.
+
+ **Examples:** 
+
+Shows how to set render quality options while converting documents to image formats.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ GraphicsQualityOptions qualityOptions = new GraphicsQualityOptions();
+ qualityOptions.getRenderingHints().put(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON); // SmoothingMode
+ qualityOptions.getRenderingHints().put(RenderingHints.KEY_TEXT_ANTIALIASING, RenderingHints.VALUE_TEXT_ANTIALIAS_ON); // TextRenderingHint
+ qualityOptions.getRenderingHints().put(RenderingHints.KEY_COLOR_RENDERING, RenderingHints.VALUE_COLOR_RENDER_QUALITY); // CompositingMode
+ qualityOptions.getRenderingHints().put(RenderingHints.KEY_RENDERING, RenderingHints.VALUE_RENDER_QUALITY); // CompositingQuality
+ qualityOptions.getRenderingHints().put(RenderingHints.KEY_INTERPOLATION, RenderingHints.VALUE_INTERPOLATION_BILINEAR); // InterpolationMode
+ qualityOptions.getRenderingHints().put(RenderingHints.KEY_FRACTIONALMETRICS, RenderingHints.VALUE_FRACTIONALMETRICS_ON); // StringFormat
+
+ ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.JPEG);
+ saveOptions.setGraphicsQualityOptions(qualityOptions);
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.GraphicsQuality.jpg", saveOptions);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -841,9 +2480,48 @@ public void setHorizontalResolution(float value)
 
 Sets the horizontal resolution for the generated images, in dots per inch.
 
+ **Remarks:** 
+
 This property has effect only when saving to raster image formats and affects the output size in pixels.
 
 The default value is 96.
+
+ **Examples:** 
+
+Shows how to edit the image while Aspose.Words converts a document to one.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("Heading 1"));
+ builder.writeln("Hello world!");
+ builder.insertImage(getImageDir() + "Logo.jpg");
+
+ // When we save the document as an image, we can pass a SaveOptions object to
+ // edit the image while the saving operation renders it.
+ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.PNG);
+ {
+     // We can adjust these properties to change the image's brightness and contrast.
+     // Both are on a 0-1 scale and are at 0.5 by default.
+     options.setImageBrightness(0.3f);
+     options.setImageContrast(0.7f);
+
+     // We can adjust horizontal and vertical resolution with these properties.
+     // This will affect the dimensions of the image.
+     // The default value for these properties is 96.0, for a resolution of 96dpi.
+     options.setHorizontalResolution(72f);
+     options.setVerticalResolution(72f);
+
+     // We can scale the image using this property. The default value is 1.0, for scaling of 100%.
+     // We can use this property to negate any changes in image dimensions that changing the resolution would cause.
+     options.setScale(96f / 72f);
+ }
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.EditImage.png", options);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -858,9 +2536,48 @@ public void setImageBrightness(float value)
 
 Sets the brightness for the generated images.
 
+ **Remarks:** 
+
 This property has effect only when saving to raster image formats.
 
 The default value is 0.5. The value must be in the range between 0 and 1.
+
+ **Examples:** 
+
+Shows how to edit the image while Aspose.Words converts a document to one.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("Heading 1"));
+ builder.writeln("Hello world!");
+ builder.insertImage(getImageDir() + "Logo.jpg");
+
+ // When we save the document as an image, we can pass a SaveOptions object to
+ // edit the image while the saving operation renders it.
+ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.PNG);
+ {
+     // We can adjust these properties to change the image's brightness and contrast.
+     // Both are on a 0-1 scale and are at 0.5 by default.
+     options.setImageBrightness(0.3f);
+     options.setImageContrast(0.7f);
+
+     // We can adjust horizontal and vertical resolution with these properties.
+     // This will affect the dimensions of the image.
+     // The default value for these properties is 96.0, for a resolution of 96dpi.
+     options.setHorizontalResolution(72f);
+     options.setVerticalResolution(72f);
+
+     // We can scale the image using this property. The default value is 1.0, for scaling of 100%.
+     // We can use this property to negate any changes in image dimensions that changing the resolution would cause.
+     options.setScale(96f / 72f);
+ }
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.EditImage.png", options);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -875,9 +2592,53 @@ public void setImageColorMode(int value)
 
 Sets the color mode for the generated images.
 
+ **Remarks:** 
+
 This property has effect only when saving to raster image formats.
 
 The default value is [ImageColorMode.NONE](../../com.aspose.words/imagecolormode/\#NONE).
+
+ **Examples:** 
+
+Shows how to set a color mode when rendering documents.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("Heading 1"));
+ builder.writeln("Hello world!");
+ builder.insertImage(getImageDir() + "Logo.jpg");
+
+ Assert.assertTrue(new File(getImageDir() + "Logo.jpg").length() < 20200);
+
+ // When we save the document as an image, we can pass a SaveOptions object to
+ // select a color mode for the image that the saving operation will generate.
+ // If we set the "ImageColorMode" property to "ImageColorMode.BlackAndWhite",
+ // the saving operation will apply grayscale color reduction while rendering the document.
+ // If we set the "ImageColorMode" property to "ImageColorMode.Grayscale",
+ // the saving operation will render the document into a monochrome image.
+ // If we set the "ImageColorMode" property to "None", the saving operation will apply the default method
+ // and preserve all the document's colors in the output image.
+ ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.PNG);
+ imageSaveOptions.setImageColorMode(imageColorMode);
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.ColorMode.png", imageSaveOptions);
+
+ switch (imageColorMode) {
+     case ImageColorMode.NONE:
+         Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.ColorMode.png").length() < 156000);
+         break;
+     case ImageColorMode.GRAYSCALE:
+         Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.ColorMode.png").length() < 85000);
+         break;
+     case ImageColorMode.BLACK_AND_WHITE:
+         Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.ColorMode.png").length() <= 20000);
+         break;
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -892,9 +2653,48 @@ public void setImageContrast(float value)
 
 Sets the contrast for the generated images.
 
+ **Remarks:** 
+
 This property has effect only when saving to raster image formats.
 
 The default value is 0.5. The value must be in the range between 0 and 1.
+
+ **Examples:** 
+
+Shows how to edit the image while Aspose.Words converts a document to one.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("Heading 1"));
+ builder.writeln("Hello world!");
+ builder.insertImage(getImageDir() + "Logo.jpg");
+
+ // When we save the document as an image, we can pass a SaveOptions object to
+ // edit the image while the saving operation renders it.
+ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.PNG);
+ {
+     // We can adjust these properties to change the image's brightness and contrast.
+     // Both are on a 0-1 scale and are at 0.5 by default.
+     options.setImageBrightness(0.3f);
+     options.setImageContrast(0.7f);
+
+     // We can adjust horizontal and vertical resolution with these properties.
+     // This will affect the dimensions of the image.
+     // The default value for these properties is 96.0, for a resolution of 96dpi.
+     options.setHorizontalResolution(72f);
+     options.setVerticalResolution(72f);
+
+     // We can scale the image using this property. The default value is 1.0, for scaling of 100%.
+     // We can use this property to negate any changes in image dimensions that changing the resolution would cause.
+     options.setScale(96f / 72f);
+ }
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.EditImage.png", options);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -907,9 +2707,33 @@ public void setImlRenderingMode(int value)
 ```
 
 
-Sets a value determining how ink (InkML) objects are rendered. The default value is [ImlRenderingMode.INK\_ML](../../com.aspose.words/imlrenderingmode/\#INK-ML).
+Sets a value determining how ink (InkML) objects are rendered.
+
+ **Remarks:** 
+
+The default value is [ImlRenderingMode.INK\_ML](../../com.aspose.words/imlrenderingmode/\#INK-ML).
 
 This property is used when the document is exported to fixed page formats.
+
+ **Examples:** 
+
+Shows how to render Ink object.
+
+```
+
+ Document doc = new Document(getMyDir() + "Ink object.docx");
+
+ // Set 'ImlRenderingMode.InkML' ignores fall-back shape of ink (InkML) object and renders InkML itself.
+ // If the rendering result is unsatisfactory,
+ // please use 'ImlRenderingMode.Fallback' to get a result similar to previous versions.
+ ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.JPEG);
+ {
+     saveOptions.setImlRenderingMode(ImlRenderingMode.INK_ML);
+ }
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.RenderInkObject.jpeg", saveOptions);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -924,11 +2748,45 @@ public void setJpegQuality(int value)
 
 Sets a value determining the quality of the generated JPEG images.
 
+ **Remarks:** 
+
 Has effect only when saving to JPEG.
 
 Use this property to get or set the quality of generated images when saving in JPEG format. The value may vary from 0 to 100 where 0 means worst quality but maximum compression and 100 means best quality but minimum compression.
 
 The default value is 95.
+
+ **Examples:** 
+
+Shows how to configure compression while saving a document as a JPEG.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.insertImage(getImageDir() + "Logo.jpg");
+
+ // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
+ // to modify the way in which that method renders the document into an image.
+ ImageSaveOptions imageOptions = new ImageSaveOptions(SaveFormat.JPEG);
+
+ // Set the "JpegQuality" property to "10" to use stronger compression when rendering the document.
+ // This will reduce the file size of the document, but the image will display more prominent compression artifacts.
+ imageOptions.setJpegQuality(10);
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.JpegQuality.HighCompression.jpg", imageOptions);
+
+ Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.JpegQuality.HighCompression.jpg").length() <= 20000);
+
+ // Set the "JpegQuality" property to "100" to use weaker compression when rending the document.
+ // This will improve the quality of the image at the cost of an increased file size.
+ imageOptions.setJpegQuality(100);
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.JpegQuality.HighQuality.jpg", imageOptions);
+
+ Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.JpegQuality.HighQuality.jpg").length() < 60000);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -941,7 +2799,11 @@ public void setMemoryOptimization(boolean value)
 ```
 
 
-Sets value determining if memory optimization should be performed before saving the document. Default value for this property is  false . Setting this option to  true  can significantly decrease memory consumption while saving large documents at the cost of slower saving time.
+Sets value determining if memory optimization should be performed before saving the document. Default value for this property is  false .
+
+ **Remarks:** 
+
+Setting this option to  true  can significantly decrease memory consumption while saving large documents at the cost of slower saving time.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -967,12 +2829,16 @@ public void setNumeralFormat(int value)
 ```
 
 
-Sets [NumeralFormat](../../com.aspose.words/numeralformat/) used for rendering of numerals. European numerals are used by default. If the value of this property is changed and page layout is already built then [Document.updatePageLayout()](../../com.aspose.words/document/\#updatePageLayout) is invoked automatically to update any changes.
+Sets [NumeralFormat](../../com.aspose.words/numeralformat/) used for rendering of numerals. European numerals are used by default.
+
+ **Remarks:** 
+
+If the value of this property is changed and page layout is already built then [Document.updatePageLayout()](../../com.aspose.words/document/\#updatePageLayout) is invoked automatically to update any changes.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | \{[NumeralFormat](../../com.aspose.words/numeralformat/) used for rendering of numerals. The value must be one of [NumeralFormat](../../com.aspose.words/numeralformat/) constants. |
+| value | int | [NumeralFormat](../../com.aspose.words/numeralformat/) used for rendering of numerals. The value must be one of [NumeralFormat](../../com.aspose.words/numeralformat/) constants. |
 
 ### setOptimizeOutput(boolean value) {#setOptimizeOutput-boolean}
 ```
@@ -981,6 +2847,51 @@ public void setOptimizeOutput(boolean value)
 
 
 Flag indicates whether it is required to optimize output. If this flag is set redundant nested canvases and empty canvases are removed, also neighbor glyphs with the same formatting are concatenated. Note: The accuracy of the content display may be affected if this property is set to  true . Default is  false .
+
+ **Examples:** 
+
+Shows how to simplify a document when saving it to HTML by removing various redundant objects.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ HtmlFixedSaveOptions saveOptions = new HtmlFixedSaveOptions();
+ {
+     saveOptions.setOptimizeOutput(optimizeOutput);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html", saveOptions);
+
+ // The size of the optimized version of the document is almost a third of the size of the unoptimized document.
+ if (optimizeOutput)
+     Assert.assertEquals(62521.0,
+         new File(getArtifactsDir() + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html").length(), 200.0);
+ else
+     Assert.assertEquals(191770.0,
+         new File(getArtifactsDir() + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html").length(), 200.0);
+ 
+```
+
+Shows how to optimize document objects while saving to xps.
+
+```
+
+ Document doc = new Document(getMyDir() + "Unoptimized document.docx");
+
+ // Create an "XpsSaveOptions" object to pass to the document's "Save" method
+ // to modify how that method converts the document to .XPS.
+ XpsSaveOptions saveOptions = new XpsSaveOptions();
+
+ // Set the "OptimizeOutput" property to "true" to take measures such as removing nested or empty canvases
+ // and concatenating adjacent runs with identical formatting to optimize the output document's content.
+ // This may affect the appearance of the document.
+ // Set the "OptimizeOutput" property to "false" to save the document normally.
+ saveOptions.setOptimizeOutput(optimizeOutput);
+
+ doc.save(getArtifactsDir() + "XpsSaveOptions.OptimizeOutput.xps", saveOptions);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -995,6 +2906,60 @@ public void setPageSavingCallback(IPageSavingCallback value)
 
 Allows to control how separate pages are saved when a document is exported to fixed page format.
 
+ **Examples:** 
+
+Shows how to use a callback to save a document to HTML page by page.
+
+```
+
+ public void pageFileNames() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     builder.writeln("Page 1.");
+     builder.insertBreak(BreakType.PAGE_BREAK);
+     builder.writeln("Page 2.");
+     builder.insertImage(getImageDir() + "Logo.jpg");
+     builder.insertBreak(BreakType.PAGE_BREAK);
+     builder.writeln("Page 3.");
+
+     // Create an "HtmlFixedSaveOptions" object, which we can pass to the document's "Save" method
+     // to modify how we convert the document to HTML.
+     HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions();
+
+     // We will save each page in this document to a separate HTML file in the local file system.
+     // Set a callback that allows us to name each output HTML document.
+     htmlFixedSaveOptions.setPageSavingCallback(new CustomFileNamePageSavingCallback());
+
+     doc.save(getArtifactsDir() + "SavingCallback.PageFileNames.html", htmlFixedSaveOptions);
+
+     String[] filePaths = DocumentHelper.directoryGetFiles(getArtifactsDir(), "SavingCallback.PageFileNames.Page_*").toArray(new String[0]);
+
+     Assert.assertEquals(3, filePaths.length);
+ }
+
+ /// 
+ /// Saves all pages to a file and directory specified within.
+ /// 
+ private static class CustomFileNamePageSavingCallback implements IPageSavingCallback {
+     public void pageSaving(PageSavingArgs args) throws Exception {
+         String outFileName = MessageFormat.format("{0}SavingCallback.PageFileNames.Page_{1}.html", getArtifactsDir(), args.getPageIndex());
+
+         // Below are two ways of specifying where Aspose.Words will save each page of the document.
+         // 1 -  Set a filename for the output page file:
+         args.setPageFileName(outFileName);
+
+         // 2 -  Create a custom stream for the output page file:
+         try (FileOutputStream outputStream = new FileOutputStream(outFileName)) {
+             args.setPageStream(outputStream);
+         }
+
+         Assert.assertFalse(args.getKeepPageStreamOpen());
+     }
+ }
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1008,7 +2973,111 @@ public void setPageSet(PageSet value)
 
 Sets the pages to render. Default is all the pages in the document.
 
+ **Remarks:** 
+
 This property has effect only when rendering document pages. This property is ignored when rendering shapes to images.
+
+ **Examples:** 
+
+Shows how to extract pages based on exact page ranges.
+
+```
+
+ Document doc = new Document(getMyDir() + "Images.docx");
+
+ ImageSaveOptions imageOptions = new ImageSaveOptions(SaveFormat.TIFF);
+ PageSet pageSet = new PageSet(new PageRange(1, 1), new PageRange(2, 3), new PageRange(1, 3), new PageRange(2, 4), new PageRange(1, 1));
+
+ imageOptions.setPageSet(pageSet);
+ doc.save(getArtifactsDir() + "ImageSaveOptions.ExportVariousPageRanges.tiff", imageOptions);
+ 
+```
+
+Shows how to render every page of a document to a separate TIFF image.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Page 1.");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("Page 2.");
+ builder.insertImage(getImageDir() + "Logo.jpg");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("Page 3.");
+
+ // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
+ // to modify the way in which that method renders the document into an image.
+ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.TIFF);
+
+ for (int i = 0; i < doc.getPageCount(); i++) {
+     // Set the "PageSet" property to the number of the first page from
+     // which to start rendering the document from.
+     options.setPageSet(new PageSet(i));
+
+     doc.save(getArtifactsDir() + MessageFormat.format("ImageSaveOptions.PageByPage.{0}.tiff", i + 1), options);
+ }
+ 
+```
+
+Shows how to specify which page in a document to render as an image.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("Heading 1"));
+ builder.writeln("Hello world! This is page 1.");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("This is page 2.");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("This is page 3.");
+
+ Assert.assertEquals(3, doc.getPageCount());
+
+ // When we save the document as an image, Aspose.Words only renders the first page by default.
+ // We can pass a SaveOptions object to specify a different page to render.
+ ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.GIF);
+
+ // Render every page of the document to a separate image file.
+ for (int i = 1; i <= doc.getPageCount(); i++) {
+     saveOptions.setPageSet(new PageSet(1));
+
+     doc.save(getArtifactsDir() + MessageFormat.format("ImageSaveOptions.PageIndex.Page {0}.gif", i), saveOptions);
+ }
+ 
+```
+
+Shows how to render one page from a document to a JPEG image.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Page 1.");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("Page 2.");
+ builder.insertImage(getImageDir() + "Logo.jpg");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("Page 3.");
+
+ // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
+ // to modify the way in which that method renders the document into an image.
+ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.JPEG);
+
+ // Set the "PageSet" to "1" to select the second page via
+ // the zero-based index to start rendering the document from.
+ options.setPageSet(new PageSet(1));
+
+ // When we save the document to the JPEG format, Aspose.Words only renders one page.
+ // This image will contain one page starting from page two,
+ // which will just be the second page of the original document.
+ doc.save(getArtifactsDir() + "ImageSaveOptions.OnePage.jpg", options);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1025,7 +3094,42 @@ Sets the background (paper) color for the generated images.
 
 The default value is .
 
+ **Remarks:** 
+
 When rendering pages of a document that specifies its own background color, then the document background color will override the color specified by this property.
+
+ **Examples:** 
+
+Renders a page of a Word document into an image with transparent or colored background.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setName("Times New Roman");
+ builder.getFont().setSize(24.0);
+ builder.writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+
+ builder.insertImage(getImageDir() + "Logo.jpg");
+
+ // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
+ // to modify the way in which that method renders the document into an image.
+ ImageSaveOptions imgOptions = new ImageSaveOptions(SaveFormat.PNG);
+
+ // Set the "PaperColor" property to a transparent color to apply a transparent
+ // background to the document while rendering it to an image.
+ imgOptions.setPaperColor(new Color(1f, 0f, 0f, .5f));
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.PaperColor.Transparent.png", imgOptions);
+
+ // Set the "PaperColor" property to an opaque color to apply that color
+ // as the background of the document as we render it to an image.
+ imgOptions.setPaperColor(Color.cyan);
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.PaperColor.LightCoral.png", imgOptions);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1040,11 +3144,55 @@ public void setPixelFormat(int value)
 
 Sets the pixel format for the generated images.
 
+ **Remarks:** 
+
 This property has effect only when saving to raster image formats.
 
 The default value is [ImagePixelFormat.FORMAT\_32\_BPP\_ARGB](../../com.aspose.words/imagepixelformat/\#FORMAT-32-BPP-ARGB).
 
 Pixel format of the output image may differ from the set value because of work of GDI+.
+
+ **Examples:** 
+
+Shows how to select a bit-per-pixel rate with which to render a document to an image.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("Heading 1"));
+ builder.writeln("Hello world!");
+ builder.insertImage(getImageDir() + "Logo.jpg");
+
+ Assert.assertTrue(new File(getImageDir() + "Logo.jpg").length() < 21000);
+
+ // When we save the document as an image, we can pass a SaveOptions object to
+ // select a pixel format for the image that the saving operation will generate.
+ // Various bit per pixel rates will affect the quality and file size of the generated image.
+ ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.PNG);
+ imageSaveOptions.setPixelFormat(imagePixelFormat);
+
+ // We can clone ImageSaveOptions instances.
+ Assert.assertNotEquals(imageSaveOptions, imageSaveOptions.deepClone());
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.PixelFormat.png", imageSaveOptions);
+
+ switch (imagePixelFormat) {
+     case ImagePixelFormat.FORMAT_1_BPP_INDEXED:
+         Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.PixelFormat.png").length() <= 10000);
+         break;
+     case ImagePixelFormat.FORMAT_16_BPP_RGB_555:
+     case ImagePixelFormat.FORMAT_32_BPP_RGB:
+     case ImagePixelFormat.FORMAT_48_BPP_RGB:
+         Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.PixelFormat.png").length() < 156000);
+         break;
+     case ImagePixelFormat.FORMAT_24_BPP_RGB:
+         Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.PixelFormat.png").length() < 146000);
+         break;
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1059,7 +3207,62 @@ public void setPrettyFormat(boolean value)
 
 When  true , pretty formats output where applicable. Default value is  false .
 
+ **Remarks:** 
+
 Set to  true  to make HTML, MHTML, EPUB, WordML, RTF, DOCX and ODT output human readable. Useful for testing or debugging.
+
+ **Examples:** 
+
+Shows how to enhance the readability of the raw code of a saved .html document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Hello world!");
+
+ HtmlSaveOptions htmlOptions = new HtmlSaveOptions(SaveFormat.HTML);
+ {
+     htmlOptions.setPrettyFormat(usePrettyFormat);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.PrettyFormat.html", htmlOptions);
+
+ // Enabling pretty format makes the raw html code more readable by adding tab stop and new line characters.
+ String html = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.PrettyFormat.html"), StandardCharsets.UTF_8);
+
+ if (usePrettyFormat)
+     Assert.assertEquals(
+             "\r\n" +
+                     "\t\r\n" +
+                     "\t\t\r\n" +
+                     "\t\t\r\n" +
+                     MessageFormat.format("\t\t\r\n", BuildVersionInfo.getProduct(), BuildVersionInfo.getVersion()) +
+                     "\t\t\r\n" +
+                     "\t\t\r\n" +
+                     "\t\r\n" +
+                     "\t\r\n" +
+                     "\t\t \r\n" +
+                     "\t\t\t \r\n" +
+                     "\t\t\t\tHello world!\r\n" +
+                     "\t\t\t\r\n" +
+                     "\t\t\t \r\n" +
+                     "\t\t\t\t \r\n" +
+                     "\t\t\t\r\n" +
+                     "\t\t\r\n" +
+                     "\t\r\n",
+             html);
+ else
+     Assert.assertEquals(
+             "" +
+                     "" +
+                     MessageFormat.format("", BuildVersionInfo.getProduct(), BuildVersionInfo.getVersion()) +
+                     "" +
+                     " Hello world!" +
+                     "  ",
+             html);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1074,7 +3277,229 @@ public void setProgressCallback(IDocumentSavingCallback value)
 
 Called during saving a document and accepts data about saving progress.
 
+ **Remarks:** 
+
 Progress is reported when saving to [SaveFormat.DOCX](../../com.aspose.words/saveformat/\#DOCX), [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat/\#FLAT-OPC), [SaveFormat.DOCM](../../com.aspose.words/saveformat/\#DOCM), [SaveFormat.DOTM](../../com.aspose.words/saveformat/\#DOTM), [SaveFormat.DOTX](../../com.aspose.words/saveformat/\#DOTX), [SaveFormat.HTML](../../com.aspose.words/saveformat/\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat/\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat/\#EPUB), [SaveFormat.XAML\_FLOW](../../com.aspose.words/saveformat/\#XAML-FLOW), or [SaveFormat.XAML\_FLOW\_PACK](../../com.aspose.words/saveformat/\#XAML-FLOW-PACK).
+
+ **Examples:** 
+
+Shows how to manage a document while saving to xamlflow.
+
+```
+
+ public void progressCallback(int saveFormat, String ext) throws Exception
+ {
+     Document doc = new Document(getMyDir() + "Big document.docx");
+
+     // Following formats are supported: XamlFlow, XamlFlowPack.
+     XamlFlowSaveOptions saveOptions = new XamlFlowSaveOptions(saveFormat);
+     {
+         saveOptions.setProgressCallback(new SavingProgressCallback());
+     }
+
+     try {
+         doc.save(getArtifactsDir() + MessageFormat.format("XamlFlowSaveOptions.ProgressCallback.{0}", ext), saveOptions);
+     }
+     catch (IllegalStateException exception) {
+         Assert.assertTrue(exception.getMessage().contains("EstimatedProgress"));
+     }
+ }
+
+ public static Object[][] progressCallbackDataProvider() throws Exception
+ {
+     return new Object[][]
+             {
+                     {SaveFormat.XAML_FLOW,  "xamlflow"},
+                     {SaveFormat.XAML_FLOW_PACK,  "xamlflowpack"},
+             };
+ }
+
+ /// 
+ /// Saving progress callback. Cancel a document saving after the "MaxDuration" seconds.
+ /// 
+ public static class SavingProgressCallback implements IDocumentSavingCallback
+ {
+     /// 
+     /// Ctr.
+     /// 
+     public SavingProgressCallback()
+     {
+         mSavingStartedAt = new Date();
+     }
+
+     /// 
+     /// Callback method which called during document saving.
+     /// 
+     /// Saving arguments.
+     public void notify(DocumentSavingArgs args)
+     {
+         Date canceledAt = new Date();
+         long diff = canceledAt.getTime() - mSavingStartedAt.getTime();
+         long ellapsedSeconds = TimeUnit.MILLISECONDS.toSeconds(diff);
+
+         if (ellapsedSeconds > MAX_DURATION)
+             throw new IllegalStateException(MessageFormat.format("EstimatedProgress = {0}; CanceledAt = {1}", args.getEstimatedProgress(), canceledAt));
+     }
+
+     /// 
+     /// Date and time when document saving is started.
+     /// 
+     private Date mSavingStartedAt;
+
+     /// 
+     /// Maximum allowed duration in sec.
+     /// 
+     private static final double MAX_DURATION = 0.01d;
+ }
+ 
+```
+
+Shows how to manage a document while saving to html.
+
+```
+
+ public void progressCallback(int saveFormat, String ext) throws Exception
+ {
+     Document doc = new Document(getMyDir() + "Big document.docx");
+
+     // Following formats are supported: Html, Mhtml, Epub.
+     HtmlSaveOptions saveOptions = new HtmlSaveOptions(saveFormat);
+     {
+         saveOptions.setProgressCallback(new SavingProgressCallback());
+     }
+
+     try {
+         doc.save(getArtifactsDir() + MessageFormat.format("HtmlSaveOptions.ProgressCallback.{0}", ext), saveOptions);
+     }
+     catch (IllegalStateException exception) {
+         Assert.assertTrue(exception.getMessage().contains("EstimatedProgress"));
+     }
+
+ }
+
+ public static Object[][] progressCallbackDataProvider() throws Exception
+ {
+     return new Object[][]
+             {
+                     {SaveFormat.HTML,  "html"},
+                     {SaveFormat.MHTML,  "mhtml"},
+                     {SaveFormat.EPUB,  "epub"},
+             };
+ }
+
+ /// 
+ /// Saving progress callback. Cancel a document saving after the "MaxDuration" seconds.
+ /// 
+ public static class SavingProgressCallback implements IDocumentSavingCallback
+ {
+     /// 
+     /// Ctr.
+     /// 
+     public SavingProgressCallback()
+     {
+         mSavingStartedAt = new Date();
+     }
+
+     /// 
+     /// Callback method which called during document saving.
+     /// 
+     /// Saving arguments.
+     public void notify(DocumentSavingArgs args)
+     {
+         Date canceledAt = new Date();
+         long diff = canceledAt.getTime() - mSavingStartedAt.getTime();
+         long ellapsedSeconds = TimeUnit.MILLISECONDS.toSeconds(diff);
+
+         if (ellapsedSeconds > MAX_DURATION)
+             throw new IllegalStateException(MessageFormat.format("EstimatedProgress = {0}; CanceledAt = {1}", args.getEstimatedProgress(), canceledAt));
+     }
+
+     /// 
+     /// Date and time when document saving is started.
+     /// 
+     private Date mSavingStartedAt;
+
+     /// 
+     /// Maximum allowed duration in sec.
+     /// 
+     private static final double MAX_DURATION = 0.01d;
+ }
+ 
+```
+
+Shows how to manage a document while saving to docx.
+
+```
+
+ public void progressCallback(int saveFormat, String ext) throws Exception
+ {
+     Document doc = new Document(getMyDir() + "Big document.docx");
+
+     // Following formats are supported: Docx, FlatOpc, Docm, Dotm, Dotx.
+     OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(saveFormat);
+     {
+         saveOptions.setProgressCallback(new SavingProgressCallback());
+     }
+
+     try {
+         doc.save(getArtifactsDir() + MessageFormat.format("OoxmlSaveOptions.ProgressCallback.{0}", ext), saveOptions);
+     }
+     catch (IllegalStateException exception) {
+         Assert.assertTrue(exception.getMessage().contains("EstimatedProgress"));
+     }
+ }
+
+ public static Object[][] progressCallbackDataProvider() throws Exception
+ {
+     return new Object[][]
+             {
+                     {SaveFormat.DOCX,  "docx"},
+                     {SaveFormat.DOCM,  "docm"},
+                     {SaveFormat.DOTM,  "dotm"},
+                     {SaveFormat.DOTX,  "dotx"},
+                     {SaveFormat.FLAT_OPC,  "flatopc"},
+             };
+ }
+
+ /// 
+ /// Saving progress callback. Cancel a document saving after the "MaxDuration" seconds.
+ /// 
+ public static class SavingProgressCallback implements IDocumentSavingCallback
+ {
+     /// 
+     /// Ctr.
+     /// 
+     public SavingProgressCallback()
+     {
+         mSavingStartedAt = new Date();
+     }
+
+     /// 
+     /// Callback method which called during document saving.
+     /// 
+     /// Saving arguments.
+     public void notify(DocumentSavingArgs args)
+     {
+         Date canceledAt = new Date();
+         long diff = canceledAt.getTime() - mSavingStartedAt.getTime();
+         long ellapsedSeconds = TimeUnit.MILLISECONDS.toSeconds(diff);
+
+         if (ellapsedSeconds > MAX_DURATION)
+             throw new IllegalStateException(MessageFormat.format("EstimatedProgress = {0}; CanceledAt = {1}", args.getEstimatedProgress(), canceledAt));
+     }
+
+     /// 
+     /// Date and time when document saving is started.
+     /// 
+     private Date mSavingStartedAt;
+
+     /// 
+     /// Maximum allowed duration in sec.
+     /// 
+     private static final double MAX_DURATION = 0.01d;
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1089,7 +3514,53 @@ public void setResolution(float value)
 
 Sets both horizontal and vertical resolution for the generated images, in dots per inch.
 
+ **Remarks:** 
+
 This property has effect only when saving to raster image formats.
+
+ **Examples:** 
+
+Shows how to specify a resolution while rendering a document to PNG.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setName("Times New Roman");
+ builder.getFont().setSize(24.0);
+ builder.writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+
+ builder.insertImage(getImageDir() + "Logo.jpg");
+
+ // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
+ // to modify the way in which that method renders the document into an image.
+ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.PNG);
+
+ // Set the "Resolution" property to "72" to render the document in 72dpi.
+ options.setResolution(72f);
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.Resolution.72dpi.png", options);
+
+ Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.Resolution.72dpi.png").length() <= 120000);
+
+ BufferedImage image = ImageIO.read(new File(getArtifactsDir() + "ImageSaveOptions.Resolution.72dpi.png"));
+
+ Assert.assertEquals(612, image.getWidth());
+ Assert.assertEquals(792, image.getHeight());
+ // Set the "Resolution" property to "300" to render the document in 300dpi.
+ options.setResolution(300f);
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.Resolution.300dpi.png", options);
+
+ Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.Resolution.300dpi.png").length() < 1170000);
+
+ image = ImageIO.read(new File(getArtifactsDir() + "ImageSaveOptions.Resolution.300dpi.png"));
+
+ Assert.assertEquals(2550, image.getWidth());
+ Assert.assertEquals(3300, image.getHeight());
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1104,9 +3575,48 @@ public void setSaveFormat(int value)
 
 Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used. Can be a raster [SaveFormat.PNG](../../com.aspose.words/saveformat/\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat/\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat/\#JPEG) or vector [SaveFormat.SVG](../../com.aspose.words/saveformat/\#SVG).
 
+ **Remarks:** 
+
 On different platforms, the supported formats may be different. The number of other options depends on the selected format.
 
 Also, it is possible to save to SVG both via [ImageSaveOptions](../../com.aspose.words/imagesaveoptions/) and via [SvgSaveOptions](../../com.aspose.words/svgsaveoptions/).
+
+ **Examples:** 
+
+Shows how to edit the image while Aspose.Words converts a document to one.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("Heading 1"));
+ builder.writeln("Hello world!");
+ builder.insertImage(getImageDir() + "Logo.jpg");
+
+ // When we save the document as an image, we can pass a SaveOptions object to
+ // edit the image while the saving operation renders it.
+ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.PNG);
+ {
+     // We can adjust these properties to change the image's brightness and contrast.
+     // Both are on a 0-1 scale and are at 0.5 by default.
+     options.setImageBrightness(0.3f);
+     options.setImageContrast(0.7f);
+
+     // We can adjust horizontal and vertical resolution with these properties.
+     // This will affect the dimensions of the image.
+     // The default value for these properties is 96.0, for a resolution of 96dpi.
+     options.setHorizontalResolution(72f);
+     options.setVerticalResolution(72f);
+
+     // We can scale the image using this property. The default value is 1.0, for scaling of 100%.
+     // We can use this property to negate any changes in image dimensions that changing the resolution would cause.
+     options.setScale(96f / 72f);
+ }
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.EditImage.png", options);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1119,7 +3629,67 @@ public void setScale(float value)
 ```
 
 
-Sets the zoom factor for the generated images. The default value is 1.0. The value must be greater than 0.
+Sets the zoom factor for the generated images.
+
+ **Remarks:** 
+
+The default value is 1.0. The value must be greater than 0.
+
+ **Examples:** 
+
+Shows how to render an Office Math object into an image file in the local file system.
+
+```
+
+ Document doc = new Document(getMyDir() + "Office math.docx");
+
+ OfficeMath math = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true);
+
+ // Create an "ImageSaveOptions" object to pass to the node renderer's "Save" method to modify
+ // how it renders the OfficeMath node into an image.
+ ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.PNG);
+
+ // Set the "Scale" property to 5 to render the object to five times its original size.
+ saveOptions.setScale(5f);
+
+ math.getMathRenderer().save(getArtifactsDir() + "Shape.RenderOfficeMath.png", saveOptions);
+ 
+```
+
+Shows how to edit the image while Aspose.Words converts a document to one.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("Heading 1"));
+ builder.writeln("Hello world!");
+ builder.insertImage(getImageDir() + "Logo.jpg");
+
+ // When we save the document as an image, we can pass a SaveOptions object to
+ // edit the image while the saving operation renders it.
+ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.PNG);
+ {
+     // We can adjust these properties to change the image's brightness and contrast.
+     // Both are on a 0-1 scale and are at 0.5 by default.
+     options.setImageBrightness(0.3f);
+     options.setImageContrast(0.7f);
+
+     // We can adjust horizontal and vertical resolution with these properties.
+     // This will affect the dimensions of the image.
+     // The default value for these properties is 96.0, for a resolution of 96dpi.
+     options.setHorizontalResolution(72f);
+     options.setVerticalResolution(72f);
+
+     // We can scale the image using this property. The default value is 1.0, for scaling of 100%.
+     // We can use this property to negate any changes in image dimensions that changing the resolution would cause.
+     options.setScale(96f / 72f);
+ }
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.EditImage.png", options);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1134,6 +3704,8 @@ public void setTempFolder(String value)
 
 Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is  null  and no temporary files are used.
 
+ **Remarks:** 
+
 When Aspose.Words saves a document, it needs to create temporary internal structures. By default, these internal structures are created in memory and the memory usage spikes for a short period while the document is being saved. When saving is complete, the memory is freed and reclaimed by the garbage collector.
 
 If you are saving a very large document (thousands of pages) and/or processing many documents at the same time, then the memory spike during saving can be significant enough to cause the system to throw java.lang.IndexOutOfBoundsException. Specifying a temporary folder using [getTempFolder()](../../com.aspose.words/saveoptions/\#getTempFolder) / [setTempFolder(java.lang.String)](../../com.aspose.words/saveoptions/\#setTempFolder-java.lang.String) will cause Aspose.Words to keep the internal structures in temporary files instead of memory. It reduces the memory usage during saving, but will decrease the save performance.
@@ -1141,6 +3713,30 @@ If you are saving a very large document (thousands of pages) and/or processing m
 The folder must exist and be writable, otherwise an exception will be thrown.
 
 Aspose.Words automatically deletes all temporary files when saving is complete.
+
+ **Examples:** 
+
+Shows how to use the hard drive instead of memory when saving a document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ // When we save a document, various elements are temporarily stored in memory as the save operation is taking place.
+ // We can use this option to use a temporary folder in the local file system instead,
+ // which will reduce our application's memory overhead.
+ DocSaveOptions options = new DocSaveOptions();
+ options.setTempFolder(getArtifactsDir() + "TempFiles");
+
+ // The specified temporary folder must exist in the local file system before the save operation.
+ new File(options.getTempFolder()).mkdir();
+
+ doc.save(getArtifactsDir() + "DocSaveOptions.TempFolder.doc", options);
+
+ // The folder will persist with no residual contents from the load operation.
+ Assert.assertEquals(new File(options.getTempFolder()).listFiles().length, 0);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1155,7 +3751,35 @@ public void setThresholdForFloydSteinbergDithering(byte value)
 
 Sets the threshold that determines the value of the binarization error in the Floyd-Steinberg method. when [ImageBinarizationMethod](../../com.aspose.words/imagebinarizationmethod/) is [ImageBinarizationMethod.FLOYD\_STEINBERG\_DITHERING](../../com.aspose.words/imagebinarizationmethod/\#FLOYD-STEINBERG-DITHERING).
 
+ **Remarks:** 
+
 The default value is 128.
+
+ **Examples:** 
+
+Shows how to set the TIFF binarization error threshold when using the Floyd-Steinberg method to render a TIFF image.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("Heading 1"));
+ builder.writeln("Hello world!");
+ builder.insertImage(getImageDir() + "Logo.jpg");
+
+ // When we save the document as a TIFF, we can pass a SaveOptions object to
+ // adjust the dithering that Aspose.Words will apply when rendering this image.
+ // The default value of the "ThresholdForFloydSteinbergDithering" property is 128.
+ // Higher values tend to produce darker images.
+ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.TIFF);
+ options.setTiffCompression(TiffCompression.CCITT_3);
+ options.setTiffBinarizationMethod(ImageBinarizationMethod.FLOYD_STEINBERG_DITHERING);
+ options.setThresholdForFloydSteinbergDithering((byte) 240);
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.FloydSteinbergDithering.tiff", options);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1170,7 +3794,35 @@ public void setTiffBinarizationMethod(int value)
 
 Sets method used while converting images to 1 bpp format when [getSaveFormat()](../../com.aspose.words/imagesaveoptions/\#getSaveFormat) / [setSaveFormat(int)](../../com.aspose.words/imagesaveoptions/\#setSaveFormat-int) is [SaveFormat.TIFF](../../com.aspose.words/saveformat/\#TIFF) and [getTiffCompression()](../../com.aspose.words/imagesaveoptions/\#getTiffCompression) / [setTiffCompression(int)](../../com.aspose.words/imagesaveoptions/\#setTiffCompression-int) is equal to [TiffCompression.CCITT\_3](../../com.aspose.words/tiffcompression/\#CCITT-3) or [TiffCompression.CCITT\_4](../../com.aspose.words/tiffcompression/\#CCITT-4).
 
+ **Remarks:** 
+
 The default value is [ImageBinarizationMethod.THRESHOLD](../../com.aspose.words/imagebinarizationmethod/\#THRESHOLD).
+
+ **Examples:** 
+
+Shows how to set the TIFF binarization error threshold when using the Floyd-Steinberg method to render a TIFF image.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("Heading 1"));
+ builder.writeln("Hello world!");
+ builder.insertImage(getImageDir() + "Logo.jpg");
+
+ // When we save the document as a TIFF, we can pass a SaveOptions object to
+ // adjust the dithering that Aspose.Words will apply when rendering this image.
+ // The default value of the "ThresholdForFloydSteinbergDithering" property is 128.
+ // Higher values tend to produce darker images.
+ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.TIFF);
+ options.setTiffCompression(TiffCompression.CCITT_3);
+ options.setTiffBinarizationMethod(ImageBinarizationMethod.FLOYD_STEINBERG_DITHERING);
+ options.setThresholdForFloydSteinbergDithering((byte) 240);
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.FloydSteinbergDithering.tiff", options);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1185,9 +3837,38 @@ public void setTiffCompression(int value)
 
 Sets the type of compression to apply when saving generated images to the TIFF format.
 
+ **Remarks:** 
+
 Has effect only when saving to TIFF.
 
 The default value is [TiffCompression.CCITT\_4](../../com.aspose.words/tiffcompression/\#CCITT-4).
+
+ **Examples:** 
+
+Shows how to select the compression scheme to apply to a document that we convert into a TIFF image.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.insertImage(getImageDir() + "Logo.jpg");
+
+ // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
+ // to modify the way in which that method renders the document into an image.
+ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.TIFF);
+
+ // Set the "TiffCompression" property to "TiffCompression.None" to apply no compression while saving,
+ // which may result in a very large output file.
+ // Set the "TiffCompression" property to "TiffCompression.Rle" to apply RLE compression
+ // Set the "TiffCompression" property to "TiffCompression.Lzw" to apply LZW compression.
+ // Set the "TiffCompression" property to "TiffCompression.Ccitt3" to apply CCITT3 compression.
+ // Set the "TiffCompression" property to "TiffCompression.Ccitt4" to apply CCITT4 compression.
+ options.setTiffCompression(tiffCompression);
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.TiffImageCompression.tiff", options);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1213,7 +3894,11 @@ public void setUpdateFields(boolean value)
 ```
 
 
-Sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is  true . Allows to specify whether to mimic or not MS Word behavior.
+Sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is  true .
+
+ **Remarks:** 
+
+Allows to specify whether to mimic or not MS Word behavior.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1228,6 +3913,50 @@ public void setUpdateLastPrintedProperty(boolean value)
 
 Sets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties/\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastPrinted-java.util.Date) property is updated before saving.
 
+ **Examples:** 
+
+Shows how to update a document's "CreatedTime" property when saving.
+
+```
+
+ Document doc = new Document();
+
+ Calendar calendar = Calendar.getInstance();
+ calendar.set(2019, 11, 20);
+ doc.getBuiltInDocumentProperties().setCreatedTime(calendar.getTime());
+
+ // This flag determines whether the created time, which is a built-in property, is updated.
+ // If so, then the date of the document's most recent save operation
+ // with this SaveOptions object passed as a parameter is used as the created time.
+ DocSaveOptions saveOptions = new DocSaveOptions();
+ saveOptions.setUpdateCreatedTimeProperty(isUpdateCreatedTimeProperty);
+
+ doc.save(getArtifactsDir() + "DocSaveOptions.UpdateCreatedTimeProperty.docx", saveOptions);
+ 
+```
+
+Shows how to update a document's "Last printed" property when saving.
+
+```
+
+ Document doc = new Document();
+
+ Calendar calendar = Calendar.getInstance();
+ calendar.set(2019, 11, 20);
+ doc.getBuiltInDocumentProperties().setLastPrinted(calendar.getTime());
+
+ // This flag determines whether the last printed date, which is a built-in property, is updated.
+ // If so, then the date of the document's most recent save operation
+ // with this SaveOptions object passed as a parameter is used as the print date.
+ DocSaveOptions saveOptions = new DocSaveOptions();
+ saveOptions.setUpdateLastPrintedProperty(isUpdateLastPrintedProperty);
+
+ // In Microsoft Word 2003, this property can be found via File -> Properties -> Statistics -> Printed.
+ // It can also be displayed in the document's body by using a PRINTDATE field.
+ doc.save(getArtifactsDir() + "DocSaveOptions.UpdateLastPrintedProperty.doc", saveOptions);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1241,6 +3970,27 @@ public void setUpdateLastSavedTimeProperty(boolean value)
 
 Sets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties/\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastSavedTime-java.util.Date) property is updated before saving.
 
+ **Examples:** 
+
+Shows how to determine whether to preserve the document's "Last saved time" property when saving.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ // When we save the document to an OOXML format, we can create an OoxmlSaveOptions object
+ // and then pass it to the document's saving method to modify how we save the document.
+ // Set the "UpdateLastSavedTimeProperty" property to "true" to
+ // set the output document's "Last saved time" built-in property to the current date/time.
+ // Set the "UpdateLastSavedTimeProperty" property to "false" to
+ // preserve the original value of the input document's "Last saved time" built-in property.
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+ saveOptions.setUpdateLastSavedTimeProperty(updateLastSavedTimeProperty);
+
+ doc.save(getArtifactsDir() + "OoxmlSaveOptions.LastSavedTime.docx", saveOptions);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1252,7 +4002,36 @@ public void setUpdateSdtContent(boolean value)
 ```
 
 
-Sets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) is updated before saving. The default value is  false .
+Sets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) is updated before saving.
+
+ **Remarks:** 
+
+The default value is  false .
+
+ **Examples:** 
+
+Shows how to update structured document tags while saving a document to PDF.
+
+```
+
+ Document doc = new Document();
+
+ // Insert a drop-down list structured document tag.
+ StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.DROP_DOWN_LIST, MarkupLevel.BLOCK);
+ tag.getListItems().add(new SdtListItem("Value 1"));
+ tag.getListItems().add(new SdtListItem("Value 2"));
+ tag.getListItems().add(new SdtListItem("Value 3"));
+
+ // The drop-down list currently displays "Choose an item" as the default text.
+ // Set the "SelectedValue" property to one of the list items to get the tag to
+ // display that list item's value instead of the default text.
+ tag.getListItems().setSelectedValue(tag.getListItems().get(1));
+
+ doc.getFirstSection().getBody().appendChild(tag);
+
+ doc.save(getArtifactsDir() + "StructuredDocumentTag.UpdateSdtContent.pdf");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1267,9 +4046,33 @@ public void setUseAntiAliasing(boolean value)
 
 Sets a value determining whether or not to use anti-aliasing for rendering.
 
+ **Remarks:** 
+
 The default value is  false . When this value is set to  true  anti-aliasing is used for rendering.
 
 This property is used when the document is exported to the following formats: [SaveFormat.TIFF](../../com.aspose.words/saveformat/\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat/\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat/\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat/\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat/\#EMF). When the document is exported to the [SaveFormat.HTML](../../com.aspose.words/saveformat/\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat/\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat/\#EPUB), [SaveFormat.AZW\_3](../../com.aspose.words/saveformat/\#AZW-3) or [SaveFormat.MOBI](../../com.aspose.words/saveformat/\#MOBI) formats this option is used for raster images.
+
+ **Examples:** 
+
+Shows how to improve the quality of a rendered document with SaveOptions.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setSize(60.0);
+ builder.writeln("Some text.");
+
+ SaveOptions options = new ImageSaveOptions(SaveFormat.JPEG);
+ doc.save(getArtifactsDir() + "Document.ImageSaveOptions.Default.jpg", options);
+
+ options.setUseAntiAliasing(true);
+ options.setUseHighQualityRendering(true);
+
+ doc.save(getArtifactsDir() + "Document.ImageSaveOptions.HighQuality.jpg", options);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1284,6 +4087,8 @@ public void setUseGdiEmfRenderer(boolean value)
 
 Sets a value determining whether to use GDI+ or Aspose.Words metafile renderer when saving to EMF.
 
+ **Remarks:** 
+
 If set to  true  GDI+ metafile renderer is used. I.e. content is written to GDI+ graphics object and saved to metafile.
 
 If set to  false  Aspose.Words metafile renderer is used. I.e. content is written directly to the metafile format with Aspose.Words.
@@ -1293,6 +4098,35 @@ Has effect only when saving to EMF.
 GDI+ saving works only on .NET.
 
 The default value is  true .
+
+ **Examples:** 
+
+Shows how to choose a renderer when converting a document to .emf.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("Heading 1"));
+ builder.writeln("Hello world!");
+ builder.insertImage(getImageDir() + "Logo.jpg");
+
+ // When we save the document as an EMF image, we can pass a SaveOptions object to select a renderer for the image.
+ // If we set the "UseGdiEmfRenderer" flag to "true", Aspose.Words will use the GDI+ renderer.
+ // If we set the "UseGdiEmfRenderer" flag to "false", Aspose.Words will use its own metafile renderer.
+ ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.EMF);
+ saveOptions.setUseGdiEmfRenderer(useGdiEmfRenderer);
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.Renderer.emf", saveOptions);
+
+ // The GDI+ renderer usually creates larger files.
+ if (useGdiEmfRenderer)
+     Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.Renderer.emf").length() < 300000);
+ else
+     Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.Renderer.emf").length() <= 30000);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1305,9 +4139,35 @@ public void setUseHighQualityRendering(boolean value)
 ```
 
 
-Sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms. The default value is  false .
+Sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms.
+
+ **Remarks:** 
+
+The default value is  false .
 
 This property is used when the document is exported to image formats: [SaveFormat.TIFF](../../com.aspose.words/saveformat/\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat/\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat/\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat/\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat/\#EMF).
+
+ **Examples:** 
+
+Shows how to improve the quality of a rendered document with SaveOptions.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setSize(60.0);
+ builder.writeln("Some text.");
+
+ SaveOptions options = new ImageSaveOptions(SaveFormat.JPEG);
+ doc.save(getArtifactsDir() + "Document.ImageSaveOptions.Default.jpg", options);
+
+ options.setUseAntiAliasing(true);
+ options.setUseHighQualityRendering(true);
+
+ doc.save(getArtifactsDir() + "Document.ImageSaveOptions.HighQuality.jpg", options);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1322,9 +4182,48 @@ public void setVerticalResolution(float value)
 
 Sets the vertical resolution for the generated images, in dots per inch.
 
+ **Remarks:** 
+
 This property has effect only when saving to raster image formats and affects the output size in pixels.
 
 The default value is 96.
+
+ **Examples:** 
+
+Shows how to edit the image while Aspose.Words converts a document to one.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("Heading 1"));
+ builder.writeln("Hello world!");
+ builder.insertImage(getImageDir() + "Logo.jpg");
+
+ // When we save the document as an image, we can pass a SaveOptions object to
+ // edit the image while the saving operation renders it.
+ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.PNG);
+ {
+     // We can adjust these properties to change the image's brightness and contrast.
+     // Both are on a 0-1 scale and are at 0.5 by default.
+     options.setImageBrightness(0.3f);
+     options.setImageContrast(0.7f);
+
+     // We can adjust horizontal and vertical resolution with these properties.
+     // This will affect the dimensions of the image.
+     // The default value for these properties is 96.0, for a resolution of 96dpi.
+     options.setHorizontalResolution(72f);
+     options.setVerticalResolution(72f);
+
+     // We can scale the image using this property. The default value is 1.0, for scaling of 100%.
+     // We can use this property to negate any changes in image dimensions that changing the resolution would cause.
+     options.setScale(96f / 72f);
+ }
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.EditImage.png", options);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |

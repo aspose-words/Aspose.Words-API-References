@@ -4,7 +4,7 @@ linktitle: Cluster
 second_title: Aspose.Words for Java API Reference
 description: Encapsulates code points and glyphs composing a grapheme in Java.
 type: docs
-weight: 74
+weight: 75
 url: /java/com.aspose.words/cluster/
 ---
 

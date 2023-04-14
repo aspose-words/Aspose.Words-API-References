@@ -4,7 +4,7 @@ linktitle: PdfDigitalSignatureTimestampSettings
 second_title: Aspose.Words for Java API Reference
 description: Contains settings of the digital signature timestamp in Java.
 type: docs
-weight: 459
+weight: 460
 url: /java/com.aspose.words/pdfdigitalsignaturetimestampsettings/
 ---
 
@@ -118,7 +118,11 @@ public String getPassword()
 ```
 
 
-Timestamp server password. The default value is  null .
+Timestamp server password.
+
+ **Remarks:** 
+
+The default value is  null .
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
@@ -128,7 +132,11 @@ public String getServerUrl()
 ```
 
 
-Timestamp server URL. The default value is  null . If  null , then the digital signature will not be time-stamped.
+Timestamp server URL.
+
+ **Remarks:** 
+
+The default value is  null . If  null , then the digital signature will not be time-stamped.
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
@@ -138,7 +146,11 @@ public long getTimeout()
 ```
 
 
-Time-out value in milliseconds for accessing timestamp server. The default value is 100 seconds.
+Time-out value in milliseconds for accessing timestamp server.
+
+ **Remarks:** 
+
+The default value is 100 seconds.
 
 **Returns:**
 long - The corresponding long value.
@@ -148,7 +160,11 @@ public String getUserName()
 ```
 
 
-Timestamp server user name. The default value is  null .
+Timestamp server user name.
+
+ **Remarks:** 
+
+The default value is  null .
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
@@ -184,7 +200,11 @@ public void setPassword(String value)
 ```
 
 
-Timestamp server password. The default value is  null .
+Timestamp server password.
+
+ **Remarks:** 
+
+The default value is  null .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -197,7 +217,11 @@ public void setServerUrl(String value)
 ```
 
 
-Timestamp server URL. The default value is  null . If  null , then the digital signature will not be time-stamped.
+Timestamp server URL.
+
+ **Remarks:** 
+
+The default value is  null . If  null , then the digital signature will not be time-stamped.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -210,7 +234,11 @@ public void setTimeout(long value)
 ```
 
 
-Time-out value in milliseconds for accessing timestamp server. The default value is 100 seconds.
+Time-out value in milliseconds for accessing timestamp server.
+
+ **Remarks:** 
+
+The default value is 100 seconds.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -223,7 +251,11 @@ public void setUserName(String value)
 ```
 
 
-Timestamp server user name. The default value is  null .
+Timestamp server user name.
+
+ **Remarks:** 
+
+The default value is  null .
 
 **Parameters:**
 | Parameter | Type | Description |

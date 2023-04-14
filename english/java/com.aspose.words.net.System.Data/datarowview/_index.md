@@ -2,7 +2,7 @@
 title: DataRowView
 linktitle: DataRowView
 second_title: Aspose.Words for Java API Reference
-description: Represents a customized view of a in Java.
+description: Represents a customized view of a DataRow in Java.
 type: docs
 weight: 23
 url: /java/com.aspose.words.net.system.data/datarowview/

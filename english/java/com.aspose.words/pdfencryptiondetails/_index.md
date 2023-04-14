@@ -4,7 +4,7 @@ linktitle: PdfEncryptionDetails
 second_title: Aspose.Words for Java API Reference
 description: Contains details for encrypting and access permissions for a PDF document in Java.
 type: docs
-weight: 460
+weight: 461
 url: /java/com.aspose.words/pdfencryptiondetails/
 ---
 
@@ -91,6 +91,8 @@ public String getOwnerPassword()
 
 Specifies the owner password for the encrypted PDF document.
 
+ **Remarks:** 
+
 The owner password allows the user to open an encrypted PDF document without any access restrictions specified in [getPermissions()](../../com.aspose.words/pdfencryptiondetails/\#getPermissions) / [setPermissions(int)](../../com.aspose.words/pdfencryptiondetails/\#setPermissions-int).
 
 The owner password cannot be the same as the user password.
@@ -114,6 +116,8 @@ public String getUserPassword()
 
 
 Specifies the user password required for opening the encrypted PDF document.
+
+ **Remarks:** 
 
 The user password will be required to open an encrypted PDF document for viewing. The permissions specified in [getPermissions()](../../com.aspose.words/pdfencryptiondetails/\#getPermissions) / [setPermissions(int)](../../com.aspose.words/pdfencryptiondetails/\#setPermissions-int) will be enforced by the reader software.
 
@@ -155,6 +159,8 @@ public void setOwnerPassword(String value)
 
 Specifies the owner password for the encrypted PDF document.
 
+ **Remarks:** 
+
 The owner password allows the user to open an encrypted PDF document without any access restrictions specified in [getPermissions()](../../com.aspose.words/pdfencryptiondetails/\#getPermissions) / [setPermissions(int)](../../com.aspose.words/pdfencryptiondetails/\#setPermissions-int).
 
 The owner password cannot be the same as the user password.
@@ -184,6 +190,8 @@ public void setUserPassword(String value)
 
 
 Specifies the user password required for opening the encrypted PDF document.
+
+ **Remarks:** 
 
 The user password will be required to open an encrypted PDF document for viewing. The permissions specified in [getPermissions()](../../com.aspose.words/pdfencryptiondetails/\#getPermissions) / [setPermissions(int)](../../com.aspose.words/pdfencryptiondetails/\#setPermissions-int) will be enforced by the reader software.
 

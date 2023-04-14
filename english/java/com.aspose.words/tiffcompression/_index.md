@@ -4,7 +4,7 @@ linktitle: TiffCompression
 second_title: Aspose.Words for Java API Reference
 description: Specifies what type of compression to apply when saving page images into a TIFF file in Java.
 type: docs
-weight: 585
+weight: 588
 url: /java/com.aspose.words/tiffcompression/
 ---
 
@@ -15,6 +15,33 @@ public class TiffCompression
 ```
 
 Specifies what type of compression to apply when saving page images into a TIFF file.
+
+ **Examples:** 
+
+Shows how to select the compression scheme to apply to a document that we convert into a TIFF image.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.insertImage(getImageDir() + "Logo.jpg");
+
+ // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
+ // to modify the way in which that method renders the document into an image.
+ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.TIFF);
+
+ // Set the "TiffCompression" property to "TiffCompression.None" to apply no compression while saving,
+ // which may result in a very large output file.
+ // Set the "TiffCompression" property to "TiffCompression.Rle" to apply RLE compression
+ // Set the "TiffCompression" property to "TiffCompression.Lzw" to apply LZW compression.
+ // Set the "TiffCompression" property to "TiffCompression.Ccitt3" to apply CCITT3 compression.
+ // Set the "TiffCompression" property to "TiffCompression.Ccitt4" to apply CCITT4 compression.
+ options.setTiffCompression(tiffCompression);
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.TiffImageCompression.tiff", options);
+ 
+```
 ## Fields
 
 | Field | Description |

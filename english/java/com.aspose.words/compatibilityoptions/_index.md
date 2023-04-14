@@ -4,7 +4,7 @@ linktitle: CompatibilityOptions
 second_title: Aspose.Words for Java API Reference
 description: Contains compatibility options that is the user preferences entered on the Compatibility tab of the Options dialog in Microsoft Word in Java.
 type: docs
-weight: 87
+weight: 88
 url: /java/com.aspose.words/compatibilityoptions/
 ---
 
@@ -20,6 +20,64 @@ public class CompatibilityOptions implements Cloneable
 Contains compatibility options (that is, the user preferences entered on the **Compatibility** tab of the **Options** dialog in Microsoft Word).
 
 To learn more, visit the [ Detect File Format and Check Format Compatibility ][Detect File Format and Check Format Compatibility] documentation article.
+
+ **Examples:** 
+
+Shows how to vertically align the text contents of a text box.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertShape(ShapeType.TEXT_BOX, 200.0, 200.0);
+
+ // Set the "VerticalAnchor" property to "TextBoxAnchor.Top" to
+ // align the text in this text box with the top side of the shape.
+ // Set the "VerticalAnchor" property to "TextBoxAnchor.Middle" to
+ // align the text in this text box to the center of the shape.
+ // Set the "VerticalAnchor" property to "TextBoxAnchor.Bottom" to
+ // align the text in this text box to the bottom of the shape.
+ shape.getTextBox().setVerticalAnchor(verticalAnchor);
+
+ builder.moveTo(shape.getFirstParagraph());
+ builder.write("Hello world!");
+
+ // The vertical aligning of text inside text boxes is available from Microsoft Word 2007 onwards.
+ doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2007);
+ doc.save(getArtifactsDir() + "Shape.VerticalAnchor.docx");
+ 
+```
+
+Shows how to set an OOXML compliance specification for a saved document to adhere to.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // If we configure compatibility options to comply with Microsoft Word 2003,
+ // inserting an image will define its shape using VML.
+ doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2003);
+ builder.insertImage(getImageDir() + "Transparent background logo.png");
+
+ Assert.assertEquals(ShapeMarkupLanguage.VML, ((Shape) doc.getChild(NodeType.SHAPE, 0, true)).getMarkupLanguage());
+
+ // The "ISO/IEC 29500:2008" OOXML standard does not support VML shapes.
+ // If we set the "Compliance" property of the SaveOptions object to "OoxmlCompliance.Iso29500_2008_Strict",
+ // any document we save while passing this object will have to follow that standard.
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+ saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_STRICT);
+ saveOptions.setSaveFormat(SaveFormat.DOCX);
+
+ doc.save(getArtifactsDir() + "OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
+
+ // Our saved document defines the shape using DML to adhere to the "ISO/IEC 29500:2008" OOXML standard.
+ doc = new Document(getArtifactsDir() + "OoxmlSaveOptions.Iso29500Strict.docx");
+
+ Assert.assertEquals(ShapeMarkupLanguage.DML, ((Shape) doc.getChild(NodeType.SHAPE, 0, true)).getMarkupLanguage());
+ 
+```
 
 
 [Detect File Format and Check Format Compatibility]: https://docs.aspose.com/words/java/detect-file-format-and-check-format-compatibility/
@@ -250,7 +308,11 @@ public boolean getAutofitToFirstFixedWidthCell()
 ```
 
 
-Allow Table Columns To Exceed Preferred Widths of Constituent Cells. The option is called "Use Word 2003 table autofit rules" in MS Word 2013 user interface. It actually affects how the grid is calculated for fixed layout tables, too (for some cases).
+Allow Table Columns To Exceed Preferred Widths of Constituent Cells.
+
+ **Remarks:** 
+
+The option is called "Use Word 2003 table autofit rules" in MS Word 2013 user interface. It actually affects how the grid is calculated for fixed layout tables, too (for some cases).
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -770,7 +832,11 @@ public boolean getUICompat97To2003()
 ```
 
 
-True to disable UI functionality which is not compatible with Word97-2003. Default value is  false . Controls the Word97-2003 compatibility setting that disables UI functionality which is not compatible with Word97-2003. When  true , 'w:uiCompat97To2003' XML element is written to '\\word\\settings.xml' document package part. Default value is  false . When set to  false , this element is not written. Technically this property is not part of compatibility options, but we have put it here for API convenience.
+True to disable UI functionality which is not compatible with Word97-2003. Default value is  false .
+
+ **Remarks:** 
+
+Controls the Word97-2003 compatibility setting that disables UI functionality which is not compatible with Word97-2003. When  true , 'w:uiCompat97To2003' XML element is written to '\\word\\settings.xml' document package part. Default value is  false . When set to  false , this element is not written. Technically this property is not part of compatibility options, but we have put it here for API convenience.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -840,7 +906,11 @@ public boolean getUsePrinterMetrics()
 ```
 
 
-Use Printer Metrics To Display Documents. Printer Metrics may differ depending on drivers used. For instance, Windows "Microsoft OpenXPS Class Driver 2" and "Microsoft Print to PDF" provide slightly different metrics. Therefore, the final document's layout may change if this option is enabled.
+Use Printer Metrics To Display Documents.
+
+ **Remarks:** 
+
+Printer Metrics may differ depending on drivers used. For instance, Windows "Microsoft OpenXPS Class Driver 2" and "Microsoft Print to PDF" provide slightly different metrics. Therefore, the final document's layout may change if this option is enabled.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -1024,7 +1094,11 @@ public void setAutofitToFirstFixedWidthCell(boolean value)
 ```
 
 
-Allow Table Columns To Exceed Preferred Widths of Constituent Cells. The option is called "Use Word 2003 table autofit rules" in MS Word 2013 user interface. It actually affects how the grid is calculated for fixed layout tables, too (for some cases).
+Allow Table Columns To Exceed Preferred Widths of Constituent Cells.
+
+ **Remarks:** 
+
+The option is called "Use Word 2003 table autofit rules" in MS Word 2013 user interface. It actually affects how the grid is calculated for fixed layout tables, too (for some cases).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1687,7 +1761,11 @@ public void setUICompat97To2003(boolean value)
 ```
 
 
-True to disable UI functionality which is not compatible with Word97-2003. Default value is  false . Controls the Word97-2003 compatibility setting that disables UI functionality which is not compatible with Word97-2003. When  true , 'w:uiCompat97To2003' XML element is written to '\\word\\settings.xml' document package part. Default value is  false . When set to  false , this element is not written. Technically this property is not part of compatibility options, but we have put it here for API convenience.
+True to disable UI functionality which is not compatible with Word97-2003. Default value is  false .
+
+ **Remarks:** 
+
+Controls the Word97-2003 compatibility setting that disables UI functionality which is not compatible with Word97-2003. When  true , 'w:uiCompat97To2003' XML element is written to '\\word\\settings.xml' document package part. Default value is  false . When set to  false , this element is not written. Technically this property is not part of compatibility options, but we have put it here for API convenience.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1778,7 +1856,11 @@ public void setUsePrinterMetrics(boolean value)
 ```
 
 
-Use Printer Metrics To Display Documents. Printer Metrics may differ depending on drivers used. For instance, Windows "Microsoft OpenXPS Class Driver 2" and "Microsoft Print to PDF" provide slightly different metrics. Therefore, the final document's layout may change if this option is enabled.
+Use Printer Metrics To Display Documents.
+
+ **Remarks:** 
+
+Printer Metrics may differ depending on drivers used. For instance, Windows "Microsoft OpenXPS Class Driver 2" and "Microsoft Print to PDF" provide slightly different metrics. Therefore, the final document's layout may change if this option is enabled.
 
 **Parameters:**
 | Parameter | Type | Description |

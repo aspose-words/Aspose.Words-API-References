@@ -4,7 +4,7 @@ linktitle: TextureAlignment
 second_title: Aspose.Words for Java API Reference
 description: Specifies the alignment for the tiling of the texture fill in Java.
 type: docs
-weight: 577
+weight: 580
 url: /java/com.aspose.words/texturealignment/
 ---
 
@@ -15,6 +15,29 @@ public class TextureAlignment
 ```
 
 Specifies the alignment for the tiling of the texture fill.
+
+ **Examples:** 
+
+Shows how to fill and tiling the texture inside the shape.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 80.0, 80.0);
+
+ // Apply texture alignment to the shape fill.
+ shape.getFill().presetTextured(PresetTexture.CANVAS);
+ shape.getFill().setTextureAlignment(TextureAlignment.TOP_RIGHT);
+
+ // Use the compliance option to define the shape using DML if you want to get "TextureAlignment"
+ // property after the document saves.
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(); { saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_STRICT); }
+
+ doc.save(getArtifactsDir() + "Shape.TextureFill.docx", saveOptions);
+ 
+```
 ## Fields
 
 | Field | Description |

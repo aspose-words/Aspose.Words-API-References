@@ -4,7 +4,7 @@ linktitle: ExportFontFormat
 second_title: Aspose.Words for Java API Reference
 description: Indicates the format that is used to export fonts while rendering to HTML fixed format in Java.
 type: docs
-weight: 149
+weight: 150
 url: /java/com.aspose.words/exportfontformat/
 ---
 
@@ -15,6 +15,35 @@ public class ExportFontFormat
 ```
 
 Indicates the format that is used to export fonts while rendering to HTML fixed format.
+
+ **Examples:** 
+
+Shows how use fonts only from the target machine when saving a document to HTML.
+
+```
+
+ Document doc = new Document(getMyDir() + "Bullet points with alternative font.docx");
+
+ HtmlFixedSaveOptions saveOptions = new HtmlFixedSaveOptions();
+ {
+     saveOptions.setExportEmbeddedCss(true);
+     saveOptions.setUseTargetMachineFonts(useTargetMachineFonts);
+     saveOptions.setFontFormat(ExportFontFormat.TTF);
+     saveOptions.setExportEmbeddedFonts(false);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlFixedSaveOptions.UsingMachineFonts.html", saveOptions);
+
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlFixedSaveOptions.UsingMachineFonts.html"), StandardCharsets.UTF_8);
+
+ if (useTargetMachineFonts)
+     Assert.assertFalse(Pattern.compile("@font-face").matcher(outDocContents).find());
+ else
+     Assert.assertTrue(Pattern.compile(
+         "@font-face [{] font-family:'Arial'; font-style:normal; font-weight:normal; src:local[(]'\u263a'[)], " +
+         "url[(]'HtmlFixedSaveOptions.UsingMachineFonts/font001.ttf'[)] format[(]'truetype'[)]; [}]").matcher(outDocContents).find());
+ 
+```
 ## Fields
 
 | Field | Description |

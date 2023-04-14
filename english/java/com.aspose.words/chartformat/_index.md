@@ -4,7 +4,7 @@ linktitle: ChartFormat
 second_title: Aspose.Words for Java API Reference
 description: Represents the formatting of a chart element in Java.
 type: docs
-weight: 62
+weight: 63
 url: /java/com.aspose.words/chartformat/
 ---
 
@@ -50,8 +50,8 @@ To learn more, visit the [ Working with Charts ][Working with Charts] documentat
 | [getJoinStyle()](#getJoinStyle) |  |
 | [getLineFillType()](#getLineFillType) |  |
 | [getLineStyle()](#getLineStyle) |  |
-| [getOn()](#getOn) |  |
-| [getOpacity()](#getOpacity) |  |
+| [getOldOn()](#getOldOn) |  |
+| [getOldOpacity()](#getOldOpacity) |  |
 | [getPatternType()](#getPatternType) |  |
 | [getPresetTexture()](#getPresetTexture) |  |
 | [getRotateWithObject()](#getRotateWithObject) |  |
@@ -89,8 +89,8 @@ To learn more, visit the [ Working with Charts ][Working with Charts] documentat
 | [setJoinStyle(int value)](#setJoinStyle-int) |  |
 | [setLineFillType(int value)](#setLineFillType-int) |  |
 | [setLineStyle(int value)](#setLineStyle-int) |  |
-| [setOn(boolean value)](#setOn-boolean) |  |
-| [setOpacity(double value)](#setOpacity-double) |  |
+| [setOldOn(boolean value)](#setOldOn-boolean) |  |
+| [setOldOpacity(double value)](#setOldOpacity-double) |  |
 | [setRotateWithObject(boolean value)](#setRotateWithObject-boolean) |  |
 | [setStartArrowLength(int value)](#setStartArrowLength-int) |  |
 | [setStartArrowType(int value)](#setStartArrowType-int) |  |
@@ -187,6 +187,43 @@ public Fill getFill()
 
 
 Gets fill formatting for the parent chart element.
+
+ **Examples:** 
+
+Show how to set marker formatting.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.SCATTER, 432.0, 252.0);
+ Chart chart = shape.getChart();
+
+ // Delete default generated series.
+ chart.getSeries().clear();
+ ChartSeries series = chart.getSeries().add("AW Series 1", new double[] { 0.7, 1.8, 2.6, 3.9 },
+         new double[] { 2.7, 3.2, 0.8, 1.7 });
+
+ // Set marker formatting.
+ series.getMarker().setSize(40);
+ series.getMarker().setSymbol(MarkerSymbol.SQUARE);
+ ChartDataPointCollection dataPoints = series.getDataPoints();
+ dataPoints.get(0).getMarker().getFormat().getFill().presetTextured(PresetTexture.DENIM);
+ dataPoints.get(0).getMarker().getFormat().getStroke().setForeColor(Color.YELLOW);
+ dataPoints.get(0).getMarker().getFormat().getStroke().setBackColor(Color.RED);
+ dataPoints.get(1).getMarker().getFormat().getFill().presetTextured(PresetTexture.WATER_DROPLETS);
+ dataPoints.get(1).getMarker().getFormat().getStroke().setForeColor(Color.YELLOW);
+ dataPoints.get(1).getMarker().getFormat().getStroke().setVisible(false);
+ dataPoints.get(2).getMarker().getFormat().getFill().presetTextured(PresetTexture.GREEN_MARBLE);
+ dataPoints.get(2).getMarker().getFormat().getStroke().setForeColor(Color.YELLOW);
+ dataPoints.get(3).getMarker().getFormat().getFill().presetTextured(PresetTexture.OAK);
+ dataPoints.get(3).getMarker().getFormat().getStroke().setForeColor(Color.YELLOW);
+ dataPoints.get(3).getMarker().getFormat().getStroke().setTransparency(0.5);
+
+ doc.save(getArtifactsDir() + "Charts.MarkerFormatting.docx");
+ 
+```
 
 **Returns:**
 [Fill](../../com.aspose.words/fill/) - Fill formatting for the parent chart element.
@@ -370,9 +407,9 @@ public int getLineStyle()
 
 **Returns:**
 int
-### getOn() {#getOn}
+### getOldOn() {#getOldOn}
 ```
-public boolean getOn()
+public boolean getOldOn()
 ```
 
 
@@ -380,9 +417,9 @@ public boolean getOn()
 
 **Returns:**
 boolean
-### getOpacity() {#getOpacity}
+### getOldOpacity() {#getOldOpacity}
 ```
-public double getOpacity()
+public double getOldOpacity()
 ```
 
 
@@ -457,6 +494,43 @@ public Stroke getStroke()
 
 
 Gets line formatting for the parent chart element.
+
+ **Examples:** 
+
+Show how to set marker formatting.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.SCATTER, 432.0, 252.0);
+ Chart chart = shape.getChart();
+
+ // Delete default generated series.
+ chart.getSeries().clear();
+ ChartSeries series = chart.getSeries().add("AW Series 1", new double[] { 0.7, 1.8, 2.6, 3.9 },
+         new double[] { 2.7, 3.2, 0.8, 1.7 });
+
+ // Set marker formatting.
+ series.getMarker().setSize(40);
+ series.getMarker().setSymbol(MarkerSymbol.SQUARE);
+ ChartDataPointCollection dataPoints = series.getDataPoints();
+ dataPoints.get(0).getMarker().getFormat().getFill().presetTextured(PresetTexture.DENIM);
+ dataPoints.get(0).getMarker().getFormat().getStroke().setForeColor(Color.YELLOW);
+ dataPoints.get(0).getMarker().getFormat().getStroke().setBackColor(Color.RED);
+ dataPoints.get(1).getMarker().getFormat().getFill().presetTextured(PresetTexture.WATER_DROPLETS);
+ dataPoints.get(1).getMarker().getFormat().getStroke().setForeColor(Color.YELLOW);
+ dataPoints.get(1).getMarker().getFormat().getStroke().setVisible(false);
+ dataPoints.get(2).getMarker().getFormat().getFill().presetTextured(PresetTexture.GREEN_MARBLE);
+ dataPoints.get(2).getMarker().getFormat().getStroke().setForeColor(Color.YELLOW);
+ dataPoints.get(3).getMarker().getFormat().getFill().presetTextured(PresetTexture.OAK);
+ dataPoints.get(3).getMarker().getFormat().getStroke().setForeColor(Color.YELLOW);
+ dataPoints.get(3).getMarker().getFormat().getStroke().setTransparency(0.5);
+
+ doc.save(getArtifactsDir() + "Charts.MarkerFormatting.docx");
+ 
+```
 
 **Returns:**
 [Stroke](../../com.aspose.words/stroke/) - Line formatting for the parent chart element.
@@ -824,9 +898,9 @@ public void setLineStyle(int value)
 | --- | --- | --- |
 | value | int |  |
 
-### setOn(boolean value) {#setOn-boolean}
+### setOldOn(boolean value) {#setOldOn-boolean}
 ```
-public void setOn(boolean value)
+public void setOldOn(boolean value)
 ```
 
 
@@ -837,9 +911,9 @@ public void setOn(boolean value)
 | --- | --- | --- |
 | value | boolean |  |
 
-### setOpacity(double value) {#setOpacity-double}
+### setOldOpacity(double value) {#setOldOpacity-double}
 ```
-public void setOpacity(double value)
+public void setOldOpacity(double value)
 ```
 
 

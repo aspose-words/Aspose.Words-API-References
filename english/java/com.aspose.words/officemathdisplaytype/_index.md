@@ -4,7 +4,7 @@ linktitle: OfficeMathDisplayType
 second_title: Aspose.Words for Java API Reference
 description: Specifies the display format type of the equation in Java.
 type: docs
-weight: 427
+weight: 428
 url: /java/com.aspose.words/officemathdisplaytype/
 ---
 
@@ -15,6 +15,30 @@ public class OfficeMathDisplayType
 ```
 
 Specifies the display format type of the equation.
+
+ **Examples:** 
+
+Shows how to set office math display formatting.
+
+```
+
+ Document doc = new Document(getMyDir() + "Office math.docx");
+
+ OfficeMath officeMath = (OfficeMath) doc.getChild(NodeType.OFFICE_MATH, 0, true);
+
+ // OfficeMath nodes that are children of other OfficeMath nodes are always inline.
+ // The node we are working with is the base node to change its location and display type.
+ Assert.assertEquals(MathObjectType.O_MATH_PARA, officeMath.getMathObjectType());
+ Assert.assertEquals(NodeType.OFFICE_MATH, officeMath.getNodeType());
+ Assert.assertEquals(officeMath.getParentNode(), officeMath.getParentParagraph());
+
+ // Change the location and display type of the OfficeMath node.
+ officeMath.setDisplayType(OfficeMathDisplayType.DISPLAY);
+ officeMath.setJustification(OfficeMathJustification.LEFT);
+
+ doc.save(getArtifactsDir() + "Shape.OfficeMath.docx");
+ 
+```
 ## Fields
 
 | Field | Description |

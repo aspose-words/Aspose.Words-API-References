@@ -4,7 +4,7 @@ linktitle: FieldType
 second_title: Aspose.Words for Java API Reference
 description: Specifies Microsoft Word field types in Java.
 type: docs
-weight: 257
+weight: 258
 url: /java/com.aspose.words/fieldtype/
 ---
 
@@ -15,6 +15,50 @@ public class FieldType
 ```
 
 Specifies Microsoft Word field types.
+
+ **Examples:** 
+
+Shows how to insert a field into a document using a field code.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Field dateField = builder.insertField("DATE \\* MERGEFORMAT");
+
+ Assert.assertEquals(FieldType.FIELD_DATE, dateField.getType());
+ Assert.assertEquals("DATE \\* MERGEFORMAT", dateField.getFieldCode());
+ 
+```
+
+Shows how to work with a FieldStart node.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ FieldDate field = (FieldDate) builder.insertField(FieldType.FIELD_DATE, true);
+ field.getFormat().setDateTimeFormat("dddd, MMMM dd, yyyy");
+ field.update();
+
+ FieldChar fieldStart = field.getStart();
+
+ Assert.assertEquals(FieldType.FIELD_DATE, fieldStart.getFieldType());
+ Assert.assertEquals(false, fieldStart.isDirty());
+ Assert.assertEquals(false, fieldStart.isLocked());
+
+ // Retrieve the facade object which represents the field in the document.
+ field = (FieldDate) fieldStart.getField();
+
+ Assert.assertEquals(false, field.isLocked());
+ Assert.assertEquals(" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field.getFieldCode());
+
+ // Update the field to show the current date.
+ field.update();
+ 
+```
 ## Fields
 
 | Field | Description |

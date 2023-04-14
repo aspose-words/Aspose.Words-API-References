@@ -4,7 +4,7 @@ linktitle: FontFeature
 second_title: Aspose.Words for Java API Reference
 description: Features provide information about how glyphs are used in a font to render a script in Java.
 type: docs
-weight: 281
+weight: 282
 url: /java/com.aspose.words/fontfeature/
 ---
 

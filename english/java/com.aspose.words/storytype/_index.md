@@ -4,7 +4,7 @@ linktitle: StoryType
 second_title: Aspose.Words for Java API Reference
 description: Text of a Word document is stored in stories in Java.
 type: docs
-weight: 535
+weight: 538
 url: /java/com.aspose.words/storytype/
 ---
 
@@ -15,6 +15,29 @@ public class StoryType
 ```
 
 Text of a Word document is stored in stories. [StoryType](../../com.aspose.words/storytype/) identifies a story.
+
+ **Examples:** 
+
+Shows how to remove all shapes from a node.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Use a DocumentBuilder to insert a shape. This is an inline shape,
+ // which has a parent Paragraph, which is a child node of the first section's Body.
+ builder.insertShape(ShapeType.CUBE, 100.0, 100.0);
+
+ Assert.assertEquals(doc.getChildNodes(NodeType.SHAPE, true).getCount(), 1);
+
+ // We can delete all shapes from the child paragraphs of this Body.
+ Assert.assertEquals(doc.getFirstSection().getBody().getStoryType(), StoryType.MAIN_TEXT);
+ doc.getFirstSection().getBody().deleteShapes();
+
+ Assert.assertEquals(doc.getChildNodes(NodeType.SHAPE, true).getCount(), 0);
+ 
+```
 ## Fields
 
 | Field | Description |

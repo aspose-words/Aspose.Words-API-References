@@ -4,7 +4,7 @@ linktitle: FieldUpdateCultureSource
 second_title: Aspose.Words for Java API Reference
 description: Indicates what culture to use during field update in Java.
 type: docs
-weight: 259
+weight: 260
 url: /java/com.aspose.words/fieldupdateculturesource/
 ---
 
@@ -53,7 +53,11 @@ public static int FIELD_CODE
 ```
 
 
-The culture specified in the field formatting properties via language setting is used. To be exact, Aspose.Words mimics MS Word by using the language set for the first character of the field code.
+The culture specified in the field formatting properties via language setting is used.
+
+ **Remarks:** 
+
+To be exact, Aspose.Words mimics MS Word by using the language set for the first character of the field code.
 
 ### length {#length}
 ```

@@ -4,7 +4,7 @@ linktitle: VbaModuleType
 second_title: Aspose.Words for Java API Reference
 description: Specifies the type of a model in a VBA project in Java.
 type: docs
-weight: 601
+weight: 604
 url: /java/com.aspose.words/vbamoduletype/
 ---
 
@@ -15,6 +15,32 @@ public class VbaModuleType
 ```
 
 Specifies the type of a model in a VBA project.
+
+ **Examples:** 
+
+Shows how to create a VBA project using macros.
+
+```
+
+ Document doc = new Document();
+
+ // Create a new VBA project.
+ VbaProject project = new VbaProject();
+ project.setName("Aspose.Project");
+ doc.setVbaProject(project);
+
+ // Create a new module and specify a macro source code.
+ VbaModule module = new VbaModule();
+ module.setName("Aspose.Module");
+ module.setType(VbaModuleType.PROCEDURAL_MODULE);
+ module.setSourceCode("New source code");
+
+ // Add the module to the VBA project.
+ doc.getVbaProject().getModules().add(module);
+
+ doc.save(getArtifactsDir() + "VbaProject.CreateVBAMacros.docm");
+ 
+```
 ## Fields
 
 | Field | Description |

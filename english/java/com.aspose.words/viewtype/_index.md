@@ -4,7 +4,7 @@ linktitle: ViewType
 second_title: Aspose.Words for Java API Reference
 description: Possible values for the view mode in Microsoft Word in Java.
 type: docs
-weight: 608
+weight: 611
 url: /java/com.aspose.words/viewtype/
 ---
 
@@ -15,6 +15,26 @@ public class ViewType
 ```
 
 Possible values for the view mode in Microsoft Word.
+
+ **Examples:** 
+
+Shows how to set a custom zoom factor, which older versions of Microsoft Word will apply to a document upon loading.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Hello world!");
+
+ doc.getViewOptions().setViewType(ViewType.PAGE_LAYOUT);
+ doc.getViewOptions().setZoomPercent(50);
+
+ Assert.assertEquals(ZoomType.CUSTOM, doc.getViewOptions().getZoomType());
+ Assert.assertEquals(ZoomType.NONE, doc.getViewOptions().getZoomType());
+
+ doc.save(getArtifactsDir() + "ViewOptions.SetZoomPercentage.doc");
+ 
+```
 ## Fields
 
 | Field | Description |

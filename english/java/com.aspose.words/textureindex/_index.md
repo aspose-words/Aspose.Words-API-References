@@ -4,7 +4,7 @@ linktitle: TextureIndex
 second_title: Aspose.Words for Java API Reference
 description: Specifies shading texture in Java.
 type: docs
-weight: 578
+weight: 581
 url: /java/com.aspose.words/textureindex/
 ---
 
@@ -15,6 +15,59 @@ public class TextureIndex
 ```
 
 Specifies shading texture.
+
+ **Examples:** 
+
+Shows how to apply an outline border to a table.
+
+```
+
+ Document doc = new Document(getMyDir() + "Tables.docx");
+ Table table = doc.getFirstSection().getBody().getTables().get(0);
+
+ // Align the table to the center of the page.
+ table.setAlignment(TableAlignment.CENTER);
+
+ // Clear any existing borders and shading from the table.
+ table.clearBorders();
+ table.clearShading();
+
+ // Add green borders to the outline of the table.
+ table.setBorder(BorderType.LEFT, LineStyle.SINGLE, 1.5, Color.GREEN, true);
+ table.setBorder(BorderType.RIGHT, LineStyle.SINGLE, 1.5, Color.GREEN, true);
+ table.setBorder(BorderType.TOP, LineStyle.SINGLE, 1.5, Color.GREEN, true);
+ table.setBorder(BorderType.BOTTOM, LineStyle.SINGLE, 1.5, Color.GREEN, true);
+
+ // Fill the cells with a light green solid color.
+ table.setShading(TextureIndex.TEXTURE_SOLID, Color.GREEN, Color.GREEN);
+
+ doc.save(getArtifactsDir() + "Table.SetOutlineBorders.docx");
+ 
+```
+
+Shows how to decorate text with borders and shading.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ BorderCollection borders = builder.getParagraphFormat().getBorders();
+ borders.setDistanceFromText(20.0);
+ borders.getByBorderType(BorderType.LEFT).setLineStyle(LineStyle.DOUBLE);
+ borders.getByBorderType(BorderType.RIGHT).setLineStyle(LineStyle.DOUBLE);
+ borders.getByBorderType(BorderType.TOP).setLineStyle(LineStyle.DOUBLE);
+ borders.getByBorderType(BorderType.BOTTOM).setLineStyle(LineStyle.DOUBLE);
+
+ Shading shading = builder.getParagraphFormat().getShading();
+ shading.setTexture(TextureIndex.TEXTURE_DIAGONAL_CROSS);
+ shading.setBackgroundPatternColor(new Color(240, 128, 128));  // Light Coral
+ shading.setForegroundPatternColor(new Color(255, 160, 122));  // Light Salmon
+
+ builder.write("This paragraph is formatted with a double border and shading.");
+ doc.save(getArtifactsDir() + "DocumentBuilder.ApplyBordersAndShading.docx");
+ 
+```
 ## Fields
 
 | Field | Description |

@@ -4,7 +4,7 @@ linktitle: ShadowType
 second_title: Aspose.Words for Java API Reference
 description: Specifies the type of a shape shadow in Java.
 type: docs
-weight: 521
+weight: 524
 url: /java/com.aspose.words/shadowtype/
 ---
 
@@ -14,7 +14,28 @@ java.lang.Object
 public class ShadowType
 ```
 
-Specifies the type of a shape shadow. ShadowType is not a simple attribute, but a preset that sets at once several attributes which form the shadow appearance.
+Specifies the type of a shape shadow.
+
+ **Remarks:** 
+
+ShadowType is not a simple attribute, but a preset that sets at once several attributes which form the shadow appearance.
+
+ **Examples:** 
+
+Shows how to work with a shadow formatting for the shape.
+
+```
+
+ Document doc = new Document(getMyDir() + "Shape stroke pattern border.docx");
+ Shape shape = (Shape)doc.getChildNodes(NodeType.SHAPE, true).get(0);
+
+ if (shape.getShadowFormat().getVisible() && shape.getShadowFormat().getType() == ShadowType.SHADOW_2)
+     shape.getShadowFormat().setType(ShadowType.SHADOW_7);
+
+ if (shape.getShadowFormat().getType() == ShadowType.SHADOW_MIXED)
+     shape.getShadowFormat().clear();
+ 
+```
 ## Fields
 
 | Field | Description |

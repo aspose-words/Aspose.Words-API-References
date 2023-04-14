@@ -4,7 +4,7 @@ linktitle: EmfPlusDualRenderingMode
 second_title: Aspose.Words for Java API Reference
 description: Specifies how Aspose.Words should render EMF Dual metafiles in Java.
 type: docs
-weight: 144
+weight: 145
 url: /java/com.aspose.words/emfplusdualrenderingmode/
 ---
 

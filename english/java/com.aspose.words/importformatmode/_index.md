@@ -4,7 +4,7 @@ linktitle: ImportFormatMode
 second_title: Aspose.Words for Java API Reference
 description: Specifies how formatting is merged when importing content from another document in Java.
 type: docs
-weight: 348
+weight: 349
 url: /java/com.aspose.words/importformatmode/
 ---
 
@@ -15,6 +15,8 @@ public class ImportFormatMode
 ```
 
 Specifies how formatting is merged when importing content from another document.
+
+ **Remarks:** 
 
 When you copy nodes from one document to another, this option specifies how formatting is resolved when both documents have a style with the same name, but different formatting.
 
@@ -33,6 +35,25 @@ The drawback of using [USE\_DESTINATION\_STYLES](../../com.aspose.words/importfo
 The drawback of using [KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode/\#KEEP-SOURCE-FORMATTING) is that if you perform several imports, you could end up with many styles in the destination document and that could make using consistent style formatting in Microsoft Word difficult for this document.
 
 Using [KEEP\_DIFFERENT\_STYLES](../../com.aspose.words/importformatmode/\#KEEP-DIFFERENT-STYLES) option allows to reuse destination styles if the formatting they provide is identical to the styles in the source document. If the style in destination document is different from the source then it is imported.
+
+ **Examples:** 
+
+Shows how to insert a document into another document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.moveToDocumentEnd();
+ builder.insertBreak(BreakType.PAGE_BREAK);
+
+ Document docToInsert = new Document(getMyDir() + "Formatted elements.docx");
+
+ builder.insertDocument(docToInsert, ImportFormatMode.KEEP_SOURCE_FORMATTING);
+ builder.getDocument().save(getArtifactsDir() + "DocumentBuilder.InsertDocument.docx");
+ 
+```
 
 **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**
 ## Fields

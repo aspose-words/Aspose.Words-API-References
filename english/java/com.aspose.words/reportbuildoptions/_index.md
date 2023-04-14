@@ -2,9 +2,9 @@
 title: ReportBuildOptions
 linktitle: ReportBuildOptions
 second_title: Aspose.Words for Java API Reference
-description: Specifies options controlling behavior of  while building a report in Java.
+description: Specifies options controlling behavior of ReportingEngine while building a report in Java.
 type: docs
-weight: 483
+weight: 486
 url: /java/com.aspose.words/reportbuildoptions/
 ---
 
@@ -93,6 +93,8 @@ public static int USE_LEGACY_HEADER_FOOTER_VISITING
 
 
 Specifies that the engine should visit section child nodes (headers, footers, bodies) in an order compatible with Aspose.Words versions prior 21.9.
+
+ **Remarks:** 
 
 By default, the engine treats headers and footers as if they were linked to section breaks. That is, when visiting section child nodes, a body is visited first and only then, headers and footers are visited. This agrees with Microsoft Word behavior when copy-pasting or removing multi-section contents and produces more correct results in most scenarios.
 

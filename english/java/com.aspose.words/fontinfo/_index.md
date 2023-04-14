@@ -4,7 +4,7 @@ linktitle: FontInfo
 second_title: Aspose.Words for Java API Reference
 description: Specifies information about a font used in the document in Java.
 type: docs
-weight: 282
+weight: 283
 url: /java/com.aspose.words/fontinfo/
 ---
 
@@ -21,7 +21,26 @@ Specifies information about a font used in the document.
 
 To learn more, visit the [ Working with Fonts ][Working with Fonts] documentation article.
 
+ **Remarks:** 
+
 You do not create instances of this class directly. Use the [DocumentBase.getFontInfos()](../../com.aspose.words/documentbase/\#getFontInfos) property to access the collection of fonts defined in a document.
+
+ **Examples:** 
+
+Shows how to print the details of what fonts are present in a document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Embedded font.docx");
+
+ FontInfoCollection allFonts = doc.getFontInfos();
+ // Print all the used and unused fonts in the document.
+ for (int i = 0; i < allFonts.getCount(); i++) {
+     System.out.println("Font index #{i}");
+     System.out.println("\tName: {allFonts[i].Name}");
+ }
+ 
+```
 
 
 [Working with Fonts]: https://docs.aspose.com/words/java/working-with-fonts/
@@ -76,7 +95,45 @@ public String getAltName()
 
 Gets the alternate name for the font.
 
+ **Remarks:** 
+
 Cannot be  null . Can be an empty string.
+
+ **Examples:** 
+
+Shows how to access and print details of each font in a document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ Iterator fontCollectionEnumerator = doc.getFontInfos().iterator();
+ while (fontCollectionEnumerator.hasNext()) {
+     FontInfo fontInfo = fontCollectionEnumerator.next();
+     if (fontInfo != null) {
+         System.out.println("Font name: " + fontInfo.getName());
+
+         // Alt names are usually blank.
+         System.out.println("Alt name: " + fontInfo.getAltName());
+         System.out.println("\t- Family: " + fontInfo.getFamily());
+         System.out.println("\t- " + (fontInfo.isTrueType() ? "Is TrueType" : "Is not TrueType"));
+         System.out.println("\t- Pitch: " + fontInfo.getPitch());
+         System.out.println("\t- Charset: " + fontInfo.getCharset());
+         System.out.println("\t- Panose:");
+         System.out.println("\t\tFamily Kind: " + (fontInfo.getPanose()[0] & 0xFF));
+         System.out.println("\t\tSerif Style: " + (fontInfo.getPanose()[1] & 0xFF));
+         System.out.println("\t\tWeight: " + (fontInfo.getPanose()[2] & 0xFF));
+         System.out.println("\t\tProportion: " + (fontInfo.getPanose()[3] & 0xFF));
+         System.out.println("\t\tContrast: " + (fontInfo.getPanose()[4] & 0xFF));
+         System.out.println("\t\tStroke Variation: " + (fontInfo.getPanose()[5] & 0xFF));
+         System.out.println("\t\tArm Style: " + (fontInfo.getPanose()[6] & 0xFF));
+         System.out.println("\t\tLetterform: " + (fontInfo.getPanose()[7] & 0xFF));
+         System.out.println("\t\tMidline: " + (fontInfo.getPanose()[8] & 0xFF));
+         System.out.println("\t\tX-Height: " + (fontInfo.getPanose()[9] & 0xFF));
+     }
+ }
+ 
+```
 
 **Returns:**
 java.lang.String - The alternate name for the font.
@@ -87,6 +144,42 @@ public int getCharset()
 
 
 Gets the character set for the font.
+
+ **Examples:** 
+
+Shows how to access and print details of each font in a document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ Iterator fontCollectionEnumerator = doc.getFontInfos().iterator();
+ while (fontCollectionEnumerator.hasNext()) {
+     FontInfo fontInfo = fontCollectionEnumerator.next();
+     if (fontInfo != null) {
+         System.out.println("Font name: " + fontInfo.getName());
+
+         // Alt names are usually blank.
+         System.out.println("Alt name: " + fontInfo.getAltName());
+         System.out.println("\t- Family: " + fontInfo.getFamily());
+         System.out.println("\t- " + (fontInfo.isTrueType() ? "Is TrueType" : "Is not TrueType"));
+         System.out.println("\t- Pitch: " + fontInfo.getPitch());
+         System.out.println("\t- Charset: " + fontInfo.getCharset());
+         System.out.println("\t- Panose:");
+         System.out.println("\t\tFamily Kind: " + (fontInfo.getPanose()[0] & 0xFF));
+         System.out.println("\t\tSerif Style: " + (fontInfo.getPanose()[1] & 0xFF));
+         System.out.println("\t\tWeight: " + (fontInfo.getPanose()[2] & 0xFF));
+         System.out.println("\t\tProportion: " + (fontInfo.getPanose()[3] & 0xFF));
+         System.out.println("\t\tContrast: " + (fontInfo.getPanose()[4] & 0xFF));
+         System.out.println("\t\tStroke Variation: " + (fontInfo.getPanose()[5] & 0xFF));
+         System.out.println("\t\tArm Style: " + (fontInfo.getPanose()[6] & 0xFF));
+         System.out.println("\t\tLetterform: " + (fontInfo.getPanose()[7] & 0xFF));
+         System.out.println("\t\tMidline: " + (fontInfo.getPanose()[8] & 0xFF));
+         System.out.println("\t\tX-Height: " + (fontInfo.getPanose()[9] & 0xFF));
+     }
+ }
+ 
+```
 
 **Returns:**
 int - The character set for the font.
@@ -139,6 +232,42 @@ public int getFamily()
 
 Gets the font family this font belongs to.
 
+ **Examples:** 
+
+Shows how to access and print details of each font in a document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ Iterator fontCollectionEnumerator = doc.getFontInfos().iterator();
+ while (fontCollectionEnumerator.hasNext()) {
+     FontInfo fontInfo = fontCollectionEnumerator.next();
+     if (fontInfo != null) {
+         System.out.println("Font name: " + fontInfo.getName());
+
+         // Alt names are usually blank.
+         System.out.println("Alt name: " + fontInfo.getAltName());
+         System.out.println("\t- Family: " + fontInfo.getFamily());
+         System.out.println("\t- " + (fontInfo.isTrueType() ? "Is TrueType" : "Is not TrueType"));
+         System.out.println("\t- Pitch: " + fontInfo.getPitch());
+         System.out.println("\t- Charset: " + fontInfo.getCharset());
+         System.out.println("\t- Panose:");
+         System.out.println("\t\tFamily Kind: " + (fontInfo.getPanose()[0] & 0xFF));
+         System.out.println("\t\tSerif Style: " + (fontInfo.getPanose()[1] & 0xFF));
+         System.out.println("\t\tWeight: " + (fontInfo.getPanose()[2] & 0xFF));
+         System.out.println("\t\tProportion: " + (fontInfo.getPanose()[3] & 0xFF));
+         System.out.println("\t\tContrast: " + (fontInfo.getPanose()[4] & 0xFF));
+         System.out.println("\t\tStroke Variation: " + (fontInfo.getPanose()[5] & 0xFF));
+         System.out.println("\t\tArm Style: " + (fontInfo.getPanose()[6] & 0xFF));
+         System.out.println("\t\tLetterform: " + (fontInfo.getPanose()[7] & 0xFF));
+         System.out.println("\t\tMidline: " + (fontInfo.getPanose()[8] & 0xFF));
+         System.out.println("\t\tX-Height: " + (fontInfo.getPanose()[9] & 0xFF));
+     }
+ }
+ 
+```
+
 **Returns:**
 int - The font family this font belongs to. The returned value is one of [FontFamily](../../com.aspose.words/fontfamily/) constants.
 ### getName() {#getName}
@@ -149,7 +278,26 @@ public String getName()
 
 Gets the name of the font.
 
+ **Remarks:** 
+
 Cannot be  null . Can be an empty string.
+
+ **Examples:** 
+
+Shows how to print the details of what fonts are present in a document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Embedded font.docx");
+
+ FontInfoCollection allFonts = doc.getFontInfos();
+ // Print all the used and unused fonts in the document.
+ for (int i = 0; i < allFonts.getCount(); i++) {
+     System.out.println("Font index #{i}");
+     System.out.println("\tName: {allFonts[i].Name}");
+ }
+ 
+```
 
 **Returns:**
 java.lang.String - The name of the font.
@@ -161,9 +309,47 @@ public byte[] getPanose()
 
 Gets the PANOSE typeface classification number.
 
+ **Remarks:** 
+
 PANOSE is a compact 10-byte description of a fonts critical visual characteristics, such as contrast, weight, and serif style. The digits represent Family Kind, Serif Style, Weight, Proportion, Contrast, Stroke Variation, Arm Style, Letterform, Midline, and X-Height.
 
 Can be  null .
+
+ **Examples:** 
+
+Shows how to access and print details of each font in a document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ Iterator fontCollectionEnumerator = doc.getFontInfos().iterator();
+ while (fontCollectionEnumerator.hasNext()) {
+     FontInfo fontInfo = fontCollectionEnumerator.next();
+     if (fontInfo != null) {
+         System.out.println("Font name: " + fontInfo.getName());
+
+         // Alt names are usually blank.
+         System.out.println("Alt name: " + fontInfo.getAltName());
+         System.out.println("\t- Family: " + fontInfo.getFamily());
+         System.out.println("\t- " + (fontInfo.isTrueType() ? "Is TrueType" : "Is not TrueType"));
+         System.out.println("\t- Pitch: " + fontInfo.getPitch());
+         System.out.println("\t- Charset: " + fontInfo.getCharset());
+         System.out.println("\t- Panose:");
+         System.out.println("\t\tFamily Kind: " + (fontInfo.getPanose()[0] & 0xFF));
+         System.out.println("\t\tSerif Style: " + (fontInfo.getPanose()[1] & 0xFF));
+         System.out.println("\t\tWeight: " + (fontInfo.getPanose()[2] & 0xFF));
+         System.out.println("\t\tProportion: " + (fontInfo.getPanose()[3] & 0xFF));
+         System.out.println("\t\tContrast: " + (fontInfo.getPanose()[4] & 0xFF));
+         System.out.println("\t\tStroke Variation: " + (fontInfo.getPanose()[5] & 0xFF));
+         System.out.println("\t\tArm Style: " + (fontInfo.getPanose()[6] & 0xFF));
+         System.out.println("\t\tLetterform: " + (fontInfo.getPanose()[7] & 0xFF));
+         System.out.println("\t\tMidline: " + (fontInfo.getPanose()[8] & 0xFF));
+         System.out.println("\t\tX-Height: " + (fontInfo.getPanose()[9] & 0xFF));
+     }
+ }
+ 
+```
 
 **Returns:**
 byte[] - The PANOSE typeface classification number.
@@ -174,6 +360,42 @@ public int getPitch()
 
 
 The pitch indicates if the font is fixed pitch, proportionally spaced, or relies on a default setting.
+
+ **Examples:** 
+
+Shows how to access and print details of each font in a document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ Iterator fontCollectionEnumerator = doc.getFontInfos().iterator();
+ while (fontCollectionEnumerator.hasNext()) {
+     FontInfo fontInfo = fontCollectionEnumerator.next();
+     if (fontInfo != null) {
+         System.out.println("Font name: " + fontInfo.getName());
+
+         // Alt names are usually blank.
+         System.out.println("Alt name: " + fontInfo.getAltName());
+         System.out.println("\t- Family: " + fontInfo.getFamily());
+         System.out.println("\t- " + (fontInfo.isTrueType() ? "Is TrueType" : "Is not TrueType"));
+         System.out.println("\t- Pitch: " + fontInfo.getPitch());
+         System.out.println("\t- Charset: " + fontInfo.getCharset());
+         System.out.println("\t- Panose:");
+         System.out.println("\t\tFamily Kind: " + (fontInfo.getPanose()[0] & 0xFF));
+         System.out.println("\t\tSerif Style: " + (fontInfo.getPanose()[1] & 0xFF));
+         System.out.println("\t\tWeight: " + (fontInfo.getPanose()[2] & 0xFF));
+         System.out.println("\t\tProportion: " + (fontInfo.getPanose()[3] & 0xFF));
+         System.out.println("\t\tContrast: " + (fontInfo.getPanose()[4] & 0xFF));
+         System.out.println("\t\tStroke Variation: " + (fontInfo.getPanose()[5] & 0xFF));
+         System.out.println("\t\tArm Style: " + (fontInfo.getPanose()[6] & 0xFF));
+         System.out.println("\t\tLetterform: " + (fontInfo.getPanose()[7] & 0xFF));
+         System.out.println("\t\tMidline: " + (fontInfo.getPanose()[8] & 0xFF));
+         System.out.println("\t\tX-Height: " + (fontInfo.getPanose()[9] & 0xFF));
+     }
+ }
+ 
+```
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [FontPitch](../../com.aspose.words/fontpitch/) constants.
@@ -195,6 +417,23 @@ public boolean isTrueType()
 
 Indicates that this font is a TrueType or OpenType font as opposed to a raster or vector font. Default is  true .
 
+ **Examples:** 
+
+Shows how to print the details of what fonts are present in a document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Embedded font.docx");
+
+ FontInfoCollection allFonts = doc.getFontInfos();
+ // Print all the used and unused fonts in the document.
+ for (int i = 0; i < allFonts.getCount(); i++) {
+     System.out.println("Font index #{i}");
+     System.out.println("\tName: {allFonts[i].Name}");
+ }
+ 
+```
+
 **Returns:**
 boolean - The corresponding  boolean  value.
 ### isTrueType(boolean value) {#isTrueType-boolean}
@@ -204,6 +443,23 @@ public void isTrueType(boolean value)
 
 
 Indicates that this font is a TrueType or OpenType font as opposed to a raster or vector font. Default is  true .
+
+ **Examples:** 
+
+Shows how to print the details of what fonts are present in a document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Embedded font.docx");
+
+ FontInfoCollection allFonts = doc.getFontInfos();
+ // Print all the used and unused fonts in the document.
+ for (int i = 0; i < allFonts.getCount(); i++) {
+     System.out.println("Font index #{i}");
+     System.out.println("\tName: {allFonts[i].Name}");
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -234,7 +490,45 @@ public void setAltName(String value)
 
 Sets the alternate name for the font.
 
+ **Remarks:** 
+
 Cannot be  null . Can be an empty string.
+
+ **Examples:** 
+
+Shows how to access and print details of each font in a document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ Iterator fontCollectionEnumerator = doc.getFontInfos().iterator();
+ while (fontCollectionEnumerator.hasNext()) {
+     FontInfo fontInfo = fontCollectionEnumerator.next();
+     if (fontInfo != null) {
+         System.out.println("Font name: " + fontInfo.getName());
+
+         // Alt names are usually blank.
+         System.out.println("Alt name: " + fontInfo.getAltName());
+         System.out.println("\t- Family: " + fontInfo.getFamily());
+         System.out.println("\t- " + (fontInfo.isTrueType() ? "Is TrueType" : "Is not TrueType"));
+         System.out.println("\t- Pitch: " + fontInfo.getPitch());
+         System.out.println("\t- Charset: " + fontInfo.getCharset());
+         System.out.println("\t- Panose:");
+         System.out.println("\t\tFamily Kind: " + (fontInfo.getPanose()[0] & 0xFF));
+         System.out.println("\t\tSerif Style: " + (fontInfo.getPanose()[1] & 0xFF));
+         System.out.println("\t\tWeight: " + (fontInfo.getPanose()[2] & 0xFF));
+         System.out.println("\t\tProportion: " + (fontInfo.getPanose()[3] & 0xFF));
+         System.out.println("\t\tContrast: " + (fontInfo.getPanose()[4] & 0xFF));
+         System.out.println("\t\tStroke Variation: " + (fontInfo.getPanose()[5] & 0xFF));
+         System.out.println("\t\tArm Style: " + (fontInfo.getPanose()[6] & 0xFF));
+         System.out.println("\t\tLetterform: " + (fontInfo.getPanose()[7] & 0xFF));
+         System.out.println("\t\tMidline: " + (fontInfo.getPanose()[8] & 0xFF));
+         System.out.println("\t\tX-Height: " + (fontInfo.getPanose()[9] & 0xFF));
+     }
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -249,6 +543,42 @@ public void setCharset(int value)
 
 Sets the character set for the font.
 
+ **Examples:** 
+
+Shows how to access and print details of each font in a document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ Iterator fontCollectionEnumerator = doc.getFontInfos().iterator();
+ while (fontCollectionEnumerator.hasNext()) {
+     FontInfo fontInfo = fontCollectionEnumerator.next();
+     if (fontInfo != null) {
+         System.out.println("Font name: " + fontInfo.getName());
+
+         // Alt names are usually blank.
+         System.out.println("Alt name: " + fontInfo.getAltName());
+         System.out.println("\t- Family: " + fontInfo.getFamily());
+         System.out.println("\t- " + (fontInfo.isTrueType() ? "Is TrueType" : "Is not TrueType"));
+         System.out.println("\t- Pitch: " + fontInfo.getPitch());
+         System.out.println("\t- Charset: " + fontInfo.getCharset());
+         System.out.println("\t- Panose:");
+         System.out.println("\t\tFamily Kind: " + (fontInfo.getPanose()[0] & 0xFF));
+         System.out.println("\t\tSerif Style: " + (fontInfo.getPanose()[1] & 0xFF));
+         System.out.println("\t\tWeight: " + (fontInfo.getPanose()[2] & 0xFF));
+         System.out.println("\t\tProportion: " + (fontInfo.getPanose()[3] & 0xFF));
+         System.out.println("\t\tContrast: " + (fontInfo.getPanose()[4] & 0xFF));
+         System.out.println("\t\tStroke Variation: " + (fontInfo.getPanose()[5] & 0xFF));
+         System.out.println("\t\tArm Style: " + (fontInfo.getPanose()[6] & 0xFF));
+         System.out.println("\t\tLetterform: " + (fontInfo.getPanose()[7] & 0xFF));
+         System.out.println("\t\tMidline: " + (fontInfo.getPanose()[8] & 0xFF));
+         System.out.println("\t\tX-Height: " + (fontInfo.getPanose()[9] & 0xFF));
+     }
+ }
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -261,6 +591,42 @@ public void setFamily(int value)
 
 
 Sets the font family this font belongs to.
+
+ **Examples:** 
+
+Shows how to access and print details of each font in a document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ Iterator fontCollectionEnumerator = doc.getFontInfos().iterator();
+ while (fontCollectionEnumerator.hasNext()) {
+     FontInfo fontInfo = fontCollectionEnumerator.next();
+     if (fontInfo != null) {
+         System.out.println("Font name: " + fontInfo.getName());
+
+         // Alt names are usually blank.
+         System.out.println("Alt name: " + fontInfo.getAltName());
+         System.out.println("\t- Family: " + fontInfo.getFamily());
+         System.out.println("\t- " + (fontInfo.isTrueType() ? "Is TrueType" : "Is not TrueType"));
+         System.out.println("\t- Pitch: " + fontInfo.getPitch());
+         System.out.println("\t- Charset: " + fontInfo.getCharset());
+         System.out.println("\t- Panose:");
+         System.out.println("\t\tFamily Kind: " + (fontInfo.getPanose()[0] & 0xFF));
+         System.out.println("\t\tSerif Style: " + (fontInfo.getPanose()[1] & 0xFF));
+         System.out.println("\t\tWeight: " + (fontInfo.getPanose()[2] & 0xFF));
+         System.out.println("\t\tProportion: " + (fontInfo.getPanose()[3] & 0xFF));
+         System.out.println("\t\tContrast: " + (fontInfo.getPanose()[4] & 0xFF));
+         System.out.println("\t\tStroke Variation: " + (fontInfo.getPanose()[5] & 0xFF));
+         System.out.println("\t\tArm Style: " + (fontInfo.getPanose()[6] & 0xFF));
+         System.out.println("\t\tLetterform: " + (fontInfo.getPanose()[7] & 0xFF));
+         System.out.println("\t\tMidline: " + (fontInfo.getPanose()[8] & 0xFF));
+         System.out.println("\t\tX-Height: " + (fontInfo.getPanose()[9] & 0xFF));
+     }
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -275,9 +641,47 @@ public void setPanose(byte[] value)
 
 Sets the PANOSE typeface classification number.
 
+ **Remarks:** 
+
 PANOSE is a compact 10-byte description of a fonts critical visual characteristics, such as contrast, weight, and serif style. The digits represent Family Kind, Serif Style, Weight, Proportion, Contrast, Stroke Variation, Arm Style, Letterform, Midline, and X-Height.
 
 Can be  null .
+
+ **Examples:** 
+
+Shows how to access and print details of each font in a document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ Iterator fontCollectionEnumerator = doc.getFontInfos().iterator();
+ while (fontCollectionEnumerator.hasNext()) {
+     FontInfo fontInfo = fontCollectionEnumerator.next();
+     if (fontInfo != null) {
+         System.out.println("Font name: " + fontInfo.getName());
+
+         // Alt names are usually blank.
+         System.out.println("Alt name: " + fontInfo.getAltName());
+         System.out.println("\t- Family: " + fontInfo.getFamily());
+         System.out.println("\t- " + (fontInfo.isTrueType() ? "Is TrueType" : "Is not TrueType"));
+         System.out.println("\t- Pitch: " + fontInfo.getPitch());
+         System.out.println("\t- Charset: " + fontInfo.getCharset());
+         System.out.println("\t- Panose:");
+         System.out.println("\t\tFamily Kind: " + (fontInfo.getPanose()[0] & 0xFF));
+         System.out.println("\t\tSerif Style: " + (fontInfo.getPanose()[1] & 0xFF));
+         System.out.println("\t\tWeight: " + (fontInfo.getPanose()[2] & 0xFF));
+         System.out.println("\t\tProportion: " + (fontInfo.getPanose()[3] & 0xFF));
+         System.out.println("\t\tContrast: " + (fontInfo.getPanose()[4] & 0xFF));
+         System.out.println("\t\tStroke Variation: " + (fontInfo.getPanose()[5] & 0xFF));
+         System.out.println("\t\tArm Style: " + (fontInfo.getPanose()[6] & 0xFF));
+         System.out.println("\t\tLetterform: " + (fontInfo.getPanose()[7] & 0xFF));
+         System.out.println("\t\tMidline: " + (fontInfo.getPanose()[8] & 0xFF));
+         System.out.println("\t\tX-Height: " + (fontInfo.getPanose()[9] & 0xFF));
+     }
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -291,6 +695,42 @@ public void setPitch(int value)
 
 
 The pitch indicates if the font is fixed pitch, proportionally spaced, or relies on a default setting.
+
+ **Examples:** 
+
+Shows how to access and print details of each font in a document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ Iterator fontCollectionEnumerator = doc.getFontInfos().iterator();
+ while (fontCollectionEnumerator.hasNext()) {
+     FontInfo fontInfo = fontCollectionEnumerator.next();
+     if (fontInfo != null) {
+         System.out.println("Font name: " + fontInfo.getName());
+
+         // Alt names are usually blank.
+         System.out.println("Alt name: " + fontInfo.getAltName());
+         System.out.println("\t- Family: " + fontInfo.getFamily());
+         System.out.println("\t- " + (fontInfo.isTrueType() ? "Is TrueType" : "Is not TrueType"));
+         System.out.println("\t- Pitch: " + fontInfo.getPitch());
+         System.out.println("\t- Charset: " + fontInfo.getCharset());
+         System.out.println("\t- Panose:");
+         System.out.println("\t\tFamily Kind: " + (fontInfo.getPanose()[0] & 0xFF));
+         System.out.println("\t\tSerif Style: " + (fontInfo.getPanose()[1] & 0xFF));
+         System.out.println("\t\tWeight: " + (fontInfo.getPanose()[2] & 0xFF));
+         System.out.println("\t\tProportion: " + (fontInfo.getPanose()[3] & 0xFF));
+         System.out.println("\t\tContrast: " + (fontInfo.getPanose()[4] & 0xFF));
+         System.out.println("\t\tStroke Variation: " + (fontInfo.getPanose()[5] & 0xFF));
+         System.out.println("\t\tArm Style: " + (fontInfo.getPanose()[6] & 0xFF));
+         System.out.println("\t\tLetterform: " + (fontInfo.getPanose()[7] & 0xFF));
+         System.out.println("\t\tMidline: " + (fontInfo.getPanose()[8] & 0xFF));
+         System.out.println("\t\tX-Height: " + (fontInfo.getPanose()[9] & 0xFF));
+     }
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -4,7 +4,7 @@ linktitle: DigitalSignatureType
 second_title: Aspose.Words for Java API Reference
 description: Specifies the type of a digital signature in Java.
 type: docs
-weight: 114
+weight: 115
 url: /java/com.aspose.words/digitalsignaturetype/
 ---
 
@@ -15,6 +15,55 @@ public class DigitalSignatureType
 ```
 
 Specifies the type of a digital signature.
+
+ **Examples:** 
+
+Shows how to sign documents with X.509 certificates.
+
+```
+
+ // Verify that a document is not signed.
+ Assert.assertFalse(FileFormatUtil.detectFileFormat(getMyDir() + "Document.docx").hasDigitalSignature());
+
+ // Create a CertificateHolder object from a PKCS12 file, which we will use to sign the document.
+ CertificateHolder certificateHolder = CertificateHolder.create(getMyDir() + "morzal.pfx", "aw", null);
+
+ SignOptions signOptions = new SignOptions();
+ signOptions.setSignTime(new Date());
+
+ // There are two ways of saving a signed copy of a document to the local file system:
+ // 1 - Designate a document by a local system filename and save a signed copy at a location specified by another filename.
+ DigitalSignatureUtil.sign(getMyDir() + "Document.docx", getArtifactsDir() + "Document.DigitalSignature.docx",
+         certificateHolder, signOptions);
+
+ Assert.assertTrue(FileFormatUtil.detectFileFormat(getArtifactsDir() + "Document.DigitalSignature.docx").hasDigitalSignature());
+
+ // 2 - Take a document from a stream, and save a signed copy to another stream.
+ InputStream inDoc = new FileInputStream(getMyDir() + "Document.docx");
+ try {
+     OutputStream outDoc = new FileOutputStream(getArtifactsDir() + "Document.DigitalSignature.docx");
+     try {
+         DigitalSignatureUtil.sign(inDoc, outDoc, certificateHolder);
+     } finally {
+         if (outDoc != null) outDoc.close();
+     }
+ } finally {
+     if (inDoc != null) inDoc.close();
+ }
+
+ Assert.assertTrue(FileFormatUtil.detectFileFormat(getArtifactsDir() + "Document.DigitalSignature.docx").hasDigitalSignature());
+
+ // Please verify that all of the document's digital signatures are valid and check their details.
+ Document signedDoc = new Document(getArtifactsDir() + "Document.DigitalSignature.docx");
+ DigitalSignatureCollection digitalSignatureCollection = signedDoc.getDigitalSignatures();
+
+ Assert.assertTrue(digitalSignatureCollection.isValid());
+ Assert.assertEquals(1, digitalSignatureCollection.getCount());
+ Assert.assertEquals(DigitalSignatureType.XML_DSIG, digitalSignatureCollection.get(0).getSignatureType());
+ Assert.assertEquals("CN=Morzal.Me", signedDoc.getDigitalSignatures().get(0).getIssuerName());
+ Assert.assertEquals("CN=Morzal.Me", signedDoc.getDigitalSignatures().get(0).getSubjectName());
+ 
+```
 ## Fields
 
 | Field | Description |

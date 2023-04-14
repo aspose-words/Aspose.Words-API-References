@@ -4,7 +4,7 @@ linktitle: Metered
 second_title: Aspose.Words for Java API Reference
 description: Provides methods to set metered key in Java.
 type: docs
-weight: 404
+weight: 405
 url: /java/com.aspose.words/metered/
 ---
 
@@ -18,12 +18,38 @@ Provides methods to set metered key.
 
 To learn more, visit the [ Licensing and Subscription ][Licensing and Subscription] documentation article.
 
+ **Examples:** 
+
 In this example, an attempt will be made to set metered public and private key the component jar file:
 
 ```
 
  Metered matered = new Metered();
  matered.setMeteredKey("PublicKey", "PrivateKey");
+ 
+```
+
+Shows how to activate a Metered license and track credit/consumption.
+
+```
+
+ // Create a new Metered license, and then print its usage statistics.
+ Metered metered = new Metered();
+ metered.setMeteredKey("MyPublicKey", "MyPrivateKey");
+
+ System.out.println("Credit before operation: {Metered.GetConsumptionCredit()}");
+ System.out.println("Consumption quantity before operation: {Metered.GetConsumptionQuantity()}");
+
+ // Operate using Aspose.Words, and then print our metered stats again to see how much we spent.
+ Document doc = new Document(getMyDir() + "Document.docx");
+ doc.save(getArtifactsDir() + "Metered.Usage.pdf");
+
+ // Aspose Metered Licensing mechanism does not send the usage data to purchase server every time,
+ // you need to use waiting.
+ Thread.sleep(10000);
+
+ System.out.println(MessageFormat.format("Credit after operation: {0}", Metered.getConsumptionCredit()));
+ System.out.println(MessageFormat.format("Consumption quantity after operation: {0}", Metered.getConsumptionQuantity()));
  
 ```
 
@@ -57,6 +83,32 @@ public Metered()
 
 
 Initializes a new instance of this class.
+
+ **Examples:** 
+
+Shows how to activate a Metered license and track credit/consumption.
+
+```
+
+ // Create a new Metered license, and then print its usage statistics.
+ Metered metered = new Metered();
+ metered.setMeteredKey("MyPublicKey", "MyPrivateKey");
+
+ System.out.println("Credit before operation: {Metered.GetConsumptionCredit()}");
+ System.out.println("Consumption quantity before operation: {Metered.GetConsumptionQuantity()}");
+
+ // Operate using Aspose.Words, and then print our metered stats again to see how much we spent.
+ Document doc = new Document(getMyDir() + "Document.docx");
+ doc.save(getArtifactsDir() + "Metered.Usage.pdf");
+
+ // Aspose Metered Licensing mechanism does not send the usage data to purchase server every time,
+ // you need to use waiting.
+ Thread.sleep(10000);
+
+ System.out.println(MessageFormat.format("Credit after operation: {0}", Metered.getConsumptionCredit()));
+ System.out.println(MessageFormat.format("Consumption quantity after operation: {0}", Metered.getConsumptionQuantity()));
+ 
+```
 
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
@@ -93,6 +145,32 @@ Gets consumption credit
 
 **Returns:**
 java.math.BigDecimal - consumption quantity
+
+ **Examples:** 
+
+Shows how to activate a Metered license and track credit/consumption.
+
+```
+
+ // Create a new Metered license, and then print its usage statistics.
+ Metered metered = new Metered();
+ metered.setMeteredKey("MyPublicKey", "MyPrivateKey");
+
+ System.out.println("Credit before operation: {Metered.GetConsumptionCredit()}");
+ System.out.println("Consumption quantity before operation: {Metered.GetConsumptionQuantity()}");
+
+ // Operate using Aspose.Words, and then print our metered stats again to see how much we spent.
+ Document doc = new Document(getMyDir() + "Document.docx");
+ doc.save(getArtifactsDir() + "Metered.Usage.pdf");
+
+ // Aspose Metered Licensing mechanism does not send the usage data to purchase server every time,
+ // you need to use waiting.
+ Thread.sleep(10000);
+
+ System.out.println(MessageFormat.format("Credit after operation: {0}", Metered.getConsumptionCredit()));
+ System.out.println(MessageFormat.format("Consumption quantity after operation: {0}", Metered.getConsumptionQuantity()));
+ 
+```
 ### getConsumptionQuantity() {#getConsumptionQuantity}
 ```
 public static BigDecimal getConsumptionQuantity()
@@ -103,6 +181,32 @@ Gets consumption file size
 
 **Returns:**
 java.math.BigDecimal - consumption quantity
+
+ **Examples:** 
+
+Shows how to activate a Metered license and track credit/consumption.
+
+```
+
+ // Create a new Metered license, and then print its usage statistics.
+ Metered metered = new Metered();
+ metered.setMeteredKey("MyPublicKey", "MyPrivateKey");
+
+ System.out.println("Credit before operation: {Metered.GetConsumptionCredit()}");
+ System.out.println("Consumption quantity before operation: {Metered.GetConsumptionQuantity()}");
+
+ // Operate using Aspose.Words, and then print our metered stats again to see how much we spent.
+ Document doc = new Document(getMyDir() + "Document.docx");
+ doc.save(getArtifactsDir() + "Metered.Usage.pdf");
+
+ // Aspose Metered Licensing mechanism does not send the usage data to purchase server every time,
+ // you need to use waiting.
+ Thread.sleep(10000);
+
+ System.out.println(MessageFormat.format("Credit after operation: {0}", Metered.getConsumptionCredit()));
+ System.out.println(MessageFormat.format("Consumption quantity after operation: {0}", Metered.getConsumptionQuantity()));
+ 
+```
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()
@@ -141,7 +245,33 @@ Sets metered public and private key. If you purchase metered license, when start
 | Parameter | Type | Description |
 | --- | --- | --- |
 | publicKey | java.lang.String | public key |
-| privateKey | java.lang.String | private key |
+| privateKey | java.lang.String | private key
+
+ **Examples:** 
+
+Shows how to activate a Metered license and track credit/consumption.
+
+```
+
+ // Create a new Metered license, and then print its usage statistics.
+ Metered metered = new Metered();
+ metered.setMeteredKey("MyPublicKey", "MyPrivateKey");
+
+ System.out.println("Credit before operation: {Metered.GetConsumptionCredit()}");
+ System.out.println("Consumption quantity before operation: {Metered.GetConsumptionQuantity()}");
+
+ // Operate using Aspose.Words, and then print our metered stats again to see how much we spent.
+ Document doc = new Document(getMyDir() + "Document.docx");
+ doc.save(getArtifactsDir() + "Metered.Usage.pdf");
+
+ // Aspose Metered Licensing mechanism does not send the usage data to purchase server every time,
+ // you need to use waiting.
+ Thread.sleep(10000);
+
+ System.out.println(MessageFormat.format("Credit after operation: {0}", Metered.getConsumptionCredit()));
+ System.out.println(MessageFormat.format("Consumption quantity after operation: {0}", Metered.getConsumptionQuantity()));
+ 
+``` |
 
 ### toString() {#toString}
 ```

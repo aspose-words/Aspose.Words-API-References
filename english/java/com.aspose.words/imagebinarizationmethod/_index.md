@@ -4,7 +4,7 @@ linktitle: ImageBinarizationMethod
 second_title: Aspose.Words for Java API Reference
 description: Specifies the method used to binarize image in Java.
 type: docs
-weight: 337
+weight: 338
 url: /java/com.aspose.words/imagebinarizationmethod/
 ---
 
@@ -15,6 +15,32 @@ public class ImageBinarizationMethod
 ```
 
 Specifies the method used to binarize image.
+
+ **Examples:** 
+
+Shows how to set the TIFF binarization error threshold when using the Floyd-Steinberg method to render a TIFF image.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("Heading 1"));
+ builder.writeln("Hello world!");
+ builder.insertImage(getImageDir() + "Logo.jpg");
+
+ // When we save the document as a TIFF, we can pass a SaveOptions object to
+ // adjust the dithering that Aspose.Words will apply when rendering this image.
+ // The default value of the "ThresholdForFloydSteinbergDithering" property is 128.
+ // Higher values tend to produce darker images.
+ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.TIFF);
+ options.setTiffCompression(TiffCompression.CCITT_3);
+ options.setTiffBinarizationMethod(ImageBinarizationMethod.FLOYD_STEINBERG_DITHERING);
+ options.setThresholdForFloydSteinbergDithering((byte) 240);
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.FloydSteinbergDithering.tiff", options);
+ 
+```
 ## Fields
 
 | Field | Description |

@@ -4,7 +4,7 @@ linktitle: StyleIdentifier
 second_title: Aspose.Words for Java API Reference
 description: Locale independent style identifier in Java.
 type: docs
-weight: 544
+weight: 547
 url: /java/com.aspose.words/styleidentifier/
 ---
 
@@ -16,9 +16,43 @@ public class StyleIdentifier
 
 Locale independent style identifier.
 
+ **Remarks:** 
+
 The names of built-in styles in MS Word are localized for different languages. Using a style identifier you can find the correct style regardless of the document language.
 
 All user defined styles are assigned the [USER](../../com.aspose.words/styleidentifier/\#USER) value.
+
+ **Examples:** 
+
+Shows how to change the style of existing text.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Below are two ways of referencing styles.
+ // 1 -  Using the style name:
+ builder.getFont().setStyleName("Emphasis");
+ builder.writeln("Text originally in \"Emphasis\" style");
+
+ // 2 -  Using a built-in style identifier:
+ builder.getFont().setStyleIdentifier(StyleIdentifier.INTENSE_EMPHASIS);
+ builder.writeln("Text originally in \"Intense Emphasis\" style");
+
+ // Convert all uses of one style to another,
+ // using the above methods to reference old and new styles.
+ for (Run run : (Iterable) doc.getChildNodes(NodeType.RUN, true)) {
+     if (run.getFont().getStyleName().equals("Emphasis"))
+         run.getFont().setStyleName("Strong");
+
+     if (((run.getFont().getStyleIdentifier()) == (StyleIdentifier.INTENSE_EMPHASIS)))
+         run.getFont().setStyleIdentifier(StyleIdentifier.STRONG);
+ }
+
+ doc.save(getArtifactsDir() + "Font.ChangeStyle.docx");
+ 
+```
 ## Fields
 
 | Field | Description |

@@ -4,7 +4,7 @@ linktitle: PreferredWidthType
 second_title: Aspose.Words for Java API Reference
 description: Specifies the unit of measurement for the preferred width of a table or cell in Java.
 type: docs
-weight: 473
+weight: 474
 url: /java/com.aspose.words/preferredwidthtype/
 ---
 
@@ -15,6 +15,22 @@ public class PreferredWidthType
 ```
 
 Specifies the unit of measurement for the preferred width of a table or cell.
+
+ **Examples:** 
+
+Shows how to verify the preferred width type and value of a table cell.
+
+```
+
+ Document doc = new Document(getMyDir() + "Tables.docx");
+
+ Table table = doc.getFirstSection().getBody().getTables().get(0);
+ Cell firstCell = table.getFirstRow().getFirstCell();
+
+ Assert.assertEquals(PreferredWidthType.PERCENT, firstCell.getCellFormat().getPreferredWidth().getType());
+ Assert.assertEquals(11.16d, firstCell.getCellFormat().getPreferredWidth().getValue());
+ 
+```
 ## Fields
 
 | Field | Description |

@@ -16,7 +16,110 @@ public class BuildingBlockGallery
 
 Specifies the predefined gallery into which a building block is classified.
 
+ **Remarks:** 
+
 Corresponds to the **ST\_DocPartGallery** type in OOXML.
+
+ **Examples:** 
+
+Shows ways of accessing building blocks in a glossary document.
+
+```
+
+ public void glossaryDocument() throws Exception {
+     Document doc = new Document();
+     GlossaryDocument glossaryDoc = new GlossaryDocument();
+
+     glossaryDoc.appendChild(createNewBuildingBlock(glossaryDoc, "Block 1"));
+     glossaryDoc.appendChild(createNewBuildingBlock(glossaryDoc, "Block 2"));
+     glossaryDoc.appendChild(createNewBuildingBlock(glossaryDoc, "Block 3"));
+     glossaryDoc.appendChild(createNewBuildingBlock(glossaryDoc, "Block 4"));
+     glossaryDoc.appendChild(createNewBuildingBlock(glossaryDoc, "Block 5"));
+
+     Assert.assertEquals(glossaryDoc.getBuildingBlocks().getCount(), 5);
+
+     doc.setGlossaryDocument(glossaryDoc);
+
+     // There are various ways of accessing building blocks.
+     // 1 -  Get the first/last building blocks in the collection:
+     Assert.assertEquals("Block 1", glossaryDoc.getFirstBuildingBlock().getName());
+     Assert.assertEquals("Block 5", glossaryDoc.getLastBuildingBlock().getName());
+
+     // 2 -  Get a building block by index:
+     Assert.assertEquals("Block 2", glossaryDoc.getBuildingBlocks().get(1).getName());
+     Assert.assertEquals("Block 3", glossaryDoc.getBuildingBlocks().toArray()[2].getName());
+
+     // 3 -  Get the first building block that matches a gallery, name and category:
+     Assert.assertEquals("Block 4",
+             glossaryDoc.getBuildingBlock(BuildingBlockGallery.ALL, "(Empty Category)", "Block 4").getName());
+
+     // We will do that using a custom visitor,
+     // which will give every BuildingBlock in the GlossaryDocument a unique GUID
+     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
+     glossaryDoc.accept(visitor);
+     System.out.println(visitor.getText());
+
+     // In Microsoft Word, we can access the building blocks via "Insert" -> "Quick Parts" -> "Building Blocks Organizer".
+     doc.save(getArtifactsDir() + "BuildingBlocks.GlossaryDocument.dotx");
+ }
+
+ public static BuildingBlock createNewBuildingBlock(final GlossaryDocument glossaryDoc, final String buildingBlockName) {
+     BuildingBlock buildingBlock = new BuildingBlock(glossaryDoc);
+     buildingBlock.setName(buildingBlockName);
+
+     return buildingBlock;
+ }
+
+ /// 
+ /// Gives each building block in a visited glossary document a unique GUID.
+ /// Stores the GUID-building block pairs in a dictionary.
+ /// 
+ public static class GlossaryDocVisitor extends DocumentVisitor {
+     public GlossaryDocVisitor() {
+         mBlocksByGuid = new HashMap<>();
+         mBuilder = new StringBuilder();
+     }
+
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     public HashMap getDictionary() {
+         return mBlocksByGuid;
+     }
+
+     public int visitGlossaryDocumentStart(final GlossaryDocument glossary) {
+         mBuilder.append("Glossary document found!\n");
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitGlossaryDocumentEnd(final GlossaryDocument glossary) {
+         mBuilder.append("Reached end of glossary!\n");
+         mBuilder.append("BuildingBlocks found: " + mBlocksByGuid.size() + "\r\n");
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitBuildingBlockStart(final BuildingBlock block) {
+         block.setGuid(UUID.randomUUID());
+         mBlocksByGuid.put(block.getGuid(), block);
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitBuildingBlockEnd(final BuildingBlock block) {
+         mBuilder.append("\tVisited block \"" + block.getName() + "\"" + "\r\n");
+         mBuilder.append("\t Type: " + block.getType() + "\r\n");
+         mBuilder.append("\t Gallery: " + block.getGallery() + "\r\n");
+         mBuilder.append("\t Behavior: " + block.getBehavior() + "\r\n");
+         mBuilder.append("\t Description: " + block.getDescription() + "\r\n");
+
+         return VisitorAction.CONTINUE;
+     }
+
+     private final HashMap mBlocksByGuid;
+     private final StringBuilder mBuilder;
+ }
+ 
+```
 ## Fields
 
 | Field | Description |

@@ -2,9 +2,9 @@
 title: OdsoRecipientDataCollection
 linktitle: OdsoRecipientDataCollection
 second_title: Aspose.Words for Java API Reference
-description: A typed collection of in Java.
+description: A typed collection of OdsoRecipientData in Java.
 type: docs
-weight: 423
+weight: 424
 url: /java/com.aspose.words/odsorecipientdatacollection/
 ---
 
@@ -20,6 +20,8 @@ public class OdsoRecipientDataCollection implements Iterable
 A typed collection of [OdsoRecipientData](../../com.aspose.words/odsorecipientdata/)
 
 To learn more, visit the [ Mail Merge and Reporting ][Mail Merge and Reporting] documentation article.
+
+ **Remarks:** 
 
 
 [Mail Merge and Reporting]: https://docs.aspose.com/words/java/mail-merge-and-reporting/

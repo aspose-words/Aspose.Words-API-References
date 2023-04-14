@@ -4,7 +4,7 @@ linktitle: ChartLegendEntryCollection
 second_title: Aspose.Words for Java API Reference
 description: Represents a collection of chart legend entries in Java.
 type: docs
-weight: 65
+weight: 66
 url: /java/com.aspose.words/chartlegendentrycollection/
 ---
 
@@ -20,6 +20,40 @@ public class ChartLegendEntryCollection implements Iterable
 Represents a collection of chart legend entries.
 
 To learn more, visit the [ Working with Charts ][Working with Charts] documentation article.
+
+ **Examples:** 
+
+Shows how to work with a legend entry for chart series.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 432.0, 252.0);
+
+ Chart chart = shape.getChart();
+ ChartSeriesCollection series = chart.getSeries();
+ series.clear();
+
+ String[] categories = new String[] { "AW Category 1", "AW Category 2" };
+
+ ChartSeries series1 = series.add("Series 1", categories, new double[] { 1.0, 2.0 });
+ series.add("Series 2", categories, new double[] { 3.0, 4.0 });
+ series.add("Series 3", categories, new double[] { 5.0, 6.0 });
+ series.add("Series 4", categories, new double[] { 0.0, 0.0 });
+
+ ChartLegendEntryCollection legendEntries = chart.getLegend().getLegendEntries();
+ legendEntries.get(3).isHidden(true);
+
+ for (ChartLegendEntry legendEntry : legendEntries)
+     legendEntry.getFont().setSize(12.0);
+
+ series1.getLegendEntry().getFont().setItalic(true);
+
+ doc.save(getArtifactsDir() + "Charts.LegendEntries.docx");
+ 
+```
 
 
 [Working with Charts]: https://docs.aspose.com/words/java/working-with-charts/
@@ -68,7 +102,7 @@ Returns [ChartLegendEntry](../../com.aspose.words/chartlegendentry/) for the spe
 | index | int |  |
 
 **Returns:**
-[ChartLegendEntry](../../com.aspose.words/chartlegendentry/) - \{[ChartLegendEntry](../../com.aspose.words/chartlegendentry/) for the specified index.
+[ChartLegendEntry](../../com.aspose.words/chartlegendentry/) - [ChartLegendEntry](../../com.aspose.words/chartlegendentry/) for the specified index.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()

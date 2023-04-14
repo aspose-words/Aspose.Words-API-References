@@ -2,9 +2,9 @@
 title: DocumentSecurity
 linktitle: DocumentSecurity
 second_title: Aspose.Words for Java API Reference
-description: Used as a value for the  /  property in Java.
+description: Used as a value for the BuiltInDocumentProperties.getSecurity / BuiltInDocumentProperties.setSecurityint property in Java.
 type: docs
-weight: 131
+weight: 132
 url: /java/com.aspose.words/documentsecurity/
 ---
 
@@ -15,6 +15,50 @@ public class DocumentSecurity
 ```
 
 Used as a value for the [BuiltInDocumentProperties.getSecurity()](../../com.aspose.words/builtindocumentproperties/\#getSecurity) / [BuiltInDocumentProperties.setSecurity(int)](../../com.aspose.words/builtindocumentproperties/\#setSecurity-int) property. Specifies the security level of a document as a numeric value.
+
+ **Examples:** 
+
+Shows how to use document properties to display the security level of a document.
+
+```
+
+ Document doc = new Document();
+
+ Assert.assertEquals(DocumentSecurity.NONE, doc.getBuiltInDocumentProperties().getSecurity());
+
+ // If we configure a document to be read-only, it will display this status using the "Security" built-in property.
+ doc.getWriteProtection().setReadOnlyRecommended(true);
+ doc.save(getArtifactsDir() + "DocumentProperties.Security.ReadOnlyRecommended.docx");
+
+ Assert.assertEquals(DocumentSecurity.READ_ONLY_RECOMMENDED,
+         new Document(getArtifactsDir() + "DocumentProperties.Security.ReadOnlyRecommended.docx").getBuiltInDocumentProperties().getSecurity());
+
+ // Write-protect a document, and then verify its security level.
+ doc = new Document();
+
+ Assert.assertFalse(doc.getWriteProtection().isWriteProtected());
+
+ doc.getWriteProtection().setPassword("MyPassword");
+
+ Assert.assertTrue(doc.getWriteProtection().validatePassword("MyPassword"));
+ Assert.assertTrue(doc.getWriteProtection().isWriteProtected());
+
+ doc.save(getArtifactsDir() + "DocumentProperties.Security.ReadOnlyEnforced.docx");
+
+ Assert.assertEquals(DocumentSecurity.READ_ONLY_ENFORCED,
+         new Document(getArtifactsDir() + "DocumentProperties.Security.ReadOnlyEnforced.docx").getBuiltInDocumentProperties().getSecurity());
+
+ // "Security" is a descriptive property. We can edit its value manually.
+ doc = new Document();
+
+ doc.protect(ProtectionType.ALLOW_ONLY_COMMENTS, "MyPassword");
+ doc.getBuiltInDocumentProperties().setSecurity(DocumentSecurity.READ_ONLY_EXCEPT_ANNOTATIONS);
+ doc.save(getArtifactsDir() + "DocumentProperties.Security.ReadOnlyExceptAnnotations.docx");
+
+ Assert.assertEquals(DocumentSecurity.READ_ONLY_EXCEPT_ANNOTATIONS,
+         new Document(getArtifactsDir() + "DocumentProperties.Security.ReadOnlyExceptAnnotations.docx").getBuiltInDocumentProperties().getSecurity());
+ 
+```
 ## Fields
 
 | Field | Description |

@@ -4,7 +4,7 @@ linktitle: FlipOrientation
 second_title: Aspose.Words for Java API Reference
 description: Possible values for the orientation of a shape in Java.
 type: docs
-weight: 275
+weight: 276
 url: /java/com.aspose.words/fliporientation/
 ---
 
@@ -15,6 +15,50 @@ public class FlipOrientation
 ```
 
 Possible values for the orientation of a shape.
+
+ **Examples:** 
+
+Shows how to flip a shape on an axis.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert an image shape and leave its orientation in its default state.
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, RelativeHorizontalPosition.LEFT_MARGIN, 100.0,
+         RelativeVerticalPosition.TOP_MARGIN, 100.0, 100.0, 100.0, WrapType.NONE);
+ shape.getImageData().setImage(getImageDir() + "Logo.jpg");
+
+ Assert.assertEquals(FlipOrientation.NONE, shape.getFlipOrientation());
+
+ shape = builder.insertShape(ShapeType.RECTANGLE, RelativeHorizontalPosition.LEFT_MARGIN, 250.0,
+         RelativeVerticalPosition.TOP_MARGIN, 100.0, 100.0, 100.0, WrapType.NONE);
+ shape.getImageData().setImage(getImageDir() + "Logo.jpg");
+
+ // Set the "FlipOrientation" property to "FlipOrientation.Horizontal" to flip the second shape on the y-axis,
+ // making it into a horizontal mirror image of the first shape.
+ shape.setFlipOrientation(FlipOrientation.HORIZONTAL);
+
+ shape = builder.insertShape(ShapeType.RECTANGLE, RelativeHorizontalPosition.LEFT_MARGIN, 100.0,
+         RelativeVerticalPosition.TOP_MARGIN, 250.0, 100.0, 100.0, WrapType.NONE);
+ shape.getImageData().setImage(getImageDir() + "Logo.jpg");
+
+ // Set the "FlipOrientation" property to "FlipOrientation.Horizontal" to flip the third shape on the x-axis,
+ // making it into a vertical mirror image of the first shape.
+ shape.setFlipOrientation(FlipOrientation.VERTICAL);
+
+ shape = builder.insertShape(ShapeType.RECTANGLE, RelativeHorizontalPosition.LEFT_MARGIN, 250.0,
+         RelativeVerticalPosition.TOP_MARGIN, 250.0, 100.0, 100.0, WrapType.NONE);
+ shape.getImageData().setImage(getImageDir() + "Logo.jpg");
+
+ // Set the "FlipOrientation" property to "FlipOrientation.Horizontal" to flip the fourth shape on both the x and y axes,
+ // making it into a horizontal and vertical mirror image of the first shape.
+ shape.setFlipOrientation(FlipOrientation.BOTH);
+
+ doc.save(getArtifactsDir() + "Shape.FlipShapeOrientation.docx");
+ 
+```
 ## Fields
 
 | Field | Description |

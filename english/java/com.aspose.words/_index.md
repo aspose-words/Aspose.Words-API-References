@@ -78,6 +78,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [ChapterPageSeparator](../com.aspose.words/chapterpageseparator/) | Defines the separator character that appears between the chapter and page number. |
 | [Chart](../com.aspose.words/chart/) | Provides access to the chart shape properties. |
 | [ChartAxis](../com.aspose.words/chartaxis/) | Represents the axis options of the chart. |
+| [ChartAxisCollection](../com.aspose.words/chartaxiscollection/) | Represents a collection of chart axes. |
 | [ChartAxisType](../com.aspose.words/chartaxistype/) | Specifies type of chart axis. |
 | [ChartDataLabel](../com.aspose.words/chartdatalabel/) | Represents data label on a chart point or trendline. |
 | [ChartDataLabelCollection](../com.aspose.words/chartdatalabelcollection/) | Represents a collection of [ChartDataLabel](../com.aspose.words/chartdatalabel/). |
@@ -501,7 +502,9 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [PsSaveOptions](../com.aspose.words/pssaveoptions/) | Can be used to specify additional options when saving a document into the [SaveFormat.\#PS](../com.aspose.words/saveformat/\#PS) format. |
 | [Range](../com.aspose.words/range/) | Represents a contiguous area in a document. |
 | [RelativeHorizontalPosition](../com.aspose.words/relativehorizontalposition/) | Specifies to what the horizontal position of a shape or text frame is relative. |
+| [RelativeHorizontalSize](../com.aspose.words/relativehorizontalsize/) | Specifies relatively to what the width of a shape or a text frame is calculated horizontally. |
 | [RelativeVerticalPosition](../com.aspose.words/relativeverticalposition/) | Specifies to what the vertical position of a shape or text frame is relative. |
+| [RelativeVerticalSize](../com.aspose.words/relativeverticalsize/) | Specifies relatively to what the height of a shape or a text frame is calculated vertically. |
 | [ReplaceAction](../com.aspose.words/replaceaction/) | Allows the user to specify what happens to the current match during a replace operation. |
 | [ReplacingArgs](../com.aspose.words/replacingargs/) | Provides data for a custom replace operation. |
 | [ReportBuildOptions](../com.aspose.words/reportbuildoptions/) | Specifies options controlling behavior of [ReportingEngine](../com.aspose.words/reportingengine/) while building a report. |

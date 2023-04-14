@@ -4,7 +4,7 @@ linktitle: NodeChangingAction
 second_title: Aspose.Words for Java API Reference
 description: Specifies the type of node change in Java.
 type: docs
-weight: 408
+weight: 409
 url: /java/com.aspose.words/nodechangingaction/
 ---
 
@@ -15,6 +15,67 @@ public class NodeChangingAction
 ```
 
 Specifies the type of node change.
+
+ **Examples:** 
+
+Shows how to use a NodeChangingCallback to monitor changes to the document tree in real-time as we edit it.
+
+```
+
+ public void nodeChangingCallback() throws Exception {
+     Document doc = new Document();
+     doc.setNodeChangingCallback(new NodeChangingPrinter());
+
+     DocumentBuilder builder = new DocumentBuilder(doc);
+     builder.writeln("Hello world!");
+     builder.startTable();
+     builder.insertCell();
+     builder.write("Cell 1");
+     builder.insertCell();
+     builder.write("Cell 2");
+     builder.endTable();
+
+     builder.insertImage(getImageDir() + "Logo.jpg");
+     builder.getCurrentParagraph().getParentNode().removeAllChildren();
+ }
+
+ /// 
+ /// Prints every node insertion/removal as it takes place in the document.
+ /// 
+ private static class NodeChangingPrinter implements INodeChangingCallback {
+     public void nodeInserting(NodeChangingArgs args) {
+         Assert.assertEquals(args.getAction(), NodeChangingAction.INSERT);
+         Assert.assertEquals(args.getOldParent(), null);
+     }
+
+     public void nodeInserted(NodeChangingArgs args) {
+         Assert.assertEquals(args.getAction(), NodeChangingAction.INSERT);
+         Assert.assertNotNull(args.getNewParent());
+
+         System.out.println("Inserted node:");
+         System.out.println(MessageFormat.format("\tType:\t{0}", args.getNode().getNodeType()));
+
+         if (!"".equals(args.getNode().getText().trim())) {
+             System.out.println(MessageFormat.format("\tText:\t\"{0}\"", args.getNode().getText().trim()));
+         }
+
+         System.out.println(MessageFormat.format("\tHash:\t{0}", args.getNode().hashCode()));
+         System.out.println(MessageFormat.format("\tParent:\t{0} ({1})", args.getNewParent().getNodeType(), args.getNewParent().hashCode()));
+     }
+
+     public void nodeRemoving(NodeChangingArgs args) {
+         Assert.assertEquals(args.getAction(), NodeChangingAction.REMOVE);
+     }
+
+     public void nodeRemoved(NodeChangingArgs args) {
+         Assert.assertEquals(args.getAction(), NodeChangingAction.REMOVE);
+         Assert.assertNull(args.getNewParent());
+
+         System.out.println(MessageFormat.format("Removed node: {0} ({1})", args.getNode().getNodeType(), args.getNode().hashCode()));
+     }
+ }
+ 
+```
 ## Fields
 
 | Field | Description |

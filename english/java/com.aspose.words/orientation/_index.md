@@ -4,7 +4,7 @@ linktitle: Orientation
 second_title: Aspose.Words for Java API Reference
 description: Specifies page orientation in Java.
 type: docs
-weight: 435
+weight: 436
 url: /java/com.aspose.words/orientation/
 ---
 
@@ -15,6 +15,39 @@ public class Orientation
 ```
 
 Specifies page orientation.
+
+ **Examples:** 
+
+Shows how to apply and revert page setup settings to sections in a document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Modify the page setup properties for the builder's current section and add text.
+ builder.getPageSetup().setOrientation(Orientation.LANDSCAPE);
+ builder.getPageSetup().setVerticalAlignment(PageVerticalAlignment.CENTER);
+ builder.writeln("This is the first section, which landscape oriented with vertically centered text.");
+
+ // If we start a new section using a document builder,
+ // it will inherit the builder's current page setup properties.
+ builder.insertBreak(BreakType.SECTION_BREAK_NEW_PAGE);
+
+ Assert.assertEquals(Orientation.LANDSCAPE, doc.getSections().get(1).getPageSetup().getOrientation());
+ Assert.assertEquals(PageVerticalAlignment.CENTER, doc.getSections().get(1).getPageSetup().getVerticalAlignment());
+
+ // We can revert its page setup properties to their default values using the "ClearFormatting" method.
+ builder.getPageSetup().clearFormatting();
+
+ Assert.assertEquals(Orientation.PORTRAIT, doc.getSections().get(1).getPageSetup().getOrientation());
+ Assert.assertEquals(PageVerticalAlignment.TOP, doc.getSections().get(1).getPageSetup().getVerticalAlignment());
+
+ builder.writeln("This is the second section, which is in default Letter paper size, portrait orientation and top alignment.");
+
+ doc.save(getArtifactsDir() + "PageSetup.ClearFormatting.docx");
+ 
+```
 ## Fields
 
 | Field | Description |

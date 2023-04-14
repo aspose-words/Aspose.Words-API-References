@@ -4,7 +4,7 @@ linktitle: OdsoRecipientData
 second_title: Aspose.Words for Java API Reference
 description: Represents information about a single record within an external data source that is to be excluded from the mail merge in Java.
 type: docs
-weight: 422
+weight: 423
 url: /java/com.aspose.words/odsorecipientdata/
 ---
 
@@ -20,6 +20,8 @@ public class OdsoRecipientData implements Cloneable
 Represents information about a single record within an external data source that is to be excluded from the mail merge.
 
 To learn more, visit the [ Mail Merge and Reporting ][Mail Merge and Reporting] documentation article.
+
+ **Remarks:** 
 
 If a record shall be merged into a merged document, then no information is needed about that record. However, if a given record shall not be merged into a merged document, then the value of the unique key for that record shall be stored in the [getUniqueTag()](../../com.aspose.words/odsorecipientdata/\#getUniqueTag) / [setUniqueTag(byte[])](../../com.aspose.words/odsorecipientdata/\#setUniqueTag-byte) property of this object to indicate this exclusion.
 

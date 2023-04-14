@@ -4,7 +4,7 @@ linktitle: LineSpacingRule
 second_title: Aspose.Words for Java API Reference
 description: Specifies line spacing values for a paragraph in Java.
 type: docs
-weight: 369
+weight: 370
 url: /java/com.aspose.words/linespacingrule/
 ---
 

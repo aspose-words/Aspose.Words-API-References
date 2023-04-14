@@ -4,7 +4,7 @@ linktitle: TextFormFieldType
 second_title: Aspose.Words for Java API Reference
 description: Specifies the type of a text form field in Java.
 type: docs
-weight: 571
+weight: 574
 url: /java/com.aspose.words/textformfieldtype/
 ---
 
@@ -15,6 +15,33 @@ public class TextFormFieldType
 ```
 
 Specifies the type of a text form field.
+
+ **Examples:** 
+
+Shows how to create form fields.
+
+```
+
+ DocumentBuilder builder = new DocumentBuilder();
+
+ // Form fields are objects in the document that the user can interact with by being prompted to enter values.
+ // We can create them using a document builder, and below are two ways of doing so.
+ // 1 -  Basic text input:
+ builder.insertTextInput("My text input", TextFormFieldType.REGULAR,
+         "", "Enter your name here", 30);
+
+ // 2 -  Combo box with prompt text, and a range of possible values:
+ String[] items =
+         {
+                 "-- Select your favorite footwear --", "Sneakers", "Oxfords", "Flip-flops", "Other"
+         };
+
+ builder.insertParagraph();
+ builder.insertComboBox("My combo box", items, 0);
+
+ builder.getDocument().save(getArtifactsDir() + "DocumentBuilder.CreateForm.docx");
+ 
+```
 ## Fields
 
 | Field | Description |

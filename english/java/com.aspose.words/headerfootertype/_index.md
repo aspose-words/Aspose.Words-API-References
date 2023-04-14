@@ -4,7 +4,7 @@ linktitle: HeaderFooterType
 second_title: Aspose.Words for Java API Reference
 description: Identifies the type of header or footer found in a Word file in Java.
 type: docs
-weight: 320
+weight: 321
 url: /java/com.aspose.words/headerfootertype/
 ---
 
@@ -15,6 +15,38 @@ public class HeaderFooterType
 ```
 
 Identifies the type of header or footer found in a Word file.  This is a per section header/footer. Do not renumber as the value of the enum used as an index into plcfhdd.
+
+ **Examples:** 
+
+Shows how to create headers and footers in a document using DocumentBuilder.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Specify that we want different headers and footers for first, even and odd pages.
+ builder.getPageSetup().setDifferentFirstPageHeaderFooter(true);
+ builder.getPageSetup().setOddAndEvenPagesHeaderFooter(true);
+
+ // Create the headers, then add three pages to the document to display each header type.
+ builder.moveToHeaderFooter(HeaderFooterType.HEADER_FIRST);
+ builder.write("Header for the first page");
+ builder.moveToHeaderFooter(HeaderFooterType.HEADER_EVEN);
+ builder.write("Header for even pages");
+ builder.moveToHeaderFooter(HeaderFooterType.HEADER_PRIMARY);
+ builder.write("Header for all other pages");
+
+ builder.moveToSection(0);
+ builder.writeln("Page1");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("Page2");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("Page3");
+
+ doc.save(getArtifactsDir() + "DocumentBuilder.HeadersAndFooters.docx");
+ 
+```
 ## Fields
 
 | Field | Description |

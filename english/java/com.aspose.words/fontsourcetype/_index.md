@@ -4,7 +4,7 @@ linktitle: FontSourceType
 second_title: Aspose.Words for Java API Reference
 description: Specifies the type of a font source in Java.
 type: docs
-weight: 290
+weight: 291
 url: /java/com.aspose.words/fontsourcetype/
 ---
 
@@ -15,6 +15,24 @@ public class FontSourceType
 ```
 
 Specifies the type of a font source.
+
+ **Examples:** 
+
+Shows how to use a font file in the local file system as a font source.
+
+```
+
+ FileFontSource fileFontSource = new FileFontSource(getMyDir() + "Alte DIN 1451 Mittelschrift.ttf", 0);
+
+ Document doc = new Document();
+ doc.setFontSettings(new FontSettings());
+ doc.getFontSettings().setFontsSources(new FontSourceBase[]{fileFontSource});
+
+ Assert.assertEquals(getMyDir() + "Alte DIN 1451 Mittelschrift.ttf", fileFontSource.getFilePath());
+ Assert.assertEquals(FontSourceType.FONT_FILE, fileFontSource.getType());
+ Assert.assertEquals(0, fileFontSource.getPriority());
+ 
+```
 ## Fields
 
 | Field | Description |

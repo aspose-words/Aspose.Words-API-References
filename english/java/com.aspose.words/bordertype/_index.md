@@ -18,6 +18,28 @@ Specifies sides of a border.
 
 To learn more, visit the [ Programming with Documents ][Programming with Documents] documentation article.
 
+ **Examples:** 
+
+Shows how to insert a paragraph with a top border.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Border topBorder = builder.getParagraphFormat().getBorders().getByBorderType(BorderType.TOP);
+ topBorder.setLineWidth(4.0d);
+ topBorder.setLineStyle(LineStyle.DASH_SMALL_GAP);
+ // Set ThemeColor only when LineWidth or LineStyle setted.
+ topBorder.setThemeColor(ThemeColor.ACCENT_1);
+ topBorder.setTintAndShade(0.25d);
+
+ builder.writeln("Text with a top border.");
+
+ doc.save(getArtifactsDir() + "Border.ParagraphTopBorder.docx");
+ 
+```
+
 
 [Programming with Documents]: https://docs.aspose.com/words/java/programming-with-documents/
 ## Fields

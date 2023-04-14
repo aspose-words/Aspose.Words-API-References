@@ -4,7 +4,7 @@ linktitle: ImageColorMode
 second_title: Aspose.Words for Java API Reference
 description: Specifies the color mode for the generated images of document pages in Java.
 type: docs
-weight: 338
+weight: 339
 url: /java/com.aspose.words/imagecolormode/
 ---
 
@@ -15,6 +15,48 @@ public class ImageColorMode
 ```
 
 Specifies the color mode for the generated images of document pages.
+
+ **Examples:** 
+
+Shows how to set a color mode when rendering documents.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("Heading 1"));
+ builder.writeln("Hello world!");
+ builder.insertImage(getImageDir() + "Logo.jpg");
+
+ Assert.assertTrue(new File(getImageDir() + "Logo.jpg").length() < 20200);
+
+ // When we save the document as an image, we can pass a SaveOptions object to
+ // select a color mode for the image that the saving operation will generate.
+ // If we set the "ImageColorMode" property to "ImageColorMode.BlackAndWhite",
+ // the saving operation will apply grayscale color reduction while rendering the document.
+ // If we set the "ImageColorMode" property to "ImageColorMode.Grayscale",
+ // the saving operation will render the document into a monochrome image.
+ // If we set the "ImageColorMode" property to "None", the saving operation will apply the default method
+ // and preserve all the document's colors in the output image.
+ ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.PNG);
+ imageSaveOptions.setImageColorMode(imageColorMode);
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.ColorMode.png", imageSaveOptions);
+
+ switch (imageColorMode) {
+     case ImageColorMode.NONE:
+         Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.ColorMode.png").length() < 156000);
+         break;
+     case ImageColorMode.GRAYSCALE:
+         Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.ColorMode.png").length() < 85000);
+         break;
+     case ImageColorMode.BLACK_AND_WHITE:
+         Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.ColorMode.png").length() <= 20000);
+         break;
+ }
+ 
+```
 ## Fields
 
 | Field | Description |

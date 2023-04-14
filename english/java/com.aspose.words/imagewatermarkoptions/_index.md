@@ -4,7 +4,7 @@ linktitle: ImageWatermarkOptions
 second_title: Aspose.Words for Java API Reference
 description: Contains options that can be specified when adding a watermark with image in Java.
 type: docs
-weight: 346
+weight: 347
 url: /java/com.aspose.words/imagewatermarkoptions/
 ---
 
@@ -70,6 +70,8 @@ public double getScale()
 
 Gets the scale factor expressed as a fraction of the image. The default value is 0 - auto.
 
+ **Remarks:** 
+
 Valid values range from 0 to 65.5 inclusive.
 
 Auto scale means that the watermark will be scaled to its max width and max height relative to the page margins.
@@ -94,6 +96,26 @@ public boolean isWashout()
 
 Gets a boolean value which is responsible for washout effect of the watermark. The default value is  true .
 
+ **Examples:** 
+
+Shows how to create a watermark from an image in the local file system.
+
+```
+
+ Document doc = new Document();
+
+ // Modify the image watermark's appearance with an ImageWatermarkOptions object,
+ // then pass it while creating a watermark from an image file.
+ ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
+ imageWatermarkOptions.setScale(5.0);
+ imageWatermarkOptions.isWashout(false);
+
+ doc.getWatermark().setImage(ImageIO.read(new File(getImageDir() + "Logo.jpg")), imageWatermarkOptions);
+
+ doc.save(getArtifactsDir() + "Document.ImageWatermark.docx");
+ 
+```
+
 **Returns:**
 boolean - A boolean value which is responsible for washout effect of the watermark.
 ### isWashout(boolean value) {#isWashout-boolean}
@@ -103,6 +125,26 @@ public void isWashout(boolean value)
 
 
 Sets a boolean value which is responsible for washout effect of the watermark. The default value is  true .
+
+ **Examples:** 
+
+Shows how to create a watermark from an image in the local file system.
+
+```
+
+ Document doc = new Document();
+
+ // Modify the image watermark's appearance with an ImageWatermarkOptions object,
+ // then pass it while creating a watermark from an image file.
+ ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
+ imageWatermarkOptions.setScale(5.0);
+ imageWatermarkOptions.isWashout(false);
+
+ doc.getWatermark().setImage(ImageIO.read(new File(getImageDir() + "Logo.jpg")), imageWatermarkOptions);
+
+ doc.save(getArtifactsDir() + "Document.ImageWatermark.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -132,6 +174,8 @@ public void setScale(double value)
 
 
 Sets the scale factor expressed as a fraction of the image. The default value is 0 - auto.
+
+ **Remarks:** 
 
 Valid values range from 0 to 65.5 inclusive.
 

@@ -4,7 +4,7 @@ linktitle: TextBoxAnchor
 second_title: Aspose.Words for Java API Reference
 description: Specifies values used for shape text vertical alignment in Java.
 type: docs
-weight: 565
+weight: 568
 url: /java/com.aspose.words/textboxanchor/
 ---
 
@@ -15,6 +15,34 @@ public class TextBoxAnchor
 ```
 
 Specifies values used for shape text vertical alignment.
+
+ **Examples:** 
+
+Shows how to vertically align the text contents of a text box.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertShape(ShapeType.TEXT_BOX, 200.0, 200.0);
+
+ // Set the "VerticalAnchor" property to "TextBoxAnchor.Top" to
+ // align the text in this text box with the top side of the shape.
+ // Set the "VerticalAnchor" property to "TextBoxAnchor.Middle" to
+ // align the text in this text box to the center of the shape.
+ // Set the "VerticalAnchor" property to "TextBoxAnchor.Bottom" to
+ // align the text in this text box to the bottom of the shape.
+ shape.getTextBox().setVerticalAnchor(verticalAnchor);
+
+ builder.moveTo(shape.getFirstParagraph());
+ builder.write("Hello world!");
+
+ // The vertical aligning of text inside text boxes is available from Microsoft Word 2007 onwards.
+ doc.getCompatibilityOptions().optimizeFor(MsWordVersion.WORD_2007);
+ doc.save(getArtifactsDir() + "Shape.VerticalAnchor.docx");
+ 
+```
 ## Fields
 
 | Field | Description |

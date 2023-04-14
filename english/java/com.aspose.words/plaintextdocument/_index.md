@@ -4,7 +4,7 @@ linktitle: PlainTextDocument
 second_title: Aspose.Words for Java API Reference
 description: Allows to extract plain-text representation of the documents content in Java.
 type: docs
-weight: 471
+weight: 472
 url: /java/com.aspose.words/plaintextdocument/
 ---
 
@@ -17,6 +17,24 @@ public class PlainTextDocument
 Allows to extract plain-text representation of the document's content.
 
 To learn more, visit the [ Working with Text Document ][Working with Text Document] documentation article.
+
+ **Examples:** 
+
+Shows how to load the contents of a Microsoft Word document in plaintext.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Hello world!");
+
+ doc.save(getArtifactsDir() + "PlainTextDocument.Load.docx");
+
+ PlainTextDocument plaintext = new PlainTextDocument(getArtifactsDir() + "PlainTextDocument.Load.docx");
+
+ Assert.assertEquals("Hello world!", plaintext.getText().trim());
+ 
+```
 
 
 [Working with Text Document]: https://docs.aspose.com/words/java/work-with-text-document/
@@ -64,6 +82,8 @@ public PlainTextDocument(String fileName, LoadOptions loadOptions)
 
 
 Creates a plain text document from a file. Allows to specify additional options such as an encryption password.
+
+ **Remarks:** 
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -121,8 +141,29 @@ public BuiltInDocumentProperties getBuiltInDocumentProperties()
 
 Gets [getBuiltInDocumentProperties()](../../com.aspose.words/plaintextdocument/\#getBuiltInDocumentProperties) of the document.
 
+ **Examples:** 
+
+Shows how to load the contents of a Microsoft Word document in plaintext and then access the original document's built-in properties.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Hello world!");
+ doc.getBuiltInDocumentProperties().setAuthor("John Doe");
+
+ doc.save(getArtifactsDir() + "PlainTextDocument.BuiltInProperties.docx");
+
+ PlainTextDocument plaintext = new PlainTextDocument(getArtifactsDir() + "PlainTextDocument.BuiltInProperties.docx");
+
+ Assert.assertEquals("Hello world!", plaintext.getText().trim());
+ Assert.assertEquals("John Doe", plaintext.getBuiltInDocumentProperties().getAuthor());
+ 
+```
+
 **Returns:**
-[BuiltInDocumentProperties](../../com.aspose.words/builtindocumentproperties/) - \{[getBuiltInDocumentProperties()](../../com.aspose.words/plaintextdocument/\#getBuiltInDocumentProperties) of the document.
+[BuiltInDocumentProperties](../../com.aspose.words/builtindocumentproperties/) - [getBuiltInDocumentProperties()](../../com.aspose.words/plaintextdocument/\#getBuiltInDocumentProperties) of the document.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -141,8 +182,29 @@ public CustomDocumentProperties getCustomDocumentProperties()
 
 Gets [getCustomDocumentProperties()](../../com.aspose.words/plaintextdocument/\#getCustomDocumentProperties) of the document.
 
+ **Examples:** 
+
+Shows how to load the contents of a Microsoft Word document in plaintext and then access the original document's custom properties.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Hello world!");
+ doc.getCustomDocumentProperties().add("Location of writing", "123 Main St, London, UK");
+
+ doc.save(getArtifactsDir() + "PlainTextDocument.CustomDocumentProperties.docx");
+
+ PlainTextDocument plaintext = new PlainTextDocument(getArtifactsDir() + "PlainTextDocument.CustomDocumentProperties.docx");
+
+ Assert.assertEquals("Hello world!", plaintext.getText().trim());
+ Assert.assertEquals("123 Main St, London, UK", plaintext.getCustomDocumentProperties().get("Location of writing").getValue());
+ 
+```
+
 **Returns:**
-[CustomDocumentProperties](../../com.aspose.words/customdocumentproperties/) - \{[getCustomDocumentProperties()](../../com.aspose.words/plaintextdocument/\#getCustomDocumentProperties) of the document.
+[CustomDocumentProperties](../../com.aspose.words/customdocumentproperties/) - [getCustomDocumentProperties()](../../com.aspose.words/plaintextdocument/\#getCustomDocumentProperties) of the document.
 ### getText() {#getText}
 ```
 public String getText()
@@ -150,6 +212,24 @@ public String getText()
 
 
 Gets textual content of the document concatenated as a string.
+
+ **Examples:** 
+
+Shows how to load the contents of a Microsoft Word document in plaintext.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Hello world!");
+
+ doc.save(getArtifactsDir() + "PlainTextDocument.Load.docx");
+
+ PlainTextDocument plaintext = new PlainTextDocument(getArtifactsDir() + "PlainTextDocument.Load.docx");
+
+ Assert.assertEquals("Hello world!", plaintext.getText().trim());
+ 
+```
 
 **Returns:**
 java.lang.String - Textual content of the document concatenated as a string.
