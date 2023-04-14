@@ -4,7 +4,7 @@ linktitle: Underline
 second_title: Aspose.Words for Java API Reference
 description: Indicates type of the underline applied to a font in Java.
 type: docs
-weight: 594
+weight: 597
 url: /java/com.aspose.words/underline/
 ---
 
@@ -15,6 +15,30 @@ public class Underline
 ```
 
 Indicates type of the underline applied to a font.
+
+ **Examples:** 
+
+Shows how to insert a hyperlink field.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.write("For more information, please visit the ");
+
+ // Insert a hyperlink and emphasize it with custom formatting.
+ // The hyperlink will be a clickable piece of text which will take us to the location specified in the URL.
+ builder.getFont().setColor(Color.BLUE);
+ builder.getFont().setUnderline(Underline.SINGLE);
+ builder.insertHyperlink("Google website", "https://www.google.com", false);
+ builder.getFont().clearFormatting();
+ builder.writeln(".");
+
+ // Ctrl + left clicking the link in the text in Microsoft Word will take us to the URL via a new web browser window.
+ doc.save(getArtifactsDir() + "DocumentBuilder.InsertHyperlink.docx");
+ 
+```
 ## Fields
 
 | Field | Description |

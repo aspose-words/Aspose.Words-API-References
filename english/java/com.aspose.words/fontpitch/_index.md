@@ -4,7 +4,7 @@ linktitle: FontPitch
 second_title: Aspose.Words for Java API Reference
 description: Represents the font pitch in Java.
 type: docs
-weight: 286
+weight: 287
 url: /java/com.aspose.words/fontpitch/
 ---
 
@@ -14,7 +14,47 @@ java.lang.Object
 public class FontPitch
 ```
 
-Represents the font pitch. The pitch indicates if the font is fixed pitch, proportionally spaced, or relies on a default setting.
+Represents the font pitch.
+
+ **Remarks:** 
+
+The pitch indicates if the font is fixed pitch, proportionally spaced, or relies on a default setting.
+
+ **Examples:** 
+
+Shows how to access and print details of each font in a document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ Iterator fontCollectionEnumerator = doc.getFontInfos().iterator();
+ while (fontCollectionEnumerator.hasNext()) {
+     FontInfo fontInfo = fontCollectionEnumerator.next();
+     if (fontInfo != null) {
+         System.out.println("Font name: " + fontInfo.getName());
+
+         // Alt names are usually blank.
+         System.out.println("Alt name: " + fontInfo.getAltName());
+         System.out.println("\t- Family: " + fontInfo.getFamily());
+         System.out.println("\t- " + (fontInfo.isTrueType() ? "Is TrueType" : "Is not TrueType"));
+         System.out.println("\t- Pitch: " + fontInfo.getPitch());
+         System.out.println("\t- Charset: " + fontInfo.getCharset());
+         System.out.println("\t- Panose:");
+         System.out.println("\t\tFamily Kind: " + (fontInfo.getPanose()[0] & 0xFF));
+         System.out.println("\t\tSerif Style: " + (fontInfo.getPanose()[1] & 0xFF));
+         System.out.println("\t\tWeight: " + (fontInfo.getPanose()[2] & 0xFF));
+         System.out.println("\t\tProportion: " + (fontInfo.getPanose()[3] & 0xFF));
+         System.out.println("\t\tContrast: " + (fontInfo.getPanose()[4] & 0xFF));
+         System.out.println("\t\tStroke Variation: " + (fontInfo.getPanose()[5] & 0xFF));
+         System.out.println("\t\tArm Style: " + (fontInfo.getPanose()[6] & 0xFF));
+         System.out.println("\t\tLetterform: " + (fontInfo.getPanose()[7] & 0xFF));
+         System.out.println("\t\tMidline: " + (fontInfo.getPanose()[8] & 0xFF));
+         System.out.println("\t\tX-Height: " + (fontInfo.getPanose()[9] & 0xFF));
+     }
+ }
+ 
+```
 ## Fields
 
 | Field | Description |

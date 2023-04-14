@@ -4,7 +4,7 @@ linktitle: MarkerSymbol
 second_title: Aspose.Words for Java API Reference
 description: Specifies marker symbol style in Java.
 type: docs
-weight: 395
+weight: 396
 url: /java/com.aspose.words/markersymbol/
 ---
 
@@ -15,6 +15,61 @@ public class MarkerSymbol
 ```
 
 Specifies marker symbol style.
+
+ **Examples:** 
+
+Shows how to work with data points on a line chart.
+
+```
+
+ public void chartDataPoint() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     Shape shape = builder.insertChart(ChartType.LINE, 500.0, 350.0);
+     Chart chart = shape.getChart();
+
+     Assert.assertEquals(3, chart.getSeries().getCount());
+     Assert.assertEquals("Series 1", chart.getSeries().get(0).getName());
+     Assert.assertEquals("Series 2", chart.getSeries().get(1).getName());
+     Assert.assertEquals("Series 3", chart.getSeries().get(2).getName());
+
+     // Emphasize the chart's data points by making them appear as diamond shapes.
+     for (ChartSeries series : chart.getSeries())
+         applyDataPoints(series, 4, MarkerSymbol.DIAMOND, 15);
+
+     // Smooth out the line that represents the first data series.
+     chart.getSeries().get(0).setSmooth(true);
+
+     // Verify that data points for the first series will not invert their colors if the value is negative.
+     Iterator enumerator = chart.getSeries().get(0).getDataPoints().iterator();
+     while (enumerator.hasNext()) {
+         Assert.assertFalse(enumerator.next().getInvertIfNegative());
+     }
+
+     // For a cleaner looking graph, we can clear format individually.
+     chart.getSeries().get(1).getDataPoints().get(2).clearFormat();
+
+     // We can also strip an entire series of data points at once.
+     chart.getSeries().get(2).getDataPoints().clearFormat();
+
+     doc.save(getArtifactsDir() + "Charts.ChartDataPoint.docx");
+ }
+
+ /// 
+ /// Applies a number of data points to a series.
+ /// 
+ private static void applyDataPoints(ChartSeries series, int dataPointsCount, int markerSymbol, int dataPointSize) {
+     for (int i = 0; i < dataPointsCount; i++) {
+         ChartDataPoint point = series.getDataPoints().get(i);
+         point.getMarker().setSymbol(markerSymbol);
+         point.getMarker().setSize(dataPointSize);
+
+         Assert.assertEquals(point.getIndex(), i);
+     }
+ }
+ 
+```
 ## Fields
 
 | Field | Description |

@@ -4,7 +4,7 @@ linktitle: Forms2OleControl
 second_title: Aspose.Words for Java API Reference
 description: Represents Microsoft Forms 2.0 OLE control in Java.
 type: docs
-weight: 300
+weight: 301
 url: /java/com.aspose.words/forms2olecontrol/
 ---
 
@@ -17,6 +17,30 @@ public abstract class Forms2OleControl extends OleControl
 Represents Microsoft Forms 2.0 OLE control.
 
 To learn more, visit the [ Working with Ole Objects ][Working with Ole Objects] documentation article.
+
+ **Examples:** 
+
+Shows how to verify the properties of an ActiveX control.
+
+```
+
+ Document doc = new Document(getMyDir() + "ActiveX controls.docx");
+
+ Shape shape = (Shape) doc.getChild(NodeType.SHAPE, 0, true);
+ OleControl oleControl = shape.getOleFormat().getOleControl();
+
+ Assert.assertEquals(oleControl.getName(), "CheckBox1");
+
+ if (oleControl.isForms2OleControl()) {
+     Forms2OleControl checkBox = (Forms2OleControl) oleControl;
+     Assert.assertEquals(checkBox.getCaption(), "\u041f\u0435\u0440\u0432\u044b\u0439");
+     Assert.assertEquals(checkBox.getValue(), "0");
+     Assert.assertEquals(checkBox.getEnabled(), true);
+     Assert.assertEquals(checkBox.getType(), Forms2OleControlType.CHECK_BOX);
+     Assert.assertEquals(checkBox.getChildNodes(), null);
+ }
+ 
+```
 
 
 [Working with Ole Objects]: https://docs.aspose.com/words/java/working-with-ole-objects/
@@ -81,6 +105,30 @@ public String getCaption()
 
 Gets Caption property of control. Default value is an empty string.
 
+ **Examples:** 
+
+Shows how to verify the properties of an ActiveX control.
+
+```
+
+ Document doc = new Document(getMyDir() + "ActiveX controls.docx");
+
+ Shape shape = (Shape) doc.getChild(NodeType.SHAPE, 0, true);
+ OleControl oleControl = shape.getOleFormat().getOleControl();
+
+ Assert.assertEquals(oleControl.getName(), "CheckBox1");
+
+ if (oleControl.isForms2OleControl()) {
+     Forms2OleControl checkBox = (Forms2OleControl) oleControl;
+     Assert.assertEquals(checkBox.getCaption(), "\u041f\u0435\u0440\u0432\u044b\u0439");
+     Assert.assertEquals(checkBox.getValue(), "0");
+     Assert.assertEquals(checkBox.getEnabled(), true);
+     Assert.assertEquals(checkBox.getType(), Forms2OleControlType.CHECK_BOX);
+     Assert.assertEquals(checkBox.getChildNodes(), null);
+ }
+ 
+```
+
 **Returns:**
 java.lang.String - Caption property of control.
 ### getChildNodes() {#getChildNodes}
@@ -89,7 +137,35 @@ public Forms2OleControlCollection getChildNodes()
 ```
 
 
-Gets collection of immediate child controls. Returns  null  if this control can not have children.
+Gets collection of immediate child controls.
+
+ **Remarks:** 
+
+Returns  null  if this control can not have children.
+
+ **Examples:** 
+
+Shows how to verify the properties of an ActiveX control.
+
+```
+
+ Document doc = new Document(getMyDir() + "ActiveX controls.docx");
+
+ Shape shape = (Shape) doc.getChild(NodeType.SHAPE, 0, true);
+ OleControl oleControl = shape.getOleFormat().getOleControl();
+
+ Assert.assertEquals(oleControl.getName(), "CheckBox1");
+
+ if (oleControl.isForms2OleControl()) {
+     Forms2OleControl checkBox = (Forms2OleControl) oleControl;
+     Assert.assertEquals(checkBox.getCaption(), "\u041f\u0435\u0440\u0432\u044b\u0439");
+     Assert.assertEquals(checkBox.getValue(), "0");
+     Assert.assertEquals(checkBox.getEnabled(), true);
+     Assert.assertEquals(checkBox.getType(), Forms2OleControlType.CHECK_BOX);
+     Assert.assertEquals(checkBox.getChildNodes(), null);
+ }
+ 
+```
 
 **Returns:**
 [Forms2OleControlCollection](../../com.aspose.words/forms2olecontrolcollection/) - Collection of immediate child controls.
@@ -121,8 +197,32 @@ public boolean getEnabled()
 
 Returns  true  if control is in enabled state.
 
+ **Examples:** 
+
+Shows how to verify the properties of an ActiveX control.
+
+```
+
+ Document doc = new Document(getMyDir() + "ActiveX controls.docx");
+
+ Shape shape = (Shape) doc.getChild(NodeType.SHAPE, 0, true);
+ OleControl oleControl = shape.getOleFormat().getOleControl();
+
+ Assert.assertEquals(oleControl.getName(), "CheckBox1");
+
+ if (oleControl.isForms2OleControl()) {
+     Forms2OleControl checkBox = (Forms2OleControl) oleControl;
+     Assert.assertEquals(checkBox.getCaption(), "\u041f\u0435\u0440\u0432\u044b\u0439");
+     Assert.assertEquals(checkBox.getValue(), "0");
+     Assert.assertEquals(checkBox.getEnabled(), true);
+     Assert.assertEquals(checkBox.getType(), Forms2OleControlType.CHECK_BOX);
+     Assert.assertEquals(checkBox.getChildNodes(), null);
+ }
+ 
+```
+
 **Returns:**
-boolean - \{ true  if control is in enabled state.
+boolean -  true  if control is in enabled state.
 ### getExtensionForUser(String progId) {#getExtensionForUser-java.lang.String}
 ```
 public String getExtensionForUser(String progId)
@@ -166,6 +266,30 @@ public String getName()
 
 Gets name of the ActiveX control.
 
+ **Examples:** 
+
+Shows how to verify the properties of an ActiveX control.
+
+```
+
+ Document doc = new Document(getMyDir() + "ActiveX controls.docx");
+
+ Shape shape = (Shape) doc.getChild(NodeType.SHAPE, 0, true);
+ OleControl oleControl = shape.getOleFormat().getOleControl();
+
+ Assert.assertEquals(oleControl.getName(), "CheckBox1");
+
+ if (oleControl.isForms2OleControl()) {
+     Forms2OleControl checkBox = (Forms2OleControl) oleControl;
+     Assert.assertEquals(checkBox.getCaption(), "\u041f\u0435\u0440\u0432\u044b\u0439");
+     Assert.assertEquals(checkBox.getValue(), "0");
+     Assert.assertEquals(checkBox.getEnabled(), true);
+     Assert.assertEquals(checkBox.getType(), Forms2OleControlType.CHECK_BOX);
+     Assert.assertEquals(checkBox.getChildNodes(), null);
+ }
+ 
+```
+
 **Returns:**
 java.lang.String - Name of the ActiveX control.
 ### getType() {#getType}
@@ -176,6 +300,30 @@ public abstract int getType()
 
 Gets type of Forms 2.0 control.
 
+ **Examples:** 
+
+Shows how to verify the properties of an ActiveX control.
+
+```
+
+ Document doc = new Document(getMyDir() + "ActiveX controls.docx");
+
+ Shape shape = (Shape) doc.getChild(NodeType.SHAPE, 0, true);
+ OleControl oleControl = shape.getOleFormat().getOleControl();
+
+ Assert.assertEquals(oleControl.getName(), "CheckBox1");
+
+ if (oleControl.isForms2OleControl()) {
+     Forms2OleControl checkBox = (Forms2OleControl) oleControl;
+     Assert.assertEquals(checkBox.getCaption(), "\u041f\u0435\u0440\u0432\u044b\u0439");
+     Assert.assertEquals(checkBox.getValue(), "0");
+     Assert.assertEquals(checkBox.getEnabled(), true);
+     Assert.assertEquals(checkBox.getType(), Forms2OleControlType.CHECK_BOX);
+     Assert.assertEquals(checkBox.getChildNodes(), null);
+ }
+ 
+```
+
 **Returns:**
 int - Type of Forms 2.0 control. The returned value is one of [Forms2OleControlType](../../com.aspose.words/forms2olecontroltype/) constants.
 ### getValue() {#getValue}
@@ -185,6 +333,30 @@ public String getValue()
 
 
 Gets underlying Value property which often represents control state. For example checked option button has '1' value while unchecked has '0'. Default value is an empty string.
+
+ **Examples:** 
+
+Shows how to verify the properties of an ActiveX control.
+
+```
+
+ Document doc = new Document(getMyDir() + "ActiveX controls.docx");
+
+ Shape shape = (Shape) doc.getChild(NodeType.SHAPE, 0, true);
+ OleControl oleControl = shape.getOleFormat().getOleControl();
+
+ Assert.assertEquals(oleControl.getName(), "CheckBox1");
+
+ if (oleControl.isForms2OleControl()) {
+     Forms2OleControl checkBox = (Forms2OleControl) oleControl;
+     Assert.assertEquals(checkBox.getCaption(), "\u041f\u0435\u0440\u0432\u044b\u0439");
+     Assert.assertEquals(checkBox.getValue(), "0");
+     Assert.assertEquals(checkBox.getEnabled(), true);
+     Assert.assertEquals(checkBox.getType(), Forms2OleControlType.CHECK_BOX);
+     Assert.assertEquals(checkBox.getChildNodes(), null);
+ }
+ 
+```
 
 **Returns:**
 java.lang.String - Underlying Value property which often represents control state.
@@ -206,8 +378,32 @@ public boolean isForms2OleControl()
 
 Returns  true  if the control is a [Forms2OleControl](../../com.aspose.words/forms2olecontrol/).
 
+ **Examples:** 
+
+Shows how to verify the properties of an ActiveX control.
+
+```
+
+ Document doc = new Document(getMyDir() + "ActiveX controls.docx");
+
+ Shape shape = (Shape) doc.getChild(NodeType.SHAPE, 0, true);
+ OleControl oleControl = shape.getOleFormat().getOleControl();
+
+ Assert.assertEquals(oleControl.getName(), "CheckBox1");
+
+ if (oleControl.isForms2OleControl()) {
+     Forms2OleControl checkBox = (Forms2OleControl) oleControl;
+     Assert.assertEquals(checkBox.getCaption(), "\u041f\u0435\u0440\u0432\u044b\u0439");
+     Assert.assertEquals(checkBox.getValue(), "0");
+     Assert.assertEquals(checkBox.getEnabled(), true);
+     Assert.assertEquals(checkBox.getType(), Forms2OleControlType.CHECK_BOX);
+     Assert.assertEquals(checkBox.getChildNodes(), null);
+ }
+ 
+```
+
 **Returns:**
-boolean - \{ true  if the control is a [Forms2OleControl](../../com.aspose.words/forms2olecontrol/).
+boolean -  true  if the control is a [Forms2OleControl](../../com.aspose.words/forms2olecontrol/).
 ### isForms2OleControlInternal() {#isForms2OleControlInternal}
 ```
 public boolean isForms2OleControlInternal()
@@ -254,6 +450,30 @@ public void setName(String value)
 
 
 Gets name of the ActiveX control.
+
+ **Examples:** 
+
+Shows how to verify the properties of an ActiveX control.
+
+```
+
+ Document doc = new Document(getMyDir() + "ActiveX controls.docx");
+
+ Shape shape = (Shape) doc.getChild(NodeType.SHAPE, 0, true);
+ OleControl oleControl = shape.getOleFormat().getOleControl();
+
+ Assert.assertEquals(oleControl.getName(), "CheckBox1");
+
+ if (oleControl.isForms2OleControl()) {
+     Forms2OleControl checkBox = (Forms2OleControl) oleControl;
+     Assert.assertEquals(checkBox.getCaption(), "\u041f\u0435\u0440\u0432\u044b\u0439");
+     Assert.assertEquals(checkBox.getValue(), "0");
+     Assert.assertEquals(checkBox.getEnabled(), true);
+     Assert.assertEquals(checkBox.getType(), Forms2OleControlType.CHECK_BOX);
+     Assert.assertEquals(checkBox.getChildNodes(), null);
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |

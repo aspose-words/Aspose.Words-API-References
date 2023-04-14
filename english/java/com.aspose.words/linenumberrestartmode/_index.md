@@ -4,7 +4,7 @@ linktitle: LineNumberRestartMode
 second_title: Aspose.Words for Java API Reference
 description: Determines when automatic line numbering restarts in Java.
 type: docs
-weight: 368
+weight: 369
 url: /java/com.aspose.words/linenumberrestartmode/
 ---
 
@@ -15,6 +15,39 @@ public class LineNumberRestartMode
 ```
 
 Determines when automatic line numbering restarts.
+
+ **Examples:** 
+
+Shows how to enable line numbering for a section.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // We can use the section's PageSetup object to display numbers to the left of the section's text lines.
+ // This is the same behavior as a List object,
+ // but it covers the entire section and does not modify the text in any way.
+ // Our section will restart the numbering on each new page from 1 and display the number,
+ // if it is a multiple of 3, at 50pt to the left of the line.
+ PageSetup pageSetup = builder.getPageSetup();
+ pageSetup.setLineStartingNumber(1);
+ pageSetup.setLineNumberCountBy(3);
+ pageSetup.setLineNumberRestartMode(LineNumberRestartMode.RESTART_PAGE);
+ pageSetup.setLineNumberDistanceFromText(50.0d);
+
+ for (int i = 1; i <= 25; i++)
+     builder.writeln(MessageFormat.format("Line {0}.", i));
+
+ // The line counter will skip any paragraph with the "SuppressLineNumbers" flag set to "true".
+ // This paragraph is on the 15th line, which is a multiple of 3, and thus would normally display a line number.
+ // The section's line counter will also ignore this line, treat the next line as the 15th,
+ // and continue the count from that point onward.
+ doc.getFirstSection().getBody().getParagraphs().get(14).getParagraphFormat().setSuppressLineNumbers(true);
+
+ doc.save(getArtifactsDir() + "PageSetup.LineNumbers.docx");
+ 
+```
 ## Fields
 
 | Field | Description |

@@ -2,9 +2,9 @@
 title: IFieldDatabaseProvider
 linktitle: IFieldDatabaseProvider
 second_title: Aspose.Words for Java API Reference
-description: Implement this interface to provide data for the  field when its updated in Java.
+description: Implement this interface to provide data for the FieldDatabase field when its updated in Java.
 type: docs
-weight: 646
+weight: 649
 url: /java/com.aspose.words/ifielddatabaseprovider/
 ---
 ```

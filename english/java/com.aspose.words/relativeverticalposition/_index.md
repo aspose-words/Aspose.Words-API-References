@@ -4,7 +4,7 @@ linktitle: RelativeVerticalPosition
 second_title: Aspose.Words for Java API Reference
 description: Specifies to what the vertical position of a shape or text frame is relative in Java.
 type: docs
-weight: 480
+weight: 482
 url: /java/com.aspose.words/relativeverticalposition/
 ---
 
@@ -15,6 +15,52 @@ public class RelativeVerticalPosition
 ```
 
 Specifies to what the vertical position of a shape or text frame is relative.
+
+ **Examples:** 
+
+Shows how to insert a floating image to the center of a page.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a floating image that will appear behind the overlapping text and align it to the page's center.
+ Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
+ shape.setWrapType(WrapType.NONE);
+ shape.setBehindText(true);
+ shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
+ shape.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
+ shape.setHorizontalAlignment(HorizontalAlignment.CENTER);
+ shape.setVerticalAlignment(VerticalAlignment.CENTER);
+
+ doc.save(getArtifactsDir() + "Image.CreateFloatingPageCenter.docx");
+ 
+```
+
+Shows how to insert an image, and use it as a watermark.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert the image into the header so that it will be visible on every page.
+ BufferedImage image = ImageIO.read(new File(getImageDir() + "Transparent background logo.png"));
+ builder.moveToHeaderFooter(HeaderFooterType.HEADER_PRIMARY);
+ Shape shape = builder.insertImage(image);
+ shape.setWrapType(WrapType.NONE);
+ shape.setBehindText(true);
+
+ // Place the image at the center of the page.
+ shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
+ shape.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
+ shape.setLeft((builder.getPageSetup().getPageWidth() - shape.getWidth()) / 2.0);
+ shape.setTop((builder.getPageSetup().getPageHeight() - shape.getHeight()) / 2.0);
+
+ doc.save(getArtifactsDir() + "DocumentBuilder.InsertWatermark.docx");
+ 
+```
 ## Fields
 
 | Field | Description |

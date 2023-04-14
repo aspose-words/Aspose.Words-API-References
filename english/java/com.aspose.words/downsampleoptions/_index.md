@@ -4,7 +4,7 @@ linktitle: DownsampleOptions
 second_title: Aspose.Words for Java API Reference
 description: Allows to specify downsample options in Java.
 type: docs
-weight: 134
+weight: 135
 url: /java/com.aspose.words/downsampleoptions/
 ---
 
@@ -70,7 +70,11 @@ public boolean getDownsampleImages()
 ```
 
 
-Specifies whether images should be downsampled. The default value is  true .
+Specifies whether images should be downsampled.
+
+ **Remarks:** 
+
+The default value is  true .
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -80,7 +84,11 @@ public int getResolution()
 ```
 
 
-Specifies the resolution in pixels per inch which the images should be downsampled to. The default value is 220 ppi.
+Specifies the resolution in pixels per inch which the images should be downsampled to.
+
+ **Remarks:** 
+
+The default value is 220 ppi.
 
 **Returns:**
 int - The corresponding  int  value.
@@ -90,7 +98,11 @@ public int getResolutionThreshold()
 ```
 
 
-Specifies the threshold resolution in pixels per inch. If resolution of an image in the document is less than threshold value, the downsampling algorithm will not be applied. A value of 0 means the threshold check is not used and all images that can be reduced in size are downsampled. The default value is 0.
+Specifies the threshold resolution in pixels per inch. If resolution of an image in the document is less than threshold value, the downsampling algorithm will not be applied. A value of 0 means the threshold check is not used and all images that can be reduced in size are downsampled.
+
+ **Remarks:** 
+
+The default value is 0.
 
 **Returns:**
 int - The corresponding  int  value.
@@ -126,7 +138,11 @@ public void setDownsampleImages(boolean value)
 ```
 
 
-Specifies whether images should be downsampled. The default value is  true .
+Specifies whether images should be downsampled.
+
+ **Remarks:** 
+
+The default value is  true .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -139,7 +155,11 @@ public void setResolution(int value)
 ```
 
 
-Specifies the resolution in pixels per inch which the images should be downsampled to. The default value is 220 ppi.
+Specifies the resolution in pixels per inch which the images should be downsampled to.
+
+ **Remarks:** 
+
+The default value is 220 ppi.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -152,7 +172,11 @@ public void setResolutionThreshold(int value)
 ```
 
 
-Specifies the threshold resolution in pixels per inch. If resolution of an image in the document is less than threshold value, the downsampling algorithm will not be applied. A value of 0 means the threshold check is not used and all images that can be reduced in size are downsampled. The default value is 0.
+Specifies the threshold resolution in pixels per inch. If resolution of an image in the document is less than threshold value, the downsampling algorithm will not be applied. A value of 0 means the threshold check is not used and all images that can be reduced in size are downsampled.
+
+ **Remarks:** 
+
+The default value is 0.
 
 **Parameters:**
 | Parameter | Type | Description |

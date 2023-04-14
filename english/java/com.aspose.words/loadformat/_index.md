@@ -4,7 +4,7 @@ linktitle: LoadFormat
 second_title: Aspose.Words for Java API Reference
 description: Indicates the format of the document that is to be loaded in Java.
 type: docs
-weight: 380
+weight: 381
 url: /java/com.aspose.words/loadformat/
 ---
 
@@ -15,6 +15,93 @@ public class LoadFormat
 ```
 
 Indicates the format of the document that is to be loaded.
+
+ **Examples:** 
+
+Shows how to specify a base URI when opening an html document.
+
+```
+
+ // Suppose we want to load an .html document that contains an image linked by a relative URI
+ // while the image is in a different location. In that case, we will need to resolve the relative URI into an absolute one.
+ // We can provide a base URI using an HtmlLoadOptions object.
+ HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.HTML, "", getImageDir());
+
+ Assert.assertEquals(LoadFormat.HTML, loadOptions.getLoadFormat());
+
+ Document doc = new Document(getMyDir() + "Missing image.html", loadOptions);
+
+ // While the image was broken in the input .html, our custom base URI helped us repair the link.
+ Shape imageShape = (Shape) doc.getChildNodes(NodeType.SHAPE, true).get(0);
+ Assert.assertTrue(imageShape.isImage());
+
+ // This output document will display the image that was missing.
+ doc.save(getArtifactsDir() + "HtmlLoadOptions.BaseUri.docx");
+ 
+```
+
+Shows how to insert the HTML contents from a web page into a new document.
+
+```
+
+ URL url = new URL("https://www.aspose.com");
+
+ // The easiest way to load our document from the internet is make use of the URLConnection class.
+ URLConnection webClient = url.openConnection();
+
+ // Download the bytes from the location referenced by the URL.
+ InputStream inputStream = webClient.getInputStream();
+
+ // Convert the input stream to a byte array.
+ int pos;
+ ByteArrayOutputStream bos = new ByteArrayOutputStream();
+ while ((pos = inputStream.read()) != -1) bos.write(pos);
+
+ byte[] dataBytes = bos.toByteArray();
+
+ // Wrap the bytes representing the document in memory into a stream object.
+ ByteArrayInputStream byteStream = new ByteArrayInputStream(dataBytes);
+
+ // The baseUri property should be set to ensure any relative img paths are retrieved correctly.
+ LoadOptions options = new LoadOptions(LoadFormat.HTML, "", url.getPath());
+
+ // Load the HTML document from stream and pass the LoadOptions object.
+ Document doc = new Document(byteStream, options);
+
+ doc.save(getArtifactsDir() + "Document.InsertHtmlFromWebPage.docx");
+ 
+```
+
+Shows how to use the FileFormatUtil methods to detect the format of a document.
+
+```
+
+ // Load a document from a file that is missing a file extension, and then detect its file format.
+ FileInputStream docStream = new FileInputStream(getMyDir() + "Word document with missing file extension");
+
+ FileFormatInfo info = FileFormatUtil.detectFileFormat(docStream);
+
+ int loadFormat = info.getLoadFormat();
+
+ Assert.assertEquals(LoadFormat.DOC, loadFormat);
+
+ // Below are two methods of converting a LoadFormat to its corresponding SaveFormat.
+ // 1 -  Get the file extension string for the LoadFormat, then get the corresponding SaveFormat from that string:
+ String fileExtension = FileFormatUtil.loadFormatToExtension(loadFormat);
+
+ int saveFormat = FileFormatUtil.extensionToSaveFormat(fileExtension);
+
+ // 2 -  Convert the LoadFormat directly to its SaveFormat:
+ saveFormat = FileFormatUtil.loadFormatToSaveFormat(loadFormat);
+
+ // Load a document from the stream, and then save it to the automatically detected file extension.
+ Document doc = new Document(docStream);
+
+ Assert.assertEquals(".doc", FileFormatUtil.saveFormatToExtension(saveFormat));
+
+ doc.save(getArtifactsDir() + "File.SaveToDetectedFileFormat" + FileFormatUtil.saveFormatToExtension(saveFormat));
+ 
+```
 ## Fields
 
 | Field | Description |

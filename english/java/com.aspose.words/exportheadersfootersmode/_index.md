@@ -4,7 +4,7 @@ linktitle: ExportHeadersFootersMode
 second_title: Aspose.Words for Java API Reference
 description: Specifies how headers and footers are exported to HTML MHTML or EPUB in Java.
 type: docs
-weight: 150
+weight: 151
 url: /java/com.aspose.words/exportheadersfootersmode/
 ---
 
@@ -15,6 +15,36 @@ public class ExportHeadersFootersMode
 ```
 
 Specifies how headers and footers are exported to HTML, MHTML or EPUB.
+
+ **Examples:** 
+
+Shows how to omit headers/footers when saving a document to HTML.
+
+```
+
+ Document doc = new Document(getMyDir() + "Header and footer types.docx");
+
+ // This document contains headers and footers. We can access them via the "HeadersFooters" collection.
+ Assert.assertEquals("First header", doc.getFirstSection().getHeadersFooters().getByHeaderFooterType(HeaderFooterType.HEADER_FIRST).getText().trim());
+
+ // Formats such as .html do not split the document into pages, so headers/footers will not function the same way
+ // they would when we open the document as a .docx using Microsoft Word.
+ // If we convert a document with headers/footers to html, the conversion will assimilate the headers/footers into body text.
+ // We can use a SaveOptions object to omit headers/footers while converting to html.
+ HtmlSaveOptions saveOptions =
+         new HtmlSaveOptions(SaveFormat.HTML);
+ {
+     saveOptions.setExportHeadersFootersMode(ExportHeadersFootersMode.NONE);
+ }
+
+ doc.save(getArtifactsDir() + "HeaderFooter.ExportMode.html", saveOptions);
+
+ // Open our saved document and verify that it does not contain the header's text.
+ doc = new Document(getArtifactsDir() + "HeaderFooter.ExportMode.html");
+
+ Assert.assertFalse(doc.getRange().getText().contains("First header"));
+ 
+```
 ## Fields
 
 | Field | Description |

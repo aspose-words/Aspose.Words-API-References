@@ -2,9 +2,9 @@
 title: HtmlSaveOptions
 linktitle: HtmlSaveOptions
 second_title: Aspose.Words for Java API Reference
-description: Can be used to specify additional options when saving a document into the     or  format in Java.
+description: Can be used to specify additional options when saving a document into the SaveFormat.HTML SaveFormat.MHTML SaveFormat.EPUB SaveFormat.AZW_3 or SaveFormat.MOBI format in Java.
 type: docs
-weight: 333
+weight: 334
 url: /java/com.aspose.words/htmlsaveoptions/
 ---
 
@@ -20,6 +20,162 @@ public class HtmlSaveOptions extends SaveOptions implements Cloneable
 Can be used to specify additional options when saving a document into the [SaveFormat.HTML](../../com.aspose.words/saveformat/\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat/\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat/\#EPUB), [SaveFormat.AZW\_3](../../com.aspose.words/saveformat/\#AZW-3) or [SaveFormat.MOBI](../../com.aspose.words/saveformat/\#MOBI) format.
 
 To learn more, visit the [ Specify Save Options ][Specify Save Options] documentation article.
+
+ **Examples:** 
+
+Shows how to specify the folder for storing linked images after saving to .html.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ File imagesDir = new File(getArtifactsDir() + "SaveHtmlWithOptions");
+
+ if (imagesDir.exists())
+     imagesDir.delete();
+
+ imagesDir.mkdir();
+
+ // Set an option to export form fields as plain text instead of HTML input elements.
+ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.HTML);
+ options.setExportTextInputFormFieldAsText(true);
+ options.setImagesFolder(imagesDir.getPath());
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.SaveHtmlWithOptions.html", options);
+ 
+```
+
+Shows how to use a specific encoding when saving a document to .epub.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ // Use a SaveOptions object to specify the encoding for a document that we will save.
+ HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+ saveOptions.setSaveFormat(SaveFormat.EPUB);
+ saveOptions.setEncoding(StandardCharsets.UTF_8);
+
+ // By default, an output .epub document will have all of its contents in one HTML part.
+ // A split criterion allows us to segment the document into several HTML parts.
+ // We will set the criteria to split the document into heading paragraphs.
+ // This is useful for readers who cannot read HTML files more significant than a specific size.
+ saveOptions.setDocumentSplitCriteria(DocumentSplitCriteria.HEADING_PARAGRAPH);
+
+ // Specify that we want to export document properties.
+ saveOptions.setExportDocumentProperties(true);
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions);
+ 
+```
+
+Shows how to split a document into parts and save them.
+
+```
+
+ public void documentPartsFileNames() throws Exception {
+     Document doc = new Document(getMyDir() + "Rendering.docx");
+     String outFileName = "SavingCallback.DocumentPartsFileNames.html";
+
+     // Create an "HtmlFixedSaveOptions" object, which we can pass to the document's "Save" method
+     // to modify how we convert the document to HTML.
+     HtmlSaveOptions options = new HtmlSaveOptions();
+
+     // If we save the document normally, there will be one output HTML
+     // document with all the source document's contents.
+     // Set the "DocumentSplitCriteria" property to "DocumentSplitCriteria.SectionBreak" to
+     // save our document to multiple HTML files: one for each section.
+     options.setDocumentSplitCriteria(DocumentSplitCriteria.SECTION_BREAK);
+
+     // Assign a custom callback to the "DocumentPartSavingCallback" property to alter the document part saving logic.
+     options.setDocumentPartSavingCallback(new SavedDocumentPartRename(outFileName, options.getDocumentSplitCriteria()));
+
+     // If we convert a document that contains images into html, we will end up with one html file which links to several images.
+     // Each image will be in the form of a file in the local file system.
+     // There is also a callback that can customize the name and file system location of each image.
+     options.setImageSavingCallback(new SavedImageRename(outFileName));
+
+     doc.save(getArtifactsDir() + outFileName, options);
+ }
+
+ /// 
+ /// Sets custom filenames for output documents that the saving operation splits a document into.
+ /// 
+ private static class SavedDocumentPartRename implements IDocumentPartSavingCallback {
+     public SavedDocumentPartRename(String outFileName, int documentSplitCriteria) {
+         mOutFileName = outFileName;
+         mDocumentSplitCriteria = documentSplitCriteria;
+     }
+
+     public void documentPartSaving(DocumentPartSavingArgs args) throws Exception {
+         // We can access the entire source document via the "Document" property.
+         Assert.assertTrue(args.getDocument().getOriginalFileName().endsWith("Rendering.docx"));
+
+         String partType = "";
+
+         switch (mDocumentSplitCriteria) {
+             case DocumentSplitCriteria.PAGE_BREAK:
+                 partType = "Page";
+                 break;
+             case DocumentSplitCriteria.COLUMN_BREAK:
+                 partType = "Column";
+                 break;
+             case DocumentSplitCriteria.SECTION_BREAK:
+                 partType = "Section";
+                 break;
+             case DocumentSplitCriteria.HEADING_PARAGRAPH:
+                 partType = "Paragraph from heading";
+                 break;
+         }
+
+         String partFileName = MessageFormat.format("{0} part {1}, of type {2}.{3}", mOutFileName, ++mCount, partType, FilenameUtils.getExtension(args.getDocumentPartFileName()));
+
+         // Below are two ways of specifying where Aspose.Words will save each part of the document.
+         // 1 -  Set a filename for the output part file:
+         args.setDocumentPartFileName(partFileName);
+
+         // 2 -  Create a custom stream for the output part file:
+         try (FileOutputStream outputStream = new FileOutputStream(getArtifactsDir() + partFileName)) {
+             args.setDocumentPartStream(outputStream);
+         }
+
+         Assert.assertNotNull(args.getDocumentPartStream());
+         Assert.assertFalse(args.getKeepDocumentPartStreamOpen());
+     }
+
+     private int mCount;
+     private final String mOutFileName;
+     private final int mDocumentSplitCriteria;
+ }
+
+ /// 
+ /// Sets custom filenames for image files that an HTML conversion creates.
+ /// 
+ public static class SavedImageRename implements IImageSavingCallback {
+     public SavedImageRename(String outFileName) {
+         mOutFileName = outFileName;
+     }
+
+     public void imageSaving(ImageSavingArgs args) throws Exception {
+         String imageFileName = MessageFormat.format("{0} shape {1}, of type {2}.{3}", mOutFileName, ++mCount, args.getCurrentShape().getShapeType(), FilenameUtils.getExtension(args.getImageFileName()));
+
+         // Below are two ways of specifying where Aspose.Words will save each part of the document.
+         // 1 -  Set a filename for the output image file:
+         args.setImageFileName(imageFileName);
+
+         // 2 -  Create a custom stream for the output image file:
+         args.setImageStream(new FileOutputStream(getArtifactsDir() + imageFileName));
+
+         Assert.assertNotNull(args.getImageStream());
+         Assert.assertTrue(args.isImageAvailable());
+         Assert.assertFalse(args.getKeepImageStreamOpen());
+     }
+
+     private int mCount;
+     private final String mOutFileName;
+ }
+ 
+```
 
 
 [Specify Save Options]: https://docs.aspose.com/words/java/specify-save-options/
@@ -178,6 +334,32 @@ public HtmlSaveOptions()
 
 Initializes a new instance of this class that can be used to save a document in the [SaveFormat.HTML](../../com.aspose.words/saveformat/\#HTML) format.
 
+ **Examples:** 
+
+Shows how to use a specific encoding when saving a document to .epub.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ // Use a SaveOptions object to specify the encoding for a document that we will save.
+ HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+ saveOptions.setSaveFormat(SaveFormat.EPUB);
+ saveOptions.setEncoding(StandardCharsets.UTF_8);
+
+ // By default, an output .epub document will have all of its contents in one HTML part.
+ // A split criterion allows us to segment the document into several HTML parts.
+ // We will set the criteria to split the document into heading paragraphs.
+ // This is useful for readers who cannot read HTML files more significant than a specific size.
+ saveOptions.setDocumentSplitCriteria(DocumentSplitCriteria.HEADING_PARAGRAPH);
+
+ // Specify that we want to export document properties.
+ saveOptions.setExportDocumentProperties(true);
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions);
+ 
+```
+
 ### HtmlSaveOptions(int saveFormat) {#HtmlSaveOptions-int}
 ```
 public HtmlSaveOptions(int saveFormat)
@@ -221,6 +403,29 @@ Creates a save options object of a class suitable for the file extension specifi
 
 **Returns:**
 [SaveOptions](../../com.aspose.words/saveoptions/) - An object of a class that derives from [SaveOptions](../../com.aspose.words/saveoptions/).
+
+ **Examples:** 
+
+Shows how to set a default template for documents that do not have attached templates.
+
+```
+
+ Document doc = new Document();
+
+ // Enable automatic style updating, but do not attach a template document.
+ doc.setAutomaticallyUpdateStyles(true);
+
+ Assert.assertEquals("", doc.getAttachedTemplate());
+
+ // Since there is no template document, the document had nowhere to track style changes.
+ // Use a SaveOptions object to automatically set a template
+ // if a document that we are saving does not have one.
+ SaveOptions options = SaveOptions.createSaveOptions("Document.DefaultTemplate.docx");
+ options.setDefaultTemplate(getMyDir() + "Business brochure.dotx");
+
+ doc.save(getArtifactsDir() + "Document.DefaultTemplate.docx", options);
+ 
+```
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
@@ -244,9 +449,40 @@ public boolean getAllowEmbeddingPostScriptFonts()
 
 Gets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is  false .
 
+ **Remarks:** 
+
 Note, Word does not embed PostScript fonts, but can open documents with embedded fonts of this type.
 
 This option only works when [FontInfoCollection.getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection/\#getEmbedTrueTypeFonts) / [FontInfoCollection.setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection/\#setEmbedTrueTypeFonts-boolean) of the [DocumentBase.getFontInfos()](../../com.aspose.words/documentbase/\#getFontInfos) property is set to  true .
+
+ **Examples:** 
+
+Shows how to save the document with PostScript font.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setName("PostScriptFont");
+ builder.writeln("Some text with PostScript font.");
+
+ // Load the font with PostScript to use in the document.
+ MemoryFontSource otf = new MemoryFontSource(DocumentHelper.getBytesFromStream(new FileInputStream(getFontsDir() + "AllegroOpen.otf")));
+ doc.setFontSettings(new FontSettings());
+ doc.getFontSettings().setFontsSources(new FontSourceBase[]{otf});
+
+ // Embed TrueType fonts.
+ doc.getFontInfos().setEmbedTrueTypeFonts(true);
+
+ // Allow embedding PostScript fonts while embedding TrueType fonts.
+ // Microsoft Word does not embed PostScript fonts, but can open documents with embedded fonts of this type.
+ SaveOptions saveOptions = SaveOptions.createSaveOptions(SaveFormat.DOCX);
+ saveOptions.setAllowEmbeddingPostScriptFonts(true);
+
+ doc.save(getArtifactsDir() + "Document.AllowEmbeddingPostScriptFonts.docx", saveOptions);
+ 
+```
 
 **Returns:**
 boolean - A boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved.
@@ -258,7 +494,67 @@ public boolean getAllowNegativeIndent()
 
 Specifies whether negative left and right indents of paragraphs are normalized when saving to HTML, MHTML or EPUB. Default value is  false .
 
+ **Remarks:** 
+
 When negative indent is not allowed, it is exported as zero margin to HTML. When negative indent is allowed, a paragraph might appear partially outside of the browser window.
+
+ **Examples:** 
+
+Shows how to preserve negative indents in the output .html.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a table with a negative indent, which will push it to the left past the left page boundary.
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Row 1, Cell 1");
+ builder.insertCell();
+ builder.write("Row 1, Cell 2");
+ builder.endTable();
+ table.setLeftIndent(-36);
+ table.setPreferredWidth(PreferredWidth.fromPoints(144.0));
+
+ builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+ // Insert a table with a positive indent, which will push the table to the right.
+ table = builder.startTable();
+ builder.insertCell();
+ builder.write("Row 1, Cell 1");
+ builder.insertCell();
+ builder.write("Row 1, Cell 2");
+ builder.endTable();
+ table.setLeftIndent(36.0);
+ table.setPreferredWidth(PreferredWidth.fromPoints(144.0));
+
+ // When we save a document to HTML, Aspose.Words will only preserve negative indents
+ // such as the one we have applied to the first table if we set the "AllowNegativeIndent" flag
+ // in a SaveOptions object that we will pass to "true".
+ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.HTML);
+ {
+     options.setAllowNegativeIndent(allowNegativeIndent);
+     options.setTableWidthOutputMode(HtmlElementSizeOutputMode.RELATIVE_ONLY);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.NegativeIndent.html", options);
+
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.NegativeIndent.html"), StandardCharsets.UTF_8);
+
+ if (allowNegativeIndent) {
+     Assert.assertTrue(outDocContents.contains(
+             " "));
+     Assert.assertTrue(outDocContents.contains(
+             " "));
+ } else {
+     Assert.assertTrue(outDocContents.contains(
+             " "));
+     Assert.assertTrue(outDocContents.contains(
+             " "));
+ }
+ 
+```
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -280,6 +576,8 @@ public String getCssClassNamePrefix()
 
 Specifies a prefix which is added to all CSS class names. Default value is an empty string and generated CSS class names have no common prefix.
 
+ **Remarks:** 
+
 If this value is not empty, all CSS classes generated by Aspose.Words will start with the specified prefix. This might be useful, for example, if you add custom CSS to generated documents and want to prevent class name conflicts.
 
 If the value is not  null  or empty, it must be a valid CSS identifier.
@@ -294,6 +592,59 @@ public ICssSavingCallback getCssSavingCallback()
 
 Allows to control how CSS styles are saved when a document is saved to HTML, MHTML or EPUB.
 
+ **Examples:** 
+
+Shows how to work with CSS stylesheets that an HTML conversion creates.
+
+```
+
+ public void externalCssFilenames() throws Exception {
+     Document doc = new Document(getMyDir() + "Rendering.docx");
+
+     // Create an "HtmlFixedSaveOptions" object, which we can pass to the document's "Save" method
+     // to modify how we convert the document to HTML.
+     HtmlSaveOptions options = new HtmlSaveOptions();
+
+     // Set the "CssStylesheetType" property to "CssStyleSheetType.External" to
+     // accompany a saved HTML document with an external CSS stylesheet file.
+     options.setCssStyleSheetType(CssStyleSheetType.EXTERNAL);
+
+     // Below are two ways of specifying directories and filenames for output CSS stylesheets.
+     // 1 -  Use the "CssStyleSheetFileName" property to assign a filename to our stylesheet:
+     options.setCssStyleSheetFileName(getArtifactsDir() + "SavingCallback.ExternalCssFilenames.css");
+
+     // 2 -  Use a custom callback to name our stylesheet:
+     options.setCssSavingCallback(new CustomCssSavingCallback(getArtifactsDir() + "SavingCallback.ExternalCssFilenames.css", true, false));
+
+     doc.save(getArtifactsDir() + "SavingCallback.ExternalCssFilenames.html", options);
+ }
+
+ /// 
+ /// Sets a custom filename, along with other parameters for an external CSS stylesheet.
+ /// 
+ private static class CustomCssSavingCallback implements ICssSavingCallback {
+     public CustomCssSavingCallback(String cssDocFilename, boolean isExportNeeded, boolean keepCssStreamOpen) {
+         mCssTextFileName = cssDocFilename;
+         mIsExportNeeded = isExportNeeded;
+         mKeepCssStreamOpen = keepCssStreamOpen;
+     }
+
+     public void cssSaving(CssSavingArgs args) throws Exception {
+         // We can access the entire source document via the "Document" property.
+         Assert.assertTrue(args.getDocument().getOriginalFileName().endsWith("Rendering.docx"));
+
+         args.setCssStream(new FileOutputStream(mCssTextFileName));
+         args.isExportNeeded(mIsExportNeeded);
+         args.setKeepCssStreamOpen(mKeepCssStreamOpen);
+     }
+
+     private final String mCssTextFileName;
+     private final boolean mIsExportNeeded;
+     private final boolean mKeepCssStreamOpen;
+ }
+ 
+```
+
 **Returns:**
 [ICssSavingCallback](../../com.aspose.words/icsssavingcallback/) - The corresponding [ICssSavingCallback](../../com.aspose.words/icsssavingcallback/) value.
 ### getCssStyleSheetFileName() {#getCssStyleSheetFileName}
@@ -303,6 +654,8 @@ public String getCssStyleSheetFileName()
 
 
 Specifies the path and the name of the Cascading Style Sheet (CSS) file written when a document is exported to HTML. Default is an empty string.
+
+ **Remarks:** 
 
 This property has effect only when saving a document to HTML format and external CSS style sheet is requested using [getCssStyleSheetType()](../../com.aspose.words/htmlsaveoptions/\#getCssStyleSheetType) / [setCssStyleSheetType(int)](../../com.aspose.words/htmlsaveoptions/\#setCssStyleSheetType-int).
 
@@ -314,6 +667,59 @@ If the folder specified by this property doesn't exist, it will be created autom
 
 Another way to specify a folder where external CSS file is saved is to use [getResourceFolder()](../../com.aspose.words/htmlsaveoptions/\#getResourceFolder) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setResourceFolder-java.lang.String).
 
+ **Examples:** 
+
+Shows how to work with CSS stylesheets that an HTML conversion creates.
+
+```
+
+ public void externalCssFilenames() throws Exception {
+     Document doc = new Document(getMyDir() + "Rendering.docx");
+
+     // Create an "HtmlFixedSaveOptions" object, which we can pass to the document's "Save" method
+     // to modify how we convert the document to HTML.
+     HtmlSaveOptions options = new HtmlSaveOptions();
+
+     // Set the "CssStylesheetType" property to "CssStyleSheetType.External" to
+     // accompany a saved HTML document with an external CSS stylesheet file.
+     options.setCssStyleSheetType(CssStyleSheetType.EXTERNAL);
+
+     // Below are two ways of specifying directories and filenames for output CSS stylesheets.
+     // 1 -  Use the "CssStyleSheetFileName" property to assign a filename to our stylesheet:
+     options.setCssStyleSheetFileName(getArtifactsDir() + "SavingCallback.ExternalCssFilenames.css");
+
+     // 2 -  Use a custom callback to name our stylesheet:
+     options.setCssSavingCallback(new CustomCssSavingCallback(getArtifactsDir() + "SavingCallback.ExternalCssFilenames.css", true, false));
+
+     doc.save(getArtifactsDir() + "SavingCallback.ExternalCssFilenames.html", options);
+ }
+
+ /// 
+ /// Sets a custom filename, along with other parameters for an external CSS stylesheet.
+ /// 
+ private static class CustomCssSavingCallback implements ICssSavingCallback {
+     public CustomCssSavingCallback(String cssDocFilename, boolean isExportNeeded, boolean keepCssStreamOpen) {
+         mCssTextFileName = cssDocFilename;
+         mIsExportNeeded = isExportNeeded;
+         mKeepCssStreamOpen = keepCssStreamOpen;
+     }
+
+     public void cssSaving(CssSavingArgs args) throws Exception {
+         // We can access the entire source document via the "Document" property.
+         Assert.assertTrue(args.getDocument().getOriginalFileName().endsWith("Rendering.docx"));
+
+         args.setCssStream(new FileOutputStream(mCssTextFileName));
+         args.isExportNeeded(mIsExportNeeded);
+         args.setKeepCssStreamOpen(mKeepCssStreamOpen);
+     }
+
+     private final String mCssTextFileName;
+     private final boolean mIsExportNeeded;
+     private final boolean mKeepCssStreamOpen;
+ }
+ 
+```
+
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
 ### getCssStyleSheetType() {#getCssStyleSheetType}
@@ -324,7 +730,62 @@ public int getCssStyleSheetType()
 
 Specifies how CSS (Cascading Style Sheet) styles are exported to HTML, MHTML or EPUB. Default value is [CssStyleSheetType.INLINE](../../com.aspose.words/cssstylesheettype/\#INLINE) for HTML/MHTML and [CssStyleSheetType.EXTERNAL](../../com.aspose.words/cssstylesheettype/\#EXTERNAL) for EPUB.
 
+ **Remarks:** 
+
 Saving CSS style sheet into an external file is only supported when saving to HTML. When you are exporting to one of the container formats (EPUB or MHTML) and specifying [CssStyleSheetType.EXTERNAL](../../com.aspose.words/cssstylesheettype/\#EXTERNAL), CSS file will be encapsulated into the output package.
+
+ **Examples:** 
+
+Shows how to work with CSS stylesheets that an HTML conversion creates.
+
+```
+
+ public void externalCssFilenames() throws Exception {
+     Document doc = new Document(getMyDir() + "Rendering.docx");
+
+     // Create an "HtmlFixedSaveOptions" object, which we can pass to the document's "Save" method
+     // to modify how we convert the document to HTML.
+     HtmlSaveOptions options = new HtmlSaveOptions();
+
+     // Set the "CssStylesheetType" property to "CssStyleSheetType.External" to
+     // accompany a saved HTML document with an external CSS stylesheet file.
+     options.setCssStyleSheetType(CssStyleSheetType.EXTERNAL);
+
+     // Below are two ways of specifying directories and filenames for output CSS stylesheets.
+     // 1 -  Use the "CssStyleSheetFileName" property to assign a filename to our stylesheet:
+     options.setCssStyleSheetFileName(getArtifactsDir() + "SavingCallback.ExternalCssFilenames.css");
+
+     // 2 -  Use a custom callback to name our stylesheet:
+     options.setCssSavingCallback(new CustomCssSavingCallback(getArtifactsDir() + "SavingCallback.ExternalCssFilenames.css", true, false));
+
+     doc.save(getArtifactsDir() + "SavingCallback.ExternalCssFilenames.html", options);
+ }
+
+ /// 
+ /// Sets a custom filename, along with other parameters for an external CSS stylesheet.
+ /// 
+ private static class CustomCssSavingCallback implements ICssSavingCallback {
+     public CustomCssSavingCallback(String cssDocFilename, boolean isExportNeeded, boolean keepCssStreamOpen) {
+         mCssTextFileName = cssDocFilename;
+         mIsExportNeeded = isExportNeeded;
+         mKeepCssStreamOpen = keepCssStreamOpen;
+     }
+
+     public void cssSaving(CssSavingArgs args) throws Exception {
+         // We can access the entire source document via the "Document" property.
+         Assert.assertTrue(args.getDocument().getOriginalFileName().endsWith("Rendering.docx"));
+
+         args.setCssStream(new FileOutputStream(mCssTextFileName));
+         args.isExportNeeded(mIsExportNeeded);
+         args.setKeepCssStreamOpen(mKeepCssStreamOpen);
+     }
+
+     private final String mCssTextFileName;
+     private final boolean mIsExportNeeded;
+     private final boolean mKeepCssStreamOpen;
+ }
+ 
+```
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [CssStyleSheetType](../../com.aspose.words/cssstylesheettype/) constants.
@@ -334,7 +795,34 @@ public String getDefaultTemplate()
 ```
 
 
-Gets path to default template (including filename). Default value for this property is **empty string**. If specified, this path is used to load template when [Document.getAutomaticallyUpdateStyles()](../../com.aspose.words/document/\#getAutomaticallyUpdateStyles) / [Document.setAutomaticallyUpdateStyles(boolean)](../../com.aspose.words/document/\#setAutomaticallyUpdateStyles-boolean) is  true , but [Document.getAttachedTemplate()](../../com.aspose.words/document/\#getAttachedTemplate) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document/\#setAttachedTemplate-java.lang.String) is empty.
+Gets path to default template (including filename). Default value for this property is **empty string**.
+
+ **Remarks:** 
+
+If specified, this path is used to load template when [Document.getAutomaticallyUpdateStyles()](../../com.aspose.words/document/\#getAutomaticallyUpdateStyles) / [Document.setAutomaticallyUpdateStyles(boolean)](../../com.aspose.words/document/\#setAutomaticallyUpdateStyles-boolean) is  true , but [Document.getAttachedTemplate()](../../com.aspose.words/document/\#getAttachedTemplate) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document/\#setAttachedTemplate-java.lang.String) is empty.
+
+ **Examples:** 
+
+Shows how to set a default template for documents that do not have attached templates.
+
+```
+
+ Document doc = new Document();
+
+ // Enable automatic style updating, but do not attach a template document.
+ doc.setAutomaticallyUpdateStyles(true);
+
+ Assert.assertEquals("", doc.getAttachedTemplate());
+
+ // Since there is no template document, the document had nowhere to track style changes.
+ // Use a SaveOptions object to automatically set a template
+ // if a document that we are saving does not have one.
+ SaveOptions options = SaveOptions.createSaveOptions("Document.DefaultTemplate.docx");
+ options.setDefaultTemplate(getMyDir() + "Business brochure.dotx");
+
+ doc.save(getArtifactsDir() + "Document.DefaultTemplate.docx", options);
+ 
+```
 
 **Returns:**
 java.lang.String - Path to default template (including filename).
@@ -344,7 +832,11 @@ public int getDml3DEffectsRenderingMode()
 ```
 
 
-Gets a value determining how 3D effects are rendered. The default value is [Dml3DEffectsRenderingMode.BASIC](../../com.aspose.words/dml3deffectsrenderingmode/\#BASIC).
+Gets a value determining how 3D effects are rendered.
+
+ **Remarks:** 
+
+The default value is [Dml3DEffectsRenderingMode.BASIC](../../com.aspose.words/dml3deffectsrenderingmode/\#BASIC).
 
 **Returns:**
 int - A value determining how 3D effects are rendered. The returned value is one of [Dml3DEffectsRenderingMode](../../com.aspose.words/dml3deffectsrenderingmode/) constants.
@@ -354,7 +846,11 @@ public int getDmlEffectsRenderingMode()
 ```
 
 
-Gets a value determining how DrawingML effects are rendered. The default value is [DmlEffectsRenderingMode.SIMPLIFIED](../../com.aspose.words/dmleffectsrenderingmode/\#SIMPLIFIED).
+Gets a value determining how DrawingML effects are rendered.
+
+ **Remarks:** 
+
+The default value is [DmlEffectsRenderingMode.SIMPLIFIED](../../com.aspose.words/dmleffectsrenderingmode/\#SIMPLIFIED).
 
 This property is used when the document is exported to fixed page formats.
 
@@ -366,7 +862,11 @@ public int getDmlRenderingMode()
 ```
 
 
-Gets a value determining how DrawingML shapes are rendered. The default value is [DmlRenderingMode.FALLBACK](../../com.aspose.words/dmlrenderingmode/\#FALLBACK).
+Gets a value determining how DrawingML shapes are rendered.
+
+ **Remarks:** 
+
+The default value is [DmlRenderingMode.FALLBACK](../../com.aspose.words/dmlrenderingmode/\#FALLBACK).
 
 This property is used when the document is exported to fixed page formats.
 
@@ -380,6 +880,116 @@ public IDocumentPartSavingCallback getDocumentPartSavingCallback()
 
 Allows to control how document parts are saved when a document is saved to HTML or EPUB.
 
+ **Examples:** 
+
+Shows how to split a document into parts and save them.
+
+```
+
+ public void documentPartsFileNames() throws Exception {
+     Document doc = new Document(getMyDir() + "Rendering.docx");
+     String outFileName = "SavingCallback.DocumentPartsFileNames.html";
+
+     // Create an "HtmlFixedSaveOptions" object, which we can pass to the document's "Save" method
+     // to modify how we convert the document to HTML.
+     HtmlSaveOptions options = new HtmlSaveOptions();
+
+     // If we save the document normally, there will be one output HTML
+     // document with all the source document's contents.
+     // Set the "DocumentSplitCriteria" property to "DocumentSplitCriteria.SectionBreak" to
+     // save our document to multiple HTML files: one for each section.
+     options.setDocumentSplitCriteria(DocumentSplitCriteria.SECTION_BREAK);
+
+     // Assign a custom callback to the "DocumentPartSavingCallback" property to alter the document part saving logic.
+     options.setDocumentPartSavingCallback(new SavedDocumentPartRename(outFileName, options.getDocumentSplitCriteria()));
+
+     // If we convert a document that contains images into html, we will end up with one html file which links to several images.
+     // Each image will be in the form of a file in the local file system.
+     // There is also a callback that can customize the name and file system location of each image.
+     options.setImageSavingCallback(new SavedImageRename(outFileName));
+
+     doc.save(getArtifactsDir() + outFileName, options);
+ }
+
+ /// 
+ /// Sets custom filenames for output documents that the saving operation splits a document into.
+ /// 
+ private static class SavedDocumentPartRename implements IDocumentPartSavingCallback {
+     public SavedDocumentPartRename(String outFileName, int documentSplitCriteria) {
+         mOutFileName = outFileName;
+         mDocumentSplitCriteria = documentSplitCriteria;
+     }
+
+     public void documentPartSaving(DocumentPartSavingArgs args) throws Exception {
+         // We can access the entire source document via the "Document" property.
+         Assert.assertTrue(args.getDocument().getOriginalFileName().endsWith("Rendering.docx"));
+
+         String partType = "";
+
+         switch (mDocumentSplitCriteria) {
+             case DocumentSplitCriteria.PAGE_BREAK:
+                 partType = "Page";
+                 break;
+             case DocumentSplitCriteria.COLUMN_BREAK:
+                 partType = "Column";
+                 break;
+             case DocumentSplitCriteria.SECTION_BREAK:
+                 partType = "Section";
+                 break;
+             case DocumentSplitCriteria.HEADING_PARAGRAPH:
+                 partType = "Paragraph from heading";
+                 break;
+         }
+
+         String partFileName = MessageFormat.format("{0} part {1}, of type {2}.{3}", mOutFileName, ++mCount, partType, FilenameUtils.getExtension(args.getDocumentPartFileName()));
+
+         // Below are two ways of specifying where Aspose.Words will save each part of the document.
+         // 1 -  Set a filename for the output part file:
+         args.setDocumentPartFileName(partFileName);
+
+         // 2 -  Create a custom stream for the output part file:
+         try (FileOutputStream outputStream = new FileOutputStream(getArtifactsDir() + partFileName)) {
+             args.setDocumentPartStream(outputStream);
+         }
+
+         Assert.assertNotNull(args.getDocumentPartStream());
+         Assert.assertFalse(args.getKeepDocumentPartStreamOpen());
+     }
+
+     private int mCount;
+     private final String mOutFileName;
+     private final int mDocumentSplitCriteria;
+ }
+
+ /// 
+ /// Sets custom filenames for image files that an HTML conversion creates.
+ /// 
+ public static class SavedImageRename implements IImageSavingCallback {
+     public SavedImageRename(String outFileName) {
+         mOutFileName = outFileName;
+     }
+
+     public void imageSaving(ImageSavingArgs args) throws Exception {
+         String imageFileName = MessageFormat.format("{0} shape {1}, of type {2}.{3}", mOutFileName, ++mCount, args.getCurrentShape().getShapeType(), FilenameUtils.getExtension(args.getImageFileName()));
+
+         // Below are two ways of specifying where Aspose.Words will save each part of the document.
+         // 1 -  Set a filename for the output image file:
+         args.setImageFileName(imageFileName);
+
+         // 2 -  Create a custom stream for the output image file:
+         args.setImageStream(new FileOutputStream(getArtifactsDir() + imageFileName));
+
+         Assert.assertNotNull(args.getImageStream());
+         Assert.assertTrue(args.isImageAvailable());
+         Assert.assertFalse(args.getKeepImageStreamOpen());
+     }
+
+     private int mCount;
+     private final String mOutFileName;
+ }
+ 
+```
+
 **Returns:**
 [IDocumentPartSavingCallback](../../com.aspose.words/idocumentpartsavingcallback/) - The corresponding [IDocumentPartSavingCallback](../../com.aspose.words/idocumentpartsavingcallback/) value.
 ### getDocumentSplitCriteria() {#getDocumentSplitCriteria}
@@ -390,9 +1000,37 @@ public int getDocumentSplitCriteria()
 
 Specifies how the document should be split when saving to [SaveFormat.HTML](../../com.aspose.words/saveformat/\#HTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat/\#EPUB) or [SaveFormat.AZW\_3](../../com.aspose.words/saveformat/\#AZW-3) format. Default is [DocumentSplitCriteria.NONE](../../com.aspose.words/documentsplitcriteria/\#NONE) for HTML and [DocumentSplitCriteria.HEADING\_PARAGRAPH](../../com.aspose.words/documentsplitcriteria/\#HEADING-PARAGRAPH) for EPUB and AZW3.
 
+ **Remarks:** 
+
 Normally you would want a document saved to HTML as a single file. But in some cases it is preferable to split the output into several smaller HTML pages. When saving to HTML format these pages will be output to individual files or streams. When saving to EPUB format they will be incorporated into corresponding packages.
 
 A document cannot be split when saving in the MHTML format.
+
+ **Examples:** 
+
+Shows how to use a specific encoding when saving a document to .epub.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ // Use a SaveOptions object to specify the encoding for a document that we will save.
+ HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+ saveOptions.setSaveFormat(SaveFormat.EPUB);
+ saveOptions.setEncoding(StandardCharsets.UTF_8);
+
+ // By default, an output .epub document will have all of its contents in one HTML part.
+ // A split criterion allows us to segment the document into several HTML parts.
+ // We will set the criteria to split the document into heading paragraphs.
+ // This is useful for readers who cannot read HTML files more significant than a specific size.
+ saveOptions.setDocumentSplitCriteria(DocumentSplitCriteria.HEADING_PARAGRAPH);
+
+ // Specify that we want to export document properties.
+ saveOptions.setExportDocumentProperties(true);
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions);
+ 
+```
 
 **Returns:**
 int - The corresponding  int  value. The returned value is a bitwise combination of [DocumentSplitCriteria](../../com.aspose.words/documentsplitcriteria/) constants.
@@ -404,9 +1042,71 @@ public int getDocumentSplitHeadingLevel()
 
 Specifies the maximum level of headings at which to split the document. Default value is  2 .
 
+ **Remarks:** 
+
 When [getDocumentSplitCriteria()](../../com.aspose.words/htmlsaveoptions/\#getDocumentSplitCriteria) / [setDocumentSplitCriteria(int)](../../com.aspose.words/htmlsaveoptions/\#setDocumentSplitCriteria-int) includes [DocumentSplitCriteria.HEADING\_PARAGRAPH](../../com.aspose.words/documentsplitcriteria/\#HEADING-PARAGRAPH) and this property is set to a value from 1 to 9, the document will be split at paragraphs formatted using **Heading 1**, **Heading 2** , **Heading 3** etc. styles up to the specified heading level.
 
 By default, only **Heading 1** and **Heading 2** paragraphs cause the document to be split. Setting this property to zero will cause the document not to be split at heading paragraphs at all.
+
+ **Examples:** 
+
+Shows how to split an output HTML document by headings into several parts.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Every paragraph that we format using a "Heading" style can serve as a heading.
+ // Each heading may also have a heading level, determined by the number of its heading style.
+ // The headings below are of levels 1-3.
+ builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 1"));
+ builder.writeln("Heading #1");
+ builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 2"));
+ builder.writeln("Heading #2");
+ builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 3"));
+ builder.writeln("Heading #3");
+ builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 1"));
+ builder.writeln("Heading #4");
+ builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 2"));
+ builder.writeln("Heading #5");
+ builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 3"));
+ builder.writeln("Heading #6");
+
+ // Create a HtmlSaveOptions object and set the split criteria to "HeadingParagraph".
+ // These criteria will split the document at paragraphs with "Heading" styles into several smaller documents,
+ // and save each document in a separate HTML file in the local file system.
+ // We will also set the maximum heading level, which splits the document to 2.
+ // Saving the document will split it at headings of levels 1 and 2, but not at 3 to 9.
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setDocumentSplitCriteria(DocumentSplitCriteria.HEADING_PARAGRAPH);
+     options.setDocumentSplitHeadingLevel(2);
+ }
+
+ // Our document has four headings of levels 1 - 2. One of those headings will not be
+ // a split point since it is at the beginning of the document.
+ // The saving operation will split our document at three places, into four smaller documents.
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.HeadingLevels.html", options);
+
+ doc = new Document(getArtifactsDir() + "HtmlSaveOptions.HeadingLevels.html");
+
+ Assert.assertEquals("Heading #1", doc.getText().trim());
+
+ doc = new Document(getArtifactsDir() + "HtmlSaveOptions.HeadingLevels-01.html");
+
+ Assert.assertEquals("Heading #2\r" +
+         "Heading #3", doc.getText().trim());
+
+ doc = new Document(getArtifactsDir() + "HtmlSaveOptions.HeadingLevels-02.html");
+
+ Assert.assertEquals("Heading #4", doc.getText().trim());
+
+ doc = new Document(getArtifactsDir() + "HtmlSaveOptions.HeadingLevels-03.html");
+
+ Assert.assertEquals("Heading #5\rHeading #6", doc.getText().trim());
+ 
+```
 
 **Returns:**
 int - The corresponding  int  value.
@@ -428,9 +1128,62 @@ public int getEpubNavigationMapLevel()
 
 Specifies the maximum level of headings populated to the navigation map when exporting to IDPF EPUB or AZW3 formats. Default value is  3 .
 
+ **Remarks:** 
+
 Navigation map in IDPF EPUB or AZW3 formats allows user agents to provide easy way of navigation through the document structure. Usually navigation points correspond to headings in the document. To populate headings up to level **N** assign this value to [getEpubNavigationMapLevel()](../../com.aspose.words/htmlsaveoptions/\#getEpubNavigationMapLevel) / [setEpubNavigationMapLevel(int)](../../com.aspose.words/htmlsaveoptions/\#setEpubNavigationMapLevel-int).
 
 By default, three levels of headings are populated: paragraphs of styles **Heading 1**, **Heading 2** and **Heading 3**. You can set this property to a value from 1 to 9 to request corresponding maximum level. Setting it to zero will reduce navigation map to only document root or roots of document parts.
+
+ **Examples:** 
+
+Shows how to generate table of contents for azw3 documents.
+
+```
+
+ Document doc = new Document(getMyDir() + "Big document.docx");
+
+ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.AZW_3);
+ options.setEpubNavigationMapLevel(2);
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.CreateAZW3Toc.azw3", options);
+ 
+```
+
+Shows how to filter headings that appear in the navigation panel of a saved Epub document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Every paragraph that we format using a "Heading" style can serve as a heading.
+ // Each heading may also have a heading level, determined by the number of its heading style.
+ // The headings below are of levels 1-3.
+ builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 1"));
+ builder.writeln("Heading #1");
+ builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 2"));
+ builder.writeln("Heading #2");
+ builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 3"));
+ builder.writeln("Heading #3");
+ builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 1"));
+ builder.writeln("Heading #4");
+ builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 2"));
+ builder.writeln("Heading #5");
+ builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 3"));
+ builder.writeln("Heading #6");
+
+ // Epub readers typically create a table of contents for their documents.
+ // Each paragraph with a "Heading" style in the document will create an entry in this table of contents.
+ // We can use the "EpubNavigationMapLevel" property to set a maximum heading level.
+ // The Epub reader will not add headings with a level above the one we specify to the contents table.
+ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.EPUB);
+ options.setEpubNavigationMapLevel(2);
+
+ // Our document has six headings, two of which are above level 2.
+ // The table of contents for this document will have four entries.
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.EpubHeadings.epub", options);
+ 
+```
 
 **Returns:**
 int - The corresponding  int  value.
@@ -442,6 +1195,8 @@ public boolean getExportCidUrlsForMhtmlResources()
 
 Specifies whether to use CID (Content-ID) URLs to reference resources (images, fonts, CSS) included in MHTML documents. Default value is  false .
 
+ **Remarks:** 
+
 This option affects only documents being saved to MHTML.
 
 By default, resources in MHTML documents are referenced by file name (for example, "image.png"), which are matched against "Content-Location" headers of MIME parts.
@@ -449,6 +1204,42 @@ By default, resources in MHTML documents are referenced by file name (for exampl
 This option enables an alternative method, where references to resource files are written as CID (Content-ID) URLs (for example, "cid:image.png") and are matched against "Content-ID" headers.
 
 In theory, there should be no difference between the two referencing methods and either of them should work fine in any browser or mail agent. In practice, however, some agents fail to fetch resources by file name. If your browser or mail agent refuses to load resources included in an MTHML document (doesn't show images or doesn't load CSS styles), try exporting the document with CID URLs.
+
+ **Examples:** 
+
+Shows how to enable content IDs for output MHTML documents.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ // Setting this flag will replace "Content-Location" tags
+ // with "Content-ID" tags for each resource from the input document.
+ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.MHTML);
+ {
+     options.setExportCidUrlsForMhtmlResources(exportCidUrlsForMhtmlResources);
+     options.setCssStyleSheetType(CssStyleSheetType.EXTERNAL);
+     options.setExportFontResources(true);
+     options.setPrettyFormat(true);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.ContentIdUrls.mht", options);
+
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.ContentIdUrls.mht"), StandardCharsets.UTF_8);
+
+ if (exportCidUrlsForMhtmlResources) {
+     Assert.assertTrue(outDocContents.contains("Content-ID: "));
+     Assert.assertTrue(outDocContents.contains(""));
+     Assert.assertTrue(outDocContents.contains("@font-face { font-family:'Arial Black'; font-weight:bold; src:url('cid:arib=\r\nlk.ttf') }"));
+     Assert.assertTrue(outDocContents.contains(""));
+ } else {
+     Assert.assertTrue(outDocContents.contains("Content-Location: document.html"));
+     Assert.assertTrue(outDocContents.contains(""));
+     Assert.assertTrue(outDocContents.contains("@font-face { font-family:'Arial Black'; font-weight:bold; src:url('ariblk.t=\r\ntf') }"));
+     Assert.assertTrue(outDocContents.contains(""));
+ }
+ 
+```
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -460,6 +1251,32 @@ public boolean getExportDocumentProperties()
 
 Specifies whether to export built-in and custom document properties to HTML, MHTML or EPUB. Default value is  false .
 
+ **Examples:** 
+
+Shows how to use a specific encoding when saving a document to .epub.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ // Use a SaveOptions object to specify the encoding for a document that we will save.
+ HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+ saveOptions.setSaveFormat(SaveFormat.EPUB);
+ saveOptions.setEncoding(StandardCharsets.UTF_8);
+
+ // By default, an output .epub document will have all of its contents in one HTML part.
+ // A split criterion allows us to segment the document into several HTML parts.
+ // We will set the criteria to split the document into heading paragraphs.
+ // This is useful for readers who cannot read HTML files more significant than a specific size.
+ saveOptions.setDocumentSplitCriteria(DocumentSplitCriteria.HEADING_PARAGRAPH);
+
+ // Specify that we want to export document properties.
+ saveOptions.setExportDocumentProperties(true);
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions);
+ 
+```
+
 **Returns:**
 boolean - The corresponding  boolean  value.
 ### getExportDropDownFormFieldAsText() {#getExportDropDownFormFieldAsText}
@@ -470,9 +1287,48 @@ public boolean getExportDropDownFormFieldAsText()
 
 Controls how drop-down form fields are saved to HTML or MHTML. Default value is  false .
 
+ **Remarks:** 
+
 When set to  true , exports drop-down form fields as normal text. When  false , exports drop-down form fields as SELECT element in HTML.
 
 When exporting to EPUB, text drop-down form fields are always saved as text due to requirements of this format.
+
+ **Examples:** 
+
+Shows how to get drop-down combo box form fields to blend in with paragraph text when saving to html.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Use a document builder to insert a combo box with the value "Two" selected.
+ builder.insertComboBox("MyComboBox", new String[]{"One", "Two", "Three"}, 1);
+
+ // The "ExportDropDownFormFieldAsText" flag of this SaveOptions object allows us to
+ // control how saving the document to HTML treats drop-down combo boxes.
+ // Setting it to "true" will convert each combo box into simple text
+ // that displays the combo box's currently selected value, effectively freezing it.
+ // Setting it to "false" will preserve the functionality of the combo box using  and  tags.
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ options.setExportDropDownFormFieldAsText(exportDropDownFormFieldAsText);
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.DropDownFormField.html", options);
+
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.DropDownFormField.html"), StandardCharsets.UTF_8);
+
+ if (exportDropDownFormFieldAsText)
+     Assert.assertTrue(outDocContents.contains(
+             "Two"));
+ else
+     Assert.assertTrue(outDocContents.contains(
+             "" +
+                     "One" +
+                     "Two" +
+                     "Three" +
+                     ""));
+ 
+```
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -484,6 +1340,8 @@ public boolean getExportFontResources()
 
 Specifies whether font resources should be exported to HTML, MHTML or EPUB. Default is  false .
 
+ **Remarks:** 
+
 Exporting font resources allows for consistent document rendering independent of the fonts available in a given user's environment.
 
 If [getExportFontResources()](../../com.aspose.words/htmlsaveoptions/\#getExportFontResources) / [setExportFontResources(boolean)](../../com.aspose.words/htmlsaveoptions/\#setExportFontResources-boolean) is set to  true , main HTML document will refer to every font via the CSS 3 **@font-face** at-rule and fonts will be output as separate files. When exporting to IDPF EPUB or MHTML formats, fonts will be embedded into the corresponding package along with other subsidiary files.
@@ -491,6 +1349,65 @@ If [getExportFontResources()](../../com.aspose.words/htmlsaveoptions/\#getExport
 If [getExportFontsAsBase64()](../../com.aspose.words/htmlsaveoptions/\#getExportFontsAsBase64) / [setExportFontsAsBase64(boolean)](../../com.aspose.words/htmlsaveoptions/\#setExportFontsAsBase64-boolean) is set to  true , fonts will not be saved to separate files. Instead, they will be embedded into **@font-face** at-rules in Base64 encoding.
 
 **Important!** When exporting font resources, font licensing issues should be considered. Authors who want to use specific fonts via a downloadable font mechanism must always carefully verify that their intended use is within the scope of the font license. Many commercial fonts presently do not allow web downloading of their fonts in any form. License agreements that cover some fonts specifically note that usage via **@font-face** rules in CSS style sheets is not allowed. Font subsetting can also violate license terms.
+
+ **Examples:** 
+
+Shows how to define custom logic for exporting fonts when saving to HTML.
+
+```
+
+ public void saveExportedFonts() throws Exception {
+     Document doc = new Document(getMyDir() + "Rendering.docx");
+
+     // Configure a SaveOptions object to export fonts to separate files.
+     // Set a callback that will handle font saving in a custom manner.
+     HtmlSaveOptions options = new HtmlSaveOptions();
+     {
+         options.setExportFontResources(true);
+         options.setFontSavingCallback(new HandleFontSaving());
+     }
+
+     // The callback will export .ttf files and save them alongside the output document.
+     doc.save(getArtifactsDir() + "HtmlSaveOptions.SaveExportedFonts.html", options);
+
+     File[] fontFileNames = new File(getArtifactsDir()).listFiles((d, name) -> name.endsWith(".ttf"));
+
+     for (File fontFilename : fontFileNames) {
+         System.out.println(fontFilename.getName());
+     }
+
+ }
+
+ /// 
+ /// Prints information about exported fonts and saves them in the same local system folder as their output .html.
+ /// 
+ public static class HandleFontSaving implements IFontSavingCallback {
+     public void fontSaving(FontSavingArgs args) throws Exception {
+         System.out.println(MessageFormat.format("Font:\t{0}", args.getFontFamilyName()));
+         if (args.getBold()) System.out.print(", bold");
+         if (args.getItalic()) System.out.print(", italic");
+         System.out.println(MessageFormat.format("\nSource:\t{0}, {1} bytes\n", args.getOriginalFileName(), args.getOriginalFileSize()));
+
+         // We can also access the source document from here.
+         Assert.assertTrue(args.getDocument().getOriginalFileName().endsWith("Rendering.docx"));
+
+         Assert.assertTrue(args.isExportNeeded());
+         Assert.assertTrue(args.isSubsettingNeeded());
+
+         String[] splittedFileName = args.getOriginalFileName().split("\\\\");
+         String fileName = splittedFileName[splittedFileName.length - 1];
+
+         // There are two ways of saving an exported font.
+         // 1 -  Save it to a local file system location:
+         args.setFontFileName(fileName);
+
+         // 2 -  Save it to a stream:
+         args.setFontStream(new FileOutputStream(fileName));
+         Assert.assertFalse(args.getKeepFontStreamOpen());
+     }
+ }
+ 
+```
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -502,7 +1419,48 @@ public boolean getExportFontsAsBase64()
 
 Specifies whether fonts resources should be embedded to HTML in Base64 encoding. Default is  false .
 
+ **Remarks:** 
+
 By default, fonts are written to separate files. If this option is set to  true , fonts will be embedded into the document's CSS in Base64 encoding.
+
+ **Examples:** 
+
+Shows how to embed fonts inside a saved HTML document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setExportFontsAsBase64(true);
+     options.setCssStyleSheetType(CssStyleSheetType.EMBEDDED);
+     options.setPrettyFormat(true);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.ExportFontsAsBase64.html", options);
+ 
+```
+
+Shows how to save a .html document with images embedded inside it.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setExportImagesAsBase64(exportImagesAsBase64);
+     options.setPrettyFormat(true);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.ExportImagesAsBase64.html", options);
+
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.ExportImagesAsBase64.html"), StandardCharsets.UTF_8);
+
+ Assert.assertTrue(exportImagesAsBase64
+         ? outDocContents.contains("
+```
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -514,6 +1472,21 @@ public boolean getExportGeneratorName()
 
 When  true , causes the name and version of Aspose.Words to be embedded into produced files. Default value is  true .
 
+ **Examples:** 
+
+Shows how to disable adding name and version of Aspose.Words into produced files.
+
+```
+
+ Document doc = new Document();
+
+ // Use https://docs.aspose.com/words/net/generator-or-producer-name-included-in-output-documents/ to know how to check the result.
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(); { saveOptions.setExportGeneratorName(false); }
+
+ doc.save(getArtifactsDir() + "OoxmlSaveOptions.ExportGeneratorName.docx", saveOptions);
+ 
+```
+
 **Returns:**
 boolean - The corresponding  boolean  value.
 ### getExportHeadersFootersMode() {#getExportHeadersFootersMode}
@@ -524,6 +1497,8 @@ public int getExportHeadersFootersMode()
 
 Specifies how headers and footers are output to HTML, MHTML or EPUB. Default value is [ExportHeadersFootersMode.PER\_SECTION](../../com.aspose.words/exportheadersfootersmode/\#PER-SECTION) for HTML/MHTML and [ExportHeadersFootersMode.NONE](../../com.aspose.words/exportheadersfootersmode/\#NONE) for EPUB.
 
+ **Remarks:** 
+
 It is hard to meaningfully output headers and footers to HTML because HTML is not paginated.
 
 When this property is [ExportHeadersFootersMode.PER\_SECTION](../../com.aspose.words/exportheadersfootersmode/\#PER-SECTION), Aspose.Words exports only primary headers and footers at the beginning and the end of each section.
@@ -531,6 +1506,36 @@ When this property is [ExportHeadersFootersMode.PER\_SECTION](../../com.aspose.w
 When it is [ExportHeadersFootersMode.FIRST\_SECTION\_HEADER\_LAST\_SECTION\_FOOTER](../../com.aspose.words/exportheadersfootersmode/\#FIRST-SECTION-HEADER-LAST-SECTION-FOOTER) only first primary header and the last primary footer (including linked to previous) are exported.
 
 You can disable export of headers and footers altogether by setting this property to [ExportHeadersFootersMode.NONE](../../com.aspose.words/exportheadersfootersmode/\#NONE).
+
+ **Examples:** 
+
+Shows how to omit headers/footers when saving a document to HTML.
+
+```
+
+ Document doc = new Document(getMyDir() + "Header and footer types.docx");
+
+ // This document contains headers and footers. We can access them via the "HeadersFooters" collection.
+ Assert.assertEquals("First header", doc.getFirstSection().getHeadersFooters().getByHeaderFooterType(HeaderFooterType.HEADER_FIRST).getText().trim());
+
+ // Formats such as .html do not split the document into pages, so headers/footers will not function the same way
+ // they would when we open the document as a .docx using Microsoft Word.
+ // If we convert a document with headers/footers to html, the conversion will assimilate the headers/footers into body text.
+ // We can use a SaveOptions object to omit headers/footers while converting to html.
+ HtmlSaveOptions saveOptions =
+         new HtmlSaveOptions(SaveFormat.HTML);
+ {
+     saveOptions.setExportHeadersFootersMode(ExportHeadersFootersMode.NONE);
+ }
+
+ doc.save(getArtifactsDir() + "HeaderFooter.ExportMode.html", saveOptions);
+
+ // Open our saved document and verify that it does not contain the header's text.
+ doc = new Document(getArtifactsDir() + "HeaderFooter.ExportMode.html");
+
+ Assert.assertFalse(doc.getRange().getText().contains("First header"));
+ 
+```
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [ExportHeadersFootersMode](../../com.aspose.words/exportheadersfootersmode/) constants.
@@ -542,7 +1547,48 @@ public boolean getExportImagesAsBase64()
 
 Specifies whether images are saved in Base64 format to the output HTML, MHTML or EPUB. Default is  false .
 
+ **Remarks:** 
+
 When this property is set to  true  images data are exported directly into the **img** elements and separate files are not created.
+
+ **Examples:** 
+
+Shows how to embed fonts inside a saved HTML document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setExportFontsAsBase64(true);
+     options.setCssStyleSheetType(CssStyleSheetType.EMBEDDED);
+     options.setPrettyFormat(true);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.ExportFontsAsBase64.html", options);
+ 
+```
+
+Shows how to save a .html document with images embedded inside it.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setExportImagesAsBase64(exportImagesAsBase64);
+     options.setPrettyFormat(true);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.ExportImagesAsBase64.html", options);
+
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.ExportImagesAsBase64.html"), StandardCharsets.UTF_8);
+
+ Assert.assertTrue(exportImagesAsBase64
+         ? outDocContents.contains("
+```
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -554,7 +1600,56 @@ public boolean getExportLanguageInformation()
 
 Specifies whether language information is exported to HTML, MHTML or EPUB. Default is  false .
 
+ **Remarks:** 
+
 When this property is set to  true  Aspose.Words outputs **lang** HTML attribute on the document elements that specify language. This can be needed to preserve language related semantics.
+
+ **Examples:** 
+
+Shows how to preserve language information when saving to .html.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Use the builder to write text while formatting it in different locales.
+ builder.getFont().setLocaleId(1033);
+ builder.writeln("Hello world!");
+
+ builder.getFont().setLocaleId(2057);
+ builder.writeln("Hello again!");
+
+ builder.getFont().setLocaleId(1049);
+ builder.write("\u041f\u0440\u0438\u0432\u0435\u0442, \u043c\u0438\u0440!");
+
+ // When saving the document to HTML, we can pass a SaveOptions object
+ // to either preserve or discard each formatted text's locale.
+ // If we set the "ExportLanguageInformation" flag to "true",
+ // the output HTML document will contain the locales in "lang" attributes of  tags.
+ // If we set the "ExportLanguageInformation" flag to "false',
+ // the text in the output HTML document will not contain any locale information.
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setExportLanguageInformation(exportLanguageInformation);
+     options.setPrettyFormat(true);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.ExportLanguageInformation.html", options);
+
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.ExportLanguageInformation.html"), StandardCharsets.UTF_8);
+
+ if (exportLanguageInformation) {
+     Assert.assertTrue(outDocContents.contains("Hello world!"));
+     Assert.assertTrue(outDocContents.contains("Hello again!"));
+     Assert.assertTrue(outDocContents.contains("\u041f\u0440\u0438\u0432\u0435\u0442, \u043c\u0438\u0440!"));
+ } else {
+     Assert.assertTrue(outDocContents.contains("Hello world!"));
+     Assert.assertTrue(outDocContents.contains("Hello again!"));
+     Assert.assertTrue(outDocContents.contains("\u041f\u0440\u0438\u0432\u0435\u0442, \u043c\u0438\u0440!"));
+ }
+ 
+```
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -566,6 +1661,110 @@ public int getExportListLabels()
 
 Controls how list labels are output to HTML, MHTML or EPUB. Default value is [ExportListLabels.AUTO](../../com.aspose.words/exportlistlabels/\#AUTO).
 
+ **Examples:** 
+
+Shows how to configure list exporting to HTML.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ List list = doc.getLists().add(ListTemplate.NUMBER_DEFAULT);
+ builder.getListFormat().setList(list);
+
+ builder.writeln("Default numbered list item 1.");
+ builder.writeln("Default numbered list item 2.");
+ builder.getListFormat().listIndent();
+ builder.writeln("Default numbered list item 3.");
+ builder.getListFormat().removeNumbers();
+
+ list = doc.getLists().add(ListTemplate.OUTLINE_HEADINGS_LEGAL);
+ builder.getListFormat().setList(list);
+
+ builder.writeln("Outline legal heading list item 1.");
+ builder.writeln("Outline legal heading list item 2.");
+ builder.getListFormat().listIndent();
+ builder.writeln("Outline legal heading list item 3.");
+ builder.getListFormat().listIndent();
+ builder.writeln("Outline legal heading list item 4.");
+ builder.getListFormat().listIndent();
+ builder.writeln("Outline legal heading list item 5.");
+ builder.getListFormat().removeNumbers();
+
+ // When saving the document to HTML, we can pass a SaveOptions object
+ // to decide which HTML elements the document will use to represent lists.
+ // Setting the "ExportListLabels" property to "ExportListLabels.AsInlineText"
+ // will create lists by formatting spans.
+ // Setting the "ExportListLabels" property to "ExportListLabels.Auto" will use the  tag
+ // to build lists in cases when using the  and  tags may cause loss of formatting.
+ // Setting the "ExportListLabels" property to "ExportListLabels.ByHtmlTags"
+ // will use  and  tags to build all lists.
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setExportListLabels(exportListLabels);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.List.html", options);
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.List.html"), StandardCharsets.UTF_8);
+
+ switch (exportListLabels) {
+     case ExportListLabels.AS_INLINE_TEXT:
+         Assert.assertTrue(outDocContents.contains(
+                 " " +
+                         "" +
+                         "a." +
+                         "       " +
+                         "" +
+                         "Default numbered list item 3." +
+                         ""));
+
+         Assert.assertTrue(outDocContents.contains(
+                 " " +
+                         "" +
+                         "2.1.1.1" +
+                         "       " +
+                         "" +
+                         "Outline legal heading list item 5." +
+                         ""));
+         break;
+     case ExportListLabels.AUTO:
+         Assert.assertTrue(outDocContents.contains(
+                 " " +
+                         " " +
+                         "Default numbered list item 3." +
+                         "" +
+                         ""));
+
+         Assert.assertTrue(outDocContents.contains(
+                 " " +
+                         "" +
+                         "2.1.1.1" +
+                         "       " +
+                         "" +
+                         "Outline legal heading list item 5." +
+                         ""));
+         break;
+     case ExportListLabels.BY_HTML_TAGS:
+         Assert.assertTrue(outDocContents.contains(
+                 " " +
+                         " " +
+                         "Default numbered list item 3." +
+                         "" +
+                         ""));
+
+         Assert.assertTrue(outDocContents.contains(
+                 " " +
+                         " " +
+                         "       " +
+                         "Outline legal heading list item 5." +
+                         "" +
+                         ""));
+         break;
+ }
+ 
+```
+
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [ExportListLabels](../../com.aspose.words/exportlistlabels/) constants.
 ### getExportOriginalUrlForLinkedImages() {#getExportOriginalUrlForLinkedImages}
@@ -576,9 +1775,38 @@ public boolean getExportOriginalUrlForLinkedImages()
 
 Specifies whether original URL should be used as the URL of the linked images. Default value is  false .
 
+ **Remarks:** 
+
 If value is set to  true  [ImageData.getSourceFullName()](../../com.aspose.words/imagedata/\#getSourceFullName) / [ImageData.setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata/\#setSourceFullName-java.lang.String) value is used as the URL of linked images and linked images are not loaded into document's folder or [getImagesFolder()](../../com.aspose.words/htmlsaveoptions/\#getImagesFolder) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setImagesFolder-java.lang.String).
 
 If value is set to  false  linked images are loaded into document's folder or [getImagesFolder()](../../com.aspose.words/htmlsaveoptions/\#getImagesFolder) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setImagesFolder-java.lang.String) and URL of each linked image is constructed depending on document's folder, [getImagesFolder()](../../com.aspose.words/htmlsaveoptions/\#getImagesFolder) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setImagesFolder-java.lang.String) and [getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getImagesFolderAlias) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setImagesFolderAlias-java.lang.String) properties.
+
+ **Examples:** 
+
+Shows how to set folders and folder aliases for externally saved resources that Aspose.Words will create when saving a document to HTML.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setCssStyleSheetType(CssStyleSheetType.EXTERNAL);
+     options.setExportFontResources(true);
+     options.setImageResolution(72);
+     options.setFontResourcesSubsettingSizeThreshold(0);
+     options.setFontsFolder(getArtifactsDir() + "Fonts");
+     options.setImagesFolder(getArtifactsDir() + "Images");
+     options.setResourceFolder(getArtifactsDir() + "Resources");
+     options.setFontsFolderAlias("http://example.com/fonts");
+     options.setImagesFolderAlias("http://example.com/images");
+     options.setResourceFolderAlias("http://example.com/resources");
+     options.setExportOriginalUrlForLinkedImages(true);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.FolderAlias.html", options);
+ 
+```
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -588,7 +1816,58 @@ public boolean getExportPageMargins()
 ```
 
 
-Specifies whether page margins is exported to HTML, MHTML or EPUB. Default is  false . Aspose.Words does not show area of page margins by default. If any elements are completely or partially clipped by the document edge the displayed area can be extended with this option.
+Specifies whether page margins is exported to HTML, MHTML or EPUB. Default is  false .
+
+ **Remarks:** 
+
+Aspose.Words does not show area of page margins by default. If any elements are completely or partially clipped by the document edge the displayed area can be extended with this option.
+
+ **Examples:** 
+
+Shows how to show out-of-bounds objects in output HTML documents.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Use a builder to insert a shape with no wrapping.
+ Shape shape = builder.insertShape(ShapeType.CUBE, 200.0, 200.0);
+
+ shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
+ shape.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
+ shape.setWrapType(WrapType.NONE);
+
+ // Negative shape position values may place the shape outside of page boundaries.
+ // If we export this to HTML, the shape will appear truncated.
+ shape.setLeft(-150);
+
+ // When saving the document to HTML, we can pass a SaveOptions object
+ // to decide whether to adjust the page to display out-of-bounds objects fully.
+ // If we set the "ExportPageMargins" flag to "true", the shape will be fully visible in the output HTML.
+ // If we set the "ExportPageMargins" flag to "false",
+ // our document will display the shape truncated as we would see it in Microsoft Word.
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setExportPageMargins(exportPageMargins);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.ExportPageMargins.html", options);
+
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.ExportPageMargins.html"), StandardCharsets.UTF_8);
+
+ if (exportPageMargins)
+ {
+     Assert.assertTrue(outDocContents.contains(""));
+     Assert.assertTrue(outDocContents.contains(" "));
+ }
+ else
+ {
+     Assert.assertFalse(outDocContents.contains("style type=\"text/css\">"));
+     Assert.assertTrue(outDocContents.contains(" "));
+ }
+ 
+```
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -600,9 +1879,66 @@ public boolean getExportPageSetup()
 
 Specifies whether page setup is exported to HTML, MHTML or EPUB. Default is  false .
 
+ **Remarks:** 
+
 Each [Section](../../com.aspose.words/section/) in Aspose.Words document model provides page setup information via [PageSetup](../../com.aspose.words/pagesetup/) class. When you export a document to HTML format you might need to keep this information for further usage. In particular, page setup might be important for rendering to paged media (printing) or subsequent conversion to the native Microsoft Word file formats (DOCX, DOC, RTF, WML).
 
 In most cases HTML is intended for viewing in browsers where pagination is not performed. So this feature is inactive by default.
+
+ **Examples:** 
+
+Shows how decide whether to preserve section structure/page setup information when saving to HTML.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.write("Section 1");
+ builder.insertBreak(BreakType.SECTION_BREAK_NEW_PAGE);
+ builder.write("Section 2");
+
+ PageSetup pageSetup = doc.getSections().get(0).getPageSetup();
+ pageSetup.setTopMargin(36.0);
+ pageSetup.setBottomMargin(36.0);
+ pageSetup.setPaperSize(PaperSize.A5);
+
+ // When saving the document to HTML, we can pass a SaveOptions object
+ // to decide whether to preserve or discard page setup settings.
+ // If we set the "ExportPageSetup" flag to "true", the output HTML document will contain our page setup configuration.
+ // If we set the "ExportPageSetup" flag to "false", the save operation will discard our page setup settings
+ // for the first section, and both sections will look identical.
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setExportPageSetup(exportPageSetup);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.ExportPageSetup.html", options);
+
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.ExportPageSetup.html"), StandardCharsets.UTF_8);
+
+ if (exportPageSetup) {
+     Assert.assertTrue(outDocContents.contains(
+             ""));
+
+     Assert.assertTrue(outDocContents.contains(
+             " " +
+                     " " +
+                     "Section 1" +
+                     "" +
+                     ""));
+ } else {
+     Assert.assertFalse(outDocContents.contains("style type=\"text/css\">"));
+
+     Assert.assertTrue(outDocContents.contains(
+             " " +
+                     " " +
+                     "Section 1" +
+                     "" +
+                     ""));
+ }
+ 
+```
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -614,11 +1950,77 @@ public boolean getExportRelativeFontSize()
 
 Specifies whether font sizes should be output in relative units when saving to HTML, MHTML or EPUB. Default is  false .
 
+ **Remarks:** 
+
 In many existing documents (HTML, IDPF EPUB) font sizes are specified in relative units. This allows applications to adjust text size when viewing/processing documents. For instance, Microsoft Internet Explorer has "View->Text Size" submenu, Adobe Digital Editions has two buttons: Increase/Decrease Text Size. If you expect this functionality to work then set [getExportRelativeFontSize()](../../com.aspose.words/htmlsaveoptions/\#getExportRelativeFontSize) / [setExportRelativeFontSize(boolean)](../../com.aspose.words/htmlsaveoptions/\#setExportRelativeFontSize-boolean) property to  true .
 
 Aspose Words document model contains and operates only with absolute font size units. Relative units need additional logic to be recalculated from some initial (standard) size. Font size of **Normal** document style is taken as standard. For instance, if **Normal** has 12pt font and some text is 18pt then it will be output as **1.5em.** to the HTML.
 
 When this option is enabled, document elements other than text will still have absolute sizes. Also some text-related attributes might be expressed absolutely. In particular, line spacing specified with "exactly" rule might produce unwanted results when scaling text. So the source documents should be properly designed and tested when exporting with [getExportRelativeFontSize()](../../com.aspose.words/htmlsaveoptions/\#getExportRelativeFontSize) / [setExportRelativeFontSize(boolean)](../../com.aspose.words/htmlsaveoptions/\#setExportRelativeFontSize-boolean) set to  true .
+
+ **Examples:** 
+
+Shows how to use relative font sizes when saving to .html.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Default font size, ");
+ builder.getFont().setSize(24.0);
+ builder.writeln("2x default font size,");
+ builder.getFont().setSize(96.0);
+ builder.write("8x default font size");
+
+ // When we save the document to HTML, we can pass a SaveOptions object
+ // to determine whether to use relative or absolute font sizes.
+ // Set the "ExportRelativeFontSize" flag to "true" to declare font sizes
+ // using the "em" measurement unit, which is a factor that multiplies the current font size.
+ // Set the "ExportRelativeFontSize" flag to "false" to declare font sizes
+ // using the "pt" measurement unit, which is the font's absolute size in points.
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setExportRelativeFontSize(exportRelativeFontSize);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.RelativeFontSize.html", options);
+
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.RelativeFontSize.html"), StandardCharsets.UTF_8);
+
+ if (exportRelativeFontSize) {
+     Assert.assertTrue(outDocContents.contains(
+             "" +
+                     " " +
+                     " " +
+                     "Default font size, " +
+                     "" +
+                     " " +
+                     "2x default font size," +
+                     "" +
+                     " " +
+                     "8x default font size" +
+                     "" +
+                     "" +
+                     ""));
+ } else {
+     Assert.assertTrue(outDocContents.contains(
+             "" +
+                     " " +
+                     " " +
+                     "Default font size, " +
+                     "" +
+                     " " +
+                     "2x default font size," +
+                     "" +
+                     " " +
+                     "8x default font size" +
+                     "" +
+                     "" +
+                     ""));
+ }
+ 
+```
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -630,11 +2032,87 @@ public boolean getExportRoundtripInformation()
 
 Specifies whether to write the roundtrip information when saving to HTML, MHTML or EPUB. Default value is  true  for HTML and  false  for MHTML and EPUB.
 
+ **Remarks:** 
+
 Saving of the roundtrip information allows to restore document properties such as tab stops, comments, headers and footers during the HTML documents loading back into a [Document](../../com.aspose.words/document/) object.
 
 When  true , the roundtrip information is exported as -aw-\* CSS properties of the corresponding HTML elements.
 
 When  false , causes no roundtrip information to be output into produced files.
+
+ **Examples:** 
+
+Shows how to preserve hidden elements when converting to .html.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ // When converting a document to .html, some elements such as hidden bookmarks, original shape positions,
+ // or footnotes will be either removed or converted to plain text and effectively be lost.
+ // Saving with a HtmlSaveOptions object with ExportRoundtripInformation set to true will preserve these elements.
+
+ // When we save the document to HTML, we can pass a SaveOptions object to determine
+ // how the saving operation will export document elements that HTML does not support or use,
+ // such as hidden bookmarks and original shape positions.
+ // If we set the "ExportRoundtripInformation" flag to "true", the save operation will preserve these elements.
+ // If we set the "ExportRoundTripInformation" flag to "false", the save operation will discard these elements.
+ // We will want to preserve such elements if we intend to load the saved HTML using Aspose.Words,
+ // as they could be of use once again.
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setExportRoundtripInformation(exportRoundtripInformation);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.RoundTripInformation.html", options);
+
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.RoundTripInformation.html"), StandardCharsets.UTF_8);
+ doc = new Document(getArtifactsDir() + "HtmlSaveOptions.RoundTripInformation.html");
+
+ if (exportRoundtripInformation) {
+     Assert.assertTrue(outDocContents.contains(" "));
+     Assert.assertTrue(outDocContents.contains(" "));
+
+     Assert.assertTrue(outDocContents.contains(
+             "td colspan=\"2\" style=\"width:210.6pt; border-style:solid; border-width:0.75pt 6pt 0.75pt 0.75pt; " +
+                     "padding-right:2.4pt; padding-left:5.03pt; vertical-align:top; " +
+                     "-aw-border-bottom:0.5pt single; -aw-border-left:0.5pt single; -aw-border-top:0.5pt single\">"));
+
+     Assert.assertTrue(outDocContents.contains(
+             " "));
+
+     Assert.assertTrue(outDocContents.contains(
+             ""));
+
+     Assert.assertTrue(outDocContents.contains(
+             "Page number " +
+                     "" +
+                     "" +
+                     "" +
+                     "1" +
+                     ""));
+
+     Assert.assertEquals(1, IterableUtils.countMatches(doc.getRange().getFields(), f -> f.getType() == FieldType.FIELD_PAGE));
+ } else {
+     Assert.assertTrue(outDocContents.contains(" "));
+     Assert.assertTrue(outDocContents.contains(" "));
+
+     Assert.assertTrue(outDocContents.contains(
+             ""));
+
+     Assert.assertTrue(outDocContents.contains(
+             " "));
+
+     Assert.assertTrue(outDocContents.contains(
+             ""));
+
+     Assert.assertTrue(outDocContents.contains(
+             "Page number 1"));
+
+     Assert.assertEquals(0, IterableUtils.countMatches(doc.getRange().getFields(), f -> f.getType() == FieldType.FIELD_PAGE));
+ }
+ 
+```
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -646,7 +2124,50 @@ public boolean getExportShapesAsSvg()
 
 Controls whether [Shape](../../com.aspose.words/shape/) nodes are converted to SVG images when saving to HTML, MHTML, EPUB or AZW3. Default value is  false .
 
+ **Remarks:** 
+
 If this option is set to  true , [Shape](../../com.aspose.words/shape/) nodes are exported as  elements. Otherwise, they are rendered to bitmaps and are exported as ![Image 1][] elements.
+
+ **Examples:** 
+
+Shows how to export text boxes as scalable vector graphics.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape textBox = builder.insertShape(ShapeType.TEXT_BOX, 100.0, 60.0);
+ builder.moveTo(textBox.getFirstParagraph());
+ builder.write("My text box");
+
+ // When we save the document to HTML, we can pass a SaveOptions object
+ // to determine how the saving operation will export text box shapes.
+ // If we set the "ExportTextBoxAsSvg" flag to "true",
+ // the save operation will convert shapes with text into SVG objects.
+ // If we set the "ExportTextBoxAsSvg" flag to "false",
+ // the save operation will convert shapes with text into images.
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setExportShapesAsSvg(exportShapesAsSvg);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.ExportTextBox.html", options);
+
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.ExportTextBox.html"), StandardCharsets.UTF_8);
+
+ if (exportShapesAsSvg) {
+     Assert.assertTrue(outDocContents.contains(
+             "" +
+                     ""));
+ } else {
+     Assert.assertTrue(outDocContents.contains(
+             " " +
+                     "" +
+                     ""));
+ }
+ 
+```
 
 
 [Image 1]: 
@@ -661,9 +2182,35 @@ public boolean getExportTextInputFormFieldAsText()
 
 Controls how text input form fields are saved to HTML or MHTML. Default value is  false .
 
+ **Remarks:** 
+
 When set to  true , exports text input form fields as normal text. When  false , exports Word text input form fields as INPUT elements in HTML.
 
 When exporting to EPUB, text input form fields are always saved as text due to requirements of this format.
+
+ **Examples:** 
+
+Shows how to specify the folder for storing linked images after saving to .html.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ File imagesDir = new File(getArtifactsDir() + "SaveHtmlWithOptions");
+
+ if (imagesDir.exists())
+     imagesDir.delete();
+
+ imagesDir.mkdir();
+
+ // Set an option to export form fields as plain text instead of HTML input elements.
+ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.HTML);
+ options.setExportTextInputFormFieldAsText(true);
+ options.setImagesFolder(imagesDir.getPath());
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.SaveHtmlWithOptions.html", options);
+ 
+```
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -675,6 +2222,62 @@ public boolean getExportTocPageNumbers()
 
 Specifies whether to write page numbers to table of contents when saving HTML, MHTML and EPUB. Default value is  false .
 
+ **Examples:** 
+
+Shows how to display page numbers when saving a document with a table of contents to .html.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a table of contents, and then populate the document with paragraphs formatted using a "Heading"
+ // style that the table of contents will pick up as entries. Each entry will display the heading paragraph on the left,
+ // and the page number that contains the heading on the right.
+ FieldToc fieldToc = (FieldToc) builder.insertField(FieldType.FIELD_TOC, true);
+
+ builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 1"));
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("Entry 1");
+ builder.writeln("Entry 2");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("Entry 3");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("Entry 4");
+ fieldToc.updatePageNumbers();
+ doc.updateFields();
+
+ // HTML documents do not have pages. If we save this document to HTML,
+ // the page numbers that our TOC displays will have no meaning.
+ // When we save the document to HTML, we can pass a SaveOptions object to omit these page numbers from the TOC.
+ // If we set the "ExportTocPageNumbers" flag to "true",
+ // each TOC entry will display the heading, separator, and page number, preserving its appearance in Microsoft Word.
+ // If we set the "ExportTocPageNumbers" flag to "false",
+ // the save operation will omit both the separator and page number and leave the heading for each entry intact.
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setExportTocPageNumbers(exportTocPageNumbers);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.ExportTocPageNumbers.html", options);
+
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.ExportTocPageNumbers.html"), StandardCharsets.UTF_8);
+
+ if (exportTocPageNumbers) {
+     Assert.assertTrue(outDocContents.contains(
+             "Entry 1" +
+                     "......................................................................" +
+                     "2" +
+                     " "));
+ } else {
+     Assert.assertTrue(outDocContents.contains(
+             " " +
+                     "Entry 2" +
+                     ""));
+ }
+ 
+```
+
 **Returns:**
 boolean - The corresponding  boolean  value.
 ### getExportXhtmlTransitional() {#getExportXhtmlTransitional}
@@ -684,6 +2287,8 @@ public boolean getExportXhtmlTransitional()
 
 
 Specifies whether to write the DOCTYPE declaration when saving to HTML or MHTML. When  true , writes a DOCTYPE declaration in the document prior to the root element. Default value is  false . When saving to EPUB or HTML5 ( [HtmlVersion.HTML\_5](../../com.aspose.words/htmlversion/\#HTML-5)) the DOCTYPE declaration is always written.
+
+ **Remarks:** 
 
 Aspose.Words always writes well formed HTML regardless of this setting.
 
@@ -699,6 +2304,39 @@ When  true , the beginning of the HTML output document will look like this:
 
 Aspose.Words aims to output XHTML according to the XHTML 1.0 Transitional specification, but the output will not always validate against the DTD. Some structures inside a Microsoft Word document are hard or impossible to map to a document that will validate against the XHTML schema. For example, XHTML does not allow nested lists (UL cannot be nested inside another UL element), but in Microsoft Word document multilevel lists occur quite often.
 
+ **Examples:** 
+
+Shows how to display a DOCTYPE heading when converting documents to the Xhtml 1.0 transitional standard.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Hello world!");
+
+ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.HTML);
+ {
+     options.setHtmlVersion(HtmlVersion.XHTML);
+     options.setExportXhtmlTransitional(showDoctypeDeclaration);
+     options.setPrettyFormat(true);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.ExportXhtmlTransitional.html", options);
+
+ // Our document will only contain a DOCTYPE declaration heading if we have set the "ExportXhtmlTransitional" flag to "true".
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.ExportXhtmlTransitional.html"), StandardCharsets.UTF_8);
+
+ if (showDoctypeDeclaration)
+     Assert.assertTrue(outDocContents.contains(
+             "\r\n" +
+                     "\r\n" +
+                     ""));
+ else
+     Assert.assertTrue(outDocContents.contains(""));
+ 
+```
+
 **Returns:**
 boolean - The corresponding  boolean  value.
 ### getFontResourcesSubsettingSizeThreshold() {#getFontResourcesSubsettingSizeThreshold}
@@ -708,6 +2346,8 @@ public int getFontResourcesSubsettingSizeThreshold()
 
 
 Controls which font resources need subsetting when saving to HTML, MHTML or EPUB. Default is  0 .
+
+ **Remarks:** 
 
 [getExportFontResources()](../../com.aspose.words/htmlsaveoptions/\#getExportFontResources) / [setExportFontResources(boolean)](../../com.aspose.words/htmlsaveoptions/\#setExportFontResources-boolean) allows exporting fonts as subsidiary files or as parts of the output package. If the document uses many fonts, especially with large number of glyphs, then output size can grow significantly. Font subsetting reduces the size of the exported font resource by filtering out glyphs that are not used by the current document.
 
@@ -719,6 +2359,52 @@ Font subsetting works as follows:
 
 **Important!** When exporting font resources, font licensing issues should be considered. Authors who want to use specific fonts via a downloadable font mechanism must always carefully verify that their intended use is within the scope of the font license. Many commercial fonts presently do not allow web downloading of their fonts in any form. License agreements that cover some fonts specifically note that usage via **@font-face** rules in CSS style sheets is not allowed. Font subsetting can also violate license terms.
 
+ **Examples:** 
+
+Shows how to work with font subsetting.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setName("Arial");
+ builder.writeln("Hello world!");
+ builder.getFont().setName("Times New Roman");
+ builder.writeln("Hello world!");
+ builder.getFont().setName("Courier New");
+ builder.writeln("Hello world!");
+
+ // When we save the document to HTML, we can pass a SaveOptions object configure font subsetting.
+ // Suppose we set the "ExportFontResources" flag to "true" and also name a folder in the "FontsFolder" property.
+ // In that case, the saving operation will create that folder and place a .ttf file inside
+ // that folder for each font that our document uses.
+ // Each .ttf file will contain that font's entire glyph set,
+ // which may potentially result in a very large file that accompanies the document.
+ // When we apply subsetting to a font, its exported raw data will only contain the glyphs that the document is
+ // using instead of the entire glyph set. If the text in our document only uses a small fraction of a font's
+ // glyph set, then subsetting will significantly reduce our output documents' size.
+ // We can use the "FontResourcesSubsettingSizeThreshold" property to define a .ttf file size, in bytes.
+ // If an exported font creates a size bigger file than that, then the save operation will apply subsetting to that font.
+ // Setting a threshold of 0 applies subsetting to all fonts,
+ // and setting it to "int.MaxValue" effectively disables subsetting.
+ String fontsFolder = getArtifactsDir() + "HtmlSaveOptions.FontSubsetting.Fonts";
+
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setExportFontResources(true);
+     options.setFontsFolder(fontsFolder);
+     options.setFontResourcesSubsettingSizeThreshold(fontResourcesSubsettingSizeThreshold);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.FontSubsetting.html", options);
+
+ File[] fontFileNames = new File(fontsFolder).listFiles((d, name) -> name.endsWith(".ttf"));
+
+ Assert.assertEquals(3, fontFileNames.length);
+ 
+```
+
 **Returns:**
 int - The corresponding  int  value.
 ### getFontSavingCallback() {#getFontSavingCallback}
@@ -728,6 +2414,65 @@ public IFontSavingCallback getFontSavingCallback()
 
 
 Allows to control how fonts are saved when a document is saved to HTML, MHTML or EPUB.
+
+ **Examples:** 
+
+Shows how to define custom logic for exporting fonts when saving to HTML.
+
+```
+
+ public void saveExportedFonts() throws Exception {
+     Document doc = new Document(getMyDir() + "Rendering.docx");
+
+     // Configure a SaveOptions object to export fonts to separate files.
+     // Set a callback that will handle font saving in a custom manner.
+     HtmlSaveOptions options = new HtmlSaveOptions();
+     {
+         options.setExportFontResources(true);
+         options.setFontSavingCallback(new HandleFontSaving());
+     }
+
+     // The callback will export .ttf files and save them alongside the output document.
+     doc.save(getArtifactsDir() + "HtmlSaveOptions.SaveExportedFonts.html", options);
+
+     File[] fontFileNames = new File(getArtifactsDir()).listFiles((d, name) -> name.endsWith(".ttf"));
+
+     for (File fontFilename : fontFileNames) {
+         System.out.println(fontFilename.getName());
+     }
+
+ }
+
+ /// 
+ /// Prints information about exported fonts and saves them in the same local system folder as their output .html.
+ /// 
+ public static class HandleFontSaving implements IFontSavingCallback {
+     public void fontSaving(FontSavingArgs args) throws Exception {
+         System.out.println(MessageFormat.format("Font:\t{0}", args.getFontFamilyName()));
+         if (args.getBold()) System.out.print(", bold");
+         if (args.getItalic()) System.out.print(", italic");
+         System.out.println(MessageFormat.format("\nSource:\t{0}, {1} bytes\n", args.getOriginalFileName(), args.getOriginalFileSize()));
+
+         // We can also access the source document from here.
+         Assert.assertTrue(args.getDocument().getOriginalFileName().endsWith("Rendering.docx"));
+
+         Assert.assertTrue(args.isExportNeeded());
+         Assert.assertTrue(args.isSubsettingNeeded());
+
+         String[] splittedFileName = args.getOriginalFileName().split("\\\\");
+         String fileName = splittedFileName[splittedFileName.length - 1];
+
+         // There are two ways of saving an exported font.
+         // 1 -  Save it to a local file system location:
+         args.setFontFileName(fileName);
+
+         // 2 -  Save it to a stream:
+         args.setFontStream(new FileOutputStream(fileName));
+         Assert.assertFalse(args.getKeepFontStreamOpen());
+     }
+ }
+ 
+```
 
 **Returns:**
 [IFontSavingCallback](../../com.aspose.words/ifontsavingcallback/) - The corresponding [IFontSavingCallback](../../com.aspose.words/ifontsavingcallback/) value.
@@ -739,6 +2484,8 @@ public String getFontsFolder()
 
 Specifies the physical folder where fonts are saved when exporting a document to HTML. Default is an empty string.
 
+ **Remarks:** 
+
 When you save a [Document](../../com.aspose.words/document/) in HTML format and [getExportFontResources()](../../com.aspose.words/htmlsaveoptions/\#getExportFontResources) / [setExportFontResources(boolean)](../../com.aspose.words/htmlsaveoptions/\#setExportFontResources-boolean) is set to  true , Aspose.Words needs to save fonts used in the document as standalone files. [getFontsFolder()](../../com.aspose.words/htmlsaveoptions/\#getFontsFolder) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setFontsFolder-java.lang.String) allows you to specify where the fonts will be saved and [getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getFontsFolderAlias) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setFontsFolderAlias-java.lang.String) allows to specify how the font URIs will be constructed.
 
 If you save a document into a file and provide a file name, Aspose.Words, by default, saves the fonts in the same folder where the document file is saved. Use [getFontsFolder()](../../com.aspose.words/htmlsaveoptions/\#getFontsFolder) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setFontsFolder-java.lang.String) to override this behavior.
@@ -748,6 +2495,33 @@ If you save a document into a stream, Aspose.Words does not have a folder where 
 If the folder specified by [getFontsFolder()](../../com.aspose.words/htmlsaveoptions/\#getFontsFolder) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setFontsFolder-java.lang.String) doesn't exist, it will be created automatically.
 
 [getResourceFolder()](../../com.aspose.words/htmlsaveoptions/\#getResourceFolder) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setResourceFolder-java.lang.String) is another way to specify a folder where fonts should be saved.
+
+ **Examples:** 
+
+Shows how to set folders and folder aliases for externally saved resources that Aspose.Words will create when saving a document to HTML.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setCssStyleSheetType(CssStyleSheetType.EXTERNAL);
+     options.setExportFontResources(true);
+     options.setImageResolution(72);
+     options.setFontResourcesSubsettingSizeThreshold(0);
+     options.setFontsFolder(getArtifactsDir() + "Fonts");
+     options.setImagesFolder(getArtifactsDir() + "Images");
+     options.setResourceFolder(getArtifactsDir() + "Resources");
+     options.setFontsFolderAlias("http://example.com/fonts");
+     options.setImagesFolderAlias("http://example.com/images");
+     options.setResourceFolderAlias("http://example.com/resources");
+     options.setExportOriginalUrlForLinkedImages(true);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.FolderAlias.html", options);
+ 
+```
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
@@ -759,6 +2533,8 @@ public String getFontsFolderAlias()
 
 Specifies the name of the folder used to construct font URIs written into an HTML document. Default is an empty string.
 
+ **Remarks:** 
+
 When you save a [Document](../../com.aspose.words/document/) in HTML format and [getExportFontResources()](../../com.aspose.words/htmlsaveoptions/\#getExportFontResources) / [setExportFontResources(boolean)](../../com.aspose.words/htmlsaveoptions/\#setExportFontResources-boolean) is set to  true , Aspose.Words needs to save fonts used in the document as standalone files. [getFontsFolder()](../../com.aspose.words/htmlsaveoptions/\#getFontsFolder) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setFontsFolder-java.lang.String) allows you to specify where the fonts will be saved and [getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getFontsFolderAlias) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setFontsFolderAlias-java.lang.String) allows to specify how the font URIs will be constructed.
 
 If [getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getFontsFolderAlias) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setFontsFolderAlias-java.lang.String) is not an empty string, then the font URI written to HTML will be *FontsFolderAlias +* . 
@@ -768,6 +2544,33 @@ If [getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getFontsFold
 If [getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getFontsFolderAlias) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setFontsFolderAlias-java.lang.String) is set to '.' (dot), then the font file name will be written to HTML without path regardless of other options.
 
 Alternative way to specify the name of the folder to construct font URIs is to use [getResourceFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getResourceFolderAlias) / [setResourceFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setResourceFolderAlias-java.lang.String).
+
+ **Examples:** 
+
+Shows how to set folders and folder aliases for externally saved resources that Aspose.Words will create when saving a document to HTML.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setCssStyleSheetType(CssStyleSheetType.EXTERNAL);
+     options.setExportFontResources(true);
+     options.setImageResolution(72);
+     options.setFontResourcesSubsettingSizeThreshold(0);
+     options.setFontsFolder(getArtifactsDir() + "Fonts");
+     options.setImagesFolder(getArtifactsDir() + "Images");
+     options.setResourceFolder(getArtifactsDir() + "Resources");
+     options.setFontsFolderAlias("http://example.com/fonts");
+     options.setImagesFolderAlias("http://example.com/images");
+     options.setResourceFolderAlias("http://example.com/resources");
+     options.setExportOriginalUrlForLinkedImages(true);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.FolderAlias.html", options);
+ 
+```
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
@@ -779,6 +2582,71 @@ public int getHtmlVersion()
 
 Specifies version of HTML standard that should be used when saving the document to HTML or MHTML. Default value is [HtmlVersion.XHTML](../../com.aspose.words/htmlversion/\#XHTML).
 
+ **Examples:** 
+
+Shows how to display a DOCTYPE heading when converting documents to the Xhtml 1.0 transitional standard.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Hello world!");
+
+ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.HTML);
+ {
+     options.setHtmlVersion(HtmlVersion.XHTML);
+     options.setExportXhtmlTransitional(showDoctypeDeclaration);
+     options.setPrettyFormat(true);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.ExportXhtmlTransitional.html", options);
+
+ // Our document will only contain a DOCTYPE declaration heading if we have set the "ExportXhtmlTransitional" flag to "true".
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.ExportXhtmlTransitional.html"), StandardCharsets.UTF_8);
+
+ if (showDoctypeDeclaration)
+     Assert.assertTrue(outDocContents.contains(
+             "\r\n" +
+                     "\r\n" +
+                     ""));
+ else
+     Assert.assertTrue(outDocContents.contains(""));
+ 
+```
+
+Shows how to save a document to a specific version of HTML.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.HTML);
+ {
+     options.setHtmlVersion(htmlVersion);
+     options.setPrettyFormat(true);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.HtmlVersions.html", options);
+
+ // Our HTML documents will have minor differences to be compatible with different HTML versions.
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.HtmlVersions.html"), StandardCharsets.UTF_8);
+
+ switch (htmlVersion) {
+     case HtmlVersion.HTML_5:
+         Assert.assertTrue(outDocContents.contains(""));
+         Assert.assertTrue(outDocContents.contains(""));
+         Assert.assertTrue(outDocContents.contains(" "));
+         Assert.assertTrue(outDocContents.contains(" "));
+         break;
+     case HtmlVersion.XHTML:
+         Assert.assertTrue(outDocContents.contains(""));
+         Assert.assertTrue(outDocContents.contains(" "));
+         break;
+ }
+ 
+```
+
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [HtmlVersion](../../com.aspose.words/htmlversion/) constants.
 ### getImageResolution() {#getImageResolution}
@@ -789,7 +2657,36 @@ public int getImageResolution()
 
 Specifies the output resolution for images when exporting to HTML, MHTML or EPUB. Default is  96 dpi .
 
+ **Remarks:** 
+
 This property effects raster images when [getScaleImageToShapeSize()](../../com.aspose.words/htmlsaveoptions/\#getScaleImageToShapeSize) / [setScaleImageToShapeSize(boolean)](../../com.aspose.words/htmlsaveoptions/\#setScaleImageToShapeSize-boolean) is  true  and effects metafiles exported as raster images. Some image properties such as cropping or rotation require saving transformed images and in this case transformed images are created in the given resolution.
+
+ **Examples:** 
+
+Shows how to set folders and folder aliases for externally saved resources that Aspose.Words will create when saving a document to HTML.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setCssStyleSheetType(CssStyleSheetType.EXTERNAL);
+     options.setExportFontResources(true);
+     options.setImageResolution(72);
+     options.setFontResourcesSubsettingSizeThreshold(0);
+     options.setFontsFolder(getArtifactsDir() + "Fonts");
+     options.setImagesFolder(getArtifactsDir() + "Images");
+     options.setResourceFolder(getArtifactsDir() + "Resources");
+     options.setFontsFolderAlias("http://example.com/fonts");
+     options.setImagesFolderAlias("http://example.com/images");
+     options.setResourceFolderAlias("http://example.com/resources");
+     options.setExportOriginalUrlForLinkedImages(true);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.FolderAlias.html", options);
+ 
+```
 
 **Returns:**
 int - The corresponding  int  value.
@@ -801,6 +2698,116 @@ public IImageSavingCallback getImageSavingCallback()
 
 Allows to control how images are saved when a document is saved to HTML, MHTML or EPUB.
 
+ **Examples:** 
+
+Shows how to split a document into parts and save them.
+
+```
+
+ public void documentPartsFileNames() throws Exception {
+     Document doc = new Document(getMyDir() + "Rendering.docx");
+     String outFileName = "SavingCallback.DocumentPartsFileNames.html";
+
+     // Create an "HtmlFixedSaveOptions" object, which we can pass to the document's "Save" method
+     // to modify how we convert the document to HTML.
+     HtmlSaveOptions options = new HtmlSaveOptions();
+
+     // If we save the document normally, there will be one output HTML
+     // document with all the source document's contents.
+     // Set the "DocumentSplitCriteria" property to "DocumentSplitCriteria.SectionBreak" to
+     // save our document to multiple HTML files: one for each section.
+     options.setDocumentSplitCriteria(DocumentSplitCriteria.SECTION_BREAK);
+
+     // Assign a custom callback to the "DocumentPartSavingCallback" property to alter the document part saving logic.
+     options.setDocumentPartSavingCallback(new SavedDocumentPartRename(outFileName, options.getDocumentSplitCriteria()));
+
+     // If we convert a document that contains images into html, we will end up with one html file which links to several images.
+     // Each image will be in the form of a file in the local file system.
+     // There is also a callback that can customize the name and file system location of each image.
+     options.setImageSavingCallback(new SavedImageRename(outFileName));
+
+     doc.save(getArtifactsDir() + outFileName, options);
+ }
+
+ /// 
+ /// Sets custom filenames for output documents that the saving operation splits a document into.
+ /// 
+ private static class SavedDocumentPartRename implements IDocumentPartSavingCallback {
+     public SavedDocumentPartRename(String outFileName, int documentSplitCriteria) {
+         mOutFileName = outFileName;
+         mDocumentSplitCriteria = documentSplitCriteria;
+     }
+
+     public void documentPartSaving(DocumentPartSavingArgs args) throws Exception {
+         // We can access the entire source document via the "Document" property.
+         Assert.assertTrue(args.getDocument().getOriginalFileName().endsWith("Rendering.docx"));
+
+         String partType = "";
+
+         switch (mDocumentSplitCriteria) {
+             case DocumentSplitCriteria.PAGE_BREAK:
+                 partType = "Page";
+                 break;
+             case DocumentSplitCriteria.COLUMN_BREAK:
+                 partType = "Column";
+                 break;
+             case DocumentSplitCriteria.SECTION_BREAK:
+                 partType = "Section";
+                 break;
+             case DocumentSplitCriteria.HEADING_PARAGRAPH:
+                 partType = "Paragraph from heading";
+                 break;
+         }
+
+         String partFileName = MessageFormat.format("{0} part {1}, of type {2}.{3}", mOutFileName, ++mCount, partType, FilenameUtils.getExtension(args.getDocumentPartFileName()));
+
+         // Below are two ways of specifying where Aspose.Words will save each part of the document.
+         // 1 -  Set a filename for the output part file:
+         args.setDocumentPartFileName(partFileName);
+
+         // 2 -  Create a custom stream for the output part file:
+         try (FileOutputStream outputStream = new FileOutputStream(getArtifactsDir() + partFileName)) {
+             args.setDocumentPartStream(outputStream);
+         }
+
+         Assert.assertNotNull(args.getDocumentPartStream());
+         Assert.assertFalse(args.getKeepDocumentPartStreamOpen());
+     }
+
+     private int mCount;
+     private final String mOutFileName;
+     private final int mDocumentSplitCriteria;
+ }
+
+ /// 
+ /// Sets custom filenames for image files that an HTML conversion creates.
+ /// 
+ public static class SavedImageRename implements IImageSavingCallback {
+     public SavedImageRename(String outFileName) {
+         mOutFileName = outFileName;
+     }
+
+     public void imageSaving(ImageSavingArgs args) throws Exception {
+         String imageFileName = MessageFormat.format("{0} shape {1}, of type {2}.{3}", mOutFileName, ++mCount, args.getCurrentShape().getShapeType(), FilenameUtils.getExtension(args.getImageFileName()));
+
+         // Below are two ways of specifying where Aspose.Words will save each part of the document.
+         // 1 -  Set a filename for the output image file:
+         args.setImageFileName(imageFileName);
+
+         // 2 -  Create a custom stream for the output image file:
+         args.setImageStream(new FileOutputStream(getArtifactsDir() + imageFileName));
+
+         Assert.assertNotNull(args.getImageStream());
+         Assert.assertTrue(args.isImageAvailable());
+         Assert.assertFalse(args.getKeepImageStreamOpen());
+     }
+
+     private int mCount;
+     private final String mOutFileName;
+ }
+ 
+```
+
 **Returns:**
 [IImageSavingCallback](../../com.aspose.words/iimagesavingcallback/) - The corresponding [IImageSavingCallback](../../com.aspose.words/iimagesavingcallback/) value.
 ### getImagesFolder() {#getImagesFolder}
@@ -810,6 +2817,8 @@ public String getImagesFolder()
 
 
 Specifies the physical folder where images are saved when exporting a document to HTML format. Default is an empty string.
+
+ **Remarks:** 
 
 When you save a [Document](../../com.aspose.words/document/) in HTML format, Aspose.Words needs to save all images embedded in the document as standalone files. [getImagesFolder()](../../com.aspose.words/htmlsaveoptions/\#getImagesFolder) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setImagesFolder-java.lang.String) allows you to specify where the images will be saved and [getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getImagesFolderAlias) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setImagesFolderAlias-java.lang.String) allows to specify how the image URIs will be constructed.
 
@@ -821,6 +2830,30 @@ If the folder specified by [getImagesFolder()](../../com.aspose.words/htmlsaveop
 
 [getResourceFolder()](../../com.aspose.words/htmlsaveoptions/\#getResourceFolder) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setResourceFolder-java.lang.String) is another way to specify a folder where images should be saved.
 
+ **Examples:** 
+
+Shows how to specify the folder for storing linked images after saving to .html.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ File imagesDir = new File(getArtifactsDir() + "SaveHtmlWithOptions");
+
+ if (imagesDir.exists())
+     imagesDir.delete();
+
+ imagesDir.mkdir();
+
+ // Set an option to export form fields as plain text instead of HTML input elements.
+ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.HTML);
+ options.setExportTextInputFormFieldAsText(true);
+ options.setImagesFolder(imagesDir.getPath());
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.SaveHtmlWithOptions.html", options);
+ 
+```
+
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
 ### getImagesFolderAlias() {#getImagesFolderAlias}
@@ -831,6 +2864,8 @@ public String getImagesFolderAlias()
 
 Specifies the name of the folder used to construct image URIs written into an HTML document. Default is an empty string.
 
+ **Remarks:** 
+
 When you save a [Document](../../com.aspose.words/document/) in HTML format, Aspose.Words needs to save all images embedded in the document as standalone files. [getImagesFolder()](../../com.aspose.words/htmlsaveoptions/\#getImagesFolder) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setImagesFolder-java.lang.String) allows you to specify where the images will be saved and [getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getImagesFolderAlias) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setImagesFolderAlias-java.lang.String) allows to specify how the image URIs will be constructed.
 
 If [getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getImagesFolderAlias) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setImagesFolderAlias-java.lang.String) is not an empty string, then the image URI written to HTML will be *ImagesFolderAlias + ![Image 1][]*.
@@ -840,6 +2875,33 @@ If [getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getImagesFo
 If [getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getImagesFolderAlias) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setImagesFolderAlias-java.lang.String) is set to '.' (dot), then the image file name will be written to HTML without path regardless of other options.
 
 Alternative way to specify the name of the folder to construct image URIs is to use [getResourceFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getResourceFolderAlias) / [setResourceFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setResourceFolderAlias-java.lang.String).
+
+ **Examples:** 
+
+Shows how to set folders and folder aliases for externally saved resources that Aspose.Words will create when saving a document to HTML.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setCssStyleSheetType(CssStyleSheetType.EXTERNAL);
+     options.setExportFontResources(true);
+     options.setImageResolution(72);
+     options.setFontResourcesSubsettingSizeThreshold(0);
+     options.setFontsFolder(getArtifactsDir() + "Fonts");
+     options.setImagesFolder(getArtifactsDir() + "Images");
+     options.setResourceFolder(getArtifactsDir() + "Resources");
+     options.setFontsFolderAlias("http://example.com/fonts");
+     options.setImagesFolderAlias("http://example.com/images");
+     options.setResourceFolderAlias("http://example.com/resources");
+     options.setExportOriginalUrlForLinkedImages(true);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.FolderAlias.html", options);
+ 
+```
 
 
 [Image 1]: 
@@ -852,9 +2914,33 @@ public int getImlRenderingMode()
 ```
 
 
-Gets a value determining how ink (InkML) objects are rendered. The default value is [ImlRenderingMode.INK\_ML](../../com.aspose.words/imlrenderingmode/\#INK-ML).
+Gets a value determining how ink (InkML) objects are rendered.
+
+ **Remarks:** 
+
+The default value is [ImlRenderingMode.INK\_ML](../../com.aspose.words/imlrenderingmode/\#INK-ML).
 
 This property is used when the document is exported to fixed page formats.
+
+ **Examples:** 
+
+Shows how to render Ink object.
+
+```
+
+ Document doc = new Document(getMyDir() + "Ink object.docx");
+
+ // Set 'ImlRenderingMode.InkML' ignores fall-back shape of ink (InkML) object and renders InkML itself.
+ // If the rendering result is unsatisfactory,
+ // please use 'ImlRenderingMode.Fallback' to get a result similar to previous versions.
+ ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.JPEG);
+ {
+     saveOptions.setImlRenderingMode(ImlRenderingMode.INK_ML);
+ }
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.RenderInkObject.jpeg", saveOptions);
+ 
+```
 
 **Returns:**
 int - A value determining how ink (InkML) objects are rendered. The returned value is one of [ImlRenderingMode](../../com.aspose.words/imlrenderingmode/) constants.
@@ -864,7 +2950,11 @@ public boolean getMemoryOptimization()
 ```
 
 
-Gets value determining if memory optimization should be performed before saving the document. Default value for this property is  false . Setting this option to  true  can significantly decrease memory consumption while saving large documents at the cost of slower saving time.
+Gets value determining if memory optimization should be performed before saving the document. Default value for this property is  false .
+
+ **Remarks:** 
+
+Setting this option to  true  can significantly decrease memory consumption while saving large documents at the cost of slower saving time.
 
 **Returns:**
 boolean - Value determining if memory optimization should be performed before saving the document.
@@ -876,9 +2966,59 @@ public int getMetafileFormat()
 
 Specifies in what format metafiles are saved when exporting to HTML, MHTML, or EPUB. Default value is [HtmlMetafileFormat.PNG](../../com.aspose.words/htmlmetafileformat/\#PNG), meaning that metafiles are rendered to raster PNG images.
 
+ **Remarks:** 
+
 Metafiles are not natively displayed by HTML browsers. By default, Aspose.Words converts WMF and EMF images into PNG files when exporting to HTML. Other options are to convert metafiles to SVG images or to export them as is without conversion.
 
 Some image transforms, in particular image cropping, will not be applied to metafile images if they are exported to HTML without conversion.
+
+ **Examples:** 
+
+Shows how to convert SVG objects to a different format when saving HTML documents.
+
+```
+
+ String html =
+         "\r\n                    \r\n                        Hello world!\r\n                    \r\n                ";
+
+ Document doc = new Document(new ByteArrayInputStream(html.getBytes()));
+
+ // This document contains a  element in the form of text.
+ // When we save the document to HTML, we can pass a SaveOptions object
+ // to determine how the saving operation handles this object.
+ // Setting the "MetafileFormat" property to "HtmlMetafileFormat.Png" to convert it to a PNG image.
+ // Setting the "MetafileFormat" property to "HtmlMetafileFormat.Svg" preserve it as a SVG object.
+ // Setting the "MetafileFormat" property to "HtmlMetafileFormat.EmfOrWmf" to convert it to a metafile.
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setMetafileFormat(htmlMetafileFormat);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.MetafileFormat.html", options);
+
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.MetafileFormat.html"), StandardCharsets.UTF_8);
+
+ switch (htmlMetafileFormat) {
+     case HtmlMetafileFormat.PNG:
+         Assert.assertTrue(outDocContents.contains(
+                 " " +
+                         "" +
+                         ""));
+         break;
+     case HtmlMetafileFormat.SVG:
+         Assert.assertTrue(outDocContents.contains(
+                 "" +
+                         ""));
+         break;
+     case HtmlMetafileFormat.EMF_OR_WMF:
+         Assert.assertTrue(outDocContents.contains(
+                 " " +
+                         "" +
+                         ""));
+         break;
+ }
+ 
+```
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [HtmlMetafileFormat](../../com.aspose.words/htmlmetafileformat/) constants.
@@ -890,6 +3030,31 @@ public int getOfficeMathOutputMode()
 
 Controls how OfficeMath objects are exported to HTML, MHTML or EPUB. Default value is [HtmlOfficeMathOutputMode.IMAGE](../../com.aspose.words/htmlofficemathoutputmode/\#IMAGE).
 
+ **Examples:** 
+
+Shows how to specify how to export Microsoft OfficeMath objects to HTML.
+
+```
+
+ Document doc = new Document(getMyDir() + "Office math.docx");
+
+ // When we save the document to HTML, we can pass a SaveOptions object
+ // to determine how the saving operation handles OfficeMath objects.
+ // Setting the "OfficeMathOutputMode" property to "HtmlOfficeMathOutputMode.Image"
+ // will render each OfficeMath object into an image.
+ // Setting the "OfficeMathOutputMode" property to "HtmlOfficeMathOutputMode.MathML"
+ // will convert each OfficeMath object into MathML.
+ // Setting the "OfficeMathOutputMode" property to "HtmlOfficeMathOutputMode.Text"
+ // will represent each OfficeMath formula using plain HTML text.
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setOfficeMathOutputMode(htmlOfficeMathOutputMode);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.OfficeMathOutputMode.html", options);
+ 
+```
+
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [HtmlOfficeMathOutputMode](../../com.aspose.words/htmlofficemathoutputmode/) constants.
 ### getPrettyFormat() {#getPrettyFormat}
@@ -900,7 +3065,62 @@ public boolean getPrettyFormat()
 
 When  true , pretty formats output where applicable. Default value is  false .
 
+ **Remarks:** 
+
 Set to  true  to make HTML, MHTML, EPUB, WordML, RTF, DOCX and ODT output human readable. Useful for testing or debugging.
+
+ **Examples:** 
+
+Shows how to enhance the readability of the raw code of a saved .html document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Hello world!");
+
+ HtmlSaveOptions htmlOptions = new HtmlSaveOptions(SaveFormat.HTML);
+ {
+     htmlOptions.setPrettyFormat(usePrettyFormat);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.PrettyFormat.html", htmlOptions);
+
+ // Enabling pretty format makes the raw html code more readable by adding tab stop and new line characters.
+ String html = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.PrettyFormat.html"), StandardCharsets.UTF_8);
+
+ if (usePrettyFormat)
+     Assert.assertEquals(
+             "\r\n" +
+                     "\t\r\n" +
+                     "\t\t\r\n" +
+                     "\t\t\r\n" +
+                     MessageFormat.format("\t\t\r\n", BuildVersionInfo.getProduct(), BuildVersionInfo.getVersion()) +
+                     "\t\t\r\n" +
+                     "\t\t\r\n" +
+                     "\t\r\n" +
+                     "\t\r\n" +
+                     "\t\t \r\n" +
+                     "\t\t\t \r\n" +
+                     "\t\t\t\tHello world!\r\n" +
+                     "\t\t\t\r\n" +
+                     "\t\t\t \r\n" +
+                     "\t\t\t\t \r\n" +
+                     "\t\t\t\r\n" +
+                     "\t\t\r\n" +
+                     "\t\r\n",
+             html);
+ else
+     Assert.assertEquals(
+             "" +
+                     "" +
+                     MessageFormat.format("", BuildVersionInfo.getProduct(), BuildVersionInfo.getVersion()) +
+                     "" +
+                     " Hello world!" +
+                     "  ",
+             html);
+ 
+```
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -912,7 +3132,229 @@ public IDocumentSavingCallback getProgressCallback()
 
 Called during saving a document and accepts data about saving progress.
 
+ **Remarks:** 
+
 Progress is reported when saving to [SaveFormat.DOCX](../../com.aspose.words/saveformat/\#DOCX), [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat/\#FLAT-OPC), [SaveFormat.DOCM](../../com.aspose.words/saveformat/\#DOCM), [SaveFormat.DOTM](../../com.aspose.words/saveformat/\#DOTM), [SaveFormat.DOTX](../../com.aspose.words/saveformat/\#DOTX), [SaveFormat.HTML](../../com.aspose.words/saveformat/\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat/\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat/\#EPUB), [SaveFormat.XAML\_FLOW](../../com.aspose.words/saveformat/\#XAML-FLOW), or [SaveFormat.XAML\_FLOW\_PACK](../../com.aspose.words/saveformat/\#XAML-FLOW-PACK).
+
+ **Examples:** 
+
+Shows how to manage a document while saving to xamlflow.
+
+```
+
+ public void progressCallback(int saveFormat, String ext) throws Exception
+ {
+     Document doc = new Document(getMyDir() + "Big document.docx");
+
+     // Following formats are supported: XamlFlow, XamlFlowPack.
+     XamlFlowSaveOptions saveOptions = new XamlFlowSaveOptions(saveFormat);
+     {
+         saveOptions.setProgressCallback(new SavingProgressCallback());
+     }
+
+     try {
+         doc.save(getArtifactsDir() + MessageFormat.format("XamlFlowSaveOptions.ProgressCallback.{0}", ext), saveOptions);
+     }
+     catch (IllegalStateException exception) {
+         Assert.assertTrue(exception.getMessage().contains("EstimatedProgress"));
+     }
+ }
+
+ public static Object[][] progressCallbackDataProvider() throws Exception
+ {
+     return new Object[][]
+             {
+                     {SaveFormat.XAML_FLOW,  "xamlflow"},
+                     {SaveFormat.XAML_FLOW_PACK,  "xamlflowpack"},
+             };
+ }
+
+ /// 
+ /// Saving progress callback. Cancel a document saving after the "MaxDuration" seconds.
+ /// 
+ public static class SavingProgressCallback implements IDocumentSavingCallback
+ {
+     /// 
+     /// Ctr.
+     /// 
+     public SavingProgressCallback()
+     {
+         mSavingStartedAt = new Date();
+     }
+
+     /// 
+     /// Callback method which called during document saving.
+     /// 
+     /// Saving arguments.
+     public void notify(DocumentSavingArgs args)
+     {
+         Date canceledAt = new Date();
+         long diff = canceledAt.getTime() - mSavingStartedAt.getTime();
+         long ellapsedSeconds = TimeUnit.MILLISECONDS.toSeconds(diff);
+
+         if (ellapsedSeconds > MAX_DURATION)
+             throw new IllegalStateException(MessageFormat.format("EstimatedProgress = {0}; CanceledAt = {1}", args.getEstimatedProgress(), canceledAt));
+     }
+
+     /// 
+     /// Date and time when document saving is started.
+     /// 
+     private Date mSavingStartedAt;
+
+     /// 
+     /// Maximum allowed duration in sec.
+     /// 
+     private static final double MAX_DURATION = 0.01d;
+ }
+ 
+```
+
+Shows how to manage a document while saving to html.
+
+```
+
+ public void progressCallback(int saveFormat, String ext) throws Exception
+ {
+     Document doc = new Document(getMyDir() + "Big document.docx");
+
+     // Following formats are supported: Html, Mhtml, Epub.
+     HtmlSaveOptions saveOptions = new HtmlSaveOptions(saveFormat);
+     {
+         saveOptions.setProgressCallback(new SavingProgressCallback());
+     }
+
+     try {
+         doc.save(getArtifactsDir() + MessageFormat.format("HtmlSaveOptions.ProgressCallback.{0}", ext), saveOptions);
+     }
+     catch (IllegalStateException exception) {
+         Assert.assertTrue(exception.getMessage().contains("EstimatedProgress"));
+     }
+
+ }
+
+ public static Object[][] progressCallbackDataProvider() throws Exception
+ {
+     return new Object[][]
+             {
+                     {SaveFormat.HTML,  "html"},
+                     {SaveFormat.MHTML,  "mhtml"},
+                     {SaveFormat.EPUB,  "epub"},
+             };
+ }
+
+ /// 
+ /// Saving progress callback. Cancel a document saving after the "MaxDuration" seconds.
+ /// 
+ public static class SavingProgressCallback implements IDocumentSavingCallback
+ {
+     /// 
+     /// Ctr.
+     /// 
+     public SavingProgressCallback()
+     {
+         mSavingStartedAt = new Date();
+     }
+
+     /// 
+     /// Callback method which called during document saving.
+     /// 
+     /// Saving arguments.
+     public void notify(DocumentSavingArgs args)
+     {
+         Date canceledAt = new Date();
+         long diff = canceledAt.getTime() - mSavingStartedAt.getTime();
+         long ellapsedSeconds = TimeUnit.MILLISECONDS.toSeconds(diff);
+
+         if (ellapsedSeconds > MAX_DURATION)
+             throw new IllegalStateException(MessageFormat.format("EstimatedProgress = {0}; CanceledAt = {1}", args.getEstimatedProgress(), canceledAt));
+     }
+
+     /// 
+     /// Date and time when document saving is started.
+     /// 
+     private Date mSavingStartedAt;
+
+     /// 
+     /// Maximum allowed duration in sec.
+     /// 
+     private static final double MAX_DURATION = 0.01d;
+ }
+ 
+```
+
+Shows how to manage a document while saving to docx.
+
+```
+
+ public void progressCallback(int saveFormat, String ext) throws Exception
+ {
+     Document doc = new Document(getMyDir() + "Big document.docx");
+
+     // Following formats are supported: Docx, FlatOpc, Docm, Dotm, Dotx.
+     OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(saveFormat);
+     {
+         saveOptions.setProgressCallback(new SavingProgressCallback());
+     }
+
+     try {
+         doc.save(getArtifactsDir() + MessageFormat.format("OoxmlSaveOptions.ProgressCallback.{0}", ext), saveOptions);
+     }
+     catch (IllegalStateException exception) {
+         Assert.assertTrue(exception.getMessage().contains("EstimatedProgress"));
+     }
+ }
+
+ public static Object[][] progressCallbackDataProvider() throws Exception
+ {
+     return new Object[][]
+             {
+                     {SaveFormat.DOCX,  "docx"},
+                     {SaveFormat.DOCM,  "docm"},
+                     {SaveFormat.DOTM,  "dotm"},
+                     {SaveFormat.DOTX,  "dotx"},
+                     {SaveFormat.FLAT_OPC,  "flatopc"},
+             };
+ }
+
+ /// 
+ /// Saving progress callback. Cancel a document saving after the "MaxDuration" seconds.
+ /// 
+ public static class SavingProgressCallback implements IDocumentSavingCallback
+ {
+     /// 
+     /// Ctr.
+     /// 
+     public SavingProgressCallback()
+     {
+         mSavingStartedAt = new Date();
+     }
+
+     /// 
+     /// Callback method which called during document saving.
+     /// 
+     /// Saving arguments.
+     public void notify(DocumentSavingArgs args)
+     {
+         Date canceledAt = new Date();
+         long diff = canceledAt.getTime() - mSavingStartedAt.getTime();
+         long ellapsedSeconds = TimeUnit.MILLISECONDS.toSeconds(diff);
+
+         if (ellapsedSeconds > MAX_DURATION)
+             throw new IllegalStateException(MessageFormat.format("EstimatedProgress = {0}; CanceledAt = {1}", args.getEstimatedProgress(), canceledAt));
+     }
+
+     /// 
+     /// Date and time when document saving is started.
+     /// 
+     private Date mSavingStartedAt;
+
+     /// 
+     /// Maximum allowed duration in sec.
+     /// 
+     private static final double MAX_DURATION = 0.01d;
+ }
+ 
+```
 
 **Returns:**
 [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback/) - The corresponding [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback/) value.
@@ -924,9 +3366,46 @@ public boolean getResolveFontNames()
 
 Specifies whether font family names used in the document are resolved and substituted according to [Document.getFontSettings()](../../com.aspose.words/document/\#getFontSettings) / [Document.setFontSettings(com.aspose.words.FontSettings)](../../com.aspose.words/document/\#setFontSettings-com.aspose.words.FontSettings) when being written into HTML-based formats.
 
+ **Remarks:** 
+
 By default, this option is set to  false  and font family names are written to HTML as specified in source documents. That is, [Document.getFontSettings()](../../com.aspose.words/document/\#getFontSettings) / [Document.setFontSettings(com.aspose.words.FontSettings)](../../com.aspose.words/document/\#setFontSettings-com.aspose.words.FontSettings) are ignored and no resolution or substitution of font family names is performed.
 
 If this option is set to  true , Aspose.Words uses [Document.getFontSettings()](../../com.aspose.words/document/\#getFontSettings) / [Document.setFontSettings(com.aspose.words.FontSettings)](../../com.aspose.words/document/\#setFontSettings-com.aspose.words.FontSettings) to resolve each font family name specified in a source document into the name of an available font family, performing font substitution as required.
+
+ **Examples:** 
+
+Shows how to resolve all font names before writing them to HTML.
+
+```
+
+ Document doc = new Document(getMyDir() + "Missing font.docx");
+
+ // This document contains text that names a font that we do not have.
+ Assert.assertNotNull(doc.getFontInfos().get("28 Days Later"));
+
+ // If we have no way of getting this font, and we want to be able to display all the text
+ // in this document in an output HTML, we can substitute it with another font.
+ FontSettings fontSettings = new FontSettings();
+ {
+     fontSettings.getSubstitutionSettings().getDefaultFontSubstitution().setDefaultFontName("Arial");
+     fontSettings.getSubstitutionSettings().getDefaultFontSubstitution().setEnabled(true);
+ }
+
+ doc.setFontSettings(fontSettings);
+
+ HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.HTML);
+ {
+     // By default, this option is set to 'False' and Aspose.Words writes font names as specified in the source document.
+     saveOptions.setResolveFontNames(resolveFontNames);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.ResolveFontNames.html", saveOptions);
+
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.ResolveFontNames.html"), "utf-8");
+
+ Assert.assertTrue(outDocContents.matches(""));
+ 
+```
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -938,11 +3417,40 @@ public String getResourceFolder()
 
 Specifies a physical folder where all resources like images, fonts, and external CSS are saved when a document is exported to HTML. Default is an empty string.
 
+ **Remarks:** 
+
 [getResourceFolder()](../../com.aspose.words/htmlsaveoptions/\#getResourceFolder) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setResourceFolder-java.lang.String) is the simplest way to specify a folder where all resources should be written. Another way is to use individual properties [getFontsFolder()](../../com.aspose.words/htmlsaveoptions/\#getFontsFolder) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setFontsFolder-java.lang.String), [getImagesFolder()](../../com.aspose.words/htmlsaveoptions/\#getImagesFolder) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setImagesFolder-java.lang.String), and [getCssStyleSheetFileName()](../../com.aspose.words/htmlsaveoptions/\#getCssStyleSheetFileName) / [setCssStyleSheetFileName(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setCssStyleSheetFileName-java.lang.String).
 
 [getResourceFolder()](../../com.aspose.words/htmlsaveoptions/\#getResourceFolder) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setResourceFolder-java.lang.String) has a lower priority than folders specified via [getFontsFolder()](../../com.aspose.words/htmlsaveoptions/\#getFontsFolder) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setFontsFolder-java.lang.String), [getImagesFolder()](../../com.aspose.words/htmlsaveoptions/\#getImagesFolder) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setImagesFolder-java.lang.String), and [getCssStyleSheetFileName()](../../com.aspose.words/htmlsaveoptions/\#getCssStyleSheetFileName) / [setCssStyleSheetFileName(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setCssStyleSheetFileName-java.lang.String). For example, if both [getResourceFolder()](../../com.aspose.words/htmlsaveoptions/\#getResourceFolder) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setResourceFolder-java.lang.String) and [getFontsFolder()](../../com.aspose.words/htmlsaveoptions/\#getFontsFolder) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setFontsFolder-java.lang.String) are specified, fonts will be saved to [getFontsFolder()](../../com.aspose.words/htmlsaveoptions/\#getFontsFolder) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setFontsFolder-java.lang.String), while images and CSS will be saved to [getResourceFolder()](../../com.aspose.words/htmlsaveoptions/\#getResourceFolder) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setResourceFolder-java.lang.String).
 
 If the folder specified by [getResourceFolder()](../../com.aspose.words/htmlsaveoptions/\#getResourceFolder) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setResourceFolder-java.lang.String) doesn't exist, it will be created automatically.
+
+ **Examples:** 
+
+Shows how to set folders and folder aliases for externally saved resources that Aspose.Words will create when saving a document to HTML.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setCssStyleSheetType(CssStyleSheetType.EXTERNAL);
+     options.setExportFontResources(true);
+     options.setImageResolution(72);
+     options.setFontResourcesSubsettingSizeThreshold(0);
+     options.setFontsFolder(getArtifactsDir() + "Fonts");
+     options.setImagesFolder(getArtifactsDir() + "Images");
+     options.setResourceFolder(getArtifactsDir() + "Resources");
+     options.setFontsFolderAlias("http://example.com/fonts");
+     options.setImagesFolderAlias("http://example.com/images");
+     options.setResourceFolderAlias("http://example.com/resources");
+     options.setExportOriginalUrlForLinkedImages(true);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.FolderAlias.html", options);
+ 
+```
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
@@ -954,6 +3462,8 @@ public String getResourceFolderAlias()
 
 Specifies the name of the folder used to construct URIs of all resources written into an HTML document. Default is an empty string.
 
+ **Remarks:** 
+
 [getResourceFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getResourceFolderAlias) / [setResourceFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setResourceFolderAlias-java.lang.String) is the simplest way to specify how URIs for all resource files should be constructed. Same information can be specified for images and fonts separately via [getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getImagesFolderAlias) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setImagesFolderAlias-java.lang.String) and [getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getFontsFolderAlias) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setFontsFolderAlias-java.lang.String) properties, respectively. However, there is no individual property for CSS.
 
 [getResourceFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getResourceFolderAlias) / [setResourceFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setResourceFolderAlias-java.lang.String) has lower priority than [getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getFontsFolderAlias) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setFontsFolderAlias-java.lang.String) and [getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getImagesFolderAlias) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setImagesFolderAlias-java.lang.String). For example, if both [getResourceFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getResourceFolderAlias) / [setResourceFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setResourceFolderAlias-java.lang.String) and [getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getFontsFolderAlias) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setFontsFolderAlias-java.lang.String) are specified, fonts' URIs will be constructed using [getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getFontsFolderAlias) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setFontsFolderAlias-java.lang.String), while URIs of images and CSS will be constructed using [getResourceFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getResourceFolderAlias) / [setResourceFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setResourceFolderAlias-java.lang.String).
@@ -961,6 +3471,33 @@ Specifies the name of the folder used to construct URIs of all resources written
 If [getResourceFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getResourceFolderAlias) / [setResourceFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setResourceFolderAlias-java.lang.String) is empty, the [getResourceFolder()](../../com.aspose.words/htmlsaveoptions/\#getResourceFolder) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setResourceFolder-java.lang.String) property value will be used to construct resource URIs.
 
 If [getResourceFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getResourceFolderAlias) / [setResourceFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setResourceFolderAlias-java.lang.String) is set to '.' (dot), resource URIs will contain file names only, without any path.
+
+ **Examples:** 
+
+Shows how to set folders and folder aliases for externally saved resources that Aspose.Words will create when saving a document to HTML.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setCssStyleSheetType(CssStyleSheetType.EXTERNAL);
+     options.setExportFontResources(true);
+     options.setImageResolution(72);
+     options.setFontResourcesSubsettingSizeThreshold(0);
+     options.setFontsFolder(getArtifactsDir() + "Fonts");
+     options.setImagesFolder(getArtifactsDir() + "Images");
+     options.setResourceFolder(getArtifactsDir() + "Resources");
+     options.setFontsFolderAlias("http://example.com/fonts");
+     options.setImagesFolderAlias("http://example.com/images");
+     options.setResourceFolderAlias("http://example.com/resources");
+     options.setExportOriginalUrlForLinkedImages(true);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.FolderAlias.html", options);
+ 
+```
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
@@ -972,6 +3509,32 @@ public int getSaveFormat()
 
 Specifies the format in which the document will be saved if this save options object is used. Can be [SaveFormat.HTML](../../com.aspose.words/saveformat/\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat/\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat/\#EPUB), [SaveFormat.AZW\_3](../../com.aspose.words/saveformat/\#AZW-3) or [SaveFormat.MOBI](../../com.aspose.words/saveformat/\#MOBI).
 
+ **Examples:** 
+
+Shows how to use a specific encoding when saving a document to .epub.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ // Use a SaveOptions object to specify the encoding for a document that we will save.
+ HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+ saveOptions.setSaveFormat(SaveFormat.EPUB);
+ saveOptions.setEncoding(StandardCharsets.UTF_8);
+
+ // By default, an output .epub document will have all of its contents in one HTML part.
+ // A split criterion allows us to segment the document into several HTML parts.
+ // We will set the criteria to split the document into heading paragraphs.
+ // This is useful for readers who cannot read HTML files more significant than a specific size.
+ saveOptions.setDocumentSplitCriteria(DocumentSplitCriteria.HEADING_PARAGRAPH);
+
+ // Specify that we want to export document properties.
+ saveOptions.setExportDocumentProperties(true);
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions);
+ 
+```
+
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [SaveFormat](../../com.aspose.words/saveformat/) constants.
 ### getScaleImageToShapeSize() {#getScaleImageToShapeSize}
@@ -981,6 +3544,8 @@ public boolean getScaleImageToShapeSize()
 
 
 Specifies whether images are scaled by Aspose.Words to the bounding shape size when exporting to HTML, MHTML or EPUB. Default value is  true .
+
+ **Remarks:** 
 
 An image in a Microsoft Word document is a shape. The shape has a size and the image has its own size. The sizes are not directly linked. For example, the image can be 1024x786 pixels, but shape that displays this image can be 400x300 points.
 
@@ -992,6 +3557,42 @@ In general, browsers do quick and poor quality scaling. As a result, you will no
 
 In addition to shapes containing individual raster images, this option also affects group shapes consisting of raster images. If [getScaleImageToShapeSize()](../../com.aspose.words/htmlsaveoptions/\#getScaleImageToShapeSize) / [setScaleImageToShapeSize(boolean)](../../com.aspose.words/htmlsaveoptions/\#setScaleImageToShapeSize-boolean) is  false  and a group shape contains raster images whose intrinsic resolution is higher than the value specified in [getImageResolution()](../../com.aspose.words/htmlsaveoptions/\#getImageResolution) / [setImageResolution(int)](../../com.aspose.words/htmlsaveoptions/\#setImageResolution-int), Aspose.Words will increase rendering resolution for that group. This allows to better preserve quality of grouped high resolution images when saving to HTML.
 
+ **Examples:** 
+
+Shows how to disable the scaling of images to their parent shape dimensions when saving to .html.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a shape which contains an image, and then make that shape considerably smaller than the image.
+ BufferedImage image = ImageIO.read(new File(getImageDir() + "Transparent background logo.png"));
+
+ Assert.assertEquals(400, image.getWidth());
+ Assert.assertEquals(400, image.getHeight());
+
+ Shape imageShape = builder.insertImage(image);
+ imageShape.setWidth(50.0);
+ imageShape.setHeight(50.0);
+
+ // Saving a document that contains shapes with images to HTML will create an image file in the local file system
+ // for each such shape. The output HTML document will use  tags to link to and display these images.
+ // When we save the document to HTML, we can pass a SaveOptions object to determine
+ // whether to scale all images that are inside shapes to the sizes of their shapes.
+ // Setting the "ScaleImageToShapeSize" flag to "true" will shrink every image
+ // to the size of the shape that contains it, so that no saved images will be larger than the document requires them to be.
+ // Setting the "ScaleImageToShapeSize" flag to "false" will preserve these images' original sizes,
+ // which will take up more space in exchange for preserving image quality.
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setScaleImageToShapeSize(scaleImageToShapeSize);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.ScaleImageToShapeSize.html", options);
+ 
+```
+
 **Returns:**
 boolean - The corresponding  boolean  value.
 ### getTableWidthOutputMode() {#getTableWidthOutputMode}
@@ -1002,10 +3603,12 @@ public int getTableWidthOutputMode()
 
 Controls how table, row and cell widths are exported to HTML, MHTML or EPUB. Default value is [HtmlElementSizeOutputMode.ALL](../../com.aspose.words/htmlelementsizeoutputmode/\#ALL).
 
+ **Remarks:** 
+
 In the HTML format, table, row and cell elements ( 
 
-    | -- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-    | ,  | ) can have their widths specified either in relative (percentage) or in absolute units. In a document in Aspose.Words, tables, rows and cells can have their widths specified using either relative or absolute units too.  When you convert a document to HTML using Aspose.Words, you might want to control how table, row and cell widths are exported to affect how the resulting document is displayed in the visual agent (e.g. a browser or viewer).  Use this property as a filter to specify what table widths values are exported into the destination document. For example, if you are converting a document to EPUB and intend to view the document on a mobile reading device, then you probably want to avoid exporting absolute width values. To do this you need to specify the output mode [HtmlElementSizeOutputMode.RELATIVE\_ONLY](../../com.aspose.words/htmlelementsizeoutputmode/\#RELATIVE-ONLY) or [HtmlElementSizeOutputMode.NONE](../../com.aspose.words/htmlelementsizeoutputmode/\#NONE) so the viewer on the mobile device can layout the table to fit the width of the screen as best as it can. |
+    | -- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+    | ,  | ) can have their widths specified either in relative (percentage) or in absolute units. In a document in Aspose.Words, tables, rows and cells can have their widths specified using either relative or absolute units too.  When you convert a document to HTML using Aspose.Words, you might want to control how table, row and cell widths are exported to affect how the resulting document is displayed in the visual agent (e.g. a browser or viewer).  Use this property as a filter to specify what table widths values are exported into the destination document. For example, if you are converting a document to EPUB and intend to view the document on a mobile reading device, then you probably want to avoid exporting absolute width values. To do this you need to specify the output mode [HtmlElementSizeOutputMode.RELATIVE\_ONLY](../../com.aspose.words/htmlelementsizeoutputmode/\#RELATIVE-ONLY) or [HtmlElementSizeOutputMode.NONE](../../com.aspose.words/htmlelementsizeoutputmode/\#NONE) so the viewer on the mobile device can layout the table to fit the width of the screen as best as it can.   **Examples:**   Shows how to preserve negative indents in the output .html.   Document doc = new Document(); DocumentBuilder builder = new DocumentBuilder(doc); // Insert a table with a negative indent, which will push it to the left past the left page boundary. Table table = builder.startTable(); builder.insertCell(); builder.write("Row 1, Cell 1"); builder.insertCell(); builder.write("Row 1, Cell 2"); builder.endTable(); table.setLeftIndent(-36); table.setPreferredWidth(PreferredWidth.fromPoints(144.0)); builder.insertBreak(BreakType.PARAGRAPH\_BREAK); // Insert a table with a positive indent, which will push the table to the right. table = builder.startTable(); builder.insertCell(); builder.write("Row 1, Cell 1"); builder.insertCell(); builder.write("Row 1, Cell 2"); builder.endTable(); table.setLeftIndent(36.0); table.setPreferredWidth(PreferredWidth.fromPoints(144.0)); // When we save a document to HTML, Aspose.Words will only preserve negative indents // such as the one we have applied to the first table if we set the "AllowNegativeIndent" flag // in a SaveOptions object that we will pass to "true". HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.HTML); \{ options.setAllowNegativeIndent(allowNegativeIndent); options.setTableWidthOutputMode(HtmlElementSizeOutputMode.RELATIVE\_ONLY); \} doc.save(getArtifactsDir() + "HtmlSaveOptions.NegativeIndent.html", options); String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.NegativeIndent.html"), StandardCharsets.UTF\_8); if (allowNegativeIndent) \{ Assert.assertTrue(outDocContents.contains( "  ")); Assert.assertTrue(outDocContents.contains( "  ")); \} else \{ Assert.assertTrue(outDocContents.contains( "  ")); Assert.assertTrue(outDocContents.contains( "  ")); \}  |
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [HtmlElementSizeOutputMode](../../com.aspose.words/htmlelementsizeoutputmode/) constants.
@@ -1017,6 +3620,8 @@ public String getTempFolder()
 
 Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is  null  and no temporary files are used.
 
+ **Remarks:** 
+
 When Aspose.Words saves a document, it needs to create temporary internal structures. By default, these internal structures are created in memory and the memory usage spikes for a short period while the document is being saved. When saving is complete, the memory is freed and reclaimed by the garbage collector.
 
 If you are saving a very large document (thousands of pages) and/or processing many documents at the same time, then the memory spike during saving can be significant enough to cause the system to throw java.lang.IndexOutOfBoundsException. Specifying a temporary folder using [getTempFolder()](../../com.aspose.words/saveoptions/\#getTempFolder) / [setTempFolder(java.lang.String)](../../com.aspose.words/saveoptions/\#setTempFolder-java.lang.String) will cause Aspose.Words to keep the internal structures in temporary files instead of memory. It reduces the memory usage during saving, but will decrease the save performance.
@@ -1024,6 +3629,30 @@ If you are saving a very large document (thousands of pages) and/or processing m
 The folder must exist and be writable, otherwise an exception will be thrown.
 
 Aspose.Words automatically deletes all temporary files when saving is complete.
+
+ **Examples:** 
+
+Shows how to use the hard drive instead of memory when saving a document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ // When we save a document, various elements are temporarily stored in memory as the save operation is taking place.
+ // We can use this option to use a temporary folder in the local file system instead,
+ // which will reduce our application's memory overhead.
+ DocSaveOptions options = new DocSaveOptions();
+ options.setTempFolder(getArtifactsDir() + "TempFiles");
+
+ // The specified temporary folder must exist in the local file system before the save operation.
+ new File(options.getTempFolder()).mkdir();
+
+ doc.save(getArtifactsDir() + "DocSaveOptions.TempFolder.doc", options);
+
+ // The folder will persist with no residual contents from the load operation.
+ Assert.assertEquals(new File(options.getTempFolder()).listFiles().length, 0);
+ 
+```
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
@@ -1043,7 +3672,11 @@ public boolean getUpdateFields()
 ```
 
 
-Gets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is  true . Allows to specify whether to mimic or not MS Word behavior.
+Gets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is  true .
+
+ **Remarks:** 
+
+Allows to specify whether to mimic or not MS Word behavior.
 
 **Returns:**
 boolean - A value determining if fields of certain types should be updated before saving the document to a fixed page format.
@@ -1055,6 +3688,50 @@ public boolean getUpdateLastPrintedProperty()
 
 Gets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties/\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastPrinted-java.util.Date) property is updated before saving.
 
+ **Examples:** 
+
+Shows how to update a document's "CreatedTime" property when saving.
+
+```
+
+ Document doc = new Document();
+
+ Calendar calendar = Calendar.getInstance();
+ calendar.set(2019, 11, 20);
+ doc.getBuiltInDocumentProperties().setCreatedTime(calendar.getTime());
+
+ // This flag determines whether the created time, which is a built-in property, is updated.
+ // If so, then the date of the document's most recent save operation
+ // with this SaveOptions object passed as a parameter is used as the created time.
+ DocSaveOptions saveOptions = new DocSaveOptions();
+ saveOptions.setUpdateCreatedTimeProperty(isUpdateCreatedTimeProperty);
+
+ doc.save(getArtifactsDir() + "DocSaveOptions.UpdateCreatedTimeProperty.docx", saveOptions);
+ 
+```
+
+Shows how to update a document's "Last printed" property when saving.
+
+```
+
+ Document doc = new Document();
+
+ Calendar calendar = Calendar.getInstance();
+ calendar.set(2019, 11, 20);
+ doc.getBuiltInDocumentProperties().setLastPrinted(calendar.getTime());
+
+ // This flag determines whether the last printed date, which is a built-in property, is updated.
+ // If so, then the date of the document's most recent save operation
+ // with this SaveOptions object passed as a parameter is used as the print date.
+ DocSaveOptions saveOptions = new DocSaveOptions();
+ saveOptions.setUpdateLastPrintedProperty(isUpdateLastPrintedProperty);
+
+ // In Microsoft Word 2003, this property can be found via File -> Properties -> Statistics -> Printed.
+ // It can also be displayed in the document's body by using a PRINTDATE field.
+ doc.save(getArtifactsDir() + "DocSaveOptions.UpdateLastPrintedProperty.doc", saveOptions);
+ 
+```
+
 **Returns:**
 boolean - A value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties/\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastPrinted-java.util.Date) property is updated before saving.
 ### getUpdateLastSavedTimeProperty() {#getUpdateLastSavedTimeProperty}
@@ -1065,6 +3742,27 @@ public boolean getUpdateLastSavedTimeProperty()
 
 Gets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties/\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastSavedTime-java.util.Date) property is updated before saving.
 
+ **Examples:** 
+
+Shows how to determine whether to preserve the document's "Last saved time" property when saving.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ // When we save the document to an OOXML format, we can create an OoxmlSaveOptions object
+ // and then pass it to the document's saving method to modify how we save the document.
+ // Set the "UpdateLastSavedTimeProperty" property to "true" to
+ // set the output document's "Last saved time" built-in property to the current date/time.
+ // Set the "UpdateLastSavedTimeProperty" property to "false" to
+ // preserve the original value of the input document's "Last saved time" built-in property.
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+ saveOptions.setUpdateLastSavedTimeProperty(updateLastSavedTimeProperty);
+
+ doc.save(getArtifactsDir() + "OoxmlSaveOptions.LastSavedTime.docx", saveOptions);
+ 
+```
+
 **Returns:**
 boolean - A value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties/\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastSavedTime-java.util.Date) property is updated before saving.
 ### getUpdateSdtContent() {#getUpdateSdtContent}
@@ -1073,7 +3771,36 @@ public boolean getUpdateSdtContent()
 ```
 
 
-Gets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) is updated before saving. The default value is  false .
+Gets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) is updated before saving.
+
+ **Remarks:** 
+
+The default value is  false .
+
+ **Examples:** 
+
+Shows how to update structured document tags while saving a document to PDF.
+
+```
+
+ Document doc = new Document();
+
+ // Insert a drop-down list structured document tag.
+ StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.DROP_DOWN_LIST, MarkupLevel.BLOCK);
+ tag.getListItems().add(new SdtListItem("Value 1"));
+ tag.getListItems().add(new SdtListItem("Value 2"));
+ tag.getListItems().add(new SdtListItem("Value 3"));
+
+ // The drop-down list currently displays "Choose an item" as the default text.
+ // Set the "SelectedValue" property to one of the list items to get the tag to
+ // display that list item's value instead of the default text.
+ tag.getListItems().setSelectedValue(tag.getListItems().get(1));
+
+ doc.getFirstSection().getBody().appendChild(tag);
+
+ doc.save(getArtifactsDir() + "StructuredDocumentTag.UpdateSdtContent.pdf");
+ 
+```
 
 **Returns:**
 boolean - Value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) is updated before saving.
@@ -1085,9 +3812,33 @@ public boolean getUseAntiAliasing()
 
 Gets a value determining whether or not to use anti-aliasing for rendering.
 
+ **Remarks:** 
+
 The default value is  false . When this value is set to  true  anti-aliasing is used for rendering.
 
 This property is used when the document is exported to the following formats: [SaveFormat.TIFF](../../com.aspose.words/saveformat/\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat/\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat/\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat/\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat/\#EMF). When the document is exported to the [SaveFormat.HTML](../../com.aspose.words/saveformat/\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat/\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat/\#EPUB), [SaveFormat.AZW\_3](../../com.aspose.words/saveformat/\#AZW-3) or [SaveFormat.MOBI](../../com.aspose.words/saveformat/\#MOBI) formats this option is used for raster images.
+
+ **Examples:** 
+
+Shows how to improve the quality of a rendered document with SaveOptions.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setSize(60.0);
+ builder.writeln("Some text.");
+
+ SaveOptions options = new ImageSaveOptions(SaveFormat.JPEG);
+ doc.save(getArtifactsDir() + "Document.ImageSaveOptions.Default.jpg", options);
+
+ options.setUseAntiAliasing(true);
+ options.setUseHighQualityRendering(true);
+
+ doc.save(getArtifactsDir() + "Document.ImageSaveOptions.HighQuality.jpg", options);
+ 
+```
 
 **Returns:**
 boolean - A value determining whether or not to use anti-aliasing for rendering.
@@ -1097,9 +3848,35 @@ public boolean getUseHighQualityRendering()
 ```
 
 
-Gets a value determining whether or not to use high quality (i.e. slow) rendering algorithms. The default value is  false .
+Gets a value determining whether or not to use high quality (i.e. slow) rendering algorithms.
+
+ **Remarks:** 
+
+The default value is  false .
 
 This property is used when the document is exported to image formats: [SaveFormat.TIFF](../../com.aspose.words/saveformat/\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat/\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat/\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat/\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat/\#EMF).
+
+ **Examples:** 
+
+Shows how to improve the quality of a rendered document with SaveOptions.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setSize(60.0);
+ builder.writeln("Some text.");
+
+ SaveOptions options = new ImageSaveOptions(SaveFormat.JPEG);
+ doc.save(getArtifactsDir() + "Document.ImageSaveOptions.Default.jpg", options);
+
+ options.setUseAntiAliasing(true);
+ options.setUseHighQualityRendering(true);
+
+ doc.save(getArtifactsDir() + "Document.ImageSaveOptions.HighQuality.jpg", options);
+ 
+```
 
 **Returns:**
 boolean - A value determining whether or not to use high quality (i.e.
@@ -1137,9 +3914,40 @@ public void setAllowEmbeddingPostScriptFonts(boolean value)
 
 Sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is  false .
 
+ **Remarks:** 
+
 Note, Word does not embed PostScript fonts, but can open documents with embedded fonts of this type.
 
 This option only works when [FontInfoCollection.getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection/\#getEmbedTrueTypeFonts) / [FontInfoCollection.setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection/\#setEmbedTrueTypeFonts-boolean) of the [DocumentBase.getFontInfos()](../../com.aspose.words/documentbase/\#getFontInfos) property is set to  true .
+
+ **Examples:** 
+
+Shows how to save the document with PostScript font.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setName("PostScriptFont");
+ builder.writeln("Some text with PostScript font.");
+
+ // Load the font with PostScript to use in the document.
+ MemoryFontSource otf = new MemoryFontSource(DocumentHelper.getBytesFromStream(new FileInputStream(getFontsDir() + "AllegroOpen.otf")));
+ doc.setFontSettings(new FontSettings());
+ doc.getFontSettings().setFontsSources(new FontSourceBase[]{otf});
+
+ // Embed TrueType fonts.
+ doc.getFontInfos().setEmbedTrueTypeFonts(true);
+
+ // Allow embedding PostScript fonts while embedding TrueType fonts.
+ // Microsoft Word does not embed PostScript fonts, but can open documents with embedded fonts of this type.
+ SaveOptions saveOptions = SaveOptions.createSaveOptions(SaveFormat.DOCX);
+ saveOptions.setAllowEmbeddingPostScriptFonts(true);
+
+ doc.save(getArtifactsDir() + "Document.AllowEmbeddingPostScriptFonts.docx", saveOptions);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1154,7 +3962,67 @@ public void setAllowNegativeIndent(boolean value)
 
 Specifies whether negative left and right indents of paragraphs are normalized when saving to HTML, MHTML or EPUB. Default value is  false .
 
+ **Remarks:** 
+
 When negative indent is not allowed, it is exported as zero margin to HTML. When negative indent is allowed, a paragraph might appear partially outside of the browser window.
+
+ **Examples:** 
+
+Shows how to preserve negative indents in the output .html.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a table with a negative indent, which will push it to the left past the left page boundary.
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Row 1, Cell 1");
+ builder.insertCell();
+ builder.write("Row 1, Cell 2");
+ builder.endTable();
+ table.setLeftIndent(-36);
+ table.setPreferredWidth(PreferredWidth.fromPoints(144.0));
+
+ builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+ // Insert a table with a positive indent, which will push the table to the right.
+ table = builder.startTable();
+ builder.insertCell();
+ builder.write("Row 1, Cell 1");
+ builder.insertCell();
+ builder.write("Row 1, Cell 2");
+ builder.endTable();
+ table.setLeftIndent(36.0);
+ table.setPreferredWidth(PreferredWidth.fromPoints(144.0));
+
+ // When we save a document to HTML, Aspose.Words will only preserve negative indents
+ // such as the one we have applied to the first table if we set the "AllowNegativeIndent" flag
+ // in a SaveOptions object that we will pass to "true".
+ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.HTML);
+ {
+     options.setAllowNegativeIndent(allowNegativeIndent);
+     options.setTableWidthOutputMode(HtmlElementSizeOutputMode.RELATIVE_ONLY);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.NegativeIndent.html", options);
+
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.NegativeIndent.html"), StandardCharsets.UTF_8);
+
+ if (allowNegativeIndent) {
+     Assert.assertTrue(outDocContents.contains(
+             " "));
+     Assert.assertTrue(outDocContents.contains(
+             " "));
+ } else {
+     Assert.assertTrue(outDocContents.contains(
+             " "));
+     Assert.assertTrue(outDocContents.contains(
+             " "));
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1168,6 +4036,8 @@ public void setCssClassNamePrefix(String value)
 
 
 Specifies a prefix which is added to all CSS class names. Default value is an empty string and generated CSS class names have no common prefix.
+
+ **Remarks:** 
 
 If this value is not empty, all CSS classes generated by Aspose.Words will start with the specified prefix. This might be useful, for example, if you add custom CSS to generated documents and want to prevent class name conflicts.
 
@@ -1186,6 +4056,59 @@ public void setCssSavingCallback(ICssSavingCallback value)
 
 Allows to control how CSS styles are saved when a document is saved to HTML, MHTML or EPUB.
 
+ **Examples:** 
+
+Shows how to work with CSS stylesheets that an HTML conversion creates.
+
+```
+
+ public void externalCssFilenames() throws Exception {
+     Document doc = new Document(getMyDir() + "Rendering.docx");
+
+     // Create an "HtmlFixedSaveOptions" object, which we can pass to the document's "Save" method
+     // to modify how we convert the document to HTML.
+     HtmlSaveOptions options = new HtmlSaveOptions();
+
+     // Set the "CssStylesheetType" property to "CssStyleSheetType.External" to
+     // accompany a saved HTML document with an external CSS stylesheet file.
+     options.setCssStyleSheetType(CssStyleSheetType.EXTERNAL);
+
+     // Below are two ways of specifying directories and filenames for output CSS stylesheets.
+     // 1 -  Use the "CssStyleSheetFileName" property to assign a filename to our stylesheet:
+     options.setCssStyleSheetFileName(getArtifactsDir() + "SavingCallback.ExternalCssFilenames.css");
+
+     // 2 -  Use a custom callback to name our stylesheet:
+     options.setCssSavingCallback(new CustomCssSavingCallback(getArtifactsDir() + "SavingCallback.ExternalCssFilenames.css", true, false));
+
+     doc.save(getArtifactsDir() + "SavingCallback.ExternalCssFilenames.html", options);
+ }
+
+ /// 
+ /// Sets a custom filename, along with other parameters for an external CSS stylesheet.
+ /// 
+ private static class CustomCssSavingCallback implements ICssSavingCallback {
+     public CustomCssSavingCallback(String cssDocFilename, boolean isExportNeeded, boolean keepCssStreamOpen) {
+         mCssTextFileName = cssDocFilename;
+         mIsExportNeeded = isExportNeeded;
+         mKeepCssStreamOpen = keepCssStreamOpen;
+     }
+
+     public void cssSaving(CssSavingArgs args) throws Exception {
+         // We can access the entire source document via the "Document" property.
+         Assert.assertTrue(args.getDocument().getOriginalFileName().endsWith("Rendering.docx"));
+
+         args.setCssStream(new FileOutputStream(mCssTextFileName));
+         args.isExportNeeded(mIsExportNeeded);
+         args.setKeepCssStreamOpen(mKeepCssStreamOpen);
+     }
+
+     private final String mCssTextFileName;
+     private final boolean mIsExportNeeded;
+     private final boolean mKeepCssStreamOpen;
+ }
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1199,6 +4122,8 @@ public void setCssStyleSheetFileName(String value)
 
 Specifies the path and the name of the Cascading Style Sheet (CSS) file written when a document is exported to HTML. Default is an empty string.
 
+ **Remarks:** 
+
 This property has effect only when saving a document to HTML format and external CSS style sheet is requested using [getCssStyleSheetType()](../../com.aspose.words/htmlsaveoptions/\#getCssStyleSheetType) / [setCssStyleSheetType(int)](../../com.aspose.words/htmlsaveoptions/\#setCssStyleSheetType-int).
 
 If this property is empty, the CSS file will be saved into the same folder and with the same name as the HTML document but with the ".css" extension.
@@ -1208,6 +4133,59 @@ If only path but no file name is specified in this property, the CSS file will b
 If the folder specified by this property doesn't exist, it will be created automatically before the CSS file is saved.
 
 Another way to specify a folder where external CSS file is saved is to use [getResourceFolder()](../../com.aspose.words/htmlsaveoptions/\#getResourceFolder) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setResourceFolder-java.lang.String).
+
+ **Examples:** 
+
+Shows how to work with CSS stylesheets that an HTML conversion creates.
+
+```
+
+ public void externalCssFilenames() throws Exception {
+     Document doc = new Document(getMyDir() + "Rendering.docx");
+
+     // Create an "HtmlFixedSaveOptions" object, which we can pass to the document's "Save" method
+     // to modify how we convert the document to HTML.
+     HtmlSaveOptions options = new HtmlSaveOptions();
+
+     // Set the "CssStylesheetType" property to "CssStyleSheetType.External" to
+     // accompany a saved HTML document with an external CSS stylesheet file.
+     options.setCssStyleSheetType(CssStyleSheetType.EXTERNAL);
+
+     // Below are two ways of specifying directories and filenames for output CSS stylesheets.
+     // 1 -  Use the "CssStyleSheetFileName" property to assign a filename to our stylesheet:
+     options.setCssStyleSheetFileName(getArtifactsDir() + "SavingCallback.ExternalCssFilenames.css");
+
+     // 2 -  Use a custom callback to name our stylesheet:
+     options.setCssSavingCallback(new CustomCssSavingCallback(getArtifactsDir() + "SavingCallback.ExternalCssFilenames.css", true, false));
+
+     doc.save(getArtifactsDir() + "SavingCallback.ExternalCssFilenames.html", options);
+ }
+
+ /// 
+ /// Sets a custom filename, along with other parameters for an external CSS stylesheet.
+ /// 
+ private static class CustomCssSavingCallback implements ICssSavingCallback {
+     public CustomCssSavingCallback(String cssDocFilename, boolean isExportNeeded, boolean keepCssStreamOpen) {
+         mCssTextFileName = cssDocFilename;
+         mIsExportNeeded = isExportNeeded;
+         mKeepCssStreamOpen = keepCssStreamOpen;
+     }
+
+     public void cssSaving(CssSavingArgs args) throws Exception {
+         // We can access the entire source document via the "Document" property.
+         Assert.assertTrue(args.getDocument().getOriginalFileName().endsWith("Rendering.docx"));
+
+         args.setCssStream(new FileOutputStream(mCssTextFileName));
+         args.isExportNeeded(mIsExportNeeded);
+         args.setKeepCssStreamOpen(mKeepCssStreamOpen);
+     }
+
+     private final String mCssTextFileName;
+     private final boolean mIsExportNeeded;
+     private final boolean mKeepCssStreamOpen;
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1222,7 +4200,62 @@ public void setCssStyleSheetType(int value)
 
 Specifies how CSS (Cascading Style Sheet) styles are exported to HTML, MHTML or EPUB. Default value is [CssStyleSheetType.INLINE](../../com.aspose.words/cssstylesheettype/\#INLINE) for HTML/MHTML and [CssStyleSheetType.EXTERNAL](../../com.aspose.words/cssstylesheettype/\#EXTERNAL) for EPUB.
 
+ **Remarks:** 
+
 Saving CSS style sheet into an external file is only supported when saving to HTML. When you are exporting to one of the container formats (EPUB or MHTML) and specifying [CssStyleSheetType.EXTERNAL](../../com.aspose.words/cssstylesheettype/\#EXTERNAL), CSS file will be encapsulated into the output package.
+
+ **Examples:** 
+
+Shows how to work with CSS stylesheets that an HTML conversion creates.
+
+```
+
+ public void externalCssFilenames() throws Exception {
+     Document doc = new Document(getMyDir() + "Rendering.docx");
+
+     // Create an "HtmlFixedSaveOptions" object, which we can pass to the document's "Save" method
+     // to modify how we convert the document to HTML.
+     HtmlSaveOptions options = new HtmlSaveOptions();
+
+     // Set the "CssStylesheetType" property to "CssStyleSheetType.External" to
+     // accompany a saved HTML document with an external CSS stylesheet file.
+     options.setCssStyleSheetType(CssStyleSheetType.EXTERNAL);
+
+     // Below are two ways of specifying directories and filenames for output CSS stylesheets.
+     // 1 -  Use the "CssStyleSheetFileName" property to assign a filename to our stylesheet:
+     options.setCssStyleSheetFileName(getArtifactsDir() + "SavingCallback.ExternalCssFilenames.css");
+
+     // 2 -  Use a custom callback to name our stylesheet:
+     options.setCssSavingCallback(new CustomCssSavingCallback(getArtifactsDir() + "SavingCallback.ExternalCssFilenames.css", true, false));
+
+     doc.save(getArtifactsDir() + "SavingCallback.ExternalCssFilenames.html", options);
+ }
+
+ /// 
+ /// Sets a custom filename, along with other parameters for an external CSS stylesheet.
+ /// 
+ private static class CustomCssSavingCallback implements ICssSavingCallback {
+     public CustomCssSavingCallback(String cssDocFilename, boolean isExportNeeded, boolean keepCssStreamOpen) {
+         mCssTextFileName = cssDocFilename;
+         mIsExportNeeded = isExportNeeded;
+         mKeepCssStreamOpen = keepCssStreamOpen;
+     }
+
+     public void cssSaving(CssSavingArgs args) throws Exception {
+         // We can access the entire source document via the "Document" property.
+         Assert.assertTrue(args.getDocument().getOriginalFileName().endsWith("Rendering.docx"));
+
+         args.setCssStream(new FileOutputStream(mCssTextFileName));
+         args.isExportNeeded(mIsExportNeeded);
+         args.setKeepCssStreamOpen(mKeepCssStreamOpen);
+     }
+
+     private final String mCssTextFileName;
+     private final boolean mIsExportNeeded;
+     private final boolean mKeepCssStreamOpen;
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1235,7 +4268,34 @@ public void setDefaultTemplate(String value)
 ```
 
 
-Sets path to default template (including filename). Default value for this property is **empty string**. If specified, this path is used to load template when [Document.getAutomaticallyUpdateStyles()](../../com.aspose.words/document/\#getAutomaticallyUpdateStyles) / [Document.setAutomaticallyUpdateStyles(boolean)](../../com.aspose.words/document/\#setAutomaticallyUpdateStyles-boolean) is  true , but [Document.getAttachedTemplate()](../../com.aspose.words/document/\#getAttachedTemplate) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document/\#setAttachedTemplate-java.lang.String) is empty.
+Sets path to default template (including filename). Default value for this property is **empty string**.
+
+ **Remarks:** 
+
+If specified, this path is used to load template when [Document.getAutomaticallyUpdateStyles()](../../com.aspose.words/document/\#getAutomaticallyUpdateStyles) / [Document.setAutomaticallyUpdateStyles(boolean)](../../com.aspose.words/document/\#setAutomaticallyUpdateStyles-boolean) is  true , but [Document.getAttachedTemplate()](../../com.aspose.words/document/\#getAttachedTemplate) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document/\#setAttachedTemplate-java.lang.String) is empty.
+
+ **Examples:** 
+
+Shows how to set a default template for documents that do not have attached templates.
+
+```
+
+ Document doc = new Document();
+
+ // Enable automatic style updating, but do not attach a template document.
+ doc.setAutomaticallyUpdateStyles(true);
+
+ Assert.assertEquals("", doc.getAttachedTemplate());
+
+ // Since there is no template document, the document had nowhere to track style changes.
+ // Use a SaveOptions object to automatically set a template
+ // if a document that we are saving does not have one.
+ SaveOptions options = SaveOptions.createSaveOptions("Document.DefaultTemplate.docx");
+ options.setDefaultTemplate(getMyDir() + "Business brochure.dotx");
+
+ doc.save(getArtifactsDir() + "Document.DefaultTemplate.docx", options);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1248,7 +4308,11 @@ public void setDml3DEffectsRenderingMode(int value)
 ```
 
 
-Sets a value determining how 3D effects are rendered. The default value is [Dml3DEffectsRenderingMode.BASIC](../../com.aspose.words/dml3deffectsrenderingmode/\#BASIC).
+Sets a value determining how 3D effects are rendered.
+
+ **Remarks:** 
+
+The default value is [Dml3DEffectsRenderingMode.BASIC](../../com.aspose.words/dml3deffectsrenderingmode/\#BASIC).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1261,7 +4325,11 @@ public void setDmlEffectsRenderingMode(int value)
 ```
 
 
-Sets a value determining how DrawingML effects are rendered. The default value is [DmlEffectsRenderingMode.SIMPLIFIED](../../com.aspose.words/dmleffectsrenderingmode/\#SIMPLIFIED).
+Sets a value determining how DrawingML effects are rendered.
+
+ **Remarks:** 
+
+The default value is [DmlEffectsRenderingMode.SIMPLIFIED](../../com.aspose.words/dmleffectsrenderingmode/\#SIMPLIFIED).
 
 This property is used when the document is exported to fixed page formats.
 
@@ -1276,7 +4344,11 @@ public void setDmlRenderingMode(int value)
 ```
 
 
-Sets a value determining how DrawingML shapes are rendered. The default value is [DmlRenderingMode.FALLBACK](../../com.aspose.words/dmlrenderingmode/\#FALLBACK).
+Sets a value determining how DrawingML shapes are rendered.
+
+ **Remarks:** 
+
+The default value is [DmlRenderingMode.FALLBACK](../../com.aspose.words/dmlrenderingmode/\#FALLBACK).
 
 This property is used when the document is exported to fixed page formats.
 
@@ -1293,6 +4365,116 @@ public void setDocumentPartSavingCallback(IDocumentPartSavingCallback value)
 
 Allows to control how document parts are saved when a document is saved to HTML or EPUB.
 
+ **Examples:** 
+
+Shows how to split a document into parts and save them.
+
+```
+
+ public void documentPartsFileNames() throws Exception {
+     Document doc = new Document(getMyDir() + "Rendering.docx");
+     String outFileName = "SavingCallback.DocumentPartsFileNames.html";
+
+     // Create an "HtmlFixedSaveOptions" object, which we can pass to the document's "Save" method
+     // to modify how we convert the document to HTML.
+     HtmlSaveOptions options = new HtmlSaveOptions();
+
+     // If we save the document normally, there will be one output HTML
+     // document with all the source document's contents.
+     // Set the "DocumentSplitCriteria" property to "DocumentSplitCriteria.SectionBreak" to
+     // save our document to multiple HTML files: one for each section.
+     options.setDocumentSplitCriteria(DocumentSplitCriteria.SECTION_BREAK);
+
+     // Assign a custom callback to the "DocumentPartSavingCallback" property to alter the document part saving logic.
+     options.setDocumentPartSavingCallback(new SavedDocumentPartRename(outFileName, options.getDocumentSplitCriteria()));
+
+     // If we convert a document that contains images into html, we will end up with one html file which links to several images.
+     // Each image will be in the form of a file in the local file system.
+     // There is also a callback that can customize the name and file system location of each image.
+     options.setImageSavingCallback(new SavedImageRename(outFileName));
+
+     doc.save(getArtifactsDir() + outFileName, options);
+ }
+
+ /// 
+ /// Sets custom filenames for output documents that the saving operation splits a document into.
+ /// 
+ private static class SavedDocumentPartRename implements IDocumentPartSavingCallback {
+     public SavedDocumentPartRename(String outFileName, int documentSplitCriteria) {
+         mOutFileName = outFileName;
+         mDocumentSplitCriteria = documentSplitCriteria;
+     }
+
+     public void documentPartSaving(DocumentPartSavingArgs args) throws Exception {
+         // We can access the entire source document via the "Document" property.
+         Assert.assertTrue(args.getDocument().getOriginalFileName().endsWith("Rendering.docx"));
+
+         String partType = "";
+
+         switch (mDocumentSplitCriteria) {
+             case DocumentSplitCriteria.PAGE_BREAK:
+                 partType = "Page";
+                 break;
+             case DocumentSplitCriteria.COLUMN_BREAK:
+                 partType = "Column";
+                 break;
+             case DocumentSplitCriteria.SECTION_BREAK:
+                 partType = "Section";
+                 break;
+             case DocumentSplitCriteria.HEADING_PARAGRAPH:
+                 partType = "Paragraph from heading";
+                 break;
+         }
+
+         String partFileName = MessageFormat.format("{0} part {1}, of type {2}.{3}", mOutFileName, ++mCount, partType, FilenameUtils.getExtension(args.getDocumentPartFileName()));
+
+         // Below are two ways of specifying where Aspose.Words will save each part of the document.
+         // 1 -  Set a filename for the output part file:
+         args.setDocumentPartFileName(partFileName);
+
+         // 2 -  Create a custom stream for the output part file:
+         try (FileOutputStream outputStream = new FileOutputStream(getArtifactsDir() + partFileName)) {
+             args.setDocumentPartStream(outputStream);
+         }
+
+         Assert.assertNotNull(args.getDocumentPartStream());
+         Assert.assertFalse(args.getKeepDocumentPartStreamOpen());
+     }
+
+     private int mCount;
+     private final String mOutFileName;
+     private final int mDocumentSplitCriteria;
+ }
+
+ /// 
+ /// Sets custom filenames for image files that an HTML conversion creates.
+ /// 
+ public static class SavedImageRename implements IImageSavingCallback {
+     public SavedImageRename(String outFileName) {
+         mOutFileName = outFileName;
+     }
+
+     public void imageSaving(ImageSavingArgs args) throws Exception {
+         String imageFileName = MessageFormat.format("{0} shape {1}, of type {2}.{3}", mOutFileName, ++mCount, args.getCurrentShape().getShapeType(), FilenameUtils.getExtension(args.getImageFileName()));
+
+         // Below are two ways of specifying where Aspose.Words will save each part of the document.
+         // 1 -  Set a filename for the output image file:
+         args.setImageFileName(imageFileName);
+
+         // 2 -  Create a custom stream for the output image file:
+         args.setImageStream(new FileOutputStream(getArtifactsDir() + imageFileName));
+
+         Assert.assertNotNull(args.getImageStream());
+         Assert.assertTrue(args.isImageAvailable());
+         Assert.assertFalse(args.getKeepImageStreamOpen());
+     }
+
+     private int mCount;
+     private final String mOutFileName;
+ }
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1306,9 +4488,37 @@ public void setDocumentSplitCriteria(int value)
 
 Specifies how the document should be split when saving to [SaveFormat.HTML](../../com.aspose.words/saveformat/\#HTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat/\#EPUB) or [SaveFormat.AZW\_3](../../com.aspose.words/saveformat/\#AZW-3) format. Default is [DocumentSplitCriteria.NONE](../../com.aspose.words/documentsplitcriteria/\#NONE) for HTML and [DocumentSplitCriteria.HEADING\_PARAGRAPH](../../com.aspose.words/documentsplitcriteria/\#HEADING-PARAGRAPH) for EPUB and AZW3.
 
+ **Remarks:** 
+
 Normally you would want a document saved to HTML as a single file. But in some cases it is preferable to split the output into several smaller HTML pages. When saving to HTML format these pages will be output to individual files or streams. When saving to EPUB format they will be incorporated into corresponding packages.
 
 A document cannot be split when saving in the MHTML format.
+
+ **Examples:** 
+
+Shows how to use a specific encoding when saving a document to .epub.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ // Use a SaveOptions object to specify the encoding for a document that we will save.
+ HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+ saveOptions.setSaveFormat(SaveFormat.EPUB);
+ saveOptions.setEncoding(StandardCharsets.UTF_8);
+
+ // By default, an output .epub document will have all of its contents in one HTML part.
+ // A split criterion allows us to segment the document into several HTML parts.
+ // We will set the criteria to split the document into heading paragraphs.
+ // This is useful for readers who cannot read HTML files more significant than a specific size.
+ saveOptions.setDocumentSplitCriteria(DocumentSplitCriteria.HEADING_PARAGRAPH);
+
+ // Specify that we want to export document properties.
+ saveOptions.setExportDocumentProperties(true);
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1323,9 +4533,71 @@ public void setDocumentSplitHeadingLevel(int value)
 
 Specifies the maximum level of headings at which to split the document. Default value is  2 .
 
+ **Remarks:** 
+
 When [getDocumentSplitCriteria()](../../com.aspose.words/htmlsaveoptions/\#getDocumentSplitCriteria) / [setDocumentSplitCriteria(int)](../../com.aspose.words/htmlsaveoptions/\#setDocumentSplitCriteria-int) includes [DocumentSplitCriteria.HEADING\_PARAGRAPH](../../com.aspose.words/documentsplitcriteria/\#HEADING-PARAGRAPH) and this property is set to a value from 1 to 9, the document will be split at paragraphs formatted using **Heading 1**, **Heading 2** , **Heading 3** etc. styles up to the specified heading level.
 
 By default, only **Heading 1** and **Heading 2** paragraphs cause the document to be split. Setting this property to zero will cause the document not to be split at heading paragraphs at all.
+
+ **Examples:** 
+
+Shows how to split an output HTML document by headings into several parts.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Every paragraph that we format using a "Heading" style can serve as a heading.
+ // Each heading may also have a heading level, determined by the number of its heading style.
+ // The headings below are of levels 1-3.
+ builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 1"));
+ builder.writeln("Heading #1");
+ builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 2"));
+ builder.writeln("Heading #2");
+ builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 3"));
+ builder.writeln("Heading #3");
+ builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 1"));
+ builder.writeln("Heading #4");
+ builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 2"));
+ builder.writeln("Heading #5");
+ builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 3"));
+ builder.writeln("Heading #6");
+
+ // Create a HtmlSaveOptions object and set the split criteria to "HeadingParagraph".
+ // These criteria will split the document at paragraphs with "Heading" styles into several smaller documents,
+ // and save each document in a separate HTML file in the local file system.
+ // We will also set the maximum heading level, which splits the document to 2.
+ // Saving the document will split it at headings of levels 1 and 2, but not at 3 to 9.
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setDocumentSplitCriteria(DocumentSplitCriteria.HEADING_PARAGRAPH);
+     options.setDocumentSplitHeadingLevel(2);
+ }
+
+ // Our document has four headings of levels 1 - 2. One of those headings will not be
+ // a split point since it is at the beginning of the document.
+ // The saving operation will split our document at three places, into four smaller documents.
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.HeadingLevels.html", options);
+
+ doc = new Document(getArtifactsDir() + "HtmlSaveOptions.HeadingLevels.html");
+
+ Assert.assertEquals("Heading #1", doc.getText().trim());
+
+ doc = new Document(getArtifactsDir() + "HtmlSaveOptions.HeadingLevels-01.html");
+
+ Assert.assertEquals("Heading #2\r" +
+         "Heading #3", doc.getText().trim());
+
+ doc = new Document(getArtifactsDir() + "HtmlSaveOptions.HeadingLevels-02.html");
+
+ Assert.assertEquals("Heading #4", doc.getText().trim());
+
+ doc = new Document(getArtifactsDir() + "HtmlSaveOptions.HeadingLevels-03.html");
+
+ Assert.assertEquals("Heading #5\rHeading #6", doc.getText().trim());
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1353,9 +4625,62 @@ public void setEpubNavigationMapLevel(int value)
 
 Specifies the maximum level of headings populated to the navigation map when exporting to IDPF EPUB or AZW3 formats. Default value is  3 .
 
+ **Remarks:** 
+
 Navigation map in IDPF EPUB or AZW3 formats allows user agents to provide easy way of navigation through the document structure. Usually navigation points correspond to headings in the document. To populate headings up to level **N** assign this value to [getEpubNavigationMapLevel()](../../com.aspose.words/htmlsaveoptions/\#getEpubNavigationMapLevel) / [setEpubNavigationMapLevel(int)](../../com.aspose.words/htmlsaveoptions/\#setEpubNavigationMapLevel-int).
 
 By default, three levels of headings are populated: paragraphs of styles **Heading 1**, **Heading 2** and **Heading 3**. You can set this property to a value from 1 to 9 to request corresponding maximum level. Setting it to zero will reduce navigation map to only document root or roots of document parts.
+
+ **Examples:** 
+
+Shows how to generate table of contents for azw3 documents.
+
+```
+
+ Document doc = new Document(getMyDir() + "Big document.docx");
+
+ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.AZW_3);
+ options.setEpubNavigationMapLevel(2);
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.CreateAZW3Toc.azw3", options);
+ 
+```
+
+Shows how to filter headings that appear in the navigation panel of a saved Epub document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Every paragraph that we format using a "Heading" style can serve as a heading.
+ // Each heading may also have a heading level, determined by the number of its heading style.
+ // The headings below are of levels 1-3.
+ builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 1"));
+ builder.writeln("Heading #1");
+ builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 2"));
+ builder.writeln("Heading #2");
+ builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 3"));
+ builder.writeln("Heading #3");
+ builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 1"));
+ builder.writeln("Heading #4");
+ builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 2"));
+ builder.writeln("Heading #5");
+ builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 3"));
+ builder.writeln("Heading #6");
+
+ // Epub readers typically create a table of contents for their documents.
+ // Each paragraph with a "Heading" style in the document will create an entry in this table of contents.
+ // We can use the "EpubNavigationMapLevel" property to set a maximum heading level.
+ // The Epub reader will not add headings with a level above the one we specify to the contents table.
+ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.EPUB);
+ options.setEpubNavigationMapLevel(2);
+
+ // Our document has six headings, two of which are above level 2.
+ // The table of contents for this document will have four entries.
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.EpubHeadings.epub", options);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1370,6 +4695,8 @@ public void setExportCidUrlsForMhtmlResources(boolean value)
 
 Specifies whether to use CID (Content-ID) URLs to reference resources (images, fonts, CSS) included in MHTML documents. Default value is  false .
 
+ **Remarks:** 
+
 This option affects only documents being saved to MHTML.
 
 By default, resources in MHTML documents are referenced by file name (for example, "image.png"), which are matched against "Content-Location" headers of MIME parts.
@@ -1377,6 +4704,42 @@ By default, resources in MHTML documents are referenced by file name (for exampl
 This option enables an alternative method, where references to resource files are written as CID (Content-ID) URLs (for example, "cid:image.png") and are matched against "Content-ID" headers.
 
 In theory, there should be no difference between the two referencing methods and either of them should work fine in any browser or mail agent. In practice, however, some agents fail to fetch resources by file name. If your browser or mail agent refuses to load resources included in an MTHML document (doesn't show images or doesn't load CSS styles), try exporting the document with CID URLs.
+
+ **Examples:** 
+
+Shows how to enable content IDs for output MHTML documents.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ // Setting this flag will replace "Content-Location" tags
+ // with "Content-ID" tags for each resource from the input document.
+ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.MHTML);
+ {
+     options.setExportCidUrlsForMhtmlResources(exportCidUrlsForMhtmlResources);
+     options.setCssStyleSheetType(CssStyleSheetType.EXTERNAL);
+     options.setExportFontResources(true);
+     options.setPrettyFormat(true);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.ContentIdUrls.mht", options);
+
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.ContentIdUrls.mht"), StandardCharsets.UTF_8);
+
+ if (exportCidUrlsForMhtmlResources) {
+     Assert.assertTrue(outDocContents.contains("Content-ID: "));
+     Assert.assertTrue(outDocContents.contains(""));
+     Assert.assertTrue(outDocContents.contains("@font-face { font-family:'Arial Black'; font-weight:bold; src:url('cid:arib=\r\nlk.ttf') }"));
+     Assert.assertTrue(outDocContents.contains(""));
+ } else {
+     Assert.assertTrue(outDocContents.contains("Content-Location: document.html"));
+     Assert.assertTrue(outDocContents.contains(""));
+     Assert.assertTrue(outDocContents.contains("@font-face { font-family:'Arial Black'; font-weight:bold; src:url('ariblk.t=\r\ntf') }"));
+     Assert.assertTrue(outDocContents.contains(""));
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1391,6 +4754,32 @@ public void setExportDocumentProperties(boolean value)
 
 Specifies whether to export built-in and custom document properties to HTML, MHTML or EPUB. Default value is  false .
 
+ **Examples:** 
+
+Shows how to use a specific encoding when saving a document to .epub.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ // Use a SaveOptions object to specify the encoding for a document that we will save.
+ HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+ saveOptions.setSaveFormat(SaveFormat.EPUB);
+ saveOptions.setEncoding(StandardCharsets.UTF_8);
+
+ // By default, an output .epub document will have all of its contents in one HTML part.
+ // A split criterion allows us to segment the document into several HTML parts.
+ // We will set the criteria to split the document into heading paragraphs.
+ // This is useful for readers who cannot read HTML files more significant than a specific size.
+ saveOptions.setDocumentSplitCriteria(DocumentSplitCriteria.HEADING_PARAGRAPH);
+
+ // Specify that we want to export document properties.
+ saveOptions.setExportDocumentProperties(true);
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1404,9 +4793,48 @@ public void setExportDropDownFormFieldAsText(boolean value)
 
 Controls how drop-down form fields are saved to HTML or MHTML. Default value is  false .
 
+ **Remarks:** 
+
 When set to  true , exports drop-down form fields as normal text. When  false , exports drop-down form fields as SELECT element in HTML.
 
 When exporting to EPUB, text drop-down form fields are always saved as text due to requirements of this format.
+
+ **Examples:** 
+
+Shows how to get drop-down combo box form fields to blend in with paragraph text when saving to html.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Use a document builder to insert a combo box with the value "Two" selected.
+ builder.insertComboBox("MyComboBox", new String[]{"One", "Two", "Three"}, 1);
+
+ // The "ExportDropDownFormFieldAsText" flag of this SaveOptions object allows us to
+ // control how saving the document to HTML treats drop-down combo boxes.
+ // Setting it to "true" will convert each combo box into simple text
+ // that displays the combo box's currently selected value, effectively freezing it.
+ // Setting it to "false" will preserve the functionality of the combo box using  and  tags.
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ options.setExportDropDownFormFieldAsText(exportDropDownFormFieldAsText);
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.DropDownFormField.html", options);
+
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.DropDownFormField.html"), StandardCharsets.UTF_8);
+
+ if (exportDropDownFormFieldAsText)
+     Assert.assertTrue(outDocContents.contains(
+             "Two"));
+ else
+     Assert.assertTrue(outDocContents.contains(
+             "" +
+                     "One" +
+                     "Two" +
+                     "Three" +
+                     ""));
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1421,6 +4849,8 @@ public void setExportFontResources(boolean value)
 
 Specifies whether font resources should be exported to HTML, MHTML or EPUB. Default is  false .
 
+ **Remarks:** 
+
 Exporting font resources allows for consistent document rendering independent of the fonts available in a given user's environment.
 
 If [getExportFontResources()](../../com.aspose.words/htmlsaveoptions/\#getExportFontResources) / [setExportFontResources(boolean)](../../com.aspose.words/htmlsaveoptions/\#setExportFontResources-boolean) is set to  true , main HTML document will refer to every font via the CSS 3 **@font-face** at-rule and fonts will be output as separate files. When exporting to IDPF EPUB or MHTML formats, fonts will be embedded into the corresponding package along with other subsidiary files.
@@ -1428,6 +4858,65 @@ If [getExportFontResources()](../../com.aspose.words/htmlsaveoptions/\#getExport
 If [getExportFontsAsBase64()](../../com.aspose.words/htmlsaveoptions/\#getExportFontsAsBase64) / [setExportFontsAsBase64(boolean)](../../com.aspose.words/htmlsaveoptions/\#setExportFontsAsBase64-boolean) is set to  true , fonts will not be saved to separate files. Instead, they will be embedded into **@font-face** at-rules in Base64 encoding.
 
 **Important!** When exporting font resources, font licensing issues should be considered. Authors who want to use specific fonts via a downloadable font mechanism must always carefully verify that their intended use is within the scope of the font license. Many commercial fonts presently do not allow web downloading of their fonts in any form. License agreements that cover some fonts specifically note that usage via **@font-face** rules in CSS style sheets is not allowed. Font subsetting can also violate license terms.
+
+ **Examples:** 
+
+Shows how to define custom logic for exporting fonts when saving to HTML.
+
+```
+
+ public void saveExportedFonts() throws Exception {
+     Document doc = new Document(getMyDir() + "Rendering.docx");
+
+     // Configure a SaveOptions object to export fonts to separate files.
+     // Set a callback that will handle font saving in a custom manner.
+     HtmlSaveOptions options = new HtmlSaveOptions();
+     {
+         options.setExportFontResources(true);
+         options.setFontSavingCallback(new HandleFontSaving());
+     }
+
+     // The callback will export .ttf files and save them alongside the output document.
+     doc.save(getArtifactsDir() + "HtmlSaveOptions.SaveExportedFonts.html", options);
+
+     File[] fontFileNames = new File(getArtifactsDir()).listFiles((d, name) -> name.endsWith(".ttf"));
+
+     for (File fontFilename : fontFileNames) {
+         System.out.println(fontFilename.getName());
+     }
+
+ }
+
+ /// 
+ /// Prints information about exported fonts and saves them in the same local system folder as their output .html.
+ /// 
+ public static class HandleFontSaving implements IFontSavingCallback {
+     public void fontSaving(FontSavingArgs args) throws Exception {
+         System.out.println(MessageFormat.format("Font:\t{0}", args.getFontFamilyName()));
+         if (args.getBold()) System.out.print(", bold");
+         if (args.getItalic()) System.out.print(", italic");
+         System.out.println(MessageFormat.format("\nSource:\t{0}, {1} bytes\n", args.getOriginalFileName(), args.getOriginalFileSize()));
+
+         // We can also access the source document from here.
+         Assert.assertTrue(args.getDocument().getOriginalFileName().endsWith("Rendering.docx"));
+
+         Assert.assertTrue(args.isExportNeeded());
+         Assert.assertTrue(args.isSubsettingNeeded());
+
+         String[] splittedFileName = args.getOriginalFileName().split("\\\\");
+         String fileName = splittedFileName[splittedFileName.length - 1];
+
+         // There are two ways of saving an exported font.
+         // 1 -  Save it to a local file system location:
+         args.setFontFileName(fileName);
+
+         // 2 -  Save it to a stream:
+         args.setFontStream(new FileOutputStream(fileName));
+         Assert.assertFalse(args.getKeepFontStreamOpen());
+     }
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1442,7 +4931,48 @@ public void setExportFontsAsBase64(boolean value)
 
 Specifies whether fonts resources should be embedded to HTML in Base64 encoding. Default is  false .
 
+ **Remarks:** 
+
 By default, fonts are written to separate files. If this option is set to  true , fonts will be embedded into the document's CSS in Base64 encoding.
+
+ **Examples:** 
+
+Shows how to embed fonts inside a saved HTML document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setExportFontsAsBase64(true);
+     options.setCssStyleSheetType(CssStyleSheetType.EMBEDDED);
+     options.setPrettyFormat(true);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.ExportFontsAsBase64.html", options);
+ 
+```
+
+Shows how to save a .html document with images embedded inside it.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setExportImagesAsBase64(exportImagesAsBase64);
+     options.setPrettyFormat(true);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.ExportImagesAsBase64.html", options);
+
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.ExportImagesAsBase64.html"), StandardCharsets.UTF_8);
+
+ Assert.assertTrue(exportImagesAsBase64
+         ? outDocContents.contains("
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1457,6 +4987,21 @@ public void setExportGeneratorName(boolean value)
 
 When  true , causes the name and version of Aspose.Words to be embedded into produced files. Default value is  true .
 
+ **Examples:** 
+
+Shows how to disable adding name and version of Aspose.Words into produced files.
+
+```
+
+ Document doc = new Document();
+
+ // Use https://docs.aspose.com/words/net/generator-or-producer-name-included-in-output-documents/ to know how to check the result.
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(); { saveOptions.setExportGeneratorName(false); }
+
+ doc.save(getArtifactsDir() + "OoxmlSaveOptions.ExportGeneratorName.docx", saveOptions);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1470,6 +5015,8 @@ public void setExportHeadersFootersMode(int value)
 
 Specifies how headers and footers are output to HTML, MHTML or EPUB. Default value is [ExportHeadersFootersMode.PER\_SECTION](../../com.aspose.words/exportheadersfootersmode/\#PER-SECTION) for HTML/MHTML and [ExportHeadersFootersMode.NONE](../../com.aspose.words/exportheadersfootersmode/\#NONE) for EPUB.
 
+ **Remarks:** 
+
 It is hard to meaningfully output headers and footers to HTML because HTML is not paginated.
 
 When this property is [ExportHeadersFootersMode.PER\_SECTION](../../com.aspose.words/exportheadersfootersmode/\#PER-SECTION), Aspose.Words exports only primary headers and footers at the beginning and the end of each section.
@@ -1477,6 +5024,36 @@ When this property is [ExportHeadersFootersMode.PER\_SECTION](../../com.aspose.w
 When it is [ExportHeadersFootersMode.FIRST\_SECTION\_HEADER\_LAST\_SECTION\_FOOTER](../../com.aspose.words/exportheadersfootersmode/\#FIRST-SECTION-HEADER-LAST-SECTION-FOOTER) only first primary header and the last primary footer (including linked to previous) are exported.
 
 You can disable export of headers and footers altogether by setting this property to [ExportHeadersFootersMode.NONE](../../com.aspose.words/exportheadersfootersmode/\#NONE).
+
+ **Examples:** 
+
+Shows how to omit headers/footers when saving a document to HTML.
+
+```
+
+ Document doc = new Document(getMyDir() + "Header and footer types.docx");
+
+ // This document contains headers and footers. We can access them via the "HeadersFooters" collection.
+ Assert.assertEquals("First header", doc.getFirstSection().getHeadersFooters().getByHeaderFooterType(HeaderFooterType.HEADER_FIRST).getText().trim());
+
+ // Formats such as .html do not split the document into pages, so headers/footers will not function the same way
+ // they would when we open the document as a .docx using Microsoft Word.
+ // If we convert a document with headers/footers to html, the conversion will assimilate the headers/footers into body text.
+ // We can use a SaveOptions object to omit headers/footers while converting to html.
+ HtmlSaveOptions saveOptions =
+         new HtmlSaveOptions(SaveFormat.HTML);
+ {
+     saveOptions.setExportHeadersFootersMode(ExportHeadersFootersMode.NONE);
+ }
+
+ doc.save(getArtifactsDir() + "HeaderFooter.ExportMode.html", saveOptions);
+
+ // Open our saved document and verify that it does not contain the header's text.
+ doc = new Document(getArtifactsDir() + "HeaderFooter.ExportMode.html");
+
+ Assert.assertFalse(doc.getRange().getText().contains("First header"));
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1491,7 +5068,48 @@ public void setExportImagesAsBase64(boolean value)
 
 Specifies whether images are saved in Base64 format to the output HTML, MHTML or EPUB. Default is  false .
 
+ **Remarks:** 
+
 When this property is set to  true  images data are exported directly into the **img** elements and separate files are not created.
+
+ **Examples:** 
+
+Shows how to embed fonts inside a saved HTML document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setExportFontsAsBase64(true);
+     options.setCssStyleSheetType(CssStyleSheetType.EMBEDDED);
+     options.setPrettyFormat(true);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.ExportFontsAsBase64.html", options);
+ 
+```
+
+Shows how to save a .html document with images embedded inside it.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setExportImagesAsBase64(exportImagesAsBase64);
+     options.setPrettyFormat(true);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.ExportImagesAsBase64.html", options);
+
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.ExportImagesAsBase64.html"), StandardCharsets.UTF_8);
+
+ Assert.assertTrue(exportImagesAsBase64
+         ? outDocContents.contains("
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1506,7 +5124,56 @@ public void setExportLanguageInformation(boolean value)
 
 Specifies whether language information is exported to HTML, MHTML or EPUB. Default is  false .
 
+ **Remarks:** 
+
 When this property is set to  true  Aspose.Words outputs **lang** HTML attribute on the document elements that specify language. This can be needed to preserve language related semantics.
+
+ **Examples:** 
+
+Shows how to preserve language information when saving to .html.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Use the builder to write text while formatting it in different locales.
+ builder.getFont().setLocaleId(1033);
+ builder.writeln("Hello world!");
+
+ builder.getFont().setLocaleId(2057);
+ builder.writeln("Hello again!");
+
+ builder.getFont().setLocaleId(1049);
+ builder.write("\u041f\u0440\u0438\u0432\u0435\u0442, \u043c\u0438\u0440!");
+
+ // When saving the document to HTML, we can pass a SaveOptions object
+ // to either preserve or discard each formatted text's locale.
+ // If we set the "ExportLanguageInformation" flag to "true",
+ // the output HTML document will contain the locales in "lang" attributes of  tags.
+ // If we set the "ExportLanguageInformation" flag to "false',
+ // the text in the output HTML document will not contain any locale information.
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setExportLanguageInformation(exportLanguageInformation);
+     options.setPrettyFormat(true);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.ExportLanguageInformation.html", options);
+
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.ExportLanguageInformation.html"), StandardCharsets.UTF_8);
+
+ if (exportLanguageInformation) {
+     Assert.assertTrue(outDocContents.contains("Hello world!"));
+     Assert.assertTrue(outDocContents.contains("Hello again!"));
+     Assert.assertTrue(outDocContents.contains("\u041f\u0440\u0438\u0432\u0435\u0442, \u043c\u0438\u0440!"));
+ } else {
+     Assert.assertTrue(outDocContents.contains("Hello world!"));
+     Assert.assertTrue(outDocContents.contains("Hello again!"));
+     Assert.assertTrue(outDocContents.contains("\u041f\u0440\u0438\u0432\u0435\u0442, \u043c\u0438\u0440!"));
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1521,6 +5188,110 @@ public void setExportListLabels(int value)
 
 Controls how list labels are output to HTML, MHTML or EPUB. Default value is [ExportListLabels.AUTO](../../com.aspose.words/exportlistlabels/\#AUTO).
 
+ **Examples:** 
+
+Shows how to configure list exporting to HTML.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ List list = doc.getLists().add(ListTemplate.NUMBER_DEFAULT);
+ builder.getListFormat().setList(list);
+
+ builder.writeln("Default numbered list item 1.");
+ builder.writeln("Default numbered list item 2.");
+ builder.getListFormat().listIndent();
+ builder.writeln("Default numbered list item 3.");
+ builder.getListFormat().removeNumbers();
+
+ list = doc.getLists().add(ListTemplate.OUTLINE_HEADINGS_LEGAL);
+ builder.getListFormat().setList(list);
+
+ builder.writeln("Outline legal heading list item 1.");
+ builder.writeln("Outline legal heading list item 2.");
+ builder.getListFormat().listIndent();
+ builder.writeln("Outline legal heading list item 3.");
+ builder.getListFormat().listIndent();
+ builder.writeln("Outline legal heading list item 4.");
+ builder.getListFormat().listIndent();
+ builder.writeln("Outline legal heading list item 5.");
+ builder.getListFormat().removeNumbers();
+
+ // When saving the document to HTML, we can pass a SaveOptions object
+ // to decide which HTML elements the document will use to represent lists.
+ // Setting the "ExportListLabels" property to "ExportListLabels.AsInlineText"
+ // will create lists by formatting spans.
+ // Setting the "ExportListLabels" property to "ExportListLabels.Auto" will use the  tag
+ // to build lists in cases when using the  and  tags may cause loss of formatting.
+ // Setting the "ExportListLabels" property to "ExportListLabels.ByHtmlTags"
+ // will use  and  tags to build all lists.
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setExportListLabels(exportListLabels);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.List.html", options);
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.List.html"), StandardCharsets.UTF_8);
+
+ switch (exportListLabels) {
+     case ExportListLabels.AS_INLINE_TEXT:
+         Assert.assertTrue(outDocContents.contains(
+                 " " +
+                         "" +
+                         "a." +
+                         "       " +
+                         "" +
+                         "Default numbered list item 3." +
+                         ""));
+
+         Assert.assertTrue(outDocContents.contains(
+                 " " +
+                         "" +
+                         "2.1.1.1" +
+                         "       " +
+                         "" +
+                         "Outline legal heading list item 5." +
+                         ""));
+         break;
+     case ExportListLabels.AUTO:
+         Assert.assertTrue(outDocContents.contains(
+                 " " +
+                         " " +
+                         "Default numbered list item 3." +
+                         "" +
+                         ""));
+
+         Assert.assertTrue(outDocContents.contains(
+                 " " +
+                         "" +
+                         "2.1.1.1" +
+                         "       " +
+                         "" +
+                         "Outline legal heading list item 5." +
+                         ""));
+         break;
+     case ExportListLabels.BY_HTML_TAGS:
+         Assert.assertTrue(outDocContents.contains(
+                 " " +
+                         " " +
+                         "Default numbered list item 3." +
+                         "" +
+                         ""));
+
+         Assert.assertTrue(outDocContents.contains(
+                 " " +
+                         " " +
+                         "       " +
+                         "Outline legal heading list item 5." +
+                         "" +
+                         ""));
+         break;
+ }
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1534,9 +5305,38 @@ public void setExportOriginalUrlForLinkedImages(boolean value)
 
 Specifies whether original URL should be used as the URL of the linked images. Default value is  false .
 
+ **Remarks:** 
+
 If value is set to  true  [ImageData.getSourceFullName()](../../com.aspose.words/imagedata/\#getSourceFullName) / [ImageData.setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata/\#setSourceFullName-java.lang.String) value is used as the URL of linked images and linked images are not loaded into document's folder or [getImagesFolder()](../../com.aspose.words/htmlsaveoptions/\#getImagesFolder) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setImagesFolder-java.lang.String).
 
 If value is set to  false  linked images are loaded into document's folder or [getImagesFolder()](../../com.aspose.words/htmlsaveoptions/\#getImagesFolder) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setImagesFolder-java.lang.String) and URL of each linked image is constructed depending on document's folder, [getImagesFolder()](../../com.aspose.words/htmlsaveoptions/\#getImagesFolder) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setImagesFolder-java.lang.String) and [getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getImagesFolderAlias) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setImagesFolderAlias-java.lang.String) properties.
+
+ **Examples:** 
+
+Shows how to set folders and folder aliases for externally saved resources that Aspose.Words will create when saving a document to HTML.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setCssStyleSheetType(CssStyleSheetType.EXTERNAL);
+     options.setExportFontResources(true);
+     options.setImageResolution(72);
+     options.setFontResourcesSubsettingSizeThreshold(0);
+     options.setFontsFolder(getArtifactsDir() + "Fonts");
+     options.setImagesFolder(getArtifactsDir() + "Images");
+     options.setResourceFolder(getArtifactsDir() + "Resources");
+     options.setFontsFolderAlias("http://example.com/fonts");
+     options.setImagesFolderAlias("http://example.com/images");
+     options.setResourceFolderAlias("http://example.com/resources");
+     options.setExportOriginalUrlForLinkedImages(true);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.FolderAlias.html", options);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1549,7 +5349,58 @@ public void setExportPageMargins(boolean value)
 ```
 
 
-Specifies whether page margins is exported to HTML, MHTML or EPUB. Default is  false . Aspose.Words does not show area of page margins by default. If any elements are completely or partially clipped by the document edge the displayed area can be extended with this option.
+Specifies whether page margins is exported to HTML, MHTML or EPUB. Default is  false .
+
+ **Remarks:** 
+
+Aspose.Words does not show area of page margins by default. If any elements are completely or partially clipped by the document edge the displayed area can be extended with this option.
+
+ **Examples:** 
+
+Shows how to show out-of-bounds objects in output HTML documents.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Use a builder to insert a shape with no wrapping.
+ Shape shape = builder.insertShape(ShapeType.CUBE, 200.0, 200.0);
+
+ shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
+ shape.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
+ shape.setWrapType(WrapType.NONE);
+
+ // Negative shape position values may place the shape outside of page boundaries.
+ // If we export this to HTML, the shape will appear truncated.
+ shape.setLeft(-150);
+
+ // When saving the document to HTML, we can pass a SaveOptions object
+ // to decide whether to adjust the page to display out-of-bounds objects fully.
+ // If we set the "ExportPageMargins" flag to "true", the shape will be fully visible in the output HTML.
+ // If we set the "ExportPageMargins" flag to "false",
+ // our document will display the shape truncated as we would see it in Microsoft Word.
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setExportPageMargins(exportPageMargins);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.ExportPageMargins.html", options);
+
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.ExportPageMargins.html"), StandardCharsets.UTF_8);
+
+ if (exportPageMargins)
+ {
+     Assert.assertTrue(outDocContents.contains(""));
+     Assert.assertTrue(outDocContents.contains(" "));
+ }
+ else
+ {
+     Assert.assertFalse(outDocContents.contains("style type=\"text/css\">"));
+     Assert.assertTrue(outDocContents.contains(" "));
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1564,9 +5415,66 @@ public void setExportPageSetup(boolean value)
 
 Specifies whether page setup is exported to HTML, MHTML or EPUB. Default is  false .
 
+ **Remarks:** 
+
 Each [Section](../../com.aspose.words/section/) in Aspose.Words document model provides page setup information via [PageSetup](../../com.aspose.words/pagesetup/) class. When you export a document to HTML format you might need to keep this information for further usage. In particular, page setup might be important for rendering to paged media (printing) or subsequent conversion to the native Microsoft Word file formats (DOCX, DOC, RTF, WML).
 
 In most cases HTML is intended for viewing in browsers where pagination is not performed. So this feature is inactive by default.
+
+ **Examples:** 
+
+Shows how decide whether to preserve section structure/page setup information when saving to HTML.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.write("Section 1");
+ builder.insertBreak(BreakType.SECTION_BREAK_NEW_PAGE);
+ builder.write("Section 2");
+
+ PageSetup pageSetup = doc.getSections().get(0).getPageSetup();
+ pageSetup.setTopMargin(36.0);
+ pageSetup.setBottomMargin(36.0);
+ pageSetup.setPaperSize(PaperSize.A5);
+
+ // When saving the document to HTML, we can pass a SaveOptions object
+ // to decide whether to preserve or discard page setup settings.
+ // If we set the "ExportPageSetup" flag to "true", the output HTML document will contain our page setup configuration.
+ // If we set the "ExportPageSetup" flag to "false", the save operation will discard our page setup settings
+ // for the first section, and both sections will look identical.
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setExportPageSetup(exportPageSetup);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.ExportPageSetup.html", options);
+
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.ExportPageSetup.html"), StandardCharsets.UTF_8);
+
+ if (exportPageSetup) {
+     Assert.assertTrue(outDocContents.contains(
+             ""));
+
+     Assert.assertTrue(outDocContents.contains(
+             " " +
+                     " " +
+                     "Section 1" +
+                     "" +
+                     ""));
+ } else {
+     Assert.assertFalse(outDocContents.contains("style type=\"text/css\">"));
+
+     Assert.assertTrue(outDocContents.contains(
+             " " +
+                     " " +
+                     "Section 1" +
+                     "" +
+                     ""));
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1581,11 +5489,77 @@ public void setExportRelativeFontSize(boolean value)
 
 Specifies whether font sizes should be output in relative units when saving to HTML, MHTML or EPUB. Default is  false .
 
+ **Remarks:** 
+
 In many existing documents (HTML, IDPF EPUB) font sizes are specified in relative units. This allows applications to adjust text size when viewing/processing documents. For instance, Microsoft Internet Explorer has "View->Text Size" submenu, Adobe Digital Editions has two buttons: Increase/Decrease Text Size. If you expect this functionality to work then set [getExportRelativeFontSize()](../../com.aspose.words/htmlsaveoptions/\#getExportRelativeFontSize) / [setExportRelativeFontSize(boolean)](../../com.aspose.words/htmlsaveoptions/\#setExportRelativeFontSize-boolean) property to  true .
 
 Aspose Words document model contains and operates only with absolute font size units. Relative units need additional logic to be recalculated from some initial (standard) size. Font size of **Normal** document style is taken as standard. For instance, if **Normal** has 12pt font and some text is 18pt then it will be output as **1.5em.** to the HTML.
 
 When this option is enabled, document elements other than text will still have absolute sizes. Also some text-related attributes might be expressed absolutely. In particular, line spacing specified with "exactly" rule might produce unwanted results when scaling text. So the source documents should be properly designed and tested when exporting with [getExportRelativeFontSize()](../../com.aspose.words/htmlsaveoptions/\#getExportRelativeFontSize) / [setExportRelativeFontSize(boolean)](../../com.aspose.words/htmlsaveoptions/\#setExportRelativeFontSize-boolean) set to  true .
+
+ **Examples:** 
+
+Shows how to use relative font sizes when saving to .html.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Default font size, ");
+ builder.getFont().setSize(24.0);
+ builder.writeln("2x default font size,");
+ builder.getFont().setSize(96.0);
+ builder.write("8x default font size");
+
+ // When we save the document to HTML, we can pass a SaveOptions object
+ // to determine whether to use relative or absolute font sizes.
+ // Set the "ExportRelativeFontSize" flag to "true" to declare font sizes
+ // using the "em" measurement unit, which is a factor that multiplies the current font size.
+ // Set the "ExportRelativeFontSize" flag to "false" to declare font sizes
+ // using the "pt" measurement unit, which is the font's absolute size in points.
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setExportRelativeFontSize(exportRelativeFontSize);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.RelativeFontSize.html", options);
+
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.RelativeFontSize.html"), StandardCharsets.UTF_8);
+
+ if (exportRelativeFontSize) {
+     Assert.assertTrue(outDocContents.contains(
+             "" +
+                     " " +
+                     " " +
+                     "Default font size, " +
+                     "" +
+                     " " +
+                     "2x default font size," +
+                     "" +
+                     " " +
+                     "8x default font size" +
+                     "" +
+                     "" +
+                     ""));
+ } else {
+     Assert.assertTrue(outDocContents.contains(
+             "" +
+                     " " +
+                     " " +
+                     "Default font size, " +
+                     "" +
+                     " " +
+                     "2x default font size," +
+                     "" +
+                     " " +
+                     "8x default font size" +
+                     "" +
+                     "" +
+                     ""));
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1600,11 +5574,87 @@ public void setExportRoundtripInformation(boolean value)
 
 Specifies whether to write the roundtrip information when saving to HTML, MHTML or EPUB. Default value is  true  for HTML and  false  for MHTML and EPUB.
 
+ **Remarks:** 
+
 Saving of the roundtrip information allows to restore document properties such as tab stops, comments, headers and footers during the HTML documents loading back into a [Document](../../com.aspose.words/document/) object.
 
 When  true , the roundtrip information is exported as -aw-\* CSS properties of the corresponding HTML elements.
 
 When  false , causes no roundtrip information to be output into produced files.
+
+ **Examples:** 
+
+Shows how to preserve hidden elements when converting to .html.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ // When converting a document to .html, some elements such as hidden bookmarks, original shape positions,
+ // or footnotes will be either removed or converted to plain text and effectively be lost.
+ // Saving with a HtmlSaveOptions object with ExportRoundtripInformation set to true will preserve these elements.
+
+ // When we save the document to HTML, we can pass a SaveOptions object to determine
+ // how the saving operation will export document elements that HTML does not support or use,
+ // such as hidden bookmarks and original shape positions.
+ // If we set the "ExportRoundtripInformation" flag to "true", the save operation will preserve these elements.
+ // If we set the "ExportRoundTripInformation" flag to "false", the save operation will discard these elements.
+ // We will want to preserve such elements if we intend to load the saved HTML using Aspose.Words,
+ // as they could be of use once again.
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setExportRoundtripInformation(exportRoundtripInformation);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.RoundTripInformation.html", options);
+
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.RoundTripInformation.html"), StandardCharsets.UTF_8);
+ doc = new Document(getArtifactsDir() + "HtmlSaveOptions.RoundTripInformation.html");
+
+ if (exportRoundtripInformation) {
+     Assert.assertTrue(outDocContents.contains(" "));
+     Assert.assertTrue(outDocContents.contains(" "));
+
+     Assert.assertTrue(outDocContents.contains(
+             "td colspan=\"2\" style=\"width:210.6pt; border-style:solid; border-width:0.75pt 6pt 0.75pt 0.75pt; " +
+                     "padding-right:2.4pt; padding-left:5.03pt; vertical-align:top; " +
+                     "-aw-border-bottom:0.5pt single; -aw-border-left:0.5pt single; -aw-border-top:0.5pt single\">"));
+
+     Assert.assertTrue(outDocContents.contains(
+             " "));
+
+     Assert.assertTrue(outDocContents.contains(
+             ""));
+
+     Assert.assertTrue(outDocContents.contains(
+             "Page number " +
+                     "" +
+                     "" +
+                     "" +
+                     "1" +
+                     ""));
+
+     Assert.assertEquals(1, IterableUtils.countMatches(doc.getRange().getFields(), f -> f.getType() == FieldType.FIELD_PAGE));
+ } else {
+     Assert.assertTrue(outDocContents.contains(" "));
+     Assert.assertTrue(outDocContents.contains(" "));
+
+     Assert.assertTrue(outDocContents.contains(
+             ""));
+
+     Assert.assertTrue(outDocContents.contains(
+             " "));
+
+     Assert.assertTrue(outDocContents.contains(
+             ""));
+
+     Assert.assertTrue(outDocContents.contains(
+             "Page number 1"));
+
+     Assert.assertEquals(0, IterableUtils.countMatches(doc.getRange().getFields(), f -> f.getType() == FieldType.FIELD_PAGE));
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1619,7 +5669,50 @@ public void setExportShapesAsSvg(boolean value)
 
 Controls whether [Shape](../../com.aspose.words/shape/) nodes are converted to SVG images when saving to HTML, MHTML, EPUB or AZW3. Default value is  false .
 
+ **Remarks:** 
+
 If this option is set to  true , [Shape](../../com.aspose.words/shape/) nodes are exported as  elements. Otherwise, they are rendered to bitmaps and are exported as ![Image 1][] elements.
+
+ **Examples:** 
+
+Shows how to export text boxes as scalable vector graphics.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape textBox = builder.insertShape(ShapeType.TEXT_BOX, 100.0, 60.0);
+ builder.moveTo(textBox.getFirstParagraph());
+ builder.write("My text box");
+
+ // When we save the document to HTML, we can pass a SaveOptions object
+ // to determine how the saving operation will export text box shapes.
+ // If we set the "ExportTextBoxAsSvg" flag to "true",
+ // the save operation will convert shapes with text into SVG objects.
+ // If we set the "ExportTextBoxAsSvg" flag to "false",
+ // the save operation will convert shapes with text into images.
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setExportShapesAsSvg(exportShapesAsSvg);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.ExportTextBox.html", options);
+
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.ExportTextBox.html"), StandardCharsets.UTF_8);
+
+ if (exportShapesAsSvg) {
+     Assert.assertTrue(outDocContents.contains(
+             "" +
+                     ""));
+ } else {
+     Assert.assertTrue(outDocContents.contains(
+             " " +
+                     "" +
+                     ""));
+ }
+ 
+```
 
 
 [Image 1]: 
@@ -1637,9 +5730,35 @@ public void setExportTextInputFormFieldAsText(boolean value)
 
 Controls how text input form fields are saved to HTML or MHTML. Default value is  false .
 
+ **Remarks:** 
+
 When set to  true , exports text input form fields as normal text. When  false , exports Word text input form fields as INPUT elements in HTML.
 
 When exporting to EPUB, text input form fields are always saved as text due to requirements of this format.
+
+ **Examples:** 
+
+Shows how to specify the folder for storing linked images after saving to .html.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ File imagesDir = new File(getArtifactsDir() + "SaveHtmlWithOptions");
+
+ if (imagesDir.exists())
+     imagesDir.delete();
+
+ imagesDir.mkdir();
+
+ // Set an option to export form fields as plain text instead of HTML input elements.
+ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.HTML);
+ options.setExportTextInputFormFieldAsText(true);
+ options.setImagesFolder(imagesDir.getPath());
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.SaveHtmlWithOptions.html", options);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1654,6 +5773,62 @@ public void setExportTocPageNumbers(boolean value)
 
 Specifies whether to write page numbers to table of contents when saving HTML, MHTML and EPUB. Default value is  false .
 
+ **Examples:** 
+
+Shows how to display page numbers when saving a document with a table of contents to .html.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a table of contents, and then populate the document with paragraphs formatted using a "Heading"
+ // style that the table of contents will pick up as entries. Each entry will display the heading paragraph on the left,
+ // and the page number that contains the heading on the right.
+ FieldToc fieldToc = (FieldToc) builder.insertField(FieldType.FIELD_TOC, true);
+
+ builder.getParagraphFormat().setStyle(builder.getDocument().getStyles().get("Heading 1"));
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("Entry 1");
+ builder.writeln("Entry 2");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("Entry 3");
+ builder.insertBreak(BreakType.PAGE_BREAK);
+ builder.writeln("Entry 4");
+ fieldToc.updatePageNumbers();
+ doc.updateFields();
+
+ // HTML documents do not have pages. If we save this document to HTML,
+ // the page numbers that our TOC displays will have no meaning.
+ // When we save the document to HTML, we can pass a SaveOptions object to omit these page numbers from the TOC.
+ // If we set the "ExportTocPageNumbers" flag to "true",
+ // each TOC entry will display the heading, separator, and page number, preserving its appearance in Microsoft Word.
+ // If we set the "ExportTocPageNumbers" flag to "false",
+ // the save operation will omit both the separator and page number and leave the heading for each entry intact.
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setExportTocPageNumbers(exportTocPageNumbers);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.ExportTocPageNumbers.html", options);
+
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.ExportTocPageNumbers.html"), StandardCharsets.UTF_8);
+
+ if (exportTocPageNumbers) {
+     Assert.assertTrue(outDocContents.contains(
+             "Entry 1" +
+                     "......................................................................" +
+                     "2" +
+                     " "));
+ } else {
+     Assert.assertTrue(outDocContents.contains(
+             " " +
+                     "Entry 2" +
+                     ""));
+ }
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1666,6 +5841,8 @@ public void setExportXhtmlTransitional(boolean value)
 
 
 Specifies whether to write the DOCTYPE declaration when saving to HTML or MHTML. When  true , writes a DOCTYPE declaration in the document prior to the root element. Default value is  false . When saving to EPUB or HTML5 ( [HtmlVersion.HTML\_5](../../com.aspose.words/htmlversion/\#HTML-5)) the DOCTYPE declaration is always written.
+
+ **Remarks:** 
 
 Aspose.Words always writes well formed HTML regardless of this setting.
 
@@ -1681,6 +5858,39 @@ When  true , the beginning of the HTML output document will look like this:
 
 Aspose.Words aims to output XHTML according to the XHTML 1.0 Transitional specification, but the output will not always validate against the DTD. Some structures inside a Microsoft Word document are hard or impossible to map to a document that will validate against the XHTML schema. For example, XHTML does not allow nested lists (UL cannot be nested inside another UL element), but in Microsoft Word document multilevel lists occur quite often.
 
+ **Examples:** 
+
+Shows how to display a DOCTYPE heading when converting documents to the Xhtml 1.0 transitional standard.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Hello world!");
+
+ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.HTML);
+ {
+     options.setHtmlVersion(HtmlVersion.XHTML);
+     options.setExportXhtmlTransitional(showDoctypeDeclaration);
+     options.setPrettyFormat(true);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.ExportXhtmlTransitional.html", options);
+
+ // Our document will only contain a DOCTYPE declaration heading if we have set the "ExportXhtmlTransitional" flag to "true".
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.ExportXhtmlTransitional.html"), StandardCharsets.UTF_8);
+
+ if (showDoctypeDeclaration)
+     Assert.assertTrue(outDocContents.contains(
+             "\r\n" +
+                     "\r\n" +
+                     ""));
+ else
+     Assert.assertTrue(outDocContents.contains(""));
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1694,6 +5904,8 @@ public void setFontResourcesSubsettingSizeThreshold(int value)
 
 Controls which font resources need subsetting when saving to HTML, MHTML or EPUB. Default is  0 .
 
+ **Remarks:** 
+
 [getExportFontResources()](../../com.aspose.words/htmlsaveoptions/\#getExportFontResources) / [setExportFontResources(boolean)](../../com.aspose.words/htmlsaveoptions/\#setExportFontResources-boolean) allows exporting fonts as subsidiary files or as parts of the output package. If the document uses many fonts, especially with large number of glyphs, then output size can grow significantly. Font subsetting reduces the size of the exported font resource by filtering out glyphs that are not used by the current document.
 
 Font subsetting works as follows:
@@ -1703,6 +5915,52 @@ Font subsetting works as follows:
  *  Setting the property to  suppresses font subsetting.
 
 **Important!** When exporting font resources, font licensing issues should be considered. Authors who want to use specific fonts via a downloadable font mechanism must always carefully verify that their intended use is within the scope of the font license. Many commercial fonts presently do not allow web downloading of their fonts in any form. License agreements that cover some fonts specifically note that usage via **@font-face** rules in CSS style sheets is not allowed. Font subsetting can also violate license terms.
+
+ **Examples:** 
+
+Shows how to work with font subsetting.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setName("Arial");
+ builder.writeln("Hello world!");
+ builder.getFont().setName("Times New Roman");
+ builder.writeln("Hello world!");
+ builder.getFont().setName("Courier New");
+ builder.writeln("Hello world!");
+
+ // When we save the document to HTML, we can pass a SaveOptions object configure font subsetting.
+ // Suppose we set the "ExportFontResources" flag to "true" and also name a folder in the "FontsFolder" property.
+ // In that case, the saving operation will create that folder and place a .ttf file inside
+ // that folder for each font that our document uses.
+ // Each .ttf file will contain that font's entire glyph set,
+ // which may potentially result in a very large file that accompanies the document.
+ // When we apply subsetting to a font, its exported raw data will only contain the glyphs that the document is
+ // using instead of the entire glyph set. If the text in our document only uses a small fraction of a font's
+ // glyph set, then subsetting will significantly reduce our output documents' size.
+ // We can use the "FontResourcesSubsettingSizeThreshold" property to define a .ttf file size, in bytes.
+ // If an exported font creates a size bigger file than that, then the save operation will apply subsetting to that font.
+ // Setting a threshold of 0 applies subsetting to all fonts,
+ // and setting it to "int.MaxValue" effectively disables subsetting.
+ String fontsFolder = getArtifactsDir() + "HtmlSaveOptions.FontSubsetting.Fonts";
+
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setExportFontResources(true);
+     options.setFontsFolder(fontsFolder);
+     options.setFontResourcesSubsettingSizeThreshold(fontResourcesSubsettingSizeThreshold);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.FontSubsetting.html", options);
+
+ File[] fontFileNames = new File(fontsFolder).listFiles((d, name) -> name.endsWith(".ttf"));
+
+ Assert.assertEquals(3, fontFileNames.length);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1717,6 +5975,65 @@ public void setFontSavingCallback(IFontSavingCallback value)
 
 Allows to control how fonts are saved when a document is saved to HTML, MHTML or EPUB.
 
+ **Examples:** 
+
+Shows how to define custom logic for exporting fonts when saving to HTML.
+
+```
+
+ public void saveExportedFonts() throws Exception {
+     Document doc = new Document(getMyDir() + "Rendering.docx");
+
+     // Configure a SaveOptions object to export fonts to separate files.
+     // Set a callback that will handle font saving in a custom manner.
+     HtmlSaveOptions options = new HtmlSaveOptions();
+     {
+         options.setExportFontResources(true);
+         options.setFontSavingCallback(new HandleFontSaving());
+     }
+
+     // The callback will export .ttf files and save them alongside the output document.
+     doc.save(getArtifactsDir() + "HtmlSaveOptions.SaveExportedFonts.html", options);
+
+     File[] fontFileNames = new File(getArtifactsDir()).listFiles((d, name) -> name.endsWith(".ttf"));
+
+     for (File fontFilename : fontFileNames) {
+         System.out.println(fontFilename.getName());
+     }
+
+ }
+
+ /// 
+ /// Prints information about exported fonts and saves them in the same local system folder as their output .html.
+ /// 
+ public static class HandleFontSaving implements IFontSavingCallback {
+     public void fontSaving(FontSavingArgs args) throws Exception {
+         System.out.println(MessageFormat.format("Font:\t{0}", args.getFontFamilyName()));
+         if (args.getBold()) System.out.print(", bold");
+         if (args.getItalic()) System.out.print(", italic");
+         System.out.println(MessageFormat.format("\nSource:\t{0}, {1} bytes\n", args.getOriginalFileName(), args.getOriginalFileSize()));
+
+         // We can also access the source document from here.
+         Assert.assertTrue(args.getDocument().getOriginalFileName().endsWith("Rendering.docx"));
+
+         Assert.assertTrue(args.isExportNeeded());
+         Assert.assertTrue(args.isSubsettingNeeded());
+
+         String[] splittedFileName = args.getOriginalFileName().split("\\\\");
+         String fileName = splittedFileName[splittedFileName.length - 1];
+
+         // There are two ways of saving an exported font.
+         // 1 -  Save it to a local file system location:
+         args.setFontFileName(fileName);
+
+         // 2 -  Save it to a stream:
+         args.setFontStream(new FileOutputStream(fileName));
+         Assert.assertFalse(args.getKeepFontStreamOpen());
+     }
+ }
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1730,6 +6047,8 @@ public void setFontsFolder(String value)
 
 Specifies the physical folder where fonts are saved when exporting a document to HTML. Default is an empty string.
 
+ **Remarks:** 
+
 When you save a [Document](../../com.aspose.words/document/) in HTML format and [getExportFontResources()](../../com.aspose.words/htmlsaveoptions/\#getExportFontResources) / [setExportFontResources(boolean)](../../com.aspose.words/htmlsaveoptions/\#setExportFontResources-boolean) is set to  true , Aspose.Words needs to save fonts used in the document as standalone files. [getFontsFolder()](../../com.aspose.words/htmlsaveoptions/\#getFontsFolder) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setFontsFolder-java.lang.String) allows you to specify where the fonts will be saved and [getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getFontsFolderAlias) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setFontsFolderAlias-java.lang.String) allows to specify how the font URIs will be constructed.
 
 If you save a document into a file and provide a file name, Aspose.Words, by default, saves the fonts in the same folder where the document file is saved. Use [getFontsFolder()](../../com.aspose.words/htmlsaveoptions/\#getFontsFolder) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setFontsFolder-java.lang.String) to override this behavior.
@@ -1739,6 +6058,33 @@ If you save a document into a stream, Aspose.Words does not have a folder where 
 If the folder specified by [getFontsFolder()](../../com.aspose.words/htmlsaveoptions/\#getFontsFolder) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setFontsFolder-java.lang.String) doesn't exist, it will be created automatically.
 
 [getResourceFolder()](../../com.aspose.words/htmlsaveoptions/\#getResourceFolder) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setResourceFolder-java.lang.String) is another way to specify a folder where fonts should be saved.
+
+ **Examples:** 
+
+Shows how to set folders and folder aliases for externally saved resources that Aspose.Words will create when saving a document to HTML.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setCssStyleSheetType(CssStyleSheetType.EXTERNAL);
+     options.setExportFontResources(true);
+     options.setImageResolution(72);
+     options.setFontResourcesSubsettingSizeThreshold(0);
+     options.setFontsFolder(getArtifactsDir() + "Fonts");
+     options.setImagesFolder(getArtifactsDir() + "Images");
+     options.setResourceFolder(getArtifactsDir() + "Resources");
+     options.setFontsFolderAlias("http://example.com/fonts");
+     options.setImagesFolderAlias("http://example.com/images");
+     options.setResourceFolderAlias("http://example.com/resources");
+     options.setExportOriginalUrlForLinkedImages(true);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.FolderAlias.html", options);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1753,6 +6099,8 @@ public void setFontsFolderAlias(String value)
 
 Specifies the name of the folder used to construct font URIs written into an HTML document. Default is an empty string.
 
+ **Remarks:** 
+
 When you save a [Document](../../com.aspose.words/document/) in HTML format and [getExportFontResources()](../../com.aspose.words/htmlsaveoptions/\#getExportFontResources) / [setExportFontResources(boolean)](../../com.aspose.words/htmlsaveoptions/\#setExportFontResources-boolean) is set to  true , Aspose.Words needs to save fonts used in the document as standalone files. [getFontsFolder()](../../com.aspose.words/htmlsaveoptions/\#getFontsFolder) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setFontsFolder-java.lang.String) allows you to specify where the fonts will be saved and [getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getFontsFolderAlias) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setFontsFolderAlias-java.lang.String) allows to specify how the font URIs will be constructed.
 
 If [getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getFontsFolderAlias) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setFontsFolderAlias-java.lang.String) is not an empty string, then the font URI written to HTML will be *FontsFolderAlias +* . 
@@ -1762,6 +6110,33 @@ If [getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getFontsFold
 If [getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getFontsFolderAlias) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setFontsFolderAlias-java.lang.String) is set to '.' (dot), then the font file name will be written to HTML without path regardless of other options.
 
 Alternative way to specify the name of the folder to construct font URIs is to use [getResourceFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getResourceFolderAlias) / [setResourceFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setResourceFolderAlias-java.lang.String).
+
+ **Examples:** 
+
+Shows how to set folders and folder aliases for externally saved resources that Aspose.Words will create when saving a document to HTML.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setCssStyleSheetType(CssStyleSheetType.EXTERNAL);
+     options.setExportFontResources(true);
+     options.setImageResolution(72);
+     options.setFontResourcesSubsettingSizeThreshold(0);
+     options.setFontsFolder(getArtifactsDir() + "Fonts");
+     options.setImagesFolder(getArtifactsDir() + "Images");
+     options.setResourceFolder(getArtifactsDir() + "Resources");
+     options.setFontsFolderAlias("http://example.com/fonts");
+     options.setImagesFolderAlias("http://example.com/images");
+     options.setResourceFolderAlias("http://example.com/resources");
+     options.setExportOriginalUrlForLinkedImages(true);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.FolderAlias.html", options);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1776,6 +6151,71 @@ public void setHtmlVersion(int value)
 
 Specifies version of HTML standard that should be used when saving the document to HTML or MHTML. Default value is [HtmlVersion.XHTML](../../com.aspose.words/htmlversion/\#XHTML).
 
+ **Examples:** 
+
+Shows how to display a DOCTYPE heading when converting documents to the Xhtml 1.0 transitional standard.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Hello world!");
+
+ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.HTML);
+ {
+     options.setHtmlVersion(HtmlVersion.XHTML);
+     options.setExportXhtmlTransitional(showDoctypeDeclaration);
+     options.setPrettyFormat(true);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.ExportXhtmlTransitional.html", options);
+
+ // Our document will only contain a DOCTYPE declaration heading if we have set the "ExportXhtmlTransitional" flag to "true".
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.ExportXhtmlTransitional.html"), StandardCharsets.UTF_8);
+
+ if (showDoctypeDeclaration)
+     Assert.assertTrue(outDocContents.contains(
+             "\r\n" +
+                     "\r\n" +
+                     ""));
+ else
+     Assert.assertTrue(outDocContents.contains(""));
+ 
+```
+
+Shows how to save a document to a specific version of HTML.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.HTML);
+ {
+     options.setHtmlVersion(htmlVersion);
+     options.setPrettyFormat(true);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.HtmlVersions.html", options);
+
+ // Our HTML documents will have minor differences to be compatible with different HTML versions.
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.HtmlVersions.html"), StandardCharsets.UTF_8);
+
+ switch (htmlVersion) {
+     case HtmlVersion.HTML_5:
+         Assert.assertTrue(outDocContents.contains(""));
+         Assert.assertTrue(outDocContents.contains(""));
+         Assert.assertTrue(outDocContents.contains(" "));
+         Assert.assertTrue(outDocContents.contains(" "));
+         break;
+     case HtmlVersion.XHTML:
+         Assert.assertTrue(outDocContents.contains(""));
+         Assert.assertTrue(outDocContents.contains(" "));
+         break;
+ }
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1789,7 +6229,36 @@ public void setImageResolution(int value)
 
 Specifies the output resolution for images when exporting to HTML, MHTML or EPUB. Default is  96 dpi .
 
+ **Remarks:** 
+
 This property effects raster images when [getScaleImageToShapeSize()](../../com.aspose.words/htmlsaveoptions/\#getScaleImageToShapeSize) / [setScaleImageToShapeSize(boolean)](../../com.aspose.words/htmlsaveoptions/\#setScaleImageToShapeSize-boolean) is  true  and effects metafiles exported as raster images. Some image properties such as cropping or rotation require saving transformed images and in this case transformed images are created in the given resolution.
+
+ **Examples:** 
+
+Shows how to set folders and folder aliases for externally saved resources that Aspose.Words will create when saving a document to HTML.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setCssStyleSheetType(CssStyleSheetType.EXTERNAL);
+     options.setExportFontResources(true);
+     options.setImageResolution(72);
+     options.setFontResourcesSubsettingSizeThreshold(0);
+     options.setFontsFolder(getArtifactsDir() + "Fonts");
+     options.setImagesFolder(getArtifactsDir() + "Images");
+     options.setResourceFolder(getArtifactsDir() + "Resources");
+     options.setFontsFolderAlias("http://example.com/fonts");
+     options.setImagesFolderAlias("http://example.com/images");
+     options.setResourceFolderAlias("http://example.com/resources");
+     options.setExportOriginalUrlForLinkedImages(true);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.FolderAlias.html", options);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1804,6 +6273,116 @@ public void setImageSavingCallback(IImageSavingCallback value)
 
 Allows to control how images are saved when a document is saved to HTML, MHTML or EPUB.
 
+ **Examples:** 
+
+Shows how to split a document into parts and save them.
+
+```
+
+ public void documentPartsFileNames() throws Exception {
+     Document doc = new Document(getMyDir() + "Rendering.docx");
+     String outFileName = "SavingCallback.DocumentPartsFileNames.html";
+
+     // Create an "HtmlFixedSaveOptions" object, which we can pass to the document's "Save" method
+     // to modify how we convert the document to HTML.
+     HtmlSaveOptions options = new HtmlSaveOptions();
+
+     // If we save the document normally, there will be one output HTML
+     // document with all the source document's contents.
+     // Set the "DocumentSplitCriteria" property to "DocumentSplitCriteria.SectionBreak" to
+     // save our document to multiple HTML files: one for each section.
+     options.setDocumentSplitCriteria(DocumentSplitCriteria.SECTION_BREAK);
+
+     // Assign a custom callback to the "DocumentPartSavingCallback" property to alter the document part saving logic.
+     options.setDocumentPartSavingCallback(new SavedDocumentPartRename(outFileName, options.getDocumentSplitCriteria()));
+
+     // If we convert a document that contains images into html, we will end up with one html file which links to several images.
+     // Each image will be in the form of a file in the local file system.
+     // There is also a callback that can customize the name and file system location of each image.
+     options.setImageSavingCallback(new SavedImageRename(outFileName));
+
+     doc.save(getArtifactsDir() + outFileName, options);
+ }
+
+ /// 
+ /// Sets custom filenames for output documents that the saving operation splits a document into.
+ /// 
+ private static class SavedDocumentPartRename implements IDocumentPartSavingCallback {
+     public SavedDocumentPartRename(String outFileName, int documentSplitCriteria) {
+         mOutFileName = outFileName;
+         mDocumentSplitCriteria = documentSplitCriteria;
+     }
+
+     public void documentPartSaving(DocumentPartSavingArgs args) throws Exception {
+         // We can access the entire source document via the "Document" property.
+         Assert.assertTrue(args.getDocument().getOriginalFileName().endsWith("Rendering.docx"));
+
+         String partType = "";
+
+         switch (mDocumentSplitCriteria) {
+             case DocumentSplitCriteria.PAGE_BREAK:
+                 partType = "Page";
+                 break;
+             case DocumentSplitCriteria.COLUMN_BREAK:
+                 partType = "Column";
+                 break;
+             case DocumentSplitCriteria.SECTION_BREAK:
+                 partType = "Section";
+                 break;
+             case DocumentSplitCriteria.HEADING_PARAGRAPH:
+                 partType = "Paragraph from heading";
+                 break;
+         }
+
+         String partFileName = MessageFormat.format("{0} part {1}, of type {2}.{3}", mOutFileName, ++mCount, partType, FilenameUtils.getExtension(args.getDocumentPartFileName()));
+
+         // Below are two ways of specifying where Aspose.Words will save each part of the document.
+         // 1 -  Set a filename for the output part file:
+         args.setDocumentPartFileName(partFileName);
+
+         // 2 -  Create a custom stream for the output part file:
+         try (FileOutputStream outputStream = new FileOutputStream(getArtifactsDir() + partFileName)) {
+             args.setDocumentPartStream(outputStream);
+         }
+
+         Assert.assertNotNull(args.getDocumentPartStream());
+         Assert.assertFalse(args.getKeepDocumentPartStreamOpen());
+     }
+
+     private int mCount;
+     private final String mOutFileName;
+     private final int mDocumentSplitCriteria;
+ }
+
+ /// 
+ /// Sets custom filenames for image files that an HTML conversion creates.
+ /// 
+ public static class SavedImageRename implements IImageSavingCallback {
+     public SavedImageRename(String outFileName) {
+         mOutFileName = outFileName;
+     }
+
+     public void imageSaving(ImageSavingArgs args) throws Exception {
+         String imageFileName = MessageFormat.format("{0} shape {1}, of type {2}.{3}", mOutFileName, ++mCount, args.getCurrentShape().getShapeType(), FilenameUtils.getExtension(args.getImageFileName()));
+
+         // Below are two ways of specifying where Aspose.Words will save each part of the document.
+         // 1 -  Set a filename for the output image file:
+         args.setImageFileName(imageFileName);
+
+         // 2 -  Create a custom stream for the output image file:
+         args.setImageStream(new FileOutputStream(getArtifactsDir() + imageFileName));
+
+         Assert.assertNotNull(args.getImageStream());
+         Assert.assertTrue(args.isImageAvailable());
+         Assert.assertFalse(args.getKeepImageStreamOpen());
+     }
+
+     private int mCount;
+     private final String mOutFileName;
+ }
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1817,6 +6396,8 @@ public void setImagesFolder(String value)
 
 Specifies the physical folder where images are saved when exporting a document to HTML format. Default is an empty string.
 
+ **Remarks:** 
+
 When you save a [Document](../../com.aspose.words/document/) in HTML format, Aspose.Words needs to save all images embedded in the document as standalone files. [getImagesFolder()](../../com.aspose.words/htmlsaveoptions/\#getImagesFolder) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setImagesFolder-java.lang.String) allows you to specify where the images will be saved and [getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getImagesFolderAlias) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setImagesFolderAlias-java.lang.String) allows to specify how the image URIs will be constructed.
 
 If you save a document into a file and provide a file name, Aspose.Words, by default, saves the images in the same folder where the document file is saved. Use [getImagesFolder()](../../com.aspose.words/htmlsaveoptions/\#getImagesFolder) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setImagesFolder-java.lang.String) to override this behavior.
@@ -1826,6 +6407,30 @@ If you save a document into a stream, Aspose.Words does not have a folder where 
 If the folder specified by [getImagesFolder()](../../com.aspose.words/htmlsaveoptions/\#getImagesFolder) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setImagesFolder-java.lang.String) doesn't exist, it will be created automatically.
 
 [getResourceFolder()](../../com.aspose.words/htmlsaveoptions/\#getResourceFolder) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setResourceFolder-java.lang.String) is another way to specify a folder where images should be saved.
+
+ **Examples:** 
+
+Shows how to specify the folder for storing linked images after saving to .html.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ File imagesDir = new File(getArtifactsDir() + "SaveHtmlWithOptions");
+
+ if (imagesDir.exists())
+     imagesDir.delete();
+
+ imagesDir.mkdir();
+
+ // Set an option to export form fields as plain text instead of HTML input elements.
+ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.HTML);
+ options.setExportTextInputFormFieldAsText(true);
+ options.setImagesFolder(imagesDir.getPath());
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.SaveHtmlWithOptions.html", options);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1840,6 +6445,8 @@ public void setImagesFolderAlias(String value)
 
 Specifies the name of the folder used to construct image URIs written into an HTML document. Default is an empty string.
 
+ **Remarks:** 
+
 When you save a [Document](../../com.aspose.words/document/) in HTML format, Aspose.Words needs to save all images embedded in the document as standalone files. [getImagesFolder()](../../com.aspose.words/htmlsaveoptions/\#getImagesFolder) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setImagesFolder-java.lang.String) allows you to specify where the images will be saved and [getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getImagesFolderAlias) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setImagesFolderAlias-java.lang.String) allows to specify how the image URIs will be constructed.
 
 If [getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getImagesFolderAlias) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setImagesFolderAlias-java.lang.String) is not an empty string, then the image URI written to HTML will be *ImagesFolderAlias + ![Image 1][]*.
@@ -1849,6 +6456,33 @@ If [getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getImagesFo
 If [getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getImagesFolderAlias) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setImagesFolderAlias-java.lang.String) is set to '.' (dot), then the image file name will be written to HTML without path regardless of other options.
 
 Alternative way to specify the name of the folder to construct image URIs is to use [getResourceFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getResourceFolderAlias) / [setResourceFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setResourceFolderAlias-java.lang.String).
+
+ **Examples:** 
+
+Shows how to set folders and folder aliases for externally saved resources that Aspose.Words will create when saving a document to HTML.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setCssStyleSheetType(CssStyleSheetType.EXTERNAL);
+     options.setExportFontResources(true);
+     options.setImageResolution(72);
+     options.setFontResourcesSubsettingSizeThreshold(0);
+     options.setFontsFolder(getArtifactsDir() + "Fonts");
+     options.setImagesFolder(getArtifactsDir() + "Images");
+     options.setResourceFolder(getArtifactsDir() + "Resources");
+     options.setFontsFolderAlias("http://example.com/fonts");
+     options.setImagesFolderAlias("http://example.com/images");
+     options.setResourceFolderAlias("http://example.com/resources");
+     options.setExportOriginalUrlForLinkedImages(true);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.FolderAlias.html", options);
+ 
+```
 
 
 [Image 1]: 
@@ -1864,9 +6498,33 @@ public void setImlRenderingMode(int value)
 ```
 
 
-Sets a value determining how ink (InkML) objects are rendered. The default value is [ImlRenderingMode.INK\_ML](../../com.aspose.words/imlrenderingmode/\#INK-ML).
+Sets a value determining how ink (InkML) objects are rendered.
+
+ **Remarks:** 
+
+The default value is [ImlRenderingMode.INK\_ML](../../com.aspose.words/imlrenderingmode/\#INK-ML).
 
 This property is used when the document is exported to fixed page formats.
+
+ **Examples:** 
+
+Shows how to render Ink object.
+
+```
+
+ Document doc = new Document(getMyDir() + "Ink object.docx");
+
+ // Set 'ImlRenderingMode.InkML' ignores fall-back shape of ink (InkML) object and renders InkML itself.
+ // If the rendering result is unsatisfactory,
+ // please use 'ImlRenderingMode.Fallback' to get a result similar to previous versions.
+ ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.JPEG);
+ {
+     saveOptions.setImlRenderingMode(ImlRenderingMode.INK_ML);
+ }
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.RenderInkObject.jpeg", saveOptions);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1879,7 +6537,11 @@ public void setMemoryOptimization(boolean value)
 ```
 
 
-Sets value determining if memory optimization should be performed before saving the document. Default value for this property is  false . Setting this option to  true  can significantly decrease memory consumption while saving large documents at the cost of slower saving time.
+Sets value determining if memory optimization should be performed before saving the document. Default value for this property is  false .
+
+ **Remarks:** 
+
+Setting this option to  true  can significantly decrease memory consumption while saving large documents at the cost of slower saving time.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1894,9 +6556,59 @@ public void setMetafileFormat(int value)
 
 Specifies in what format metafiles are saved when exporting to HTML, MHTML, or EPUB. Default value is [HtmlMetafileFormat.PNG](../../com.aspose.words/htmlmetafileformat/\#PNG), meaning that metafiles are rendered to raster PNG images.
 
+ **Remarks:** 
+
 Metafiles are not natively displayed by HTML browsers. By default, Aspose.Words converts WMF and EMF images into PNG files when exporting to HTML. Other options are to convert metafiles to SVG images or to export them as is without conversion.
 
 Some image transforms, in particular image cropping, will not be applied to metafile images if they are exported to HTML without conversion.
+
+ **Examples:** 
+
+Shows how to convert SVG objects to a different format when saving HTML documents.
+
+```
+
+ String html =
+         "\r\n                    \r\n                        Hello world!\r\n                    \r\n                ";
+
+ Document doc = new Document(new ByteArrayInputStream(html.getBytes()));
+
+ // This document contains a  element in the form of text.
+ // When we save the document to HTML, we can pass a SaveOptions object
+ // to determine how the saving operation handles this object.
+ // Setting the "MetafileFormat" property to "HtmlMetafileFormat.Png" to convert it to a PNG image.
+ // Setting the "MetafileFormat" property to "HtmlMetafileFormat.Svg" preserve it as a SVG object.
+ // Setting the "MetafileFormat" property to "HtmlMetafileFormat.EmfOrWmf" to convert it to a metafile.
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setMetafileFormat(htmlMetafileFormat);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.MetafileFormat.html", options);
+
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.MetafileFormat.html"), StandardCharsets.UTF_8);
+
+ switch (htmlMetafileFormat) {
+     case HtmlMetafileFormat.PNG:
+         Assert.assertTrue(outDocContents.contains(
+                 " " +
+                         "" +
+                         ""));
+         break;
+     case HtmlMetafileFormat.SVG:
+         Assert.assertTrue(outDocContents.contains(
+                 "" +
+                         ""));
+         break;
+     case HtmlMetafileFormat.EMF_OR_WMF:
+         Assert.assertTrue(outDocContents.contains(
+                 " " +
+                         "" +
+                         ""));
+         break;
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1911,6 +6623,31 @@ public void setOfficeMathOutputMode(int value)
 
 Controls how OfficeMath objects are exported to HTML, MHTML or EPUB. Default value is [HtmlOfficeMathOutputMode.IMAGE](../../com.aspose.words/htmlofficemathoutputmode/\#IMAGE).
 
+ **Examples:** 
+
+Shows how to specify how to export Microsoft OfficeMath objects to HTML.
+
+```
+
+ Document doc = new Document(getMyDir() + "Office math.docx");
+
+ // When we save the document to HTML, we can pass a SaveOptions object
+ // to determine how the saving operation handles OfficeMath objects.
+ // Setting the "OfficeMathOutputMode" property to "HtmlOfficeMathOutputMode.Image"
+ // will render each OfficeMath object into an image.
+ // Setting the "OfficeMathOutputMode" property to "HtmlOfficeMathOutputMode.MathML"
+ // will convert each OfficeMath object into MathML.
+ // Setting the "OfficeMathOutputMode" property to "HtmlOfficeMathOutputMode.Text"
+ // will represent each OfficeMath formula using plain HTML text.
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setOfficeMathOutputMode(htmlOfficeMathOutputMode);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.OfficeMathOutputMode.html", options);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1924,7 +6661,62 @@ public void setPrettyFormat(boolean value)
 
 When  true , pretty formats output where applicable. Default value is  false .
 
+ **Remarks:** 
+
 Set to  true  to make HTML, MHTML, EPUB, WordML, RTF, DOCX and ODT output human readable. Useful for testing or debugging.
+
+ **Examples:** 
+
+Shows how to enhance the readability of the raw code of a saved .html document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Hello world!");
+
+ HtmlSaveOptions htmlOptions = new HtmlSaveOptions(SaveFormat.HTML);
+ {
+     htmlOptions.setPrettyFormat(usePrettyFormat);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.PrettyFormat.html", htmlOptions);
+
+ // Enabling pretty format makes the raw html code more readable by adding tab stop and new line characters.
+ String html = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.PrettyFormat.html"), StandardCharsets.UTF_8);
+
+ if (usePrettyFormat)
+     Assert.assertEquals(
+             "\r\n" +
+                     "\t\r\n" +
+                     "\t\t\r\n" +
+                     "\t\t\r\n" +
+                     MessageFormat.format("\t\t\r\n", BuildVersionInfo.getProduct(), BuildVersionInfo.getVersion()) +
+                     "\t\t\r\n" +
+                     "\t\t\r\n" +
+                     "\t\r\n" +
+                     "\t\r\n" +
+                     "\t\t \r\n" +
+                     "\t\t\t \r\n" +
+                     "\t\t\t\tHello world!\r\n" +
+                     "\t\t\t\r\n" +
+                     "\t\t\t \r\n" +
+                     "\t\t\t\t \r\n" +
+                     "\t\t\t\r\n" +
+                     "\t\t\r\n" +
+                     "\t\r\n",
+             html);
+ else
+     Assert.assertEquals(
+             "" +
+                     "" +
+                     MessageFormat.format("", BuildVersionInfo.getProduct(), BuildVersionInfo.getVersion()) +
+                     "" +
+                     " Hello world!" +
+                     "  ",
+             html);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1939,7 +6731,229 @@ public void setProgressCallback(IDocumentSavingCallback value)
 
 Called during saving a document and accepts data about saving progress.
 
+ **Remarks:** 
+
 Progress is reported when saving to [SaveFormat.DOCX](../../com.aspose.words/saveformat/\#DOCX), [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat/\#FLAT-OPC), [SaveFormat.DOCM](../../com.aspose.words/saveformat/\#DOCM), [SaveFormat.DOTM](../../com.aspose.words/saveformat/\#DOTM), [SaveFormat.DOTX](../../com.aspose.words/saveformat/\#DOTX), [SaveFormat.HTML](../../com.aspose.words/saveformat/\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat/\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat/\#EPUB), [SaveFormat.XAML\_FLOW](../../com.aspose.words/saveformat/\#XAML-FLOW), or [SaveFormat.XAML\_FLOW\_PACK](../../com.aspose.words/saveformat/\#XAML-FLOW-PACK).
+
+ **Examples:** 
+
+Shows how to manage a document while saving to xamlflow.
+
+```
+
+ public void progressCallback(int saveFormat, String ext) throws Exception
+ {
+     Document doc = new Document(getMyDir() + "Big document.docx");
+
+     // Following formats are supported: XamlFlow, XamlFlowPack.
+     XamlFlowSaveOptions saveOptions = new XamlFlowSaveOptions(saveFormat);
+     {
+         saveOptions.setProgressCallback(new SavingProgressCallback());
+     }
+
+     try {
+         doc.save(getArtifactsDir() + MessageFormat.format("XamlFlowSaveOptions.ProgressCallback.{0}", ext), saveOptions);
+     }
+     catch (IllegalStateException exception) {
+         Assert.assertTrue(exception.getMessage().contains("EstimatedProgress"));
+     }
+ }
+
+ public static Object[][] progressCallbackDataProvider() throws Exception
+ {
+     return new Object[][]
+             {
+                     {SaveFormat.XAML_FLOW,  "xamlflow"},
+                     {SaveFormat.XAML_FLOW_PACK,  "xamlflowpack"},
+             };
+ }
+
+ /// 
+ /// Saving progress callback. Cancel a document saving after the "MaxDuration" seconds.
+ /// 
+ public static class SavingProgressCallback implements IDocumentSavingCallback
+ {
+     /// 
+     /// Ctr.
+     /// 
+     public SavingProgressCallback()
+     {
+         mSavingStartedAt = new Date();
+     }
+
+     /// 
+     /// Callback method which called during document saving.
+     /// 
+     /// Saving arguments.
+     public void notify(DocumentSavingArgs args)
+     {
+         Date canceledAt = new Date();
+         long diff = canceledAt.getTime() - mSavingStartedAt.getTime();
+         long ellapsedSeconds = TimeUnit.MILLISECONDS.toSeconds(diff);
+
+         if (ellapsedSeconds > MAX_DURATION)
+             throw new IllegalStateException(MessageFormat.format("EstimatedProgress = {0}; CanceledAt = {1}", args.getEstimatedProgress(), canceledAt));
+     }
+
+     /// 
+     /// Date and time when document saving is started.
+     /// 
+     private Date mSavingStartedAt;
+
+     /// 
+     /// Maximum allowed duration in sec.
+     /// 
+     private static final double MAX_DURATION = 0.01d;
+ }
+ 
+```
+
+Shows how to manage a document while saving to html.
+
+```
+
+ public void progressCallback(int saveFormat, String ext) throws Exception
+ {
+     Document doc = new Document(getMyDir() + "Big document.docx");
+
+     // Following formats are supported: Html, Mhtml, Epub.
+     HtmlSaveOptions saveOptions = new HtmlSaveOptions(saveFormat);
+     {
+         saveOptions.setProgressCallback(new SavingProgressCallback());
+     }
+
+     try {
+         doc.save(getArtifactsDir() + MessageFormat.format("HtmlSaveOptions.ProgressCallback.{0}", ext), saveOptions);
+     }
+     catch (IllegalStateException exception) {
+         Assert.assertTrue(exception.getMessage().contains("EstimatedProgress"));
+     }
+
+ }
+
+ public static Object[][] progressCallbackDataProvider() throws Exception
+ {
+     return new Object[][]
+             {
+                     {SaveFormat.HTML,  "html"},
+                     {SaveFormat.MHTML,  "mhtml"},
+                     {SaveFormat.EPUB,  "epub"},
+             };
+ }
+
+ /// 
+ /// Saving progress callback. Cancel a document saving after the "MaxDuration" seconds.
+ /// 
+ public static class SavingProgressCallback implements IDocumentSavingCallback
+ {
+     /// 
+     /// Ctr.
+     /// 
+     public SavingProgressCallback()
+     {
+         mSavingStartedAt = new Date();
+     }
+
+     /// 
+     /// Callback method which called during document saving.
+     /// 
+     /// Saving arguments.
+     public void notify(DocumentSavingArgs args)
+     {
+         Date canceledAt = new Date();
+         long diff = canceledAt.getTime() - mSavingStartedAt.getTime();
+         long ellapsedSeconds = TimeUnit.MILLISECONDS.toSeconds(diff);
+
+         if (ellapsedSeconds > MAX_DURATION)
+             throw new IllegalStateException(MessageFormat.format("EstimatedProgress = {0}; CanceledAt = {1}", args.getEstimatedProgress(), canceledAt));
+     }
+
+     /// 
+     /// Date and time when document saving is started.
+     /// 
+     private Date mSavingStartedAt;
+
+     /// 
+     /// Maximum allowed duration in sec.
+     /// 
+     private static final double MAX_DURATION = 0.01d;
+ }
+ 
+```
+
+Shows how to manage a document while saving to docx.
+
+```
+
+ public void progressCallback(int saveFormat, String ext) throws Exception
+ {
+     Document doc = new Document(getMyDir() + "Big document.docx");
+
+     // Following formats are supported: Docx, FlatOpc, Docm, Dotm, Dotx.
+     OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(saveFormat);
+     {
+         saveOptions.setProgressCallback(new SavingProgressCallback());
+     }
+
+     try {
+         doc.save(getArtifactsDir() + MessageFormat.format("OoxmlSaveOptions.ProgressCallback.{0}", ext), saveOptions);
+     }
+     catch (IllegalStateException exception) {
+         Assert.assertTrue(exception.getMessage().contains("EstimatedProgress"));
+     }
+ }
+
+ public static Object[][] progressCallbackDataProvider() throws Exception
+ {
+     return new Object[][]
+             {
+                     {SaveFormat.DOCX,  "docx"},
+                     {SaveFormat.DOCM,  "docm"},
+                     {SaveFormat.DOTM,  "dotm"},
+                     {SaveFormat.DOTX,  "dotx"},
+                     {SaveFormat.FLAT_OPC,  "flatopc"},
+             };
+ }
+
+ /// 
+ /// Saving progress callback. Cancel a document saving after the "MaxDuration" seconds.
+ /// 
+ public static class SavingProgressCallback implements IDocumentSavingCallback
+ {
+     /// 
+     /// Ctr.
+     /// 
+     public SavingProgressCallback()
+     {
+         mSavingStartedAt = new Date();
+     }
+
+     /// 
+     /// Callback method which called during document saving.
+     /// 
+     /// Saving arguments.
+     public void notify(DocumentSavingArgs args)
+     {
+         Date canceledAt = new Date();
+         long diff = canceledAt.getTime() - mSavingStartedAt.getTime();
+         long ellapsedSeconds = TimeUnit.MILLISECONDS.toSeconds(diff);
+
+         if (ellapsedSeconds > MAX_DURATION)
+             throw new IllegalStateException(MessageFormat.format("EstimatedProgress = {0}; CanceledAt = {1}", args.getEstimatedProgress(), canceledAt));
+     }
+
+     /// 
+     /// Date and time when document saving is started.
+     /// 
+     private Date mSavingStartedAt;
+
+     /// 
+     /// Maximum allowed duration in sec.
+     /// 
+     private static final double MAX_DURATION = 0.01d;
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1954,9 +6968,46 @@ public void setResolveFontNames(boolean value)
 
 Specifies whether font family names used in the document are resolved and substituted according to [Document.getFontSettings()](../../com.aspose.words/document/\#getFontSettings) / [Document.setFontSettings(com.aspose.words.FontSettings)](../../com.aspose.words/document/\#setFontSettings-com.aspose.words.FontSettings) when being written into HTML-based formats.
 
+ **Remarks:** 
+
 By default, this option is set to  false  and font family names are written to HTML as specified in source documents. That is, [Document.getFontSettings()](../../com.aspose.words/document/\#getFontSettings) / [Document.setFontSettings(com.aspose.words.FontSettings)](../../com.aspose.words/document/\#setFontSettings-com.aspose.words.FontSettings) are ignored and no resolution or substitution of font family names is performed.
 
 If this option is set to  true , Aspose.Words uses [Document.getFontSettings()](../../com.aspose.words/document/\#getFontSettings) / [Document.setFontSettings(com.aspose.words.FontSettings)](../../com.aspose.words/document/\#setFontSettings-com.aspose.words.FontSettings) to resolve each font family name specified in a source document into the name of an available font family, performing font substitution as required.
+
+ **Examples:** 
+
+Shows how to resolve all font names before writing them to HTML.
+
+```
+
+ Document doc = new Document(getMyDir() + "Missing font.docx");
+
+ // This document contains text that names a font that we do not have.
+ Assert.assertNotNull(doc.getFontInfos().get("28 Days Later"));
+
+ // If we have no way of getting this font, and we want to be able to display all the text
+ // in this document in an output HTML, we can substitute it with another font.
+ FontSettings fontSettings = new FontSettings();
+ {
+     fontSettings.getSubstitutionSettings().getDefaultFontSubstitution().setDefaultFontName("Arial");
+     fontSettings.getSubstitutionSettings().getDefaultFontSubstitution().setEnabled(true);
+ }
+
+ doc.setFontSettings(fontSettings);
+
+ HtmlSaveOptions saveOptions = new HtmlSaveOptions(SaveFormat.HTML);
+ {
+     // By default, this option is set to 'False' and Aspose.Words writes font names as specified in the source document.
+     saveOptions.setResolveFontNames(resolveFontNames);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.ResolveFontNames.html", saveOptions);
+
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.ResolveFontNames.html"), "utf-8");
+
+ Assert.assertTrue(outDocContents.matches(""));
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1971,11 +7022,40 @@ public void setResourceFolder(String value)
 
 Specifies a physical folder where all resources like images, fonts, and external CSS are saved when a document is exported to HTML. Default is an empty string.
 
+ **Remarks:** 
+
 [getResourceFolder()](../../com.aspose.words/htmlsaveoptions/\#getResourceFolder) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setResourceFolder-java.lang.String) is the simplest way to specify a folder where all resources should be written. Another way is to use individual properties [getFontsFolder()](../../com.aspose.words/htmlsaveoptions/\#getFontsFolder) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setFontsFolder-java.lang.String), [getImagesFolder()](../../com.aspose.words/htmlsaveoptions/\#getImagesFolder) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setImagesFolder-java.lang.String), and [getCssStyleSheetFileName()](../../com.aspose.words/htmlsaveoptions/\#getCssStyleSheetFileName) / [setCssStyleSheetFileName(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setCssStyleSheetFileName-java.lang.String).
 
 [getResourceFolder()](../../com.aspose.words/htmlsaveoptions/\#getResourceFolder) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setResourceFolder-java.lang.String) has a lower priority than folders specified via [getFontsFolder()](../../com.aspose.words/htmlsaveoptions/\#getFontsFolder) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setFontsFolder-java.lang.String), [getImagesFolder()](../../com.aspose.words/htmlsaveoptions/\#getImagesFolder) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setImagesFolder-java.lang.String), and [getCssStyleSheetFileName()](../../com.aspose.words/htmlsaveoptions/\#getCssStyleSheetFileName) / [setCssStyleSheetFileName(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setCssStyleSheetFileName-java.lang.String). For example, if both [getResourceFolder()](../../com.aspose.words/htmlsaveoptions/\#getResourceFolder) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setResourceFolder-java.lang.String) and [getFontsFolder()](../../com.aspose.words/htmlsaveoptions/\#getFontsFolder) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setFontsFolder-java.lang.String) are specified, fonts will be saved to [getFontsFolder()](../../com.aspose.words/htmlsaveoptions/\#getFontsFolder) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setFontsFolder-java.lang.String), while images and CSS will be saved to [getResourceFolder()](../../com.aspose.words/htmlsaveoptions/\#getResourceFolder) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setResourceFolder-java.lang.String).
 
 If the folder specified by [getResourceFolder()](../../com.aspose.words/htmlsaveoptions/\#getResourceFolder) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setResourceFolder-java.lang.String) doesn't exist, it will be created automatically.
+
+ **Examples:** 
+
+Shows how to set folders and folder aliases for externally saved resources that Aspose.Words will create when saving a document to HTML.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setCssStyleSheetType(CssStyleSheetType.EXTERNAL);
+     options.setExportFontResources(true);
+     options.setImageResolution(72);
+     options.setFontResourcesSubsettingSizeThreshold(0);
+     options.setFontsFolder(getArtifactsDir() + "Fonts");
+     options.setImagesFolder(getArtifactsDir() + "Images");
+     options.setResourceFolder(getArtifactsDir() + "Resources");
+     options.setFontsFolderAlias("http://example.com/fonts");
+     options.setImagesFolderAlias("http://example.com/images");
+     options.setResourceFolderAlias("http://example.com/resources");
+     options.setExportOriginalUrlForLinkedImages(true);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.FolderAlias.html", options);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1990,6 +7070,8 @@ public void setResourceFolderAlias(String value)
 
 Specifies the name of the folder used to construct URIs of all resources written into an HTML document. Default is an empty string.
 
+ **Remarks:** 
+
 [getResourceFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getResourceFolderAlias) / [setResourceFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setResourceFolderAlias-java.lang.String) is the simplest way to specify how URIs for all resource files should be constructed. Same information can be specified for images and fonts separately via [getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getImagesFolderAlias) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setImagesFolderAlias-java.lang.String) and [getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getFontsFolderAlias) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setFontsFolderAlias-java.lang.String) properties, respectively. However, there is no individual property for CSS.
 
 [getResourceFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getResourceFolderAlias) / [setResourceFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setResourceFolderAlias-java.lang.String) has lower priority than [getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getFontsFolderAlias) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setFontsFolderAlias-java.lang.String) and [getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getImagesFolderAlias) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setImagesFolderAlias-java.lang.String). For example, if both [getResourceFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getResourceFolderAlias) / [setResourceFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setResourceFolderAlias-java.lang.String) and [getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getFontsFolderAlias) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setFontsFolderAlias-java.lang.String) are specified, fonts' URIs will be constructed using [getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getFontsFolderAlias) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setFontsFolderAlias-java.lang.String), while URIs of images and CSS will be constructed using [getResourceFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getResourceFolderAlias) / [setResourceFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setResourceFolderAlias-java.lang.String).
@@ -1997,6 +7079,33 @@ Specifies the name of the folder used to construct URIs of all resources written
 If [getResourceFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getResourceFolderAlias) / [setResourceFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setResourceFolderAlias-java.lang.String) is empty, the [getResourceFolder()](../../com.aspose.words/htmlsaveoptions/\#getResourceFolder) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setResourceFolder-java.lang.String) property value will be used to construct resource URIs.
 
 If [getResourceFolderAlias()](../../com.aspose.words/htmlsaveoptions/\#getResourceFolderAlias) / [setResourceFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions/\#setResourceFolderAlias-java.lang.String) is set to '.' (dot), resource URIs will contain file names only, without any path.
+
+ **Examples:** 
+
+Shows how to set folders and folder aliases for externally saved resources that Aspose.Words will create when saving a document to HTML.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setCssStyleSheetType(CssStyleSheetType.EXTERNAL);
+     options.setExportFontResources(true);
+     options.setImageResolution(72);
+     options.setFontResourcesSubsettingSizeThreshold(0);
+     options.setFontsFolder(getArtifactsDir() + "Fonts");
+     options.setImagesFolder(getArtifactsDir() + "Images");
+     options.setResourceFolder(getArtifactsDir() + "Resources");
+     options.setFontsFolderAlias("http://example.com/fonts");
+     options.setImagesFolderAlias("http://example.com/images");
+     options.setResourceFolderAlias("http://example.com/resources");
+     options.setExportOriginalUrlForLinkedImages(true);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.FolderAlias.html", options);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2011,6 +7120,32 @@ public void setSaveFormat(int value)
 
 Specifies the format in which the document will be saved if this save options object is used. Can be [SaveFormat.HTML](../../com.aspose.words/saveformat/\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat/\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat/\#EPUB), [SaveFormat.AZW\_3](../../com.aspose.words/saveformat/\#AZW-3) or [SaveFormat.MOBI](../../com.aspose.words/saveformat/\#MOBI).
 
+ **Examples:** 
+
+Shows how to use a specific encoding when saving a document to .epub.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ // Use a SaveOptions object to specify the encoding for a document that we will save.
+ HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+ saveOptions.setSaveFormat(SaveFormat.EPUB);
+ saveOptions.setEncoding(StandardCharsets.UTF_8);
+
+ // By default, an output .epub document will have all of its contents in one HTML part.
+ // A split criterion allows us to segment the document into several HTML parts.
+ // We will set the criteria to split the document into heading paragraphs.
+ // This is useful for readers who cannot read HTML files more significant than a specific size.
+ saveOptions.setDocumentSplitCriteria(DocumentSplitCriteria.HEADING_PARAGRAPH);
+
+ // Specify that we want to export document properties.
+ saveOptions.setExportDocumentProperties(true);
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -2024,6 +7159,8 @@ public void setScaleImageToShapeSize(boolean value)
 
 Specifies whether images are scaled by Aspose.Words to the bounding shape size when exporting to HTML, MHTML or EPUB. Default value is  true .
 
+ **Remarks:** 
+
 An image in a Microsoft Word document is a shape. The shape has a size and the image has its own size. The sizes are not directly linked. For example, the image can be 1024x786 pixels, but shape that displays this image can be 400x300 points.
 
 In order to display an image in the browser, it must be scaled to the shape size. The [getScaleImageToShapeSize()](../../com.aspose.words/htmlsaveoptions/\#getScaleImageToShapeSize) / [setScaleImageToShapeSize(boolean)](../../com.aspose.words/htmlsaveoptions/\#setScaleImageToShapeSize-boolean) property controls where the scaling of the image takes place: in Aspose.Words during export to HTML or in the browser when displaying the document.
@@ -2033,6 +7170,42 @@ When [getScaleImageToShapeSize()](../../com.aspose.words/htmlsaveoptions/\#getSc
 In general, browsers do quick and poor quality scaling. As a result, you will normally get better display quality in the browser and smaller file size when [getScaleImageToShapeSize()](../../com.aspose.words/htmlsaveoptions/\#getScaleImageToShapeSize) / [setScaleImageToShapeSize(boolean)](../../com.aspose.words/htmlsaveoptions/\#setScaleImageToShapeSize-boolean) is  true , but better printing quality and faster conversion when [getScaleImageToShapeSize()](../../com.aspose.words/htmlsaveoptions/\#getScaleImageToShapeSize) / [setScaleImageToShapeSize(boolean)](../../com.aspose.words/htmlsaveoptions/\#setScaleImageToShapeSize-boolean) is  false .
 
 In addition to shapes containing individual raster images, this option also affects group shapes consisting of raster images. If [getScaleImageToShapeSize()](../../com.aspose.words/htmlsaveoptions/\#getScaleImageToShapeSize) / [setScaleImageToShapeSize(boolean)](../../com.aspose.words/htmlsaveoptions/\#setScaleImageToShapeSize-boolean) is  false  and a group shape contains raster images whose intrinsic resolution is higher than the value specified in [getImageResolution()](../../com.aspose.words/htmlsaveoptions/\#getImageResolution) / [setImageResolution(int)](../../com.aspose.words/htmlsaveoptions/\#setImageResolution-int), Aspose.Words will increase rendering resolution for that group. This allows to better preserve quality of grouped high resolution images when saving to HTML.
+
+ **Examples:** 
+
+Shows how to disable the scaling of images to their parent shape dimensions when saving to .html.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a shape which contains an image, and then make that shape considerably smaller than the image.
+ BufferedImage image = ImageIO.read(new File(getImageDir() + "Transparent background logo.png"));
+
+ Assert.assertEquals(400, image.getWidth());
+ Assert.assertEquals(400, image.getHeight());
+
+ Shape imageShape = builder.insertImage(image);
+ imageShape.setWidth(50.0);
+ imageShape.setHeight(50.0);
+
+ // Saving a document that contains shapes with images to HTML will create an image file in the local file system
+ // for each such shape. The output HTML document will use  tags to link to and display these images.
+ // When we save the document to HTML, we can pass a SaveOptions object to determine
+ // whether to scale all images that are inside shapes to the sizes of their shapes.
+ // Setting the "ScaleImageToShapeSize" flag to "true" will shrink every image
+ // to the size of the shape that contains it, so that no saved images will be larger than the document requires them to be.
+ // Setting the "ScaleImageToShapeSize" flag to "false" will preserve these images' original sizes,
+ // which will take up more space in exchange for preserving image quality.
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setScaleImageToShapeSize(scaleImageToShapeSize);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.ScaleImageToShapeSize.html", options);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2047,10 +7220,12 @@ public void setTableWidthOutputMode(int value)
 
 Controls how table, row and cell widths are exported to HTML, MHTML or EPUB. Default value is [HtmlElementSizeOutputMode.ALL](../../com.aspose.words/htmlelementsizeoutputmode/\#ALL).
 
+ **Remarks:** 
+
 In the HTML format, table, row and cell elements ( 
 
-    | -- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-    | ,  | ) can have their widths specified either in relative (percentage) or in absolute units. In a document in Aspose.Words, tables, rows and cells can have their widths specified using either relative or absolute units too.  When you convert a document to HTML using Aspose.Words, you might want to control how table, row and cell widths are exported to affect how the resulting document is displayed in the visual agent (e.g. a browser or viewer).  Use this property as a filter to specify what table widths values are exported into the destination document. For example, if you are converting a document to EPUB and intend to view the document on a mobile reading device, then you probably want to avoid exporting absolute width values. To do this you need to specify the output mode [HtmlElementSizeOutputMode.RELATIVE\_ONLY](../../com.aspose.words/htmlelementsizeoutputmode/\#RELATIVE-ONLY) or [HtmlElementSizeOutputMode.NONE](../../com.aspose.words/htmlelementsizeoutputmode/\#NONE) so the viewer on the mobile device can layout the table to fit the width of the screen as best as it can. |
+    | -- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+    | ,  | ) can have their widths specified either in relative (percentage) or in absolute units. In a document in Aspose.Words, tables, rows and cells can have their widths specified using either relative or absolute units too.  When you convert a document to HTML using Aspose.Words, you might want to control how table, row and cell widths are exported to affect how the resulting document is displayed in the visual agent (e.g. a browser or viewer).  Use this property as a filter to specify what table widths values are exported into the destination document. For example, if you are converting a document to EPUB and intend to view the document on a mobile reading device, then you probably want to avoid exporting absolute width values. To do this you need to specify the output mode [HtmlElementSizeOutputMode.RELATIVE\_ONLY](../../com.aspose.words/htmlelementsizeoutputmode/\#RELATIVE-ONLY) or [HtmlElementSizeOutputMode.NONE](../../com.aspose.words/htmlelementsizeoutputmode/\#NONE) so the viewer on the mobile device can layout the table to fit the width of the screen as best as it can.   **Examples:**   Shows how to preserve negative indents in the output .html.   Document doc = new Document(); DocumentBuilder builder = new DocumentBuilder(doc); // Insert a table with a negative indent, which will push it to the left past the left page boundary. Table table = builder.startTable(); builder.insertCell(); builder.write("Row 1, Cell 1"); builder.insertCell(); builder.write("Row 1, Cell 2"); builder.endTable(); table.setLeftIndent(-36); table.setPreferredWidth(PreferredWidth.fromPoints(144.0)); builder.insertBreak(BreakType.PARAGRAPH\_BREAK); // Insert a table with a positive indent, which will push the table to the right. table = builder.startTable(); builder.insertCell(); builder.write("Row 1, Cell 1"); builder.insertCell(); builder.write("Row 1, Cell 2"); builder.endTable(); table.setLeftIndent(36.0); table.setPreferredWidth(PreferredWidth.fromPoints(144.0)); // When we save a document to HTML, Aspose.Words will only preserve negative indents // such as the one we have applied to the first table if we set the "AllowNegativeIndent" flag // in a SaveOptions object that we will pass to "true". HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.HTML); \{ options.setAllowNegativeIndent(allowNegativeIndent); options.setTableWidthOutputMode(HtmlElementSizeOutputMode.RELATIVE\_ONLY); \} doc.save(getArtifactsDir() + "HtmlSaveOptions.NegativeIndent.html", options); String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.NegativeIndent.html"), StandardCharsets.UTF\_8); if (allowNegativeIndent) \{ Assert.assertTrue(outDocContents.contains( "  ")); Assert.assertTrue(outDocContents.contains( "  ")); \} else \{ Assert.assertTrue(outDocContents.contains( "  ")); Assert.assertTrue(outDocContents.contains( "  ")); \}  |
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2065,6 +7240,8 @@ public void setTempFolder(String value)
 
 Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is  null  and no temporary files are used.
 
+ **Remarks:** 
+
 When Aspose.Words saves a document, it needs to create temporary internal structures. By default, these internal structures are created in memory and the memory usage spikes for a short period while the document is being saved. When saving is complete, the memory is freed and reclaimed by the garbage collector.
 
 If you are saving a very large document (thousands of pages) and/or processing many documents at the same time, then the memory spike during saving can be significant enough to cause the system to throw java.lang.IndexOutOfBoundsException. Specifying a temporary folder using [getTempFolder()](../../com.aspose.words/saveoptions/\#getTempFolder) / [setTempFolder(java.lang.String)](../../com.aspose.words/saveoptions/\#setTempFolder-java.lang.String) will cause Aspose.Words to keep the internal structures in temporary files instead of memory. It reduces the memory usage during saving, but will decrease the save performance.
@@ -2072,6 +7249,30 @@ If you are saving a very large document (thousands of pages) and/or processing m
 The folder must exist and be writable, otherwise an exception will be thrown.
 
 Aspose.Words automatically deletes all temporary files when saving is complete.
+
+ **Examples:** 
+
+Shows how to use the hard drive instead of memory when saving a document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ // When we save a document, various elements are temporarily stored in memory as the save operation is taking place.
+ // We can use this option to use a temporary folder in the local file system instead,
+ // which will reduce our application's memory overhead.
+ DocSaveOptions options = new DocSaveOptions();
+ options.setTempFolder(getArtifactsDir() + "TempFiles");
+
+ // The specified temporary folder must exist in the local file system before the save operation.
+ new File(options.getTempFolder()).mkdir();
+
+ doc.save(getArtifactsDir() + "DocSaveOptions.TempFolder.doc", options);
+
+ // The folder will persist with no residual contents from the load operation.
+ Assert.assertEquals(new File(options.getTempFolder()).listFiles().length, 0);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2097,7 +7298,11 @@ public void setUpdateFields(boolean value)
 ```
 
 
-Sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is  true . Allows to specify whether to mimic or not MS Word behavior.
+Sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is  true .
+
+ **Remarks:** 
+
+Allows to specify whether to mimic or not MS Word behavior.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2112,6 +7317,50 @@ public void setUpdateLastPrintedProperty(boolean value)
 
 Sets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties/\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastPrinted-java.util.Date) property is updated before saving.
 
+ **Examples:** 
+
+Shows how to update a document's "CreatedTime" property when saving.
+
+```
+
+ Document doc = new Document();
+
+ Calendar calendar = Calendar.getInstance();
+ calendar.set(2019, 11, 20);
+ doc.getBuiltInDocumentProperties().setCreatedTime(calendar.getTime());
+
+ // This flag determines whether the created time, which is a built-in property, is updated.
+ // If so, then the date of the document's most recent save operation
+ // with this SaveOptions object passed as a parameter is used as the created time.
+ DocSaveOptions saveOptions = new DocSaveOptions();
+ saveOptions.setUpdateCreatedTimeProperty(isUpdateCreatedTimeProperty);
+
+ doc.save(getArtifactsDir() + "DocSaveOptions.UpdateCreatedTimeProperty.docx", saveOptions);
+ 
+```
+
+Shows how to update a document's "Last printed" property when saving.
+
+```
+
+ Document doc = new Document();
+
+ Calendar calendar = Calendar.getInstance();
+ calendar.set(2019, 11, 20);
+ doc.getBuiltInDocumentProperties().setLastPrinted(calendar.getTime());
+
+ // This flag determines whether the last printed date, which is a built-in property, is updated.
+ // If so, then the date of the document's most recent save operation
+ // with this SaveOptions object passed as a parameter is used as the print date.
+ DocSaveOptions saveOptions = new DocSaveOptions();
+ saveOptions.setUpdateLastPrintedProperty(isUpdateLastPrintedProperty);
+
+ // In Microsoft Word 2003, this property can be found via File -> Properties -> Statistics -> Printed.
+ // It can also be displayed in the document's body by using a PRINTDATE field.
+ doc.save(getArtifactsDir() + "DocSaveOptions.UpdateLastPrintedProperty.doc", saveOptions);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -2125,6 +7374,27 @@ public void setUpdateLastSavedTimeProperty(boolean value)
 
 Sets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties/\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastSavedTime-java.util.Date) property is updated before saving.
 
+ **Examples:** 
+
+Shows how to determine whether to preserve the document's "Last saved time" property when saving.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ // When we save the document to an OOXML format, we can create an OoxmlSaveOptions object
+ // and then pass it to the document's saving method to modify how we save the document.
+ // Set the "UpdateLastSavedTimeProperty" property to "true" to
+ // set the output document's "Last saved time" built-in property to the current date/time.
+ // Set the "UpdateLastSavedTimeProperty" property to "false" to
+ // preserve the original value of the input document's "Last saved time" built-in property.
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+ saveOptions.setUpdateLastSavedTimeProperty(updateLastSavedTimeProperty);
+
+ doc.save(getArtifactsDir() + "OoxmlSaveOptions.LastSavedTime.docx", saveOptions);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -2136,7 +7406,36 @@ public void setUpdateSdtContent(boolean value)
 ```
 
 
-Sets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) is updated before saving. The default value is  false .
+Sets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) is updated before saving.
+
+ **Remarks:** 
+
+The default value is  false .
+
+ **Examples:** 
+
+Shows how to update structured document tags while saving a document to PDF.
+
+```
+
+ Document doc = new Document();
+
+ // Insert a drop-down list structured document tag.
+ StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.DROP_DOWN_LIST, MarkupLevel.BLOCK);
+ tag.getListItems().add(new SdtListItem("Value 1"));
+ tag.getListItems().add(new SdtListItem("Value 2"));
+ tag.getListItems().add(new SdtListItem("Value 3"));
+
+ // The drop-down list currently displays "Choose an item" as the default text.
+ // Set the "SelectedValue" property to one of the list items to get the tag to
+ // display that list item's value instead of the default text.
+ tag.getListItems().setSelectedValue(tag.getListItems().get(1));
+
+ doc.getFirstSection().getBody().appendChild(tag);
+
+ doc.save(getArtifactsDir() + "StructuredDocumentTag.UpdateSdtContent.pdf");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2151,9 +7450,33 @@ public void setUseAntiAliasing(boolean value)
 
 Sets a value determining whether or not to use anti-aliasing for rendering.
 
+ **Remarks:** 
+
 The default value is  false . When this value is set to  true  anti-aliasing is used for rendering.
 
 This property is used when the document is exported to the following formats: [SaveFormat.TIFF](../../com.aspose.words/saveformat/\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat/\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat/\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat/\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat/\#EMF). When the document is exported to the [SaveFormat.HTML](../../com.aspose.words/saveformat/\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat/\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat/\#EPUB), [SaveFormat.AZW\_3](../../com.aspose.words/saveformat/\#AZW-3) or [SaveFormat.MOBI](../../com.aspose.words/saveformat/\#MOBI) formats this option is used for raster images.
+
+ **Examples:** 
+
+Shows how to improve the quality of a rendered document with SaveOptions.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setSize(60.0);
+ builder.writeln("Some text.");
+
+ SaveOptions options = new ImageSaveOptions(SaveFormat.JPEG);
+ doc.save(getArtifactsDir() + "Document.ImageSaveOptions.Default.jpg", options);
+
+ options.setUseAntiAliasing(true);
+ options.setUseHighQualityRendering(true);
+
+ doc.save(getArtifactsDir() + "Document.ImageSaveOptions.HighQuality.jpg", options);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2166,9 +7489,35 @@ public void setUseHighQualityRendering(boolean value)
 ```
 
 
-Sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms. The default value is  false .
+Sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms.
+
+ **Remarks:** 
+
+The default value is  false .
 
 This property is used when the document is exported to image formats: [SaveFormat.TIFF](../../com.aspose.words/saveformat/\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat/\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat/\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat/\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat/\#EMF).
+
+ **Examples:** 
+
+Shows how to improve the quality of a rendered document with SaveOptions.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setSize(60.0);
+ builder.writeln("Some text.");
+
+ SaveOptions options = new ImageSaveOptions(SaveFormat.JPEG);
+ doc.save(getArtifactsDir() + "Document.ImageSaveOptions.Default.jpg", options);
+
+ options.setUseAntiAliasing(true);
+ options.setUseHighQualityRendering(true);
+
+ doc.save(getArtifactsDir() + "Document.ImageSaveOptions.HighQuality.jpg", options);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |

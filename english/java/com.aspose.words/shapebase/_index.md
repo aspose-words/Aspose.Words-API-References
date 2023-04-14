@@ -4,7 +4,7 @@ linktitle: ShapeBase
 second_title: Aspose.Words for Java API Reference
 description: Base class for objects in the drawing layer such as an AutoShape freeform OLE object ActiveX control or picture in Java.
 type: docs
-weight: 523
+weight: 526
 url: /java/com.aspose.words/shapebase/
 ---
 
@@ -17,6 +17,8 @@ public abstract class ShapeBase extends CompositeNode
 Base class for objects in the drawing layer, such as an AutoShape, freeform, OLE object, ActiveX control, or picture.
 
 To learn more, visit the [ Working with Shapes ][Working with Shapes] documentation article.
+
+ **Remarks:** 
 
 This is an abstract class. The two derived classes that you can instantiate are [Shape](../../com.aspose.words/shape/) and [GroupShape](../../com.aspose.words/groupshape/).
 
@@ -31,6 +33,28 @@ A shape can be positioned inline with text or floating. The positioning method i
 When a shape is floating, it is positioned relative to something (e.g the current paragraph, the margin or the page). The relative positioning of the shape is specified using the [getRelativeHorizontalPosition()](../../com.aspose.words/shapebase/\#getRelativeHorizontalPosition) / [setRelativeHorizontalPosition(int)](../../com.aspose.words/shapebase/\#setRelativeHorizontalPosition-int) and [getRelativeVerticalPosition()](../../com.aspose.words/shapebase/\#getRelativeVerticalPosition) / [setRelativeVerticalPosition(int)](../../com.aspose.words/shapebase/\#setRelativeVerticalPosition-int) properties.
 
 A floating shape be positioned explicitly using the [getLeft()](../../com.aspose.words/shapebase/\#getLeft) / [setLeft(double)](../../com.aspose.words/shapebase/\#setLeft-double) and [getTop()](../../com.aspose.words/shapebase/\#getTop) / [setTop(double)](../../com.aspose.words/shapebase/\#setTop-double) properties or aligned relative to some other object using the [getHorizontalAlignment()](../../com.aspose.words/shapebase/\#getHorizontalAlignment) / [setHorizontalAlignment(int)](../../com.aspose.words/shapebase/\#setHorizontalAlignment-int) and [getVerticalAlignment()](../../com.aspose.words/shapebase/\#getVerticalAlignment) / [setVerticalAlignment(int)](../../com.aspose.words/shapebase/\#setVerticalAlignment-int) properties.
+
+ **Examples:** 
+
+Shows how to insert a floating image to the center of a page.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a floating image that will appear behind the overlapping text and align it to the page's center.
+ Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
+ shape.setWrapType(WrapType.NONE);
+ shape.setBehindText(true);
+ shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
+ shape.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
+ shape.setHorizontalAlignment(HorizontalAlignment.CENTER);
+ shape.setVerticalAlignment(VerticalAlignment.CENTER);
+
+ doc.save(getArtifactsDir() + "Image.CreateFloatingPageCenter.docx");
+ 
+```
 
 
 [Working with Shapes]: https://docs.aspose.com/words/java/working-with-shapes/
@@ -100,16 +124,18 @@ A floating shape be positioned explicitly using the [getLeft()](../../com.aspose
 | [getGradientVariant()](#getGradientVariant) |  |
 | [getHRef()](#getHRef) | Gets the full hyperlink address for a shape. |
 | [getHeight()](#getHeight) | Gets the height of the containing block of the shape. |
+| [getHeightRelative()](#getHeightRelative) | Gets the value that represents the percentage of shape's relative height. |
 | [getHorizontalAlignment()](#getHorizontalAlignment) | Specifies how the shape is positioned horizontally. |
 | [getLastChild()](#getLastChild) | Gets the last child of the node. |
 | [getLeft()](#getLeft) | Gets the position of the left edge of the containing block of the shape. |
+| [getLeftRelative()](#getLeftRelative) | Gets the value that represents shape's relative left position in percent. |
 | [getMarkupLanguage()](#getMarkupLanguage) | Gets MarkupLanguage used for this graphic object. |
 | [getName()](#getName) | Gets the optional shape name. |
 | [getNextMatchingNode(Node curNode)](#getNextMatchingNode-com.aspose.words.Node) |  |
 | [getNextSibling()](#getNextSibling) | Gets the node immediately following this node. |
 | [getNodeType()](#getNodeType) | Gets the type of this node. |
-| [getOn()](#getOn) |  |
-| [getOpacity()](#getOpacity) |  |
+| [getOldOn()](#getOldOn) |  |
+| [getOldOpacity()](#getOldOpacity) |  |
 | [getParentNode()](#getParentNode) | Gets the immediate parent of this node. |
 | [getParentParagraph()](#getParentParagraph) | Returns the immediate parent paragraph. |
 | [getParentParagraph_IInline()](#getParentParagraph-IInline) |  |
@@ -118,7 +144,9 @@ A floating shape be positioned explicitly using the [getLeft()](../../com.aspose
 | [getPreviousSibling()](#getPreviousSibling) | Gets the node immediately preceding this node. |
 | [getRange()](#getRange) | Returns a [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node. |
 | [getRelativeHorizontalPosition()](#getRelativeHorizontalPosition) | Specifies relative to what the shape is positioned horizontally. |
+| [getRelativeHorizontalSize()](#getRelativeHorizontalSize) | Gets the value of shape's relative size in horizontal direction. |
 | [getRelativeVerticalPosition()](#getRelativeVerticalPosition) | Specifies relative to what the shape is positioned vertically. |
+| [getRelativeVerticalSize()](#getRelativeVerticalSize) | Gets the value of shape's relative size in vertical direction. |
 | [getRight()](#getRight) | Gets the position of the right edge of the containing block of the shape. |
 | [getRotateWithObject()](#getRotateWithObject) |  |
 | [getRotation()](#getRotation) | Defines the angle (in degrees) that a shape is rotated. |
@@ -132,8 +160,10 @@ A floating shape be positioned explicitly using the [getLeft()](../../com.aspose
 | [getTextureAlignment()](#getTextureAlignment) |  |
 | [getTitle()](#getTitle) | Gets the title (caption) of the current shape object. |
 | [getTop()](#getTop) | Gets the position of the top edge of the containing block of the shape. |
+| [getTopRelative()](#getTopRelative) | Gets the value that represents shape's relative top position in percent. |
 | [getVerticalAlignment()](#getVerticalAlignment) | Specifies how the shape is positioned vertically. |
 | [getWidth()](#getWidth) | Gets the width of the containing block of the shape. |
+| [getWidthRelative()](#getWidthRelative) | Gets the value that represents the percentage of shape's relative width. |
 | [getWrapSide()](#getWrapSide) | Specifies how the text is wrapped around the shape. |
 | [getWrapType()](#getWrapType) | Defines whether the shape is inline or floating. |
 | [getZOrder()](#getZOrder) | Determines the display order of overlapping shapes. |
@@ -205,14 +235,18 @@ A floating shape be positioned explicitly using the [getLeft()](../../com.aspose
 | [setGradientAngle(double value)](#setGradientAngle-double) |  |
 | [setHRef(String value)](#setHRef-java.lang.String) | Sets the full hyperlink address for a shape. |
 | [setHeight(double value)](#setHeight-double) | Sets the height of the containing block of the shape. |
+| [setHeightRelative(float value)](#setHeightRelative-float) | Sets the value that represents the percentage of shape's relative height. |
 | [setHorizontalAlignment(int value)](#setHorizontalAlignment-int) | Specifies how the shape is positioned horizontally. |
 | [setImage(byte[] imageBytes)](#setImage-byte) |  |
 | [setLeft(double value)](#setLeft-double) | Sets the position of the left edge of the containing block of the shape. |
+| [setLeftRelative(float value)](#setLeftRelative-float) | Sets the value that represents shape's relative left position in percent. |
 | [setName(String value)](#setName-java.lang.String) | Sets the optional shape name. |
-| [setOn(boolean value)](#setOn-boolean) |  |
-| [setOpacity(double value)](#setOpacity-double) |  |
+| [setOldOn(boolean value)](#setOldOn-boolean) |  |
+| [setOldOpacity(double value)](#setOldOpacity-double) |  |
 | [setRelativeHorizontalPosition(int value)](#setRelativeHorizontalPosition-int) | Specifies relative to what the shape is positioned horizontally. |
+| [setRelativeHorizontalSize(int value)](#setRelativeHorizontalSize-int) | Sets the value of shape's relative size in horizontal direction. |
 | [setRelativeVerticalPosition(int value)](#setRelativeVerticalPosition-int) | Specifies relative to what the shape is positioned vertically. |
+| [setRelativeVerticalSize(int value)](#setRelativeVerticalSize-int) | Sets the value of shape's relative size in vertical direction. |
 | [setRotateWithObject(boolean value)](#setRotateWithObject-boolean) |  |
 | [setRotation(double value)](#setRotation-double) | Defines the angle (in degrees) that a shape is rotated. |
 | [setRunAttr(int fontAttr, Object value)](#setRunAttr-int-java.lang.Object) |  |
@@ -222,8 +256,10 @@ A floating shape be positioned explicitly using the [getLeft()](../../com.aspose
 | [setTextureAlignment(int value)](#setTextureAlignment-int) |  |
 | [setTitle(String value)](#setTitle-java.lang.String) | Sets the title (caption) of the current shape object. |
 | [setTop(double value)](#setTop-double) | Sets the position of the top edge of the containing block of the shape. |
+| [setTopRelative(float value)](#setTopRelative-float) | Sets the value that represents shape's relative top position in percent. |
 | [setVerticalAlignment(int value)](#setVerticalAlignment-int) | Specifies how the shape is positioned vertically. |
 | [setWidth(double value)](#setWidth-double) | Sets the width of the containing block of the shape. |
+| [setWidthRelative(float value)](#setWidthRelative-float) | Sets the value that represents the percentage of shape's relative width. |
 | [setWrapSide(int value)](#setWrapSide-int) | Specifies how the text is wrapped around the shape. |
 | [setWrapType(int value)](#setWrapType-int) | Defines whether the shape is inline or floating. |
 | [setZOrder(int value)](#setZOrder-int) | Determines the display order of overlapping shapes. |
@@ -244,6 +280,8 @@ public abstract boolean accept(DocumentVisitor visitor)
 
 Accepts a visitor.
 
+ **Remarks:** 
+
 Enumerates over this node and all of its children. Each node calls a corresponding method on [DocumentVisitor](../../com.aspose.words/documentvisitor/).
 
 For more info see the Visitor design pattern.
@@ -255,6 +293,185 @@ For more info see the Visitor design pattern.
 
 **Returns:**
 boolean - True if all nodes were visited; false if [DocumentVisitor](../../com.aspose.words/documentvisitor/) stopped the operation before visiting all nodes.
+
+ **Examples:** 
+
+Shows how to use a DocumentVisitor implementation to remove all hidden content from a document.
+
+```
+
+ public void removeHiddenContentFromDocument() throws Exception {
+     Document doc = new Document(getMyDir() + "Hidden content.docx");
+     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
+
+     // Below are three types of fields which can accept a document visitor,
+     // which will allow it to visit the accepting node, and then traverse its child nodes in a depth-first manner.
+     // 1 -  Paragraph node:
+     Paragraph para = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 4, true);
+     para.accept(hiddenContentRemover);
+
+     // 2 -  Table node:
+     Table table = doc.getFirstSection().getBody().getTables().get(0);
+     table.accept(hiddenContentRemover);
+
+     // 3 -  Document node:
+     doc.accept(hiddenContentRemover);
+
+     doc.save(getArtifactsDir() + "Font.RemoveHiddenContentFromDocument.docx");
+ }
+
+ /// 
+ /// Removes all visited nodes marked as "hidden content".
+ /// 
+ public static class RemoveHiddenContentVisitor extends DocumentVisitor {
+     /// 
+     /// Called when a FieldStart node is encountered in the document.
+     /// 
+     public int visitFieldStart(FieldStart fieldStart) {
+         if (fieldStart.getFont().getHidden())
+             fieldStart.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldEnd node is encountered in the document.
+     /// 
+     public int visitFieldEnd(FieldEnd fieldEnd) {
+         if (fieldEnd.getFont().getHidden())
+             fieldEnd.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FieldSeparator node is encountered in the document.
+     /// 
+     public int visitFieldSeparator(FieldSeparator fieldSeparator) {
+         if (fieldSeparator.getFont().getHidden())
+             fieldSeparator.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Run node is encountered in the document.
+     /// 
+     public int visitRun(Run run) {
+         if (run.getFont().getHidden())
+             run.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Paragraph node is encountered in the document.
+     /// 
+     public int visitParagraphStart(Paragraph paragraph) {
+         if (paragraph.getParagraphBreakFont().getHidden())
+             paragraph.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a FormField is encountered in the document.
+     /// 
+     public int visitFormField(FormField formField) {
+         if (formField.getFont().getHidden())
+             formField.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a GroupShape is encountered in the document.
+     /// 
+     public int visitGroupShapeStart(GroupShape groupShape) {
+         if (groupShape.getFont().getHidden())
+             groupShape.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Shape is encountered in the document.
+     /// 
+     public int visitShapeStart(Shape shape) {
+         if (shape.getFont().getHidden())
+             shape.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Comment is encountered in the document.
+     /// 
+     public int visitCommentStart(Comment comment) {
+         if (comment.getFont().getHidden())
+             comment.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a Footnote is encountered in the document.
+     /// 
+     public int visitFootnoteStart(Footnote footnote) {
+         if (footnote.getFont().getHidden())
+             footnote.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when a SpecialCharacter is encountered in the document.
+     /// 
+     public int visitSpecialChar(SpecialChar specialChar) {
+         if (specialChar.getFont().getHidden())
+             specialChar.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Table node is ended in the document.
+     /// 
+     public int visitTableEnd(Table table) {
+         // The content inside table cells may have the hidden content flag, but the tables themselves cannot.
+         // If this table had nothing but hidden content, this visitor would have removed all of it,
+         // and there would be no child nodes left.
+         // Thus, we can also treat the table itself as hidden content and remove it.
+         // Tables which are empty but do not have hidden content will have cells with empty paragraphs inside,
+         // which this visitor will not remove.
+         if (!table.hasChildNodes())
+             table.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Cell node is ended in the document.
+     /// 
+     public int visitCellEnd(Cell cell) {
+         if (!cell.hasChildNodes() && cell.getParentNode() != null)
+             cell.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when visiting of a Row node is ended in the document.
+     /// 
+     public int visitRowEnd(Row row) {
+         if (!row.hasChildNodes() && row.getParentNode() != null)
+             row.remove();
+
+         return VisitorAction.CONTINUE;
+     }
+ }
+ 
+```
 ### adjustWithEffects(Rectangle2D.Float source) {#adjustWithEffects-java.awt.geom.Rectangle2D.Float}
 ```
 public Rectangle2D.Float adjustWithEffects(Rectangle2D.Float source)
@@ -262,6 +479,73 @@ public Rectangle2D.Float adjustWithEffects(Rectangle2D.Float source)
 
 
 Adds to the source rectangle values of the effect extent and returns the final rectangle.
+
+ **Examples:** 
+
+Shows how to check how a shape's bounds are affected by shape effects.
+
+```
+
+ Document doc = new Document(getMyDir() + "Shape shadow effect.docx");
+ List shapeList = Arrays.stream(doc.getChildNodes(NodeType.SHAPE, true).toArray())
+         .filter(Shape.class::isInstance)
+         .map(Shape.class::cast)
+         .collect(Collectors.toList());
+ Assert.assertEquals(shapeList.size(), 2);
+
+ Shape firstShape = shapeList.get(0);
+ Shape secondShape = shapeList.get(1);
+
+ // The two shapes are identical in terms of dimensions and shape type.
+ Assert.assertEquals(firstShape.getWidth(), secondShape.getWidth());
+ Assert.assertEquals(firstShape.getHeight(), secondShape.getHeight());
+ Assert.assertEquals(firstShape.getShapeType(), secondShape.getShapeType());
+
+ // The first shape has no effects, and the second one has a shadow and thick outline.
+ // These effects make the size of the second shape's silhouette bigger than that of the first.
+ // Even though the rectangle's size shows up when we click on these shapes in Microsoft Word,
+ // the visible outer bounds of the second shape are affected by the shadow and outline and thus are bigger.
+ // We can use the "AdjustWithEffects" method to see the true size of the shape.
+ Assert.assertEquals(0.0, firstShape.getStrokeWeight());
+ Assert.assertEquals(20.0, secondShape.getStrokeWeight());
+ Assert.assertFalse(firstShape.getShadowEnabled());
+ Assert.assertTrue(secondShape.getShadowEnabled());
+
+ Shape shape = firstShape;
+
+ // Run this method to get the size of the rectangle adjusted for all our shape effects.
+ Rectangle2D.Float rectangleFOut = shape.adjustWithEffects(new Rectangle2D.Float(200f, 200f, 1000f, 1000f));
+
+ // Since the shape has no border-changing effects, its boundary dimensions are unaffected.
+ Assert.assertEquals(200.0, rectangleFOut.getX());
+ Assert.assertEquals(200.0, rectangleFOut.getY());
+ Assert.assertEquals(1000.0, rectangleFOut.getWidth());
+ Assert.assertEquals(1000.0, rectangleFOut.getHeight());
+
+ // Verify the final extent of the first shape, in points.
+ Assert.assertEquals(0.0, shape.getBoundsWithEffects().getX());
+ Assert.assertEquals(0.0, shape.getBoundsWithEffects().getY());
+ Assert.assertEquals(147.0, shape.getBoundsWithEffects().getWidth());
+ Assert.assertEquals(147.0, shape.getBoundsWithEffects().getHeight());
+
+ shape = secondShape;
+ rectangleFOut = shape.adjustWithEffects(new Rectangle2D.Float(200f, 200f, 1000f, 1000f));
+
+ // The shape effects have moved the apparent top left corner of the shape slightly.
+ Assert.assertEquals(171.5, rectangleFOut.getX());
+ Assert.assertEquals(167.0, rectangleFOut.getY());
+
+ // The effects have also affected the visible dimensions of the shape.
+ Assert.assertEquals(1045.0, rectangleFOut.getWidth());
+ Assert.assertEquals(1132.0, rectangleFOut.getHeight());
+
+ // The effects have also affected the visible bounds of the shape.
+ Assert.assertEquals(-28.5, shape.getBoundsWithEffects().getX());
+ Assert.assertEquals(-33.0, shape.getBoundsWithEffects().getY());
+ Assert.assertEquals(192.0, shape.getBoundsWithEffects().getWidth());
+ Assert.assertEquals(279.0, shape.getBoundsWithEffects().getHeight());
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -278,6 +562,8 @@ public Node appendChild(Node newChild)
 
 Adds the specified node to the end of the list of child nodes for this node.
 
+ **Remarks:** 
+
 If the  newChild  is already in the tree, it is first removed.
 
 If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
@@ -289,6 +575,55 @@ If the node being inserted was created from another document, you should use **M
 
 **Returns:**
 [Node](../../com.aspose.words/node/) - The node added.
+
+ **Examples:** 
+
+Shows how to construct an Aspose.Words document by hand.
+
+```
+
+ Document doc = new Document();
+
+ // A blank document contains one section, one body and one paragraph.
+ // Call the "RemoveAllChildren" method to remove all those nodes,
+ // and end up with a document node with no children.
+ doc.removeAllChildren();
+
+ // This document now has no composite child nodes that we can add content to.
+ // If we wish to edit it, we will need to repopulate its node collection.
+ // First, create a new section, and then append it as a child to the root document node.
+ Section section = new Section(doc);
+ doc.appendChild(section);
+
+ // Set some page setup properties for the section.
+ section.getPageSetup().setSectionStart(SectionStart.NEW_PAGE);
+ section.getPageSetup().setPaperSize(PaperSize.LETTER);
+
+ // A section needs a body, which will contain and display all its contents
+ // on the page between the section's header and footer.
+ Body body = new Body(doc);
+ section.appendChild(body);
+
+ // Create a paragraph, set some formatting properties, and then append it as a child to the body.
+ Paragraph para = new Paragraph(doc);
+
+ para.getParagraphFormat().setStyleName("Heading 1");
+ para.getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
+
+ body.appendChild(para);
+
+ // Finally, add some content to do the document. Create a run,
+ // set its appearance and contents, and then append it as a child to the paragraph.
+ Run run = new Run(doc);
+ run.setText("Hello World!");
+ run.getFont().setColor(Color.RED);
+ para.appendChild(run);
+
+ Assert.assertEquals("Hello World!", doc.getText().trim());
+
+ doc.save(getArtifactsDir() + "Section.CreateManually.docx");
+ 
+```
 ### canHaveImage() {#canHaveImage}
 ```
 public boolean canHaveImage()
@@ -297,10 +632,33 @@ public boolean canHaveImage()
 
 Returns  true  if the shape type allows the shape to have an image.
 
+ **Remarks:** 
+
 Although Microsoft Word has a special shape type for images, it appears that in Microsoft Word documents any shape except a group shape can have an image, therefore this property returns  true  for all shapes except [GroupShape](../../com.aspose.words/groupshape/).
 
+ **Examples:** 
+
+Shows how to insert and rotate an image.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a shape with an image.
+ Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
+ Assert.assertTrue(shape.canHaveImage());
+ Assert.assertTrue(shape.hasImage());
+
+ // Rotate the image 45 degrees clockwise.
+ shape.setRotation(45.0);
+
+ doc.save(getArtifactsDir() + "Shape.Rotate.docx");
+ 
+```
+
 **Returns:**
-boolean - \{ true  if the shape type allows the shape to have an image.
+boolean -  true  if the shape type allows the shape to have an image.
 ### clearRunAttrs() {#clearRunAttrs}
 ```
 public void clearRunAttrs()
@@ -325,6 +683,8 @@ public Node deepClone(boolean isCloneChildren)
 
 Creates a duplicate of the node.
 
+ **Remarks:** 
+
 This method serves as a copy constructor for nodes. The cloned node has no parent, but belongs to the same document as the original node.
 
 This method always performs a deep copy of the node. The  isCloneChildren  parameter specifies whether to perform copy all child nodes as well.
@@ -336,6 +696,31 @@ This method always performs a deep copy of the node. The  isCloneChildren  param
 
 **Returns:**
 [Node](../../com.aspose.words/node/) - The cloned node.
+
+ **Examples:** 
+
+Shows how to clone a composite node.
+
+```
+
+ Document doc = new Document();
+ Paragraph para = doc.getFirstSection().getBody().getFirstParagraph();
+ para.appendChild(new Run(doc, "Hello world!"));
+
+ // Below are two ways of cloning a composite node.
+ // 1 -  Create a clone of a node, and create a clone of each of its child nodes as well.
+ Node cloneWithChildren = para.deepClone(true);
+
+ Assert.assertTrue(((CompositeNode) cloneWithChildren).hasChildNodes());
+ Assert.assertEquals("Hello world!", cloneWithChildren.getText().trim());
+
+ // 2 -  Create a clone of a node just by itself without any children.
+ Node cloneWithoutChildren = para.deepClone(false);
+
+ Assert.assertFalse(((CompositeNode) cloneWithoutChildren).hasChildNodes());
+ Assert.assertEquals("", cloneWithoutChildren.getText().trim());
+ 
+```
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
@@ -404,11 +789,39 @@ public boolean getAllowOverlap()
 
 Gets a value that specifies whether this shape can overlap other shapes.
 
+ **Remarks:** 
+
 This property affects behavior of the shape in Microsoft Word. Aspose.Words ignores the value of this property.
 
 This property is applicable only to top level shapes.
 
 The default value is  true .
+
+ **Examples:** 
+
+Shows how to work with floating tables properties.
+
+```
+
+ Document doc = new Document(getMyDir() + "Table wrapped by text.docx");
+
+ Table table = doc.getFirstSection().getBody().getTables().get(0);
+
+ if (table.getTextWrapping() == TextWrapping.AROUND) {
+     Assert.assertEquals(RelativeHorizontalPosition.MARGIN, table.getHorizontalAnchor());
+     Assert.assertEquals(RelativeVerticalPosition.PARAGRAPH, table.getVerticalAnchor());
+     Assert.assertEquals(false, table.getAllowOverlap());
+
+     // Only Margin, Page, Column available in RelativeHorizontalPosition for HorizontalAnchor setter.
+     // The ArgumentException will be thrown for any other values.
+     table.setHorizontalAnchor(RelativeHorizontalPosition.COLUMN);
+
+     // Only Margin, Page, Paragraph available in RelativeVerticalPosition for VerticalAnchor setter.
+     // The ArgumentException will be thrown for any other values.
+     table.setVerticalAnchor(RelativeVerticalPosition.PAGE);
+ }
+ 
+```
 
 **Returns:**
 boolean - A value that specifies whether this shape can overlap other shapes.
@@ -420,7 +833,32 @@ public String getAlternativeText()
 
 Defines alternative text to be displayed instead of a graphic.
 
+ **Remarks:** 
+
 The default value is an empty string.
+
+ **Examples:** 
+
+Shows how to use a shape's alternative text.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ Shape shape = builder.insertShape(ShapeType.CUBE, 150.0, 150.0);
+ shape.setName("MyCube");
+
+ shape.setAlternativeText("Alt text for MyCube.");
+
+ // We can access the alternative text of a shape by right-clicking it, and then via "Format AutoShape" -> "Alt Text".
+ doc.save(getArtifactsDir() + "Shape.AltText.docx");
+
+ // Save the document to HTML, and then delete the linked image that belongs to our shape.
+ // The browser that is reading our HTML will display the alt text in place of the missing image.
+ doc.save(getArtifactsDir() + "Shape.AltText.html");
+ new File(getArtifactsDir() + "Shape.AltText.001.png").delete();
+ 
+```
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
@@ -455,7 +893,74 @@ Gets the first ancestor of the specified object type.
 **Returns:**
 [CompositeNode](../../com.aspose.words/compositenode/) - The ancestor of the specified type or  null  if no ancestor of this type was found.
 
+ **Remarks:** 
+
 The ancestor type matches if it is equal to  ancestorType  or derived from  ancestorType .
+
+ **Examples:** 
+
+Shows how to find out if a tables are nested.
+
+```
+
+ public void calculateDepthOfNestedTables() throws Exception {
+     Document doc = new Document(getMyDir() + "Nested tables.docx");
+     NodeCollection tables = doc.getChildNodes(NodeType.TABLE, true);
+     for (int i = 0; i < tables.getCount(); i++) {
+         Table table = (Table) tables.get(i);
+
+         // Find out if any cells in the table have other tables as children.
+         int count = getChildTableCount(table);
+         System.out.print(MessageFormat.format("Table #{0} has {1} tables directly within its cells", i, count));
+
+         // Find out if the table is nested inside another table, and, if so, at what depth.
+         int tableDepth = getNestedDepthOfTable(table);
+
+         if (tableDepth > 0)
+             System.out.println(MessageFormat.format("Table #{0} is nested inside another table at depth of {1}", i, tableDepth));
+         else
+             System.out.println(MessageFormat.format("Table #{0} is a non nested table (is not a child of another table)", i));
+     }
+ }
+
+ // Calculates what level a table is nested inside other tables.
+ //
+ // Returns An integer containing the level the table is nested at.
+ // 0 = Table is not nested inside any other table
+ // 1 = Table is nested within one parent table
+ // 2 = Table is nested within two parent tables etc..
+ private static int getNestedDepthOfTable(final Table table) {
+     int depth = 0;
+     Node parent = table.getAncestor(table.getNodeType());
+
+     while (parent != null) {
+         depth++;
+         parent = parent.getAncestor(Table.class);
+     }
+
+     return depth;
+ }
+
+ // Determines if a table contains any immediate child table within its cells.
+ // Does not recursively traverse through those tables to check for further tables.
+ //
+ // Returns true if at least one child cell contains a table.
+ // Returns false if no cells in the table contains a table.
+ private static int getChildTableCount(final Table table) {
+     int childTableCount = 0;
+
+     for (Row row : table.getRows()) {
+         for (Cell cell : row.getCells()) {
+             TableCollection childTables = cell.getTables();
+
+             if (childTables.getCount() > 0) childTableCount++;
+         }
+     }
+
+     return childTableCount;
+ }
+ 
+```
 ### getAnchorLocked() {#getAnchorLocked}
 ```
 public boolean getAnchorLocked()
@@ -464,11 +969,43 @@ public boolean getAnchorLocked()
 
 Specifies whether the shape's anchor is locked.
 
+ **Remarks:** 
+
 The default value is  false .
 
 Has effect only for top level shapes.
 
 This property affects behavior of the shape's anchor in Microsoft Word. When the anchor is not locked, moving the shape in Microsoft Word can move the shape's anchor too.
+
+ **Examples:** 
+
+Shows how to lock or unlock a shape's paragraph anchor.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Hello world!");
+
+ builder.write("Our shape will have an anchor attached to this paragraph.");
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 200.0, 160.0);
+ shape.setWrapType(WrapType.NONE);
+ builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+ builder.writeln("Hello again!");
+
+ // Set the "AnchorLocked" property to "true" to prevent the shape's anchor
+ // from moving when moving the shape in Microsoft Word.
+ // Set the "AnchorLocked" property to "false" to allow any movement of the shape
+ // to also move its anchor to any other paragraph that the shape ends up close to.
+ shape.setAnchorLocked(anchorLocked);
+
+ // If the shape does not have a visible anchor symbol to its left,
+ // we will need to enable visible anchors via "Options" -> "Display" -> "Object Anchors".
+ doc.save(getArtifactsDir() + "Shape.AnchorLocked.docx");
+ 
+```
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -480,9 +1017,35 @@ public boolean getAspectRatioLocked()
 
 Specifies whether the shape's aspect ratio is locked.
 
+ **Remarks:** 
+
 The default value depends on the [ShapeType](../../com.aspose.words/shapetype/), for the [ShapeType.IMAGE](../../com.aspose.words/shapetype/\#IMAGE) it is  true  but for the other shape types it is  false .
 
 Has effect for top level shapes only.
+
+ **Examples:** 
+
+Shows how to lock/unlock a shape's aspect ratio.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a shape. If we open this document in Microsoft Word, we can left click the shape to reveal
+ // eight sizing handles around its perimeter, which we can click and drag to change its size.
+ Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
+
+ // Set the "AspectRatioLocked" property to "true" to preserve the shape's aspect ratio
+ // when using any of the four diagonal sizing handles, which change both the image's height and width.
+ // Using any orthogonal sizing handles that either change the height or width will still change the aspect ratio.
+ // Set the "AspectRatioLocked" property to "false" to allow us to
+ // freely change the image's aspect ratio with all sizing handles.
+ shape.setAspectRatioLocked(lockAspectRatio);
+
+ doc.save(getArtifactsDir() + "Shape.AspectRatio.docx");
+ 
+```
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -494,9 +1057,33 @@ public boolean getBehindText()
 
 Specifies whether the shape is below or above text.
 
+ **Remarks:** 
+
 Has effect only for top level shapes.
 
 The default value is  false .
+
+ **Examples:** 
+
+Shows how to insert a floating image to the center of a page.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a floating image that will appear behind the overlapping text and align it to the page's center.
+ Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
+ shape.setWrapType(WrapType.NONE);
+ shape.setBehindText(true);
+ shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
+ shape.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
+ shape.setHorizontalAlignment(HorizontalAlignment.CENTER);
+ shape.setVerticalAlignment(VerticalAlignment.CENTER);
+
+ doc.save(getArtifactsDir() + "Image.CreateFloatingPageCenter.docx");
+ 
+```
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -508,9 +1095,47 @@ public double getBottom()
 
 Gets the position of the bottom edge of the containing block of the shape.
 
+ **Remarks:** 
+
 For a top-level shape, the value is in points and relative to the shape anchor.
 
 For shapes in a group, the value is in the coordinate space and units of the parent group.
+
+ **Examples:** 
+
+Shows how to insert a floating image, and specify its position and size.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
+ shape.setWrapType(WrapType.NONE);
+
+ // Configure the shape's "RelativeHorizontalPosition" property to treat the value of the "Left" property
+ // as the shape's horizontal distance, in points, from the left side of the page.
+ shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
+
+ // Set the shape's horizontal distance from the left side of the page to 100.
+ shape.setLeft(100.0);
+
+ // Use the "RelativeVerticalPosition" property in a similar way to position the shape 80pt below the top of the page.
+ shape.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
+ shape.setTop(80.0);
+
+ // Set the shape's height, which will automatically scale the width to preserve dimensions.
+ shape.setHeight(125.0);
+
+ Assert.assertEquals(125.0d, shape.getWidth());
+
+ // The "Bottom" and "Right" properties contain the bottom and right edges of the image.
+ Assert.assertEquals(shape.getTop() + shape.getHeight(), shape.getBottom());
+ Assert.assertEquals(shape.getLeft() + shape.getWidth(), shape.getRight());
+
+ doc.save(getArtifactsDir() + "Image.CreateFloatingPositionSize.docx");
+ 
+```
 
 **Returns:**
 double - The position of the bottom edge of the containing block of the shape.
@@ -520,11 +1145,175 @@ public Rectangle2D.Float getBounds()
 ```
 
 
-Gets the location and size of the containing block of the shape. Ignores aspect ratio lock upon setting.
+Gets the location and size of the containing block of the shape.
+
+ **Remarks:** 
+
+Ignores aspect ratio lock upon setting.
+
+ **Remarks:** 
 
 For a top-level shape, the value is in points and relative to the shape anchor.
 
 For shapes in a group, the value is in the coordinate space and units of the parent group.
+
+ **Examples:** 
+
+Shows how to verify shape containing block boundaries.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertShape(ShapeType.LINE, RelativeHorizontalPosition.LEFT_MARGIN, 50.0,
+         RelativeVerticalPosition.TOP_MARGIN, 50.0, 100.0, 100.0, WrapType.NONE);
+ shape.setStrokeColor(Color.ORANGE);
+
+ // Even though the line itself takes up little space on the document page,
+ // it occupies a rectangular containing block, the size of which we can determine using the "Bounds" properties.
+ Assert.assertEquals(new Rectangle2D.Float(50f, 50f, 100f, 100f), shape.getBounds());
+ Assert.assertEquals(new Rectangle2D.Float(50f, 50f, 100f, 100f), shape.getBoundsInPoints());
+
+ // Create a group shape, and then set the size of its containing block using the "Bounds" property.
+ GroupShape group = new GroupShape(doc);
+ group.setBounds(new Rectangle2D.Float(0f, 100f, 250f, 250f));
+
+ Assert.assertEquals(new Rectangle2D.Float(0f, 100f, 250f, 250f), group.getBoundsInPoints());
+
+ // Create a rectangle, verify the size of its bounding block, and then add it to the group shape.
+ shape = new Shape(doc, ShapeType.RECTANGLE);
+ {
+     shape.setWidth(100.0);
+     shape.setHeight(100.0);
+     shape.setLeft(700.0);
+     shape.setTop(700.0);
+ }
+
+ Assert.assertEquals(new Rectangle2D.Float(700f, 700f, 100f, 100f), shape.getBoundsInPoints());
+
+ group.appendChild(shape);
+
+ // The group shape's coordinate plane has its origin on the top left-hand side corner of its containing block,
+ // and the x and y coordinates of (1000, 1000) on the bottom right-hand side corner.
+ // Our group shape is 250x250pt in size, so every 4pt on the group shape's coordinate plane
+ // translates to 1pt in the document body's coordinate plane.
+ // Every shape that we insert will also shrink in size by a factor of 4.
+ // The change in the shape's "BoundsInPoints" property will reflect this.
+ Assert.assertEquals(new Rectangle2D.Float(175f, 275f, 25f, 25f), shape.getBoundsInPoints());
+
+ doc.getFirstSection().getBody().getFirstParagraph().appendChild(group);
+
+ // Insert a shape and place it outside of the bounds of the group shape's containing block.
+ shape = new Shape(doc, ShapeType.RECTANGLE);
+ {
+     shape.setWidth(100.0);
+     shape.setHeight(100.0);
+     shape.setLeft(1000.0);
+     shape.setTop(1000.0);
+ }
+
+ group.appendChild(shape);
+
+ // The group shape's footprint in the document body has increased, but the containing block remains the same.
+ Assert.assertEquals(new Rectangle2D.Float(0f, 100f, 250f, 250f), group.getBoundsInPoints());
+ Assert.assertEquals(new Rectangle2D.Float(250f, 350f, 25f, 25f), shape.getBoundsInPoints());
+
+ doc.save(getArtifactsDir() + "Shape.Bounds.docx");
+ 
+```
+
+Shows how to create and populate a group shape.
+
+```
+
+ Document doc = new Document();
+
+ // Create a group shape. A group shape can display a collection of child shape nodes.
+ // In Microsoft Word, clicking within the group shape's boundary or on one of the group shape's child shapes will
+ // select all the other child shapes within this group and allow us to scale and move all the shapes at once.
+ GroupShape group = new GroupShape(doc);
+
+ Assert.assertEquals(WrapType.NONE, group.getWrapType());
+
+ // Create a 400pt x 400pt group shape and place it at the document's floating shape coordinate origin.
+ group.setBounds(new Rectangle2D.Float(0f, 0f, 400f, 400f));
+
+ // Set the group's internal coordinate plane size to 500 x 500pt.
+ // The top left corner of the group will have an x and y coordinate of (0, 0),
+ // and the bottom right corner will have an x and y coordinate of (500, 500).
+ group.setCoordSize(new Dimension(500, 500));
+
+ // Set the coordinates of the top left corner of the group to (-250, -250).
+ // The group's center will now have an x and y coordinate value of (0, 0),
+ // and the bottom right corner will be at (250, 250).
+ group.setCoordOrigin(new Point(-250, -250));
+
+ Shape rectangleShape = new Shape(doc, ShapeType.RECTANGLE);
+ rectangleShape.setWidth(group.getCoordSize().width);
+ rectangleShape.setHeight(group.getCoordSize().height);
+ rectangleShape.setLeft(group.getCoordOrigin().x);
+ rectangleShape.setTop(group.getCoordOrigin().y);
+
+ // Create a rectangle that will display the boundary of this group shape and add it to the group.
+ group.appendChild(rectangleShape);
+
+ // Once a shape is a part of a group shape, we can access it as a child node and then modify it.
+ ((Shape) group.getChild(NodeType.SHAPE, 0, true)).getStroke().setDashStyle(DashStyle.DASH);
+
+ Shape starShape = new Shape(doc, ShapeType.STAR);
+ starShape.setWidth(20.0);
+ starShape.setHeight(20.0);
+ starShape.setLeft(-10);
+ starShape.setTop(-10);
+ starShape.setFillColor(Color.RED);
+
+ // Create a small red star and insert it into the group.
+ // Line up the shape with the group's coordinate origin, which we have moved to the center.
+ group.appendChild(starShape);
+
+ rectangleShape = new Shape(doc, ShapeType.RECTANGLE);
+ rectangleShape.setWidth(250.0);
+ rectangleShape.setHeight(250.0);
+ rectangleShape.setLeft(-250);
+ rectangleShape.setTop(-250);
+ rectangleShape.setFillColor(Color.BLUE);
+
+ // Insert a rectangle, and then insert a slightly smaller rectangle in the same place with an image.
+ // Newer shapes that we add to the group overlap older shapes. The light blue rectangle will partially overlap the red star,
+ // and then the shape with the image will overlap the light blue rectangle, using it as a frame.
+ // We cannot use the "ZOrder" properties of shapes to manipulate their arrangement within a group shape.
+ group.appendChild(rectangleShape);
+
+ Shape imageShape = new Shape(doc, ShapeType.IMAGE);
+ imageShape.setWidth(200.0);
+ imageShape.setHeight(200.0);
+ imageShape.setLeft(-225);
+ imageShape.setTop(-225);
+
+ group.appendChild(imageShape);
+
+ ((Shape) group.getChild(NodeType.SHAPE, 3, true)).getImageData().setImage(getImageDir() + "Logo.jpg");
+
+ Shape textboxShape = new Shape(doc, ShapeType.TEXT_BOX);
+ textboxShape.setWidth(200.0);
+ textboxShape.setHeight(50.0);
+ textboxShape.setLeft(group.getCoordSize().width + new Point(group.getCoordOrigin()).x - 200);
+ textboxShape.setTop(group.getCoordSize().height + new Point(group.getCoordOrigin()).y);
+
+ // Insert a text box into the group shape. Set the "Left" property so that the text box's right edge
+ // touches the right boundary of the group shape. Set the "Top" property so that the text box sits outside
+ // the boundary of the group shape, with its top size lined up along the group shape's bottom margin.
+ group.appendChild(textboxShape);
+
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.insertNode(group);
+ builder.moveTo(((Shape) group.getChild(NodeType.SHAPE, 4, true)).appendChild(new Paragraph(doc)));
+ builder.write("Hello world!");
+
+ doc.save(getArtifactsDir() + "Shape.GroupShape.docx");
+ 
+```
 
 **Returns:**
 java.awt.geom.Rectangle2D.Float - The location and size of the containing block of the shape.
@@ -536,6 +1325,72 @@ public Rectangle2D.Float getBoundsInPoints()
 
 Gets the location and size of the containing block of the shape in points, relative to the anchor of the topmost shape.
 
+ **Examples:** 
+
+Shows how to verify shape containing block boundaries.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertShape(ShapeType.LINE, RelativeHorizontalPosition.LEFT_MARGIN, 50.0,
+         RelativeVerticalPosition.TOP_MARGIN, 50.0, 100.0, 100.0, WrapType.NONE);
+ shape.setStrokeColor(Color.ORANGE);
+
+ // Even though the line itself takes up little space on the document page,
+ // it occupies a rectangular containing block, the size of which we can determine using the "Bounds" properties.
+ Assert.assertEquals(new Rectangle2D.Float(50f, 50f, 100f, 100f), shape.getBounds());
+ Assert.assertEquals(new Rectangle2D.Float(50f, 50f, 100f, 100f), shape.getBoundsInPoints());
+
+ // Create a group shape, and then set the size of its containing block using the "Bounds" property.
+ GroupShape group = new GroupShape(doc);
+ group.setBounds(new Rectangle2D.Float(0f, 100f, 250f, 250f));
+
+ Assert.assertEquals(new Rectangle2D.Float(0f, 100f, 250f, 250f), group.getBoundsInPoints());
+
+ // Create a rectangle, verify the size of its bounding block, and then add it to the group shape.
+ shape = new Shape(doc, ShapeType.RECTANGLE);
+ {
+     shape.setWidth(100.0);
+     shape.setHeight(100.0);
+     shape.setLeft(700.0);
+     shape.setTop(700.0);
+ }
+
+ Assert.assertEquals(new Rectangle2D.Float(700f, 700f, 100f, 100f), shape.getBoundsInPoints());
+
+ group.appendChild(shape);
+
+ // The group shape's coordinate plane has its origin on the top left-hand side corner of its containing block,
+ // and the x and y coordinates of (1000, 1000) on the bottom right-hand side corner.
+ // Our group shape is 250x250pt in size, so every 4pt on the group shape's coordinate plane
+ // translates to 1pt in the document body's coordinate plane.
+ // Every shape that we insert will also shrink in size by a factor of 4.
+ // The change in the shape's "BoundsInPoints" property will reflect this.
+ Assert.assertEquals(new Rectangle2D.Float(175f, 275f, 25f, 25f), shape.getBoundsInPoints());
+
+ doc.getFirstSection().getBody().getFirstParagraph().appendChild(group);
+
+ // Insert a shape and place it outside of the bounds of the group shape's containing block.
+ shape = new Shape(doc, ShapeType.RECTANGLE);
+ {
+     shape.setWidth(100.0);
+     shape.setHeight(100.0);
+     shape.setLeft(1000.0);
+     shape.setTop(1000.0);
+ }
+
+ group.appendChild(shape);
+
+ // The group shape's footprint in the document body has increased, but the containing block remains the same.
+ Assert.assertEquals(new Rectangle2D.Float(0f, 100f, 250f, 250f), group.getBoundsInPoints());
+ Assert.assertEquals(new Rectangle2D.Float(250f, 350f, 25f, 25f), shape.getBoundsInPoints());
+
+ doc.save(getArtifactsDir() + "Shape.Bounds.docx");
+ 
+```
+
 **Returns:**
 java.awt.geom.Rectangle2D.Float - The location and size of the containing block of the shape in points, relative to the anchor of the topmost shape.
 ### getBoundsWithEffects() {#getBoundsWithEffects}
@@ -545,6 +1400,73 @@ public Rectangle2D.Float getBoundsWithEffects()
 
 
 Gets final extent that this shape object has after applying drawing effects. Value is measured in points.
+
+ **Examples:** 
+
+Shows how to check how a shape's bounds are affected by shape effects.
+
+```
+
+ Document doc = new Document(getMyDir() + "Shape shadow effect.docx");
+ List shapeList = Arrays.stream(doc.getChildNodes(NodeType.SHAPE, true).toArray())
+         .filter(Shape.class::isInstance)
+         .map(Shape.class::cast)
+         .collect(Collectors.toList());
+ Assert.assertEquals(shapeList.size(), 2);
+
+ Shape firstShape = shapeList.get(0);
+ Shape secondShape = shapeList.get(1);
+
+ // The two shapes are identical in terms of dimensions and shape type.
+ Assert.assertEquals(firstShape.getWidth(), secondShape.getWidth());
+ Assert.assertEquals(firstShape.getHeight(), secondShape.getHeight());
+ Assert.assertEquals(firstShape.getShapeType(), secondShape.getShapeType());
+
+ // The first shape has no effects, and the second one has a shadow and thick outline.
+ // These effects make the size of the second shape's silhouette bigger than that of the first.
+ // Even though the rectangle's size shows up when we click on these shapes in Microsoft Word,
+ // the visible outer bounds of the second shape are affected by the shadow and outline and thus are bigger.
+ // We can use the "AdjustWithEffects" method to see the true size of the shape.
+ Assert.assertEquals(0.0, firstShape.getStrokeWeight());
+ Assert.assertEquals(20.0, secondShape.getStrokeWeight());
+ Assert.assertFalse(firstShape.getShadowEnabled());
+ Assert.assertTrue(secondShape.getShadowEnabled());
+
+ Shape shape = firstShape;
+
+ // Run this method to get the size of the rectangle adjusted for all our shape effects.
+ Rectangle2D.Float rectangleFOut = shape.adjustWithEffects(new Rectangle2D.Float(200f, 200f, 1000f, 1000f));
+
+ // Since the shape has no border-changing effects, its boundary dimensions are unaffected.
+ Assert.assertEquals(200.0, rectangleFOut.getX());
+ Assert.assertEquals(200.0, rectangleFOut.getY());
+ Assert.assertEquals(1000.0, rectangleFOut.getWidth());
+ Assert.assertEquals(1000.0, rectangleFOut.getHeight());
+
+ // Verify the final extent of the first shape, in points.
+ Assert.assertEquals(0.0, shape.getBoundsWithEffects().getX());
+ Assert.assertEquals(0.0, shape.getBoundsWithEffects().getY());
+ Assert.assertEquals(147.0, shape.getBoundsWithEffects().getWidth());
+ Assert.assertEquals(147.0, shape.getBoundsWithEffects().getHeight());
+
+ shape = secondShape;
+ rectangleFOut = shape.adjustWithEffects(new Rectangle2D.Float(200f, 200f, 1000f, 1000f));
+
+ // The shape effects have moved the apparent top left corner of the shape slightly.
+ Assert.assertEquals(171.5, rectangleFOut.getX());
+ Assert.assertEquals(167.0, rectangleFOut.getY());
+
+ // The effects have also affected the visible dimensions of the shape.
+ Assert.assertEquals(1045.0, rectangleFOut.getWidth());
+ Assert.assertEquals(1132.0, rectangleFOut.getHeight());
+
+ // The effects have also affected the visible bounds of the shape.
+ Assert.assertEquals(-28.5, shape.getBoundsWithEffects().getX());
+ Assert.assertEquals(-33.0, shape.getBoundsWithEffects().getY());
+ Assert.assertEquals(192.0, shape.getBoundsWithEffects().getWidth());
+ Assert.assertEquals(279.0, shape.getBoundsWithEffects().getHeight());
+ 
+```
 
 **Returns:**
 java.awt.geom.Rectangle2D.Float - Final extent that this shape object has after applying drawing effects.
@@ -573,9 +1495,54 @@ public NodeCollection getChildNodes()
 
 Gets all immediate child nodes of this node.
 
+ **Remarks:** 
+
 Note, [getChildNodes()](../../com.aspose.words/compositenode/\#getChildNodes) is equivalent to calling **M:Aspose.Words.CompositeNode.GetChildNodes(Aspose.Words.NodeType,System.Boolean)** with arguments ( [NodeType.ANY](../../com.aspose.words/nodetype/\#ANY),  false ) and creates and returns a new collection every time it is accessed.
 
 If there are no child nodes, this property returns an empty collection.
+
+ **Examples:** 
+
+Shows how to traverse through a composite node's collection of child nodes.
+
+```
+
+ Document doc = new Document();
+
+ // Add two runs and one shape as child nodes to the first paragraph of this document.
+ Paragraph paragraph = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 0, true);
+ paragraph.appendChild(new Run(doc, "Hello world! "));
+
+ Shape shape = new Shape(doc, ShapeType.RECTANGLE);
+ shape.setWidth(200.0);
+ shape.setHeight(200.0);
+ // Note that the 'CustomNodeId' is not saved to an output file and exists only during the node lifetime.
+ shape.setCustomNodeId(100);
+ shape.setWrapType(WrapType.INLINE);
+ paragraph.appendChild(shape);
+
+ paragraph.appendChild(new Run(doc, "Hello again!"));
+
+ // Iterate through the paragraph's collection of immediate children,
+ // and print any runs or shapes that we find within.
+ NodeCollection children = paragraph.getChildNodes();
+
+ Assert.assertEquals(3, paragraph.getChildNodes().getCount());
+
+ for (Node child : (Iterable) children)
+     switch (child.getNodeType()) {
+         case NodeType.RUN:
+             System.out.println("Run contents:");
+             System.out.println("\t\"{child.GetText().Trim()}\"");
+             break;
+         case NodeType.SHAPE:
+             Shape childShape = (Shape) child;
+             System.out.println("Shape:");
+             System.out.println("\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
+             break;
+     }
+ 
+```
 
 **Returns:**
 [NodeCollection](../../com.aspose.words/nodecollection/) - All immediate child nodes of this node.
@@ -623,7 +1590,156 @@ public Point getCoordOrigin()
 
 The coordinates at the top-left corner of the containing block of this shape.
 
+ **Remarks:** 
+
 The default value is (0,0).
+
+ **Examples:** 
+
+Shows how to translate the x and y coordinate location on a shape's coordinate plane to a location on the parent shape's coordinate plane.
+
+```
+
+ Document doc = new Document();
+
+ // Insert a group shape, and place it 100 points below and to the right of
+ // the document's x and Y coordinate origin point.
+ GroupShape group = new GroupShape(doc);
+ group.setBounds(new Rectangle2D.Float(100f, 100f, 500f, 500f));
+
+ // Use the "LocalToParent" method to determine that (0, 0) on the group's internal x and y coordinates
+ // lies on (100, 100) of its parent shape's coordinate system. The group shape's parent is the document itself.
+ Assert.assertEquals(new Point2D.Float(100f, 100f), group.localToParent(new Point2D.Float(0f, 0f)));
+
+ // By default, a shape's internal coordinate plane has the top left corner at (0, 0),
+ // and the bottom right corner at (1000, 1000). Due to its size, our group shape covers an area of 500pt x 500pt
+ // in the document's plane. This means that a movement of 1pt on the document's coordinate plane will translate
+ // to a movement of 2pts on the group shape's coordinate plane.
+ Assert.assertEquals(new Point2D.Float(150f, 150f), group.localToParent(new Point2D.Float(100f, 100f)));
+ Assert.assertEquals(new Point2D.Float(200f, 200f), group.localToParent(new Point2D.Float(200f, 200f)));
+ Assert.assertEquals(new Point2D.Float(250f, 250f), group.localToParent(new Point2D.Float(300f, 300f)));
+
+ // Move the group shape's x and y axis origin from the top left corner to the center.
+ // This will offset the group's internal coordinates relative to the document's coordinates even further.
+ group.setCoordOrigin(new Point(-250, -250));
+
+ Assert.assertEquals(new Point2D.Float(375f, 375f), group.localToParent(new Point2D.Float(300f, 300f)));
+
+ // Changing the scale of the coordinate plane will also affect relative locations.
+ group.setCoordSize(new Dimension(500, 500));
+
+ Assert.assertEquals(new Point2D.Float(650f, 650f), group.localToParent(new Point2D.Float(300f, 300f)));
+
+ // If we wish to add a shape to this group while defining its location based on a location in the document,
+ // we will need to first confirm a location in the group shape that will match the document's location.
+ Assert.assertEquals(new Point2D.Float(700f, 700f), group.localToParent(new Point2D.Float(350f, 350f)));
+
+ Shape shape = new Shape(doc, ShapeType.RECTANGLE);
+ {
+     shape.setWidth(100.0);
+     shape.setHeight(100.0);
+     shape.setLeft(700.0);
+     shape.setTop(700.0);
+ }
+
+ group.appendChild(shape);
+ doc.getFirstSection().getBody().getFirstParagraph().appendChild(group);
+
+ doc.save(getArtifactsDir() + "Shape.LocalToParent.docx");
+ 
+```
+
+Shows how to create and populate a group shape.
+
+```
+
+ Document doc = new Document();
+
+ // Create a group shape. A group shape can display a collection of child shape nodes.
+ // In Microsoft Word, clicking within the group shape's boundary or on one of the group shape's child shapes will
+ // select all the other child shapes within this group and allow us to scale and move all the shapes at once.
+ GroupShape group = new GroupShape(doc);
+
+ Assert.assertEquals(WrapType.NONE, group.getWrapType());
+
+ // Create a 400pt x 400pt group shape and place it at the document's floating shape coordinate origin.
+ group.setBounds(new Rectangle2D.Float(0f, 0f, 400f, 400f));
+
+ // Set the group's internal coordinate plane size to 500 x 500pt.
+ // The top left corner of the group will have an x and y coordinate of (0, 0),
+ // and the bottom right corner will have an x and y coordinate of (500, 500).
+ group.setCoordSize(new Dimension(500, 500));
+
+ // Set the coordinates of the top left corner of the group to (-250, -250).
+ // The group's center will now have an x and y coordinate value of (0, 0),
+ // and the bottom right corner will be at (250, 250).
+ group.setCoordOrigin(new Point(-250, -250));
+
+ Shape rectangleShape = new Shape(doc, ShapeType.RECTANGLE);
+ rectangleShape.setWidth(group.getCoordSize().width);
+ rectangleShape.setHeight(group.getCoordSize().height);
+ rectangleShape.setLeft(group.getCoordOrigin().x);
+ rectangleShape.setTop(group.getCoordOrigin().y);
+
+ // Create a rectangle that will display the boundary of this group shape and add it to the group.
+ group.appendChild(rectangleShape);
+
+ // Once a shape is a part of a group shape, we can access it as a child node and then modify it.
+ ((Shape) group.getChild(NodeType.SHAPE, 0, true)).getStroke().setDashStyle(DashStyle.DASH);
+
+ Shape starShape = new Shape(doc, ShapeType.STAR);
+ starShape.setWidth(20.0);
+ starShape.setHeight(20.0);
+ starShape.setLeft(-10);
+ starShape.setTop(-10);
+ starShape.setFillColor(Color.RED);
+
+ // Create a small red star and insert it into the group.
+ // Line up the shape with the group's coordinate origin, which we have moved to the center.
+ group.appendChild(starShape);
+
+ rectangleShape = new Shape(doc, ShapeType.RECTANGLE);
+ rectangleShape.setWidth(250.0);
+ rectangleShape.setHeight(250.0);
+ rectangleShape.setLeft(-250);
+ rectangleShape.setTop(-250);
+ rectangleShape.setFillColor(Color.BLUE);
+
+ // Insert a rectangle, and then insert a slightly smaller rectangle in the same place with an image.
+ // Newer shapes that we add to the group overlap older shapes. The light blue rectangle will partially overlap the red star,
+ // and then the shape with the image will overlap the light blue rectangle, using it as a frame.
+ // We cannot use the "ZOrder" properties of shapes to manipulate their arrangement within a group shape.
+ group.appendChild(rectangleShape);
+
+ Shape imageShape = new Shape(doc, ShapeType.IMAGE);
+ imageShape.setWidth(200.0);
+ imageShape.setHeight(200.0);
+ imageShape.setLeft(-225);
+ imageShape.setTop(-225);
+
+ group.appendChild(imageShape);
+
+ ((Shape) group.getChild(NodeType.SHAPE, 3, true)).getImageData().setImage(getImageDir() + "Logo.jpg");
+
+ Shape textboxShape = new Shape(doc, ShapeType.TEXT_BOX);
+ textboxShape.setWidth(200.0);
+ textboxShape.setHeight(50.0);
+ textboxShape.setLeft(group.getCoordSize().width + new Point(group.getCoordOrigin()).x - 200);
+ textboxShape.setTop(group.getCoordSize().height + new Point(group.getCoordOrigin()).y);
+
+ // Insert a text box into the group shape. Set the "Left" property so that the text box's right edge
+ // touches the right boundary of the group shape. Set the "Top" property so that the text box sits outside
+ // the boundary of the group shape, with its top size lined up along the group shape's bottom margin.
+ group.appendChild(textboxShape);
+
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.insertNode(group);
+ builder.moveTo(((Shape) group.getChild(NodeType.SHAPE, 4, true)).appendChild(new Paragraph(doc)));
+ builder.write("Hello world!");
+
+ doc.save(getArtifactsDir() + "Shape.GroupShape.docx");
+ 
+```
 
 **Returns:**
 java.awt.Point - The corresponding java.awt.Point value.
@@ -635,7 +1751,156 @@ public Dimension getCoordSize()
 
 The width and height of the coordinate space inside the containing block of this shape.
 
+ **Remarks:** 
+
 The default value is (1000, 1000).
+
+ **Examples:** 
+
+Shows how to translate the x and y coordinate location on a shape's coordinate plane to a location on the parent shape's coordinate plane.
+
+```
+
+ Document doc = new Document();
+
+ // Insert a group shape, and place it 100 points below and to the right of
+ // the document's x and Y coordinate origin point.
+ GroupShape group = new GroupShape(doc);
+ group.setBounds(new Rectangle2D.Float(100f, 100f, 500f, 500f));
+
+ // Use the "LocalToParent" method to determine that (0, 0) on the group's internal x and y coordinates
+ // lies on (100, 100) of its parent shape's coordinate system. The group shape's parent is the document itself.
+ Assert.assertEquals(new Point2D.Float(100f, 100f), group.localToParent(new Point2D.Float(0f, 0f)));
+
+ // By default, a shape's internal coordinate plane has the top left corner at (0, 0),
+ // and the bottom right corner at (1000, 1000). Due to its size, our group shape covers an area of 500pt x 500pt
+ // in the document's plane. This means that a movement of 1pt on the document's coordinate plane will translate
+ // to a movement of 2pts on the group shape's coordinate plane.
+ Assert.assertEquals(new Point2D.Float(150f, 150f), group.localToParent(new Point2D.Float(100f, 100f)));
+ Assert.assertEquals(new Point2D.Float(200f, 200f), group.localToParent(new Point2D.Float(200f, 200f)));
+ Assert.assertEquals(new Point2D.Float(250f, 250f), group.localToParent(new Point2D.Float(300f, 300f)));
+
+ // Move the group shape's x and y axis origin from the top left corner to the center.
+ // This will offset the group's internal coordinates relative to the document's coordinates even further.
+ group.setCoordOrigin(new Point(-250, -250));
+
+ Assert.assertEquals(new Point2D.Float(375f, 375f), group.localToParent(new Point2D.Float(300f, 300f)));
+
+ // Changing the scale of the coordinate plane will also affect relative locations.
+ group.setCoordSize(new Dimension(500, 500));
+
+ Assert.assertEquals(new Point2D.Float(650f, 650f), group.localToParent(new Point2D.Float(300f, 300f)));
+
+ // If we wish to add a shape to this group while defining its location based on a location in the document,
+ // we will need to first confirm a location in the group shape that will match the document's location.
+ Assert.assertEquals(new Point2D.Float(700f, 700f), group.localToParent(new Point2D.Float(350f, 350f)));
+
+ Shape shape = new Shape(doc, ShapeType.RECTANGLE);
+ {
+     shape.setWidth(100.0);
+     shape.setHeight(100.0);
+     shape.setLeft(700.0);
+     shape.setTop(700.0);
+ }
+
+ group.appendChild(shape);
+ doc.getFirstSection().getBody().getFirstParagraph().appendChild(group);
+
+ doc.save(getArtifactsDir() + "Shape.LocalToParent.docx");
+ 
+```
+
+Shows how to create and populate a group shape.
+
+```
+
+ Document doc = new Document();
+
+ // Create a group shape. A group shape can display a collection of child shape nodes.
+ // In Microsoft Word, clicking within the group shape's boundary or on one of the group shape's child shapes will
+ // select all the other child shapes within this group and allow us to scale and move all the shapes at once.
+ GroupShape group = new GroupShape(doc);
+
+ Assert.assertEquals(WrapType.NONE, group.getWrapType());
+
+ // Create a 400pt x 400pt group shape and place it at the document's floating shape coordinate origin.
+ group.setBounds(new Rectangle2D.Float(0f, 0f, 400f, 400f));
+
+ // Set the group's internal coordinate plane size to 500 x 500pt.
+ // The top left corner of the group will have an x and y coordinate of (0, 0),
+ // and the bottom right corner will have an x and y coordinate of (500, 500).
+ group.setCoordSize(new Dimension(500, 500));
+
+ // Set the coordinates of the top left corner of the group to (-250, -250).
+ // The group's center will now have an x and y coordinate value of (0, 0),
+ // and the bottom right corner will be at (250, 250).
+ group.setCoordOrigin(new Point(-250, -250));
+
+ Shape rectangleShape = new Shape(doc, ShapeType.RECTANGLE);
+ rectangleShape.setWidth(group.getCoordSize().width);
+ rectangleShape.setHeight(group.getCoordSize().height);
+ rectangleShape.setLeft(group.getCoordOrigin().x);
+ rectangleShape.setTop(group.getCoordOrigin().y);
+
+ // Create a rectangle that will display the boundary of this group shape and add it to the group.
+ group.appendChild(rectangleShape);
+
+ // Once a shape is a part of a group shape, we can access it as a child node and then modify it.
+ ((Shape) group.getChild(NodeType.SHAPE, 0, true)).getStroke().setDashStyle(DashStyle.DASH);
+
+ Shape starShape = new Shape(doc, ShapeType.STAR);
+ starShape.setWidth(20.0);
+ starShape.setHeight(20.0);
+ starShape.setLeft(-10);
+ starShape.setTop(-10);
+ starShape.setFillColor(Color.RED);
+
+ // Create a small red star and insert it into the group.
+ // Line up the shape with the group's coordinate origin, which we have moved to the center.
+ group.appendChild(starShape);
+
+ rectangleShape = new Shape(doc, ShapeType.RECTANGLE);
+ rectangleShape.setWidth(250.0);
+ rectangleShape.setHeight(250.0);
+ rectangleShape.setLeft(-250);
+ rectangleShape.setTop(-250);
+ rectangleShape.setFillColor(Color.BLUE);
+
+ // Insert a rectangle, and then insert a slightly smaller rectangle in the same place with an image.
+ // Newer shapes that we add to the group overlap older shapes. The light blue rectangle will partially overlap the red star,
+ // and then the shape with the image will overlap the light blue rectangle, using it as a frame.
+ // We cannot use the "ZOrder" properties of shapes to manipulate their arrangement within a group shape.
+ group.appendChild(rectangleShape);
+
+ Shape imageShape = new Shape(doc, ShapeType.IMAGE);
+ imageShape.setWidth(200.0);
+ imageShape.setHeight(200.0);
+ imageShape.setLeft(-225);
+ imageShape.setTop(-225);
+
+ group.appendChild(imageShape);
+
+ ((Shape) group.getChild(NodeType.SHAPE, 3, true)).getImageData().setImage(getImageDir() + "Logo.jpg");
+
+ Shape textboxShape = new Shape(doc, ShapeType.TEXT_BOX);
+ textboxShape.setWidth(200.0);
+ textboxShape.setHeight(50.0);
+ textboxShape.setLeft(group.getCoordSize().width + new Point(group.getCoordOrigin()).x - 200);
+ textboxShape.setTop(group.getCoordSize().height + new Point(group.getCoordOrigin()).y);
+
+ // Insert a text box into the group shape. Set the "Left" property so that the text box's right edge
+ // touches the right boundary of the group shape. Set the "Top" property so that the text box sits outside
+ // the boundary of the group shape, with its top size lined up along the group shape's bottom margin.
+ group.appendChild(textboxShape);
+
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.insertNode(group);
+ builder.moveTo(((Shape) group.getChild(NodeType.SHAPE, 4, true)).appendChild(new Paragraph(doc)));
+ builder.write("Hello world!");
+
+ doc.save(getArtifactsDir() + "Shape.GroupShape.docx");
+ 
+```
 
 **Returns:**
 java.awt.Dimension - The corresponding java.awt.Dimension value.
@@ -646,6 +1911,58 @@ public int getCount()
 
 
 Gets the number of immediate children of this node.
+
+ **Examples:** 
+
+Shows how to add, update and delete child nodes in a CompositeNode's collection of children.
+
+```
+
+ Document doc = new Document();
+
+ // An empty document, by default, has one paragraph.
+ Assert.assertEquals(1, doc.getFirstSection().getBody().getParagraphs().getCount());
+
+ // Composite nodes such as our paragraph can contain other composite and inline nodes as children.
+ Paragraph paragraph = doc.getFirstSection().getBody().getFirstParagraph();
+ Run paragraphText = new Run(doc, "Initial text. ");
+ paragraph.appendChild(paragraphText);
+
+ // Create three more run nodes.
+ Run run1 = new Run(doc, "Run 1. ");
+ Run run2 = new Run(doc, "Run 2. ");
+ Run run3 = new Run(doc, "Run 3. ");
+
+ // The document body will not display these runs until we insert them into a composite node
+ // that itself is a part of the document's node tree, as we did with the first run.
+ // We can determine where the text contents of nodes that we insert
+ // appears in the document by specifying an insertion location relative to another node in the paragraph.
+ Assert.assertEquals("Initial text.", paragraph.getText().trim());
+
+ // Insert the second run into the paragraph in front of the initial run.
+ paragraph.insertBefore(run2, paragraphText);
+
+ Assert.assertEquals("Run 2. Initial text.", paragraph.getText().trim());
+
+ // Insert the third run after the initial run.
+ paragraph.insertAfter(run3, paragraphText);
+
+ Assert.assertEquals("Run 2. Initial text. Run 3.", paragraph.getText().trim());
+
+ // Insert the first run to the start of the paragraph's child nodes collection.
+ paragraph.prependChild(run1);
+
+ Assert.assertEquals("Run 1. Run 2. Initial text. Run 3.", paragraph.getText().trim());
+ Assert.assertEquals(4, paragraph.getChildNodes(NodeType.ANY, true).getCount());
+
+ // We can modify the contents of the run by editing and deleting existing child nodes.
+ ((Run) paragraph.getChildNodes(NodeType.RUN, true).get(1)).setText("Updated run 2. ");
+ paragraph.getChildNodes(NodeType.RUN, true).remove(paragraphText);
+
+ Assert.assertEquals("Run 1. Updated run 2. Run 3.", paragraph.getText().trim());
+ Assert.assertEquals(3, paragraph.getChildNodes(NodeType.ANY, true).getCount());
+ 
+```
 
 **Returns:**
 int - The number of immediate children of this node.
@@ -667,11 +1984,56 @@ public int getCustomNodeId()
 
 Specifies custom node identifier.
 
+ **Remarks:** 
+
 Default is zero.
 
 This identifier can be set and used arbitrarily. For example, as a key to get external data.
 
 Important note, specified value is not saved to an output file and exists only during the node lifetime.
+
+ **Examples:** 
+
+Shows how to traverse through a composite node's collection of child nodes.
+
+```
+
+ Document doc = new Document();
+
+ // Add two runs and one shape as child nodes to the first paragraph of this document.
+ Paragraph paragraph = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 0, true);
+ paragraph.appendChild(new Run(doc, "Hello world! "));
+
+ Shape shape = new Shape(doc, ShapeType.RECTANGLE);
+ shape.setWidth(200.0);
+ shape.setHeight(200.0);
+ // Note that the 'CustomNodeId' is not saved to an output file and exists only during the node lifetime.
+ shape.setCustomNodeId(100);
+ shape.setWrapType(WrapType.INLINE);
+ paragraph.appendChild(shape);
+
+ paragraph.appendChild(new Run(doc, "Hello again!"));
+
+ // Iterate through the paragraph's collection of immediate children,
+ // and print any runs or shapes that we find within.
+ NodeCollection children = paragraph.getChildNodes();
+
+ Assert.assertEquals(3, paragraph.getChildNodes().getCount());
+
+ for (Node child : (Iterable) children)
+     switch (child.getNodeType()) {
+         case NodeType.RUN:
+             System.out.println("Run contents:");
+             System.out.println("\t\"{child.GetText().Trim()}\"");
+             break;
+         case NodeType.SHAPE:
+             Shape childShape = (Shape) child;
+             System.out.println("Shape:");
+             System.out.println("\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
+             break;
+     }
+ 
+```
 
 **Returns:**
 int - The corresponding  int  value.
@@ -729,9 +2091,44 @@ public double getDistanceBottom()
 
 Gets the distance (in points) between the document text and the bottom edge of the shape.
 
+ **Remarks:** 
+
 The default value is 0.
 
 Has effect only for top level shapes.
+
+ **Examples:** 
+
+Shows how to set the wrapping distance for a text that surrounds a shape.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a rectangle and, get the text to wrap tightly around its bounds.
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 150.0, 150.0);
+ shape.setWrapType(WrapType.TIGHT);
+
+ // Set the minimum distance between the shape and surrounding text to 40pt from all sides.
+ shape.setDistanceTop(40.0);
+ shape.setDistanceBottom(40.0);
+ shape.setDistanceLeft(40.0);
+ shape.setDistanceRight(40.0);
+
+ // Move the shape closer to the center of the page, and then rotate the shape 60 degrees clockwise.
+ shape.setTop(75.0);
+ shape.setLeft(150.0);
+ shape.setRotation(60.0);
+
+ // Add text that will wrap around the shape.
+ builder.getFont().setSize(24.0d);
+ builder.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " +
+         "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.");
+
+ doc.save(getArtifactsDir() + "Shape.Coordinates.docx");
+ 
+```
 
 **Returns:**
 double - The distance (in points) between the document text and the bottom edge of the shape.
@@ -743,9 +2140,44 @@ public double getDistanceLeft()
 
 Gets the distance (in points) between the document text and the left edge of the shape.
 
+ **Remarks:** 
+
 The default value is 1/8 inch.
 
 Has effect only for top level shapes.
+
+ **Examples:** 
+
+Shows how to set the wrapping distance for a text that surrounds a shape.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a rectangle and, get the text to wrap tightly around its bounds.
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 150.0, 150.0);
+ shape.setWrapType(WrapType.TIGHT);
+
+ // Set the minimum distance between the shape and surrounding text to 40pt from all sides.
+ shape.setDistanceTop(40.0);
+ shape.setDistanceBottom(40.0);
+ shape.setDistanceLeft(40.0);
+ shape.setDistanceRight(40.0);
+
+ // Move the shape closer to the center of the page, and then rotate the shape 60 degrees clockwise.
+ shape.setTop(75.0);
+ shape.setLeft(150.0);
+ shape.setRotation(60.0);
+
+ // Add text that will wrap around the shape.
+ builder.getFont().setSize(24.0d);
+ builder.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " +
+         "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.");
+
+ doc.save(getArtifactsDir() + "Shape.Coordinates.docx");
+ 
+```
 
 **Returns:**
 double - The distance (in points) between the document text and the left edge of the shape.
@@ -757,9 +2189,44 @@ public double getDistanceRight()
 
 Gets the distance (in points) between the document text and the right edge of the shape.
 
+ **Remarks:** 
+
 The default value is 1/8 inch.
 
 Has effect only for top level shapes.
+
+ **Examples:** 
+
+Shows how to set the wrapping distance for a text that surrounds a shape.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a rectangle and, get the text to wrap tightly around its bounds.
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 150.0, 150.0);
+ shape.setWrapType(WrapType.TIGHT);
+
+ // Set the minimum distance between the shape and surrounding text to 40pt from all sides.
+ shape.setDistanceTop(40.0);
+ shape.setDistanceBottom(40.0);
+ shape.setDistanceLeft(40.0);
+ shape.setDistanceRight(40.0);
+
+ // Move the shape closer to the center of the page, and then rotate the shape 60 degrees clockwise.
+ shape.setTop(75.0);
+ shape.setLeft(150.0);
+ shape.setRotation(60.0);
+
+ // Add text that will wrap around the shape.
+ builder.getFont().setSize(24.0d);
+ builder.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " +
+         "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.");
+
+ doc.save(getArtifactsDir() + "Shape.Coordinates.docx");
+ 
+```
 
 **Returns:**
 double - The distance (in points) between the document text and the right edge of the shape.
@@ -771,9 +2238,44 @@ public double getDistanceTop()
 
 Gets the distance (in points) between the document text and the top edge of the shape.
 
+ **Remarks:** 
+
 The default value is 0.
 
 Has effect only for top level shapes.
+
+ **Examples:** 
+
+Shows how to set the wrapping distance for a text that surrounds a shape.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a rectangle and, get the text to wrap tightly around its bounds.
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 150.0, 150.0);
+ shape.setWrapType(WrapType.TIGHT);
+
+ // Set the minimum distance between the shape and surrounding text to 40pt from all sides.
+ shape.setDistanceTop(40.0);
+ shape.setDistanceBottom(40.0);
+ shape.setDistanceLeft(40.0);
+ shape.setDistanceRight(40.0);
+
+ // Move the shape closer to the center of the page, and then rotate the shape 60 degrees clockwise.
+ shape.setTop(75.0);
+ shape.setLeft(150.0);
+ shape.setRotation(60.0);
+
+ // Add text that will wrap around the shape.
+ builder.getFont().setSize(24.0d);
+ builder.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " +
+         "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.");
+
+ doc.save(getArtifactsDir() + "Shape.Coordinates.docx");
+ 
+```
 
 **Returns:**
 double - The distance (in points) between the document text and the top edge of the shape.
@@ -785,7 +2287,40 @@ public DocumentBase getDocument()
 
 Gets the document to which this node belongs.
 
+ **Remarks:** 
+
 The node always belongs to a document even if it has just been created and not yet added to the tree, or if it has been removed from the tree.
+
+ **Examples:** 
+
+Shows how to create a node and set its owning document.
+
+```
+
+ Document doc = new Document();
+ Paragraph para = new Paragraph(doc);
+ para.appendChild(new Run(doc, "Hello world!"));
+
+ // We have not yet appended this paragraph as a child to any composite node.
+ Assert.assertNull(para.getParentNode());
+
+ // If a node is an appropriate child node type of another composite node,
+ // we can attach it as a child only if both nodes have the same owner document.
+ // The owner document is the document we passed to the node's constructor.
+ // We have not attached this paragraph to the document, so the document does not contain its text.
+ Assert.assertEquals(para.getDocument(), doc);
+ Assert.assertEquals("", doc.getText().trim());
+
+ // Since the document owns this paragraph, we can apply one of its styles to the paragraph's contents.
+ para.getParagraphFormat().setStyleName("Heading 1");
+
+ // Add this node to the document, and then verify its contents.
+ doc.getFirstSection().getBody().appendChild(para);
+
+ Assert.assertEquals(doc.getFirstSection().getBody(), para.getParentNode());
+ Assert.assertEquals("Hello world!", doc.getText().trim());
+ 
+```
 
 **Returns:**
 [DocumentBase](../../com.aspose.words/documentbase/) - The document to which this node belongs.
@@ -806,6 +2341,40 @@ public Fill getFill()
 
 
 Gets fill formatting for the shape.
+
+ **Examples:** 
+
+Shows how to fill a shape with a solid color.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Write some text, and then cover it with a floating shape.
+ builder.getFont().setSize(32.0);
+ builder.writeln("Hello world!");
+
+ Shape shape = builder.insertShape(ShapeType.CLOUD_CALLOUT, RelativeHorizontalPosition.LEFT_MARGIN, 25.0,
+         RelativeVerticalPosition.TOP_MARGIN, 25.0, 250.0, 150.0, WrapType.NONE);
+
+ // Use the "StrokeColor" property to set the color of the outline of the shape.
+ shape.setStrokeColor(Color.BLACK);
+
+ // Use the "FillColor" property to set the color of the inside area of the shape.
+ shape.setFillColor(Color.BLUE);
+
+ // The "Opacity" property determines how transparent the color is on a 0-1 scale,
+ // with 1 being fully opaque, and 0 being invisible.
+ // The shape fill by default is fully opaque, so we cannot see the text that this shape is on top of.
+ Assert.assertEquals(1.0d, shape.getFill().getOpacity());
+
+ // Set the shape fill color's opacity to a lower value so that we can see the text underneath it.
+ shape.getFill().setOpacity(0.3);
+
+ doc.save(getArtifactsDir() + "Shape.Fill.docx");
+ 
+```
 
 **Returns:**
 [Fill](../../com.aspose.words/fill/) - Fill formatting for the shape.
@@ -925,7 +2494,61 @@ public Node getFirstChild()
 ```
 
 
-Gets the first child of the node. If there is no first child node, a  null  is returned.
+Gets the first child of the node.
+
+ **Remarks:** 
+
+If there is no first child node, a  null  is returned.
+
+ **Examples:** 
+
+Shows how to use a node's NextSibling property to enumerate through its immediate children.
+
+```
+
+ Document doc = new Document(getMyDir() + "Paragraphs.docx");
+
+ for (Node node = doc.getFirstSection().getBody().getFirstChild(); node != null; node = node.getNextSibling()) {
+     System.out.println(Node.nodeTypeToString(node.getNodeType()));
+ }
+ 
+```
+
+Shows how to traverse a composite node's tree of child nodes.
+
+```
+
+ public void recurseChildren() throws Exception {
+     Document doc = new Document(getMyDir() + "Paragraphs.docx");
+
+     // Any node that can contain child nodes, such as the document itself, is composite.
+     Assert.assertTrue(doc.isComposite());
+
+     // Invoke the recursive function that will go through and print all the child nodes of a composite node.
+     traverseAllNodes(doc, 0);
+ }
+
+ /// 
+ /// Recursively traverses a node tree while printing the type of each node
+ /// with an indent depending on depth as well as the contents of all inline nodes.
+ /// 
+ public void traverseAllNodes(CompositeNode parentNode, int depth) {
+     for (Node childNode = parentNode.getFirstChild(); childNode != null; childNode = childNode.getNextSibling()) {
+         System.out.println(MessageFormat.format("{0}{1}", String.format("    ", depth), Node.nodeTypeToString(childNode.getNodeType())));
+
+         // Recurse into the node if it is a composite node. Otherwise, print its contents if it is an inline node.
+         if (childNode.isComposite()) {
+             System.out.println();
+             traverseAllNodes((CompositeNode) childNode, depth + 1);
+         } else if (childNode instanceof Inline) {
+             System.out.println(" - \"{childNode.GetText().Trim()}\"");
+         } else {
+             System.out.println();
+         }
+     }
+ }
+ 
+```
 
 **Returns:**
 [Node](../../com.aspose.words/node/) - The first child of the node.
@@ -937,7 +2560,53 @@ public int getFlipOrientation()
 
 Switches the orientation of a shape.
 
+ **Remarks:** 
+
 The default value is [FlipOrientation.NONE](../../com.aspose.words/fliporientation/\#NONE).
+
+ **Examples:** 
+
+Shows how to flip a shape on an axis.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert an image shape and leave its orientation in its default state.
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, RelativeHorizontalPosition.LEFT_MARGIN, 100.0,
+         RelativeVerticalPosition.TOP_MARGIN, 100.0, 100.0, 100.0, WrapType.NONE);
+ shape.getImageData().setImage(getImageDir() + "Logo.jpg");
+
+ Assert.assertEquals(FlipOrientation.NONE, shape.getFlipOrientation());
+
+ shape = builder.insertShape(ShapeType.RECTANGLE, RelativeHorizontalPosition.LEFT_MARGIN, 250.0,
+         RelativeVerticalPosition.TOP_MARGIN, 100.0, 100.0, 100.0, WrapType.NONE);
+ shape.getImageData().setImage(getImageDir() + "Logo.jpg");
+
+ // Set the "FlipOrientation" property to "FlipOrientation.Horizontal" to flip the second shape on the y-axis,
+ // making it into a horizontal mirror image of the first shape.
+ shape.setFlipOrientation(FlipOrientation.HORIZONTAL);
+
+ shape = builder.insertShape(ShapeType.RECTANGLE, RelativeHorizontalPosition.LEFT_MARGIN, 100.0,
+         RelativeVerticalPosition.TOP_MARGIN, 250.0, 100.0, 100.0, WrapType.NONE);
+ shape.getImageData().setImage(getImageDir() + "Logo.jpg");
+
+ // Set the "FlipOrientation" property to "FlipOrientation.Horizontal" to flip the third shape on the x-axis,
+ // making it into a vertical mirror image of the first shape.
+ shape.setFlipOrientation(FlipOrientation.VERTICAL);
+
+ shape = builder.insertShape(ShapeType.RECTANGLE, RelativeHorizontalPosition.LEFT_MARGIN, 250.0,
+         RelativeVerticalPosition.TOP_MARGIN, 250.0, 100.0, 100.0, WrapType.NONE);
+ shape.getImageData().setImage(getImageDir() + "Logo.jpg");
+
+ // Set the "FlipOrientation" property to "FlipOrientation.Horizontal" to flip the fourth shape on both the x and y axes,
+ // making it into a horizontal and vertical mirror image of the first shape.
+ shape.setFlipOrientation(FlipOrientation.BOTH);
+
+ doc.save(getArtifactsDir() + "Shape.FlipShapeOrientation.docx");
+ 
+```
 
 **Returns:**
 int - The corresponding  int  value. The returned value is a bitwise combination of [FlipOrientation](../../com.aspose.words/fliporientation/) constants.
@@ -948,6 +2617,42 @@ public Font getFont()
 
 
 Provides access to the font formatting of this object.
+
+ **Examples:** 
+
+Shows how to insert a text box, and set the font of its contents.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Hello world!");
+
+ Shape shape = builder.insertShape(ShapeType.TEXT_BOX, 300.0, 50.0);
+ builder.moveTo(shape.getLastParagraph());
+ builder.write("This text is inside the text box.");
+
+ // Set the "Hidden" property of the shape's "Font" object to "true" to hide the text box from sight
+ // and collapse the space that it would normally occupy.
+ // Set the "Hidden" property of the shape's "Font" object to "false" to leave the text box visible.
+ shape.getFont().setHidden(hideShape);
+
+ // If the shape is visible, we will modify its appearance via the font object.
+ if (!hideShape) {
+     shape.getFont().setHighlightColor(Color.LIGHT_GRAY);
+     shape.getFont().setColor(Color.RED);
+     shape.getFont().setUnderline(Underline.DASH);
+ }
+
+ // Move the builder out of the text box back into the main document.
+ builder.moveTo(shape.getParentParagraph());
+
+ builder.writeln("\nThis text is outside the text box.");
+
+ doc.save(getArtifactsDir() + "Shape.Font.docx");
+ 
+```
 
 **Returns:**
 [Font](../../com.aspose.words/font/) - The corresponding [Font](../../com.aspose.words/font/) value.
@@ -999,6 +2704,8 @@ public String getHRef()
 
 Gets the full hyperlink address for a shape.
 
+ **Remarks:** 
+
 The default value is an empty string.
 
 Below are examples of valid values for this property:
@@ -1015,6 +2722,26 @@ Bookmark within another document:  https://www.aspose.com/Products/Default.aspx\
 
 Bookmark within this document:  \#BookmakName .
 
+ **Examples:** 
+
+Shows how to insert a shape which contains an image, and is also a hyperlink.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
+ shape.setHRef("https://forum.aspose.com/");
+ shape.setTarget("New Window");
+ shape.setScreenTip("Aspose.Words Support Forums");
+
+ // Ctrl + left-clicking the shape in Microsoft Word will open a new web browser window
+ // and take us to the hyperlink in the "HRef" property.
+ doc.save(getArtifactsDir() + "Image.InsertImageWithHyperlink.docx");
+ 
+```
+
 **Returns:**
 java.lang.String - The full hyperlink address for a shape.
 ### getHeight() {#getHeight}
@@ -1025,14 +2752,109 @@ public double getHeight()
 
 Gets the height of the containing block of the shape.
 
+ **Remarks:** 
+
 For a top-level shape, the value is in points.
 
 For shapes in a group, the value is in the coordinate space and units of the parent group.
 
 The default value is 0.
 
+ **Examples:** 
+
+Shows how to insert a floating image, and specify its position and size.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
+ shape.setWrapType(WrapType.NONE);
+
+ // Configure the shape's "RelativeHorizontalPosition" property to treat the value of the "Left" property
+ // as the shape's horizontal distance, in points, from the left side of the page.
+ shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
+
+ // Set the shape's horizontal distance from the left side of the page to 100.
+ shape.setLeft(100.0);
+
+ // Use the "RelativeVerticalPosition" property in a similar way to position the shape 80pt below the top of the page.
+ shape.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
+ shape.setTop(80.0);
+
+ // Set the shape's height, which will automatically scale the width to preserve dimensions.
+ shape.setHeight(125.0);
+
+ Assert.assertEquals(125.0d, shape.getWidth());
+
+ // The "Bottom" and "Right" properties contain the bottom and right edges of the image.
+ Assert.assertEquals(shape.getTop() + shape.getHeight(), shape.getBottom());
+ Assert.assertEquals(shape.getLeft() + shape.getWidth(), shape.getRight());
+
+ doc.save(getArtifactsDir() + "Image.CreateFloatingPositionSize.docx");
+ 
+```
+
+Shows how to resize a shape with an image.
+
+```
+
+ BufferedImage image = ImageIO.read(new File(getImageDir() + "Logo.jpg"));
+
+ Assert.assertEquals(400, image.getWidth());
+ Assert.assertEquals(400, image.getHeight());
+
+ // When we insert an image using the "InsertImage" method, the builder scales the shape that displays the image so that,
+ // when we view the document using 100% zoom in Microsoft Word, the shape displays the image in its actual size.
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
+
+ // A 400x400 image will create an ImageData object with an image size of 300x300pt.
+ ImageSize imageSize = shape.getImageData().getImageSize();
+
+ Assert.assertEquals(300.0d, imageSize.getWidthPoints());
+ Assert.assertEquals(300.0d, imageSize.getHeightPoints());
+
+ // If a shape's dimensions match the image data's dimensions,
+ // then the shape is displaying the image in its original size.
+ Assert.assertEquals(300.0d, shape.getWidth());
+ Assert.assertEquals(300.0d, shape.getHeight());
+
+ // Reduce the overall size of the shape by 50%.
+ shape.setWidth(shape.getWidth() * 0.5);
+
+ // Scaling factors apply to both the width and the height at the same time to preserve the shape's proportions.
+ Assert.assertEquals(150.0d, shape.getWidth());
+ Assert.assertEquals(150.0d, shape.getHeight());
+
+ // When we resize the shape, the size of the image data remains the same.
+ Assert.assertEquals(300.0d, imageSize.getWidthPoints());
+ Assert.assertEquals(300.0d, imageSize.getHeightPoints());
+
+ // We can reference the image data dimensions to apply a scaling based on the size of the image.
+ shape.setWidth(imageSize.getWidthPoints() * 1.1);
+
+ Assert.assertEquals(330.0d, shape.getWidth());
+ Assert.assertEquals(330.0d, shape.getHeight());
+
+ doc.save(getArtifactsDir() + "Image.ScaleImage.docx");
+ 
+```
+
 **Returns:**
 double - The height of the containing block of the shape.
+### getHeightRelative() {#getHeightRelative}
+```
+public float getHeightRelative()
+```
+
+
+Gets the value that represents the percentage of shape's relative height.
+
+**Returns:**
+float - The value that represents the percentage of shape's relative height.
 ### getHorizontalAlignment() {#getHorizontalAlignment}
 ```
 public int getHorizontalAlignment()
@@ -1041,9 +2863,33 @@ public int getHorizontalAlignment()
 
 Specifies how the shape is positioned horizontally.
 
+ **Remarks:** 
+
 The default value is [HorizontalAlignment.NONE](../../com.aspose.words/horizontalalignment/\#NONE).
 
 Has effect only for top level floating shapes.
+
+ **Examples:** 
+
+Shows how to insert a floating image to the center of a page.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a floating image that will appear behind the overlapping text and align it to the page's center.
+ Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
+ shape.setWrapType(WrapType.NONE);
+ shape.setBehindText(true);
+ shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
+ shape.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
+ shape.setHorizontalAlignment(HorizontalAlignment.CENTER);
+ shape.setVerticalAlignment(VerticalAlignment.CENTER);
+
+ doc.save(getArtifactsDir() + "Image.CreateFloatingPageCenter.docx");
+ 
+```
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [HorizontalAlignment](../../com.aspose.words/horizontalalignment/) constants.
@@ -1053,7 +2899,37 @@ public Node getLastChild()
 ```
 
 
-Gets the last child of the node. If there is no last child node, a  null  is returned.
+Gets the last child of the node.
+
+ **Remarks:** 
+
+If there is no last child node, a  null  is returned.
+
+ **Examples:** 
+
+Shows how to use of methods of Node and CompositeNode to remove a section before the last section in the document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Section 1 text.");
+ builder.insertBreak(BreakType.SECTION_BREAK_CONTINUOUS);
+ builder.writeln("Section 2 text.");
+
+ // Both sections are siblings of each other.
+ Section lastSection = (Section) doc.getLastChild();
+ Section firstSection = (Section) lastSection.getPreviousSibling();
+
+ // Remove a section based on its sibling relationship with another section.
+ if (lastSection.getPreviousSibling() != null)
+     doc.removeChild(firstSection);
+
+ // The section we removed was the first one, leaving the document with only the second.
+ Assert.assertEquals("Section 2 text.", doc.getText().trim());
+ 
+```
 
 **Returns:**
 [Node](../../com.aspose.words/node/) - The last child of the node.
@@ -1065,6 +2941,8 @@ public double getLeft()
 
 Gets the position of the left edge of the containing block of the shape.
 
+ **Remarks:** 
+
 For a top-level shape, the value is in points and relative to the shape anchor.
 
 For shapes in a group, the value is in the coordinate space and units of the parent group.
@@ -1073,8 +2951,54 @@ The default value is 0.
 
 Has effect only for floating shapes.
 
+ **Examples:** 
+
+Shows how to insert a floating image, and specify its position and size.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
+ shape.setWrapType(WrapType.NONE);
+
+ // Configure the shape's "RelativeHorizontalPosition" property to treat the value of the "Left" property
+ // as the shape's horizontal distance, in points, from the left side of the page.
+ shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
+
+ // Set the shape's horizontal distance from the left side of the page to 100.
+ shape.setLeft(100.0);
+
+ // Use the "RelativeVerticalPosition" property in a similar way to position the shape 80pt below the top of the page.
+ shape.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
+ shape.setTop(80.0);
+
+ // Set the shape's height, which will automatically scale the width to preserve dimensions.
+ shape.setHeight(125.0);
+
+ Assert.assertEquals(125.0d, shape.getWidth());
+
+ // The "Bottom" and "Right" properties contain the bottom and right edges of the image.
+ Assert.assertEquals(shape.getTop() + shape.getHeight(), shape.getBottom());
+ Assert.assertEquals(shape.getLeft() + shape.getWidth(), shape.getRight());
+
+ doc.save(getArtifactsDir() + "Image.CreateFloatingPositionSize.docx");
+ 
+```
+
 **Returns:**
 double - The position of the left edge of the containing block of the shape.
+### getLeftRelative() {#getLeftRelative}
+```
+public float getLeftRelative()
+```
+
+
+Gets the value that represents shape's relative left position in percent.
+
+**Returns:**
+float - The value that represents shape's relative left position in percent.
 ### getMarkupLanguage() {#getMarkupLanguage}
 ```
 public byte getMarkupLanguage()
@@ -1082,6 +3006,22 @@ public byte getMarkupLanguage()
 
 
 Gets MarkupLanguage used for this graphic object.
+
+ **Examples:** 
+
+Shows how to verify a shape's size and markup language.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertImage(getImageDir() + "Transparent background logo.png");
+
+ Assert.assertEquals(ShapeMarkupLanguage.DML, shape.getMarkupLanguage());
+ Assert.assertEquals(new Point2D.Float(300f, 300f), shape.getSizeInPoints());
+ 
+```
 
 **Returns:**
 byte - MarkupLanguage used for this graphic object. The returned value is one of [ShapeMarkupLanguage](../../com.aspose.words/shapemarkuplanguage/) constants.
@@ -1093,9 +3033,34 @@ public String getName()
 
 Gets the optional shape name.
 
+ **Remarks:** 
+
 Default is empty string.
 
 Cannot be  null , but can be an empty string.
+
+ **Examples:** 
+
+Shows how to use a shape's alternative text.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ Shape shape = builder.insertShape(ShapeType.CUBE, 150.0, 150.0);
+ shape.setName("MyCube");
+
+ shape.setAlternativeText("Alt text for MyCube.");
+
+ // We can access the alternative text of a shape by right-clicking it, and then via "Format AutoShape" -> "Alt Text".
+ doc.save(getArtifactsDir() + "Shape.AltText.docx");
+
+ // Save the document to HTML, and then delete the linked image that belongs to our shape.
+ // The browser that is reading our HTML will display the alt text in place of the missing image.
+ doc.save(getArtifactsDir() + "Shape.AltText.html");
+ new File(getArtifactsDir() + "Shape.AltText.001.png").delete();
+ 
+```
 
 **Returns:**
 java.lang.String - The optional shape name.
@@ -1120,7 +3085,61 @@ public Node getNextSibling()
 ```
 
 
-Gets the node immediately following this node. If there is no next node, a  null  is returned.
+Gets the node immediately following this node.
+
+ **Remarks:** 
+
+If there is no next node, a  null  is returned.
+
+ **Examples:** 
+
+Shows how to use a node's NextSibling property to enumerate through its immediate children.
+
+```
+
+ Document doc = new Document(getMyDir() + "Paragraphs.docx");
+
+ for (Node node = doc.getFirstSection().getBody().getFirstChild(); node != null; node = node.getNextSibling()) {
+     System.out.println(Node.nodeTypeToString(node.getNodeType()));
+ }
+ 
+```
+
+Shows how to traverse a composite node's tree of child nodes.
+
+```
+
+ public void recurseChildren() throws Exception {
+     Document doc = new Document(getMyDir() + "Paragraphs.docx");
+
+     // Any node that can contain child nodes, such as the document itself, is composite.
+     Assert.assertTrue(doc.isComposite());
+
+     // Invoke the recursive function that will go through and print all the child nodes of a composite node.
+     traverseAllNodes(doc, 0);
+ }
+
+ /// 
+ /// Recursively traverses a node tree while printing the type of each node
+ /// with an indent depending on depth as well as the contents of all inline nodes.
+ /// 
+ public void traverseAllNodes(CompositeNode parentNode, int depth) {
+     for (Node childNode = parentNode.getFirstChild(); childNode != null; childNode = childNode.getNextSibling()) {
+         System.out.println(MessageFormat.format("{0}{1}", String.format("    ", depth), Node.nodeTypeToString(childNode.getNodeType())));
+
+         // Recurse into the node if it is a composite node. Otherwise, print its contents if it is an inline node.
+         if (childNode.isComposite()) {
+             System.out.println();
+             traverseAllNodes((CompositeNode) childNode, depth + 1);
+         } else if (childNode instanceof Inline) {
+             System.out.println(" - \"{childNode.GetText().Trim()}\"");
+         } else {
+             System.out.println();
+         }
+     }
+ }
+ 
+```
 
 **Returns:**
 [Node](../../com.aspose.words/node/) - The node immediately following this node.
@@ -1132,11 +3151,88 @@ public abstract int getNodeType()
 
 Gets the type of this node.
 
+ **Examples:** 
+
+Shows how to use a node's NextSibling property to enumerate through its immediate children.
+
+```
+
+ Document doc = new Document(getMyDir() + "Paragraphs.docx");
+
+ for (Node node = doc.getFirstSection().getBody().getFirstChild(); node != null; node = node.getNextSibling()) {
+     System.out.println(Node.nodeTypeToString(node.getNodeType()));
+ }
+ 
+```
+
+Shows how to remove all child nodes of a specific type from a composite node.
+
+```
+
+ Document doc = new Document(getMyDir() + "Tables.docx");
+
+ Assert.assertEquals(2, doc.getChildNodes(NodeType.TABLE, true).getCount());
+
+ Node curNode = doc.getFirstSection().getBody().getFirstChild();
+
+ while (curNode != null) {
+     // Save the next sibling node as a variable in case we want to move to it after deleting this node.
+     Node nextNode = curNode.getNextSibling();
+
+     // A section body can contain Paragraph and Table nodes.
+     // If the node is a Table, remove it from the parent.
+     if (curNode.getNodeType() == NodeType.TABLE) {
+         curNode.remove();
+     }
+
+     curNode = nextNode;
+ }
+
+ Assert.assertEquals(0, doc.getChildNodes(NodeType.TABLE, true).getCount());
+ 
+```
+
+Shows how to traverse a composite node's tree of child nodes.
+
+```
+
+ public void recurseChildren() throws Exception {
+     Document doc = new Document(getMyDir() + "Paragraphs.docx");
+
+     // Any node that can contain child nodes, such as the document itself, is composite.
+     Assert.assertTrue(doc.isComposite());
+
+     // Invoke the recursive function that will go through and print all the child nodes of a composite node.
+     traverseAllNodes(doc, 0);
+ }
+
+ /// 
+ /// Recursively traverses a node tree while printing the type of each node
+ /// with an indent depending on depth as well as the contents of all inline nodes.
+ /// 
+ public void traverseAllNodes(CompositeNode parentNode, int depth) {
+     for (Node childNode = parentNode.getFirstChild(); childNode != null; childNode = childNode.getNextSibling()) {
+         System.out.println(MessageFormat.format("{0}{1}", String.format("    ", depth), Node.nodeTypeToString(childNode.getNodeType())));
+
+         // Recurse into the node if it is a composite node. Otherwise, print its contents if it is an inline node.
+         if (childNode.isComposite()) {
+             System.out.println();
+             traverseAllNodes((CompositeNode) childNode, depth + 1);
+         } else if (childNode instanceof Inline) {
+             System.out.println(" - \"{childNode.GetText().Trim()}\"");
+         } else {
+             System.out.println();
+         }
+     }
+ }
+ 
+```
+
 **Returns:**
 int - The type of this node. The returned value is one of [NodeType](../../com.aspose.words/nodetype/) constants.
-### getOn() {#getOn}
+### getOldOn() {#getOldOn}
 ```
-public boolean getOn()
+public boolean getOldOn()
 ```
 
 
@@ -1144,9 +3240,9 @@ public boolean getOn()
 
 **Returns:**
 boolean
-### getOpacity() {#getOpacity}
+### getOldOpacity() {#getOldOpacity}
 ```
-public double getOpacity()
+public double getOldOpacity()
 ```
 
 
@@ -1162,7 +3258,60 @@ public CompositeNode getParentNode()
 
 Gets the immediate parent of this node.
 
+ **Remarks:** 
+
 If a node has just been created and not yet added to the tree, or if it has been removed from the tree, the parent is  null .
+
+ **Examples:** 
+
+Shows how to access a node's parent node.
+
+```
+
+ Document doc = new Document();
+ Paragraph para = doc.getFirstSection().getBody().getFirstParagraph();
+
+ // Append a child Run node to the document's first paragraph.
+ Run run = new Run(doc, "Hello world!");
+ para.appendChild(run);
+
+ // The paragraph is the parent node of the run node. We can trace this lineage
+ // all the way to the document node, which is the root of the document's node tree.
+ Assert.assertEquals(para, run.getParentNode());
+ Assert.assertEquals(doc.getFirstSection().getBody(), para.getParentNode());
+ Assert.assertEquals(doc.getFirstSection(), doc.getFirstSection().getBody().getParentNode());
+ Assert.assertEquals(doc, doc.getFirstSection().getParentNode());
+ 
+```
+
+Shows how to create a node and set its owning document.
+
+```
+
+ Document doc = new Document();
+ Paragraph para = new Paragraph(doc);
+ para.appendChild(new Run(doc, "Hello world!"));
+
+ // We have not yet appended this paragraph as a child to any composite node.
+ Assert.assertNull(para.getParentNode());
+
+ // If a node is an appropriate child node type of another composite node,
+ // we can attach it as a child only if both nodes have the same owner document.
+ // The owner document is the document we passed to the node's constructor.
+ // We have not attached this paragraph to the document, so the document does not contain its text.
+ Assert.assertEquals(para.getDocument(), doc);
+ Assert.assertEquals("", doc.getText().trim());
+
+ // Since the document owns this paragraph, we can apply one of its styles to the paragraph's contents.
+ para.getParagraphFormat().setStyleName("Heading 1");
+
+ // Add this node to the document, and then verify its contents.
+ doc.getFirstSection().getBody().appendChild(para);
+
+ Assert.assertEquals(doc.getFirstSection().getBody(), para.getParentNode());
+ Assert.assertEquals("Hello world!", doc.getText().trim());
+ 
+```
 
 **Returns:**
 [CompositeNode](../../com.aspose.words/compositenode/) - The immediate parent of this node.
@@ -1172,7 +3321,47 @@ public Paragraph getParentParagraph()
 ```
 
 
-Returns the immediate parent paragraph. For child shapes of a group shape and child shapes of an Office Math object always returns  null .
+Returns the immediate parent paragraph.
+
+ **Remarks:** 
+
+For child shapes of a group shape and child shapes of an Office Math object always returns  null .
+
+ **Examples:** 
+
+Shows how to insert a text box, and set the font of its contents.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Hello world!");
+
+ Shape shape = builder.insertShape(ShapeType.TEXT_BOX, 300.0, 50.0);
+ builder.moveTo(shape.getLastParagraph());
+ builder.write("This text is inside the text box.");
+
+ // Set the "Hidden" property of the shape's "Font" object to "true" to hide the text box from sight
+ // and collapse the space that it would normally occupy.
+ // Set the "Hidden" property of the shape's "Font" object to "false" to leave the text box visible.
+ shape.getFont().setHidden(hideShape);
+
+ // If the shape is visible, we will modify its appearance via the font object.
+ if (!hideShape) {
+     shape.getFont().setHighlightColor(Color.LIGHT_GRAY);
+     shape.getFont().setColor(Color.RED);
+     shape.getFont().setUnderline(Underline.DASH);
+ }
+
+ // Move the builder out of the text box back into the main document.
+ builder.moveTo(shape.getParentParagraph());
+
+ builder.writeln("\nThis text is outside the text box.");
+
+ doc.save(getArtifactsDir() + "Shape.Font.docx");
+ 
+```
 
 **Returns:**
 [Paragraph](../../com.aspose.words/paragraph/) - The immediate parent paragraph.
@@ -1212,7 +3401,37 @@ public Node getPreviousSibling()
 ```
 
 
-Gets the node immediately preceding this node. If there is no preceding node, a  null  is returned.
+Gets the node immediately preceding this node.
+
+ **Remarks:** 
+
+If there is no preceding node, a  null  is returned.
+
+ **Examples:** 
+
+Shows how to use of methods of Node and CompositeNode to remove a section before the last section in the document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Section 1 text.");
+ builder.insertBreak(BreakType.SECTION_BREAK_CONTINUOUS);
+ builder.writeln("Section 2 text.");
+
+ // Both sections are siblings of each other.
+ Section lastSection = (Section) doc.getLastChild();
+ Section firstSection = (Section) lastSection.getPreviousSibling();
+
+ // Remove a section based on its sibling relationship with another section.
+ if (lastSection.getPreviousSibling() != null)
+     doc.removeChild(firstSection);
+
+ // The section we removed was the first one, leaving the document with only the second.
+ Assert.assertEquals("Section 2 text.", doc.getText().trim());
+ 
+```
 
 **Returns:**
 [Node](../../com.aspose.words/node/) - The node immediately preceding this node.
@@ -1224,6 +3443,31 @@ public Range getRange()
 
 Returns a [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node.
 
+ **Examples:** 
+
+Shows how to delete all the nodes from a range.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Add text to the first section in the document, and then add another section.
+ builder.write("Section 1. ");
+ builder.insertBreak(BreakType.SECTION_BREAK_CONTINUOUS);
+ builder.write("Section 2.");
+
+ Assert.assertEquals("Section 1. \fSection 2.", doc.getText().trim());
+
+ // Remove the first section entirely by removing all the nodes
+ // within its range, including the section itself.
+ doc.getSections().get(0).getRange().delete();
+
+ Assert.assertEquals(1, doc.getSections().getCount());
+ Assert.assertEquals("Section 2.", doc.getText().trim());
+ 
+```
+
 **Returns:**
 [Range](../../com.aspose.words/range/) - A [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node.
 ### getRelativeHorizontalPosition() {#getRelativeHorizontalPosition}
@@ -1234,12 +3478,52 @@ public int getRelativeHorizontalPosition()
 
 Specifies relative to what the shape is positioned horizontally.
 
+ **Remarks:** 
+
 The default value is [RelativeHorizontalPosition.COLUMN](../../com.aspose.words/relativehorizontalposition/\#COLUMN).
 
 Has effect only for top level floating shapes.
 
+ **Examples:** 
+
+Shows how to insert a floating image to the center of a page.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a floating image that will appear behind the overlapping text and align it to the page's center.
+ Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
+ shape.setWrapType(WrapType.NONE);
+ shape.setBehindText(true);
+ shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
+ shape.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
+ shape.setHorizontalAlignment(HorizontalAlignment.CENTER);
+ shape.setVerticalAlignment(VerticalAlignment.CENTER);
+
+ doc.save(getArtifactsDir() + "Image.CreateFloatingPageCenter.docx");
+ 
+```
+
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [RelativeHorizontalPosition](../../com.aspose.words/relativehorizontalposition/) constants.
+### getRelativeHorizontalSize() {#getRelativeHorizontalSize}
+```
+public int getRelativeHorizontalSize()
+```
+
+
+Gets the value of shape's relative size in horizontal direction.
+
+ **Remarks:** 
+
+The default value is [RelativeHorizontalSize](../../com.aspose.words/relativehorizontalsize/).
+
+Has effect only if [getWidthRelative()](../../com.aspose.words/shapebase/\#getWidthRelative) / [setWidthRelative(float)](../../com.aspose.words/shapebase/\#setWidthRelative-float) is set.
+
+**Returns:**
+int - The value of shape's relative size in horizontal direction. The returned value is one of [RelativeHorizontalSize](../../com.aspose.words/relativehorizontalsize/) constants.
 ### getRelativeVerticalPosition() {#getRelativeVerticalPosition}
 ```
 public int getRelativeVerticalPosition()
@@ -1248,12 +3532,52 @@ public int getRelativeVerticalPosition()
 
 Specifies relative to what the shape is positioned vertically.
 
+ **Remarks:** 
+
 The default value is [RelativeVerticalPosition.PARAGRAPH](../../com.aspose.words/relativeverticalposition/\#PARAGRAPH).
 
 Has effect only for top level floating shapes.
 
+ **Examples:** 
+
+Shows how to insert a floating image to the center of a page.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a floating image that will appear behind the overlapping text and align it to the page's center.
+ Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
+ shape.setWrapType(WrapType.NONE);
+ shape.setBehindText(true);
+ shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
+ shape.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
+ shape.setHorizontalAlignment(HorizontalAlignment.CENTER);
+ shape.setVerticalAlignment(VerticalAlignment.CENTER);
+
+ doc.save(getArtifactsDir() + "Image.CreateFloatingPageCenter.docx");
+ 
+```
+
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [RelativeVerticalPosition](../../com.aspose.words/relativeverticalposition/) constants.
+### getRelativeVerticalSize() {#getRelativeVerticalSize}
+```
+public int getRelativeVerticalSize()
+```
+
+
+Gets the value of shape's relative size in vertical direction.
+
+ **Remarks:** 
+
+The default value is [RelativeVerticalSize.MARGIN](../../com.aspose.words/relativeverticalsize/\#MARGIN).
+
+Has effect only if [getHeightRelative()](../../com.aspose.words/shapebase/\#getHeightRelative) / [setHeightRelative(float)](../../com.aspose.words/shapebase/\#setHeightRelative-float) is set.
+
+**Returns:**
+int - The value of shape's relative size in vertical direction. The returned value is one of [RelativeVerticalSize](../../com.aspose.words/relativeverticalsize/) constants.
 ### getRight() {#getRight}
 ```
 public double getRight()
@@ -1262,9 +3586,47 @@ public double getRight()
 
 Gets the position of the right edge of the containing block of the shape.
 
+ **Remarks:** 
+
 For a top-level shape, the value is in points and relative to the shape anchor.
 
 For shapes in a group, the value is in the coordinate space and units of the parent group.
+
+ **Examples:** 
+
+Shows how to insert a floating image, and specify its position and size.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
+ shape.setWrapType(WrapType.NONE);
+
+ // Configure the shape's "RelativeHorizontalPosition" property to treat the value of the "Left" property
+ // as the shape's horizontal distance, in points, from the left side of the page.
+ shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
+
+ // Set the shape's horizontal distance from the left side of the page to 100.
+ shape.setLeft(100.0);
+
+ // Use the "RelativeVerticalPosition" property in a similar way to position the shape 80pt below the top of the page.
+ shape.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
+ shape.setTop(80.0);
+
+ // Set the shape's height, which will automatically scale the width to preserve dimensions.
+ shape.setHeight(125.0);
+
+ Assert.assertEquals(125.0d, shape.getWidth());
+
+ // The "Bottom" and "Right" properties contain the bottom and right edges of the image.
+ Assert.assertEquals(shape.getTop() + shape.getHeight(), shape.getBottom());
+ Assert.assertEquals(shape.getLeft() + shape.getWidth(), shape.getRight());
+
+ doc.save(getArtifactsDir() + "Image.CreateFloatingPositionSize.docx");
+ 
+```
 
 **Returns:**
 double - The position of the right edge of the containing block of the shape.
@@ -1286,7 +3648,30 @@ public double getRotation()
 
 Defines the angle (in degrees) that a shape is rotated. Positive value corresponds to clockwise rotation angle.
 
+ **Remarks:** 
+
 The default value is 0.
+
+ **Examples:** 
+
+Shows how to insert and rotate an image.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a shape with an image.
+ Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
+ Assert.assertTrue(shape.canHaveImage());
+ Assert.assertTrue(shape.hasImage());
+
+ // Rotate the image 45 degrees clockwise.
+ shape.setRotation(45.0);
+
+ doc.save(getArtifactsDir() + "Shape.Rotate.docx");
+ 
+```
 
 **Returns:**
 double - The corresponding  double  value.
@@ -1298,7 +3683,29 @@ public String getScreenTip()
 
 Defines the text displayed when the mouse pointer moves over the shape.
 
+ **Remarks:** 
+
 The default value is an empty string.
+
+ **Examples:** 
+
+Shows how to insert a shape which contains an image, and is also a hyperlink.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
+ shape.setHRef("https://forum.aspose.com/");
+ shape.setTarget("New Window");
+ shape.setScreenTip("Aspose.Words Support Forums");
+
+ // Ctrl + left-clicking the shape in Microsoft Word will open a new web browser window
+ // and take us to the hyperlink in the "HRef" property.
+ doc.save(getArtifactsDir() + "Image.InsertImageWithHyperlink.docx");
+ 
+```
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
@@ -1320,10 +3727,35 @@ public ShapeRenderer getShapeRenderer()
 
 Creates and returns an object that can be used to render this shape into an image.
 
+ **Remarks:** 
+
 This method just invokes the [ShapeRenderer](../../com.aspose.words/shaperenderer/) constructor and passes this object as a parameter.
 
 **Returns:**
 [ShapeRenderer](../../com.aspose.words/shaperenderer/) - The renderer object for this shape.
+
+ **Examples:** 
+
+Shows how to use a shape renderer to export shapes to files in the local file system.
+
+```
+
+ Document doc = new Document(getMyDir() + "Various shapes.docx");
+ NodeCollection shapes = doc.getChildNodes(NodeType.SHAPE, true);
+
+ Assert.assertEquals(7, shapes.getCount());
+
+ // There are 7 shapes in the document, including one group shape with 2 child shapes.
+ // We will render every shape to an image file in the local file system
+ // while ignoring the group shapes since they have no appearance.
+ // This will produce 6 image files.
+ for (Shape shape : (Iterable) doc.getChildNodes(NodeType.SHAPE, true)) {
+     ShapeRenderer renderer = shape.getShapeRenderer();
+     ImageSaveOptions options = new ImageSaveOptions(SaveFormat.PNG);
+     renderer.save(getArtifactsDir() + MessageFormat.format("Shape.RenderAllShapes.{0}.png", shape.getName()), options);
+ }
+ 
+```
 ### getShapeType() {#getShapeType}
 ```
 public int getShapeType()
@@ -1331,6 +3763,83 @@ public int getShapeType()
 
 
 Gets the shape type.
+
+ **Examples:** 
+
+Shows how to create a group of shapes, and print its contents using a document visitor.
+
+```
+
+ public void groupOfShapes() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // If you need to create "NonPrimitive" shapes, such as SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+     // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
+     // please use DocumentBuilder.InsertShape methods.
+     Shape balloon = new Shape(doc, ShapeType.BALLOON);
+     balloon.setWidth(200.0);
+     balloon.setHeight(200.0);
+     balloon.setStrokeColor(Color.RED);
+
+     Shape cube = new Shape(doc, ShapeType.CUBE);
+     cube.setWidth(100.0);
+     cube.setHeight(100.0);
+     cube.setStrokeColor(Color.BLUE);
+
+     GroupShape group = new GroupShape(doc);
+     group.appendChild(balloon);
+     group.appendChild(cube);
+
+     Assert.assertTrue(group.isGroup());
+     builder.insertNode(group);
+
+     ShapeInfoPrinter printer = new ShapeInfoPrinter();
+     group.accept(printer);
+
+     System.out.println(printer.getText());
+ }
+
+ /// 
+ /// Prints the contents of a visited shape group to the console.
+ /// 
+ public static class ShapeInfoPrinter extends DocumentVisitor {
+     public ShapeInfoPrinter() {
+         mBuilder = new StringBuilder();
+     }
+
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     public int visitGroupShapeStart(final GroupShape groupShape) {
+         mBuilder.append("Shape group started:\r\n");
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitGroupShapeEnd(final GroupShape groupShape) {
+         mBuilder.append("End of shape group\r\n");
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitShapeStart(final Shape shape) {
+         mBuilder.append("\tShape - " + shape.getShapeType() + ":\r\n");
+         mBuilder.append("\t\tWidth: " + shape.getWidth() + "\r\n");
+         mBuilder.append("\t\tHeight: " + shape.getHeight() + "\r\n");
+         mBuilder.append("\t\tStroke color: " + shape.getStroke().getColor() + "\r\n");
+         mBuilder.append("\t\tFill color: " + shape.getFill().getForeColor() + "\r\n");
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitShapeEnd(final Shape shape) {
+         mBuilder.append("\tEnd of shape\r\n");
+         return VisitorAction.CONTINUE;
+     }
+
+     private final StringBuilder mBuilder;
+ }
+ 
+```
 
 **Returns:**
 int - The shape type. The returned value is one of [ShapeType](../../com.aspose.words/shapetype/) constants.
@@ -1342,7 +3851,25 @@ public Point2D.Float getSizeInPoints()
 
 Gets the size of the shape in points.  Gets the size of the shape in points.
 
+ **Remarks:** 
+
 Point2D.Float is used as return type because we need in float dimension values here. One should to assume that Point2D's *x == width* and *y == height*.
+
+ **Examples:** 
+
+Shows how to verify a shape's size and markup language.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertImage(getImageDir() + "Transparent background logo.png");
+
+ Assert.assertEquals(ShapeMarkupLanguage.DML, shape.getMarkupLanguage());
+ Assert.assertEquals(new Point2D.Float(300f, 300f), shape.getSizeInPoints());
+ 
+```
 
 **Returns:**
 java.awt.geom.Point2D.Float - The size of the shape in points.
@@ -1354,7 +3881,29 @@ public String getTarget()
 
 Gets the target frame for the shape hyperlink.
 
+ **Remarks:** 
+
 The default value is an empty string.
+
+ **Examples:** 
+
+Shows how to insert a shape which contains an image, and is also a hyperlink.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
+ shape.setHRef("https://forum.aspose.com/");
+ shape.setTarget("New Window");
+ shape.setScreenTip("Aspose.Words Support Forums");
+
+ // Ctrl + left-clicking the shape in Microsoft Word will open a new web browser window
+ // and take us to the hyperlink in the "HRef" property.
+ doc.save(getArtifactsDir() + "Image.InsertImageWithHyperlink.docx");
+ 
+```
 
 **Returns:**
 java.lang.String - The target frame for the shape hyperlink.
@@ -1366,7 +3915,57 @@ public String getText()
 
 Gets the text of this node and of all its children.
 
+ **Remarks:** 
+
 The returned string includes all control and special characters as described in [ControlChar](../../com.aspose.words/controlchar/).
+
+ **Examples:** 
+
+Shows the difference between calling the GetText and ToString methods on a node.
+
+```
+
+ Document doc = new Document();
+
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.insertField("MERGEFIELD Field");
+
+ // GetText will retrieve the visible text as well as field codes and special characters.
+ Assert.assertEquals("MERGEFIELD Field«Field»\f", doc.getText());
+
+ // ToString will give us the document's appearance if saved to a passed save format.
+ Assert.assertEquals("«Field»\r\n", doc.toString(SaveFormat.TEXT));
+ 
+```
+
+Shows how to output all paragraphs in a document that are list items.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getListFormat().applyNumberDefault();
+ builder.writeln("Numbered list item 1");
+ builder.writeln("Numbered list item 2");
+ builder.writeln("Numbered list item 3");
+ builder.getListFormat().removeNumbers();
+
+ builder.getListFormat().applyBulletDefault();
+ builder.writeln("Bulleted list item 1");
+ builder.writeln("Bulleted list item 2");
+ builder.writeln("Bulleted list item 3");
+ builder.getListFormat().removeNumbers();
+
+ NodeCollection paras = doc.getChildNodes(NodeType.PARAGRAPH, true);
+ for (Paragraph para : (Iterable) paras) {
+     if (para.getListFormat().isListItem()) {
+         System.out.println(java.text.MessageFormat.format("*** A paragraph belongs to list {0}", para.getListFormat().getList().getListId()));
+         System.out.println(para.getText());
+     }
+ }
+ 
+```
 
 **Returns:**
 java.lang.String
@@ -1388,9 +3987,40 @@ public String getTitle()
 
 Gets the title (caption) of the current shape object.
 
+ **Remarks:** 
+
 Default is empty string.
 
 Cannot be  null , but can be an empty string.
+
+ **Examples:** 
+
+Shows how to set the title of a shape.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Create a shape, give it a title, and then add it to the document.
+ Shape shape = new Shape(doc, ShapeType.CUBE);
+ shape.setWidth(200.0);
+ shape.setHeight(200.0);
+ shape.setTitle("My cube");
+
+ builder.insertNode(shape);
+
+ // When we save a document with a shape that has a title,
+ // Aspose.Words will store that title in the shape's Alt Text.
+ doc.save(getArtifactsDir() + "Shape.Title.docx");
+
+ doc = new Document(getArtifactsDir() + "Shape.Title.docx");
+ shape = (Shape) doc.getChild(NodeType.SHAPE, 0, true);
+
+ Assert.assertEquals("", shape.getTitle());
+ Assert.assertEquals("Title: My cube", shape.getAlternativeText());
+ 
+```
 
 **Returns:**
 java.lang.String - The title (caption) of the current shape object.
@@ -1402,6 +4032,8 @@ public double getTop()
 
 Gets the position of the top edge of the containing block of the shape.
 
+ **Remarks:** 
+
 For a top-level shape, the value is in points and relative to the shape anchor.
 
 For shapes in a group, the value is in the coordinate space and units of the parent group.
@@ -1410,8 +4042,54 @@ The default value is 0.
 
 Has effect only for floating shapes.
 
+ **Examples:** 
+
+Shows how to insert a floating image, and specify its position and size.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
+ shape.setWrapType(WrapType.NONE);
+
+ // Configure the shape's "RelativeHorizontalPosition" property to treat the value of the "Left" property
+ // as the shape's horizontal distance, in points, from the left side of the page.
+ shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
+
+ // Set the shape's horizontal distance from the left side of the page to 100.
+ shape.setLeft(100.0);
+
+ // Use the "RelativeVerticalPosition" property in a similar way to position the shape 80pt below the top of the page.
+ shape.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
+ shape.setTop(80.0);
+
+ // Set the shape's height, which will automatically scale the width to preserve dimensions.
+ shape.setHeight(125.0);
+
+ Assert.assertEquals(125.0d, shape.getWidth());
+
+ // The "Bottom" and "Right" properties contain the bottom and right edges of the image.
+ Assert.assertEquals(shape.getTop() + shape.getHeight(), shape.getBottom());
+ Assert.assertEquals(shape.getLeft() + shape.getWidth(), shape.getRight());
+
+ doc.save(getArtifactsDir() + "Image.CreateFloatingPositionSize.docx");
+ 
+```
+
 **Returns:**
 double - The position of the top edge of the containing block of the shape.
+### getTopRelative() {#getTopRelative}
+```
+public float getTopRelative()
+```
+
+
+Gets the value that represents shape's relative top position in percent.
+
+**Returns:**
+float - The value that represents shape's relative top position in percent.
 ### getVerticalAlignment() {#getVerticalAlignment}
 ```
 public int getVerticalAlignment()
@@ -1420,9 +4098,33 @@ public int getVerticalAlignment()
 
 Specifies how the shape is positioned vertically.
 
+ **Remarks:** 
+
 The default value is [VerticalAlignment.NONE](../../com.aspose.words/verticalalignment/\#NONE).
 
 Has effect only for top level floating shapes.
+
+ **Examples:** 
+
+Shows how to insert a floating image to the center of a page.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a floating image that will appear behind the overlapping text and align it to the page's center.
+ Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
+ shape.setWrapType(WrapType.NONE);
+ shape.setBehindText(true);
+ shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
+ shape.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
+ shape.setHorizontalAlignment(HorizontalAlignment.CENTER);
+ shape.setVerticalAlignment(VerticalAlignment.CENTER);
+
+ doc.save(getArtifactsDir() + "Image.CreateFloatingPageCenter.docx");
+ 
+```
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [VerticalAlignment](../../com.aspose.words/verticalalignment/) constants.
@@ -1434,14 +4136,109 @@ public double getWidth()
 
 Gets the width of the containing block of the shape.
 
+ **Remarks:** 
+
 For a top-level shape, the value is in points.
 
 For shapes in a group, the value is in the coordinate space and units of the parent group.
 
 The default value is 0.
 
+ **Examples:** 
+
+Shows how to insert a floating image, and specify its position and size.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
+ shape.setWrapType(WrapType.NONE);
+
+ // Configure the shape's "RelativeHorizontalPosition" property to treat the value of the "Left" property
+ // as the shape's horizontal distance, in points, from the left side of the page.
+ shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
+
+ // Set the shape's horizontal distance from the left side of the page to 100.
+ shape.setLeft(100.0);
+
+ // Use the "RelativeVerticalPosition" property in a similar way to position the shape 80pt below the top of the page.
+ shape.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
+ shape.setTop(80.0);
+
+ // Set the shape's height, which will automatically scale the width to preserve dimensions.
+ shape.setHeight(125.0);
+
+ Assert.assertEquals(125.0d, shape.getWidth());
+
+ // The "Bottom" and "Right" properties contain the bottom and right edges of the image.
+ Assert.assertEquals(shape.getTop() + shape.getHeight(), shape.getBottom());
+ Assert.assertEquals(shape.getLeft() + shape.getWidth(), shape.getRight());
+
+ doc.save(getArtifactsDir() + "Image.CreateFloatingPositionSize.docx");
+ 
+```
+
+Shows how to resize a shape with an image.
+
+```
+
+ BufferedImage image = ImageIO.read(new File(getImageDir() + "Logo.jpg"));
+
+ Assert.assertEquals(400, image.getWidth());
+ Assert.assertEquals(400, image.getHeight());
+
+ // When we insert an image using the "InsertImage" method, the builder scales the shape that displays the image so that,
+ // when we view the document using 100% zoom in Microsoft Word, the shape displays the image in its actual size.
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
+
+ // A 400x400 image will create an ImageData object with an image size of 300x300pt.
+ ImageSize imageSize = shape.getImageData().getImageSize();
+
+ Assert.assertEquals(300.0d, imageSize.getWidthPoints());
+ Assert.assertEquals(300.0d, imageSize.getHeightPoints());
+
+ // If a shape's dimensions match the image data's dimensions,
+ // then the shape is displaying the image in its original size.
+ Assert.assertEquals(300.0d, shape.getWidth());
+ Assert.assertEquals(300.0d, shape.getHeight());
+
+ // Reduce the overall size of the shape by 50%.
+ shape.setWidth(shape.getWidth() * 0.5);
+
+ // Scaling factors apply to both the width and the height at the same time to preserve the shape's proportions.
+ Assert.assertEquals(150.0d, shape.getWidth());
+ Assert.assertEquals(150.0d, shape.getHeight());
+
+ // When we resize the shape, the size of the image data remains the same.
+ Assert.assertEquals(300.0d, imageSize.getWidthPoints());
+ Assert.assertEquals(300.0d, imageSize.getHeightPoints());
+
+ // We can reference the image data dimensions to apply a scaling based on the size of the image.
+ shape.setWidth(imageSize.getWidthPoints() * 1.1);
+
+ Assert.assertEquals(330.0d, shape.getWidth());
+ Assert.assertEquals(330.0d, shape.getHeight());
+
+ doc.save(getArtifactsDir() + "Image.ScaleImage.docx");
+ 
+```
+
 **Returns:**
 double - The width of the containing block of the shape.
+### getWidthRelative() {#getWidthRelative}
+```
+public float getWidthRelative()
+```
+
+
+Gets the value that represents the percentage of shape's relative width.
+
+**Returns:**
+float - The value that represents the percentage of shape's relative width.
 ### getWrapSide() {#getWrapSide}
 ```
 public int getWrapSide()
@@ -1450,9 +4247,59 @@ public int getWrapSide()
 
 Specifies how the text is wrapped around the shape.
 
+ **Remarks:** 
+
 The default value is [WrapSide.BOTH](../../com.aspose.words/wrapside/\#BOTH).
 
 Has effect only for top level shapes.
+
+ **Examples:** 
+
+Shows how to replace all textbox shapes with image shapes.
+
+```
+
+ Document doc = new Document(getMyDir() + "Textboxes in drawing canvas.docx");
+
+ List shapeList = Arrays.stream(doc.getChildNodes(NodeType.SHAPE, true).toArray())
+         .filter(Shape.class::isInstance)
+         .map(Shape.class::cast)
+         .collect(Collectors.toList());
+
+ Assert.assertEquals(3, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.TEXT_BOX));
+ Assert.assertEquals(1, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.IMAGE));
+
+ for (Shape shape : shapeList) {
+     if (((shape.getShapeType()) == (ShapeType.TEXT_BOX))) {
+         Shape replacementShape = new Shape(doc, ShapeType.IMAGE);
+         replacementShape.getImageData().setImage(getImageDir() + "Logo.jpg");
+         replacementShape.setLeft(shape.getLeft());
+         replacementShape.setTop(shape.getTop());
+         replacementShape.setWidth(shape.getWidth());
+         replacementShape.setHeight(shape.getHeight());
+         replacementShape.setRelativeHorizontalPosition(shape.getRelativeHorizontalPosition());
+         replacementShape.setRelativeVerticalPosition(shape.getRelativeVerticalPosition());
+         replacementShape.setHorizontalAlignment(shape.getHorizontalAlignment());
+         replacementShape.setVerticalAlignment(shape.getVerticalAlignment());
+         replacementShape.setWrapType(shape.getWrapType());
+         replacementShape.setWrapSide(shape.getWrapSide());
+
+         shape.getParentNode().insertAfter(replacementShape, shape);
+         shape.remove();
+     }
+ }
+
+ shapeList = Arrays.stream(doc.getChildNodes(NodeType.SHAPE, true).toArray())
+         .filter(Shape.class::isInstance)
+         .map(Shape.class::cast)
+         .collect(Collectors.toList());
+
+ Assert.assertEquals(0, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.TEXT_BOX));
+ Assert.assertEquals(4, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.IMAGE));
+
+ doc.save(getArtifactsDir() + "Shape.ReplaceTextboxesWithImages.docx");
+ 
+```
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [WrapSide](../../com.aspose.words/wrapside/) constants.
@@ -1464,9 +4311,63 @@ public int getWrapType()
 
 Defines whether the shape is inline or floating. For floating shapes defines the wrapping mode for text around the shape.
 
+ **Remarks:** 
+
 The default value is [WrapType.NONE](../../com.aspose.words/wraptype/\#NONE).
 
 Has effect only for top level shapes.
+
+ **Examples:** 
+
+Shows how to insert a floating image to the center of a page.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a floating image that will appear behind the overlapping text and align it to the page's center.
+ Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
+ shape.setWrapType(WrapType.NONE);
+ shape.setBehindText(true);
+ shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
+ shape.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
+ shape.setHorizontalAlignment(HorizontalAlignment.CENTER);
+ shape.setVerticalAlignment(VerticalAlignment.CENTER);
+
+ doc.save(getArtifactsDir() + "Image.CreateFloatingPageCenter.docx");
+ 
+```
+
+Shows how to create and format a text box.
+
+```
+
+ Document doc = new Document();
+
+ // Create a floating text box.
+ Shape textBox = new Shape(doc, ShapeType.TEXT_BOX);
+ textBox.setWrapType(WrapType.NONE);
+ textBox.setHeight(50.0);
+ textBox.setWidth(200.0);
+
+ // Set the horizontal, and vertical alignment of the text inside the shape.
+ textBox.setHorizontalAlignment(HorizontalAlignment.CENTER);
+ textBox.setVerticalAlignment(VerticalAlignment.TOP);
+
+ // Add a paragraph to the text box and add a run of text that the text box will display.
+ textBox.appendChild(new Paragraph(doc));
+ Paragraph para = textBox.getFirstParagraph();
+ para.getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
+ Run run = new Run(doc);
+ run.setText("Hello world!");
+ para.appendChild(run);
+
+ doc.getFirstSection().getBody().getFirstParagraph().appendChild(textBox);
+
+ doc.save(getArtifactsDir() + "Shape.CreateTextBox.docx");
+ 
+```
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [WrapType](../../com.aspose.words/wraptype/) constants.
@@ -1478,6 +4379,8 @@ public int getZOrder()
 
 Determines the display order of overlapping shapes.
 
+ **Remarks:** 
+
 Has effect only for top level shapes.
 
 The default value is 0.
@@ -1487,6 +4390,50 @@ The number represents the stacking precedence. A shape with a higher number will
 The order of overlapping shapes is independent for shapes in the header and in the main text of the document.
 
 The display order of child shapes in a group shape is determined by their order inside the group shape.
+
+ **Examples:** 
+
+Shows how to manipulate the order of shapes.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert three different colored rectangles that partially overlap each other.
+ // When we insert a shape that overlaps another shape, Aspose.Words places the newer shape on top of the old one.
+ // The light green rectangle will overlap the light blue rectangle and partially obscure it,
+ // and the light blue rectangle will obscure the orange rectangle.
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, RelativeHorizontalPosition.LEFT_MARGIN, 100.0,
+         RelativeVerticalPosition.TOP_MARGIN, 100.0, 200.0, 200.0, WrapType.NONE);
+ shape.setFillColor(Color.ORANGE);
+
+ shape = builder.insertShape(ShapeType.RECTANGLE, RelativeHorizontalPosition.LEFT_MARGIN, 150.0,
+         RelativeVerticalPosition.TOP_MARGIN, 150.0, 200.0, 200.0, WrapType.NONE);
+ shape.setFillColor(Color.BLUE);
+
+ shape = builder.insertShape(ShapeType.RECTANGLE, RelativeHorizontalPosition.LEFT_MARGIN, 200.0,
+         RelativeVerticalPosition.TOP_MARGIN, 200.0, 200.0, 200.0, WrapType.NONE);
+ shape.setFillColor(Color.GREEN);
+
+ List shapeList = Arrays.stream(doc.getChildNodes(NodeType.SHAPE, true).toArray())
+         .filter(Shape.class::isInstance)
+         .map(Shape.class::cast)
+         .collect(Collectors.toList());
+
+ // The "ZOrder" property of a shape determines its stacking priority among other overlapping shapes.
+ // If two overlapping shapes have different "ZOrder" values,
+ // Microsoft Word will place the shape with a higher value over the shape with the lower value.
+ // Set the "ZOrder" values of our shapes to place the first orange rectangle over the second light blue one
+ // and the second light blue rectangle over the third light green rectangle.
+ // This will reverse their original stacking order.
+ shapeList.get(0).setZOrder(3);
+ shapeList.get(1).setZOrder(2);
+ shapeList.get(2).setZOrder(1);
+
+ doc.save(getArtifactsDir() + "Shape.ZOrder.docx");
+ 
+```
 
 **Returns:**
 int - The corresponding  int  value.
@@ -1508,8 +4455,34 @@ public boolean hasChildNodes()
 
 Returns  true  if this node has any child nodes.
 
+ **Examples:** 
+
+Shows how to combine the rows from two tables into one.
+
+```
+
+ Document doc = new Document(getMyDir() + "Tables.docx");
+
+ // Below are two ways of getting a table from a document.
+ // 1 -  From the "Tables" collection of a Body node:
+ Table firstTable = doc.getFirstSection().getBody().getTables().get(0);
+
+ // 2 -  Using the "GetChild" method:
+ Table secondTable = (Table) doc.getChild(NodeType.TABLE, 1, true);
+
+ // Append all rows from the current table to the next.
+ while (secondTable.hasChildNodes())
+     firstTable.getRows().add(secondTable.getFirstRow());
+
+ // Remove the empty table container.
+ secondTable.remove();
+
+ doc.save(getArtifactsDir() + "Table.CombineTables.docx");
+ 
+```
+
 **Returns:**
-boolean - \{ true  if this node has any child nodes.
+boolean -  true  if this node has any child nodes.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()
@@ -1526,7 +4499,26 @@ public int indexOf(Node child)
 ```
 
 
-Returns the index of the specified child node in the child node array. Returns -1 if the node is not found in the child nodes.
+Returns the index of the specified child node in the child node array.
+
+ **Remarks:** 
+
+Returns -1 if the node is not found in the child nodes.
+
+ **Examples:** 
+
+Shows how to get the index of a given child node from its parent.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ Body body = doc.getFirstSection().getBody();
+
+ // Retrieve the index of the last paragraph in the body of the first section.
+ Assert.assertEquals(24, body.getChildNodes().indexOf(body.getLastParagraph()));
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1543,7 +4535,11 @@ public Node insertAfter(Node newChild, Node refChild)
 
 Inserts the specified node immediately after the specified reference node.
 
+ **Remarks:** 
+
 If  refChild  is  null , inserts  newChild  at the beginning of the list of child nodes.
+
+ **Remarks:** 
 
 If the  newChild  is already in the tree, it is first removed.
 
@@ -1557,6 +4553,104 @@ If the node being inserted was created from another document, you should use **M
 
 **Returns:**
 [Node](../../com.aspose.words/node/) - The inserted node.
+
+ **Examples:** 
+
+Shows how to replace all textbox shapes with image shapes.
+
+```
+
+ Document doc = new Document(getMyDir() + "Textboxes in drawing canvas.docx");
+
+ List shapeList = Arrays.stream(doc.getChildNodes(NodeType.SHAPE, true).toArray())
+         .filter(Shape.class::isInstance)
+         .map(Shape.class::cast)
+         .collect(Collectors.toList());
+
+ Assert.assertEquals(3, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.TEXT_BOX));
+ Assert.assertEquals(1, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.IMAGE));
+
+ for (Shape shape : shapeList) {
+     if (((shape.getShapeType()) == (ShapeType.TEXT_BOX))) {
+         Shape replacementShape = new Shape(doc, ShapeType.IMAGE);
+         replacementShape.getImageData().setImage(getImageDir() + "Logo.jpg");
+         replacementShape.setLeft(shape.getLeft());
+         replacementShape.setTop(shape.getTop());
+         replacementShape.setWidth(shape.getWidth());
+         replacementShape.setHeight(shape.getHeight());
+         replacementShape.setRelativeHorizontalPosition(shape.getRelativeHorizontalPosition());
+         replacementShape.setRelativeVerticalPosition(shape.getRelativeVerticalPosition());
+         replacementShape.setHorizontalAlignment(shape.getHorizontalAlignment());
+         replacementShape.setVerticalAlignment(shape.getVerticalAlignment());
+         replacementShape.setWrapType(shape.getWrapType());
+         replacementShape.setWrapSide(shape.getWrapSide());
+
+         shape.getParentNode().insertAfter(replacementShape, shape);
+         shape.remove();
+     }
+ }
+
+ shapeList = Arrays.stream(doc.getChildNodes(NodeType.SHAPE, true).toArray())
+         .filter(Shape.class::isInstance)
+         .map(Shape.class::cast)
+         .collect(Collectors.toList());
+
+ Assert.assertEquals(0, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.TEXT_BOX));
+ Assert.assertEquals(4, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.IMAGE));
+
+ doc.save(getArtifactsDir() + "Shape.ReplaceTextboxesWithImages.docx");
+ 
+```
+
+Shows how to add, update and delete child nodes in a CompositeNode's collection of children.
+
+```
+
+ Document doc = new Document();
+
+ // An empty document, by default, has one paragraph.
+ Assert.assertEquals(1, doc.getFirstSection().getBody().getParagraphs().getCount());
+
+ // Composite nodes such as our paragraph can contain other composite and inline nodes as children.
+ Paragraph paragraph = doc.getFirstSection().getBody().getFirstParagraph();
+ Run paragraphText = new Run(doc, "Initial text. ");
+ paragraph.appendChild(paragraphText);
+
+ // Create three more run nodes.
+ Run run1 = new Run(doc, "Run 1. ");
+ Run run2 = new Run(doc, "Run 2. ");
+ Run run3 = new Run(doc, "Run 3. ");
+
+ // The document body will not display these runs until we insert them into a composite node
+ // that itself is a part of the document's node tree, as we did with the first run.
+ // We can determine where the text contents of nodes that we insert
+ // appears in the document by specifying an insertion location relative to another node in the paragraph.
+ Assert.assertEquals("Initial text.", paragraph.getText().trim());
+
+ // Insert the second run into the paragraph in front of the initial run.
+ paragraph.insertBefore(run2, paragraphText);
+
+ Assert.assertEquals("Run 2. Initial text.", paragraph.getText().trim());
+
+ // Insert the third run after the initial run.
+ paragraph.insertAfter(run3, paragraphText);
+
+ Assert.assertEquals("Run 2. Initial text. Run 3.", paragraph.getText().trim());
+
+ // Insert the first run to the start of the paragraph's child nodes collection.
+ paragraph.prependChild(run1);
+
+ Assert.assertEquals("Run 1. Run 2. Initial text. Run 3.", paragraph.getText().trim());
+ Assert.assertEquals(4, paragraph.getChildNodes(NodeType.ANY, true).getCount());
+
+ // We can modify the contents of the run by editing and deleting existing child nodes.
+ ((Run) paragraph.getChildNodes(NodeType.RUN, true).get(1)).setText("Updated run 2. ");
+ paragraph.getChildNodes(NodeType.RUN, true).remove(paragraphText);
+
+ Assert.assertEquals("Run 1. Updated run 2. Run 3.", paragraph.getText().trim());
+ Assert.assertEquals(3, paragraph.getChildNodes(NodeType.ANY, true).getCount());
+ 
+```
 ### insertBefore(Node newChild, Node refChild) {#insertBefore-com.aspose.words.Node-com.aspose.words.Node}
 ```
 public Node insertBefore(Node newChild, Node refChild)
@@ -1565,7 +4659,11 @@ public Node insertBefore(Node newChild, Node refChild)
 
 Inserts the specified node immediately before the specified reference node.
 
+ **Remarks:** 
+
 If  refChild  is  null , inserts  newChild  at the end of the list of child nodes.
+
+ **Remarks:** 
 
 If the  newChild  is already in the tree, it is first removed.
 
@@ -1579,6 +4677,58 @@ If the node being inserted was created from another document, you should use **M
 
 **Returns:**
 [Node](../../com.aspose.words/node/) - The inserted node.
+
+ **Examples:** 
+
+Shows how to add, update and delete child nodes in a CompositeNode's collection of children.
+
+```
+
+ Document doc = new Document();
+
+ // An empty document, by default, has one paragraph.
+ Assert.assertEquals(1, doc.getFirstSection().getBody().getParagraphs().getCount());
+
+ // Composite nodes such as our paragraph can contain other composite and inline nodes as children.
+ Paragraph paragraph = doc.getFirstSection().getBody().getFirstParagraph();
+ Run paragraphText = new Run(doc, "Initial text. ");
+ paragraph.appendChild(paragraphText);
+
+ // Create three more run nodes.
+ Run run1 = new Run(doc, "Run 1. ");
+ Run run2 = new Run(doc, "Run 2. ");
+ Run run3 = new Run(doc, "Run 3. ");
+
+ // The document body will not display these runs until we insert them into a composite node
+ // that itself is a part of the document's node tree, as we did with the first run.
+ // We can determine where the text contents of nodes that we insert
+ // appears in the document by specifying an insertion location relative to another node in the paragraph.
+ Assert.assertEquals("Initial text.", paragraph.getText().trim());
+
+ // Insert the second run into the paragraph in front of the initial run.
+ paragraph.insertBefore(run2, paragraphText);
+
+ Assert.assertEquals("Run 2. Initial text.", paragraph.getText().trim());
+
+ // Insert the third run after the initial run.
+ paragraph.insertAfter(run3, paragraphText);
+
+ Assert.assertEquals("Run 2. Initial text. Run 3.", paragraph.getText().trim());
+
+ // Insert the first run to the start of the paragraph's child nodes collection.
+ paragraph.prependChild(run1);
+
+ Assert.assertEquals("Run 1. Run 2. Initial text. Run 3.", paragraph.getText().trim());
+ Assert.assertEquals(4, paragraph.getChildNodes(NodeType.ANY, true).getCount());
+
+ // We can modify the contents of the run by editing and deleting existing child nodes.
+ ((Run) paragraph.getChildNodes(NodeType.RUN, true).get(1)).setText("Updated run 2. ");
+ paragraph.getChildNodes(NodeType.RUN, true).remove(paragraphText);
+
+ Assert.assertEquals("Run 1. Updated run 2. Run 3.", paragraph.getText().trim());
+ Assert.assertEquals(3, paragraph.getChildNodes(NodeType.ANY, true).getCount());
+ 
+```
 ### isComposite() {#isComposite}
 ```
 public boolean isComposite()
@@ -1587,15 +4737,84 @@ public boolean isComposite()
 
 Returns  true  as this node can have child nodes.
 
+ **Examples:** 
+
+Shows how to traverse a composite node's tree of child nodes.
+
+```
+
+ public void recurseChildren() throws Exception {
+     Document doc = new Document(getMyDir() + "Paragraphs.docx");
+
+     // Any node that can contain child nodes, such as the document itself, is composite.
+     Assert.assertTrue(doc.isComposite());
+
+     // Invoke the recursive function that will go through and print all the child nodes of a composite node.
+     traverseAllNodes(doc, 0);
+ }
+
+ /// 
+ /// Recursively traverses a node tree while printing the type of each node
+ /// with an indent depending on depth as well as the contents of all inline nodes.
+ /// 
+ public void traverseAllNodes(CompositeNode parentNode, int depth) {
+     for (Node childNode = parentNode.getFirstChild(); childNode != null; childNode = childNode.getNextSibling()) {
+         System.out.println(MessageFormat.format("{0}{1}", String.format("    ", depth), Node.nodeTypeToString(childNode.getNodeType())));
+
+         // Recurse into the node if it is a composite node. Otherwise, print its contents if it is an inline node.
+         if (childNode.isComposite()) {
+             System.out.println();
+             traverseAllNodes((CompositeNode) childNode, depth + 1);
+         } else if (childNode instanceof Inline) {
+             System.out.println(" - \"{childNode.GetText().Trim()}\"");
+         } else {
+             System.out.println();
+         }
+     }
+ }
+ 
+```
+
 **Returns:**
-boolean - \{ true  as this node can have child nodes.
+boolean -  true  as this node can have child nodes.
 ### isDecorative() {#isDecorative}
 ```
 public boolean isDecorative()
 ```
 
 
-Gets the flag that specifies whether the shape is decorative in the document. Note that shape having not empty [getAlternativeText()](../../com.aspose.words/shapebase/\#getAlternativeText) / [setAlternativeText(java.lang.String)](../../com.aspose.words/shapebase/\#setAlternativeText-java.lang.String) cannot be decorative.
+Gets the flag that specifies whether the shape is decorative in the document.
+
+ **Remarks:** 
+
+Note that shape having not empty [getAlternativeText()](../../com.aspose.words/shapebase/\#getAlternativeText) / [setAlternativeText(java.lang.String)](../../com.aspose.words/shapebase/\#setAlternativeText-java.lang.String) cannot be decorative.
+
+ **Examples:** 
+
+Shows how to set that the shape is decorative.
+
+```
+
+ Document doc = new Document(getMyDir() + "Decorative shapes.docx");
+
+ Shape shape = (Shape) doc.getChildNodes(NodeType.SHAPE, true).get(0);
+ Assert.assertTrue(shape.isDecorative());
+
+ // If "AlternativeText" is not empty, the shape cannot be decorative.
+ // That's why our value has changed to 'false'.
+ shape.setAlternativeText("Alternative text.");
+ Assert.assertFalse(shape.isDecorative());
+
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.moveToDocumentEnd();
+ // Create a new shape as decorative.
+ shape = builder.insertShape(ShapeType.RECTANGLE, 100.0, 100.0);
+ shape.isDecorative(true);
+
+ doc.save(getArtifactsDir() + "Shape.IsDecorative.docx");
+ 
+```
 
 **Returns:**
 boolean - The flag that specifies whether the shape is decorative in the document.
@@ -1605,7 +4824,38 @@ public void isDecorative(boolean value)
 ```
 
 
-Sets the flag that specifies whether the shape is decorative in the document. Note that shape having not empty [getAlternativeText()](../../com.aspose.words/shapebase/\#getAlternativeText) / [setAlternativeText(java.lang.String)](../../com.aspose.words/shapebase/\#setAlternativeText-java.lang.String) cannot be decorative.
+Sets the flag that specifies whether the shape is decorative in the document.
+
+ **Remarks:** 
+
+Note that shape having not empty [getAlternativeText()](../../com.aspose.words/shapebase/\#getAlternativeText) / [setAlternativeText(java.lang.String)](../../com.aspose.words/shapebase/\#setAlternativeText-java.lang.String) cannot be decorative.
+
+ **Examples:** 
+
+Shows how to set that the shape is decorative.
+
+```
+
+ Document doc = new Document(getMyDir() + "Decorative shapes.docx");
+
+ Shape shape = (Shape) doc.getChildNodes(NodeType.SHAPE, true).get(0);
+ Assert.assertTrue(shape.isDecorative());
+
+ // If "AlternativeText" is not empty, the shape cannot be decorative.
+ // That's why our value has changed to 'false'.
+ shape.setAlternativeText("Alternative text.");
+ Assert.assertFalse(shape.isDecorative());
+
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.moveToDocumentEnd();
+ // Create a new shape as decorative.
+ shape = builder.insertShape(ShapeType.RECTANGLE, 100.0, 100.0);
+ shape.isDecorative(true);
+
+ doc.save(getArtifactsDir() + "Shape.IsDecorative.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1620,6 +4870,55 @@ public boolean isDeleteRevision()
 
 Returns true if this object was deleted in Microsoft Word while change tracking was enabled.
 
+ **Examples:** 
+
+Shows how to work with revision shapes.
+
+```
+
+ Document doc = new Document();
+
+ Assert.assertFalse(doc.getTrackRevisions());
+
+ // Insert an inline shape without tracking revisions, which will make this shape not a revision of any kind.
+ Shape shape = new Shape(doc, ShapeType.CUBE);
+ shape.setWrapType(WrapType.INLINE);
+ shape.setWidth(100.0);
+ shape.setHeight(100.0);
+ doc.getFirstSection().getBody().getFirstParagraph().appendChild(shape);
+
+ // Start tracking revisions and then insert another shape, which will be a revision.
+ doc.startTrackRevisions("John Doe");
+
+ shape = new Shape(doc, ShapeType.SUN);
+ shape.setWrapType(WrapType.INLINE);
+ shape.setWidth(100.0);
+ shape.setHeight(100.0);
+ doc.getFirstSection().getBody().getFirstParagraph().appendChild(shape);
+
+ List shapeList = Arrays.stream(doc.getChildNodes(NodeType.SHAPE, true).toArray())
+         .filter(Shape.class::isInstance)
+         .map(Shape.class::cast)
+         .collect(Collectors.toList());
+ Assert.assertEquals(shapeList.size(), 2);
+
+ Shape firstShape = shapeList.get(0);
+ firstShape.remove();
+
+ // Since we removed that shape while we were tracking changes,
+ // the shape persists in the document and counts as a delete revision.
+ // Accepting this revision will remove the shape permanently, and rejecting it will keep it in the document.
+ Assert.assertEquals(ShapeType.CUBE, shapeList.get(0).getShapeType());
+ Assert.assertTrue(shapeList.get(0).isDeleteRevision());
+
+ // And we inserted another shape while tracking changes, so that shape will count as an insert revision.
+ // Accepting this revision will assimilate this shape into the document as a non-revision,
+ // and rejecting the revision will remove this shape permanently.
+ Assert.assertEquals(ShapeType.SUN, shapeList.get(1).getShapeType());
+ Assert.assertTrue(shapeList.get(1).isInsertRevision());
+ 
+```
+
 **Returns:**
 boolean - True if this object was deleted in Microsoft Word while change tracking was enabled.
 ### isGroup() {#isGroup}
@@ -1630,8 +4929,85 @@ public boolean isGroup()
 
 Returns  true  if this is a group shape.
 
+ **Examples:** 
+
+Shows how to create a group of shapes, and print its contents using a document visitor.
+
+```
+
+ public void groupOfShapes() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     // If you need to create "NonPrimitive" shapes, such as SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+     // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
+     // please use DocumentBuilder.InsertShape methods.
+     Shape balloon = new Shape(doc, ShapeType.BALLOON);
+     balloon.setWidth(200.0);
+     balloon.setHeight(200.0);
+     balloon.setStrokeColor(Color.RED);
+
+     Shape cube = new Shape(doc, ShapeType.CUBE);
+     cube.setWidth(100.0);
+     cube.setHeight(100.0);
+     cube.setStrokeColor(Color.BLUE);
+
+     GroupShape group = new GroupShape(doc);
+     group.appendChild(balloon);
+     group.appendChild(cube);
+
+     Assert.assertTrue(group.isGroup());
+     builder.insertNode(group);
+
+     ShapeInfoPrinter printer = new ShapeInfoPrinter();
+     group.accept(printer);
+
+     System.out.println(printer.getText());
+ }
+
+ /// 
+ /// Prints the contents of a visited shape group to the console.
+ /// 
+ public static class ShapeInfoPrinter extends DocumentVisitor {
+     public ShapeInfoPrinter() {
+         mBuilder = new StringBuilder();
+     }
+
+     public String getText() {
+         return mBuilder.toString();
+     }
+
+     public int visitGroupShapeStart(final GroupShape groupShape) {
+         mBuilder.append("Shape group started:\r\n");
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitGroupShapeEnd(final GroupShape groupShape) {
+         mBuilder.append("End of shape group\r\n");
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitShapeStart(final Shape shape) {
+         mBuilder.append("\tShape - " + shape.getShapeType() + ":\r\n");
+         mBuilder.append("\t\tWidth: " + shape.getWidth() + "\r\n");
+         mBuilder.append("\t\tHeight: " + shape.getHeight() + "\r\n");
+         mBuilder.append("\t\tStroke color: " + shape.getStroke().getColor() + "\r\n");
+         mBuilder.append("\t\tFill color: " + shape.getFill().getForeColor() + "\r\n");
+         return VisitorAction.CONTINUE;
+     }
+
+     public int visitShapeEnd(final Shape shape) {
+         mBuilder.append("\tEnd of shape\r\n");
+         return VisitorAction.CONTINUE;
+     }
+
+     private final StringBuilder mBuilder;
+ }
+ 
+```
+
 **Returns:**
-boolean - \{ true  if this is a group shape.
+boolean -  true  if this is a group shape.
 ### isHorizontalRule() {#isHorizontalRule}
 ```
 public boolean isHorizontalRule()
@@ -1640,8 +5016,30 @@ public boolean isHorizontalRule()
 
 Returns  true  if this shape is a horizontal rule.
 
+ **Examples:** 
+
+Shows how to insert a horizontal rule shape, and customize its formatting.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ Shape shape = builder.insertHorizontalRule();
+
+ HorizontalRuleFormat horizontalRuleFormat = shape.getHorizontalRuleFormat();
+ horizontalRuleFormat.setAlignment(HorizontalRuleAlignment.CENTER);
+ horizontalRuleFormat.setWidthPercent(70.0);
+ horizontalRuleFormat.setHeight(3.0);
+ horizontalRuleFormat.setColor(Color.BLUE);
+ horizontalRuleFormat.setNoShade(true);
+
+ Assert.assertTrue(shape.isHorizontalRule());
+ Assert.assertTrue(shape.getHorizontalRuleFormat().getNoShade());
+ 
+```
+
 **Returns:**
-boolean - \{ true  if this shape is a horizontal rule.
+boolean -  true  if this shape is a horizontal rule.
 ### isImage() {#isImage}
 ```
 public boolean isImage()
@@ -1651,7 +5049,7 @@ public boolean isImage()
 Returns  true  if this shape is an image shape.
 
 **Returns:**
-boolean - \{ true  if this shape is an image shape.
+boolean -  true  if this shape is an image shape.
 ### isInline() {#isInline}
 ```
 public boolean isInline()
@@ -1660,7 +5058,49 @@ public boolean isInline()
 
 A quick way to determine if this shape is positioned inline with text.
 
+ **Remarks:** 
+
 Has effect only for top level shapes.
+
+ **Examples:** 
+
+Shows how to determine whether a shape is inline or floating.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Below are two wrapping types that shapes may have.
+ // 1 -  Inline:
+ builder.write("Hello world! ");
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 100.0, 100.0);
+ shape.setFillColor(Color.BLUE);
+ builder.write(" Hello again.");
+
+ // An inline shape sits inside a paragraph among other paragraph elements, such as runs of text.
+ // In Microsoft Word, we may click and drag the shape to any paragraph as if it is a character.
+ // If the shape is large, it will affect vertical paragraph spacing.
+ // We cannot move this shape to a place with no paragraph.
+ Assert.assertEquals(WrapType.INLINE, shape.getWrapType());
+ Assert.assertTrue(shape.isInline());
+
+ // 2 -  Floating:
+ shape = builder.insertShape(ShapeType.RECTANGLE, RelativeHorizontalPosition.LEFT_MARGIN, 200.0,
+         RelativeVerticalPosition.TOP_MARGIN, 200.0, 100.0, 100.0, WrapType.NONE);
+ shape.setFillColor(Color.ORANGE);
+
+ // A floating shape belongs to the paragraph that we insert it into,
+ // which we can determine by an anchor symbol that appears when we click the shape.
+ // If the shape does not have a visible anchor symbol to its left,
+ // we will need to enable visible anchors via "Options" -> "Display" -> "Object Anchors".
+ // In Microsoft Word, we may left click and drag this shape freely to any location.
+ Assert.assertEquals(WrapType.NONE, shape.getWrapType());
+ Assert.assertFalse(shape.isInline());
+
+ doc.save(getArtifactsDir() + "Shape.IsInline.docx");
+ 
+```
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -1672,6 +5112,55 @@ public boolean isInsertRevision()
 
 Returns true if this object was inserted in Microsoft Word while change tracking was enabled.
 
+ **Examples:** 
+
+Shows how to work with revision shapes.
+
+```
+
+ Document doc = new Document();
+
+ Assert.assertFalse(doc.getTrackRevisions());
+
+ // Insert an inline shape without tracking revisions, which will make this shape not a revision of any kind.
+ Shape shape = new Shape(doc, ShapeType.CUBE);
+ shape.setWrapType(WrapType.INLINE);
+ shape.setWidth(100.0);
+ shape.setHeight(100.0);
+ doc.getFirstSection().getBody().getFirstParagraph().appendChild(shape);
+
+ // Start tracking revisions and then insert another shape, which will be a revision.
+ doc.startTrackRevisions("John Doe");
+
+ shape = new Shape(doc, ShapeType.SUN);
+ shape.setWrapType(WrapType.INLINE);
+ shape.setWidth(100.0);
+ shape.setHeight(100.0);
+ doc.getFirstSection().getBody().getFirstParagraph().appendChild(shape);
+
+ List shapeList = Arrays.stream(doc.getChildNodes(NodeType.SHAPE, true).toArray())
+         .filter(Shape.class::isInstance)
+         .map(Shape.class::cast)
+         .collect(Collectors.toList());
+ Assert.assertEquals(shapeList.size(), 2);
+
+ Shape firstShape = shapeList.get(0);
+ firstShape.remove();
+
+ // Since we removed that shape while we were tracking changes,
+ // the shape persists in the document and counts as a delete revision.
+ // Accepting this revision will remove the shape permanently, and rejecting it will keep it in the document.
+ Assert.assertEquals(ShapeType.CUBE, shapeList.get(0).getShapeType());
+ Assert.assertTrue(shapeList.get(0).isDeleteRevision());
+
+ // And we inserted another shape while tracking changes, so that shape will count as an insert revision.
+ // Accepting this revision will assimilate this shape into the document as a non-revision,
+ // and rejecting the revision will remove this shape permanently.
+ Assert.assertEquals(ShapeType.SUN, shapeList.get(1).getShapeType());
+ Assert.assertTrue(shapeList.get(1).isInsertRevision());
+ 
+```
+
 **Returns:**
 boolean - True if this object was inserted in Microsoft Word while change tracking was enabled.
 ### isLayoutInCell() {#isLayoutInCell}
@@ -1682,9 +5171,55 @@ public boolean isLayoutInCell()
 
 Gets a flag indicating whether the shape is displayed inside a table or outside of it.
 
+ **Remarks:** 
+
 The default value is  true .
 
 Has effect only for top level shapes, the property [getWrapType()](../../com.aspose.words/shapebase/\#getWrapType) / [setWrapType(int)](../../com.aspose.words/shapebase/\#setWrapType-int) of which is set to value other than [Inline](../../com.aspose.words/inline/).
+
+ **Examples:** 
+
+Shows how to determine how to display a shape in a table cell.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.insertCell();
+ builder.endTable();
+
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.setBottomPadding(20.0);
+ tableStyle.setLeftPadding(10.0);
+ tableStyle.setRightPadding(10.0);
+ tableStyle.setTopPadding(20.0);
+ tableStyle.getBorders().setColor(Color.BLACK);
+ tableStyle.getBorders().setLineStyle(LineStyle.SINGLE);
+
+ table.setStyle(tableStyle);
+
+ builder.moveTo(table.getFirstRow().getFirstCell().getFirstParagraph());
+
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, RelativeHorizontalPosition.LEFT_MARGIN, 50.0,
+         RelativeVerticalPosition.TOP_MARGIN, 100.0, 100.0, 100.0, WrapType.NONE);
+
+ // Set the "IsLayoutInCell" property to "true" to display the shape as an inline element inside the cell's paragraph.
+ // The coordinate origin that will determine the shape's location will be the top left corner of the shape's cell.
+ // If we re-size the cell, the shape will move to maintain the same position starting from the cell's top left.
+ // Set the "IsLayoutInCell" property to "false" to display the shape as an independent floating shape.
+ // The coordinate origin that will determine the shape's location will be the top left corner of the page,
+ // and the shape will not respond to any re-sizing of its cell.
+ shape.isLayoutInCell(isLayoutInCell);
+
+ // We can only apply the "IsLayoutInCell" property to floating shapes.
+ shape.setWrapType(WrapType.NONE);
+
+ doc.save(getArtifactsDir() + "Shape.LayoutInTableCell.docx");
+ 
+```
 
 **Returns:**
 boolean - A flag indicating whether the shape is displayed inside a table or outside of it.
@@ -1696,9 +5231,55 @@ public void isLayoutInCell(boolean value)
 
 Sets a flag indicating whether the shape is displayed inside a table or outside of it.
 
+ **Remarks:** 
+
 The default value is  true .
 
 Has effect only for top level shapes, the property [getWrapType()](../../com.aspose.words/shapebase/\#getWrapType) / [setWrapType(int)](../../com.aspose.words/shapebase/\#setWrapType-int) of which is set to value other than [Inline](../../com.aspose.words/inline/).
+
+ **Examples:** 
+
+Shows how to determine how to display a shape in a table cell.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.insertCell();
+ builder.endTable();
+
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.setBottomPadding(20.0);
+ tableStyle.setLeftPadding(10.0);
+ tableStyle.setRightPadding(10.0);
+ tableStyle.setTopPadding(20.0);
+ tableStyle.getBorders().setColor(Color.BLACK);
+ tableStyle.getBorders().setLineStyle(LineStyle.SINGLE);
+
+ table.setStyle(tableStyle);
+
+ builder.moveTo(table.getFirstRow().getFirstCell().getFirstParagraph());
+
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, RelativeHorizontalPosition.LEFT_MARGIN, 50.0,
+         RelativeVerticalPosition.TOP_MARGIN, 100.0, 100.0, 100.0, WrapType.NONE);
+
+ // Set the "IsLayoutInCell" property to "true" to display the shape as an inline element inside the cell's paragraph.
+ // The coordinate origin that will determine the shape's location will be the top left corner of the shape's cell.
+ // If we re-size the cell, the shape will move to maintain the same position starting from the cell's top left.
+ // Set the "IsLayoutInCell" property to "false" to display the shape as an independent floating shape.
+ // The coordinate origin that will determine the shape's location will be the top left corner of the page,
+ // and the shape will not respond to any re-sizing of its cell.
+ shape.isLayoutInCell(isLayoutInCell);
+
+ // We can only apply the "IsLayoutInCell" property to floating shapes.
+ shape.setWrapType(WrapType.NONE);
+
+ doc.save(getArtifactsDir() + "Shape.LayoutInTableCell.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1713,8 +5294,43 @@ public boolean isMoveFromRevision()
 
 Returns  true  if this object was moved (deleted) in Microsoft Word while change tracking was enabled.
 
+ **Examples:** 
+
+Shows how to identify move revision shapes.
+
+```
+
+ // A move revision is when we move an element in the document body by cut-and-pasting it in Microsoft Word while
+ // tracking changes. If we involve an inline shape in such a text movement, that shape will also be a revision.
+ // Copying-and-pasting or moving floating shapes do not create move revisions.
+ Document doc = new Document(getMyDir() + "Revision shape.docx");
+
+ // Move revisions consist of pairs of "Move from", and "Move to" revisions. We moved in this document in one shape,
+ // but until we accept or reject the move revision, there will be two instances of that shape.
+ List shapeList = Arrays.stream(doc.getChildNodes(NodeType.SHAPE, true).toArray())
+         .filter(Shape.class::isInstance)
+         .map(Shape.class::cast)
+         .collect(Collectors.toList());
+ Assert.assertEquals(shapeList.size(), 2);
+
+ Shape firstShape = shapeList.get(0);
+
+ // This is the "Move to" revision, which is the shape at its arrival destination.
+ // If we accept the revision, this "Move to" revision shape will disappear,
+ // and the "Move from" revision shape will remain.
+ Assert.assertFalse(shapeList.get(0).isMoveFromRevision());
+ Assert.assertTrue(shapeList.get(0).isMoveToRevision());
+
+ // This is the "Move from" revision, which is the shape at its original location.
+ // If we accept the revision, this "Move from" revision shape will disappear,
+ // and the "Move to" revision shape will remain.
+ Assert.assertTrue(shapeList.get(1).isMoveFromRevision());
+ Assert.assertFalse(shapeList.get(1).isMoveToRevision());
+ 
+```
+
 **Returns:**
-boolean - \{ true  if this object was moved (deleted) in Microsoft Word while change tracking was enabled.
+boolean -  true  if this object was moved (deleted) in Microsoft Word while change tracking was enabled.
 ### isMoveToRevision() {#isMoveToRevision}
 ```
 public boolean isMoveToRevision()
@@ -1723,8 +5339,43 @@ public boolean isMoveToRevision()
 
 Returns  true  if this object was moved (inserted) in Microsoft Word while change tracking was enabled.
 
+ **Examples:** 
+
+Shows how to identify move revision shapes.
+
+```
+
+ // A move revision is when we move an element in the document body by cut-and-pasting it in Microsoft Word while
+ // tracking changes. If we involve an inline shape in such a text movement, that shape will also be a revision.
+ // Copying-and-pasting or moving floating shapes do not create move revisions.
+ Document doc = new Document(getMyDir() + "Revision shape.docx");
+
+ // Move revisions consist of pairs of "Move from", and "Move to" revisions. We moved in this document in one shape,
+ // but until we accept or reject the move revision, there will be two instances of that shape.
+ List shapeList = Arrays.stream(doc.getChildNodes(NodeType.SHAPE, true).toArray())
+         .filter(Shape.class::isInstance)
+         .map(Shape.class::cast)
+         .collect(Collectors.toList());
+ Assert.assertEquals(shapeList.size(), 2);
+
+ Shape firstShape = shapeList.get(0);
+
+ // This is the "Move to" revision, which is the shape at its arrival destination.
+ // If we accept the revision, this "Move to" revision shape will disappear,
+ // and the "Move from" revision shape will remain.
+ Assert.assertFalse(shapeList.get(0).isMoveFromRevision());
+ Assert.assertTrue(shapeList.get(0).isMoveToRevision());
+
+ // This is the "Move from" revision, which is the shape at its original location.
+ // If we accept the revision, this "Move from" revision shape will disappear,
+ // and the "Move to" revision shape will remain.
+ Assert.assertTrue(shapeList.get(1).isMoveFromRevision());
+ Assert.assertFalse(shapeList.get(1).isMoveToRevision());
+ 
+```
+
 **Returns:**
-boolean - \{ true  if this object was moved (inserted) in Microsoft Word while change tracking was enabled.
+boolean -  true  if this object was moved (inserted) in Microsoft Word while change tracking was enabled.
 ### isSignatureLine() {#isSignatureLine}
 ```
 public boolean isSignatureLine()
@@ -1732,6 +5383,50 @@ public boolean isSignatureLine()
 
 
 Indicates that shape is a [SignatureLine](../../com.aspose.words/signatureline/).
+
+ **Examples:** 
+
+Shows how to create a line for a signature and insert it into a document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ SignatureLineOptions options = new SignatureLineOptions();
+ {
+     options.setAllowComments(true);
+     options.setDefaultInstructions(true);
+     options.setEmail("john.doe@management.com");
+     options.setInstructions("Please sign here");
+     options.setShowDate(true);
+     options.setSigner("John Doe");
+     options.setSignerTitle("Senior Manager");
+ }
+
+ // Insert a shape that will contain a signature line, whose appearance we will
+ // customize using the "SignatureLineOptions" object we have created above.
+ // If we insert a shape whose coordinates originate at the bottom right hand corner of the page,
+ // we will need to supply negative x and y coordinates to bring the shape into view.
+ Shape shape = builder.insertSignatureLine(options, RelativeHorizontalPosition.RIGHT_MARGIN, -170.0,
+         RelativeVerticalPosition.BOTTOM_MARGIN, -60.0, WrapType.NONE);
+
+ Assert.assertTrue(shape.isSignatureLine());
+
+ // Verify the properties of our signature line via its Shape object.
+ SignatureLine signatureLine = shape.getSignatureLine();
+
+ Assert.assertEquals(signatureLine.getEmail(), "john.doe@management.com");
+ Assert.assertEquals(signatureLine.getSigner(), "John Doe");
+ Assert.assertEquals(signatureLine.getSignerTitle(), "Senior Manager");
+ Assert.assertEquals(signatureLine.getInstructions(), "Please sign here");
+ Assert.assertTrue(signatureLine.getShowDate());
+ Assert.assertTrue(signatureLine.getAllowComments());
+ Assert.assertTrue(signatureLine.getDefaultInstructions());
+
+ doc.save(getArtifactsDir() + "Shape.SignatureLine.docx");
+ 
+```
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -1743,18 +5438,146 @@ public boolean isTopLevel()
 
 Returns  true  if this shape is not a child of a group shape.
 
+ **Examples:** 
+
+Shows how to tell whether a shape is a part of a group shape.
+
+```
+
+ Document doc = new Document();
+
+ Shape shape = new Shape(doc, ShapeType.RECTANGLE);
+ shape.setWidth(200.0);
+ shape.setHeight(200.0);
+ shape.setWrapType(WrapType.NONE);
+
+ // A shape by default is not part of any group shape, and therefore has the "IsTopLevel" property set to "true".
+ Assert.assertTrue(shape.isTopLevel());
+
+ GroupShape group = new GroupShape(doc);
+ group.appendChild(shape);
+
+ // Once we assimilate a shape into a group shape, the "IsTopLevel" property changes to "false".
+ Assert.assertFalse(shape.isTopLevel());
+ 
+```
+
 **Returns:**
-boolean - \{ true  if this shape is not a child of a group shape.
+boolean -  true  if this shape is not a child of a group shape.
 ### isWordArt() {#isWordArt}
 ```
 public boolean isWordArt()
 ```
 
 
-Returns  true  if this shape is a WordArt object. Works till 2007 compatibility mode. In 2010 and higher compatibility mode WordArt is just a TextBox with fancy fonts.
+Returns  true  if this shape is a WordArt object.
+
+ **Remarks:** 
+
+Works till 2007 compatibility mode. In 2010 and higher compatibility mode WordArt is just a TextBox with fancy fonts.
+
+ **Examples:** 
+
+Shows how to work with WordArt.
+
+```
+
+ public void insertTextPaths() throws Exception {
+     Document doc = new Document();
+
+     // Insert a WordArt object to display text in a shape that we can re-size and move by using the mouse in Microsoft Word.
+     // Provide a "ShapeType" as an argument to set a shape for the WordArt.
+     Shape shape = appendWordArt(doc, "Hello World! This text is bold, and italic.",
+             "Arial", 480.0, 24.0, Color.WHITE, Color.BLACK, ShapeType.TEXT_PLAIN_TEXT);
+
+     // Apply the "Bold' and "Italic" formatting settings to the text using the respective properties.
+     shape.getTextPath().setBold(true);
+     shape.getTextPath().setItalic(true);
+
+     // Below are various other text formatting-related properties.
+     Assert.assertFalse(shape.getTextPath().getUnderline());
+     Assert.assertFalse(shape.getTextPath().getShadow());
+     Assert.assertFalse(shape.getTextPath().getStrikeThrough());
+     Assert.assertFalse(shape.getTextPath().getReverseRows());
+     Assert.assertFalse(shape.getTextPath().getXScale());
+     Assert.assertFalse(shape.getTextPath().getTrim());
+     Assert.assertFalse(shape.getTextPath().getSmallCaps());
+
+     Assert.assertEquals(36.0, shape.getTextPath().getSize());
+     Assert.assertEquals("Hello World! This text is bold, and italic.", shape.getTextPath().getText());
+     Assert.assertEquals(ShapeType.TEXT_PLAIN_TEXT, shape.getShapeType());
+
+     // Use the "On" property to show/hide the text.
+     shape = appendWordArt(doc, "On set to \"true\"", "Calibri", 150.0, 24.0, Color.YELLOW, Color.RED, ShapeType.TEXT_PLAIN_TEXT);
+     shape.getTextPath().setOn(true);
+
+     shape = appendWordArt(doc, "On set to \"false\"", "Calibri", 150.0, 24.0, Color.YELLOW, Color.pink, ShapeType.TEXT_PLAIN_TEXT);
+     shape.getTextPath().setOn(false);
+
+     // Use the "Kerning" property to enable/disable kerning spacing between certain characters.
+     shape = appendWordArt(doc, "Kerning: VAV", "Times New Roman", 90.0, 24.0, Color.ORANGE, Color.RED, ShapeType.TEXT_PLAIN_TEXT);
+     shape.getTextPath().setKerning(true);
+
+     shape = appendWordArt(doc, "No kerning: VAV", "Times New Roman", 100.0, 24.0, Color.ORANGE, Color.RED, ShapeType.TEXT_PLAIN_TEXT);
+     shape.getTextPath().setKerning(false);
+
+     // Use the "Spacing" property to set the custom spacing between characters on a scale from 0.0 (none) to 1.0 (default).
+     shape = appendWordArt(doc, "Spacing set to 0.1", "Calibri", 120.0, 24.0, Color.BLUE, Color.BLUE, ShapeType.TEXT_CASCADE_DOWN);
+     shape.getTextPath().setSpacing(0.1);
+
+     // Set the "RotateLetters" property to "true" to rotate each character 90 degrees counterclockwise.
+     shape = appendWordArt(doc, "RotateLetters", "Calibri", 200.0, 36.0, Color.YELLOW, Color.GREEN, ShapeType.TEXT_WAVE);
+     shape.getTextPath().setRotateLetters(true);
+
+     // Set the "SameLetterHeights" property to "true" to get the x-height of each character to equal the cap height.
+     shape = appendWordArt(doc, "Same character height for lower and UPPER case", "Calibri", 300.0, 24.0, Color.BLUE, Color.BLUE, ShapeType.TEXT_SLANT_UP);
+     shape.getTextPath().setSameLetterHeights(true);
+
+     // By default, the text's size will always scale to fit the containing shape's size, overriding the text size setting.
+     shape = appendWordArt(doc, "FitShape on", "Calibri", 160.0, 24.0, Color.BLUE, Color.BLUE, ShapeType.TEXT_PLAIN_TEXT);
+     Assert.assertTrue(shape.getTextPath().getFitShape());
+     shape.getTextPath().setSize(24.0);
+
+     // If we set the "FitShape: property to "false", the text will keep the size
+     // which the "Size" property specifies regardless of the size of the shape.
+     // Use the "TextPathAlignment" property also to align the text to a side of the shape.
+     shape = appendWordArt(doc, "FitShape off", "Calibri", 160.0, 24.0, Color.BLUE, Color.BLUE, ShapeType.TEXT_PLAIN_TEXT);
+     shape.getTextPath().setFitShape(false);
+     shape.getTextPath().setSize(24.0);
+     shape.getTextPath().setTextPathAlignment(TextPathAlignment.RIGHT);
+
+     doc.save(getArtifactsDir() + "Shape.InsertTextPaths.docx");
+ }
+
+ /// 
+ /// Insert a new paragraph with a WordArt shape inside it.
+ /// 
+ private static Shape appendWordArt(Document doc, String text, String textFontFamily, double shapeWidth, double shapeHeight, Color wordArtFill, Color line, int wordArtShapeType) throws Exception {
+     // Create an inline Shape, which will serve as a container for our WordArt.
+     // The shape can only be a valid WordArt shape if we assign a WordArt-designated ShapeType to it.
+     // These types will have "WordArt object" in the description,
+     // and their enumerator constant names will all start with "Text".
+     Shape shape = new Shape(doc, wordArtShapeType);
+     {
+         shape.setWrapType(WrapType.INLINE);
+         shape.setWidth(shapeWidth);
+         shape.setHeight(shapeHeight);
+         shape.setFillColor(wordArtFill);
+         shape.setStrokeColor(line);
+     }
+
+     shape.getTextPath().setText(text);
+     shape.getTextPath().setFontFamily(textFontFamily);
+
+     Paragraph para = (Paragraph) doc.getFirstSection().getBody().appendChild(new Paragraph(doc));
+     para.appendChild(shape);
+     return shape;
+ }
+ 
+```
 
 **Returns:**
-boolean - \{ true  if this shape is a WordArt object.
+boolean -  true  if this shape is a WordArt object.
 ### iterator() {#iterator}
 ```
 public Iterator iterator()
@@ -1762,6 +5585,49 @@ public Iterator iterator()
 
 
 Provides support for the for each style iteration over the child nodes of this node.
+
+ **Examples:** 
+
+Shows how to traverse through a composite node's collection of child nodes.
+
+```
+
+ Document doc = new Document();
+
+ // Add two runs and one shape as child nodes to the first paragraph of this document.
+ Paragraph paragraph = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 0, true);
+ paragraph.appendChild(new Run(doc, "Hello world! "));
+
+ Shape shape = new Shape(doc, ShapeType.RECTANGLE);
+ shape.setWidth(200.0);
+ shape.setHeight(200.0);
+ // Note that the 'CustomNodeId' is not saved to an output file and exists only during the node lifetime.
+ shape.setCustomNodeId(100);
+ shape.setWrapType(WrapType.INLINE);
+ paragraph.appendChild(shape);
+
+ paragraph.appendChild(new Run(doc, "Hello again!"));
+
+ // Iterate through the paragraph's collection of immediate children,
+ // and print any runs or shapes that we find within.
+ NodeCollection children = paragraph.getChildNodes();
+
+ Assert.assertEquals(3, paragraph.getChildNodes().getCount());
+
+ for (Node child : (Iterable) children)
+     switch (child.getNodeType()) {
+         case NodeType.RUN:
+             System.out.println("Run contents:");
+             System.out.println("\t\"{child.GetText().Trim()}\"");
+             break;
+         case NodeType.SHAPE:
+             Shape childShape = (Shape) child;
+             System.out.println("Shape:");
+             System.out.println("\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
+             break;
+     }
+ 
+```
 
 **Returns:**
 java.util.Iterator
@@ -1772,6 +5638,61 @@ public Point2D.Float localToParent(Point2D.Float value)
 
 
 Converts a value from the local coordinate space into the coordinate space of the parent shape.
+
+ **Examples:** 
+
+Shows how to translate the x and y coordinate location on a shape's coordinate plane to a location on the parent shape's coordinate plane.
+
+```
+
+ Document doc = new Document();
+
+ // Insert a group shape, and place it 100 points below and to the right of
+ // the document's x and Y coordinate origin point.
+ GroupShape group = new GroupShape(doc);
+ group.setBounds(new Rectangle2D.Float(100f, 100f, 500f, 500f));
+
+ // Use the "LocalToParent" method to determine that (0, 0) on the group's internal x and y coordinates
+ // lies on (100, 100) of its parent shape's coordinate system. The group shape's parent is the document itself.
+ Assert.assertEquals(new Point2D.Float(100f, 100f), group.localToParent(new Point2D.Float(0f, 0f)));
+
+ // By default, a shape's internal coordinate plane has the top left corner at (0, 0),
+ // and the bottom right corner at (1000, 1000). Due to its size, our group shape covers an area of 500pt x 500pt
+ // in the document's plane. This means that a movement of 1pt on the document's coordinate plane will translate
+ // to a movement of 2pts on the group shape's coordinate plane.
+ Assert.assertEquals(new Point2D.Float(150f, 150f), group.localToParent(new Point2D.Float(100f, 100f)));
+ Assert.assertEquals(new Point2D.Float(200f, 200f), group.localToParent(new Point2D.Float(200f, 200f)));
+ Assert.assertEquals(new Point2D.Float(250f, 250f), group.localToParent(new Point2D.Float(300f, 300f)));
+
+ // Move the group shape's x and y axis origin from the top left corner to the center.
+ // This will offset the group's internal coordinates relative to the document's coordinates even further.
+ group.setCoordOrigin(new Point(-250, -250));
+
+ Assert.assertEquals(new Point2D.Float(375f, 375f), group.localToParent(new Point2D.Float(300f, 300f)));
+
+ // Changing the scale of the coordinate plane will also affect relative locations.
+ group.setCoordSize(new Dimension(500, 500));
+
+ Assert.assertEquals(new Point2D.Float(650f, 650f), group.localToParent(new Point2D.Float(300f, 300f)));
+
+ // If we wish to add a shape to this group while defining its location based on a location in the document,
+ // we will need to first confirm a location in the group shape that will match the document's location.
+ Assert.assertEquals(new Point2D.Float(700f, 700f), group.localToParent(new Point2D.Float(350f, 350f)));
+
+ Shape shape = new Shape(doc, ShapeType.RECTANGLE);
+ {
+     shape.setWidth(100.0);
+     shape.setHeight(100.0);
+     shape.setLeft(700.0);
+     shape.setTop(700.0);
+ }
+
+ group.appendChild(shape);
+ doc.getFirstSection().getBody().getFirstParagraph().appendChild(group);
+
+ doc.save(getArtifactsDir() + "Shape.LocalToParent.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1795,6 +5716,50 @@ Gets next node according to the pre-order tree traversal algorithm.
 
 **Returns:**
 [Node](../../com.aspose.words/node/) - Next node in pre-order order. Null if reached the  rootNode .
+
+ **Examples:** 
+
+Shows how to traverse the document's node tree using the pre-order traversal algorithm, and delete any encountered shape with an image.
+
+```
+
+ Document doc = new Document(getMyDir() + "Images.docx");
+ ArrayList shapes = (ArrayList) IterableUtils.toList(doc.getChildNodes(NodeType.SHAPE, true));
+
+ Assert.assertEquals(9, IterableUtils.countMatches(shapes, s -> {
+     try {
+         return s.hasImage();
+     } catch (Exception e) {
+         e.printStackTrace();
+     }
+     return false;
+ }));
+
+ Node curNode = doc;
+ while (curNode != null) {
+     Node nextNode = curNode.nextPreOrder(doc);
+
+     if (curNode.previousPreOrder(doc) != null && nextNode != null)
+         Assert.assertEquals(curNode, nextNode.previousPreOrder(doc));
+
+     if (curNode.getNodeType() == NodeType.SHAPE && ((Shape) curNode).hasImage())
+         curNode.remove();
+
+     curNode = nextNode;
+ }
+
+ shapes = (ArrayList) IterableUtils.toList(doc.getChildNodes(NodeType.SHAPE, true));
+
+ Assert.assertEquals(0, IterableUtils.countMatches(shapes, s -> {
+     try {
+         return s.hasImage();
+     } catch (Exception e) {
+         e.printStackTrace();
+     }
+     return false;
+ }));
+ 
+```
 ### nodeTypeToString(int nodeType) {#nodeTypeToString-int}
 ```
 public static String nodeTypeToString(int nodeType)
@@ -1862,6 +5827,8 @@ public Node prependChild(Node newChild)
 
 Adds the specified node to the beginning of the list of child nodes for this node.
 
+ **Remarks:** 
+
 If the  newChild  is already in the tree, it is first removed.
 
 If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
@@ -1873,6 +5840,58 @@ If the node being inserted was created from another document, you should use **M
 
 **Returns:**
 [Node](../../com.aspose.words/node/) - The node added.
+
+ **Examples:** 
+
+Shows how to add, update and delete child nodes in a CompositeNode's collection of children.
+
+```
+
+ Document doc = new Document();
+
+ // An empty document, by default, has one paragraph.
+ Assert.assertEquals(1, doc.getFirstSection().getBody().getParagraphs().getCount());
+
+ // Composite nodes such as our paragraph can contain other composite and inline nodes as children.
+ Paragraph paragraph = doc.getFirstSection().getBody().getFirstParagraph();
+ Run paragraphText = new Run(doc, "Initial text. ");
+ paragraph.appendChild(paragraphText);
+
+ // Create three more run nodes.
+ Run run1 = new Run(doc, "Run 1. ");
+ Run run2 = new Run(doc, "Run 2. ");
+ Run run3 = new Run(doc, "Run 3. ");
+
+ // The document body will not display these runs until we insert them into a composite node
+ // that itself is a part of the document's node tree, as we did with the first run.
+ // We can determine where the text contents of nodes that we insert
+ // appears in the document by specifying an insertion location relative to another node in the paragraph.
+ Assert.assertEquals("Initial text.", paragraph.getText().trim());
+
+ // Insert the second run into the paragraph in front of the initial run.
+ paragraph.insertBefore(run2, paragraphText);
+
+ Assert.assertEquals("Run 2. Initial text.", paragraph.getText().trim());
+
+ // Insert the third run after the initial run.
+ paragraph.insertAfter(run3, paragraphText);
+
+ Assert.assertEquals("Run 2. Initial text. Run 3.", paragraph.getText().trim());
+
+ // Insert the first run to the start of the paragraph's child nodes collection.
+ paragraph.prependChild(run1);
+
+ Assert.assertEquals("Run 1. Run 2. Initial text. Run 3.", paragraph.getText().trim());
+ Assert.assertEquals(4, paragraph.getChildNodes(NodeType.ANY, true).getCount());
+
+ // We can modify the contents of the run by editing and deleting existing child nodes.
+ ((Run) paragraph.getChildNodes(NodeType.RUN, true).get(1)).setText("Updated run 2. ");
+ paragraph.getChildNodes(NodeType.RUN, true).remove(paragraphText);
+
+ Assert.assertEquals("Run 1. Updated run 2. Run 3.", paragraph.getText().trim());
+ Assert.assertEquals(3, paragraph.getChildNodes(NodeType.ANY, true).getCount());
+ 
+```
 ### presetTextured(int presetTexture) {#presetTextured-int}
 ```
 public void presetTextured(int presetTexture)
@@ -1901,6 +5920,50 @@ Gets the previous node according to the pre-order tree traversal algorithm.
 
 **Returns:**
 [Node](../../com.aspose.words/node/) - Previous node in pre-order order. Null if reached the  rootNode .
+
+ **Examples:** 
+
+Shows how to traverse the document's node tree using the pre-order traversal algorithm, and delete any encountered shape with an image.
+
+```
+
+ Document doc = new Document(getMyDir() + "Images.docx");
+ ArrayList shapes = (ArrayList) IterableUtils.toList(doc.getChildNodes(NodeType.SHAPE, true));
+
+ Assert.assertEquals(9, IterableUtils.countMatches(shapes, s -> {
+     try {
+         return s.hasImage();
+     } catch (Exception e) {
+         e.printStackTrace();
+     }
+     return false;
+ }));
+
+ Node curNode = doc;
+ while (curNode != null) {
+     Node nextNode = curNode.nextPreOrder(doc);
+
+     if (curNode.previousPreOrder(doc) != null && nextNode != null)
+         Assert.assertEquals(curNode, nextNode.previousPreOrder(doc));
+
+     if (curNode.getNodeType() == NodeType.SHAPE && ((Shape) curNode).hasImage())
+         curNode.remove();
+
+     curNode = nextNode;
+ }
+
+ shapes = (ArrayList) IterableUtils.toList(doc.getChildNodes(NodeType.SHAPE, true));
+
+ Assert.assertEquals(0, IterableUtils.countMatches(shapes, s -> {
+     try {
+         return s.hasImage();
+     } catch (Exception e) {
+         e.printStackTrace();
+     }
+     return false;
+ }));
+ 
+```
 ### remove() {#remove}
 ```
 public void remove()
@@ -1908,6 +5971,68 @@ public void remove()
 
 
 Removes itself from the parent.
+
+ **Examples:** 
+
+Shows how to remove all child nodes of a specific type from a composite node.
+
+```
+
+ Document doc = new Document(getMyDir() + "Tables.docx");
+
+ Assert.assertEquals(2, doc.getChildNodes(NodeType.TABLE, true).getCount());
+
+ Node curNode = doc.getFirstSection().getBody().getFirstChild();
+
+ while (curNode != null) {
+     // Save the next sibling node as a variable in case we want to move to it after deleting this node.
+     Node nextNode = curNode.getNextSibling();
+
+     // A section body can contain Paragraph and Table nodes.
+     // If the node is a Table, remove it from the parent.
+     if (curNode.getNodeType() == NodeType.TABLE) {
+         curNode.remove();
+     }
+
+     curNode = nextNode;
+ }
+
+ Assert.assertEquals(0, doc.getChildNodes(NodeType.TABLE, true).getCount());
+ 
+```
+
+Shows how to delete all shapes with images from a document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Images.docx");
+ ArrayList shapes = (ArrayList) IterableUtils.toList(doc.getChildNodes(NodeType.SHAPE, true));
+
+ Assert.assertEquals(9, IterableUtils.countMatches(shapes, s -> {
+     try {
+         return s.hasImage();
+     } catch (Exception e) {
+         e.printStackTrace();
+     }
+     return false;
+ }));
+
+ for (Shape shape : shapes)
+     if (shape.hasImage())
+         shape.remove();
+
+ shapes = (ArrayList) IterableUtils.toList(doc.getChildNodes(NodeType.SHAPE, true));
+
+ Assert.assertEquals(0, IterableUtils.countMatches(shapes, s -> {
+     try {
+         return s.hasImage();
+     } catch (Exception e) {
+         e.printStackTrace();
+     }
+     return false;
+ }));
+ 
+```
 
 ### removeAllChildren() {#removeAllChildren}
 ```
@@ -1917,6 +6042,55 @@ public void removeAllChildren()
 
 Removes all the child nodes of the current node.
 
+ **Examples:** 
+
+Shows how to construct an Aspose.Words document by hand.
+
+```
+
+ Document doc = new Document();
+
+ // A blank document contains one section, one body and one paragraph.
+ // Call the "RemoveAllChildren" method to remove all those nodes,
+ // and end up with a document node with no children.
+ doc.removeAllChildren();
+
+ // This document now has no composite child nodes that we can add content to.
+ // If we wish to edit it, we will need to repopulate its node collection.
+ // First, create a new section, and then append it as a child to the root document node.
+ Section section = new Section(doc);
+ doc.appendChild(section);
+
+ // Set some page setup properties for the section.
+ section.getPageSetup().setSectionStart(SectionStart.NEW_PAGE);
+ section.getPageSetup().setPaperSize(PaperSize.LETTER);
+
+ // A section needs a body, which will contain and display all its contents
+ // on the page between the section's header and footer.
+ Body body = new Body(doc);
+ section.appendChild(body);
+
+ // Create a paragraph, set some formatting properties, and then append it as a child to the body.
+ Paragraph para = new Paragraph(doc);
+
+ para.getParagraphFormat().setStyleName("Heading 1");
+ para.getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
+
+ body.appendChild(para);
+
+ // Finally, add some content to do the document. Create a run,
+ // set its appearance and contents, and then append it as a child to the paragraph.
+ Run run = new Run(doc);
+ run.setText("Hello World!");
+ run.getFont().setColor(Color.RED);
+ para.appendChild(run);
+
+ Assert.assertEquals("Hello World!", doc.getText().trim());
+
+ doc.save(getArtifactsDir() + "Section.CreateManually.docx");
+ 
+```
+
 ### removeChild(Node oldChild) {#removeChild-com.aspose.words.Node}
 ```
 public Node removeChild(Node oldChild)
@@ -1924,6 +6098,8 @@ public Node removeChild(Node oldChild)
 
 
 Removes the specified child node.
+
+ **Remarks:** 
 
 The parent of  oldChild  is set to  null  after the node is removed.
 
@@ -1934,6 +6110,32 @@ The parent of  oldChild  is set to  null  after the node is removed.
 
 **Returns:**
 [Node](../../com.aspose.words/node/) - The removed node.
+
+ **Examples:** 
+
+Shows how to use of methods of Node and CompositeNode to remove a section before the last section in the document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Section 1 text.");
+ builder.insertBreak(BreakType.SECTION_BREAK_CONTINUOUS);
+ builder.writeln("Section 2 text.");
+
+ // Both sections are siblings of each other.
+ Section lastSection = (Section) doc.getLastChild();
+ Section firstSection = (Section) lastSection.getPreviousSibling();
+
+ // Remove a section based on its sibling relationship with another section.
+ if (lastSection.getPreviousSibling() != null)
+     doc.removeChild(firstSection);
+
+ // The section we removed was the first one, leaving the document with only the second.
+ Assert.assertEquals("Section 2 text.", doc.getText().trim());
+ 
+```
 ### removeMoveRevisions() {#removeMoveRevisions}
 ```
 public void removeMoveRevisions()
@@ -1974,7 +6176,118 @@ public void removeSmartTags()
 ```
 
 
-Removes all [SmartTag](../../com.aspose.words/smarttag/) descendant nodes of the current node. This method does not remove the content of the smart tags.
+Removes all [SmartTag](../../com.aspose.words/smarttag/) descendant nodes of the current node.
+
+ **Remarks:** 
+
+This method does not remove the content of the smart tags.
+
+ **Examples:** 
+
+Removes all smart tags from descendant nodes of a composite node.
+
+```
+
+ Document doc = new Document(getMyDir() + "Smart tags.doc");
+
+ Assert.assertEquals(8, doc.getChildNodes(NodeType.SMART_TAG, true).getCount());
+
+ doc.removeSmartTags();
+
+ Assert.assertEquals(0, doc.getChildNodes(NodeType.SMART_TAG, true).getCount());
+ 
+```
+
+Shows how to create smart tags.
+
+```
+
+ public void create() throws Exception {
+     Document doc = new Document();
+
+     // A smart tag appears in a document with Microsoft Word recognizes a part of its text as some form of data,
+     // such as a name, date, or address, and converts it to a hyperlink that displays a purple dotted underline.
+     SmartTag smartTag = new SmartTag(doc);
+
+     // Smart tags are composite nodes that contain their recognized text in its entirety.
+     // Add contents to this smart tag manually.
+     smartTag.appendChild(new Run(doc, "May 29, 2019"));
+
+     // Microsoft Word may recognize the above contents as being a date.
+     // Smart tags use the "Element" property to reflect the type of data they contain.
+     smartTag.setElement("date");
+
+     // Some smart tag types process their contents further into custom XML properties.
+     smartTag.getProperties().add(new CustomXmlProperty("Day", "", "29"));
+     smartTag.getProperties().add(new CustomXmlProperty("Month", "", "5"));
+     smartTag.getProperties().add(new CustomXmlProperty("Year", "", "2019"));
+
+     // Set the smart tag's URI to the default value.
+     smartTag.setUri("urn:schemas-microsoft-com:office:smarttags");
+
+     doc.getFirstSection().getBody().getFirstParagraph().appendChild(smartTag);
+     doc.getFirstSection().getBody().getFirstParagraph().appendChild(new Run(doc, " is a date. "));
+
+     // Create another smart tag for a stock ticker.
+     smartTag = new SmartTag(doc);
+     smartTag.setElement("stockticker");
+     smartTag.setUri("urn:schemas-microsoft-com:office:smarttags");
+
+     smartTag.appendChild(new Run(doc, "MSFT"));
+
+     doc.getFirstSection().getBody().getFirstParagraph().appendChild(smartTag);
+     doc.getFirstSection().getBody().getFirstParagraph().appendChild(new Run(doc, " is a stock ticker."));
+
+     // Print all the smart tags in our document using a document visitor.
+     doc.accept(new SmartTagPrinter());
+
+     // Older versions of Microsoft Word support smart tags.
+     doc.save(getArtifactsDir() + "SmartTag.Create.doc");
+
+     // Use the "RemoveSmartTags" method to remove all smart tags from a document.
+     Assert.assertEquals(2, doc.getChildNodes(NodeType.SMART_TAG, true).getCount());
+
+     doc.removeSmartTags();
+
+     Assert.assertEquals(0, doc.getChildNodes(NodeType.SMART_TAG, true).getCount());
+ }
+
+ /// 
+ /// Prints visited smart tags and their contents.
+ /// 
+ private static class SmartTagPrinter extends DocumentVisitor {
+     /// 
+     /// Called when a SmartTag node is encountered in the document.
+     /// 
+     public int visitSmartTagStart(SmartTag smartTag) {
+         System.out.println("Smart tag type: {smartTag.Element}");
+         return VisitorAction.CONTINUE;
+     }
+
+     /// 
+     /// Called when the visiting of a SmartTag node is ended.
+     /// 
+     public int visitSmartTagEnd(SmartTag smartTag) {
+         System.out.println("\tContents: \"{smartTag.ToString(SaveFormat.Text)}\"");
+
+         if (smartTag.getProperties().getCount() == 0) {
+             System.out.println("\tContains no properties");
+         } else {
+             System.out.println("\tProperties: ");
+             String[] properties = new String[smartTag.getProperties().getCount()];
+             int index = 0;
+
+             for (CustomXmlProperty cxp : smartTag.getProperties())
+                 properties[index++] = MessageFormat.format("\"{0}\" = \"{1}\"", cxp.getName(), cxp.getValue());
+
+             System.out.println(StringUtils.join(properties, ", "));
+         }
+
+         return VisitorAction.CONTINUE;
+     }
+ }
+ 
+```
 
 ### selectNodes(String xpath) {#selectNodes-java.lang.String}
 ```
@@ -1983,6 +6296,8 @@ public NodeList selectNodes(String xpath)
 
 
 Selects a list of nodes matching the XPath expression.
+
+ **Remarks:** 
 
 Only expressions with element names are supported at the moment. Expressions that use attribute names are not supported.
 
@@ -1993,6 +6308,57 @@ Only expressions with element names are supported at the moment. Expressions tha
 
 **Returns:**
 [NodeList](../../com.aspose.words/nodelist/) - A list of nodes matching the XPath query.
+
+ **Examples:** 
+
+Shows how to use an XPath expression to test whether a node is inside a field.
+
+```
+
+ Document doc = new Document(getMyDir() + "Mail merge destination - Northwind employees.docx");
+
+ // The NodeList that results from this XPath expression will contain all nodes we find inside a field.
+ // However, FieldStart and FieldEnd nodes can be on the list if there are nested fields in the path.
+ // Currently does not find rare fields in which the FieldCode or FieldResult spans across multiple paragraphs.
+ NodeList resultList =
+         doc.selectNodes("//FieldStart/following-sibling::node()[following-sibling::FieldEnd]");
+
+ // Check if the specified run is one of the nodes that are inside the field.
+ System.out.println("Contents of the first Run node that's part of a field: {resultList.First(n => n.NodeType == NodeType.Run).GetText().Trim()}");
+ 
+```
+
+Shows how to select certain nodes by using an XPath expression.
+
+```
+
+ Document doc = new Document(getMyDir() + "Tables.docx");
+
+ // This expression will extract all paragraph nodes,
+ // which are descendants of any table node in the document.
+ NodeList nodeList = doc.selectNodes("//Table//Paragraph");
+
+ // Iterate through the list with an enumerator and print the contents of every paragraph in each cell of the table.
+ int index = 0;
+
+ Iterator e = nodeList.iterator();
+ while (e.hasNext()) {
+     Node currentNode = e.next();
+     System.out.println(MessageFormat.format("Table paragraph index {0}, contents: \"{1}\"", index++, currentNode.getText().trim()));
+ }
+
+ // This expression will select any paragraphs that are direct children of any Body node in the document.
+ nodeList = doc.selectNodes("//Body/Paragraph");
+
+ // We can treat the list as an array.
+ Assert.assertEquals(nodeList.toArray().length, 4);
+
+ // Use SelectSingleNode to select the first result of the same expression as above.
+ Node node = doc.selectSingleNode("//Body/Paragraph");
+
+ Assert.assertEquals(Paragraph.class, node.getClass());
+ 
+```
 ### selectSingleNode(String xpath) {#selectSingleNode-java.lang.String}
 ```
 public Node selectSingleNode(String xpath)
@@ -2000,6 +6366,8 @@ public Node selectSingleNode(String xpath)
 
 
 Selects the first [Node](../../com.aspose.words/node/) that matches the XPath expression.
+
+ **Remarks:** 
 
 Only expressions with element names are supported at the moment. Expressions that use attribute names are not supported.
 
@@ -2010,6 +6378,40 @@ Only expressions with element names are supported at the moment. Expressions tha
 
 **Returns:**
 [Node](../../com.aspose.words/node/) - The first [Node](../../com.aspose.words/node/) that matches the XPath query or  null  if no matching node is found.
+
+ **Examples:** 
+
+Shows how to select certain nodes by using an XPath expression.
+
+```
+
+ Document doc = new Document(getMyDir() + "Tables.docx");
+
+ // This expression will extract all paragraph nodes,
+ // which are descendants of any table node in the document.
+ NodeList nodeList = doc.selectNodes("//Table//Paragraph");
+
+ // Iterate through the list with an enumerator and print the contents of every paragraph in each cell of the table.
+ int index = 0;
+
+ Iterator e = nodeList.iterator();
+ while (e.hasNext()) {
+     Node currentNode = e.next();
+     System.out.println(MessageFormat.format("Table paragraph index {0}, contents: \"{1}\"", index++, currentNode.getText().trim()));
+ }
+
+ // This expression will select any paragraphs that are direct children of any Body node in the document.
+ nodeList = doc.selectNodes("//Body/Paragraph");
+
+ // We can treat the list as an array.
+ Assert.assertEquals(nodeList.toArray().length, 4);
+
+ // Use SelectSingleNode to select the first result of the same expression as above.
+ Node node = doc.selectSingleNode("//Body/Paragraph");
+
+ Assert.assertEquals(Paragraph.class, node.getClass());
+ 
+```
 ### setAllowOverlap(boolean value) {#setAllowOverlap-boolean}
 ```
 public void setAllowOverlap(boolean value)
@@ -2018,11 +6420,39 @@ public void setAllowOverlap(boolean value)
 
 Sets a value that specifies whether this shape can overlap other shapes.
 
+ **Remarks:** 
+
 This property affects behavior of the shape in Microsoft Word. Aspose.Words ignores the value of this property.
 
 This property is applicable only to top level shapes.
 
 The default value is  true .
+
+ **Examples:** 
+
+Shows how to work with floating tables properties.
+
+```
+
+ Document doc = new Document(getMyDir() + "Table wrapped by text.docx");
+
+ Table table = doc.getFirstSection().getBody().getTables().get(0);
+
+ if (table.getTextWrapping() == TextWrapping.AROUND) {
+     Assert.assertEquals(RelativeHorizontalPosition.MARGIN, table.getHorizontalAnchor());
+     Assert.assertEquals(RelativeVerticalPosition.PARAGRAPH, table.getVerticalAnchor());
+     Assert.assertEquals(false, table.getAllowOverlap());
+
+     // Only Margin, Page, Column available in RelativeHorizontalPosition for HorizontalAnchor setter.
+     // The ArgumentException will be thrown for any other values.
+     table.setHorizontalAnchor(RelativeHorizontalPosition.COLUMN);
+
+     // Only Margin, Page, Paragraph available in RelativeVerticalPosition for VerticalAnchor setter.
+     // The ArgumentException will be thrown for any other values.
+     table.setVerticalAnchor(RelativeVerticalPosition.PAGE);
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2037,7 +6467,32 @@ public void setAlternativeText(String value)
 
 Defines alternative text to be displayed instead of a graphic.
 
+ **Remarks:** 
+
 The default value is an empty string.
+
+ **Examples:** 
+
+Shows how to use a shape's alternative text.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ Shape shape = builder.insertShape(ShapeType.CUBE, 150.0, 150.0);
+ shape.setName("MyCube");
+
+ shape.setAlternativeText("Alt text for MyCube.");
+
+ // We can access the alternative text of a shape by right-clicking it, and then via "Format AutoShape" -> "Alt Text".
+ doc.save(getArtifactsDir() + "Shape.AltText.docx");
+
+ // Save the document to HTML, and then delete the linked image that belongs to our shape.
+ // The browser that is reading our HTML will display the alt text in place of the missing image.
+ doc.save(getArtifactsDir() + "Shape.AltText.html");
+ new File(getArtifactsDir() + "Shape.AltText.001.png").delete();
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2052,11 +6507,43 @@ public void setAnchorLocked(boolean value)
 
 Specifies whether the shape's anchor is locked.
 
+ **Remarks:** 
+
 The default value is  false .
 
 Has effect only for top level shapes.
 
 This property affects behavior of the shape's anchor in Microsoft Word. When the anchor is not locked, moving the shape in Microsoft Word can move the shape's anchor too.
+
+ **Examples:** 
+
+Shows how to lock or unlock a shape's paragraph anchor.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Hello world!");
+
+ builder.write("Our shape will have an anchor attached to this paragraph.");
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 200.0, 160.0);
+ shape.setWrapType(WrapType.NONE);
+ builder.insertBreak(BreakType.PARAGRAPH_BREAK);
+
+ builder.writeln("Hello again!");
+
+ // Set the "AnchorLocked" property to "true" to prevent the shape's anchor
+ // from moving when moving the shape in Microsoft Word.
+ // Set the "AnchorLocked" property to "false" to allow any movement of the shape
+ // to also move its anchor to any other paragraph that the shape ends up close to.
+ shape.setAnchorLocked(anchorLocked);
+
+ // If the shape does not have a visible anchor symbol to its left,
+ // we will need to enable visible anchors via "Options" -> "Display" -> "Object Anchors".
+ doc.save(getArtifactsDir() + "Shape.AnchorLocked.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2071,9 +6558,35 @@ public void setAspectRatioLocked(boolean value)
 
 Specifies whether the shape's aspect ratio is locked.
 
+ **Remarks:** 
+
 The default value depends on the [ShapeType](../../com.aspose.words/shapetype/), for the [ShapeType.IMAGE](../../com.aspose.words/shapetype/\#IMAGE) it is  true  but for the other shape types it is  false .
 
 Has effect for top level shapes only.
+
+ **Examples:** 
+
+Shows how to lock/unlock a shape's aspect ratio.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a shape. If we open this document in Microsoft Word, we can left click the shape to reveal
+ // eight sizing handles around its perimeter, which we can click and drag to change its size.
+ Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
+
+ // Set the "AspectRatioLocked" property to "true" to preserve the shape's aspect ratio
+ // when using any of the four diagonal sizing handles, which change both the image's height and width.
+ // Using any orthogonal sizing handles that either change the height or width will still change the aspect ratio.
+ // Set the "AspectRatioLocked" property to "false" to allow us to
+ // freely change the image's aspect ratio with all sizing handles.
+ shape.setAspectRatioLocked(lockAspectRatio);
+
+ doc.save(getArtifactsDir() + "Shape.AspectRatio.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2088,9 +6601,33 @@ public void setBehindText(boolean value)
 
 Specifies whether the shape is below or above text.
 
+ **Remarks:** 
+
 Has effect only for top level shapes.
 
 The default value is  false .
+
+ **Examples:** 
+
+Shows how to insert a floating image to the center of a page.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a floating image that will appear behind the overlapping text and align it to the page's center.
+ Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
+ shape.setWrapType(WrapType.NONE);
+ shape.setBehindText(true);
+ shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
+ shape.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
+ shape.setHorizontalAlignment(HorizontalAlignment.CENTER);
+ shape.setVerticalAlignment(VerticalAlignment.CENTER);
+
+ doc.save(getArtifactsDir() + "Image.CreateFloatingPageCenter.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2103,11 +6640,175 @@ public void setBounds(Rectangle2D.Float value)
 ```
 
 
-Sets the location and size of the containing block of the shape. Ignores aspect ratio lock upon setting.
+Sets the location and size of the containing block of the shape.
+
+ **Remarks:** 
+
+Ignores aspect ratio lock upon setting.
+
+ **Remarks:** 
 
 For a top-level shape, the value is in points and relative to the shape anchor.
 
 For shapes in a group, the value is in the coordinate space and units of the parent group.
+
+ **Examples:** 
+
+Shows how to verify shape containing block boundaries.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertShape(ShapeType.LINE, RelativeHorizontalPosition.LEFT_MARGIN, 50.0,
+         RelativeVerticalPosition.TOP_MARGIN, 50.0, 100.0, 100.0, WrapType.NONE);
+ shape.setStrokeColor(Color.ORANGE);
+
+ // Even though the line itself takes up little space on the document page,
+ // it occupies a rectangular containing block, the size of which we can determine using the "Bounds" properties.
+ Assert.assertEquals(new Rectangle2D.Float(50f, 50f, 100f, 100f), shape.getBounds());
+ Assert.assertEquals(new Rectangle2D.Float(50f, 50f, 100f, 100f), shape.getBoundsInPoints());
+
+ // Create a group shape, and then set the size of its containing block using the "Bounds" property.
+ GroupShape group = new GroupShape(doc);
+ group.setBounds(new Rectangle2D.Float(0f, 100f, 250f, 250f));
+
+ Assert.assertEquals(new Rectangle2D.Float(0f, 100f, 250f, 250f), group.getBoundsInPoints());
+
+ // Create a rectangle, verify the size of its bounding block, and then add it to the group shape.
+ shape = new Shape(doc, ShapeType.RECTANGLE);
+ {
+     shape.setWidth(100.0);
+     shape.setHeight(100.0);
+     shape.setLeft(700.0);
+     shape.setTop(700.0);
+ }
+
+ Assert.assertEquals(new Rectangle2D.Float(700f, 700f, 100f, 100f), shape.getBoundsInPoints());
+
+ group.appendChild(shape);
+
+ // The group shape's coordinate plane has its origin on the top left-hand side corner of its containing block,
+ // and the x and y coordinates of (1000, 1000) on the bottom right-hand side corner.
+ // Our group shape is 250x250pt in size, so every 4pt on the group shape's coordinate plane
+ // translates to 1pt in the document body's coordinate plane.
+ // Every shape that we insert will also shrink in size by a factor of 4.
+ // The change in the shape's "BoundsInPoints" property will reflect this.
+ Assert.assertEquals(new Rectangle2D.Float(175f, 275f, 25f, 25f), shape.getBoundsInPoints());
+
+ doc.getFirstSection().getBody().getFirstParagraph().appendChild(group);
+
+ // Insert a shape and place it outside of the bounds of the group shape's containing block.
+ shape = new Shape(doc, ShapeType.RECTANGLE);
+ {
+     shape.setWidth(100.0);
+     shape.setHeight(100.0);
+     shape.setLeft(1000.0);
+     shape.setTop(1000.0);
+ }
+
+ group.appendChild(shape);
+
+ // The group shape's footprint in the document body has increased, but the containing block remains the same.
+ Assert.assertEquals(new Rectangle2D.Float(0f, 100f, 250f, 250f), group.getBoundsInPoints());
+ Assert.assertEquals(new Rectangle2D.Float(250f, 350f, 25f, 25f), shape.getBoundsInPoints());
+
+ doc.save(getArtifactsDir() + "Shape.Bounds.docx");
+ 
+```
+
+Shows how to create and populate a group shape.
+
+```
+
+ Document doc = new Document();
+
+ // Create a group shape. A group shape can display a collection of child shape nodes.
+ // In Microsoft Word, clicking within the group shape's boundary or on one of the group shape's child shapes will
+ // select all the other child shapes within this group and allow us to scale and move all the shapes at once.
+ GroupShape group = new GroupShape(doc);
+
+ Assert.assertEquals(WrapType.NONE, group.getWrapType());
+
+ // Create a 400pt x 400pt group shape and place it at the document's floating shape coordinate origin.
+ group.setBounds(new Rectangle2D.Float(0f, 0f, 400f, 400f));
+
+ // Set the group's internal coordinate plane size to 500 x 500pt.
+ // The top left corner of the group will have an x and y coordinate of (0, 0),
+ // and the bottom right corner will have an x and y coordinate of (500, 500).
+ group.setCoordSize(new Dimension(500, 500));
+
+ // Set the coordinates of the top left corner of the group to (-250, -250).
+ // The group's center will now have an x and y coordinate value of (0, 0),
+ // and the bottom right corner will be at (250, 250).
+ group.setCoordOrigin(new Point(-250, -250));
+
+ Shape rectangleShape = new Shape(doc, ShapeType.RECTANGLE);
+ rectangleShape.setWidth(group.getCoordSize().width);
+ rectangleShape.setHeight(group.getCoordSize().height);
+ rectangleShape.setLeft(group.getCoordOrigin().x);
+ rectangleShape.setTop(group.getCoordOrigin().y);
+
+ // Create a rectangle that will display the boundary of this group shape and add it to the group.
+ group.appendChild(rectangleShape);
+
+ // Once a shape is a part of a group shape, we can access it as a child node and then modify it.
+ ((Shape) group.getChild(NodeType.SHAPE, 0, true)).getStroke().setDashStyle(DashStyle.DASH);
+
+ Shape starShape = new Shape(doc, ShapeType.STAR);
+ starShape.setWidth(20.0);
+ starShape.setHeight(20.0);
+ starShape.setLeft(-10);
+ starShape.setTop(-10);
+ starShape.setFillColor(Color.RED);
+
+ // Create a small red star and insert it into the group.
+ // Line up the shape with the group's coordinate origin, which we have moved to the center.
+ group.appendChild(starShape);
+
+ rectangleShape = new Shape(doc, ShapeType.RECTANGLE);
+ rectangleShape.setWidth(250.0);
+ rectangleShape.setHeight(250.0);
+ rectangleShape.setLeft(-250);
+ rectangleShape.setTop(-250);
+ rectangleShape.setFillColor(Color.BLUE);
+
+ // Insert a rectangle, and then insert a slightly smaller rectangle in the same place with an image.
+ // Newer shapes that we add to the group overlap older shapes. The light blue rectangle will partially overlap the red star,
+ // and then the shape with the image will overlap the light blue rectangle, using it as a frame.
+ // We cannot use the "ZOrder" properties of shapes to manipulate their arrangement within a group shape.
+ group.appendChild(rectangleShape);
+
+ Shape imageShape = new Shape(doc, ShapeType.IMAGE);
+ imageShape.setWidth(200.0);
+ imageShape.setHeight(200.0);
+ imageShape.setLeft(-225);
+ imageShape.setTop(-225);
+
+ group.appendChild(imageShape);
+
+ ((Shape) group.getChild(NodeType.SHAPE, 3, true)).getImageData().setImage(getImageDir() + "Logo.jpg");
+
+ Shape textboxShape = new Shape(doc, ShapeType.TEXT_BOX);
+ textboxShape.setWidth(200.0);
+ textboxShape.setHeight(50.0);
+ textboxShape.setLeft(group.getCoordSize().width + new Point(group.getCoordOrigin()).x - 200);
+ textboxShape.setTop(group.getCoordSize().height + new Point(group.getCoordOrigin()).y);
+
+ // Insert a text box into the group shape. Set the "Left" property so that the text box's right edge
+ // touches the right boundary of the group shape. Set the "Top" property so that the text box sits outside
+ // the boundary of the group shape, with its top size lined up along the group shape's bottom margin.
+ group.appendChild(textboxShape);
+
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.insertNode(group);
+ builder.moveTo(((Shape) group.getChild(NodeType.SHAPE, 4, true)).appendChild(new Paragraph(doc)));
+ builder.write("Hello world!");
+
+ doc.save(getArtifactsDir() + "Shape.GroupShape.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2122,7 +6823,156 @@ public void setCoordOrigin(Point value)
 
 The coordinates at the top-left corner of the containing block of this shape.
 
+ **Remarks:** 
+
 The default value is (0,0).
+
+ **Examples:** 
+
+Shows how to translate the x and y coordinate location on a shape's coordinate plane to a location on the parent shape's coordinate plane.
+
+```
+
+ Document doc = new Document();
+
+ // Insert a group shape, and place it 100 points below and to the right of
+ // the document's x and Y coordinate origin point.
+ GroupShape group = new GroupShape(doc);
+ group.setBounds(new Rectangle2D.Float(100f, 100f, 500f, 500f));
+
+ // Use the "LocalToParent" method to determine that (0, 0) on the group's internal x and y coordinates
+ // lies on (100, 100) of its parent shape's coordinate system. The group shape's parent is the document itself.
+ Assert.assertEquals(new Point2D.Float(100f, 100f), group.localToParent(new Point2D.Float(0f, 0f)));
+
+ // By default, a shape's internal coordinate plane has the top left corner at (0, 0),
+ // and the bottom right corner at (1000, 1000). Due to its size, our group shape covers an area of 500pt x 500pt
+ // in the document's plane. This means that a movement of 1pt on the document's coordinate plane will translate
+ // to a movement of 2pts on the group shape's coordinate plane.
+ Assert.assertEquals(new Point2D.Float(150f, 150f), group.localToParent(new Point2D.Float(100f, 100f)));
+ Assert.assertEquals(new Point2D.Float(200f, 200f), group.localToParent(new Point2D.Float(200f, 200f)));
+ Assert.assertEquals(new Point2D.Float(250f, 250f), group.localToParent(new Point2D.Float(300f, 300f)));
+
+ // Move the group shape's x and y axis origin from the top left corner to the center.
+ // This will offset the group's internal coordinates relative to the document's coordinates even further.
+ group.setCoordOrigin(new Point(-250, -250));
+
+ Assert.assertEquals(new Point2D.Float(375f, 375f), group.localToParent(new Point2D.Float(300f, 300f)));
+
+ // Changing the scale of the coordinate plane will also affect relative locations.
+ group.setCoordSize(new Dimension(500, 500));
+
+ Assert.assertEquals(new Point2D.Float(650f, 650f), group.localToParent(new Point2D.Float(300f, 300f)));
+
+ // If we wish to add a shape to this group while defining its location based on a location in the document,
+ // we will need to first confirm a location in the group shape that will match the document's location.
+ Assert.assertEquals(new Point2D.Float(700f, 700f), group.localToParent(new Point2D.Float(350f, 350f)));
+
+ Shape shape = new Shape(doc, ShapeType.RECTANGLE);
+ {
+     shape.setWidth(100.0);
+     shape.setHeight(100.0);
+     shape.setLeft(700.0);
+     shape.setTop(700.0);
+ }
+
+ group.appendChild(shape);
+ doc.getFirstSection().getBody().getFirstParagraph().appendChild(group);
+
+ doc.save(getArtifactsDir() + "Shape.LocalToParent.docx");
+ 
+```
+
+Shows how to create and populate a group shape.
+
+```
+
+ Document doc = new Document();
+
+ // Create a group shape. A group shape can display a collection of child shape nodes.
+ // In Microsoft Word, clicking within the group shape's boundary or on one of the group shape's child shapes will
+ // select all the other child shapes within this group and allow us to scale and move all the shapes at once.
+ GroupShape group = new GroupShape(doc);
+
+ Assert.assertEquals(WrapType.NONE, group.getWrapType());
+
+ // Create a 400pt x 400pt group shape and place it at the document's floating shape coordinate origin.
+ group.setBounds(new Rectangle2D.Float(0f, 0f, 400f, 400f));
+
+ // Set the group's internal coordinate plane size to 500 x 500pt.
+ // The top left corner of the group will have an x and y coordinate of (0, 0),
+ // and the bottom right corner will have an x and y coordinate of (500, 500).
+ group.setCoordSize(new Dimension(500, 500));
+
+ // Set the coordinates of the top left corner of the group to (-250, -250).
+ // The group's center will now have an x and y coordinate value of (0, 0),
+ // and the bottom right corner will be at (250, 250).
+ group.setCoordOrigin(new Point(-250, -250));
+
+ Shape rectangleShape = new Shape(doc, ShapeType.RECTANGLE);
+ rectangleShape.setWidth(group.getCoordSize().width);
+ rectangleShape.setHeight(group.getCoordSize().height);
+ rectangleShape.setLeft(group.getCoordOrigin().x);
+ rectangleShape.setTop(group.getCoordOrigin().y);
+
+ // Create a rectangle that will display the boundary of this group shape and add it to the group.
+ group.appendChild(rectangleShape);
+
+ // Once a shape is a part of a group shape, we can access it as a child node and then modify it.
+ ((Shape) group.getChild(NodeType.SHAPE, 0, true)).getStroke().setDashStyle(DashStyle.DASH);
+
+ Shape starShape = new Shape(doc, ShapeType.STAR);
+ starShape.setWidth(20.0);
+ starShape.setHeight(20.0);
+ starShape.setLeft(-10);
+ starShape.setTop(-10);
+ starShape.setFillColor(Color.RED);
+
+ // Create a small red star and insert it into the group.
+ // Line up the shape with the group's coordinate origin, which we have moved to the center.
+ group.appendChild(starShape);
+
+ rectangleShape = new Shape(doc, ShapeType.RECTANGLE);
+ rectangleShape.setWidth(250.0);
+ rectangleShape.setHeight(250.0);
+ rectangleShape.setLeft(-250);
+ rectangleShape.setTop(-250);
+ rectangleShape.setFillColor(Color.BLUE);
+
+ // Insert a rectangle, and then insert a slightly smaller rectangle in the same place with an image.
+ // Newer shapes that we add to the group overlap older shapes. The light blue rectangle will partially overlap the red star,
+ // and then the shape with the image will overlap the light blue rectangle, using it as a frame.
+ // We cannot use the "ZOrder" properties of shapes to manipulate their arrangement within a group shape.
+ group.appendChild(rectangleShape);
+
+ Shape imageShape = new Shape(doc, ShapeType.IMAGE);
+ imageShape.setWidth(200.0);
+ imageShape.setHeight(200.0);
+ imageShape.setLeft(-225);
+ imageShape.setTop(-225);
+
+ group.appendChild(imageShape);
+
+ ((Shape) group.getChild(NodeType.SHAPE, 3, true)).getImageData().setImage(getImageDir() + "Logo.jpg");
+
+ Shape textboxShape = new Shape(doc, ShapeType.TEXT_BOX);
+ textboxShape.setWidth(200.0);
+ textboxShape.setHeight(50.0);
+ textboxShape.setLeft(group.getCoordSize().width + new Point(group.getCoordOrigin()).x - 200);
+ textboxShape.setTop(group.getCoordSize().height + new Point(group.getCoordOrigin()).y);
+
+ // Insert a text box into the group shape. Set the "Left" property so that the text box's right edge
+ // touches the right boundary of the group shape. Set the "Top" property so that the text box sits outside
+ // the boundary of the group shape, with its top size lined up along the group shape's bottom margin.
+ group.appendChild(textboxShape);
+
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.insertNode(group);
+ builder.moveTo(((Shape) group.getChild(NodeType.SHAPE, 4, true)).appendChild(new Paragraph(doc)));
+ builder.write("Hello world!");
+
+ doc.save(getArtifactsDir() + "Shape.GroupShape.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2137,7 +6987,156 @@ public void setCoordSize(Dimension value)
 
 The width and height of the coordinate space inside the containing block of this shape.
 
+ **Remarks:** 
+
 The default value is (1000, 1000).
+
+ **Examples:** 
+
+Shows how to translate the x and y coordinate location on a shape's coordinate plane to a location on the parent shape's coordinate plane.
+
+```
+
+ Document doc = new Document();
+
+ // Insert a group shape, and place it 100 points below and to the right of
+ // the document's x and Y coordinate origin point.
+ GroupShape group = new GroupShape(doc);
+ group.setBounds(new Rectangle2D.Float(100f, 100f, 500f, 500f));
+
+ // Use the "LocalToParent" method to determine that (0, 0) on the group's internal x and y coordinates
+ // lies on (100, 100) of its parent shape's coordinate system. The group shape's parent is the document itself.
+ Assert.assertEquals(new Point2D.Float(100f, 100f), group.localToParent(new Point2D.Float(0f, 0f)));
+
+ // By default, a shape's internal coordinate plane has the top left corner at (0, 0),
+ // and the bottom right corner at (1000, 1000). Due to its size, our group shape covers an area of 500pt x 500pt
+ // in the document's plane. This means that a movement of 1pt on the document's coordinate plane will translate
+ // to a movement of 2pts on the group shape's coordinate plane.
+ Assert.assertEquals(new Point2D.Float(150f, 150f), group.localToParent(new Point2D.Float(100f, 100f)));
+ Assert.assertEquals(new Point2D.Float(200f, 200f), group.localToParent(new Point2D.Float(200f, 200f)));
+ Assert.assertEquals(new Point2D.Float(250f, 250f), group.localToParent(new Point2D.Float(300f, 300f)));
+
+ // Move the group shape's x and y axis origin from the top left corner to the center.
+ // This will offset the group's internal coordinates relative to the document's coordinates even further.
+ group.setCoordOrigin(new Point(-250, -250));
+
+ Assert.assertEquals(new Point2D.Float(375f, 375f), group.localToParent(new Point2D.Float(300f, 300f)));
+
+ // Changing the scale of the coordinate plane will also affect relative locations.
+ group.setCoordSize(new Dimension(500, 500));
+
+ Assert.assertEquals(new Point2D.Float(650f, 650f), group.localToParent(new Point2D.Float(300f, 300f)));
+
+ // If we wish to add a shape to this group while defining its location based on a location in the document,
+ // we will need to first confirm a location in the group shape that will match the document's location.
+ Assert.assertEquals(new Point2D.Float(700f, 700f), group.localToParent(new Point2D.Float(350f, 350f)));
+
+ Shape shape = new Shape(doc, ShapeType.RECTANGLE);
+ {
+     shape.setWidth(100.0);
+     shape.setHeight(100.0);
+     shape.setLeft(700.0);
+     shape.setTop(700.0);
+ }
+
+ group.appendChild(shape);
+ doc.getFirstSection().getBody().getFirstParagraph().appendChild(group);
+
+ doc.save(getArtifactsDir() + "Shape.LocalToParent.docx");
+ 
+```
+
+Shows how to create and populate a group shape.
+
+```
+
+ Document doc = new Document();
+
+ // Create a group shape. A group shape can display a collection of child shape nodes.
+ // In Microsoft Word, clicking within the group shape's boundary or on one of the group shape's child shapes will
+ // select all the other child shapes within this group and allow us to scale and move all the shapes at once.
+ GroupShape group = new GroupShape(doc);
+
+ Assert.assertEquals(WrapType.NONE, group.getWrapType());
+
+ // Create a 400pt x 400pt group shape and place it at the document's floating shape coordinate origin.
+ group.setBounds(new Rectangle2D.Float(0f, 0f, 400f, 400f));
+
+ // Set the group's internal coordinate plane size to 500 x 500pt.
+ // The top left corner of the group will have an x and y coordinate of (0, 0),
+ // and the bottom right corner will have an x and y coordinate of (500, 500).
+ group.setCoordSize(new Dimension(500, 500));
+
+ // Set the coordinates of the top left corner of the group to (-250, -250).
+ // The group's center will now have an x and y coordinate value of (0, 0),
+ // and the bottom right corner will be at (250, 250).
+ group.setCoordOrigin(new Point(-250, -250));
+
+ Shape rectangleShape = new Shape(doc, ShapeType.RECTANGLE);
+ rectangleShape.setWidth(group.getCoordSize().width);
+ rectangleShape.setHeight(group.getCoordSize().height);
+ rectangleShape.setLeft(group.getCoordOrigin().x);
+ rectangleShape.setTop(group.getCoordOrigin().y);
+
+ // Create a rectangle that will display the boundary of this group shape and add it to the group.
+ group.appendChild(rectangleShape);
+
+ // Once a shape is a part of a group shape, we can access it as a child node and then modify it.
+ ((Shape) group.getChild(NodeType.SHAPE, 0, true)).getStroke().setDashStyle(DashStyle.DASH);
+
+ Shape starShape = new Shape(doc, ShapeType.STAR);
+ starShape.setWidth(20.0);
+ starShape.setHeight(20.0);
+ starShape.setLeft(-10);
+ starShape.setTop(-10);
+ starShape.setFillColor(Color.RED);
+
+ // Create a small red star and insert it into the group.
+ // Line up the shape with the group's coordinate origin, which we have moved to the center.
+ group.appendChild(starShape);
+
+ rectangleShape = new Shape(doc, ShapeType.RECTANGLE);
+ rectangleShape.setWidth(250.0);
+ rectangleShape.setHeight(250.0);
+ rectangleShape.setLeft(-250);
+ rectangleShape.setTop(-250);
+ rectangleShape.setFillColor(Color.BLUE);
+
+ // Insert a rectangle, and then insert a slightly smaller rectangle in the same place with an image.
+ // Newer shapes that we add to the group overlap older shapes. The light blue rectangle will partially overlap the red star,
+ // and then the shape with the image will overlap the light blue rectangle, using it as a frame.
+ // We cannot use the "ZOrder" properties of shapes to manipulate their arrangement within a group shape.
+ group.appendChild(rectangleShape);
+
+ Shape imageShape = new Shape(doc, ShapeType.IMAGE);
+ imageShape.setWidth(200.0);
+ imageShape.setHeight(200.0);
+ imageShape.setLeft(-225);
+ imageShape.setTop(-225);
+
+ group.appendChild(imageShape);
+
+ ((Shape) group.getChild(NodeType.SHAPE, 3, true)).getImageData().setImage(getImageDir() + "Logo.jpg");
+
+ Shape textboxShape = new Shape(doc, ShapeType.TEXT_BOX);
+ textboxShape.setWidth(200.0);
+ textboxShape.setHeight(50.0);
+ textboxShape.setLeft(group.getCoordSize().width + new Point(group.getCoordOrigin()).x - 200);
+ textboxShape.setTop(group.getCoordSize().height + new Point(group.getCoordOrigin()).y);
+
+ // Insert a text box into the group shape. Set the "Left" property so that the text box's right edge
+ // touches the right boundary of the group shape. Set the "Top" property so that the text box sits outside
+ // the boundary of the group shape, with its top size lined up along the group shape's bottom margin.
+ group.appendChild(textboxShape);
+
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.insertNode(group);
+ builder.moveTo(((Shape) group.getChild(NodeType.SHAPE, 4, true)).appendChild(new Paragraph(doc)));
+ builder.write("Hello world!");
+
+ doc.save(getArtifactsDir() + "Shape.GroupShape.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2152,11 +7151,56 @@ public void setCustomNodeId(int value)
 
 Specifies custom node identifier.
 
+ **Remarks:** 
+
 Default is zero.
 
 This identifier can be set and used arbitrarily. For example, as a key to get external data.
 
 Important note, specified value is not saved to an output file and exists only during the node lifetime.
+
+ **Examples:** 
+
+Shows how to traverse through a composite node's collection of child nodes.
+
+```
+
+ Document doc = new Document();
+
+ // Add two runs and one shape as child nodes to the first paragraph of this document.
+ Paragraph paragraph = (Paragraph) doc.getChild(NodeType.PARAGRAPH, 0, true);
+ paragraph.appendChild(new Run(doc, "Hello world! "));
+
+ Shape shape = new Shape(doc, ShapeType.RECTANGLE);
+ shape.setWidth(200.0);
+ shape.setHeight(200.0);
+ // Note that the 'CustomNodeId' is not saved to an output file and exists only during the node lifetime.
+ shape.setCustomNodeId(100);
+ shape.setWrapType(WrapType.INLINE);
+ paragraph.appendChild(shape);
+
+ paragraph.appendChild(new Run(doc, "Hello again!"));
+
+ // Iterate through the paragraph's collection of immediate children,
+ // and print any runs or shapes that we find within.
+ NodeCollection children = paragraph.getChildNodes();
+
+ Assert.assertEquals(3, paragraph.getChildNodes().getCount());
+
+ for (Node child : (Iterable) children)
+     switch (child.getNodeType()) {
+         case NodeType.RUN:
+             System.out.println("Run contents:");
+             System.out.println("\t\"{child.GetText().Trim()}\"");
+             break;
+         case NodeType.SHAPE:
+             Shape childShape = (Shape) child;
+             System.out.println("Shape:");
+             System.out.println("\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
+             break;
+     }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2171,9 +7215,44 @@ public void setDistanceBottom(double value)
 
 Sets the distance (in points) between the document text and the bottom edge of the shape.
 
+ **Remarks:** 
+
 The default value is 0.
 
 Has effect only for top level shapes.
+
+ **Examples:** 
+
+Shows how to set the wrapping distance for a text that surrounds a shape.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a rectangle and, get the text to wrap tightly around its bounds.
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 150.0, 150.0);
+ shape.setWrapType(WrapType.TIGHT);
+
+ // Set the minimum distance between the shape and surrounding text to 40pt from all sides.
+ shape.setDistanceTop(40.0);
+ shape.setDistanceBottom(40.0);
+ shape.setDistanceLeft(40.0);
+ shape.setDistanceRight(40.0);
+
+ // Move the shape closer to the center of the page, and then rotate the shape 60 degrees clockwise.
+ shape.setTop(75.0);
+ shape.setLeft(150.0);
+ shape.setRotation(60.0);
+
+ // Add text that will wrap around the shape.
+ builder.getFont().setSize(24.0d);
+ builder.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " +
+         "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.");
+
+ doc.save(getArtifactsDir() + "Shape.Coordinates.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2188,9 +7267,44 @@ public void setDistanceLeft(double value)
 
 Sets the distance (in points) between the document text and the left edge of the shape.
 
+ **Remarks:** 
+
 The default value is 1/8 inch.
 
 Has effect only for top level shapes.
+
+ **Examples:** 
+
+Shows how to set the wrapping distance for a text that surrounds a shape.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a rectangle and, get the text to wrap tightly around its bounds.
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 150.0, 150.0);
+ shape.setWrapType(WrapType.TIGHT);
+
+ // Set the minimum distance between the shape and surrounding text to 40pt from all sides.
+ shape.setDistanceTop(40.0);
+ shape.setDistanceBottom(40.0);
+ shape.setDistanceLeft(40.0);
+ shape.setDistanceRight(40.0);
+
+ // Move the shape closer to the center of the page, and then rotate the shape 60 degrees clockwise.
+ shape.setTop(75.0);
+ shape.setLeft(150.0);
+ shape.setRotation(60.0);
+
+ // Add text that will wrap around the shape.
+ builder.getFont().setSize(24.0d);
+ builder.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " +
+         "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.");
+
+ doc.save(getArtifactsDir() + "Shape.Coordinates.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2205,9 +7319,44 @@ public void setDistanceRight(double value)
 
 Sets the distance (in points) between the document text and the right edge of the shape.
 
+ **Remarks:** 
+
 The default value is 1/8 inch.
 
 Has effect only for top level shapes.
+
+ **Examples:** 
+
+Shows how to set the wrapping distance for a text that surrounds a shape.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a rectangle and, get the text to wrap tightly around its bounds.
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 150.0, 150.0);
+ shape.setWrapType(WrapType.TIGHT);
+
+ // Set the minimum distance between the shape and surrounding text to 40pt from all sides.
+ shape.setDistanceTop(40.0);
+ shape.setDistanceBottom(40.0);
+ shape.setDistanceLeft(40.0);
+ shape.setDistanceRight(40.0);
+
+ // Move the shape closer to the center of the page, and then rotate the shape 60 degrees clockwise.
+ shape.setTop(75.0);
+ shape.setLeft(150.0);
+ shape.setRotation(60.0);
+
+ // Add text that will wrap around the shape.
+ builder.getFont().setSize(24.0d);
+ builder.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " +
+         "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.");
+
+ doc.save(getArtifactsDir() + "Shape.Coordinates.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2222,9 +7371,44 @@ public void setDistanceTop(double value)
 
 Sets the distance (in points) between the document text and the top edge of the shape.
 
+ **Remarks:** 
+
 The default value is 0.
 
 Has effect only for top level shapes.
+
+ **Examples:** 
+
+Shows how to set the wrapping distance for a text that surrounds a shape.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a rectangle and, get the text to wrap tightly around its bounds.
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 150.0, 150.0);
+ shape.setWrapType(WrapType.TIGHT);
+
+ // Set the minimum distance between the shape and surrounding text to 40pt from all sides.
+ shape.setDistanceTop(40.0);
+ shape.setDistanceBottom(40.0);
+ shape.setDistanceLeft(40.0);
+ shape.setDistanceRight(40.0);
+
+ // Move the shape closer to the center of the page, and then rotate the shape 60 degrees clockwise.
+ shape.setTop(75.0);
+ shape.setLeft(150.0);
+ shape.setRotation(60.0);
+
+ // Add text that will wrap around the shape.
+ builder.getFont().setSize(24.0d);
+ builder.write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " +
+         "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.");
+
+ doc.save(getArtifactsDir() + "Shape.Coordinates.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2356,7 +7540,53 @@ public void setFlipOrientation(int value)
 
 Switches the orientation of a shape.
 
+ **Remarks:** 
+
 The default value is [FlipOrientation.NONE](../../com.aspose.words/fliporientation/\#NONE).
+
+ **Examples:** 
+
+Shows how to flip a shape on an axis.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert an image shape and leave its orientation in its default state.
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, RelativeHorizontalPosition.LEFT_MARGIN, 100.0,
+         RelativeVerticalPosition.TOP_MARGIN, 100.0, 100.0, 100.0, WrapType.NONE);
+ shape.getImageData().setImage(getImageDir() + "Logo.jpg");
+
+ Assert.assertEquals(FlipOrientation.NONE, shape.getFlipOrientation());
+
+ shape = builder.insertShape(ShapeType.RECTANGLE, RelativeHorizontalPosition.LEFT_MARGIN, 250.0,
+         RelativeVerticalPosition.TOP_MARGIN, 100.0, 100.0, 100.0, WrapType.NONE);
+ shape.getImageData().setImage(getImageDir() + "Logo.jpg");
+
+ // Set the "FlipOrientation" property to "FlipOrientation.Horizontal" to flip the second shape on the y-axis,
+ // making it into a horizontal mirror image of the first shape.
+ shape.setFlipOrientation(FlipOrientation.HORIZONTAL);
+
+ shape = builder.insertShape(ShapeType.RECTANGLE, RelativeHorizontalPosition.LEFT_MARGIN, 100.0,
+         RelativeVerticalPosition.TOP_MARGIN, 250.0, 100.0, 100.0, WrapType.NONE);
+ shape.getImageData().setImage(getImageDir() + "Logo.jpg");
+
+ // Set the "FlipOrientation" property to "FlipOrientation.Horizontal" to flip the third shape on the x-axis,
+ // making it into a vertical mirror image of the first shape.
+ shape.setFlipOrientation(FlipOrientation.VERTICAL);
+
+ shape = builder.insertShape(ShapeType.RECTANGLE, RelativeHorizontalPosition.LEFT_MARGIN, 250.0,
+         RelativeVerticalPosition.TOP_MARGIN, 250.0, 100.0, 100.0, WrapType.NONE);
+ shape.getImageData().setImage(getImageDir() + "Logo.jpg");
+
+ // Set the "FlipOrientation" property to "FlipOrientation.Horizontal" to flip the fourth shape on both the x and y axes,
+ // making it into a horizontal and vertical mirror image of the first shape.
+ shape.setFlipOrientation(FlipOrientation.BOTH);
+
+ doc.save(getArtifactsDir() + "Shape.FlipShapeOrientation.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2384,6 +7614,8 @@ public void setHRef(String value)
 
 Sets the full hyperlink address for a shape.
 
+ **Remarks:** 
+
 The default value is an empty string.
 
 Below are examples of valid values for this property:
@@ -2400,6 +7632,26 @@ Bookmark within another document:  https://www.aspose.com/Products/Default.aspx\
 
 Bookmark within this document:  \#BookmakName .
 
+ **Examples:** 
+
+Shows how to insert a shape which contains an image, and is also a hyperlink.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
+ shape.setHRef("https://forum.aspose.com/");
+ shape.setTarget("New Window");
+ shape.setScreenTip("Aspose.Words Support Forums");
+
+ // Ctrl + left-clicking the shape in Microsoft Word will open a new web browser window
+ // and take us to the hyperlink in the "HRef" property.
+ doc.save(getArtifactsDir() + "Image.InsertImageWithHyperlink.docx");
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -2413,16 +7665,114 @@ public void setHeight(double value)
 
 Sets the height of the containing block of the shape.
 
+ **Remarks:** 
+
 For a top-level shape, the value is in points.
 
 For shapes in a group, the value is in the coordinate space and units of the parent group.
 
 The default value is 0.
 
+ **Examples:** 
+
+Shows how to insert a floating image, and specify its position and size.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
+ shape.setWrapType(WrapType.NONE);
+
+ // Configure the shape's "RelativeHorizontalPosition" property to treat the value of the "Left" property
+ // as the shape's horizontal distance, in points, from the left side of the page.
+ shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
+
+ // Set the shape's horizontal distance from the left side of the page to 100.
+ shape.setLeft(100.0);
+
+ // Use the "RelativeVerticalPosition" property in a similar way to position the shape 80pt below the top of the page.
+ shape.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
+ shape.setTop(80.0);
+
+ // Set the shape's height, which will automatically scale the width to preserve dimensions.
+ shape.setHeight(125.0);
+
+ Assert.assertEquals(125.0d, shape.getWidth());
+
+ // The "Bottom" and "Right" properties contain the bottom and right edges of the image.
+ Assert.assertEquals(shape.getTop() + shape.getHeight(), shape.getBottom());
+ Assert.assertEquals(shape.getLeft() + shape.getWidth(), shape.getRight());
+
+ doc.save(getArtifactsDir() + "Image.CreateFloatingPositionSize.docx");
+ 
+```
+
+Shows how to resize a shape with an image.
+
+```
+
+ BufferedImage image = ImageIO.read(new File(getImageDir() + "Logo.jpg"));
+
+ Assert.assertEquals(400, image.getWidth());
+ Assert.assertEquals(400, image.getHeight());
+
+ // When we insert an image using the "InsertImage" method, the builder scales the shape that displays the image so that,
+ // when we view the document using 100% zoom in Microsoft Word, the shape displays the image in its actual size.
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
+
+ // A 400x400 image will create an ImageData object with an image size of 300x300pt.
+ ImageSize imageSize = shape.getImageData().getImageSize();
+
+ Assert.assertEquals(300.0d, imageSize.getWidthPoints());
+ Assert.assertEquals(300.0d, imageSize.getHeightPoints());
+
+ // If a shape's dimensions match the image data's dimensions,
+ // then the shape is displaying the image in its original size.
+ Assert.assertEquals(300.0d, shape.getWidth());
+ Assert.assertEquals(300.0d, shape.getHeight());
+
+ // Reduce the overall size of the shape by 50%.
+ shape.setWidth(shape.getWidth() * 0.5);
+
+ // Scaling factors apply to both the width and the height at the same time to preserve the shape's proportions.
+ Assert.assertEquals(150.0d, shape.getWidth());
+ Assert.assertEquals(150.0d, shape.getHeight());
+
+ // When we resize the shape, the size of the image data remains the same.
+ Assert.assertEquals(300.0d, imageSize.getWidthPoints());
+ Assert.assertEquals(300.0d, imageSize.getHeightPoints());
+
+ // We can reference the image data dimensions to apply a scaling based on the size of the image.
+ shape.setWidth(imageSize.getWidthPoints() * 1.1);
+
+ Assert.assertEquals(330.0d, shape.getWidth());
+ Assert.assertEquals(330.0d, shape.getHeight());
+
+ doc.save(getArtifactsDir() + "Image.ScaleImage.docx");
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double | The height of the containing block of the shape. |
+
+### setHeightRelative(float value) {#setHeightRelative-float}
+```
+public void setHeightRelative(float value)
+```
+
+
+Sets the value that represents the percentage of shape's relative height.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | float | The value that represents the percentage of shape's relative height. |
 
 ### setHorizontalAlignment(int value) {#setHorizontalAlignment-int}
 ```
@@ -2432,9 +7782,33 @@ public void setHorizontalAlignment(int value)
 
 Specifies how the shape is positioned horizontally.
 
+ **Remarks:** 
+
 The default value is [HorizontalAlignment.NONE](../../com.aspose.words/horizontalalignment/\#NONE).
 
 Has effect only for top level floating shapes.
+
+ **Examples:** 
+
+Shows how to insert a floating image to the center of a page.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a floating image that will appear behind the overlapping text and align it to the page's center.
+ Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
+ shape.setWrapType(WrapType.NONE);
+ shape.setBehindText(true);
+ shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
+ shape.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
+ shape.setHorizontalAlignment(HorizontalAlignment.CENTER);
+ shape.setVerticalAlignment(VerticalAlignment.CENTER);
+
+ doc.save(getArtifactsDir() + "Image.CreateFloatingPageCenter.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2462,6 +7836,8 @@ public void setLeft(double value)
 
 Sets the position of the left edge of the containing block of the shape.
 
+ **Remarks:** 
+
 For a top-level shape, the value is in points and relative to the shape anchor.
 
 For shapes in a group, the value is in the coordinate space and units of the parent group.
@@ -2470,10 +7846,59 @@ The default value is 0.
 
 Has effect only for floating shapes.
 
+ **Examples:** 
+
+Shows how to insert a floating image, and specify its position and size.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
+ shape.setWrapType(WrapType.NONE);
+
+ // Configure the shape's "RelativeHorizontalPosition" property to treat the value of the "Left" property
+ // as the shape's horizontal distance, in points, from the left side of the page.
+ shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
+
+ // Set the shape's horizontal distance from the left side of the page to 100.
+ shape.setLeft(100.0);
+
+ // Use the "RelativeVerticalPosition" property in a similar way to position the shape 80pt below the top of the page.
+ shape.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
+ shape.setTop(80.0);
+
+ // Set the shape's height, which will automatically scale the width to preserve dimensions.
+ shape.setHeight(125.0);
+
+ Assert.assertEquals(125.0d, shape.getWidth());
+
+ // The "Bottom" and "Right" properties contain the bottom and right edges of the image.
+ Assert.assertEquals(shape.getTop() + shape.getHeight(), shape.getBottom());
+ Assert.assertEquals(shape.getLeft() + shape.getWidth(), shape.getRight());
+
+ doc.save(getArtifactsDir() + "Image.CreateFloatingPositionSize.docx");
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double | The position of the left edge of the containing block of the shape. |
+
+### setLeftRelative(float value) {#setLeftRelative-float}
+```
+public void setLeftRelative(float value)
+```
+
+
+Sets the value that represents shape's relative left position in percent.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | float | The value that represents shape's relative left position in percent. |
 
 ### setName(String value) {#setName-java.lang.String}
 ```
@@ -2483,18 +7908,43 @@ public void setName(String value)
 
 Sets the optional shape name.
 
+ **Remarks:** 
+
 Default is empty string.
 
 Cannot be  null , but can be an empty string.
+
+ **Examples:** 
+
+Shows how to use a shape's alternative text.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ Shape shape = builder.insertShape(ShapeType.CUBE, 150.0, 150.0);
+ shape.setName("MyCube");
+
+ shape.setAlternativeText("Alt text for MyCube.");
+
+ // We can access the alternative text of a shape by right-clicking it, and then via "Format AutoShape" -> "Alt Text".
+ doc.save(getArtifactsDir() + "Shape.AltText.docx");
+
+ // Save the document to HTML, and then delete the linked image that belongs to our shape.
+ // The browser that is reading our HTML will display the alt text in place of the missing image.
+ doc.save(getArtifactsDir() + "Shape.AltText.html");
+ new File(getArtifactsDir() + "Shape.AltText.001.png").delete();
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | The optional shape name. |
 
-### setOn(boolean value) {#setOn-boolean}
+### setOldOn(boolean value) {#setOldOn-boolean}
 ```
-public void setOn(boolean value)
+public void setOldOn(boolean value)
 ```
 
 
@@ -2505,9 +7955,9 @@ public void setOn(boolean value)
 | --- | --- | --- |
 | value | boolean |  |
 
-### setOpacity(double value) {#setOpacity-double}
+### setOldOpacity(double value) {#setOldOpacity-double}
 ```
-public void setOpacity(double value)
+public void setOldOpacity(double value)
 ```
 
 
@@ -2526,14 +7976,57 @@ public void setRelativeHorizontalPosition(int value)
 
 Specifies relative to what the shape is positioned horizontally.
 
+ **Remarks:** 
+
 The default value is [RelativeHorizontalPosition.COLUMN](../../com.aspose.words/relativehorizontalposition/\#COLUMN).
 
 Has effect only for top level floating shapes.
+
+ **Examples:** 
+
+Shows how to insert a floating image to the center of a page.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a floating image that will appear behind the overlapping text and align it to the page's center.
+ Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
+ shape.setWrapType(WrapType.NONE);
+ shape.setBehindText(true);
+ shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
+ shape.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
+ shape.setHorizontalAlignment(HorizontalAlignment.CENTER);
+ shape.setVerticalAlignment(VerticalAlignment.CENTER);
+
+ doc.save(getArtifactsDir() + "Image.CreateFloatingPageCenter.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | The corresponding  int  value. The value must be one of [RelativeHorizontalPosition](../../com.aspose.words/relativehorizontalposition/) constants. |
+
+### setRelativeHorizontalSize(int value) {#setRelativeHorizontalSize-int}
+```
+public void setRelativeHorizontalSize(int value)
+```
+
+
+Sets the value of shape's relative size in horizontal direction.
+
+ **Remarks:** 
+
+The default value is [RelativeHorizontalSize](../../com.aspose.words/relativehorizontalsize/).
+
+Has effect only if [getWidthRelative()](../../com.aspose.words/shapebase/\#getWidthRelative) / [setWidthRelative(float)](../../com.aspose.words/shapebase/\#setWidthRelative-float) is set.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The value of shape's relative size in horizontal direction. The value must be one of [RelativeHorizontalSize](../../com.aspose.words/relativehorizontalsize/) constants. |
 
 ### setRelativeVerticalPosition(int value) {#setRelativeVerticalPosition-int}
 ```
@@ -2543,14 +8036,57 @@ public void setRelativeVerticalPosition(int value)
 
 Specifies relative to what the shape is positioned vertically.
 
+ **Remarks:** 
+
 The default value is [RelativeVerticalPosition.PARAGRAPH](../../com.aspose.words/relativeverticalposition/\#PARAGRAPH).
 
 Has effect only for top level floating shapes.
+
+ **Examples:** 
+
+Shows how to insert a floating image to the center of a page.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a floating image that will appear behind the overlapping text and align it to the page's center.
+ Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
+ shape.setWrapType(WrapType.NONE);
+ shape.setBehindText(true);
+ shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
+ shape.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
+ shape.setHorizontalAlignment(HorizontalAlignment.CENTER);
+ shape.setVerticalAlignment(VerticalAlignment.CENTER);
+
+ doc.save(getArtifactsDir() + "Image.CreateFloatingPageCenter.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | The corresponding  int  value. The value must be one of [RelativeVerticalPosition](../../com.aspose.words/relativeverticalposition/) constants. |
+
+### setRelativeVerticalSize(int value) {#setRelativeVerticalSize-int}
+```
+public void setRelativeVerticalSize(int value)
+```
+
+
+Sets the value of shape's relative size in vertical direction.
+
+ **Remarks:** 
+
+The default value is [RelativeVerticalSize.MARGIN](../../com.aspose.words/relativeverticalsize/\#MARGIN).
+
+Has effect only if [getHeightRelative()](../../com.aspose.words/shapebase/\#getHeightRelative) / [setHeightRelative(float)](../../com.aspose.words/shapebase/\#setHeightRelative-float) is set.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The value of shape's relative size in vertical direction. The value must be one of [RelativeVerticalSize](../../com.aspose.words/relativeverticalsize/) constants. |
 
 ### setRotateWithObject(boolean value) {#setRotateWithObject-boolean}
 ```
@@ -2573,7 +8109,30 @@ public void setRotation(double value)
 
 Defines the angle (in degrees) that a shape is rotated. Positive value corresponds to clockwise rotation angle.
 
+ **Remarks:** 
+
 The default value is 0.
+
+ **Examples:** 
+
+Shows how to insert and rotate an image.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a shape with an image.
+ Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
+ Assert.assertTrue(shape.canHaveImage());
+ Assert.assertTrue(shape.hasImage());
+
+ // Rotate the image 45 degrees clockwise.
+ shape.setRotation(45.0);
+
+ doc.save(getArtifactsDir() + "Shape.Rotate.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2602,7 +8161,29 @@ public void setScreenTip(String value)
 
 Defines the text displayed when the mouse pointer moves over the shape.
 
+ **Remarks:** 
+
 The default value is an empty string.
+
+ **Examples:** 
+
+Shows how to insert a shape which contains an image, and is also a hyperlink.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
+ shape.setHRef("https://forum.aspose.com/");
+ shape.setTarget("New Window");
+ shape.setScreenTip("Aspose.Words Support Forums");
+
+ // Ctrl + left-clicking the shape in Microsoft Word will open a new web browser window
+ // and take us to the hyperlink in the "HRef" property.
+ doc.save(getArtifactsDir() + "Image.InsertImageWithHyperlink.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2631,7 +8212,29 @@ public void setTarget(String value)
 
 Sets the target frame for the shape hyperlink.
 
+ **Remarks:** 
+
 The default value is an empty string.
+
+ **Examples:** 
+
+Shows how to insert a shape which contains an image, and is also a hyperlink.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
+ shape.setHRef("https://forum.aspose.com/");
+ shape.setTarget("New Window");
+ shape.setScreenTip("Aspose.Words Support Forums");
+
+ // Ctrl + left-clicking the shape in Microsoft Word will open a new web browser window
+ // and take us to the hyperlink in the "HRef" property.
+ doc.save(getArtifactsDir() + "Image.InsertImageWithHyperlink.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2659,9 +8262,40 @@ public void setTitle(String value)
 
 Sets the title (caption) of the current shape object.
 
+ **Remarks:** 
+
 Default is empty string.
 
 Cannot be  null , but can be an empty string.
+
+ **Examples:** 
+
+Shows how to set the title of a shape.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Create a shape, give it a title, and then add it to the document.
+ Shape shape = new Shape(doc, ShapeType.CUBE);
+ shape.setWidth(200.0);
+ shape.setHeight(200.0);
+ shape.setTitle("My cube");
+
+ builder.insertNode(shape);
+
+ // When we save a document with a shape that has a title,
+ // Aspose.Words will store that title in the shape's Alt Text.
+ doc.save(getArtifactsDir() + "Shape.Title.docx");
+
+ doc = new Document(getArtifactsDir() + "Shape.Title.docx");
+ shape = (Shape) doc.getChild(NodeType.SHAPE, 0, true);
+
+ Assert.assertEquals("", shape.getTitle());
+ Assert.assertEquals("Title: My cube", shape.getAlternativeText());
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2676,6 +8310,8 @@ public void setTop(double value)
 
 Sets the position of the top edge of the containing block of the shape.
 
+ **Remarks:** 
+
 For a top-level shape, the value is in points and relative to the shape anchor.
 
 For shapes in a group, the value is in the coordinate space and units of the parent group.
@@ -2684,10 +8320,59 @@ The default value is 0.
 
 Has effect only for floating shapes.
 
+ **Examples:** 
+
+Shows how to insert a floating image, and specify its position and size.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
+ shape.setWrapType(WrapType.NONE);
+
+ // Configure the shape's "RelativeHorizontalPosition" property to treat the value of the "Left" property
+ // as the shape's horizontal distance, in points, from the left side of the page.
+ shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
+
+ // Set the shape's horizontal distance from the left side of the page to 100.
+ shape.setLeft(100.0);
+
+ // Use the "RelativeVerticalPosition" property in a similar way to position the shape 80pt below the top of the page.
+ shape.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
+ shape.setTop(80.0);
+
+ // Set the shape's height, which will automatically scale the width to preserve dimensions.
+ shape.setHeight(125.0);
+
+ Assert.assertEquals(125.0d, shape.getWidth());
+
+ // The "Bottom" and "Right" properties contain the bottom and right edges of the image.
+ Assert.assertEquals(shape.getTop() + shape.getHeight(), shape.getBottom());
+ Assert.assertEquals(shape.getLeft() + shape.getWidth(), shape.getRight());
+
+ doc.save(getArtifactsDir() + "Image.CreateFloatingPositionSize.docx");
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double | The position of the top edge of the containing block of the shape. |
+
+### setTopRelative(float value) {#setTopRelative-float}
+```
+public void setTopRelative(float value)
+```
+
+
+Sets the value that represents shape's relative top position in percent.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | float | The value that represents shape's relative top position in percent. |
 
 ### setVerticalAlignment(int value) {#setVerticalAlignment-int}
 ```
@@ -2697,9 +8382,33 @@ public void setVerticalAlignment(int value)
 
 Specifies how the shape is positioned vertically.
 
+ **Remarks:** 
+
 The default value is [VerticalAlignment.NONE](../../com.aspose.words/verticalalignment/\#NONE).
 
 Has effect only for top level floating shapes.
+
+ **Examples:** 
+
+Shows how to insert a floating image to the center of a page.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a floating image that will appear behind the overlapping text and align it to the page's center.
+ Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
+ shape.setWrapType(WrapType.NONE);
+ shape.setBehindText(true);
+ shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
+ shape.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
+ shape.setHorizontalAlignment(HorizontalAlignment.CENTER);
+ shape.setVerticalAlignment(VerticalAlignment.CENTER);
+
+ doc.save(getArtifactsDir() + "Image.CreateFloatingPageCenter.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2714,16 +8423,114 @@ public void setWidth(double value)
 
 Sets the width of the containing block of the shape.
 
+ **Remarks:** 
+
 For a top-level shape, the value is in points.
 
 For shapes in a group, the value is in the coordinate space and units of the parent group.
 
 The default value is 0.
 
+ **Examples:** 
+
+Shows how to insert a floating image, and specify its position and size.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
+ shape.setWrapType(WrapType.NONE);
+
+ // Configure the shape's "RelativeHorizontalPosition" property to treat the value of the "Left" property
+ // as the shape's horizontal distance, in points, from the left side of the page.
+ shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
+
+ // Set the shape's horizontal distance from the left side of the page to 100.
+ shape.setLeft(100.0);
+
+ // Use the "RelativeVerticalPosition" property in a similar way to position the shape 80pt below the top of the page.
+ shape.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
+ shape.setTop(80.0);
+
+ // Set the shape's height, which will automatically scale the width to preserve dimensions.
+ shape.setHeight(125.0);
+
+ Assert.assertEquals(125.0d, shape.getWidth());
+
+ // The "Bottom" and "Right" properties contain the bottom and right edges of the image.
+ Assert.assertEquals(shape.getTop() + shape.getHeight(), shape.getBottom());
+ Assert.assertEquals(shape.getLeft() + shape.getWidth(), shape.getRight());
+
+ doc.save(getArtifactsDir() + "Image.CreateFloatingPositionSize.docx");
+ 
+```
+
+Shows how to resize a shape with an image.
+
+```
+
+ BufferedImage image = ImageIO.read(new File(getImageDir() + "Logo.jpg"));
+
+ Assert.assertEquals(400, image.getWidth());
+ Assert.assertEquals(400, image.getHeight());
+
+ // When we insert an image using the "InsertImage" method, the builder scales the shape that displays the image so that,
+ // when we view the document using 100% zoom in Microsoft Word, the shape displays the image in its actual size.
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
+
+ // A 400x400 image will create an ImageData object with an image size of 300x300pt.
+ ImageSize imageSize = shape.getImageData().getImageSize();
+
+ Assert.assertEquals(300.0d, imageSize.getWidthPoints());
+ Assert.assertEquals(300.0d, imageSize.getHeightPoints());
+
+ // If a shape's dimensions match the image data's dimensions,
+ // then the shape is displaying the image in its original size.
+ Assert.assertEquals(300.0d, shape.getWidth());
+ Assert.assertEquals(300.0d, shape.getHeight());
+
+ // Reduce the overall size of the shape by 50%.
+ shape.setWidth(shape.getWidth() * 0.5);
+
+ // Scaling factors apply to both the width and the height at the same time to preserve the shape's proportions.
+ Assert.assertEquals(150.0d, shape.getWidth());
+ Assert.assertEquals(150.0d, shape.getHeight());
+
+ // When we resize the shape, the size of the image data remains the same.
+ Assert.assertEquals(300.0d, imageSize.getWidthPoints());
+ Assert.assertEquals(300.0d, imageSize.getHeightPoints());
+
+ // We can reference the image data dimensions to apply a scaling based on the size of the image.
+ shape.setWidth(imageSize.getWidthPoints() * 1.1);
+
+ Assert.assertEquals(330.0d, shape.getWidth());
+ Assert.assertEquals(330.0d, shape.getHeight());
+
+ doc.save(getArtifactsDir() + "Image.ScaleImage.docx");
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double | The width of the containing block of the shape. |
+
+### setWidthRelative(float value) {#setWidthRelative-float}
+```
+public void setWidthRelative(float value)
+```
+
+
+Sets the value that represents the percentage of shape's relative width.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | float | The value that represents the percentage of shape's relative width. |
 
 ### setWrapSide(int value) {#setWrapSide-int}
 ```
@@ -2733,9 +8540,59 @@ public void setWrapSide(int value)
 
 Specifies how the text is wrapped around the shape.
 
+ **Remarks:** 
+
 The default value is [WrapSide.BOTH](../../com.aspose.words/wrapside/\#BOTH).
 
 Has effect only for top level shapes.
+
+ **Examples:** 
+
+Shows how to replace all textbox shapes with image shapes.
+
+```
+
+ Document doc = new Document(getMyDir() + "Textboxes in drawing canvas.docx");
+
+ List shapeList = Arrays.stream(doc.getChildNodes(NodeType.SHAPE, true).toArray())
+         .filter(Shape.class::isInstance)
+         .map(Shape.class::cast)
+         .collect(Collectors.toList());
+
+ Assert.assertEquals(3, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.TEXT_BOX));
+ Assert.assertEquals(1, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.IMAGE));
+
+ for (Shape shape : shapeList) {
+     if (((shape.getShapeType()) == (ShapeType.TEXT_BOX))) {
+         Shape replacementShape = new Shape(doc, ShapeType.IMAGE);
+         replacementShape.getImageData().setImage(getImageDir() + "Logo.jpg");
+         replacementShape.setLeft(shape.getLeft());
+         replacementShape.setTop(shape.getTop());
+         replacementShape.setWidth(shape.getWidth());
+         replacementShape.setHeight(shape.getHeight());
+         replacementShape.setRelativeHorizontalPosition(shape.getRelativeHorizontalPosition());
+         replacementShape.setRelativeVerticalPosition(shape.getRelativeVerticalPosition());
+         replacementShape.setHorizontalAlignment(shape.getHorizontalAlignment());
+         replacementShape.setVerticalAlignment(shape.getVerticalAlignment());
+         replacementShape.setWrapType(shape.getWrapType());
+         replacementShape.setWrapSide(shape.getWrapSide());
+
+         shape.getParentNode().insertAfter(replacementShape, shape);
+         shape.remove();
+     }
+ }
+
+ shapeList = Arrays.stream(doc.getChildNodes(NodeType.SHAPE, true).toArray())
+         .filter(Shape.class::isInstance)
+         .map(Shape.class::cast)
+         .collect(Collectors.toList());
+
+ Assert.assertEquals(0, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.TEXT_BOX));
+ Assert.assertEquals(4, IterableUtils.countMatches(shapeList, s -> s.getShapeType() == ShapeType.IMAGE));
+
+ doc.save(getArtifactsDir() + "Shape.ReplaceTextboxesWithImages.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2750,9 +8607,63 @@ public void setWrapType(int value)
 
 Defines whether the shape is inline or floating. For floating shapes defines the wrapping mode for text around the shape.
 
+ **Remarks:** 
+
 The default value is [WrapType.NONE](../../com.aspose.words/wraptype/\#NONE).
 
 Has effect only for top level shapes.
+
+ **Examples:** 
+
+Shows how to insert a floating image to the center of a page.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a floating image that will appear behind the overlapping text and align it to the page's center.
+ Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
+ shape.setWrapType(WrapType.NONE);
+ shape.setBehindText(true);
+ shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
+ shape.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
+ shape.setHorizontalAlignment(HorizontalAlignment.CENTER);
+ shape.setVerticalAlignment(VerticalAlignment.CENTER);
+
+ doc.save(getArtifactsDir() + "Image.CreateFloatingPageCenter.docx");
+ 
+```
+
+Shows how to create and format a text box.
+
+```
+
+ Document doc = new Document();
+
+ // Create a floating text box.
+ Shape textBox = new Shape(doc, ShapeType.TEXT_BOX);
+ textBox.setWrapType(WrapType.NONE);
+ textBox.setHeight(50.0);
+ textBox.setWidth(200.0);
+
+ // Set the horizontal, and vertical alignment of the text inside the shape.
+ textBox.setHorizontalAlignment(HorizontalAlignment.CENTER);
+ textBox.setVerticalAlignment(VerticalAlignment.TOP);
+
+ // Add a paragraph to the text box and add a run of text that the text box will display.
+ textBox.appendChild(new Paragraph(doc));
+ Paragraph para = textBox.getFirstParagraph();
+ para.getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
+ Run run = new Run(doc);
+ run.setText("Hello world!");
+ para.appendChild(run);
+
+ doc.getFirstSection().getBody().getFirstParagraph().appendChild(textBox);
+
+ doc.save(getArtifactsDir() + "Shape.CreateTextBox.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2767,6 +8678,8 @@ public void setZOrder(int value)
 
 Determines the display order of overlapping shapes.
 
+ **Remarks:** 
+
 Has effect only for top level shapes.
 
 The default value is 0.
@@ -2776,6 +8689,50 @@ The number represents the stacking precedence. A shape with a higher number will
 The order of overlapping shapes is independent for shapes in the header and in the main text of the document.
 
 The display order of child shapes in a group shape is determined by their order inside the group shape.
+
+ **Examples:** 
+
+Shows how to manipulate the order of shapes.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert three different colored rectangles that partially overlap each other.
+ // When we insert a shape that overlaps another shape, Aspose.Words places the newer shape on top of the old one.
+ // The light green rectangle will overlap the light blue rectangle and partially obscure it,
+ // and the light blue rectangle will obscure the orange rectangle.
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, RelativeHorizontalPosition.LEFT_MARGIN, 100.0,
+         RelativeVerticalPosition.TOP_MARGIN, 100.0, 200.0, 200.0, WrapType.NONE);
+ shape.setFillColor(Color.ORANGE);
+
+ shape = builder.insertShape(ShapeType.RECTANGLE, RelativeHorizontalPosition.LEFT_MARGIN, 150.0,
+         RelativeVerticalPosition.TOP_MARGIN, 150.0, 200.0, 200.0, WrapType.NONE);
+ shape.setFillColor(Color.BLUE);
+
+ shape = builder.insertShape(ShapeType.RECTANGLE, RelativeHorizontalPosition.LEFT_MARGIN, 200.0,
+         RelativeVerticalPosition.TOP_MARGIN, 200.0, 200.0, 200.0, WrapType.NONE);
+ shape.setFillColor(Color.GREEN);
+
+ List shapeList = Arrays.stream(doc.getChildNodes(NodeType.SHAPE, true).toArray())
+         .filter(Shape.class::isInstance)
+         .map(Shape.class::cast)
+         .collect(Collectors.toList());
+
+ // The "ZOrder" property of a shape determines its stacking priority among other overlapping shapes.
+ // If two overlapping shapes have different "ZOrder" values,
+ // Microsoft Word will place the shape with a higher value over the shape with the lower value.
+ // Set the "ZOrder" values of our shapes to place the first orange rectangle over the second light blue one
+ // and the second light blue rectangle over the third light green rectangle.
+ // This will reverse their original stacking order.
+ shapeList.get(0).setZOrder(3);
+ shapeList.get(1).setZOrder(2);
+ shapeList.get(2).setZOrder(1);
+
+ doc.save(getArtifactsDir() + "Shape.ZOrder.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -2828,6 +8785,32 @@ Exports the content of the node into a string using the specified save options.
 
 **Returns:**
 java.lang.String - The content of the node in the specified format.
+
+ **Examples:** 
+
+Exports the content of a node to String in HTML format.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ Node node = doc.getLastSection().getBody().getLastParagraph();
+
+ // When we call the ToString method using the html SaveFormat overload,
+ // it converts the node's contents to their raw html representation.
+ Assert.assertEquals(" " +
+         "Hello World!" +
+         "", node.toString(SaveFormat.HTML));
+
+ // We can also modify the result of this conversion using a SaveOptions object.
+ HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+ saveOptions.setExportRelativeFontSize(true);
+
+ Assert.assertEquals(" " +
+         "Hello World!" +
+         "", node.toString(saveOptions));
+ 
+```
 ### toString(int saveFormat) {#toString-int}
 ```
 public String toString(int saveFormat)

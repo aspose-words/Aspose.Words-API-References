@@ -4,7 +4,7 @@ linktitle: LayoutEntityType
 second_title: Aspose.Words for Java API Reference
 description: Types of the layout entities in Java.
 type: docs
-weight: 362
+weight: 363
 url: /java/com.aspose.words/layoutentitytype/
 ---
 
@@ -15,6 +15,136 @@ public class LayoutEntityType
 ```
 
 Types of the layout entities.
+
+ **Examples:** 
+
+Shows ways of traversing a document's layout entities.
+
+```
+
+ public void layoutEnumerator() throws Exception {
+     // Open a document that contains a variety of layout entities.
+     // Layout entities are pages, cells, rows, lines, and other objects included in the LayoutEntityType enum.
+     // Each layout entity has a rectangular space that it occupies in the document body.
+     Document doc = new Document(getMyDir() + "Layout entities.docx");
+
+     // Create an enumerator that can traverse these entities like a tree.
+     LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
+
+     Assert.assertEquals(doc, layoutEnumerator.getDocument());
+
+     layoutEnumerator.moveParent(LayoutEntityType.PAGE);
+
+     Assert.assertEquals(LayoutEntityType.PAGE, layoutEnumerator.getType());
+     Assert.assertThrows(IllegalStateException.class, () -> System.out.println(layoutEnumerator.getText()));
+
+     // We can call this method to make sure that the enumerator will be at the first layout entity.
+     layoutEnumerator.reset();
+
+     // There are two orders that determine how the layout enumerator continues traversing layout entities
+     // when it encounters entities that span across multiple pages.
+     // 1 -  In visual order:
+     // When moving through an entity's children that span multiple pages,
+     // page layout takes precedence, and we move to other child elements on this page and avoid the ones on the next.
+     System.out.println("Traversing from first to last, elements between pages separated:");
+     traverseLayoutForward(layoutEnumerator, 1);
+
+     // Our enumerator is now at the end of the collection. We can traverse the layout entities backwards to go back to the beginning.
+     System.out.println("Traversing from last to first, elements between pages separated:");
+     traverseLayoutBackward(layoutEnumerator, 1);
+
+     // 2 -  In logical order:
+     // When moving through an entity's children that span multiple pages,
+     // the enumerator will move between pages to traverse all the child entities.
+     System.out.println("Traversing from first to last, elements between pages mixed:");
+     traverseLayoutForwardLogical(layoutEnumerator, 1);
+
+     System.out.println("Traversing from last to first, elements between pages mixed:");
+     traverseLayoutBackwardLogical(layoutEnumerator, 1);
+ }
+
+ /// 
+ /// Enumerate through layoutEnumerator's layout entity collection front-to-back,
+ /// in a depth-first manner, and in the "Visual" order.
+ /// 
+ private static void traverseLayoutForward(LayoutEnumerator layoutEnumerator, int depth) throws Exception {
+     do {
+         printCurrentEntity(layoutEnumerator, depth);
+
+         if (layoutEnumerator.moveFirstChild()) {
+             traverseLayoutForward(layoutEnumerator, depth + 1);
+             layoutEnumerator.moveParent();
+         }
+     } while (layoutEnumerator.moveNext());
+ }
+
+ /// 
+ /// Enumerate through layoutEnumerator's layout entity collection back-to-front,
+ /// in a depth-first manner, and in the "Visual" order.
+ /// 
+ private static void traverseLayoutBackward(LayoutEnumerator layoutEnumerator, int depth) throws Exception {
+     do {
+         printCurrentEntity(layoutEnumerator, depth);
+
+         if (layoutEnumerator.moveLastChild()) {
+             traverseLayoutBackward(layoutEnumerator, depth + 1);
+             layoutEnumerator.moveParent();
+         }
+     } while (layoutEnumerator.movePrevious());
+ }
+
+ /// 
+ /// Enumerate through layoutEnumerator's layout entity collection front-to-back,
+ /// in a depth-first manner, and in the "Logical" order.
+ /// 
+ private static void traverseLayoutForwardLogical(LayoutEnumerator layoutEnumerator, int depth) throws Exception {
+     do {
+         printCurrentEntity(layoutEnumerator, depth);
+
+         if (layoutEnumerator.moveFirstChild()) {
+             traverseLayoutForwardLogical(layoutEnumerator, depth + 1);
+             layoutEnumerator.moveParent();
+         }
+     } while (layoutEnumerator.moveNextLogical());
+ }
+
+ /// 
+ /// Enumerate through layoutEnumerator's layout entity collection back-to-front,
+ /// in a depth-first manner, and in the "Logical" order.
+ /// 
+ private static void traverseLayoutBackwardLogical(LayoutEnumerator layoutEnumerator, int depth) throws Exception {
+     do {
+         printCurrentEntity(layoutEnumerator, depth);
+
+         if (layoutEnumerator.moveLastChild()) {
+             traverseLayoutBackwardLogical(layoutEnumerator, depth + 1);
+             layoutEnumerator.moveParent();
+         }
+     } while (layoutEnumerator.movePreviousLogical());
+ }
+
+ /// 
+ /// Print information about layoutEnumerator's current entity to the console, while indenting the text with tab characters
+ /// based on its depth relative to the root node that we provided in the constructor LayoutEnumerator instance.
+ /// The rectangle that we process at the end represents the area and location that the entity takes up in the document.
+ /// 
+ private static void printCurrentEntity(LayoutEnumerator layoutEnumerator, int indent) throws Exception {
+     String tabs = StringUtils.repeat("\t", indent);
+
+     System.out.println(layoutEnumerator.getKind().equals("")
+             ? MessageFormat.format("{0}-> Entity type: {1}", tabs, layoutEnumerator.getType())
+             : MessageFormat.format("{0}-> Entity type & kind: {1}, {2}", tabs, layoutEnumerator.getType(), layoutEnumerator.getKind()));
+
+     // Only spans can contain text.
+     if (layoutEnumerator.getType() == LayoutEntityType.SPAN)
+         System.out.println("{tabs}   Span contents: \"{layoutEnumerator.Text}\"");
+
+     Rectangle2D.Float leRect = layoutEnumerator.getRectangle();
+     System.out.println(MessageFormat.format("{0}   Rectangle dimensions {1}x{2}, X={3} Y={4}", tabs, leRect.getWidth(), leRect.getHeight(), leRect.getX(), leRect.getY()));
+     System.out.println(MessageFormat.format("{0}   Page {1}", tabs, layoutEnumerator.getPageIndex()));
+ }
+ 
+```
 ## Fields
 
 | Field | Description |

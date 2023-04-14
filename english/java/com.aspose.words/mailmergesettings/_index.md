@@ -4,7 +4,7 @@ linktitle: MailMergeSettings
 second_title: Aspose.Words for Java API Reference
 description: Specifies all of the mail merge information for a document in Java.
 type: docs
-weight: 389
+weight: 390
 url: /java/com.aspose.words/mailmergesettings/
 ---
 
@@ -20,6 +20,8 @@ public class MailMergeSettings implements Cloneable
 Specifies all of the mail merge information for a document.
 
 To learn more, visit the [ Mail Merge and Reporting ][Mail Merge and Reporting] documentation article.
+
+ **Remarks:** 
 
 You can use this object to specify a mail merge data source for a document and this information (along with the available data fields) will appear in Microsoft Word when the user opens this document. Or you can use this object to query mail merge settings that the user has specified in Microsoft Word for this document.
 
@@ -253,6 +255,8 @@ public int getMainDocumentType()
 
 Specifies the mail-merge main document type. The default value is [MailMergeMainDocumentType.DEFAULT](../../com.aspose.words/mailmergemaindocumenttype/\#DEFAULT).
 
+ **Remarks:** 
+
 The main document is the document that contains information that is the same for each version of the merged document.
 
 **Returns:**
@@ -264,6 +268,8 @@ public Odso getOdso()
 
 
 Gets the object that specifies the Office Data Source Object (ODSO) settings.
+
+ **Remarks:** 
 
 This object is never  null .
 
@@ -479,6 +485,8 @@ public void setMainDocumentType(int value)
 
 Specifies the mail-merge main document type. The default value is [MailMergeMainDocumentType.DEFAULT](../../com.aspose.words/mailmergemaindocumenttype/\#DEFAULT).
 
+ **Remarks:** 
+
 The main document is the document that contains information that is the same for each version of the merged document.
 
 **Parameters:**
@@ -493,6 +501,8 @@ public void setOdso(Odso value)
 
 
 Sets the object that specifies the Office Data Source Object (ODSO) settings.
+
+ **Remarks:** 
 
 This object is never  null .
 

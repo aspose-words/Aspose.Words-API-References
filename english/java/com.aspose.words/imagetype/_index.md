@@ -4,7 +4,7 @@ linktitle: ImageType
 second_title: Aspose.Words for Java API Reference
 description: Specifies the type format of an image in a Microsoft Word document in Java.
 type: docs
-weight: 345
+weight: 346
 url: /java/com.aspose.words/imagetype/
 ---
 
@@ -15,6 +15,23 @@ public class ImageType
 ```
 
 Specifies the type (format) of an image in a Microsoft Word document.
+
+ **Examples:** 
+
+Shows how to add an image to a shape and check its type.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ BufferedImage image = ImageIO.read(getAsposelogoUri().toURL().openStream());
+
+ // The image in the URL is a .gif. Inserting it into a document converts it into a .png.
+ Shape imgShape = builder.insertImage(image);
+ Assert.assertEquals(imgShape.getImageData().getImageType(), ImageType.PNG);
+ 
+```
 ## Fields
 
 | Field | Description |

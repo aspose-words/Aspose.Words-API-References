@@ -4,7 +4,7 @@ linktitle: PdfCompliance
 second_title: Aspose.Words for Java API Reference
 description: Specifies the PDF standards compliance level in Java.
 type: docs
-weight: 455
+weight: 456
 url: /java/com.aspose.words/pdfcompliance/
 ---
 
@@ -67,7 +67,11 @@ public static int PDF_A_1_A
 ```
 
 
-The output file will comply with the PDF/A-1a (ISO 19005-1) standard. This level includes all the requirements of PDF/A-1b and additionally requires that document structure be included (also known as being "tagged"), with the objective of ensuring that document content can be searched and repurposed. Note that exporting the document structure significantly increases the memory consumption, especially for the large documents.
+The output file will comply with the PDF/A-1a (ISO 19005-1) standard. This level includes all the requirements of PDF/A-1b and additionally requires that document structure be included (also known as being "tagged"), with the objective of ensuring that document content can be searched and repurposed.
+
+ **Remarks:** 
+
+Note that exporting the document structure significantly increases the memory consumption, especially for the large documents.
 
 ### PDF_A_1_B {#PDF-A-1-B}
 ```
@@ -83,7 +87,11 @@ public static int PDF_A_2_A
 ```
 
 
-The output file will comply with the PDF/A-2a (ISO 19005-2) standard. This level includes all the requirements of PDF/A-2u and additionally requires that document structure be included (also known as being "tagged"), with the objective of ensuring that document content can be searched and repurposed. Note that exporting the document structure significantly increases the memory consumption, especially for the large documents.
+The output file will comply with the PDF/A-2a (ISO 19005-2) standard. This level includes all the requirements of PDF/A-2u and additionally requires that document structure be included (also known as being "tagged"), with the objective of ensuring that document content can be searched and repurposed.
+
+ **Remarks:** 
+
+Note that exporting the document structure significantly increases the memory consumption, especially for the large documents.
 
 ### PDF_A_2_U {#PDF-A-2-U}
 ```

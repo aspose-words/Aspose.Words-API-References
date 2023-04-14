@@ -4,7 +4,7 @@ linktitle: CsvDataSource
 second_title: Aspose.Words for Java API Reference
 description: Provides access to data of a CSV file or stream to be used within a report in Java.
 type: docs
-weight: 100
+weight: 101
 url: /java/com.aspose.words/csvdatasource/
 ---
 
@@ -17,6 +17,8 @@ public class CsvDataSource
 Provides access to data of a CSV file or stream to be used within a report.
 
 To learn more, visit the [ LINQ Reporting Engine ][LINQ Reporting Engine] documentation article.
+
+ **Remarks:** 
 
 To access data of the corresponding file or stream while generating a report, pass an instance of this class as a data source to one of [ReportingEngine](../../com.aspose.words/reportingengine/). buildReport overloads.
 

@@ -4,7 +4,7 @@ linktitle: ChartDataLabel
 second_title: Aspose.Words for Java API Reference
 description: Represents data label on a chart point or trendline in Java.
 type: docs
-weight: 58
+weight: 59
 url: /java/com.aspose.words/chartdatalabel/
 ---
 
@@ -21,7 +21,79 @@ Represents data label on a chart point or trendline.
 
 To learn more, visit the [ Working with Charts ][Working with Charts] documentation article.
 
+ **Remarks:** 
+
 On a series, the [ChartDataLabel](../../com.aspose.words/chartdatalabel/) object is a member of the [ChartDataLabelCollection](../../com.aspose.words/chartdatalabelcollection/). The [ChartDataLabelCollection](../../com.aspose.words/chartdatalabelcollection/) contains a [ChartDataLabel](../../com.aspose.words/chartdatalabel/) object for each point.
+
+ **Examples:** 
+
+Shows how to apply labels to data points in a line chart.
+
+```
+
+ public void dataLabels() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     Shape chartShape = builder.insertChart(ChartType.LINE, 400.0, 300.0);
+     Chart chart = chartShape.getChart();
+
+     Assert.assertEquals(3, chart.getSeries().getCount());
+     Assert.assertEquals("Series 1", chart.getSeries().get(0).getName());
+     Assert.assertEquals("Series 2", chart.getSeries().get(1).getName());
+     Assert.assertEquals("Series 3", chart.getSeries().get(2).getName());
+
+     // Apply data labels to every series in the chart.
+     // These labels will appear next to each data point in the graph and display its value.
+     for (ChartSeries series : chart.getSeries()) {
+         applyDataLabels(series, 4, "000.0", ", ");
+         Assert.assertEquals(series.getDataLabels().getCount(), 4);
+     }
+
+     // Change the separator string for every data label in a series.
+     Iterator enumerator = chart.getSeries().get(0).getDataLabels().iterator();
+     while (enumerator.hasNext()) {
+         Assert.assertEquals(enumerator.next().getSeparator(), ", ");
+         enumerator.next().setSeparator(" & ");
+     }
+
+     // For a cleaner looking graph, we can remove data labels individually.
+     chart.getSeries().get(1).getDataLabels().get(2).clearFormat();
+
+     // We can also strip an entire series of its data labels at once.
+     chart.getSeries().get(2).getDataLabels().clearFormat();
+
+     doc.save(getArtifactsDir() + "Charts.DataLabels.docx");
+ }
+
+ /// 
+ /// Apply data labels with custom number format and separator to several data points in a series.
+ /// 
+ private static void applyDataLabels(ChartSeries series, int labelsCount, String numberFormat, String separator) {
+     for (int i = 0; i < labelsCount; i++) {
+         series.hasDataLabels(true);
+
+         Assert.assertFalse(series.getDataLabels().get(i).isVisible());
+
+         series.getDataLabels().get(i).setShowCategoryName(true);
+         series.getDataLabels().get(i).setShowSeriesName(true);
+         series.getDataLabels().get(i).setShowValue(true);
+         series.getDataLabels().get(i).setShowLeaderLines(true);
+         series.getDataLabels().get(i).setShowLegendKey(true);
+         series.getDataLabels().get(i).setShowPercentage(false);
+         series.getDataLabels().get(i).isHidden(false);
+         Assert.assertFalse(series.getDataLabels().get(i).getShowDataLabelsRange());
+
+         series.getDataLabels().get(i).getNumberFormat().setFormatCode(numberFormat);
+         series.getDataLabels().get(i).setSeparator(separator);
+
+         Assert.assertFalse(series.getDataLabels().get(i).getShowDataLabelsRange());
+         Assert.assertTrue(series.getDataLabels().get(i).isVisible());
+         Assert.assertFalse(series.getDataLabels().get(i).isHidden());
+     }
+ }
+ 
+```
 
 
 [Working with Charts]: https://docs.aspose.com/words/java/working-with-charts/
@@ -116,6 +188,34 @@ public Font getFont()
 
 Provides access to the font formatting of this data label.
 
+ **Examples:** 
+
+Shows how to use 3D effects with bubble charts.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.BUBBLE_3_D, 500.0, 350.0);
+ Chart chart = shape.getChart();
+
+ Assert.assertEquals(1, chart.getSeries().getCount());
+ Assert.assertEquals("Y-Values", chart.getSeries().get(0).getName());
+ Assert.assertTrue(chart.getSeries().get(0).getBubble3D());
+
+ // Apply a data label to each bubble that displays its diameter.
+ for (int i = 0; i < 3; i++) {
+     chart.getSeries().get(0).hasDataLabels(true);
+     ChartDataLabel cdl = chart.getSeries().get(0).getDataLabels().get(i);
+     chart.getSeries().get(0).getDataLabels().get(i).getFont().setSize(12.0);
+     cdl.setShowBubbleSize(true);
+ }
+
+ doc.save(getArtifactsDir() + "Charts.Bubble3D.docx");
+ 
+```
+
 **Returns:**
 [Font](../../com.aspose.words/font/) - The corresponding [Font](../../com.aspose.words/font/) value.
 ### getIndex() {#getIndex}
@@ -125,6 +225,76 @@ public int getIndex()
 
 
 Specifies the index of the containing element. This index shall determine which of the parent's children collection this element applies to. Default value is 0.
+
+ **Examples:** 
+
+Shows how to apply labels to data points in a line chart.
+
+```
+
+ public void dataLabels() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     Shape chartShape = builder.insertChart(ChartType.LINE, 400.0, 300.0);
+     Chart chart = chartShape.getChart();
+
+     Assert.assertEquals(3, chart.getSeries().getCount());
+     Assert.assertEquals("Series 1", chart.getSeries().get(0).getName());
+     Assert.assertEquals("Series 2", chart.getSeries().get(1).getName());
+     Assert.assertEquals("Series 3", chart.getSeries().get(2).getName());
+
+     // Apply data labels to every series in the chart.
+     // These labels will appear next to each data point in the graph and display its value.
+     for (ChartSeries series : chart.getSeries()) {
+         applyDataLabels(series, 4, "000.0", ", ");
+         Assert.assertEquals(series.getDataLabels().getCount(), 4);
+     }
+
+     // Change the separator string for every data label in a series.
+     Iterator enumerator = chart.getSeries().get(0).getDataLabels().iterator();
+     while (enumerator.hasNext()) {
+         Assert.assertEquals(enumerator.next().getSeparator(), ", ");
+         enumerator.next().setSeparator(" & ");
+     }
+
+     // For a cleaner looking graph, we can remove data labels individually.
+     chart.getSeries().get(1).getDataLabels().get(2).clearFormat();
+
+     // We can also strip an entire series of its data labels at once.
+     chart.getSeries().get(2).getDataLabels().clearFormat();
+
+     doc.save(getArtifactsDir() + "Charts.DataLabels.docx");
+ }
+
+ /// 
+ /// Apply data labels with custom number format and separator to several data points in a series.
+ /// 
+ private static void applyDataLabels(ChartSeries series, int labelsCount, String numberFormat, String separator) {
+     for (int i = 0; i < labelsCount; i++) {
+         series.hasDataLabels(true);
+
+         Assert.assertFalse(series.getDataLabels().get(i).isVisible());
+
+         series.getDataLabels().get(i).setShowCategoryName(true);
+         series.getDataLabels().get(i).setShowSeriesName(true);
+         series.getDataLabels().get(i).setShowValue(true);
+         series.getDataLabels().get(i).setShowLeaderLines(true);
+         series.getDataLabels().get(i).setShowLegendKey(true);
+         series.getDataLabels().get(i).setShowPercentage(false);
+         series.getDataLabels().get(i).isHidden(false);
+         Assert.assertFalse(series.getDataLabels().get(i).getShowDataLabelsRange());
+
+         series.getDataLabels().get(i).getNumberFormat().setFormatCode(numberFormat);
+         series.getDataLabels().get(i).setSeparator(separator);
+
+         Assert.assertFalse(series.getDataLabels().get(i).getShowDataLabelsRange());
+         Assert.assertTrue(series.getDataLabels().get(i).isVisible());
+         Assert.assertFalse(series.getDataLabels().get(i).isHidden());
+     }
+ }
+ 
+```
 
 **Returns:**
 int - The corresponding  int  value.
@@ -136,6 +306,76 @@ public ChartNumberFormat getNumberFormat()
 
 Returns number format of the parent element.
 
+ **Examples:** 
+
+Shows how to apply labels to data points in a line chart.
+
+```
+
+ public void dataLabels() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     Shape chartShape = builder.insertChart(ChartType.LINE, 400.0, 300.0);
+     Chart chart = chartShape.getChart();
+
+     Assert.assertEquals(3, chart.getSeries().getCount());
+     Assert.assertEquals("Series 1", chart.getSeries().get(0).getName());
+     Assert.assertEquals("Series 2", chart.getSeries().get(1).getName());
+     Assert.assertEquals("Series 3", chart.getSeries().get(2).getName());
+
+     // Apply data labels to every series in the chart.
+     // These labels will appear next to each data point in the graph and display its value.
+     for (ChartSeries series : chart.getSeries()) {
+         applyDataLabels(series, 4, "000.0", ", ");
+         Assert.assertEquals(series.getDataLabels().getCount(), 4);
+     }
+
+     // Change the separator string for every data label in a series.
+     Iterator enumerator = chart.getSeries().get(0).getDataLabels().iterator();
+     while (enumerator.hasNext()) {
+         Assert.assertEquals(enumerator.next().getSeparator(), ", ");
+         enumerator.next().setSeparator(" & ");
+     }
+
+     // For a cleaner looking graph, we can remove data labels individually.
+     chart.getSeries().get(1).getDataLabels().get(2).clearFormat();
+
+     // We can also strip an entire series of its data labels at once.
+     chart.getSeries().get(2).getDataLabels().clearFormat();
+
+     doc.save(getArtifactsDir() + "Charts.DataLabels.docx");
+ }
+
+ /// 
+ /// Apply data labels with custom number format and separator to several data points in a series.
+ /// 
+ private static void applyDataLabels(ChartSeries series, int labelsCount, String numberFormat, String separator) {
+     for (int i = 0; i < labelsCount; i++) {
+         series.hasDataLabels(true);
+
+         Assert.assertFalse(series.getDataLabels().get(i).isVisible());
+
+         series.getDataLabels().get(i).setShowCategoryName(true);
+         series.getDataLabels().get(i).setShowSeriesName(true);
+         series.getDataLabels().get(i).setShowValue(true);
+         series.getDataLabels().get(i).setShowLeaderLines(true);
+         series.getDataLabels().get(i).setShowLegendKey(true);
+         series.getDataLabels().get(i).setShowPercentage(false);
+         series.getDataLabels().get(i).isHidden(false);
+         Assert.assertFalse(series.getDataLabels().get(i).getShowDataLabelsRange());
+
+         series.getDataLabels().get(i).getNumberFormat().setFormatCode(numberFormat);
+         series.getDataLabels().get(i).setSeparator(separator);
+
+         Assert.assertFalse(series.getDataLabels().get(i).getShowDataLabelsRange());
+         Assert.assertTrue(series.getDataLabels().get(i).isVisible());
+         Assert.assertFalse(series.getDataLabels().get(i).isHidden());
+     }
+ }
+ 
+```
+
 **Returns:**
 [ChartNumberFormat](../../com.aspose.words/chartnumberformat/) - Number format of the parent element.
 ### getSeparator() {#getSeparator}
@@ -145,6 +385,76 @@ public String getSeparator()
 
 
 Gets string separator used for the data labels on a chart. The default is a comma, except for pie charts showing only category name and percentage, when a line break shall be used instead.
+
+ **Examples:** 
+
+Shows how to apply labels to data points in a line chart.
+
+```
+
+ public void dataLabels() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     Shape chartShape = builder.insertChart(ChartType.LINE, 400.0, 300.0);
+     Chart chart = chartShape.getChart();
+
+     Assert.assertEquals(3, chart.getSeries().getCount());
+     Assert.assertEquals("Series 1", chart.getSeries().get(0).getName());
+     Assert.assertEquals("Series 2", chart.getSeries().get(1).getName());
+     Assert.assertEquals("Series 3", chart.getSeries().get(2).getName());
+
+     // Apply data labels to every series in the chart.
+     // These labels will appear next to each data point in the graph and display its value.
+     for (ChartSeries series : chart.getSeries()) {
+         applyDataLabels(series, 4, "000.0", ", ");
+         Assert.assertEquals(series.getDataLabels().getCount(), 4);
+     }
+
+     // Change the separator string for every data label in a series.
+     Iterator enumerator = chart.getSeries().get(0).getDataLabels().iterator();
+     while (enumerator.hasNext()) {
+         Assert.assertEquals(enumerator.next().getSeparator(), ", ");
+         enumerator.next().setSeparator(" & ");
+     }
+
+     // For a cleaner looking graph, we can remove data labels individually.
+     chart.getSeries().get(1).getDataLabels().get(2).clearFormat();
+
+     // We can also strip an entire series of its data labels at once.
+     chart.getSeries().get(2).getDataLabels().clearFormat();
+
+     doc.save(getArtifactsDir() + "Charts.DataLabels.docx");
+ }
+
+ /// 
+ /// Apply data labels with custom number format and separator to several data points in a series.
+ /// 
+ private static void applyDataLabels(ChartSeries series, int labelsCount, String numberFormat, String separator) {
+     for (int i = 0; i < labelsCount; i++) {
+         series.hasDataLabels(true);
+
+         Assert.assertFalse(series.getDataLabels().get(i).isVisible());
+
+         series.getDataLabels().get(i).setShowCategoryName(true);
+         series.getDataLabels().get(i).setShowSeriesName(true);
+         series.getDataLabels().get(i).setShowValue(true);
+         series.getDataLabels().get(i).setShowLeaderLines(true);
+         series.getDataLabels().get(i).setShowLegendKey(true);
+         series.getDataLabels().get(i).setShowPercentage(false);
+         series.getDataLabels().get(i).isHidden(false);
+         Assert.assertFalse(series.getDataLabels().get(i).getShowDataLabelsRange());
+
+         series.getDataLabels().get(i).getNumberFormat().setFormatCode(numberFormat);
+         series.getDataLabels().get(i).setSeparator(separator);
+
+         Assert.assertFalse(series.getDataLabels().get(i).getShowDataLabelsRange());
+         Assert.assertTrue(series.getDataLabels().get(i).isVisible());
+         Assert.assertFalse(series.getDataLabels().get(i).isHidden());
+     }
+ }
+ 
+```
 
 **Returns:**
 java.lang.String - String separator used for the data labels on a chart.
@@ -156,6 +466,34 @@ public boolean getShowBubbleSize()
 
 Allows to specify if bubble size is to be displayed for the data labels on a chart. Applies only to Bubble charts. Default value is  false .
 
+ **Examples:** 
+
+Shows how to use 3D effects with bubble charts.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.BUBBLE_3_D, 500.0, 350.0);
+ Chart chart = shape.getChart();
+
+ Assert.assertEquals(1, chart.getSeries().getCount());
+ Assert.assertEquals("Y-Values", chart.getSeries().get(0).getName());
+ Assert.assertTrue(chart.getSeries().get(0).getBubble3D());
+
+ // Apply a data label to each bubble that displays its diameter.
+ for (int i = 0; i < 3; i++) {
+     chart.getSeries().get(0).hasDataLabels(true);
+     ChartDataLabel cdl = chart.getSeries().get(0).getDataLabels().get(i);
+     chart.getSeries().get(0).getDataLabels().get(i).getFont().setSize(12.0);
+     cdl.setShowBubbleSize(true);
+ }
+
+ doc.save(getArtifactsDir() + "Charts.Bubble3D.docx");
+ 
+```
+
 **Returns:**
 boolean - The corresponding  boolean  value.
 ### getShowCategoryName() {#getShowCategoryName}
@@ -165,6 +503,76 @@ public boolean getShowCategoryName()
 
 
 Allows to specify if category name is to be displayed for the data labels on a chart. Default value is  false .
+
+ **Examples:** 
+
+Shows how to apply labels to data points in a line chart.
+
+```
+
+ public void dataLabels() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     Shape chartShape = builder.insertChart(ChartType.LINE, 400.0, 300.0);
+     Chart chart = chartShape.getChart();
+
+     Assert.assertEquals(3, chart.getSeries().getCount());
+     Assert.assertEquals("Series 1", chart.getSeries().get(0).getName());
+     Assert.assertEquals("Series 2", chart.getSeries().get(1).getName());
+     Assert.assertEquals("Series 3", chart.getSeries().get(2).getName());
+
+     // Apply data labels to every series in the chart.
+     // These labels will appear next to each data point in the graph and display its value.
+     for (ChartSeries series : chart.getSeries()) {
+         applyDataLabels(series, 4, "000.0", ", ");
+         Assert.assertEquals(series.getDataLabels().getCount(), 4);
+     }
+
+     // Change the separator string for every data label in a series.
+     Iterator enumerator = chart.getSeries().get(0).getDataLabels().iterator();
+     while (enumerator.hasNext()) {
+         Assert.assertEquals(enumerator.next().getSeparator(), ", ");
+         enumerator.next().setSeparator(" & ");
+     }
+
+     // For a cleaner looking graph, we can remove data labels individually.
+     chart.getSeries().get(1).getDataLabels().get(2).clearFormat();
+
+     // We can also strip an entire series of its data labels at once.
+     chart.getSeries().get(2).getDataLabels().clearFormat();
+
+     doc.save(getArtifactsDir() + "Charts.DataLabels.docx");
+ }
+
+ /// 
+ /// Apply data labels with custom number format and separator to several data points in a series.
+ /// 
+ private static void applyDataLabels(ChartSeries series, int labelsCount, String numberFormat, String separator) {
+     for (int i = 0; i < labelsCount; i++) {
+         series.hasDataLabels(true);
+
+         Assert.assertFalse(series.getDataLabels().get(i).isVisible());
+
+         series.getDataLabels().get(i).setShowCategoryName(true);
+         series.getDataLabels().get(i).setShowSeriesName(true);
+         series.getDataLabels().get(i).setShowValue(true);
+         series.getDataLabels().get(i).setShowLeaderLines(true);
+         series.getDataLabels().get(i).setShowLegendKey(true);
+         series.getDataLabels().get(i).setShowPercentage(false);
+         series.getDataLabels().get(i).isHidden(false);
+         Assert.assertFalse(series.getDataLabels().get(i).getShowDataLabelsRange());
+
+         series.getDataLabels().get(i).getNumberFormat().setFormatCode(numberFormat);
+         series.getDataLabels().get(i).setSeparator(separator);
+
+         Assert.assertFalse(series.getDataLabels().get(i).getShowDataLabelsRange());
+         Assert.assertTrue(series.getDataLabels().get(i).isVisible());
+         Assert.assertFalse(series.getDataLabels().get(i).isHidden());
+     }
+ }
+ 
+```
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -176,6 +584,76 @@ public boolean getShowDataLabelsRange()
 
 Allows to specify if values from data labels range to be displayed in the data labels. Default value is  false .
 
+ **Examples:** 
+
+Shows how to apply labels to data points in a line chart.
+
+```
+
+ public void dataLabels() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     Shape chartShape = builder.insertChart(ChartType.LINE, 400.0, 300.0);
+     Chart chart = chartShape.getChart();
+
+     Assert.assertEquals(3, chart.getSeries().getCount());
+     Assert.assertEquals("Series 1", chart.getSeries().get(0).getName());
+     Assert.assertEquals("Series 2", chart.getSeries().get(1).getName());
+     Assert.assertEquals("Series 3", chart.getSeries().get(2).getName());
+
+     // Apply data labels to every series in the chart.
+     // These labels will appear next to each data point in the graph and display its value.
+     for (ChartSeries series : chart.getSeries()) {
+         applyDataLabels(series, 4, "000.0", ", ");
+         Assert.assertEquals(series.getDataLabels().getCount(), 4);
+     }
+
+     // Change the separator string for every data label in a series.
+     Iterator enumerator = chart.getSeries().get(0).getDataLabels().iterator();
+     while (enumerator.hasNext()) {
+         Assert.assertEquals(enumerator.next().getSeparator(), ", ");
+         enumerator.next().setSeparator(" & ");
+     }
+
+     // For a cleaner looking graph, we can remove data labels individually.
+     chart.getSeries().get(1).getDataLabels().get(2).clearFormat();
+
+     // We can also strip an entire series of its data labels at once.
+     chart.getSeries().get(2).getDataLabels().clearFormat();
+
+     doc.save(getArtifactsDir() + "Charts.DataLabels.docx");
+ }
+
+ /// 
+ /// Apply data labels with custom number format and separator to several data points in a series.
+ /// 
+ private static void applyDataLabels(ChartSeries series, int labelsCount, String numberFormat, String separator) {
+     for (int i = 0; i < labelsCount; i++) {
+         series.hasDataLabels(true);
+
+         Assert.assertFalse(series.getDataLabels().get(i).isVisible());
+
+         series.getDataLabels().get(i).setShowCategoryName(true);
+         series.getDataLabels().get(i).setShowSeriesName(true);
+         series.getDataLabels().get(i).setShowValue(true);
+         series.getDataLabels().get(i).setShowLeaderLines(true);
+         series.getDataLabels().get(i).setShowLegendKey(true);
+         series.getDataLabels().get(i).setShowPercentage(false);
+         series.getDataLabels().get(i).isHidden(false);
+         Assert.assertFalse(series.getDataLabels().get(i).getShowDataLabelsRange());
+
+         series.getDataLabels().get(i).getNumberFormat().setFormatCode(numberFormat);
+         series.getDataLabels().get(i).setSeparator(separator);
+
+         Assert.assertFalse(series.getDataLabels().get(i).getShowDataLabelsRange());
+         Assert.assertTrue(series.getDataLabels().get(i).isVisible());
+         Assert.assertFalse(series.getDataLabels().get(i).isHidden());
+     }
+ }
+ 
+```
+
 **Returns:**
 boolean - The corresponding  boolean  value.
 ### getShowLeaderLines() {#getShowLeaderLines}
@@ -184,7 +662,81 @@ public boolean getShowLeaderLines()
 ```
 
 
-Allows to specify if data label leader lines need be shown. Default value is  false . Applies to Pie charts only. Leader lines create a visual connection between a data label and its corresponding data point.
+Allows to specify if data label leader lines need be shown. Default value is  false .
+
+ **Remarks:** 
+
+Applies to Pie charts only. Leader lines create a visual connection between a data label and its corresponding data point.
+
+ **Examples:** 
+
+Shows how to apply labels to data points in a line chart.
+
+```
+
+ public void dataLabels() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     Shape chartShape = builder.insertChart(ChartType.LINE, 400.0, 300.0);
+     Chart chart = chartShape.getChart();
+
+     Assert.assertEquals(3, chart.getSeries().getCount());
+     Assert.assertEquals("Series 1", chart.getSeries().get(0).getName());
+     Assert.assertEquals("Series 2", chart.getSeries().get(1).getName());
+     Assert.assertEquals("Series 3", chart.getSeries().get(2).getName());
+
+     // Apply data labels to every series in the chart.
+     // These labels will appear next to each data point in the graph and display its value.
+     for (ChartSeries series : chart.getSeries()) {
+         applyDataLabels(series, 4, "000.0", ", ");
+         Assert.assertEquals(series.getDataLabels().getCount(), 4);
+     }
+
+     // Change the separator string for every data label in a series.
+     Iterator enumerator = chart.getSeries().get(0).getDataLabels().iterator();
+     while (enumerator.hasNext()) {
+         Assert.assertEquals(enumerator.next().getSeparator(), ", ");
+         enumerator.next().setSeparator(" & ");
+     }
+
+     // For a cleaner looking graph, we can remove data labels individually.
+     chart.getSeries().get(1).getDataLabels().get(2).clearFormat();
+
+     // We can also strip an entire series of its data labels at once.
+     chart.getSeries().get(2).getDataLabels().clearFormat();
+
+     doc.save(getArtifactsDir() + "Charts.DataLabels.docx");
+ }
+
+ /// 
+ /// Apply data labels with custom number format and separator to several data points in a series.
+ /// 
+ private static void applyDataLabels(ChartSeries series, int labelsCount, String numberFormat, String separator) {
+     for (int i = 0; i < labelsCount; i++) {
+         series.hasDataLabels(true);
+
+         Assert.assertFalse(series.getDataLabels().get(i).isVisible());
+
+         series.getDataLabels().get(i).setShowCategoryName(true);
+         series.getDataLabels().get(i).setShowSeriesName(true);
+         series.getDataLabels().get(i).setShowValue(true);
+         series.getDataLabels().get(i).setShowLeaderLines(true);
+         series.getDataLabels().get(i).setShowLegendKey(true);
+         series.getDataLabels().get(i).setShowPercentage(false);
+         series.getDataLabels().get(i).isHidden(false);
+         Assert.assertFalse(series.getDataLabels().get(i).getShowDataLabelsRange());
+
+         series.getDataLabels().get(i).getNumberFormat().setFormatCode(numberFormat);
+         series.getDataLabels().get(i).setSeparator(separator);
+
+         Assert.assertFalse(series.getDataLabels().get(i).getShowDataLabelsRange());
+         Assert.assertTrue(series.getDataLabels().get(i).isVisible());
+         Assert.assertFalse(series.getDataLabels().get(i).isHidden());
+     }
+ }
+ 
+```
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -196,6 +748,76 @@ public boolean getShowLegendKey()
 
 Allows to specify if legend key is to be displayed for the data labels on a chart. Default value is  false .
 
+ **Examples:** 
+
+Shows how to apply labels to data points in a line chart.
+
+```
+
+ public void dataLabels() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     Shape chartShape = builder.insertChart(ChartType.LINE, 400.0, 300.0);
+     Chart chart = chartShape.getChart();
+
+     Assert.assertEquals(3, chart.getSeries().getCount());
+     Assert.assertEquals("Series 1", chart.getSeries().get(0).getName());
+     Assert.assertEquals("Series 2", chart.getSeries().get(1).getName());
+     Assert.assertEquals("Series 3", chart.getSeries().get(2).getName());
+
+     // Apply data labels to every series in the chart.
+     // These labels will appear next to each data point in the graph and display its value.
+     for (ChartSeries series : chart.getSeries()) {
+         applyDataLabels(series, 4, "000.0", ", ");
+         Assert.assertEquals(series.getDataLabels().getCount(), 4);
+     }
+
+     // Change the separator string for every data label in a series.
+     Iterator enumerator = chart.getSeries().get(0).getDataLabels().iterator();
+     while (enumerator.hasNext()) {
+         Assert.assertEquals(enumerator.next().getSeparator(), ", ");
+         enumerator.next().setSeparator(" & ");
+     }
+
+     // For a cleaner looking graph, we can remove data labels individually.
+     chart.getSeries().get(1).getDataLabels().get(2).clearFormat();
+
+     // We can also strip an entire series of its data labels at once.
+     chart.getSeries().get(2).getDataLabels().clearFormat();
+
+     doc.save(getArtifactsDir() + "Charts.DataLabels.docx");
+ }
+
+ /// 
+ /// Apply data labels with custom number format and separator to several data points in a series.
+ /// 
+ private static void applyDataLabels(ChartSeries series, int labelsCount, String numberFormat, String separator) {
+     for (int i = 0; i < labelsCount; i++) {
+         series.hasDataLabels(true);
+
+         Assert.assertFalse(series.getDataLabels().get(i).isVisible());
+
+         series.getDataLabels().get(i).setShowCategoryName(true);
+         series.getDataLabels().get(i).setShowSeriesName(true);
+         series.getDataLabels().get(i).setShowValue(true);
+         series.getDataLabels().get(i).setShowLeaderLines(true);
+         series.getDataLabels().get(i).setShowLegendKey(true);
+         series.getDataLabels().get(i).setShowPercentage(false);
+         series.getDataLabels().get(i).isHidden(false);
+         Assert.assertFalse(series.getDataLabels().get(i).getShowDataLabelsRange());
+
+         series.getDataLabels().get(i).getNumberFormat().setFormatCode(numberFormat);
+         series.getDataLabels().get(i).setSeparator(separator);
+
+         Assert.assertFalse(series.getDataLabels().get(i).getShowDataLabelsRange());
+         Assert.assertTrue(series.getDataLabels().get(i).isVisible());
+         Assert.assertFalse(series.getDataLabels().get(i).isHidden());
+     }
+ }
+ 
+```
+
 **Returns:**
 boolean - The corresponding  boolean  value.
 ### getShowPercentage() {#getShowPercentage}
@@ -205,6 +827,76 @@ public boolean getShowPercentage()
 
 
 Allows to specify if percentage value is to be displayed for the data labels on a chart. Default value is  false .
+
+ **Examples:** 
+
+Shows how to apply labels to data points in a line chart.
+
+```
+
+ public void dataLabels() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     Shape chartShape = builder.insertChart(ChartType.LINE, 400.0, 300.0);
+     Chart chart = chartShape.getChart();
+
+     Assert.assertEquals(3, chart.getSeries().getCount());
+     Assert.assertEquals("Series 1", chart.getSeries().get(0).getName());
+     Assert.assertEquals("Series 2", chart.getSeries().get(1).getName());
+     Assert.assertEquals("Series 3", chart.getSeries().get(2).getName());
+
+     // Apply data labels to every series in the chart.
+     // These labels will appear next to each data point in the graph and display its value.
+     for (ChartSeries series : chart.getSeries()) {
+         applyDataLabels(series, 4, "000.0", ", ");
+         Assert.assertEquals(series.getDataLabels().getCount(), 4);
+     }
+
+     // Change the separator string for every data label in a series.
+     Iterator enumerator = chart.getSeries().get(0).getDataLabels().iterator();
+     while (enumerator.hasNext()) {
+         Assert.assertEquals(enumerator.next().getSeparator(), ", ");
+         enumerator.next().setSeparator(" & ");
+     }
+
+     // For a cleaner looking graph, we can remove data labels individually.
+     chart.getSeries().get(1).getDataLabels().get(2).clearFormat();
+
+     // We can also strip an entire series of its data labels at once.
+     chart.getSeries().get(2).getDataLabels().clearFormat();
+
+     doc.save(getArtifactsDir() + "Charts.DataLabels.docx");
+ }
+
+ /// 
+ /// Apply data labels with custom number format and separator to several data points in a series.
+ /// 
+ private static void applyDataLabels(ChartSeries series, int labelsCount, String numberFormat, String separator) {
+     for (int i = 0; i < labelsCount; i++) {
+         series.hasDataLabels(true);
+
+         Assert.assertFalse(series.getDataLabels().get(i).isVisible());
+
+         series.getDataLabels().get(i).setShowCategoryName(true);
+         series.getDataLabels().get(i).setShowSeriesName(true);
+         series.getDataLabels().get(i).setShowValue(true);
+         series.getDataLabels().get(i).setShowLeaderLines(true);
+         series.getDataLabels().get(i).setShowLegendKey(true);
+         series.getDataLabels().get(i).setShowPercentage(false);
+         series.getDataLabels().get(i).isHidden(false);
+         Assert.assertFalse(series.getDataLabels().get(i).getShowDataLabelsRange());
+
+         series.getDataLabels().get(i).getNumberFormat().setFormatCode(numberFormat);
+         series.getDataLabels().get(i).setSeparator(separator);
+
+         Assert.assertFalse(series.getDataLabels().get(i).getShowDataLabelsRange());
+         Assert.assertTrue(series.getDataLabels().get(i).isVisible());
+         Assert.assertFalse(series.getDataLabels().get(i).isHidden());
+     }
+ }
+ 
+```
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -216,6 +908,76 @@ public boolean getShowSeriesName()
 
 Gets a Boolean to indicate the series name display behavior for the data labels on a chart.  true  to show the series name;  false  to hide. By default  false .
 
+ **Examples:** 
+
+Shows how to apply labels to data points in a line chart.
+
+```
+
+ public void dataLabels() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     Shape chartShape = builder.insertChart(ChartType.LINE, 400.0, 300.0);
+     Chart chart = chartShape.getChart();
+
+     Assert.assertEquals(3, chart.getSeries().getCount());
+     Assert.assertEquals("Series 1", chart.getSeries().get(0).getName());
+     Assert.assertEquals("Series 2", chart.getSeries().get(1).getName());
+     Assert.assertEquals("Series 3", chart.getSeries().get(2).getName());
+
+     // Apply data labels to every series in the chart.
+     // These labels will appear next to each data point in the graph and display its value.
+     for (ChartSeries series : chart.getSeries()) {
+         applyDataLabels(series, 4, "000.0", ", ");
+         Assert.assertEquals(series.getDataLabels().getCount(), 4);
+     }
+
+     // Change the separator string for every data label in a series.
+     Iterator enumerator = chart.getSeries().get(0).getDataLabels().iterator();
+     while (enumerator.hasNext()) {
+         Assert.assertEquals(enumerator.next().getSeparator(), ", ");
+         enumerator.next().setSeparator(" & ");
+     }
+
+     // For a cleaner looking graph, we can remove data labels individually.
+     chart.getSeries().get(1).getDataLabels().get(2).clearFormat();
+
+     // We can also strip an entire series of its data labels at once.
+     chart.getSeries().get(2).getDataLabels().clearFormat();
+
+     doc.save(getArtifactsDir() + "Charts.DataLabels.docx");
+ }
+
+ /// 
+ /// Apply data labels with custom number format and separator to several data points in a series.
+ /// 
+ private static void applyDataLabels(ChartSeries series, int labelsCount, String numberFormat, String separator) {
+     for (int i = 0; i < labelsCount; i++) {
+         series.hasDataLabels(true);
+
+         Assert.assertFalse(series.getDataLabels().get(i).isVisible());
+
+         series.getDataLabels().get(i).setShowCategoryName(true);
+         series.getDataLabels().get(i).setShowSeriesName(true);
+         series.getDataLabels().get(i).setShowValue(true);
+         series.getDataLabels().get(i).setShowLeaderLines(true);
+         series.getDataLabels().get(i).setShowLegendKey(true);
+         series.getDataLabels().get(i).setShowPercentage(false);
+         series.getDataLabels().get(i).isHidden(false);
+         Assert.assertFalse(series.getDataLabels().get(i).getShowDataLabelsRange());
+
+         series.getDataLabels().get(i).getNumberFormat().setFormatCode(numberFormat);
+         series.getDataLabels().get(i).setSeparator(separator);
+
+         Assert.assertFalse(series.getDataLabels().get(i).getShowDataLabelsRange());
+         Assert.assertTrue(series.getDataLabels().get(i).isVisible());
+         Assert.assertFalse(series.getDataLabels().get(i).isHidden());
+     }
+ }
+ 
+```
+
 **Returns:**
 boolean - A Boolean to indicate the series name display behavior for the data labels on a chart.
 ### getShowValue() {#getShowValue}
@@ -225,6 +987,76 @@ public boolean getShowValue()
 
 
 Allows to specify if values are to be displayed in the data labels. Default value is  false .
+
+ **Examples:** 
+
+Shows how to apply labels to data points in a line chart.
+
+```
+
+ public void dataLabels() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     Shape chartShape = builder.insertChart(ChartType.LINE, 400.0, 300.0);
+     Chart chart = chartShape.getChart();
+
+     Assert.assertEquals(3, chart.getSeries().getCount());
+     Assert.assertEquals("Series 1", chart.getSeries().get(0).getName());
+     Assert.assertEquals("Series 2", chart.getSeries().get(1).getName());
+     Assert.assertEquals("Series 3", chart.getSeries().get(2).getName());
+
+     // Apply data labels to every series in the chart.
+     // These labels will appear next to each data point in the graph and display its value.
+     for (ChartSeries series : chart.getSeries()) {
+         applyDataLabels(series, 4, "000.0", ", ");
+         Assert.assertEquals(series.getDataLabels().getCount(), 4);
+     }
+
+     // Change the separator string for every data label in a series.
+     Iterator enumerator = chart.getSeries().get(0).getDataLabels().iterator();
+     while (enumerator.hasNext()) {
+         Assert.assertEquals(enumerator.next().getSeparator(), ", ");
+         enumerator.next().setSeparator(" & ");
+     }
+
+     // For a cleaner looking graph, we can remove data labels individually.
+     chart.getSeries().get(1).getDataLabels().get(2).clearFormat();
+
+     // We can also strip an entire series of its data labels at once.
+     chart.getSeries().get(2).getDataLabels().clearFormat();
+
+     doc.save(getArtifactsDir() + "Charts.DataLabels.docx");
+ }
+
+ /// 
+ /// Apply data labels with custom number format and separator to several data points in a series.
+ /// 
+ private static void applyDataLabels(ChartSeries series, int labelsCount, String numberFormat, String separator) {
+     for (int i = 0; i < labelsCount; i++) {
+         series.hasDataLabels(true);
+
+         Assert.assertFalse(series.getDataLabels().get(i).isVisible());
+
+         series.getDataLabels().get(i).setShowCategoryName(true);
+         series.getDataLabels().get(i).setShowSeriesName(true);
+         series.getDataLabels().get(i).setShowValue(true);
+         series.getDataLabels().get(i).setShowLeaderLines(true);
+         series.getDataLabels().get(i).setShowLegendKey(true);
+         series.getDataLabels().get(i).setShowPercentage(false);
+         series.getDataLabels().get(i).isHidden(false);
+         Assert.assertFalse(series.getDataLabels().get(i).getShowDataLabelsRange());
+
+         series.getDataLabels().get(i).getNumberFormat().setFormatCode(numberFormat);
+         series.getDataLabels().get(i).setSeparator(separator);
+
+         Assert.assertFalse(series.getDataLabels().get(i).getShowDataLabelsRange());
+         Assert.assertTrue(series.getDataLabels().get(i).isVisible());
+         Assert.assertFalse(series.getDataLabels().get(i).isHidden());
+     }
+ }
+ 
+```
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -246,6 +1078,76 @@ public boolean isHidden()
 
 Gets/sets a flag indicating whether this label is hidden. The default value is  false .
 
+ **Examples:** 
+
+Shows how to apply labels to data points in a line chart.
+
+```
+
+ public void dataLabels() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     Shape chartShape = builder.insertChart(ChartType.LINE, 400.0, 300.0);
+     Chart chart = chartShape.getChart();
+
+     Assert.assertEquals(3, chart.getSeries().getCount());
+     Assert.assertEquals("Series 1", chart.getSeries().get(0).getName());
+     Assert.assertEquals("Series 2", chart.getSeries().get(1).getName());
+     Assert.assertEquals("Series 3", chart.getSeries().get(2).getName());
+
+     // Apply data labels to every series in the chart.
+     // These labels will appear next to each data point in the graph and display its value.
+     for (ChartSeries series : chart.getSeries()) {
+         applyDataLabels(series, 4, "000.0", ", ");
+         Assert.assertEquals(series.getDataLabels().getCount(), 4);
+     }
+
+     // Change the separator string for every data label in a series.
+     Iterator enumerator = chart.getSeries().get(0).getDataLabels().iterator();
+     while (enumerator.hasNext()) {
+         Assert.assertEquals(enumerator.next().getSeparator(), ", ");
+         enumerator.next().setSeparator(" & ");
+     }
+
+     // For a cleaner looking graph, we can remove data labels individually.
+     chart.getSeries().get(1).getDataLabels().get(2).clearFormat();
+
+     // We can also strip an entire series of its data labels at once.
+     chart.getSeries().get(2).getDataLabels().clearFormat();
+
+     doc.save(getArtifactsDir() + "Charts.DataLabels.docx");
+ }
+
+ /// 
+ /// Apply data labels with custom number format and separator to several data points in a series.
+ /// 
+ private static void applyDataLabels(ChartSeries series, int labelsCount, String numberFormat, String separator) {
+     for (int i = 0; i < labelsCount; i++) {
+         series.hasDataLabels(true);
+
+         Assert.assertFalse(series.getDataLabels().get(i).isVisible());
+
+         series.getDataLabels().get(i).setShowCategoryName(true);
+         series.getDataLabels().get(i).setShowSeriesName(true);
+         series.getDataLabels().get(i).setShowValue(true);
+         series.getDataLabels().get(i).setShowLeaderLines(true);
+         series.getDataLabels().get(i).setShowLegendKey(true);
+         series.getDataLabels().get(i).setShowPercentage(false);
+         series.getDataLabels().get(i).isHidden(false);
+         Assert.assertFalse(series.getDataLabels().get(i).getShowDataLabelsRange());
+
+         series.getDataLabels().get(i).getNumberFormat().setFormatCode(numberFormat);
+         series.getDataLabels().get(i).setSeparator(separator);
+
+         Assert.assertFalse(series.getDataLabels().get(i).getShowDataLabelsRange());
+         Assert.assertTrue(series.getDataLabels().get(i).isVisible());
+         Assert.assertFalse(series.getDataLabels().get(i).isHidden());
+     }
+ }
+ 
+```
+
 **Returns:**
 boolean - The corresponding  boolean  value.
 ### isHidden(boolean value) {#isHidden-boolean}
@@ -255,6 +1157,76 @@ public void isHidden(boolean value)
 
 
 Gets/sets a flag indicating whether this label is hidden. The default value is  false .
+
+ **Examples:** 
+
+Shows how to apply labels to data points in a line chart.
+
+```
+
+ public void dataLabels() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     Shape chartShape = builder.insertChart(ChartType.LINE, 400.0, 300.0);
+     Chart chart = chartShape.getChart();
+
+     Assert.assertEquals(3, chart.getSeries().getCount());
+     Assert.assertEquals("Series 1", chart.getSeries().get(0).getName());
+     Assert.assertEquals("Series 2", chart.getSeries().get(1).getName());
+     Assert.assertEquals("Series 3", chart.getSeries().get(2).getName());
+
+     // Apply data labels to every series in the chart.
+     // These labels will appear next to each data point in the graph and display its value.
+     for (ChartSeries series : chart.getSeries()) {
+         applyDataLabels(series, 4, "000.0", ", ");
+         Assert.assertEquals(series.getDataLabels().getCount(), 4);
+     }
+
+     // Change the separator string for every data label in a series.
+     Iterator enumerator = chart.getSeries().get(0).getDataLabels().iterator();
+     while (enumerator.hasNext()) {
+         Assert.assertEquals(enumerator.next().getSeparator(), ", ");
+         enumerator.next().setSeparator(" & ");
+     }
+
+     // For a cleaner looking graph, we can remove data labels individually.
+     chart.getSeries().get(1).getDataLabels().get(2).clearFormat();
+
+     // We can also strip an entire series of its data labels at once.
+     chart.getSeries().get(2).getDataLabels().clearFormat();
+
+     doc.save(getArtifactsDir() + "Charts.DataLabels.docx");
+ }
+
+ /// 
+ /// Apply data labels with custom number format and separator to several data points in a series.
+ /// 
+ private static void applyDataLabels(ChartSeries series, int labelsCount, String numberFormat, String separator) {
+     for (int i = 0; i < labelsCount; i++) {
+         series.hasDataLabels(true);
+
+         Assert.assertFalse(series.getDataLabels().get(i).isVisible());
+
+         series.getDataLabels().get(i).setShowCategoryName(true);
+         series.getDataLabels().get(i).setShowSeriesName(true);
+         series.getDataLabels().get(i).setShowValue(true);
+         series.getDataLabels().get(i).setShowLeaderLines(true);
+         series.getDataLabels().get(i).setShowLegendKey(true);
+         series.getDataLabels().get(i).setShowPercentage(false);
+         series.getDataLabels().get(i).isHidden(false);
+         Assert.assertFalse(series.getDataLabels().get(i).getShowDataLabelsRange());
+
+         series.getDataLabels().get(i).getNumberFormat().setFormatCode(numberFormat);
+         series.getDataLabels().get(i).setSeparator(separator);
+
+         Assert.assertFalse(series.getDataLabels().get(i).getShowDataLabelsRange());
+         Assert.assertTrue(series.getDataLabels().get(i).isVisible());
+         Assert.assertFalse(series.getDataLabels().get(i).isHidden());
+     }
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -279,8 +1251,78 @@ public boolean isVisible()
 
 Returns  true  if this data label has something to display.
 
+ **Examples:** 
+
+Shows how to apply labels to data points in a line chart.
+
+```
+
+ public void dataLabels() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     Shape chartShape = builder.insertChart(ChartType.LINE, 400.0, 300.0);
+     Chart chart = chartShape.getChart();
+
+     Assert.assertEquals(3, chart.getSeries().getCount());
+     Assert.assertEquals("Series 1", chart.getSeries().get(0).getName());
+     Assert.assertEquals("Series 2", chart.getSeries().get(1).getName());
+     Assert.assertEquals("Series 3", chart.getSeries().get(2).getName());
+
+     // Apply data labels to every series in the chart.
+     // These labels will appear next to each data point in the graph and display its value.
+     for (ChartSeries series : chart.getSeries()) {
+         applyDataLabels(series, 4, "000.0", ", ");
+         Assert.assertEquals(series.getDataLabels().getCount(), 4);
+     }
+
+     // Change the separator string for every data label in a series.
+     Iterator enumerator = chart.getSeries().get(0).getDataLabels().iterator();
+     while (enumerator.hasNext()) {
+         Assert.assertEquals(enumerator.next().getSeparator(), ", ");
+         enumerator.next().setSeparator(" & ");
+     }
+
+     // For a cleaner looking graph, we can remove data labels individually.
+     chart.getSeries().get(1).getDataLabels().get(2).clearFormat();
+
+     // We can also strip an entire series of its data labels at once.
+     chart.getSeries().get(2).getDataLabels().clearFormat();
+
+     doc.save(getArtifactsDir() + "Charts.DataLabels.docx");
+ }
+
+ /// 
+ /// Apply data labels with custom number format and separator to several data points in a series.
+ /// 
+ private static void applyDataLabels(ChartSeries series, int labelsCount, String numberFormat, String separator) {
+     for (int i = 0; i < labelsCount; i++) {
+         series.hasDataLabels(true);
+
+         Assert.assertFalse(series.getDataLabels().get(i).isVisible());
+
+         series.getDataLabels().get(i).setShowCategoryName(true);
+         series.getDataLabels().get(i).setShowSeriesName(true);
+         series.getDataLabels().get(i).setShowValue(true);
+         series.getDataLabels().get(i).setShowLeaderLines(true);
+         series.getDataLabels().get(i).setShowLegendKey(true);
+         series.getDataLabels().get(i).setShowPercentage(false);
+         series.getDataLabels().get(i).isHidden(false);
+         Assert.assertFalse(series.getDataLabels().get(i).getShowDataLabelsRange());
+
+         series.getDataLabels().get(i).getNumberFormat().setFormatCode(numberFormat);
+         series.getDataLabels().get(i).setSeparator(separator);
+
+         Assert.assertFalse(series.getDataLabels().get(i).getShowDataLabelsRange());
+         Assert.assertTrue(series.getDataLabels().get(i).isVisible());
+         Assert.assertFalse(series.getDataLabels().get(i).isHidden());
+     }
+ }
+ 
+```
+
 **Returns:**
-boolean - \{ true  if this data label has something to display.
+boolean -  true  if this data label has something to display.
 ### notify() {#notify}
 ```
 public final native void notify()
@@ -305,6 +1347,76 @@ public void setSeparator(String value)
 
 Sets string separator used for the data labels on a chart. The default is a comma, except for pie charts showing only category name and percentage, when a line break shall be used instead.
 
+ **Examples:** 
+
+Shows how to apply labels to data points in a line chart.
+
+```
+
+ public void dataLabels() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     Shape chartShape = builder.insertChart(ChartType.LINE, 400.0, 300.0);
+     Chart chart = chartShape.getChart();
+
+     Assert.assertEquals(3, chart.getSeries().getCount());
+     Assert.assertEquals("Series 1", chart.getSeries().get(0).getName());
+     Assert.assertEquals("Series 2", chart.getSeries().get(1).getName());
+     Assert.assertEquals("Series 3", chart.getSeries().get(2).getName());
+
+     // Apply data labels to every series in the chart.
+     // These labels will appear next to each data point in the graph and display its value.
+     for (ChartSeries series : chart.getSeries()) {
+         applyDataLabels(series, 4, "000.0", ", ");
+         Assert.assertEquals(series.getDataLabels().getCount(), 4);
+     }
+
+     // Change the separator string for every data label in a series.
+     Iterator enumerator = chart.getSeries().get(0).getDataLabels().iterator();
+     while (enumerator.hasNext()) {
+         Assert.assertEquals(enumerator.next().getSeparator(), ", ");
+         enumerator.next().setSeparator(" & ");
+     }
+
+     // For a cleaner looking graph, we can remove data labels individually.
+     chart.getSeries().get(1).getDataLabels().get(2).clearFormat();
+
+     // We can also strip an entire series of its data labels at once.
+     chart.getSeries().get(2).getDataLabels().clearFormat();
+
+     doc.save(getArtifactsDir() + "Charts.DataLabels.docx");
+ }
+
+ /// 
+ /// Apply data labels with custom number format and separator to several data points in a series.
+ /// 
+ private static void applyDataLabels(ChartSeries series, int labelsCount, String numberFormat, String separator) {
+     for (int i = 0; i < labelsCount; i++) {
+         series.hasDataLabels(true);
+
+         Assert.assertFalse(series.getDataLabels().get(i).isVisible());
+
+         series.getDataLabels().get(i).setShowCategoryName(true);
+         series.getDataLabels().get(i).setShowSeriesName(true);
+         series.getDataLabels().get(i).setShowValue(true);
+         series.getDataLabels().get(i).setShowLeaderLines(true);
+         series.getDataLabels().get(i).setShowLegendKey(true);
+         series.getDataLabels().get(i).setShowPercentage(false);
+         series.getDataLabels().get(i).isHidden(false);
+         Assert.assertFalse(series.getDataLabels().get(i).getShowDataLabelsRange());
+
+         series.getDataLabels().get(i).getNumberFormat().setFormatCode(numberFormat);
+         series.getDataLabels().get(i).setSeparator(separator);
+
+         Assert.assertFalse(series.getDataLabels().get(i).getShowDataLabelsRange());
+         Assert.assertTrue(series.getDataLabels().get(i).isVisible());
+         Assert.assertFalse(series.getDataLabels().get(i).isHidden());
+     }
+ }
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -317,6 +1429,34 @@ public void setShowBubbleSize(boolean value)
 
 
 Allows to specify if bubble size is to be displayed for the data labels on a chart. Applies only to Bubble charts. Default value is  false .
+
+ **Examples:** 
+
+Shows how to use 3D effects with bubble charts.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.BUBBLE_3_D, 500.0, 350.0);
+ Chart chart = shape.getChart();
+
+ Assert.assertEquals(1, chart.getSeries().getCount());
+ Assert.assertEquals("Y-Values", chart.getSeries().get(0).getName());
+ Assert.assertTrue(chart.getSeries().get(0).getBubble3D());
+
+ // Apply a data label to each bubble that displays its diameter.
+ for (int i = 0; i < 3; i++) {
+     chart.getSeries().get(0).hasDataLabels(true);
+     ChartDataLabel cdl = chart.getSeries().get(0).getDataLabels().get(i);
+     chart.getSeries().get(0).getDataLabels().get(i).getFont().setSize(12.0);
+     cdl.setShowBubbleSize(true);
+ }
+
+ doc.save(getArtifactsDir() + "Charts.Bubble3D.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -331,6 +1471,76 @@ public void setShowCategoryName(boolean value)
 
 Allows to specify if category name is to be displayed for the data labels on a chart. Default value is  false .
 
+ **Examples:** 
+
+Shows how to apply labels to data points in a line chart.
+
+```
+
+ public void dataLabels() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     Shape chartShape = builder.insertChart(ChartType.LINE, 400.0, 300.0);
+     Chart chart = chartShape.getChart();
+
+     Assert.assertEquals(3, chart.getSeries().getCount());
+     Assert.assertEquals("Series 1", chart.getSeries().get(0).getName());
+     Assert.assertEquals("Series 2", chart.getSeries().get(1).getName());
+     Assert.assertEquals("Series 3", chart.getSeries().get(2).getName());
+
+     // Apply data labels to every series in the chart.
+     // These labels will appear next to each data point in the graph and display its value.
+     for (ChartSeries series : chart.getSeries()) {
+         applyDataLabels(series, 4, "000.0", ", ");
+         Assert.assertEquals(series.getDataLabels().getCount(), 4);
+     }
+
+     // Change the separator string for every data label in a series.
+     Iterator enumerator = chart.getSeries().get(0).getDataLabels().iterator();
+     while (enumerator.hasNext()) {
+         Assert.assertEquals(enumerator.next().getSeparator(), ", ");
+         enumerator.next().setSeparator(" & ");
+     }
+
+     // For a cleaner looking graph, we can remove data labels individually.
+     chart.getSeries().get(1).getDataLabels().get(2).clearFormat();
+
+     // We can also strip an entire series of its data labels at once.
+     chart.getSeries().get(2).getDataLabels().clearFormat();
+
+     doc.save(getArtifactsDir() + "Charts.DataLabels.docx");
+ }
+
+ /// 
+ /// Apply data labels with custom number format and separator to several data points in a series.
+ /// 
+ private static void applyDataLabels(ChartSeries series, int labelsCount, String numberFormat, String separator) {
+     for (int i = 0; i < labelsCount; i++) {
+         series.hasDataLabels(true);
+
+         Assert.assertFalse(series.getDataLabels().get(i).isVisible());
+
+         series.getDataLabels().get(i).setShowCategoryName(true);
+         series.getDataLabels().get(i).setShowSeriesName(true);
+         series.getDataLabels().get(i).setShowValue(true);
+         series.getDataLabels().get(i).setShowLeaderLines(true);
+         series.getDataLabels().get(i).setShowLegendKey(true);
+         series.getDataLabels().get(i).setShowPercentage(false);
+         series.getDataLabels().get(i).isHidden(false);
+         Assert.assertFalse(series.getDataLabels().get(i).getShowDataLabelsRange());
+
+         series.getDataLabels().get(i).getNumberFormat().setFormatCode(numberFormat);
+         series.getDataLabels().get(i).setSeparator(separator);
+
+         Assert.assertFalse(series.getDataLabels().get(i).getShowDataLabelsRange());
+         Assert.assertTrue(series.getDataLabels().get(i).isVisible());
+         Assert.assertFalse(series.getDataLabels().get(i).isHidden());
+     }
+ }
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -344,6 +1554,76 @@ public void setShowDataLabelsRange(boolean value)
 
 Allows to specify if values from data labels range to be displayed in the data labels. Default value is  false .
 
+ **Examples:** 
+
+Shows how to apply labels to data points in a line chart.
+
+```
+
+ public void dataLabels() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     Shape chartShape = builder.insertChart(ChartType.LINE, 400.0, 300.0);
+     Chart chart = chartShape.getChart();
+
+     Assert.assertEquals(3, chart.getSeries().getCount());
+     Assert.assertEquals("Series 1", chart.getSeries().get(0).getName());
+     Assert.assertEquals("Series 2", chart.getSeries().get(1).getName());
+     Assert.assertEquals("Series 3", chart.getSeries().get(2).getName());
+
+     // Apply data labels to every series in the chart.
+     // These labels will appear next to each data point in the graph and display its value.
+     for (ChartSeries series : chart.getSeries()) {
+         applyDataLabels(series, 4, "000.0", ", ");
+         Assert.assertEquals(series.getDataLabels().getCount(), 4);
+     }
+
+     // Change the separator string for every data label in a series.
+     Iterator enumerator = chart.getSeries().get(0).getDataLabels().iterator();
+     while (enumerator.hasNext()) {
+         Assert.assertEquals(enumerator.next().getSeparator(), ", ");
+         enumerator.next().setSeparator(" & ");
+     }
+
+     // For a cleaner looking graph, we can remove data labels individually.
+     chart.getSeries().get(1).getDataLabels().get(2).clearFormat();
+
+     // We can also strip an entire series of its data labels at once.
+     chart.getSeries().get(2).getDataLabels().clearFormat();
+
+     doc.save(getArtifactsDir() + "Charts.DataLabels.docx");
+ }
+
+ /// 
+ /// Apply data labels with custom number format and separator to several data points in a series.
+ /// 
+ private static void applyDataLabels(ChartSeries series, int labelsCount, String numberFormat, String separator) {
+     for (int i = 0; i < labelsCount; i++) {
+         series.hasDataLabels(true);
+
+         Assert.assertFalse(series.getDataLabels().get(i).isVisible());
+
+         series.getDataLabels().get(i).setShowCategoryName(true);
+         series.getDataLabels().get(i).setShowSeriesName(true);
+         series.getDataLabels().get(i).setShowValue(true);
+         series.getDataLabels().get(i).setShowLeaderLines(true);
+         series.getDataLabels().get(i).setShowLegendKey(true);
+         series.getDataLabels().get(i).setShowPercentage(false);
+         series.getDataLabels().get(i).isHidden(false);
+         Assert.assertFalse(series.getDataLabels().get(i).getShowDataLabelsRange());
+
+         series.getDataLabels().get(i).getNumberFormat().setFormatCode(numberFormat);
+         series.getDataLabels().get(i).setSeparator(separator);
+
+         Assert.assertFalse(series.getDataLabels().get(i).getShowDataLabelsRange());
+         Assert.assertTrue(series.getDataLabels().get(i).isVisible());
+         Assert.assertFalse(series.getDataLabels().get(i).isHidden());
+     }
+ }
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -355,7 +1635,81 @@ public void setShowLeaderLines(boolean value)
 ```
 
 
-Allows to specify if data label leader lines need be shown. Default value is  false . Applies to Pie charts only. Leader lines create a visual connection between a data label and its corresponding data point.
+Allows to specify if data label leader lines need be shown. Default value is  false .
+
+ **Remarks:** 
+
+Applies to Pie charts only. Leader lines create a visual connection between a data label and its corresponding data point.
+
+ **Examples:** 
+
+Shows how to apply labels to data points in a line chart.
+
+```
+
+ public void dataLabels() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     Shape chartShape = builder.insertChart(ChartType.LINE, 400.0, 300.0);
+     Chart chart = chartShape.getChart();
+
+     Assert.assertEquals(3, chart.getSeries().getCount());
+     Assert.assertEquals("Series 1", chart.getSeries().get(0).getName());
+     Assert.assertEquals("Series 2", chart.getSeries().get(1).getName());
+     Assert.assertEquals("Series 3", chart.getSeries().get(2).getName());
+
+     // Apply data labels to every series in the chart.
+     // These labels will appear next to each data point in the graph and display its value.
+     for (ChartSeries series : chart.getSeries()) {
+         applyDataLabels(series, 4, "000.0", ", ");
+         Assert.assertEquals(series.getDataLabels().getCount(), 4);
+     }
+
+     // Change the separator string for every data label in a series.
+     Iterator enumerator = chart.getSeries().get(0).getDataLabels().iterator();
+     while (enumerator.hasNext()) {
+         Assert.assertEquals(enumerator.next().getSeparator(), ", ");
+         enumerator.next().setSeparator(" & ");
+     }
+
+     // For a cleaner looking graph, we can remove data labels individually.
+     chart.getSeries().get(1).getDataLabels().get(2).clearFormat();
+
+     // We can also strip an entire series of its data labels at once.
+     chart.getSeries().get(2).getDataLabels().clearFormat();
+
+     doc.save(getArtifactsDir() + "Charts.DataLabels.docx");
+ }
+
+ /// 
+ /// Apply data labels with custom number format and separator to several data points in a series.
+ /// 
+ private static void applyDataLabels(ChartSeries series, int labelsCount, String numberFormat, String separator) {
+     for (int i = 0; i < labelsCount; i++) {
+         series.hasDataLabels(true);
+
+         Assert.assertFalse(series.getDataLabels().get(i).isVisible());
+
+         series.getDataLabels().get(i).setShowCategoryName(true);
+         series.getDataLabels().get(i).setShowSeriesName(true);
+         series.getDataLabels().get(i).setShowValue(true);
+         series.getDataLabels().get(i).setShowLeaderLines(true);
+         series.getDataLabels().get(i).setShowLegendKey(true);
+         series.getDataLabels().get(i).setShowPercentage(false);
+         series.getDataLabels().get(i).isHidden(false);
+         Assert.assertFalse(series.getDataLabels().get(i).getShowDataLabelsRange());
+
+         series.getDataLabels().get(i).getNumberFormat().setFormatCode(numberFormat);
+         series.getDataLabels().get(i).setSeparator(separator);
+
+         Assert.assertFalse(series.getDataLabels().get(i).getShowDataLabelsRange());
+         Assert.assertTrue(series.getDataLabels().get(i).isVisible());
+         Assert.assertFalse(series.getDataLabels().get(i).isHidden());
+     }
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -370,6 +1724,76 @@ public void setShowLegendKey(boolean value)
 
 Allows to specify if legend key is to be displayed for the data labels on a chart. Default value is  false .
 
+ **Examples:** 
+
+Shows how to apply labels to data points in a line chart.
+
+```
+
+ public void dataLabels() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     Shape chartShape = builder.insertChart(ChartType.LINE, 400.0, 300.0);
+     Chart chart = chartShape.getChart();
+
+     Assert.assertEquals(3, chart.getSeries().getCount());
+     Assert.assertEquals("Series 1", chart.getSeries().get(0).getName());
+     Assert.assertEquals("Series 2", chart.getSeries().get(1).getName());
+     Assert.assertEquals("Series 3", chart.getSeries().get(2).getName());
+
+     // Apply data labels to every series in the chart.
+     // These labels will appear next to each data point in the graph and display its value.
+     for (ChartSeries series : chart.getSeries()) {
+         applyDataLabels(series, 4, "000.0", ", ");
+         Assert.assertEquals(series.getDataLabels().getCount(), 4);
+     }
+
+     // Change the separator string for every data label in a series.
+     Iterator enumerator = chart.getSeries().get(0).getDataLabels().iterator();
+     while (enumerator.hasNext()) {
+         Assert.assertEquals(enumerator.next().getSeparator(), ", ");
+         enumerator.next().setSeparator(" & ");
+     }
+
+     // For a cleaner looking graph, we can remove data labels individually.
+     chart.getSeries().get(1).getDataLabels().get(2).clearFormat();
+
+     // We can also strip an entire series of its data labels at once.
+     chart.getSeries().get(2).getDataLabels().clearFormat();
+
+     doc.save(getArtifactsDir() + "Charts.DataLabels.docx");
+ }
+
+ /// 
+ /// Apply data labels with custom number format and separator to several data points in a series.
+ /// 
+ private static void applyDataLabels(ChartSeries series, int labelsCount, String numberFormat, String separator) {
+     for (int i = 0; i < labelsCount; i++) {
+         series.hasDataLabels(true);
+
+         Assert.assertFalse(series.getDataLabels().get(i).isVisible());
+
+         series.getDataLabels().get(i).setShowCategoryName(true);
+         series.getDataLabels().get(i).setShowSeriesName(true);
+         series.getDataLabels().get(i).setShowValue(true);
+         series.getDataLabels().get(i).setShowLeaderLines(true);
+         series.getDataLabels().get(i).setShowLegendKey(true);
+         series.getDataLabels().get(i).setShowPercentage(false);
+         series.getDataLabels().get(i).isHidden(false);
+         Assert.assertFalse(series.getDataLabels().get(i).getShowDataLabelsRange());
+
+         series.getDataLabels().get(i).getNumberFormat().setFormatCode(numberFormat);
+         series.getDataLabels().get(i).setSeparator(separator);
+
+         Assert.assertFalse(series.getDataLabels().get(i).getShowDataLabelsRange());
+         Assert.assertTrue(series.getDataLabels().get(i).isVisible());
+         Assert.assertFalse(series.getDataLabels().get(i).isHidden());
+     }
+ }
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -382,6 +1806,76 @@ public void setShowPercentage(boolean value)
 
 
 Allows to specify if percentage value is to be displayed for the data labels on a chart. Default value is  false .
+
+ **Examples:** 
+
+Shows how to apply labels to data points in a line chart.
+
+```
+
+ public void dataLabels() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     Shape chartShape = builder.insertChart(ChartType.LINE, 400.0, 300.0);
+     Chart chart = chartShape.getChart();
+
+     Assert.assertEquals(3, chart.getSeries().getCount());
+     Assert.assertEquals("Series 1", chart.getSeries().get(0).getName());
+     Assert.assertEquals("Series 2", chart.getSeries().get(1).getName());
+     Assert.assertEquals("Series 3", chart.getSeries().get(2).getName());
+
+     // Apply data labels to every series in the chart.
+     // These labels will appear next to each data point in the graph and display its value.
+     for (ChartSeries series : chart.getSeries()) {
+         applyDataLabels(series, 4, "000.0", ", ");
+         Assert.assertEquals(series.getDataLabels().getCount(), 4);
+     }
+
+     // Change the separator string for every data label in a series.
+     Iterator enumerator = chart.getSeries().get(0).getDataLabels().iterator();
+     while (enumerator.hasNext()) {
+         Assert.assertEquals(enumerator.next().getSeparator(), ", ");
+         enumerator.next().setSeparator(" & ");
+     }
+
+     // For a cleaner looking graph, we can remove data labels individually.
+     chart.getSeries().get(1).getDataLabels().get(2).clearFormat();
+
+     // We can also strip an entire series of its data labels at once.
+     chart.getSeries().get(2).getDataLabels().clearFormat();
+
+     doc.save(getArtifactsDir() + "Charts.DataLabels.docx");
+ }
+
+ /// 
+ /// Apply data labels with custom number format and separator to several data points in a series.
+ /// 
+ private static void applyDataLabels(ChartSeries series, int labelsCount, String numberFormat, String separator) {
+     for (int i = 0; i < labelsCount; i++) {
+         series.hasDataLabels(true);
+
+         Assert.assertFalse(series.getDataLabels().get(i).isVisible());
+
+         series.getDataLabels().get(i).setShowCategoryName(true);
+         series.getDataLabels().get(i).setShowSeriesName(true);
+         series.getDataLabels().get(i).setShowValue(true);
+         series.getDataLabels().get(i).setShowLeaderLines(true);
+         series.getDataLabels().get(i).setShowLegendKey(true);
+         series.getDataLabels().get(i).setShowPercentage(false);
+         series.getDataLabels().get(i).isHidden(false);
+         Assert.assertFalse(series.getDataLabels().get(i).getShowDataLabelsRange());
+
+         series.getDataLabels().get(i).getNumberFormat().setFormatCode(numberFormat);
+         series.getDataLabels().get(i).setSeparator(separator);
+
+         Assert.assertFalse(series.getDataLabels().get(i).getShowDataLabelsRange());
+         Assert.assertTrue(series.getDataLabels().get(i).isVisible());
+         Assert.assertFalse(series.getDataLabels().get(i).isHidden());
+     }
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -396,6 +1890,76 @@ public void setShowSeriesName(boolean value)
 
 Sets a Boolean to indicate the series name display behavior for the data labels on a chart.  true  to show the series name;  false  to hide. By default  false .
 
+ **Examples:** 
+
+Shows how to apply labels to data points in a line chart.
+
+```
+
+ public void dataLabels() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     Shape chartShape = builder.insertChart(ChartType.LINE, 400.0, 300.0);
+     Chart chart = chartShape.getChart();
+
+     Assert.assertEquals(3, chart.getSeries().getCount());
+     Assert.assertEquals("Series 1", chart.getSeries().get(0).getName());
+     Assert.assertEquals("Series 2", chart.getSeries().get(1).getName());
+     Assert.assertEquals("Series 3", chart.getSeries().get(2).getName());
+
+     // Apply data labels to every series in the chart.
+     // These labels will appear next to each data point in the graph and display its value.
+     for (ChartSeries series : chart.getSeries()) {
+         applyDataLabels(series, 4, "000.0", ", ");
+         Assert.assertEquals(series.getDataLabels().getCount(), 4);
+     }
+
+     // Change the separator string for every data label in a series.
+     Iterator enumerator = chart.getSeries().get(0).getDataLabels().iterator();
+     while (enumerator.hasNext()) {
+         Assert.assertEquals(enumerator.next().getSeparator(), ", ");
+         enumerator.next().setSeparator(" & ");
+     }
+
+     // For a cleaner looking graph, we can remove data labels individually.
+     chart.getSeries().get(1).getDataLabels().get(2).clearFormat();
+
+     // We can also strip an entire series of its data labels at once.
+     chart.getSeries().get(2).getDataLabels().clearFormat();
+
+     doc.save(getArtifactsDir() + "Charts.DataLabels.docx");
+ }
+
+ /// 
+ /// Apply data labels with custom number format and separator to several data points in a series.
+ /// 
+ private static void applyDataLabels(ChartSeries series, int labelsCount, String numberFormat, String separator) {
+     for (int i = 0; i < labelsCount; i++) {
+         series.hasDataLabels(true);
+
+         Assert.assertFalse(series.getDataLabels().get(i).isVisible());
+
+         series.getDataLabels().get(i).setShowCategoryName(true);
+         series.getDataLabels().get(i).setShowSeriesName(true);
+         series.getDataLabels().get(i).setShowValue(true);
+         series.getDataLabels().get(i).setShowLeaderLines(true);
+         series.getDataLabels().get(i).setShowLegendKey(true);
+         series.getDataLabels().get(i).setShowPercentage(false);
+         series.getDataLabels().get(i).isHidden(false);
+         Assert.assertFalse(series.getDataLabels().get(i).getShowDataLabelsRange());
+
+         series.getDataLabels().get(i).getNumberFormat().setFormatCode(numberFormat);
+         series.getDataLabels().get(i).setSeparator(separator);
+
+         Assert.assertFalse(series.getDataLabels().get(i).getShowDataLabelsRange());
+         Assert.assertTrue(series.getDataLabels().get(i).isVisible());
+         Assert.assertFalse(series.getDataLabels().get(i).isHidden());
+     }
+ }
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -408,6 +1972,76 @@ public void setShowValue(boolean value)
 
 
 Allows to specify if values are to be displayed in the data labels. Default value is  false .
+
+ **Examples:** 
+
+Shows how to apply labels to data points in a line chart.
+
+```
+
+ public void dataLabels() throws Exception {
+     Document doc = new Document();
+     DocumentBuilder builder = new DocumentBuilder(doc);
+
+     Shape chartShape = builder.insertChart(ChartType.LINE, 400.0, 300.0);
+     Chart chart = chartShape.getChart();
+
+     Assert.assertEquals(3, chart.getSeries().getCount());
+     Assert.assertEquals("Series 1", chart.getSeries().get(0).getName());
+     Assert.assertEquals("Series 2", chart.getSeries().get(1).getName());
+     Assert.assertEquals("Series 3", chart.getSeries().get(2).getName());
+
+     // Apply data labels to every series in the chart.
+     // These labels will appear next to each data point in the graph and display its value.
+     for (ChartSeries series : chart.getSeries()) {
+         applyDataLabels(series, 4, "000.0", ", ");
+         Assert.assertEquals(series.getDataLabels().getCount(), 4);
+     }
+
+     // Change the separator string for every data label in a series.
+     Iterator enumerator = chart.getSeries().get(0).getDataLabels().iterator();
+     while (enumerator.hasNext()) {
+         Assert.assertEquals(enumerator.next().getSeparator(), ", ");
+         enumerator.next().setSeparator(" & ");
+     }
+
+     // For a cleaner looking graph, we can remove data labels individually.
+     chart.getSeries().get(1).getDataLabels().get(2).clearFormat();
+
+     // We can also strip an entire series of its data labels at once.
+     chart.getSeries().get(2).getDataLabels().clearFormat();
+
+     doc.save(getArtifactsDir() + "Charts.DataLabels.docx");
+ }
+
+ /// 
+ /// Apply data labels with custom number format and separator to several data points in a series.
+ /// 
+ private static void applyDataLabels(ChartSeries series, int labelsCount, String numberFormat, String separator) {
+     for (int i = 0; i < labelsCount; i++) {
+         series.hasDataLabels(true);
+
+         Assert.assertFalse(series.getDataLabels().get(i).isVisible());
+
+         series.getDataLabels().get(i).setShowCategoryName(true);
+         series.getDataLabels().get(i).setShowSeriesName(true);
+         series.getDataLabels().get(i).setShowValue(true);
+         series.getDataLabels().get(i).setShowLeaderLines(true);
+         series.getDataLabels().get(i).setShowLegendKey(true);
+         series.getDataLabels().get(i).setShowPercentage(false);
+         series.getDataLabels().get(i).isHidden(false);
+         Assert.assertFalse(series.getDataLabels().get(i).getShowDataLabelsRange());
+
+         series.getDataLabels().get(i).getNumberFormat().setFormatCode(numberFormat);
+         series.getDataLabels().get(i).setSeparator(separator);
+
+         Assert.assertFalse(series.getDataLabels().get(i).getShowDataLabelsRange());
+         Assert.assertTrue(series.getDataLabels().get(i).isVisible());
+         Assert.assertFalse(series.getDataLabels().get(i).isHidden());
+     }
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |

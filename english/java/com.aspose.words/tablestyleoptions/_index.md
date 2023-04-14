@@ -4,7 +4,7 @@ linktitle: TableStyleOptions
 second_title: Aspose.Words for Java API Reference
 description: Specifies how table style is applied to a table in Java.
 type: docs
-weight: 559
+weight: 562
 url: /java/com.aspose.words/tablestyleoptions/
 ---
 
@@ -15,6 +15,55 @@ public class TableStyleOptions
 ```
 
 Specifies how table style is applied to a table.
+
+ **Examples:** 
+
+Shows how to build a new table while applying a style.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ Table table = builder.startTable();
+
+ // We must insert at least one row before setting any table formatting.
+ builder.insertCell();
+
+ // Set the table style used based on the style identifier.
+ // Note that not all table styles are available when saving to .doc format.
+ table.setStyleIdentifier(StyleIdentifier.MEDIUM_SHADING_1_ACCENT_1);
+
+ // Partially apply the style to features of the table based on predicates, then build the table.
+ table.setStyleOptions(TableStyleOptions.FIRST_COLUMN | TableStyleOptions.ROW_BANDS | TableStyleOptions.FIRST_ROW);
+ table.autoFit(AutoFitBehavior.AUTO_FIT_TO_CONTENTS);
+
+ builder.writeln("Item");
+ builder.getCellFormat().setRightPadding(40.0);
+ builder.insertCell();
+ builder.writeln("Quantity (kg)");
+ builder.endRow();
+
+ builder.insertCell();
+ builder.writeln("Apples");
+ builder.insertCell();
+ builder.writeln("20");
+ builder.endRow();
+
+ builder.insertCell();
+ builder.writeln("Bananas");
+ builder.insertCell();
+ builder.writeln("40");
+ builder.endRow();
+
+ builder.insertCell();
+ builder.writeln("Carrots");
+ builder.insertCell();
+ builder.writeln("50");
+ builder.endRow();
+
+ doc.save(getArtifactsDir() + "DocumentBuilder.InsertTableWithStyle.docx");
+ 
+```
 ## Fields
 
 | Field | Description |

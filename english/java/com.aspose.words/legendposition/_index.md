@@ -4,7 +4,7 @@ linktitle: LegendPosition
 second_title: Aspose.Words for Java API Reference
 description: Specifies the possible positions for a chart legend in Java.
 type: docs
-weight: 366
+weight: 367
 url: /java/com.aspose.words/legendposition/
 ---
 
@@ -15,6 +15,34 @@ public class LegendPosition
 ```
 
 Specifies the possible positions for a chart legend.
+
+ **Examples:** 
+
+Shows how to edit the appearance of a chart's legend.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.LINE, 450.0, 300.0);
+ Chart chart = shape.getChart();
+
+ Assert.assertEquals(3, chart.getSeries().getCount());
+ Assert.assertEquals("Series 1", chart.getSeries().get(0).getName());
+ Assert.assertEquals("Series 2", chart.getSeries().get(1).getName());
+ Assert.assertEquals("Series 3", chart.getSeries().get(2).getName());
+
+ // Move the chart's legend to the top right corner.
+ ChartLegend legend = chart.getLegend();
+ legend.setPosition(LegendPosition.TOP_RIGHT);
+
+ // Give other chart elements, such as the graph, more room by allowing them to overlap the legend.
+ legend.setOverlay(true);
+
+ doc.save(getArtifactsDir() + "Charts.ChartLegend.docx");
+ 
+```
 ## Fields
 
 | Field | Description |

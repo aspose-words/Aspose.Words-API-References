@@ -4,7 +4,7 @@ linktitle: WatermarkType
 second_title: Aspose.Words for Java API Reference
 description: Specifies the watermark type in Java.
 type: docs
-weight: 616
+weight: 619
 url: /java/com.aspose.words/watermarktype/
 ---
 
@@ -15,6 +15,36 @@ public class WatermarkType
 ```
 
 Specifies the watermark type.
+
+ **Examples:** 
+
+Shows how to create a text watermark.
+
+```
+
+ Document doc = new Document();
+
+ // Add a plain text watermark.
+ doc.getWatermark().setText("Aspose Watermark");
+
+ // If we wish to edit the text formatting using it as a watermark,
+ // we can do so by passing a TextWatermarkOptions object when creating the watermark.
+ TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
+ textWatermarkOptions.setFontFamily("Arial");
+ textWatermarkOptions.setFontSize(36f);
+ textWatermarkOptions.setColor(Color.BLACK);
+ textWatermarkOptions.setLayout(WatermarkLayout.DIAGONAL);
+ textWatermarkOptions.isSemitrasparent(false);
+
+ doc.getWatermark().setText("Aspose Watermark", textWatermarkOptions);
+
+ doc.save(getArtifactsDir() + "Document.TextWatermark.docx");
+
+ // We can remove a watermark from a document like this.
+ if (doc.getWatermark().getType() == WatermarkType.TEXT)
+     doc.getWatermark().remove();
+ 
+```
 ## Fields
 
 | Field | Description |

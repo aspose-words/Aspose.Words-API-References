@@ -4,7 +4,7 @@ linktitle: ReportingEngine
 second_title: Aspose.Words for Java API Reference
 description: Provides routines to populate template documents with data and a set of settings to control these routines in Java.
 type: docs
-weight: 484
+weight: 487
 url: /java/com.aspose.words/reportingengine/
 ---
 
@@ -62,6 +62,8 @@ public boolean buildReport(Document document, Object dataSource)
 
 Populates the specified template document with data from the specified source making it a ready report.
 
+ **Remarks:** 
+
 Using this overload you can reference the data source's members in the template document, but you cannot reference the data source object itself. You should use the [buildReport(com.aspose.words.Document, java.lang.Object, java.lang.String)](../../com.aspose.words/reportingengine/\#buildReport-com.aspose.words.Document--java.lang.Object--java.lang.String) overload to achieve this.
 
 A data source object can be of one of the following types:
@@ -95,6 +97,8 @@ public boolean buildReport(Document document, Object dataSource, String dataSour
 
 
 Populates the specified template document with data from the specified source making it a ready report.
+
+ **Remarks:** 
 
 Using this overload you can reference the data source's members and the data source object itself in the template. If you are not going to reference the data source object itself, you can omit  dataSourceName  passing  null  or use the [buildReport(com.aspose.words.Document, java.lang.Object)](../../com.aspose.words/reportingengine/\#buildReport-com.aspose.words.Document--java.lang.Object) overload.
 
@@ -130,6 +134,8 @@ public boolean buildReport(Document document, Object[] dataSources, String[] dat
 
 
 Populates the specified template document with data from the specified sources making it a ready report.
+
+ **Remarks:** 
 
 Using this overload you can reference multiple data source objects and their members in the template. The name of the first data source can be omitted (i.e. be an empty string or  null ) if you are going to reference the data source's members but not the data source object itself. Names of the other data sources must be specified and unique.
 
@@ -211,7 +217,11 @@ public static boolean getUseReflectionOptimization()
 ```
 
 
-Gets a value indicating whether invocations of custom type members performed via reflection API are optimized using dynamic class generation or not. The default value is  true . There are some scenarios where it is preferrable to disable this optimization. For example, if you are dealing with small collections of data items all the time, then an overhead of dynamic class generation can be more noticeable than an overhead of direct reflection API calls. The option does not have effect when run on iOS and reflection optimization is not used.
+Gets a value indicating whether invocations of custom type members performed via reflection API are optimized using dynamic class generation or not. The default value is  true .
+
+ **Remarks:** 
+
+There are some scenarios where it is preferrable to disable this optimization. For example, if you are dealing with small collections of data items all the time, then an overhead of dynamic class generation can be more noticeable than an overhead of direct reflection API calls. The option does not have effect when run on iOS and reflection optimization is not used.
 
 **Returns:**
 boolean - A value indicating whether invocations of custom type members performed via reflection API are optimized using dynamic class generation or not.
@@ -260,7 +270,11 @@ public static void setUseReflectionOptimization(boolean value)
 ```
 
 
-Sets a value indicating whether invocations of custom type members performed via reflection API are optimized using dynamic class generation or not. The default value is  true . There are some scenarios where it is preferrable to disable this optimization. For example, if you are dealing with small collections of data items all the time, then an overhead of dynamic class generation can be more noticeable than an overhead of direct reflection API calls. The option does not have effect when run on iOS and reflection optimization is not used.
+Sets a value indicating whether invocations of custom type members performed via reflection API are optimized using dynamic class generation or not. The default value is  true .
+
+ **Remarks:** 
+
+There are some scenarios where it is preferrable to disable this optimization. For example, if you are dealing with small collections of data items all the time, then an overhead of dynamic class generation can be more noticeable than an overhead of direct reflection API calls. The option does not have effect when run on iOS and reflection optimization is not used.
 
 **Parameters:**
 | Parameter | Type | Description |

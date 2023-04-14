@@ -2,9 +2,9 @@
 title: OdtSaveOptions
 linktitle: OdtSaveOptions
 second_title: Aspose.Words for Java API Reference
-description: Can be used to specify additional options when saving a document into the  or  format in Java.
+description: Can be used to specify additional options when saving a document into the SaveFormat.ODT or SaveFormat.OTT format in Java.
 type: docs
-weight: 425
+weight: 426
 url: /java/com.aspose.words/odtsaveoptions/
 ---
 
@@ -18,7 +18,47 @@ Can be used to specify additional options when saving a document into the [SaveF
 
 To learn more, visit the [ Specify Save Options ][Specify Save Options] documentation article.
 
+ **Remarks:** 
+
 At the moment provides only the [getSaveFormat()](../../com.aspose.words/odtsaveoptions/\#getSaveFormat) / [setSaveFormat(int)](../../com.aspose.words/odtsaveoptions/\#setSaveFormat-int) property, but in the future will have other options added, such as an encryption password or digital signature settings.
+
+ **Examples:** 
+
+Shows how to make a saved document conform to an older ODT schema.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ OdtSaveOptions saveOptions = new OdtSaveOptions();
+ {
+     saveOptions.setMeasureUnit(OdtSaveMeasureUnit.CENTIMETERS);
+     saveOptions.isStrictSchema11(exportToOdt11Specs);
+ }
+
+ doc.save(getArtifactsDir() + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
+ 
+```
+
+Shows how to use different measurement units to define style parameters of a saved ODT document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ // When we export the document to .odt, we can use an OdtSaveOptions object to modify how we save the document.
+ // We can set the "MeasureUnit" property to "OdtSaveMeasureUnit.Centimeters"
+ // to define content such as style parameters using the metric system, which Open Office uses.
+ // We can set the "MeasureUnit" property to "OdtSaveMeasureUnit.Inches"
+ // to define content such as style parameters using the imperial system, which Microsoft Word uses.
+ OdtSaveOptions saveOptions = new OdtSaveOptions();
+ {
+     saveOptions.setMeasureUnit(odtSaveMeasureUnit);
+ }
+
+ doc.save(getArtifactsDir() + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
+ 
+```
 
 
 [Specify Save Options]: https://docs.aspose.com/words/java/specify-save-options/
@@ -96,6 +136,24 @@ public OdtSaveOptions()
 
 Initializes a new instance of this class that can be used to save a document in the [SaveFormat.ODT](../../com.aspose.words/saveformat/\#ODT) format.
 
+ **Examples:** 
+
+Shows how to make a saved document conform to an older ODT schema.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ OdtSaveOptions saveOptions = new OdtSaveOptions();
+ {
+     saveOptions.setMeasureUnit(OdtSaveMeasureUnit.CENTIMETERS);
+     saveOptions.isStrictSchema11(exportToOdt11Specs);
+ }
+
+ doc.save(getArtifactsDir() + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
+ 
+```
+
 ### OdtSaveOptions(String password) {#OdtSaveOptions-java.lang.String}
 ```
 public OdtSaveOptions(String password)
@@ -152,6 +210,29 @@ Creates a save options object of a class suitable for the file extension specifi
 
 **Returns:**
 [SaveOptions](../../com.aspose.words/saveoptions/) - An object of a class that derives from [SaveOptions](../../com.aspose.words/saveoptions/).
+
+ **Examples:** 
+
+Shows how to set a default template for documents that do not have attached templates.
+
+```
+
+ Document doc = new Document();
+
+ // Enable automatic style updating, but do not attach a template document.
+ doc.setAutomaticallyUpdateStyles(true);
+
+ Assert.assertEquals("", doc.getAttachedTemplate());
+
+ // Since there is no template document, the document had nowhere to track style changes.
+ // Use a SaveOptions object to automatically set a template
+ // if a document that we are saving does not have one.
+ SaveOptions options = SaveOptions.createSaveOptions("Document.DefaultTemplate.docx");
+ options.setDefaultTemplate(getMyDir() + "Business brochure.dotx");
+
+ doc.save(getArtifactsDir() + "Document.DefaultTemplate.docx", options);
+ 
+```
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
@@ -175,9 +256,40 @@ public boolean getAllowEmbeddingPostScriptFonts()
 
 Gets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is  false .
 
+ **Remarks:** 
+
 Note, Word does not embed PostScript fonts, but can open documents with embedded fonts of this type.
 
 This option only works when [FontInfoCollection.getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection/\#getEmbedTrueTypeFonts) / [FontInfoCollection.setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection/\#setEmbedTrueTypeFonts-boolean) of the [DocumentBase.getFontInfos()](../../com.aspose.words/documentbase/\#getFontInfos) property is set to  true .
+
+ **Examples:** 
+
+Shows how to save the document with PostScript font.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setName("PostScriptFont");
+ builder.writeln("Some text with PostScript font.");
+
+ // Load the font with PostScript to use in the document.
+ MemoryFontSource otf = new MemoryFontSource(DocumentHelper.getBytesFromStream(new FileInputStream(getFontsDir() + "AllegroOpen.otf")));
+ doc.setFontSettings(new FontSettings());
+ doc.getFontSettings().setFontsSources(new FontSourceBase[]{otf});
+
+ // Embed TrueType fonts.
+ doc.getFontInfos().setEmbedTrueTypeFonts(true);
+
+ // Allow embedding PostScript fonts while embedding TrueType fonts.
+ // Microsoft Word does not embed PostScript fonts, but can open documents with embedded fonts of this type.
+ SaveOptions saveOptions = SaveOptions.createSaveOptions(SaveFormat.DOCX);
+ saveOptions.setAllowEmbeddingPostScriptFonts(true);
+
+ doc.save(getArtifactsDir() + "Document.AllowEmbeddingPostScriptFonts.docx", saveOptions);
+ 
+```
 
 **Returns:**
 boolean - A boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved.
@@ -197,7 +309,34 @@ public String getDefaultTemplate()
 ```
 
 
-Gets path to default template (including filename). Default value for this property is **empty string**. If specified, this path is used to load template when [Document.getAutomaticallyUpdateStyles()](../../com.aspose.words/document/\#getAutomaticallyUpdateStyles) / [Document.setAutomaticallyUpdateStyles(boolean)](../../com.aspose.words/document/\#setAutomaticallyUpdateStyles-boolean) is  true , but [Document.getAttachedTemplate()](../../com.aspose.words/document/\#getAttachedTemplate) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document/\#setAttachedTemplate-java.lang.String) is empty.
+Gets path to default template (including filename). Default value for this property is **empty string**.
+
+ **Remarks:** 
+
+If specified, this path is used to load template when [Document.getAutomaticallyUpdateStyles()](../../com.aspose.words/document/\#getAutomaticallyUpdateStyles) / [Document.setAutomaticallyUpdateStyles(boolean)](../../com.aspose.words/document/\#setAutomaticallyUpdateStyles-boolean) is  true , but [Document.getAttachedTemplate()](../../com.aspose.words/document/\#getAttachedTemplate) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document/\#setAttachedTemplate-java.lang.String) is empty.
+
+ **Examples:** 
+
+Shows how to set a default template for documents that do not have attached templates.
+
+```
+
+ Document doc = new Document();
+
+ // Enable automatic style updating, but do not attach a template document.
+ doc.setAutomaticallyUpdateStyles(true);
+
+ Assert.assertEquals("", doc.getAttachedTemplate());
+
+ // Since there is no template document, the document had nowhere to track style changes.
+ // Use a SaveOptions object to automatically set a template
+ // if a document that we are saving does not have one.
+ SaveOptions options = SaveOptions.createSaveOptions("Document.DefaultTemplate.docx");
+ options.setDefaultTemplate(getMyDir() + "Business brochure.dotx");
+
+ doc.save(getArtifactsDir() + "Document.DefaultTemplate.docx", options);
+ 
+```
 
 **Returns:**
 java.lang.String - Path to default template (including filename).
@@ -207,7 +346,11 @@ public int getDml3DEffectsRenderingMode()
 ```
 
 
-Gets a value determining how 3D effects are rendered. The default value is [Dml3DEffectsRenderingMode.BASIC](../../com.aspose.words/dml3deffectsrenderingmode/\#BASIC).
+Gets a value determining how 3D effects are rendered.
+
+ **Remarks:** 
+
+The default value is [Dml3DEffectsRenderingMode.BASIC](../../com.aspose.words/dml3deffectsrenderingmode/\#BASIC).
 
 **Returns:**
 int - A value determining how 3D effects are rendered. The returned value is one of [Dml3DEffectsRenderingMode](../../com.aspose.words/dml3deffectsrenderingmode/) constants.
@@ -217,7 +360,11 @@ public int getDmlEffectsRenderingMode()
 ```
 
 
-Gets a value determining how DrawingML effects are rendered. The default value is [DmlEffectsRenderingMode.SIMPLIFIED](../../com.aspose.words/dmleffectsrenderingmode/\#SIMPLIFIED).
+Gets a value determining how DrawingML effects are rendered.
+
+ **Remarks:** 
+
+The default value is [DmlEffectsRenderingMode.SIMPLIFIED](../../com.aspose.words/dmleffectsrenderingmode/\#SIMPLIFIED).
 
 This property is used when the document is exported to fixed page formats.
 
@@ -229,7 +376,11 @@ public int getDmlRenderingMode()
 ```
 
 
-Gets a value determining how DrawingML shapes are rendered. The default value is [DmlRenderingMode.FALLBACK](../../com.aspose.words/dmlrenderingmode/\#FALLBACK).
+Gets a value determining how DrawingML shapes are rendered.
+
+ **Remarks:** 
+
+The default value is [DmlRenderingMode.FALLBACK](../../com.aspose.words/dmlrenderingmode/\#FALLBACK).
 
 This property is used when the document is exported to fixed page formats.
 
@@ -243,6 +394,21 @@ public boolean getExportGeneratorName()
 
 When  true , causes the name and version of Aspose.Words to be embedded into produced files. Default value is  true .
 
+ **Examples:** 
+
+Shows how to disable adding name and version of Aspose.Words into produced files.
+
+```
+
+ Document doc = new Document();
+
+ // Use https://docs.aspose.com/words/net/generator-or-producer-name-included-in-output-documents/ to know how to check the result.
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(); { saveOptions.setExportGeneratorName(false); }
+
+ doc.save(getArtifactsDir() + "OoxmlSaveOptions.ExportGeneratorName.docx", saveOptions);
+ 
+```
+
 **Returns:**
 boolean - The corresponding  boolean  value.
 ### getImlRenderingMode() {#getImlRenderingMode}
@@ -251,9 +417,33 @@ public int getImlRenderingMode()
 ```
 
 
-Gets a value determining how ink (InkML) objects are rendered. The default value is [ImlRenderingMode.INK\_ML](../../com.aspose.words/imlrenderingmode/\#INK-ML).
+Gets a value determining how ink (InkML) objects are rendered.
+
+ **Remarks:** 
+
+The default value is [ImlRenderingMode.INK\_ML](../../com.aspose.words/imlrenderingmode/\#INK-ML).
 
 This property is used when the document is exported to fixed page formats.
+
+ **Examples:** 
+
+Shows how to render Ink object.
+
+```
+
+ Document doc = new Document(getMyDir() + "Ink object.docx");
+
+ // Set 'ImlRenderingMode.InkML' ignores fall-back shape of ink (InkML) object and renders InkML itself.
+ // If the rendering result is unsatisfactory,
+ // please use 'ImlRenderingMode.Fallback' to get a result similar to previous versions.
+ ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.JPEG);
+ {
+     saveOptions.setImlRenderingMode(ImlRenderingMode.INK_ML);
+ }
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.RenderInkObject.jpeg", saveOptions);
+ 
+```
 
 **Returns:**
 int - A value determining how ink (InkML) objects are rendered. The returned value is one of [ImlRenderingMode](../../com.aspose.words/imlrenderingmode/) constants.
@@ -263,7 +453,33 @@ public int getMeasureUnit()
 ```
 
 
-Allows to specify units of measure to apply to document content. The default value is [OdtSaveMeasureUnit.CENTIMETERS](../../com.aspose.words/odtsavemeasureunit/\#CENTIMETERS) Open Office uses centimeters when specifying lengths, widths and other measurable formatting and content properties in documents whereas MS Office uses inches.
+Allows to specify units of measure to apply to document content. The default value is [OdtSaveMeasureUnit.CENTIMETERS](../../com.aspose.words/odtsavemeasureunit/\#CENTIMETERS)
+
+ **Remarks:** 
+
+Open Office uses centimeters when specifying lengths, widths and other measurable formatting and content properties in documents whereas MS Office uses inches.
+
+ **Examples:** 
+
+Shows how to use different measurement units to define style parameters of a saved ODT document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ // When we export the document to .odt, we can use an OdtSaveOptions object to modify how we save the document.
+ // We can set the "MeasureUnit" property to "OdtSaveMeasureUnit.Centimeters"
+ // to define content such as style parameters using the metric system, which Open Office uses.
+ // We can set the "MeasureUnit" property to "OdtSaveMeasureUnit.Inches"
+ // to define content such as style parameters using the imperial system, which Microsoft Word uses.
+ OdtSaveOptions saveOptions = new OdtSaveOptions();
+ {
+     saveOptions.setMeasureUnit(odtSaveMeasureUnit);
+ }
+
+ doc.save(getArtifactsDir() + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
+ 
+```
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [OdtSaveMeasureUnit](../../com.aspose.words/odtsavemeasureunit/) constants.
@@ -273,7 +489,11 @@ public boolean getMemoryOptimization()
 ```
 
 
-Gets value determining if memory optimization should be performed before saving the document. Default value for this property is  false . Setting this option to  true  can significantly decrease memory consumption while saving large documents at the cost of slower saving time.
+Gets value determining if memory optimization should be performed before saving the document. Default value for this property is  false .
+
+ **Remarks:** 
+
+Setting this option to  true  can significantly decrease memory consumption while saving large documents at the cost of slower saving time.
 
 **Returns:**
 boolean - Value determining if memory optimization should be performed before saving the document.
@@ -285,7 +505,43 @@ public String getPassword()
 
 Gets a password to encrypt document.
 
+ **Remarks:** 
+
 In order to save document without encryption this property should be  null  or empty string.
+
+ **Examples:** 
+
+Shows how to encrypt a saved ODT/OTT document with a password, and then load it using Aspose.Words.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Hello world!");
+
+ // Create a new OdtSaveOptions, and pass either "SaveFormat.Odt",
+ // or "SaveFormat.Ott" as the format to save the document in.
+ OdtSaveOptions saveOptions = new OdtSaveOptions(saveFormat);
+ saveOptions.setPassword("@sposeEncrypted_1145");
+
+ String extensionString = FileFormatUtil.saveFormatToExtension(saveFormat);
+
+ // If we open this document with an appropriate editor,
+ // it will prompt us for the password we specified in the SaveOptions object.
+ doc.save(getArtifactsDir() + "OdtSaveOptions.Encrypt" + extensionString, saveOptions);
+
+ FileFormatInfo docInfo = FileFormatUtil.detectFileFormat(getArtifactsDir() + "OdtSaveOptions.Encrypt" + extensionString);
+
+ Assert.assertTrue(docInfo.isEncrypted());
+
+ // If we wish to open or edit this document again using Aspose.Words,
+ // we will have to provide a LoadOptions object with the correct password to the loading constructor.
+ doc = new Document(getArtifactsDir() + "OdtSaveOptions.Encrypt" + extensionString,
+         new LoadOptions("@sposeEncrypted_1145"));
+
+ Assert.assertEquals("Hello world!", doc.getText().trim());
+ 
+```
 
 **Returns:**
 java.lang.String - A password to encrypt document.
@@ -297,7 +553,62 @@ public boolean getPrettyFormat()
 
 When  true , pretty formats output where applicable. Default value is  false .
 
+ **Remarks:** 
+
 Set to  true  to make HTML, MHTML, EPUB, WordML, RTF, DOCX and ODT output human readable. Useful for testing or debugging.
+
+ **Examples:** 
+
+Shows how to enhance the readability of the raw code of a saved .html document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Hello world!");
+
+ HtmlSaveOptions htmlOptions = new HtmlSaveOptions(SaveFormat.HTML);
+ {
+     htmlOptions.setPrettyFormat(usePrettyFormat);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.PrettyFormat.html", htmlOptions);
+
+ // Enabling pretty format makes the raw html code more readable by adding tab stop and new line characters.
+ String html = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.PrettyFormat.html"), StandardCharsets.UTF_8);
+
+ if (usePrettyFormat)
+     Assert.assertEquals(
+             "\r\n" +
+                     "\t\r\n" +
+                     "\t\t\r\n" +
+                     "\t\t\r\n" +
+                     MessageFormat.format("\t\t\r\n", BuildVersionInfo.getProduct(), BuildVersionInfo.getVersion()) +
+                     "\t\t\r\n" +
+                     "\t\t\r\n" +
+                     "\t\r\n" +
+                     "\t\r\n" +
+                     "\t\t \r\n" +
+                     "\t\t\t \r\n" +
+                     "\t\t\t\tHello world!\r\n" +
+                     "\t\t\t\r\n" +
+                     "\t\t\t \r\n" +
+                     "\t\t\t\t \r\n" +
+                     "\t\t\t\r\n" +
+                     "\t\t\r\n" +
+                     "\t\r\n",
+             html);
+ else
+     Assert.assertEquals(
+             "" +
+                     "" +
+                     MessageFormat.format("", BuildVersionInfo.getProduct(), BuildVersionInfo.getVersion()) +
+                     "" +
+                     " Hello world!" +
+                     "  ",
+             html);
+ 
+```
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -309,7 +620,229 @@ public IDocumentSavingCallback getProgressCallback()
 
 Called during saving a document and accepts data about saving progress.
 
+ **Remarks:** 
+
 Progress is reported when saving to [SaveFormat.DOCX](../../com.aspose.words/saveformat/\#DOCX), [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat/\#FLAT-OPC), [SaveFormat.DOCM](../../com.aspose.words/saveformat/\#DOCM), [SaveFormat.DOTM](../../com.aspose.words/saveformat/\#DOTM), [SaveFormat.DOTX](../../com.aspose.words/saveformat/\#DOTX), [SaveFormat.HTML](../../com.aspose.words/saveformat/\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat/\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat/\#EPUB), [SaveFormat.XAML\_FLOW](../../com.aspose.words/saveformat/\#XAML-FLOW), or [SaveFormat.XAML\_FLOW\_PACK](../../com.aspose.words/saveformat/\#XAML-FLOW-PACK).
+
+ **Examples:** 
+
+Shows how to manage a document while saving to xamlflow.
+
+```
+
+ public void progressCallback(int saveFormat, String ext) throws Exception
+ {
+     Document doc = new Document(getMyDir() + "Big document.docx");
+
+     // Following formats are supported: XamlFlow, XamlFlowPack.
+     XamlFlowSaveOptions saveOptions = new XamlFlowSaveOptions(saveFormat);
+     {
+         saveOptions.setProgressCallback(new SavingProgressCallback());
+     }
+
+     try {
+         doc.save(getArtifactsDir() + MessageFormat.format("XamlFlowSaveOptions.ProgressCallback.{0}", ext), saveOptions);
+     }
+     catch (IllegalStateException exception) {
+         Assert.assertTrue(exception.getMessage().contains("EstimatedProgress"));
+     }
+ }
+
+ public static Object[][] progressCallbackDataProvider() throws Exception
+ {
+     return new Object[][]
+             {
+                     {SaveFormat.XAML_FLOW,  "xamlflow"},
+                     {SaveFormat.XAML_FLOW_PACK,  "xamlflowpack"},
+             };
+ }
+
+ /// 
+ /// Saving progress callback. Cancel a document saving after the "MaxDuration" seconds.
+ /// 
+ public static class SavingProgressCallback implements IDocumentSavingCallback
+ {
+     /// 
+     /// Ctr.
+     /// 
+     public SavingProgressCallback()
+     {
+         mSavingStartedAt = new Date();
+     }
+
+     /// 
+     /// Callback method which called during document saving.
+     /// 
+     /// Saving arguments.
+     public void notify(DocumentSavingArgs args)
+     {
+         Date canceledAt = new Date();
+         long diff = canceledAt.getTime() - mSavingStartedAt.getTime();
+         long ellapsedSeconds = TimeUnit.MILLISECONDS.toSeconds(diff);
+
+         if (ellapsedSeconds > MAX_DURATION)
+             throw new IllegalStateException(MessageFormat.format("EstimatedProgress = {0}; CanceledAt = {1}", args.getEstimatedProgress(), canceledAt));
+     }
+
+     /// 
+     /// Date and time when document saving is started.
+     /// 
+     private Date mSavingStartedAt;
+
+     /// 
+     /// Maximum allowed duration in sec.
+     /// 
+     private static final double MAX_DURATION = 0.01d;
+ }
+ 
+```
+
+Shows how to manage a document while saving to html.
+
+```
+
+ public void progressCallback(int saveFormat, String ext) throws Exception
+ {
+     Document doc = new Document(getMyDir() + "Big document.docx");
+
+     // Following formats are supported: Html, Mhtml, Epub.
+     HtmlSaveOptions saveOptions = new HtmlSaveOptions(saveFormat);
+     {
+         saveOptions.setProgressCallback(new SavingProgressCallback());
+     }
+
+     try {
+         doc.save(getArtifactsDir() + MessageFormat.format("HtmlSaveOptions.ProgressCallback.{0}", ext), saveOptions);
+     }
+     catch (IllegalStateException exception) {
+         Assert.assertTrue(exception.getMessage().contains("EstimatedProgress"));
+     }
+
+ }
+
+ public static Object[][] progressCallbackDataProvider() throws Exception
+ {
+     return new Object[][]
+             {
+                     {SaveFormat.HTML,  "html"},
+                     {SaveFormat.MHTML,  "mhtml"},
+                     {SaveFormat.EPUB,  "epub"},
+             };
+ }
+
+ /// 
+ /// Saving progress callback. Cancel a document saving after the "MaxDuration" seconds.
+ /// 
+ public static class SavingProgressCallback implements IDocumentSavingCallback
+ {
+     /// 
+     /// Ctr.
+     /// 
+     public SavingProgressCallback()
+     {
+         mSavingStartedAt = new Date();
+     }
+
+     /// 
+     /// Callback method which called during document saving.
+     /// 
+     /// Saving arguments.
+     public void notify(DocumentSavingArgs args)
+     {
+         Date canceledAt = new Date();
+         long diff = canceledAt.getTime() - mSavingStartedAt.getTime();
+         long ellapsedSeconds = TimeUnit.MILLISECONDS.toSeconds(diff);
+
+         if (ellapsedSeconds > MAX_DURATION)
+             throw new IllegalStateException(MessageFormat.format("EstimatedProgress = {0}; CanceledAt = {1}", args.getEstimatedProgress(), canceledAt));
+     }
+
+     /// 
+     /// Date and time when document saving is started.
+     /// 
+     private Date mSavingStartedAt;
+
+     /// 
+     /// Maximum allowed duration in sec.
+     /// 
+     private static final double MAX_DURATION = 0.01d;
+ }
+ 
+```
+
+Shows how to manage a document while saving to docx.
+
+```
+
+ public void progressCallback(int saveFormat, String ext) throws Exception
+ {
+     Document doc = new Document(getMyDir() + "Big document.docx");
+
+     // Following formats are supported: Docx, FlatOpc, Docm, Dotm, Dotx.
+     OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(saveFormat);
+     {
+         saveOptions.setProgressCallback(new SavingProgressCallback());
+     }
+
+     try {
+         doc.save(getArtifactsDir() + MessageFormat.format("OoxmlSaveOptions.ProgressCallback.{0}", ext), saveOptions);
+     }
+     catch (IllegalStateException exception) {
+         Assert.assertTrue(exception.getMessage().contains("EstimatedProgress"));
+     }
+ }
+
+ public static Object[][] progressCallbackDataProvider() throws Exception
+ {
+     return new Object[][]
+             {
+                     {SaveFormat.DOCX,  "docx"},
+                     {SaveFormat.DOCM,  "docm"},
+                     {SaveFormat.DOTM,  "dotm"},
+                     {SaveFormat.DOTX,  "dotx"},
+                     {SaveFormat.FLAT_OPC,  "flatopc"},
+             };
+ }
+
+ /// 
+ /// Saving progress callback. Cancel a document saving after the "MaxDuration" seconds.
+ /// 
+ public static class SavingProgressCallback implements IDocumentSavingCallback
+ {
+     /// 
+     /// Ctr.
+     /// 
+     public SavingProgressCallback()
+     {
+         mSavingStartedAt = new Date();
+     }
+
+     /// 
+     /// Callback method which called during document saving.
+     /// 
+     /// Saving arguments.
+     public void notify(DocumentSavingArgs args)
+     {
+         Date canceledAt = new Date();
+         long diff = canceledAt.getTime() - mSavingStartedAt.getTime();
+         long ellapsedSeconds = TimeUnit.MILLISECONDS.toSeconds(diff);
+
+         if (ellapsedSeconds > MAX_DURATION)
+             throw new IllegalStateException(MessageFormat.format("EstimatedProgress = {0}; CanceledAt = {1}", args.getEstimatedProgress(), canceledAt));
+     }
+
+     /// 
+     /// Date and time when document saving is started.
+     /// 
+     private Date mSavingStartedAt;
+
+     /// 
+     /// Maximum allowed duration in sec.
+     /// 
+     private static final double MAX_DURATION = 0.01d;
+ }
+ 
+```
 
 **Returns:**
 [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback/) - The corresponding [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback/) value.
@@ -321,6 +854,40 @@ public int getSaveFormat()
 
 Specifies the format in which the document will be saved if this save options object is used. Can be [SaveFormat.ODT](../../com.aspose.words/saveformat/\#ODT) or [SaveFormat.OTT](../../com.aspose.words/saveformat/\#OTT).
 
+ **Examples:** 
+
+Shows how to encrypt a saved ODT/OTT document with a password, and then load it using Aspose.Words.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Hello world!");
+
+ // Create a new OdtSaveOptions, and pass either "SaveFormat.Odt",
+ // or "SaveFormat.Ott" as the format to save the document in.
+ OdtSaveOptions saveOptions = new OdtSaveOptions(saveFormat);
+ saveOptions.setPassword("@sposeEncrypted_1145");
+
+ String extensionString = FileFormatUtil.saveFormatToExtension(saveFormat);
+
+ // If we open this document with an appropriate editor,
+ // it will prompt us for the password we specified in the SaveOptions object.
+ doc.save(getArtifactsDir() + "OdtSaveOptions.Encrypt" + extensionString, saveOptions);
+
+ FileFormatInfo docInfo = FileFormatUtil.detectFileFormat(getArtifactsDir() + "OdtSaveOptions.Encrypt" + extensionString);
+
+ Assert.assertTrue(docInfo.isEncrypted());
+
+ // If we wish to open or edit this document again using Aspose.Words,
+ // we will have to provide a LoadOptions object with the correct password to the loading constructor.
+ doc = new Document(getArtifactsDir() + "OdtSaveOptions.Encrypt" + extensionString,
+         new LoadOptions("@sposeEncrypted_1145"));
+
+ Assert.assertEquals("Hello world!", doc.getText().trim());
+ 
+```
+
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [SaveFormat](../../com.aspose.words/saveformat/) constants.
 ### getTempFolder() {#getTempFolder}
@@ -331,6 +898,8 @@ public String getTempFolder()
 
 Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is  null  and no temporary files are used.
 
+ **Remarks:** 
+
 When Aspose.Words saves a document, it needs to create temporary internal structures. By default, these internal structures are created in memory and the memory usage spikes for a short period while the document is being saved. When saving is complete, the memory is freed and reclaimed by the garbage collector.
 
 If you are saving a very large document (thousands of pages) and/or processing many documents at the same time, then the memory spike during saving can be significant enough to cause the system to throw java.lang.IndexOutOfBoundsException. Specifying a temporary folder using [getTempFolder()](../../com.aspose.words/saveoptions/\#getTempFolder) / [setTempFolder(java.lang.String)](../../com.aspose.words/saveoptions/\#setTempFolder-java.lang.String) will cause Aspose.Words to keep the internal structures in temporary files instead of memory. It reduces the memory usage during saving, but will decrease the save performance.
@@ -338,6 +907,30 @@ If you are saving a very large document (thousands of pages) and/or processing m
 The folder must exist and be writable, otherwise an exception will be thrown.
 
 Aspose.Words automatically deletes all temporary files when saving is complete.
+
+ **Examples:** 
+
+Shows how to use the hard drive instead of memory when saving a document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ // When we save a document, various elements are temporarily stored in memory as the save operation is taking place.
+ // We can use this option to use a temporary folder in the local file system instead,
+ // which will reduce our application's memory overhead.
+ DocSaveOptions options = new DocSaveOptions();
+ options.setTempFolder(getArtifactsDir() + "TempFiles");
+
+ // The specified temporary folder must exist in the local file system before the save operation.
+ new File(options.getTempFolder()).mkdir();
+
+ doc.save(getArtifactsDir() + "DocSaveOptions.TempFolder.doc", options);
+
+ // The folder will persist with no residual contents from the load operation.
+ Assert.assertEquals(new File(options.getTempFolder()).listFiles().length, 0);
+ 
+```
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
@@ -357,7 +950,11 @@ public boolean getUpdateFields()
 ```
 
 
-Gets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is  true . Allows to specify whether to mimic or not MS Word behavior.
+Gets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is  true .
+
+ **Remarks:** 
+
+Allows to specify whether to mimic or not MS Word behavior.
 
 **Returns:**
 boolean - A value determining if fields of certain types should be updated before saving the document to a fixed page format.
@@ -369,6 +966,50 @@ public boolean getUpdateLastPrintedProperty()
 
 Gets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties/\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastPrinted-java.util.Date) property is updated before saving.
 
+ **Examples:** 
+
+Shows how to update a document's "CreatedTime" property when saving.
+
+```
+
+ Document doc = new Document();
+
+ Calendar calendar = Calendar.getInstance();
+ calendar.set(2019, 11, 20);
+ doc.getBuiltInDocumentProperties().setCreatedTime(calendar.getTime());
+
+ // This flag determines whether the created time, which is a built-in property, is updated.
+ // If so, then the date of the document's most recent save operation
+ // with this SaveOptions object passed as a parameter is used as the created time.
+ DocSaveOptions saveOptions = new DocSaveOptions();
+ saveOptions.setUpdateCreatedTimeProperty(isUpdateCreatedTimeProperty);
+
+ doc.save(getArtifactsDir() + "DocSaveOptions.UpdateCreatedTimeProperty.docx", saveOptions);
+ 
+```
+
+Shows how to update a document's "Last printed" property when saving.
+
+```
+
+ Document doc = new Document();
+
+ Calendar calendar = Calendar.getInstance();
+ calendar.set(2019, 11, 20);
+ doc.getBuiltInDocumentProperties().setLastPrinted(calendar.getTime());
+
+ // This flag determines whether the last printed date, which is a built-in property, is updated.
+ // If so, then the date of the document's most recent save operation
+ // with this SaveOptions object passed as a parameter is used as the print date.
+ DocSaveOptions saveOptions = new DocSaveOptions();
+ saveOptions.setUpdateLastPrintedProperty(isUpdateLastPrintedProperty);
+
+ // In Microsoft Word 2003, this property can be found via File -> Properties -> Statistics -> Printed.
+ // It can also be displayed in the document's body by using a PRINTDATE field.
+ doc.save(getArtifactsDir() + "DocSaveOptions.UpdateLastPrintedProperty.doc", saveOptions);
+ 
+```
+
 **Returns:**
 boolean - A value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties/\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastPrinted-java.util.Date) property is updated before saving.
 ### getUpdateLastSavedTimeProperty() {#getUpdateLastSavedTimeProperty}
@@ -379,6 +1020,27 @@ public boolean getUpdateLastSavedTimeProperty()
 
 Gets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties/\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastSavedTime-java.util.Date) property is updated before saving.
 
+ **Examples:** 
+
+Shows how to determine whether to preserve the document's "Last saved time" property when saving.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ // When we save the document to an OOXML format, we can create an OoxmlSaveOptions object
+ // and then pass it to the document's saving method to modify how we save the document.
+ // Set the "UpdateLastSavedTimeProperty" property to "true" to
+ // set the output document's "Last saved time" built-in property to the current date/time.
+ // Set the "UpdateLastSavedTimeProperty" property to "false" to
+ // preserve the original value of the input document's "Last saved time" built-in property.
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+ saveOptions.setUpdateLastSavedTimeProperty(updateLastSavedTimeProperty);
+
+ doc.save(getArtifactsDir() + "OoxmlSaveOptions.LastSavedTime.docx", saveOptions);
+ 
+```
+
 **Returns:**
 boolean - A value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties/\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastSavedTime-java.util.Date) property is updated before saving.
 ### getUpdateSdtContent() {#getUpdateSdtContent}
@@ -387,7 +1049,36 @@ public boolean getUpdateSdtContent()
 ```
 
 
-Gets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) is updated before saving. The default value is  false .
+Gets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) is updated before saving.
+
+ **Remarks:** 
+
+The default value is  false .
+
+ **Examples:** 
+
+Shows how to update structured document tags while saving a document to PDF.
+
+```
+
+ Document doc = new Document();
+
+ // Insert a drop-down list structured document tag.
+ StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.DROP_DOWN_LIST, MarkupLevel.BLOCK);
+ tag.getListItems().add(new SdtListItem("Value 1"));
+ tag.getListItems().add(new SdtListItem("Value 2"));
+ tag.getListItems().add(new SdtListItem("Value 3"));
+
+ // The drop-down list currently displays "Choose an item" as the default text.
+ // Set the "SelectedValue" property to one of the list items to get the tag to
+ // display that list item's value instead of the default text.
+ tag.getListItems().setSelectedValue(tag.getListItems().get(1));
+
+ doc.getFirstSection().getBody().appendChild(tag);
+
+ doc.save(getArtifactsDir() + "StructuredDocumentTag.UpdateSdtContent.pdf");
+ 
+```
 
 **Returns:**
 boolean - Value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) is updated before saving.
@@ -399,9 +1090,33 @@ public boolean getUseAntiAliasing()
 
 Gets a value determining whether or not to use anti-aliasing for rendering.
 
+ **Remarks:** 
+
 The default value is  false . When this value is set to  true  anti-aliasing is used for rendering.
 
 This property is used when the document is exported to the following formats: [SaveFormat.TIFF](../../com.aspose.words/saveformat/\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat/\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat/\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat/\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat/\#EMF). When the document is exported to the [SaveFormat.HTML](../../com.aspose.words/saveformat/\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat/\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat/\#EPUB), [SaveFormat.AZW\_3](../../com.aspose.words/saveformat/\#AZW-3) or [SaveFormat.MOBI](../../com.aspose.words/saveformat/\#MOBI) formats this option is used for raster images.
+
+ **Examples:** 
+
+Shows how to improve the quality of a rendered document with SaveOptions.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setSize(60.0);
+ builder.writeln("Some text.");
+
+ SaveOptions options = new ImageSaveOptions(SaveFormat.JPEG);
+ doc.save(getArtifactsDir() + "Document.ImageSaveOptions.Default.jpg", options);
+
+ options.setUseAntiAliasing(true);
+ options.setUseHighQualityRendering(true);
+
+ doc.save(getArtifactsDir() + "Document.ImageSaveOptions.HighQuality.jpg", options);
+ 
+```
 
 **Returns:**
 boolean - A value determining whether or not to use anti-aliasing for rendering.
@@ -411,9 +1126,35 @@ public boolean getUseHighQualityRendering()
 ```
 
 
-Gets a value determining whether or not to use high quality (i.e. slow) rendering algorithms. The default value is  false .
+Gets a value determining whether or not to use high quality (i.e. slow) rendering algorithms.
+
+ **Remarks:** 
+
+The default value is  false .
 
 This property is used when the document is exported to image formats: [SaveFormat.TIFF](../../com.aspose.words/saveformat/\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat/\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat/\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat/\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat/\#EMF).
+
+ **Examples:** 
+
+Shows how to improve the quality of a rendered document with SaveOptions.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setSize(60.0);
+ builder.writeln("Some text.");
+
+ SaveOptions options = new ImageSaveOptions(SaveFormat.JPEG);
+ doc.save(getArtifactsDir() + "Document.ImageSaveOptions.Default.jpg", options);
+
+ options.setUseAntiAliasing(true);
+ options.setUseHighQualityRendering(true);
+
+ doc.save(getArtifactsDir() + "Document.ImageSaveOptions.HighQuality.jpg", options);
+ 
+```
 
 **Returns:**
 boolean - A value determining whether or not to use high quality (i.e.
@@ -435,6 +1176,24 @@ public boolean isStrictSchema11()
 
 Specifies whether export should correspond to ODT specification 1.1 strictly. OOo 3.0 displays files correctly when they contain elements and attributes of ODT 1.2. Use "false" for this purpose, or "true" for strict conformity of specification 1.1. The default value is  false .
 
+ **Examples:** 
+
+Shows how to make a saved document conform to an older ODT schema.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ OdtSaveOptions saveOptions = new OdtSaveOptions();
+ {
+     saveOptions.setMeasureUnit(OdtSaveMeasureUnit.CENTIMETERS);
+     saveOptions.isStrictSchema11(exportToOdt11Specs);
+ }
+
+ doc.save(getArtifactsDir() + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
+ 
+```
+
 **Returns:**
 boolean - The corresponding  boolean  value.
 ### isStrictSchema11(boolean value) {#isStrictSchema11-boolean}
@@ -444,6 +1203,24 @@ public void isStrictSchema11(boolean value)
 
 
 Specifies whether export should correspond to ODT specification 1.1 strictly. OOo 3.0 displays files correctly when they contain elements and attributes of ODT 1.2. Use "false" for this purpose, or "true" for strict conformity of specification 1.1. The default value is  false .
+
+ **Examples:** 
+
+Shows how to make a saved document conform to an older ODT schema.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ OdtSaveOptions saveOptions = new OdtSaveOptions();
+ {
+     saveOptions.setMeasureUnit(OdtSaveMeasureUnit.CENTIMETERS);
+     saveOptions.isStrictSchema11(exportToOdt11Specs);
+ }
+
+ doc.save(getArtifactsDir() + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -474,9 +1251,40 @@ public void setAllowEmbeddingPostScriptFonts(boolean value)
 
 Sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is  false .
 
+ **Remarks:** 
+
 Note, Word does not embed PostScript fonts, but can open documents with embedded fonts of this type.
 
 This option only works when [FontInfoCollection.getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection/\#getEmbedTrueTypeFonts) / [FontInfoCollection.setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection/\#setEmbedTrueTypeFonts-boolean) of the [DocumentBase.getFontInfos()](../../com.aspose.words/documentbase/\#getFontInfos) property is set to  true .
+
+ **Examples:** 
+
+Shows how to save the document with PostScript font.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setName("PostScriptFont");
+ builder.writeln("Some text with PostScript font.");
+
+ // Load the font with PostScript to use in the document.
+ MemoryFontSource otf = new MemoryFontSource(DocumentHelper.getBytesFromStream(new FileInputStream(getFontsDir() + "AllegroOpen.otf")));
+ doc.setFontSettings(new FontSettings());
+ doc.getFontSettings().setFontsSources(new FontSourceBase[]{otf});
+
+ // Embed TrueType fonts.
+ doc.getFontInfos().setEmbedTrueTypeFonts(true);
+
+ // Allow embedding PostScript fonts while embedding TrueType fonts.
+ // Microsoft Word does not embed PostScript fonts, but can open documents with embedded fonts of this type.
+ SaveOptions saveOptions = SaveOptions.createSaveOptions(SaveFormat.DOCX);
+ saveOptions.setAllowEmbeddingPostScriptFonts(true);
+
+ doc.save(getArtifactsDir() + "Document.AllowEmbeddingPostScriptFonts.docx", saveOptions);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -489,7 +1297,34 @@ public void setDefaultTemplate(String value)
 ```
 
 
-Sets path to default template (including filename). Default value for this property is **empty string**. If specified, this path is used to load template when [Document.getAutomaticallyUpdateStyles()](../../com.aspose.words/document/\#getAutomaticallyUpdateStyles) / [Document.setAutomaticallyUpdateStyles(boolean)](../../com.aspose.words/document/\#setAutomaticallyUpdateStyles-boolean) is  true , but [Document.getAttachedTemplate()](../../com.aspose.words/document/\#getAttachedTemplate) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document/\#setAttachedTemplate-java.lang.String) is empty.
+Sets path to default template (including filename). Default value for this property is **empty string**.
+
+ **Remarks:** 
+
+If specified, this path is used to load template when [Document.getAutomaticallyUpdateStyles()](../../com.aspose.words/document/\#getAutomaticallyUpdateStyles) / [Document.setAutomaticallyUpdateStyles(boolean)](../../com.aspose.words/document/\#setAutomaticallyUpdateStyles-boolean) is  true , but [Document.getAttachedTemplate()](../../com.aspose.words/document/\#getAttachedTemplate) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document/\#setAttachedTemplate-java.lang.String) is empty.
+
+ **Examples:** 
+
+Shows how to set a default template for documents that do not have attached templates.
+
+```
+
+ Document doc = new Document();
+
+ // Enable automatic style updating, but do not attach a template document.
+ doc.setAutomaticallyUpdateStyles(true);
+
+ Assert.assertEquals("", doc.getAttachedTemplate());
+
+ // Since there is no template document, the document had nowhere to track style changes.
+ // Use a SaveOptions object to automatically set a template
+ // if a document that we are saving does not have one.
+ SaveOptions options = SaveOptions.createSaveOptions("Document.DefaultTemplate.docx");
+ options.setDefaultTemplate(getMyDir() + "Business brochure.dotx");
+
+ doc.save(getArtifactsDir() + "Document.DefaultTemplate.docx", options);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -502,7 +1337,11 @@ public void setDml3DEffectsRenderingMode(int value)
 ```
 
 
-Sets a value determining how 3D effects are rendered. The default value is [Dml3DEffectsRenderingMode.BASIC](../../com.aspose.words/dml3deffectsrenderingmode/\#BASIC).
+Sets a value determining how 3D effects are rendered.
+
+ **Remarks:** 
+
+The default value is [Dml3DEffectsRenderingMode.BASIC](../../com.aspose.words/dml3deffectsrenderingmode/\#BASIC).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -515,7 +1354,11 @@ public void setDmlEffectsRenderingMode(int value)
 ```
 
 
-Sets a value determining how DrawingML effects are rendered. The default value is [DmlEffectsRenderingMode.SIMPLIFIED](../../com.aspose.words/dmleffectsrenderingmode/\#SIMPLIFIED).
+Sets a value determining how DrawingML effects are rendered.
+
+ **Remarks:** 
+
+The default value is [DmlEffectsRenderingMode.SIMPLIFIED](../../com.aspose.words/dmleffectsrenderingmode/\#SIMPLIFIED).
 
 This property is used when the document is exported to fixed page formats.
 
@@ -530,7 +1373,11 @@ public void setDmlRenderingMode(int value)
 ```
 
 
-Sets a value determining how DrawingML shapes are rendered. The default value is [DmlRenderingMode.FALLBACK](../../com.aspose.words/dmlrenderingmode/\#FALLBACK).
+Sets a value determining how DrawingML shapes are rendered.
+
+ **Remarks:** 
+
+The default value is [DmlRenderingMode.FALLBACK](../../com.aspose.words/dmlrenderingmode/\#FALLBACK).
 
 This property is used when the document is exported to fixed page formats.
 
@@ -547,6 +1394,21 @@ public void setExportGeneratorName(boolean value)
 
 When  true , causes the name and version of Aspose.Words to be embedded into produced files. Default value is  true .
 
+ **Examples:** 
+
+Shows how to disable adding name and version of Aspose.Words into produced files.
+
+```
+
+ Document doc = new Document();
+
+ // Use https://docs.aspose.com/words/net/generator-or-producer-name-included-in-output-documents/ to know how to check the result.
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(); { saveOptions.setExportGeneratorName(false); }
+
+ doc.save(getArtifactsDir() + "OoxmlSaveOptions.ExportGeneratorName.docx", saveOptions);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -558,9 +1420,33 @@ public void setImlRenderingMode(int value)
 ```
 
 
-Sets a value determining how ink (InkML) objects are rendered. The default value is [ImlRenderingMode.INK\_ML](../../com.aspose.words/imlrenderingmode/\#INK-ML).
+Sets a value determining how ink (InkML) objects are rendered.
+
+ **Remarks:** 
+
+The default value is [ImlRenderingMode.INK\_ML](../../com.aspose.words/imlrenderingmode/\#INK-ML).
 
 This property is used when the document is exported to fixed page formats.
+
+ **Examples:** 
+
+Shows how to render Ink object.
+
+```
+
+ Document doc = new Document(getMyDir() + "Ink object.docx");
+
+ // Set 'ImlRenderingMode.InkML' ignores fall-back shape of ink (InkML) object and renders InkML itself.
+ // If the rendering result is unsatisfactory,
+ // please use 'ImlRenderingMode.Fallback' to get a result similar to previous versions.
+ ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.JPEG);
+ {
+     saveOptions.setImlRenderingMode(ImlRenderingMode.INK_ML);
+ }
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.RenderInkObject.jpeg", saveOptions);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -573,7 +1459,33 @@ public void setMeasureUnit(int value)
 ```
 
 
-Allows to specify units of measure to apply to document content. The default value is [OdtSaveMeasureUnit.CENTIMETERS](../../com.aspose.words/odtsavemeasureunit/\#CENTIMETERS) Open Office uses centimeters when specifying lengths, widths and other measurable formatting and content properties in documents whereas MS Office uses inches.
+Allows to specify units of measure to apply to document content. The default value is [OdtSaveMeasureUnit.CENTIMETERS](../../com.aspose.words/odtsavemeasureunit/\#CENTIMETERS)
+
+ **Remarks:** 
+
+Open Office uses centimeters when specifying lengths, widths and other measurable formatting and content properties in documents whereas MS Office uses inches.
+
+ **Examples:** 
+
+Shows how to use different measurement units to define style parameters of a saved ODT document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ // When we export the document to .odt, we can use an OdtSaveOptions object to modify how we save the document.
+ // We can set the "MeasureUnit" property to "OdtSaveMeasureUnit.Centimeters"
+ // to define content such as style parameters using the metric system, which Open Office uses.
+ // We can set the "MeasureUnit" property to "OdtSaveMeasureUnit.Inches"
+ // to define content such as style parameters using the imperial system, which Microsoft Word uses.
+ OdtSaveOptions saveOptions = new OdtSaveOptions();
+ {
+     saveOptions.setMeasureUnit(odtSaveMeasureUnit);
+ }
+
+ doc.save(getArtifactsDir() + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -586,7 +1498,11 @@ public void setMemoryOptimization(boolean value)
 ```
 
 
-Sets value determining if memory optimization should be performed before saving the document. Default value for this property is  false . Setting this option to  true  can significantly decrease memory consumption while saving large documents at the cost of slower saving time.
+Sets value determining if memory optimization should be performed before saving the document. Default value for this property is  false .
+
+ **Remarks:** 
+
+Setting this option to  true  can significantly decrease memory consumption while saving large documents at the cost of slower saving time.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -601,7 +1517,43 @@ public void setPassword(String value)
 
 Sets a password to encrypt document.
 
+ **Remarks:** 
+
 In order to save document without encryption this property should be  null  or empty string.
+
+ **Examples:** 
+
+Shows how to encrypt a saved ODT/OTT document with a password, and then load it using Aspose.Words.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Hello world!");
+
+ // Create a new OdtSaveOptions, and pass either "SaveFormat.Odt",
+ // or "SaveFormat.Ott" as the format to save the document in.
+ OdtSaveOptions saveOptions = new OdtSaveOptions(saveFormat);
+ saveOptions.setPassword("@sposeEncrypted_1145");
+
+ String extensionString = FileFormatUtil.saveFormatToExtension(saveFormat);
+
+ // If we open this document with an appropriate editor,
+ // it will prompt us for the password we specified in the SaveOptions object.
+ doc.save(getArtifactsDir() + "OdtSaveOptions.Encrypt" + extensionString, saveOptions);
+
+ FileFormatInfo docInfo = FileFormatUtil.detectFileFormat(getArtifactsDir() + "OdtSaveOptions.Encrypt" + extensionString);
+
+ Assert.assertTrue(docInfo.isEncrypted());
+
+ // If we wish to open or edit this document again using Aspose.Words,
+ // we will have to provide a LoadOptions object with the correct password to the loading constructor.
+ doc = new Document(getArtifactsDir() + "OdtSaveOptions.Encrypt" + extensionString,
+         new LoadOptions("@sposeEncrypted_1145"));
+
+ Assert.assertEquals("Hello world!", doc.getText().trim());
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -616,7 +1568,62 @@ public void setPrettyFormat(boolean value)
 
 When  true , pretty formats output where applicable. Default value is  false .
 
+ **Remarks:** 
+
 Set to  true  to make HTML, MHTML, EPUB, WordML, RTF, DOCX and ODT output human readable. Useful for testing or debugging.
+
+ **Examples:** 
+
+Shows how to enhance the readability of the raw code of a saved .html document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Hello world!");
+
+ HtmlSaveOptions htmlOptions = new HtmlSaveOptions(SaveFormat.HTML);
+ {
+     htmlOptions.setPrettyFormat(usePrettyFormat);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.PrettyFormat.html", htmlOptions);
+
+ // Enabling pretty format makes the raw html code more readable by adding tab stop and new line characters.
+ String html = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.PrettyFormat.html"), StandardCharsets.UTF_8);
+
+ if (usePrettyFormat)
+     Assert.assertEquals(
+             "\r\n" +
+                     "\t\r\n" +
+                     "\t\t\r\n" +
+                     "\t\t\r\n" +
+                     MessageFormat.format("\t\t\r\n", BuildVersionInfo.getProduct(), BuildVersionInfo.getVersion()) +
+                     "\t\t\r\n" +
+                     "\t\t\r\n" +
+                     "\t\r\n" +
+                     "\t\r\n" +
+                     "\t\t \r\n" +
+                     "\t\t\t \r\n" +
+                     "\t\t\t\tHello world!\r\n" +
+                     "\t\t\t\r\n" +
+                     "\t\t\t \r\n" +
+                     "\t\t\t\t \r\n" +
+                     "\t\t\t\r\n" +
+                     "\t\t\r\n" +
+                     "\t\r\n",
+             html);
+ else
+     Assert.assertEquals(
+             "" +
+                     "" +
+                     MessageFormat.format("", BuildVersionInfo.getProduct(), BuildVersionInfo.getVersion()) +
+                     "" +
+                     " Hello world!" +
+                     "  ",
+             html);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -631,7 +1638,229 @@ public void setProgressCallback(IDocumentSavingCallback value)
 
 Called during saving a document and accepts data about saving progress.
 
+ **Remarks:** 
+
 Progress is reported when saving to [SaveFormat.DOCX](../../com.aspose.words/saveformat/\#DOCX), [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat/\#FLAT-OPC), [SaveFormat.DOCM](../../com.aspose.words/saveformat/\#DOCM), [SaveFormat.DOTM](../../com.aspose.words/saveformat/\#DOTM), [SaveFormat.DOTX](../../com.aspose.words/saveformat/\#DOTX), [SaveFormat.HTML](../../com.aspose.words/saveformat/\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat/\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat/\#EPUB), [SaveFormat.XAML\_FLOW](../../com.aspose.words/saveformat/\#XAML-FLOW), or [SaveFormat.XAML\_FLOW\_PACK](../../com.aspose.words/saveformat/\#XAML-FLOW-PACK).
+
+ **Examples:** 
+
+Shows how to manage a document while saving to xamlflow.
+
+```
+
+ public void progressCallback(int saveFormat, String ext) throws Exception
+ {
+     Document doc = new Document(getMyDir() + "Big document.docx");
+
+     // Following formats are supported: XamlFlow, XamlFlowPack.
+     XamlFlowSaveOptions saveOptions = new XamlFlowSaveOptions(saveFormat);
+     {
+         saveOptions.setProgressCallback(new SavingProgressCallback());
+     }
+
+     try {
+         doc.save(getArtifactsDir() + MessageFormat.format("XamlFlowSaveOptions.ProgressCallback.{0}", ext), saveOptions);
+     }
+     catch (IllegalStateException exception) {
+         Assert.assertTrue(exception.getMessage().contains("EstimatedProgress"));
+     }
+ }
+
+ public static Object[][] progressCallbackDataProvider() throws Exception
+ {
+     return new Object[][]
+             {
+                     {SaveFormat.XAML_FLOW,  "xamlflow"},
+                     {SaveFormat.XAML_FLOW_PACK,  "xamlflowpack"},
+             };
+ }
+
+ /// 
+ /// Saving progress callback. Cancel a document saving after the "MaxDuration" seconds.
+ /// 
+ public static class SavingProgressCallback implements IDocumentSavingCallback
+ {
+     /// 
+     /// Ctr.
+     /// 
+     public SavingProgressCallback()
+     {
+         mSavingStartedAt = new Date();
+     }
+
+     /// 
+     /// Callback method which called during document saving.
+     /// 
+     /// Saving arguments.
+     public void notify(DocumentSavingArgs args)
+     {
+         Date canceledAt = new Date();
+         long diff = canceledAt.getTime() - mSavingStartedAt.getTime();
+         long ellapsedSeconds = TimeUnit.MILLISECONDS.toSeconds(diff);
+
+         if (ellapsedSeconds > MAX_DURATION)
+             throw new IllegalStateException(MessageFormat.format("EstimatedProgress = {0}; CanceledAt = {1}", args.getEstimatedProgress(), canceledAt));
+     }
+
+     /// 
+     /// Date and time when document saving is started.
+     /// 
+     private Date mSavingStartedAt;
+
+     /// 
+     /// Maximum allowed duration in sec.
+     /// 
+     private static final double MAX_DURATION = 0.01d;
+ }
+ 
+```
+
+Shows how to manage a document while saving to html.
+
+```
+
+ public void progressCallback(int saveFormat, String ext) throws Exception
+ {
+     Document doc = new Document(getMyDir() + "Big document.docx");
+
+     // Following formats are supported: Html, Mhtml, Epub.
+     HtmlSaveOptions saveOptions = new HtmlSaveOptions(saveFormat);
+     {
+         saveOptions.setProgressCallback(new SavingProgressCallback());
+     }
+
+     try {
+         doc.save(getArtifactsDir() + MessageFormat.format("HtmlSaveOptions.ProgressCallback.{0}", ext), saveOptions);
+     }
+     catch (IllegalStateException exception) {
+         Assert.assertTrue(exception.getMessage().contains("EstimatedProgress"));
+     }
+
+ }
+
+ public static Object[][] progressCallbackDataProvider() throws Exception
+ {
+     return new Object[][]
+             {
+                     {SaveFormat.HTML,  "html"},
+                     {SaveFormat.MHTML,  "mhtml"},
+                     {SaveFormat.EPUB,  "epub"},
+             };
+ }
+
+ /// 
+ /// Saving progress callback. Cancel a document saving after the "MaxDuration" seconds.
+ /// 
+ public static class SavingProgressCallback implements IDocumentSavingCallback
+ {
+     /// 
+     /// Ctr.
+     /// 
+     public SavingProgressCallback()
+     {
+         mSavingStartedAt = new Date();
+     }
+
+     /// 
+     /// Callback method which called during document saving.
+     /// 
+     /// Saving arguments.
+     public void notify(DocumentSavingArgs args)
+     {
+         Date canceledAt = new Date();
+         long diff = canceledAt.getTime() - mSavingStartedAt.getTime();
+         long ellapsedSeconds = TimeUnit.MILLISECONDS.toSeconds(diff);
+
+         if (ellapsedSeconds > MAX_DURATION)
+             throw new IllegalStateException(MessageFormat.format("EstimatedProgress = {0}; CanceledAt = {1}", args.getEstimatedProgress(), canceledAt));
+     }
+
+     /// 
+     /// Date and time when document saving is started.
+     /// 
+     private Date mSavingStartedAt;
+
+     /// 
+     /// Maximum allowed duration in sec.
+     /// 
+     private static final double MAX_DURATION = 0.01d;
+ }
+ 
+```
+
+Shows how to manage a document while saving to docx.
+
+```
+
+ public void progressCallback(int saveFormat, String ext) throws Exception
+ {
+     Document doc = new Document(getMyDir() + "Big document.docx");
+
+     // Following formats are supported: Docx, FlatOpc, Docm, Dotm, Dotx.
+     OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(saveFormat);
+     {
+         saveOptions.setProgressCallback(new SavingProgressCallback());
+     }
+
+     try {
+         doc.save(getArtifactsDir() + MessageFormat.format("OoxmlSaveOptions.ProgressCallback.{0}", ext), saveOptions);
+     }
+     catch (IllegalStateException exception) {
+         Assert.assertTrue(exception.getMessage().contains("EstimatedProgress"));
+     }
+ }
+
+ public static Object[][] progressCallbackDataProvider() throws Exception
+ {
+     return new Object[][]
+             {
+                     {SaveFormat.DOCX,  "docx"},
+                     {SaveFormat.DOCM,  "docm"},
+                     {SaveFormat.DOTM,  "dotm"},
+                     {SaveFormat.DOTX,  "dotx"},
+                     {SaveFormat.FLAT_OPC,  "flatopc"},
+             };
+ }
+
+ /// 
+ /// Saving progress callback. Cancel a document saving after the "MaxDuration" seconds.
+ /// 
+ public static class SavingProgressCallback implements IDocumentSavingCallback
+ {
+     /// 
+     /// Ctr.
+     /// 
+     public SavingProgressCallback()
+     {
+         mSavingStartedAt = new Date();
+     }
+
+     /// 
+     /// Callback method which called during document saving.
+     /// 
+     /// Saving arguments.
+     public void notify(DocumentSavingArgs args)
+     {
+         Date canceledAt = new Date();
+         long diff = canceledAt.getTime() - mSavingStartedAt.getTime();
+         long ellapsedSeconds = TimeUnit.MILLISECONDS.toSeconds(diff);
+
+         if (ellapsedSeconds > MAX_DURATION)
+             throw new IllegalStateException(MessageFormat.format("EstimatedProgress = {0}; CanceledAt = {1}", args.getEstimatedProgress(), canceledAt));
+     }
+
+     /// 
+     /// Date and time when document saving is started.
+     /// 
+     private Date mSavingStartedAt;
+
+     /// 
+     /// Maximum allowed duration in sec.
+     /// 
+     private static final double MAX_DURATION = 0.01d;
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -646,6 +1875,40 @@ public void setSaveFormat(int value)
 
 Specifies the format in which the document will be saved if this save options object is used. Can be [SaveFormat.ODT](../../com.aspose.words/saveformat/\#ODT) or [SaveFormat.OTT](../../com.aspose.words/saveformat/\#OTT).
 
+ **Examples:** 
+
+Shows how to encrypt a saved ODT/OTT document with a password, and then load it using Aspose.Words.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Hello world!");
+
+ // Create a new OdtSaveOptions, and pass either "SaveFormat.Odt",
+ // or "SaveFormat.Ott" as the format to save the document in.
+ OdtSaveOptions saveOptions = new OdtSaveOptions(saveFormat);
+ saveOptions.setPassword("@sposeEncrypted_1145");
+
+ String extensionString = FileFormatUtil.saveFormatToExtension(saveFormat);
+
+ // If we open this document with an appropriate editor,
+ // it will prompt us for the password we specified in the SaveOptions object.
+ doc.save(getArtifactsDir() + "OdtSaveOptions.Encrypt" + extensionString, saveOptions);
+
+ FileFormatInfo docInfo = FileFormatUtil.detectFileFormat(getArtifactsDir() + "OdtSaveOptions.Encrypt" + extensionString);
+
+ Assert.assertTrue(docInfo.isEncrypted());
+
+ // If we wish to open or edit this document again using Aspose.Words,
+ // we will have to provide a LoadOptions object with the correct password to the loading constructor.
+ doc = new Document(getArtifactsDir() + "OdtSaveOptions.Encrypt" + extensionString,
+         new LoadOptions("@sposeEncrypted_1145"));
+
+ Assert.assertEquals("Hello world!", doc.getText().trim());
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -659,6 +1922,8 @@ public void setTempFolder(String value)
 
 Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is  null  and no temporary files are used.
 
+ **Remarks:** 
+
 When Aspose.Words saves a document, it needs to create temporary internal structures. By default, these internal structures are created in memory and the memory usage spikes for a short period while the document is being saved. When saving is complete, the memory is freed and reclaimed by the garbage collector.
 
 If you are saving a very large document (thousands of pages) and/or processing many documents at the same time, then the memory spike during saving can be significant enough to cause the system to throw java.lang.IndexOutOfBoundsException. Specifying a temporary folder using [getTempFolder()](../../com.aspose.words/saveoptions/\#getTempFolder) / [setTempFolder(java.lang.String)](../../com.aspose.words/saveoptions/\#setTempFolder-java.lang.String) will cause Aspose.Words to keep the internal structures in temporary files instead of memory. It reduces the memory usage during saving, but will decrease the save performance.
@@ -666,6 +1931,30 @@ If you are saving a very large document (thousands of pages) and/or processing m
 The folder must exist and be writable, otherwise an exception will be thrown.
 
 Aspose.Words automatically deletes all temporary files when saving is complete.
+
+ **Examples:** 
+
+Shows how to use the hard drive instead of memory when saving a document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ // When we save a document, various elements are temporarily stored in memory as the save operation is taking place.
+ // We can use this option to use a temporary folder in the local file system instead,
+ // which will reduce our application's memory overhead.
+ DocSaveOptions options = new DocSaveOptions();
+ options.setTempFolder(getArtifactsDir() + "TempFiles");
+
+ // The specified temporary folder must exist in the local file system before the save operation.
+ new File(options.getTempFolder()).mkdir();
+
+ doc.save(getArtifactsDir() + "DocSaveOptions.TempFolder.doc", options);
+
+ // The folder will persist with no residual contents from the load operation.
+ Assert.assertEquals(new File(options.getTempFolder()).listFiles().length, 0);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -691,7 +1980,11 @@ public void setUpdateFields(boolean value)
 ```
 
 
-Sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is  true . Allows to specify whether to mimic or not MS Word behavior.
+Sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is  true .
+
+ **Remarks:** 
+
+Allows to specify whether to mimic or not MS Word behavior.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -706,6 +1999,50 @@ public void setUpdateLastPrintedProperty(boolean value)
 
 Sets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties/\#getLastPrinted) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastPrinted-java.util.Date) property is updated before saving.
 
+ **Examples:** 
+
+Shows how to update a document's "CreatedTime" property when saving.
+
+```
+
+ Document doc = new Document();
+
+ Calendar calendar = Calendar.getInstance();
+ calendar.set(2019, 11, 20);
+ doc.getBuiltInDocumentProperties().setCreatedTime(calendar.getTime());
+
+ // This flag determines whether the created time, which is a built-in property, is updated.
+ // If so, then the date of the document's most recent save operation
+ // with this SaveOptions object passed as a parameter is used as the created time.
+ DocSaveOptions saveOptions = new DocSaveOptions();
+ saveOptions.setUpdateCreatedTimeProperty(isUpdateCreatedTimeProperty);
+
+ doc.save(getArtifactsDir() + "DocSaveOptions.UpdateCreatedTimeProperty.docx", saveOptions);
+ 
+```
+
+Shows how to update a document's "Last printed" property when saving.
+
+```
+
+ Document doc = new Document();
+
+ Calendar calendar = Calendar.getInstance();
+ calendar.set(2019, 11, 20);
+ doc.getBuiltInDocumentProperties().setLastPrinted(calendar.getTime());
+
+ // This flag determines whether the last printed date, which is a built-in property, is updated.
+ // If so, then the date of the document's most recent save operation
+ // with this SaveOptions object passed as a parameter is used as the print date.
+ DocSaveOptions saveOptions = new DocSaveOptions();
+ saveOptions.setUpdateLastPrintedProperty(isUpdateLastPrintedProperty);
+
+ // In Microsoft Word 2003, this property can be found via File -> Properties -> Statistics -> Printed.
+ // It can also be displayed in the document's body by using a PRINTDATE field.
+ doc.save(getArtifactsDir() + "DocSaveOptions.UpdateLastPrintedProperty.doc", saveOptions);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -719,6 +2056,27 @@ public void setUpdateLastSavedTimeProperty(boolean value)
 
 Sets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties/\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastSavedTime-java.util.Date) property is updated before saving.
 
+ **Examples:** 
+
+Shows how to determine whether to preserve the document's "Last saved time" property when saving.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ // When we save the document to an OOXML format, we can create an OoxmlSaveOptions object
+ // and then pass it to the document's saving method to modify how we save the document.
+ // Set the "UpdateLastSavedTimeProperty" property to "true" to
+ // set the output document's "Last saved time" built-in property to the current date/time.
+ // Set the "UpdateLastSavedTimeProperty" property to "false" to
+ // preserve the original value of the input document's "Last saved time" built-in property.
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
+ saveOptions.setUpdateLastSavedTimeProperty(updateLastSavedTimeProperty);
+
+ doc.save(getArtifactsDir() + "OoxmlSaveOptions.LastSavedTime.docx", saveOptions);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -730,7 +2088,36 @@ public void setUpdateSdtContent(boolean value)
 ```
 
 
-Sets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) is updated before saving. The default value is  false .
+Sets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) is updated before saving.
+
+ **Remarks:** 
+
+The default value is  false .
+
+ **Examples:** 
+
+Shows how to update structured document tags while saving a document to PDF.
+
+```
+
+ Document doc = new Document();
+
+ // Insert a drop-down list structured document tag.
+ StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.DROP_DOWN_LIST, MarkupLevel.BLOCK);
+ tag.getListItems().add(new SdtListItem("Value 1"));
+ tag.getListItems().add(new SdtListItem("Value 2"));
+ tag.getListItems().add(new SdtListItem("Value 3"));
+
+ // The drop-down list currently displays "Choose an item" as the default text.
+ // Set the "SelectedValue" property to one of the list items to get the tag to
+ // display that list item's value instead of the default text.
+ tag.getListItems().setSelectedValue(tag.getListItems().get(1));
+
+ doc.getFirstSection().getBody().appendChild(tag);
+
+ doc.save(getArtifactsDir() + "StructuredDocumentTag.UpdateSdtContent.pdf");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -745,9 +2132,33 @@ public void setUseAntiAliasing(boolean value)
 
 Sets a value determining whether or not to use anti-aliasing for rendering.
 
+ **Remarks:** 
+
 The default value is  false . When this value is set to  true  anti-aliasing is used for rendering.
 
 This property is used when the document is exported to the following formats: [SaveFormat.TIFF](../../com.aspose.words/saveformat/\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat/\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat/\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat/\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat/\#EMF). When the document is exported to the [SaveFormat.HTML](../../com.aspose.words/saveformat/\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat/\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat/\#EPUB), [SaveFormat.AZW\_3](../../com.aspose.words/saveformat/\#AZW-3) or [SaveFormat.MOBI](../../com.aspose.words/saveformat/\#MOBI) formats this option is used for raster images.
+
+ **Examples:** 
+
+Shows how to improve the quality of a rendered document with SaveOptions.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setSize(60.0);
+ builder.writeln("Some text.");
+
+ SaveOptions options = new ImageSaveOptions(SaveFormat.JPEG);
+ doc.save(getArtifactsDir() + "Document.ImageSaveOptions.Default.jpg", options);
+
+ options.setUseAntiAliasing(true);
+ options.setUseHighQualityRendering(true);
+
+ doc.save(getArtifactsDir() + "Document.ImageSaveOptions.HighQuality.jpg", options);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -760,9 +2171,35 @@ public void setUseHighQualityRendering(boolean value)
 ```
 
 
-Sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms. The default value is  false .
+Sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms.
+
+ **Remarks:** 
+
+The default value is  false .
 
 This property is used when the document is exported to image formats: [SaveFormat.TIFF](../../com.aspose.words/saveformat/\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat/\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat/\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat/\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat/\#EMF).
+
+ **Examples:** 
+
+Shows how to improve the quality of a rendered document with SaveOptions.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().setSize(60.0);
+ builder.writeln("Some text.");
+
+ SaveOptions options = new ImageSaveOptions(SaveFormat.JPEG);
+ doc.save(getArtifactsDir() + "Document.ImageSaveOptions.Default.jpg", options);
+
+ options.setUseAntiAliasing(true);
+ options.setUseHighQualityRendering(true);
+
+ doc.save(getArtifactsDir() + "Document.ImageSaveOptions.HighQuality.jpg", options);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |

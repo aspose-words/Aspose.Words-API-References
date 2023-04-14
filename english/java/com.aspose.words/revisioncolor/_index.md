@@ -4,7 +4,7 @@ linktitle: RevisionColor
 second_title: Aspose.Words for Java API Reference
 description: Allows to specify color of document revisions in Java.
 type: docs
-weight: 491
+weight: 494
 url: /java/com.aspose.words/revisioncolor/
 ---
 
@@ -15,6 +15,30 @@ public class RevisionColor
 ```
 
 Allows to specify color of document revisions.
+
+ **Examples:** 
+
+Shows how to alter the appearance of revisions in a rendered output document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a revision, then change the color of all revisions to green.
+ builder.writeln("This is not a revision.");
+ doc.startTrackRevisions("John Doe", new Date());
+ builder.writeln("This is a revision.");
+ doc.stopTrackRevisions();
+ builder.writeln("This is not a revision.");
+
+ // Remove the bar that appears to the left of every revised line.
+ doc.getLayoutOptions().getRevisionOptions().setInsertedTextColor(RevisionColor.BRIGHT_GREEN);
+ doc.getLayoutOptions().getRevisionOptions().setShowRevisionBars(false);
+
+ doc.save(getArtifactsDir() + "Document.LayoutOptionsRevisions.pdf");
+ 
+```
 ## Fields
 
 | Field | Description |

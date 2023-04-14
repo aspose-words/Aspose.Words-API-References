@@ -4,7 +4,7 @@ linktitle: SvgTextOutputMode
 second_title: Aspose.Words for Java API Reference
 description: Allows to specify how text inside a document should be rendered when saving in SVG format in Java.
 type: docs
-weight: 548
+weight: 551
 url: /java/com.aspose.words/svgtextoutputmode/
 ---
 
@@ -15,6 +15,26 @@ public class SvgTextOutputMode
 ```
 
 Allows to specify how text inside a document should be rendered when saving in SVG format.
+
+ **Examples:** 
+
+Shows how to mimic the properties of images when converting a .docx document to .svg.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ // Configure the SvgSaveOptions object to save with no page borders or selectable text.
+ SvgSaveOptions options = new SvgSaveOptions();
+ {
+     options.setFitToViewPort(true);
+     options.setShowPageBorder(false);
+     options.setTextOutputMode(SvgTextOutputMode.USE_PLACED_GLYPHS);
+ }
+
+ doc.save(getArtifactsDir() + "SvgSaveOptions.SaveLikeImage.svg", options);
+ 
+```
 ## Fields
 
 | Field | Description |

@@ -4,7 +4,7 @@ linktitle: RevisionsView
 second_title: Aspose.Words for Java API Reference
 description: Allows to specify whether to work with the original or revised version of a document in Java.
 type: docs
-weight: 497
+weight: 500
 url: /java/com.aspose.words/revisionsview/
 ---
 
@@ -15,6 +15,29 @@ public class RevisionsView
 ```
 
 Allows to specify whether to work with the original or revised version of a document.
+
+ **Examples:** 
+
+Shows how to switch between the revised and the original view of a document.
+
+```
+
+ Document doc = new Document(getMyDir() + "Revisions at list levels.docx");
+ doc.updateListLabels();
+
+ ParagraphCollection paragraphs = doc.getFirstSection().getBody().getParagraphs();
+ Assert.assertEquals("1.", paragraphs.get(0).getListLabel().getLabelString());
+ Assert.assertEquals("a.", paragraphs.get(1).getListLabel().getLabelString());
+ Assert.assertEquals("", paragraphs.get(2).getListLabel().getLabelString());
+
+ // View the document object as if all the revisions are accepted. Currently supports list labels.
+ doc.setRevisionsView(RevisionsView.FINAL);
+
+ Assert.assertEquals("", paragraphs.get(0).getListLabel().getLabelString());
+ Assert.assertEquals("1.", paragraphs.get(1).getListLabel().getLabelString());
+ Assert.assertEquals("a.", paragraphs.get(2).getListLabel().getLabelString());
+ 
+```
 ## Fields
 
 | Field | Description |

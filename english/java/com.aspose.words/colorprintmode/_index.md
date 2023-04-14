@@ -4,7 +4,7 @@ linktitle: ColorPrintMode
 second_title: Aspose.Words for Java API Reference
 description: Specifies how non-colored pages are printed if the device supports color printing in Java.
 type: docs
-weight: 76
+weight: 77
 url: /java/com.aspose.words/colorprintmode/
 ---
 
@@ -45,7 +45,11 @@ public static int GRAYSCALE_AUTO
 ```
 
 
-Non-colored pages if detected are printed in grayscale. PageSettings\#getColor().getColor() / PageSettings\#setColor(boolean).setColor(boolean) is automatically set false for detected non-colored pages. If the printer does not support color printing, this setting is ignored.
+Non-colored pages if detected are printed in grayscale.
+
+ **Remarks:** 
+
+PageSettings\#getColor().getColor() / PageSettings\#setColor(boolean).setColor(boolean) is automatically set false for detected non-colored pages. If the printer does not support color printing, this setting is ignored.
 
 ### NORMAL {#NORMAL}
 ```

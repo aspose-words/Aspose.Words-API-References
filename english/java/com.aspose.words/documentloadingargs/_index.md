@@ -2,9 +2,9 @@
 title: DocumentLoadingArgs
 linktitle: DocumentLoadingArgs
 second_title: Aspose.Words for Java API Reference
-description: An argument passed into in Java.
+description: An argument passed into IDocumentLoadingCallback.notifycom.aspose.words.DocumentLoadingArgs in Java.
 type: docs
-weight: 125
+weight: 126
 url: /java/com.aspose.words/documentloadingargs/
 ---
 

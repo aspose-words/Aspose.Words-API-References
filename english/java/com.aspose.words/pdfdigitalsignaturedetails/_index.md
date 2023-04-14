@@ -4,7 +4,7 @@ linktitle: PdfDigitalSignatureDetails
 second_title: Aspose.Words for Java API Reference
 description: Contains details for signing a PDF document with a digital signature in Java.
 type: docs
-weight: 457
+weight: 458
 url: /java/com.aspose.words/pdfdigitalsignaturedetails/
 ---
 
@@ -15,6 +15,8 @@ public class PdfDigitalSignatureDetails
 ```
 
 Contains details for signing a PDF document with a digital signature.
+
+ **Remarks:** 
 
 At the moment digitally signing PDF documents is only available on .NET 2.0 or higher.
 
@@ -117,7 +119,11 @@ public int getHashAlgorithm()
 ```
 
 
-Gets the hash algorithm. The default value is the SHA-256 algorithm.
+Gets the hash algorithm.
+
+ **Remarks:** 
+
+The default value is the SHA-256 algorithm.
 
 **Returns:**
 int - The hash algorithm. The returned value is one of [PdfDigitalSignatureHashAlgorithm](../../com.aspose.words/pdfdigitalsignaturehashalgorithm/) constants.
@@ -127,7 +133,11 @@ public String getLocation()
 ```
 
 
-Gets the location of the signing. The default value is  null .
+Gets the location of the signing.
+
+ **Remarks:** 
+
+The default value is  null .
 
 **Returns:**
 java.lang.String - The location of the signing.
@@ -137,7 +147,11 @@ public String getReason()
 ```
 
 
-Gets the reason for the signing. The default value is  null .
+Gets the reason for the signing.
+
+ **Remarks:** 
+
+The default value is  null .
 
 **Returns:**
 java.lang.String - The reason for the signing.
@@ -148,6 +162,8 @@ public Date getSignatureDate()
 
 
 Gets the date of the signing.
+
+ **Remarks:** 
 
 The default value is the current time.
 
@@ -162,6 +178,8 @@ public PdfDigitalSignatureTimestampSettings getTimestampSettings()
 
 
 Gets the digital signature timestamp settings.
+
+ **Remarks:** 
 
 The default value is  null  and the digital signature will not be time-stamped. When this property is set to a valid [PdfDigitalSignatureTimestampSettings](../../com.aspose.words/pdfdigitalsignaturetimestampsettings/) object, then the digital signature in the PDF document will be time-stamped.
 
@@ -212,7 +230,11 @@ public void setHashAlgorithm(int value)
 ```
 
 
-Sets the hash algorithm. The default value is the SHA-256 algorithm.
+Sets the hash algorithm.
+
+ **Remarks:** 
+
+The default value is the SHA-256 algorithm.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -225,7 +247,11 @@ public void setLocation(String value)
 ```
 
 
-Sets the location of the signing. The default value is  null .
+Sets the location of the signing.
+
+ **Remarks:** 
+
+The default value is  null .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -238,7 +264,11 @@ public void setReason(String value)
 ```
 
 
-Sets the reason for the signing. The default value is  null .
+Sets the reason for the signing.
+
+ **Remarks:** 
+
+The default value is  null .
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -252,6 +282,8 @@ public void setSignatureDate(Date value)
 
 
 Sets the date of the signing.
+
+ **Remarks:** 
 
 The default value is the current time.
 
@@ -269,6 +301,8 @@ public void setTimestampSettings(PdfDigitalSignatureTimestampSettings value)
 
 
 Sets the digital signature timestamp settings.
+
+ **Remarks:** 
 
 The default value is  null  and the digital signature will not be time-stamped. When this property is set to a valid [PdfDigitalSignatureTimestampSettings](../../com.aspose.words/pdfdigitalsignaturetimestampsettings/) object, then the digital signature in the PDF document will be time-stamped.
 

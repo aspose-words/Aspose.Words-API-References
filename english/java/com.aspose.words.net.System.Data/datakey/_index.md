@@ -2,7 +2,7 @@
 title: DataKey
 linktitle: DataKey
 second_title: Aspose.Words for Java API Reference
-description: Represents a DataKey created from not duplicated in Java.
+description: Represents a DataKey created from not duplicated DataColumn in Java.
 type: docs
 weight: 17
 url: /java/com.aspose.words.net.system.data/datakey/
@@ -79,7 +79,7 @@ public System.Data.DataTable getTable()
 
 
 **Returns:**
-[DataTable](../../com.aspose.words.net.system.data/datatable/) - \{[DataTable](../../com.aspose.words.net.system.data/datatable/) connected to DataKey
+[DataTable](../../com.aspose.words.net.system.data/datatable/) - [DataTable](../../com.aspose.words.net.system.data/datatable/) connected to DataKey
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()

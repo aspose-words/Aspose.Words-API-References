@@ -4,7 +4,7 @@ linktitle: FieldUpdatingProgressArgs
 second_title: Aspose.Words for Java API Reference
 description: Provides data for the field updating progress event in Java.
 type: docs
-weight: 260
+weight: 261
 url: /java/com.aspose.words/fieldupdatingprogressargs/
 ---
 
@@ -62,7 +62,11 @@ public int getTotalFieldsCount()
 ```
 
 
-Gets the total fields count to be updated. The value is not constant and may be increased during updating process.
+Gets the total fields count to be updated.
+
+ **Remarks:** 
+
+The value is not constant and may be increased during updating process.
 
 **Returns:**
 int - The total fields count to be updated.

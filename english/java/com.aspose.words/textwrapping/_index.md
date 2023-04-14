@@ -4,7 +4,7 @@ linktitle: TextWrapping
 second_title: Aspose.Words for Java API Reference
 description: Specifies how text is wrapped around the table in Java.
 type: docs
-weight: 576
+weight: 579
 url: /java/com.aspose.words/textwrapping/
 ---
 
@@ -15,6 +15,36 @@ public class TextWrapping
 ```
 
 Specifies how text is wrapped around the table.
+
+ **Examples:** 
+
+Shows how to work with table text wrapping.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Cell 1");
+ builder.insertCell();
+ builder.write("Cell 2");
+ builder.endTable();
+ table.setPreferredWidth(PreferredWidth.fromPoints(300.0));
+
+ builder.getFont().setSize(16.0);
+ builder.writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+
+ // Set the "TextWrapping" property to "TextWrapping.Around" to get the table to wrap text around it,
+ // and push it down into the paragraph below by setting the position.
+ table.setTextWrapping(TextWrapping.AROUND);
+ table.setAbsoluteHorizontalDistance(100.0);
+ table.setAbsoluteVerticalDistance(20.0);
+
+ doc.save(getArtifactsDir() + "Table.WrapText.docx");
+ 
+```
 ## Fields
 
 | Field | Description |

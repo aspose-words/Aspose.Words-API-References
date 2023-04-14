@@ -2,9 +2,9 @@
 title: PdfCustomPropertiesExport
 linktitle: PdfCustomPropertiesExport
 second_title: Aspose.Words for Java API Reference
-description: Specifies the way  are exported to PDF file in Java.
+description: Specifies the way Document.getCustomDocumentProperties are exported to PDF file in Java.
 type: docs
-weight: 456
+weight: 457
 url: /java/com.aspose.words/pdfcustompropertiesexport/
 ---
 
@@ -48,6 +48,8 @@ public static int METADATA
 
 Custom properties are Metadata.
 
+ **Remarks:** 
+
 The namespace of exported properties in XMP packet is "custprops". Every property has an associated xml-element "custprops:Property1", "custprops:Property2" and so on. There is "rdf:Description" element inside property element. The description element has two elements "custprops:Name", containing custom property's name as a value of this xml-element, and "custprops:Value", containing custom property's value as value of this xml-element.
 
 ### NONE {#NONE}
@@ -65,6 +67,8 @@ public static int STANDARD
 
 
 Custom properties are exported as entries in /Info dictionary.
+
+ **Remarks:** 
 
 Custom properties with the following names are not exported: "Title", "Author", "Subject", "Keywords", "Creator", "Producer", "CreationDate", "ModDate", "Trapped".
 

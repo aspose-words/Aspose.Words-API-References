@@ -4,7 +4,7 @@ linktitle: XmlDataSource
 second_title: Aspose.Words for Java API Reference
 description: Provides access to data of an XML file or stream to be used within a report in Java.
 type: docs
-weight: 634
+weight: 637
 url: /java/com.aspose.words/xmldatasource/
 ---
 
@@ -17,6 +17,8 @@ public class XmlDataSource
 Provides access to data of an XML file or stream to be used within a report.
 
 To learn more, visit the [ LINQ Reporting Engine ][LINQ Reporting Engine] documentation article.
+
+ **Remarks:** 
 
 To access data of the corresponding file or stream while generating a report, pass an instance of this class as a data source to one of [ReportingEngine](../../com.aspose.words/reportingengine/). buildReport overloads.
 

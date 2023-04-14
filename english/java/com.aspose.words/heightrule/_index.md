@@ -4,7 +4,7 @@ linktitle: HeightRule
 second_title: Aspose.Words for Java API Reference
 description: Specifies the rule for determining the height of an object in Java.
 type: docs
-weight: 321
+weight: 322
 url: /java/com.aspose.words/heightrule/
 ---
 
@@ -15,6 +15,42 @@ public class HeightRule
 ```
 
 Specifies the rule for determining the height of an object.
+
+ **Examples:** 
+
+Shows how to format rows with a document builder.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Row 1, cell 1.");
+
+ // Start a second row, and then configure its height. The builder will apply these settings to
+ // its current row, as well as any new rows it creates afterwards.
+ builder.endRow();
+
+ RowFormat rowFormat = builder.getRowFormat();
+ rowFormat.setHeight(100.0);
+ rowFormat.setHeightRule(HeightRule.EXACTLY);
+
+ builder.insertCell();
+ builder.write("Row 2, cell 1.");
+ builder.endTable();
+
+ // The first row was unaffected by the padding reconfiguration and still holds the default values.
+ Assert.assertEquals(0.0d, table.getRows().get(0).getRowFormat().getHeight());
+ Assert.assertEquals(HeightRule.AUTO, table.getRows().get(0).getRowFormat().getHeightRule());
+
+ Assert.assertEquals(100.0d, table.getRows().get(1).getRowFormat().getHeight());
+ Assert.assertEquals(HeightRule.EXACTLY, table.getRows().get(1).getRowFormat().getHeightRule());
+
+ doc.save(getArtifactsDir() + "DocumentBuilder.SetRowFormatting.docx");
+ 
+```
 ## Fields
 
 | Field | Description |

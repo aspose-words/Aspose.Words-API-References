@@ -4,7 +4,7 @@ linktitle: HtmlMetafileFormat
 second_title: Aspose.Words for Java API Reference
 description: Indicates the format in which metafiles are saved to HTML documents in Java.
 type: docs
-weight: 331
+weight: 332
 url: /java/com.aspose.words/htmlmetafileformat/
 ---
 
@@ -15,6 +15,54 @@ public class HtmlMetafileFormat
 ```
 
 Indicates the format in which metafiles are saved to HTML documents.
+
+ **Examples:** 
+
+Shows how to convert SVG objects to a different format when saving HTML documents.
+
+```
+
+ String html =
+         "\r\n                    \r\n                        Hello world!\r\n                    \r\n                ";
+
+ Document doc = new Document(new ByteArrayInputStream(html.getBytes()));
+
+ // This document contains a  element in the form of text.
+ // When we save the document to HTML, we can pass a SaveOptions object
+ // to determine how the saving operation handles this object.
+ // Setting the "MetafileFormat" property to "HtmlMetafileFormat.Png" to convert it to a PNG image.
+ // Setting the "MetafileFormat" property to "HtmlMetafileFormat.Svg" preserve it as a SVG object.
+ // Setting the "MetafileFormat" property to "HtmlMetafileFormat.EmfOrWmf" to convert it to a metafile.
+ HtmlSaveOptions options = new HtmlSaveOptions();
+ {
+     options.setMetafileFormat(htmlMetafileFormat);
+ }
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.MetafileFormat.html", options);
+
+ String outDocContents = FileUtils.readFileToString(new File(getArtifactsDir() + "HtmlSaveOptions.MetafileFormat.html"), StandardCharsets.UTF_8);
+
+ switch (htmlMetafileFormat) {
+     case HtmlMetafileFormat.PNG:
+         Assert.assertTrue(outDocContents.contains(
+                 " " +
+                         "" +
+                         ""));
+         break;
+     case HtmlMetafileFormat.SVG:
+         Assert.assertTrue(outDocContents.contains(
+                 "" +
+                         ""));
+         break;
+     case HtmlMetafileFormat.EMF_OR_WMF:
+         Assert.assertTrue(outDocContents.contains(
+                 " " +
+                         "" +
+                         ""));
+         break;
+ }
+ 
+```
 ## Fields
 
 | Field | Description |

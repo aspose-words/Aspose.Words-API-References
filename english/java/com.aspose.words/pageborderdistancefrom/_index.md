@@ -4,7 +4,7 @@ linktitle: PageBorderDistanceFrom
 second_title: Aspose.Words for Java API Reference
 description: Specifies the positioning of the page border relative to the page margin in Java.
 type: docs
-weight: 439
+weight: 440
 url: /java/com.aspose.words/pageborderdistancefrom/
 ---
 
@@ -15,6 +15,29 @@ public class PageBorderDistanceFrom
 ```
 
 Specifies the positioning of the page border relative to the page margin.
+
+ **Examples:** 
+
+Shows how to create a wide blue band border at the top of the first page.
+
+```
+
+ Document doc = new Document();
+
+ PageSetup pageSetup = doc.getSections().get(0).getPageSetup();
+ pageSetup.setBorderAlwaysInFront(false);
+ pageSetup.setBorderDistanceFrom(PageBorderDistanceFrom.PAGE_EDGE);
+ pageSetup.setBorderAppliesTo(PageBorderAppliesTo.FIRST_PAGE);
+
+ Border border = pageSetup.getBorders().getByBorderType(BorderType.TOP);
+ border.setLineStyle(LineStyle.SINGLE);
+ border.setLineWidth(30.0);
+ border.setColor(Color.BLUE);
+ border.setDistanceFromText(0.0);
+
+ doc.save(getArtifactsDir() + "PageSetup.PageBorderProperties.docx");
+ 
+```
 ## Fields
 
 | Field | Description |

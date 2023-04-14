@@ -4,7 +4,7 @@ linktitle: ImagePixelFormat
 second_title: Aspose.Words for Java API Reference
 description: Specifies the pixel format for the generated images of document pages in Java.
 type: docs
-weight: 341
+weight: 342
 url: /java/com.aspose.words/imagepixelformat/
 ---
 
@@ -15,6 +15,48 @@ public class ImagePixelFormat
 ```
 
 Specifies the pixel format for the generated images of document pages.
+
+ **Examples:** 
+
+Shows how to select a bit-per-pixel rate with which to render a document to an image.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("Heading 1"));
+ builder.writeln("Hello world!");
+ builder.insertImage(getImageDir() + "Logo.jpg");
+
+ Assert.assertTrue(new File(getImageDir() + "Logo.jpg").length() < 21000);
+
+ // When we save the document as an image, we can pass a SaveOptions object to
+ // select a pixel format for the image that the saving operation will generate.
+ // Various bit per pixel rates will affect the quality and file size of the generated image.
+ ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.PNG);
+ imageSaveOptions.setPixelFormat(imagePixelFormat);
+
+ // We can clone ImageSaveOptions instances.
+ Assert.assertNotEquals(imageSaveOptions, imageSaveOptions.deepClone());
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.PixelFormat.png", imageSaveOptions);
+
+ switch (imagePixelFormat) {
+     case ImagePixelFormat.FORMAT_1_BPP_INDEXED:
+         Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.PixelFormat.png").length() <= 10000);
+         break;
+     case ImagePixelFormat.FORMAT_16_BPP_RGB_555:
+     case ImagePixelFormat.FORMAT_32_BPP_RGB:
+     case ImagePixelFormat.FORMAT_48_BPP_RGB:
+         Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.PixelFormat.png").length() < 156000);
+         break;
+     case ImagePixelFormat.FORMAT_24_BPP_RGB:
+         Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.PixelFormat.png").length() < 146000);
+         break;
+ }
+ 
+```
 ## Fields
 
 | Field | Description |

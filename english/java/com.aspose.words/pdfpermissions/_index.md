@@ -4,7 +4,7 @@ linktitle: PdfPermissions
 second_title: Aspose.Words for Java API Reference
 description: Specifies the operations that are allowed to a user on an encrypted PDF document in Java.
 type: docs
-weight: 466
+weight: 467
 url: /java/com.aspose.words/pdfpermissions/
 ---
 

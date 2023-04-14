@@ -4,7 +4,7 @@ linktitle: DmlRenderingMode
 second_title: Aspose.Words for Java API Reference
 description: Specifies how DrawingML shapes are rendered to fixed page formats in Java.
 type: docs
-weight: 119
+weight: 120
 url: /java/com.aspose.words/dmlrenderingmode/
 ---
 
@@ -53,7 +53,11 @@ public static int FALLBACK
 ```
 
 
-If fall-back shape is available for DrawingML, Aspose.Words renders fall-back shape instead of the DrawingML. Please note that after saving a document to a fixed page format with fall-back DML rendering mode, DML shapes in the AW document model are permanently replaced with their fall-back counterparts. As a result, saving the same document again will always use fall-back shapes, even if [DmlRenderingMode](../../com.aspose.words/dmlrenderingmode/) is set to [DRAWING\_ML](../../com.aspose.words/dmlrenderingmode/\#DRAWING-ML).
+If fall-back shape is available for DrawingML, Aspose.Words renders fall-back shape instead of the DrawingML.
+
+ **Remarks:** 
+
+Please note that after saving a document to a fixed page format with fall-back DML rendering mode, DML shapes in the AW document model are permanently replaced with their fall-back counterparts. As a result, saving the same document again will always use fall-back shapes, even if [DmlRenderingMode](../../com.aspose.words/dmlrenderingmode/) is set to [DRAWING\_ML](../../com.aspose.words/dmlrenderingmode/\#DRAWING-ML).
 
 ### length {#length}
 ```

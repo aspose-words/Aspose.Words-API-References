@@ -4,7 +4,7 @@ linktitle: ImlRenderingMode
 second_title: Aspose.Words for Java API Reference
 description: Specifies how ink InkML objects are rendered to fixed page formats in Java.
 type: docs
-weight: 347
+weight: 348
 url: /java/com.aspose.words/imlrenderingmode/
 ---
 
@@ -15,6 +15,26 @@ public class ImlRenderingMode
 ```
 
 Specifies how ink (InkML) objects are rendered to fixed page formats.
+
+ **Examples:** 
+
+Shows how to render Ink object.
+
+```
+
+ Document doc = new Document(getMyDir() + "Ink object.docx");
+
+ // Set 'ImlRenderingMode.InkML' ignores fall-back shape of ink (InkML) object and renders InkML itself.
+ // If the rendering result is unsatisfactory,
+ // please use 'ImlRenderingMode.Fallback' to get a result similar to previous versions.
+ ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.JPEG);
+ {
+     saveOptions.setImlRenderingMode(ImlRenderingMode.INK_ML);
+ }
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.RenderInkObject.jpeg", saveOptions);
+ 
+```
 ## Fields
 
 | Field | Description |
@@ -45,7 +65,11 @@ public static int FALLBACK
 ```
 
 
-If fall-back shape is available for ink (InkML) object, Aspose.Words renders fall-back shape instead of the InkML. Please note that after saving a document to a fixed page format with fall-back rendering mode, InkML objects in the AW document model are permanently replaced with their fall-back counterparts. As a result, saving the same document again will always use fall-back shapes, even if [ImlRenderingMode](../../com.aspose.words/imlrenderingmode/) is set to [INK\_ML](../../com.aspose.words/imlrenderingmode/\#INK-ML).
+If fall-back shape is available for ink (InkML) object, Aspose.Words renders fall-back shape instead of the InkML.
+
+ **Remarks:** 
+
+Please note that after saving a document to a fixed page format with fall-back rendering mode, InkML objects in the AW document model are permanently replaced with their fall-back counterparts. As a result, saving the same document again will always use fall-back shapes, even if [ImlRenderingMode](../../com.aspose.words/imlrenderingmode/) is set to [INK\_ML](../../com.aspose.words/imlrenderingmode/\#INK-ML).
 
 ### INK_ML {#INK-ML}
 ```

@@ -4,7 +4,7 @@ linktitle: Granularity
 second_title: Aspose.Words for Java API Reference
 description: Specifies the granularity of changes to track when comparing two documents in Java.
 type: docs
-weight: 314
+weight: 315
 url: /java/com.aspose.words/granularity/
 ---
 
@@ -15,6 +15,33 @@ public class Granularity
 ```
 
 Specifies the granularity of changes to track when comparing two documents.
+
+ **Examples:** 
+
+Shows to specify a granularity while comparing documents.
+
+```
+
+ Document docA = new Document();
+ DocumentBuilder builderA = new DocumentBuilder(docA);
+ builderA.writeln("Alpha Lorem ipsum dolor sit amet, consectetur adipiscing elit");
+
+ Document docB = new Document();
+ DocumentBuilder builderB = new DocumentBuilder(docB);
+ builderB.writeln("Lorems ipsum dolor sit amet consectetur - \"adipiscing\" elit");
+
+ // Specify whether changes are tracking
+ // by character ('Granularity.CharLevel'), or by word ('Granularity.WordLevel').
+ CompareOptions compareOptions = new CompareOptions();
+ compareOptions.setGranularity(granularity);
+
+ docA.compare(docB, "author", new Date(), compareOptions);
+
+ // The first document's collection of revision groups contains all the differences between documents.
+ RevisionGroupCollection groups = docA.getRevisions().getGroups();
+ Assert.assertEquals(5, groups.getCount());
+ 
+```
 ## Fields
 
 | Field | Description |

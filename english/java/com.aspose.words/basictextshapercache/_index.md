@@ -2,7 +2,7 @@
 title: BasicTextShaperCache
 linktitle: BasicTextShaperCache
 second_title: Aspose.Words for Java API Reference
-description: Implements basic cache for  instances in Java.
+description: Implements basic cache for ITextShaper instances in Java.
 type: docs
 weight: 28
 url: /java/com.aspose.words/basictextshapercache/

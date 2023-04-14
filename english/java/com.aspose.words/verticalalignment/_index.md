@@ -4,7 +4,7 @@ linktitle: VerticalAlignment
 second_title: Aspose.Words for Java API Reference
 description: Specifies vertical alignment of a floating shape text frame or a floating table in Java.
 type: docs
-weight: 606
+weight: 609
 url: /java/com.aspose.words/verticalalignment/
 ---
 
@@ -15,6 +15,28 @@ public class VerticalAlignment
 ```
 
 Specifies vertical alignment of a floating shape, text frame or a floating table.
+
+ **Examples:** 
+
+Shows how to insert a floating image to the center of a page.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Insert a floating image that will appear behind the overlapping text and align it to the page's center.
+ Shape shape = builder.insertImage(getImageDir() + "Logo.jpg");
+ shape.setWrapType(WrapType.NONE);
+ shape.setBehindText(true);
+ shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.PAGE);
+ shape.setRelativeVerticalPosition(RelativeVerticalPosition.PAGE);
+ shape.setHorizontalAlignment(HorizontalAlignment.CENTER);
+ shape.setVerticalAlignment(VerticalAlignment.CENTER);
+
+ doc.save(getArtifactsDir() + "Image.CreateFloatingPageCenter.docx");
+ 
+```
 ## Fields
 
 | Field | Description |

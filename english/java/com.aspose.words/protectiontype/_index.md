@@ -4,7 +4,7 @@ linktitle: ProtectionType
 second_title: Aspose.Words for Java API Reference
 description: Protection type for a document in Java.
 type: docs
-weight: 476
+weight: 477
 url: /java/com.aspose.words/protectiontype/
 ---
 
@@ -15,6 +15,34 @@ public class ProtectionType
 ```
 
 Protection type for a document.
+
+ **Examples:** 
+
+Shows how to turn off protection for a section.
+
+```
+
+ Document doc = new Document();
+
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("Section 1. Hello world!");
+ builder.insertBreak(BreakType.SECTION_BREAK_NEW_PAGE);
+
+ builder.writeln("Section 2. Hello again!");
+ builder.write("Please enter text here: ");
+ builder.insertTextInput("TextInput1", TextFormFieldType.REGULAR, "", "Placeholder text", 0);
+
+ // Apply write protection to every section in the document.
+ doc.protect(ProtectionType.ALLOW_ONLY_FORM_FIELDS);
+
+ // Turn off write protection for the first section.
+ doc.getSections().get(0).setProtectedForForms(false);
+
+ // In this output document, we will be able to edit the first section freely,
+ // and we will only be able to edit the contents of the form field in the second section.
+ doc.save(getArtifactsDir() + "Section.Protect.docx");
+ 
+```
 ## Fields
 
 | Field | Description |

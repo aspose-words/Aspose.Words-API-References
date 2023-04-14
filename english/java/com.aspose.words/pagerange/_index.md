@@ -4,7 +4,7 @@ linktitle: PageRange
 second_title: Aspose.Words for Java API Reference
 description: Represents a continuous range of pages in Java.
 type: docs
-weight: 443
+weight: 444
 url: /java/com.aspose.words/pagerange/
 ---
 
@@ -50,7 +50,27 @@ Creates a new page range object.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | from | int | The starting page zero-based index. |
-| to | int | The ending page zero-based index. If it exceeds the index of the last page in the document, it is truncated to fit in the document on rendering.  means the last page in the document. |
+| to | int | The ending page zero-based index. If it exceeds the index of the last page in the document, it is truncated to fit in the document on rendering.
+
+ **Remarks:** 
+
+ means the last page in the document.
+
+ **Examples:** 
+
+Shows how to extract pages based on exact page ranges.
+
+```
+
+ Document doc = new Document(getMyDir() + "Images.docx");
+
+ ImageSaveOptions imageOptions = new ImageSaveOptions(SaveFormat.TIFF);
+ PageSet pageSet = new PageSet(new PageRange(1, 1), new PageRange(2, 3), new PageRange(1, 3), new PageRange(2, 4), new PageRange(1, 1));
+
+ imageOptions.setPageSet(pageSet);
+ doc.save(getArtifactsDir() + "ImageSaveOptions.ExportVariousPageRanges.tiff", imageOptions);
+ 
+``` |
 
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```

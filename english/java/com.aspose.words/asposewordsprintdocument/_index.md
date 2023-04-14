@@ -2,7 +2,7 @@
 title: AsposeWordsPrintDocument
 linktitle: AsposeWordsPrintDocument
 second_title: Aspose.Words for Java API Reference
-description: Provides a default implementation for printing of a  within the Java printing framework in Java.
+description: Provides a default implementation for printing of a Document within the Java printing framework in Java.
 type: docs
 weight: 14
 url: /java/com.aspose.words/asposewordsprintdocument/
@@ -20,6 +20,8 @@ public class AsposeWordsPrintDocument implements Pageable, Printable
 Provides a default implementation for printing of a [Document](../../com.aspose.words/document/) within the Java printing framework.
 
 To learn more, visit the [ Printing a Document Programmatically or Using Dialogs ][Printing a Document Programmatically or Using Dialogs] documentation article.
+
+ **Remarks:** 
 
 [AsposeWordsPrintDocument](../../com.aspose.words/asposewordsprintdocument/) overrides both  and .
 
@@ -98,7 +100,11 @@ public int getColorMode()
 ```
 
 
-Gets how non-colored pages are printed if the device supports color printing. Doesn't affect booklet printing.
+Gets how non-colored pages are printed if the device supports color printing.
+
+ **Remarks:** 
+
+Doesn't affect booklet printing.
 
 **Returns:**
 int - How non-colored pages are printed if the device supports color printing. The returned value is one of [ColorPrintMode](../../com.aspose.words/colorprintmode/) constants.
@@ -201,7 +207,11 @@ public void setColorMode(int value)
 ```
 
 
-Sets how non-colored pages are printed if the device supports color printing. Doesn't affect booklet printing.
+Sets how non-colored pages are printed if the device supports color printing.
+
+ **Remarks:** 
+
+Doesn't affect booklet printing.
 
 **Parameters:**
 | Parameter | Type | Description |

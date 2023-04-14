@@ -4,7 +4,7 @@ linktitle: CommentDisplayMode
 second_title: Aspose.Words for Java API Reference
 description: Specifies the rendering mode for document comments in Java.
 type: docs
-weight: 79
+weight: 80
 url: /java/com.aspose.words/commentdisplaymode/
 ---
 
@@ -15,6 +15,36 @@ public class CommentDisplayMode
 ```
 
 Specifies the rendering mode for document comments.
+
+ **Examples:** 
+
+Shows how to show comments when saving a document to a rendered format.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.write("Hello world!");
+
+ Comment comment = new Comment(doc, "John Doe", "J.D.", new Date());
+ comment.setText("My comment.");
+ builder.getCurrentParagraph().appendChild(comment);
+
+ // ShowInAnnotations is only available in Pdf1.7 and Pdf1.5 formats.
+ // In other formats, it will work similarly to Hide.
+ doc.getLayoutOptions().setCommentDisplayMode(CommentDisplayMode.SHOW_IN_ANNOTATIONS);
+
+ doc.save(getArtifactsDir() + "Document.ShowCommentsInAnnotations.pdf");
+
+ // Note that it's required to rebuild the document page layout (via Document.UpdatePageLayout() method)
+ // after changing the Document.LayoutOptions values.
+ doc.getLayoutOptions().setCommentDisplayMode(CommentDisplayMode.SHOW_IN_BALLOONS);
+ doc.updatePageLayout();
+
+ doc.save(getArtifactsDir() + "Document.ShowCommentsInBalloons.pdf");
+ 
+```
 ## Fields
 
 | Field | Description |

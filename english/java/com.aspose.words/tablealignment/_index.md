@@ -4,7 +4,7 @@ linktitle: TableAlignment
 second_title: Aspose.Words for Java API Reference
 description: Specifies alignment for an inline table in Java.
 type: docs
-weight: 555
+weight: 558
 url: /java/com.aspose.words/tablealignment/
 ---
 
@@ -15,6 +15,35 @@ public class TableAlignment
 ```
 
 Specifies alignment for an inline table.
+
+ **Examples:** 
+
+Shows how to apply an outline border to a table.
+
+```
+
+ Document doc = new Document(getMyDir() + "Tables.docx");
+ Table table = doc.getFirstSection().getBody().getTables().get(0);
+
+ // Align the table to the center of the page.
+ table.setAlignment(TableAlignment.CENTER);
+
+ // Clear any existing borders and shading from the table.
+ table.clearBorders();
+ table.clearShading();
+
+ // Add green borders to the outline of the table.
+ table.setBorder(BorderType.LEFT, LineStyle.SINGLE, 1.5, Color.GREEN, true);
+ table.setBorder(BorderType.RIGHT, LineStyle.SINGLE, 1.5, Color.GREEN, true);
+ table.setBorder(BorderType.TOP, LineStyle.SINGLE, 1.5, Color.GREEN, true);
+ table.setBorder(BorderType.BOTTOM, LineStyle.SINGLE, 1.5, Color.GREEN, true);
+
+ // Fill the cells with a light green solid color.
+ table.setShading(TextureIndex.TEXTURE_SOLID, Color.GREEN, Color.GREEN);
+
+ doc.save(getArtifactsDir() + "Table.SetOutlineBorders.docx");
+ 
+```
 ## Fields
 
 | Field | Description |

@@ -2,7 +2,7 @@
 title: Constraint
 linktitle: Constraint
 second_title: Aspose.Words for Java API Reference
-description: Represents a constraint that can be enforced on one or more  objects in Java.
+description: Represents a constraint that can be enforced on one or more DataColumn objects in Java.
 type: docs
 weight: 10
 url: /java/com.aspose.words.net.system.data/constraint/

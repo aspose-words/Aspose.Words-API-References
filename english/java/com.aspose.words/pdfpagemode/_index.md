@@ -4,7 +4,7 @@ linktitle: PdfPageMode
 second_title: Aspose.Words for Java API Reference
 description: Specifies how the PDF document should be displayed when opened in the PDF reader in Java.
 type: docs
-weight: 465
+weight: 466
 url: /java/com.aspose.words/pdfpagemode/
 ---
 
@@ -57,7 +57,11 @@ public static int USE_ATTACHMENTS
 ```
 
 
-Attachments panel is visible. Not supported in the following PDF versions: [PdfCompliance.PDF\_A\_1\_A](../../com.aspose.words/pdfcompliance/\#PDF-A-1-A), [PdfCompliance.PDF\_A\_1\_B](../../com.aspose.words/pdfcompliance/\#PDF-A-1-B).
+Attachments panel is visible.
+
+ **Remarks:** 
+
+Not supported in the following PDF versions: [PdfCompliance.PDF\_A\_1\_A](../../com.aspose.words/pdfcompliance/\#PDF-A-1-A), [PdfCompliance.PDF\_A\_1\_B](../../com.aspose.words/pdfcompliance/\#PDF-A-1-B).
 
 ### USE_NONE {#USE-NONE}
 ```
@@ -73,7 +77,11 @@ public static int USE_OC
 ```
 
 
-Optional content group panel is visible. Not supported in the following PDF versions: [PdfCompliance.PDF\_A\_1\_A](../../com.aspose.words/pdfcompliance/\#PDF-A-1-A), [PdfCompliance.PDF\_A\_1\_B](../../com.aspose.words/pdfcompliance/\#PDF-A-1-B).
+Optional content group panel is visible.
+
+ **Remarks:** 
+
+Not supported in the following PDF versions: [PdfCompliance.PDF\_A\_1\_A](../../com.aspose.words/pdfcompliance/\#PDF-A-1-A), [PdfCompliance.PDF\_A\_1\_B](../../com.aspose.words/pdfcompliance/\#PDF-A-1-B).
 
 ### USE_OUTLINES {#USE-OUTLINES}
 ```

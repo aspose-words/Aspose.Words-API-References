@@ -4,7 +4,7 @@ linktitle: Hyphenation
 second_title: Aspose.Words for Java API Reference
 description: Provides methods for working with hyphenation dictionaries in Java.
 type: docs
-weight: 335
+weight: 336
 url: /java/com.aspose.words/hyphenation/
 ---
 
@@ -17,6 +17,75 @@ public class Hyphenation
 Provides methods for working with hyphenation dictionaries. These dictionaries prescribe where words of a specific language can be hyphenated.
 
 To learn more, visit the [ Working with Hyphenation ][Working with Hyphenation] documentation article.
+
+ **Examples:** 
+
+Shows how to open and register a dictionary from a file.
+
+```
+
+ public void registerDictionary() throws Exception {
+     // Set up a callback that tracks warnings that occur during hyphenation dictionary registration.
+     WarningInfoCollection warningInfoCollection = new WarningInfoCollection();
+     Hyphenation.setWarningCallback(warningInfoCollection);
+
+     // Register an English (US) hyphenation dictionary by stream.
+     InputStream dictionaryStream = new FileInputStream(getMyDir() + "hyph_en_US.dic");
+     Hyphenation.registerDictionary("en-US", dictionaryStream);
+
+     Assert.assertEquals(0, warningInfoCollection.getCount());
+
+     // Open a document with a locale that Microsoft Word may not hyphenate on an English machine, such as German.
+     Document doc = new Document(getMyDir() + "German text.docx");
+
+     // To hyphenate that document upon saving, we need a hyphenation dictionary for the "de-CH" language code.
+     // This callback will handle the automatic request for that dictionary.
+     Hyphenation.setCallback(new CustomHyphenationDictionaryRegister());
+
+     // When we save the document, German hyphenation will take effect.
+     doc.save(getArtifactsDir() + "Hyphenation.RegisterDictionary.pdf");
+
+     // This dictionary contains two identical patterns, which will trigger a warning.
+     Assert.assertEquals(warningInfoCollection.getCount(), 1);
+     Assert.assertEquals(warningInfoCollection.get(0).getWarningType(), WarningType.MINOR_FORMATTING_LOSS);
+     Assert.assertEquals(warningInfoCollection.get(0).getSource(), WarningSource.LAYOUT);
+     Assert.assertEquals(warningInfoCollection.get(0).getDescription(), "Hyphenation dictionary contains duplicate patterns. " +
+             "The only first found pattern will be used. Content can be wrapped differently.");
+ }
+
+ /// 
+ /// Associates ISO language codes with local system filenames for hyphenation dictionary files.
+ /// 
+ private static class CustomHyphenationDictionaryRegister implements IHyphenationCallback {
+     public CustomHyphenationDictionaryRegister() {
+         mHyphenationDictionaryFiles = new HashMap<>();
+         {
+             mHyphenationDictionaryFiles.put("en-US", getMyDir() + "hyph_en_US.dic");
+             mHyphenationDictionaryFiles.put("de-CH", getMyDir() + "hyph_de_CH.dic");
+         }
+     }
+
+     public void requestDictionary(String language) throws Exception {
+         System.out.print("Hyphenation dictionary requested: " + language);
+
+         if (Hyphenation.isDictionaryRegistered(language)) {
+             System.out.println(", is already registered.");
+             return;
+         }
+
+         if (mHyphenationDictionaryFiles.containsKey(language)) {
+             Hyphenation.registerDictionary(language, mHyphenationDictionaryFiles.get(language));
+             System.out.println(", successfully registered.");
+             return;
+         }
+
+         System.out.println(", no respective dictionary file known by this Callback.");
+     }
+
+     private final HashMap mHyphenationDictionaryFiles;
+ }
+ 
+```
 
 
 [Working with Hyphenation]: https://docs.aspose.com/words/java/working-with-hyphenation/
@@ -64,6 +133,75 @@ public static IHyphenationCallback getCallback()
 
 Gets callback interface used to request dictionaries when page layout of the document is built. This allows delay loading of dictionaries which may be useful when processing documents in many languages.
 
+ **Examples:** 
+
+Shows how to open and register a dictionary from a file.
+
+```
+
+ public void registerDictionary() throws Exception {
+     // Set up a callback that tracks warnings that occur during hyphenation dictionary registration.
+     WarningInfoCollection warningInfoCollection = new WarningInfoCollection();
+     Hyphenation.setWarningCallback(warningInfoCollection);
+
+     // Register an English (US) hyphenation dictionary by stream.
+     InputStream dictionaryStream = new FileInputStream(getMyDir() + "hyph_en_US.dic");
+     Hyphenation.registerDictionary("en-US", dictionaryStream);
+
+     Assert.assertEquals(0, warningInfoCollection.getCount());
+
+     // Open a document with a locale that Microsoft Word may not hyphenate on an English machine, such as German.
+     Document doc = new Document(getMyDir() + "German text.docx");
+
+     // To hyphenate that document upon saving, we need a hyphenation dictionary for the "de-CH" language code.
+     // This callback will handle the automatic request for that dictionary.
+     Hyphenation.setCallback(new CustomHyphenationDictionaryRegister());
+
+     // When we save the document, German hyphenation will take effect.
+     doc.save(getArtifactsDir() + "Hyphenation.RegisterDictionary.pdf");
+
+     // This dictionary contains two identical patterns, which will trigger a warning.
+     Assert.assertEquals(warningInfoCollection.getCount(), 1);
+     Assert.assertEquals(warningInfoCollection.get(0).getWarningType(), WarningType.MINOR_FORMATTING_LOSS);
+     Assert.assertEquals(warningInfoCollection.get(0).getSource(), WarningSource.LAYOUT);
+     Assert.assertEquals(warningInfoCollection.get(0).getDescription(), "Hyphenation dictionary contains duplicate patterns. " +
+             "The only first found pattern will be used. Content can be wrapped differently.");
+ }
+
+ /// 
+ /// Associates ISO language codes with local system filenames for hyphenation dictionary files.
+ /// 
+ private static class CustomHyphenationDictionaryRegister implements IHyphenationCallback {
+     public CustomHyphenationDictionaryRegister() {
+         mHyphenationDictionaryFiles = new HashMap<>();
+         {
+             mHyphenationDictionaryFiles.put("en-US", getMyDir() + "hyph_en_US.dic");
+             mHyphenationDictionaryFiles.put("de-CH", getMyDir() + "hyph_de_CH.dic");
+         }
+     }
+
+     public void requestDictionary(String language) throws Exception {
+         System.out.print("Hyphenation dictionary requested: " + language);
+
+         if (Hyphenation.isDictionaryRegistered(language)) {
+             System.out.println(", is already registered.");
+             return;
+         }
+
+         if (mHyphenationDictionaryFiles.containsKey(language)) {
+             Hyphenation.registerDictionary(language, mHyphenationDictionaryFiles.get(language));
+             System.out.println(", successfully registered.");
+             return;
+         }
+
+         System.out.println(", no respective dictionary file known by this Callback.");
+     }
+
+     private final HashMap mHyphenationDictionaryFiles;
+ }
+ 
+```
+
 **Returns:**
 [IHyphenationCallback](../../com.aspose.words/ihyphenationcallback/) - Callback interface used to request dictionaries when page layout of the document is built.
 ### getClass() {#getClass}
@@ -84,6 +222,75 @@ public static IWarningCallback getWarningCallback()
 
 Called during a load hyphenation patterns, when an issue is detected that might result in formatting fidelity loss.
 
+ **Examples:** 
+
+Shows how to open and register a dictionary from a file.
+
+```
+
+ public void registerDictionary() throws Exception {
+     // Set up a callback that tracks warnings that occur during hyphenation dictionary registration.
+     WarningInfoCollection warningInfoCollection = new WarningInfoCollection();
+     Hyphenation.setWarningCallback(warningInfoCollection);
+
+     // Register an English (US) hyphenation dictionary by stream.
+     InputStream dictionaryStream = new FileInputStream(getMyDir() + "hyph_en_US.dic");
+     Hyphenation.registerDictionary("en-US", dictionaryStream);
+
+     Assert.assertEquals(0, warningInfoCollection.getCount());
+
+     // Open a document with a locale that Microsoft Word may not hyphenate on an English machine, such as German.
+     Document doc = new Document(getMyDir() + "German text.docx");
+
+     // To hyphenate that document upon saving, we need a hyphenation dictionary for the "de-CH" language code.
+     // This callback will handle the automatic request for that dictionary.
+     Hyphenation.setCallback(new CustomHyphenationDictionaryRegister());
+
+     // When we save the document, German hyphenation will take effect.
+     doc.save(getArtifactsDir() + "Hyphenation.RegisterDictionary.pdf");
+
+     // This dictionary contains two identical patterns, which will trigger a warning.
+     Assert.assertEquals(warningInfoCollection.getCount(), 1);
+     Assert.assertEquals(warningInfoCollection.get(0).getWarningType(), WarningType.MINOR_FORMATTING_LOSS);
+     Assert.assertEquals(warningInfoCollection.get(0).getSource(), WarningSource.LAYOUT);
+     Assert.assertEquals(warningInfoCollection.get(0).getDescription(), "Hyphenation dictionary contains duplicate patterns. " +
+             "The only first found pattern will be used. Content can be wrapped differently.");
+ }
+
+ /// 
+ /// Associates ISO language codes with local system filenames for hyphenation dictionary files.
+ /// 
+ private static class CustomHyphenationDictionaryRegister implements IHyphenationCallback {
+     public CustomHyphenationDictionaryRegister() {
+         mHyphenationDictionaryFiles = new HashMap<>();
+         {
+             mHyphenationDictionaryFiles.put("en-US", getMyDir() + "hyph_en_US.dic");
+             mHyphenationDictionaryFiles.put("de-CH", getMyDir() + "hyph_de_CH.dic");
+         }
+     }
+
+     public void requestDictionary(String language) throws Exception {
+         System.out.print("Hyphenation dictionary requested: " + language);
+
+         if (Hyphenation.isDictionaryRegistered(language)) {
+             System.out.println(", is already registered.");
+             return;
+         }
+
+         if (mHyphenationDictionaryFiles.containsKey(language)) {
+             Hyphenation.registerDictionary(language, mHyphenationDictionaryFiles.get(language));
+             System.out.println(", successfully registered.");
+             return;
+         }
+
+         System.out.println(", no respective dictionary file known by this Callback.");
+     }
+
+     private final HashMap mHyphenationDictionaryFiles;
+ }
+ 
+```
+
 **Returns:**
 [IWarningCallback](../../com.aspose.words/iwarningcallback/) - The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback/) value.
 ### hashCode() {#hashCode}
@@ -103,6 +310,41 @@ public static boolean isDictionaryRegistered(String language)
 
 
 Returns  false  if for the specified language there is no dictionary registered or if registered is Null dictionary,  true  otherwise.
+
+ **Examples:** 
+
+Shows how to register a hyphenation dictionary.
+
+```
+
+ // A hyphenation dictionary contains a list of strings that define hyphenation rules for the dictionary's language.
+ // When a document contains lines of text in which a word could be split up and continued on the next line,
+ // hyphenation will look through the dictionary's list of strings for that word's substrings.
+ // If the dictionary contains a substring, then hyphenation will split the word across two lines
+ // by the substring and add a hyphen to the first half.
+ // Register a dictionary file from the local file system to the "de-CH" locale.
+ Hyphenation.registerDictionary("de-CH", getMyDir() + "hyph_de_CH.dic");
+
+ Assert.assertTrue(Hyphenation.isDictionaryRegistered("de-CH"));
+
+ // Open a document containing text with a locale matching that of our dictionary,
+ // and save it to a fixed-page save format. The text in that document will be hyphenated.
+ Document doc = new Document(getMyDir() + "German text.docx");
+
+ Assert.assertTrue(IterableUtils.matchesAll(doc.getFirstSection().getBody().getFirstParagraph().getRuns(), r -> r.getFont().getLocaleId() == 2055));
+
+ doc.save(getArtifactsDir() + "Hyphenation.Dictionary.Registered.pdf");
+
+ // Re-load the document after un-registering the dictionary,
+ // and save it to another PDF, which will not have hyphenated text.
+ Hyphenation.unregisterDictionary("de-CH");
+
+ Assert.assertFalse(Hyphenation.isDictionaryRegistered("de-CH"));
+
+ doc = new Document(getMyDir() + "German text.docx");
+ doc.save(getArtifactsDir() + "Hyphenation.Dictionary.Unregistered.pdf");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -159,7 +401,109 @@ This method can also be used to register Null dictionary to prevent [getCallback
 
 If this parameter is  null  or empty string then registered is Null dictionary and callback is not called anymore for this language.
 
-To enable callback again use [unregisterDictionary(java.lang.String)](../../com.aspose.words/hyphenation/\#unregisterDictionary-java.lang.String) method. |
+To enable callback again use [unregisterDictionary(java.lang.String)](../../com.aspose.words/hyphenation/\#unregisterDictionary-java.lang.String) method.
+
+ **Examples:** 
+
+Shows how to register a hyphenation dictionary.
+
+```
+
+ // A hyphenation dictionary contains a list of strings that define hyphenation rules for the dictionary's language.
+ // When a document contains lines of text in which a word could be split up and continued on the next line,
+ // hyphenation will look through the dictionary's list of strings for that word's substrings.
+ // If the dictionary contains a substring, then hyphenation will split the word across two lines
+ // by the substring and add a hyphen to the first half.
+ // Register a dictionary file from the local file system to the "de-CH" locale.
+ Hyphenation.registerDictionary("de-CH", getMyDir() + "hyph_de_CH.dic");
+
+ Assert.assertTrue(Hyphenation.isDictionaryRegistered("de-CH"));
+
+ // Open a document containing text with a locale matching that of our dictionary,
+ // and save it to a fixed-page save format. The text in that document will be hyphenated.
+ Document doc = new Document(getMyDir() + "German text.docx");
+
+ Assert.assertTrue(IterableUtils.matchesAll(doc.getFirstSection().getBody().getFirstParagraph().getRuns(), r -> r.getFont().getLocaleId() == 2055));
+
+ doc.save(getArtifactsDir() + "Hyphenation.Dictionary.Registered.pdf");
+
+ // Re-load the document after un-registering the dictionary,
+ // and save it to another PDF, which will not have hyphenated text.
+ Hyphenation.unregisterDictionary("de-CH");
+
+ Assert.assertFalse(Hyphenation.isDictionaryRegistered("de-CH"));
+
+ doc = new Document(getMyDir() + "German text.docx");
+ doc.save(getArtifactsDir() + "Hyphenation.Dictionary.Unregistered.pdf");
+ 
+```
+
+Shows how to open and register a dictionary from a file.
+
+```
+
+ public void registerDictionary() throws Exception {
+     // Set up a callback that tracks warnings that occur during hyphenation dictionary registration.
+     WarningInfoCollection warningInfoCollection = new WarningInfoCollection();
+     Hyphenation.setWarningCallback(warningInfoCollection);
+
+     // Register an English (US) hyphenation dictionary by stream.
+     InputStream dictionaryStream = new FileInputStream(getMyDir() + "hyph_en_US.dic");
+     Hyphenation.registerDictionary("en-US", dictionaryStream);
+
+     Assert.assertEquals(0, warningInfoCollection.getCount());
+
+     // Open a document with a locale that Microsoft Word may not hyphenate on an English machine, such as German.
+     Document doc = new Document(getMyDir() + "German text.docx");
+
+     // To hyphenate that document upon saving, we need a hyphenation dictionary for the "de-CH" language code.
+     // This callback will handle the automatic request for that dictionary.
+     Hyphenation.setCallback(new CustomHyphenationDictionaryRegister());
+
+     // When we save the document, German hyphenation will take effect.
+     doc.save(getArtifactsDir() + "Hyphenation.RegisterDictionary.pdf");
+
+     // This dictionary contains two identical patterns, which will trigger a warning.
+     Assert.assertEquals(warningInfoCollection.getCount(), 1);
+     Assert.assertEquals(warningInfoCollection.get(0).getWarningType(), WarningType.MINOR_FORMATTING_LOSS);
+     Assert.assertEquals(warningInfoCollection.get(0).getSource(), WarningSource.LAYOUT);
+     Assert.assertEquals(warningInfoCollection.get(0).getDescription(), "Hyphenation dictionary contains duplicate patterns. " +
+             "The only first found pattern will be used. Content can be wrapped differently.");
+ }
+
+ /// 
+ /// Associates ISO language codes with local system filenames for hyphenation dictionary files.
+ /// 
+ private static class CustomHyphenationDictionaryRegister implements IHyphenationCallback {
+     public CustomHyphenationDictionaryRegister() {
+         mHyphenationDictionaryFiles = new HashMap<>();
+         {
+             mHyphenationDictionaryFiles.put("en-US", getMyDir() + "hyph_en_US.dic");
+             mHyphenationDictionaryFiles.put("de-CH", getMyDir() + "hyph_de_CH.dic");
+         }
+     }
+
+     public void requestDictionary(String language) throws Exception {
+         System.out.print("Hyphenation dictionary requested: " + language);
+
+         if (Hyphenation.isDictionaryRegistered(language)) {
+             System.out.println(", is already registered.");
+             return;
+         }
+
+         if (mHyphenationDictionaryFiles.containsKey(language)) {
+             Hyphenation.registerDictionary(language, mHyphenationDictionaryFiles.get(language));
+             System.out.println(", successfully registered.");
+             return;
+         }
+
+         System.out.println(", no respective dictionary file known by this Callback.");
+     }
+
+     private final HashMap mHyphenationDictionaryFiles;
+ }
+ 
+``` |
 
 ### setCallback(IHyphenationCallback value) {#setCallback-com.aspose.words.IHyphenationCallback}
 ```
@@ -168,6 +512,75 @@ public static void setCallback(IHyphenationCallback value)
 
 
 Sets callback interface used to request dictionaries when page layout of the document is built. This allows delay loading of dictionaries which may be useful when processing documents in many languages.
+
+ **Examples:** 
+
+Shows how to open and register a dictionary from a file.
+
+```
+
+ public void registerDictionary() throws Exception {
+     // Set up a callback that tracks warnings that occur during hyphenation dictionary registration.
+     WarningInfoCollection warningInfoCollection = new WarningInfoCollection();
+     Hyphenation.setWarningCallback(warningInfoCollection);
+
+     // Register an English (US) hyphenation dictionary by stream.
+     InputStream dictionaryStream = new FileInputStream(getMyDir() + "hyph_en_US.dic");
+     Hyphenation.registerDictionary("en-US", dictionaryStream);
+
+     Assert.assertEquals(0, warningInfoCollection.getCount());
+
+     // Open a document with a locale that Microsoft Word may not hyphenate on an English machine, such as German.
+     Document doc = new Document(getMyDir() + "German text.docx");
+
+     // To hyphenate that document upon saving, we need a hyphenation dictionary for the "de-CH" language code.
+     // This callback will handle the automatic request for that dictionary.
+     Hyphenation.setCallback(new CustomHyphenationDictionaryRegister());
+
+     // When we save the document, German hyphenation will take effect.
+     doc.save(getArtifactsDir() + "Hyphenation.RegisterDictionary.pdf");
+
+     // This dictionary contains two identical patterns, which will trigger a warning.
+     Assert.assertEquals(warningInfoCollection.getCount(), 1);
+     Assert.assertEquals(warningInfoCollection.get(0).getWarningType(), WarningType.MINOR_FORMATTING_LOSS);
+     Assert.assertEquals(warningInfoCollection.get(0).getSource(), WarningSource.LAYOUT);
+     Assert.assertEquals(warningInfoCollection.get(0).getDescription(), "Hyphenation dictionary contains duplicate patterns. " +
+             "The only first found pattern will be used. Content can be wrapped differently.");
+ }
+
+ /// 
+ /// Associates ISO language codes with local system filenames for hyphenation dictionary files.
+ /// 
+ private static class CustomHyphenationDictionaryRegister implements IHyphenationCallback {
+     public CustomHyphenationDictionaryRegister() {
+         mHyphenationDictionaryFiles = new HashMap<>();
+         {
+             mHyphenationDictionaryFiles.put("en-US", getMyDir() + "hyph_en_US.dic");
+             mHyphenationDictionaryFiles.put("de-CH", getMyDir() + "hyph_de_CH.dic");
+         }
+     }
+
+     public void requestDictionary(String language) throws Exception {
+         System.out.print("Hyphenation dictionary requested: " + language);
+
+         if (Hyphenation.isDictionaryRegistered(language)) {
+             System.out.println(", is already registered.");
+             return;
+         }
+
+         if (mHyphenationDictionaryFiles.containsKey(language)) {
+             Hyphenation.registerDictionary(language, mHyphenationDictionaryFiles.get(language));
+             System.out.println(", successfully registered.");
+             return;
+         }
+
+         System.out.println(", no respective dictionary file known by this Callback.");
+     }
+
+     private final HashMap mHyphenationDictionaryFiles;
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -181,6 +594,75 @@ public static void setWarningCallback(IWarningCallback value)
 
 
 Called during a load hyphenation patterns, when an issue is detected that might result in formatting fidelity loss.
+
+ **Examples:** 
+
+Shows how to open and register a dictionary from a file.
+
+```
+
+ public void registerDictionary() throws Exception {
+     // Set up a callback that tracks warnings that occur during hyphenation dictionary registration.
+     WarningInfoCollection warningInfoCollection = new WarningInfoCollection();
+     Hyphenation.setWarningCallback(warningInfoCollection);
+
+     // Register an English (US) hyphenation dictionary by stream.
+     InputStream dictionaryStream = new FileInputStream(getMyDir() + "hyph_en_US.dic");
+     Hyphenation.registerDictionary("en-US", dictionaryStream);
+
+     Assert.assertEquals(0, warningInfoCollection.getCount());
+
+     // Open a document with a locale that Microsoft Word may not hyphenate on an English machine, such as German.
+     Document doc = new Document(getMyDir() + "German text.docx");
+
+     // To hyphenate that document upon saving, we need a hyphenation dictionary for the "de-CH" language code.
+     // This callback will handle the automatic request for that dictionary.
+     Hyphenation.setCallback(new CustomHyphenationDictionaryRegister());
+
+     // When we save the document, German hyphenation will take effect.
+     doc.save(getArtifactsDir() + "Hyphenation.RegisterDictionary.pdf");
+
+     // This dictionary contains two identical patterns, which will trigger a warning.
+     Assert.assertEquals(warningInfoCollection.getCount(), 1);
+     Assert.assertEquals(warningInfoCollection.get(0).getWarningType(), WarningType.MINOR_FORMATTING_LOSS);
+     Assert.assertEquals(warningInfoCollection.get(0).getSource(), WarningSource.LAYOUT);
+     Assert.assertEquals(warningInfoCollection.get(0).getDescription(), "Hyphenation dictionary contains duplicate patterns. " +
+             "The only first found pattern will be used. Content can be wrapped differently.");
+ }
+
+ /// 
+ /// Associates ISO language codes with local system filenames for hyphenation dictionary files.
+ /// 
+ private static class CustomHyphenationDictionaryRegister implements IHyphenationCallback {
+     public CustomHyphenationDictionaryRegister() {
+         mHyphenationDictionaryFiles = new HashMap<>();
+         {
+             mHyphenationDictionaryFiles.put("en-US", getMyDir() + "hyph_en_US.dic");
+             mHyphenationDictionaryFiles.put("de-CH", getMyDir() + "hyph_de_CH.dic");
+         }
+     }
+
+     public void requestDictionary(String language) throws Exception {
+         System.out.print("Hyphenation dictionary requested: " + language);
+
+         if (Hyphenation.isDictionaryRegistered(language)) {
+             System.out.println(", is already registered.");
+             return;
+         }
+
+         if (mHyphenationDictionaryFiles.containsKey(language)) {
+             Hyphenation.registerDictionary(language, mHyphenationDictionaryFiles.get(language));
+             System.out.println(", successfully registered.");
+             return;
+         }
+
+         System.out.println(", no respective dictionary file known by this Callback.");
+     }
+
+     private final HashMap mHyphenationDictionaryFiles;
+ }
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -212,7 +694,42 @@ This is different from registering Null dictionary. Unregistering a dictionary e
 | --- | --- | --- |
 | language | java.lang.String | A language name, e.g. "en-US". See .NET documentation for "culture name" and RFC 4646 for details.
 
-If  null  or empty string then all dictionaries are unregistered. |
+If  null  or empty string then all dictionaries are unregistered.
+
+ **Examples:** 
+
+Shows how to register a hyphenation dictionary.
+
+```
+
+ // A hyphenation dictionary contains a list of strings that define hyphenation rules for the dictionary's language.
+ // When a document contains lines of text in which a word could be split up and continued on the next line,
+ // hyphenation will look through the dictionary's list of strings for that word's substrings.
+ // If the dictionary contains a substring, then hyphenation will split the word across two lines
+ // by the substring and add a hyphen to the first half.
+ // Register a dictionary file from the local file system to the "de-CH" locale.
+ Hyphenation.registerDictionary("de-CH", getMyDir() + "hyph_de_CH.dic");
+
+ Assert.assertTrue(Hyphenation.isDictionaryRegistered("de-CH"));
+
+ // Open a document containing text with a locale matching that of our dictionary,
+ // and save it to a fixed-page save format. The text in that document will be hyphenated.
+ Document doc = new Document(getMyDir() + "German text.docx");
+
+ Assert.assertTrue(IterableUtils.matchesAll(doc.getFirstSection().getBody().getFirstParagraph().getRuns(), r -> r.getFont().getLocaleId() == 2055));
+
+ doc.save(getArtifactsDir() + "Hyphenation.Dictionary.Registered.pdf");
+
+ // Re-load the document after un-registering the dictionary,
+ // and save it to another PDF, which will not have hyphenated text.
+ Hyphenation.unregisterDictionary("de-CH");
+
+ Assert.assertFalse(Hyphenation.isDictionaryRegistered("de-CH"));
+
+ doc = new Document(getMyDir() + "German text.docx");
+ doc.save(getArtifactsDir() + "Hyphenation.Dictionary.Unregistered.pdf");
+ 
+``` |
 
 ### wait() {#wait}
 ```

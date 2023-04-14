@@ -2,9 +2,9 @@
 title: MarkupLevel
 linktitle: MarkupLevel
 second_title: Aspose.Words for Java API Reference
-description: Specifies the level in the document tree where a particular  can occur in Java.
+description: Specifies the level in the document tree where a particular StructuredDocumentTag can occur in Java.
 type: docs
-weight: 396
+weight: 397
 url: /java/com.aspose.words/markuplevel/
 ---
 
@@ -15,6 +15,39 @@ public class MarkupLevel
 ```
 
 Specifies the level in the document tree where a particular [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) can occur.
+
+ **Examples:** 
+
+Shows how to work with styles for content control elements.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Below are two ways to apply a style from the document to a structured document tag.
+ // 1 -  Apply a style object from the document's style collection:
+ Style quoteStyle = doc.getStyles().getByStyleIdentifier(StyleIdentifier.QUOTE);
+ StructuredDocumentTag sdtPlainText = new StructuredDocumentTag(doc, SdtType.PLAIN_TEXT, MarkupLevel.INLINE);
+ sdtPlainText.setStyle(quoteStyle);
+
+ // 2 -  Reference a style in the document by name:
+ StructuredDocumentTag sdtRichText = new StructuredDocumentTag(doc, SdtType.RICH_TEXT, MarkupLevel.INLINE);
+ sdtRichText.setStyleName("Quote");
+
+ builder.insertNode(sdtPlainText);
+ builder.insertNode(sdtRichText);
+
+ Assert.assertEquals(NodeType.STRUCTURED_DOCUMENT_TAG, sdtPlainText.getNodeType());
+
+ NodeCollection tags = doc.getChildNodes(NodeType.STRUCTURED_DOCUMENT_TAG, true);
+
+ for (StructuredDocumentTag sdt : (Iterable) tags) {
+     Assert.assertEquals(StyleIdentifier.QUOTE, sdt.getStyle().getStyleIdentifier());
+     Assert.assertEquals("Quote", sdt.getStyleName());
+ }
+ 
+```
 ## Fields
 
 | Field | Description |

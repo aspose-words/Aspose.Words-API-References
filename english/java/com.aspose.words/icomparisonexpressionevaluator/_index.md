@@ -2,9 +2,9 @@
 title: IComparisonExpressionEvaluator
 linktitle: IComparisonExpressionEvaluator
 second_title: Aspose.Words for Java API Reference
-description: When implemented allows to override default comparison expressions evaluation for the  and  fields in Java.
+description: When implemented allows to override default comparison expressions evaluation for the FieldIf and FieldCompare fields in Java.
 type: docs
-weight: 640
+weight: 643
 url: /java/com.aspose.words/icomparisonexpressionevaluator/
 ---
 ```
@@ -23,7 +23,11 @@ public abstract ComparisonEvaluationResult evaluate(Field field, ComparisonExpre
 ```
 
 
-Evaluates comparison expression. The implementation should return  null  to indicate that the default evaluation should be performed.
+Evaluates comparison expression.
+
+ **Remarks:** 
+
+The implementation should return  null  to indicate that the default evaluation should be performed.
 
 **Parameters:**
 | Parameter | Type | Description |

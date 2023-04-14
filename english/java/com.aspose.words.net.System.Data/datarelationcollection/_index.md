@@ -2,7 +2,7 @@
 title: DataRelationCollection
 linktitle: DataRelationCollection
 second_title: Aspose.Words for Java API Reference
-description: Represents the collection of  objects for this in Java.
+description: Represents the collection of DataRelation objects for this DataSet in Java.
 type: docs
 weight: 19
 url: /java/com.aspose.words.net.system.data/datarelationcollection/

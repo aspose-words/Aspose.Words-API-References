@@ -4,7 +4,7 @@ linktitle: PageInfo
 second_title: Aspose.Words for Java API Reference
 description: Represents information about a particular document page in Java.
 type: docs
-weight: 440
+weight: 441
 url: /java/com.aspose.words/pageinfo/
 ---
 
@@ -17,6 +17,8 @@ public class PageInfo
 Represents information about a particular document page.
 
 To learn more, visit the [ Rendering ][Rendering] documentation article.
+
+ **Remarks:** 
 
 The page width and height returned by this object represent the "final" size of the page e.g. they are already rotated to the correct orientation.
 
@@ -87,7 +89,7 @@ public boolean getLandscape()
 Returns  true  if the page orientation specified in the document for this page is landscape.
 
 **Returns:**
-boolean - \{ true  if the page orientation specified in the document for this page is landscape.
+boolean -  true  if the page orientation specified in the document for this page is landscape.
 ### getPaperSize() {#getPaperSize}
 ```
 public int getPaperSize()

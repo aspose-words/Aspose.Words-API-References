@@ -15,6 +15,22 @@ public class ChapterPageSeparator
 ```
 
 Defines the separator character that appears between the chapter and page number.
+
+ **Examples:** 
+
+Shows how to work with page chapters.
+
+```
+
+ Document doc = new Document(getMyDir() + "Big document.docx");
+
+ PageSetup pageSetup = doc.getFirstSection().getPageSetup();
+
+ pageSetup.setPageNumberStyle(NumberStyle.UPPERCASE_ROMAN);
+ pageSetup.setChapterPageSeparator(com.aspose.words.ChapterPageSeparator.COLON);
+ pageSetup.setHeadingLevelForChapter(1);
+ 
+```
 ## Fields
 
 | Field | Description |

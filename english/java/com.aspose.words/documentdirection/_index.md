@@ -4,7 +4,7 @@ linktitle: DocumentDirection
 second_title: Aspose.Words for Java API Reference
 description: Allows to specify the direction to flow the text in a document in Java.
 type: docs
-weight: 124
+weight: 125
 url: /java/com.aspose.words/documentdirection/
 ---
 
@@ -46,7 +46,11 @@ public static int AUTO
 ```
 
 
-Auto-detect direction. When this option is selected and text contains characters belonging to RTL scripts, the document direction will be set automatically to RTL.
+Auto-detect direction.
+
+ **Remarks:** 
+
+When this option is selected and text contains characters belonging to RTL scripts, the document direction will be set automatically to RTL.
 
 ### LEFT_TO_RIGHT {#LEFT-TO-RIGHT}
 ```

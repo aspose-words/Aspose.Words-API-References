@@ -4,7 +4,7 @@ linktitle: JustificationMode
 second_title: Aspose.Words for Java API Reference
 description: Specifies the character spacing adjustment for a document in Java.
 type: docs
-weight: 358
+weight: 359
 url: /java/com.aspose.words/justificationmode/
 ---
 
@@ -15,6 +15,22 @@ public class JustificationMode
 ```
 
 Specifies the character spacing adjustment for a document. The default value is  Expand .
+
+ **Examples:** 
+
+Shows how to manage character spacing control.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+
+ int justificationMode = doc.getJustificationMode();
+ if (justificationMode == JustificationMode.EXPAND)
+     doc.setJustificationMode(JustificationMode.COMPRESS);
+
+ doc.save(getArtifactsDir() + "Document.SetJustificationMode.docx");
+ 
+```
 ## Fields
 
 | Field | Description |

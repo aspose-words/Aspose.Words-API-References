@@ -4,7 +4,7 @@ linktitle: ShapeType
 second_title: Aspose.Words for Java API Reference
 description: Specifies the type of shape in a Microsoft Word document in Java.
 type: docs
-weight: 527
+weight: 530
 url: /java/com.aspose.words/shapetype/
 ---
 
@@ -15,6 +15,67 @@ public class ShapeType
 ```
 
 Specifies the type of shape in a Microsoft Word document.
+
+ **Examples:** 
+
+Shows how to insert a shape with an image from the local file system into a document.
+
+```
+
+ Document doc = new Document();
+
+ // The "Shape" class's public constructor will create a shape with "ShapeMarkupLanguage.Vml" markup type.
+ // If you need to create a shape of a non-primitive type, such as SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+ // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, or DiagonalCornersRounded,
+ // please use DocumentBuilder.InsertShape.
+ Shape shape = new Shape(doc, ShapeType.IMAGE);
+ shape.getImageData().setImage(getImageDir() + "Windows MetaFile.wmf");
+ shape.setWidth(100.0);
+ shape.setHeight(100.0);
+
+ doc.getFirstSection().getBody().getFirstParagraph().appendChild(shape);
+
+ doc.save(getArtifactsDir() + "Image.FromFile.docx");
+ 
+```
+
+Shows how Aspose.Words identify shapes.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.insertShape(ShapeType.HEPTAGON, RelativeHorizontalPosition.PAGE, 0.0,
+         RelativeVerticalPosition.PAGE, 0.0, 0.0, 0.0, WrapType.NONE);
+
+ builder.insertShape(ShapeType.CLOUD, RelativeHorizontalPosition.RIGHT_MARGIN, 0.0,
+         RelativeVerticalPosition.PAGE, 0.0, 0.0, 0.0, WrapType.NONE);
+
+ builder.insertShape(ShapeType.MATH_PLUS, RelativeHorizontalPosition.RIGHT_MARGIN, 0.0,
+         RelativeVerticalPosition.PAGE, 0.0, 0.0, 0.0, WrapType.NONE);
+
+ // To correct identify shape types you need to work with shapes as DML.
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.DOCX);
+ {
+     // "Strict" or "Transitional" compliance allows to save shape as DML.
+     saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_TRANSITIONAL);
+ }
+
+ doc.save(getArtifactsDir() + "Shape.ShapeTypes.docx", saveOptions);
+ doc = new Document(getArtifactsDir() + "Shape.ShapeTypes.docx");
+
+ List shapes = Arrays.stream(doc.getChildNodes(NodeType.SHAPE, true).toArray())
+         .filter(Shape.class::isInstance)
+         .map(Shape.class::cast)
+         .collect(Collectors.toList());
+
+ for (Shape shape : shapes)
+ {
+     System.out.println(shape.getShapeType());
+ }
+ 
+```
 ## Fields
 
 | Field | Description |
@@ -629,7 +690,11 @@ public static int CHART_PLUS
 ```
 
 
-Chart plus. Applicable only for DML shapes.
+Chart plus.
+
+ **Remarks:** 
+
+Applicable only for DML shapes.
 
 ### CHART_STAR {#CHART-STAR}
 ```
@@ -637,7 +702,11 @@ public static int CHART_STAR
 ```
 
 
-Chart star. Applicable only for DML shapes.
+Chart star.
+
+ **Remarks:** 
+
+Applicable only for DML shapes.
 
 ### CHART_X {#CHART-X}
 ```
@@ -645,7 +714,11 @@ public static int CHART_X
 ```
 
 
-Chart X. Applicable only for DML shapes.
+Chart X.
+
+ **Remarks:** 
+
+Applicable only for DML shapes.
 
 ### CHEVRON {#CHEVRON}
 ```
@@ -661,7 +734,11 @@ public static int CHORD
 ```
 
 
-Chord. Applicable only for DML shapes.
+Chord.
+
+ **Remarks:** 
+
+Applicable only for DML shapes.
 
 ### CIRCULAR_ARROW {#CIRCULAR-ARROW}
 ```
@@ -677,7 +754,11 @@ public static int CLOUD
 ```
 
 
-Cloud. Applicable only for DML shapes.
+Cloud.
+
+ **Remarks:** 
+
+Applicable only for DML shapes.
 
 ### CLOUD_CALLOUT {#CLOUD-CALLOUT}
 ```
@@ -693,7 +774,11 @@ public static int CORNER
 ```
 
 
-Corner. Applicable only for DML shapes.
+Corner.
+
+ **Remarks:** 
+
+Applicable only for DML shapes.
 
 ### CORNER_TABS {#CORNER-TABS}
 ```
@@ -701,7 +786,11 @@ public static int CORNER_TABS
 ```
 
 
-Corner tabs. Applicable only for DML shapes.
+Corner tabs.
+
+ **Remarks:** 
+
+Applicable only for DML shapes.
 
 ### CUBE {#CUBE}
 ```
@@ -791,7 +880,11 @@ public static int DECAGON
 ```
 
 
-Decagon. Applicable only for DML shapes.
+Decagon.
+
+ **Remarks:** 
+
+Applicable only for DML shapes.
 
 ### DIAGONAL_CORNERS_ROUNDED {#DIAGONAL-CORNERS-ROUNDED}
 ```
@@ -799,7 +892,11 @@ public static int DIAGONAL_CORNERS_ROUNDED
 ```
 
 
-Round diagonal corner rectangle. Applicable only for DML shapes.
+Round diagonal corner rectangle.
+
+ **Remarks:** 
+
+Applicable only for DML shapes.
 
 ### DIAGONAL_CORNERS_SNIPPED {#DIAGONAL-CORNERS-SNIPPED}
 ```
@@ -807,7 +904,11 @@ public static int DIAGONAL_CORNERS_SNIPPED
 ```
 
 
-Snip diagonal corner rectangle. Applicable only for DML shapes.
+Snip diagonal corner rectangle.
+
+ **Remarks:** 
+
+Applicable only for DML shapes.
 
 ### DIAGONAL_STRIPE {#DIAGONAL-STRIPE}
 ```
@@ -815,7 +916,11 @@ public static int DIAGONAL_STRIPE
 ```
 
 
-Diagonal stripe. Applicable only for DML shapes.
+Diagonal stripe.
+
+ **Remarks:** 
+
+Applicable only for DML shapes.
 
 ### DIAMOND {#DIAMOND}
 ```
@@ -831,7 +936,11 @@ public static int DODECAGON
 ```
 
 
-Dodecagon. Applicable only for DML shapes.
+Dodecagon.
+
+ **Remarks:** 
+
+Applicable only for DML shapes.
 
 ### DONUT {#DONUT}
 ```
@@ -1135,7 +1244,11 @@ public static int FRAME
 ```
 
 
-Frame. Applicable only for DML shapes.
+Frame.
+
+ **Remarks:** 
+
+Applicable only for DML shapes.
 
 ### FUNNEL {#FUNNEL}
 ```
@@ -1143,7 +1256,11 @@ public static int FUNNEL
 ```
 
 
-Funnel. Applicable only for DML shapes.
+Funnel.
+
+ **Remarks:** 
+
+Applicable only for DML shapes.
 
 ### GEAR_6 {#GEAR-6}
 ```
@@ -1151,7 +1268,11 @@ public static int GEAR_6
 ```
 
 
-Six-tooth gear. Applicable only for DML shapes.
+Six-tooth gear.
+
+ **Remarks:** 
+
+Applicable only for DML shapes.
 
 ### GEAR_9 {#GEAR-9}
 ```
@@ -1159,7 +1280,11 @@ public static int GEAR_9
 ```
 
 
-Nine-tooth gear. Applicable only for DML shapes.
+Nine-tooth gear.
+
+ **Remarks:** 
+
+Applicable only for DML shapes.
 
 ### GROUP {#GROUP}
 ```
@@ -1175,7 +1300,11 @@ public static int HALF_FRAME
 ```
 
 
-Half frame. Applicable only for DML shapes.
+Half frame.
+
+ **Remarks:** 
+
+Applicable only for DML shapes.
 
 ### HEART {#HEART}
 ```
@@ -1191,7 +1320,11 @@ public static int HEPTAGON
 ```
 
 
-Heptagon. Applicable only for DML shapes.
+Heptagon.
+
+ **Remarks:** 
+
+Applicable only for DML shapes.
 
 ### HEXAGON {#HEXAGON}
 ```
@@ -1231,7 +1364,11 @@ public static int INVERSE_LINE
 ```
 
 
-Inverse line. Applicable only for DML shapes.
+Inverse line.
+
+ **Remarks:** 
+
+Applicable only for DML shapes.
 
 ### IRREGULAR_SEAL_1 {#IRREGULAR-SEAL-1}
 ```
@@ -1287,7 +1424,11 @@ public static int LEFT_CIRCULAR_ARROW
 ```
 
 
-Left circular arrow. Applicable only for DML shapes.
+Left circular arrow.
+
+ **Remarks:** 
+
+Applicable only for DML shapes.
 
 ### LEFT_RIGHT_ARROW {#LEFT-RIGHT-ARROW}
 ```
@@ -1311,7 +1452,11 @@ public static int LEFT_RIGHT_CIRCULAR_ARROW
 ```
 
 
-Left-right circular arrow. Applicable only for DML shapes.
+Left-right circular arrow.
+
+ **Remarks:** 
+
+Applicable only for DML shapes.
 
 ### LEFT_RIGHT_RIBBON {#LEFT-RIGHT-RIBBON}
 ```
@@ -1319,7 +1464,11 @@ public static int LEFT_RIGHT_RIBBON
 ```
 
 
-Left-right ribbon. Applicable only for DML shapes.
+Left-right ribbon.
+
+ **Remarks:** 
+
+Applicable only for DML shapes.
 
 ### LEFT_RIGHT_UP_ARROW {#LEFT-RIGHT-UP-ARROW}
 ```
@@ -1359,7 +1508,11 @@ public static int MATH_DIVIDE
 ```
 
 
-Math divide. Applicable only for DML shapes.
+Math divide.
+
+ **Remarks:** 
+
+Applicable only for DML shapes.
 
 ### MATH_EQUAL {#MATH-EQUAL}
 ```
@@ -1367,7 +1520,11 @@ public static int MATH_EQUAL
 ```
 
 
-Math equal. Applicable only for DML shapes.
+Math equal.
+
+ **Remarks:** 
+
+Applicable only for DML shapes.
 
 ### MATH_MINUS {#MATH-MINUS}
 ```
@@ -1375,7 +1532,11 @@ public static int MATH_MINUS
 ```
 
 
-Math minus. Applicable only for DML shapes.
+Math minus.
+
+ **Remarks:** 
+
+Applicable only for DML shapes.
 
 ### MATH_MULTIPLY {#MATH-MULTIPLY}
 ```
@@ -1383,7 +1544,11 @@ public static int MATH_MULTIPLY
 ```
 
 
-Math multiply. Applicable only for DML shapes.
+Math multiply.
+
+ **Remarks:** 
+
+Applicable only for DML shapes.
 
 ### MATH_NOT_EQUAL {#MATH-NOT-EQUAL}
 ```
@@ -1391,7 +1556,11 @@ public static int MATH_NOT_EQUAL
 ```
 
 
-Math not equal. Applicable only for DML shapes.
+Math not equal.
+
+ **Remarks:** 
+
+Applicable only for DML shapes.
 
 ### MATH_PLUS {#MATH-PLUS}
 ```
@@ -1399,7 +1568,11 @@ public static int MATH_PLUS
 ```
 
 
-Math plus. Applicable only for DML shapes.
+Math plus.
+
+ **Remarks:** 
+
+Applicable only for DML shapes.
 
 ### MIN_VALUE {#MIN-VALUE}
 ```
@@ -1423,7 +1596,11 @@ public static int NON_ISOSCELES_TRAPEZOID
 ```
 
 
-Non-isosceles trapezoid. Applicable only for DML shapes.
+Non-isosceles trapezoid.
+
+ **Remarks:** 
+
+Applicable only for DML shapes.
 
 ### NON_PRIMITIVE {#NON-PRIMITIVE}
 ```
@@ -1501,7 +1678,11 @@ public static int PIE
 ```
 
 
-Pie. Applicable only for DML shapes.
+Pie.
+
+ **Remarks:** 
+
+Applicable only for DML shapes.
 
 ### PLAQUE {#PLAQUE}
 ```
@@ -1517,7 +1698,11 @@ public static int PLAQUE_TABS
 ```
 
 
-Plaque tabs. Applicable only for DML shapes.
+Plaque tabs.
+
+ **Remarks:** 
+
+Applicable only for DML shapes.
 
 ### PLUS {#PLUS}
 ```
@@ -1621,7 +1806,11 @@ public static int SEAL_10
 ```
 
 
-Ten-pointed star. Applicable only for DML shapes.
+Ten-pointed star.
+
+ **Remarks:** 
+
+Applicable only for DML shapes.
 
 ### SEAL_12 {#SEAL-12}
 ```
@@ -1629,7 +1818,11 @@ public static int SEAL_12
 ```
 
 
-Twelve-pointed star. Applicable only for DML shapes.
+Twelve-pointed star.
+
+ **Remarks:** 
+
+Applicable only for DML shapes.
 
 ### SEAL_16 {#SEAL-16}
 ```
@@ -1669,7 +1862,11 @@ public static int SEAL_6
 ```
 
 
-Six-pointed star. Applicable only for DML shapes.
+Six-pointed star.
+
+ **Remarks:** 
+
+Applicable only for DML shapes.
 
 ### SEAL_7 {#SEAL-7}
 ```
@@ -1677,7 +1874,11 @@ public static int SEAL_7
 ```
 
 
-Seven-pointed star. Applicable only for DML shapes.
+Seven-pointed star.
+
+ **Remarks:** 
+
+Applicable only for DML shapes.
 
 ### SEAL_8 {#SEAL-8}
 ```
@@ -1693,7 +1894,11 @@ public static int SINGLE_CORNER_ROUNDED
 ```
 
 
-Round single corner rectangle. Applicable only for DML shapes.
+Round single corner rectangle.
+
+ **Remarks:** 
+
+Applicable only for DML shapes.
 
 ### SINGLE_CORNER_SNIPPED {#SINGLE-CORNER-SNIPPED}
 ```
@@ -1701,7 +1906,11 @@ public static int SINGLE_CORNER_SNIPPED
 ```
 
 
-Snip single corner rectangle object. Applicable only for DML shapes.
+Snip single corner rectangle object.
+
+ **Remarks:** 
+
+Applicable only for DML shapes.
 
 ### SMILEY_FACE {#SMILEY-FACE}
 ```
@@ -1717,7 +1926,11 @@ public static int SQUARE_TABS
 ```
 
 
-Square tabs. Applicable only for DML shapes.
+Square tabs.
+
+ **Remarks:** 
+
+Applicable only for DML shapes.
 
 ### STAR {#STAR}
 ```
@@ -1757,7 +1970,11 @@ public static int SWOOSH_ARROW
 ```
 
 
-Swoosh arrow. Applicable only for DML shapes.
+Swoosh arrow.
+
+ **Remarks:** 
+
+Applicable only for DML shapes.
 
 ### TEARDROP {#TEARDROP}
 ```
@@ -1765,7 +1982,11 @@ public static int TEARDROP
 ```
 
 
-Teardrop. Applicable only for DML shapes.
+Teardrop.
+
+ **Remarks:** 
+
+Applicable only for DML shapes.
 
 ### TEXT_ARCH_DOWN_CURVE {#TEXT-ARCH-DOWN-CURVE}
 ```
@@ -2173,7 +2394,11 @@ public static int TOP_CORNERS_ONE_ROUNDED_ONE_SNIPPED
 ```
 
 
-Snip and round single corner rectangle. Applicable only for DML shapes.
+Snip and round single corner rectangle.
+
+ **Remarks:** 
+
+Applicable only for DML shapes.
 
 ### TOP_CORNERS_ROUNDED {#TOP-CORNERS-ROUNDED}
 ```
@@ -2181,7 +2406,11 @@ public static int TOP_CORNERS_ROUNDED
 ```
 
 
-Round same side corner rectangle. Applicable only for DML shapes.
+Round same side corner rectangle.
+
+ **Remarks:** 
+
+Applicable only for DML shapes.
 
 ### TOP_CORNERS_SNIPPED {#TOP-CORNERS-SNIPPED}
 ```
@@ -2189,7 +2418,11 @@ public static int TOP_CORNERS_SNIPPED
 ```
 
 
-Snip same side corner rectangle. Applicable only for DML shapes.
+Snip same side corner rectangle.
+
+ **Remarks:** 
+
+Applicable only for DML shapes.
 
 ### TRAPEZOID {#TRAPEZOID}
 ```
@@ -2277,7 +2510,11 @@ public static int WEDGE_PIE
 ```
 
 
-Wedge pie. Applicable only for DML shapes.
+Wedge pie.
+
+ **Remarks:** 
+
+Applicable only for DML shapes.
 
 ### WEDGE_RECT_CALLOUT {#WEDGE-RECT-CALLOUT}
 ```

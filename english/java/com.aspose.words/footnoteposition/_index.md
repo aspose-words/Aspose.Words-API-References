@@ -4,7 +4,7 @@ linktitle: FootnotePosition
 second_title: Aspose.Words for Java API Reference
 description: Defines the footnote position in Java.
 type: docs
-weight: 296
+weight: 297
 url: /java/com.aspose.words/footnoteposition/
 ---
 
@@ -15,6 +15,36 @@ public class FootnotePosition
 ```
 
 Defines the footnote position.
+
+ **Examples:** 
+
+Shows how to select a different place where the document collects and displays its footnotes.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // A footnote is a way to attach a reference or a side comment to text
+ // that does not interfere with the main body text's flow.
+ // Inserting a footnote adds a small superscript reference symbol
+ // at the main body text where we insert the footnote.
+ // Each footnote also creates an entry at the bottom of the page, consisting of a symbol
+ // that matches the reference symbol in the main body text.
+ // The reference text that we pass to the document builder's "InsertFootnote" method.
+ builder.write("Hello world!");
+ builder.insertFootnote(FootnoteType.FOOTNOTE, "Footnote contents.");
+
+ // We can use the "Position" property to determine where the document will place all its footnotes.
+ // If we set the value of the "Position" property to "FootnotePosition.BottomOfPage",
+ // every footnote will show up at the bottom of the page that contains its reference mark. This is the default value.
+ // If we set the value of the "Position" property to "FootnotePosition.BeneathText",
+ // every footnote will show up at the end of the page's text that contains its reference mark.
+ doc.getFootnoteOptions().setPosition(footnotePosition);
+
+ doc.save(getArtifactsDir() + "InlineStory.PositionFootnote.docx");
+ 
+```
 ## Fields
 
 | Field | Description |

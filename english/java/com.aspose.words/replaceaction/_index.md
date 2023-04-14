@@ -4,7 +4,7 @@ linktitle: ReplaceAction
 second_title: Aspose.Words for Java API Reference
 description: Allows the user to specify what happens to the current match during a replace operation in Java.
 type: docs
-weight: 481
+weight: 484
 url: /java/com.aspose.words/replaceaction/
 ---
 
@@ -15,6 +15,70 @@ public class ReplaceAction
 ```
 
 Allows the user to specify what happens to the current match during a replace operation.
+
+ **Examples:** 
+
+Shows how to insert an entire document's contents as a replacement of a match in a find-and-replace operation.
+
+```
+
+ public void insertDocumentAtReplace() throws Exception {
+     Document mainDoc = new Document(getMyDir() + "Document insertion destination.docx");
+
+     // We can use a "FindReplaceOptions" object to modify the find-and-replace process.
+     FindReplaceOptions options = new FindReplaceOptions();
+     options.setReplacingCallback(new InsertDocumentAtReplaceHandler());
+
+     mainDoc.getRange().replace(Pattern.compile("\[MY_DOCUMENT\]"), "", options);
+     mainDoc.save(getArtifactsDir() + "InsertDocument.InsertDocumentAtReplace.docx");
+
+ }
+
+ private static class InsertDocumentAtReplaceHandler implements IReplacingCallback {
+     public int replacing(ReplacingArgs args) throws Exception {
+         Document subDoc = new Document(getMyDir() + "Document.docx");
+
+         // Insert a document after the paragraph containing the matched text.
+         Paragraph para = (Paragraph) args.getMatchNode().getParentNode();
+         insertDocument(para, subDoc);
+
+         // Remove the paragraph with the matched text.
+         para.remove();
+
+         return ReplaceAction.SKIP;
+     }
+ }
+
+ /// 
+ /// Inserts all the nodes of another document after a paragraph or table.
+ /// 
+ private static void insertDocument(Node insertionDestination, Document docToInsert) {
+     if (((insertionDestination.getNodeType()) == (NodeType.PARAGRAPH)) || ((insertionDestination.getNodeType()) == (NodeType.TABLE))) {
+         CompositeNode dstStory = insertionDestination.getParentNode();
+
+         NodeImporter importer =
+                 new NodeImporter(docToInsert, insertionDestination.getDocument(), ImportFormatMode.KEEP_SOURCE_FORMATTING);
+
+         for (Section srcSection : docToInsert.getSections())
+             for (Node srcNode : srcSection.getBody()) {
+                 // Skip the node if it is the last empty paragraph in a section.
+                 if (((srcNode.getNodeType()) == (NodeType.PARAGRAPH))) {
+                     Paragraph para = (Paragraph) srcNode;
+                     if (para.isEndOfSection() && !para.hasChildNodes())
+                         continue;
+                 }
+
+                 Node newNode = importer.importNode(srcNode, true);
+
+                 dstStory.insertAfter(newNode, insertionDestination);
+                 insertionDestination = newNode;
+             }
+     } else {
+         throw new IllegalArgumentException("The destination node must be either a paragraph or table.");
+     }
+ }
+ 
+```
 ## Fields
 
 | Field | Description |

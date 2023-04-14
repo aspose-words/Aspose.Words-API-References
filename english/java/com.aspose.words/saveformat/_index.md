@@ -4,7 +4,7 @@ linktitle: SaveFormat
 second_title: Aspose.Words for Java API Reference
 description: Indicates the format in which the document is saved in Java.
 type: docs
-weight: 505
+weight: 508
 url: /java/com.aspose.words/saveformat/
 ---
 
@@ -14,7 +14,20 @@ java.lang.Object
 public class SaveFormat
 ```
 
-Indicates the format in which the document is saved. **M:Aspose.Words.Document.Save(System.IO.Stream,Aspose.Words.SaveFormat)**
+Indicates the format in which the document is saved.
+
+ **Examples:** 
+
+Shows how to convert from DOCX to HTML format.
+
+```
+
+ Document doc = new Document(getMyDir() + "Document.docx");
+ doc.save(getArtifactsDir() + "Document.ConvertToHtml.html", SaveFormat.HTML);
+ 
+```
+
+**M:Aspose.Words.Document.Save(System.IO.Stream,Aspose.Words.SaveFormat)**
 ## Fields
 
 | Field | Description |

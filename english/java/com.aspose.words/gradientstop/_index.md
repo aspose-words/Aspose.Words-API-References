@@ -4,7 +4,7 @@ linktitle: GradientStop
 second_title: Aspose.Words for Java API Reference
 description: Represents one gradient stop in Java.
 type: docs
-weight: 310
+weight: 311
 url: /java/com.aspose.words/gradientstop/
 ---
 
@@ -31,6 +31,7 @@ To learn more, visit the [ Working with Graphic Elements ][Working with Graphic 
 | Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
+| [getBaseColor()](#getBaseColor) | Gets a value representing the color of the gradient stop without any modifiers. |
 | [getClass()](#getClass) |  |
 | [getColor()](#getColor) | Gets a value representing the color of the gradient stop. |
 | [getPosition()](#getPosition) | Gets a value representing the position of a stop within the gradient expressed as a percent in range 0.0 to 1.0. |
@@ -58,7 +59,58 @@ Initializes a new instance of the [GradientStop](../../com.aspose.words/gradient
 | Parameter | Type | Description |
 | --- | --- | --- |
 | color | java.awt.Color | Represents the color of the gradient stop. |
-| position | double | Represents the position of a stop within the gradient expressed as a percent in range 0.0 to 1.0. |
+| position | double | Represents the position of a stop within the gradient expressed as a percent in range 0.0 to 1.0.
+
+ **Examples:** 
+
+Shows how to add gradient stops to the gradient fill.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 80.0, 80.0);
+ shape.getFill().twoColorGradient(Color.green, Color.RED, GradientStyle.HORIZONTAL, GradientVariant.VARIANT_2);
+
+ // Get gradient stops collection.
+ GradientStopCollection gradientStops = shape.getFill().getGradientStops();
+
+ // Change first gradient stop.
+ gradientStops.get(0).setColor(Color.yellow);
+ gradientStops.get(0).setPosition(0.1);
+ gradientStops.get(0).setTransparency(0.25);
+
+ // Add new gradient stop to the end of collection.
+ GradientStop gradientStop = new GradientStop(Color.blue, 0.5);
+ gradientStops.add(gradientStop);
+
+ // Remove gradient stop at index 1.
+ gradientStops.removeAt(1);
+ // And insert new gradient stop at the same index 1.
+ gradientStops.insert(1, new GradientStop(Color.pink, 0.75, 0.3));
+
+ // Remove last gradient stop in the collection.
+ gradientStop = gradientStops.get(2);
+ gradientStops.remove(gradientStop);
+
+ Assert.assertEquals(2, gradientStops.getCount());
+
+ Assert.assertEquals(Color.yellow.getRGB(), gradientStops.get(0).getColor().getRGB());
+ Assert.assertEquals(0.1d, gradientStops.get(0).getPosition(), 0.01d);
+ Assert.assertEquals(0.25d, gradientStops.get(0).getTransparency(), 0.01d);
+
+ Assert.assertEquals(Color.pink.getRGB(), gradientStops.get(1).getColor().getRGB());
+ Assert.assertEquals(0.75d, gradientStops.get(1).getPosition(), 0.01d);
+ Assert.assertEquals(0.3d, gradientStops.get(1).getTransparency(), 0.01d);
+
+ // Use the compliance option to define the shape using DML
+ // if you want to get "GradientStops" property after the document saves.
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(); { saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_STRICT); }
+
+ doc.save(getArtifactsDir() + "Shape.GradientStops.docx", saveOptions);
+ 
+``` |
 
 ### GradientStop(Color color, double position, double transparency) {#GradientStop-java.awt.Color-double-double}
 ```
@@ -73,7 +125,58 @@ Initializes a new instance of the [GradientStop](../../com.aspose.words/gradient
 | --- | --- | --- |
 | color | java.awt.Color | Represents the color of the gradient stop. |
 | position | double | Represents the position of a stop within the gradient expressed as a percent in range 0.0 to 1.0. |
-| transparency | double | Represents the transparency of a stop within the gradient expressed as a percent in range 0.0 to 1.0. |
+| transparency | double | Represents the transparency of a stop within the gradient expressed as a percent in range 0.0 to 1.0.
+
+ **Examples:** 
+
+Shows how to add gradient stops to the gradient fill.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 80.0, 80.0);
+ shape.getFill().twoColorGradient(Color.green, Color.RED, GradientStyle.HORIZONTAL, GradientVariant.VARIANT_2);
+
+ // Get gradient stops collection.
+ GradientStopCollection gradientStops = shape.getFill().getGradientStops();
+
+ // Change first gradient stop.
+ gradientStops.get(0).setColor(Color.yellow);
+ gradientStops.get(0).setPosition(0.1);
+ gradientStops.get(0).setTransparency(0.25);
+
+ // Add new gradient stop to the end of collection.
+ GradientStop gradientStop = new GradientStop(Color.blue, 0.5);
+ gradientStops.add(gradientStop);
+
+ // Remove gradient stop at index 1.
+ gradientStops.removeAt(1);
+ // And insert new gradient stop at the same index 1.
+ gradientStops.insert(1, new GradientStop(Color.pink, 0.75, 0.3));
+
+ // Remove last gradient stop in the collection.
+ gradientStop = gradientStops.get(2);
+ gradientStops.remove(gradientStop);
+
+ Assert.assertEquals(2, gradientStops.getCount());
+
+ Assert.assertEquals(Color.yellow.getRGB(), gradientStops.get(0).getColor().getRGB());
+ Assert.assertEquals(0.1d, gradientStops.get(0).getPosition(), 0.01d);
+ Assert.assertEquals(0.25d, gradientStops.get(0).getTransparency(), 0.01d);
+
+ Assert.assertEquals(Color.pink.getRGB(), gradientStops.get(1).getColor().getRGB());
+ Assert.assertEquals(0.75d, gradientStops.get(1).getPosition(), 0.01d);
+ Assert.assertEquals(0.3d, gradientStops.get(1).getTransparency(), 0.01d);
+
+ // Use the compliance option to define the shape using DML
+ // if you want to get "GradientStops" property after the document saves.
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(); { saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_STRICT); }
+
+ doc.save(getArtifactsDir() + "Shape.GradientStops.docx", saveOptions);
+ 
+``` |
 
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
@@ -90,6 +193,16 @@ public boolean equals(Object arg0)
 
 **Returns:**
 boolean
+### getBaseColor() {#getBaseColor}
+```
+public Color getBaseColor()
+```
+
+
+Gets a value representing the color of the gradient stop without any modifiers.
+
+**Returns:**
+java.awt.Color - A value representing the color of the gradient stop without any modifiers.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -108,6 +221,57 @@ public Color getColor()
 
 Gets a value representing the color of the gradient stop.
 
+ **Examples:** 
+
+Shows how to add gradient stops to the gradient fill.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 80.0, 80.0);
+ shape.getFill().twoColorGradient(Color.green, Color.RED, GradientStyle.HORIZONTAL, GradientVariant.VARIANT_2);
+
+ // Get gradient stops collection.
+ GradientStopCollection gradientStops = shape.getFill().getGradientStops();
+
+ // Change first gradient stop.
+ gradientStops.get(0).setColor(Color.yellow);
+ gradientStops.get(0).setPosition(0.1);
+ gradientStops.get(0).setTransparency(0.25);
+
+ // Add new gradient stop to the end of collection.
+ GradientStop gradientStop = new GradientStop(Color.blue, 0.5);
+ gradientStops.add(gradientStop);
+
+ // Remove gradient stop at index 1.
+ gradientStops.removeAt(1);
+ // And insert new gradient stop at the same index 1.
+ gradientStops.insert(1, new GradientStop(Color.pink, 0.75, 0.3));
+
+ // Remove last gradient stop in the collection.
+ gradientStop = gradientStops.get(2);
+ gradientStops.remove(gradientStop);
+
+ Assert.assertEquals(2, gradientStops.getCount());
+
+ Assert.assertEquals(Color.yellow.getRGB(), gradientStops.get(0).getColor().getRGB());
+ Assert.assertEquals(0.1d, gradientStops.get(0).getPosition(), 0.01d);
+ Assert.assertEquals(0.25d, gradientStops.get(0).getTransparency(), 0.01d);
+
+ Assert.assertEquals(Color.pink.getRGB(), gradientStops.get(1).getColor().getRGB());
+ Assert.assertEquals(0.75d, gradientStops.get(1).getPosition(), 0.01d);
+ Assert.assertEquals(0.3d, gradientStops.get(1).getTransparency(), 0.01d);
+
+ // Use the compliance option to define the shape using DML
+ // if you want to get "GradientStops" property after the document saves.
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(); { saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_STRICT); }
+
+ doc.save(getArtifactsDir() + "Shape.GradientStops.docx", saveOptions);
+ 
+```
+
 **Returns:**
 java.awt.Color - A value representing the color of the gradient stop.
 ### getPosition() {#getPosition}
@@ -118,6 +282,57 @@ public double getPosition()
 
 Gets a value representing the position of a stop within the gradient expressed as a percent in range 0.0 to 1.0.
 
+ **Examples:** 
+
+Shows how to add gradient stops to the gradient fill.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 80.0, 80.0);
+ shape.getFill().twoColorGradient(Color.green, Color.RED, GradientStyle.HORIZONTAL, GradientVariant.VARIANT_2);
+
+ // Get gradient stops collection.
+ GradientStopCollection gradientStops = shape.getFill().getGradientStops();
+
+ // Change first gradient stop.
+ gradientStops.get(0).setColor(Color.yellow);
+ gradientStops.get(0).setPosition(0.1);
+ gradientStops.get(0).setTransparency(0.25);
+
+ // Add new gradient stop to the end of collection.
+ GradientStop gradientStop = new GradientStop(Color.blue, 0.5);
+ gradientStops.add(gradientStop);
+
+ // Remove gradient stop at index 1.
+ gradientStops.removeAt(1);
+ // And insert new gradient stop at the same index 1.
+ gradientStops.insert(1, new GradientStop(Color.pink, 0.75, 0.3));
+
+ // Remove last gradient stop in the collection.
+ gradientStop = gradientStops.get(2);
+ gradientStops.remove(gradientStop);
+
+ Assert.assertEquals(2, gradientStops.getCount());
+
+ Assert.assertEquals(Color.yellow.getRGB(), gradientStops.get(0).getColor().getRGB());
+ Assert.assertEquals(0.1d, gradientStops.get(0).getPosition(), 0.01d);
+ Assert.assertEquals(0.25d, gradientStops.get(0).getTransparency(), 0.01d);
+
+ Assert.assertEquals(Color.pink.getRGB(), gradientStops.get(1).getColor().getRGB());
+ Assert.assertEquals(0.75d, gradientStops.get(1).getPosition(), 0.01d);
+ Assert.assertEquals(0.3d, gradientStops.get(1).getTransparency(), 0.01d);
+
+ // Use the compliance option to define the shape using DML
+ // if you want to get "GradientStops" property after the document saves.
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(); { saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_STRICT); }
+
+ doc.save(getArtifactsDir() + "Shape.GradientStops.docx", saveOptions);
+ 
+```
+
 **Returns:**
 double - A value representing the position of a stop within the gradient expressed as a percent in range 0.0 to 1.0.
 ### getTransparency() {#getTransparency}
@@ -127,6 +342,57 @@ public double getTransparency()
 
 
 Gets a value representing the transparency of the gradient fill expressed as a percent in range 0.0 to 1.0.
+
+ **Examples:** 
+
+Shows how to add gradient stops to the gradient fill.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 80.0, 80.0);
+ shape.getFill().twoColorGradient(Color.green, Color.RED, GradientStyle.HORIZONTAL, GradientVariant.VARIANT_2);
+
+ // Get gradient stops collection.
+ GradientStopCollection gradientStops = shape.getFill().getGradientStops();
+
+ // Change first gradient stop.
+ gradientStops.get(0).setColor(Color.yellow);
+ gradientStops.get(0).setPosition(0.1);
+ gradientStops.get(0).setTransparency(0.25);
+
+ // Add new gradient stop to the end of collection.
+ GradientStop gradientStop = new GradientStop(Color.blue, 0.5);
+ gradientStops.add(gradientStop);
+
+ // Remove gradient stop at index 1.
+ gradientStops.removeAt(1);
+ // And insert new gradient stop at the same index 1.
+ gradientStops.insert(1, new GradientStop(Color.pink, 0.75, 0.3));
+
+ // Remove last gradient stop in the collection.
+ gradientStop = gradientStops.get(2);
+ gradientStops.remove(gradientStop);
+
+ Assert.assertEquals(2, gradientStops.getCount());
+
+ Assert.assertEquals(Color.yellow.getRGB(), gradientStops.get(0).getColor().getRGB());
+ Assert.assertEquals(0.1d, gradientStops.get(0).getPosition(), 0.01d);
+ Assert.assertEquals(0.25d, gradientStops.get(0).getTransparency(), 0.01d);
+
+ Assert.assertEquals(Color.pink.getRGB(), gradientStops.get(1).getColor().getRGB());
+ Assert.assertEquals(0.75d, gradientStops.get(1).getPosition(), 0.01d);
+ Assert.assertEquals(0.3d, gradientStops.get(1).getTransparency(), 0.01d);
+
+ // Use the compliance option to define the shape using DML
+ // if you want to get "GradientStops" property after the document saves.
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(); { saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_STRICT); }
+
+ doc.save(getArtifactsDir() + "Shape.GradientStops.docx", saveOptions);
+ 
+```
 
 **Returns:**
 double - A value representing the transparency of the gradient fill expressed as a percent in range 0.0 to 1.0.
@@ -164,6 +430,57 @@ public void remove()
 
 Removes the gradient stop from the parent [GradientStopCollection](../../com.aspose.words/gradientstopcollection/).
 
+ **Examples:** 
+
+Shows how to add gradient stops to the gradient fill.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 80.0, 80.0);
+ shape.getFill().twoColorGradient(Color.green, Color.RED, GradientStyle.HORIZONTAL, GradientVariant.VARIANT_2);
+
+ // Get gradient stops collection.
+ GradientStopCollection gradientStops = shape.getFill().getGradientStops();
+
+ // Change first gradient stop.
+ gradientStops.get(0).setColor(Color.yellow);
+ gradientStops.get(0).setPosition(0.1);
+ gradientStops.get(0).setTransparency(0.25);
+
+ // Add new gradient stop to the end of collection.
+ GradientStop gradientStop = new GradientStop(Color.blue, 0.5);
+ gradientStops.add(gradientStop);
+
+ // Remove gradient stop at index 1.
+ gradientStops.removeAt(1);
+ // And insert new gradient stop at the same index 1.
+ gradientStops.insert(1, new GradientStop(Color.pink, 0.75, 0.3));
+
+ // Remove last gradient stop in the collection.
+ gradientStop = gradientStops.get(2);
+ gradientStops.remove(gradientStop);
+
+ Assert.assertEquals(2, gradientStops.getCount());
+
+ Assert.assertEquals(Color.yellow.getRGB(), gradientStops.get(0).getColor().getRGB());
+ Assert.assertEquals(0.1d, gradientStops.get(0).getPosition(), 0.01d);
+ Assert.assertEquals(0.25d, gradientStops.get(0).getTransparency(), 0.01d);
+
+ Assert.assertEquals(Color.pink.getRGB(), gradientStops.get(1).getColor().getRGB());
+ Assert.assertEquals(0.75d, gradientStops.get(1).getPosition(), 0.01d);
+ Assert.assertEquals(0.3d, gradientStops.get(1).getTransparency(), 0.01d);
+
+ // Use the compliance option to define the shape using DML
+ // if you want to get "GradientStops" property after the document saves.
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(); { saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_STRICT); }
+
+ doc.save(getArtifactsDir() + "Shape.GradientStops.docx", saveOptions);
+ 
+```
+
 ### setColor(Color value) {#setColor-java.awt.Color}
 ```
 public void setColor(Color value)
@@ -171,6 +488,57 @@ public void setColor(Color value)
 
 
 Sets a value representing the color of the gradient stop.
+
+ **Examples:** 
+
+Shows how to add gradient stops to the gradient fill.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 80.0, 80.0);
+ shape.getFill().twoColorGradient(Color.green, Color.RED, GradientStyle.HORIZONTAL, GradientVariant.VARIANT_2);
+
+ // Get gradient stops collection.
+ GradientStopCollection gradientStops = shape.getFill().getGradientStops();
+
+ // Change first gradient stop.
+ gradientStops.get(0).setColor(Color.yellow);
+ gradientStops.get(0).setPosition(0.1);
+ gradientStops.get(0).setTransparency(0.25);
+
+ // Add new gradient stop to the end of collection.
+ GradientStop gradientStop = new GradientStop(Color.blue, 0.5);
+ gradientStops.add(gradientStop);
+
+ // Remove gradient stop at index 1.
+ gradientStops.removeAt(1);
+ // And insert new gradient stop at the same index 1.
+ gradientStops.insert(1, new GradientStop(Color.pink, 0.75, 0.3));
+
+ // Remove last gradient stop in the collection.
+ gradientStop = gradientStops.get(2);
+ gradientStops.remove(gradientStop);
+
+ Assert.assertEquals(2, gradientStops.getCount());
+
+ Assert.assertEquals(Color.yellow.getRGB(), gradientStops.get(0).getColor().getRGB());
+ Assert.assertEquals(0.1d, gradientStops.get(0).getPosition(), 0.01d);
+ Assert.assertEquals(0.25d, gradientStops.get(0).getTransparency(), 0.01d);
+
+ Assert.assertEquals(Color.pink.getRGB(), gradientStops.get(1).getColor().getRGB());
+ Assert.assertEquals(0.75d, gradientStops.get(1).getPosition(), 0.01d);
+ Assert.assertEquals(0.3d, gradientStops.get(1).getTransparency(), 0.01d);
+
+ // Use the compliance option to define the shape using DML
+ // if you want to get "GradientStops" property after the document saves.
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(); { saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_STRICT); }
+
+ doc.save(getArtifactsDir() + "Shape.GradientStops.docx", saveOptions);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -185,6 +553,57 @@ public void setPosition(double value)
 
 Sets a value representing the position of a stop within the gradient expressed as a percent in range 0.0 to 1.0.
 
+ **Examples:** 
+
+Shows how to add gradient stops to the gradient fill.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 80.0, 80.0);
+ shape.getFill().twoColorGradient(Color.green, Color.RED, GradientStyle.HORIZONTAL, GradientVariant.VARIANT_2);
+
+ // Get gradient stops collection.
+ GradientStopCollection gradientStops = shape.getFill().getGradientStops();
+
+ // Change first gradient stop.
+ gradientStops.get(0).setColor(Color.yellow);
+ gradientStops.get(0).setPosition(0.1);
+ gradientStops.get(0).setTransparency(0.25);
+
+ // Add new gradient stop to the end of collection.
+ GradientStop gradientStop = new GradientStop(Color.blue, 0.5);
+ gradientStops.add(gradientStop);
+
+ // Remove gradient stop at index 1.
+ gradientStops.removeAt(1);
+ // And insert new gradient stop at the same index 1.
+ gradientStops.insert(1, new GradientStop(Color.pink, 0.75, 0.3));
+
+ // Remove last gradient stop in the collection.
+ gradientStop = gradientStops.get(2);
+ gradientStops.remove(gradientStop);
+
+ Assert.assertEquals(2, gradientStops.getCount());
+
+ Assert.assertEquals(Color.yellow.getRGB(), gradientStops.get(0).getColor().getRGB());
+ Assert.assertEquals(0.1d, gradientStops.get(0).getPosition(), 0.01d);
+ Assert.assertEquals(0.25d, gradientStops.get(0).getTransparency(), 0.01d);
+
+ Assert.assertEquals(Color.pink.getRGB(), gradientStops.get(1).getColor().getRGB());
+ Assert.assertEquals(0.75d, gradientStops.get(1).getPosition(), 0.01d);
+ Assert.assertEquals(0.3d, gradientStops.get(1).getTransparency(), 0.01d);
+
+ // Use the compliance option to define the shape using DML
+ // if you want to get "GradientStops" property after the document saves.
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(); { saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_STRICT); }
+
+ doc.save(getArtifactsDir() + "Shape.GradientStops.docx", saveOptions);
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -197,6 +616,57 @@ public void setTransparency(double value)
 
 
 Sets a value representing the transparency of the gradient fill expressed as a percent in range 0.0 to 1.0.
+
+ **Examples:** 
+
+Shows how to add gradient stops to the gradient fill.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 80.0, 80.0);
+ shape.getFill().twoColorGradient(Color.green, Color.RED, GradientStyle.HORIZONTAL, GradientVariant.VARIANT_2);
+
+ // Get gradient stops collection.
+ GradientStopCollection gradientStops = shape.getFill().getGradientStops();
+
+ // Change first gradient stop.
+ gradientStops.get(0).setColor(Color.yellow);
+ gradientStops.get(0).setPosition(0.1);
+ gradientStops.get(0).setTransparency(0.25);
+
+ // Add new gradient stop to the end of collection.
+ GradientStop gradientStop = new GradientStop(Color.blue, 0.5);
+ gradientStops.add(gradientStop);
+
+ // Remove gradient stop at index 1.
+ gradientStops.removeAt(1);
+ // And insert new gradient stop at the same index 1.
+ gradientStops.insert(1, new GradientStop(Color.pink, 0.75, 0.3));
+
+ // Remove last gradient stop in the collection.
+ gradientStop = gradientStops.get(2);
+ gradientStops.remove(gradientStop);
+
+ Assert.assertEquals(2, gradientStops.getCount());
+
+ Assert.assertEquals(Color.yellow.getRGB(), gradientStops.get(0).getColor().getRGB());
+ Assert.assertEquals(0.1d, gradientStops.get(0).getPosition(), 0.01d);
+ Assert.assertEquals(0.25d, gradientStops.get(0).getTransparency(), 0.01d);
+
+ Assert.assertEquals(Color.pink.getRGB(), gradientStops.get(1).getColor().getRGB());
+ Assert.assertEquals(0.75d, gradientStops.get(1).getPosition(), 0.01d);
+ Assert.assertEquals(0.3d, gradientStops.get(1).getTransparency(), 0.01d);
+
+ // Use the compliance option to define the shape using DML
+ // if you want to get "GradientStops" property after the document saves.
+ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(); { saveOptions.setCompliance(OoxmlCompliance.ISO_29500_2008_STRICT); }
+
+ doc.save(getArtifactsDir() + "Shape.GradientStops.docx", saveOptions);
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |

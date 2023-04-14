@@ -4,7 +4,7 @@ linktitle: ShadowFormat
 second_title: Aspose.Words for Java API Reference
 description: Represents shadow formatting for an object in Java.
 type: docs
-weight: 520
+weight: 523
 url: /java/com.aspose.words/shadowformat/
 ---
 
@@ -44,6 +44,23 @@ public void clear()
 
 
 Clears shadow format.
+
+ **Examples:** 
+
+Shows how to work with a shadow formatting for the shape.
+
+```
+
+ Document doc = new Document(getMyDir() + "Shape stroke pattern border.docx");
+ Shape shape = (Shape)doc.getChildNodes(NodeType.SHAPE, true).get(0);
+
+ if (shape.getShadowFormat().getVisible() && shape.getShadowFormat().getType() == ShadowType.SHADOW_2)
+     shape.getShadowFormat().setType(ShadowType.SHADOW_7);
+
+ if (shape.getShadowFormat().getType() == ShadowType.SHADOW_MIXED)
+     shape.getShadowFormat().clear();
+ 
+```
 
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
@@ -86,10 +103,31 @@ public boolean getVisible()
 ```
 
 
-Returns  true  if the formatting applied to this instance is visible. Unlike [clear()](../../com.aspose.words/shadowformat/\#clear), assigning  false  to Visible does not clear the formatting, it only hides the shape effect.
+Returns  true  if the formatting applied to this instance is visible.
+
+ **Remarks:** 
+
+Unlike [clear()](../../com.aspose.words/shadowformat/\#clear), assigning  false  to Visible does not clear the formatting, it only hides the shape effect.
+
+ **Examples:** 
+
+Shows how to work with a shadow formatting for the shape.
+
+```
+
+ Document doc = new Document(getMyDir() + "Shape stroke pattern border.docx");
+ Shape shape = (Shape)doc.getChildNodes(NodeType.SHAPE, true).get(0);
+
+ if (shape.getShadowFormat().getVisible() && shape.getShadowFormat().getType() == ShadowType.SHADOW_2)
+     shape.getShadowFormat().setType(ShadowType.SHADOW_7);
+
+ if (shape.getShadowFormat().getType() == ShadowType.SHADOW_MIXED)
+     shape.getShadowFormat().clear();
+ 
+```
 
 **Returns:**
-boolean - \{ true  if the formatting applied to this instance is visible.
+boolean -  true  if the formatting applied to this instance is visible.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()

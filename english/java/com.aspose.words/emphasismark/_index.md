@@ -4,7 +4,7 @@ linktitle: EmphasisMark
 second_title: Aspose.Words for Java API Reference
 description: Specifies possible types of emphasis mark in Java.
 type: docs
-weight: 145
+weight: 146
 url: /java/com.aspose.words/emphasismark/
 ---
 
@@ -15,6 +15,27 @@ public class EmphasisMark
 ```
 
 Specifies possible types of emphasis mark.
+
+ **Examples:** 
+
+Shows how to add additional character rendered above/below the glyph-character.
+
+```
+
+ DocumentBuilder builder = new DocumentBuilder();
+
+ // Possible types of emphasis mark:
+ // https://apireference.aspose.com/words/net/aspose.words/emphasismark
+ builder.getFont().setEmphasisMark(emphasisMark);
+
+ builder.write("Emphasis text");
+ builder.writeln();
+ builder.getFont().clearFormatting();
+ builder.write("Simple text");
+
+ builder.getDocument().save(getArtifactsDir() + "Fonts.SetEmphasisMark.docx");
+ 
+```
 ## Fields
 
 | Field | Description |

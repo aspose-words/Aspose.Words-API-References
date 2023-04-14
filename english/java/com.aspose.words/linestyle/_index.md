@@ -2,9 +2,9 @@
 title: LineStyle
 linktitle: LineStyle
 second_title: Aspose.Words for Java API Reference
-description: Specifies line style of a in Java.
+description: Specifies line style of a Border in Java.
 type: docs
-weight: 370
+weight: 371
 url: /java/com.aspose.words/linestyle/
 ---
 
@@ -15,6 +15,25 @@ public class LineStyle
 ```
 
 Specifies line style of a [Border](../../com.aspose.words/border/).
+
+ **Examples:** 
+
+Shows how to insert a string surrounded by a border into a document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.getFont().getBorder().setColor(Color.GREEN);
+ builder.getFont().getBorder().setLineWidth(2.5);
+ builder.getFont().getBorder().setLineStyle(LineStyle.DASH_DOT_STROKER);
+
+ builder.write("Text surrounded by green border.");
+
+ doc.save(getArtifactsDir() + "Border.FontBorder.docx");
+ 
+```
 ## Fields
 
 | Field | Description |

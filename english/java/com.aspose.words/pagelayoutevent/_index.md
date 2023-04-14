@@ -4,7 +4,7 @@ linktitle: PageLayoutEvent
 second_title: Aspose.Words for Java API Reference
 description: A code of event raised during page layout model build and rendering in Java.
 type: docs
-weight: 442
+weight: 443
 url: /java/com.aspose.words/pagelayoutevent/
 ---
 
@@ -19,6 +19,66 @@ A code of event raised during page layout model build and rendering.
 Page layout model is built in two steps. First, "conversion step", this is when page layout pulls document content and creates object graph. Second, "reflow step", this is when structures are split, merged and arranged into pages.
 
 Depending of the operation which triggered build, page layout model may or may not be further rendered into fixed page format. For example, computing number of pages in the document or updating fields does not require rendering, whereas export to Pdf does.
+
+ **Examples:** 
+
+Shows how to track layout changes with a layout callback.
+
+```
+
+ public void pageLayoutCallback() throws Exception {
+     Document doc = new Document();
+     doc.getBuiltInDocumentProperties().setTitle("My Document");
+
+     DocumentBuilder builder = new DocumentBuilder(doc);
+     builder.writeln("Hello world!");
+
+     doc.getLayoutOptions().setCallback(new RenderPageLayoutCallback());
+     doc.updatePageLayout();
+
+     doc.save(getArtifactsDir() + "Layout.PageLayoutCallback.pdf");
+ }
+
+ /// 
+ /// Notifies us when we save the document to a fixed page format
+ /// and renders a page that we perform a page reflow on to an image in the local file system.
+ /// 
+ private static class RenderPageLayoutCallback implements IPageLayoutCallback {
+     public void notify(PageLayoutCallbackArgs a) throws Exception {
+         switch (a.getEvent()) {
+             case PageLayoutEvent.PART_REFLOW_FINISHED:
+                 notifyPartFinished(a);
+                 break;
+             case PageLayoutEvent.CONVERSION_FINISHED:
+                 notifyConversionFinished(a);
+                 break;
+         }
+     }
+
+     private void notifyPartFinished(PageLayoutCallbackArgs a) throws Exception {
+         System.out.println(MessageFormat.format("Part at page {0} reflow.", a.getPageIndex() + 1));
+         renderPage(a, a.getPageIndex());
+     }
+
+     private void notifyConversionFinished(PageLayoutCallbackArgs a) {
+         System.out.println(MessageFormat.format("Document \"{0}\" converted to page format.", a.getDocument().getBuiltInDocumentProperties().getTitle()));
+     }
+
+     private void renderPage(PageLayoutCallbackArgs a, int pageIndex) throws Exception {
+         ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.PNG);
+         {
+             saveOptions.setPageSet(new PageSet(pageIndex));
+         }
+
+         try (FileOutputStream stream = new FileOutputStream(getArtifactsDir() + MessageFormat.format("PageLayoutCallback.page-{0} {1}.png", pageIndex + 1, ++mNum))) {
+             a.getDocument().save(stream, saveOptions);
+         }
+     }
+
+     private int mNum;
+ }
+ 
+```
 ## Fields
 
 | Field | Description |

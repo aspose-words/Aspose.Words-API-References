@@ -2,7 +2,7 @@
 title: DataRowCollection
 linktitle: DataRowCollection
 second_title: Aspose.Words for Java API Reference
-description: Represents a collection of rows for a in Java.
+description: Represents a collection of rows for a DataTable in Java.
 type: docs
 weight: 21
 url: /java/com.aspose.words.net.system.data/datarowcollection/

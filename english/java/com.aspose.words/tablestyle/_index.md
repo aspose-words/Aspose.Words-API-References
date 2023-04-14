@@ -4,7 +4,7 @@ linktitle: TableStyle
 second_title: Aspose.Words for Java API Reference
 description: Represents a table style in Java.
 type: docs
-weight: 558
+weight: 561
 url: /java/com.aspose.words/tablestyle/
 ---
 
@@ -17,6 +17,49 @@ public class TableStyle extends Style
 Represents a table style.
 
 To learn more, visit the [ Working with Tables ][Working with Tables] documentation article.
+
+ **Examples:** 
+
+Shows how to create custom style settings for the table.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Name");
+ builder.insertCell();
+ builder.write("\u0645\u0631\u062d\u0628\u064b\u0627");
+ builder.endRow();
+ builder.insertCell();
+ builder.insertCell();
+ builder.endTable();
+
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.setAllowBreakAcrossPages(true);
+ tableStyle.setBidi(true);
+ tableStyle.setCellSpacing(5.0);
+ tableStyle.setBottomPadding(20.0);
+ tableStyle.setLeftPadding(5.0);
+ tableStyle.setRightPadding(10.0);
+ tableStyle.setTopPadding(20.0);
+ tableStyle.getShading().setBackgroundPatternColor(Color.WHITE);
+ tableStyle.getBorders().setColor(Color.BLACK);
+ tableStyle.getBorders().setLineStyle(LineStyle.DOT_DASH);
+ tableStyle.setVerticalAlignment(CellVerticalAlignment.CENTER);
+
+ table.setStyle(tableStyle);
+
+ // Setting the style properties of a table may affect the properties of the table itself.
+ Assert.assertTrue(table.getBidi());
+ Assert.assertEquals(5.0d, table.getCellSpacing());
+ Assert.assertEquals("MyTableStyle1", table.getStyleName());
+
+ doc.save(getArtifactsDir() + "Table.TableStyleCreation.docx");
+ 
+```
 
 
 [Working with Tables]: https://docs.aspose.com/words/java/working-with-tables/
@@ -151,6 +194,36 @@ public boolean equals(Style style)
 
 
 Compares with the specified style. Styles Istds are compared for built-in styles only. Styles defaults are not included in comparison. Base style, linked style and next paragraph style are recursively compared.
+
+ **Examples:** 
+
+Shows how to use style aliases.
+
+```
+
+ Document doc = new Document(getMyDir() + "Style with alias.docx");
+
+ // This document contains a style named "MyStyle,MyStyle Alias 1,MyStyle Alias 2".
+ // If a style's name has multiple values separated by commas, each clause is a separate alias.
+ Style style = doc.getStyles().get("MyStyle");
+ Assert.assertEquals(new String[]{"MyStyle Alias 1", "MyStyle Alias 2"}, style.getAliases());
+ Assert.assertEquals("Title", style.getBaseStyleName());
+ Assert.assertEquals("MyStyle Char", style.getLinkedStyleName());
+
+ // We can reference a style using its alias, as well as its name.
+ Assert.assertEquals(doc.getStyles().get("MyStyle Alias 1"), doc.getStyles().get("MyStyle Alias 2"));
+
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.moveToDocumentEnd();
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("MyStyle Alias 1"));
+ builder.writeln("Hello world!");
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("MyStyle Alias 2"));
+ builder.write("Hello again!");
+
+ Assert.assertEquals(doc.getFirstSection().getBody().getParagraphs().get(0).getParagraphFormat().getStyle(),
+         doc.getFirstSection().getBody().getParagraphs().get(1).getParagraphFormat().getStyle());
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -317,6 +390,36 @@ public String[] getAliases()
 
 Gets all aliases of this style. If style has no aliases then empty array of string is returned.
 
+ **Examples:** 
+
+Shows how to use style aliases.
+
+```
+
+ Document doc = new Document(getMyDir() + "Style with alias.docx");
+
+ // This document contains a style named "MyStyle,MyStyle Alias 1,MyStyle Alias 2".
+ // If a style's name has multiple values separated by commas, each clause is a separate alias.
+ Style style = doc.getStyles().get("MyStyle");
+ Assert.assertEquals(new String[]{"MyStyle Alias 1", "MyStyle Alias 2"}, style.getAliases());
+ Assert.assertEquals("Title", style.getBaseStyleName());
+ Assert.assertEquals("MyStyle Char", style.getLinkedStyleName());
+
+ // We can reference a style using its alias, as well as its name.
+ Assert.assertEquals(doc.getStyles().get("MyStyle Alias 1"), doc.getStyles().get("MyStyle Alias 2"));
+
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.moveToDocumentEnd();
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("MyStyle Alias 1"));
+ builder.writeln("Hello world!");
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("MyStyle Alias 2"));
+ builder.write("Hello again!");
+
+ Assert.assertEquals(doc.getFirstSection().getBody().getParagraphs().get(0).getParagraphFormat().getStyle(),
+         doc.getFirstSection().getBody().getParagraphs().get(1).getParagraphFormat().getStyle());
+ 
+```
+
 **Returns:**
 java.lang.String[] - All aliases of this style.
 ### getAlignment() {#getAlignment}
@@ -325,7 +428,54 @@ public int getAlignment()
 ```
 
 
-Specifies the alignment for the table style. The default value is [TableAlignment.LEFT](../../com.aspose.words/tablealignment/\#LEFT).
+Specifies the alignment for the table style.
+
+ **Remarks:** 
+
+The default value is [TableAlignment.LEFT](../../com.aspose.words/tablealignment/\#LEFT).
+
+ **Examples:** 
+
+Shows how to set the position of a table.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Below are two ways of aligning a table horizontally.
+ // 1 -  Use the "Alignment" property to align it to a location on the page, such as the center:
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.setAlignment(TableAlignment.CENTER);
+ tableStyle.getBorders().setColor(Color.BLUE);
+ tableStyle.getBorders().setLineStyle(LineStyle.SINGLE);
+
+ // Insert a table and apply the style we created to it.
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Aligned to the center of the page");
+ builder.endTable();
+ table.setPreferredWidth(PreferredWidth.fromPoints(300.0));
+
+ table.setStyle(tableStyle);
+
+ // 2 -  Use the "LeftIndent" to specify an indent from the left margin of the page:
+ tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle2");
+ tableStyle.setLeftIndent(55.0);
+ tableStyle.getBorders().setColor(Color.GREEN);
+ tableStyle.getBorders().setLineStyle(LineStyle.SINGLE);
+
+ table = builder.startTable();
+ builder.insertCell();
+ builder.write("Aligned according to left indent");
+ builder.endTable();
+ table.setPreferredWidth(PreferredWidth.fromPoints(300.0));
+
+ table.setStyle(tableStyle);
+
+ doc.save(getArtifactsDir() + "Table.SetTableAlignment.docx");
+ 
+```
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [TableAlignment](../../com.aspose.words/tablealignment/) constants.
@@ -335,7 +485,54 @@ public boolean getAllowBreakAcrossPages()
 ```
 
 
-Gets a flag indicating whether text in a table row is allowed to split across a page break. The default value is  true .
+Gets a flag indicating whether text in a table row is allowed to split across a page break.
+
+ **Remarks:** 
+
+The default value is  true .
+
+ **Examples:** 
+
+Shows how to create custom style settings for the table.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Name");
+ builder.insertCell();
+ builder.write("\u0645\u0631\u062d\u0628\u064b\u0627");
+ builder.endRow();
+ builder.insertCell();
+ builder.insertCell();
+ builder.endTable();
+
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.setAllowBreakAcrossPages(true);
+ tableStyle.setBidi(true);
+ tableStyle.setCellSpacing(5.0);
+ tableStyle.setBottomPadding(20.0);
+ tableStyle.setLeftPadding(5.0);
+ tableStyle.setRightPadding(10.0);
+ tableStyle.setTopPadding(20.0);
+ tableStyle.getShading().setBackgroundPatternColor(Color.WHITE);
+ tableStyle.getBorders().setColor(Color.BLACK);
+ tableStyle.getBorders().setLineStyle(LineStyle.DOT_DASH);
+ tableStyle.setVerticalAlignment(CellVerticalAlignment.CENTER);
+
+ table.setStyle(tableStyle);
+
+ // Setting the style properties of a table may affect the properties of the table itself.
+ Assert.assertTrue(table.getBidi());
+ Assert.assertEquals(5.0d, table.getCellSpacing());
+ Assert.assertEquals("MyTableStyle1", table.getStyleName());
+
+ doc.save(getArtifactsDir() + "Table.TableStyleCreation.docx");
+ 
+```
 
 **Returns:**
 boolean - A flag indicating whether text in a table row is allowed to split across a page break.
@@ -347,11 +544,51 @@ public boolean getAutomaticallyUpdate()
 
 Specifies whether this style is automatically redefined based on the appropriate value.
 
+ **Remarks:** 
+
 If the property value is set to true, MS Word automatically redefines the current style when the appropriate paragraph formatting has been changed.
 
 AutomaticallyUpdate property is applicable to paragraph styles only.
 
 The default value is  false .
+
+ **Examples:** 
+
+Shows how to create and apply a custom style.
+
+```
+
+ Document doc = new Document();
+
+ Style style = doc.getStyles().add(StyleType.PARAGRAPH, "MyStyle");
+ style.getFont().setName("Times New Roman");
+ style.getFont().setSize(16.0);
+ style.getFont().setColor(Color.magenta);
+ // Automatically redefine style.
+ style.setAutomaticallyUpdate(true);
+
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Apply one of the styles from the document to the paragraph that the document builder is creating.
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("MyStyle"));
+ builder.writeln("Hello world!");
+
+ Style firstParagraphStyle = doc.getFirstSection().getBody().getFirstParagraph().getParagraphFormat().getStyle();
+
+ Assert.assertEquals(style, firstParagraphStyle);
+
+ // Remove our custom style from the document's styles collection.
+ doc.getStyles().get("MyStyle").remove();
+
+ firstParagraphStyle = doc.getFirstSection().getBody().getFirstParagraph().getParagraphFormat().getStyle();
+
+ // Any text that used a removed style reverts to the default formatting.
+ Assert.assertFalse(IterableUtils.matchesAny(doc.getStyles(), s -> s.getName() == "MyStyle"));
+ Assert.assertEquals("Times New Roman", firstParagraphStyle.getFont().getName());
+ Assert.assertEquals(12.0d, firstParagraphStyle.getFont().getSize());
+ Assert.assertEquals(0, firstParagraphStyle.getFont().getColor().getRGB());
+ 
+```
 
 **Returns:**
 boolean - The corresponding  boolean  value.
@@ -361,7 +598,41 @@ public String getBaseStyleName()
 ```
 
 
-Gets/sets the name of the style this style is based on. This will be an empty string if the style is not based on any other style and it can be set to an empty string.
+Gets/sets the name of the style this style is based on.
+
+ **Remarks:** 
+
+This will be an empty string if the style is not based on any other style and it can be set to an empty string.
+
+ **Examples:** 
+
+Shows how to use style aliases.
+
+```
+
+ Document doc = new Document(getMyDir() + "Style with alias.docx");
+
+ // This document contains a style named "MyStyle,MyStyle Alias 1,MyStyle Alias 2".
+ // If a style's name has multiple values separated by commas, each clause is a separate alias.
+ Style style = doc.getStyles().get("MyStyle");
+ Assert.assertEquals(new String[]{"MyStyle Alias 1", "MyStyle Alias 2"}, style.getAliases());
+ Assert.assertEquals("Title", style.getBaseStyleName());
+ Assert.assertEquals("MyStyle Char", style.getLinkedStyleName());
+
+ // We can reference a style using its alias, as well as its name.
+ Assert.assertEquals(doc.getStyles().get("MyStyle Alias 1"), doc.getStyles().get("MyStyle Alias 2"));
+
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.moveToDocumentEnd();
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("MyStyle Alias 1"));
+ builder.writeln("Hello world!");
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("MyStyle Alias 2"));
+ builder.write("Hello again!");
+
+ Assert.assertEquals(doc.getFirstSection().getBody().getParagraphs().get(0).getParagraphFormat().getStyle(),
+         doc.getFirstSection().getBody().getParagraphs().get(1).getParagraphFormat().getStyle());
+ 
+```
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
@@ -373,9 +644,54 @@ public boolean getBidi()
 
 Gets whether this is a style for a right-to-left table.
 
+ **Remarks:** 
+
 When  true , the cells in rows are laid out right to left.
 
 The default value is  false .
+
+ **Examples:** 
+
+Shows how to create custom style settings for the table.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Name");
+ builder.insertCell();
+ builder.write("\u0645\u0631\u062d\u0628\u064b\u0627");
+ builder.endRow();
+ builder.insertCell();
+ builder.insertCell();
+ builder.endTable();
+
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.setAllowBreakAcrossPages(true);
+ tableStyle.setBidi(true);
+ tableStyle.setCellSpacing(5.0);
+ tableStyle.setBottomPadding(20.0);
+ tableStyle.setLeftPadding(5.0);
+ tableStyle.setRightPadding(10.0);
+ tableStyle.setTopPadding(20.0);
+ tableStyle.getShading().setBackgroundPatternColor(Color.WHITE);
+ tableStyle.getBorders().setColor(Color.BLACK);
+ tableStyle.getBorders().setLineStyle(LineStyle.DOT_DASH);
+ tableStyle.setVerticalAlignment(CellVerticalAlignment.CENTER);
+
+ table.setStyle(tableStyle);
+
+ // Setting the style properties of a table may affect the properties of the table itself.
+ Assert.assertTrue(table.getBidi());
+ Assert.assertEquals(5.0d, table.getCellSpacing());
+ Assert.assertEquals("MyTableStyle1", table.getStyleName());
+
+ doc.save(getArtifactsDir() + "Table.TableStyleCreation.docx");
+ 
+```
 
 **Returns:**
 boolean - Whether this is a style for a right-to-left table.
@@ -387,6 +703,49 @@ public BorderCollection getBorders()
 
 Gets the collection of default cell borders for the style.
 
+ **Examples:** 
+
+Shows how to create custom style settings for the table.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Name");
+ builder.insertCell();
+ builder.write("\u0645\u0631\u062d\u0628\u064b\u0627");
+ builder.endRow();
+ builder.insertCell();
+ builder.insertCell();
+ builder.endTable();
+
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.setAllowBreakAcrossPages(true);
+ tableStyle.setBidi(true);
+ tableStyle.setCellSpacing(5.0);
+ tableStyle.setBottomPadding(20.0);
+ tableStyle.setLeftPadding(5.0);
+ tableStyle.setRightPadding(10.0);
+ tableStyle.setTopPadding(20.0);
+ tableStyle.getShading().setBackgroundPatternColor(Color.WHITE);
+ tableStyle.getBorders().setColor(Color.BLACK);
+ tableStyle.getBorders().setLineStyle(LineStyle.DOT_DASH);
+ tableStyle.setVerticalAlignment(CellVerticalAlignment.CENTER);
+
+ table.setStyle(tableStyle);
+
+ // Setting the style properties of a table may affect the properties of the table itself.
+ Assert.assertTrue(table.getBidi());
+ Assert.assertEquals(5.0d, table.getCellSpacing());
+ Assert.assertEquals("MyTableStyle1", table.getStyleName());
+
+ doc.save(getArtifactsDir() + "Table.TableStyleCreation.docx");
+ 
+```
+
 **Returns:**
 [BorderCollection](../../com.aspose.words/bordercollection/) - The collection of default cell borders for the style.
 ### getBottomPadding() {#getBottomPadding}
@@ -396,6 +755,49 @@ public double getBottomPadding()
 
 
 Gets the amount of space (in points) to add below the contents of table cells.
+
+ **Examples:** 
+
+Shows how to create custom style settings for the table.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Name");
+ builder.insertCell();
+ builder.write("\u0645\u0631\u062d\u0628\u064b\u0627");
+ builder.endRow();
+ builder.insertCell();
+ builder.insertCell();
+ builder.endTable();
+
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.setAllowBreakAcrossPages(true);
+ tableStyle.setBidi(true);
+ tableStyle.setCellSpacing(5.0);
+ tableStyle.setBottomPadding(20.0);
+ tableStyle.setLeftPadding(5.0);
+ tableStyle.setRightPadding(10.0);
+ tableStyle.setTopPadding(20.0);
+ tableStyle.getShading().setBackgroundPatternColor(Color.WHITE);
+ tableStyle.getBorders().setColor(Color.BLACK);
+ tableStyle.getBorders().setLineStyle(LineStyle.DOT_DASH);
+ tableStyle.setVerticalAlignment(CellVerticalAlignment.CENTER);
+
+ table.setStyle(tableStyle);
+
+ // Setting the style properties of a table may affect the properties of the table itself.
+ Assert.assertTrue(table.getBidi());
+ Assert.assertEquals(5.0d, table.getCellSpacing());
+ Assert.assertEquals("MyTableStyle1", table.getStyleName());
+
+ doc.save(getArtifactsDir() + "Table.TableStyleCreation.docx");
+ 
+```
 
 **Returns:**
 double - The amount of space (in points) to add below the contents of table cells.
@@ -407,6 +809,32 @@ public boolean getBuiltIn()
 
 True if this style is one of the built-in styles in MS Word.
 
+ **Examples:** 
+
+Shows how to differentiate custom styles from built-in styles.
+
+```
+
+ Document doc = new Document();
+
+ // When we create a document using Microsoft Word, or programmatically using Aspose.Words,
+ // the document will come with a collection of styles to apply to its text to modify its appearance.
+ // We can access these built-in styles via the document's "Styles" collection.
+ // These styles will all have the "BuiltIn" flag set to "true".
+ Style style = doc.getStyles().get("Emphasis");
+
+ Assert.assertTrue(style.getBuiltIn());
+
+ // Create a custom style and add it to the collection.
+ // Custom styles such as this will have the "BuiltIn" flag set to "false".
+ style = doc.getStyles().add(StyleType.CHARACTER, "MyStyle");
+ style.getFont().setColor(Color.RED);
+ style.getFont().setName("Courier New");
+
+ Assert.assertFalse(style.getBuiltIn());
+ 
+```
+
 **Returns:**
 boolean - The corresponding  boolean  value.
 ### getCellSpacing() {#getCellSpacing}
@@ -416,6 +844,49 @@ public double getCellSpacing()
 
 
 Gets the amount of space (in points) between the cells.
+
+ **Examples:** 
+
+Shows how to create custom style settings for the table.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Name");
+ builder.insertCell();
+ builder.write("\u0645\u0631\u062d\u0628\u064b\u0627");
+ builder.endRow();
+ builder.insertCell();
+ builder.insertCell();
+ builder.endTable();
+
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.setAllowBreakAcrossPages(true);
+ tableStyle.setBidi(true);
+ tableStyle.setCellSpacing(5.0);
+ tableStyle.setBottomPadding(20.0);
+ tableStyle.setLeftPadding(5.0);
+ tableStyle.setRightPadding(10.0);
+ tableStyle.setTopPadding(20.0);
+ tableStyle.getShading().setBackgroundPatternColor(Color.WHITE);
+ tableStyle.getBorders().setColor(Color.BLACK);
+ tableStyle.getBorders().setLineStyle(LineStyle.DOT_DASH);
+ tableStyle.setVerticalAlignment(CellVerticalAlignment.CENTER);
+
+ table.setStyle(tableStyle);
+
+ // Setting the style properties of a table may affect the properties of the table itself.
+ Assert.assertTrue(table.getBidi());
+ Assert.assertEquals(5.0d, table.getCellSpacing());
+ Assert.assertEquals("MyTableStyle1", table.getStyleName());
+
+ doc.save(getArtifactsDir() + "Table.TableStyleCreation.docx");
+ 
+```
 
 **Returns:**
 double - The amount of space (in points) between the cells.
@@ -437,6 +908,60 @@ public int getColumnStripe()
 
 Gets a number of columns to include in the banding when the style specifies odd/even columns banding.
 
+ **Examples:** 
+
+Shows how to create conditional table styles that alternate between rows.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // We can configure a conditional style of a table to apply a different color to the row/column,
+ // based on whether the row/column is even or odd, creating an alternating color pattern.
+ // We can also apply a number n to the row/column banding,
+ // meaning that the color alternates after every n rows/columns instead of one.
+ // Create a table where single columns and rows will band the columns will banded in threes.
+ Table table = builder.startTable();
+
+ for (int i = 0; i < 15; i++) {
+     for (int j = 0; j < 4; j++) {
+         builder.insertCell();
+         builder.writeln(MessageFormat.format("{0} column.", (j % 2 == 0 ? "Even" : "Odd")));
+         builder.write(MessageFormat.format("Row banding {0}.", (i % 3 == 0 ? "start" : "continuation")));
+     }
+     builder.endRow();
+ }
+
+ builder.endTable();
+
+ // Apply a line style to all the borders of the table.
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.getBorders().setColor(Color.BLACK);
+ tableStyle.getBorders().setLineStyle(LineStyle.DOUBLE);
+
+ // Set the two colors, which will alternate over every 3 rows.
+ tableStyle.setRowStripe(3);
+ tableStyle.getConditionalStyles().getByConditionalStyleType(ConditionalStyleType.ODD_ROW_BANDING).getShading().setBackgroundPatternColor(Color.BLUE);
+ tableStyle.getConditionalStyles().getByConditionalStyleType(ConditionalStyleType.EVEN_ROW_BANDING).getShading().setBackgroundPatternColor(Color.CYAN);
+
+ // Set a color to apply to every even column, which will override any custom row coloring.
+ tableStyle.setColumnStripe(1);
+ tableStyle.getConditionalStyles().getByConditionalStyleType(ConditionalStyleType.EVEN_COLUMN_BANDING).getShading().setBackgroundPatternColor(Color.RED);
+
+ table.setStyle(tableStyle);
+
+ // The "StyleOptions" property enables row banding by default.
+ Assert.assertEquals(TableStyleOptions.FIRST_ROW | TableStyleOptions.FIRST_COLUMN | TableStyleOptions.ROW_BANDS,
+         table.getStyleOptions());
+
+ // Use the "StyleOptions" property also to enable column banding.
+ table.setStyleOptions(table.getStyleOptions() | TableStyleOptions.COLUMN_BANDS);
+
+ doc.save(getArtifactsDir() + "Table.AlternatingRowStyles.docx");
+ 
+```
+
 **Returns:**
 int - A number of columns to include in the banding when the style specifies odd/even columns banding.
 ### getConditionalStyles() {#getConditionalStyles}
@@ -446,6 +971,72 @@ public ConditionalStyleCollection getConditionalStyles()
 
 
 Collection of conditional styles that may be defined for this table style.
+
+ **Examples:** 
+
+Shows how to work with certain area styles of a table.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Cell 1");
+ builder.insertCell();
+ builder.write("Cell 2");
+ builder.endRow();
+ builder.insertCell();
+ builder.write("Cell 3");
+ builder.insertCell();
+ builder.write("Cell 4");
+ builder.endTable();
+
+ // Create a custom table style.
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+
+ // Conditional styles are formatting changes that affect only some of the table's cells
+ // based on a predicate, such as the cells being in the last row.
+ // Below are three ways of accessing a table style's conditional styles from the "ConditionalStyles" collection.
+ // 1 -  By style type:
+ tableStyle.getConditionalStyles().getByConditionalStyleType(ConditionalStyleType.FIRST_ROW).getShading().setBackgroundPatternColor(Color.BLUE);
+
+ // 2 -  By index:
+ tableStyle.getConditionalStyles().get(0).getBorders().setColor(Color.BLACK);
+ tableStyle.getConditionalStyles().get(0).getBorders().setLineStyle(LineStyle.DOT_DASH);
+ Assert.assertEquals(ConditionalStyleType.FIRST_ROW, tableStyle.getConditionalStyles().get(0).getType());
+
+ // 3 -  As a property:
+ tableStyle.getConditionalStyles().getFirstRow().getParagraphFormat().setAlignment(ParagraphAlignment.CENTER);
+
+ // Apply padding and text formatting to conditional styles.
+ tableStyle.getConditionalStyles().getLastRow().setBottomPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setLeftPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setRightPadding(10.0);
+ tableStyle.getConditionalStyles().getLastRow().setTopPadding(10.0);
+ tableStyle.getConditionalStyles().getLastColumn().getFont().setBold(true);
+
+ // List all possible style conditions.
+ Iterator enumerator = tableStyle.getConditionalStyles().iterator();
+ while (enumerator.hasNext()) {
+     ConditionalStyle currentStyle = enumerator.next();
+     if (currentStyle != null) System.out.println(currentStyle.getType());
+ }
+
+ // Apply the custom style, which contains all conditional styles, to the table.
+ table.setStyle(tableStyle);
+
+ // Our style applies some conditional styles by default.
+ Assert.assertEquals(TableStyleOptions.FIRST_ROW | TableStyleOptions.FIRST_COLUMN | TableStyleOptions.ROW_BANDS,
+         table.getStyleOptions());
+
+ // We will need to enable all other styles ourselves via the "StyleOptions" property.
+ table.setStyleOptions(table.getStyleOptions() | TableStyleOptions.LAST_ROW | TableStyleOptions.LAST_COLUMN);
+
+ doc.save(getArtifactsDir() + "Table.ConditionalStyles.docx");
+ 
+```
 
 **Returns:**
 [ConditionalStyleCollection](../../com.aspose.words/conditionalstylecollection/) - The corresponding [ConditionalStyleCollection](../../com.aspose.words/conditionalstylecollection/) value.
@@ -564,6 +1155,20 @@ public DocumentBase getDocument()
 
 Gets the owner document.
 
+ **Examples:** 
+
+Shows how to access a document's style collection.
+
+```
+
+ Document doc = new Document();
+
+ Assert.assertEquals(4, doc.getStyles().getCount());
+
+ // Enumerate and list all the styles that a document created using Aspose.Words contains by default.
+ Iterator
+```
+
 **Returns:**
 [DocumentBase](../../com.aspose.words/documentbase/) - The owner document.
 ### getFont() {#getFont}
@@ -574,7 +1179,76 @@ public Font getFont()
 
 Gets the character formatting of the style.
 
+ **Remarks:** 
+
 For list styles this property returns  null .
+
+ **Examples:** 
+
+Shows how to create and use a paragraph style with list formatting.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Create a custom paragraph style.
+ Style style = doc.getStyles().add(StyleType.PARAGRAPH, "MyStyle1");
+ style.getFont().setSize(24.0);
+ style.getFont().setName("Verdana");
+ style.getParagraphFormat().setSpaceAfter(12.0);
+
+ // Create a list and make sure the paragraphs that use this style will use this list.
+ style.getListFormat().setList(doc.getLists().add(ListTemplate.BULLET_DEFAULT));
+ style.getListFormat().setListLevelNumber(0);
+
+ // Apply the paragraph style to the document builder's current paragraph, and then add some text.
+ builder.getParagraphFormat().setStyle(style);
+ builder.writeln("Hello World: MyStyle1, bulleted list.");
+
+ // Change the document builder's style to one that has no list formatting and write another paragraph.
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("Normal"));
+ builder.writeln("Hello World: Normal.");
+
+ builder.getDocument().save(getArtifactsDir() + "Styles.ParagraphStyleBulletedList.docx");
+ 
+```
+
+Shows how to create and apply a custom style.
+
+```
+
+ Document doc = new Document();
+
+ Style style = doc.getStyles().add(StyleType.PARAGRAPH, "MyStyle");
+ style.getFont().setName("Times New Roman");
+ style.getFont().setSize(16.0);
+ style.getFont().setColor(Color.magenta);
+ // Automatically redefine style.
+ style.setAutomaticallyUpdate(true);
+
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Apply one of the styles from the document to the paragraph that the document builder is creating.
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("MyStyle"));
+ builder.writeln("Hello world!");
+
+ Style firstParagraphStyle = doc.getFirstSection().getBody().getFirstParagraph().getParagraphFormat().getStyle();
+
+ Assert.assertEquals(style, firstParagraphStyle);
+
+ // Remove our custom style from the document's styles collection.
+ doc.getStyles().get("MyStyle").remove();
+
+ firstParagraphStyle = doc.getFirstSection().getBody().getFirstParagraph().getParagraphFormat().getStyle();
+
+ // Any text that used a removed style reverts to the default formatting.
+ Assert.assertFalse(IterableUtils.matchesAny(doc.getStyles(), s -> s.getName() == "MyStyle"));
+ Assert.assertEquals("Times New Roman", firstParagraphStyle.getFont().getName());
+ Assert.assertEquals(12.0d, firstParagraphStyle.getFont().getSize());
+ Assert.assertEquals(0, firstParagraphStyle.getFont().getColor().getRGB());
+ 
+```
 
 **Returns:**
 [Font](../../com.aspose.words/font/) - The character formatting of the style.
@@ -586,6 +1260,49 @@ public double getLeftIndent()
 
 Gets the value that represents the left indent of a table.
 
+ **Examples:** 
+
+Shows how to set the position of a table.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Below are two ways of aligning a table horizontally.
+ // 1 -  Use the "Alignment" property to align it to a location on the page, such as the center:
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.setAlignment(TableAlignment.CENTER);
+ tableStyle.getBorders().setColor(Color.BLUE);
+ tableStyle.getBorders().setLineStyle(LineStyle.SINGLE);
+
+ // Insert a table and apply the style we created to it.
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Aligned to the center of the page");
+ builder.endTable();
+ table.setPreferredWidth(PreferredWidth.fromPoints(300.0));
+
+ table.setStyle(tableStyle);
+
+ // 2 -  Use the "LeftIndent" to specify an indent from the left margin of the page:
+ tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle2");
+ tableStyle.setLeftIndent(55.0);
+ tableStyle.getBorders().setColor(Color.GREEN);
+ tableStyle.getBorders().setLineStyle(LineStyle.SINGLE);
+
+ table = builder.startTable();
+ builder.insertCell();
+ builder.write("Aligned according to left indent");
+ builder.endTable();
+ table.setPreferredWidth(PreferredWidth.fromPoints(300.0));
+
+ table.setStyle(tableStyle);
+
+ doc.save(getArtifactsDir() + "Table.SetTableAlignment.docx");
+ 
+```
+
 **Returns:**
 double - The value that represents the left indent of a table.
 ### getLeftPadding() {#getLeftPadding}
@@ -595,6 +1312,49 @@ public double getLeftPadding()
 
 
 Gets the amount of space (in points) to add to the left of the contents of table cells.
+
+ **Examples:** 
+
+Shows how to create custom style settings for the table.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Name");
+ builder.insertCell();
+ builder.write("\u0645\u0631\u062d\u0628\u064b\u0627");
+ builder.endRow();
+ builder.insertCell();
+ builder.insertCell();
+ builder.endTable();
+
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.setAllowBreakAcrossPages(true);
+ tableStyle.setBidi(true);
+ tableStyle.setCellSpacing(5.0);
+ tableStyle.setBottomPadding(20.0);
+ tableStyle.setLeftPadding(5.0);
+ tableStyle.setRightPadding(10.0);
+ tableStyle.setTopPadding(20.0);
+ tableStyle.getShading().setBackgroundPatternColor(Color.WHITE);
+ tableStyle.getBorders().setColor(Color.BLACK);
+ tableStyle.getBorders().setLineStyle(LineStyle.DOT_DASH);
+ tableStyle.setVerticalAlignment(CellVerticalAlignment.CENTER);
+
+ table.setStyle(tableStyle);
+
+ // Setting the style properties of a table may affect the properties of the table itself.
+ Assert.assertTrue(table.getBidi());
+ Assert.assertEquals(5.0d, table.getCellSpacing());
+ Assert.assertEquals("MyTableStyle1", table.getStyleName());
+
+ doc.save(getArtifactsDir() + "Table.TableStyleCreation.docx");
+ 
+```
 
 **Returns:**
 double - The amount of space (in points) to add to the left of the contents of table cells.
@@ -606,6 +1366,36 @@ public String getLinkedStyleName()
 
 Gets the name of the [Style](../../com.aspose.words/style/) linked to this one. Returns empty string if no styles are linked.
 
+ **Examples:** 
+
+Shows how to use style aliases.
+
+```
+
+ Document doc = new Document(getMyDir() + "Style with alias.docx");
+
+ // This document contains a style named "MyStyle,MyStyle Alias 1,MyStyle Alias 2".
+ // If a style's name has multiple values separated by commas, each clause is a separate alias.
+ Style style = doc.getStyles().get("MyStyle");
+ Assert.assertEquals(new String[]{"MyStyle Alias 1", "MyStyle Alias 2"}, style.getAliases());
+ Assert.assertEquals("Title", style.getBaseStyleName());
+ Assert.assertEquals("MyStyle Char", style.getLinkedStyleName());
+
+ // We can reference a style using its alias, as well as its name.
+ Assert.assertEquals(doc.getStyles().get("MyStyle Alias 1"), doc.getStyles().get("MyStyle Alias 2"));
+
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.moveToDocumentEnd();
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("MyStyle Alias 1"));
+ builder.writeln("Hello world!");
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("MyStyle Alias 2"));
+ builder.write("Hello again!");
+
+ Assert.assertEquals(doc.getFirstSection().getBody().getParagraphs().get(0).getParagraphFormat().getStyle(),
+         doc.getFirstSection().getBody().getParagraphs().get(1).getParagraphFormat().getStyle());
+ 
+```
+
 **Returns:**
 java.lang.String - The name of the [Style](../../com.aspose.words/style/) linked to this one.
 ### getList() {#getList}
@@ -616,7 +1406,68 @@ public List getList()
 
 Gets the list that defines formatting of this list style.
 
+ **Remarks:** 
+
 This property is only valid for list styles. For other style types this property returns  null .
+
+ **Examples:** 
+
+Shows how to create a list style and use it in a document.
+
+```
+
+ Document doc = new Document();
+
+ // A list allows us to organize and decorate sets of paragraphs with prefix symbols and indents.
+ // We can create nested lists by increasing the indent level.
+ // We can begin and end a list by using a document builder's "ListFormat" property.
+ // Each paragraph that we add between a list's start and the end will become an item in the list.
+ // We can contain an entire List object within a style.
+ Style listStyle = doc.getStyles().add(StyleType.LIST, "MyListStyle");
+
+ List list1 = listStyle.getList();
+
+ Assert.assertTrue(list1.isListStyleDefinition());
+ Assert.assertFalse(list1.isListStyleReference());
+ Assert.assertTrue(list1.isMultiLevel());
+ Assert.assertEquals(listStyle, list1.getStyle());
+
+ // Change the appearance of all list levels in our list.
+ for (ListLevel level : list1.getListLevels()) {
+     level.getFont().setName("Verdana");
+     level.getFont().setColor(Color.BLUE);
+     level.getFont().setBold(true);
+ }
+
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.writeln("Using list style first time:");
+
+ // Create another list from a list within a style.
+ List list2 = doc.getLists().add(listStyle);
+
+ Assert.assertFalse(list2.isListStyleDefinition());
+ Assert.assertTrue(list2.isListStyleReference());
+ Assert.assertEquals(listStyle, list2.getStyle());
+
+ // Add some list items that our list will format.
+ builder.getListFormat().setList(list2);
+ builder.writeln("Item 1");
+ builder.writeln("Item 2");
+ builder.getListFormat().removeNumbers();
+
+ builder.writeln("Using list style second time:");
+
+ // Create and apply another list based on the list style.
+ List list3 = doc.getLists().add(listStyle);
+ builder.getListFormat().setList(list3);
+ builder.writeln("Item 1");
+ builder.writeln("Item 2");
+ builder.getListFormat().removeNumbers();
+
+ builder.getDocument().save(getArtifactsDir() + "Lists.CreateAndUseListStyle.docx");
+ 
+```
 
 **Returns:**
 [List](../../com.aspose.words/list/) - The list that defines formatting of this list style.
@@ -628,7 +1479,40 @@ public ListFormat getListFormat()
 
 Provides access to the list formatting properties of a paragraph style.
 
+ **Remarks:** 
+
 This property is only valid for paragraph styles. For other style types this property returns  null .
+
+ **Examples:** 
+
+Shows how to create and use a paragraph style with list formatting.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Create a custom paragraph style.
+ Style style = doc.getStyles().add(StyleType.PARAGRAPH, "MyStyle1");
+ style.getFont().setSize(24.0);
+ style.getFont().setName("Verdana");
+ style.getParagraphFormat().setSpaceAfter(12.0);
+
+ // Create a list and make sure the paragraphs that use this style will use this list.
+ style.getListFormat().setList(doc.getLists().add(ListTemplate.BULLET_DEFAULT));
+ style.getListFormat().setListLevelNumber(0);
+
+ // Apply the paragraph style to the document builder's current paragraph, and then add some text.
+ builder.getParagraphFormat().setStyle(style);
+ builder.writeln("Hello World: MyStyle1, bulleted list.");
+
+ // Change the document builder's style to one that has no list formatting and write another paragraph.
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("Normal"));
+ builder.writeln("Hello World: Normal.");
+
+ builder.getDocument().save(getArtifactsDir() + "Styles.ParagraphStyleBulletedList.docx");
+ 
+```
 
 **Returns:**
 [ListFormat](../../com.aspose.words/listformat/) - The corresponding [ListFormat](../../com.aspose.words/listformat/) value.
@@ -640,9 +1524,25 @@ public String getName()
 
 Gets the name of the style.
 
+ **Remarks:** 
+
 Can not be empty string.
 
 If there already is a style with such name in the collection, then this style will override it. All affected nodes will reference new style.
+
+ **Examples:** 
+
+Shows how to access a document's style collection.
+
+```
+
+ Document doc = new Document();
+
+ Assert.assertEquals(4, doc.getStyles().getCount());
+
+ // Enumerate and list all the styles that a document created using Aspose.Words contains by default.
+ Iterator
+```
 
 **Returns:**
 java.lang.String - The name of the style.
@@ -652,7 +1552,25 @@ public String getNextParagraphStyleName()
 ```
 
 
-Gets/sets the name of the style to be applied automatically to a new paragraph inserted after a paragraph formatted with the specified style. This property is not used by Aspose.Words. The next paragraph style will only be applied automatically when you edit the document in MS Word.
+Gets/sets the name of the style to be applied automatically to a new paragraph inserted after a paragraph formatted with the specified style.
+
+ **Remarks:** 
+
+This property is not used by Aspose.Words. The next paragraph style will only be applied automatically when you edit the document in MS Word.
+
+ **Examples:** 
+
+Shows how to access a document's style collection.
+
+```
+
+ Document doc = new Document();
+
+ Assert.assertEquals(4, doc.getStyles().getCount());
+
+ // Enumerate and list all the styles that a document created using Aspose.Words contains by default.
+ Iterator
+```
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
@@ -664,7 +1582,40 @@ public ParagraphFormat getParagraphFormat()
 
 Gets the paragraph formatting of the style.
 
+ **Remarks:** 
+
 For character and list styles this property returns  null .
+
+ **Examples:** 
+
+Shows how to create and use a paragraph style with list formatting.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Create a custom paragraph style.
+ Style style = doc.getStyles().add(StyleType.PARAGRAPH, "MyStyle1");
+ style.getFont().setSize(24.0);
+ style.getFont().setName("Verdana");
+ style.getParagraphFormat().setSpaceAfter(12.0);
+
+ // Create a list and make sure the paragraphs that use this style will use this list.
+ style.getListFormat().setList(doc.getLists().add(ListTemplate.BULLET_DEFAULT));
+ style.getListFormat().setListLevelNumber(0);
+
+ // Apply the paragraph style to the document builder's current paragraph, and then add some text.
+ builder.getParagraphFormat().setStyle(style);
+ builder.writeln("Hello World: MyStyle1, bulleted list.");
+
+ // Change the document builder's style to one that has no list formatting and write another paragraph.
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("Normal"));
+ builder.writeln("Hello World: Normal.");
+
+ builder.getDocument().save(getArtifactsDir() + "Styles.ParagraphStyleBulletedList.docx");
+ 
+```
 
 **Returns:**
 [ParagraphFormat](../../com.aspose.words/paragraphformat/) - The paragraph formatting of the style.
@@ -676,6 +1627,49 @@ public double getRightPadding()
 
 Gets the amount of space (in points) to add to the right of the contents of table cells.
 
+ **Examples:** 
+
+Shows how to create custom style settings for the table.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Name");
+ builder.insertCell();
+ builder.write("\u0645\u0631\u062d\u0628\u064b\u0627");
+ builder.endRow();
+ builder.insertCell();
+ builder.insertCell();
+ builder.endTable();
+
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.setAllowBreakAcrossPages(true);
+ tableStyle.setBidi(true);
+ tableStyle.setCellSpacing(5.0);
+ tableStyle.setBottomPadding(20.0);
+ tableStyle.setLeftPadding(5.0);
+ tableStyle.setRightPadding(10.0);
+ tableStyle.setTopPadding(20.0);
+ tableStyle.getShading().setBackgroundPatternColor(Color.WHITE);
+ tableStyle.getBorders().setColor(Color.BLACK);
+ tableStyle.getBorders().setLineStyle(LineStyle.DOT_DASH);
+ tableStyle.setVerticalAlignment(CellVerticalAlignment.CENTER);
+
+ table.setStyle(tableStyle);
+
+ // Setting the style properties of a table may affect the properties of the table itself.
+ Assert.assertTrue(table.getBidi());
+ Assert.assertEquals(5.0d, table.getCellSpacing());
+ Assert.assertEquals("MyTableStyle1", table.getStyleName());
+
+ doc.save(getArtifactsDir() + "Table.TableStyleCreation.docx");
+ 
+```
+
 **Returns:**
 double - The amount of space (in points) to add to the right of the contents of table cells.
 ### getRowStripe() {#getRowStripe}
@@ -685,6 +1679,60 @@ public int getRowStripe()
 
 
 Gets a number of rows to include in the banding when the style specifies odd/even row banding.
+
+ **Examples:** 
+
+Shows how to create conditional table styles that alternate between rows.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // We can configure a conditional style of a table to apply a different color to the row/column,
+ // based on whether the row/column is even or odd, creating an alternating color pattern.
+ // We can also apply a number n to the row/column banding,
+ // meaning that the color alternates after every n rows/columns instead of one.
+ // Create a table where single columns and rows will band the columns will banded in threes.
+ Table table = builder.startTable();
+
+ for (int i = 0; i < 15; i++) {
+     for (int j = 0; j < 4; j++) {
+         builder.insertCell();
+         builder.writeln(MessageFormat.format("{0} column.", (j % 2 == 0 ? "Even" : "Odd")));
+         builder.write(MessageFormat.format("Row banding {0}.", (i % 3 == 0 ? "start" : "continuation")));
+     }
+     builder.endRow();
+ }
+
+ builder.endTable();
+
+ // Apply a line style to all the borders of the table.
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.getBorders().setColor(Color.BLACK);
+ tableStyle.getBorders().setLineStyle(LineStyle.DOUBLE);
+
+ // Set the two colors, which will alternate over every 3 rows.
+ tableStyle.setRowStripe(3);
+ tableStyle.getConditionalStyles().getByConditionalStyleType(ConditionalStyleType.ODD_ROW_BANDING).getShading().setBackgroundPatternColor(Color.BLUE);
+ tableStyle.getConditionalStyles().getByConditionalStyleType(ConditionalStyleType.EVEN_ROW_BANDING).getShading().setBackgroundPatternColor(Color.CYAN);
+
+ // Set a color to apply to every even column, which will override any custom row coloring.
+ tableStyle.setColumnStripe(1);
+ tableStyle.getConditionalStyles().getByConditionalStyleType(ConditionalStyleType.EVEN_COLUMN_BANDING).getShading().setBackgroundPatternColor(Color.RED);
+
+ table.setStyle(tableStyle);
+
+ // The "StyleOptions" property enables row banding by default.
+ Assert.assertEquals(TableStyleOptions.FIRST_ROW | TableStyleOptions.FIRST_COLUMN | TableStyleOptions.ROW_BANDS,
+         table.getStyleOptions());
+
+ // Use the "StyleOptions" property also to enable column banding.
+ table.setStyleOptions(table.getStyleOptions() | TableStyleOptions.COLUMN_BANDS);
+
+ doc.save(getArtifactsDir() + "Table.AlternatingRowStyles.docx");
+ 
+```
 
 **Returns:**
 int - A number of rows to include in the banding when the style specifies odd/even row banding.
@@ -696,6 +1744,49 @@ public Shading getShading()
 
 Gets a [Shading](../../com.aspose.words/shading/) object that refers to the shading formatting for table cells.
 
+ **Examples:** 
+
+Shows how to create custom style settings for the table.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Name");
+ builder.insertCell();
+ builder.write("\u0645\u0631\u062d\u0628\u064b\u0627");
+ builder.endRow();
+ builder.insertCell();
+ builder.insertCell();
+ builder.endTable();
+
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.setAllowBreakAcrossPages(true);
+ tableStyle.setBidi(true);
+ tableStyle.setCellSpacing(5.0);
+ tableStyle.setBottomPadding(20.0);
+ tableStyle.setLeftPadding(5.0);
+ tableStyle.setRightPadding(10.0);
+ tableStyle.setTopPadding(20.0);
+ tableStyle.getShading().setBackgroundPatternColor(Color.WHITE);
+ tableStyle.getBorders().setColor(Color.BLACK);
+ tableStyle.getBorders().setLineStyle(LineStyle.DOT_DASH);
+ tableStyle.setVerticalAlignment(CellVerticalAlignment.CENTER);
+
+ table.setStyle(tableStyle);
+
+ // Setting the style properties of a table may affect the properties of the table itself.
+ Assert.assertTrue(table.getBidi());
+ Assert.assertEquals(5.0d, table.getCellSpacing());
+ Assert.assertEquals("MyTableStyle1", table.getStyleName());
+
+ doc.save(getArtifactsDir() + "Table.TableStyleCreation.docx");
+ 
+```
+
 **Returns:**
 [Shading](../../com.aspose.words/shading/) - A [Shading](../../com.aspose.words/shading/) object that refers to the shading formatting for table cells.
 ### getStyleIdentifier() {#getStyleIdentifier}
@@ -706,7 +1797,34 @@ public int getStyleIdentifier()
 
 Gets the locale independent style identifier for a built-in style.
 
+ **Remarks:** 
+
 For user defined (custom) styles, this property returns [StyleIdentifier.USER](../../com.aspose.words/styleidentifier/\#USER).
+
+ **Examples:** 
+
+Shows how to modify the position of the right tab stop in TOC related paragraphs.
+
+```
+
+ Document doc = new Document(getMyDir() + "Table of contents.docx");
+
+ // Iterate through all paragraphs with TOC result-based styles; this is any style between TOC and TOC9.
+ for (Paragraph para : (Iterable) doc.getChildNodes(NodeType.PARAGRAPH, true)) {
+     if (para.getParagraphFormat().getStyle().getStyleIdentifier() >= StyleIdentifier.TOC_1
+             && para.getParagraphFormat().getStyle().getStyleIdentifier() <= StyleIdentifier.TOC_9) {
+         // Get the first tab used in this paragraph, this should be the tab used to align the page numbers.
+         TabStop tab = para.getParagraphFormat().getTabStops().get(0);
+
+         // Replace the first default tab, stop with a custom tab stop.
+         para.getParagraphFormat().getTabStops().removeByPosition(tab.getPosition());
+         para.getParagraphFormat().getTabStops().add(tab.getPosition() - 50.0, tab.getAlignment(), tab.getLeader());
+     }
+ }
+
+ doc.save(getArtifactsDir() + "Styles.ChangeTocsTabStops.docx");
+ 
+```
 
 **Returns:**
 int - The locale independent style identifier for a built-in style. The returned value is one of [StyleIdentifier](../../com.aspose.words/styleidentifier/) constants.
@@ -718,6 +1836,20 @@ public StyleCollection getStyles()
 
 Gets the collection of styles this style belongs to.
 
+ **Examples:** 
+
+Shows how to access a document's style collection.
+
+```
+
+ Document doc = new Document();
+
+ Assert.assertEquals(4, doc.getStyles().getCount());
+
+ // Enumerate and list all the styles that a document created using Aspose.Words contains by default.
+ Iterator
+```
+
 **Returns:**
 [StyleCollection](../../com.aspose.words/stylecollection/) - The collection of styles this style belongs to.
 ### getTopPadding() {#getTopPadding}
@@ -727,6 +1859,49 @@ public double getTopPadding()
 
 
 Gets the amount of space (in points) to add above the contents of table cells.
+
+ **Examples:** 
+
+Shows how to create custom style settings for the table.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Name");
+ builder.insertCell();
+ builder.write("\u0645\u0631\u062d\u0628\u064b\u0627");
+ builder.endRow();
+ builder.insertCell();
+ builder.insertCell();
+ builder.endTable();
+
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.setAllowBreakAcrossPages(true);
+ tableStyle.setBidi(true);
+ tableStyle.setCellSpacing(5.0);
+ tableStyle.setBottomPadding(20.0);
+ tableStyle.setLeftPadding(5.0);
+ tableStyle.setRightPadding(10.0);
+ tableStyle.setTopPadding(20.0);
+ tableStyle.getShading().setBackgroundPatternColor(Color.WHITE);
+ tableStyle.getBorders().setColor(Color.BLACK);
+ tableStyle.getBorders().setLineStyle(LineStyle.DOT_DASH);
+ tableStyle.setVerticalAlignment(CellVerticalAlignment.CENTER);
+
+ table.setStyle(tableStyle);
+
+ // Setting the style properties of a table may affect the properties of the table itself.
+ Assert.assertTrue(table.getBidi());
+ Assert.assertEquals(5.0d, table.getCellSpacing());
+ Assert.assertEquals("MyTableStyle1", table.getStyleName());
+
+ doc.save(getArtifactsDir() + "Table.TableStyleCreation.docx");
+ 
+```
 
 **Returns:**
 double - The amount of space (in points) to add above the contents of table cells.
@@ -738,6 +1913,20 @@ public int getType()
 
 Gets the style type (paragraph or character).
 
+ **Examples:** 
+
+Shows how to access a document's style collection.
+
+```
+
+ Document doc = new Document();
+
+ Assert.assertEquals(4, doc.getStyles().getCount());
+
+ // Enumerate and list all the styles that a document created using Aspose.Words contains by default.
+ Iterator
+```
+
 **Returns:**
 int - The style type (paragraph or character). The returned value is one of [StyleType](../../com.aspose.words/styletype/) constants.
 ### getVerticalAlignment() {#getVerticalAlignment}
@@ -746,7 +1935,54 @@ public int getVerticalAlignment()
 ```
 
 
-Specifies the vertical alignment for the cells. The default value is [CellVerticalAlignment.TOP](../../com.aspose.words/cellverticalalignment/\#TOP).
+Specifies the vertical alignment for the cells.
+
+ **Remarks:** 
+
+The default value is [CellVerticalAlignment.TOP](../../com.aspose.words/cellverticalalignment/\#TOP).
+
+ **Examples:** 
+
+Shows how to create custom style settings for the table.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Name");
+ builder.insertCell();
+ builder.write("\u0645\u0631\u062d\u0628\u064b\u0627");
+ builder.endRow();
+ builder.insertCell();
+ builder.insertCell();
+ builder.endTable();
+
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.setAllowBreakAcrossPages(true);
+ tableStyle.setBidi(true);
+ tableStyle.setCellSpacing(5.0);
+ tableStyle.setBottomPadding(20.0);
+ tableStyle.setLeftPadding(5.0);
+ tableStyle.setRightPadding(10.0);
+ tableStyle.setTopPadding(20.0);
+ tableStyle.getShading().setBackgroundPatternColor(Color.WHITE);
+ tableStyle.getBorders().setColor(Color.BLACK);
+ tableStyle.getBorders().setLineStyle(LineStyle.DOT_DASH);
+ tableStyle.setVerticalAlignment(CellVerticalAlignment.CENTER);
+
+ table.setStyle(tableStyle);
+
+ // Setting the style properties of a table may affect the properties of the table itself.
+ Assert.assertTrue(table.getBidi());
+ Assert.assertEquals(5.0d, table.getCellSpacing());
+ Assert.assertEquals("MyTableStyle1", table.getStyleName());
+
+ doc.save(getArtifactsDir() + "Table.TableStyleCreation.docx");
+ 
+```
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [CellVerticalAlignment](../../com.aspose.words/cellverticalalignment/) constants.
@@ -768,6 +2004,20 @@ public boolean isHeading()
 
 True when the style is one of the built-in Heading styles.
 
+ **Examples:** 
+
+Shows how to access a document's style collection.
+
+```
+
+ Document doc = new Document();
+
+ Assert.assertEquals(4, doc.getStyles().getCount());
+
+ // Enumerate and list all the styles that a document created using Aspose.Words contains by default.
+ Iterator
+```
+
 **Returns:**
 boolean - The corresponding  boolean  value.
 ### isQuickStyle() {#isQuickStyle}
@@ -778,6 +2028,20 @@ public boolean isQuickStyle()
 
 Specifies whether this style is shown in the Quick Style gallery inside MS Word UI.
 
+ **Examples:** 
+
+Shows how to access a document's style collection.
+
+```
+
+ Document doc = new Document();
+
+ Assert.assertEquals(4, doc.getStyles().getCount());
+
+ // Enumerate and list all the styles that a document created using Aspose.Words contains by default.
+ Iterator
+```
+
 **Returns:**
 boolean - The corresponding  boolean  value.
 ### isQuickStyle(boolean value) {#isQuickStyle-boolean}
@@ -787,6 +2051,20 @@ public void isQuickStyle(boolean value)
 
 
 Specifies whether this style is shown in the Quick Style gallery inside MS Word UI.
+
+ **Examples:** 
+
+Shows how to access a document's style collection.
+
+```
+
+ Document doc = new Document();
+
+ Assert.assertEquals(4, doc.getStyles().getCount());
+
+ // Enumerate and list all the styles that a document created using Aspose.Words contains by default.
+ Iterator
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -815,11 +2093,53 @@ public void remove()
 ```
 
 
-Removes the specified style from the document. Style removal has following effects on the document model:
+Removes the specified style from the document.
+
+ **Remarks:** 
+
+Style removal has following effects on the document model:
 
  *  All references to the style are removed from corresponding paragraphs, runs and tables.
  *  If base style is removed its formatting is moved to child styles.
  *  If style to be deleted has a linked style, then both of these are deleted.
+
+ **Examples:** 
+
+Shows how to create and apply a custom style.
+
+```
+
+ Document doc = new Document();
+
+ Style style = doc.getStyles().add(StyleType.PARAGRAPH, "MyStyle");
+ style.getFont().setName("Times New Roman");
+ style.getFont().setSize(16.0);
+ style.getFont().setColor(Color.magenta);
+ // Automatically redefine style.
+ style.setAutomaticallyUpdate(true);
+
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Apply one of the styles from the document to the paragraph that the document builder is creating.
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("MyStyle"));
+ builder.writeln("Hello world!");
+
+ Style firstParagraphStyle = doc.getFirstSection().getBody().getFirstParagraph().getParagraphFormat().getStyle();
+
+ Assert.assertEquals(style, firstParagraphStyle);
+
+ // Remove our custom style from the document's styles collection.
+ doc.getStyles().get("MyStyle").remove();
+
+ firstParagraphStyle = doc.getFirstSection().getBody().getFirstParagraph().getParagraphFormat().getStyle();
+
+ // Any text that used a removed style reverts to the default formatting.
+ Assert.assertFalse(IterableUtils.matchesAny(doc.getStyles(), s -> s.getName() == "MyStyle"));
+ Assert.assertEquals("Times New Roman", firstParagraphStyle.getFont().getName());
+ Assert.assertEquals(12.0d, firstParagraphStyle.getFont().getSize());
+ Assert.assertEquals(0, firstParagraphStyle.getFont().getColor().getRGB());
+ 
+```
 
 ### removeParaAttr(int key) {#removeParaAttr-int}
 ```
@@ -861,7 +2181,54 @@ public void setAlignment(int value)
 ```
 
 
-Specifies the alignment for the table style. The default value is [TableAlignment.LEFT](../../com.aspose.words/tablealignment/\#LEFT).
+Specifies the alignment for the table style.
+
+ **Remarks:** 
+
+The default value is [TableAlignment.LEFT](../../com.aspose.words/tablealignment/\#LEFT).
+
+ **Examples:** 
+
+Shows how to set the position of a table.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Below are two ways of aligning a table horizontally.
+ // 1 -  Use the "Alignment" property to align it to a location on the page, such as the center:
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.setAlignment(TableAlignment.CENTER);
+ tableStyle.getBorders().setColor(Color.BLUE);
+ tableStyle.getBorders().setLineStyle(LineStyle.SINGLE);
+
+ // Insert a table and apply the style we created to it.
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Aligned to the center of the page");
+ builder.endTable();
+ table.setPreferredWidth(PreferredWidth.fromPoints(300.0));
+
+ table.setStyle(tableStyle);
+
+ // 2 -  Use the "LeftIndent" to specify an indent from the left margin of the page:
+ tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle2");
+ tableStyle.setLeftIndent(55.0);
+ tableStyle.getBorders().setColor(Color.GREEN);
+ tableStyle.getBorders().setLineStyle(LineStyle.SINGLE);
+
+ table = builder.startTable();
+ builder.insertCell();
+ builder.write("Aligned according to left indent");
+ builder.endTable();
+ table.setPreferredWidth(PreferredWidth.fromPoints(300.0));
+
+ table.setStyle(tableStyle);
+
+ doc.save(getArtifactsDir() + "Table.SetTableAlignment.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -874,7 +2241,54 @@ public void setAllowBreakAcrossPages(boolean value)
 ```
 
 
-Sets a flag indicating whether text in a table row is allowed to split across a page break. The default value is  true .
+Sets a flag indicating whether text in a table row is allowed to split across a page break.
+
+ **Remarks:** 
+
+The default value is  true .
+
+ **Examples:** 
+
+Shows how to create custom style settings for the table.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Name");
+ builder.insertCell();
+ builder.write("\u0645\u0631\u062d\u0628\u064b\u0627");
+ builder.endRow();
+ builder.insertCell();
+ builder.insertCell();
+ builder.endTable();
+
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.setAllowBreakAcrossPages(true);
+ tableStyle.setBidi(true);
+ tableStyle.setCellSpacing(5.0);
+ tableStyle.setBottomPadding(20.0);
+ tableStyle.setLeftPadding(5.0);
+ tableStyle.setRightPadding(10.0);
+ tableStyle.setTopPadding(20.0);
+ tableStyle.getShading().setBackgroundPatternColor(Color.WHITE);
+ tableStyle.getBorders().setColor(Color.BLACK);
+ tableStyle.getBorders().setLineStyle(LineStyle.DOT_DASH);
+ tableStyle.setVerticalAlignment(CellVerticalAlignment.CENTER);
+
+ table.setStyle(tableStyle);
+
+ // Setting the style properties of a table may affect the properties of the table itself.
+ Assert.assertTrue(table.getBidi());
+ Assert.assertEquals(5.0d, table.getCellSpacing());
+ Assert.assertEquals("MyTableStyle1", table.getStyleName());
+
+ doc.save(getArtifactsDir() + "Table.TableStyleCreation.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -889,11 +2303,51 @@ public void setAutomaticallyUpdate(boolean value)
 
 Specifies whether this style is automatically redefined based on the appropriate value.
 
+ **Remarks:** 
+
 If the property value is set to true, MS Word automatically redefines the current style when the appropriate paragraph formatting has been changed.
 
 AutomaticallyUpdate property is applicable to paragraph styles only.
 
 The default value is  false .
+
+ **Examples:** 
+
+Shows how to create and apply a custom style.
+
+```
+
+ Document doc = new Document();
+
+ Style style = doc.getStyles().add(StyleType.PARAGRAPH, "MyStyle");
+ style.getFont().setName("Times New Roman");
+ style.getFont().setSize(16.0);
+ style.getFont().setColor(Color.magenta);
+ // Automatically redefine style.
+ style.setAutomaticallyUpdate(true);
+
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Apply one of the styles from the document to the paragraph that the document builder is creating.
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("MyStyle"));
+ builder.writeln("Hello world!");
+
+ Style firstParagraphStyle = doc.getFirstSection().getBody().getFirstParagraph().getParagraphFormat().getStyle();
+
+ Assert.assertEquals(style, firstParagraphStyle);
+
+ // Remove our custom style from the document's styles collection.
+ doc.getStyles().get("MyStyle").remove();
+
+ firstParagraphStyle = doc.getFirstSection().getBody().getFirstParagraph().getParagraphFormat().getStyle();
+
+ // Any text that used a removed style reverts to the default formatting.
+ Assert.assertFalse(IterableUtils.matchesAny(doc.getStyles(), s -> s.getName() == "MyStyle"));
+ Assert.assertEquals("Times New Roman", firstParagraphStyle.getFont().getName());
+ Assert.assertEquals(12.0d, firstParagraphStyle.getFont().getSize());
+ Assert.assertEquals(0, firstParagraphStyle.getFont().getColor().getRGB());
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -906,7 +2360,41 @@ public void setBaseStyleName(String value)
 ```
 
 
-Gets/sets the name of the style this style is based on. This will be an empty string if the style is not based on any other style and it can be set to an empty string.
+Gets/sets the name of the style this style is based on.
+
+ **Remarks:** 
+
+This will be an empty string if the style is not based on any other style and it can be set to an empty string.
+
+ **Examples:** 
+
+Shows how to use style aliases.
+
+```
+
+ Document doc = new Document(getMyDir() + "Style with alias.docx");
+
+ // This document contains a style named "MyStyle,MyStyle Alias 1,MyStyle Alias 2".
+ // If a style's name has multiple values separated by commas, each clause is a separate alias.
+ Style style = doc.getStyles().get("MyStyle");
+ Assert.assertEquals(new String[]{"MyStyle Alias 1", "MyStyle Alias 2"}, style.getAliases());
+ Assert.assertEquals("Title", style.getBaseStyleName());
+ Assert.assertEquals("MyStyle Char", style.getLinkedStyleName());
+
+ // We can reference a style using its alias, as well as its name.
+ Assert.assertEquals(doc.getStyles().get("MyStyle Alias 1"), doc.getStyles().get("MyStyle Alias 2"));
+
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.moveToDocumentEnd();
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("MyStyle Alias 1"));
+ builder.writeln("Hello world!");
+ builder.getParagraphFormat().setStyle(doc.getStyles().get("MyStyle Alias 2"));
+ builder.write("Hello again!");
+
+ Assert.assertEquals(doc.getFirstSection().getBody().getParagraphs().get(0).getParagraphFormat().getStyle(),
+         doc.getFirstSection().getBody().getParagraphs().get(1).getParagraphFormat().getStyle());
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -921,9 +2409,54 @@ public void setBidi(boolean value)
 
 Sets whether this is a style for a right-to-left table.
 
+ **Remarks:** 
+
 When  true , the cells in rows are laid out right to left.
 
 The default value is  false .
+
+ **Examples:** 
+
+Shows how to create custom style settings for the table.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Name");
+ builder.insertCell();
+ builder.write("\u0645\u0631\u062d\u0628\u064b\u0627");
+ builder.endRow();
+ builder.insertCell();
+ builder.insertCell();
+ builder.endTable();
+
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.setAllowBreakAcrossPages(true);
+ tableStyle.setBidi(true);
+ tableStyle.setCellSpacing(5.0);
+ tableStyle.setBottomPadding(20.0);
+ tableStyle.setLeftPadding(5.0);
+ tableStyle.setRightPadding(10.0);
+ tableStyle.setTopPadding(20.0);
+ tableStyle.getShading().setBackgroundPatternColor(Color.WHITE);
+ tableStyle.getBorders().setColor(Color.BLACK);
+ tableStyle.getBorders().setLineStyle(LineStyle.DOT_DASH);
+ tableStyle.setVerticalAlignment(CellVerticalAlignment.CENTER);
+
+ table.setStyle(tableStyle);
+
+ // Setting the style properties of a table may affect the properties of the table itself.
+ Assert.assertTrue(table.getBidi());
+ Assert.assertEquals(5.0d, table.getCellSpacing());
+ Assert.assertEquals("MyTableStyle1", table.getStyleName());
+
+ doc.save(getArtifactsDir() + "Table.TableStyleCreation.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -952,6 +2485,49 @@ public void setBottomPadding(double value)
 
 Sets the amount of space (in points) to add below the contents of table cells.
 
+ **Examples:** 
+
+Shows how to create custom style settings for the table.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Name");
+ builder.insertCell();
+ builder.write("\u0645\u0631\u062d\u0628\u064b\u0627");
+ builder.endRow();
+ builder.insertCell();
+ builder.insertCell();
+ builder.endTable();
+
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.setAllowBreakAcrossPages(true);
+ tableStyle.setBidi(true);
+ tableStyle.setCellSpacing(5.0);
+ tableStyle.setBottomPadding(20.0);
+ tableStyle.setLeftPadding(5.0);
+ tableStyle.setRightPadding(10.0);
+ tableStyle.setTopPadding(20.0);
+ tableStyle.getShading().setBackgroundPatternColor(Color.WHITE);
+ tableStyle.getBorders().setColor(Color.BLACK);
+ tableStyle.getBorders().setLineStyle(LineStyle.DOT_DASH);
+ tableStyle.setVerticalAlignment(CellVerticalAlignment.CENTER);
+
+ table.setStyle(tableStyle);
+
+ // Setting the style properties of a table may affect the properties of the table itself.
+ Assert.assertTrue(table.getBidi());
+ Assert.assertEquals(5.0d, table.getCellSpacing());
+ Assert.assertEquals("MyTableStyle1", table.getStyleName());
+
+ doc.save(getArtifactsDir() + "Table.TableStyleCreation.docx");
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -979,6 +2555,49 @@ public void setCellSpacing(double value)
 
 Sets the amount of space (in points) between the cells.
 
+ **Examples:** 
+
+Shows how to create custom style settings for the table.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Name");
+ builder.insertCell();
+ builder.write("\u0645\u0631\u062d\u0628\u064b\u0627");
+ builder.endRow();
+ builder.insertCell();
+ builder.insertCell();
+ builder.endTable();
+
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.setAllowBreakAcrossPages(true);
+ tableStyle.setBidi(true);
+ tableStyle.setCellSpacing(5.0);
+ tableStyle.setBottomPadding(20.0);
+ tableStyle.setLeftPadding(5.0);
+ tableStyle.setRightPadding(10.0);
+ tableStyle.setTopPadding(20.0);
+ tableStyle.getShading().setBackgroundPatternColor(Color.WHITE);
+ tableStyle.getBorders().setColor(Color.BLACK);
+ tableStyle.getBorders().setLineStyle(LineStyle.DOT_DASH);
+ tableStyle.setVerticalAlignment(CellVerticalAlignment.CENTER);
+
+ table.setStyle(tableStyle);
+
+ // Setting the style properties of a table may affect the properties of the table itself.
+ Assert.assertTrue(table.getBidi());
+ Assert.assertEquals(5.0d, table.getCellSpacing());
+ Assert.assertEquals("MyTableStyle1", table.getStyleName());
+
+ doc.save(getArtifactsDir() + "Table.TableStyleCreation.docx");
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -991,6 +2610,60 @@ public void setColumnStripe(int value)
 
 
 Sets a number of columns to include in the banding when the style specifies odd/even columns banding.
+
+ **Examples:** 
+
+Shows how to create conditional table styles that alternate between rows.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // We can configure a conditional style of a table to apply a different color to the row/column,
+ // based on whether the row/column is even or odd, creating an alternating color pattern.
+ // We can also apply a number n to the row/column banding,
+ // meaning that the color alternates after every n rows/columns instead of one.
+ // Create a table where single columns and rows will band the columns will banded in threes.
+ Table table = builder.startTable();
+
+ for (int i = 0; i < 15; i++) {
+     for (int j = 0; j < 4; j++) {
+         builder.insertCell();
+         builder.writeln(MessageFormat.format("{0} column.", (j % 2 == 0 ? "Even" : "Odd")));
+         builder.write(MessageFormat.format("Row banding {0}.", (i % 3 == 0 ? "start" : "continuation")));
+     }
+     builder.endRow();
+ }
+
+ builder.endTable();
+
+ // Apply a line style to all the borders of the table.
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.getBorders().setColor(Color.BLACK);
+ tableStyle.getBorders().setLineStyle(LineStyle.DOUBLE);
+
+ // Set the two colors, which will alternate over every 3 rows.
+ tableStyle.setRowStripe(3);
+ tableStyle.getConditionalStyles().getByConditionalStyleType(ConditionalStyleType.ODD_ROW_BANDING).getShading().setBackgroundPatternColor(Color.BLUE);
+ tableStyle.getConditionalStyles().getByConditionalStyleType(ConditionalStyleType.EVEN_ROW_BANDING).getShading().setBackgroundPatternColor(Color.CYAN);
+
+ // Set a color to apply to every even column, which will override any custom row coloring.
+ tableStyle.setColumnStripe(1);
+ tableStyle.getConditionalStyles().getByConditionalStyleType(ConditionalStyleType.EVEN_COLUMN_BANDING).getShading().setBackgroundPatternColor(Color.RED);
+
+ table.setStyle(tableStyle);
+
+ // The "StyleOptions" property enables row banding by default.
+ Assert.assertEquals(TableStyleOptions.FIRST_ROW | TableStyleOptions.FIRST_COLUMN | TableStyleOptions.ROW_BANDS,
+         table.getStyleOptions());
+
+ // Use the "StyleOptions" property also to enable column banding.
+ table.setStyleOptions(table.getStyleOptions() | TableStyleOptions.COLUMN_BANDS);
+
+ doc.save(getArtifactsDir() + "Table.AlternatingRowStyles.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1005,6 +2678,49 @@ public void setLeftIndent(double value)
 
 Sets the value that represents the left indent of a table.
 
+ **Examples:** 
+
+Shows how to set the position of a table.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Below are two ways of aligning a table horizontally.
+ // 1 -  Use the "Alignment" property to align it to a location on the page, such as the center:
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.setAlignment(TableAlignment.CENTER);
+ tableStyle.getBorders().setColor(Color.BLUE);
+ tableStyle.getBorders().setLineStyle(LineStyle.SINGLE);
+
+ // Insert a table and apply the style we created to it.
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Aligned to the center of the page");
+ builder.endTable();
+ table.setPreferredWidth(PreferredWidth.fromPoints(300.0));
+
+ table.setStyle(tableStyle);
+
+ // 2 -  Use the "LeftIndent" to specify an indent from the left margin of the page:
+ tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle2");
+ tableStyle.setLeftIndent(55.0);
+ tableStyle.getBorders().setColor(Color.GREEN);
+ tableStyle.getBorders().setLineStyle(LineStyle.SINGLE);
+
+ table = builder.startTable();
+ builder.insertCell();
+ builder.write("Aligned according to left indent");
+ builder.endTable();
+ table.setPreferredWidth(PreferredWidth.fromPoints(300.0));
+
+ table.setStyle(tableStyle);
+
+ doc.save(getArtifactsDir() + "Table.SetTableAlignment.docx");
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1017,6 +2733,49 @@ public void setLeftPadding(double value)
 
 
 Sets the amount of space (in points) to add to the left of the contents of table cells.
+
+ **Examples:** 
+
+Shows how to create custom style settings for the table.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Name");
+ builder.insertCell();
+ builder.write("\u0645\u0631\u062d\u0628\u064b\u0627");
+ builder.endRow();
+ builder.insertCell();
+ builder.insertCell();
+ builder.endTable();
+
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.setAllowBreakAcrossPages(true);
+ tableStyle.setBidi(true);
+ tableStyle.setCellSpacing(5.0);
+ tableStyle.setBottomPadding(20.0);
+ tableStyle.setLeftPadding(5.0);
+ tableStyle.setRightPadding(10.0);
+ tableStyle.setTopPadding(20.0);
+ tableStyle.getShading().setBackgroundPatternColor(Color.WHITE);
+ tableStyle.getBorders().setColor(Color.BLACK);
+ tableStyle.getBorders().setLineStyle(LineStyle.DOT_DASH);
+ tableStyle.setVerticalAlignment(CellVerticalAlignment.CENTER);
+
+ table.setStyle(tableStyle);
+
+ // Setting the style properties of a table may affect the properties of the table itself.
+ Assert.assertTrue(table.getBidi());
+ Assert.assertEquals(5.0d, table.getCellSpacing());
+ Assert.assertEquals("MyTableStyle1", table.getStyleName());
+
+ doc.save(getArtifactsDir() + "Table.TableStyleCreation.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1031,9 +2790,25 @@ public void setName(String value)
 
 Sets the name of the style.
 
+ **Remarks:** 
+
 Can not be empty string.
 
 If there already is a style with such name in the collection, then this style will override it. All affected nodes will reference new style.
+
+ **Examples:** 
+
+Shows how to access a document's style collection.
+
+```
+
+ Document doc = new Document();
+
+ Assert.assertEquals(4, doc.getStyles().getCount());
+
+ // Enumerate and list all the styles that a document created using Aspose.Words contains by default.
+ Iterator
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1046,7 +2821,25 @@ public void setNextParagraphStyleName(String value)
 ```
 
 
-Gets/sets the name of the style to be applied automatically to a new paragraph inserted after a paragraph formatted with the specified style. This property is not used by Aspose.Words. The next paragraph style will only be applied automatically when you edit the document in MS Word.
+Gets/sets the name of the style to be applied automatically to a new paragraph inserted after a paragraph formatted with the specified style.
+
+ **Remarks:** 
+
+This property is not used by Aspose.Words. The next paragraph style will only be applied automatically when you edit the document in MS Word.
+
+ **Examples:** 
+
+Shows how to access a document's style collection.
+
+```
+
+ Document doc = new Document();
+
+ Assert.assertEquals(4, doc.getStyles().getCount());
+
+ // Enumerate and list all the styles that a document created using Aspose.Words contains by default.
+ Iterator
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1075,6 +2868,49 @@ public void setRightPadding(double value)
 
 Sets the amount of space (in points) to add to the right of the contents of table cells.
 
+ **Examples:** 
+
+Shows how to create custom style settings for the table.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Name");
+ builder.insertCell();
+ builder.write("\u0645\u0631\u062d\u0628\u064b\u0627");
+ builder.endRow();
+ builder.insertCell();
+ builder.insertCell();
+ builder.endTable();
+
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.setAllowBreakAcrossPages(true);
+ tableStyle.setBidi(true);
+ tableStyle.setCellSpacing(5.0);
+ tableStyle.setBottomPadding(20.0);
+ tableStyle.setLeftPadding(5.0);
+ tableStyle.setRightPadding(10.0);
+ tableStyle.setTopPadding(20.0);
+ tableStyle.getShading().setBackgroundPatternColor(Color.WHITE);
+ tableStyle.getBorders().setColor(Color.BLACK);
+ tableStyle.getBorders().setLineStyle(LineStyle.DOT_DASH);
+ tableStyle.setVerticalAlignment(CellVerticalAlignment.CENTER);
+
+ table.setStyle(tableStyle);
+
+ // Setting the style properties of a table may affect the properties of the table itself.
+ Assert.assertTrue(table.getBidi());
+ Assert.assertEquals(5.0d, table.getCellSpacing());
+ Assert.assertEquals("MyTableStyle1", table.getStyleName());
+
+ doc.save(getArtifactsDir() + "Table.TableStyleCreation.docx");
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1101,6 +2937,60 @@ public void setRowStripe(int value)
 
 
 Sets a number of rows to include in the banding when the style specifies odd/even row banding.
+
+ **Examples:** 
+
+Shows how to create conditional table styles that alternate between rows.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // We can configure a conditional style of a table to apply a different color to the row/column,
+ // based on whether the row/column is even or odd, creating an alternating color pattern.
+ // We can also apply a number n to the row/column banding,
+ // meaning that the color alternates after every n rows/columns instead of one.
+ // Create a table where single columns and rows will band the columns will banded in threes.
+ Table table = builder.startTable();
+
+ for (int i = 0; i < 15; i++) {
+     for (int j = 0; j < 4; j++) {
+         builder.insertCell();
+         builder.writeln(MessageFormat.format("{0} column.", (j % 2 == 0 ? "Even" : "Odd")));
+         builder.write(MessageFormat.format("Row banding {0}.", (i % 3 == 0 ? "start" : "continuation")));
+     }
+     builder.endRow();
+ }
+
+ builder.endTable();
+
+ // Apply a line style to all the borders of the table.
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.getBorders().setColor(Color.BLACK);
+ tableStyle.getBorders().setLineStyle(LineStyle.DOUBLE);
+
+ // Set the two colors, which will alternate over every 3 rows.
+ tableStyle.setRowStripe(3);
+ tableStyle.getConditionalStyles().getByConditionalStyleType(ConditionalStyleType.ODD_ROW_BANDING).getShading().setBackgroundPatternColor(Color.BLUE);
+ tableStyle.getConditionalStyles().getByConditionalStyleType(ConditionalStyleType.EVEN_ROW_BANDING).getShading().setBackgroundPatternColor(Color.CYAN);
+
+ // Set a color to apply to every even column, which will override any custom row coloring.
+ tableStyle.setColumnStripe(1);
+ tableStyle.getConditionalStyles().getByConditionalStyleType(ConditionalStyleType.EVEN_COLUMN_BANDING).getShading().setBackgroundPatternColor(Color.RED);
+
+ table.setStyle(tableStyle);
+
+ // The "StyleOptions" property enables row banding by default.
+ Assert.assertEquals(TableStyleOptions.FIRST_ROW | TableStyleOptions.FIRST_COLUMN | TableStyleOptions.ROW_BANDS,
+         table.getStyleOptions());
+
+ // Use the "StyleOptions" property also to enable column banding.
+ table.setStyleOptions(table.getStyleOptions() | TableStyleOptions.COLUMN_BANDS);
+
+ doc.save(getArtifactsDir() + "Table.AlternatingRowStyles.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1129,6 +3019,49 @@ public void setTopPadding(double value)
 
 Sets the amount of space (in points) to add above the contents of table cells.
 
+ **Examples:** 
+
+Shows how to create custom style settings for the table.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Name");
+ builder.insertCell();
+ builder.write("\u0645\u0631\u062d\u0628\u064b\u0627");
+ builder.endRow();
+ builder.insertCell();
+ builder.insertCell();
+ builder.endTable();
+
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.setAllowBreakAcrossPages(true);
+ tableStyle.setBidi(true);
+ tableStyle.setCellSpacing(5.0);
+ tableStyle.setBottomPadding(20.0);
+ tableStyle.setLeftPadding(5.0);
+ tableStyle.setRightPadding(10.0);
+ tableStyle.setTopPadding(20.0);
+ tableStyle.getShading().setBackgroundPatternColor(Color.WHITE);
+ tableStyle.getBorders().setColor(Color.BLACK);
+ tableStyle.getBorders().setLineStyle(LineStyle.DOT_DASH);
+ tableStyle.setVerticalAlignment(CellVerticalAlignment.CENTER);
+
+ table.setStyle(tableStyle);
+
+ // Setting the style properties of a table may affect the properties of the table itself.
+ Assert.assertTrue(table.getBidi());
+ Assert.assertEquals(5.0d, table.getCellSpacing());
+ Assert.assertEquals("MyTableStyle1", table.getStyleName());
+
+ doc.save(getArtifactsDir() + "Table.TableStyleCreation.docx");
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1140,7 +3073,54 @@ public void setVerticalAlignment(int value)
 ```
 
 
-Specifies the vertical alignment for the cells. The default value is [CellVerticalAlignment.TOP](../../com.aspose.words/cellverticalalignment/\#TOP).
+Specifies the vertical alignment for the cells.
+
+ **Remarks:** 
+
+The default value is [CellVerticalAlignment.TOP](../../com.aspose.words/cellverticalalignment/\#TOP).
+
+ **Examples:** 
+
+Shows how to create custom style settings for the table.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Table table = builder.startTable();
+ builder.insertCell();
+ builder.write("Name");
+ builder.insertCell();
+ builder.write("\u0645\u0631\u062d\u0628\u064b\u0627");
+ builder.endRow();
+ builder.insertCell();
+ builder.insertCell();
+ builder.endTable();
+
+ TableStyle tableStyle = (TableStyle) doc.getStyles().add(StyleType.TABLE, "MyTableStyle1");
+ tableStyle.setAllowBreakAcrossPages(true);
+ tableStyle.setBidi(true);
+ tableStyle.setCellSpacing(5.0);
+ tableStyle.setBottomPadding(20.0);
+ tableStyle.setLeftPadding(5.0);
+ tableStyle.setRightPadding(10.0);
+ tableStyle.setTopPadding(20.0);
+ tableStyle.getShading().setBackgroundPatternColor(Color.WHITE);
+ tableStyle.getBorders().setColor(Color.BLACK);
+ tableStyle.getBorders().setLineStyle(LineStyle.DOT_DASH);
+ tableStyle.setVerticalAlignment(CellVerticalAlignment.CENTER);
+
+ table.setStyle(tableStyle);
+
+ // Setting the style properties of a table may affect the properties of the table itself.
+ Assert.assertTrue(table.getBidi());
+ Assert.assertEquals(5.0d, table.getCellSpacing());
+ Assert.assertEquals("MyTableStyle1", table.getStyleName());
+
+ doc.save(getArtifactsDir() + "Table.TableStyleCreation.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |

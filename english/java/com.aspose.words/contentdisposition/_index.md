@@ -4,7 +4,7 @@ linktitle: ContentDisposition
 second_title: Aspose.Words for Java API Reference
 description: Enumerates different ways of presenting the document at the client browser in Java.
 type: docs
-weight: 93
+weight: 94
 url: /java/com.aspose.words/contentdisposition/
 ---
 
@@ -16,7 +16,31 @@ public class ContentDisposition
 
 Enumerates different ways of presenting the document at the client browser.
 
+ **Remarks:** 
+
 Note that the actual behavior on the client browser might be affected by security configuration of the browser.
+
+ **Examples:** 
+
+Shows how to perform a mail merge, and then save the document to the client browser.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ builder.insertField(" MERGEFIELD FullName ");
+ builder.insertParagraph();
+ builder.insertField(" MERGEFIELD Company ");
+ builder.insertParagraph();
+ builder.insertField(" MERGEFIELD Address ");
+ builder.insertParagraph();
+ builder.insertField(" MERGEFIELD City ");
+
+ doc.getMailMerge().execute(new String[]{"FullName", "Company", "Address", "City"},
+         new Object[]{"James Bond", "MI5 Headquarters", "Milbank", "London"});
+ 
+```
 ## Fields
 
 | Field | Description |

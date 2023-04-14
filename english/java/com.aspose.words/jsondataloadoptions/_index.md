@@ -4,7 +4,7 @@ linktitle: JsonDataLoadOptions
 second_title: Aspose.Words for Java API Reference
 description: Represents options for parsing JSON data in Java.
 type: docs
-weight: 355
+weight: 356
 url: /java/com.aspose.words/jsondataloadoptions/
 ---
 
@@ -17,6 +17,8 @@ public class JsonDataLoadOptions
 Represents options for parsing JSON data.
 
 To learn more, visit the [ LINQ Reporting Engine ][LINQ Reporting Engine] documentation article.
+
+ **Remarks:** 
 
 An instance of this class can be passed into constructors of [JsonDataSource](../../com.aspose.words/jsondatasource/).
 
@@ -34,14 +36,12 @@ An instance of this class can be passed into constructors of [JsonDataSource](..
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getAlwaysGenerateRootObject()](#getAlwaysGenerateRootObject) | Gets a flag indicating whether a generated data source will always contain an object for a JSON root element. |
 | [getClass()](#getClass) |  |
-| [getExactDateTimeParseFormat()](#getExactDateTimeParseFormat) | Gets an exact format for parsing JSON date-time values while loading JSON. |
 | [getExactDateTimeParseFormats()](#getExactDateTimeParseFormats) | Gets exact formats for parsing JSON date-time values while loading JSON. |
 | [getSimpleValueParseMode()](#getSimpleValueParseMode) | Gets a mode for parsing JSON simple values (null, boolean, number, integer, and string) while loading JSON. |
 | [hashCode()](#hashCode) |  |
 | [notify()](#notify) |  |
 | [notifyAll()](#notifyAll) |  |
 | [setAlwaysGenerateRootObject(boolean value)](#setAlwaysGenerateRootObject-boolean) | Sets a flag indicating whether a generated data source will always contain an object for a JSON root element. |
-| [setExactDateTimeParseFormat(String value)](#setExactDateTimeParseFormat-java.lang.String) | Sets an exact format for parsing JSON date-time values while loading JSON. |
 | [setExactDateTimeParseFormats(Iterable value)](#setExactDateTimeParseFormats-java.lang.Iterable) | Sets exact formats for parsing JSON date-time values while loading JSON. |
 | [setSimpleValueParseMode(int value)](#setSimpleValueParseMode-int) | Sets a mode for parsing JSON simple values (null, boolean, number, integer, and string) while loading JSON. |
 | [toString()](#toString) |  |
@@ -77,7 +77,11 @@ public boolean getAlwaysGenerateRootObject()
 ```
 
 
-Gets a flag indicating whether a generated data source will always contain an object for a JSON root element. If a JSON root element contains a single complex property, such an object is not created by default. The default value is  false .
+Gets a flag indicating whether a generated data source will always contain an object for a JSON root element. If a JSON root element contains a single complex property, such an object is not created by default.
+
+ **Remarks:** 
+
+The default value is  false .
 
 **Returns:**
 boolean - A flag indicating whether a generated data source will always contain an object for a JSON root element.
@@ -91,22 +95,6 @@ public final native Class<?> getClass()
 
 **Returns:**
 java.lang.Class<?>
-### getExactDateTimeParseFormat() {#getExactDateTimeParseFormat}
-```
-public String getExactDateTimeParseFormat()
-```
-
-
-Gets an exact format for parsing JSON date-time values while loading JSON. The default is  null .
-
-Strings encoded using Microsoft® JSON date-time format (for example, "/Date(1224043200000)/") are always recognized as date-time values regardless of a value of this property. The property defines additional formats to be used while parsing date-time values from strings in the following way:
-
- *  When [getExactDateTimeParseFormat()](../../com.aspose.words/jsondataloadoptions/\#getExactDateTimeParseFormat) / [setExactDateTimeParseFormat(java.lang.String)](../../com.aspose.words/jsondataloadoptions/\#setExactDateTimeParseFormat-java.lang.String) is  null , the ISO-8601 format and all date-time formats supported for the current, English USA, and English New Zealand cultures are used additionally in the mentioned order.
- *  When [getExactDateTimeParseFormat()](../../com.aspose.words/jsondataloadoptions/\#getExactDateTimeParseFormat) / [setExactDateTimeParseFormat(java.lang.String)](../../com.aspose.words/jsondataloadoptions/\#setExactDateTimeParseFormat-java.lang.String) is a non-empty string, it is used as a single additional date-time format utilizing the current culture.
- *  When [getExactDateTimeParseFormat()](../../com.aspose.words/jsondataloadoptions/\#getExactDateTimeParseFormat) / [setExactDateTimeParseFormat(java.lang.String)](../../com.aspose.words/jsondataloadoptions/\#setExactDateTimeParseFormat-java.lang.String) is an empty string, no additional date-time formats are used.
-
-**Returns:**
-java.lang.String - An exact format for parsing JSON date-time values while loading JSON.
 ### getExactDateTimeParseFormats() {#getExactDateTimeParseFormats}
 ```
 public Iterable getExactDateTimeParseFormats()
@@ -114,6 +102,8 @@ public Iterable getExactDateTimeParseFormats()
 
 
 Gets exact formats for parsing JSON date-time values while loading JSON. The default is  null .
+
+ **Remarks:** 
 
 Strings encoded using Microsoft® JSON date-time format (for example, "/Date(1224043200000)/") are always recognized as date-time values regardless of a value of this property. The property defines additional formats to be used while parsing date-time values from strings in the following way:
 
@@ -165,31 +155,16 @@ public void setAlwaysGenerateRootObject(boolean value)
 ```
 
 
-Sets a flag indicating whether a generated data source will always contain an object for a JSON root element. If a JSON root element contains a single complex property, such an object is not created by default. The default value is  false .
+Sets a flag indicating whether a generated data source will always contain an object for a JSON root element. If a JSON root element contains a single complex property, such an object is not created by default.
+
+ **Remarks:** 
+
+The default value is  false .
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | A flag indicating whether a generated data source will always contain an object for a JSON root element. |
-
-### setExactDateTimeParseFormat(String value) {#setExactDateTimeParseFormat-java.lang.String}
-```
-public void setExactDateTimeParseFormat(String value)
-```
-
-
-Sets an exact format for parsing JSON date-time values while loading JSON. The default is  null .
-
-Strings encoded using Microsoft® JSON date-time format (for example, "/Date(1224043200000)/") are always recognized as date-time values regardless of a value of this property. The property defines additional formats to be used while parsing date-time values from strings in the following way:
-
- *  When [getExactDateTimeParseFormat()](../../com.aspose.words/jsondataloadoptions/\#getExactDateTimeParseFormat) / [setExactDateTimeParseFormat(java.lang.String)](../../com.aspose.words/jsondataloadoptions/\#setExactDateTimeParseFormat-java.lang.String) is  null , the ISO-8601 format and all date-time formats supported for the current, English USA, and English New Zealand cultures are used additionally in the mentioned order.
- *  When [getExactDateTimeParseFormat()](../../com.aspose.words/jsondataloadoptions/\#getExactDateTimeParseFormat) / [setExactDateTimeParseFormat(java.lang.String)](../../com.aspose.words/jsondataloadoptions/\#setExactDateTimeParseFormat-java.lang.String) is a non-empty string, it is used as a single additional date-time format utilizing the current culture.
- *  When [getExactDateTimeParseFormat()](../../com.aspose.words/jsondataloadoptions/\#getExactDateTimeParseFormat) / [setExactDateTimeParseFormat(java.lang.String)](../../com.aspose.words/jsondataloadoptions/\#setExactDateTimeParseFormat-java.lang.String) is an empty string, no additional date-time formats are used.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String | An exact format for parsing JSON date-time values while loading JSON. |
 
 ### setExactDateTimeParseFormats(Iterable value) {#setExactDateTimeParseFormats-java.lang.Iterable}
 ```
@@ -198,6 +173,8 @@ public void setExactDateTimeParseFormats(Iterable value)
 
 
 Sets exact formats for parsing JSON date-time values while loading JSON. The default is  null .
+
+ **Remarks:** 
 
 Strings encoded using Microsoft® JSON date-time format (for example, "/Date(1224043200000)/") are always recognized as date-time values regardless of a value of this property. The property defines additional formats to be used while parsing date-time values from strings in the following way:
 
