@@ -3,7 +3,7 @@ title: fore_color property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets or sets the foreground color of the stroke."
 type: docs
-weight: 90
+weight: 100
 url: /python-net/aspose.words.drawing/stroke/fore_color/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.words.drawing/stroke/fore_color/
 
 Gets or sets the foreground color of the stroke.
 
-The default value for a [Shape](../../shape/) is 
+The default value for a [Shape](../../shape/) is
 System.Drawing.Color.Black.
 
 

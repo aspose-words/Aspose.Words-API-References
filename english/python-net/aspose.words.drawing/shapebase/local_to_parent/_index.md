@@ -3,7 +3,7 @@ title: local_to_parent method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Converts a value from the local coordinate space into the coordinate space of the parent shape."
 type: docs
-weight: 610
+weight: 670
 url: /python-net/aspose.words.drawing/shapebase/local_to_parent/
 ---
 

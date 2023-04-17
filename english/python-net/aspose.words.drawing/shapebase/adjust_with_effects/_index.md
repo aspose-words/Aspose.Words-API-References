@@ -3,7 +3,7 @@ title: adjust_with_effects method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Adds to the source rectangle values of the effect extent and returns the final rectangle."
 type: docs
-weight: 560
+weight: 620
 url: /python-net/aspose.words.drawing/shapebase/adjust_with_effects/
 ---
 

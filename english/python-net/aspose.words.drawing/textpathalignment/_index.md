@@ -3,7 +3,7 @@ title: TextPathAlignment enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "WordArt alignment."
 type: docs
-weight: 410
+weight: 430
 url: /python-net/aspose.words.drawing/textpathalignment/
 ---
 

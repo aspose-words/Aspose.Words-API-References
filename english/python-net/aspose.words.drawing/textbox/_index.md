@@ -3,7 +3,7 @@ title: TextBox class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Defines attributes that specify how a text is displayed inside a shape"
 type: docs
-weight: 370
+weight: 390
 url: /python-net/aspose.words.drawing/textbox/
 ---
 

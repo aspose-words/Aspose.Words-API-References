@@ -3,7 +3,7 @@ title: fetch_shape_attr method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Reserved for system use"
 type: docs
-weight: 580
+weight: 640
 url: /python-net/aspose.words.drawing/shapebase/fetch_shape_attr/
 ---
 

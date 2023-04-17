@@ -3,7 +3,7 @@ title: ShadowFormat class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents shadow formatting for an object"
 type: docs
-weight: 280
+weight: 300
 url: /python-net/aspose.words.drawing/shadowformat/
 ---
 

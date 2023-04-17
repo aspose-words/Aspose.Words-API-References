@@ -53,7 +53,6 @@ Shows how to open an HTML document with images from a stream using a base URI.
 
 ```python
 with open(MY_DIR + "Document.html", "rb") as stream:
-
     # Pass the URI of the base folder while loading it
     # so that any images with relative URIs in the HTML document can be found.
     load_options = aw.loading.LoadOptions()
@@ -95,7 +94,6 @@ Shows how save a web page as a .docx file.
 url = "https://www.aspose.com/"
 
 with io.BytesIO(urlopen(url).read()) as stream:
-
     # The URL is used again as a "base_uri" to ensure that any relative image paths are retrieved correctly.
     options = aw.loading.LoadOptions(aw.LoadFormat.HTML, "", url)
 

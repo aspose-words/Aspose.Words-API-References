@@ -3,7 +3,7 @@ title: is_horizontal_rule property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Returns ``True`` if this shape is a horizontal rule."
 type: docs
-weight: 260
+weight: 270
 url: /python-net/aspose.words.drawing/shapebase/is_horizontal_rule/
 ---
 

@@ -3,7 +3,7 @@ title: size_in_points property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets the size of the shape in points."
 type: docs
-weight: 470
+weight: 510
 url: /python-net/aspose.words.drawing/shapebase/size_in_points/
 ---
 

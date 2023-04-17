@@ -3,7 +3,7 @@ title: wrap_side property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies how the text is wrapped around the shape."
 type: docs
-weight: 530
+weight: 590
 url: /python-net/aspose.words.drawing/shapebase/wrap_side/
 ---
 

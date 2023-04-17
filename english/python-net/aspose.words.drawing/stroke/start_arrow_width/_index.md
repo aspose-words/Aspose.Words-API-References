@@ -3,7 +3,7 @@ title: start_arrow_width property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Defines the arrowhead width for the start of a stroke."
 type: docs
-weight: 170
+weight: 180
 url: /python-net/aspose.words.drawing/stroke/start_arrow_width/
 ---
 

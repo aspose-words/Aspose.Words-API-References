@@ -56,7 +56,6 @@ doc.save(ARTIFACTS_DIR + "Document.update_thumbnail.first_page.epub")
 
 # 2 -  Use the first image found in the document:
 options = aw.rendering.ThumbnailGeneratingOptions()
-self.assertEqual(drawing.Size(600, 900), options.thumbnail_size) #ExSKip
 options.thumbnail_size = drawing.Size(400, 400)
 options.generate_from_first_page = False
 

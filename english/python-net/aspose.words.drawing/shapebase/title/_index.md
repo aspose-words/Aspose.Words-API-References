@@ -3,7 +3,7 @@ title: title property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets or sets the title (caption) of the current shape object."
 type: docs
-weight: 490
+weight: 530
 url: /python-net/aspose.words.drawing/shapebase/title/
 ---
 

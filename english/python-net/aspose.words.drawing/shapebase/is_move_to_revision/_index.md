@@ -3,7 +3,7 @@ title: is_move_to_revision property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Returns ``True`` if this object was moved (inserted) in Microsoft Word while change tracking was enabled."
 type: docs
-weight: 320
+weight: 330
 url: /python-net/aspose.words.drawing/shapebase/is_move_to_revision/
 ---
 

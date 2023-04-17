@@ -3,7 +3,7 @@ title: vertical_alignment property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies how the shape is positioned vertically."
 type: docs
-weight: 510
+weight: 560
 url: /python-net/aspose.words.drawing/shapebase/vertical_alignment/
 ---
 

@@ -3,7 +3,7 @@ title: TextBoxAnchor enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies values used for shape text vertical alignment."
 type: docs
-weight: 380
+weight: 400
 url: /python-net/aspose.words.drawing/textboxanchor/
 ---
 

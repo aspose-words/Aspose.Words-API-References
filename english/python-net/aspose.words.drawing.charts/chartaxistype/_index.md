@@ -3,7 +3,7 @@ title: ChartAxisType enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies type of chart axis."
 type: docs
-weight: 130
+weight: 140
 url: /python-net/aspose.words.drawing.charts/chartaxistype/
 ---
 

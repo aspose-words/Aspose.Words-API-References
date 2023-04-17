@@ -3,7 +3,7 @@ title: RelativeVerticalPosition enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies to what the vertical position of a shape or text frame is relative."
 type: docs
-weight: 270
+weight: 280
 url: /python-net/aspose.words.drawing/relativeverticalposition/
 ---
 

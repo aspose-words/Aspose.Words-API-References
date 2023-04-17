@@ -3,7 +3,7 @@ title: relative_horizontal_position property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies relative to what the shape is positioned horizontally."
 type: docs
-weight: 400
+weight: 420
 url: /python-net/aspose.words.drawing/shapebase/relative_horizontal_position/
 ---
 

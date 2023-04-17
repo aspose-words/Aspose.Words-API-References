@@ -3,7 +3,7 @@ title: justification property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets/sets Office Math justification."
 type: docs
-weight: 30
+weight: 20
 url: /python-net/aspose.words.math/officemath/justification/
 ---
 

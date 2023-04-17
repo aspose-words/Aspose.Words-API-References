@@ -3,7 +3,7 @@ title: transparency property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets or sets a value between 0.0 (opaque) and 1.0 (clear) representing the degree of transparency of the stroke."
 type: docs
-weight: 180
+weight: 190
 url: /python-net/aspose.words.drawing/stroke/transparency/
 ---
 

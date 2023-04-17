@@ -3,7 +3,7 @@ title: legend property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Provides access to the chart legend properties."
 type: docs
-weight: 40
+weight: 50
 url: /python-net/aspose.words.drawing.charts/chart/legend/
 ---
 

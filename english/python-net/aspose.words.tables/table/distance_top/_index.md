@@ -1,7 +1,7 @@
 ﻿---
 title: distance_top property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets distance between table top and the surrounding text, in points."
+description: "Gets or sets distance between table top and the surrounding text, in points."
 type: docs
 weight: 150
 url: /python-net/aspose.words.tables/table/distance_top/
@@ -9,7 +9,7 @@ url: /python-net/aspose.words.tables/table/distance_top/
 
 ## Table.distance_top property
 
-Gets distance between table top and the surrounding text, in points.
+Gets or sets distance between table top and the surrounding text, in points.
 
 
 ### Examples

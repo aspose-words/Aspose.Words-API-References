@@ -3,7 +3,7 @@ title: VbaModuleType enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies the type of a model in a VBA project."
 type: docs
-weight: 30
+weight: 40
 url: /python-net/aspose.words.vba/vbamoduletype/
 ---
 

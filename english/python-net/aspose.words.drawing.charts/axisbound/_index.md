@@ -73,6 +73,8 @@ x_axis.major_unit = 7.0
 x_axis.major_tick_mark = aw.drawing.charts.AxisTickMark.CROSS
 x_axis.minor_unit = 1.0
 x_axis.minor_tick_mark = aw.drawing.charts.AxisTickMark.OUTSIDE
+x_axis.has_major_gridlines = True
+x_axis.has_minor_gridlines = True
 
 # Define Y-axis properties for decimal values.
 y_axis = chart.axis_y
@@ -82,6 +84,8 @@ y_axis.minor_unit = 50.0
 y_axis.display_unit.unit = aw.drawing.charts.AxisBuiltInUnit.HUNDREDS
 y_axis.scaling.minimum = aw.drawing.charts.AxisBound(100)
 y_axis.scaling.maximum = aw.drawing.charts.AxisBound(700)
+y_axis.has_major_gridlines = True
+y_axis.has_minor_gridlines = True
 
 doc.save(ARTIFACTS_DIR + "Charts.date_time_values.docx")
 ```

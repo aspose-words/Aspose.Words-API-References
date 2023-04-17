@@ -3,7 +3,7 @@ title: ShapeBase class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Base class for objects in the drawing layer, such as an AutoShape, freeform, OLE object, ActiveX control, or picture"
 type: docs
-weight: 310
+weight: 330
 url: /python-net/aspose.words.drawing/shapebase/
 ---
 
@@ -74,6 +74,7 @@ and [ShapeBase.vertical_alignment](./vertical_alignment/) properties.
 | [font](./font/) | Provides access to the font formatting of this object. |
 | [has_child_nodes](../../aspose.words/compositenode/has_child_nodes/) | Returns ``True`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [height](./height/) | Gets or sets the height of the containing block of the shape. |
+| [height_relative](./height_relative/) | Gets or sets the value that represents the percentage of shape's relative height. |
 | [horizontal_alignment](./horizontal_alignment/) | Specifies how the shape is positioned horizontally. |
 | [href](./href/) | Gets or sets the full hyperlink address for a shape. |
 | [is_composite](../../aspose.words/node/is_composite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../../aspose.words/node/)) |
@@ -92,6 +93,7 @@ and [ShapeBase.vertical_alignment](./vertical_alignment/) properties.
 | [is_word_art](./is_word_art/) | Returns ``True`` if this shape is a WordArt object. |
 | [last_child](../../aspose.words/compositenode/last_child/) | Gets the last child of the node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [left](./left/) | Gets or sets the position of the left edge of the containing block of the shape. |
+| [left_relative](./left_relative/) | Gets or sets the value that represents shape's relative left position in percent. |
 | [markup_language](./markup_language/) | Gets MarkupLanguage used for this graphic object. |
 | [name](./name/) | Gets or sets the optional shape name. |
 | [next_sibling](../../aspose.words/node/next_sibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
@@ -101,7 +103,9 @@ and [ShapeBase.vertical_alignment](./vertical_alignment/) properties.
 | [previous_sibling](../../aspose.words/node/previous_sibling/) | Gets the node immediately preceding this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [range](../../aspose.words/node/range/) | Returns a [Range](../../aspose.words/range/) object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [relative_horizontal_position](./relative_horizontal_position/) | Specifies relative to what the shape is positioned horizontally. |
+| [relative_horizontal_size](./relative_horizontal_size/) | Gets or sets the value of shape's relative size in horizontal direction. |
 | [relative_vertical_position](./relative_vertical_position/) | Specifies relative to what the shape is positioned vertically. |
+| [relative_vertical_size](./relative_vertical_size/) | Gets or sets the value of shape's relative size in vertical direction. |
 | [right](./right/) | Gets the position of the right edge of the containing block of the shape. |
 | [rotation](./rotation/) | Defines the angle (in degrees) that a shape is rotated. Positive value corresponds to clockwise rotation angle. |
 | [screen_tip](./screen_tip/) | Defines the text displayed when the mouse pointer moves over the shape. |
@@ -111,8 +115,10 @@ and [ShapeBase.vertical_alignment](./vertical_alignment/) properties.
 | [target](./target/) | Gets or sets the target frame for the shape hyperlink. |
 | [title](./title/) | Gets or sets the title (caption) of the current shape object. |
 | [top](./top/) | Gets or sets the position of the top edge of the containing block of the shape. |
+| [top_relative](./top_relative/) | Gets or sets the value that represents shape's relative top position in percent. |
 | [vertical_alignment](./vertical_alignment/) | Specifies how the shape is positioned vertically. |
 | [width](./width/) | Gets or sets the width of the containing block of the shape. |
+| [width_relative](./width_relative/) | Gets or sets the value that represents the percentage of shape's relative width. |
 | [wrap_side](./wrap_side/) | Specifies how the text is wrapped around the shape. |
 | [wrap_type](./wrap_type/) | Defines whether the shape is inline or floating. For floating shapes defines the wrapping mode for text around the shape. |
 | [z_order](./z_order/) | Determines the display order of overlapping shapes. |

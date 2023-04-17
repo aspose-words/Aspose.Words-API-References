@@ -3,7 +3,7 @@ title: get_direct_shape_attr method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Reserved for system use"
 type: docs
-weight: 590
+weight: 650
 url: /python-net/aspose.words.drawing/shapebase/get_direct_shape_attr/
 ---
 

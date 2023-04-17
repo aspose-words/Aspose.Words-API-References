@@ -3,7 +3,7 @@ title: Shape class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents an object in the drawing layer, such as an AutoShape, textbox, freeform, OLE object, ActiveX control, or picture"
 type: docs
-weight: 300
+weight: 320
 url: /python-net/aspose.words.drawing/shape/
 ---
 
@@ -72,6 +72,7 @@ Shapes that can have text, can contain [Paragraph](../../aspose.words/paragraph/
 | [has_image](./has_image/) | Returns ``True`` if the shape has image bytes or links an image. |
 | [has_smart_art](./has_smart_art/) | Returns ``True`` if this [Shape](./) has a SmartArt object. |
 | [height](../shapebase/height/) | Gets or sets the height of the containing block of the shape.<br>(Inherited from [ShapeBase](../shapebase/)) |
+| [height_relative](../shapebase/height_relative/) | Gets or sets the value that represents the percentage of shape's relative height.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [horizontal_alignment](../shapebase/horizontal_alignment/) | Specifies how the shape is positioned horizontally.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [horizontal_rule_format](./horizontal_rule_format/) | Provides access to the properties of the horizontal rule shape. For a shape that is not a horizontal rule, returns ``None``. |
 | [href](../shapebase/href/) | Gets or sets the full hyperlink address for a shape.<br>(Inherited from [ShapeBase](../shapebase/)) |
@@ -93,6 +94,7 @@ Shapes that can have text, can contain [Paragraph](../../aspose.words/paragraph/
 | [last_child](../../aspose.words/compositenode/last_child/) | Gets the last child of the node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [last_paragraph](./last_paragraph/) | Gets the last paragraph in the shape. |
 | [left](../shapebase/left/) | Gets or sets the position of the left edge of the containing block of the shape.<br>(Inherited from [ShapeBase](../shapebase/)) |
+| [left_relative](../shapebase/left_relative/) | Gets or sets the value that represents shape's relative left position in percent.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [markup_language](../shapebase/markup_language/) | Gets MarkupLanguage used for this graphic object.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [name](../shapebase/name/) | Gets or sets the optional shape name.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [next_sibling](../../aspose.words/node/next_sibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
@@ -103,7 +105,9 @@ Shapes that can have text, can contain [Paragraph](../../aspose.words/paragraph/
 | [previous_sibling](../../aspose.words/node/previous_sibling/) | Gets the node immediately preceding this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [range](../../aspose.words/node/range/) | Returns a [Range](../../aspose.words/range/) object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [relative_horizontal_position](../shapebase/relative_horizontal_position/) | Specifies relative to what the shape is positioned horizontally.<br>(Inherited from [ShapeBase](../shapebase/)) |
+| [relative_horizontal_size](../shapebase/relative_horizontal_size/) | Gets or sets the value of shape's relative size in horizontal direction.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [relative_vertical_position](../shapebase/relative_vertical_position/) | Specifies relative to what the shape is positioned vertically.<br>(Inherited from [ShapeBase](../shapebase/)) |
+| [relative_vertical_size](../shapebase/relative_vertical_size/) | Gets or sets the value of shape's relative size in vertical direction.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [right](../shapebase/right/) | Gets the position of the right edge of the containing block of the shape.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [rotation](../shapebase/rotation/) | Defines the angle (in degrees) that a shape is rotated. Positive value corresponds to clockwise rotation angle.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [screen_tip](../shapebase/screen_tip/) | Defines the text displayed when the mouse pointer moves over the shape.<br>(Inherited from [ShapeBase](../shapebase/)) |
@@ -122,8 +126,10 @@ Shapes that can have text, can contain [Paragraph](../../aspose.words/paragraph/
 | [text_path](./text_path/) | Defines the text of the text path (of a WordArt object). |
 | [title](../shapebase/title/) | Gets or sets the title (caption) of the current shape object.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [top](../shapebase/top/) | Gets or sets the position of the top edge of the containing block of the shape.<br>(Inherited from [ShapeBase](../shapebase/)) |
+| [top_relative](../shapebase/top_relative/) | Gets or sets the value that represents shape's relative top position in percent.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [vertical_alignment](../shapebase/vertical_alignment/) | Specifies how the shape is positioned vertically.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [width](../shapebase/width/) | Gets or sets the width of the containing block of the shape.<br>(Inherited from [ShapeBase](../shapebase/)) |
+| [width_relative](../shapebase/width_relative/) | Gets or sets the value that represents the percentage of shape's relative width.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [wrap_side](../shapebase/wrap_side/) | Specifies how the text is wrapped around the shape.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [wrap_type](../shapebase/wrap_type/) | Defines whether the shape is inline or floating. For floating shapes defines the wrapping mode for text around the shape.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [z_order](../shapebase/z_order/) | Determines the display order of overlapping shapes.<br>(Inherited from [ShapeBase](../shapebase/)) |
