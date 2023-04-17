@@ -1,9 +1,10 @@
 ---
-title: FieldToc
+title: Aspose::Words::Fields::FieldToc::FieldToc constructor
+linktitle: FieldToc
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use FieldToc constructor of Aspose::Words::Fields::FieldToc class in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fields/fieldtoc/fieldtoc/
 ---
 ## FieldToc::FieldToc constructor
@@ -19,4 +20,4 @@ Aspose::Words::Fields::FieldToc::FieldToc()
 
 * Class [FieldToc](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

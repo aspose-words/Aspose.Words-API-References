@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Loading::DocumentLoadingArgs::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Loading::DocumentLoadingArgs class in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.loading/documentloadingargs/is/
 ---
 ## DocumentLoadingArgs::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Loading::DocumentLoadingArgs::Is(const System::TypeI
 
 * Class [DocumentLoadingArgs](../)
 * Namespace [Aspose::Words::Loading](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

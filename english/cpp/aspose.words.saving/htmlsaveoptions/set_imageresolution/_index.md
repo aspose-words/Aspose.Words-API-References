@@ -1,9 +1,10 @@
 ---
-title: set_ImageResolution
+title: Aspose::Words::Saving::HtmlSaveOptions::set_ImageResolution method
+linktitle: set_ImageResolution
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::HtmlSaveOptions::get_ImageResolution.'
+description: 'Aspose::Words::Saving::HtmlSaveOptions::set_ImageResolution method. Setter for Aspose::Words::Saving::HtmlSaveOptions::get_ImageResolution in C++.'
 type: docs
-weight: 1067
+weight: 83000
 url: /cpp/aspose.words.saving/htmlsaveoptions/set_imageresolution/
 ---
 ## HtmlSaveOptions::set_ImageResolution method
@@ -19,4 +20,4 @@ void Aspose::Words::Saving::HtmlSaveOptions::set_ImageResolution(int32_t value)
 
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

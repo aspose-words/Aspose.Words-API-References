@@ -1,9 +1,10 @@
 ---
-title: 'Aspose::Words::Drawing::Charts'
+title: Aspose::Words::Drawing::Charts namespace
+linktitle: Aspose::Words::Drawing::Charts
 second_title: Aspose.Words for C++ API Reference
-description: The Aspose.Words.Drawing.Charts namespace provides classes that allow to access charts in Microsoft Word documents.
+description: 'Aspose::Words::Drawing::Charts namespace. The Aspose.Words.Drawing.Charts namespace provides classes that allow to access charts in Microsoft Word documents in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.drawing.charts/
 ---
 
@@ -18,6 +19,7 @@ The **Aspose.Words.Drawing.Charts** namespace provides classes that allow to acc
 | [AxisScaling](./axisscaling/) | Represents the scaling options of the axis. To learn more, visit the [Working with Charts](https://docs.aspose.com/words/cpp/working-with-charts/) documentation article. |
 | [Chart](./chart/) | Provides access to the chart shape properties. To learn more, visit the [Working with Charts](https://docs.aspose.com/words/cpp/working-with-charts/) documentation article. |
 | [ChartAxis](./chartaxis/) | Represents the axis options of the chart. To learn more, visit the [Working with Charts](https://docs.aspose.com/words/cpp/working-with-charts/) documentation article. |
+| [ChartAxisCollection](./chartaxiscollection/) | Represents a collection of chart axes. |
 | [ChartDataLabel](./chartdatalabel/) | Represents data label on a chart point or trendline. To learn more, visit the [Working with Charts](https://docs.aspose.com/words/cpp/working-with-charts/) documentation article. |
 | [ChartDataLabelCollection](./chartdatalabelcollection/) | Represents a collection of [ChartDataLabel](./chartdatalabel/). To learn more, visit the [Working with Charts](https://docs.aspose.com/words/cpp/working-with-charts/) documentation article. |
 | [ChartDataPoint](./chartdatapoint/) | Allows to specify formatting of a single data point on the chart. To learn more, visit the [Working with Charts](https://docs.aspose.com/words/cpp/working-with-charts/) documentation article. |

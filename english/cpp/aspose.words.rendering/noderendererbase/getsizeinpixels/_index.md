@@ -1,9 +1,10 @@
 ---
-title: GetSizeInPixels
+title: Aspose::Words::Rendering::NodeRendererBase::GetSizeInPixels method
+linktitle: GetSizeInPixels
 second_title: Aspose.Words for C++ API Reference
-description: Calculates the size of the shape in pixels for a specified zoom factor and resolution.
+description: 'Aspose::Words::Rendering::NodeRendererBase::GetSizeInPixels method. Calculates the size of the shape in pixels for a specified zoom factor and resolution in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.rendering/noderendererbase/getsizeinpixels/
 ---
 ## NodeRendererBase::GetSizeInPixels(float, float) method
@@ -78,7 +79,7 @@ ASSERT_EQ(30, bounds.get_Height());
 
 * Class [NodeRendererBase](../)
 * Namespace [Aspose::Words::Rendering](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## NodeRendererBase::GetSizeInPixels(float, float, float) method
 
 
@@ -152,4 +153,4 @@ ASSERT_EQ(30, bounds.get_Height());
 
 * Class [NodeRendererBase](../)
 * Namespace [Aspose::Words::Rendering](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

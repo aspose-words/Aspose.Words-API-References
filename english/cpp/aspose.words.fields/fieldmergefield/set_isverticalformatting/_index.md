@@ -1,9 +1,10 @@
 ---
-title: set_IsVerticalFormatting
+title: Aspose::Words::Fields::FieldMergeField::set_IsVerticalFormatting method
+linktitle: set_IsVerticalFormatting
 second_title: Aspose.Words for C++ API Reference
-description: Sets whether to enable character conversion for vertical formatting.
+description: 'Aspose::Words::Fields::FieldMergeField::set_IsVerticalFormatting method. Sets whether to enable character conversion for vertical formatting in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words.fields/fieldmergefield/set_isverticalformatting/
 ---
 ## FieldMergeField::set_IsVerticalFormatting method
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldMergeField::set_IsVerticalFormatting(bool value
 
 * Class [FieldMergeField](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

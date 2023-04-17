@@ -1,9 +1,10 @@
 ---
-title: get_Subscript
+title: Aspose::Words::Font::get_Subscript method
+linktitle: get_Subscript
 second_title: Aspose.Words for C++ API Reference
-description: True if the font is formatted as subscript.
+description: 'Aspose::Words::Font::get_Subscript method. True if the font is formatted as subscript in C++.'
 type: docs
-weight: 573
+weight: 45000
 url: /cpp/aspose.words/font/get_subscript/
 ---
 ## Font::get_Subscript method
@@ -56,4 +57,4 @@ doc->Save(ArtifactsDir + u"Font.PositionSubscript.docx");
 
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

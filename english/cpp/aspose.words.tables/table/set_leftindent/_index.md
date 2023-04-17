@@ -1,9 +1,10 @@
 ---
-title: set_LeftIndent
+title: Aspose::Words::Tables::Table::set_LeftIndent method
+linktitle: set_LeftIndent
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Tables::Table::get_LeftIndent.'
+description: 'Aspose::Words::Tables::Table::set_LeftIndent method. Setter for Aspose::Words::Tables::Table::get_LeftIndent in C++.'
 type: docs
-weight: 690
+weight: 54000
 url: /cpp/aspose.words.tables/table/set_leftindent/
 ---
 ## Table::set_LeftIndent method
@@ -19,4 +20,4 @@ void Aspose::Words::Tables::Table::set_LeftIndent(double value)
 
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

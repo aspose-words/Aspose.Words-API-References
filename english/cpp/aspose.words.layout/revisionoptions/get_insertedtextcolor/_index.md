@@ -1,9 +1,10 @@
 ---
-title: get_InsertedTextColor
+title: Aspose::Words::Layout::RevisionOptions::get_InsertedTextColor method
+linktitle: get_InsertedTextColor
 second_title: Aspose.Words for C++ API Reference
-description: Allows to specify the color to be used for inserted content Insertion. Default value is ByAuthor.
+description: 'Aspose::Words::Layout::RevisionOptions::get_InsertedTextColor method. Allows to specify the color to be used for inserted content Insertion. Default value is ByAuthor in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.layout/revisionoptions/get_insertedtextcolor/
 ---
 ## RevisionOptions::get_InsertedTextColor method
@@ -44,4 +45,4 @@ doc->Save(ArtifactsDir + u"Document.LayoutOptionsRevisions.pdf");
 * Enum [RevisionColor](../../revisioncolor/)
 * Class [RevisionOptions](../)
 * Namespace [Aspose::Words::Layout](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

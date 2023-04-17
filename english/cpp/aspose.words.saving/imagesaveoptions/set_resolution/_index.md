@@ -1,9 +1,10 @@
 ---
-title: set_Resolution
+title: Aspose::Words::Saving::ImageSaveOptions::set_Resolution method
+linktitle: set_Resolution
 second_title: Aspose.Words for C++ API Reference
-description: Sets both horizontal and vertical resolution for the generated images, in dots per inch.
+description: 'Aspose::Words::Saving::ImageSaveOptions::set_Resolution method. Sets both horizontal and vertical resolution for the generated images, in dots per inch in C++.'
 type: docs
-weight: 378
+weight: 30000
 url: /cpp/aspose.words.saving/imagesaveoptions/set_resolution/
 ---
 ## ImageSaveOptions::set_Resolution method
@@ -58,4 +59,4 @@ ASSERT_LT(700000, MakeObject<System::IO::FileInfo>(ArtifactsDir + u"ImageSaveOpt
 
 * Class [ImageSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

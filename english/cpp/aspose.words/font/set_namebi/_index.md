@@ -1,9 +1,10 @@
 ---
-title: set_NameBi
+title: Aspose::Words::Font::set_NameBi method
+linktitle: set_NameBi
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Font::get_NameBi.'
+description: 'Aspose::Words::Font::set_NameBi method. Setter for Aspose::Words::Font::get_NameBi in C++.'
 type: docs
-weight: 1028
+weight: 80000
 url: /cpp/aspose.words/font/set_namebi/
 ---
 ## Font::set_NameBi method
@@ -19,4 +20,4 @@ void Aspose::Words::Font::set_NameBi(const System::String &value)
 
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

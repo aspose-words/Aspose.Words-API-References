@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Fields::FieldUserAddress::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Fields::FieldUserAddress class in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.fields/fielduseraddress/is/
 ---
 ## FieldUserAddress::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Fields::FieldUserAddress::Is(const System::TypeInfo 
 
 * Class [FieldUserAddress](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

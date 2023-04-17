@@ -1,9 +1,10 @@
 ---
-title: set_PageNumberStyle
+title: Aspose::Words::PageSetup::set_PageNumberStyle method
+linktitle: set_PageNumberStyle
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::PageSetup::get_PageNumberStyle.'
+description: 'Aspose::Words::PageSetup::set_PageNumberStyle method. Setter for Aspose::Words::PageSetup::get_PageNumberStyle in C++.'
 type: docs
-weight: 1002
+weight: 78000
 url: /cpp/aspose.words/pagesetup/set_pagenumberstyle/
 ---
 ## PageSetup::set_PageNumberStyle method
@@ -20,4 +21,4 @@ void Aspose::Words::PageSetup::set_PageNumberStyle(Aspose::Words::NumberStyle va
 * Enum [NumberStyle](../../numberstyle/)
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

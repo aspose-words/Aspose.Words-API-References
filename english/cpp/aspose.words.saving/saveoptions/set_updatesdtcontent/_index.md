@@ -1,9 +1,10 @@
 ---
-title: set_UpdateSdtContent
+title: Aspose::Words::Saving::SaveOptions::set_UpdateSdtContent method
+linktitle: set_UpdateSdtContent
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::SaveOptions::get_UpdateSdtContent.'
+description: 'Aspose::Words::Saving::SaveOptions::set_UpdateSdtContent method. Setter for Aspose::Words::Saving::SaveOptions::get_UpdateSdtContent in C++.'
 type: docs
-weight: 534
+weight: 42000
 url: /cpp/aspose.words.saving/saveoptions/set_updatesdtcontent/
 ---
 ## SaveOptions::set_UpdateSdtContent method
@@ -19,4 +20,4 @@ void Aspose::Words::Saving::SaveOptions::set_UpdateSdtContent(bool value)
 
 * Class [SaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

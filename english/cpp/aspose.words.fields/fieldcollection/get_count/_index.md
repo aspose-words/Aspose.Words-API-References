@@ -1,9 +1,10 @@
 ---
-title: get_Count
+title: Aspose::Words::Fields::FieldCollection::get_Count method
+linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
-description: Returns the number of the fields in the collection.
+description: 'Aspose::Words::Fields::FieldCollection::get_Count method. Returns the number of the fields in the collection in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.fields/fieldcollection/get_count/
 ---
 ## FieldCollection::get_Count method
@@ -148,4 +149,4 @@ ASSERT_EQ(0, fields->get_Count());
 
 * Class [FieldCollection](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

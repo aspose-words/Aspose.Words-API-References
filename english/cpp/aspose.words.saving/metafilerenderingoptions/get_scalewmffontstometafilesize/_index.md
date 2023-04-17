@@ -1,9 +1,10 @@
 ---
-title: get_ScaleWmfFontsToMetafileSize
+title: Aspose::Words::Saving::MetafileRenderingOptions::get_ScaleWmfFontsToMetafileSize method
+linktitle: get_ScaleWmfFontsToMetafileSize
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets a value determining whether or not to scale fonts in WMF metafile according to metafile size on the page.
+description: 'Aspose::Words::Saving::MetafileRenderingOptions::get_ScaleWmfFontsToMetafileSize method. Gets or sets a value determining whether or not to scale fonts in WMF metafile according to metafile size on the page in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.saving/metafilerenderingoptions/get_scalewmffontstometafilesize/
 ---
 ## MetafileRenderingOptions::get_ScaleWmfFontsToMetafileSize method
@@ -53,4 +54,4 @@ doc->Save(ArtifactsDir + u"PdfSaveOptions.FontsScaledToMetafileSize.pdf", saveOp
 
 * Class [MetafileRenderingOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

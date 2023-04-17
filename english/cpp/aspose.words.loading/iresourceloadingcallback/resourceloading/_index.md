@@ -1,9 +1,10 @@
 ---
-title: ResourceLoading
+title: Aspose::Words::Loading::IResourceLoadingCallback::ResourceLoading method
+linktitle: ResourceLoading
 second_title: Aspose.Words for C++ API Reference
-description: Called when Aspose.Words loads any external resource.
+description: 'Aspose::Words::Loading::IResourceLoadingCallback::ResourceLoading method. Called when Aspose.Words loads any external resource in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.loading/iresourceloadingcallback/resourceloading/
 ---
 ## IResourceLoadingCallback::ResourceLoading method
@@ -80,4 +81,4 @@ public:
 * Class [ResourceLoadingArgs](../../resourceloadingargs/)
 * Interface [IResourceLoadingCallback](../)
 * Namespace [Aspose::Words::Loading](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

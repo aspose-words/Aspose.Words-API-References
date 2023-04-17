@@ -1,9 +1,10 @@
 ---
-title: get_Initial
+title: Aspose::Words::Comment::get_Initial method
+linktitle: get_Initial
 second_title: Aspose.Words for C++ API Reference
-description: Returns or sets the initials of the user associated with a specific comment.
+description: 'Aspose::Words::Comment::get_Initial method. Returns or sets the initials of the user associated with a specific comment in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words/comment/get_initial/
 ---
 ## Comment::get_Initial method
@@ -167,4 +168,4 @@ private:
 
 * Class [Comment](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

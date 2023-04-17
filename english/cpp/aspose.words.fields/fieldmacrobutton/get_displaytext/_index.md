@@ -1,9 +1,10 @@
 ---
-title: get_DisplayText
+title: Aspose::Words::Fields::FieldMacroButton::get_DisplayText method
+linktitle: get_DisplayText
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the text to appear as the "button" that is selected to run the macro or command.
+description: 'Aspose::Words::Fields::FieldMacroButton::get_DisplayText method. Gets or sets the text to appear as the "button" that is selected to run the macro or command in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fields/fieldmacrobutton/get_displaytext/
 ---
 ## FieldMacroButton::get_DisplayText method
@@ -54,4 +55,4 @@ doc->Save(ArtifactsDir + u"Field.MACROBUTTON.docm");
 
 * Class [FieldMacroButton](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

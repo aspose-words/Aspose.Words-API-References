@@ -1,9 +1,10 @@
 ---
-title: get_Separator
+title: Aspose::Words::Fields::FieldMergeBarcode::get_Separator method
+linktitle: get_Separator
 second_title: Aspose.Words for C++ API Reference
-description: Gets the node that represents the field separator. Can be null.
+description: 'Aspose::Words::Fields::FieldMergeBarcode::get_Separator method. Gets the node that represents the field separator. Can be null in C++.'
 type: docs
-weight: 170
+weight: 14000
 url: /cpp/aspose.words.fields/fieldmergebarcode/get_separator/
 ---
 ## FieldMergeBarcode::get_Separator method
@@ -20,4 +21,4 @@ System::SharedPtr<Aspose::Words::Fields::FieldSeparator> Aspose::Words::Fields::
 * Class [FieldSeparator](../../fieldseparator/)
 * Class [FieldMergeBarcode](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_PreserveIncludePictureField
+title: Aspose::Words::Loading::LoadOptions::get_PreserveIncludePictureField method
+linktitle: get_PreserveIncludePictureField
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. The default value is false.
+description: 'Aspose::Words::Loading::LoadOptions::get_PreserveIncludePictureField method. Gets or sets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. The default value is false in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words.loading/loadoptions/get_preserveincludepicturefield/
 ---
 ## LoadOptions::get_PreserveIncludePictureField method
@@ -64,4 +65,4 @@ includePicture->Update(true);
 
 * Class [LoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_LineWidth
+title: Aspose::Words::BorderCollection::get_LineWidth method
+linktitle: get_LineWidth
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the border width in points.
+description: 'Aspose::Words::BorderCollection::get_LineWidth method. Gets or sets the border width in points in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words/bordercollection/get_linewidth/
 ---
 ## BorderCollection::get_LineWidth method
@@ -44,4 +45,4 @@ doc->Save(ArtifactsDir + u"PageSetup.PageBorders.docx");
 
 * Class [BorderCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

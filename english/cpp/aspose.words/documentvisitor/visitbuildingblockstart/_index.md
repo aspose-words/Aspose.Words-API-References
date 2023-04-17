@@ -1,9 +1,10 @@
 ---
-title: VisitBuildingBlockStart
+title: Aspose::Words::DocumentVisitor::VisitBuildingBlockStart method
+linktitle: VisitBuildingBlockStart
 second_title: Aspose.Words for C++ API Reference
-description: Called when enumeration of a building block has started.
+description: 'Aspose::Words::DocumentVisitor::VisitBuildingBlockStart method. Called when enumeration of a building block has started in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words/documentvisitor/visitbuildingblockstart/
 ---
 ## DocumentVisitor::VisitBuildingBlockStart method
@@ -134,4 +135,4 @@ private:
 * Class [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/)
 * Class [DocumentVisitor](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

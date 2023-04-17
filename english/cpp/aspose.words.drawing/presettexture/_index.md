@@ -1,9 +1,10 @@
 ---
-title: PresetTexture
+title: Aspose::Words::Drawing::PresetTexture enum
+linktitle: PresetTexture
 second_title: Aspose.Words for C++ API Reference
-description: Specifies texture to be used to fill a shape.
+description: 'Aspose::Words::Drawing::PresetTexture enum. Specifies texture to be used to fill a shape in C++.'
 type: docs
-weight: 404
+weight: 32000
 url: /cpp/aspose.words.drawing/presettexture/
 ---
 ## PresetTexture enum
@@ -48,4 +49,4 @@ enum class PresetTexture
 ## See Also
 
 * Namespace [Aspose::Words::Drawing](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

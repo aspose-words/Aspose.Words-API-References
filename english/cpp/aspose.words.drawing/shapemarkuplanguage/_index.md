@@ -1,9 +1,10 @@
 ---
-title: ShapeMarkupLanguage
+title: Aspose::Words::Drawing::ShapeMarkupLanguage enum
+linktitle: ShapeMarkupLanguage
 second_title: Aspose.Words for C++ API Reference
-description: Specifies Markup language used for the shape.
+description: 'Aspose::Words::Drawing::ShapeMarkupLanguage enum. Specifies Markup language used for the shape in C++.'
 type: docs
-weight: 469
+weight: 37000
 url: /cpp/aspose.words.drawing/shapemarkuplanguage/
 ---
 ## ShapeMarkupLanguage enum
@@ -57,4 +58,4 @@ ASSERT_EQ(ShapeMarkupLanguage::Dml, (System::DynamicCast<Shape>(doc->GetChild(No
 ## See Also
 
 * Namespace [Aspose::Words::Drawing](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

@@ -1,9 +1,10 @@
 ---
-title: idx_set
+title: Aspose::Words::VariableCollection::idx_set method
+linktitle: idx_set
 second_title: Aspose.Words for C++ API Reference
-description: Gets or a sets a document variable by the case-insensitive name. null values are not allowed as a right hand side of the assignment and will be replaced by empty string.
+description: 'Aspose::Words::VariableCollection::idx_set method. Gets or a sets a document variable by the case-insensitive name. null values are not allowed as a right hand side of the assignment and will be replaced by empty string in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words/variablecollection/idx_set/
 ---
 ## VariableCollection::idx_set(const System::String\&, const System::String\&) method
@@ -19,7 +20,7 @@ void Aspose::Words::VariableCollection::idx_set(const System::String &name, cons
 
 * Class [VariableCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## VariableCollection::idx_set(int32_t, const System::String\&) method
 
 
@@ -38,4 +39,4 @@ void Aspose::Words::VariableCollection::idx_set(int32_t index, const System::Str
 
 * Class [VariableCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

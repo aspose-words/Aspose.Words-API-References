@@ -1,9 +1,10 @@
 ---
-title: AppendDocument
+title: Aspose::Words::Document::AppendDocument method
+linktitle: AppendDocument
 second_title: Aspose.Words for C++ API Reference
-description: Appends the specified document to the end of this document.
+description: 'Aspose::Words::Document::AppendDocument method. Appends the specified document to the end of this document in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words/document/appenddocument/
 ---
 ## Document::AppendDocument(const System::SharedPtr\<Aspose::Words::Document\>\&, Aspose::Words::ImportFormatMode) method
@@ -80,7 +81,7 @@ dstDoc->Save(ArtifactsDir + u"Document.AppendAllDocumentsInFolder.doc");
 * Enum [ImportFormatMode](../../importformatmode/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## Document::AppendDocument(const System::SharedPtr\<Aspose::Words::Document\>\&, Aspose::Words::ImportFormatMode, const System::SharedPtr\<Aspose::Words::ImportFormatOptions\>\&) method
 
 
@@ -186,4 +187,4 @@ dstDoc->UpdateListLabels();
 * Class [ImportFormatOptions](../../importformatoptions/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

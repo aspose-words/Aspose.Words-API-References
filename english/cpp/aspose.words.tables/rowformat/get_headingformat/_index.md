@@ -1,9 +1,10 @@
 ---
-title: get_HeadingFormat
+title: Aspose::Words::Tables::RowFormat::get_HeadingFormat method
+linktitle: get_HeadingFormat
 second_title: Aspose.Words for C++ API Reference
-description: True if the row is repeated as a table heading on every page when the table spans more than one page.
+description: 'Aspose::Words::Tables::RowFormat::get_HeadingFormat method. True if the row is repeated as a table heading on every page when the table spans more than one page in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.tables/rowformat/get_headingformat/
 ---
 ## RowFormat::get_HeadingFormat method
@@ -60,4 +61,4 @@ doc->Save(ArtifactsDir + u"DocumentBuilder.InsertTableSetHeadingRow.docx");
 
 * Class [RowFormat](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

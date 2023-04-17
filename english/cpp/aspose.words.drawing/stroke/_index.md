@@ -1,9 +1,10 @@
 ---
-title: Stroke
+title: Aspose::Words::Drawing::Stroke class
+linktitle: Stroke
 second_title: Aspose.Words for C++ API Reference
-description: Defines a stroke for a shape. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Drawing::Stroke class. Defines a stroke for a shape. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 170
+weight: 14000
 url: /cpp/aspose.words.drawing/stroke/
 ---
 ## Stroke class
@@ -12,7 +13,7 @@ url: /cpp/aspose.words.drawing/stroke/
 Defines a stroke for a shape. To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/cpp/working-with-shapes/) documentation article.
 
 ```cpp
-class Stroke : public System::Object
+class Stroke : public Aspose::Words::Drawing::Core::IFillable
 ```
 
 ## Methods
@@ -27,6 +28,7 @@ class Stroke : public System::Object
 | [get_EndArrowType](./get_endarrowtype/)() | Defines the arrowhead for the end of a stroke. |
 | [get_EndArrowWidth](./get_endarrowwidth/)() | Defines the arrowhead width for the end of a stroke. |
 | [get_EndCap](./get_endcap/)() | Defines the cap style for the end of a stroke. |
+| [get_Fill](./get_fill/)() | Gets fill formatting for the [Stroke](./). |
 | [get_ForeColor](./get_forecolor/)() | Gets or sets the foreground color of the stroke. |
 | [get_ImageBytes](./get_imagebytes/)() | Defines the image for a stroke image or pattern fill. |
 | [get_JoinStyle](./get_joinstyle/)() | Defines the join style of a polyline. |
@@ -99,4 +101,4 @@ doc->Save(ArtifactsDir + u"Shape.Stroke.docx");
 ## See Also
 
 * Namespace [Aspose::Words::Drawing](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

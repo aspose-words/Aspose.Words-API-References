@@ -1,9 +1,10 @@
 ---
-title: set_HtmlVersion
+title: Aspose::Words::Saving::HtmlSaveOptions::set_HtmlVersion method
+linktitle: set_HtmlVersion
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::HtmlSaveOptions::get_HtmlVersion.'
+description: 'Aspose::Words::Saving::HtmlSaveOptions::set_HtmlVersion method. Setter for Aspose::Words::Saving::HtmlSaveOptions::get_HtmlVersion in C++.'
 type: docs
-weight: 1054
+weight: 82000
 url: /cpp/aspose.words.saving/htmlsaveoptions/set_htmlversion/
 ---
 ## HtmlSaveOptions::set_HtmlVersion method
@@ -20,4 +21,4 @@ void Aspose::Words::Saving::HtmlSaveOptions::set_HtmlVersion(Aspose::Words::Savi
 * Enum [HtmlVersion](../../htmlversion/)
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

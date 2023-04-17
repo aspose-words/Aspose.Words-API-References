@@ -1,9 +1,10 @@
 ---
-title: Save
+title: Aspose::Words::Fonts::TableSubstitutionRule::Save method
+linktitle: Save
 second_title: Aspose.Words for C++ API Reference
-description: Saves the current table substitution settings to stream.
+description: 'Aspose::Words::Fonts::TableSubstitutionRule::Save method. Saves the current table substitution settings to stream in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words.fonts/tablesubstitutionrule/save/
 ---
 ## TableSubstitutionRule::Save(const System::SharedPtr\<System::IO::Stream\>\&) method
@@ -59,7 +60,7 @@ ASPOSE_ASSERT_EQ(MakeArray<String>({u"FreeSerif", u"Liberation Serif", u"DejaVu 
 
 * Class [TableSubstitutionRule](../)
 * Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## TableSubstitutionRule::Save(const System::String\&) method
 
 
@@ -113,4 +114,4 @@ ASPOSE_ASSERT_EQ(MakeArray<String>({u"FreeSerif", u"Liberation Serif", u"DejaVu 
 
 * Class [TableSubstitutionRule](../)
 * Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::TabStopCollection::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::TabStopCollection class in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words/tabstopcollection/gettype/
 ---
 ## TabStopCollection::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::TabStopCollection::GetType() con
 
 * Class [TabStopCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

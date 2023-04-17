@@ -1,9 +1,10 @@
 ---
-title: ChmLoadOptions
+title: Aspose::Words::Loading::ChmLoadOptions::ChmLoadOptions constructor
+linktitle: ChmLoadOptions
 second_title: Aspose.Words for C++ API Reference
-description: Initializes a new instance of this class with default values.
+description: 'Aspose::Words::Loading::ChmLoadOptions::ChmLoadOptions constructor. Initializes a new instance of this class with default values in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.loading/chmloadoptions/chmloadoptions/
 ---
 ## ChmLoadOptions::ChmLoadOptions constructor
@@ -19,4 +20,4 @@ Aspose::Words::Loading::ChmLoadOptions::ChmLoadOptions()
 
 * Class [ChmLoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

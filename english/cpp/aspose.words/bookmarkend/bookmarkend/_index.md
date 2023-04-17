@@ -1,9 +1,10 @@
 ---
-title: BookmarkEnd
+title: Aspose::Words::BookmarkEnd::BookmarkEnd constructor
+linktitle: BookmarkEnd
 second_title: Aspose.Words for C++ API Reference
-description: Initializes a new instance of the BookmarkEnd class.
+description: 'Aspose::Words::BookmarkEnd::BookmarkEnd constructor. Initializes a new instance of the BookmarkEnd class in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words/bookmarkend/bookmarkend/
 ---
 ## BookmarkEnd::BookmarkEnd constructor
@@ -107,4 +108,4 @@ public:
 * Class [DocumentBase](../../documentbase/)
 * Class [BookmarkEnd](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

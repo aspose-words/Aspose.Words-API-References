@@ -1,9 +1,10 @@
 ---
-title: get_Revisions
+title: Aspose::Words::Range::get_Revisions method
+linktitle: get_Revisions
 second_title: Aspose.Words for C++ API Reference
-description: Gets a collection of revisions (tracked changes) that exist in this range.
+description: 'Aspose::Words::Range::get_Revisions method. Gets a collection of revisions (tracked changes) that exist in this range in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words/range/get_revisions/
 ---
 ## Range::get_Revisions method
@@ -24,4 +25,4 @@ The returned collection is a "live" collection, which means if you remove parts 
 * Class [RevisionCollection](../../revisioncollection/)
 * Class [Range](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

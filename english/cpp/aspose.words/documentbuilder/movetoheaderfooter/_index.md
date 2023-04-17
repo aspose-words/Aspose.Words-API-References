@@ -1,9 +1,10 @@
 ---
-title: MoveToHeaderFooter
+title: Aspose::Words::DocumentBuilder::MoveToHeaderFooter method
+linktitle: MoveToHeaderFooter
 second_title: Aspose.Words for C++ API Reference
-description: Moves the cursor to the beginning of a header or footer in the current section.
+description: 'Aspose::Words::DocumentBuilder::MoveToHeaderFooter method. Moves the cursor to the beginning of a header or footer in the current section in C++.'
 type: docs
-weight: 729
+weight: 57000
 url: /cpp/aspose.words/documentbuilder/movetoheaderfooter/
 ---
 ## DocumentBuilder::MoveToHeaderFooter method
@@ -88,4 +89,4 @@ doc->Save(ArtifactsDir + u"DocumentBuilder.InsertWatermark.docx");
 * Enum [HeaderFooterType](../../headerfootertype/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

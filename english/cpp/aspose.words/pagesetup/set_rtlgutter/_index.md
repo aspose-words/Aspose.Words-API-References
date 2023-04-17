@@ -1,9 +1,10 @@
 ---
-title: set_RtlGutter
+title: Aspose::Words::PageSetup::set_RtlGutter method
+linktitle: set_RtlGutter
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::PageSetup::get_RtlGutter.'
+description: 'Aspose::Words::PageSetup::set_RtlGutter method. Setter for Aspose::Words::PageSetup::get_RtlGutter in C++.'
 type: docs
-weight: 1080
+weight: 84000
 url: /cpp/aspose.words/pagesetup/set_rtlgutter/
 ---
 ## PageSetup::set_RtlGutter method
@@ -19,4 +20,4 @@ void Aspose::Words::PageSetup::set_RtlGutter(bool value)
 
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

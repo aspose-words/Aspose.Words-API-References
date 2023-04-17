@@ -1,9 +1,10 @@
 ---
-title: DocumentReaderPluginLoadException
+title: Aspose::Words::DocumentReaderPluginLoadException typedef
+linktitle: DocumentReaderPluginLoadException
 second_title: Aspose.Words for C++ API Reference
-description: Thrown during document load, when the plugin required for reading the document format cannot be loaded.
+description: 'Aspose::Words::DocumentReaderPluginLoadException typedef. Thrown during document load, when the plugin required for reading the document format cannot be loaded in C++.'
 type: docs
-weight: 1704
+weight: 132000
 url: /cpp/aspose.words/documentreaderpluginloadexception/
 ---
 ## DocumentReaderPluginLoadException typedef
@@ -18,4 +19,4 @@ using Aspose::Words::DocumentReaderPluginLoadException = typedef System::Excepti
 ## See Also
 
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

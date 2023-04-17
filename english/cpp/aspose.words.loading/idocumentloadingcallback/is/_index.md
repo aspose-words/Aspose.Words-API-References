@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Loading::IDocumentLoadingCallback::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Loading::IDocumentLoadingCallback class in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.loading/idocumentloadingcallback/is/
 ---
 ## IDocumentLoadingCallback::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Loading::IDocumentLoadingCallback::Is(const System::
 
 * Interface [IDocumentLoadingCallback](../)
 * Namespace [Aspose::Words::Loading](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

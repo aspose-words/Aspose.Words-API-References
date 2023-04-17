@@ -1,9 +1,10 @@
 ---
-title: ChartSeries
+title: Aspose::Words::Drawing::Charts::ChartSeries class
+linktitle: ChartSeries
 second_title: Aspose.Words for C++ API Reference
-description: Represents chart series properties. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Drawing::Charts::ChartSeries class. Represents chart series properties. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 196
+weight: 16000
 url: /cpp/aspose.words.drawing.charts/chartseries/
 ---
 ## ChartSeries class
@@ -119,4 +120,4 @@ static void ApplyDataLabels(SharedPtr<ChartSeries> series, int labelsCount, Stri
 
 * Interface [IChartDataPoint](../ichartdatapoint/)
 * Namespace [Aspose::Words::Drawing::Charts](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

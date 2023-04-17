@@ -1,9 +1,10 @@
 ---
-title: RemoveAt
+title: Aspose::Words::Settings::OdsoRecipientDataCollection::RemoveAt method
+linktitle: RemoveAt
 second_title: Aspose.Words for C++ API Reference
-description: Removes the element at the specified index.
+description: 'Aspose::Words::Settings::OdsoRecipientDataCollection::RemoveAt method. Removes the element at the specified index in C++.'
 type: docs
-weight: 183
+weight: 15000
 url: /cpp/aspose.words.settings/odsorecipientdatacollection/removeat/
 ---
 ## OdsoRecipientDataCollection::RemoveAt method
@@ -24,4 +25,4 @@ void Aspose::Words::Settings::OdsoRecipientDataCollection::RemoveAt(int32_t inde
 
 * Class [OdsoRecipientDataCollection](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

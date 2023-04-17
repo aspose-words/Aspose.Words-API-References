@@ -1,9 +1,10 @@
 ---
-title: Accept
+title: Aspose::Words::Drawing::GroupShape::Accept method
+linktitle: Accept
 second_title: Aspose.Words for C++ API Reference
-description: Accepts a visitor.
+description: 'Aspose::Words::Drawing::GroupShape::Accept method. Accepts a visitor in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.drawing/groupshape/accept/
 ---
 ## GroupShape::Accept method
@@ -119,4 +120,4 @@ private:
 * Class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * Class [GroupShape](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::WebExtensions::WebExtensionReference::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::WebExtensions::WebExtensionReference class in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.webextensions/webextensionreference/gettype/
 ---
 ## WebExtensionReference::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::WebExtensions::WebExtensionRefer
 
 * Class [WebExtensionReference](../)
 * Namespace [Aspose::Words::WebExtensions](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

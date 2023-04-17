@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Drawing::GradientStopCollection::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Drawing::GradientStopCollection class in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.drawing/gradientstopcollection/gettype/
 ---
 ## GradientStopCollection::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Drawing::GradientStopCollection:
 
 * Class [GradientStopCollection](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: ImportFormatOptions
+title: Aspose::Words::ImportFormatOptions::ImportFormatOptions constructor
+linktitle: ImportFormatOptions
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use ImportFormatOptions constructor of Aspose::Words::ImportFormatOptions class in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words/importformatoptions/importformatoptions/
 ---
 ## ImportFormatOptions::ImportFormatOptions constructor
@@ -19,4 +20,4 @@ Aspose::Words::ImportFormatOptions::ImportFormatOptions()
 
 * Class [ImportFormatOptions](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: TwoColorGradient
+title: Aspose::Words::Drawing::Fill::TwoColorGradient method
+linktitle: TwoColorGradient
 second_title: Aspose.Words for C++ API Reference
-description: Sets the specified fill to a two-color gradient.
+description: 'Aspose::Words::Drawing::Fill::TwoColorGradient method. Sets the specified fill to a two-color gradient in C++.'
 type: docs
-weight: 560
+weight: 44000
 url: /cpp/aspose.words.drawing/fill/twocolorgradient/
 ---
 ## Fill::TwoColorGradient(Aspose::Words::Drawing::GradientStyle, Aspose::Words::Drawing::GradientVariant) method
@@ -67,7 +68,7 @@ doc->Save(ArtifactsDir + u"Shape.GradientFill.docx", saveOptions);
 * Enum [GradientVariant](../../gradientvariant/)
 * Class [Fill](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## Fill::TwoColorGradient(System::Drawing::Color, System::Drawing::Color, Aspose::Words::Drawing::GradientStyle, Aspose::Words::Drawing::GradientVariant) method
 
 
@@ -131,4 +132,4 @@ doc->Save(ArtifactsDir + u"Shape.GradientFill.docx", saveOptions);
 * Enum [GradientVariant](../../gradientvariant/)
 * Class [Fill](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

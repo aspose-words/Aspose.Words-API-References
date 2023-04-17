@@ -1,9 +1,10 @@
 ---
-title: set_ExportDocumentStructure
+title: Aspose::Words::Saving::PdfSaveOptions::set_ExportDocumentStructure method
+linktitle: set_ExportDocumentStructure
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::PdfSaveOptions::get_ExportDocumentStructure.'
+description: 'Aspose::Words::Saving::PdfSaveOptions::set_ExportDocumentStructure method. Setter for Aspose::Words::Saving::PdfSaveOptions::get_ExportDocumentStructure in C++.'
 type: docs
-weight: 625
+weight: 49000
 url: /cpp/aspose.words.saving/pdfsaveoptions/set_exportdocumentstructure/
 ---
 ## PdfSaveOptions::set_ExportDocumentStructure method
@@ -19,4 +20,4 @@ void Aspose::Words::Saving::PdfSaveOptions::set_ExportDocumentStructure(bool val
 
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: HeaderFooter
+title: Aspose::Words::HeaderFooter class
+linktitle: HeaderFooter
 second_title: Aspose.Words for C++ API Reference
-description: Represents a container for the header or footer text of a section. To learn more, visit the  documentation article.
+description: 'Aspose::Words::HeaderFooter class. Represents a container for the header or footer text of a section. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 391
+weight: 31000
 url: /cpp/aspose.words/headerfooter/
 ---
 ## HeaderFooter class
@@ -179,4 +180,4 @@ doc->Save(ArtifactsDir + u"HeaderFooter.ReplaceText.docx");
 
 * Class [Story](../story/)
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

@@ -1,9 +1,10 @@
 ---
-title: get_Id
+title: Aspose::Words::CommentRangeEnd::get_Id method
+linktitle: get_Id
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the identifier of the comment to which this region is linked to.
+description: 'Aspose::Words::CommentRangeEnd::get_Id method. Specifies the identifier of the comment to which this region is linked to in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words/commentrangeend/get_id/
 ---
 ## CommentRangeEnd::get_Id method
@@ -161,4 +162,4 @@ private:
 
 * Class [CommentRangeEnd](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

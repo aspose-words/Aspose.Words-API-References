@@ -1,9 +1,10 @@
 ---
-title: get_FootnoteType
+title: Aspose::Words::Notes::Footnote::get_FootnoteType method
+linktitle: get_FootnoteType
 second_title: Aspose.Words for C++ API Reference
-description: Returns a value that specifies whether this is a footnote or endnote.
+description: 'Aspose::Words::Notes::Footnote::get_FootnoteType method. Returns a value that specifies whether this is a footnote or endnote in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.notes/footnote/get_footnotetype/
 ---
 ## Footnote::get_FootnoteType method
@@ -53,4 +54,4 @@ doc->Save(ArtifactsDir + u"InlineStory.FootnoteEndnote.docx");
 * Enum [FootnoteType](../../footnotetype/)
 * Class [Footnote](../)
 * Namespace [Aspose::Words::Notes](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

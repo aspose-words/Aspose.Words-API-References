@@ -1,9 +1,10 @@
 ---
-title: set_MailAsAttachment
+title: Aspose::Words::Settings::MailMergeSettings::set_MailAsAttachment method
+linktitle: set_MailAsAttachment
 second_title: Aspose.Words for C++ API Reference
-description: Specifies that the documents produced during a mail merge operation should be emailed as an attachment rather than the body of the actual e-mail. The default value is false.
+description: 'Aspose::Words::Settings::MailMergeSettings::set_MailAsAttachment method. Specifies that the documents produced during a mail merge operation should be emailed as an attachment rather than the body of the actual e-mail. The default value is false in C++.'
 type: docs
-weight: 417
+weight: 33000
 url: /cpp/aspose.words.settings/mailmergesettings/set_mailasattachment/
 ---
 ## MailMergeSettings::set_MailAsAttachment method
@@ -19,4 +20,4 @@ void Aspose::Words::Settings::MailMergeSettings::set_MailAsAttachment(bool value
 
 * Class [MailMergeSettings](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_WrapSide
+title: Aspose::Words::Drawing::ShapeBase::get_WrapSide method
+linktitle: get_WrapSide
 second_title: Aspose.Words for C++ API Reference
-description: Specifies how the text is wrapped around the shape.
+description: 'Aspose::Words::Drawing::ShapeBase::get_WrapSide method. Specifies how the text is wrapped around the shape in C++.'
 type: docs
-weight: 703
+weight: 55000
 url: /cpp/aspose.words.drawing/shapebase/get_wrapside/
 ---
 ## ShapeBase::get_WrapSide method
@@ -78,4 +79,4 @@ doc->Save(ArtifactsDir + u"Shape.ReplaceTextboxesWithImages.docx");
 * Enum [WrapSide](../../wrapside/)
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

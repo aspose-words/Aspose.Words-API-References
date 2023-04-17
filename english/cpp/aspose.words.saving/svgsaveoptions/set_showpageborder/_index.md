@@ -1,9 +1,10 @@
 ---
-title: set_ShowPageBorder
+title: Aspose::Words::Saving::SvgSaveOptions::set_ShowPageBorder method
+linktitle: set_ShowPageBorder
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::SvgSaveOptions::get_ShowPageBorder.'
+description: 'Aspose::Words::Saving::SvgSaveOptions::set_ShowPageBorder method. Setter for Aspose::Words::Saving::SvgSaveOptions::get_ShowPageBorder in C++.'
 type: docs
-weight: 235
+weight: 19000
 url: /cpp/aspose.words.saving/svgsaveoptions/set_showpageborder/
 ---
 ## SvgSaveOptions::set_ShowPageBorder method
@@ -19,4 +20,4 @@ void Aspose::Words::Saving::SvgSaveOptions::set_ShowPageBorder(bool value)
 
 * Class [SvgSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

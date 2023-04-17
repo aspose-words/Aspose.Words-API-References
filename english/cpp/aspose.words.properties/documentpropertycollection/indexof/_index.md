@@ -1,9 +1,10 @@
 ---
-title: IndexOf
+title: Aspose::Words::Properties::DocumentPropertyCollection::IndexOf method
+linktitle: IndexOf
 second_title: Aspose.Words for C++ API Reference
-description: Gets the index of a property by name.
+description: 'Aspose::Words::Properties::DocumentPropertyCollection::IndexOf method. Gets the index of a property by name in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.properties/documentpropertycollection/indexof/
 ---
 ## DocumentPropertyCollection::IndexOf method
@@ -90,4 +91,4 @@ ASSERT_EQ(0, properties->get_Count());
 
 * Class [DocumentPropertyCollection](../)
 * Namespace [Aspose::Words::Properties](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: set_FalseText
+title: Aspose::Words::Fields::FieldIf::set_FalseText method
+linktitle: set_FalseText
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fields::FieldIf::get_FalseText.'
+description: 'Aspose::Words::Fields::FieldIf::set_FalseText method. Setter for Aspose::Words::Fields::FieldIf::get_FalseText in C++.'
 type: docs
-weight: 170
+weight: 14000
 url: /cpp/aspose.words.fields/fieldif/set_falsetext/
 ---
 ## FieldIf::set_FalseText method
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldIf::set_FalseText(const System::String &value)
 
 * Class [FieldIf](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

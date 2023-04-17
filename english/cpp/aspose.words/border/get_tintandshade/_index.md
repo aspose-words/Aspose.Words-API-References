@@ -1,9 +1,10 @@
 ---
-title: get_TintAndShade
+title: Aspose::Words::Border::get_TintAndShade method
+linktitle: get_TintAndShade
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets a double value that lightens or darkens a color.
+description: 'Aspose::Words::Border::get_TintAndShade method. Gets or sets a double value that lightens or darkens a color in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words/border/get_tintandshade/
 ---
 ## Border::get_TintAndShade method
@@ -25,4 +26,4 @@ Setting this property for [Border](../) object with non-theme colors results in 
 
 * Class [Border](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: LayoutCollector
+title: Aspose::Words::Layout::LayoutCollector::LayoutCollector constructor
+linktitle: LayoutCollector
 second_title: Aspose.Words for C++ API Reference
-description: Initializes an instance of this class.
+description: 'Aspose::Words::Layout::LayoutCollector::LayoutCollector constructor. Initializes an instance of this class in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.layout/layoutcollector/layoutcollector/
 ---
 ## LayoutCollector::LayoutCollector constructor
@@ -82,4 +83,4 @@ ASSERT_EQ(u"¶", layoutEnumerator->get_Text());
 * Class [Document](../../../aspose.words/document/)
 * Class [LayoutCollector](../)
 * Namespace [Aspose::Words::Layout](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

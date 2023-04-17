@@ -1,9 +1,10 @@
 ---
-title: get_PageNumberListSeparator
+title: Aspose::Words::Fields::FieldToa::get_PageNumberListSeparator method
+linktitle: get_PageNumberListSeparator
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the character sequence that is used to separate two page numbers in a page number list.
+description: 'Aspose::Words::Fields::FieldToa::get_PageNumberListSeparator method. Gets or sets the character sequence that is used to separate two page numbers in a page number list in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.fields/fieldtoa/get_pagenumberlistseparator/
 ---
 ## FieldToa::get_PageNumberListSeparator method
@@ -141,4 +142,4 @@ static SharedPtr<FieldTA> InsertToaEntry(SharedPtr<DocumentBuilder> builder, Str
 
 * Class [FieldToa](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

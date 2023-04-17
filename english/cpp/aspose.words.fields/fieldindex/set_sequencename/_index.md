@@ -1,15 +1,16 @@
 ---
-title: set_SequenceName
+title: Aspose::Words::Fields::FieldIndex::set_SequenceName method
+linktitle: set_SequenceName
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fields::FieldIndex::get_SequenceName.'
+description: 'Aspose::Words::Fields::FieldIndex::set_SequenceName method. Sets the name of a sequence whose number is included with the page number in C++.'
 type: docs
-weight: 391
+weight: 31000
 url: /cpp/aspose.words.fields/fieldindex/set_sequencename/
 ---
 ## FieldIndex::set_SequenceName method
 
 
-Setter for [Aspose::Words::Fields::FieldIndex::get_SequenceName](../get_sequencename/).
+Sets the name of a sequence whose number is included with the page number.
 
 ```cpp
 void Aspose::Words::Fields::FieldIndex::set_SequenceName(const System::String &value)
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldIndex::set_SequenceName(const System::String &v
 
 * Class [FieldIndex](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

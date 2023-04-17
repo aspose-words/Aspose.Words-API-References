@@ -1,9 +1,10 @@
 ---
-title: DocumentPartSavingArgs
+title: Aspose::Words::Saving::DocumentPartSavingArgs class
+linktitle: DocumentPartSavingArgs
 second_title: Aspose.Words for C++ API Reference
-description: Provides data for the DocumentPartSaving() callback. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Saving::DocumentPartSavingArgs class. Provides data for the DocumentPartSaving() callback. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.saving/documentpartsavingargs/
 ---
 ## DocumentPartSavingArgs class
@@ -164,4 +165,4 @@ private:
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

@@ -1,9 +1,10 @@
 ---
-title: get_TextShaperFactory
+title: Aspose::Words::Layout::LayoutOptions::get_TextShaperFactory method
+linktitle: get_TextShaperFactory
 second_title: Aspose.Words for C++ API Reference
-description: Gets ITextShaperFactory implementation used for Advanced Typography rendering features.
+description: 'Aspose::Words::Layout::LayoutOptions::get_TextShaperFactory method. Gets ITextShaperFactory implementation used for Advanced Typography rendering features in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words.layout/layoutoptions/get_textshaperfactory/
 ---
 ## LayoutOptions::get_TextShaperFactory method
@@ -19,4 +20,4 @@ System::SharedPtr<Aspose::Words::Shaping::ITextShaperFactory> Aspose::Words::Lay
 
 * Class [LayoutOptions](../)
 * Namespace [Aspose::Words::Layout](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

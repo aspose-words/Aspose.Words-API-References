@@ -1,9 +1,10 @@
 ---
-title: get_Priority
+title: Aspose::Words::Fonts::FontSourceBase::get_Priority method
+linktitle: get_Priority
 second_title: Aspose.Words for C++ API Reference
-description: Returns the font source priority.
+description: 'Aspose::Words::Fonts::FontSourceBase::get_Priority method. Returns the font source priority in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fonts/fontsourcebase/get_priority/
 ---
 ## FontSourceBase::get_Priority method
@@ -43,4 +44,4 @@ ASSERT_EQ(0, fileFontSource->get_Priority());
 
 * Class [FontSourceBase](../)
 * Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

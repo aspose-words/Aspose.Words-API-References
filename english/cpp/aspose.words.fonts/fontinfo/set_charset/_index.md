@@ -1,9 +1,10 @@
 ---
-title: set_Charset
+title: Aspose::Words::Fonts::FontInfo::set_Charset method
+linktitle: set_Charset
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fonts::FontInfo::get_Charset.'
+description: 'Aspose::Words::Fonts::FontInfo::set_Charset method. Setter for Aspose::Words::Fonts::FontInfo::get_Charset in C++.'
 type: docs
-weight: 170
+weight: 14000
 url: /cpp/aspose.words.fonts/fontinfo/set_charset/
 ---
 ## FontInfo::set_Charset method
@@ -19,4 +20,4 @@ void Aspose::Words::Fonts::FontInfo::set_Charset(int32_t value)
 
 * Class [FontInfo](../)
 * Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: Type
+title: Aspose::Words::Metered::Type method
+linktitle: Type
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Type method of Aspose::Words::Metered class in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words/metered/type/
 ---
 ## Metered::Type method
@@ -19,4 +20,4 @@ static const System::TypeInfo & Aspose::Words::Metered::Type()
 
 * Class [Metered](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

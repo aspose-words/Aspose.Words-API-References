@@ -1,9 +1,10 @@
 ---
-title: get_Bidi
+title: Aspose::Words::Font::get_Bidi method
+linktitle: get_Bidi
 second_title: Aspose.Words for C++ API Reference
-description: Specifies whether the contents of this run shall have right-to-left characteristics.
+description: 'Aspose::Words::Font::get_Bidi method. Specifies whether the contents of this run shall have right-to-left characteristics in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words/font/get_bidi/
 ---
 ## Font::get_Bidi method
@@ -65,4 +66,4 @@ doc->Save(ArtifactsDir + u"Font.Bidi.docx");
 
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

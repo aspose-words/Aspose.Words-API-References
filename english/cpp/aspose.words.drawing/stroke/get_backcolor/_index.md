@@ -1,9 +1,10 @@
 ---
-title: get_BackColor
+title: Aspose::Words::Drawing::Stroke::get_BackColor method
+linktitle: get_BackColor
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the background color of the stroke.
+description: 'Aspose::Words::Drawing::Stroke::get_BackColor method. Gets or sets the background color of the stroke in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.drawing/stroke/get_backcolor/
 ---
 ## Stroke::get_BackColor method
@@ -56,4 +57,4 @@ doc->Save(ArtifactsDir + u"Charts.MarkerFormatting.docx");
 
 * Class [Stroke](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

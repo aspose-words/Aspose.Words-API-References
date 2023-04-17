@@ -1,9 +1,10 @@
 ---
-title: get_ImageWidth
+title: Aspose::Words::MailMerging::ImageFieldMergingArgs::get_ImageWidth method
+linktitle: get_ImageWidth
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the image width for the image to insert into the document.
+description: 'Aspose::Words::MailMerging::ImageFieldMergingArgs::get_ImageWidth method. Specifies the image width for the image to insert into the document in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.mailmerging/imagefieldmergingargs/get_imagewidth/
 ---
 ## ImageFieldMergingArgs::get_ImageWidth method
@@ -27,4 +28,4 @@ To indicate that the original value of the image width should be applied, you sh
 * Class [MergeFieldImageDimension](../../../aspose.words.fields/mergefieldimagedimension/)
 * Class [ImageFieldMergingArgs](../)
 * Namespace [Aspose::Words::MailMerging](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

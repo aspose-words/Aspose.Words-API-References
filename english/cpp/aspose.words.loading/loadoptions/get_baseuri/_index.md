@@ -1,9 +1,10 @@
 ---
-title: get_BaseUri
+title: Aspose::Words::Loading::LoadOptions::get_BaseUri method
+linktitle: get_BaseUri
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. Can be null or empty string. Default is null.
+description: 'Aspose::Words::Loading::LoadOptions::get_BaseUri method. Gets or sets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. Can be null or empty string. Default is null in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.loading/loadoptions/get_baseuri/
 ---
 ## LoadOptions::get_BaseUri method
@@ -54,4 +55,4 @@ Shows how to open an HTML document with images from a stream using a base URI.
 
 * Class [LoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

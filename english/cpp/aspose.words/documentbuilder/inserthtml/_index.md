@@ -1,9 +1,10 @@
 ---
-title: InsertHtml
+title: Aspose::Words::DocumentBuilder::InsertHtml method
+linktitle: InsertHtml
 second_title: Aspose.Words for C++ API Reference
-description: Inserts an HTML string into the document.
+description: 'Aspose::Words::DocumentBuilder::InsertHtml method. Inserts an HTML string into the document in C++.'
 type: docs
-weight: 469
+weight: 37000
 url: /cpp/aspose.words/documentbuilder/inserthtml/
 ---
 ## DocumentBuilder::InsertHtml(const System::String\&) method
@@ -107,7 +108,7 @@ private:
 
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## DocumentBuilder::InsertHtml(const System::String\&, Aspose::Words::HtmlInsertOptions) method
 
 
@@ -154,7 +155,7 @@ doc->Save(ArtifactsDir + u"MailMerge.RemoveLastEmptyParagraph.docx");
 * Enum [HtmlInsertOptions](../../htmlinsertoptions/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## DocumentBuilder::InsertHtml(const System::String\&, bool) method
 
 
@@ -211,4 +212,4 @@ doc->Save(ArtifactsDir + u"DocumentBuilder.InsertHtmlWithFormatting.docx");
 
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

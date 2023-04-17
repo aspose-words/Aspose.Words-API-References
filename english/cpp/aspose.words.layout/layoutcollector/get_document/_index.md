@@ -1,9 +1,10 @@
 ---
-title: get_Document
+title: Aspose::Words::Layout::LayoutCollector::get_Document method
+linktitle: get_Document
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the document this collector instance is attached to.
+description: 'Aspose::Words::Layout::LayoutCollector::get_Document method. Gets or sets the document this collector instance is attached to in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.layout/layoutcollector/get_document/
 ---
 ## LayoutCollector::get_Document method
@@ -78,4 +79,4 @@ ASSERT_EQ(u"¶", layoutEnumerator->get_Text());
 * Class [Document](../../../aspose.words/document/)
 * Class [LayoutCollector](../)
 * Namespace [Aspose::Words::Layout](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

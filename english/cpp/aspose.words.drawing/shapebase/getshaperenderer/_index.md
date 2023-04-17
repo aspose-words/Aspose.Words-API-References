@@ -1,9 +1,10 @@
 ---
-title: GetShapeRenderer
+title: Aspose::Words::Drawing::ShapeBase::GetShapeRenderer method
+linktitle: GetShapeRenderer
 second_title: Aspose.Words for C++ API Reference
-description: Creates and returns an object that can be used to render this shape into an image.
+description: 'Aspose::Words::Drawing::ShapeBase::GetShapeRenderer method. Creates and returns an object that can be used to render this shape into an image in C++.'
 type: docs
-weight: 742
+weight: 58000
 url: /cpp/aspose.words.drawing/shapebase/getshaperenderer/
 ---
 ## ShapeBase::GetShapeRenderer method
@@ -52,4 +53,4 @@ for (const auto& shape : System::IterateOver(doc->GetChildNodes(NodeType::Shape,
 * Class [ShapeRenderer](../../../aspose.words.rendering/shaperenderer/)
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

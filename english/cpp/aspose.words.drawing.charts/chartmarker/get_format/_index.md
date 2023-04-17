@@ -1,9 +1,10 @@
 ---
-title: get_Format
+title: Aspose::Words::Drawing::Charts::ChartMarker::get_Format method
+linktitle: get_Format
 second_title: Aspose.Words for C++ API Reference
-description: Provides access to fill and line formatting of this marker.
+description: 'Aspose::Words::Drawing::Charts::ChartMarker::get_Format method. Provides access to fill and line formatting of this marker in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.drawing.charts/chartmarker/get_format/
 ---
 ## ChartMarker::get_Format method
@@ -57,4 +58,4 @@ doc->Save(ArtifactsDir + u"Charts.MarkerFormatting.docx");
 * Class [ChartFormat](../../chartformat/)
 * Class [ChartMarker](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

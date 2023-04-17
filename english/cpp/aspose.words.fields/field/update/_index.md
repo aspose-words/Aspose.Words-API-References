@@ -1,9 +1,10 @@
 ---
-title: Update
+title: Aspose::Words::Fields::Field::Update method
+linktitle: Update
 second_title: Aspose.Words for C++ API Reference
-description: Performs the field update. Throws if the field is being updated already.
+description: 'Aspose::Words::Fields::Field::Update method. Performs the field update. Throws if the field is being updated already in C++.'
 type: docs
-weight: 287
+weight: 23000
 url: /cpp/aspose.words.fields/field/update/
 ---
 ## Field::Update() method
@@ -126,7 +127,7 @@ ASSERT_EQ(0, format->get_GeneralFormats()->get_Count());
 
 * Class [Field](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## Field::Update(bool) method
 
 
@@ -183,4 +184,4 @@ includePicture->Update(true);
 
 * Class [Field](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

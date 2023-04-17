@@ -1,9 +1,10 @@
 ---
-title: Add
+title: Aspose::Words::Fields::GeneralFormatCollection::Add method
+linktitle: Add
 second_title: Aspose.Words for C++ API Reference
-description: Adds a general format to the collection.
+description: 'Aspose::Words::Fields::GeneralFormatCollection::Add method. Adds a general format to the collection in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fields/generalformatcollection/add/
 ---
 ## GeneralFormatCollection::Add method
@@ -91,4 +92,4 @@ ASSERT_EQ(0, format->get_GeneralFormats()->get_Count());
 * Enum [GeneralFormat](../../generalformat/)
 * Class [GeneralFormatCollection](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

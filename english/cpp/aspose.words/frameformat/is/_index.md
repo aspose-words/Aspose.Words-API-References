@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::FrameFormat::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::FrameFormat class in C++.'
 type: docs
-weight: 183
+weight: 15000
 url: /cpp/aspose.words/frameformat/is/
 ---
 ## FrameFormat::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::FrameFormat::Is(const System::TypeInfo &target) cons
 
 * Class [FrameFormat](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

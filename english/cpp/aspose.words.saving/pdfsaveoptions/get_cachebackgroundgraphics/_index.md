@@ -1,9 +1,10 @@
 ---
-title: get_CacheBackgroundGraphics
+title: Aspose::Words::Saving::PdfSaveOptions::get_CacheBackgroundGraphics method
+linktitle: get_CacheBackgroundGraphics
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets a value determining whether or not to cache graphics placed in document's background.
+description: 'Aspose::Words::Saving::PdfSaveOptions::get_CacheBackgroundGraphics method. Gets or sets a value determining whether or not to cache graphics placed in document''s background in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.saving/pdfsaveoptions/get_cachebackgroundgraphics/
 ---
 ## PdfSaveOptions::get_CacheBackgroundGraphics method
@@ -29,4 +30,4 @@ Some shapes are not supported for caching(shapes with fields, bookmarks, HRefs).
 
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

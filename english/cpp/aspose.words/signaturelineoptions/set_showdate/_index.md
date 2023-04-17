@@ -1,9 +1,10 @@
 ---
-title: set_ShowDate
+title: Aspose::Words::SignatureLineOptions::set_ShowDate method
+linktitle: set_ShowDate
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::SignatureLineOptions::get_ShowDate.'
+description: 'Aspose::Words::SignatureLineOptions::set_ShowDate method. Setter for Aspose::Words::SignatureLineOptions::get_ShowDate in C++.'
 type: docs
-weight: 196
+weight: 16000
 url: /cpp/aspose.words/signaturelineoptions/set_showdate/
 ---
 ## SignatureLineOptions::set_ShowDate method
@@ -19,4 +20,4 @@ void Aspose::Words::SignatureLineOptions::set_ShowDate(bool value)
 
 * Class [SignatureLineOptions](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

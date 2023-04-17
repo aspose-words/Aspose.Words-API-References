@@ -1,9 +1,10 @@
 ---
-title: Notify
+title: Aspose::Words::Loading::IDocumentLoadingCallback::Notify method
+linktitle: Notify
 second_title: Aspose.Words for C++ API Reference
-description: This is called to notify of document loading progress.
+description: 'Aspose::Words::Loading::IDocumentLoadingCallback::Notify method. This is called to notify of document loading progress in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.loading/idocumentloadingcallback/notify/
 ---
 ## IDocumentLoadingCallback::Notify method
@@ -31,4 +32,4 @@ An exception should be threw from the progress callback for abortion and it shou
 * Class [DocumentLoadingArgs](../../documentloadingargs/)
 * Interface [IDocumentLoadingCallback](../)
 * Namespace [Aspose::Words::Loading](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

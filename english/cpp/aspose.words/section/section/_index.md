@@ -1,9 +1,10 @@
 ---
-title: Section
+title: Aspose::Words::Section::Section constructor
+linktitle: Section
 second_title: Aspose.Words for C++ API Reference
-description: Initializes a new instance of the Section class.
+description: 'Aspose::Words::Section::Section constructor. Initializes a new instance of the Section class in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words/section/section/
 ---
 ## Section::Section constructor
@@ -79,4 +80,4 @@ doc->Save(ArtifactsDir + u"Section.CreateManually.docx");
 * Class [DocumentBase](../../documentbase/)
 * Class [Section](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

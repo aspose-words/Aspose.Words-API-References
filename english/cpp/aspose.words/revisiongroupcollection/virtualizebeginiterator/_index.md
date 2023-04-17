@@ -1,9 +1,10 @@
 ---
-title: virtualizeBeginIterator
+title: Aspose::Words::RevisionGroupCollection::virtualizeBeginIterator method
+linktitle: virtualizeBeginIterator
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use virtualizeBeginIterator method of Aspose::Words::RevisionGroupCollection class in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words/revisiongroupcollection/virtualizebeginiterator/
 ---
 ## RevisionGroupCollection::virtualizeBeginIterator method
@@ -20,4 +21,4 @@ virtualized_iterator * Aspose::Words::RevisionGroupCollection::virtualizeBeginIt
 * Typedef [virtualized_iterator](../virtualized_iterator/)
 * Class [RevisionGroupCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

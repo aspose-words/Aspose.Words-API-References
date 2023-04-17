@@ -1,9 +1,10 @@
 ---
-title: RtfLoadOptions
+title: Aspose::Words::Loading::RtfLoadOptions class
+linktitle: RtfLoadOptions
 second_title: Aspose.Words for C++ API Reference
-description: Allows to specify additional options when loading Rtf document into a Document object. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Loading::RtfLoadOptions class. Allows to specify additional options when loading Rtf document into a Document object. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.loading/rtfloadoptions/
 ---
 ## RtfLoadOptions class
@@ -56,7 +57,7 @@ class RtfLoadOptions : public Aspose::Words::Loading::LoadOptions
 | [set_RecognizeUtf8Text](./set_recognizeutf8text/)(bool) | Setter for [Aspose::Words::Loading::RtfLoadOptions::get_RecognizeUtf8Text](./get_recognizeutf8text/). |
 | [set_ResourceLoadingCallback](../loadoptions/set_resourceloadingcallback/)(const System::SharedPtr\<Aspose::Words::Loading::IResourceLoadingCallback\>\&) | Setter for [Aspose::Words::Loading::LoadOptions::get_ResourceLoadingCallback](../loadoptions/get_resourceloadingcallback/). |
 | [set_TempFolder](../loadoptions/set_tempfolder/)(const System::String\&) | Setter for [Aspose::Words::Loading::LoadOptions::get_TempFolder](../loadoptions/get_tempfolder/). |
-| [set_UpdateDirtyFields](../loadoptions/set_updatedirtyfields/)(bool) | Setter for [Aspose::Words::Loading::LoadOptions::get_UpdateDirtyFields](../loadoptions/get_updatedirtyfields/). |
+| [set_UpdateDirtyFields](../loadoptions/set_updatedirtyfields/)(bool) | Specifies whether to update the fields with the **dirty** attribute. |
 | [set_WarningCallback](../loadoptions/set_warningcallback/)(const System::SharedPtr\<Aspose::Words::IWarningCallback\>\&) | Setter for [Aspose::Words::Loading::LoadOptions::get_WarningCallback](../loadoptions/get_warningcallback/). |
 | static [Type](./type/)() |  |
 
@@ -85,4 +86,4 @@ ASSERT_EQ(recognizeUtf8Text ? String(u"“John Doe´s list of currency symbols�
 
 * Class [LoadOptions](../loadoptions/)
 * Namespace [Aspose::Words::Loading](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

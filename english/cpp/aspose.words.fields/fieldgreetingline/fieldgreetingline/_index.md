@@ -1,9 +1,10 @@
 ---
-title: FieldGreetingLine
+title: Aspose::Words::Fields::FieldGreetingLine::FieldGreetingLine constructor
+linktitle: FieldGreetingLine
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use FieldGreetingLine constructor of Aspose::Words::Fields::FieldGreetingLine class in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fields/fieldgreetingline/fieldgreetingline/
 ---
 ## FieldGreetingLine::FieldGreetingLine constructor
@@ -19,4 +20,4 @@ Aspose::Words::Fields::FieldGreetingLine::FieldGreetingLine()
 
 * Class [FieldGreetingLine](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

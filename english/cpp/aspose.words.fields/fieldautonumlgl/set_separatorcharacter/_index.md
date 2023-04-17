@@ -1,9 +1,10 @@
 ---
-title: set_SeparatorCharacter
+title: Aspose::Words::Fields::FieldAutoNumLgl::set_SeparatorCharacter method
+linktitle: set_SeparatorCharacter
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fields::FieldAutoNumLgl::get_SeparatorCharacter.'
+description: 'Aspose::Words::Fields::FieldAutoNumLgl::set_SeparatorCharacter method. Setter for Aspose::Words::Fields::FieldAutoNumLgl::get_SeparatorCharacter in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.fields/fieldautonumlgl/set_separatorcharacter/
 ---
 ## FieldAutoNumLgl::set_SeparatorCharacter method
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldAutoNumLgl::set_SeparatorCharacter(const System
 
 * Class [FieldAutoNumLgl](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

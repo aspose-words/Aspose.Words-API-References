@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Layout::LayoutEnumerator::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Layout::LayoutEnumerator class in C++.'
 type: docs
-weight: 183
+weight: 15000
 url: /cpp/aspose.words.layout/layoutenumerator/is/
 ---
 ## LayoutEnumerator::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Layout::LayoutEnumerator::Is(const System::TypeInfo 
 
 * Class [LayoutEnumerator](../)
 * Namespace [Aspose::Words::Layout](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

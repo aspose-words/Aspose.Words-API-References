@@ -1,9 +1,10 @@
 ---
-title: get_LeftIndent
+title: Aspose::Words::ParagraphFormat::get_LeftIndent method
+linktitle: get_LeftIndent
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the value (in points) that represents the left indent for paragraph.
+description: 'Aspose::Words::ParagraphFormat::get_LeftIndent method. Gets or sets the value (in points) that represents the left indent for paragraph in C++.'
 type: docs
-weight: 235
+weight: 19000
 url: /cpp/aspose.words/paragraphformat/get_leftindent/
 ---
 ## ParagraphFormat::get_LeftIndent method
@@ -44,4 +45,4 @@ doc->Save(ArtifactsDir + u"DocumentBuilder.SetParagraphFormatting.docx");
 
 * Class [ParagraphFormat](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

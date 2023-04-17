@@ -1,9 +1,10 @@
 ---
-title: get_Element
+title: Aspose::Words::Markup::SmartTag::get_Element method
+linktitle: get_Element
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the name of the smart tag within the document.
+description: 'Aspose::Words::Markup::SmartTag::get_Element method. Specifies the name of the smart tag within the document in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.markup/smarttag/get_element/
 ---
 ## SmartTag::get_Element method
@@ -119,4 +120,4 @@ public:
 
 * Class [SmartTag](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

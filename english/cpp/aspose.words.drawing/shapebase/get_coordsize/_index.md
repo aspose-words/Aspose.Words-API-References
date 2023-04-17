@@ -1,9 +1,10 @@
 ---
-title: get_CoordSize
+title: Aspose::Words::Drawing::ShapeBase::get_CoordSize method
+linktitle: get_CoordSize
 second_title: Aspose.Words for C++ API Reference
-description: The width and height of the coordinate space inside the containing block of this shape.
+description: 'Aspose::Words::Drawing::ShapeBase::get_CoordSize method. The width and height of the coordinate space inside the containing block of this shape in C++.'
 type: docs
-weight: 170
+weight: 14000
 url: /cpp/aspose.words.drawing/shapebase/get_coordsize/
 ---
 ## ShapeBase::get_CoordSize method
@@ -161,4 +162,4 @@ doc->Save(ArtifactsDir + u"Shape.LocalToParent.docx");
 
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

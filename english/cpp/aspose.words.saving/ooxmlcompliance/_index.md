@@ -1,9 +1,10 @@
 ---
-title: OoxmlCompliance
+title: Aspose::Words::Saving::OoxmlCompliance enum
+linktitle: OoxmlCompliance
 second_title: Aspose.Words for C++ API Reference
-description: Allows to specify which OOXML specification will be used when saving in the DOCX format.
+description: 'Aspose::Words::Saving::OoxmlCompliance enum. Allows to specify which OOXML specification will be used when saving in the DOCX format in C++.'
 type: docs
-weight: 924
+weight: 72000
 url: /cpp/aspose.words.saving/ooxmlcompliance/
 ---
 ## OoxmlCompliance enum
@@ -111,4 +112,4 @@ doc->Save(ArtifactsDir + u"Shape.ShapeInsertion.docx", saveOptions);
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

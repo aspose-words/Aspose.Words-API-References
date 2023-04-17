@@ -1,9 +1,10 @@
 ---
-title: get_EntryLevel
+title: Aspose::Words::Fields::FieldTC::get_EntryLevel method
+linktitle: get_EntryLevel
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the level of the entry.
+description: 'Aspose::Words::Fields::FieldTC::get_EntryLevel method. Gets or sets the level of the entry in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.fields/fieldtc/get_entrylevel/
 ---
 ## FieldTC::get_EntryLevel method
@@ -67,4 +68,4 @@ void InsertTocEntry(SharedPtr<DocumentBuilder> builder, String text, String type
 
 * Class [FieldTC](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

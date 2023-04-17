@@ -1,9 +1,10 @@
 ---
-title: idx_get
+title: Aspose::Words::WebExtensions::BaseWebExtensionCollection::idx_get method
+linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets an item at the specified index.
+description: 'Aspose::Words::WebExtensions::BaseWebExtensionCollection::idx_get method. Gets or sets an item at the specified index in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words.webextensions/basewebextensioncollection/idx_get/
 ---
 ## BaseWebExtensionCollection::idx_get method
@@ -52,4 +53,4 @@ ASSERT_EQ(0, doc->get_WebExtensionTaskPanes()->get_Count());
 
 * Class [BaseWebExtensionCollection](../)
 * Namespace [Aspose::Words::WebExtensions](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

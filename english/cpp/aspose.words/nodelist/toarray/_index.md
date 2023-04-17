@@ -1,9 +1,10 @@
 ---
-title: ToArray
+title: Aspose::Words::NodeList::ToArray method
+linktitle: ToArray
 second_title: Aspose.Words for C++ API Reference
-description: Copies all nodes from the collection to a new array of nodes.
+description: 'Aspose::Words::NodeList::ToArray method. Copies all nodes from the collection to a new array of nodes in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words/nodelist/toarray/
 ---
 ## NodeList::ToArray method
@@ -31,4 +32,4 @@ To be able to add/remove nodes during iteration, use this method to copy nodes i
 * Class [Node](../../node/)
 * Class [NodeList](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

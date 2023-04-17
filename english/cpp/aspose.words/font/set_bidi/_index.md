@@ -1,9 +1,10 @@
 ---
-title: set_Bidi
+title: Aspose::Words::Font::set_Bidi method
+linktitle: set_Bidi
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Font::get_Bidi.'
+description: 'Aspose::Words::Font::set_Bidi method. Setter for Aspose::Words::Font::get_Bidi in C++.'
 type: docs
-weight: 781
+weight: 61000
 url: /cpp/aspose.words/font/set_bidi/
 ---
 ## Font::set_Bidi method
@@ -19,4 +20,4 @@ void Aspose::Words::Font::set_Bidi(bool value)
 
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

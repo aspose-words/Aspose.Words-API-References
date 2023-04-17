@@ -1,9 +1,10 @@
 ---
-title: XamlFlowSaveOptions
+title: Aspose::Words::Saving::XamlFlowSaveOptions::XamlFlowSaveOptions constructor
+linktitle: XamlFlowSaveOptions
 second_title: Aspose.Words for C++ API Reference
-description: Initializes a new instance of this class that can be used to save a document in the XamlFlow format.
+description: 'Aspose::Words::Saving::XamlFlowSaveOptions::XamlFlowSaveOptions constructor. Initializes a new instance of this class that can be used to save a document in the XamlFlow format in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.saving/xamlflowsaveoptions/xamlflowsaveoptions/
 ---
 ## XamlFlowSaveOptions::XamlFlowSaveOptions() constructor
@@ -96,7 +97,7 @@ private:
 
 * Class [XamlFlowSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## XamlFlowSaveOptions::XamlFlowSaveOptions(Aspose::Words::SaveFormat) constructor
 
 
@@ -192,4 +193,4 @@ private:
 * Enum [SaveFormat](../../../aspose.words/saveformat/)
 * Class [XamlFlowSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: VisitSectionEnd
+title: Aspose::Words::DocumentVisitor::VisitSectionEnd method
+linktitle: VisitSectionEnd
 second_title: Aspose.Words for C++ API Reference
-description: Called when enumeration of a section has ended.
+description: 'Aspose::Words::DocumentVisitor::VisitSectionEnd method. Called when enumeration of a section has ended in C++.'
 type: docs
-weight: 508
+weight: 40000
 url: /cpp/aspose.words/documentvisitor/visitsectionend/
 ---
 ## DocumentVisitor::VisitSectionEnd method
@@ -164,4 +165,4 @@ private:
 * Class [Section](../../section/)
 * Class [DocumentVisitor](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

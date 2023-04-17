@@ -1,9 +1,10 @@
 ---
-title: FieldToc
+title: Aspose::Words::Fields::FieldToc class
+linktitle: FieldToc
 second_title: Aspose.Words for C++ API Reference
-description: Implements the TOC field. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Fields::FieldToc class. Implements the TOC field. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 1353
+weight: 105000
 url: /cpp/aspose.words.fields/fieldtoc/
 ---
 ## FieldToc class
@@ -37,7 +38,7 @@ class FieldToc : public Aspose::Words::Fields::Field,
 | [get_HeadingLevelRange](./get_headinglevelrange/)() | Gets or sets a range of heading levels to include. |
 | [get_HideInWebLayout](./get_hideinweblayout/)() | Gets or sets whether to hide tab leader and page numbers in Web layout view. |
 | [get_InsertHyperlinks](./get_inserthyperlinks/)() | Gets or sets whether to make the table of contents entries hyperlinks. |
-| [get_IsDirty](../field/get_isdirty/)() | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [get_IsDirty](../field/get_isdirty/)() | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [get_IsLocked](../field/get_islocked/)() | Gets or sets whether the field is locked (should not recalculate its result). |
 | [get_LocaleId](../field/get_localeid/)() | Gets or sets the LCID of the field. |
 | [get_PageNumberOmittingLevelRange](./get_pagenumberomittinglevelrange/)() | Gets or sets a range of levels of the table of contents entries from which to omits page numbers. |
@@ -66,7 +67,7 @@ class FieldToc : public Aspose::Words::Fields::Field,
 | [set_HeadingLevelRange](./set_headinglevelrange/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldToc::get_HeadingLevelRange](./get_headinglevelrange/). |
 | [set_HideInWebLayout](./set_hideinweblayout/)(bool) | Setter for [Aspose::Words::Fields::FieldToc::get_HideInWebLayout](./get_hideinweblayout/). |
 | [set_InsertHyperlinks](./set_inserthyperlinks/)(bool) | Setter for [Aspose::Words::Fields::FieldToc::get_InsertHyperlinks](./get_inserthyperlinks/). |
-| [set_IsDirty](../field/set_isdirty/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsDirty](../field/get_isdirty/). |
+| [set_IsDirty](../field/set_isdirty/)(bool) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [set_IsLocked](../field/set_islocked/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsLocked](../field/get_islocked/). |
 | [set_LocaleId](../field/set_localeid/)(int32_t) | Setter for [Aspose::Words::Fields::Field::get_LocaleId](../field/get_localeid/). |
 | [set_PageNumberOmittingLevelRange](./set_pagenumberomittinglevelrange/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldToc::get_PageNumberOmittingLevelRange](./get_pagenumberomittinglevelrange/). |
@@ -238,4 +239,4 @@ doc->Save(ArtifactsDir + u"Field.TOC.SEQ.docx");
 
 * Class [Field](../field/)
 * Namespace [Aspose::Words::Fields](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

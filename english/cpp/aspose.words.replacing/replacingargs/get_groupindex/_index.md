@@ -1,9 +1,10 @@
 ---
-title: get_GroupIndex
+title: Aspose::Words::Replacing::ReplacingArgs::get_GroupIndex method
+linktitle: get_GroupIndex
 second_title: Aspose.Words for C++ API Reference
-description: Identifies, by index, a captured group in the Match that is to be replaced with the Replacement string.
+description: 'Aspose::Words::Replacing::ReplacingArgs::get_GroupIndex method. Identifies, by index, a captured group in the Match that is to be replaced with the Replacement string in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.replacing/replacingargs/get_groupindex/
 ---
 ## ReplacingArgs::get_GroupIndex method
@@ -101,4 +102,4 @@ private:
 
 * Class [ReplacingArgs](../)
 * Namespace [Aspose::Words::Replacing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

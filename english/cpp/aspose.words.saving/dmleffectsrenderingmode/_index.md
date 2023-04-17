@@ -1,9 +1,10 @@
 ---
-title: DmlEffectsRenderingMode
+title: Aspose::Words::Saving::DmlEffectsRenderingMode enum
+linktitle: DmlEffectsRenderingMode
 second_title: Aspose.Words for C++ API Reference
-description: Specifies how DrawingML effects are rendered to fixed page formats.
+description: 'Aspose::Words::Saving::DmlEffectsRenderingMode enum. Specifies how DrawingML effects are rendered to fixed page formats in C++.'
 type: docs
-weight: 638
+weight: 50000
 url: /cpp/aspose.words.saving/dmleffectsrenderingmode/
 ---
 ## DmlEffectsRenderingMode enum
@@ -51,4 +52,4 @@ doc->Save(ArtifactsDir + u"PdfSaveOptions.DrawingMLEffects.pdf", options);
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

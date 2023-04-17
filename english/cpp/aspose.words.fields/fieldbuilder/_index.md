@@ -1,9 +1,10 @@
 ---
-title: FieldBuilder
+title: Aspose::Words::Fields::FieldBuilder class
+linktitle: FieldBuilder
 second_title: Aspose.Words for C++ API Reference
-description: Builds a field from field code tokens (arguments and switches). To learn more, visit the  documentation article.
+description: 'Aspose::Words::Fields::FieldBuilder class. Builds a field from field code tokens (arguments and switches). To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 248
+weight: 20000
 url: /cpp/aspose.words.fields/fieldbuilder/
 ---
 ## FieldBuilder class
@@ -120,4 +121,4 @@ doc->Save(ArtifactsDir + u"Field.SYMBOL.docx");
 ## See Also
 
 * Namespace [Aspose::Words::Fields](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Fields::FieldMergeBarcode::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Fields::FieldMergeBarcode class in C++.'
 type: docs
-weight: 235
+weight: 19000
 url: /cpp/aspose.words.fields/fieldmergebarcode/is/
 ---
 ## FieldMergeBarcode::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Fields::FieldMergeBarcode::Is(const System::TypeInfo
 
 * Class [FieldMergeBarcode](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

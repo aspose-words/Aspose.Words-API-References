@@ -1,9 +1,10 @@
 ---
-title: MsWordVersion
+title: Aspose::Words::Settings::MsWordVersion enum
+linktitle: MsWordVersion
 second_title: Aspose.Words for C++ API Reference
-description: Allows Aspose.Wods to mimic MS Word version-specific application behavior.
+description: 'Aspose::Words::Settings::MsWordVersion enum. Allows Aspose.Wods to mimic MS Word version-specific application behavior in C++.'
 type: docs
-weight: 209
+weight: 17000
 url: /cpp/aspose.words.settings/mswordversion/
 ---
 ## MsWordVersion enum
@@ -31,4 +32,4 @@ enum class MsWordVersion
 ## See Also
 
 * Namespace [Aspose::Words::Settings](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

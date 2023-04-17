@@ -1,9 +1,10 @@
 ---
-title: Type
+title: Aspose::Words::MailMerging::MappedDataFieldCollection::Type method
+linktitle: Type
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Type method of Aspose::Words::MailMerging::MappedDataFieldCollection class in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words.mailmerging/mappeddatafieldcollection/type/
 ---
 ## MappedDataFieldCollection::Type method
@@ -19,4 +20,4 @@ static const System::TypeInfo & Aspose::Words::MailMerging::MappedDataFieldColle
 
 * Class [MappedDataFieldCollection](../)
 * Namespace [Aspose::Words::MailMerging](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

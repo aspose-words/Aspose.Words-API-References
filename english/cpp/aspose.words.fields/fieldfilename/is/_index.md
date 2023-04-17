@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Fields::FieldFileName::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Fields::FieldFileName class in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.fields/fieldfilename/is/
 ---
 ## FieldFileName::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Fields::FieldFileName::Is(const System::TypeInfo &ta
 
 * Class [FieldFileName](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

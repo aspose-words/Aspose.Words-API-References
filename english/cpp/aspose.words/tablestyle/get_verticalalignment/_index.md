@@ -1,9 +1,10 @@
 ---
-title: get_VerticalAlignment
+title: Aspose::Words::TableStyle::get_VerticalAlignment method
+linktitle: get_VerticalAlignment
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the vertical alignment for the cells.
+description: 'Aspose::Words::TableStyle::get_VerticalAlignment method. Specifies the vertical alignment for the cells in C++.'
 type: docs
-weight: 196
+weight: 16000
 url: /cpp/aspose.words/tablestyle/get_verticalalignment/
 ---
 ## TableStyle::get_VerticalAlignment method
@@ -63,4 +64,4 @@ doc->Save(ArtifactsDir + u"Table.TableStyleCreation.docx");
 * Enum [CellVerticalAlignment](../../../aspose.words.tables/cellverticalalignment/)
 * Class [TableStyle](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

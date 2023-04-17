@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::BookmarkStart::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::BookmarkStart class in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words/bookmarkstart/gettype/
 ---
 ## BookmarkStart::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::BookmarkStart::GetType() const o
 
 * Class [BookmarkStart](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: AxisTimeUnit
+title: Aspose::Words::Drawing::Charts::AxisTimeUnit enum
+linktitle: AxisTimeUnit
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the unit of time for axes.
+description: 'Aspose::Words::Drawing::Charts::AxisTimeUnit enum. Specifies the unit of time for axes in C++.'
 type: docs
-weight: 326
+weight: 26000
 url: /cpp/aspose.words.drawing.charts/axistimeunit/
 ---
 ## AxisTimeUnit enum
@@ -73,4 +74,4 @@ doc->Save(ArtifactsDir + u"Charts.DateTimeValues.docx");
 ## See Also
 
 * Namespace [Aspose::Words::Drawing::Charts](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

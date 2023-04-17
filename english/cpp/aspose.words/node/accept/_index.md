@@ -1,9 +1,10 @@
 ---
-title: Accept
+title: Aspose::Words::Node::Accept method
+linktitle: Accept
 second_title: Aspose.Words for C++ API Reference
-description: Accepts a visitor.
+description: 'Aspose::Words::Node::Accept method. Accepts a visitor in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words/node/accept/
 ---
 ## Node::Accept method
@@ -214,4 +215,4 @@ public:
 * Class [DocumentVisitor](../../documentvisitor/)
 * Class [Node](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

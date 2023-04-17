@@ -1,9 +1,10 @@
 ---
-title: get_Title
+title: Aspose::Words::Markup::IStructuredDocumentTag::get_Title method
+linktitle: get_Title
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the friendly name associated with this SDT. Can not be null.
+description: 'Aspose::Words::Markup::IStructuredDocumentTag::get_Title method. Specifies the friendly name associated with this SDT. Can not be null in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words.markup/istructureddocumenttag/get_title/
 ---
 ## IStructuredDocumentTag::get_Title method
@@ -19,4 +20,4 @@ virtual System::String Aspose::Words::Markup::IStructuredDocumentTag::get_Title(
 
 * Interface [IStructuredDocumentTag](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

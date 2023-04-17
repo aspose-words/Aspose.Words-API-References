@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Saving::IPageSavingCallback::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Saving::IPageSavingCallback class in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.saving/ipagesavingcallback/is/
 ---
 ## IPageSavingCallback::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Saving::IPageSavingCallback::Is(const System::TypeIn
 
 * Interface [IPageSavingCallback](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

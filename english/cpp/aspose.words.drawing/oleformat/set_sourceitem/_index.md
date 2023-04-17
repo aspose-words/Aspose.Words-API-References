@@ -1,9 +1,10 @@
 ---
-title: set_SourceItem
+title: Aspose::Words::Drawing::OleFormat::set_SourceItem method
+linktitle: set_SourceItem
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Drawing::OleFormat::get_SourceItem.'
+description: 'Aspose::Words::Drawing::OleFormat::set_SourceItem method. Setter for Aspose::Words::Drawing::OleFormat::get_SourceItem in C++.'
 type: docs
-weight: 300
+weight: 24000
 url: /cpp/aspose.words.drawing/oleformat/set_sourceitem/
 ---
 ## OleFormat::set_SourceItem method
@@ -19,4 +20,4 @@ void Aspose::Words::Drawing::OleFormat::set_SourceItem(const System::String &val
 
 * Class [OleFormat](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

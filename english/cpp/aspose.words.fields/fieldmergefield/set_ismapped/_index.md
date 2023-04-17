@@ -1,9 +1,10 @@
 ---
-title: set_IsMapped
+title: Aspose::Words::Fields::FieldMergeField::set_IsMapped method
+linktitle: set_IsMapped
 second_title: Aspose.Words for C++ API Reference
-description: Sets whether this field is a mapped field.
+description: 'Aspose::Words::Fields::FieldMergeField::set_IsMapped method. Sets whether this field is a mapped field in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words.fields/fieldmergefield/set_ismapped/
 ---
 ## FieldMergeField::set_IsMapped method
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldMergeField::set_IsMapped(bool value)
 
 * Class [FieldMergeField](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

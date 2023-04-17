@@ -1,9 +1,10 @@
 ---
-title: set_ForeThemeColor
+title: Aspose::Words::Drawing::Fill::set_ForeThemeColor method
+linktitle: set_ForeThemeColor
 second_title: Aspose.Words for C++ API Reference
-description: Sets a ThemeColor object that represents the foreground color for the fill.
+description: 'Aspose::Words::Drawing::Fill::set_ForeThemeColor method. Sets a ThemeColor object that represents the foreground color for the fill in C++.'
 type: docs
-weight: 417
+weight: 33000
 url: /cpp/aspose.words.drawing/fill/set_forethemecolor/
 ---
 ## Fill::set_ForeThemeColor method
@@ -20,4 +21,4 @@ void Aspose::Words::Drawing::Fill::set_ForeThemeColor(Aspose::Words::Themes::The
 * Enum [ThemeColor](../../../aspose.words.themes/themecolor/)
 * Class [Fill](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

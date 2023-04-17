@@ -1,9 +1,10 @@
 ---
-title: get_FarEastLineBreakControl
+title: Aspose::Words::ParagraphFormat::get_FarEastLineBreakControl method
+linktitle: get_FarEastLineBreakControl
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets a flag indicating whether East Asian line-breaking rules are applied to the current paragraph.
+description: 'Aspose::Words::ParagraphFormat::get_FarEastLineBreakControl method. Gets or sets a flag indicating whether East Asian line-breaking rules are applied to the current paragraph in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words/paragraphformat/get_fareastlinebreakcontrol/
 ---
 ## ParagraphFormat::get_FarEastLineBreakControl method
@@ -36,4 +37,4 @@ doc->Save(ArtifactsDir + u"ParagraphFormat.AsianTypographyProperties.docx");
 
 * Class [ParagraphFormat](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

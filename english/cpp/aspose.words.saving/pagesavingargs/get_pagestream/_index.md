@@ -1,9 +1,10 @@
 ---
-title: get_PageStream
+title: Aspose::Words::Saving::PageSavingArgs::get_PageStream method
+linktitle: get_PageStream
 second_title: Aspose.Words for C++ API Reference
-description: Allows to specify the stream where the document page will be saved to.
+description: 'Aspose::Words::Saving::PageSavingArgs::get_PageStream method. Allows to specify the stream where the document page will be saved to in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.saving/pagesavingargs/get_pagestream/
 ---
 ## PageSavingArgs::get_PageStream method
@@ -82,4 +83,4 @@ public:
 
 * Class [PageSavingArgs](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

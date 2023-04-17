@@ -1,9 +1,10 @@
 ---
-title: Add
+title: Aspose::Words::TabStopCollection::Add method
+linktitle: Add
 second_title: Aspose.Words for C++ API Reference
-description: Adds or replaces a tab stop in the collection.
+description: 'Aspose::Words::TabStopCollection::Add method. Adds or replaces a tab stop in the collection in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words/tabstopcollection/add/
 ---
 ## TabStopCollection::Add(const System::SharedPtr\<Aspose::Words::TabStop\>\&) method
@@ -59,7 +60,7 @@ doc->Save(ArtifactsDir + u"TabStopCollection.AddTabStops.docx");
 * Class [TabStop](../../tabstop/)
 * Class [TabStopCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## TabStopCollection::Add(double, Aspose::Words::TabAlignment, Aspose::Words::TabLeader) method
 
 
@@ -116,4 +117,4 @@ doc->Save(ArtifactsDir + u"TabStopCollection.AddTabStops.docx");
 * Enum [TabLeader](../../tableader/)
 * Class [TabStopCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

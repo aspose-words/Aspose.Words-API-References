@@ -1,9 +1,10 @@
 ---
-title: MoveNext
+title: Aspose::Words::MailMerging::IMailMergeDataSource::MoveNext method
+linktitle: MoveNext
 second_title: Aspose.Words for C++ API Reference
-description: Advances to the next record in the data source.
+description: 'Aspose::Words::MailMerging::IMailMergeDataSource::MoveNext method. Advances to the next record in the data source in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.mailmerging/imailmergedatasource/movenext/
 ---
 ## IMailMergeDataSource::MoveNext method
@@ -146,4 +147,4 @@ private:
 
 * Interface [IMailMergeDataSource](../)
 * Namespace [Aspose::Words::MailMerging](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

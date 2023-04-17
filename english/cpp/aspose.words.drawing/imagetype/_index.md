@@ -1,9 +1,10 @@
 ---
-title: ImageType
+title: Aspose::Words::Drawing::ImageType enum
+linktitle: ImageType
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the type (format) of an image in a Microsoft Word document.
+description: 'Aspose::Words::Drawing::ImageType enum. Specifies the type (format) of an image in a Microsoft Word document in C++.'
 type: docs
-weight: 352
+weight: 28000
 url: /cpp/aspose.words.drawing/imagetype/
 ---
 ## ImageType enum
@@ -53,4 +54,4 @@ ArrayPtr<uint8_t> imageBytes = System::IO::File::ReadAllBytes(ImageDir + u"Logo.
 ## See Also
 
 * Namespace [Aspose::Words::Drawing](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

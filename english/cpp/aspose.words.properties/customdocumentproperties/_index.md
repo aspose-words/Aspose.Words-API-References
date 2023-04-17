@@ -1,9 +1,10 @@
 ---
-title: CustomDocumentProperties
+title: Aspose::Words::Properties::CustomDocumentProperties class
+linktitle: CustomDocumentProperties
 second_title: Aspose.Words for C++ API Reference
-description: A collection of custom document properties. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Properties::CustomDocumentProperties class. A collection of custom document properties. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.properties/customdocumentproperties/
 ---
 ## CustomDocumentProperties class
@@ -73,4 +74,4 @@ for (const auto& customDocumentProperty : System::IterateOver(doc->get_CustomDoc
 
 * Class [DocumentPropertyCollection](../documentpropertycollection/)
 * Namespace [Aspose::Words::Properties](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

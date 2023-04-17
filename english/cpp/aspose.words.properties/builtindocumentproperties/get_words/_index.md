@@ -1,9 +1,10 @@
 ---
-title: get_Words
+title: Aspose::Words::Properties::BuiltInDocumentProperties::get_Words method
+linktitle: get_Words
 second_title: Aspose.Words for C++ API Reference
-description: Represents an estimate of the number of words in the document.
+description: 'Aspose::Words::Properties::BuiltInDocumentProperties::get_Words method. Represents an estimate of the number of words in the document in C++.'
 type: docs
-weight: 417
+weight: 33000
 url: /cpp/aspose.words.properties/builtindocumentproperties/get_words/
 ---
 ## BuiltInDocumentProperties::get_Words method
@@ -160,4 +161,4 @@ private:
 
 * Class [BuiltInDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

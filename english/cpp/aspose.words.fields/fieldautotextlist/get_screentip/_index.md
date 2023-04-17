@@ -1,9 +1,10 @@
 ---
-title: get_ScreenTip
+title: Aspose::Words::Fields::FieldAutoTextList::get_ScreenTip method
+linktitle: get_ScreenTip
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the text of the ScreenTip to show.
+description: 'Aspose::Words::Fields::FieldAutoTextList::get_ScreenTip method. Gets or sets the text of the ScreenTip to show in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.fields/fieldautotextlist/get_screentip/
 ---
 ## FieldAutoTextList::get_ScreenTip method
@@ -70,4 +71,4 @@ static void AppendAutoTextEntry(SharedPtr<GlossaryDocument> glossaryDoc, String 
 
 * Class [FieldAutoTextList](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

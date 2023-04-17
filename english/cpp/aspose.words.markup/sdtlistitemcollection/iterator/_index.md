@@ -1,9 +1,10 @@
 ---
-title: iterator
+title: Aspose::Words::Markup::SdtListItemCollection::iterator typedef
+linktitle: iterator
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Aspose::Words::Markup::SdtListItemCollection::iterator typedef of Aspose::Words::Markup::SdtListItemCollection class in C++.'
 type: docs
-weight: 261
+weight: 21000
 url: /cpp/aspose.words.markup/sdtlistitemcollection/iterator/
 ---
 ## iterator typedef
@@ -19,4 +20,4 @@ using Aspose::Words::Markup::SdtListItemCollection::iterator =  typename iterato
 
 * Class [SdtListItemCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

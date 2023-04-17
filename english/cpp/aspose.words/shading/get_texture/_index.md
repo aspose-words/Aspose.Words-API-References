@@ -1,9 +1,10 @@
 ---
-title: get_Texture
+title: Aspose::Words::Shading::get_Texture method
+linktitle: get_Texture
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the shading texture.
+description: 'Aspose::Words::Shading::get_Texture method. Gets or sets the shading texture in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words/shading/get_texture/
 ---
 ## Shading::get_Texture method
@@ -46,4 +47,4 @@ doc->Save(ArtifactsDir + u"DocumentBuilder.ApplyBordersAndShading.docx");
 * Enum [TextureIndex](../../textureindex/)
 * Class [Shading](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

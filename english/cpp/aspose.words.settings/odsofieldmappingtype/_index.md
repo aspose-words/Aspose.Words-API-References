@@ -1,9 +1,10 @@
 ---
-title: OdsoFieldMappingType
+title: Aspose::Words::Settings::OdsoFieldMappingType enum
+linktitle: OdsoFieldMappingType
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the possible types used to indicate if a given mail merge field has been mapped to a column in the given external data source.
+description: 'Aspose::Words::Settings::OdsoFieldMappingType enum. Specifies the possible types used to indicate if a given mail merge field has been mapped to a column in the given external data source in C++.'
 type: docs
-weight: 248
+weight: 20000
 url: /cpp/aspose.words.settings/odsofieldmappingtype/
 ---
 ## OdsoFieldMappingType enum
@@ -27,4 +28,4 @@ enum class OdsoFieldMappingType
 ## See Also
 
 * Namespace [Aspose::Words::Settings](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

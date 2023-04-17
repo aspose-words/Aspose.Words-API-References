@@ -1,9 +1,10 @@
 ---
-title: ImportFormatMode
+title: Aspose::Words::ImportFormatMode enum
+linktitle: ImportFormatMode
 second_title: Aspose.Words for C++ API Reference
-description: Specifies how formatting is merged when importing content from another document.
+description: 'Aspose::Words::ImportFormatMode enum. Specifies how formatting is merged when importing content from another document in C++.'
 type: docs
-weight: 1197
+weight: 93000
 url: /cpp/aspose.words/importformatmode/
 ---
 ## ImportFormatMode enum
@@ -46,25 +47,7 @@ The drawback of using [KeepSourceFormatting](./) is that if you perform several 
 
 Using [KeepDifferentStyles](./) option allows to reuse destination styles if the formatting they provide is identical to the styles in the source document. If the style in destination document is different from the source then it is imported.
 
-## Examples
-
-
-
-Shows how to insert a document into another document. 
-```cpp
-auto doc = MakeObject<Document>(MyDir + u"Document.docx");
-
-auto builder = MakeObject<DocumentBuilder>(doc);
-builder->MoveToDocumentEnd();
-builder->InsertBreak(BreakType::PageBreak);
-
-auto docToInsert = MakeObject<Document>(MyDir + u"Formatted elements.docx");
-
-builder->InsertDocument(docToInsert, ImportFormatMode::KeepSourceFormatting);
-builder->get_Document()->Save(ArtifactsDir + u"DocumentBuilder.InsertDocument.docx");
-```
-
 ## See Also
 
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

@@ -1,9 +1,10 @@
 ---
-title: JoinRunsWithSameFormatting
+title: Aspose::Words::Paragraph::JoinRunsWithSameFormatting method
+linktitle: JoinRunsWithSameFormatting
 second_title: Aspose.Words for C++ API Reference
-description: Joins runs with the same formatting in the paragraph.
+description: 'Aspose::Words::Paragraph::JoinRunsWithSameFormatting method. Joins runs with the same formatting in the paragraph in C++.'
 type: docs
-weight: 391
+weight: 31000
 url: /cpp/aspose.words/paragraph/joinrunswithsameformatting/
 ---
 ## Paragraph::JoinRunsWithSameFormatting method
@@ -63,4 +64,4 @@ ASSERT_EQ(u"Run 4. ", para->get_Runs()->idx_get(1)->get_Text());
 
 * Class [Paragraph](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

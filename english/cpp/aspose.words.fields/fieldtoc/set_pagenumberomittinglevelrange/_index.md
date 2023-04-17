@@ -1,9 +1,10 @@
 ---
-title: set_PageNumberOmittingLevelRange
+title: Aspose::Words::Fields::FieldToc::set_PageNumberOmittingLevelRange method
+linktitle: set_PageNumberOmittingLevelRange
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fields::FieldToc::get_PageNumberOmittingLevelRange.'
+description: 'Aspose::Words::Fields::FieldToc::set_PageNumberOmittingLevelRange method. Setter for Aspose::Words::Fields::FieldToc::get_PageNumberOmittingLevelRange in C++.'
 type: docs
-weight: 404
+weight: 32000
 url: /cpp/aspose.words.fields/fieldtoc/set_pagenumberomittinglevelrange/
 ---
 ## FieldToc::set_PageNumberOmittingLevelRange method
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldToc::set_PageNumberOmittingLevelRange(const Sys
 
 * Class [FieldToc](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

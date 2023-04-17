@@ -1,9 +1,10 @@
 ---
-title: set_SequenceIdentifier
+title: Aspose::Words::Fields::FieldSeq::set_SequenceIdentifier method
+linktitle: set_SequenceIdentifier
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fields::FieldSeq::get_SequenceIdentifier.'
+description: 'Aspose::Words::Fields::FieldSeq::set_SequenceIdentifier method. Setter for Aspose::Words::Fields::FieldSeq::get_SequenceIdentifier in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words.fields/fieldseq/set_sequenceidentifier/
 ---
 ## FieldSeq::set_SequenceIdentifier method
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldSeq::set_SequenceIdentifier(const System::Strin
 
 * Class [FieldSeq](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

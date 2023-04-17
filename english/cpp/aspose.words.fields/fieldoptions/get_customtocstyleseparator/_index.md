@@ -1,9 +1,10 @@
 ---
-title: get_CustomTocStyleSeparator
+title: Aspose::Words::Fields::FieldOptions::get_CustomTocStyleSeparator method
+linktitle: get_CustomTocStyleSeparator
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets custom style separator for the \t switch in FieldToc field.
+description: 'Aspose::Words::Fields::FieldOptions::get_CustomTocStyleSeparator method. Gets or sets custom style separator for the \t switch in FieldToc field in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.fields/fieldoptions/get_customtocstyleseparator/
 ---
 ## FieldOptions::get_CustomTocStyleSeparator method
@@ -100,4 +101,4 @@ void InsertNewPageWithHeading(SharedPtr<DocumentBuilder> builder, String caption
 
 * Class [FieldOptions](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

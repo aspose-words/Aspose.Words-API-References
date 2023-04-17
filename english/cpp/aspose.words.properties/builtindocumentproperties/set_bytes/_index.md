@@ -1,9 +1,10 @@
 ---
-title: set_Bytes
+title: Aspose::Words::Properties::BuiltInDocumentProperties::set_Bytes method
+linktitle: set_Bytes
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Properties::BuiltInDocumentProperties::get_Bytes.'
+description: 'Aspose::Words::Properties::BuiltInDocumentProperties::set_Bytes method. Setter for Aspose::Words::Properties::BuiltInDocumentProperties::get_Bytes in C++.'
 type: docs
-weight: 482
+weight: 38000
 url: /cpp/aspose.words.properties/builtindocumentproperties/set_bytes/
 ---
 ## BuiltInDocumentProperties::set_Bytes method
@@ -19,4 +20,4 @@ void Aspose::Words::Properties::BuiltInDocumentProperties::set_Bytes(int32_t val
 
 * Class [BuiltInDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

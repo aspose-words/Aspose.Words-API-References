@@ -1,9 +1,10 @@
 ---
-title: get_ShowPageBorder
+title: Aspose::Words::Saving::HtmlFixedSaveOptions::get_ShowPageBorder method
+linktitle: get_ShowPageBorder
 second_title: Aspose.Words for C++ API Reference
-description: Specifies whether border around pages should be shown. Default is true.
+description: 'Aspose::Words::Saving::HtmlFixedSaveOptions::get_ShowPageBorder method. Specifies whether border around pages should be shown. Default is true in C++.'
 type: docs
-weight: 235
+weight: 19000
 url: /cpp/aspose.words.saving/htmlfixedsaveoptions/get_showpageborder/
 ---
 ## HtmlFixedSaveOptions::get_ShowPageBorder method
@@ -98,4 +99,4 @@ private:
 
 * Class [HtmlFixedSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

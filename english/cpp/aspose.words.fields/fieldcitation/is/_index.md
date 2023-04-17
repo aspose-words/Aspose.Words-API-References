@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Fields::FieldCitation::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Fields::FieldCitation class in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words.fields/fieldcitation/is/
 ---
 ## FieldCitation::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Fields::FieldCitation::Is(const System::TypeInfo &ta
 
 * Class [FieldCitation](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

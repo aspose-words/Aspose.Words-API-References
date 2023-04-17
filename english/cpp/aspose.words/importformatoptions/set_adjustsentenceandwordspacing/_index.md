@@ -1,9 +1,10 @@
 ---
-title: set_AdjustSentenceAndWordSpacing
+title: Aspose::Words::ImportFormatOptions::set_AdjustSentenceAndWordSpacing method
+linktitle: set_AdjustSentenceAndWordSpacing
 second_title: Aspose.Words for C++ API Reference
-description: Sets a boolean value that specifies whether to adjust sentence and word spacing automatically. The default value is false.
+description: 'Aspose::Words::ImportFormatOptions::set_AdjustSentenceAndWordSpacing method. Sets a boolean value that specifies whether to adjust sentence and word spacing automatically. The default value is false in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words/importformatoptions/set_adjustsentenceandwordspacing/
 ---
 ## ImportFormatOptions::set_AdjustSentenceAndWordSpacing method
@@ -19,4 +20,4 @@ void Aspose::Words::ImportFormatOptions::set_AdjustSentenceAndWordSpacing(bool v
 
 * Class [ImportFormatOptions](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

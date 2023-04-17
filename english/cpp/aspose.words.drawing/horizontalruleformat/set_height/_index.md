@@ -1,9 +1,10 @@
 ---
-title: set_Height
+title: Aspose::Words::Drawing::HorizontalRuleFormat::set_Height method
+linktitle: set_Height
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Drawing::HorizontalRuleFormat::get_Height.'
+description: 'Aspose::Words::Drawing::HorizontalRuleFormat::set_Height method. Setter for Aspose::Words::Drawing::HorizontalRuleFormat::get_Height in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words.drawing/horizontalruleformat/set_height/
 ---
 ## HorizontalRuleFormat::set_Height method
@@ -19,4 +20,4 @@ void Aspose::Words::Drawing::HorizontalRuleFormat::set_Height(double value)
 
 * Class [HorizontalRuleFormat](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

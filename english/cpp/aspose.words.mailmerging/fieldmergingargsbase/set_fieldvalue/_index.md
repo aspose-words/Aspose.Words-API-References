@@ -1,9 +1,10 @@
 ---
-title: set_FieldValue
+title: Aspose::Words::MailMerging::FieldMergingArgsBase::set_FieldValue method
+linktitle: set_FieldValue
 second_title: Aspose.Words for C++ API Reference
-description: Sets the value of the field from the data source.
+description: 'Aspose::Words::MailMerging::FieldMergingArgsBase::set_FieldValue method. Sets the value of the field from the data source in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words.mailmerging/fieldmergingargsbase/set_fieldvalue/
 ---
 ## FieldMergingArgsBase::set_FieldValue method
@@ -19,4 +20,4 @@ void Aspose::Words::MailMerging::FieldMergingArgsBase::set_FieldValue(const Syst
 
 * Class [FieldMergingArgsBase](../)
 * Namespace [Aspose::Words::MailMerging](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_TextAfter
+title: Aspose::Words::Fields::FieldMergeField::get_TextAfter method
+linktitle: get_TextAfter
 second_title: Aspose.Words for C++ API Reference
-description: Gets the text to be inserted after the field if the field is not blank.
+description: 'Aspose::Words::Fields::FieldMergeField::get_TextAfter method. Gets the text to be inserted after the field if the field is not blank in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.fields/fieldmergefield/get_textafter/
 ---
 ## FieldMergeField::get_TextAfter method
@@ -19,4 +20,4 @@ System::String Aspose::Words::Fields::FieldMergeField::get_TextAfter()
 
 * Class [FieldMergeField](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

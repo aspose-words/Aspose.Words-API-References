@@ -1,9 +1,10 @@
 ---
-title: ImageSaveOptions
+title: Aspose::Words::Saving::ImageSaveOptions::ImageSaveOptions constructor
+linktitle: ImageSaveOptions
 second_title: Aspose.Words for C++ API Reference
-description: Initializes a new instance of this class that can be used to save rendered images in the Tiff, Png, Bmp, Emf, Jpeg or Svg format. Png, Bmp, Jpeg or Svg format.
+description: 'Aspose::Words::Saving::ImageSaveOptions::ImageSaveOptions constructor. Initializes a new instance of this class that can be used to save rendered images in the Tiff, Png, Bmp, Emf, Jpeg or Svg format. Png, Bmp, Jpeg or Svg format in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.saving/imagesaveoptions/imagesaveoptions/
 ---
 ## ImageSaveOptions::ImageSaveOptions constructor
@@ -56,4 +57,4 @@ ASSERT_LT(60000, MakeObject<System::IO::FileInfo>(ArtifactsDir + u"ImageSaveOpti
 * Enum [SaveFormat](../../../aspose.words/saveformat/)
 * Class [ImageSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

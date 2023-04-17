@@ -1,9 +1,10 @@
 ---
-title: BlockImportMode
+title: Aspose::Words::Loading::BlockImportMode enum
+linktitle: BlockImportMode
 second_title: Aspose.Words for C++ API Reference
-description: Specifies how properties of block-level elements are imported from HTML-based documents.
+description: 'Aspose::Words::Loading::BlockImportMode enum. Specifies how properties of block-level elements are imported from HTML-based documents in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words.loading/blockimportmode/
 ---
 ## BlockImportMode enum
@@ -25,4 +26,4 @@ enum class BlockImportMode
 ## See Also
 
 * Namespace [Aspose::Words::Loading](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

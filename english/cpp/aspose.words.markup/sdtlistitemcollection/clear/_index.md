@@ -1,9 +1,10 @@
 ---
-title: Clear
+title: Aspose::Words::Markup::SdtListItemCollection::Clear method
+linktitle: Clear
 second_title: Aspose.Words for C++ API Reference
-description: Clears all items from this collection.
+description: 'Aspose::Words::Markup::SdtListItemCollection::Clear method. Clears all items from this collection in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.markup/sdtlistitemcollection/clear/
 ---
 ## SdtListItemCollection::Clear method
@@ -80,4 +81,4 @@ ASSERT_EQ(0, listItems->get_Count());
 
 * Class [SdtListItemCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

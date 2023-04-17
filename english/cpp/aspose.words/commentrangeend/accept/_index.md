@@ -1,9 +1,10 @@
 ---
-title: Accept
+title: Aspose::Words::CommentRangeEnd::Accept method
+linktitle: Accept
 second_title: Aspose.Words for C++ API Reference
-description: Accepts a visitor.
+description: 'Aspose::Words::CommentRangeEnd::Accept method. Accepts a visitor in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words/commentrangeend/accept/
 ---
 ## CommentRangeEnd::Accept method
@@ -176,4 +177,4 @@ private:
 * Class [DocumentVisitor](../../documentvisitor/)
 * Class [CommentRangeEnd](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

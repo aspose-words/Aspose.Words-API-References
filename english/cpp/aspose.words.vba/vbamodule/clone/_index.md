@@ -1,9 +1,10 @@
 ---
-title: Clone
+title: Aspose::Words::Vba::VbaModule::Clone method
+linktitle: Clone
 second_title: Aspose.Words for C++ API Reference
-description: Performs a copy of the VbaModule.
+description: 'Aspose::Words::Vba::VbaModule::Clone method. Performs a copy of the VbaModule in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.vba/vbamodule/clone/
 ---
 ## VbaModule::Clone method
@@ -47,4 +48,4 @@ destDoc->Save(ArtifactsDir + u"VbaProject.CloneVbaProject.docm");
 * Class [VbaModule](../)
 * Class [VbaModule](../)
 * Namespace [Aspose::Words::Vba](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

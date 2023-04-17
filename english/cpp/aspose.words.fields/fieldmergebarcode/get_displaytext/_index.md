@@ -1,9 +1,10 @@
 ---
-title: get_DisplayText
+title: Aspose::Words::Fields::FieldMergeBarcode::get_DisplayText method
+linktitle: get_DisplayText
 second_title: Aspose.Words for C++ API Reference
-description: Gets whether to display barcode data (text) along with image.
+description: 'Aspose::Words::Fields::FieldMergeBarcode::get_DisplayText method. Gets whether to display barcode data (text) along with image in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.fields/fieldmergebarcode/get_displaytext/
 ---
 ## FieldMergeBarcode::get_DisplayText method
@@ -19,4 +20,4 @@ bool Aspose::Words::Fields::FieldMergeBarcode::get_DisplayText()
 
 * Class [FieldMergeBarcode](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

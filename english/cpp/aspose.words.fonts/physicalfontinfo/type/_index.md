@@ -1,9 +1,10 @@
 ---
-title: Type
+title: Aspose::Words::Fonts::PhysicalFontInfo::Type method
+linktitle: Type
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Type method of Aspose::Words::Fonts::PhysicalFontInfo class in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words.fonts/physicalfontinfo/type/
 ---
 ## PhysicalFontInfo::Type method
@@ -19,4 +20,4 @@ static const System::TypeInfo & Aspose::Words::Fonts::PhysicalFontInfo::Type()
 
 * Class [PhysicalFontInfo](../)
 * Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,15 +1,16 @@
 ---
-title: set_FileName
+title: Aspose::Words::Fields::FieldRD::set_FileName method
+linktitle: set_FileName
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fields::FieldRD::get_FileName.'
+description: 'Aspose::Words::Fields::FieldRD::set_FileName method. Sets the name of the file to include when generating a table of contents, table of authorities, or index in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.fields/fieldrd/set_filename/
 ---
 ## FieldRD::set_FileName method
 
 
-Setter for [Aspose::Words::Fields::FieldRD::get_FileName](../get_filename/).
+Sets the name of the file to include when generating a table of contents, table of authorities, or index.
 
 ```cpp
 void Aspose::Words::Fields::FieldRD::set_FileName(const System::String &value)
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldRD::set_FileName(const System::String &value)
 
 * Class [FieldRD](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

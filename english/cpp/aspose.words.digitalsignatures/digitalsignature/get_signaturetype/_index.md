@@ -1,9 +1,10 @@
 ---
-title: get_SignatureType
+title: Aspose::Words::DigitalSignatures::DigitalSignature::get_SignatureType method
+linktitle: get_SignatureType
 second_title: Aspose.Words for C++ API Reference
-description: Gets the type of the digital signature.
+description: 'Aspose::Words::DigitalSignatures::DigitalSignature::get_SignatureType method. Gets the type of the digital signature in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.digitalsignatures/digitalsignature/get_signaturetype/
 ---
 ## DigitalSignature::get_SignatureType method
@@ -41,4 +42,4 @@ for (const auto& signature : doc->get_DigitalSignatures())
 * Enum [DigitalSignatureType](../../digitalsignaturetype/)
 * Class [DigitalSignature](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

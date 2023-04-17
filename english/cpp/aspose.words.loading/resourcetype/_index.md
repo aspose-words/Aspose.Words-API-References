@@ -1,9 +1,10 @@
 ---
-title: ResourceType
+title: Aspose::Words::Loading::ResourceType enum
+linktitle: ResourceType
 second_title: Aspose.Words for C++ API Reference
-description: Type of loaded resource.
+description: 'Aspose::Words::Loading::ResourceType enum. Type of loaded resource in C++.'
 type: docs
-weight: 209
+weight: 17000
 url: /cpp/aspose.words.loading/resourcetype/
 ---
 ## ResourceType enum
@@ -85,4 +86,4 @@ public:
 ## See Also
 
 * Namespace [Aspose::Words::Loading](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

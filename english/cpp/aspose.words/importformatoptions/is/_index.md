@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::ImportFormatOptions::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::ImportFormatOptions class in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words/importformatoptions/is/
 ---
 ## ImportFormatOptions::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::ImportFormatOptions::Is(const System::TypeInfo &targ
 
 * Class [ImportFormatOptions](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

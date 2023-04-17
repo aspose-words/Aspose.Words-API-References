@@ -1,9 +1,10 @@
 ---
-title: set_ExportEmbeddedFonts
+title: Aspose::Words::Saving::HtmlFixedSaveOptions::set_ExportEmbeddedFonts method
+linktitle: set_ExportEmbeddedFonts
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::HtmlFixedSaveOptions::get_ExportEmbeddedFonts.'
+description: 'Aspose::Words::Saving::HtmlFixedSaveOptions::set_ExportEmbeddedFonts method. Setter for Aspose::Words::Saving::HtmlFixedSaveOptions::get_ExportEmbeddedFonts in C++.'
 type: docs
-weight: 326
+weight: 26000
 url: /cpp/aspose.words.saving/htmlfixedsaveoptions/set_exportembeddedfonts/
 ---
 ## HtmlFixedSaveOptions::set_ExportEmbeddedFonts method
@@ -19,4 +20,4 @@ void Aspose::Words::Saving::HtmlFixedSaveOptions::set_ExportEmbeddedFonts(bool v
 
 * Class [HtmlFixedSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

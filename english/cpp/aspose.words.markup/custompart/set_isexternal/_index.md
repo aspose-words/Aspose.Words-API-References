@@ -1,9 +1,10 @@
 ---
-title: set_IsExternal
+title: Aspose::Words::Markup::CustomPart::set_IsExternal method
+linktitle: set_IsExternal
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Markup::CustomPart::get_IsExternal.'
+description: 'Aspose::Words::Markup::CustomPart::set_IsExternal method. Setter for Aspose::Words::Markup::CustomPart::get_IsExternal in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words.markup/custompart/set_isexternal/
 ---
 ## CustomPart::set_IsExternal method
@@ -19,4 +20,4 @@ void Aspose::Words::Markup::CustomPart::set_IsExternal(bool value)
 
 * Class [CustomPart](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

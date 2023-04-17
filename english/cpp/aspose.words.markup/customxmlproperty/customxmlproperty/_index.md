@@ -1,9 +1,10 @@
 ---
-title: CustomXmlProperty
+title: Aspose::Words::Markup::CustomXmlProperty::CustomXmlProperty constructor
+linktitle: CustomXmlProperty
 second_title: Aspose.Words for C++ API Reference
-description: Initializes a new instance of this class.
+description: 'Aspose::Words::Markup::CustomXmlProperty::CustomXmlProperty constructor. Initializes a new instance of this class in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.markup/customxmlproperty/customxmlproperty/
 ---
 ## CustomXmlProperty::CustomXmlProperty constructor
@@ -119,4 +120,4 @@ public:
 
 * Class [CustomXmlProperty](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

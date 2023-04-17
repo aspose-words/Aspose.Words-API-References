@@ -1,9 +1,10 @@
 ---
-title: get_NumberFormat
+title: Aspose::Words::Lists::ListLevel::get_NumberFormat method
+linktitle: get_NumberFormat
 second_title: Aspose.Words for C++ API Reference
-description: Returns or sets the number format for the list level.
+description: 'Aspose::Words::Lists::ListLevel::get_NumberFormat method. Returns or sets the number format for the list level in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words.lists/listlevel/get_numberformat/
 ---
 ## ListLevel::get_NumberFormat method
@@ -146,4 +147,4 @@ doc->Save(ArtifactsDir + u"Lists.CreateListRestartAfterHigher.docx");
 
 * Class [ListLevel](../)
 * Namespace [Aspose::Words::Lists](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

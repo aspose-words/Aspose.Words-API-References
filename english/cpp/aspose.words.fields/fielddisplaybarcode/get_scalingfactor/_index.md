@@ -1,9 +1,10 @@
 ---
-title: get_ScalingFactor
+title: Aspose::Words::Fields::FieldDisplayBarcode::get_ScalingFactor method
+linktitle: get_ScalingFactor
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets a scaling factor for the symbol. The value is in whole percentage points and the valid values are [10, 1000].
+description: 'Aspose::Words::Fields::FieldDisplayBarcode::get_ScalingFactor method. Gets or sets a scaling factor for the symbol. The value is in whole percentage points and the valid values are [10, 1000] in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words.fields/fielddisplaybarcode/get_scalingfactor/
 ---
 ## FieldDisplayBarcode::get_ScalingFactor method
@@ -76,4 +77,4 @@ doc->Save(ArtifactsDir + u"Field.DISPLAYBARCODE.docx");
 
 * Class [FieldDisplayBarcode](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

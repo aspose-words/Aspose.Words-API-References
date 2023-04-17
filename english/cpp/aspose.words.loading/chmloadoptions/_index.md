@@ -1,9 +1,10 @@
 ---
-title: ChmLoadOptions
+title: Aspose::Words::Loading::ChmLoadOptions class
+linktitle: ChmLoadOptions
 second_title: Aspose.Words for C++ API Reference
-description: Allows to specify additional options when loading CHM document into a Document object. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Loading::ChmLoadOptions class. Allows to specify additional options when loading CHM document into a Document object. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words.loading/chmloadoptions/
 ---
 ## ChmLoadOptions class
@@ -56,11 +57,11 @@ class ChmLoadOptions : public Aspose::Words::Loading::LoadOptions
 | [set_ProgressCallback](../loadoptions/set_progresscallback/)(const System::SharedPtr\<Aspose::Words::Loading::IDocumentLoadingCallback\>\&) | Called during loading a document and accepts data about loading progress. |
 | [set_ResourceLoadingCallback](../loadoptions/set_resourceloadingcallback/)(const System::SharedPtr\<Aspose::Words::Loading::IResourceLoadingCallback\>\&) | Setter for [Aspose::Words::Loading::LoadOptions::get_ResourceLoadingCallback](../loadoptions/get_resourceloadingcallback/). |
 | [set_TempFolder](../loadoptions/set_tempfolder/)(const System::String\&) | Setter for [Aspose::Words::Loading::LoadOptions::get_TempFolder](../loadoptions/get_tempfolder/). |
-| [set_UpdateDirtyFields](../loadoptions/set_updatedirtyfields/)(bool) | Setter for [Aspose::Words::Loading::LoadOptions::get_UpdateDirtyFields](../loadoptions/get_updatedirtyfields/). |
+| [set_UpdateDirtyFields](../loadoptions/set_updatedirtyfields/)(bool) | Specifies whether to update the fields with the **dirty** attribute. |
 | [set_WarningCallback](../loadoptions/set_warningcallback/)(const System::SharedPtr\<Aspose::Words::IWarningCallback\>\&) | Setter for [Aspose::Words::Loading::LoadOptions::get_WarningCallback](../loadoptions/get_warningcallback/). |
 | static [Type](./type/)() |  |
 ## See Also
 
 * Class [LoadOptions](../loadoptions/)
 * Namespace [Aspose::Words::Loading](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

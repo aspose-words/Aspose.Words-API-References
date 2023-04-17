@@ -1,9 +1,10 @@
 ---
-title: get_CellSpacing
+title: Aspose::Words::Tables::Table::get_CellSpacing method
+linktitle: get_CellSpacing
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the amount of space (in points) between the cells.
+description: 'Aspose::Words::Tables::Table::get_CellSpacing method. Gets or sets the amount of space (in points) between the cells in C++.'
 type: docs
-weight: 209
+weight: 17000
 url: /cpp/aspose.words.tables/table/get_cellspacing/
 ---
 ## Table::get_CellSpacing method
@@ -18,40 +19,6 @@ double Aspose::Words::Tables::Table::get_CellSpacing()
 
 ## Examples
 
-
-
-Shows how to enable spacing between individual cells in a table. 
-```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
-
-SharedPtr<Table> table = builder->StartTable();
-builder->InsertCell();
-builder->Write(u"Animal");
-builder->InsertCell();
-builder->Write(u"Class");
-builder->EndRow();
-builder->InsertCell();
-builder->Write(u"Dog");
-builder->InsertCell();
-builder->Write(u"Mammal");
-builder->EndTable();
-
-table->set_CellSpacing(3);
-
-// Set the "AllowCellSpacing" property to "true" to enable spacing between cells
-// with a magnitude equal to the value of the "CellSpacing" property, in points.
-// Set the "AllowCellSpacing" property to "false" to disable cell spacing
-// and ignore the value of the "CellSpacing" property.
-table->set_AllowCellSpacing(allowCellSpacing);
-
-doc->Save(ArtifactsDir + u"Table.AllowCellSpacing.html");
-
-// Adjusting the "CellSpacing" property will automatically enable cell spacing.
-table->set_CellSpacing(5);
-
-ASSERT_TRUE(table->get_AllowCellSpacing());
-```
 
 
 Shows how to create custom style settings for the table. 
@@ -96,4 +63,4 @@ doc->Save(ArtifactsDir + u"Table.TableStyleCreation.docx");
 
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Fonts::FontInfoCollection::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Fonts::FontInfoCollection class in C++.'
 type: docs
-weight: 170
+weight: 14000
 url: /cpp/aspose.words.fonts/fontinfocollection/is/
 ---
 ## FontInfoCollection::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Fonts::FontInfoCollection::Is(const System::TypeInfo
 
 * Class [FontInfoCollection](../)
 * Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

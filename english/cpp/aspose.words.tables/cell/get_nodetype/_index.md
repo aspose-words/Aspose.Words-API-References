@@ -1,9 +1,10 @@
 ---
-title: get_NodeType
+title: Aspose::Words::Tables::Cell::get_NodeType method
+linktitle: get_NodeType
 second_title: Aspose.Words for C++ API Reference
-description: Returns Cell.
+description: 'Aspose::Words::Tables::Cell::get_NodeType method. Returns Cell in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words.tables/cell/get_nodetype/
 ---
 ## Cell::get_NodeType method
@@ -62,4 +63,4 @@ void TraverseAllNodes(SharedPtr<CompositeNode> parentNode, int depth)
 * Enum [NodeType](../../../aspose.words/nodetype/)
 * Class [Cell](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

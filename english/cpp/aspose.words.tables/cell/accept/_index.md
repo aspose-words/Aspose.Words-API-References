@@ -1,9 +1,10 @@
 ---
-title: Accept
+title: Aspose::Words::Tables::Cell::Accept method
+linktitle: Accept
 second_title: Aspose.Words for C++ API Reference
-description: Accepts a visitor.
+description: 'Aspose::Words::Tables::Cell::Accept method. Accepts a visitor in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.tables/cell/accept/
 ---
 ## Cell::Accept method
@@ -176,4 +177,4 @@ private:
 * Class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * Class [Cell](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

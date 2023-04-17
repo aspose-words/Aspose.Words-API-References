@@ -1,9 +1,10 @@
 ---
-title: get_DoNotVertAlignCellWithSp
+title: Aspose::Words::Settings::CompatibilityOptions::get_DoNotVertAlignCellWithSp method
+linktitle: get_DoNotVertAlignCellWithSp
 second_title: Aspose.Words for C++ API Reference
-description: Don't Vertically Align Cells Containing Floating Objects.
+description: 'Aspose::Words::Settings::CompatibilityOptions::get_DoNotVertAlignCellWithSp method. Don''t Vertically Align Cells Containing Floating Objects in C++.'
 type: docs
-weight: 300
+weight: 24000
 url: /cpp/aspose.words.settings/compatibilityoptions/get_donotvertaligncellwithsp/
 ---
 ## CompatibilityOptions::get_DoNotVertAlignCellWithSp method
@@ -19,4 +20,4 @@ bool Aspose::Words::Settings::CompatibilityOptions::get_DoNotVertAlignCellWithSp
 
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_Right
+title: Aspose::Words::Drawing::ShapeBase::get_Right method
+linktitle: get_Right
 second_title: Aspose.Words for C++ API Reference
-description: Gets the position of the right edge of the containing block of the shape.
+description: 'Aspose::Words::Drawing::ShapeBase::get_Right method. Gets the position of the right edge of the containing block of the shape in C++.'
 type: docs
-weight: 560
+weight: 44000
 url: /cpp/aspose.words.drawing/shapebase/get_right/
 ---
 ## ShapeBase::get_Right method
@@ -61,4 +62,4 @@ doc->Save(ArtifactsDir + u"Image.CreateFloatingPositionSize.docx");
 
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_HasSeparator
+title: Aspose::Words::Fields::FieldEnd::get_HasSeparator method
+linktitle: get_HasSeparator
 second_title: Aspose.Words for C++ API Reference
-description: Returns true if this field has a separator.
+description: 'Aspose::Words::Fields::FieldEnd::get_HasSeparator method. Returns true if this field has a separator in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.fields/fieldend/get_hasseparator/
 ---
 ## FieldEnd::get_HasSeparator method
@@ -111,4 +112,4 @@ private:
 
 * Class [FieldEnd](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: set_FlipOrientation
+title: Aspose::Words::Drawing::ShapeBase::set_FlipOrientation method
+linktitle: set_FlipOrientation
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Drawing::ShapeBase::get_FlipOrientation.'
+description: 'Aspose::Words::Drawing::ShapeBase::set_FlipOrientation method. Setter for Aspose::Words::Drawing::ShapeBase::get_FlipOrientation in C++.'
 type: docs
-weight: 950
+weight: 74000
 url: /cpp/aspose.words.drawing/shapebase/set_fliporientation/
 ---
 ## ShapeBase::set_FlipOrientation method
@@ -20,4 +21,4 @@ void Aspose::Words::Drawing::ShapeBase::set_FlipOrientation(Aspose::Words::Drawi
 * Enum [FlipOrientation](../../fliporientation/)
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

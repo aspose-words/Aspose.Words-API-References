@@ -1,9 +1,10 @@
 ---
-title: get_ForcePageBreaks
+title: Aspose::Words::Saving::TxtSaveOptionsBase::get_ForcePageBreaks method
+linktitle: get_ForcePageBreaks
 second_title: Aspose.Words for C++ API Reference
-description: Allows to specify whether the page breaks should be preserved during export. The default value is false.
+description: 'Aspose::Words::Saving::TxtSaveOptionsBase::get_ForcePageBreaks method. Allows to specify whether the page breaks should be preserved during export. The default value is false in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.saving/txtsaveoptionsbase/get_forcepagebreaks/
 ---
 ## TxtSaveOptionsBase::get_ForcePageBreaks method
@@ -54,4 +55,4 @@ ASSERT_EQ(forcePageBreaks ? 3 : 1, doc->get_PageCount());
 
 * Class [TxtSaveOptionsBase](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

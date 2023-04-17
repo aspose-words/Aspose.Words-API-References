@@ -1,9 +1,10 @@
 ---
-title: set_Hidden
+title: Aspose::Words::Font::set_Hidden method
+linktitle: set_Hidden
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Font::get_Hidden.'
+description: 'Aspose::Words::Font::set_Hidden method. Setter for Aspose::Words::Font::get_Hidden in C++.'
 type: docs
-weight: 898
+weight: 70000
 url: /cpp/aspose.words/font/set_hidden/
 ---
 ## Font::set_Hidden method
@@ -19,4 +20,4 @@ void Aspose::Words::Font::set_Hidden(bool value)
 
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

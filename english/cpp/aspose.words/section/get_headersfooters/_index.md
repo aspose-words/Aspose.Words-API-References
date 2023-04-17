@@ -1,9 +1,10 @@
 ---
-title: get_HeadersFooters
+title: Aspose::Words::Section::get_HeadersFooters method
+linktitle: get_HeadersFooters
 second_title: Aspose.Words for C++ API Reference
-description: Provides access to the headers and footers nodes of the section.
+description: 'Aspose::Words::Section::get_HeadersFooters method. Provides access to the headers and footers nodes of the section in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words/section/get_headersfooters/
 ---
 ## Section::get_HeadersFooters method
@@ -79,4 +80,4 @@ doc->Save(ArtifactsDir + u"HeaderFooter.ReplaceText.docx");
 * Class [HeaderFooterCollection](../../headerfootercollection/)
 * Class [Section](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

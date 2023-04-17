@@ -1,9 +1,10 @@
 ---
-title: EditingLanguage
+title: Aspose::Words::Loading::EditingLanguage enum
+linktitle: EditingLanguage
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the editing language.
+description: 'Aspose::Words::Loading::EditingLanguage enum. Specifies the editing language in C++.'
 type: docs
-weight: 170
+weight: 14000
 url: /cpp/aspose.words.loading/editinglanguage/
 ---
 ## EditingLanguage enum
@@ -269,4 +270,4 @@ std::cout << (localeIdFarEast == (int)EditingLanguage::Japanese
 ## See Also
 
 * Namespace [Aspose::Words::Loading](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

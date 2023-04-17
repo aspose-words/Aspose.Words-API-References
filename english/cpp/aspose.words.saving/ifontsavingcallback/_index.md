@@ -1,9 +1,10 @@
 ---
-title: IFontSavingCallback
+title: Aspose::Words::Saving::IFontSavingCallback interface
+linktitle: IFontSavingCallback
 second_title: Aspose.Words for C++ API Reference
-description: Implement this interface if you want to receive notifications and control how Aspose.Words saves fonts when exporting a document to HTML format.
+description: 'Aspose::Words::Saving::IFontSavingCallback interface. Implement this interface if you want to receive notifications and control how Aspose.Words saves fonts when exporting a document to HTML format in C++.'
 type: docs
-weight: 534
+weight: 42000
 url: /cpp/aspose.words.saving/ifontsavingcallback/
 ---
 ## IFontSavingCallback interface
@@ -93,4 +94,4 @@ private:
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

@@ -1,9 +1,10 @@
 ---
-title: cend
+title: Aspose::Words::Framesets::FramesetCollection::cend method
+linktitle: cend
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use cend method of Aspose::Words::Framesets::FramesetCollection class in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.framesets/framesetcollection/cend/
 ---
 ## FramesetCollection::cend method
@@ -20,4 +21,4 @@ const_iterator Aspose::Words::Framesets::FramesetCollection::cend() const noexce
 * Typedef [const_iterator](../const_iterator/)
 * Class [FramesetCollection](../)
 * Namespace [Aspose::Words::Framesets](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

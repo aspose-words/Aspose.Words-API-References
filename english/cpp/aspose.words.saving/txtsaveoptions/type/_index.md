@@ -1,9 +1,10 @@
 ---
-title: Type
+title: Aspose::Words::Saving::TxtSaveOptions::Type method
+linktitle: Type
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Type method of Aspose::Words::Saving::TxtSaveOptions class in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words.saving/txtsaveoptions/type/
 ---
 ## TxtSaveOptions::Type method
@@ -19,4 +20,4 @@ static const System::TypeInfo & Aspose::Words::Saving::TxtSaveOptions::Type()
 
 * Class [TxtSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

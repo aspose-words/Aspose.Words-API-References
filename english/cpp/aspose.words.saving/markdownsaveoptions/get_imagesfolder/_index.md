@@ -1,9 +1,10 @@
 ---
-title: get_ImagesFolder
+title: Aspose::Words::Saving::MarkdownSaveOptions::get_ImagesFolder method
+linktitle: get_ImagesFolder
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the physical folder where images are saved when exporting a document to the Markdown format. Default is an empty string.
+description: 'Aspose::Words::Saving::MarkdownSaveOptions::get_ImagesFolder method. Specifies the physical folder where images are saved when exporting a document to the Markdown format. Default is an empty string in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.saving/markdownsaveoptions/get_imagesfolder/
 ---
 ## MarkdownSaveOptions::get_ImagesFolder method
@@ -29,4 +30,4 @@ If the folder specified by [ImagesFolder](./) doesn't exist, it will be created 
 
 * Class [MarkdownSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

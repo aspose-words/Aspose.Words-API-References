@@ -1,9 +1,10 @@
 ---
-title: PdfLoadOptions
+title: Aspose::Words::Loading::PdfLoadOptions class
+linktitle: PdfLoadOptions
 second_title: Aspose.Words for C++ API Reference
-description: Allows to specify additional options when loading Pdf document into a Document object. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Loading::PdfLoadOptions class. Allows to specify additional options when loading Pdf document into a Document object. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.loading/pdfloadoptions/
 ---
 ## PdfLoadOptions class
@@ -60,11 +61,11 @@ class PdfLoadOptions : public Aspose::Words::Loading::LoadOptions
 | [set_ResourceLoadingCallback](../loadoptions/set_resourceloadingcallback/)(const System::SharedPtr\<Aspose::Words::Loading::IResourceLoadingCallback\>\&) | Setter for [Aspose::Words::Loading::LoadOptions::get_ResourceLoadingCallback](../loadoptions/get_resourceloadingcallback/). |
 | [set_SkipPdfImages](./set_skippdfimages/)(bool) | Sets the flag indicating whether images must be skipped while loading PDF document. Default is **false**. |
 | [set_TempFolder](../loadoptions/set_tempfolder/)(const System::String\&) | Setter for [Aspose::Words::Loading::LoadOptions::get_TempFolder](../loadoptions/get_tempfolder/). |
-| [set_UpdateDirtyFields](../loadoptions/set_updatedirtyfields/)(bool) | Setter for [Aspose::Words::Loading::LoadOptions::get_UpdateDirtyFields](../loadoptions/get_updatedirtyfields/). |
+| [set_UpdateDirtyFields](../loadoptions/set_updatedirtyfields/)(bool) | Specifies whether to update the fields with the **dirty** attribute. |
 | [set_WarningCallback](../loadoptions/set_warningcallback/)(const System::SharedPtr\<Aspose::Words::IWarningCallback\>\&) | Setter for [Aspose::Words::Loading::LoadOptions::get_WarningCallback](../loadoptions/get_warningcallback/). |
 | static [Type](./type/)() |  |
 ## See Also
 
 * Class [LoadOptions](../loadoptions/)
 * Namespace [Aspose::Words::Loading](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

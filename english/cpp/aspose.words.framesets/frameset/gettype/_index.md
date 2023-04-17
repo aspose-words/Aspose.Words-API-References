@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Framesets::Frameset::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Framesets::Frameset class in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.framesets/frameset/gettype/
 ---
 ## Frameset::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Framesets::Frameset::GetType() c
 
 * Class [Frameset](../)
 * Namespace [Aspose::Words::Framesets](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

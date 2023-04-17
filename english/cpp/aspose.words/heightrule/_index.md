@@ -1,9 +1,10 @@
 ---
-title: HeightRule
+title: Aspose::Words::HeightRule enum
+linktitle: HeightRule
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the rule for determining the height of an object.
+description: 'Aspose::Words::HeightRule enum. Specifies the rule for determining the height of an object in C++.'
 type: docs
-weight: 1171
+weight: 91000
 url: /cpp/aspose.words/heightrule/
 ---
 ## HeightRule enum
@@ -62,4 +63,4 @@ doc->Save(ArtifactsDir + u"DocumentBuilder.SetRowFormatting.docx");
 ## See Also
 
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

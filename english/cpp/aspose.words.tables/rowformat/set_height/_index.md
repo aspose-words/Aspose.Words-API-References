@@ -1,9 +1,10 @@
 ---
-title: set_Height
+title: Aspose::Words::Tables::RowFormat::set_Height method
+linktitle: set_Height
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Tables::RowFormat::get_Height.'
+description: 'Aspose::Words::Tables::RowFormat::set_Height method. Setter for Aspose::Words::Tables::RowFormat::get_Height in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words.tables/rowformat/set_height/
 ---
 ## RowFormat::set_Height method
@@ -19,4 +20,4 @@ void Aspose::Words::Tables::RowFormat::set_Height(double value)
 
 * Class [RowFormat](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

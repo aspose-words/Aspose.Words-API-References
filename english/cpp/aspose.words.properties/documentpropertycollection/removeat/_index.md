@@ -1,9 +1,10 @@
 ---
-title: RemoveAt
+title: Aspose::Words::Properties::DocumentPropertyCollection::RemoveAt method
+linktitle: RemoveAt
 second_title: Aspose.Words for C++ API Reference
-description: Removes a property at the specified index.
+description: 'Aspose::Words::Properties::DocumentPropertyCollection::RemoveAt method. Removes a property at the specified index in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words.properties/documentpropertycollection/removeat/
 ---
 ## DocumentPropertyCollection::RemoveAt method
@@ -86,4 +87,4 @@ ASSERT_EQ(0, properties->get_Count());
 
 * Class [DocumentPropertyCollection](../)
 * Namespace [Aspose::Words::Properties](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

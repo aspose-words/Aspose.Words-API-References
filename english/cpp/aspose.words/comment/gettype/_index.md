@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Comment::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Comment class in C++.'
 type: docs
-weight: 170
+weight: 14000
 url: /cpp/aspose.words/comment/gettype/
 ---
 ## Comment::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Comment::GetType() const overrid
 
 * Class [Comment](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

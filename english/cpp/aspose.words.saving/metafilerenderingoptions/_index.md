@@ -1,9 +1,10 @@
 ---
-title: MetafileRenderingOptions
+title: Aspose::Words::Saving::MetafileRenderingOptions class
+linktitle: MetafileRenderingOptions
 second_title: Aspose.Words for C++ API Reference
-description: Allows to specify additional metafile rendering options. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Saving::MetafileRenderingOptions class. Allows to specify additional metafile rendering options. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 170
+weight: 14000
 url: /cpp/aspose.words.saving/metafilerenderingoptions/
 ---
 ## MetafileRenderingOptions class
@@ -93,4 +94,4 @@ public:
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

@@ -1,9 +1,10 @@
 ---
-title: get_DateTimeFormat
+title: Aspose::Words::Fields::FieldFormat::get_DateTimeFormat method
+linktitle: get_DateTimeFormat
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets a formatting that is applied to a date and time field result. Corresponds to the \@ switch.
+description: 'Aspose::Words::Fields::FieldFormat::get_DateTimeFormat method. Gets or sets a formatting that is applied to a date and time field result. Corresponds to the \@ switch in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fields/fieldformat/get_datetimeformat/
 ---
 ## FieldFormat::get_DateTimeFormat method
@@ -86,4 +87,4 @@ ASSERT_EQ(0, format->get_GeneralFormats()->get_Count());
 
 * Class [FieldFormat](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

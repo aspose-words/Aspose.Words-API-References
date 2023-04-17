@@ -1,9 +1,10 @@
 ---
-title: Save
+title: Aspose::Words::Drawing::OleFormat::Save method
+linktitle: Save
 second_title: Aspose.Words for C++ API Reference
-description: Saves the data of the embedded object into the specified stream.
+description: 'Aspose::Words::Drawing::OleFormat::Save method. Saves the data of the embedded object into the specified stream in C++.'
 type: docs
-weight: 235
+weight: 19000
 url: /cpp/aspose.words.drawing/oleformat/save/
 ---
 ## OleFormat::Save(const System::SharedPtr\<System::IO::Stream\>\&) method
@@ -62,7 +63,7 @@ oleFormat->Save(ArtifactsDir + u"OLE spreadsheet saved directly" + oleFormat->ge
 
 * Class [OleFormat](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## OleFormat::Save(const System::String\&) method
 
 
@@ -115,7 +116,7 @@ oleFormat->Save(ArtifactsDir + u"OLE spreadsheet saved directly" + oleFormat->ge
 
 * Class [OleFormat](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## OleFormat::Save(std::basic_ostream\<CharType, Traits\>\&) method
 
 
@@ -129,4 +130,4 @@ template<typename CharType,typename Traits> void Aspose::Words::Drawing::OleForm
 
 * Class [OleFormat](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: Odso
+title: Aspose::Words::Settings::Odso class
+linktitle: Odso
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the Office Data Source Object (ODSO) settings for a mail merge data source. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Settings::Odso class. Specifies the Office Data Source Object (ODSO) settings for a mail merge data source. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.settings/odso/
 ---
 ## Odso class
@@ -52,4 +53,4 @@ You do not normally need to create objects of this class directly because ODSO s
 ## See Also
 
 * Namespace [Aspose::Words::Settings](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

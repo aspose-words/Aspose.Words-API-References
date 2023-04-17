@@ -1,9 +1,10 @@
 ---
-title: TextWatermarkOptions
+title: Aspose::Words::TextWatermarkOptions class
+linktitle: TextWatermarkOptions
 second_title: Aspose.Words for C++ API Reference
-description: Contains options that can be specified when adding a watermark with text. To learn more, visit the  documentation article.
+description: 'Aspose::Words::TextWatermarkOptions class. Contains options that can be specified when adding a watermark with text. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 924
+weight: 72000
 url: /cpp/aspose.words/textwatermarkoptions/
 ---
 ## TextWatermarkOptions class
@@ -36,4 +37,4 @@ class TextWatermarkOptions : public System::Object
 ## See Also
 
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

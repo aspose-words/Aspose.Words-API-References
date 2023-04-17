@@ -1,9 +1,10 @@
 ---
-title: get_DefaultResponse
+title: Aspose::Words::Fields::FieldFillIn::get_DefaultResponse method
+linktitle: get_DefaultResponse
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets default user response (initial value contained in the prompt window).
+description: 'Aspose::Words::Fields::FieldFillIn::get_DefaultResponse method. Gets or sets default user response (initial value contained in the prompt window) in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fields/fieldfillin/get_defaultresponse/
 ---
 ## FieldFillIn::get_DefaultResponse method
@@ -65,4 +66,4 @@ public:
 
 * Class [FieldFillIn](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

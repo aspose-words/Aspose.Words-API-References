@@ -1,9 +1,10 @@
 ---
-title: get_DistanceFromText
+title: Aspose::Words::BorderCollection::get_DistanceFromText method
+linktitle: get_DistanceFromText
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets distance of the border from text in points.
+description: 'Aspose::Words::BorderCollection::get_DistanceFromText method. Gets or sets distance of the border from text in points in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words/bordercollection/get_distancefromtext/
 ---
 ## BorderCollection::get_DistanceFromText method
@@ -46,4 +47,4 @@ doc->Save(ArtifactsDir + u"PageSetup.PageBorders.docx");
 
 * Class [BorderCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: FootnoteOptions
+title: Aspose::Words::Notes::FootnoteOptions class
+linktitle: FootnoteOptions
 second_title: Aspose.Words for C++ API Reference
-description: Represents the footnote numbering options for a document or section. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Notes::FootnoteOptions class. Represents the footnote numbering options for a document or section. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.notes/footnoteoptions/
 ---
 ## FootnoteOptions class
@@ -214,4 +215,4 @@ doc->Save(ArtifactsDir + u"InlineStory.StartNumber.docx");
 ## See Also
 
 * Namespace [Aspose::Words::Notes](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

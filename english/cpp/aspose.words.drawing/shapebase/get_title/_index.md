@@ -1,9 +1,10 @@
 ---
-title: get_Title
+title: Aspose::Words::Drawing::ShapeBase::get_Title method
+linktitle: get_Title
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the title (caption) of the current shape object.
+description: 'Aspose::Words::Drawing::ShapeBase::get_Title method. Gets or sets the title (caption) of the current shape object in C++.'
 type: docs
-weight: 651
+weight: 51000
 url: /cpp/aspose.words.drawing/shapebase/get_title/
 ---
 ## ShapeBase::get_Title method
@@ -54,4 +55,4 @@ ASSERT_EQ(u"Title: My cube", shape->get_AlternativeText());
 
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

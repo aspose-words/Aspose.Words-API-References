@@ -1,9 +1,10 @@
 ---
-title: virtualizeBeginIterator
+title: Aspose::Words::DigitalSignatures::DigitalSignatureCollection::virtualizeBeginIterator method
+linktitle: virtualizeBeginIterator
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use virtualizeBeginIterator method of Aspose::Words::DigitalSignatures::DigitalSignatureCollection class in C++.'
 type: docs
-weight: 170
+weight: 14000
 url: /cpp/aspose.words.digitalsignatures/digitalsignaturecollection/virtualizebeginiterator/
 ---
 ## DigitalSignatureCollection::virtualizeBeginIterator method
@@ -20,4 +21,4 @@ virtualized_iterator * Aspose::Words::DigitalSignatures::DigitalSignatureCollect
 * Typedef [virtualized_iterator](../virtualized_iterator/)
 * Class [DigitalSignatureCollection](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

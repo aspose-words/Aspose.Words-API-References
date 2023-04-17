@@ -1,9 +1,10 @@
 ---
-title: CommentRangeStart
+title: Aspose::Words::CommentRangeStart class
+linktitle: CommentRangeStart
 second_title: Aspose.Words for C++ API Reference
-description: Denotes the start of a region of text that has a comment associated with it. To learn more, visit the  documentation article.
+description: 'Aspose::Words::CommentRangeStart class. Denotes the start of a region of text that has a comment associated with it. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 170
+weight: 14000
 url: /cpp/aspose.words/commentrangestart/
 ---
 ## CommentRangeStart class
@@ -199,4 +200,4 @@ private:
 
 * Class [Node](../node/)
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

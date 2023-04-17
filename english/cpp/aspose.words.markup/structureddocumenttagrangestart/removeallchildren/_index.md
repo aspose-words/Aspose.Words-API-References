@@ -1,9 +1,10 @@
 ---
-title: RemoveAllChildren
+title: Aspose::Words::Markup::StructuredDocumentTagRangeStart::RemoveAllChildren method
+linktitle: RemoveAllChildren
 second_title: Aspose.Words for C++ API Reference
-description: Removes all the nodes between this range start node and the range end node.
+description: 'Aspose::Words::Markup::StructuredDocumentTagRangeStart::RemoveAllChildren method. Removes all the nodes between this range start node and the range end node in C++.'
 type: docs
-weight: 326
+weight: 26000
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/removeallchildren/
 ---
 ## StructuredDocumentTagRangeStart::RemoveAllChildren method
@@ -70,4 +71,4 @@ void InsertStructuredDocumentTagRanges(SharedPtr<Document> doc, SharedPtr<Struct
 
 * Class [StructuredDocumentTagRangeStart](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

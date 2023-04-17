@@ -1,9 +1,10 @@
 ---
-title: WebExtensionStoreType
+title: Aspose::Words::WebExtensions::WebExtensionStoreType enum
+linktitle: WebExtensionStoreType
 second_title: Aspose.Words for C++ API Reference
-description: Enumerates available types of a web extension store.
+description: 'Aspose::Words::WebExtensions::WebExtensionStoreType enum. Enumerates available types of a web extension store in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words.webextensions/webextensionstoretype/
 ---
 ## WebExtensionStoreType enum
@@ -75,4 +76,4 @@ ASSERT_EQ(0, doc->get_WebExtensionTaskPanes()->get_Count());
 ## See Also
 
 * Namespace [Aspose::Words::WebExtensions](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

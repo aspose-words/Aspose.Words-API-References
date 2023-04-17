@@ -1,9 +1,10 @@
 ---
-title: get_IsMoveFromRevision
+title: Aspose::Words::Inline::get_IsMoveFromRevision method
+linktitle: get_IsMoveFromRevision
 second_title: Aspose.Words for C++ API Reference
-description: Returns true if this object was moved (deleted) in Microsoft Word while change tracking was enabled.
+description: 'Aspose::Words::Inline::get_IsMoveFromRevision method. Returns true if this object was moved (deleted) in Microsoft Word while change tracking was enabled in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words/inline/get_ismovefromrevision/
 ---
 ## Inline::get_IsMoveFromRevision method
@@ -74,4 +75,4 @@ ASSERT_TRUE(runs->idx_get(5)->get_IsDeleteRevision());
 
 * Class [Inline](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

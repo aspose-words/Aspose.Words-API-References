@@ -1,9 +1,10 @@
 ---
-title: get_DateDisplayFormat
+title: Aspose::Words::Markup::StructuredDocumentTag::get_DateDisplayFormat method
+linktitle: get_DateDisplayFormat
 second_title: Aspose.Words for C++ API Reference
-description: String that represents the format in which dates are displayed. Can not be null.
+description: 'Aspose::Words::Markup::StructuredDocumentTag::get_DateDisplayFormat method. String that represents the format in which dates are displayed. Can not be null in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words.markup/structureddocumenttag/get_datedisplayformat/
 ---
 ## StructuredDocumentTag::get_DateDisplayFormat method
@@ -61,4 +62,4 @@ doc->Save(ArtifactsDir + u"StructuredDocumentTag.Date.docx");
 
 * Class [StructuredDocumentTag](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

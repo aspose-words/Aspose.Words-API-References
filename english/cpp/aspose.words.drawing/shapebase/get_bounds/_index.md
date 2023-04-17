@@ -1,9 +1,10 @@
 ---
-title: get_Bounds
+title: Aspose::Words::Drawing::ShapeBase::get_Bounds method
+linktitle: get_Bounds
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the location and size of the containing block of the shape.
+description: 'Aspose::Words::Drawing::ShapeBase::get_Bounds method. Gets or sets the location and size of the containing block of the shape in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.drawing/shapebase/get_bounds/
 ---
 ## ShapeBase::get_Bounds method
@@ -174,4 +175,4 @@ doc->Save(ArtifactsDir + u"Shape.Bounds.docx");
 
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

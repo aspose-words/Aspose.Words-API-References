@@ -1,9 +1,10 @@
 ---
-title: set_FullDate
+title: Aspose::Words::Markup::StructuredDocumentTag::set_FullDate method
+linktitle: set_FullDate
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Markup::StructuredDocumentTag::get_FullDate.'
+description: 'Aspose::Words::Markup::StructuredDocumentTag::set_FullDate method. Setter for Aspose::Words::Markup::StructuredDocumentTag::get_FullDate in C++.'
 type: docs
-weight: 599
+weight: 47000
 url: /cpp/aspose.words.markup/structureddocumenttag/set_fulldate/
 ---
 ## StructuredDocumentTag::set_FullDate method
@@ -19,4 +20,4 @@ void Aspose::Words::Markup::StructuredDocumentTag::set_FullDate(System::DateTime
 
 * Class [StructuredDocumentTag](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

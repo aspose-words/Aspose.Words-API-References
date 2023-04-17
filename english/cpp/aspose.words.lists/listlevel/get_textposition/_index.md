@@ -1,9 +1,10 @@
 ---
-title: get_TextPosition
+title: Aspose::Words::Lists::ListLevel::get_TextPosition method
+linktitle: get_TextPosition
 second_title: Aspose.Words for C++ API Reference
-description: Returns or sets the position (in points) for the second line of wrapping text for the list level.
+description: 'Aspose::Words::Lists::ListLevel::get_TextPosition method. Returns or sets the position (in points) for the second line of wrapping text for the list level in C++.'
 type: docs
-weight: 222
+weight: 18000
 url: /cpp/aspose.words.lists/listlevel/get_textposition/
 ---
 ## ListLevel::get_TextPosition method
@@ -81,4 +82,4 @@ builder->get_Document()->Save(ArtifactsDir + u"Lists.CreateCustomList.docx");
 
 * Class [ListLevel](../)
 * Namespace [Aspose::Words::Lists](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

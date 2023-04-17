@@ -1,9 +1,10 @@
 ---
-title: set_ColorMode
+title: Aspose::Words::Saving::FixedPageSaveOptions::set_ColorMode method
+linktitle: set_ColorMode
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::FixedPageSaveOptions::get_ColorMode.'
+description: 'Aspose::Words::Saving::FixedPageSaveOptions::set_ColorMode method. Setter for Aspose::Words::Saving::FixedPageSaveOptions::get_ColorMode in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words.saving/fixedpagesaveoptions/set_colormode/
 ---
 ## FixedPageSaveOptions::set_ColorMode method
@@ -20,4 +21,4 @@ void Aspose::Words::Saving::FixedPageSaveOptions::set_ColorMode(Aspose::Words::S
 * Enum [ColorMode](../../colormode/)
 * Class [FixedPageSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

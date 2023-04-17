@@ -1,15 +1,16 @@
 ---
-title: set_Yomi
+title: Aspose::Words::Fields::FieldXE::set_Yomi method
+linktitle: set_Yomi
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fields::FieldXE::get_Yomi.'
+description: 'Aspose::Words::Fields::FieldXE::set_Yomi method. Sets the yomi (first phonetic character for sorting indexes) for the index entry in C++.'
 type: docs
-weight: 209
+weight: 17000
 url: /cpp/aspose.words.fields/fieldxe/set_yomi/
 ---
 ## FieldXE::set_Yomi method
 
 
-Setter for [Aspose::Words::Fields::FieldXE::get_Yomi](../get_yomi/).
+Sets the yomi (first phonetic character for sorting indexes) for the index entry.
 
 ```cpp
 void Aspose::Words::Fields::FieldXE::set_Yomi(const System::String &value)
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldXE::set_Yomi(const System::String &value)
 
 * Class [FieldXE](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

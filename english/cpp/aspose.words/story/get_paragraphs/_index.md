@@ -1,9 +1,10 @@
 ---
-title: get_Paragraphs
+title: Aspose::Words::Story::get_Paragraphs method
+linktitle: get_Paragraphs
 second_title: Aspose.Words for C++ API Reference
-description: Gets a collection of paragraphs that are immediate children of the story.
+description: 'Aspose::Words::Story::get_Paragraphs method. Gets a collection of paragraphs that are immediate children of the story in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words/story/get_paragraphs/
 ---
 ## Story::get_Paragraphs method
@@ -53,4 +54,4 @@ ASSERT_TRUE(paragraphs->idx_get(3)->get_IsMoveToRevision());
 * Class [ParagraphCollection](../../paragraphcollection/)
 * Class [Story](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

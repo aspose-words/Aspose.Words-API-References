@@ -1,9 +1,10 @@
 ---
-title: NumberStyle
+title: Aspose::Words::NumberStyle enum
+linktitle: NumberStyle
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the number style for a list, footnotes and endnotes, page numbers.
+description: 'Aspose::Words::NumberStyle enum. Specifies the number style for a list, footnotes and endnotes, page numbers in C++.'
 type: docs
-weight: 1327
+weight: 103000
 url: /cpp/aspose.words/numberstyle/
 ---
 ## NumberStyle enum
@@ -143,4 +144,4 @@ builder->get_Document()->Save(ArtifactsDir + u"Lists.CreateCustomList.docx");
 ## See Also
 
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

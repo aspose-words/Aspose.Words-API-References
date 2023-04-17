@@ -1,9 +1,10 @@
 ---
-title: get_SequenceSeparator
+title: Aspose::Words::Fields::FieldToa::get_SequenceSeparator method
+linktitle: get_SequenceSeparator
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the character sequence that is used to separate sequence numbers and page numbers.
+description: 'Aspose::Words::Fields::FieldToa::get_SequenceSeparator method. Gets or sets the character sequence that is used to separate sequence numbers and page numbers in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.fields/fieldtoa/get_sequenceseparator/
 ---
 ## FieldToa::get_SequenceSeparator method
@@ -141,4 +142,4 @@ static SharedPtr<FieldTA> InsertToaEntry(SharedPtr<DocumentBuilder> builder, Str
 
 * Class [FieldToa](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

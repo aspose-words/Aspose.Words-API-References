@@ -1,9 +1,10 @@
 ---
-title: set_DocumentPartFileName
+title: Aspose::Words::Saving::DocumentPartSavingArgs::set_DocumentPartFileName method
+linktitle: set_DocumentPartFileName
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::DocumentPartSavingArgs::get_DocumentPartFileName.'
+description: 'Aspose::Words::Saving::DocumentPartSavingArgs::set_DocumentPartFileName method. Setter for Aspose::Words::Saving::DocumentPartSavingArgs::get_DocumentPartFileName in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.saving/documentpartsavingargs/set_documentpartfilename/
 ---
 ## DocumentPartSavingArgs::set_DocumentPartFileName method
@@ -19,4 +20,4 @@ void Aspose::Words::Saving::DocumentPartSavingArgs::set_DocumentPartFileName(con
 
 * Class [DocumentPartSavingArgs](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: Story
+title: Aspose::Words::Story class
+linktitle: Story
 second_title: Aspose.Words for C++ API Reference
-description: Base class for elements that contain block-level nodes Paragraph and Table. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Story class. Base class for elements that contain block-level nodes Paragraph and Table. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 807
+weight: 63000
 url: /cpp/aspose.words/story/
 ---
 ## Story class
@@ -99,4 +100,4 @@ ASSERT_EQ(0, doc->GetChildNodes(NodeType::Shape, true)->get_Count());
 
 * Class [CompositeNode](../compositenode/)
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

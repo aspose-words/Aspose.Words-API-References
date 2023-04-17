@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Saving::HtmlFixedSaveOptions::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Saving::HtmlFixedSaveOptions class in C++.'
 type: docs
-weight: 261
+weight: 21000
 url: /cpp/aspose.words.saving/htmlfixedsaveoptions/gettype/
 ---
 ## HtmlFixedSaveOptions::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Saving::HtmlFixedSaveOptions::Ge
 
 * Class [HtmlFixedSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

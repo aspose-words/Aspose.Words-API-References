@@ -1,9 +1,10 @@
 ---
-title: get_Tables
+title: Aspose::Words::Story::get_Tables method
+linktitle: get_Tables
 second_title: Aspose.Words for C++ API Reference
-description: Gets a collection of tables that are immediate children of the story.
+description: 'Aspose::Words::Story::get_Tables method. Gets a collection of tables that are immediate children of the story in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words/story/get_tables/
 ---
 ## Story::get_Tables method
@@ -50,4 +51,4 @@ ASSERT_EQ(2, tables->idx_get(1)->get_Rows()->get_Count());
 * Class [TableCollection](../../../aspose.words.tables/tablecollection/)
 * Class [Story](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

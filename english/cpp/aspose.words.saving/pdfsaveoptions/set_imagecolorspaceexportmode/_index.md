@@ -1,9 +1,10 @@
 ---
-title: set_ImageColorSpaceExportMode
+title: Aspose::Words::Saving::PdfSaveOptions::set_ImageColorSpaceExportMode method
+linktitle: set_ImageColorSpaceExportMode
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::PdfSaveOptions::get_ImageColorSpaceExportMode.'
+description: 'Aspose::Words::Saving::PdfSaveOptions::set_ImageColorSpaceExportMode method. Setter for Aspose::Words::Saving::PdfSaveOptions::get_ImageColorSpaceExportMode in C++.'
 type: docs
-weight: 677
+weight: 53000
 url: /cpp/aspose.words.saving/pdfsaveoptions/set_imagecolorspaceexportmode/
 ---
 ## PdfSaveOptions::set_ImageColorSpaceExportMode method
@@ -20,4 +21,4 @@ void Aspose::Words::Saving::PdfSaveOptions::set_ImageColorSpaceExportMode(Aspose
 * Enum [PdfImageColorSpaceExportMode](../../pdfimagecolorspaceexportmode/)
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: ConditionalStyleCollection
+title: Aspose::Words::ConditionalStyleCollection class
+linktitle: ConditionalStyleCollection
 second_title: Aspose.Words for C++ API Reference
-description: Represents a collection of ConditionalStyle objects. To learn more, visit the  documentation article.
+description: 'Aspose::Words::ConditionalStyleCollection class. Represents a collection of ConditionalStyle objects. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 209
+weight: 17000
 url: /cpp/aspose.words/conditionalstylecollection/
 ---
 ## ConditionalStyleCollection class
@@ -116,4 +117,4 @@ doc->Save(ArtifactsDir + u"Table.ConditionalStyles.docx");
 ## See Also
 
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

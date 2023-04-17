@@ -1,9 +1,10 @@
 ---
-title: get_DashStyle
+title: Aspose::Words::Drawing::Stroke::get_DashStyle method
+linktitle: get_DashStyle
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the dot and dash pattern for a stroke.
+description: 'Aspose::Words::Drawing::Stroke::get_DashStyle method. Specifies the dot and dash pattern for a stroke in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.drawing/stroke/get_dashstyle/
 ---
 ## Stroke::get_DashStyle method
@@ -98,4 +99,4 @@ doc->Save(ArtifactsDir + u"Drawing.VariousShapes.docx");
 * Enum [DashStyle](../../dashstyle/)
 * Class [Stroke](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

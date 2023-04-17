@@ -1,9 +1,10 @@
 ---
-title: get_InternalMarginRight
+title: Aspose::Words::Drawing::TextBox::get_InternalMarginRight method
+linktitle: get_InternalMarginRight
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the inner right margin in points for a shape.
+description: 'Aspose::Words::Drawing::TextBox::get_InternalMarginRight method. Specifies the inner right margin in points for a shape in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.drawing/textbox/get_internalmarginright/
 ---
 ## TextBox::get_InternalMarginRight method
@@ -47,4 +48,4 @@ doc->Save(ArtifactsDir + u"Shape.TextBoxMargins.docx");
 
 * Class [TextBox](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

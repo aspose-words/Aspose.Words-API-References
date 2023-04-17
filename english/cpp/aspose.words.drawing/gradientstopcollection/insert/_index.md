@@ -1,9 +1,10 @@
 ---
-title: Insert
+title: Aspose::Words::Drawing::GradientStopCollection::Insert method
+linktitle: Insert
 second_title: Aspose.Words for C++ API Reference
-description: Inserts a GradientStop to the collection at a specified index.
+description: 'Aspose::Words::Drawing::GradientStopCollection::Insert method. Inserts a GradientStop to the collection at a specified index in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.drawing/gradientstopcollection/insert/
 ---
 ## GradientStopCollection::Insert method
@@ -73,4 +74,4 @@ doc->Save(ArtifactsDir + u"Shape.GradientStops.docx", saveOptions);
 * Class [GradientStop](../../gradientstop/)
 * Class [GradientStopCollection](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

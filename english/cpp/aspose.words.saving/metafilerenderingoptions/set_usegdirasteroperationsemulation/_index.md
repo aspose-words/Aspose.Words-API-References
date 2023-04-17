@@ -1,9 +1,10 @@
 ---
-title: set_UseGdiRasterOperationsEmulation
+title: Aspose::Words::Saving::MetafileRenderingOptions::set_UseGdiRasterOperationsEmulation method
+linktitle: set_UseGdiRasterOperationsEmulation
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::MetafileRenderingOptions::get_UseGdiRasterOperationsEmulation.'
+description: 'Aspose::Words::Saving::MetafileRenderingOptions::set_UseGdiRasterOperationsEmulation method. Setter for Aspose::Words::Saving::MetafileRenderingOptions::get_UseGdiRasterOperationsEmulation in C++.'
 type: docs
-weight: 196
+weight: 16000
 url: /cpp/aspose.words.saving/metafilerenderingoptions/set_usegdirasteroperationsemulation/
 ---
 ## MetafileRenderingOptions::set_UseGdiRasterOperationsEmulation method
@@ -19,4 +20,4 @@ void Aspose::Words::Saving::MetafileRenderingOptions::set_UseGdiRasterOperations
 
 * Class [MetafileRenderingOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::NodeImporter::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::NodeImporter class in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words/nodeimporter/gettype/
 ---
 ## NodeImporter::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::NodeImporter::GetType() const ov
 
 * Class [NodeImporter](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

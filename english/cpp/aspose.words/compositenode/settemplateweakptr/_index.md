@@ -1,9 +1,10 @@
 ---
-title: SetTemplateWeakPtr
+title: Aspose::Words::CompositeNode::SetTemplateWeakPtr method
+linktitle: SetTemplateWeakPtr
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use SetTemplateWeakPtr method of Aspose::Words::CompositeNode class in C++.'
 type: docs
-weight: 300
+weight: 24000
 url: /cpp/aspose.words/compositenode/settemplateweakptr/
 ---
 ## CompositeNode::SetTemplateWeakPtr method
@@ -19,4 +20,4 @@ void Aspose::Words::CompositeNode::SetTemplateWeakPtr(uint32_t argument) overrid
 
 * Class [CompositeNode](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

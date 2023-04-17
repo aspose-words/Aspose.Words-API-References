@@ -1,9 +1,10 @@
 ---
-title: PdfLoadOptions
+title: Aspose::Words::Loading::PdfLoadOptions::PdfLoadOptions constructor
+linktitle: PdfLoadOptions
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use PdfLoadOptions constructor of Aspose::Words::Loading::PdfLoadOptions class in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.loading/pdfloadoptions/pdfloadoptions/
 ---
 ## PdfLoadOptions::PdfLoadOptions constructor
@@ -19,4 +20,4 @@ Aspose::Words::Loading::PdfLoadOptions::PdfLoadOptions()
 
 * Class [PdfLoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

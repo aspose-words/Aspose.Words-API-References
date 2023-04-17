@@ -1,9 +1,10 @@
 ---
-title: set_AspectRatioLocked
+title: Aspose::Words::Drawing::ShapeBase::set_AspectRatioLocked method
+linktitle: set_AspectRatioLocked
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Drawing::ShapeBase::get_AspectRatioLocked.'
+description: 'Aspose::Words::Drawing::ShapeBase::set_AspectRatioLocked method. Setter for Aspose::Words::Drawing::ShapeBase::get_AspectRatioLocked in C++.'
 type: docs
-weight: 833
+weight: 65000
 url: /cpp/aspose.words.drawing/shapebase/set_aspectratiolocked/
 ---
 ## ShapeBase::set_AspectRatioLocked method
@@ -19,4 +20,4 @@ void Aspose::Words::Drawing::ShapeBase::set_AspectRatioLocked(bool value)
 
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

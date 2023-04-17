@@ -1,9 +1,10 @@
 ---
-title: get_UpdateLastPrintedProperty
+title: Aspose::Words::Saving::SaveOptions::get_UpdateLastPrintedProperty method
+linktitle: get_UpdateLastPrintedProperty
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets a value determining whether the LastPrinted property is updated before saving.
+description: 'Aspose::Words::Saving::SaveOptions::get_UpdateLastPrintedProperty method. Gets or sets a value determining whether the LastPrinted property is updated before saving in C++.'
 type: docs
-weight: 222
+weight: 18000
 url: /cpp/aspose.words.saving/saveoptions/get_updatelastprintedproperty/
 ---
 ## SaveOptions::get_UpdateLastPrintedProperty method
@@ -65,4 +66,4 @@ ASPOSE_ASSERT_NE(isUpdateCreatedTimeProperty, System::DateTime(2019, 12, 20) == 
 
 * Class [SaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: AddSwitch
+title: Aspose::Words::Fields::FieldBuilder::AddSwitch method
+linktitle: AddSwitch
 second_title: Aspose.Words for C++ API Reference
-description: Adds a field's switch.
+description: 'Aspose::Words::Fields::FieldBuilder::AddSwitch method. Adds a field''s switch in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.fields/fieldbuilder/addswitch/
 ---
 ## FieldBuilder::AddSwitch(const System::String\&) method
@@ -107,7 +108,7 @@ doc->Save(ArtifactsDir + u"Field.SYMBOL.docx");
 * Class [FieldBuilder](../)
 * Class [FieldBuilder](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## FieldBuilder::AddSwitch(const System::String\&, const System::String\&) method
 
 
@@ -210,7 +211,7 @@ doc->Save(ArtifactsDir + u"Field.SYMBOL.docx");
 * Class [FieldBuilder](../)
 * Class [FieldBuilder](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## FieldBuilder::AddSwitch(const System::String\&, double) method
 
 
@@ -313,7 +314,7 @@ doc->Save(ArtifactsDir + u"Field.SYMBOL.docx");
 * Class [FieldBuilder](../)
 * Class [FieldBuilder](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## FieldBuilder::AddSwitch(const System::String\&, int32_t) method
 
 
@@ -416,4 +417,4 @@ doc->Save(ArtifactsDir + u"Field.SYMBOL.docx");
 * Class [FieldBuilder](../)
 * Class [FieldBuilder](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

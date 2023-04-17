@@ -1,9 +1,10 @@
 ---
-title: get_OpenHyperlinksInNewWindow
+title: Aspose::Words::Saving::PdfSaveOptions::get_OpenHyperlinksInNewWindow method
+linktitle: get_OpenHyperlinksInNewWindow
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets a value determining whether hyperlinks in the output Pdf document are forced to be opened in a new window (or tab) of a browser.
+description: 'Aspose::Words::Saving::PdfSaveOptions::get_OpenHyperlinksInNewWindow method. Gets or sets a value determining whether hyperlinks in the output Pdf document are forced to be opened in a new window (or tab) of a browser in C++.'
 type: docs
-weight: 300
+weight: 24000
 url: /cpp/aspose.words.saving/pdfsaveoptions/get_openhyperlinksinnewwindow/
 ---
 ## PdfSaveOptions::get_OpenHyperlinksInNewWindow method
@@ -50,4 +51,4 @@ doc->Save(ArtifactsDir + u"PdfSaveOptions.OpenHyperlinksInNewWindow.pdf", option
 
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

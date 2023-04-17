@@ -1,9 +1,10 @@
 ---
-title: set_BorderDistanceFrom
+title: Aspose::Words::PageSetup::set_BorderDistanceFrom method
+linktitle: set_BorderDistanceFrom
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::PageSetup::get_BorderDistanceFrom.'
+description: 'Aspose::Words::PageSetup::set_BorderDistanceFrom method. Setter for Aspose::Words::PageSetup::get_BorderDistanceFrom in C++.'
 type: docs
-weight: 677
+weight: 53000
 url: /cpp/aspose.words/pagesetup/set_borderdistancefrom/
 ---
 ## PageSetup::set_BorderDistanceFrom method
@@ -20,4 +21,4 @@ void Aspose::Words::PageSetup::set_BorderDistanceFrom(Aspose::Words::PageBorderD
 * Enum [PageBorderDistanceFrom](../../pageborderdistancefrom/)
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

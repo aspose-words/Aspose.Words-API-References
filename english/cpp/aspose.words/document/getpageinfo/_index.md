@@ -1,9 +1,10 @@
 ---
-title: GetPageInfo
+title: Aspose::Words::Document::GetPageInfo method
+linktitle: GetPageInfo
 second_title: Aspose.Words for C++ API Reference
-description: Gets the page size, orientation and other information about a page that might be useful for printing or rendering.
+description: 'Aspose::Words::Document::GetPageInfo method. Gets the page size, orientation and other information about a page that might be useful for printing or rendering in C++.'
 type: docs
-weight: 794
+weight: 62000
 url: /cpp/aspose.words/document/getpageinfo/
 ---
 ## Document::GetPageInfo method
@@ -25,4 +26,4 @@ System::SharedPtr<Aspose::Words::Rendering::PageInfo> Aspose::Words::Document::G
 * Class [PageInfo](../../../aspose.words.rendering/pageinfo/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

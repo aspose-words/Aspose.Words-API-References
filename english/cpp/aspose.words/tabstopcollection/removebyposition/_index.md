@@ -1,9 +1,10 @@
 ---
-title: RemoveByPosition
+title: Aspose::Words::TabStopCollection::RemoveByPosition method
+linktitle: RemoveByPosition
 second_title: Aspose.Words for C++ API Reference
-description: Removes a tab stop at the specified position from the collection.
+description: 'Aspose::Words::TabStopCollection::RemoveByPosition method. Removes a tab stop at the specified position from the collection in C++.'
 type: docs
-weight: 183
+weight: 15000
 url: /cpp/aspose.words/tabstopcollection/removebyposition/
 ---
 ## TabStopCollection::RemoveByPosition method
@@ -50,4 +51,4 @@ doc->Save(ArtifactsDir + u"Styles.ChangeTocsTabStops.docx");
 
 * Class [TabStopCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

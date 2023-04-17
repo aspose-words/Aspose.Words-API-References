@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::StyleCollection::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::StyleCollection class in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words/stylecollection/is/
 ---
 ## StyleCollection::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::StyleCollection::Is(const System::TypeInfo &target) 
 
 * Class [StyleCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

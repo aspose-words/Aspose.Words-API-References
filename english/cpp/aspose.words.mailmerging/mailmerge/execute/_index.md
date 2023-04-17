@@ -1,9 +1,10 @@
 ---
-title: Execute
+title: Aspose::Words::MailMerging::MailMerge::Execute method
+linktitle: Execute
 second_title: Aspose.Words for C++ API Reference
-description: Performs a mail merge operation for a single record.
+description: 'Aspose::Words::MailMerging::MailMerge::Execute method. Performs a mail merge operation for a single record in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.mailmerging/mailmerge/execute/
 ---
 ## MailMerge::Execute(const System::ArrayPtr\<System::String\>\&, const System::ArrayPtr\<System::SharedPtr\<System::Object\>\>\&) method
@@ -31,38 +32,11 @@ This method does not use mail merge regions.
 
 This method ignores the [RemoveUnusedRegions](../../mailmergecleanupoptions/) option.
 
-## Examples
-
-
-
-Shows how to merge an image from a URI as mail merge data into a MERGEFIELD. 
-```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
-
-// MERGEFIELDs with "Image:" tags will receive an image during a mail merge.
-// The string after the colon in the "Image:" tag corresponds to a column name
-// in the data source whose cells contain URIs of image files.
-builder->InsertField(u"MERGEFIELD  Image:logo_FromWeb ");
-builder->InsertField(u"MERGEFIELD  Image:logo_FromFileSystem ");
-
-// Create a data source that contains URIs of images that we will merge.
-// A URI can be a web URL that points to an image, or a local file system filename of an image file.
-ArrayPtr<String> columns = MakeArray<String>({u"logo_FromWeb", u"logo_FromFileSystem"});
-ArrayPtr<SharedPtr<System::Object>> URIs =
-    MakeArray<SharedPtr<System::Object>>({System::ObjectExt::Box<String>(ImageUrl), System::ObjectExt::Box<String>(ImageDir + u"Logo.jpg")});
-
-// Execute a mail merge on a data source with one row.
-doc->get_MailMerge()->Execute(columns, URIs);
-
-doc->Save(ArtifactsDir + u"MailMergeEvent.ImageFromUrl.docx");
-```
-
 ## See Also
 
 * Class [MailMerge](../)
 * Namespace [Aspose::Words::MailMerging](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## MailMerge::Execute(const System::SharedPtr\<Aspose::Words::MailMerging::IMailMergeDataSource\>\&) method
 
 
@@ -212,4 +186,4 @@ private:
 * Interface [IMailMergeDataSource](../../imailmergedatasource/)
 * Class [MailMerge](../)
 * Namespace [Aspose::Words::MailMerging](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

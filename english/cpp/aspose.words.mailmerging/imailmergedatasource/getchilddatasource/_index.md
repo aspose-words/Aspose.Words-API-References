@@ -1,9 +1,10 @@
 ---
-title: GetChildDataSource
+title: Aspose::Words::MailMerging::IMailMergeDataSource::GetChildDataSource method
+linktitle: GetChildDataSource
 second_title: Aspose.Words for C++ API Reference
-description: The Aspose.Words mail merge engine invokes this method when it encounters a beginning of a nested mail merge region.
+description: 'Aspose::Words::MailMerging::IMailMergeDataSource::GetChildDataSource method. The Aspose.Words mail merge engine invokes this method when it encounters a beginning of a nested mail merge region in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.mailmerging/imailmergedatasource/getchilddatasource/
 ---
 ## IMailMergeDataSource::GetChildDataSource method
@@ -163,4 +164,4 @@ private:
 * Interface [IMailMergeDataSource](../)
 * Interface [IMailMergeDataSource](../)
 * Namespace [Aspose::Words::MailMerging](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

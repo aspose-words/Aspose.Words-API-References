@@ -1,9 +1,10 @@
 ---
-title: get_DoubleStrikeThrough
+title: Aspose::Words::Font::get_DoubleStrikeThrough method
+linktitle: get_DoubleStrikeThrough
 second_title: Aspose.Words for C++ API Reference
-description: True if the font is formatted as double strikethrough text.
+description: 'Aspose::Words::Font::get_DoubleStrikeThrough method. True if the font is formatted as double strikethrough text in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words/font/get_doublestrikethrough/
 ---
 ## Font::get_DoubleStrikeThrough method
@@ -42,4 +43,4 @@ doc->Save(ArtifactsDir + u"Font.StrikeThrough.docx");
 
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

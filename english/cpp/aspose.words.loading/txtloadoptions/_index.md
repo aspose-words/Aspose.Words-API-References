@@ -1,9 +1,10 @@
 ---
-title: TxtLoadOptions
+title: Aspose::Words::Loading::TxtLoadOptions class
+linktitle: TxtLoadOptions
 second_title: Aspose.Words for C++ API Reference
-description: Allows to specify additional options when loading Text document into a Document object. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Loading::TxtLoadOptions class. Allows to specify additional options when loading Text document into a Document object. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.loading/txtloadoptions/
 ---
 ## TxtLoadOptions class
@@ -63,7 +64,7 @@ class TxtLoadOptions : public Aspose::Words::Loading::LoadOptions
 | [set_ResourceLoadingCallback](../loadoptions/set_resourceloadingcallback/)(const System::SharedPtr\<Aspose::Words::Loading::IResourceLoadingCallback\>\&) | Setter for [Aspose::Words::Loading::LoadOptions::get_ResourceLoadingCallback](../loadoptions/get_resourceloadingcallback/). |
 | [set_TempFolder](../loadoptions/set_tempfolder/)(const System::String\&) | Setter for [Aspose::Words::Loading::LoadOptions::get_TempFolder](../loadoptions/get_tempfolder/). |
 | [set_TrailingSpacesOptions](./set_trailingspacesoptions/)(Aspose::Words::Loading::TxtTrailingSpacesOptions) | Setter for [Aspose::Words::Loading::TxtLoadOptions::get_TrailingSpacesOptions](./get_trailingspacesoptions/). |
-| [set_UpdateDirtyFields](../loadoptions/set_updatedirtyfields/)(bool) | Setter for [Aspose::Words::Loading::LoadOptions::get_UpdateDirtyFields](../loadoptions/get_updatedirtyfields/). |
+| [set_UpdateDirtyFields](../loadoptions/set_updatedirtyfields/)(bool) | Specifies whether to update the fields with the **dirty** attribute. |
 | [set_WarningCallback](../loadoptions/set_warningcallback/)(const System::SharedPtr\<Aspose::Words::IWarningCallback\>\&) | Setter for [Aspose::Words::Loading::LoadOptions::get_WarningCallback](../loadoptions/get_warningcallback/). |
 | [TxtLoadOptions](./txtloadoptions/)() | Initializes a new instance of this class with default values. |
 | static [Type](./type/)() |  |
@@ -71,4 +72,4 @@ class TxtLoadOptions : public Aspose::Words::Loading::LoadOptions
 
 * Class [LoadOptions](../loadoptions/)
 * Namespace [Aspose::Words::Loading](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

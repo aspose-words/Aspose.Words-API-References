@@ -1,9 +1,10 @@
 ---
-title: set_StyleOptions
+title: Aspose::Words::Tables::Table::set_StyleOptions method
+linktitle: set_StyleOptions
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Tables::Table::get_StyleOptions.'
+description: 'Aspose::Words::Tables::Table::set_StyleOptions method. Setter for Aspose::Words::Tables::Table::get_StyleOptions in C++.'
 type: docs
-weight: 807
+weight: 63000
 url: /cpp/aspose.words.tables/table/set_styleoptions/
 ---
 ## Table::set_StyleOptions method
@@ -20,4 +21,4 @@ void Aspose::Words::Tables::Table::set_StyleOptions(Aspose::Words::Tables::Table
 * Enum [TableStyleOptions](../../tablestyleoptions/)
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

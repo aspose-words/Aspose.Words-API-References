@@ -1,9 +1,10 @@
 ---
-title: set_Visible
+title: Aspose::Words::Drawing::Stroke::set_Visible method
+linktitle: set_Visible
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Drawing::Stroke::get_Visible.'
+description: 'Aspose::Words::Drawing::Stroke::set_Visible method. Setter for Aspose::Words::Drawing::Stroke::get_Visible in C++.'
 type: docs
-weight: 521
+weight: 41000
 url: /cpp/aspose.words.drawing/stroke/set_visible/
 ---
 ## Stroke::set_Visible method
@@ -19,4 +20,4 @@ void Aspose::Words::Drawing::Stroke::set_Visible(bool value)
 
 * Class [Stroke](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

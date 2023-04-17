@@ -1,9 +1,10 @@
 ---
-title: Footnote
+title: Aspose::Words::Notes::Footnote class
+linktitle: Footnote
 second_title: Aspose.Words for C++ API Reference
-description: Represents a container for text of a footnote or endnote. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Notes::Footnote class. Represents a container for text of a footnote or endnote. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.notes/footnote/
 ---
 ## Footnote class
@@ -139,4 +140,4 @@ doc->Save(ArtifactsDir + u"InlineStory.AddFootnote.docx");
 
 * Class [InlineStory](../../aspose.words/inlinestory/)
 * Namespace [Aspose::Words::Notes](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

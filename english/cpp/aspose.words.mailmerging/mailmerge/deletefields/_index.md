@@ -1,9 +1,10 @@
 ---
-title: DeleteFields
+title: Aspose::Words::MailMerging::MailMerge::DeleteFields method
+linktitle: DeleteFields
 second_title: Aspose.Words for C++ API Reference
-description: Removes mail merge related fields from the document.
+description: 'Aspose::Words::MailMerging::MailMerge::DeleteFields method. Removes mail merge related fields from the document in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.mailmerging/mailmerge/deletefields/
 ---
 ## MailMerge::DeleteFields method
@@ -50,4 +51,4 @@ ASSERT_EQ(u"Dear  ,\rGreetings!", doc->GetText().Trim());
 
 * Class [MailMerge](../)
 * Namespace [Aspose::Words::MailMerging](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

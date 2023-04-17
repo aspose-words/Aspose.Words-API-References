@@ -1,9 +1,10 @@
 ---
-title: Bookmark
+title: Aspose::Words::Bookmark class
+linktitle: Bookmark
 second_title: Aspose.Words for C++ API Reference
-description: Represents a single bookmark. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Bookmark class. Represents a single bookmark. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words/bookmark/
 ---
 ## Bookmark class
@@ -121,4 +122,4 @@ public:
 ## See Also
 
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

@@ -1,9 +1,10 @@
 ---
-title: SectionCollection
+title: Aspose::Words::SectionCollection class
+linktitle: SectionCollection
 second_title: Aspose.Words for C++ API Reference
-description: A collection of Section objects in the document. To learn more, visit the  documentation article.
+description: 'Aspose::Words::SectionCollection class. A collection of Section objects in the document. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 755
+weight: 59000
 url: /cpp/aspose.words/sectioncollection/
 ---
 ## SectionCollection class
@@ -76,4 +77,4 @@ ASSERT_EQ(u"Section 2\x000c"
 
 * Class [NodeCollection](../nodecollection/)
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

@@ -1,9 +1,10 @@
 ---
-title: set_Bold
+title: Aspose::Words::Font::set_Bold method
+linktitle: set_Bold
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Font::get_Bold.'
+description: 'Aspose::Words::Font::set_Bold method. Setter for Aspose::Words::Font::get_Bold in C++.'
 type: docs
-weight: 794
+weight: 62000
 url: /cpp/aspose.words/font/set_bold/
 ---
 ## Font::set_Bold method
@@ -19,4 +20,4 @@ void Aspose::Words::Font::set_Bold(bool value)
 
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

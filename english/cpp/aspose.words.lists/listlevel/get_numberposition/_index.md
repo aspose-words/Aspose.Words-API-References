@@ -1,9 +1,10 @@
 ---
-title: get_NumberPosition
+title: Aspose::Words::Lists::ListLevel::get_NumberPosition method
+linktitle: get_NumberPosition
 second_title: Aspose.Words for C++ API Reference
-description: Returns or sets the position (in points) of the number or bullet for the list level.
+description: 'Aspose::Words::Lists::ListLevel::get_NumberPosition method. Returns or sets the position (in points) of the number or bullet for the list level in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words.lists/listlevel/get_numberposition/
 ---
 ## ListLevel::get_NumberPosition method
@@ -81,4 +82,4 @@ builder->get_Document()->Save(ArtifactsDir + u"Lists.CreateCustomList.docx");
 
 * Class [ListLevel](../)
 * Namespace [Aspose::Words::Lists](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: set_MergeDuplicateRegions
+title: Aspose::Words::MailMerging::MailMerge::set_MergeDuplicateRegions method
+linktitle: set_MergeDuplicateRegions
 second_title: Aspose.Words for C++ API Reference
-description: Sets a value indicating whether all of the document mail merge regions with the name of a data source should be merged while executing of a mail merge with regions against the data source or just the first one.
+description: 'Aspose::Words::MailMerging::MailMerge::set_MergeDuplicateRegions method. Sets a value indicating whether all of the document mail merge regions with the name of a data source should be merged while executing of a mail merge with regions against the data source or just the first one in C++.'
 type: docs
-weight: 391
+weight: 31000
 url: /cpp/aspose.words.mailmerging/mailmerge/set_mergeduplicateregions/
 ---
 ## MailMerge::set_MergeDuplicateRegions method
@@ -19,4 +20,4 @@ void Aspose::Words::MailMerging::MailMerge::set_MergeDuplicateRegions(bool value
 
 * Class [MailMerge](../)
 * Namespace [Aspose::Words::MailMerging](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

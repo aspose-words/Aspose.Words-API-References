@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::TextColumn::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::TextColumn class in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words/textcolumn/gettype/
 ---
 ## TextColumn::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::TextColumn::GetType() const over
 
 * Class [TextColumn](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_ExportCompactSize
+title: Aspose::Words::Saving::RtfSaveOptions::get_ExportCompactSize method
+linktitle: get_ExportCompactSize
 second_title: Aspose.Words for C++ API Reference
-description: Allows to make output RTF documents smaller in size, but if they contain RTL (right-to-left) text, it will not be displayed correctly. Default value is false.
+description: 'Aspose::Words::Saving::RtfSaveOptions::get_ExportCompactSize method. Allows to make output RTF documents smaller in size, but if they contain RTL (right-to-left) text, it will not be displayed correctly. Default value is false in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.saving/rtfsaveoptions/get_exportcompactsize/
 ---
 ## RtfSaveOptions::get_ExportCompactSize method
@@ -50,4 +51,4 @@ doc->Save(ArtifactsDir + u"RtfSaveOptions.ExportImages.rtf", options);
 
 * Class [RtfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

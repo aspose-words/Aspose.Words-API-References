@@ -1,9 +1,10 @@
 ---
-title: iterator
+title: Aspose::Words::Fonts::FontInfoCollection::iterator typedef
+linktitle: iterator
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Aspose::Words::Fonts::FontInfoCollection::iterator typedef of Aspose::Words::Fonts::FontInfoCollection class in C++.'
 type: docs
-weight: 287
+weight: 23000
 url: /cpp/aspose.words.fonts/fontinfocollection/iterator/
 ---
 ## iterator typedef
@@ -19,4 +20,4 @@ using Aspose::Words::Fonts::FontInfoCollection::iterator =  typename iterator_ho
 
 * Class [FontInfoCollection](../)
 * Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

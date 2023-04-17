@@ -1,9 +1,10 @@
 ---
-title: get_Source
+title: Aspose::Words::WarningInfo::get_Source method
+linktitle: get_Source
 second_title: Aspose.Words for C++ API Reference
-description: Returns the source of the warning.
+description: 'Aspose::Words::WarningInfo::get_Source method. Returns the source of the warning in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words/warninginfo/get_source/
 ---
 ## WarningInfo::get_Source method
@@ -20,4 +21,4 @@ Aspose::Words::WarningSource Aspose::Words::WarningInfo::get_Source() const
 * Enum [WarningSource](../../warningsource/)
 * Class [WarningInfo](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

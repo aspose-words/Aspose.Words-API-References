@@ -1,9 +1,10 @@
 ---
-title: RevisionGroupCollection
+title: Aspose::Words::RevisionGroupCollection class
+linktitle: RevisionGroupCollection
 second_title: Aspose.Words for C++ API Reference
-description: A collection of RevisionGroup objects that represent revision groups in the document. To learn more, visit the  documentation article.
+description: 'Aspose::Words::RevisionGroupCollection class. A collection of RevisionGroup objects that represent revision groups in the document. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 703
+weight: 55000
 url: /cpp/aspose.words/revisiongroupcollection/
 ---
 ## RevisionGroupCollection class
@@ -78,4 +79,4 @@ SharedPtr<RevisionGroup> revisionGroup = doc->get_Revisions()->get_Groups()->idx
 ## See Also
 
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

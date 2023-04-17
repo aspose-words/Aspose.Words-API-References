@@ -1,9 +1,10 @@
 ---
-title: get_ViewMergedData
+title: Aspose::Words::Settings::MailMergeSettings::get_ViewMergedData method
+linktitle: get_ViewMergedData
 second_title: Aspose.Words for C++ API Reference
-description: Specifies that Microsoft Word shall display the data from the specified external data source where merge fields have been inserted (e.g. preview merged data). The default value is false.
+description: 'Aspose::Words::Settings::MailMergeSettings::get_ViewMergedData method. Specifies that Microsoft Word shall display the data from the specified external data source where merge fields have been inserted (e.g. preview merged data). The default value is false in C++.'
 type: docs
-weight: 248
+weight: 20000
 url: /cpp/aspose.words.settings/mailmergesettings/get_viewmergeddata/
 ---
 ## MailMergeSettings::get_ViewMergedData method
@@ -19,4 +20,4 @@ bool Aspose::Words::Settings::MailMergeSettings::get_ViewMergedData() const
 
 * Class [MailMergeSettings](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

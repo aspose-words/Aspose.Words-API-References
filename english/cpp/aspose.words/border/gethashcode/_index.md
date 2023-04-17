@@ -1,9 +1,10 @@
 ---
-title: GetHashCode
+title: Aspose::Words::Border::GetHashCode method
+linktitle: GetHashCode
 second_title: Aspose.Words for C++ API Reference
-description: Serves as a hash function for this type.
+description: 'Aspose::Words::Border::GetHashCode method. Serves as a hash function for this type in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words/border/gethashcode/
 ---
 ## Border::GetHashCode method
@@ -63,4 +64,4 @@ doc->Save(ArtifactsDir + u"Border.SharedElements.docx");
 
 * Class [Border](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

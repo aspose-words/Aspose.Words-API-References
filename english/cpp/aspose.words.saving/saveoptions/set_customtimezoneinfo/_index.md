@@ -1,9 +1,10 @@
 ---
-title: set_CustomTimeZoneInfo
+title: Aspose::Words::Saving::SaveOptions::set_CustomTimeZoneInfo method
+linktitle: set_CustomTimeZoneInfo
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use set_CustomTimeZoneInfo method of Aspose::Words::Saving::SaveOptions class in C++.'
 type: docs
-weight: 326
+weight: 26000
 url: /cpp/aspose.words.saving/saveoptions/set_customtimezoneinfo/
 ---
 ## SaveOptions::set_CustomTimeZoneInfo method
@@ -19,4 +20,4 @@ void Aspose::Words::Saving::SaveOptions::set_CustomTimeZoneInfo(const System::Sh
 
 * Class [SaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

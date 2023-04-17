@@ -1,9 +1,10 @@
 ---
-title: VisitOfficeMathStart
+title: Aspose::Words::DocumentVisitor::VisitOfficeMathStart method
+linktitle: VisitOfficeMathStart
 second_title: Aspose.Words for C++ API Reference
-description: Called when enumeration of a Office Math object has started.
+description: 'Aspose::Words::DocumentVisitor::VisitOfficeMathStart method. Called when enumeration of a Office Math object has started in C++.'
 type: docs
-weight: 430
+weight: 34000
 url: /cpp/aspose.words/documentvisitor/visitofficemathstart/
 ---
 ## DocumentVisitor::VisitOfficeMathStart method
@@ -108,4 +109,4 @@ private:
 * Class [OfficeMath](../../../aspose.words.math/officemath/)
 * Class [DocumentVisitor](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

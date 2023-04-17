@@ -1,9 +1,10 @@
 ---
-title: set_LockContentControl
+title: Aspose::Words::Markup::StructuredDocumentTagRangeStart::set_LockContentControl method
+linktitle: set_LockContentControl
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_LockContentControl.'
+description: 'Aspose::Words::Markup::StructuredDocumentTagRangeStart::set_LockContentControl method. Setter for Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_LockContentControl in C++.'
 type: docs
-weight: 378
+weight: 30000
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/set_lockcontentcontrol/
 ---
 ## StructuredDocumentTagRangeStart::set_LockContentControl method
@@ -19,4 +20,4 @@ void Aspose::Words::Markup::StructuredDocumentTagRangeStart::set_LockContentCont
 
 * Class [StructuredDocumentTagRangeStart](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

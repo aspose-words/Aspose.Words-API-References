@@ -1,9 +1,10 @@
 ---
-title: get_Destination
+title: Aspose::Words::Settings::MailMergeSettings::get_Destination method
+linktitle: get_Destination
 second_title: Aspose.Words for C++ API Reference
-description: Specifies how Microsoft Word will output the results of a mail merge. The default value is Default.
+description: 'Aspose::Words::Settings::MailMergeSettings::get_Destination method. Specifies how Microsoft Word will output the results of a mail merge. The default value is Default in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words.settings/mailmergesettings/get_destination/
 ---
 ## MailMergeSettings::get_Destination method
@@ -20,4 +21,4 @@ Aspose::Words::Settings::MailMergeDestination Aspose::Words::Settings::MailMerge
 * Enum [MailMergeDestination](../../mailmergedestination/)
 * Class [MailMergeSettings](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

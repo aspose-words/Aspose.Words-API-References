@@ -1,9 +1,10 @@
 ---
-title: GetEnumerator
+title: Aspose::Words::CompositeNode::GetEnumerator method
+linktitle: GetEnumerator
 second_title: Aspose.Words for C++ API Reference
-description: Provides support for the for each style iteration over the child nodes of this node.
+description: 'Aspose::Words::CompositeNode::GetEnumerator method. Provides support for the for each style iteration over the child nodes of this node in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words/compositenode/getenumerator/
 ---
 ## CompositeNode::GetEnumerator method
@@ -72,4 +73,4 @@ for (const auto& child : System::IterateOver(children))
 * Class [Node](../../node/)
 * Class [CompositeNode](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

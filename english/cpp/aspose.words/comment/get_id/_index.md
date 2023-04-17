@@ -1,9 +1,10 @@
 ---
-title: get_Id
+title: Aspose::Words::Comment::get_Id method
+linktitle: get_Id
 second_title: Aspose.Words for C++ API Reference
-description: Gets the comment identifier.
+description: 'Aspose::Words::Comment::get_Id method. Gets the comment identifier in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words/comment/get_id/
 ---
 ## Comment::get_Id method
@@ -169,4 +170,4 @@ private:
 
 * Class [Comment](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

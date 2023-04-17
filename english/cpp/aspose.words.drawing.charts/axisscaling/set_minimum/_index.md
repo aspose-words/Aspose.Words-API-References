@@ -1,9 +1,10 @@
 ---
-title: set_Minimum
+title: Aspose::Words::Drawing::Charts::AxisScaling::set_Minimum method
+linktitle: set_Minimum
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Drawing::Charts::AxisScaling::get_Minimum.'
+description: 'Aspose::Words::Drawing::Charts::AxisScaling::set_Minimum method. Setter for Aspose::Words::Drawing::Charts::AxisScaling::get_Minimum in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words.drawing.charts/axisscaling/set_minimum/
 ---
 ## AxisScaling::set_Minimum method
@@ -20,4 +21,4 @@ void Aspose::Words::Drawing::Charts::AxisScaling::set_Minimum(const System::Shar
 * Class [AxisBound](../../axisbound/)
 * Class [AxisScaling](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

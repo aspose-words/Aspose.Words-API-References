@@ -1,9 +1,10 @@
 ---
-title: OdtSaveOptions
+title: Aspose::Words::Saving::OdtSaveOptions::OdtSaveOptions constructor
+linktitle: OdtSaveOptions
 second_title: Aspose.Words for C++ API Reference
-description: Initializes a new instance of this class that can be used to save a document in the Odt format.
+description: 'Aspose::Words::Saving::OdtSaveOptions::OdtSaveOptions constructor. Initializes a new instance of this class that can be used to save a document in the Odt format in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.saving/odtsaveoptions/odtsaveoptions/
 ---
 ## OdtSaveOptions::OdtSaveOptions() constructor
@@ -35,7 +36,7 @@ doc->Save(ArtifactsDir + u"OdtSaveOptions.Odt11Schema.odt", saveOptions);
 
 * Class [OdtSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## OdtSaveOptions::OdtSaveOptions(Aspose::Words::SaveFormat) constructor
 
 
@@ -87,7 +88,7 @@ ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
 * Enum [SaveFormat](../../../aspose.words/saveformat/)
 * Class [OdtSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## OdtSaveOptions::OdtSaveOptions(const System::String\&) constructor
 
 
@@ -101,4 +102,4 @@ Aspose::Words::Saving::OdtSaveOptions::OdtSaveOptions(const System::String &pass
 
 * Class [OdtSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

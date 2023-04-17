@@ -1,9 +1,10 @@
 ---
-title: get_Top
+title: Aspose::Words::Drawing::ShapeBase::get_Top method
+linktitle: get_Top
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the position of the top edge of the containing block of the shape.
+description: 'Aspose::Words::Drawing::ShapeBase::get_Top method. Gets or sets the position of the top edge of the containing block of the shape in C++.'
 type: docs
-weight: 664
+weight: 52000
 url: /cpp/aspose.words.drawing/shapebase/get_top/
 ---
 ## ShapeBase::get_Top method
@@ -65,4 +66,4 @@ doc->Save(ArtifactsDir + u"Image.CreateFloatingPositionSize.docx");
 
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

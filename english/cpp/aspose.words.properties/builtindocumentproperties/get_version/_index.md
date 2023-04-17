@@ -1,9 +1,10 @@
 ---
-title: get_Version
+title: Aspose::Words::Properties::BuiltInDocumentProperties::get_Version method
+linktitle: get_Version
 second_title: Aspose.Words for C++ API Reference
-description: Represents the version number of the application that created the document.
+description: 'Aspose::Words::Properties::BuiltInDocumentProperties::get_Version method. Represents the version number of the application that created the document in C++.'
 type: docs
-weight: 404
+weight: 32000
 url: /cpp/aspose.words.properties/builtindocumentproperties/get_version/
 ---
 ## BuiltInDocumentProperties::get_Version method
@@ -58,4 +59,4 @@ doc->Save(ArtifactsDir + u"DocumentProperties.Origin.docx");
 
 * Class [BuiltInDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

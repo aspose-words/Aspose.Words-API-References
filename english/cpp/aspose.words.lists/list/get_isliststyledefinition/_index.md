@@ -1,9 +1,10 @@
 ---
-title: get_IsListStyleDefinition
+title: Aspose::Words::Lists::List::get_IsListStyleDefinition method
+linktitle: get_IsListStyleDefinition
 second_title: Aspose.Words for C++ API Reference
-description: Returns true if this list is a definition of a list style.
+description: 'Aspose::Words::Lists::List::get_IsListStyleDefinition method. Returns true if this list is a definition of a list style in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.lists/list/get_isliststyledefinition/
 ---
 ## List::get_IsListStyleDefinition method
@@ -87,4 +88,4 @@ builder->get_Document()->Save(ArtifactsDir + u"Lists.CreateAndUseListStyle.docx"
 
 * Class [List](../)
 * Namespace [Aspose::Words::Lists](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

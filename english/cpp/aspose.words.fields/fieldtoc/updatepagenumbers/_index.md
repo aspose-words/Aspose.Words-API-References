@@ -1,9 +1,10 @@
 ---
-title: UpdatePageNumbers
+title: Aspose::Words::Fields::FieldToc::UpdatePageNumbers method
+linktitle: UpdatePageNumbers
 second_title: Aspose.Words for C++ API Reference
-description: Updates the page numbers for items in this table of contents.
+description: 'Aspose::Words::Fields::FieldToc::UpdatePageNumbers method. Updates the page numbers for items in this table of contents in C++.'
 type: docs
-weight: 495
+weight: 39000
 url: /cpp/aspose.words.fields/fieldtoc/updatepagenumbers/
 ---
 ## FieldToc::UpdatePageNumbers method
@@ -104,4 +105,4 @@ void InsertNewPageWithHeading(SharedPtr<DocumentBuilder> builder, String caption
 
 * Class [FieldToc](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

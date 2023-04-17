@@ -1,9 +1,10 @@
 ---
-title: get_DefaultResponse
+title: Aspose::Words::Fields::FieldAsk::get_DefaultResponse method
+linktitle: get_DefaultResponse
 second_title: Aspose.Words for C++ API Reference
-description: Gets default user response (initial value contained in the prompt window).
+description: 'Aspose::Words::Fields::FieldAsk::get_DefaultResponse method. Gets default user response (initial value contained in the prompt window) in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.fields/fieldask/get_defaultresponse/
 ---
 ## FieldAsk::get_DefaultResponse method
@@ -19,4 +20,4 @@ System::String Aspose::Words::Fields::FieldAsk::get_DefaultResponse()
 
 * Class [FieldAsk](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

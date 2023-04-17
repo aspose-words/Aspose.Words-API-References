@@ -1,9 +1,10 @@
 ---
-title: get_IsListStyleReference
+title: Aspose::Words::Lists::List::get_IsListStyleReference method
+linktitle: get_IsListStyleReference
 second_title: Aspose.Words for C++ API Reference
-description: Returns true if this list is a reference to a list style.
+description: 'Aspose::Words::Lists::List::get_IsListStyleReference method. Returns true if this list is a reference to a list style in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.lists/list/get_isliststylereference/
 ---
 ## List::get_IsListStyleReference method
@@ -83,4 +84,4 @@ builder->get_Document()->Save(ArtifactsDir + u"Lists.CreateAndUseListStyle.docx"
 
 * Class [List](../)
 * Namespace [Aspose::Words::Lists](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

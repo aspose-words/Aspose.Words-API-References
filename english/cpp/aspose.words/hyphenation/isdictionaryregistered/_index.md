@@ -1,9 +1,10 @@
 ---
-title: IsDictionaryRegistered
+title: Aspose::Words::Hyphenation::IsDictionaryRegistered method
+linktitle: IsDictionaryRegistered
 second_title: Aspose.Words for C++ API Reference
-description: Returns false if for the specified language there is no dictionary registered or if registered is Null dictionary, true otherwise.
+description: 'Aspose::Words::Hyphenation::IsDictionaryRegistered method. Returns false if for the specified language there is no dictionary registered or if registered is Null dictionary, true otherwise in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words/hyphenation/isdictionaryregistered/
 ---
 ## Hyphenation::IsDictionaryRegistered method
@@ -55,4 +56,4 @@ doc->Save(ArtifactsDir + u"Hyphenation.Dictionary.Unregistered.pdf");
 
 * Class [Hyphenation](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

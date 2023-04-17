@@ -1,9 +1,10 @@
 ---
-title: get_EndArrowWidth
+title: Aspose::Words::Drawing::Stroke::get_EndArrowWidth method
+linktitle: get_EndArrowWidth
 second_title: Aspose.Words for C++ API Reference
-description: Defines the arrowhead width for the end of a stroke.
+description: 'Aspose::Words::Drawing::Stroke::get_EndArrowWidth method. Defines the arrowhead width for the end of a stroke in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.drawing/stroke/get_endarrowwidth/
 ---
 ## Stroke::get_EndArrowWidth method
@@ -98,4 +99,4 @@ doc->Save(ArtifactsDir + u"Drawing.VariousShapes.docx");
 * Enum [ArrowWidth](../../arrowwidth/)
 * Class [Stroke](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

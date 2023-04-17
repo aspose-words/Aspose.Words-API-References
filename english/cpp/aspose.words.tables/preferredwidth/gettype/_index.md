@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Tables::PreferredWidth::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Tables::PreferredWidth class in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.tables/preferredwidth/gettype/
 ---
 ## PreferredWidth::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Tables::PreferredWidth::GetType(
 
 * Class [PreferredWidth](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Markup::CustomXmlPart::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Markup::CustomXmlPart class in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.markup/customxmlpart/is/
 ---
 ## CustomXmlPart::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Markup::CustomXmlPart::Is(const System::TypeInfo &ta
 
 * Class [CustomXmlPart](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

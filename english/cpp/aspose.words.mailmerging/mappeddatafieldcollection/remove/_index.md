@@ -1,9 +1,10 @@
 ---
-title: Remove
+title: Aspose::Words::MailMerging::MappedDataFieldCollection::Remove method
+linktitle: Remove
 second_title: Aspose.Words for C++ API Reference
-description: Removes a field mapping.
+description: 'Aspose::Words::MailMerging::MappedDataFieldCollection::Remove method. Removes a field mapping in C++.'
 type: docs
-weight: 196
+weight: 16000
 url: /cpp/aspose.words.mailmerging/mappeddatafieldcollection/remove/
 ---
 ## MappedDataFieldCollection::Remove method
@@ -24,4 +25,4 @@ void Aspose::Words::MailMerging::MappedDataFieldCollection::Remove(const System:
 
 * Class [MappedDataFieldCollection](../)
 * Namespace [Aspose::Words::MailMerging](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

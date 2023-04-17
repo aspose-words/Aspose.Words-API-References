@@ -1,9 +1,10 @@
 ---
-title: set_LineStyle
+title: Aspose::Words::BorderCollection::set_LineStyle method
+linktitle: set_LineStyle
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::BorderCollection::get_LineStyle.'
+description: 'Aspose::Words::BorderCollection::set_LineStyle method. Setter for Aspose::Words::BorderCollection::get_LineStyle in C++.'
 type: docs
-weight: 274
+weight: 22000
 url: /cpp/aspose.words/bordercollection/set_linestyle/
 ---
 ## BorderCollection::set_LineStyle method
@@ -20,4 +21,4 @@ void Aspose::Words::BorderCollection::set_LineStyle(Aspose::Words::LineStyle val
 * Enum [LineStyle](../../linestyle/)
 * Class [BorderCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

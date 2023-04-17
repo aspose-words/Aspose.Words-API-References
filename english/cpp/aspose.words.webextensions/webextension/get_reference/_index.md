@@ -1,9 +1,10 @@
 ---
-title: get_Reference
+title: Aspose::Words::WebExtensions::WebExtension::get_Reference method
+linktitle: get_Reference
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the primary reference to an web extension.
+description: 'Aspose::Words::WebExtensions::WebExtension::get_Reference method. Specifies the primary reference to an web extension in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.webextensions/webextension/get_reference/
 ---
 ## WebExtension::get_Reference method
@@ -64,4 +65,4 @@ ASSERT_EQ(0, doc->get_WebExtensionTaskPanes()->get_Count());
 * Class [WebExtensionReference](../../webextensionreference/)
 * Class [WebExtension](../)
 * Namespace [Aspose::Words::WebExtensions](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

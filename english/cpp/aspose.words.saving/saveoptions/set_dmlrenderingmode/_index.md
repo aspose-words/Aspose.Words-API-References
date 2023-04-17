@@ -1,9 +1,10 @@
 ---
-title: set_DmlRenderingMode
+title: Aspose::Words::Saving::SaveOptions::set_DmlRenderingMode method
+linktitle: set_DmlRenderingMode
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::SaveOptions::get_DmlRenderingMode.'
+description: 'Aspose::Words::Saving::SaveOptions::set_DmlRenderingMode method. Setter for Aspose::Words::Saving::SaveOptions::get_DmlRenderingMode in C++.'
 type: docs
-weight: 378
+weight: 30000
 url: /cpp/aspose.words.saving/saveoptions/set_dmlrenderingmode/
 ---
 ## SaveOptions::set_DmlRenderingMode method
@@ -20,4 +21,4 @@ void Aspose::Words::Saving::SaveOptions::set_DmlRenderingMode(Aspose::Words::Sav
 * Enum [DmlRenderingMode](../../dmlrenderingmode/)
 * Class [SaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

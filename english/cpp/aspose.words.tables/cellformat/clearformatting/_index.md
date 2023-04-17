@@ -1,9 +1,10 @@
 ---
-title: ClearFormatting
+title: Aspose::Words::Tables::CellFormat::ClearFormatting method
+linktitle: ClearFormatting
 second_title: Aspose.Words for C++ API Reference
-description: Resets to default cell formatting. Does not change the width of the cell.
+description: 'Aspose::Words::Tables::CellFormat::ClearFormatting method. Resets to default cell formatting. Does not change the width of the cell in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.tables/cellformat/clearformatting/
 ---
 ## CellFormat::ClearFormatting method
@@ -47,4 +48,4 @@ doc->Save(ArtifactsDir + u"Table.CombineTables.docx");
 
 * Class [CellFormat](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: FieldDatabaseDataRow
+title: Aspose::Words::Fields::FieldDatabaseDataRow::FieldDatabaseDataRow constructor
+linktitle: FieldDatabaseDataRow
 second_title: Aspose.Words for C++ API Reference
-description: Initializes a new instance of the FieldDatabaseDataRow class.
+description: 'Aspose::Words::Fields::FieldDatabaseDataRow::FieldDatabaseDataRow constructor. Initializes a new instance of the FieldDatabaseDataRow class in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.fields/fielddatabasedatarow/fielddatabasedatarow/
 ---
 ## FieldDatabaseDataRow::FieldDatabaseDataRow constructor
@@ -19,4 +20,4 @@ Aspose::Words::Fields::FieldDatabaseDataRow::FieldDatabaseDataRow(const System::
 
 * Class [FieldDatabaseDataRow](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

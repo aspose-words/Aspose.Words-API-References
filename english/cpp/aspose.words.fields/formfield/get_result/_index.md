@@ -1,9 +1,10 @@
 ---
-title: get_Result
+title: Aspose::Words::Fields::FormField::get_Result method
+linktitle: get_Result
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets a string that represents the result of this form field.
+description: 'Aspose::Words::Fields::FormField::get_Result method. Gets or sets a string that represents the result of this form field in C++.'
 type: docs
-weight: 235
+weight: 19000
 url: /cpp/aspose.words.fields/formfield/get_result/
 ---
 ## FormField::get_Result method
@@ -54,4 +55,4 @@ doc->Save(ArtifactsDir + u"FormFields.Create.html");
 
 * Class [FormField](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

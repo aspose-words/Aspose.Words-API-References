@@ -1,9 +1,10 @@
 ---
-title: OfficeMathDisplayType
+title: Aspose::Words::Math::OfficeMathDisplayType enum
+linktitle: OfficeMathDisplayType
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the display format type of the equation.
+description: 'Aspose::Words::Math::OfficeMathDisplayType enum. Specifies the display format type of the equation in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.math/officemathdisplaytype/
 ---
 ## OfficeMathDisplayType enum
@@ -39,9 +40,6 @@ ASSERT_EQ(MathObjectType::OMathPara, officeMath->get_MathObjectType());
 ASSERT_EQ(NodeType::OfficeMath, officeMath->get_NodeType());
 ASPOSE_ASSERT_EQ(officeMath->get_ParentNode(), officeMath->get_ParentParagraph());
 
-// OOXML and WML formats use the "EquationXmlEncoding" property.
-ASSERT_TRUE(officeMath->get_EquationXmlEncoding() == nullptr);
-
 // Change the location and display type of the OfficeMath node.
 officeMath->set_DisplayType(OfficeMathDisplayType::Display);
 officeMath->set_Justification(OfficeMathJustification::Left);
@@ -52,4 +50,4 @@ doc->Save(ArtifactsDir + u"Shape.OfficeMath.docx");
 ## See Also
 
 * Namespace [Aspose::Words::Math](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

@@ -1,9 +1,10 @@
 ---
-title: Clear
+title: Aspose::Words::BookmarkCollection::Clear method
+linktitle: Clear
 second_title: Aspose.Words for C++ API Reference
-description: Removes all bookmarks from this collection and from the document.
+description: 'Aspose::Words::BookmarkCollection::Clear method. Removes all bookmarks from this collection and from the document in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words/bookmarkcollection/clear/
 ---
 ## BookmarkCollection::Clear method
@@ -77,4 +78,4 @@ ASSERT_EQ(String(u"Text inside MyBookmark_1.\r") + u"Text inside MyBookmark_2.\r
 
 * Class [BookmarkCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

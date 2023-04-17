@@ -1,9 +1,10 @@
 ---
-title: Clone
+title: Aspose::Words::Document::Clone method
+linktitle: Clone
 second_title: Aspose.Words for C++ API Reference
-description: Performs a deep copy of the Document.
+description: 'Aspose::Words::Document::Clone method. Performs a deep copy of the Document in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words/document/clone/
 ---
 ## Document::Clone method
@@ -46,4 +47,4 @@ ASSERT_NE(System::ObjectExt::GetHashCode(doc->get_FirstSection()->get_Body()->ge
 * Class [Document](../)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: virtualizeBeginIterator
+title: Aspose::Words::Markup::SdtListItemCollection::virtualizeBeginIterator method
+linktitle: virtualizeBeginIterator
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use virtualizeBeginIterator method of Aspose::Words::Markup::SdtListItemCollection class in C++.'
 type: docs
-weight: 209
+weight: 17000
 url: /cpp/aspose.words.markup/sdtlistitemcollection/virtualizebeginiterator/
 ---
 ## SdtListItemCollection::virtualizeBeginIterator method
@@ -20,4 +21,4 @@ virtualized_iterator * Aspose::Words::Markup::SdtListItemCollection::virtualizeB
 * Typedef [virtualized_iterator](../virtualized_iterator/)
 * Class [SdtListItemCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

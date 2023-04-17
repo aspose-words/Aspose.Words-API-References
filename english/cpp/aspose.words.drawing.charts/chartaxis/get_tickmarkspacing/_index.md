@@ -1,9 +1,10 @@
 ---
-title: get_TickMarkSpacing
+title: Aspose::Words::Drawing::Charts::ChartAxis::get_TickMarkSpacing method
+linktitle: get_TickMarkSpacing
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the interval, at which tick marks are drawn.
+description: 'Aspose::Words::Drawing::Charts::ChartAxis::get_TickMarkSpacing method. Gets or sets the interval, at which tick marks are drawn in C++.'
 type: docs
-weight: 352
+weight: 28000
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_tickmarkspacing/
 ---
 ## ChartAxis::get_TickMarkSpacing method
@@ -76,4 +77,4 @@ doc->Save(ArtifactsDir + u"Charts.AxisProperties.docx");
 
 * Class [ChartAxis](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

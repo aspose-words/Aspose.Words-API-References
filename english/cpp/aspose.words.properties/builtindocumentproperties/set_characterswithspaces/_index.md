@@ -1,9 +1,10 @@
 ---
-title: set_CharactersWithSpaces
+title: Aspose::Words::Properties::BuiltInDocumentProperties::set_CharactersWithSpaces method
+linktitle: set_CharactersWithSpaces
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Properties::BuiltInDocumentProperties::get_CharactersWithSpaces.'
+description: 'Aspose::Words::Properties::BuiltInDocumentProperties::set_CharactersWithSpaces method. Setter for Aspose::Words::Properties::BuiltInDocumentProperties::get_CharactersWithSpaces in C++.'
 type: docs
-weight: 521
+weight: 41000
 url: /cpp/aspose.words.properties/builtindocumentproperties/set_characterswithspaces/
 ---
 ## BuiltInDocumentProperties::set_CharactersWithSpaces method
@@ -19,4 +20,4 @@ void Aspose::Words::Properties::BuiltInDocumentProperties::set_CharactersWithSpa
 
 * Class [BuiltInDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: Tab
+title: Aspose::Words::ControlChar::Tab method
+linktitle: Tab
 second_title: Aspose.Words for C++ API Reference
-description: 'Tab character: "\x0009" or "\t".'
+description: 'Aspose::Words::ControlChar::Tab method. Tab character: "\x0009" or "\t" in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words/controlchar/tab/
 ---
 ## ControlChar::Tab method
@@ -37,4 +38,4 @@ builder->Writeln(String(u"Hello") + ControlChar::TabChar + u"World!");
 
 * Class [ControlChar](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_ImageCompression
+title: Aspose::Words::Saving::PdfSaveOptions::get_ImageCompression method
+linktitle: get_ImageCompression
 second_title: Aspose.Words for C++ API Reference
-description: Specifies compression type to be used for all images in the document.
+description: 'Aspose::Words::Saving::PdfSaveOptions::get_ImageCompression method. Specifies compression type to be used for all images in the document in C++.'
 type: docs
-weight: 261
+weight: 21000
 url: /cpp/aspose.words.saving/pdfsaveoptions/get_imagecompression/
 ---
 ## PdfSaveOptions::get_ImageCompression method
@@ -62,4 +63,4 @@ doc->Save(ArtifactsDir + u"PdfSaveOptions.ImageCompression.pdf", pdfSaveOptions)
 * Enum [PdfImageCompression](../../pdfimagecompression/)
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_GraphicFilter
+title: Aspose::Words::Fields::FieldIncludePicture::get_GraphicFilter method
+linktitle: get_GraphicFilter
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the name of the filter for the format of the graphic that is to be inserted.
+description: 'Aspose::Words::Fields::FieldIncludePicture::get_GraphicFilter method. Gets or sets the name of the filter for the format of the graphic that is to be inserted in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fields/fieldincludepicture/get_graphicfilter/
 ---
 ## FieldIncludePicture::get_GraphicFilter method
@@ -54,4 +55,4 @@ doc->Save(ArtifactsDir + u"Field.IMPORT.INCLUDEPICTURE.docx");
 
 * Class [FieldIncludePicture](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

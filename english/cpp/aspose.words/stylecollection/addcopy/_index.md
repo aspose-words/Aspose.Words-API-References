@@ -1,9 +1,10 @@
 ---
-title: AddCopy
+title: Aspose::Words::StyleCollection::AddCopy method
+linktitle: AddCopy
 second_title: Aspose.Words for C++ API Reference
-description: Copies a style into this collection.
+description: 'Aspose::Words::StyleCollection::AddCopy method. Copies a style into this collection in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words/stylecollection/addcopy/
 ---
 ## StyleCollection::AddCopy method
@@ -85,4 +86,4 @@ ASSERT_EQ(System::Drawing::Color::get_Red().ToArgb(), newStyle->get_Font()->get_
 * Class [Style](../../style/)
 * Class [StyleCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

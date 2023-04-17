@@ -1,9 +1,10 @@
 ---
-title: set_MailMergeSettings
+title: Aspose::Words::Document::set_MailMergeSettings method
+linktitle: set_MailMergeSettings
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Document::get_MailMergeSettings.'
+description: 'Aspose::Words::Document::set_MailMergeSettings method. Setter for Aspose::Words::Document::get_MailMergeSettings in C++.'
 type: docs
-weight: 1054
+weight: 82000
 url: /cpp/aspose.words/document/set_mailmergesettings/
 ---
 ## Document::set_MailMergeSettings method
@@ -20,4 +21,4 @@ void Aspose::Words::Document::set_MailMergeSettings(const System::SharedPtr<Aspo
 * Class [MailMergeSettings](../../../aspose.words.settings/mailmergesettings/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

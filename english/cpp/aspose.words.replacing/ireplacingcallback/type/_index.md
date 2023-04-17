@@ -1,9 +1,10 @@
 ---
-title: Type
+title: Aspose::Words::Replacing::IReplacingCallback::Type method
+linktitle: Type
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Type method of Aspose::Words::Replacing::IReplacingCallback class in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words.replacing/ireplacingcallback/type/
 ---
 ## IReplacingCallback::Type method
@@ -19,4 +20,4 @@ static const System::TypeInfo & Aspose::Words::Replacing::IReplacingCallback::Ty
 
 * Interface [IReplacingCallback](../)
 * Namespace [Aspose::Words::Replacing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

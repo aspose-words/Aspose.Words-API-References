@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Fields::DropDownItemCollection::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Fields::DropDownItemCollection class in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words.fields/dropdownitemcollection/gettype/
 ---
 ## DropDownItemCollection::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Fields::DropDownItemCollection::
 
 * Class [DropDownItemCollection](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_Instructions
+title: Aspose::Words::SignatureLineOptions::get_Instructions method
+linktitle: get_Instructions
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets instructions to the signer that are displayed on signing the signature line. Default value for this property is empty string.
+description: 'Aspose::Words::SignatureLineOptions::get_Instructions method. Gets or sets instructions to the signer that are displayed on signing the signature line. Default value for this property is empty string in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words/signaturelineoptions/get_instructions/
 ---
 ## SignatureLineOptions::get_Instructions method
@@ -67,4 +68,4 @@ ASSERT_TRUE(signatureLine->get_IsValid());
 
 * Class [SignatureLineOptions](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

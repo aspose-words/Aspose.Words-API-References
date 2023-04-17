@@ -1,9 +1,10 @@
 ---
-title: set_LockFields
+title: Aspose::Words::Fields::FieldInclude::set_LockFields method
+linktitle: set_LockFields
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fields::FieldInclude::get_LockFields.'
+description: 'Aspose::Words::Fields::FieldInclude::set_LockFields method. Setter for Aspose::Words::Fields::FieldInclude::get_LockFields in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.fields/fieldinclude/set_lockfields/
 ---
 ## FieldInclude::set_LockFields method
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldInclude::set_LockFields(bool value)
 
 * Class [FieldInclude](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

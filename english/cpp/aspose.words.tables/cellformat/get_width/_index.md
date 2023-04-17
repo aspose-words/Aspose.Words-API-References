@@ -1,9 +1,10 @@
 ---
-title: get_Width
+title: Aspose::Words::Tables::CellFormat::get_Width method
+linktitle: get_Width
 second_title: Aspose.Words for C++ API Reference
-description: Gets the width of the cell in points.
+description: 'Aspose::Words::Tables::CellFormat::get_Width method. Gets the width of the cell in points in C++.'
 type: docs
-weight: 183
+weight: 15000
 url: /cpp/aspose.words.tables/cellformat/get_width/
 ---
 ## CellFormat::get_Width method
@@ -132,4 +133,4 @@ doc->Save(ArtifactsDir + u"DocumentBuilder.SetCellFormatting.docx");
 
 * Class [CellFormat](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

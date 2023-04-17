@@ -1,9 +1,10 @@
 ---
-title: const_iterator
+title: Aspose::Words::Saving::BookmarksOutlineLevelCollection::const_iterator typedef
+linktitle: const_iterator
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Aspose::Words::Saving::BookmarksOutlineLevelCollection::const_iterator typedef of Aspose::Words::Saving::BookmarksOutlineLevelCollection class in C++.'
 type: docs
-weight: 287
+weight: 23000
 url: /cpp/aspose.words.saving/bookmarksoutlinelevelcollection/const_iterator/
 ---
 ## const_iterator typedef
@@ -19,4 +20,4 @@ using Aspose::Words::Saving::BookmarksOutlineLevelCollection::const_iterator =  
 
 * Class [BookmarksOutlineLevelCollection](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

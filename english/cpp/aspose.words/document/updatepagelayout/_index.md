@@ -1,9 +1,10 @@
 ---
-title: UpdatePageLayout
+title: Aspose::Words::Document::UpdatePageLayout method
+linktitle: UpdatePageLayout
 second_title: Aspose.Words for C++ API Reference
-description: Rebuilds the page layout of the document.
+description: 'Aspose::Words::Document::UpdatePageLayout method. Rebuilds the page layout of the document in C++.'
 type: docs
-weight: 1262
+weight: 98000
 url: /cpp/aspose.words/document/updatepagelayout/
 ---
 ## Document::UpdatePageLayout method
@@ -50,4 +51,4 @@ doc->Save(ArtifactsDir + u"Document.UpdatePageLayout.2.pdf");
 
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

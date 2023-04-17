@@ -1,9 +1,10 @@
 ---
-title: set_NoProofing
+title: Aspose::Words::Font::set_NoProofing method
+linktitle: set_NoProofing
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Font::get_NoProofing.'
+description: 'Aspose::Words::Font::set_NoProofing method. Setter for Aspose::Words::Font::get_NoProofing in C++.'
 type: docs
-weight: 1067
+weight: 83000
 url: /cpp/aspose.words/font/set_noproofing/
 ---
 ## Font::set_NoProofing method
@@ -19,4 +20,4 @@ void Aspose::Words::Font::set_NoProofing(bool value)
 
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

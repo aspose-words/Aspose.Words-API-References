@@ -1,9 +1,10 @@
 ---
-title: get_ProgId
+title: Aspose::Words::Fields::FieldDdeAuto::get_ProgId method
+linktitle: get_ProgId
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the application type of the link information.
+description: 'Aspose::Words::Fields::FieldDdeAuto::get_ProgId method. Gets or sets the application type of the link information in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.fields/fieldddeauto/get_progid/
 ---
 ## FieldDdeAuto::get_ProgId method
@@ -31,49 +32,6 @@ enum class InsertLinkedObjectAs
     Picture,
     Bitmap
 };
-void FieldLinkedObjectsAsText(ExField::InsertLinkedObjectAs insertLinkedObjectAs)
-{
-    auto doc = MakeObject<Document>();
-    auto builder = MakeObject<DocumentBuilder>(doc);
-
-    // Below are three types of fields we can use to display contents from a linked document in the form of text.
-    // 1 -  A LINK field:
-    builder->Writeln(u"FieldLink:\n");
-    InsertFieldLink(builder, insertLinkedObjectAs, u"Word.Document.8", MyDir + u"Document.docx", nullptr, true);
-
-    // 2 -  A DDE field:
-    builder->Writeln(u"FieldDde:\n");
-    InsertFieldDde(builder, insertLinkedObjectAs, u"Excel.Sheet", MyDir + u"Spreadsheet.xlsx", u"Sheet1!R1C1", true, true);
-
-    // 3 -  A DDEAUTO field:
-    builder->Writeln(u"FieldDdeAuto:\n");
-    InsertFieldDdeAuto(builder, insertLinkedObjectAs, u"Excel.Sheet", MyDir + u"Spreadsheet.xlsx", u"Sheet1!R1C1", true);
-
-    doc->UpdateFields();
-    doc->Save(ArtifactsDir + u"Field.LINK.DDE.DDEAUTO.docx");
-}
-
-void FieldLinkedObjectsAsImage(ExField::InsertLinkedObjectAs insertLinkedObjectAs)
-{
-    auto doc = MakeObject<Document>();
-    auto builder = MakeObject<DocumentBuilder>(doc);
-
-    // Below are three types of fields we can use to display contents from a linked document in the form of an image.
-    // 1 -  A LINK field:
-    builder->Writeln(u"FieldLink:\n");
-    InsertFieldLink(builder, insertLinkedObjectAs, u"Excel.Sheet", MyDir + u"MySpreadsheet.xlsx", u"Sheet1!R2C2", true);
-
-    // 2 -  A DDE field:
-    builder->Writeln(u"FieldDde:\n");
-    InsertFieldDde(builder, insertLinkedObjectAs, u"Excel.Sheet", MyDir + u"Spreadsheet.xlsx", u"Sheet1!R1C1", true, true);
-
-    // 3 -  A DDEAUTO field:
-    builder->Writeln(u"FieldDdeAuto:\n");
-    InsertFieldDdeAuto(builder, insertLinkedObjectAs, u"Excel.Sheet", MyDir + u"Spreadsheet.xlsx", u"Sheet1!R1C1", true);
-
-    doc->UpdateFields();
-    doc->Save(ArtifactsDir + u"Field.LINK.DDE.DDEAUTO.AsImage.docx");
-}
 
 static void InsertFieldLink(SharedPtr<DocumentBuilder> builder, ExField::InsertLinkedObjectAs insertLinkedObjectAs, String progId, String sourceFullName,
                             String sourceItem, bool shouldAutoUpdate)
@@ -199,4 +157,4 @@ static void InsertFieldDdeAuto(SharedPtr<DocumentBuilder> builder, ExField::Inse
 
 * Class [FieldDdeAuto](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

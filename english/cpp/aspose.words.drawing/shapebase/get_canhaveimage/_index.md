@@ -1,9 +1,10 @@
 ---
-title: get_CanHaveImage
+title: Aspose::Words::Drawing::ShapeBase::get_CanHaveImage method
+linktitle: get_CanHaveImage
 second_title: Aspose.Words for C++ API Reference
-description: Returns true if the shape type allows the shape to have an image.
+description: 'Aspose::Words::Drawing::ShapeBase::get_CanHaveImage method. Returns true if the shape type allows the shape to have an image in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words.drawing/shapebase/get_canhaveimage/
 ---
 ## ShapeBase::get_CanHaveImage method
@@ -44,4 +45,4 @@ doc->Save(ArtifactsDir + u"Shape.Rotate.docx");
 
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

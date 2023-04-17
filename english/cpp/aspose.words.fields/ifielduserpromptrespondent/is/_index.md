@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Fields::IFieldUserPromptRespondent::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Fields::IFieldUserPromptRespondent class in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.fields/ifielduserpromptrespondent/is/
 ---
 ## IFieldUserPromptRespondent::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Fields::IFieldUserPromptRespondent::Is(const System:
 
 * Interface [IFieldUserPromptRespondent](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

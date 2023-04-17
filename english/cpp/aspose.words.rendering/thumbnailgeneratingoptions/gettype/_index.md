@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Rendering::ThumbnailGeneratingOptions::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Rendering::ThumbnailGeneratingOptions class in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.rendering/thumbnailgeneratingoptions/gettype/
 ---
 ## ThumbnailGeneratingOptions::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Rendering::ThumbnailGeneratingOp
 
 * Class [ThumbnailGeneratingOptions](../)
 * Namespace [Aspose::Words::Rendering](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

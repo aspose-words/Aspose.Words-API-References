@@ -1,9 +1,10 @@
 ---
-title: get_DeletedTextEffect
+title: Aspose::Words::Layout::RevisionOptions::get_DeletedTextEffect method
+linktitle: get_DeletedTextEffect
 second_title: Aspose.Words for C++ API Reference
-description: Allows to specify the effect to be applied to the deleted content Deletion. Default value is StrikeThrough
+description: 'Aspose::Words::Layout::RevisionOptions::get_DeletedTextEffect method. Allows to specify the effect to be applied to the deleted content Deletion. Default value is StrikeThrough in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.layout/revisionoptions/get_deletedtexteffect/
 ---
 ## RevisionOptions::get_DeletedTextEffect method
@@ -70,4 +71,4 @@ doc->Save(ArtifactsDir + u"Revision.RevisionOptions.pdf");
 * Enum [RevisionTextEffect](../../revisiontexteffect/)
 * Class [RevisionOptions](../)
 * Namespace [Aspose::Words::Layout](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_RelationshipType
+title: Aspose::Words::Markup::CustomPart::get_RelationshipType method
+linktitle: get_RelationshipType
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the relationship type from the parent part to this custom part.
+description: 'Aspose::Words::Markup::CustomPart::get_RelationshipType method. Gets or sets the relationship type from the parent part to this custom part in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.markup/custompart/get_relationshiptype/
 ---
 ## CustomPart::get_RelationshipType method
@@ -70,4 +71,4 @@ ASSERT_EQ(0, doc->get_PackageCustomParts()->get_Count());
 
 * Class [CustomPart](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

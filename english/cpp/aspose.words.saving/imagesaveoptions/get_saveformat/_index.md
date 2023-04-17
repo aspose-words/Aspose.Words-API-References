@@ -1,9 +1,10 @@
 ---
-title: get_SaveFormat
+title: Aspose::Words::Saving::ImageSaveOptions::get_SaveFormat method
+linktitle: get_SaveFormat
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used. Can be a raster Tiff, Png, Bmp, Jpeg or vector Emf, Svg.
+description: 'Aspose::Words::Saving::ImageSaveOptions::get_SaveFormat method. Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used. Can be a raster Tiff, Png, Bmp, Jpeg or vector Emf, Svg in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words.saving/imagesaveoptions/get_saveformat/
 ---
 ## ImageSaveOptions::get_SaveFormat method
@@ -52,4 +53,4 @@ doc->Save(ArtifactsDir + u"ImageSaveOptions.EditImage.png", options);
 * Enum [SaveFormat](../../../aspose.words/saveformat/)
 * Class [ImageSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: set_RightExpression
+title: Aspose::Words::Fields::FieldCompare::set_RightExpression method
+linktitle: set_RightExpression
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fields::FieldCompare::get_RightExpression.'
+description: 'Aspose::Words::Fields::FieldCompare::set_RightExpression method. Setter for Aspose::Words::Fields::FieldCompare::get_RightExpression in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.fields/fieldcompare/set_rightexpression/
 ---
 ## FieldCompare::set_RightExpression method
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldCompare::set_RightExpression(const System::Stri
 
 * Class [FieldCompare](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

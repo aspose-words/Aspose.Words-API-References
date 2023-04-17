@@ -1,9 +1,10 @@
 ---
-title: Contains
+title: Aspose::Words::Markup::CustomXmlPropertyCollection::Contains method
+linktitle: Contains
 second_title: Aspose.Words for C++ API Reference
-description: Determines whether the collection contains a property with the given name.
+description: 'Aspose::Words::Markup::CustomXmlPropertyCollection::Contains method. Determines whether the collection contains a property with the given name in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.markup/customxmlpropertycollection/contains/
 ---
 ## CustomXmlPropertyCollection::Contains method
@@ -83,4 +84,4 @@ ASSERT_EQ(0, properties->get_Count());
 
 * Class [CustomXmlPropertyCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

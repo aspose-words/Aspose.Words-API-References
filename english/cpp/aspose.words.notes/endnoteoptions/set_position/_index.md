@@ -1,9 +1,10 @@
 ---
-title: set_Position
+title: Aspose::Words::Notes::EndnoteOptions::set_Position method
+linktitle: set_Position
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Notes::EndnoteOptions::get_Position.'
+description: 'Aspose::Words::Notes::EndnoteOptions::set_Position method. Setter for Aspose::Words::Notes::EndnoteOptions::get_Position in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.notes/endnoteoptions/set_position/
 ---
 ## EndnoteOptions::set_Position method
@@ -20,4 +21,4 @@ void Aspose::Words::Notes::EndnoteOptions::set_Position(Aspose::Words::Notes::En
 * Enum [EndnotePosition](../../endnoteposition/)
 * Class [EndnoteOptions](../)
 * Namespace [Aspose::Words::Notes](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: UnlinkFields
+title: Aspose::Words::Document::UnlinkFields method
+linktitle: UnlinkFields
 second_title: Aspose.Words for C++ API Reference
-description: Unlinks fields in the whole document.
+description: 'Aspose::Words::Document::UnlinkFields method. Unlinks fields in the whole document in C++.'
 type: docs
-weight: 1210
+weight: 94000
 url: /cpp/aspose.words/document/unlinkfields/
 ---
 ## Document::UnlinkFields method
@@ -37,4 +38,4 @@ doc->UnlinkFields();
 
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

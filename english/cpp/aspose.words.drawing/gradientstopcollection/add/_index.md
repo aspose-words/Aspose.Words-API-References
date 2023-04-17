@@ -1,9 +1,10 @@
 ---
-title: Add
+title: Aspose::Words::Drawing::GradientStopCollection::Add method
+linktitle: Add
 second_title: Aspose.Words for C++ API Reference
-description: Adds a specified GradientStop to a gradient.
+description: 'Aspose::Words::Drawing::GradientStopCollection::Add method. Adds a specified GradientStop to a gradient in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.drawing/gradientstopcollection/add/
 ---
 ## GradientStopCollection::Add method
@@ -73,4 +74,4 @@ doc->Save(ArtifactsDir + u"Shape.GradientStops.docx", saveOptions);
 * Class [GradientStop](../../gradientstop/)
 * Class [GradientStopCollection](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

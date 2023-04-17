@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Drawing::ImageSize::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Drawing::ImageSize class in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.drawing/imagesize/gettype/
 ---
 ## ImageSize::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Drawing::ImageSize::GetType() co
 
 * Class [ImageSize](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_ForegroundPatternColor
+title: Aspose::Words::Shading::get_ForegroundPatternColor method
+linktitle: get_ForegroundPatternColor
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the color that's applied to the foreground of the Shading object.
+description: 'Aspose::Words::Shading::get_ForegroundPatternColor method. Gets or sets the color that''s applied to the foreground of the Shading object in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words/shading/get_foregroundpatterncolor/
 ---
 ## Shading::get_ForegroundPatternColor method
@@ -45,4 +46,4 @@ doc->Save(ArtifactsDir + u"DocumentBuilder.ApplyBordersAndShading.docx");
 
 * Class [Shading](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

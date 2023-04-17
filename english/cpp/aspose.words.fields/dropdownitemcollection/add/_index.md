@@ -1,9 +1,10 @@
 ---
-title: Add
+title: Aspose::Words::Fields::DropDownItemCollection::Add method
+linktitle: Add
 second_title: Aspose.Words for C++ API Reference
-description: Adds a string to the end of the collection.
+description: 'Aspose::Words::Fields::DropDownItemCollection::Add method. Adds a string to the end of the collection in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fields/dropdownitemcollection/add/
 ---
 ## DropDownItemCollection::Add method
@@ -84,4 +85,4 @@ dropDownItems->Clear();
 
 * Class [DropDownItemCollection](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

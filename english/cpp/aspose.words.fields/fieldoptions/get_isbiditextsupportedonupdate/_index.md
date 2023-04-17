@@ -1,9 +1,10 @@
 ---
-title: get_IsBidiTextSupportedOnUpdate
+title: Aspose::Words::Fields::FieldOptions::get_IsBidiTextSupportedOnUpdate method
+linktitle: get_IsBidiTextSupportedOnUpdate
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the value indicating whether bidirectional text is fully supported during field update or not.
+description: 'Aspose::Words::Fields::FieldOptions::get_IsBidiTextSupportedOnUpdate method. Gets or sets the value indicating whether bidirectional text is fully supported during field update or not in C++.'
 type: docs
-weight: 183
+weight: 15000
 url: /cpp/aspose.words.fields/fieldoptions/get_isbiditextsupportedonupdate/
 ---
 ## FieldOptions::get_IsBidiTextSupportedOnUpdate method
@@ -48,4 +49,4 @@ doc->Save(ArtifactsDir + u"FieldOptions.Bidi.docx");
 
 * Class [FieldOptions](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

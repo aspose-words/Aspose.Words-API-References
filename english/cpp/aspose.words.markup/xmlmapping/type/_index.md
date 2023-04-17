@@ -1,9 +1,10 @@
 ---
-title: Type
+title: Aspose::Words::Markup::XmlMapping::Type method
+linktitle: Type
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Type method of Aspose::Words::Markup::XmlMapping class in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words.markup/xmlmapping/type/
 ---
 ## XmlMapping::Type method
@@ -19,4 +20,4 @@ static const System::TypeInfo & Aspose::Words::Markup::XmlMapping::Type()
 
 * Class [XmlMapping](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: set_SymbolRotation
+title: Aspose::Words::Fields::BarcodeParameters::set_SymbolRotation method
+linktitle: set_SymbolRotation
 second_title: Aspose.Words for C++ API Reference
-description: Rotation of the barcode symbol. Valid values are [0, 3].
+description: 'Aspose::Words::Fields::BarcodeParameters::set_SymbolRotation method. Rotation of the barcode symbol. Valid values are [0, 3] in C++.'
 type: docs
-weight: 482
+weight: 38000
 url: /cpp/aspose.words.fields/barcodeparameters/set_symbolrotation/
 ---
 ## BarcodeParameters::set_SymbolRotation method
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::BarcodeParameters::set_SymbolRotation(const System::
 
 * Class [BarcodeParameters](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

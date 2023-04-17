@@ -1,9 +1,10 @@
 ---
-title: get_IsBookmark
+title: Aspose::Words::Fields::FieldBarcode::get_IsBookmark method
+linktitle: get_IsBookmark
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets whether PostalAddress is the name of a bookmark.
+description: 'Aspose::Words::Fields::FieldBarcode::get_IsBookmark method. Gets or sets whether PostalAddress is the name of a bookmark in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.fields/fieldbarcode/get_isbookmark/
 ---
 ## FieldBarcode::get_IsBookmark method
@@ -61,4 +62,4 @@ doc->Save(ArtifactsDir + u"Field.BARCODE.docx");
 
 * Class [FieldBarcode](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_ShowRevisionMarks
+title: Aspose::Words::Layout::RevisionOptions::get_ShowRevisionMarks method
+linktitle: get_ShowRevisionMarks
 second_title: Aspose.Words for C++ API Reference
-description: Allow to specify whether revision text should be marked with special formatting markup. Default value is true.
+description: 'Aspose::Words::Layout::RevisionOptions::get_ShowRevisionMarks method. Allow to specify whether revision text should be marked with special formatting markup. Default value is true in C++.'
 type: docs
-weight: 248
+weight: 20000
 url: /cpp/aspose.words.layout/revisionoptions/get_showrevisionmarks/
 ---
 ## RevisionOptions::get_ShowRevisionMarks method
@@ -69,4 +70,4 @@ doc->Save(ArtifactsDir + u"Revision.RevisionOptions.pdf");
 
 * Class [RevisionOptions](../)
 * Namespace [Aspose::Words::Layout](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: DeletePictureBullet
+title: Aspose::Words::Lists::ListLevel::DeletePictureBullet method
+linktitle: DeletePictureBullet
 second_title: Aspose.Words for C++ API Reference
-description: Deletes picture bullet for the current list level.
+description: 'Aspose::Words::Lists::ListLevel::DeletePictureBullet method. Deletes picture bullet for the current list level in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.lists/listlevel/deletepicturebullet/
 ---
 ## ListLevel::DeletePictureBullet method
@@ -50,4 +51,4 @@ ASSERT_TRUE(list->get_ListLevels()->idx_get(0)->get_ImageData() == nullptr);
 
 * Class [ListLevel](../)
 * Namespace [Aspose::Words::Lists](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

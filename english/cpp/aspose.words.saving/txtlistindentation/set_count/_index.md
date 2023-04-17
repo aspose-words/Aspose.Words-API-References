@@ -1,9 +1,10 @@
 ---
-title: set_Count
+title: Aspose::Words::Saving::TxtListIndentation::set_Count method
+linktitle: set_Count
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::TxtListIndentation::get_Count.'
+description: 'Aspose::Words::Saving::TxtListIndentation::set_Count method. Setter for Aspose::Words::Saving::TxtListIndentation::get_Count in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.saving/txtlistindentation/set_count/
 ---
 ## TxtListIndentation::set_Count method
@@ -19,4 +20,4 @@ void Aspose::Words::Saving::TxtListIndentation::set_Count(int32_t value)
 
 * Class [TxtListIndentation](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: GetChildNodes
+title: Aspose::Words::CompositeNode::GetChildNodes method
+linktitle: GetChildNodes
 second_title: Aspose.Words for C++ API Reference
-description: Returns a live collection of child nodes that match the specified type.
+description: 'Aspose::Words::CompositeNode::GetChildNodes method. Returns a live collection of child nodes that match the specified type in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words/compositenode/getchildnodes/
 ---
 ## CompositeNode::GetChildNodes method
@@ -141,4 +142,4 @@ ASSERT_EQ(3, paragraph->GetChildNodes(NodeType::Any, true)->get_Count());
 * Enum [NodeType](../../nodetype/)
 * Class [CompositeNode](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: Type
+title: Aspose::Words::Loading::ChmLoadOptions::Type method
+linktitle: Type
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Type method of Aspose::Words::Loading::ChmLoadOptions class in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words.loading/chmloadoptions/type/
 ---
 ## ChmLoadOptions::Type method
@@ -19,4 +20,4 @@ static const System::TypeInfo & Aspose::Words::Loading::ChmLoadOptions::Type()
 
 * Class [ChmLoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

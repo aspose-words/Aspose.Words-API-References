@@ -1,9 +1,10 @@
 ---
-title: get_Bubble3D
+title: Aspose::Words::Drawing::Charts::IChartDataPoint::get_Bubble3D method
+linktitle: get_Bubble3D
 second_title: Aspose.Words for C++ API Reference
-description: Specifies whether the bubbles in Bubble chart should have a 3-D effect applied to them.
+description: 'Aspose::Words::Drawing::Charts::IChartDataPoint::get_Bubble3D method. Specifies whether the bubbles in Bubble chart should have a 3-D effect applied to them in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.drawing.charts/ichartdatapoint/get_bubble3d/
 ---
 ## IChartDataPoint::get_Bubble3D method
@@ -46,4 +47,4 @@ doc->Save(ArtifactsDir + u"Charts.Bubble3D.docx");
 
 * Interface [IChartDataPoint](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

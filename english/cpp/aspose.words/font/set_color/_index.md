@@ -1,9 +1,10 @@
 ---
-title: set_Color
+title: Aspose::Words::Font::set_Color method
+linktitle: set_Color
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Font::get_Color.'
+description: 'Aspose::Words::Font::set_Color method. Setter for Aspose::Words::Font::get_Color in C++.'
 type: docs
-weight: 820
+weight: 64000
 url: /cpp/aspose.words/font/set_color/
 ---
 ## Font::set_Color method
@@ -19,4 +20,4 @@ void Aspose::Words::Font::set_Color(System::Drawing::Color value)
 
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

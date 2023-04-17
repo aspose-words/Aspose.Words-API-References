@@ -1,9 +1,10 @@
 ---
-title: get_IncludeFullPath
+title: Aspose::Words::Fields::FieldTemplate::get_IncludeFullPath method
+linktitle: get_IncludeFullPath
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets whether to include the full file path name.
+description: 'Aspose::Words::Fields::FieldTemplate::get_IncludeFullPath method. Gets or sets whether to include the full file path name in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fields/fieldtemplate/get_includefullpath/
 ---
 ## FieldTemplate::get_IncludeFullPath method
@@ -46,4 +47,4 @@ doc->Save(ArtifactsDir + u"Field.TEMPLATE.docx");
 
 * Class [FieldTemplate](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

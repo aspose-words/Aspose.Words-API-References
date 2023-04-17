@@ -1,9 +1,10 @@
 ---
-title: set_FieldName
+title: Aspose::Words::Fields::FieldMergeField::set_FieldName method
+linktitle: set_FieldName
 second_title: Aspose.Words for C++ API Reference
-description: Sets the name of a data field.
+description: 'Aspose::Words::Fields::FieldMergeField::set_FieldName method. Sets the name of a data field in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words.fields/fieldmergefield/set_fieldname/
 ---
 ## FieldMergeField::set_FieldName method
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldMergeField::set_FieldName(const System::String 
 
 * Class [FieldMergeField](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

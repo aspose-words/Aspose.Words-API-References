@@ -1,9 +1,10 @@
 ---
-title: get_Minimum
+title: Aspose::Words::Drawing::Charts::AxisScaling::get_Minimum method
+linktitle: get_Minimum
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets minimum value of the axis.
+description: 'Aspose::Words::Drawing::Charts::AxisScaling::get_Minimum method. Gets or sets minimum value of the axis in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.drawing.charts/axisscaling/get_minimum/
 ---
 ## AxisScaling::get_Minimum method
@@ -66,4 +67,4 @@ doc->Save(ArtifactsDir + u"Charts.DateTimeValues.docx");
 * Class [AxisBound](../../axisbound/)
 * Class [AxisScaling](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

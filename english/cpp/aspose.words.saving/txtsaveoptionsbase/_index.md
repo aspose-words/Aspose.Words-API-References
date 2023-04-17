@@ -1,9 +1,10 @@
 ---
-title: TxtSaveOptionsBase
+title: Aspose::Words::Saving::TxtSaveOptionsBase class
+linktitle: TxtSaveOptionsBase
 second_title: Aspose.Words for C++ API Reference
-description: The base class for specifying additional options when saving a document into a text based formats. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Saving::TxtSaveOptionsBase class. The base class for specifying additional options when saving a document into a text based formats. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 430
+weight: 34000
 url: /cpp/aspose.words.saving/txtsaveoptionsbase/
 ---
 ## TxtSaveOptionsBase class
@@ -53,7 +54,7 @@ class TxtSaveOptionsBase : public Aspose::Words::Saving::SaveOptions
 | [set_Dml3DEffectsRenderingMode](../saveoptions/set_dml3deffectsrenderingmode/)(Aspose::Words::Saving::Dml3DEffectsRenderingMode) | Sets a value determining how 3D effects are rendered. |
 | virtual [set_DmlEffectsRenderingMode](../saveoptions/set_dmleffectsrenderingmode/)(Aspose::Words::Saving::DmlEffectsRenderingMode) | Setter for [Aspose::Words::Saving::SaveOptions::get_DmlEffectsRenderingMode](../saveoptions/get_dmleffectsrenderingmode/). |
 | [set_DmlRenderingMode](../saveoptions/set_dmlrenderingmode/)(Aspose::Words::Saving::DmlRenderingMode) | Setter for [Aspose::Words::Saving::SaveOptions::get_DmlRenderingMode](../saveoptions/get_dmlrenderingmode/). |
-| [set_Encoding](./set_encoding/)(const System::SharedPtr\<System::Text::Encoding\>\&) | Setter for [Aspose::Words::Saving::TxtSaveOptionsBase::get_Encoding](./get_encoding/). |
+| [set_Encoding](./set_encoding/)(const System::SharedPtr\<System::Text::Encoding\>\&) | Specifies the encoding to use when exporting in text formats. Default value is **Encoding.UTF8**. |
 | [set_ExportGeneratorName](../saveoptions/set_exportgeneratorname/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_ExportGeneratorName](../saveoptions/get_exportgeneratorname/). |
 | [set_ExportHeadersFootersMode](./set_exportheadersfootersmode/)(Aspose::Words::Saving::TxtExportHeadersFootersMode) | Setter for [Aspose::Words::Saving::TxtSaveOptionsBase::get_ExportHeadersFootersMode](./get_exportheadersfootersmode/). |
 | [set_ForcePageBreaks](./set_forcepagebreaks/)(bool) | Setter for [Aspose::Words::Saving::TxtSaveOptionsBase::get_ForcePageBreaks](./get_forcepagebreaks/). |
@@ -107,4 +108,4 @@ ASSERT_EQ(String(u"Paragraph 1. End of paragraph.\n\n\t") + u"Paragraph 2. End o
 
 * Class [SaveOptions](../saveoptions/)
 * Namespace [Aspose::Words::Saving](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

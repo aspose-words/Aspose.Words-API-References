@@ -1,9 +1,10 @@
 ---
-title: get_Light1
+title: Aspose::Words::Themes::ThemeColors::get_Light1 method
+linktitle: get_Light1
 second_title: Aspose.Words for C++ API Reference
-description: Specifies color Light 1.
+description: 'Aspose::Words::Themes::ThemeColors::get_Light1 method. Specifies color Light 1 in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words.themes/themecolors/get_light1/
 ---
 ## ThemeColors::get_Light1 method
@@ -66,4 +67,4 @@ doc->Save(ArtifactsDir + u"Themes.CustomColorsAndFonts.docx");
 
 * Class [ThemeColors](../)
 * Namespace [Aspose::Words::Themes](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

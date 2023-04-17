@@ -1,9 +1,10 @@
 ---
-title: get_ListExportMode
+title: Aspose::Words::Saving::MarkdownSaveOptions::get_ListExportMode method
+linktitle: get_ListExportMode
 second_title: Aspose.Words for C++ API Reference
-description: Specifies how list items will be written to the output file. Default value is MarkdownSyntax.
+description: 'Aspose::Words::Saving::MarkdownSaveOptions::get_ListExportMode method. Specifies how list items will be written to the output file. Default value is MarkdownSyntax in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.saving/markdownsaveoptions/get_listexportmode/
 ---
 ## MarkdownSaveOptions::get_ListExportMode method
@@ -26,4 +27,4 @@ When this property is set to [MarkdownSyntax](../../markdownlistexportmode/), wr
 * Enum [MarkdownListExportMode](../../markdownlistexportmode/)
 * Class [MarkdownSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

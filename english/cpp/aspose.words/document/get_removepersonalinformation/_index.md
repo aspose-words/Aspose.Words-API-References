@@ -1,9 +1,10 @@
 ---
-title: get_RemovePersonalInformation
+title: Aspose::Words::Document::get_RemovePersonalInformation method
+linktitle: get_RemovePersonalInformation
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets a flag indicating that Microsoft Word will remove all user information from comments, revisions and document properties upon saving the document.
+description: 'Aspose::Words::Document::get_RemovePersonalInformation method. Gets or sets a flag indicating that Microsoft Word will remove all user information from comments, revisions and document properties upon saving the document in C++.'
 type: docs
-weight: 573
+weight: 45000
 url: /cpp/aspose.words/document/get_removepersonalinformation/
 ---
 ## Document::get_RemovePersonalInformation method
@@ -52,4 +53,4 @@ ASSERT_EQ(u"John Doe", doc->get_Revisions()->idx_get(0)->get_Author());
 
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

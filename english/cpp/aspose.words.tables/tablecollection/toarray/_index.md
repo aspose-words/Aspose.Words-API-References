@@ -1,9 +1,10 @@
 ---
-title: ToArray
+title: Aspose::Words::Tables::TableCollection::ToArray method
+linktitle: ToArray
 second_title: Aspose.Words for C++ API Reference
-description: Copies all tables from the collection to a new array of tables.
+description: 'Aspose::Words::Tables::TableCollection::ToArray method. Copies all tables from the collection to a new array of tables in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.tables/tablecollection/toarray/
 ---
 ## TableCollection::ToArray method
@@ -69,4 +70,4 @@ for (int i = 0; i < tables->get_Count(); i++)
 * Class [Table](../../table/)
 * Class [TableCollection](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

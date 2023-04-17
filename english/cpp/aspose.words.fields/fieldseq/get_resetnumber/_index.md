@@ -1,9 +1,10 @@
 ---
-title: get_ResetNumber
+title: Aspose::Words::Fields::FieldSeq::get_ResetNumber method
+linktitle: get_ResetNumber
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets an integer number to reset the sequence number to. Returns -1 if the number is absent.
+description: 'Aspose::Words::Fields::FieldSeq::get_ResetNumber method. Gets or sets an integer number to reset the sequence number to. Returns -1 if the number is absent in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.fields/fieldseq/get_resetnumber/
 ---
 ## FieldSeq::get_ResetNumber method
@@ -82,4 +83,4 @@ doc->Save(ArtifactsDir + u"Field.SEQ.ResetNumbering.docx");
 
 * Class [FieldSeq](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

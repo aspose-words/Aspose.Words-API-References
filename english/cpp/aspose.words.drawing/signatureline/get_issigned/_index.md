@@ -1,9 +1,10 @@
 ---
-title: get_IsSigned
+title: Aspose::Words::Drawing::SignatureLine::get_IsSigned method
+linktitle: get_IsSigned
 second_title: Aspose.Words for C++ API Reference
-description: Indicates that signature line is signed by digital signature.
+description: 'Aspose::Words::Drawing::SignatureLine::get_IsSigned method. Indicates that signature line is signed by digital signature in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.drawing/signatureline/get_issigned/
 ---
 ## SignatureLine::get_IsSigned method
@@ -67,4 +68,4 @@ ASSERT_TRUE(signatureLine->get_IsValid());
 
 * Class [SignatureLine](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_ParentSection
+title: Aspose::Words::HeaderFooter::get_ParentSection method
+linktitle: get_ParentSection
 second_title: Aspose.Words for C++ API Reference
-description: Gets the parent section of this story.
+description: 'Aspose::Words::HeaderFooter::get_ParentSection method. Gets the parent section of this story in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words/headerfooter/get_parentsection/
 ---
 ## HeaderFooter::get_ParentSection method
@@ -92,4 +93,4 @@ doc->Save(ArtifactsDir + u"HeaderFooter.Link.docx");
 * Class [Section](../../section/)
 * Class [HeaderFooter](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

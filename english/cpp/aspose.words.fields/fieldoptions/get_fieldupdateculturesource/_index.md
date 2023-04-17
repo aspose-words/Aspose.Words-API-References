@@ -1,9 +1,10 @@
 ---
-title: get_FieldUpdateCultureSource
+title: Aspose::Words::Fields::FieldOptions::get_FieldUpdateCultureSource method
+linktitle: get_FieldUpdateCultureSource
 second_title: Aspose.Words for C++ API Reference
-description: Specifies what culture to use to format the field result.
+description: 'Aspose::Words::Fields::FieldOptions::get_FieldUpdateCultureSource method. Specifies what culture to use to format the field result in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words.fields/fieldoptions/get_fieldupdateculturesource/
 ---
 ## FieldOptions::get_FieldUpdateCultureSource method
@@ -26,4 +27,4 @@ The setting affects only date/time fields with \\@ format switch.
 * Enum [FieldUpdateCultureSource](../../fieldupdateculturesource/)
 * Class [FieldOptions](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

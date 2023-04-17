@@ -1,9 +1,10 @@
 ---
-title: get_IsLocked
+title: Aspose::Words::Drawing::OleFormat::get_IsLocked method
+linktitle: get_IsLocked
 second_title: Aspose.Words for C++ API Reference
-description: Specifies whether the link to the OLE object is locked from updates.
+description: 'Aspose::Words::Drawing::OleFormat::get_IsLocked method. Specifies whether the link to the OLE object is locked from updates in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.drawing/oleformat/get_islocked/
 ---
 ## OleFormat::get_IsLocked method
@@ -58,4 +59,4 @@ oleFormat->Save(ArtifactsDir + u"OLE spreadsheet saved directly" + oleFormat->ge
 
 * Class [OleFormat](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_IsFormatRevision
+title: Aspose::Words::Inline::get_IsFormatRevision method
+linktitle: get_IsFormatRevision
 second_title: Aspose.Words for C++ API Reference
-description: Returns true if formatting of the object was changed in Microsoft Word while change tracking was enabled.
+description: 'Aspose::Words::Inline::get_IsFormatRevision method. Returns true if formatting of the object was changed in Microsoft Word while change tracking was enabled in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words/inline/get_isformatrevision/
 ---
 ## Inline::get_IsFormatRevision method
@@ -74,4 +75,4 @@ ASSERT_TRUE(runs->idx_get(5)->get_IsDeleteRevision());
 
 * Class [Inline](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

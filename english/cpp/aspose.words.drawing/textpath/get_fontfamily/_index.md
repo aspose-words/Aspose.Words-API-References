@@ -1,9 +1,10 @@
 ---
-title: get_FontFamily
+title: Aspose::Words::Drawing::TextPath::get_FontFamily method
+linktitle: get_FontFamily
 second_title: Aspose.Words for C++ API Reference
-description: Defines the family of the textpath font.
+description: 'Aspose::Words::Drawing::TextPath::get_FontFamily method. Defines the family of the textpath font in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.drawing/textpath/get_fontfamily/
 ---
 ## TextPath::get_FontFamily method
@@ -130,4 +131,4 @@ static SharedPtr<Shape> AppendWordArt(SharedPtr<Document> doc, String text, Stri
 
 * Class [TextPath](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

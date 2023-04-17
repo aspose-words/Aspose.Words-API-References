@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Rendering::PageInfo::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Rendering::PageInfo class in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.rendering/pageinfo/gettype/
 ---
 ## PageInfo::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Rendering::PageInfo::GetType() c
 
 * Class [PageInfo](../)
 * Namespace [Aspose::Words::Rendering](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: LayoutOptions
+title: Aspose::Words::Layout::LayoutOptions class
+linktitle: LayoutOptions
 second_title: Aspose.Words for C++ API Reference
-description: Holds the options that allow controlling the document layout process. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Layout::LayoutOptions class. Holds the options that allow controlling the document layout process. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.layout/layoutoptions/
 ---
 ## LayoutOptions class
@@ -103,4 +104,4 @@ doc->Save(ArtifactsDir + u"Document.LayoutOptionsParagraphMarks.pdf");
 ## See Also
 
 * Namespace [Aspose::Words::Layout](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

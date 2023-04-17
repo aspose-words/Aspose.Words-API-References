@@ -1,9 +1,10 @@
 ---
-title: get_FirstColumn
+title: Aspose::Words::ConditionalStyleCollection::get_FirstColumn method
+linktitle: get_FirstColumn
 second_title: Aspose.Words for C++ API Reference
-description: Gets the first column style.
+description: 'Aspose::Words::ConditionalStyleCollection::get_FirstColumn method. Gets the first column style in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words/conditionalstylecollection/get_firstcolumn/
 ---
 ## ConditionalStyleCollection::get_FirstColumn method
@@ -94,4 +95,4 @@ doc->Save(ArtifactsDir + u"Table.ConditionalStyles.docx");
 * Class [ConditionalStyle](../../conditionalstyle/)
 * Class [ConditionalStyleCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

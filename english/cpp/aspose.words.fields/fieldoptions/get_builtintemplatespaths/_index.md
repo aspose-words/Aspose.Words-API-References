@@ -1,9 +1,10 @@
 ---
-title: get_BuiltInTemplatesPaths
+title: Aspose::Words::Fields::FieldOptions::get_BuiltInTemplatesPaths method
+linktitle: get_BuiltInTemplatesPaths
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets paths of MS Word built-in templates.
+description: 'Aspose::Words::Fields::FieldOptions::get_BuiltInTemplatesPaths method. Gets or sets paths of MS Word built-in templates in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.fields/fieldoptions/get_builtintemplatespaths/
 ---
 ## FieldOptions::get_BuiltInTemplatesPaths method
@@ -74,4 +75,4 @@ doc->Save(ArtifactsDir + u"Field.AUTOTEXT.GLOSSARY.dotx");
 
 * Class [FieldOptions](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_EntryCategory
+title: Aspose::Words::Fields::FieldTA::get_EntryCategory method
+linktitle: get_EntryCategory
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the integral entry category, which is a number that corresponds to the order of categories.
+description: 'Aspose::Words::Fields::FieldTA::get_EntryCategory method. Gets or sets the integral entry category, which is a number that corresponds to the order of categories in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fields/fieldta/get_entrycategory/
 ---
 ## FieldTA::get_EntryCategory method
@@ -141,4 +142,4 @@ static SharedPtr<FieldTA> InsertToaEntry(SharedPtr<DocumentBuilder> builder, Str
 
 * Class [FieldTA](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

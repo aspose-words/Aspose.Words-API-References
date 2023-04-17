@@ -1,9 +1,10 @@
 ---
-title: StopTrackRevisions
+title: Aspose::Words::Document::StopTrackRevisions method
+linktitle: StopTrackRevisions
 second_title: Aspose.Words for C++ API Reference
-description: Stops automatic marking of document changes as revisions.
+description: 'Aspose::Words::Document::StopTrackRevisions method. Stops automatic marking of document changes as revisions in C++.'
 type: docs
-weight: 1197
+weight: 93000
 url: /cpp/aspose.words/document/stoptrackrevisions/
 ---
 ## Document::StopTrackRevisions method
@@ -66,4 +67,4 @@ doc->Save(ArtifactsDir + u"Document.StartTrackRevisions.docx");
 
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

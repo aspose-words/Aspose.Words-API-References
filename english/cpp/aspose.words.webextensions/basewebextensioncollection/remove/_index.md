@@ -1,9 +1,10 @@
 ---
-title: Remove
+title: Aspose::Words::WebExtensions::BaseWebExtensionCollection::Remove method
+linktitle: Remove
 second_title: Aspose.Words for C++ API Reference
-description: Removes the item at the specified index from the collection.
+description: 'Aspose::Words::WebExtensions::BaseWebExtensionCollection::Remove method. Removes the item at the specified index from the collection in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words.webextensions/basewebextensioncollection/remove/
 ---
 ## BaseWebExtensionCollection::Remove method
@@ -52,4 +53,4 @@ ASSERT_EQ(0, doc->get_WebExtensionTaskPanes()->get_Count());
 
 * Class [BaseWebExtensionCollection](../)
 * Namespace [Aspose::Words::WebExtensions](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

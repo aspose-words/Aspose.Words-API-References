@@ -1,9 +1,10 @@
 ---
-title: set_DefaultBookmarksOutlineLevel
+title: Aspose::Words::Saving::OutlineOptions::set_DefaultBookmarksOutlineLevel method
+linktitle: set_DefaultBookmarksOutlineLevel
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::OutlineOptions::get_DefaultBookmarksOutlineLevel.'
+description: 'Aspose::Words::Saving::OutlineOptions::set_DefaultBookmarksOutlineLevel method. Setter for Aspose::Words::Saving::OutlineOptions::get_DefaultBookmarksOutlineLevel in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words.saving/outlineoptions/set_defaultbookmarksoutlinelevel/
 ---
 ## OutlineOptions::set_DefaultBookmarksOutlineLevel method
@@ -19,4 +20,4 @@ void Aspose::Words::Saving::OutlineOptions::set_DefaultBookmarksOutlineLevel(int
 
 * Class [OutlineOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

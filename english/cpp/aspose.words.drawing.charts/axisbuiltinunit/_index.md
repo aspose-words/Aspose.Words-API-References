@@ -1,9 +1,10 @@
 ---
-title: AxisBuiltInUnit
+title: Aspose::Words::Drawing::Charts::AxisBuiltInUnit enum
+linktitle: AxisBuiltInUnit
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the display units for an axis.
+description: 'Aspose::Words::Drawing::Charts::AxisBuiltInUnit enum. Specifies the display units for an axis in C++.'
 type: docs
-weight: 248
+weight: 20000
 url: /cpp/aspose.words.drawing.charts/axisbuiltinunit/
 ---
 ## AxisBuiltInUnit enum
@@ -93,4 +94,4 @@ doc->Save(ArtifactsDir + u"Charts.AxisDisplayUnit.docx");
 ## See Also
 
 * Namespace [Aspose::Words::Drawing::Charts](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

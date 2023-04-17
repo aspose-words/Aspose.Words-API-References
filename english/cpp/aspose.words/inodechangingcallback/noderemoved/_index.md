@@ -1,9 +1,10 @@
 ---
-title: NodeRemoved
+title: Aspose::Words::INodeChangingCallback::NodeRemoved method
+linktitle: NodeRemoved
 second_title: Aspose.Words for C++ API Reference
-description: Called when a node belonging to this document has been removed from its parent.
+description: 'Aspose::Words::INodeChangingCallback::NodeRemoved method. Called when a node belonging to this document has been removed from its parent in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words/inodechangingcallback/noderemoved/
 ---
 ## INodeChangingCallback::NodeRemoved method
@@ -98,4 +99,4 @@ private:
 * Class [NodeChangingArgs](../../nodechangingargs/)
 * Interface [INodeChangingCallback](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

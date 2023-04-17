@@ -1,9 +1,10 @@
 ---
-title: 'Aspose::Words::WebExtensions'
+title: Aspose::Words::WebExtensions namespace
+linktitle: Aspose::Words::WebExtensions
 second_title: Aspose.Words for C++ API Reference
-description: The Aspose.Words.WebExtensions namespace provides classes that allow to customize elements and attributes that extend the XML vocabulary for representing Office Add-ins.
+description: 'Aspose::Words::WebExtensions namespace. The Aspose.Words.WebExtensions namespace provides classes that allow to customize elements and attributes that extend the XML vocabulary for representing Office Add-ins in C++.'
 type: docs
-weight: 313
+weight: 25000
 url: /cpp/aspose.words.webextensions/
 ---
 

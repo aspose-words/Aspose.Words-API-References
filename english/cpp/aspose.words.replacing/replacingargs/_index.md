@@ -1,9 +1,10 @@
 ---
-title: ReplacingArgs
+title: Aspose::Words::Replacing::ReplacingArgs class
+linktitle: ReplacingArgs
 second_title: Aspose.Words for C++ API Reference
-description: Provides data for a custom replace operation. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Replacing::ReplacingArgs class. Provides data for a custom replace operation. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.replacing/replacingargs/
 ---
 ## ReplacingArgs class
@@ -162,4 +163,4 @@ static void InsertDocument(SharedPtr<Node> insertionDestination, SharedPtr<Docum
 ## See Also
 
 * Namespace [Aspose::Words::Replacing](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

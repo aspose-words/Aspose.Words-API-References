@@ -1,9 +1,10 @@
 ---
-title: get_UseBookFoldPrintingSettings
+title: Aspose::Words::Saving::PdfSaveOptions::get_UseBookFoldPrintingSettings method
+linktitle: get_UseBookFoldPrintingSettings
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets a boolean value indicating whether the document should be saved using a booklet printing layout, if it is specified via MultiplePages.
+description: 'Aspose::Words::Saving::PdfSaveOptions::get_UseBookFoldPrintingSettings method. Gets or sets a boolean value indicating whether the document should be saved using a booklet printing layout, if it is specified via MultiplePages in C++.'
 type: docs
-weight: 391
+weight: 31000
 url: /cpp/aspose.words.saving/pdfsaveoptions/get_usebookfoldprintingsettings/
 ---
 ## PdfSaveOptions::get_UseBookFoldPrintingSettings method
@@ -56,4 +57,4 @@ doc->Save(ArtifactsDir + u"PdfSaveOptions.SaveAsPdfBookFold.pdf", options);
 
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

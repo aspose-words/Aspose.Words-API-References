@@ -1,9 +1,10 @@
 ---
-title: set_Uri
+title: Aspose::Words::Markup::CustomXmlProperty::set_Uri method
+linktitle: set_Uri
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Markup::CustomXmlProperty::get_Uri.'
+description: 'Aspose::Words::Markup::CustomXmlProperty::set_Uri method. Setter for Aspose::Words::Markup::CustomXmlProperty::get_Uri in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.markup/customxmlproperty/set_uri/
 ---
 ## CustomXmlProperty::set_Uri method
@@ -19,4 +20,4 @@ void Aspose::Words::Markup::CustomXmlProperty::set_Uri(const System::String &val
 
 * Class [CustomXmlProperty](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

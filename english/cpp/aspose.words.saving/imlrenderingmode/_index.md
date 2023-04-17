@@ -1,9 +1,10 @@
 ---
-title: ImlRenderingMode
+title: Aspose::Words::Saving::ImlRenderingMode enum
+linktitle: ImlRenderingMode
 second_title: Aspose.Words for C++ API Reference
-description: Specifies how ink (InkML) objects are rendered to fixed page formats.
+description: 'Aspose::Words::Saving::ImlRenderingMode enum. Specifies how ink (InkML) objects are rendered to fixed page formats in C++.'
 type: docs
-weight: 846
+weight: 66000
 url: /cpp/aspose.words.saving/imlrenderingmode/
 ---
 ## ImlRenderingMode enum
@@ -43,4 +44,4 @@ doc->Save(ArtifactsDir + u"ImageSaveOptions.RenderInkObject.jpeg", saveOptions);
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

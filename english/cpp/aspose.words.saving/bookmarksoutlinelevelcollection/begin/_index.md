@@ -1,9 +1,10 @@
 ---
-title: begin
+title: Aspose::Words::Saving::BookmarksOutlineLevelCollection::begin method
+linktitle: begin
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use begin method of Aspose::Words::Saving::BookmarksOutlineLevelCollection class in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.saving/bookmarksoutlinelevelcollection/begin/
 ---
 ## BookmarksOutlineLevelCollection::begin() const method
@@ -20,7 +21,7 @@ const_iterator Aspose::Words::Saving::BookmarksOutlineLevelCollection::begin() c
 * Typedef [const_iterator](../const_iterator/)
 * Class [BookmarksOutlineLevelCollection](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## BookmarksOutlineLevelCollection::begin() method
 
 
@@ -35,4 +36,4 @@ iterator Aspose::Words::Saving::BookmarksOutlineLevelCollection::begin() noexcep
 * Typedef [iterator](../iterator/)
 * Class [BookmarksOutlineLevelCollection](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

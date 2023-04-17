@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Layout::LayoutOptions::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Layout::LayoutOptions class in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words.layout/layoutoptions/gettype/
 ---
 ## LayoutOptions::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Layout::LayoutOptions::GetType()
 
 * Class [LayoutOptions](../)
 * Namespace [Aspose::Words::Layout](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

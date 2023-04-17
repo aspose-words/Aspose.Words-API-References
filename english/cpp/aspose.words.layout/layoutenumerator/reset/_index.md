@@ -1,9 +1,10 @@
 ---
-title: Reset
+title: Aspose::Words::Layout::LayoutEnumerator::Reset method
+linktitle: Reset
 second_title: Aspose.Words for C++ API Reference
-description: Moves the enumerator to the first page of the document.
+description: 'Aspose::Words::Layout::LayoutEnumerator::Reset method. Moves the enumerator to the first page of the document in C++.'
 type: docs
-weight: 287
+weight: 23000
 url: /cpp/aspose.words.layout/layoutenumerator/reset/
 ---
 ## LayoutEnumerator::Reset method
@@ -146,4 +147,4 @@ static void PrintCurrentEntity(SharedPtr<LayoutEnumerator> layoutEnumerator, int
 
 * Class [LayoutEnumerator](../)
 * Namespace [Aspose::Words::Layout](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

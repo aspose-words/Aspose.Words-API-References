@@ -1,9 +1,10 @@
 ---
-title: get_Title
+title: Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_Title method
+linktitle: get_Title
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the friendly name associated with this structured document tag. Can not be null.
+description: 'Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_Title method. Specifies the friendly name associated with this structured document tag. Can not be null in C++.'
 type: docs
-weight: 235
+weight: 19000
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/get_title/
 ---
 ## StructuredDocumentTagRangeStart::get_Title method
@@ -52,4 +53,4 @@ std::cout << String::Format(u"\t|NodeType: {0}", rangeEndTag->get_NodeType()) <<
 
 * Class [StructuredDocumentTagRangeStart](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

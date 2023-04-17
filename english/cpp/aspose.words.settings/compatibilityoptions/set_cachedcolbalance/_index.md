@@ -1,9 +1,10 @@
 ---
-title: set_CachedColBalance
+title: Aspose::Words::Settings::CompatibilityOptions::set_CachedColBalance method
+linktitle: set_CachedColBalance
 second_title: Aspose.Words for C++ API Reference
-description: Use Cached Paragraph Information for Column Balancing.
+description: 'Aspose::Words::Settings::CompatibilityOptions::set_CachedColBalance method. Use Cached Paragraph Information for Column Balancing in C++.'
 type: docs
-weight: 1067
+weight: 83000
 url: /cpp/aspose.words.settings/compatibilityoptions/set_cachedcolbalance/
 ---
 ## CompatibilityOptions::set_CachedColBalance method
@@ -19,4 +20,4 @@ void Aspose::Words::Settings::CompatibilityOptions::set_CachedColBalance(bool va
 
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

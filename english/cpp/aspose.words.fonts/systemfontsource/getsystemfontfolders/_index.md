@@ -1,9 +1,10 @@
 ---
-title: GetSystemFontFolders
+title: Aspose::Words::Fonts::SystemFontSource::GetSystemFontFolders method
+linktitle: GetSystemFontFolders
 second_title: Aspose.Words for C++ API Reference
-description: Returns system font folders or empty array if folders are not accessible.
+description: 'Aspose::Words::Fonts::SystemFontSource::GetSystemFontFolders method. Returns system font folders or empty array if folders are not accessible in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words.fonts/systemfontsource/getsystemfontfolders/
 ---
 ## SystemFontSource::GetSystemFontFolders method
@@ -75,4 +76,4 @@ ASSERT_EQ(1, doc->get_FontSettings()->get_SubstitutionSettings()->get_TableSubst
 
 * Class [SystemFontSource](../)
 * Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

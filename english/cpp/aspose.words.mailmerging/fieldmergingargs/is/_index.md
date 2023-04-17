@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::MailMerging::FieldMergingArgs::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::MailMerging::FieldMergingArgs class in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.mailmerging/fieldmergingargs/is/
 ---
 ## FieldMergingArgs::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::MailMerging::FieldMergingArgs::Is(const System::Type
 
 * Class [FieldMergingArgs](../)
 * Namespace [Aspose::Words::MailMerging](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

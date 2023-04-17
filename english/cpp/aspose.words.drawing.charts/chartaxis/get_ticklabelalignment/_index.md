@@ -1,9 +1,10 @@
 ---
-title: get_TickLabelAlignment
+title: Aspose::Words::Drawing::Charts::ChartAxis::get_TickLabelAlignment method
+linktitle: get_TickLabelAlignment
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets text alignment of axis tick labels.
+description: 'Aspose::Words::Drawing::Charts::ChartAxis::get_TickLabelAlignment method. Gets or sets text alignment of axis tick labels in C++.'
 type: docs
-weight: 287
+weight: 23000
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_ticklabelalignment/
 ---
 ## ChartAxis::get_TickLabelAlignment method
@@ -84,4 +85,4 @@ doc->Save(ArtifactsDir + u"Charts.AxisDisplayUnit.docx");
 * Enum [ParagraphAlignment](../../../aspose.words/paragraphalignment/)
 * Class [ChartAxis](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

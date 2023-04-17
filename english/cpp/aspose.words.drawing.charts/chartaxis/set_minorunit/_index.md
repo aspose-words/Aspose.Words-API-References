@@ -1,9 +1,10 @@
 ---
-title: set_MinorUnit
+title: Aspose::Words::Drawing::Charts::ChartAxis::set_MinorUnit method
+linktitle: set_MinorUnit
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Drawing::Charts::ChartAxis::get_MinorUnit.'
+description: 'Aspose::Words::Drawing::Charts::ChartAxis::set_MinorUnit method. Setter for Aspose::Words::Drawing::Charts::ChartAxis::get_MinorUnit in C++.'
 type: docs
-weight: 573
+weight: 45000
 url: /cpp/aspose.words.drawing.charts/chartaxis/set_minorunit/
 ---
 ## ChartAxis::set_MinorUnit method
@@ -19,4 +20,4 @@ void Aspose::Words::Drawing::Charts::ChartAxis::set_MinorUnit(double value)
 
 * Class [ChartAxis](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

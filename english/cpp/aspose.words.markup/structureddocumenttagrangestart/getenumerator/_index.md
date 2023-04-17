@@ -1,9 +1,10 @@
 ---
-title: GetEnumerator
+title: Aspose::Words::Markup::StructuredDocumentTagRangeStart::GetEnumerator method
+linktitle: GetEnumerator
 second_title: Aspose.Words for C++ API Reference
-description: Provides support for the for each style iteration over the child nodes of this node.
+description: 'Aspose::Words::Markup::StructuredDocumentTagRangeStart::GetEnumerator method. Provides support for the for each style iteration over the child nodes of this node in C++.'
 type: docs
-weight: 287
+weight: 23000
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/getenumerator/
 ---
 ## StructuredDocumentTagRangeStart::GetEnumerator method
@@ -20,4 +21,4 @@ System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<As
 * Class [Node](../../../aspose.words/node/)
 * Class [StructuredDocumentTagRangeStart](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

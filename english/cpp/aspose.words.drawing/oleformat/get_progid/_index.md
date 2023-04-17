@@ -1,9 +1,10 @@
 ---
-title: get_ProgId
+title: Aspose::Words::Drawing::OleFormat::get_ProgId method
+linktitle: get_ProgId
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the ProgID of the OLE object.
+description: 'Aspose::Words::Drawing::OleFormat::get_ProgId method. Gets or sets the ProgID of the OLE object in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words.drawing/oleformat/get_progid/
 ---
 ## OleFormat::get_ProgId method
@@ -62,4 +63,4 @@ oleFormat->Save(ArtifactsDir + u"OLE spreadsheet saved directly" + oleFormat->ge
 
 * Class [OleFormat](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

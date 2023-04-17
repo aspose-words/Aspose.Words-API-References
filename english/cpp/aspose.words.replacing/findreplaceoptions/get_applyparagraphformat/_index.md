@@ -1,9 +1,10 @@
 ---
-title: get_ApplyParagraphFormat
+title: Aspose::Words::Replacing::FindReplaceOptions::get_ApplyParagraphFormat method
+linktitle: get_ApplyParagraphFormat
 second_title: Aspose.Words for C++ API Reference
-description: Paragraph formatting applied to new content.
+description: 'Aspose::Words::Replacing::FindReplaceOptions::get_ApplyParagraphFormat method. Paragraph formatting applied to new content in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.replacing/findreplaceoptions/get_applyparagraphformat/
 ---
 ## FindReplaceOptions::get_ApplyParagraphFormat method
@@ -59,4 +60,4 @@ ASSERT_EQ(String(u"Every paragraph that ends with a full stop like this one will
 * Class [ParagraphFormat](../../../aspose.words/paragraphformat/)
 * Class [FindReplaceOptions](../)
 * Namespace [Aspose::Words::Replacing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

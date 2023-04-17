@@ -1,9 +1,10 @@
 ---
-title: get_EntryName
+title: Aspose::Words::Fields::FieldAutoText::get_EntryName method
+linktitle: get_EntryName
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the name of the AutoText entry.
+description: 'Aspose::Words::Fields::FieldAutoText::get_EntryName method. Gets or sets the name of the AutoText entry in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fields/fieldautotext/get_entryname/
 ---
 ## FieldAutoText::get_EntryName method
@@ -68,4 +69,4 @@ doc->Save(ArtifactsDir + u"Field.AUTOTEXT.GLOSSARY.dotx");
 
 * Class [FieldAutoText](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

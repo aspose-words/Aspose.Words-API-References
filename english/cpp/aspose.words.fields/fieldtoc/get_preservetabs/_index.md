@@ -1,9 +1,10 @@
 ---
-title: get_PreserveTabs
+title: Aspose::Words::Fields::FieldToc::get_PreserveTabs method
+linktitle: get_PreserveTabs
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets whether to preserve tab entries within table entries.
+description: 'Aspose::Words::Fields::FieldToc::get_PreserveTabs method. Gets or sets whether to preserve tab entries within table entries in C++.'
 type: docs
-weight: 196
+weight: 16000
 url: /cpp/aspose.words.fields/fieldtoc/get_preservetabs/
 ---
 ## FieldToc::get_PreserveTabs method
@@ -100,4 +101,4 @@ void InsertNewPageWithHeading(SharedPtr<DocumentBuilder> builder, String caption
 
 * Class [FieldToc](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

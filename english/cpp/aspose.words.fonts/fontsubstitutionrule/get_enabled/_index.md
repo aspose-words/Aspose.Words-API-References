@@ -1,9 +1,10 @@
 ---
-title: get_Enabled
+title: Aspose::Words::Fonts::FontSubstitutionRule::get_Enabled method
+linktitle: get_Enabled
 second_title: Aspose.Words for C++ API Reference
-description: Specifies whether the rule is enabled or not.
+description: 'Aspose::Words::Fonts::FontSubstitutionRule::get_Enabled method. Specifies whether the rule is enabled or not in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fonts/fontsubstitutionrule/get_enabled/
 ---
 ## FontSubstitutionRule::get_Enabled method
@@ -105,4 +106,4 @@ if (isLinuxOrMac)
 
 * Class [FontSubstitutionRule](../)
 * Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: RegisterDictionary
+title: Aspose::Words::Hyphenation::RegisterDictionary method
+linktitle: RegisterDictionary
 second_title: Aspose.Words for C++ API Reference
-description: Registers and loads a hyphenation dictionary for the specified language from a stream. Throws if dictionary cannot be read or has invalid format.
+description: 'Aspose::Words::Hyphenation::RegisterDictionary method. Registers and loads a hyphenation dictionary for the specified language from a stream. Throws if dictionary cannot be read or has invalid format in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words/hyphenation/registerdictionary/
 ---
 ## Hyphenation::RegisterDictionary(const System::String\&, const System::SharedPtr\<System::IO::Stream\>\&) method
@@ -97,7 +98,7 @@ private:
 
 * Class [Hyphenation](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## Hyphenation::RegisterDictionary(const System::String\&, const System::String\&) method
 
 
@@ -221,7 +222,7 @@ private:
 
 * Class [Hyphenation](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## Hyphenation::RegisterDictionary(System::String, std::basic_istream\<CharType, Traits\>\&) method
 
 
@@ -235,4 +236,4 @@ template<typename CharType,typename Traits> static void Aspose::Words::Hyphenati
 
 * Class [Hyphenation](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

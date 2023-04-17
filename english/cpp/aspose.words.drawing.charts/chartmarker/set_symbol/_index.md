@@ -1,9 +1,10 @@
 ---
-title: set_Symbol
+title: Aspose::Words::Drawing::Charts::ChartMarker::set_Symbol method
+linktitle: set_Symbol
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Drawing::Charts::ChartMarker::get_Symbol.'
+description: 'Aspose::Words::Drawing::Charts::ChartMarker::set_Symbol method. Setter for Aspose::Words::Drawing::Charts::ChartMarker::get_Symbol in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.drawing.charts/chartmarker/set_symbol/
 ---
 ## ChartMarker::set_Symbol method
@@ -20,4 +21,4 @@ void Aspose::Words::Drawing::Charts::ChartMarker::set_Symbol(Aspose::Words::Draw
 * Enum [MarkerSymbol](../../markersymbol/)
 * Class [ChartMarker](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

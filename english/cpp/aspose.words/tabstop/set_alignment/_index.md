@@ -1,9 +1,10 @@
 ---
-title: set_Alignment
+title: Aspose::Words::TabStop::set_Alignment method
+linktitle: set_Alignment
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::TabStop::get_Alignment.'
+description: 'Aspose::Words::TabStop::set_Alignment method. Setter for Aspose::Words::TabStop::get_Alignment in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words/tabstop/set_alignment/
 ---
 ## TabStop::set_Alignment method
@@ -20,4 +21,4 @@ void Aspose::Words::TabStop::set_Alignment(Aspose::Words::TabAlignment value)
 * Enum [TabAlignment](../../tabalignment/)
 * Class [TabStop](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

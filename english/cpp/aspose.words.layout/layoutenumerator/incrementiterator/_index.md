@@ -1,9 +1,10 @@
 ---
-title: IncrementIterator
+title: Aspose::Words::Layout::LayoutEnumerator::IncrementIterator method
+linktitle: IncrementIterator
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use IncrementIterator method of Aspose::Words::Layout::LayoutEnumerator class in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words.layout/layoutenumerator/incrementiterator/
 ---
 ## LayoutEnumerator::IncrementIterator method
@@ -19,4 +20,4 @@ void Aspose::Words::Layout::LayoutEnumerator::IncrementIterator() override
 
 * Class [LayoutEnumerator](../)
 * Namespace [Aspose::Words::Layout](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

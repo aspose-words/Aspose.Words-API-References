@@ -1,9 +1,10 @@
 ---
-title: set_BorderSurroundsFooter
+title: Aspose::Words::PageSetup::set_BorderSurroundsFooter method
+linktitle: set_BorderSurroundsFooter
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::PageSetup::get_BorderSurroundsFooter.'
+description: 'Aspose::Words::PageSetup::set_BorderSurroundsFooter method. Setter for Aspose::Words::PageSetup::get_BorderSurroundsFooter in C++.'
 type: docs
-weight: 690
+weight: 54000
 url: /cpp/aspose.words/pagesetup/set_bordersurroundsfooter/
 ---
 ## PageSetup::set_BorderSurroundsFooter method
@@ -19,4 +20,4 @@ void Aspose::Words::PageSetup::set_BorderSurroundsFooter(bool value)
 
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

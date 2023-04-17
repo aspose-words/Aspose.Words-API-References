@@ -1,9 +1,10 @@
 ---
-title: NodeList
+title: Aspose::Words::NodeList::NodeList constructor
+linktitle: NodeList
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use NodeList constructor of Aspose::Words::NodeList class in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words/nodelist/nodelist/
 ---
 ## NodeList::NodeList constructor
@@ -20,4 +21,4 @@ Aspose::Words::NodeList::NodeList(const System::SharedPtr<Aspose::Words::NodeCol
 * Class [NodeCollection](../../nodecollection/)
 * Class [NodeList](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

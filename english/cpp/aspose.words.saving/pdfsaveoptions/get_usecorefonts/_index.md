@@ -1,9 +1,10 @@
 ---
-title: get_UseCoreFonts
+title: Aspose::Words::Saving::PdfSaveOptions::get_UseCoreFonts method
+linktitle: get_UseCoreFonts
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets a value determining whether or not to substitute TrueType fonts Arial, Times New Roman, Courier New and Symbol with core PDF Type 1 fonts.
+description: 'Aspose::Words::Saving::PdfSaveOptions::get_UseCoreFonts method. Gets or sets a value determining whether or not to substitute TrueType fonts Arial, Times New Roman, Courier New and Symbol with core PDF Type 1 fonts in C++.'
 type: docs
-weight: 404
+weight: 32000
 url: /cpp/aspose.words.saving/pdfsaveoptions/get_usecorefonts/
 ---
 ## PdfSaveOptions::get_UseCoreFonts method
@@ -69,4 +70,4 @@ else
 
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: GetById
+title: Aspose::Words::Markup::CustomXmlPartCollection::GetById method
+linktitle: GetById
 second_title: Aspose.Words for C++ API Reference
-description: Finds and returns a custom XML part by its identifier.
+description: 'Aspose::Words::Markup::CustomXmlPartCollection::GetById method. Finds and returns a custom XML part by its identifier in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words.markup/customxmlpartcollection/getbyid/
 ---
 ## CustomXmlPartCollection::GetById method
@@ -94,4 +95,4 @@ doc->Save(ArtifactsDir + u"StructuredDocumentTag.CustomXml.docx");
 * Class [CustomXmlPart](../../customxmlpart/)
 * Class [CustomXmlPartCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_SizeInPoints
+title: Aspose::Words::Rendering::PageInfo::get_SizeInPoints method
+linktitle: get_SizeInPoints
 second_title: Aspose.Words for C++ API Reference
-description: Gets the page size in points.
+description: 'Aspose::Words::Rendering::PageInfo::get_SizeInPoints method. Gets the page size in points in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.rendering/pageinfo/get_sizeinpoints/
 ---
 ## PageInfo::get_SizeInPoints method
@@ -19,4 +20,4 @@ System::Drawing::SizeF Aspose::Words::Rendering::PageInfo::get_SizeInPoints() co
 
 * Class [PageInfo](../)
 * Namespace [Aspose::Words::Rendering](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

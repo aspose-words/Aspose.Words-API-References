@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Drawing::Charts::ChartSeriesCollection::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Drawing::Charts::ChartSeriesCollection class in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.drawing.charts/chartseriescollection/is/
 ---
 ## ChartSeriesCollection::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Drawing::Charts::ChartSeriesCollection::Is(const Sys
 
 * Class [ChartSeriesCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

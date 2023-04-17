@@ -1,9 +1,10 @@
 ---
-title: FieldDatabaseFormatAttributes
+title: Aspose::Words::Fields::FieldDatabaseFormatAttributes enum
+linktitle: FieldDatabaseFormatAttributes
 second_title: Aspose.Words for C++ API Reference
-description: FieldDatabaseFormatAttributes enumeration.
+description: 'Aspose::Words::Fields::FieldDatabaseFormatAttributes enum. FieldDatabaseFormatAttributes enumeration in C++.'
 type: docs
-weight: 1626
+weight: 126000
 url: /cpp/aspose.words.fields/fielddatabaseformatattributes/
 ---
 ## FieldDatabaseFormatAttributes enum
@@ -33,4 +34,4 @@ enum class FieldDatabaseFormatAttributes
 ## See Also
 
 * Namespace [Aspose::Words::Fields](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

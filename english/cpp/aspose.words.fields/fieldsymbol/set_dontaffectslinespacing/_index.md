@@ -1,9 +1,10 @@
 ---
-title: set_DontAffectsLineSpacing
+title: Aspose::Words::Fields::FieldSymbol::set_DontAffectsLineSpacing method
+linktitle: set_DontAffectsLineSpacing
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fields::FieldSymbol::get_DontAffectsLineSpacing.'
+description: 'Aspose::Words::Fields::FieldSymbol::set_DontAffectsLineSpacing method. Setter for Aspose::Words::Fields::FieldSymbol::get_DontAffectsLineSpacing in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words.fields/fieldsymbol/set_dontaffectslinespacing/
 ---
 ## FieldSymbol::set_DontAffectsLineSpacing method
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldSymbol::set_DontAffectsLineSpacing(bool value)
 
 * Class [FieldSymbol](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: set_DecryptionPassword
+title: Aspose::Words::DigitalSignatures::SignOptions::set_DecryptionPassword method
+linktitle: set_DecryptionPassword
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::DigitalSignatures::SignOptions::get_DecryptionPassword.'
+description: 'Aspose::Words::DigitalSignatures::SignOptions::set_DecryptionPassword method. Setter for Aspose::Words::DigitalSignatures::SignOptions::get_DecryptionPassword in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words.digitalsignatures/signoptions/set_decryptionpassword/
 ---
 ## SignOptions::set_DecryptionPassword method
@@ -19,4 +20,4 @@ void Aspose::Words::DigitalSignatures::SignOptions::set_DecryptionPassword(const
 
 * Class [SignOptions](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

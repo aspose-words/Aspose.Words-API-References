@@ -1,9 +1,10 @@
 ---
-title: HorizontalAlignment
+title: Aspose::Words::Drawing::HorizontalAlignment enum
+linktitle: HorizontalAlignment
 second_title: Aspose.Words for C++ API Reference
-description: Specifies horizontal alignment of a floating shape, text frame or floating table.
+description: 'Aspose::Words::Drawing::HorizontalAlignment enum. Specifies horizontal alignment of a floating shape, text frame or floating table in C++.'
 type: docs
-weight: 326
+weight: 26000
 url: /cpp/aspose.words.drawing/horizontalalignment/
 ---
 ## HorizontalAlignment enum
@@ -52,4 +53,4 @@ doc->Save(ArtifactsDir + u"Image.CreateFloatingPageCenter.docx");
 ## See Also
 
 * Namespace [Aspose::Words::Drawing](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

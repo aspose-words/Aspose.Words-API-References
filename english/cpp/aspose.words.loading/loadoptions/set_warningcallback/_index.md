@@ -1,9 +1,10 @@
 ---
-title: set_WarningCallback
+title: Aspose::Words::Loading::LoadOptions::set_WarningCallback method
+linktitle: set_WarningCallback
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Loading::LoadOptions::get_WarningCallback.'
+description: 'Aspose::Words::Loading::LoadOptions::set_WarningCallback method. Setter for Aspose::Words::Loading::LoadOptions::get_WarningCallback in C++.'
 type: docs
-weight: 443
+weight: 35000
 url: /cpp/aspose.words.loading/loadoptions/set_warningcallback/
 ---
 ## LoadOptions::set_WarningCallback method
@@ -20,4 +21,4 @@ void Aspose::Words::Loading::LoadOptions::set_WarningCallback(const System::Shar
 * Interface [IWarningCallback](../../../aspose.words/iwarningcallback/)
 * Class [LoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: iterator
+title: Aspose::Words::RevisionGroupCollection::iterator typedef
+linktitle: iterator
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Aspose::Words::RevisionGroupCollection::iterator typedef of Aspose::Words::RevisionGroupCollection class in C++.'
 type: docs
-weight: 196
+weight: 16000
 url: /cpp/aspose.words/revisiongroupcollection/iterator/
 ---
 ## iterator typedef
@@ -19,4 +20,4 @@ using Aspose::Words::RevisionGroupCollection::iterator =  typename iterator_hold
 
 * Class [RevisionGroupCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_Justification
+title: Aspose::Words::Math::OfficeMath::get_Justification method
+linktitle: get_Justification
 second_title: Aspose.Words for C++ API Reference
-description: Gets/sets Office Math justification.
+description: 'Aspose::Words::Math::OfficeMath::get_Justification method. Gets/sets Office Math justification in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.math/officemath/get_justification/
 ---
 ## OfficeMath::get_Justification method
@@ -40,9 +41,6 @@ ASSERT_EQ(MathObjectType::OMathPara, officeMath->get_MathObjectType());
 ASSERT_EQ(NodeType::OfficeMath, officeMath->get_NodeType());
 ASPOSE_ASSERT_EQ(officeMath->get_ParentNode(), officeMath->get_ParentParagraph());
 
-// OOXML and WML formats use the "EquationXmlEncoding" property.
-ASSERT_TRUE(officeMath->get_EquationXmlEncoding() == nullptr);
-
 // Change the location and display type of the OfficeMath node.
 officeMath->set_DisplayType(OfficeMathDisplayType::Display);
 officeMath->set_Justification(OfficeMathJustification::Left);
@@ -55,4 +53,4 @@ doc->Save(ArtifactsDir + u"Shape.OfficeMath.docx");
 * Enum [OfficeMathJustification](../../officemathjustification/)
 * Class [OfficeMath](../)
 * Namespace [Aspose::Words::Math](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

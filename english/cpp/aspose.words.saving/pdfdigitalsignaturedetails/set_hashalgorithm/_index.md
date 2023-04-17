@@ -1,9 +1,10 @@
 ---
-title: set_HashAlgorithm
+title: Aspose::Words::Saving::PdfDigitalSignatureDetails::set_HashAlgorithm method
+linktitle: set_HashAlgorithm
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::PdfDigitalSignatureDetails::get_HashAlgorithm.'
+description: 'Aspose::Words::Saving::PdfDigitalSignatureDetails::set_HashAlgorithm method. Setter for Aspose::Words::Saving::PdfDigitalSignatureDetails::get_HashAlgorithm in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words.saving/pdfdigitalsignaturedetails/set_hashalgorithm/
 ---
 ## PdfDigitalSignatureDetails::set_HashAlgorithm method
@@ -20,4 +21,4 @@ void Aspose::Words::Saving::PdfDigitalSignatureDetails::set_HashAlgorithm(Aspose
 * Enum [PdfDigitalSignatureHashAlgorithm](../../pdfdigitalsignaturehashalgorithm/)
 * Class [PdfDigitalSignatureDetails](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

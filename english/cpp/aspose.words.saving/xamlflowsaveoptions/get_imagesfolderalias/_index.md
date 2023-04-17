@@ -1,9 +1,10 @@
 ---
-title: get_ImagesFolderAlias
+title: Aspose::Words::Saving::XamlFlowSaveOptions::get_ImagesFolderAlias method
+linktitle: get_ImagesFolderAlias
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the name of the folder used to construct image URIs written into an XAML document. Default is an empty string.
+description: 'Aspose::Words::Saving::XamlFlowSaveOptions::get_ImagesFolderAlias method. Specifies the name of the folder used to construct image URIs written into an XAML document. Default is an empty string in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.saving/xamlflowsaveoptions/get_imagesfolderalias/
 ---
 ## XamlFlowSaveOptions::get_ImagesFolderAlias method
@@ -106,4 +107,4 @@ private:
 
 * Class [XamlFlowSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

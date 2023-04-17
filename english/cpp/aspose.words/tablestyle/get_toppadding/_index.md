@@ -1,9 +1,10 @@
 ---
-title: get_TopPadding
+title: Aspose::Words::TableStyle::get_TopPadding method
+linktitle: get_TopPadding
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the amount of space (in points) to add above the contents of table cells.
+description: 'Aspose::Words::TableStyle::get_TopPadding method. Gets or sets the amount of space (in points) to add above the contents of table cells in C++.'
 type: docs
-weight: 183
+weight: 15000
 url: /cpp/aspose.words/tablestyle/get_toppadding/
 ---
 ## TableStyle::get_TopPadding method
@@ -62,4 +63,4 @@ doc->Save(ArtifactsDir + u"Table.TableStyleCreation.docx");
 
 * Class [TableStyle](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

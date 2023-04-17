@@ -1,9 +1,10 @@
 ---
-title: ContentTypeToLoadFormat
+title: Aspose::Words::FileFormatUtil::ContentTypeToLoadFormat method
+linktitle: ContentTypeToLoadFormat
 second_title: Aspose.Words for C++ API Reference
-description: Converts IANA content type into a load format enumerated value.
+description: 'Aspose::Words::FileFormatUtil::ContentTypeToLoadFormat method. Converts IANA content type into a load format enumerated value in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words/fileformatutil/contenttypetoloadformat/
 ---
 ## FileFormatUtil::ContentTypeToLoadFormat method
@@ -69,4 +70,4 @@ ASSERT_EQ(SaveFormat::Mhtml, FileFormatUtil::ContentTypeToSaveFormat(u"multipart
 * Enum [LoadFormat](../../loadformat/)
 * Class [FileFormatUtil](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: ToByteArray
+title: Aspose::Words::Drawing::ImageData::ToByteArray method
+linktitle: ToByteArray
 second_title: Aspose.Words for C++ API Reference
-description: Returns image bytes for any image regardless whether the image is stored or linked.
+description: 'Aspose::Words::Drawing::ImageData::ToByteArray method. Returns image bytes for any image regardless whether the image is stored or linked in C++.'
 type: docs
-weight: 456
+weight: 36000
 url: /cpp/aspose.words.drawing/imagedata/tobytearray/
 ---
 ## ImageData::ToByteArray method
@@ -50,4 +51,4 @@ ASPOSE_ASSERT_EQ(imgShape->get_ImageData()->get_ImageBytes(), imgShape->get_Imag
 
 * Class [ImageData](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

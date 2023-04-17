@@ -1,9 +1,10 @@
 ---
-title: InsertChart
+title: Aspose::Words::DocumentBuilder::InsertChart method
+linktitle: InsertChart
 second_title: Aspose.Words for C++ API Reference
-description: Inserts an chart object into the document and scales it to the specified size.
+description: 'Aspose::Words::DocumentBuilder::InsertChart method. Inserts an chart object into the document and scales it to the specified size in C++.'
 type: docs
-weight: 378
+weight: 30000
 url: /cpp/aspose.words/documentbuilder/insertchart/
 ---
 ## DocumentBuilder::InsertChart(Aspose::Words::Drawing::Charts::ChartType, Aspose::Words::Drawing::RelativeHorizontalPosition, double, Aspose::Words::Drawing::RelativeVerticalPosition, double, double, double, Aspose::Words::Drawing::WrapType) method
@@ -58,7 +59,7 @@ doc->Save(ArtifactsDir + u"DocumentBuilder.InsertedChartRelativePosition.docx");
 * Enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## DocumentBuilder::InsertChart(Aspose::Words::Drawing::Charts::ChartType, double, double) method
 
 
@@ -105,4 +106,4 @@ doc->Save(ArtifactsDir + u"DocumentBuilder.InsertPieChart.docx");
 * Enum [ChartType](../../../aspose.words.drawing.charts/charttype/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

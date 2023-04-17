@@ -1,9 +1,10 @@
 ---
-title: get_Text
+title: Aspose::Words::Fields::FieldTitle::get_Text method
+linktitle: get_Text
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the text of the title.
+description: 'Aspose::Words::Fields::FieldTitle::get_Text method. Gets or sets the text of the title in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fields/fieldtitle/get_text/
 ---
 ## FieldTitle::get_Text method
@@ -54,4 +55,4 @@ doc->Save(ArtifactsDir + u"Field.TITLE.docx");
 
 * Class [FieldTitle](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

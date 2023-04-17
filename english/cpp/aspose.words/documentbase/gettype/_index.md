@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::DocumentBase::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::DocumentBase class in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words/documentbase/gettype/
 ---
 ## DocumentBase::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::DocumentBase::GetType() const ov
 
 * Class [DocumentBase](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

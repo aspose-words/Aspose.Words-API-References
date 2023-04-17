@@ -1,9 +1,10 @@
 ---
-title: AcceptAll
+title: Aspose::Words::RevisionCollection::AcceptAll method
+linktitle: AcceptAll
 second_title: Aspose.Words for C++ API Reference
-description: Accepts all revisions in this collection.
+description: 'Aspose::Words::RevisionCollection::AcceptAll method. Accepts all revisions in this collection in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words/revisioncollection/acceptall/
 ---
 ## RevisionCollection::AcceptAll method
@@ -55,4 +56,4 @@ ASSERT_EQ(docOriginal->GetText(), docEdited->GetText());
 
 * Class [RevisionCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

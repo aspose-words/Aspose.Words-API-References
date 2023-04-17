@@ -1,9 +1,10 @@
 ---
-title: VbaProject
+title: Aspose::Words::Vba::VbaProject::VbaProject constructor
+linktitle: VbaProject
 second_title: Aspose.Words for C++ API Reference
-description: Creates a blank VbaProject.
+description: 'Aspose::Words::Vba::VbaProject::VbaProject constructor. Creates a blank VbaProject in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.vba/vbaproject/vbaproject/
 ---
 ## VbaProject::VbaProject constructor
@@ -45,4 +46,4 @@ doc->Save(ArtifactsDir + u"VbaProject.CreateVBAMacros.docm");
 
 * Class [VbaProject](../)
 * Namespace [Aspose::Words::Vba](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

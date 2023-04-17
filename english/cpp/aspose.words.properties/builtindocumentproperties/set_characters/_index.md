@@ -1,9 +1,10 @@
 ---
-title: set_Characters
+title: Aspose::Words::Properties::BuiltInDocumentProperties::set_Characters method
+linktitle: set_Characters
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Properties::BuiltInDocumentProperties::get_Characters.'
+description: 'Aspose::Words::Properties::BuiltInDocumentProperties::set_Characters method. Setter for Aspose::Words::Properties::BuiltInDocumentProperties::get_Characters in C++.'
 type: docs
-weight: 508
+weight: 40000
 url: /cpp/aspose.words.properties/builtindocumentproperties/set_characters/
 ---
 ## BuiltInDocumentProperties::set_Characters method
@@ -19,4 +20,4 @@ void Aspose::Words::Properties::BuiltInDocumentProperties::set_Characters(int32_
 
 * Class [BuiltInDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

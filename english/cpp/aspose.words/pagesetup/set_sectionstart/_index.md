@@ -1,9 +1,10 @@
 ---
-title: set_SectionStart
+title: Aspose::Words::PageSetup::set_SectionStart method
+linktitle: set_SectionStart
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::PageSetup::get_SectionStart.'
+description: 'Aspose::Words::PageSetup::set_SectionStart method. Setter for Aspose::Words::PageSetup::get_SectionStart in C++.'
 type: docs
-weight: 1093
+weight: 85000
 url: /cpp/aspose.words/pagesetup/set_sectionstart/
 ---
 ## PageSetup::set_SectionStart method
@@ -20,4 +21,4 @@ void Aspose::Words::PageSetup::set_SectionStart(Aspose::Words::SectionStart valu
 * Enum [SectionStart](../../sectionstart/)
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

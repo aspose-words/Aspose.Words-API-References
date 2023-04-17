@@ -1,9 +1,10 @@
 ---
-title: Cell
+title: Aspose::Words::Tables::Cell class
+linktitle: Cell
 second_title: Aspose.Words for C++ API Reference
-description: Represents a table cell. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Tables::Cell class. Represents a table cell. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words.tables/cell/
 ---
 ## Cell class
@@ -205,4 +206,4 @@ static SharedPtr<Table> CreateTable(SharedPtr<Document> doc, int rowCount, int c
 
 * Class [CompositeNode](../../aspose.words/compositenode/)
 * Namespace [Aspose::Words::Tables](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

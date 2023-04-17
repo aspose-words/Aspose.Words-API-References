@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Saving::MetafileRenderingOptions::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Saving::MetafileRenderingOptions class in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words.saving/metafilerenderingoptions/is/
 ---
 ## MetafileRenderingOptions::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Saving::MetafileRenderingOptions::Is(const System::T
 
 * Class [MetafileRenderingOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

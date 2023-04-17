@@ -1,9 +1,10 @@
 ---
-title: ChartLegendEntryCollection
+title: Aspose::Words::Drawing::Charts::ChartLegendEntryCollection class
+linktitle: ChartLegendEntryCollection
 second_title: Aspose.Words for C++ API Reference
-description: Represents a collection of chart legend entries. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Drawing::Charts::ChartLegendEntryCollection class. Represents a collection of chart legend entries. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words.drawing.charts/chartlegendentrycollection/
 ---
 ## ChartLegendEntryCollection class
@@ -28,4 +29,4 @@ class ChartLegendEntryCollection : public System::Collections::Generic::IEnumera
 ## See Also
 
 * Namespace [Aspose::Words::Drawing::Charts](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

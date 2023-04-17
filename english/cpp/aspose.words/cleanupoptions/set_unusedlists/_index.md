@@ -1,9 +1,10 @@
 ---
-title: set_UnusedLists
+title: Aspose::Words::CleanupOptions::set_UnusedLists method
+linktitle: set_UnusedLists
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::CleanupOptions::get_UnusedLists.'
+description: 'Aspose::Words::CleanupOptions::set_UnusedLists method. Setter for Aspose::Words::CleanupOptions::get_UnusedLists in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words/cleanupoptions/set_unusedlists/
 ---
 ## CleanupOptions::set_UnusedLists method
@@ -19,4 +20,4 @@ void Aspose::Words::CleanupOptions::set_UnusedLists(bool value)
 
 * Class [CleanupOptions](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

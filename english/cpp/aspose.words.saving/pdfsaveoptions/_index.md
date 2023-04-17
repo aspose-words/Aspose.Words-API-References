@@ -1,9 +1,10 @@
 ---
-title: PdfSaveOptions
+title: Aspose::Words::Saving::PdfSaveOptions class
+linktitle: PdfSaveOptions
 second_title: Aspose.Words for C++ API Reference
-description: Can be used to specify additional options when saving a document into the Pdf format. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Saving::PdfSaveOptions class. Can be used to specify additional options when saving a document into the Pdf format. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 313
+weight: 25000
 url: /cpp/aspose.words.saving/pdfsaveoptions/
 ---
 ## PdfSaveOptions class
@@ -240,4 +241,4 @@ doc->Save(ArtifactsDir + u"PdfSaveOptions.ColorRendering.pdf", pdfSaveOptions);
 
 * Class [FixedPageSaveOptions](../fixedpagesaveoptions/)
 * Namespace [Aspose::Words::Saving](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

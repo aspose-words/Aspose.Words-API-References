@@ -1,9 +1,10 @@
 ---
-title: Type
+title: Aspose::Words::Drawing::Charts::ChartLegend::Type method
+linktitle: Type
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Type method of Aspose::Words::Drawing::Charts::ChartLegend class in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words.drawing.charts/chartlegend/type/
 ---
 ## ChartLegend::Type method
@@ -19,4 +20,4 @@ static const System::TypeInfo & Aspose::Words::Drawing::Charts::ChartLegend::Typ
 
 * Class [ChartLegend](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

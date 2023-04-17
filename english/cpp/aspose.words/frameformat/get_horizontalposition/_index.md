@@ -1,9 +1,10 @@
 ---
-title: get_HorizontalPosition
+title: Aspose::Words::FrameFormat::get_HorizontalPosition method
+linktitle: get_HorizontalPosition
 second_title: Aspose.Words for C++ API Reference
-description: Gets horizontal distance between the edge of the frame and the item specified by the RelativeHorizontalPosition property.
+description: 'Aspose::Words::FrameFormat::get_HorizontalPosition method. Gets horizontal distance between the edge of the frame and the item specified by the RelativeHorizontalPosition property in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words/frameformat/get_horizontalposition/
 ---
 ## FrameFormat::get_HorizontalPosition method
@@ -44,4 +45,4 @@ ASPOSE_ASSERT_EQ(0.0, paragraphFrame->get_FrameFormat()->get_VerticalDistanceFro
 
 * Class [FrameFormat](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

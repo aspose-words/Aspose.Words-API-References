@@ -1,9 +1,10 @@
 ---
-title: GradientStop
+title: Aspose::Words::Drawing::GradientStop::GradientStop constructor
+linktitle: GradientStop
 second_title: Aspose.Words for C++ API Reference
-description: Initializes a new instance of the GradientStop class.
+description: 'Aspose::Words::Drawing::GradientStop::GradientStop constructor. Initializes a new instance of the GradientStop class in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.drawing/gradientstop/gradientstop/
 ---
 ## GradientStop::GradientStop(System::Drawing::Color, double) constructor
@@ -77,7 +78,7 @@ doc->Save(ArtifactsDir + u"Shape.GradientStops.docx", saveOptions);
 
 * Class [GradientStop](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## GradientStop::GradientStop(System::Drawing::Color, double, double) constructor
 
 
@@ -150,4 +151,4 @@ doc->Save(ArtifactsDir + u"Shape.GradientStops.docx", saveOptions);
 
 * Class [GradientStop](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_NameFormat
+title: Aspose::Words::Fields::FieldGreetingLine::get_NameFormat method
+linktitle: get_NameFormat
 second_title: Aspose.Words for C++ API Reference
-description: Gets the format of the name included in the field.
+description: 'Aspose::Words::Fields::FieldGreetingLine::get_NameFormat method. Gets the format of the name included in the field in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.fields/fieldgreetingline/get_nameformat/
 ---
 ## FieldGreetingLine::get_NameFormat method
@@ -19,4 +20,4 @@ System::String Aspose::Words::Fields::FieldGreetingLine::get_NameFormat()
 
 * Class [FieldGreetingLine](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

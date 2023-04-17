@@ -1,9 +1,10 @@
 ---
-title: get_ZoomFactor
+title: Aspose::Words::Saving::PdfSaveOptions::get_ZoomFactor method
+linktitle: get_ZoomFactor
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets a value determining zoom factor (in percentages) for a document.
+description: 'Aspose::Words::Saving::PdfSaveOptions::get_ZoomFactor method. Gets or sets a value determining zoom factor (in percentages) for a document in C++.'
 type: docs
-weight: 430
+weight: 34000
 url: /cpp/aspose.words.saving/pdfsaveoptions/get_zoomfactor/
 ---
 ## PdfSaveOptions::get_ZoomFactor method
@@ -43,4 +44,4 @@ doc->Save(ArtifactsDir + u"PdfSaveOptions.ZoomBehaviour.pdf", options);
 
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: set_LockContents
+title: Aspose::Words::Markup::StructuredDocumentTag::set_LockContents method
+linktitle: set_LockContents
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Markup::StructuredDocumentTag::get_LockContents.'
+description: 'Aspose::Words::Markup::StructuredDocumentTag::set_LockContents method. Setter for Aspose::Words::Markup::StructuredDocumentTag::get_LockContents in C++.'
 type: docs
-weight: 651
+weight: 51000
 url: /cpp/aspose.words.markup/structureddocumenttag/set_lockcontents/
 ---
 ## StructuredDocumentTag::set_LockContents method
@@ -19,4 +20,4 @@ void Aspose::Words::Markup::StructuredDocumentTag::set_LockContents(bool value) 
 
 * Class [StructuredDocumentTag](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

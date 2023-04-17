@@ -1,9 +1,10 @@
 ---
-title: RemoveAt
+title: Aspose::Words::Vba::VbaReferenceCollection::RemoveAt method
+linktitle: RemoveAt
 second_title: Aspose.Words for C++ API Reference
-description: Removes the VbaReference element at the specified index of the collection.
+description: 'Aspose::Words::Vba::VbaReferenceCollection::RemoveAt method. Removes the VbaReference element at the specified index of the collection in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words.vba/vbareferencecollection/removeat/
 ---
 ## VbaReferenceCollection::RemoveAt method
@@ -89,4 +90,4 @@ static String GetLibIdProjectPath(String libIdProject)
 
 * Class [VbaReferenceCollection](../)
 * Namespace [Aspose::Words::Vba](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

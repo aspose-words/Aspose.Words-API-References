@@ -1,9 +1,10 @@
 ---
-title: VisitShapeStart
+title: Aspose::Words::DocumentVisitor::VisitShapeStart method
+linktitle: VisitShapeStart
 second_title: Aspose.Words for C++ API Reference
-description: Called when enumeration of a shape has started.
+description: 'Aspose::Words::DocumentVisitor::VisitShapeStart method. Called when enumeration of a shape has started in C++.'
 type: docs
-weight: 547
+weight: 43000
 url: /cpp/aspose.words/documentvisitor/visitshapestart/
 ---
 ## DocumentVisitor::VisitShapeStart method
@@ -290,4 +291,4 @@ public:
 * Class [Shape](../../../aspose.words.drawing/shape/)
 * Class [DocumentVisitor](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: ListLevel
+title: Aspose::Words::Lists::ListLevel class
+linktitle: ListLevel
 second_title: Aspose.Words for C++ API Reference
-description: Defines formatting for a list level. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Lists::ListLevel class. Defines formatting for a list level. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.lists/listlevel/
 ---
 ## ListLevel class
@@ -119,4 +120,4 @@ builder->get_Document()->Save(ArtifactsDir + u"Lists.CreateCustomList.docx");
 ## See Also
 
 * Namespace [Aspose::Words::Lists](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

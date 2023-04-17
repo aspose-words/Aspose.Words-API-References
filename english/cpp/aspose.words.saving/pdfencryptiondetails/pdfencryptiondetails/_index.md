@@ -1,9 +1,10 @@
 ---
-title: PdfEncryptionDetails
+title: Aspose::Words::Saving::PdfEncryptionDetails::PdfEncryptionDetails constructor
+linktitle: PdfEncryptionDetails
 second_title: Aspose.Words for C++ API Reference
-description: Initializes an instance of this class.
+description: 'Aspose::Words::Saving::PdfEncryptionDetails::PdfEncryptionDetails constructor. Initializes an instance of this class in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.saving/pdfencryptiondetails/pdfencryptiondetails/
 ---
 ## PdfEncryptionDetails::PdfEncryptionDetails constructor
@@ -50,4 +51,4 @@ doc->Save(ArtifactsDir + u"PdfSaveOptions.EncryptionPermissions.pdf", saveOption
 
 * Class [PdfEncryptionDetails](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

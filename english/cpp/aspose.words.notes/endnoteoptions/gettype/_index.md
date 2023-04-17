@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Notes::EndnoteOptions::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Notes::EndnoteOptions class in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.notes/endnoteoptions/gettype/
 ---
 ## EndnoteOptions::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Notes::EndnoteOptions::GetType()
 
 * Class [EndnoteOptions](../)
 * Namespace [Aspose::Words::Notes](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

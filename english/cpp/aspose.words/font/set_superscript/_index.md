@@ -1,9 +1,10 @@
 ---
-title: set_Superscript
+title: Aspose::Words::Font::set_Superscript method
+linktitle: set_Superscript
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Font::get_Superscript.'
+description: 'Aspose::Words::Font::set_Superscript method. Setter for Aspose::Words::Font::get_Superscript in C++.'
 type: docs
-weight: 1262
+weight: 98000
 url: /cpp/aspose.words/font/set_superscript/
 ---
 ## Font::set_Superscript method
@@ -19,4 +20,4 @@ void Aspose::Words::Font::set_Superscript(bool value)
 
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Drawing::TextBox::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Drawing::TextBox class in C++.'
 type: docs
-weight: 183
+weight: 15000
 url: /cpp/aspose.words.drawing/textbox/gettype/
 ---
 ## TextBox::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Drawing::TextBox::GetType() cons
 
 * Class [TextBox](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

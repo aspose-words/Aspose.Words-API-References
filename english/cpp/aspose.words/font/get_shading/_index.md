@@ -1,9 +1,10 @@
 ---
-title: get_Shading
+title: Aspose::Words::Font::get_Shading method
+linktitle: get_Shading
 second_title: Aspose.Words for C++ API Reference
-description: Returns a Shading object that refers to the shading formatting for the font.
+description: 'Aspose::Words::Font::get_Shading method. Returns a Shading object that refers to the shading formatting for the font in C++.'
 type: docs
-weight: 430
+weight: 34000
 url: /cpp/aspose.words/font/get_shading/
 ---
 ## Font::get_Shading method
@@ -44,4 +45,4 @@ doc->Save(ArtifactsDir + u"Font.Shading.docx");
 * Class [Shading](../../shading/)
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

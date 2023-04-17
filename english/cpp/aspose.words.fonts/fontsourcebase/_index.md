@@ -1,9 +1,10 @@
 ---
-title: FontSourceBase
+title: Aspose::Words::Fonts::FontSourceBase class
+linktitle: FontSourceBase
 second_title: Aspose.Words for C++ API Reference
-description: This is an abstract base class for the classes that allow the user to specify various font sources. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Fonts::FontSourceBase class. This is an abstract base class for the classes that allow the user to specify various font sources. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words.fonts/fontsourcebase/
 ---
 ## FontSourceBase class
@@ -48,4 +49,4 @@ ASSERT_EQ(0, fileFontSource->get_Priority());
 ## See Also
 
 * Namespace [Aspose::Words::Fonts](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

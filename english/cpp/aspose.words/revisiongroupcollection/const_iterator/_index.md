@@ -1,9 +1,10 @@
 ---
-title: const_iterator
+title: Aspose::Words::RevisionGroupCollection::const_iterator typedef
+linktitle: const_iterator
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Aspose::Words::RevisionGroupCollection::const_iterator typedef of Aspose::Words::RevisionGroupCollection class in C++.'
 type: docs
-weight: 183
+weight: 15000
 url: /cpp/aspose.words/revisiongroupcollection/const_iterator/
 ---
 ## const_iterator typedef
@@ -19,4 +20,4 @@ using Aspose::Words::RevisionGroupCollection::const_iterator =  typename iterato
 
 * Class [RevisionGroupCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

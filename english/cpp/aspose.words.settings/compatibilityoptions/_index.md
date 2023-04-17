@@ -1,9 +1,10 @@
 ---
-title: CompatibilityOptions
+title: Aspose::Words::Settings::CompatibilityOptions class
+linktitle: CompatibilityOptions
 second_title: Aspose.Words for C++ API Reference
-description: Contains compatibility options (that is, the user preferences entered on the Compatibility tab of the Options dialog in Microsoft Word). To learn more, visit the  documentation article.
+description: 'Aspose::Words::Settings::CompatibilityOptions class. Contains compatibility options (that is, the user preferences entered on the Compatibility tab of the Options dialog in Microsoft Word). To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words.settings/compatibilityoptions/
 ---
 ## CompatibilityOptions class
@@ -224,4 +225,4 @@ doc->Save(ArtifactsDir + u"Shape.VerticalAnchor.docx");
 ## See Also
 
 * Namespace [Aspose::Words::Settings](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

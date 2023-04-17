@@ -1,9 +1,10 @@
 ---
-title: OdsoRecipientDataCollection
+title: Aspose::Words::Settings::OdsoRecipientDataCollection class
+linktitle: OdsoRecipientDataCollection
 second_title: Aspose.Words for C++ API Reference
-description: A typed collection of OdsoRecipientDataTo learn more, visit the  documentation article.
+description: 'Aspose::Words::Settings::OdsoRecipientDataCollection class. A typed collection of OdsoRecipientDataTo learn more, visit the  documentation article in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.settings/odsorecipientdatacollection/
 ---
 ## OdsoRecipientDataCollection class
@@ -53,4 +54,4 @@ class OdsoRecipientDataCollection : public System::Collections::Generic::IEnumer
 ## See Also
 
 * Namespace [Aspose::Words::Settings](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

@@ -1,9 +1,10 @@
 ---
-title: set_Type
+title: Aspose::Words::Drawing::ShadowFormat::set_Type method
+linktitle: set_Type
 second_title: Aspose.Words for C++ API Reference
-description: Sets the specified ShadowType for ShadowFormat.
+description: 'Aspose::Words::Drawing::ShadowFormat::set_Type method. Sets the specified ShadowType for ShadowFormat in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.drawing/shadowformat/set_type/
 ---
 ## ShadowFormat::set_Type method
@@ -20,4 +21,4 @@ void Aspose::Words::Drawing::ShadowFormat::set_Type(Aspose::Words::Drawing::Shad
 * Enum [ShadowType](../../shadowtype/)
 * Class [ShadowFormat](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

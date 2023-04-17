@@ -1,9 +1,10 @@
 ---
-title: get_ForegroundColor
+title: Aspose::Words::Fields::BarcodeParameters::get_ForegroundColor method
+linktitle: get_ForegroundColor
 second_title: Aspose.Words for C++ API Reference
-description: Bar code foreground color (0x000000 - 0xFFFFFF)
+description: 'Aspose::Words::Fields::BarcodeParameters::get_ForegroundColor method. Bar code foreground color (0x000000 - 0xFFFFFF) in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words.fields/barcodeparameters/get_foregroundcolor/
 ---
 ## BarcodeParameters::get_ForegroundColor method
@@ -19,4 +20,4 @@ System::String Aspose::Words::Fields::BarcodeParameters::get_ForegroundColor() c
 
 * Class [BarcodeParameters](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: FormField
+title: Aspose::Words::Fields::FormField class
+linktitle: FormField
 second_title: Aspose.Words for C++ API Reference
-description: Represents a single form field. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Fields::FormField class. Represents a single form field. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 1444
+weight: 112000
 url: /cpp/aspose.words.fields/formfield/
 ---
 ## FormField class
@@ -150,4 +151,4 @@ ASSERT_EQ(System::Drawing::Color::get_Red().ToArgb(), formFieldRun->get_Font()->
 
 * Class [SpecialChar](../../aspose.words/specialchar/)
 * Namespace [Aspose::Words::Fields](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

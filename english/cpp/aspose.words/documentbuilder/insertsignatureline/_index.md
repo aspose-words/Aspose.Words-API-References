@@ -1,9 +1,10 @@
 ---
-title: InsertSignatureLine
+title: Aspose::Words::DocumentBuilder::InsertSignatureLine method
+linktitle: InsertSignatureLine
 second_title: Aspose.Words for C++ API Reference
-description: Inserts a signature line at the current position.
+description: 'Aspose::Words::DocumentBuilder::InsertSignatureLine method. Inserts a signature line at the current position in C++.'
 type: docs
-weight: 586
+weight: 46000
 url: /cpp/aspose.words/documentbuilder/insertsignatureline/
 ---
 ## DocumentBuilder::InsertSignatureLine(const System::SharedPtr\<Aspose::Words::SignatureLineOptions\>\&) method
@@ -77,7 +78,7 @@ ASSERT_TRUE(signatureLine->get_IsValid());
 * Class [SignatureLineOptions](../../signaturelineoptions/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## DocumentBuilder::InsertSignatureLine(const System::SharedPtr\<Aspose::Words::SignatureLineOptions\>\&, Aspose::Words::Drawing::RelativeHorizontalPosition, double, Aspose::Words::Drawing::RelativeVerticalPosition, double, Aspose::Words::Drawing::WrapType) method
 
 
@@ -138,4 +139,4 @@ doc->Save(ArtifactsDir + u"DocumentBuilder.SignatureLineInline.docx");
 * Enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

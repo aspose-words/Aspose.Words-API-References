@@ -1,9 +1,10 @@
 ---
-title: get_BarcodeValue
+title: Aspose::Words::Fields::FieldDisplayBarcode::get_BarcodeValue method
+linktitle: get_BarcodeValue
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the barcode value.
+description: 'Aspose::Words::Fields::FieldDisplayBarcode::get_BarcodeValue method. Gets or sets the barcode value in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.fields/fielddisplaybarcode/get_barcodevalue/
 ---
 ## FieldDisplayBarcode::get_BarcodeValue method
@@ -76,4 +77,4 @@ doc->Save(ArtifactsDir + u"Field.DISPLAYBARCODE.docx");
 
 * Class [FieldDisplayBarcode](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

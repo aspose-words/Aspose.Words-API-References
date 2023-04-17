@@ -1,9 +1,10 @@
 ---
-title: set_Spacing
+title: Aspose::Words::Drawing::TextPath::set_Spacing method
+linktitle: set_Spacing
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Drawing::TextPath::get_Spacing.'
+description: 'Aspose::Words::Drawing::TextPath::set_Spacing method. Setter for Aspose::Words::Drawing::TextPath::get_Spacing in C++.'
 type: docs
-weight: 469
+weight: 37000
 url: /cpp/aspose.words.drawing/textpath/set_spacing/
 ---
 ## TextPath::set_Spacing method
@@ -19,4 +20,4 @@ void Aspose::Words::Drawing::TextPath::set_Spacing(double value)
 
 * Class [TextPath](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: TextPathAlignment
+title: Aspose::Words::Drawing::TextPathAlignment enum
+linktitle: TextPathAlignment
 second_title: Aspose.Words for C++ API Reference
-description: WordArt alignment.
+description: 'Aspose::Words::Drawing::TextPathAlignment enum. WordArt alignment in C++.'
 type: docs
-weight: 521
+weight: 41000
 url: /cpp/aspose.words.drawing/textpathalignment/
 ---
 ## TextPathAlignment enum
@@ -136,4 +137,4 @@ static SharedPtr<Shape> AppendWordArt(SharedPtr<Document> doc, String text, Stri
 ## See Also
 
 * Namespace [Aspose::Words::Drawing](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

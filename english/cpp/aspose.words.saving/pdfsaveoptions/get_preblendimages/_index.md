@@ -1,9 +1,10 @@
 ---
-title: get_PreblendImages
+title: Aspose::Words::Saving::PdfSaveOptions::get_PreblendImages method
+linktitle: get_PreblendImages
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets a value determining whether or not to preblend transparent images with black background color.
+description: 'Aspose::Words::Saving::PdfSaveOptions::get_PreblendImages method. Gets or sets a value determining whether or not to preblend transparent images with black background color in C++.'
 type: docs
-weight: 339
+weight: 27000
 url: /cpp/aspose.words.saving/pdfsaveoptions/get_preblendimages/
 ---
 ## PdfSaveOptions::get_PreblendImages method
@@ -27,4 +28,4 @@ The default value is **false**.
 
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

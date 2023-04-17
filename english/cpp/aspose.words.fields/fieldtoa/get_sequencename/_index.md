@@ -1,9 +1,10 @@
 ---
-title: get_SequenceName
+title: Aspose::Words::Fields::FieldToa::get_SequenceName method
+linktitle: get_SequenceName
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the name of a sequence whose number is included with the page number.
+description: 'Aspose::Words::Fields::FieldToa::get_SequenceName method. Gets or sets the name of a sequence whose number is included with the page number in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.fields/fieldtoa/get_sequencename/
 ---
 ## FieldToa::get_SequenceName method
@@ -141,4 +142,4 @@ static SharedPtr<FieldTA> InsertToaEntry(SharedPtr<DocumentBuilder> builder, Str
 
 * Class [FieldToa](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

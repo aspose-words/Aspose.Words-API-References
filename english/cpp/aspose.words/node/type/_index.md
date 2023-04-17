@@ -1,9 +1,10 @@
 ---
-title: Type
+title: Aspose::Words::Node::Type method
+linktitle: Type
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Type method of Aspose::Words::Node class in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words/node/type/
 ---
 ## Node::Type method
@@ -19,4 +20,4 @@ static const System::TypeInfo & Aspose::Words::Node::Type()
 
 * Class [Node](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

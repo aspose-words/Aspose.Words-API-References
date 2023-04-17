@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Saving::TxtListIndentation::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Saving::TxtListIndentation class in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.saving/txtlistindentation/gettype/
 ---
 ## TxtListIndentation::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Saving::TxtListIndentation::GetT
 
 * Class [TxtListIndentation](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

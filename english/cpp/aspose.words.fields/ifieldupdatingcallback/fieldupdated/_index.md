@@ -1,9 +1,10 @@
 ---
-title: FieldUpdated
+title: Aspose::Words::Fields::IFieldUpdatingCallback::FieldUpdated method
+linktitle: FieldUpdated
 second_title: Aspose.Words for C++ API Reference
-description: A user defined method that is called just after a field is updated.
+description: 'Aspose::Words::Fields::IFieldUpdatingCallback::FieldUpdated method. A user defined method that is called just after a field is updated in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fields/ifieldupdatingcallback/fieldupdated/
 ---
 ## IFieldUpdatingCallback::FieldUpdated method
@@ -79,4 +80,4 @@ private:
 * Class [Field](../../field/)
 * Interface [IFieldUpdatingCallback](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_TrailingSpacesOptions
+title: Aspose::Words::Loading::TxtLoadOptions::get_TrailingSpacesOptions method
+linktitle: get_TrailingSpacesOptions
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets preferred option of a trailing space handling. Default value is Trim.
+description: 'Aspose::Words::Loading::TxtLoadOptions::get_TrailingSpacesOptions method. Gets or sets preferred option of a trailing space handling. Default value is Trim in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.loading/txtloadoptions/get_trailingspacesoptions/
 ---
 ## TxtLoadOptions::get_TrailingSpacesOptions method
@@ -95,4 +96,4 @@ case TxtTrailingSpacesOptions::Trim:
 * Enum [TxtTrailingSpacesOptions](../../txttrailingspacesoptions/)
 * Class [TxtLoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: GetFieldNames
+title: Aspose::Words::Fields::FieldGreetingLine::GetFieldNames method
+linktitle: GetFieldNames
 second_title: Aspose.Words for C++ API Reference
-description: Returns a collection of mail merge field names used by the field.
+description: 'Aspose::Words::Fields::FieldGreetingLine::GetFieldNames method. Returns a collection of mail merge field names used by the field in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.fields/fieldgreetingline/getfieldnames/
 ---
 ## FieldGreetingLine::GetFieldNames method
@@ -19,4 +20,4 @@ System::ArrayPtr<System::String> Aspose::Words::Fields::FieldGreetingLine::GetFi
 
 * Class [FieldGreetingLine](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

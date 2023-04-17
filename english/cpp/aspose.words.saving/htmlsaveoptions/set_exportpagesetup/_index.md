@@ -1,9 +1,10 @@
 ---
-title: set_ExportPageSetup
+title: Aspose::Words::Saving::HtmlSaveOptions::set_ExportPageSetup method
+linktitle: set_ExportPageSetup
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::HtmlSaveOptions::get_ExportPageSetup.'
+description: 'Aspose::Words::Saving::HtmlSaveOptions::set_ExportPageSetup method. Setter for Aspose::Words::Saving::HtmlSaveOptions::get_ExportPageSetup in C++.'
 type: docs
-weight: 911
+weight: 71000
 url: /cpp/aspose.words.saving/htmlsaveoptions/set_exportpagesetup/
 ---
 ## HtmlSaveOptions::set_ExportPageSetup method
@@ -19,4 +20,4 @@ void Aspose::Words::Saving::HtmlSaveOptions::set_ExportPageSetup(bool value)
 
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: Type
+title: Aspose::Words::Fonts::FontSettings::Type method
+linktitle: Type
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Type method of Aspose::Words::Fonts::FontSettings class in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fonts/fontsettings/type/
 ---
 ## FontSettings::Type method
@@ -19,4 +20,4 @@ static const System::TypeInfo & Aspose::Words::Fonts::FontSettings::Type()
 
 * Class [FontSettings](../)
 * Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

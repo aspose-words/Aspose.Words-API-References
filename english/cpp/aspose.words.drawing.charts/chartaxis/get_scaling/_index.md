@@ -1,9 +1,10 @@
 ---
-title: get_Scaling
+title: Aspose::Words::Drawing::Charts::ChartAxis::get_Scaling method
+linktitle: get_Scaling
 second_title: Aspose.Words for C++ API Reference
-description: Provides access to the scaling options of the axis.
+description: 'Aspose::Words::Drawing::Charts::ChartAxis::get_Scaling method. Provides access to the scaling options of the axis in C++.'
 type: docs
-weight: 274
+weight: 22000
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_scaling/
 ---
 ## ChartAxis::get_Scaling method
@@ -66,4 +67,4 @@ doc->Save(ArtifactsDir + u"Charts.DateTimeValues.docx");
 * Class [AxisScaling](../../axisscaling/)
 * Class [ChartAxis](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

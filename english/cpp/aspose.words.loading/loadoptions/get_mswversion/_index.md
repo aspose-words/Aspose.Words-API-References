@@ -1,9 +1,10 @@
 ---
-title: get_MswVersion
+title: Aspose::Words::Loading::LoadOptions::get_MswVersion method
+linktitle: get_MswVersion
 second_title: Aspose.Words for C++ API Reference
-description: Allows to specify that the document loading process should match a specific MS Word version. Default value is Word2019
+description: 'Aspose::Words::Loading::LoadOptions::get_MswVersion method. Allows to specify that the document loading process should match a specific MS Word version. Default value is Word2019 in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words.loading/loadoptions/get_mswversion/
 ---
 ## LoadOptions::get_MswVersion method
@@ -41,4 +42,4 @@ ASSERT_NEAR(12.95, doc->get_Styles()->get_DefaultParagraphFormat()->get_LineSpac
 * Enum [MsWordVersion](../../../aspose.words.settings/mswordversion/)
 * Class [LoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

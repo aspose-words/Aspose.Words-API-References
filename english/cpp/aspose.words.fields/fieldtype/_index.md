@@ -1,9 +1,10 @@
 ---
-title: FieldType
+title: Aspose::Words::Fields::FieldType enum
+linktitle: FieldType
 second_title: Aspose.Words for C++ API Reference
-description: Specifies Microsoft Word field types.
+description: 'Aspose::Words::Fields::FieldType enum. Specifies Microsoft Word field types in C++.'
 type: docs
-weight: 1678
+weight: 130000
 url: /cpp/aspose.words.fields/fieldtype/
 ---
 ## FieldType enum
@@ -165,4 +166,4 @@ field->Update();
 ## See Also
 
 * Namespace [Aspose::Words::Fields](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

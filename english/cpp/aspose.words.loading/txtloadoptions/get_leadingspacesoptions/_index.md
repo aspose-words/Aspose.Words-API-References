@@ -1,9 +1,10 @@
 ---
-title: get_LeadingSpacesOptions
+title: Aspose::Words::Loading::TxtLoadOptions::get_LeadingSpacesOptions method
+linktitle: get_LeadingSpacesOptions
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets preferred option of a leading space handling. Default value is ConvertToIndent.
+description: 'Aspose::Words::Loading::TxtLoadOptions::get_LeadingSpacesOptions method. Gets or sets preferred option of a leading space handling. Default value is ConvertToIndent in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.loading/txtloadoptions/get_leadingspacesoptions/
 ---
 ## TxtLoadOptions::get_LeadingSpacesOptions method
@@ -95,4 +96,4 @@ case TxtTrailingSpacesOptions::Trim:
 * Enum [TxtLeadingSpacesOptions](../../txtleadingspacesoptions/)
 * Class [TxtLoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

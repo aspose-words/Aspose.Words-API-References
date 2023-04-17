@@ -1,9 +1,10 @@
 ---
-title: get_BaseTimeUnit
+title: Aspose::Words::Drawing::Charts::ChartAxis::get_BaseTimeUnit method
+linktitle: get_BaseTimeUnit
 second_title: Aspose.Words for C++ API Reference
-description: Returns or sets the smallest time unit that is represented on the time category axis.
+description: 'Aspose::Words::Drawing::Charts::ChartAxis::get_BaseTimeUnit method. Returns or sets the smallest time unit that is represented on the time category axis in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_basetimeunit/
 ---
 ## ChartAxis::get_BaseTimeUnit method
@@ -66,4 +67,4 @@ doc->Save(ArtifactsDir + u"Charts.DateTimeValues.docx");
 * Enum [AxisTimeUnit](../../axistimeunit/)
 * Class [ChartAxis](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

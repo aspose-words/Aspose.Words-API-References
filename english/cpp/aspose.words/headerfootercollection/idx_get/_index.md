@@ -1,9 +1,10 @@
 ---
-title: idx_get
+title: Aspose::Words::HeaderFooterCollection::idx_get method
+linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
-description: Retrieves a HeaderFooter of the specified type.
+description: 'Aspose::Words::HeaderFooterCollection::idx_get method. Retrieves a HeaderFooter of the specified type in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words/headerfootercollection/idx_get/
 ---
 ## HeaderFooterCollection::idx_get(Aspose::Words::HeaderFooterType) method
@@ -84,7 +85,7 @@ doc->Save(ArtifactsDir + u"HeaderFooter.ReplaceText.docx");
 * Enum [HeaderFooterType](../../headerfootertype/)
 * Class [HeaderFooterCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## HeaderFooterCollection::idx_get(int32_t) method
 
 
@@ -181,4 +182,4 @@ doc->Save(ArtifactsDir + u"HeaderFooter.Link.docx");
 * Class [HeaderFooter](../../headerfooter/)
 * Class [HeaderFooterCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

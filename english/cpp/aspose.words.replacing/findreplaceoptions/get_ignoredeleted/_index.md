@@ -1,9 +1,10 @@
 ---
-title: get_IgnoreDeleted
+title: Aspose::Words::Replacing::FindReplaceOptions::get_IgnoreDeleted method
+linktitle: get_IgnoreDeleted
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets a boolean value indicating either to ignore text inside delete revisions. The default value is false.
+description: 'Aspose::Words::Replacing::FindReplaceOptions::get_IgnoreDeleted method. Gets or sets a boolean value indicating either to ignore text inside delete revisions. The default value is false in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.replacing/findreplaceoptions/get_ignoredeleted/
 ---
 ## FindReplaceOptions::get_IgnoreDeleted method
@@ -55,4 +56,4 @@ ASSERT_EQ(ignoreTextInsideDeleteRevisions ? String(u"Greetings world!\rHello aga
 
 * Class [FindReplaceOptions](../)
 * Namespace [Aspose::Words::Replacing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_WebExtensionTaskPanes
+title: Aspose::Words::Document::get_WebExtensionTaskPanes method
+linktitle: get_WebExtensionTaskPanes
 second_title: Aspose.Words for C++ API Reference
-description: Returns a collection that represents a list of task pane add-ins.
+description: 'Aspose::Words::Document::get_WebExtensionTaskPanes method. Returns a collection that represents a list of task pane add-ins in C++.'
 type: docs
-weight: 768
+weight: 60000
 url: /cpp/aspose.words/document/get_webextensiontaskpanes/
 ---
 ## Document::get_WebExtensionTaskPanes method
@@ -20,4 +21,4 @@ System::SharedPtr<Aspose::Words::WebExtensions::TaskPaneCollection> Aspose::Word
 * Class [TaskPaneCollection](../../../aspose.words.webextensions/taskpanecollection/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

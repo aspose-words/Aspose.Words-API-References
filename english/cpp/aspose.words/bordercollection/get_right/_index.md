@@ -1,9 +1,10 @@
 ---
-title: get_Right
+title: Aspose::Words::BorderCollection::get_Right method
+linktitle: get_Right
 second_title: Aspose.Words for C++ API Reference
-description: Gets the right border.
+description: 'Aspose::Words::BorderCollection::get_Right method. Gets the right border in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words/bordercollection/get_right/
 ---
 ## BorderCollection::get_Right method
@@ -60,4 +61,4 @@ doc->Save(ArtifactsDir + u"DocumentBuilder.TableBordersAndShading.docx");
 * Class [Border](../../border/)
 * Class [BorderCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

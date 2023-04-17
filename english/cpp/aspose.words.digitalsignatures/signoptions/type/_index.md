@@ -1,9 +1,10 @@
 ---
-title: Type
+title: Aspose::Words::DigitalSignatures::SignOptions::Type method
+linktitle: Type
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Type method of Aspose::Words::DigitalSignatures::SignOptions class in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words.digitalsignatures/signoptions/type/
 ---
 ## SignOptions::Type method
@@ -19,4 +20,4 @@ static const System::TypeInfo & Aspose::Words::DigitalSignatures::SignOptions::T
 
 * Class [SignOptions](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

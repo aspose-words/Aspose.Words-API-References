@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Layout::IPageLayoutCallback::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Layout::IPageLayoutCallback class in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.layout/ipagelayoutcallback/gettype/
 ---
 ## IPageLayoutCallback::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Layout::IPageLayoutCallback::Get
 
 * Interface [IPageLayoutCallback](../)
 * Namespace [Aspose::Words::Layout](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

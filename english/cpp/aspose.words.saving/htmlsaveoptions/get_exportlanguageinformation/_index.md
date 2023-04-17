@@ -1,9 +1,10 @@
 ---
-title: get_ExportLanguageInformation
+title: Aspose::Words::Saving::HtmlSaveOptions::get_ExportLanguageInformation method
+linktitle: get_ExportLanguageInformation
 second_title: Aspose.Words for C++ API Reference
-description: Specifies whether language information is exported to HTML, MHTML or EPUB. Default is false.
+description: 'Aspose::Words::Saving::HtmlSaveOptions::get_ExportLanguageInformation method. Specifies whether language information is exported to HTML, MHTML or EPUB. Default is false in C++.'
 type: docs
-weight: 248
+weight: 20000
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_exportlanguageinformation/
 ---
 ## HtmlSaveOptions::get_ExportLanguageInformation method
@@ -71,4 +72,4 @@ else
 
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

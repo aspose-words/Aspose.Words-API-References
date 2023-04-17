@@ -1,9 +1,10 @@
 ---
-title: get_Vertical
+title: Aspose::Words::BorderCollection::get_Vertical method
+linktitle: get_Vertical
 second_title: Aspose.Words for C++ API Reference
-description: Gets the vertical border that is used between cells.
+description: 'Aspose::Words::BorderCollection::get_Vertical method. Gets the vertical border that is used between cells in C++.'
 type: docs
-weight: 183
+weight: 15000
 url: /cpp/aspose.words/bordercollection/get_vertical/
 ---
 ## BorderCollection::get_Vertical method
@@ -64,4 +65,4 @@ doc->Save(ArtifactsDir + u"Border.VerticalBorders.docx");
 * Class [Border](../../border/)
 * Class [BorderCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

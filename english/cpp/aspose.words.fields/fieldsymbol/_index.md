@@ -1,9 +1,10 @@
 ---
-title: FieldSymbol
+title: Aspose::Words::Fields::FieldSymbol class
+linktitle: FieldSymbol
 second_title: Aspose.Words for C++ API Reference
-description: Implements a SYMBOL field. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Fields::FieldSymbol class. Implements a SYMBOL field. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 1262
+weight: 98000
 url: /cpp/aspose.words.fields/fieldsymbol/
 ---
 ## FieldSymbol class
@@ -30,7 +31,7 @@ class FieldSymbol : public Aspose::Words::Fields::Field,
 | [get_FontSize](./get_fontsize/)() | Gets or sets the size in points of the font of the character retrieved by the field. |
 | [get_Format](../field/get_format/)() | Gets a [FieldFormat](../fieldformat/) object that provides typed access to field's formatting. |
 | [get_IsAnsi](./get_isansi/)() | Gets or sets whether the character code is interpreted as the value of an ANSI character. |
-| [get_IsDirty](../field/get_isdirty/)() | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [get_IsDirty](../field/get_isdirty/)() | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [get_IsLocked](../field/get_islocked/)() | Gets or sets whether the field is locked (should not recalculate its result). |
 | [get_IsShiftJis](./get_isshiftjis/)() | Gets or sets whether the character code is interpreted as the value of a SHIFT-JIS character. |
 | [get_IsUnicode](./get_isunicode/)() | Gets or sets whether the character code is interpreted as the value of a Unicode character. |
@@ -49,7 +50,7 @@ class FieldSymbol : public Aspose::Words::Fields::Field,
 | [set_FontName](./set_fontname/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldSymbol::get_FontName](./get_fontname/). |
 | [set_FontSize](./set_fontsize/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldSymbol::get_FontSize](./get_fontsize/). |
 | [set_IsAnsi](./set_isansi/)(bool) | Setter for [Aspose::Words::Fields::FieldSymbol::get_IsAnsi](./get_isansi/). |
-| [set_IsDirty](../field/set_isdirty/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsDirty](../field/get_isdirty/). |
+| [set_IsDirty](../field/set_isdirty/)(bool) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [set_IsLocked](../field/set_islocked/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsLocked](../field/get_islocked/). |
 | [set_IsShiftJis](./set_isshiftjis/)(bool) | Setter for [Aspose::Words::Fields::FieldSymbol::get_IsShiftJis](./get_isshiftjis/). |
 | [set_IsUnicode](./set_isunicode/)(bool) | Setter for [Aspose::Words::Fields::FieldSymbol::get_IsUnicode](./get_isunicode/). |
@@ -118,4 +119,4 @@ doc->Save(ArtifactsDir + u"Field.SYMBOL.docx");
 
 * Class [Field](../field/)
 * Namespace [Aspose::Words::Fields](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

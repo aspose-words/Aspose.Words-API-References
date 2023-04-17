@@ -1,9 +1,10 @@
 ---
-title: idx_get
+title: Aspose::Words::CommentCollection::idx_get method
+linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
-description: Retrieves a Comment at the given index.
+description: 'Aspose::Words::CommentCollection::idx_get method. Retrieves a Comment at the given index in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words/commentcollection/idx_get/
 ---
 ## CommentCollection::idx_get method
@@ -65,4 +66,4 @@ ASSERT_EQ(0, comment->get_Replies()->LINQ_Count());
 * Class [Comment](../../comment/)
 * Class [CommentCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

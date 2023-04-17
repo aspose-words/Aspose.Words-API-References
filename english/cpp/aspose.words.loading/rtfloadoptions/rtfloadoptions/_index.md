@@ -1,9 +1,10 @@
 ---
-title: RtfLoadOptions
+title: Aspose::Words::Loading::RtfLoadOptions::RtfLoadOptions constructor
+linktitle: RtfLoadOptions
 second_title: Aspose.Words for C++ API Reference
-description: Initializes a new instance of this class with default values.
+description: 'Aspose::Words::Loading::RtfLoadOptions::RtfLoadOptions constructor. Initializes a new instance of this class with default values in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.loading/rtfloadoptions/rtfloadoptions/
 ---
 ## RtfLoadOptions::RtfLoadOptions constructor
@@ -41,4 +42,4 @@ ASSERT_EQ(recognizeUtf8Text ? String(u"“John Doe´s list of currency symbols�
 
 * Class [RtfLoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

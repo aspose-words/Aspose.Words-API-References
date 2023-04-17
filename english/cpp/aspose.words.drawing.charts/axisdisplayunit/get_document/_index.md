@@ -1,9 +1,10 @@
 ---
-title: get_Document
+title: Aspose::Words::Drawing::Charts::AxisDisplayUnit::get_Document method
+linktitle: get_Document
 second_title: Aspose.Words for C++ API Reference
-description: Returns the Document the title holder belongs.
+description: 'Aspose::Words::Drawing::Charts::AxisDisplayUnit::get_Document method. Returns the Document the title holder belongs in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.drawing.charts/axisdisplayunit/get_document/
 ---
 ## AxisDisplayUnit::get_Document method
@@ -20,4 +21,4 @@ System::SharedPtr<Aspose::Words::DocumentBase> Aspose::Words::Drawing::Charts::A
 * Class [DocumentBase](../../../aspose.words/documentbase/)
 * Class [AxisDisplayUnit](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

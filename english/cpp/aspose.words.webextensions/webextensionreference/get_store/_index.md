@@ -1,9 +1,10 @@
 ---
-title: get_Store
+title: Aspose::Words::WebExtensions::WebExtensionReference::get_Store method
+linktitle: get_Store
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the instance of the marketplace where the web extension is stored.
+description: 'Aspose::Words::WebExtensions::WebExtensionReference::get_Store method. Specifies the instance of the marketplace where the web extension is stored in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.webextensions/webextensionreference/get_store/
 ---
 ## WebExtensionReference::get_Store method
@@ -63,4 +64,4 @@ ASSERT_EQ(0, doc->get_WebExtensionTaskPanes()->get_Count());
 
 * Class [WebExtensionReference](../)
 * Namespace [Aspose::Words::WebExtensions](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

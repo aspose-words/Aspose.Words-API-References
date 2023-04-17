@@ -1,9 +1,10 @@
 ---
-title: get_InvertIfNegative
+title: Aspose::Words::Drawing::Charts::ChartSeries::get_InvertIfNegative method
+linktitle: get_InvertIfNegative
 second_title: Aspose.Words for C++ API Reference
-description: Specifies whether the parent element shall inverts its colors if the value is negative.
+description: 'Aspose::Words::Drawing::Charts::ChartSeries::get_InvertIfNegative method. Specifies whether the parent element shall inverts its colors if the value is negative in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.drawing.charts/chartseries/get_invertifnegative/
 ---
 ## ChartSeries::get_InvertIfNegative method
@@ -19,4 +20,4 @@ bool Aspose::Words::Drawing::Charts::ChartSeries::get_InvertIfNegative() overrid
 
 * Class [ChartSeries](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

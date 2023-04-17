@@ -1,9 +1,10 @@
 ---
-title: get_RightExpression
+title: Aspose::Words::Fields::FieldIf::get_RightExpression method
+linktitle: get_RightExpression
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the right part of the comparison expression.
+description: 'Aspose::Words::Fields::FieldIf::get_RightExpression method. Gets or sets the right part of the comparison expression in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.fields/fieldif/get_rightexpression/
 ---
 ## FieldIf::get_RightExpression method
@@ -64,4 +65,4 @@ doc->Save(ArtifactsDir + u"Field.IF.docx");
 
 * Class [FieldIf](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

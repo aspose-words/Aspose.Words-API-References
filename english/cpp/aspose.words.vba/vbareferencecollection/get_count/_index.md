@@ -1,9 +1,10 @@
 ---
-title: get_Count
+title: Aspose::Words::Vba::VbaReferenceCollection::get_Count method
+linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
-description: Returns the number of VBA references in the collection.
+description: 'Aspose::Words::Vba::VbaReferenceCollection::get_Count method. Returns the number of VBA references in the collection in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.vba/vbareferencecollection/get_count/
 ---
 ## VbaReferenceCollection::get_Count method
@@ -89,4 +90,4 @@ static String GetLibIdProjectPath(String libIdProject)
 
 * Class [VbaReferenceCollection](../)
 * Namespace [Aspose::Words::Vba](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

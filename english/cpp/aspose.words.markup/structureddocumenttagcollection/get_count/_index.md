@@ -1,9 +1,10 @@
 ---
-title: get_Count
+title: Aspose::Words::Markup::StructuredDocumentTagCollection::get_Count method
+linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
-description: Returns the number of structured document tags in the collection.
+description: 'Aspose::Words::Markup::StructuredDocumentTagCollection::get_Count method. Returns the number of structured document tags in the collection in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.markup/structureddocumenttagcollection/get_count/
 ---
 ## StructuredDocumentTagCollection::get_Count method
@@ -19,4 +20,4 @@ int32_t Aspose::Words::Markup::StructuredDocumentTagCollection::get_Count()
 
 * Class [StructuredDocumentTagCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

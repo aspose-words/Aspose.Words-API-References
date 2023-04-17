@@ -1,9 +1,10 @@
 ---
-title: OptimizeFor
+title: Aspose::Words::Settings::CompatibilityOptions::OptimizeFor method
+linktitle: OptimizeFor
 second_title: Aspose.Words for C++ API Reference
-description: Allows to optimize the document contents as well as default Aspose.Words behavior to a particular versions of MS Word. Use this method to prevent MS Word from displaying "Compatibility mode" ribbon upon document loading. (Note that you may also need to set the Compliance property to Iso29500_2008_Transitional or higher.)
+description: 'Aspose::Words::Settings::CompatibilityOptions::OptimizeFor method. Allows to optimize the document contents as well as default Aspose.Words behavior to a particular versions of MS Word. Use this method to prevent MS Word from displaying "Compatibility mode" ribbon upon document loading. (Note that you may also need to set the Compliance property to Iso29500_2008_Transitional or higher.) in C++.'
 type: docs
-weight: 963
+weight: 75000
 url: /cpp/aspose.words.settings/compatibilityoptions/optimizefor/
 ---
 ## CompatibilityOptions::OptimizeFor method
@@ -76,4 +77,4 @@ doc->Save(ArtifactsDir + u"Shape.VerticalAnchor.docx");
 * Enum [MsWordVersion](../../mswordversion/)
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_MatchCase
+title: Aspose::Words::Replacing::FindReplaceOptions::get_MatchCase method
+linktitle: get_MatchCase
 second_title: Aspose.Words for C++ API Reference
-description: True indicates case-sensitive comparison, false indicates case-insensitive comparison.
+description: 'Aspose::Words::Replacing::FindReplaceOptions::get_MatchCase method. True indicates case-sensitive comparison, false indicates case-insensitive comparison in C++.'
 type: docs
-weight: 170
+weight: 14000
 url: /cpp/aspose.words.replacing/findreplaceoptions/get_matchcase/
 ---
 ## FindReplaceOptions::get_MatchCase method
@@ -43,4 +44,4 @@ ASSERT_EQ(matchCase ? String(u"Jade bought a ruby necklace.") : String(u"Jade bo
 
 * Class [FindReplaceOptions](../)
 * Namespace [Aspose::Words::Replacing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_CompareMoves
+title: Aspose::Words::Comparing::CompareOptions::get_CompareMoves method
+linktitle: get_CompareMoves
 second_title: Aspose.Words for C++ API Reference
-description: Specifies whether to compare differences in MoveRevision between the two documents. By default move revisions are not produced.
+description: 'Aspose::Words::Comparing::CompareOptions::get_CompareMoves method. Specifies whether to compare differences in MoveRevision between the two documents. By default move revisions are not produced in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.comparing/compareoptions/get_comparemoves/
 ---
 ## CompareOptions::get_CompareMoves method
@@ -19,4 +20,4 @@ bool Aspose::Words::Comparing::CompareOptions::get_CompareMoves() const
 
 * Class [CompareOptions](../)
 * Namespace [Aspose::Words::Comparing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_FormatAttributes
+title: Aspose::Words::Fields::FieldDatabase::get_FormatAttributes method
+linktitle: get_FormatAttributes
 second_title: Aspose.Words for C++ API Reference
-description: Gets which attributes of the format are to be applied to the table.
+description: 'Aspose::Words::Fields::FieldDatabase::get_FormatAttributes method. Gets which attributes of the format are to be applied to the table in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.fields/fielddatabase/get_formatattributes/
 ---
 ## FieldDatabase::get_FormatAttributes method
@@ -19,4 +20,4 @@ System::String Aspose::Words::Fields::FieldDatabase::get_FormatAttributes()
 
 * Class [FieldDatabase](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

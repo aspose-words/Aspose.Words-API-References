@@ -1,9 +1,10 @@
 ---
-title: set_Title
+title: Aspose::Words::Markup::StructuredDocumentTagRangeStart::set_Title method
+linktitle: set_Title
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_Title.'
+description: 'Aspose::Words::Markup::StructuredDocumentTagRangeStart::set_Title method. Setter for Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_Title in C++.'
 type: docs
-weight: 430
+weight: 34000
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/set_title/
 ---
 ## StructuredDocumentTagRangeStart::set_Title method
@@ -19,4 +20,4 @@ void Aspose::Words::Markup::StructuredDocumentTagRangeStart::set_Title(System::S
 
 * Class [StructuredDocumentTagRangeStart](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

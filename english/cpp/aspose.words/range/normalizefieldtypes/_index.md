@@ -1,9 +1,10 @@
 ---
-title: NormalizeFieldTypes
+title: Aspose::Words::Range::NormalizeFieldTypes method
+linktitle: NormalizeFieldTypes
 second_title: Aspose.Words for C++ API Reference
-description: Changes field type values FieldType of FieldStart, FieldSeparator, FieldEnd in this range so that they correspond to the field types contained in the field codes.
+description: 'Aspose::Words::Range::NormalizeFieldTypes method. Changes field type values FieldType of FieldStart, FieldSeparator, FieldEnd in this range so that they correspond to the field types contained in the field codes in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words/range/normalizefieldtypes/
 ---
 ## Range::NormalizeFieldTypes method
@@ -25,4 +26,4 @@ To change field type values in the whole document use [NormalizeFieldTypes](../.
 
 * Class [Range](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

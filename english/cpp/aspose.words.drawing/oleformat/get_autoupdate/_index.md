@@ -1,9 +1,10 @@
 ---
-title: get_AutoUpdate
+title: Aspose::Words::Drawing::OleFormat::get_AutoUpdate method
+linktitle: get_AutoUpdate
 second_title: Aspose.Words for C++ API Reference
-description: Specifies whether the link to the OLE object is automatically updated or not in Microsoft Word.
+description: 'Aspose::Words::Drawing::OleFormat::get_AutoUpdate method. Specifies whether the link to the OLE object is automatically updated or not in Microsoft Word in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.drawing/oleformat/get_autoupdate/
 ---
 ## OleFormat::get_AutoUpdate method
@@ -58,4 +59,4 @@ oleFormat->Save(ArtifactsDir + u"OLE spreadsheet saved directly" + oleFormat->ge
 
 * Class [OleFormat](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

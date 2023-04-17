@@ -1,9 +1,10 @@
 ---
-title: get_NoShade
+title: Aspose::Words::Drawing::HorizontalRuleFormat::get_NoShade method
+linktitle: get_NoShade
 second_title: Aspose.Words for C++ API Reference
-description: Indicates the presence of 3D shading for the horizontal rule. If true, then the horizontal rule is without 3D shading and solid color is used.
+description: 'Aspose::Words::Drawing::HorizontalRuleFormat::get_NoShade method. Indicates the presence of 3D shading for the horizontal rule. If true, then the horizontal rule is without 3D shading and solid color is used in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.drawing/horizontalruleformat/get_noshade/
 ---
 ## HorizontalRuleFormat::get_NoShade method
@@ -45,4 +46,4 @@ ASSERT_TRUE(shape->get_HorizontalRuleFormat()->get_NoShade());
 
 * Class [HorizontalRuleFormat](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

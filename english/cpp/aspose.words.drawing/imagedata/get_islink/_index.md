@@ -1,9 +1,10 @@
 ---
-title: get_IsLink
+title: Aspose::Words::Drawing::ImageData::get_IsLink method
+linktitle: get_IsLink
 second_title: Aspose.Words for C++ API Reference
-description: Returns true if the image is linked to the shape (when SourceFullName is specified).
+description: 'Aspose::Words::Drawing::ImageData::get_IsLink method. Returns true if the image is linked to the shape (when SourceFullName is specified) in C++.'
 type: docs
-weight: 196
+weight: 16000
 url: /cpp/aspose.words.drawing/imagedata/get_islink/
 ---
 ## ImageData::get_IsLink method
@@ -81,4 +82,4 @@ dstDoc->Save(ArtifactsDir + u"Drawing.ImageData.docx");
 
 * Class [ImageData](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

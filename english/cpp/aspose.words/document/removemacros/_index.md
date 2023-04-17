@@ -1,9 +1,10 @@
 ---
-title: RemoveMacros
+title: Aspose::Words::Document::RemoveMacros method
+linktitle: RemoveMacros
 second_title: Aspose.Words for C++ API Reference
-description: Removes all macros (the VBA project) as well as toolbars and command customizations from the document.
+description: 'Aspose::Words::Document::RemoveMacros method. Removes all macros (the VBA project) as well as toolbars and command customizations from the document in C++.'
 type: docs
-weight: 885
+weight: 69000
 url: /cpp/aspose.words/document/removemacros/
 ---
 ## Document::RemoveMacros method
@@ -42,4 +43,4 @@ ASSERT_TRUE(doc->get_VbaProject() == nullptr);
 
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: RemoveNumbers
+title: Aspose::Words::Lists::ListFormat::RemoveNumbers method
+linktitle: RemoveNumbers
 second_title: Aspose.Words for C++ API Reference
-description: Removes numbers or bullets from the current paragraph and sets list level to zero.
+description: 'Aspose::Words::Lists::ListFormat::RemoveNumbers method. Removes numbers or bullets from the current paragraph and sets list level to zero in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words.lists/listformat/removenumbers/
 ---
 ## ListFormat::RemoveNumbers method
@@ -131,4 +132,4 @@ ASSERT_EQ(0, paras->LINQ_Count([](SharedPtr<Node> n) { return System::DynamicCas
 
 * Class [ListFormat](../)
 * Namespace [Aspose::Words::Lists](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

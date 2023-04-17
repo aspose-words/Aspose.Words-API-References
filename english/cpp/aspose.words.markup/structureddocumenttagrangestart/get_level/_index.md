@@ -1,9 +1,10 @@
 ---
-title: get_Level
+title: Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_Level method
+linktitle: get_Level
 second_title: Aspose.Words for C++ API Reference
-description: Gets the level at which this structured document tag range start occurs in the document tree.
+description: 'Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_Level method. Gets the level at which this structured document tag range start occurs in the document tree in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/get_level/
 ---
 ## StructuredDocumentTagRangeStart::get_Level method
@@ -53,4 +54,4 @@ std::cout << String::Format(u"\t|NodeType: {0}", rangeEndTag->get_NodeType()) <<
 * Enum [MarkupLevel](../../markuplevel/)
 * Class [StructuredDocumentTagRangeStart](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_UsePassim
+title: Aspose::Words::Fields::FieldToa::get_UsePassim method
+linktitle: get_UsePassim
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets whether to replace five or more different page references to the same authority with "passim", which is used to indicate that a word or passage occurs frequently in the work cited.
+description: 'Aspose::Words::Fields::FieldToa::get_UsePassim method. Gets or sets whether to replace five or more different page references to the same authority with "passim", which is used to indicate that a word or passage occurs frequently in the work cited in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words.fields/fieldtoa/get_usepassim/
 ---
 ## FieldToa::get_UsePassim method
@@ -141,4 +142,4 @@ static SharedPtr<FieldTA> InsertToaEntry(SharedPtr<DocumentBuilder> builder, Str
 
 * Class [FieldToa](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

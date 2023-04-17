@@ -1,9 +1,10 @@
 ---
-title: PageRange
+title: Aspose::Words::Saving::PageRange class
+linktitle: PageRange
 second_title: Aspose.Words for C++ API Reference
-description: Represents a continuous range of pages. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Saving::PageRange class. Represents a continuous range of pages. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 222
+weight: 18000
 url: /cpp/aspose.words.saving/pagerange/
 ---
 ## PageRange class
@@ -26,4 +27,4 @@ class PageRange : public System::Object
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

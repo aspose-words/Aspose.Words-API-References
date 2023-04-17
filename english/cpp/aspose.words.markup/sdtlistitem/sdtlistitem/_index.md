@@ -1,9 +1,10 @@
 ---
-title: SdtListItem
+title: Aspose::Words::Markup::SdtListItem::SdtListItem constructor
+linktitle: SdtListItem
 second_title: Aspose.Words for C++ API Reference
-description: Initializes a new instance of this class.
+description: 'Aspose::Words::Markup::SdtListItem::SdtListItem constructor. Initializes a new instance of this class in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.markup/sdtlistitem/sdtlistitem/
 ---
 ## SdtListItem::SdtListItem(const System::String\&, const System::String\&) constructor
@@ -80,7 +81,7 @@ ASSERT_EQ(0, listItems->get_Count());
 
 * Class [SdtListItem](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## SdtListItem::SdtListItem(const System::String\&) constructor
 
 
@@ -155,4 +156,4 @@ ASSERT_EQ(0, listItems->get_Count());
 
 * Class [SdtListItem](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

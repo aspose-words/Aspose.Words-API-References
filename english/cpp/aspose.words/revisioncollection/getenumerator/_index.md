@@ -1,9 +1,10 @@
 ---
-title: GetEnumerator
+title: Aspose::Words::RevisionCollection::GetEnumerator method
+linktitle: GetEnumerator
 second_title: Aspose.Words for C++ API Reference
-description: Returns an enumerator object.
+description: 'Aspose::Words::RevisionCollection::GetEnumerator method. Returns an enumerator object in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words/revisioncollection/getenumerator/
 ---
 ## RevisionCollection::GetEnumerator method
@@ -79,4 +80,4 @@ ASSERT_EQ(0, revisions->get_Count());
 * Class [Revision](../../revision/)
 * Class [RevisionCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: Save
+title: Aspose::Words::Drawing::ImageData::Save method
+linktitle: Save
 second_title: Aspose.Words for C++ API Reference
-description: Saves the image into the specified stream.
+description: 'Aspose::Words::Drawing::ImageData::Save method. Saves the image into the specified stream in C++.'
 type: docs
-weight: 274
+weight: 22000
 url: /cpp/aspose.words.drawing/imagedata/save/
 ---
 ## ImageData::Save(const System::SharedPtr\<System::IO::Stream\>\&) method
@@ -62,7 +63,7 @@ auto formatConverter = MakeObject<System::Drawing::ImageFormatConverter>();
 
 * Class [ImageData](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## ImageData::Save(const System::String\&) method
 
 
@@ -110,7 +111,7 @@ for (const auto& shape : System::IterateOver(shapes->LINQ_OfType<SharedPtr<Shape
 
 * Class [ImageData](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## ImageData::Save(std::basic_ostream\<CharType, Traits\>\&) method
 
 
@@ -124,4 +125,4 @@ template<typename CharType,typename Traits> void Aspose::Words::Drawing::ImageDa
 
 * Class [ImageData](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

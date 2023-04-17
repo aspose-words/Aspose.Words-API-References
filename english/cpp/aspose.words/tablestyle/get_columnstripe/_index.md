@@ -1,9 +1,10 @@
 ---
-title: get_ColumnStripe
+title: Aspose::Words::TableStyle::get_ColumnStripe method
+linktitle: get_ColumnStripe
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets a number of columns to include in the banding when the style specifies odd/even columns banding.
+description: 'Aspose::Words::TableStyle::get_ColumnStripe method. Gets or sets a number of columns to include in the banding when the style specifies odd/even columns banding in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words/tablestyle/get_columnstripe/
 ---
 ## TableStyle::get_ColumnStripe method
@@ -81,4 +82,4 @@ doc->Save(ArtifactsDir + u"Table.AlternatingRowStyles.docx");
 
 * Class [TableStyle](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

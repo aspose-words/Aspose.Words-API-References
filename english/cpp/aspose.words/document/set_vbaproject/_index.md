@@ -1,9 +1,10 @@
 ---
-title: set_VbaProject
+title: Aspose::Words::Document::set_VbaProject method
+linktitle: set_VbaProject
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Document::get_VbaProject.'
+description: 'Aspose::Words::Document::set_VbaProject method. Setter for Aspose::Words::Document::get_VbaProject in C++.'
 type: docs
-weight: 1171
+weight: 91000
 url: /cpp/aspose.words/document/set_vbaproject/
 ---
 ## Document::set_VbaProject method
@@ -20,4 +21,4 @@ void Aspose::Words::Document::set_VbaProject(const System::SharedPtr<Aspose::Wor
 * Class [VbaProject](../../../aspose.words.vba/vbaproject/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

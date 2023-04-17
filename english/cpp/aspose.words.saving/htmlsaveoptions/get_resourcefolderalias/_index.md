@@ -1,9 +1,10 @@
 ---
-title: get_ResourceFolderAlias
+title: Aspose::Words::Saving::HtmlSaveOptions::get_ResourceFolderAlias method
+linktitle: get_ResourceFolderAlias
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the name of the folder used to construct URIs of all resources written into an HTML document. Default is an empty string.
+description: 'Aspose::Words::Saving::HtmlSaveOptions::get_ResourceFolderAlias method. Specifies the name of the folder used to construct URIs of all resources written into an HTML document. Default is an empty string in C++.'
 type: docs
-weight: 560
+weight: 44000
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_resourcefolderalias/
 ---
 ## HtmlSaveOptions::get_ResourceFolderAlias method
@@ -54,4 +55,4 @@ doc->Save(ArtifactsDir + u"HtmlSaveOptions.FolderAlias.html", options);
 
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

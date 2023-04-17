@@ -1,9 +1,10 @@
 ---
-title: ConditionalStyleType
+title: Aspose::Words::ConditionalStyleType enum
+linktitle: ConditionalStyleType
 second_title: Aspose.Words for C++ API Reference
-description: Represents possible table areas to which conditional formatting may be defined in a table style.
+description: 'Aspose::Words::ConditionalStyleType enum. Represents possible table areas to which conditional formatting may be defined in a table style in C++.'
 type: docs
-weight: 1093
+weight: 85000
 url: /cpp/aspose.words/conditionalstyletype/
 ---
 ## ConditionalStyleType enum
@@ -109,4 +110,4 @@ doc->Save(ArtifactsDir + u"Table.ConditionalStyles.docx");
 ## See Also
 
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

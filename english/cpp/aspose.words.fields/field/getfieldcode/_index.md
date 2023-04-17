@@ -1,9 +1,10 @@
 ---
-title: GetFieldCode
+title: Aspose::Words::Fields::Field::GetFieldCode method
+linktitle: GetFieldCode
 second_title: Aspose.Words for C++ API Reference
-description: Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included.
+description: 'Aspose::Words::Fields::Field::GetFieldCode method. Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included in C++.'
 type: docs
-weight: 170
+weight: 14000
 url: /cpp/aspose.words.fields/field/getfieldcode/
 ---
 ## Field::GetFieldCode() method
@@ -57,7 +58,7 @@ ASSERT_EQ(fieldIf->GetFieldCode(), fieldIf->GetFieldCode(true));
 
 * Class [Field](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## Field::GetFieldCode(bool) method
 
 
@@ -98,4 +99,4 @@ ASSERT_EQ(fieldIf->GetFieldCode(), fieldIf->GetFieldCode(true));
 
 * Class [Field](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

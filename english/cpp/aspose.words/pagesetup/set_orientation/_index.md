@@ -1,9 +1,10 @@
 ---
-title: set_Orientation
+title: Aspose::Words::PageSetup::set_Orientation method
+linktitle: set_Orientation
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::PageSetup::get_Orientation.'
+description: 'Aspose::Words::PageSetup::set_Orientation method. Setter for Aspose::Words::PageSetup::get_Orientation in C++.'
 type: docs
-weight: 963
+weight: 75000
 url: /cpp/aspose.words/pagesetup/set_orientation/
 ---
 ## PageSetup::set_Orientation method
@@ -20,4 +21,4 @@ void Aspose::Words::PageSetup::set_Orientation(Aspose::Words::Orientation value)
 * Enum [Orientation](../../orientation/)
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

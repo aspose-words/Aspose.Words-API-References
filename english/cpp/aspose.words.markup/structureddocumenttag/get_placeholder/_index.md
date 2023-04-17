@@ -1,9 +1,10 @@
 ---
-title: get_Placeholder
+title: Aspose::Words::Markup::StructuredDocumentTag::get_Placeholder method
+linktitle: get_Placeholder
 second_title: Aspose.Words for C++ API Reference
-description: Gets the BuildingBlock containing placeholder text which should be displayed when this SDT run contents are empty, the associated mapped XML element is empty as specified via the XmlMapping element or the IsShowingPlaceholderText element is true.
+description: 'Aspose::Words::Markup::StructuredDocumentTag::get_Placeholder method. Gets the BuildingBlock containing placeholder text which should be displayed when this SDT run contents are empty, the associated mapped XML element is empty as specified via the XmlMapping element or the IsShowingPlaceholderText element is true in C++.'
 type: docs
-weight: 326
+weight: 26000
 url: /cpp/aspose.words.markup/structureddocumenttag/get_placeholder/
 ---
 ## StructuredDocumentTag::get_Placeholder method
@@ -66,4 +67,4 @@ doc->Save(ArtifactsDir + u"StructuredDocumentTag.PlaceholderBuildingBlock.docx")
 * Class [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/)
 * Class [StructuredDocumentTag](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
