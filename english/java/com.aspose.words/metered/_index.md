@@ -143,9 +143,6 @@ public static BigDecimal getConsumptionCredit()
 
 Gets consumption credit
 
-**Returns:**
-java.math.BigDecimal - consumption quantity
-
  **Examples:** 
 
 Shows how to activate a Metered license and track credit/consumption.
@@ -171,6 +168,9 @@ Shows how to activate a Metered license and track credit/consumption.
  System.out.println(MessageFormat.format("Consumption quantity after operation: {0}", Metered.getConsumptionQuantity()));
  
 ```
+
+**Returns:**
+java.math.BigDecimal - consumption quantity
 ### getConsumptionQuantity() {#getConsumptionQuantity}
 ```
 public static BigDecimal getConsumptionQuantity()
@@ -179,9 +179,6 @@ public static BigDecimal getConsumptionQuantity()
 
 Gets consumption file size
 
-**Returns:**
-java.math.BigDecimal - consumption quantity
-
  **Examples:** 
 
 Shows how to activate a Metered license and track credit/consumption.
@@ -207,6 +204,9 @@ Shows how to activate a Metered license and track credit/consumption.
  System.out.println(MessageFormat.format("Consumption quantity after operation: {0}", Metered.getConsumptionQuantity()));
  
 ```
+
+**Returns:**
+java.math.BigDecimal - consumption quantity
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()
@@ -241,12 +241,6 @@ public void setMeteredKey(String publicKey, String privateKey)
 
 Sets metered public and private key. If you purchase metered license, when start application, this API should be called, normally, this is enough. However, if always fail to upload consumption data and exceed 24 hours, the license will be set to evaluation status, to avoid such case, you should regularly check the license status, if it is evaluation status, call this API again.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| publicKey | java.lang.String | public key |
-| privateKey | java.lang.String | private key
-
  **Examples:** 
 
 Shows how to activate a Metered license and track credit/consumption.
@@ -271,7 +265,13 @@ Shows how to activate a Metered license and track credit/consumption.
  System.out.println(MessageFormat.format("Credit after operation: {0}", Metered.getConsumptionCredit()));
  System.out.println(MessageFormat.format("Consumption quantity after operation: {0}", Metered.getConsumptionQuantity()));
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| publicKey | java.lang.String | public key |
+| privateKey | java.lang.String | private key |
 
 ### toString() {#toString}
 ```

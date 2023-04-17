@@ -105,14 +105,6 @@ public abstract BufferedImage getBarcodeImage(BarcodeParameters parameters)
 
 Generate barcode image using the set of parameters (for DisplayBarcode field).
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parameters | [BarcodeParameters](../../com.aspose.words/barcodeparameters/) | The set of parameters |
-
-**Returns:**
-java.awt.image.BufferedImage - Image representing generated barcode.
-
  **Examples:** 
 
 Shows how to use a barcode generator.
@@ -187,6 +179,14 @@ Shows how to use a barcode generator.
  doc.save(getArtifactsDir() + "FieldOptions.BarcodeGenerator.docx");
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| parameters | [BarcodeParameters](../../com.aspose.words/barcodeparameters/) | The set of parameters |
+
+**Returns:**
+java.awt.image.BufferedImage - Image representing generated barcode.
 ### getOldBarcodeImage(BarcodeParameters parameters) {#getOldBarcodeImage-com.aspose.words.BarcodeParameters}
 ```
 public abstract BufferedImage getOldBarcodeImage(BarcodeParameters parameters)
@@ -195,14 +195,6 @@ public abstract BufferedImage getOldBarcodeImage(BarcodeParameters parameters)
 
 Generate barcode image using the set of parameters (for old-fashioned Barcode field).
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| parameters | [BarcodeParameters](../../com.aspose.words/barcodeparameters/) | The set of parameters |
-
-**Returns:**
-java.awt.image.BufferedImage - Image representing generated barcode.
-
  **Examples:** 
 
 Shows how to use a barcode generator.
@@ -277,3 +269,11 @@ Shows how to use a barcode generator.
  doc.save(getArtifactsDir() + "FieldOptions.BarcodeGenerator.docx");
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| parameters | [BarcodeParameters](../../com.aspose.words/barcodeparameters/) | The set of parameters |
+
+**Returns:**
+java.awt.image.BufferedImage - Image representing generated barcode.

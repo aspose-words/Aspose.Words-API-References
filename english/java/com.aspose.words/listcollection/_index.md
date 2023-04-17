@@ -194,14 +194,6 @@ public List add(Style listStyle)
 
 Creates a new list that references a list style and adds it to the collection of lists in the document.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| listStyle | [Style](../../com.aspose.words/style/) | The list style. |
-
-**Returns:**
-[List](../../com.aspose.words/list/) - The newly created list.
-
  **Remarks:** 
 
 The newly created list references the list style. If you change the properties of the list style, it is reflected in the properties of the list. Vice versa, if you change the properties of the list, it is reflected in the properties of the list style.
@@ -264,6 +256,14 @@ Shows how to create a list style and use it in a document.
  builder.getDocument().save(getArtifactsDir() + "Lists.CreateAndUseListStyle.docx");
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| listStyle | [Style](../../com.aspose.words/style/) | The list style. |
+
+**Returns:**
+[List](../../com.aspose.words/list/) - The newly created list.
 ### add(int listTemplate) {#add-int}
 ```
 public List add(int listTemplate)
@@ -286,14 +286,6 @@ public List addCopy(List srcList)
 
 
 Creates a new list by copying the specified list and adding it to the collection of lists in the document.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| srcList | [List](../../com.aspose.words/list/) | The source list to copy from. |
-
-**Returns:**
-[List](../../com.aspose.words/list/) - The newly created list.
 
  **Remarks:** 
 
@@ -374,6 +366,14 @@ Shows how to restart numbering in a list by copying a list.
  doc.save(getArtifactsDir() + "Lists.RestartNumberingUsingListCopy.docx");
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| srcList | [List](../../com.aspose.words/list/) | The source list to copy from. |
+
+**Returns:**
+[List](../../com.aspose.words/list/) - The newly created list.
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
@@ -540,14 +540,6 @@ public List getListByListId(int listId)
 
 Gets a list by a list identifier.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| listId | int | The list identifier. |
-
-**Returns:**
-[List](../../com.aspose.words/list/) - Returns the list object. Returns  null  if a list with the specified identifier was not found.
-
  **Remarks:** 
 
 You don't normally need to use this method. Most of the time you apply list formatting to paragraphs just by settings the [ListFormat.getList()](../../com.aspose.words/listformat/\#getList) / [ListFormat.setList(com.aspose.words.List)](../../com.aspose.words/listformat/\#setList-com.aspose.words.List) property of the [ListFormat](../../com.aspose.words/listformat/) object.
@@ -574,6 +566,14 @@ Shows how to verify owner document properties of lists.
  System.out.println("List is the same by ListId: " + (lists.getListByListId(1).equals(list)));
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| listId | int | The list identifier. |
+
+**Returns:**
+[List](../../com.aspose.words/list/) - Returns the list object. Returns  null  if a list with the specified identifier was not found.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()

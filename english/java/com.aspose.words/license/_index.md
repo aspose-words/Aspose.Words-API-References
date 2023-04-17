@@ -176,11 +176,6 @@ Tries to find the license in the following locations:
 
 3. The folder that contains the client's calling JAR file.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| licenseName | java.lang.String | Can be a full or short file name. Use an empty string to switch to evaluation mode.
-
  **Examples:** 
 
 Shows how initialize a license for Aspose.Words using a license file in the local file system.
@@ -202,7 +197,12 @@ Shows how initialize a license for Aspose.Words using a license file in the loca
  // One of those locations will be the "bin" folder, which contains a copy of our license file.
  license.setLicense("Aspose.Words.Java.lic");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| licenseName | java.lang.String | Can be a full or short file name. Use an empty string to switch to evaluation mode. |
 
 ### toString() {#toString}
 ```

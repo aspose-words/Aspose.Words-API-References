@@ -83,8 +83,6 @@ public PlainTextDocument(String fileName, LoadOptions loadOptions)
 
 Creates a plain text document from a file. Allows to specify additional options such as an encryption password.
 
- **Remarks:** 
-
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |

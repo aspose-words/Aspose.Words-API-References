@@ -102,14 +102,6 @@ public Style addCopy(Style style)
 
 Copies a style into this collection.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| style | [Style](../../com.aspose.words/style/) | Style to be copied. |
-
-**Returns:**
-[Style](../../com.aspose.words/style/) - Copied style ready for usage.
-
  **Remarks:** 
 
 Style to be copied can belong to the same document as well as to different document.
@@ -168,6 +160,14 @@ Shows how to clone a document's style.
  Assert.assertNotEquals(doc.getStyles().get("Heading 1").getFont().getColor(), newStyle.getFont().getColor());
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| style | [Style](../../com.aspose.words/style/) | Style to be copied. |
+
+**Returns:**
+[Style](../../com.aspose.words/style/) - Copied style ready for usage.
 ### clearQuickStyleGallery() {#clearQuickStyleGallery}
 ```
 public void clearQuickStyleGallery()

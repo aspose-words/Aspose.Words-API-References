@@ -91,15 +91,6 @@ Calculates the bounds of the shape in pixels for a specified zoom factor and res
 
 This method converts [getBoundsInPoints()](../../com.aspose.words/noderendererbase/\#getBoundsInPoints) into rectangle in pixels.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| scale | float | The zoom factor (1.0 is 100%). |
-| dpi | float | The resolution (horizontal and vertical) to convert from points to pixels (dots per inch). |
-
-**Returns:**
-java.awt.Rectangle - The actual (as rendered on the page) bounding box of the shape in pixels.
-
  **Examples:** 
 
 Shows how to measure and scale shapes.
@@ -141,6 +132,15 @@ Shows how to measure and scale shapes.
  Assert.assertEquals(30.0, bounds.getHeight());
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| scale | float | The zoom factor (1.0 is 100%). |
+| dpi | float | The resolution (horizontal and vertical) to convert from points to pixels (dots per inch). |
+
+**Returns:**
+java.awt.Rectangle - The actual (as rendered on the page) bounding box of the shape in pixels.
 ### getBoundsInPixels(float scale, float horizontalDpi, float verticalDpi) {#getBoundsInPixels-float-float-float}
 ```
 public Rectangle getBoundsInPixels(float scale, float horizontalDpi, float verticalDpi)
@@ -153,16 +153,6 @@ Calculates the bounds of the shape in pixels for a specified zoom factor and res
 
 This method converts [getBoundsInPoints()](../../com.aspose.words/noderendererbase/\#getBoundsInPoints) into rectangle in pixels.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| scale | float | The zoom factor (1.0 is 100%). |
-| horizontalDpi | float | The horizontal resolution to convert from points to pixels (dots per inch). |
-| verticalDpi | float | The vertical resolution to convert from points to pixels (dots per inch). |
-
-**Returns:**
-java.awt.Rectangle - The actual (as rendered on the page) bounding box of the shape in pixels.
-
  **Examples:** 
 
 Shows how to measure and scale shapes.
@@ -204,6 +194,16 @@ Shows how to measure and scale shapes.
  Assert.assertEquals(30.0, bounds.getHeight());
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| scale | float | The zoom factor (1.0 is 100%). |
+| horizontalDpi | float | The horizontal resolution to convert from points to pixels (dots per inch). |
+| verticalDpi | float | The vertical resolution to convert from points to pixels (dots per inch). |
+
+**Returns:**
+java.awt.Rectangle - The actual (as rendered on the page) bounding box of the shape in pixels.
 ### getBoundsInPoints() {#getBoundsInPoints}
 ```
 public Rectangle2D.Float getBoundsInPoints()
@@ -282,15 +282,6 @@ Calculates the opaque bounds of the shape in pixels for a specified zoom factor 
 
 This method converts [getOpaqueBoundsInPoints()](../../com.aspose.words/noderendererbase/\#getOpaqueBoundsInPoints) into rectangle in pixels and it is useful when you want to create a bitmap for rendering the shape with only opaque part of the shape.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| scale | float | The zoom factor (1.0 is 100%). |
-| dpi | float | The resolution to convert from points to pixels (dots per inch). |
-
-**Returns:**
-java.awt.Rectangle - The opaque rectangle of the shape in pixels.
-
  **Examples:** 
 
 Shows how to measure and scale shapes.
@@ -332,6 +323,15 @@ Shows how to measure and scale shapes.
  Assert.assertEquals(30.0, bounds.getHeight());
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| scale | float | The zoom factor (1.0 is 100%). |
+| dpi | float | The resolution to convert from points to pixels (dots per inch). |
+
+**Returns:**
+java.awt.Rectangle - The opaque rectangle of the shape in pixels.
 ### getOpaqueBoundsInPixels(float scale, float horizontalDpi, float verticalDpi) {#getOpaqueBoundsInPixels-float-float-float}
 ```
 public Rectangle getOpaqueBoundsInPixels(float scale, float horizontalDpi, float verticalDpi)
@@ -344,16 +344,6 @@ Calculates the opaque bounds of the shape in pixels for a specified zoom factor 
 
 This method converts [getOpaqueBoundsInPoints()](../../com.aspose.words/noderendererbase/\#getOpaqueBoundsInPoints) into rectangle in pixels and it is useful when you want to create a bitmap for rendering the shape with only opaque part of the shape.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| scale | float | The zoom factor (1.0 is 100%). |
-| horizontalDpi | float | The horizontal resolution to convert from points to pixels (dots per inch). |
-| verticalDpi | float | The vertical resolution to convert from points to pixels (dots per inch). |
-
-**Returns:**
-java.awt.Rectangle - The opaque rectangle of the shape in pixels.
-
  **Examples:** 
 
 Shows how to measure and scale shapes.
@@ -395,6 +385,16 @@ Shows how to measure and scale shapes.
  Assert.assertEquals(30.0, bounds.getHeight());
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| scale | float | The zoom factor (1.0 is 100%). |
+| horizontalDpi | float | The horizontal resolution to convert from points to pixels (dots per inch). |
+| verticalDpi | float | The vertical resolution to convert from points to pixels (dots per inch). |
+
+**Returns:**
+java.awt.Rectangle - The opaque rectangle of the shape in pixels.
 ### getOpaqueBoundsInPoints() {#getOpaqueBoundsInPoints}
 ```
 public Rectangle2D.Float getOpaqueBoundsInPoints()
@@ -463,15 +463,6 @@ Calculates the size of the shape in pixels for a specified zoom factor and resol
 
 This method converts [getSizeInPoints()](../../com.aspose.words/noderendererbase/\#getSizeInPoints) into size in pixels and it is useful when you want to create a bitmap for rendering the shape neatly onto the bitmap.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| scale | float | The zoom factor (1.0 is 100%). |
-| dpi | float | The resolution (horizontal and vertical) to convert from points to pixels (dots per inch). |
-
-**Returns:**
-java.awt.Dimension - The size of the shape in pixels.
-
  **Examples:** 
 
 Shows how to measure and scale shapes.
@@ -513,6 +504,15 @@ Shows how to measure and scale shapes.
  Assert.assertEquals(30.0, bounds.getHeight());
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| scale | float | The zoom factor (1.0 is 100%). |
+| dpi | float | The resolution (horizontal and vertical) to convert from points to pixels (dots per inch). |
+
+**Returns:**
+java.awt.Dimension - The size of the shape in pixels.
 ### getSizeInPixels(float scale, float horizontalDpi, float verticalDpi) {#getSizeInPixels-float-float-float}
 ```
 public Dimension getSizeInPixels(float scale, float horizontalDpi, float verticalDpi)
@@ -525,16 +525,6 @@ Calculates the size of the shape in pixels for a specified zoom factor and resol
 
 This method converts [getSizeInPoints()](../../com.aspose.words/noderendererbase/\#getSizeInPoints) into size in pixels and it is useful when you want to create a bitmap for rendering the shape neatly onto the bitmap.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| scale | float | The zoom factor (1.0 is 100%). |
-| horizontalDpi | float | The horizontal resolution to convert from points to pixels (dots per inch). |
-| verticalDpi | float | The vertical resolution to convert from points to pixels (dots per inch). |
-
-**Returns:**
-java.awt.Dimension - The size of the shape in pixels.
-
  **Examples:** 
 
 Shows how to measure and scale shapes.
@@ -576,6 +566,16 @@ Shows how to measure and scale shapes.
  Assert.assertEquals(30.0, bounds.getHeight());
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| scale | float | The zoom factor (1.0 is 100%). |
+| horizontalDpi | float | The horizontal resolution to convert from points to pixels (dots per inch). |
+| verticalDpi | float | The vertical resolution to convert from points to pixels (dots per inch). |
+
+**Returns:**
+java.awt.Dimension - The size of the shape in pixels.
 ### getSizeInPoints() {#getSizeInPoints}
 ```
 public Point2D.Float getSizeInPoints()
@@ -717,12 +717,6 @@ public void save(String fileName, ImageSaveOptions saveOptions)
 
 Renders the shape and saves into an image.  Renders the shape into an image and saves into a file.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fileName | java.lang.String | The name for the image file. If a file with the specified name already exists, the existing file is overwritten. |
-| saveOptions | [ImageSaveOptions](../../com.aspose.words/imagesaveoptions/) | Specifies the options that control how the shape is rendered and saved. Can be  null .
-
  **Examples:** 
 
 Shows how to render an Office Math object into an image file in the local file system.
@@ -742,7 +736,13 @@ Shows how to render an Office Math object into an image file in the local file s
 
  math.getMathRenderer().save(getArtifactsDir() + "Shape.RenderOfficeMath.png", saveOptions);
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | java.lang.String | The name for the image file. If a file with the specified name already exists, the existing file is overwritten. |
+| saveOptions | [ImageSaveOptions](../../com.aspose.words/imagesaveoptions/) | Specifies the options that control how the shape is rendered and saved. Can be  null . |
 
 ### toString() {#toString}
 ```

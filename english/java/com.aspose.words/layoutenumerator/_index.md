@@ -194,11 +194,6 @@ public LayoutEnumerator(Document document)
 
 Initializes new instance of this class.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| document | [Document](../../com.aspose.words/document/) | A document whose page layout model to enumerate.
-
  **Remarks:** 
 
 If page layout model of the document hasn't been built the enumerator calls [Document.updatePageLayout()](../../com.aspose.words/document/\#updatePageLayout) to build it.
@@ -333,7 +328,12 @@ Shows ways of traversing a document's layout entities.
      System.out.println(MessageFormat.format("{0}   Page {1}", tabs, layoutEnumerator.getPageIndex()));
  }
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| document | [Document](../../com.aspose.words/document/) | A document whose page layout model to enumerate. |
 
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
@@ -358,6 +358,10 @@ public Object get(String key)
 
 Gets a named property of the entity.
 
+ **Remarks:** 
+
+This is currently used to get font properties of spans. See [Font](../../com.aspose.words/font/) class for possible properties names. Not all properties are supported.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -365,10 +369,6 @@ Gets a named property of the entity.
 
 **Returns:**
 java.lang.Object - Null if property is not available, otherwise value of the property.
-
- **Remarks:** 
-
-This is currently used to get font properties of spans. See [Font](../../com.aspose.words/font/) class for possible properties names. Not all properties are supported.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()

@@ -86,11 +86,6 @@ Returns the structured document tag by identifier.
 
 Returns null if the structured document tag with the specified identifier cannot be found.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| id | int | The structured document tag identifier.
-
  **Examples:** 
 
 Shows how to get structured document tag.
@@ -108,7 +103,12 @@ Shows how to get structured document tag.
  sdt = doc.getRange().getStructuredDocumentTags().getByTitle("Alias4");
  System.out.println(sdt.getId());
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| id | int | The structured document tag identifier. |
 
 **Returns:**
 [IStructuredDocumentTag](../../com.aspose.words/istructureddocumenttag/)
@@ -143,11 +143,6 @@ Returns the first structured document tag encountered in the collection with the
 
 Returns null if the structured document tag with the specified title cannot be found.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| title | java.lang.String | The title of structured document tag.
-
  **Examples:** 
 
 Shows how to get structured document tag.
@@ -165,7 +160,12 @@ Shows how to get structured document tag.
  sdt = doc.getRange().getStructuredDocumentTags().getByTitle("Alias4");
  System.out.println(sdt.getId());
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| title | java.lang.String | The title of structured document tag. |
 
 **Returns:**
 [IStructuredDocumentTag](../../com.aspose.words/istructureddocumenttag/)
@@ -233,11 +233,6 @@ public void remove(int id)
 
 Removes the structured document tag with the specified identifier.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| id | int | The structured document tag identifier.
-
  **Examples:** 
 
 Shows how to remove structured document tag.
@@ -264,7 +259,12 @@ Shows how to remove structured document tag.
  structuredDocumentTags.removeAt(0);
  Assert.assertEquals(3, structuredDocumentTags.getCount());
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| id | int | The structured document tag identifier. |
 
 ### removeAt(int index) {#removeAt-int}
 ```
@@ -274,11 +274,6 @@ public void removeAt(int index)
 
 Removes a structured document tag at the specified index.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | An index into the collection.
-
  **Examples:** 
 
 Shows how to remove structured document tag.
@@ -305,7 +300,12 @@ Shows how to remove structured document tag.
  structuredDocumentTags.removeAt(0);
  Assert.assertEquals(3, structuredDocumentTags.getCount());
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | An index into the collection. |
 
 ### toString() {#toString}
 ```

@@ -122,11 +122,6 @@ public void add(CustomXmlPart part)
 
 Adds an item to the collection.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| part | [CustomXmlPart](../../com.aspose.words/customxmlpart/) | The custom XML part to add.
-
  **Examples:** 
 
 Shows how to create a structured document tag with custom XML data.
@@ -189,7 +184,12 @@ Shows how to create a structured document tag with custom XML data.
 
  doc.save(getArtifactsDir() + "StructuredDocumentTag.CustomXml.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| part | [CustomXmlPart](../../com.aspose.words/customxmlpart/) | The custom XML part to add. |
 
 ### add(String id, String xml) {#add-java.lang.String-java.lang.String}
 ```
@@ -199,15 +199,6 @@ public CustomXmlPart add(String id, String xml)
 
 Creates a new XML part with the specified XML and adds it to the collection.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| id | java.lang.String | Identifier of a new custom XML part. |
-| xml | java.lang.String | XML data of the part. |
-
-**Returns:**
-[CustomXmlPart](../../com.aspose.words/customxmlpart/) - Created custom XML part.
-
  **Examples:** 
 
 Shows how to create a structured document tag with custom XML data.
@@ -271,6 +262,15 @@ Shows how to create a structured document tag with custom XML data.
  doc.save(getArtifactsDir() + "StructuredDocumentTag.CustomXml.docx");
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| id | java.lang.String | Identifier of a new custom XML part. |
+| xml | java.lang.String | XML data of the part. |
+
+**Returns:**
+[CustomXmlPart](../../com.aspose.words/customxmlpart/) - Created custom XML part.
 ### clear() {#clear}
 ```
 public void clear()
@@ -440,11 +440,6 @@ public CustomXmlPart get(int index)
 
 Gets an item at the specified index.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | Zero-based index of the item.
-
  **Examples:** 
 
 Shows how to create a structured document tag with custom XML data.
@@ -507,7 +502,12 @@ Shows how to create a structured document tag with custom XML data.
 
  doc.save(getArtifactsDir() + "StructuredDocumentTag.CustomXml.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | Zero-based index of the item. |
 
 **Returns:**
 [CustomXmlPart](../../com.aspose.words/customxmlpart/) - An item at the specified index.
@@ -519,14 +519,6 @@ public CustomXmlPart getById(String id)
 
 Finds and returns a custom XML part by its identifier.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| id | java.lang.String | Case-sensitive string that identifies the custom XML part. |
-
-**Returns:**
-[CustomXmlPart](../../com.aspose.words/customxmlpart/) - Returns  null  if a custom XML part with the specified identifier is not found.
-
  **Examples:** 
 
 Shows how to create a structured document tag with custom XML data.
@@ -590,6 +582,14 @@ Shows how to create a structured document tag with custom XML data.
  doc.save(getArtifactsDir() + "StructuredDocumentTag.CustomXml.docx");
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| id | java.lang.String | Case-sensitive string that identifies the custom XML part. |
+
+**Returns:**
+[CustomXmlPart](../../com.aspose.words/customxmlpart/) - Returns  null  if a custom XML part with the specified identifier is not found.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -782,11 +782,6 @@ public void removeAt(int index)
 
 Removes an item at the specified index.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | The zero based index.
-
  **Examples:** 
 
 Shows how to create a structured document tag with custom XML data.
@@ -849,7 +844,12 @@ Shows how to create a structured document tag with custom XML data.
 
  doc.save(getArtifactsDir() + "StructuredDocumentTag.CustomXml.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | The zero based index. |
 
 ### set(int index, CustomXmlPart value) {#set-int-com.aspose.words.CustomXmlPart}
 ```
@@ -859,11 +859,6 @@ public void set(int index, CustomXmlPart value)
 
 Sets an item at the specified index.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | Zero-based index of the item.
-
  **Examples:** 
 
 Shows how to create a structured document tag with custom XML data.
@@ -926,7 +921,12 @@ Shows how to create a structured document tag with custom XML data.
 
  doc.save(getArtifactsDir() + "StructuredDocumentTag.CustomXml.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | Zero-based index of the item. |
 | value | [CustomXmlPart](../../com.aspose.words/customxmlpart/) | An item at the specified index. |
 
 ### toString() {#toString}

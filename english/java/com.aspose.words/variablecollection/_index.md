@@ -123,12 +123,6 @@ public void add(String name, String value)
 
 Adds a document variable to the collection.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | java.lang.String | The case-insensitive name of the variable to add. |
-| value | java.lang.String | The value of the variable. The value cannot be  null , if value is null empty string will be used instead.
-
  **Examples:** 
 
 Shows how to work with a document's variable collection.
@@ -188,7 +182,13 @@ Shows how to work with a document's variable collection.
 
  Assert.assertEquals(variables.getCount(), 0);
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | The case-insensitive name of the variable to add. |
+| value | java.lang.String | The value of the variable. The value cannot be  null , if value is null empty string will be used instead. |
 
 ### clear() {#clear}
 ```
@@ -267,14 +267,6 @@ public boolean contains(String name)
 
 Determines whether the collection contains a document variable with the given name.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | java.lang.String | Case-insensitive name of the document variable to locate. |
-
-**Returns:**
-boolean -  true  if item is found in the collection; otherwise,  false .
-
  **Examples:** 
 
 Shows how to work with a document's variable collection.
@@ -335,6 +327,14 @@ Shows how to work with a document's variable collection.
  Assert.assertEquals(variables.getCount(), 0);
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | Case-insensitive name of the document variable to locate. |
+
+**Returns:**
+boolean -  true  if item is found in the collection; otherwise,  false .
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
@@ -479,14 +479,6 @@ public int indexOfKey(String name)
 
 Returns the zero-based index of the specified document variable in the collection.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | java.lang.String | The case-insensitive name of the variable. |
-
-**Returns:**
-int - The zero based index. Negative value if not found.
-
  **Examples:** 
 
 Shows how to work with a document's variable collection.
@@ -547,6 +539,14 @@ Shows how to work with a document's variable collection.
  Assert.assertEquals(variables.getCount(), 0);
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | The case-insensitive name of the variable. |
+
+**Returns:**
+int - The zero based index. Negative value if not found.
 ### iterator() {#iterator}
 ```
 public Iterator iterator()
@@ -642,11 +642,6 @@ public void remove(String name)
 
 Removes a document variable with the specified name from the collection.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | java.lang.String | The case-insensitive name of the variable.
-
  **Examples:** 
 
 Shows how to work with a document's variable collection.
@@ -706,7 +701,12 @@ Shows how to work with a document's variable collection.
 
  Assert.assertEquals(variables.getCount(), 0);
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | The case-insensitive name of the variable. |
 
 ### removeAt(int index) {#removeAt-int}
 ```
@@ -716,11 +716,6 @@ public void removeAt(int index)
 
 Removes a document variable at the specified index.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | The zero based index.
-
  **Examples:** 
 
 Shows how to work with a document's variable collection.
@@ -780,7 +775,12 @@ Shows how to work with a document's variable collection.
 
  Assert.assertEquals(variables.getCount(), 0);
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | The zero based index. |
 
 ### set(int index, String value) {#set-int-java.lang.String}
 ```

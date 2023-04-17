@@ -196,14 +196,6 @@ public boolean contains(String name)
 
 Returns  true  if a property with the specified name exists in the collection.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | java.lang.String | The case-insensitive name of the property. |
-
-**Returns:**
-boolean -  true  if the property exists in the collection;  false  otherwise.
-
  **Examples:** 
 
 Shows how to work with a document's custom properties.
@@ -262,6 +254,14 @@ Shows how to work with a document's custom properties.
  Assert.assertEquals(0, properties.getCount());
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | The case-insensitive name of the property. |
+
+**Returns:**
+boolean -  true  if the property exists in the collection;  false  otherwise.
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
@@ -289,11 +289,6 @@ Returns a [DocumentProperty](../../com.aspose.words/documentproperty/) object by
 
 **Note:**  In Java this method is slow because iterates over all nodes.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | Zero-based index of the [DocumentProperty](../../com.aspose.words/documentproperty/) to retrieve.
-
  **Examples:** 
 
 Shows how to work with custom document properties.
@@ -315,7 +310,12 @@ Shows how to work with custom document properties.
      System.out.println(MessageFormat.format("\tValue:\t\"{0}\"", customDocumentProperty.getValue()));
  }
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | Zero-based index of the [DocumentProperty](../../com.aspose.words/documentproperty/) to retrieve. |
 
 **Returns:**
 [DocumentProperty](../../com.aspose.words/documentproperty/) - A [DocumentProperty](../../com.aspose.words/documentproperty/) object by index.
@@ -331,11 +331,6 @@ Provides access to the collection items.  Returns a [DocumentProperty](../../com
 
 Returns  null  if a property with the specified name is not found.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | java.lang.String | The case-insensitive name of the property to retrieve.
-
  **Examples:** 
 
 Shows how to create a custom document property which contains a date and time.
@@ -348,7 +343,12 @@ Shows how to create a custom document property which contains a date and time.
 
  System.out.println(MessageFormat.format("Document authorized on {0}", doc.getCustomDocumentProperties().get("AuthorizationDate")));
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | The case-insensitive name of the property to retrieve. |
 
 **Returns:**
 [DocumentProperty](../../com.aspose.words/documentproperty/) - The corresponding [DocumentProperty](../../com.aspose.words/documentproperty/) value.
@@ -417,14 +417,6 @@ Gets the index of a property by name.
 
 **Note:**  In Java this method is slow because iterates over all nodes.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | java.lang.String | The case-insensitive name of the property. |
-
-**Returns:**
-int - The zero based index. Negative value if not found.
-
  **Examples:** 
 
 Shows how to work with a document's custom properties.
@@ -483,6 +475,14 @@ Shows how to work with a document's custom properties.
  Assert.assertEquals(0, properties.getCount());
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | The case-insensitive name of the property. |
+
+**Returns:**
+int - The zero based index. Negative value if not found.
 ### iterator() {#iterator}
 ```
 public Iterator iterator()
@@ -576,11 +576,6 @@ public void remove(String name)
 
 Removes a property with the specified name from the collection.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | java.lang.String | The case-insensitive name of the property.
-
  **Examples:** 
 
 Shows how to work with a document's custom properties.
@@ -638,7 +633,12 @@ Shows how to work with a document's custom properties.
 
  Assert.assertEquals(0, properties.getCount());
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | The case-insensitive name of the property. |
 
 ### removeAt(int index) {#removeAt-int}
 ```
@@ -652,11 +652,6 @@ Removes a property at the specified index.
 
 **Note:**  In Java this method is slow because iterates over all nodes.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | The zero based index.
-
  **Examples:** 
 
 Shows how to work with a document's custom properties.
@@ -714,7 +709,12 @@ Shows how to work with a document's custom properties.
 
  Assert.assertEquals(0, properties.getCount());
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | The zero based index. |
 
 ### toString() {#toString}
 ```

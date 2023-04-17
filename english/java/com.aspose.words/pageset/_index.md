@@ -51,14 +51,14 @@ public PageSet(int page)
 
 Creates an one-page set based on exact page index.
 
+ **Remarks:** 
+
+If a page is encountered that is not in the document, an exception will be thrown during rendering.  means the last page in the document.
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| page | int | Zero-based index of the page.
-
- **Remarks:** 
-
-If a page is encountered that is not in the document, an exception will be thrown during rendering.  means the last page in the document. |
+| page | int | Zero-based index of the page. |
 
 ### PageSet(int[] pages) {#PageSet-int...}
 ```
@@ -67,11 +67,6 @@ public PageSet(int[] pages)
 
 
 Creates a page set based on exact page indices.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| pages | int[] | Zero-based indices of pages.
 
  **Remarks:** 
 
@@ -102,7 +97,12 @@ Shows how to extract pages based on exact page indices.
 
  doc.save(getArtifactsDir() + "XpsSaveOptions.ExportExactPages.xps", xpsOptions);
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pages | int[] | Zero-based indices of pages. |
 
 ### PageSet(PageRange[] ranges) {#PageSet-com.aspose.words.PageRange...}
 ```
@@ -111,11 +111,6 @@ public PageSet(PageRange[] ranges)
 
 
 Creates a page set based on ranges.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| ranges | [PageRange\[\]](../../com.aspose.words/pagerange/) | Array of page ranges.
 
  **Remarks:** 
 
@@ -135,7 +130,12 @@ Shows how to extract pages based on exact page ranges.
  imageOptions.setPageSet(pageSet);
  doc.save(getArtifactsDir() + "ImageSaveOptions.ExportVariousPageRanges.tiff", imageOptions);
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ranges | [PageRange\[\]](../../com.aspose.words/pagerange/) | Array of page ranges. |
 
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```

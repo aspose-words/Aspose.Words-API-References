@@ -502,15 +502,6 @@ You should use special meta-characters if you need to work with breaks:
 
 Use method [replace(java.lang.String, java.lang.String, com.aspose.words.FindReplaceOptions)](../../com.aspose.words/range/\#replace-java.lang.String--java.lang.String--com.aspose.words.FindReplaceOptions) to have more flexible customization.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| pattern | java.lang.String | A string to be replaced. |
-| replacement | java.lang.String | A string to replace all occurrences of pattern. |
-
-**Returns:**
-int - The number of replacements made.
-
  **Examples:** 
 
 ```
@@ -577,6 +568,15 @@ Shows how to add formatting to paragraphs in which a find-and-replace operation 
          "This one also will!", doc.getText().trim());
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pattern | java.lang.String | A string to be replaced. |
+| replacement | java.lang.String | A string to replace all occurrences of pattern. |
+
+**Returns:**
+int - The number of replacements made.
 ### replace(String pattern, String replacement, FindReplaceOptions options) {#replace-java.lang.String-java.lang.String-com.aspose.words.FindReplaceOptions}
 ```
 public int replace(String pattern, String replacement, FindReplaceOptions options)
@@ -598,16 +598,6 @@ You should use special meta-characters if you need to work with breaks:
  *  **&m** \- page break
  *  **&l** \- manual line break
  *  **&&** \- & character
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| pattern | java.lang.String | A string to be replaced. |
-| replacement | java.lang.String | A string to replace all occurrences of pattern. |
-| options | [FindReplaceOptions](../../com.aspose.words/findreplaceoptions/) | [FindReplaceOptions](../../com.aspose.words/findreplaceoptions/) object to specify additional options. |
-
-**Returns:**
-int - The number of replacements made.
 
  **Examples:** 
 
@@ -722,6 +712,16 @@ Shows how to replace all instances of String of text in a table and cell.
                  "Potatoes20", table.getText().trim());
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pattern | java.lang.String | A string to be replaced. |
+| replacement | java.lang.String | A string to replace all occurrences of pattern. |
+| options | [FindReplaceOptions](../../com.aspose.words/findreplaceoptions/) | [FindReplaceOptions](../../com.aspose.words/findreplaceoptions/) object to specify additional options. |
+
+**Returns:**
+int - The number of replacements made.
 ### replace(Pattern pattern, String replacement) {#replace-java.util.regex.Pattern-java.lang.String}
 ```
 public int replace(Pattern pattern, String replacement)
@@ -744,15 +744,6 @@ You should use special meta-characters if you need to work with breaks:
  *  **&l** \- manual line break
 
 Use method [replace(java.util.regex.Pattern, java.lang.String, com.aspose.words.FindReplaceOptions)](../../com.aspose.words/range/\#replace-java.util.regex.Pattern--java.lang.String--com.aspose.words.FindReplaceOptions) to have more flexible customization.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| pattern | java.util.regex.Pattern | A regular expression pattern used to find matches. |
-| replacement | java.lang.String | A string to replace all occurrences of pattern. |
-
-**Returns:**
-int - The number of replacements made.
 
  **Examples:** 
 
@@ -781,6 +772,15 @@ Shows how to replace all occurrences of a regular expression pattern with other 
  Assert.assertEquals("I decided to get the curtains in lavender, ideal for the lavender-accented room.", doc.getText().trim());
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pattern | java.util.regex.Pattern | A regular expression pattern used to find matches. |
+| replacement | java.lang.String | A string to replace all occurrences of pattern. |
+
+**Returns:**
+int - The number of replacements made.
 ### replace(Pattern pattern, String replacement, FindReplaceOptions options) {#replace-java.util.regex.Pattern-java.lang.String-com.aspose.words.FindReplaceOptions}
 ```
 public int replace(Pattern pattern, String replacement, FindReplaceOptions options)
@@ -802,16 +802,6 @@ You should use special meta-characters if you need to work with breaks:
  *  **&m** \- page break
  *  **&l** \- manual line break
  *  **&&** \- & character
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| pattern | java.util.regex.Pattern | A regular expression pattern used to find matches. |
-| replacement | java.lang.String | A string to replace all occurrences of pattern. |
-| options | [FindReplaceOptions](../../com.aspose.words/findreplaceoptions/) | [FindReplaceOptions](../../com.aspose.words/findreplaceoptions/) object to specify additional options. |
-
-**Returns:**
-int - The number of replacements made.
 
  **Examples:** 
 
@@ -935,6 +925,16 @@ Shows how to insert an entire document's contents as a replacement of a match in
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pattern | java.util.regex.Pattern | A regular expression pattern used to find matches. |
+| replacement | java.lang.String | A string to replace all occurrences of pattern. |
+| options | [FindReplaceOptions](../../com.aspose.words/findreplaceoptions/) | [FindReplaceOptions](../../com.aspose.words/findreplaceoptions/) object to specify additional options. |
+
+**Returns:**
+int - The number of replacements made.
 ### toDocument() {#toDocument}
 ```
 public Document toDocument()

@@ -223,11 +223,6 @@ If index is greater than or equal to the number of items in the list, this retur
 
 If index is negative and its absolute value is greater than the number of items in the list, this returns a null reference.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | An index into the collection.
-
  **Examples:** 
 
 Shows how to add bookmarks and update their contents.
@@ -305,7 +300,12 @@ Shows how to add bookmarks and update their contents.
      }
  }
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | An index into the collection. |
 
 **Returns:**
 [Bookmark](../../com.aspose.words/bookmark/) - A bookmark at the specified index.
@@ -321,11 +321,6 @@ Returns a bookmark by name.
 
 Returns  null  if the bookmark with the specified name cannot be found.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| bookmarkName | java.lang.String | Case-insensitive name of the bookmark.
-
  **Examples:** 
 
 Shows how to add bookmarks and update their contents.
@@ -403,7 +398,12 @@ Shows how to add bookmarks and update their contents.
      }
  }
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| bookmarkName | java.lang.String | Case-insensitive name of the bookmark. |
 
 **Returns:**
 [Bookmark](../../com.aspose.words/bookmark/) - A bookmark by name.
@@ -609,11 +609,6 @@ public void remove(Bookmark bookmark)
 
 Removes the specified bookmark from the document.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| bookmark | [Bookmark](../../com.aspose.words/bookmark/) | The bookmark to remove.
-
  **Examples:** 
 
 Shows how to remove bookmarks from a document.
@@ -671,7 +666,12 @@ Shows how to remove bookmarks from a document.
          "Text inside MyBookmark_4.\r" +
          "Text inside MyBookmark_5.", doc.getText().trim());
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| bookmark | [Bookmark](../../com.aspose.words/bookmark/) | The bookmark to remove. |
 
 ### remove(String bookmarkName) {#remove-java.lang.String}
 ```
@@ -681,11 +681,6 @@ public void remove(String bookmarkName)
 
 Removes a bookmark with the specified name.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| bookmarkName | java.lang.String | The case-insensitive name of the bookmark to remove.
-
  **Examples:** 
 
 Shows how to remove bookmarks from a document.
@@ -743,7 +738,12 @@ Shows how to remove bookmarks from a document.
          "Text inside MyBookmark_4.\r" +
          "Text inside MyBookmark_5.", doc.getText().trim());
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| bookmarkName | java.lang.String | The case-insensitive name of the bookmark to remove. |
 
 ### removeAt(int index) {#removeAt-int}
 ```
@@ -753,11 +753,6 @@ public void removeAt(int index)
 
 Removes a bookmark at the specified index.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | The zero-based index of the bookmark to remove.
-
  **Examples:** 
 
 Shows how to remove bookmarks from a document.
@@ -815,7 +810,12 @@ Shows how to remove bookmarks from a document.
          "Text inside MyBookmark_4.\r" +
          "Text inside MyBookmark_5.", doc.getText().trim());
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index of the bookmark to remove. |
 
 ### toString() {#toString}
 ```

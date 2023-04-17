@@ -191,11 +191,7 @@ Adds Text watermark into the document.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| text | java.lang.String | Text that is displayed as a watermark.
-
- **Remarks:** 
-
-The text length must be in the range from 1 to 200 inclusive. The text cannot be  null  or contain only whitespaces. |
+| text | java.lang.String | Text that is displayed as a watermark. |
 
 ### setText(String text, TextWatermarkOptions options) {#setText-java.lang.String-com.aspose.words.TextWatermarkOptions}
 ```
@@ -209,11 +205,7 @@ Adds Text watermark into the document.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | text | java.lang.String | Text that is displayed as a watermark. |
-| options | [TextWatermarkOptions](../../com.aspose.words/textwatermarkoptions/) | Defines additional options for the text watermark.
-
- **Remarks:** 
-
-The text length must be in the range from 1 to 200 inclusive. The text cannot be  null  or contain only whitespaces. |
+| options | [TextWatermarkOptions](../../com.aspose.words/textwatermarkoptions/) | Defines additional options for the text watermark. |
 
 ### toString() {#toString}
 ```

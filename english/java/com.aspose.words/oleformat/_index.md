@@ -936,43 +936,7 @@ Saves the data of the embedded object into a file with the specified name.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | java.lang.String | Name of the file to save the OLE object data.
-
- **Examples:** 
-
-Shows how to extract embedded OLE objects into files.
-
-```
-
- Document doc = new Document(getMyDir() + "OLE spreadsheet.docm");
- Shape shape = (Shape) doc.getChild(NodeType.SHAPE, 0, true);
-
- // The OLE object in the first shape is a Microsoft Excel spreadsheet.
- OleFormat oleFormat = shape.getOleFormat();
-
- Assert.assertEquals("Excel.Sheet.12", oleFormat.getProgId());
-
- // Our object is neither auto updating nor locked from updates.
- Assert.assertFalse(oleFormat.getAutoUpdate());
- Assert.assertEquals(oleFormat.isLocked(), false);
-
- // If we plan on saving the OLE object to a file in the local file system,
- // we can use the "SuggestedExtension" property to determine which file extension to apply to the file.
- Assert.assertEquals(".xlsx", oleFormat.getSuggestedExtension());
-
- // Below are two ways of saving an OLE object to a file in the local file system.
- // 1 -  Save it via a stream:
- OutputStream fs = new FileOutputStream(getArtifactsDir() + "OLE spreadsheet extracted via stream" + oleFormat.getSuggestedExtension());
- try {
-     oleFormat.save(fs);
- } finally {
-     if (fs != null) fs.close();
- }
-
- // 2 -  Save it directly to a filename:
- oleFormat.save(getArtifactsDir() + "OLE spreadsheet saved directly" + oleFormat.getSuggestedExtension());
- 
-``` |
+| fileName | java.lang.String | Name of the file to save the OLE object data. |
 
 ### setAutoUpdate(boolean value) {#setAutoUpdate-boolean}
 ```

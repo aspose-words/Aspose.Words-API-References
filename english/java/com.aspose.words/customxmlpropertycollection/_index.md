@@ -117,11 +117,6 @@ public void add(CustomXmlProperty property)
 
 Adds a property to the collection.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| property | [CustomXmlProperty](../../com.aspose.words/customxmlproperty/) | The property to add.
-
  **Examples:** 
 
 Shows how to work with smart tag properties to get in depth information about smart tags.
@@ -179,7 +174,12 @@ Shows how to work with smart tag properties to get in depth information about sm
 
  Assert.assertEquals(0, properties.getCount());
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| property | [CustomXmlProperty](../../com.aspose.words/customxmlproperty/) | The property to add. |
 
 ### clear() {#clear}
 ```
@@ -256,14 +256,6 @@ public boolean contains(String name)
 
 Determines whether the collection contains a property with the given name.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | java.lang.String | Case-sensitive name of the property to locate. |
-
-**Returns:**
-boolean -  true  if the item is found in the collection; otherwise,  false .
-
  **Examples:** 
 
 Shows how to work with smart tag properties to get in depth information about smart tags.
@@ -322,6 +314,14 @@ Shows how to work with smart tag properties to get in depth information about sm
  Assert.assertEquals(0, properties.getCount());
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | Case-sensitive name of the property to locate. |
+
+**Returns:**
+boolean -  true  if the item is found in the collection; otherwise,  false .
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
@@ -345,11 +345,6 @@ public CustomXmlProperty get(int index)
 
 Gets a property at the specified index.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | Zero-based index of the property.
-
  **Examples:** 
 
 Shows how to work with smart tag properties to get in depth information about smart tags.
@@ -407,7 +402,12 @@ Shows how to work with smart tag properties to get in depth information about sm
 
  Assert.assertEquals(0, properties.getCount());
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | Zero-based index of the property. |
 
 **Returns:**
 [CustomXmlProperty](../../com.aspose.words/customxmlproperty/) - A property at the specified index.
@@ -419,11 +419,6 @@ public CustomXmlProperty get(String name)
 
 Provides access to the collection items.  Gets a property with the specified name.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | java.lang.String | Case-sensitive name of the property to locate.
-
  **Examples:** 
 
 Shows how to work with smart tag properties to get in depth information about smart tags.
@@ -481,7 +476,12 @@ Shows how to work with smart tag properties to get in depth information about sm
 
  Assert.assertEquals(0, properties.getCount());
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | Case-sensitive name of the property to locate. |
 
 **Returns:**
 [CustomXmlProperty](../../com.aspose.words/customxmlproperty/) - The corresponding [CustomXmlProperty](../../com.aspose.words/customxmlproperty/) value.
@@ -582,14 +582,6 @@ public int indexOfKey(String name)
 
 Returns the zero-based index of the specified property in the collection.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | java.lang.String | The case-sensitive name of the property. |
-
-**Returns:**
-int - The zero based index. Negative value if not found.
-
  **Examples:** 
 
 Shows how to work with smart tag properties to get in depth information about smart tags.
@@ -648,6 +640,14 @@ Shows how to work with smart tag properties to get in depth information about sm
  Assert.assertEquals(0, properties.getCount());
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | The case-sensitive name of the property. |
+
+**Returns:**
+int - The zero based index. Negative value if not found.
 ### iterator() {#iterator}
 ```
 public Iterator iterator()
@@ -741,11 +741,6 @@ public void remove(String name)
 
 Removes a property with the specified name from the collection.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | java.lang.String | The case-sensitive name of the property.
-
  **Examples:** 
 
 Shows how to work with smart tag properties to get in depth information about smart tags.
@@ -803,7 +798,12 @@ Shows how to work with smart tag properties to get in depth information about sm
 
  Assert.assertEquals(0, properties.getCount());
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | The case-sensitive name of the property. |
 
 ### removeAt(int index) {#removeAt-int}
 ```
@@ -813,11 +813,6 @@ public void removeAt(int index)
 
 Removes a property at the specified index.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | The zero based index.
-
  **Examples:** 
 
 Shows how to work with smart tag properties to get in depth information about smart tags.
@@ -875,7 +870,12 @@ Shows how to work with smart tag properties to get in depth information about sm
 
  Assert.assertEquals(0, properties.getCount());
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | The zero based index. |
 
 ### toString() {#toString}
 ```

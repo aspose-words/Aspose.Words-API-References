@@ -225,11 +225,6 @@ Sets the write protection password for the document.
 
 If a password is set, Microsoft Word will require the user to enter it or open the document as read-only.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| password | java.lang.String | The password to set. Cannot be  null , but can be an empty string.
-
  **Examples:** 
 
 Shows how to protect a document with a password.
@@ -259,7 +254,12 @@ Shows how to protect a document with a password.
  Assert.assertEquals("Hello world! This document is protected." +
          "\rWriting text in a protected document.", doc.getText().trim());
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| password | java.lang.String | The password to set. Cannot be  null , but can be an empty string. |
 
 ### setReadOnlyRecommended(boolean value) {#setReadOnlyRecommended-boolean}
 ```

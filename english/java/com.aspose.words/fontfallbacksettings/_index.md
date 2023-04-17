@@ -223,11 +223,6 @@ public void load(String fileName)
 
 Loads font fallback settings from XML file.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fileName | java.lang.String | Input file name.
-
  **Examples:** 
 
 Shows how to load and save font fallback settings to/from an XML document in the local file system.
@@ -246,7 +241,12 @@ Shows how to load and save font fallback settings to/from an XML document in the
  // Save our document's current font fallback settings as an XML document.
  doc.getFontSettings().getFallbackSettings().save(getArtifactsDir() + "FallbackSettings.xml");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | java.lang.String | Input file name. |
 
 ### loadMsOfficeFallbackSettings() {#loadMsOfficeFallbackSettings}
 ```
@@ -382,11 +382,6 @@ public void save(String fileName)
 
 Saves the current fallback settings to file.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fileName | java.lang.String | Output file name.
-
  **Examples:** 
 
 Shows how to load and save font fallback settings to/from an XML document in the local file system.
@@ -405,7 +400,12 @@ Shows how to load and save font fallback settings to/from an XML document in the
  // Save our document's current font fallback settings as an XML document.
  doc.getFontSettings().getFallbackSettings().save(getArtifactsDir() + "FallbackSettings.xml");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | java.lang.String | Output file name. |
 
 ### toString() {#toString}
 ```

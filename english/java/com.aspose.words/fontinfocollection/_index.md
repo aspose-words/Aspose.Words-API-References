@@ -98,14 +98,6 @@ public boolean contains(String name)
 
 Determines whether the collection contains a font with the given name.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | java.lang.String | Case-insensitive name of the font to locate. |
-
-**Returns:**
-boolean -  true  if the item is found in the collection; otherwise,  false .
-
  **Examples:** 
 
 Shows info about the fonts that are present in the blank document.
@@ -125,6 +117,14 @@ Shows info about the fonts that are present in the blank document.
  Assert.assertTrue(doc.getFontInfos().contains("Arial"));
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | Case-insensitive name of the font to locate. |
+
+**Returns:**
+boolean -  true  if the item is found in the collection; otherwise,  false .
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
@@ -148,11 +148,6 @@ public FontInfo get(int index)
 
 Gets a font at the specified index.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | Zero-based index of the font.
-
  **Examples:** 
 
 Shows how to extract an embedded font from a document, and save it to the local file system.
@@ -177,7 +172,12 @@ Shows how to extract an embedded font from a document, and save it to the local 
 
  FileUtils.writeByteArrayToFile(new File(getArtifactsDir() + "Alte DIN 1451 Mittelschrift.otf"), embeddedFontBytes);
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | Zero-based index of the font. |
 
 **Returns:**
 [FontInfo](../../com.aspose.words/fontinfo/) - A font at the specified index.
@@ -189,11 +189,6 @@ public FontInfo get(String name)
 
 Provides access to the collection items.  Gets a font with the specified name.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | java.lang.String | Case-insensitive name of the font to locate.
-
  **Examples:** 
 
 Shows how to extract an embedded font from a document, and save it to the local file system.
@@ -218,7 +213,12 @@ Shows how to extract an embedded font from a document, and save it to the local 
 
  FileUtils.writeByteArrayToFile(new File(getArtifactsDir() + "Alte DIN 1451 Mittelschrift.otf"), embeddedFontBytes);
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | Case-insensitive name of the font to locate. |
 
 **Returns:**
 [FontInfo](../../com.aspose.words/fontinfo/) - The corresponding [FontInfo](../../com.aspose.words/fontinfo/) value.

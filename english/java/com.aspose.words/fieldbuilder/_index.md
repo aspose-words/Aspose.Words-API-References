@@ -355,11 +355,6 @@ public FieldBuilder addArgument(double argument)
 
 Adds a field's argument.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| argument | double | The argument value.
-
  **Examples:** 
 
 Shows how to construct fields using a field builder, and then insert them into the document.
@@ -440,7 +435,12 @@ Shows how to construct fields using a field builder, and then insert them into t
  doc.updateFields();
  doc.save(getArtifactsDir() + "Field.SYMBOL.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| argument | double | The argument value. |
 
 **Returns:**
 [FieldBuilder](../../com.aspose.words/fieldbuilder/)
@@ -452,11 +452,6 @@ public FieldBuilder addArgument(int argument)
 
 Adds a field's argument.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| argument | int | The argument value.
-
  **Examples:** 
 
 Shows how to construct fields using a field builder, and then insert them into the document.
@@ -537,7 +532,12 @@ Shows how to construct fields using a field builder, and then insert them into t
  doc.updateFields();
  doc.save(getArtifactsDir() + "Field.SYMBOL.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| argument | int | The argument value. |
 
 **Returns:**
 [FieldBuilder](../../com.aspose.words/fieldbuilder/)
@@ -549,11 +549,6 @@ public FieldBuilder addArgument(String argument)
 
 Adds a field's argument.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| argument | java.lang.String | The argument value.
-
  **Examples:** 
 
 Shows how to construct fields using a field builder, and then insert them into the document.
@@ -634,7 +629,12 @@ Shows how to construct fields using a field builder, and then insert them into t
  doc.updateFields();
  doc.save(getArtifactsDir() + "Field.SYMBOL.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| argument | java.lang.String | The argument value. |
 
 **Returns:**
 [FieldBuilder](../../com.aspose.words/fieldbuilder/)
@@ -650,11 +650,6 @@ Adds a field's switch.
 
 This overload adds a flag (switch without argument).
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| switchName | java.lang.String | The switch name.
-
  **Examples:** 
 
 Shows how to construct fields using a field builder, and then insert them into the document.
@@ -735,7 +730,12 @@ Shows how to construct fields using a field builder, and then insert them into t
  doc.updateFields();
  doc.save(getArtifactsDir() + "Field.SYMBOL.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| switchName | java.lang.String | The switch name. |
 
 **Returns:**
 [FieldBuilder](../../com.aspose.words/fieldbuilder/)
@@ -747,12 +747,6 @@ public FieldBuilder addSwitch(String switchName, double switchArgument)
 
 Adds a field's switch.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| switchName | java.lang.String | The switch name. |
-| switchArgument | double | The switch value.
-
  **Examples:** 
 
 Shows how to construct fields using a field builder, and then insert them into the document.
@@ -833,7 +827,13 @@ Shows how to construct fields using a field builder, and then insert them into t
  doc.updateFields();
  doc.save(getArtifactsDir() + "Field.SYMBOL.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| switchName | java.lang.String | The switch name. |
+| switchArgument | double | The switch value. |
 
 **Returns:**
 [FieldBuilder](../../com.aspose.words/fieldbuilder/)
@@ -845,12 +845,6 @@ public FieldBuilder addSwitch(String switchName, int switchArgument)
 
 Adds a field's switch.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| switchName | java.lang.String | The switch name. |
-| switchArgument | int | The switch value.
-
  **Examples:** 
 
 Shows how to construct fields using a field builder, and then insert them into the document.
@@ -931,7 +925,13 @@ Shows how to construct fields using a field builder, and then insert them into t
  doc.updateFields();
  doc.save(getArtifactsDir() + "Field.SYMBOL.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| switchName | java.lang.String | The switch name. |
+| switchArgument | int | The switch value. |
 
 **Returns:**
 [FieldBuilder](../../com.aspose.words/fieldbuilder/)
@@ -943,12 +943,6 @@ public FieldBuilder addSwitch(String switchName, String switchArgument)
 
 Adds a field's switch.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| switchName | java.lang.String | The switch name. |
-| switchArgument | java.lang.String | The switch value.
-
  **Examples:** 
 
 Shows how to construct fields using a field builder, and then insert them into the document.
@@ -1029,7 +1023,13 @@ Shows how to construct fields using a field builder, and then insert them into t
  doc.updateFields();
  doc.save(getArtifactsDir() + "Field.SYMBOL.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| switchName | java.lang.String | The switch name. |
+| switchArgument | java.lang.String | The switch value. |
 
 **Returns:**
 [FieldBuilder](../../com.aspose.words/fieldbuilder/)
@@ -1040,14 +1040,6 @@ public Field buildAndInsert(Inline refNode)
 
 
 Builds and inserts a field into the document before the specified inline node.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| refNode | [Inline](../../com.aspose.words/inline/) |  |
-
-**Returns:**
-[Field](../../com.aspose.words/field/) - A [Field](../../com.aspose.words/field/) object that represents the inserted field.
 
  **Examples:** 
 
@@ -1075,6 +1067,14 @@ Shows how to create and insert a field using a field builder.
  doc.save(getArtifactsDir() + "Field.CreateWithFieldBuilder.docx");
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| refNode | [Inline](../../com.aspose.words/inline/) |  |
+
+**Returns:**
+[Field](../../com.aspose.words/field/) - A [Field](../../com.aspose.words/field/) object that represents the inserted field.
 ### buildAndInsert(Paragraph refNode) {#buildAndInsert-com.aspose.words.Paragraph}
 ```
 public Field buildAndInsert(Paragraph refNode)
@@ -1082,14 +1082,6 @@ public Field buildAndInsert(Paragraph refNode)
 
 
 Builds and inserts a field into the document to the end of the specified paragraph.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| refNode | [Paragraph](../../com.aspose.words/paragraph/) |  |
-
-**Returns:**
-[Field](../../com.aspose.words/field/) - A [Field](../../com.aspose.words/field/) object that represents the inserted field.
 
  **Examples:** 
 
@@ -1172,6 +1164,14 @@ Shows how to construct fields using a field builder, and then insert them into t
  doc.save(getArtifactsDir() + "Field.SYMBOL.docx");
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| refNode | [Paragraph](../../com.aspose.words/paragraph/) |  |
+
+**Returns:**
+[Field](../../com.aspose.words/field/) - A [Field](../../com.aspose.words/field/) object that represents the inserted field.
 ### buildBlock(DocumentBuilder documentBuilder) {#buildBlock-com.aspose.words.DocumentBuilder}
 ```
 public void buildBlock(DocumentBuilder documentBuilder)

@@ -143,12 +143,6 @@ public void add(String documentFieldName, String dataSourceFieldName)
 
 Adds a new field mapping.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| documentFieldName | java.lang.String | Case-sensitive name of the mail merge field in the document. |
-| dataSourceFieldName | java.lang.String | Case-sensitive name of the field in the data source.
-
  **Examples:** 
 
 Shows how to map data columns and MERGEFIELDs with different names so the data is transferred between them during a mail merge.
@@ -233,7 +227,13 @@ Shows how to map data columns and MERGEFIELDs with different names so the data i
      return dataTable;
  }
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| documentFieldName | java.lang.String | Case-sensitive name of the mail merge field in the document. |
+| dataSourceFieldName | java.lang.String | Case-sensitive name of the field in the data source. |
 
 ### clear() {#clear}
 ```
@@ -337,14 +337,6 @@ public boolean containsKey(String documentFieldName)
 
 Determines whether a mapping from the specified field in the document exists in the collection.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| documentFieldName | java.lang.String | Case-sensitive name of the mail merge field in the document. |
-
-**Returns:**
-boolean -  true  if item is found in the collection; otherwise,  false .
-
  **Examples:** 
 
 Shows how to map data columns and MERGEFIELDs with different names so the data is transferred between them during a mail merge.
@@ -430,6 +422,14 @@ Shows how to map data columns and MERGEFIELDs with different names so the data i
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| documentFieldName | java.lang.String | Case-sensitive name of the mail merge field in the document. |
+
+**Returns:**
+boolean -  true  if item is found in the collection; otherwise,  false .
 ### containsValue(String dataSourceFieldName) {#containsValue-java.lang.String}
 ```
 public boolean containsValue(String dataSourceFieldName)
@@ -438,14 +438,6 @@ public boolean containsValue(String dataSourceFieldName)
 
 Determines whether a mapping from the specified field in the data source exists in the collection.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| dataSourceFieldName | java.lang.String | Case-sensitive name of the field in the data source. |
-
-**Returns:**
-boolean -  true  if item is found in the collection; otherwise,  false .
-
  **Examples:** 
 
 Shows how to map data columns and MERGEFIELDs with different names so the data is transferred between them during a mail merge.
@@ -531,6 +523,14 @@ Shows how to map data columns and MERGEFIELDs with different names so the data i
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| dataSourceFieldName | java.lang.String | Case-sensitive name of the field in the data source. |
+
+**Returns:**
+boolean -  true  if item is found in the collection; otherwise,  false .
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
@@ -883,11 +883,6 @@ public void remove(String documentFieldName)
 
 Removes a field mapping.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| documentFieldName | java.lang.String | Case-sensitive name of the mail merge field in the document.
-
  **Examples:** 
 
 Shows how to map data columns and MERGEFIELDs with different names so the data is transferred between them during a mail merge.
@@ -972,7 +967,12 @@ Shows how to map data columns and MERGEFIELDs with different names so the data i
      return dataTable;
  }
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| documentFieldName | java.lang.String | Case-sensitive name of the mail merge field in the document. |
 
 ### set(String documentFieldName, String value) {#set-java.lang.String-java.lang.String}
 ```

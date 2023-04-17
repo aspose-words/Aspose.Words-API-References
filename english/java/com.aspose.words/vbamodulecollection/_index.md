@@ -135,11 +135,6 @@ public VbaModule get(int index)
 
 Retrieves a [VbaModule](../../com.aspose.words/vbamodule/) object by index.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | Zero-based index of the module to retrieve.
-
  **Examples:** 
 
 Shows how to access a document's VBA project information.
@@ -169,7 +164,12 @@ Shows how to access a document's VBA project information.
  // Remove a module from the collection.
  vbaModules.remove(vbaModules.get(2));
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | Zero-based index of the module to retrieve. |
 
 **Returns:**
 [VbaModule](../../com.aspose.words/vbamodule/) - The corresponding [VbaModule](../../com.aspose.words/vbamodule/) value.
@@ -314,11 +314,6 @@ public void remove(VbaModule module)
 
 Removes the specified module from the collection.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| module | [VbaModule](../../com.aspose.words/vbamodule/) | The module to remove.
-
  **Examples:** 
 
 Shows how to access a document's VBA project information.
@@ -348,7 +343,12 @@ Shows how to access a document's VBA project information.
  // Remove a module from the collection.
  vbaModules.remove(vbaModules.get(2));
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| module | [VbaModule](../../com.aspose.words/vbamodule/) | The module to remove. |
 
 ### toString() {#toString}
 ```

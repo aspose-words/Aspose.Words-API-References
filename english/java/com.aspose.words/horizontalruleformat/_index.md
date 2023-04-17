@@ -172,14 +172,6 @@ public double getHeight()
 
 Gets the height of the horizontal rule.
 
- **Remarks:** 
-
-This is a shortcut to the [ShapeBase.getHeight()](../../com.aspose.words/shapebase/\#getHeight) / [ShapeBase.setHeight(double)](../../com.aspose.words/shapebase/\#setHeight-double) property.
-
-Valid values \\u200b\\u200brange from 0 to 1584 inclusive.
-
-The default value is 1.5.
-
 **Returns:**
 double - The height of the horizontal rule.
 ### getNoShade() {#getNoShade}
@@ -225,12 +217,6 @@ public double getWidthPercent()
 
 
 Gets the length of the specified horizontal rule expressed as a percentage of the window width.
-
- **Remarks:** 
-
-Valid values \\u200b\\u200brange from 1 to 100 inclusive.
-
-The default value is 100.
 
 **Returns:**
 double - The length of the specified horizontal rule expressed as a percentage of the window width.
@@ -348,14 +334,6 @@ public void setHeight(double value)
 
 Sets the height of the horizontal rule.
 
- **Remarks:** 
-
-This is a shortcut to the [ShapeBase.getHeight()](../../com.aspose.words/shapebase/\#getHeight) / [ShapeBase.setHeight(double)](../../com.aspose.words/shapebase/\#setHeight-double) property.
-
-Valid values \\u200b\\u200brange from 0 to 1584 inclusive.
-
-The default value is 1.5.
-
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -407,12 +385,6 @@ public void setWidthPercent(double value)
 
 
 Sets the length of the specified horizontal rule expressed as a percentage of the window width.
-
- **Remarks:** 
-
-Valid values \\u200b\\u200brange from 1 to 100 inclusive.
-
-The default value is 100.
 
 **Parameters:**
 | Parameter | Type | Description |

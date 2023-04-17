@@ -202,11 +202,6 @@ To append [Comment](../../com.aspose.words/comment/) to the document use [Compos
 
 After creating a comment, don't forget to set its [getAuthor()](../../com.aspose.words/comment/\#getAuthor) / [setAuthor(java.lang.String)](../../com.aspose.words/comment/\#setAuthor-java.lang.String), [getInitial()](../../com.aspose.words/comment/\#getInitial) / [setInitial(java.lang.String)](../../com.aspose.words/comment/\#setInitial-java.lang.String) and [getDateTime()](../../com.aspose.words/comment/\#getDateTime) / [setDateTime(java.util.Date)](../../com.aspose.words/comment/\#setDateTime-java.util.Date) properties.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| doc | [DocumentBase](../../com.aspose.words/documentbase/) | The owner document.
-
  **Examples:** 
 
 Shows how print the contents of all comments and their comment ranges using a document visitor.
@@ -354,7 +349,12 @@ Shows how print the contents of all comments and their comment ranges using a do
      private final StringBuilder mBuilder;
  }
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| doc | [DocumentBase](../../com.aspose.words/documentbase/) | The owner document. |
 
 ### Comment(DocumentBase doc, String author, String initial, Date dateTime) {#Comment-com.aspose.words.DocumentBase-java.lang.String-java.lang.String-java.util.Date}
 ```
@@ -363,14 +363,6 @@ public Comment(DocumentBase doc, String author, String initial, Date dateTime)
 
 
 Initializes a new instance of the [Comment](../../com.aspose.words/comment/) class.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| doc | [DocumentBase](../../com.aspose.words/documentbase/) | The owner document. |
-| author | java.lang.String | The author name for the comment. Cannot be  null . |
-| initial | java.lang.String | The author initials for the comment. Cannot be  null . |
-| dateTime | java.util.Date | The date and time for the comment.
 
  **Examples:** 
 
@@ -392,7 +384,15 @@ Shows how to add a comment to a paragraph.
  // In Microsoft Word, we can right-click this comment in the document body to edit it, or reply to it.
  doc.save(getArtifactsDir() + "InlineStory.AddComment.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| doc | [DocumentBase](../../com.aspose.words/documentbase/) | The owner document. |
+| author | java.lang.String | The author name for the comment. Cannot be  null . |
+| initial | java.lang.String | The author initials for the comment. Cannot be  null . |
+| dateTime | java.util.Date | The date and time for the comment. |
 
 ### accept(DocumentVisitor visitor) {#accept-com.aspose.words.DocumentVisitor}
 ```
@@ -407,16 +407,6 @@ Accepts a visitor.
 Enumerates over this node and all of its children. Each node calls a corresponding method on [DocumentVisitor](../../com.aspose.words/documentvisitor/).
 
 For more info see the Visitor design pattern.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor/) | The visitor that will visit the nodes. |
-
-**Returns:**
-boolean - True if all nodes were visited; false if [DocumentVisitor](../../com.aspose.words/documentvisitor/) stopped the operation before visiting all nodes.
-
- **Remarks:** 
 
 Calls [DocumentVisitor.visitCommentStart(com.aspose.words.Comment)](../../com.aspose.words/documentvisitor/\#visitCommentStart-com.aspose.words.Comment), then calls [Node.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/node/\#accept-com.aspose.words.DocumentVisitor) for all child nodes of the comment and calls [DocumentVisitor.visitCommentEnd(com.aspose.words.Comment)](../../com.aspose.words/documentvisitor/\#visitCommentEnd-com.aspose.words.Comment) at the end.
 
@@ -568,6 +558,14 @@ Shows how print the contents of all comments and their comment ranges using a do
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor/) | The visitor that will visit the nodes. |
+
+**Returns:**
+boolean - True if all nodes were visited; false if [DocumentVisitor](../../com.aspose.words/documentvisitor/) stopped the operation before visiting all nodes.
 ### addReply(String author, String initial, Date dateTime, String text) {#addReply-java.lang.String-java.lang.String-java.util.Date-java.lang.String}
 ```
 public Comment addReply(String author, String initial, Date dateTime, String text)
@@ -575,17 +573,6 @@ public Comment addReply(String author, String initial, Date dateTime, String tex
 
 
 Adds a reply to this comment.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| author | java.lang.String | The author name for the reply. |
-| initial | java.lang.String | The author initials for the reply. |
-| dateTime | java.util.Date | The date and time for the reply. |
-| text | java.lang.String | The reply text. |
-
-**Returns:**
-[Comment](../../com.aspose.words/comment/) - The created [Comment](../../com.aspose.words/comment/) node for the reply.
 
  **Remarks:** 
 
@@ -623,6 +610,17 @@ Shows how to add a comment to a document, and then reply to it.
  doc.save(getArtifactsDir() + "Comment.AddCommentWithReply.docx");
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| author | java.lang.String | The author name for the reply. |
+| initial | java.lang.String | The author initials for the reply. |
+| dateTime | java.util.Date | The date and time for the reply. |
+| text | java.lang.String | The reply text. |
+
+**Returns:**
+[Comment](../../com.aspose.words/comment/) - The created [Comment](../../com.aspose.words/comment/) node for the reply.
 ### appendChild(Node newChild) {#appendChild-com.aspose.words.Node}
 ```
 public Node appendChild(Node newChild)
@@ -636,14 +634,6 @@ Adds the specified node to the end of the list of child nodes for this node.
 If the  newChild  is already in the tree, it is first removed.
 
 If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node/) | The node to add. |
-
-**Returns:**
-[Node](../../com.aspose.words/node/) - The node added.
 
  **Examples:** 
 
@@ -693,6 +683,14 @@ Shows how to construct an Aspose.Words document by hand.
  doc.save(getArtifactsDir() + "Section.CreateManually.docx");
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| newChild | [Node](../../com.aspose.words/node/) | The node to add. |
+
+**Returns:**
+[Node](../../com.aspose.words/node/) - The node added.
 ### clearRunAttrs() {#clearRunAttrs}
 ```
 public void clearRunAttrs()
@@ -723,14 +721,6 @@ This method serves as a copy constructor for nodes. The cloned node has no paren
 
 This method always performs a deep copy of the node. The  isCloneChildren  parameter specifies whether to perform copy all child nodes as well.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| isCloneChildren | boolean | True to recursively clone the subtree under the specified node; false to clone only the node itself. |
-
-**Returns:**
-[Node](../../com.aspose.words/node/) - The cloned node.
-
  **Examples:** 
 
 Shows how to clone a composite node.
@@ -755,6 +745,14 @@ Shows how to clone a composite node.
  Assert.assertEquals("", cloneWithoutChildren.getText().trim());
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| isCloneChildren | boolean | True to recursively clone the subtree under the specified node; false to clone only the node itself. |
+
+**Returns:**
+[Node](../../com.aspose.words/node/) - The cloned node.
 ### ensureMinimum() {#ensureMinimum}
 ```
 public void ensureMinimum()
@@ -909,14 +907,6 @@ public CompositeNode getAncestor(Class ancestorType)
 
 Gets the first ancestor of the specified object type.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| ancestorType | java.lang.Class | The object type of the ancestor to retrieve. |
-
-**Returns:**
-[CompositeNode](../../com.aspose.words/compositenode/) - The ancestor of the specified type or  null  if no ancestor of this type was found.
-
  **Remarks:** 
 
 The ancestor type matches if it is equal to  ancestorType  or derived from  ancestorType .
@@ -985,6 +975,14 @@ Shows how to find out if a tables are nested.
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ancestorType | java.lang.Class | The object type of the ancestor to retrieve. |
+
+**Returns:**
+[CompositeNode](../../com.aspose.words/compositenode/) - The ancestor of the specified type or  null  if no ancestor of this type was found.
 ### getAuthor() {#getAuthor}
 ```
 public String getAuthor()
@@ -3126,20 +3124,9 @@ Inserts the specified node immediately after the specified reference node.
 
 If  refChild  is  null , inserts  newChild  at the beginning of the list of child nodes.
 
- **Remarks:** 
-
 If the  newChild  is already in the tree, it is first removed.
 
 If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) to insert. |
-| refChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) that is the reference node. The  newChild  is placed after the  refChild . |
-
-**Returns:**
-[Node](../../com.aspose.words/node/) - The inserted node.
 
  **Examples:** 
 
@@ -3238,6 +3225,15 @@ Shows how to add, update and delete child nodes in a CompositeNode's collection 
  Assert.assertEquals(3, paragraph.getChildNodes(NodeType.ANY, true).getCount());
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| newChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) to insert. |
+| refChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) that is the reference node. The  newChild  is placed after the  refChild . |
+
+**Returns:**
+[Node](../../com.aspose.words/node/) - The inserted node.
 ### insertBefore(Node newChild, Node refChild) {#insertBefore-com.aspose.words.Node-com.aspose.words.Node}
 ```
 public Node insertBefore(Node newChild, Node refChild)
@@ -3250,20 +3246,9 @@ Inserts the specified node immediately before the specified reference node.
 
 If  refChild  is  null , inserts  newChild  at the end of the list of child nodes.
 
- **Remarks:** 
-
 If the  newChild  is already in the tree, it is first removed.
 
 If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) to insert. |
-| refChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) that is the reference node. The  newChild  is placed before this node. |
-
-**Returns:**
-[Node](../../com.aspose.words/node/) - The inserted node.
 
  **Examples:** 
 
@@ -3316,6 +3301,15 @@ Shows how to add, update and delete child nodes in a CompositeNode's collection 
  Assert.assertEquals(3, paragraph.getChildNodes(NodeType.ANY, true).getCount());
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| newChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) to insert. |
+| refChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) that is the reference node. The  newChild  is placed before this node. |
+
+**Returns:**
+[Node](../../com.aspose.words/node/) - The inserted node.
 ### isComposite() {#isComposite}
 ```
 public boolean isComposite()
@@ -3665,14 +3659,6 @@ public Node nextPreOrder(Node rootNode)
 
 Gets next node according to the pre-order tree traversal algorithm.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node/) | The top node (limit) of traversal. |
-
-**Returns:**
-[Node](../../com.aspose.words/node/) - Next node in pre-order order. Null if reached the  rootNode .
-
  **Examples:** 
 
 Shows how to traverse the document's node tree using the pre-order traversal algorithm, and delete any encountered shape with an image.
@@ -3716,6 +3702,14 @@ Shows how to traverse the document's node tree using the pre-order traversal alg
  }));
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rootNode | [Node](../../com.aspose.words/node/) | The top node (limit) of traversal. |
+
+**Returns:**
+[Node](../../com.aspose.words/node/) - Next node in pre-order order. Null if reached the  rootNode .
 ### nodeTypeToString(int nodeType) {#nodeTypeToString-int}
 ```
 public static String nodeTypeToString(int nodeType)
@@ -3760,14 +3754,6 @@ Adds the specified node to the beginning of the list of child nodes for this nod
 If the  newChild  is already in the tree, it is first removed.
 
 If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node/) | The node to add. |
-
-**Returns:**
-[Node](../../com.aspose.words/node/) - The node added.
 
  **Examples:** 
 
@@ -3820,6 +3806,14 @@ Shows how to add, update and delete child nodes in a CompositeNode's collection 
  Assert.assertEquals(3, paragraph.getChildNodes(NodeType.ANY, true).getCount());
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| newChild | [Node](../../com.aspose.words/node/) | The node to add. |
+
+**Returns:**
+[Node](../../com.aspose.words/node/) - The node added.
 ### previousPreOrder(Node rootNode) {#previousPreOrder-com.aspose.words.Node}
 ```
 public Node previousPreOrder(Node rootNode)
@@ -3827,14 +3821,6 @@ public Node previousPreOrder(Node rootNode)
 
 
 Gets the previous node according to the pre-order tree traversal algorithm.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node/) | The top node (limit) of traversal. |
-
-**Returns:**
-[Node](../../com.aspose.words/node/) - Previous node in pre-order order. Null if reached the  rootNode .
 
  **Examples:** 
 
@@ -3879,6 +3865,14 @@ Shows how to traverse the document's node tree using the pre-order traversal alg
  }));
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rootNode | [Node](../../com.aspose.words/node/) | The top node (limit) of traversal. |
+
+**Returns:**
+[Node](../../com.aspose.words/node/) - Previous node in pre-order order. Null if reached the  rootNode .
 ### remove() {#remove}
 ```
 public void remove()
@@ -4061,14 +4055,6 @@ Removes the specified child node.
 
 The parent of  oldChild  is set to  null  after the node is removed.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| oldChild | [Node](../../com.aspose.words/node/) | The node to remove. |
-
-**Returns:**
-[Node](../../com.aspose.words/node/) - The removed node.
-
  **Examples:** 
 
 Shows how to use of methods of Node and CompositeNode to remove a section before the last section in the document.
@@ -4094,6 +4080,14 @@ Shows how to use of methods of Node and CompositeNode to remove a section before
  Assert.assertEquals("Section 2 text.", doc.getText().trim());
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| oldChild | [Node](../../com.aspose.words/node/) | The node to remove. |
+
+**Returns:**
+[Node](../../com.aspose.words/node/) - The removed node.
 ### removeMoveRevisions() {#removeMoveRevisions}
 ```
 public void removeMoveRevisions()
@@ -4113,11 +4107,6 @@ Removes the specified reply to this comment.
  **Remarks:** 
 
 All constituent nodes of the reply will be deleted from the document.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| reply | [Comment](../../com.aspose.words/comment/) | The comment node of the deleting reply.
 
  **Examples:** 
 
@@ -4148,7 +4137,12 @@ Shows how to remove comment replies.
 
  Assert.assertEquals(0, comment.getReplies().getCount());
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| reply | [Comment](../../com.aspose.words/comment/) | The comment node of the deleting reply. |
 
 ### removeRunAttr(int key) {#removeRunAttr-int}
 ```
@@ -4294,14 +4288,6 @@ Selects a list of nodes matching the XPath expression.
 
 Only expressions with element names are supported at the moment. Expressions that use attribute names are not supported.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| xpath | java.lang.String | The XPath expression. |
-
-**Returns:**
-[NodeList](../../com.aspose.words/nodelist/) - A list of nodes matching the XPath query.
-
  **Examples:** 
 
 Shows how to use an XPath expression to test whether a node is inside a field.
@@ -4352,6 +4338,14 @@ Shows how to select certain nodes by using an XPath expression.
  Assert.assertEquals(Paragraph.class, node.getClass());
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| xpath | java.lang.String | The XPath expression. |
+
+**Returns:**
+[NodeList](../../com.aspose.words/nodelist/) - A list of nodes matching the XPath query.
 ### selectSingleNode(String xpath) {#selectSingleNode-java.lang.String}
 ```
 public Node selectSingleNode(String xpath)
@@ -4363,14 +4357,6 @@ Selects the first [Node](../../com.aspose.words/node/) that matches the XPath ex
  **Remarks:** 
 
 Only expressions with element names are supported at the moment. Expressions that use attribute names are not supported.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| xpath | java.lang.String | The XPath expression. |
-
-**Returns:**
-[Node](../../com.aspose.words/node/) - The first [Node](../../com.aspose.words/node/) that matches the XPath query or  null  if no matching node is found.
 
  **Examples:** 
 
@@ -4405,6 +4391,14 @@ Shows how to select certain nodes by using an XPath expression.
  Assert.assertEquals(Paragraph.class, node.getClass());
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| xpath | java.lang.String | The XPath expression. |
+
+**Returns:**
+[Node](../../com.aspose.words/node/) - The first [Node](../../com.aspose.words/node/) that matches the XPath query or  null  if no matching node is found.
 ### setAuthor(String value) {#setAuthor-java.lang.String}
 ```
 public void setAuthor(String value)
@@ -5092,11 +5086,6 @@ This is a convenience method that allows to easily set text of the comment.
 
 This method allows to quickly set text of a comment from a string. The string can contain paragraph breaks, this will create paragraphs of text in the comment accordingly. If you want to insert more complex elements into the comment, for example bookmarks or tables or apply rich formatting, then you need to use the appropriate node classes to build up the comment text.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| text | java.lang.String | The new text of the comment.
-
  **Examples:** 
 
 Shows how to add a comment to a document, and then reply to it.
@@ -5128,7 +5117,12 @@ Shows how to add a comment to a document, and then reply to it.
 
  doc.save(getArtifactsDir() + "Comment.AddCommentWithReply.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| text | java.lang.String | The new text of the comment. |
 
 ### toString() {#toString}
 ```
@@ -5147,14 +5141,6 @@ public String toString(SaveOptions saveOptions)
 
 
 Exports the content of the node into a string using the specified save options.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) | Specifies the options that control how the node is saved. |
-
-**Returns:**
-java.lang.String - The content of the node in the specified format.
 
  **Examples:** 
 
@@ -5181,6 +5167,14 @@ Exports the content of a node to String in HTML format.
          "", node.toString(saveOptions));
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) | Specifies the options that control how the node is saved. |
+
+**Returns:**
+java.lang.String - The content of the node in the specified format.
 ### toString(int saveFormat) {#toString-int}
 ```
 public String toString(int saveFormat)

@@ -88,11 +88,6 @@ public abstract void notify(DocumentLoadingArgs args)
 
 This is called to notify of document loading progress.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| args | [DocumentLoadingArgs](../../com.aspose.words/documentloadingargs/) | An argument of the event.
-
  **Remarks:** 
 
 The primary uses for this interface is to allow application code to obtain progress status and abort loading process.
@@ -160,5 +155,10 @@ Shows how to notify the user if document loading exceeded expected loading time.
      private static final double MAX_DURATION = 0.5;
  }
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| args | [DocumentLoadingArgs](../../com.aspose.words/documentloadingargs/) | An argument of the event. |
 

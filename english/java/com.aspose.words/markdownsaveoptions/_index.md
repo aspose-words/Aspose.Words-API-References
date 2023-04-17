@@ -127,14 +127,6 @@ public static SaveOptions createSaveOptions(String fileName)
 
 Creates a save options object of a class suitable for the file extension specified in the given file name.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fileName | java.lang.String | The extension of this file name determines the class of the save options object to create. |
-
-**Returns:**
-[SaveOptions](../../com.aspose.words/saveoptions/) - An object of a class that derives from [SaveOptions](../../com.aspose.words/saveoptions/).
-
  **Examples:** 
 
 Shows how to set a default template for documents that do not have attached templates.
@@ -157,6 +149,14 @@ Shows how to set a default template for documents that do not have attached temp
  doc.save(getArtifactsDir() + "Document.DefaultTemplate.docx", options);
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | java.lang.String | The extension of this file name determines the class of the save options object to create. |
+
+**Returns:**
+[SaveOptions](../../com.aspose.words/saveoptions/) - An object of a class that derives from [SaveOptions](../../com.aspose.words/saveoptions/).
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)

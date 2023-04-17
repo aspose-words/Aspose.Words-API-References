@@ -324,9 +324,6 @@ public abstract InputStream openFontDataStream()
 
 This method should open the stream with font data on demand.
 
-**Returns:**
-java.io.InputStream - Font data stream.
-
  **Remarks:** 
 
 The stream will be closed after reading. There is no need to close it explicitly.
@@ -359,6 +356,9 @@ Shows how to load fonts from stream.
  }
  
 ```
+
+**Returns:**
+java.io.InputStream - Font data stream.
 ### setWarningCallback(IWarningCallback value) {#setWarningCallback-com.aspose.words.IWarningCallback}
 ```
 public void setWarningCallback(IWarningCallback value)

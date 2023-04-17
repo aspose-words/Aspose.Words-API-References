@@ -22,8 +22,6 @@ To learn more, visit the [ Work with Document Properties ][Work with Document Pr
 
 Each [DocumentProperty](../../com.aspose.words/documentproperty/) object represents a custom property of a container document.
 
- **Remarks:** 
-
 The names of the properties are case-insensitive.
 
 The properties in the collection are sorted alphabetically by name.
@@ -89,6 +87,65 @@ public DocumentProperty add(String name, boolean value)
 
 Creates a new custom document property of the [PropertyType.BOOLEAN](../../com.aspose.words/propertytype/\#BOOLEAN) data type.
 
+ **Examples:** 
+
+Shows how to work with a document's custom properties.
+
+```
+
+ Document doc = new Document();
+ CustomDocumentProperties properties = doc.getCustomDocumentProperties();
+
+ Assert.assertEquals(0, properties.getCount());
+
+ // Custom document properties are key-value pairs that we can add to the document.
+ properties.add("Authorized", true);
+ properties.add("Authorized By", "John Doe");
+ properties.add("Authorized Date", new Date());
+ properties.add("Authorized Revision", doc.getBuiltInDocumentProperties().getRevisionNumber());
+ properties.add("Authorized Amount", 123.45);
+
+ // The collection sorts the custom properties in alphabetic order.
+ Assert.assertEquals(1, properties.indexOf("Authorized Amount"));
+ Assert.assertEquals(5, properties.getCount());
+
+ // Print every custom property in the document.
+ Iterator enumerator = properties.iterator();
+ while (enumerator.hasNext()) {
+     DocumentProperty property = enumerator.next();
+     System.out.println(MessageFormat.format("Name: \"{0}\"\n\tType: \"{1}\"\n\tValue: \"{2}\"", property.getName(), property.getType(), property.getValue()));
+ }
+
+ // Display the value of a custom property using a DOCPROPERTY field.
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ FieldDocProperty field = (FieldDocProperty) builder.insertField(" DOCPROPERTY \"Authorized By\"");
+ field.update();
+
+ Assert.assertEquals("John Doe", field.getResult());
+
+ // We can find these custom properties in Microsoft Word via "File" -> "Properties" > "Advanced Properties" > "Custom".
+ doc.save(getArtifactsDir() + "DocumentProperties.DocumentPropertyCollection.docx");
+
+ // Below are three ways or removing custom properties from a document.
+ // 1 -  Remove by index:
+ properties.removeAt(1);
+
+ Assert.assertFalse(properties.contains("Authorized Amount"));
+ Assert.assertEquals(4, properties.getCount());
+
+ // 2 -  Remove by name:
+ properties.remove("Authorized Revision");
+
+ Assert.assertFalse(properties.contains("Authorized Revision"));
+ Assert.assertEquals(3, properties.getCount());
+
+ // 3 -  Empty the entire collection at once:
+ properties.clear();
+
+ Assert.assertEquals(0, properties.getCount());
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -97,6 +154,13 @@ Creates a new custom document property of the [PropertyType.BOOLEAN](../../com.a
 
 **Returns:**
 [DocumentProperty](../../com.aspose.words/documentproperty/) - The newly created property object.
+### add(String name, double value) {#add-java.lang.String-double}
+```
+public DocumentProperty add(String name, double value)
+```
+
+
+Creates a new custom document property of the [PropertyType.DOUBLE](../../com.aspose.words/propertytype/\#DOUBLE) data type.
 
  **Examples:** 
 
@@ -156,13 +220,6 @@ Shows how to work with a document's custom properties.
  Assert.assertEquals(0, properties.getCount());
  
 ```
-### add(String name, double value) {#add-java.lang.String-double}
-```
-public DocumentProperty add(String name, double value)
-```
-
-
-Creates a new custom document property of the [PropertyType.DOUBLE](../../com.aspose.words/propertytype/\#DOUBLE) data type.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -172,6 +229,13 @@ Creates a new custom document property of the [PropertyType.DOUBLE](../../com.as
 
 **Returns:**
 [DocumentProperty](../../com.aspose.words/documentproperty/) - The newly created property object.
+### add(String name, int value) {#add-java.lang.String-int}
+```
+public DocumentProperty add(String name, int value)
+```
+
+
+Creates a new custom document property of the [PropertyType.NUMBER](../../com.aspose.words/propertytype/\#NUMBER) data type.
 
  **Examples:** 
 
@@ -231,13 +295,6 @@ Shows how to work with a document's custom properties.
  Assert.assertEquals(0, properties.getCount());
  
 ```
-### add(String name, int value) {#add-java.lang.String-int}
-```
-public DocumentProperty add(String name, int value)
-```
-
-
-Creates a new custom document property of the [PropertyType.NUMBER](../../com.aspose.words/propertytype/\#NUMBER) data type.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -247,6 +304,13 @@ Creates a new custom document property of the [PropertyType.NUMBER](../../com.as
 
 **Returns:**
 [DocumentProperty](../../com.aspose.words/documentproperty/) - The newly created property object.
+### add(String name, String value) {#add-java.lang.String-java.lang.String}
+```
+public DocumentProperty add(String name, String value)
+```
+
+
+Creates a new custom document property.  Creates a new custom document property of the [PropertyType.STRING](../../com.aspose.words/propertytype/\#STRING) data type.
 
  **Examples:** 
 
@@ -306,13 +370,6 @@ Shows how to work with a document's custom properties.
  Assert.assertEquals(0, properties.getCount());
  
 ```
-### add(String name, String value) {#add-java.lang.String-java.lang.String}
-```
-public DocumentProperty add(String name, String value)
-```
-
-
-Creates a new custom document property.  Creates a new custom document property of the [PropertyType.STRING](../../com.aspose.words/propertytype/\#STRING) data type.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -322,65 +379,6 @@ Creates a new custom document property.  Creates a new custom document property 
 
 **Returns:**
 [DocumentProperty](../../com.aspose.words/documentproperty/) - The newly created property object.
-
- **Examples:** 
-
-Shows how to work with a document's custom properties.
-
-```
-
- Document doc = new Document();
- CustomDocumentProperties properties = doc.getCustomDocumentProperties();
-
- Assert.assertEquals(0, properties.getCount());
-
- // Custom document properties are key-value pairs that we can add to the document.
- properties.add("Authorized", true);
- properties.add("Authorized By", "John Doe");
- properties.add("Authorized Date", new Date());
- properties.add("Authorized Revision", doc.getBuiltInDocumentProperties().getRevisionNumber());
- properties.add("Authorized Amount", 123.45);
-
- // The collection sorts the custom properties in alphabetic order.
- Assert.assertEquals(1, properties.indexOf("Authorized Amount"));
- Assert.assertEquals(5, properties.getCount());
-
- // Print every custom property in the document.
- Iterator enumerator = properties.iterator();
- while (enumerator.hasNext()) {
-     DocumentProperty property = enumerator.next();
-     System.out.println(MessageFormat.format("Name: \"{0}\"\n\tType: \"{1}\"\n\tValue: \"{2}\"", property.getName(), property.getType(), property.getValue()));
- }
-
- // Display the value of a custom property using a DOCPROPERTY field.
- DocumentBuilder builder = new DocumentBuilder(doc);
- FieldDocProperty field = (FieldDocProperty) builder.insertField(" DOCPROPERTY \"Authorized By\"");
- field.update();
-
- Assert.assertEquals("John Doe", field.getResult());
-
- // We can find these custom properties in Microsoft Word via "File" -> "Properties" > "Advanced Properties" > "Custom".
- doc.save(getArtifactsDir() + "DocumentProperties.DocumentPropertyCollection.docx");
-
- // Below are three ways or removing custom properties from a document.
- // 1 -  Remove by index:
- properties.removeAt(1);
-
- Assert.assertFalse(properties.contains("Authorized Amount"));
- Assert.assertEquals(4, properties.getCount());
-
- // 2 -  Remove by name:
- properties.remove("Authorized Revision");
-
- Assert.assertFalse(properties.contains("Authorized Revision"));
- Assert.assertEquals(3, properties.getCount());
-
- // 3 -  Empty the entire collection at once:
- properties.clear();
-
- Assert.assertEquals(0, properties.getCount());
- 
-```
 ### add(String name, Date value) {#add-java.lang.String-java.util.Date}
 ```
 public DocumentProperty add(String name, Date value)
@@ -388,15 +386,6 @@ public DocumentProperty add(String name, Date value)
 
 
 Creates a new custom document property of the [PropertyType.DATE\_TIME](../../com.aspose.words/propertytype/\#DATE-TIME) data type.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | java.lang.String | The name of the property. |
-| value | java.util.Date | The value of the property. |
-
-**Returns:**
-[DocumentProperty](../../com.aspose.words/documentproperty/) - The newly created property object.
 
  **Examples:** 
 
@@ -468,6 +457,15 @@ Shows how to work with a document's custom properties.
  Assert.assertEquals(0, properties.getCount());
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | The name of the property. |
+| value | java.util.Date | The value of the property. |
+
+**Returns:**
+[DocumentProperty](../../com.aspose.words/documentproperty/) - The newly created property object.
 ### addLinkToContent(String name, String linkSource) {#addLinkToContent-java.lang.String-java.lang.String}
 ```
 public DocumentProperty addLinkToContent(String name, String linkSource)
@@ -475,15 +473,6 @@ public DocumentProperty addLinkToContent(String name, String linkSource)
 
 
 Creates a new linked to content custom document property.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | java.lang.String | The name of the property. |
-| linkSource | java.lang.String | The source of the property. |
-
-**Returns:**
-[DocumentProperty](../../com.aspose.words/documentproperty/) - The newly created property object or  null  when the  linkSource  is invalid.
 
  **Examples:** 
 
@@ -510,6 +499,15 @@ Shows how to link a custom document property to a bookmark.
  doc.save(getArtifactsDir() + "DocumentProperties.LinkCustomDocumentPropertiesToBookmark.docx");
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | The name of the property. |
+| linkSource | java.lang.String | The source of the property. |
+
+**Returns:**
+[DocumentProperty](../../com.aspose.words/documentproperty/) - The newly created property object or  null  when the  linkSource  is invalid.
 ### clear() {#clear}
 ```
 public void clear()
@@ -585,14 +583,6 @@ public boolean contains(String name)
 
 Returns  true  if a property with the specified name exists in the collection.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | java.lang.String | The case-insensitive name of the property. |
-
-**Returns:**
-boolean -  true  if the property exists in the collection;  false  otherwise.
-
  **Examples:** 
 
 Shows how to work with a document's custom properties.
@@ -651,6 +641,14 @@ Shows how to work with a document's custom properties.
  Assert.assertEquals(0, properties.getCount());
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | The case-insensitive name of the property. |
+
+**Returns:**
+boolean -  true  if the property exists in the collection;  false  otherwise.
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
@@ -678,11 +676,6 @@ Returns a [DocumentProperty](../../com.aspose.words/documentproperty/) object by
 
 **Note:**  In Java this method is slow because iterates over all nodes.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | Zero-based index of the [DocumentProperty](../../com.aspose.words/documentproperty/) to retrieve.
-
  **Examples:** 
 
 Shows how to work with custom document properties.
@@ -704,7 +697,12 @@ Shows how to work with custom document properties.
      System.out.println(MessageFormat.format("\tValue:\t\"{0}\"", customDocumentProperty.getValue()));
  }
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | Zero-based index of the [DocumentProperty](../../com.aspose.words/documentproperty/) to retrieve. |
 
 **Returns:**
 [DocumentProperty](../../com.aspose.words/documentproperty/) - A [DocumentProperty](../../com.aspose.words/documentproperty/) object by index.
@@ -720,11 +718,6 @@ Provides access to the collection items.  Returns a [DocumentProperty](../../com
 
 Returns  null  if a property with the specified name is not found.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | java.lang.String | The case-insensitive name of the property to retrieve.
-
  **Examples:** 
 
 Shows how to create a custom document property which contains a date and time.
@@ -737,7 +730,12 @@ Shows how to create a custom document property which contains a date and time.
 
  System.out.println(MessageFormat.format("Document authorized on {0}", doc.getCustomDocumentProperties().get("AuthorizationDate")));
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | The case-insensitive name of the property to retrieve. |
 
 **Returns:**
 [DocumentProperty](../../com.aspose.words/documentproperty/) - The corresponding [DocumentProperty](../../com.aspose.words/documentproperty/) value.
@@ -806,14 +804,6 @@ Gets the index of a property by name.
 
 **Note:**  In Java this method is slow because iterates over all nodes.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | java.lang.String | The case-insensitive name of the property. |
-
-**Returns:**
-int - The zero based index. Negative value if not found.
-
  **Examples:** 
 
 Shows how to work with a document's custom properties.
@@ -872,6 +862,14 @@ Shows how to work with a document's custom properties.
  Assert.assertEquals(0, properties.getCount());
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | The case-insensitive name of the property. |
+
+**Returns:**
+int - The zero based index. Negative value if not found.
 ### iterator() {#iterator}
 ```
 public Iterator iterator()
@@ -965,11 +963,6 @@ public void remove(String name)
 
 Removes a property with the specified name from the collection.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | java.lang.String | The case-insensitive name of the property.
-
  **Examples:** 
 
 Shows how to work with a document's custom properties.
@@ -1027,7 +1020,12 @@ Shows how to work with a document's custom properties.
 
  Assert.assertEquals(0, properties.getCount());
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | The case-insensitive name of the property. |
 
 ### removeAt(int index) {#removeAt-int}
 ```
@@ -1041,11 +1039,6 @@ Removes a property at the specified index.
 
 **Note:**  In Java this method is slow because iterates over all nodes.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | The zero based index.
-
  **Examples:** 
 
 Shows how to work with a document's custom properties.
@@ -1103,7 +1096,12 @@ Shows how to work with a document's custom properties.
 
  Assert.assertEquals(0, properties.getCount());
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | The zero based index. |
 
 ### toString() {#toString}
 ```

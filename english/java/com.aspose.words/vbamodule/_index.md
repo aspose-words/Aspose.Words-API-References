@@ -121,9 +121,6 @@ public VbaModule deepClone()
 
 Performs a copy of the [VbaModule](../../com.aspose.words/vbamodule/).
 
-**Returns:**
-[VbaModule](../../com.aspose.words/vbamodule/) - The cloned [VbaModule](../../com.aspose.words/vbamodule/).
-
  **Examples:** 
 
 Shows how to deep clone a VBA project and module.
@@ -146,6 +143,9 @@ Shows how to deep clone a VBA project and module.
  destDoc.save(getArtifactsDir() + "VbaProject.CloneVbaProject.docm");
  
 ```
+
+**Returns:**
+[VbaModule](../../com.aspose.words/vbamodule/) - The cloned [VbaModule](../../com.aspose.words/vbamodule/).
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)

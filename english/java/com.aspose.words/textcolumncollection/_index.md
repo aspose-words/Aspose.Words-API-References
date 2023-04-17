@@ -329,11 +329,6 @@ Arranges text into the specified number of text columns.
 
 When [getEvenlySpaced()](../../com.aspose.words/textcolumncollection/\#getEvenlySpaced) / [setEvenlySpaced(boolean)](../../com.aspose.words/textcolumncollection/\#setEvenlySpaced-boolean) is  false  and you increase the number of columns, new [TextColumn](../../com.aspose.words/textcolumn/) objects are created with zero width and spacing. You need to set width and spacing for the new columns.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| newCount | int | The number of columns the text is to be arranged into.
-
  **Examples:** 
 
 Shows how to create multiple evenly spaced columns in a section.
@@ -353,7 +348,12 @@ Shows how to create multiple evenly spaced columns in a section.
 
  doc.save(getArtifactsDir() + "PageSetup.ColumnsSameWidth.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| newCount | int | The number of columns the text is to be arranged into. |
 
 ### setEvenlySpaced(boolean value) {#setEvenlySpaced-boolean}
 ```

@@ -68,9 +68,9 @@ public static int STANDARD
 
 Custom properties are exported as entries in /Info dictionary.
 
- **Remarks:** 
-
 Custom properties with the following names are not exported: "Title", "Author", "Subject", "Keywords", "Creator", "Producer", "CreationDate", "ModDate", "Trapped".
+
+ **Remarks:** 
 
 ### length {#length}
 ```

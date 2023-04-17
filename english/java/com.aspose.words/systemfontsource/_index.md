@@ -155,11 +155,6 @@ public SystemFontSource(int priority)
 
 Ctor.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| priority | int | Font source priority. See the [FontSourceBase.getPriority()](../../com.aspose.words/fontsourcebase/\#getPriority) property description for more information.
-
  **Examples:** 
 
 Shows how to access a document's system font source and set font substitutes.
@@ -204,7 +199,12 @@ Shows how to access a document's system font source and set font substitutes.
  Assert.assertEquals(FontSourceType.SYSTEM_FONTS, doc.getFontSettings().getFontsSources()[0].getType());
  Assert.assertEquals(1, IterableUtils.size(doc.getFontSettings().getSubstitutionSettings().getTableSubstitution().getSubstitutes("Kreon-Regular")));
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| priority | int | Font source priority. See the [FontSourceBase.getPriority()](../../com.aspose.words/fontsourcebase/\#getPriority) property description for more information. |
 
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```

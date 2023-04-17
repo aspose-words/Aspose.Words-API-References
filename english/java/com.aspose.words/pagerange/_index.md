@@ -46,12 +46,6 @@ public PageRange(int from, int to)
 
 Creates a new page range object.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| from | int | The starting page zero-based index. |
-| to | int | The ending page zero-based index. If it exceeds the index of the last page in the document, it is truncated to fit in the document on rendering.
-
  **Remarks:** 
 
  means the last page in the document.
@@ -70,7 +64,13 @@ Shows how to extract pages based on exact page ranges.
  imageOptions.setPageSet(pageSet);
  doc.save(getArtifactsDir() + "ImageSaveOptions.ExportVariousPageRanges.tiff", imageOptions);
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| from | int | The starting page zero-based index. |
+| to | int | The ending page zero-based index. If it exceeds the index of the last page in the document, it is truncated to fit in the document on rendering. |
 
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```

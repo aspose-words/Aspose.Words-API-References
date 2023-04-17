@@ -1550,12 +1550,6 @@ public double getSpaceAfter()
 
 Gets the amount of spacing (in points) after the paragraph.
 
- **Remarks:** 
-
-Has no effect when [getSpaceAfterAuto()](../../com.aspose.words/paragraphformat/\#getSpaceAfterAuto) / [setSpaceAfterAuto(boolean)](../../com.aspose.words/paragraphformat/\#setSpaceAfterAuto-boolean) is  true .
-
-Valid values \\u200b\\u200brange from 0 to 1584 inclusive.
-
 **Returns:**
 double - The amount of spacing (in points) after the paragraph.
 ### getSpaceAfterAuto() {#getSpaceAfterAuto}
@@ -1569,8 +1563,6 @@ True if the amount of spacing after the paragraph is set automatically.
  **Remarks:** 
 
 When set to  true , overrides the effect of [getSpaceAfter()](../../com.aspose.words/paragraphformat/\#getSpaceAfter) / [setSpaceAfter(double)](../../com.aspose.words/paragraphformat/\#setSpaceAfter-double).
-
- **Remarks:** 
 
 When you set paragraph Space Before and Space After to Auto, Microsoft Word adds 14 points spacing between paragraphs automatically according to the following rules:
 
@@ -1618,12 +1610,6 @@ public double getSpaceBefore()
 
 Gets the amount of spacing (in points) before the paragraph.
 
- **Remarks:** 
-
-Has no effect when [getSpaceBeforeAuto()](../../com.aspose.words/paragraphformat/\#getSpaceBeforeAuto) / [setSpaceBeforeAuto(boolean)](../../com.aspose.words/paragraphformat/\#setSpaceBeforeAuto-boolean) is  true .
-
-Valid values range from 0 to 1584 inclusive.
-
 **Returns:**
 double - The amount of spacing (in points) before the paragraph.
 ### getSpaceBeforeAuto() {#getSpaceBeforeAuto}
@@ -1637,8 +1623,6 @@ True if the amount of spacing before the paragraph is set automatically.
  **Remarks:** 
 
 When set to  true , overrides the effect of [getSpaceBefore()](../../com.aspose.words/paragraphformat/\#getSpaceBefore) / [setSpaceBefore(double)](../../com.aspose.words/paragraphformat/\#setSpaceBefore-double).
-
- **Remarks:** 
 
 When you set paragraph Space Before and Space After to Auto, Microsoft Word adds 14 points spacing between paragraphs automatically according to the following rules:
 
@@ -3387,12 +3371,6 @@ public void setSpaceAfter(double value)
 
 Sets the amount of spacing (in points) after the paragraph.
 
- **Remarks:** 
-
-Has no effect when [getSpaceAfterAuto()](../../com.aspose.words/paragraphformat/\#getSpaceAfterAuto) / [setSpaceAfterAuto(boolean)](../../com.aspose.words/paragraphformat/\#setSpaceAfterAuto-boolean) is  true .
-
-Valid values \\u200b\\u200brange from 0 to 1584 inclusive.
-
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -3409,8 +3387,6 @@ True if the amount of spacing after the paragraph is set automatically.
  **Remarks:** 
 
 When set to  true , overrides the effect of [getSpaceAfter()](../../com.aspose.words/paragraphformat/\#getSpaceAfter) / [setSpaceAfter(double)](../../com.aspose.words/paragraphformat/\#setSpaceAfter-double).
-
- **Remarks:** 
 
 When you set paragraph Space Before and Space After to Auto, Microsoft Word adds 14 points spacing between paragraphs automatically according to the following rules:
 
@@ -3461,12 +3437,6 @@ public void setSpaceBefore(double value)
 
 Sets the amount of spacing (in points) before the paragraph.
 
- **Remarks:** 
-
-Has no effect when [getSpaceBeforeAuto()](../../com.aspose.words/paragraphformat/\#getSpaceBeforeAuto) / [setSpaceBeforeAuto(boolean)](../../com.aspose.words/paragraphformat/\#setSpaceBeforeAuto-boolean) is  true .
-
-Valid values range from 0 to 1584 inclusive.
-
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -3483,8 +3453,6 @@ True if the amount of spacing before the paragraph is set automatically.
  **Remarks:** 
 
 When set to  true , overrides the effect of [getSpaceBefore()](../../com.aspose.words/paragraphformat/\#getSpaceBefore) / [setSpaceBefore(double)](../../com.aspose.words/paragraphformat/\#setSpaceBefore-double).
-
- **Remarks:** 
 
 When you set paragraph Space Before and Space After to Auto, Microsoft Word adds 14 points spacing between paragraphs automatically according to the following rules:
 

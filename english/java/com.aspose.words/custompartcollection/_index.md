@@ -100,11 +100,6 @@ public void add(CustomPart part)
 
 Adds an item to the collection.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| part | [CustomPart](../../com.aspose.words/custompart/) | The item to add.
-
  **Examples:** 
 
 Shows how to access a document's arbitrary custom parts collection.
@@ -147,7 +142,12 @@ Shows how to access a document's arbitrary custom parts collection.
 
  Assert.assertEquals(0, doc.getPackageCustomParts().getCount());
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| part | [CustomPart](../../com.aspose.words/custompart/) | The item to add. |
 
 ### clear() {#clear}
 ```
@@ -278,11 +278,6 @@ public CustomPart get(int index)
 
 Gets an item at the specified index.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | Zero-based index of the item.
-
  **Examples:** 
 
 Shows how to access a document's arbitrary custom parts collection.
@@ -325,7 +320,12 @@ Shows how to access a document's arbitrary custom parts collection.
 
  Assert.assertEquals(0, doc.getPackageCustomParts().getCount());
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | Zero-based index of the item. |
 
 **Returns:**
 [CustomPart](../../com.aspose.words/custompart/) - An item at the specified index.
@@ -481,11 +481,6 @@ public void removeAt(int index)
 
 Removes an item at the specified index.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | The zero based index.
-
  **Examples:** 
 
 Shows how to access a document's arbitrary custom parts collection.
@@ -528,7 +523,12 @@ Shows how to access a document's arbitrary custom parts collection.
 
  Assert.assertEquals(0, doc.getPackageCustomParts().getCount());
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | The zero based index. |
 
 ### set(int index, CustomPart value) {#set-int-com.aspose.words.CustomPart}
 ```
@@ -538,11 +538,6 @@ public void set(int index, CustomPart value)
 
 Sets an item at the specified index.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | Zero-based index of the item.
-
  **Examples:** 
 
 Shows how to access a document's arbitrary custom parts collection.
@@ -585,7 +580,12 @@ Shows how to access a document's arbitrary custom parts collection.
 
  Assert.assertEquals(0, doc.getPackageCustomParts().getCount());
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | Zero-based index of the item. |
 | value | [CustomPart](../../com.aspose.words/custompart/) | An item at the specified index. |
 
 ### toString() {#toString}

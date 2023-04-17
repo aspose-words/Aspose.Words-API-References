@@ -412,16 +412,6 @@ Enumerates over this node and all of its children. Each node calls a correspondi
 
 For more info see the Visitor design pattern.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor/) | The visitor that will visit the nodes. |
-
-**Returns:**
-boolean - True if all nodes were visited; false if [DocumentVisitor](../../com.aspose.words/documentvisitor/) stopped the operation before visiting all nodes.
-
- **Remarks:** 
-
 Calls [DocumentVisitor.visitDocumentStart(com.aspose.words.Document)](../../com.aspose.words/documentvisitor/\#visitDocumentStart-com.aspose.words.Document), then calls [Node.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/node/\#accept-com.aspose.words.DocumentVisitor) for all child nodes of the document and calls [DocumentVisitor.visitDocumentEnd(com.aspose.words.Document)](../../com.aspose.words/documentvisitor/\#visitDocumentEnd-com.aspose.words.Document) at the end.
 
  **Examples:** 
@@ -578,6 +568,14 @@ Shows how to use a document visitor to print a document's node structure.
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor/) | The visitor that will visit the nodes. |
+
+**Returns:**
+boolean - True if all nodes were visited; false if [DocumentVisitor](../../com.aspose.words/documentvisitor/) stopped the operation before visiting all nodes.
 ### acceptAllRevisions() {#acceptAllRevisions}
 ```
 public void acceptAllRevisions()
@@ -644,14 +642,6 @@ If the  newChild  is already in the tree, it is first removed.
 
 If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node/) | The node to add. |
-
-**Returns:**
-[Node](../../com.aspose.words/node/) - The node added.
-
  **Examples:** 
 
 Shows how to construct an Aspose.Words document by hand.
@@ -700,6 +690,14 @@ Shows how to construct an Aspose.Words document by hand.
  doc.save(getArtifactsDir() + "Section.CreateManually.docx");
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| newChild | [Node](../../com.aspose.words/node/) | The node to add. |
+
+**Returns:**
+[Node](../../com.aspose.words/node/) - The node added.
 ### appendDocument(Document srcDoc, int importFormatMode) {#appendDocument-com.aspose.words.Document-int}
 ```
 public void appendDocument(Document srcDoc, int importFormatMode)
@@ -855,13 +853,6 @@ public void compare(Document document, String author, Date dateTime)
 
 Compares this document with another document producing changes as number of edit and format revisions [Revision](../../com.aspose.words/revision/).
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| document | [Document](../../com.aspose.words/document/) | Document to compare. |
-| author | java.lang.String | Initials of the author to use for revisions. |
-| dateTime | java.util.Date | The date and time to use for revisions.
-
  **Remarks:** 
 
 The following document nodes are not compared at the moment:
@@ -901,7 +892,14 @@ Shows how to compare documents.
 
  Assert.assertEquals(docOriginal.getText(), docEdited.getText());
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| document | [Document](../../com.aspose.words/document/) | Document to compare. |
+| author | java.lang.String | Initials of the author to use for revisions. |
+| dateTime | java.util.Date | The date and time to use for revisions. |
 
 ### compare(Document document, String author, Date dateTime, CompareOptions options) {#compare-com.aspose.words.Document-java.lang.String-java.util.Date-com.aspose.words.CompareOptions}
 ```
@@ -1154,9 +1152,6 @@ public Document deepClone()
 
 Performs a deep copy of the [Document](../../com.aspose.words/document/).
 
-**Returns:**
-[Document](../../com.aspose.words/document/) - The cloned document.
-
  **Examples:** 
 
 Shows how to deep clone a document.
@@ -1178,6 +1173,9 @@ Shows how to deep clone a document.
          clone.getFirstSection().getBody().getFirstParagraph().getRuns().get(0).hashCode());
  
 ```
+
+**Returns:**
+[Document](../../com.aspose.words/document/) - The cloned document.
 ### deepClone(boolean isCloneChildren) {#deepClone-boolean}
 ```
 public Node deepClone(boolean isCloneChildren)
@@ -1191,14 +1189,6 @@ Creates a duplicate of the node.
 This method serves as a copy constructor for nodes. The cloned node has no parent, but belongs to the same document as the original node.
 
 This method always performs a deep copy of the node. The  isCloneChildren  parameter specifies whether to perform copy all child nodes as well.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| isCloneChildren | boolean | True to recursively clone the subtree under the specified node; false to clone only the node itself. |
-
-**Returns:**
-[Node](../../com.aspose.words/node/) - The cloned node.
 
  **Examples:** 
 
@@ -1224,6 +1214,14 @@ Shows how to clone a composite node.
  Assert.assertEquals("", cloneWithoutChildren.getText().trim());
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| isCloneChildren | boolean | True to recursively clone the subtree under the specified node; false to clone only the node itself. |
+
+**Returns:**
+[Node](../../com.aspose.words/node/) - The cloned node.
 ### ensureMinimum() {#ensureMinimum}
 ```
 public void ensureMinimum()
@@ -1344,12 +1342,6 @@ Returns the [Document](../../com.aspose.words/document/) object representing spe
 
 The resulting document should look like the one in MS Word, as if we had performed 'Print specific pages' \\u2013 the numbering, headers/footers and cross tables layout will be preserved. But due to a large number of nuances, appearing while reducing the number of pages, full match of the layout is a quiet complicated task requiring a lot of effort. Depending on the document complexity there might be slight differences in the resulting document contents layout comparing to the source document. Any feedback would be greatly appreciated.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | The zero-based index of the first page to extract. |
-| count | int | Number of pages to be extracted.
-
  **Examples:** 
 
 Shows how to get specified range of pages from the document.
@@ -1362,7 +1354,13 @@ Shows how to get specified range of pages from the document.
 
  doc.save(getArtifactsDir() + "Document.ExtractPages.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index of the first page to extract. |
+| count | int | Number of pages to be extracted. |
 
 **Returns:**
 [Document](../../com.aspose.words/document/)
@@ -1428,14 +1426,6 @@ public CompositeNode getAncestor(Class ancestorType)
 
 
 Gets the first ancestor of the specified object type.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| ancestorType | java.lang.Class | The object type of the ancestor to retrieve. |
-
-**Returns:**
-[CompositeNode](../../com.aspose.words/compositenode/) - The ancestor of the specified type or  null  if no ancestor of this type was found.
 
  **Remarks:** 
 
@@ -1505,6 +1495,14 @@ Shows how to find out if a tables are nested.
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ancestorType | java.lang.Class | The object type of the ancestor to retrieve. |
+
+**Returns:**
+[CompositeNode](../../com.aspose.words/compositenode/) - The ancestor of the specified type or  null  if no ancestor of this type was found.
 ### getAttachedTemplate() {#getAttachedTemplate}
 ```
 public String getAttachedTemplate()
@@ -1512,10 +1510,6 @@ public String getAttachedTemplate()
 
 
 Gets the full path of the template attached to the document.
-
- **Remarks:** 
-
-Empty string means the document is attached to the Normal template.
 
 **Returns:**
 java.lang.String - The full path of the template attached to the document.
@@ -5297,15 +5291,6 @@ Before a node from another document can be inserted into this document, it must 
 
 If the source node already belongs to the destination document, then simply a deep clone of the source node is created.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| srcNode | [Node](../../com.aspose.words/node/) | The node being imported. |
-| isImportChildren | boolean |  true  to import all child nodes recursively; otherwise,  false . |
-
-**Returns:**
-[Node](../../com.aspose.words/node/) - The cloned node that belongs to the current document.
-
  **Examples:** 
 
 Shows how to import a node from one document to another.
@@ -5338,6 +5323,15 @@ Shows how to import a node from one document to another.
          dstDoc.toString(SaveFormat.TEXT));
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| srcNode | [Node](../../com.aspose.words/node/) | The node being imported. |
+| isImportChildren | boolean |  true  to import all child nodes recursively; otherwise,  false . |
+
+**Returns:**
+[Node](../../com.aspose.words/node/) - The cloned node that belongs to the current document.
 ### importNode(Node srcNode, boolean isImportChildren, int importFormatMode) {#importNode-com.aspose.words.Node-boolean-int}
 ```
 public Node importNode(Node srcNode, boolean isImportChildren, int importFormatMode)
@@ -5401,20 +5395,9 @@ Inserts the specified node immediately after the specified reference node.
 
 If  refChild  is  null , inserts  newChild  at the beginning of the list of child nodes.
 
- **Remarks:** 
-
 If the  newChild  is already in the tree, it is first removed.
 
 If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) to insert. |
-| refChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) that is the reference node. The  newChild  is placed after the  refChild . |
-
-**Returns:**
-[Node](../../com.aspose.words/node/) - The inserted node.
 
  **Examples:** 
 
@@ -5513,6 +5496,15 @@ Shows how to add, update and delete child nodes in a CompositeNode's collection 
  Assert.assertEquals(3, paragraph.getChildNodes(NodeType.ANY, true).getCount());
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| newChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) to insert. |
+| refChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) that is the reference node. The  newChild  is placed after the  refChild . |
+
+**Returns:**
+[Node](../../com.aspose.words/node/) - The inserted node.
 ### insertBefore(Node newChild, Node refChild) {#insertBefore-com.aspose.words.Node-com.aspose.words.Node}
 ```
 public Node insertBefore(Node newChild, Node refChild)
@@ -5525,20 +5517,9 @@ Inserts the specified node immediately before the specified reference node.
 
 If  refChild  is  null , inserts  newChild  at the end of the list of child nodes.
 
- **Remarks:** 
-
 If the  newChild  is already in the tree, it is first removed.
 
 If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) to insert. |
-| refChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) that is the reference node. The  newChild  is placed before this node. |
-
-**Returns:**
-[Node](../../com.aspose.words/node/) - The inserted node.
 
  **Examples:** 
 
@@ -5591,6 +5572,15 @@ Shows how to add, update and delete child nodes in a CompositeNode's collection 
  Assert.assertEquals(3, paragraph.getChildNodes(NodeType.ANY, true).getCount());
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| newChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) to insert. |
+| refChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) that is the reference node. The  newChild  is placed before this node. |
+
+**Returns:**
+[Node](../../com.aspose.words/node/) - The inserted node.
 ### isComposite() {#isComposite}
 ```
 public boolean isComposite()
@@ -5706,9 +5696,6 @@ This is an optimization method. Some documents contain adjacent runs with same f
 
 The operation checks every [Paragraph](../../com.aspose.words/paragraph/) node in the document for adjacent [Run](../../com.aspose.words/run/) nodes having identical properties. It ignores unique identifiers used to track editing sessions of run creation and modification. First run in every joining sequence accumulates all text. Remaining runs are deleted from the document.
 
-**Returns:**
-int - Number of joins performed. When **N** adjacent runs are being joined they count as **N - 1** joins.
-
  **Examples:** 
 
 Shows how to join runs in a document to reduce unneeded runs.
@@ -5731,6 +5718,9 @@ Shows how to join runs in a document to reduce unneeded runs.
  Assert.assertEquals(196, doc.getChildNodes(NodeType.RUN, true).getCount());
  
 ```
+
+**Returns:**
+int - Number of joins performed. When **N** adjacent runs are being joined they count as **N - 1** joins.
 ### nextPreOrder(Node rootNode) {#nextPreOrder-com.aspose.words.Node}
 ```
 public Node nextPreOrder(Node rootNode)
@@ -5738,14 +5728,6 @@ public Node nextPreOrder(Node rootNode)
 
 
 Gets next node according to the pre-order tree traversal algorithm.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node/) | The top node (limit) of traversal. |
-
-**Returns:**
-[Node](../../com.aspose.words/node/) - Next node in pre-order order. Null if reached the  rootNode .
 
  **Examples:** 
 
@@ -5790,6 +5772,14 @@ Shows how to traverse the document's node tree using the pre-order traversal alg
  }));
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rootNode | [Node](../../com.aspose.words/node/) | The top node (limit) of traversal. |
+
+**Returns:**
+[Node](../../com.aspose.words/node/) - Next node in pre-order order. Null if reached the  rootNode .
 ### nodeTypeToString(int nodeType) {#nodeTypeToString-int}
 ```
 public static String nodeTypeToString(int nodeType)
@@ -5885,14 +5875,6 @@ If the  newChild  is already in the tree, it is first removed.
 
 If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node/) | The node to add. |
-
-**Returns:**
-[Node](../../com.aspose.words/node/) - The node added.
-
  **Examples:** 
 
 Shows how to add, update and delete child nodes in a CompositeNode's collection of children.
@@ -5944,6 +5926,14 @@ Shows how to add, update and delete child nodes in a CompositeNode's collection 
  Assert.assertEquals(3, paragraph.getChildNodes(NodeType.ANY, true).getCount());
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| newChild | [Node](../../com.aspose.words/node/) | The node to add. |
+
+**Returns:**
+[Node](../../com.aspose.words/node/) - The node added.
 ### previousPreOrder(Node rootNode) {#previousPreOrder-com.aspose.words.Node}
 ```
 public Node previousPreOrder(Node rootNode)
@@ -5951,14 +5941,6 @@ public Node previousPreOrder(Node rootNode)
 
 
 Gets the previous node according to the pre-order tree traversal algorithm.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node/) | The top node (limit) of traversal. |
-
-**Returns:**
-[Node](../../com.aspose.words/node/) - Previous node in pre-order order. Null if reached the  rootNode .
 
  **Examples:** 
 
@@ -6003,6 +5985,14 @@ Shows how to traverse the document's node tree using the pre-order traversal alg
  }));
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rootNode | [Node](../../com.aspose.words/node/) | The top node (limit) of traversal. |
+
+**Returns:**
+[Node](../../com.aspose.words/node/) - Previous node in pre-order order. Null if reached the  rootNode .
 ### print() {#print}
 ```
 public void print()
@@ -6229,14 +6219,6 @@ Removes the specified child node.
 
 The parent of  oldChild  is set to  null  after the node is removed.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| oldChild | [Node](../../com.aspose.words/node/) | The node to remove. |
-
-**Returns:**
-[Node](../../com.aspose.words/node/) - The removed node.
-
  **Examples:** 
 
 Shows how to use of methods of Node and CompositeNode to remove a section before the last section in the document.
@@ -6262,6 +6244,14 @@ Shows how to use of methods of Node and CompositeNode to remove a section before
  Assert.assertEquals("Section 2 text.", doc.getText().trim());
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| oldChild | [Node](../../com.aspose.words/node/) | The node to remove. |
+
+**Returns:**
+[Node](../../com.aspose.words/node/) - The removed node.
 ### removeExternalSchemaReferences() {#removeExternalSchemaReferences}
 ```
 public void removeExternalSchemaReferences()
@@ -6440,18 +6430,6 @@ public Point2D.Float renderToScale(int pageIndex, Graphics2D graphics, float x, 
 
 Renders a document page into a  object to a specified scale.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| pageIndex | int | The 0-based page index. |
-| graphics | java.awt.Graphics2D | The object where to render to. |
-| x | float | The X coordinate (in world units) of the top left corner of the rendered page. |
-| y | float | The Y coordinate (in world units) of the top left corner of the rendered page. |
-| scale | float | The scale for rendering the page (1.0 is 100%). |
-
-**Returns:**
-java.awt.geom.Point2D.Float - The width and height (in world units) of the rendered page.
-
  **Examples:** 
 
 Shows how to the individual pages of a document to graphics to create one image with thumbnails of all pages.
@@ -6508,13 +6486,6 @@ Shows how to the individual pages of a document to graphics to create one image 
  }
  
 ```
-### renderToSize(int pageIndex, Graphics2D graphics, float x, float y, float width, float height) {#renderToSize-int-java.awt.Graphics2D-float-float-float-float}
-```
-public float renderToSize(int pageIndex, Graphics2D graphics, float x, float y, float width, float height)
-```
-
-
-Renders a document page into a  object to a specified size.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -6523,11 +6494,17 @@ Renders a document page into a  object to a specified size.
 | graphics | java.awt.Graphics2D | The object where to render to. |
 | x | float | The X coordinate (in world units) of the top left corner of the rendered page. |
 | y | float | The Y coordinate (in world units) of the top left corner of the rendered page. |
-| width | float | The maximum width (in world units) that can be occupied by the rendered page. |
-| height | float | The maximum height (in world units) that can be occupied by the rendered page. |
+| scale | float | The scale for rendering the page (1.0 is 100%). |
 
 **Returns:**
-float - The scale that was automatically calculated for the rendered page to fit the specified size.
+java.awt.geom.Point2D.Float - The width and height (in world units) of the rendered page.
+### renderToSize(int pageIndex, Graphics2D graphics, float x, float y, float width, float height) {#renderToSize-int-java.awt.Graphics2D-float-float-float-float}
+```
+public float renderToSize(int pageIndex, Graphics2D graphics, float x, float y, float width, float height)
+```
+
+
+Renders a document page into a  object to a specified size.
 
  **Examples:** 
 
@@ -6569,6 +6546,19 @@ Shows how to render a document to a bitmap at a specified location and size.
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pageIndex | int | The 0-based page index. |
+| graphics | java.awt.Graphics2D | The object where to render to. |
+| x | float | The X coordinate (in world units) of the top left corner of the rendered page. |
+| y | float | The Y coordinate (in world units) of the top left corner of the rendered page. |
+| width | float | The maximum width (in world units) that can be occupied by the rendered page. |
+| height | float | The maximum height (in world units) that can be occupied by the rendered page. |
+
+**Returns:**
+float - The scale that was automatically calculated for the rendered page to fit the specified size.
 ### save(OutputStream stream, SaveOptions saveOptions) {#save-java.io.OutputStream-com.aspose.words.SaveOptions}
 ```
 public SaveOutputParameters save(OutputStream stream, SaveOptions saveOptions)
@@ -6609,14 +6599,6 @@ public SaveOutputParameters save(String fileName)
 
 Saves the document.  Saves the document to a file. Automatically determines the save format from the extension.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fileName | java.lang.String | The name for the document. If a document with the specified file name already exists, the existing document is overwritten. |
-
-**Returns:**
-[SaveOutputParameters](../../com.aspose.words/saveoutputparameters/) - Additional information that you can optionally use.
-
  **Examples:** 
 
 Shows how to open a document and convert it to .PDF.
@@ -6628,6 +6610,14 @@ Shows how to open a document and convert it to .PDF.
  doc.save(getArtifactsDir() + "Document.ConvertToPdf.pdf");
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | java.lang.String | The name for the document. If a document with the specified file name already exists, the existing document is overwritten. |
+
+**Returns:**
+[SaveOutputParameters](../../com.aspose.words/saveoutputparameters/) - Additional information that you can optionally use.
 ### save(String fileName, SaveOptions saveOptions) {#save-java.lang.String-com.aspose.words.SaveOptions}
 ```
 public SaveOutputParameters save(String fileName, SaveOptions saveOptions)
@@ -6635,15 +6625,6 @@ public SaveOutputParameters save(String fileName, SaveOptions saveOptions)
 
 
 Saves the document to a file using the specified save options.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fileName | java.lang.String | The name for the document. If a document with the specified file name already exists, the existing document is overwritten. |
-| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) | Specifies the options that control how the document is saved. Can be  null . |
-
-**Returns:**
-[SaveOutputParameters](../../com.aspose.words/saveoutputparameters/) - Additional information that you can optionally use.
 
  **Examples:** 
 
@@ -6753,6 +6734,15 @@ Shows how to configure compression while saving a document as a JPEG.
  Assert.assertTrue(new File(getArtifactsDir() + "ImageSaveOptions.JpegQuality.HighQuality.jpg").length() < 60000);
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | java.lang.String | The name for the document. If a document with the specified file name already exists, the existing document is overwritten. |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) | Specifies the options that control how the document is saved. Can be  null . |
+
+**Returns:**
+[SaveOutputParameters](../../com.aspose.words/saveoutputparameters/) - Additional information that you can optionally use.
 ### save(String fileName, int saveFormat) {#save-java.lang.String-int}
 ```
 public SaveOutputParameters save(String fileName, int saveFormat)
@@ -6780,14 +6770,6 @@ Selects a list of nodes matching the XPath expression.
  **Remarks:** 
 
 Only expressions with element names are supported at the moment. Expressions that use attribute names are not supported.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| xpath | java.lang.String | The XPath expression. |
-
-**Returns:**
-[NodeList](../../com.aspose.words/nodelist/) - A list of nodes matching the XPath query.
 
  **Examples:** 
 
@@ -6839,6 +6821,14 @@ Shows how to select certain nodes by using an XPath expression.
  Assert.assertEquals(Paragraph.class, node.getClass());
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| xpath | java.lang.String | The XPath expression. |
+
+**Returns:**
+[NodeList](../../com.aspose.words/nodelist/) - A list of nodes matching the XPath query.
 ### selectSingleNode(String xpath) {#selectSingleNode-java.lang.String}
 ```
 public Node selectSingleNode(String xpath)
@@ -6850,14 +6840,6 @@ Selects the first [Node](../../com.aspose.words/node/) that matches the XPath ex
  **Remarks:** 
 
 Only expressions with element names are supported at the moment. Expressions that use attribute names are not supported.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| xpath | java.lang.String | The XPath expression. |
-
-**Returns:**
-[Node](../../com.aspose.words/node/) - The first [Node](../../com.aspose.words/node/) that matches the XPath query or  null  if no matching node is found.
 
  **Examples:** 
 
@@ -6892,6 +6874,14 @@ Shows how to select certain nodes by using an XPath expression.
  Assert.assertEquals(Paragraph.class, node.getClass());
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| xpath | java.lang.String | The XPath expression. |
+
+**Returns:**
+[Node](../../com.aspose.words/node/) - The first [Node](../../com.aspose.words/node/) that matches the XPath query or  null  if no matching node is found.
 ### setAttachedTemplate(String value) {#setAttachedTemplate-java.lang.String}
 ```
 public void setAttachedTemplate(String value)
@@ -6899,10 +6889,6 @@ public void setAttachedTemplate(String value)
 
 
 Sets the full path of the template attached to the document.
-
- **Remarks:** 
-
-Empty string means the document is attached to the Normal template.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -8267,11 +8253,6 @@ Automatic tracking of changes is supported both when modifying this document thr
 
 This method does not change the [getTrackRevisions()](../../com.aspose.words/document/\#getTrackRevisions) / [setTrackRevisions(boolean)](../../com.aspose.words/document/\#setTrackRevisions-boolean) option and does not use its value for the purposes of revision tracking.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| author | java.lang.String | Initials of the author to use for revisions.
-
  **Examples:** 
 
 Shows how to track revisions while editing a document.
@@ -8316,7 +8297,12 @@ Shows how to track revisions while editing a document.
  // In Microsoft Word, we can process them manually via "Review" -> "Changes".
  doc.save(getArtifactsDir() + "Document.StartTrackRevisions.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| author | java.lang.String | Initials of the author to use for revisions. |
 
 ### startTrackRevisions(String author, Date dateTime) {#startTrackRevisions-java.lang.String-java.util.Date}
 ```
@@ -8336,12 +8322,6 @@ Automatic tracking of changes is supported both when modifying this document thr
 
 This method does not change the [getTrackRevisions()](../../com.aspose.words/document/\#getTrackRevisions) / [setTrackRevisions(boolean)](../../com.aspose.words/document/\#setTrackRevisions-boolean) option and does not use its value for the purposes of revision tracking.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| author | java.lang.String | Initials of the author to use for revisions. |
-| dateTime | java.util.Date | The date and time to use for revisions.
-
  **Examples:** 
 
 Shows how to track revisions while editing a document.
@@ -8386,7 +8366,13 @@ Shows how to track revisions while editing a document.
  // In Microsoft Word, we can process them manually via "Review" -> "Changes".
  doc.save(getArtifactsDir() + "Document.StartTrackRevisions.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| author | java.lang.String | Initials of the author to use for revisions. |
+| dateTime | java.util.Date | The date and time to use for revisions. |
 
 ### stopTrackRevisions() {#stopTrackRevisions}
 ```
@@ -8460,14 +8446,6 @@ public String toString(SaveOptions saveOptions)
 
 Exports the content of the node into a string using the specified save options.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) | Specifies the options that control how the node is saved. |
-
-**Returns:**
-java.lang.String - The content of the node in the specified format.
-
  **Examples:** 
 
 Exports the content of a node to String in HTML format.
@@ -8493,6 +8471,14 @@ Exports the content of a node to String in HTML format.
          "", node.toString(saveOptions));
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) | Specifies the options that control how the node is saved. |
+
+**Returns:**
+java.lang.String - The content of the node in the specified format.
 ### toString(int saveFormat) {#toString-int}
 ```
 public String toString(int saveFormat)
@@ -8606,14 +8592,6 @@ This method unprotects the document only if a correct password is specified.
 
 Note that document protection is different from write protection. Write protection is specified using the [getWriteProtection()](../../com.aspose.words/document/\#getWriteProtection).
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| password | java.lang.String | The password to unprotect the document with. |
-
-**Returns:**
-boolean -  true  if a correct password was specified and the document was unprotected.
-
  **Examples:** 
 
 Shows how to protect and unprotect a document.
@@ -8657,6 +8635,14 @@ Shows how to protect and unprotect a document.
  Assert.assertEquals(ProtectionType.NO_PROTECTION, doc.getProtectionType());
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| password | java.lang.String | The password to unprotect the document with. |
+
+**Returns:**
+boolean -  true  if a correct password was specified and the document was unprotected.
 ### updateFields() {#updateFields}
 ```
 public void updateFields()
@@ -8946,11 +8932,6 @@ Updates [BuiltInDocumentProperties.getThumbnail()](../../com.aspose.words/builti
 
 The [ThumbnailGeneratingOptions](../../com.aspose.words/thumbnailgeneratingoptions/) allows you to specify the source of thumbnail, size and other options. If attempt to generate thumbnail fails, doesn't change one.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| options | [ThumbnailGeneratingOptions](../../com.aspose.words/thumbnailgeneratingoptions/) | The generating options to use.
-
  **Examples:** 
 
 Shows how to update a document's thumbnail.
@@ -8976,7 +8957,12 @@ Shows how to update a document's thumbnail.
  doc.updateThumbnail(options);
  doc.save(getArtifactsDir() + "Document.UpdateThumbnail.FirstImage.epub");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| options | [ThumbnailGeneratingOptions](../../com.aspose.words/thumbnailgeneratingoptions/) | The generating options to use. |
 
 ### updateWordCount() {#updateWordCount}
 ```
@@ -9042,11 +9028,6 @@ Updates word count properties of the document, optionally updates [BuiltInDocume
 
 This method will rebuild page layout of the document.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| updateLinesCount | boolean |  true  if number of lines in the document shall be calculated.
-
  **Examples:** 
 
 Shows how to update all list labels in a document.
@@ -9081,7 +9062,12 @@ Shows how to update all list labels in a document.
 
  Assert.assertEquals(4, doc.getBuiltInDocumentProperties().getLines());
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| updateLinesCount | boolean |  true  if number of lines in the document shall be calculated. |
 
 ### wait() {#wait}
 ```

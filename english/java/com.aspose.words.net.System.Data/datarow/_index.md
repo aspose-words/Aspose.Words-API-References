@@ -38,9 +38,9 @@ Represents a row of data in a [DataTable](../../com.aspose.words.net.system.data
 | [notifyAll()](#notifyAll) |  |
 | [readFrom(ResultSet resultSet)](#readFrom-java.sql.ResultSet) | Reads values from the java.sql.ResultSet |
 | [remove(int index)](#remove-int) |  |
-| [set(System.Data.DataColumn value, Object column)](#set-com.aspose.words.net.System.Data.DataColumn-java.lang.Object) | Sets the data stored in the specified [DataColumn](../../com.aspose.words.net.system.data/datacolumn/). |
-| [set(int value, Object columnIndex)](#set-int-java.lang.Object) | Sets the data stored in the column specified by index. |
-| [set(String value, Object columnName)](#set-java.lang.String-java.lang.Object) | Sets the data stored in the column specified by name. |
+| [set(System.Data.DataColumn column, Object value)](#set-com.aspose.words.net.System.Data.DataColumn-java.lang.Object) | Sets the data stored in the specified [DataColumn](../../com.aspose.words.net.system.data/datacolumn/). |
+| [set(int columnIndex, Object value)](#set-int-java.lang.Object) | Sets the data stored in the column specified by index. |
+| [set(String columnName, Object value)](#set-java.lang.String-java.lang.Object) | Sets the data stored in the column specified by name. |
 | [setItemArray(Object[] value)](#setItemArray-java.lang.Object) | Sets all the values for this row through an array. |
 | [setOriginalValue(String columnName, Object data)](#setOriginalValue-java.lang.String-java.lang.Object) |  |
 | [setRowState(int state)](#setRowState-int) |  |
@@ -285,9 +285,9 @@ public void remove(int index)
 | --- | --- | --- |
 | index | int |  |
 
-### set(System.Data.DataColumn value, Object column) {#set-com.aspose.words.net.System.Data.DataColumn-java.lang.Object}
+### set(System.Data.DataColumn column, Object value) {#set-com.aspose.words.net.System.Data.DataColumn-java.lang.Object}
 ```
-public void set(System.Data.DataColumn value, Object column)
+public void set(System.Data.DataColumn column, Object value)
 ```
 
 
@@ -296,12 +296,12 @@ Sets the data stored in the specified [DataColumn](../../com.aspose.words.net.sy
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) | An java.lang.Object that contains the data. |
-| column | java.lang.Object | A [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) that contains the data. |
+| column | [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) | A [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) that contains the data. |
+| value | java.lang.Object | An java.lang.Object that contains the data. |
 
-### set(int value, Object columnIndex) {#set-int-java.lang.Object}
+### set(int columnIndex, Object value) {#set-int-java.lang.Object}
 ```
-public void set(int value, Object columnIndex)
+public void set(int columnIndex, Object value)
 ```
 
 
@@ -310,12 +310,12 @@ Sets the data stored in the column specified by index.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | An java.lang.Object that contains the data. |
-| columnIndex | java.lang.Object | The zero-based index of the column. |
+| columnIndex | int | The zero-based index of the column. |
+| value | java.lang.Object | An java.lang.Object that contains the data. |
 
-### set(String value, Object columnName) {#set-java.lang.String-java.lang.Object}
+### set(String columnName, Object value) {#set-java.lang.String-java.lang.Object}
 ```
-public void set(String value, Object columnName)
+public void set(String columnName, Object value)
 ```
 
 
@@ -324,8 +324,8 @@ Sets the data stored in the column specified by name.
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | An java.lang.Object that contains the data. |
-| columnName | java.lang.Object | The name of the column. |
+| columnName | java.lang.String | The name of the column. |
+| value | java.lang.Object | An java.lang.Object that contains the data. |
 
 ### setItemArray(Object[] value) {#setItemArray-java.lang.Object}
 ```

@@ -406,9 +406,6 @@ Gets a copy of the array that contains the list of sources where Aspose.Words lo
 
 The returned value is a copy of the data that Aspose.Words uses. If you change the entries in the returned array, it will have no effect on document rendering. To specify new font sources use the [setFontsSources(com.aspose.words.FontSourceBase[])](../../com.aspose.words/fontsettings/\#setFontsSources-com.aspose.words.FontSourceBase) method.
 
-**Returns:**
-com.aspose.words.FontSourceBase[] - A copy of the current font sources.
-
  **Examples:** 
 
 Shows how to add a font source to our existing font sources.
@@ -456,6 +453,9 @@ Shows how to add a font source to our existing font sources.
  FontSettings.getDefaultInstance().setFontsSources(originalFontSources);
  
 ```
+
+**Returns:**
+com.aspose.words.FontSourceBase[] - A copy of the current font sources.
 ### getSubstitutionSettings() {#getSubstitutionSettings}
 ```
 public FontSubstitutionSettings getSubstitutionSettings()
@@ -613,12 +613,6 @@ public void setFontsFolder(String fontFolder, boolean recursive)
 
 Sets the folder where Aspose.Words looks for TrueType fonts when rendering documents or embedding fonts. This is a shortcut to [setFontsFolders(java.lang.String[], boolean)](../../com.aspose.words/fontsettings/\#setFontsFolders-java.lang.String----boolean) for setting only one font directory.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fontFolder | java.lang.String | The folder that contains TrueType fonts. |
-| recursive | boolean | True to scan the specified folders for fonts recursively.
-
  **Examples:** 
 
 Shows how to set a font source directory.
@@ -672,7 +666,13 @@ Shows how to set a font source directory.
  // Restore the original font sources.
  FontSettings.getDefaultInstance().setFontsSources(originalFontSources);
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fontFolder | java.lang.String | The folder that contains TrueType fonts. |
+| recursive | boolean | True to scan the specified folders for fonts recursively. |
 
 ### setFontsFolders(String[] fontsFolders, boolean recursive) {#setFontsFolders-java.lang.String---boolean}
 ```
@@ -687,12 +687,6 @@ Sets the folders where Aspose.Words looks for TrueType fonts when rendering docu
 By default, Aspose.Words looks for fonts installed to the system.
 
 Setting this property resets the cache of all previously loaded fonts.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fontsFolders | java.lang.String[] | An array of folders that contain TrueType fonts. |
-| recursive | boolean | True to scan the specified folders for fonts recursively.
 
  **Examples:** 
 
@@ -747,7 +741,13 @@ Shows how to set multiple font source directories.
  // Restore the original font sources.
  FontSettings.getDefaultInstance().setFontsSources(originalFontSources);
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fontsFolders | java.lang.String[] | An array of folders that contain TrueType fonts. |
+| recursive | boolean | True to scan the specified folders for fonts recursively. |
 
 ### setFontsSources(FontSourceBase[] sources) {#setFontsSources-com.aspose.words.FontSourceBase}
 ```
@@ -762,11 +762,6 @@ Sets the sources where Aspose.Words looks for TrueType fonts when rendering docu
 By default, Aspose.Words looks for fonts installed to the system.
 
 Setting this property resets the cache of all previously loaded fonts.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| sources | [FontSourceBase\[\]](../../com.aspose.words/fontsourcebase/) | An array of sources that contain TrueType fonts.
 
  **Examples:** 
 
@@ -814,7 +809,12 @@ Shows how to add a font source to our existing font sources.
  // Restore the original font sources.
  FontSettings.getDefaultInstance().setFontsSources(originalFontSources);
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sources | [FontSourceBase\[\]](../../com.aspose.words/fontsourcebase/) | An array of sources that contain TrueType fonts. |
 
 ### setFontsSources(FontSourceBase[] sources, InputStream cacheInputStream) {#setFontsSources-com.aspose.words.FontSourceBase---java.io.InputStream}
 ```

@@ -193,11 +193,6 @@ public ConditionalStyle get(int index)
 
 Retrieves a [ConditionalStyle](../../com.aspose.words/conditionalstyle/) object by index.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | Zero-based index of the conditional style to retrieve.
-
  **Examples:** 
 
 Shows how to work with certain area styles of a table.
@@ -262,7 +257,12 @@ Shows how to work with certain area styles of a table.
 
  doc.save(getArtifactsDir() + "Table.ConditionalStyles.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | Zero-based index of the conditional style to retrieve. |
 
 **Returns:**
 [ConditionalStyle](../../com.aspose.words/conditionalstyle/) - The corresponding [ConditionalStyle](../../com.aspose.words/conditionalstyle/) value.

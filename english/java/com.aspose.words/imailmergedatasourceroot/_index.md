@@ -202,14 +202,6 @@ When the Aspose.Words mail merge engines populates a document with data and enco
 
 If a data source (table) with the specified name does not exist, your implementation should return  null .
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| tableName | java.lang.String | The name of the mail merge region as specified in the template document. Case-insensitive. |
-
-**Returns:**
-[IMailMergeDataSource](../../com.aspose.words/imailmergedatasource/) - A data source object that will provide access to the data records of the specified table.
-
  **Examples:** 
 
 Performs mail merge from a custom data source with master-detail data.
@@ -380,3 +372,11 @@ Performs mail merge from a custom data source with master-detail data.
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tableName | java.lang.String | The name of the mail merge region as specified in the template document. Case-insensitive. |
+
+**Returns:**
+[IMailMergeDataSource](../../com.aspose.words/imailmergedatasource/) - A data source object that will provide access to the data records of the specified table.

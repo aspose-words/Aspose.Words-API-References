@@ -269,11 +269,6 @@ If index is greater than or equal to the number of items in the list, this retur
 
 If index is negative and its absolute value is greater than the number of items in the list, this returns a null reference.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | An index into the list of nodes.
-
  **Examples:** 
 
 Shows how to use XPaths to navigate a NodeList.
@@ -319,7 +314,12 @@ Shows how to use XPaths to navigate a NodeList.
  Shape shape = (Shape) shapes.get(0);
  Assert.assertTrue(shape.hasImage());
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | An index into the list of nodes. |
 
 **Returns:**
 [Node](../../com.aspose.words/node/) - The corresponding [Node](../../com.aspose.words/node/) value.
@@ -408,9 +408,6 @@ public Iterator iterator()
 
 Provides a simple "foreach" style iteration over the collection of nodes.
 
-**Returns:**
-java.util.Iterator - An Iterator.
-
  **Examples:** 
 
 Shows how to select certain nodes by using an XPath expression.
@@ -444,6 +441,9 @@ Shows how to select certain nodes by using an XPath expression.
  Assert.assertEquals(Paragraph.class, node.getClass());
  
 ```
+
+**Returns:**
+java.util.Iterator - An Iterator.
 ### notify() {#notify}
 ```
 public final native void notify()
@@ -474,9 +474,6 @@ You should not be adding/removing nodes while iterating over a collection of nod
 
 To be able to add/remove nodes during iteration, use this method to copy nodes into a fixed-size array and then iterate over the array.
 
-**Returns:**
-com.aspose.words.Node[] - An array of nodes.
-
  **Examples:** 
 
 Shows how to select certain nodes by using an XPath expression.
@@ -510,6 +507,9 @@ Shows how to select certain nodes by using an XPath expression.
  Assert.assertEquals(Paragraph.class, node.getClass());
  
 ```
+
+**Returns:**
+com.aspose.words.Node[] - An array of nodes.
 ### toString() {#toString}
 ```
 public String toString()

@@ -142,11 +142,6 @@ public LoadOptions(String password)
 
 A shortcut to initialize a new instance of this class with the specified password to load an encrypted document.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| password | java.lang.String | The password to open an encrypted document. Can be  null  or empty string.
-
  **Examples:** 
 
 Shows how to load an encrypted Microsoft Word document.
@@ -172,7 +167,12 @@ Shows how to load an encrypted Microsoft Word document.
      if (stream != null) stream.close();
  }
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| password | java.lang.String | The password to open an encrypted document. Can be  null  or empty string. |
 
 ### LoadOptions(int loadFormat, String password, String baseUri) {#LoadOptions-int-java.lang.String-java.lang.String}
 ```

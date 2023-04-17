@@ -116,12 +116,6 @@ public void addPrinterFont(String fontFullName, String fontPclName)
 
 Adds information about font that is uploaded to the printer by manufacturer.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fontFullName | java.lang.String | Full name of the font (e.g. "Times New Roman Bold Italic"). |
-| fontPclName | java.lang.String | Name of the font that is used in Pcl document.
-
  **Remarks:** 
 
 There are 52 fonts that are to be built in any printer according to Pcl specification. However manufactures can add some other fonts to their devices.
@@ -145,7 +139,13 @@ Shows how to get a printer to substitute all instances of a specific font with a
  // to access places where our document used the "Courier" font.
  doc.save(getArtifactsDir() + "PclSaveOptions.AddPrinterFont.pcl", saveOptions);
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fontFullName | java.lang.String | Full name of the font (e.g. "Times New Roman Bold Italic"). |
+| fontPclName | java.lang.String | Name of the font that is used in Pcl document. |
 
 ### createSaveOptions(int saveFormat) {#createSaveOptions-int}
 ```
@@ -170,14 +170,6 @@ public static SaveOptions createSaveOptions(String fileName)
 
 Creates a save options object of a class suitable for the file extension specified in the given file name.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fileName | java.lang.String | The extension of this file name determines the class of the save options object to create. |
-
-**Returns:**
-[SaveOptions](../../com.aspose.words/saveoptions/) - An object of a class that derives from [SaveOptions](../../com.aspose.words/saveoptions/).
-
  **Examples:** 
 
 Shows how to set a default template for documents that do not have attached templates.
@@ -200,6 +192,14 @@ Shows how to set a default template for documents that do not have attached temp
  doc.save(getArtifactsDir() + "Document.DefaultTemplate.docx", options);
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | java.lang.String | The extension of this file name determines the class of the save options object to create. |
+
+**Returns:**
+[SaveOptions](../../com.aspose.words/saveoptions/) - An object of a class that derives from [SaveOptions](../../com.aspose.words/saveoptions/).
 ### equals(Object obj) {#equals-java.lang.Object}
 ```
 public boolean equals(Object obj)

@@ -159,14 +159,6 @@ public static DigitalSignatureCollection loadSignatures(String fileName)
 
 Loads digital signatures from document.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fileName | java.lang.String | Path to the document. |
-
-**Returns:**
-[DigitalSignatureCollection](../../com.aspose.words/digitalsignaturecollection/) - Collection of digital signatures. Returns empty collection if file is not signed.
-
  **Examples:** 
 
 Shows how to load signatures from a digitally signed document.
@@ -220,6 +212,14 @@ Shows how to remove digital signatures from a digitally signed document.
  Assert.assertEquals(DigitalSignatureUtil.loadSignatures(getArtifactsDir() + "DigitalSignatureUtil.LoadAndRemove.FromStream.docx").getCount(), 0);
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | java.lang.String | Path to the document. |
+
+**Returns:**
+[DigitalSignatureCollection](../../com.aspose.words/digitalsignaturecollection/) - Collection of digital signatures. Returns empty collection if file is not signed.
 ### notify() {#notify}
 ```
 public final native void notify()
@@ -336,13 +336,6 @@ Signs source document using given [CertificateHolder](../../com.aspose.words/cer
 
 Document should be either [LoadFormat.DOC](../../com.aspose.words/loadformat/\#DOC) or [LoadFormat.DOCX](../../com.aspose.words/loadformat/\#DOCX).
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| srcFileName | java.lang.String | The file name of the document to sign. |
-| dstFileName | java.lang.String | The file name of the signed document output. |
-| certHolder | [CertificateHolder](../../com.aspose.words/certificateholder/) | [CertificateHolder](../../com.aspose.words/certificateholder/) object with certificate that used to sign file.
-
  **Examples:** 
 
 Shows how to sign documents with X.509 certificates.
@@ -390,7 +383,14 @@ Shows how to sign documents with X.509 certificates.
  Assert.assertEquals("CN=Morzal.Me", signedDoc.getDigitalSignatures().get(0).getIssuerName());
  Assert.assertEquals("CN=Morzal.Me", signedDoc.getDigitalSignatures().get(0).getSubjectName());
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| srcFileName | java.lang.String | The file name of the document to sign. |
+| dstFileName | java.lang.String | The file name of the signed document output. |
+| certHolder | [CertificateHolder](../../com.aspose.words/certificateholder/) | [CertificateHolder](../../com.aspose.words/certificateholder/) object with certificate that used to sign file. |
 
 ### sign(String srcFileName, String dstFileName, CertificateHolder certHolder, SignOptions signOptions) {#sign-java.lang.String-java.lang.String-com.aspose.words.CertificateHolder-com.aspose.words.SignOptions}
 ```
@@ -401,14 +401,6 @@ public static void sign(String srcFileName, String dstFileName, CertificateHolde
 Signs source document using given [CertificateHolder](../../com.aspose.words/certificateholder/) and [SignOptions](../../com.aspose.words/signoptions/) with digital signature and writes signed document to destination file.
 
 Document should be either [LoadFormat.DOC](../../com.aspose.words/loadformat/\#DOC) or [LoadFormat.DOCX](../../com.aspose.words/loadformat/\#DOCX).
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| srcFileName | java.lang.String | The file name of the document to sign. |
-| dstFileName | java.lang.String | The file name of the signed document output. |
-| certHolder | [CertificateHolder](../../com.aspose.words/certificateholder/) | [CertificateHolder](../../com.aspose.words/certificateholder/) object with certificate that used to sign file. |
-| signOptions | [SignOptions](../../com.aspose.words/signoptions/) | [SignOptions](../../com.aspose.words/signoptions/) object with various signing options.
 
  **Examples:** 
 
@@ -492,7 +484,15 @@ Shows how to add a signature line to a document, and then sign it using a digita
 
  private static ArrayList gSignPersonList;
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| srcFileName | java.lang.String | The file name of the document to sign. |
+| dstFileName | java.lang.String | The file name of the signed document output. |
+| certHolder | [CertificateHolder](../../com.aspose.words/certificateholder/) | [CertificateHolder](../../com.aspose.words/certificateholder/) object with certificate that used to sign file. |
+| signOptions | [SignOptions](../../com.aspose.words/signoptions/) | [SignOptions](../../com.aspose.words/signoptions/) object with various signing options. |
 
 ### toString() {#toString}
 ```
