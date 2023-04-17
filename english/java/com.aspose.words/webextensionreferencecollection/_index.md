@@ -113,11 +113,6 @@ public Object get(int index)
 
 Gets an item at the specified index.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | Zero-based index of the item.
-
  **Examples:** 
 
 Shows how to work with a document's collection of web extensions.
@@ -142,7 +137,12 @@ Shows how to work with a document's collection of web extensions.
 
  Assert.assertEquals(0, doc.getWebExtensionTaskPanes().getCount());
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | Zero-based index of the item. |
 
 **Returns:**
 java.lang.Object - An item at the specified index.
@@ -210,8 +210,7 @@ public Iterator iterator()
 
 Returns an enumerator that can iterate through a collection.
 
-**Returns:**
-java.util.Iterator -  **Examples:** 
+ **Examples:** 
 
 Shows how to work with a document's collection of web extensions.
 
@@ -236,6 +235,9 @@ Shows how to work with a document's collection of web extensions.
  Assert.assertEquals(0, doc.getWebExtensionTaskPanes().getCount());
  
 ```
+
+**Returns:**
+java.util.Iterator - 
 ### notify() {#notify}
 ```
 public final native void notify()
@@ -259,11 +261,6 @@ public void remove(int index)
 
 
 Removes the item at the specified index from the collection.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | The zero-based index of the collection item.
 
  **Examples:** 
 
@@ -289,7 +286,12 @@ Shows how to work with a document's collection of web extensions.
 
  Assert.assertEquals(0, doc.getWebExtensionTaskPanes().getCount());
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index of the collection item. |
 
 ### toString() {#toString}
 ```

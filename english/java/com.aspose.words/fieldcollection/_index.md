@@ -265,11 +265,6 @@ If index is greater than or equal to the number of items in the list, this retur
 
 If index is negative and its absolute value is greater than the number of items in the list, this returns a null reference.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | An index into the collection.
-
  **Examples:** 
 
 Shows how to remove fields from a field collection.
@@ -309,7 +304,12 @@ Shows how to remove fields from a field collection.
  fields.clear();
  Assert.assertEquals(0, fields.getCount());
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | An index into the collection. |
 
 **Returns:**
 [Field](../../com.aspose.words/field/) - A field at the specified index.
@@ -604,11 +604,6 @@ public void remove(Field field)
 
 Removes the specified field from this collection and from the document.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| field | [Field](../../com.aspose.words/field/) | A field to remove.
-
  **Examples:** 
 
 Shows how to remove fields from a field collection.
@@ -648,7 +643,12 @@ Shows how to remove fields from a field collection.
  fields.clear();
  Assert.assertEquals(0, fields.getCount());
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| field | [Field](../../com.aspose.words/field/) | A field to remove. |
 
 ### removeAt(int index) {#removeAt-int}
 ```
@@ -658,11 +658,6 @@ public void removeAt(int index)
 
 Removes a field at the specified index from this collection and from the document.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | An index into the collection.
-
  **Examples:** 
 
 Shows how to remove fields from a field collection.
@@ -702,7 +697,12 @@ Shows how to remove fields from a field collection.
  fields.clear();
  Assert.assertEquals(0, fields.getCount());
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | An index into the collection. |
 
 ### toString() {#toString}
 ```

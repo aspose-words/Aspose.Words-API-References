@@ -187,14 +187,6 @@ public boolean contains(String value)
 
 Determines whether the collection contains the specified value.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String | Case-sensitive value to locate. |
-
-**Returns:**
-boolean -  true  if the item is found in the collection; otherwise,  false .
-
  **Examples:** 
 
 Shows how to insert a combo box field, and edit the elements in its item collection.
@@ -248,6 +240,14 @@ Shows how to insert a combo box field, and edit the elements in its item collect
  dropDownItems.clear();
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | Case-sensitive value to locate. |
+
+**Returns:**
+boolean -  true  if the item is found in the collection; otherwise,  false .
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
@@ -424,14 +424,6 @@ public int indexOf(String value)
 
 Returns the zero-based index of the specified value in the collection.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String | The case-sensitive value to locate. |
-
-**Returns:**
-int - The zero based index. Negative value if not found.
-
  **Examples:** 
 
 Shows how to insert a combo box field, and edit the elements in its item collection.
@@ -485,6 +477,14 @@ Shows how to insert a combo box field, and edit the elements in its item collect
  dropDownItems.clear();
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | The case-sensitive value to locate. |
+
+**Returns:**
+int - The zero based index. Negative value if not found.
 ### insert(int index, String value) {#insert-int-java.lang.String}
 ```
 public void insert(int index, String value)
@@ -493,12 +493,6 @@ public void insert(int index, String value)
 
 Inserts a string into the collection at the specified index.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | The zero-based index at which value is inserted. |
-| value | java.lang.String | The string to insert.
-
  **Examples:** 
 
 Shows how to insert a combo box field, and edit the elements in its item collection.
@@ -551,7 +545,13 @@ Shows how to insert a combo box field, and edit the elements in its item collect
  // Empty the whole collection of drop-down items.
  dropDownItems.clear();
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index at which value is inserted. |
+| value | java.lang.String | The string to insert. |
 
 ### isInheritedComplexAttr() {#isInheritedComplexAttr}
 ```
@@ -651,11 +651,6 @@ public void remove(String name)
 
 Removes the specified value from the collection.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | java.lang.String | The case-sensitive value to remove.
-
  **Examples:** 
 
 Shows how to insert a combo box field, and edit the elements in its item collection.
@@ -708,7 +703,12 @@ Shows how to insert a combo box field, and edit the elements in its item collect
  // Empty the whole collection of drop-down items.
  dropDownItems.clear();
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | The case-sensitive value to remove. |
 
 ### removeAt(int index) {#removeAt-int}
 ```
@@ -718,11 +718,6 @@ public void removeAt(int index)
 
 Removes a value at the specified index.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | The zero based index.
-
  **Examples:** 
 
 Shows how to insert a combo box field, and edit the elements in its item collection.
@@ -775,7 +770,12 @@ Shows how to insert a combo box field, and edit the elements in its item collect
  // Empty the whole collection of drop-down items.
  dropDownItems.clear();
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | The zero based index. |
 
 ### set(int index, String value) {#set-int-java.lang.String}
 ```

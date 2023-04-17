@@ -349,11 +349,6 @@ Initializes a new instance of this class.
 
 Creates a new [DocumentBuilder](../../com.aspose.words/documentbuilder/) object, attaches to the specified [Document](../../com.aspose.words/document/) object. The cursor is positioned at the beginning of the document.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| doc | [Document](../../com.aspose.words/document/) | The [Document](../../com.aspose.words/document/) object to attach to.
-
  **Examples:** 
 
 Shows how to create headers and footers in a document using DocumentBuilder.
@@ -433,7 +428,12 @@ Shows how to insert a Table of contents (TOC) into a document using heading styl
  doc.updateFields();
  doc.save(getArtifactsDir() + "DocumentBuilder.InsertToc.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| doc | [Document](../../com.aspose.words/document/) | The [Document](../../com.aspose.words/document/) object to attach to. |
 
 ### clearCellAttrs() {#clearCellAttrs}
 ```
@@ -483,15 +483,6 @@ If you delete a row from a table that contains only one row, the whole table is 
 
 For the index parameters, when index is greater than or equal to 0, it specifies an index from the beginning with 0 being the first element. When index is less than 0, it specified an index from the end with -1 being the last element.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| tableIndex | int | The index of the table. |
-| rowIndex | int | The index of the row in the table. |
-
-**Returns:**
-[Row](../../com.aspose.words/row/) - The row node that was just removed.
-
  **Examples:** 
 
 Shows how to delete a row from a table.
@@ -522,6 +513,15 @@ Shows how to delete a row from a table.
  Assert.assertEquals("Row 2, cell 1.Row 2, cell 2.", table.getText().trim());
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tableIndex | int | The index of the table. |
+| rowIndex | int | The index of the row in the table. |
+
+**Returns:**
+[Row](../../com.aspose.words/row/) - The row node that was just removed.
 ### endBookmark(String bookmarkName) {#endBookmark-java.lang.String}
 ```
 public BookmarkEnd endBookmark(String bookmarkName)
@@ -535,14 +535,6 @@ Marks the current position in the document as a bookmark end.
 Bookmarks in a document can overlap and span any range. To create a valid bookmark you need to call both [startBookmark(java.lang.String)](../../com.aspose.words/documentbuilder/\#startBookmark-java.lang.String) and [endBookmark(java.lang.String)](../../com.aspose.words/documentbuilder/\#endBookmark-java.lang.String) with the same  bookmarkName  parameter.
 
 Badly formed bookmarks or bookmarks with duplicate names will be ignored when the document is saved.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| bookmarkName | java.lang.String | Name of the bookmark. |
-
-**Returns:**
-[BookmarkEnd](../../com.aspose.words/bookmarkend/) - The bookmark end node that was just created.
 
  **Examples:** 
 
@@ -586,6 +578,14 @@ Shows how to insert a hyperlink which references a local bookmark.
  doc.save(getArtifactsDir() + "DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| bookmarkName | java.lang.String | Name of the bookmark. |
+
+**Returns:**
+[BookmarkEnd](../../com.aspose.words/bookmarkend/) - The bookmark end node that was just created.
 ### endColumnBookmark(String bookmarkName) {#endColumnBookmark-java.lang.String}
 ```
 public BookmarkEnd endColumnBookmark(String bookmarkName)
@@ -601,14 +601,6 @@ A column bookmark covers one or more columns in a range of rows. To create a val
 Badly formed bookmarks or bookmarks with duplicate names will be ignored when the document is saved.
 
 The actual position of the inserted [BookmarkEnd](../../com.aspose.words/bookmarkend/) node may differ from the current document builder position.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| bookmarkName | java.lang.String | Name of the bookmark. |
-
-**Returns:**
-[BookmarkEnd](../../com.aspose.words/bookmarkend/) - The bookmark end node that was just created.
 
  **Examples:** 
 
@@ -654,6 +646,14 @@ Shows how to create a column bookmark.
  doc.save(getArtifactsDir() + "Bookmarks.CreateColumnBookmark.docx");
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| bookmarkName | java.lang.String | Name of the bookmark. |
+
+**Returns:**
+[BookmarkEnd](../../com.aspose.words/bookmarkend/) - The bookmark end node that was just created.
 ### endEditableRange() {#endEditableRange}
 ```
 public EditableRangeEnd endEditableRange()
@@ -667,9 +667,6 @@ Marks the current position in the document as an editable range end.
 Editable range in a document can overlap and span any range. To create a valid editable range you need to call both [startEditableRange()](../../com.aspose.words/documentbuilder/\#startEditableRange) and [endEditableRange()](../../com.aspose.words/documentbuilder/\#endEditableRange) or [endEditableRange(com.aspose.words.EditableRangeStart)](../../com.aspose.words/documentbuilder/\#endEditableRange-com.aspose.words.EditableRangeStart) methods.
 
 Badly formed editable range will be ignored when the document is saved.
-
-**Returns:**
-[EditableRangeEnd](../../com.aspose.words/editablerangeend/) - The editable range end node that was just created.
 
  **Examples:** 
 
@@ -715,6 +712,9 @@ Shows how to work with an editable range.
  editableRange.remove();
  
 ```
+
+**Returns:**
+[EditableRangeEnd](../../com.aspose.words/editablerangeend/) - The editable range end node that was just created.
 ### endEditableRange(EditableRangeStart start) {#endEditableRange-com.aspose.words.EditableRangeStart}
 ```
 public EditableRangeEnd endEditableRange(EditableRangeStart start)
@@ -730,14 +730,6 @@ Use this overload during creating nested editable ranges.
 Editable range in a document can overlap and span any range. To create a valid editable range you need to call both [startEditableRange()](../../com.aspose.words/documentbuilder/\#startEditableRange) and [endEditableRange()](../../com.aspose.words/documentbuilder/\#endEditableRange) or [endEditableRange(com.aspose.words.EditableRangeStart)](../../com.aspose.words/documentbuilder/\#endEditableRange-com.aspose.words.EditableRangeStart) methods.
 
 Badly formed editable range will be ignored when the document is saved.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| start | [EditableRangeStart](../../com.aspose.words/editablerangestart/) | This editable range start. |
-
-**Returns:**
-[EditableRangeEnd](../../com.aspose.words/editablerangeend/) - The editable range end node that was just created.
 
  **Examples:** 
 
@@ -778,6 +770,14 @@ Shows how to create nested editable ranges.
  doc.save(getArtifactsDir() + "EditableRange.Nested.docx");
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| start | [EditableRangeStart](../../com.aspose.words/editablerangestart/) | This editable range start. |
+
+**Returns:**
+[EditableRangeEnd](../../com.aspose.words/editablerangeend/) - The editable range end node that was just created.
 ### endRow() {#endRow}
 ```
 public Row endRow()
@@ -791,9 +791,6 @@ Ends a table row in the document.
 Call [endRow()](../../com.aspose.words/documentbuilder/\#endRow) to end a table row. If you call [insertCell()](../../com.aspose.words/documentbuilder/\#insertCell) immediately after that, then the table continues on a new row.
 
 Use the [getRowFormat()](../../com.aspose.words/documentbuilder/\#getRowFormat) property to specify row formatting.
-
-**Returns:**
-[Row](../../com.aspose.words/row/) - The row node that was just finished.
 
  **Examples:** 
 
@@ -938,6 +935,9 @@ Shows how to build a formatted 2x2 table.
  doc.save(getArtifactsDir() + "DocumentBuilder.BuildTable.docx");
  
 ```
+
+**Returns:**
+[Row](../../com.aspose.words/row/) - The row node that was just finished.
 ### endTable() {#endTable}
 ```
 public Table endTable()
@@ -949,9 +949,6 @@ Ends a table in the document.
  **Remarks:** 
 
 This method should be called only once after [endRow()](../../com.aspose.words/documentbuilder/\#endRow) was called. When called, [endTable()](../../com.aspose.words/documentbuilder/\#endTable) moves the cursor out of the current cell to point just after the table.
-
-**Returns:**
-[Table](../../com.aspose.words/table/) - The table node that was just finished.
 
  **Examples:** 
 
@@ -1104,6 +1101,9 @@ Shows how to build a formatted 2x2 table.
  doc.save(getArtifactsDir() + "DocumentBuilder.BuildTable.docx");
  
 ```
+
+**Returns:**
+[Table](../../com.aspose.words/table/) - The table node that was just finished.
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
@@ -2401,9 +2401,6 @@ To end a table row call [endRow()](../../com.aspose.words/documentbuilder/\#endR
 
 Use the [getCellFormat()](../../com.aspose.words/documentbuilder/\#getCellFormat) property to specify cell formatting.
 
-**Returns:**
-[Cell](../../com.aspose.words/cell/) - The cell node that was just inserted.
-
  **Examples:** 
 
 Shows how to use a document builder to create a table.
@@ -2494,6 +2491,9 @@ Shows how to build a table with custom borders.
  doc.save(getArtifactsDir() + "DocumentBuilder.InsertTable.docx");
  
 ```
+
+**Returns:**
+[Cell](../../com.aspose.words/cell/) - The cell node that was just inserted.
 ### insertChart(int chartType, double width, double height) {#insertChart-int-double-double}
 ```
 public Shape insertChart(int chartType, double width, double height)
@@ -2545,17 +2545,6 @@ Inserts a checkbox form field at the current position.
 
 If you specify a name for the form field, then a bookmark is automatically created with the same name.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | java.lang.String | The name of the form field. Can be an empty string. The value longer than 20 characters will be truncated. |
-| defaultValue | boolean | Default value of the checkbox form field. |
-| checkedValue | boolean | Current checked status of the checkbox form field. |
-| size | int | Specifies the size of the checkbox in points. Specify 0 for MS Word to calculate the size of the checkbox automatically. |
-
-**Returns:**
-[FormField](../../com.aspose.words/formfield/) - The form field node that was just inserted.
-
  **Examples:** 
 
 Shows how to insert checkboxes into the document.
@@ -2584,6 +2573,17 @@ Shows how to insert checkboxes into the document.
  doc.save(getArtifactsDir() + "DocumentBuilder.InsertCheckBox.docx");
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | The name of the form field. Can be an empty string. The value longer than 20 characters will be truncated. |
+| defaultValue | boolean | Default value of the checkbox form field. |
+| checkedValue | boolean | Current checked status of the checkbox form field. |
+| size | int | Specifies the size of the checkbox in points. Specify 0 for MS Word to calculate the size of the checkbox automatically. |
+
+**Returns:**
+[FormField](../../com.aspose.words/formfield/) - The form field node that was just inserted.
 ### insertCheckBox(String name, boolean checkedValue, int size) {#insertCheckBox-java.lang.String-boolean-int}
 ```
 public FormField insertCheckBox(String name, boolean checkedValue, int size)
@@ -2596,16 +2596,6 @@ Inserts a checkbox form field at the current position.
 
 If you specify a name for the form field, then a bookmark is automatically created with the same name.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | java.lang.String | The name of the form field. Can be an empty string. The value longer than 20 characters will be truncated. |
-| checkedValue | boolean | Checked status of the checkbox form field. |
-| size | int | Specifies the size of the checkbox in points. Specify 0 for MS Word to calculate the size of the checkbox automatically. |
-
-**Returns:**
-[FormField](../../com.aspose.words/formfield/) - The form field node that was just inserted.
-
  **Examples:** 
 
 Shows how to insert checkboxes into the document.
@@ -2634,6 +2624,16 @@ Shows how to insert checkboxes into the document.
  doc.save(getArtifactsDir() + "DocumentBuilder.InsertCheckBox.docx");
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | The name of the form field. Can be an empty string. The value longer than 20 characters will be truncated. |
+| checkedValue | boolean | Checked status of the checkbox form field. |
+| size | int | Specifies the size of the checkbox in points. Specify 0 for MS Word to calculate the size of the checkbox automatically. |
+
+**Returns:**
+[FormField](../../com.aspose.words/formfield/) - The form field node that was just inserted.
 ### insertComboBox(String name, String[] items, int selectedIndex) {#insertComboBox-java.lang.String-java.lang.String---int}
 ```
 public FormField insertComboBox(String name, String[] items, int selectedIndex)
@@ -2645,16 +2645,6 @@ Inserts a combobox form field at the current position.
  **Remarks:** 
 
 If you specify a name for the form field, then a bookmark is automatically created with the same name.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | java.lang.String | The name of the form field. Can be an empty string. The value longer than 20 characters will be truncated. |
-| items | java.lang.String[] | The items of the ComboBox. Maximum is 25 items. |
-| selectedIndex | int | The index of the selected item in the ComboBox. |
-
-**Returns:**
-[FormField](../../com.aspose.words/formfield/) - The form field node that was just inserted.
 
  **Examples:** 
 
@@ -2698,6 +2688,16 @@ Shows how to create form fields.
  builder.getDocument().save(getArtifactsDir() + "DocumentBuilder.CreateForm.docx");
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | The name of the form field. Can be an empty string. The value longer than 20 characters will be truncated. |
+| items | java.lang.String[] | The items of the ComboBox. Maximum is 25 items. |
+| selectedIndex | int | The index of the selected item in the ComboBox. |
+
+**Returns:**
+[FormField](../../com.aspose.words/formfield/) - The form field node that was just inserted.
 ### insertDocument(Document srcDoc, int importFormatMode) {#insertDocument-com.aspose.words.Document-int}
 ```
 public Node insertDocument(Document srcDoc, int importFormatMode)
@@ -2759,14 +2759,6 @@ Inserts a Word field into a document and updates the field result.
 
 This method inserts a field into a document and updates the field result immediately. Aspose.Words can update fields of most types, but not all. For more details see the [insertField(java.lang.String, java.lang.String)](../../com.aspose.words/documentbuilder/\#insertField-java.lang.String--java.lang.String) overload.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fieldCode | java.lang.String | The field code to insert (without curly braces). |
-
-**Returns:**
-[Field](../../com.aspose.words/field/) - A [Field](../../com.aspose.words/field/) object that represents the inserted field.
-
  **Examples:** 
 
 Shows how to insert a field into a document using a field code.
@@ -2808,6 +2800,14 @@ Shows how to insert fields, and move the document builder's cursor to them.
  doc.save(getArtifactsDir() + "DocumentBuilder.MergeFields.docx");
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fieldCode | java.lang.String | The field code to insert (without curly braces). |
+
+**Returns:**
+[Field](../../com.aspose.words/field/) - A [Field](../../com.aspose.words/field/) object that represents the inserted field.
 ### insertField(String fieldCode, String fieldValue) {#insertField-java.lang.String-java.lang.String}
 ```
 public Field insertField(String fieldCode, String fieldValue)
@@ -2825,15 +2825,6 @@ You can switch between displaying field codes and results in your document in Mi
 To create a field, you need to specify a field type, field code and a "placeholder" field value. If you are not sure about a particular field code syntax, create the field in Microsoft Word first and switch to see its field code.
 
 Aspose.Words can calculate field results for most of the field types, but this method does not update the field result automatically. Because the field result is not calculated automatically, you are expected to pass some string value (or even an empty string) that will be inserted into the field result. This value will remain in the field result as a placeholder until the field is updated. To update the field result you can call [Field.update()](../../com.aspose.words/field/\#update) on the field object returned to you or [Document.updateFields()](../../com.aspose.words/document/\#updateFields) to update fields in the whole document.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fieldCode | java.lang.String | The field code to insert (without curly braces). |
-| fieldValue | java.lang.String | The field value to insert. Pass  null  for fields that do not have a value. |
-
-**Returns:**
-[Field](../../com.aspose.words/field/) - A [Field](../../com.aspose.words/field/) object that represents the inserted field.
 
  **Examples:** 
 
@@ -2890,6 +2881,15 @@ Shows how to set up page numbering in a section.
  doc.save(getArtifactsDir() + "PageSetup.PageNumbering.docx");
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fieldCode | java.lang.String | The field code to insert (without curly braces). |
+| fieldValue | java.lang.String | The field value to insert. Pass  null  for fields that do not have a value. |
+
+**Returns:**
+[Field](../../com.aspose.words/field/) - A [Field](../../com.aspose.words/field/) object that represents the inserted field.
 ### insertFootnote(int footnoteType, String footnoteText) {#insertFootnote-int-java.lang.String}
 ```
 public Footnote insertFootnote(int footnoteType, String footnoteText)
@@ -2931,9 +2931,6 @@ public Shape insertHorizontalRule()
 
 Inserts a horizontal rule shape into the document.
 
-**Returns:**
-[Shape](../../com.aspose.words/shape/) - The shape that is a horizontal rule.
-
  **Examples:** 
 
 Shows how to insert a horizontal rule shape, and customize its formatting.
@@ -2955,6 +2952,9 @@ Shows how to insert a horizontal rule shape, and customize its formatting.
  Assert.assertTrue(shape.getHorizontalRuleFormat().getNoShade());
  
 ```
+
+**Returns:**
+[Shape](../../com.aspose.words/shape/) - The shape that is a horizontal rule.
 ### insertHtml(String html) {#insertHtml-java.lang.String}
 ```
 public void insertHtml(String html)
@@ -2962,11 +2962,6 @@ public void insertHtml(String html)
 
 
 Inserts an HTML string into the document.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| html | java.lang.String | An HTML string to insert into the document.
 
  **Remarks:** 
 
@@ -3051,7 +3046,12 @@ Shows how to execute a mail merge with a custom callback that handles merge data
      }
  }
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| html | java.lang.String | An HTML string to insert into the document. |
 
 ### insertHtml(String html, boolean useBuilderFormatting) {#insertHtml-java.lang.String-boolean}
 ```
@@ -3060,12 +3060,6 @@ public void insertHtml(String html, boolean useBuilderFormatting)
 
 
 Inserts an HTML string into the document.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| html | java.lang.String | An HTML string to insert into the document. |
-| useBuilderFormatting | boolean | A value indicating whether formatting specified in [DocumentBuilder](../../com.aspose.words/documentbuilder/) is used as base formatting for text imported from HTML.
 
  **Remarks:** 
 
@@ -3105,7 +3099,13 @@ Shows how to apply a document builder's formatting while inserting HTML content.
 
  doc.save(getArtifactsDir() + "DocumentBuilder.InsertHtmlWithFormatting.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| html | java.lang.String | An HTML string to insert into the document. |
+| useBuilderFormatting | boolean | A value indicating whether formatting specified in [DocumentBuilder](../../com.aspose.words/documentbuilder/) is used as base formatting for text imported from HTML. |
 
 ### insertHtml(String html, int options) {#insertHtml-java.lang.String-int}
 ```
@@ -3134,16 +3134,6 @@ Inserts a hyperlink into the document.
 Note that you need to specify font formatting for the hyperlink display text explicitly using the [getFont()](../../com.aspose.words/documentbuilder/\#getFont) property.
 
 This methods internally calls [insertField(java.lang.String)](../../com.aspose.words/documentbuilder/\#insertField-java.lang.String) to insert an MS Word HYPERLINK field into the document.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| displayText | java.lang.String | Text of the link to be displayed in the document. |
-| urlOrBookmark | java.lang.String | Link destination. Can be a url or a name of a bookmark inside the document. This method always adds apostrophes at the beginning and end of the url. |
-| isBookmark | boolean |  true  if the previous parameter is a name of a bookmark inside the document;  false  is the previous parameter is a URL. |
-
-**Returns:**
-[Field](../../com.aspose.words/field/) - A [Field](../../com.aspose.words/field/) object that represents the inserted field.
 
  **Examples:** 
 
@@ -3224,6 +3214,16 @@ Shows how to use a document builder's formatting stack.
  doc.save(getArtifactsDir() + "DocumentBuilder.PushPopFont.docx");
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| displayText | java.lang.String | Text of the link to be displayed in the document. |
+| urlOrBookmark | java.lang.String | Link destination. Can be a url or a name of a bookmark inside the document. This method always adds apostrophes at the beginning and end of the url. |
+| isBookmark | boolean |  true  if the previous parameter is a name of a bookmark inside the document;  false  is the previous parameter is a URL. |
+
+**Returns:**
+[Field](../../com.aspose.words/field/) - A [Field](../../com.aspose.words/field/) object that represents the inserted field.
 ### insertImage(byte[] imageBytes) {#insertImage-byte}
 ```
 public Shape insertImage(byte[] imageBytes)
@@ -3231,14 +3231,6 @@ public Shape insertImage(byte[] imageBytes)
 
 
 Inserts an image from a byte array into the document. The image is inserted inline and at 100% scale.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| imageBytes | byte[] | The byte array that contains the image. |
-
-**Returns:**
-[Shape](../../com.aspose.words/shape/) - The image node that was just inserted.
 
  **Remarks:** 
 
@@ -3273,6 +3265,14 @@ Shows how to insert an image from a byte array into a document.
  doc.save(getArtifactsDir() + "DocumentBuilderImages.InsertImageFromByteArray.docx");
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| imageBytes | byte[] | The byte array that contains the image. |
+
+**Returns:**
+[Shape](../../com.aspose.words/shape/) - The image node that was just inserted.
 ### insertImage(byte[] imageBytes, double width, double height) {#insertImage-byte---double-double}
 ```
 public Shape insertImage(byte[] imageBytes, double width, double height)
@@ -3280,6 +3280,40 @@ public Shape insertImage(byte[] imageBytes, double width, double height)
 
 
 Inserts an inline image from a byte array into the document and scales it to the specified size.
+
+ **Remarks:** 
+
+You can change the image size, location, positioning method and other settings using the [Shape](../../com.aspose.words/shape/) object returned by this method.
+
+ **Examples:** 
+
+Shows how to insert an image from a byte array into a document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ byte[] imageByteArray = DocumentHelper.getBytesFromStream(new FileInputStream(getImageDir() + "Logo.jpg"));
+
+ // Below are three ways of inserting an image from a byte array.
+ // 1 -  Inline shape with a default size based on the image's original dimensions:
+ builder.insertImage(imageByteArray);
+
+ builder.insertBreak(BreakType.PAGE_BREAK);
+
+ // 2 -  Inline shape with custom dimensions:
+ builder.insertImage(imageByteArray, ConvertUtil.pixelToPoint(250.0), ConvertUtil.pixelToPoint(144.0));
+
+ builder.insertBreak(BreakType.PAGE_BREAK);
+
+ // 3 -  Floating shape with custom dimensions:
+ builder.insertImage(imageByteArray, RelativeHorizontalPosition.MARGIN, 100.0, RelativeVerticalPosition.MARGIN,
+         100.0, 200.0, 100.0, WrapType.SQUARE);
+
+ doc.save(getArtifactsDir() + "DocumentBuilderImages.InsertImageFromByteArray.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3290,40 +3324,6 @@ Inserts an inline image from a byte array into the document and scales it to the
 
 **Returns:**
 [Shape](../../com.aspose.words/shape/) - The image node that was just inserted.
-
- **Remarks:** 
-
-You can change the image size, location, positioning method and other settings using the [Shape](../../com.aspose.words/shape/) object returned by this method.
-
- **Examples:** 
-
-Shows how to insert an image from a byte array into a document.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- byte[] imageByteArray = DocumentHelper.getBytesFromStream(new FileInputStream(getImageDir() + "Logo.jpg"));
-
- // Below are three ways of inserting an image from a byte array.
- // 1 -  Inline shape with a default size based on the image's original dimensions:
- builder.insertImage(imageByteArray);
-
- builder.insertBreak(BreakType.PAGE_BREAK);
-
- // 2 -  Inline shape with custom dimensions:
- builder.insertImage(imageByteArray, ConvertUtil.pixelToPoint(250.0), ConvertUtil.pixelToPoint(144.0));
-
- builder.insertBreak(BreakType.PAGE_BREAK);
-
- // 3 -  Floating shape with custom dimensions:
- builder.insertImage(imageByteArray, RelativeHorizontalPosition.MARGIN, 100.0, RelativeVerticalPosition.MARGIN,
-         100.0, 200.0, 100.0, WrapType.SQUARE);
-
- doc.save(getArtifactsDir() + "DocumentBuilderImages.InsertImageFromByteArray.docx");
- 
-```
 ### insertImage(byte[] imageBytes, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType) {#insertImage-byte---int-double-int-double-double-double-int}
 ```
 public Shape insertImage(byte[] imageBytes, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)
@@ -3354,6 +3354,42 @@ public Shape insertImage(BufferedImage image)
 
 Inserts an image into the document.  Inserts an image from a  object into the document. The image is inserted inline and at 100% scale.
 
+ **Remarks:** 
+
+You can change the image size, location, positioning method and other settings using the [Shape](../../com.aspose.words/shape/) object returned by this method.
+
+Aspose.Words will insert the image in the PNG format and with default settings. If you want to insert a  BufferedImage  in another format or with other settings, you need to save the image into a byte array and use [insertImage(byte[])](../../com.aspose.words/documentbuilder/\#insertImage-byte).
+
+ **Examples:** 
+
+Shows how to insert an image from an object into a document.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ BufferedImage image = ImageIO.read(new File(getImageDir() + "Logo.jpg"));
+
+ // Below are three ways of inserting an image from an Image object instance.
+ // 1 -  Inline shape with a default size based on the image's original dimensions:
+ builder.insertImage(image);
+
+ builder.insertBreak(BreakType.PAGE_BREAK);
+
+ // 2 -  Inline shape with custom dimensions:
+ builder.insertImage(image, ConvertUtil.pixelToPoint(250.0), ConvertUtil.pixelToPoint(144.0));
+
+ builder.insertBreak(BreakType.PAGE_BREAK);
+
+ // 3 -  Floating shape with custom dimensions:
+ builder.insertImage(image, RelativeHorizontalPosition.MARGIN, 100.0, RelativeVerticalPosition.MARGIN,
+         100.0, 200.0, 100.0, WrapType.SQUARE);
+
+ doc.save(getArtifactsDir() + "DocumentBuilderImages.InsertImageFromImageObject.docx");
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -3361,6 +3397,13 @@ Inserts an image into the document.  Inserts an image from a  object into the do
 
 **Returns:**
 [Shape](../../com.aspose.words/shape/) - The image node that was just inserted.
+### insertImage(BufferedImage image, double width, double height) {#insertImage-java.awt.image.BufferedImage-double-double}
+```
+public Shape insertImage(BufferedImage image, double width, double height)
+```
+
+
+Inserts an inline image from a  object into the document and scales it to the specified size.
 
  **Remarks:** 
 
@@ -3397,13 +3440,6 @@ Shows how to insert an image from an object into a document.
  doc.save(getArtifactsDir() + "DocumentBuilderImages.InsertImageFromImageObject.docx");
  
 ```
-### insertImage(BufferedImage image, double width, double height) {#insertImage-java.awt.image.BufferedImage-double-double}
-```
-public Shape insertImage(BufferedImage image, double width, double height)
-```
-
-
-Inserts an inline image from a  object into the document and scales it to the specified size.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -3414,42 +3450,6 @@ Inserts an inline image from a  object into the document and scales it to the sp
 
 **Returns:**
 [Shape](../../com.aspose.words/shape/) - The image node that was just inserted.
-
- **Remarks:** 
-
-You can change the image size, location, positioning method and other settings using the [Shape](../../com.aspose.words/shape/) object returned by this method.
-
-Aspose.Words will insert the image in the PNG format and with default settings. If you want to insert a  BufferedImage  in another format or with other settings, you need to save the image into a byte array and use [insertImage(byte[])](../../com.aspose.words/documentbuilder/\#insertImage-byte).
-
- **Examples:** 
-
-Shows how to insert an image from an object into a document.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
-
- BufferedImage image = ImageIO.read(new File(getImageDir() + "Logo.jpg"));
-
- // Below are three ways of inserting an image from an Image object instance.
- // 1 -  Inline shape with a default size based on the image's original dimensions:
- builder.insertImage(image);
-
- builder.insertBreak(BreakType.PAGE_BREAK);
-
- // 2 -  Inline shape with custom dimensions:
- builder.insertImage(image, ConvertUtil.pixelToPoint(250.0), ConvertUtil.pixelToPoint(144.0));
-
- builder.insertBreak(BreakType.PAGE_BREAK);
-
- // 3 -  Floating shape with custom dimensions:
- builder.insertImage(image, RelativeHorizontalPosition.MARGIN, 100.0, RelativeVerticalPosition.MARGIN,
-         100.0, 200.0, 100.0, WrapType.SQUARE);
-
- doc.save(getArtifactsDir() + "DocumentBuilderImages.InsertImageFromImageObject.docx");
- 
-```
 ### insertImage(BufferedImage image, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType) {#insertImage-java.awt.image.BufferedImage-int-double-int-double-double-double-int}
 ```
 public Shape insertImage(BufferedImage image, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)
@@ -3533,14 +3533,6 @@ public Shape insertImage(String fileName)
 
 
 Inserts an image from a file or URL into the document. The image is inserted inline and at 100% scale.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fileName | java.lang.String | The file with the image. Can be any valid local or remote URI. |
-
-**Returns:**
-[Shape](../../com.aspose.words/shape/) - The image node that was just inserted.
 
  **Remarks:** 
 
@@ -3659,6 +3651,14 @@ Shows how to insert an image from the local file system into a document.
  doc.save(getArtifactsDir() + "DocumentBuilderImages.InsertImageFromFilename.docx");
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | java.lang.String | The file with the image. Can be any valid local or remote URI. |
+
+**Returns:**
+[Shape](../../com.aspose.words/shape/) - The image node that was just inserted.
 ### insertImage(String fileName, double width, double height) {#insertImage-java.lang.String-double-double}
 ```
 public Shape insertImage(String fileName, double width, double height)
@@ -3666,16 +3666,6 @@ public Shape insertImage(String fileName, double width, double height)
 
 
 Inserts an inline image from a file or URL into the document and scales it to the specified size.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fileName | java.lang.String | The file that contains the image. |
-| width | double | The width of the image in points. Can be a negative or zero value to request 100% scale. |
-| height | double | The height of the image in points. Can be a negative or zero value to request 100% scale. |
-
-**Returns:**
-[Shape](../../com.aspose.words/shape/) - The image node that was just inserted.
 
  **Remarks:** 
 
@@ -3709,6 +3699,16 @@ Shows how to insert an image from the local file system into a document.
  doc.save(getArtifactsDir() + "DocumentBuilderImages.InsertImageFromFilename.docx");
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | java.lang.String | The file that contains the image. |
+| width | double | The width of the image in points. Can be a negative or zero value to request 100% scale. |
+| height | double | The height of the image in points. Can be a negative or zero value to request 100% scale. |
+
+**Returns:**
+[Shape](../../com.aspose.words/shape/) - The image node that was just inserted.
 ### insertImage(String fileName, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType) {#insertImage-java.lang.String-int-double-int-double-double-double-int}
 ```
 public Shape insertImage(String fileName, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)
@@ -3866,17 +3866,6 @@ public Shape insertOleObjectAsIcon(String fileName, boolean isLinked, String ico
 
 Inserts an embedded or linked OLE object as icon into the document. Allows to specify icon file and caption. Detects OLE object type using file extension.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fileName | java.lang.String | Full path to the file. |
-| isLinked | boolean | If  true  then linked OLE object is inserted otherwise embedded OLE object is inserted. |
-| iconFile | java.lang.String | Full path to the ICO file. If the value is  null , Aspose.Words will use a predefined image. |
-| iconCaption | java.lang.String | Icon caption. If the value is  null , Aspose.Words will use the file name. |
-
-**Returns:**
-[Shape](../../com.aspose.words/shape/) - Shape node containing Ole object and inserted at the current Builder position.
-
  **Examples:** 
 
 Shows how to insert an OLE object into a document.
@@ -3908,6 +3897,17 @@ Shows how to insert an OLE object into a document.
  doc.save(getArtifactsDir() + "DocumentBuilder.InsertOleObject.docx");
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | java.lang.String | Full path to the file. |
+| isLinked | boolean | If  true  then linked OLE object is inserted otherwise embedded OLE object is inserted. |
+| iconFile | java.lang.String | Full path to the ICO file. If the value is  null , Aspose.Words will use a predefined image. |
+| iconCaption | java.lang.String | Icon caption. If the value is  null , Aspose.Words will use the file name. |
+
+**Returns:**
+[Shape](../../com.aspose.words/shape/) - Shape node containing Ole object and inserted at the current Builder position.
 ### insertOleObjectAsIcon(String fileName, String progId, boolean isLinked, String iconFile, String iconCaption) {#insertOleObjectAsIcon-java.lang.String-java.lang.String-boolean-java.lang.String-java.lang.String}
 ```
 public Shape insertOleObjectAsIcon(String fileName, String progId, boolean isLinked, String iconFile, String iconCaption)
@@ -3915,18 +3915,6 @@ public Shape insertOleObjectAsIcon(String fileName, String progId, boolean isLin
 
 
 Inserts an embedded or linked OLE object as icon into the document. Allows to specify icon file and caption. Detects OLE object type using given progID parameter.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fileName | java.lang.String | Full path to the file. |
-| progId | java.lang.String | ProgId of OLE object. |
-| isLinked | boolean | If  true  then linked OLE object is inserted otherwise embedded OLE object is inserted. |
-| iconFile | java.lang.String | Full path to the ICO file. If the value is  null , Aspose.Words will use a predefined image. |
-| iconCaption | java.lang.String | Icon caption. If the value is  null , Aspose.Words will use the file name. |
-
-**Returns:**
-[Shape](../../com.aspose.words/shape/) - Shape node containing Ole object and inserted at the current Builder position.
 
  **Examples:** 
 
@@ -3957,6 +3945,18 @@ Shows how to insert an embedded or linked OLE object as icon into the document.
  doc.save(getArtifactsDir() + "DocumentBuilder.InsertOleObjectAsIcon.docx");
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | java.lang.String | Full path to the file. |
+| progId | java.lang.String | ProgId of OLE object. |
+| isLinked | boolean | If  true  then linked OLE object is inserted otherwise embedded OLE object is inserted. |
+| iconFile | java.lang.String | Full path to the ICO file. If the value is  null , Aspose.Words will use a predefined image. |
+| iconCaption | java.lang.String | Icon caption. If the value is  null , Aspose.Words will use the file name. |
+
+**Returns:**
+[Shape](../../com.aspose.words/shape/) - Shape node containing Ole object and inserted at the current Builder position.
 ### insertOnlineVideo(String videoUrl, double width, double height) {#insertOnlineVideo-java.lang.String-double-double}
 ```
 public Shape insertOnlineVideo(String videoUrl, double width, double height)
@@ -3964,16 +3964,6 @@ public Shape insertOnlineVideo(String videoUrl, double width, double height)
 
 
 Inserts an online video object into the document and scales it to the specified size.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| videoUrl | java.lang.String | The URL to the video. |
-| width | double | The width of the image in points. Can be a negative or zero value to request 100% scale. |
-| height | double | The height of the image in points. Can be a negative or zero value to request 100% scale. |
-
-**Returns:**
-[Shape](../../com.aspose.words/shape/) - The image node that was just inserted.
 
  **Remarks:** 
 
@@ -4003,6 +3993,16 @@ Shows how to insert an online video into a document using a URL.
  doc.save(getArtifactsDir() + "DocumentBuilder.InsertVideoWithUrl.docx");
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| videoUrl | java.lang.String | The URL to the video. |
+| width | double | The width of the image in points. Can be a negative or zero value to request 100% scale. |
+| height | double | The height of the image in points. Can be a negative or zero value to request 100% scale. |
+
+**Returns:**
+[Shape](../../com.aspose.words/shape/) - The image node that was just inserted.
 ### insertOnlineVideo(String videoUrl, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType) {#insertOnlineVideo-java.lang.String-int-double-int-double-double-double-int}
 ```
 public Shape insertOnlineVideo(String videoUrl, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)
@@ -4032,18 +4032,6 @@ public Shape insertOnlineVideo(String videoUrl, String videoEmbedCode, byte[] th
 
 
 Inserts an online video object into the document and scales it to the specified size.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| videoUrl | java.lang.String | The URL to the video. |
-| videoEmbedCode | java.lang.String | The embed code for the video. |
-| thumbnailImageBytes | byte[] | The thumbnail image bytes. |
-| width | double | The width of the image in points. Can be a negative or zero value to request 100% scale. |
-| height | double | The height of the image in points. Can be a negative or zero value to request 100% scale. |
-
-**Returns:**
-[Shape](../../com.aspose.words/shape/) - The image node that was just inserted.
 
  **Remarks:** 
 
@@ -4083,6 +4071,18 @@ Shows how to insert an online video into a document with a custom thumbnail.
  doc.save(getArtifactsDir() + "DocumentBuilder.InsertOnlineVideoCustomThumbnail.docx");
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| videoUrl | java.lang.String | The URL to the video. |
+| videoEmbedCode | java.lang.String | The embed code for the video. |
+| thumbnailImageBytes | byte[] | The thumbnail image bytes. |
+| width | double | The width of the image in points. Can be a negative or zero value to request 100% scale. |
+| height | double | The height of the image in points. Can be a negative or zero value to request 100% scale. |
+
+**Returns:**
+[Shape](../../com.aspose.words/shape/) - The image node that was just inserted.
 ### insertOnlineVideo(String videoUrl, String videoEmbedCode, byte[] thumbnailImageBytes, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType) {#insertOnlineVideo-java.lang.String-java.lang.String-byte---int-double-int-double-double-double-int}
 ```
 public Shape insertOnlineVideo(String videoUrl, String videoEmbedCode, byte[] thumbnailImageBytes, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)
@@ -4121,9 +4121,6 @@ Current paragraph formatting specified by the [getParagraphFormat()](../../com.a
 
 Breaks the current paragraph in two. After inserting the paragraph, the cursor is placed at the beginning of the new paragraph.
 
-**Returns:**
-[Paragraph](../../com.aspose.words/paragraph/) - The paragraph node that was just inserted. It is the same node as [getCurrentParagraph()](../../com.aspose.words/documentbuilder/\#getCurrentParagraph).
-
  **Examples:** 
 
 Shows how to insert a paragraph into the document.
@@ -4154,6 +4151,9 @@ Shows how to insert a paragraph into the document.
  Assert.assertTrue(builder.getCurrentParagraph().isEndOfDocument());
  
 ```
+
+**Returns:**
+[Paragraph](../../com.aspose.words/paragraph/) - The paragraph node that was just inserted. It is the same node as [getCurrentParagraph()](../../com.aspose.words/documentbuilder/\#getCurrentParagraph).
 ### insertShape(int shapeType, double width, double height) {#insertShape-int-double-double}
 ```
 public Shape insertShape(int shapeType, double width, double height)
@@ -4200,14 +4200,6 @@ public Shape insertSignatureLine(SignatureLineOptions signatureLineOptions)
 
 
 Inserts a signature line at the current position.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| signatureLineOptions | [SignatureLineOptions](../../com.aspose.words/signaturelineoptions/) | The object that stores parameters of creating signature line. |
-
-**Returns:**
-[Shape](../../com.aspose.words/shape/) - The signature line node that was just inserted.
 
  **Examples:** 
 
@@ -4258,6 +4250,14 @@ Shows how to sign a document with a personal certificate and a signature line.
  Assert.assertTrue(signatureLine.isValid());
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| signatureLineOptions | [SignatureLineOptions](../../com.aspose.words/signaturelineoptions/) | The object that stores parameters of creating signature line. |
+
+**Returns:**
+[Shape](../../com.aspose.words/shape/) - The signature line node that was just inserted.
 ### insertSignatureLine(SignatureLineOptions signatureLineOptions, int horzPos, double left, int vertPos, double top, int wrapType) {#insertSignatureLine-com.aspose.words.SignatureLineOptions-int-double-int-double-int}
 ```
 public Shape insertSignatureLine(SignatureLineOptions signatureLineOptions, int horzPos, double left, int vertPos, double top, int wrapType)
@@ -4348,11 +4348,6 @@ If you insert a table of contents using this method and then open the file in Mi
 
 In Microsoft Word, fields are not automatically updated when a document is opened, but you can update fields in a document at any time by pressing F9.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| switches | java.lang.String | The TOC field switches.
-
  **Examples:** 
 
 Shows how to insert a Table of contents (TOC) into a document using heading styles as entries.
@@ -4402,7 +4397,12 @@ Shows how to insert a Table of contents (TOC) into a document using heading styl
  doc.updateFields();
  doc.save(getArtifactsDir() + "DocumentBuilder.InsertToc.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| switches | java.lang.String | The TOC field switches. |
 
 **Returns:**
 [Field](../../com.aspose.words/field/)
@@ -4608,11 +4608,6 @@ When *node* is a [Paragraph](../../com.aspose.words/paragraph/), the cursor is m
 
 When *node* is a block-level node but not a [Paragraph](../../com.aspose.words/paragraph/), the cursor is moved to the end of the first paragraph into block-level node and further content will be inserted just before the paragraph break.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| node | [Node](../../com.aspose.words/node/) | The node must be a paragraph or a direct child of a paragraph.
-
  **Examples:** 
 
 Shows how to move a DocumentBuilder's cursor position to a specified node.
@@ -4693,7 +4688,12 @@ Shows how to move a document builder's cursor to different nodes in a document.
 
  Assert.assertTrue(builder.isAtStartOfParagraph());
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| node | [Node](../../com.aspose.words/node/) | The node must be a paragraph or a direct child of a paragraph. |
 
 ### moveToBookmark(String bookmarkName) {#moveToBookmark-java.lang.String}
 ```
@@ -4712,14 +4712,6 @@ The comparison is not case-sensitive. If the bookmark was not found,  false  is 
 Inserting new text does not replace existing text of the bookmark.
 
 Note that some bookmarks in the document are assigned to form fields. Moving to such a bookmark and inserting text there inserts the text into the form field code. Although this will not invalidate the form field, the inserted text will not be visible because it becomes part of the field code.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| bookmarkName | java.lang.String | The name of the bookmark to move the cursor to. |
-
-**Returns:**
-boolean -  true  if the bookmark was found;  false  otherwise.
 
  **Examples:** 
 
@@ -4773,6 +4765,14 @@ Shows how to move a document builder's cursor to different nodes in a document.
  Assert.assertTrue(builder.isAtStartOfParagraph());
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| bookmarkName | java.lang.String | The name of the bookmark to move the cursor to. |
+
+**Returns:**
+boolean -  true  if the bookmark was found;  false  otherwise.
 ### moveToBookmark(String bookmarkName, boolean isStart, boolean isAfter) {#moveToBookmark-java.lang.String-boolean-boolean}
 ```
 public boolean moveToBookmark(String bookmarkName, boolean isStart, boolean isAfter)
@@ -4788,16 +4788,6 @@ Moves the cursor to a position before or after the bookmark start or end.
 If desired position is not at inline level, moves to the next paragraph.
 
 The comparison is not case-sensitive. If the bookmark was not found,  false  is returned and the cursor is not moved.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| bookmarkName | java.lang.String | The name of the bookmark to move the cursor to. |
-| isStart | boolean | When  true , moves the cursor to the beginning of the bookmark. When  false , moves the cursor to the end of the bookmark. |
-| isAfter | boolean | When  true , moves the cursor to be after the bookmark start or end position. When  false , moves the cursor to be before the bookmark start or end position. |
-
-**Returns:**
-boolean -  true  if the bookmark was found;  false  otherwise.
 
  **Examples:** 
 
@@ -4846,6 +4836,16 @@ Shows how to move a document builder's node insertion point cursor to a bookmark
  Assert.assertEquals("1. 2. Hello world! 3. 4.", doc.getText().trim());
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| bookmarkName | java.lang.String | The name of the bookmark to move the cursor to. |
+| isStart | boolean | When  true , moves the cursor to the beginning of the bookmark. When  false , moves the cursor to the end of the bookmark. |
+| isAfter | boolean | When  true , moves the cursor to be after the bookmark start or end position. When  false , moves the cursor to be before the bookmark start or end position. |
+
+**Returns:**
+boolean -  true  if the bookmark was found;  false  otherwise.
 ### moveToCell(int tableIndex, int rowIndex, int columnIndex, int characterIndex) {#moveToCell-int-int-int-int}
 ```
 public void moveToCell(int tableIndex, int rowIndex, int columnIndex, int characterIndex)
@@ -4859,14 +4859,6 @@ Moves the cursor to a table cell in the current section.
 The navigation is performed inside the current story of the current section.
 
 For the index parameters, when index is greater than or equal to 0, it specifies an index from the beginning with 0 being the first element. When index is less than 0, it specified an index from the end with -1 being the last element.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| tableIndex | int | The index of the table to move to. |
-| rowIndex | int | The index of the row in the table. |
-| columnIndex | int | The index of the column in the table. |
-| characterIndex | int | The index of the character inside the cell. A negative value allows you to specify a position from the end of the cell. Use -1 to move to the end of the cell.
 
  **Examples:** 
 
@@ -4896,7 +4888,15 @@ Shows how to move a document builder's cursor to a cell in a table.
 
  doc.save(getArtifactsDir() + "DocumentBuilder.MoveToCell.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tableIndex | int | The index of the table to move to. |
+| rowIndex | int | The index of the row in the table. |
+| columnIndex | int | The index of the column in the table. |
+| characterIndex | int | The index of the character inside the cell. A negative value allows you to specify a position from the end of the cell. Use -1 to move to the end of the cell. |
 
 ### moveToDocumentEnd() {#moveToDocumentEnd}
 ```
@@ -5028,12 +5028,6 @@ public void moveToField(Field field, boolean isAfter)
 
 Moves the cursor to a field in the document.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| field | [Field](../../com.aspose.words/field/) | The field to move the cursor to. |
-| isAfter | boolean | When  true , moves the cursor to be after the field end. When  false , moves the cursor to be before the field start.
-
  **Examples:** 
 
 Shows how to move a document builder's node insertion point cursor to a specific field.
@@ -5070,7 +5064,13 @@ Shows how to move a document builder's node insertion point cursor to a specific
              doc.getText().trim());
  }
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| field | [Field](../../com.aspose.words/field/) | The field to move the cursor to. |
+| isAfter | boolean | When  true , moves the cursor to be after the field end. When  false , moves the cursor to be before the field start. |
 
 ### moveToHeaderFooter(int headerFooterType) {#moveToHeaderFooter-int}
 ```
@@ -5096,14 +5096,6 @@ Moves the cursor to the specified merge field.  Moves the cursor to a position j
  **Remarks:** 
 
 Note that this method deletes the merge field from the document after moving the cursor.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fieldName | java.lang.String | The case-insensitive name of the mail merge field. |
-
-**Returns:**
-boolean -  true  if the merge field was found and the cursor was moved;  false  otherwise.
 
  **Examples:** 
 
@@ -5209,6 +5201,14 @@ Shows how to insert checkbox form fields into a document during mail merge.
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fieldName | java.lang.String | The case-insensitive name of the mail merge field. |
+
+**Returns:**
+boolean -  true  if the merge field was found and the cursor was moved;  false  otherwise.
 ### moveToMergeField(String fieldName, boolean isAfter, boolean isDeleteField) {#moveToMergeField-java.lang.String-boolean-boolean}
 ```
 public boolean moveToMergeField(String fieldName, boolean isAfter, boolean isDeleteField)
@@ -5216,16 +5216,6 @@ public boolean moveToMergeField(String fieldName, boolean isAfter, boolean isDel
 
 
 Moves the merge field to the specified merge field.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fieldName | java.lang.String | The case-insensitive name of the mail merge field. |
-| isAfter | boolean | When  true , moves the cursor to be after the field end. When  false , moves the cursor to be before the field start. |
-| isDeleteField | boolean | When  true , deletes the merge field. |
-
-**Returns:**
-boolean -  true  if the merge field was found and the cursor was moved;  false  otherwise.
 
  **Examples:** 
 
@@ -5254,6 +5244,16 @@ Shows how to insert fields, and move the document builder's cursor to them.
  doc.save(getArtifactsDir() + "DocumentBuilder.MergeFields.docx");
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fieldName | java.lang.String | The case-insensitive name of the mail merge field. |
+| isAfter | boolean | When  true , moves the cursor to be after the field end. When  false , moves the cursor to be before the field start. |
+| isDeleteField | boolean | When  true , deletes the merge field. |
+
+**Returns:**
+boolean -  true  if the merge field was found and the cursor was moved;  false  otherwise.
 ### moveToParagraph(int paragraphIndex, int characterIndex) {#moveToParagraph-int-int}
 ```
 public void moveToParagraph(int paragraphIndex, int characterIndex)
@@ -5267,12 +5267,6 @@ Moves the cursor to a paragraph in the current section.
 The navigation is performed inside the current story of the current section. That is, if you moved the cursor to the primary header of the first section, then  paragraphIndex  specified the index of the paragraph inside that header of that section.
 
 When  paragraphIndex  is greater than or equal to 0, it specifies an index from the beginning of the section with 0 being the first paragraph. When  paragraphIndex  is less than 0, it specified an index from the end of the section with -1 being the last paragraph.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| paragraphIndex | int | The index of the paragraph to move to. |
-| characterIndex | int | The index of the character inside the paragraph. A negative value allows you to specify a position from the end of the paragraph. Use -1 to move to the end of the paragraph.
 
  **Examples:** 
 
@@ -5297,7 +5291,13 @@ Shows how to move a builder's cursor position to a specified paragraph.
  // Any new content that we add will be inserted at that point.
  builder.writeln("This is a new third paragraph. ");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| paragraphIndex | int | The index of the paragraph to move to. |
+| characterIndex | int | The index of the character inside the paragraph. A negative value allows you to specify a position from the end of the paragraph. Use -1 to move to the end of the paragraph. |
 
 ### moveToSection(int sectionIndex) {#moveToSection-int}
 ```
@@ -5312,11 +5312,6 @@ Moves the cursor to the beginning of the body in a specified section.
 When  sectionIndex  is greater than or equal to 0, it specifies an index from the beginning of the document with 0 being the first section. When  sectionIndex  is less than 0, it specified an index from the end of the document with -1 being the last section.
 
 The cursor is moved to the first paragraph in the [Body](../../com.aspose.words/body/) of the specified section.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| sectionIndex | int | The index of the section to move to.
 
  **Examples:** 
 
@@ -5348,7 +5343,12 @@ Shows how to create headers and footers in a document using DocumentBuilder.
 
  doc.save(getArtifactsDir() + "DocumentBuilder.HeadersAndFooters.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sectionIndex | int | The index of the section to move to. |
 
 ### moveToStructuredDocumentTag(StructuredDocumentTag structuredDocumentTag, int characterIndex) {#moveToStructuredDocumentTag-com.aspose.words.StructuredDocumentTag-int}
 ```
@@ -5357,12 +5357,6 @@ public void moveToStructuredDocumentTag(StructuredDocumentTag structuredDocument
 
 
 Moves the cursor to the structured document tag.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| structuredDocumentTag | [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) | The structured document tag to move to. |
-| characterIndex | int | The index of the character inside the structured document tag. A negative value allows you to specify a position from the end of the structured document tag. Use -1 to move to the end of the structured document tag. If the structured document tag is at the block level, and you want to move the cursor to the end of its last paragraph, specify -2.
 
  **Examples:** 
 
@@ -5393,7 +5387,13 @@ Shows how to move cursor of DocumentBuilder inside a structured document tag.
 
  doc.save(getArtifactsDir() + "Document.MoveToStructuredDocumentTag.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| structuredDocumentTag | [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) | The structured document tag to move to. |
+| characterIndex | int | The index of the character inside the structured document tag. A negative value allows you to specify a position from the end of the structured document tag. Use -1 to move to the end of the structured document tag. If the structured document tag is at the block level, and you want to move the cursor to the end of its last paragraph, specify -2. |
 
 ### moveToStructuredDocumentTag(int structuredDocumentTagIndex, int characterIndex) {#moveToStructuredDocumentTag-int-int}
 ```
@@ -5409,12 +5409,6 @@ The navigation is performed inside the current story of the current section. Tha
 
 When  structuredDocumentTagIndex  is greater than or equal to 0, it specifies an index from the beginning of the section with 0 being the first structured document tag. When  structuredDocumentTagIndex  is less than 0, it specified an index from the end of the section with -1 being the last structured document tag.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| structuredDocumentTagIndex | int | The index of the structured document tag to move to. |
-| characterIndex | int | The index of the character inside the structured document tag. A negative value allows you to specify a position from the end of the structured document tag. Use -1 to move to the end of the structured document tag. If the structured document tag is at the block level, and you want to move the cursor to the end of its last paragraph, specify -2.
-
  **Examples:** 
 
 Shows how to move cursor of DocumentBuilder inside a structured document tag.
@@ -5444,7 +5438,13 @@ Shows how to move cursor of DocumentBuilder inside a structured document tag.
 
  doc.save(getArtifactsDir() + "Document.MoveToStructuredDocumentTag.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| structuredDocumentTagIndex | int | The index of the structured document tag to move to. |
+| characterIndex | int | The index of the character inside the structured document tag. A negative value allows you to specify a position from the end of the structured document tag. Use -1 to move to the end of the structured document tag. If the structured document tag is at the block level, and you want to move the cursor to the end of its last paragraph, specify -2. |
 
 ### notify() {#notify}
 ```
@@ -5821,14 +5821,6 @@ Bookmarks in a document can overlap and span any range. To create a valid bookma
 
 Badly formed bookmarks or bookmarks with duplicate names will be ignored when the document is saved.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| bookmarkName | java.lang.String | Name of the bookmark. |
-
-**Returns:**
-[BookmarkStart](../../com.aspose.words/bookmarkstart/) - The bookmark start node that was just created.
-
  **Examples:** 
 
 Shows how create a bookmark.
@@ -5871,6 +5863,14 @@ Shows how to insert a hyperlink which references a local bookmark.
  doc.save(getArtifactsDir() + "DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| bookmarkName | java.lang.String | Name of the bookmark. |
+
+**Returns:**
+[BookmarkStart](../../com.aspose.words/bookmarkstart/) - The bookmark start node that was just created.
 ### startColumnBookmark(String bookmarkName) {#startColumnBookmark-java.lang.String}
 ```
 public BookmarkStart startColumnBookmark(String bookmarkName)
@@ -5886,14 +5886,6 @@ A column bookmark covers one or more columns in a range of rows. To create a val
 Badly formed bookmarks or bookmarks with duplicate names will be ignored when the document is saved.
 
 The actual position of the inserted [BookmarkStart](../../com.aspose.words/bookmarkstart/) node may differ from the current document builder position.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| bookmarkName | java.lang.String | Name of the bookmark. |
-
-**Returns:**
-[BookmarkStart](../../com.aspose.words/bookmarkstart/) - The bookmark start node that was just created.
 
  **Examples:** 
 
@@ -5939,6 +5931,14 @@ Shows how to create a column bookmark.
  doc.save(getArtifactsDir() + "Bookmarks.CreateColumnBookmark.docx");
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| bookmarkName | java.lang.String | Name of the bookmark. |
+
+**Returns:**
+[BookmarkStart](../../com.aspose.words/bookmarkstart/) - The bookmark start node that was just created.
 ### startEditableRange() {#startEditableRange}
 ```
 public EditableRangeStart startEditableRange()
@@ -5952,9 +5952,6 @@ Marks the current position in the document as an editable range start.
 Editable range in a document can overlap and span any range. To create a valid editable range you need to call both [startEditableRange()](../../com.aspose.words/documentbuilder/\#startEditableRange) and [endEditableRange()](../../com.aspose.words/documentbuilder/\#endEditableRange) or [endEditableRange(com.aspose.words.EditableRangeStart)](../../com.aspose.words/documentbuilder/\#endEditableRange-com.aspose.words.EditableRangeStart) methods.
 
 Badly formed editable range will be ignored when the document is saved.
-
-**Returns:**
-[EditableRangeStart](../../com.aspose.words/editablerangestart/) - The editable range start node that was just created.
 
  **Examples:** 
 
@@ -6038,6 +6035,9 @@ Shows how to work with an editable range.
  editableRange.remove();
  
 ```
+
+**Returns:**
+[EditableRangeStart](../../com.aspose.words/editablerangestart/) - The editable range start node that was just created.
 ### startTable() {#startTable}
 ```
 public Table startTable()
@@ -6051,9 +6051,6 @@ Starts a table in the document.
 The next method to call is [insertCell()](../../com.aspose.words/documentbuilder/\#insertCell).
 
 This method starts a nested table when called inside a cell.
-
-**Returns:**
-[Table](../../com.aspose.words/table/) - The table node that was just created.
 
  **Examples:** 
 
@@ -6206,6 +6203,9 @@ Shows how to build a formatted 2x2 table.
  doc.save(getArtifactsDir() + "DocumentBuilder.BuildTable.docx");
  
 ```
+
+**Returns:**
+[Table](../../com.aspose.words/table/) - The table node that was just created.
 ### toString() {#toString}
 ```
 public String toString()
@@ -6262,11 +6262,6 @@ Inserts a string into the document at the current insert position.
  **Remarks:** 
 
 Current font formatting specified by the [getFont()](../../com.aspose.words/documentbuilder/\#getFont) property is used.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| text | java.lang.String | The string to insert into the document.
 
  **Examples:** 
 
@@ -6417,7 +6412,12 @@ Shows how to build a formatted 2x2 table.
 
  doc.save(getArtifactsDir() + "DocumentBuilder.BuildTable.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| text | java.lang.String | The string to insert into the document. |
 
 ### writeln() {#writeln}
 ```
@@ -6475,11 +6475,6 @@ Inserts a string and a paragraph break into the document.
 
 Current font and paragraph formatting specified by the [getFont()](../../com.aspose.words/documentbuilder/\#getFont) and [getParagraphFormat()](../../com.aspose.words/documentbuilder/\#getParagraphFormat) properties are used.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| text | java.lang.String | The string to insert into the document.
-
  **Examples:** 
 
 Shows how to build a formatted 2x2 table.
@@ -6523,5 +6518,10 @@ Shows how to build a formatted 2x2 table.
 
  doc.save(getArtifactsDir() + "DocumentBuilder.BuildTable.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| text | java.lang.String | The string to insert into the document. |
 

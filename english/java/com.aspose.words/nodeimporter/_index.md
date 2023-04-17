@@ -196,15 +196,6 @@ Before a node from another document can be inserted into this document, it must 
 
 If the source node already belongs to the destination document, then simply a deep clone of the source node is created.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| srcNode | [Node](../../com.aspose.words/node/) | The node to import. |
-| isImportChildren | boolean |  true  to import all child nodes recursively; otherwise,  false . |
-
-**Returns:**
-[Node](../../com.aspose.words/node/) - The cloned, imported node. The node belongs to the destination document, but has no parent.
-
  **Examples:** 
 
 Shows how to insert the contents of one document to a bookmark in another document.
@@ -264,6 +255,15 @@ Shows how to insert the contents of one document to a bookmark in another docume
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| srcNode | [Node](../../com.aspose.words/node/) | The node to import. |
+| isImportChildren | boolean |  true  to import all child nodes recursively; otherwise,  false . |
+
+**Returns:**
+[Node](../../com.aspose.words/node/) - The cloned, imported node. The node belongs to the destination document, but has no parent.
 ### notify() {#notify}
 ```
 public final native void notify()

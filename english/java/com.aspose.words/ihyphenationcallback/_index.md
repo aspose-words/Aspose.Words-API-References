@@ -98,11 +98,6 @@ Implementation should find a dictionary and register it using **M:Aspose.Words.H
 
 If dictionary is unavailable for the specified language implementation can opt out of further calls for the same language using [Hyphenation.registerDictionary(java.lang.String, java.lang.String)](../../com.aspose.words/hyphenation/\#registerDictionary-java.lang.String--java.lang.String) with  null  value.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| language | java.lang.String | A language name, e.g. "en-US". See .NET documentation for "culture name" and RFC 4646 for details.
-
  **Remarks:** 
 
 Exceptions thrown by this method will abort execution of page layout process.
@@ -174,5 +169,10 @@ Shows how to open and register a dictionary from a file.
      private final HashMap mHyphenationDictionaryFiles;
  }
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| language | java.lang.String | A language name, e.g. "en-US". See .NET documentation for "culture name" and RFC 4646 for details. |
 

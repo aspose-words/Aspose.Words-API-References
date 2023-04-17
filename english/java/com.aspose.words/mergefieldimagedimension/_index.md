@@ -126,11 +126,6 @@ Creates an image dimension instance with the given value in points.
 
 You should use a negative value to indicate that the original value of the corresponding image dimension should be applied.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | double | The value.
-
  **Examples:** 
 
 Shows how to set the dimensions of images as MERGEFIELDS accepts them during a mail merge.
@@ -193,7 +188,12 @@ Shows how to set the dimensions of images as MERGEFIELDS accepts them during a m
      private final int mUnit;
  }
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | double | The value. |
 
 ### MergeFieldImageDimension(double value, int unit) {#MergeFieldImageDimension-double-int}
 ```

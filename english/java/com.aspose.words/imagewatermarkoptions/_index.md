@@ -70,12 +70,6 @@ public double getScale()
 
 Gets the scale factor expressed as a fraction of the image. The default value is 0 - auto.
 
- **Remarks:** 
-
-Valid values range from 0 to 65.5 inclusive.
-
-Auto scale means that the watermark will be scaled to its max width and max height relative to the page margins.
-
 **Returns:**
 double - The scale factor expressed as a fraction of the image.
 ### hashCode() {#hashCode}
@@ -174,12 +168,6 @@ public void setScale(double value)
 
 
 Sets the scale factor expressed as a fraction of the image. The default value is 0 - auto.
-
- **Remarks:** 
-
-Valid values range from 0 to 65.5 inclusive.
-
-Auto scale means that the watermark will be scaled to its max width and max height relative to the page margins.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -142,11 +142,6 @@ public static double inchToPoint(double inches)
 
 Converts inches to points.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| inches | double | The value to convert.
-
  **Remarks:** 
 
 1 inch equals 72 points.
@@ -207,7 +202,12 @@ Shows how to specify page properties in inches.
 
  doc.save(getArtifactsDir() + "UtilityClasses.PointsAndInches.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inches | double | The value to convert. |
 
 **Returns:**
 double
@@ -218,11 +218,6 @@ public static double millimeterToPoint(double millimeters)
 
 
 Converts millimeters to points.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| millimeters | double | The value to convert.
 
  **Remarks:** 
 
@@ -257,7 +252,12 @@ Shows how to specify page properties in millimeters.
 
  doc.save(getArtifactsDir() + "UtilityClasses.PointsAndMillimeters.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| millimeters | double | The value to convert. |
 
 **Returns:**
 double
@@ -284,13 +284,6 @@ public static int pixelToNewDpi(double pixels, double oldDpi, double newDpi)
 
 
 Converts pixels from one resolution to another.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| pixels | double | The value to convert. |
-| oldDpi | double | The current dpi (dots per inch) resolution. |
-| newDpi | double | The new dpi (dots per inch) resolution.
 
  **Examples:** 
 
@@ -326,7 +319,14 @@ Shows how to use convert points to pixels with default and custom resolution.
 
  doc.save(getArtifactsDir() + "UtilityClasses.PointsAndPixelsDpi.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pixels | double | The value to convert. |
+| oldDpi | double | The current dpi (dots per inch) resolution. |
+| newDpi | double | The new dpi (dots per inch) resolution. |
 
 **Returns:**
 int
@@ -337,11 +337,6 @@ public static double pixelToPoint(double pixels)
 
 
 Converts pixels to points.  Converts pixels to points at 96 dpi.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| pixels | double | The value to convert.
 
  **Remarks:** 
 
@@ -384,7 +379,12 @@ Shows how to specify page properties in pixels.
 
  doc.save(getArtifactsDir() + "UtilityClasses.PointsAndPixels.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pixels | double | The value to convert. |
 
 **Returns:**
 double
@@ -395,12 +395,6 @@ public static double pixelToPoint(double pixels, double resolution)
 
 
 Converts pixels to points at the specified pixel resolution.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| pixels | double | The value to convert. |
-| resolution | double | The dpi (dots per inch) resolution.
 
  **Remarks:** 
 
@@ -440,7 +434,13 @@ Shows how to use convert points to pixels with default and custom resolution.
 
  doc.save(getArtifactsDir() + "UtilityClasses.PointsAndPixelsDpi.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pixels | double | The value to convert. |
+| resolution | double | The dpi (dots per inch) resolution. |
 
 **Returns:**
 double
@@ -451,11 +451,6 @@ public static double pointToInch(double points)
 
 
 Converts points to inches.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| points | double | The value to convert.
 
  **Remarks:** 
 
@@ -495,7 +490,12 @@ Shows how to specify page properties in inches.
 
  doc.save(getArtifactsDir() + "UtilityClasses.PointsAndInches.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| points | double | The value to convert. |
 
 **Returns:**
 double
@@ -506,11 +506,6 @@ public static double pointToPixel(double points)
 
 
 Converts points to pixels.  Converts points to pixels at 96 dpi.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| points | double | The value to convert.
 
  **Remarks:** 
 
@@ -553,7 +548,12 @@ Shows how to specify page properties in pixels.
 
  doc.save(getArtifactsDir() + "UtilityClasses.PointsAndPixels.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| points | double | The value to convert. |
 
 **Returns:**
 double
@@ -564,12 +564,6 @@ public static double pointToPixel(double points, double resolution)
 
 
 Converts points to pixels at the specified pixel resolution.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| points | double | The value to convert. |
-| resolution | double | The dpi (dots per inch) resolution.
 
  **Remarks:** 
 
@@ -609,7 +603,13 @@ Shows how to use convert points to pixels with default and custom resolution.
 
  doc.save(getArtifactsDir() + "UtilityClasses.PointsAndPixelsDpi.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| points | double | The value to convert. |
+| resolution | double | The dpi (dots per inch) resolution. |
 
 **Returns:**
 double

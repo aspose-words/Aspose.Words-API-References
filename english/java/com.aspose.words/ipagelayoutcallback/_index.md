@@ -95,11 +95,6 @@ public abstract void notify(PageLayoutCallbackArgs args)
 
 This is called to notify of layout build and rendering progress.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| args | [PageLayoutCallbackArgs](../../com.aspose.words/pagelayoutcallbackargs/) | An argument of the event.
-
  **Remarks:** 
 
 Exception when thrown by implementation aborts layout build process.
@@ -162,5 +157,10 @@ Shows how to track layout changes with a layout callback.
      private int mNum;
  }
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| args | [PageLayoutCallbackArgs](../../com.aspose.words/pagelayoutcallbackargs/) | An argument of the event. |
 

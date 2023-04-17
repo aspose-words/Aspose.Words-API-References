@@ -554,11 +554,6 @@ public void removeAt(int index)
 
 Removes a list item at the specified index.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | The zero-based index of the item to remove.
-
  **Examples:** 
 
 Shows how to work with drop down-list structured document tags.
@@ -612,7 +607,12 @@ Shows how to work with drop down-list structured document tags.
 
  Assert.assertEquals(0, listItems.getCount());
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index of the item to remove. |
 
 ### setSelectedValue(SdtListItem value) {#setSelectedValue-com.aspose.words.SdtListItem}
 ```

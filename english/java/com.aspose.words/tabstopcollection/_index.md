@@ -110,11 +110,6 @@ Adds or replaces a tab stop in the collection.
 
 If a tab stop already exists at the specified position, it is replaced.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| tabStop | [TabStop](../../com.aspose.words/tabstop/) | A tab stop object to add.
-
  **Examples:** 
 
 Shows how to add custom tab stops to a document.
@@ -145,7 +140,12 @@ Shows how to add custom tab stops to a document.
 
  doc.save(getArtifactsDir() + "TabStopCollection.AddTabStops.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tabStop | [TabStop](../../com.aspose.words/tabstop/) | A tab stop object to add. |
 
 ### add(double position, int alignment, int leader) {#add-double-int-int}
 ```
@@ -174,14 +174,6 @@ Gets a first tab stop to the right of the specified position.
 
 Skips tab stops with [TabStop.getAlignment()](../../com.aspose.words/tabstop/\#getAlignment) / [TabStop.setAlignment(int)](../../com.aspose.words/tabstop/\#setAlignment-int) set to [TabAlignment.BAR](../../com.aspose.words/tabalignment/\#BAR).
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| position | double | The reference position (in points). |
-
-**Returns:**
-[TabStop](../../com.aspose.words/tabstop/) - A tab stop object or  null  if a suitable tab stop was not found.
-
  **Examples:** 
 
 Shows how to work with a document's collection of tab stops.
@@ -223,6 +215,14 @@ Shows how to work with a document's collection of tab stops.
  doc.save(getArtifactsDir() + "TabStopCollection.TabStopCollection.docx");
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| position | double | The reference position (in points). |
+
+**Returns:**
+[TabStop](../../com.aspose.words/tabstop/) - A tab stop object or  null  if a suitable tab stop was not found.
 ### before(double position) {#before-double}
 ```
 public TabStop before(double position)
@@ -235,14 +235,6 @@ Gets a first tab stop to the left of the specified position.
 
 Skips tab stops with [TabStop.getAlignment()](../../com.aspose.words/tabstop/\#getAlignment) / [TabStop.setAlignment(int)](../../com.aspose.words/tabstop/\#setAlignment-int) set to [TabAlignment.BAR](../../com.aspose.words/tabalignment/\#BAR).
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| position | double | The reference position (in points). |
-
-**Returns:**
-[TabStop](../../com.aspose.words/tabstop/) - A tab stop object or  null  if a suitable tab stop was not found.
-
  **Examples:** 
 
 Shows how to work with a document's collection of tab stops.
@@ -284,6 +276,14 @@ Shows how to work with a document's collection of tab stops.
  doc.save(getArtifactsDir() + "TabStopCollection.TabStopCollection.docx");
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| position | double | The reference position (in points). |
+
+**Returns:**
+[TabStop](../../com.aspose.words/tabstop/) - A tab stop object or  null  if a suitable tab stop was not found.
 ### clear() {#clear}
 ```
 public void clear()
@@ -460,11 +460,6 @@ Gets a tab stop at the specified position.
 
 Returns  null  if no tab stop is found at the specified position.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| position | double | The position (in points) of the tab stop.
-
  **Examples:** 
 
 Shows how to work with a document's collection of tab stops.
@@ -505,7 +500,12 @@ Shows how to work with a document's collection of tab stops.
 
  doc.save(getArtifactsDir() + "TabStopCollection.TabStopCollection.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| position | double | The position (in points) of the tab stop. |
 
 **Returns:**
 [TabStop](../../com.aspose.words/tabstop/) - A tab stop at the specified position.
@@ -517,11 +517,6 @@ public TabStop get(int index)
 
 Retrieves a tab stop from the collection.  Gets a tab stop at the given index.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | An index into the collection of tab stops.
-
  **Examples:** 
 
 Shows how to work with a document's collection of tab stops.
@@ -562,7 +557,12 @@ Shows how to work with a document's collection of tab stops.
 
  doc.save(getArtifactsDir() + "TabStopCollection.TabStopCollection.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | An index into the collection of tab stops. |
 
 **Returns:**
 [TabStop](../../com.aspose.words/tabstop/) - The corresponding [TabStop](../../com.aspose.words/tabstop/) value.
@@ -673,14 +673,6 @@ public double getPositionByIndex(int index)
 
 Gets the position (in points) of the tab stop at the specified index.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | An index into the collection of tab stops. |
-
-**Returns:**
-double - The position of the tab stop.
-
  **Examples:** 
 
 Shows how to find a tab, stop by its index and verify its position.
@@ -697,6 +689,14 @@ Shows how to find a tab, stop by its index and verify its position.
  Assert.assertEquals(ConvertUtil.millimeterToPoint(60.0), tabStops.getPositionByIndex(1), 0.1d);
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | An index into the collection of tab stops. |
+
+**Returns:**
+double - The position of the tab stop.
 ### hashCode() {#hashCode}
 ```
 public int hashCode()
@@ -741,11 +741,6 @@ public void removeByIndex(int index)
 
 Removes a tab stop at the specified index from the collection.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | An index into the collection of tab stops.
-
  **Examples:** 
 
 Shows how to select a tab stop in a document by its index and remove it.
@@ -767,7 +762,12 @@ Shows how to select a tab stop in a document by its index and remove it.
 
  doc.save(getArtifactsDir() + "TabStopCollection.RemoveByIndex.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | An index into the collection of tab stops. |
 
 ### removeByPosition(double position) {#removeByPosition-double}
 ```
@@ -776,11 +776,6 @@ public void removeByPosition(double position)
 
 
 Removes a tab stop at the specified position from the collection.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| position | double | The position (in points) of the tab stop to remove.
 
  **Examples:** 
 
@@ -805,7 +800,12 @@ Shows how to modify the position of the right tab stop in TOC related paragraphs
 
  doc.save(getArtifactsDir() + "Styles.ChangeTocsTabStops.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| position | double | The position (in points) of the tab stop to remove. |
 
 ### toString() {#toString}
 ```

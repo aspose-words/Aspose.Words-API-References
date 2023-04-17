@@ -93,12 +93,6 @@ public void addSubstitutes(String originalFontName, String[] substituteFontNames
 
 Adds substitute font names for given original font name.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| originalFontName | java.lang.String | Original font name. |
-| substituteFontNames | java.lang.String[] | List of alternative font names.
-
  **Examples:** 
 
 Shows how to access a document's system font source and set font substitutes.
@@ -199,7 +193,13 @@ Shows how to work with custom font substitution tables.
 
  doc.save(getArtifactsDir() + "FontSettings.TableSubstitutionRule.Custom.pdf");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| originalFontName | java.lang.String | Original font name. |
+| substituteFontNames | java.lang.String[] | List of alternative font names. |
 
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
@@ -314,14 +314,6 @@ public Iterable getSubstitutes(String originalFontName)
 
 Returns array containing substitute font names for the specified original font name.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| originalFontName | java.lang.String | Original font name. |
-
-**Returns:**
-java.lang.Iterable - List of alternative font names.
-
  **Examples:** 
 
 Shows how to access a document's system font source and set font substitutes.
@@ -423,6 +415,14 @@ Shows how to work with custom font substitution tables.
  doc.save(getArtifactsDir() + "FontSettings.TableSubstitutionRule.Custom.pdf");
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| originalFontName | java.lang.String | Original font name. |
+
+**Returns:**
+java.lang.Iterable - List of alternative font names.
 ### hashCode() {#hashCode}
 ```
 public native int hashCode()
@@ -453,11 +453,6 @@ public void load(String fileName)
 
 
 Loads table substitution settings from XML file.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fileName | java.lang.String | Input file name.
 
  **Examples:** 
 
@@ -515,7 +510,12 @@ Shows how to work with custom font substitution tables.
 
  doc.save(getArtifactsDir() + "FontSettings.TableSubstitutionRule.Custom.pdf");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | java.lang.String | Input file name. |
 
 ### loadAndroidSettings() {#loadAndroidSettings}
 ```
@@ -650,11 +650,6 @@ public void save(String fileName)
 
 Saves the current table substitution settings to file.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fileName | java.lang.String | Output file name.
-
  **Examples:** 
 
 Shows how to access font substitution tables for Windows and Linux.
@@ -689,7 +684,12 @@ Shows how to access font substitution tables for Windows and Linux.
      tableSubstitutionRule.save(fileStream);
  }
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | java.lang.String | Output file name. |
 
 ### setEnabled(boolean value) {#setEnabled-boolean}
 ```
@@ -781,12 +781,6 @@ public void setSubstitutes(String originalFontName, String[] substituteFontNames
 
 
 Override substitute font names for given original font name.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| originalFontName | java.lang.String | Original font name. |
-| substituteFontNames | java.lang.String[] | List of alternative font names.
 
  **Examples:** 
 
@@ -884,7 +878,13 @@ Shows how to work with custom font substitution tables.
 
  doc.save(getArtifactsDir() + "FontSettings.TableSubstitutionRule.Custom.pdf");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| originalFontName | java.lang.String | Original font name. |
+| substituteFontNames | java.lang.String[] | List of alternative font names. |
 
 ### toString() {#toString}
 ```

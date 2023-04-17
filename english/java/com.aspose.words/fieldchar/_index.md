@@ -174,14 +174,6 @@ This method serves as a copy constructor for nodes. The cloned node has no paren
 
 This method always performs a deep copy of the node. The  isCloneChildren  parameter specifies whether to perform copy all child nodes as well.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| isCloneChildren | boolean | True to recursively clone the subtree under the specified node; false to clone only the node itself. |
-
-**Returns:**
-[Node](../../com.aspose.words/node/) - The cloned node.
-
  **Examples:** 
 
 Shows how to clone a composite node.
@@ -206,6 +198,14 @@ Shows how to clone a composite node.
  Assert.assertEquals("", cloneWithoutChildren.getText().trim());
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| isCloneChildren | boolean | True to recursively clone the subtree under the specified node; false to clone only the node itself. |
+
+**Returns:**
+[Node](../../com.aspose.words/node/) - The cloned node.
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
@@ -258,14 +258,6 @@ public CompositeNode getAncestor(Class ancestorType)
 
 
 Gets the first ancestor of the specified object type.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| ancestorType | java.lang.Class | The object type of the ancestor to retrieve. |
-
-**Returns:**
-[CompositeNode](../../com.aspose.words/compositenode/) - The ancestor of the specified type or  null  if no ancestor of this type was found.
 
  **Remarks:** 
 
@@ -335,6 +327,14 @@ Shows how to find out if a tables are nested.
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ancestorType | java.lang.Class | The object type of the ancestor to retrieve. |
+
+**Returns:**
+[CompositeNode](../../com.aspose.words/compositenode/) - The ancestor of the specified type or  null  if no ancestor of this type was found.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -504,9 +504,6 @@ Returns a field for the field char.
 
 A new [Field](../../com.aspose.words/field/) object is created each time the method is called.
 
-**Returns:**
-[Field](../../com.aspose.words/field/) - A field for the field char.
-
  **Examples:** 
 
 Shows how to work with a FieldStart node.
@@ -536,6 +533,9 @@ Shows how to work with a FieldStart node.
  field.update();
  
 ```
+
+**Returns:**
+[Field](../../com.aspose.words/field/) - A field for the field char.
 ### getFieldType() {#getFieldType}
 ```
 public int getFieldType()
@@ -1529,14 +1529,6 @@ public Node nextPreOrder(Node rootNode)
 
 Gets next node according to the pre-order tree traversal algorithm.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node/) | The top node (limit) of traversal. |
-
-**Returns:**
-[Node](../../com.aspose.words/node/) - Next node in pre-order order. Null if reached the  rootNode .
-
  **Examples:** 
 
 Shows how to traverse the document's node tree using the pre-order traversal algorithm, and delete any encountered shape with an image.
@@ -1580,6 +1572,14 @@ Shows how to traverse the document's node tree using the pre-order traversal alg
  }));
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rootNode | [Node](../../com.aspose.words/node/) | The top node (limit) of traversal. |
+
+**Returns:**
+[Node](../../com.aspose.words/node/) - Next node in pre-order order. Null if reached the  rootNode .
 ### nodeTypeToString(int nodeType) {#nodeTypeToString-int}
 ```
 public static String nodeTypeToString(int nodeType)
@@ -1619,14 +1619,6 @@ public Node previousPreOrder(Node rootNode)
 
 Gets the previous node according to the pre-order tree traversal algorithm.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node/) | The top node (limit) of traversal. |
-
-**Returns:**
-[Node](../../com.aspose.words/node/) - Previous node in pre-order order. Null if reached the  rootNode .
-
  **Examples:** 
 
 Shows how to traverse the document's node tree using the pre-order traversal algorithm, and delete any encountered shape with an image.
@@ -1670,6 +1662,14 @@ Shows how to traverse the document's node tree using the pre-order traversal alg
  }));
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rootNode | [Node](../../com.aspose.words/node/) | The top node (limit) of traversal. |
+
+**Returns:**
+[Node](../../com.aspose.words/node/) - Previous node in pre-order order. Null if reached the  rootNode .
 ### remove() {#remove}
 ```
 public void remove()
@@ -1857,14 +1857,6 @@ public String toString(SaveOptions saveOptions)
 
 Exports the content of the node into a string using the specified save options.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) | Specifies the options that control how the node is saved. |
-
-**Returns:**
-java.lang.String - The content of the node in the specified format.
-
  **Examples:** 
 
 Exports the content of a node to String in HTML format.
@@ -1890,6 +1882,14 @@ Exports the content of a node to String in HTML format.
          "", node.toString(saveOptions));
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) | Specifies the options that control how the node is saved. |
+
+**Returns:**
+java.lang.String - The content of the node in the specified format.
 ### toString(int saveFormat) {#toString-int}
 ```
 public String toString(int saveFormat)

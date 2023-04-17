@@ -143,14 +143,6 @@ public int get(int index)
 
 Gets a general format at the specified index.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | The index of a general format. |
-
-**Returns:**
-int - A general format. The returned value is one of [GeneralFormat](../../com.aspose.words/generalformat/) constants.
-
  **Examples:** 
 
 Shows how to format field results.
@@ -215,6 +207,14 @@ Shows how to format field results.
  Assert.assertEquals(0, format.getGeneralFormats().getCount());
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | The index of a general format. |
+
+**Returns:**
+int - A general format. The returned value is one of [GeneralFormat](../../com.aspose.words/generalformat/) constants.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -422,10 +422,7 @@ public void removeAt(int index)
 
 Removes a general format occurrence at the specified index.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int |  **Examples:** 
+ **Examples:** 
 
 Shows how to format field results.
 
@@ -488,7 +485,12 @@ Shows how to format field results.
  Assert.assertEquals("58", field.getResult());
  Assert.assertEquals(0, format.getGeneralFormats().getCount());
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int |  |
 
 ### toString() {#toString}
 ```

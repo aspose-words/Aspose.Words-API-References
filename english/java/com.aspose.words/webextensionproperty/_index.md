@@ -50,12 +50,6 @@ public WebExtensionProperty(String name, String value)
 
 Creates web extension custom property with specified name and value.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | java.lang.String | Property name. |
-| value | java.lang.String | Property value.
-
  **Examples:** 
 
 Shows how to add a web extension to a document.
@@ -98,7 +92,13 @@ Shows how to add a web extension to a document.
 
  Assert.assertEquals(0, doc.getWebExtensionTaskPanes().getCount());
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | Property name. |
+| value | java.lang.String | Property value. |
 
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```

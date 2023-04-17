@@ -428,14 +428,6 @@ public boolean remove(GradientStop gradientStop)
 
 Removes a specified [GradientStop](../../com.aspose.words/gradientstop/) from the collection.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| gradientStop | [GradientStop](../../com.aspose.words/gradientstop/) |  |
-
-**Returns:**
-boolean -  true  if gradient stop was successfully removed, otherwise  false .
-
  **Examples:** 
 
 Shows how to add gradient stops to the gradient fill.
@@ -486,6 +478,14 @@ Shows how to add gradient stops to the gradient fill.
  doc.save(getArtifactsDir() + "Shape.GradientStops.docx", saveOptions);
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| gradientStop | [GradientStop](../../com.aspose.words/gradientstop/) |  |
+
+**Returns:**
+boolean -  true  if gradient stop was successfully removed, otherwise  false .
 ### removeAt(int index) {#removeAt-int}
 ```
 public GradientStop removeAt(int index)
@@ -494,14 +494,6 @@ public GradientStop removeAt(int index)
 
 Removes a [GradientStop](../../com.aspose.words/gradientstop/) from the collection at a specified index.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int |  |
-
-**Returns:**
-[GradientStop](../../com.aspose.words/gradientstop/) - Removed [GradientStop](../../com.aspose.words/gradientstop/).
-
  **Examples:** 
 
 Shows how to add gradient stops to the gradient fill.
@@ -552,6 +544,14 @@ Shows how to add gradient stops to the gradient fill.
  doc.save(getArtifactsDir() + "Shape.GradientStops.docx", saveOptions);
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int |  |
+
+**Returns:**
+[GradientStop](../../com.aspose.words/gradientstop/) - Removed [GradientStop](../../com.aspose.words/gradientstop/).
 ### set(int index, GradientStop value) {#set-int-com.aspose.words.GradientStop}
 ```
 public void set(int index, GradientStop value)

@@ -118,14 +118,6 @@ public void add(Node node)
 
 Adds a node to the end of the collection.
 
- **Remarks:** 
-
-The node is inserted as a child into the node object from which the collection was created.
-
- **Remarks:** 
-
-If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
-
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -172,14 +164,6 @@ Determines whether a node is in the collection.
 
 This method performs a linear search; therefore, the average execution time is proportional to [getCount()](../../com.aspose.words/nodecollection/\#getCount).
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| node | [Node](../../com.aspose.words/node/) | The node to locate. |
-
-**Returns:**
-boolean -  true  if item is found in the collection; otherwise,  false .
-
  **Examples:** 
 
 Shows how to work with a NodeCollection.
@@ -215,6 +199,14 @@ Shows how to work with a NodeCollection.
  Assert.assertFalse(runs.contains(run));
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| node | [Node](../../com.aspose.words/node/) | The node to locate. |
+
+**Returns:**
+boolean -  true  if item is found in the collection; otherwise,  false .
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
@@ -237,11 +229,6 @@ public Node get(int index)
 
 
 Retrieves a node at the given index.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | An index into the collection of nodes.
 
  **Remarks:** 
 
@@ -294,7 +281,12 @@ Shows how to traverse through a composite node's collection of child nodes.
              break;
      }
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | An index into the collection of nodes. |
 
 **Returns:**
 [Node](../../com.aspose.words/node/) - The corresponding [Node](../../com.aspose.words/node/) value.
@@ -477,14 +469,6 @@ public int indexOf(Node node)
 
 Returns the zero-based index of the specified node.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| node | [Node](../../com.aspose.words/node/) | The node to locate. |
-
-**Returns:**
-int - The zero-based index of the node within the collection, if found; otherwise, -1.
-
  **Remarks:** 
 
 This method performs a linear search; therefore, the average execution time is proportional to [getCount()](../../com.aspose.words/nodecollection/\#getCount).
@@ -511,6 +495,14 @@ Shows how to get the index of a node in a collection.
  Assert.assertEquals(4, row.indexOf(cell));
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| node | [Node](../../com.aspose.words/node/) | The node to locate. |
+
+**Returns:**
+int - The zero-based index of the node within the collection, if found; otherwise, -1.
 ### insert(int index, Node node) {#insert-int-com.aspose.words.Node}
 ```
 public void insert(int index, Node node)
@@ -518,18 +510,6 @@ public void insert(int index, Node node)
 
 
 Inserts a node into the collection at the specified index.
-
- **Remarks:** 
-
-The node is inserted as a child into the node object from which the collection was created.
-
-If the index is equal to or greater than [getCount()](../../com.aspose.words/nodecollection/\#getCount), the node is added at the end of the collection.
-
-If the index is negative and its absolute value is greater than [getCount()](../../com.aspose.words/nodecollection/\#getCount), the node is added at the end of the collection.
-
- **Remarks:** 
-
-If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -571,11 +551,6 @@ public void remove(Node node)
 
 Removes the node from the collection and from the document.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| node | [Node](../../com.aspose.words/node/) | The node to remove.
-
  **Examples:** 
 
 Shows how to work with a NodeCollection.
@@ -610,7 +585,12 @@ Shows how to work with a NodeCollection.
  Assert.assertNotNull(run);
  Assert.assertFalse(runs.contains(run));
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| node | [Node](../../com.aspose.words/node/) | The node to remove. |
 
 ### removeAt(int index) {#removeAt-int}
 ```
@@ -619,11 +599,6 @@ public void removeAt(int index)
 
 
 Removes the node at the specified index from the collection and from the document.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | The zero-based index of the node. Negative indexes are allowed and indicate access from the back of the list. For example -1 means the last node, -2 means the second before last and so on.
 
  **Examples:** 
 
@@ -652,7 +627,12 @@ Shows how to add and remove sections in a document.
 
  Assert.assertEquals("Section 2\fSection 2", doc.getText().trim());
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index of the node. Negative indexes are allowed and indicate access from the back of the list. For example -1 means the last node, -2 means the second before last and so on. |
 
 ### toArray() {#toArray}
 ```
@@ -667,9 +647,6 @@ Copies all nodes from the collection to a new array of nodes.
 You should not be adding/removing nodes while iterating over a collection of nodes because it invalidates the iterator and requires refreshes for live collections.
 
 To be able to add/remove nodes during iteration, use this method to copy nodes into a fixed-size array and then iterate over the array.
-
-**Returns:**
-com.aspose.words.Node[] - An array of nodes.
 
  **Examples:** 
 
@@ -718,6 +695,9 @@ Shows how to replace all textbox shapes with image shapes.
  doc.save(getArtifactsDir() + "Shape.ReplaceTextboxesWithImages.docx");
  
 ```
+
+**Returns:**
+com.aspose.words.Node[] - An array of nodes.
 ### toString() {#toString}
 ```
 public String toString()

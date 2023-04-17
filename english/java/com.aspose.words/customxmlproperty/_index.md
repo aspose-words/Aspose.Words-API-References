@@ -151,13 +151,6 @@ public CustomXmlProperty(String name, String uri, String value)
 
 Initializes a new instance of this class.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | java.lang.String | The name of the property. Cannot be  null . |
-| uri | java.lang.String | The namespace URI of the property. Cannot be  null . |
-| value | java.lang.String | The value of the property. Cannot be  null .
-
  **Examples:** 
 
 Shows how to create smart tags.
@@ -249,7 +242,14 @@ Shows how to create smart tags.
      }
  }
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | The name of the property. Cannot be  null . |
+| uri | java.lang.String | The namespace URI of the property. Cannot be  null . |
+| value | java.lang.String | The value of the property. Cannot be  null . |
 
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```

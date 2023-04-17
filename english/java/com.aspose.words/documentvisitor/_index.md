@@ -323,14 +323,6 @@ public int visitAbsolutePositionTab(AbsolutePositionTab tab)
 
 Called when a [AbsolutePositionTab](../../com.aspose.words/absolutepositiontab/) node is encountered in the document.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| tab | [AbsolutePositionTab](../../com.aspose.words/absolutepositiontab/) | The object that is being visited. |
-
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
-
  **Examples:** 
 
 Shows how to process absolute position tab characters with a document visitor.
@@ -399,6 +391,14 @@ Shows how to process absolute position tab characters with a document visitor.
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tab | [AbsolutePositionTab](../../com.aspose.words/absolutepositiontab/) | The object that is being visited. |
+
+**Returns:**
+int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### visitBodyEnd(Body body) {#visitBodyEnd-com.aspose.words.Body}
 ```
 public int visitBodyEnd(Body body)
@@ -407,14 +407,6 @@ public int visitBodyEnd(Body body)
 
 Called when enumeration of the main text story in a section has ended.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| body | [Body](../../com.aspose.words/body/) | The object that is being visited. |
-
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
-
  **Examples:** 
 
 Shows how to use a document visitor to print a document's node structure.
@@ -569,6 +561,14 @@ Shows how to use a document visitor to print a document's node structure.
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| body | [Body](../../com.aspose.words/body/) | The object that is being visited. |
+
+**Returns:**
+int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### visitBodyStart(Body body) {#visitBodyStart-com.aspose.words.Body}
 ```
 public int visitBodyStart(Body body)
@@ -577,14 +577,6 @@ public int visitBodyStart(Body body)
 
 Called when enumeration of the main text story in a section has started.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| body | [Body](../../com.aspose.words/body/) | The object that is being visited. |
-
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
-
  **Examples:** 
 
 Shows how to use a document visitor to print a document's node structure.
@@ -739,6 +731,14 @@ Shows how to use a document visitor to print a document's node structure.
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| body | [Body](../../com.aspose.words/body/) | The object that is being visited. |
+
+**Returns:**
+int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### visitBookmarkEnd(BookmarkEnd bookmarkEnd) {#visitBookmarkEnd-com.aspose.words.BookmarkEnd}
 ```
 public int visitBookmarkEnd(BookmarkEnd bookmarkEnd)
@@ -747,14 +747,6 @@ public int visitBookmarkEnd(BookmarkEnd bookmarkEnd)
 
 Called when an end of a bookmark is encountered in the document.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| bookmarkEnd | [BookmarkEnd](../../com.aspose.words/bookmarkend/) | The object that is being visited. |
-
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
-
  **Examples:** 
 
 Shows how to add bookmarks and update their contents.
@@ -833,6 +825,14 @@ Shows how to add bookmarks and update their contents.
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| bookmarkEnd | [BookmarkEnd](../../com.aspose.words/bookmarkend/) | The object that is being visited. |
+
+**Returns:**
+int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### visitBookmarkStart(BookmarkStart bookmarkStart) {#visitBookmarkStart-com.aspose.words.BookmarkStart}
 ```
 public int visitBookmarkStart(BookmarkStart bookmarkStart)
@@ -841,14 +841,6 @@ public int visitBookmarkStart(BookmarkStart bookmarkStart)
 
 Called when a start of a bookmark is encountered in the document.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| bookmarkStart | [BookmarkStart](../../com.aspose.words/bookmarkstart/) | The object that is being visited. |
-
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
-
  **Examples:** 
 
 Shows how to add bookmarks and update their contents.
@@ -927,6 +919,14 @@ Shows how to add bookmarks and update their contents.
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| bookmarkStart | [BookmarkStart](../../com.aspose.words/bookmarkstart/) | The object that is being visited. |
+
+**Returns:**
+int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### visitBuildingBlockEnd(BuildingBlock block) {#visitBuildingBlockEnd-com.aspose.words.BuildingBlock}
 ```
 public int visitBuildingBlockEnd(BuildingBlock block)
@@ -939,14 +939,6 @@ Called when enumeration of a building block has ended.
 
 Note: A building block node and its children are not visited when you execute a Visitor over a [Document](../../com.aspose.words/document/). If you want to execute a Visitor over a building block, you need to execute the visitor over [GlossaryDocument](../../com.aspose.words/glossarydocument/) or call [BuildingBlock.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/buildingblock/\#accept-com.aspose.words.DocumentVisitor).
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| block | [BuildingBlock](../../com.aspose.words/buildingblock/) | The object that is being visited. |
-
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
-
  **Examples:** 
 
 Shows ways of accessing building blocks in a glossary document.
@@ -1047,6 +1039,14 @@ Shows ways of accessing building blocks in a glossary document.
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| block | [BuildingBlock](../../com.aspose.words/buildingblock/) | The object that is being visited. |
+
+**Returns:**
+int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### visitBuildingBlockStart(BuildingBlock block) {#visitBuildingBlockStart-com.aspose.words.BuildingBlock}
 ```
 public int visitBuildingBlockStart(BuildingBlock block)
@@ -1059,14 +1059,6 @@ Called when enumeration of a building block has started.
 
 Note: A building block node and its children are not visited when you execute a Visitor over a [Document](../../com.aspose.words/document/). If you want to execute a Visitor over a building block, you need to execute the visitor over [GlossaryDocument](../../com.aspose.words/glossarydocument/) or call [BuildingBlock.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/buildingblock/\#accept-com.aspose.words.DocumentVisitor).
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| block | [BuildingBlock](../../com.aspose.words/buildingblock/) | The object that is being visited. |
-
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
-
  **Examples:** 
 
 Shows ways of accessing building blocks in a glossary document.
@@ -1167,6 +1159,14 @@ Shows ways of accessing building blocks in a glossary document.
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| block | [BuildingBlock](../../com.aspose.words/buildingblock/) | The object that is being visited. |
+
+**Returns:**
+int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### visitCellEnd(Cell cell) {#visitCellEnd-com.aspose.words.Cell}
 ```
 public int visitCellEnd(Cell cell)
@@ -1175,14 +1175,6 @@ public int visitCellEnd(Cell cell)
 
 Called when enumeration of a table cell has ended.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| cell | [Cell](../../com.aspose.words/cell/) | The object that is being visited. |
-
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
-
  **Examples:** 
 
 Shows how to print the node structure of every table in a document.
@@ -1505,6 +1497,14 @@ Shows how to use a DocumentVisitor implementation to remove all hidden content f
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| cell | [Cell](../../com.aspose.words/cell/) | The object that is being visited. |
+
+**Returns:**
+int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### visitCellStart(Cell cell) {#visitCellStart-com.aspose.words.Cell}
 ```
 public int visitCellStart(Cell cell)
@@ -1513,14 +1513,6 @@ public int visitCellStart(Cell cell)
 
 Called when enumeration of a table cell has started.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| cell | [Cell](../../com.aspose.words/cell/) | The object that is being visited. |
-
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
-
  **Examples:** 
 
 Shows how to print the node structure of every table in a document.
@@ -1666,6 +1658,14 @@ Shows how to print the node structure of every table in a document.
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| cell | [Cell](../../com.aspose.words/cell/) | The object that is being visited. |
+
+**Returns:**
+int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### visitCommentEnd(Comment comment) {#visitCommentEnd-com.aspose.words.Comment}
 ```
 public int visitCommentEnd(Comment comment)
@@ -1674,14 +1674,6 @@ public int visitCommentEnd(Comment comment)
 
 Called when enumeration of a comment text has ended.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| comment | [Comment](../../com.aspose.words/comment/) | The object that is being visited. |
-
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
-
  **Examples:** 
 
 Shows how to print the node structure of every comment and comment range in a document.
@@ -1790,6 +1782,14 @@ Shows how to print the node structure of every comment and comment range in a do
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| comment | [Comment](../../com.aspose.words/comment/) | The object that is being visited. |
+
+**Returns:**
+int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### visitCommentRangeEnd(CommentRangeEnd commentRangeEnd) {#visitCommentRangeEnd-com.aspose.words.CommentRangeEnd}
 ```
 public int visitCommentRangeEnd(CommentRangeEnd commentRangeEnd)
@@ -1798,14 +1798,6 @@ public int visitCommentRangeEnd(CommentRangeEnd commentRangeEnd)
 
 Called when the end of a commented range of text is encountered.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| commentRangeEnd | [CommentRangeEnd](../../com.aspose.words/commentrangeend/) | The object that is being visited. |
-
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
-
  **Examples:** 
 
 Shows how to print the node structure of every comment and comment range in a document.
@@ -1914,6 +1906,14 @@ Shows how to print the node structure of every comment and comment range in a do
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| commentRangeEnd | [CommentRangeEnd](../../com.aspose.words/commentrangeend/) | The object that is being visited. |
+
+**Returns:**
+int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### visitCommentRangeStart(CommentRangeStart commentRangeStart) {#visitCommentRangeStart-com.aspose.words.CommentRangeStart}
 ```
 public int visitCommentRangeStart(CommentRangeStart commentRangeStart)
@@ -1922,14 +1922,6 @@ public int visitCommentRangeStart(CommentRangeStart commentRangeStart)
 
 Called when the start of a commented range of text is encountered.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| commentRangeStart | [CommentRangeStart](../../com.aspose.words/commentrangestart/) | The object that is being visited. |
-
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
-
  **Examples:** 
 
 Shows how to print the node structure of every comment and comment range in a document.
@@ -2038,6 +2030,14 @@ Shows how to print the node structure of every comment and comment range in a do
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| commentRangeStart | [CommentRangeStart](../../com.aspose.words/commentrangestart/) | The object that is being visited. |
+
+**Returns:**
+int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### visitCommentStart(Comment comment) {#visitCommentStart-com.aspose.words.Comment}
 ```
 public int visitCommentStart(Comment comment)
@@ -2045,14 +2045,6 @@ public int visitCommentStart(Comment comment)
 
 
 Called when enumeration of a comment text has started.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| comment | [Comment](../../com.aspose.words/comment/) | The object that is being visited. |
-
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 
  **Examples:** 
 
@@ -2339,6 +2331,14 @@ Shows how to use a DocumentVisitor implementation to remove all hidden content f
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| comment | [Comment](../../com.aspose.words/comment/) | The object that is being visited. |
+
+**Returns:**
+int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### visitDocumentEnd(Document doc) {#visitDocumentEnd-com.aspose.words.Document}
 ```
 public int visitDocumentEnd(Document doc)
@@ -2347,14 +2347,6 @@ public int visitDocumentEnd(Document doc)
 
 Called when enumeration of the document has finished.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| doc | [Document](../../com.aspose.words/document/) | The object that is being visited. |
-
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
-
  **Examples:** 
 
 Shows how to use a document visitor to print a document's node structure.
@@ -2509,6 +2501,14 @@ Shows how to use a document visitor to print a document's node structure.
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| doc | [Document](../../com.aspose.words/document/) | The object that is being visited. |
+
+**Returns:**
+int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### visitDocumentStart(Document doc) {#visitDocumentStart-com.aspose.words.Document}
 ```
 public int visitDocumentStart(Document doc)
@@ -2517,14 +2517,6 @@ public int visitDocumentStart(Document doc)
 
 Called when enumeration of the document has started.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| doc | [Document](../../com.aspose.words/document/) | The object that is being visited. |
-
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
-
  **Examples:** 
 
 Shows how to use a document visitor to print a document's node structure.
@@ -2679,6 +2671,14 @@ Shows how to use a document visitor to print a document's node structure.
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| doc | [Document](../../com.aspose.words/document/) | The object that is being visited. |
+
+**Returns:**
+int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### visitEditableRangeEnd(EditableRangeEnd editableRangeEnd) {#visitEditableRangeEnd-com.aspose.words.EditableRangeEnd}
 ```
 public int visitEditableRangeEnd(EditableRangeEnd editableRangeEnd)
@@ -2687,14 +2687,6 @@ public int visitEditableRangeEnd(EditableRangeEnd editableRangeEnd)
 
 Called when an end of an editable range is encountered in the document.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| editableRangeEnd | [EditableRangeEnd](../../com.aspose.words/editablerangeend/) | The object that is being visited. |
-
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
-
  **Examples:** 
 
 Shows how to print the node structure of every editable range in a document.
@@ -2783,6 +2775,14 @@ Shows how to print the node structure of every editable range in a document.
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| editableRangeEnd | [EditableRangeEnd](../../com.aspose.words/editablerangeend/) | The object that is being visited. |
+
+**Returns:**
+int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### visitEditableRangeStart(EditableRangeStart editableRangeStart) {#visitEditableRangeStart-com.aspose.words.EditableRangeStart}
 ```
 public int visitEditableRangeStart(EditableRangeStart editableRangeStart)
@@ -2791,14 +2791,6 @@ public int visitEditableRangeStart(EditableRangeStart editableRangeStart)
 
 Called when a start of an editable range is encountered in the document.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| editableRangeStart | [EditableRangeStart](../../com.aspose.words/editablerangestart/) | The object that is being visited. |
-
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
-
  **Examples:** 
 
 Shows how to print the node structure of every editable range in a document.
@@ -2887,6 +2879,14 @@ Shows how to print the node structure of every editable range in a document.
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| editableRangeStart | [EditableRangeStart](../../com.aspose.words/editablerangestart/) | The object that is being visited. |
+
+**Returns:**
+int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### visitFieldEnd(FieldEnd fieldEnd) {#visitFieldEnd-com.aspose.words.FieldEnd}
 ```
 public int visitFieldEnd(FieldEnd fieldEnd)
@@ -2898,14 +2898,6 @@ Called when a field ends in the document.
  **Remarks:** 
 
 For more info see [visitFieldStart(com.aspose.words.FieldStart)](../../com.aspose.words/documentvisitor/\#visitFieldStart-com.aspose.words.FieldStart)
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fieldEnd | [FieldEnd](../../com.aspose.words/fieldend/) | The object that is being visited. |
-
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 
  **Examples:** 
 
@@ -3000,6 +2992,14 @@ Shows how to print the node structure of every field in a document.
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fieldEnd | [FieldEnd](../../com.aspose.words/fieldend/) | The object that is being visited. |
+
+**Returns:**
+int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### visitFieldSeparator(FieldSeparator fieldSeparator) {#visitFieldSeparator-com.aspose.words.FieldSeparator}
 ```
 public int visitFieldSeparator(FieldSeparator fieldSeparator)
@@ -3014,14 +3014,6 @@ The field separator separates field code from field value in the document. Note 
 
 For more info see [visitFieldStart(com.aspose.words.FieldStart)](../../com.aspose.words/documentvisitor/\#visitFieldStart-com.aspose.words.FieldStart)
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fieldSeparator | [FieldSeparator](../../com.aspose.words/fieldseparator/) | The object that is being visited. |
-
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
-
  **Examples:** 
 
 Shows how to print the node structure of every field in a document.
@@ -3115,6 +3107,14 @@ Shows how to print the node structure of every field in a document.
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fieldSeparator | [FieldSeparator](../../com.aspose.words/fieldseparator/) | The object that is being visited. |
+
+**Returns:**
+int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### visitFieldStart(FieldStart fieldStart) {#visitFieldStart-com.aspose.words.FieldStart}
 ```
 public int visitFieldStart(FieldStart fieldStart)
@@ -3135,14 +3135,6 @@ The field separator separates field code from field value in the document. Note 
 
 Fields can be nested.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fieldStart | [FieldStart](../../com.aspose.words/fieldstart/) | The object that is being visited. |
-
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
-
  **Examples:** 
 
 Shows how to print the node structure of every field in a document.
@@ -3236,6 +3228,14 @@ Shows how to print the node structure of every field in a document.
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fieldStart | [FieldStart](../../com.aspose.words/fieldstart/) | The object that is being visited. |
+
+**Returns:**
+int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### visitFootnoteEnd(Footnote footnote) {#visitFootnoteEnd-com.aspose.words.Footnote}
 ```
 public int visitFootnoteEnd(Footnote footnote)
@@ -3244,14 +3244,6 @@ public int visitFootnoteEnd(Footnote footnote)
 
 Called when enumeration of a footnote or endnote text has ended.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| footnote | [Footnote](../../com.aspose.words/footnote/) | The object that is being visited. |
-
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
-
  **Examples:** 
 
 Shows how to print the node structure of every footnote in a document.
@@ -3338,6 +3330,14 @@ Shows how to print the node structure of every footnote in a document.
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| footnote | [Footnote](../../com.aspose.words/footnote/) | The object that is being visited. |
+
+**Returns:**
+int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### visitFootnoteStart(Footnote footnote) {#visitFootnoteStart-com.aspose.words.Footnote}
 ```
 public int visitFootnoteStart(Footnote footnote)
@@ -3346,14 +3346,6 @@ public int visitFootnoteStart(Footnote footnote)
 
 Called when enumeration of a footnote or endnote text has started.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| footnote | [Footnote](../../com.aspose.words/footnote/) | The object that is being visited. |
-
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
-
  **Examples:** 
 
 Shows how to print the node structure of every footnote in a document.
@@ -3617,6 +3609,14 @@ Shows how to use a DocumentVisitor implementation to remove all hidden content f
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| footnote | [Footnote](../../com.aspose.words/footnote/) | The object that is being visited. |
+
+**Returns:**
+int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### visitFormField(FormField formField) {#visitFormField-com.aspose.words.FormField}
 ```
 public int visitFormField(FormField formField)
@@ -3624,14 +3624,6 @@ public int visitFormField(FormField formField)
 
 
 Called when a form field is encountered in the document.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| formField | [FormField](../../com.aspose.words/formfield/) | The object that is being visited. |
-
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 
  **Examples:** 
 
@@ -3811,6 +3803,14 @@ Shows how to use a DocumentVisitor implementation to remove all hidden content f
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| formField | [FormField](../../com.aspose.words/formfield/) | The object that is being visited. |
+
+**Returns:**
+int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### visitGlossaryDocumentEnd(GlossaryDocument glossary) {#visitGlossaryDocumentEnd-com.aspose.words.GlossaryDocument}
 ```
 public int visitGlossaryDocumentEnd(GlossaryDocument glossary)
@@ -3823,14 +3823,6 @@ Called when enumeration of a glossary document has ended.
 
 Note: A glossary document node and its children are not visited when you execute a Visitor over a [Document](../../com.aspose.words/document/). If you want to execute a Visitor over a glossary document, you need to call [GlossaryDocument.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/glossarydocument/\#accept-com.aspose.words.DocumentVisitor).
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| glossary | [GlossaryDocument](../../com.aspose.words/glossarydocument/) | The object that is being visited. |
-
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
-
  **Examples:** 
 
 Shows ways of accessing building blocks in a glossary document.
@@ -3931,6 +3923,14 @@ Shows ways of accessing building blocks in a glossary document.
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| glossary | [GlossaryDocument](../../com.aspose.words/glossarydocument/) | The object that is being visited. |
+
+**Returns:**
+int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### visitGlossaryDocumentStart(GlossaryDocument glossary) {#visitGlossaryDocumentStart-com.aspose.words.GlossaryDocument}
 ```
 public int visitGlossaryDocumentStart(GlossaryDocument glossary)
@@ -3943,14 +3943,6 @@ Called when enumeration of a glossary document has started.
 
 Note: A glossary document node and its children are not visited when you execute a Visitor over a [Document](../../com.aspose.words/document/). If you want to execute a Visitor over a glossary document, you need to call [GlossaryDocument.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/glossarydocument/\#accept-com.aspose.words.DocumentVisitor).
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| glossary | [GlossaryDocument](../../com.aspose.words/glossarydocument/) | The object that is being visited. |
-
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
-
  **Examples:** 
 
 Shows ways of accessing building blocks in a glossary document.
@@ -4051,6 +4043,14 @@ Shows ways of accessing building blocks in a glossary document.
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| glossary | [GlossaryDocument](../../com.aspose.words/glossarydocument/) | The object that is being visited. |
+
+**Returns:**
+int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### visitGroupShapeEnd(GroupShape groupShape) {#visitGroupShapeEnd-com.aspose.words.GroupShape}
 ```
 public int visitGroupShapeEnd(GroupShape groupShape)
@@ -4059,14 +4059,6 @@ public int visitGroupShapeEnd(GroupShape groupShape)
 
 Called when enumeration of a group shape has ended.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| groupShape | [GroupShape](../../com.aspose.words/groupshape/) | The object that is being visited. |
-
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
-
  **Examples:** 
 
 Shows how to create a group of shapes, and print its contents using a document visitor.
@@ -4143,6 +4135,14 @@ Shows how to create a group of shapes, and print its contents using a document v
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| groupShape | [GroupShape](../../com.aspose.words/groupshape/) | The object that is being visited. |
+
+**Returns:**
+int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### visitGroupShapeStart(GroupShape groupShape) {#visitGroupShapeStart-com.aspose.words.GroupShape}
 ```
 public int visitGroupShapeStart(GroupShape groupShape)
@@ -4151,14 +4151,6 @@ public int visitGroupShapeStart(GroupShape groupShape)
 
 Called when enumeration of a group shape has started.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| groupShape | [GroupShape](../../com.aspose.words/groupshape/) | The object that is being visited. |
-
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
-
  **Examples:** 
 
 Shows how to create a group of shapes, and print its contents using a document visitor.
@@ -4412,6 +4404,14 @@ Shows how to use a DocumentVisitor implementation to remove all hidden content f
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| groupShape | [GroupShape](../../com.aspose.words/groupshape/) | The object that is being visited. |
+
+**Returns:**
+int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### visitHeaderFooterEnd(HeaderFooter headerFooter) {#visitHeaderFooterEnd-com.aspose.words.HeaderFooter}
 ```
 public int visitHeaderFooterEnd(HeaderFooter headerFooter)
@@ -4420,14 +4420,6 @@ public int visitHeaderFooterEnd(HeaderFooter headerFooter)
 
 Called when enumeration of a header or footer in a section has ended.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| headerFooter | [HeaderFooter](../../com.aspose.words/headerfooter/) | The object that is being visited. |
-
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
-
  **Examples:** 
 
 Shows how to print the node structure of every header and footer in a document.
@@ -4513,6 +4505,14 @@ Shows how to print the node structure of every header and footer in a document.
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| headerFooter | [HeaderFooter](../../com.aspose.words/headerfooter/) | The object that is being visited. |
+
+**Returns:**
+int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### visitHeaderFooterStart(HeaderFooter headerFooter) {#visitHeaderFooterStart-com.aspose.words.HeaderFooter}
 ```
 public int visitHeaderFooterStart(HeaderFooter headerFooter)
@@ -4521,14 +4521,6 @@ public int visitHeaderFooterStart(HeaderFooter headerFooter)
 
 Called when enumeration of a header or footer in a section has started.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| headerFooter | [HeaderFooter](../../com.aspose.words/headerfooter/) | The object that is being visited. |
-
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
-
  **Examples:** 
 
 Shows how to print the node structure of every header and footer in a document.
@@ -4614,6 +4606,14 @@ Shows how to print the node structure of every header and footer in a document.
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| headerFooter | [HeaderFooter](../../com.aspose.words/headerfooter/) | The object that is being visited. |
+
+**Returns:**
+int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### visitOfficeMathEnd(OfficeMath officeMath) {#visitOfficeMathEnd-com.aspose.words.OfficeMath}
 ```
 public int visitOfficeMathEnd(OfficeMath officeMath)
@@ -4622,14 +4622,6 @@ public int visitOfficeMathEnd(OfficeMath officeMath)
 
 Called when enumeration of a Office Math object has ended.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| officeMath | [OfficeMath](../../com.aspose.words/officemath/) | The object that is being visited. |
-
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
-
  **Examples:** 
 
 Shows how to print the node structure of every office math node in a document.
@@ -4716,6 +4708,14 @@ Shows how to print the node structure of every office math node in a document.
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| officeMath | [OfficeMath](../../com.aspose.words/officemath/) | The object that is being visited. |
+
+**Returns:**
+int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### visitOfficeMathStart(OfficeMath officeMath) {#visitOfficeMathStart-com.aspose.words.OfficeMath}
 ```
 public int visitOfficeMathStart(OfficeMath officeMath)
@@ -4724,14 +4724,6 @@ public int visitOfficeMathStart(OfficeMath officeMath)
 
 Called when enumeration of a Office Math object has started.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| officeMath | [OfficeMath](../../com.aspose.words/officemath/) | The object that is being visited. |
-
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
-
  **Examples:** 
 
 Shows how to print the node structure of every office math node in a document.
@@ -4818,6 +4810,14 @@ Shows how to print the node structure of every office math node in a document.
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| officeMath | [OfficeMath](../../com.aspose.words/officemath/) | The object that is being visited. |
+
+**Returns:**
+int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### visitParagraphEnd(Paragraph paragraph) {#visitParagraphEnd-com.aspose.words.Paragraph}
 ```
 public int visitParagraphEnd(Paragraph paragraph)
@@ -4826,14 +4826,6 @@ public int visitParagraphEnd(Paragraph paragraph)
 
 Called when enumeration of a paragraph has ended.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| paragraph | [Paragraph](../../com.aspose.words/paragraph/) | The object that is being visited. |
-
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
-
  **Examples:** 
 
 Shows how to use a document visitor to print a document's node structure.
@@ -4988,6 +4980,14 @@ Shows how to use a document visitor to print a document's node structure.
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| paragraph | [Paragraph](../../com.aspose.words/paragraph/) | The object that is being visited. |
+
+**Returns:**
+int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### visitParagraphStart(Paragraph paragraph) {#visitParagraphStart-com.aspose.words.Paragraph}
 ```
 public int visitParagraphStart(Paragraph paragraph)
@@ -4996,14 +4996,6 @@ public int visitParagraphStart(Paragraph paragraph)
 
 Called when enumeration of a paragraph has started.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| paragraph | [Paragraph](../../com.aspose.words/paragraph/) | The object that is being visited. |
-
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
-
  **Examples:** 
 
 Shows how to use a document visitor to print a document's node structure.
@@ -5335,6 +5327,14 @@ Shows how to use a DocumentVisitor implementation to remove all hidden content f
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| paragraph | [Paragraph](../../com.aspose.words/paragraph/) | The object that is being visited. |
+
+**Returns:**
+int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### visitRowEnd(Row row) {#visitRowEnd-com.aspose.words.Row}
 ```
 public int visitRowEnd(Row row)
@@ -5343,14 +5343,6 @@ public int visitRowEnd(Row row)
 
 Called when enumeration of a table row has ended.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| row | [Row](../../com.aspose.words/row/) | The object that is being visited. |
-
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
-
  **Examples:** 
 
 Shows how to print the node structure of every table in a document.
@@ -5673,6 +5665,14 @@ Shows how to use a DocumentVisitor implementation to remove all hidden content f
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| row | [Row](../../com.aspose.words/row/) | The object that is being visited. |
+
+**Returns:**
+int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### visitRowStart(Row row) {#visitRowStart-com.aspose.words.Row}
 ```
 public int visitRowStart(Row row)
@@ -5681,14 +5681,6 @@ public int visitRowStart(Row row)
 
 Called when enumeration of a table row has started.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| row | [Row](../../com.aspose.words/row/) | The object that is being visited. |
-
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
-
  **Examples:** 
 
 Shows how to print the node structure of every table in a document.
@@ -5834,6 +5826,14 @@ Shows how to print the node structure of every table in a document.
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| row | [Row](../../com.aspose.words/row/) | The object that is being visited. |
+
+**Returns:**
+int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### visitRun(Run run) {#visitRun-com.aspose.words.Run}
 ```
 public int visitRun(Run run)
@@ -5842,14 +5842,6 @@ public int visitRun(Run run)
 
 Called when a run of text in the is encountered.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| run | [Run](../../com.aspose.words/run/) | The object that is being visited. |
-
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
-
  **Examples:** 
 
 Shows how to use a document visitor to print a document's node structure.
@@ -6004,6 +5996,14 @@ Shows how to use a document visitor to print a document's node structure.
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| run | [Run](../../com.aspose.words/run/) | The object that is being visited. |
+
+**Returns:**
+int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### visitSectionEnd(Section section) {#visitSectionEnd-com.aspose.words.Section}
 ```
 public int visitSectionEnd(Section section)
@@ -6012,14 +6012,6 @@ public int visitSectionEnd(Section section)
 
 Called when enumeration of a section has ended.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| section | [Section](../../com.aspose.words/section/) | The object that is being visited. |
-
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
-
  **Examples:** 
 
 Shows how to use a document visitor to print a document's node structure.
@@ -6174,6 +6166,14 @@ Shows how to use a document visitor to print a document's node structure.
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| section | [Section](../../com.aspose.words/section/) | The object that is being visited. |
+
+**Returns:**
+int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### visitSectionStart(Section section) {#visitSectionStart-com.aspose.words.Section}
 ```
 public int visitSectionStart(Section section)
@@ -6182,14 +6182,6 @@ public int visitSectionStart(Section section)
 
 Called when enumeration of a section has started.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| section | [Section](../../com.aspose.words/section/) | The object that is being visited. |
-
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
-
  **Examples:** 
 
 Shows how to use a document visitor to print a document's node structure.
@@ -6344,6 +6336,14 @@ Shows how to use a document visitor to print a document's node structure.
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| section | [Section](../../com.aspose.words/section/) | The object that is being visited. |
+
+**Returns:**
+int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### visitShapeEnd(Shape shape) {#visitShapeEnd-com.aspose.words.Shape}
 ```
 public int visitShapeEnd(Shape shape)
@@ -6351,14 +6351,6 @@ public int visitShapeEnd(Shape shape)
 
 
 Called when enumeration of a shape has ended.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| shape | [Shape](../../com.aspose.words/shape/) | The object that is being visited. |
-
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 
  **Examples:** 
 
@@ -6436,13 +6428,6 @@ Shows how to create a group of shapes, and print its contents using a document v
  }
  
 ```
-### visitShapeStart(Shape shape) {#visitShapeStart-com.aspose.words.Shape}
-```
-public int visitShapeStart(Shape shape)
-```
-
-
-Called when enumeration of a shape has started.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -6451,6 +6436,13 @@ Called when enumeration of a shape has started.
 
 **Returns:**
 int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
+### visitShapeStart(Shape shape) {#visitShapeStart-com.aspose.words.Shape}
+```
+public int visitShapeStart(Shape shape)
+```
+
+
+Called when enumeration of a shape has started.
 
  **Examples:** 
 
@@ -6705,6 +6697,14 @@ Shows how to use a DocumentVisitor implementation to remove all hidden content f
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| shape | [Shape](../../com.aspose.words/shape/) | The object that is being visited. |
+
+**Returns:**
+int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### visitSmartTagEnd(SmartTag smartTag) {#visitSmartTagEnd-com.aspose.words.SmartTag}
 ```
 public int visitSmartTagEnd(SmartTag smartTag)
@@ -6713,14 +6713,6 @@ public int visitSmartTagEnd(SmartTag smartTag)
 
 Called when enumeration of a smart tag has ended.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| smartTag | [SmartTag](../../com.aspose.words/smarttag/) | The object that is being visited. |
-
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
-
  **Examples:** 
 
 Shows how to print the node structure of every smart tag in a document.
@@ -6807,6 +6799,14 @@ Shows how to print the node structure of every smart tag in a document.
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| smartTag | [SmartTag](../../com.aspose.words/smarttag/) | The object that is being visited. |
+
+**Returns:**
+int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### visitSmartTagStart(SmartTag smartTag) {#visitSmartTagStart-com.aspose.words.SmartTag}
 ```
 public int visitSmartTagStart(SmartTag smartTag)
@@ -6815,14 +6815,6 @@ public int visitSmartTagStart(SmartTag smartTag)
 
 Called when enumeration of a smart tag has started.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| smartTag | [SmartTag](../../com.aspose.words/smarttag/) | The object that is being visited. |
-
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
-
  **Examples:** 
 
 Shows how to print the node structure of every smart tag in a document.
@@ -6909,6 +6901,14 @@ Shows how to print the node structure of every smart tag in a document.
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| smartTag | [SmartTag](../../com.aspose.words/smarttag/) | The object that is being visited. |
+
+**Returns:**
+int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### visitSpecialChar(SpecialChar specialChar) {#visitSpecialChar-com.aspose.words.SpecialChar}
 ```
 public int visitSpecialChar(SpecialChar specialChar)
@@ -6916,14 +6916,6 @@ public int visitSpecialChar(SpecialChar specialChar)
 
 
 Called when a [SpecialChar](../../com.aspose.words/specialchar/) node is encountered in the document.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| specialChar | [SpecialChar](../../com.aspose.words/specialchar/) | The object that is being visited. |
-
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 
  **Remarks:** 
 
@@ -7107,6 +7099,14 @@ Shows how to use a DocumentVisitor implementation to remove all hidden content f
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| specialChar | [SpecialChar](../../com.aspose.words/specialchar/) | The object that is being visited. |
+
+**Returns:**
+int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### visitStructuredDocumentTagEnd(StructuredDocumentTag sdt) {#visitStructuredDocumentTagEnd-com.aspose.words.StructuredDocumentTag}
 ```
 public int visitStructuredDocumentTagEnd(StructuredDocumentTag sdt)
@@ -7114,14 +7114,6 @@ public int visitStructuredDocumentTagEnd(StructuredDocumentTag sdt)
 
 
 Called when enumeration of a structured document tag has ended.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| sdt | [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) | The object that is being visited. |
-
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 
  **Examples:** 
 
@@ -7207,6 +7199,14 @@ Shows how to print the node structure of every structured document tag in a docu
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sdt | [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) | The object that is being visited. |
+
+**Returns:**
+int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### visitStructuredDocumentTagRangeEnd(StructuredDocumentTagRangeEnd sdtRangeEnd) {#visitStructuredDocumentTagRangeEnd-com.aspose.words.StructuredDocumentTagRangeEnd}
 ```
 public int visitStructuredDocumentTagRangeEnd(StructuredDocumentTagRangeEnd sdtRangeEnd)
@@ -7245,14 +7245,6 @@ public int visitStructuredDocumentTagStart(StructuredDocumentTag sdt)
 
 Called when enumeration of a structured document tag has started.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| sdt | [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) | The object that is being visited. |
-
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
-
  **Examples:** 
 
 Shows how to print the node structure of every structured document tag in a document.
@@ -7337,6 +7329,14 @@ Shows how to print the node structure of every structured document tag in a docu
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sdt | [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) | The object that is being visited. |
+
+**Returns:**
+int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### visitSubDocument(SubDocument subDocument) {#visitSubDocument-com.aspose.words.SubDocument}
 ```
 public int visitSubDocument(SubDocument subDocument)
@@ -7344,14 +7344,6 @@ public int visitSubDocument(SubDocument subDocument)
 
 
 Called when a sub-document is encountered.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| subDocument | [SubDocument](../../com.aspose.words/subdocument/) | The object that is being visited. |
-
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 
  **Examples:** 
 
@@ -7507,6 +7499,14 @@ Shows how to use a document visitor to print a document's node structure.
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| subDocument | [SubDocument](../../com.aspose.words/subdocument/) | The object that is being visited. |
+
+**Returns:**
+int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### visitTableEnd(Table table) {#visitTableEnd-com.aspose.words.Table}
 ```
 public int visitTableEnd(Table table)
@@ -7514,14 +7514,6 @@ public int visitTableEnd(Table table)
 
 
 Called when enumeration of a table has ended.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| table | [Table](../../com.aspose.words/table/) | The object that is being visited. |
-
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 
  **Examples:** 
 
@@ -7845,13 +7837,6 @@ Shows how to use a DocumentVisitor implementation to remove all hidden content f
  }
  
 ```
-### visitTableStart(Table table) {#visitTableStart-com.aspose.words.Table}
-```
-public int visitTableStart(Table table)
-```
-
-
-Called when enumeration of a table has started.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -7860,6 +7845,13 @@ Called when enumeration of a table has started.
 
 **Returns:**
 int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
+### visitTableStart(Table table) {#visitTableStart-com.aspose.words.Table}
+```
+public int visitTableStart(Table table)
+```
+
+
+Called when enumeration of a table has started.
 
  **Examples:** 
 
@@ -8006,6 +7998,14 @@ Shows how to print the node structure of every table in a document.
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| table | [Table](../../com.aspose.words/table/) | The object that is being visited. |
+
+**Returns:**
+int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
 ### wait() {#wait}
 ```
 public final void wait()

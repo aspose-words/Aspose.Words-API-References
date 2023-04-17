@@ -75,11 +75,6 @@ public FileFontSource(String filePath)
 
 Ctor.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| filePath | java.lang.String | Path to font file.
-
  **Examples:** 
 
 Shows how to use a font file in the local file system as a font source.
@@ -96,7 +91,12 @@ Shows how to use a font file in the local file system as a font source.
  Assert.assertEquals(FontSourceType.FONT_FILE, fileFontSource.getType());
  Assert.assertEquals(0, fileFontSource.getPriority());
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | java.lang.String | Path to font file. |
 
 ### FileFontSource(String filePath, int priority) {#FileFontSource-java.lang.String-int}
 ```
@@ -106,12 +106,6 @@ public FileFontSource(String filePath, int priority)
 
 Ctor.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| filePath | java.lang.String | Path to font file. |
-| priority | int | Font source priority. See the [FontSourceBase.getPriority()](../../com.aspose.words/fontsourcebase/\#getPriority) property description for more information.
-
  **Examples:** 
 
 Shows how to use a font file in the local file system as a font source.
@@ -128,7 +122,13 @@ Shows how to use a font file in the local file system as a font source.
  Assert.assertEquals(FontSourceType.FONT_FILE, fileFontSource.getType());
  Assert.assertEquals(0, fileFontSource.getPriority());
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | java.lang.String | Path to font file. |
+| priority | int | Font source priority. See the [FontSourceBase.getPriority()](../../com.aspose.words/fontsourcebase/\#getPriority) property description for more information. |
 
 ### FileFontSource(String filePath, int priority, String cacheKey) {#FileFontSource-java.lang.String-int-java.lang.String}
 ```
@@ -137,13 +137,6 @@ public FileFontSource(String filePath, int priority, String cacheKey)
 
 
 Ctor.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| filePath | java.lang.String | Path to font file. |
-| priority | int | Font source priority. See the [FontSourceBase.getPriority()](../../com.aspose.words/fontsourcebase/\#getPriority) property description for more information. |
-| cacheKey | java.lang.String | The key of this source in the cache. See [getCacheKey()](../../com.aspose.words/filefontsource/\#getCacheKey) property description for more information.
 
  **Examples:** 
 
@@ -196,7 +189,14 @@ Shows how to speed up the font cache initialization process.
      }
  }
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| filePath | java.lang.String | Path to font file. |
+| priority | int | Font source priority. See the [FontSourceBase.getPriority()](../../com.aspose.words/fontsourcebase/\#getPriority) property description for more information. |
+| cacheKey | java.lang.String | The key of this source in the cache. See [getCacheKey()](../../com.aspose.words/filefontsource/\#getCacheKey) property description for more information. |
 
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```

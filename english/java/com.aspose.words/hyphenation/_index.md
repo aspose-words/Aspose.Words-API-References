@@ -393,16 +393,6 @@ Registers and loads a hyphenation dictionary for the specified language from fil
 
 This method can also be used to register Null dictionary to prevent [getCallback()](../../com.aspose.words/hyphenation/\#getCallback) / [setCallback(com.aspose.words.IHyphenationCallback)](../../com.aspose.words/hyphenation/\#setCallback-com.aspose.words.IHyphenationCallback) from being called repeatedly for the same language.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| language | java.lang.String | A language name, e.g. "en-US". See .NET documentation for "culture name" and RFC 4646 for details. |
-| fileName | java.lang.String | A path to the dictionary file in Open Office format.
-
-If this parameter is  null  or empty string then registered is Null dictionary and callback is not called anymore for this language.
-
-To enable callback again use [unregisterDictionary(java.lang.String)](../../com.aspose.words/hyphenation/\#unregisterDictionary-java.lang.String) method.
-
  **Examples:** 
 
 Shows how to register a hyphenation dictionary.
@@ -503,7 +493,17 @@ Shows how to open and register a dictionary from a file.
      private final HashMap mHyphenationDictionaryFiles;
  }
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| language | java.lang.String | A language name, e.g. "en-US". See .NET documentation for "culture name" and RFC 4646 for details. |
+| fileName | java.lang.String | A path to the dictionary file in Open Office format.
+
+If this parameter is  null  or empty string then registered is Null dictionary and callback is not called anymore for this language.
+
+To enable callback again use [unregisterDictionary(java.lang.String)](../../com.aspose.words/hyphenation/\#unregisterDictionary-java.lang.String) method. |
 
 ### setCallback(IHyphenationCallback value) {#setCallback-com.aspose.words.IHyphenationCallback}
 ```
@@ -689,13 +689,6 @@ Unregisters a hyphenation dictionary for the specified language.
 
 This is different from registering Null dictionary. Unregistering a dictionary enables callback for the specified language.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| language | java.lang.String | A language name, e.g. "en-US". See .NET documentation for "culture name" and RFC 4646 for details.
-
-If  null  or empty string then all dictionaries are unregistered.
-
  **Examples:** 
 
 Shows how to register a hyphenation dictionary.
@@ -729,7 +722,14 @@ Shows how to register a hyphenation dictionary.
  doc = new Document(getMyDir() + "German text.docx");
  doc.save(getArtifactsDir() + "Hyphenation.Dictionary.Unregistered.pdf");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| language | java.lang.String | A language name, e.g. "en-US". See .NET documentation for "culture name" and RFC 4646 for details.
+
+If  null  or empty string then all dictionaries are unregistered. |
 
 ### wait() {#wait}
 ```

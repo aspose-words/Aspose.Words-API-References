@@ -1494,11 +1494,6 @@ public void save(String fileName)
 
 Saves the image into a file.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fileName | java.lang.String | The file name where to save the image.
-
  **Examples:** 
 
 Shows how to extract images from a document, and save them to the local file system as individual files.
@@ -1522,7 +1517,12 @@ Shows how to extract images from a document, and save them to the local file sys
      }
  }
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | java.lang.String | The file name where to save the image. |
 
 ### setBiLevel(boolean value) {#setBiLevel-boolean}
 ```
@@ -2274,11 +2274,6 @@ public void setImage(BufferedImage image)
 
 Sets the image that the shape displays.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| image | java.awt.image.BufferedImage | The image object.
-
  **Examples:** 
 
 Shows how to display images from the local file system in a document.
@@ -2311,7 +2306,12 @@ Shows how to display images from the local file system in a document.
 
  doc.save(getArtifactsDir() + "Drawing.ImportImage.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| image | java.awt.image.BufferedImage | The image object. |
 
 ### setImage(InputStream stream) {#setImage-java.io.InputStream}
 ```
@@ -2333,11 +2333,6 @@ public void setImage(String fileName)
 
 
 Sets the image that the shape displays.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fileName | java.lang.String | The image file. Can be a file name or a URL.
 
  **Examples:** 
 
@@ -2378,7 +2373,12 @@ Shows how to insert a linked image into a document.
  // the image file is present at the location that the shape's "SourceFullName" property points to.
  Assert.assertTrue(new File(getArtifactsDir() + "Image.CreateLinkedImage.Linked.docx").length() < 10000);
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | java.lang.String | The image file. Can be a file name or a URL. |
 
 ### setImageBytes(byte[] value) {#setImageBytes-byte}
 ```
@@ -2574,8 +2574,7 @@ public byte[] toByteArray()
 
 Returns image bytes for any image regardless whether the image is stored or linked.
 
-**Returns:**
-byte[] -  **Remarks:** 
+ **Remarks:** 
 
 If the image is linked, downloads the image every time it is called.
 
@@ -2605,6 +2604,9 @@ Shows how to create an image file from a shape's raw image data.
  }
  
 ```
+
+**Returns:**
+byte[] - 
 ### toImage() {#toImage}
 ```
 public BufferedImage toImage()
@@ -2613,8 +2615,7 @@ public BufferedImage toImage()
 
 Gets the image stored in the shape as a java  BufferedImage  object.
 
-**Returns:**
-java.awt.image.BufferedImage -  **Remarks:** 
+ **Remarks:** 
 
 Tries to create a new  java.awt.image.BufferedImage  object from image bytes every time this method is called. If  javax.imageio.ImageReader  can't read image bytes (emf, wmf, tiff, etc.) the method returns  null .
 
@@ -2658,13 +2659,16 @@ Shows how to save all images from a document to the file system.
  }
  
 ```
+
+**Returns:**
+java.awt.image.BufferedImage - 
 ### toStream() {#toStream}
 ```
 public InputStream toStream()
 ```
 
 
-Creates and returns a stream that contains the image bytes.
+Creates and returns a stream that contains the image bytes.  This is not ported to Java yet.
 
  **Remarks:** 
 
@@ -2675,8 +2679,6 @@ If the image is linked and stored in a file, opens the file and returns a  objec
 If the image is linked and stored in an external URL, opens the URL and returns a  object.
 
 Is it the responsibility of the caller to dispose the stream object.
-
-This is not ported to Java yet.
 
  **Examples:** 
 

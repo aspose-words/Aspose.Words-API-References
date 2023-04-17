@@ -87,15 +87,6 @@ public abstract String respond(String promptText, String defaultResponse)
 
 When implemented, returns a response from the user on prompting. Your implementation should return  null  to indicate that the user has not responded to the prompt (i.e. the user has pressed the Cancel button in the prompt window).
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| promptText | java.lang.String | Prompt text (i.e. title of the prompt window). |
-| defaultResponse | java.lang.String | Default user response (i.e. initial value contained in the prompt window). |
-
-**Returns:**
-java.lang.String - User response (i.e. confirmed value contained in the prompt window).
-
  **Examples:** 
 
 Shows how to create an ASK field, and set its properties.
@@ -153,3 +144,12 @@ Shows how to create an ASK field, and set its properties.
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| promptText | java.lang.String | Prompt text (i.e. title of the prompt window). |
+| defaultResponse | java.lang.String | Default user response (i.e. initial value contained in the prompt window). |
+
+**Returns:**
+java.lang.String - User response (i.e. confirmed value contained in the prompt window).

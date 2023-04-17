@@ -199,11 +199,6 @@ public Border get(int index)
 
 Retrieves a [Border](../../com.aspose.words/border/) object by index.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | Zero-based index of the border to retrieve.
-
  **Examples:** 
 
 Shows how border collections can share elements.
@@ -241,7 +236,12 @@ Shows how border collections can share elements.
 
  doc.save(getArtifactsDir() + "Border.SharedElements.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | Zero-based index of the border to retrieve. |
 
 **Returns:**
 [Border](../../com.aspose.words/border/) - The corresponding [Border](../../com.aspose.words/border/) value.

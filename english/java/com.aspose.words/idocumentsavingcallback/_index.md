@@ -100,11 +100,6 @@ public abstract void notify(DocumentSavingArgs args)
 
 This is called to notify of document saving progress.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| args | [DocumentSavingArgs](../../com.aspose.words/documentsavingargs/) | An argument of the event.
-
  **Remarks:** 
 
 The primary uses for this interface is to allow application code to obtain progress status and abort saving process.
@@ -329,5 +324,10 @@ Shows how to manage a document while saving to docx.
      private static final double MAX_DURATION = 0.01d;
  }
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| args | [DocumentSavingArgs](../../com.aspose.words/documentsavingargs/) | An argument of the event. |
 

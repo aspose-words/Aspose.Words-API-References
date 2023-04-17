@@ -208,11 +208,6 @@ Use this method to fill mail merge fields in the document with values from a **D
 
 This method ignores the [MailMergeCleanupOptions.REMOVE\_UNUSED\_REGIONS](../../com.aspose.words/mailmergecleanupoptions/\#REMOVE-UNUSED-REGIONS) option.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| row | [DataRow](../../com.aspose.words.net.system.data/datarow/) | Row that contains data to be inserted into mail merge fields. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored.
-
  **Examples:** 
 
 Shows how to execute a mail merge with data from a DataTable.
@@ -249,7 +244,12 @@ Shows how to execute a mail merge with data from a DataTable.
 
  doc.save(getArtifactsDir() + "MailMerge.ExecuteDataTable.OneRow.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| row | [DataRow](../../com.aspose.words.net.system.data/datarow/) | Row that contains data to be inserted into mail merge fields. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
 
 ### execute(System.Data.DataTable table) {#execute-com.aspose.words.net.System.Data.DataTable}
 ```
@@ -271,11 +271,6 @@ When [MailMerge](../../com.aspose.words/mailmerge/) object reaches end of the ma
 
 This method ignores the [MailMergeCleanupOptions.REMOVE\_UNUSED\_REGIONS](../../com.aspose.words/mailmergecleanupoptions/\#REMOVE-UNUSED-REGIONS) option.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| table | [DataTable](../../com.aspose.words.net.system.data/datatable/) | Table that contains data to be inserted into mail merge fields. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored.
-
  **Examples:** 
 
 Shows how to execute a mail merge with data from a DataTable.
@@ -312,7 +307,12 @@ Shows how to execute a mail merge with data from a DataTable.
 
  doc.save(getArtifactsDir() + "MailMerge.ExecuteDataTable.OneRow.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| table | [DataTable](../../com.aspose.words.net.system.data/datatable/) | Table that contains data to be inserted into mail merge fields. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
 
 ### execute(System.Data.DataView dataView) {#execute-com.aspose.words.net.System.Data.DataView}
 ```
@@ -351,11 +351,6 @@ Note this method does not use mail merge regions and for multiple records the do
 
 This method ignores the [MailMergeCleanupOptions.REMOVE\_UNUSED\_REGIONS](../../com.aspose.words/mailmergecleanupoptions/\#REMOVE-UNUSED-REGIONS) option.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| dataReader | [IDataReader](../../com.aspose.words.net.system.data/idatareader/) | Data source for the mail merge operation.
-
  **Examples:** 
 
 Shows how to run a mail merge using data from a data reader.
@@ -388,7 +383,12 @@ Shows how to run a mail merge using data from a data reader.
 
  doc.save(getArtifactsDir() + "MailMerge.ExecuteDataReader.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| dataReader | [IDataReader](../../com.aspose.words.net.system.data/idatareader/) | Data source for the mail merge operation. |
 
 ### execute(String[] fieldNames, Object[] values) {#execute-java.lang.String---java.lang.Object}
 ```
@@ -407,12 +407,6 @@ This method merges data for one record only. The array of field names and the ar
 This method does not use mail merge regions.
 
 This method ignores the [MailMergeCleanupOptions.REMOVE\_UNUSED\_REGIONS](../../com.aspose.words/mailmergecleanupoptions/\#REMOVE-UNUSED-REGIONS) option.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fieldNames | java.lang.String[] | Array of merge field names. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
-| values | java.lang.Object[] | Array of values to be inserted into the merge fields. Number of elements in this array must be the same as the number of elements in  fieldNames .
 
  **Examples:** 
 
@@ -449,7 +443,13 @@ Shows how to perform a mail merge, and then save the document to the client brow
  doc.getMailMerge().execute(new String[]{"FullName", "Company", "Address", "City"},
          new Object[]{"James Bond", "MI5 Headquarters", "Milbank", "London"});
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fieldNames | java.lang.String[] | Array of merge field names. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
+| values | java.lang.Object[] | Array of values to be inserted into the merge fields. Number of elements in this array must be the same as the number of elements in  fieldNames . |
 
 ### executeWithRegions(IMailMergeDataSource dataSource) {#executeWithRegions-com.aspose.words.IMailMergeDataSource}
 ```
@@ -483,11 +483,6 @@ Performs a mail merge from a custom data source with mail merge regions.
 Use this method to fill mail merge fields in the document with values from any custom data source such as an XML file or collections of business objects. You need to write your own classes that implement the [IMailMergeDataSourceRoot](../../com.aspose.words/imailmergedatasourceroot/) and [IMailMergeDataSource](../../com.aspose.words/imailmergedatasource/) interfaces.
 
 You can use this method only when [FieldOptions.isBidiTextSupportedOnUpdate()](../../com.aspose.words/fieldoptions/\#isBidiTextSupportedOnUpdate) / [FieldOptions.isBidiTextSupportedOnUpdate(boolean)](../../com.aspose.words/fieldoptions/\#isBidiTextSupportedOnUpdate-boolean) is  false , that is you do not need Right-To-Left language (such as Arabic or Hebrew) compatibility.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| dataSourceRoot | [IMailMergeDataSourceRoot](../../com.aspose.words/imailmergedatasourceroot/) | An object that implements the custom mail merge data source root interface.
 
  **Examples:** 
 
@@ -658,7 +653,12 @@ Performs mail merge from a custom data source with master-detail data.
      private int mRecordIndex;
  }
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| dataSourceRoot | [IMailMergeDataSourceRoot](../../com.aspose.words/imailmergedatasourceroot/) | An object that implements the custom mail merge data source root interface. |
 
 ### executeWithRegions(System.Data.DataSet dataSet) {#executeWithRegions-com.aspose.words.net.System.Data.DataSet}
 ```
@@ -689,11 +689,6 @@ The **TableStart** and **TableEnd** fields must be inside the same section in yo
 If used inside a table, **TableStart** and **TableEnd** must be inside the same row in the table.
 
 Mail merge regions in a document should be well formed (there always needs to be a pair of matching **TableStart** and **TableEnd** merge fields with the same table name).
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| dataSet | [DataSet](../../com.aspose.words.net.system.data/dataset/) | **DataSet** that contains data to be inserted into mail merge fields.
 
  **Examples:** 
 
@@ -782,7 +777,12 @@ Shows how to create a nested mail merge with regions with data from a data set w
      return dataSet;
  }
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| dataSet | [DataSet](../../com.aspose.words.net.system.data/dataset/) | **DataSet** that contains data to be inserted into mail merge fields. |
 
 ### executeWithRegions(System.Data.DataTable dataTable) {#executeWithRegions-com.aspose.words.net.System.Data.DataTable}
 ```
@@ -795,11 +795,6 @@ Performs mail merge from a **DataTable** into the document with mail merge regio
  **Remarks:** 
 
 If there are other mail merge regions defined in the document they are left intact. This allows to perform several mail merge operations.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| dataTable | [DataTable](../../com.aspose.words.net.system.data/datatable/) | Data source for the mail merge operation. The table must have its [DataTable.getTableName()](../../com.aspose.words.net.system.data/datatable/\#getTableName) / [DataTable.setTableName(java.lang.String)](../../com.aspose.words.net.system.data/datatable/\#setTableName-java.lang.String) property set.
 
  **Examples:** 
 
@@ -924,7 +919,12 @@ Demonstrates how to implement custom logic in the MergeField event to apply cell
      return dataTable;
  }
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| dataTable | [DataTable](../../com.aspose.words.net.system.data/datatable/) | Data source for the mail merge operation. The table must have its [DataTable.getTableName()](../../com.aspose.words.net.system.data/datatable/\#getTableName) / [DataTable.setTableName(java.lang.String)](../../com.aspose.words.net.system.data/datatable/\#setTableName-java.lang.String) property set. |
 
 ### executeWithRegions(System.Data.DataView dataView) {#executeWithRegions-com.aspose.words.net.System.Data.DataView}
 ```
@@ -941,11 +941,6 @@ This method is useful if you retrieve data into a **DataTable** but then need to
 The document must have a mail merge region defined with name that matches **DataView.Table.TableName**.
 
 If there are other mail merge regions defined in the document they are left intact. This allows to perform several mail merge operations.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| dataView | [DataView](../../com.aspose.words.net.system.data/dataview/) | Data source for the mail merge operation. The source table of the **DataView** must have its **TableName** property set.
 
  **Examples:** 
 
@@ -992,7 +987,12 @@ Shows how to use regions to execute two separate mail merges in one document.
 
  doc.save(getArtifactsDir() + "MailMerge.ExecuteWithRegionsConcurrent.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| dataView | [DataView](../../com.aspose.words.net.system.data/dataview/) | Data source for the mail merge operation. The source table of the **DataView** must have its **TableName** property set. |
 
 ### executeWithRegions(System.Data.IDataReader dataReader, String tableName) {#executeWithRegions-com.aspose.words.net.System.Data.IDataReader-java.lang.String}
 ```
@@ -1005,12 +1005,6 @@ Performs mail merge from **IDataReader** into the document with mail merge regio
  **Remarks:** 
 
 You can pass **SqlDataReader** or **OleDbDataReader** object into this method as a parameter because they both implemented **IDataReader** interface.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| dataReader | [IDataReader](../../com.aspose.words.net.system.data/idatareader/) | Source of the data records for mail merge such as **OleDbDataReader** or **SqlDataReader**. |
-| tableName | java.lang.String | Name of the mail merge region in the document to populate.
 
  **Examples:** 
 
@@ -1063,7 +1057,13 @@ Shows how to insert images stored in a database BLOB field into a report.
      }
  }
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| dataReader | [IDataReader](../../com.aspose.words.net.system.data/idatareader/) | Source of the data records for mail merge such as **OleDbDataReader** or **SqlDataReader**. |
+| tableName | java.lang.String | Name of the mail merge region in the document to populate. |
 
 ### getClass() {#getClass}
 ```
@@ -1122,8 +1122,6 @@ Gets a value indicating whether paragraphs with punctuation marks are considered
  **Remarks:** 
 
 The default value is  true .
-
- **Remarks:** 
 
 Here is the complete list of cleanable punctuation marks:
 
@@ -1327,11 +1325,6 @@ If document contains multiple regions with the same name the very first region i
 
 A new string array is created on every call.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| regionName | java.lang.String | Region name (case-insensitive).
-
  **Examples:** 
 
 Shows how to create, list and read mail merge regions.
@@ -1377,7 +1370,12 @@ Shows how to create, list and read mail merge regions.
  mergeFieldNames = doc.getMailMerge().getFieldNamesForRegion("MailMergeRegion1", 1);
  Assert.assertEquals(mergeFieldNames[0], "Column2");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| regionName | java.lang.String | Region name (case-insensitive). |
 
 **Returns:**
 java.lang.String[]
@@ -1397,12 +1395,6 @@ If document contains multiple regions with the same name the Nth region (zero-ba
 
 A new string array is created on every call.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| regionName | java.lang.String | Region name (case-insensitive). |
-| regionIndex | int | Region index (zero-based).
-
  **Examples:** 
 
 Shows how to create, list and read mail merge regions.
@@ -1448,7 +1440,13 @@ Shows how to create, list and read mail merge regions.
  mergeFieldNames = doc.getMailMerge().getFieldNamesForRegion("MailMergeRegion1", 1);
  Assert.assertEquals(mergeFieldNames[0], "Column2");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| regionName | java.lang.String | Region name (case-insensitive). |
+| regionIndex | int | Region index (zero-based). |
 
 **Returns:**
 java.lang.String[]
@@ -1953,14 +1951,6 @@ public ArrayList getRegionsByName(String regionName)
 
 Returns a collection of mail merge regions with the specified name.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| regionName | java.lang.String | Region name (case-insensitive). |
-
-**Returns:**
-java.util.ArrayList - The list of regions.
-
  **Examples:** 
 
 Shows how to create, list and read mail merge regions.
@@ -2007,6 +1997,14 @@ Shows how to create, list and read mail merge regions.
  Assert.assertEquals(mergeFieldNames[0], "Column2");
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| regionName | java.lang.String | Region name (case-insensitive). |
+
+**Returns:**
+java.util.ArrayList - The list of regions.
 ### getRegionsHierarchy() {#getRegionsHierarchy}
 ```
 public MailMergeRegionInfo getRegionsHierarchy()
@@ -2018,9 +2016,6 @@ Returns a full hierarchy of regions (with fields) available in the document.
  **Remarks:** 
 
 Hierarchy is returned in the form of the [MailMergeRegionInfo](../../com.aspose.words/mailmergeregioninfo/) class.
-
-**Returns:**
-[MailMergeRegionInfo](../../com.aspose.words/mailmergeregioninfo/) - Regions' hierarchy.
 
  **Examples:** 
 
@@ -2060,6 +2055,9 @@ Shows how to get MailMergeRegionInfo and work with it.
  Assert.assertEquals(endFieldMergeField.getFieldName(), "TableEnd:NestedRegion1");
  
 ```
+
+**Returns:**
+[MailMergeRegionInfo](../../com.aspose.words/mailmergeregioninfo/) - Regions' hierarchy.
 ### getRestartListsAtEachSection() {#getRestartListsAtEachSection}
 ```
 public boolean getRestartListsAtEachSection()
@@ -2371,8 +2369,6 @@ Sets a value indicating whether paragraphs with punctuation marks are considered
  **Remarks:** 
 
 The default value is  true .
-
- **Remarks:** 
 
 Here is the complete list of cleanable punctuation marks:
 

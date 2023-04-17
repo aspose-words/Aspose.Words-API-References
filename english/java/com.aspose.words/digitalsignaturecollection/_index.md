@@ -136,11 +136,6 @@ public DigitalSignature get(int index)
 
 Gets a document signature at the specified index.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | Zero-based index of the signature.
-
  **Examples:** 
 
 Shows how to sign documents with X.509 certificates.
@@ -188,7 +183,12 @@ Shows how to sign documents with X.509 certificates.
  Assert.assertEquals("CN=Morzal.Me", signedDoc.getDigitalSignatures().get(0).getIssuerName());
  Assert.assertEquals("CN=Morzal.Me", signedDoc.getDigitalSignatures().get(0).getSubjectName());
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | Zero-based index of the signature. |
 
 **Returns:**
 [DigitalSignature](../../com.aspose.words/digitalsignature/) - A document signature at the specified index.

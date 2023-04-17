@@ -75,11 +75,6 @@ public MemoryFontSource(byte[] fontData)
 
 Ctor.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fontData | byte[] | Binary font data.
-
  **Examples:** 
 
 Shows how to use a byte array with data from a font file as a font source.
@@ -96,7 +91,12 @@ Shows how to use a byte array with data from a font file as a font source.
  Assert.assertEquals(FontSourceType.MEMORY_FONT, memoryFontSource.getType());
  Assert.assertEquals(0, memoryFontSource.getPriority());
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fontData | byte[] | Binary font data. |
 
 ### MemoryFontSource(byte[] fontData, int priority) {#MemoryFontSource-byte---int}
 ```
@@ -106,12 +106,6 @@ public MemoryFontSource(byte[] fontData, int priority)
 
 Ctor.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fontData | byte[] | Binary font data. |
-| priority | int | Font source priority. See the [FontSourceBase.getPriority()](../../com.aspose.words/fontsourcebase/\#getPriority) property description for more information.
-
  **Examples:** 
 
 Shows how to use a byte array with data from a font file as a font source.
@@ -128,7 +122,13 @@ Shows how to use a byte array with data from a font file as a font source.
  Assert.assertEquals(FontSourceType.MEMORY_FONT, memoryFontSource.getType());
  Assert.assertEquals(0, memoryFontSource.getPriority());
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fontData | byte[] | Binary font data. |
+| priority | int | Font source priority. See the [FontSourceBase.getPriority()](../../com.aspose.words/fontsourcebase/\#getPriority) property description for more information. |
 
 ### MemoryFontSource(byte[] fontData, int priority, String cacheKey) {#MemoryFontSource-byte---int-java.lang.String}
 ```
@@ -137,13 +137,6 @@ public MemoryFontSource(byte[] fontData, int priority, String cacheKey)
 
 
 Ctor.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fontData | byte[] | Binary font data. |
-| priority | int | Font source priority. See the [FontSourceBase.getPriority()](../../com.aspose.words/fontsourcebase/\#getPriority) property description for more information. |
-| cacheKey | java.lang.String | The key of this source in the cache. See [getCacheKey()](../../com.aspose.words/memoryfontsource/\#getCacheKey) property description for more information.
 
  **Examples:** 
 
@@ -196,7 +189,14 @@ Shows how to speed up the font cache initialization process.
      }
  }
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fontData | byte[] | Binary font data. |
+| priority | int | Font source priority. See the [FontSourceBase.getPriority()](../../com.aspose.words/fontsourcebase/\#getPriority) property description for more information. |
+| cacheKey | java.lang.String | The key of this source in the cache. See [getCacheKey()](../../com.aspose.words/memoryfontsource/\#getCacheKey) property description for more information. |
 
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```

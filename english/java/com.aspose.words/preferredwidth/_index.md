@@ -272,11 +272,6 @@ public static PreferredWidth fromPercent(double percent)
 
 A creation method that returns a new instance that represents a preferred width specified as a percentage.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| percent | double | The value must be from 0 to 100.
-
  **Examples:** 
 
 Shows how to set a table to auto fit to 50% of the width of the page.
@@ -335,7 +330,12 @@ Shows how to set a preferred width for table cells.
 
  doc.save(getArtifactsDir() + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| percent | double | The value must be from 0 to 100. |
 
 **Returns:**
 [PreferredWidth](../../com.aspose.words/preferredwidth/)
@@ -346,11 +346,6 @@ public static PreferredWidth fromPoints(double points)
 
 
 A creation method that returns a new instance that represents a preferred width specified using a number of points.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| points | double | The value must be from 0 to 22 inches (22 \* 72 points).
 
  **Examples:** 
 
@@ -404,7 +399,12 @@ Shows how to set a preferred width for table cells.
 
  doc.save(getArtifactsDir() + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| points | double | The value must be from 0 to 22 inches (22 \* 72 points). |
 
 **Returns:**
 [PreferredWidth](../../com.aspose.words/preferredwidth/)

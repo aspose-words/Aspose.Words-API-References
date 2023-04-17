@@ -102,11 +102,6 @@ public void add(String value)
 
 Adds an item to the collection.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String | The item to add.
-
  **Examples:** 
 
 Shows how to work with an XML schema collection.
@@ -149,7 +144,12 @@ Shows how to work with an XML schema collection.
 
  Assert.assertEquals(schemas.getCount(), 0);
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | The item to add. |
 
 ### clear() {#clear}
 ```
@@ -413,14 +413,6 @@ public int indexOf(String value)
 
 Returns the zero-based index of the specified value in the collection.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String | The case-sensitive value to locate. |
-
-**Returns:**
-int - The zero based index. Negative value if not found.
-
  **Examples:** 
 
 Shows how to work with an XML schema collection.
@@ -464,6 +456,14 @@ Shows how to work with an XML schema collection.
  Assert.assertEquals(schemas.getCount(), 0);
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | The case-sensitive value to locate. |
+
+**Returns:**
+int - The zero based index. Negative value if not found.
 ### iterator() {#iterator}
 ```
 public Iterator iterator()
@@ -542,11 +542,6 @@ public void remove(String name)
 
 Removes the specified value from the collection.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | java.lang.String | The case-sensitive value to remove.
-
  **Examples:** 
 
 Shows how to work with an XML schema collection.
@@ -589,7 +584,12 @@ Shows how to work with an XML schema collection.
 
  Assert.assertEquals(schemas.getCount(), 0);
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | The case-sensitive value to remove. |
 
 ### removeAt(int index) {#removeAt-int}
 ```
@@ -599,11 +599,6 @@ public void removeAt(int index)
 
 Removes a value at the specified index.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | The zero based index.
-
  **Examples:** 
 
 Shows how to work with an XML schema collection.
@@ -646,7 +641,12 @@ Shows how to work with an XML schema collection.
 
  Assert.assertEquals(schemas.getCount(), 0);
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | The zero based index. |
 
 ### set(int index, String value) {#set-int-java.lang.String}
 ```

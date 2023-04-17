@@ -76,12 +76,6 @@ public FolderFontSource(String folderPath, boolean scanSubfolders)
 
 Ctor.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| folderPath | java.lang.String | Path to folder. |
-| scanSubfolders | boolean | Determines whether or not to scan subfolders.
-
  **Examples:** 
 
 Shows how to use a local system folder which contains fonts as a font source.
@@ -100,7 +94,13 @@ Shows how to use a local system folder which contains fonts as a font source.
  Assert.assertEquals(FontSourceType.FONTS_FOLDER, folderFontSource.getType());
  Assert.assertEquals(1, folderFontSource.getPriority());
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folderPath | java.lang.String | Path to folder. |
+| scanSubfolders | boolean | Determines whether or not to scan subfolders. |
 
 ### FolderFontSource(String folderPath, boolean scanSubfolders, int priority) {#FolderFontSource-java.lang.String-boolean-int}
 ```
@@ -110,13 +110,6 @@ public FolderFontSource(String folderPath, boolean scanSubfolders, int priority)
 
 Ctor.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| folderPath | java.lang.String | Path to folder. |
-| scanSubfolders | boolean | Determines whether or not to scan subfolders. |
-| priority | int | Font source priority. See the [FontSourceBase.getPriority()](../../com.aspose.words/fontsourcebase/\#getPriority) property description for more information.
-
  **Examples:** 
 
 Shows how to use a local system folder which contains fonts as a font source.
@@ -135,7 +128,14 @@ Shows how to use a local system folder which contains fonts as a font source.
  Assert.assertEquals(FontSourceType.FONTS_FOLDER, folderFontSource.getType());
  Assert.assertEquals(1, folderFontSource.getPriority());
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folderPath | java.lang.String | Path to folder. |
+| scanSubfolders | boolean | Determines whether or not to scan subfolders. |
+| priority | int | Font source priority. See the [FontSourceBase.getPriority()](../../com.aspose.words/fontsourcebase/\#getPriority) property description for more information. |
 
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```

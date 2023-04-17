@@ -156,12 +156,6 @@ public float getFontSize()
 
 Gets a font size. The default value is 0 - auto.
 
- **Remarks:** 
-
-Valid values range from 0 to 65.5 inclusive.
-
-Auto font size means that the watermark will be scaled to its max width and max height relative to the page margins.
-
 **Returns:**
 float - A font size.
 ### getLayout() {#getLayout}
@@ -406,12 +400,6 @@ public void setFontSize(float value)
 
 
 Sets a font size. The default value is 0 - auto.
-
- **Remarks:** 
-
-Valid values range from 0 to 65.5 inclusive.
-
-Auto font size means that the watermark will be scaled to its max width and max height relative to the page margins.
 
 **Parameters:**
 | Parameter | Type | Description |

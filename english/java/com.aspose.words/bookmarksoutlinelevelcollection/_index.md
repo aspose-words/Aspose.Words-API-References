@@ -119,12 +119,6 @@ public void add(String name, int outlineLevel)
 
 Adds a bookmark to the collection.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | java.lang.String | The case-insensitive name of the bookmark to add. |
-| outlineLevel | int | The outline level of the bookmark. Valid range is 0 to 9.
-
  **Examples:** 
 
 Shows how to set outline levels for bookmarks.
@@ -180,7 +174,13 @@ Shows how to set outline levels for bookmarks.
  // Emptying this collection will preserve the bookmarks and put them all on the same outline level.
  outlineLevels.clear();
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | The case-insensitive name of the bookmark to add. |
+| outlineLevel | int | The outline level of the bookmark. Valid range is 0 to 9. |
 
 ### clear() {#clear}
 ```
@@ -255,14 +255,6 @@ public boolean contains(String name)
 
 Determines whether the collection contains a bookmark with the given name.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | java.lang.String | Case-insensitive name of the bookmark to locate. |
-
-**Returns:**
-boolean -  true  if item is found in the collection; otherwise,  false .
-
  **Examples:** 
 
 Shows how to set outline levels for bookmarks.
@@ -319,6 +311,14 @@ Shows how to set outline levels for bookmarks.
  outlineLevels.clear();
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | Case-insensitive name of the bookmark to locate. |
+
+**Returns:**
+boolean -  true  if item is found in the collection; otherwise,  false .
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
@@ -342,14 +342,6 @@ public int get(int index)
 
 Gets a bookmark outline level at the specified index.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | Zero-based index of the bookmark. |
-
-**Returns:**
-int - The outline level of the bookmark. Valid range is 0 to 9.
-
  **Examples:** 
 
 Shows how to set outline levels for bookmarks.
@@ -406,6 +398,14 @@ Shows how to set outline levels for bookmarks.
  outlineLevels.clear();
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | Zero-based index of the bookmark. |
+
+**Returns:**
+int - The outline level of the bookmark. Valid range is 0 to 9.
 ### get(String name) {#get-java.lang.String}
 ```
 public int get(String name)
@@ -414,14 +414,6 @@ public int get(String name)
 
 Provides access to the collection items.  Gets or a sets a bookmark outline level by the bookmark name.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | java.lang.String | Case-insensitive name of the bookmark. |
-
-**Returns:**
-int - The outline level of the bookmark. Valid range is 0 to 9.
-
  **Examples:** 
 
 Shows how to set outline levels for bookmarks.
@@ -478,6 +470,14 @@ Shows how to set outline levels for bookmarks.
  outlineLevels.clear();
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | Case-insensitive name of the bookmark. |
+
+**Returns:**
+int - The outline level of the bookmark. Valid range is 0 to 9.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -573,14 +573,6 @@ public int indexOfKey(String name)
 
 Returns the zero-based index of the specified bookmark in the collection.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | java.lang.String | The case-insensitive name of the bookmark. |
-
-**Returns:**
-int - The zero based index. Negative value if not found.
-
  **Examples:** 
 
 Shows how to set outline levels for bookmarks.
@@ -637,6 +629,14 @@ Shows how to set outline levels for bookmarks.
  outlineLevels.clear();
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | The case-insensitive name of the bookmark. |
+
+**Returns:**
+int - The zero based index. Negative value if not found.
 ### iterator() {#iterator}
 ```
 public Iterator iterator()
@@ -671,11 +671,6 @@ public void remove(String name)
 
 Removes a bookmark with the specified name from the collection.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | java.lang.String | The case-insensitive name of the bookmark.
-
  **Examples:** 
 
 Shows how to set outline levels for bookmarks.
@@ -731,7 +726,12 @@ Shows how to set outline levels for bookmarks.
  // Emptying this collection will preserve the bookmarks and put them all on the same outline level.
  outlineLevels.clear();
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | The case-insensitive name of the bookmark. |
 
 ### removeAt(int index) {#removeAt-int}
 ```
@@ -741,11 +741,6 @@ public void removeAt(int index)
 
 Removes a bookmark at the specified index.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | The zero based index.
-
  **Examples:** 
 
 Shows how to set outline levels for bookmarks.
@@ -801,7 +796,12 @@ Shows how to set outline levels for bookmarks.
  // Emptying this collection will preserve the bookmarks and put them all on the same outline level.
  outlineLevels.clear();
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | The zero based index. |
 
 ### set(int index, int value) {#set-int-int}
 ```
@@ -811,12 +811,6 @@ public void set(int index, int value)
 
 Sets a bookmark outline level at the specified index.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | Zero-based index of the bookmark. |
-| value | int | The outline level of the bookmark. Valid range is 0 to 9.
-
  **Examples:** 
 
 Shows how to set outline levels for bookmarks.
@@ -872,7 +866,13 @@ Shows how to set outline levels for bookmarks.
  // Emptying this collection will preserve the bookmarks and put them all on the same outline level.
  outlineLevels.clear();
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | Zero-based index of the bookmark. |
+| value | int | The outline level of the bookmark. Valid range is 0 to 9. |
 
 ### set(String name, int value) {#set-java.lang.String-int}
 ```
@@ -882,12 +882,6 @@ public void set(String name, int value)
 
 Provides access to the collection items.  Gets or a sets a bookmark outline level by the bookmark name.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | java.lang.String | Case-insensitive name of the bookmark. |
-| value | int | The outline level of the bookmark. Valid range is 0 to 9.
-
  **Examples:** 
 
 Shows how to set outline levels for bookmarks.
@@ -943,7 +937,13 @@ Shows how to set outline levels for bookmarks.
  // Emptying this collection will preserve the bookmarks and put them all on the same outline level.
  outlineLevels.clear();
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | Case-insensitive name of the bookmark. |
+| value | int | The outline level of the bookmark. Valid range is 0 to 9. |
 
 ### toString() {#toString}
 ```

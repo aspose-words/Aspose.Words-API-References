@@ -336,11 +336,6 @@ If index is greater than or equal to the number of items in the list, this retur
 
 If index is negative and its absolute value is greater than the number of items in the list, this returns a null reference.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | An index into the collection.
-
  **Examples:** 
 
 Shows how insert different kinds of form fields into a document, and process them with using a document visitor implementation.
@@ -465,7 +460,12 @@ Shows how insert different kinds of form fields into a document, and process the
      private final StringBuilder mBuilder;
  }
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | An index into the collection. |
 
 **Returns:**
 [FormField](../../com.aspose.words/formfield/) - A form field at the specified index.
@@ -481,11 +481,6 @@ Returns a form field by bookmark name.
 
 Returns  null  if the form field with the specified bookmark name cannot be found.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| bookmarkName | java.lang.String | Case-insensitive bookmark name.
-
  **Examples:** 
 
 Shows how insert different kinds of form fields into a document, and process them with using a document visitor implementation.
@@ -610,7 +605,12 @@ Shows how insert different kinds of form fields into a document, and process the
      private final StringBuilder mBuilder;
  }
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| bookmarkName | java.lang.String | Case-insensitive bookmark name. |
 
 **Returns:**
 [FormField](../../com.aspose.words/formfield/) - A form field by bookmark name.
@@ -934,11 +934,6 @@ Removes a form field with the specified name.
 
 If there is a bookmark associated with the form field, the bookmark is not removed.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| formField | java.lang.String | The case-insensitive name of the form field to remove.
-
  **Examples:** 
 
 Shows how insert different kinds of form fields into a document, and process them with using a document visitor implementation.
@@ -1063,7 +1058,12 @@ Shows how insert different kinds of form fields into a document, and process the
      private final StringBuilder mBuilder;
  }
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| formField | java.lang.String | The case-insensitive name of the form field to remove. |
 
 ### removeAt(int index) {#removeAt-int}
 ```
@@ -1077,11 +1077,6 @@ Removes a form field at the specified index.
 
 If there is a bookmark associated with the form field, the bookmark is not removed.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | The zero-based index of the form field to remove.
-
  **Examples:** 
 
 Shows how insert different kinds of form fields into a document, and process them with using a document visitor implementation.
@@ -1206,7 +1201,12 @@ Shows how insert different kinds of form fields into a document, and process the
      private final StringBuilder mBuilder;
  }
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index of the form field to remove. |
 
 ### toString() {#toString}
 ```

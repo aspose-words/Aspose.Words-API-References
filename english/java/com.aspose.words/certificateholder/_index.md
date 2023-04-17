@@ -184,7 +184,7 @@ public static CertificateHolder create(byte[] certBytes, String password)
 ```
 
 
-Creates [CertificateHolder](../../com.aspose.words/certificateholder/) object using byte array of PKCS12 store and its password.
+Creates [CertificateHolder](../../com.aspose.words/certificateholder/) object using byte array of PKCS12 store and its password. **T:Org.BouncyCastle.Security.InvalidParameterException** Thrown if  certBytes  is  null  **T:Org.BouncyCastle.Security.InvalidParameterException** Thrown if  password  is  null 
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -193,14 +193,14 @@ Creates [CertificateHolder](../../com.aspose.words/certificateholder/) object us
 | password | java.lang.String | The password required to access the X.509 certificate data. |
 
 **Returns:**
-[CertificateHolder](../../com.aspose.words/certificateholder/) - An instance of [CertificateHolder](../../com.aspose.words/certificateholder/) **T:Org.BouncyCastle.Security.InvalidParameterException** Thrown if  certBytes  is  null  **T:Org.BouncyCastle.Security.InvalidParameterException** Thrown if  password  is  null 
+[CertificateHolder](../../com.aspose.words/certificateholder/) - An instance of [CertificateHolder](../../com.aspose.words/certificateholder/)
 ### create(String fileName, String password) {#create-java.lang.String-java.lang.String}
 ```
 public static CertificateHolder create(String fileName, String password)
 ```
 
 
-Creates [CertificateHolder](../../com.aspose.words/certificateholder/) object using path to PKCS12 store and its password.
+Creates [CertificateHolder](../../com.aspose.words/certificateholder/) object using path to PKCS12 store and its password. **T:Org.BouncyCastle.Security.InvalidParameterException** Thrown if  fileName  is  null  **T:Org.BouncyCastle.Security.InvalidParameterException** Thrown if  password  is  null 
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -209,14 +209,14 @@ Creates [CertificateHolder](../../com.aspose.words/certificateholder/) object us
 | password | java.lang.String | The password required to access the X.509 certificate data. |
 
 **Returns:**
-[CertificateHolder](../../com.aspose.words/certificateholder/) - An instance of [CertificateHolder](../../com.aspose.words/certificateholder/) **T:Org.BouncyCastle.Security.InvalidParameterException** Thrown if  fileName  is  null  **T:Org.BouncyCastle.Security.InvalidParameterException** Thrown if  password  is  null 
+[CertificateHolder](../../com.aspose.words/certificateholder/) - An instance of [CertificateHolder](../../com.aspose.words/certificateholder/)
 ### create(String fileName, String password, String alias) {#create-java.lang.String-java.lang.String-java.lang.String}
 ```
 public static CertificateHolder create(String fileName, String password, String alias)
 ```
 
 
-Creates [CertificateHolder](../../com.aspose.words/certificateholder/) object using path to PKCS12 store, its password and the alias by using which private key and certificate will be found.
+Creates [CertificateHolder](../../com.aspose.words/certificateholder/) object using path to PKCS12 store, its password and the alias by using which private key and certificate will be found. **T:Org.BouncyCastle.Security.InvalidParameterException** Thrown if  fileName  is  null  **T:Org.BouncyCastle.Security.InvalidParameterException** Thrown if  password  is  null 
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -226,7 +226,7 @@ Creates [CertificateHolder](../../com.aspose.words/certificateholder/) object us
 | alias | java.lang.String | The associated alias for a certificate and its private key |
 
 **Returns:**
-[CertificateHolder](../../com.aspose.words/certificateholder/) - An instance of [CertificateHolder](../../com.aspose.words/certificateholder/) **T:Org.BouncyCastle.Security.InvalidParameterException** Thrown if  fileName  is  null  **T:Org.BouncyCastle.Security.InvalidParameterException** Thrown if  password  is  null 
+[CertificateHolder](../../com.aspose.words/certificateholder/) - An instance of [CertificateHolder](../../com.aspose.words/certificateholder/)
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
@@ -250,9 +250,6 @@ public X509Certificate2Wrapper getCertificate()
 
 Returns the instance of **X509Certificate2Wrapper** that holds **X509Certificate2** which holds private, public keys and certificate chain.
 
-**Returns:**
-[X509Certificate2Wrapper](../../com.aspose.words/x509certificate2wrapper/) -  instance
-
  **Examples:** 
 
 Shows how to validate and display information about each signature in a document.
@@ -274,6 +271,9 @@ Shows how to validate and display information about each signature in a document
  }
  
 ```
+
+**Returns:**
+[X509Certificate2Wrapper](../../com.aspose.words/x509certificate2wrapper/) -  instance
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()

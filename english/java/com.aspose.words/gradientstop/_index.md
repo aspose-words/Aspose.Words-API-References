@@ -55,12 +55,6 @@ public GradientStop(Color color, double position)
 
 Initializes a new instance of the [GradientStop](../../com.aspose.words/gradientstop/) class.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| color | java.awt.Color | Represents the color of the gradient stop. |
-| position | double | Represents the position of a stop within the gradient expressed as a percent in range 0.0 to 1.0.
-
  **Examples:** 
 
 Shows how to add gradient stops to the gradient fill.
@@ -110,7 +104,13 @@ Shows how to add gradient stops to the gradient fill.
 
  doc.save(getArtifactsDir() + "Shape.GradientStops.docx", saveOptions);
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| color | java.awt.Color | Represents the color of the gradient stop. |
+| position | double | Represents the position of a stop within the gradient expressed as a percent in range 0.0 to 1.0. |
 
 ### GradientStop(Color color, double position, double transparency) {#GradientStop-java.awt.Color-double-double}
 ```
@@ -120,13 +120,6 @@ public GradientStop(Color color, double position, double transparency)
 
 Initializes a new instance of the [GradientStop](../../com.aspose.words/gradientstop/) class.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| color | java.awt.Color | Represents the color of the gradient stop. |
-| position | double | Represents the position of a stop within the gradient expressed as a percent in range 0.0 to 1.0. |
-| transparency | double | Represents the transparency of a stop within the gradient expressed as a percent in range 0.0 to 1.0.
-
  **Examples:** 
 
 Shows how to add gradient stops to the gradient fill.
@@ -176,7 +169,14 @@ Shows how to add gradient stops to the gradient fill.
 
  doc.save(getArtifactsDir() + "Shape.GradientStops.docx", saveOptions);
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| color | java.awt.Color | Represents the color of the gradient stop. |
+| position | double | Represents the position of a stop within the gradient expressed as a percent in range 0.0 to 1.0. |
+| transparency | double | Represents the transparency of a stop within the gradient expressed as a percent in range 0.0 to 1.0. |
 
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```

@@ -214,11 +214,6 @@ When [Run](../../com.aspose.words/run/) is created, it belongs to the specified 
 
 To append [Run](../../com.aspose.words/run/) to the document use [CompositeNode.insertAfter(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode/\#insertAfter-com.aspose.words.Node--com.aspose.words.Node) or [CompositeNode.insertBefore(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode/\#insertBefore-com.aspose.words.Node--com.aspose.words.Node) on the paragraph where you want the run inserted.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| doc | [DocumentBase](../../com.aspose.words/documentbase/) | The owner document.
-
  **Examples:** 
 
 Shows how to construct an Aspose.Words document by hand.
@@ -266,7 +261,12 @@ Shows how to construct an Aspose.Words document by hand.
 
  doc.save(getArtifactsDir() + "Section.CreateManually.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| doc | [DocumentBase](../../com.aspose.words/documentbase/) | The owner document. |
 
 ### Run(DocumentBase doc, String text) {#Run-com.aspose.words.DocumentBase-java.lang.String}
 ```
@@ -281,12 +281,6 @@ Initializes a new instance of the **Run** class.
 When [Run](../../com.aspose.words/run/) is created, it belongs to the specified document, but is not yet part of the document and [Node.getParentNode()](../../com.aspose.words/node/\#getParentNode) is  null .
 
 To append [Run](../../com.aspose.words/run/) to the document use [CompositeNode.insertAfter(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode/\#insertAfter-com.aspose.words.Node--com.aspose.words.Node) or [CompositeNode.insertBefore(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode/\#insertBefore-com.aspose.words.Node--com.aspose.words.Node) on the paragraph where you want the run inserted.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| doc | [DocumentBase](../../com.aspose.words/documentbase/) | The owner document. |
-| text | java.lang.String | The text of the run.
 
  **Examples:** 
 
@@ -305,7 +299,13 @@ Shows how to format a run of text using its font property.
  doc.getFirstSection().getBody().getFirstParagraph().appendChild(run);
  doc.save(getArtifactsDir() + "Font.CreateFormattedRun.docx");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| doc | [DocumentBase](../../com.aspose.words/documentbase/) | The owner document. |
+| text | java.lang.String | The text of the run. |
 
 ### accept(DocumentVisitor visitor) {#accept-com.aspose.words.DocumentVisitor}
 ```
@@ -320,14 +320,6 @@ Accepts a visitor.
 Calls [DocumentVisitor.visitRun(com.aspose.words.Run)](../../com.aspose.words/documentvisitor/\#visitRun-com.aspose.words.Run).
 
 For more info see the Visitor design pattern.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor/) | The visitor that will visit the node. |
-
-**Returns:**
-boolean -  false  if the visitor requested the enumeration to stop.
 
  **Examples:** 
 
@@ -414,6 +406,14 @@ Shows how to print the node structure of every header and footer in a document.
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor/) | The visitor that will visit the node. |
+
+**Returns:**
+boolean -  false  if the visitor requested the enumeration to stop.
 ### clearRunAttrs() {#clearRunAttrs}
 ```
 public void clearRunAttrs()
@@ -444,14 +444,6 @@ This method serves as a copy constructor for nodes. The cloned node has no paren
 
 This method always performs a deep copy of the node. The  isCloneChildren  parameter specifies whether to perform copy all child nodes as well.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| isCloneChildren | boolean | True to recursively clone the subtree under the specified node; false to clone only the node itself. |
-
-**Returns:**
-[Node](../../com.aspose.words/node/) - The cloned node.
-
  **Examples:** 
 
 Shows how to clone a composite node.
@@ -476,6 +468,14 @@ Shows how to clone a composite node.
  Assert.assertEquals("", cloneWithoutChildren.getText().trim());
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| isCloneChildren | boolean | True to recursively clone the subtree under the specified node; false to clone only the node itself. |
+
+**Returns:**
+[Node](../../com.aspose.words/node/) - The cloned node.
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
@@ -528,14 +528,6 @@ public CompositeNode getAncestor(Class ancestorType)
 
 
 Gets the first ancestor of the specified object type.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| ancestorType | java.lang.Class | The object type of the ancestor to retrieve. |
-
-**Returns:**
-[CompositeNode](../../com.aspose.words/compositenode/) - The ancestor of the specified type or  null  if no ancestor of this type was found.
 
  **Remarks:** 
 
@@ -605,6 +597,14 @@ Shows how to find out if a tables are nested.
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ancestorType | java.lang.Class | The object type of the ancestor to retrieve. |
+
+**Returns:**
+[CompositeNode](../../com.aspose.words/compositenode/) - The ancestor of the specified type or  null  if no ancestor of this type was found.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -1608,14 +1608,6 @@ public Node nextPreOrder(Node rootNode)
 
 Gets next node according to the pre-order tree traversal algorithm.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node/) | The top node (limit) of traversal. |
-
-**Returns:**
-[Node](../../com.aspose.words/node/) - Next node in pre-order order. Null if reached the  rootNode .
-
  **Examples:** 
 
 Shows how to traverse the document's node tree using the pre-order traversal algorithm, and delete any encountered shape with an image.
@@ -1659,6 +1651,14 @@ Shows how to traverse the document's node tree using the pre-order traversal alg
  }));
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rootNode | [Node](../../com.aspose.words/node/) | The top node (limit) of traversal. |
+
+**Returns:**
+[Node](../../com.aspose.words/node/) - Next node in pre-order order. Null if reached the  rootNode .
 ### nodeTypeToString(int nodeType) {#nodeTypeToString-int}
 ```
 public static String nodeTypeToString(int nodeType)
@@ -1698,14 +1698,6 @@ public Node previousPreOrder(Node rootNode)
 
 Gets the previous node according to the pre-order tree traversal algorithm.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node/) | The top node (limit) of traversal. |
-
-**Returns:**
-[Node](../../com.aspose.words/node/) - Previous node in pre-order order. Null if reached the  rootNode .
-
  **Examples:** 
 
 Shows how to traverse the document's node tree using the pre-order traversal algorithm, and delete any encountered shape with an image.
@@ -1749,6 +1741,14 @@ Shows how to traverse the document's node tree using the pre-order traversal alg
  }));
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rootNode | [Node](../../com.aspose.words/node/) | The top node (limit) of traversal. |
+
+**Returns:**
+[Node](../../com.aspose.words/node/) - Previous node in pre-order order. Null if reached the  rootNode .
 ### remove() {#remove}
 ```
 public void remove()
@@ -1998,14 +1998,6 @@ public String toString(SaveOptions saveOptions)
 
 Exports the content of the node into a string using the specified save options.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) | Specifies the options that control how the node is saved. |
-
-**Returns:**
-java.lang.String - The content of the node in the specified format.
-
  **Examples:** 
 
 Exports the content of a node to String in HTML format.
@@ -2031,6 +2023,14 @@ Exports the content of a node to String in HTML format.
          "", node.toString(saveOptions));
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) | Specifies the options that control how the node is saved. |
+
+**Returns:**
+java.lang.String - The content of the node in the specified format.
 ### toString(int saveFormat) {#toString-int}
 ```
 public String toString(int saveFormat)

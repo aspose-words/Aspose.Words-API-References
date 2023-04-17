@@ -113,11 +113,6 @@ public HtmlLoadOptions(String password)
 
 A shortcut to initialize a new instance of this class with the specified password to load an encrypted document.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| password | java.lang.String | The password to open an encrypted document. Can be  null  or empty string.
-
  **Examples:** 
 
 Shows how to encrypt an Html document, and then open it using a password.
@@ -146,7 +141,12 @@ Shows how to encrypt an Html document, and then open it using a password.
  Document doc = new Document(outputFileName, loadOptions);
  Assert.assertEquals(doc.getText().trim(), "Test encrypted document.");
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| password | java.lang.String | The password to open an encrypted document. Can be  null  or empty string. |
 
 ### HtmlLoadOptions(int loadFormat, String password, String baseUri) {#HtmlLoadOptions-int-java.lang.String-java.lang.String}
 ```

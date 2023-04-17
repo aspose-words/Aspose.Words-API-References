@@ -134,14 +134,6 @@ Enumerates over this node and all of its children. Each node calls a correspondi
 
 For more info see the Visitor design pattern.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor/) | The visitor that will visit the nodes. |
-
-**Returns:**
-boolean - True if all nodes were visited; false if [DocumentVisitor](../../com.aspose.words/documentvisitor/) stopped the operation before visiting all nodes.
-
  **Examples:** 
 
 Shows how to use a DocumentVisitor implementation to remove all hidden content from a document.
@@ -320,6 +312,14 @@ Shows how to use a DocumentVisitor implementation to remove all hidden content f
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor/) | The visitor that will visit the nodes. |
+
+**Returns:**
+boolean - True if all nodes were visited; false if [DocumentVisitor](../../com.aspose.words/documentvisitor/) stopped the operation before visiting all nodes.
 ### appendChild(Node newChild) {#appendChild-com.aspose.words.Node}
 ```
 public Node appendChild(Node newChild)
@@ -333,14 +333,6 @@ Adds the specified node to the end of the list of child nodes for this node.
 If the  newChild  is already in the tree, it is first removed.
 
 If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node/) | The node to add. |
-
-**Returns:**
-[Node](../../com.aspose.words/node/) - The node added.
 
  **Examples:** 
 
@@ -390,6 +382,14 @@ Shows how to construct an Aspose.Words document by hand.
  doc.save(getArtifactsDir() + "Section.CreateManually.docx");
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| newChild | [Node](../../com.aspose.words/node/) | The node to add. |
+
+**Returns:**
+[Node](../../com.aspose.words/node/) - The node added.
 ### appendParagraph(String text) {#appendParagraph-java.lang.String}
 ```
 public Paragraph appendParagraph(String text)
@@ -397,14 +397,6 @@ public Paragraph appendParagraph(String text)
 
 
 A shortcut method that creates a [Paragraph](../../com.aspose.words/paragraph/) object with optional text and appends it to the end of this object.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| text | java.lang.String | The text for the paragraph. Can be  null  or empty string. |
-
-**Returns:**
-[Paragraph](../../com.aspose.words/paragraph/) - The newly created and appended paragraph.
 
  **Examples:** 
 
@@ -441,6 +433,14 @@ Shows how to create a header and a footer.
  doc.save(getArtifactsDir() + "HeaderFooter.Create.docx");
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| text | java.lang.String | The text for the paragraph. Can be  null  or empty string. |
+
+**Returns:**
+[Paragraph](../../com.aspose.words/paragraph/) - The newly created and appended paragraph.
 ### dd() {#dd}
 ```
 public void dd()
@@ -462,14 +462,6 @@ Creates a duplicate of the node.
 This method serves as a copy constructor for nodes. The cloned node has no parent, but belongs to the same document as the original node.
 
 This method always performs a deep copy of the node. The  isCloneChildren  parameter specifies whether to perform copy all child nodes as well.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| isCloneChildren | boolean | True to recursively clone the subtree under the specified node; false to clone only the node itself. |
-
-**Returns:**
-[Node](../../com.aspose.words/node/) - The cloned node.
 
  **Examples:** 
 
@@ -495,6 +487,14 @@ Shows how to clone a composite node.
  Assert.assertEquals("", cloneWithoutChildren.getText().trim());
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| isCloneChildren | boolean | True to recursively clone the subtree under the specified node; false to clone only the node itself. |
+
+**Returns:**
+[Node](../../com.aspose.words/node/) - The cloned node.
 ### deleteShapes() {#deleteShapes}
 ```
 public void deleteShapes()
@@ -564,14 +564,6 @@ public CompositeNode getAncestor(Class ancestorType)
 
 Gets the first ancestor of the specified object type.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| ancestorType | java.lang.Class | The object type of the ancestor to retrieve. |
-
-**Returns:**
-[CompositeNode](../../com.aspose.words/compositenode/) - The ancestor of the specified type or  null  if no ancestor of this type was found.
-
  **Remarks:** 
 
 The ancestor type matches if it is equal to  ancestorType  or derived from  ancestorType .
@@ -640,6 +632,14 @@ Shows how to find out if a tables are nested.
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ancestorType | java.lang.Class | The object type of the ancestor to retrieve. |
+
+**Returns:**
+[CompositeNode](../../com.aspose.words/compositenode/) - The ancestor of the specified type or  null  if no ancestor of this type was found.
 ### getChild(int nodeType, int index, boolean isDeep) {#getChild-int-int-boolean}
 ```
 public Node getChild(int nodeType, int index, boolean isDeep)
@@ -1708,20 +1708,9 @@ Inserts the specified node immediately after the specified reference node.
 
 If  refChild  is  null , inserts  newChild  at the beginning of the list of child nodes.
 
- **Remarks:** 
-
 If the  newChild  is already in the tree, it is first removed.
 
 If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) to insert. |
-| refChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) that is the reference node. The  newChild  is placed after the  refChild . |
-
-**Returns:**
-[Node](../../com.aspose.words/node/) - The inserted node.
 
  **Examples:** 
 
@@ -1820,6 +1809,15 @@ Shows how to add, update and delete child nodes in a CompositeNode's collection 
  Assert.assertEquals(3, paragraph.getChildNodes(NodeType.ANY, true).getCount());
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| newChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) to insert. |
+| refChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) that is the reference node. The  newChild  is placed after the  refChild . |
+
+**Returns:**
+[Node](../../com.aspose.words/node/) - The inserted node.
 ### insertBefore(Node newChild, Node refChild) {#insertBefore-com.aspose.words.Node-com.aspose.words.Node}
 ```
 public Node insertBefore(Node newChild, Node refChild)
@@ -1832,20 +1830,9 @@ Inserts the specified node immediately before the specified reference node.
 
 If  refChild  is  null , inserts  newChild  at the end of the list of child nodes.
 
- **Remarks:** 
-
 If the  newChild  is already in the tree, it is first removed.
 
 If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) to insert. |
-| refChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) that is the reference node. The  newChild  is placed before this node. |
-
-**Returns:**
-[Node](../../com.aspose.words/node/) - The inserted node.
 
  **Examples:** 
 
@@ -1898,6 +1885,15 @@ Shows how to add, update and delete child nodes in a CompositeNode's collection 
  Assert.assertEquals(3, paragraph.getChildNodes(NodeType.ANY, true).getCount());
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| newChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) to insert. |
+| refChild | [Node](../../com.aspose.words/node/) | The [Node](../../com.aspose.words/node/) that is the reference node. The  newChild  is placed before this node. |
+
+**Returns:**
+[Node](../../com.aspose.words/node/) - The inserted node.
 ### isComposite() {#isComposite}
 ```
 public boolean isComposite()
@@ -2007,14 +2003,6 @@ public Node nextPreOrder(Node rootNode)
 
 Gets next node according to the pre-order tree traversal algorithm.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node/) | The top node (limit) of traversal. |
-
-**Returns:**
-[Node](../../com.aspose.words/node/) - Next node in pre-order order. Null if reached the  rootNode .
-
  **Examples:** 
 
 Shows how to traverse the document's node tree using the pre-order traversal algorithm, and delete any encountered shape with an image.
@@ -2058,6 +2046,14 @@ Shows how to traverse the document's node tree using the pre-order traversal alg
  }));
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rootNode | [Node](../../com.aspose.words/node/) | The top node (limit) of traversal. |
+
+**Returns:**
+[Node](../../com.aspose.words/node/) - Next node in pre-order order. Null if reached the  rootNode .
 ### nodeTypeToString(int nodeType) {#nodeTypeToString-int}
 ```
 public static String nodeTypeToString(int nodeType)
@@ -2102,14 +2098,6 @@ Adds the specified node to the beginning of the list of child nodes for this nod
 If the  newChild  is already in the tree, it is first removed.
 
 If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node/) | The node to add. |
-
-**Returns:**
-[Node](../../com.aspose.words/node/) - The node added.
 
  **Examples:** 
 
@@ -2162,6 +2150,14 @@ Shows how to add, update and delete child nodes in a CompositeNode's collection 
  Assert.assertEquals(3, paragraph.getChildNodes(NodeType.ANY, true).getCount());
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| newChild | [Node](../../com.aspose.words/node/) | The node to add. |
+
+**Returns:**
+[Node](../../com.aspose.words/node/) - The node added.
 ### previousPreOrder(Node rootNode) {#previousPreOrder-com.aspose.words.Node}
 ```
 public Node previousPreOrder(Node rootNode)
@@ -2169,14 +2165,6 @@ public Node previousPreOrder(Node rootNode)
 
 
 Gets the previous node according to the pre-order tree traversal algorithm.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node/) | The top node (limit) of traversal. |
-
-**Returns:**
-[Node](../../com.aspose.words/node/) - Previous node in pre-order order. Null if reached the  rootNode .
 
  **Examples:** 
 
@@ -2221,6 +2209,14 @@ Shows how to traverse the document's node tree using the pre-order traversal alg
  }));
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rootNode | [Node](../../com.aspose.words/node/) | The top node (limit) of traversal. |
+
+**Returns:**
+[Node](../../com.aspose.words/node/) - Previous node in pre-order order. Null if reached the  rootNode .
 ### remove() {#remove}
 ```
 public void remove()
@@ -2360,14 +2356,6 @@ Removes the specified child node.
 
 The parent of  oldChild  is set to  null  after the node is removed.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| oldChild | [Node](../../com.aspose.words/node/) | The node to remove. |
-
-**Returns:**
-[Node](../../com.aspose.words/node/) - The removed node.
-
  **Examples:** 
 
 Shows how to use of methods of Node and CompositeNode to remove a section before the last section in the document.
@@ -2393,6 +2381,14 @@ Shows how to use of methods of Node and CompositeNode to remove a section before
  Assert.assertEquals("Section 2 text.", doc.getText().trim());
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| oldChild | [Node](../../com.aspose.words/node/) | The node to remove. |
+
+**Returns:**
+[Node](../../com.aspose.words/node/) - The removed node.
 ### removeSmartTags() {#removeSmartTags}
 ```
 public void removeSmartTags()
@@ -2524,14 +2520,6 @@ Selects a list of nodes matching the XPath expression.
 
 Only expressions with element names are supported at the moment. Expressions that use attribute names are not supported.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| xpath | java.lang.String | The XPath expression. |
-
-**Returns:**
-[NodeList](../../com.aspose.words/nodelist/) - A list of nodes matching the XPath query.
-
  **Examples:** 
 
 Shows how to use an XPath expression to test whether a node is inside a field.
@@ -2582,6 +2570,14 @@ Shows how to select certain nodes by using an XPath expression.
  Assert.assertEquals(Paragraph.class, node.getClass());
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| xpath | java.lang.String | The XPath expression. |
+
+**Returns:**
+[NodeList](../../com.aspose.words/nodelist/) - A list of nodes matching the XPath query.
 ### selectSingleNode(String xpath) {#selectSingleNode-java.lang.String}
 ```
 public Node selectSingleNode(String xpath)
@@ -2593,14 +2589,6 @@ Selects the first [Node](../../com.aspose.words/node/) that matches the XPath ex
  **Remarks:** 
 
 Only expressions with element names are supported at the moment. Expressions that use attribute names are not supported.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| xpath | java.lang.String | The XPath expression. |
-
-**Returns:**
-[Node](../../com.aspose.words/node/) - The first [Node](../../com.aspose.words/node/) that matches the XPath query or  null  if no matching node is found.
 
  **Examples:** 
 
@@ -2635,6 +2623,14 @@ Shows how to select certain nodes by using an XPath expression.
  Assert.assertEquals(Paragraph.class, node.getClass());
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| xpath | java.lang.String | The XPath expression. |
+
+**Returns:**
+[Node](../../com.aspose.words/node/) - The first [Node](../../com.aspose.words/node/) that matches the XPath query or  null  if no matching node is found.
 ### setCustomNodeId(int value) {#setCustomNodeId-int}
 ```
 public void setCustomNodeId(int value)
@@ -2717,14 +2713,6 @@ public String toString(SaveOptions saveOptions)
 
 Exports the content of the node into a string using the specified save options.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) | Specifies the options that control how the node is saved. |
-
-**Returns:**
-java.lang.String - The content of the node in the specified format.
-
  **Examples:** 
 
 Exports the content of a node to String in HTML format.
@@ -2750,6 +2738,14 @@ Exports the content of a node to String in HTML format.
          "", node.toString(saveOptions));
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) | Specifies the options that control how the node is saved. |
+
+**Returns:**
+java.lang.String - The content of the node in the specified format.
 ### toString(int saveFormat) {#toString-int}
 ```
 public String toString(int saveFormat)

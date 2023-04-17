@@ -151,9 +151,6 @@ public int evaluateCondition()
 
 Evaluates the condition.
 
-**Returns:**
-int - A [FieldIfComparisonResult](../../com.aspose.words/fieldifcomparisonresult/) value that represents the result of the condition evaluation. The returned value is one of [FieldIfComparisonResult](../../com.aspose.words/fieldifcomparisonresult/) constants.
-
  **Examples:** 
 
 Shows how to insert an IF field.
@@ -198,6 +195,9 @@ Shows how to insert an IF field.
  doc.save(getArtifactsDir() + "Field.IF.docx");
  
 ```
+
+**Returns:**
+int - A [FieldIfComparisonResult](../../com.aspose.words/fieldifcomparisonresult/) value that represents the result of the condition evaluation. The returned value is one of [FieldIfComparisonResult](../../com.aspose.words/fieldifcomparisonresult/) constants.
 ### getClass() {#getClass}
 ```
 public final native Class<?> getClass()
@@ -519,11 +519,6 @@ public String getFieldCode(boolean includeChildFieldCodes)
 
 Returns text between field start and field separator (or field end if there is no separator).
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| includeChildFieldCodes | boolean |  true  if child field codes should be included.
-
  **Examples:** 
 
 Shows how to get a field's field code.
@@ -545,7 +540,12 @@ Shows how to get a field's field code.
  // By default, the GetFieldCode method displays inner fields.
  Assert.assertEquals(fieldIf.getFieldCode(), fieldIf.getFieldCode(true));
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| includeChildFieldCodes | boolean |  true  if child field codes should be included. |
 
 **Returns:**
 java.lang.String
@@ -1836,9 +1836,6 @@ Replaces the field with its most recent result.
 
 Some fields, such as XE (Index Entry) fields and SEQ (Sequence) fields, cannot be unlinked.
 
-**Returns:**
-boolean -  true  if the field has been unlinked, otherwise  false .
-
  **Examples:** 
 
 Shows how to unlink a field.
@@ -1849,6 +1846,9 @@ Shows how to unlink a field.
  doc.getRange().getFields().get(1).unlink();
  
 ```
+
+**Returns:**
+boolean -  true  if the field has been unlinked, otherwise  false .
 ### update() {#update}
 ```
 public void update()
@@ -1969,11 +1969,6 @@ public void update(boolean ignoreMergeFormat)
 
 Performs a field update. Throws if the field is being updated already.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| ignoreMergeFormat | boolean | If  true  then direct field result formatting is abandoned, regardless of the MERGEFORMAT switch, otherwise normal update is performed.
-
  **Examples:** 
 
 Shows how to preserve or discard INCLUDEPICTURE fields when loading a document.
@@ -2010,7 +2005,12 @@ Shows how to preserve or discard INCLUDEPICTURE fields when loading a document.
      }
  }
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ignoreMergeFormat | boolean | If  true  then direct field result formatting is abandoned, regardless of the MERGEFORMAT switch, otherwise normal update is performed. |
 
 ### wait() {#wait}
 ```

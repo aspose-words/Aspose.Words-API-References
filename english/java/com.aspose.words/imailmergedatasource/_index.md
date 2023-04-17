@@ -163,14 +163,6 @@ If this data source object does not have a relation to the table with the specif
 
 If a table with the specified name does not exist, your implementation should return  null .
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| tableName | java.lang.String | The name of the mail merge region as specified in the template document. Case-insensitive. |
-
-**Returns:**
-[IMailMergeDataSource](../../com.aspose.words/imailmergedatasource/) - A data source object that will provide access to the data records of the specified table.
-
  **Examples:** 
 
 Performs mail merge from a custom data source.
@@ -289,6 +281,14 @@ Performs mail merge from a custom data source.
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tableName | java.lang.String | The name of the mail merge region as specified in the template document. Case-insensitive. |
+
+**Returns:**
+[IMailMergeDataSource](../../com.aspose.words/imailmergedatasource/) - A data source object that will provide access to the data records of the specified table.
 ### getTableName() {#getTableName}
 ```
 public abstract String getTableName()
@@ -303,9 +303,6 @@ If you are implementing [IMailMergeDataSource](../../com.aspose.words/imailmerge
 
 Aspose.Words uses this name to match against the mail merge region name specified in the template document. The comparison between the data source name and the mail merge region name is not case sensitive.
 
-**Returns:**
-java.lang.String - The name of the data source. Empty string if the data source has no name.
-
  **Examples:** 
 
 Performs mail merge from a custom data source.
@@ -424,6 +421,9 @@ Performs mail merge from a custom data source.
  }
  
 ```
+
+**Returns:**
+java.lang.String - The name of the data source. Empty string if the data source has no name.
 ### getValue(String fieldName, Ref fieldValue) {#getValue-java.lang.String-com.aspose.words.ref.Ref}
 ```
 public abstract boolean getValue(String fieldName, Ref fieldValue)
@@ -448,9 +448,6 @@ public abstract boolean moveNext()
 
 Advances to the next record in the data source.
 
-**Returns:**
-boolean -  true  if moved to next record successfully;  false  if reached end of the data source.
-
  **Examples:** 
 
 Performs mail merge from a custom data source.
@@ -569,3 +566,6 @@ Performs mail merge from a custom data source.
  }
  
 ```
+
+**Returns:**
+boolean -  true  if moved to next record successfully;  false  if reached end of the data source.

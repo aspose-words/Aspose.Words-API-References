@@ -117,14 +117,6 @@ Even if this method detects the document format, it does not guarantee that the 
 
 This method throws [FileCorruptedException](../../com.aspose.words/filecorruptedexception/) when the format is recognized, but the detection cannot complete because of corruption.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fileName | java.lang.String | The file name. |
-
-**Returns:**
-[FileFormatInfo](../../com.aspose.words/fileformatinfo/) - A [FileFormatInfo](../../com.aspose.words/fileformatinfo/) object that contains the detected information.
-
  **Examples:** 
 
 Shows how to use the FileFormatUtil class to detect the document format and encryption.
@@ -171,6 +163,14 @@ Shows how to use the FileFormatUtil class to detect the document format and pres
  Assert.assertEquals(1, DigitalSignatureUtil.loadSignatures(getArtifactsDir() + "File.DetectDigitalSignatures.docx").getCount());
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | java.lang.String | The file name. |
+
+**Returns:**
+[FileFormatInfo](../../com.aspose.words/fileformatinfo/) - A [FileFormatInfo](../../com.aspose.words/fileformatinfo/) object that contains the detected information.
 ### equals(Object arg0) {#equals-java.lang.Object}
 ```
 public boolean equals(Object arg0)
@@ -197,11 +197,7 @@ Converts a file name extension into a [SaveFormat](../../com.aspose.words/savefo
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| extension | java.lang.String | The file extension. Can be with or without a leading dot. Case-insensitive.
-
- **Remarks:** 
-
-If the extension cannot be recognized, returns [SaveFormat.UNKNOWN](../../com.aspose.words/saveformat/\#UNKNOWN). |
+| extension | java.lang.String | The file extension. Can be with or without a leading dot. Case-insensitive. |
 
 **Returns:**
 int

@@ -192,14 +192,6 @@ public abstract int replacing(ReplacingArgs args)
 
 A user defined method that is called during a replace operation for each match found just before a replace is made.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| args | [ReplacingArgs](../../com.aspose.words/replacingargs/) |  |
-
-**Returns:**
-int - A [ReplaceAction](../../com.aspose.words/replaceaction/) value that specifies the action to be taken for the current match. The returned value is one of [ReplaceAction](../../com.aspose.words/replaceaction/) constants.
-
  **Examples:** 
 
 Shows how to replace all occurrences of a regular expression pattern with another string, while tracking all such replacements.
@@ -311,3 +303,11 @@ Shows how to insert an entire document's contents as a replacement of a match in
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| args | [ReplacingArgs](../../com.aspose.words/replacingargs/) |  |
+
+**Returns:**
+int - A [ReplaceAction](../../com.aspose.words/replaceaction/) value that specifies the action to be taken for the current match. The returned value is one of [ReplaceAction](../../com.aspose.words/replaceaction/) constants.

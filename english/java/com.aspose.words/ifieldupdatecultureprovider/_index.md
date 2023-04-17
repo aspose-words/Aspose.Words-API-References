@@ -91,15 +91,6 @@ public abstract System.Globalization.CultureInfo getCulture(String culture, Fiel
 
 Returns a [CultureInfo](../../com.aspose.words.net.system.globalization/cultureinfo/) object to be used during the field's update.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| culture | java.lang.String | The name of the culture requested for the field being updated. |
-| field | [Field](../../com.aspose.words/field/) | The field being updated. |
-
-**Returns:**
-[CultureInfo](../../com.aspose.words.net.system.globalization/cultureinfo/) - The culture object that should be used for the field's update.
-
  **Examples:** 
 
 Shows how to specify a culture which parses date/time formatting for each field.
@@ -165,3 +156,12 @@ Shows how to specify a culture which parses date/time formatting for each field.
  }
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| culture | java.lang.String | The name of the culture requested for the field being updated. |
+| field | [Field](../../com.aspose.words/field/) | The field being updated. |
+
+**Returns:**
+[CultureInfo](../../com.aspose.words.net.system.globalization/cultureinfo/) - The culture object that should be used for the field's update.

@@ -116,11 +116,6 @@ public LayoutCollector(Document doc)
 
 Initializes an instance of this class.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| doc | [Document](../../com.aspose.words/document/) | The document to which this collector instance will be attached to.
-
  **Examples:** 
 
 Shows how to see the the ranges of pages that a node spans.
@@ -174,7 +169,12 @@ Shows how to see the the ranges of pages that a node spans.
  Assert.assertEquals(LayoutEntityType.SPAN, layoutEnumerator.getType());
  Assert.assertEquals("¶", layoutEnumerator.getText());
  
-``` |
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| doc | [Document](../../com.aspose.words/document/) | The document to which this collector instance will be attached to. |
 
 ### clear() {#clear}
 ```
