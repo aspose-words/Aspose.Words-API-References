@@ -1,9 +1,10 @@
 ---
-title: get_RangeEnd
+title: Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_RangeEnd method
+linktitle: get_RangeEnd
 second_title: Aspose.Words for C++ API Reference
-description: Specifies end of range if the StructuredDocumentTag is a ranged structured document tag. Otherwise returns null.
+description: 'Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_RangeEnd method. Specifies end of range if the StructuredDocumentTag is a ranged structured document tag. Otherwise returns null in C++.'
 type: docs
-weight: 196
+weight: 16000
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/get_rangeend/
 ---
 ## StructuredDocumentTagRangeStart::get_RangeEnd method
@@ -53,4 +54,4 @@ std::cout << String::Format(u"\t|NodeType: {0}", rangeEndTag->get_NodeType()) <<
 * Class [StructuredDocumentTagRangeEnd](../../structureddocumenttagrangeend/)
 * Class [StructuredDocumentTagRangeStart](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

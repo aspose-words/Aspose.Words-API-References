@@ -1,9 +1,10 @@
 ---
-title: idx_set
+title: Aspose::Words::Settings::OdsoRecipientDataCollection::idx_set method
+linktitle: idx_set
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets an item in this collection.
+description: 'Aspose::Words::Settings::OdsoRecipientDataCollection::idx_set method. Gets or sets an item in this collection in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words.settings/odsorecipientdatacollection/idx_set/
 ---
 ## OdsoRecipientDataCollection::idx_set method
@@ -20,4 +21,4 @@ void Aspose::Words::Settings::OdsoRecipientDataCollection::idx_set(int32_t index
 * Class [OdsoRecipientData](../../odsorecipientdata/)
 * Class [OdsoRecipientDataCollection](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: GetText
+title: Aspose::Words::Node::GetText method
+linktitle: GetText
 second_title: Aspose.Words for C++ API Reference
-description: Gets the text of this node and of all its children.
+description: 'Aspose::Words::Node::GetText method. Gets the text of this node and of all its children in C++.'
 type: docs
-weight: 183
+weight: 15000
 url: /cpp/aspose.words/node/gettext/
 ---
 ## Node::GetText method
@@ -92,4 +93,4 @@ doc->Save(ArtifactsDir + u"Section.CreateManually.docx");
 
 * Class [Node](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

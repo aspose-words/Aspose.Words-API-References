@@ -1,9 +1,10 @@
 ---
-title: HeaderFooter
+title: Aspose::Words::HeaderFooter::HeaderFooter constructor
+linktitle: HeaderFooter
 second_title: Aspose.Words for C++ API Reference
-description: Creates a new header or footer of the specified type.
+description: 'Aspose::Words::HeaderFooter::HeaderFooter constructor. Creates a new header or footer of the specified type in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words/headerfooter/headerfooter/
 ---
 ## HeaderFooter::HeaderFooter constructor
@@ -68,4 +69,4 @@ doc->Save(ArtifactsDir + u"HeaderFooter.Create.docx");
 * Enum [HeaderFooterType](../../headerfootertype/)
 * Class [HeaderFooter](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

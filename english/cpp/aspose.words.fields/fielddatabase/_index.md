@@ -1,9 +1,10 @@
 ---
-title: FieldDatabase
+title: Aspose::Words::Fields::FieldDatabase class
+linktitle: FieldDatabase
 second_title: Aspose.Words for C++ API Reference
-description: Implements the DATABASE field. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Fields::FieldDatabase class. Implements the DATABASE field. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 352
+weight: 28000
 url: /cpp/aspose.words.fields/fielddatabase/
 ---
 ## FieldDatabase class
@@ -32,7 +33,7 @@ class FieldDatabase : public Aspose::Words::Fields::Field,
 | [get_FormatAttributes](./get_formatattributes/)() | Gets which attributes of the format are to be applied to the table. |
 | [get_InsertHeadings](./get_insertheadings/)() | Gets whether to insert the field names from the database as column headings in the resulting table. |
 | [get_InsertOnceOnMailMerge](./get_insertonceonmailmerge/)() | Gets whether to insert data at the beginning of a merge. |
-| [get_IsDirty](../field/get_isdirty/)() | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [get_IsDirty](../field/get_isdirty/)() | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [get_IsLocked](../field/get_islocked/)() | Gets or sets whether the field is locked (should not recalculate its result). |
 | [get_LastRecord](./get_lastrecord/)() | Gets the integral record number of the last data record to insert. |
 | [get_LocaleId](../field/get_localeid/)() | Gets or sets the LCID of the field. |
@@ -53,7 +54,7 @@ class FieldDatabase : public Aspose::Words::Fields::Field,
 | [set_FormatAttributes](./set_formatattributes/)(const System::String\&) | Sets which attributes of the format are to be applied to the table. |
 | [set_InsertHeadings](./set_insertheadings/)(bool) | Sets whether to insert the field names from the database as column headings in the resulting table. |
 | [set_InsertOnceOnMailMerge](./set_insertonceonmailmerge/)(bool) | Sets whether to insert data at the beginning of a merge. |
-| [set_IsDirty](../field/set_isdirty/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsDirty](../field/get_isdirty/). |
+| [set_IsDirty](../field/set_isdirty/)(bool) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [set_IsLocked](../field/set_islocked/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsLocked](../field/get_islocked/). |
 | [set_LastRecord](./set_lastrecord/)(const System::String\&) | Sets the integral record number of the last data record to insert. |
 | [set_LocaleId](../field/set_localeid/)(int32_t) | Setter for [Aspose::Words::Fields::Field::get_LocaleId](../field/get_localeid/). |
@@ -68,4 +69,4 @@ class FieldDatabase : public Aspose::Words::Fields::Field,
 
 * Class [Field](../field/)
 * Namespace [Aspose::Words::Fields](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

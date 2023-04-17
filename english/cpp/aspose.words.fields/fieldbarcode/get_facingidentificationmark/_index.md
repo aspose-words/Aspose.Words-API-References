@@ -1,9 +1,10 @@
 ---
-title: get_FacingIdentificationMark
+title: Aspose::Words::Fields::FieldBarcode::get_FacingIdentificationMark method
+linktitle: get_FacingIdentificationMark
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the type of a Facing Identification Mark (FIM) to insert.
+description: 'Aspose::Words::Fields::FieldBarcode::get_FacingIdentificationMark method. Gets or sets the type of a Facing Identification Mark (FIM) to insert in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fields/fieldbarcode/get_facingidentificationmark/
 ---
 ## FieldBarcode::get_FacingIdentificationMark method
@@ -61,4 +62,4 @@ doc->Save(ArtifactsDir + u"Field.BARCODE.docx");
 
 * Class [FieldBarcode](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

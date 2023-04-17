@@ -1,9 +1,10 @@
 ---
-title: FileFontSource
+title: Aspose::Words::Fonts::FileFontSource class
+linktitle: FileFontSource
 second_title: Aspose.Words for C++ API Reference
-description: Represents the single TrueType font file stored in the file system. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Fonts::FileFontSource class. Represents the single TrueType font file stored in the file system. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fonts/filefontsource/
 ---
 ## FileFontSource class
@@ -54,4 +55,4 @@ ASSERT_EQ(0, fileFontSource->get_Priority());
 
 * Class [FontSourceBase](../fontsourcebase/)
 * Namespace [Aspose::Words::Fonts](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

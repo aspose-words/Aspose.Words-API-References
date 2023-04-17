@@ -1,9 +1,10 @@
 ---
-title: get_HasImage
+title: Aspose::Words::Drawing::Shape::get_HasImage method
+linktitle: get_HasImage
 second_title: Aspose.Words for C++ API Reference
-description: Returns true if the shape has image bytes or links an image.
+description: 'Aspose::Words::Drawing::Shape::get_HasImage method. Returns true if the shape has image bytes or links an image in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words.drawing/shape/get_hasimage/
 ---
 ## Shape::get_HasImage method
@@ -68,4 +69,4 @@ ASSERT_EQ(0, shapes->LINQ_OfType<SharedPtr<Shape>>()->LINQ_Count([](SharedPtr<Sh
 
 * Class [Shape](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

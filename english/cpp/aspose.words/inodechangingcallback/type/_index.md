@@ -1,9 +1,10 @@
 ---
-title: Type
+title: Aspose::Words::INodeChangingCallback::Type method
+linktitle: Type
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Type method of Aspose::Words::INodeChangingCallback class in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words/inodechangingcallback/type/
 ---
 ## INodeChangingCallback::Type method
@@ -19,4 +20,4 @@ static const System::TypeInfo & Aspose::Words::INodeChangingCallback::Type()
 
 * Interface [INodeChangingCallback](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

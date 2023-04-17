@@ -1,9 +1,10 @@
 ---
-title: Add
+title: Aspose::Words::Markup::SdtListItemCollection::Add method
+linktitle: Add
 second_title: Aspose.Words for C++ API Reference
-description: Adds an item to this collection.
+description: 'Aspose::Words::Markup::SdtListItemCollection::Add method. Adds an item to this collection in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.markup/sdtlistitemcollection/add/
 ---
 ## SdtListItemCollection::Add method
@@ -81,4 +82,4 @@ ASSERT_EQ(0, listItems->get_Count());
 * Class [SdtListItem](../../sdtlistitem/)
 * Class [SdtListItemCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: set_PageFileName
+title: Aspose::Words::Saving::PageSavingArgs::set_PageFileName method
+linktitle: set_PageFileName
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::PageSavingArgs::get_PageFileName.'
+description: 'Aspose::Words::Saving::PageSavingArgs::set_PageFileName method. Setter for Aspose::Words::Saving::PageSavingArgs::get_PageFileName in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words.saving/pagesavingargs/set_pagefilename/
 ---
 ## PageSavingArgs::set_PageFileName method
@@ -19,4 +20,4 @@ void Aspose::Words::Saving::PageSavingArgs::set_PageFileName(const System::Strin
 
 * Class [PageSavingArgs](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

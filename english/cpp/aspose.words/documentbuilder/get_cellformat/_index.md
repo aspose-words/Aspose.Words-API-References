@@ -1,9 +1,10 @@
 ---
-title: get_CellFormat
+title: Aspose::Words::DocumentBuilder::get_CellFormat method
+linktitle: get_CellFormat
 second_title: Aspose.Words for C++ API Reference
-description: Returns an object that represents current table cell formatting properties.
+description: 'Aspose::Words::DocumentBuilder::get_CellFormat method. Returns an object that represents current table cell formatting properties in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words/documentbuilder/get_cellformat/
 ---
 ## DocumentBuilder::get_CellFormat method
@@ -168,4 +169,4 @@ doc->Save(ArtifactsDir + u"DocumentBuilder.SetCellFormatting.docx");
 * Class [CellFormat](../../../aspose.words.tables/cellformat/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

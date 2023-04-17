@@ -1,9 +1,10 @@
 ---
-title: get_FirstRow
+title: Aspose::Words::Tables::Table::get_FirstRow method
+linktitle: get_FirstRow
 second_title: Aspose.Words for C++ API Reference
-description: Returns the first Row node in the table.
+description: 'Aspose::Words::Tables::Table::get_FirstRow method. Returns the first Row node in the table in C++.'
 type: docs
-weight: 287
+weight: 23000
 url: /cpp/aspose.words.tables/table/get_firstrow/
 ---
 ## Table::get_FirstRow method
@@ -74,4 +75,4 @@ doc->Save(ArtifactsDir + u"Table.CombineTables.docx");
 * Class [Row](../../row/)
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

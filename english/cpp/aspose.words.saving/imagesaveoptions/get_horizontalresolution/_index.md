@@ -1,9 +1,10 @@
 ---
-title: get_HorizontalResolution
+title: Aspose::Words::Saving::ImageSaveOptions::get_HorizontalResolution method
+linktitle: get_HorizontalResolution
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the horizontal resolution for the generated images, in dots per inch.
+description: 'Aspose::Words::Saving::ImageSaveOptions::get_HorizontalResolution method. Gets or sets the horizontal resolution for the generated images, in dots per inch in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.saving/imagesaveoptions/get_horizontalresolution/
 ---
 ## ImageSaveOptions::get_HorizontalResolution method
@@ -51,4 +52,4 @@ doc->Save(ArtifactsDir + u"ImageSaveOptions.EditImage.png", options);
 
 * Class [ImageSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

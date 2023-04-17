@@ -1,9 +1,10 @@
 ---
-title: set_Top
+title: Aspose::Words::Drawing::ShapeBase::set_Top method
+linktitle: set_Top
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Drawing::ShapeBase::get_Top.'
+description: 'Aspose::Words::Drawing::ShapeBase::set_Top method. Setter for Aspose::Words::Drawing::ShapeBase::get_Top in C++.'
 type: docs
-weight: 1132
+weight: 88000
 url: /cpp/aspose.words.drawing/shapebase/set_top/
 ---
 ## ShapeBase::set_Top method
@@ -19,4 +20,4 @@ void Aspose::Words::Drawing::ShapeBase::set_Top(double value)
 
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

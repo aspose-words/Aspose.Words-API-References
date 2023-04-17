@@ -1,9 +1,10 @@
 ---
-title: set_DropDownSelectedIndex
+title: Aspose::Words::Fields::FormField::set_DropDownSelectedIndex method
+linktitle: set_DropDownSelectedIndex
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fields::FormField::get_DropDownSelectedIndex.'
+description: 'Aspose::Words::Fields::FormField::set_DropDownSelectedIndex method. Setter for Aspose::Words::Fields::FormField::get_DropDownSelectedIndex in C++.'
 type: docs
-weight: 404
+weight: 32000
 url: /cpp/aspose.words.fields/formfield/set_dropdownselectedindex/
 ---
 ## FormField::set_DropDownSelectedIndex method
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FormField::set_DropDownSelectedIndex(int32_t value)
 
 * Class [FormField](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

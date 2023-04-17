@@ -1,9 +1,10 @@
 ---
-title: MailMergeSettings
+title: Aspose::Words::Settings::MailMergeSettings class
+linktitle: MailMergeSettings
 second_title: Aspose.Words for C++ API Reference
-description: Specifies all of the mail merge information for a document. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Settings::MailMergeSettings class. Specifies all of the mail merge information for a document. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.settings/mailmergesettings/
 ---
 ## MailMergeSettings class
@@ -75,4 +76,4 @@ Aspose.Words preserves mail merge information when loading, saving and convertin
 ## See Also
 
 * Namespace [Aspose::Words::Settings](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

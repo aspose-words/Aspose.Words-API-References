@@ -1,9 +1,10 @@
 ---
-title: get_SaveImagesAsWmf
+title: Aspose::Words::Saving::RtfSaveOptions::get_SaveImagesAsWmf method
+linktitle: get_SaveImagesAsWmf
 second_title: Aspose.Words for C++ API Reference
-description: When true all images will be saved as WMF.
+description: 'Aspose::Words::Saving::RtfSaveOptions::get_SaveImagesAsWmf method. When true all images will be saved as WMF in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.saving/rtfsaveoptions/get_saveimagesaswmf/
 ---
 ## RtfSaveOptions::get_SaveImagesAsWmf method
@@ -67,4 +68,4 @@ else
 
 * Class [RtfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

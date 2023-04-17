@@ -1,9 +1,10 @@
 ---
-title: get_Count
+title: Aspose::Words::Vba::VbaModuleCollection::get_Count method
+linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
-description: Returns the number of VBA modules in the collection.
+description: 'Aspose::Words::Vba::VbaModuleCollection::get_Count method. Returns the number of VBA modules in the collection in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.vba/vbamodulecollection/get_count/
 ---
 ## VbaModuleCollection::get_Count method
@@ -53,4 +54,4 @@ vbaModules->Remove(vbaModules->idx_get(2));
 
 * Class [VbaModuleCollection](../)
 * Namespace [Aspose::Words::Vba](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

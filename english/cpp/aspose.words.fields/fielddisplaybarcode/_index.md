@@ -1,9 +1,10 @@
 ---
-title: FieldDisplayBarcode
+title: Aspose::Words::Fields::FieldDisplayBarcode class
+linktitle: FieldDisplayBarcode
 second_title: Aspose.Words for C++ API Reference
-description: Implements the DISPLAYBARCODE field. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Fields::FieldDisplayBarcode class. Implements the DISPLAYBARCODE field. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 430
+weight: 34000
 url: /cpp/aspose.words.fields/fielddisplaybarcode/
 ---
 ## FieldDisplayBarcode class
@@ -34,7 +35,7 @@ class FieldDisplayBarcode : public Aspose::Words::Fields::Field,
 | [get_FixCheckDigit](./get_fixcheckdigit/)() | Gets or sets whether to fix the check digit if it’s invalid. |
 | [get_ForegroundColor](./get_foregroundcolor/)() | Gets or sets the foreground color of the barcode symbol. Valid values are in the range [0, 0xFFFFFF]. |
 | [get_Format](../field/get_format/)() | Gets a [FieldFormat](../fieldformat/) object that provides typed access to field's formatting. |
-| [get_IsDirty](../field/get_isdirty/)() | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [get_IsDirty](../field/get_isdirty/)() | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [get_IsLocked](../field/get_islocked/)() | Gets or sets whether the field is locked (should not recalculate its result). |
 | [get_LocaleId](../field/get_localeid/)() | Gets or sets the LCID of the field. |
 | [get_PosCodeStyle](./get_poscodestyle/)() | Gets or sets the style of a Point of Sale barcode (barcode types UPCA|UPCE|EAN13|EAN8). The valid values (case insensitive) are [STD|SUP2|SUP5|CASE]. |
@@ -59,7 +60,7 @@ class FieldDisplayBarcode : public Aspose::Words::Fields::Field,
 | [set_ErrorCorrectionLevel](./set_errorcorrectionlevel/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldDisplayBarcode::get_ErrorCorrectionLevel](./get_errorcorrectionlevel/). |
 | [set_FixCheckDigit](./set_fixcheckdigit/)(bool) | Setter for [Aspose::Words::Fields::FieldDisplayBarcode::get_FixCheckDigit](./get_fixcheckdigit/). |
 | [set_ForegroundColor](./set_foregroundcolor/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldDisplayBarcode::get_ForegroundColor](./get_foregroundcolor/). |
-| [set_IsDirty](../field/set_isdirty/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsDirty](../field/get_isdirty/). |
+| [set_IsDirty](../field/set_isdirty/)(bool) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [set_IsLocked](../field/set_islocked/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsLocked](../field/get_islocked/). |
 | [set_LocaleId](../field/set_localeid/)(int32_t) | Setter for [Aspose::Words::Fields::Field::get_LocaleId](../field/get_localeid/). |
 | [set_PosCodeStyle](./set_poscodestyle/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldDisplayBarcode::get_PosCodeStyle](./get_poscodestyle/). |
@@ -132,4 +133,4 @@ doc->Save(ArtifactsDir + u"Field.DISPLAYBARCODE.docx");
 
 * Class [Field](../field/)
 * Namespace [Aspose::Words::Fields](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

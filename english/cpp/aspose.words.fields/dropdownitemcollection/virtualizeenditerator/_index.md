@@ -1,9 +1,10 @@
 ---
-title: virtualizeEndIterator
+title: Aspose::Words::Fields::DropDownItemCollection::virtualizeEndIterator method
+linktitle: virtualizeEndIterator
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use virtualizeEndIterator method of Aspose::Words::Fields::DropDownItemCollection class in C++.'
 type: docs
-weight: 274
+weight: 22000
 url: /cpp/aspose.words.fields/dropdownitemcollection/virtualizeenditerator/
 ---
 ## DropDownItemCollection::virtualizeEndIterator method
@@ -20,4 +21,4 @@ virtualized_iterator * Aspose::Words::Fields::DropDownItemCollection::virtualize
 * Typedef [virtualized_iterator](../virtualized_iterator/)
 * Class [DropDownItemCollection](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

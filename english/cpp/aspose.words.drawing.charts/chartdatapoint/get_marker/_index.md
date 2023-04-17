@@ -1,9 +1,10 @@
 ---
-title: get_Marker
+title: Aspose::Words::Drawing::Charts::ChartDataPoint::get_Marker method
+linktitle: get_Marker
 second_title: Aspose.Words for C++ API Reference
-description: Specifies chart data marker.
+description: 'Aspose::Words::Drawing::Charts::ChartDataPoint::get_Marker method. Specifies chart data marker in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.drawing.charts/chartdatapoint/get_marker/
 ---
 ## ChartDataPoint::get_Marker method
@@ -20,4 +21,4 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::ChartMarker> Aspose::Words::Dr
 * Class [ChartMarker](../../chartmarker/)
 * Class [ChartDataPoint](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

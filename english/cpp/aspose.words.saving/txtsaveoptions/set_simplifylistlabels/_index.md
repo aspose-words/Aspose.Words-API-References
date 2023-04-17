@@ -1,9 +1,10 @@
 ---
-title: set_SimplifyListLabels
+title: Aspose::Words::Saving::TxtSaveOptions::set_SimplifyListLabels method
+linktitle: set_SimplifyListLabels
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::TxtSaveOptions::get_SimplifyListLabels.'
+description: 'Aspose::Words::Saving::TxtSaveOptions::set_SimplifyListLabels method. Setter for Aspose::Words::Saving::TxtSaveOptions::get_SimplifyListLabels in C++.'
 type: docs
-weight: 183
+weight: 15000
 url: /cpp/aspose.words.saving/txtsaveoptions/set_simplifylistlabels/
 ---
 ## TxtSaveOptions::set_SimplifyListLabels method
@@ -19,4 +20,4 @@ void Aspose::Words::Saving::TxtSaveOptions::set_SimplifyListLabels(bool value)
 
 * Class [TxtSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

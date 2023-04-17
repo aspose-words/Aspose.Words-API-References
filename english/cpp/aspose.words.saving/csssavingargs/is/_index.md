@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Saving::CssSavingArgs::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Saving::CssSavingArgs class in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.saving/csssavingargs/is/
 ---
 ## CssSavingArgs::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Saving::CssSavingArgs::Is(const System::TypeInfo &ta
 
 * Class [CssSavingArgs](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

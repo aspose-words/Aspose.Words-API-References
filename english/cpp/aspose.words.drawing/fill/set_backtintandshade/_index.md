@@ -1,9 +1,10 @@
 ---
-title: set_BackTintAndShade
+title: Aspose::Words::Drawing::Fill::set_BackTintAndShade method
+linktitle: set_BackTintAndShade
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Drawing::Fill::get_BackTintAndShade.'
+description: 'Aspose::Words::Drawing::Fill::set_BackTintAndShade method. Setter for Aspose::Words::Drawing::Fill::get_BackTintAndShade in C++.'
 type: docs
-weight: 378
+weight: 30000
 url: /cpp/aspose.words.drawing/fill/set_backtintandshade/
 ---
 ## Fill::set_BackTintAndShade method
@@ -19,4 +20,4 @@ void Aspose::Words::Drawing::Fill::set_BackTintAndShade(double value)
 
 * Class [Fill](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: set_TextWrapping
+title: Aspose::Words::Tables::Table::set_TextWrapping method
+linktitle: set_TextWrapping
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Tables::Table::get_TextWrapping.'
+description: 'Aspose::Words::Tables::Table::set_TextWrapping method. Setter for Aspose::Words::Tables::Table::get_TextWrapping in C++.'
 type: docs
-weight: 820
+weight: 64000
 url: /cpp/aspose.words.tables/table/set_textwrapping/
 ---
 ## Table::set_TextWrapping method
@@ -20,4 +21,4 @@ void Aspose::Words::Tables::Table::set_TextWrapping(Aspose::Words::Tables::TextW
 * Enum [TextWrapping](../../textwrapping/)
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

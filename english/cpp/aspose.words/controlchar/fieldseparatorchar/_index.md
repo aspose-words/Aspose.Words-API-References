@@ -1,9 +1,10 @@
 ---
-title: FieldSeparatorChar
+title: Aspose::Words::ControlChar::FieldSeparatorChar field
+linktitle: FieldSeparatorChar
 second_title: Aspose.Words for C++ API Reference
-description: 'Field separator character separates field code from field value. Optional in some fields. Value: (char)20.'
+description: 'Aspose::Words::ControlChar::FieldSeparatorChar field. Field separator character separates field code from field value. Optional in some fields. Value: (char)20 in C++.'
 type: docs
-weight: 222
+weight: 18000
 url: /cpp/aspose.words/controlchar/fieldseparatorchar/
 ---
 ## FieldSeparatorChar field
@@ -90,4 +91,4 @@ ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::ColumnBreak()), ControlCha
 
 * Class [ControlChar](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

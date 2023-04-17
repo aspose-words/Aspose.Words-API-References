@@ -1,15 +1,16 @@
 ---
-title: set_IsBold
+title: Aspose::Words::Fields::FieldXE::set_IsBold method
+linktitle: set_IsBold
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fields::FieldXE::get_IsBold.'
+description: 'Aspose::Words::Fields::FieldXE::set_IsBold method. Sets whether to apply bold formatting to the entry''s page number in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words.fields/fieldxe/set_isbold/
 ---
 ## FieldXE::set_IsBold method
 
 
-Setter for [Aspose::Words::Fields::FieldXE::get_IsBold](../get_isbold/).
+Sets whether to apply bold formatting to the entry's page number.
 
 ```cpp
 void Aspose::Words::Fields::FieldXE::set_IsBold(bool value)
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldXE::set_IsBold(bool value)
 
 * Class [FieldXE](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

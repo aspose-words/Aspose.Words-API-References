@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Saving::XamlFlowSaveOptions::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Saving::XamlFlowSaveOptions class in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.saving/xamlflowsaveoptions/gettype/
 ---
 ## XamlFlowSaveOptions::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Saving::XamlFlowSaveOptions::Get
 
 * Class [XamlFlowSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

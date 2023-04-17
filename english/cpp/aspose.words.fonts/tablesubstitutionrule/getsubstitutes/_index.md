@@ -1,9 +1,10 @@
 ---
-title: GetSubstitutes
+title: Aspose::Words::Fonts::TableSubstitutionRule::GetSubstitutes method
+linktitle: GetSubstitutes
 second_title: Aspose.Words for C++ API Reference
-description: Returns array containing substitute font names for the specified original font name.
+description: 'Aspose::Words::Fonts::TableSubstitutionRule::GetSubstitutes method. Returns array containing substitute font names for the specified original font name in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.fonts/tablesubstitutionrule/getsubstitutes/
 ---
 ## TableSubstitutionRule::GetSubstitutes method
@@ -138,4 +139,4 @@ doc->Save(ArtifactsDir + u"FontSettings.TableSubstitutionRule.Custom.pdf");
 
 * Class [TableSubstitutionRule](../)
 * Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_ShowLeaderLines
+title: Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_ShowLeaderLines method
+linktitle: get_ShowLeaderLines
 second_title: Aspose.Words for C++ API Reference
-description: Allows to specify whether data label leader lines need be shown for the data labels of the entire series. Default value is false.
+description: 'Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_ShowLeaderLines method. Allows to specify whether data label leader lines need be shown for the data labels of the entire series. Default value is false in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words.drawing.charts/chartdatalabelcollection/get_showleaderlines/
 ---
 ## ChartDataLabelCollection::get_ShowLeaderLines method
@@ -56,4 +57,4 @@ doc->Save(ArtifactsDir + u"Charts.DataLabelsPieChart.docx");
 
 * Class [ChartDataLabelCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

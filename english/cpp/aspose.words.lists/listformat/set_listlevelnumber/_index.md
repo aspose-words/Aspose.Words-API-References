@@ -1,9 +1,10 @@
 ---
-title: set_ListLevelNumber
+title: Aspose::Words::Lists::ListFormat::set_ListLevelNumber method
+linktitle: set_ListLevelNumber
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Lists::ListFormat::get_ListLevelNumber.'
+description: 'Aspose::Words::Lists::ListFormat::set_ListLevelNumber method. Setter for Aspose::Words::Lists::ListFormat::get_ListLevelNumber in C++.'
 type: docs
-weight: 170
+weight: 14000
 url: /cpp/aspose.words.lists/listformat/set_listlevelnumber/
 ---
 ## ListFormat::set_ListLevelNumber method
@@ -19,4 +20,4 @@ void Aspose::Words::Lists::ListFormat::set_ListLevelNumber(int32_t value)
 
 * Class [ListFormat](../)
 * Namespace [Aspose::Words::Lists](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

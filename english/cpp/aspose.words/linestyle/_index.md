@@ -1,9 +1,10 @@
 ---
-title: LineStyle
+title: Aspose::Words::LineStyle enum
+linktitle: LineStyle
 second_title: Aspose.Words for C++ API Reference
-description: Specifies line style of a Border.
+description: 'Aspose::Words::LineStyle enum. Specifies line style of a Border in C++.'
 type: docs
-weight: 1236
+weight: 96000
 url: /cpp/aspose.words/linestyle/
 ---
 ## LineStyle enum
@@ -69,4 +70,4 @@ doc->Save(ArtifactsDir + u"Border.FontBorder.docx");
 ## See Also
 
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

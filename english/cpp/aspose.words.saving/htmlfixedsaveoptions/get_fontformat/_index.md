@@ -1,9 +1,10 @@
 ---
-title: get_FontFormat
+title: Aspose::Words::Saving::HtmlFixedSaveOptions::get_FontFormat method
+linktitle: get_FontFormat
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets ExportFontFormat used for font exporting. Default value is Woff.
+description: 'Aspose::Words::Saving::HtmlFixedSaveOptions::get_FontFormat method. Gets or sets ExportFontFormat used for font exporting. Default value is Woff in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words.saving/htmlfixedsaveoptions/get_fontformat/
 ---
 ## HtmlFixedSaveOptions::get_FontFormat method
@@ -52,4 +53,4 @@ else
 * Enum [ExportFontFormat](../../exportfontformat/)
 * Class [HtmlFixedSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Saving::PdfDigitalSignatureDetails::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Saving::PdfDigitalSignatureDetails class in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words.saving/pdfdigitalsignaturedetails/is/
 ---
 ## PdfDigitalSignatureDetails::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Saving::PdfDigitalSignatureDetails::Is(const System:
 
 * Class [PdfDigitalSignatureDetails](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

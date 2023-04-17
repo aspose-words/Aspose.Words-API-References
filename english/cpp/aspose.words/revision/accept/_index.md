@@ -1,9 +1,10 @@
 ---
-title: Accept
+title: Aspose::Words::Revision::Accept method
+linktitle: Accept
 second_title: Aspose.Words for C++ API Reference
-description: Accepts this revision.
+description: 'Aspose::Words::Revision::Accept method. Accepts this revision in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words/revision/accept/
 ---
 ## Revision::Accept method
@@ -101,4 +102,4 @@ ASSERT_EQ(u"This is revision #1. \rThis is revision #2.", doc->GetText().Trim())
 
 * Class [Revision](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

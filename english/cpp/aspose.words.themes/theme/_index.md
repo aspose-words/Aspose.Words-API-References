@@ -1,9 +1,10 @@
 ---
-title: Theme
+title: Aspose::Words::Themes::Theme class
+linktitle: Theme
 second_title: Aspose.Words for C++ API Reference
-description: Represents document Theme, and provides access to main theme parts including MajorFonts, MinorFonts and ColorsTo learn more, visit the  documentation article.
+description: 'Aspose::Words::Themes::Theme class. Represents document Theme, and provides access to main theme parts including MajorFonts, MinorFonts and ColorsTo learn more, visit the  documentation article in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words.themes/theme/
 ---
 ## Theme class
@@ -77,4 +78,4 @@ doc->Save(ArtifactsDir + u"Themes.CustomColorsAndFonts.docx");
 ## See Also
 
 * Namespace [Aspose::Words::Themes](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

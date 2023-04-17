@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Settings::OdsoFieldMapDataCollection::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Settings::OdsoFieldMapDataCollection class in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words.settings/odsofieldmapdatacollection/gettype/
 ---
 ## OdsoFieldMapDataCollection::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Settings::OdsoFieldMapDataCollec
 
 * Class [OdsoFieldMapDataCollection](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

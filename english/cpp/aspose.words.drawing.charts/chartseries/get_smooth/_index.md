@@ -1,9 +1,10 @@
 ---
-title: get_Smooth
+title: Aspose::Words::Drawing::Charts::ChartSeries::get_Smooth method
+linktitle: get_Smooth
 second_title: Aspose.Words for C++ API Reference
-description: Allows to specify whether the line connecting the points on the chart shall be smoothed using Catmull-Rom splines.
+description: 'Aspose::Words::Drawing::Charts::ChartSeries::get_Smooth method. Allows to specify whether the line connecting the points on the chart shall be smoothed using Catmull-Rom splines in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words.drawing.charts/chartseries/get_smooth/
 ---
 ## ChartSeries::get_Smooth method
@@ -80,4 +81,4 @@ static void ApplyDataPoints(SharedPtr<ChartSeries> series, int dataPointsCount, 
 
 * Class [ChartSeries](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

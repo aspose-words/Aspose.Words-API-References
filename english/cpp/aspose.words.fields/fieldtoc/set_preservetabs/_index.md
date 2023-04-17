@@ -1,9 +1,10 @@
 ---
-title: set_PreserveTabs
+title: Aspose::Words::Fields::FieldToc::set_PreserveTabs method
+linktitle: set_PreserveTabs
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fields::FieldToc::get_PreserveTabs.'
+description: 'Aspose::Words::Fields::FieldToc::set_PreserveTabs method. Setter for Aspose::Words::Fields::FieldToc::get_PreserveTabs in C++.'
 type: docs
-weight: 443
+weight: 35000
 url: /cpp/aspose.words.fields/fieldtoc/set_preservetabs/
 ---
 ## FieldToc::set_PreserveTabs method
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldToc::set_PreserveTabs(bool value)
 
 * Class [FieldToc](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

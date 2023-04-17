@@ -1,9 +1,10 @@
 ---
-title: FieldChar
+title: Aspose::Words::Fields::FieldChar class
+linktitle: FieldChar
 second_title: Aspose.Words for C++ API Reference
-description: Base class for nodes that represent field characters in a document. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Fields::FieldChar class. Base class for nodes that represent field characters in a document. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 261
+weight: 21000
 url: /cpp/aspose.words.fields/fieldchar/
 ---
 ## FieldChar class
@@ -95,4 +96,4 @@ field->Update();
 
 * Class [SpecialChar](../../aspose.words/specialchar/)
 * Namespace [Aspose::Words::Fields](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

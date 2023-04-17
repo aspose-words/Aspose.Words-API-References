@@ -1,9 +1,10 @@
 ---
-title: get_Current
+title: Aspose::Words::Layout::LayoutEnumerator::get_Current method
+linktitle: get_Current
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets current position in the page layout model. This property returns an opaque object which corresponds to the current layout entity.
+description: 'Aspose::Words::Layout::LayoutEnumerator::get_Current method. Gets or sets current position in the page layout model. This property returns an opaque object which corresponds to the current layout entity in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.layout/layoutenumerator/get_current/
 ---
 ## LayoutEnumerator::get_Current method
@@ -77,4 +78,4 @@ ASSERT_EQ(u"¶", layoutEnumerator->get_Text());
 
 * Class [LayoutEnumerator](../)
 * Namespace [Aspose::Words::Layout](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

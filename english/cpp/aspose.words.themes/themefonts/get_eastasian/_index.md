@@ -1,9 +1,10 @@
 ---
-title: get_EastAsian
+title: Aspose::Words::Themes::ThemeFonts::get_EastAsian method
+linktitle: get_EastAsian
 second_title: Aspose.Words for C++ API Reference
-description: Specifies font name for EastAsian characters.
+description: 'Aspose::Words::Themes::ThemeFonts::get_EastAsian method. Specifies font name for EastAsian characters in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.themes/themefonts/get_eastasian/
 ---
 ## ThemeFonts::get_EastAsian method
@@ -66,4 +67,4 @@ doc->Save(ArtifactsDir + u"Themes.CustomColorsAndFonts.docx");
 
 * Class [ThemeFonts](../)
 * Namespace [Aspose::Words::Themes](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

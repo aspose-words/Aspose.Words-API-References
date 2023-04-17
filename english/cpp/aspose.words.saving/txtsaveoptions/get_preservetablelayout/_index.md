@@ -1,9 +1,10 @@
 ---
-title: get_PreserveTableLayout
+title: Aspose::Words::Saving::TxtSaveOptions::get_PreserveTableLayout method
+linktitle: get_PreserveTableLayout
 second_title: Aspose.Words for C++ API Reference
-description: Specifies whether the program should attempt to preserve layout of tables when saving in the plain text format. The default value is false.
+description: 'Aspose::Words::Saving::TxtSaveOptions::get_PreserveTableLayout method. Specifies whether the program should attempt to preserve layout of tables when saving in the plain text format. The default value is false in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.saving/txtsaveoptions/get_preservetablelayout/
 ---
 ## TxtSaveOptions::get_PreserveTableLayout method
@@ -67,4 +68,4 @@ else
 
 * Class [TxtSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

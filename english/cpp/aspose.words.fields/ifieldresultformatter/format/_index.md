@@ -1,9 +1,10 @@
 ---
-title: Format
+title: Aspose::Words::Fields::IFieldResultFormatter::Format method
+linktitle: Format
 second_title: Aspose.Words for C++ API Reference
-description: Called when Aspose.Words applies a number format switch, i.e. \* Ordinal.
+description: 'Aspose::Words::Fields::IFieldResultFormatter::Format method. Called when Aspose.Words applies a number format switch, i.e. \* Ordinal in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fields/ifieldresultformatter/format/
 ---
 ## IFieldResultFormatter::Format(double, Aspose::Words::Fields::GeneralFormat) method
@@ -209,7 +210,7 @@ private:
 * Enum [GeneralFormat](../../generalformat/)
 * Interface [IFieldResultFormatter](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## IFieldResultFormatter::Format(System::String, Aspose::Words::Fields::GeneralFormat) method
 
 
@@ -413,4 +414,4 @@ private:
 * Enum [GeneralFormat](../../generalformat/)
 * Interface [IFieldResultFormatter](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

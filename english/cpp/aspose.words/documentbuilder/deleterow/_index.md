@@ -1,9 +1,10 @@
 ---
-title: DeleteRow
+title: Aspose::Words::DocumentBuilder::DeleteRow method
+linktitle: DeleteRow
 second_title: Aspose.Words for C++ API Reference
-description: Deletes a row from a table.
+description: 'Aspose::Words::DocumentBuilder::DeleteRow method. Deletes a row from a table in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words/documentbuilder/deleterow/
 ---
 ## DocumentBuilder::DeleteRow method
@@ -68,4 +69,4 @@ ASSERT_EQ(u"Row 2, cell 1.\aRow 2, cell 2.\a\a", table->GetText().Trim());
 * Class [Row](../../../aspose.words.tables/row/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

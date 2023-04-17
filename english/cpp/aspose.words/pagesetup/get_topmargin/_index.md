@@ -1,9 +1,10 @@
 ---
-title: get_TopMargin
+title: Aspose::Words::PageSetup::get_TopMargin method
+linktitle: get_TopMargin
 second_title: Aspose.Words for C++ API Reference
-description: Returns or sets the distance (in points) between the top edge of the page and the top boundary of the body text.
+description: 'Aspose::Words::PageSetup::get_TopMargin method. Returns or sets the distance (in points) between the top edge of the page and the top boundary of the body text in C++.'
 type: docs
-weight: 586
+weight: 46000
 url: /cpp/aspose.words/pagesetup/get_topmargin/
 ---
 ## PageSetup::get_TopMargin method
@@ -43,4 +44,4 @@ doc->Save(ArtifactsDir + u"PageSetup.PageMargins.docx");
 
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

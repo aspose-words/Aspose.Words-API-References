@@ -1,9 +1,10 @@
 ---
-title: VisitTableEnd
+title: Aspose::Words::DocumentVisitor::VisitTableEnd method
+linktitle: VisitTableEnd
 second_title: Aspose.Words for C++ API Reference
-description: Called when enumeration of a table has ended.
+description: 'Aspose::Words::DocumentVisitor::VisitTableEnd method. Called when enumeration of a table has ended in C++.'
 type: docs
-weight: 664
+weight: 52000
 url: /cpp/aspose.words/documentvisitor/visittableend/
 ---
 ## DocumentVisitor::VisitTableEnd method
@@ -347,4 +348,4 @@ public:
 * Class [Table](../../../aspose.words.tables/table/)
 * Class [DocumentVisitor](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

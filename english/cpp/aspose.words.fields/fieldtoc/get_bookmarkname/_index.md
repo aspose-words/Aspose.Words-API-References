@@ -1,9 +1,10 @@
 ---
-title: get_BookmarkName
+title: Aspose::Words::Fields::FieldToc::get_BookmarkName method
+linktitle: get_BookmarkName
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the name of the bookmark that marks the portion of the document used to build the table.
+description: 'Aspose::Words::Fields::FieldToc::get_BookmarkName method. Gets or sets the name of the bookmark that marks the portion of the document used to build the table in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.fields/fieldtoc/get_bookmarkname/
 ---
 ## FieldToc::get_BookmarkName method
@@ -100,4 +101,4 @@ void InsertNewPageWithHeading(SharedPtr<DocumentBuilder> builder, String caption
 
 * Class [FieldToc](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

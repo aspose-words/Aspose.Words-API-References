@@ -1,9 +1,10 @@
 ---
-title: Margins
+title: Aspose::Words::Margins enum
+linktitle: Margins
 second_title: Aspose.Words for C++ API Reference
-description: Specifies preset margins.
+description: 'Aspose::Words::Margins enum. Specifies preset margins in C++.'
 type: docs
-weight: 1275
+weight: 99000
 url: /cpp/aspose.words/margins/
 ---
 ## Margins enum
@@ -29,4 +30,4 @@ enum class Margins
 ## See Also
 
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

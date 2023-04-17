@@ -1,9 +1,10 @@
 ---
-title: set_FitText
+title: Aspose::Words::Tables::CellFormat::set_FitText method
+linktitle: set_FitText
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Tables::CellFormat::get_FitText.'
+description: 'Aspose::Words::Tables::CellFormat::set_FitText method. Setter for Aspose::Words::Tables::CellFormat::get_FitText in C++.'
 type: docs
-weight: 248
+weight: 20000
 url: /cpp/aspose.words.tables/cellformat/set_fittext/
 ---
 ## CellFormat::set_FitText method
@@ -19,4 +20,4 @@ void Aspose::Words::Tables::CellFormat::set_FitText(bool value)
 
 * Class [CellFormat](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

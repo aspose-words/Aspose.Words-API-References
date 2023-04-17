@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Saving::IResourceSavingCallback::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Saving::IResourceSavingCallback class in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.saving/iresourcesavingcallback/is/
 ---
 ## IResourceSavingCallback::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Saving::IResourceSavingCallback::Is(const System::Ty
 
 * Interface [IResourceSavingCallback](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

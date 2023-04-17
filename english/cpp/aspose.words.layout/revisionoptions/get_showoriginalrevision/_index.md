@@ -1,9 +1,10 @@
 ---
-title: get_ShowOriginalRevision
+title: Aspose::Words::Layout::RevisionOptions::get_ShowOriginalRevision method
+linktitle: get_ShowOriginalRevision
 second_title: Aspose.Words for C++ API Reference
-description: Allows to specify whether the original text should be shown instead of revised one. Default value is false.
+description: 'Aspose::Words::Layout::RevisionOptions::get_ShowOriginalRevision method. Allows to specify whether the original text should be shown instead of revised one. Default value is false in C++.'
 type: docs
-weight: 222
+weight: 18000
 url: /cpp/aspose.words.layout/revisionoptions/get_showoriginalrevision/
 ---
 ## RevisionOptions::get_ShowOriginalRevision method
@@ -69,4 +70,4 @@ doc->Save(ArtifactsDir + u"Revision.RevisionOptions.pdf");
 
 * Class [RevisionOptions](../)
 * Namespace [Aspose::Words::Layout](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

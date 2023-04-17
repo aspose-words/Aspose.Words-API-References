@@ -1,9 +1,10 @@
 ---
-title: set_FieldUpdatingCallback
+title: Aspose::Words::Fields::FieldOptions::set_FieldUpdatingCallback method
+linktitle: set_FieldUpdatingCallback
 second_title: Aspose.Words for C++ API Reference
-description: Sets IFieldUpdatingCallback implementation.
+description: 'Aspose::Words::Fields::FieldOptions::set_FieldUpdatingCallback method. Sets IFieldUpdatingCallback implementation in C++.'
 type: docs
-weight: 443
+weight: 35000
 url: /cpp/aspose.words.fields/fieldoptions/set_fieldupdatingcallback/
 ---
 ## FieldOptions::set_FieldUpdatingCallback method
@@ -20,4 +21,4 @@ void Aspose::Words::Fields::FieldOptions::set_FieldUpdatingCallback(const System
 * Interface [IFieldUpdatingCallback](../../ifieldupdatingcallback/)
 * Class [FieldOptions](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

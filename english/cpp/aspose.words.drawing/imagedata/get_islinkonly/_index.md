@@ -1,9 +1,10 @@
 ---
-title: get_IsLinkOnly
+title: Aspose::Words::Drawing::ImageData::get_IsLinkOnly method
+linktitle: get_IsLinkOnly
 second_title: Aspose.Words for C++ API Reference
-description: Returns true if the image is linked and not stored in the document.
+description: 'Aspose::Words::Drawing::ImageData::get_IsLinkOnly method. Returns true if the image is linked and not stored in the document in C++.'
 type: docs
-weight: 209
+weight: 17000
 url: /cpp/aspose.words.drawing/imagedata/get_islinkonly/
 ---
 ## ImageData::get_IsLinkOnly method
@@ -81,4 +82,4 @@ dstDoc->Save(ArtifactsDir + u"Drawing.ImageData.docx");
 
 * Class [ImageData](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

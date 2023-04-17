@@ -1,9 +1,10 @@
 ---
-title: Run
+title: Aspose::Words::Run::Run constructor
+linktitle: Run
 second_title: Aspose.Words for C++ API Reference
-description: Initializes a new instance of the Run class.
+description: 'Aspose::Words::Run::Run constructor. Initializes a new instance of the Run class in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words/run/run/
 ---
 ## Run::Run(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&) constructor
@@ -79,7 +80,7 @@ doc->Save(ArtifactsDir + u"Section.CreateManually.docx");
 * Class [DocumentBase](../../documentbase/)
 * Class [Run](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## Run::Run(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&, const System::String\&) constructor
 
 
@@ -124,4 +125,4 @@ doc->Save(ArtifactsDir + u"Font.CreateFormattedRun.docx");
 * Class [DocumentBase](../../documentbase/)
 * Class [Run](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

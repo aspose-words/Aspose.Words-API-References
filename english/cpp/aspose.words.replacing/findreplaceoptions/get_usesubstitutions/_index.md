@@ -1,9 +1,10 @@
 ---
-title: get_UseSubstitutions
+title: Aspose::Words::Replacing::FindReplaceOptions::get_UseSubstitutions method
+linktitle: get_UseSubstitutions
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets a boolean value indicating whether to recognize and use substitutions within replacement patterns. The default value is false.
+description: 'Aspose::Words::Replacing::FindReplaceOptions::get_UseSubstitutions method. Gets or sets a boolean value indicating whether to recognize and use substitutions within replacement patterns. The default value is false in C++.'
 type: docs
-weight: 222
+weight: 18000
 url: /cpp/aspose.words.replacing/findreplaceoptions/get_usesubstitutions/
 ---
 ## FindReplaceOptions::get_UseSubstitutions method
@@ -69,4 +70,4 @@ ASSERT_EQ(useSubstitutions ? String(u"Paul bought a car from John.\rJoe bought a
 
 * Class [FindReplaceOptions](../)
 * Namespace [Aspose::Words::Replacing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

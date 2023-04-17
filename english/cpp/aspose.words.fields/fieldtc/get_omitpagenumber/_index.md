@@ -1,9 +1,10 @@
 ---
-title: get_OmitPageNumber
+title: Aspose::Words::Fields::FieldTC::get_OmitPageNumber method
+linktitle: get_OmitPageNumber
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets whether page number in TOC should be omitted for this field.
+description: 'Aspose::Words::Fields::FieldTC::get_OmitPageNumber method. Gets or sets whether page number in TOC should be omitted for this field in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.fields/fieldtc/get_omitpagenumber/
 ---
 ## FieldTC::get_OmitPageNumber method
@@ -67,4 +68,4 @@ void InsertTocEntry(SharedPtr<DocumentBuilder> builder, String text, String type
 
 * Class [FieldTC](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

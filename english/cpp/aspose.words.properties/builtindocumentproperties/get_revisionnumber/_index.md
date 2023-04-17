@@ -1,9 +1,10 @@
 ---
-title: get_RevisionNumber
+title: Aspose::Words::Properties::BuiltInDocumentProperties::get_RevisionNumber method
+linktitle: get_RevisionNumber
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the document revision number.
+description: 'Aspose::Words::Properties::BuiltInDocumentProperties::get_RevisionNumber method. Gets or sets the document revision number in C++.'
 type: docs
-weight: 300
+weight: 24000
 url: /cpp/aspose.words.properties/builtindocumentproperties/get_revisionnumber/
 ---
 ## BuiltInDocumentProperties::get_RevisionNumber method
@@ -82,4 +83,4 @@ ASSERT_EQ(u"2", field->get_Result());
 
 * Class [BuiltInDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

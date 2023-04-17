@@ -1,9 +1,10 @@
 ---
-title: set_LeftPadding
+title: Aspose::Words::Tables::CellFormat::set_LeftPadding method
+linktitle: set_LeftPadding
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Tables::CellFormat::get_LeftPadding.'
+description: 'Aspose::Words::Tables::CellFormat::set_LeftPadding method. Setter for Aspose::Words::Tables::CellFormat::get_LeftPadding in C++.'
 type: docs
-weight: 274
+weight: 22000
 url: /cpp/aspose.words.tables/cellformat/set_leftpadding/
 ---
 ## CellFormat::set_LeftPadding method
@@ -19,4 +20,4 @@ void Aspose::Words::Tables::CellFormat::set_LeftPadding(double value)
 
 * Class [CellFormat](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: LoadFormat
+title: Aspose::Words::LoadFormat enum
+linktitle: LoadFormat
 second_title: Aspose.Words for C++ API Reference
-description: Indicates the format of the document that is to be loaded.
+description: 'Aspose::Words::LoadFormat enum. Indicates the format of the document that is to be loaded in C++.'
 type: docs
-weight: 1249
+weight: 97000
 url: /cpp/aspose.words/loadformat/
 ---
 ## LoadFormat enum
@@ -49,28 +50,6 @@ enum class LoadFormat
 
 ## Examples
 
-
-
-Shows how save a web page as a .docx file. 
-```cpp
-const String url = u"https://www.aspose.com/";
-
-{
-    auto client = MakeObject<System::Net::WebClient>();
-    {
-        auto stream = MakeObject<System::IO::MemoryStream>(client->DownloadData(url));
-        // The URL is used again as a baseUri to ensure that any relative image paths are retrieved correctly.
-        auto options = MakeObject<LoadOptions>(LoadFormat::Html, u"", url);
-
-        // Load the HTML document from stream and pass the LoadOptions object.
-        auto doc = MakeObject<Document>(stream, options);
-
-        // At this stage, we can read and edit the document's contents and then save it to the local file system.
-
-        doc->Save(ArtifactsDir + u"Document.InsertHtmlFromWebPage.docx");
-    }
-}
-```
 
 
 Shows how to use the [FileFormatUtil](../fileformatutil/) methods to detect the format of a document. 
@@ -123,4 +102,4 @@ doc->Save(ArtifactsDir + u"HtmlLoadOptions.BaseUri.docx");
 ## See Also
 
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

@@ -1,9 +1,10 @@
 ---
-title: ShapeType
+title: Aspose::Words::Drawing::ShapeType enum
+linktitle: ShapeType
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the type of shape in a Microsoft Word document.
+description: 'Aspose::Words::Drawing::ShapeType enum. Specifies the type of shape in a Microsoft Word document in C++.'
 type: docs
-weight: 482
+weight: 38000
 url: /cpp/aspose.words.drawing/shapetype/
 ---
 ## ShapeType enum
@@ -323,4 +324,4 @@ for (SharedPtr<Shape> shape : shapes)
 ## See Also
 
 * Namespace [Aspose::Words::Drawing](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

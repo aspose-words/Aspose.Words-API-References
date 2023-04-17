@@ -1,9 +1,10 @@
 ---
-title: get_Pitch
+title: Aspose::Words::Fonts::FontInfo::get_Pitch method
+linktitle: get_Pitch
 second_title: Aspose.Words for C++ API Reference
-description: The pitch indicates if the font is fixed pitch, proportionally spaced, or relies on a default setting.
+description: 'Aspose::Words::Fonts::FontInfo::get_Pitch method. The pitch indicates if the font is fixed pitch, proportionally spaced, or relies on a default setting in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.fonts/fontinfo/get_pitch/
 ---
 ## FontInfo::get_Pitch method
@@ -58,4 +59,4 @@ while (fontCollectionEnumerator->MoveNext())
 * Enum [FontPitch](../../fontpitch/)
 * Class [FontInfo](../)
 * Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

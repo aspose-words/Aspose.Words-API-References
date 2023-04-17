@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Markup::SmartTag::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Markup::SmartTag class in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.markup/smarttag/gettype/
 ---
 ## SmartTag::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Markup::SmartTag::GetType() cons
 
 * Class [SmartTag](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

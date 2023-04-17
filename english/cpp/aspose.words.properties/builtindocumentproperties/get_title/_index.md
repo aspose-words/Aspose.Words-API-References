@@ -1,9 +1,10 @@
 ---
-title: get_Title
+title: Aspose::Words::Properties::BuiltInDocumentProperties::get_Title method
+linktitle: get_Title
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the title of the document.
+description: 'Aspose::Words::Properties::BuiltInDocumentProperties::get_Title method. Gets or sets the title of the document in C++.'
 type: docs
-weight: 365
+weight: 29000
 url: /cpp/aspose.words.properties/builtindocumentproperties/get_title/
 ---
 ## BuiltInDocumentProperties::get_Title method
@@ -63,4 +64,4 @@ doc->Save(ArtifactsDir + u"DocumentProperties.Description.docx");
 
 * Class [BuiltInDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

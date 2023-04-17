@@ -1,9 +1,10 @@
 ---
-title: MoveToStructuredDocumentTag
+title: Aspose::Words::DocumentBuilder::MoveToStructuredDocumentTag method
+linktitle: MoveToStructuredDocumentTag
 second_title: Aspose.Words for C++ API Reference
-description: Moves the cursor to the structured document tag.
+description: 'Aspose::Words::DocumentBuilder::MoveToStructuredDocumentTag method. Moves the cursor to the structured document tag in C++.'
 type: docs
-weight: 781
+weight: 61000
 url: /cpp/aspose.words/documentbuilder/movetostructureddocumenttag/
 ---
 ## DocumentBuilder::MoveToStructuredDocumentTag(const System::SharedPtr\<Aspose::Words::Markup::StructuredDocumentTag\>\&, int32_t) method
@@ -26,7 +27,7 @@ void Aspose::Words::DocumentBuilder::MoveToStructuredDocumentTag(const System::S
 * Class [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## DocumentBuilder::MoveToStructuredDocumentTag(int32_t, int32_t) method
 
 
@@ -52,4 +53,4 @@ When *structuredDocumentTagIndex* is greater than or equal to 0, it specifies an
 
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Fields::FieldUserInitials::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Fields::FieldUserInitials class in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.fields/fielduserinitials/gettype/
 ---
 ## FieldUserInitials::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Fields::FieldUserInitials::GetTy
 
 * Class [FieldUserInitials](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_HtmlVersion
+title: Aspose::Words::Saving::HtmlSaveOptions::get_HtmlVersion method
+linktitle: get_HtmlVersion
 second_title: Aspose.Words for C++ API Reference
-description: Specifies version of HTML standard that should be used when saving the document to HTML or MHTML. Default value is Xhtml.
+description: 'Aspose::Words::Saving::HtmlSaveOptions::get_HtmlVersion method. Specifies version of HTML standard that should be used when saving the document to HTML or MHTML. Default value is Xhtml in C++.'
 type: docs
-weight: 443
+weight: 35000
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_htmlversion/
 ---
 ## HtmlSaveOptions::get_HtmlVersion method
@@ -87,4 +88,4 @@ else
 * Enum [HtmlVersion](../../htmlversion/)
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

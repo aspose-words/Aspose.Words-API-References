@@ -1,9 +1,10 @@
 ---
-title: get_PageNumberOmittingLevelRange
+title: Aspose::Words::Fields::FieldToc::get_PageNumberOmittingLevelRange method
+linktitle: get_PageNumberOmittingLevelRange
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets a range of levels of the table of contents entries from which to omits page numbers.
+description: 'Aspose::Words::Fields::FieldToc::get_PageNumberOmittingLevelRange method. Gets or sets a range of levels of the table of contents entries from which to omits page numbers in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words.fields/fieldtoc/get_pagenumberomittinglevelrange/
 ---
 ## FieldToc::get_PageNumberOmittingLevelRange method
@@ -100,4 +101,4 @@ void InsertNewPageWithHeading(SharedPtr<DocumentBuilder> builder, String caption
 
 * Class [FieldToc](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

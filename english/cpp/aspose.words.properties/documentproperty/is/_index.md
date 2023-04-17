@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Properties::DocumentProperty::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Properties::DocumentProperty class in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.properties/documentproperty/is/
 ---
 ## DocumentProperty::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Properties::DocumentProperty::Is(const System::TypeI
 
 * Class [DocumentProperty](../)
 * Namespace [Aspose::Words::Properties](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

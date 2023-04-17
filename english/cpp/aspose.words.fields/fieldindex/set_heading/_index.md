@@ -1,15 +1,16 @@
 ---
-title: set_Heading
+title: Aspose::Words::Fields::FieldIndex::set_Heading method
+linktitle: set_Heading
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fields::FieldIndex::get_Heading.'
+description: 'Aspose::Words::Fields::FieldIndex::set_Heading method. Sets a heading that appears at the start of each set of entries for any given letter in C++.'
 type: docs
-weight: 287
+weight: 23000
 url: /cpp/aspose.words.fields/fieldindex/set_heading/
 ---
 ## FieldIndex::set_Heading method
 
 
-Setter for [Aspose::Words::Fields::FieldIndex::get_Heading](../get_heading/).
+Sets a heading that appears at the start of each set of entries for any given letter.
 
 ```cpp
 void Aspose::Words::Fields::FieldIndex::set_Heading(const System::String &value)
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldIndex::set_Heading(const System::String &value)
 
 * Class [FieldIndex](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

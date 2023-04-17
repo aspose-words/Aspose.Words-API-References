@@ -1,9 +1,10 @@
 ---
-title: FieldAutoNumLgl
+title: Aspose::Words::Fields::FieldAutoNumLgl class
+linktitle: FieldAutoNumLgl
 second_title: Aspose.Words for C++ API Reference
-description: Implements the AUTONUMLGL field. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Fields::FieldAutoNumLgl class. Implements the AUTONUMLGL field. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words.fields/fieldautonumlgl/
 ---
 ## FieldAutoNumLgl class
@@ -25,7 +26,7 @@ class FieldAutoNumLgl : public Aspose::Words::Fields::Field,
 | [get_FieldEnd](../field/get_fieldend/)() const | Gets the node that represents the field end. |
 | [get_FieldStart](../field/get_fieldstart/)() const | Gets the node that represents the start of the field. |
 | [get_Format](../field/get_format/)() | Gets a [FieldFormat](../fieldformat/) object that provides typed access to field's formatting. |
-| [get_IsDirty](../field/get_isdirty/)() | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [get_IsDirty](../field/get_isdirty/)() | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [get_IsLocked](../field/get_islocked/)() | Gets or sets whether the field is locked (should not recalculate its result). |
 | [get_LocaleId](../field/get_localeid/)() | Gets or sets the LCID of the field. |
 | [get_RemoveTrailingPeriod](./get_removetrailingperiod/)() | Gets or sets whether to display the number without a trailing period. |
@@ -39,7 +40,7 @@ class FieldAutoNumLgl : public Aspose::Words::Fields::Field,
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
-| [set_IsDirty](../field/set_isdirty/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsDirty](../field/get_isdirty/). |
+| [set_IsDirty](../field/set_isdirty/)(bool) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [set_IsLocked](../field/set_islocked/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsLocked](../field/get_islocked/). |
 | [set_LocaleId](../field/set_localeid/)(int32_t) | Setter for [Aspose::Words::Fields::Field::get_LocaleId](../field/get_localeid/). |
 | [set_RemoveTrailingPeriod](./set_removetrailingperiod/)(bool) | Setter for [Aspose::Words::Fields::FieldAutoNumLgl::get_RemoveTrailingPeriod](./get_removetrailingperiod/). |
@@ -131,4 +132,4 @@ static void InsertNumberedClause(SharedPtr<DocumentBuilder> builder, String head
 
 * Class [Field](../field/)
 * Namespace [Aspose::Words::Fields](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

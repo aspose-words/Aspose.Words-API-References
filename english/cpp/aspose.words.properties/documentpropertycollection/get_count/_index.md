@@ -1,9 +1,10 @@
 ---
-title: get_Count
+title: Aspose::Words::Properties::DocumentPropertyCollection::get_Count method
+linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
-description: Gets number of items in the collection.
+description: 'Aspose::Words::Properties::DocumentPropertyCollection::get_Count method. Gets number of items in the collection in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.properties/documentpropertycollection/get_count/
 ---
 ## DocumentPropertyCollection::get_Count method
@@ -43,4 +44,4 @@ for (const auto& customDocumentProperty : System::IterateOver(doc->get_CustomDoc
 
 * Class [DocumentPropertyCollection](../)
 * Namespace [Aspose::Words::Properties](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

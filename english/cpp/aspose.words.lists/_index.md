@@ -1,9 +1,10 @@
 ---
-title: 'Aspose::Words::Lists'
+title: Aspose::Words::Lists namespace
+linktitle: Aspose::Words::Lists
 second_title: Aspose.Words for C++ API Reference
-description: The Aspose.Words.Lists namespace contains classes for working with bulleted and numbered lists defined in a document.
+description: 'Aspose::Words::Lists namespace. The Aspose.Words.Lists namespace contains classes for working with bulleted and numbered lists defined in a document in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words.lists/
 ---
 

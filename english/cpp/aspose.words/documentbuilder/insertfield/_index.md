@@ -1,9 +1,10 @@
 ---
-title: InsertField
+title: Aspose::Words::DocumentBuilder::InsertField method
+linktitle: InsertField
 second_title: Aspose.Words for C++ API Reference
-description: Inserts a Word field into a document and optionally updates the field result.
+description: 'Aspose::Words::DocumentBuilder::InsertField method. Inserts a Word field into a document and optionally updates the field result in C++.'
 type: docs
-weight: 430
+weight: 34000
 url: /cpp/aspose.words/documentbuilder/insertfield/
 ---
 ## DocumentBuilder::InsertField(Aspose::Words::Fields::FieldType, bool) method
@@ -78,7 +79,7 @@ else
 * Enum [FieldType](../../../aspose.words.fields/fieldtype/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## DocumentBuilder::InsertField(const System::String\&) method
 
 
@@ -148,7 +149,7 @@ ASSERT_LE(System::Math::Abs((System::DateTime::Parse(field->get_Result()) - Syst
 * Class [Field](../../../aspose.words.fields/field/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## DocumentBuilder::InsertField(const System::String\&, const System::String\&) method
 
 
@@ -238,4 +239,4 @@ doc->Save(ArtifactsDir + u"PageSetup.PageNumbering.docx");
 * Class [Field](../../../aspose.words.fields/field/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

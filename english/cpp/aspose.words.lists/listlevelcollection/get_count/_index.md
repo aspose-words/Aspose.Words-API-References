@@ -1,9 +1,10 @@
 ---
-title: get_Count
+title: Aspose::Words::Lists::ListLevelCollection::get_Count method
+linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
-description: Gets the number of levels in this list.
+description: 'Aspose::Words::Lists::ListLevelCollection::get_Count method. Gets the number of levels in this list in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.lists/listlevelcollection/get_count/
 ---
 ## ListLevelCollection::get_Count method
@@ -83,4 +84,4 @@ builder->get_Document()->Save(ArtifactsDir + u"Lists.CreateAndUseListStyle.docx"
 
 * Class [ListLevelCollection](../)
 * Namespace [Aspose::Words::Lists](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

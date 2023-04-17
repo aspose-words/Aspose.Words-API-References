@@ -1,9 +1,10 @@
 ---
-title: get_BackgroundTintAndShade
+title: Aspose::Words::Shading::get_BackgroundTintAndShade method
+linktitle: get_BackgroundTintAndShade
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets a double value that lightens or darkens a background theme color.
+description: 'Aspose::Words::Shading::get_BackgroundTintAndShade method. Gets or sets a double value that lightens or darkens a background theme color in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words/shading/get_backgroundtintandshade/
 ---
 ## Shading::get_BackgroundTintAndShade method
@@ -25,4 +26,4 @@ Setting this property for [Shading](../) object with non-theme colors results in
 
 * Class [Shading](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

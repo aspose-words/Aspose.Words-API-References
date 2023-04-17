@@ -1,9 +1,10 @@
 ---
-title: Clear
+title: Aspose::Words::Drawing::Charts::ChartSeriesCollection::Clear method
+linktitle: Clear
 second_title: Aspose.Words for C++ API Reference
-description: Removes all ChartSeries from this collection.
+description: 'Aspose::Words::Drawing::Charts::ChartSeriesCollection::Clear method. Removes all ChartSeries from this collection in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.drawing.charts/chartseriescollection/clear/
 ---
 ## ChartSeriesCollection::Clear method
@@ -67,4 +68,4 @@ chartData->Clear();
 
 * Class [ChartSeriesCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

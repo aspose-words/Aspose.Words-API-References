@@ -1,9 +1,10 @@
 ---
-title: TableStyle
+title: Aspose::Words::TableStyle class
+linktitle: TableStyle
 second_title: Aspose.Words for C++ API Reference
-description: Represents a table style. To learn more, visit the  documentation article.
+description: 'Aspose::Words::TableStyle class. Represents a table style. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 859
+weight: 67000
 url: /cpp/aspose.words/tablestyle/
 ---
 ## TableStyle class
@@ -124,4 +125,4 @@ doc->Save(ArtifactsDir + u"Table.TableStyleCreation.docx");
 
 * Class [Style](../style/)
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

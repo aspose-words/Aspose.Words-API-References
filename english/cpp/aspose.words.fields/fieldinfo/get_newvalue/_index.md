@@ -1,9 +1,10 @@
 ---
-title: get_NewValue
+title: Aspose::Words::Fields::FieldInfo::get_NewValue method
+linktitle: get_NewValue
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets an optional value that updates the property.
+description: 'Aspose::Words::Fields::FieldInfo::get_NewValue method. Gets or sets an optional value that updates the property in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.fields/fieldinfo/get_newvalue/
 ---
 ## FieldInfo::get_NewValue method
@@ -54,4 +55,4 @@ doc->Save(ArtifactsDir + u"Field.INFO.docx");
 
 * Class [FieldInfo](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

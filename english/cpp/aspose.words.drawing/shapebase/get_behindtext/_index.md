@@ -1,9 +1,10 @@
 ---
-title: get_BehindText
+title: Aspose::Words::Drawing::ShapeBase::get_BehindText method
+linktitle: get_BehindText
 second_title: Aspose.Words for C++ API Reference
-description: Specifies whether the shape is below or above text.
+description: 'Aspose::Words::Drawing::ShapeBase::get_BehindText method. Specifies whether the shape is below or above text in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.drawing/shapebase/get_behindtext/
 ---
 ## ShapeBase::get_BehindText method
@@ -47,4 +48,4 @@ doc->Save(ArtifactsDir + u"Image.CreateFloatingPageCenter.docx");
 
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

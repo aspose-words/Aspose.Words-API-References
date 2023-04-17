@@ -1,9 +1,10 @@
 ---
-title: set_SymbolHeight
+title: Aspose::Words::Fields::BarcodeParameters::set_SymbolHeight method
+linktitle: set_SymbolHeight
 second_title: Aspose.Words for C++ API Reference
-description: Bar code image height (in twips - 1/1440 inches)
+description: 'Aspose::Words::Fields::BarcodeParameters::set_SymbolHeight method. Bar code image height (in twips - 1/1440 inches) in C++.'
 type: docs
-weight: 469
+weight: 37000
 url: /cpp/aspose.words.fields/barcodeparameters/set_symbolheight/
 ---
 ## BarcodeParameters::set_SymbolHeight method
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::BarcodeParameters::set_SymbolHeight(const System::St
 
 * Class [BarcodeParameters](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

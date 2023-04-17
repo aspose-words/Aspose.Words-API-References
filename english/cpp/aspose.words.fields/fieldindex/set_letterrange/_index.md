@@ -1,15 +1,16 @@
 ---
-title: set_LetterRange
+title: Aspose::Words::Fields::FieldIndex::set_LetterRange method
+linktitle: set_LetterRange
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fields::FieldIndex::get_LetterRange.'
+description: 'Aspose::Words::Fields::FieldIndex::set_LetterRange method. Sets a range of letters to which limit the index in C++.'
 type: docs
-weight: 313
+weight: 25000
 url: /cpp/aspose.words.fields/fieldindex/set_letterrange/
 ---
 ## FieldIndex::set_LetterRange method
 
 
-Setter for [Aspose::Words::Fields::FieldIndex::get_LetterRange](../get_letterrange/).
+Sets a range of letters to which limit the index.
 
 ```cpp
 void Aspose::Words::Fields::FieldIndex::set_LetterRange(const System::String &value)
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldIndex::set_LetterRange(const System::String &va
 
 * Class [FieldIndex](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

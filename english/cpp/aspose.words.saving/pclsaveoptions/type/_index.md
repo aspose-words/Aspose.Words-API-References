@@ -1,9 +1,10 @@
 ---
-title: Type
+title: Aspose::Words::Saving::PclSaveOptions::Type method
+linktitle: Type
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Type method of Aspose::Words::Saving::PclSaveOptions class in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words.saving/pclsaveoptions/type/
 ---
 ## PclSaveOptions::Type method
@@ -19,4 +20,4 @@ static const System::TypeInfo & Aspose::Words::Saving::PclSaveOptions::Type()
 
 * Class [PclSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

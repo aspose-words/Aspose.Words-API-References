@@ -1,9 +1,10 @@
 ---
-title: get_FileName
+title: Aspose::Words::Fields::FieldDatabase::get_FileName method
+linktitle: get_FileName
 second_title: Aspose.Words for C++ API Reference
-description: Gets the complete path and file name of the database.
+description: 'Aspose::Words::Fields::FieldDatabase::get_FileName method. Gets the complete path and file name of the database in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.fields/fielddatabase/get_filename/
 ---
 ## FieldDatabase::get_FileName method
@@ -19,4 +20,4 @@ System::String Aspose::Words::Fields::FieldDatabase::get_FileName()
 
 * Class [FieldDatabase](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: ClearFormatting
+title: Aspose::Words::PageSetup::ClearFormatting method
+linktitle: ClearFormatting
 second_title: Aspose.Words for C++ API Reference
-description: Resets page setup to default paper size, margins and orientation.
+description: 'Aspose::Words::PageSetup::ClearFormatting method. Resets page setup to default paper size, margins and orientation in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words/pagesetup/clearformatting/
 ---
 ## PageSetup::ClearFormatting method
@@ -52,4 +53,4 @@ doc->Save(ArtifactsDir + u"PageSetup.ClearFormatting.docx");
 
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

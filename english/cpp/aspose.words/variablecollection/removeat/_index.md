@@ -1,9 +1,10 @@
 ---
-title: RemoveAt
+title: Aspose::Words::VariableCollection::RemoveAt method
+linktitle: RemoveAt
 second_title: Aspose.Words for C++ API Reference
-description: Removes a document variable at the specified index.
+description: 'Aspose::Words::VariableCollection::RemoveAt method. Removes a document variable at the specified index in C++.'
 type: docs
-weight: 209
+weight: 17000
 url: /cpp/aspose.words/variablecollection/removeat/
 ---
 ## VariableCollection::RemoveAt method
@@ -94,4 +95,4 @@ ASSERT_EQ(0, variables->get_Count());
 
 * Class [VariableCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

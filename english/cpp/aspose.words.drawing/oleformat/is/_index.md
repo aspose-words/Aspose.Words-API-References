@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Drawing::OleFormat::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Drawing::OleFormat class in C++.'
 type: docs
-weight: 222
+weight: 18000
 url: /cpp/aspose.words.drawing/oleformat/is/
 ---
 ## OleFormat::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Drawing::OleFormat::Is(const System::TypeInfo &targe
 
 * Class [OleFormat](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

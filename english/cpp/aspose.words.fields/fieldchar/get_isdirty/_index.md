@@ -1,9 +1,10 @@
 ---
-title: get_IsDirty
+title: Aspose::Words::Fields::FieldChar::get_IsDirty method
+linktitle: get_IsDirty
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
+description: 'Aspose::Words::Fields::FieldChar::get_IsDirty method. Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.fields/fieldchar/get_isdirty/
 ---
 ## FieldChar::get_IsDirty method
@@ -49,4 +50,4 @@ field->Update();
 
 * Class [FieldChar](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

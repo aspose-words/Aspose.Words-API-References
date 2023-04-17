@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Notes::Footnote::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Notes::Footnote class in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.notes/footnote/gettype/
 ---
 ## Footnote::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Notes::Footnote::GetType() const
 
 * Class [Footnote](../)
 * Namespace [Aspose::Words::Notes](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

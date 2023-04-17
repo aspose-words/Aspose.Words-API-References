@@ -1,9 +1,10 @@
 ---
-title: get_Id
+title: Aspose::Words::WebExtensions::WebExtensionBinding::get_Id method
+linktitle: get_Id
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the binding identifier.
+description: 'Aspose::Words::WebExtensions::WebExtensionBinding::get_Id method. Specifies the binding identifier in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.webextensions/webextensionbinding/get_id/
 ---
 ## WebExtensionBinding::get_Id method
@@ -19,4 +20,4 @@ System::String Aspose::Words::WebExtensions::WebExtensionBinding::get_Id() const
 
 * Class [WebExtensionBinding](../)
 * Namespace [Aspose::Words::WebExtensions](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

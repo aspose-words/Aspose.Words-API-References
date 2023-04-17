@@ -1,9 +1,10 @@
 ---
-title: set_FontFamily
+title: Aspose::Words::TextWatermarkOptions::set_FontFamily method
+linktitle: set_FontFamily
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::TextWatermarkOptions::get_FontFamily.'
+description: 'Aspose::Words::TextWatermarkOptions::set_FontFamily method. Setter for Aspose::Words::TextWatermarkOptions::get_FontFamily in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words/textwatermarkoptions/set_fontfamily/
 ---
 ## TextWatermarkOptions::set_FontFamily method
@@ -19,4 +20,4 @@ void Aspose::Words::TextWatermarkOptions::set_FontFamily(const System::String &v
 
 * Class [TextWatermarkOptions](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

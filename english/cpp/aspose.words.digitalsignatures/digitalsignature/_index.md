@@ -1,9 +1,10 @@
 ---
-title: DigitalSignature
+title: Aspose::Words::DigitalSignatures::DigitalSignature class
+linktitle: DigitalSignature
 second_title: Aspose.Words for C++ API Reference
-description: Represents a digital signature on a document and the result of its verification. To learn more, visit the  documentation article.
+description: 'Aspose::Words::DigitalSignatures::DigitalSignature class. Represents a digital signature on a document and the result of its verification. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.digitalsignatures/digitalsignature/
 ---
 ## DigitalSignature class
@@ -54,4 +55,4 @@ for (const auto& signature : doc->get_DigitalSignatures())
 ## See Also
 
 * Namespace [Aspose::Words::DigitalSignatures](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

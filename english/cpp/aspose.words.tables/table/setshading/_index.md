@@ -1,9 +1,10 @@
 ---
-title: SetShading
+title: Aspose::Words::Tables::Table::SetShading method
+linktitle: SetShading
 second_title: Aspose.Words for C++ API Reference
-description: Sets shading to the specified values on whole table.
+description: 'Aspose::Words::Tables::Table::SetShading method. Sets shading to the specified values on whole table in C++.'
 type: docs
-weight: 898
+weight: 70000
 url: /cpp/aspose.words.tables/table/setshading/
 ---
 ## Table::SetShading method
@@ -55,4 +56,4 @@ doc->Save(ArtifactsDir + u"Table.SetOutlineBorders.docx");
 * Enum [TextureIndex](../../../aspose.words/textureindex/)
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

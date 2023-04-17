@@ -1,9 +1,10 @@
 ---
-title: set_GroupIndex
+title: Aspose::Words::Replacing::ReplacingArgs::set_GroupIndex method
+linktitle: set_GroupIndex
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Replacing::ReplacingArgs::get_GroupIndex.'
+description: 'Aspose::Words::Replacing::ReplacingArgs::set_GroupIndex method. Setter for Aspose::Words::Replacing::ReplacingArgs::get_GroupIndex in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words.replacing/replacingargs/set_groupindex/
 ---
 ## ReplacingArgs::set_GroupIndex method
@@ -19,4 +20,4 @@ void Aspose::Words::Replacing::ReplacingArgs::set_GroupIndex(int32_t value)
 
 * Class [ReplacingArgs](../)
 * Namespace [Aspose::Words::Replacing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

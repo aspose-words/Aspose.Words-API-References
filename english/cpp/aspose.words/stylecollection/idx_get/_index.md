@@ -1,9 +1,10 @@
 ---
-title: idx_get
+title: Aspose::Words::StyleCollection::idx_get method
+linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
-description: Gets a built-in style by its locale independent identifier.
+description: 'Aspose::Words::StyleCollection::idx_get method. Gets a built-in style by its locale independent identifier in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words/stylecollection/idx_get/
 ---
 ## StyleCollection::idx_get(Aspose::Words::StyleIdentifier) method
@@ -53,7 +54,7 @@ ASPOSE_ASSERT_EQ(15.0, styles->idx_get(u"MyStyle")->get_ParagraphFormat()->get_F
 * Enum [StyleIdentifier](../../styleidentifier/)
 * Class [StyleCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## StyleCollection::idx_get(const System::String\&) method
 
 
@@ -99,7 +100,7 @@ doc->Save(ArtifactsDir + u"Document.UpdatePageLayout.2.pdf");
 * Class [Style](../../style/)
 * Class [StyleCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## StyleCollection::idx_get(int32_t) method
 
 
@@ -138,4 +139,4 @@ ASPOSE_ASSERT_EQ(15.0, styles->idx_get(u"MyStyle")->get_ParagraphFormat()->get_F
 * Class [Style](../../style/)
 * Class [StyleCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

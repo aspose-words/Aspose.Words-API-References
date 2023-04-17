@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::VariableCollection::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::VariableCollection class in C++.'
 type: docs
-weight: 183
+weight: 15000
 url: /cpp/aspose.words/variablecollection/is/
 ---
 ## VariableCollection::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::VariableCollection::Is(const System::TypeInfo &targe
 
 * Class [VariableCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

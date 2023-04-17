@@ -1,9 +1,10 @@
 ---
-title: VisitHeaderFooterStart
+title: Aspose::Words::DocumentVisitor::VisitHeaderFooterStart method
+linktitle: VisitHeaderFooterStart
 second_title: Aspose.Words for C++ API Reference
-description: Called when enumeration of a header or footer in a section has started.
+description: 'Aspose::Words::DocumentVisitor::VisitHeaderFooterStart method. Called when enumeration of a header or footer in a section has started in C++.'
 type: docs
-weight: 404
+weight: 32000
 url: /cpp/aspose.words/documentvisitor/visitheaderfooterstart/
 ---
 ## DocumentVisitor::VisitHeaderFooterStart method
@@ -112,4 +113,4 @@ private:
 * Class [HeaderFooter](../../headerfooter/)
 * Class [DocumentVisitor](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

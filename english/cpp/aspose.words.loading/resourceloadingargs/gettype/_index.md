@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Loading::ResourceLoadingArgs::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Loading::ResourceLoadingArgs class in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.loading/resourceloadingargs/gettype/
 ---
 ## ResourceLoadingArgs::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Loading::ResourceLoadingArgs::Ge
 
 * Class [ResourceLoadingArgs](../)
 * Namespace [Aspose::Words::Loading](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

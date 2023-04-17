@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Themes::ThemeFonts::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Themes::ThemeFonts class in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.themes/themefonts/gettype/
 ---
 ## ThemeFonts::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Themes::ThemeFonts::GetType() co
 
 * Class [ThemeFonts](../)
 * Namespace [Aspose::Words::Themes](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

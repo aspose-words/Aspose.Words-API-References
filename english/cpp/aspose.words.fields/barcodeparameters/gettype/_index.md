@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Fields::BarcodeParameters::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Fields::BarcodeParameters class in C++.'
 type: docs
-weight: 248
+weight: 20000
 url: /cpp/aspose.words.fields/barcodeparameters/gettype/
 ---
 ## BarcodeParameters::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Fields::BarcodeParameters::GetTy
 
 * Class [BarcodeParameters](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

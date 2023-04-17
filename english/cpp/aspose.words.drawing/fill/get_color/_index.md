@@ -1,9 +1,10 @@
 ---
-title: get_Color
+title: Aspose::Words::Drawing::Fill::get_Color method
+linktitle: get_Color
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use get_Color method of Aspose::Words::Drawing::Fill class in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.drawing/fill/get_color/
 ---
 ## Fill::get_Color method
@@ -46,4 +47,4 @@ doc->Save(ArtifactsDir + u"Drawing.FillSolid.docx");
 
 * Class [Fill](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

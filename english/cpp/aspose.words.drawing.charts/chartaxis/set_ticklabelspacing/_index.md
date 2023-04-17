@@ -1,9 +1,10 @@
 ---
-title: set_TickLabelSpacing
+title: Aspose::Words::Drawing::Charts::ChartAxis::set_TickLabelSpacing method
+linktitle: set_TickLabelSpacing
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Drawing::Charts::ChartAxis::get_TickLabelSpacing.'
+description: 'Aspose::Words::Drawing::Charts::ChartAxis::set_TickLabelSpacing method. Setter for Aspose::Words::Drawing::Charts::ChartAxis::get_TickLabelSpacing in C++.'
 type: docs
-weight: 664
+weight: 52000
 url: /cpp/aspose.words.drawing.charts/chartaxis/set_ticklabelspacing/
 ---
 ## ChartAxis::set_TickLabelSpacing method
@@ -19,4 +20,4 @@ void Aspose::Words::Drawing::Charts::ChartAxis::set_TickLabelSpacing(int32_t val
 
 * Class [ChartAxis](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

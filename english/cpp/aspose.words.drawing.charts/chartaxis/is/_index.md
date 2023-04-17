@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Drawing::Charts::ChartAxis::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Drawing::Charts::ChartAxis class in C++.'
 type: docs
-weight: 391
+weight: 31000
 url: /cpp/aspose.words.drawing.charts/chartaxis/is/
 ---
 ## ChartAxis::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Drawing::Charts::ChartAxis::Is(const System::TypeInf
 
 * Class [ChartAxis](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

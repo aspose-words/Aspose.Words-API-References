@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Settings::Odso::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Settings::Odso class in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words.settings/odso/is/
 ---
 ## Odso::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Settings::Odso::Is(const System::TypeInfo &target) c
 
 * Class [Odso](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

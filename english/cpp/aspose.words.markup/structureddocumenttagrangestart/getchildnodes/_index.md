@@ -1,9 +1,10 @@
 ---
-title: GetChildNodes
+title: Aspose::Words::Markup::StructuredDocumentTagRangeStart::GetChildNodes method
+linktitle: GetChildNodes
 second_title: Aspose.Words for C++ API Reference
-description: Returns a live collection of child nodes that match the specified types.
+description: 'Aspose::Words::Markup::StructuredDocumentTagRangeStart::GetChildNodes method. Returns a live collection of child nodes that match the specified types in C++.'
 type: docs
-weight: 274
+weight: 22000
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/getchildnodes/
 ---
 ## StructuredDocumentTagRangeStart::GetChildNodes method
@@ -46,4 +47,4 @@ for (const auto& node : System::IterateOver(tag->GetChildNodes(NodeType::Run, tr
 * Enum [NodeType](../../../aspose.words/nodetype/)
 * Class [StructuredDocumentTagRangeStart](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

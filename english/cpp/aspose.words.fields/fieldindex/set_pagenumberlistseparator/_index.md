@@ -1,15 +1,16 @@
 ---
-title: set_PageNumberListSeparator
+title: Aspose::Words::Fields::FieldIndex::set_PageNumberListSeparator method
+linktitle: set_PageNumberListSeparator
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fields::FieldIndex::get_PageNumberListSeparator.'
+description: 'Aspose::Words::Fields::FieldIndex::set_PageNumberListSeparator method. Sets the character sequence that is used to separate two page numbers in a page number list in C++.'
 type: docs
-weight: 339
+weight: 27000
 url: /cpp/aspose.words.fields/fieldindex/set_pagenumberlistseparator/
 ---
 ## FieldIndex::set_PageNumberListSeparator method
 
 
-Setter for [Aspose::Words::Fields::FieldIndex::get_PageNumberListSeparator](../get_pagenumberlistseparator/).
+Sets the character sequence that is used to separate two page numbers in a page number list.
 
 ```cpp
 void Aspose::Words::Fields::FieldIndex::set_PageNumberListSeparator(const System::String &value)
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldIndex::set_PageNumberListSeparator(const System
 
 * Class [FieldIndex](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

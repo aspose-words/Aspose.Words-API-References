@@ -1,9 +1,10 @@
 ---
-title: iterator
+title: Aspose::Words::Vba::VbaModuleCollection::iterator typedef
+linktitle: iterator
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Aspose::Words::Vba::VbaModuleCollection::iterator typedef of Aspose::Words::Vba::VbaModuleCollection class in C++.'
 type: docs
-weight: 209
+weight: 17000
 url: /cpp/aspose.words.vba/vbamodulecollection/iterator/
 ---
 ## iterator typedef
@@ -19,4 +20,4 @@ using Aspose::Words::Vba::VbaModuleCollection::iterator =  typename iterator_hol
 
 * Class [VbaModuleCollection](../)
 * Namespace [Aspose::Words::Vba](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

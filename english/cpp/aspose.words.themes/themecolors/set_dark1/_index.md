@@ -1,9 +1,10 @@
 ---
-title: set_Dark1
+title: Aspose::Words::Themes::ThemeColors::set_Dark1 method
+linktitle: set_Dark1
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Themes::ThemeColors::get_Dark1.'
+description: 'Aspose::Words::Themes::ThemeColors::set_Dark1 method. Setter for Aspose::Words::Themes::ThemeColors::get_Dark1 in C++.'
 type: docs
-weight: 274
+weight: 22000
 url: /cpp/aspose.words.themes/themecolors/set_dark1/
 ---
 ## ThemeColors::set_Dark1 method
@@ -19,4 +20,4 @@ void Aspose::Words::Themes::ThemeColors::set_Dark1(System::Drawing::Color value)
 
 * Class [ThemeColors](../)
 * Namespace [Aspose::Words::Themes](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

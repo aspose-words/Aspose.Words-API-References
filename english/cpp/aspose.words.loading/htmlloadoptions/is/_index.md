@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Loading::HtmlLoadOptions::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Loading::HtmlLoadOptions class in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words.loading/htmlloadoptions/is/
 ---
 ## HtmlLoadOptions::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Loading::HtmlLoadOptions::Is(const System::TypeInfo 
 
 * Class [HtmlLoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

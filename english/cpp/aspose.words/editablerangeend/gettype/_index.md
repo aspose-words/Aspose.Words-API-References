@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::EditableRangeEnd::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::EditableRangeEnd class in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words/editablerangeend/gettype/
 ---
 ## EditableRangeEnd::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::EditableRangeEnd::GetType() cons
 
 * Class [EditableRangeEnd](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

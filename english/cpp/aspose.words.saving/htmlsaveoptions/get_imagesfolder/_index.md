@@ -1,9 +1,10 @@
 ---
-title: get_ImagesFolder
+title: Aspose::Words::Saving::HtmlSaveOptions::get_ImagesFolder method
+linktitle: get_ImagesFolder
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the physical folder where images are saved when exporting a document to HTML format. Default is an empty string.
+description: 'Aspose::Words::Saving::HtmlSaveOptions::get_ImagesFolder method. Specifies the physical folder where images are saved when exporting a document to HTML format. Default is an empty string in C++.'
 type: docs
-weight: 482
+weight: 38000
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_imagesfolder/
 ---
 ## HtmlSaveOptions::get_ImagesFolder method
@@ -57,4 +58,4 @@ doc->Save(ArtifactsDir + u"HtmlSaveOptions.SaveHtmlWithOptions.html", options);
 
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

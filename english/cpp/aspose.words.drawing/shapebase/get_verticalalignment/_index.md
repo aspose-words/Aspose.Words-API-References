@@ -1,9 +1,10 @@
 ---
-title: get_VerticalAlignment
+title: Aspose::Words::Drawing::ShapeBase::get_VerticalAlignment method
+linktitle: get_VerticalAlignment
 second_title: Aspose.Words for C++ API Reference
-description: Specifies how the shape is positioned vertically.
+description: 'Aspose::Words::Drawing::ShapeBase::get_VerticalAlignment method. Specifies how the shape is positioned vertically in C++.'
 type: docs
-weight: 677
+weight: 53000
 url: /cpp/aspose.words.drawing/shapebase/get_verticalalignment/
 ---
 ## ShapeBase::get_VerticalAlignment method
@@ -48,4 +49,4 @@ doc->Save(ArtifactsDir + u"Image.CreateFloatingPageCenter.docx");
 * Enum [VerticalAlignment](../../verticalalignment/)
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

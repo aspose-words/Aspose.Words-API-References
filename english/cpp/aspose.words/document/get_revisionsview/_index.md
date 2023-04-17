@@ -1,9 +1,10 @@
 ---
-title: get_RevisionsView
+title: Aspose::Words::Document::get_RevisionsView method
+linktitle: get_RevisionsView
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets a value indicating whether to work with the original or revised version of a document.
+description: 'Aspose::Words::Document::get_RevisionsView method. Gets or sets a value indicating whether to work with the original or revised version of a document in C++.'
 type: docs
-weight: 599
+weight: 47000
 url: /cpp/aspose.words/document/get_revisionsview/
 ---
 ## Document::get_RevisionsView method
@@ -43,4 +44,4 @@ ASSERT_EQ(u"a.", paragraphs->idx_get(2)->get_ListLabel()->get_LabelString());
 * Enum [RevisionsView](../../revisionsview/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

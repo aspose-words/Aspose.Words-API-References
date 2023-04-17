@@ -1,9 +1,10 @@
 ---
-title: get_NodeType
+title: Aspose::Words::EditableRangeEnd::get_NodeType method
+linktitle: get_NodeType
 second_title: Aspose.Words for C++ API Reference
-description: Returns EditableRangeEnd.
+description: 'Aspose::Words::EditableRangeEnd::get_NodeType method. Returns EditableRangeEnd in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words/editablerangeend/get_nodetype/
 ---
 ## EditableRangeEnd::get_NodeType method
@@ -65,4 +66,4 @@ editableRange->Remove();
 * Enum [NodeType](../../nodetype/)
 * Class [EditableRangeEnd](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

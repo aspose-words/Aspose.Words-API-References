@@ -1,9 +1,10 @@
 ---
-title: set_Security
+title: Aspose::Words::Properties::BuiltInDocumentProperties::set_Security method
+linktitle: set_Security
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Properties::BuiltInDocumentProperties::get_Security.'
+description: 'Aspose::Words::Properties::BuiltInDocumentProperties::set_Security method. Setter for Aspose::Words::Properties::BuiltInDocumentProperties::get_Security in C++.'
 type: docs
-weight: 768
+weight: 60000
 url: /cpp/aspose.words.properties/builtindocumentproperties/set_security/
 ---
 ## BuiltInDocumentProperties::set_Security method
@@ -20,4 +21,4 @@ void Aspose::Words::Properties::BuiltInDocumentProperties::set_Security(Aspose::
 * Enum [DocumentSecurity](../../documentsecurity/)
 * Class [BuiltInDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

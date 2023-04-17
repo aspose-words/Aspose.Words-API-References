@@ -1,9 +1,10 @@
 ---
-title: VisitRowEnd
+title: Aspose::Words::DocumentVisitor::VisitRowEnd method
+linktitle: VisitRowEnd
 second_title: Aspose.Words for C++ API Reference
-description: Called when enumeration of a table row has ended.
+description: 'Aspose::Words::DocumentVisitor::VisitRowEnd method. Called when enumeration of a table row has ended in C++.'
 type: docs
-weight: 469
+weight: 37000
 url: /cpp/aspose.words/documentvisitor/visitrowend/
 ---
 ## DocumentVisitor::VisitRowEnd method
@@ -347,4 +348,4 @@ public:
 * Class [Row](../../../aspose.words.tables/row/)
 * Class [DocumentVisitor](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Properties::DocumentProperty::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Properties::DocumentProperty class in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.properties/documentproperty/gettype/
 ---
 ## DocumentProperty::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Properties::DocumentProperty::Ge
 
 * Class [DocumentProperty](../)
 * Namespace [Aspose::Words::Properties](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

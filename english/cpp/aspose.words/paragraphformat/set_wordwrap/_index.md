@@ -1,9 +1,10 @@
 ---
-title: set_WordWrap
+title: Aspose::Words::ParagraphFormat::set_WordWrap method
+linktitle: set_WordWrap
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::ParagraphFormat::get_WordWrap.'
+description: 'Aspose::Words::ParagraphFormat::set_WordWrap method. Setter for Aspose::Words::ParagraphFormat::get_WordWrap in C++.'
 type: docs
-weight: 1015
+weight: 79000
 url: /cpp/aspose.words/paragraphformat/set_wordwrap/
 ---
 ## ParagraphFormat::set_WordWrap method
@@ -19,4 +20,4 @@ void Aspose::Words::ParagraphFormat::set_WordWrap(bool value)
 
 * Class [ParagraphFormat](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

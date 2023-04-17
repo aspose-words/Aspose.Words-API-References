@@ -1,9 +1,10 @@
 ---
-title: get_DisplayText
+title: Aspose::Words::Fields::FieldDisplayBarcode::get_DisplayText method
+linktitle: get_DisplayText
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets whether to display barcode data (text) along with image.
+description: 'Aspose::Words::Fields::FieldDisplayBarcode::get_DisplayText method. Gets or sets whether to display barcode data (text) along with image in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.fields/fielddisplaybarcode/get_displaytext/
 ---
 ## FieldDisplayBarcode::get_DisplayText method
@@ -76,4 +77,4 @@ doc->Save(ArtifactsDir + u"Field.DISPLAYBARCODE.docx");
 
 * Class [FieldDisplayBarcode](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

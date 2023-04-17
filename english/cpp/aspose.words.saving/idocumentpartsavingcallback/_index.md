@@ -1,9 +1,10 @@
 ---
-title: IDocumentPartSavingCallback
+title: Aspose::Words::Saving::IDocumentPartSavingCallback interface
+linktitle: IDocumentPartSavingCallback
 second_title: Aspose.Words for C++ API Reference
-description: Implement this interface if you want to receive notifications and control how Aspose.Words saves document parts when exporting a document to Html or Epub format.
+description: 'Aspose::Words::Saving::IDocumentPartSavingCallback interface. Implement this interface if you want to receive notifications and control how Aspose.Words saves document parts when exporting a document to Html or Epub format in C++.'
 type: docs
-weight: 508
+weight: 40000
 url: /cpp/aspose.words.saving/idocumentpartsavingcallback/
 ---
 ## IDocumentPartSavingCallback interface
@@ -12,7 +13,7 @@ url: /cpp/aspose.words.saving/idocumentpartsavingcallback/
 Implement this interface if you want to receive notifications and control how Aspose.Words saves document parts when exporting a document to [Html](../../aspose.words/saveformat/) or [Epub](../../aspose.words/saveformat/) format.
 
 ```cpp
-class IDocumentPartSavingCallback : public System::Object
+class IDocumentPartSavingCallback : public virtual System::Object
 ```
 
 ## Methods
@@ -149,4 +150,4 @@ private:
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

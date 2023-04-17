@@ -1,9 +1,10 @@
 ---
-title: set_ExportCompactSize
+title: Aspose::Words::Saving::RtfSaveOptions::set_ExportCompactSize method
+linktitle: set_ExportCompactSize
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::RtfSaveOptions::get_ExportCompactSize.'
+description: 'Aspose::Words::Saving::RtfSaveOptions::set_ExportCompactSize method. Setter for Aspose::Words::Saving::RtfSaveOptions::get_ExportCompactSize in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.saving/rtfsaveoptions/set_exportcompactsize/
 ---
 ## RtfSaveOptions::set_ExportCompactSize method
@@ -19,4 +20,4 @@ void Aspose::Words::Saving::RtfSaveOptions::set_ExportCompactSize(bool value)
 
 * Class [RtfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

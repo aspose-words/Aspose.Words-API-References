@@ -1,9 +1,10 @@
 ---
-title: SectionStart
+title: Aspose::Words::SectionStart enum
+linktitle: SectionStart
 second_title: Aspose.Words for C++ API Reference
-description: The type of break at the beginning of the section.
+description: 'Aspose::Words::SectionStart enum. The type of break at the beginning of the section in C++.'
 type: docs
-weight: 1496
+weight: 116000
 url: /cpp/aspose.words/sectionstart/
 ---
 ## SectionStart enum
@@ -122,4 +123,4 @@ doc->Save(ArtifactsDir + u"Section.CreateManually.docx");
 ## See Also
 
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

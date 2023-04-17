@@ -1,9 +1,10 @@
 ---
-title: ImageSize
+title: Aspose::Words::Drawing::ImageSize::ImageSize constructor
+linktitle: ImageSize
 second_title: Aspose.Words for C++ API Reference
-description: Initializes width and height to the given values in pixels. Initializes resolution to 96 dpi.
+description: 'Aspose::Words::Drawing::ImageSize::ImageSize constructor. Initializes width and height to the given values in pixels. Initializes resolution to 96 dpi in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.drawing/imagesize/imagesize/
 ---
 ## ImageSize::ImageSize(int32_t, int32_t) constructor
@@ -25,7 +26,7 @@ Aspose::Words::Drawing::ImageSize::ImageSize(int32_t widthPixels, int32_t height
 
 * Class [ImageSize](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## ImageSize::ImageSize(int32_t, int32_t, double, double) constructor
 
 
@@ -47,4 +48,4 @@ Aspose::Words::Drawing::ImageSize::ImageSize(int32_t widthPixels, int32_t height
 
 * Class [ImageSize](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

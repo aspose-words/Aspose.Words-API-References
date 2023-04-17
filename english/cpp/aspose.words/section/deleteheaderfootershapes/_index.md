@@ -1,9 +1,10 @@
 ---
-title: DeleteHeaderFooterShapes
+title: Aspose::Words::Section::DeleteHeaderFooterShapes method
+linktitle: DeleteHeaderFooterShapes
 second_title: Aspose.Words for C++ API Reference
-description: Deletes all shapes (drawing objects) from the headers and footers of this section.
+description: 'Aspose::Words::Section::DeleteHeaderFooterShapes method. Deletes all shapes (drawing objects) from the headers and footers of this section in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words/section/deleteheaderfootershapes/
 ---
 ## Section::DeleteHeaderFooterShapes method
@@ -51,4 +52,4 @@ ASSERT_EQ(0,
 
 * Class [Section](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

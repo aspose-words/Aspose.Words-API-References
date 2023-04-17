@@ -1,9 +1,10 @@
 ---
-title: get_ImageType
+title: Aspose::Words::Drawing::ImageData::get_ImageType method
+linktitle: get_ImageType
 second_title: Aspose.Words for C++ API Reference
-description: Gets the type of the image.
+description: 'Aspose::Words::Drawing::ImageData::get_ImageType method. Gets the type of the image in C++.'
 type: docs
-weight: 183
+weight: 15000
 url: /cpp/aspose.words.drawing/imagedata/get_imagetype/
 ---
 ## ImageData::get_ImageType method
@@ -50,4 +51,4 @@ for (const auto& shape : System::IterateOver(shapes->LINQ_OfType<SharedPtr<Shape
 * Enum [ImageType](../../imagetype/)
 * Class [ImageData](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

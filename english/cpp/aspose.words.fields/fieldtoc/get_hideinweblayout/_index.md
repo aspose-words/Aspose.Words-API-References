@@ -1,9 +1,10 @@
 ---
-title: get_HideInWebLayout
+title: Aspose::Words::Fields::FieldToc::get_HideInWebLayout method
+linktitle: get_HideInWebLayout
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets whether to hide tab leader and page numbers in Web layout view.
+description: 'Aspose::Words::Fields::FieldToc::get_HideInWebLayout method. Gets or sets whether to hide tab leader and page numbers in Web layout view in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words.fields/fieldtoc/get_hideinweblayout/
 ---
 ## FieldToc::get_HideInWebLayout method
@@ -100,4 +101,4 @@ void InsertNewPageWithHeading(SharedPtr<DocumentBuilder> builder, String caption
 
 * Class [FieldToc](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

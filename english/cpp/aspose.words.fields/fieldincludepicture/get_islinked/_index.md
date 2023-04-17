@@ -1,9 +1,10 @@
 ---
-title: get_IsLinked
+title: Aspose::Words::Fields::FieldIncludePicture::get_IsLinked method
+linktitle: get_IsLinked
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets whether to reduce the file size by not storing graphics data with the document.
+description: 'Aspose::Words::Fields::FieldIncludePicture::get_IsLinked method. Gets or sets whether to reduce the file size by not storing graphics data with the document in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.fields/fieldincludepicture/get_islinked/
 ---
 ## FieldIncludePicture::get_IsLinked method
@@ -54,4 +55,4 @@ doc->Save(ArtifactsDir + u"Field.IMPORT.INCLUDEPICTURE.docx");
 
 * Class [FieldIncludePicture](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

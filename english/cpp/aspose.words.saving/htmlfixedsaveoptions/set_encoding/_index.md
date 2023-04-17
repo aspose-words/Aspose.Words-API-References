@@ -1,9 +1,10 @@
 ---
-title: set_Encoding
+title: Aspose::Words::Saving::HtmlFixedSaveOptions::set_Encoding method
+linktitle: set_Encoding
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::HtmlFixedSaveOptions::get_Encoding.'
+description: 'Aspose::Words::Saving::HtmlFixedSaveOptions::set_Encoding method. Setter for Aspose::Words::Saving::HtmlFixedSaveOptions::get_Encoding in C++.'
 type: docs
-weight: 300
+weight: 24000
 url: /cpp/aspose.words.saving/htmlfixedsaveoptions/set_encoding/
 ---
 ## HtmlFixedSaveOptions::set_Encoding method
@@ -19,4 +20,4 @@ void Aspose::Words::Saving::HtmlFixedSaveOptions::set_Encoding(const System::Sha
 
 * Class [HtmlFixedSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

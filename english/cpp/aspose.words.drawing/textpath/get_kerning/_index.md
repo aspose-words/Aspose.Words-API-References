@@ -1,9 +1,10 @@
 ---
-title: get_Kerning
+title: Aspose::Words::Drawing::TextPath::get_Kerning method
+linktitle: get_Kerning
 second_title: Aspose.Words for C++ API Reference
-description: Determines whether kerning is turned on.
+description: 'Aspose::Words::Drawing::TextPath::get_Kerning method. Determines whether kerning is turned on in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.drawing/textpath/get_kerning/
 ---
 ## TextPath::get_Kerning method
@@ -130,4 +131,4 @@ static SharedPtr<Shape> AppendWordArt(SharedPtr<Document> doc, String text, Stri
 
 * Class [TextPath](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

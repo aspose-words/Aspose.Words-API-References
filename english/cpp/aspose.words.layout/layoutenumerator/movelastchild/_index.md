@@ -1,9 +1,10 @@
 ---
-title: MoveLastChild
+title: Aspose::Words::Layout::LayoutEnumerator::MoveLastChild method
+linktitle: MoveLastChild
 second_title: Aspose.Words for C++ API Reference
-description: Moves to the last child entity.
+description: 'Aspose::Words::Layout::LayoutEnumerator::MoveLastChild method. Moves to the last child entity in C++.'
 type: docs
-weight: 209
+weight: 17000
 url: /cpp/aspose.words.layout/layoutenumerator/movelastchild/
 ---
 ## LayoutEnumerator::MoveLastChild method
@@ -146,4 +147,4 @@ static void PrintCurrentEntity(SharedPtr<LayoutEnumerator> layoutEnumerator, int
 
 * Class [LayoutEnumerator](../)
 * Namespace [Aspose::Words::Layout](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

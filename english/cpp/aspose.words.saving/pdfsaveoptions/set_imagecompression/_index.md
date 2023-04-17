@@ -1,9 +1,10 @@
 ---
-title: set_ImageCompression
+title: Aspose::Words::Saving::PdfSaveOptions::set_ImageCompression method
+linktitle: set_ImageCompression
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::PdfSaveOptions::get_ImageCompression.'
+description: 'Aspose::Words::Saving::PdfSaveOptions::set_ImageCompression method. Setter for Aspose::Words::Saving::PdfSaveOptions::get_ImageCompression in C++.'
 type: docs
-weight: 690
+weight: 54000
 url: /cpp/aspose.words.saving/pdfsaveoptions/set_imagecompression/
 ---
 ## PdfSaveOptions::set_ImageCompression method
@@ -20,4 +21,4 @@ void Aspose::Words::Saving::PdfSaveOptions::set_ImageCompression(Aspose::Words::
 * Enum [PdfImageCompression](../../pdfimagecompression/)
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

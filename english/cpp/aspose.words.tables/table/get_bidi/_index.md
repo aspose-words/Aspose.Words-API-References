@@ -1,9 +1,10 @@
 ---
-title: get_Bidi
+title: Aspose::Words::Tables::Table::get_Bidi method
+linktitle: get_Bidi
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets whether this is a right-to-left table.
+description: 'Aspose::Words::Tables::Table::get_Bidi method. Gets or sets whether this is a right-to-left table in C++.'
 type: docs
-weight: 183
+weight: 15000
 url: /cpp/aspose.words.tables/table/get_bidi/
 ---
 ## Table::get_Bidi method
@@ -68,4 +69,4 @@ doc->Save(ArtifactsDir + u"Table.TableStyleCreation.docx");
 
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

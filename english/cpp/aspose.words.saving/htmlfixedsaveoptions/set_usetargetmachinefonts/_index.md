@@ -1,9 +1,10 @@
 ---
-title: set_UseTargetMachineFonts
+title: Aspose::Words::Saving::HtmlFixedSaveOptions::set_UseTargetMachineFonts method
+linktitle: set_UseTargetMachineFonts
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::HtmlFixedSaveOptions::get_UseTargetMachineFonts.'
+description: 'Aspose::Words::Saving::HtmlFixedSaveOptions::set_UseTargetMachineFonts method. Setter for Aspose::Words::Saving::HtmlFixedSaveOptions::get_UseTargetMachineFonts in C++.'
 type: docs
-weight: 508
+weight: 40000
 url: /cpp/aspose.words.saving/htmlfixedsaveoptions/set_usetargetmachinefonts/
 ---
 ## HtmlFixedSaveOptions::set_UseTargetMachineFonts method
@@ -19,4 +20,4 @@ void Aspose::Words::Saving::HtmlFixedSaveOptions::set_UseTargetMachineFonts(bool
 
 * Class [HtmlFixedSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

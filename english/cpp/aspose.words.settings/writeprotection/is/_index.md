@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Settings::WriteProtection::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Settings::WriteProtection class in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.settings/writeprotection/is/
 ---
 ## WriteProtection::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Settings::WriteProtection::Is(const System::TypeInfo
 
 * Class [WriteProtection](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

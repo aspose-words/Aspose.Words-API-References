@@ -1,9 +1,10 @@
 ---
-title: get_Bottom
+title: Aspose::Words::BorderCollection::get_Bottom method
+linktitle: get_Bottom
 second_title: Aspose.Words for C++ API Reference
-description: Gets the bottom border.
+description: 'Aspose::Words::BorderCollection::get_Bottom method. Gets the bottom border in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words/bordercollection/get_bottom/
 ---
 ## BorderCollection::get_Bottom method
@@ -60,4 +61,4 @@ doc->Save(ArtifactsDir + u"DocumentBuilder.TableBordersAndShading.docx");
 * Class [Border](../../border/)
 * Class [BorderCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

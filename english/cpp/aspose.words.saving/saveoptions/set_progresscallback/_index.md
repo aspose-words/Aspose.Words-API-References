@@ -1,9 +1,10 @@
 ---
-title: set_ProgressCallback
+title: Aspose::Words::Saving::SaveOptions::set_ProgressCallback method
+linktitle: set_ProgressCallback
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::SaveOptions::get_ProgressCallback.'
+description: 'Aspose::Words::Saving::SaveOptions::set_ProgressCallback method. Setter for Aspose::Words::Saving::SaveOptions::get_ProgressCallback in C++.'
 type: docs
-weight: 443
+weight: 35000
 url: /cpp/aspose.words.saving/saveoptions/set_progresscallback/
 ---
 ## SaveOptions::set_ProgressCallback method
@@ -20,4 +21,4 @@ void Aspose::Words::Saving::SaveOptions::set_ProgressCallback(const System::Shar
 * Interface [IDocumentSavingCallback](../../idocumentsavingcallback/)
 * Class [SaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: InsertFootnote
+title: Aspose::Words::DocumentBuilder::InsertFootnote method
+linktitle: InsertFootnote
 second_title: Aspose.Words for C++ API Reference
-description: Inserts a footnote or endnote into the document.
+description: 'Aspose::Words::DocumentBuilder::InsertFootnote method. Inserts a footnote or endnote into the document in C++.'
 type: docs
-weight: 443
+weight: 35000
 url: /cpp/aspose.words/documentbuilder/insertfootnote/
 ---
 ## DocumentBuilder::InsertFootnote(Aspose::Words::Notes::FootnoteType, const System::String\&) method
@@ -60,7 +61,7 @@ doc->Save(ArtifactsDir + u"DocumentBuilder.InsertFootnote.docx");
 * Enum [FootnoteType](../../../aspose.words.notes/footnotetype/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## DocumentBuilder::InsertFootnote(Aspose::Words::Notes::FootnoteType, const System::String\&, const System::String\&) method
 
 
@@ -116,4 +117,4 @@ doc->Save(ArtifactsDir + u"DocumentBuilder.InsertFootnote.docx");
 * Enum [FootnoteType](../../../aspose.words.notes/footnotetype/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

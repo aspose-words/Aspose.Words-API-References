@@ -1,9 +1,10 @@
 ---
-title: virtualized_iterator
+title: Aspose::Words::Markup::SdtListItemCollection::virtualized_iterator typedef
+linktitle: virtualized_iterator
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Aspose::Words::Markup::SdtListItemCollection::virtualized_iterator typedef of Aspose::Words::Markup::SdtListItemCollection class in C++.'
 type: docs
-weight: 287
+weight: 23000
 url: /cpp/aspose.words.markup/sdtlistitemcollection/virtualized_iterator/
 ---
 ## virtualized_iterator typedef
@@ -19,4 +20,4 @@ using Aspose::Words::Markup::SdtListItemCollection::virtualized_iterator =  type
 
 * Class [SdtListItemCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

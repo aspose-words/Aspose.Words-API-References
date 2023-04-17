@@ -1,9 +1,10 @@
 ---
-title: TextColumn
+title: Aspose::Words::TextColumn class
+linktitle: TextColumn
 second_title: Aspose.Words for C++ API Reference
-description: Represents a single text column. TextColumn is a member of the TextColumnCollection collection. The TextColumn collection includes all the columns in a section of a document. To learn more, visit the  documentation article.
+description: 'Aspose::Words::TextColumn class. Represents a single text column. TextColumn is a member of the TextColumnCollection collection. The TextColumn collection includes all the columns in a section of a document. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 898
+weight: 70000
 url: /cpp/aspose.words/textcolumn/
 ---
 ## TextColumn class
@@ -71,4 +72,4 @@ doc->Save(ArtifactsDir + u"PageSetup.CustomColumnWidth.docx");
 ## See Also
 
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

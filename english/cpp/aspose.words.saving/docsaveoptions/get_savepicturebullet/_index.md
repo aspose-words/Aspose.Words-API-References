@@ -1,9 +1,10 @@
 ---
-title: get_SavePictureBullet
+title: Aspose::Words::Saving::DocSaveOptions::get_SavePictureBullet method
+linktitle: get_SavePictureBullet
 second_title: Aspose.Words for C++ API Reference
-description: When false, PictureBullet data is not saved to output document. Default value is true.
+description: 'Aspose::Words::Saving::DocSaveOptions::get_SavePictureBullet method. When false, PictureBullet data is not saved to output document. Default value is true in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.saving/docsaveoptions/get_savepicturebullet/
 ---
 ## DocSaveOptions::get_SavePictureBullet method
@@ -41,4 +42,4 @@ doc->Save(ArtifactsDir + u"DocSaveOptions.PictureBullets.doc", saveOptions);
 
 * Class [DocSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: set_IsShiftJis
+title: Aspose::Words::Fields::FieldSymbol::set_IsShiftJis method
+linktitle: set_IsShiftJis
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fields::FieldSymbol::get_IsShiftJis.'
+description: 'Aspose::Words::Fields::FieldSymbol::set_IsShiftJis method. Setter for Aspose::Words::Fields::FieldSymbol::get_IsShiftJis in C++.'
 type: docs
-weight: 196
+weight: 16000
 url: /cpp/aspose.words.fields/fieldsymbol/set_isshiftjis/
 ---
 ## FieldSymbol::set_IsShiftJis method
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldSymbol::set_IsShiftJis(bool value)
 
 * Class [FieldSymbol](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: UnlinkFields
+title: Aspose::Words::Range::UnlinkFields method
+linktitle: UnlinkFields
 second_title: Aspose.Words for C++ API Reference
-description: Unlinks fields in this range.
+description: 'Aspose::Words::Range::UnlinkFields method. Unlinks fields in this range in C++.'
 type: docs
-weight: 170
+weight: 14000
 url: /cpp/aspose.words/range/unlinkfields/
 ---
 ## Range::UnlinkFields method
@@ -40,4 +41,4 @@ doc->get_Sections()->idx_get(1)->get_Range()->UnlinkFields();
 
 * Class [Range](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

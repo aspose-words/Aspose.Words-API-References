@@ -1,9 +1,10 @@
 ---
-title: cend
+title: Aspose::Words::Settings::OdsoFieldMapDataCollection::cend method
+linktitle: cend
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use cend method of Aspose::Words::Settings::OdsoFieldMapDataCollection class in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.settings/odsofieldmapdatacollection/cend/
 ---
 ## OdsoFieldMapDataCollection::cend method
@@ -20,4 +21,4 @@ const_iterator Aspose::Words::Settings::OdsoFieldMapDataCollection::cend() const
 * Typedef [const_iterator](../const_iterator/)
 * Class [OdsoFieldMapDataCollection](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

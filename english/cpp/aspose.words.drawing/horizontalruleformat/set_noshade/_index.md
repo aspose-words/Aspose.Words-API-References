@@ -1,9 +1,10 @@
 ---
-title: set_NoShade
+title: Aspose::Words::Drawing::HorizontalRuleFormat::set_NoShade method
+linktitle: set_NoShade
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Drawing::HorizontalRuleFormat::get_NoShade.'
+description: 'Aspose::Words::Drawing::HorizontalRuleFormat::set_NoShade method. Setter for Aspose::Words::Drawing::HorizontalRuleFormat::get_NoShade in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words.drawing/horizontalruleformat/set_noshade/
 ---
 ## HorizontalRuleFormat::set_NoShade method
@@ -19,4 +20,4 @@ void Aspose::Words::Drawing::HorizontalRuleFormat::set_NoShade(bool value)
 
 * Class [HorizontalRuleFormat](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

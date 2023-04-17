@@ -1,9 +1,10 @@
 ---
-title: TextureIndex
+title: Aspose::Words::TextureIndex enum
+linktitle: TextureIndex
 second_title: Aspose.Words for C++ API Reference
-description: Specifies shading texture.
+description: 'Aspose::Words::TextureIndex enum. Specifies shading texture in C++.'
 type: docs
-weight: 1613
+weight: 125000
 url: /cpp/aspose.words/textureindex/
 ---
 ## TextureIndex enum
@@ -128,4 +129,4 @@ doc->Save(ArtifactsDir + u"Table.SetOutlineBorders.docx");
 ## See Also
 
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

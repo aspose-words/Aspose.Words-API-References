@@ -1,9 +1,10 @@
 ---
-title: Type
+title: Aspose::Words::Story::Type method
+linktitle: Type
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Type method of Aspose::Words::Story class in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words/story/type/
 ---
 ## Story::Type method
@@ -19,4 +20,4 @@ static const System::TypeInfo & Aspose::Words::Story::Type()
 
 * Class [Story](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

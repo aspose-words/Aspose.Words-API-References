@@ -1,9 +1,10 @@
 ---
-title: TxtTrailingSpacesOptions
+title: Aspose::Words::Loading::TxtTrailingSpacesOptions enum
+linktitle: TxtTrailingSpacesOptions
 second_title: Aspose.Words for C++ API Reference
-description: Specifies available options for trailing spaces handling during import from Text file.
+description: 'Aspose::Words::Loading::TxtTrailingSpacesOptions enum. Specifies available options for trailing spaces handling during import from Text file in C++.'
 type: docs
-weight: 235
+weight: 19000
 url: /cpp/aspose.words.loading/txttrailingspacesoptions/
 ---
 ## TxtTrailingSpacesOptions enum
@@ -100,4 +101,4 @@ case TxtTrailingSpacesOptions::Trim:
 ## See Also
 
 * Namespace [Aspose::Words::Loading](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

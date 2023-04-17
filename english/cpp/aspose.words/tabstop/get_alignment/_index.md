@@ -1,9 +1,10 @@
 ---
-title: get_Alignment
+title: Aspose::Words::TabStop::get_Alignment method
+linktitle: get_Alignment
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the alignment of text at this tab stop.
+description: 'Aspose::Words::TabStop::get_Alignment method. Gets or sets the alignment of text at this tab stop in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words/tabstop/get_alignment/
 ---
 ## TabStop::get_Alignment method
@@ -47,4 +48,4 @@ doc->Save(ArtifactsDir + u"Styles.ChangeTocsTabStops.docx");
 * Enum [TabAlignment](../../tabalignment/)
 * Class [TabStop](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

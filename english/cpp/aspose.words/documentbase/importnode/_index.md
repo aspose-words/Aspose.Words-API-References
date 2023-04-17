@@ -1,9 +1,10 @@
 ---
-title: ImportNode
+title: Aspose::Words::DocumentBase::ImportNode method
+linktitle: ImportNode
 second_title: Aspose.Words for C++ API Reference
-description: Imports a node from another document to the current document.
+description: 'Aspose::Words::DocumentBase::ImportNode method. Imports a node from another document to the current document in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words/documentbase/importnode/
 ---
 ## DocumentBase::ImportNode(const System::SharedPtr\<Aspose::Words::Node\>\&, bool) method
@@ -69,7 +70,7 @@ ASSERT_EQ(u"Destination document first paragraph text.\r\nSource document first 
 * Class [Node](../../node/)
 * Class [DocumentBase](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## DocumentBase::ImportNode(const System::SharedPtr\<Aspose::Words::Node\>\&, bool, Aspose::Words::ImportFormatMode) method
 
 
@@ -142,4 +143,4 @@ ASSERT_EQ(srcStyle->get_Font()->get_Name(), dstDoc->get_Styles()->idx_get(u"My s
 * Enum [ImportFormatMode](../../importformatmode/)
 * Class [DocumentBase](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: UnsupportedFileFormatException
+title: Aspose::Words::UnsupportedFileFormatException typedef
+linktitle: UnsupportedFileFormatException
 second_title: Aspose.Words for C++ API Reference
-description: Thrown during document load, when the document format is not recognized or not supported by Aspose.Words. To learn more, visit the  documentation article.
+description: 'Aspose::Words::UnsupportedFileFormatException typedef. Thrown during document load, when the document format is not recognized or not supported by Aspose.Words. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 1743
+weight: 135000
 url: /cpp/aspose.words/unsupportedfileformatexception/
 ---
 ## UnsupportedFileFormatException typedef
@@ -18,4 +19,4 @@ using Aspose::Words::UnsupportedFileFormatException = typedef System::ExceptionW
 ## See Also
 
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

@@ -1,9 +1,10 @@
 ---
-title: get_LineStyle
+title: Aspose::Words::BorderCollection::get_LineStyle method
+linktitle: get_LineStyle
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the border style.
+description: 'Aspose::Words::BorderCollection::get_LineStyle method. Gets or sets the border style in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words/bordercollection/get_linestyle/
 ---
 ## BorderCollection::get_LineStyle method
@@ -45,4 +46,4 @@ doc->Save(ArtifactsDir + u"PageSetup.PageBorders.docx");
 * Enum [LineStyle](../../linestyle/)
 * Class [BorderCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

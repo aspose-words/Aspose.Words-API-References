@@ -1,9 +1,10 @@
 ---
-title: get_UlTrailSpace
+title: Aspose::Words::Settings::CompatibilityOptions::get_UlTrailSpace method
+linktitle: get_UlTrailSpace
 second_title: Aspose.Words for C++ API Reference
-description: Underline All Trailing Spaces.
+description: 'Aspose::Words::Settings::CompatibilityOptions::get_UlTrailSpace method. Underline All Trailing Spaces in C++.'
 type: docs
-weight: 755
+weight: 59000
 url: /cpp/aspose.words.settings/compatibilityoptions/get_ultrailspace/
 ---
 ## CompatibilityOptions::get_UlTrailSpace method
@@ -19,4 +20,4 @@ bool Aspose::Words::Settings::CompatibilityOptions::get_UlTrailSpace()
 
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

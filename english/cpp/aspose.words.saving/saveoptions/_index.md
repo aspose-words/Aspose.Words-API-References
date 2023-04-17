@@ -1,9 +1,10 @@
 ---
-title: SaveOptions
+title: Aspose::Words::Saving::SaveOptions class
+linktitle: SaveOptions
 second_title: Aspose.Words for C++ API Reference
-description: This is an abstract base class for classes that allow the user to specify additional options when saving a document into a particular format. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Saving::SaveOptions class. This is an abstract base class for classes that allow the user to specify additional options when saving a document into a particular format. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 365
+weight: 29000
 url: /cpp/aspose.words.saving/saveoptions/
 ---
 ## SaveOptions class
@@ -93,4 +94,4 @@ doc->Save(ArtifactsDir + u"HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOption
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

@@ -1,9 +1,10 @@
 ---
-title: ColorMode
+title: Aspose::Words::Saving::ColorMode enum
+linktitle: ColorMode
 second_title: Aspose.Words for C++ API Reference
-description: Specifies how colors are rendered.
+description: 'Aspose::Words::Saving::ColorMode enum. Specifies how colors are rendered in C++.'
 type: docs
-weight: 586
+weight: 46000
 url: /cpp/aspose.words.saving/colormode/
 ---
 ## ColorMode enum
@@ -45,4 +46,4 @@ doc->Save(ArtifactsDir + u"PdfSaveOptions.ColorRendering.pdf", pdfSaveOptions);
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

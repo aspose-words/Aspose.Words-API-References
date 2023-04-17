@@ -1,9 +1,10 @@
 ---
-title: Type
+title: Aspose::Words::Layout::PageLayoutCallbackArgs::Type method
+linktitle: Type
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Type method of Aspose::Words::Layout::PageLayoutCallbackArgs class in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words.layout/pagelayoutcallbackargs/type/
 ---
 ## PageLayoutCallbackArgs::Type method
@@ -19,4 +20,4 @@ static const System::TypeInfo & Aspose::Words::Layout::PageLayoutCallbackArgs::T
 
 * Class [PageLayoutCallbackArgs](../)
 * Namespace [Aspose::Words::Layout](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

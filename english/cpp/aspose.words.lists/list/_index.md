@@ -1,9 +1,10 @@
 ---
-title: List
+title: Aspose::Words::Lists::List class
+linktitle: List
 second_title: Aspose.Words for C++ API Reference
-description: Represents formatting of a list. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Lists::List class. Represents formatting of a list. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words.lists/list/
 ---
 ## List class
@@ -21,7 +22,7 @@ class List : public System::IComparable<System::SharedPtr<Aspose::Words::Lists::
 | --- | --- |
 | [CompareTo](./compareto/)(System::SharedPtr\<Aspose::Words::Lists::List\>) override | Compares the specified list to the current list. |
 | [Equals](./equals/)(const System::SharedPtr\<Aspose::Words::Lists::List\>\&) | Compares with the specified list. |
-| [Equals](./equals/)(System::SharedPtr\<System::Object\>) override |  |
+| [Equals](./equals/)(System::SharedPtr\<System::Object\>) override | Determines whether the specified object is equal in value to the current object. |
 | [get_Document](./get_document/)() const | Gets the owner document. |
 | [get_IsListStyleDefinition](./get_isliststyledefinition/)() | Returns **true** if this list is a definition of a list style. |
 | [get_IsListStyleReference](./get_isliststylereference/)() | Returns **true** if this list is a reference to a list style. |
@@ -196,4 +197,4 @@ doc->Save(ArtifactsDir + u"Lists.RestartNumberingUsingListCopy.docx");
 ## See Also
 
 * Namespace [Aspose::Words::Lists](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

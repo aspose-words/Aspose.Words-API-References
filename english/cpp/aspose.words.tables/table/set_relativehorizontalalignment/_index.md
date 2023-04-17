@@ -1,9 +1,10 @@
 ---
-title: set_RelativeHorizontalAlignment
+title: Aspose::Words::Tables::Table::set_RelativeHorizontalAlignment method
+linktitle: set_RelativeHorizontalAlignment
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Tables::Table::get_RelativeHorizontalAlignment.'
+description: 'Aspose::Words::Tables::Table::set_RelativeHorizontalAlignment method. Setter for Aspose::Words::Tables::Table::get_RelativeHorizontalAlignment in C++.'
 type: docs
-weight: 729
+weight: 57000
 url: /cpp/aspose.words.tables/table/set_relativehorizontalalignment/
 ---
 ## Table::set_RelativeHorizontalAlignment method
@@ -20,4 +21,4 @@ void Aspose::Words::Tables::Table::set_RelativeHorizontalAlignment(Aspose::Words
 * Enum [HorizontalAlignment](../../../aspose.words.drawing/horizontalalignment/)
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

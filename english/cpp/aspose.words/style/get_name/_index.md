@@ -1,9 +1,10 @@
 ---
-title: get_Name
+title: Aspose::Words::Style::get_Name method
+linktitle: get_Name
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the name of the style.
+description: 'Aspose::Words::Style::get_Name method. Gets or sets the name of the style in C++.'
 type: docs
-weight: 170
+weight: 14000
 url: /cpp/aspose.words/style/get_name/
 ---
 ## Style::get_Name method
@@ -77,4 +78,4 @@ ASPOSE_ASSERT_NE(doc->get_Styles()->idx_get(u"Heading 1")->get_Font()->get_Color
 
 * Class [Style](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

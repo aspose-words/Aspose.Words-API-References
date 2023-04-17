@@ -1,9 +1,10 @@
 ---
-title: ZoomType
+title: Aspose::Words::Settings::ZoomType enum
+linktitle: ZoomType
 second_title: Aspose.Words for C++ API Reference
-description: Possible values for how large or small the document appears on the screen in Microsoft Word.
+description: 'Aspose::Words::Settings::ZoomType enum. Possible values for how large or small the document appears on the screen in Microsoft Word in C++.'
 type: docs
-weight: 274
+weight: 22000
 url: /cpp/aspose.words.settings/zoomtype/
 ---
 ## ZoomType enum
@@ -29,4 +30,4 @@ enum class ZoomType
 ## See Also
 
 * Namespace [Aspose::Words::Settings](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

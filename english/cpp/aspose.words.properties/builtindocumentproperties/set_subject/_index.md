@@ -1,9 +1,10 @@
 ---
-title: set_Subject
+title: Aspose::Words::Properties::BuiltInDocumentProperties::set_Subject method
+linktitle: set_Subject
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Properties::BuiltInDocumentProperties::get_Subject.'
+description: 'Aspose::Words::Properties::BuiltInDocumentProperties::set_Subject method. Setter for Aspose::Words::Properties::BuiltInDocumentProperties::get_Subject in C++.'
 type: docs
-weight: 781
+weight: 61000
 url: /cpp/aspose.words.properties/builtindocumentproperties/set_subject/
 ---
 ## BuiltInDocumentProperties::set_Subject method
@@ -19,4 +20,4 @@ void Aspose::Words::Properties::BuiltInDocumentProperties::set_Subject(const Sys
 
 * Class [BuiltInDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

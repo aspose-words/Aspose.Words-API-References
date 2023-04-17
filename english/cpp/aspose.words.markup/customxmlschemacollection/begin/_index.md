@@ -1,9 +1,10 @@
 ---
-title: begin
+title: Aspose::Words::Markup::CustomXmlSchemaCollection::begin method
+linktitle: begin
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use begin method of Aspose::Words::Markup::CustomXmlSchemaCollection class in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.markup/customxmlschemacollection/begin/
 ---
 ## CustomXmlSchemaCollection::begin() const method
@@ -20,7 +21,7 @@ const_iterator Aspose::Words::Markup::CustomXmlSchemaCollection::begin() const n
 * Typedef [const_iterator](../const_iterator/)
 * Class [CustomXmlSchemaCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## CustomXmlSchemaCollection::begin() method
 
 
@@ -35,4 +36,4 @@ iterator Aspose::Words::Markup::CustomXmlSchemaCollection::begin() noexcept
 * Typedef [iterator](../iterator/)
 * Class [CustomXmlSchemaCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

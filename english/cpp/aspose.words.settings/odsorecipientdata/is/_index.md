@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Settings::OdsoRecipientData::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Settings::OdsoRecipientData class in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.settings/odsorecipientdata/is/
 ---
 ## OdsoRecipientData::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Settings::OdsoRecipientData::Is(const System::TypeIn
 
 * Class [OdsoRecipientData](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

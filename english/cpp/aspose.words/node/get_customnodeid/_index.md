@@ -1,9 +1,10 @@
 ---
-title: get_CustomNodeId
+title: Aspose::Words::Node::get_CustomNodeId method
+linktitle: get_CustomNodeId
 second_title: Aspose.Words for C++ API Reference
-description: Specifies custom node identifier.
+description: 'Aspose::Words::Node::get_CustomNodeId method. Specifies custom node identifier in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words/node/get_customnodeid/
 ---
 ## Node::get_CustomNodeId method
@@ -79,4 +80,4 @@ for (const auto& child : System::IterateOver(children))
 
 * Class [Node](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

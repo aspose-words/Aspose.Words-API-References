@@ -1,9 +1,10 @@
 ---
-title: get_MatchNode
+title: Aspose::Words::Replacing::ReplacingArgs::get_MatchNode method
+linktitle: get_MatchNode
 second_title: Aspose.Words for C++ API Reference
-description: Gets the node that contains the beginning of the match.
+description: 'Aspose::Words::Replacing::ReplacingArgs::get_MatchNode method. Gets the node that contains the beginning of the match in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.replacing/replacingargs/get_matchnode/
 ---
 ## ReplacingArgs::get_MatchNode method
@@ -94,4 +95,4 @@ static void InsertDocument(SharedPtr<Node> insertionDestination, SharedPtr<Docum
 * Class [Node](../../../aspose.words/node/)
 * Class [ReplacingArgs](../)
 * Namespace [Aspose::Words::Replacing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

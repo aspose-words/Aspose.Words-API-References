@@ -1,9 +1,10 @@
 ---
-title: get_PrefixedSequenceIdentifier
+title: Aspose::Words::Fields::FieldToc::get_PrefixedSequenceIdentifier method
+linktitle: get_PrefixedSequenceIdentifier
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the identifier of a sequence for which a prefix should be added to the entry's page number.
+description: 'Aspose::Words::Fields::FieldToc::get_PrefixedSequenceIdentifier method. Gets or sets the identifier of a sequence for which a prefix should be added to the entry''s page number in C++.'
 type: docs
-weight: 170
+weight: 14000
 url: /cpp/aspose.words.fields/fieldtoc/get_prefixedsequenceidentifier/
 ---
 ## FieldToc::get_PrefixedSequenceIdentifier method
@@ -94,4 +95,4 @@ doc->Save(ArtifactsDir + u"Field.TOC.SEQ.docx");
 
 * Class [FieldToc](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

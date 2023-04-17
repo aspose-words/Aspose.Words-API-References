@@ -1,9 +1,10 @@
 ---
-title: INodeChangingCallback
+title: Aspose::Words::INodeChangingCallback interface
+linktitle: INodeChangingCallback
 second_title: Aspose.Words for C++ API Reference
-description: Implement this interface if you want to receive notifications when nodes are inserted or removed in the document.
+description: 'Aspose::Words::INodeChangingCallback interface. Implement this interface if you want to receive notifications when nodes are inserted or removed in the document in C++.'
 type: docs
-weight: 1015
+weight: 79000
 url: /cpp/aspose.words/inodechangingcallback/
 ---
 ## INodeChangingCallback interface
@@ -12,7 +13,7 @@ url: /cpp/aspose.words/inodechangingcallback/
 Implement this interface if you want to receive notifications when nodes are inserted or removed in the document.
 
 ```cpp
-class INodeChangingCallback : public System::Object
+class INodeChangingCallback : public virtual System::Object
 ```
 
 ## Methods
@@ -107,4 +108,4 @@ private:
 ## See Also
 
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

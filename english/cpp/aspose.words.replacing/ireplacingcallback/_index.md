@@ -1,9 +1,10 @@
 ---
-title: IReplacingCallback
+title: Aspose::Words::Replacing::IReplacingCallback interface
+linktitle: IReplacingCallback
 second_title: Aspose.Words for C++ API Reference
-description: Implement this interface if you want to have your own custom method called during a find and replace operation.
+description: 'Aspose::Words::Replacing::IReplacingCallback interface. Implement this interface if you want to have your own custom method called during a find and replace operation in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.replacing/ireplacingcallback/
 ---
 ## IReplacingCallback interface
@@ -12,7 +13,7 @@ url: /cpp/aspose.words.replacing/ireplacingcallback/
 Implement this interface if you want to have your own custom method called during a find and replace operation.
 
 ```cpp
-class IReplacingCallback : public System::Object
+class IReplacingCallback : public virtual System::Object
 ```
 
 ## Methods
@@ -204,4 +205,4 @@ static void InsertDocument(SharedPtr<Node> insertionDestination, SharedPtr<Docum
 ## See Also
 
 * Namespace [Aspose::Words::Replacing](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

@@ -1,9 +1,10 @@
 ---
-title: Clear
+title: Aspose::Words::WebExtensions::BaseWebExtensionCollection::Clear method
+linktitle: Clear
 second_title: Aspose.Words for C++ API Reference
-description: Removes all elements from the collection.
+description: 'Aspose::Words::WebExtensions::BaseWebExtensionCollection::Clear method. Removes all elements from the collection in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.webextensions/basewebextensioncollection/clear/
 ---
 ## BaseWebExtensionCollection::Clear method
@@ -63,4 +64,4 @@ ASSERT_EQ(0, doc->get_WebExtensionTaskPanes()->get_Count());
 
 * Class [BaseWebExtensionCollection](../)
 * Namespace [Aspose::Words::WebExtensions](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: Type
+title: Aspose::Words::Fields::FieldNumWords::Type method
+linktitle: Type
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Type method of Aspose::Words::Fields::FieldNumWords class in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words.fields/fieldnumwords/type/
 ---
 ## FieldNumWords::Type method
@@ -19,4 +20,4 @@ static const System::TypeInfo & Aspose::Words::Fields::FieldNumWords::Type()
 
 * Class [FieldNumWords](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

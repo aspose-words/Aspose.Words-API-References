@@ -1,9 +1,10 @@
 ---
-title: get_IsDecorative
+title: Aspose::Words::Drawing::ShapeBase::get_IsDecorative method
+linktitle: get_IsDecorative
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the flag that specifies whether the shape is decorative in the document.
+description: 'Aspose::Words::Drawing::ShapeBase::get_IsDecorative method. Gets or sets the flag that specifies whether the shape is decorative in the document in C++.'
 type: docs
-weight: 313
+weight: 25000
 url: /cpp/aspose.words.drawing/shapebase/get_isdecorative/
 ---
 ## ShapeBase::get_IsDecorative method
@@ -46,4 +47,4 @@ doc->Save(ArtifactsDir + u"Shape.IsDecorative.docx");
 
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

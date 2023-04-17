@@ -1,9 +1,10 @@
 ---
-title: get_ParentParagraph
+title: Aspose::Words::InlineStory::get_ParentParagraph method
+linktitle: get_ParentParagraph
 second_title: Aspose.Words for C++ API Reference
-description: Retrieves the parent Paragraph of this node.
+description: 'Aspose::Words::InlineStory::get_ParentParagraph method. Retrieves the parent Paragraph of this node in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words/inlinestory/get_parentparagraph/
 ---
 ## InlineStory::get_ParentParagraph method
@@ -79,4 +80,4 @@ doc->Save(ArtifactsDir + u"InlineStory.InsertInlineStoryNodes.docx");
 * Class [Paragraph](../../paragraph/)
 * Class [InlineStory](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

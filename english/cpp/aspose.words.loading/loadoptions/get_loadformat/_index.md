@@ -1,9 +1,10 @@
 ---
-title: get_LoadFormat
+title: Aspose::Words::Loading::LoadOptions::get_LoadFormat method
+linktitle: get_LoadFormat
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the format of the document to be loaded. Default is Auto.
+description: 'Aspose::Words::Loading::LoadOptions::get_LoadFormat method. Specifies the format of the document to be loaded. Default is Auto in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words.loading/loadoptions/get_loadformat/
 ---
 ## LoadOptions::get_LoadFormat method
@@ -48,4 +49,4 @@ doc->Save(ArtifactsDir + u"HtmlLoadOptions.BaseUri.docx");
 * Enum [LoadFormat](../../../aspose.words/loadformat/)
 * Class [LoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

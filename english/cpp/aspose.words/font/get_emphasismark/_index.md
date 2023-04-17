@@ -1,9 +1,10 @@
 ---
-title: get_EmphasisMark
+title: Aspose::Words::Font::get_EmphasisMark method
+linktitle: get_EmphasisMark
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the emphasis mark applied to this formatting.
+description: 'Aspose::Words::Font::get_EmphasisMark method. Gets or sets the emphasis mark applied to this formatting in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words/font/get_emphasismark/
 ---
 ## Font::get_EmphasisMark method
@@ -41,4 +42,4 @@ builder->get_Document()->Save(ArtifactsDir + u"Fonts.SetEmphasisMark.docx");
 * Enum [EmphasisMark](../../emphasismark/)
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: LegendPosition
+title: Aspose::Words::Drawing::Charts::LegendPosition enum
+linktitle: LegendPosition
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the possible positions for a chart legend.
+description: 'Aspose::Words::Drawing::Charts::LegendPosition enum. Specifies the possible positions for a chart legend in C++.'
 type: docs
-weight: 365
+weight: 29000
 url: /cpp/aspose.words.drawing.charts/legendposition/
 ---
 ## LegendPosition enum
@@ -57,4 +58,4 @@ doc->Save(ArtifactsDir + u"Charts.ChartLegend.docx");
 ## See Also
 
 * Namespace [Aspose::Words::Drawing::Charts](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

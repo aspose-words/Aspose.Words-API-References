@@ -1,9 +1,10 @@
 ---
-title: set_MWSmallCaps
+title: Aspose::Words::Settings::CompatibilityOptions::set_MWSmallCaps method
+linktitle: set_MWSmallCaps
 second_title: Aspose.Words for C++ API Reference
-description: Emulate Word 5.x for the Macintosh Small Caps Formatting.
+description: 'Aspose::Words::Settings::CompatibilityOptions::set_MWSmallCaps method. Emulate Word 5.x for the Macintosh Small Caps Formatting in C++.'
 type: docs
-weight: 1379
+weight: 107000
 url: /cpp/aspose.words.settings/compatibilityoptions/set_mwsmallcaps/
 ---
 ## CompatibilityOptions::set_MWSmallCaps method
@@ -19,4 +20,4 @@ void Aspose::Words::Settings::CompatibilityOptions::set_MWSmallCaps(bool value)
 
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

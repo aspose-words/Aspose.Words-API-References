@@ -1,9 +1,10 @@
 ---
-title: virtualized_iterator_element
+title: Aspose::Words::Settings::OdsoFieldMapDataCollection::virtualized_iterator_element typedef
+linktitle: virtualized_iterator_element
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Aspose::Words::Settings::OdsoFieldMapDataCollection::virtualized_iterator_element typedef of Aspose::Words::Settings::OdsoFieldMapDataCollection class in C++.'
 type: docs
-weight: 300
+weight: 24000
 url: /cpp/aspose.words.settings/odsofieldmapdatacollection/virtualized_iterator_element/
 ---
 ## virtualized_iterator_element typedef
@@ -19,4 +20,4 @@ using Aspose::Words::Settings::OdsoFieldMapDataCollection::virtualized_iterator_
 
 * Class [OdsoFieldMapDataCollection](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

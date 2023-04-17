@@ -1,9 +1,10 @@
 ---
-title: get_Font
+title: Aspose::Words::ConditionalStyle::get_Font method
+linktitle: get_Font
 second_title: Aspose.Words for C++ API Reference
-description: Gets the character formatting of the conditional style.
+description: 'Aspose::Words::ConditionalStyle::get_Font method. Gets the character formatting of the conditional style in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words/conditionalstyle/get_font/
 ---
 ## ConditionalStyle::get_Font method
@@ -94,4 +95,4 @@ doc->Save(ArtifactsDir + u"Table.ConditionalStyles.docx");
 * Class [Font](../../font/)
 * Class [ConditionalStyle](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

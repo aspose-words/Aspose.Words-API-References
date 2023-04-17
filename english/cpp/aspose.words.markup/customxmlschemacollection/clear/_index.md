@@ -1,9 +1,10 @@
 ---
-title: Clear
+title: Aspose::Words::Markup::CustomXmlSchemaCollection::Clear method
+linktitle: Clear
 second_title: Aspose.Words for C++ API Reference
-description: Removes all elements from the collection.
+description: 'Aspose::Words::Markup::CustomXmlSchemaCollection::Clear method. Removes all elements from the collection in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.markup/customxmlschemacollection/clear/
 ---
 ## CustomXmlSchemaCollection::Clear method
@@ -66,4 +67,4 @@ ASSERT_EQ(0, schemas->get_Count());
 
 * Class [CustomXmlSchemaCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_Count
+title: Aspose::Words::Fields::DropDownItemCollection::get_Count method
+linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
-description: Gets the number of elements contained in the collection.
+description: 'Aspose::Words::Fields::DropDownItemCollection::get_Count method. Gets the number of elements contained in the collection in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.fields/dropdownitemcollection/get_count/
 ---
 ## DropDownItemCollection::get_Count method
@@ -76,4 +77,4 @@ dropDownItems->Clear();
 
 * Class [DropDownItemCollection](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

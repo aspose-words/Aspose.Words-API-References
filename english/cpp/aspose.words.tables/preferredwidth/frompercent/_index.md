@@ -1,9 +1,10 @@
 ---
-title: FromPercent
+title: Aspose::Words::Tables::PreferredWidth::FromPercent method
+linktitle: FromPercent
 second_title: Aspose.Words for C++ API Reference
-description: A creation method that returns a new instance that represents a preferred width specified as a percentage.
+description: 'Aspose::Words::Tables::PreferredWidth::FromPercent method. A creation method that returns a new instance that represents a preferred width specified as a percentage in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.tables/preferredwidth/frompercent/
 ---
 ## PreferredWidth::FromPercent method
@@ -82,4 +83,4 @@ doc->Save(ArtifactsDir + u"DocumentBuilder.InsertCellsWithPreferredWidths.docx")
 * Class [PreferredWidth](../)
 * Class [PreferredWidth](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

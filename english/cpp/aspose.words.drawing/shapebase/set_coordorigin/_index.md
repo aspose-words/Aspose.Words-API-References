@@ -1,9 +1,10 @@
 ---
-title: set_CoordOrigin
+title: Aspose::Words::Drawing::ShapeBase::set_CoordOrigin method
+linktitle: set_CoordOrigin
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Drawing::ShapeBase::get_CoordOrigin.'
+description: 'Aspose::Words::Drawing::ShapeBase::set_CoordOrigin method. Setter for Aspose::Words::Drawing::ShapeBase::get_CoordOrigin in C++.'
 type: docs
-weight: 872
+weight: 68000
 url: /cpp/aspose.words.drawing/shapebase/set_coordorigin/
 ---
 ## ShapeBase::set_CoordOrigin method
@@ -19,4 +20,4 @@ void Aspose::Words::Drawing::ShapeBase::set_CoordOrigin(System::Drawing::Point v
 
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

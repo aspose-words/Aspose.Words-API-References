@@ -1,9 +1,10 @@
 ---
-title: set_Enabled
+title: Aspose::Words::Fonts::FontSubstitutionRule::set_Enabled method
+linktitle: set_Enabled
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fonts::FontSubstitutionRule::get_Enabled.'
+description: 'Aspose::Words::Fonts::FontSubstitutionRule::set_Enabled method. Setter for Aspose::Words::Fonts::FontSubstitutionRule::get_Enabled in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.fonts/fontsubstitutionrule/set_enabled/
 ---
 ## FontSubstitutionRule::set_Enabled method
@@ -19,4 +20,4 @@ virtual void Aspose::Words::Fonts::FontSubstitutionRule::set_Enabled(bool value)
 
 * Class [FontSubstitutionRule](../)
 * Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

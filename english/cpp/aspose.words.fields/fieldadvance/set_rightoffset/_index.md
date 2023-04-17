@@ -1,9 +1,10 @@
 ---
-title: set_RightOffset
+title: Aspose::Words::Fields::FieldAdvance::set_RightOffset method
+linktitle: set_RightOffset
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fields::FieldAdvance::get_RightOffset.'
+description: 'Aspose::Words::Fields::FieldAdvance::set_RightOffset method. Setter for Aspose::Words::Fields::FieldAdvance::get_RightOffset in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words.fields/fieldadvance/set_rightoffset/
 ---
 ## FieldAdvance::set_RightOffset method
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldAdvance::set_RightOffset(const System::String &
 
 * Class [FieldAdvance](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

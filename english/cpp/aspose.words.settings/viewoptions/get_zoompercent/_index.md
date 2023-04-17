@@ -1,9 +1,10 @@
 ---
-title: get_ZoomPercent
+title: Aspose::Words::Settings::ViewOptions::get_ZoomPercent method
+linktitle: get_ZoomPercent
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the percentage (between 10 and 500) at which you want to view your document.
+description: 'Aspose::Words::Settings::ViewOptions::get_ZoomPercent method. Gets or sets the percentage (between 10 and 500) at which you want to view your document in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.settings/viewoptions/get_zoompercent/
 ---
 ## ViewOptions::get_ZoomPercent method
@@ -45,4 +46,4 @@ doc->Save(ArtifactsDir + u"ViewOptions.SetZoomPercentage.doc");
 
 * Class [ViewOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

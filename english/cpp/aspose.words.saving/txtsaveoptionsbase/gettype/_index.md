@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Saving::TxtSaveOptionsBase::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Saving::TxtSaveOptionsBase class in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.saving/txtsaveoptionsbase/gettype/
 ---
 ## TxtSaveOptionsBase::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Saving::TxtSaveOptionsBase::GetT
 
 * Class [TxtSaveOptionsBase](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

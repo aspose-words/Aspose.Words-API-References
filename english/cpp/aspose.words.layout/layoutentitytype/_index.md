@@ -1,9 +1,10 @@
 ---
-title: LayoutEntityType
+title: Aspose::Words::Layout::LayoutEntityType enum
+linktitle: LayoutEntityType
 second_title: Aspose.Words for C++ API Reference
-description: Types of the layout entities.
+description: 'Aspose::Words::Layout::LayoutEntityType enum. Types of the layout entities in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.layout/layoutentitytype/
 ---
 ## LayoutEntityType enum
@@ -164,4 +165,4 @@ static void PrintCurrentEntity(SharedPtr<LayoutEnumerator> layoutEnumerator, int
 ## See Also
 
 * Namespace [Aspose::Words::Layout](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

@@ -1,9 +1,10 @@
 ---
-title: ClearFormatting
+title: Aspose::Words::ConditionalStyle::ClearFormatting method
+linktitle: ClearFormatting
 second_title: Aspose.Words for C++ API Reference
-description: Clears formatting of this conditional style.
+description: 'Aspose::Words::ConditionalStyle::ClearFormatting method. Clears formatting of this conditional style in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words/conditionalstyle/clearformatting/
 ---
 ## ConditionalStyle::ClearFormatting method
@@ -62,4 +63,4 @@ ASSERT_TRUE(tableStyle->get_ConditionalStyles()->LINQ_All(isEmptyColor));
 
 * Class [ConditionalStyle](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

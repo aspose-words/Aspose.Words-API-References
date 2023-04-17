@@ -1,9 +1,10 @@
 ---
-title: set_LineStartingNumber
+title: Aspose::Words::PageSetup::set_LineStartingNumber method
+linktitle: set_LineStartingNumber
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::PageSetup::get_LineStartingNumber.'
+description: 'Aspose::Words::PageSetup::set_LineStartingNumber method. Setter for Aspose::Words::PageSetup::get_LineStartingNumber in C++.'
 type: docs
-weight: 911
+weight: 71000
 url: /cpp/aspose.words/pagesetup/set_linestartingnumber/
 ---
 ## PageSetup::set_LineStartingNumber method
@@ -19,4 +20,4 @@ void Aspose::Words::PageSetup::set_LineStartingNumber(int32_t value)
 
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

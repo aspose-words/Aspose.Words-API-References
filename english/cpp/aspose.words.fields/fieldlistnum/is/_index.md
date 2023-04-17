@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Fields::FieldListNum::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Fields::FieldListNum class in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.fields/fieldlistnum/is/
 ---
 ## FieldListNum::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Fields::FieldListNum::Is(const System::TypeInfo &tar
 
 * Class [FieldListNum](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

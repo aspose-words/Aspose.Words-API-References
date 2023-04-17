@@ -1,9 +1,10 @@
 ---
-title: PageLayoutCallbackArgs
+title: Aspose::Words::Layout::PageLayoutCallbackArgs class
+linktitle: PageLayoutCallbackArgs
 second_title: Aspose.Words for C++ API Reference
-description: An argument passed into Notify()To learn more, visit the  documentation article.
+description: 'Aspose::Words::Layout::PageLayoutCallbackArgs class. An argument passed into Notify()To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.layout/pagelayoutcallbackargs/
 ---
 ## PageLayoutCallbackArgs class
@@ -28,4 +29,4 @@ class PageLayoutCallbackArgs : public System::Object
 ## See Also
 
 * Namespace [Aspose::Words::Layout](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

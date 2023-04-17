@@ -1,9 +1,10 @@
 ---
-title: ChartDataPoint
+title: Aspose::Words::Drawing::Charts::ChartDataPoint class
+linktitle: ChartDataPoint
 second_title: Aspose.Words for C++ API Reference
-description: Allows to specify formatting of a single data point on the chart. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Drawing::Charts::ChartDataPoint class. Allows to specify formatting of a single data point on the chart. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.drawing.charts/chartdatapoint/
 ---
 ## ChartDataPoint class
@@ -98,4 +99,4 @@ static void ApplyDataPoints(SharedPtr<ChartSeries> series, int dataPointsCount, 
 
 * Interface [IChartDataPoint](../ichartdatapoint/)
 * Namespace [Aspose::Words::Drawing::Charts](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

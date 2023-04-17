@@ -1,9 +1,10 @@
 ---
-title: get_DefaultInstructions
+title: Aspose::Words::SignatureLineOptions::get_DefaultInstructions method
+linktitle: get_DefaultInstructions
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets a value indicating that default instructions is shown in the Sign dialog. Default value for this property is true.
+description: 'Aspose::Words::SignatureLineOptions::get_DefaultInstructions method. Gets or sets a value indicating that default instructions is shown in the Sign dialog. Default value for this property is true in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words/signaturelineoptions/get_defaultinstructions/
 ---
 ## SignatureLineOptions::get_DefaultInstructions method
@@ -67,4 +68,4 @@ ASSERT_TRUE(signatureLine->get_IsValid());
 
 * Class [SignatureLineOptions](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

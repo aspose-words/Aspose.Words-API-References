@@ -1,9 +1,10 @@
 ---
-title: SdtListItem
+title: Aspose::Words::Markup::SdtListItem class
+linktitle: SdtListItem
 second_title: Aspose.Words for C++ API Reference
-description: This element specifies a single list item within a parent ComboBox or DropDownList structured document tag. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Markup::SdtListItem class. This element specifies a single list item within a parent ComboBox or DropDownList structured document tag. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.markup/sdtlistitem/
 ---
 ## SdtListItem class
@@ -90,4 +91,4 @@ ASSERT_EQ(0, listItems->get_Count());
 ## See Also
 
 * Namespace [Aspose::Words::Markup](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

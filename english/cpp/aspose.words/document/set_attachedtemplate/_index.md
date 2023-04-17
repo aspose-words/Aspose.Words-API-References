@@ -1,9 +1,10 @@
 ---
-title: set_AttachedTemplate
+title: Aspose::Words::Document::set_AttachedTemplate method
+linktitle: set_AttachedTemplate
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Document::get_AttachedTemplate.'
+description: 'Aspose::Words::Document::set_AttachedTemplate method. Setter for Aspose::Words::Document::get_AttachedTemplate in C++.'
 type: docs
-weight: 937
+weight: 73000
 url: /cpp/aspose.words/document/set_attachedtemplate/
 ---
 ## Document::set_AttachedTemplate method
@@ -19,4 +20,4 @@ void Aspose::Words::Document::set_AttachedTemplate(const System::String &value)
 
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

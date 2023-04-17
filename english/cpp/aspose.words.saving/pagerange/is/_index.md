@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Saving::PageRange::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Saving::PageRange class in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.saving/pagerange/is/
 ---
 ## PageRange::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Saving::PageRange::Is(const System::TypeInfo &target
 
 * Class [PageRange](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

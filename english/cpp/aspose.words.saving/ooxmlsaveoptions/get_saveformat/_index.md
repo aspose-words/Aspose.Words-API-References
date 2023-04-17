@@ -1,9 +1,10 @@
 ---
-title: get_SaveFormat
+title: Aspose::Words::Saving::OoxmlSaveOptions::get_SaveFormat method
+linktitle: get_SaveFormat
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the format in which the document will be saved if this save options object is used. Can be Docx, Docm, Dotx, Dotm or FlatOpc.
+description: 'Aspose::Words::Saving::OoxmlSaveOptions::get_SaveFormat method. Specifies the format in which the document will be saved if this save options object is used. Can be Docx, Docm, Dotx, Dotm or FlatOpc in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.saving/ooxmlsaveoptions/get_saveformat/
 ---
 ## OoxmlSaveOptions::get_SaveFormat method
@@ -52,4 +53,4 @@ ASSERT_EQ(ShapeMarkupLanguage::Dml, (System::DynamicCast<Shape>(doc->GetChild(No
 * Enum [SaveFormat](../../../aspose.words/saveformat/)
 * Class [OoxmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Drawing::Charts::ChartDataPointCollection::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Drawing::Charts::ChartDataPointCollection class in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.drawing.charts/chartdatapointcollection/gettype/
 ---
 ## ChartDataPointCollection::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Drawing::Charts::ChartDataPointC
 
 * Class [ChartDataPointCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: set_Target
+title: Aspose::Words::Drawing::ShapeBase::set_Target method
+linktitle: set_Target
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Drawing::ShapeBase::get_Target.'
+description: 'Aspose::Words::Drawing::ShapeBase::set_Target method. Setter for Aspose::Words::Drawing::ShapeBase::get_Target in C++.'
 type: docs
-weight: 1106
+weight: 86000
 url: /cpp/aspose.words.drawing/shapebase/set_target/
 ---
 ## ShapeBase::set_Target method
@@ -19,4 +20,4 @@ void Aspose::Words::Drawing::ShapeBase::set_Target(const System::String &value)
 
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

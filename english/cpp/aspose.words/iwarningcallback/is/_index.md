@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::IWarningCallback::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::IWarningCallback class in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words/iwarningcallback/is/
 ---
 ## IWarningCallback::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::IWarningCallback::Is(const System::TypeInfo &target)
 
 * Interface [IWarningCallback](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

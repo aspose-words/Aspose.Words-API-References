@@ -1,9 +1,10 @@
 ---
-title: get_Styles
+title: Aspose::Words::Style::get_Styles method
+linktitle: get_Styles
 second_title: Aspose.Words for C++ API Reference
-description: Gets the collection of styles this style belongs to.
+description: 'Aspose::Words::Style::get_Styles method. Gets the collection of styles this style belongs to in C++.'
 type: docs
-weight: 222
+weight: 18000
 url: /cpp/aspose.words/style/get_styles/
 ---
 ## Style::get_Styles method
@@ -47,4 +48,4 @@ ASSERT_EQ(4, doc->get_Styles()->get_Count());
 * Class [StyleCollection](../../stylecollection/)
 * Class [Style](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

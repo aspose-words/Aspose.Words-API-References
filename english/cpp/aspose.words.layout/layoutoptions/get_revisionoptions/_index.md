@@ -1,9 +1,10 @@
 ---
-title: get_RevisionOptions
+title: Aspose::Words::Layout::LayoutOptions::get_RevisionOptions method
+linktitle: get_RevisionOptions
 second_title: Aspose.Words for C++ API Reference
-description: Gets revision options.
+description: 'Aspose::Words::Layout::LayoutOptions::get_RevisionOptions method. Gets revision options in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.layout/layoutoptions/get_revisionoptions/
 ---
 ## LayoutOptions::get_RevisionOptions method
@@ -44,4 +45,4 @@ doc->Save(ArtifactsDir + u"Document.LayoutOptionsRevisions.pdf");
 * Class [RevisionOptions](../../revisionoptions/)
 * Class [LayoutOptions](../)
 * Namespace [Aspose::Words::Layout](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

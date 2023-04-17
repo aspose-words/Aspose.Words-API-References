@@ -1,9 +1,10 @@
 ---
-title: CompareOptions
+title: Aspose::Words::Comparing::CompareOptions class
+linktitle: CompareOptions
 second_title: Aspose.Words for C++ API Reference
-description: Allows to choose advanced options for document comparison operation. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Comparing::CompareOptions class. Allows to choose advanced options for document comparison operation. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words.comparing/compareoptions/
 ---
 ## CompareOptions class
@@ -147,4 +148,4 @@ docOriginal->Save(ArtifactsDir + u"Document.CompareOptions.docx");
 ## See Also
 
 * Namespace [Aspose::Words::Comparing](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

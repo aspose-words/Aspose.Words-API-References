@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Drawing::Charts::ChartFormat::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Drawing::Charts::ChartFormat class in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.drawing.charts/chartformat/gettype/
 ---
 ## ChartFormat::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Drawing::Charts::ChartFormat::Ge
 
 * Class [ChartFormat](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

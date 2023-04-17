@@ -1,9 +1,10 @@
 ---
-title: LinkToPrevious
+title: Aspose::Words::HeaderFooterCollection::LinkToPrevious method
+linktitle: LinkToPrevious
 second_title: Aspose.Words for C++ API Reference
-description: Links or unlinks the specified header or footer to the corresponding header or footer in the previous section.
+description: 'Aspose::Words::HeaderFooterCollection::LinkToPrevious method. Links or unlinks the specified header or footer to the corresponding header or footer in the previous section in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words/headerfootercollection/linktoprevious/
 ---
 ## HeaderFooterCollection::LinkToPrevious(Aspose::Words::HeaderFooterType, bool) method
@@ -97,7 +98,7 @@ doc->Save(ArtifactsDir + u"HeaderFooter.Link.docx");
 * Enum [HeaderFooterType](../../headerfootertype/)
 * Class [HeaderFooterCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## HeaderFooterCollection::LinkToPrevious(bool) method
 
 
@@ -187,4 +188,4 @@ doc->Save(ArtifactsDir + u"HeaderFooter.Link.docx");
 
 * Class [HeaderFooterCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_ParagraphBreak
+title: Aspose::Words::Saving::TxtSaveOptionsBase::get_ParagraphBreak method
+linktitle: get_ParagraphBreak
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the string to use as a paragraph break when exporting in text formats.
+description: 'Aspose::Words::Saving::TxtSaveOptionsBase::get_ParagraphBreak method. Specifies the string to use as a paragraph break when exporting in text formats in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.saving/txtsaveoptionsbase/get_paragraphbreak/
 ---
 ## TxtSaveOptionsBase::get_ParagraphBreak method
@@ -53,4 +54,4 @@ ASSERT_EQ(String(u"Paragraph 1. End of paragraph.\n\n\t") + u"Paragraph 2. End o
 
 * Class [TxtSaveOptionsBase](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

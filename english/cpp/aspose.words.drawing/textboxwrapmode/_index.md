@@ -1,9 +1,10 @@
 ---
-title: TextBoxWrapMode
+title: Aspose::Words::Drawing::TextBoxWrapMode enum
+linktitle: TextBoxWrapMode
 second_title: Aspose.Words for C++ API Reference
-description: Specifies how text wraps inside a shape.
+description: 'Aspose::Words::Drawing::TextBoxWrapMode enum. Specifies how text wraps inside a shape in C++.'
 type: docs
-weight: 508
+weight: 40000
 url: /cpp/aspose.words.drawing/textboxwrapmode/
 ---
 ## TextBoxWrapMode enum
@@ -51,4 +52,4 @@ doc->Save(ArtifactsDir + u"Shape.TextBoxContentsWrapMode.docx");
 ## See Also
 
 * Namespace [Aspose::Words::Drawing](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

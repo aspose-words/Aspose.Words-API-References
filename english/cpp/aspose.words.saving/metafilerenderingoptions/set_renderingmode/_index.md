@@ -1,9 +1,10 @@
 ---
-title: set_RenderingMode
+title: Aspose::Words::Saving::MetafileRenderingOptions::set_RenderingMode method
+linktitle: set_RenderingMode
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::MetafileRenderingOptions::get_RenderingMode.'
+description: 'Aspose::Words::Saving::MetafileRenderingOptions::set_RenderingMode method. Setter for Aspose::Words::Saving::MetafileRenderingOptions::get_RenderingMode in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words.saving/metafilerenderingoptions/set_renderingmode/
 ---
 ## MetafileRenderingOptions::set_RenderingMode method
@@ -20,4 +21,4 @@ void Aspose::Words::Saving::MetafileRenderingOptions::set_RenderingMode(Aspose::
 * Enum [MetafileRenderingMode](../../metafilerenderingmode/)
 * Class [MetafileRenderingOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

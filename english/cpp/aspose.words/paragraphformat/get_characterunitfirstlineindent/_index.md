@@ -1,9 +1,10 @@
 ---
-title: get_CharacterUnitFirstLineIndent
+title: Aspose::Words::ParagraphFormat::get_CharacterUnitFirstLineIndent method
+linktitle: get_CharacterUnitFirstLineIndent
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the value (in characters) for the first-line or hanging indent. Use positive values to set the first-line indent, and negative values to set the hanging indent.
+description: 'Aspose::Words::ParagraphFormat::get_CharacterUnitFirstLineIndent method. Gets or sets the value (in characters) for the first-line or hanging indent. Use positive values to set the first-line indent, and negative values to set the hanging indent in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words/paragraphformat/get_characterunitfirstlineindent/
 ---
 ## ParagraphFormat::get_CharacterUnitFirstLineIndent method
@@ -72,4 +73,4 @@ builder->Write(String(u"测试文档测试文档测试文档测试文档测试�
 
 * Class [ParagraphFormat](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

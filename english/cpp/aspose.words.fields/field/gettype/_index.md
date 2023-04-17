@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Fields::Field::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Fields::Field class in C++.'
 type: docs
-weight: 183
+weight: 15000
 url: /cpp/aspose.words.fields/field/gettype/
 ---
 ## Field::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Fields::Field::GetType() const o
 
 * Class [Field](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

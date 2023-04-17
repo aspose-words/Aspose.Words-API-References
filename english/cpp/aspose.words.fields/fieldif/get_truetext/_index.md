@@ -1,9 +1,10 @@
 ---
-title: get_TrueText
+title: Aspose::Words::Fields::FieldIf::get_TrueText method
+linktitle: get_TrueText
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the text displayed if the comparison expression is true.
+description: 'Aspose::Words::Fields::FieldIf::get_TrueText method. Gets or sets the text displayed if the comparison expression is true in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words.fields/fieldif/get_truetext/
 ---
 ## FieldIf::get_TrueText method
@@ -64,4 +65,4 @@ doc->Save(ArtifactsDir + u"Field.IF.docx");
 
 * Class [FieldIf](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

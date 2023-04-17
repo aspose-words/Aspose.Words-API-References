@@ -1,9 +1,10 @@
 ---
-title: set_BaseStyleName
+title: Aspose::Words::Style::set_BaseStyleName method
+linktitle: set_BaseStyleName
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Style::get_BaseStyleName.'
+description: 'Aspose::Words::Style::set_BaseStyleName method. Setter for Aspose::Words::Style::get_BaseStyleName in C++.'
 type: docs
-weight: 300
+weight: 24000
 url: /cpp/aspose.words/style/set_basestylename/
 ---
 ## Style::set_BaseStyleName method
@@ -19,4 +20,4 @@ void Aspose::Words::Style::set_BaseStyleName(const System::String &value)
 
 * Class [Style](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

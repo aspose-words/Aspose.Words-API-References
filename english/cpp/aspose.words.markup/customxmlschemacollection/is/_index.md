@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Markup::CustomXmlSchemaCollection::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Markup::CustomXmlSchemaCollection class in C++.'
 type: docs
-weight: 183
+weight: 15000
 url: /cpp/aspose.words.markup/customxmlschemacollection/is/
 ---
 ## CustomXmlSchemaCollection::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Markup::CustomXmlSchemaCollection::Is(const System::
 
 * Class [CustomXmlSchemaCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

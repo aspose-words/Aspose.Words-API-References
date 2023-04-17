@@ -1,9 +1,10 @@
 ---
-title: get_Italic
+title: Aspose::Words::Font::get_Italic method
+linktitle: get_Italic
 second_title: Aspose.Words for C++ API Reference
-description: True if the font is formatted as italic.
+description: 'Aspose::Words::Font::get_Italic method. True if the font is formatted as italic in C++.'
 type: docs
-weight: 222
+weight: 18000
 url: /cpp/aspose.words/font/get_italic/
 ---
 ## Font::get_Italic method
@@ -36,4 +37,4 @@ doc->Save(ArtifactsDir + u"Font.Italic.docx");
 
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

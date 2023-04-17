@@ -1,9 +1,10 @@
 ---
-title: SetTemplateWeakPtr
+title: Aspose::Words::WebExtensions::TaskPaneCollection::SetTemplateWeakPtr method
+linktitle: SetTemplateWeakPtr
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use SetTemplateWeakPtr method of Aspose::Words::WebExtensions::TaskPaneCollection class in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.webextensions/taskpanecollection/settemplateweakptr/
 ---
 ## TaskPaneCollection::SetTemplateWeakPtr method
@@ -19,4 +20,4 @@ void Aspose::Words::WebExtensions::TaskPaneCollection::SetTemplateWeakPtr(uint32
 
 * Class [TaskPaneCollection](../)
 * Namespace [Aspose::Words::WebExtensions](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

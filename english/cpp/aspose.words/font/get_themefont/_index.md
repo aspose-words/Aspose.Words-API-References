@@ -1,9 +1,10 @@
 ---
-title: get_ThemeFont
+title: Aspose::Words::Font::get_ThemeFont method
+linktitle: get_ThemeFont
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the theme font in the applied font scheme that is associated with this Font object.
+description: 'Aspose::Words::Font::get_ThemeFont method. Gets or sets the theme font in the applied font scheme that is associated with this Font object in C++.'
 type: docs
-weight: 625
+weight: 49000
 url: /cpp/aspose.words/font/get_themefont/
 ---
 ## Font::get_ThemeFont method
@@ -124,4 +125,4 @@ builder->Writeln(u"Text with themed style");
 * Enum [ThemeFont](../../../aspose.words.themes/themefont/)
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

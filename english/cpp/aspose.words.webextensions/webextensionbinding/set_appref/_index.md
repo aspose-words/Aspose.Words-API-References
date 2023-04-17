@@ -1,9 +1,10 @@
 ---
-title: set_AppRef
+title: Aspose::Words::WebExtensions::WebExtensionBinding::set_AppRef method
+linktitle: set_AppRef
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the binding key used to map the binding entry in this list with the bound data in the document.
+description: 'Aspose::Words::WebExtensions::WebExtensionBinding::set_AppRef method. Specifies the binding key used to map the binding entry in this list with the bound data in the document in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.webextensions/webextensionbinding/set_appref/
 ---
 ## WebExtensionBinding::set_AppRef method
@@ -19,4 +20,4 @@ void Aspose::Words::WebExtensions::WebExtensionBinding::set_AppRef(const System:
 
 * Class [WebExtensionBinding](../)
 * Namespace [Aspose::Words::WebExtensions](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

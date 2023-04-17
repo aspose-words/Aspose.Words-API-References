@@ -1,9 +1,10 @@
 ---
-title: MemoryFontSource
+title: Aspose::Words::Fonts::MemoryFontSource::MemoryFontSource constructor
+linktitle: MemoryFontSource
 second_title: Aspose.Words for C++ API Reference
-description: Ctor.
+description: 'Aspose::Words::Fonts::MemoryFontSource::MemoryFontSource constructor. Ctor in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fonts/memoryfontsource/memoryfontsource/
 ---
 ## MemoryFontSource::MemoryFontSource(const System::ArrayPtr\<uint8_t\>\&) constructor
@@ -41,7 +42,7 @@ ASSERT_EQ(0, memoryFontSource->get_Priority());
 
 * Class [MemoryFontSource](../)
 * Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## MemoryFontSource::MemoryFontSource(const System::ArrayPtr\<uint8_t\>\&, int32_t) constructor
 
 
@@ -78,7 +79,7 @@ ASSERT_EQ(0, memoryFontSource->get_Priority());
 
 * Class [MemoryFontSource](../)
 * Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## MemoryFontSource::MemoryFontSource(const System::ArrayPtr\<uint8_t\>\&, int32_t, const System::String\&) constructor
 
 
@@ -99,4 +100,4 @@ Aspose::Words::Fonts::MemoryFontSource::MemoryFontSource(const System::ArrayPtr<
 
 * Class [MemoryFontSource](../)
 * Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

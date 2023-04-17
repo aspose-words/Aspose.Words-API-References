@@ -1,9 +1,10 @@
 ---
-title: OfficeMathRenderer
+title: Aspose::Words::Rendering::OfficeMathRenderer::OfficeMathRenderer constructor
+linktitle: OfficeMathRenderer
 second_title: Aspose.Words for C++ API Reference
-description: Initializes a new instance of this class.
+description: 'Aspose::Words::Rendering::OfficeMathRenderer::OfficeMathRenderer constructor. Initializes a new instance of this class in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.rendering/officemathrenderer/officemathrenderer/
 ---
 ## OfficeMathRenderer::OfficeMathRenderer constructor
@@ -70,4 +71,4 @@ ASSERT_EQ(30, bounds.get_Height());
 * Class [OfficeMath](../../../aspose.words.math/officemath/)
 * Class [OfficeMathRenderer](../)
 * Namespace [Aspose::Words::Rendering](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

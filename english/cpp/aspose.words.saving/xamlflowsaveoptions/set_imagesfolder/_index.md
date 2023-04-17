@@ -1,9 +1,10 @@
 ---
-title: set_ImagesFolder
+title: Aspose::Words::Saving::XamlFlowSaveOptions::set_ImagesFolder method
+linktitle: set_ImagesFolder
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::XamlFlowSaveOptions::get_ImagesFolder.'
+description: 'Aspose::Words::Saving::XamlFlowSaveOptions::set_ImagesFolder method. Setter for Aspose::Words::Saving::XamlFlowSaveOptions::get_ImagesFolder in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words.saving/xamlflowsaveoptions/set_imagesfolder/
 ---
 ## XamlFlowSaveOptions::set_ImagesFolder method
@@ -19,4 +20,4 @@ void Aspose::Words::Saving::XamlFlowSaveOptions::set_ImagesFolder(const System::
 
 * Class [XamlFlowSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

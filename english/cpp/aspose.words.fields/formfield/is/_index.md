@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Fields::FormField::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Fields::FormField class in C++.'
 type: docs
-weight: 326
+weight: 26000
 url: /cpp/aspose.words.fields/formfield/is/
 ---
 ## FormField::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Fields::FormField::Is(const System::TypeInfo &target
 
 * Class [FormField](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

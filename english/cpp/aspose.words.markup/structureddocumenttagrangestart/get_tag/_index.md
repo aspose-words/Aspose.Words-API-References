@@ -1,9 +1,10 @@
 ---
-title: get_Tag
+title: Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_Tag method
+linktitle: get_Tag
 second_title: Aspose.Words for C++ API Reference
-description: Specifies a tag associated with the current structured document tag node. Can not be null.
+description: 'Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_Tag method. Specifies a tag associated with the current structured document tag node. Can not be null in C++.'
 type: docs
-weight: 222
+weight: 18000
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/get_tag/
 ---
 ## StructuredDocumentTagRangeStart::get_Tag method
@@ -52,4 +53,4 @@ std::cout << String::Format(u"\t|NodeType: {0}", rangeEndTag->get_NodeType()) <<
 
 * Class [StructuredDocumentTagRangeStart](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

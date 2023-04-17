@@ -1,9 +1,10 @@
 ---
-title: get_SourceFullName
+title: Aspose::Words::Drawing::ImageData::get_SourceFullName method
+linktitle: get_SourceFullName
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the path and name of the source file for the linked image.
+description: 'Aspose::Words::Drawing::ImageData::get_SourceFullName method. Gets or sets the path and name of the source file for the linked image in C++.'
 type: docs
-weight: 222
+weight: 18000
 url: /cpp/aspose.words.drawing/imagedata/get_sourcefullname/
 ---
 ## ImageData::get_SourceFullName method
@@ -66,4 +67,4 @@ ASSERT_TRUE(10000 > MakeObject<System::IO::FileInfo>(ArtifactsDir + u"Image.Crea
 
 * Class [ImageData](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

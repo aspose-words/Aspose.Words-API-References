@@ -1,9 +1,10 @@
 ---
-title: get_ExportLanguageToSpanTag
+title: Aspose::Words::Saving::PdfSaveOptions::get_ExportLanguageToSpanTag method
+linktitle: get_ExportLanguageToSpanTag
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets a value determining whether or not to create a "Span" tag in the document structure to export the text language.
+description: 'Aspose::Words::Saving::PdfSaveOptions::get_ExportLanguageToSpanTag method. Gets or sets a value determining whether or not to create a "Span" tag in the document structure to export the text language in C++.'
 type: docs
-weight: 209
+weight: 17000
 url: /cpp/aspose.words.saving/pdfsaveoptions/get_exportlanguagetospantag/
 ---
 ## PdfSaveOptions::get_ExportLanguageToSpanTag method
@@ -47,4 +48,4 @@ doc->Save(ArtifactsDir + u"PdfSaveOptions.ExportLanguageToSpanTag.pdf", saveOpti
 
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

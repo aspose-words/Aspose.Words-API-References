@@ -1,9 +1,10 @@
 ---
-title: GetConsumptionCredit
+title: Aspose::Words::Metered::GetConsumptionCredit method
+linktitle: GetConsumptionCredit
 second_title: Aspose.Words for C++ API Reference
-description: Gets consumption credit.
+description: 'Aspose::Words::Metered::GetConsumptionCredit method. Gets consumption credit in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words/metered/getconsumptioncredit/
 ---
 ## Metered::GetConsumptionCredit method
@@ -24,4 +25,4 @@ consumption quantity
 
 * Class [Metered](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

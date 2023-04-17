@@ -1,9 +1,10 @@
 ---
-title: get_On
+title: Aspose::Words::Drawing::TextPath::get_On method
+linktitle: get_On
 second_title: Aspose.Words for C++ API Reference
-description: Defines whether the text is displayed.
+description: 'Aspose::Words::Drawing::TextPath::get_On method. Defines whether the text is displayed in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.drawing/textpath/get_on/
 ---
 ## TextPath::get_On method
@@ -130,4 +131,4 @@ static SharedPtr<Shape> AppendWordArt(SharedPtr<Document> doc, String text, Stri
 
 * Class [TextPath](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

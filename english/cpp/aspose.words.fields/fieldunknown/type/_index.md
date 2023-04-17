@@ -1,9 +1,10 @@
 ---
-title: Type
+title: Aspose::Words::Fields::FieldUnknown::Type method
+linktitle: Type
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Type method of Aspose::Words::Fields::FieldUnknown class in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words.fields/fieldunknown/type/
 ---
 ## FieldUnknown::Type method
@@ -19,4 +20,4 @@ static const System::TypeInfo & Aspose::Words::Fields::FieldUnknown::Type()
 
 * Class [FieldUnknown](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

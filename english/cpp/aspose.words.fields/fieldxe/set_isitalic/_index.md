@@ -1,15 +1,16 @@
 ---
-title: set_IsItalic
+title: Aspose::Words::Fields::FieldXE::set_IsItalic method
+linktitle: set_IsItalic
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fields::FieldXE::get_IsItalic.'
+description: 'Aspose::Words::Fields::FieldXE::set_IsItalic method. Sets whether to apply italic formatting to the entry''s page number in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words.fields/fieldxe/set_isitalic/
 ---
 ## FieldXE::set_IsItalic method
 
 
-Setter for [Aspose::Words::Fields::FieldXE::get_IsItalic](../get_isitalic/).
+Sets whether to apply italic formatting to the entry's page number.
 
 ```cpp
 void Aspose::Words::Fields::FieldXE::set_IsItalic(bool value)
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldXE::set_IsItalic(bool value)
 
 * Class [FieldXE](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

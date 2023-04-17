@@ -1,9 +1,10 @@
 ---
-title: DocumentBuilder
+title: Aspose::Words::DocumentBuilder::DocumentBuilder constructor
+linktitle: DocumentBuilder
 second_title: Aspose.Words for C++ API Reference
-description: Initializes a new instance of this class.
+description: 'Aspose::Words::DocumentBuilder::DocumentBuilder constructor. Initializes a new instance of this class in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words/documentbuilder/documentbuilder/
 ---
 ## DocumentBuilder::DocumentBuilder() constructor
@@ -19,7 +20,7 @@ Aspose::Words::DocumentBuilder::DocumentBuilder()
 
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## DocumentBuilder::DocumentBuilder(const System::SharedPtr\<Aspose::Words::Document\>\&) constructor
 
 
@@ -134,4 +135,4 @@ doc->Save(ArtifactsDir + u"DocumentBuilder.InsertToc.docx");
 * Class [Document](../../document/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

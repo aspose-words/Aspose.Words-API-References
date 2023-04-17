@@ -1,9 +1,10 @@
 ---
-title: set_LineWidth
+title: Aspose::Words::BorderCollection::set_LineWidth method
+linktitle: set_LineWidth
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::BorderCollection::get_LineWidth.'
+description: 'Aspose::Words::BorderCollection::set_LineWidth method. Setter for Aspose::Words::BorderCollection::get_LineWidth in C++.'
 type: docs
-weight: 287
+weight: 23000
 url: /cpp/aspose.words/bordercollection/set_linewidth/
 ---
 ## BorderCollection::set_LineWidth method
@@ -19,4 +20,4 @@ void Aspose::Words::BorderCollection::set_LineWidth(double value)
 
 * Class [BorderCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

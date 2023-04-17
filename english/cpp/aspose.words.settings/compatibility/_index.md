@@ -1,9 +1,10 @@
 ---
-title: Compatibility
+title: Aspose::Words::Settings::Compatibility enum
+linktitle: Compatibility
 second_title: Aspose.Words for C++ API Reference
-description: Specifies names of compatibility options.
+description: 'Aspose::Words::Settings::Compatibility enum. Specifies names of compatibility options in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words.settings/compatibility/
 ---
 ## Compatibility enum
@@ -94,4 +95,4 @@ enum class Compatibility
 ## See Also
 
 * Namespace [Aspose::Words::Settings](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

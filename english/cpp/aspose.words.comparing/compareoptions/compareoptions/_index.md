@@ -1,9 +1,10 @@
 ---
-title: CompareOptions
+title: Aspose::Words::Comparing::CompareOptions::CompareOptions constructor
+linktitle: CompareOptions
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use CompareOptions constructor of Aspose::Words::Comparing::CompareOptions class in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.comparing/compareoptions/compareoptions/
 ---
 ## CompareOptions::CompareOptions constructor
@@ -19,4 +20,4 @@ Aspose::Words::Comparing::CompareOptions::CompareOptions()
 
 * Class [CompareOptions](../)
 * Namespace [Aspose::Words::Comparing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: set_SnapToGrid
+title: Aspose::Words::ParagraphFormat::set_SnapToGrid method
+linktitle: set_SnapToGrid
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::ParagraphFormat::get_SnapToGrid.'
+description: 'Aspose::Words::ParagraphFormat::set_SnapToGrid method. Setter for Aspose::Words::ParagraphFormat::get_SnapToGrid in C++.'
 type: docs
-weight: 872
+weight: 68000
 url: /cpp/aspose.words/paragraphformat/set_snaptogrid/
 ---
 ## ParagraphFormat::set_SnapToGrid method
@@ -19,4 +20,4 @@ void Aspose::Words::ParagraphFormat::set_SnapToGrid(bool value)
 
 * Class [ParagraphFormat](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

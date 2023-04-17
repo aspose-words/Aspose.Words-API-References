@@ -1,9 +1,10 @@
 ---
-title: get_ExitMacro
+title: Aspose::Words::Fields::FormField::get_ExitMacro method
+linktitle: get_ExitMacro
 second_title: Aspose.Words for C++ API Reference
-description: Returns or sets an exit macro name for the form field.
+description: 'Aspose::Words::Fields::FormField::get_ExitMacro method. Returns or sets an exit macro name for the form field in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words.fields/formfield/get_exitmacro/
 ---
 ## FormField::get_ExitMacro method
@@ -159,4 +160,4 @@ private:
 
 * Class [FormField](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

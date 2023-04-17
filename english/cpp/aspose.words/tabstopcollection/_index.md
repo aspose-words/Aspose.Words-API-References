@@ -1,9 +1,10 @@
 ---
-title: TabStopCollection
+title: Aspose::Words::TabStopCollection class
+linktitle: TabStopCollection
 second_title: Aspose.Words for C++ API Reference
-description: A collection of TabStop objects that represent custom tabs for a paragraph or a style. To learn more, visit the  documentation article.
+description: 'Aspose::Words::TabStopCollection class. A collection of TabStop objects that represent custom tabs for a paragraph or a style. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 885
+weight: 69000
 url: /cpp/aspose.words/tabstopcollection/
 ---
 ## TabStopCollection class
@@ -91,4 +92,4 @@ doc->Save(ArtifactsDir + u"TabStopCollection.TabStopCollection.docx");
 
 * Class [InternableComplexAttr](../internablecomplexattr/)
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

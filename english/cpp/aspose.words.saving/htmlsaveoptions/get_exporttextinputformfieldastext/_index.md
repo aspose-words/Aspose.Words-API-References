@@ -1,9 +1,10 @@
 ---
-title: get_ExportTextInputFormFieldAsText
+title: Aspose::Words::Saving::HtmlSaveOptions::get_ExportTextInputFormFieldAsText method
+linktitle: get_ExportTextInputFormFieldAsText
 second_title: Aspose.Words for C++ API Reference
-description: Controls how text input form fields are saved to HTML or MHTML. Default value is false.
+description: 'Aspose::Words::Saving::HtmlSaveOptions::get_ExportTextInputFormFieldAsText method. Controls how text input form fields are saved to HTML or MHTML. Default value is false in C++.'
 type: docs
-weight: 352
+weight: 28000
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_exporttextinputformfieldastext/
 ---
 ## HtmlSaveOptions::get_ExportTextInputFormFieldAsText method
@@ -51,4 +52,4 @@ doc->Save(ArtifactsDir + u"HtmlSaveOptions.SaveHtmlWithOptions.html", options);
 
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

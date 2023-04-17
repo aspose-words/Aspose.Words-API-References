@@ -1,9 +1,10 @@
 ---
-title: get_GrayScale
+title: Aspose::Words::Drawing::ImageData::get_GrayScale method
+linktitle: get_GrayScale
 second_title: Aspose.Words for C++ API Reference
-description: Determines whether a picture will display in grayscale mode.
+description: 'Aspose::Words::Drawing::ImageData::get_GrayScale method. Determines whether a picture will display in grayscale mode in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words.drawing/imagedata/get_grayscale/
 ---
 ## ImageData::get_GrayScale method
@@ -85,4 +86,4 @@ dstDoc->Save(ArtifactsDir + u"Drawing.ImageData.docx");
 
 * Class [ImageData](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

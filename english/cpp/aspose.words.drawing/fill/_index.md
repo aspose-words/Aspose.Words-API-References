@@ -1,9 +1,10 @@
 ---
-title: Fill
+title: Aspose::Words::Drawing::Fill class
+linktitle: Fill
 second_title: Aspose.Words for C++ API Reference
-description: Represents fill formatting for an object. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Drawing::Fill class. Represents fill formatting for an object. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words.drawing/fill/
 ---
 ## Fill class
@@ -33,7 +34,7 @@ class Fill : public System::Object
 | [get_GradientVariant](./get_gradientvariant/)() | Gets the gradient variant [GradientVariant](../gradientvariant/) for the fill. |
 | [get_ImageBytes](./get_imagebytes/)() | Gets the raw bytes of the fill texture or pattern. |
 | [get_On](./get_on/)() |  |
-| [get_Opacity](./get_opacity/)() | Gets or sets the degree of opacity of the specified fill as a value between 0.0 (clear) and 1.0 (opaque). |
+| [get_Opacity](./get_opacity/)() | Gets the degree of opacity of the specified fill as a value between 0.0 (clear) and 1.0 (opaque). |
 | [get_Pattern](./get_pattern/)() | Gets a [PatternType](../patterntype/) for the fill. |
 | [get_PresetTexture](./get_presettexture/)() | Gets a [PresetTexture](../presettexture/) for the fill. |
 | [get_RotateWithObject](./get_rotatewithobject/)() | Gets whether the fill rotates with the specified object. |
@@ -56,7 +57,7 @@ class Fill : public System::Object
 | [set_ForeTintAndShade](./set_foretintandshade/)(double) | Setter for [Aspose::Words::Drawing::Fill::get_ForeTintAndShade](./get_foretintandshade/). |
 | [set_GradientAngle](./set_gradientangle/)(double) | Setter for [Aspose::Words::Drawing::Fill::get_GradientAngle](./get_gradientangle/). |
 | [set_On](./set_on/)(bool) |  |
-| [set_Opacity](./set_opacity/)(double) | Setter for [Aspose::Words::Drawing::Fill::get_Opacity](./get_opacity/). |
+| [set_Opacity](./set_opacity/)(double) | Sets the degree of opacity of the specified fill as a value between 0.0 (clear) and 1.0 (opaque). |
 | [set_RotateWithObject](./set_rotatewithobject/)(bool) | Sets whether the fill rotates with the specified object. |
 | [set_TextureAlignment](./set_texturealignment/)(Aspose::Words::Drawing::TextureAlignment) | Setter for [Aspose::Words::Drawing::Fill::get_TextureAlignment](./get_texturealignment/). |
 | [set_Transparency](./set_transparency/)(double) | Sets the degree of transparency of the specified fill as a value between 0.0 (opaque) and 1.0 (clear). |
@@ -72,42 +73,8 @@ class Fill : public System::Object
 ## Remarks
 
 
-Use the [Fill](../shapebase/get_fill/) or [Fill](../../aspose.words/font/get_fill/) property to access fill properties of an object. You do not create instances of the [Fill](./) class directly.
-
-## Examples
-
-
-
-Shows how to fill a shape with a solid color. 
-```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
-
-// Write some text, and then cover it with a floating shape.
-builder->get_Font()->set_Size(32);
-builder->Writeln(u"Hello world!");
-
-SharedPtr<Shape> shape = builder->InsertShape(ShapeType::CloudCallout, RelativeHorizontalPosition::LeftMargin, 25, RelativeVerticalPosition::TopMargin,
-                                              25, 250, 150, WrapType::None);
-
-// Use the "StrokeColor" property to set the color of the outline of the shape.
-shape->set_StrokeColor(System::Drawing::Color::get_CadetBlue());
-
-// Use the "FillColor" property to set the color of the inside area of the shape.
-shape->set_FillColor(System::Drawing::Color::get_LightBlue());
-
-// The "Opacity" property determines how transparent the color is on a 0-1 scale,
-// with 1 being fully opaque, and 0 being invisible.
-// The shape fill by default is fully opaque, so we cannot see the text that this shape is on top of.
-ASPOSE_ASSERT_EQ(1.0, shape->get_Fill()->get_Opacity());
-
-// Set the shape fill color's opacity to a lower value so that we can see the text underneath it.
-shape->get_Fill()->set_Opacity(0.3);
-
-doc->Save(ArtifactsDir + u"Shape.Fill.docx");
-```
-
+Use the [Fill](../shapebase/get_fill/) or [Fill](../../aspose.words/font/get_fill/) property to access fill properties of an object. You do not create instances of the [Fill](./) class directly. 
 ## See Also
 
 * Namespace [Aspose::Words::Drawing](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

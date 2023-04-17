@@ -1,9 +1,10 @@
 ---
-title: get_ExportListLabels
+title: Aspose::Words::Saving::HtmlSaveOptions::get_ExportListLabels method
+linktitle: get_ExportListLabels
 second_title: Aspose.Words for C++ API Reference
-description: Controls how list labels are output to HTML, MHTML or EPUB. Default value is Auto.
+description: 'Aspose::Words::Saving::HtmlSaveOptions::get_ExportListLabels method. Controls how list labels are output to HTML, MHTML or EPUB. Default value is Auto in C++.'
 type: docs
-weight: 261
+weight: 21000
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_exportlistlabels/
 ---
 ## HtmlSaveOptions::get_ExportListLabels method
@@ -113,4 +114,4 @@ case ExportListLabels::ByHtmlTags:
 * Enum [ExportListLabels](../../exportlistlabels/)
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

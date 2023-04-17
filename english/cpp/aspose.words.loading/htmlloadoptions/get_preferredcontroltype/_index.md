@@ -1,9 +1,10 @@
 ---
-title: get_PreferredControlType
+title: Aspose::Words::Loading::HtmlLoadOptions::get_PreferredControlType method
+linktitle: get_PreferredControlType
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets preferred type of document nodes that will represent imported <input> and <select> elements. Default value is FormField.
+description: 'Aspose::Words::Loading::HtmlLoadOptions::get_PreferredControlType method. Gets or sets preferred type of document nodes that will represent imported <input> and <select> elements. Default value is FormField in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.loading/htmlloadoptions/get_preferredcontroltype/
 ---
 ## HtmlLoadOptions::get_PreferredControlType method
@@ -40,4 +41,4 @@ auto tag = System::DynamicCast<StructuredDocumentTag>(nodes->idx_get(0));
 * Enum [HtmlControlType](../../htmlcontroltype/)
 * Class [HtmlLoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

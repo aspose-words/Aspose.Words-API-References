@@ -1,9 +1,10 @@
 ---
-title: MoveToMergeField
+title: Aspose::Words::DocumentBuilder::MoveToMergeField method
+linktitle: MoveToMergeField
 second_title: Aspose.Words for C++ API Reference
-description: Moves the cursor to a position just beyond the specified merge field and removes the merge field.
+description: 'Aspose::Words::DocumentBuilder::MoveToMergeField method. Moves the cursor to a position just beyond the specified merge field and removes the merge field in C++.'
 type: docs
-weight: 742
+weight: 58000
 url: /cpp/aspose.words/documentbuilder/movetomergefield/
 ---
 ## DocumentBuilder::MoveToMergeField(const System::String\&) method
@@ -62,7 +63,7 @@ doc->Save(ArtifactsDir + u"DocumentBuilder.FillMergeFields.docx");
 
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## DocumentBuilder::MoveToMergeField(const System::String\&, bool, bool) method
 
 
@@ -114,4 +115,4 @@ doc->Save(ArtifactsDir + u"DocumentBuilder.MergeFields.docx");
 
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

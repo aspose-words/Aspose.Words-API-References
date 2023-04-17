@@ -1,9 +1,10 @@
 ---
-title: idx_get
+title: Aspose::Words::Lists::ListCollection::idx_get method
+linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
-description: Gets a list by index.
+description: 'Aspose::Words::Lists::ListCollection::idx_get method. Gets a list by index in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words.lists/listcollection/idx_get/
 ---
 ## ListCollection::idx_get method
@@ -69,4 +70,4 @@ std::cout << (String(u"List is the same by ListId: ") + (System::ObjectExt::Equa
 * Class [List](../../list/)
 * Class [ListCollection](../)
 * Namespace [Aspose::Words::Lists](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

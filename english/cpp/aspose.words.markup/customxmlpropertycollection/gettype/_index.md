@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Markup::CustomXmlPropertyCollection::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Markup::CustomXmlPropertyCollection class in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.markup/customxmlpropertycollection/gettype/
 ---
 ## CustomXmlPropertyCollection::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Markup::CustomXmlPropertyCollect
 
 * Class [CustomXmlPropertyCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

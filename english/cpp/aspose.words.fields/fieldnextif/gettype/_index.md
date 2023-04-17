@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Fields::FieldNextIf::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Fields::FieldNextIf class in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.fields/fieldnextif/gettype/
 ---
 ## FieldNextIf::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Fields::FieldNextIf::GetType() c
 
 * Class [FieldNextIf](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

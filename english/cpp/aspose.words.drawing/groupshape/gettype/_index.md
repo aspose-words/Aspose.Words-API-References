@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Drawing::GroupShape::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Drawing::GroupShape class in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.drawing/groupshape/gettype/
 ---
 ## GroupShape::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Drawing::GroupShape::GetType() c
 
 * Class [GroupShape](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

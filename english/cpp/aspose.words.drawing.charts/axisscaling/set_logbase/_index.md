@@ -1,9 +1,10 @@
 ---
-title: set_LogBase
+title: Aspose::Words::Drawing::Charts::AxisScaling::set_LogBase method
+linktitle: set_LogBase
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Drawing::Charts::AxisScaling::get_LogBase.'
+description: 'Aspose::Words::Drawing::Charts::AxisScaling::set_LogBase method. Setter for Aspose::Words::Drawing::Charts::AxisScaling::get_LogBase in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.drawing.charts/axisscaling/set_logbase/
 ---
 ## AxisScaling::set_LogBase method
@@ -19,4 +20,4 @@ void Aspose::Words::Drawing::Charts::AxisScaling::set_LogBase(double value)
 
 * Class [AxisScaling](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

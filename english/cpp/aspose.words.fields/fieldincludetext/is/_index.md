@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Fields::FieldIncludeText::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Fields::FieldIncludeText class in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words.fields/fieldincludetext/is/
 ---
 ## FieldIncludeText::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Fields::FieldIncludeText::Is(const System::TypeInfo 
 
 * Class [FieldIncludeText](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

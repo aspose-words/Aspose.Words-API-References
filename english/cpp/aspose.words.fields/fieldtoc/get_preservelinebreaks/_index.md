@@ -1,9 +1,10 @@
 ---
-title: get_PreserveLineBreaks
+title: Aspose::Words::Fields::FieldToc::get_PreserveLineBreaks method
+linktitle: get_PreserveLineBreaks
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets whether to preserve newline characters within table entries.
+description: 'Aspose::Words::Fields::FieldToc::get_PreserveLineBreaks method. Gets or sets whether to preserve newline characters within table entries in C++.'
 type: docs
-weight: 183
+weight: 15000
 url: /cpp/aspose.words.fields/fieldtoc/get_preservelinebreaks/
 ---
 ## FieldToc::get_PreserveLineBreaks method
@@ -100,4 +101,4 @@ void InsertNewPageWithHeading(SharedPtr<DocumentBuilder> builder, String caption
 
 * Class [FieldToc](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

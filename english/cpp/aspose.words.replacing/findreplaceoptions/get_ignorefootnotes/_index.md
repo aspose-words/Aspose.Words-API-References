@@ -1,9 +1,10 @@
 ---
-title: get_IgnoreFootnotes
+title: Aspose::Words::Replacing::FindReplaceOptions::get_IgnoreFootnotes method
+linktitle: get_IgnoreFootnotes
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets a boolean value indicating either to ignore footnotes. The default value is false.
+description: 'Aspose::Words::Replacing::FindReplaceOptions::get_IgnoreFootnotes method. Gets or sets a boolean value indicating either to ignore footnotes. The default value is false in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words.replacing/findreplaceoptions/get_ignorefootnotes/
 ---
 ## FindReplaceOptions::get_IgnoreFootnotes method
@@ -46,4 +47,4 @@ doc->get_Range()->Replace(u"Lorem ipsum", u"Replaced Lorem ipsum", options);
 
 * Class [FindReplaceOptions](../)
 * Namespace [Aspose::Words::Replacing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

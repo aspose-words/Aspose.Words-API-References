@@ -1,9 +1,10 @@
 ---
-title: set_ImageFileName
+title: Aspose::Words::MailMerging::ImageFieldMergingArgs::set_ImageFileName method
+linktitle: set_ImageFileName
 second_title: Aspose.Words for C++ API Reference
-description: Sets the file name of the image that the mail merge engine must insert into the document.
+description: 'Aspose::Words::MailMerging::ImageFieldMergingArgs::set_ImageFileName method. Sets the file name of the image that the mail merge engine must insert into the document in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words.mailmerging/imagefieldmergingargs/set_imagefilename/
 ---
 ## ImageFieldMergingArgs::set_ImageFileName method
@@ -19,4 +20,4 @@ void Aspose::Words::MailMerging::ImageFieldMergingArgs::set_ImageFileName(const 
 
 * Class [ImageFieldMergingArgs](../)
 * Namespace [Aspose::Words::MailMerging](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

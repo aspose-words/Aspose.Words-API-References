@@ -1,9 +1,10 @@
 ---
-title: get_PresetTexture
+title: Aspose::Words::Drawing::Fill::get_PresetTexture method
+linktitle: get_PresetTexture
 second_title: Aspose.Words for C++ API Reference
-description: Gets a PresetTexture for the fill.
+description: 'Aspose::Words::Drawing::Fill::get_PresetTexture method. Gets a PresetTexture for the fill in C++.'
 type: docs
-weight: 222
+weight: 18000
 url: /cpp/aspose.words.drawing/fill/get_presettexture/
 ---
 ## Fill::get_PresetTexture method
@@ -20,4 +21,4 @@ Aspose::Words::Drawing::PresetTexture Aspose::Words::Drawing::Fill::get_PresetTe
 * Enum [PresetTexture](../../presettexture/)
 * Class [Fill](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

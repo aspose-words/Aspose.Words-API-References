@@ -1,9 +1,10 @@
 ---
-title: ToImage
+title: Aspose::Words::Drawing::ImageData::ToImage method
+linktitle: ToImage
 second_title: Aspose.Words for C++ API Reference
-description: Gets the image stored in the shape as a Image object.
+description: 'Aspose::Words::Drawing::ImageData::ToImage method. Gets the image stored in the shape as a Image object in C++.'
 type: docs
-weight: 469
+weight: 37000
 url: /cpp/aspose.words.drawing/imagedata/toimage/
 ---
 ## ImageData::ToImage method
@@ -60,4 +61,4 @@ auto formatConverter = MakeObject<System::Drawing::ImageFormatConverter>();
 
 * Class [ImageData](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

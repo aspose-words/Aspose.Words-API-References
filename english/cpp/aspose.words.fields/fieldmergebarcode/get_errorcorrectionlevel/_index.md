@@ -1,9 +1,10 @@
 ---
-title: get_ErrorCorrectionLevel
+title: Aspose::Words::Fields::FieldMergeBarcode::get_ErrorCorrectionLevel method
+linktitle: get_ErrorCorrectionLevel
 second_title: Aspose.Words for C++ API Reference
-description: Gets an error correction level of QR Code. Valid values are [0, 3].
+description: 'Aspose::Words::Fields::FieldMergeBarcode::get_ErrorCorrectionLevel method. Gets an error correction level of QR Code. Valid values are [0, 3] in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.fields/fieldmergebarcode/get_errorcorrectionlevel/
 ---
 ## FieldMergeBarcode::get_ErrorCorrectionLevel method
@@ -19,4 +20,4 @@ System::String Aspose::Words::Fields::FieldMergeBarcode::get_ErrorCorrectionLeve
 
 * Class [FieldMergeBarcode](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_BookmarkEnd
+title: Aspose::Words::Bookmark::get_BookmarkEnd method
+linktitle: get_BookmarkEnd
 second_title: Aspose.Words for C++ API Reference
-description: Gets the node that represents the end of the bookmark.
+description: 'Aspose::Words::Bookmark::get_BookmarkEnd method. Gets the node that represents the end of the bookmark in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words/bookmark/get_bookmarkend/
 ---
 ## Bookmark::get_BookmarkEnd method
@@ -102,4 +103,4 @@ public:
 * Class [BookmarkEnd](../../bookmarkend/)
 * Class [Bookmark](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

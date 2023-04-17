@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Drawing::Fill::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Drawing::Fill class in C++.'
 type: docs
-weight: 300
+weight: 24000
 url: /cpp/aspose.words.drawing/fill/is/
 ---
 ## Fill::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Drawing::Fill::Is(const System::TypeInfo &target) co
 
 * Class [Fill](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

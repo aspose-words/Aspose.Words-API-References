@@ -1,9 +1,10 @@
 ---
-title: 'Aspose::Words::Framesets'
+title: Aspose::Words::Framesets namespace
+linktitle: Aspose::Words::Framesets
 second_title: Aspose.Words for C++ API Reference
-description: The Aspose.Words.Framesets namespace provides classes and enumerations that represents a frames page or a single frame on a frames page.
+description: 'Aspose::Words::Framesets namespace. The Aspose.Words.Framesets namespace provides classes and enumerations that represents a frames page or a single frame on a frames page in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.framesets/
 ---
 

@@ -1,9 +1,10 @@
 ---
-title: get_OddColumnBanding
+title: Aspose::Words::ConditionalStyleCollection::get_OddColumnBanding method
+linktitle: get_OddColumnBanding
 second_title: Aspose.Words for C++ API Reference
-description: Gets the odd column banding style.
+description: 'Aspose::Words::ConditionalStyleCollection::get_OddColumnBanding method. Gets the odd column banding style in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words/conditionalstylecollection/get_oddcolumnbanding/
 ---
 ## ConditionalStyleCollection::get_OddColumnBanding method
@@ -94,4 +95,4 @@ doc->Save(ArtifactsDir + u"Table.ConditionalStyles.docx");
 * Class [ConditionalStyle](../../conditionalstyle/)
 * Class [ConditionalStyleCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Fields::IFieldUserPromptRespondent::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Fields::IFieldUserPromptRespondent class in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fields/ifielduserpromptrespondent/gettype/
 ---
 ## IFieldUserPromptRespondent::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Fields::IFieldUserPromptResponde
 
 * Interface [IFieldUserPromptRespondent](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: ProtectionType
+title: Aspose::Words::ProtectionType enum
+linktitle: ProtectionType
 second_title: Aspose.Words for C++ API Reference
-description: Protection type for a document.
+description: 'Aspose::Words::ProtectionType enum. Protection type for a document in C++.'
 type: docs
-weight: 1431
+weight: 111000
 url: /cpp/aspose.words/protectiontype/
 ---
 ## ProtectionType enum
@@ -56,4 +57,4 @@ doc->Save(ArtifactsDir + u"Section.Protect.docx");
 ## See Also
 
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

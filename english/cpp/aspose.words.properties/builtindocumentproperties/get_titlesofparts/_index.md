@@ -1,9 +1,10 @@
 ---
-title: get_TitlesOfParts
+title: Aspose::Words::Properties::BuiltInDocumentProperties::get_TitlesOfParts method
+linktitle: get_TitlesOfParts
 second_title: Aspose.Words for C++ API Reference
-description: Each string in the array specifies the name of a part in the document.
+description: 'Aspose::Words::Properties::BuiltInDocumentProperties::get_TitlesOfParts method. Each string in the array specifies the name of a part in the document in C++.'
 type: docs
-weight: 378
+weight: 30000
 url: /cpp/aspose.words.properties/builtindocumentproperties/get_titlesofparts/
 ---
 ## BuiltInDocumentProperties::get_TitlesOfParts method
@@ -55,4 +56,4 @@ while (headingPairsIndex < headingPairs->get_Length())
 
 * Class [BuiltInDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

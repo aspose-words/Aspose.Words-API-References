@@ -1,9 +1,10 @@
 ---
-title: get_Value
+title: Aspose::Words::WebExtensions::WebExtensionProperty::get_Value method
+linktitle: get_Value
 second_title: Aspose.Words for C++ API Reference
-description: Specifies a custom property value.
+description: 'Aspose::Words::WebExtensions::WebExtensionProperty::get_Value method. Specifies a custom property value in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.webextensions/webextensionproperty/get_value/
 ---
 ## WebExtensionProperty::get_Value method
@@ -19,4 +20,4 @@ System::String Aspose::Words::WebExtensions::WebExtensionProperty::get_Value() c
 
 * Class [WebExtensionProperty](../)
 * Namespace [Aspose::Words::WebExtensions](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

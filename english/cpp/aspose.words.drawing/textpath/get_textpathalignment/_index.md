@@ -1,9 +1,10 @@
 ---
-title: get_TextPathAlignment
+title: Aspose::Words::Drawing::TextPath::get_TextPathAlignment method
+linktitle: get_TextPathAlignment
 second_title: Aspose.Words for C++ API Reference
-description: Defines the alignment of text.
+description: 'Aspose::Words::Drawing::TextPath::get_TextPathAlignment method. Defines the alignment of text in C++.'
 type: docs
-weight: 222
+weight: 18000
 url: /cpp/aspose.words.drawing/textpath/get_textpathalignment/
 ---
 ## TextPath::get_TextPathAlignment method
@@ -131,4 +132,4 @@ static SharedPtr<Shape> AppendWordArt(SharedPtr<Document> doc, String text, Stri
 * Enum [TextPathAlignment](../../textpathalignment/)
 * Class [TextPath](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

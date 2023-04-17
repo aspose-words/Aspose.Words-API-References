@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Fonts::MemoryFontSource::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Fonts::MemoryFontSource class in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.fonts/memoryfontsource/gettype/
 ---
 ## MemoryFontSource::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Fonts::MemoryFontSource::GetType
 
 * Class [MemoryFontSource](../)
 * Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

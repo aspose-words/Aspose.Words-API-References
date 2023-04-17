@@ -1,9 +1,10 @@
 ---
-title: get_ListStyle
+title: Aspose::Words::Fields::FieldAutoTextList::get_ListStyle method
+linktitle: get_ListStyle
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the name of the style on which the list to contain entries is based.
+description: 'Aspose::Words::Fields::FieldAutoTextList::get_ListStyle method. Gets or sets the name of the style on which the list to contain entries is based in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.fields/fieldautotextlist/get_liststyle/
 ---
 ## FieldAutoTextList::get_ListStyle method
@@ -70,4 +71,4 @@ static void AppendAutoTextEntry(SharedPtr<GlossaryDocument> glossaryDoc, String 
 
 * Class [FieldAutoTextList](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

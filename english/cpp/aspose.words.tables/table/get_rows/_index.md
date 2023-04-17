@@ -1,9 +1,10 @@
 ---
-title: get_Rows
+title: Aspose::Words::Tables::Table::get_Rows method
+linktitle: get_Rows
 second_title: Aspose.Words for C++ API Reference
-description: Provides typed access to the rows of the table.
+description: 'Aspose::Words::Tables::Table::get_Rows method. Provides typed access to the rows of the table in C++.'
 type: docs
-weight: 417
+weight: 33000
 url: /cpp/aspose.words.tables/table/get_rows/
 ---
 ## Table::get_Rows method
@@ -89,4 +90,4 @@ doc->Save(ArtifactsDir + u"Table.CombineTables.docx");
 * Class [RowCollection](../../rowcollection/)
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

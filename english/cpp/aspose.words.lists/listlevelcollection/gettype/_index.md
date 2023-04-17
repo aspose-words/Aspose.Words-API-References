@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Lists::ListLevelCollection::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Lists::ListLevelCollection class in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.lists/listlevelcollection/gettype/
 ---
 ## ListLevelCollection::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Lists::ListLevelCollection::GetT
 
 * Class [ListLevelCollection](../)
 * Namespace [Aspose::Words::Lists](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

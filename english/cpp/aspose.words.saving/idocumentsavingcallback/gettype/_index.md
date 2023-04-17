@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Saving::IDocumentSavingCallback::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Saving::IDocumentSavingCallback class in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.saving/idocumentsavingcallback/gettype/
 ---
 ## IDocumentSavingCallback::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Saving::IDocumentSavingCallback:
 
 * Interface [IDocumentSavingCallback](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

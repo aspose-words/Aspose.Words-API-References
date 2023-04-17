@@ -1,9 +1,10 @@
 ---
-title: 'Aspose::Words'
+title: Aspose::Words namespace
+linktitle: Aspose::Words
 second_title: Aspose.Words for C++ API Reference
-description: The Aspose.Words namespace provides classes for generating, converting, modifying, rendering and printing Microsoft Word documents without utilizing Microsoft Word.
+description: 'Aspose::Words namespace. The Aspose.Words namespace provides classes for generating, converting, modifying, rendering and printing Microsoft Word documents without utilizing Microsoft Word in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words/
 ---
 

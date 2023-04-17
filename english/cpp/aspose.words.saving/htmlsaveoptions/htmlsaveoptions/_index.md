@@ -1,9 +1,10 @@
 ---
-title: HtmlSaveOptions
+title: Aspose::Words::Saving::HtmlSaveOptions::HtmlSaveOptions constructor
+linktitle: HtmlSaveOptions
 second_title: Aspose.Words for C++ API Reference
-description: Initializes a new instance of this class that can be used to save a document in the Html format.
+description: 'Aspose::Words::Saving::HtmlSaveOptions::HtmlSaveOptions constructor. Initializes a new instance of this class that can be used to save a document in the Html format in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.saving/htmlsaveoptions/htmlsaveoptions/
 ---
 ## HtmlSaveOptions::HtmlSaveOptions() constructor
@@ -45,7 +46,7 @@ doc->Save(ArtifactsDir + u"HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOption
 
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## HtmlSaveOptions::HtmlSaveOptions(Aspose::Words::SaveFormat) constructor
 
 
@@ -100,4 +101,4 @@ case HtmlVersion::Xhtml:
 * Enum [SaveFormat](../../../aspose.words/saveformat/)
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

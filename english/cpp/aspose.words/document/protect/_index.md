@@ -1,9 +1,10 @@
 ---
-title: Protect
+title: Aspose::Words::Document::Protect method
+linktitle: Protect
 second_title: Aspose.Words for C++ API Reference
-description: Protects the document from changes without changing the existing password or assigns a random password.
+description: 'Aspose::Words::Document::Protect method. Protects the document from changes without changing the existing password or assigns a random password in C++.'
 type: docs
-weight: 859
+weight: 67000
 url: /cpp/aspose.words/document/protect/
 ---
 ## Document::Protect(Aspose::Words::ProtectionType) method
@@ -60,7 +61,7 @@ doc->Save(ArtifactsDir + u"Section.Protect.docx");
 * Enum [ProtectionType](../../protectiontype/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## Document::Protect(Aspose::Words::ProtectionType, const System::String\&) method
 
 
@@ -131,4 +132,4 @@ ASSERT_EQ(ProtectionType::NoProtection, doc->get_ProtectionType());
 * Enum [ProtectionType](../../protectiontype/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

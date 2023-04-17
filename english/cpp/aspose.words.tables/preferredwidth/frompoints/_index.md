@@ -1,9 +1,10 @@
 ---
-title: FromPoints
+title: Aspose::Words::Tables::PreferredWidth::FromPoints method
+linktitle: FromPoints
 second_title: Aspose.Words for C++ API Reference
-description: A creation method that returns a new instance that represents a preferred width specified using a number of points.
+description: 'Aspose::Words::Tables::PreferredWidth::FromPoints method. A creation method that returns a new instance that represents a preferred width specified using a number of points in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.tables/preferredwidth/frompoints/
 ---
 ## PreferredWidth::FromPoints method
@@ -76,4 +77,4 @@ ASPOSE_ASSERT_EQ(216.0, table->get_FirstRow()->get_FirstCell()->get_CellFormat()
 * Class [PreferredWidth](../)
 * Class [PreferredWidth](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: 'Aspose::Words::Properties'
+title: Aspose::Words::Properties namespace
+linktitle: Aspose::Words::Properties
 second_title: Aspose.Words for C++ API Reference
-description: The Aspose.Words.Properties namespace provides classes to work with custom and built-in document properties such as title, keywords, company etc.
+description: 'Aspose::Words::Properties namespace. The Aspose.Words.Properties namespace provides classes to work with custom and built-in document properties such as title, keywords, company etc in C++.'
 type: docs
-weight: 209
+weight: 17000
 url: /cpp/aspose.words.properties/
 ---
 

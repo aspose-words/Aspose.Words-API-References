@@ -1,9 +1,10 @@
 ---
-title: DropCapPosition
+title: Aspose::Words::DropCapPosition enum
+linktitle: DropCapPosition
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the position for a drop cap text.
+description: 'Aspose::Words::DropCapPosition enum. Specifies the position for a drop cap text in C++.'
 type: docs
-weight: 1119
+weight: 87000
 url: /cpp/aspose.words/dropcapposition/
 ---
 ## DropCapPosition enum
@@ -58,4 +59,4 @@ doc->Save(ArtifactsDir + u"ParagraphFormat.DropCap.docx");
 ## See Also
 
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

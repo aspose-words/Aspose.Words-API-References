@@ -1,9 +1,10 @@
 ---
-title: get_SourceFullName
+title: Aspose::Words::Fields::FieldIncludePicture::get_SourceFullName method
+linktitle: get_SourceFullName
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the location of the picture using an IRI.
+description: 'Aspose::Words::Fields::FieldIncludePicture::get_SourceFullName method. Gets or sets the location of the picture using an IRI in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.fields/fieldincludepicture/get_sourcefullname/
 ---
 ## FieldIncludePicture::get_SourceFullName method
@@ -54,4 +55,4 @@ doc->Save(ArtifactsDir + u"Field.IMPORT.INCLUDEPICTURE.docx");
 
 * Class [FieldIncludePicture](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

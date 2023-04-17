@@ -1,9 +1,10 @@
 ---
-title: set_DmlEffectsRenderingMode
+title: Aspose::Words::Saving::SaveOptions::set_DmlEffectsRenderingMode method
+linktitle: set_DmlEffectsRenderingMode
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::SaveOptions::get_DmlEffectsRenderingMode.'
+description: 'Aspose::Words::Saving::SaveOptions::set_DmlEffectsRenderingMode method. Setter for Aspose::Words::Saving::SaveOptions::get_DmlEffectsRenderingMode in C++.'
 type: docs
-weight: 365
+weight: 29000
 url: /cpp/aspose.words.saving/saveoptions/set_dmleffectsrenderingmode/
 ---
 ## SaveOptions::set_DmlEffectsRenderingMode method
@@ -20,4 +21,4 @@ virtual void Aspose::Words::Saving::SaveOptions::set_DmlEffectsRenderingMode(Asp
 * Enum [DmlEffectsRenderingMode](../../dmleffectsrenderingmode/)
 * Class [SaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

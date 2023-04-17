@@ -1,9 +1,10 @@
 ---
-title: get_Type
+title: Aspose::Words::Properties::DocumentProperty::get_Type method
+linktitle: get_Type
 second_title: Aspose.Words for C++ API Reference
-description: Gets the data type of the property.
+description: 'Aspose::Words::Properties::DocumentProperty::get_Type method. Gets the data type of the property in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.properties/documentproperty/get_type/
 ---
 ## DocumentProperty::get_Type method
@@ -115,4 +116,4 @@ ASSERT_EQ(0, properties->get_Count());
 * Enum [PropertyType](../../propertytype/)
 * Class [DocumentProperty](../)
 * Namespace [Aspose::Words::Properties](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

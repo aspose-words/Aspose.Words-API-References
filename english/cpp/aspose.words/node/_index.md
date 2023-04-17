@@ -1,9 +1,10 @@
 ---
-title: Node
+title: Aspose::Words::Node class
+linktitle: Node
 second_title: Aspose.Words for C++ API Reference
-description: Base class for all nodes of a Word document. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Node class. Base class for all nodes of a Word document. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 521
+weight: 41000
 url: /cpp/aspose.words/node/
 ---
 ## Node class
@@ -161,4 +162,4 @@ ASSERT_EQ(0, doc->GetChildNodes(NodeType::Table, true)->get_Count());
 ## See Also
 
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

@@ -1,9 +1,10 @@
 ---
-title: set_Position
+title: Aspose::Words::Font::set_Position method
+linktitle: set_Position
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Font::get_Position.'
+description: 'Aspose::Words::Font::set_Position method. Setter for Aspose::Words::Font::get_Position in C++.'
 type: docs
-weight: 1093
+weight: 85000
 url: /cpp/aspose.words/font/set_position/
 ---
 ## Font::set_Position method
@@ -19,4 +20,4 @@ void Aspose::Words::Font::set_Position(double value)
 
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: set_VariableName
+title: Aspose::Words::Fields::FieldDocVariable::set_VariableName method
+linktitle: set_VariableName
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fields::FieldDocVariable::get_VariableName.'
+description: 'Aspose::Words::Fields::FieldDocVariable::set_VariableName method. Setter for Aspose::Words::Fields::FieldDocVariable::get_VariableName in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.fields/fielddocvariable/set_variablename/
 ---
 ## FieldDocVariable::set_VariableName method
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldDocVariable::set_VariableName(const System::Str
 
 * Class [FieldDocVariable](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

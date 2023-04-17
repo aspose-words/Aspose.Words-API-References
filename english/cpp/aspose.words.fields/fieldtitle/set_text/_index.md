@@ -1,9 +1,10 @@
 ---
-title: set_Text
+title: Aspose::Words::Fields::FieldTitle::set_Text method
+linktitle: set_Text
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fields::FieldTitle::get_Text.'
+description: 'Aspose::Words::Fields::FieldTitle::set_Text method. Setter for Aspose::Words::Fields::FieldTitle::get_Text in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.fields/fieldtitle/set_text/
 ---
 ## FieldTitle::set_Text method
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldTitle::set_Text(const System::String &value)
 
 * Class [FieldTitle](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

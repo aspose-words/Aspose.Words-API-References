@@ -1,9 +1,10 @@
 ---
-title: get_Accent6
+title: Aspose::Words::Themes::ThemeColors::get_Accent6 method
+linktitle: get_Accent6
 second_title: Aspose.Words for C++ API Reference
-description: Specifies color Accent 6.
+description: 'Aspose::Words::Themes::ThemeColors::get_Accent6 method. Specifies color Accent 6 in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.themes/themecolors/get_accent6/
 ---
 ## ThemeColors::get_Accent6 method
@@ -66,4 +67,4 @@ doc->Save(ArtifactsDir + u"Themes.CustomColorsAndFonts.docx");
 
 * Class [ThemeColors](../)
 * Namespace [Aspose::Words::Themes](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

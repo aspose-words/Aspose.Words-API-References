@@ -1,9 +1,10 @@
 ---
-title: AppendChild
+title: Aspose::Words::CompositeNode::AppendChild method
+linktitle: AppendChild
 second_title: Aspose.Words for C++ API Reference
-description: Adds the specified node to the end of the list of child nodes for this node.
+description: 'Aspose::Words::CompositeNode::AppendChild method. Adds the specified node to the end of the list of child nodes for this node in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words/compositenode/appendchild/
 ---
 ## CompositeNode::AppendChild method
@@ -83,4 +84,4 @@ doc->Save(ArtifactsDir + u"Section.CreateManually.docx");
 * Class [Node](../../node/)
 * Class [CompositeNode](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

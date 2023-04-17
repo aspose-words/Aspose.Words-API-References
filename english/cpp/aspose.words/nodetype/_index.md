@@ -1,9 +1,10 @@
 ---
-title: NodeType
+title: Aspose::Words::NodeType enum
+linktitle: NodeType
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the type of a Word document node.
+description: 'Aspose::Words::NodeType enum. Specifies the type of a Word document node in C++.'
 type: docs
-weight: 1314
+weight: 102000
 url: /cpp/aspose.words/nodetype/
 ---
 ## NodeType enum
@@ -114,4 +115,4 @@ for (const auto& child : System::IterateOver(children))
 ## See Also
 
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

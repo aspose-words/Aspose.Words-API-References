@@ -1,9 +1,10 @@
 ---
-title: get_Id
+title: Aspose::Words::Markup::StructuredDocumentTagRangeEnd::get_Id method
+linktitle: get_Id
 second_title: Aspose.Words for C++ API Reference
-description: Specifies a unique read-only persistent numerical Id for this StructuredDocumentTagRange node. Corresponding StructuredDocumentTagRangeStart node has the same Id.
+description: 'Aspose::Words::Markup::StructuredDocumentTagRangeEnd::get_Id method. Specifies a unique read-only persistent numerical Id for this StructuredDocumentTagRange node. Corresponding StructuredDocumentTagRangeStart node has the same Id in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.markup/structureddocumenttagrangeend/get_id/
 ---
 ## StructuredDocumentTagRangeEnd::get_Id method
@@ -52,4 +53,4 @@ std::cout << String::Format(u"\t|NodeType: {0}", rangeEndTag->get_NodeType()) <<
 
 * Class [StructuredDocumentTagRangeEnd](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

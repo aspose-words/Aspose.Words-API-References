@@ -1,9 +1,10 @@
 ---
-title: set_NameFarEast
+title: Aspose::Words::Font::set_NameFarEast method
+linktitle: set_NameFarEast
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Font::get_NameFarEast.'
+description: 'Aspose::Words::Font::set_NameFarEast method. Setter for Aspose::Words::Font::get_NameFarEast in C++.'
 type: docs
-weight: 1041
+weight: 81000
 url: /cpp/aspose.words/font/set_namefareast/
 ---
 ## Font::set_NameFarEast method
@@ -19,4 +20,4 @@ void Aspose::Words::Font::set_NameFarEast(const System::String &value)
 
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

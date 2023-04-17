@@ -1,9 +1,10 @@
 ---
-title: get_UpdateFields
+title: Aspose::Words::Saving::SaveOptions::get_UpdateFields method
+linktitle: get_UpdateFields
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is true.
+description: 'Aspose::Words::Saving::SaveOptions::get_UpdateFields method. Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is true in C++.'
 type: docs
-weight: 209
+weight: 17000
 url: /cpp/aspose.words.saving/saveoptions/get_updatefields/
 ---
 ## SaveOptions::get_UpdateFields method
@@ -56,4 +57,4 @@ doc->Save(ArtifactsDir + u"PdfSaveOptions.UpdateFields.pdf", options);
 
 * Class [SaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

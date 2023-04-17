@@ -1,9 +1,10 @@
 ---
-title: get_LeftExpression
+title: Aspose::Words::Fields::FieldIf::get_LeftExpression method
+linktitle: get_LeftExpression
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the left part of the comparison expression.
+description: 'Aspose::Words::Fields::FieldIf::get_LeftExpression method. Gets or sets the left part of the comparison expression in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.fields/fieldif/get_leftexpression/
 ---
 ## FieldIf::get_LeftExpression method
@@ -64,4 +65,4 @@ doc->Save(ArtifactsDir + u"Field.IF.docx");
 
 * Class [FieldIf](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

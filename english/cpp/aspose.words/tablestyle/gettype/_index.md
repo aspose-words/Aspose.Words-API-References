@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::TableStyle::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::TableStyle class in C++.'
 type: docs
-weight: 209
+weight: 17000
 url: /cpp/aspose.words/tablestyle/gettype/
 ---
 ## TableStyle::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::TableStyle::GetType() const over
 
 * Class [TableStyle](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

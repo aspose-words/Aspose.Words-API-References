@@ -1,9 +1,10 @@
 ---
-title: get_SheetsPerBooklet
+title: Aspose::Words::PageSetup::get_SheetsPerBooklet method
+linktitle: get_SheetsPerBooklet
 second_title: Aspose.Words for C++ API Reference
-description: Returns or sets the number of pages to be included in each booklet.
+description: 'Aspose::Words::PageSetup::get_SheetsPerBooklet method. Returns or sets the number of pages to be included in each booklet in C++.'
 type: docs
-weight: 534
+weight: 42000
 url: /cpp/aspose.words/pagesetup/get_sheetsperbooklet/
 ---
 ## PageSetup::get_SheetsPerBooklet method
@@ -50,4 +51,4 @@ doc->Save(ArtifactsDir + u"PageSetup.Booklet.docx");
 
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

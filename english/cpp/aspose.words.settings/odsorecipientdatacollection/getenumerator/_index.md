@@ -1,9 +1,10 @@
 ---
-title: GetEnumerator
+title: Aspose::Words::Settings::OdsoRecipientDataCollection::GetEnumerator method
+linktitle: GetEnumerator
 second_title: Aspose.Words for C++ API Reference
-description: Returns an enumerator object that can be used to iterate over all items in the collection.
+description: 'Aspose::Words::Settings::OdsoRecipientDataCollection::GetEnumerator method. Returns an enumerator object that can be used to iterate over all items in the collection in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words.settings/odsorecipientdatacollection/getenumerator/
 ---
 ## OdsoRecipientDataCollection::GetEnumerator method
@@ -20,4 +21,4 @@ System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<As
 * Class [OdsoRecipientData](../../odsorecipientdata/)
 * Class [OdsoRecipientDataCollection](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

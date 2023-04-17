@@ -1,9 +1,10 @@
 ---
-title: ListFormat
+title: Aspose::Words::Lists::ListFormat class
+linktitle: ListFormat
 second_title: Aspose.Words for C++ API Reference
-description: Allows to control what list formatting is applied to a paragraph. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Lists::ListFormat class. Allows to control what list formatting is applied to a paragraph. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.lists/listformat/
 ---
 ## ListFormat class
@@ -104,4 +105,4 @@ doc->Save(ArtifactsDir + u"Lists.SpecifyListLevel.docx");
 ## See Also
 
 * Namespace [Aspose::Words::Lists](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

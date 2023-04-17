@@ -1,9 +1,10 @@
 ---
-title: const_iterator
+title: Aspose::Words::Settings::OdsoFieldMapDataCollection::const_iterator typedef
+linktitle: const_iterator
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Aspose::Words::Settings::OdsoFieldMapDataCollection::const_iterator typedef of Aspose::Words::Settings::OdsoFieldMapDataCollection class in C++.'
 type: docs
-weight: 248
+weight: 20000
 url: /cpp/aspose.words.settings/odsofieldmapdatacollection/const_iterator/
 ---
 ## const_iterator typedef
@@ -19,4 +20,4 @@ using Aspose::Words::Settings::OdsoFieldMapDataCollection::const_iterator =  typ
 
 * Class [OdsoFieldMapDataCollection](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

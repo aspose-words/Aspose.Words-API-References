@@ -1,9 +1,10 @@
 ---
-title: get_HasMacros
+title: Aspose::Words::Document::get_HasMacros method
+linktitle: get_HasMacros
 second_title: Aspose.Words for C++ API Reference
-description: Returns true if the document has a VBA project (macros).
+description: 'Aspose::Words::Document::get_HasMacros method. Returns true if the document has a VBA project (macros) in C++.'
 type: docs
-weight: 378
+weight: 30000
 url: /cpp/aspose.words/document/get_hasmacros/
 ---
 ## Document::get_HasMacros method
@@ -54,4 +55,4 @@ doc->Save(ArtifactsDir + u"Field.MACROBUTTON.docm");
 
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: set_Shadow
+title: Aspose::Words::Drawing::TextPath::set_Shadow method
+linktitle: set_Shadow
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Drawing::TextPath::get_Shadow.'
+description: 'Aspose::Words::Drawing::TextPath::set_Shadow method. Setter for Aspose::Words::Drawing::TextPath::get_Shadow in C++.'
 type: docs
-weight: 430
+weight: 34000
 url: /cpp/aspose.words.drawing/textpath/set_shadow/
 ---
 ## TextPath::set_Shadow method
@@ -19,4 +20,4 @@ void Aspose::Words::Drawing::TextPath::set_Shadow(bool value)
 
 * Class [TextPath](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_ValueAsDate
+title: Aspose::Words::Drawing::Charts::AxisBound::get_ValueAsDate method
+linktitle: get_ValueAsDate
 second_title: Aspose.Words for C++ API Reference
-description: Returns value of axis bound represented as datetime.
+description: 'Aspose::Words::Drawing::Charts::AxisBound::get_ValueAsDate method. Returns value of axis bound represented as datetime in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.drawing.charts/axisbound/get_valueasdate/
 ---
 ## AxisBound::get_ValueAsDate method
@@ -73,4 +74,4 @@ doc->Save(ArtifactsDir + u"Charts.AxisBound.docx");
 
 * Class [AxisBound](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

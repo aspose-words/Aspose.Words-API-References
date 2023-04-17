@@ -1,9 +1,10 @@
 ---
-title: set_SingleUser
+title: Aspose::Words::EditableRange::set_SingleUser method
+linktitle: set_SingleUser
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::EditableRange::get_SingleUser.'
+description: 'Aspose::Words::EditableRange::set_SingleUser method. Setter for Aspose::Words::EditableRange::get_SingleUser in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words/editablerange/set_singleuser/
 ---
 ## EditableRange::set_SingleUser method
@@ -19,4 +20,4 @@ void Aspose::Words::EditableRange::set_SingleUser(const System::String &value)
 
 * Class [EditableRange](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: set_EmbedSystemFonts
+title: Aspose::Words::Fonts::FontInfoCollection::set_EmbedSystemFonts method
+linktitle: set_EmbedSystemFonts
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fonts::FontInfoCollection::get_EmbedSystemFonts.'
+description: 'Aspose::Words::Fonts::FontInfoCollection::set_EmbedSystemFonts method. Setter for Aspose::Words::Fonts::FontInfoCollection::get_EmbedSystemFonts in C++.'
 type: docs
-weight: 183
+weight: 15000
 url: /cpp/aspose.words.fonts/fontinfocollection/set_embedsystemfonts/
 ---
 ## FontInfoCollection::set_EmbedSystemFonts method
@@ -19,4 +20,4 @@ void Aspose::Words::Fonts::FontInfoCollection::set_EmbedSystemFonts(bool value)
 
 * Class [FontInfoCollection](../)
 * Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

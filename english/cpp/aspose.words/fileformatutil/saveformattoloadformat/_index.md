@@ -1,9 +1,10 @@
 ---
-title: SaveFormatToLoadFormat
+title: Aspose::Words::FileFormatUtil::SaveFormatToLoadFormat method
+linktitle: SaveFormatToLoadFormat
 second_title: Aspose.Words for C++ API Reference
-description: Converts a SaveFormat value to a LoadFormat value if possible.
+description: 'Aspose::Words::FileFormatUtil::SaveFormatToLoadFormat method. Converts a SaveFormat value to a LoadFormat value if possible in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words/fileformatutil/saveformattoloadformat/
 ---
 ## FileFormatUtil::SaveFormatToLoadFormat method
@@ -35,4 +36,4 @@ ASSERT_THROW(FileFormatUtil::SaveFormatToLoadFormat(SaveFormat::Jpeg), System::A
 * Enum [SaveFormat](../../saveformat/)
 * Class [FileFormatUtil](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

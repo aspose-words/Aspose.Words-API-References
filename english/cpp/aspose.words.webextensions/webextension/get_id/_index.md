@@ -1,9 +1,10 @@
 ---
-title: get_Id
+title: Aspose::Words::WebExtensions::WebExtension::get_Id method
+linktitle: get_Id
 second_title: Aspose.Words for C++ API Reference
-description: Uniquely identifies the web extension instance in the current document.
+description: 'Aspose::Words::WebExtensions::WebExtension::get_Id method. Uniquely identifies the web extension instance in the current document in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.webextensions/webextension/get_id/
 ---
 ## WebExtension::get_Id method
@@ -19,4 +20,4 @@ System::String Aspose::Words::WebExtensions::WebExtension::get_Id() const
 
 * Class [WebExtension](../)
 * Namespace [Aspose::Words::WebExtensions](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

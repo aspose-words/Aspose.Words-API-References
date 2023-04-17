@@ -1,9 +1,10 @@
 ---
-title: set_ShowCategoryName
+title: Aspose::Words::Drawing::Charts::ChartDataLabelCollection::set_ShowCategoryName method
+linktitle: set_ShowCategoryName
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_ShowCategoryName.'
+description: 'Aspose::Words::Drawing::Charts::ChartDataLabelCollection::set_ShowCategoryName method. Setter for Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_ShowCategoryName in C++.'
 type: docs
-weight: 261
+weight: 21000
 url: /cpp/aspose.words.drawing.charts/chartdatalabelcollection/set_showcategoryname/
 ---
 ## ChartDataLabelCollection::set_ShowCategoryName method
@@ -19,4 +20,4 @@ void Aspose::Words::Drawing::Charts::ChartDataLabelCollection::set_ShowCategoryN
 
 * Class [ChartDataLabelCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

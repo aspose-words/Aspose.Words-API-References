@@ -1,9 +1,10 @@
 ---
-title: PlainTextDocument
+title: Aspose::Words::PlainTextDocument::PlainTextDocument constructor
+linktitle: PlainTextDocument
 second_title: Aspose.Words for C++ API Reference
-description: Creates a plain text document from a stream. Automatically detects the file format.
+description: 'Aspose::Words::PlainTextDocument::PlainTextDocument constructor. Creates a plain text document from a stream. Automatically detects the file format in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words/plaintextdocument/plaintextdocument/
 ---
 ## PlainTextDocument::PlainTextDocument(const System::SharedPtr\<System::IO::Stream\>\&) constructor
@@ -48,7 +49,7 @@ doc->Save(ArtifactsDir + u"PlainTextDocument.LoadFromStream.docx");
 
 * Class [PlainTextDocument](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## PlainTextDocument::PlainTextDocument(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\&) constructor
 
 
@@ -100,7 +101,7 @@ loadOptions->set_Password(u"MyPassword");
 * Class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * Class [PlainTextDocument](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## PlainTextDocument::PlainTextDocument(const System::String\&) constructor
 
 
@@ -136,7 +137,7 @@ ASSERT_EQ(u"Hello world!", plaintext->get_Text().Trim());
 
 * Class [PlainTextDocument](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## PlainTextDocument::PlainTextDocument(const System::String\&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\&) constructor
 
 
@@ -180,7 +181,7 @@ ASSERT_EQ(u"Hello world!", plaintext->get_Text().Trim());
 * Class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * Class [PlainTextDocument](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## PlainTextDocument::PlainTextDocument(std::istream\&) constructor
 
 
@@ -194,7 +195,7 @@ Aspose::Words::PlainTextDocument::PlainTextDocument(std::istream &stream)
 
 * Class [PlainTextDocument](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## PlainTextDocument::PlainTextDocument(std::istream\&, const System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\&) constructor
 
 
@@ -209,4 +210,4 @@ Aspose::Words::PlainTextDocument::PlainTextDocument(std::istream &stream, const 
 * Class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * Class [PlainTextDocument](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

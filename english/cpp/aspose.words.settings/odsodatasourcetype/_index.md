@@ -1,9 +1,10 @@
 ---
-title: OdsoDataSourceType
+title: Aspose::Words::Settings::OdsoDataSourceType enum
+linktitle: OdsoDataSourceType
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the type of the external data source to be connected to as part of the ODSO connection information.
+description: 'Aspose::Words::Settings::OdsoDataSourceType enum. Specifies the type of the external data source to be connected to as part of the ODSO connection information in C++.'
 type: docs
-weight: 235
+weight: 19000
 url: /cpp/aspose.words.settings/odsodatasourcetype/
 ---
 ## OdsoDataSourceType enum
@@ -39,4 +40,4 @@ The OOXML specification is very vague for this enum. I guess it might correspond
 ## See Also
 
 * Namespace [Aspose::Words::Settings](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

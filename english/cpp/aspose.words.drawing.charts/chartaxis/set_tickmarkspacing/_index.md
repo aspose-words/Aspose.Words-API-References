@@ -1,9 +1,10 @@
 ---
-title: set_TickMarkSpacing
+title: Aspose::Words::Drawing::Charts::ChartAxis::set_TickMarkSpacing method
+linktitle: set_TickMarkSpacing
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Drawing::Charts::ChartAxis::get_TickMarkSpacing.'
+description: 'Aspose::Words::Drawing::Charts::ChartAxis::set_TickMarkSpacing method. Setter for Aspose::Words::Drawing::Charts::ChartAxis::get_TickMarkSpacing in C++.'
 type: docs
-weight: 690
+weight: 54000
 url: /cpp/aspose.words.drawing.charts/chartaxis/set_tickmarkspacing/
 ---
 ## ChartAxis::set_TickMarkSpacing method
@@ -19,4 +20,4 @@ void Aspose::Words::Drawing::Charts::ChartAxis::set_TickMarkSpacing(int32_t valu
 
 * Class [ChartAxis](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

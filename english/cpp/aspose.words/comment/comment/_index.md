@@ -1,9 +1,10 @@
 ---
-title: Comment
+title: Aspose::Words::Comment::Comment constructor
+linktitle: Comment
 second_title: Aspose.Words for C++ API Reference
-description: Initializes a new instance of the Comment class.
+description: 'Aspose::Words::Comment::Comment constructor. Initializes a new instance of the Comment class in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words/comment/comment/
 ---
 ## Comment::Comment(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&) constructor
@@ -174,7 +175,7 @@ private:
 * Class [DocumentBase](../../documentbase/)
 * Class [Comment](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## Comment::Comment(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&, const System::String\&, const System::String\&, System::DateTime) constructor
 
 
@@ -218,4 +219,4 @@ doc->Save(ArtifactsDir + u"InlineStory.AddComment.docx");
 * Class [DocumentBase](../../documentbase/)
 * Class [Comment](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

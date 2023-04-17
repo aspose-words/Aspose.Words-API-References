@@ -1,9 +1,10 @@
 ---
-title: PrependChild
+title: Aspose::Words::CompositeNode::PrependChild method
+linktitle: PrependChild
 second_title: Aspose.Words for C++ API Reference
-description: Adds the specified node to the beginning of the list of child nodes for this node.
+description: 'Aspose::Words::CompositeNode::PrependChild method. Adds the specified node to the beginning of the list of child nodes for this node in C++.'
 type: docs
-weight: 222
+weight: 18000
 url: /cpp/aspose.words/compositenode/prependchild/
 ---
 ## CompositeNode::PrependChild method
@@ -86,4 +87,4 @@ ASSERT_EQ(3, paragraph->GetChildNodes(NodeType::Any, true)->get_Count());
 * Class [Node](../../node/)
 * Class [CompositeNode](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

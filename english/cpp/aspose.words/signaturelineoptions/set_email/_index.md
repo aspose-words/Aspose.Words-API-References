@@ -1,9 +1,10 @@
 ---
-title: set_Email
+title: Aspose::Words::SignatureLineOptions::set_Email method
+linktitle: set_Email
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::SignatureLineOptions::get_Email.'
+description: 'Aspose::Words::SignatureLineOptions::set_Email method. Setter for Aspose::Words::SignatureLineOptions::get_Email in C++.'
 type: docs
-weight: 170
+weight: 14000
 url: /cpp/aspose.words/signaturelineoptions/set_email/
 ---
 ## SignatureLineOptions::set_Email method
@@ -19,4 +20,4 @@ void Aspose::Words::SignatureLineOptions::set_Email(const System::String &value)
 
 * Class [SignatureLineOptions](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

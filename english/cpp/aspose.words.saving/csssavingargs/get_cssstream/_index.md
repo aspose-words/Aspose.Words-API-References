@@ -1,9 +1,10 @@
 ---
-title: get_CssStream
+title: Aspose::Words::Saving::CssSavingArgs::get_CssStream method
+linktitle: get_CssStream
 second_title: Aspose.Words for C++ API Reference
-description: Allows to specify the stream where the CSS information will be saved to.
+description: 'Aspose::Words::Saving::CssSavingArgs::get_CssStream method. Allows to specify the stream where the CSS information will be saved to in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.saving/csssavingargs/get_cssstream/
 ---
 ## CssSavingArgs::get_CssStream method
@@ -86,4 +87,4 @@ private:
 
 * Class [CssSavingArgs](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

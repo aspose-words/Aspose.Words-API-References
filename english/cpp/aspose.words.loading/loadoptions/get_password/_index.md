@@ -1,9 +1,10 @@
 ---
-title: get_Password
+title: Aspose::Words::Loading::LoadOptions::get_Password method
+linktitle: get_Password
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the password for opening an encrypted document. Can be null or empty string. Default is null.
+description: 'Aspose::Words::Loading::LoadOptions::get_Password method. Gets or sets the password for opening an encrypted document. Can be null or empty string. Default is null in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words.loading/loadoptions/get_password/
 ---
 ## LoadOptions::get_Password method
@@ -46,4 +47,4 @@ DigitalSignatureUtil::Sign(inputFileName, outputFileName, certificateHolder, sig
 
 * Class [LoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

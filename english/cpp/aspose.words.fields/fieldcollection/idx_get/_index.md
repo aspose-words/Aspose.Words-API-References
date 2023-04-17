@@ -1,9 +1,10 @@
 ---
-title: idx_get
+title: Aspose::Words::Fields::FieldCollection::idx_get method
+linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
-description: Returns a field at the specified index.
+description: 'Aspose::Words::Fields::FieldCollection::idx_get method. Returns a field at the specified index in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.fields/fieldcollection/idx_get/
 ---
 ## FieldCollection::idx_get method
@@ -75,4 +76,4 @@ ASSERT_EQ(0, fields->get_Count());
 * Class [Field](../../field/)
 * Class [FieldCollection](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

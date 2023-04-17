@@ -1,9 +1,10 @@
 ---
-title: set_ListExportMode
+title: Aspose::Words::Saving::MarkdownSaveOptions::set_ListExportMode method
+linktitle: set_ListExportMode
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::MarkdownSaveOptions::get_ListExportMode.'
+description: 'Aspose::Words::Saving::MarkdownSaveOptions::set_ListExportMode method. Setter for Aspose::Words::Saving::MarkdownSaveOptions::get_ListExportMode in C++.'
 type: docs
-weight: 170
+weight: 14000
 url: /cpp/aspose.words.saving/markdownsaveoptions/set_listexportmode/
 ---
 ## MarkdownSaveOptions::set_ListExportMode method
@@ -20,4 +21,4 @@ void Aspose::Words::Saving::MarkdownSaveOptions::set_ListExportMode(Aspose::Word
 * Enum [MarkdownListExportMode](../../markdownlistexportmode/)
 * Class [MarkdownSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

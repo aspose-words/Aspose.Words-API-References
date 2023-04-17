@@ -1,9 +1,10 @@
 ---
-title: idx_get
+title: Aspose::Words::Tables::CellCollection::idx_get method
+linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
-description: Retrieves a Cell at the given index.
+description: 'Aspose::Words::Tables::CellCollection::idx_get method. Retrieves a Cell at the given index in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.tables/cellcollection/idx_get/
 ---
 ## CellCollection::idx_get method
@@ -79,4 +80,4 @@ for (int i = 0; i < tables->get_Count(); i++)
 * Class [Cell](../../cell/)
 * Class [CellCollection](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::MailMerging::IFieldMergingCallback::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::MailMerging::IFieldMergingCallback class in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.mailmerging/ifieldmergingcallback/is/
 ---
 ## IFieldMergingCallback::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::MailMerging::IFieldMergingCallback::Is(const System:
 
 * Interface [IFieldMergingCallback](../)
 * Namespace [Aspose::Words::MailMerging](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

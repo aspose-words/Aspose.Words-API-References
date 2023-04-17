@@ -1,9 +1,10 @@
 ---
-title: get_ResourceFileName
+title: Aspose::Words::Saving::ResourceSavingArgs::get_ResourceFileName method
+linktitle: get_ResourceFileName
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the file name (without path) where the resource will be saved to.
+description: 'Aspose::Words::Saving::ResourceSavingArgs::get_ResourceFileName method. Gets or sets the file name (without path) where the resource will be saved to in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.saving/resourcesavingargs/get_resourcefilename/
 ---
 ## ResourceSavingArgs::get_ResourceFileName method
@@ -78,4 +79,4 @@ private:
 
 * Class [ResourceSavingArgs](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

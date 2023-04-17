@@ -1,9 +1,10 @@
 ---
-title: FieldAsk
+title: Aspose::Words::Fields::FieldAsk class
+linktitle: FieldAsk
 second_title: Aspose.Words for C++ API Reference
-description: Implements the ASK field. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Fields::FieldAsk class. Implements the ASK field. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words.fields/fieldask/
 ---
 ## FieldAsk class
@@ -27,7 +28,7 @@ class FieldAsk : public Aspose::Words::Fields::Field,
 | [get_FieldEnd](../field/get_fieldend/)() const | Gets the node that represents the field end. |
 | [get_FieldStart](../field/get_fieldstart/)() const | Gets the node that represents the start of the field. |
 | [get_Format](../field/get_format/)() | Gets a [FieldFormat](../fieldformat/) object that provides typed access to field's formatting. |
-| [get_IsDirty](../field/get_isdirty/)() | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [get_IsDirty](../field/get_isdirty/)() | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [get_IsLocked](../field/get_islocked/)() | Gets or sets whether the field is locked (should not recalculate its result). |
 | [get_LocaleId](../field/get_localeid/)() | Gets or sets the LCID of the field. |
 | [get_PromptOnceOnMailMerge](./get_promptonceonmailmerge/)() | Gets whether the user response should be recieved once per a mail merge operation. |
@@ -43,7 +44,7 @@ class FieldAsk : public Aspose::Words::Fields::Field,
 | [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
 | [set_BookmarkName](./set_bookmarkname/)(const System::String\&) | Sets the name of the bookmark. |
 | [set_DefaultResponse](./set_defaultresponse/)(const System::String\&) | Sets default user response (initial value contained in the prompt window). |
-| [set_IsDirty](../field/set_isdirty/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsDirty](../field/get_isdirty/). |
+| [set_IsDirty](../field/set_isdirty/)(bool) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [set_IsLocked](../field/set_islocked/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsLocked](../field/get_islocked/). |
 | [set_LocaleId](../field/set_localeid/)(int32_t) | Setter for [Aspose::Words::Fields::Field::get_LocaleId](../field/get_localeid/). |
 | [set_PromptOnceOnMailMerge](./set_promptonceonmailmerge/)(bool) | Sets whether the user response should be recieved once per a mail merge operation. |
@@ -57,4 +58,4 @@ class FieldAsk : public Aspose::Words::Fields::Field,
 
 * Class [Field](../field/)
 * Namespace [Aspose::Words::Fields](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

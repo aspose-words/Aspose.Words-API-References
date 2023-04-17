@@ -1,9 +1,10 @@
 ---
-title: HtmlFixedSaveOptions
+title: Aspose::Words::Saving::HtmlFixedSaveOptions class
+linktitle: HtmlFixedSaveOptions
 second_title: Aspose.Words for C++ API Reference
-description: Can be used to specify additional options when saving a document into the HtmlFixed format. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Saving::HtmlFixedSaveOptions class. Can be used to specify additional options when saving a document into the HtmlFixed format. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.saving/htmlfixedsaveoptions/
 ---
 ## HtmlFixedSaveOptions class
@@ -195,4 +196,4 @@ private:
 
 * Class [FixedPageSaveOptions](../fixedpagesaveoptions/)
 * Namespace [Aspose::Words::Saving](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

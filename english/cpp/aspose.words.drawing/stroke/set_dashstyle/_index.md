@@ -1,9 +1,10 @@
 ---
-title: set_DashStyle
+title: Aspose::Words::Drawing::Stroke::set_DashStyle method
+linktitle: set_DashStyle
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Drawing::Stroke::get_DashStyle.'
+description: 'Aspose::Words::Drawing::Stroke::set_DashStyle method. Setter for Aspose::Words::Drawing::Stroke::get_DashStyle in C++.'
 type: docs
-weight: 339
+weight: 27000
 url: /cpp/aspose.words.drawing/stroke/set_dashstyle/
 ---
 ## Stroke::set_DashStyle method
@@ -20,4 +21,4 @@ void Aspose::Words::Drawing::Stroke::set_DashStyle(Aspose::Words::Drawing::DashS
 * Enum [DashStyle](../../dashstyle/)
 * Class [Stroke](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

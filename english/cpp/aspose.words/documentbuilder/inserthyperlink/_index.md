@@ -1,9 +1,10 @@
 ---
-title: InsertHyperlink
+title: Aspose::Words::DocumentBuilder::InsertHyperlink method
+linktitle: InsertHyperlink
 second_title: Aspose.Words for C++ API Reference
-description: Inserts a hyperlink into the document.
+description: 'Aspose::Words::DocumentBuilder::InsertHyperlink method. Inserts a hyperlink into the document in C++.'
 type: docs
-weight: 482
+weight: 38000
 url: /cpp/aspose.words/documentbuilder/inserthyperlink/
 ---
 ## DocumentBuilder::InsertHyperlink method
@@ -112,4 +113,4 @@ doc->Save(ArtifactsDir + u"DocumentBuilder.InsertHyperlinkToLocalBookmark.docx")
 * Class [Field](../../../aspose.words.fields/field/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

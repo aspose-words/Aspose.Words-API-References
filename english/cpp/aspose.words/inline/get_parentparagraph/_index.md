@@ -1,9 +1,10 @@
 ---
-title: get_ParentParagraph
+title: Aspose::Words::Inline::get_ParentParagraph method
+linktitle: get_ParentParagraph
 second_title: Aspose.Words for C++ API Reference
-description: Retrieves the parent Paragraph of this node.
+description: 'Aspose::Words::Inline::get_ParentParagraph method. Retrieves the parent Paragraph of this node in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words/inline/get_parentparagraph/
 ---
 ## Inline::get_ParentParagraph method
@@ -75,4 +76,4 @@ ASSERT_TRUE(runs->idx_get(5)->get_IsDeleteRevision());
 * Class [Paragraph](../../paragraph/)
 * Class [Inline](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

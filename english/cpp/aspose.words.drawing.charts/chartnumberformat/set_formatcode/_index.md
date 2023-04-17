@@ -1,9 +1,10 @@
 ---
-title: set_FormatCode
+title: Aspose::Words::Drawing::Charts::ChartNumberFormat::set_FormatCode method
+linktitle: set_FormatCode
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Drawing::Charts::ChartNumberFormat::get_FormatCode.'
+description: 'Aspose::Words::Drawing::Charts::ChartNumberFormat::set_FormatCode method. Setter for Aspose::Words::Drawing::Charts::ChartNumberFormat::get_FormatCode in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.drawing.charts/chartnumberformat/set_formatcode/
 ---
 ## ChartNumberFormat::set_FormatCode method
@@ -19,4 +20,4 @@ void Aspose::Words::Drawing::Charts::ChartNumberFormat::set_FormatCode(const Sys
 
 * Class [ChartNumberFormat](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

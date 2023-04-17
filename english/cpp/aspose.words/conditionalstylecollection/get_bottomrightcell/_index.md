@@ -1,9 +1,10 @@
 ---
-title: get_BottomRightCell
+title: Aspose::Words::ConditionalStyleCollection::get_BottomRightCell method
+linktitle: get_BottomRightCell
 second_title: Aspose.Words for C++ API Reference
-description: Gets the bottom right cell style.
+description: 'Aspose::Words::ConditionalStyleCollection::get_BottomRightCell method. Gets the bottom right cell style in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words/conditionalstylecollection/get_bottomrightcell/
 ---
 ## ConditionalStyleCollection::get_BottomRightCell method
@@ -94,4 +95,4 @@ doc->Save(ArtifactsDir + u"Table.ConditionalStyles.docx");
 * Class [ConditionalStyle](../../conditionalstyle/)
 * Class [ConditionalStyleCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

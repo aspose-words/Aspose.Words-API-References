@@ -1,9 +1,10 @@
 ---
-title: set_AuthorName
+title: Aspose::Words::Fields::FieldAuthor::set_AuthorName method
+linktitle: set_AuthorName
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fields::FieldAuthor::get_AuthorName.'
+description: 'Aspose::Words::Fields::FieldAuthor::set_AuthorName method. Setter for Aspose::Words::Fields::FieldAuthor::get_AuthorName in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.fields/fieldauthor/set_authorname/
 ---
 ## FieldAuthor::set_AuthorName method
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldAuthor::set_AuthorName(const System::String &va
 
 * Class [FieldAuthor](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

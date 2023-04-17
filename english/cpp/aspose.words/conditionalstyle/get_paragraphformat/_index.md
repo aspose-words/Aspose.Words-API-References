@@ -1,9 +1,10 @@
 ---
-title: get_ParagraphFormat
+title: Aspose::Words::ConditionalStyle::get_ParagraphFormat method
+linktitle: get_ParagraphFormat
 second_title: Aspose.Words for C++ API Reference
-description: Gets the paragraph formatting of the conditional style.
+description: 'Aspose::Words::ConditionalStyle::get_ParagraphFormat method. Gets the paragraph formatting of the conditional style in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words/conditionalstyle/get_paragraphformat/
 ---
 ## ConditionalStyle::get_ParagraphFormat method
@@ -94,4 +95,4 @@ doc->Save(ArtifactsDir + u"Table.ConditionalStyles.docx");
 * Class [ParagraphFormat](../../paragraphformat/)
 * Class [ConditionalStyle](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

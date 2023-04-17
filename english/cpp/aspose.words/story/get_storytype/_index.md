@@ -1,9 +1,10 @@
 ---
-title: get_StoryType
+title: Aspose::Words::Story::get_StoryType method
+linktitle: get_StoryType
 second_title: Aspose.Words for C++ API Reference
-description: Gets the type of this story.
+description: 'Aspose::Words::Story::get_StoryType method. Gets the type of this story in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words/story/get_storytype/
 ---
 ## Story::get_StoryType method
@@ -43,4 +44,4 @@ ASSERT_EQ(0, doc->GetChildNodes(NodeType::Shape, true)->get_Count());
 * Enum [StoryType](../../storytype/)
 * Class [Story](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

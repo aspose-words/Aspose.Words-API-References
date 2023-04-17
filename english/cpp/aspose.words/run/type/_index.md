@@ -1,9 +1,10 @@
 ---
-title: Type
+title: Aspose::Words::Run::Type method
+linktitle: Type
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Type method of Aspose::Words::Run class in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words/run/type/
 ---
 ## Run::Type method
@@ -19,4 +20,4 @@ static const System::TypeInfo & Aspose::Words::Run::Type()
 
 * Class [Run](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

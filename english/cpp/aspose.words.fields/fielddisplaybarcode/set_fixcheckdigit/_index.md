@@ -1,9 +1,10 @@
 ---
-title: set_FixCheckDigit
+title: Aspose::Words::Fields::FieldDisplayBarcode::set_FixCheckDigit method
+linktitle: set_FixCheckDigit
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fields::FieldDisplayBarcode::get_FixCheckDigit.'
+description: 'Aspose::Words::Fields::FieldDisplayBarcode::set_FixCheckDigit method. Setter for Aspose::Words::Fields::FieldDisplayBarcode::get_FixCheckDigit in C++.'
 type: docs
-weight: 300
+weight: 24000
 url: /cpp/aspose.words.fields/fielddisplaybarcode/set_fixcheckdigit/
 ---
 ## FieldDisplayBarcode::set_FixCheckDigit method
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldDisplayBarcode::set_FixCheckDigit(bool value)
 
 * Class [FieldDisplayBarcode](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

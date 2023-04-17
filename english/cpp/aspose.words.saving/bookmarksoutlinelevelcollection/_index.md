@@ -1,9 +1,10 @@
 ---
-title: BookmarksOutlineLevelCollection
+title: Aspose::Words::Saving::BookmarksOutlineLevelCollection class
+linktitle: BookmarksOutlineLevelCollection
 second_title: Aspose.Words for C++ API Reference
-description: A collection of individual bookmarks outline level. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Saving::BookmarksOutlineLevelCollection class. A collection of individual bookmarks outline level. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words.saving/bookmarksoutlinelevelcollection/
 ---
 ## BookmarksOutlineLevelCollection class
@@ -120,4 +121,4 @@ outlineLevels->Clear();
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

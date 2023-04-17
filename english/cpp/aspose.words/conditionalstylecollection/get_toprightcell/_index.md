@@ -1,9 +1,10 @@
 ---
-title: get_TopRightCell
+title: Aspose::Words::ConditionalStyleCollection::get_TopRightCell method
+linktitle: get_TopRightCell
 second_title: Aspose.Words for C++ API Reference
-description: Gets the top right cell style.
+description: 'Aspose::Words::ConditionalStyleCollection::get_TopRightCell method. Gets the top right cell style in C++.'
 type: docs
-weight: 183
+weight: 15000
 url: /cpp/aspose.words/conditionalstylecollection/get_toprightcell/
 ---
 ## ConditionalStyleCollection::get_TopRightCell method
@@ -94,4 +95,4 @@ doc->Save(ArtifactsDir + u"Table.ConditionalStyles.docx");
 * Class [ConditionalStyle](../../conditionalstyle/)
 * Class [ConditionalStyleCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

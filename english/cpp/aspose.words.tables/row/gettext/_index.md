@@ -1,9 +1,10 @@
 ---
-title: GetText
+title: Aspose::Words::Tables::Row::GetText method
+linktitle: GetText
 second_title: Aspose.Words for C++ API Reference
-description: Gets the text of all cells in this row including the end of row character.
+description: 'Aspose::Words::Tables::Row::GetText method. Gets the text of all cells in this row including the end of row character in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words.tables/row/gettext/
 ---
 ## Row::GetText method
@@ -167,4 +168,4 @@ private:
 
 * Class [Row](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

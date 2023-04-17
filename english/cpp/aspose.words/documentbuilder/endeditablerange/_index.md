@@ -1,9 +1,10 @@
 ---
-title: EndEditableRange
+title: Aspose::Words::DocumentBuilder::EndEditableRange method
+linktitle: EndEditableRange
 second_title: Aspose.Words for C++ API Reference
-description: Marks the current position in the document as an editable range end.
+description: 'Aspose::Words::DocumentBuilder::EndEditableRange method. Marks the current position in the document as an editable range end in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words/documentbuilder/endeditablerange/
 ---
 ## DocumentBuilder::EndEditableRange() method
@@ -75,7 +76,7 @@ editableRange->Remove();
 * Class [EditableRangeEnd](../../editablerangeend/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## DocumentBuilder::EndEditableRange(const System::SharedPtr\<Aspose::Words::EditableRangeStart\>\&) method
 
 
@@ -147,4 +148,4 @@ doc->Save(ArtifactsDir + u"EditableRange.Nested.docx");
 * Class [EditableRangeStart](../../editablerangestart/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

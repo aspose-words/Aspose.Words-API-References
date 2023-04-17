@@ -1,9 +1,10 @@
 ---
-title: get_SameLetterHeights
+title: Aspose::Words::Drawing::TextPath::get_SameLetterHeights method
+linktitle: get_SameLetterHeights
 second_title: Aspose.Words for C++ API Reference
-description: Determines whether all letters will be the same height regardless of initial case.
+description: 'Aspose::Words::Drawing::TextPath::get_SameLetterHeights method. Determines whether all letters will be the same height regardless of initial case in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words.drawing/textpath/get_sameletterheights/
 ---
 ## TextPath::get_SameLetterHeights method
@@ -130,4 +131,4 @@ static SharedPtr<Shape> AppendWordArt(SharedPtr<Document> doc, String text, Stri
 
 * Class [TextPath](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

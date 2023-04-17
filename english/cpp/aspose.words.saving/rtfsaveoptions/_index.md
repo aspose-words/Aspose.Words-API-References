@@ -1,9 +1,10 @@
 ---
-title: RtfSaveOptions
+title: Aspose::Words::Saving::RtfSaveOptions class
+linktitle: RtfSaveOptions
 second_title: Aspose.Words for C++ API Reference
-description: Can be used to specify additional options when saving a document into the Rtf format. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Saving::RtfSaveOptions class. Can be used to specify additional options when saving a document into the Rtf format. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 352
+weight: 28000
 url: /cpp/aspose.words.saving/rtfsaveoptions/
 ---
 ## RtfSaveOptions class
@@ -102,4 +103,4 @@ doc->Save(ArtifactsDir + u"RtfSaveOptions.ExportImages.rtf", options);
 
 * Class [SaveOptions](../saveoptions/)
 * Namespace [Aspose::Words::Saving](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

@@ -1,9 +1,10 @@
 ---
-title: set_Kerning
+title: Aspose::Words::Font::set_Kerning method
+linktitle: set_Kerning
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Font::get_Kerning.'
+description: 'Aspose::Words::Font::set_Kerning method. Setter for Aspose::Words::Font::get_Kerning in C++.'
 type: docs
-weight: 950
+weight: 74000
 url: /cpp/aspose.words/font/set_kerning/
 ---
 ## Font::set_Kerning method
@@ -19,4 +20,4 @@ void Aspose::Words::Font::set_Kerning(double value)
 
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

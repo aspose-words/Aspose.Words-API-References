@@ -1,9 +1,10 @@
 ---
-title: set_Brightness
+title: Aspose::Words::Drawing::ImageData::set_Brightness method
+linktitle: set_Brightness
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Drawing::ImageData::get_Brightness.'
+description: 'Aspose::Words::Drawing::ImageData::set_Brightness method. Setter for Aspose::Words::Drawing::ImageData::get_Brightness in C++.'
 type: docs
-weight: 300
+weight: 24000
 url: /cpp/aspose.words.drawing/imagedata/set_brightness/
 ---
 ## ImageData::set_Brightness method
@@ -19,4 +20,4 @@ void Aspose::Words::Drawing::ImageData::set_Brightness(double value)
 
 * Class [ImageData](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

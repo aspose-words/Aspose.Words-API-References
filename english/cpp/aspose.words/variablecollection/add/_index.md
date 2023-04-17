@@ -1,9 +1,10 @@
 ---
-title: Add
+title: Aspose::Words::VariableCollection::Add method
+linktitle: Add
 second_title: Aspose.Words for C++ API Reference
-description: Adds a document variable to the collection.
+description: 'Aspose::Words::VariableCollection::Add method. Adds a document variable to the collection in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words/variablecollection/add/
 ---
 ## VariableCollection::Add method
@@ -95,4 +96,4 @@ ASSERT_EQ(0, variables->get_Count());
 
 * Class [VariableCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: set_Light1
+title: Aspose::Words::Themes::ThemeColors::set_Light1 method
+linktitle: set_Light1
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Themes::ThemeColors::get_Light1.'
+description: 'Aspose::Words::Themes::ThemeColors::set_Light1 method. Setter for Aspose::Words::Themes::ThemeColors::get_Light1 in C++.'
 type: docs
-weight: 326
+weight: 26000
 url: /cpp/aspose.words.themes/themecolors/set_light1/
 ---
 ## ThemeColors::set_Light1 method
@@ -19,4 +20,4 @@ void Aspose::Words::Themes::ThemeColors::set_Light1(System::Drawing::Color value
 
 * Class [ThemeColors](../)
 * Namespace [Aspose::Words::Themes](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: PageSaving
+title: Aspose::Words::Saving::IPageSavingCallback::PageSaving method
+linktitle: PageSaving
 second_title: Aspose.Words for C++ API Reference
-description: Called when Aspose.Words saves a separate page to fixed page formats.
+description: 'Aspose::Words::Saving::IPageSavingCallback::PageSaving method. Called when Aspose.Words saves a separate page to fixed page formats in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.saving/ipagesavingcallback/pagesaving/
 ---
 ## IPageSavingCallback::PageSaving method
@@ -75,4 +76,4 @@ public:
 * Class [PageSavingArgs](../../pagesavingargs/)
 * Interface [IPageSavingCallback](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: set_Layout
+title: Aspose::Words::TextWatermarkOptions::set_Layout method
+linktitle: set_Layout
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::TextWatermarkOptions::get_Layout.'
+description: 'Aspose::Words::TextWatermarkOptions::set_Layout method. Setter for Aspose::Words::TextWatermarkOptions::get_Layout in C++.'
 type: docs
-weight: 170
+weight: 14000
 url: /cpp/aspose.words/textwatermarkoptions/set_layout/
 ---
 ## TextWatermarkOptions::set_Layout method
@@ -20,4 +21,4 @@ void Aspose::Words::TextWatermarkOptions::set_Layout(Aspose::Words::WatermarkLay
 * Enum [WatermarkLayout](../../watermarklayout/)
 * Class [TextWatermarkOptions](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

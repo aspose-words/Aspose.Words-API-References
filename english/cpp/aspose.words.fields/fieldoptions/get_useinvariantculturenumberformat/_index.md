@@ -1,9 +1,10 @@
 ---
-title: get_UseInvariantCultureNumberFormat
+title: Aspose::Words::Fields::FieldOptions::get_UseInvariantCultureNumberFormat method
+linktitle: get_UseInvariantCultureNumberFormat
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the value indicating that number format is parsed using invariant culture or not.
+description: 'Aspose::Words::Fields::FieldOptions::get_UseInvariantCultureNumberFormat method. Gets or sets the value indicating that number format is parsed using invariant culture or not in C++.'
 type: docs
-weight: 261
+weight: 21000
 url: /cpp/aspose.words.fields/fieldoptions/get_useinvariantculturenumberformat/
 ---
 ## FieldOptions::get_UseInvariantCultureNumberFormat method
@@ -54,4 +55,4 @@ ASSERT_EQ(u"$1.234.567,89", field->get_Result());
 
 * Class [FieldOptions](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_TopLeftCell
+title: Aspose::Words::ConditionalStyleCollection::get_TopLeftCell method
+linktitle: get_TopLeftCell
 second_title: Aspose.Words for C++ API Reference
-description: Gets the top left cell style.
+description: 'Aspose::Words::ConditionalStyleCollection::get_TopLeftCell method. Gets the top left cell style in C++.'
 type: docs
-weight: 170
+weight: 14000
 url: /cpp/aspose.words/conditionalstylecollection/get_topleftcell/
 ---
 ## ConditionalStyleCollection::get_TopLeftCell method
@@ -94,4 +95,4 @@ doc->Save(ArtifactsDir + u"Table.ConditionalStyles.docx");
 * Class [ConditionalStyle](../../conditionalstyle/)
 * Class [ConditionalStyleCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

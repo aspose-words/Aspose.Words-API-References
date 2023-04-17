@@ -1,9 +1,10 @@
 ---
-title: get_UseSakaEraCalendar
+title: Aspose::Words::Fields::FieldPrintDate::get_UseSakaEraCalendar method
+linktitle: get_UseSakaEraCalendar
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets whether to use the Saka Era calendar.
+description: 'Aspose::Words::Fields::FieldPrintDate::get_UseSakaEraCalendar method. Gets or sets whether to use the Saka Era calendar in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.fields/fieldprintdate/get_usesakaeracalendar/
 ---
 ## FieldPrintDate::get_UseSakaEraCalendar method
@@ -60,4 +61,4 @@ ASSERT_EQ(u" PRINTDATE  \\s", field->GetFieldCode());
 
 * Class [FieldPrintDate](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

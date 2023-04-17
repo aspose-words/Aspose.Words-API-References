@@ -1,9 +1,10 @@
 ---
-title: WriteProtection
+title: Aspose::Words::Settings::WriteProtection class
+linktitle: WriteProtection
 second_title: Aspose.Words for C++ API Reference
-description: Specifies write protection settings for a document. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Settings::WriteProtection class. Specifies write protection settings for a document. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words.settings/writeprotection/
 ---
 ## WriteProtection class
@@ -69,4 +70,4 @@ ASSERT_EQ(String(u"Hello world! This document is protected.") + u"\rWriting text
 ## See Also
 
 * Namespace [Aspose::Words::Settings](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

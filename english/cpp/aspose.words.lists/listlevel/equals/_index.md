@@ -1,9 +1,10 @@
 ---
-title: Equals
+title: Aspose::Words::Lists::ListLevel::Equals method
+linktitle: Equals
 second_title: Aspose.Words for C++ API Reference
-description: Compares with the specified ListLevel.
+description: 'Aspose::Words::Lists::ListLevel::Equals method. Compares with the specified ListLevel in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.lists/listlevel/equals/
 ---
 ## ListLevel::Equals method
@@ -20,4 +21,4 @@ bool Aspose::Words::Lists::ListLevel::Equals(const System::SharedPtr<Aspose::Wor
 * Class [ListLevel](../)
 * Class [ListLevel](../)
 * Namespace [Aspose::Words::Lists](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

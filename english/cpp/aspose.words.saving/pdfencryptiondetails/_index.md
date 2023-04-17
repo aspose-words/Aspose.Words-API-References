@@ -1,9 +1,10 @@
 ---
-title: PdfEncryptionDetails
+title: Aspose::Words::Saving::PdfEncryptionDetails class
+linktitle: PdfEncryptionDetails
 second_title: Aspose.Words for C++ API Reference
-description: Contains details for encrypting and access permissions for a PDF document. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Saving::PdfEncryptionDetails class. Contains details for encrypting and access permissions for a PDF document. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 300
+weight: 24000
 url: /cpp/aspose.words.saving/pdfencryptiondetails/
 ---
 ## PdfEncryptionDetails class
@@ -63,4 +64,4 @@ doc->Save(ArtifactsDir + u"PdfSaveOptions.EncryptionPermissions.pdf", saveOption
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Drawing::Shape::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Drawing::Shape class in C++.'
 type: docs
-weight: 339
+weight: 27000
 url: /cpp/aspose.words.drawing/shape/is/
 ---
 ## Shape::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Drawing::Shape::Is(const System::TypeInfo &target) c
 
 * Class [Shape](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

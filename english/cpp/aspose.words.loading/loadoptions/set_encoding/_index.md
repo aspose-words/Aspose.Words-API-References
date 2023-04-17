@@ -1,9 +1,10 @@
 ---
-title: set_Encoding
+title: Aspose::Words::Loading::LoadOptions::set_Encoding method
+linktitle: set_Encoding
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Loading::LoadOptions::get_Encoding.'
+description: 'Aspose::Words::Loading::LoadOptions::set_Encoding method. Setter for Aspose::Words::Loading::LoadOptions::get_Encoding in C++.'
 type: docs
-weight: 300
+weight: 24000
 url: /cpp/aspose.words.loading/loadoptions/set_encoding/
 ---
 ## LoadOptions::set_Encoding method
@@ -19,4 +20,4 @@ void Aspose::Words::Loading::LoadOptions::set_Encoding(const System::SharedPtr<S
 
 * Class [LoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

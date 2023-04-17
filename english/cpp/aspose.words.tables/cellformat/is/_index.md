@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Tables::CellFormat::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Tables::CellFormat class in C++.'
 type: docs
-weight: 222
+weight: 18000
 url: /cpp/aspose.words.tables/cellformat/is/
 ---
 ## CellFormat::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Tables::CellFormat::Is(const System::TypeInfo &targe
 
 * Class [CellFormat](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

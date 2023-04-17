@@ -1,9 +1,10 @@
 ---
-title: set_LinkedStyle
+title: Aspose::Words::Lists::ListLevel::set_LinkedStyle method
+linktitle: set_LinkedStyle
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Lists::ListLevel::get_LinkedStyle.'
+description: 'Aspose::Words::Lists::ListLevel::set_LinkedStyle method. Setter for Aspose::Words::Lists::ListLevel::get_LinkedStyle in C++.'
 type: docs
-weight: 313
+weight: 25000
 url: /cpp/aspose.words.lists/listlevel/set_linkedstyle/
 ---
 ## ListLevel::set_LinkedStyle method
@@ -20,4 +21,4 @@ void Aspose::Words::Lists::ListLevel::set_LinkedStyle(const System::SharedPtr<As
 * Class [Style](../../../aspose.words/style/)
 * Class [ListLevel](../)
 * Namespace [Aspose::Words::Lists](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

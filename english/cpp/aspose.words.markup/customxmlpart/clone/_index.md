@@ -1,9 +1,10 @@
 ---
-title: Clone
+title: Aspose::Words::Markup::CustomXmlPart::Clone method
+linktitle: Clone
 second_title: Aspose.Words for C++ API Reference
-description: Makes a "deep enough" copy of the object. Does not duplicate the bytes of the Data value.
+description: 'Aspose::Words::Markup::CustomXmlPart::Clone method. Makes a "deep enough" copy of the object. Does not duplicate the bytes of the Data value in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.markup/customxmlpart/clone/
 ---
 ## CustomXmlPart::Clone method
@@ -86,4 +87,4 @@ doc->Save(ArtifactsDir + u"StructuredDocumentTag.CustomXml.docx");
 * Class [CustomXmlPart](../)
 * Class [CustomXmlPart](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

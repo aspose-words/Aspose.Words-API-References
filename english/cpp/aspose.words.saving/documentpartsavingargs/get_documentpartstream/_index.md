@@ -1,9 +1,10 @@
 ---
-title: get_DocumentPartStream
+title: Aspose::Words::Saving::DocumentPartSavingArgs::get_DocumentPartStream method
+linktitle: get_DocumentPartStream
 second_title: Aspose.Words for C++ API Reference
-description: Allows to specify the stream where the document part will be saved to.
+description: 'Aspose::Words::Saving::DocumentPartSavingArgs::get_DocumentPartStream method. Allows to specify the stream where the document part will be saved to in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.saving/documentpartsavingargs/get_documentpartstream/
 ---
 ## DocumentPartSavingArgs::get_DocumentPartStream method
@@ -152,4 +153,4 @@ private:
 
 * Class [DocumentPartSavingArgs](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

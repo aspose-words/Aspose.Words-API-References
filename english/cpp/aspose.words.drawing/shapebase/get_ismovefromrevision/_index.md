@@ -1,9 +1,10 @@
 ---
-title: get_IsMoveFromRevision
+title: Aspose::Words::Drawing::ShapeBase::get_IsMoveFromRevision method
+linktitle: get_IsMoveFromRevision
 second_title: Aspose.Words for C++ API Reference
-description: Returns true if this object was moved (deleted) in Microsoft Word while change tracking was enabled.
+description: 'Aspose::Words::Drawing::ShapeBase::get_IsMoveFromRevision method. Returns true if this object was moved (deleted) in Microsoft Word while change tracking was enabled in C++.'
 type: docs
-weight: 417
+weight: 33000
 url: /cpp/aspose.words.drawing/shapebase/get_ismovefromrevision/
 ---
 ## ShapeBase::get_IsMoveFromRevision method
@@ -50,4 +51,4 @@ ASSERT_FALSE(shapes[1]->get_IsMoveToRevision());
 
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

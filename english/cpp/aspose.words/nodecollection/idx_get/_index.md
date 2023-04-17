@@ -1,9 +1,10 @@
 ---
-title: idx_get
+title: Aspose::Words::NodeCollection::idx_get method
+linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
-description: Retrieves a node at the given index.
+description: 'Aspose::Words::NodeCollection::idx_get method. Retrieves a node at the given index in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words/nodecollection/idx_get/
 ---
 ## NodeCollection::idx_get method
@@ -86,4 +87,4 @@ for (const auto& child : System::IterateOver(children))
 * Class [Node](../../node/)
 * Class [NodeCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

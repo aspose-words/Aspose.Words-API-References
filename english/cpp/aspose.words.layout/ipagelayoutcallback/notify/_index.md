@@ -1,9 +1,10 @@
 ---
-title: Notify
+title: Aspose::Words::Layout::IPageLayoutCallback::Notify method
+linktitle: Notify
 second_title: Aspose.Words for C++ API Reference
-description: This is called to notify of layout build and rendering progress.
+description: 'Aspose::Words::Layout::IPageLayoutCallback::Notify method. This is called to notify of layout build and rendering progress in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.layout/ipagelayoutcallback/notify/
 ---
 ## IPageLayoutCallback::Notify method
@@ -101,4 +102,4 @@ private:
 * Class [PageLayoutCallbackArgs](../../pagelayoutcallbackargs/)
 * Interface [IPageLayoutCallback](../)
 * Namespace [Aspose::Words::Layout](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

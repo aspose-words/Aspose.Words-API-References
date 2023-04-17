@@ -1,9 +1,10 @@
 ---
-title: get_IsAuto
+title: Aspose::Words::Drawing::Charts::AxisBound::get_IsAuto method
+linktitle: get_IsAuto
 second_title: Aspose.Words for C++ API Reference
-description: Returns a flag indicating that axis bound should be determined automatically.
+description: 'Aspose::Words::Drawing::Charts::AxisBound::get_IsAuto method. Returns a flag indicating that axis bound should be determined automatically in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.drawing.charts/axisbound/get_isauto/
 ---
 ## AxisBound::get_IsAuto method
@@ -73,4 +74,4 @@ doc->Save(ArtifactsDir + u"Charts.AxisBound.docx");
 
 * Class [AxisBound](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

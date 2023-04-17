@@ -1,9 +1,10 @@
 ---
-title: set_EntryName
+title: Aspose::Words::Fields::FieldAutoTextList::set_EntryName method
+linktitle: set_EntryName
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fields::FieldAutoTextList::get_EntryName.'
+description: 'Aspose::Words::Fields::FieldAutoTextList::set_EntryName method. Setter for Aspose::Words::Fields::FieldAutoTextList::get_EntryName in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.fields/fieldautotextlist/set_entryname/
 ---
 ## FieldAutoTextList::set_EntryName method
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldAutoTextList::set_EntryName(const System::Strin
 
 * Class [FieldAutoTextList](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

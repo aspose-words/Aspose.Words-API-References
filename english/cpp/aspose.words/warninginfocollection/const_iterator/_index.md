@@ -1,9 +1,10 @@
 ---
-title: const_iterator
+title: Aspose::Words::WarningInfoCollection::const_iterator typedef
+linktitle: const_iterator
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Aspose::Words::WarningInfoCollection::const_iterator typedef of Aspose::Words::WarningInfoCollection class in C++.'
 type: docs
-weight: 222
+weight: 18000
 url: /cpp/aspose.words/warninginfocollection/const_iterator/
 ---
 ## const_iterator typedef
@@ -19,4 +20,4 @@ using Aspose::Words::WarningInfoCollection::const_iterator =  typename iterator_
 
 * Class [WarningInfoCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

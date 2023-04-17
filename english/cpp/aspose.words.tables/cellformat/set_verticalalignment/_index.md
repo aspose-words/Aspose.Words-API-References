@@ -1,9 +1,10 @@
 ---
-title: set_VerticalAlignment
+title: Aspose::Words::Tables::CellFormat::set_VerticalAlignment method
+linktitle: set_VerticalAlignment
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Tables::CellFormat::get_VerticalAlignment.'
+description: 'Aspose::Words::Tables::CellFormat::set_VerticalAlignment method. Setter for Aspose::Words::Tables::CellFormat::get_VerticalAlignment in C++.'
 type: docs
-weight: 339
+weight: 27000
 url: /cpp/aspose.words.tables/cellformat/set_verticalalignment/
 ---
 ## CellFormat::set_VerticalAlignment method
@@ -20,4 +21,4 @@ void Aspose::Words::Tables::CellFormat::set_VerticalAlignment(Aspose::Words::Tab
 * Enum [CellVerticalAlignment](../../cellverticalalignment/)
 * Class [CellFormat](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

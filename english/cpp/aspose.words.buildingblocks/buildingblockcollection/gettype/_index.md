@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::BuildingBlocks::BuildingBlockCollection::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::BuildingBlocks::BuildingBlockCollection class in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.buildingblocks/buildingblockcollection/gettype/
 ---
 ## BuildingBlockCollection::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::BuildingBlocks::BuildingBlockCol
 
 * Class [BuildingBlockCollection](../)
 * Namespace [Aspose::Words::BuildingBlocks](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

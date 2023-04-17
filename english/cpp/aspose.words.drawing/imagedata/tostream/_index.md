@@ -1,9 +1,10 @@
 ---
-title: ToStream
+title: Aspose::Words::Drawing::ImageData::ToStream method
+linktitle: ToStream
 second_title: Aspose.Words for C++ API Reference
-description: Creates and returns a stream that contains the image bytes.
+description: 'Aspose::Words::Drawing::ImageData::ToStream method. Creates and returns a stream that contains the image bytes in C++.'
 type: docs
-weight: 482
+weight: 38000
 url: /cpp/aspose.words.drawing/imagedata/tostream/
 ---
 ## ImageData::ToStream method
@@ -56,4 +57,4 @@ ASPOSE_ASSERT_EQ(imgShape->get_ImageData()->get_ImageBytes(), imgShape->get_Imag
 
 * Class [ImageData](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

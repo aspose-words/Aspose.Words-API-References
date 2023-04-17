@@ -1,9 +1,10 @@
 ---
-title: AxisTickMark
+title: Aspose::Words::Drawing::Charts::AxisTickMark enum
+linktitle: AxisTickMark
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the possible positions for tick marks.
+description: 'Aspose::Words::Drawing::Charts::AxisTickMark enum. Specifies the possible positions for tick marks in C++.'
 type: docs
-weight: 313
+weight: 25000
 url: /cpp/aspose.words.drawing.charts/axistickmark/
 ---
 ## AxisTickMark enum
@@ -73,4 +74,4 @@ doc->Save(ArtifactsDir + u"Charts.DateTimeValues.docx");
 ## See Also
 
 * Namespace [Aspose::Words::Drawing::Charts](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

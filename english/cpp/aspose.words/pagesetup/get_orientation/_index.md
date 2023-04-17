@@ -1,9 +1,10 @@
 ---
-title: get_Orientation
+title: Aspose::Words::PageSetup::get_Orientation method
+linktitle: get_Orientation
 second_title: Aspose.Words for C++ API Reference
-description: Returns or sets the orientation of the page.
+description: 'Aspose::Words::PageSetup::get_Orientation method. Returns or sets the orientation of the page in C++.'
 type: docs
-weight: 391
+weight: 31000
 url: /cpp/aspose.words/pagesetup/get_orientation/
 ---
 ## PageSetup::get_Orientation method
@@ -77,4 +78,4 @@ doc->Save(ArtifactsDir + u"PageSetup.PageMargins.docx");
 * Enum [Orientation](../../orientation/)
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

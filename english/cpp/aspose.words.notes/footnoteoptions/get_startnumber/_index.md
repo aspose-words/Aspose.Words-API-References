@@ -1,9 +1,10 @@
 ---
-title: get_StartNumber
+title: Aspose::Words::Notes::FootnoteOptions::get_StartNumber method
+linktitle: get_StartNumber
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the starting number or character for the first automatically numbered footnotes.
+description: 'Aspose::Words::Notes::FootnoteOptions::get_StartNumber method. Specifies the starting number or character for the first automatically numbered footnotes in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.notes/footnoteoptions/get_startnumber/
 ---
 ## FootnoteOptions::get_StartNumber method
@@ -72,4 +73,4 @@ doc->Save(ArtifactsDir + u"InlineStory.StartNumber.docx");
 
 * Class [FootnoteOptions](../)
 * Namespace [Aspose::Words::Notes](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

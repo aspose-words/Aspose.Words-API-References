@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Replacing::ReplacingArgs::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Replacing::ReplacingArgs class in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.replacing/replacingargs/gettype/
 ---
 ## ReplacingArgs::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Replacing::ReplacingArgs::GetTyp
 
 * Class [ReplacingArgs](../)
 * Namespace [Aspose::Words::Replacing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

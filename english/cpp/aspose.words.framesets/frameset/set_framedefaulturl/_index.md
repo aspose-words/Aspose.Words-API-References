@@ -1,9 +1,10 @@
 ---
-title: set_FrameDefaultUrl
+title: Aspose::Words::Framesets::Frameset::set_FrameDefaultUrl method
+linktitle: set_FrameDefaultUrl
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Framesets::Frameset::get_FrameDefaultUrl.'
+description: 'Aspose::Words::Framesets::Frameset::set_FrameDefaultUrl method. Setter for Aspose::Words::Framesets::Frameset::get_FrameDefaultUrl in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.framesets/frameset/set_framedefaulturl/
 ---
 ## Frameset::set_FrameDefaultUrl method
@@ -19,4 +20,4 @@ void Aspose::Words::Framesets::Frameset::set_FrameDefaultUrl(const System::Strin
 
 * Class [Frameset](../)
 * Namespace [Aspose::Words::Framesets](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

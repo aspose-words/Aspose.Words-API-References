@@ -1,9 +1,10 @@
 ---
-title: PlainTextDocument
+title: Aspose::Words::PlainTextDocument class
+linktitle: PlainTextDocument
 second_title: Aspose.Words for C++ API Reference
-description: Allows to extract plain-text representation of the document's content. To learn more, visit the  documentation article.
+description: 'Aspose::Words::PlainTextDocument class. Allows to extract plain-text representation of the document''s content. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 638
+weight: 50000
 url: /cpp/aspose.words/plaintextdocument/
 ---
 ## PlainTextDocument class
@@ -52,4 +53,4 @@ ASSERT_EQ(u"Hello world!", plaintext->get_Text().Trim());
 ## See Also
 
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

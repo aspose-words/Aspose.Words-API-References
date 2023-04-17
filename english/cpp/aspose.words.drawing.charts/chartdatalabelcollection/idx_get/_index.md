@@ -1,9 +1,10 @@
 ---
-title: idx_get
+title: Aspose::Words::Drawing::Charts::ChartDataLabelCollection::idx_get method
+linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
-description: Returns ChartDataLabel for the specified index.
+description: 'Aspose::Words::Drawing::Charts::ChartDataLabelCollection::idx_get method. Returns ChartDataLabel for the specified index in C++.'
 type: docs
-weight: 209
+weight: 17000
 url: /cpp/aspose.words.drawing.charts/chartdatalabelcollection/idx_get/
 ---
 ## ChartDataLabelCollection::idx_get method
@@ -95,4 +96,4 @@ static void ApplyDataLabels(SharedPtr<ChartSeries> series, int labelsCount, Stri
 * Class [ChartDataLabel](../../chartdatalabel/)
 * Class [ChartDataLabelCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

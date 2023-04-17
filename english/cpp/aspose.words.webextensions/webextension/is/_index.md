@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::WebExtensions::WebExtension::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::WebExtensions::WebExtension class in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.webextensions/webextension/is/
 ---
 ## WebExtension::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::WebExtensions::WebExtension::Is(const System::TypeIn
 
 * Class [WebExtension](../)
 * Namespace [Aspose::Words::WebExtensions](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: JustificationMode
+title: Aspose::Words::Settings::JustificationMode enum
+linktitle: JustificationMode
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the character spacing adjustment for a document. The default value is Expand.
+description: 'Aspose::Words::Settings::JustificationMode enum. Specifies the character spacing adjustment for a document. The default value is Expand in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words.settings/justificationmode/
 ---
 ## JustificationMode enum
@@ -26,4 +27,4 @@ enum class JustificationMode
 ## See Also
 
 * Namespace [Aspose::Words::Settings](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

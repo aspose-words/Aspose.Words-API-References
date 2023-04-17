@@ -1,9 +1,10 @@
 ---
-title: get_Orientation
+title: Aspose::Words::Tables::CellFormat::get_Orientation method
+linktitle: get_Orientation
 second_title: Aspose.Words for C++ API Reference
-description: Returns or sets the orientation of text in a table cell.
+description: 'Aspose::Words::Tables::CellFormat::get_Orientation method. Returns or sets the orientation of text in a table cell in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.tables/cellformat/get_orientation/
 ---
 ## CellFormat::get_Orientation method
@@ -126,4 +127,4 @@ doc->Save(ArtifactsDir + u"DocumentBuilder.BuildTable.docx");
 * Enum [TextOrientation](../../../aspose.words/textorientation/)
 * Class [CellFormat](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

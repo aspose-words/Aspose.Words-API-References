@@ -1,9 +1,10 @@
 ---
-title: get_IsVisible
+title: Aspose::Words::Border::get_IsVisible method
+linktitle: get_IsVisible
 second_title: Aspose.Words for C++ API Reference
-description: Returns true if the LineStyle is not None.
+description: 'Aspose::Words::Border::get_IsVisible method. Returns true if the LineStyle is not None in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words/border/get_isvisible/
 ---
 ## Border::get_IsVisible method
@@ -52,4 +53,4 @@ doc->Save(ArtifactsDir + u"Border.ClearFormatting.docx");
 
 * Class [Border](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

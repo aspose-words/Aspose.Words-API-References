@@ -1,9 +1,10 @@
 ---
-title: get_HeadingLevelRange
+title: Aspose::Words::Fields::FieldToc::get_HeadingLevelRange method
+linktitle: get_HeadingLevelRange
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets a range of heading levels to include.
+description: 'Aspose::Words::Fields::FieldToc::get_HeadingLevelRange method. Gets or sets a range of heading levels to include in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words.fields/fieldtoc/get_headinglevelrange/
 ---
 ## FieldToc::get_HeadingLevelRange method
@@ -100,4 +101,4 @@ void InsertNewPageWithHeading(SharedPtr<DocumentBuilder> builder, String caption
 
 * Class [FieldToc](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

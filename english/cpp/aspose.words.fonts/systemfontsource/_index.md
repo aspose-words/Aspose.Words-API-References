@@ -1,9 +1,10 @@
 ---
-title: SystemFontSource
+title: Aspose::Words::Fonts::SystemFontSource class
+linktitle: SystemFontSource
 second_title: Aspose.Words for C++ API Reference
-description: Represents all TrueType fonts installed to the system. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Fonts::SystemFontSource class. Represents all TrueType fonts installed to the system. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 209
+weight: 17000
 url: /cpp/aspose.words.fonts/systemfontsource/
 ---
 ## SystemFontSource class
@@ -90,4 +91,4 @@ ASSERT_EQ(1, doc->get_FontSettings()->get_SubstitutionSettings()->get_TableSubst
 
 * Class [FontSourceBase](../fontsourcebase/)
 * Namespace [Aspose::Words::Fonts](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

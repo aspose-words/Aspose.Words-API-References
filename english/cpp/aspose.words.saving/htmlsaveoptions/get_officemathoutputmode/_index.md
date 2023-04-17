@@ -1,9 +1,10 @@
 ---
-title: get_OfficeMathOutputMode
+title: Aspose::Words::Saving::HtmlSaveOptions::get_OfficeMathOutputMode method
+linktitle: get_OfficeMathOutputMode
 second_title: Aspose.Words for C++ API Reference
-description: Controls how OfficeMath objects are exported to HTML, MHTML or EPUB. Default value is Image.
+description: 'Aspose::Words::Saving::HtmlSaveOptions::get_OfficeMathOutputMode method. Controls how OfficeMath objects are exported to HTML, MHTML or EPUB. Default value is Image in C++.'
 type: docs
-weight: 521
+weight: 41000
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_officemathoutputmode/
 ---
 ## HtmlSaveOptions::get_OfficeMathOutputMode method
@@ -72,4 +73,4 @@ case HtmlOfficeMathOutputMode::Text:
 * Enum [HtmlOfficeMathOutputMode](../../htmlofficemathoutputmode/)
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

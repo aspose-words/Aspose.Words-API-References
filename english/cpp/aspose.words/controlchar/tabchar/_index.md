@@ -1,9 +1,10 @@
 ---
-title: TabChar
+title: Aspose::Words::ControlChar::TabChar field
+linktitle: TabChar
 second_title: Aspose.Words for C++ API Reference
-description: 'Tab character: (char)9 or "\t".'
+description: 'Aspose::Words::ControlChar::TabChar field. Tab character: (char)9 or "\t" in C++.'
 type: docs
-weight: 365
+weight: 29000
 url: /cpp/aspose.words/controlchar/tabchar/
 ---
 ## TabChar field
@@ -37,4 +38,4 @@ builder->Writeln(String(u"Hello") + ControlChar::TabChar + u"World!");
 
 * Class [ControlChar](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

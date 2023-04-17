@@ -1,9 +1,10 @@
 ---
-title: get_BookmarkStart
+title: Aspose::Words::Bookmark::get_BookmarkStart method
+linktitle: get_BookmarkStart
 second_title: Aspose.Words for C++ API Reference
-description: Gets the node that represents the start of the bookmark.
+description: 'Aspose::Words::Bookmark::get_BookmarkStart method. Gets the node that represents the start of the bookmark in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words/bookmark/get_bookmarkstart/
 ---
 ## Bookmark::get_BookmarkStart method
@@ -102,4 +103,4 @@ public:
 * Class [BookmarkStart](../../bookmarkstart/)
 * Class [Bookmark](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

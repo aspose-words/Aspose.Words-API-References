@@ -1,9 +1,10 @@
 ---
-title: get_IgnoreHeadersAndFooters
+title: Aspose::Words::Comparing::CompareOptions::get_IgnoreHeadersAndFooters method
+linktitle: get_IgnoreHeadersAndFooters
 second_title: Aspose.Words for C++ API Reference
-description: True indicates that headers and footers content is ignored. By default headers and footers are not ignored.
+description: 'Aspose::Words::Comparing::CompareOptions::get_IgnoreHeadersAndFooters method. True indicates that headers and footers content is ignored. By default headers and footers are not ignored in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words.comparing/compareoptions/get_ignoreheadersandfooters/
 ---
 ## CompareOptions::get_IgnoreHeadersAndFooters method
@@ -116,4 +117,4 @@ docOriginal->Save(ArtifactsDir + u"Document.CompareOptions.docx");
 
 * Class [CompareOptions](../)
 * Namespace [Aspose::Words::Comparing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

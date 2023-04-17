@@ -1,9 +1,10 @@
 ---
-title: get_TopPadding
+title: Aspose::Words::ConditionalStyle::get_TopPadding method
+linktitle: get_TopPadding
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the amount of space (in points) to add above the contents of table cells.
+description: 'Aspose::Words::ConditionalStyle::get_TopPadding method. Gets or sets the amount of space (in points) to add above the contents of table cells in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words/conditionalstyle/get_toppadding/
 ---
 ## ConditionalStyle::get_TopPadding method
@@ -93,4 +94,4 @@ doc->Save(ArtifactsDir + u"Table.ConditionalStyles.docx");
 
 * Class [ConditionalStyle](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

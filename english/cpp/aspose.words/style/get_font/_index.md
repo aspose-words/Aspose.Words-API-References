@@ -1,9 +1,10 @@
 ---
-title: get_Font
+title: Aspose::Words::Style::get_Font method
+linktitle: get_Font
 second_title: Aspose.Words for C++ API Reference
-description: Gets the character formatting of the style.
+description: 'Aspose::Words::Style::get_Font method. Gets the character formatting of the style in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words/style/get_font/
 ---
 ## Style::get_Font method
@@ -87,4 +88,4 @@ builder->get_Document()->Save(ArtifactsDir + u"Styles.ParagraphStyleBulletedList
 * Class [Font](../../font/)
 * Class [Style](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_FixCheckDigit
+title: Aspose::Words::Fields::FieldDisplayBarcode::get_FixCheckDigit method
+linktitle: get_FixCheckDigit
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets whether to fix the check digit if it’s invalid.
+description: 'Aspose::Words::Fields::FieldDisplayBarcode::get_FixCheckDigit method. Gets or sets whether to fix the check digit if it’s invalid in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.fields/fielddisplaybarcode/get_fixcheckdigit/
 ---
 ## FieldDisplayBarcode::get_FixCheckDigit method
@@ -76,4 +77,4 @@ doc->Save(ArtifactsDir + u"Field.DISPLAYBARCODE.docx");
 
 * Class [FieldDisplayBarcode](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

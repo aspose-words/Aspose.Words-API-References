@@ -1,9 +1,10 @@
 ---
-title: Clone
+title: Aspose::Words::Saving::ImageSaveOptions::Clone method
+linktitle: Clone
 second_title: Aspose.Words for C++ API Reference
-description: Creates a deep clone of this object.
+description: 'Aspose::Words::Saving::ImageSaveOptions::Clone method. Creates a deep clone of this object in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.saving/imagesaveoptions/clone/
 ---
 ## ImageSaveOptions::Clone method
@@ -48,4 +49,4 @@ doc->Save(ArtifactsDir + u"ImageSaveOptions.PixelFormat.png", imageSaveOptions);
 * Class [ImageSaveOptions](../)
 * Class [ImageSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

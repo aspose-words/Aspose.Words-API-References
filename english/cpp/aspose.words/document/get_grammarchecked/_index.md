@@ -1,9 +1,10 @@
 ---
-title: get_GrammarChecked
+title: Aspose::Words::Document::get_GrammarChecked method
+linktitle: get_GrammarChecked
 second_title: Aspose.Words for C++ API Reference
-description: Returns true if the document has been checked for grammar.
+description: 'Aspose::Words::Document::get_GrammarChecked method. Returns true if the document has been checked for grammar in C++.'
 type: docs
-weight: 365
+weight: 29000
 url: /cpp/aspose.words/document/get_grammarchecked/
 ---
 ## Document::get_GrammarChecked method
@@ -40,4 +41,4 @@ doc->Save(ArtifactsDir + u"Document.SpellingOrGrammar.docx");
 
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

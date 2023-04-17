@@ -1,9 +1,10 @@
 ---
-title: HtmlLoadOptions
+title: Aspose::Words::Loading::HtmlLoadOptions::HtmlLoadOptions constructor
+linktitle: HtmlLoadOptions
 second_title: Aspose.Words for C++ API Reference
-description: Initializes a new instance of this class with default values.
+description: 'Aspose::Words::Loading::HtmlLoadOptions::HtmlLoadOptions constructor. Initializes a new instance of this class with default values in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.loading/htmlloadoptions/htmlloadoptions/
 ---
 ## HtmlLoadOptions::HtmlLoadOptions() constructor
@@ -47,7 +48,7 @@ else
 
 * Class [HtmlLoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## HtmlLoadOptions::HtmlLoadOptions(Aspose::Words::LoadFormat, const System::String\&, const System::String\&) constructor
 
 
@@ -92,7 +93,7 @@ doc->Save(ArtifactsDir + u"HtmlLoadOptions.BaseUri.docx");
 * Enum [LoadFormat](../../../aspose.words/loadformat/)
 * Class [HtmlLoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## HtmlLoadOptions::HtmlLoadOptions(const System::String\&) constructor
 
 
@@ -140,4 +141,4 @@ ASSERT_EQ(u"Test encrypted document.", doc->GetText().Trim());
 
 * Class [HtmlLoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

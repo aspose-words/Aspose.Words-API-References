@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Saving::FixedPageSaveOptions::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Saving::FixedPageSaveOptions class in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words.saving/fixedpagesaveoptions/is/
 ---
 ## FixedPageSaveOptions::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Saving::FixedPageSaveOptions::Is(const System::TypeI
 
 * Class [FixedPageSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

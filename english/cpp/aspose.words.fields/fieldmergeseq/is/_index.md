@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Fields::FieldMergeSeq::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Fields::FieldMergeSeq class in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.fields/fieldmergeseq/is/
 ---
 ## FieldMergeSeq::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Fields::FieldMergeSeq::Is(const System::TypeInfo &ta
 
 * Class [FieldMergeSeq](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

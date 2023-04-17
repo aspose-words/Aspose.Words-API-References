@@ -1,9 +1,10 @@
 ---
-title: get_FontSize
+title: Aspose::Words::Fields::FieldSymbol::get_FontSize method
+linktitle: get_FontSize
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the size in points of the font of the character retrieved by the field.
+description: 'Aspose::Words::Fields::FieldSymbol::get_FontSize method. Gets or sets the size in points of the font of the character retrieved by the field in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.fields/fieldsymbol/get_fontsize/
 ---
 ## FieldSymbol::get_FontSize method
@@ -74,4 +75,4 @@ doc->Save(ArtifactsDir + u"Field.SYMBOL.docx");
 
 * Class [FieldSymbol](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

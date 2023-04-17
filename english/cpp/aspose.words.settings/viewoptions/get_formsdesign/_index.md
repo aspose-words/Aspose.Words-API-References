@@ -1,9 +1,10 @@
 ---
-title: get_FormsDesign
+title: Aspose::Words::Settings::ViewOptions::get_FormsDesign method
+linktitle: get_FormsDesign
 second_title: Aspose.Words for C++ API Reference
-description: Specifies whether the document is in forms design mode.
+description: 'Aspose::Words::Settings::ViewOptions::get_FormsDesign method. Specifies whether the document is in forms design mode in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.settings/viewoptions/get_formsdesign/
 ---
 ## ViewOptions::get_FormsDesign method
@@ -43,4 +44,4 @@ ASPOSE_ASSERT_EQ(useFormsDesign, System::IO::File::ReadAllText(ArtifactsDir + u"
 
 * Class [ViewOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: Run
+title: Aspose::Words::Run class
+linktitle: Run
 second_title: Aspose.Words for C++ API Reference
-description: Represents a run of characters with the same font formatting. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Run class. Represents a run of characters with the same font formatting. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 716
+weight: 56000
 url: /cpp/aspose.words/run/
 ---
 ## Run class
@@ -30,6 +31,7 @@ class Run : public Aspose::Words::Inline
 | [get_IsInsertRevision](../inline/get_isinsertrevision/)() | Returns true if this object was inserted in Microsoft Word while change tracking was enabled. |
 | [get_IsMoveFromRevision](../inline/get_ismovefromrevision/)() | Returns **true** if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
 | [get_IsMoveToRevision](../inline/get_ismovetorevision/)() | Returns **true** if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
+| [get_IsPhoneticGuide](./get_isphoneticguide/)() | Gets a boolean value indicating either the run is a phonetic guide. |
 | [get_NextSibling](../node/get_nextsibling/)() | Gets the node immediately following this node. |
 | [get_NodeType](./get_nodetype/)() const override | Returns [Run](../nodetype/). |
 | [get_ParentNode](../node/get_parentnode/)() | Gets the immediate parent of this node. |
@@ -175,4 +177,4 @@ doc->Save(ArtifactsDir + u"Section.CreateManually.docx");
 
 * Class [Inline](../inline/)
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

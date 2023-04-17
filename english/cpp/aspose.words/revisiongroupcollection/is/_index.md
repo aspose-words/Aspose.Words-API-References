@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::RevisionGroupCollection::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::RevisionGroupCollection class in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words/revisiongroupcollection/is/
 ---
 ## RevisionGroupCollection::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::RevisionGroupCollection::Is(const System::TypeInfo &
 
 * Class [RevisionGroupCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

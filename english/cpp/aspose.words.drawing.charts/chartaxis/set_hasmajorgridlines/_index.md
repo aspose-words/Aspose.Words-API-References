@@ -1,9 +1,10 @@
 ---
-title: set_HasMajorGridlines
+title: Aspose::Words::Drawing::Charts::ChartAxis::set_HasMajorGridlines method
+linktitle: set_HasMajorGridlines
 second_title: Aspose.Words for C++ API Reference
-description: Sets a flag indicating whether the axis has major gridlines.
+description: 'Aspose::Words::Drawing::Charts::ChartAxis::set_HasMajorGridlines method. Sets a flag indicating whether the axis has major gridlines in C++.'
 type: docs
-weight: 469
+weight: 37000
 url: /cpp/aspose.words.drawing.charts/chartaxis/set_hasmajorgridlines/
 ---
 ## ChartAxis::set_HasMajorGridlines method
@@ -19,4 +20,4 @@ void Aspose::Words::Drawing::Charts::ChartAxis::set_HasMajorGridlines(bool value
 
 * Class [ChartAxis](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

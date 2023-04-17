@@ -1,9 +1,10 @@
 ---
-title: EmbeddedFontFormat
+title: Aspose::Words::Fonts::EmbeddedFontFormat enum
+linktitle: EmbeddedFontFormat
 second_title: Aspose.Words for C++ API Reference
-description: Specifies format of particular embedded font inside FontInfo object. When saving a document to a file, only embedded fonts of corresponding format are written down.
+description: 'Aspose::Words::Fonts::EmbeddedFontFormat enum. Specifies format of particular embedded font inside FontInfo object. When saving a document to a file, only embedded fonts of corresponding format are written down in C++.'
 type: docs
-weight: 235
+weight: 19000
 url: /cpp/aspose.words.fonts/embeddedfontformat/
 ---
 ## EmbeddedFontFormat enum
@@ -55,4 +56,4 @@ System::IO::File::WriteAllBytes(ArtifactsDir + u"Alte DIN 1451 Mittelschrift.otf
 ## See Also
 
 * Namespace [Aspose::Words::Fonts](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

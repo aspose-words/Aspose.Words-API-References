@@ -1,9 +1,10 @@
 ---
-title: get_RelativeVerticalPosition
+title: Aspose::Words::Drawing::ShapeBase::get_RelativeVerticalPosition method
+linktitle: get_RelativeVerticalPosition
 second_title: Aspose.Words for C++ API Reference
-description: Specifies relative to what the shape is positioned vertically.
+description: 'Aspose::Words::Drawing::ShapeBase::get_RelativeVerticalPosition method. Specifies relative to what the shape is positioned vertically in C++.'
 type: docs
-weight: 547
+weight: 43000
 url: /cpp/aspose.words.drawing/shapebase/get_relativeverticalposition/
 ---
 ## ShapeBase::get_RelativeVerticalPosition method
@@ -48,4 +49,4 @@ doc->Save(ArtifactsDir + u"Image.CreateFloatingPageCenter.docx");
 * Enum [RelativeVerticalPosition](../../relativeverticalposition/)
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

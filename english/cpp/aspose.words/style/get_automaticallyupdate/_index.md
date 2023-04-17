@@ -1,9 +1,10 @@
 ---
-title: get_AutomaticallyUpdate
+title: Aspose::Words::Style::get_AutomaticallyUpdate method
+linktitle: get_AutomaticallyUpdate
 second_title: Aspose.Words for C++ API Reference
-description: Specifies whether this style is automatically redefined based on the appropriate value.
+description: 'Aspose::Words::Style::get_AutomaticallyUpdate method. Specifies whether this style is automatically redefined based on the appropriate value in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words/style/get_automaticallyupdate/
 ---
 ## Style::get_AutomaticallyUpdate method
@@ -27,4 +28,4 @@ The default value is **false**.
 
 * Class [Style](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

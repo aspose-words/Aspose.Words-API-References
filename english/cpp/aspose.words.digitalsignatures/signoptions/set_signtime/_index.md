@@ -1,9 +1,10 @@
 ---
-title: set_SignTime
+title: Aspose::Words::DigitalSignatures::SignOptions::set_SignTime method
+linktitle: set_SignTime
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::DigitalSignatures::SignOptions::get_SignTime.'
+description: 'Aspose::Words::DigitalSignatures::SignOptions::set_SignTime method. Setter for Aspose::Words::DigitalSignatures::SignOptions::get_SignTime in C++.'
 type: docs
-weight: 196
+weight: 16000
 url: /cpp/aspose.words.digitalsignatures/signoptions/set_signtime/
 ---
 ## SignOptions::set_SignTime method
@@ -19,4 +20,4 @@ void Aspose::Words::DigitalSignatures::SignOptions::set_SignTime(System::DateTim
 
 * Class [SignOptions](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

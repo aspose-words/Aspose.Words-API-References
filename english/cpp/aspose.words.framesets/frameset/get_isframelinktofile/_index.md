@@ -1,9 +1,10 @@
 ---
-title: get_IsFrameLinkToFile
+title: Aspose::Words::Framesets::Frameset::get_IsFrameLinkToFile method
+linktitle: get_IsFrameLinkToFile
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets a value indicating whether the web page or document file name specified in the FrameDefaultUrl property is an external resource the frame is linked with.
+description: 'Aspose::Words::Framesets::Frameset::get_IsFrameLinkToFile method. Gets or sets a value indicating whether the web page or document file name specified in the FrameDefaultUrl property is an external resource the frame is linked with in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.framesets/frameset/get_isframelinktofile/
 ---
 ## Frameset::get_IsFrameLinkToFile method
@@ -43,4 +44,4 @@ doc->get_Frameset()->get_ChildFramesets()->idx_get(0)->get_ChildFramesets()->idx
 
 * Class [Frameset](../)
 * Namespace [Aspose::Words::Framesets](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

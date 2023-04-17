@@ -1,9 +1,10 @@
 ---
-title: get_HeaderFooterType
+title: Aspose::Words::HeaderFooter::get_HeaderFooterType method
+linktitle: get_HeaderFooterType
 second_title: Aspose.Words for C++ API Reference
-description: Gets the type of this header/footer.
+description: 'Aspose::Words::HeaderFooter::get_HeaderFooterType method. Gets the type of this header/footer in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words/headerfooter/get_headerfootertype/
 ---
 ## HeaderFooter::get_HeaderFooterType method
@@ -56,4 +57,4 @@ doc->Save(ArtifactsDir + u"HeaderFooter.Create.docx");
 * Enum [HeaderFooterType](../../headerfootertype/)
 * Class [HeaderFooter](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

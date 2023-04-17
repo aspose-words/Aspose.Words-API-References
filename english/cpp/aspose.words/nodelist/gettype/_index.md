@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::NodeList::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::NodeList class in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words/nodelist/gettype/
 ---
 ## NodeList::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::NodeList::GetType() const overri
 
 * Class [NodeList](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

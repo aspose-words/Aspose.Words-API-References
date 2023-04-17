@@ -1,9 +1,10 @@
 ---
-title: get_ImageData
+title: Aspose::Words::Lists::ListLevel::get_ImageData method
+linktitle: get_ImageData
 second_title: Aspose.Words for C++ API Reference
-description: Returns image data of the picture bullet shape for the current list level.
+description: 'Aspose::Words::Lists::ListLevel::get_ImageData method. Returns image data of the picture bullet shape for the current list level in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.lists/listlevel/get_imagedata/
 ---
 ## ListLevel::get_ImageData method
@@ -20,4 +21,4 @@ System::SharedPtr<Aspose::Words::Drawing::ImageData> Aspose::Words::Lists::ListL
 * Class [ImageData](../../../aspose.words.drawing/imagedata/)
 * Class [ListLevel](../)
 * Namespace [Aspose::Words::Lists](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

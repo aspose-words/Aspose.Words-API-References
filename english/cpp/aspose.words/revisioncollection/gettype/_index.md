@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::RevisionCollection::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::RevisionCollection class in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words/revisioncollection/gettype/
 ---
 ## RevisionCollection::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::RevisionCollection::GetType() co
 
 * Class [RevisionCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

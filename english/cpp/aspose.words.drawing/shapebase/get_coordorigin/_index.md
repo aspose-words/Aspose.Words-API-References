@@ -1,9 +1,10 @@
 ---
-title: get_CoordOrigin
+title: Aspose::Words::Drawing::ShapeBase::get_CoordOrigin method
+linktitle: get_CoordOrigin
 second_title: Aspose.Words for C++ API Reference
-description: The coordinates at the top-left corner of the containing block of this shape.
+description: 'Aspose::Words::Drawing::ShapeBase::get_CoordOrigin method. The coordinates at the top-left corner of the containing block of this shape in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words.drawing/shapebase/get_coordorigin/
 ---
 ## ShapeBase::get_CoordOrigin method
@@ -161,4 +162,4 @@ doc->Save(ArtifactsDir + u"Shape.LocalToParent.docx");
 
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

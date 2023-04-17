@@ -1,15 +1,16 @@
 ---
-title: set_SubAddress
+title: Aspose::Words::Fields::FieldHyperlink::set_SubAddress method
+linktitle: set_SubAddress
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fields::FieldHyperlink::get_SubAddress.'
+description: 'Aspose::Words::Fields::FieldHyperlink::set_SubAddress method. Sets a location in the file, such as a bookmark, where this hyperlink jumps in C++.'
 type: docs
-weight: 170
+weight: 14000
 url: /cpp/aspose.words.fields/fieldhyperlink/set_subaddress/
 ---
 ## FieldHyperlink::set_SubAddress method
 
 
-Setter for [Aspose::Words::Fields::FieldHyperlink::get_SubAddress](../get_subaddress/).
+Sets a location in the file, such as a bookmark, where this hyperlink jumps.
 
 ```cpp
 void Aspose::Words::Fields::FieldHyperlink::set_SubAddress(const System::String &value)
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldHyperlink::set_SubAddress(const System::String 
 
 * Class [FieldHyperlink](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_TotalFieldsCount
+title: Aspose::Words::Fields::FieldUpdatingProgressArgs::get_TotalFieldsCount method
+linktitle: get_TotalFieldsCount
 second_title: Aspose.Words for C++ API Reference
-description: Gets the total fields count to be updated.
+description: 'Aspose::Words::Fields::FieldUpdatingProgressArgs::get_TotalFieldsCount method. Gets the total fields count to be updated in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fields/fieldupdatingprogressargs/get_totalfieldscount/
 ---
 ## FieldUpdatingProgressArgs::get_TotalFieldsCount method
@@ -19,4 +20,4 @@ int32_t Aspose::Words::Fields::FieldUpdatingProgressArgs::get_TotalFieldsCount()
 
 * Class [FieldUpdatingProgressArgs](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

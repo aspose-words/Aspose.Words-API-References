@@ -1,9 +1,10 @@
 ---
-title: get_CellFormat
+title: Aspose::Words::Tables::Cell::get_CellFormat method
+linktitle: get_CellFormat
 second_title: Aspose.Words for C++ API Reference
-description: Provides access to the formatting properties of the cell.
+description: 'Aspose::Words::Tables::Cell::get_CellFormat method. Provides access to the formatting properties of the cell in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.tables/cell/get_cellformat/
 ---
 ## Cell::get_CellFormat method
@@ -95,4 +96,4 @@ doc->Save(ArtifactsDir + u"Table.CombineTables.docx");
 * Class [CellFormat](../../cellformat/)
 * Class [Cell](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

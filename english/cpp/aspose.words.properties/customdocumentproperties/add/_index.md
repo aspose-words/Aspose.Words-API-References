@@ -1,9 +1,10 @@
 ---
-title: Add
+title: Aspose::Words::Properties::CustomDocumentProperties::Add method
+linktitle: Add
 second_title: Aspose.Words for C++ API Reference
-description: Creates a new custom document property of the Boolean data type.
+description: 'Aspose::Words::Properties::CustomDocumentProperties::Add method. Creates a new custom document property of the Boolean data type in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.properties/customdocumentproperties/add/
 ---
 ## CustomDocumentProperties::Add(const System::String\&, bool) method
@@ -92,7 +93,7 @@ ASSERT_EQ(0, properties->get_Count());
 * Class [DocumentProperty](../../documentproperty/)
 * Class [CustomDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## CustomDocumentProperties::Add(const System::String\&, const System::String\&) method
 
 
@@ -179,7 +180,7 @@ ASSERT_EQ(0, properties->get_Count());
 * Class [DocumentProperty](../../documentproperty/)
 * Class [CustomDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## CustomDocumentProperties::Add(const System::String\&, double) method
 
 
@@ -266,7 +267,7 @@ ASSERT_EQ(0, properties->get_Count());
 * Class [DocumentProperty](../../documentproperty/)
 * Class [CustomDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## CustomDocumentProperties::Add(const System::String\&, int32_t) method
 
 
@@ -353,7 +354,7 @@ ASSERT_EQ(0, properties->get_Count());
 * Class [DocumentProperty](../../documentproperty/)
 * Class [CustomDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## CustomDocumentProperties::Add(const System::String\&, System::DateTime) method
 
 
@@ -450,4 +451,4 @@ ASSERT_EQ(0, properties->get_Count());
 * Class [DocumentProperty](../../documentproperty/)
 * Class [CustomDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

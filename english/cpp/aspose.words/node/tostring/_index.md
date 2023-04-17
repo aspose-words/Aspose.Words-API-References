@@ -1,9 +1,10 @@
 ---
-title: ToString
+title: Aspose::Words::Node::ToString method
+linktitle: ToString
 second_title: Aspose.Words for C++ API Reference
-description: Exports the content of the node into a string in the specified format.
+description: 'Aspose::Words::Node::ToString method. Exports the content of the node into a string in the specified format in C++.'
 type: docs
-weight: 274
+weight: 22000
 url: /cpp/aspose.words/node/tostring/
 ---
 ## Node::ToString(Aspose::Words::SaveFormat) method
@@ -96,7 +97,7 @@ ASSERT_EQ(String(u"<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108
 * Enum [SaveFormat](../../saveformat/)
 * Class [Node](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## Node::ToString(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) method
 
 
@@ -145,4 +146,4 @@ ASSERT_EQ(String(u"<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108
 * Class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * Class [Node](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

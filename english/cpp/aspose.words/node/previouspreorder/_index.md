@@ -1,9 +1,10 @@
 ---
-title: PreviousPreOrder
+title: Aspose::Words::Node::PreviousPreOrder method
+linktitle: PreviousPreOrder
 second_title: Aspose.Words for C++ API Reference
-description: Gets the previous node according to the pre-order tree traversal algorithm.
+description: 'Aspose::Words::Node::PreviousPreOrder method. Gets the previous node according to the pre-order tree traversal algorithm in C++.'
 type: docs
-weight: 235
+weight: 19000
 url: /cpp/aspose.words/node/previouspreorder/
 ---
 ## Node::PreviousPreOrder method
@@ -62,4 +63,4 @@ ASSERT_EQ(0,
 * Class [Node](../)
 * Class [Node](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

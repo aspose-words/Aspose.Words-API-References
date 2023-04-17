@@ -1,9 +1,10 @@
 ---
-title: get_ResourceFolder
+title: Aspose::Words::Saving::HtmlSaveOptions::get_ResourceFolder method
+linktitle: get_ResourceFolder
 second_title: Aspose.Words for C++ API Reference
-description: Specifies a physical folder where all resources like images, fonts, and external CSS are saved when a document is exported to HTML. Default is an empty string.
+description: 'Aspose::Words::Saving::HtmlSaveOptions::get_ResourceFolder method. Specifies a physical folder where all resources like images, fonts, and external CSS are saved when a document is exported to HTML. Default is an empty string in C++.'
 type: docs
-weight: 547
+weight: 43000
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_resourcefolder/
 ---
 ## HtmlSaveOptions::get_ResourceFolder method
@@ -52,4 +53,4 @@ doc->Save(ArtifactsDir + u"HtmlSaveOptions.FolderAlias.html", options);
 
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

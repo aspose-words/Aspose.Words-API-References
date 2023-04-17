@@ -1,9 +1,10 @@
 ---
-title: set_DownsampleOptions
+title: Aspose::Words::Saving::PdfSaveOptions::set_DownsampleOptions method
+linktitle: set_DownsampleOptions
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::PdfSaveOptions::get_DownsampleOptions.'
+description: 'Aspose::Words::Saving::PdfSaveOptions::set_DownsampleOptions method. Setter for Aspose::Words::Saving::PdfSaveOptions::get_DownsampleOptions in C++.'
 type: docs
-weight: 573
+weight: 45000
 url: /cpp/aspose.words.saving/pdfsaveoptions/set_downsampleoptions/
 ---
 ## PdfSaveOptions::set_DownsampleOptions method
@@ -20,4 +21,4 @@ void Aspose::Words::Saving::PdfSaveOptions::set_DownsampleOptions(const System::
 * Class [DownsampleOptions](../../downsampleoptions/)
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: set_IsQuickStyle
+title: Aspose::Words::Style::set_IsQuickStyle method
+linktitle: set_IsQuickStyle
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Style::get_IsQuickStyle.'
+description: 'Aspose::Words::Style::set_IsQuickStyle method. Setter for Aspose::Words::Style::get_IsQuickStyle in C++.'
 type: docs
-weight: 313
+weight: 25000
 url: /cpp/aspose.words/style/set_isquickstyle/
 ---
 ## Style::set_IsQuickStyle method
@@ -19,4 +20,4 @@ void Aspose::Words::Style::set_IsQuickStyle(bool value)
 
 * Class [Style](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

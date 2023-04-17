@@ -1,9 +1,10 @@
 ---
-title: PdfImageCompression
+title: Aspose::Words::Saving::PdfImageCompression enum
+linktitle: PdfImageCompression
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the type of compression applied to images in the PDF file.
+description: 'Aspose::Words::Saving::PdfImageCompression enum. Specifies the type of compression applied to images in the PDF file in C++.'
 type: docs
-weight: 1002
+weight: 78000
 url: /cpp/aspose.words.saving/pdfimagecompression/
 ---
 ## PdfImageCompression enum
@@ -57,4 +58,4 @@ doc->Save(ArtifactsDir + u"PdfSaveOptions.ImageCompression.pdf", pdfSaveOptions)
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

@@ -1,9 +1,10 @@
 ---
-title: virtualized_iterator_element
+title: Aspose::Words::RevisionGroupCollection::virtualized_iterator_element typedef
+linktitle: virtualized_iterator_element
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Aspose::Words::RevisionGroupCollection::virtualized_iterator_element typedef of Aspose::Words::RevisionGroupCollection class in C++.'
 type: docs
-weight: 235
+weight: 19000
 url: /cpp/aspose.words/revisiongroupcollection/virtualized_iterator_element/
 ---
 ## virtualized_iterator_element typedef
@@ -19,4 +20,4 @@ using Aspose::Words::RevisionGroupCollection::virtualized_iterator_element =  ty
 
 * Class [RevisionGroupCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

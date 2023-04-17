@@ -1,9 +1,10 @@
 ---
-title: virtualizeEndIterator
+title: Aspose::Words::RevisionGroupCollection::virtualizeEndIterator method
+linktitle: virtualizeEndIterator
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use virtualizeEndIterator method of Aspose::Words::RevisionGroupCollection class in C++.'
 type: docs
-weight: 170
+weight: 14000
 url: /cpp/aspose.words/revisiongroupcollection/virtualizeenditerator/
 ---
 ## RevisionGroupCollection::virtualizeEndIterator method
@@ -20,4 +21,4 @@ virtualized_iterator * Aspose::Words::RevisionGroupCollection::virtualizeEndIter
 * Typedef [virtualized_iterator](../virtualized_iterator/)
 * Class [RevisionGroupCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

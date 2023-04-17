@@ -1,9 +1,10 @@
 ---
-title: get_DisplayUnit
+title: Aspose::Words::Drawing::Charts::ChartAxis::get_DisplayUnit method
+linktitle: get_DisplayUnit
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the scaling value of the display units for the value axis.
+description: 'Aspose::Words::Drawing::Charts::ChartAxis::get_DisplayUnit method. Specifies the scaling value of the display units for the value axis in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_displayunit/
 ---
 ## ChartAxis::get_DisplayUnit method
@@ -78,4 +79,4 @@ doc->Save(ArtifactsDir + u"Charts.AxisDisplayUnit.docx");
 * Class [AxisDisplayUnit](../../axisdisplayunit/)
 * Class [ChartAxis](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

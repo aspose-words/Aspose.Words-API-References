@@ -1,9 +1,10 @@
 ---
-title: set_SmartStyleBehavior
+title: Aspose::Words::ImportFormatOptions::set_SmartStyleBehavior method
+linktitle: set_SmartStyleBehavior
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::ImportFormatOptions::get_SmartStyleBehavior.'
+description: 'Aspose::Words::ImportFormatOptions::set_SmartStyleBehavior method. Setter for Aspose::Words::ImportFormatOptions::get_SmartStyleBehavior in C++.'
 type: docs
-weight: 222
+weight: 18000
 url: /cpp/aspose.words/importformatoptions/set_smartstylebehavior/
 ---
 ## ImportFormatOptions::set_SmartStyleBehavior method
@@ -19,4 +20,4 @@ void Aspose::Words::ImportFormatOptions::set_SmartStyleBehavior(bool value)
 
 * Class [ImportFormatOptions](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Saving::PdfDigitalSignatureTimestampSettings::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Saving::PdfDigitalSignatureTimestampSettings class in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.saving/pdfdigitalsignaturetimestampsettings/is/
 ---
 ## PdfDigitalSignatureTimestampSettings::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Saving::PdfDigitalSignatureTimestampSettings::Is(con
 
 * Class [PdfDigitalSignatureTimestampSettings](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: GetEnumerator
+title: Aspose::Words::Framesets::FramesetCollection::GetEnumerator method
+linktitle: GetEnumerator
 second_title: Aspose.Words for C++ API Reference
-description: Returns an enumerator that iterates through the collection.
+description: 'Aspose::Words::Framesets::FramesetCollection::GetEnumerator method. Returns an enumerator that iterates through the collection in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.framesets/framesetcollection/getenumerator/
 ---
 ## FramesetCollection::GetEnumerator method
@@ -20,4 +21,4 @@ System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<As
 * Class [Frameset](../../frameset/)
 * Class [FramesetCollection](../)
 * Namespace [Aspose::Words::Framesets](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: set_TextPosition
+title: Aspose::Words::Lists::ListLevel::set_TextPosition method
+linktitle: set_TextPosition
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Lists::ListLevel::get_TextPosition.'
+description: 'Aspose::Words::Lists::ListLevel::set_TextPosition method. Setter for Aspose::Words::Lists::ListLevel::get_TextPosition in C++.'
 type: docs
-weight: 404
+weight: 32000
 url: /cpp/aspose.words.lists/listlevel/set_textposition/
 ---
 ## ListLevel::set_TextPosition method
@@ -19,4 +20,4 @@ void Aspose::Words::Lists::ListLevel::set_TextPosition(double value)
 
 * Class [ListLevel](../)
 * Namespace [Aspose::Words::Lists](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

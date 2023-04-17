@@ -1,9 +1,10 @@
 ---
-title: get_NumberFormat
+title: Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_NumberFormat method
+linktitle: get_NumberFormat
 second_title: Aspose.Words for C++ API Reference
-description: Gets an ChartNumberFormat instance allowing to set number format for the data labels of the entire series.
+description: 'Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_NumberFormat method. Gets an ChartNumberFormat instance allowing to set number format for the data labels of the entire series in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.drawing.charts/chartdatalabelcollection/get_numberformat/
 ---
 ## ChartDataLabelCollection::get_NumberFormat method
@@ -52,4 +53,4 @@ doc->Save(ArtifactsDir + u"Charts.DataLabelNumberFormat.docx");
 * Class [ChartNumberFormat](../../chartnumberformat/)
 * Class [ChartDataLabelCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

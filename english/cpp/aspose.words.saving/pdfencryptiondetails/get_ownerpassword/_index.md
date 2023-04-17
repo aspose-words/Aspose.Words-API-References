@@ -1,9 +1,10 @@
 ---
-title: get_OwnerPassword
+title: Aspose::Words::Saving::PdfEncryptionDetails::get_OwnerPassword method
+linktitle: get_OwnerPassword
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the owner password for the encrypted PDF document.
+description: 'Aspose::Words::Saving::PdfEncryptionDetails::get_OwnerPassword method. Specifies the owner password for the encrypted PDF document in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.saving/pdfencryptiondetails/get_ownerpassword/
 ---
 ## PdfEncryptionDetails::get_OwnerPassword method
@@ -56,4 +57,4 @@ doc->Save(ArtifactsDir + u"PdfSaveOptions.EncryptionPermissions.pdf", saveOption
 
 * Class [PdfEncryptionDetails](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_PlaceholderName
+title: Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_PlaceholderName method
+linktitle: get_PlaceholderName
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets Name of the BuildingBlock containing placeholder text. BuildingBlock with this name Name has to be present in the GlossaryDocument otherwise InvalidOperationException will occur.
+description: 'Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_PlaceholderName method. Gets or sets Name of the BuildingBlock containing placeholder text. BuildingBlock with this name Name has to be present in the GlossaryDocument otherwise InvalidOperationException will occur in C++.'
 type: docs
-weight: 183
+weight: 15000
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/get_placeholdername/
 ---
 ## StructuredDocumentTagRangeStart::get_PlaceholderName method
@@ -52,4 +53,4 @@ std::cout << String::Format(u"\t|NodeType: {0}", rangeEndTag->get_NodeType()) <<
 
 * Class [StructuredDocumentTagRangeStart](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

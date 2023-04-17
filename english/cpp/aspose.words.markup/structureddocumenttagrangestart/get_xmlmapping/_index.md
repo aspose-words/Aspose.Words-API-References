@@ -1,9 +1,10 @@
 ---
-title: get_XmlMapping
+title: Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_XmlMapping method
+linktitle: get_XmlMapping
 second_title: Aspose.Words for C++ API Reference
-description: Gets an object that represents the mapping of this structured document tag range to XML data in a custom XML part of the current document.
+description: 'Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_XmlMapping method. Gets an object that represents the mapping of this structured document tag range to XML data in a custom XML part of the current document in C++.'
 type: docs
-weight: 261
+weight: 21000
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/get_xmlmapping/
 ---
 ## StructuredDocumentTagRangeStart::get_XmlMapping method
@@ -47,4 +48,4 @@ doc->Save(ArtifactsDir + u"StructuredDocumentTag.StructuredDocumentTagRangeStart
 * Class [XmlMapping](../../xmlmapping/)
 * Class [StructuredDocumentTagRangeStart](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

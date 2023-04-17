@@ -1,9 +1,10 @@
 ---
-title: GetFieldNamesForRegion
+title: Aspose::Words::MailMerging::MailMerge::GetFieldNamesForRegion method
+linktitle: GetFieldNamesForRegion
 second_title: Aspose.Words for C++ API Reference
-description: Returns a collection of mail merge field names available in the region.
+description: 'Aspose::Words::MailMerging::MailMerge::GetFieldNamesForRegion method. Returns a collection of mail merge field names available in the region in C++.'
 type: docs
-weight: 274
+weight: 22000
 url: /cpp/aspose.words.mailmerging/mailmerge/getfieldnamesforregion/
 ---
 ## MailMerge::GetFieldNamesForRegion(const System::String\&) method
@@ -85,7 +86,7 @@ ASSERT_EQ(u"Column2", mergeFieldNames[0]);
 
 * Class [MailMerge](../)
 * Namespace [Aspose::Words::MailMerging](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## MailMerge::GetFieldNamesForRegion(const System::String\&, int32_t) method
 
 
@@ -166,4 +167,4 @@ ASSERT_EQ(u"Column2", mergeFieldNames[0]);
 
 * Class [MailMerge](../)
 * Namespace [Aspose::Words::MailMerging](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

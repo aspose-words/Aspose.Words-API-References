@@ -1,9 +1,10 @@
 ---
-title: set_MergePastedLists
+title: Aspose::Words::ImportFormatOptions::set_MergePastedLists method
+linktitle: set_MergePastedLists
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::ImportFormatOptions::get_MergePastedLists.'
+description: 'Aspose::Words::ImportFormatOptions::set_MergePastedLists method. Setter for Aspose::Words::ImportFormatOptions::get_MergePastedLists in C++.'
 type: docs
-weight: 209
+weight: 17000
 url: /cpp/aspose.words/importformatoptions/set_mergepastedlists/
 ---
 ## ImportFormatOptions::set_MergePastedLists method
@@ -19,4 +20,4 @@ void Aspose::Words::ImportFormatOptions::set_MergePastedLists(bool value)
 
 * Class [ImportFormatOptions](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

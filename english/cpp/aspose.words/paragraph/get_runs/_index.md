@@ -1,9 +1,10 @@
 ---
-title: get_Runs
+title: Aspose::Words::Paragraph::get_Runs method
+linktitle: get_Runs
 second_title: Aspose.Words for C++ API Reference
-description: Provides access to the typed collection of pieces of text inside the paragraph.
+description: 'Aspose::Words::Paragraph::get_Runs method. Provides access to the typed collection of pieces of text inside the paragraph in C++.'
 type: docs
-weight: 313
+weight: 25000
 url: /cpp/aspose.words/paragraph/get_runs/
 ---
 ## Paragraph::get_Runs method
@@ -75,4 +76,4 @@ ASSERT_TRUE(runs->idx_get(5)->get_IsDeleteRevision());
 * Class [RunCollection](../../runcollection/)
 * Class [Paragraph](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

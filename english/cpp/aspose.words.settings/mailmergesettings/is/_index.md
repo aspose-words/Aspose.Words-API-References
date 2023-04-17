@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Settings::MailMergeSettings::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Settings::MailMergeSettings class in C++.'
 type: docs
-weight: 274
+weight: 22000
 url: /cpp/aspose.words.settings/mailmergesettings/is/
 ---
 ## MailMergeSettings::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Settings::MailMergeSettings::Is(const System::TypeIn
 
 * Class [MailMergeSettings](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

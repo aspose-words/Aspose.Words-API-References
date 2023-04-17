@@ -1,9 +1,10 @@
 ---
-title: Clear
+title: Aspose::Words::Drawing::ShadowFormat::Clear method
+linktitle: Clear
 second_title: Aspose.Words for C++ API Reference
-description: Clears shadow format.
+description: 'Aspose::Words::Drawing::ShadowFormat::Clear method. Clears shadow format in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.drawing/shadowformat/clear/
 ---
 ## ShadowFormat::Clear method
@@ -19,4 +20,4 @@ void Aspose::Words::Drawing::ShadowFormat::Clear()
 
 * Class [ShadowFormat](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

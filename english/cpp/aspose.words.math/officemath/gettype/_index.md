@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Math::OfficeMath::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Math::OfficeMath class in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words.math/officemath/gettype/
 ---
 ## OfficeMath::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Math::OfficeMath::GetType() cons
 
 * Class [OfficeMath](../)
 * Namespace [Aspose::Words::Math](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

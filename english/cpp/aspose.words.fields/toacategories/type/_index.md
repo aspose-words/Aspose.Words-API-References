@@ -1,9 +1,10 @@
 ---
-title: Type
+title: Aspose::Words::Fields::ToaCategories::Type method
+linktitle: Type
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Type method of Aspose::Words::Fields::ToaCategories class in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fields/toacategories/type/
 ---
 ## ToaCategories::Type method
@@ -19,4 +20,4 @@ static const System::TypeInfo & Aspose::Words::Fields::ToaCategories::Type()
 
 * Class [ToaCategories](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

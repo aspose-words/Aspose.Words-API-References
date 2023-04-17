@@ -1,9 +1,10 @@
 ---
-title: get_ForceCopyStyles
+title: Aspose::Words::ImportFormatOptions::get_ForceCopyStyles method
+linktitle: get_ForceCopyStyles
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets a boolean value indicating either to copy conflicting styles in KeepSourceFormatting mode. The default value is false.
+description: 'Aspose::Words::ImportFormatOptions::get_ForceCopyStyles method. Gets or sets a boolean value indicating either to copy conflicting styles in KeepSourceFormatting mode. The default value is false in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words/importformatoptions/get_forcecopystyles/
 ---
 ## ImportFormatOptions::get_ForceCopyStyles method
@@ -27,4 +28,4 @@ Note, in this case it is not guaranteed that formatting of the imported node in 
 
 * Class [ImportFormatOptions](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

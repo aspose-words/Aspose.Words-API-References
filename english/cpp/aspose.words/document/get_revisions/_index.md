@@ -1,9 +1,10 @@
 ---
-title: get_Revisions
+title: Aspose::Words::Document::get_Revisions method
+linktitle: get_Revisions
 second_title: Aspose.Words for C++ API Reference
-description: Gets a collection of revisions (tracked changes) that exist in this document.
+description: 'Aspose::Words::Document::get_Revisions method. Gets a collection of revisions (tracked changes) that exist in this document in C++.'
 type: docs
-weight: 586
+weight: 46000
 url: /cpp/aspose.words/document/get_revisions/
 ---
 ## Document::get_Revisions method
@@ -106,4 +107,4 @@ ASSERT_EQ(u"This is revision #1. \rThis is revision #2.", doc->GetText().Trim())
 * Class [RevisionCollection](../../revisioncollection/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

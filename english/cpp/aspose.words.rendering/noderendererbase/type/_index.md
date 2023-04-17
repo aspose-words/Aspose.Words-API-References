@@ -1,9 +1,10 @@
 ---
-title: Type
+title: Aspose::Words::Rendering::NodeRendererBase::Type method
+linktitle: Type
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Type method of Aspose::Words::Rendering::NodeRendererBase class in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words.rendering/noderendererbase/type/
 ---
 ## NodeRendererBase::Type method
@@ -19,4 +20,4 @@ static const System::TypeInfo & Aspose::Words::Rendering::NodeRendererBase::Type
 
 * Class [NodeRendererBase](../)
 * Namespace [Aspose::Words::Rendering](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

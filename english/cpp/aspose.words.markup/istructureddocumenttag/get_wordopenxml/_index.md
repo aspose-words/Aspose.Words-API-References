@@ -1,9 +1,10 @@
 ---
-title: get_WordOpenXML
+title: Aspose::Words::Markup::IStructuredDocumentTag::get_WordOpenXML method
+linktitle: get_WordOpenXML
 second_title: Aspose.Words for C++ API Reference
-description: Gets a string that represents the XML contained within the node in the FlatOpc format.
+description: 'Aspose::Words::Markup::IStructuredDocumentTag::get_WordOpenXML method. Gets a string that represents the XML contained within the node in the FlatOpc format in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words.markup/istructureddocumenttag/get_wordopenxml/
 ---
 ## IStructuredDocumentTag::get_WordOpenXML method
@@ -19,4 +20,4 @@ virtual System::String Aspose::Words::Markup::IStructuredDocumentTag::get_WordOp
 
 * Interface [IStructuredDocumentTag](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

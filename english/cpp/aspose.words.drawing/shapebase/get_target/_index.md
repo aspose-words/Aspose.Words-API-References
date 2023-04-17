@@ -1,9 +1,10 @@
 ---
-title: get_Target
+title: Aspose::Words::Drawing::ShapeBase::get_Target method
+linktitle: get_Target
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the target frame for the shape hyperlink.
+description: 'Aspose::Words::Drawing::ShapeBase::get_Target method. Gets or sets the target frame for the shape hyperlink in C++.'
 type: docs
-weight: 638
+weight: 50000
 url: /cpp/aspose.words.drawing/shapebase/get_target/
 ---
 ## ShapeBase::get_Target method
@@ -43,4 +44,4 @@ doc->Save(ArtifactsDir + u"Image.InsertImageWithHyperlink.docx");
 
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

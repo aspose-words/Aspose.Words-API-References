@@ -1,9 +1,10 @@
 ---
-title: Type
+title: Aspose::Words::WebExtensions::WebExtension::Type method
+linktitle: Type
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Type method of Aspose::Words::WebExtensions::WebExtension class in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words.webextensions/webextension/type/
 ---
 ## WebExtension::Type method
@@ -19,4 +20,4 @@ static const System::TypeInfo & Aspose::Words::WebExtensions::WebExtension::Type
 
 * Class [WebExtension](../)
 * Namespace [Aspose::Words::WebExtensions](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

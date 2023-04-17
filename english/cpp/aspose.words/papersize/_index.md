@@ -1,9 +1,10 @@
 ---
-title: PaperSize
+title: Aspose::Words::PaperSize enum
+linktitle: PaperSize
 second_title: Aspose.Words for C++ API Reference
-description: Specifies paper size.
+description: 'Aspose::Words::PaperSize enum. Specifies paper size in C++.'
 type: docs
-weight: 1405
+weight: 109000
 url: /cpp/aspose.words/papersize/
 ---
 ## PaperSize enum
@@ -150,4 +151,4 @@ doc->Save(ArtifactsDir + u"Section.CreateManually.docx");
 ## See Also
 
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

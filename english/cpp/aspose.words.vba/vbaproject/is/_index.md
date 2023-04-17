@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Vba::VbaProject::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Vba::VbaProject class in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words.vba/vbaproject/is/
 ---
 ## VbaProject::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Vba::VbaProject::Is(const System::TypeInfo &target) 
 
 * Class [VbaProject](../)
 * Namespace [Aspose::Words::Vba](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

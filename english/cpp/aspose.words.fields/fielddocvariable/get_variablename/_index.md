@@ -1,9 +1,10 @@
 ---
-title: get_VariableName
+title: Aspose::Words::Fields::FieldDocVariable::get_VariableName method
+linktitle: get_VariableName
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the name of the document variable to retrieve.
+description: 'Aspose::Words::Fields::FieldDocVariable::get_VariableName method. Gets or sets the name of the document variable to retrieve in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fields/fielddocvariable/get_variablename/
 ---
 ## FieldDocVariable::get_VariableName method
@@ -57,4 +58,4 @@ doc->Save(ArtifactsDir + u"Field.DOCPROPERTY.DOCVARIABLE.docx");
 
 * Class [FieldDocVariable](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

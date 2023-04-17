@@ -1,9 +1,10 @@
 ---
-title: set_TableFormat
+title: Aspose::Words::Fields::FieldDatabase::set_TableFormat method
+linktitle: set_TableFormat
 second_title: Aspose.Words for C++ API Reference
-description: Sets the format that is to be applied to the result of the database query.
+description: 'Aspose::Words::Fields::FieldDatabase::set_TableFormat method. Sets the format that is to be applied to the result of the database query in C++.'
 type: docs
-weight: 274
+weight: 22000
 url: /cpp/aspose.words.fields/fielddatabase/set_tableformat/
 ---
 ## FieldDatabase::set_TableFormat method
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldDatabase::set_TableFormat(const System::String 
 
 * Class [FieldDatabase](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

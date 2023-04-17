@@ -1,9 +1,10 @@
 ---
-title: Compare
+title: Aspose::Words::Document::Compare method
+linktitle: Compare
 second_title: Aspose.Words for C++ API Reference
-description: Compares this document with another document producing changes as number of edit and format revisions Revision.
+description: 'Aspose::Words::Document::Compare method. Compares this document with another document producing changes as number of edit and format revisions Revision in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words/document/compare/
 ---
 ## Document::Compare(const System::SharedPtr\<Aspose::Words::Document\>\&, const System::String\&, System::DateTime) method
@@ -73,7 +74,7 @@ ASSERT_EQ(docOriginal->GetText(), docEdited->GetText());
 * Class [Document](../)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## Document::Compare(const System::SharedPtr\<Aspose::Words::Document\>\&, const System::String\&, System::DateTime, const System::SharedPtr\<Aspose::Words::Comparing::CompareOptions\>\&) method
 
 
@@ -186,4 +187,4 @@ docOriginal->Save(ArtifactsDir + u"Document.CompareOptions.docx");
 * Class [CompareOptions](../../../aspose.words.comparing/compareoptions/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

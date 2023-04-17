@@ -1,9 +1,10 @@
 ---
-title: get_IsShowingPlaceholderText
+title: Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_IsShowingPlaceholderText method
+linktitle: get_IsShowingPlaceholderText
 second_title: Aspose.Words for C++ API Reference
-description: Specifies whether the content of this structured document tag shall be interpreted to contain placeholder text (as opposed to regular text contents within the structured document tag). if set to true, this state shall be resumed (showing placeholder text) upon opening this document.
+description: 'Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_IsShowingPlaceholderText method. Specifies whether the content of this structured document tag shall be interpreted to contain placeholder text (as opposed to regular text contents within the structured document tag). if set to true, this state shall be resumed (showing placeholder text) upon opening this document in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/get_isshowingplaceholdertext/
 ---
 ## StructuredDocumentTagRangeStart::get_IsShowingPlaceholderText method
@@ -52,4 +53,4 @@ std::cout << String::Format(u"\t|NodeType: {0}", rangeEndTag->get_NodeType()) <<
 
 * Class [StructuredDocumentTagRangeStart](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

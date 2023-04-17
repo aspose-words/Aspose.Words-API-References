@@ -1,9 +1,10 @@
 ---
-title: idx_get
+title: Aspose::Words::Markup::SdtListItemCollection::idx_get method
+linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
-description: Returns a SdtListItem object given its zero-based index in the collection.
+description: 'Aspose::Words::Markup::SdtListItemCollection::idx_get method. Returns a SdtListItem object given its zero-based index in the collection in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words.markup/sdtlistitemcollection/idx_get/
 ---
 ## SdtListItemCollection::idx_get method
@@ -81,4 +82,4 @@ ASSERT_EQ(0, listItems->get_Count());
 * Class [SdtListItem](../../sdtlistitem/)
 * Class [SdtListItemCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

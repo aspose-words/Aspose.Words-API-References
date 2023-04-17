@@ -1,9 +1,10 @@
 ---
-title: PageSet
+title: Aspose::Words::Saving::PageSet class
+linktitle: PageSet
 second_title: Aspose.Words for C++ API Reference
-description: Describes a random set of pages. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Saving::PageSet class. Describes a random set of pages. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 248
+weight: 20000
 url: /cpp/aspose.words.saving/pageset/
 ---
 ## PageSet class
@@ -31,4 +32,4 @@ class PageSet : public System::Object
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

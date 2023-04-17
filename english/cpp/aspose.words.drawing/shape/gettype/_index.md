@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Drawing::Shape::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Drawing::Shape class in C++.'
 type: docs
-weight: 326
+weight: 26000
 url: /cpp/aspose.words.drawing/shape/gettype/
 ---
 ## Shape::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Drawing::Shape::GetType() const 
 
 * Class [Shape](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

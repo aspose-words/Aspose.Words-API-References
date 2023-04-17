@@ -1,9 +1,10 @@
 ---
-title: HorizontalRuleAlignment
+title: Aspose::Words::Drawing::HorizontalRuleAlignment enum
+linktitle: HorizontalRuleAlignment
 second_title: Aspose.Words for C++ API Reference
-description: Represents the alignment for the specified horizontal rule.
+description: 'Aspose::Words::Drawing::HorizontalRuleAlignment enum. Represents the alignment for the specified horizontal rule in C++.'
 type: docs
-weight: 339
+weight: 27000
 url: /cpp/aspose.words.drawing/horizontalrulealignment/
 ---
 ## HorizontalRuleAlignment enum
@@ -26,4 +27,4 @@ enum class HorizontalRuleAlignment
 ## See Also
 
 * Namespace [Aspose::Words::Drawing](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

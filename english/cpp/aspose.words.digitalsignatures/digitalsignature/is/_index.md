@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::DigitalSignatures::DigitalSignature::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::DigitalSignatures::DigitalSignature class in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words.digitalsignatures/digitalsignature/is/
 ---
 ## DigitalSignature::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::DigitalSignatures::DigitalSignature::Is(const System
 
 * Class [DigitalSignature](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

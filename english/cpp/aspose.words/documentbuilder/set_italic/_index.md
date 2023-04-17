@@ -1,9 +1,10 @@
 ---
-title: set_Italic
+title: Aspose::Words::DocumentBuilder::set_Italic method
+linktitle: set_Italic
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::DocumentBuilder::get_Italic.'
+description: 'Aspose::Words::DocumentBuilder::set_Italic method. Setter for Aspose::Words::DocumentBuilder::get_Italic in C++.'
 type: docs
-weight: 846
+weight: 66000
 url: /cpp/aspose.words/documentbuilder/set_italic/
 ---
 ## DocumentBuilder::set_Italic method
@@ -19,4 +20,4 @@ void Aspose::Words::DocumentBuilder::set_Italic(bool value)
 
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

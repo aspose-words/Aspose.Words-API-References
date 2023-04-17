@@ -1,9 +1,10 @@
 ---
-title: TaskPaneDockState
+title: Aspose::Words::WebExtensions::TaskPaneDockState enum
+linktitle: TaskPaneDockState
 second_title: Aspose.Words for C++ API Reference
-description: Enumerates available locations of task pane object.
+description: 'Aspose::Words::WebExtensions::TaskPaneDockState enum. Enumerates available locations of task pane object in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words.webextensions/taskpanedockstate/
 ---
 ## TaskPaneDockState enum
@@ -69,4 +70,4 @@ ASSERT_EQ(0, doc->get_WebExtensionTaskPanes()->get_Count());
 ## See Also
 
 * Namespace [Aspose::Words::WebExtensions](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

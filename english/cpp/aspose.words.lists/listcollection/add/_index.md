@@ -1,9 +1,10 @@
 ---
-title: Add
+title: Aspose::Words::Lists::ListCollection::Add method
+linktitle: Add
 second_title: Aspose.Words for C++ API Reference
-description: Creates a new list based on a predefined template and adds it to the collection of lists in the document.
+description: 'Aspose::Words::Lists::ListCollection::Add method. Creates a new list based on a predefined template and adds it to the collection of lists in the document in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.lists/listcollection/add/
 ---
 ## ListCollection::Add(Aspose::Words::Lists::ListTemplate) method
@@ -151,7 +152,7 @@ ASSERT_EQ(3, paras->LINQ_Count([](SharedPtr<Node> n) { return System::DynamicCas
 * Enum [ListTemplate](../../listtemplate/)
 * Class [ListCollection](../)
 * Namespace [Aspose::Words::Lists](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## ListCollection::Add(const System::SharedPtr\<Aspose::Words::Style\>\&) method
 
 
@@ -239,4 +240,4 @@ builder->get_Document()->Save(ArtifactsDir + u"Lists.CreateAndUseListStyle.docx"
 * Class [Style](../../../aspose.words/style/)
 * Class [ListCollection](../)
 * Namespace [Aspose::Words::Lists](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

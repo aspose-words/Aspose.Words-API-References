@@ -1,9 +1,10 @@
 ---
-title: get_Accent3
+title: Aspose::Words::Themes::ThemeColors::get_Accent3 method
+linktitle: get_Accent3
 second_title: Aspose.Words for C++ API Reference
-description: Specifies color Accent 3.
+description: 'Aspose::Words::Themes::ThemeColors::get_Accent3 method. Specifies color Accent 3 in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.themes/themecolors/get_accent3/
 ---
 ## ThemeColors::get_Accent3 method
@@ -66,4 +67,4 @@ doc->Save(ArtifactsDir + u"Themes.CustomColorsAndFonts.docx");
 
 * Class [ThemeColors](../)
 * Namespace [Aspose::Words::Themes](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

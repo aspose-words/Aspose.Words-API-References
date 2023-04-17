@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::AbsolutePositionTab::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::AbsolutePositionTab class in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words/absolutepositiontab/gettype/
 ---
 ## AbsolutePositionTab::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::AbsolutePositionTab::GetType() c
 
 * Class [AbsolutePositionTab](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

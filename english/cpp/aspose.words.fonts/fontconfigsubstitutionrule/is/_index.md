@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Fonts::FontConfigSubstitutionRule::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Fonts::FontConfigSubstitutionRule class in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.fonts/fontconfigsubstitutionrule/is/
 ---
 ## FontConfigSubstitutionRule::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Fonts::FontConfigSubstitutionRule::Is(const System::
 
 * Class [FontConfigSubstitutionRule](../)
 * Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

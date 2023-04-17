@@ -1,9 +1,10 @@
 ---
-title: get_Series
+title: Aspose::Words::Drawing::Charts::Chart::get_Series method
+linktitle: get_Series
 second_title: Aspose.Words for C++ API Reference
-description: Provides access to series collection.
+description: 'Aspose::Words::Drawing::Charts::Chart::get_Series method. Provides access to series collection in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.drawing.charts/chart/get_series/
 ---
 ## Chart::get_Series method
@@ -98,4 +99,4 @@ static SharedPtr<Chart> AppendChart(SharedPtr<DocumentBuilder> builder, ChartTyp
 * Class [ChartSeriesCollection](../../chartseriescollection/)
 * Class [Chart](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_Color
+title: Aspose::Words::BorderCollection::get_Color method
+linktitle: get_Color
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the border color.
+description: 'Aspose::Words::BorderCollection::get_Color method. Gets or sets the border color in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words/bordercollection/get_color/
 ---
 ## BorderCollection::get_Color method
@@ -44,4 +45,4 @@ doc->Save(ArtifactsDir + u"PageSetup.PageBorders.docx");
 
 * Class [BorderCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

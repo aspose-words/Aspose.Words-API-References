@@ -1,9 +1,10 @@
 ---
-title: ComparisonEvaluationResult
+title: Aspose::Words::Fields::ComparisonEvaluationResult::ComparisonEvaluationResult constructor
+linktitle: ComparisonEvaluationResult
 second_title: Aspose.Words for C++ API Reference
-description: Creates a comparison evaluation result.
+description: 'Aspose::Words::Fields::ComparisonEvaluationResult::ComparisonEvaluationResult constructor. Creates a comparison evaluation result in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fields/comparisonevaluationresult/comparisonevaluationresult/
 ---
 ## ComparisonEvaluationResult::ComparisonEvaluationResult(bool) constructor
@@ -98,7 +99,7 @@ private:
 
 * Class [ComparisonEvaluationResult](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## ComparisonEvaluationResult::ComparisonEvaluationResult(const System::String\&) constructor
 
 
@@ -191,4 +192,4 @@ private:
 
 * Class [ComparisonEvaluationResult](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: EvaluateCondition
+title: Aspose::Words::Fields::FieldIf::EvaluateCondition method
+linktitle: EvaluateCondition
 second_title: Aspose.Words for C++ API Reference
-description: Evaluates the condition.
+description: 'Aspose::Words::Fields::FieldIf::EvaluateCondition method. Evaluates the condition in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fields/fieldif/evaluatecondition/
 ---
 ## FieldIf::EvaluateCondition method
@@ -69,4 +70,4 @@ doc->Save(ArtifactsDir + u"Field.IF.docx");
 * Enum [FieldIfComparisonResult](../../fieldifcomparisonresult/)
 * Class [FieldIf](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

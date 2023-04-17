@@ -1,9 +1,10 @@
 ---
-title: GetEmbeddedFontAsOpenType
+title: Aspose::Words::Fonts::FontInfo::GetEmbeddedFontAsOpenType method
+linktitle: GetEmbeddedFontAsOpenType
 second_title: Aspose.Words for C++ API Reference
-description: Gets an embedded font file in OpenType format. Fonts in Embedded OpenType format are converted to OpenType.
+description: 'Aspose::Words::Fonts::FontInfo::GetEmbeddedFontAsOpenType method. Gets an embedded font file in OpenType format. Fonts in Embedded OpenType format are converted to OpenType in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words.fonts/fontinfo/getembeddedfontasopentype/
 ---
 ## FontInfo::GetEmbeddedFontAsOpenType method
@@ -58,4 +59,4 @@ System::IO::File::WriteAllBytes(ArtifactsDir + u"Alte DIN 1451 Mittelschrift.otf
 * Enum [EmbeddedFontStyle](../../embeddedfontstyle/)
 * Class [FontInfo](../)
 * Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_StyleName
+title: Aspose::Words::Font::get_StyleName method
+linktitle: get_StyleName
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the name of the character style applied to this formatting.
+description: 'Aspose::Words::Font::get_StyleName method. Gets or sets the name of the character style applied to this formatting in C++.'
 type: docs
-weight: 560
+weight: 44000
 url: /cpp/aspose.words/font/get_stylename/
 ---
 ## Font::get_StyleName method
@@ -56,4 +57,4 @@ doc->Save(ArtifactsDir + u"Font.ChangeStyle.docx");
 
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

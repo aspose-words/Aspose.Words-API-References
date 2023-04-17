@@ -1,9 +1,10 @@
 ---
-title: get_Schemas
+title: Aspose::Words::Markup::CustomXmlPart::get_Schemas method
+linktitle: get_Schemas
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the set of XML schemas that are associated with this custom XML part.
+description: 'Aspose::Words::Markup::CustomXmlPart::get_Schemas method. Specifies the set of XML schemas that are associated with this custom XML part in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.markup/customxmlpart/get_schemas/
 ---
 ## CustomXmlPart::get_Schemas method
@@ -86,4 +87,4 @@ doc->Save(ArtifactsDir + u"StructuredDocumentTag.CustomXml.docx");
 * Class [CustomXmlSchemaCollection](../../customxmlschemacollection/)
 * Class [CustomXmlPart](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

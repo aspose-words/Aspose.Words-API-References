@@ -1,9 +1,10 @@
 ---
-title: get_VerticalPosition
+title: Aspose::Words::Fields::FieldAdvance::get_VerticalPosition method
+linktitle: get_VerticalPosition
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the number of points by which the text that follows the field should be moved vertically from the top edge of the page.
+description: 'Aspose::Words::Fields::FieldAdvance::get_VerticalPosition method. Gets or sets the number of points by which the text that follows the field should be moved vertically from the top edge of the page in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.fields/fieldadvance/get_verticalposition/
 ---
 ## FieldAdvance::get_VerticalPosition method
@@ -63,4 +64,4 @@ doc->Save(ArtifactsDir + u"Field.ADVANCE.docx");
 
 * Class [FieldAdvance](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

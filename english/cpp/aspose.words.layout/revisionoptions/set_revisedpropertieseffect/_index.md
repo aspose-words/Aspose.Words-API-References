@@ -1,9 +1,10 @@
 ---
-title: set_RevisedPropertiesEffect
+title: Aspose::Words::Layout::RevisionOptions::set_RevisedPropertiesEffect method
+linktitle: set_RevisedPropertiesEffect
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Layout::RevisionOptions::get_RevisedPropertiesEffect.'
+description: 'Aspose::Words::Layout::RevisionOptions::set_RevisedPropertiesEffect method. Setter for Aspose::Words::Layout::RevisionOptions::get_RevisedPropertiesEffect in C++.'
 type: docs
-weight: 430
+weight: 34000
 url: /cpp/aspose.words.layout/revisionoptions/set_revisedpropertieseffect/
 ---
 ## RevisionOptions::set_RevisedPropertiesEffect method
@@ -20,4 +21,4 @@ void Aspose::Words::Layout::RevisionOptions::set_RevisedPropertiesEffect(Aspose:
 * Enum [RevisionTextEffect](../../revisiontexteffect/)
 * Class [RevisionOptions](../)
 * Namespace [Aspose::Words::Layout](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

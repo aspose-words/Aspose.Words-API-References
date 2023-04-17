@@ -1,9 +1,10 @@
 ---
-title: get_Document
+title: Aspose::Words::Saving::ResourceSavingArgs::get_Document method
+linktitle: get_Document
 second_title: Aspose.Words for C++ API Reference
-description: Gets the document object that is currently being saved.
+description: 'Aspose::Words::Saving::ResourceSavingArgs::get_Document method. Gets the document object that is currently being saved in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.saving/resourcesavingargs/get_document/
 ---
 ## ResourceSavingArgs::get_Document method
@@ -65,4 +66,4 @@ private:
 * Class [Document](../../../aspose.words/document/)
 * Class [ResourceSavingArgs](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

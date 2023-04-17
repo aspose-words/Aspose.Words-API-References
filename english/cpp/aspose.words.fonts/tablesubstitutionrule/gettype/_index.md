@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Fonts::TableSubstitutionRule::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Fonts::TableSubstitutionRule class in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.fonts/tablesubstitutionrule/gettype/
 ---
 ## TableSubstitutionRule::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Fonts::TableSubstitutionRule::Ge
 
 * Class [TableSubstitutionRule](../)
 * Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

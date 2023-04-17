@@ -1,9 +1,10 @@
 ---
-title: ImageColorMode
+title: Aspose::Words::Saving::ImageColorMode enum
+linktitle: ImageColorMode
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the color mode for the generated images of document pages.
+description: 'Aspose::Words::Saving::ImageColorMode enum. Specifies the color mode for the generated images of document pages in C++.'
 type: docs
-weight: 820
+weight: 64000
 url: /cpp/aspose.words.saving/imagecolormode/
 ---
 ## ImageColorMode enum
@@ -56,4 +57,4 @@ doc->Save(ArtifactsDir + u"ImageSaveOptions.ColorMode.png", imageSaveOptions);
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

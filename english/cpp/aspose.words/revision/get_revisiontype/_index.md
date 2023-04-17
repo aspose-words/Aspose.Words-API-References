@@ -1,9 +1,10 @@
 ---
-title: get_RevisionType
+title: Aspose::Words::Revision::get_RevisionType method
+linktitle: get_RevisionType
 second_title: Aspose.Words for C++ API Reference
-description: Gets the type of this revision.
+description: 'Aspose::Words::Revision::get_RevisionType method. Gets the type of this revision in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words/revision/get_revisiontype/
 ---
 ## Revision::get_RevisionType method
@@ -102,4 +103,4 @@ ASSERT_EQ(u"This is revision #1. \rThis is revision #2.", doc->GetText().Trim())
 * Enum [RevisionType](../../revisiontype/)
 * Class [Revision](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

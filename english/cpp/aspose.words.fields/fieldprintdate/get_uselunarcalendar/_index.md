@@ -1,9 +1,10 @@
 ---
-title: get_UseLunarCalendar
+title: Aspose::Words::Fields::FieldPrintDate::get_UseLunarCalendar method
+linktitle: get_UseLunarCalendar
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets whether to use the Hijri Lunar or Hebrew Lunar calendar.
+description: 'Aspose::Words::Fields::FieldPrintDate::get_UseLunarCalendar method. Gets or sets whether to use the Hijri Lunar or Hebrew Lunar calendar in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fields/fieldprintdate/get_uselunarcalendar/
 ---
 ## FieldPrintDate::get_UseLunarCalendar method
@@ -60,4 +61,4 @@ ASSERT_EQ(u" PRINTDATE  \\s", field->GetFieldCode());
 
 * Class [FieldPrintDate](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

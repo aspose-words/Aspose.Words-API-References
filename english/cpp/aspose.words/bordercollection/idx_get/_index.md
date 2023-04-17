@@ -1,9 +1,10 @@
 ---
-title: idx_get
+title: Aspose::Words::BorderCollection::idx_get method
+linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
-description: Retrieves a Border object by border type.
+description: 'Aspose::Words::BorderCollection::idx_get method. Retrieves a Border object by border type in C++.'
 type: docs
-weight: 222
+weight: 18000
 url: /cpp/aspose.words/bordercollection/idx_get/
 ---
 ## BorderCollection::idx_get(Aspose::Words::BorderType) method
@@ -55,7 +56,7 @@ doc->Save(ArtifactsDir + u"DocumentBuilder.ApplyBordersAndShading.docx");
 * Enum [BorderType](../../bordertype/)
 * Class [BorderCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## BorderCollection::idx_get(int32_t) method
 
 
@@ -118,4 +119,4 @@ doc->Save(ArtifactsDir + u"Border.SharedElements.docx");
 * Class [Border](../../border/)
 * Class [BorderCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: Remove
+title: Aspose::Words::EditableRange::Remove method
+linktitle: Remove
 second_title: Aspose.Words for C++ API Reference
-description: Removes the editable range from the document. Does not remove content inside the editable range.
+description: 'Aspose::Words::EditableRange::Remove method. Removes the editable range from the document. Does not remove content inside the editable range in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words/editablerange/remove/
 ---
 ## EditableRange::Remove method
@@ -64,4 +65,4 @@ editableRange->Remove();
 
 * Class [EditableRange](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
