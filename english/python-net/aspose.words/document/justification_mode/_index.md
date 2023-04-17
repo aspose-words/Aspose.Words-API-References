@@ -17,12 +17,12 @@ Gets or sets the character spacing adjustment of a document.
 Shows how to manage character spacing control.
 
 ```python
-doc = aw.Document(MyDir + "Document.docx")
+doc = aw.Document(MY_DIR + "Document.docx")
 justification_mode = doc.justification_mode
 if justification_mode == aw.settings.JustificationMode.EXPAND:
-    doc.justification_mode = aw.settings.JustificationMode.COMPRESS;
+    doc.justification_mode = aw.settings.JustificationMode.COMPRESS
 
-doc.save(ArtifactsDir + "Document.SetJustificationMode.docx");
+doc.save(ARTIFACTS_DIR + "Document.SetJustificationMode.docx")
 ```
 
 ### See Also

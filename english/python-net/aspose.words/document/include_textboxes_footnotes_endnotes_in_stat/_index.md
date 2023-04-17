@@ -29,7 +29,7 @@ doc.update_word_count()
 self.assertEqual(2, doc.built_in_document_properties.words)
 
 # Words count with textboxes, footnotes and endnotes.
-doc.include_textboxes_footnotes_endnotes_in_stat = true
+doc.include_textboxes_footnotes_endnotes_in_stat = True
 doc.update_word_count()
 
 self.assertEqual(4, doc.built_in_document_properties.words)

@@ -23,14 +23,14 @@ results in System.ArgumentOutOfRangeException.
 Shows how to manage lightening and darkening foreground font color.
 
 ```python
-doc = aw.Document(MyDir + "Big document.docx")
+doc = aw.Document(MY_DIR + "Big document.docx")
 
 text_fill = doc.first_section.body.first_paragraph.runs[0].font.fill
 text_fill.fore_theme_color = aw.themes.ThemeColor.ACCENT1
 if text_fill.fore_tint_and_shade == 0:
     text_fill.fore_tint_and_shade = 0.5
 
-doc.save(ArtifactsDir + "Shape.FillTintAndShade.docx");
+doc.save(ARTIFACTS_DIR + "Shape.FillTintAndShade.docx");
 ```
 
 ### See Also

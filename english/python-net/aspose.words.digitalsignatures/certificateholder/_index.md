@@ -23,12 +23,6 @@ System.Security.Cryptography.X509Certificates.X509Certificate2 as parameters.
 
 
 
-### Properties
-
-| Name | Description |
-| --- | --- |
-| [certificate](./certificate/) | Returns the instance of **X509Certificate2** which holds private, public keys and certificate chain. |
-
 ### Methods
 
 | Name | Description |

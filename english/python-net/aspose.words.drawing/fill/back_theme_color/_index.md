@@ -30,7 +30,7 @@ fill.back_theme_color = aw.themes.ThemeColor.BACKGROUND2
 if fill.back_tint_and_shade == 0:
     fill.back_tint_and_shade = 0.2
 
-doc.save(ArtifactsDir + "Shape.FillThemeColor.docx");
+doc.save(ARTIFACTS_DIR + "Shape.FillThemeColor.docx");
 ```
 
 ### See Also
