@@ -56,6 +56,8 @@ style = doc.styles.add(aw.StyleType.PARAGRAPH, "MyStyle")
 style.font.name = "Times New Roman"
 style.font.size = 16
 style.font.color = drawing.Color.navy
+# Automatically redefine style.
+style.automatically_update = True
 
 builder = aw.DocumentBuilder(doc)
 

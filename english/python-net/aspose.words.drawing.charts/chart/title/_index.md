@@ -3,7 +3,7 @@ title: title property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Provides access to the chart title properties."
 type: docs
-weight: 70
+weight: 80
 url: /python-net/aspose.words.drawing.charts/chart/title/
 ---
 

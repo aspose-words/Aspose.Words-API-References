@@ -3,7 +3,7 @@ title: VbaReferenceCollection class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents a collection of [VbaReference](../vbareference/) objects"
 type: docs
-weight: 60
+weight: 70
 url: /python-net/aspose.words.vba/vbareferencecollection/
 ---
 

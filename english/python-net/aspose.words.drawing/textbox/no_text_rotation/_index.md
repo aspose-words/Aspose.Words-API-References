@@ -16,6 +16,21 @@ The default value is ``False``
 
 
 
+### Examples
+
+Shows how to disable text rotation when the shape is rotate.
+
+```python
+doc = aw.Document()
+builder = aw.DocumentBuilder(doc)
+
+shape = builder.insert_shape(awd.ShapeType.ELLIPSE, 20.0, 20.0)
+
+shape.text_box.no_text_rotation = True
+
+doc.save(ARTIFACTS_DIR + "Shape.NoTextRotation.docx")
+```
+
 ### See Also
 
 * module [aspose.words.drawing](../../)

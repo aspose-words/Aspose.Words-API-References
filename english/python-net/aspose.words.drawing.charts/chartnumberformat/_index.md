@@ -3,7 +3,7 @@ title: ChartNumberFormat class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents number formatting of the parent element"
 type: docs
-weight: 230
+weight: 240
 url: /python-net/aspose.words.drawing.charts/chartnumberformat/
 ---
 

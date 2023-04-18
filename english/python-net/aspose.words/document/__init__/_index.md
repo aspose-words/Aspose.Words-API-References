@@ -254,7 +254,6 @@ Shows how to load a document using a stream.
 
 ```python
 with open(MY_DIR + "Document.docx", "rb") as stream:
-
     doc = aw.Document(stream)
 
     self.assertEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.get_text().strip())
@@ -270,14 +269,14 @@ url = "https://omextemplates.content.office.net/support/templates/en-us/tf164024
 data_bytes = urlopen(url).read()
 
 with io.BytesIO(data_bytes) as byte_stream:
-
     doc = aw.Document(byte_stream)
 
     # At this stage, we can read and edit the document's contents and then save it to the local file system.
-    self.assertEqual("Use this section to highlight your relevant passions, activities, and how you like to give back. " +
-                     "It’s good to include Leadership and volunteer experiences here. " +
-                     "Or show off important extras like publications, certifications, languages and more.",
-                     doc.first_section.body.paragraphs[4].get_text().strip())
+    self.assertEqual(
+        "Use this section to highlight your relevant passions, activities, and how you like to give back. " +
+        "It’s good to include Leadership and volunteer experiences here. " +
+        "Or show off important extras like publications, certifications, languages and more.",
+        doc.first_section.body.paragraphs[4].get_text().strip())
 
     doc.save(ARTIFACTS_DIR + "Document.load_from_web.docx")
 ```
@@ -286,7 +285,6 @@ Shows how to open an HTML document with images from a stream using a base URI.
 
 ```python
 with open(MY_DIR + "Document.html", "rb") as stream:
-
     # Pass the URI of the base folder while loading it
     # so that any images with relative URIs in the HTML document can be found.
     load_options = aw.loading.LoadOptions()
@@ -309,7 +307,6 @@ Shows how save a web page as a .docx file.
 url = "https://www.aspose.com/"
 
 with io.BytesIO(urlopen(url).read()) as stream:
-
     # The URL is used again as a "base_uri" to ensure that any relative image paths are retrieved correctly.
     options = aw.loading.LoadOptions(aw.LoadFormat.HTML, "", url)
 

@@ -3,7 +3,7 @@ title: wrap_type property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Defines whether the shape is inline or floating"
 type: docs
-weight: 540
+weight: 600
 url: /python-net/aspose.words.drawing/shapebase/wrap_type/
 ---
 

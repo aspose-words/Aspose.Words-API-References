@@ -31,7 +31,6 @@ Shows how to open an HTML document with images from a stream using a base URI.
 
 ```python
 with open(MY_DIR + "Document.html", "rb") as stream:
-
     # Pass the URI of the base folder while loading it
     # so that any images with relative URIs in the HTML document can be found.
     load_options = aw.loading.LoadOptions()

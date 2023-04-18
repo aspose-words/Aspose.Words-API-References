@@ -3,7 +3,7 @@ title: color property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets or sets a value representing the color of the gradient stop."
 type: docs
-weight: 20
+weight: 30
 url: /python-net/aspose.words.drawing/gradientstop/color/
 ---
 

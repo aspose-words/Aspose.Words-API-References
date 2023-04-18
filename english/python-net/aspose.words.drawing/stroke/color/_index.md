@@ -11,7 +11,7 @@ url: /python-net/aspose.words.drawing/stroke/color/
 
 Defines the color of a stroke.
 
-The default value for a [Shape](../../shape/) is 
+The default value for a [Shape](../../shape/) is
 System.Drawing.Color.Black.
 
 

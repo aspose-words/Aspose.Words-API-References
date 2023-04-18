@@ -57,8 +57,7 @@ builder.write("Hello world!")
 # but with a unique copy of each of the original document's nodes.
 clone = doc.clone()
 
-self.assertEqual(doc.first_section.body.first_paragraph.runs[0].get_text(),
-    clone.first_section.body.first_paragraph.runs[0].text)
+self.assertEqual(doc.first_section.body.first_paragraph.runs[0].get_text(), clone.first_section.body.first_paragraph.runs[0].text)
 self.assertIsNot(doc.first_section.body.first_paragraph.runs[0], clone.first_section.body.first_paragraph.runs[0])
 ```
 

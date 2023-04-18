@@ -3,7 +3,7 @@ title: Stroke class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Defines a stroke for a shape"
 type: docs
-weight: 360
+weight: 380
 url: /python-net/aspose.words.drawing/stroke/
 ---
 
@@ -33,6 +33,7 @@ You do not create instances of the [Stroke](./) class directly.
 | [end_arrow_type](./end_arrow_type/) | Defines the arrowhead for the end of a stroke. |
 | [end_arrow_width](./end_arrow_width/) | Defines the arrowhead width for the end of a stroke. |
 | [end_cap](./end_cap/) | Defines the cap style for the end of a stroke. |
+| [fill](./fill/) | Gets fill formatting for the [Stroke](./). |
 | [fore_color](./fore_color/) | Gets or sets the foreground color of the stroke. |
 | [image_bytes](./image_bytes/) | Defines the image for a stroke image or pattern fill. |
 | [join_style](./join_style/) | Defines the join style of a polyline. |

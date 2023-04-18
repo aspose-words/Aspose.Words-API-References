@@ -33,7 +33,7 @@ doc.save(ARTIFACTS_DIR + "OoxmlSaveOptions.keep_legacy_control_chars.docx", save
 doc = aw.Document(ARTIFACTS_DIR + "OoxmlSaveOptions.keep_legacy_control_chars.docx")
 
 self.assertEqual(
-    "\u0013date \\@ \"MM/dd/yyyy\"\u0014\u0015\f" if keep_legacy_control_chars else "\u001e\f",
+    "\u0013date \\@ \"d/MM/yyyy\"\u0014\u0015\f" if keep_legacy_control_chars else "\u001e\f",
     doc.first_section.body.get_text())
 ```
 

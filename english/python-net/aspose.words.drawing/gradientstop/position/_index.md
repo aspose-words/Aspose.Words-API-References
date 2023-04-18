@@ -3,7 +3,7 @@ title: position property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets or sets a value representing the position of a stop within the gradient expressed as a percent in range 0.0 to 1.0."
 type: docs
-weight: 30
+weight: 40
 url: /python-net/aspose.words.drawing/gradientstop/position/
 ---
 

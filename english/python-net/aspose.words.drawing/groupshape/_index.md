@@ -62,6 +62,7 @@ The coordinate system is defined using the [ShapeBase.coord_size](../shapebase/c
 | [font](../shapebase/font/) | Provides access to the font formatting of this object.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [has_child_nodes](../../aspose.words/compositenode/has_child_nodes/) | Returns ``True`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [height](../shapebase/height/) | Gets or sets the height of the containing block of the shape.<br>(Inherited from [ShapeBase](../shapebase/)) |
+| [height_relative](../shapebase/height_relative/) | Gets or sets the value that represents the percentage of shape's relative height.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [horizontal_alignment](../shapebase/horizontal_alignment/) | Specifies how the shape is positioned horizontally.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [href](../shapebase/href/) | Gets or sets the full hyperlink address for a shape.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [is_composite](../../aspose.words/node/is_composite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../../aspose.words/node/)) |
@@ -80,6 +81,7 @@ The coordinate system is defined using the [ShapeBase.coord_size](../shapebase/c
 | [is_word_art](../shapebase/is_word_art/) | Returns ``True`` if this shape is a WordArt object.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [last_child](../../aspose.words/compositenode/last_child/) | Gets the last child of the node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [left](../shapebase/left/) | Gets or sets the position of the left edge of the containing block of the shape.<br>(Inherited from [ShapeBase](../shapebase/)) |
+| [left_relative](../shapebase/left_relative/) | Gets or sets the value that represents shape's relative left position in percent.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [markup_language](../shapebase/markup_language/) | Gets MarkupLanguage used for this graphic object.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [name](../shapebase/name/) | Gets or sets the optional shape name.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [next_sibling](../../aspose.words/node/next_sibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
@@ -89,7 +91,9 @@ The coordinate system is defined using the [ShapeBase.coord_size](../shapebase/c
 | [previous_sibling](../../aspose.words/node/previous_sibling/) | Gets the node immediately preceding this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [range](../../aspose.words/node/range/) | Returns a [Range](../../aspose.words/range/) object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [relative_horizontal_position](../shapebase/relative_horizontal_position/) | Specifies relative to what the shape is positioned horizontally.<br>(Inherited from [ShapeBase](../shapebase/)) |
+| [relative_horizontal_size](../shapebase/relative_horizontal_size/) | Gets or sets the value of shape's relative size in horizontal direction.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [relative_vertical_position](../shapebase/relative_vertical_position/) | Specifies relative to what the shape is positioned vertically.<br>(Inherited from [ShapeBase](../shapebase/)) |
+| [relative_vertical_size](../shapebase/relative_vertical_size/) | Gets or sets the value of shape's relative size in vertical direction.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [right](../shapebase/right/) | Gets the position of the right edge of the containing block of the shape.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [rotation](../shapebase/rotation/) | Defines the angle (in degrees) that a shape is rotated. Positive value corresponds to clockwise rotation angle.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [screen_tip](../shapebase/screen_tip/) | Defines the text displayed when the mouse pointer moves over the shape.<br>(Inherited from [ShapeBase](../shapebase/)) |
@@ -99,8 +103,10 @@ The coordinate system is defined using the [ShapeBase.coord_size](../shapebase/c
 | [target](../shapebase/target/) | Gets or sets the target frame for the shape hyperlink.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [title](../shapebase/title/) | Gets or sets the title (caption) of the current shape object.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [top](../shapebase/top/) | Gets or sets the position of the top edge of the containing block of the shape.<br>(Inherited from [ShapeBase](../shapebase/)) |
+| [top_relative](../shapebase/top_relative/) | Gets or sets the value that represents shape's relative top position in percent.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [vertical_alignment](../shapebase/vertical_alignment/) | Specifies how the shape is positioned vertically.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [width](../shapebase/width/) | Gets or sets the width of the containing block of the shape.<br>(Inherited from [ShapeBase](../shapebase/)) |
+| [width_relative](../shapebase/width_relative/) | Gets or sets the value that represents the percentage of shape's relative width.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [wrap_side](../shapebase/wrap_side/) | Specifies how the text is wrapped around the shape.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [wrap_type](../shapebase/wrap_type/) | Defines whether the shape is inline or floating. For floating shapes defines the wrapping mode for text around the shape.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [z_order](../shapebase/z_order/) | Determines the display order of overlapping shapes.<br>(Inherited from [ShapeBase](../shapebase/)) |

@@ -25,6 +25,7 @@ To learn more, visit the [Working with Graphic Elements](https://docs.aspose.com
 
 | Name | Description |
 | --- | --- |
+| [base_color](./base_color/) | Gets a value representing the color of the gradient stop without any modifiers. |
 | [color](./color/) | Gets or sets a value representing the color of the gradient stop. |
 | [position](./position/) | Gets or sets a value representing the position of a stop within the gradient expressed as a percent in range 0.0 to 1.0. |
 | [transparency](./transparency/) | Gets or sets a value representing the transparency of the gradient fill expressed as a percent in range 0.0 to 1.0. |

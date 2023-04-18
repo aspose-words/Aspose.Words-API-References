@@ -3,7 +3,7 @@ title: TextPath class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Defines the text and formatting of the text path (of a WordArt object)"
 type: docs
-weight: 400
+weight: 420
 url: /python-net/aspose.words.drawing/textpath/
 ---
 

@@ -3,7 +3,7 @@ title: top property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets or sets the position of the top edge of the containing block of the shape."
 type: docs
-weight: 500
+weight: 540
 url: /python-net/aspose.words.drawing/shapebase/top/
 ---
 

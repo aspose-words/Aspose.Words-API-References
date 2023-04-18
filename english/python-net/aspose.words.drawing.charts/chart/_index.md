@@ -19,6 +19,7 @@ To learn more, visit the [Working with Charts](https://docs.aspose.com/words/pyt
 
 | Name | Description |
 | --- | --- |
+| [axes](./axes/) | Gets a collection of all axes of this chart. |
 | [axis_x](./axis_x/) | Provides access to properties of the X axis of the chart. |
 | [axis_y](./axis_y/) | Provides access to properties of the Y axis of the chart. |
 | [axis_z](./axis_z/) | Provides access to properties of the Z axis of the chart. |
