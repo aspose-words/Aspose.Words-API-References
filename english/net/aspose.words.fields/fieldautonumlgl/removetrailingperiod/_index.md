@@ -2,7 +2,7 @@
 title: FieldAutoNumLgl.RemoveTrailingPeriod
 linktitle: RemoveTrailingPeriod
 second_title: Aspose.Words for .NET API Reference
-description: FieldAutoNumLgl property. Gets or sets whether to display the number without a trailing period in C#.
+description: FieldAutoNumLgl RemoveTrailingPeriod property. Gets or sets whether to display the number without a trailing period in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldautonumlgl/removetrailingperiod/

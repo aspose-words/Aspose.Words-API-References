@@ -2,7 +2,7 @@
 title: CustomXmlPart.Clone
 linktitle: Clone
 second_title: Aspose.Words for .NET API Reference
-description: CustomXmlPart method. Makes a deep enough copy of the object. Does not duplicate the bytes of the Data value in C#.
+description: CustomXmlPart Clone method. Makes a deep enough copy of the object. Does not duplicate the bytes of the Data value in C#.
 type: docs
 weight: 60
 url: /net/aspose.words.markup/customxmlpart/clone/

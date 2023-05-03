@@ -2,7 +2,7 @@
 title: FindReplaceOptions.UseLegacyOrder
 linktitle: UseLegacyOrder
 second_title: Aspose.Words for .NET API Reference
-description: FindReplaceOptions property. True indicates that a text search is performed sequentially from top to bottom considering the text boxes. Default value is false in C#.
+description: FindReplaceOptions UseLegacyOrder property. True indicates that a text search is performed sequentially from top to bottom considering the text boxes. Default value is false in C#.
 type: docs
 weight: 170
 url: /net/aspose.words.replacing/findreplaceoptions/uselegacyorder/

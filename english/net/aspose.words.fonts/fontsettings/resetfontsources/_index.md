@@ -2,7 +2,7 @@
 title: FontSettings.ResetFontSources
 linktitle: ResetFontSources
 second_title: Aspose.Words for .NET API Reference
-description: FontSettings method. Resets the fonts sources to the system default in C#.
+description: FontSettings ResetFontSources method. Resets the fonts sources to the system default in C#.
 type: docs
 weight: 60
 url: /net/aspose.words.fonts/fontsettings/resetfontsources/

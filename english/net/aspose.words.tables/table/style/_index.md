@@ -2,7 +2,7 @@
 title: Table.Style
 linktitle: Style
 second_title: Aspose.Words for .NET API Reference
-description: Table property. Gets or sets the table style applied to this table in C#.
+description: Table Style property. Gets or sets the table style applied to this table in C#.
 type: docs
 weight: 270
 url: /net/aspose.words.tables/table/style/

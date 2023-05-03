@@ -2,7 +2,7 @@
 title: ChartFormat.Fill
 linktitle: Fill
 second_title: Aspose.Words for .NET API Reference
-description: ChartFormat property. Gets fill formatting for the parent chart element in C#.
+description: ChartFormat Fill property. Gets fill formatting for the parent chart element in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/chartformat/fill/

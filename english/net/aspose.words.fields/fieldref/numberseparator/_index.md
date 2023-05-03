@@ -2,7 +2,7 @@
 title: FieldRef.NumberSeparator
 linktitle: NumberSeparator
 second_title: Aspose.Words for .NET API Reference
-description: FieldRef property. Gets or sets the character sequence that is used to separate sequence numbers and page numbers in C#.
+description: FieldRef NumberSeparator property. Gets or sets the character sequence that is used to separate sequence numbers and page numbers in C#.
 type: docs
 weight: 90
 url: /net/aspose.words.fields/fieldref/numberseparator/

@@ -2,7 +2,7 @@
 title: ChartYValue.FromDateTime
 linktitle: FromDateTime
 second_title: Aspose.Words for .NET API Reference
-description: ChartYValue method. Creates a ChartYValue instance of the DateTime type in C#.
+description: ChartYValue FromDateTime method. Creates a ChartYValue instance of the DateTime type in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/chartyvalue/fromdatetime/

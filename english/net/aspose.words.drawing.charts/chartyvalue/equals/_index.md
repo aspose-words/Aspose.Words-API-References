@@ -2,7 +2,7 @@
 title: ChartYValue.Equals
 linktitle: Equals
 second_title: Aspose.Words for .NET API Reference
-description: ChartYValue method. Gets a flag indicating whether the specified object is equal to the current Y value object in C#.
+description: ChartYValue Equals method. Gets a flag indicating whether the specified object is equal to the current Y value object in C#.
 type: docs
 weight: 80
 url: /net/aspose.words.drawing.charts/chartyvalue/equals/

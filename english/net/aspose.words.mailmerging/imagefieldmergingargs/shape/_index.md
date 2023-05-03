@@ -2,7 +2,7 @@
 title: ImageFieldMergingArgs.Shape
 linktitle: Shape
 second_title: Aspose.Words for .NET API Reference
-description: ImageFieldMergingArgs property. Specifies the shape that the mail merge engine must insert into the document in C#.
+description: ImageFieldMergingArgs Shape property. Specifies the shape that the mail merge engine must insert into the document in C#.
 type: docs
 weight: 60
 url: /net/aspose.words.mailmerging/imagefieldmergingargs/shape/

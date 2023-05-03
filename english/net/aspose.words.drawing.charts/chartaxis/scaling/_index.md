@@ -2,7 +2,7 @@
 title: ChartAxis.Scaling
 linktitle: Scaling
 second_title: Aspose.Words for .NET API Reference
-description: ChartAxis property. Provides access to the scaling options of the axis in C#.
+description: ChartAxis Scaling property. Provides access to the scaling options of the axis in C#.
 type: docs
 weight: 210
 url: /net/aspose.words.drawing.charts/chartaxis/scaling/

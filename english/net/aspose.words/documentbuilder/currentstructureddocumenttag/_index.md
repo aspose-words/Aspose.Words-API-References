@@ -2,7 +2,7 @@
 title: DocumentBuilder.CurrentStructuredDocumentTag
 linktitle: CurrentStructuredDocumentTag
 second_title: Aspose.Words for .NET API Reference
-description: DocumentBuilder property. Gets the structured document tag that is currently selected in this DocumentBuilder in C#.
+description: DocumentBuilder CurrentStructuredDocumentTag property. Gets the structured document tag that is currently selected in this DocumentBuilder in C#.
 type: docs
 weight: 80
 url: /net/aspose.words/documentbuilder/currentstructureddocumenttag/

@@ -2,7 +2,7 @@
 title: List.IsMultiLevel
 linktitle: IsMultiLevel
 second_title: Aspose.Words for .NET API Reference
-description: List property. Returns true when the list contains 9 levels false when 1 level in C#.
+description: List IsMultiLevel property. Returns true when the list contains 9 levels false when 1 level in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.lists/list/ismultilevel/

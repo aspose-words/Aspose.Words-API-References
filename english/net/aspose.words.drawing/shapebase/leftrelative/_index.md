@@ -2,7 +2,7 @@
 title: ShapeBase.LeftRelative
 linktitle: LeftRelative
 second_title: Aspose.Words for .NET API Reference
-description: ShapeBase property. Gets or sets the value that represents shapes relative left position in percent in C#.
+description: ShapeBase LeftRelative property. Gets or sets the value that represents shapes relative left position in percent in C#.
 type: docs
 weight: 380
 url: /net/aspose.words.drawing/shapebase/leftrelative/

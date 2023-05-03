@@ -2,7 +2,7 @@
 title: Bookmark.Remove
 linktitle: Remove
 second_title: Aspose.Words for .NET API Reference
-description: Bookmark method. Removes the bookmark from the document. Does not remove text inside the bookmark in C#.
+description: Bookmark Remove method. Removes the bookmark from the document. Does not remove text inside the bookmark in C#.
 type: docs
 weight: 80
 url: /net/aspose.words/bookmark/remove/

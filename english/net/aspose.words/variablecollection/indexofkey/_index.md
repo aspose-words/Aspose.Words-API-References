@@ -2,7 +2,7 @@
 title: VariableCollection.IndexOfKey
 linktitle: IndexOfKey
 second_title: Aspose.Words for .NET API Reference
-description: VariableCollection method. Returns the zerobased index of the specified document variable in the collection in C#.
+description: VariableCollection IndexOfKey method. Returns the zerobased index of the specified document variable in the collection in C#.
 type: docs
 weight: 70
 url: /net/aspose.words/variablecollection/indexofkey/

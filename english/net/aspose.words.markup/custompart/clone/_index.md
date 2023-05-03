@@ -2,7 +2,7 @@
 title: CustomPart.Clone
 linktitle: Clone
 second_title: Aspose.Words for .NET API Reference
-description: CustomPart method. Makes a deep enough copy of the object. Does not duplicate the bytes of the Data value in C#.
+description: CustomPart Clone method. Makes a deep enough copy of the object. Does not duplicate the bytes of the Data value in C#.
 type: docs
 weight: 70
 url: /net/aspose.words.markup/custompart/clone/

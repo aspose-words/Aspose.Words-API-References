@@ -2,7 +2,7 @@
 title: OdsoRecipientData.Hash
 linktitle: Hash
 second_title: Aspose.Words for .NET API Reference
-description: OdsoRecipientData property. Represents the hash code for this record. Sometimes Microsoft Word uses Hash of a whole record instead of a UniqueTag value. The default value is 0 in C#.
+description: OdsoRecipientData Hash property. Represents the hash code for this record. Sometimes Microsoft Word uses Hash of a whole record instead of a UniqueTag value. The default value is 0 in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.settings/odsorecipientdata/hash/

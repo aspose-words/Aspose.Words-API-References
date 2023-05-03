@@ -2,7 +2,7 @@
 title: FieldIf.LeftExpression
 linktitle: LeftExpression
 second_title: Aspose.Words for .NET API Reference
-description: FieldIf property. Gets or sets the left part of the comparison expression in C#.
+description: FieldIf LeftExpression property. Gets or sets the left part of the comparison expression in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldif/leftexpression/

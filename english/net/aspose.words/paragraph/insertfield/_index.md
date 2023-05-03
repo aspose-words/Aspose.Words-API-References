@@ -2,7 +2,7 @@
 title: Paragraph.InsertField
 linktitle: InsertField
 second_title: Aspose.Words for .NET API Reference
-description: Paragraph method. Inserts a field into this paragraph in C#.
+description: Paragraph InsertField method. Inserts a field into this paragraph in C#.
 type: docs
 weight: 270
 url: /net/aspose.words/paragraph/insertfield/

@@ -2,7 +2,7 @@
 title: DocumentVisitor.VisitStructuredDocumentTagEnd
 linktitle: VisitStructuredDocumentTagEnd
 second_title: Aspose.Words for .NET API Reference
-description: DocumentVisitor method. Called when enumeration of a structured document tag has ended in C#.
+description: DocumentVisitor VisitStructuredDocumentTagEnd method. Called when enumeration of a structured document tag has ended in C#.
 type: docs
 weight: 440
 url: /net/aspose.words/documentvisitor/visitstructureddocumenttagend/

@@ -2,7 +2,7 @@
 title: Comment.Accept
 linktitle: Accept
 second_title: Aspose.Words for .NET API Reference
-description: Comment method. Accepts a visitor in C#.
+description: Comment Accept method. Accepts a visitor in C#.
 type: docs
 weight: 110
 url: /net/aspose.words/comment/accept/

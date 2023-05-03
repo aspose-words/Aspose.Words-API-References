@@ -2,7 +2,7 @@
 title: FieldMergeBarcode.ErrorCorrectionLevel
 linktitle: ErrorCorrectionLevel
 second_title: Aspose.Words for .NET API Reference
-description: FieldMergeBarcode property. Gets or sets an error correction level of QR Code. Valid values are 0 3 in C#.
+description: FieldMergeBarcode ErrorCorrectionLevel property. Gets or sets an error correction level of QR Code. Valid values are 0 3 in C#.
 type: docs
 weight: 80
 url: /net/aspose.words.fields/fieldmergebarcode/errorcorrectionlevel/

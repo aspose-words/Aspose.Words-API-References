@@ -2,7 +2,7 @@
 title: HtmlLoadOptions.PreferredControlType
 linktitle: PreferredControlType
 second_title: Aspose.Words for .NET API Reference
-description: HtmlLoadOptions property. Gets or sets preferred type of document nodes that will represent imported input and select elements. Default value is FormField in C#.
+description: HtmlLoadOptions PreferredControlType property. Gets or sets preferred type of document nodes that will represent imported input and select elements. Default value is FormField in C#.
 type: docs
 weight: 50
 url: /net/aspose.words.loading/htmlloadoptions/preferredcontroltype/

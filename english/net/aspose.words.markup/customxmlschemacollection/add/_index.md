@@ -2,7 +2,7 @@
 title: CustomXmlSchemaCollection.Add
 linktitle: Add
 second_title: Aspose.Words for .NET API Reference
-description: CustomXmlSchemaCollection method. Adds an item to the collection in C#.
+description: CustomXmlSchemaCollection Add method. Adds an item to the collection in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.markup/customxmlschemacollection/add/

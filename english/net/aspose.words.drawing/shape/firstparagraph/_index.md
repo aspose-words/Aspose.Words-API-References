@@ -2,7 +2,7 @@
 title: Shape.FirstParagraph
 linktitle: FirstParagraph
 second_title: Aspose.Words for .NET API Reference
-description: Shape property. Gets the first paragraph in the shape in C#.
+description: Shape FirstParagraph property. Gets the first paragraph in the shape in C#.
 type: docs
 weight: 60
 url: /net/aspose.words.drawing/shape/firstparagraph/

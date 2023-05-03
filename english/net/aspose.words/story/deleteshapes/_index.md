@@ -2,7 +2,7 @@
 title: Story.DeleteShapes
 linktitle: DeleteShapes
 second_title: Aspose.Words for .NET API Reference
-description: Story method. Deletes all shapes from the text of this story in C#.
+description: Story DeleteShapes method. Deletes all shapes from the text of this story in C#.
 type: docs
 weight: 70
 url: /net/aspose.words/story/deleteshapes/

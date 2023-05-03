@@ -2,7 +2,7 @@
 title: CustomXmlPropertyCollection.Item
 linktitle: Item
 second_title: Aspose.Words for .NET API Reference
-description: CustomXmlPropertyCollection property. Gets a property with the specified name in C#.
+description: CustomXmlPropertyCollection Item property. Gets a property with the specified name in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.markup/customxmlpropertycollection/item/

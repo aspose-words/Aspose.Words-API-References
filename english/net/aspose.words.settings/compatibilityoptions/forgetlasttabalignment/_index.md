@@ -2,7 +2,7 @@
 title: CompatibilityOptions.ForgetLastTabAlignment
 linktitle: ForgetLastTabAlignment
 second_title: Aspose.Words for .NET API Reference
-description: CompatibilityOptions property. Ignore Width of Last Tab Stop When Aligning Paragraph If It Is Not Left Aligned in C#.
+description: CompatibilityOptions ForgetLastTabAlignment property. Ignore Width of Last Tab Stop When Aligning Paragraph If It Is Not Left Aligned in C#.
 type: docs
 weight: 270
 url: /net/aspose.words.settings/compatibilityoptions/forgetlasttabalignment/

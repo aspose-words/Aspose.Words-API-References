@@ -2,7 +2,7 @@
 title: Document.Compare
 linktitle: Compare
 second_title: Aspose.Words for .NET API Reference
-description: Document method. Compares this document with another document producing changes as number of edit and format revisions Revision in C#.
+description: Document Compare method. Compares this document with another document producing changes as number of edit and format revisions Revision in C#.
 type: docs
 weight: 560
 url: /net/aspose.words/document/compare/

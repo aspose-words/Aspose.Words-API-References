@@ -2,7 +2,7 @@
 title: ChartXValue.GetHashCode
 linktitle: GetHashCode
 second_title: Aspose.Words for .NET API Reference
-description: ChartXValue method. Gets a hash code for the current X value object in C#.
+description: ChartXValue GetHashCode method. Gets a hash code for the current X value object in C#.
 type: docs
 weight: 130
 url: /net/aspose.words.drawing.charts/chartxvalue/gethashcode/

@@ -2,7 +2,7 @@
 title: BuiltInDocumentProperties.Version
 linktitle: Version
 second_title: Aspose.Words for .NET API Reference
-description: BuiltInDocumentProperties property. Represents the version number of the application that created the document in C#.
+description: BuiltInDocumentProperties Version property. Represents the version number of the application that created the document in C#.
 type: docs
 weight: 320
 url: /net/aspose.words.properties/builtindocumentproperties/version/

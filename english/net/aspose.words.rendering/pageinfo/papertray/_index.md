@@ -2,7 +2,7 @@
 title: PageInfo.PaperTray
 linktitle: PaperTray
 second_title: Aspose.Words for .NET API Reference
-description: PageInfo property. Gets the paper tray bin for this page as specified in the document. The value is implementation printer specific in C#.
+description: PageInfo PaperTray property. Gets the paper tray bin for this page as specified in the document. The value is implementation printer specific in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.rendering/pageinfo/papertray/

@@ -2,7 +2,7 @@
 title: Story.Tables
 linktitle: Tables
 second_title: Aspose.Words for .NET API Reference
-description: Story property. Gets a collection of tables that are immediate children of the story in C#.
+description: Story Tables property. Gets a collection of tables that are immediate children of the story in C#.
 type: docs
 weight: 50
 url: /net/aspose.words/story/tables/

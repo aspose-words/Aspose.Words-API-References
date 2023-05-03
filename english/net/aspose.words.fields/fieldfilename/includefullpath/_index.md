@@ -2,7 +2,7 @@
 title: FieldFileName.IncludeFullPath
 linktitle: IncludeFullPath
 second_title: Aspose.Words for .NET API Reference
-description: FieldFileName property. Gets or sets whether to include the full file path name in C#.
+description: FieldFileName IncludeFullPath property. Gets or sets whether to include the full file path name in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldfilename/includefullpath/

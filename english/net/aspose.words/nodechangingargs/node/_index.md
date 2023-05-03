@@ -2,7 +2,7 @@
 title: NodeChangingArgs.Node
 linktitle: Node
 second_title: Aspose.Words for .NET API Reference
-description: NodeChangingArgs property. Gets the Node that is being added or removed in C#.
+description: NodeChangingArgs Node property. Gets the Node that is being added or removed in C#.
 type: docs
 weight: 30
 url: /net/aspose.words/nodechangingargs/node/

@@ -2,7 +2,7 @@
 title: Row.IsLastRow
 linktitle: IsLastRow
 second_title: Aspose.Words for .NET API Reference
-description: Row property. True if this is the last row in a table false otherwise in C#.
+description: Row IsLastRow property. True if this is the last row in a table false otherwise in C#.
 type: docs
 weight: 50
 url: /net/aspose.words.tables/row/islastrow/

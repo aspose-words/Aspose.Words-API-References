@@ -2,7 +2,7 @@
 title: HorizontalRuleFormat.Height
 linktitle: Height
 second_title: Aspose.Words for .NET API Reference
-description: HorizontalRuleFormat property. Gets or sets the height of the horizontal rule in C#.
+description: HorizontalRuleFormat Height property. Gets or sets the height of the horizontal rule in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.drawing/horizontalruleformat/height/

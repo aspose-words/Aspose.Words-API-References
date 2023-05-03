@@ -2,7 +2,7 @@
 title: ChartMarker.Symbol
 linktitle: Symbol
 second_title: Aspose.Words for .NET API Reference
-description: ChartMarker property. Gets or sets chart marker symbol in C#.
+description: ChartMarker Symbol property. Gets or sets chart marker symbol in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/chartmarker/symbol/

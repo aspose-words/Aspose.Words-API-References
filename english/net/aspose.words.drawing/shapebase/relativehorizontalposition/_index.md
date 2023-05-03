@@ -2,7 +2,7 @@
 title: ShapeBase.RelativeHorizontalPosition
 linktitle: RelativeHorizontalPosition
 second_title: Aspose.Words for .NET API Reference
-description: ShapeBase property. Specifies relative to what the shape is positioned horizontally in C#.
+description: ShapeBase RelativeHorizontalPosition property. Specifies relative to what the shape is positioned horizontally in C#.
 type: docs
 weight: 420
 url: /net/aspose.words.drawing/shapebase/relativehorizontalposition/

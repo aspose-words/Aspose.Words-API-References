@@ -2,7 +2,7 @@
 title: FieldInfo.NewValue
 linktitle: NewValue
 second_title: Aspose.Words for .NET API Reference
-description: FieldInfo property. Gets or sets an optional value that updates the property in C#.
+description: FieldInfo NewValue property. Gets or sets an optional value that updates the property in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldinfo/newvalue/

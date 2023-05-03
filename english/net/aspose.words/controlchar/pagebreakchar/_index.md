@@ -2,7 +2,7 @@
 title: ControlChar.PageBreakChar
 linktitle: PageBreakChar
 second_title: Aspose.Words for .NET API Reference
-description: ControlChar field. Page break character char12 or f in C#.
+description: ControlChar PageBreakChar field. Page break character char12 or f in C#.
 type: docs
 weight: 210
 url: /net/aspose.words/controlchar/pagebreakchar/

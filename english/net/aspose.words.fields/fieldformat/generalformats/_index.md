@@ -2,7 +2,7 @@
 title: FieldFormat.GeneralFormats
 linktitle: GeneralFormats
 second_title: Aspose.Words for .NET API Reference
-description: FieldFormat property. Gets a collection of general formats that are applied to a numeric text or any field result. Corresponds to the  switches in C#.
+description: FieldFormat GeneralFormats property. Gets a collection of general formats that are applied to a numeric text or any field result. Corresponds to the  switches in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldformat/generalformats/

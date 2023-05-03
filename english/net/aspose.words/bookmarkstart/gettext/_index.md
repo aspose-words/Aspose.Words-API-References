@@ -2,7 +2,7 @@
 title: BookmarkStart.GetText
 linktitle: GetText
 second_title: Aspose.Words for .NET API Reference
-description: BookmarkStart method. Returns an empty string in C#.
+description: BookmarkStart GetText method. Returns an empty string in C#.
 type: docs
 weight: 60
 url: /net/aspose.words/bookmarkstart/gettext/

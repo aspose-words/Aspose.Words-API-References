@@ -2,7 +2,7 @@
 title: FindReplaceOptions.UseSubstitutions
 linktitle: UseSubstitutions
 second_title: Aspose.Words for .NET API Reference
-description: FindReplaceOptions property. Gets or sets a boolean value indicating whether to recognize and use substitutions within replacement patterns. The default value is false in C#.
+description: FindReplaceOptions UseSubstitutions property. Gets or sets a boolean value indicating whether to recognize and use substitutions within replacement patterns. The default value is false in C#.
 type: docs
 weight: 180
 url: /net/aspose.words.replacing/findreplaceoptions/usesubstitutions/

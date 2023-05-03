@@ -2,7 +2,7 @@
 title: Font.Border
 linktitle: Border
 second_title: Aspose.Words for .NET API Reference
-description: Font property. Returns a Border object that specifies border for the font in C#.
+description: Font Border property. Returns a Border object that specifies border for the font in C#.
 type: docs
 weight: 60
 url: /net/aspose.words/font/border/

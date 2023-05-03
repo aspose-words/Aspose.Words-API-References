@@ -2,7 +2,7 @@
 title: AxisBound.IsAuto
 linktitle: IsAuto
 second_title: Aspose.Words for .NET API Reference
-description: AxisBound property. Returns a flag indicating that axis bound should be determined automatically in C#.
+description: AxisBound IsAuto property. Returns a flag indicating that axis bound should be determined automatically in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/axisbound/isauto/

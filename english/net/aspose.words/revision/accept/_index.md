@@ -2,7 +2,7 @@
 title: Revision.Accept
 linktitle: Accept
 second_title: Aspose.Words for .NET API Reference
-description: Revision method. Accepts this revision in C#.
+description: Revision Accept method. Accepts this revision in C#.
 type: docs
 weight: 70
 url: /net/aspose.words/revision/accept/

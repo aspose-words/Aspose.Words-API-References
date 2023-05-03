@@ -2,7 +2,7 @@
 title: WarningInfoCollection.Warning
 linktitle: Warning
 second_title: Aspose.Words for .NET API Reference
-description: WarningInfoCollection method. Implements the IWarningCallback interface. Adds a warning to this collection in C#.
+description: WarningInfoCollection Warning method. Implements the IWarningCallback interface. Adds a warning to this collection in C#.
 type: docs
 weight: 60
 url: /net/aspose.words/warninginfocollection/warning/

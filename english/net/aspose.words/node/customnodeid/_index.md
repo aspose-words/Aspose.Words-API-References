@@ -2,7 +2,7 @@
 title: Node.CustomNodeId
 linktitle: CustomNodeId
 second_title: Aspose.Words for .NET API Reference
-description: Node property. Specifies custom node identifier in C#.
+description: Node CustomNodeId property. Specifies custom node identifier in C#.
 type: docs
 weight: 10
 url: /net/aspose.words/node/customnodeid/

@@ -2,7 +2,7 @@
 title: PreferredWidth.ToString
 linktitle: ToString
 second_title: Aspose.Words for .NET API Reference
-description: PreferredWidth method. Returns a userfriendly string that displays the value of this object in C#.
+description: PreferredWidth ToString method. Returns a userfriendly string that displays the value of this object in C#.
 type: docs
 weight: 80
 url: /net/aspose.words.tables/preferredwidth/tostring/

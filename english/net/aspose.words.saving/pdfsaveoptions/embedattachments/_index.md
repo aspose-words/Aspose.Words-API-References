@@ -2,7 +2,7 @@
 title: PdfSaveOptions.EmbedAttachments
 linktitle: EmbedAttachments
 second_title: Aspose.Words for .NET API Reference
-description: PdfSaveOptions property. Gets or sets a value determining whether or not to embed attachments to the PDF document in C#.
+description: PdfSaveOptions EmbedAttachments property. Gets or sets a value determining whether or not to embed attachments to the PDF document in C#.
 type: docs
 weight: 110
 url: /net/aspose.words.saving/pdfsaveoptions/embedattachments/

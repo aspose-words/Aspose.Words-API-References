@@ -2,7 +2,7 @@
 title: IMailMergeDataSourceRoot.GetDataSource
 linktitle: GetDataSource
 second_title: Aspose.Words for .NET API Reference
-description: IMailMergeDataSourceRoot method. The Aspose.Words mail merge engine invokes this method when it encounters a beginning of a toplevel mail merge region in C#.
+description: IMailMergeDataSourceRoot GetDataSource method. The Aspose.Words mail merge engine invokes this method when it encounters a beginning of a toplevel mail merge region in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.mailmerging/imailmergedatasourceroot/getdatasource/

@@ -2,7 +2,7 @@
 title: BarcodeParameters.BarcodeValue
 linktitle: BarcodeValue
 second_title: Aspose.Words for .NET API Reference
-description: BarcodeParameters property. Data to be encoded in C#.
+description: BarcodeParameters BarcodeValue property. Data to be encoded in C#.
 type: docs
 weight: 50
 url: /net/aspose.words.fields/barcodeparameters/barcodevalue/

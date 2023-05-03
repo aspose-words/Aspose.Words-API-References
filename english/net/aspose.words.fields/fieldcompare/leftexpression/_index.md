@@ -2,7 +2,7 @@
 title: FieldCompare.LeftExpression
 linktitle: LeftExpression
 second_title: Aspose.Words for .NET API Reference
-description: FieldCompare property. Gets or sets the left part of the comparison expression in C#.
+description: FieldCompare LeftExpression property. Gets or sets the left part of the comparison expression in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldcompare/leftexpression/

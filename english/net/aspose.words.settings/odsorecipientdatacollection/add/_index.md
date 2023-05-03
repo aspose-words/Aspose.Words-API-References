@@ -2,7 +2,7 @@
 title: OdsoRecipientDataCollection.Add
 linktitle: Add
 second_title: Aspose.Words for .NET API Reference
-description: OdsoRecipientDataCollection method. Adds an object to the end of this collection in C#.
+description: OdsoRecipientDataCollection Add method. Adds an object to the end of this collection in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.settings/odsorecipientdatacollection/add/

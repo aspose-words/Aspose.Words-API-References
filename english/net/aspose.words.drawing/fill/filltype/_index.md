@@ -2,7 +2,7 @@
 title: Fill.FillType
 linktitle: FillType
 second_title: Aspose.Words for .NET API Reference
-description: Fill property. Gets a fill type in C#.
+description: Fill FillType property. Gets a fill type in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.drawing/fill/filltype/

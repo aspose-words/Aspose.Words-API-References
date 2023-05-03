@@ -2,7 +2,7 @@
 title: Font.TintAndShade
 linktitle: TintAndShade
 second_title: Aspose.Words for .NET API Reference
-description: Font property. Gets or sets a double value that lightens or darkens a color in C#.
+description: Font TintAndShade property. Gets or sets a double value that lightens or darkens a color in C#.
 type: docs
 weight: 520
 url: /net/aspose.words/font/tintandshade/

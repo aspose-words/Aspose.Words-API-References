@@ -2,7 +2,7 @@
 title: FieldDdeAuto.SourceFullName
 linktitle: SourceFullName
 second_title: Aspose.Words for .NET API Reference
-description: FieldDdeAuto property. Gets or sets the name and location of the source file in C#.
+description: FieldDdeAuto SourceFullName property. Gets or sets the name and location of the source file in C#.
 type: docs
 weight: 100
 url: /net/aspose.words.fields/fieldddeauto/sourcefullname/

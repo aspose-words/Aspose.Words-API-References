@@ -2,7 +2,7 @@
 title: FrameFormat.RelativeVerticalPosition
 linktitle: RelativeVerticalPosition
 second_title: Aspose.Words for .NET API Reference
-description: FrameFormat property. Gets the relative vertical position of a frame in C#.
+description: FrameFormat RelativeVerticalPosition property. Gets the relative vertical position of a frame in C#.
 type: docs
 weight: 80
 url: /net/aspose.words/frameformat/relativeverticalposition/

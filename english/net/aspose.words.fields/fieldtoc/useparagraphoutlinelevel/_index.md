@@ -2,7 +2,7 @@
 title: FieldToc.UseParagraphOutlineLevel
 linktitle: UseParagraphOutlineLevel
 second_title: Aspose.Words for .NET API Reference
-description: FieldToc property. Gets or sets whether to use the applied paragraph outline level in C#.
+description: FieldToc UseParagraphOutlineLevel property. Gets or sets whether to use the applied paragraph outline level in C#.
 type: docs
 weight: 170
 url: /net/aspose.words.fields/fieldtoc/useparagraphoutlinelevel/

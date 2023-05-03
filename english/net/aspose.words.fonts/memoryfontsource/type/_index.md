@@ -2,7 +2,7 @@
 title: MemoryFontSource.Type
 linktitle: Type
 second_title: Aspose.Words for .NET API Reference
-description: MemoryFontSource property. Returns the type of the font source in C#.
+description: MemoryFontSource Type property. Returns the type of the font source in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.fonts/memoryfontsource/type/

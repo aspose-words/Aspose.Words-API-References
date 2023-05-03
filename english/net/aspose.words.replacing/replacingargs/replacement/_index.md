@@ -2,7 +2,7 @@
 title: ReplacingArgs.Replacement
 linktitle: Replacement
 second_title: Aspose.Words for .NET API Reference
-description: ReplacingArgs property. Gets or sets the replacement string in C#.
+description: ReplacingArgs Replacement property. Gets or sets the replacement string in C#.
 type: docs
 weight: 60
 url: /net/aspose.words.replacing/replacingargs/replacement/

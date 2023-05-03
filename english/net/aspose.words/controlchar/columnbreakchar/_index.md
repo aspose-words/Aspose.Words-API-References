@@ -2,7 +2,7 @@
 title: ControlChar.ColumnBreakChar
 linktitle: ColumnBreakChar
 second_title: Aspose.Words for .NET API Reference
-description: ControlChar field. End of column character char14 in C#.
+description: ControlChar ColumnBreakChar field. End of column character char14 in C#.
 type: docs
 weight: 40
 url: /net/aspose.words/controlchar/columnbreakchar/

@@ -2,7 +2,7 @@
 title: DocumentVisitor.VisitRowStart
 linktitle: VisitRowStart
 second_title: Aspose.Words for .NET API Reference
-description: DocumentVisitor method. Called when enumeration of a table row has started in C#.
+description: DocumentVisitor VisitRowStart method. Called when enumeration of a table row has started in C#.
 type: docs
 weight: 350
 url: /net/aspose.words/documentvisitor/visitrowstart/

@@ -2,7 +2,7 @@
 title: ConditionalStyleCollection.TopLeftCell
 linktitle: TopLeftCell
 second_title: Aspose.Words for .NET API Reference
-description: ConditionalStyleCollection property. Gets the top left cell style in C#.
+description: ConditionalStyleCollection TopLeftCell property. Gets the top left cell style in C#.
 type: docs
 weight: 130
 url: /net/aspose.words/conditionalstylecollection/topleftcell/

@@ -2,7 +2,7 @@
 title: Font.Size
 linktitle: Size
 second_title: Aspose.Words for .NET API Reference
-description: Font property. Gets or sets the font size in points in C#.
+description: Font Size property. Gets or sets the font size in points in C#.
 type: docs
 weight: 340
 url: /net/aspose.words/font/size/

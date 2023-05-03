@@ -2,7 +2,7 @@
 title: Paragraph.IsDeleteRevision
 linktitle: IsDeleteRevision
 second_title: Aspose.Words for .NET API Reference
-description: Paragraph property. Returns true if this object was deleted in Microsoft Word while change tracking was enabled in C#.
+description: Paragraph IsDeleteRevision property. Returns true if this object was deleted in Microsoft Word while change tracking was enabled in C#.
 type: docs
 weight: 40
 url: /net/aspose.words/paragraph/isdeleterevision/

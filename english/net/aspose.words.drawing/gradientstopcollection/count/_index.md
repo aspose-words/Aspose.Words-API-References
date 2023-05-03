@@ -2,7 +2,7 @@
 title: GradientStopCollection.Count
 linktitle: Count
 second_title: Aspose.Words for .NET API Reference
-description: GradientStopCollection property. Gets an integer value indicating the number of items in the collection in C#.
+description: GradientStopCollection Count property. Gets an integer value indicating the number of items in the collection in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing/gradientstopcollection/count/

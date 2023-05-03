@@ -2,7 +2,7 @@
 title: BasicTextShaperCache.Dispose
 linktitle: Dispose
 second_title: Aspose.Words for .NET API Reference
-description: BasicTextShaperCache method. Disposes cached ITextShaper instances in C#.
+description: BasicTextShaperCache Dispose method. Disposes cached ITextShaper instances in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.shaping/basictextshapercache/dispose/

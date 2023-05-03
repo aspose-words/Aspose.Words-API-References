@@ -2,7 +2,7 @@
 title: DocumentBuilder.InsertNode
 linktitle: InsertNode
 second_title: Aspose.Words for .NET API Reference
-description: DocumentBuilder method. Inserts a node before the cursor in C#.
+description: DocumentBuilder InsertNode method. Inserts a node before the cursor in C#.
 type: docs
 weight: 380
 url: /net/aspose.words/documentbuilder/insertnode/

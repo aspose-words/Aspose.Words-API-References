@@ -2,7 +2,7 @@
 title: Font.Outline
 linktitle: Outline
 second_title: Aspose.Words for .NET API Reference
-description: Font property. True if the font is formatted as outline in C#.
+description: Font Outline property. True if the font is formatted as outline in C#.
 type: docs
 weight: 290
 url: /net/aspose.words/font/outline/

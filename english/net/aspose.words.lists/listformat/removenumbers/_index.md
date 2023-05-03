@@ -2,7 +2,7 @@
 title: ListFormat.RemoveNumbers
 linktitle: RemoveNumbers
 second_title: Aspose.Words for .NET API Reference
-description: ListFormat method. Removes numbers or bullets from the current paragraph and sets list level to zero in C#.
+description: ListFormat RemoveNumbers method. Removes numbers or bullets from the current paragraph and sets list level to zero in C#.
 type: docs
 weight: 90
 url: /net/aspose.words.lists/listformat/removenumbers/

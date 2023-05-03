@@ -2,7 +2,7 @@
 title: Shape.TextPath
 linktitle: TextPath
 second_title: Aspose.Words for .NET API Reference
-description: Shape property. Defines the text of the text path of a WordArt object in C#.
+description: Shape TextPath property. Defines the text of the text path of a WordArt object in C#.
 type: docs
 weight: 230
 url: /net/aspose.words.drawing/shape/textpath/

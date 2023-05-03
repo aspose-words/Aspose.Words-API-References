@@ -2,7 +2,7 @@
 title: BarcodeParameters.ErrorCorrectionLevel
 linktitle: ErrorCorrectionLevel
 second_title: Aspose.Words for .NET API Reference
-description: BarcodeParameters property. Error correction level of QR Code. Valid values are 0 3 in C#.
+description: BarcodeParameters ErrorCorrectionLevel property. Error correction level of QR Code. Valid values are 0 3 in C#.
 type: docs
 weight: 80
 url: /net/aspose.words.fields/barcodeparameters/errorcorrectionlevel/

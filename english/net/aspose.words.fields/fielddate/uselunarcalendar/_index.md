@@ -2,7 +2,7 @@
 title: FieldDate.UseLunarCalendar
 linktitle: UseLunarCalendar
 second_title: Aspose.Words for .NET API Reference
-description: FieldDate property. Gets or sets whether to use the Hijri Lunar or Hebrew Lunar calendar in C#.
+description: FieldDate UseLunarCalendar property. Gets or sets whether to use the Hijri Lunar or Hebrew Lunar calendar in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fielddate/uselunarcalendar/

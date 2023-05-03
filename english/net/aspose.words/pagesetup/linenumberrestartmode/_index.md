@@ -2,7 +2,7 @@
 title: PageSetup.LineNumberRestartMode
 linktitle: LineNumberRestartMode
 second_title: Aspose.Words for .NET API Reference
-description: PageSetup property. Gets or sets the way line numbering runs that is whether it starts over at the beginning of a new page or section or runs continuously in C#.
+description: PageSetup LineNumberRestartMode property. Gets or sets the way line numbering runs that is whether it starts over at the beginning of a new page or section or runs continuously in C#.
 type: docs
 weight: 230
 url: /net/aspose.words/pagesetup/linenumberrestartmode/

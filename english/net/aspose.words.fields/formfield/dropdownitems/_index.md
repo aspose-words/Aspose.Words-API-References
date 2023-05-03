@@ -2,7 +2,7 @@
 title: FormField.DropDownItems
 linktitle: DropDownItems
 second_title: Aspose.Words for .NET API Reference
-description: FormField property. Provides access to the items of a dropdown form field in C#.
+description: FormField DropDownItems property. Provides access to the items of a dropdown form field in C#.
 type: docs
 weight: 50
 url: /net/aspose.words.fields/formfield/dropdownitems/

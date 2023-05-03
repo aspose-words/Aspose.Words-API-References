@@ -2,7 +2,7 @@
 title: MailMergeRegionInfo.StartField
 linktitle: StartField
 second_title: Aspose.Words for .NET API Reference
-description: MailMergeRegionInfo property. Returns a start field for the region in C#.
+description: MailMergeRegionInfo StartField property. Returns a start field for the region in C#.
 type: docs
 weight: 70
 url: /net/aspose.words.mailmerging/mailmergeregioninfo/startfield/

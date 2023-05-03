@@ -2,7 +2,7 @@
 title: RevisionCollection.Groups
 linktitle: Groups
 second_title: Aspose.Words for .NET API Reference
-description: RevisionCollection property. Collection of revision groups in C#.
+description: RevisionCollection Groups property. Collection of revision groups in C#.
 type: docs
 weight: 20
 url: /net/aspose.words/revisioncollection/groups/

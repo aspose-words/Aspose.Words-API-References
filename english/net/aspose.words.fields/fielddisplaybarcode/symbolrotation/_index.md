@@ -2,7 +2,7 @@
 title: FieldDisplayBarcode.SymbolRotation
 linktitle: SymbolRotation
 second_title: Aspose.Words for .NET API Reference
-description: FieldDisplayBarcode property. Gets or sets the rotation of the barcode symbol. Valid values are 0 3 in C#.
+description: FieldDisplayBarcode SymbolRotation property. Gets or sets the rotation of the barcode symbol. Valid values are 0 3 in C#.
 type: docs
 weight: 140
 url: /net/aspose.words.fields/fielddisplaybarcode/symbolrotation/

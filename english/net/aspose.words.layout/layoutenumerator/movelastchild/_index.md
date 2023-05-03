@@ -2,7 +2,7 @@
 title: LayoutEnumerator.MoveLastChild
 linktitle: MoveLastChild
 second_title: Aspose.Words for .NET API Reference
-description: LayoutEnumerator method. Moves to the last child entity in C#.
+description: LayoutEnumerator MoveLastChild method. Moves to the last child entity in C#.
 type: docs
 weight: 110
 url: /net/aspose.words.layout/layoutenumerator/movelastchild/

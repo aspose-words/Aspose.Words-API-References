@@ -2,7 +2,7 @@
 title: INodeChangingCallback.NodeInserting
 linktitle: NodeInserting
 second_title: Aspose.Words for .NET API Reference
-description: INodeChangingCallback method. Called just before a node belonging to this document is about to be inserted into another node in C#.
+description: INodeChangingCallback NodeInserting method. Called just before a node belonging to this document is about to be inserted into another node in C#.
 type: docs
 weight: 20
 url: /net/aspose.words/inodechangingcallback/nodeinserting/

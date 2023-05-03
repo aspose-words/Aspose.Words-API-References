@@ -2,7 +2,7 @@
 title: XpsSaveOptions.SaveFormat
 linktitle: SaveFormat
 second_title: Aspose.Words for .NET API Reference
-description: XpsSaveOptions property. Specifies the format in which the document will be saved if this save options object is used. Can only be Xps in C#.
+description: XpsSaveOptions SaveFormat property. Specifies the format in which the document will be saved if this save options object is used. Can only be Xps in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.saving/xpssaveoptions/saveformat/

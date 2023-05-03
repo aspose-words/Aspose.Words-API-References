@@ -2,7 +2,7 @@
 title: DocumentVisitor.VisitTableEnd
 linktitle: VisitTableEnd
 second_title: Aspose.Words for .NET API Reference
-description: DocumentVisitor method. Called when enumeration of a table has ended in C#.
+description: DocumentVisitor VisitTableEnd method. Called when enumeration of a table has ended in C#.
 type: docs
 weight: 490
 url: /net/aspose.words/documentvisitor/visittableend/

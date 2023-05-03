@@ -2,7 +2,7 @@
 title: IComparisonExpressionEvaluator.Evaluate
 linktitle: Evaluate
 second_title: Aspose.Words for .NET API Reference
-description: IComparisonExpressionEvaluator method. Evaluates comparison expression in C#.
+description: IComparisonExpressionEvaluator Evaluate method. Evaluates comparison expression in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.fields/icomparisonexpressionevaluator/evaluate/

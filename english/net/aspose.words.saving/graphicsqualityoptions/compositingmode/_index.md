@@ -2,7 +2,7 @@
 title: GraphicsQualityOptions.CompositingMode
 linktitle: CompositingMode
 second_title: Aspose.Words for .NET API Reference
-description: GraphicsQualityOptions property. Gets or sets a value that specifies how composited images are drawn to this Graphics in C#.
+description: GraphicsQualityOptions CompositingMode property. Gets or sets a value that specifies how composited images are drawn to this Graphics in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.saving/graphicsqualityoptions/compositingmode/

@@ -2,7 +2,7 @@
 title: MailMerge.MailMergeCallback
 linktitle: MailMergeCallback
 second_title: Aspose.Words for .NET API Reference
-description: MailMerge property. Allows to handle particular events during mail merge in C#.
+description: MailMerge MailMergeCallback property. Allows to handle particular events during mail merge in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.mailmerging/mailmerge/mailmergecallback/

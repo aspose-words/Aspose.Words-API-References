@@ -2,7 +2,7 @@
 title: ImageData.Save
 linktitle: Save
 second_title: Aspose.Words for .NET API Reference
-description: ImageData method. Saves the image into the specified stream in C#.
+description: ImageData Save method. Saves the image into the specified stream in C#.
 type: docs
 weight: 190
 url: /net/aspose.words.drawing/imagedata/save/

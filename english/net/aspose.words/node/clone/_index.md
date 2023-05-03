@@ -2,7 +2,7 @@
 title: Node.Clone
 linktitle: Clone
 second_title: Aspose.Words for .NET API Reference
-description: Node method. Creates a duplicate of the node in C#.
+description: Node Clone method. Creates a duplicate of the node in C#.
 type: docs
 weight: 100
 url: /net/aspose.words/node/clone/

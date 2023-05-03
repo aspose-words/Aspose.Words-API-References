@@ -2,7 +2,7 @@
 title: Body.Accept
 linktitle: Accept
 second_title: Aspose.Words for .NET API Reference
-description: Body method. Accepts a visitor in C#.
+description: Body Accept method. Accepts a visitor in C#.
 type: docs
 weight: 40
 url: /net/aspose.words/body/accept/

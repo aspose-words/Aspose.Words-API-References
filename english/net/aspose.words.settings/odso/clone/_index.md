@@ -2,7 +2,7 @@
 title: Odso.Clone
 linktitle: Clone
 second_title: Aspose.Words for .NET API Reference
-description: Odso method. Returns a deep clone of this object in C#.
+description: Odso Clone method. Returns a deep clone of this object in C#.
 type: docs
 weight: 100
 url: /net/aspose.words.settings/odso/clone/

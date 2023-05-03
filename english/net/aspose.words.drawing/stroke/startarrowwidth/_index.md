@@ -2,7 +2,7 @@
 title: Stroke.StartArrowWidth
 linktitle: StartArrowWidth
 second_title: Aspose.Words for .NET API Reference
-description: Stroke property. Defines the arrowhead width for the start of a stroke in C#.
+description: Stroke StartArrowWidth property. Defines the arrowhead width for the start of a stroke in C#.
 type: docs
 weight: 180
 url: /net/aspose.words.drawing/stroke/startarrowwidth/

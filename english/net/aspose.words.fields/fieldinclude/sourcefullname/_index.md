@@ -2,7 +2,7 @@
 title: FieldInclude.SourceFullName
 linktitle: SourceFullName
 second_title: Aspose.Words for .NET API Reference
-description: FieldInclude property. Gets or sets the location of the document in C#.
+description: FieldInclude SourceFullName property. Gets or sets the location of the document in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldinclude/sourcefullname/

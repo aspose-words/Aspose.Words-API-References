@@ -2,7 +2,7 @@
 title: HtmlSaveOptions.ResourceFolder
 linktitle: ResourceFolder
 second_title: Aspose.Words for .NET API Reference
-description: HtmlSaveOptions property. Specifies a physical folder where all resources like images fonts and external CSS are saved when a document is exported to HTML. Default is an empty string in C#.
+description: HtmlSaveOptions ResourceFolder property. Specifies a physical folder where all resources like images fonts and external CSS are saved when a document is exported to HTML. Default is an empty string in C#.
 type: docs
 weight: 420
 url: /net/aspose.words.saving/htmlsaveoptions/resourcefolder/

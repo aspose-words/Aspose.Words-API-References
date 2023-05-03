@@ -2,7 +2,7 @@
 title: VbaReferenceCollection.Remove
 linktitle: Remove
 second_title: Aspose.Words for .NET API Reference
-description: VbaReferenceCollection method. Removes the first occurrence of a specified VbaReference item from the collection in C#.
+description: VbaReferenceCollection Remove method. Removes the first occurrence of a specified VbaReference item from the collection in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.vba/vbareferencecollection/remove/

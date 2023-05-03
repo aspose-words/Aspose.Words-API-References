@@ -2,7 +2,7 @@
 title: ShapeBase.IsMoveToRevision
 linktitle: IsMoveToRevision
 second_title: Aspose.Words for .NET API Reference
-description: ShapeBase property. Returns true if this object was moved inserted in Microsoft Word while change tracking was enabled in C#.
+description: ShapeBase IsMoveToRevision property. Returns true if this object was moved inserted in Microsoft Word while change tracking was enabled in C#.
 type: docs
 weight: 330
 url: /net/aspose.words.drawing/shapebase/ismovetorevision/

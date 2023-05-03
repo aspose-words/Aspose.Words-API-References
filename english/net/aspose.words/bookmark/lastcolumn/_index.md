@@ -2,7 +2,7 @@
 title: Bookmark.LastColumn
 linktitle: LastColumn
 second_title: Aspose.Words for .NET API Reference
-description: Bookmark property. Gets the zerobased index of the last column of the table column range associated with the bookmark in C#.
+description: Bookmark LastColumn property. Gets the zerobased index of the last column of the table column range associated with the bookmark in C#.
 type: docs
 weight: 50
 url: /net/aspose.words/bookmark/lastcolumn/

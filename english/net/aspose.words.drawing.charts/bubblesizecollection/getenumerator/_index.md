@@ -2,7 +2,7 @@
 title: BubbleSizeCollection.GetEnumerator
 linktitle: GetEnumerator
 second_title: Aspose.Words for .NET API Reference
-description: BubbleSizeCollection method. Returns an enumerator object in C#.
+description: BubbleSizeCollection GetEnumerator method. Returns an enumerator object in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/bubblesizecollection/getenumerator/

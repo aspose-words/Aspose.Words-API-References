@@ -2,7 +2,7 @@
 title: FrameFormat.IsFrame
 linktitle: IsFrame
 second_title: Aspose.Words for .NET API Reference
-description: FrameFormat property. Returns true if the paragraph is a frame in C#.
+description: FrameFormat IsFrame property. Returns true if the paragraph is a frame in C#.
 type: docs
 weight: 60
 url: /net/aspose.words/frameformat/isframe/

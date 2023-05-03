@@ -2,7 +2,7 @@
 title: Paragraph.IsFormatRevision
 linktitle: IsFormatRevision
 second_title: Aspose.Words for .NET API Reference
-description: Paragraph property. Returns true if formatting of the object was changed in Microsoft Word while change tracking was enabled in C#.
+description: Paragraph IsFormatRevision property. Returns true if formatting of the object was changed in Microsoft Word while change tracking was enabled in C#.
 type: docs
 weight: 90
 url: /net/aspose.words/paragraph/isformatrevision/

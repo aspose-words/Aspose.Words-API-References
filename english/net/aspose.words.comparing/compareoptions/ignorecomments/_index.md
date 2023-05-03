@@ -2,7 +2,7 @@
 title: CompareOptions.IgnoreComments
 linktitle: IgnoreComments
 second_title: Aspose.Words for .NET API Reference
-description: CompareOptions property. Specifies whether to compare differences in comments. By default comments are not ignored in C#.
+description: CompareOptions IgnoreComments property. Specifies whether to compare differences in comments. By default comments are not ignored in C#.
 type: docs
 weight: 50
 url: /net/aspose.words.comparing/compareoptions/ignorecomments/

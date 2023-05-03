@@ -2,7 +2,7 @@
 title: FixedPageSaveOptions.NumeralFormat
 linktitle: NumeralFormat
 second_title: Aspose.Words for .NET API Reference
-description: FixedPageSaveOptions property. Gets or sets NumeralFormat used for rendering of numerals. European numerals are used by default in C#.
+description: FixedPageSaveOptions NumeralFormat property. Gets or sets NumeralFormat used for rendering of numerals. European numerals are used by default in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.saving/fixedpagesaveoptions/numeralformat/

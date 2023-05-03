@@ -2,7 +2,7 @@
 title: Cell.Paragraphs
 linktitle: Paragraphs
 second_title: Aspose.Words for .NET API Reference
-description: Cell property. Gets a collection of paragraphs that are immediate children of the cell in C#.
+description: Cell Paragraphs property. Gets a collection of paragraphs that are immediate children of the cell in C#.
 type: docs
 weight: 80
 url: /net/aspose.words.tables/cell/paragraphs/

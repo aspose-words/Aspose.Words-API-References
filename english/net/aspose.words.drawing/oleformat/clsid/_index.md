@@ -2,7 +2,7 @@
 title: OleFormat.Clsid
 linktitle: Clsid
 second_title: Aspose.Words for .NET API Reference
-description: OleFormat property. Gets the CLSID of the OLE object in C#.
+description: OleFormat Clsid property. Gets the CLSID of the OLE object in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing/oleformat/clsid/

@@ -2,7 +2,7 @@
 title: FieldSeparator.Accept
 linktitle: Accept
 second_title: Aspose.Words for .NET API Reference
-description: FieldSeparator method. Accepts a visitor in C#.
+description: FieldSeparator Accept method. Accepts a visitor in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldseparator/accept/

@@ -2,7 +2,7 @@
 title: Document.AcceptAllRevisions
 linktitle: AcceptAllRevisions
 second_title: Aspose.Words for .NET API Reference
-description: Document method. Accepts all tracked changes in the document in C#.
+description: Document AcceptAllRevisions method. Accepts all tracked changes in the document in C#.
 type: docs
 weight: 520
 url: /net/aspose.words/document/acceptallrevisions/

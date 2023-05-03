@@ -2,7 +2,7 @@
 title: ListLevel.CreatePictureBullet
 linktitle: CreatePictureBullet
 second_title: Aspose.Words for .NET API Reference
-description: ListLevel method. Creates picture bullet shape for the current list level in C#.
+description: ListLevel CreatePictureBullet method. Creates picture bullet shape for the current list level in C#.
 type: docs
 weight: 150
 url: /net/aspose.words.lists/listlevel/createpicturebullet/

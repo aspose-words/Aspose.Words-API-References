@@ -2,7 +2,7 @@
 title: FormField.RemoveField
 linktitle: RemoveField
 second_title: Aspose.Words for .NET API Reference
-description: FormField method. Removes the complete form field not just the form field special character in C#.
+description: FormField RemoveField method. Removes the complete form field not just the form field special character in C#.
 type: docs
 weight: 240
 url: /net/aspose.words.fields/formfield/removefield/

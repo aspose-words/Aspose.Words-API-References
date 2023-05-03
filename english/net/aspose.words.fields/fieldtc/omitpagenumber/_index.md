@@ -2,7 +2,7 @@
 title: FieldTC.OmitPageNumber
 linktitle: OmitPageNumber
 second_title: Aspose.Words for .NET API Reference
-description: FieldTC property. Gets or sets whether page number in TOC should be omitted for this field in C#.
+description: FieldTC OmitPageNumber property. Gets or sets whether page number in TOC should be omitted for this field in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldtc/omitpagenumber/

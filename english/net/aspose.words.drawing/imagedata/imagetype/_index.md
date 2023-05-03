@@ -2,7 +2,7 @@
 title: ImageData.ImageType
 linktitle: ImageType
 second_title: Aspose.Words for .NET API Reference
-description: ImageData property. Gets the type of the image in C#.
+description: ImageData ImageType property. Gets the type of the image in C#.
 type: docs
 weight: 140
 url: /net/aspose.words.drawing/imagedata/imagetype/

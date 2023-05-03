@@ -2,7 +2,7 @@
 title: DocumentVisitor.VisitFormField
 linktitle: VisitFormField
 second_title: Aspose.Words for .NET API Reference
-description: DocumentVisitor method. Called when a form field is encountered in the document in C#.
+description: DocumentVisitor VisitFormField method. Called when a form field is encountered in the document in C#.
 type: docs
 weight: 230
 url: /net/aspose.words/documentvisitor/visitformfield/

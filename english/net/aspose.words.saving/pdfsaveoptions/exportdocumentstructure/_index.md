@@ -2,7 +2,7 @@
 title: PdfSaveOptions.ExportDocumentStructure
 linktitle: ExportDocumentStructure
 second_title: Aspose.Words for .NET API Reference
-description: PdfSaveOptions property. Gets or sets a value determining whether or not to export document structure in C#.
+description: PdfSaveOptions ExportDocumentStructure property. Gets or sets a value determining whether or not to export document structure in C#.
 type: docs
 weight: 140
 url: /net/aspose.words.saving/pdfsaveoptions/exportdocumentstructure/

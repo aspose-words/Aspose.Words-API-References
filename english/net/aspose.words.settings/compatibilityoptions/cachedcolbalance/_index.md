@@ -2,7 +2,7 @@
 title: CompatibilityOptions.CachedColBalance
 linktitle: CachedColBalance
 second_title: Aspose.Words for .NET API Reference
-description: CompatibilityOptions property. Use Cached Paragraph Information for Column Balancing in C#.
+description: CompatibilityOptions CachedColBalance property. Use Cached Paragraph Information for Column Balancing in C#.
 type: docs
 weight: 80
 url: /net/aspose.words.settings/compatibilityoptions/cachedcolbalance/

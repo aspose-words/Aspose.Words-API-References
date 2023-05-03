@@ -2,7 +2,7 @@
 title: BorderCollection.Horizontal
 linktitle: Horizontal
 second_title: Aspose.Words for .NET API Reference
-description: BorderCollection property. Gets the horizontal border that is used between cells or conforming paragraphs in C#.
+description: BorderCollection Horizontal property. Gets the horizontal border that is used between cells or conforming paragraphs in C#.
 type: docs
 weight: 50
 url: /net/aspose.words/bordercollection/horizontal/

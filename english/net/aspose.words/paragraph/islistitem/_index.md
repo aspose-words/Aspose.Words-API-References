@@ -2,7 +2,7 @@
 title: Paragraph.IsListItem
 linktitle: IsListItem
 second_title: Aspose.Words for .NET API Reference
-description: Paragraph property. True when the paragraph is an item in a bulleted or numbered list in original revision in C#.
+description: Paragraph IsListItem property. True when the paragraph is an item in a bulleted or numbered list in original revision in C#.
 type: docs
 weight: 120
 url: /net/aspose.words/paragraph/islistitem/

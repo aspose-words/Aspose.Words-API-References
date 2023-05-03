@@ -2,7 +2,7 @@
 title: PrinterSettingsContainer.PaperSizes
 linktitle: PaperSizes
 second_title: Aspose.Words for .NET API Reference
-description: PrinterSettingsContainer property. See PaperSizes in C#.
+description: PrinterSettingsContainer PaperSizes property. See PaperSizes in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.rendering/printersettingscontainer/papersizes/

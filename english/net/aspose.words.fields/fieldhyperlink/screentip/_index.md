@@ -2,7 +2,7 @@
 title: FieldHyperlink.ScreenTip
 linktitle: ScreenTip
 second_title: Aspose.Words for .NET API Reference
-description: FieldHyperlink property. Gets or sets the ScreenTip text for the hyperlink in C#.
+description: FieldHyperlink ScreenTip property. Gets or sets the ScreenTip text for the hyperlink in C#.
 type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldhyperlink/screentip/

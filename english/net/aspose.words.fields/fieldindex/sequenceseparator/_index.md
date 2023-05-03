@@ -2,7 +2,7 @@
 title: FieldIndex.SequenceSeparator
 linktitle: SequenceSeparator
 second_title: Aspose.Words for .NET API Reference
-description: FieldIndex property. Gets or sets the character sequence that is used to separate sequence numbers and page numbers in C#.
+description: FieldIndex SequenceSeparator property. Gets or sets the character sequence that is used to separate sequence numbers and page numbers in C#.
 type: docs
 weight: 160
 url: /net/aspose.words.fields/fieldindex/sequenceseparator/

@@ -2,7 +2,7 @@
 title: RowFormat.AllowBreakAcrossPages
 linktitle: AllowBreakAcrossPages
 second_title: Aspose.Words for .NET API Reference
-description: RowFormat property. True if the text in a table row is allowed to split across a page break in C#.
+description: RowFormat AllowBreakAcrossPages property. True if the text in a table row is allowed to split across a page break in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.tables/rowformat/allowbreakacrosspages/

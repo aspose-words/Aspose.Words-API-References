@@ -2,7 +2,7 @@
 title: FileFormatUtil.SaveFormatToExtension
 linktitle: SaveFormatToExtension
 second_title: Aspose.Words for .NET API Reference
-description: FileFormatUtil method. Converts a save format enumerated value into a file extension. The returned extension is a lowercase string with a leading dot in C#.
+description: FileFormatUtil SaveFormatToExtension method. Converts a save format enumerated value into a file extension. The returned extension is a lowercase string with a leading dot in C#.
 type: docs
 weight: 80
 url: /net/aspose.words/fileformatutil/saveformattoextension/

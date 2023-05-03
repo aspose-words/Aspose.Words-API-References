@@ -2,7 +2,7 @@
 title: DocumentPartSavingArgs.Document
 linktitle: Document
 second_title: Aspose.Words for .NET API Reference
-description: DocumentPartSavingArgs property. Gets the document object that is being saved in C#.
+description: DocumentPartSavingArgs Document property. Gets the document object that is being saved in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.saving/documentpartsavingargs/document/

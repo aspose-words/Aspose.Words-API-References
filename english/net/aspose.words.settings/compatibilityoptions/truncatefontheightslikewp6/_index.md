@@ -2,7 +2,7 @@
 title: CompatibilityOptions.TruncateFontHeightsLikeWP6
 linktitle: TruncateFontHeightsLikeWP6
 second_title: Aspose.Words for .NET API Reference
-description: CompatibilityOptions property. Emulate WordPerfect 6.x Font Height Calculation in C#.
+description: CompatibilityOptions TruncateFontHeightsLikeWP6 property. Emulate WordPerfect 6.x Font Height Calculation in C#.
 type: docs
 weight: 560
 url: /net/aspose.words.settings/compatibilityoptions/truncatefontheightslikewp6/

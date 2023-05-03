@@ -2,7 +2,7 @@
 title: PdfDigitalSignatureDetails.SignatureDate
 linktitle: SignatureDate
 second_title: Aspose.Words for .NET API Reference
-description: PdfDigitalSignatureDetails property. Gets or sets the date of the signing in C#.
+description: PdfDigitalSignatureDetails SignatureDate property. Gets or sets the date of the signing in C#.
 type: docs
 weight: 60
 url: /net/aspose.words.saving/pdfdigitalsignaturedetails/signaturedate/

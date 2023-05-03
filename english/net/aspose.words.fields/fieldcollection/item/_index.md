@@ -2,7 +2,7 @@
 title: FieldCollection.Item
 linktitle: Item
 second_title: Aspose.Words for .NET API Reference
-description: FieldCollection property. Returns a field at the specified index in C#.
+description: FieldCollection Item property. Returns a field at the specified index in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldcollection/item/

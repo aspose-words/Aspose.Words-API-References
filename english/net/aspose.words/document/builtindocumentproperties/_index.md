@@ -2,7 +2,7 @@
 title: Document.BuiltInDocumentProperties
 linktitle: BuiltInDocumentProperties
 second_title: Aspose.Words for .NET API Reference
-description: Document property. Returns a collection that represents all the builtin document properties of the document in C#.
+description: Document BuiltInDocumentProperties property. Returns a collection that represents all the builtin document properties of the document in C#.
 type: docs
 weight: 40
 url: /net/aspose.words/document/builtindocumentproperties/

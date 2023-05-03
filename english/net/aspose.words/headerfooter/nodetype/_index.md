@@ -2,7 +2,7 @@
 title: HeaderFooter.NodeType
 linktitle: NodeType
 second_title: Aspose.Words for .NET API Reference
-description: HeaderFooter property. Returns HeaderFooter in C#.
+description: HeaderFooter NodeType property. Returns HeaderFooter in C#.
 type: docs
 weight: 50
 url: /net/aspose.words/headerfooter/nodetype/

@@ -2,7 +2,7 @@
 title: FieldOptions.CurrentUser
 linktitle: CurrentUser
 second_title: Aspose.Words for .NET API Reference
-description: FieldOptions property. Gets or sets the current user information in C#.
+description: FieldOptions CurrentUser property. Gets or sets the current user information in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldoptions/currentuser/

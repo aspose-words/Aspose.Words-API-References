@@ -2,7 +2,7 @@
 title: GeneralFormatCollection.Remove
 linktitle: Remove
 second_title: Aspose.Words for .NET API Reference
-description: GeneralFormatCollection method. Removes all occurrences of the specified general format from the collection in C#.
+description: GeneralFormatCollection Remove method. Removes all occurrences of the specified general format from the collection in C#.
 type: docs
 weight: 50
 url: /net/aspose.words.fields/generalformatcollection/remove/

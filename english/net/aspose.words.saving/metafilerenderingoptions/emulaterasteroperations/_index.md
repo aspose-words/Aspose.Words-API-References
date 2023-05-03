@@ -2,7 +2,7 @@
 title: MetafileRenderingOptions.EmulateRasterOperations
 linktitle: EmulateRasterOperations
 second_title: Aspose.Words for .NET API Reference
-description: MetafileRenderingOptions property. Gets or sets a value determining whether or not the raster operations should be emulated in C#.
+description: MetafileRenderingOptions EmulateRasterOperations property. Gets or sets a value determining whether or not the raster operations should be emulated in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.saving/metafilerenderingoptions/emulaterasteroperations/

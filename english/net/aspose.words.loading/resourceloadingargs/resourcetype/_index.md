@@ -2,7 +2,7 @@
 title: ResourceLoadingArgs.ResourceType
 linktitle: ResourceType
 second_title: Aspose.Words for .NET API Reference
-description: ResourceLoadingArgs property. Type of resource in C#.
+description: ResourceLoadingArgs ResourceType property. Type of resource in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.loading/resourceloadingargs/resourcetype/

@@ -2,7 +2,7 @@
 title: Table.LeftPadding
 linktitle: LeftPadding
 second_title: Aspose.Words for .NET API Reference
-description: Table property. Gets or sets the amount of space in points to add to the left of the contents of cells in C#.
+description: Table LeftPadding property. Gets or sets the amount of space in points to add to the left of the contents of cells in C#.
 type: docs
 weight: 200
 url: /net/aspose.words.tables/table/leftpadding/

@@ -2,7 +2,7 @@
 title: TxtLoadOptions.DocumentDirection
 linktitle: DocumentDirection
 second_title: Aspose.Words for .NET API Reference
-description: TxtLoadOptions property. Gets or sets a document direction. The default value is LeftToRight in C#.
+description: TxtLoadOptions DocumentDirection property. Gets or sets a document direction. The default value is LeftToRight in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.loading/txtloadoptions/documentdirection/

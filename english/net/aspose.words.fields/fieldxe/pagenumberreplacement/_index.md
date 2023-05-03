@@ -2,7 +2,7 @@
 title: FieldXE.PageNumberReplacement
 linktitle: PageNumberReplacement
 second_title: Aspose.Words for .NET API Reference
-description: FieldXE property. Gets or sets text used in place of a page number in C#.
+description: FieldXE PageNumberReplacement property. Gets or sets text used in place of a page number in C#.
 type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldxe/pagenumberreplacement/

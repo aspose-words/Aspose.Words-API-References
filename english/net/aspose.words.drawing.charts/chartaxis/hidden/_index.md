@@ -2,7 +2,7 @@
 title: ChartAxis.Hidden
 linktitle: Hidden
 second_title: Aspose.Words for .NET API Reference
-description: ChartAxis property. Gets or sets a flag indicating whether this axis is hidden or not in C#.
+description: ChartAxis Hidden property. Gets or sets a flag indicating whether this axis is hidden or not in C#.
 type: docs
 weight: 100
 url: /net/aspose.words.drawing.charts/chartaxis/hidden/

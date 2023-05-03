@@ -2,7 +2,7 @@
 title: OdsoRecipientData.Column
 linktitle: Column
 second_title: Aspose.Words for .NET API Reference
-description: OdsoRecipientData property. Specifies the column within the data source that contains unique data for the current record. The default value is 0 in C#.
+description: OdsoRecipientData Column property. Specifies the column within the data source that contains unique data for the current record. The default value is 0 in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.settings/odsorecipientdata/column/

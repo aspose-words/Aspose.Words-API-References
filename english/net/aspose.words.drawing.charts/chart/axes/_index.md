@@ -2,7 +2,7 @@
 title: Chart.Axes
 linktitle: Axes
 second_title: Aspose.Words for .NET API Reference
-description: Chart property. Gets a collection of all axes of this chart in C#.
+description: Chart Axes property. Gets a collection of all axes of this chart in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/chart/axes/

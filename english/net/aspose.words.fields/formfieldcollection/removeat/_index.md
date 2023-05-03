@@ -2,7 +2,7 @@
 title: FormFieldCollection.RemoveAt
 linktitle: RemoveAt
 second_title: Aspose.Words for .NET API Reference
-description: FormFieldCollection method. Removes a form field at the specified index in C#.
+description: FormFieldCollection RemoveAt method. Removes a form field at the specified index in C#.
 type: docs
 weight: 60
 url: /net/aspose.words.fields/formfieldcollection/removeat/

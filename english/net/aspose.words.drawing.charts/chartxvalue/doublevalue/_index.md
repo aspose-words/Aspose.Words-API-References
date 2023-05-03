@@ -2,7 +2,7 @@
 title: ChartXValue.DoubleValue
 linktitle: DoubleValue
 second_title: Aspose.Words for .NET API Reference
-description: ChartXValue property. Gets the stored numeric value in C#.
+description: ChartXValue DoubleValue property. Gets the stored numeric value in C#.
 type: docs
 weight: 70
 url: /net/aspose.words.drawing.charts/chartxvalue/doublevalue/

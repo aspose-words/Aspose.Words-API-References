@@ -2,7 +2,7 @@
 title: EditableRange.Remove
 linktitle: Remove
 second_title: Aspose.Words for .NET API Reference
-description: EditableRange method. Removes the editable range from the document. Does not remove content inside the editable range in C#.
+description: EditableRange Remove method. Removes the editable range from the document. Does not remove content inside the editable range in C#.
 type: docs
 weight: 60
 url: /net/aspose.words/editablerange/remove/

@@ -2,7 +2,7 @@
 title: FieldOptions.ResultFormatter
 linktitle: ResultFormatter
 second_title: Aspose.Words for .NET API Reference
-description: FieldOptions property. Allows to control how the field result is formatted in C#.
+description: FieldOptions ResultFormatter property. Allows to control how the field result is formatted in C#.
 type: docs
 weight: 170
 url: /net/aspose.words.fields/fieldoptions/resultformatter/

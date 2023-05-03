@@ -2,7 +2,7 @@
 title: VbaModule.Name
 linktitle: Name
 second_title: Aspose.Words for .NET API Reference
-description: VbaModule property. Gets or sets VBA project module name in C#.
+description: VbaModule Name property. Gets or sets VBA project module name in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.vba/vbamodule/name/

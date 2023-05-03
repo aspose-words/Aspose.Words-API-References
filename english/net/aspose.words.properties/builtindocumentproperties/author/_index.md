@@ -2,7 +2,7 @@
 title: BuiltInDocumentProperties.Author
 linktitle: Author
 second_title: Aspose.Words for .NET API Reference
-description: BuiltInDocumentProperties property. Gets or sets the name of the documents author in C#.
+description: BuiltInDocumentProperties Author property. Gets or sets the name of the documents author in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.properties/builtindocumentproperties/author/

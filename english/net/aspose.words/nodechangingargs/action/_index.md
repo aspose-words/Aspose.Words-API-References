@@ -2,7 +2,7 @@
 title: NodeChangingArgs.Action
 linktitle: Action
 second_title: Aspose.Words for .NET API Reference
-description: NodeChangingArgs property. Gets a value indicating what type of node change event is occurring in C#.
+description: NodeChangingArgs Action property. Gets a value indicating what type of node change event is occurring in C#.
 type: docs
 weight: 10
 url: /net/aspose.words/nodechangingargs/action/

@@ -2,7 +2,7 @@
 title: Style.ParagraphFormat
 linktitle: ParagraphFormat
 second_title: Aspose.Words for .NET API Reference
-description: Style property. Gets the paragraph formatting of the style in C#.
+description: Style ParagraphFormat property. Gets the paragraph formatting of the style in C#.
 type: docs
 weight: 140
 url: /net/aspose.words/style/paragraphformat/

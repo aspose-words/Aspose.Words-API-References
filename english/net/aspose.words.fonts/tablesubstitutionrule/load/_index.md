@@ -2,7 +2,7 @@
 title: TableSubstitutionRule.Load
 linktitle: Load
 second_title: Aspose.Words for .NET API Reference
-description: TableSubstitutionRule method. Loads table substitution settings from XML file in C#.
+description: TableSubstitutionRule Load method. Loads table substitution settings from XML file in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.fonts/tablesubstitutionrule/load/

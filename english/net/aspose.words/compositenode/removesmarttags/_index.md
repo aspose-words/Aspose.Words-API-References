@@ -2,7 +2,7 @@
 title: CompositeNode.RemoveSmartTags
 linktitle: RemoveSmartTags
 second_title: Aspose.Words for .NET API Reference
-description: CompositeNode method. Removes all SmartTag descendant nodes of the current node in C#.
+description: CompositeNode RemoveSmartTags method. Removes all SmartTag descendant nodes of the current node in C#.
 type: docs
 weight: 190
 url: /net/aspose.words/compositenode/removesmarttags/

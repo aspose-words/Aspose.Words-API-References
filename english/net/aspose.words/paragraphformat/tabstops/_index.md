@@ -2,7 +2,7 @@
 title: ParagraphFormat.TabStops
 linktitle: TabStops
 second_title: Aspose.Words for .NET API Reference
-description: ParagraphFormat property. Gets the collection of custom tab stops defined for this object in C#.
+description: ParagraphFormat TabStops property. Gets the collection of custom tab stops defined for this object in C#.
 type: docs
 weight: 380
 url: /net/aspose.words/paragraphformat/tabstops/

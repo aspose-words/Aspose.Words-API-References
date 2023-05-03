@@ -2,7 +2,7 @@
 title: Stroke.Fill
 linktitle: Fill
 second_title: Aspose.Words for .NET API Reference
-description: Stroke property. Gets fill formatting for the Stroke in C#.
+description: Stroke Fill property. Gets fill formatting for the Stroke in C#.
 type: docs
 weight: 90
 url: /net/aspose.words.drawing/stroke/fill/

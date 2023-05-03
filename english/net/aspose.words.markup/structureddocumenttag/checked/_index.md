@@ -2,7 +2,7 @@
 title: StructuredDocumentTag.Checked
 linktitle: Checked
 second_title: Aspose.Words for .NET API Reference
-description: StructuredDocumentTag property. Gets/Sets current state of the Checkbox SDT. Default value for this property is false in C#.
+description: StructuredDocumentTag Checked property. Gets/Sets current state of the Checkbox SDT. Default value for this property is false in C#.
 type: docs
 weight: 60
 url: /net/aspose.words.markup/structureddocumenttag/checked/

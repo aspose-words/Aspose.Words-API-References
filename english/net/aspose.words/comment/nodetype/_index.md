@@ -2,7 +2,7 @@
 title: Comment.NodeType
 linktitle: NodeType
 second_title: Aspose.Words for .NET API Reference
-description: Comment property. Returns Comment in C#.
+description: Comment NodeType property. Returns Comment in C#.
 type: docs
 weight: 80
 url: /net/aspose.words/comment/nodetype/

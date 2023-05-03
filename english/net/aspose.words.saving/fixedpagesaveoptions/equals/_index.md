@@ -2,7 +2,7 @@
 title: FixedPageSaveOptions.Equals
 linktitle: Equals
 second_title: Aspose.Words for .NET API Reference
-description: FixedPageSaveOptions method. Determines whether the specified object is equal in value to the current object in C#.
+description: FixedPageSaveOptions Equals method. Determines whether the specified object is equal in value to the current object in C#.
 type: docs
 weight: 80
 url: /net/aspose.words.saving/fixedpagesaveoptions/equals/

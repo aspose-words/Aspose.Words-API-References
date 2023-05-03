@@ -2,7 +2,7 @@
 title: DocumentBuilder.CurrentNode
 linktitle: CurrentNode
 second_title: Aspose.Words for .NET API Reference
-description: DocumentBuilder property. Gets the node that is currently selected in this DocumentBuilder in C#.
+description: DocumentBuilder CurrentNode property. Gets the node that is currently selected in this DocumentBuilder in C#.
 type: docs
 weight: 40
 url: /net/aspose.words/documentbuilder/currentnode/

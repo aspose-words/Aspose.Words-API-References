@@ -2,7 +2,7 @@
 title: PageSetup.LineNumberCountBy
 linktitle: LineNumberCountBy
 second_title: Aspose.Words for .NET API Reference
-description: PageSetup property. Returns or sets the numeric increment for line numbers in C#.
+description: PageSetup LineNumberCountBy property. Returns or sets the numeric increment for line numbers in C#.
 type: docs
 weight: 210
 url: /net/aspose.words/pagesetup/linenumbercountby/

@@ -2,7 +2,7 @@
 title: FieldCitation.AnotherSourceTag
 linktitle: AnotherSourceTag
 second_title: Aspose.Words for .NET API Reference
-description: FieldCitation property. Gets or sets a value that mathes the Tag elements value of another source to be included in the citation in C#.
+description: FieldCitation AnotherSourceTag property. Gets or sets a value that mathes the Tag elements value of another source to be included in the citation in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldcitation/anothersourcetag/

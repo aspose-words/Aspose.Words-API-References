@@ -2,7 +2,7 @@
 title: ShapeBase.HeightRelative
 linktitle: HeightRelative
 second_title: Aspose.Words for .NET API Reference
-description: ShapeBase property. Gets or sets the value that represents the percentage of shapes relative height in C#.
+description: ShapeBase HeightRelative property. Gets or sets the value that represents the percentage of shapes relative height in C#.
 type: docs
 weight: 210
 url: /net/aspose.words.drawing/shapebase/heightrelative/

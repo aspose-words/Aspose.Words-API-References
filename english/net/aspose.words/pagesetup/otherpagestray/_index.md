@@ -2,7 +2,7 @@
 title: PageSetup.OtherPagesTray
 linktitle: OtherPagesTray
 second_title: Aspose.Words for .NET API Reference
-description: PageSetup property. Gets or sets the paper tray bin to be used for all but the first page of a section. The value is implementation printer specific in C#.
+description: PageSetup OtherPagesTray property. Gets or sets the paper tray bin to be used for all but the first page of a section. The value is implementation printer specific in C#.
 type: docs
 weight: 300
 url: /net/aspose.words/pagesetup/otherpagestray/

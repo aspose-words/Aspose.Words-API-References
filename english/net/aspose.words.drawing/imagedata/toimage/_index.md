@@ -2,7 +2,7 @@
 title: ImageData.ToImage
 linktitle: ToImage
 second_title: Aspose.Words for .NET API Reference
-description: ImageData method. Gets the image stored in the shape as a Image object in C#.
+description: ImageData ToImage method. Gets the image stored in the shape as a Image object in C#.
 type: docs
 weight: 220
 url: /net/aspose.words.drawing/imagedata/toimage/

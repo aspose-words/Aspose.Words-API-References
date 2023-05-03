@@ -2,7 +2,7 @@
 title: ChartXValue.FromString
 linktitle: FromString
 second_title: Aspose.Words for .NET API Reference
-description: ChartXValue method. Creates a ChartXValue instance of the String type in C#.
+description: ChartXValue FromString method. Creates a ChartXValue instance of the String type in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.drawing.charts/chartxvalue/fromstring/

@@ -2,7 +2,7 @@
 title: GradientStopCollection.GetEnumerator
 linktitle: GetEnumerator
 second_title: Aspose.Words for .NET API Reference
-description: GradientStopCollection method. Returns an enumerator that iterates through the collection in C#.
+description: GradientStopCollection GetEnumerator method. Returns an enumerator that iterates through the collection in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.drawing/gradientstopcollection/getenumerator/

@@ -2,7 +2,7 @@
 title: FieldIndex.UseYomi
 linktitle: UseYomi
 second_title: Aspose.Words for .NET API Reference
-description: FieldIndex property. Gets or sets whether to enable the use of yomi text for index entries in C#.
+description: FieldIndex UseYomi property. Gets or sets whether to enable the use of yomi text for index entries in C#.
 type: docs
 weight: 170
 url: /net/aspose.words.fields/fieldindex/useyomi/

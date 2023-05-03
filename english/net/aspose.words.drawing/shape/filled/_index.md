@@ -2,7 +2,7 @@
 title: Shape.Filled
 linktitle: Filled
 second_title: Aspose.Words for .NET API Reference
-description: Shape property. Determines whether the closed path of the shape will be filled in C#.
+description: Shape Filled property. Determines whether the closed path of the shape will be filled in C#.
 type: docs
 weight: 50
 url: /net/aspose.words.drawing/shape/filled/

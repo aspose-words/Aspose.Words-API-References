@@ -2,7 +2,7 @@
 title: OleFormat.IsLink
 linktitle: IsLink
 second_title: Aspose.Words for .NET API Reference
-description: OleFormat property. Returns true if the OLE object is linked when SourceFullName is specified in C#.
+description: OleFormat IsLink property. Returns true if the OLE object is linked when SourceFullName is specified in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.drawing/oleformat/islink/

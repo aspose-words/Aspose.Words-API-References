@@ -2,7 +2,7 @@
 title: ChartYValueCollection.Item
 linktitle: Item
 second_title: Aspose.Words for .NET API Reference
-description: ChartYValueCollection property. Gets or sets the Y value at the specified index in C#.
+description: ChartYValueCollection Item property. Gets or sets the Y value at the specified index in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/chartyvaluecollection/item/

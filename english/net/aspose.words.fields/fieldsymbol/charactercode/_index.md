@@ -2,7 +2,7 @@
 title: FieldSymbol.CharacterCode
 linktitle: CharacterCode
 second_title: Aspose.Words for .NET API Reference
-description: FieldSymbol property. Gets or sets the characters code point value in decimal or hexadecimal in C#.
+description: FieldSymbol CharacterCode property. Gets or sets the characters code point value in decimal or hexadecimal in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldsymbol/charactercode/

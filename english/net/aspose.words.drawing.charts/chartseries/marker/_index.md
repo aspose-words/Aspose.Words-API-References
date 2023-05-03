@@ -2,7 +2,7 @@
 title: ChartSeries.Marker
 linktitle: Marker
 second_title: Aspose.Words for .NET API Reference
-description: ChartSeries property. Specifies a data marker. Marker is automatically created when requested in C#.
+description: ChartSeries Marker property. Specifies a data marker. Marker is automatically created when requested in C#.
 type: docs
 weight: 100
 url: /net/aspose.words.drawing.charts/chartseries/marker/

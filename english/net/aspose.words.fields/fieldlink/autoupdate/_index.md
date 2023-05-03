@@ -2,7 +2,7 @@
 title: FieldLink.AutoUpdate
 linktitle: AutoUpdate
 second_title: Aspose.Words for .NET API Reference
-description: FieldLink property. Gets or sets whether to update this field automatically in C#.
+description: FieldLink AutoUpdate property. Gets or sets whether to update this field automatically in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldlink/autoupdate/

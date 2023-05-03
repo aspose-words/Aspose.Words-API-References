@@ -2,7 +2,7 @@
 title: HeaderFooter.Accept
 linktitle: Accept
 second_title: Aspose.Words for .NET API Reference
-description: HeaderFooter method. Accepts a visitor in C#.
+description: HeaderFooter Accept method. Accepts a visitor in C#.
 type: docs
 weight: 70
 url: /net/aspose.words/headerfooter/accept/

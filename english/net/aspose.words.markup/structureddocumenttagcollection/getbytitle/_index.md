@@ -2,7 +2,7 @@
 title: StructuredDocumentTagCollection.GetByTitle
 linktitle: GetByTitle
 second_title: Aspose.Words for .NET API Reference
-description: StructuredDocumentTagCollection method. Returns the first structured document tag encountered in the collection with the specified title in C#.
+description: StructuredDocumentTagCollection GetByTitle method. Returns the first structured document tag encountered in the collection with the specified title in C#.
 type: docs
 weight: 50
 url: /net/aspose.words.markup/structureddocumenttagcollection/getbytitle/

@@ -2,7 +2,7 @@
 title: BuiltInDocumentProperties.LastPrinted
 linktitle: LastPrinted
 second_title: Aspose.Words for .NET API Reference
-description: BuiltInDocumentProperties property. Gets or sets the date when the document was last printed in UTC in C#.
+description: BuiltInDocumentProperties LastPrinted property. Gets or sets the date when the document was last printed in UTC in C#.
 type: docs
 weight: 150
 url: /net/aspose.words.properties/builtindocumentproperties/lastprinted/

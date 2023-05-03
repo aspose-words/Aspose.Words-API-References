@@ -2,7 +2,7 @@
 title: CompatibilityOptions.UlTrailSpace
 linktitle: UlTrailSpace
 second_title: Aspose.Words for .NET API Reference
-description: CompatibilityOptions property. Underline All Trailing Spaces in C#.
+description: CompatibilityOptions UlTrailSpace property. Underline All Trailing Spaces in C#.
 type: docs
 weight: 580
 url: /net/aspose.words.settings/compatibilityoptions/ultrailspace/

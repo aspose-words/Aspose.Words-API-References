@@ -2,7 +2,7 @@
 title: ImageData.BiLevel
 linktitle: BiLevel
 second_title: Aspose.Words for .NET API Reference
-description: ImageData property. Determines whether an image will be displayed in black and white in C#.
+description: ImageData BiLevel property. Determines whether an image will be displayed in black and white in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing/imagedata/bilevel/

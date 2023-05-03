@@ -2,7 +2,7 @@
 title: FieldIf.RightExpression
 linktitle: RightExpression
 second_title: Aspose.Words for .NET API Reference
-description: FieldIf property. Gets or sets the right part of the comparison expression in C#.
+description: FieldIf RightExpression property. Gets or sets the right part of the comparison expression in C#.
 type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldif/rightexpression/

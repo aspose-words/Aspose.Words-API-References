@@ -2,7 +2,7 @@
 title: XmlMapping.SetMapping
 linktitle: SetMapping
 second_title: Aspose.Words for .NET API Reference
-description: XmlMapping method. Sets a mapping between the parent structured document tag and an XML node of a custom XML data part in C#.
+description: XmlMapping SetMapping method. Sets a mapping between the parent structured document tag and an XML node of a custom XML data part in C#.
 type: docs
 weight: 70
 url: /net/aspose.words.markup/xmlmapping/setmapping/

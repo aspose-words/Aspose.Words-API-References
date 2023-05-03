@@ -2,7 +2,7 @@
 title: Document.Accept
 linktitle: Accept
 second_title: Aspose.Words for .NET API Reference
-description: Document method. Accepts a visitor in C#.
+description: Document Accept method. Accepts a visitor in C#.
 type: docs
 weight: 510
 url: /net/aspose.words/document/accept/

@@ -2,7 +2,7 @@
 title: FieldCollection.GetEnumerator
 linktitle: GetEnumerator
 second_title: Aspose.Words for .NET API Reference
-description: FieldCollection method. Returns an enumerator object in C#.
+description: FieldCollection GetEnumerator method. Returns an enumerator object in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldcollection/getenumerator/

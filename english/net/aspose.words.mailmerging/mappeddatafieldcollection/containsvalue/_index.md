@@ -2,7 +2,7 @@
 title: MappedDataFieldCollection.ContainsValue
 linktitle: ContainsValue
 second_title: Aspose.Words for .NET API Reference
-description: MappedDataFieldCollection method. Determines whether a mapping from the specified field in the data source exists in the collection in C#.
+description: MappedDataFieldCollection ContainsValue method. Determines whether a mapping from the specified field in the data source exists in the collection in C#.
 type: docs
 weight: 60
 url: /net/aspose.words.mailmerging/mappeddatafieldcollection/containsvalue/

@@ -2,7 +2,7 @@
 title: ConditionalStyleCollection.Item
 linktitle: Item
 second_title: Aspose.Words for .NET API Reference
-description: ConditionalStyleCollection property. Retrieves a ConditionalStyle object by conditional style type in C#.
+description: ConditionalStyleCollection Item property. Retrieves a ConditionalStyle object by conditional style type in C#.
 type: docs
 weight: 80
 url: /net/aspose.words/conditionalstylecollection/item/

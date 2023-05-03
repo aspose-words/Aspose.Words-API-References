@@ -2,7 +2,7 @@
 title: Run.Accept
 linktitle: Accept
 second_title: Aspose.Words for .NET API Reference
-description: Run method. Accepts a visitor in C#.
+description: Run Accept method. Accepts a visitor in C#.
 type: docs
 weight: 60
 url: /net/aspose.words/run/accept/

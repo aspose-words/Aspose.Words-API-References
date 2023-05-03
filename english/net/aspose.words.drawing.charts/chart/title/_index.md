@@ -2,7 +2,7 @@
 title: Chart.Title
 linktitle: Title
 second_title: Aspose.Words for .NET API Reference
-description: Chart property. Provides access to the chart title properties in C#.
+description: Chart Title property. Provides access to the chart title properties in C#.
 type: docs
 weight: 80
 url: /net/aspose.words.drawing.charts/chart/title/
