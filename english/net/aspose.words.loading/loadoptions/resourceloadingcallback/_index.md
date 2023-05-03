@@ -7,7 +7,7 @@ type: docs
 weight: 140
 url: /net/aspose.words.loading/loadoptions/resourceloadingcallback/
 ---
-## ResourceLoadingCallback property
+## LoadOptions.ResourceLoadingCallback property
 
 Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML.
 

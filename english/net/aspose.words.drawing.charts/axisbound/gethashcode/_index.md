@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.drawing.charts/axisbound/gethashcode/
 ---
-## GetHashCode method
+## AxisBound.GetHashCode method
 
 Serves as a hash function for this type.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 140
 url: /net/aspose.words.saving/htmlsaveoptions/exportdropdownformfieldastext/
 ---
-## ExportDropDownFormFieldAsText property
+## HtmlSaveOptions.ExportDropDownFormFieldAsText property
 
 Controls how drop-down form fields are saved to HTML or MHTML. Default value is `false`.
 

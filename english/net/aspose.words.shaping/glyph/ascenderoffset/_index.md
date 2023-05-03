@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.shaping/glyph/ascenderoffset/
 ---
-## AscenderOffset property
+## Glyph.AscenderOffset property
 
 Vertical (y) offset relative to glyph position. Mostly used to attach marks (like diacritics) to base characters.
 

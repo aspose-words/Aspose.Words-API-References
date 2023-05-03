@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words/textwatermarkoptions/layout/
 ---
-## Layout property
+## TextWatermarkOptions.Layout property
 
 Gets or sets layout of the watermark. The default value is Diagonal.
 

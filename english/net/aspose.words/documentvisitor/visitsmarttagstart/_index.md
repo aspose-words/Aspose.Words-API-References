@@ -7,7 +7,7 @@ type: docs
 weight: 420
 url: /net/aspose.words/documentvisitor/visitsmarttagstart/
 ---
-## VisitSmartTagStart method
+## DocumentVisitor.VisitSmartTagStart method
 
 Called when enumeration of a smart tag has started.
 

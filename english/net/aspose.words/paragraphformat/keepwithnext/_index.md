@@ -7,7 +7,7 @@ type: docs
 weight: 160
 url: /net/aspose.words/paragraphformat/keepwithnext/
 ---
-## KeepWithNext property
+## ParagraphFormat.KeepWithNext property
 
 True if the paragraph is to remains on the same page as the paragraph that follows it.
 

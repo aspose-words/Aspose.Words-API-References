@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.fonts/fontinfocollection/contains/
 ---
-## Contains method
+## FontInfoCollection.Contains method
 
 Determines whether the collection contains a font with the given name.
 

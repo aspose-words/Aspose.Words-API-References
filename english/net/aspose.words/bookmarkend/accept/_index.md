@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/bookmarkend/accept/
 ---
-## Accept method
+## BookmarkEnd.Accept method
 
 Accepts a visitor.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words/paragraphformat/borders/
 ---
-## Borders property
+## ParagraphFormat.Borders property
 
 Gets collection of borders of the paragraph.
 

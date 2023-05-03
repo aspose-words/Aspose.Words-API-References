@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.markup/structureddocumenttagrangestart/id/
 ---
-## Id property
+## StructuredDocumentTagRangeStart.Id property
 
 Specifies a unique read-only persistent numerical Id for this structured document tag.
 

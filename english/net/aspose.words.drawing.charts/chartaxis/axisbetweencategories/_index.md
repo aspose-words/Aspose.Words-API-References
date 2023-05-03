@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/chartaxis/axisbetweencategories/
 ---
-## AxisBetweenCategories property
+## ChartAxis.AxisBetweenCategories property
 
 Gets or sets a flag indicating whether the value axis crosses the category axis between categories.
 

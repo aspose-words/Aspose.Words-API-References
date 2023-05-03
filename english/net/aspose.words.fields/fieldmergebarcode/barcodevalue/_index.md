@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldmergebarcode/barcodevalue/
 ---
-## BarcodeValue property
+## FieldMergeBarcode.BarcodeValue property
 
 Gets or sets the barcode value.
 

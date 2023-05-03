@@ -7,7 +7,7 @@ type: docs
 weight: 340
 url: /net/aspose.words/document/removepersonalinformation/
 ---
-## RemovePersonalInformation property
+## Document.RemovePersonalInformation property
 
 Gets or sets a flag indicating that Microsoft Word will remove all user information from comments, revisions and document properties upon saving the document.
 

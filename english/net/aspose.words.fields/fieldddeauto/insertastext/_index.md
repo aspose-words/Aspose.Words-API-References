@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldddeauto/insertastext/
 ---
-## InsertAsText property
+## FieldDdeAuto.InsertAsText property
 
 Gets or sets whether to insert the linked object in text-only format.
 

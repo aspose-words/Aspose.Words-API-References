@@ -7,7 +7,7 @@ type: docs
 weight: 160
 url: /net/aspose.words/documentvisitor/visiteditablerangeend/
 ---
-## VisitEditableRangeEnd method
+## DocumentVisitor.VisitEditableRangeEnd method
 
 Called when an end of an editable range is encountered in the document.
 

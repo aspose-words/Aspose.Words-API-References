@@ -7,7 +7,7 @@ type: docs
 weight: 210
 url: /net/aspose.words/compositenode/selectsinglenode/
 ---
-## SelectSingleNode method
+## CompositeNode.SelectSingleNode method
 
 Selects the first [`Node`](../../node/) that matches the XPath expression.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 200
 url: /net/aspose.words.saving/htmlsaveoptions/exportlistlabels/
 ---
-## ExportListLabels property
+## HtmlSaveOptions.ExportListLabels property
 
 Controls how list labels are output to HTML, MHTML or EPUB. Default value is Auto.
 

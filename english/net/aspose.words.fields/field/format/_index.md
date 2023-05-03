@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fields/field/format/
 ---
-## Format property
+## Field.Format property
 
 Gets a [`FieldFormat`](../../fieldformat/) object that provides typed access to field's formatting.
 

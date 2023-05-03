@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.drawing.charts/chartdatalabelcollection/showdatalabelsrange/
 ---
-## ShowDataLabelsRange property
+## ChartDataLabelCollection.ShowDataLabelsRange property
 
 Allows to specify whether values from data labels range to be displayed in the data labels of the entire series. Default value is `false`.
 

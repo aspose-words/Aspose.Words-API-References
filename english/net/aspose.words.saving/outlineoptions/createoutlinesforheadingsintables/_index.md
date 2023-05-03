@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.saving/outlineoptions/createoutlinesforheadingsintables/
 ---
-## CreateOutlinesForHeadingsInTables property
+## OutlineOptions.CreateOutlinesForHeadingsInTables property
 
 Specifies whether or not to create outlines for headings (paragraphs formatted with the Heading styles) inside tables.
 

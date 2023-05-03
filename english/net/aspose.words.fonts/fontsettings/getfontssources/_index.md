@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.fonts/fontsettings/getfontssources/
 ---
-## GetFontsSources method
+## FontSettings.GetFontsSources method
 
 Gets a copy of the array that contains the list of sources where Aspose.Words looks for TrueType fonts.
 

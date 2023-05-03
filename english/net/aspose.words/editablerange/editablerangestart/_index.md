@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/editablerange/editablerangestart/
 ---
-## EditableRangeStart property
+## EditableRange.EditableRangeStart property
 
 Gets the node that represents the start of the editable range.
 

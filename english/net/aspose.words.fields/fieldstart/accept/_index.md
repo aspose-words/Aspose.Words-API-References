@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldstart/accept/
 ---
-## Accept method
+## FieldStart.Accept method
 
 Accepts a visitor.
 

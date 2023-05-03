@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/fileformatutil/extensiontosaveformat/
 ---
-## ExtensionToSaveFormat method
+## FileFormatUtil.ExtensionToSaveFormat method
 
 Converts a file name extension into a [`SaveFormat`](../../saveformat/) value.
 

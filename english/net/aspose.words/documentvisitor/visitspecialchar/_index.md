@@ -7,7 +7,7 @@ type: docs
 weight: 430
 url: /net/aspose.words/documentvisitor/visitspecialchar/
 ---
-## VisitSpecialChar method
+## DocumentVisitor.VisitSpecialChar method
 
 Called when a [`SpecialChar`](../../specialchar/) node is encountered in the document.
 

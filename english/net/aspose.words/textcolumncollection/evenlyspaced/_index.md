@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/textcolumncollection/evenlyspaced/
 ---
-## EvenlySpaced property
+## TextColumnCollection.EvenlySpaced property
 
 True if text columns are of equal width and evenly spaced.
 

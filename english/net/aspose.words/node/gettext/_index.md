@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words/node/gettext/
 ---
-## GetText method
+## Node.GetText method
 
 Gets the text of this node and of all its children.
 

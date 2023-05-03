@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.lists/listformat/listoutdent/
 ---
-## ListOutdent method
+## ListFormat.ListOutdent method
 
 Decreases the list level of the current paragraph by one level.
 

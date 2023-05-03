@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.saving/odtsaveoptions/password/
 ---
-## Password property
+## OdtSaveOptions.Password property
 
 Gets or sets a password to encrypt document.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.markup/customxmlpart/data/
 ---
-## Data property
+## CustomXmlPart.Data property
 
 Gets or sets the XML content of this Custom XML Data Storage Part.
 

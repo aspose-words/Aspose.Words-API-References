@@ -7,7 +7,7 @@ type: docs
 weight: 170
 url: /net/aspose.words.fields/fieldoptions/resultformatter/
 ---
-## ResultFormatter property
+## FieldOptions.ResultFormatter property
 
 Allows to control how the field result is formatted.
 

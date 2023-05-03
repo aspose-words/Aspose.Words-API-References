@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.saving/downsampleoptions/resolution/
 ---
-## Resolution property
+## DownsampleOptions.Resolution property
 
 Specifies the resolution in pixels per inch which the images should be downsampled to.
 

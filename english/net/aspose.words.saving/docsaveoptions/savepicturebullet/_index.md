@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.saving/docsaveoptions/savepicturebullet/
 ---
-## SavePictureBullet property
+## DocSaveOptions.SavePictureBullet property
 
 When `false`, PictureBullet data is not saved to output document. Default value is `true`.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 500
 url: /net/aspose.words.drawing/shapebase/shapetype/
 ---
-## ShapeType property
+## ShapeBase.ShapeType property
 
 Gets the shape type.
 

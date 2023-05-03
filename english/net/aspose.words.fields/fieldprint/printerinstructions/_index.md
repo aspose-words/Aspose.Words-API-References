@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldprint/printerinstructions/
 ---
-## PrinterInstructions property
+## FieldPrint.PrinterInstructions property
 
 Gets or sets the printer-specific control code characters or PostScript instructions.
 

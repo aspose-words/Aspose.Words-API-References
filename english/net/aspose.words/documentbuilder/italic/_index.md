@@ -7,7 +7,7 @@ type: docs
 weight: 140
 url: /net/aspose.words/documentbuilder/italic/
 ---
-## Italic property
+## DocumentBuilder.Italic property
 
 True if the font is formatted as italic.
 

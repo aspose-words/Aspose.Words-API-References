@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.rendering/pageinfo/widthinpoints/
 ---
-## WidthInPoints property
+## PageInfo.WidthInPoints property
 
 Gets the width of the page in points.
 

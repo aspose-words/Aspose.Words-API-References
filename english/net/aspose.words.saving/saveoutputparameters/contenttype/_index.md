@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.saving/saveoutputparameters/contenttype/
 ---
-## ContentType property
+## SaveOutputParameters.ContentType property
 
 Returns the Content-Type string (Internet Media Type) that identifies the type of the saved document.
 

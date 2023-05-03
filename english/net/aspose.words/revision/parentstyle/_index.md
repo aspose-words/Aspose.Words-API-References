@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words/revision/parentstyle/
 ---
-## ParentStyle property
+## Revision.ParentStyle property
 
 Gets the immediate parent style (owner) of this revision. This property will work for only for the StyleDefinitionChange revision type.
 

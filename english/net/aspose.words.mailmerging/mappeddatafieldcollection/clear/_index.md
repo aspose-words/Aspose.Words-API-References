@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.mailmerging/mappeddatafieldcollection/clear/
 ---
-## Clear method
+## MappedDataFieldCollection.Clear method
 
 Removes all elements from the collection.
 

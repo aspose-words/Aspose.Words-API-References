@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldif/truetext/
 ---
-## TrueText property
+## FieldIf.TrueText property
 
 Gets or sets the text displayed if the comparison expression is true.
 

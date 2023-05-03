@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.properties/documentproperty/islinktocontent/
 ---
-## IsLinkToContent property
+## DocumentProperty.IsLinkToContent property
 
 Shows whether this property is linked to content or not.
 

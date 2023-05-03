@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/editablerange/editablerangeend/
 ---
-## EditableRangeEnd property
+## EditableRange.EditableRangeEnd property
 
 Gets the node that represents the end of the editable range.
 

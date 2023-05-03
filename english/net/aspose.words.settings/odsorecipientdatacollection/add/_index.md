@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.settings/odsorecipientdatacollection/add/
 ---
-## Add method
+## OdsoRecipientDataCollection.Add method
 
 Adds an object to the end of this collection.
 

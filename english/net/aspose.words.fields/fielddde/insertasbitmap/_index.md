@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fields/fielddde/insertasbitmap/
 ---
-## InsertAsBitmap property
+## FieldDde.InsertAsBitmap property
 
 Gets or sets whether to insert the linked object as a bitmap.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 230
 url: /net/aspose.words/controlchar/paragraphbreakchar/
 ---
-## ParagraphBreakChar field
+## ControlChar.ParagraphBreakChar field
 
 End of paragraph character: (char)13 or "\r".
 

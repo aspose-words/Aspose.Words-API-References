@@ -7,7 +7,7 @@ type: docs
 weight: 290
 url: /net/aspose.words/paragraphformat/spaceafter/
 ---
-## SpaceAfter property
+## ParagraphFormat.SpaceAfter property
 
 Gets or sets the amount of spacing (in points) after the paragraph.
 

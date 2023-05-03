@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.replacing/findreplaceoptions/applyparagraphformat/
 ---
-## ApplyParagraphFormat property
+## FindReplaceOptions.ApplyParagraphFormat property
 
 Paragraph formatting applied to new content.
 

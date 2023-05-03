@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/range/revisions/
 ---
-## Revisions property
+## Range.Revisions property
 
 Gets a collection of revisions (tracked changes) that exist in this range.
 

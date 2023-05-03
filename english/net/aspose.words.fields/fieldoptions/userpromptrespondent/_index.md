@@ -7,7 +7,7 @@ type: docs
 weight: 210
 url: /net/aspose.words.fields/fieldoptions/userpromptrespondent/
 ---
-## UserPromptRespondent property
+## FieldOptions.UserPromptRespondent property
 
 Gets or sets the respondent to user prompts during field update.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 140
 url: /net/aspose.words.drawing/imagedata/imagetype/
 ---
-## ImageType property
+## ImageData.ImageType property
 
 Gets the type of the image.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.layout/layoutoptions/continuoussectionpagenumberingrestart/
 ---
-## ContinuousSectionPageNumberingRestart property
+## LayoutOptions.ContinuousSectionPageNumberingRestart property
 
 Gets or sets the mode of behavior for computing page numbers when a continuous section restarts the page numbering.
 

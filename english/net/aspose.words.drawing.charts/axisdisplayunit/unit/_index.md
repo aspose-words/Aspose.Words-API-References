@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.drawing.charts/axisdisplayunit/unit/
 ---
-## Unit property
+## AxisDisplayUnit.Unit property
 
 Gets or sets the scaling value of the display units as one of the predefined values.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 190
 url: /net/aspose.words.fields/formfield/textinputdefault/
 ---
-## TextInputDefault property
+## FormField.TextInputDefault property
 
 Gets or sets the default string or a calculation expression of a text form field.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.saving/fixedpagesaveoptions/numeralformat/
 ---
-## NumeralFormat property
+## FixedPageSaveOptions.NumeralFormat property
 
 Gets or sets [`NumeralFormat`](../../numeralformat/) used for rendering of numerals. European numerals are used by default.
 

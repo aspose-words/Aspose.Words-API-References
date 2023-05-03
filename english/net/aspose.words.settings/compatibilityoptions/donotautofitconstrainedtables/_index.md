@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words.settings/compatibilityoptions/donotautofitconstrainedtables/
 ---
-## DoNotAutofitConstrainedTables property
+## CompatibilityOptions.DoNotAutofitConstrainedTables property
 
 Do Not AutoFit Tables To Fit Next To Wrapped Objects.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/convertutil/millimetertopoint/
 ---
-## MillimeterToPoint method
+## ConvertUtil.MillimeterToPoint method
 
 Converts millimeters to points.
 

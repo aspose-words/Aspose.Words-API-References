@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words.lists/listlevel/restartafterlevel/
 ---
-## RestartAfterLevel property
+## ListLevel.RestartAfterLevel property
 
 Sets or returns the list level that must appear before the specified list level restarts numbering.
 

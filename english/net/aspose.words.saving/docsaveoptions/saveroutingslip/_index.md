@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.saving/docsaveoptions/saveroutingslip/
 ---
-## SaveRoutingSlip property
+## DocSaveOptions.SaveRoutingSlip property
 
 When `false`, RoutingSlip data is not saved to output document. Default value is `true`.
 

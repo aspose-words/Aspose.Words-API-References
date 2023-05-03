@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words/section/appendcontent/
 ---
-## AppendContent method
+## Section.AppendContent method
 
 Inserts a copy of content of the source section at the end of this section.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words/frameformat/relativeverticalposition/
 ---
-## RelativeVerticalPosition property
+## FrameFormat.RelativeVerticalPosition property
 
 Gets the relative vertical position of a frame.
 

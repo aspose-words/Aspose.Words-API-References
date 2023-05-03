@@ -7,7 +7,7 @@ type: docs
 weight: 370
 url: /net/aspose.words/documentvisitor/visitsectionend/
 ---
-## VisitSectionEnd method
+## DocumentVisitor.VisitSectionEnd method
 
 Called when enumeration of a section has ended.
 

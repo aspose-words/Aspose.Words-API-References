@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fonts/fontinfo/charset/
 ---
-## Charset property
+## FontInfo.Charset property
 
 Gets or sets the character set for the font.
 

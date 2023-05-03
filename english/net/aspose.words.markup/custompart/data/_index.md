@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.markup/custompart/data/
 ---
-## Data property
+## CustomPart.Data property
 
 Contains the data of this custom part.
 

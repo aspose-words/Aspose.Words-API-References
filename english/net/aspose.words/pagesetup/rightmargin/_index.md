@@ -7,7 +7,7 @@ type: docs
 weight: 370
 url: /net/aspose.words/pagesetup/rightmargin/
 ---
-## RightMargin property
+## PageSetup.RightMargin property
 
 Returns or sets the distance (in points) between the right edge of the page and the right boundary of the body text.
 

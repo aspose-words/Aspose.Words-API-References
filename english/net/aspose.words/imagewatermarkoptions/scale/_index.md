@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/imagewatermarkoptions/scale/
 ---
-## Scale property
+## ImageWatermarkOptions.Scale property
 
 Gets or sets the scale factor expressed as a fraction of the image. The default value is 0 - auto.
 

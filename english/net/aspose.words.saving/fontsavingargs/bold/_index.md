@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.saving/fontsavingargs/bold/
 ---
-## Bold property
+## FontSavingArgs.Bold property
 
 Indicates whether the current font is bold.
 

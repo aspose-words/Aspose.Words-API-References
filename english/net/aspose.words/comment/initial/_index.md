@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words/comment/initial/
 ---
-## Initial property
+## Comment.Initial property
 
 Returns or sets the initials of the user associated with a specific comment.
 

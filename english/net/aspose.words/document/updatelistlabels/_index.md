@@ -7,7 +7,7 @@ type: docs
 weight: 760
 url: /net/aspose.words/document/updatelistlabels/
 ---
-## UpdateListLabels method
+## Document.UpdateListLabels method
 
 Updates list labels for all list items in the document.
 

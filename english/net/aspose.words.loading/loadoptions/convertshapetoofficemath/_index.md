@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.loading/loadoptions/convertshapetoofficemath/
 ---
-## ConvertShapeToOfficeMath property
+## LoadOptions.ConvertShapeToOfficeMath property
 
 Gets or sets whether to convert shapes with EquationXML to Office Math objects.
 

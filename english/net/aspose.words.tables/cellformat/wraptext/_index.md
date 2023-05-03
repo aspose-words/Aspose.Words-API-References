@@ -7,7 +7,7 @@ type: docs
 weight: 140
 url: /net/aspose.words.tables/cellformat/wraptext/
 ---
-## WrapText property
+## CellFormat.WrapText property
 
 If `true`, wrap text for the cell.
 

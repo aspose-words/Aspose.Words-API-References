@@ -7,7 +7,7 @@ type: docs
 weight: 130
 url: /net/aspose.words/tablestyle/shading/
 ---
-## Shading property
+## TableStyle.Shading property
 
 Gets a [`Shading`](../../shading/) object that refers to the shading formatting for table cells.
 

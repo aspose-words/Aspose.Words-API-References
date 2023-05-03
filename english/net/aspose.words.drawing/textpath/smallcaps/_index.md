@@ -7,7 +7,7 @@ type: docs
 weight: 130
 url: /net/aspose.words.drawing/textpath/smallcaps/
 ---
-## SmallCaps property
+## TextPath.SmallCaps property
 
 True if the font is formatted as small capital letters.
 

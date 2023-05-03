@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.settings/compatibilityoptions/cachedcolbalance/
 ---
-## CachedColBalance property
+## CompatibilityOptions.CachedColBalance property
 
 Use Cached Paragraph Information for Column Balancing.
 

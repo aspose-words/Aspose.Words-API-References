@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words/tablestyle/rightpadding/
 ---
-## RightPadding property
+## TableStyle.RightPadding property
 
 Gets or sets the amount of space (in points) to add to the right of the contents of table cells.
 

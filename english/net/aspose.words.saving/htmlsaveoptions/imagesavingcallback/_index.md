@@ -7,7 +7,7 @@ type: docs
 weight: 360
 url: /net/aspose.words.saving/htmlsaveoptions/imagesavingcallback/
 ---
-## ImageSavingCallback property
+## HtmlSaveOptions.ImageSavingCallback property
 
 Allows to control how images are saved when a document is saved to HTML, MHTML or EPUB.
 

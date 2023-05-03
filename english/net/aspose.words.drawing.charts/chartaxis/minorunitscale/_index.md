@@ -7,7 +7,7 @@ type: docs
 weight: 180
 url: /net/aspose.words.drawing.charts/chartaxis/minorunitscale/
 ---
-## MinorUnitScale property
+## ChartAxis.MinorUnitScale property
 
 Returns or sets the scale value for minor tick marks on the time category axis.
 

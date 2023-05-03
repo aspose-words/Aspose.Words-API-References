@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.drawing.charts/chartaxis/crossesat/
 ---
-## CrossesAt property
+## ChartAxis.CrossesAt property
 
 Specifies where on the perpendicular axis the axis crosses.
 

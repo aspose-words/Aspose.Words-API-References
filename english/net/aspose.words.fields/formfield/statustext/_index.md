@@ -7,7 +7,7 @@ type: docs
 weight: 180
 url: /net/aspose.words.fields/formfield/statustext/
 ---
-## StatusText property
+## FormField.StatusText property
 
 Returns or sets the text that's displayed in the status bar when a form field has the focus.
 

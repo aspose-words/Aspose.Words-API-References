@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.settings/odsorecipientdata/uniquetag/
 ---
-## UniqueTag property
+## OdsoRecipientData.UniqueTag property
 
 Specifies the contents of a given record in the column containing unique data. The default value is `null`.
 

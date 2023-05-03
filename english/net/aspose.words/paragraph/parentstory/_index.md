@@ -7,7 +7,7 @@ type: docs
 weight: 210
 url: /net/aspose.words/paragraph/parentstory/
 ---
-## ParentStory property
+## Paragraph.ParentStory property
 
 Retrieves the parent section-level story that can be [`Body`](../../body/) or [`HeaderFooter`](../../headerfooter/).
 

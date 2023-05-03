@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words/section/clearheadersfooters/
 ---
-## ClearHeadersFooters method
+## Section.ClearHeadersFooters method
 
 Clears the headers and footers of this section.
 

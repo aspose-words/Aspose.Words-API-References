@@ -7,7 +7,7 @@ type: docs
 weight: 340
 url: /net/aspose.words/documentbuilder/inserthorizontalrule/
 ---
-## InsertHorizontalRule method
+## DocumentBuilder.InsertHorizontalRule method
 
 Inserts a horizontal rule shape into the document.
 

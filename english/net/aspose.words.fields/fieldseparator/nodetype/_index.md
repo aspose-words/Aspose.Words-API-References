@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.fields/fieldseparator/nodetype/
 ---
-## NodeType property
+## FieldSeparator.NodeType property
 
 Returns FieldSeparator.
 

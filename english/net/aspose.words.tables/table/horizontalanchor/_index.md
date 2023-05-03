@@ -7,7 +7,7 @@ type: docs
 weight: 170
 url: /net/aspose.words.tables/table/horizontalanchor/
 ---
-## HorizontalAnchor property
+## Table.HorizontalAnchor property
 
 Gets the base object from which the horizontal positioning of floating table should be calculated. Default value is Column.
 

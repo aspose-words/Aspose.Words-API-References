@@ -7,7 +7,7 @@ type: docs
 weight: 130
 url: /net/aspose.words.fields/fieldoptions/filename/
 ---
-## FileName property
+## FieldOptions.FileName property
 
 Gets or sets the file name of the document.
 

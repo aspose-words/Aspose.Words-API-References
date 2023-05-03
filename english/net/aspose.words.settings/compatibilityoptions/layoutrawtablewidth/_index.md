@@ -7,7 +7,7 @@ type: docs
 weight: 290
 url: /net/aspose.words.settings/compatibilityoptions/layoutrawtablewidth/
 ---
-## LayoutRawTableWidth property
+## CompatibilityOptions.LayoutRawTableWidth property
 
 Ignore Space Before Table When Deciding If Table Should Wrap Floating Object.
 

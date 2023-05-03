@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words/nodecollection/indexof/
 ---
-## IndexOf method
+## NodeCollection.IndexOf method
 
 Returns the zero-based index of the specified node.
 

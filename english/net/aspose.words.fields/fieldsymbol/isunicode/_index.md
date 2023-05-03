@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.fields/fieldsymbol/isunicode/
 ---
-## IsUnicode property
+## FieldSymbol.IsUnicode property
 
 Gets or sets whether the character code is interpreted as the value of a Unicode character.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldtitle/text/
 ---
-## Text property
+## FieldTitle.Text property
 
 Gets or sets the text of the title.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words.fields/fieldcitation/volumenumber/
 ---
-## VolumeNumber property
+## FieldCitation.VolumeNumber property
 
 Gets or sets a volume number associated with the citation.
 

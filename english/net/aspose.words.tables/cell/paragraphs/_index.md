@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.tables/cell/paragraphs/
 ---
-## Paragraphs property
+## Cell.Paragraphs property
 
 Gets a collection of paragraphs that are immediate children of the cell.
 

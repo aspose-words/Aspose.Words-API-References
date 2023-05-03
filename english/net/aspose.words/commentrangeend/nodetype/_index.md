@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/commentrangeend/nodetype/
 ---
-## NodeType property
+## CommentRangeEnd.NodeType property
 
 Returns CommentRangeEnd.
 

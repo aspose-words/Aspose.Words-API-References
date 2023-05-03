@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fonts/physicalfontinfo/fontfamilyname/
 ---
-## FontFamilyName property
+## PhysicalFontInfo.FontFamilyName property
 
 Family name of the font.
 

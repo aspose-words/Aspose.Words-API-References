@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.reporting/reportingengine/gethashcode/
 ---
-## GetHashCode method
+## ReportingEngine.GetHashCode method
 
 Serves as a hash function for this type.
 

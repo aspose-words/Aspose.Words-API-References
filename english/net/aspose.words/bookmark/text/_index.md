@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words/bookmark/text/
 ---
-## Text property
+## Bookmark.Text property
 
 Gets or sets the text enclosed in the bookmark.
 

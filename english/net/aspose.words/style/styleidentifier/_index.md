@@ -7,7 +7,7 @@ type: docs
 weight: 150
 url: /net/aspose.words/style/styleidentifier/
 ---
-## StyleIdentifier property
+## Style.StyleIdentifier property
 
 Gets the locale independent style identifier for a built-in style.
 

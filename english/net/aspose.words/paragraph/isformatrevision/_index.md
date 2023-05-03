@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words/paragraph/isformatrevision/
 ---
-## IsFormatRevision property
+## Paragraph.IsFormatRevision property
 
 Returns true if formatting of the object was changed in Microsoft Word while change tracking was enabled.
 

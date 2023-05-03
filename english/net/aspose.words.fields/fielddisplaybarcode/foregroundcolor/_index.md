@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words.fields/fielddisplaybarcode/foregroundcolor/
 ---
-## ForegroundColor property
+## FieldDisplayBarcode.ForegroundColor property
 
 Gets or sets the foreground color of the barcode symbol. Valid values are in the range [0, 0xFFFFFF]
 

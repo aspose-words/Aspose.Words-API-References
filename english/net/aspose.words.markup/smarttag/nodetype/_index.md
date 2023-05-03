@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.markup/smarttag/nodetype/
 ---
-## NodeType property
+## SmartTag.NodeType property
 
 Returns SmartTag.
 

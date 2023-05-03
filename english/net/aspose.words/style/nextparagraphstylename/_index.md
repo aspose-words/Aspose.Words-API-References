@@ -7,7 +7,7 @@ type: docs
 weight: 130
 url: /net/aspose.words/style/nextparagraphstylename/
 ---
-## NextParagraphStyleName property
+## Style.NextParagraphStyleName property
 
 Gets/sets the name of the style to be applied automatically to a new paragraph inserted after a paragraph formatted with the specified style.
 

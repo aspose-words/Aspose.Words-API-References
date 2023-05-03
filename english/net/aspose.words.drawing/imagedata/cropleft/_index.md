@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.drawing/imagedata/cropleft/
 ---
-## CropLeft property
+## ImageData.CropLeft property
 
 Defines the fraction of picture removal from the left side.
 

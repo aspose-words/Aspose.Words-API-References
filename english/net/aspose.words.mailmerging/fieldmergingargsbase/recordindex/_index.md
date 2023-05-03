@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.mailmerging/fieldmergingargsbase/recordindex/
 ---
-## RecordIndex property
+## FieldMergingArgsBase.RecordIndex property
 
 Gets the zero based index of the record that is being merged.
 

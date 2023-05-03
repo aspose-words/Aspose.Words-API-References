@@ -7,7 +7,7 @@ type: docs
 weight: 360
 url: /net/aspose.words.drawing/shapebase/iswordart/
 ---
-## IsWordArt property
+## ShapeBase.IsWordArt property
 
 Returns `true` if this shape is a WordArt object.
 

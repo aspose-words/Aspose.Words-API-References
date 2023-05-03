@@ -7,7 +7,7 @@ type: docs
 weight: 350
 url: /net/aspose.words/document/revisions/
 ---
-## Revisions property
+## Document.Revisions property
 
 Gets a collection of revisions (tracked changes) that exist in this document.
 

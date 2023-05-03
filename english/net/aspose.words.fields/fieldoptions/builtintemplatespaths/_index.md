@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldoptions/builtintemplatespaths/
 ---
-## BuiltInTemplatesPaths property
+## FieldOptions.BuiltInTemplatesPaths property
 
 Gets or sets paths of MS Word built-in templates.
 

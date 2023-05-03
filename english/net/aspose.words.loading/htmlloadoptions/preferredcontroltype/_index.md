@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.loading/htmlloadoptions/preferredcontroltype/
 ---
-## PreferredControlType property
+## HtmlLoadOptions.PreferredControlType property
 
 Gets or sets preferred type of document nodes that will represent imported &lt;input&gt; and &lt;select&gt; elements. Default value is FormField.
 

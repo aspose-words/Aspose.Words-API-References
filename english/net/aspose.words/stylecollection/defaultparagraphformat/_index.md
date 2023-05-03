@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/stylecollection/defaultparagraphformat/
 ---
-## DefaultParagraphFormat property
+## StyleCollection.DefaultParagraphFormat property
 
 Gets document default paragraph formatting.
 

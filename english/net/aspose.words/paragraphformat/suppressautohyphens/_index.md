@@ -7,7 +7,7 @@ type: docs
 weight: 360
 url: /net/aspose.words/paragraphformat/suppressautohyphens/
 ---
-## SuppressAutoHyphens property
+## ParagraphFormat.SuppressAutoHyphens property
 
 Specifies whether the current paragraph should be exempted from any hyphenation which is applied in the document settings.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.saving/txtlistindentation/character/
 ---
-## Character property
+## TxtListIndentation.Character property
 
 Gets or sets which character to use for indenting list levels. The default value is '\0', that means there is no indentation.
 

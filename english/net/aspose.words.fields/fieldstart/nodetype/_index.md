@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldstart/nodetype/
 ---
-## NodeType property
+## FieldStart.NodeType property
 
 Returns FieldStart.
 

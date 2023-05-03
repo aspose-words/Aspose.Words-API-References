@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words/conditionalstylecollection/oddrowbanding/
 ---
-## OddRowBanding property
+## ConditionalStyleCollection.OddRowBanding property
 
 Gets the odd row banding style.
 

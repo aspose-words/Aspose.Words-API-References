@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.drawing/textpath/kerning/
 ---
-## Kerning property
+## TextPath.Kerning property
 
 Determines whether kerning is turned on.
 

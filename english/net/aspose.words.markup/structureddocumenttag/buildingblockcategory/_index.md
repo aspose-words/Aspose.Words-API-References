@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.markup/structureddocumenttag/buildingblockcategory/
 ---
-## BuildingBlockCategory property
+## StructuredDocumentTag.BuildingBlockCategory property
 
 Specifies category of building block for this **SDT** node. Can not be `null`.
 

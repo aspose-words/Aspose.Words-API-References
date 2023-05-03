@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.fields/fieldmergefield/fieldname/
 ---
-## FieldName property
+## FieldMergeField.FieldName property
 
 Gets or sets the name of a data field.
 

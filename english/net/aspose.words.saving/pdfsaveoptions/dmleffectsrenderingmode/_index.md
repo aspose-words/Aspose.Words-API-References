@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.saving/pdfsaveoptions/dmleffectsrenderingmode/
 ---
-## DmlEffectsRenderingMode property
+## PdfSaveOptions.DmlEffectsRenderingMode property
 
 Gets or sets a value determining how DrawingML effects are rendered.
 

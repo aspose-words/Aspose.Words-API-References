@@ -7,7 +7,7 @@ type: docs
 weight: 180
 url: /net/aspose.words.fields/fieldoptions/templatename/
 ---
-## TemplateName property
+## FieldOptions.TemplateName property
 
 Gets or sets the file name of the template used by the document.
 

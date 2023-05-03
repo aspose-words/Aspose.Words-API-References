@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words/warninginfocollection/getenumerator/
 ---
-## GetEnumerator method
+## WarningInfoCollection.GetEnumerator method
 
 Returns an enumerator object that can be used to iterate over all items in the collection.
 

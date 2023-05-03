@@ -7,7 +7,7 @@ type: docs
 weight: 170
 url: /net/aspose.words/controlchar/nonbreakingspace/
 ---
-## NonBreakingSpace field
+## ControlChar.NonBreakingSpace field
 
 Non-breaking space character: "\x00a0".
 

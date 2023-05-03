@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.drawing/gradientstopcollection/getenumerator/
 ---
-## GetEnumerator method
+## GradientStopCollection.GetEnumerator method
 
 Returns an enumerator that iterates through the collection.
 

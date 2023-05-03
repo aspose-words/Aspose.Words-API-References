@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.notes/footnoteoptions/numberstyle/
 ---
-## NumberStyle property
+## FootnoteOptions.NumberStyle property
 
 Specifies the number format for automatically numbered footnotes.
 

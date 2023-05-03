@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.tables/cell/islastcell/
 ---
-## IsLastCell property
+## Cell.IsLastCell property
 
 True if this is the last cell inside a row; false otherwise.
 

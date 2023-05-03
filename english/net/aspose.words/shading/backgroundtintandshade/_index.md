@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/shading/backgroundtintandshade/
 ---
-## BackgroundTintAndShade property
+## Shading.BackgroundTintAndShade property
 
 Gets or sets a double value that lightens or darkens a background theme color.
 

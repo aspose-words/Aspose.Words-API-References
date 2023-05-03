@@ -7,7 +7,7 @@ type: docs
 weight: 200
 url: /net/aspose.words.properties/builtindocumentproperties/manager/
 ---
-## Manager property
+## BuiltInDocumentProperties.Manager property
 
 Gets or sets the manager property.
 

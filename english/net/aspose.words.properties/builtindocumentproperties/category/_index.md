@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.properties/builtindocumentproperties/category/
 ---
-## Category property
+## BuiltInDocumentProperties.Category property
 
 Gets or sets the category of the document.
 

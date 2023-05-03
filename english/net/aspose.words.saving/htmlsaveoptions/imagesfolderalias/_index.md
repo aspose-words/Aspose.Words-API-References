@@ -7,7 +7,7 @@ type: docs
 weight: 380
 url: /net/aspose.words.saving/htmlsaveoptions/imagesfolderalias/
 ---
-## ImagesFolderAlias property
+## HtmlSaveOptions.ImagesFolderAlias property
 
 Specifies the name of the folder used to construct image URIs written into an HTML document. Default is an empty string.
 

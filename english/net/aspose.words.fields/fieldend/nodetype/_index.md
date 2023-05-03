@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldend/nodetype/
 ---
-## NodeType property
+## FieldEnd.NodeType property
 
 Returns FieldEnd.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.drawing/shadowformat/type/
 ---
-## Type property
+## ShadowFormat.Type property
 
 Gets or sets the specified [`ShadowType`](../../shadowtype/) for ShadowFormat.
 

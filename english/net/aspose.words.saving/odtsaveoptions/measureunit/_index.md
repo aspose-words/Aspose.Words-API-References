@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.saving/odtsaveoptions/measureunit/
 ---
-## MeasureUnit property
+## OdtSaveOptions.MeasureUnit property
 
 Allows to specify units of measure to apply to document content. The default value is Centimeters
 

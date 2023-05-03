@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.drawing/horizontalruleformat/widthpercent/
 ---
-## WidthPercent property
+## HorizontalRuleFormat.WidthPercent property
 
 Gets or sets the length of the specified horizontal rule expressed as a percentage of the window width.
 

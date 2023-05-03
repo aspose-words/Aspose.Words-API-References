@@ -7,7 +7,7 @@ type: docs
 weight: 270
 url: /net/aspose.words/documentbuilder/insertcell/
 ---
-## InsertCell method
+## DocumentBuilder.InsertCell method
 
 Inserts a table cell into the document.
 

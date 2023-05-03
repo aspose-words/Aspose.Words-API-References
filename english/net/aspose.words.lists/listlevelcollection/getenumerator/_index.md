@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.lists/listlevelcollection/getenumerator/
 ---
-## GetEnumerator method
+## ListLevelCollection.GetEnumerator method
 
 Gets the enumerator object that will enumerate levels in this list.
 

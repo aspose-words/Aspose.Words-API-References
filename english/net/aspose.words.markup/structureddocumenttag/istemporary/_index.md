@@ -7,7 +7,7 @@ type: docs
 weight: 160
 url: /net/aspose.words.markup/structureddocumenttag/istemporary/
 ---
-## IsTemporary property
+## StructuredDocumentTag.IsTemporary property
 
 Specifies whether this **SDT** shall be removed from the WordProcessingML document when its contents are modified.
 

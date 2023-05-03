@@ -7,7 +7,7 @@ type: docs
 weight: 260
 url: /net/aspose.words.saving/htmlsaveoptions/exportshapesassvg/
 ---
-## ExportShapesAsSvg property
+## HtmlSaveOptions.ExportShapesAsSvg property
 
 Controls whether [`Shape`](../../../aspose.words.drawing/shape/) nodes are converted to SVG images when saving to HTML, MHTML, EPUB or AZW3. Default value is `false`.
 

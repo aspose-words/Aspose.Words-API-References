@@ -7,7 +7,7 @@ type: docs
 weight: 680
 url: /net/aspose.words.drawing/shapebase/removeshapeattr/
 ---
-## RemoveShapeAttr method
+## ShapeBase.RemoveShapeAttr method
 
 Reserved for system use. IShapeAttrSource.
 

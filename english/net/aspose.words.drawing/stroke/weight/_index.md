@@ -7,7 +7,7 @@ type: docs
 weight: 210
 url: /net/aspose.words.drawing/stroke/weight/
 ---
-## Weight property
+## Stroke.Weight property
 
 Defines the brush thickness that strokes the path of a shape in points.
 
@@ -44,6 +44,7 @@ stroke.DashStyle = DashStyle.ShortDashDotDot;
 stroke.JoinStyle = JoinStyle.Miter;
 stroke.EndCap = EndCap.Square;
 stroke.LineStyle = ShapeLineStyle.Triple;
+stroke.Fill.TwoColorGradient(Color.Red, Color.Blue, GradientStyle.Vertical, GradientVariant.Variant1);
 
 doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 ```

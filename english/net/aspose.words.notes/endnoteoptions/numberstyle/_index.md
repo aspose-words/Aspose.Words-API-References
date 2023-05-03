@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.notes/endnoteoptions/numberstyle/
 ---
-## NumberStyle property
+## EndnoteOptions.NumberStyle property
 
 Specifies the number format for automatically numbered endnotes.
 

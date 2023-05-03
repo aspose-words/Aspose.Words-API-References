@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words.fields/fieldtoc/pagenumberomittinglevelrange/
 ---
-## PageNumberOmittingLevelRange property
+## FieldToc.PageNumberOmittingLevelRange property
 
 Gets or sets a range of levels of the table of contents entries from which to omits page numbers.
 

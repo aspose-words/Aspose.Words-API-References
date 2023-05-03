@@ -7,7 +7,7 @@ type: docs
 weight: 200
 url: /net/aspose.words.drawing/shapebase/height/
 ---
-## Height property
+## ShapeBase.Height property
 
 Gets or sets the height of the containing block of the shape.
 

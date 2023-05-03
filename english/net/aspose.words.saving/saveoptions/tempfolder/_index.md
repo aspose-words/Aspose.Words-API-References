@@ -7,7 +7,7 @@ type: docs
 weight: 140
 url: /net/aspose.words.saving/saveoptions/tempfolder/
 ---
-## TempFolder property
+## SaveOptions.TempFolder property
 
 Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is `null` and no temporary files are used.
 

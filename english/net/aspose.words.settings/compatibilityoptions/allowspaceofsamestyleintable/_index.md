@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.settings/compatibilityoptions/allowspaceofsamestyleintable/
 ---
-## AllowSpaceOfSameStyleInTable property
+## CompatibilityOptions.AllowSpaceOfSameStyleInTable property
 
 Allow Contextual Spacing of Paragraphs in Tables.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/chartlegendentrycollection/count/
 ---
-## Count property
+## ChartLegendEntryCollection.Count property
 
 Returns the number of [`ChartLegendEntry`](../../chartlegendentry/) in this collection.
 

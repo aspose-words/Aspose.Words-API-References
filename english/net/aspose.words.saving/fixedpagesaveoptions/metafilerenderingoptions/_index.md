@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.saving/fixedpagesaveoptions/metafilerenderingoptions/
 ---
-## MetafileRenderingOptions property
+## FixedPageSaveOptions.MetafileRenderingOptions property
 
 Allows to specify metafile rendering options.
 

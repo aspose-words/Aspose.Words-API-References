@@ -7,7 +7,7 @@ type: docs
 weight: 260
 url: /net/aspose.words/paragraph/gettext/
 ---
-## GetText method
+## Paragraph.GetText method
 
 Gets the text of this paragraph including the end of paragraph character.
 

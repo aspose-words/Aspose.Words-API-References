@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words/compositenode/gettext/
 ---
-## GetText method
+## CompositeNode.GetText method
 
 Gets the text of this node and of all its children.
 

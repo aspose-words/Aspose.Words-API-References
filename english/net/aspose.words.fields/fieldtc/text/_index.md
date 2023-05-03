@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldtc/text/
 ---
-## Text property
+## FieldTC.Text property
 
 Gets or sets the text of the entry.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/fielddatabasedatatable/createfrom/
 ---
-## CreateFrom method
+## FieldDatabaseDataTable.CreateFrom method
 
 Initializes a new instance of the [`FieldDatabaseDataTable`](../) class from the DataTable instance.
 

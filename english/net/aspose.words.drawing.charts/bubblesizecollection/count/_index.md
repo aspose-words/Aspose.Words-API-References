@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/bubblesizecollection/count/
 ---
-## Count property
+## BubbleSizeCollection.Count property
 
 Gets the number of items in this collection.
 

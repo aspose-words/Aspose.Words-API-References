@@ -7,7 +7,7 @@ type: docs
 weight: 140
 url: /net/aspose.words.settings/mailmergesettings/maindocumenttype/
 ---
-## MainDocumentType property
+## MailMergeSettings.MainDocumentType property
 
 Specifies the mail-merge main document type. The default value is Default.
 

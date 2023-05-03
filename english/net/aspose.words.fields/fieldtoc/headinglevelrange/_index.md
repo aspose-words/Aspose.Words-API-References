@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.fields/fieldtoc/headinglevelrange/
 ---
-## HeadingLevelRange property
+## FieldToc.HeadingLevelRange property
 
 Gets or sets a range of heading levels to include.
 

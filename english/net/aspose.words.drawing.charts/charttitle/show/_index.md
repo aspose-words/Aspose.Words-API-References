@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/charttitle/show/
 ---
-## Show property
+## ChartTitle.Show property
 
 Determines whether the title shall be shown for this chart. Default value is `true`.
 

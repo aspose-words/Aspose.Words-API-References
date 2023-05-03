@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/textcolumncollection/linebetween/
 ---
-## LineBetween property
+## TextColumnCollection.LineBetween property
 
 When `true`, adds a vertical line between columns.
 

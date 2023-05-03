@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.markup/customxmlpropertycollection/remove/
 ---
-## Remove method
+## CustomXmlPropertyCollection.Remove method
 
 Removes a property with the specified name from the collection.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 180
 url: /net/aspose.words.settings/compatibilityoptions/donotsuppressindentation/
 ---
-## DoNotSuppressIndentation property
+## CompatibilityOptions.DoNotSuppressIndentation property
 
 Do Not Ignore Floating Objects When Calculating Paragraph Indentation.
 

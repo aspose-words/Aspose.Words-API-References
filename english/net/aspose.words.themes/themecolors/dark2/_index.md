@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.themes/themecolors/dark2/
 ---
-## Dark2 property
+## ThemeColors.Dark2 property
 
 Specifies color Dark 2.
 

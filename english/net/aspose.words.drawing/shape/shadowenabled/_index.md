@@ -7,7 +7,7 @@ type: docs
 weight: 150
 url: /net/aspose.words.drawing/shape/shadowenabled/
 ---
-## ShadowEnabled property
+## Shape.ShadowEnabled property
 
 Returns `true` if a shadow effect is enabled.
 

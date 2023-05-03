@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.fonts/fontinfo/getembeddedfont/
 ---
-## GetEmbeddedFont method
+## FontInfo.GetEmbeddedFont method
 
 Gets a specific embedded font file.
 

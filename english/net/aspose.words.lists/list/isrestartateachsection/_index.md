@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.lists/list/isrestartateachsection/
 ---
-## IsRestartAtEachSection property
+## List.IsRestartAtEachSection property
 
 Specifies whether list should be restarted at each section. Default value is `false`.
 

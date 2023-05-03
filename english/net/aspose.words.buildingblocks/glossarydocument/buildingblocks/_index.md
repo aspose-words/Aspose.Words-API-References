@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.buildingblocks/glossarydocument/buildingblocks/
 ---
-## BuildingBlocks property
+## GlossaryDocument.BuildingBlocks property
 
 Returns a typed collection that represents all building blocks in the glossary document.
 

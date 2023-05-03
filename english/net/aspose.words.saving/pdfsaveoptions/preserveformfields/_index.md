@@ -7,7 +7,7 @@ type: docs
 weight: 270
 url: /net/aspose.words.saving/pdfsaveoptions/preserveformfields/
 ---
-## PreserveFormFields property
+## PdfSaveOptions.PreserveFormFields property
 
 Specifies whether to preserve Microsoft Word form fields as form fields in PDF or convert them to text. Default is `false`.
 

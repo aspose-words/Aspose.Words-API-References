@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.framesets/frameset/framedefaulturl/
 ---
-## FrameDefaultUrl property
+## Frameset.FrameDefaultUrl property
 
 Gets or sets the web page URL or document file name to display in this frame.
 

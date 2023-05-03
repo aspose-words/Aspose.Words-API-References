@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words.drawing/textbox/previous/
 ---
-## Previous property
+## TextBox.Previous property
 
 Returns a [`TextBox`](../) that represents the previous [`TextBox`](../) in a sequence of shapes.
 

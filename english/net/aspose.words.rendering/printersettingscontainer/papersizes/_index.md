@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.rendering/printersettingscontainer/papersizes/
 ---
-## PaperSizes property
+## PrinterSettingsContainer.PaperSizes property
 
 See PaperSizes.
 

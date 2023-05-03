@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.saving/fontsavingargs/keepfontstreamopen/
 ---
-## KeepFontStreamOpen property
+## FontSavingArgs.KeepFontStreamOpen property
 
 Specifies whether Aspose.Words should keep the stream open or close it after saving a font.
 

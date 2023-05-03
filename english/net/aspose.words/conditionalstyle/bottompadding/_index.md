@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/conditionalstyle/bottompadding/
 ---
-## BottomPadding property
+## ConditionalStyle.BottomPadding property
 
 Gets or sets the amount of space (in points) to add below the contents of table cells.
 

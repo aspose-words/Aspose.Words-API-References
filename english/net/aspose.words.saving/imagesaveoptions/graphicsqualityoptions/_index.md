@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.saving/imagesaveoptions/graphicsqualityoptions/
 ---
-## GraphicsQualityOptions property
+## ImageSaveOptions.GraphicsQualityOptions property
 
 Allows to specify rendering mode and quality for the Graphics object.
 

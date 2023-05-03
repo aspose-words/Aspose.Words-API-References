@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/tablestyle/alignment/
 ---
-## Alignment property
+## TableStyle.Alignment property
 
 Specifies the alignment for the table style.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 170
 url: /net/aspose.words.fields/barcodeparameters/symbolheight/
 ---
-## SymbolHeight property
+## BarcodeParameters.SymbolHeight property
 
 Bar code image height (in twips - 1/1440 inches)
 

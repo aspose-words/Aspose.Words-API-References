@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldset/bookmarktext/
 ---
-## BookmarkText property
+## FieldSet.BookmarkText property
 
 Gets or sets the new text of the bookmark.
 

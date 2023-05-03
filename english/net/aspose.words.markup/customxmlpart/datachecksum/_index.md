@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.markup/customxmlpart/datachecksum/
 ---
-## DataChecksum property
+## CustomXmlPart.DataChecksum property
 
 Specifies a cyclic redundancy check (CRC) checksum of the [`Data`](../data/) content.
 

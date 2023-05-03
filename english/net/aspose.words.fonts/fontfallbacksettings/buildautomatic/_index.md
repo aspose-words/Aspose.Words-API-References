@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.fonts/fontfallbacksettings/buildautomatic/
 ---
-## BuildAutomatic method
+## FontFallbackSettings.BuildAutomatic method
 
 Automatically builds the fallback settings by scanning available fonts.
 

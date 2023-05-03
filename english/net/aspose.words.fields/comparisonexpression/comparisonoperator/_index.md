@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.fields/comparisonexpression/comparisonoperator/
 ---
-## ComparisonOperator property
+## ComparisonExpression.ComparisonOperator property
 
 Gets the comparison operator.
 

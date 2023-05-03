@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words/paragraphformat/dropcapposition/
 ---
-## DropCapPosition property
+## ParagraphFormat.DropCapPosition property
 
 Gets or sets the position for a drop cap text.
 

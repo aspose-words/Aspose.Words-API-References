@@ -7,7 +7,7 @@ type: docs
 weight: 280
 url: /net/aspose.words.drawing/shapebase/isimage/
 ---
-## IsImage property
+## ShapeBase.IsImage property
 
 Returns `true` if this shape is an image shape.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 450
 url: /net/aspose.words/pagesetup/verticalalignment/
 ---
-## VerticalAlignment property
+## PageSetup.VerticalAlignment property
 
 Returns or sets the vertical alignment of text on each page in a document or section.
 

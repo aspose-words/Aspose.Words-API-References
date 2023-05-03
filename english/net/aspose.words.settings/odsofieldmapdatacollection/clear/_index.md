@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.settings/odsofieldmapdatacollection/clear/
 ---
-## Clear method
+## OdsoFieldMapDataCollection.Clear method
 
 Removes all elements from this collection.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 220
 url: /net/aspose.words.drawing/imagedata/toimage/
 ---
-## ToImage method
+## ImageData.ToImage method
 
 Gets the image stored in the shape as a Image object.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldcollection/remove/
 ---
-## Remove method
+## FieldCollection.Remove method
 
 Removes the specified field from this collection and from the document.
 

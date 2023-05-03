@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/frameformat/horizontalalignment/
 ---
-## HorizontalAlignment property
+## FrameFormat.HorizontalAlignment property
 
 Gets horizontal alignment of the specified frame.
 

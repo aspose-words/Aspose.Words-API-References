@@ -7,7 +7,7 @@ type: docs
 weight: 500
 url: /net/aspose.words/font/themefontfareast/
 ---
-## ThemeFontFarEast property
+## Font.ThemeFontFarEast property
 
 Gets or sets the East Asian theme font in the applied font scheme that is associated with this [`Font`](../) object.
 

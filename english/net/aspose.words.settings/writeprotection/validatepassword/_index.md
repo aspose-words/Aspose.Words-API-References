@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.settings/writeprotection/validatepassword/
 ---
-## ValidatePassword method
+## WriteProtection.ValidatePassword method
 
 Returns `true` if the specified password is the same as the write-protection password the document was protected with. If document is not write-protected with password then returns `false`.
 

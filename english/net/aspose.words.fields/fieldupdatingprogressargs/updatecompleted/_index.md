@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldupdatingprogressargs/updatecompleted/
 ---
-## UpdateCompleted property
+## FieldUpdatingProgressArgs.UpdateCompleted property
 
 Gets a value indicating whether field updating is completed.
 

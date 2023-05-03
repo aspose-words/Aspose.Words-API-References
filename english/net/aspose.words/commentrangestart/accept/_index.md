@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/commentrangestart/accept/
 ---
-## Accept method
+## CommentRangeStart.Accept method
 
 Accepts a visitor.
 

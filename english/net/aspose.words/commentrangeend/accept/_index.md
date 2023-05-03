@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/commentrangeend/accept/
 ---
-## Accept method
+## CommentRangeEnd.Accept method
 
 Accepts a visitor.
 

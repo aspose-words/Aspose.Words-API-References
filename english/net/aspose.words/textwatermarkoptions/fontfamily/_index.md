@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/textwatermarkoptions/fontfamily/
 ---
-## FontFamily property
+## TextWatermarkOptions.FontFamily property
 
 Gets or sets font family name. The default value is "Calibri".
 

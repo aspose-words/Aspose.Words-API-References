@@ -7,7 +7,7 @@ type: docs
 weight: 200
 url: /net/aspose.words.drawing/shape/stroked/
 ---
-## Stroked property
+## Shape.Stroked property
 
 Defines whether the path will be stroked.
 

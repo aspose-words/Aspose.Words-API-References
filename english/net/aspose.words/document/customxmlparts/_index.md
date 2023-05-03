@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words/document/customxmlparts/
 ---
-## CustomXmlParts property
+## Document.CustomXmlParts property
 
 Gets or sets the collection of Custom XML Data Storage Parts.
 

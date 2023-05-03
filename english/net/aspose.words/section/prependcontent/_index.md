@@ -7,7 +7,7 @@ type: docs
 weight: 140
 url: /net/aspose.words/section/prependcontent/
 ---
-## PrependContent method
+## Section.PrependContent method
 
 Inserts a copy of content of the source section at the beginning of this section.
 

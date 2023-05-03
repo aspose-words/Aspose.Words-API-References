@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldseq/insertnextnumber/
 ---
-## InsertNextNumber property
+## FieldSeq.InsertNextNumber property
 
 Gets or sets whether to insert the next sequence number for the specified item.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldautotextlist/entryname/
 ---
-## EntryName property
+## FieldAutoTextList.EntryName property
 
 Gets or sets the name of the AutoText entry.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.drawing/textpath/bold/
 ---
-## Bold property
+## TextPath.Bold property
 
 True if the font is formatted as bold.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.drawing.charts/chartseries/hasdatalabels/
 ---
-## HasDataLabels property
+## ChartSeries.HasDataLabels property
 
 Gets or sets a flag indicating whether data labels are displayed for the series.
 

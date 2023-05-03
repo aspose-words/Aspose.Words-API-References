@@ -7,7 +7,7 @@ type: docs
 weight: 430
 url: /net/aspose.words.settings/compatibilityoptions/showbreaksinframes/
 ---
-## ShowBreaksInFrames property
+## CompatibilityOptions.ShowBreaksInFrames property
 
 Display Page/Column Breaks Present in Frames.
 

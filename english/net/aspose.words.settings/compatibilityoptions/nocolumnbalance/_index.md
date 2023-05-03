@@ -7,7 +7,7 @@ type: docs
 weight: 330
 url: /net/aspose.words.settings/compatibilityoptions/nocolumnbalance/
 ---
-## NoColumnBalance property
+## CompatibilityOptions.NoColumnBalance property
 
 Do Not Balance Text Columns within a Section.
 

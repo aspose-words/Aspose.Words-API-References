@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/node/nextsibling/
 ---
-## NextSibling property
+## Node.NextSibling property
 
 Gets the node immediately following this node.
 

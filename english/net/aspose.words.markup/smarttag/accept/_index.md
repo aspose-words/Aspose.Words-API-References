@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.markup/smarttag/accept/
 ---
-## Accept method
+## SmartTag.Accept method
 
 Accepts a visitor.
 

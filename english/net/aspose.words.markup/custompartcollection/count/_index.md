@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.markup/custompartcollection/count/
 ---
-## Count property
+## CustomPartCollection.Count property
 
 Gets the number of elements contained in the collection.
 

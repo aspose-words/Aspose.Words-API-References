@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.tables/table/allowcellspacing/
 ---
-## AllowCellSpacing property
+## Table.AllowCellSpacing property
 
 Gets or sets the "Allow spacing between cells" option.
 

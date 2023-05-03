@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.themes/themecolors/accent3/
 ---
-## Accent3 property
+## ThemeColors.Accent3 property
 
 Specifies color Accent 3.
 

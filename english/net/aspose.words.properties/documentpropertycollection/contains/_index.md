@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.properties/documentpropertycollection/contains/
 ---
-## Contains method
+## DocumentPropertyCollection.Contains method
 
 Returns `true` if a property with the specified name exists in the collection.
 

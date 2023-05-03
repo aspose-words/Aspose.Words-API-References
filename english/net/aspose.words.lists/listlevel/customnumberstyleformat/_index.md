@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.lists/listlevel/customnumberstyleformat/
 ---
-## CustomNumberStyleFormat property
+## ListLevel.CustomNumberStyleFormat property
 
 Gets the custom number style format for this list level. For example: "a, ç, ĝ, ...".
 

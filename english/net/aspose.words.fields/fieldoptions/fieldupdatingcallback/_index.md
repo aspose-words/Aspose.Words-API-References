@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words.fields/fieldoptions/fieldupdatingcallback/
 ---
-## FieldUpdatingCallback property
+## FieldOptions.FieldUpdatingCallback property
 
 Gets or sets [`IFieldUpdatingCallback`](../../ifieldupdatingcallback/) implementation
 

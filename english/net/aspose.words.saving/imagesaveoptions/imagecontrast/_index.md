@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.saving/imagesaveoptions/imagecontrast/
 ---
-## ImageContrast property
+## ImageSaveOptions.ImageContrast property
 
 Gets or sets the contrast for the generated images.
 

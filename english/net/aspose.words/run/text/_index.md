@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words/run/text/
 ---
-## Text property
+## Run.Text property
 
 Gets or sets the text of the run.
 

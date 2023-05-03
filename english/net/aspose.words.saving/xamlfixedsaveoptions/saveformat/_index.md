@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.saving/xamlfixedsaveoptions/saveformat/
 ---
-## SaveFormat property
+## XamlFixedSaveOptions.SaveFormat property
 
 Specifies the format in which the document will be saved if this save options object is used. Can only be XamlFixed.
 

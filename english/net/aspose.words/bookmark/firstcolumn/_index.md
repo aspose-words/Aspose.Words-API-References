@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/bookmark/firstcolumn/
 ---
-## FirstColumn property
+## Bookmark.FirstColumn property
 
 Gets the zero-based index of the first column of the table column range associated with the bookmark.
 

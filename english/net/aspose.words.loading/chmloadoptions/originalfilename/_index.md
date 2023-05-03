@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.loading/chmloadoptions/originalfilename/
 ---
-## OriginalFileName property
+## ChmLoadOptions.OriginalFileName property
 
 The name of the CHM file. Default value is `null`.
 

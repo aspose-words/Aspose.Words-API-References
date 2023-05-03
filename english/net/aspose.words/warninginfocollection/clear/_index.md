@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/warninginfocollection/clear/
 ---
-## Clear method
+## WarningInfoCollection.Clear method
 
 Removes all elements from the collection.
 

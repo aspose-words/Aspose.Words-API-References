@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.saving/txtlistindentation/count/
 ---
-## Count property
+## TxtListIndentation.Count property
 
 Gets or sets how many [`Character`](../character/) to use as indentation per one list level. The default value is 0, that means no indentation.
 

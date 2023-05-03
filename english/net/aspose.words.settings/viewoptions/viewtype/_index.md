@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.settings/viewoptions/viewtype/
 ---
-## ViewType property
+## ViewOptions.ViewType property
 
 Controls the view mode in Microsoft Word.
 

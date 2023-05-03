@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.tables/table/alignment/
 ---
-## Alignment property
+## Table.Alignment property
 
 Specifies how an inline table is aligned in the document.
 

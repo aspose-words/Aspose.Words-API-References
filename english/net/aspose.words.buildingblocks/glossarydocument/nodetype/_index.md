@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.buildingblocks/glossarydocument/nodetype/
 ---
-## NodeType property
+## GlossaryDocument.NodeType property
 
 Returns the GlossaryDocument value.
 

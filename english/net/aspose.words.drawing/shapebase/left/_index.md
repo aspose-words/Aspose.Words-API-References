@@ -7,7 +7,7 @@ type: docs
 weight: 370
 url: /net/aspose.words.drawing/shapebase/left/
 ---
-## Left property
+## ShapeBase.Left property
 
 Gets or sets the position of the left edge of the containing block of the shape.
 

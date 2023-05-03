@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.drawing/stroke/color2/
 ---
-## Color2 property
+## Stroke.Color2 property
 
 Defines a second color for a stroke.
 

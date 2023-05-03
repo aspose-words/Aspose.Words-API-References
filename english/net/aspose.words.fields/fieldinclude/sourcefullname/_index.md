@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldinclude/sourcefullname/
 ---
-## SourceFullName property
+## FieldInclude.SourceFullName property
 
 Gets or sets the location of the document.
 

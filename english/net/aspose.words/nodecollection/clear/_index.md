@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/nodecollection/clear/
 ---
-## Clear method
+## NodeCollection.Clear method
 
 Removes all nodes from this collection and from the document.
 

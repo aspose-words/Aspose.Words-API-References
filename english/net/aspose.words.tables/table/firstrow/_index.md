@@ -7,7 +7,7 @@ type: docs
 weight: 160
 url: /net/aspose.words.tables/table/firstrow/
 ---
-## FirstRow property
+## Table.FirstRow property
 
 Returns the first [`Row`](../../row/) node in the table.
 

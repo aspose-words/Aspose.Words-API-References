@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words/fileformatutil/loadformattoextension/
 ---
-## LoadFormatToExtension method
+## FileFormatUtil.LoadFormatToExtension method
 
 Converts a load format enumerated value into a file extension. The returned extension is a lower-case string with a leading dot.
 

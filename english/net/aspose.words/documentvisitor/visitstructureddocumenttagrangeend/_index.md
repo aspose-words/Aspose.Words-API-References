@@ -7,7 +7,7 @@ type: docs
 weight: 450
 url: /net/aspose.words/documentvisitor/visitstructureddocumenttagrangeend/
 ---
-## VisitStructuredDocumentTagRangeEnd method
+## DocumentVisitor.VisitStructuredDocumentTagRangeEnd method
 
 Called when a StructuredDocumentTagRangeEnd is encountered.
 

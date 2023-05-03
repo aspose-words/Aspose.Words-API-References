@@ -7,7 +7,7 @@ type: docs
 weight: 160
 url: /net/aspose.words/document/frameset/
 ---
-## Frameset property
+## Document.Frameset property
 
 Returns a `Frameset` instance if this document represents a frames page.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.fonts/tablesubstitutionrule/addsubstitutes/
 ---
-## AddSubstitutes method
+## TableSubstitutionRule.AddSubstitutes method
 
 Adds substitute font names for given original font name.
 

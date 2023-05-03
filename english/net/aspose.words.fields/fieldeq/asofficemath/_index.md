@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldeq/asofficemath/
 ---
-## AsOfficeMath method
+## FieldEQ.AsOfficeMath method
 
 Returns Office Math object corresponded to the EQ field.
 

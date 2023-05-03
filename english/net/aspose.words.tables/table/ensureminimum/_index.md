@@ -7,7 +7,7 @@ type: docs
 weight: 400
 url: /net/aspose.words.tables/table/ensureminimum/
 ---
-## EnsureMinimum method
+## Table.EnsureMinimum method
 
 If the table has no rows, creates and appends one [`Row`](../../row/).
 

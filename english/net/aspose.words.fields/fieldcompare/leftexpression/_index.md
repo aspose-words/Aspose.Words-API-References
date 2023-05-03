@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldcompare/leftexpression/
 ---
-## LeftExpression property
+## FieldCompare.LeftExpression property
 
 Gets or sets the left part of the comparison expression.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 130
 url: /net/aspose.words.fields/fielddisplaybarcode/symbolheight/
 ---
-## SymbolHeight property
+## FieldDisplayBarcode.SymbolHeight property
 
 Gets or sets the height of the symbol. The units are in TWIPS (1/1440 inch).
 

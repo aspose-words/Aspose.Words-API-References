@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.drawing/textbox/next/
 ---
-## Next property
+## TextBox.Next property
 
 Returns or sets a [`TextBox`](../) that represents the next [`TextBox`](../) in a sequence of shapes.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 520
 url: /net/aspose.words.settings/compatibilityoptions/suppresstopspacingwp/
 ---
-## SuppressTopSpacingWP property
+## CompatibilityOptions.SuppressTopSpacingWP property
 
 Emulate WordPerfect 5.x Line Spacing.
 

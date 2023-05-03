@@ -7,7 +7,7 @@ type: docs
 weight: 210
 url: /net/aspose.words.fields/formfield/textinputtype/
 ---
-## TextInputType property
+## FormField.TextInputType property
 
 Gets or sets the type of a text form field.
 

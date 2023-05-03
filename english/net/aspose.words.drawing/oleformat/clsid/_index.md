@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.drawing/oleformat/clsid/
 ---
-## Clsid property
+## OleFormat.Clsid property
 
 Gets the CLSID of the OLE object.
 

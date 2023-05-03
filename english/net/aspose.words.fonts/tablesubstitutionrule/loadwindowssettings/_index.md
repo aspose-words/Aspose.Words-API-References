@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.fonts/tablesubstitutionrule/loadwindowssettings/
 ---
-## LoadWindowsSettings method
+## TableSubstitutionRule.LoadWindowsSettings method
 
 Loads predefined table substitution settings for Windows platform.
 

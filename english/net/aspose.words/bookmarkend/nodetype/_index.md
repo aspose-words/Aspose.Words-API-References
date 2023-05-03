@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/bookmarkend/nodetype/
 ---
-## NodeType property
+## BookmarkEnd.NodeType property
 
 Returns BookmarkEnd.
 

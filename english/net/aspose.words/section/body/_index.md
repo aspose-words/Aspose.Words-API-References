@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/section/body/
 ---
-## Body property
+## Section.Body property
 
 Returns the [`Body`](../../body/) child node of the section.
 

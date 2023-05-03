@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.shaping/glyph/advanceoffset/
 ---
-## AdvanceOffset property
+## Glyph.AdvanceOffset property
 
 Horizontal (x) offset relative to glyph position. Mostly used to attach marks (like diacritics) to base characters.
 

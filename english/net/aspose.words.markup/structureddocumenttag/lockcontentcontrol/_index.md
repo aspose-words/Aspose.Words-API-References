@@ -7,7 +7,7 @@ type: docs
 weight: 190
 url: /net/aspose.words.markup/structureddocumenttag/lockcontentcontrol/
 ---
-## LockContentControl property
+## StructuredDocumentTag.LockContentControl property
 
 When set to `true`, this property will prohibit a user from deleting this **SDT**.
 

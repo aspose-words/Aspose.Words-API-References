@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.layout/layoutenumerator/document/
 ---
-## Document property
+## LayoutEnumerator.Document property
 
 Gets document this instance enumerates.
 

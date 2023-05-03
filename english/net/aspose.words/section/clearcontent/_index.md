@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words/section/clearcontent/
 ---
-## ClearContent method
+## Section.ClearContent method
 
 Clears the section.
 

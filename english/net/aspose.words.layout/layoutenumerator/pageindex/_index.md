@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.layout/layoutenumerator/pageindex/
 ---
-## PageIndex property
+## LayoutEnumerator.PageIndex property
 
 Gets the 1-based index of a page which contains the current entity.
 

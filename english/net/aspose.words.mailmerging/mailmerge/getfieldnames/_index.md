@@ -7,7 +7,7 @@ type: docs
 weight: 220
 url: /net/aspose.words.mailmerging/mailmerge/getfieldnames/
 ---
-## GetFieldNames method
+## MailMerge.GetFieldNames method
 
 Returns a collection of mail merge field names available in the document.
 

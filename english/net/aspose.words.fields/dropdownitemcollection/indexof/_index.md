@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.fields/dropdownitemcollection/indexof/
 ---
-## IndexOf method
+## DropDownItemCollection.IndexOf method
 
 Returns the zero-based index of the specified value in the collection.
 

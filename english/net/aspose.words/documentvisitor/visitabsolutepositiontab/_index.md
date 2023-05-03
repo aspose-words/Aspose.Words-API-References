@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/documentvisitor/visitabsolutepositiontab/
 ---
-## VisitAbsolutePositionTab method
+## DocumentVisitor.VisitAbsolutePositionTab method
 
 Called when a [`AbsolutePositionTab`](../../absolutepositiontab/) node is encountered in the document.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/pagesetup/bidi/
 ---
-## Bidi property
+## PageSetup.Bidi property
 
 Specifies that this section contains bidirectional (complex scripts) text.
 

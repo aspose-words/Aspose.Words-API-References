@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words/tabstop/gethashcode/
 ---
-## GetHashCode method
+## TabStop.GetHashCode method
 
 Calculates hash code for this object.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words.themes/themecolors/hyperlink/
 ---
-## Hyperlink property
+## ThemeColors.Hyperlink property
 
 Specifies color for a hyperlink.
 

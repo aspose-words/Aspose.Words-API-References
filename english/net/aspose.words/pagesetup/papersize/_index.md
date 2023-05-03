@@ -7,7 +7,7 @@ type: docs
 weight: 350
 url: /net/aspose.words/pagesetup/papersize/
 ---
-## PaperSize property
+## PageSetup.PaperSize property
 
 Returns or sets the paper size.
 

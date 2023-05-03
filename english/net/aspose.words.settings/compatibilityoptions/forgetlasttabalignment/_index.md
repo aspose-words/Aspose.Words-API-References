@@ -7,7 +7,7 @@ type: docs
 weight: 270
 url: /net/aspose.words.settings/compatibilityoptions/forgetlasttabalignment/
 ---
-## ForgetLastTabAlignment property
+## CompatibilityOptions.ForgetLastTabAlignment property
 
 Ignore Width of Last Tab Stop When Aligning Paragraph If It Is Not Left Aligned.
 

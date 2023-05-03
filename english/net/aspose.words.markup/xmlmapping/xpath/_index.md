@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.markup/xmlmapping/xpath/
 ---
-## XPath property
+## XmlMapping.XPath property
 
 Returns the XPath expression, which is evaluated to find the custom XML node that is mapped to the parent structured document tag.
 

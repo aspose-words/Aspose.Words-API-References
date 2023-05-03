@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words.fields/fieldincludetext/xsltransformation/
 ---
-## XslTransformation property
+## FieldIncludeText.XslTransformation property
 
 Gets or sets the location of XSL Transformation to format XML data.
 

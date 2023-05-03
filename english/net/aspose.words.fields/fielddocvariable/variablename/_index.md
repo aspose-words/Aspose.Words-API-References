@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/fielddocvariable/variablename/
 ---
-## VariableName property
+## FieldDocVariable.VariableName property
 
 Gets or sets the name of the document variable to retrieve.
 

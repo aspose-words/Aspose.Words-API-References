@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words/fileformatutil/saveformattoextension/
 ---
-## SaveFormatToExtension method
+## FileFormatUtil.SaveFormatToExtension method
 
 Converts a save format enumerated value into a file extension. The returned extension is a lower-case string with a leading dot.
 

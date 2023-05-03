@@ -7,7 +7,7 @@ type: docs
 weight: 440
 url: /net/aspose.words/documentvisitor/visitstructureddocumenttagend/
 ---
-## VisitStructuredDocumentTagEnd method
+## DocumentVisitor.VisitStructuredDocumentTagEnd method
 
 Called when enumeration of a structured document tag has ended.
 

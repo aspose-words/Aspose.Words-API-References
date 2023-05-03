@@ -7,7 +7,7 @@ type: docs
 weight: 230
 url: /net/aspose.words.markup/structureddocumenttagrangestart/removeallchildren/
 ---
-## RemoveAllChildren method
+## StructuredDocumentTagRangeStart.RemoveAllChildren method
 
 Removes all the nodes between this range start node and the range end node.
 

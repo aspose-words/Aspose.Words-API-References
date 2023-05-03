@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.loading/txtloadoptions/leadingspacesoptions/
 ---
-## LeadingSpacesOptions property
+## TxtLoadOptions.LeadingSpacesOptions property
 
 Gets or sets preferred option of a leading space handling. Default value is ConvertToIndent.
 

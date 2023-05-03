@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.fields/barcodeparameters/errorcorrectionlevel/
 ---
-## ErrorCorrectionLevel property
+## BarcodeParameters.ErrorCorrectionLevel property
 
 Error correction level of QR Code. Valid values are [0, 3].
 

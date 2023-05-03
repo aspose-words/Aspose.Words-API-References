@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.vba/vbamodulecollection/add/
 ---
-## Add method
+## VbaModuleCollection.Add method
 
 Adds a module to the collection.
 

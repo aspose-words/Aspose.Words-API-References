@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words/variablecollection/removeat/
 ---
-## RemoveAt method
+## VariableCollection.RemoveAt method
 
 Removes a document variable at the specified index.
 

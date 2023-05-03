@@ -7,7 +7,7 @@ type: docs
 weight: 140
 url: /net/aspose.words.fields/fieldindex/runsubentriesonsameline/
 ---
-## RunSubentriesOnSameLine property
+## FieldIndex.RunSubentriesOnSameLine property
 
 Gets or sets whether run subentries into the same line as the main entry.
 

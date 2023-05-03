@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.fields/fielddatabase/insertonceonmailmerge/
 ---
-## InsertOnceOnMailMerge property
+## FieldDatabase.InsertOnceOnMailMerge property
 
 Gets or sets whether to insert data at the beginning of a merge.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/run/nodetype/
 ---
-## NodeType property
+## Run.NodeType property
 
 Returns Run.
 

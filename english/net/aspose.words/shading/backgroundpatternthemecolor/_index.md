@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/shading/backgroundpatternthemecolor/
 ---
-## BackgroundPatternThemeColor property
+## Shading.BackgroundPatternThemeColor property
 
 Gets or sets the background pattern theme color in the applied color scheme that is associated with this [`Shading`](../) object.
 

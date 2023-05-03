@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.drawing/oleformat/iconcaption/
 ---
-## IconCaption property
+## OleFormat.IconCaption property
 
 Gets icon caption of OLE object.
 

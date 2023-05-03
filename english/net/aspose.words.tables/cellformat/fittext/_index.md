@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.tables/cellformat/fittext/
 ---
-## FitText property
+## CellFormat.FitText property
 
 If `true`, fits text in the cell, compressing each paragraph to the width of the cell.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.markup/structureddocumenttagcollection/removeat/
 ---
-## RemoveAt method
+## StructuredDocumentTagCollection.RemoveAt method
 
 Removes a structured document tag at the specified index.
 

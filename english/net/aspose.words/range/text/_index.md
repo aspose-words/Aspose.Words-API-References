@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words/range/text/
 ---
-## Text property
+## Range.Text property
 
 Gets the text of the range.
 

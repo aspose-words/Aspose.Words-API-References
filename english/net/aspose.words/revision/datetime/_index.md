@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/revision/datetime/
 ---
-## DateTime property
+## Revision.DateTime property
 
 Gets or sets the date/time of this revision.
 

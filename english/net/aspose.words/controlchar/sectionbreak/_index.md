@@ -7,7 +7,7 @@ type: docs
 weight: 240
 url: /net/aspose.words/controlchar/sectionbreak/
 ---
-## SectionBreak field
+## ControlChar.SectionBreak field
 
 End of section character: "\x000c" or "\f". Note it has the same value as [`PageBreak`](../pagebreak/).
 

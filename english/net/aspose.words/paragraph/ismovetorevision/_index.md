@@ -7,7 +7,7 @@ type: docs
 weight: 140
 url: /net/aspose.words/paragraph/ismovetorevision/
 ---
-## IsMoveToRevision property
+## Paragraph.IsMoveToRevision property
 
 Returns `true` if this object was moved (inserted) in Microsoft Word while change tracking was enabled.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 210
 url: /net/aspose.words/controlchar/pagebreakchar/
 ---
-## PageBreakChar field
+## ControlChar.PageBreakChar field
 
 Page break character: (char)12 or "\f".
 

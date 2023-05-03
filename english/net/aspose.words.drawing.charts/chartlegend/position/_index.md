@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/chartlegend/position/
 ---
-## Position property
+## ChartLegend.Position property
 
 Specifies the position of the legend on a chart. Default value is Right.
 

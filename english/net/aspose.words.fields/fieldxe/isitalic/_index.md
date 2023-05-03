@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldxe/isitalic/
 ---
-## IsItalic property
+## FieldXE.IsItalic property
 
 Gets or sets whether to apply italic formatting to the entry's page number.
 

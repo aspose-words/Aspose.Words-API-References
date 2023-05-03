@@ -7,7 +7,7 @@ type: docs
 weight: 130
 url: /net/aspose.words/compositenode/indexof/
 ---
-## IndexOf method
+## CompositeNode.IndexOf method
 
 Returns the index of the specified child node in the child node array.
 

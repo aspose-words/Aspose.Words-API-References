@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/phoneticguide/basetext/
 ---
-## BaseText property
+## PhoneticGuide.BaseText property
 
 Gets base text of the phonetic guide.
 

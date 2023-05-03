@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldlistnum/listname/
 ---
-## ListName property
+## FieldListNum.ListName property
 
 Gets or sets the name of the abstract numbering definition used for the numbering.
 

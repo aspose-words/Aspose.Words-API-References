@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.mailmerging/fieldmergingargsbase/fieldvalue/
 ---
-## FieldValue property
+## FieldMergingArgsBase.FieldValue property
 
 Gets or sets the value of the field from the data source.
 

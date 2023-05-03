@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.fields/fieldddeauto/insertasunicode/
 ---
-## InsertAsUnicode property
+## FieldDdeAuto.InsertAsUnicode property
 
 Gets or sets whether to insert the linked object as Unicode text.
 

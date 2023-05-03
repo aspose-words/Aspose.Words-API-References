@@ -7,7 +7,7 @@ type: docs
 weight: 680
 url: /net/aspose.words.settings/compatibilityoptions/useword97linebreakrules/
 ---
-## UseWord97LineBreakRules property
+## CompatibilityOptions.UseWord97LineBreakRules property
 
 Emulate Word 97 East Asian Line Breaking.
 

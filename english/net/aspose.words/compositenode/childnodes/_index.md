@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/compositenode/childnodes/
 ---
-## ChildNodes property
+## CompositeNode.ChildNodes property
 
 Gets all immediate child nodes of this node.
 

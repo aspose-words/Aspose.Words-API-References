@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.drawing/stroke/color/
 ---
-## Color property
+## Stroke.Color property
 
 Defines the color of a stroke.
 

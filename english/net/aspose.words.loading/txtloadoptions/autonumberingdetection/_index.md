@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.loading/txtloadoptions/autonumberingdetection/
 ---
-## AutoNumberingDetection property
+## TxtLoadOptions.AutoNumberingDetection property
 
 Gets or sets a boolean value indicating either automatic numbering detection will be performed while loading a document. The default value is `true`.
 

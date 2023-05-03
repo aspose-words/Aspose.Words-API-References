@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldsubject/text/
 ---
-## Text property
+## FieldSubject.Text property
 
 Gets or sets the text of the subject.
 

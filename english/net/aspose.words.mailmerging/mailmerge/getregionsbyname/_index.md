@@ -7,7 +7,7 @@ type: docs
 weight: 240
 url: /net/aspose.words.mailmerging/mailmerge/getregionsbyname/
 ---
-## GetRegionsByName method
+## MailMerge.GetRegionsByName method
 
 Returns a collection of mail merge regions with the specified name.
 

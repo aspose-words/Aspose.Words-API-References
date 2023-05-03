@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.saving/markdownsaveoptions/imagesavingcallback/
 ---
-## ImageSavingCallback property
+## MarkdownSaveOptions.ImageSavingCallback property
 
 Allows to control how images are saved when a document is saved to Markdown format.
 

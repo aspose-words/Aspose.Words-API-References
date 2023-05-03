@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words/bordercollection/linewidth/
 ---
-## LineWidth property
+## BorderCollection.LineWidth property
 
 Gets or sets the border width in points.
 

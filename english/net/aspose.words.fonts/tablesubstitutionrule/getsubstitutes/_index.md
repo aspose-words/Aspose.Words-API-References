@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fonts/tablesubstitutionrule/getsubstitutes/
 ---
-## GetSubstitutes method
+## TableSubstitutionRule.GetSubstitutes method
 
 Returns array containing substitute font names for the specified original font name.
 

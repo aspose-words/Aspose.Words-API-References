@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldlink/formatupdatetype/
 ---
-## FormatUpdateType property
+## FieldLink.FormatUpdateType property
 
 Gets or sets a way the linked object updates its formatting.
 

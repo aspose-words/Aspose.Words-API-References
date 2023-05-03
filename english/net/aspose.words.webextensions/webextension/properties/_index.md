@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.webextensions/webextension/properties/
 ---
-## Properties property
+## WebExtension.Properties property
 
 Represents a set of web extension custom properties.
 

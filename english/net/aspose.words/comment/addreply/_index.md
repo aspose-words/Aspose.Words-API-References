@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words/comment/addreply/
 ---
-## AddReply method
+## Comment.AddReply method
 
 Adds a reply to this comment.
 

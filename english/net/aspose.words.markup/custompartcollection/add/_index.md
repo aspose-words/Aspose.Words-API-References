@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.markup/custompartcollection/add/
 ---
-## Add method
+## CustomPartCollection.Add method
 
 Adds an item to the collection.
 

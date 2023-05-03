@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.webextensions/webextensionbinding/bindingtype/
 ---
-## BindingType property
+## WebExtensionBinding.BindingType property
 
 Specifies the binding type.
 

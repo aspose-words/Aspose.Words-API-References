@@ -7,7 +7,7 @@ type: docs
 weight: 560
 url: /net/aspose.words.settings/compatibilityoptions/truncatefontheightslikewp6/
 ---
-## TruncateFontHeightsLikeWP6 property
+## CompatibilityOptions.TruncateFontHeightsLikeWP6 property
 
 Emulate WordPerfect 6.x Font Height Calculation.
 

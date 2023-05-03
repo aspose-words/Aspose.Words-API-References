@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.shaping/glyph/clone/
 ---
-## Clone method
+## Glyph.Clone method
 
 Returns a clone of this instance.
 

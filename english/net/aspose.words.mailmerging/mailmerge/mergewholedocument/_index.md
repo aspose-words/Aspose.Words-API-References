@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.mailmerging/mailmerge/mergewholedocument/
 ---
-## MergeWholeDocument property
+## MailMerge.MergeWholeDocument property
 
 Gets or sets a value indicating whether fields in whole document are updated while executing of a mail merge with regions.
 

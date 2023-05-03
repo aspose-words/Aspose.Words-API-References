@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.notes/endnoteoptions/position/
 ---
-## Position property
+## EndnoteOptions.Position property
 
 Specifies the endnotes position.
 

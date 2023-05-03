@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/node/document/
 ---
-## Document property
+## Node.Document property
 
 Gets the document to which this node belongs.
 

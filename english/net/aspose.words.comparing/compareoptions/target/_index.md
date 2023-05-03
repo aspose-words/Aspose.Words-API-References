@@ -7,7 +7,7 @@ type: docs
 weight: 130
 url: /net/aspose.words.comparing/compareoptions/target/
 ---
-## Target property
+## CompareOptions.Target property
 
 Specifies which document shall be used as a target during comparison.
 

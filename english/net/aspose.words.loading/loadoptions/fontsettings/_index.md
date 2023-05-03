@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.loading/loadoptions/fontsettings/
 ---
-## FontSettings property
+## LoadOptions.FontSettings property
 
 Allows to specify document font settings.
 

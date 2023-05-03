@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.mailmerging/imailmergecallback/tagsreplaced/
 ---
-## TagsReplaced method
+## IMailMergeCallback.TagsReplaced method
 
 Called when "mustache" text tags are replaced with MERGEFIELD fields.
 

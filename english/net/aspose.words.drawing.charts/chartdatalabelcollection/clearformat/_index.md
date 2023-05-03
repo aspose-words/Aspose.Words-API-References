@@ -7,7 +7,7 @@ type: docs
 weight: 140
 url: /net/aspose.words.drawing.charts/chartdatalabelcollection/clearformat/
 ---
-## ClearFormat method
+## ChartDataLabelCollection.ClearFormat method
 
 Clears format of all [`ChartDataLabel`](../../chartdatalabel/) in this collection.
 

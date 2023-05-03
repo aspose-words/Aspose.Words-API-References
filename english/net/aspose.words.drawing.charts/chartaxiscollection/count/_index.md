@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/chartaxiscollection/count/
 ---
-## Count property
+## ChartAxisCollection.Count property
 
 Gets the number of axes in this collection.
 

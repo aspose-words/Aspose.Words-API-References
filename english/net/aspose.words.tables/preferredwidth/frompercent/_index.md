@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.tables/preferredwidth/frompercent/
 ---
-## FromPercent method
+## PreferredWidth.FromPercent method
 
 A creation method that returns a new instance that represents a preferred width specified as a percentage.
 

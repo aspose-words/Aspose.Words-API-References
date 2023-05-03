@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.loading/idocumentloadingcallback/notify/
 ---
-## Notify method
+## IDocumentLoadingCallback.Notify method
 
 This is called to notify of document loading progress.
 

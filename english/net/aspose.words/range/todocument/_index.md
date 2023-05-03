@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words/range/todocument/
 ---
-## ToDocument method
+## Range.ToDocument method
 
 Constructs a new fully formed document that contains the range.
 

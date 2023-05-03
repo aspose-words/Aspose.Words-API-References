@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/convertutil/inchtopoint/
 ---
-## InchToPoint method
+## ConvertUtil.InchToPoint method
 
 Converts inches to points.
 

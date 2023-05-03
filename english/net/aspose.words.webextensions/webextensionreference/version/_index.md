@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.webextensions/webextensionreference/version/
 ---
-## Version property
+## WebExtensionReference.Version property
 
 Specifies the version of the web extension.
 

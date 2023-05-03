@@ -7,7 +7,7 @@ type: docs
 weight: 200
 url: /net/aspose.words/font/localeid/
 ---
-## LocaleId property
+## Font.LocaleId property
 
 Gets or sets the locale identifier (language) of the formatted characters.
 

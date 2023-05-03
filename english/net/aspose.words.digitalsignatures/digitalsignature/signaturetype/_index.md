@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.digitalsignatures/digitalsignature/signaturetype/
 ---
-## SignatureType property
+## DigitalSignature.SignatureType property
 
 Gets the type of the digital signature.
 

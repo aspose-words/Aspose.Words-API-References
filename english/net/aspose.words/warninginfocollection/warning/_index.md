@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words/warninginfocollection/warning/
 ---
-## Warning method
+## WarningInfoCollection.Warning method
 
 Implements the [`IWarningCallback`](../../iwarningcallback/) interface. Adds a warning to this collection.
 

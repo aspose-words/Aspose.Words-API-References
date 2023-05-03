@@ -7,7 +7,7 @@ type: docs
 weight: 260
 url: /net/aspose.words/font/namefareast/
 ---
-## NameFarEast property
+## Font.NameFarEast property
 
 Returns or sets an East Asian font name.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 500
 url: /net/aspose.words/document/writeprotection/
 ---
-## WriteProtection property
+## Document.WriteProtection property
 
 Provides access to the document write protection options.
 

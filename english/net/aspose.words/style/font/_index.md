@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words/style/font/
 ---
-## Font property
+## Style.Font property
 
 Gets the character formatting of the style.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 390
 url: /net/aspose.words.settings/compatibilityoptions/printbodytextbeforeheader/
 ---
-## PrintBodyTextBeforeHeader property
+## CompatibilityOptions.PrintBodyTextBeforeHeader property
 
 Print Body Text before Header/Footer Contents.
 

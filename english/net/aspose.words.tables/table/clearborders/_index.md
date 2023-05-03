@@ -7,7 +7,7 @@ type: docs
 weight: 370
 url: /net/aspose.words.tables/table/clearborders/
 ---
-## ClearBorders method
+## Table.ClearBorders method
 
 Removes all table and cell borders on this table.
 

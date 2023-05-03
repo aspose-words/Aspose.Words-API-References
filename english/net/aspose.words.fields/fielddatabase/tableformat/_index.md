@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words.fields/fielddatabase/tableformat/
 ---
-## TableFormat property
+## FieldDatabase.TableFormat property
 
 Gets or sets the format that is to be applied to the result of the database query.
 

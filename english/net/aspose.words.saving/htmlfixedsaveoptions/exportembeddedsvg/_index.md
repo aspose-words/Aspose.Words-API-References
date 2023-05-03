@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedsvg/
 ---
-## ExportEmbeddedSvg property
+## HtmlFixedSaveOptions.ExportEmbeddedSvg property
 
 Specifies whether SVG resources should be embedded into Html document. Default value is `true`.
 

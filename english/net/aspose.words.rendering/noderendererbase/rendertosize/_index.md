@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.rendering/noderendererbase/rendertosize/
 ---
-## RenderToSize method
+## NodeRendererBase.RenderToSize method
 
 Renders the shape into a Graphics object to a specified size.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.saving/svgsaveoptions/showpageborder/
 ---
-## ShowPageBorder property
+## SvgSaveOptions.ShowPageBorder property
 
 Controls whether a border is added to the outline of the page. Default is `true`.
 

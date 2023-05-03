@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldif/falsetext/
 ---
-## FalseText property
+## FieldIf.FalseText property
 
 Gets or sets the text displayed if the comparison expression is `false`.
 

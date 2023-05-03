@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.saving/pdfsaveoptions/cachebackgroundgraphics/
 ---
-## CacheBackgroundGraphics property
+## PdfSaveOptions.CacheBackgroundGraphics property
 
 Gets or sets a value determining whether or not to cache graphics placed in document's background.
 

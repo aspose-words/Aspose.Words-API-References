@@ -7,7 +7,7 @@ type: docs
 weight: 170
 url: /net/aspose.words.drawing/shape/storytype/
 ---
-## StoryType property
+## Shape.StoryType property
 
 Returns Textbox.
 

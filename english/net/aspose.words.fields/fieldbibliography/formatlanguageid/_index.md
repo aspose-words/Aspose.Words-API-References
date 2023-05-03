@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldbibliography/formatlanguageid/
 ---
-## FormatLanguageId property
+## FieldBibliography.FormatLanguageId property
 
 Gets or sets the language ID that is used to format the bibliographic sources in the document.
 

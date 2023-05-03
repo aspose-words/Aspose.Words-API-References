@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.drawing/imagesize/horizontalresolution/
 ---
-## HorizontalResolution property
+## ImageSize.HorizontalResolution property
 
 Gets the horizontal resolution in DPI.
 

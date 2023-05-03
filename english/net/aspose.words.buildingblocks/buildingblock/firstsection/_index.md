@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.buildingblocks/buildingblock/firstsection/
 ---
-## FirstSection property
+## BuildingBlock.FirstSection property
 
 Gets the first section in the building block.
 

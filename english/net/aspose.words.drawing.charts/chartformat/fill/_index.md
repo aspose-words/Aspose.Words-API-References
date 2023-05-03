@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/chartformat/fill/
 ---
-## Fill property
+## ChartFormat.Fill property
 
 Gets fill formatting for the parent chart element.
 

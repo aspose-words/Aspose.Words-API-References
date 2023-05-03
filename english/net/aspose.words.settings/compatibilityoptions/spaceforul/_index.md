@@ -7,7 +7,7 @@ type: docs
 weight: 440
 url: /net/aspose.words.settings/compatibilityoptions/spaceforul/
 ---
-## SpaceForUL property
+## CompatibilityOptions.SpaceForUL property
 
 Add Additional Space Below Baseline For Underlined East Asian Text.
 

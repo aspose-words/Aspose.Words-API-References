@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.lists/listlevel/islegal/
 ---
-## IsLegal property
+## ListLevel.IsLegal property
 
 True if the level turns all inherited numbers to Arabic, false if it preserves their number style.
 

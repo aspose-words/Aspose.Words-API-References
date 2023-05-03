@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.drawing/signatureline/id/
 ---
-## Id property
+## SignatureLine.Id property
 
 Gets or sets identifier for this signature line.
 

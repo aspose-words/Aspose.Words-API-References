@@ -7,7 +7,7 @@ type: docs
 weight: 250
 url: /net/aspose.words.drawing/shape/updatesmartartdrawing/
 ---
-## UpdateSmartArtDrawing method
+## Shape.UpdateSmartArtDrawing method
 
 Updates SmartArt pre-rendered drawing by using Aspose.Words's SmartArt cold rendering engine.
 

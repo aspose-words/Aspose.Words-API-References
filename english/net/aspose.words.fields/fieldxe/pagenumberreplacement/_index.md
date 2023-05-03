@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldxe/pagenumberreplacement/
 ---
-## PageNumberReplacement property
+## FieldXE.PageNumberReplacement property
 
 Gets or sets text used in place of a page number.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 130
 url: /net/aspose.words.drawing/textbox/breakforwardlink/
 ---
-## BreakForwardLink method
+## TextBox.BreakForwardLink method
 
 Breaks the link to the next [`TextBox`](../).
 

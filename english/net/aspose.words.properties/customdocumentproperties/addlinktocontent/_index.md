@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.properties/customdocumentproperties/addlinktocontent/
 ---
-## AddLinkToContent method
+## CustomDocumentProperties.AddLinkToContent method
 
 Creates a new linked to content custom document property.
 

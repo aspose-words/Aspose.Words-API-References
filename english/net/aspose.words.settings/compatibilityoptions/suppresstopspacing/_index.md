@@ -7,7 +7,7 @@ type: docs
 weight: 510
 url: /net/aspose.words.settings/compatibilityoptions/suppresstopspacing/
 ---
-## SuppressTopSpacing property
+## CompatibilityOptions.SuppressTopSpacing property
 
 Ignore Minimum and Exact Line Height for First Line on Page.
 

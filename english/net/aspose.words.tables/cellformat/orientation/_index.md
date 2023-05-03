@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.tables/cellformat/orientation/
 ---
-## Orientation property
+## CellFormat.Orientation property
 
 Returns or sets the orientation of text in a table cell.
 

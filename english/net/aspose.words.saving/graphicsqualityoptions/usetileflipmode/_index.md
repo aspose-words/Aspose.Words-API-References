@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.saving/graphicsqualityoptions/usetileflipmode/
 ---
-## UseTileFlipMode property
+## GraphicsQualityOptions.UseTileFlipMode property
 
 Gets or sets a flag indicating whether WrapMode is TileFlipXY.
 

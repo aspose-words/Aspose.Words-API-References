@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words/conditionalstylecollection/lastcolumn/
 ---
-## LastColumn property
+## ConditionalStyleCollection.LastColumn property
 
 Gets the last column style.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/conditionalstyle/leftpadding/
 ---
-## LeftPadding property
+## ConditionalStyle.LeftPadding property
 
 Gets or sets the amount of space (in points) to add to the left of the contents of table cells.
 

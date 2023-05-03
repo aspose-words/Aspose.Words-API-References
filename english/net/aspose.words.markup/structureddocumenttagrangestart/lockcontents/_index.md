@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.markup/structureddocumenttagrangestart/lockcontents/
 ---
-## LockContents property
+## StructuredDocumentTagRangeStart.LockContents property
 
 When set to `true`, this property will prohibit a user from editing the contents of this structured document tag.
 

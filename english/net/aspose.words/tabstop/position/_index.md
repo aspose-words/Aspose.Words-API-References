@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words/tabstop/position/
 ---
-## Position property
+## TabStop.Position property
 
 Gets the position of the tab stop in points.
 

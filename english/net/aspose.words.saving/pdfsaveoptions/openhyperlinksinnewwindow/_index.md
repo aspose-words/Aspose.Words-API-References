@@ -7,7 +7,7 @@ type: docs
 weight: 230
 url: /net/aspose.words.saving/pdfsaveoptions/openhyperlinksinnewwindow/
 ---
-## OpenHyperlinksInNewWindow property
+## PdfSaveOptions.OpenHyperlinksInNewWindow property
 
 Gets or sets a value determining whether hyperlinks in the output Pdf document are forced to be opened in a new window (or tab) of a browser.
 

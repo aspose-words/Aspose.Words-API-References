@@ -7,7 +7,7 @@ type: docs
 weight: 300
 url: /net/aspose.words.drawing/shapebase/isinsertrevision/
 ---
-## IsInsertRevision property
+## ShapeBase.IsInsertRevision property
 
 Returns true if this object was inserted in Microsoft Word while change tracking was enabled.
 

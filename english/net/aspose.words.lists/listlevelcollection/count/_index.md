@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.lists/listlevelcollection/count/
 ---
-## Count property
+## ListLevelCollection.Count property
 
 Gets the number of levels in this list.
 

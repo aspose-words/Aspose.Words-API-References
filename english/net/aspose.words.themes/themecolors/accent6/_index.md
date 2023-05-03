@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.themes/themecolors/accent6/
 ---
-## Accent6 property
+## ThemeColors.Accent6 property
 
 Specifies color Accent 6.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/iwarningcallback/warning/
 ---
-## Warning method
+## IWarningCallback.Warning method
 
 Aspose.Words invokes this method when it encounters some issue during document loading or saving that might result in loss of formatting or data fidelity.
 

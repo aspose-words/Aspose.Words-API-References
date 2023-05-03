@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldhyperlink/subaddress/
 ---
-## SubAddress property
+## FieldHyperlink.SubAddress property
 
 Gets or sets a location in the file, such as a bookmark, where this hyperlink jumps.
 

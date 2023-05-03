@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.saving/pssaveoptions/usebookfoldprintingsettings/
 ---
-## UseBookFoldPrintingSettings property
+## PsSaveOptions.UseBookFoldPrintingSettings property
 
 Gets or sets a boolean value indicating whether the document should be saved using a booklet printing layout, if it is specified via [`MultiplePages`](../../../aspose.words/pagesetup/multiplepages/).
 

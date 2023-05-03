@@ -7,7 +7,7 @@ type: docs
 weight: 300
 url: /net/aspose.words.properties/builtindocumentproperties/titlesofparts/
 ---
-## TitlesOfParts property
+## BuiltInDocumentProperties.TitlesOfParts property
 
 Each string in the array specifies the name of a part in the document.
 

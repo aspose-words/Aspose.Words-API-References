@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/body/nodetype/
 ---
-## NodeType property
+## Body.NodeType property
 
 Returns Body.
 

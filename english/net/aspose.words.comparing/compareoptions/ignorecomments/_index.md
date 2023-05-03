@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.comparing/compareoptions/ignorecomments/
 ---
-## IgnoreComments property
+## CompareOptions.IgnoreComments property
 
 Specifies whether to compare differences in comments. By default comments are not ignored.
 

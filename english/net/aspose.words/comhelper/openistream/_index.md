@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/comhelper/openistream/
 ---
-## OpenIStream method
+## ComHelper.OpenIStream method
 
 Allows a COM application to load a [`Document`](../../document/) from an IStream object.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words.fields/fieldlink/islinked/
 ---
-## IsLinked property
+## FieldLink.IsLinked property
 
 Gets or sets whether to reduce the file size by not storing graphics data with the document.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/plaintextdocument/builtindocumentproperties/
 ---
-## BuiltInDocumentProperties property
+## PlainTextDocument.BuiltInDocumentProperties property
 
 Gets `BuiltInDocumentProperties` of the document.
 

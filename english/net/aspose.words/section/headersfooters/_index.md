@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/section/headersfooters/
 ---
-## HeadersFooters property
+## Section.HeadersFooters property
 
 Provides access to the headers and footers nodes of the section.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.saving/htmlsaveoptions/documentsplitheadinglevel/
 ---
-## DocumentSplitHeadingLevel property
+## HtmlSaveOptions.DocumentSplitHeadingLevel property
 
 Specifies the maximum level of headings at which to split the document. Default value is `2`.
 

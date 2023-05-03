@@ -7,7 +7,7 @@ type: docs
 weight: 310
 url: /net/aspose.words/paragraphformat/spacebefore/
 ---
-## SpaceBefore property
+## ParagraphFormat.SpaceBefore property
 
 Gets or sets the amount of spacing (in points) before the paragraph.
 

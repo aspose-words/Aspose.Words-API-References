@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words/documentbase/nodechangingcallback/
 ---
-## NodeChangingCallback property
+## DocumentBase.NodeChangingCallback property
 
 Called when a node is inserted or removed in the document.
 

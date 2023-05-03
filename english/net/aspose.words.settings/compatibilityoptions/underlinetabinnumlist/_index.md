@@ -7,7 +7,7 @@ type: docs
 weight: 590
 url: /net/aspose.words.settings/compatibilityoptions/underlinetabinnumlist/
 ---
-## UnderlineTabInNumList property
+## CompatibilityOptions.UnderlineTabInNumList property
 
 Underline Following Character Following Numbering.
 

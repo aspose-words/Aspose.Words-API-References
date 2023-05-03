@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.markup/customxmlpart/id/
 ---
-## Id property
+## CustomXmlPart.Id property
 
 Gets or sets the string that identifies this custom XML part within an OOXML document.
 

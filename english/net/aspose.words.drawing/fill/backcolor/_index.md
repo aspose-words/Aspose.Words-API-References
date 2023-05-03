@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.drawing/fill/backcolor/
 ---
-## BackColor property
+## Fill.BackColor property
 
 Gets or sets a Color object that represents the background color for the fill.
 

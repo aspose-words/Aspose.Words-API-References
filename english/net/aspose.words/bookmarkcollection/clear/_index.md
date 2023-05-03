@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/bookmarkcollection/clear/
 ---
-## Clear method
+## BookmarkCollection.Clear method
 
 Removes all bookmarks from this collection and from the document.
 

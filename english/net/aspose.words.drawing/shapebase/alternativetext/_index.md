@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.drawing/shapebase/alternativetext/
 ---
-## AlternativeText property
+## ShapeBase.AlternativeText property
 
 Defines alternative text to be displayed instead of a graphic.
 

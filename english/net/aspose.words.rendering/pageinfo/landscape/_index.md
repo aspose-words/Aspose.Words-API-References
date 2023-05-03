@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.rendering/pageinfo/landscape/
 ---
-## Landscape property
+## PageInfo.Landscape property
 
 Returns `true` if the page orientation specified in the document for this page is landscape.
 

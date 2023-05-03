@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/plaintextdocument/customdocumentproperties/
 ---
-## CustomDocumentProperties property
+## PlainTextDocument.CustomDocumentProperties property
 
 Gets `CustomDocumentProperties` of the document.
 

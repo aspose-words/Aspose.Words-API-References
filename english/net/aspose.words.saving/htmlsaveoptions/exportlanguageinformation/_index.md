@@ -7,7 +7,7 @@ type: docs
 weight: 190
 url: /net/aspose.words.saving/htmlsaveoptions/exportlanguageinformation/
 ---
-## ExportLanguageInformation property
+## HtmlSaveOptions.ExportLanguageInformation property
 
 Specifies whether language information is exported to HTML, MHTML or EPUB. Default is `false`.
 

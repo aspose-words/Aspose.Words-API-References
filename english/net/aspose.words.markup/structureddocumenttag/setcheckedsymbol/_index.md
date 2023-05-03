@@ -7,7 +7,7 @@ type: docs
 weight: 360
 url: /net/aspose.words.markup/structureddocumenttag/setcheckedsymbol/
 ---
-## SetCheckedSymbol method
+## StructuredDocumentTag.SetCheckedSymbol method
 
 Sets the symbol used to represent the checked state of a check box content control.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 190
 url: /net/aspose.words/pagesetup/layoutmode/
 ---
-## LayoutMode property
+## PageSetup.LayoutMode property
 
 Gets or sets the layout mode of this section.
 

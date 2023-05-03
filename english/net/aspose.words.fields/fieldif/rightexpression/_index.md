@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldif/rightexpression/
 ---
-## RightExpression property
+## FieldIf.RightExpression property
 
 Gets or sets the right part of the comparison expression.
 

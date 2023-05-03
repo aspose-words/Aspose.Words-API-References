@@ -7,7 +7,7 @@ type: docs
 weight: 240
 url: /net/aspose.words/font/nameascii/
 ---
-## NameAscii property
+## Font.NameAscii property
 
 Returns or sets the font used for Latin text (characters with character codes from 0 (zero) through 127).
 

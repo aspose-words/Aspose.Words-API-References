@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.mailmerging/mailmergeregioninfo/startfield/
 ---
-## StartField property
+## MailMergeRegionInfo.StartField property
 
 Returns a start field for the region.
 

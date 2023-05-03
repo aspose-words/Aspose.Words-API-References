@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.fields/userinformation/name/
 ---
-## Name property
+## UserInformation.Name property
 
 Gets or sets the user's name.
 

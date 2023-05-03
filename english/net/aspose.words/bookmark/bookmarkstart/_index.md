@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/bookmark/bookmarkstart/
 ---
-## BookmarkStart property
+## Bookmark.BookmarkStart property
 
 Gets the node that represents the start of the bookmark.
 

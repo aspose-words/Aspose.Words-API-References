@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/charttitle/text/
 ---
-## Text property
+## ChartTitle.Text property
 
 Gets or sets the text of the chart title. If `null` or empty value is specified, auto generated title will be shown.
 

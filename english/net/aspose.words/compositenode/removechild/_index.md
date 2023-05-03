@@ -7,7 +7,7 @@ type: docs
 weight: 180
 url: /net/aspose.words/compositenode/removechild/
 ---
-## RemoveChild method
+## CompositeNode.RemoveChild method
 
 Removes the specified child node.
 

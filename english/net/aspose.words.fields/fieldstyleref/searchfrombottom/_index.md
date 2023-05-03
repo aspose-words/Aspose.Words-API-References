@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldstyleref/searchfrombottom/
 ---
-## SearchFromBottom property
+## FieldStyleRef.SearchFromBottom property
 
 Gets or sets whether to search from the bottom of the current page, rather from the top.
 

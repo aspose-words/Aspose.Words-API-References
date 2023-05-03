@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.tables/row/firstcell/
 ---
-## FirstCell property
+## Row.FirstCell property
 
 Returns the first [`Cell`](../../cell/) in the row.
 

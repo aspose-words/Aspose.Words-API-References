@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.drawing/imagedata/cropbottom/
 ---
-## CropBottom property
+## ImageData.CropBottom property
 
 Defines the fraction of picture removal from the bottom side.
 

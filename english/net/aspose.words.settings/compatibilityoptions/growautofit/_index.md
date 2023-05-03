@@ -7,7 +7,7 @@ type: docs
 weight: 280
 url: /net/aspose.words.settings/compatibilityoptions/growautofit/
 ---
-## GrowAutofit property
+## CompatibilityOptions.GrowAutofit property
 
 Allow Tables to AutoFit Into Page Margins.
 

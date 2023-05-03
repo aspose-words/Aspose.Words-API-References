@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.settings/compatibilityoptions/aligntablesrowbyrow/
 ---
-## AlignTablesRowByRow property
+## CompatibilityOptions.AlignTablesRowByRow property
 
 Align Table Rows Independently.
 

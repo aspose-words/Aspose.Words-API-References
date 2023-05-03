@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/nodechangingargs/node/
 ---
-## Node property
+## NodeChangingArgs.Node property
 
 Gets the `Node` that is being added or removed.
 

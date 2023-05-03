@@ -7,7 +7,7 @@ type: docs
 weight: 320
 url: /net/aspose.words.markup/structureddocumenttag/xmlmapping/
 ---
-## XmlMapping property
+## StructuredDocumentTag.XmlMapping property
 
 Gets an object that represents the mapping of this structured document tag to XML data in a custom XML part of the current document.
 

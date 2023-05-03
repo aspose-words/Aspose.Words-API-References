@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.saving/imagesavingargs/imagefilename/
 ---
-## ImageFileName property
+## ImageSavingArgs.ImageFileName property
 
 Gets or sets the file name (without path) where the image will be saved to.
 

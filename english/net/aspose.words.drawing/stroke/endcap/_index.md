@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.drawing/stroke/endcap/
 ---
-## EndCap property
+## Stroke.EndCap property
 
 Defines the cap style for the end of a stroke.
 

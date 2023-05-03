@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.saving/bookmarksoutlinelevelcollection/count/
 ---
-## Count property
+## BookmarksOutlineLevelCollection.Count property
 
 Gets the number of elements contained in the collection.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.webextensions/basewebextensioncollection-1/clear/
 ---
-## Clear method
+## BaseWebExtensionCollection&lt;T&gt;.Clear method
 
 Removes all elements from the collection.
 

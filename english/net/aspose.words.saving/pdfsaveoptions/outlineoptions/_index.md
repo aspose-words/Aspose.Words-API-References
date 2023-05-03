@@ -7,7 +7,7 @@ type: docs
 weight: 240
 url: /net/aspose.words.saving/pdfsaveoptions/outlineoptions/
 ---
-## OutlineOptions property
+## PdfSaveOptions.OutlineOptions property
 
 Allows to specify outline options.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words/nodecollection/insert/
 ---
-## Insert method
+## NodeCollection.Insert method
 
 Inserts a node into the collection at the specified index.
 

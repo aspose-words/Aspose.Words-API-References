@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words/importformatoptions/smartstylebehavior/
 ---
-## SmartStyleBehavior property
+## ImportFormatOptions.SmartStyleBehavior property
 
 Gets or sets a boolean value that specifies how styles will be imported when they have equal names in source and destination documents. The default value is `false`.
 

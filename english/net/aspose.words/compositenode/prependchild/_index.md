@@ -7,7 +7,7 @@ type: docs
 weight: 160
 url: /net/aspose.words/compositenode/prependchild/
 ---
-## PrependChild method
+## CompositeNode.PrependChild method
 
 Adds the specified node to the beginning of the list of child nodes for this node.
 

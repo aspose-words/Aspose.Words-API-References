@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.drawing.charts/chartdatapoint/marker/
 ---
-## Marker property
+## ChartDataPoint.Marker property
 
 Specifies chart data marker.
 

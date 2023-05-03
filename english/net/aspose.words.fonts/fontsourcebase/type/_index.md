@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fonts/fontsourcebase/type/
 ---
-## Type property
+## FontSourceBase.Type property
 
 Returns the type of the font source.
 

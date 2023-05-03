@@ -7,7 +7,7 @@ type: docs
 weight: 170
 url: /net/aspose.words.replacing/findreplaceoptions/uselegacyorder/
 ---
-## UseLegacyOrder property
+## FindReplaceOptions.UseLegacyOrder property
 
 True indicates that a text search is performed sequentially from top to bottom considering the text boxes. Default value is `false`.
 

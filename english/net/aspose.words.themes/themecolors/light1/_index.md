@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words.themes/themecolors/light1/
 ---
-## Light1 property
+## ThemeColors.Light1 property
 
 Specifies color Light 1.
 

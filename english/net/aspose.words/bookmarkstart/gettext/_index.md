@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words/bookmarkstart/gettext/
 ---
-## GetText method
+## BookmarkStart.GetText method
 
 Returns an empty string.
 

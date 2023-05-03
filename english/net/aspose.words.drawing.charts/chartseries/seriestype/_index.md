@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words.drawing.charts/chartseries/seriestype/
 ---
-## SeriesType property
+## ChartSeries.SeriesType property
 
 Gets the type of this chart series.
 

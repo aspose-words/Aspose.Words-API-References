@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.drawing/textpath/reverserows/
 ---
-## ReverseRows property
+## TextPath.ReverseRows property
 
 Determines whether the layout order of rows is reversed.
 

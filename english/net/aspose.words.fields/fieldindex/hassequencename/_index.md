@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldindex/hassequencename/
 ---
-## HasSequenceName property
+## FieldIndex.HasSequenceName property
 
 Gets a value indicating whether a sequence should be used while the field's result building.
 

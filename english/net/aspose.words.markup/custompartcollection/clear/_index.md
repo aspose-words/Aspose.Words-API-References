@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.markup/custompartcollection/clear/
 ---
-## Clear method
+## CustomPartCollection.Clear method
 
 Removes all elements from the collection.
 

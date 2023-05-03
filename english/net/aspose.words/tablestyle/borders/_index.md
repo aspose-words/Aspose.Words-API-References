@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/tablestyle/borders/
 ---
-## Borders property
+## TableStyle.Borders property
 
 Gets the collection of default cell borders for the style.
 

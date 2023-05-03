@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.lists/listformat/listlevel/
 ---
-## ListLevel property
+## ListFormat.ListLevel property
 
 Returns the list level formatting plus any formatting overrides applied to the current paragraph.
 

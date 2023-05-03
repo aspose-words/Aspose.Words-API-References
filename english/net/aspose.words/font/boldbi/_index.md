@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words/font/boldbi/
 ---
-## BoldBi property
+## Font.BoldBi property
 
 True if the right-to-left text is formatted as bold.
 

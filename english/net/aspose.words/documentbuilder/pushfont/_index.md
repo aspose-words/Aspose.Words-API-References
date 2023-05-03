@@ -7,7 +7,7 @@ type: docs
 weight: 600
 url: /net/aspose.words/documentbuilder/pushfont/
 ---
-## PushFont method
+## DocumentBuilder.PushFont method
 
 Saves current character formatting onto the stack.
 

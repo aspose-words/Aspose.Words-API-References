@@ -7,7 +7,7 @@ type: docs
 weight: 280
 url: /net/aspose.words/documentvisitor/visitheaderfooterend/
 ---
-## VisitHeaderFooterEnd method
+## DocumentVisitor.VisitHeaderFooterEnd method
 
 Called when enumeration of a header or footer in a section has ended.
 

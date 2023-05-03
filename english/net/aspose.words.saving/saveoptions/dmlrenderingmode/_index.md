@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.saving/saveoptions/dmlrenderingmode/
 ---
-## DmlRenderingMode property
+## SaveOptions.DmlRenderingMode property
 
 Gets or sets a value determining how DrawingML shapes are rendered.
 

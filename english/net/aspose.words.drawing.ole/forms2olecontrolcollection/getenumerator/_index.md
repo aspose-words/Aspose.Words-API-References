@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.drawing.ole/forms2olecontrolcollection/getenumerator/
 ---
-## GetEnumerator method
+## Forms2OleControlCollection.GetEnumerator method
 
 Gets enumerator.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.properties/builtindocumentproperties/bytes/
 ---
-## Bytes property
+## BuiltInDocumentProperties.Bytes property
 
 Represents an estimate of the number of bytes in the document.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.webextensions/webextension/id/
 ---
-## Id property
+## WebExtension.Id property
 
 Uniquely identifies the web extension instance in the current document.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 610
 url: /net/aspose.words.drawing/shapebase/zorder/
 ---
-## ZOrder property
+## ShapeBase.ZOrder property
 
 Determines the display order of overlapping shapes.
 

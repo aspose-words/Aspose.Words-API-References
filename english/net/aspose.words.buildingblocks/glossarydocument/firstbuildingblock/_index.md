@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.buildingblocks/glossarydocument/firstbuildingblock/
 ---
-## FirstBuildingBlock property
+## GlossaryDocument.FirstBuildingBlock property
 
 Gets the first building block in the glossary document.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words/signaturelineoptions/signertitle/
 ---
-## SignerTitle property
+## SignatureLineOptions.SignerTitle property
 
 Gets or sets suggested signer's title. Default value for this property is **empty string** (Empty).
 

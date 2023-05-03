@@ -7,7 +7,7 @@ type: docs
 weight: 360
 url: /net/aspose.words/document/revisionsview/
 ---
-## RevisionsView property
+## Document.RevisionsView property
 
 Gets or sets a value indicating whether to work with the original or revised version of a document.
 

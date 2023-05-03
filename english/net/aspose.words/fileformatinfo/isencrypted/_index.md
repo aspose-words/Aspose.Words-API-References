@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/fileformatinfo/isencrypted/
 ---
-## IsEncrypted property
+## FileFormatInfo.IsEncrypted property
 
 Returns `true` if the document is encrypted and requires a password to open.
 

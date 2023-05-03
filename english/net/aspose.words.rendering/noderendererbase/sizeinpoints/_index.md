@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.rendering/noderendererbase/sizeinpoints/
 ---
-## SizeInPoints property
+## NodeRendererBase.SizeInPoints property
 
 Gets the actual size of the shape in points.
 

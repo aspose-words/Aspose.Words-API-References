@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/compositenode/firstchild/
 ---
-## FirstChild property
+## CompositeNode.FirstChild property
 
 Gets the first child of the node.
 

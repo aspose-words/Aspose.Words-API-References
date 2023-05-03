@@ -7,7 +7,7 @@ type: docs
 weight: 290
 url: /net/aspose.words/document/originalfilename/
 ---
-## OriginalFileName property
+## Document.OriginalFileName property
 
 Gets the original file name of the document.
 

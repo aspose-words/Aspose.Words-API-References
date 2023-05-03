@@ -7,7 +7,7 @@ type: docs
 weight: 250
 url: /net/aspose.words/documentbuilder/endtable/
 ---
-## EndTable method
+## DocumentBuilder.EndTable method
 
 Ends a table in the document.
 

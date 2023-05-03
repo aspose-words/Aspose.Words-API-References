@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words.drawing/textpath/sameletterheights/
 ---
-## SameLetterHeights property
+## TextPath.SameLetterHeights property
 
 Determines whether all letters will be the same height regardless of initial case.
 

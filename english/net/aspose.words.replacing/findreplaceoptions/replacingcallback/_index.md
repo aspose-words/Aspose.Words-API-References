@@ -7,7 +7,7 @@ type: docs
 weight: 150
 url: /net/aspose.words.replacing/findreplaceoptions/replacingcallback/
 ---
-## ReplacingCallback property
+## FindReplaceOptions.ReplacingCallback property
 
 The user-defined method which is called before every replace occurrence.
 

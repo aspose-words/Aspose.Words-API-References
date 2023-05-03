@@ -7,7 +7,7 @@ type: docs
 weight: 140
 url: /net/aspose.words.markup/structureddocumenttag/id/
 ---
-## Id property
+## StructuredDocumentTag.Id property
 
 Specifies a unique read-only persistent numerical Id for this **SDT**.
 

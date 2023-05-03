@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.loading/resourceloadingargs/setdata/
 ---
-## SetData method
+## ResourceLoadingArgs.SetData method
 
 Sets user provided data of the resource which is used if [`ResourceLoading`](../../iresourceloadingcallback/resourceloading/) returns UserProvided.
 

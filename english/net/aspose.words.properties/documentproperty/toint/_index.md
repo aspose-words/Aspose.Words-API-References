@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words.properties/documentproperty/toint/
 ---
-## ToInt method
+## DocumentProperty.ToInt method
 
 Returns the property value as integer.
 

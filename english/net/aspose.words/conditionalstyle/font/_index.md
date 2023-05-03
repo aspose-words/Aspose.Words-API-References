@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/conditionalstyle/font/
 ---
-## Font property
+## ConditionalStyle.Font property
 
 Gets the character formatting of the conditional style.
 

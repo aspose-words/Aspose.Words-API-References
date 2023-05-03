@@ -7,7 +7,7 @@ type: docs
 weight: 160
 url: /net/aspose.words.drawing/textpath/text/
 ---
-## Text property
+## TextPath.Text property
 
 Defines the text of the text path.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.webextensions/taskpane/row/
 ---
-## Row property
+## TaskPane.Row property
 
 Specifies the index, enumerating from the outside to the inside, of this task pane among other persisted task panes docked in the same default location.
 

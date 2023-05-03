@@ -7,7 +7,7 @@ type: docs
 weight: 410
 url: /net/aspose.words.settings/compatibilityoptions/selectfldwithfirstorlastchar/
 ---
-## SelectFldWithFirstOrLastChar property
+## CompatibilityOptions.SelectFldWithFirstOrLastChar property
 
 Select Field When First or Last Character Is Selected.
 

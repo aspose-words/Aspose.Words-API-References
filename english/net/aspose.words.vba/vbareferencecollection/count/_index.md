@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.vba/vbareferencecollection/count/
 ---
-## Count property
+## VbaReferenceCollection.Count property
 
 Returns the number of VBA references in the collection.
 

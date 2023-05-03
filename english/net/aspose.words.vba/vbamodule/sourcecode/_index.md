@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.vba/vbamodule/sourcecode/
 ---
-## SourceCode property
+## VbaModule.SourceCode property
 
 Gets or sets VBA project module source code.
 

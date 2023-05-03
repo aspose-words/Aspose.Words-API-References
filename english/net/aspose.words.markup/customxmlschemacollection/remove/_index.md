@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.markup/customxmlschemacollection/remove/
 ---
-## Remove method
+## CustomXmlSchemaCollection.Remove method
 
 Removes the specified value from the collection.
 

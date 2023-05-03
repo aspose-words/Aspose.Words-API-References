@@ -7,7 +7,7 @@ type: docs
 weight: 190
 url: /net/aspose.words.saving/saveoptions/useantialiasing/
 ---
-## UseAntiAliasing property
+## SaveOptions.UseAntiAliasing property
 
 Gets or sets a value determining whether or not to use anti-aliasing for rendering.
 

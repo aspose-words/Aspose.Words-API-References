@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/nodeimporter/importnode/
 ---
-## ImportNode method
+## NodeImporter.ImportNode method
 
 Imports a node from one document into another.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.fields/fieldend/hasseparator/
 ---
-## HasSeparator property
+## FieldEnd.HasSeparator property
 
 Returns `true` if this field has a separator.
 

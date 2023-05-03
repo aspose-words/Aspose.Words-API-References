@@ -7,7 +7,7 @@ type: docs
 weight: 500
 url: /net/aspose.words/documentvisitor/visittablestart/
 ---
-## VisitTableStart method
+## DocumentVisitor.VisitTableStart method
 
 Called when enumeration of a table has started.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words/section/accept/
 ---
-## Accept method
+## Section.Accept method
 
 Accepts a visitor.
 

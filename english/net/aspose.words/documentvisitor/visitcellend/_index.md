@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words/documentvisitor/visitcellend/
 ---
-## VisitCellEnd method
+## DocumentVisitor.VisitCellEnd method
 
 Called when enumeration of a table cell has ended.
 

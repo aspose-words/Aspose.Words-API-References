@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.settings/odsorecipientdatacollection/getenumerator/
 ---
-## GetEnumerator method
+## OdsoRecipientDataCollection.GetEnumerator method
 
 Returns an enumerator object that can be used to iterate over all items in the collection.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.vba/vbareference/type/
 ---
-## Type property
+## VbaReference.Type property
 
 Gets [`VbaReferenceType`](../../vbareferencetype/) object that indicates the type of reference that a [`VbaReference`](../) object represents.
 

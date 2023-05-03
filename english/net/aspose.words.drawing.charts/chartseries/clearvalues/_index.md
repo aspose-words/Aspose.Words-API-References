@@ -7,7 +7,7 @@ type: docs
 weight: 180
 url: /net/aspose.words.drawing.charts/chartseries/clearvalues/
 ---
-## ClearValues method
+## ChartSeries.ClearValues method
 
 Removes all data values from the chart series with preserving the format of the data points and data labels.
 

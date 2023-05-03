@@ -7,7 +7,7 @@ type: docs
 weight: 130
 url: /net/aspose.words.saving/htmlsaveoptions/exportdocumentproperties/
 ---
-## ExportDocumentProperties property
+## HtmlSaveOptions.ExportDocumentProperties property
 
 Specifies whether to export built-in and custom document properties to HTML, MHTML or EPUB. Default value is `false`.
 

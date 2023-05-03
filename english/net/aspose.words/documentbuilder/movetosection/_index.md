@@ -7,7 +7,7 @@ type: docs
 weight: 570
 url: /net/aspose.words/documentbuilder/movetosection/
 ---
-## MoveToSection method
+## DocumentBuilder.MoveToSection method
 
 Moves the cursor to the beginning of the body in a specified section.
 

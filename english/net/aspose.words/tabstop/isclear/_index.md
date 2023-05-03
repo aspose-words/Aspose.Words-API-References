@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/tabstop/isclear/
 ---
-## IsClear property
+## TabStop.IsClear property
 
 Returns `true` if this tab stop clears any existing tab stops in this position.
 

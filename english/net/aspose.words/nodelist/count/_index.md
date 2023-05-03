@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/nodelist/count/
 ---
-## Count property
+## NodeList.Count property
 
 Gets the number of nodes in the list.
 

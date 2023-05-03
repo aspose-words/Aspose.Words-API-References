@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/stylecollection/count/
 ---
-## Count property
+## StyleCollection.Count property
 
 Gets the number of styles in the collection.
 

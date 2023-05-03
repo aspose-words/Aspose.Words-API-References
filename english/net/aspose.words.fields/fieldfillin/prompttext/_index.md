@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldfillin/prompttext/
 ---
-## PromptText property
+## FieldFillIn.PromptText property
 
 Gets or sets the prompt text (the title of the prompt window).
 

@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.lists/listformat/islistitem/
 ---
-## IsListItem property
+## ListFormat.IsListItem property
 
 True when the paragraph has bulleted or numbered formatting applied to it.
 

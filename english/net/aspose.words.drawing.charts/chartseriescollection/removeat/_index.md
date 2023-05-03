@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.drawing.charts/chartseriescollection/removeat/
 ---
-## RemoveAt method
+## ChartSeriesCollection.RemoveAt method
 
 Removes a [`ChartSeries`](../../chartseries/) at the specified index.
 

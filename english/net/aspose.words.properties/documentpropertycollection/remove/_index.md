@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.properties/documentpropertycollection/remove/
 ---
-## Remove method
+## DocumentPropertyCollection.Remove method
 
 Removes a property with the specified name from the collection.
 

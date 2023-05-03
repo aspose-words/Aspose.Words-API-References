@@ -7,7 +7,7 @@ type: docs
 weight: 450
 url: /net/aspose.words/document/vbaproject/
 ---
-## VbaProject property
+## Document.VbaProject property
 
 Gets or sets a `VbaProject`.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 300
 url: /net/aspose.words/documentbuilder/insertcombobox/
 ---
-## InsertComboBox method
+## DocumentBuilder.InsertComboBox method
 
 Inserts a combobox form field at the current position.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.fonts/fontsettings/substitutionsettings/
 ---
-## SubstitutionSettings property
+## FontSettings.SubstitutionSettings property
 
 Settings related to font substitution mechanism.
 

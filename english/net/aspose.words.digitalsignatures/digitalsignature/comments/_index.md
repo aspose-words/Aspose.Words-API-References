@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.digitalsignatures/digitalsignature/comments/
 ---
-## Comments property
+## DigitalSignature.Comments property
 
 Gets the signing purpose comment.
 

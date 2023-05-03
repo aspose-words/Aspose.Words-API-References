@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fonts/memoryfontsource/fontdata/
 ---
-## FontData property
+## MemoryFontSource.FontData property
 
 Binary font data.
 

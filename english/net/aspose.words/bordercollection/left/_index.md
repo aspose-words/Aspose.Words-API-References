@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words/bordercollection/left/
 ---
-## Left property
+## BorderCollection.Left property
 
 Gets the left border.
 

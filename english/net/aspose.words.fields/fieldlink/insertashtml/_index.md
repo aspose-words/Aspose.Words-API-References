@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldlink/insertashtml/
 ---
-## InsertAsHtml property
+## FieldLink.InsertAsHtml property
 
 Gets or sets whether to insert the linked object as HTML format text.
 

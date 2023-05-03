@@ -7,7 +7,7 @@ type: docs
 weight: 320
 url: /net/aspose.words/pagesetup/pagenumberstyle/
 ---
-## PageNumberStyle property
+## PageSetup.PageNumberStyle property
 
 Gets or sets the page number format.
 

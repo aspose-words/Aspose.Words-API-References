@@ -7,7 +7,7 @@ type: docs
 weight: 340
 url: /net/aspose.words.drawing/shapebase/issignatureline/
 ---
-## IsSignatureLine property
+## ShapeBase.IsSignatureLine property
 
 Indicates that shape is a [`SignatureLine`](../../signatureline/).
 

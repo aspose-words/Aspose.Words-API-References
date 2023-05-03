@@ -7,7 +7,7 @@ type: docs
 weight: 180
 url: /net/aspose.words/font/kerning/
 ---
-## Kerning property
+## Font.Kerning property
 
 Gets or sets the font size at which kerning starts.
 

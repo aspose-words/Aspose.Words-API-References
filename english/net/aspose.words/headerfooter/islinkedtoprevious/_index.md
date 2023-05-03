@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/headerfooter/islinkedtoprevious/
 ---
-## IsLinkedToPrevious property
+## HeaderFooter.IsLinkedToPrevious property
 
 True if this header or footer is linked to the corresponding header or footer in the previous section.
 

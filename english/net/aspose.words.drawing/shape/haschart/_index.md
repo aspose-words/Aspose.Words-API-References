@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.drawing/shape/haschart/
 ---
-## HasChart property
+## Shape.HasChart property
 
 Returns `true` if this [`Shape`](../) has a [`Chart`](../../../aspose.words.drawing.charts/chart/).
 

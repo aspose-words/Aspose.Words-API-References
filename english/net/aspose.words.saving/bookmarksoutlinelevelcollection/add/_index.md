@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.saving/bookmarksoutlinelevelcollection/add/
 ---
-## Add method
+## BookmarksOutlineLevelCollection.Add method
 
 Adds a bookmark to the collection.
 

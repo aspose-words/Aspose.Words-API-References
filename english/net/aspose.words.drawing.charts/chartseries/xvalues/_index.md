@@ -7,7 +7,7 @@ type: docs
 weight: 140
 url: /net/aspose.words.drawing.charts/chartseries/xvalues/
 ---
-## XValues property
+## ChartSeries.XValues property
 
 Gets a collection of X values for this chart series.
 

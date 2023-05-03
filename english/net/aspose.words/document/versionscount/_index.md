@@ -7,7 +7,7 @@ type: docs
 weight: 460
 url: /net/aspose.words/document/versionscount/
 ---
-## VersionsCount property
+## Document.VersionsCount property
 
 Gets the number of document versions that was stored in the DOC document.
 

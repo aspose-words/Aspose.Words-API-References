@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/editablerangeend/accept/
 ---
-## Accept method
+## EditableRangeEnd.Accept method
 
 Accepts a visitor.
 

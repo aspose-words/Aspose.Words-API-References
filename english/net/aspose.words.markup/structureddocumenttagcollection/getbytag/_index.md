@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.markup/structureddocumenttagcollection/getbytag/
 ---
-## GetByTag method
+## StructuredDocumentTagCollection.GetByTag method
 
 Returns the first structured document tag encountered in the collection with the specified tag.
 

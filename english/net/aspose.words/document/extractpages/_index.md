@@ -7,7 +7,7 @@ type: docs
 weight: 600
 url: /net/aspose.words/document/extractpages/
 ---
-## ExtractPages method
+## Document.ExtractPages method
 
 Returns the [`Document`](../) object representing specified range of pages.
 

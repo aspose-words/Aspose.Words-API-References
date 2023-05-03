@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.math/officemath/displaytype/
 ---
-## DisplayType property
+## OfficeMath.DisplayType property
 
 Gets/sets Office Math display format type which represents whether an equation is displayed inline with the text or displayed on its own line.
 

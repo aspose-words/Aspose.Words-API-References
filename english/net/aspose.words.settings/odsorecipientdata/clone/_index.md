@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.settings/odsorecipientdata/clone/
 ---
-## Clone method
+## OdsoRecipientData.Clone method
 
 Returns a deep clone of this object.
 

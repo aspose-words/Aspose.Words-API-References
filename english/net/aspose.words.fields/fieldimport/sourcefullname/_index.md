@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldimport/sourcefullname/
 ---
-## SourceFullName property
+## FieldImport.SourceFullName property
 
 Gets or sets the location of the picture.
 

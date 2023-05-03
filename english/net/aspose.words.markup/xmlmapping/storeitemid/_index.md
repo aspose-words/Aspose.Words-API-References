@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.markup/xmlmapping/storeitemid/
 ---
-## StoreItemId property
+## XmlMapping.StoreItemId property
 
 Specifies the custom XML data identifier for the custom XML data part which shall be used to evaluate the [`XPath`](../xpath/) expression.
 

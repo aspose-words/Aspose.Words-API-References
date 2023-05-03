@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words/section/protectedforforms/
 ---
-## ProtectedForForms property
+## Section.ProtectedForForms property
 
 True if the section is protected for forms. When a section is protected for forms, users can select and modify text only in form fields in Microsoft Word.
 

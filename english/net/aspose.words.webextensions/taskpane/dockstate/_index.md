@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.webextensions/taskpane/dockstate/
 ---
-## DockState property
+## TaskPane.DockState property
 
 Specifies the last-docked location of this task pane object.
 

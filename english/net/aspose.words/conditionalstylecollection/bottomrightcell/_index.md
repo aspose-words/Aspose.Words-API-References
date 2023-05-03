@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/conditionalstylecollection/bottomrightcell/
 ---
-## BottomRightCell property
+## ConditionalStyleCollection.BottomRightCell property
 
 Gets the bottom right cell style.
 

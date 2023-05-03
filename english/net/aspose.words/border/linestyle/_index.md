@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/border/linestyle/
 ---
-## LineStyle property
+## Border.LineStyle property
 
 Gets or sets the border style.
 

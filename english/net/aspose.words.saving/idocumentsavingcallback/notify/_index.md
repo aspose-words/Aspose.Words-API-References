@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.saving/idocumentsavingcallback/notify/
 ---
-## Notify method
+## IDocumentSavingCallback.Notify method
 
 This is called to notify of document saving progress.
 

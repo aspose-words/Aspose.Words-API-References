@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.layout/layoutoptions/textshaperfactory/
 ---
-## TextShaperFactory property
+## LayoutOptions.TextShaperFactory property
 
 Gets or sets [`ITextShaperFactory`](../../../aspose.words.shaping/itextshaperfactory/) implementation used for Advanced Typography rendering features.
 

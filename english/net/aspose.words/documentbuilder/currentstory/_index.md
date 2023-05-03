@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words/documentbuilder/currentstory/
 ---
-## CurrentStory property
+## DocumentBuilder.CurrentStory property
 
 Gets the story that is currently selected in this [`DocumentBuilder`](../).
 

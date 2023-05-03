@@ -7,7 +7,7 @@ type: docs
 weight: 250
 url: /net/aspose.words/font/namebi/
 ---
-## NameBi property
+## Font.NameBi property
 
 Returns or sets the name of the font in a right-to-left language document.
 

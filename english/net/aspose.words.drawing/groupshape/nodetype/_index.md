@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.drawing/groupshape/nodetype/
 ---
-## NodeType property
+## GroupShape.NodeType property
 
 Returns GroupShape.
 

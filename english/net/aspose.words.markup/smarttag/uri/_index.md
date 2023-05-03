@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.markup/smarttag/uri/
 ---
-## Uri property
+## SmartTag.Uri property
 
 Specifies the namespace URI of the smart tag.
 

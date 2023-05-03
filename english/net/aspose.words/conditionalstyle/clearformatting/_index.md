@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words/conditionalstyle/clearformatting/
 ---
-## ClearFormatting method
+## ConditionalStyle.ClearFormatting method
 
 Clears formatting of this conditional style.
 

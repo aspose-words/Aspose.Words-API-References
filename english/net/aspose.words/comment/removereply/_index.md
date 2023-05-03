@@ -7,7 +7,7 @@ type: docs
 weight: 140
 url: /net/aspose.words/comment/removereply/
 ---
-## RemoveReply method
+## Comment.RemoveReply method
 
 Removes the specified reply to this comment.
 

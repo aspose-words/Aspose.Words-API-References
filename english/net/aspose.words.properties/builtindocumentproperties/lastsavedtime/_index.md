@@ -7,7 +7,7 @@ type: docs
 weight: 170
 url: /net/aspose.words.properties/builtindocumentproperties/lastsavedtime/
 ---
-## LastSavedTime property
+## BuiltInDocumentProperties.LastSavedTime property
 
 Gets or sets the time of the last save in UTC.
 

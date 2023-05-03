@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.buildingblocks/buildingblock/guid/
 ---
-## Guid property
+## BuildingBlock.Guid property
 
 Gets or sets an identifier (a 128-bit GUID) that uniquely identifies this building block.
 

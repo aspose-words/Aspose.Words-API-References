@@ -7,7 +7,7 @@ type: docs
 weight: 140
 url: /net/aspose.words.saving/htmlfixedsaveoptions/resourcesfolder/
 ---
-## ResourcesFolder property
+## HtmlFixedSaveOptions.ResourcesFolder property
 
 Specifies the physical folder where resources (images, fonts, css) are saved when exporting a document to Html format. Default is `null`.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words.drawing.charts/chartseries/marker/
 ---
-## Marker property
+## ChartSeries.Marker property
 
 Specifies a data marker. Marker is automatically created when requested.
 

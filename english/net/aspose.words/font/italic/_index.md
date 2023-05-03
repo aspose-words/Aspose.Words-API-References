@@ -7,7 +7,7 @@ type: docs
 weight: 160
 url: /net/aspose.words/font/italic/
 ---
-## Italic property
+## Font.Italic property
 
 True if the font is formatted as italic.
 

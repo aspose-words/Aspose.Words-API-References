@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/chartyvalue/fromdatetime/
 ---
-## FromDateTime method
+## ChartYValue.FromDateTime method
 
 Creates a [`ChartYValue`](../) instance of the DateTime type.
 

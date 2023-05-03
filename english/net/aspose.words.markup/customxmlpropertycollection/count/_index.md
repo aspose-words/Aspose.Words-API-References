@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.markup/customxmlpropertycollection/count/
 ---
-## Count property
+## CustomXmlPropertyCollection.Count property
 
 Gets the number of elements contained in the collection.
 

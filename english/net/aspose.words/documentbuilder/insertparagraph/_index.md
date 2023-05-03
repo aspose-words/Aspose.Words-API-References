@@ -7,7 +7,7 @@ type: docs
 weight: 420
 url: /net/aspose.words/documentbuilder/insertparagraph/
 ---
-## InsertParagraph method
+## DocumentBuilder.InsertParagraph method
 
 Inserts a paragraph break into the document.
 

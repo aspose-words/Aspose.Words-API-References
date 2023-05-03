@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldbarcode/facingidentificationmark/
 ---
-## FacingIdentificationMark property
+## FieldBarcode.FacingIdentificationMark property
 
 Gets or sets the type of a Facing Identification Mark (FIM) to insert.
 

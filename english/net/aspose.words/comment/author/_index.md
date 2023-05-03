@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/comment/author/
 ---
-## Author property
+## Comment.Author property
 
 Returns or sets the author name for a comment.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words/inline/ismovefromrevision/
 ---
-## IsMoveFromRevision property
+## Inline.IsMoveFromRevision property
 
 Returns `true` if this object was moved (deleted) in Microsoft Word while change tracking was enabled.
 

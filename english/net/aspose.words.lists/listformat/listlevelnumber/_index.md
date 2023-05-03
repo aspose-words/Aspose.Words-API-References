@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.lists/listformat/listlevelnumber/
 ---
-## ListLevelNumber property
+## ListFormat.ListLevelNumber property
 
 Gets or sets the list level number (0 to 8) for the paragraph.
 

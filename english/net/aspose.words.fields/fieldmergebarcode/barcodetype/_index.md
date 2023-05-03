@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldmergebarcode/barcodetype/
 ---
-## BarcodeType property
+## FieldMergeBarcode.BarcodeType property
 
 Gets or sets the barcode type (QR, etc.)
 

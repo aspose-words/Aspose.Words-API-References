@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.drawing.charts/chart/axisz/
 ---
-## AxisZ property
+## Chart.AxisZ property
 
 Provides access to properties of the Z axis of the chart.
 

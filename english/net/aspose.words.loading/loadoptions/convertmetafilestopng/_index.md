@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.loading/loadoptions/convertmetafilestopng/
 ---
-## ConvertMetafilesToPng property
+## LoadOptions.ConvertMetafilesToPng property
 
 Gets or sets whether to convert metafile (Wmf or Emf) images to Png image format.
 

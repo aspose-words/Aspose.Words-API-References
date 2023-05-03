@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/fielddatabasedatarow/createfrom/
 ---
-## CreateFrom method
+## FieldDatabaseDataRow.CreateFrom method
 
 Initializes a new instance of the [`FieldDatabaseDataRow`](../) class from the DataRow instance.
 

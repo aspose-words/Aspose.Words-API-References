@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.lists/listformat/applynumberdefault/
 ---
-## ApplyNumberDefault method
+## ListFormat.ApplyNumberDefault method
 
 Starts a new default numbered list and applies it to the paragraph.
 

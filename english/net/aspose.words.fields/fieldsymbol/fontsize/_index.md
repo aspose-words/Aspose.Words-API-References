@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldsymbol/fontsize/
 ---
-## FontSize property
+## FieldSymbol.FontSize property
 
 Gets or sets the size in points of the font of the character retrieved by the field.
 

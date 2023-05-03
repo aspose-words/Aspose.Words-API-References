@@ -7,7 +7,7 @@ type: docs
 weight: 470
 url: /net/aspose.words.settings/compatibilityoptions/subfontbysize/
 ---
-## SubFontBySize property
+## CompatibilityOptions.SubFontBySize property
 
 Increase Priority Of Font Size During Font Substitution.
 

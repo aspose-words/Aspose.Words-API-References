@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.fields/fieldstyleref/suppressnondelimiters/
 ---
-## SuppressNonDelimiters property
+## FieldStyleRef.SuppressNonDelimiters property
 
 Gets or sets whether to suppress non-delimiter characters.
 

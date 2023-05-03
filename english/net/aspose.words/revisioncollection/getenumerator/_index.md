@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words/revisioncollection/getenumerator/
 ---
-## GetEnumerator method
+## RevisionCollection.GetEnumerator method
 
 Returns an enumerator object.
 

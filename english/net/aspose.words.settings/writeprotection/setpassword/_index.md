@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.settings/writeprotection/setpassword/
 ---
-## SetPassword method
+## WriteProtection.SetPassword method
 
 Sets the write protection password for the document.
 

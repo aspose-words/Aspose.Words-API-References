@@ -7,7 +7,7 @@ type: docs
 weight: 150
 url: /net/aspose.words.drawing/stroke/opacity/
 ---
-## Opacity property
+## Stroke.Opacity property
 
 Defines the amount of transparency of a stroke. Valid range is from 0 to 1.
 

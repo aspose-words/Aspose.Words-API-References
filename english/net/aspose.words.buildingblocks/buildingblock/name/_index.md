@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.buildingblocks/buildingblock/name/
 ---
-## Name property
+## BuildingBlock.Name property
 
 Gets or sets the name of this building block.
 

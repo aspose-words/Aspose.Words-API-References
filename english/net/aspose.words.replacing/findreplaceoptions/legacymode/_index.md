@@ -7,7 +7,7 @@ type: docs
 weight: 130
 url: /net/aspose.words.replacing/findreplaceoptions/legacymode/
 ---
-## LegacyMode property
+## FindReplaceOptions.LegacyMode property
 
 Gets or sets a boolean value indicating that old find/replace algorithm is used.
 

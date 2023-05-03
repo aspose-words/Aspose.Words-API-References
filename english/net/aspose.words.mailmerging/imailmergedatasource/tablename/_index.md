@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.mailmerging/imailmergedatasource/tablename/
 ---
-## TableName property
+## IMailMergeDataSource.TableName property
 
 Returns the name of the data source.
 

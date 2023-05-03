@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words/inlinestory/ismovetorevision/
 ---
-## IsMoveToRevision property
+## InlineStory.IsMoveToRevision property
 
 Returns `true` if this object was moved (inserted) in Microsoft Word while change tracking was enabled.
 

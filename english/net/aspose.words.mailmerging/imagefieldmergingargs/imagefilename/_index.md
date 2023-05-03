@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.mailmerging/imagefieldmergingargs/imagefilename/
 ---
-## ImageFileName property
+## ImageFieldMergingArgs.ImageFileName property
 
 Sets the file name of the image that the mail merge engine must insert into the document.
 

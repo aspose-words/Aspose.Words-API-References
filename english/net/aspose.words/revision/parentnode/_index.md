@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/revision/parentnode/
 ---
-## ParentNode property
+## Revision.ParentNode property
 
 Gets the immediate parent node (owner) of this revision. This property will work for any revision type other than StyleDefinitionChange.
 

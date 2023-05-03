@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.saving/ifontsavingcallback/fontsaving/
 ---
-## FontSaving method
+## IFontSavingCallback.FontSaving method
 
 Called when Aspose.Words is about to save a font resource.
 

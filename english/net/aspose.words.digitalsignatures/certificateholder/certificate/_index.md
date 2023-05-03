@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.digitalsignatures/certificateholder/certificate/
 ---
-## Certificate property
+## CertificateHolder.Certificate property
 
 Returns the instance of **X509Certificate2** which holds private, public keys and certificate chain.
 

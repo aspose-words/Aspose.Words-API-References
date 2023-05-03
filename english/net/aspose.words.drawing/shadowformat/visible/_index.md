@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.drawing/shadowformat/visible/
 ---
-## Visible property
+## ShadowFormat.Visible property
 
 Returns `true` if the formatting applied to this instance is visible.
 

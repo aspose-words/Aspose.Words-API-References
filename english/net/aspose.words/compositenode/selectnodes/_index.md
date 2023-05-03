@@ -7,7 +7,7 @@ type: docs
 weight: 200
 url: /net/aspose.words/compositenode/selectnodes/
 ---
-## SelectNodes method
+## CompositeNode.SelectNodes method
 
 Selects a list of nodes matching the XPath expression.
 

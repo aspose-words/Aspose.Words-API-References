@@ -7,7 +7,7 @@ type: docs
 weight: 330
 url: /net/aspose.words/document/protectiontype/
 ---
-## ProtectionType property
+## Document.ProtectionType property
 
 Gets the currently active document protection type.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fonts/fontconfigsubstitutionrule/isfontconfigavailable/
 ---
-## IsFontConfigAvailable method
+## FontConfigSubstitutionRule.IsFontConfigAvailable method
 
 Check if fontconfig utility is available or not.
 

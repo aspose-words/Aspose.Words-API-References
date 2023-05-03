@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.markup/customxmlpropertycollection/contains/
 ---
-## Contains method
+## CustomXmlPropertyCollection.Contains method
 
 Determines whether the collection contains a property with the given name.
 

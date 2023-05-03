@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.fonts/physicalfontinfo/version/
 ---
-## Version property
+## PhysicalFontInfo.Version property
 
 Version string of the font.
 

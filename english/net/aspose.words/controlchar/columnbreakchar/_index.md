@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/controlchar/columnbreakchar/
 ---
-## ColumnBreakChar field
+## ControlChar.ColumnBreakChar field
 
 End of column character: (char)14.
 

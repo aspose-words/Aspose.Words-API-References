@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words/shading/foregroundpatternthemecolor/
 ---
-## ForegroundPatternThemeColor property
+## Shading.ForegroundPatternThemeColor property
 
 Gets or sets the foreground pattern theme color in the applied color scheme that is associated with this [`Shading`](../) object.
 

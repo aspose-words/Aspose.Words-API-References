@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.notes/footnote/nodetype/
 ---
-## NodeType property
+## Footnote.NodeType property
 
 Returns Footnote.
 

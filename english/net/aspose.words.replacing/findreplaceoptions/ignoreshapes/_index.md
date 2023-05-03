@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words.replacing/findreplaceoptions/ignoreshapes/
 ---
-## IgnoreShapes property
+## FindReplaceOptions.IgnoreShapes property
 
 Gets or sets a boolean value indicating either to ignore shapes within a text.
 

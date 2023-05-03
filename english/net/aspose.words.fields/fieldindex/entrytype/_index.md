@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldindex/entrytype/
 ---
-## EntryType property
+## FieldIndex.EntryType property
 
 Gets or sets an index entry type used to build the index.
 

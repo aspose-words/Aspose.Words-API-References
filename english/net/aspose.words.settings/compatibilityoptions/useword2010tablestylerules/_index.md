@@ -7,7 +7,7 @@ type: docs
 weight: 670
 url: /net/aspose.words.settings/compatibilityoptions/useword2010tablestylerules/
 ---
-## UseWord2010TableStyleRules property
+## CompatibilityOptions.UseWord2010TableStyleRules property
 
 Specifies to use Word2010 table style rules.
 

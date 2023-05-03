@@ -7,7 +7,7 @@ type: docs
 weight: 270
 url: /net/aspose.words.saving/htmlsaveoptions/exporttextinputformfieldastext/
 ---
-## ExportTextInputFormFieldAsText property
+## HtmlSaveOptions.ExportTextInputFormFieldAsText property
 
 Controls how text input form fields are saved to HTML or MHTML. Default value is `false`.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.drawing/textbox/fitshapetotext/
 ---
-## FitShapeToText property
+## TextBox.FitShapeToText property
 
 Determines whether Microsoft Word will grow the shape to fit text.
 

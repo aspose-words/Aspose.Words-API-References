@@ -7,7 +7,7 @@ type: docs
 weight: 220
 url: /net/aspose.words/font/localeidfareast/
 ---
-## LocaleIdFarEast property
+## Font.LocaleIdFarEast property
 
 Gets or sets the locale identifier (language) of the formatted Asian characters.
 

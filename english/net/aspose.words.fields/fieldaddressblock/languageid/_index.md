@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldaddressblock/languageid/
 ---
-## LanguageId property
+## FieldAddressBlock.LanguageId property
 
 Gets or sets the language ID used to format the address.
 

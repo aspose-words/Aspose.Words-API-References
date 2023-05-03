@@ -7,7 +7,7 @@ type: docs
 weight: 590
 url: /net/aspose.words/document/expandtablestylestodirectformatting/
 ---
-## ExpandTableStylesToDirectFormatting method
+## Document.ExpandTableStylesToDirectFormatting method
 
 Converts formatting specified in table styles into direct formatting on tables in the document.
 

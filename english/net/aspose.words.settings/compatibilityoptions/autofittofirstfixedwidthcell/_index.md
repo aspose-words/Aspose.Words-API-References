@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.settings/compatibilityoptions/autofittofirstfixedwidthcell/
 ---
-## AutofitToFirstFixedWidthCell property
+## CompatibilityOptions.AutofitToFirstFixedWidthCell property
 
 Allow Table Columns To Exceed Preferred Widths of Constituent Cells.
 

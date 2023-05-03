@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.tables/cell/firstparagraph/
 ---
-## FirstParagraph property
+## Cell.FirstParagraph property
 
 Gets the first paragraph among the immediate children.
 

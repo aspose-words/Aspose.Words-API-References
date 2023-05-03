@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.fields/fielddisplaybarcode/barcodevalue/
 ---
-## BarcodeValue property
+## FieldDisplayBarcode.BarcodeValue property
 
 Gets or sets the barcode value.
 

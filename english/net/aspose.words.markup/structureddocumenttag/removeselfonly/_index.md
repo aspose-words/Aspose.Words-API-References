@@ -7,7 +7,7 @@ type: docs
 weight: 350
 url: /net/aspose.words.markup/structureddocumenttag/removeselfonly/
 ---
-## RemoveSelfOnly method
+## StructuredDocumentTag.RemoveSelfOnly method
 
 Removes just this SDT node itself, but keeps the content of it inside the document tree.
 

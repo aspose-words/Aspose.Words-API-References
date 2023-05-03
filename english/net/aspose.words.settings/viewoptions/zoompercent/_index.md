@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.settings/viewoptions/zoompercent/
 ---
-## ZoomPercent property
+## ViewOptions.ZoomPercent property
 
 Gets or sets the percentage (between 10 and 500) at which you want to view your document.
 

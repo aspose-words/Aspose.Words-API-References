@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.vba/vbaproject/references/
 ---
-## References property
+## VbaProject.References property
 
 Gets a collection of VBA project references.
 

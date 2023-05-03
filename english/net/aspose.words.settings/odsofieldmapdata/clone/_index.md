@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.settings/odsofieldmapdata/clone/
 ---
-## Clone method
+## OdsoFieldMapData.Clone method
 
 Returns a deep clone of this object.
 

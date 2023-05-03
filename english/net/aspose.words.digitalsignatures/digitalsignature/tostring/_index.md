@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.digitalsignatures/digitalsignature/tostring/
 ---
-## ToString method
+## DigitalSignature.ToString method
 
 Returns a user-friendly string that displays the value of this object.
 

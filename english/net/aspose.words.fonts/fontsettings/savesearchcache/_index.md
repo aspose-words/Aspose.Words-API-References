@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.fonts/fontsettings/savesearchcache/
 ---
-## SaveSearchCache method
+## FontSettings.SaveSearchCache method
 
 Saves the font search cache to the stream.
 

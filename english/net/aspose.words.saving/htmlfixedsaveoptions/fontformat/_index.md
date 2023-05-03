@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.saving/htmlfixedsaveoptions/fontformat/
 ---
-## FontFormat property
+## HtmlFixedSaveOptions.FontFormat property
 
 Gets or sets [`ExportFontFormat`](../../exportfontformat/) used for font exporting. Default value is Woff.
 

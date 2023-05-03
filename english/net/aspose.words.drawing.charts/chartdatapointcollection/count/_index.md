@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/chartdatapointcollection/count/
 ---
-## Count property
+## ChartDataPointCollection.Count property
 
 Returns the number of [`ChartDataPoint`](../../chartdatapoint/) in this collection.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.settings/odsofieldmapdatacollection/add/
 ---
-## Add method
+## OdsoFieldMapDataCollection.Add method
 
 Adds an object to the end of this collection.
 

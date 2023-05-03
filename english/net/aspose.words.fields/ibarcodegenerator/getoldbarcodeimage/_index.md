@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/ibarcodegenerator/getoldbarcodeimage/
 ---
-## GetOldBarcodeImage method
+## IBarcodeGenerator.GetOldBarcodeImage method
 
 Generate barcode image using the set of parameters (for old-fashioned Barcode field).
 

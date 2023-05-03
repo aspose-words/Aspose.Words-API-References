@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.shaping/cluster/glyphs/
 ---
-## Glyphs property
+## Cluster.Glyphs property
 
 Gets glyphs of the cluster.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.tables/rowformat/headingformat/
 ---
-## HeadingFormat property
+## RowFormat.HeadingFormat property
 
 True if the row is repeated as a table heading on every page when the table spans more than one page.
 

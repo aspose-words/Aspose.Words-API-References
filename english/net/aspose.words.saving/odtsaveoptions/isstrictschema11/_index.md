@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.saving/odtsaveoptions/isstrictschema11/
 ---
-## IsStrictSchema11 property
+## OdtSaveOptions.IsStrictSchema11 property
 
 Specifies whether export should correspond to ODT specification 1.1 strictly. OOo 3.0 displays files correctly when they contain elements and attributes of ODT 1.2. Use "false" for this purpose, or "true" for strict conformity of specification 1.1. The default value is `false`.
 

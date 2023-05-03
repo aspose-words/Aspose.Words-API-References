@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.saving/imagesavingargs/isimageavailable/
 ---
-## IsImageAvailable property
+## ImageSavingArgs.IsImageAvailable property
 
 Returns `true` if the current image is available for export.
 

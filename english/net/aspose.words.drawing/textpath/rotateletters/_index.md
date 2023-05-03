@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.drawing/textpath/rotateletters/
 ---
-## RotateLetters property
+## TextPath.RotateLetters property
 
 Determines whether the letters of the text are rotated.
 

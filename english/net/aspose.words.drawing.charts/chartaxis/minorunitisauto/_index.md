@@ -7,7 +7,7 @@ type: docs
 weight: 170
 url: /net/aspose.words.drawing.charts/chartaxis/minorunitisauto/
 ---
-## MinorUnitIsAuto property
+## ChartAxis.MinorUnitIsAuto property
 
 Gets or sets a flag indicating whether default distance between minor tick marks shall be used.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.drawing/signatureline/allowcomments/
 ---
-## AllowComments property
+## SignatureLine.AllowComments property
 
 Gets or sets a value indicating that the signer can add comments in the Sign dialog. Default value for this property is `false`.
 

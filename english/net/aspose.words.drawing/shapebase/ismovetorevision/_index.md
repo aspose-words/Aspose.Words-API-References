@@ -7,7 +7,7 @@ type: docs
 weight: 330
 url: /net/aspose.words.drawing/shapebase/ismovetorevision/
 ---
-## IsMoveToRevision property
+## ShapeBase.IsMoveToRevision property
 
 Returns `true` if this object was moved (inserted) in Microsoft Word while change tracking was enabled.
 

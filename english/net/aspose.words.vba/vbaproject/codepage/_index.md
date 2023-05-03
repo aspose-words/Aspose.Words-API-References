@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.vba/vbaproject/codepage/
 ---
-## CodePage property
+## VbaProject.CodePage property
 
 Gets or sets the VBA project’s code page.
 

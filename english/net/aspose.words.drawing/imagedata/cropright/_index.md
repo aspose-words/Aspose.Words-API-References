@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.drawing/imagedata/cropright/
 ---
-## CropRight property
+## ImageData.CropRight property
 
 Defines the fraction of picture removal from the right side.
 

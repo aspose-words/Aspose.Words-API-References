@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words/comment/accept/
 ---
-## Accept method
+## Comment.Accept method
 
 Accepts a visitor.
 

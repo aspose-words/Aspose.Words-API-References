@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.drawing.charts/chartaxis/crosses/
 ---
-## Crosses property
+## ChartAxis.Crosses property
 
 Specifies how this axis crosses the perpendicular axis.
 

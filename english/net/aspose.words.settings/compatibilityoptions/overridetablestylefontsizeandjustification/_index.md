@@ -7,7 +7,7 @@ type: docs
 weight: 380
 url: /net/aspose.words.settings/compatibilityoptions/overridetablestylefontsizeandjustification/
 ---
-## OverrideTableStyleFontSizeAndJustification property
+## CompatibilityOptions.OverrideTableStyleFontSizeAndJustification property
 
 Specifies how the style hierarchy of the document is evaluated.
 

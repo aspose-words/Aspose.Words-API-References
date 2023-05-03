@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words.markup/structureddocumenttagrangestart/placeholdername/
 ---
-## PlaceholderName property
+## StructuredDocumentTagRangeStart.PlaceholderName property
 
 Gets or sets Name of the [`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) containing placeholder text.
 

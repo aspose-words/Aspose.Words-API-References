@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/style/builtin/
 ---
-## BuiltIn property
+## Style.BuiltIn property
 
 True if this style is one of the built-in styles in MS Word.
 

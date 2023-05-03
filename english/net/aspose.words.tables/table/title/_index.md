@@ -7,7 +7,7 @@ type: docs
 weight: 320
 url: /net/aspose.words.tables/table/title/
 ---
-## Title property
+## Table.Title property
 
 Gets or sets title of this table. It provides an alternative text representation of the information contained in the table.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.loading/txtloadoptions/documentdirection/
 ---
-## DocumentDirection property
+## TxtLoadOptions.DocumentDirection property
 
 Gets or sets a document direction. The default value is LeftToRight.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/cleanupoptions/unusedlists/
 ---
-## UnusedLists property
+## CleanupOptions.UnusedLists property
 
 Specifies whether unused list and list definitions should be removed from document. Default value is `true`.
 

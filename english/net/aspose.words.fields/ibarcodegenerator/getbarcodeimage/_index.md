@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.fields/ibarcodegenerator/getbarcodeimage/
 ---
-## GetBarcodeImage method
+## IBarcodeGenerator.GetBarcodeImage method
 
 Generate barcode image using the set of parameters (for DisplayBarcode field).
 

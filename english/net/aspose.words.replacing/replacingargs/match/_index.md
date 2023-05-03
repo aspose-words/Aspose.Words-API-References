@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.replacing/replacingargs/match/
 ---
-## Match property
+## ReplacingArgs.Match property
 
 The Match resulting from a single regular expression match during a **Replace**.
 

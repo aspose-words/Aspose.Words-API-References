@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.markup/structureddocumenttagrangestart/lockcontentcontrol/
 ---
-## LockContentControl property
+## StructuredDocumentTagRangeStart.LockContentControl property
 
 When set to `true`, this property will prohibit a user from deleting this structured document tag.
 

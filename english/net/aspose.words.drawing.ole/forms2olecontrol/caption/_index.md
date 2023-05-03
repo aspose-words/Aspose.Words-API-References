@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.drawing.ole/forms2olecontrol/caption/
 ---
-## Caption property
+## Forms2OleControl.Caption property
 
 Gets Caption property of control. Default value is an empty string.
 

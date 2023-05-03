@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldseq/resetnumber/
 ---
-## ResetNumber property
+## FieldSeq.ResetNumber property
 
 Gets or sets an integer number to reset the sequence number to. Returns -1 if the number is absent.
 

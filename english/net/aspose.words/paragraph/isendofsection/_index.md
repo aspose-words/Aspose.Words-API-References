@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words/paragraph/isendofsection/
 ---
-## IsEndOfSection property
+## Paragraph.IsEndOfSection property
 
 True if this paragraph is the last paragraph in the [`Body`](../../body/) (main text story) of a [`Section`](../../section/); false otherwise.
 

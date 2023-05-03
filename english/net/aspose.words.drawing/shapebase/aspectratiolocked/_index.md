@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.drawing/shapebase/aspectratiolocked/
 ---
-## AspectRatioLocked property
+## ShapeBase.AspectRatioLocked property
 
 Specifies whether the shape's aspect ratio is locked.
 

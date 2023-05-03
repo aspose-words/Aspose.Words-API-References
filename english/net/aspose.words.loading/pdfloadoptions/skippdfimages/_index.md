@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.loading/pdfloadoptions/skippdfimages/
 ---
-## SkipPdfImages property
+## PdfLoadOptions.SkipPdfImages property
 
 Gets or sets the flag indicating whether images must be skipped while loading PDF document. Default is `false`.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldxe/pagerangebookmarkname/
 ---
-## PageRangeBookmarkName property
+## FieldXE.PageRangeBookmarkName property
 
 Gets or sets the name of the bookmark that marks a range of pages that is inserted as the entry's page number.
 

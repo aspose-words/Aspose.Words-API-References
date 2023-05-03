@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/axisdisplayunit/document/
 ---
-## Document property
+## AxisDisplayUnit.Document property
 
 Returns the Document the title holder belongs.
 

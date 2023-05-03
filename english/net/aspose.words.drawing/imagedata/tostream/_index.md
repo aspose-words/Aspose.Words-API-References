@@ -7,7 +7,7 @@ type: docs
 weight: 230
 url: /net/aspose.words.drawing/imagedata/tostream/
 ---
-## ToStream method
+## ImageData.ToStream method
 
 Creates and returns a stream that contains the image bytes.
 

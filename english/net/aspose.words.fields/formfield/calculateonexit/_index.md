@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.fields/formfield/calculateonexit/
 ---
-## CalculateOnExit property
+## FormField.CalculateOnExit property
 
 True if references to the specified form field are automatically updated whenever the field is exited.
 

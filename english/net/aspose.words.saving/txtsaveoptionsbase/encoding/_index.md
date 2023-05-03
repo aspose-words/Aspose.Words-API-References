@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.saving/txtsaveoptionsbase/encoding/
 ---
-## Encoding property
+## TxtSaveOptionsBase.Encoding property
 
 Specifies the encoding to use when exporting in text formats. Default value is **Encoding.UTF8**.
 

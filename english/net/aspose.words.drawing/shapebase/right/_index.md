@@ -7,7 +7,7 @@ type: docs
 weight: 460
 url: /net/aspose.words.drawing/shapebase/right/
 ---
-## Right property
+## ShapeBase.Right property
 
 Gets the position of the right edge of the containing block of the shape.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.digitalsignatures/signoptions/providerid/
 ---
-## ProviderId property
+## SignOptions.ProviderId property
 
 Specifies the class ID of the signature provider. Default value is **Empty (all zeroes) Guid**.
 

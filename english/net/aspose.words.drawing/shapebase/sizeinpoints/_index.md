@@ -7,7 +7,7 @@ type: docs
 weight: 510
 url: /net/aspose.words.drawing/shapebase/sizeinpoints/
 ---
-## SizeInPoints property
+## ShapeBase.SizeInPoints property
 
 Gets the size of the shape in points.
 

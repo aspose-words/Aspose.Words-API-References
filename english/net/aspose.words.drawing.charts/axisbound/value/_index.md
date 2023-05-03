@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/axisbound/value/
 ---
-## Value property
+## AxisBound.Value property
 
 Returns numeric value of axis bound.
 

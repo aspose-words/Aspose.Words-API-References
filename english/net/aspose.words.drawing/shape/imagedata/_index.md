@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words.drawing/shape/imagedata/
 ---
-## ImageData property
+## Shape.ImageData property
 
 Provides access to the image of the shape. Returns `null` if the shape cannot have an image.
 

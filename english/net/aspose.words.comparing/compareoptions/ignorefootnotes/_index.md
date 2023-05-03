@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.comparing/compareoptions/ignorefootnotes/
 ---
-## IgnoreFootnotes property
+## CompareOptions.IgnoreFootnotes property
 
 Specifies whether to compare differences in footnotes and endnotes. By default footnotes are not ignored.
 

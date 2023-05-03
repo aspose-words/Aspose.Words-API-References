@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words.drawing/stroke/forecolor/
 ---
-## ForeColor property
+## Stroke.ForeColor property
 
 Gets or sets the foreground color of the stroke.
 

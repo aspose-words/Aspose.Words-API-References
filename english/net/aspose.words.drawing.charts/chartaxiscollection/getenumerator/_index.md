@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/chartaxiscollection/getenumerator/
 ---
-## GetEnumerator method
+## ChartAxisCollection.GetEnumerator method
 
 Returns an enumerator object.
 

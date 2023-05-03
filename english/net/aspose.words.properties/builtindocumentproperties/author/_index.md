@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.properties/builtindocumentproperties/author/
 ---
-## Author property
+## BuiltInDocumentProperties.Author property
 
 Gets or sets the name of the document's author.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words/style/name/
 ---
-## Name property
+## Style.Name property
 
 Gets or sets the name of the style.
 

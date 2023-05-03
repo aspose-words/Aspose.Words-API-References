@@ -7,7 +7,7 @@ type: docs
 weight: 300
 url: /net/aspose.words/document/originalloadformat/
 ---
-## OriginalLoadFormat property
+## Document.OriginalLoadFormat property
 
 Gets the format of the original document that was loaded into this object.
 

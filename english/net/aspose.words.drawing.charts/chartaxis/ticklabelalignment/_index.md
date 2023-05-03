@@ -7,7 +7,7 @@ type: docs
 weight: 220
 url: /net/aspose.words.drawing.charts/chartaxis/ticklabelalignment/
 ---
-## TickLabelAlignment property
+## ChartAxis.TickLabelAlignment property
 
 Gets or sets text alignment of axis tick labels.
 

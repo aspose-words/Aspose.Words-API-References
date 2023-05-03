@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.fields/formfieldcollection/count/
 ---
-## Count property
+## FormFieldCollection.Count property
 
 Returns the number of form fields in the collection.
 

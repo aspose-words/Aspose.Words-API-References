@@ -7,7 +7,7 @@ type: docs
 weight: 170
 url: /net/aspose.words/pagesetup/headerdistance/
 ---
-## HeaderDistance property
+## PageSetup.HeaderDistance property
 
 Returns or sets the distance (in points) between the header and the top of the page.
 

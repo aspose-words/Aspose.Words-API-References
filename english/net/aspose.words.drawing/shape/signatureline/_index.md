@@ -7,7 +7,7 @@ type: docs
 weight: 160
 url: /net/aspose.words.drawing/shape/signatureline/
 ---
-## SignatureLine property
+## Shape.SignatureLine property
 
 Gets [`SignatureLine`](../../signatureline/) object if the shape is a signature line. Returns `null` otherwise.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.markup/custompart/relationshiptype/
 ---
-## RelationshipType property
+## CustomPart.RelationshipType property
 
 Gets or sets the relationship type from the parent part to this custom part.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/comparisonexpression/leftexpression/
 ---
-## LeftExpression property
+## ComparisonExpression.LeftExpression property
 
 Gets the left expression.
 

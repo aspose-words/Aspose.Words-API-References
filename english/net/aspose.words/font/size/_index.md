@@ -7,7 +7,7 @@ type: docs
 weight: 340
 url: /net/aspose.words/font/size/
 ---
-## Size property
+## Font.Size property
 
 Gets or sets the font size in points.
 

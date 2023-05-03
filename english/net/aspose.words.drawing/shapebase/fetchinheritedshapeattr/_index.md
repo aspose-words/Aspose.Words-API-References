@@ -7,7 +7,7 @@ type: docs
 weight: 630
 url: /net/aspose.words.drawing/shapebase/fetchinheritedshapeattr/
 ---
-## FetchInheritedShapeAttr method
+## ShapeBase.FetchInheritedShapeAttr method
 
 Reserved for system use. IShapeAttrSource.
 

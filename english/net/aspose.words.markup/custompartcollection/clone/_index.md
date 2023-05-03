@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.markup/custompartcollection/clone/
 ---
-## Clone method
+## CustomPartCollection.Clone method
 
 Makes a deep copy of this collection and its items.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words.drawing/stroke/joinstyle/
 ---
-## JoinStyle property
+## Stroke.JoinStyle property
 
 Defines the join style of a polyline.
 
@@ -44,6 +44,7 @@ stroke.DashStyle = DashStyle.ShortDashDotDot;
 stroke.JoinStyle = JoinStyle.Miter;
 stroke.EndCap = EndCap.Square;
 stroke.LineStyle = ShapeLineStyle.Triple;
+stroke.Fill.TwoColorGradient(Color.Red, Color.Blue, GradientStyle.Vertical, GradientVariant.Variant1);
 
 doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 ```

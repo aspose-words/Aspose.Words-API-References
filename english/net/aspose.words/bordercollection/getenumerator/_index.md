@@ -7,7 +7,7 @@ type: docs
 weight: 160
 url: /net/aspose.words/bordercollection/getenumerator/
 ---
-## GetEnumerator method
+## BorderCollection.GetEnumerator method
 
 Returns an enumerator object that can be used to iterate over all borders in the collection.
 

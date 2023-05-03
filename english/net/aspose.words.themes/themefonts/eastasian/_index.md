@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.themes/themefonts/eastasian/
 ---
-## EastAsian property
+## ThemeFonts.EastAsian property
 
 Specifies font name for EastAsian characters.
 

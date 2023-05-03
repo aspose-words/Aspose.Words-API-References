@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words.lists/listlevel/tabposition/
 ---
-## TabPosition property
+## ListLevel.TabPosition property
 
 Returns or sets the tab position (in points) for the list level.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.drawing/textbox/notextrotation/
 ---
-## NoTextRotation property
+## TextBox.NoTextRotation property
 
 Gets or sets a boolean value indicating either text of the TextBox should not rotate when the shape is rotated.
 

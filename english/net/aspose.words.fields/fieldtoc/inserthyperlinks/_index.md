@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words.fields/fieldtoc/inserthyperlinks/
 ---
-## InsertHyperlinks property
+## FieldToc.InsertHyperlinks property
 
 Gets or sets whether to make the table of contents entries hyperlinks.
 

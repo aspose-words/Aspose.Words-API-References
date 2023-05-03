@@ -7,7 +7,7 @@ type: docs
 weight: 190
 url: /net/aspose.words.settings/compatibilityoptions/donotsuppressparagraphborders/
 ---
-## DoNotSuppressParagraphBorders property
+## CompatibilityOptions.DoNotSuppressParagraphBorders property
 
 Do Not Suppress Paragraph Borders Next To Frames.
 

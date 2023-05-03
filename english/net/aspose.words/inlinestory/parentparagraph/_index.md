@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words/inlinestory/parentparagraph/
 ---
-## ParentParagraph property
+## InlineStory.ParentParagraph property
 
 Retrieves the parent [`Paragraph`](../../paragraph/) of this node.
 

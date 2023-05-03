@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.saving/fixedpagesaveoptions/pageset/
 ---
-## PageSet property
+## FixedPageSaveOptions.PageSet property
 
 Gets or sets the pages to render. Default is all the pages in the document.
 

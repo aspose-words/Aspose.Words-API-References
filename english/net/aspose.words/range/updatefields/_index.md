@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words/range/updatefields/
 ---
-## UpdateFields method
+## Range.UpdateFields method
 
 Updates the values of document fields in this range.
 

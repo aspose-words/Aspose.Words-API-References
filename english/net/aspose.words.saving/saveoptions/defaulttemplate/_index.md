@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.saving/saveoptions/defaulttemplate/
 ---
-## DefaultTemplate property
+## SaveOptions.DefaultTemplate property
 
 Gets or sets path to default template (including filename). Default value for this property is **empty string** (Empty).
 

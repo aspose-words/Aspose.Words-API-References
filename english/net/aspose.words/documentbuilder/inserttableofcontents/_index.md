@@ -7,7 +7,7 @@ type: docs
 weight: 460
 url: /net/aspose.words/documentbuilder/inserttableofcontents/
 ---
-## InsertTableOfContents method
+## DocumentBuilder.InsertTableOfContents method
 
 Inserts a TOC (table of contents) field into the document.
 

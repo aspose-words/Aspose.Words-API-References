@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/metered/getconsumptioncredit/
 ---
-## GetConsumptionCredit method
+## Metered.GetConsumptionCredit method
 
 Gets consumption credit
 

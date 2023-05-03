@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.saving/htmlsaveoptions/csssavingcallback/
 ---
-## CssSavingCallback property
+## HtmlSaveOptions.CssSavingCallback property
 
 Allows to control how CSS styles are saved when a document is saved to HTML, MHTML or EPUB.
 

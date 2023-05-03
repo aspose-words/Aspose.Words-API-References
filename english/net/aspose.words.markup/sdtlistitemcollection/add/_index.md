@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.markup/sdtlistitemcollection/add/
 ---
-## Add method
+## SdtListItemCollection.Add method
 
 Adds an item to this collection.
 

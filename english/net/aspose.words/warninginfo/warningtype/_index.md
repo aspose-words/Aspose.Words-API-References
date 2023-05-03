@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/warninginfo/warningtype/
 ---
-## WarningType property
+## WarningInfo.WarningType property
 
 Returns the type of the warning.
 

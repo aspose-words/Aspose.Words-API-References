@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldhyperlink/isimagemap/
 ---
-## IsImageMap property
+## FieldHyperlink.IsImageMap property
 
 Gets or sets whether to append coordinates to the hyperlink for a server-side image map.
 

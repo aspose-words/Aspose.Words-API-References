@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.fonts/fontsourcebase/getavailablefonts/
 ---
-## GetAvailableFonts method
+## FontSourceBase.GetAvailableFonts method
 
 Returns list of fonts available via this source.
 

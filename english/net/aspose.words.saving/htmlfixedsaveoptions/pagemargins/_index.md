@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words.saving/htmlfixedsaveoptions/pagemargins/
 ---
-## PageMargins property
+## HtmlFixedSaveOptions.PageMargins property
 
 Specifies the margins around pages in an HTML document. The margins value is measured in points and should be equal to or greater than 0. Default value is 10 points.
 

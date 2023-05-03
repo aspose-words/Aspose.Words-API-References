@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.saving/markdownsaveoptions/tablecontentalignment/
 ---
-## TableContentAlignment property
+## MarkdownSaveOptions.TableContentAlignment property
 
 Gets or sets a value that specifies how to align contents in tables when exporting into the Markdown format. The default value is Auto.
 

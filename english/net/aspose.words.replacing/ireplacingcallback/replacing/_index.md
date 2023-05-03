@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.replacing/ireplacingcallback/replacing/
 ---
-## Replacing method
+## IReplacingCallback.Replacing method
 
 A user defined method that is called during a replace operation for each match found just before a replace is made.
 

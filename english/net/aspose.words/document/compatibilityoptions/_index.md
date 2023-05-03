@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words/document/compatibilityoptions/
 ---
-## CompatibilityOptions property
+## Document.CompatibilityOptions property
 
 Provides access to document compatibility options (that is, the user preferences entered on the **Compatibility** tab of the **Options** dialog in Word).
 

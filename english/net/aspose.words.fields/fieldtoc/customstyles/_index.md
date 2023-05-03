@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldtoc/customstyles/
 ---
-## CustomStyles property
+## FieldToc.CustomStyles property
 
 Gets or sets a list of styles other than the built-in heading styles to include in the table of contents.
 

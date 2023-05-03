@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words/stylecollection/getenumerator/
 ---
-## GetEnumerator method
+## StyleCollection.GetEnumerator method
 
 Gets an enumerator object that will enumerate styles in the alphabetical order of their names.
 

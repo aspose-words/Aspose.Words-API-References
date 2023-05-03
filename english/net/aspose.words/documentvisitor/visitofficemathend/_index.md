@@ -7,7 +7,7 @@ type: docs
 weight: 300
 url: /net/aspose.words/documentvisitor/visitofficemathend/
 ---
-## VisitOfficeMathEnd method
+## DocumentVisitor.VisitOfficeMathEnd method
 
 Called when enumeration of a Office Math object has ended.
 

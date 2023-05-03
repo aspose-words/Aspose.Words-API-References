@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.drawing/fill/filltype/
 ---
-## FillType property
+## Fill.FillType property
 
 Gets a fill type.
 

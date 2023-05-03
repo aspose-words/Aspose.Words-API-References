@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.notes/footnoteoptions/restartrule/
 ---
-## RestartRule property
+## FootnoteOptions.RestartRule property
 
 Determines when automatic numbering restarts.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.drawing/groupshape/accept/
 ---
-## Accept method
+## GroupShape.Accept method
 
 Accepts a visitor.
 

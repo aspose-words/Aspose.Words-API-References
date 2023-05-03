@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.comparing/compareoptions/granularity/
 ---
-## Granularity property
+## CompareOptions.Granularity property
 
 Specifies whether changes are tracked by character or by word. Default value is WordLevel.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/inline/isdeleterevision/
 ---
-## IsDeleteRevision property
+## Inline.IsDeleteRevision property
 
 Returns true if this object was deleted in Microsoft Word while change tracking was enabled.
 

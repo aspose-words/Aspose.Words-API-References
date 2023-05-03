@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.drawing/oleformat/progid/
 ---
-## ProgId property
+## OleFormat.ProgId property
 
 Gets or sets the ProgID of the OLE object.
 

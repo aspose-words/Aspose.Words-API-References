@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.markup/structureddocumenttag/appearance/
 ---
-## Appearance property
+## StructuredDocumentTag.Appearance property
 
 Gets/sets the appearance of a structured document tag.
 

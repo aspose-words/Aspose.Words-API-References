@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.markup/sdtlistitem/value/
 ---
-## Value property
+## SdtListItem.Value property
 
 Gets the value of this list item.
 

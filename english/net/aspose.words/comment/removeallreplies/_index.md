@@ -7,7 +7,7 @@ type: docs
 weight: 130
 url: /net/aspose.words/comment/removeallreplies/
 ---
-## RemoveAllReplies method
+## Comment.RemoveAllReplies method
 
 Removes all replies to this comment.
 

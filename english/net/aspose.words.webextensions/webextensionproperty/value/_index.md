@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.webextensions/webextensionproperty/value/
 ---
-## Value property
+## WebExtensionProperty.Value property
 
 Specifies a custom property value.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldskipif/comparisonoperator/
 ---
-## ComparisonOperator property
+## FieldSkipIf.ComparisonOperator property
 
 Gets or sets the comparison operator.
 

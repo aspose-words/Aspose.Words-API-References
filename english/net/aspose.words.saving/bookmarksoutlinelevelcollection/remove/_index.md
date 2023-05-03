@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.saving/bookmarksoutlinelevelcollection/remove/
 ---
-## Remove method
+## BookmarksOutlineLevelCollection.Remove method
 
 Removes a bookmark with the specified name from the collection.
 

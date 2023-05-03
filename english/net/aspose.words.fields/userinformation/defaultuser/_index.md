@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/userinformation/defaultuser/
 ---
-## DefaultUser property
+## UserInformation.DefaultUser property
 
 Default user information.
 

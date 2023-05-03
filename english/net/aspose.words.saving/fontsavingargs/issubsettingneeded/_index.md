@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.saving/fontsavingargs/issubsettingneeded/
 ---
-## IsSubsettingNeeded property
+## FontSavingArgs.IsSubsettingNeeded property
 
 Allows to specify whether the current font will be subsetted before exporting as a font resource.
 

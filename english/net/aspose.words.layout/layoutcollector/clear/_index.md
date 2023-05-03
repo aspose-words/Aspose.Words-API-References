@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.layout/layoutcollector/clear/
 ---
-## Clear method
+## LayoutCollector.Clear method
 
 Clears all collected layout data. Call this method after document was manually updated, or layout was rebuilt.
 

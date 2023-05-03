@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words.layout/revisionoptions/revisedpropertieseffect/
 ---
-## RevisedPropertiesEffect property
+## RevisionOptions.RevisedPropertiesEffect property
 
 Allows to specify the effect for content areas with changes of formatting properties FormatChange Default value is None
 

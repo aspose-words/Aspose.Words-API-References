@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.fields/generalformatcollection/count/
 ---
-## Count property
+## GeneralFormatCollection.Count property
 
 Gets the total number of the items in the collection.
 

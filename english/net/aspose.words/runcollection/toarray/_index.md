@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/runcollection/toarray/
 ---
-## ToArray method
+## RunCollection.ToArray method
 
 Copies all runs from the collection to a new array of runs.
 

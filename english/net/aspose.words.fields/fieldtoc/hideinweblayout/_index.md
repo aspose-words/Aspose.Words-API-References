@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.fields/fieldtoc/hideinweblayout/
 ---
-## HideInWebLayout property
+## FieldToc.HideInWebLayout property
 
 Gets or sets whether to hide tab leader and page numbers in Web layout view.
 

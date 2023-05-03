@@ -7,7 +7,7 @@ type: docs
 weight: 280
 url: /net/aspose.words/paragraphformat/snaptogrid/
 ---
-## SnapToGrid property
+## ParagraphFormat.SnapToGrid property
 
 Specifies whether the current paragraph should use the document grid lines per page settings when laying out the contents in the paragraph.
 

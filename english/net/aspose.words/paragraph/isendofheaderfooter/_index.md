@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words/paragraph/isendofheaderfooter/
 ---
-## IsEndOfHeaderFooter property
+## Paragraph.IsEndOfHeaderFooter property
 
 True if this paragraph is the last paragraph in the [`HeaderFooter`](../../headerfooter/) (main text story) of a [`Section`](../../section/); false otherwise.
 

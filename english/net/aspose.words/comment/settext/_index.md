@@ -7,7 +7,7 @@ type: docs
 weight: 150
 url: /net/aspose.words/comment/settext/
 ---
-## SetText method
+## Comment.SetText method
 
 This is a convenience method that allows to easily set text of the comment.
 

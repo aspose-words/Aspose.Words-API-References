@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.tables/rowformat/height/
 ---
-## Height property
+## RowFormat.Height property
 
 Gets or sets the height of the table row in points.
 

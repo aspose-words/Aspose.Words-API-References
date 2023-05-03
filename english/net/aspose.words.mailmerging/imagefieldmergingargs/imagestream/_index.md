@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.mailmerging/imagefieldmergingargs/imagestream/
 ---
-## ImageStream property
+## ImageFieldMergingArgs.ImageStream property
 
 Specifies the stream for the mail merge engine to read an image from.
 

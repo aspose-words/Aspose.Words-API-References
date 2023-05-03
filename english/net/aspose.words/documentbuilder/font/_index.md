@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words/documentbuilder/font/
 ---
-## Font property
+## DocumentBuilder.Font property
 
 Returns an object that represents current font formatting properties.
 

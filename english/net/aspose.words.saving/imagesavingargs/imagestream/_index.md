@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.saving/imagesavingargs/imagestream/
 ---
-## ImageStream property
+## ImageSavingArgs.ImageStream property
 
 Allows to specify the stream where the image will be saved to.
 

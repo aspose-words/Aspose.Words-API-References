@@ -7,7 +7,7 @@ type: docs
 weight: 250
 url: /net/aspose.words.settings/compatibilityoptions/donotwraptextwithpunct/
 ---
-## DoNotWrapTextWithPunct property
+## CompatibilityOptions.DoNotWrapTextWithPunct property
 
 Do Not Allow Hanging Punctuation With Character Grid.
 

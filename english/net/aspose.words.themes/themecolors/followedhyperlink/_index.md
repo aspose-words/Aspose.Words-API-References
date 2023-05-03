@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.themes/themecolors/followedhyperlink/
 ---
-## FollowedHyperlink property
+## ThemeColors.FollowedHyperlink property
 
 Specifies color for a clicked hyperlink.
 

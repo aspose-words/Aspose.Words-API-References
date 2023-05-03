@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldddeauto/insertaspicture/
 ---
-## InsertAsPicture property
+## FieldDdeAuto.InsertAsPicture property
 
 Gets or sets whether to insert the linked object as a picture.
 

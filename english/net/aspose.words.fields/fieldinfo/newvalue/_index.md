@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldinfo/newvalue/
 ---
-## NewValue property
+## FieldInfo.NewValue property
 
 Gets or sets an optional value that updates the property.
 

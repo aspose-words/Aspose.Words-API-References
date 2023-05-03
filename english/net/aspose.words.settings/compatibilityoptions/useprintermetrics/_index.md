@@ -7,7 +7,7 @@ type: docs
 weight: 640
 url: /net/aspose.words.settings/compatibilityoptions/useprintermetrics/
 ---
-## UsePrinterMetrics property
+## CompatibilityOptions.UsePrinterMetrics property
 
 Use Printer Metrics To Display Documents.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/documentbuilder/cellformat/
 ---
-## CellFormat property
+## DocumentBuilder.CellFormat property
 
 Returns an object that represents current table cell formatting properties.
 

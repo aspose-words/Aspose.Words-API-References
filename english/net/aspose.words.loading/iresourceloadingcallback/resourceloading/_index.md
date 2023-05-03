@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.loading/iresourceloadingcallback/resourceloading/
 ---
-## ResourceLoading method
+## IResourceLoadingCallback.ResourceLoading method
 
 Called when Aspose.Words loads any external resource.
 

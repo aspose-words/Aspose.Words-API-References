@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.notes/footnote/referencemark/
 ---
-## ReferenceMark property
+## Footnote.ReferenceMark property
 
 Gets/sets custom reference mark to be used for this footnote. Default value is **empty string** (Empty), meaning auto-numbered footnotes are used.
 

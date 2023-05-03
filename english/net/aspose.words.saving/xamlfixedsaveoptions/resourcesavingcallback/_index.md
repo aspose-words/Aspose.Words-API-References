@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.saving/xamlfixedsaveoptions/resourcesavingcallback/
 ---
-## ResourceSavingCallback property
+## XamlFixedSaveOptions.ResourceSavingCallback property
 
 Allows to control how resources (images and fonts) are saved when a document is exported to fixed page Xaml format.
 

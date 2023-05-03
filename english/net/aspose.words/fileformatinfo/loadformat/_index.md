@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/fileformatinfo/loadformat/
 ---
-## LoadFormat property
+## FileFormatInfo.LoadFormat property
 
 Gets the detected document format.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.mailmerging/mailmerge/regionendtag/
 ---
-## RegionEndTag property
+## MailMerge.RegionEndTag property
 
 Gets or sets a mail merge region end tag.
 

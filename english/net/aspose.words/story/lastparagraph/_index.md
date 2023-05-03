@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/story/lastparagraph/
 ---
-## LastParagraph property
+## Story.LastParagraph property
 
 Gets the last paragraph in the story.
 

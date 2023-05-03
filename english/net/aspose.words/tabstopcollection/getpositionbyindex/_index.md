@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words/tabstopcollection/getpositionbyindex/
 ---
-## GetPositionByIndex method
+## TabStopCollection.GetPositionByIndex method
 
 Gets the position (in points) of the tab stop at the specified index.
 

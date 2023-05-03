@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words/tabstopcollection/removebyposition/
 ---
-## RemoveByPosition method
+## TabStopCollection.RemoveByPosition method
 
 Removes a tab stop at the specified position from the collection.
 

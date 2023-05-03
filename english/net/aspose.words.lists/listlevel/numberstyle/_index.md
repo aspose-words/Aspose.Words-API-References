@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.lists/listlevel/numberstyle/
 ---
-## NumberStyle property
+## ListLevel.NumberStyle property
 
 Returns or sets the number style for this list level.
 

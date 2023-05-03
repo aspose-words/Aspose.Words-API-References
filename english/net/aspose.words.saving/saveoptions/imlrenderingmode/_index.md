@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.saving/saveoptions/imlrenderingmode/
 ---
-## ImlRenderingMode property
+## SaveOptions.ImlRenderingMode property
 
 Gets or sets a value determining how ink (InkML) objects are rendered.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 650
 url: /net/aspose.words/documentbuilder/write/
 ---
-## Write method
+## DocumentBuilder.Write method
 
 Inserts a string into the document at the current insert position.
 

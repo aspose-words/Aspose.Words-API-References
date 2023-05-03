@@ -7,7 +7,7 @@ type: docs
 weight: 150
 url: /net/aspose.words/tablestyle/verticalalignment/
 ---
-## VerticalAlignment property
+## TableStyle.VerticalAlignment property
 
 Specifies the vertical alignment for the cells.
 

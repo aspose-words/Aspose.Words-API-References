@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldtc/entrylevel/
 ---
-## EntryLevel property
+## FieldTC.EntryLevel property
 
 Gets or sets the level of the entry.
 

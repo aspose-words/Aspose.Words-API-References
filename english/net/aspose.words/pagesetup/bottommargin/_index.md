@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words/pagesetup/bottommargin/
 ---
-## BottomMargin property
+## PageSetup.BottomMargin property
 
 Returns or sets the distance (in points) between the bottom edge of the page and the bottom boundary of the body text.
 

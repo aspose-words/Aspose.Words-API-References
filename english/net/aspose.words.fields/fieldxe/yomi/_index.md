@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.fields/fieldxe/yomi/
 ---
-## Yomi property
+## FieldXE.Yomi property
 
 Gets or sets the yomi (first phonetic character for sorting indexes) for the index entry
 

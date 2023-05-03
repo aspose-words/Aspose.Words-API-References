@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldincludepicture/resizevertically/
 ---
-## ResizeVertically property
+## FieldIncludePicture.ResizeVertically property
 
 Gets or sets whether to resize the picture vertically from the source.
 

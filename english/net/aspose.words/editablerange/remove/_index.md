@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words/editablerange/remove/
 ---
-## Remove method
+## EditableRange.Remove method
 
 Removes the editable range from the document. Does not remove content inside the editable range.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname/
 ---
-## DefaultFontName property
+## DefaultFontSubstitutionRule.DefaultFontName property
 
 Gets or sets the default font name.
 

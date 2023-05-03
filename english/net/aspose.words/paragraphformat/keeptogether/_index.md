@@ -7,7 +7,7 @@ type: docs
 weight: 150
 url: /net/aspose.words/paragraphformat/keeptogether/
 ---
-## KeepTogether property
+## ParagraphFormat.KeepTogether property
 
 True if all lines in the paragraph are to remain on the same page.
 

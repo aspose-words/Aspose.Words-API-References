@@ -7,7 +7,7 @@ type: docs
 weight: 330
 url: /net/aspose.words/documentvisitor/visitparagraphstart/
 ---
-## VisitParagraphStart method
+## DocumentVisitor.VisitParagraphStart method
 
 Called when enumeration of a paragraph has started.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 610
 url: /net/aspose.words.settings/compatibilityoptions/useansikerningpairs/
 ---
-## UseAnsiKerningPairs property
+## CompatibilityOptions.UseAnsiKerningPairs property
 
 Use ANSI Kerning Pairs from Fonts.
 

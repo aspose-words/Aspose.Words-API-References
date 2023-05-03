@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words/font/engrave/
 ---
-## Engrave property
+## Font.Engrave property
 
 True if the font is formatted as engraved.
 

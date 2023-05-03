@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fonts/streamfontsource/type/
 ---
-## Type property
+## StreamFontSource.Type property
 
 Returns the type of the font source.
 

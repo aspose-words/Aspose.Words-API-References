@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words.tables/cell/ensureminimum/
 ---
-## EnsureMinimum method
+## Cell.EnsureMinimum method
 
 If the last child is not a paragraph, creates and appends one empty paragraph.
 

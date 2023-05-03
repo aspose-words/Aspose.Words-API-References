@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.rendering/asposewordsprintdocument/colorpagesprinted/
 ---
-## ColorPagesPrinted property
+## AsposeWordsPrintDocument.ColorPagesPrinted property
 
 Gets the number of pages printed in color (i.e. with Color set to true).
 

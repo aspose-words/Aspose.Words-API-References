@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.tables/cellformat/bottompadding/
 ---
-## BottomPadding property
+## CellFormat.BottomPadding property
 
 Returns or sets the amount of space (in points) to add below the contents of cell.
 

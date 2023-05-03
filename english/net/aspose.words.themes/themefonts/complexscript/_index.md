@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.themes/themefonts/complexscript/
 ---
-## ComplexScript property
+## ThemeFonts.ComplexScript property
 
 Specifies font name for ComplexScript characters.
 

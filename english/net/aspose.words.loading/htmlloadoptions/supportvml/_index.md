@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.loading/htmlloadoptions/supportvml/
 ---
-## SupportVml property
+## HtmlLoadOptions.SupportVml property
 
 Gets or sets a value indicating whether to support VML images.
 

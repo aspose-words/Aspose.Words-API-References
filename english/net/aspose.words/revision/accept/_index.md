@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words/revision/accept/
 ---
-## Accept method
+## Revision.Accept method
 
 Accepts this revision.
 

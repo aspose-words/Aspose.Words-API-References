@@ -7,7 +7,7 @@ type: docs
 weight: 220
 url: /net/aspose.words.drawing/shapebase/horizontalalignment/
 ---
-## HorizontalAlignment property
+## ShapeBase.HorizontalAlignment property
 
 Specifies how the shape is positioned horizontally.
 

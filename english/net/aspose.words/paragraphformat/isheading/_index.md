@@ -7,7 +7,7 @@ type: docs
 weight: 130
 url: /net/aspose.words/paragraphformat/isheading/
 ---
-## IsHeading property
+## ParagraphFormat.IsHeading property
 
 True when the paragraph style is one of the built-in Heading styles.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/style/automaticallyupdate/
 ---
-## AutomaticallyUpdate property
+## Style.AutomaticallyUpdate property
 
 Specifies whether this style is automatically redefined based on the appropriate value.
 

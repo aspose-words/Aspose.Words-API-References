@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.drawing.charts/chartaxis/hasminorgridlines/
 ---
-## HasMinorGridlines property
+## ChartAxis.HasMinorGridlines property
 
 Gets or sets a flag indicating whether the axis has minor gridlines.
 

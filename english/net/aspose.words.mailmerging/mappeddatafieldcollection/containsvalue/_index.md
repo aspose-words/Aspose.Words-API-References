@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.mailmerging/mappeddatafieldcollection/containsvalue/
 ---
-## ContainsValue method
+## MappedDataFieldCollection.ContainsValue method
 
 Determines whether a mapping from the specified field in the data source exists in the collection.
 

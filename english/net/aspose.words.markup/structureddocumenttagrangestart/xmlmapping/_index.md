@@ -7,7 +7,7 @@ type: docs
 weight: 180
 url: /net/aspose.words.markup/structureddocumenttagrangestart/xmlmapping/
 ---
-## XmlMapping property
+## StructuredDocumentTagRangeStart.XmlMapping property
 
 Gets an object that represents the mapping of this structured document tag range to XML data in a custom XML part of the current document.
 

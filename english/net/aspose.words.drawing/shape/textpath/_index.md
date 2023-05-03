@@ -7,7 +7,7 @@ type: docs
 weight: 230
 url: /net/aspose.words.drawing/shape/textpath/
 ---
-## TextPath property
+## Shape.TextPath property
 
 Defines the text of the text path (of a WordArt object).
 

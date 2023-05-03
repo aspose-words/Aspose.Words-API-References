@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words/shading/clearformatting/
 ---
-## ClearFormatting method
+## Shading.ClearFormatting method
 
 Removes shading from the object.
 

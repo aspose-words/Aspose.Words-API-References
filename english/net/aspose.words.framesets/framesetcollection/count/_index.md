@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.framesets/framesetcollection/count/
 ---
-## Count property
+## FramesetCollection.Count property
 
 Gets the number of frames or frames pages contained in the collection.
 

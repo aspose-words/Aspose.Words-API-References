@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.properties/documentproperty/tobool/
 ---
-## ToBool method
+## DocumentProperty.ToBool method
 
 Returns the property value as bool.
 

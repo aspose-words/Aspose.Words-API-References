@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldlink/insertasbitmap/
 ---
-## InsertAsBitmap property
+## FieldLink.InsertAsBitmap property
 
 Gets or sets whether to insert the linked object as a bitmap.
 

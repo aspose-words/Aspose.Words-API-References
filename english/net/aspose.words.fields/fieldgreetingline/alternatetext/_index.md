@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldgreetingline/alternatetext/
 ---
-## AlternateText property
+## FieldGreetingLine.AlternateText property
 
 Gets or sets the text to include in the field if the name is blank.
 

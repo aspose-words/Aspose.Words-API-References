@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/chartdatalabel/font/
 ---
-## Font property
+## ChartDataLabel.Font property
 
 Provides access to the font formatting of this data label.
 

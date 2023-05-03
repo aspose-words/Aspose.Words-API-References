@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.fields/field/separator/
 ---
-## Separator property
+## Field.Separator property
 
 Gets the node that represents the field separator. Can be `null`.
 

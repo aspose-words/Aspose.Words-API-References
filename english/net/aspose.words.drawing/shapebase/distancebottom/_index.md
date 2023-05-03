@@ -7,7 +7,7 @@ type: docs
 weight: 130
 url: /net/aspose.words.drawing/shapebase/distancebottom/
 ---
-## DistanceBottom property
+## ShapeBase.DistanceBottom property
 
 Returns or sets the distance (in points) between the document text and the bottom edge of the shape.
 

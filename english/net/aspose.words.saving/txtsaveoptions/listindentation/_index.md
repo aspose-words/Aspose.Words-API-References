@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.saving/txtsaveoptions/listindentation/
 ---
-## ListIndentation property
+## TxtSaveOptions.ListIndentation property
 
 Gets a [`TxtListIndentation`](../../txtlistindentation/) object that specifies how many and which character to use for indentation of list levels. By default it is zero count of character '\0', that means no indentation.
 

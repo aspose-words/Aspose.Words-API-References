@@ -7,7 +7,7 @@ type: docs
 weight: 270
 url: /net/aspose.words.drawing/shapebase/ishorizontalrule/
 ---
-## IsHorizontalRule property
+## ShapeBase.IsHorizontalRule property
 
 Returns `true` if this shape is a horizontal rule.
 

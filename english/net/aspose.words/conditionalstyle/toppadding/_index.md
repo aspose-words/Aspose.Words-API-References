@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words/conditionalstyle/toppadding/
 ---
-## TopPadding property
+## ConditionalStyle.TopPadding property
 
 Gets or sets the amount of space (in points) to add above the contents of table cells.
 

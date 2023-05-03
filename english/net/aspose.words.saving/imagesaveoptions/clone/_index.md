@@ -7,7 +7,7 @@ type: docs
 weight: 200
 url: /net/aspose.words.saving/imagesaveoptions/clone/
 ---
-## Clone method
+## ImageSaveOptions.Clone method
 
 Creates a deep clone of this object.
 

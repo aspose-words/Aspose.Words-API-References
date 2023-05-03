@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.properties/documentproperty/todouble/
 ---
-## ToDouble method
+## DocumentProperty.ToDouble method
 
 Returns the property value as double.
 

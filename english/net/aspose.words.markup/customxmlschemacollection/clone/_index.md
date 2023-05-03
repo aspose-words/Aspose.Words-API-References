@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.markup/customxmlschemacollection/clone/
 ---
-## Clone method
+## CustomXmlSchemaCollection.Clone method
 
 Makes a deep clone of this object.
 

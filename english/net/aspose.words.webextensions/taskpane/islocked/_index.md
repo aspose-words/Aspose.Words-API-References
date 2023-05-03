@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.webextensions/taskpane/islocked/
 ---
-## IsLocked property
+## TaskPane.IsLocked property
 
 Specifies whether the task pane is locked to the document in the UI and cannot be closed by the user.
 

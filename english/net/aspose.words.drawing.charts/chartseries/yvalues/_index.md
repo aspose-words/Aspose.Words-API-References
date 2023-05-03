@@ -7,7 +7,7 @@ type: docs
 weight: 150
 url: /net/aspose.words.drawing.charts/chartseries/yvalues/
 ---
-## YValues property
+## ChartSeries.YValues property
 
 Gets a collection of Y values for this chart series.
 

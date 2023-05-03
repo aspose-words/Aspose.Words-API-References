@@ -7,7 +7,7 @@ type: docs
 weight: 260
 url: /net/aspose.words/paragraphformat/rightindent/
 ---
-## RightIndent property
+## ParagraphFormat.RightIndent property
 
 Gets or sets the value (in points) that represents the right indent for paragraph.
 

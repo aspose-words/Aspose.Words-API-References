@@ -7,7 +7,7 @@ type: docs
 weight: 210
 url: /net/aspose.words.drawing/shape/strokeweight/
 ---
-## StrokeWeight property
+## Shape.StrokeWeight property
 
 Defines the brush thickness that strokes the path of a shape in points.
 

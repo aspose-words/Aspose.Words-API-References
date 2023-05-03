@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/editablerange/id/
 ---
-## Id property
+## EditableRange.Id property
 
 Gets the editable range identifier.
 

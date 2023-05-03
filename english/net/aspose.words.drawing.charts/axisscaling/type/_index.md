@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.drawing.charts/axisscaling/type/
 ---
-## Type property
+## AxisScaling.Type property
 
 Gets or sets scaling type of the axis.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words/inlinestory/tables/
 ---
-## Tables property
+## InlineStory.Tables property
 
 Gets a collection of tables that are immediate children of the story.
 

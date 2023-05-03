@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/font/autocolor/
 ---
-## AutoColor property
+## Font.AutoColor property
 
 Returns the present calculated color of the text (black or white) to be used for 'auto color'. If the color is not 'auto' then returns [`Color`](../color/).
 

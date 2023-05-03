@@ -7,7 +7,7 @@ type: docs
 weight: 130
 url: /net/aspose.words/document/firstsection/
 ---
-## FirstSection property
+## Document.FirstSection property
 
 Gets the first section in the document.
 

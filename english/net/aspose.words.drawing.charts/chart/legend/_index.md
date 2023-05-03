@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.drawing.charts/chart/legend/
 ---
-## Legend property
+## Chart.Legend property
 
 Provides access to the chart legend properties.
 

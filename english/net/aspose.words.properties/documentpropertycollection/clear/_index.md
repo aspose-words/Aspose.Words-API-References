@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.properties/documentpropertycollection/clear/
 ---
-## Clear method
+## DocumentPropertyCollection.Clear method
 
 Removes all properties from the collection.
 

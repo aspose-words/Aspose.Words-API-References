@@ -28,6 +28,27 @@ public class ChartAxisCollection : IEnumerable<ChartAxis>
 | --- | --- |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartaxiscollection/getenumerator/)() | Returns an enumerator object. |
 
+## Examples
+
+Shows how to work with axes collection.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Shape shape = builder.InsertChart(ChartType.Column, 500, 300);
+Chart chart = shape.Chart;            
+
+// Hide the major grid lines on the primary and secondary Y axes.
+foreach (ChartAxis axis in chart.Axes)
+{
+    if (axis.Type == ChartAxisType.Value)
+        axis.HasMajorGridlines = false;
+}
+
+doc.Save(ArtifactsDir + "Charts.AxisCollection.docx");
+```
+
 ### See Also
 
 * class [ChartAxis](../chartaxis/)

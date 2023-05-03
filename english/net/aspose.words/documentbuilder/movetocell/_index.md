@@ -7,7 +7,7 @@ type: docs
 weight: 500
 url: /net/aspose.words/documentbuilder/movetocell/
 ---
-## MoveToCell method
+## DocumentBuilder.MoveToCell method
 
 Moves the cursor to a table cell in the current section.
 

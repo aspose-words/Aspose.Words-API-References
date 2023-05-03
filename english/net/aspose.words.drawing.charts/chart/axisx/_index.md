@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/chart/axisx/
 ---
-## AxisX property
+## Chart.AxisX property
 
 Provides access to properties of the X axis of the chart.
 

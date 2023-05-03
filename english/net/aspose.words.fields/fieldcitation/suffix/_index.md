@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.fields/fieldcitation/suffix/
 ---
-## Suffix property
+## FieldCitation.Suffix property
 
 Gets or sets a suffix that is appended to the citation.
 

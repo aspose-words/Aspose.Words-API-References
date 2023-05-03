@@ -7,7 +7,7 @@ type: docs
 weight: 220
 url: /net/aspose.words.drawing/shape/textbox/
 ---
-## TextBox property
+## Shape.TextBox property
 
 Defines attributes that specify how text is displayed in a shape.
 

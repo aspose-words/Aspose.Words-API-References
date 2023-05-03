@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/chartmultilevelvalue/level2/
 ---
-## Level2 property
+## ChartMultilevelValue.Level2 property
 
 Gets the name of the chart intermediate level that this value refers to.
 

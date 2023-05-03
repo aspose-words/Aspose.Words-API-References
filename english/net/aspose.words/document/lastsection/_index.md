@@ -7,7 +7,7 @@ type: docs
 weight: 240
 url: /net/aspose.words/document/lastsection/
 ---
-## LastSection property
+## Document.LastSection property
 
 Gets the last section in the document.
 

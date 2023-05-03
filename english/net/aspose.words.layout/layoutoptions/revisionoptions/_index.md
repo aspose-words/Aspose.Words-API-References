@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.layout/layoutoptions/revisionoptions/
 ---
-## RevisionOptions property
+## LayoutOptions.RevisionOptions property
 
 Gets revision options.
 

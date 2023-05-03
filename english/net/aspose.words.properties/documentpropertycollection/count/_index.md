@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.properties/documentpropertycollection/count/
 ---
-## Count property
+## DocumentPropertyCollection.Count property
 
 Gets number of items in the collection.
 

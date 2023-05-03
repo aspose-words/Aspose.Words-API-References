@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.drawing.charts/chartseries/format/
 ---
-## Format property
+## ChartSeries.Format property
 
 Provides access to fill and line formatting of the series.
 

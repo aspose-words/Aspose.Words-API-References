@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.drawing/gradientstopcollection/remove/
 ---
-## Remove method
+## GradientStopCollection.Remove method
 
 Removes a specified [`GradientStop`](../../gradientstop/) from the collection.
 
@@ -33,8 +33,8 @@ shape.Fill.TwoColorGradient(Color.Green, Color.Red, GradientStyle.Horizontal, Gr
 // Get gradient stops collection.
 GradientStopCollection gradientStops = shape.Fill.GradientStops;
 
-// Change first gradient stop.
-gradientStops[0].Color = Color.Aqua;
+// Change first gradient stop.            
+gradientStops[0].Color = Color.Aqua;            
 gradientStops[0].Position = 0.1;
 gradientStops[0].Transparency = 0.25;
 
@@ -53,6 +53,7 @@ gradientStops.Remove(gradientStop);
 
 Assert.AreEqual(2, gradientStops.Count);
 
+Assert.AreEqual(Color.FromArgb(255, 0, 255, 255), gradientStops[0].BaseColor);
 Assert.AreEqual(Color.Aqua.ToArgb(), gradientStops[0].Color.ToArgb());
 Assert.AreEqual(0.1d, gradientStops[0].Position, 0.01d);
 Assert.AreEqual(0.25d, gradientStops[0].Transparency, 0.01d);

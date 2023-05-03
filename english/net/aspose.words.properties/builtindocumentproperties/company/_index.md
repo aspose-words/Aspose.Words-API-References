@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.properties/builtindocumentproperties/company/
 ---
-## Company property
+## BuiltInDocumentProperties.Company property
 
 Gets or sets the company property.
 

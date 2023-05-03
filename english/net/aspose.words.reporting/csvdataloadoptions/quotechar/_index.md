@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.reporting/csvdataloadoptions/quotechar/
 ---
-## QuoteChar property
+## CsvDataLoadOptions.QuoteChar property
 
 Gets or sets the character that is used to quote field values.
 

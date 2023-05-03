@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/chartxvalue/frommultilevelvalue/
 ---
-## FromMultilevelValue method
+## ChartXValue.FromMultilevelValue method
 
 Creates a [`ChartXValue`](../) instance of the Multilevel type.
 

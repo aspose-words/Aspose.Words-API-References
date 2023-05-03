@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldxe/isbold/
 ---
-## IsBold property
+## FieldXE.IsBold property
 
 Gets or sets whether to apply bold formatting to the entry's page number.
 

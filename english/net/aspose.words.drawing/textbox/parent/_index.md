@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.drawing/textbox/parent/
 ---
-## Parent property
+## TextBox.Parent property
 
 Gets a parent shape for the [`TextBox`](../).
 

@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.mailmerging/mailmergeregioninfo/fields/
 ---
-## Fields property
+## MailMergeRegionInfo.Fields property
 
 Returns a list of child fields.
 

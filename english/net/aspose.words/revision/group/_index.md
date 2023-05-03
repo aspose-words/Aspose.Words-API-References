@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/revision/group/
 ---
-## Group property
+## Revision.Group property
 
 Gets the revision group. Returns `null` if the revision does not belong to any group.
 

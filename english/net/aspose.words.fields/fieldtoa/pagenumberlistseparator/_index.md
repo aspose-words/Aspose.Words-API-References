@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldtoa/pagenumberlistseparator/
 ---
-## PageNumberListSeparator property
+## FieldToa.PageNumberListSeparator property
 
 Gets or sets the character sequence that is used to separate two page numbers in a page number list.
 

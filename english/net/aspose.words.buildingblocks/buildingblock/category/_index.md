@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.buildingblocks/buildingblock/category/
 ---
-## Category property
+## BuildingBlock.Category property
 
 Specifies the second-level categorization for the building block.
 

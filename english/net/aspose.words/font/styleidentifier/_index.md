@@ -7,7 +7,7 @@ type: docs
 weight: 410
 url: /net/aspose.words/font/styleidentifier/
 ---
-## StyleIdentifier property
+## Font.StyleIdentifier property
 
 Gets or sets the locale independent style identifier of the character style applied to this formatting.
 

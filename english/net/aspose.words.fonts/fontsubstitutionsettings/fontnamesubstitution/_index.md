@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.fonts/fontsubstitutionsettings/fontnamesubstitution/
 ---
-## FontNameSubstitution property
+## FontSubstitutionSettings.FontNameSubstitution property
 
 Settings related to font name substitution rule.
 

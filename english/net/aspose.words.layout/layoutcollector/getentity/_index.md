@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.layout/layoutcollector/getentity/
 ---
-## GetEntity method
+## LayoutCollector.GetEntity method
 
 Returns an opaque position of the [`LayoutEnumerator`](../../layoutenumerator/) which corresponds to the specified node. You can use returned value as an argument to [`Current`](../../layoutenumerator/current/) given the document being enumerated and the document of the node are the same.
 

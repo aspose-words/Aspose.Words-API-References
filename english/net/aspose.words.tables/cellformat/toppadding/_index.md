@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words.tables/cellformat/toppadding/
 ---
-## TopPadding property
+## CellFormat.TopPadding property
 
 Returns or sets the amount of space (in points) to add above the contents of cell.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.saving/txtsaveoptions/addbidimarks/
 ---
-## AddBidiMarks property
+## TxtSaveOptions.AddBidiMarks property
 
 Specifies whether to add bi-directional marks before each BiDi run when exporting in plain text format.
 

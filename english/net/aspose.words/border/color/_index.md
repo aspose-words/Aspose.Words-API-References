@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/border/color/
 ---
-## Color property
+## Border.Color property
 
 Gets or sets the border color.
 

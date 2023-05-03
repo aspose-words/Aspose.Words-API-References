@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fonts/fontsettings/defaultinstance/
 ---
-## DefaultInstance property
+## FontSettings.DefaultInstance property
 
 Static default font settings.
 

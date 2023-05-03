@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fields/fielddatabase/filename/
 ---
-## FileName property
+## FieldDatabase.FileName property
 
 Gets or sets the complete path and file name of the database
 

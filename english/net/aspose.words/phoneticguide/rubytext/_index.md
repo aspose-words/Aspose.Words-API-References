@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/phoneticguide/rubytext/
 ---
-## RubyText property
+## PhoneticGuide.RubyText property
 
 Gets ruby text of the phonetic guide.
 

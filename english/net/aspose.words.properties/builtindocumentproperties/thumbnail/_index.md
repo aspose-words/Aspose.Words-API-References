@@ -7,7 +7,7 @@ type: docs
 weight: 280
 url: /net/aspose.words.properties/builtindocumentproperties/thumbnail/
 ---
-## Thumbnail property
+## BuiltInDocumentProperties.Thumbnail property
 
 Gets or sets the thumbnail of the document.
 

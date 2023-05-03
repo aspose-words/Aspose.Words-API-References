@@ -7,7 +7,7 @@ type: docs
 weight: 230
 url: /net/aspose.words/pagesetup/linenumberrestartmode/
 ---
-## LineNumberRestartMode property
+## PageSetup.LineNumberRestartMode property
 
 Gets or sets the way line numbering runs that is, whether it starts over at the beginning of a new page or section or runs continuously.
 

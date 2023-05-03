@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.math/officemath/nodetype/
 ---
-## NodeType property
+## OfficeMath.NodeType property
 
 Returns OfficeMath.
 

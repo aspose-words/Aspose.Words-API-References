@@ -7,7 +7,7 @@ type: docs
 weight: 240
 url: /net/aspose.words.fields/formfield/removefield/
 ---
-## RemoveField method
+## FormField.RemoveField method
 
 Removes the complete form field, not just the form field special character.
 

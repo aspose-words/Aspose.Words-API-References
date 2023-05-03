@@ -7,7 +7,7 @@ type: docs
 weight: 290
 url: /net/aspose.words.saving/pdfsaveoptions/textcompression/
 ---
-## TextCompression property
+## PdfSaveOptions.TextCompression property
 
 Specifies compression type to be used for all textual content in the document.
 

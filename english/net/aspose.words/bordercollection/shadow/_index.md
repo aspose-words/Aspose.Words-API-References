@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words/bordercollection/shadow/
 ---
-## Shadow property
+## BorderCollection.Shadow property
 
 Gets or sets a value indicating whether the border has a shadow.
 

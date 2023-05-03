@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.markup/customxmlpartcollection/getbyid/
 ---
-## GetById method
+## CustomXmlPartCollection.GetById method
 
 Finds and returns a custom XML part by its identifier.
 

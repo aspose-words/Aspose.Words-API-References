@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words.layout/layoutenumerator/movefirstchild/
 ---
-## MoveFirstChild method
+## LayoutEnumerator.MoveFirstChild method
 
 Moves to the first child entity.
 

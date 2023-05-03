@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words.layout/layoutenumerator/movelastchild/
 ---
-## MoveLastChild method
+## LayoutEnumerator.MoveLastChild method
 
 Moves to the last child entity.
 

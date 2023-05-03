@@ -7,7 +7,7 @@ type: docs
 weight: 150
 url: /net/aspose.words/document/footnoteoptions/
 ---
-## FootnoteOptions property
+## Document.FootnoteOptions property
 
 Provides options that control numbering and positioning of footnotes in this document.
 

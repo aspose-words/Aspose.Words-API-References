@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.drawing/fill/gradientangle/
 ---
-## GradientAngle property
+## Fill.GradientAngle property
 
 Gets or sets the angle of the gradient fill.
 

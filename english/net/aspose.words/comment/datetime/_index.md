@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/comment/datetime/
 ---
-## DateTime property
+## Comment.DateTime property
 
 Gets the date and time that the comment was made.
 

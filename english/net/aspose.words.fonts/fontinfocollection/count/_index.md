@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.fonts/fontinfocollection/count/
 ---
-## Count property
+## FontInfoCollection.Count property
 
 Gets the number of elements contained in the collection.
 

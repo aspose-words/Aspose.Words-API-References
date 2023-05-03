@@ -7,7 +7,7 @@ type: docs
 weight: 630
 url: /net/aspose.words/documentbuilder/starteditablerange/
 ---
-## StartEditableRange method
+## DocumentBuilder.StartEditableRange method
 
 Marks the current position in the document as an editable range start.
 

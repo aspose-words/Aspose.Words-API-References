@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/revisiongroup/text/
 ---
-## Text property
+## RevisionGroup.Text property
 
 Returns inserted/deleted/moved text or description of format change.
 

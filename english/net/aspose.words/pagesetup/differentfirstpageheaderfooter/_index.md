@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words/pagesetup/differentfirstpageheaderfooter/
 ---
-## DifferentFirstPageHeaderFooter property
+## PageSetup.DifferentFirstPageHeaderFooter property
 
 True if a different header or footer is used on the first page.
 

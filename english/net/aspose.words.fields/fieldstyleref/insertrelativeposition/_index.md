@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldstyleref/insertrelativeposition/
 ---
-## InsertRelativePosition property
+## FieldStyleRef.InsertRelativePosition property
 
 Gets or sets whether to insert the relative position of the referenced paragraph.
 

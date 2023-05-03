@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words/style/isheading/
 ---
-## IsHeading property
+## Style.IsHeading property
 
 True when the style is one of the built-in Heading styles.
 

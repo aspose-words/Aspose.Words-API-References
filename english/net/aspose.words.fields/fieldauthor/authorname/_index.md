@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldauthor/authorname/
 ---
-## AuthorName property
+## FieldAuthor.AuthorName property
 
 Gets or sets the document author's name.
 

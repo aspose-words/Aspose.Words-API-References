@@ -7,7 +7,7 @@ type: docs
 weight: 200
 url: /net/aspose.words.saving/pdfsaveoptions/imagecompression/
 ---
-## ImageCompression property
+## PdfSaveOptions.ImageCompression property
 
 Specifies compression type to be used for all images in the document.
 

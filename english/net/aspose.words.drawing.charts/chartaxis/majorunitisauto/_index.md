@@ -7,7 +7,7 @@ type: docs
 weight: 130
 url: /net/aspose.words.drawing.charts/chartaxis/majorunitisauto/
 ---
-## MajorUnitIsAuto property
+## ChartAxis.MajorUnitIsAuto property
 
 Gets or sets a flag indicating whether default distance between major tick marks shall be used.
 

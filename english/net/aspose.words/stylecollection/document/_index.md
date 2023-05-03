@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/stylecollection/document/
 ---
-## Document property
+## StyleCollection.Document property
 
 Gets the owner document.
 

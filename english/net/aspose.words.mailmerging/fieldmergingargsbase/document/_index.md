@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.mailmerging/fieldmergingargsbase/document/
 ---
-## Document property
+## FieldMergingArgsBase.Document property
 
 Returns the `Document` object for which the mail merge is performed.
 

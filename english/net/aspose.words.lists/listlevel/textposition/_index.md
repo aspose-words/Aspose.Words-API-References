@@ -7,7 +7,7 @@ type: docs
 weight: 130
 url: /net/aspose.words.lists/listlevel/textposition/
 ---
-## TextPosition property
+## ListLevel.TextPosition property
 
 Returns or sets the position (in points) for the second line of wrapping text for the list level.
 

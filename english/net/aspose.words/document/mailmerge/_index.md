@@ -7,7 +7,7 @@ type: docs
 weight: 260
 url: /net/aspose.words/document/mailmerge/
 ---
-## MailMerge property
+## Document.MailMerge property
 
 Returns a [`MailMerge`](../../../aspose.words.mailmerging/mailmerge/) object that represents the mail merge functionality for the document.
 

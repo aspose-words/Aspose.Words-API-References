@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.drawing/stroke/endarrowtype/
 ---
-## EndArrowType property
+## Stroke.EndArrowType property
 
 Defines the arrowhead for the end of a stroke.
 

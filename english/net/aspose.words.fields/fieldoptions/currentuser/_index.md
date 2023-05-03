@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldoptions/currentuser/
 ---
-## CurrentUser property
+## FieldOptions.CurrentUser property
 
 Gets or sets the current user information.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.markup/structureddocumenttag/checked/
 ---
-## Checked property
+## StructuredDocumentTag.Checked property
 
 Gets/Sets current state of the Checkbox **SDT**. Default value for this property is `false`.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words/tablestyle/leftindent/
 ---
-## LeftIndent property
+## TableStyle.LeftIndent property
 
 Gets or sets the value that represents the left indent of a table.
 

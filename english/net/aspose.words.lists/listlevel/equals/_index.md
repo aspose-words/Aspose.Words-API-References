@@ -7,7 +7,7 @@ type: docs
 weight: 170
 url: /net/aspose.words.lists/listlevel/equals/
 ---
-## Equals method
+## ListLevel.Equals method
 
 Compares with the specified ListLevel.
 

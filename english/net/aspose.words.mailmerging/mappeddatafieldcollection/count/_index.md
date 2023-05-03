@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.mailmerging/mappeddatafieldcollection/count/
 ---
-## Count property
+## MappedDataFieldCollection.Count property
 
 Gets the number of elements contained in the collection.
 

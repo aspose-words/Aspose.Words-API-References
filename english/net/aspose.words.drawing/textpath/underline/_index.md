@@ -7,7 +7,7 @@ type: docs
 weight: 190
 url: /net/aspose.words.drawing/textpath/underline/
 ---
-## Underline property
+## TextPath.Underline property
 
 True if the font is underlined.
 

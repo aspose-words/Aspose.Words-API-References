@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words/story/deleteshapes/
 ---
-## DeleteShapes method
+## Story.DeleteShapes method
 
 Deletes all shapes from the text of this story.
 

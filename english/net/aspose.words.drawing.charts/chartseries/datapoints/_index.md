@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.drawing.charts/chartseries/datapoints/
 ---
-## DataPoints property
+## ChartSeries.DataPoints property
 
 Returns a collection of formatting objects for all data points in this series.
 

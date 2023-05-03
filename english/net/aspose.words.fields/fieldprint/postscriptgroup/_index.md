@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldprint/postscriptgroup/
 ---
-## PostScriptGroup property
+## FieldPrint.PostScriptGroup property
 
 Gets or sets the drawing rectangle that the PostScript instructions operate on.
 

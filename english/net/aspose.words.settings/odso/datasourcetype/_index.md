@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.settings/odso/datasourcetype/
 ---
-## DataSourceType property
+## Odso.DataSourceType property
 
 Specifies the type of the external data source to be connected to as part of the ODSO connection information for this mail merge. The default value is Default.
 

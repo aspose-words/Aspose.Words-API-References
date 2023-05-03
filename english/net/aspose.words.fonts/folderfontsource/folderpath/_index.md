@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fonts/folderfontsource/folderpath/
 ---
-## FolderPath property
+## FolderFontSource.FolderPath property
 
 Path to the folder.
 

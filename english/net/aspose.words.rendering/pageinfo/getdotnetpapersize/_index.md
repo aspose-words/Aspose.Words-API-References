@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.rendering/pageinfo/getdotnetpapersize/
 ---
-## GetDotNetPaperSize method
+## PageInfo.GetDotNetPaperSize method
 
 Gets the PaperSize object suitable for printing the page represented by this [`PageInfo`](../).
 

@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words/compositenode/createnavigator/
 ---
-## CreateNavigator method
+## CompositeNode.CreateNavigator method
 
 Creates navigator which can be used to traverse and read nodes.
 

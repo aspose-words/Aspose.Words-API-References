@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/pagesetup/borderdistancefrom/
 ---
-## BorderDistanceFrom property
+## PageSetup.BorderDistanceFrom property
 
 Gets or sets a value that indicates whether the specified page border is measured from the edge of the page or from the text it surrounds.
 

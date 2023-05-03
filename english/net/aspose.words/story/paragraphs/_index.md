@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/story/paragraphs/
 ---
-## Paragraphs property
+## Story.Paragraphs property
 
 Gets a collection of paragraphs that are immediate children of the story.
 

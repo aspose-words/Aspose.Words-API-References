@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.fields/ifieldupdatecultureprovider/getculture/
 ---
-## GetCulture method
+## IFieldUpdateCultureProvider.GetCulture method
 
 Returns a CultureInfo object to be used during the field's update.
 

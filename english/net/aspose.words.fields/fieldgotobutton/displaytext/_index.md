@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldgotobutton/displaytext/
 ---
-## DisplayText property
+## FieldGoToButton.DisplayText property
 
 Gets or sets the text of the "button" that appears in the document, such that it can be selected to activate the jump.
 

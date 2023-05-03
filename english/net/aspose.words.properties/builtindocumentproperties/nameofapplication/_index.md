@@ -7,7 +7,7 @@ type: docs
 weight: 210
 url: /net/aspose.words.properties/builtindocumentproperties/nameofapplication/
 ---
-## NameOfApplication property
+## BuiltInDocumentProperties.NameOfApplication property
 
 Gets or sets the name of the application.
 

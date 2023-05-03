@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldfillin/defaultresponse/
 ---
-## DefaultResponse property
+## FieldFillIn.DefaultResponse property
 
 Gets or sets default user response (initial value contained in the prompt window).
 

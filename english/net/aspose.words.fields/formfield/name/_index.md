@@ -7,7 +7,7 @@ type: docs
 weight: 130
 url: /net/aspose.words.fields/formfield/name/
 ---
-## Name property
+## FormField.Name property
 
 Gets or sets the form field name.
 

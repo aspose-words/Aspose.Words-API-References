@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words/paragraph/isincell/
 ---
-## IsInCell property
+## Paragraph.IsInCell property
 
 True if this paragraph is an immediate child of [`Cell`](../../../aspose.words.tables/cell/); false otherwise.
 

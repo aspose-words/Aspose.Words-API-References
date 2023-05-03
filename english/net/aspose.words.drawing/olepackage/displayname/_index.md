@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.drawing/olepackage/displayname/
 ---
-## DisplayName property
+## OlePackage.DisplayName property
 
 Gets or sets OLE Package display name.
 

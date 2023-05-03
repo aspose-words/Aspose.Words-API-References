@@ -7,7 +7,7 @@ type: docs
 weight: 200
 url: /net/aspose.words.drawing.charts/chartaxis/reverseorder/
 ---
-## ReverseOrder property
+## ChartAxis.ReverseOrder property
 
 Returns or sets a flag indicating whether values of axis should be displayed in reverse order, i.e. from max to min.
 

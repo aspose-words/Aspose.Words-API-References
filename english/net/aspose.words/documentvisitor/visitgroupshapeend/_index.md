@@ -7,7 +7,7 @@ type: docs
 weight: 260
 url: /net/aspose.words/documentvisitor/visitgroupshapeend/
 ---
-## VisitGroupShapeEnd method
+## DocumentVisitor.VisitGroupShapeEnd method
 
 Called when enumeration of a group shape has ended.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.saving/documentpartsavingargs/documentpartstream/
 ---
-## DocumentPartStream property
+## DocumentPartSavingArgs.DocumentPartStream property
 
 Allows to specify the stream where the document part will be saved to.
 

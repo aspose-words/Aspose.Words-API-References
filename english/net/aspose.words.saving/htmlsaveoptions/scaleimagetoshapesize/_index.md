@@ -7,7 +7,7 @@ type: docs
 weight: 450
 url: /net/aspose.words.saving/htmlsaveoptions/scaleimagetoshapesize/
 ---
-## ScaleImageToShapeSize property
+## HtmlSaveOptions.ScaleImageToShapeSize property
 
 Specifies whether images are scaled by Aspose.Words to the bounding shape size when exporting to HTML, MHTML or EPUB. Default value is `true`.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 170
 url: /net/aspose.words.drawing/textpath/textpathalignment/
 ---
-## TextPathAlignment property
+## TextPath.TextPathAlignment property
 
 Defines the alignment of text.
 

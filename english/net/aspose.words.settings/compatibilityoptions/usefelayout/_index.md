@@ -7,7 +7,7 @@ type: docs
 weight: 620
 url: /net/aspose.words.settings/compatibilityoptions/usefelayout/
 ---
-## UseFELayout property
+## CompatibilityOptions.UseFELayout property
 
 Do Not Bypass East Asian/Complex Script Layout Code.
 

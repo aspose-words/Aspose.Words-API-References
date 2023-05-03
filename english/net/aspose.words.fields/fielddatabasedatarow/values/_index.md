@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fields/fielddatabasedatarow/values/
 ---
-## Values property
+## FieldDatabaseDataRow.Values property
 
 Gets values that belong to this row.
 

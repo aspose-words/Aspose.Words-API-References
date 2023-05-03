@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.mailmerging/imailmergedatasource/getvalue/
 ---
-## GetValue method
+## IMailMergeDataSource.GetValue method
 
 Returns a value for the specified field name or `false` if the field is not found.
 

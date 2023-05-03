@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/axisscaling/maximum/
 ---
-## Maximum property
+## AxisScaling.Maximum property
 
 Gets or sets the maximum value of the axis.
 

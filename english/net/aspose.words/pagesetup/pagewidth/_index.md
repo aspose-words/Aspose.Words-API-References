@@ -7,7 +7,7 @@ type: docs
 weight: 340
 url: /net/aspose.words/pagesetup/pagewidth/
 ---
-## PageWidth property
+## PageSetup.PageWidth property
 
 Returns or sets the width of the page in points.
 

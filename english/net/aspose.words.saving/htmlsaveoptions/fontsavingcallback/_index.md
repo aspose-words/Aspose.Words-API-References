@@ -7,7 +7,7 @@ type: docs
 weight: 310
 url: /net/aspose.words.saving/htmlsaveoptions/fontsavingcallback/
 ---
-## FontSavingCallback property
+## HtmlSaveOptions.FontSavingCallback property
 
 Allows to control how fonts are saved when a document is saved to HTML, MHTML or EPUB.
 

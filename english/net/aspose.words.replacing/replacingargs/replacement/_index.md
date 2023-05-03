@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.replacing/replacingargs/replacement/
 ---
-## Replacement property
+## ReplacingArgs.Replacement property
 
 Gets or sets the replacement string.
 

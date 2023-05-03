@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.fields/formfield/exitmacro/
 ---
-## ExitMacro property
+## FormField.ExitMacro property
 
 Returns or sets an exit macro name for the form field.
 

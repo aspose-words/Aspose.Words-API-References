@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.drawing/olepackage/filename/
 ---
-## FileName property
+## OlePackage.FileName property
 
 Gets or sets OLE Package file name.
 

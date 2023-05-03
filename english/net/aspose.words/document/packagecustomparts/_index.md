@@ -7,7 +7,7 @@ type: docs
 weight: 310
 url: /net/aspose.words/document/packagecustomparts/
 ---
-## PackageCustomParts property
+## Document.PackageCustomParts property
 
 Gets or sets the collection of custom parts (arbitrary content) that are linked to the OOXML package using "unknown relationships".
 

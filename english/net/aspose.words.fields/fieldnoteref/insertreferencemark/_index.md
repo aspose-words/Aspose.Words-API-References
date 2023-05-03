@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldnoteref/insertreferencemark/
 ---
-## InsertReferenceMark property
+## FieldNoteRef.InsertReferenceMark property
 
 Inserts the reference mark with the same character formatting as the Footnote Reference or Endnote Reference style.
 

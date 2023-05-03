@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.lists/listlevel/linkedstyle/
 ---
-## LinkedStyle property
+## ListLevel.LinkedStyle property
 
 Gets or sets the paragraph style that is linked to this list level.
 

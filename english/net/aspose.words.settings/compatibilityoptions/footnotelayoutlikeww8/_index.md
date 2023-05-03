@@ -7,7 +7,7 @@ type: docs
 weight: 260
 url: /net/aspose.words.settings/compatibilityoptions/footnotelayoutlikeww8/
 ---
-## FootnoteLayoutLikeWW8 property
+## CompatibilityOptions.FootnoteLayoutLikeWW8 property
 
 Emulate Word 6.x/95/97 Footnote Placement.
 

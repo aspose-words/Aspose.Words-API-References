@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/chartlegend/legendentries/
 ---
-## LegendEntries property
+## ChartLegend.LegendEntries property
 
 Returns a collection of legend entries for all series and trendlines of the parent chart.
 

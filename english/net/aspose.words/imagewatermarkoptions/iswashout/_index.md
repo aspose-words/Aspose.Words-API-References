@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/imagewatermarkoptions/iswashout/
 ---
-## IsWashout property
+## ImageWatermarkOptions.IsWashout property
 
 Gets or sets a boolean value which is responsible for washout effect of the watermark. The default value is `true`.
 

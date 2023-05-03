@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.markup/customxmlpartcollection/removeat/
 ---
-## RemoveAt method
+## CustomXmlPartCollection.RemoveAt method
 
 Removes an item at the specified index.
 

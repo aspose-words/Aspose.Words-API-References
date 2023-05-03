@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words/node/clone/
 ---
-## Clone method
+## Node.Clone method
 
 Creates a duplicate of the node.
 

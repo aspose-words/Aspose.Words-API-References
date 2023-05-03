@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/axisbound/isauto/
 ---
-## IsAuto property
+## AxisBound.IsAuto property
 
 Returns a flag indicating that axis bound should be determined automatically.
 

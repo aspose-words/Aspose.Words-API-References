@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.markup/xmlmapping/prefixmappings/
 ---
-## PrefixMappings property
+## XmlMapping.PrefixMappings property
 
 Returns XML namespace prefix mappings to evaluate the [`XPath`](../xpath/).
 

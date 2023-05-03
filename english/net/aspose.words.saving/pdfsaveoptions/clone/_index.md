@@ -7,7 +7,7 @@ type: docs
 weight: 340
 url: /net/aspose.words.saving/pdfsaveoptions/clone/
 ---
-## Clone method
+## PdfSaveOptions.Clone method
 
 Creates a deep clone of this object.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 530
 url: /net/aspose.words.drawing/shapebase/title/
 ---
-## Title property
+## ShapeBase.Title property
 
 Gets or sets the title (caption) of the current shape object.
 

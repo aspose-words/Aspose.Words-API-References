@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fields/userinformation/address/
 ---
-## Address property
+## UserInformation.Address property
 
 Gets or sets the user's postal address.
 

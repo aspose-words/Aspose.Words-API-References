@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.webextensions/basewebextensioncollection-1/getenumerator/
 ---
-## GetEnumerator method
+## BaseWebExtensionCollection&lt;T&gt;.GetEnumerator method
 
 Returns an enumerator that can iterate through a collection.
 

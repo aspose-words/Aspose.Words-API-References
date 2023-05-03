@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/chartmarker/size/
 ---
-## Size property
+## ChartMarker.Size property
 
 Gets or sets chart marker size. Default value is 7.
 

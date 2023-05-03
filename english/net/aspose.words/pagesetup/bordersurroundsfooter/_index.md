@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words/pagesetup/bordersurroundsfooter/
 ---
-## BorderSurroundsFooter property
+## PageSetup.BorderSurroundsFooter property
 
 Specifies whether the page border includes or excludes the footer.
 

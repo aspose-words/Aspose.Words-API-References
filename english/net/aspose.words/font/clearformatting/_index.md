@@ -7,7 +7,7 @@ type: docs
 weight: 550
 url: /net/aspose.words/font/clearformatting/
 ---
-## ClearFormatting method
+## Font.ClearFormatting method
 
 Resets to default font formatting.
 

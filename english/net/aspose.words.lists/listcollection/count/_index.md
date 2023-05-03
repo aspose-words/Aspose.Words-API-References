@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.lists/listcollection/count/
 ---
-## Count property
+## ListCollection.Count property
 
 Gets the count of numbered and bulleted lists in the document.
 

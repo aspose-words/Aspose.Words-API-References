@@ -7,7 +7,7 @@ type: docs
 weight: 330
 url: /net/aspose.words/font/shadow/
 ---
-## Shadow property
+## Font.Shadow property
 
 True if the font is formatted as shadowed.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.fields/dropdownitemcollection/count/
 ---
-## Count property
+## DropDownItemCollection.Count property
 
 Gets the number of elements contained in the collection.
 

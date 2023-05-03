@@ -7,7 +7,7 @@ type: docs
 weight: 380
 url: /net/aspose.words/documentbuilder/insertnode/
 ---
-## InsertNode method
+## DocumentBuilder.InsertNode method
 
 Inserts a node before the cursor.
 

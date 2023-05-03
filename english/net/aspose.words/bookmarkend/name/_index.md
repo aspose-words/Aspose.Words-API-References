@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/bookmarkend/name/
 ---
-## Name property
+## BookmarkEnd.Name property
 
 Gets or sets the bookmark name.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words.saving/pdfsaveoptions/embedfullfonts/
 ---
-## EmbedFullFonts property
+## PdfSaveOptions.EmbedFullFonts property
 
 Controls how fonts are embedded into the resulting PDF documents.
 

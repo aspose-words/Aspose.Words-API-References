@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words/revisioncollection/rejectall/
 ---
-## RejectAll method
+## RevisionCollection.RejectAll method
 
 Rejects all revisions in this collection.
 

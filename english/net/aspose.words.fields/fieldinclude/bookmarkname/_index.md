@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldinclude/bookmarkname/
 ---
-## BookmarkName property
+## FieldInclude.BookmarkName property
 
 Gets or sets the name of the bookmark in the document to include.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words/bookmark/remove/
 ---
-## Remove method
+## Bookmark.Remove method
 
 Removes the bookmark from the document. Does not remove text inside the bookmark.
 

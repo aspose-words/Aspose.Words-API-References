@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words/tabstop/equals/
 ---
-## Equals method
+## TabStop.Equals method
 
 Compares with the specified [`TabStop`](../).
 

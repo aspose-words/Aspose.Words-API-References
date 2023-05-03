@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words.drawing.charts/chartaxis/majorunit/
 ---
-## MajorUnit property
+## ChartAxis.MajorUnit property
 
 Returns or sets the distance between major tick marks.
 

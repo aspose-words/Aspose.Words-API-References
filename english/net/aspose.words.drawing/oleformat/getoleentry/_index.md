@@ -7,7 +7,7 @@ type: docs
 weight: 140
 url: /net/aspose.words.drawing/oleformat/getoleentry/
 ---
-## GetOleEntry method
+## OleFormat.GetOleEntry method
 
 Gets OLE object data entry.
 

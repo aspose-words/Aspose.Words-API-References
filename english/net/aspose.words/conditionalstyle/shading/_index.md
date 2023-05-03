@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words/conditionalstyle/shading/
 ---
-## Shading property
+## ConditionalStyle.Shading property
 
 Gets a [`Shading`](../../shading/) object that refers to the shading formatting for this conditional style.
 

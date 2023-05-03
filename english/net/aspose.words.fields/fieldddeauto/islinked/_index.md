@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.fields/fieldddeauto/islinked/
 ---
-## IsLinked property
+## FieldDdeAuto.IsLinked property
 
 Gets or sets whether to reduce the file size by not storing graphics data with the document.
 

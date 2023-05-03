@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.lists/list/listid/
 ---
-## ListId property
+## List.ListId property
 
 Gets the unique identifier of the list.
 

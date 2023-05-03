@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/textcolumncollection/count/
 ---
-## Count property
+## TextColumnCollection.Count property
 
 Gets the number of columns in the section of a document.
 

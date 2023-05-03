@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.saving/fontsavingargs/italic/
 ---
-## Italic property
+## FontSavingArgs.Italic property
 
 Indicates whether the current font is italic.
 

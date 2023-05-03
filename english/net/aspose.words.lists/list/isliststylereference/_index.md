@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.lists/list/isliststylereference/
 ---
-## IsListStyleReference property
+## List.IsListStyleReference property
 
 Returns `true` if this list is a reference to a list style.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.tables/preferredwidth/type/
 ---
-## Type property
+## PreferredWidth.Type property
 
 Gets the unit of measure used for this preferred width value.
 

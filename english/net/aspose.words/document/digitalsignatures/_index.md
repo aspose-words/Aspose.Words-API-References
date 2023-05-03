@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words/document/digitalsignatures/
 ---
-## DigitalSignatures property
+## Document.DigitalSignatures property
 
 Gets the collection of digital signatures for this document and their validation results.
 

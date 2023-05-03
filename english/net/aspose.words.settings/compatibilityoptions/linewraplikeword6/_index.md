@@ -7,7 +7,7 @@ type: docs
 weight: 310
 url: /net/aspose.words.settings/compatibilityoptions/linewraplikeword6/
 ---
-## LineWrapLikeWord6 property
+## CompatibilityOptions.LineWrapLikeWord6 property
 
 Emulate Word 6.0 Line Wrapping for East Asian Text.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 220
 url: /net/aspose.words/paragraph/runs/
 ---
-## Runs property
+## Paragraph.Runs property
 
 Provides access to the typed collection of pieces of text inside the paragraph.
 

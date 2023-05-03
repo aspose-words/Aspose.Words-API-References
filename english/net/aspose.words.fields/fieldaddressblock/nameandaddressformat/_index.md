@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldaddressblock/nameandaddressformat/
 ---
-## NameAndAddressFormat property
+## FieldAddressBlock.NameAndAddressFormat property
 
 Gets or sets the name and address format.
 

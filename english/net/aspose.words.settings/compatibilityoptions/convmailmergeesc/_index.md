@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.settings/compatibilityoptions/convmailmergeesc/
 ---
-## ConvMailMergeEsc property
+## CompatibilityOptions.ConvMailMergeEsc property
 
 Treat Backslash Quotation Delimiter as Two Quotation Marks.
 

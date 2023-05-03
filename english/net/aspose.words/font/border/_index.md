@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words/font/border/
 ---
-## Border property
+## Font.Border property
 
 Returns a [`Border`](../../border/) object that specifies border for the font.
 

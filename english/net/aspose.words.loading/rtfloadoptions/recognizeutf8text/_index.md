@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.loading/rtfloadoptions/recognizeutf8text/
 ---
-## RecognizeUtf8Text property
+## RtfLoadOptions.RecognizeUtf8Text property
 
 When set to `true`, CharsetDetector will try to detect UTF8 characters, they will be preserved during import.
 

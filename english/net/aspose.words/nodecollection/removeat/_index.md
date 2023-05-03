@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words/nodecollection/removeat/
 ---
-## RemoveAt method
+## NodeCollection.RemoveAt method
 
 Removes the node at the specified index from the collection and from the document.
 

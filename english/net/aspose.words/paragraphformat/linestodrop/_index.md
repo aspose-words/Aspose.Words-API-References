@@ -7,7 +7,7 @@ type: docs
 weight: 200
 url: /net/aspose.words/paragraphformat/linestodrop/
 ---
-## LinesToDrop property
+## ParagraphFormat.LinesToDrop property
 
 Gets or sets the number of lines of the paragraph text used to calculate the drop cap height.
 

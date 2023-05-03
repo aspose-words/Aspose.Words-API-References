@@ -7,7 +7,7 @@ type: docs
 weight: 240
 url: /net/aspose.words.drawing/shape/accept/
 ---
-## Accept method
+## Shape.Accept method
 
 Accepts a visitor.
 

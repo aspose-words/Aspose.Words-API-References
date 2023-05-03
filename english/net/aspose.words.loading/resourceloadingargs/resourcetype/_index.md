@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.loading/resourceloadingargs/resourcetype/
 ---
-## ResourceType property
+## ResourceLoadingArgs.ResourceType property
 
 Type of resource.
 

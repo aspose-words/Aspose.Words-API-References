@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.lists/listcollection/getlistbylistid/
 ---
-## GetListByListId method
+## ListCollection.GetListByListId method
 
 Gets a list by a list identifier.
 

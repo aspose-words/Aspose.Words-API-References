@@ -7,7 +7,7 @@ type: docs
 weight: 330
 url: /net/aspose.words.markup/structureddocumenttag/accept/
 ---
-## Accept method
+## StructuredDocumentTag.Accept method
 
 Accepts a visitor.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.settings/odsorecipientdatacollection/removeat/
 ---
-## RemoveAt method
+## OdsoRecipientDataCollection.RemoveAt method
 
 Removes the element at the specified index.
 

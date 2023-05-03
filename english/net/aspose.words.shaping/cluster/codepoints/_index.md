@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.shaping/cluster/codepoints/
 ---
-## Codepoints property
+## Cluster.Codepoints property
 
 Gets codepoints of the cluster.
 

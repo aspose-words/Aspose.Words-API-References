@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.mailmerging/mailmergeregioninfo/name/
 ---
-## Name property
+## MailMergeRegionInfo.Name property
 
 Returns the name of region.
 

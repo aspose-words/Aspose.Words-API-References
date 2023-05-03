@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words/documentbuilder/isatendofparagraph/
 ---
-## IsAtEndOfParagraph property
+## DocumentBuilder.IsAtEndOfParagraph property
 
 Returns `true` if the cursor is at the end of the current paragraph.
 

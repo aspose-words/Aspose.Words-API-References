@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldtoc/entryidentifier/
 ---
-## EntryIdentifier property
+## FieldToc.EntryIdentifier property
 
 Gets or sets a string that should match type identifiers of TC fields being included.
 

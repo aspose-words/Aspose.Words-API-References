@@ -7,7 +7,7 @@ type: docs
 weight: 380
 url: /net/aspose.words/paragraphformat/tabstops/
 ---
-## TabStops property
+## ParagraphFormat.TabStops property
 
 Gets the collection of custom tab stops defined for this object.
 

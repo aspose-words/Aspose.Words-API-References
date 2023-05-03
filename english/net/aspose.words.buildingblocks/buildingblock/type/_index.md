@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words.buildingblocks/buildingblock/type/
 ---
-## Type property
+## BuildingBlock.Type property
 
 Specifies the building block type.
 

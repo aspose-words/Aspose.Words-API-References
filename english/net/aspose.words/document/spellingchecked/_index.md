@@ -7,7 +7,7 @@ type: docs
 weight: 410
 url: /net/aspose.words/document/spellingchecked/
 ---
-## SpellingChecked property
+## Document.SpellingChecked property
 
 Returns `true` if the document has been checked for spelling.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.mailmerging/mailmerge/fieldmergingcallback/
 ---
-## FieldMergingCallback property
+## MailMerge.FieldMergingCallback property
 
 Occurs during mail merge when a mail merge field is encountered in the document.
 

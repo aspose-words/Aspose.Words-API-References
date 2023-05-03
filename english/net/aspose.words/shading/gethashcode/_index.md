@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words/shading/gethashcode/
 ---
-## GetHashCode method
+## Shading.GetHashCode method
 
 Serves as a hash function for this type.
 

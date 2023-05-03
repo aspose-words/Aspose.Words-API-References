@@ -7,7 +7,7 @@ type: docs
 weight: 160
 url: /net/aspose.words.lists/listlevel/deletepicturebullet/
 ---
-## DeletePictureBullet method
+## ListLevel.DeletePictureBullet method
 
 Deletes picture bullet for the current list level.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 180
 url: /net/aspose.words.drawing/shape/stroke/
 ---
-## Stroke property
+## Shape.Stroke property
 
 Defines a stroke for a shape.
 

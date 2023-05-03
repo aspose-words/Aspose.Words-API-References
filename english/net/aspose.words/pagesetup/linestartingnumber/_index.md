@@ -7,7 +7,7 @@ type: docs
 weight: 250
 url: /net/aspose.words/pagesetup/linestartingnumber/
 ---
-## LineStartingNumber property
+## PageSetup.LineStartingNumber property
 
 Gets or sets the starting line number.
 

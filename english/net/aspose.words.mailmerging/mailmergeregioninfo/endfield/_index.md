@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.mailmerging/mailmergeregioninfo/endfield/
 ---
-## EndField property
+## MailMergeRegionInfo.EndField property
 
 Returns an end field for the region.
 

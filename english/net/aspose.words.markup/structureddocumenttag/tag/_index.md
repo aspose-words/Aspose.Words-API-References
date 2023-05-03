@@ -7,7 +7,7 @@ type: docs
 weight: 280
 url: /net/aspose.words.markup/structureddocumenttag/tag/
 ---
-## Tag property
+## StructuredDocumentTag.Tag property
 
 Specifies a tag associated with the current SDT node. Can not be `null`.
 

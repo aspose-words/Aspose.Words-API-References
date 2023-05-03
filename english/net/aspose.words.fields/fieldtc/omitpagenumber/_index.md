@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldtc/omitpagenumber/
 ---
-## OmitPageNumber property
+## FieldTC.OmitPageNumber property
 
 Gets or sets whether page number in TOC should be omitted for this field.
 

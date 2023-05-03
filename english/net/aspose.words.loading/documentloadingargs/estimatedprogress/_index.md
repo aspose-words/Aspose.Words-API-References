@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.loading/documentloadingargs/estimatedprogress/
 ---
-## EstimatedProgress property
+## DocumentLoadingArgs.EstimatedProgress property
 
 Overall estimated percentage progress.
 

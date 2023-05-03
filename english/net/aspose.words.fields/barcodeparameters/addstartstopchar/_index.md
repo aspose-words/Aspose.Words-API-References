@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/barcodeparameters/addstartstopchar/
 ---
-## AddStartStopChar property
+## BarcodeParameters.AddStartStopChar property
 
 Whether to add Start/Stop characters for barcode types NW7 and CODE39.
 

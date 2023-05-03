@@ -7,7 +7,7 @@ type: docs
 weight: 130
 url: /net/aspose.words.mailmerging/mailmerge/trimwhitespaces/
 ---
-## TrimWhitespaces property
+## MailMerge.TrimWhitespaces property
 
 Gets or sets a value indicating whether trailing and leading whitespaces are trimmed from mail merge values.
 

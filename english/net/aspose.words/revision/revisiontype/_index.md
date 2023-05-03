@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words/revision/revisiontype/
 ---
-## RevisionType property
+## Revision.RevisionType property
 
 Gets the type of this revision.
 

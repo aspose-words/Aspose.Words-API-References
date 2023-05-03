@@ -7,7 +7,7 @@ type: docs
 weight: 750
 url: /net/aspose.words/document/updatefields/
 ---
-## UpdateFields method
+## Document.UpdateFields method
 
 Updates the values of fields in the whole document.
 

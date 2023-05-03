@@ -7,7 +7,7 @@ type: docs
 weight: 400
 url: /net/aspose.words/documentvisitor/visitshapestart/
 ---
-## VisitShapeStart method
+## DocumentVisitor.VisitShapeStart method
 
 Called when enumeration of a shape has started.
 

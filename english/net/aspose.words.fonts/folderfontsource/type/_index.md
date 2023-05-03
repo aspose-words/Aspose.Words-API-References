@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.fonts/folderfontsource/type/
 ---
-## Type property
+## FolderFontSource.Type property
 
 Returns the type of the font source.
 

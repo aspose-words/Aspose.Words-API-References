@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.notes/footnote/storytype/
 ---
-## StoryType property
+## Footnote.StoryType property
 
 Returns Footnotes or Endnotes.
 

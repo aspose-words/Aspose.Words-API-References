@@ -7,7 +7,7 @@ type: docs
 weight: 330
 url: /net/aspose.words/pagesetup/pagestartingnumber/
 ---
-## PageStartingNumber property
+## PageSetup.PageStartingNumber property
 
 Gets or sets the starting page number of the section.
 

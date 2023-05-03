@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.saving/xpssaveoptions/saveformat/
 ---
-## SaveFormat property
+## XpsSaveOptions.SaveFormat property
 
 Specifies the format in which the document will be saved if this save options object is used. Can only be Xps.
 

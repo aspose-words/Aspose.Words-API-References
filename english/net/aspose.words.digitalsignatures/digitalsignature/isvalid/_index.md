@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.digitalsignatures/digitalsignature/isvalid/
 ---
-## IsValid property
+## DigitalSignature.IsValid property
 
 Returns `true` if this digital signature is valid and the document has not been tampered with.
 

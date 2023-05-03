@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.drawing.charts/ichartdatapoint/marker/
 ---
-## Marker property
+## IChartDataPoint.Marker property
 
 Specifies a data marker. Marker is automatically created when requested.
 

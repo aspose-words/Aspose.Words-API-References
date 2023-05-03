@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words.saving/htmlsaveoptions/encoding/
 ---
-## Encoding property
+## HtmlSaveOptions.Encoding property
 
 Specifies the encoding to use when exporting to HTML, MHTML or EPUB. Default value is `new UTF8Encoding(false)` (UTF-8 without BOM).
 

@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.shaping/itextshaper/shapetext/
 ---
-## ShapeText method
+## ITextShaper.ShapeText method
 
 Returns [`Cluster`](../../cluster/) objects generated from a sequence of text fragments. Length of the returned array is equal to length of *runs*. If run at an index has corresponding clusters then result at the same index will have them recorded.
 

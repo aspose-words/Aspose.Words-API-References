@@ -7,7 +7,7 @@ type: docs
 weight: 560
 url: /net/aspose.words/documentbuilder/movetoparagraph/
 ---
-## MoveToParagraph method
+## DocumentBuilder.MoveToParagraph method
 
 Moves the cursor to a paragraph in the current section.
 

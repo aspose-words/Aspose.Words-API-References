@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.layout/revisionoptions/deletedtexteffect/
 ---
-## DeletedTextEffect property
+## RevisionOptions.DeletedTextEffect property
 
 Allows to specify the effect to be applied to the deleted content Deletion. Default value is StrikeThrough
 

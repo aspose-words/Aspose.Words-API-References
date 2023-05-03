@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldref/insertparagraphnumber/
 ---
-## InsertParagraphNumber property
+## FieldRef.InsertParagraphNumber property
 
 Gets or sets whether to insert the paragraph number of the referenced paragraph exactly as it appears in the document.
 

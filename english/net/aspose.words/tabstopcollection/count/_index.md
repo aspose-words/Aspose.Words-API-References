@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/tabstopcollection/count/
 ---
-## Count property
+## TabStopCollection.Count property
 
 Gets the number of tab stops in the collection.
 

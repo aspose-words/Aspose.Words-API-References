@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words/font/color/
 ---
-## Color property
+## Font.Color property
 
 Gets or sets the color of the font.
 

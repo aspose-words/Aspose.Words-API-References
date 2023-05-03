@@ -7,7 +7,7 @@ type: docs
 weight: 690
 url: /net/aspose.words.drawing/shapebase/setshapeattr/
 ---
-## SetShapeAttr method
+## ShapeBase.SetShapeAttr method
 
 Reserved for system use. IShapeAttrSource.
 

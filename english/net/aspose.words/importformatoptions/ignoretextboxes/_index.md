@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words/importformatoptions/ignoretextboxes/
 ---
-## IgnoreTextBoxes property
+## ImportFormatOptions.IgnoreTextBoxes property
 
 Gets or sets a boolean value that specifies that source formatting of textboxes content ignored if KeepSourceFormatting mode is used. The default value is `true`.
 

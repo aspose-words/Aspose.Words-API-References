@@ -7,7 +7,7 @@ type: docs
 weight: 240
 url: /net/aspose.words/paragraphformat/outlinelevel/
 ---
-## OutlineLevel property
+## ParagraphFormat.OutlineLevel property
 
 Specifies the outline level of the paragraph in the document.
 

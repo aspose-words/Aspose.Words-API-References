@@ -7,7 +7,7 @@ type: docs
 weight: 130
 url: /net/aspose.words.loading/loadoptions/progresscallback/
 ---
-## ProgressCallback property
+## LoadOptions.ProgressCallback property
 
 Called during loading a document and accepts data about loading progress.
 

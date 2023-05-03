@@ -7,7 +7,7 @@ type: docs
 weight: 460
 url: /net/aspose.words.saving/htmlsaveoptions/tablewidthoutputmode/
 ---
-## TableWidthOutputMode property
+## HtmlSaveOptions.TableWidthOutputMode property
 
 Controls how table, row and cell widths are exported to HTML, MHTML or EPUB. Default value is All.
 

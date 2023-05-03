@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/bookmarkcollection/getenumerator/
 ---
-## GetEnumerator method
+## BookmarkCollection.GetEnumerator method
 
 Returns an enumerator object.
 

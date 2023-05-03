@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words/border/tintandshade/
 ---
-## TintAndShade property
+## Border.TintAndShade property
 
 Gets or sets a double value that lightens or darkens a color.
 

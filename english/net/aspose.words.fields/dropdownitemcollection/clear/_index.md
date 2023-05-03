@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.fields/dropdownitemcollection/clear/
 ---
-## Clear method
+## DropDownItemCollection.Clear method
 
 Removes all elements from the collection.
 

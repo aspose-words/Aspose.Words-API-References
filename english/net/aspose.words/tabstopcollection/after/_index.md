@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/tabstopcollection/after/
 ---
-## After method
+## TabStopCollection.After method
 
 Gets a first tab stop to the right of the specified position.
 

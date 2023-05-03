@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.reporting/reportingengine/options/
 ---
-## Options property
+## ReportingEngine.Options property
 
 Gets or sets a set of flags controlling behavior of this [`ReportingEngine`](../) instance while building a report.
 

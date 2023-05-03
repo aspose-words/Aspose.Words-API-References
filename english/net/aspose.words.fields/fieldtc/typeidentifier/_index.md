@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldtc/typeidentifier/
 ---
-## TypeIdentifier property
+## FieldTC.TypeIdentifier property
 
 Gets or sets a type identifier for this field (which is typically a letter).
 

@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.properties/builtindocumentproperties/comments/
 ---
-## Comments property
+## BuiltInDocumentProperties.Comments property
 
 Gets or sets the document comments.
 

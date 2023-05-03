@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.markup/istructureddocumenttag/lockcontents/
 ---
-## LockContents property
+## IStructuredDocumentTag.LockContents property
 
 When set to true, this property will prohibit a user from editing the contents of this **SDT**.
 

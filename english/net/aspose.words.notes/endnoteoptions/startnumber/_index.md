@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.notes/endnoteoptions/startnumber/
 ---
-## StartNumber property
+## EndnoteOptions.StartNumber property
 
 Specifies the starting number or character for the first automatically numbered endnotes.
 

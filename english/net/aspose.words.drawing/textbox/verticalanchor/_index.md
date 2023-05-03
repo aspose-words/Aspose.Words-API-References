@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words.drawing/textbox/verticalanchor/
 ---
-## VerticalAnchor property
+## TextBox.VerticalAnchor property
 
 Specifies the vertical alignment of the text within a shape.
 

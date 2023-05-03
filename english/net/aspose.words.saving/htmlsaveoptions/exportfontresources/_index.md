@@ -7,7 +7,7 @@ type: docs
 weight: 150
 url: /net/aspose.words.saving/htmlsaveoptions/exportfontresources/
 ---
-## ExportFontResources property
+## HtmlSaveOptions.ExportFontResources property
 
 Specifies whether font resources should be exported to HTML, MHTML or EPUB. Default is `false`.
 

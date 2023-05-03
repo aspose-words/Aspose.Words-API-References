@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.themes/themefonts/latin/
 ---
-## Latin property
+## ThemeFonts.Latin property
 
 Specifies font name for Latin characters.
 

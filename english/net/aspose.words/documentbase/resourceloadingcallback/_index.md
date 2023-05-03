@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words/documentbase/resourceloadingcallback/
 ---
-## ResourceLoadingCallback property
+## DocumentBase.ResourceLoadingCallback property
 
 Allows to control how external resources are loaded.
 

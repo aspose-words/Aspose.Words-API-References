@@ -7,7 +7,7 @@ type: docs
 weight: 140
 url: /net/aspose.words.drawing/shapebase/distanceleft/
 ---
-## DistanceLeft property
+## ShapeBase.DistanceLeft property
 
 Returns or sets the distance (in points) between the document text and the left edge of the shape.
 

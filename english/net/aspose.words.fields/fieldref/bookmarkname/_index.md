@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldref/bookmarkname/
 ---
-## BookmarkName property
+## FieldRef.BookmarkName property
 
 Gets or sets the referenced bookmark's name.
 

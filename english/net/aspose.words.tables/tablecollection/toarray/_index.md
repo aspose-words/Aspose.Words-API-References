@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.tables/tablecollection/toarray/
 ---
-## ToArray method
+## TableCollection.ToArray method
 
 Copies all tables from the collection to a new array of tables.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words/cleanupoptions/unusedstyles/
 ---
-## UnusedStyles property
+## CleanupOptions.UnusedStyles property
 
 Specifies whether unused styles should be removed from document. Default value is `true`.
 

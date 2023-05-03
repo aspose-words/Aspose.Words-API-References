@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/headerfooter/headerfootertype/
 ---
-## HeaderFooterType property
+## HeaderFooter.HeaderFooterType property
 
 Gets the type of this header/footer.
 

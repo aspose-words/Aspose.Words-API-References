@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.properties/builtindocumentproperties/contenttype/
 ---
-## ContentType property
+## BuiltInDocumentProperties.ContentType property
 
 Gets or sets the ContentType of the document.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 170
 url: /net/aspose.words/style/type/
 ---
-## Type property
+## Style.Type property
 
 Gets the style type (paragraph or character).
 

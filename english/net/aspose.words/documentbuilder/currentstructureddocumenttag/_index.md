@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words/documentbuilder/currentstructureddocumenttag/
 ---
-## CurrentStructuredDocumentTag property
+## DocumentBuilder.CurrentStructuredDocumentTag property
 
 Gets the structured document tag that is currently selected in this [`DocumentBuilder`](../).
 

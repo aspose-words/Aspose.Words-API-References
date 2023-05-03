@@ -7,7 +7,7 @@ type: docs
 weight: 200
 url: /net/aspose.words/controlchar/pagebreak/
 ---
-## PageBreak field
+## ControlChar.PageBreak field
 
 Page break character: "\x000c" or "\f". Note it has the same value as [`SectionBreak`](../sectionbreak/).
 

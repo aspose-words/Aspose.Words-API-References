@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.properties/builtindocumentproperties/characters/
 ---
-## Characters property
+## BuiltInDocumentProperties.Characters property
 
 Represents an estimate of the number of characters in the document.
 

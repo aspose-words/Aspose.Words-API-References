@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.drawing/textbox/internalmargintop/
 ---
-## InternalMarginTop property
+## TextBox.InternalMarginTop property
 
 Specifies the inner top margin in points for a shape.
 

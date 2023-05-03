@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words.fields/dropdownitemcollection/removeat/
 ---
-## RemoveAt method
+## DropDownItemCollection.RemoveAt method
 
 Removes a value at the specified index.
 

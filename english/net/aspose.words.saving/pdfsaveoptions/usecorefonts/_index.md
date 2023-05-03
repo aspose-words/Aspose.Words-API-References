@@ -7,7 +7,7 @@ type: docs
 weight: 310
 url: /net/aspose.words.saving/pdfsaveoptions/usecorefonts/
 ---
-## UseCoreFonts property
+## PdfSaveOptions.UseCoreFonts property
 
 Gets or sets a value determining whether or not to substitute TrueType fonts Arial, Times New Roman, Courier New and Symbol with core PDF Type 1 fonts.
 

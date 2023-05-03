@@ -7,7 +7,7 @@ type: docs
 weight: 500
 url: /net/aspose.words.settings/compatibilityoptions/suppressspbfafterpgbrk/
 ---
-## SuppressSpBfAfterPgBrk property
+## CompatibilityOptions.SuppressSpBfAfterPgBrk property
 
 Do Not Use Space Before On First Line After a Page Break.
 

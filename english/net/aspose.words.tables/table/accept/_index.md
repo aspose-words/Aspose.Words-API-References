@@ -7,7 +7,7 @@ type: docs
 weight: 350
 url: /net/aspose.words.tables/table/accept/
 ---
-## Accept method
+## Table.Accept method
 
 Accepts a visitor.
 

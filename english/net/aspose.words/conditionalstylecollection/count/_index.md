@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/conditionalstylecollection/count/
 ---
-## Count property
+## ConditionalStyleCollection.Count property
 
 Gets the number of conditional styles in the collection.
 

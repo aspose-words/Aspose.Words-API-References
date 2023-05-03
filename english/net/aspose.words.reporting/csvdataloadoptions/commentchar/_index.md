@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.reporting/csvdataloadoptions/commentchar/
 ---
-## CommentChar property
+## CsvDataLoadOptions.CommentChar property
 
 Gets or sets the character that is used to comment lines of CSV data.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 150
 url: /net/aspose.words.fields/formfield/ownhelp/
 ---
-## OwnHelp property
+## FormField.OwnHelp property
 
 Specifies the source of the text that's displayed in a message box when a form field has the focus and the user presses F1.
 

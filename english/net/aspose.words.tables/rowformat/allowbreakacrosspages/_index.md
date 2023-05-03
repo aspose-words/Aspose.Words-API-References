@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.tables/rowformat/allowbreakacrosspages/
 ---
-## AllowBreakAcrossPages property
+## RowFormat.AllowBreakAcrossPages property
 
 True if the text in a table row is allowed to split across a page break.
 

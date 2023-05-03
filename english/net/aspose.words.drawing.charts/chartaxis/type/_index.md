@@ -7,7 +7,7 @@ type: docs
 weight: 280
 url: /net/aspose.words.drawing.charts/chartaxis/type/
 ---
-## Type property
+## ChartAxis.Type property
 
 Returns type of the axis.
 

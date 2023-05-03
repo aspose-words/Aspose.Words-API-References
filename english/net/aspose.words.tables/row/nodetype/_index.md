@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.tables/row/nodetype/
 ---
-## NodeType property
+## Row.NodeType property
 
 Returns Row.
 

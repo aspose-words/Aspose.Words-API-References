@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/chartdatalabelcollection/count/
 ---
-## Count property
+## ChartDataLabelCollection.Count property
 
 Returns the number of [`ChartDataLabel`](../../chartdatalabel/) in this collection.
 

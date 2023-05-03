@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fonts/streamfontsource/openfontdatastream/
 ---
-## OpenFontDataStream method
+## StreamFontSource.OpenFontDataStream method
 
 This method should open the stream with font data on demand.
 

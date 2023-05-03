@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.fonts/fontsubstitutionsettings/tablesubstitution/
 ---
-## TableSubstitution property
+## FontSubstitutionSettings.TableSubstitution property
 
 Settings related to table substitution rule.
 

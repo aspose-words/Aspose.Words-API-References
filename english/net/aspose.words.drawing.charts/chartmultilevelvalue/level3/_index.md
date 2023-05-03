@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.drawing.charts/chartmultilevelvalue/level3/
 ---
-## Level3 property
+## ChartMultilevelValue.Level3 property
 
 Gets the name of the chart bottom level that this value refers to.
 

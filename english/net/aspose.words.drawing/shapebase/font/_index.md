@@ -7,7 +7,7 @@ type: docs
 weight: 190
 url: /net/aspose.words.drawing/shapebase/font/
 ---
-## Font property
+## ShapeBase.Font property
 
 Provides access to the font formatting of this object.
 

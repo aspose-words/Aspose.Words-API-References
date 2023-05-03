@@ -7,7 +7,7 @@ type: docs
 weight: 320
 url: /net/aspose.words/documentvisitor/visitparagraphend/
 ---
-## VisitParagraphEnd method
+## DocumentVisitor.VisitParagraphEnd method
 
 Called when enumeration of a paragraph has ended.
 

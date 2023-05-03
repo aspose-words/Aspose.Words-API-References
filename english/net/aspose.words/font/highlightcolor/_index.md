@@ -7,7 +7,7 @@ type: docs
 weight: 150
 url: /net/aspose.words/font/highlightcolor/
 ---
-## HighlightColor property
+## Font.HighlightColor property
 
 Gets or sets the highlight (marker) color.
 

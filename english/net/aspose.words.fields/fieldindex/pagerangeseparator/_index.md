@@ -7,7 +7,7 @@ type: docs
 weight: 130
 url: /net/aspose.words.fields/fieldindex/pagerangeseparator/
 ---
-## PageRangeSeparator property
+## FieldIndex.PageRangeSeparator property
 
 Gets or sets the character sequence that is used to separate the start and end of a page range.
 

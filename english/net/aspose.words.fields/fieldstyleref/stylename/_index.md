@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.fields/fieldstyleref/stylename/
 ---
-## StyleName property
+## FieldStyleRef.StyleName property
 
 Gets or sets the name of the style by which the text to search for is formatted.
 

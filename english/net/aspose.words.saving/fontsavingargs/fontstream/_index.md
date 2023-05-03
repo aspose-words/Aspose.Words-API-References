@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.saving/fontsavingargs/fontstream/
 ---
-## FontStream property
+## FontSavingArgs.FontStream property
 
 Allows to specify the stream where the font will be saved to.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 170
 url: /net/aspose.words.layout/layoutenumerator/reset/
 ---
-## Reset method
+## LayoutEnumerator.Reset method
 
 Moves the enumerator to the first page of the document.
 

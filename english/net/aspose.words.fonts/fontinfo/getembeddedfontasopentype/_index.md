@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.fonts/fontinfo/getembeddedfontasopentype/
 ---
-## GetEmbeddedFontAsOpenType method
+## FontInfo.GetEmbeddedFontAsOpenType method
 
 Gets an embedded font file in OpenType format. Fonts in Embedded OpenType format are converted to OpenType.
 

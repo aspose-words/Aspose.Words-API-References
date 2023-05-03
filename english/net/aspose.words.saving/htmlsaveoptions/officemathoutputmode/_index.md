@@ -7,7 +7,7 @@ type: docs
 weight: 400
 url: /net/aspose.words.saving/htmlsaveoptions/officemathoutputmode/
 ---
-## OfficeMathOutputMode property
+## HtmlSaveOptions.OfficeMathOutputMode property
 
 Controls how OfficeMath objects are exported to HTML, MHTML or EPUB. Default value is Image.
 

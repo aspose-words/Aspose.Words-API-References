@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.fields/formfield/entrymacro/
 ---
-## EntryMacro property
+## FormField.EntryMacro property
 
 Returns or sets an entry macro name for the form field.
 

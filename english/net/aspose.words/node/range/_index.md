@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words/node/range/
 ---
-## Range property
+## Node.Range property
 
 Returns a [`Range`](../../range/) object that represents the portion of a document that is contained in this node.
 

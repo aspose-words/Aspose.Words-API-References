@@ -7,7 +7,7 @@ type: docs
 weight: 220
 url: /net/aspose.words.markup/structureddocumenttag/nodetype/
 ---
-## NodeType property
+## StructuredDocumentTag.NodeType property
 
 Returns StructuredDocumentTag.
 

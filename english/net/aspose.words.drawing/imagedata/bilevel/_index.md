@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.drawing/imagedata/bilevel/
 ---
-## BiLevel property
+## ImageData.BiLevel property
 
 Determines whether an image will be displayed in black and white.
 

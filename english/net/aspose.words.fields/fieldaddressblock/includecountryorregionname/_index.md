@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldaddressblock/includecountryorregionname/
 ---
-## IncludeCountryOrRegionName property
+## FieldAddressBlock.IncludeCountryOrRegionName property
 
 Gets or sets whether to include the name of the country/region.
 

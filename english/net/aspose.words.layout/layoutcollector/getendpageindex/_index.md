@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.layout/layoutcollector/getendpageindex/
 ---
-## GetEndPageIndex method
+## LayoutCollector.GetEndPageIndex method
 
 Gets 1-based index of the page where node ends. Returns 0 if node cannot be mapped to a page.
 

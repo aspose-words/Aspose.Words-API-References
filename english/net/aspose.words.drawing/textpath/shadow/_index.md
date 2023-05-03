@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words.drawing/textpath/shadow/
 ---
-## Shadow property
+## TextPath.Shadow property
 
 Defines whether a shadow is applied to the text on a text path.
 

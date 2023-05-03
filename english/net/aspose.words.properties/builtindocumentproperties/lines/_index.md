@@ -7,7 +7,7 @@ type: docs
 weight: 180
 url: /net/aspose.words.properties/builtindocumentproperties/lines/
 ---
-## Lines property
+## BuiltInDocumentProperties.Lines property
 
 Represents an estimate of the number of lines in the document.
 

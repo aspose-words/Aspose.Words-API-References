@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.fields/fieldformat/datetimeformat/
 ---
-## DateTimeFormat property
+## FieldFormat.DateTimeFormat property
 
 Gets or sets a formatting that is applied to a date and time field result. Corresponds to the \@ switch.
 

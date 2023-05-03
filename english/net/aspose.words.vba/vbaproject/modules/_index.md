@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.vba/vbaproject/modules/
 ---
-## Modules property
+## VbaProject.Modules property
 
 Returns collection of VBA project modules.
 

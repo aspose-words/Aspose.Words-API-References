@@ -7,7 +7,7 @@ type: docs
 weight: 130
 url: /net/aspose.words.drawing.charts/chartdatalabelcollection/showvalue/
 ---
-## ShowValue property
+## ChartDataLabelCollection.ShowValue property
 
 Allows to specify whether values are to be displayed in the data labels of the entire series. Default value is `false`.
 

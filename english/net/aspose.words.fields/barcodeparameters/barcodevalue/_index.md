@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.fields/barcodeparameters/barcodevalue/
 ---
-## BarcodeValue property
+## BarcodeParameters.BarcodeValue property
 
 Data to be encoded.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words.settings/mailmergesettings/headersource/
 ---
-## HeaderSource property
+## MailMergeSettings.HeaderSource property
 
 Specifies the path to the mail-merge header source. The default value is an empty string.
 

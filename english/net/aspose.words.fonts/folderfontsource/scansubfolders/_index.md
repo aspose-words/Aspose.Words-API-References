@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fonts/folderfontsource/scansubfolders/
 ---
-## ScanSubfolders property
+## FolderFontSource.ScanSubfolders property
 
 Determines whether or not to scan the subfolders.
 

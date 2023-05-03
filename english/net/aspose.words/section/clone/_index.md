@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words/section/clone/
 ---
-## Clone method
+## Section.Clone method
 
 Creates a duplicate of this section.
 

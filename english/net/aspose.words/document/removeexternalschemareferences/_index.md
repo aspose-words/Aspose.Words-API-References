@@ -7,7 +7,7 @@ type: docs
 weight: 660
 url: /net/aspose.words/document/removeexternalschemareferences/
 ---
-## RemoveExternalSchemaReferences method
+## Document.RemoveExternalSchemaReferences method
 
 Removes external XML schema references from this document.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 140
 url: /net/aspose.words.markup/istructureddocumenttag/isranged/
 ---
-## IsRanged method
+## IStructuredDocumentTag.IsRanged method
 
 Returns true if this instance is a ranged structured document tag.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.markup/customxmlpropertycollection/indexofkey/
 ---
-## IndexOfKey method
+## CustomXmlPropertyCollection.IndexOfKey method
 
 Returns the zero-based index of the specified property in the collection.
 

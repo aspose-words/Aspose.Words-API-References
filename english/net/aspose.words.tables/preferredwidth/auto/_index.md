@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.tables/preferredwidth/auto/
 ---
-## Auto field
+## PreferredWidth.Auto field
 
 Returns an instance that represents the "preferred width is not specified" value.
 

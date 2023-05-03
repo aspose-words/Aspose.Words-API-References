@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words/inlinestory/ensureminimum/
 ---
-## EnsureMinimum method
+## InlineStory.EnsureMinimum method
 
 If the last child is not a paragraph, creates and appends one empty paragraph.
 

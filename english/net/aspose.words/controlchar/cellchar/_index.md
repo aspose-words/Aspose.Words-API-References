@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/controlchar/cellchar/
 ---
-## CellChar field
+## ControlChar.CellChar field
 
 End of a table cell or end of a table row character: (char)7 or "\a".
 

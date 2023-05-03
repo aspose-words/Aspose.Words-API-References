@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.notes/footnote/footnotetype/
 ---
-## FootnoteType property
+## Footnote.FootnoteType property
 
 Returns a value that specifies whether this is a footnote or endnote.
 

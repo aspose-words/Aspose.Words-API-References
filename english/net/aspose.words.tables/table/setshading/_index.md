@@ -7,7 +7,7 @@ type: docs
 weight: 430
 url: /net/aspose.words.tables/table/setshading/
 ---
-## SetShading method
+## Table.SetShading method
 
 Sets shading to the specified values on whole table.
 

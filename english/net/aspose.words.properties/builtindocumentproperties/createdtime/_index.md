@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words.properties/builtindocumentproperties/createdtime/
 ---
-## CreatedTime property
+## BuiltInDocumentProperties.CreatedTime property
 
 Gets or sets date of the document creation in UTC.
 

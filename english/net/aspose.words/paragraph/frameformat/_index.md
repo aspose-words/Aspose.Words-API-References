@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/paragraph/frameformat/
 ---
-## FrameFormat property
+## Paragraph.FrameFormat property
 
 Provides access to the frame formatting properties.
 

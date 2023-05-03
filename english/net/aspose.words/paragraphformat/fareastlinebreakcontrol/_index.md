@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words/paragraphformat/fareastlinebreakcontrol/
 ---
-## FarEastLineBreakControl property
+## ParagraphFormat.FarEastLineBreakControl property
 
 Gets or sets a flag indicating whether East Asian line-breaking rules are applied to the current paragraph.
 

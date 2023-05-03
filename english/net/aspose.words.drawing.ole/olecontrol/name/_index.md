@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.drawing.ole/olecontrol/name/
 ---
-## Name property
+## OleControl.Name property
 
 Gets or sets name of the ActiveX control.
 

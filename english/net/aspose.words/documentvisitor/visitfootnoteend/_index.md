@@ -7,7 +7,7 @@ type: docs
 weight: 210
 url: /net/aspose.words/documentvisitor/visitfootnoteend/
 ---
-## VisitFootnoteEnd method
+## DocumentVisitor.VisitFootnoteEnd method
 
 Called when enumeration of a footnote or endnote text has ended.
 

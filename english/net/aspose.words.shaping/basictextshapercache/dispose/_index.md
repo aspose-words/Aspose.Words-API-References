@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.shaping/basictextshapercache/dispose/
 ---
-## Dispose method
+## BasicTextShaperCache.Dispose method
 
 Disposes cached [`ITextShaper`](../../itextshaper/) instances.
 

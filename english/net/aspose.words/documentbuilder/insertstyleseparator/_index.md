@@ -7,7 +7,7 @@ type: docs
 weight: 450
 url: /net/aspose.words/documentbuilder/insertstyleseparator/
 ---
-## InsertStyleSeparator method
+## DocumentBuilder.InsertStyleSeparator method
 
 Inserts style separator into the document.
 

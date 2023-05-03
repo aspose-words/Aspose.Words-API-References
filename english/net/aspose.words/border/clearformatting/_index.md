@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words/border/clearformatting/
 ---
-## ClearFormatting method
+## Border.ClearFormatting method
 
 Resets border properties to default values.
 

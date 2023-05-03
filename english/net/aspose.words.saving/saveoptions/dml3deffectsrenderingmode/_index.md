@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.saving/saveoptions/dml3deffectsrenderingmode/
 ---
-## Dml3DEffectsRenderingMode property
+## SaveOptions.Dml3DEffectsRenderingMode property
 
 Gets or sets a value determining how 3D effects are rendered.
 

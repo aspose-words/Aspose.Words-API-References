@@ -7,7 +7,7 @@ type: docs
 weight: 360
 url: /net/aspose.words/pagesetup/restartpagenumbering/
 ---
-## RestartPageNumbering property
+## PageSetup.RestartPageNumbering property
 
 True if page numbering restarts at the beginning of the section.
 

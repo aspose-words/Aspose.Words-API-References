@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.settings/viewoptions/formsdesign/
 ---
-## FormsDesign property
+## ViewOptions.FormsDesign property
 
 Specifies whether the document is in forms design mode.
 

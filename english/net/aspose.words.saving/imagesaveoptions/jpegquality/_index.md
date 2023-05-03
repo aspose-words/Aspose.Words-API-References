@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.saving/imagesaveoptions/jpegquality/
 ---
-## JpegQuality property
+## ImageSaveOptions.JpegQuality property
 
 Gets or sets a value determining the quality of the generated JPEG images.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.fields/generalformatcollection/getenumerator/
 ---
-## GetEnumerator method
+## GeneralFormatCollection.GetEnumerator method
 
 Returns an enumerator object.
 

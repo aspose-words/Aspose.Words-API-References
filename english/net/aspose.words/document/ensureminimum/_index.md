@@ -7,7 +7,7 @@ type: docs
 weight: 580
 url: /net/aspose.words/document/ensureminimum/
 ---
-## EnsureMinimum method
+## Document.EnsureMinimum method
 
 If the document contains no sections, creates one section with one paragraph.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.drawing.charts/chartaxis/displayunit/
 ---
-## DisplayUnit property
+## ChartAxis.DisplayUnit property
 
 Specifies the scaling value of the display units for the value axis.
 

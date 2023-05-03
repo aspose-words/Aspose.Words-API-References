@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words.drawing/imagedata/imagebytes/
 ---
-## ImageBytes property
+## ImageData.ImageBytes property
 
 Gets or sets the raw bytes of the image stored in the shape.
 

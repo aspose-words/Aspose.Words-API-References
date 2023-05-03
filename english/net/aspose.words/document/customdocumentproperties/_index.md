@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words/document/customdocumentproperties/
 ---
-## CustomDocumentProperties property
+## Document.CustomDocumentProperties property
 
 Returns a collection that represents all the custom document properties of the document.
 

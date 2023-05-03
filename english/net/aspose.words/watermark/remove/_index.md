@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/watermark/remove/
 ---
-## Remove method
+## Watermark.Remove method
 
 Removes the watermark.
 

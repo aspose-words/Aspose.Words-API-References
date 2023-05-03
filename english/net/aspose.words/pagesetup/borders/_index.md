@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words/pagesetup/borders/
 ---
-## Borders property
+## PageSetup.Borders property
 
 Gets a collection of the page borders.
 

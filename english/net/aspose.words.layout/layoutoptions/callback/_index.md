@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.layout/layoutoptions/callback/
 ---
-## Callback property
+## LayoutOptions.Callback property
 
 Gets or sets [`IPageLayoutCallback`](../../ipagelayoutcallback/) implementation used by page layout model.
 

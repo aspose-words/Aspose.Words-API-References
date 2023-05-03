@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.saving/downsampleoptions/downsampleimages/
 ---
-## DownsampleImages property
+## DownsampleOptions.DownsampleImages property
 
 Specifies whether images should be downsampled.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.drawing.charts/chartseriescollection/clear/
 ---
-## Clear method
+## ChartSeriesCollection.Clear method
 
 Removes all [`ChartSeries`](../../chartseries/) from this collection.
 

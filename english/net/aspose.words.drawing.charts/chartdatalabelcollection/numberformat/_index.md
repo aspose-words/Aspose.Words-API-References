@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.drawing.charts/chartdatalabelcollection/numberformat/
 ---
-## NumberFormat property
+## ChartDataLabelCollection.NumberFormat property
 
 Gets an [`ChartNumberFormat`](../../chartnumberformat/) instance allowing to set number format for the data labels of the entire series.
 

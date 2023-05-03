@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.saving/pdfsaveoptions/digitalsignaturedetails/
 ---
-## DigitalSignatureDetails property
+## PdfSaveOptions.DigitalSignatureDetails property
 
 Gets or sets the details for signing the output PDF document.
 

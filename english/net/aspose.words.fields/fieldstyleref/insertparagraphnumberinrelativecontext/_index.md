@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldstyleref/insertparagraphnumberinrelativecontext/
 ---
-## InsertParagraphNumberInRelativeContext property
+## FieldStyleRef.InsertParagraphNumberInRelativeContext property
 
 Gets or sets whether to insert the paragraph number of the referenced paragraph in relative context.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldincludepicture/resizehorizontally/
 ---
-## ResizeHorizontally property
+## FieldIncludePicture.ResizeHorizontally property
 
 Gets or sets whether to resize the picture horizontally from the source.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 140
 url: /net/aspose.words.drawing/textbox/isvalidlinktarget/
 ---
-## IsValidLinkTarget method
+## TextBox.IsValidLinkTarget method
 
 Determines whether this [`TextBox`](../) can be linked to the target [`TextBox`](../).
 

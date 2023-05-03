@@ -7,7 +7,7 @@ type: docs
 weight: 150
 url: /net/aspose.words/compositenode/insertbefore/
 ---
-## InsertBefore method
+## CompositeNode.InsertBefore method
 
 Inserts the specified node immediately before the specified reference node.
 

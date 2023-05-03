@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.tables/rowformat/heightrule/
 ---
-## HeightRule property
+## RowFormat.HeightRule property
 
 Gets or sets the rule for determining the height of the table row.
 

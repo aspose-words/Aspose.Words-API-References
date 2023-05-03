@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.markup/custompart/contenttype/
 ---
-## ContentType property
+## CustomPart.ContentType property
 
 Specifies the content type of this custom part.
 

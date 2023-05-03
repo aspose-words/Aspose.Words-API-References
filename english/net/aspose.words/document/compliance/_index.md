@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words/document/compliance/
 ---
-## Compliance property
+## Document.Compliance property
 
 Gets the OOXML compliance version determined from the loaded document content. Makes sense only for OOXML documents.
 

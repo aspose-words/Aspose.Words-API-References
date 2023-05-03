@@ -7,7 +7,7 @@ type: docs
 weight: 550
 url: /net/aspose.words/document/clone/
 ---
-## Clone method
+## Document.Clone method
 
 Performs a deep copy of the [`Document`](../).
 

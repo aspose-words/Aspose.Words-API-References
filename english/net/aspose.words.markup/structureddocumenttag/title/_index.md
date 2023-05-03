@@ -7,7 +7,7 @@ type: docs
 weight: 290
 url: /net/aspose.words.markup/structureddocumenttag/title/
 ---
-## Title property
+## StructuredDocumentTag.Title property
 
 Specifies the friendly name associated with this **SDT**. Can not be `null`.
 

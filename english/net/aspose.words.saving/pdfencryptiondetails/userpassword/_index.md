@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.saving/pdfencryptiondetails/userpassword/
 ---
-## UserPassword property
+## PdfEncryptionDetails.UserPassword property
 
 Specifies the user password required for opening the encrypted PDF document.
 

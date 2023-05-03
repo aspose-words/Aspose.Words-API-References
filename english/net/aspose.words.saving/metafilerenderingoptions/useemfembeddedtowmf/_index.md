@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.saving/metafilerenderingoptions/useemfembeddedtowmf/
 ---
-## UseEmfEmbeddedToWmf property
+## MetafileRenderingOptions.UseEmfEmbeddedToWmf property
 
 Gets or sets a value determining how WMF metafiles with embedded EMF metafiles should be rendered.
 

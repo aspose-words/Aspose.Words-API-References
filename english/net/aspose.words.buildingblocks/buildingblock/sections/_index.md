@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words.buildingblocks/buildingblock/sections/
 ---
-## Sections property
+## BuildingBlock.Sections property
 
 Returns a collection that represents all sections in the building block.
 

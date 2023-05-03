@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.lists/listlabel/labelvalue/
 ---
-## LabelValue property
+## ListLabel.LabelValue property
 
 Gets a numeric value for this label.
 

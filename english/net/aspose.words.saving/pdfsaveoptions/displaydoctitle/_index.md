@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.saving/pdfsaveoptions/displaydoctitle/
 ---
-## DisplayDocTitle property
+## PdfSaveOptions.DisplayDocTitle property
 
 A flag specifying whether the window’s title bar should display the document title taken from the Title entry of the document information dictionary.
 

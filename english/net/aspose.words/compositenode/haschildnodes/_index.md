@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/compositenode/haschildnodes/
 ---
-## HasChildNodes property
+## CompositeNode.HasChildNodes property
 
 Returns `true` if this node has any child nodes.
 

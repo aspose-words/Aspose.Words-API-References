@@ -7,7 +7,7 @@ type: docs
 weight: 590
 url: /net/aspose.words/documentbuilder/popfont/
 ---
-## PopFont method
+## DocumentBuilder.PopFont method
 
 Retrieves character formatting previously saved on the stack.
 
