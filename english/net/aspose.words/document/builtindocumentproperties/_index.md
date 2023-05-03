@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/document/builtindocumentproperties/
 ---
-## Document.BuiltInDocumentProperties property
+## BuiltInDocumentProperties property
 
 Returns a collection that represents all the built-in document properties of the document.
 

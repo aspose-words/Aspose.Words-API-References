@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words.drawing/textbox/textboxwrapmode/
 ---
-## TextBox.TextBoxWrapMode property
+## TextBoxWrapMode property
 
 Determines how text wraps inside a shape.
 

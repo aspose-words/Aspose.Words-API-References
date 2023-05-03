@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/mergefieldimagedimension/unit/
 ---
-## MergeFieldImageDimension.Unit property
+## Unit property
 
 The unit.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.drawing.charts/chartxvalue/stringvalue/
 ---
-## ChartXValue.StringValue property
+## StringValue property
 
 Gets the stored string value.
 

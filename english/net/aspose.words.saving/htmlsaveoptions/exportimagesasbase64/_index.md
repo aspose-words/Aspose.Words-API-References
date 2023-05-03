@@ -7,7 +7,7 @@ type: docs
 weight: 180
 url: /net/aspose.words.saving/htmlsaveoptions/exportimagesasbase64/
 ---
-## HtmlSaveOptions.ExportImagesAsBase64 property
+## ExportImagesAsBase64 property
 
 Specifies whether images are saved in Base64 format to the output HTML, MHTML or EPUB. Default is `false`.
 

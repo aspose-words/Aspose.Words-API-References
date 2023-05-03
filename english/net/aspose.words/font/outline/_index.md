@@ -7,7 +7,7 @@ type: docs
 weight: 290
 url: /net/aspose.words/font/outline/
 ---
-## Font.Outline property
+## Outline property
 
 True if the font is formatted as outline.
 

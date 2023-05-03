@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.settings/hyphenationoptions/consecutivehyphenlimit/
 ---
-## HyphenationOptions.ConsecutiveHyphenLimit property
+## ConsecutiveHyphenLimit property
 
 Gets or sets the maximum number of consecutive lines that can end with hyphens. Default value for this property is 0.
 

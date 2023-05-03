@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.markup/xmlmapping/ismapped/
 ---
-## XmlMapping.IsMapped property
+## IsMapped property
 
 Returns `true` if the parent structured document tag is successfully mapped to XML data.
 

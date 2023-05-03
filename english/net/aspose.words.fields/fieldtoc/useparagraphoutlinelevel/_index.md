@@ -7,7 +7,7 @@ type: docs
 weight: 170
 url: /net/aspose.words.fields/fieldtoc/useparagraphoutlinelevel/
 ---
-## FieldToc.UseParagraphOutlineLevel property
+## UseParagraphOutlineLevel property
 
 Gets or sets whether to use the applied paragraph outline level.
 

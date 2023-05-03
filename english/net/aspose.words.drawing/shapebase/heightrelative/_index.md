@@ -7,7 +7,7 @@ type: docs
 weight: 210
 url: /net/aspose.words.drawing/shapebase/heightrelative/
 ---
-## ShapeBase.HeightRelative property
+## HeightRelative property
 
 Gets or sets the value that represents the percentage of shape's relative height.
 

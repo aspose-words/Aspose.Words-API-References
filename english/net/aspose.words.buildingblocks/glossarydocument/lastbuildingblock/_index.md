@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.buildingblocks/glossarydocument/lastbuildingblock/
 ---
-## GlossaryDocument.LastBuildingBlock property
+## LastBuildingBlock property
 
 Gets the last building block in the glossary document.
 

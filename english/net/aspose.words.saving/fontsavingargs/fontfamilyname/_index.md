@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.saving/fontsavingargs/fontfamilyname/
 ---
-## FontSavingArgs.FontFamilyName property
+## FontFamilyName property
 
 Indicates the current font family name.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/controlchar/columnbreak/
 ---
-## ControlChar.ColumnBreak field
+## ColumnBreak field
 
 End of column character: "\x000e".
 

@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldautonumlgl/separatorcharacter/
 ---
-## FieldAutoNumLgl.SeparatorCharacter property
+## SeparatorCharacter property
 
 Gets or sets the separator character to be used.
 

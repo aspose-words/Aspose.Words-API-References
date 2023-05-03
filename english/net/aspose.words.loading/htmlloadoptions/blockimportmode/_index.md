@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.loading/htmlloadoptions/blockimportmode/
 ---
-## HtmlLoadOptions.BlockImportMode property
+## BlockImportMode property
 
 Gets or sets a value that specifies how properties of block-level elements are imported. Default value is Merge.
 

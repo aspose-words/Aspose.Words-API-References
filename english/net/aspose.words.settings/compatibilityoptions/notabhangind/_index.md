@@ -7,7 +7,7 @@ type: docs
 weight: 370
 url: /net/aspose.words.settings/compatibilityoptions/notabhangind/
 ---
-## CompatibilityOptions.NoTabHangInd property
+## NoTabHangInd property
 
 Do Not Create Custom Tab Stop for Hanging Indent.
 

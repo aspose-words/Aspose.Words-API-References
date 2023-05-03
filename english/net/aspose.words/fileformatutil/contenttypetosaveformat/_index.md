@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/fileformatutil/contenttypetosaveformat/
 ---
-## FileFormatUtil.ContentTypeToSaveFormat method
+## ContentTypeToSaveFormat method
 
 Converts IANA content type into a save format enumerated value.
 

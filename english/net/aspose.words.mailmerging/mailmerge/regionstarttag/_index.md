@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words.mailmerging/mailmerge/regionstarttag/
 ---
-## MailMerge.RegionStartTag property
+## RegionStartTag property
 
 Gets or sets a mail merge region start tag.
 

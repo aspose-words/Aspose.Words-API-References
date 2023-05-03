@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words/controlchar/fieldstartchar/
 ---
-## ControlChar.FieldStartChar field
+## FieldStartChar field
 
 Start of MS Word field character: (char)19.
 

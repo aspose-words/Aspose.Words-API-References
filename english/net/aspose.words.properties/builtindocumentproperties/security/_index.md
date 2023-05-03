@@ -7,7 +7,7 @@ type: docs
 weight: 250
 url: /net/aspose.words.properties/builtindocumentproperties/security/
 ---
-## BuiltInDocumentProperties.Security property
+## Security property
 
 Specifies the security level of a document as a numeric value.
 

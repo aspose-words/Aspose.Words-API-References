@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words/range/unlinkfields/
 ---
-## Range.UnlinkFields method
+## UnlinkFields method
 
 Unlinks fields in this range.
 

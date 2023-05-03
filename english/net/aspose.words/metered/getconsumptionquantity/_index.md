@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/metered/getconsumptionquantity/
 ---
-## Metered.GetConsumptionQuantity method
+## GetConsumptionQuantity method
 
 Gets consumption file size
 

@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.markup/smarttag/element/
 ---
-## SmartTag.Element property
+## Element property
 
 Specifies the name of the smart tag within the document.
 

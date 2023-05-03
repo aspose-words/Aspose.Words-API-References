@@ -7,7 +7,7 @@ type: docs
 weight: 170
 url: /net/aspose.words/documentvisitor/visiteditablerangestart/
 ---
-## DocumentVisitor.VisitEditableRangeStart method
+## VisitEditableRangeStart method
 
 Called when a start of an editable range is encountered in the document.
 

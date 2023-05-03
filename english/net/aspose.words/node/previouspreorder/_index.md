@@ -7,7 +7,7 @@ type: docs
 weight: 140
 url: /net/aspose.words/node/previouspreorder/
 ---
-## Node.PreviousPreOrder method
+## PreviousPreOrder method
 
 Gets the previous node according to the pre-order tree traversal algorithm.
 

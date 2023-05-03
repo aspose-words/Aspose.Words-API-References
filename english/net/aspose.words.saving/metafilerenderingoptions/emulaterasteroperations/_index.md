@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.saving/metafilerenderingoptions/emulaterasteroperations/
 ---
-## MetafileRenderingOptions.EmulateRasterOperations property
+## EmulateRasterOperations property
 
 Gets or sets a value determining whether or not the raster operations should be emulated.
 

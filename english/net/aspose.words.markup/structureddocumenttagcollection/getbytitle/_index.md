@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.markup/structureddocumenttagcollection/getbytitle/
 ---
-## StructuredDocumentTagCollection.GetByTitle method
+## GetByTitle method
 
 Returns the first structured document tag encountered in the collection with the specified title.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.lists/listlevel/alignment/
 ---
-## ListLevel.Alignment property
+## Alignment property
 
 Gets or sets the justification of the actual number of the list item.
 

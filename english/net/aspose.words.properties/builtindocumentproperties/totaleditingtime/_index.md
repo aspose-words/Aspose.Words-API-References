@@ -7,7 +7,7 @@ type: docs
 weight: 310
 url: /net/aspose.words.properties/builtindocumentproperties/totaleditingtime/
 ---
-## BuiltInDocumentProperties.TotalEditingTime property
+## TotalEditingTime property
 
 Gets or sets the total editing time in minutes.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.framesets/frameset/childframesets/
 ---
-## Frameset.ChildFramesets property
+## ChildFramesets property
 
 Gets the collection of child frames and frames pages.
 

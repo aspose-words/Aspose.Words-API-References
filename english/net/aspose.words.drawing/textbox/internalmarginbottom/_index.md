@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.drawing/textbox/internalmarginbottom/
 ---
-## TextBox.InternalMarginBottom property
+## InternalMarginBottom property
 
 Specifies the inner bottom margin in points for a shape.
 

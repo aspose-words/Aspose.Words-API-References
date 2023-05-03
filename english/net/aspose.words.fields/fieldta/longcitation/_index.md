@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldta/longcitation/
 ---
-## FieldTA.LongCitation property
+## LongCitation property
 
 Gets or sets the long citation for the entry.
 

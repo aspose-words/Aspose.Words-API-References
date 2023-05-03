@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.drawing/fill/gradientstops/
 ---
-## Fill.GradientStops property
+## GradientStops property
 
 Gets a collection of [`GradientStop`](../../gradientstop/) objects for the fill.
 

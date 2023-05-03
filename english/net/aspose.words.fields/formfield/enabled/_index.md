@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.fields/formfield/enabled/
 ---
-## FormField.Enabled property
+## Enabled property
 
 True if a form field is enabled.
 

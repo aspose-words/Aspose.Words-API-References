@@ -7,7 +7,7 @@ type: docs
 weight: 220
 url: /net/aspose.words.settings/compatibilityoptions/donotuseindentasnumberingtabstop/
 ---
-## CompatibilityOptions.DoNotUseIndentAsNumberingTabStop property
+## DoNotUseIndentAsNumberingTabStop property
 
 Ignore Hanging Indent When Creating Tab Stop After Numbering.
 

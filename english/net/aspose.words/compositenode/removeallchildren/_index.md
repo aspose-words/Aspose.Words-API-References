@@ -7,7 +7,7 @@ type: docs
 weight: 170
 url: /net/aspose.words/compositenode/removeallchildren/
 ---
-## CompositeNode.RemoveAllChildren method
+## RemoveAllChildren method
 
 Removes all the child nodes of the current node.
 

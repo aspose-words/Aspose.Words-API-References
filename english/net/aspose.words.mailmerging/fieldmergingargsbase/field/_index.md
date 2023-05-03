@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.mailmerging/fieldmergingargsbase/field/
 ---
-## FieldMergingArgsBase.Field property
+## Field property
 
 Gets the object that represents the current merge field.
 

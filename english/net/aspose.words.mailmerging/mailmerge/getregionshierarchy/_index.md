@@ -7,7 +7,7 @@ type: docs
 weight: 250
 url: /net/aspose.words.mailmerging/mailmerge/getregionshierarchy/
 ---
-## MailMerge.GetRegionsHierarchy method
+## GetRegionsHierarchy method
 
 Returns a full hierarchy of regions (with fields) available in the document.
 

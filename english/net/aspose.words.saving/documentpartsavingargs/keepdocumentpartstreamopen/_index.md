@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.saving/documentpartsavingargs/keepdocumentpartstreamopen/
 ---
-## DocumentPartSavingArgs.KeepDocumentPartStreamOpen property
+## KeepDocumentPartStreamOpen property
 
 Specifies whether Aspose.Words should keep the stream open or close it after saving a document part.
 

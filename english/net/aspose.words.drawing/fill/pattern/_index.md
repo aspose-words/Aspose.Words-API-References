@@ -7,7 +7,7 @@ type: docs
 weight: 140
 url: /net/aspose.words.drawing/fill/pattern/
 ---
-## Fill.Pattern property
+## Pattern property
 
 Gets a [`PatternType`](../../patterntype/) for the fill.
 

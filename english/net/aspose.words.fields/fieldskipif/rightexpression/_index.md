@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldskipif/rightexpression/
 ---
-## FieldSkipIf.RightExpression property
+## RightExpression property
 
 Gets or sets the right part of the comparison expression.
 

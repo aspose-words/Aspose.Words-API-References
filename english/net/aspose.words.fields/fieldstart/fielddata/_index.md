@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.fields/fieldstart/fielddata/
 ---
-## FieldStart.FieldData property
+## FieldData property
 
 Gets custom field data which is associated with the field.
 

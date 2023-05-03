@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/revisioncollection/groups/
 ---
-## RevisionCollection.Groups property
+## Groups property
 
 Collection of revision groups.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words.drawing.charts/chartxvalue/timevalue/
 ---
-## ChartXValue.TimeValue property
+## TimeValue property
 
 Gets the stored time value.
 

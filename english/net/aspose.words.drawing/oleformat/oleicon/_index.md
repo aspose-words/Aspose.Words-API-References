@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.drawing/oleformat/oleicon/
 ---
-## OleFormat.OleIcon property
+## OleIcon property
 
 Gets the draw aspect of the OLE object. When `true`, the OLE object is displayed as an icon. When `false`, the OLE object is displayed as content.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldautotextlist/liststyle/
 ---
-## FieldAutoTextList.ListStyle property
+## ListStyle property
 
 Gets or sets the name of the style on which the list to contain entries is based.
 

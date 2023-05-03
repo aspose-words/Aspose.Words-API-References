@@ -7,7 +7,7 @@ type: docs
 weight: 160
 url: /net/aspose.words/style/styles/
 ---
-## Style.Styles property
+## Styles property
 
 Gets the collection of styles this style belongs to.
 

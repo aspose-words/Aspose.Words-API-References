@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/fileformatinfo/encoding/
 ---
-## FileFormatInfo.Encoding property
+## Encoding property
 
 Gets the detected encoding if applicable to the current document format. At the moment detects encoding only for HTML documents.
 

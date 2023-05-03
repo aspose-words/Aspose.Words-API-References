@@ -7,7 +7,7 @@ type: docs
 weight: 730
 url: /net/aspose.words/document/unlinkfields/
 ---
-## Document.UnlinkFields method
+## UnlinkFields method
 
 Unlinks fields in the whole document.
 

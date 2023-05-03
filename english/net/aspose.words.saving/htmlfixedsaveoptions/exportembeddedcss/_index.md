@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedcss/
 ---
-## HtmlFixedSaveOptions.ExportEmbeddedCss property
+## ExportEmbeddedCss property
 
 Specifies whether the CSS (Cascading Style Sheet) should be embedded into Html document.
 

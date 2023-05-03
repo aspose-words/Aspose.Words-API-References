@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldimport/islinked/
 ---
-## FieldImport.IsLinked property
+## IsLinked property
 
 Gets or sets whether to reduce the file size by not storing graphics data with the document.
 

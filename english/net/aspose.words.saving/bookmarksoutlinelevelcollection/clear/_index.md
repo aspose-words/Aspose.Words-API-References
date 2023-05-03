@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.saving/bookmarksoutlinelevelcollection/clear/
 ---
-## BookmarksOutlineLevelCollection.Clear method
+## Clear method
 
 Removes all elements from the collection.
 

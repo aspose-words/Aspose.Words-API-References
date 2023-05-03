@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldprintdate/useumalquracalendar/
 ---
-## FieldPrintDate.UseUmAlQuraCalendar property
+## UseUmAlQuraCalendar property
 
 Gets or sets whether to use the Um-al-Qura calendar.
 

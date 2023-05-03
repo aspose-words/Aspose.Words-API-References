@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.webextensions/basewebextensioncollection-1/add/
 ---
-## BaseWebExtensionCollection&lt;T&gt;.Add method
+## Add method
 
 Adds specified item to the collection.
 

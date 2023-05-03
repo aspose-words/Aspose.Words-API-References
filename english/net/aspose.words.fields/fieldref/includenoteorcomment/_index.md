@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldref/includenoteorcomment/
 ---
-## FieldRef.IncludeNoteOrComment property
+## IncludeNoteOrComment property
 
 Gets or sets whether to increment footnote, endnote, and annotation numbers that are marked by the bookmark, and insert the corresponding footnote, endnote, and comment text.
 

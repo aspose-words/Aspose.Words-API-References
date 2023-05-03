@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/run/phoneticguide/
 ---
-## Run.PhoneticGuide property
+## PhoneticGuide property
 
 Gets a `PhoneticGuide` object.
 

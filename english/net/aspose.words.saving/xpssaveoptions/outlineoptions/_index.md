@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.saving/xpssaveoptions/outlineoptions/
 ---
-## XpsSaveOptions.OutlineOptions property
+## OutlineOptions property
 
 Allows to specify outline options.
 

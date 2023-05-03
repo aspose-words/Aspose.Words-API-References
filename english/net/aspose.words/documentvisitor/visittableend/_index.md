@@ -7,7 +7,7 @@ type: docs
 weight: 490
 url: /net/aspose.words/documentvisitor/visittableend/
 ---
-## DocumentVisitor.VisitTableEnd method
+## VisitTableEnd method
 
 Called when enumeration of a table has ended.
 

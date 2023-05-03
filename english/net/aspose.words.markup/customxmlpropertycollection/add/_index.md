@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.markup/customxmlpropertycollection/add/
 ---
-## CustomXmlPropertyCollection.Add method
+## Add method
 
 Adds a property to the collection.
 

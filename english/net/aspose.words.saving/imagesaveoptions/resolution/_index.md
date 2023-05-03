@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words.saving/imagesaveoptions/resolution/
 ---
-## ImageSaveOptions.Resolution property
+## Resolution property
 
 Sets both horizontal and vertical resolution for the generated images, in dots per inch.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 310
 url: /net/aspose.words/documentvisitor/visitofficemathstart/
 ---
-## DocumentVisitor.VisitOfficeMathStart method
+## VisitOfficeMathStart method
 
 Called when enumeration of a Office Math object has started.
 

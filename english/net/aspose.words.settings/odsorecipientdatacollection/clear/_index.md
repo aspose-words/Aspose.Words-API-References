@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.settings/odsorecipientdatacollection/clear/
 ---
-## OdsoRecipientDataCollection.Clear method
+## Clear method
 
 Removes all elements from this collection.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/warninginfo/source/
 ---
-## WarningInfo.Source property
+## Source property
 
 Returns the source of the warning.
 

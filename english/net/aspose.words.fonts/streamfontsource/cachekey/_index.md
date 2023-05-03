@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.fonts/streamfontsource/cachekey/
 ---
-## StreamFontSource.CacheKey property
+## CacheKey property
 
 The key of this source in the cache.
 

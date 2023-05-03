@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldpageref/inserthyperlink/
 ---
-## FieldPageRef.InsertHyperlink property
+## InsertHyperlink property
 
 Gets or sets whether to insert a hyperlink to the bookmarked paragraph.
 

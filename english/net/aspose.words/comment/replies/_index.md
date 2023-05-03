@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words/comment/replies/
 ---
-## Comment.Replies property
+## Replies property
 
 Returns a collection of [`Comment`](../) objects that are immediate children of the specified comment.
 

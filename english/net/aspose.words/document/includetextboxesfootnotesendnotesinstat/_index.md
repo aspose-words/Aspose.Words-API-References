@@ -7,7 +7,7 @@ type: docs
 weight: 220
 url: /net/aspose.words/document/includetextboxesfootnotesendnotesinstat/
 ---
-## Document.IncludeTextboxesFootnotesEndnotesInStat property
+## IncludeTextboxesFootnotesEndnotesInStat property
 
 Specifies whether to include textboxes, footnotes and endnotes in word count statistics.
 

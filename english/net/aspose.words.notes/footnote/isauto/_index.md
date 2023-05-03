@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.notes/footnote/isauto/
 ---
-## Footnote.IsAuto property
+## IsAuto property
 
 Holds a value that specifies whether this is a auto-numbered footnote or footnote with user defined custom reference mark.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 530
 url: /net/aspose.words/font/underline/
 ---
-## Font.Underline property
+## Underline property
 
 Gets or sets the type of underline applied to the font.
 

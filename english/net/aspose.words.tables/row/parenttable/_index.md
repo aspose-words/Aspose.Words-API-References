@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.tables/row/parenttable/
 ---
-## Row.ParentTable property
+## ParentTable property
 
 Returns the immediate parent table of the row.
 

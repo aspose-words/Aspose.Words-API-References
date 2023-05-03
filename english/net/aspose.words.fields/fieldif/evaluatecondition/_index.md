@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.fields/fieldif/evaluatecondition/
 ---
-## FieldIf.EvaluateCondition method
+## EvaluateCondition method
 
 Evaluates the condition.
 

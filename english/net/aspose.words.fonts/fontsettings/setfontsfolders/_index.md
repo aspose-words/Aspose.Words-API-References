@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.fonts/fontsettings/setfontsfolders/
 ---
-## FontSettings.SetFontsFolders method
+## SetFontsFolders method
 
 Sets the folders where Aspose.Words looks for TrueType fonts when rendering documents or embedding fonts.
 

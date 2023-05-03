@@ -7,7 +7,7 @@ type: docs
 weight: 140
 url: /net/aspose.words/style/paragraphformat/
 ---
-## Style.ParagraphFormat property
+## ParagraphFormat property
 
 Gets the paragraph formatting of the style.
 

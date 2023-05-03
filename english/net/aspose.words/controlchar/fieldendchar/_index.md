@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words/controlchar/fieldendchar/
 ---
-## ControlChar.FieldEndChar field
+## FieldEndChar field
 
 End of MS Word field character: (char)21.
 

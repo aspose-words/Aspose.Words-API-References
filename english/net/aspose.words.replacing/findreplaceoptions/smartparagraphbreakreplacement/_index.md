@@ -7,7 +7,7 @@ type: docs
 weight: 160
 url: /net/aspose.words.replacing/findreplaceoptions/smartparagraphbreakreplacement/
 ---
-## FindReplaceOptions.SmartParagraphBreakReplacement property
+## SmartParagraphBreakReplacement property
 
 Gets or sets a boolean value indicating either it is allowed to replace paragraph break when there is no next sibling paragraph.
 

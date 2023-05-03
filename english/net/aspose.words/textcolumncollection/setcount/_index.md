@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words/textcolumncollection/setcount/
 ---
-## TextColumnCollection.SetCount method
+## SetCount method
 
 Arranges text into the specified number of text columns.
 

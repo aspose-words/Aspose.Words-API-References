@@ -7,7 +7,7 @@ type: docs
 weight: 440
 url: /net/aspose.words/pagesetup/topmargin/
 ---
-## PageSetup.TopMargin property
+## TopMargin property
 
 Returns or sets the distance (in points) between the top edge of the page and the top boundary of the body text.
 

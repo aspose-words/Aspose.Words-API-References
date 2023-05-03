@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.fields/dropdownitemcollection/remove/
 ---
-## DropDownItemCollection.Remove method
+## Remove method
 
 Removes the specified value from the collection.
 

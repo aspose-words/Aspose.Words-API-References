@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldimport/graphicfilter/
 ---
-## FieldImport.GraphicFilter property
+## GraphicFilter property
 
 Gets or sets the name of the filter for the format of the graphic that is to be inserted.
 

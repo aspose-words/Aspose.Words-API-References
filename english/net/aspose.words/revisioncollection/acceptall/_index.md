@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/revisioncollection/acceptall/
 ---
-## RevisionCollection.AcceptAll method
+## AcceptAll method
 
 Accepts all revisions in this collection.
 

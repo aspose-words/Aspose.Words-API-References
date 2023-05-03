@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.webextensions/taskpane/width/
 ---
-## TaskPane.Width property
+## Width property
 
 Specifies the default width value for this task pane instance.
 

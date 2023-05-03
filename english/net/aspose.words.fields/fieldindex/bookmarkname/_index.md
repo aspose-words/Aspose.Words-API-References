@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldindex/bookmarkname/
 ---
-## FieldIndex.BookmarkName property
+## BookmarkName property
 
 Gets or sets the name of the bookmark that marks the portion of the document used to build the index.
 

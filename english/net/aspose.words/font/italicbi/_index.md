@@ -7,7 +7,7 @@ type: docs
 weight: 170
 url: /net/aspose.words/font/italicbi/
 ---
-## Font.ItalicBi property
+## ItalicBi property
 
 True if the right-to-left text is formatted as italic.
 

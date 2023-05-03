@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words/documentvisitor/visitcellstart/
 ---
-## DocumentVisitor.VisitCellStart method
+## VisitCellStart method
 
 Called when enumeration of a table cell has started.
 

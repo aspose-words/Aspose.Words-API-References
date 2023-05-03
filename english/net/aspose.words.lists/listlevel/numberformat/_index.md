@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.lists/listlevel/numberformat/
 ---
-## ListLevel.NumberFormat property
+## NumberFormat property
 
 Returns or sets the number format for the list level.
 

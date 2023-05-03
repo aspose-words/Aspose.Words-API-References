@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.digitalsignatures/digitalsignaturecollection/isvalid/
 ---
-## DigitalSignatureCollection.IsValid property
+## IsValid property
 
 Returns `true` if all digital signatures in this collection are valid and the document has not been tampered with Also returns `true` if there are no digital signatures. Returns `false` if at least one digital signature is invalid.
 

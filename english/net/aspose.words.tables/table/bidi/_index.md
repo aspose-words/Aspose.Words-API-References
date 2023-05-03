@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.tables/table/bidi/
 ---
-## Table.Bidi property
+## Bidi property
 
 Gets or sets whether this is a right-to-left table.
 

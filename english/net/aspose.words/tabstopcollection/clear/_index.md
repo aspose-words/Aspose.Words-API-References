@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words/tabstopcollection/clear/
 ---
-## TabStopCollection.Clear method
+## Clear method
 
 Deletes all tab stop positions.
 

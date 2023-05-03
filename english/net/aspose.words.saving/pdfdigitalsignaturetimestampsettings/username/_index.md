@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/username/
 ---
-## PdfDigitalSignatureTimestampSettings.UserName property
+## UserName property
 
 Timestamp server user name.
 

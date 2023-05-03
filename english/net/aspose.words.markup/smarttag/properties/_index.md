@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.markup/smarttag/properties/
 ---
-## SmartTag.Properties property
+## Properties property
 
 A collection of the smart tag properties.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 180
 url: /net/aspose.words.lists/listlevel/gethashcode/
 ---
-## ListLevel.GetHashCode method
+## GetHashCode method
 
 Calculates hash code for this object.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.drawing/imagesize/heightpoints/
 ---
-## ImageSize.HeightPoints property
+## HeightPoints property
 
 Gets the height of the image in points. 1 point is 1/72 inch.
 

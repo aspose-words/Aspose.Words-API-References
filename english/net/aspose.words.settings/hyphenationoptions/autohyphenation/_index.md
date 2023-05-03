@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.settings/hyphenationoptions/autohyphenation/
 ---
-## HyphenationOptions.AutoHyphenation property
+## AutoHyphenation property
 
 Gets or sets value determining whether automatic hyphenation is turned on for the document. Default value for this property is `false`.
 

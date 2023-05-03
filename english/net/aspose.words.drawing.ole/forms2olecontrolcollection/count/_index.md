@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.drawing.ole/forms2olecontrolcollection/count/
 ---
-## Forms2OleControlCollection.Count property
+## Count property
 
 Gets count of objects in the collection.
 

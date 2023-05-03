@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.replacing/replacingargs/groupname/
 ---
-## ReplacingArgs.GroupName property
+## GroupName property
 
 Identifies, by name, a captured group in the [`Match`](../match/) that is to be replaced with the [`Replacement`](../replacement/) string.
 

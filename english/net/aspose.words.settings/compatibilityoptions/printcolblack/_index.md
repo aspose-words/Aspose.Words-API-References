@@ -7,7 +7,7 @@ type: docs
 weight: 400
 url: /net/aspose.words.settings/compatibilityoptions/printcolblack/
 ---
-## CompatibilityOptions.PrintColBlack property
+## PrintColBlack property
 
 Print Colors as Black And White without Dithering.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.fields/generalformatcollection/remove/
 ---
-## GeneralFormatCollection.Remove method
+## Remove method
 
 Removes all occurrences of the specified general format from the collection.
 

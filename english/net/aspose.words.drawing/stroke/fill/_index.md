@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.drawing/stroke/fill/
 ---
-## Stroke.Fill property
+## Fill property
 
 Gets fill formatting for the [`Stroke`](../).
 

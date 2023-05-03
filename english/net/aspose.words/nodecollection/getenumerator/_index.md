@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words/nodecollection/getenumerator/
 ---
-## NodeCollection.GetEnumerator method
+## GetEnumerator method
 
 Provides a simple "foreach" style iteration over the collection of nodes.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.mailmerging/mailmerge/mailmergecallback/
 ---
-## MailMerge.MailMergeCallback property
+## MailMergeCallback property
 
 Allows to handle particular events during mail merge.
 

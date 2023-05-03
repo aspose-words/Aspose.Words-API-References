@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.fields/field/result/
 ---
-## Field.Result property
+## Result property
 
 Gets or sets text that is between the field separator and field end.
 

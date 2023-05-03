@@ -7,7 +7,7 @@ type: docs
 weight: 190
 url: /net/aspose.words.settings/mailmergesettings/clone/
 ---
-## MailMergeSettings.Clone method
+## Clone method
 
 Returns a deep clone of this object.
 

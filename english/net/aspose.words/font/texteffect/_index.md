@@ -7,7 +7,7 @@ type: docs
 weight: 450
 url: /net/aspose.words/font/texteffect/
 ---
-## Font.TextEffect property
+## TextEffect property
 
 Gets or sets the font animation effect.
 

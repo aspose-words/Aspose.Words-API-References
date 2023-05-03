@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.saving/bookmarksoutlinelevelcollection/contains/
 ---
-## BookmarksOutlineLevelCollection.Contains method
+## Contains method
 
 Determines whether the collection contains a bookmark with the given name.
 

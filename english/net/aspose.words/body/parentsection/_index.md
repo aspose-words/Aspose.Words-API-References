@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/body/parentsection/
 ---
-## Body.ParentSection property
+## ParentSection property
 
 Gets the parent section of this story.
 

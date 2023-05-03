@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words.settings/compatibilityoptions/displayhangulfixedwidth/
 ---
-## CompatibilityOptions.DisplayHangulFixedWidth property
+## DisplayHangulFixedWidth property
 
 Always Use Fixed Width for Hangul Characters.
 

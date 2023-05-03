@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/serverurl/
 ---
-## PdfDigitalSignatureTimestampSettings.ServerUrl property
+## ServerUrl property
 
 Timestamp server URL.
 

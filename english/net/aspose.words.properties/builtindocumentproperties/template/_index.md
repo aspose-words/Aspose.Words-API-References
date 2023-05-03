@@ -7,7 +7,7 @@ type: docs
 weight: 270
 url: /net/aspose.words.properties/builtindocumentproperties/template/
 ---
-## BuiltInDocumentProperties.Template property
+## Template property
 
 Gets or sets the informational name of the document template.
 

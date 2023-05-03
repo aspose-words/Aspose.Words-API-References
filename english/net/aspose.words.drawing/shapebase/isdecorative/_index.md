@@ -7,7 +7,7 @@ type: docs
 weight: 240
 url: /net/aspose.words.drawing/shapebase/isdecorative/
 ---
-## ShapeBase.IsDecorative property
+## IsDecorative property
 
 Gets or sets the flag that specifies whether the shape is decorative in the document.
 

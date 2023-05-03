@@ -7,7 +7,7 @@ type: docs
 weight: 140
 url: /net/aspose.words/font/hidden/
 ---
-## Font.Hidden property
+## Hidden property
 
 True if the font is formatted as hidden text.
 

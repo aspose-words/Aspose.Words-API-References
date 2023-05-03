@@ -7,7 +7,7 @@ type: docs
 weight: 170
 url: /net/aspose.words.markup/structureddocumenttag/level/
 ---
-## StructuredDocumentTag.Level property
+## Level property
 
 Gets the level at which this **SDT** occurs in the document tree.
 

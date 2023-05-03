@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words/pagesetup/endnoteoptions/
 ---
-## PageSetup.EndnoteOptions property
+## EndnoteOptions property
 
 Provides options that control numbering and positioning of endnotes in this section.
 

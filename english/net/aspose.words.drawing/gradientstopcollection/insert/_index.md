@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.drawing/gradientstopcollection/insert/
 ---
-## GradientStopCollection.Insert method
+## Insert method
 
 Inserts a [`GradientStop`](../../gradientstop/) to the collection at a specified index.
 

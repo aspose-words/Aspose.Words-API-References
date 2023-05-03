@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words.lists/listlevel/startat/
 ---
-## ListLevel.StartAt property
+## StartAt property
 
 Returns or sets the starting number for this list level.
 

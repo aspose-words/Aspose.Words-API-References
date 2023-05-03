@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.fields/formfield/dropdownitems/
 ---
-## FormField.DropDownItems property
+## DropDownItems property
 
 Provides access to the items of a dropdown form field.
 

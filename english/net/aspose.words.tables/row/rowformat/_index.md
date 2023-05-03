@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.tables/row/rowformat/
 ---
-## Row.RowFormat property
+## RowFormat property
 
 Provides access to the formatting properties of the row.
 

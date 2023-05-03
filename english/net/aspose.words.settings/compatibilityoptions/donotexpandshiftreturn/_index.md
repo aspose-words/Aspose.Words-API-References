@@ -7,7 +7,7 @@ type: docs
 weight: 150
 url: /net/aspose.words.settings/compatibilityoptions/donotexpandshiftreturn/
 ---
-## CompatibilityOptions.DoNotExpandShiftReturn property
+## DoNotExpandShiftReturn property
 
 Don't Justify Lines Ending in Soft Line Break.
 

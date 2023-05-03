@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words/documentbase/pagecolor/
 ---
-## DocumentBase.PageColor property
+## PageColor property
 
 Gets or sets the page color of the document. This property is a simpler version of [`BackgroundShape`](../backgroundshape/).
 

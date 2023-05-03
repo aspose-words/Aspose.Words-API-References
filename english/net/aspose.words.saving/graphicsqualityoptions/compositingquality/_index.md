@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.saving/graphicsqualityoptions/compositingquality/
 ---
-## GraphicsQualityOptions.CompositingQuality property
+## CompositingQuality property
 
 Gets or sets the rendering quality of composited images drawn to this Graphics.
 

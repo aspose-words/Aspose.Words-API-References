@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.fields/fieldhyperlink/target/
 ---
-## FieldHyperlink.Target property
+## Target property
 
 Gets or sets the target to which the link should be redirected.
 

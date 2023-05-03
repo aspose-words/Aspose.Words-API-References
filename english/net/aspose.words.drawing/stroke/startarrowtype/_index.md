@@ -7,7 +7,7 @@ type: docs
 weight: 170
 url: /net/aspose.words.drawing/stroke/startarrowtype/
 ---
-## Stroke.StartArrowType property
+## StartArrowType property
 
 Defines the arrowhead for the start of a stroke.
 

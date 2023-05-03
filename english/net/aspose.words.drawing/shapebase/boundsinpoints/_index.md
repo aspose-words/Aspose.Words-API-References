@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.drawing/shapebase/boundsinpoints/
 ---
-## ShapeBase.BoundsInPoints property
+## BoundsInPoints property
 
 Gets the location and size of the containing block of the shape in points, relative to the anchor of the topmost shape.
 

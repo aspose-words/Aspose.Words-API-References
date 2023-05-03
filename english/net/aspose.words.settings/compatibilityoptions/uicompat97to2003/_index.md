@@ -7,7 +7,7 @@ type: docs
 weight: 570
 url: /net/aspose.words.settings/compatibilityoptions/uicompat97to2003/
 ---
-## CompatibilityOptions.UICompat97To2003 property
+## UICompat97To2003 property
 
 True to disable UI functionality which is not compatible with Word97-2003. Default value is `false`.
 

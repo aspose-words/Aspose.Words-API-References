@@ -7,7 +7,7 @@ type: docs
 weight: 140
 url: /net/aspose.words.replacing/findreplaceoptions/matchcase/
 ---
-## FindReplaceOptions.MatchCase property
+## MatchCase property
 
 True indicates case-sensitive comparison, false indicates case-insensitive comparison.
 

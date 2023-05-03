@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.fonts/memoryfontsource/type/
 ---
-## MemoryFontSource.Type property
+## Type property
 
 Returns the type of the font source.
 

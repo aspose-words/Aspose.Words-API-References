@@ -7,7 +7,7 @@ type: docs
 weight: 530
 url: /net/aspose.words.settings/compatibilityoptions/swapbordersfacingpgs/
 ---
-## CompatibilityOptions.SwapBordersFacingPgs property
+## SwapBordersFacingPgs property
 
 Swap Paragraph Borders on Odd Numbered Pages.
 

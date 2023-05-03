@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldinfo/infotype/
 ---
-## FieldInfo.InfoType property
+## InfoType property
 
 Gets or sets the type of the document property to insert.
 

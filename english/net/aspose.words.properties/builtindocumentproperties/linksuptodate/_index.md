@@ -7,7 +7,7 @@ type: docs
 weight: 190
 url: /net/aspose.words.properties/builtindocumentproperties/linksuptodate/
 ---
-## BuiltInDocumentProperties.LinksUpToDate property
+## LinksUpToDate property
 
 Indicates whether hyperlinks in a document are up-to-date.
 

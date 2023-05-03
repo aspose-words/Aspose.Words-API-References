@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.fields/barcodeparameters/displaytext/
 ---
-## BarcodeParameters.DisplayText property
+## DisplayText property
 
 Whether to display barcode data (text) along with image.
 

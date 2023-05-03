@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.vba/vbareference/libid/
 ---
-## VbaReference.LibId property
+## LibId property
 
 Gets a string value containing the identifier of an Automation type library.
 

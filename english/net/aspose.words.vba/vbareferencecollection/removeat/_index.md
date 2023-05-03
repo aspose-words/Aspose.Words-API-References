@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.vba/vbareferencecollection/removeat/
 ---
-## VbaReferenceCollection.RemoveAt method
+## RemoveAt method
 
 Removes the [`VbaReference`](../../vbareference/) element at the specified index of the collection.
 

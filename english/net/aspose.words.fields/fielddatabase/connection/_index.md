@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/fielddatabase/connection/
 ---
-## FieldDatabase.Connection property
+## Connection property
 
 Gets or sets a connection to the data.
 

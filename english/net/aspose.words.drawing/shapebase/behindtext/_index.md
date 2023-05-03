@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.drawing/shapebase/behindtext/
 ---
-## ShapeBase.BehindText property
+## BehindText property
 
 Specifies whether the shape is below or above text.
 

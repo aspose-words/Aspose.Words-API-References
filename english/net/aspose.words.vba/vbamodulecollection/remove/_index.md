@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.vba/vbamodulecollection/remove/
 ---
-## VbaModuleCollection.Remove method
+## Remove method
 
 Removes the specified module from the collection.
 

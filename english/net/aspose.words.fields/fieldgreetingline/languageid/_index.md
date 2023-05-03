@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldgreetingline/languageid/
 ---
-## FieldGreetingLine.LanguageId property
+## LanguageId property
 
 Gets or sets the language id used to format the name.
 

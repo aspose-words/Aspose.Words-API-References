@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldindex/crossreferenceseparator/
 ---
-## FieldIndex.CrossReferenceSeparator property
+## CrossReferenceSeparator property
 
 Gets or sets the character sequence that is used to separate cross references and other entries.
 

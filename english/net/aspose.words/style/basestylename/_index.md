@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/style/basestylename/
 ---
-## Style.BaseStyleName property
+## BaseStyleName property
 
 Gets/sets the name of the style this style is based on.
 

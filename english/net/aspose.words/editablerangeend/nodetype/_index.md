@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/editablerangeend/nodetype/
 ---
-## EditableRangeEnd.NodeType property
+## NodeType property
 
 Returns EditableRangeEnd.
 

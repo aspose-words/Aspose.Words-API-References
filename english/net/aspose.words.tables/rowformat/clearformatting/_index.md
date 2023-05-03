@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.tables/rowformat/clearformatting/
 ---
-## RowFormat.ClearFormatting method
+## ClearFormatting method
 
 Resets to default row formatting.
 

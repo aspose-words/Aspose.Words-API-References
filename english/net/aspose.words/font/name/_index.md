@@ -7,7 +7,7 @@ type: docs
 weight: 230
 url: /net/aspose.words/font/name/
 ---
-## Font.Name property
+## Name property
 
 Gets or sets the name of the font.
 

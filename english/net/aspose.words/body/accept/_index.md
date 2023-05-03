@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/body/accept/
 ---
-## Body.Accept method
+## Accept method
 
 Accepts a visitor.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.saving/outlineoptions/defaultbookmarksoutlinelevel/
 ---
-## OutlineOptions.DefaultBookmarksOutlineLevel property
+## DefaultBookmarksOutlineLevel property
 
 Specifies the default level in the document outline at which to display Word bookmarks.
 

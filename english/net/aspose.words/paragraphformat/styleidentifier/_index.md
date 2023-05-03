@@ -7,7 +7,7 @@ type: docs
 weight: 340
 url: /net/aspose.words/paragraphformat/styleidentifier/
 ---
-## ParagraphFormat.StyleIdentifier property
+## StyleIdentifier property
 
 Gets or sets the locale independent style identifier of the paragraph style applied to this formatting.
 

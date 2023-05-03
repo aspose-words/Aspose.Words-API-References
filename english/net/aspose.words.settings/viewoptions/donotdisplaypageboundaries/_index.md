@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.settings/viewoptions/donotdisplaypageboundaries/
 ---
-## ViewOptions.DoNotDisplayPageBoundaries property
+## DoNotDisplayPageBoundaries property
 
 Turns off display of the space between the top of the text and the top edge of the page.
 

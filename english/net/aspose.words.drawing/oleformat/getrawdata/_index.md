@@ -7,7 +7,7 @@ type: docs
 weight: 150
 url: /net/aspose.words.drawing/oleformat/getrawdata/
 ---
-## OleFormat.GetRawData method
+## GetRawData method
 
 Gets OLE object raw data.
 

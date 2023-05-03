@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.reporting/knowntypeset/getenumerator/
 ---
-## KnownTypeSet.GetEnumerator method
+## GetEnumerator method
 
 Returns An IEnumerator object to iterate over items of the set.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 130
 url: /net/aspose.words.markup/structureddocumenttagrangestart/rangeend/
 ---
-## StructuredDocumentTagRangeStart.RangeEnd property
+## RangeEnd property
 
 Specifies end of range if the [`StructuredDocumentTag`](../../structureddocumenttag/) is a ranged structured document tag. Otherwise returns `null`.
 

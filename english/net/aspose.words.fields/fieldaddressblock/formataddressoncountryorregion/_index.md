@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldaddressblock/formataddressoncountryorregion/
 ---
-## FieldAddressBlock.FormatAddressOnCountryOrRegion property
+## FormatAddressOnCountryOrRegion property
 
 Gets or sets whether to format the address according to the country/region of the recipient as defined by POST*CODE (Universal Postal Union 2006).
 

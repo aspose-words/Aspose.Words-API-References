@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words/paragraphformat/characterunitfirstlineindent/
 ---
-## ParagraphFormat.CharacterUnitFirstLineIndent property
+## CharacterUnitFirstLineIndent property
 
 Gets or sets the value (in characters) for the first-line or hanging indent.
 

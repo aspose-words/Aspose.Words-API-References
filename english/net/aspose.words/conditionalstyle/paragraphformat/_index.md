@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words/conditionalstyle/paragraphformat/
 ---
-## ConditionalStyle.ParagraphFormat property
+## ParagraphFormat property
 
 Gets the paragraph formatting of the conditional style.
 

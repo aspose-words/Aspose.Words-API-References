@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.shaping/cluster/codepointslength/
 ---
-## Cluster.CodepointsLength property
+## CodepointsLength property
 
 Gets total number of codepoints in the [`Cluster`](../).
 

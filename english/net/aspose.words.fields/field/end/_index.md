@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/field/end/
 ---
-## Field.End property
+## End property
 
 Gets the node that represents the field end.
 

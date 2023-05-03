@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldchar/islocked/
 ---
-## FieldChar.IsLocked property
+## IsLocked property
 
 Gets or sets whether the parent field is locked (should not recalculate its result).
 

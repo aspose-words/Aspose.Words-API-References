@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/hyphenation/warningcallback/
 ---
-## Hyphenation.WarningCallback property
+## WarningCallback property
 
 Called during a load hyphenation patterns, when an issue is detected that might result in formatting fidelity loss.
 

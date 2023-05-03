@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.reporting/csvdataloadoptions/hasheaders/
 ---
-## CsvDataLoadOptions.HasHeaders property
+## HasHeaders property
 
 Gets or sets a value indicating whether the first record of CSV data contains column names.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.lists/list/style/
 ---
-## List.Style property
+## Style property
 
 Gets the list style that this list references or defines.
 

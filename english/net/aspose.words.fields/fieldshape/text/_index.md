@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldshape/text/
 ---
-## FieldShape.Text property
+## Text property
 
 Gets or sets the text to retrieve.
 

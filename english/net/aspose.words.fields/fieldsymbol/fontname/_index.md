@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldsymbol/fontname/
 ---
-## FieldSymbol.FontName property
+## FontName property
 
 Gets or sets the name of the font of the character retrieved by the field.
 

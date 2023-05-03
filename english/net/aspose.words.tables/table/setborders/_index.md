@@ -7,7 +7,7 @@ type: docs
 weight: 420
 url: /net/aspose.words.tables/table/setborders/
 ---
-## Table.SetBorders method
+## SetBorders method
 
 Sets all table borders to the specified line style, width and color.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 150
 url: /net/aspose.words/documentbuilder/listformat/
 ---
-## DocumentBuilder.ListFormat property
+## ListFormat property
 
 Returns an object that represents current list formatting properties.
 

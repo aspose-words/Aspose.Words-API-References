@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words/bordercollection/top/
 ---
-## BorderCollection.Top property
+## Top property
 
 Gets the top border.
 

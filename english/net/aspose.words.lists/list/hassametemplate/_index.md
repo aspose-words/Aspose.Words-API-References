@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words.lists/list/hassametemplate/
 ---
-## List.HasSameTemplate method
+## HasSameTemplate method
 
 Returns true if the current list and the given list are created from the same template.
 

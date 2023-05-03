@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.saving/txtsaveoptions/simplifylistlabels/
 ---
-## TxtSaveOptions.SimplifyListLabels property
+## SimplifyListLabels property
 
 Specifies whether the program should simplify list labels in case of complex label formatting not being adequately represented by plain text.
 

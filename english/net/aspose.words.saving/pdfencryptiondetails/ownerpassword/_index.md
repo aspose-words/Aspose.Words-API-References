@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.saving/pdfencryptiondetails/ownerpassword/
 ---
-## PdfEncryptionDetails.OwnerPassword property
+## OwnerPassword property
 
 Specifies the owner password for the encrypted PDF document.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldtoa/pagerangeseparator/
 ---
-## FieldToa.PageRangeSeparator property
+## PageRangeSeparator property
 
 Gets or sets the character sequence that is used to separate the start and end of a page range.
 

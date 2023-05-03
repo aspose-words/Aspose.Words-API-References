@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.rendering/noderendererbase/boundsinpoints/
 ---
-## NodeRendererBase.BoundsInPoints property
+## BoundsInPoints property
 
 Gets the actual bounds of the shape in points.
 

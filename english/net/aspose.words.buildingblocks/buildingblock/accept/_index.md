@@ -7,7 +7,7 @@ type: docs
 weight: 130
 url: /net/aspose.words.buildingblocks/buildingblock/accept/
 ---
-## BuildingBlock.Accept method
+## Accept method
 
 Accepts a visitor.
 

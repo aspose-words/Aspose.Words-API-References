@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words/frameformat/horizontalposition/
 ---
-## FrameFormat.HorizontalPosition property
+## HorizontalPosition property
 
 Gets horizontal distance between the edge of the frame and the item specified by the [`RelativeHorizontalPosition`](../relativehorizontalposition/) property.
 

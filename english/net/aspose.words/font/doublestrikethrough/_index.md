@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words/font/doublestrikethrough/
 ---
-## Font.DoubleStrikeThrough property
+## DoubleStrikeThrough property
 
 True if the font is formatted as double strikethrough text.
 

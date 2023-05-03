@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.loading/resourceloadingargs/uri/
 ---
-## ResourceLoadingArgs.Uri property
+## Uri property
 
 URI of the resource which is used for downloading if [`ResourceLoading`](../../iresourceloadingcallback/resourceloading/) returns Default.
 

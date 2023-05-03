@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words/conditionalstylecollection/firstrow/
 ---
-## ConditionalStyleCollection.FirstRow property
+## FirstRow property
 
 Gets the first row style.
 

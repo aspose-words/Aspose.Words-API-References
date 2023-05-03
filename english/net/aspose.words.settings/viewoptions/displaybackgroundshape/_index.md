@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.settings/viewoptions/displaybackgroundshape/
 ---
-## ViewOptions.DisplayBackgroundShape property
+## DisplayBackgroundShape property
 
 Controls display of the background shape in print layout view.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 250
 url: /net/aspose.words/controlchar/sectionbreakchar/
 ---
-## ControlChar.SectionBreakChar field
+## SectionBreakChar field
 
 End of section character: (char)12 or "\f".
 

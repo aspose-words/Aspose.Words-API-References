@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldhyperlink/openinnewwindow/
 ---
-## FieldHyperlink.OpenInNewWindow property
+## OpenInNewWindow property
 
 Gets or sets whether to open the destination site in a new web browser window.
 

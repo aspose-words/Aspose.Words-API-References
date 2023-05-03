@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words.markup/structureddocumenttagrangestart/nodetype/
 ---
-## StructuredDocumentTagRangeStart.NodeType property
+## NodeType property
 
 Returns StructuredDocumentTagRangeStart.
 

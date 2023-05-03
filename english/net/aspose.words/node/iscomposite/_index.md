@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/node/iscomposite/
 ---
-## Node.IsComposite property
+## IsComposite property
 
 Returns `true` if this node can contain other nodes.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.lists/listlabel/labelstring/
 ---
-## ListLabel.LabelString property
+## LabelString property
 
 Gets a string representation of list label.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/variablecollection/add/
 ---
-## VariableCollection.Add method
+## Add method
 
 Adds a document variable to the collection.
 

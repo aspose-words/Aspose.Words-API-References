@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.fonts/fontconfigsubstitutionrule/enabled/
 ---
-## FontConfigSubstitutionRule.Enabled property
+## Enabled property
 
 Specifies whether the rule is enabled or not.
 

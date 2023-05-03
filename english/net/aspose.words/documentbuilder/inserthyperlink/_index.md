@@ -7,7 +7,7 @@ type: docs
 weight: 360
 url: /net/aspose.words/documentbuilder/inserthyperlink/
 ---
-## DocumentBuilder.InsertHyperlink method
+## InsertHyperlink method
 
 Inserts a hyperlink into the document.
 

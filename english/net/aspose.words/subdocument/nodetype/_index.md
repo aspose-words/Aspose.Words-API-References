@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/subdocument/nodetype/
 ---
-## SubDocument.NodeType property
+## NodeType property
 
 Returns SubDocument.
 

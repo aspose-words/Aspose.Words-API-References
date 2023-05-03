@@ -7,7 +7,7 @@ type: docs
 weight: 150
 url: /net/aspose.words/documentvisitor/visitdocumentstart/
 ---
-## DocumentVisitor.VisitDocumentStart method
+## VisitDocumentStart method
 
 Called when enumeration of the document has started.
 

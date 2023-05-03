@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.lists/list/listlevels/
 ---
-## List.ListLevels property
+## ListLevels property
 
 Gets the collection of list levels for this list.
 

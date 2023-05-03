@@ -7,7 +7,7 @@ type: docs
 weight: 150
 url: /net/aspose.words.properties/builtindocumentproperties/lastprinted/
 ---
-## BuiltInDocumentProperties.LastPrinted property
+## LastPrinted property
 
 Gets or sets the date when the document was last printed in UTC.
 

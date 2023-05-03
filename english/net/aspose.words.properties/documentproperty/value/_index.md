@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.properties/documentproperty/value/
 ---
-## DocumentProperty.Value property
+## Value property
 
 Gets or sets the value of the property.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.saving/txtsaveoptionsbase/paragraphbreak/
 ---
-## TxtSaveOptionsBase.ParagraphBreak property
+## ParagraphBreak property
 
 Specifies the string to use as a paragraph break when exporting in text formats.
 

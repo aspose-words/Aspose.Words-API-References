@@ -7,7 +7,7 @@ type: docs
 weight: 220
 url: /net/aspose.words.fields/formfield/type/
 ---
-## FormField.Type property
+## Type property
 
 Returns the form field type.
 

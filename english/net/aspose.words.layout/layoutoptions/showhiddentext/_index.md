@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.layout/layoutoptions/showhiddentext/
 ---
-## LayoutOptions.ShowHiddenText property
+## ShowHiddenText property
 
 Gets or sets indication of whether hidden text in the document is rendered. Default is `false`.
 

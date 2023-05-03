@@ -7,7 +7,7 @@ type: docs
 weight: 170
 url: /net/aspose.words.saving/saveoptions/updatelastprintedproperty/
 ---
-## SaveOptions.UpdateLastPrintedProperty property
+## UpdateLastPrintedProperty property
 
 Gets or sets a value determining whether the [`LastPrinted`](../../../aspose.words.properties/builtindocumentproperties/lastprinted/) property is updated before saving.
 

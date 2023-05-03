@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldargumentbuilder/addnode/
 ---
-## FieldArgumentBuilder.AddNode method
+## AddNode method
 
 Adds a node to the argument.
 

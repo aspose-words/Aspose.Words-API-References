@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/range/bookmarks/
 ---
-## Range.Bookmarks property
+## Bookmarks property
 
 Returns a `Bookmarks` collection that represents all bookmarks in the range.
 

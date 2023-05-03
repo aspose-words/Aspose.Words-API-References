@@ -7,7 +7,7 @@ type: docs
 weight: 170
 url: /net/aspose.words.drawing/imagedata/sourcefullname/
 ---
-## ImageData.SourceFullName property
+## SourceFullName property
 
 Gets or sets the path and name of the source file for the linked image.
 

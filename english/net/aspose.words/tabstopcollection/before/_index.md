@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words/tabstopcollection/before/
 ---
-## TabStopCollection.Before method
+## Before method
 
 Gets a first tab stop to the left of the specified position.
 

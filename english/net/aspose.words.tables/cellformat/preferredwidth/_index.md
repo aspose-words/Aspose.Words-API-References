@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.tables/cellformat/preferredwidth/
 ---
-## CellFormat.PreferredWidth property
+## PreferredWidth property
 
 Returns or sets the preferred width of the cell.
 

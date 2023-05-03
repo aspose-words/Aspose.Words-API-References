@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.drawing/imagesize/widthpixels/
 ---
-## ImageSize.WidthPixels property
+## WidthPixels property
 
 Gets the width of the image in pixels.
 

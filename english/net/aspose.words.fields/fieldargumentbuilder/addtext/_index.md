@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldargumentbuilder/addtext/
 ---
-## FieldArgumentBuilder.AddText method
+## AddText method
 
 Adds a plain text to the argument.
 

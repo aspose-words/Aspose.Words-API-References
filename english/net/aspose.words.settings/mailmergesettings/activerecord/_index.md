@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.settings/mailmergesettings/activerecord/
 ---
-## MailMergeSettings.ActiveRecord property
+## ActiveRecord property
 
 Specifies the one-based index of the record from the data source which shall be displayed in Microsoft Word. The default value is 1.
 

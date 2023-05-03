@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words.saving/saveoptions/prettyformat/
 ---
-## SaveOptions.PrettyFormat property
+## PrettyFormat property
 
 When `true`, pretty formats output where applicable. Default value is `false`.
 

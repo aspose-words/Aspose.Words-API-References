@@ -7,7 +7,7 @@ type: docs
 weight: 380
 url: /net/aspose.words/documentvisitor/visitsectionstart/
 ---
-## DocumentVisitor.VisitSectionStart method
+## VisitSectionStart method
 
 Called when enumeration of a section has started.
 

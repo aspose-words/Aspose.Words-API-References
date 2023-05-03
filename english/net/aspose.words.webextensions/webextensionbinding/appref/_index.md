@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.webextensions/webextensionbinding/appref/
 ---
-## WebExtensionBinding.AppRef property
+## AppRef property
 
 Specifies the binding key used to map the binding entry in this list with the bound data in the document.
 

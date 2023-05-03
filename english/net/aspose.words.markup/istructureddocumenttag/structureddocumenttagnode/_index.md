@@ -7,7 +7,7 @@ type: docs
 weight: 150
 url: /net/aspose.words.markup/istructureddocumenttag/structureddocumenttagnode/
 ---
-## IStructuredDocumentTag.StructuredDocumentTagNode method
+## StructuredDocumentTagNode method
 
 Returns Node object that implements this interface.
 

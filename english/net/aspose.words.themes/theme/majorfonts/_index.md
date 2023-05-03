@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.themes/theme/majorfonts/
 ---
-## Theme.MajorFonts property
+## MajorFonts property
 
 Allows to specify the set of major fonts for different languages.
 

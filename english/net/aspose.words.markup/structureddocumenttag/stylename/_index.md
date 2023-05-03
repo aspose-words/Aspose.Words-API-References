@@ -7,7 +7,7 @@ type: docs
 weight: 270
 url: /net/aspose.words.markup/structureddocumenttag/stylename/
 ---
-## StructuredDocumentTag.StyleName property
+## StyleName property
 
 Gets or sets the name of the style applied to the structured document tag.
 

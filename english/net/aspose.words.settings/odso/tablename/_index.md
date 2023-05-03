@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.settings/odso/tablename/
 ---
-## Odso.TableName property
+## TableName property
 
 Specifies the particular set of data that a source shall be connected to within an external data source. The default value is an empty string.
 

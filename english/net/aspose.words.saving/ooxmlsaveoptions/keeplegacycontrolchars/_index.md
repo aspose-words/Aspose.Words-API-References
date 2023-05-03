@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.saving/ooxmlsaveoptions/keeplegacycontrolchars/
 ---
-## OoxmlSaveOptions.KeepLegacyControlChars property
+## KeepLegacyControlChars property
 
 Keeps original representation of legacy control characters.
 

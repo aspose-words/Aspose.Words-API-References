@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/timeout/
 ---
-## PdfDigitalSignatureTimestampSettings.Timeout property
+## Timeout property
 
 Time-out value for accessing timestamp server.
 

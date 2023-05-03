@@ -7,7 +7,7 @@ type: docs
 weight: 130
 url: /net/aspose.words.drawing/imagedata/imagesize/
 ---
-## ImageData.ImageSize property
+## ImageSize property
 
 Gets the information about image size and resolution.
 

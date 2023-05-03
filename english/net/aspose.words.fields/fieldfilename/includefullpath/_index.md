@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldfilename/includefullpath/
 ---
-## FieldFileName.IncludeFullPath property
+## IncludeFullPath property
 
 Gets or sets whether to include the full file path name.
 

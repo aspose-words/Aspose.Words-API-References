@@ -7,7 +7,7 @@ type: docs
 weight: 450
 url: /net/aspose.words.settings/compatibilityoptions/spacinginwholepoints/
 ---
-## CompatibilityOptions.SpacingInWholePoints property
+## SpacingInWholePoints property
 
 Only Expand/Condense Text By Whole Points.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 270
 url: /net/aspose.words/controlchar/tab/
 ---
-## ControlChar.Tab field
+## Tab field
 
 Tab character: "\x0009" or "\t".
 

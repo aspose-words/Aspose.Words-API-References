@@ -7,7 +7,7 @@ type: docs
 weight: 450
 url: /net/aspose.words.drawing/shapebase/relativeverticalsize/
 ---
-## ShapeBase.RelativeVerticalSize property
+## RelativeVerticalSize property
 
 Gets or sets the value of shape's relative size in vertical direction.
 

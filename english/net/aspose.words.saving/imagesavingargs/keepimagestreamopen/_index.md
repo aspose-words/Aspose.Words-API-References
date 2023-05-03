@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.saving/imagesavingargs/keepimagestreamopen/
 ---
-## ImageSavingArgs.KeepImageStreamOpen property
+## KeepImageStreamOpen property
 
 Specifies whether Aspose.Words should keep the stream open or close it after saving an image.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldlistnum/listlevel/
 ---
-## FieldListNum.ListLevel property
+## ListLevel property
 
 Gets or sets the level in the list, overriding the default behavior of the field.
 

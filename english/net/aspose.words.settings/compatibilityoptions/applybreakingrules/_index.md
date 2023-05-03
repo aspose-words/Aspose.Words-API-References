@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.settings/compatibilityoptions/applybreakingrules/
 ---
-## CompatibilityOptions.ApplyBreakingRules property
+## ApplyBreakingRules property
 
 Use Legacy Ethiopic and Amharic Line Breaking Rules.
 

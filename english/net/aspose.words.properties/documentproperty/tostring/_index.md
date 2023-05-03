@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words.properties/documentproperty/tostring/
 ---
-## DocumentProperty.ToString method
+## ToString method
 
 Returns the property value as a string formatted according to the current locale.
 

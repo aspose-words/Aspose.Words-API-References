@@ -7,7 +7,7 @@ type: docs
 weight: 360
 url: /net/aspose.words/documentvisitor/visitrun/
 ---
-## DocumentVisitor.VisitRun method
+## VisitRun method
 
 Called when a run of text in the is encountered.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 200
 url: /net/aspose.words.fields/formfield/textinputformat/
 ---
-## FormField.TextInputFormat property
+## TextInputFormat property
 
 Returns or sets the text formatting for a text form field.
 

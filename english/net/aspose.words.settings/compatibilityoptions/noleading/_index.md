@@ -7,7 +7,7 @@ type: docs
 weight: 350
 url: /net/aspose.words.settings/compatibilityoptions/noleading/
 ---
-## CompatibilityOptions.NoLeading property
+## NoLeading property
 
 Do Not Add Leading Between Lines of Text.
 

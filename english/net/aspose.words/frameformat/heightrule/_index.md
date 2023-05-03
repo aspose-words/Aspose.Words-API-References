@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/frameformat/heightrule/
 ---
-## FrameFormat.HeightRule property
+## HeightRule property
 
 Gets the rule for determining the height of the specified frame.
 

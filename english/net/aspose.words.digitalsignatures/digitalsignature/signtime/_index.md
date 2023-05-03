@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.digitalsignatures/digitalsignature/signtime/
 ---
-## DigitalSignature.SignTime property
+## SignTime property
 
 Gets the time the document was signed.
 

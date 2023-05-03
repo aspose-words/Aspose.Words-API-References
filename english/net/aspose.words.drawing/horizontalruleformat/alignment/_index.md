@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.drawing/horizontalruleformat/alignment/
 ---
-## HorizontalRuleFormat.Alignment property
+## Alignment property
 
 Gets or sets the alignment of the horizontal rule.
 

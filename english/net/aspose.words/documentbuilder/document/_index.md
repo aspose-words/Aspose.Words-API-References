@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words/documentbuilder/document/
 ---
-## DocumentBuilder.Document property
+## Document property
 
 Gets or sets the `Document` object that this object is attached to.
 

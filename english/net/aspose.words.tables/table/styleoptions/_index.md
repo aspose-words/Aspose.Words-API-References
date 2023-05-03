@@ -7,7 +7,7 @@ type: docs
 weight: 300
 url: /net/aspose.words.tables/table/styleoptions/
 ---
-## Table.StyleOptions property
+## StyleOptions property
 
 Gets or sets bit flags that specify how a table style is applied to this table.
 

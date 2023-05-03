@@ -7,7 +7,7 @@ type: docs
 weight: 230
 url: /net/aspose.words.settings/compatibilityoptions/donotvertaligncellwithsp/
 ---
-## CompatibilityOptions.DoNotVertAlignCellWithSp property
+## DoNotVertAlignCellWithSp property
 
 Don't Vertically Align Cells Containing Floating Objects.
 

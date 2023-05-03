@@ -7,7 +7,7 @@ type: docs
 weight: 190
 url: /net/aspose.words/document/hasmacros/
 ---
-## Document.HasMacros property
+## HasMacros property
 
 Returns `true` if the document has a VBA project (macros).
 

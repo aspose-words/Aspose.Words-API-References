@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.drawing.charts/chartyvalue/datetimevalue/
 ---
-## ChartYValue.DateTimeValue property
+## DateTimeValue property
 
 Gets the stored datetime value.
 

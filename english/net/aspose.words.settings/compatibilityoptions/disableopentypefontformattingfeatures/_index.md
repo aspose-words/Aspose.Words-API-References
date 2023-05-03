@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words.settings/compatibilityoptions/disableopentypefontformattingfeatures/
 ---
-## CompatibilityOptions.DisableOpenTypeFontFormattingFeatures property
+## DisableOpenTypeFontFormattingFeatures property
 
 Specifies to disable OpenType font formatting features.
 

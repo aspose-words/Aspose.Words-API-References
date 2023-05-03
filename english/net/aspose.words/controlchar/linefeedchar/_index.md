@@ -7,7 +7,7 @@ type: docs
 weight: 150
 url: /net/aspose.words/controlchar/linefeedchar/
 ---
-## ControlChar.LineFeedChar field
+## LineFeedChar field
 
 Line feed character: (char)10 or "\n".
 

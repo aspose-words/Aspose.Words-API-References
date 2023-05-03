@@ -7,7 +7,7 @@ type: docs
 weight: 180
 url: /net/aspose.words.drawing/shapebase/fliporientation/
 ---
-## ShapeBase.FlipOrientation property
+## FlipOrientation property
 
 Switches the orientation of a shape.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.drawing.charts/axisbound/valueasdate/
 ---
-## AxisBound.ValueAsDate property
+## ValueAsDate property
 
 Returns value of axis bound represented as datetime.
 

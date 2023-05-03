@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldmergefield/textafter/
 ---
-## FieldMergeField.TextAfter property
+## TextAfter property
 
 Gets or sets the text to be inserted after the field if the field is not blank.
 

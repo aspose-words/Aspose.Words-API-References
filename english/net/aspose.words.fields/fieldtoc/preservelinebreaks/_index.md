@@ -7,7 +7,7 @@ type: docs
 weight: 130
 url: /net/aspose.words.fields/fieldtoc/preservelinebreaks/
 ---
-## FieldToc.PreserveLineBreaks property
+## PreserveLineBreaks property
 
 Gets or sets whether to preserve newline characters within table entries.
 

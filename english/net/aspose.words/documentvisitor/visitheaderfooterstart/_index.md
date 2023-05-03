@@ -7,7 +7,7 @@ type: docs
 weight: 290
 url: /net/aspose.words/documentvisitor/visitheaderfooterstart/
 ---
-## DocumentVisitor.VisitHeaderFooterStart method
+## VisitHeaderFooterStart method
 
 Called when enumeration of a header or footer in a section has started.
 

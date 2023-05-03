@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/revisiongroupcollection/count/
 ---
-## RevisionGroupCollection.Count property
+## Count property
 
 Returns the number of revision groups in the collection.
 

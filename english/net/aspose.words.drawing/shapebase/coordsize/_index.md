@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words.drawing/shapebase/coordsize/
 ---
-## ShapeBase.CoordSize property
+## CoordSize property
 
 The width and height of the coordinate space inside the containing block of this shape.
 

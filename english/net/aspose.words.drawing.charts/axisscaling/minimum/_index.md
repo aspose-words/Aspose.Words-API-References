@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.drawing.charts/axisscaling/minimum/
 ---
-## AxisScaling.Minimum property
+## Minimum property
 
 Gets or sets minimum value of the axis.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words/documentvisitor/visitcommentrangeend/
 ---
-## DocumentVisitor.VisitCommentRangeEnd method
+## VisitCommentRangeEnd method
 
 Called when the end of a commented range of text is encountered.
 

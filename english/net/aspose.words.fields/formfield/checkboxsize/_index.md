@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/formfield/checkboxsize/
 ---
-## FormField.CheckBoxSize property
+## CheckBoxSize property
 
 Gets or sets the size of the checkbox in points. Has effect only when [`IsCheckBoxExactSize`](../ischeckboxexactsize/) is `true`.
 

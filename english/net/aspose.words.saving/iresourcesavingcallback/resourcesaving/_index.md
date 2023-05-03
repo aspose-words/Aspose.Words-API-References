@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.saving/iresourcesavingcallback/resourcesaving/
 ---
-## IResourceSavingCallback.ResourceSaving method
+## ResourceSaving method
 
 Called when Aspose.Words saves an external resource to fixed page HTML or SVG formats.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 510
 url: /net/aspose.words/documentbuilder/movetodocumentend/
 ---
-## DocumentBuilder.MoveToDocumentEnd method
+## MoveToDocumentEnd method
 
 Moves the cursor to the end of the document.
 

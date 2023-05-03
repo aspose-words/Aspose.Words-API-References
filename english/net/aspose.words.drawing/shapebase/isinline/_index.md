@@ -7,7 +7,7 @@ type: docs
 weight: 290
 url: /net/aspose.words.drawing/shapebase/isinline/
 ---
-## ShapeBase.IsInline property
+## IsInline property
 
 A quick way to determine if this shape is positioned inline with text.
 

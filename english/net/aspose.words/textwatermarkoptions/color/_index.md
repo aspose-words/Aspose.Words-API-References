@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/textwatermarkoptions/color/
 ---
-## TextWatermarkOptions.Color property
+## Color property
 
 Gets or sets font color. The default value is Silver.
 

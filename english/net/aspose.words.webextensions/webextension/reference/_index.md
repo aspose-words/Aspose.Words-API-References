@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.webextensions/webextension/reference/
 ---
-## WebExtension.Reference property
+## Reference property
 
 Specifies the primary reference to an web extension.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.properties/documentproperty/type/
 ---
-## DocumentProperty.Type property
+## Type property
 
 Gets the data type of the property.
 

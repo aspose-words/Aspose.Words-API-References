@@ -7,7 +7,7 @@ type: docs
 weight: 300
 url: /net/aspose.words/pagesetup/otherpagestray/
 ---
-## PageSetup.OtherPagesTray property
+## OtherPagesTray property
 
 Gets or sets the paper tray (bin) to be used for all but the first page of a section. The value is implementation (printer) specific.
 

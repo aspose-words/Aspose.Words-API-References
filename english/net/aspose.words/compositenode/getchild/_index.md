@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words/compositenode/getchild/
 ---
-## CompositeNode.GetChild method
+## GetChild method
 
 Returns an Nth child node that matches the specified type.
 

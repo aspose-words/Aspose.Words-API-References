@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.tables/row/lastcell/
 ---
-## Row.LastCell property
+## LastCell property
 
 Returns the last [`Cell`](../../cell/) in the row.
 

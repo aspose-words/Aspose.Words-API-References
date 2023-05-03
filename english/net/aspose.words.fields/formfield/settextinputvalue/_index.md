@@ -7,7 +7,7 @@ type: docs
 weight: 250
 url: /net/aspose.words.fields/formfield/settextinputvalue/
 ---
-## FormField.SetTextInputValue method
+## SetTextInputValue method
 
 Applies the text format specified in [`TextInputFormat`](../textinputformat/) and stores the value in [`Result`](../result/).
 

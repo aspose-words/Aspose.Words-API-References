@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/axisscaling/logbase/
 ---
-## AxisScaling.LogBase property
+## LogBase property
 
 Gets or sets the logarithmic base for a logarithmic axis.
 

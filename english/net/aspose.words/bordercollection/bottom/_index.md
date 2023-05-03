@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/bordercollection/bottom/
 ---
-## BorderCollection.Bottom property
+## Bottom property
 
 Gets the bottom border.
 

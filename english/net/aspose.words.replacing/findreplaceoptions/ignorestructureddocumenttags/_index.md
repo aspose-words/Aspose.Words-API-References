@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words.replacing/findreplaceoptions/ignorestructureddocumenttags/
 ---
-## FindReplaceOptions.IgnoreStructuredDocumentTags property
+## IgnoreStructuredDocumentTags property
 
 Gets or sets a boolean value indicating either to ignore content of [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/). The default value is `false`.
 

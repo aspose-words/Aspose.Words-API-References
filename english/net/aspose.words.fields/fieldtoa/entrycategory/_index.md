@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldtoa/entrycategory/
 ---
-## FieldToa.EntryCategory property
+## EntryCategory property
 
 Gets or sets the integral category for entries included in the table.
 

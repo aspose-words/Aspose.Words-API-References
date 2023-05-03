@@ -7,7 +7,7 @@ type: docs
 weight: 160
 url: /net/aspose.words/pagesetup/gutter/
 ---
-## PageSetup.Gutter property
+## Gutter property
 
 Gets or sets the amount of extra space added to the margin for document binding.
 

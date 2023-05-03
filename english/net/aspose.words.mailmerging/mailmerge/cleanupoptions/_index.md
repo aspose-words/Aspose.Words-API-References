@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.mailmerging/mailmerge/cleanupoptions/
 ---
-## MailMerge.CleanupOptions property
+## CleanupOptions property
 
 Gets or sets a set of flags that specify what items should be removed during mail merge.
 

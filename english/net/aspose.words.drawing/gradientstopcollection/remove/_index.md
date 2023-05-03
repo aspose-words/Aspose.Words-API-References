@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.drawing/gradientstopcollection/remove/
 ---
-## GradientStopCollection.Remove method
+## Remove method
 
 Removes a specified [`GradientStop`](../../gradientstop/) from the collection.
 

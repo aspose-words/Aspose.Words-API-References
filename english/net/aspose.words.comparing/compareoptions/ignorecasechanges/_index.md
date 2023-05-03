@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.comparing/compareoptions/ignorecasechanges/
 ---
-## CompareOptions.IgnoreCaseChanges property
+## IgnoreCaseChanges property
 
 True indicates that documents comparison is case insensitive. By default comparison is case sensitive.
 

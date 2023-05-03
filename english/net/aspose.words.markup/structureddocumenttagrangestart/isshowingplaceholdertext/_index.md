@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.markup/structureddocumenttagrangestart/isshowingplaceholdertext/
 ---
-## StructuredDocumentTagRangeStart.IsShowingPlaceholderText property
+## IsShowingPlaceholderText property
 
 Specifies whether the content of this structured document tag shall be interpreted to contain placeholder text (as opposed to regular text contents within the structured document tag).
 

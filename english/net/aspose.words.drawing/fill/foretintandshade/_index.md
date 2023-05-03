@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.drawing/fill/foretintandshade/
 ---
-## Fill.ForeTintAndShade property
+## ForeTintAndShade property
 
 Gets or sets a double value that lightens or darkens the foreground color.
 

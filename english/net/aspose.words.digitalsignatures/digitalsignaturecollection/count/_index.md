@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.digitalsignatures/digitalsignaturecollection/count/
 ---
-## DigitalSignatureCollection.Count property
+## Count property
 
 Gets the number of elements contained in the collection.
 

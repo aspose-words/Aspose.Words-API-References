@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.layout/layoutenumerator/kind/
 ---
-## LayoutEnumerator.Kind property
+## Kind property
 
 Gets the kind of the current entity. This can be an empty string but never `null`.
 

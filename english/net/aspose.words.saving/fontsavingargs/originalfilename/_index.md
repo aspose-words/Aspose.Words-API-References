@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words.saving/fontsavingargs/originalfilename/
 ---
-## FontSavingArgs.OriginalFileName property
+## OriginalFileName property
 
 Gets the original font file name with an extension.
 

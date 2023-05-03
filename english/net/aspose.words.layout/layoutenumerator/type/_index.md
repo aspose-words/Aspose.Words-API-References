@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.layout/layoutenumerator/type/
 ---
-## LayoutEnumerator.Type property
+## Type property
 
 Gets the type of the current entity.
 

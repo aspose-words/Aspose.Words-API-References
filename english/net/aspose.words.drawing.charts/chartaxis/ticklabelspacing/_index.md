@@ -7,7 +7,7 @@ type: docs
 weight: 250
 url: /net/aspose.words.drawing.charts/chartaxis/ticklabelspacing/
 ---
-## ChartAxis.TickLabelSpacing property
+## TickLabelSpacing property
 
 Gets or sets the interval, at which tick labels are drawn.
 

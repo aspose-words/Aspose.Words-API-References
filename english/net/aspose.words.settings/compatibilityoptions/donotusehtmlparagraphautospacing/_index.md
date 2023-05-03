@@ -7,7 +7,7 @@ type: docs
 weight: 210
 url: /net/aspose.words.settings/compatibilityoptions/donotusehtmlparagraphautospacing/
 ---
-## CompatibilityOptions.DoNotUseHTMLParagraphAutoSpacing property
+## DoNotUseHTMLParagraphAutoSpacing property
 
 Use Fixed Paragraph Spacing for HTML Auto Setting.
 

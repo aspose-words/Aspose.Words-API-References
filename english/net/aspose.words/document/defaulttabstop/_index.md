@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words/document/defaulttabstop/
 ---
-## Document.DefaultTabStop property
+## DefaultTabStop property
 
 Gets or sets the interval (in points) between the default tab stops.
 

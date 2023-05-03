@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words/tablestyle/conditionalstyles/
 ---
-## TableStyle.ConditionalStyles property
+## ConditionalStyles property
 
 Collection of conditional styles that may be defined for this table style.
 

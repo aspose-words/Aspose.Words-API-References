@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fields/comparisonevaluationresult/result/
 ---
-## ComparisonEvaluationResult.Result property
+## Result property
 
 Gets the comparison evaluation result.
 

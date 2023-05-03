@@ -7,7 +7,7 @@ type: docs
 weight: 180
 url: /net/aspose.words.layout/revisionoptions/showrevisionbars/
 ---
-## RevisionOptions.ShowRevisionBars property
+## ShowRevisionBars property
 
 Allows to specify whether revision bars should be rendered near lines containing revised content. Default value is `true`.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.layout/revisionoptions/measurementunit/
 ---
-## RevisionOptions.MeasurementUnit property
+## MeasurementUnit property
 
 Allows to specify the measurement units for revision comments. Default value is Centimeters
 

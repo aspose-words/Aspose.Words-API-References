@@ -7,7 +7,7 @@ type: docs
 weight: 340
 url: /net/aspose.words.settings/compatibilityoptions/noextralinespacing/
 ---
-## CompatibilityOptions.NoExtraLineSpacing property
+## NoExtraLineSpacing property
 
 Do Not Center Content on Lines With Exact Line Height.
 

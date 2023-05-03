@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words/section/deleteheaderfootershapes/
 ---
-## Section.DeleteHeaderFooterShapes method
+## DeleteHeaderFooterShapes method
 
 Deletes all shapes (drawing objects) from the headers and footers of this section.
 

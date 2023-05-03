@@ -7,7 +7,7 @@ type: docs
 weight: 590
 url: /net/aspose.words.drawing/shapebase/wrapside/
 ---
-## ShapeBase.WrapSide property
+## WrapSide property
 
 Specifies how the text is wrapped around the shape.
 

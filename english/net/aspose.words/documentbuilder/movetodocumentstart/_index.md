@@ -7,7 +7,7 @@ type: docs
 weight: 520
 url: /net/aspose.words/documentbuilder/movetodocumentstart/
 ---
-## DocumentBuilder.MoveToDocumentStart method
+## MoveToDocumentStart method
 
 Moves the cursor to the beginning of the document.
 

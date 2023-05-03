@@ -7,7 +7,7 @@ type: docs
 weight: 140
 url: /net/aspose.words/pagesetup/footerdistance/
 ---
-## PageSetup.FooterDistance property
+## FooterDistance property
 
 Returns or sets the distance (in points) between the footer and the bottom of the page.
 

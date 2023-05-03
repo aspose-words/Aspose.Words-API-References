@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words/pagesetup/bordersurroundsheader/
 ---
-## PageSetup.BorderSurroundsHeader property
+## BorderSurroundsHeader property
 
 Specifies whether the page border includes or excludes the header.
 

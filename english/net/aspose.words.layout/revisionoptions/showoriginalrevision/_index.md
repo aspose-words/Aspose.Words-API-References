@@ -7,7 +7,7 @@ type: docs
 weight: 170
 url: /net/aspose.words.layout/revisionoptions/showoriginalrevision/
 ---
-## RevisionOptions.ShowOriginalRevision property
+## ShowOriginalRevision property
 
 Allows to specify whether the original text should be shown instead of revised one. Default value is `false`.
 

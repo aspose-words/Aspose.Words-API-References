@@ -7,7 +7,7 @@ type: docs
 weight: 210
 url: /net/aspose.words.markup/structureddocumenttag/multiline/
 ---
-## StructuredDocumentTag.Multiline property
+## Multiline property
 
 Specifies whether this **SDT** allows multiple lines of text.
 

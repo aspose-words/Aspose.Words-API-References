@@ -7,7 +7,7 @@ type: docs
 weight: 220
 url: /net/aspose.words/documentvisitor/visitfootnotestart/
 ---
-## DocumentVisitor.VisitFootnoteStart method
+## VisitFootnoteStart method
 
 Called when enumeration of a footnote or endnote text has started.
 

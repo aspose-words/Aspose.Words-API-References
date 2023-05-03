@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.saving/txtsaveoptions/preservetablelayout/
 ---
-## TxtSaveOptions.PreserveTableLayout property
+## PreserveTableLayout property
 
 Specifies whether the program should attempt to preserve layout of tables when saving in the plain text format. The default value is `false`.
 

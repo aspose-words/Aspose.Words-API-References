@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.saving/csssavingargs/keepcssstreamopen/
 ---
-## CssSavingArgs.KeepCssStreamOpen property
+## KeepCssStreamOpen property
 
 Specifies whether Aspose.Words should keep the stream open or close it after saving an CSS information.
 

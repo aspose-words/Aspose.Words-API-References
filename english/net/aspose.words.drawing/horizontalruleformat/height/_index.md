@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.drawing/horizontalruleformat/height/
 ---
-## HorizontalRuleFormat.Height property
+## Height property
 
 Gets or sets the height of the horizontal rule.
 

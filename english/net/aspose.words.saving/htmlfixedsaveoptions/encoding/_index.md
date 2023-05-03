@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.saving/htmlfixedsaveoptions/encoding/
 ---
-## HtmlFixedSaveOptions.Encoding property
+## Encoding property
 
 Specifies the encoding to use when exporting to HTML. Default value is `new UTF8Encoding(true)` (UTF-8 with BOM).
 

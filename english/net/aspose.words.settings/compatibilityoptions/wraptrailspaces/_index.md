@@ -7,7 +7,7 @@ type: docs
 weight: 710
 url: /net/aspose.words.settings/compatibilityoptions/wraptrailspaces/
 ---
-## CompatibilityOptions.WrapTrailSpaces property
+## WrapTrailSpaces property
 
 Line Wrap Trailing Spaces.
 

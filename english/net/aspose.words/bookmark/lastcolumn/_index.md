@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words/bookmark/lastcolumn/
 ---
-## Bookmark.LastColumn property
+## LastColumn property
 
 Gets the zero-based index of the last column of the table column range associated with the bookmark.
 

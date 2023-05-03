@@ -7,7 +7,7 @@ type: docs
 weight: 140
 url: /net/aspose.words/bordercollection/clearformatting/
 ---
-## BorderCollection.ClearFormatting method
+## ClearFormatting method
 
 Removes all borders of an object.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.drawing/shapebase/bounds/
 ---
-## ShapeBase.Bounds property
+## Bounds property
 
 Gets or sets the location and size of the containing block of the shape.
 

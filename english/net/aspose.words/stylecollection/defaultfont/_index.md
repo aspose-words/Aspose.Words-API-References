@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/stylecollection/defaultfont/
 ---
-## StyleCollection.DefaultFont property
+## DefaultFont property
 
 Gets document default text formatting.
 

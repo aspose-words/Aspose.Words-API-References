@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.fields/fieldxe/text/
 ---
-## FieldXE.Text property
+## Text property
 
 Gets or sets the text of the entry.
 

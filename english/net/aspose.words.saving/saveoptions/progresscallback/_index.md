@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words.saving/saveoptions/progresscallback/
 ---
-## SaveOptions.ProgressCallback property
+## ProgressCallback property
 
 Called during saving a document and accepts data about saving progress.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldincludetext/namespacemappings/
 ---
-## FieldIncludeText.NamespaceMappings property
+## NamespaceMappings property
 
 Gets or sets the namespace mappings for XPath queries.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fields/mergefieldimagedimension/value/
 ---
-## MergeFieldImageDimension.Value property
+## Value property
 
 The value.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 210
 url: /net/aspose.words.saving/htmlsaveoptions/exportoriginalurlforlinkedimages/
 ---
-## HtmlSaveOptions.ExportOriginalUrlForLinkedImages property
+## ExportOriginalUrlForLinkedImages property
 
 Specifies whether original URL should be used as the URL of the linked images. Default value is `false`.
 

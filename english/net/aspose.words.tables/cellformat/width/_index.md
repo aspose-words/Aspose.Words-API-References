@@ -7,7 +7,7 @@ type: docs
 weight: 130
 url: /net/aspose.words.tables/cellformat/width/
 ---
-## CellFormat.Width property
+## Width property
 
 Gets the width of the cell in points.
 

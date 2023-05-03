@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.drawing/gradientstopcollection/count/
 ---
-## GradientStopCollection.Count property
+## Count property
 
 Gets an integer value indicating the number of items in the collection.
 

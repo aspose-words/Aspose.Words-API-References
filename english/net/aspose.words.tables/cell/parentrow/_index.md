@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.tables/cell/parentrow/
 ---
-## Cell.ParentRow property
+## ParentRow property
 
 Returns the parent row of the cell.
 

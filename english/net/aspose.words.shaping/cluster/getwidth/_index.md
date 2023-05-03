@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.shaping/cluster/getwidth/
 ---
-## Cluster.GetWidth method
+## GetWidth method
 
 Returns width of the cluster.
 

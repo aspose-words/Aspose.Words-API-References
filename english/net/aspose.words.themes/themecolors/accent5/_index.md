@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.themes/themecolors/accent5/
 ---
-## ThemeColors.Accent5 property
+## Accent5 property
 
 Specifies color Accent 5.
 

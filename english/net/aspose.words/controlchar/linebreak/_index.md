@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words/controlchar/linebreak/
 ---
-## ControlChar.LineBreak field
+## LineBreak field
 
 Line break character: "\x000b" or "\v".
 

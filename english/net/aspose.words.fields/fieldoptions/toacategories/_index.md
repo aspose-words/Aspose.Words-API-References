@@ -7,7 +7,7 @@ type: docs
 weight: 190
 url: /net/aspose.words.fields/fieldoptions/toacategories/
 ---
-## FieldOptions.ToaCategories property
+## ToaCategories property
 
 Gets or sets the table of authorities categories.
 

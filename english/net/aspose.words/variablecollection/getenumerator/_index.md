@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words/variablecollection/getenumerator/
 ---
-## VariableCollection.GetEnumerator method
+## GetEnumerator method
 
 Returns an enumerator object that can be used to iterate over all variable in the collection.
 

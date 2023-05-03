@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.saving/pdfdigitalsignaturedetails/certificateholder/
 ---
-## PdfDigitalSignatureDetails.CertificateHolder property
+## CertificateHolder property
 
 Returns the certificate holder object that contains the certificate was used to sign the document.
 

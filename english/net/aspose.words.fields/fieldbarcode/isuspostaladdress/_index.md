@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldbarcode/isuspostaladdress/
 ---
-## FieldBarcode.IsUSPostalAddress property
+## IsUSPostalAddress property
 
 Gets or sets whether [`PostalAddress`](../postaladdress/) is a U.S. postal address.
 

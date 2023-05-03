@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/bookmarkcollection/count/
 ---
-## BookmarkCollection.Count property
+## Count property
 
 Returns the number of bookmarks in the collection.
 

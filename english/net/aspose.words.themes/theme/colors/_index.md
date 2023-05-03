@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.themes/theme/colors/
 ---
-## Theme.Colors property
+## Colors property
 
 Allows to specify the set of theme colors for the document.
 

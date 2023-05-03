@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.layout/pagelayoutcallbackargs/document/
 ---
-## PageLayoutCallbackArgs.Document property
+## Document property
 
 Gets document.
 

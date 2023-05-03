@@ -7,7 +7,7 @@ type: docs
 weight: 170
 url: /net/aspose.words.loading/loadoptions/warningcallback/
 ---
-## LoadOptions.WarningCallback property
+## WarningCallback property
 
 Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss.
 

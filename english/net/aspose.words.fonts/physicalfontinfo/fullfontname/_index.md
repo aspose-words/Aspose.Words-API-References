@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fonts/physicalfontinfo/fullfontname/
 ---
-## PhysicalFontInfo.FullFontName property
+## FullFontName property
 
 Full name of the font.
 

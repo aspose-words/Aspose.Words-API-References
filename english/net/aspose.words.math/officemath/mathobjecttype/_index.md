@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.math/officemath/mathobjecttype/
 ---
-## OfficeMath.MathObjectType property
+## MathObjectType property
 
 Gets type `MathObjectType` of this Office Math object.
 

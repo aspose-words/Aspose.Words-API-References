@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldkeywords/text/
 ---
-## FieldKeywords.Text property
+## Text property
 
 Gets or sets the text of the keywords.
 

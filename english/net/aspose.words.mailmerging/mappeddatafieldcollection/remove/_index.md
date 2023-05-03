@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.mailmerging/mappeddatafieldcollection/remove/
 ---
-## MappedDataFieldCollection.Remove method
+## Remove method
 
 Removes a field mapping.
 

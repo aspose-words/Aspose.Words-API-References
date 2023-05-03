@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words/style/isquickstyle/
 ---
-## Style.IsQuickStyle property
+## IsQuickStyle property
 
 Specifies whether this style is shown in the Quick Style gallery inside MS Word UI.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 170
 url: /net/aspose.words/paragraph/nodetype/
 ---
-## Paragraph.NodeType property
+## NodeType property
 
 Returns Paragraph.
 

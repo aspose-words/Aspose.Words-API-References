@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldseq/resetheadinglevel/
 ---
-## FieldSeq.ResetHeadingLevel property
+## ResetHeadingLevel property
 
 Gets or sets an integer number representing a heading level to reset the sequence number to. Returns -1 if the number is absent.
 

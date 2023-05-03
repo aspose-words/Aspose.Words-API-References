@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words.tables/cellformat/verticalmerge/
 ---
-## CellFormat.VerticalMerge property
+## VerticalMerge property
 
 Specifies how the cell is merged with other cells vertically.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 430
 url: /net/aspose.words.drawing/shapebase/relativehorizontalsize/
 ---
-## ShapeBase.RelativeHorizontalSize property
+## RelativeHorizontalSize property
 
 Gets or sets the value of shape's relative size in horizontal direction.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 150
 url: /net/aspose.words.saving/imagesaveoptions/thresholdforfloydsteinbergdithering/
 ---
-## ImageSaveOptions.ThresholdForFloydSteinbergDithering property
+## ThresholdForFloydSteinbergDithering property
 
 Gets or sets the threshold that determines the value of the binarization error in the Floyd-Steinberg method. when [`ImageBinarizationMethod`](../../imagebinarizationmethod/) is FloydSteinbergDithering.
 

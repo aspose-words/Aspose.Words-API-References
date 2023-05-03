@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words/run/gettext/
 ---
-## Run.GetText method
+## GetText method
 
 Gets the text of the run.
 

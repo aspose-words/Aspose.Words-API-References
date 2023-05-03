@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldtoc/captionlesstableoffigureslabel/
 ---
-## FieldToc.CaptionlessTableOfFiguresLabel property
+## CaptionlessTableOfFiguresLabel property
 
 Gets or sets the name of the sequence identifier used when building a table of figures that does not include caption's label and number.
 

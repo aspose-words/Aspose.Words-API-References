@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fonts/fontinfo/family/
 ---
-## FontInfo.Family property
+## Family property
 
 Gets or sets the font family this font belongs to.
 

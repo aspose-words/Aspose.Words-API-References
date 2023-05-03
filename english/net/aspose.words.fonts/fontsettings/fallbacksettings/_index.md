@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fonts/fontsettings/fallbacksettings/
 ---
-## FontSettings.FallbackSettings property
+## FallbackSettings property
 
 Settings related to font fallback mechanism.
 

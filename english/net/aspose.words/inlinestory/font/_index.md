@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/inlinestory/font/
 ---
-## InlineStory.Font property
+## Font property
 
 Provides access to the font formatting of the anchor character of this object.
 

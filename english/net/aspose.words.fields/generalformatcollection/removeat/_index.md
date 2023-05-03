@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.fields/generalformatcollection/removeat/
 ---
-## GeneralFormatCollection.RemoveAt method
+## RemoveAt method
 
 Removes a general format occurrence at the specified index.
 

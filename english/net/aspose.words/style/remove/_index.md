@@ -7,7 +7,7 @@ type: docs
 weight: 190
 url: /net/aspose.words/style/remove/
 ---
-## Style.Remove method
+## Remove method
 
 Removes the specified style from the document.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.drawing/signatureline/email/
 ---
-## SignatureLine.Email property
+## Email property
 
 Gets or sets suggested signer's e-mail address. Default value for this property is **empty string** (Empty).
 

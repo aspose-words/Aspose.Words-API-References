@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.tables/cell/lastparagraph/
 ---
-## Cell.LastParagraph property
+## LastParagraph property
 
 Gets the last paragraph among the immediate children.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words/headerfooter/accept/
 ---
-## HeaderFooter.Accept method
+## Accept method
 
 Accepts a visitor.
 

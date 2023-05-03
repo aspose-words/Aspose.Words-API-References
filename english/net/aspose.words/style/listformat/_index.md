@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words/style/listformat/
 ---
-## Style.ListFormat property
+## ListFormat property
 
 Provides access to the list formatting properties of a paragraph style.
 

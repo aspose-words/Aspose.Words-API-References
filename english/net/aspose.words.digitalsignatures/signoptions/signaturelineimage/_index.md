@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.digitalsignatures/signoptions/signaturelineimage/
 ---
-## SignOptions.SignatureLineImage property
+## SignatureLineImage property
 
 The image that will be shown in associated [`SignatureLine`](../../../aspose.words.drawing/signatureline/). Default value is `null`.
 

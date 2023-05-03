@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.mailmerging/imagefieldmergingargs/imagewidth/
 ---
-## ImageFieldMergingArgs.ImageWidth property
+## ImageWidth property
 
 Specifies the image width for the image to insert into the document.
 

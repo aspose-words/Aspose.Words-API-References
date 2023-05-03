@@ -7,7 +7,7 @@ type: docs
 weight: 130
 url: /net/aspose.words.settings/compatibilityoptions/donotbreakconstrainedforcedtable/
 ---
-## CompatibilityOptions.DoNotBreakConstrainedForcedTable property
+## DoNotBreakConstrainedForcedTable property
 
 Don't Break Table Rows Around Floating Tables.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words/hyphenation/unregisterdictionary/
 ---
-## Hyphenation.UnregisterDictionary method
+## UnregisterDictionary method
 
 Unregisters a hyphenation dictionary for the specified language.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 190
 url: /net/aspose.words.saving/pdfsaveoptions/imagecolorspaceexportmode/
 ---
-## PdfSaveOptions.ImageColorSpaceExportMode property
+## ImageColorSpaceExportMode property
 
 Specifies how the color space will be selected for the images in PDF document.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 200
 url: /net/aspose.words.settings/compatibilityoptions/donotuseeastasianbreakrules/
 ---
-## CompatibilityOptions.DoNotUseEastAsianBreakRules property
+## DoNotUseEastAsianBreakRules property
 
 Do Not Compress Compressible Characters When Using Document Grid.
 

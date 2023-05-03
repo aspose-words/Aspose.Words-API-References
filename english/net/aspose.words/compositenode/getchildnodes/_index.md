@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words/compositenode/getchildnodes/
 ---
-## CompositeNode.GetChildNodes method
+## GetChildNodes method
 
 Returns a live collection of child nodes that match the specified type.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.settings/odso/udlconnectstring/
 ---
-## Odso.UdlConnectString property
+## UdlConnectString property
 
 Specifies the Universal Data Link (UDL) connection string used to connect to an external data source. The default value is an empty string.
 

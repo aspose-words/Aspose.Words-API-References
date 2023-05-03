@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.webextensions/taskpane/webextension/
 ---
-## TaskPane.WebExtension property
+## WebExtension property
 
 Represents an web extension object.
 

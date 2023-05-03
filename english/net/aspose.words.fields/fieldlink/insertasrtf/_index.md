@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.fields/fieldlink/insertasrtf/
 ---
-## FieldLink.InsertAsRtf property
+## InsertAsRtf property
 
 Gets or sets whether to insert the linked object in rich-text format (RTF).
 

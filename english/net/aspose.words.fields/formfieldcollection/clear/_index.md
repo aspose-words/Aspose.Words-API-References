@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fields/formfieldcollection/clear/
 ---
-## FormFieldCollection.Clear method
+## Clear method
 
 Removes all form fields from this collection and from the document.
 

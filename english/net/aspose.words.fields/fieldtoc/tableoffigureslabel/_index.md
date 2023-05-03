@@ -7,7 +7,7 @@ type: docs
 weight: 160
 url: /net/aspose.words.fields/fieldtoc/tableoffigureslabel/
 ---
-## FieldToc.TableOfFiguresLabel property
+## TableOfFiguresLabel property
 
 Gets or sets the name of the sequence identifier used when building a table of figures.
 

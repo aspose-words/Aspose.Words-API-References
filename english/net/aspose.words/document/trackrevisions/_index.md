@@ -7,7 +7,7 @@ type: docs
 weight: 430
 url: /net/aspose.words/document/trackrevisions/
 ---
-## Document.TrackRevisions property
+## TrackRevisions property
 
 True if changes are tracked when this document is edited in Microsoft Word.
 

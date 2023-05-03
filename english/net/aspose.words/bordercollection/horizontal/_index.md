@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words/bordercollection/horizontal/
 ---
-## BorderCollection.Horizontal property
+## Horizontal property
 
 Gets the horizontal border that is used between cells or conforming paragraphs.
 

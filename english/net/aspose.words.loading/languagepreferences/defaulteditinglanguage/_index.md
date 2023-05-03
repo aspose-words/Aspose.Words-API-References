@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.loading/languagepreferences/defaulteditinglanguage/
 ---
-## LanguagePreferences.DefaultEditingLanguage property
+## DefaultEditingLanguage property
 
 Gets or sets default editing language.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.markup/istructureddocumenttag/color/
 ---
-## IStructuredDocumentTag.Color property
+## Color property
 
 Gets or sets the color of the structured document tag.
 

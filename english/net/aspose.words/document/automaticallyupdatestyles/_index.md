@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/document/automaticallyupdatestyles/
 ---
-## Document.AutomaticallyUpdateStyles property
+## AutomaticallyUpdateStyles property
 
 Gets or sets a flag indicating whether the styles in the document are updated to match the styles in the attached template each time the document is opened in MS Word.
 

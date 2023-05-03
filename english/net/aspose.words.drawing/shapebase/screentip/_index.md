@@ -7,7 +7,7 @@ type: docs
 weight: 480
 url: /net/aspose.words.drawing/shapebase/screentip/
 ---
-## ShapeBase.ScreenTip property
+## ScreenTip property
 
 Defines the text displayed when the mouse pointer moves over the shape.
 

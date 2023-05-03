@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.webextensions/webextension/isfrozen/
 ---
-## WebExtension.IsFrozen property
+## IsFrozen property
 
 Specifies whether the user can interact with the web extension or not.
 

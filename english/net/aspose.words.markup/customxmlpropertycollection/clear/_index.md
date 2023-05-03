@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.markup/customxmlpropertycollection/clear/
 ---
-## CustomXmlPropertyCollection.Clear method
+## Clear method
 
 Removes all elements from the collection.
 

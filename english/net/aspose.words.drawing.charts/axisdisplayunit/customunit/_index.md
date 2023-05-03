@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/axisdisplayunit/customunit/
 ---
-## AxisDisplayUnit.CustomUnit property
+## CustomUnit property
 
 Gets or sets a user-defined divisor to scale display units on the value axis.
 

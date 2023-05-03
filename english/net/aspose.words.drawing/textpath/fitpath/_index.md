@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.drawing/textpath/fitpath/
 ---
-## TextPath.FitPath property
+## FitPath property
 
 Defines whether the text fits the path of a shape.
 

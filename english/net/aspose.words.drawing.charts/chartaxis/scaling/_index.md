@@ -7,7 +7,7 @@ type: docs
 weight: 210
 url: /net/aspose.words.drawing.charts/chartaxis/scaling/
 ---
-## ChartAxis.Scaling property
+## Scaling property
 
 Provides access to the scaling options of the axis.
 

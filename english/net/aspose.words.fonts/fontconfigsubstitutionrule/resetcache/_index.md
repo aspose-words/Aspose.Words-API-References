@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fonts/fontconfigsubstitutionrule/resetcache/
 ---
-## FontConfigSubstitutionRule.ResetCache method
+## ResetCache method
 
 Resets the cache of fontconfig calling results.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 390
 url: /net/aspose.words.tables/table/converttohorizontallymergedcells/
 ---
-## Table.ConvertToHorizontallyMergedCells method
+## ConvertToHorizontallyMergedCells method
 
 Converts cells horizontally merged by width to cells merged by [`HorizontalMerge`](../../cellformat/horizontalmerge/).
 

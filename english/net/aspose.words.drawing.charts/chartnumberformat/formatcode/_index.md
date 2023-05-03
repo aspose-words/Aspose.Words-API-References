@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/chartnumberformat/formatcode/
 ---
-## ChartNumberFormat.FormatCode property
+## FormatCode property
 
 Gets or sets the format code applied to a data label.
 

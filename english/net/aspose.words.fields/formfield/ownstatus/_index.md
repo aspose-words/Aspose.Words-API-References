@@ -7,7 +7,7 @@ type: docs
 weight: 160
 url: /net/aspose.words.fields/formfield/ownstatus/
 ---
-## FormField.OwnStatus property
+## OwnStatus property
 
 Specifies the source of the text that's displayed in the status bar when a form field has the focus.
 

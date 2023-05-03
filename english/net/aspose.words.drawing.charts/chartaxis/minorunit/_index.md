@@ -7,7 +7,7 @@ type: docs
 weight: 160
 url: /net/aspose.words.drawing.charts/chartaxis/minorunit/
 ---
-## ChartAxis.MinorUnit property
+## MinorUnit property
 
 Returns or sets the distance between minor tick marks.
 

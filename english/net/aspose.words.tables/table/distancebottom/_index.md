@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words.tables/table/distancebottom/
 ---
-## Table.DistanceBottom property
+## DistanceBottom property
 
 Gets or sets distance between table bottom and the surrounding text, in points.
 

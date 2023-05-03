@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.comparing/compareoptions/comparemoves/
 ---
-## CompareOptions.CompareMoves property
+## CompareMoves property
 
 Specifies whether to compare differences in MoveRevision between the two documents. By default move revisions are not produced.
 

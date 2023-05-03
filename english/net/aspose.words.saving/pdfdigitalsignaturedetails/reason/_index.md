@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.saving/pdfdigitalsignaturedetails/reason/
 ---
-## PdfDigitalSignatureDetails.Reason property
+## Reason property
 
 Gets or sets the reason for the signing.
 

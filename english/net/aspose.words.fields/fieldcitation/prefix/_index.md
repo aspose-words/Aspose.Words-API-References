@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldcitation/prefix/
 ---
-## FieldCitation.Prefix property
+## Prefix property
 
 Gets or sets a prefix that is prepended to the citation.
 

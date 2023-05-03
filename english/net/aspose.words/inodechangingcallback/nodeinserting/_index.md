@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/inodechangingcallback/nodeinserting/
 ---
-## INodeChangingCallback.NodeInserting method
+## NodeInserting method
 
 Called just before a node belonging to this document is about to be inserted into another node.
 

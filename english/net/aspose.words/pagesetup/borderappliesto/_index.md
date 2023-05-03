@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/pagesetup/borderappliesto/
 ---
-## PageSetup.BorderAppliesTo property
+## BorderAppliesTo property
 
 Specifies which pages the page border is printed on.
 

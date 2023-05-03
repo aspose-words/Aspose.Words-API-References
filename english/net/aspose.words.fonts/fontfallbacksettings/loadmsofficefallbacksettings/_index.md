@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fonts/fontfallbacksettings/loadmsofficefallbacksettings/
 ---
-## FontFallbackSettings.LoadMsOfficeFallbackSettings method
+## LoadMsOfficeFallbackSettings method
 
 Loads predefined fallback settings which mimics the Microsoft Word fallback and uses Microsoft office fonts.
 

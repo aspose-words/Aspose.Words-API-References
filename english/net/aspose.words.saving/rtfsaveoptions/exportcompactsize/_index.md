@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.saving/rtfsaveoptions/exportcompactsize/
 ---
-## RtfSaveOptions.ExportCompactSize property
+## ExportCompactSize property
 
 Allows to make output RTF documents smaller in size, but if they contain RTL (right-to-left) text, it will not be displayed correctly. Default value is `false`.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/textwatermarkoptions/fontsize/
 ---
-## TextWatermarkOptions.FontSize property
+## FontSize property
 
 Gets or sets a font size. The default value is 0 - auto.
 

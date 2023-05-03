@@ -7,7 +7,7 @@ type: docs
 weight: 460
 url: /net/aspose.words/font/themecolor/
 ---
-## Font.ThemeColor property
+## ThemeColor property
 
 Gets or sets the theme color in the applied color scheme that is associated with this [`Font`](../) object.
 

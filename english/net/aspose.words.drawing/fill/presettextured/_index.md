@@ -7,7 +7,7 @@ type: docs
 weight: 220
 url: /net/aspose.words.drawing/fill/presettextured/
 ---
-## Fill.PresetTextured method
+## PresetTextured method
 
 Sets the fill to a preset texture.
 

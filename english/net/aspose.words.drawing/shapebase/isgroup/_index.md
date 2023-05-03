@@ -7,7 +7,7 @@ type: docs
 weight: 260
 url: /net/aspose.words.drawing/shapebase/isgroup/
 ---
-## ShapeBase.IsGroup property
+## IsGroup property
 
 Returns `true` if this is a group shape.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.layout/layoutcollector/document/
 ---
-## LayoutCollector.Document property
+## Document property
 
 Gets or sets the document this collector instance is attached to.
 

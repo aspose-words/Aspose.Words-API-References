@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words.tables/row/gettext/
 ---
-## Row.GetText method
+## GetText method
 
 Gets the text of all cells in this row including the end of row character.
 

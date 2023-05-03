@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words/documentbase/warningcallback/
 ---
-## DocumentBase.WarningCallback property
+## WarningCallback property
 
 Called during various document processing procedures when an issue is detected that might result in data or formatting fidelity loss.
 

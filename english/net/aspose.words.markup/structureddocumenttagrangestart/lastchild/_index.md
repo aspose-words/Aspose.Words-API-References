@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.markup/structureddocumenttagrangestart/lastchild/
 ---
-## StructuredDocumentTagRangeStart.LastChild property
+## LastChild property
 
 Gets the last child in the stdContent range.
 

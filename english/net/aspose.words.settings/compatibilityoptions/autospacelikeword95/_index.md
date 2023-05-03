@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.settings/compatibilityoptions/autospacelikeword95/
 ---
-## CompatibilityOptions.AutoSpaceLikeWord95 property
+## AutoSpaceLikeWord95 property
 
 Emulate Word 95 Full-Width Character Spacing.
 

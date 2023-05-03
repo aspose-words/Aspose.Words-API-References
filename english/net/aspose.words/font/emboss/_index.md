@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words/font/emboss/
 ---
-## Font.Emboss property
+## Emboss property
 
 True if the font is formatted as embossed.
 

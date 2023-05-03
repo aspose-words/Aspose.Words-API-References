@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/inlinestory/firstparagraph/
 ---
-## InlineStory.FirstParagraph property
+## FirstParagraph property
 
 Gets the first paragraph in the story.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words/textwatermarkoptions/issemitrasparent/
 ---
-## TextWatermarkOptions.IsSemitrasparent property
+## IsSemitrasparent property
 
 Gets or sets a boolean value which is responsible for opacity of the watermark. The default value is `true`.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.tables/cellformat/rightpadding/
 ---
-## CellFormat.RightPadding property
+## RightPadding property
 
 Returns or sets the amount of space (in points) to add to the right of the contents of cell.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.markup/customxmlpart/clone/
 ---
-## CustomXmlPart.Clone method
+## Clone method
 
 Makes a "deep enough" copy of the object. Does not duplicate the bytes of the [`Data`](../data/) value.
 

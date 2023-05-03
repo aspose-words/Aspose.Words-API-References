@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/
 ---
-## FontFallbackSettings.LoadNotoFallbackSettings method
+## LoadNotoFallbackSettings method
 
 Loads predefined fallback settings which uses Google Noto fonts.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.reporting/csvdataloadoptions/delimiter/
 ---
-## CsvDataLoadOptions.Delimiter property
+## Delimiter property
 
 Gets or sets the character to be used as a column delimiter.
 

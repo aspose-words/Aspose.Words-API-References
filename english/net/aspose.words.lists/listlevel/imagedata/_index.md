@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.lists/listlevel/imagedata/
 ---
-## ListLevel.ImageData property
+## ImageData property
 
 Returns image data of the picture bullet shape for the current list level.
 

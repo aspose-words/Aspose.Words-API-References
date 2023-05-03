@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/cleanupoptions/unusedbuiltinstyles/
 ---
-## CleanupOptions.UnusedBuiltinStyles property
+## UnusedBuiltinStyles property
 
 Specifies that unused [`BuiltIn`](../../style/builtin/) styles should be removed from document.
 

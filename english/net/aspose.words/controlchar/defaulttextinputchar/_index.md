@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words/controlchar/defaulttextinputchar/
 ---
-## ControlChar.DefaultTextInputChar field
+## DefaultTextInputChar field
 
 This is the "o" character used as a default value in text input form fields.
 

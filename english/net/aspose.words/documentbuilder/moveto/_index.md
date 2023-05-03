@@ -7,7 +7,7 @@ type: docs
 weight: 480
 url: /net/aspose.words/documentbuilder/moveto/
 ---
-## DocumentBuilder.MoveTo method
+## MoveTo method
 
 Moves the cursor to an inline node or to the end of a paragraph.
 

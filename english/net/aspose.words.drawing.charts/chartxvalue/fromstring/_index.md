@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.drawing.charts/chartxvalue/fromstring/
 ---
-## ChartXValue.FromString method
+## FromString method
 
 Creates a [`ChartXValue`](../) instance of the String type.
 

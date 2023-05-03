@@ -7,7 +7,7 @@ type: docs
 weight: 140
 url: /net/aspose.words.drawing/stroke/on/
 ---
-## Stroke.On property
+## On property
 
 Defines whether the path will be stroked.
 

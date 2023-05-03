@@ -7,7 +7,7 @@ type: docs
 weight: 270
 url: /net/aspose.words/document/mailmergesettings/
 ---
-## Document.MailMergeSettings property
+## MailMergeSettings property
 
 Gets or sets the object that contains all of the mail merge information for a document.
 

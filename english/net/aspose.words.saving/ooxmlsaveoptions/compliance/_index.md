@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.saving/ooxmlsaveoptions/compliance/
 ---
-## OoxmlSaveOptions.Compliance property
+## Compliance property
 
 Specifies the OOXML version for the output document. The default value is Ecma376_2006.
 

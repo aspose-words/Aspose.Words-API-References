@@ -7,7 +7,7 @@ type: docs
 weight: 400
 url: /net/aspose.words/pagesetup/sheetsperbooklet/
 ---
-## PageSetup.SheetsPerBooklet property
+## SheetsPerBooklet property
 
 Returns or sets the number of pages to be included in each booklet.
 

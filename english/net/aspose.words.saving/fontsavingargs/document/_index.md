@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.saving/fontsavingargs/document/
 ---
-## FontSavingArgs.Document property
+## Document property
 
 Gets the document object that is being saved.
 

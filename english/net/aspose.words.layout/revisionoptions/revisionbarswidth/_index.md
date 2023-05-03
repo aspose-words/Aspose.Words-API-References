@@ -7,7 +7,7 @@ type: docs
 weight: 150
 url: /net/aspose.words.layout/revisionoptions/revisionbarswidth/
 ---
-## RevisionOptions.RevisionBarsWidth property
+## RevisionBarsWidth property
 
 Gets or sets width of revision bars, points.
 

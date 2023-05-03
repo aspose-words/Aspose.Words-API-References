@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.mailmerging/fieldmergingargsbase/tablename/
 ---
-## FieldMergingArgsBase.TableName property
+## TableName property
 
 Gets the name of the data table for the current merge operation or empty string if the name is not available.
 

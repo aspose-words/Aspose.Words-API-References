@@ -7,7 +7,7 @@ type: docs
 weight: 310
 url: /net/aspose.words/pagesetup/pageheight/
 ---
-## PageSetup.PageHeight property
+## PageHeight property
 
 Returns or sets the height of the page in points.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.fields/fielddatabase/formatattributes/
 ---
-## FieldDatabase.FormatAttributes property
+## FormatAttributes property
 
 Gets or sets which attributes of the format are to be applied to the table.
 

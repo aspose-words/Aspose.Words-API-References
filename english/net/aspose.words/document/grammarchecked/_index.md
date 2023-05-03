@@ -7,7 +7,7 @@ type: docs
 weight: 180
 url: /net/aspose.words/document/grammarchecked/
 ---
-## Document.GrammarChecked property
+## GrammarChecked property
 
 Returns `true` if the document has been checked for grammar.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words/conditionalstylecollection/lastrow/
 ---
-## ConditionalStyleCollection.LastRow property
+## LastRow property
 
 Gets the last row style.
 

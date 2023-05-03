@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.drawing/oleformat/olecontrol/
 ---
-## OleFormat.OleControl property
+## OleControl property
 
 Gets `OleControl` objects if this OLE object is an ActiveX control. Otherwise this property is null.
 

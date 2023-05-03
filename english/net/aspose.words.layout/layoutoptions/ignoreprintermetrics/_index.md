@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.layout/layoutoptions/ignoreprintermetrics/
 ---
-## LayoutOptions.IgnorePrinterMetrics property
+## IgnorePrinterMetrics property
 
 Gets or sets indication of whether the "Use printer metrics to lay out document" compatibility option is ignored. Default is `true`.
 

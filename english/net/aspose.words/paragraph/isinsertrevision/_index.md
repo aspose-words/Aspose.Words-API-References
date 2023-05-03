@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words/paragraph/isinsertrevision/
 ---
-## Paragraph.IsInsertRevision property
+## IsInsertRevision property
 
 Returns true if this object was inserted in Microsoft Word while change tracking was enabled.
 

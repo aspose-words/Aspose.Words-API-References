@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.saving/saveoptions/customtimezoneinfo/
 ---
-## SaveOptions.CustomTimeZoneInfo property
+## CustomTimeZoneInfo property
 
 Gets or sets custom local time zone used for date/time fields.
 

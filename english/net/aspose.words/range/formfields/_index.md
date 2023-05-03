@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/range/formfields/
 ---
-## Range.FormFields property
+## FormFields property
 
 Returns a `FormFields` collection that represents all form fields in the range.
 

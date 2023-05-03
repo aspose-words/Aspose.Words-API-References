@@ -7,7 +7,7 @@ type: docs
 weight: 620
 url: /net/aspose.words/document/joinrunswithsameformatting/
 ---
-## Document.JoinRunsWithSameFormatting method
+## JoinRunsWithSameFormatting method
 
 Joins runs with same formatting in all paragraphs of the document.
 

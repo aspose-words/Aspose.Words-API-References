@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.settings/writeprotection/iswriteprotected/
 ---
-## WriteProtection.IsWriteProtected property
+## IsWriteProtected property
 
 Returns `true` when a write protection password is set.
 

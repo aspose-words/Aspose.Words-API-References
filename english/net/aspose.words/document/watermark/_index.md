@@ -7,7 +7,7 @@ type: docs
 weight: 480
 url: /net/aspose.words/document/watermark/
 ---
-## Document.Watermark property
+## Watermark property
 
 Provides access to the document watermark.
 

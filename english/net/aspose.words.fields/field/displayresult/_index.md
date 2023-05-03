@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.fields/field/displayresult/
 ---
-## Field.DisplayResult property
+## DisplayResult property
 
 Gets the text that represents the displayed field result.
 

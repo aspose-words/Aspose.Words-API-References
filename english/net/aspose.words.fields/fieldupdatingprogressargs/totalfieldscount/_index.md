@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.fields/fieldupdatingprogressargs/totalfieldscount/
 ---
-## FieldUpdatingProgressArgs.TotalFieldsCount property
+## TotalFieldsCount property
 
 Gets the total fields count to be updated.
 

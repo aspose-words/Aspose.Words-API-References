@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.saving/csssavingargs/document/
 ---
-## CssSavingArgs.Document property
+## Document property
 
 Gets the document object that is currently being saved.
 

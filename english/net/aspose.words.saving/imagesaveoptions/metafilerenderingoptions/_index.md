@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.saving/imagesaveoptions/metafilerenderingoptions/
 ---
-## ImageSaveOptions.MetafileRenderingOptions property
+## MetafileRenderingOptions property
 
 Allows to specify how metafiles are treated in the rendered output.
 

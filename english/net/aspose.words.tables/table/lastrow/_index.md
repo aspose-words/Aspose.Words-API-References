@@ -7,7 +7,7 @@ type: docs
 weight: 180
 url: /net/aspose.words.tables/table/lastrow/
 ---
-## Table.LastRow property
+## LastRow property
 
 Returns the last [`Row`](../../row/) node in the table.
 

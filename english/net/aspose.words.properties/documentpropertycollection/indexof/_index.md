@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.properties/documentpropertycollection/indexof/
 ---
-## DocumentPropertyCollection.IndexOf method
+## IndexOf method
 
 Gets the index of a property by name.
 

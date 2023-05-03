@@ -7,7 +7,7 @@ type: docs
 weight: 140
 url: /net/aspose.words.fields/fieldmergebarcode/symbolrotation/
 ---
-## FieldMergeBarcode.SymbolRotation property
+## SymbolRotation property
 
 Gets or sets the rotation of the barcode symbol. Valid values are [0, 3]
 

@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/documentvisitor/visitbodystart/
 ---
-## DocumentVisitor.VisitBodyStart method
+## VisitBodyStart method
 
 Called when enumeration of the main text story in a section has started.
 

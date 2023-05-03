@@ -7,7 +7,7 @@ type: docs
 weight: 270
 url: /net/aspose.words/paragraphformat/shading/
 ---
-## ParagraphFormat.Shading property
+## Shading property
 
 Returns a [`Shading`](../../shading/) object that refers to the shading formatting for the paragraph.
 

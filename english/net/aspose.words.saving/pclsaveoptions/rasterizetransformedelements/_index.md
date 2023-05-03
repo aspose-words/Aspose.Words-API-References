@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.saving/pclsaveoptions/rasterizetransformedelements/
 ---
-## PclSaveOptions.RasterizeTransformedElements property
+## RasterizeTransformedElements property
 
 Gets or sets a value determining whether or not complex transformed elements should be rasterized before saving to PCL document. Default is `true`.
 

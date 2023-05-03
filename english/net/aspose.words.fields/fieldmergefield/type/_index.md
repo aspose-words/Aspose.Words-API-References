@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.fields/fieldmergefield/type/
 ---
-## FieldMergeField.Type property
+## Type property
 
 Gets the Microsoft Word field type.
 

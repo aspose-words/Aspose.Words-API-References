@@ -7,7 +7,7 @@ type: docs
 weight: 150
 url: /net/aspose.words.fields/fieldoptions/legacynumberformat/
 ---
-## FieldOptions.LegacyNumberFormat property
+## LegacyNumberFormat property
 
 Gets or sets the value indicating whether legacy (early than AW 13.10) number format for fields is enabled or not.
 

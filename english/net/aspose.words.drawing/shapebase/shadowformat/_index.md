@@ -7,7 +7,7 @@ type: docs
 weight: 490
 url: /net/aspose.words.drawing/shapebase/shadowformat/
 ---
-## ShapeBase.ShadowFormat property
+## ShadowFormat property
 
 Gets shadow formatting for the shape.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.saving/metafilerenderingoptions/usegdirasteroperationsemulation/
 ---
-## MetafileRenderingOptions.UseGdiRasterOperationsEmulation property
+## UseGdiRasterOperationsEmulation property
 
 Gets or sets a value determining whether or not to use the GDI+ for raster operations emulation.
 

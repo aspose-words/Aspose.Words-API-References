@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.saving/outlineoptions/headingsoutlinelevels/
 ---
-## OutlineOptions.HeadingsOutlineLevels property
+## HeadingsOutlineLevels property
 
 Specifies how many levels of headings (paragraphs formatted with the Heading styles) to include in the document outline.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 330
 url: /net/aspose.words.saving/pdfsaveoptions/zoomfactor/
 ---
-## PdfSaveOptions.ZoomFactor property
+## ZoomFactor property
 
 Gets or sets a value determining zoom factor (in percentages) for a document.
 

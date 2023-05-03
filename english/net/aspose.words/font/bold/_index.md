@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/font/bold/
 ---
-## Font.Bold property
+## Bold property
 
 True if the font is formatted as bold.
 

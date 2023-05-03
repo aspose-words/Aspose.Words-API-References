@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.loading/loadoptions/ignoreoledata/
 ---
-## LoadOptions.IgnoreOleData property
+## IgnoreOleData property
 
 Specifies whether to ignore the OLE data.
 

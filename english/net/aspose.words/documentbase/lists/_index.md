@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/documentbase/lists/
 ---
-## DocumentBase.Lists property
+## Lists property
 
 Provides access to the list formatting used in the document.
 

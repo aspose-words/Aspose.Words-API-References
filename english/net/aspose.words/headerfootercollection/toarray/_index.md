@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/headerfootercollection/toarray/
 ---
-## HeaderFooterCollection.ToArray method
+## ToArray method
 
 Copies all `HeaderFoorter`s from the collection to a new array of `HeaderFoorter`s.
 

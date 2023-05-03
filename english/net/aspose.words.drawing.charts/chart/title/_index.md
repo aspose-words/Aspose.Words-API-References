@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.drawing.charts/chart/title/
 ---
-## Chart.Title property
+## Title property
 
 Provides access to the chart title properties.
 

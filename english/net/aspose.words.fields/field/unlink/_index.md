@@ -7,7 +7,7 @@ type: docs
 weight: 130
 url: /net/aspose.words.fields/field/unlink/
 ---
-## Field.Unlink method
+## Unlink method
 
 Performs the field unlink.
 

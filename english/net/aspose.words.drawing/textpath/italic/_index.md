@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.drawing/textpath/italic/
 ---
-## TextPath.Italic property
+## Italic property
 
 True if the font is formatted as italic.
 

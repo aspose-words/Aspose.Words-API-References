@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.fields/fieldcitation/suppresstitle/
 ---
-## FieldCitation.SuppressTitle property
+## SuppressTitle property
 
 Gets or sets whether the title information is suppressed from the citation.
 

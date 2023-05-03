@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.fields/fieldlink/insertasunicode/
 ---
-## FieldLink.InsertAsUnicode property
+## InsertAsUnicode property
 
 Gets or sets whether to insert the linked object as Unicode text.
 

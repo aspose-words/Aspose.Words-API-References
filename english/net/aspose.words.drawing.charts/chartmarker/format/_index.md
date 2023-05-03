@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/chartmarker/format/
 ---
-## ChartMarker.Format property
+## Format property
 
 Provides access to fill and line formatting of this marker.
 

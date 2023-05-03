@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldtoc/entrylevelrange/
 ---
-## FieldToc.EntryLevelRange property
+## EntryLevelRange property
 
 Gets or sets a range of levels of the table of contents entries to be included.
 

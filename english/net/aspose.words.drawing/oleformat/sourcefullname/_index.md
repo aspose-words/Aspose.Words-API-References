@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words.drawing/oleformat/sourcefullname/
 ---
-## OleFormat.SourceFullName property
+## SourceFullName property
 
 Gets or sets the path and name of the source file for the linked OLE object.
 

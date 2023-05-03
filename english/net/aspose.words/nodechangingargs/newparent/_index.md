@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/nodechangingargs/newparent/
 ---
-## NodeChangingArgs.NewParent property
+## NewParent property
 
 Gets the node's parent that will be set after the operation completes.
 

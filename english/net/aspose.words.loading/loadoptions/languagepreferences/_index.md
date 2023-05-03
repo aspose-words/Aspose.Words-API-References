@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.loading/loadoptions/languagepreferences/
 ---
-## LoadOptions.LanguagePreferences property
+## LanguagePreferences property
 
 Gets language preferences that will be used when document is loading.
 

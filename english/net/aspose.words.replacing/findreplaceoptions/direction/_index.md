@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.replacing/findreplaceoptions/direction/
 ---
-## FindReplaceOptions.Direction property
+## Direction property
 
 Selects direction for replace. Default value is Forward.
 

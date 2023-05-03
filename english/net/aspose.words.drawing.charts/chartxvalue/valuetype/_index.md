@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words.drawing.charts/chartxvalue/valuetype/
 ---
-## ChartXValue.ValueType property
+## ValueType property
 
 Gets the type of the X value stored in the object.
 

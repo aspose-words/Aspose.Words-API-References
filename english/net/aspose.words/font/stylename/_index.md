@@ -7,7 +7,7 @@ type: docs
 weight: 420
 url: /net/aspose.words/font/stylename/
 ---
-## Font.StyleName property
+## StyleName property
 
 Gets or sets the name of the character style applied to this formatting.
 

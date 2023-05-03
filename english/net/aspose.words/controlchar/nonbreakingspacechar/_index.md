@@ -7,7 +7,7 @@ type: docs
 weight: 180
 url: /net/aspose.words/controlchar/nonbreakingspacechar/
 ---
-## ControlChar.NonBreakingSpaceChar field
+## NonBreakingSpaceChar field
 
 Non-breaking space character: (char)160.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.saving/fixedpagesaveoptions/equals/
 ---
-## FixedPageSaveOptions.Equals method
+## Equals method
 
 Determines whether the specified object is equal in value to the current object.
 

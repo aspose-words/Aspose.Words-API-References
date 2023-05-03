@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.vba/vbaproject/name/
 ---
-## VbaProject.Name property
+## Name property
 
 Gets or sets VBA project name.
 

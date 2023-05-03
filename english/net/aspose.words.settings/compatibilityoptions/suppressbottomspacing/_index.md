@@ -7,7 +7,7 @@ type: docs
 weight: 480
 url: /net/aspose.words.settings/compatibilityoptions/suppressbottomspacing/
 ---
-## CompatibilityOptions.SuppressBottomSpacing property
+## SuppressBottomSpacing property
 
 Ignore Exact Line Height for Last Line on Page.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fonts/systemfontsource/getsystemfontfolders/
 ---
-## SystemFontSource.GetSystemFontFolders method
+## GetSystemFontFolders method
 
 Returns system font folders or empty array if folders are not accessible.
 

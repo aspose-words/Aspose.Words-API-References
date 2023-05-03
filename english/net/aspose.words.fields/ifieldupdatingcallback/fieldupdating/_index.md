@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/ifieldupdatingcallback/fieldupdating/
 ---
-## IFieldUpdatingCallback.FieldUpdating method
+## FieldUpdating method
 
 A user defined method that is called just before a field is updated.
 

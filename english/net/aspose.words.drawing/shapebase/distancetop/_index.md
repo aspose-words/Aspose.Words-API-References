@@ -7,7 +7,7 @@ type: docs
 weight: 160
 url: /net/aspose.words.drawing/shapebase/distancetop/
 ---
-## ShapeBase.DistanceTop property
+## DistanceTop property
 
 Returns or sets the distance (in points) between the document text and the top edge of the shape.
 

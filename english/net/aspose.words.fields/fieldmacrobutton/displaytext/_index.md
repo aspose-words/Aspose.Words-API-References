@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldmacrobutton/displaytext/
 ---
-## FieldMacroButton.DisplayText property
+## DisplayText property
 
 Gets or sets the text to appear as the "button" that is selected to run the macro or command.
 

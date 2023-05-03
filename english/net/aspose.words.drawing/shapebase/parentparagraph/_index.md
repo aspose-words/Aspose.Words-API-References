@@ -7,7 +7,7 @@ type: docs
 weight: 410
 url: /net/aspose.words.drawing/shapebase/parentparagraph/
 ---
-## ShapeBase.ParentParagraph property
+## ParentParagraph property
 
 Returns the immediate parent paragraph.
 

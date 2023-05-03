@@ -7,7 +7,7 @@ type: docs
 weight: 360
 url: /net/aspose.words.settings/compatibilityoptions/nospaceraiselower/
 ---
-## CompatibilityOptions.NoSpaceRaiseLower property
+## NoSpaceRaiseLower property
 
 Do Not Increase Line Height for Raised/Lowered Text.
 

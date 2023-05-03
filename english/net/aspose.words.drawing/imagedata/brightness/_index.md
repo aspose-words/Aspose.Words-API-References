@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.drawing/imagedata/brightness/
 ---
-## ImageData.Brightness property
+## Brightness property
 
 Gets or sets the brightness of the picture. The value for this property must be a number from 0.0 (dimmest) to 1.0 (brightest).
 

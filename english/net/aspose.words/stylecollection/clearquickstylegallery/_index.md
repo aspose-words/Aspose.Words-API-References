@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words/stylecollection/clearquickstylegallery/
 ---
-## StyleCollection.ClearQuickStyleGallery method
+## ClearQuickStyleGallery method
 
 Removes all styles from the Quick Style Gallery panel.
 

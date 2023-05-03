@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/tabstop/leader/
 ---
-## TabStop.Leader property
+## Leader property
 
 Gets or sets the type of the leader line displayed under the tab character.
 

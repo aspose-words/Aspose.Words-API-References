@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.drawing/shape/filled/
 ---
-## Shape.Filled property
+## Filled property
 
 Determines whether the closed path of the shape will be filled.
 

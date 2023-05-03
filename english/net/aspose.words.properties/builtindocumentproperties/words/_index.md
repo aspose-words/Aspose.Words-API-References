@@ -7,7 +7,7 @@ type: docs
 weight: 330
 url: /net/aspose.words.properties/builtindocumentproperties/words/
 ---
-## BuiltInDocumentProperties.Words property
+## Words property
 
 Represents an estimate of the number of words in the document.
 

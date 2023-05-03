@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/chartlegendentry/font/
 ---
-## ChartLegendEntry.Font property
+## Font property
 
 Provides access to the font formatting of this legend entry.
 

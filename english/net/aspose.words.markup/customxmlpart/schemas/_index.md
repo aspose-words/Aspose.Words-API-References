@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.markup/customxmlpart/schemas/
 ---
-## CustomXmlPart.Schemas property
+## Schemas property
 
 Specifies the set of XML schemas that are associated with this custom XML part.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 130
 url: /net/aspose.words.saving/saveoptions/saveformat/
 ---
-## SaveOptions.SaveFormat property
+## SaveFormat property
 
 Specifies the format in which the document will be saved if this save options object is used.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/nodechangingargs/action/
 ---
-## NodeChangingArgs.Action property
+## Action property
 
 Gets a value indicating what type of node change event is occurring.
 

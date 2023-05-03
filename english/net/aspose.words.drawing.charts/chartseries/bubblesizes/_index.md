@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/chartseries/bubblesizes/
 ---
-## ChartSeries.BubbleSizes property
+## BubbleSizes property
 
 Gets a collection of bubble sizes for this chart series.
 

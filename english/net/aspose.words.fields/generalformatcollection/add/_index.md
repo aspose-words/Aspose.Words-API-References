@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fields/generalformatcollection/add/
 ---
-## GeneralFormatCollection.Add method
+## Add method
 
 Adds a general format to the collection.
 

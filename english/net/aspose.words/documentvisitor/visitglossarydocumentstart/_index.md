@@ -7,7 +7,7 @@ type: docs
 weight: 250
 url: /net/aspose.words/documentvisitor/visitglossarydocumentstart/
 ---
-## DocumentVisitor.VisitGlossaryDocumentStart method
+## VisitGlossaryDocumentStart method
 
 Called when enumeration of a glossary document has started.
 

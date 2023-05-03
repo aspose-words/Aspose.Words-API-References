@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/convertutil/pixeltonewdpi/
 ---
-## ConvertUtil.PixelToNewDpi method
+## PixelToNewDpi method
 
 Converts pixels from one resolution to another.
 

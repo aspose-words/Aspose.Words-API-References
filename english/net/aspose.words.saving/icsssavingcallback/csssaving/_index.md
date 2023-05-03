@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.saving/icsssavingcallback/csssaving/
 ---
-## ICssSavingCallback.CssSaving method
+## CssSaving method
 
 Called when Aspose.Words saves an CSS (Cascading Style Sheet).
 

@@ -7,7 +7,7 @@ type: docs
 weight: 150
 url: /net/aspose.words.tables/table/distancetop/
 ---
-## Table.DistanceTop property
+## DistanceTop property
 
 Gets or sets distance between table top and the surrounding text, in points.
 

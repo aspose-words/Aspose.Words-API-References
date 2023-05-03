@@ -7,7 +7,7 @@ type: docs
 weight: 650
 url: /net/aspose.words.settings/compatibilityoptions/usesingleborderforcontiguouscells/
 ---
-## CompatibilityOptions.UseSingleBorderforContiguousCells property
+## UseSingleBorderforContiguousCells property
 
 Use Simplified Rules For Table Border Conflicts.
 

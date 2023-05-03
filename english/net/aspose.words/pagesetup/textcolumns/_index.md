@@ -7,7 +7,7 @@ type: docs
 weight: 420
 url: /net/aspose.words/pagesetup/textcolumns/
 ---
-## PageSetup.TextColumns property
+## TextColumns property
 
 Returns a collection that represents the set of text columns.
 

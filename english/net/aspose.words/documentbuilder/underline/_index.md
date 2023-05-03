@@ -7,7 +7,7 @@ type: docs
 weight: 190
 url: /net/aspose.words/documentbuilder/underline/
 ---
-## DocumentBuilder.Underline property
+## Underline property
 
 Gets/sets underline type for the current font.
 

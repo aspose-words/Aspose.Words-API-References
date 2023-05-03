@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words/tablestyle/columnstripe/
 ---
-## TableStyle.ColumnStripe property
+## ColumnStripe property
 
 Gets or sets a number of columns to include in the banding when the style specifies odd/even columns banding.
 

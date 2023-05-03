@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/chart/axes/
 ---
-## Chart.Axes property
+## Axes property
 
 Gets a collection of all axes of this chart.
 

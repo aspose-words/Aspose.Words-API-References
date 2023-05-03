@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/bookmark/bookmarkend/
 ---
-## Bookmark.BookmarkEnd property
+## BookmarkEnd property
 
 Gets the node that represents the end of the bookmark.
 

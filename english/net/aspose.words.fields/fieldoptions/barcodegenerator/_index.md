@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.fields/fieldoptions/barcodegenerator/
 ---
-## FieldOptions.BarcodeGenerator property
+## BarcodeGenerator property
 
 Gets or set custom barcode generator.
 

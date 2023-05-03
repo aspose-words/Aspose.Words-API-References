@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldlistnum/startingnumber/
 ---
-## FieldListNum.StartingNumber property
+## StartingNumber property
 
 Gets or sets the starting value for this field.
 

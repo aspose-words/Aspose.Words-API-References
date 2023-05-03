@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words/frameformat/width/
 ---
-## FrameFormat.Width property
+## Width property
 
 Gets the width of the specified frame, in points.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.reporting/jsondataloadoptions/exactdatetimeparseformats/
 ---
-## JsonDataLoadOptions.ExactDateTimeParseFormats property
+## ExactDateTimeParseFormats property
 
 Gets or sets exact formats for parsing JSON date-time values while loading JSON. The default is `null`.
 

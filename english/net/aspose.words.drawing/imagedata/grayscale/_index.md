@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words.drawing/imagedata/grayscale/
 ---
-## ImageData.GrayScale property
+## GrayScale property
 
 Determines whether a picture will display in grayscale mode.
 

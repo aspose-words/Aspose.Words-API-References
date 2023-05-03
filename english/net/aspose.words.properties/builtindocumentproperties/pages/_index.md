@@ -7,7 +7,7 @@ type: docs
 weight: 220
 url: /net/aspose.words.properties/builtindocumentproperties/pages/
 ---
-## BuiltInDocumentProperties.Pages property
+## Pages property
 
 Represents an estimate of the number of pages in the document.
 

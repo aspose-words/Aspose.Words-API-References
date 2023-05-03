@@ -7,7 +7,7 @@ type: docs
 weight: 150
 url: /net/aspose.words.loading/loadoptions/tempfolder/
 ---
-## LoadOptions.TempFolder property
+## TempFolder property
 
 Allows to use temporary files when reading document. By default this property is `null` and no temporary files are used.
 

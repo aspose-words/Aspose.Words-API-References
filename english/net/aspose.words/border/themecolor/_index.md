@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words/border/themecolor/
 ---
-## Border.ThemeColor property
+## ThemeColor property
 
 Gets or sets the theme color in the applied color scheme that is associated with this Border object.
 

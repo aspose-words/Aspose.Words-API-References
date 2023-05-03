@@ -7,7 +7,7 @@ type: docs
 weight: 140
 url: /net/aspose.words.fields/formfield/nodetype/
 ---
-## FormField.NodeType property
+## NodeType property
 
 Returns FormField.
 

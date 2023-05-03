@@ -7,7 +7,7 @@ type: docs
 weight: 170
 url: /net/aspose.words.drawing/fill/texturealignment/
 ---
-## Fill.TextureAlignment property
+## TextureAlignment property
 
 Gets or sets the alignment for tile texture fill.
 

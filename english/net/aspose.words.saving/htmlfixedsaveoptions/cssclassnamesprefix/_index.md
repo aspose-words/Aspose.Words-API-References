@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.saving/htmlfixedsaveoptions/cssclassnamesprefix/
 ---
-## HtmlFixedSaveOptions.CssClassNamesPrefix property
+## CssClassNamesPrefix property
 
 Specifies prefix which is added to all class names in style.css file. Default value is `"aw"`.
 

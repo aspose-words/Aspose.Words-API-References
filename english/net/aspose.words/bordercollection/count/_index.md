@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/bordercollection/count/
 ---
-## BorderCollection.Count property
+## Count property
 
 Gets the number of borders in the collection.
 

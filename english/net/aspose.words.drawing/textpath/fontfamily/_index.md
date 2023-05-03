@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.drawing/textpath/fontfamily/
 ---
-## TextPath.FontFamily property
+## FontFamily property
 
 Defines the family of the textpath font.
 

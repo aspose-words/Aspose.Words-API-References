@@ -7,7 +7,7 @@ type: docs
 weight: 180
 url: /net/aspose.words.saving/saveoptions/updatelastsavedtimeproperty/
 ---
-## SaveOptions.UpdateLastSavedTimeProperty property
+## UpdateLastSavedTimeProperty property
 
 Gets or sets a value determining whether the [`LastSavedTime`](../../../aspose.words.properties/builtindocumentproperties/lastsavedtime/) property is updated before saving.
 

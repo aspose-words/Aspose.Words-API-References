@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.notes/footnoteoptions/startnumber/
 ---
-## FootnoteOptions.StartNumber property
+## StartNumber property
 
 Specifies the starting number or character for the first automatically numbered footnotes.
 

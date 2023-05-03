@@ -7,7 +7,7 @@ type: docs
 weight: 260
 url: /net/aspose.words.properties/builtindocumentproperties/subject/
 ---
-## BuiltInDocumentProperties.Subject property
+## Subject property
 
 Gets or sets the subject of the document.
 

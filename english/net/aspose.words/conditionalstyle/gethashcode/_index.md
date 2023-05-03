@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words/conditionalstyle/gethashcode/
 ---
-## ConditionalStyle.GetHashCode method
+## GetHashCode method
 
 Calculates hash code for this object.
 

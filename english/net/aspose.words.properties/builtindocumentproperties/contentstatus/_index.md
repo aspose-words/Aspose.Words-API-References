@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.properties/builtindocumentproperties/contentstatus/
 ---
-## BuiltInDocumentProperties.ContentStatus property
+## ContentStatus property
 
 Gets or sets the ContentStatus of the document.
 

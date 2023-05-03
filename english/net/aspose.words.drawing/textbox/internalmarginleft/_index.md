@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.drawing/textbox/internalmarginleft/
 ---
-## TextBox.InternalMarginLeft property
+## InternalMarginLeft property
 
 Specifies the inner left margin in points for a shape.
 

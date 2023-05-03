@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.drawing/fill/backtintandshade/
 ---
-## Fill.BackTintAndShade property
+## BackTintAndShade property
 
 Gets or sets a double value that lightens or darkens the background color.
 

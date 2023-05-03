@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.lists/listlevel/numberposition/
 ---
-## ListLevel.NumberPosition property
+## NumberPosition property
 
 Returns or sets the position (in points) of the number or bullet for the list level.
 

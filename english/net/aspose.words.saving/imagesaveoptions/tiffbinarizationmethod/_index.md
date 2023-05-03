@@ -7,7 +7,7 @@ type: docs
 weight: 160
 url: /net/aspose.words.saving/imagesaveoptions/tiffbinarizationmethod/
 ---
-## ImageSaveOptions.TiffBinarizationMethod property
+## TiffBinarizationMethod property
 
 Gets or sets method used while converting images to 1 bpp format when [`SaveFormat`](../saveformat/) is Tiff and [`TiffCompression`](../tiffcompression/) is equal to Ccitt3 or Ccitt4.
 

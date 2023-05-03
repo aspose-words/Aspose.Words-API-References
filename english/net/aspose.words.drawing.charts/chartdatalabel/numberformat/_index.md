@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.drawing.charts/chartdatalabel/numberformat/
 ---
-## ChartDataLabel.NumberFormat property
+## NumberFormat property
 
 Returns number format of the parent element.
 

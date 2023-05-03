@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fields/ifieldresultformatter/formatnumeric/
 ---
-## IFieldResultFormatter.FormatNumeric method
+## FormatNumeric method
 
 Called when Aspose.Words applies a numeric format switch, i.e. \# "#.##".
 

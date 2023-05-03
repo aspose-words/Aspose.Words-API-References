@@ -7,7 +7,7 @@ type: docs
 weight: 140
 url: /net/aspose.words/controlchar/linefeed/
 ---
-## ControlChar.LineFeed field
+## LineFeed field
 
 Line feed character: "\x000a" or "\n". Same as [`Lf`](../lf/).
 

@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words/documentvisitor/visitcommentrangestart/
 ---
-## DocumentVisitor.VisitCommentRangeStart method
+## VisitCommentRangeStart method
 
 Called when the start of a commented range of text is encountered.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.saving/svgsaveoptions/fittoviewport/
 ---
-## SvgSaveOptions.FitToViewPort property
+## FitToViewPort property
 
 Specifies if the output SVG should fill the available viewport area (browser window or container). When set to `true` width and height of output SVG are set to 100%.
 

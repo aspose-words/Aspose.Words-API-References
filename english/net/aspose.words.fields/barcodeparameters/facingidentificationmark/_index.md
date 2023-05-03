@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.fields/barcodeparameters/facingidentificationmark/
 ---
-## BarcodeParameters.FacingIdentificationMark property
+## FacingIdentificationMark property
 
 Type of a Facing Identification Mark (FIM).
 

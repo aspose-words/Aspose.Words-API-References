@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words.drawing.charts/chartseries/name/
 ---
-## ChartSeries.Name property
+## Name property
 
 Gets or sets the name of the series, if name is not set explicitly it is generated using index. By default returns Series plus one based index.
 

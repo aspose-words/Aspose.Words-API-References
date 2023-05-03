@@ -7,7 +7,7 @@ type: docs
 weight: 170
 url: /net/aspose.words.drawing/shapebase/fill/
 ---
-## ShapeBase.Fill property
+## Fill property
 
 Gets fill formatting for the shape.
 

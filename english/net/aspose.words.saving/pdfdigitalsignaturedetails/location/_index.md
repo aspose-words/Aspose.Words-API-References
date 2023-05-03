@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.saving/pdfdigitalsignaturedetails/location/
 ---
-## PdfDigitalSignatureDetails.Location property
+## Location property
 
 Gets or sets the location of the signing.
 

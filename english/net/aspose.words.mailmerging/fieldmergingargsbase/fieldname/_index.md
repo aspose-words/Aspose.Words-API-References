@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.mailmerging/fieldmergingargsbase/fieldname/
 ---
-## FieldMergingArgsBase.FieldName property
+## FieldName property
 
 Gets the name of the merge field in the data source.
 

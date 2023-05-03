@@ -7,7 +7,7 @@ type: docs
 weight: 200
 url: /net/aspose.words/document/hasrevisions/
 ---
-## Document.HasRevisions property
+## HasRevisions property
 
 Returns `true` if the document has any tracked changes.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.saving/pagesavingargs/pagefilename/
 ---
-## PageSavingArgs.PageFileName property
+## PageFileName property
 
 Gets or sets the file name where the document page will be saved to.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words.fields/fieldddeauto/sourceitem/
 ---
-## FieldDdeAuto.SourceItem property
+## SourceItem property
 
 Gets or sets the portion of the source file that's being linked.
 

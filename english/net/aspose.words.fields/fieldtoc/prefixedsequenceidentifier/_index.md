@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words.fields/fieldtoc/prefixedsequenceidentifier/
 ---
-## FieldToc.PrefixedSequenceIdentifier property
+## PrefixedSequenceIdentifier property
 
 Gets or sets the identifier of a sequence for which a prefix should be added to the entry's page number.
 

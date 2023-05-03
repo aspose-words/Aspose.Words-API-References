@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/chartseries/datalabels/
 ---
-## ChartSeries.DataLabels property
+## DataLabels property
 
 Specifies the settings for the data labels for the entire series.
 

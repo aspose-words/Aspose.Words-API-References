@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/subdocument/accept/
 ---
-## SubDocument.Accept method
+## Accept method
 
 Accepts a visitor.
 

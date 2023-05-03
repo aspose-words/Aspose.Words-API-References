@@ -7,7 +7,7 @@ type: docs
 weight: 270
 url: /net/aspose.words/font/nameother/
 ---
-## Font.NameOther property
+## NameOther property
 
 Returns or sets the font used for characters with character codes from 128 through 255.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/conditionalstyle/borders/
 ---
-## ConditionalStyle.Borders property
+## Borders property
 
 Gets the collection of default cell borders for the conditional style.
 

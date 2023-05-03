@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words/textcolumncollection/spacing/
 ---
-## TextColumnCollection.Spacing property
+## Spacing property
 
 When columns are evenly spaced, gets or sets the amount of space between each column in points.
 

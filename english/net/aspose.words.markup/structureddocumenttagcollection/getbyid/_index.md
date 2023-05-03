@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.markup/structureddocumenttagcollection/getbyid/
 ---
-## StructuredDocumentTagCollection.GetById method
+## GetById method
 
 Returns the structured document tag by identifier.
 

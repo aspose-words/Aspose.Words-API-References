@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words.saving/fontsavingargs/originalfilesize/
 ---
-## FontSavingArgs.OriginalFileSize property
+## OriginalFileSize property
 
 Gets the original font file size.
 

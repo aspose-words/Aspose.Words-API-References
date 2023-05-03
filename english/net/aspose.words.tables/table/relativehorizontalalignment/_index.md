@@ -7,7 +7,7 @@ type: docs
 weight: 230
 url: /net/aspose.words.tables/table/relativehorizontalalignment/
 ---
-## Table.RelativeHorizontalAlignment property
+## RelativeHorizontalAlignment property
 
 Gets or sets floating table relative horizontal alignment.
 

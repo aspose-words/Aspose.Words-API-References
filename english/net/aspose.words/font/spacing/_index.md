@@ -7,7 +7,7 @@ type: docs
 weight: 380
 url: /net/aspose.words/font/spacing/
 ---
-## Font.Spacing property
+## Spacing property
 
 Returns or sets the spacing (in points) between characters .
 

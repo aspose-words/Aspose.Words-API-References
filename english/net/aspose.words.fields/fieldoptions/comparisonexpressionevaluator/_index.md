@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldoptions/comparisonexpressionevaluator/
 ---
-## FieldOptions.ComparisonExpressionEvaluator property
+## ComparisonExpressionEvaluator property
 
 Gets or sets the field comparison expressions evaluator.
 

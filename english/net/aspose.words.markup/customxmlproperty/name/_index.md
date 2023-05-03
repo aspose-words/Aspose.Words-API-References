@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.markup/customxmlproperty/name/
 ---
-## CustomXmlProperty.Name property
+## Name property
 
 Specifies the name of the custom XML attribute or smart tag property.
 

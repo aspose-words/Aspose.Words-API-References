@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words/revision/reject/
 ---
-## Revision.Reject method
+## Reject method
 
 Reject this revision.
 

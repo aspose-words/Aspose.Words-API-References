@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words/inlinestory/storytype/
 ---
-## InlineStory.StoryType property
+## StoryType property
 
 Returns the type of the story.
 

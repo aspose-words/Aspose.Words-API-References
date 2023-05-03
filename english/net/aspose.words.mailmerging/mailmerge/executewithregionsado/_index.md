@@ -7,7 +7,7 @@ type: docs
 weight: 210
 url: /net/aspose.words.mailmerging/mailmerge/executewithregionsado/
 ---
-## MailMerge.ExecuteWithRegionsADO method
+## ExecuteWithRegionsADO method
 
 Performs mail merge from an ADO Recordset object into the document with mail merge regions.
 

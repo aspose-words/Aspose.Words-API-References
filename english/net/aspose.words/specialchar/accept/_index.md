@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/specialchar/accept/
 ---
-## SpecialChar.Accept method
+## Accept method
 
 Accepts a visitor.
 

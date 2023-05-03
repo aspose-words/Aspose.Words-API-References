@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.fields/fieldlink/insertastext/
 ---
-## FieldLink.InsertAsText property
+## InsertAsText property
 
 Gets or sets whether to insert the linked object in text-only format.
 

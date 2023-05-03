@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.saving/documentpartsavingargs/document/
 ---
-## DocumentPartSavingArgs.Document property
+## Document property
 
 Gets the document object that is being saved.
 

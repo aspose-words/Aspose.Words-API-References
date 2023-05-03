@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.saving/fixedpagesaveoptions/colormode/
 ---
-## FixedPageSaveOptions.ColorMode property
+## ColorMode property
 
 Gets or sets a value determining how colors are rendered.
 

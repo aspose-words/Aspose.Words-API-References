@@ -7,7 +7,7 @@ type: docs
 weight: 150
 url: /net/aspose.words.settings/mailmergesettings/odso/
 ---
-## MailMergeSettings.Odso property
+## Odso property
 
 Gets or sets the object that specifies the Office Data Source Object (ODSO) settings.
 

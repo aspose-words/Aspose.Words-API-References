@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.digitalsignatures/signoptions/decryptionpassword/
 ---
-## SignOptions.DecryptionPassword property
+## DecryptionPassword property
 
 The password to decrypt source document. Default value is **empty string** (Empty).
 

@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words.fields/fieldoptions/fieldupdatingprogresscallback/
 ---
-## FieldOptions.FieldUpdatingProgressCallback property
+## FieldUpdatingProgressCallback property
 
 Gets or sets [`IFieldUpdatingProgressCallback`](../../ifieldupdatingprogresscallback/) implementation.
 

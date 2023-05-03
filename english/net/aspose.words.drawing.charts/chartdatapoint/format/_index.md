@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/chartdatapoint/format/
 ---
-## ChartDataPoint.Format property
+## Format property
 
 Provides access to fill and line formatting of this data point.
 

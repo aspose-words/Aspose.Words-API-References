@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/documentbuilder/currentnode/
 ---
-## DocumentBuilder.CurrentNode property
+## CurrentNode property
 
 Gets the node that is currently selected in this DocumentBuilder.
 

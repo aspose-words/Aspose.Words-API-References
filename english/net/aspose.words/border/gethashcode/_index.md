@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words/border/gethashcode/
 ---
-## Border.GetHashCode method
+## GetHashCode method
 
 Serves as a hash function for this type.
 

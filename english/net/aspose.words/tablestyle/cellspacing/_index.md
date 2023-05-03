@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words/tablestyle/cellspacing/
 ---
-## TableStyle.CellSpacing property
+## CellSpacing property
 
 Gets or sets the amount of space (in points) between the cells.
 

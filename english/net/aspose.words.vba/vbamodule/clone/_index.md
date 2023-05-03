@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.vba/vbamodule/clone/
 ---
-## VbaModule.Clone method
+## Clone method
 
 Performs a copy of the [`VbaModule`](../).
 

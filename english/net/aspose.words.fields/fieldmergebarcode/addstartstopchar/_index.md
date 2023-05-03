@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldmergebarcode/addstartstopchar/
 ---
-## FieldMergeBarcode.AddStartStopChar property
+## AddStartStopChar property
 
 Gets or sets whether to add Start/Stop characters for barcode types NW7 and CODE39.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldoptions/customtocstyleseparator/
 ---
-## FieldOptions.CustomTocStyleSeparator property
+## CustomTocStyleSeparator property
 
 Gets or sets custom style separator for the \t switch in [`FieldToc`](../../fieldtoc/) field.
 

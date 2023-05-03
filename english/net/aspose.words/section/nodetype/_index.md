@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/section/nodetype/
 ---
-## Section.NodeType property
+## NodeType property
 
 Returns Section.
 

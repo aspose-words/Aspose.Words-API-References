@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/frameformat/height/
 ---
-## FrameFormat.Height property
+## Height property
 
 Gets the height of the specified frame.
 

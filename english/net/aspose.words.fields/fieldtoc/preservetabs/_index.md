@@ -7,7 +7,7 @@ type: docs
 weight: 140
 url: /net/aspose.words.fields/fieldtoc/preservetabs/
 ---
-## FieldToc.PreserveTabs property
+## PreserveTabs property
 
 Gets or sets whether to preserve tab entries within table entries.
 

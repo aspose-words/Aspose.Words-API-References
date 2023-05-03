@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.fields/fielddatabase/lastrecord/
 ---
-## FieldDatabase.LastRecord property
+## LastRecord property
 
 Gets or sets the integral record number of the last data record to insert.
 

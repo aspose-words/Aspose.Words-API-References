@@ -7,7 +7,7 @@ type: docs
 weight: 600
 url: /net/aspose.words.settings/compatibilityoptions/usealtkinsokulinebreakrules/
 ---
-## CompatibilityOptions.UseAltKinsokuLineBreakRules property
+## UseAltKinsokuLineBreakRules property
 
 Use Alternate Set of East Asian Line Breaking Rules.
 

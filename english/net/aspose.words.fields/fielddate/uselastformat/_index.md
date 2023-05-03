@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/fielddate/uselastformat/
 ---
-## FieldDate.UseLastFormat property
+## UseLastFormat property
 
 Gets or sets whether to use a format last used by the hosting application when inserting a new DATE field.
 

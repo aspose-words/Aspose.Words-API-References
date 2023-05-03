@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.saving/pdfsaveoptions/additionaltextpositioning/
 ---
-## PdfSaveOptions.AdditionalTextPositioning property
+## AdditionalTextPositioning property
 
 A flag specifying whether to write additional text positioning operators or not.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.markup/customxmlschemacollection/add/
 ---
-## CustomXmlSchemaCollection.Add method
+## Add method
 
 Adds an item to the collection.
 

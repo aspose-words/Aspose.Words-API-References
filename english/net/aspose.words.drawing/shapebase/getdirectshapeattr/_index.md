@@ -7,7 +7,7 @@ type: docs
 weight: 650
 url: /net/aspose.words.drawing/shapebase/getdirectshapeattr/
 ---
-## ShapeBase.GetDirectShapeAttr method
+## GetDirectShapeAttr method
 
 Reserved for system use. IShapeAttrSource.
 

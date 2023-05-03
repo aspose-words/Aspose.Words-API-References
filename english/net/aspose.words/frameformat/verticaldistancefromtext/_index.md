@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words/frameformat/verticaldistancefromtext/
 ---
-## FrameFormat.VerticalDistanceFromText property
+## VerticalDistanceFromText property
 
 Specifies vertical distance (in points) between a frame and the surrounding text.
 

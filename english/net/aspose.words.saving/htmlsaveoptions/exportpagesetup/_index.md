@@ -7,7 +7,7 @@ type: docs
 weight: 230
 url: /net/aspose.words.saving/htmlsaveoptions/exportpagesetup/
 ---
-## HtmlSaveOptions.ExportPageSetup property
+## ExportPageSetup property
 
 Specifies whether page setup is exported to HTML, MHTML or EPUB. Default is `false`.
 

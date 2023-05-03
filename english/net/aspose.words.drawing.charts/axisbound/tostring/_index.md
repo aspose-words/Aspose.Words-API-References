@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.drawing.charts/axisbound/tostring/
 ---
-## AxisBound.ToString method
+## ToString method
 
 Returns a user-friendly string that displays the value of this object.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 150
 url: /net/aspose.words.fields/fieldindex/sequencename/
 ---
-## FieldIndex.SequenceName property
+## SequenceName property
 
 Gets or sets the name of a sequence whose number is included with the page number.
 

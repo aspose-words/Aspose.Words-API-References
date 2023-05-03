@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.saving/resourcesavingargs/resourcefileuri/
 ---
-## ResourceSavingArgs.ResourceFileUri property
+## ResourceFileUri property
 
 Gets or sets the uniform resource identifier (URI) used to reference the resource file from the document.
 

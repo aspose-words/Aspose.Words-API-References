@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.notes/footnoteoptions/columns/
 ---
-## FootnoteOptions.Columns property
+## Columns property
 
 Specifies the number of columns with which the footnotes area is formatted.
 

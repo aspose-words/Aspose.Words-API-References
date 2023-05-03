@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldnoteref/insertrelativeposition/
 ---
-## FieldNoteRef.InsertRelativePosition property
+## InsertRelativePosition property
 
 Gets or sets whether to insert a relative position of the bookmarked paragraph.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 130
 url: /net/aspose.words/section/ensureminimum/
 ---
-## Section.EnsureMinimum method
+## EnsureMinimum method
 
 Ensures that the section has [`Body`](../body/) with one [`Paragraph`](../../paragraph/).
 

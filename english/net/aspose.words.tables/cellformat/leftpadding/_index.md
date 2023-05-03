@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.tables/cellformat/leftpadding/
 ---
-## CellFormat.LeftPadding property
+## LeftPadding property
 
 Returns or sets the amount of space (in points) to add to the left of the contents of cell.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.drawing.ole/forms2olecontrol/childnodes/
 ---
-## Forms2OleControl.ChildNodes property
+## ChildNodes property
 
 Gets collection of immediate child controls.
 

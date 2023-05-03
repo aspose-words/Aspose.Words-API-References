@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.markup/structureddocumenttag/buildingblockgallery/
 ---
-## StructuredDocumentTag.BuildingBlockGallery property
+## BuildingBlockGallery property
 
 Specifies type of building block for this **SDT**. Can not be `null`.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 520
 url: /net/aspose.words.drawing/shapebase/target/
 ---
-## ShapeBase.Target property
+## Target property
 
 Gets or sets the target frame for the shape hyperlink.
 

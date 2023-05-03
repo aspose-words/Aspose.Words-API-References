@@ -7,7 +7,7 @@ type: docs
 weight: 130
 url: /net/aspose.words.saving/pdfsaveoptions/encryptiondetails/
 ---
-## PdfSaveOptions.EncryptionDetails property
+## EncryptionDetails property
 
 Gets or sets the details for encrypting the output PDF document.
 

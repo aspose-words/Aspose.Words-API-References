@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldautonumlgl/removetrailingperiod/
 ---
-## FieldAutoNumLgl.RemoveTrailingPeriod property
+## RemoveTrailingPeriod property
 
 Gets or sets whether to display the number without a trailing period.
 

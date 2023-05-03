@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.saving/markdownsaveoptions/exportimagesasbase64/
 ---
-## MarkdownSaveOptions.ExportImagesAsBase64 property
+## ExportImagesAsBase64 property
 
 Specifies whether images are saved in Base64 format to the output file. Default value is `false`.
 

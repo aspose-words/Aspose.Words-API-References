@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldincludepicture/islinked/
 ---
-## FieldIncludePicture.IsLinked property
+## IsLinked property
 
 Gets or sets whether to reduce the file size by not storing graphics data with the document.
 

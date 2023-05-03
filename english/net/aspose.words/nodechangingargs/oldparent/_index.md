@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/nodechangingargs/oldparent/
 ---
-## NodeChangingArgs.OldParent property
+## OldParent property
 
 Gets the node's parent before the operation began.
 

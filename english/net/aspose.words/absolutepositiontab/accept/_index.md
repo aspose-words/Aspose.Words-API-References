@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/absolutepositiontab/accept/
 ---
-## AbsolutePositionTab.Accept method
+## Accept method
 
 Accepts a visitor.
 

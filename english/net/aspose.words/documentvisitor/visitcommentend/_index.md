@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words/documentvisitor/visitcommentend/
 ---
-## DocumentVisitor.VisitCommentEnd method
+## VisitCommentEnd method
 
 Called when enumeration of a comment text has ended.
 

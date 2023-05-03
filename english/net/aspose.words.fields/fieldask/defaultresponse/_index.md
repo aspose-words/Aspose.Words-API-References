@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldask/defaultresponse/
 ---
-## FieldAsk.DefaultResponse property
+## DefaultResponse property
 
 Gets or sets default user response (initial value contained in the prompt window).
 

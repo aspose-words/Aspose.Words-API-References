@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.lists/list/ismultilevel/
 ---
-## List.IsMultiLevel property
+## IsMultiLevel property
 
 Returns `true` when the list contains 9 levels; `false` when 1 level.
 

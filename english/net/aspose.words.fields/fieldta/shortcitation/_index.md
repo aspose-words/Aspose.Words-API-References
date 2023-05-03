@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.fields/fieldta/shortcitation/
 ---
-## FieldTA.ShortCitation property
+## ShortCitation property
 
 Gets or sets the short citation for the entry.
 

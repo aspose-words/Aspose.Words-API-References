@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.math/officemath/parentparagraph/
 ---
-## OfficeMath.ParentParagraph property
+## ParentParagraph property
 
 Retrieves the parent [`Paragraph`](../../../aspose.words/paragraph/) of this node.
 

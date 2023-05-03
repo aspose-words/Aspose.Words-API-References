@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words/stylecollection/add/
 ---
-## StyleCollection.Add method
+## Add method
 
 Creates a new user defined style and adds it the collection.
 

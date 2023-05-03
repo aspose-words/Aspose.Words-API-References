@@ -7,7 +7,7 @@ type: docs
 weight: 540
 url: /net/aspose.words.settings/compatibilityoptions/swapinsideandoutsideformirrorindentsandrelativepositioning/
 ---
-## CompatibilityOptions.SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning property
+## SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning property
 
 Specifies to swap inside and outside for mirror indents and relative positioning.
 

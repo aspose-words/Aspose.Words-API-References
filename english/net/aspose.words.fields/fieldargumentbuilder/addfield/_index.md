@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldargumentbuilder/addfield/
 ---
-## FieldArgumentBuilder.AddField method
+## AddField method
 
 Adds a field represented by a [`FieldBuilder`](../../fieldbuilder/) to the argument.
 

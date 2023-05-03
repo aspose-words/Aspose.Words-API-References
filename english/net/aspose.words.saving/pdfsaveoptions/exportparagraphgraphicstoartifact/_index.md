@@ -7,7 +7,7 @@ type: docs
 weight: 160
 url: /net/aspose.words.saving/pdfsaveoptions/exportparagraphgraphicstoartifact/
 ---
-## PdfSaveOptions.ExportParagraphGraphicsToArtifact property
+## ExportParagraphGraphicsToArtifact property
 
 Gets or sets a value determining whether a paragraph graphic should be marked as an artifact.
 

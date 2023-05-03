@@ -7,7 +7,7 @@ type: docs
 weight: 210
 url: /net/aspose.words/font/localeidbi/
 ---
-## Font.LocaleIdBi property
+## LocaleIdBi property
 
 Gets or sets the locale identifier (language) of the formatted right-to-left characters.
 

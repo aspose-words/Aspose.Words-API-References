@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/chartyvalue/fromtimespan/
 ---
-## ChartYValue.FromTimeSpan method
+## FromTimeSpan method
 
 Creates a [`ChartYValue`](../) instance of the Time type.
 

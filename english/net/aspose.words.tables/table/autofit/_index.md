@@ -7,7 +7,7 @@ type: docs
 weight: 360
 url: /net/aspose.words.tables/table/autofit/
 ---
-## Table.AutoFit method
+## AutoFit method
 
 Resizes the table and cells according to the specified auto fit behavior.
 

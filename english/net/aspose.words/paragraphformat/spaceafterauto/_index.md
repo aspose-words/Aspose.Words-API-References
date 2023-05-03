@@ -7,7 +7,7 @@ type: docs
 weight: 300
 url: /net/aspose.words/paragraphformat/spaceafterauto/
 ---
-## ParagraphFormat.SpaceAfterAuto property
+## SpaceAfterAuto property
 
 True if the amount of spacing after the paragraph is set automatically.
 

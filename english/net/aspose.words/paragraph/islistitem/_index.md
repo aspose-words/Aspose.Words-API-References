@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words/paragraph/islistitem/
 ---
-## Paragraph.IsListItem property
+## IsListItem property
 
 True when the paragraph is an item in a bulleted or numbered list in original revision.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldhyperlink/screentip/
 ---
-## FieldHyperlink.ScreenTip property
+## ScreenTip property
 
 Gets or sets the ScreenTip text for the hyperlink.
 

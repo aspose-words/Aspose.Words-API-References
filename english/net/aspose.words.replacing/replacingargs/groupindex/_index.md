@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.replacing/replacingargs/groupindex/
 ---
-## ReplacingArgs.GroupIndex property
+## GroupIndex property
 
 Identifies, by index, a captured group in the [`Match`](../match/) that is to be replaced with the [`Replacement`](../replacement/) string.
 

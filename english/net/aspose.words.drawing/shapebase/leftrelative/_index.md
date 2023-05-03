@@ -7,7 +7,7 @@ type: docs
 weight: 380
 url: /net/aspose.words.drawing/shapebase/leftrelative/
 ---
-## ShapeBase.LeftRelative property
+## LeftRelative property
 
 Gets or sets the value that represents shape's relative left position in percent.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.settings/odsorecipientdata/active/
 ---
-## OdsoRecipientData.Active property
+## Active property
 
 Specifies whether the record from the data source shall be imported into a document when the mail merge is performed. The default value is `true`.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.saving/pdfsaveoptions/compliance/
 ---
-## PdfSaveOptions.Compliance property
+## Compliance property
 
 Specifies the PDF standards compliance level for output documents.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldseq/sequenceidentifier/
 ---
-## FieldSeq.SequenceIdentifier property
+## SequenceIdentifier property
 
 Gets or sets the name assigned to the series of items that are to be numbered.
 

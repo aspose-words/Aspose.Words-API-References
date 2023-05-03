@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.rendering/pageinfo/papersize/
 ---
-## PageInfo.PaperSize property
+## PaperSize property
 
 Gets the paper size as enumeration.
 

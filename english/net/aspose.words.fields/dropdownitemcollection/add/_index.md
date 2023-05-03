@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fields/dropdownitemcollection/add/
 ---
-## DropDownItemCollection.Add method
+## Add method
 
 Adds a string to the end of the collection.
 

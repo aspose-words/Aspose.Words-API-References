@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/fielduseraddress/useraddress/
 ---
-## FieldUserAddress.UserAddress property
+## UserAddress property
 
 Gets or sets the current user's postal address.
 

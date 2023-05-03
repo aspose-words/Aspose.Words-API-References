@@ -7,7 +7,7 @@ type: docs
 weight: 130
 url: /net/aspose.words.drawing/fill/opacity/
 ---
-## Fill.Opacity property
+## Opacity property
 
 Gets or sets the degree of opacity of the specified fill as a value between 0.0 (clear) and 1.0 (opaque).
 

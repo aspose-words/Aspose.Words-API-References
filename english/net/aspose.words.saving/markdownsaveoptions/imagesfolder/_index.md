@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.saving/markdownsaveoptions/imagesfolder/
 ---
-## MarkdownSaveOptions.ImagesFolder property
+## ImagesFolder property
 
 Specifies the physical folder where images are saved when exporting a document to the Markdown format. Default is an empty string.
 

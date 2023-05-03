@@ -7,7 +7,7 @@ type: docs
 weight: 370
 url: /net/aspose.words/document/sections/
 ---
-## Document.Sections property
+## Sections property
 
 Returns a collection that represents all sections in the document.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words/comment/nodetype/
 ---
-## Comment.NodeType property
+## NodeType property
 
 Returns Comment.
 

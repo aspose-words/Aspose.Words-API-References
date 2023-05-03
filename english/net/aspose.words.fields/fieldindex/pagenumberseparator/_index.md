@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words.fields/fieldindex/pagenumberseparator/
 ---
-## FieldIndex.PageNumberSeparator property
+## PageNumberSeparator property
 
 Gets or sets the character sequence that is used to separate an index entry and its page number.
 

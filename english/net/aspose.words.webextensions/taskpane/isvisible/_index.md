@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.webextensions/taskpane/isvisible/
 ---
-## TaskPane.IsVisible property
+## IsVisible property
 
 Specifies whether the task pane shows as visible by default when the document opens.
 

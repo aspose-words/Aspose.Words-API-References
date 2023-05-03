@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.drawing.charts/chartyvalue/equals/
 ---
-## ChartYValue.Equals method
+## Equals method
 
 Gets a flag indicating whether the specified object is equal to the current Y value object.
 

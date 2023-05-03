@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.rendering/printersettingscontainer/defaultpagesettingspapersource/
 ---
-## PrinterSettingsContainer.DefaultPageSettingsPaperSource property
+## DefaultPageSettingsPaperSource property
 
 See PaperSource of DefaultPageSettings.
 

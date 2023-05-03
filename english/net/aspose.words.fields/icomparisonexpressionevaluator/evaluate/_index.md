@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.fields/icomparisonexpressionevaluator/evaluate/
 ---
-## IComparisonExpressionEvaluator.Evaluate method
+## Evaluate method
 
 Evaluates comparison expression.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.drawing/textbox/layoutflow/
 ---
-## TextBox.LayoutFlow property
+## LayoutFlow property
 
 Determines the flow of the text layout in a shape.
 

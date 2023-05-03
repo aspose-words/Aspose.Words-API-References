@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words/conditionalstylecollection/firstcolumn/
 ---
-## ConditionalStyleCollection.FirstColumn property
+## FirstColumn property
 
 Gets the first column style.
 

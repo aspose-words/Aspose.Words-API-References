@@ -7,7 +7,7 @@ type: docs
 weight: 130
 url: /net/aspose.words/node/nextpreorder/
 ---
-## Node.NextPreOrder method
+## NextPreOrder method
 
 Gets next node according to the pre-order tree traversal algorithm.
 

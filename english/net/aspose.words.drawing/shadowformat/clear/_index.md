@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.drawing/shadowformat/clear/
 ---
-## ShadowFormat.Clear method
+## Clear method
 
 Clears shadow format.
 

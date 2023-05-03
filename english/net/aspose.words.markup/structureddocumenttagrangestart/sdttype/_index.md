@@ -7,7 +7,7 @@ type: docs
 weight: 140
 url: /net/aspose.words.markup/structureddocumenttagrangestart/sdttype/
 ---
-## StructuredDocumentTagRangeStart.SdtType property
+## SdtType property
 
 Gets type of this structured document tag.
 

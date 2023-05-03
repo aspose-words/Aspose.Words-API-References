@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldcitation/pagenumber/
 ---
-## FieldCitation.PageNumber property
+## PageNumber property
 
 Gets or sets a page number associated with the citation.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldadvance/rightoffset/
 ---
-## FieldAdvance.RightOffset property
+## RightOffset property
 
 Gets or sets the number of points by which the text that follows the field should be moved right.
 

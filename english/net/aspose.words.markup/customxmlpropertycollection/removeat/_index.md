@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.markup/customxmlpropertycollection/removeat/
 ---
-## CustomXmlPropertyCollection.RemoveAt method
+## RemoveAt method
 
 Removes a property at the specified index.
 

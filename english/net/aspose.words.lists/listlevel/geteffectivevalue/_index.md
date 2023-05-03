@@ -7,7 +7,7 @@ type: docs
 weight: 190
 url: /net/aspose.words.lists/listlevel/geteffectivevalue/
 ---
-## ListLevel.GetEffectiveValue method
+## GetEffectiveValue method
 
 Reports the string representation of the [`ListLevel`](../) object for the specified index of the list item. Parameters specify the [`NumberStyle`](../../../aspose.words/numberstyle/) and an optional format string used when Custom is specified.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 550
 url: /net/aspose.words.settings/compatibilityoptions/transparentmetafiles/
 ---
-## CompatibilityOptions.TransparentMetafiles property
+## TransparentMetafiles property
 
 Specifies not to blank the area behind metafile pictures.
 

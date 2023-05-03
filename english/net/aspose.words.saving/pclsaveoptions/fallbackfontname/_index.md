@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.saving/pclsaveoptions/fallbackfontname/
 ---
-## PclSaveOptions.FallbackFontName property
+## FallbackFontName property
 
 Name of the font that will be used if no expected font is found in printer and built-in fonts collections.
 

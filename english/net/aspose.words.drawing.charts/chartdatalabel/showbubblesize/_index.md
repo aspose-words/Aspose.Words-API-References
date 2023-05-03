@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.drawing.charts/chartdatalabel/showbubblesize/
 ---
-## ChartDataLabel.ShowBubbleSize property
+## ShowBubbleSize property
 
 Allows to specify if bubble size is to be displayed for the data labels on a chart. Applies only to Bubble charts. Default value is `false`.
 

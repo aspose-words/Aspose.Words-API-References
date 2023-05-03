@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.math/officemath/justification/
 ---
-## OfficeMath.Justification property
+## Justification property
 
 Gets/sets Office Math justification.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.drawing/fill/forethemecolor/
 ---
-## Fill.ForeThemeColor property
+## ForeThemeColor property
 
 Gets or sets a ThemeColor object that represents the foreground color for the fill.
 

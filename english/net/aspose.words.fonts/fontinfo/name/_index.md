@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.fonts/fontinfo/name/
 ---
-## FontInfo.Name property
+## Name property
 
 Gets the name of the font.
 

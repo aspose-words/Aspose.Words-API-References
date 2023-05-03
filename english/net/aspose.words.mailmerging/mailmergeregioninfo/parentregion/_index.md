@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.mailmerging/mailmergeregioninfo/parentregion/
 ---
-## MailMergeRegionInfo.ParentRegion property
+## ParentRegion property
 
 Returns parent region info (null for top-level region).
 

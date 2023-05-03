@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.drawing/imagedata/chromakey/
 ---
-## ImageData.ChromaKey property
+## ChromaKey property
 
 Defines the color value of the image that will be treated as transparent.
 

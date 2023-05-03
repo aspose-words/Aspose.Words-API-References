@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.properties/documentproperty/tobytearray/
 ---
-## DocumentProperty.ToByteArray method
+## ToByteArray method
 
 Returns the property value as byte array.
 

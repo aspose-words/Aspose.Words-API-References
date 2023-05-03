@@ -7,7 +7,7 @@ type: docs
 weight: 180
 url: /net/aspose.words.drawing/stroke/startarrowwidth/
 ---
-## Stroke.StartArrowWidth property
+## StartArrowWidth property
 
 Defines the arrowhead width for the start of a stroke.
 

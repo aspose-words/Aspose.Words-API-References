@@ -7,7 +7,7 @@ type: docs
 weight: 150
 url: /net/aspose.words.drawing.charts/chartaxis/minortickmark/
 ---
-## ChartAxis.MinorTickMark property
+## MinorTickMark property
 
 Returns or sets the minor tick marks for the axis.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldsavedate/uselunarcalendar/
 ---
-## FieldSaveDate.UseLunarCalendar property
+## UseLunarCalendar property
 
 Gets or sets whether to use the Hijri Lunar or Hebrew Lunar calendar.
 

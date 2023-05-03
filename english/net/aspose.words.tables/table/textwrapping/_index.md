@@ -7,7 +7,7 @@ type: docs
 weight: 310
 url: /net/aspose.words.tables/table/textwrapping/
 ---
-## Table.TextWrapping property
+## TextWrapping property
 
 Gets or sets `TextWrapping` for table.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 160
 url: /net/aspose.words.tables/cellformat/setpaddings/
 ---
-## CellFormat.SetPaddings method
+## SetPaddings method
 
 Sets the amount of space (in points) to add to the left/top/right/bottom of the contents of cell.
 

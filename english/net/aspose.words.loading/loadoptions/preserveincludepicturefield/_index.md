@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words.loading/loadoptions/preserveincludepicturefield/
 ---
-## LoadOptions.PreserveIncludePictureField property
+## PreserveIncludePictureField property
 
 Gets or sets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. The default value is `false`.
 

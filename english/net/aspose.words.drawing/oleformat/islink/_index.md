@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.drawing/oleformat/islink/
 ---
-## OleFormat.IsLink property
+## IsLink property
 
 Returns `true` if the OLE object is linked (when [`SourceFullName`](../sourcefullname/) is specified).
 

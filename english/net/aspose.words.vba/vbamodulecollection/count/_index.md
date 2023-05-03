@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.vba/vbamodulecollection/count/
 ---
-## VbaModuleCollection.Count property
+## Count property
 
 Returns the number of VBA modules in the collection.
 

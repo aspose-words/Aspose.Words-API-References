@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words/comment/storytype/
 ---
-## Comment.StoryType property
+## StoryType property
 
 Returns Comments.
 

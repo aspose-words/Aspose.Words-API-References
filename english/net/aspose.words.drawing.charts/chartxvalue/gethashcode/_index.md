@@ -7,7 +7,7 @@ type: docs
 weight: 130
 url: /net/aspose.words.drawing.charts/chartxvalue/gethashcode/
 ---
-## ChartXValue.GetHashCode method
+## GetHashCode method
 
 Gets a hash code for the current X value object.
 

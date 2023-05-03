@@ -7,7 +7,7 @@ type: docs
 weight: 280
 url: /net/aspose.words/font/noproofing/
 ---
-## Font.NoProofing property
+## NoProofing property
 
 True when the formatted characters are not to be spell checked.
 

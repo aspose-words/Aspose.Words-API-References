@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fields/comparisonexpression/rightexpression/
 ---
-## ComparisonExpression.RightExpression property
+## RightExpression property
 
 Gets the right expression.
 

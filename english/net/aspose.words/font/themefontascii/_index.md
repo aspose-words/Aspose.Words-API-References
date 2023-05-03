@@ -7,7 +7,7 @@ type: docs
 weight: 480
 url: /net/aspose.words/font/themefontascii/
 ---
-## Font.ThemeFontAscii property
+## ThemeFontAscii property
 
 Gets or sets the theme font used for Latin text (characters with character codes from 0 (zero) through 127) in the applied font scheme that is associated with this [`Font`](../) object.
 

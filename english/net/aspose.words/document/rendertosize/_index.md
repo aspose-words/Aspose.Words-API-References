@@ -7,7 +7,7 @@ type: docs
 weight: 690
 url: /net/aspose.words/document/rendertosize/
 ---
-## Document.RenderToSize method
+## RenderToSize method
 
 Renders a document page into a Graphics object to a specified size.
 

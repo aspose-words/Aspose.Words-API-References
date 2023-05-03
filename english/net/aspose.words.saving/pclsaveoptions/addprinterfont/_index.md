@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.saving/pclsaveoptions/addprinterfont/
 ---
-## PclSaveOptions.AddPrinterFont method
+## AddPrinterFont method
 
 Adds information about font that is uploaded to the printer by manufacturer.
 

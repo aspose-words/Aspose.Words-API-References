@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.saving/resourcesavingargs/resourcefilename/
 ---
-## ResourceSavingArgs.ResourceFileName property
+## ResourceFileName property
 
 Gets or sets the file name (without path) where the resource will be saved to.
 

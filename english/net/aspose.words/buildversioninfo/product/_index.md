@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/buildversioninfo/product/
 ---
-## BuildVersionInfo.Product property
+## Product property
 
 Gets the full name of the product.
 

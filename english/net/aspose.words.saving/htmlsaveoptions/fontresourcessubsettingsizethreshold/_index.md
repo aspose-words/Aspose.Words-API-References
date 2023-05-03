@@ -7,7 +7,7 @@ type: docs
 weight: 300
 url: /net/aspose.words.saving/htmlsaveoptions/fontresourcessubsettingsizethreshold/
 ---
-## HtmlSaveOptions.FontResourcesSubsettingSizeThreshold property
+## FontResourcesSubsettingSizeThreshold property
 
 Controls which font resources need subsetting when saving to HTML, MHTML or EPUB. Default is `0`.
 

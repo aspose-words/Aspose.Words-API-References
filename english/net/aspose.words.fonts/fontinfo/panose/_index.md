@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.fonts/fontinfo/panose/
 ---
-## FontInfo.Panose property
+## Panose property
 
 Gets or sets the PANOSE typeface classification number.
 

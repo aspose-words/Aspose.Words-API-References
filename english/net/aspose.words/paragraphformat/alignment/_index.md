@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/paragraphformat/alignment/
 ---
-## ParagraphFormat.Alignment property
+## Alignment property
 
 Gets or sets text alignment for the paragraph.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/documentbase/fontinfos/
 ---
-## DocumentBase.FontInfos property
+## FontInfos property
 
 Provides access to properties of fonts used in this document.
 

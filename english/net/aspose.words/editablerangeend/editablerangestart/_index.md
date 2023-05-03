@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/editablerangeend/editablerangestart/
 ---
-## EditableRangeEnd.EditableRangeStart property
+## EditableRangeStart property
 
 Corresponding [`EditableRangeStart`](../../editablerangestart/), received by ID.
 

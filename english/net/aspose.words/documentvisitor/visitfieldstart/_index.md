@@ -7,7 +7,7 @@ type: docs
 weight: 200
 url: /net/aspose.words/documentvisitor/visitfieldstart/
 ---
-## DocumentVisitor.VisitFieldStart method
+## VisitFieldStart method
 
 Called when a field starts in the document.
 

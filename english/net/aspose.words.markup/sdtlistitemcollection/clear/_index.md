@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.markup/sdtlistitemcollection/clear/
 ---
-## SdtListItemCollection.Clear method
+## Clear method
 
 Clears all items from this collection.
 

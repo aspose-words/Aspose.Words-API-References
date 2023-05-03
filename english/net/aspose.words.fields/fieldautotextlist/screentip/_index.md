@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldautotextlist/screentip/
 ---
-## FieldAutoTextList.ScreenTip property
+## ScreenTip property
 
 Gets or sets the text of the ScreenTip to show.
 

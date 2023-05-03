@@ -7,7 +7,7 @@ type: docs
 weight: 130
 url: /net/aspose.words/font/fill/
 ---
-## Font.Fill property
+## Fill property
 
 Gets fill formatting for the [`Font`](../).
 

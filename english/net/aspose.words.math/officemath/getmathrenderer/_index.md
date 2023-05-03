@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.math/officemath/getmathrenderer/
 ---
-## OfficeMath.GetMathRenderer method
+## GetMathRenderer method
 
 Creates and returns an object that can be used to render this equation into an image.
 

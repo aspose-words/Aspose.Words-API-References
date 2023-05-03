@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.drawing/shapebase/bottom/
 ---
-## ShapeBase.Bottom property
+## Bottom property
 
 Gets the position of the bottom edge of the containing block of the shape.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words.drawing/signatureline/signer/
 ---
-## SignatureLine.Signer property
+## Signer property
 
 Gets or sets suggested signer of the signature line. Default value for this property is **empty string** (Empty).
 

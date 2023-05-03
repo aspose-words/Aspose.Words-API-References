@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.replacing/findreplaceoptions/findwholewordsonly/
 ---
-## FindReplaceOptions.FindWholeWordsOnly property
+## FindWholeWordsOnly property
 
 True indicates the oldValue must be a standalone word.
 

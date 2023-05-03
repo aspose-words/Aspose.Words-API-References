@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words/pagesetup/charactersperline/
 ---
-## PageSetup.CharactersPerLine property
+## CharactersPerLine property
 
 Gets or sets the number of characters per line in the document grid.
 

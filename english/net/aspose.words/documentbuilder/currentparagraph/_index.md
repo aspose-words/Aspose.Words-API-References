@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words/documentbuilder/currentparagraph/
 ---
-## DocumentBuilder.CurrentParagraph property
+## CurrentParagraph property
 
 Gets the paragraph that is currently selected in this [`DocumentBuilder`](../).
 

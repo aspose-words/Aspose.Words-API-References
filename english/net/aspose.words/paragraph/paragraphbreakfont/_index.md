@@ -7,7 +7,7 @@ type: docs
 weight: 180
 url: /net/aspose.words/paragraph/paragraphbreakfont/
 ---
-## Paragraph.ParagraphBreakFont property
+## ParagraphBreakFont property
 
 Provides access to the font formatting of the paragraph break character.
 

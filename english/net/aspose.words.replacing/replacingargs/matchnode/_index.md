@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.replacing/replacingargs/matchnode/
 ---
-## ReplacingArgs.MatchNode property
+## MatchNode property
 
 Gets the node that contains the beginning of the match.
 

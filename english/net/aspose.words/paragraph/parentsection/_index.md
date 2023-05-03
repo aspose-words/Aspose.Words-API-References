@@ -7,7 +7,7 @@ type: docs
 weight: 200
 url: /net/aspose.words/paragraph/parentsection/
 ---
-## Paragraph.ParentSection property
+## ParentSection property
 
 Retrieves the parent [`Section`](../../section/) of the paragraph.
 

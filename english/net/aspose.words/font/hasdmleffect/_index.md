@@ -7,7 +7,7 @@ type: docs
 weight: 560
 url: /net/aspose.words/font/hasdmleffect/
 ---
-## Font.HasDmlEffect method
+## HasDmlEffect method
 
 Checks if particular DrawingML text effect is applied.
 

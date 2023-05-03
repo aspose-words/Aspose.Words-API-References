@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words.fields/fieldoptions/fieldupdateculturesource/
 ---
-## FieldOptions.FieldUpdateCultureSource property
+## FieldUpdateCultureSource property
 
 Specifies what culture to use to format the field result.
 

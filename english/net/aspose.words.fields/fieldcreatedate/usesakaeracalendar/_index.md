@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldcreatedate/usesakaeracalendar/
 ---
-## FieldCreateDate.UseSakaEraCalendar property
+## UseSakaEraCalendar property
 
 Gets or sets whether to use the Saka Era calendar.
 

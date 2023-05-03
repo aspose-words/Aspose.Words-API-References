@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.saving/txtsaveoptionsbase/exportheadersfootersmode/
 ---
-## TxtSaveOptionsBase.ExportHeadersFootersMode property
+## ExportHeadersFootersMode property
 
 Specifies the way headers and footers are exported to the text formats. Default value is PrimaryOnly.
 

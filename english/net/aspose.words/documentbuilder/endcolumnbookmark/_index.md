@@ -7,7 +7,7 @@ type: docs
 weight: 220
 url: /net/aspose.words/documentbuilder/endcolumnbookmark/
 ---
-## DocumentBuilder.EndColumnBookmark method
+## EndColumnBookmark method
 
 Marks the current position in the document as a column bookmark end. The position must be in a table cell.
 

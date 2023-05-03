@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words/paragraphformat/characterunitleftindent/
 ---
-## ParagraphFormat.CharacterUnitLeftIndent property
+## CharacterUnitLeftIndent property
 
 Gets or sets the left indent value (in characters) for the specified paragraphs.
 

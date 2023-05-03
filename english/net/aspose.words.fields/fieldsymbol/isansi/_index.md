@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldsymbol/isansi/
 ---
-## FieldSymbol.IsAnsi property
+## IsAnsi property
 
 Gets or sets whether the character code is interpreted as the value of an ANSI character.
 

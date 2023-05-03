@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fields/fielddatabasedatatable/columnnames/
 ---
-## FieldDatabaseDataTable.ColumnNames property
+## ColumnNames property
 
 Gets columns that belong to this table.
 

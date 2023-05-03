@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.webextensions/webextensionproperty/name/
 ---
-## WebExtensionProperty.Name property
+## Name property
 
 Specifies a custom property name
 

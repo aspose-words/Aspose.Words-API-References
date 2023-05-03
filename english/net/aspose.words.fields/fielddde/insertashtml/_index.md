@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.fields/fielddde/insertashtml/
 ---
-## FieldDde.InsertAsHtml property
+## InsertAsHtml property
 
 Gets or sets whether to insert the linked object as HTML format text.
 

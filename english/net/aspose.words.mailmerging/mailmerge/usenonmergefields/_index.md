@@ -7,7 +7,7 @@ type: docs
 weight: 150
 url: /net/aspose.words.mailmerging/mailmerge/usenonmergefields/
 ---
-## MailMerge.UseNonMergeFields property
+## UseNonMergeFields property
 
 When `true`, specifies that in addition to MERGEFIELD fields, mail merge is performed into some other types of fields and also into "{{fieldName}}" tags.
 

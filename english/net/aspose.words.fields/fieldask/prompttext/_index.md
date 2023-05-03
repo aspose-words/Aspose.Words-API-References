@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldask/prompttext/
 ---
-## FieldAsk.PromptText property
+## PromptText property
 
 Gets or sets the prompt text (the title of the prompt window).
 

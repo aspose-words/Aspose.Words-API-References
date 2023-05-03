@@ -7,7 +7,7 @@ type: docs
 weight: 170
 url: /net/aspose.words.fields/formfield/result/
 ---
-## FormField.Result property
+## Result property
 
 Gets or sets a string that represents the result of this form field.
 

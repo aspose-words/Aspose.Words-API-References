@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/inodechangingcallback/nodeinserted/
 ---
-## INodeChangingCallback.NodeInserted method
+## NodeInserted method
 
 Called when a node belonging to this document has been inserted into another node.
 

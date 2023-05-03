@@ -7,7 +7,7 @@ type: docs
 weight: 160
 url: /net/aspose.words.fields/barcodeparameters/scalingfactor/
 ---
-## BarcodeParameters.ScalingFactor property
+## ScalingFactor property
 
 Scaling factor for the symbol. The value is in whole percentage points and the valid values are [10, 1000].
 

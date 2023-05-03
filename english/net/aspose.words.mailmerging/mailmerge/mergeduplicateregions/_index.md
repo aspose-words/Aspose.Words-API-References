@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.mailmerging/mailmerge/mergeduplicateregions/
 ---
-## MailMerge.MergeDuplicateRegions property
+## MergeDuplicateRegions property
 
 Gets or sets a value indicating whether all of the document mail merge regions with the name of a data source should be merged while executing of a mail merge with regions against the data source or just the first one.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 640
 url: /net/aspose.words/documentbuilder/starttable/
 ---
-## DocumentBuilder.StartTable method
+## StartTable method
 
 Starts a table in the document.
 

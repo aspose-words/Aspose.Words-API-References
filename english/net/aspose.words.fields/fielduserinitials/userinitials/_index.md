@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/fielduserinitials/userinitials/
 ---
-## FieldUserInitials.UserInitials property
+## UserInitials property
 
 Gets or sets the current user's initials.
 

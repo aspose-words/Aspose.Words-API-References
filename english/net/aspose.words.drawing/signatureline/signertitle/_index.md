@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words.drawing/signatureline/signertitle/
 ---
-## SignatureLine.SignerTitle property
+## SignerTitle property
 
 Gets or sets suggested signer's title (for example, Manager). Default value for this property is **empty string** (Empty).
 

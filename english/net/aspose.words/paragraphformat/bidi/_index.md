@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/paragraphformat/bidi/
 ---
-## ParagraphFormat.Bidi property
+## Bidi property
 
 Gets or sets whether this is a right-to-left paragraph.
 

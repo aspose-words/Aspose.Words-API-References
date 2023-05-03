@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words.saving/pdfsaveoptions/embedattachments/
 ---
-## PdfSaveOptions.EmbedAttachments property
+## EmbedAttachments property
 
 Gets or sets a value determining whether or not to embed attachments to the PDF document.
 

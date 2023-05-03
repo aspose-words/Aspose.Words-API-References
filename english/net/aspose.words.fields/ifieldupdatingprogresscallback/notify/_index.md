@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.fields/ifieldupdatingprogresscallback/notify/
 ---
-## IFieldUpdatingProgressCallback.Notify method
+## Notify method
 
 A user defined method that is called when updating progress is changed.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 160
 url: /net/aspose.words.drawing/fill/rotatewithobject/
 ---
-## Fill.RotateWithObject property
+## RotateWithObject property
 
 Gets or sets whether the fill rotates with the specified object.
 

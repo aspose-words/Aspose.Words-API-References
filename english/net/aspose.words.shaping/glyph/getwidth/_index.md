@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.shaping/glyph/getwidth/
 ---
-## Glyph.GetWidth method
+## GetWidth method
 
 Returns width (advance) of the glyph in points.
 

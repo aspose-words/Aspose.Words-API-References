@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.tables/preferredwidth/frompoints/
 ---
-## PreferredWidth.FromPoints method
+## FromPoints method
 
 A creation method that returns a new instance that represents a preferred width specified using a number of points.
 

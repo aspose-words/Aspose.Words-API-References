@@ -7,7 +7,7 @@ type: docs
 weight: 190
 url: /net/aspose.words.mailmerging/mailmerge/executeado/
 ---
-## MailMerge.ExecuteADO method
+## ExecuteADO method
 
 Performs mail merge from an ADO Recordset object into the document.
 

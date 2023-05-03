@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words/variablecollection/remove/
 ---
-## VariableCollection.Remove method
+## Remove method
 
 Removes a document variable with the specified name from the collection.
 

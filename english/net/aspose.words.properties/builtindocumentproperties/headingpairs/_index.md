@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words.properties/builtindocumentproperties/headingpairs/
 ---
-## BuiltInDocumentProperties.HeadingPairs property
+## HeadingPairs property
 
 Specifies document headings and their names.
 

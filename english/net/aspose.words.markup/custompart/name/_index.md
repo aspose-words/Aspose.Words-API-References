@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.markup/custompart/name/
 ---
-## CustomPart.Name property
+## Name property
 
 Gets or sets this part's absolute name within the OOXML package or the target URL.
 

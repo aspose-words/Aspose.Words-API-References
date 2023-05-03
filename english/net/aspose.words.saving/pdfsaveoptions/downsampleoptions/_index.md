@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words.saving/pdfsaveoptions/downsampleoptions/
 ---
-## PdfSaveOptions.DownsampleOptions property
+## DownsampleOptions property
 
 Allows to specify downsample options.
 

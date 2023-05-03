@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words/range/delete/
 ---
-## Range.Delete method
+## Delete method
 
 Deletes all characters of the range.
 

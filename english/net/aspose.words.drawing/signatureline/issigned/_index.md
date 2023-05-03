@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.drawing/signatureline/issigned/
 ---
-## SignatureLine.IsSigned property
+## IsSigned property
 
 Indicates that signature line is signed by digital signature.
 

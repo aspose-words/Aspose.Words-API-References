@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.markup/customxmlproperty/uri/
 ---
-## CustomXmlProperty.Uri property
+## Uri property
 
 Gets or sets the namespace URI of the custom XML attribute or smart tag property.
 

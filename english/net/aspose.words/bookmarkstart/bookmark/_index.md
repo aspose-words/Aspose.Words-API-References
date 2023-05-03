@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/bookmarkstart/bookmark/
 ---
-## BookmarkStart.Bookmark property
+## Bookmark property
 
 Gets the facade object that encapsulates this bookmark start and end.
 

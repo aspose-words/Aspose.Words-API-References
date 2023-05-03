@@ -7,7 +7,7 @@ type: docs
 weight: 180
 url: /net/aspose.words.fields/fieldtoc/updatepagenumbers/
 ---
-## FieldToc.UpdatePageNumbers method
+## UpdatePageNumbers method
 
 Updates the page numbers for items in this table of contents.
 

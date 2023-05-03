@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.drawing/signatureline/showdate/
 ---
-## SignatureLine.ShowDate property
+## ShowDate property
 
 Gets or sets a value indicating that sign date is shown in the signature line. Default value for this property is `true`.
 

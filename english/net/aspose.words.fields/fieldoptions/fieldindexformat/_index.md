@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.fields/fieldoptions/fieldindexformat/
 ---
-## FieldOptions.FieldIndexFormat property
+## FieldIndexFormat property
 
 Gets or sets a `FieldIndexFormat` that represents the formatting for the [`FieldIndex`](../../fieldindex/) fields in the document.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldupdatingprogressargs/updatedfieldscount/
 ---
-## FieldUpdatingProgressArgs.UpdatedFieldsCount property
+## UpdatedFieldsCount property
 
 Gets the number of updated fields.
 

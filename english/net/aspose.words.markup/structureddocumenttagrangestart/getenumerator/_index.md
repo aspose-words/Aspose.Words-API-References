@@ -7,7 +7,7 @@ type: docs
 weight: 220
 url: /net/aspose.words.markup/structureddocumenttagrangestart/getenumerator/
 ---
-## StructuredDocumentTagRangeStart.GetEnumerator method
+## GetEnumerator method
 
 Provides support for the for each style iteration over the child nodes of this node.
 

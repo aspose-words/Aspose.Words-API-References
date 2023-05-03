@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.saving/iimagesavingcallback/imagesaving/
 ---
-## IImageSavingCallback.ImageSaving method
+## ImageSaving method
 
 Called when Aspose.Words saves an image to HTML.
 

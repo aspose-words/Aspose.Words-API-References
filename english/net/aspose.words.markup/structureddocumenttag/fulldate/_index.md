@@ -7,7 +7,7 @@ type: docs
 weight: 130
 url: /net/aspose.words.markup/structureddocumenttag/fulldate/
 ---
-## StructuredDocumentTag.FullDate property
+## FullDate property
 
 Specifies the full date and time last entered into this **SDT**.
 

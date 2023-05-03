@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldcitation/sourcetag/
 ---
-## FieldCitation.SourceTag property
+## SourceTag property
 
 Gets or sets a value that mathes the **Tag** element's value of the source to insert.
 

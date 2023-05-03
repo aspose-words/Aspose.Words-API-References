@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.reporting/reportingengine/equals/
 ---
-## ReportingEngine.Equals method
+## Equals method
 
 Determines whether the specified object is equal in value to the current object.
 

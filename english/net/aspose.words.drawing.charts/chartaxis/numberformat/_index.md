@@ -7,7 +7,7 @@ type: docs
 weight: 190
 url: /net/aspose.words.drawing.charts/chartaxis/numberformat/
 ---
-## ChartAxis.NumberFormat property
+## NumberFormat property
 
 Returns a [`ChartNumberFormat`](../../chartnumberformat/) object that allows defining number formats for the axis.
 

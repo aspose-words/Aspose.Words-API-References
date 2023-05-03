@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.saving/graphicsqualityoptions/smoothingmode/
 ---
-## GraphicsQualityOptions.SmoothingMode property
+## SmoothingMode property
 
 Gets or sets the rendering quality for this Graphics.
 

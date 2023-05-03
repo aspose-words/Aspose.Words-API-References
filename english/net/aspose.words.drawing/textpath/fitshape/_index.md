@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.drawing/textpath/fitshape/
 ---
-## TextPath.FitShape property
+## FitShape property
 
 Defines whether the text fits bounding box of a shape.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words.fields/fieldindex/numberofcolumns/
 ---
-## FieldIndex.NumberOfColumns property
+## NumberOfColumns property
 
 Gets or sets the number of columns per page used when building the index.
 

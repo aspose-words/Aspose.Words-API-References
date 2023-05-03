@@ -7,7 +7,7 @@ type: docs
 weight: 250
 url: /net/aspose.words/paragraph/geteffectivetabstops/
 ---
-## Paragraph.GetEffectiveTabStops method
+## GetEffectiveTabStops method
 
 Returns array of all tab stops applied to this paragraph, including applied indirectly by styles or lists.
 

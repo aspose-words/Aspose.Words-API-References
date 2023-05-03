@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldchar/isdirty/
 ---
-## FieldChar.IsDirty property
+## IsDirty property
 
 Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
 

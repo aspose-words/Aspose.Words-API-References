@@ -7,7 +7,7 @@ type: docs
 weight: 170
 url: /net/aspose.words.fields/fieldindex/useyomi/
 ---
-## FieldIndex.UseYomi property
+## UseYomi property
 
 Gets or sets whether to enable the use of yomi text for index entries.
 

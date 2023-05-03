@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.vba/vbaproject/issigned/
 ---
-## VbaProject.IsSigned property
+## IsSigned property
 
 Shows whether the [`VbaProject`](../) is signed or not.
 

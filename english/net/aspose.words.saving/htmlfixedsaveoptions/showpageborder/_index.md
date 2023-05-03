@@ -7,7 +7,7 @@ type: docs
 weight: 180
 url: /net/aspose.words.saving/htmlfixedsaveoptions/showpageborder/
 ---
-## HtmlFixedSaveOptions.ShowPageBorder property
+## ShowPageBorder property
 
 Specifies whether border around pages should be shown. Default is `true`.
 

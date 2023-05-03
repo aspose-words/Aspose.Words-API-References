@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.fields/fieldindex/letterrange/
 ---
-## FieldIndex.LetterRange property
+## LetterRange property
 
 Gets or sets a range of letters to which limit the index.
 

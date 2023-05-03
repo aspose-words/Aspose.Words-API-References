@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.tables/cell/cellformat/
 ---
-## Cell.CellFormat property
+## CellFormat property
 
 Provides access to the formatting properties of the cell.
 

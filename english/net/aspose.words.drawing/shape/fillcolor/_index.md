@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.drawing/shape/fillcolor/
 ---
-## Shape.FillColor property
+## FillColor property
 
 Defines the brush color that fills the closed path of the shape.
 

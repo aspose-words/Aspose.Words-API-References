@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/sectioncollection/toarray/
 ---
-## SectionCollection.ToArray method
+## ToArray method
 
 Copies all sections from the collection to a new array of sections.
 

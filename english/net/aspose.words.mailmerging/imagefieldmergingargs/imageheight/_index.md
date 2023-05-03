@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.mailmerging/imagefieldmergingargs/imageheight/
 ---
-## ImageFieldMergingArgs.ImageHeight property
+## ImageHeight property
 
 Specifies the image height for the image to insert into the document.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/cleanupoptions/duplicatestyle/
 ---
-## CleanupOptions.DuplicateStyle property
+## DuplicateStyle property
 
 Gets/sets a flag indicating whether duplicate styles should be removed from document. Default value is `false`.
 

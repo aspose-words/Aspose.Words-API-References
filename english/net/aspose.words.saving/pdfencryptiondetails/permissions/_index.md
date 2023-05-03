@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.saving/pdfencryptiondetails/permissions/
 ---
-## PdfEncryptionDetails.Permissions property
+## Permissions property
 
 Specifies the operations that are allowed to a user on an encrypted PDF document. The default value is DisallowAll.
 

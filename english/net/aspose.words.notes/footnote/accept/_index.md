@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.notes/footnote/accept/
 ---
-## Footnote.Accept method
+## Accept method
 
 Accepts a visitor.
 

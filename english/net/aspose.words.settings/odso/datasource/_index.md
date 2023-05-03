@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.settings/odso/datasource/
 ---
-## Odso.DataSource property
+## DataSource property
 
 Specifies the location of the external data source to be connected to a document to perform the mail merge. The default value is an empty string.
 

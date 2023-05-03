@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.saving/imagesaveoptions/imagecolormode/
 ---
-## ImageSaveOptions.ImageColorMode property
+## ImageColorMode property
 
 Gets or sets the color mode for the generated images.
 

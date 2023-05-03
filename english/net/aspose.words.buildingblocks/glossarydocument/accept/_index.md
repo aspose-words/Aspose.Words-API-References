@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.buildingblocks/glossarydocument/accept/
 ---
-## GlossaryDocument.Accept method
+## Accept method
 
 Accepts a visitor.
 

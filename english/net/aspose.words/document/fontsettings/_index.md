@@ -7,7 +7,7 @@ type: docs
 weight: 140
 url: /net/aspose.words/document/fontsettings/
 ---
-## Document.FontSettings property
+## FontSettings property
 
 Gets or sets document font settings.
 

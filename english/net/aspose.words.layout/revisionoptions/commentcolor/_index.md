@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.layout/revisionoptions/commentcolor/
 ---
-## RevisionOptions.CommentColor property
+## CommentColor property
 
 Allows to specify the color to be used for comments. Default value is Red.
 

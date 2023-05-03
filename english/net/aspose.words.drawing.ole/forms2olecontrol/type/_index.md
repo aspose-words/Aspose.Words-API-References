@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.drawing.ole/forms2olecontrol/type/
 ---
-## Forms2OleControl.Type property
+## Type property
 
 Gets type of Forms 2.0 control.
 

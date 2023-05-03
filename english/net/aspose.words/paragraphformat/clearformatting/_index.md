@@ -7,7 +7,7 @@ type: docs
 weight: 410
 url: /net/aspose.words/paragraphformat/clearformatting/
 ---
-## ParagraphFormat.ClearFormatting method
+## ClearFormatting method
 
 Resets to default paragraph formatting.
 

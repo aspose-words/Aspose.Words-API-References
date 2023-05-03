@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.drawing.charts/chart/series/
 ---
-## Chart.Series property
+## Series property
 
 Provides access to series collection.
 

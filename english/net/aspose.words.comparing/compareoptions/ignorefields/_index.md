@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.comparing/compareoptions/ignorefields/
 ---
-## CompareOptions.IgnoreFields property
+## IgnoreFields property
 
 Specifies whether to compare differences in fields. By default fields are not ignored.
 

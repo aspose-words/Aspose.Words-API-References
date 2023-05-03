@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.framesets/framesetcollection/getenumerator/
 ---
-## FramesetCollection.GetEnumerator method
+## GetEnumerator method
 
 Returns an enumerator that iterates through the collection.
 

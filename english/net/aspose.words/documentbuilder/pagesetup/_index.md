@@ -7,7 +7,7 @@ type: docs
 weight: 160
 url: /net/aspose.words/documentbuilder/pagesetup/
 ---
-## DocumentBuilder.PageSetup property
+## PageSetup property
 
 Returns an object that represents current page setup and section properties.
 

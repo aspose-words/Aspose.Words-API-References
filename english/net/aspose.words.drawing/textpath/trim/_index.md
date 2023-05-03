@@ -7,7 +7,7 @@ type: docs
 weight: 180
 url: /net/aspose.words.drawing/textpath/trim/
 ---
-## TextPath.Trim property
+## Trim property
 
 Determines whether extra space is removed above and below the text.
 

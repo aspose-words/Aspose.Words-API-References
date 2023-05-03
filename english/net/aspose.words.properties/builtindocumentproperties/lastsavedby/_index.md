@@ -7,7 +7,7 @@ type: docs
 weight: 160
 url: /net/aspose.words.properties/builtindocumentproperties/lastsavedby/
 ---
-## BuiltInDocumentProperties.LastSavedBy property
+## LastSavedBy property
 
 Gets or sets the name of the last author.
 

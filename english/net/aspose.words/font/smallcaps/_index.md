@@ -7,7 +7,7 @@ type: docs
 weight: 360
 url: /net/aspose.words/font/smallcaps/
 ---
-## Font.SmallCaps property
+## SmallCaps property
 
 True if the font is formatted as small capital letters.
 

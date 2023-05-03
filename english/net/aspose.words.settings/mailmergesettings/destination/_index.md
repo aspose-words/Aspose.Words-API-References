@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.settings/mailmergesettings/destination/
 ---
-## MailMergeSettings.Destination property
+## Destination property
 
 Specifies how Microsoft Word will output the results of a mail merge. The default value is Default.
 

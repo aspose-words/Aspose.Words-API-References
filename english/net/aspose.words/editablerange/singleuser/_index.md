@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words/editablerange/singleuser/
 ---
-## EditableRange.SingleUser property
+## SingleUser property
 
 Returns or sets the single user for editable range.
 

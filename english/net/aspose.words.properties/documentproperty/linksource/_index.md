@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.properties/documentproperty/linksource/
 ---
-## DocumentProperty.LinkSource property
+## LinkSource property
 
 Gets the source of a linked custom document property.
 

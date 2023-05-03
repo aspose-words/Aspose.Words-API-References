@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words/documentvisitor/visitbuildingblockstart/
 ---
-## DocumentVisitor.VisitBuildingBlockStart method
+## VisitBuildingBlockStart method
 
 Called when enumeration of a building block has started.
 

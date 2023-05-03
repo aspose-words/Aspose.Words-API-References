@@ -7,7 +7,7 @@ type: docs
 weight: 160
 url: /net/aspose.words.loading/loadoptions/updatedirtyfields/
 ---
-## LoadOptions.UpdateDirtyFields property
+## UpdateDirtyFields property
 
 Specifies whether to update the fields with the `dirty` attribute.
 

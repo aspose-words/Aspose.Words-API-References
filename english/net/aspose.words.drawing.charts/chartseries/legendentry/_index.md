@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.drawing.charts/chartseries/legendentry/
 ---
-## ChartSeries.LegendEntry property
+## LegendEntry property
 
 Gets a legend entry for this chart series.
 

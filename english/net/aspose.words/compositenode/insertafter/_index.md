@@ -7,7 +7,7 @@ type: docs
 weight: 140
 url: /net/aspose.words/compositenode/insertafter/
 ---
-## CompositeNode.InsertAfter method
+## InsertAfter method
 
 Inserts the specified node immediately after the specified reference node.
 

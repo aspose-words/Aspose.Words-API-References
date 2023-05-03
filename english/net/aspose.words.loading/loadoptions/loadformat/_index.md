@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.loading/loadoptions/loadformat/
 ---
-## LoadOptions.LoadFormat property
+## LoadFormat property
 
 Specifies the format of the document to be loaded. Default is Auto.
 

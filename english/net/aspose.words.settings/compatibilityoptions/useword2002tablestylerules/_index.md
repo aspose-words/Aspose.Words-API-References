@@ -7,7 +7,7 @@ type: docs
 weight: 660
 url: /net/aspose.words.settings/compatibilityoptions/useword2002tablestylerules/
 ---
-## CompatibilityOptions.UseWord2002TableStyleRules property
+## UseWord2002TableStyleRules property
 
 Emulate Word 2002 Table Style Rules.
 

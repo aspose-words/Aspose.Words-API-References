@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words.drawing/stroke/imagebytes/
 ---
-## Stroke.ImageBytes property
+## ImageBytes property
 
 Defines the image for a stroke image or pattern fill.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 310
 url: /net/aspose.words.drawing/shapebase/islayoutincell/
 ---
-## ShapeBase.IsLayoutInCell property
+## IsLayoutInCell property
 
 Gets or sets a flag indicating whether the shape is displayed inside a table or outside of it.
 

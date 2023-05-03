@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words/compositenode/lastchild/
 ---
-## CompositeNode.LastChild property
+## LastChild property
 
 Gets the last child of the node.
 

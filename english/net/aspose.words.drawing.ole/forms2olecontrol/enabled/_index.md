@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.drawing.ole/forms2olecontrol/enabled/
 ---
-## Forms2OleControl.Enabled property
+## Enabled property
 
 Returns `true` if control is in enabled state.
 

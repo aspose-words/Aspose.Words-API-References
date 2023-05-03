@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.tables/cellformat/shading/
 ---
-## CellFormat.Shading property
+## Shading property
 
 Returns a [`Shading`](../../../aspose.words/shading/) object that refers to the shading formatting for the cell.
 

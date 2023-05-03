@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.saving/svgsaveoptions/textoutputmode/
 ---
-## SvgSaveOptions.TextOutputMode property
+## TextOutputMode property
 
 Gets or sets a value determining how text should be rendered in SVG.
 

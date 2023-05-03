@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.markup/xmlmapping/delete/
 ---
-## XmlMapping.Delete method
+## Delete method
 
 Deletes mapping of the parent structured document to XML data.
 

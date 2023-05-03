@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldincludetext/mimetype/
 ---
-## FieldIncludeText.MimeType property
+## MimeType property
 
 Gets or sets the MIME type of the referenced file.
 

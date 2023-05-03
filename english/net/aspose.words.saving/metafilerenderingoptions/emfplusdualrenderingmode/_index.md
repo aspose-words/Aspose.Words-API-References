@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.saving/metafilerenderingoptions/emfplusdualrenderingmode/
 ---
-## MetafileRenderingOptions.EmfPlusDualRenderingMode property
+## EmfPlusDualRenderingMode property
 
 Gets or sets a value determining how EMF+ Dual metafiles should be rendered.
 

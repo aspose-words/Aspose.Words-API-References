@@ -7,7 +7,7 @@ type: docs
 weight: 260
 url: /net/aspose.words/pagesetup/margins/
 ---
-## PageSetup.Margins property
+## Margins property
 
 Returns or sets preset [`Margins`](../../margins/) of the page.
 

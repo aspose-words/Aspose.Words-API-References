@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.digitalsignatures/digitalsignature/issuername/
 ---
-## DigitalSignature.IssuerName property
+## IssuerName property
 
 Returns the subject distinguished name of the certificate isuuer.
 

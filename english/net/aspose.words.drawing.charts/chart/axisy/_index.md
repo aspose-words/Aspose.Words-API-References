@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/chart/axisy/
 ---
-## Chart.AxisY property
+## AxisY property
 
 Provides access to properties of the Y axis of the chart.
 

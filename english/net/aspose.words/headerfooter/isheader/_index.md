@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/headerfooter/isheader/
 ---
-## HeaderFooter.IsHeader property
+## IsHeader property
 
 True if this [`HeaderFooter`](../) object is a header.
 

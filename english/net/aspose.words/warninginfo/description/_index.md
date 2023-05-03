@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/warninginfo/description/
 ---
-## WarningInfo.Description property
+## Description property
 
 Returns the description of the warning.
 

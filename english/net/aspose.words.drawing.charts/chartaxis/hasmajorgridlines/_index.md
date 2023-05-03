@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.drawing.charts/chartaxis/hasmajorgridlines/
 ---
-## ChartAxis.HasMajorGridlines property
+## HasMajorGridlines property
 
 Gets or sets a flag indicating whether the axis has major gridlines.
 

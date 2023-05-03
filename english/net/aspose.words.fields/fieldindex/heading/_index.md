@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.fields/fieldindex/heading/
 ---
-## FieldIndex.Heading property
+## Heading property
 
 Gets or sets a heading that appears at the start of each set of entries for any given letter.
 

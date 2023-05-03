@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.saving/graphicsqualityoptions/compositingmode/
 ---
-## GraphicsQualityOptions.CompositingMode property
+## CompositingMode property
 
 Gets or sets a value that specifies how composited images are drawn to this Graphics.
 

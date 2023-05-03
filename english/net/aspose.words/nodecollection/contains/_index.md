@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words/nodecollection/contains/
 ---
-## NodeCollection.Contains method
+## Contains method
 
 Determines whether a node is in the collection.
 

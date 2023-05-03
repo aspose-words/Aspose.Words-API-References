@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/commentrangestart/nodetype/
 ---
-## CommentRangeStart.NodeType property
+## NodeType property
 
 Returns CommentRangeStart.
 

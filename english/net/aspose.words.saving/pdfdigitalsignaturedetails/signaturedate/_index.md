@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.saving/pdfdigitalsignaturedetails/signaturedate/
 ---
-## PdfDigitalSignatureDetails.SignatureDate property
+## SignatureDate property
 
 Gets or sets the date of the signing.
 

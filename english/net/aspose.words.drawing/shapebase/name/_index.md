@@ -7,7 +7,7 @@ type: docs
 weight: 400
 url: /net/aspose.words.drawing/shapebase/name/
 ---
-## ShapeBase.Name property
+## Name property
 
 Gets or sets the optional shape name.
 

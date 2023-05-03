@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words/conditionalstyle/type/
 ---
-## ConditionalStyle.Type property
+## Type property
 
 Gets table area to which this conditional style relates.
 

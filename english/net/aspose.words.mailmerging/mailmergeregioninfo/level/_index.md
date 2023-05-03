@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.mailmerging/mailmergeregioninfo/level/
 ---
-## MailMergeRegionInfo.Level property
+## Level property
 
 Returns the nesting level for the region.
 

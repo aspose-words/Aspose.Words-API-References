@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/chartxvalue/fromdouble/
 ---
-## ChartXValue.FromDouble method
+## FromDouble method
 
 Creates a [`ChartXValue`](../) instance of the Double type.
 

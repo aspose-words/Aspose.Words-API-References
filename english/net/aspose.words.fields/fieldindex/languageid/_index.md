@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.fields/fieldindex/languageid/
 ---
-## FieldIndex.LanguageId property
+## LanguageId property
 
 Gets or sets the language ID used to generate the index.
 

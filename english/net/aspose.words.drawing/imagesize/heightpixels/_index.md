@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.drawing/imagesize/heightpixels/
 ---
-## ImageSize.HeightPixels property
+## HeightPixels property
 
 Gets the height of the image in pixels.
 

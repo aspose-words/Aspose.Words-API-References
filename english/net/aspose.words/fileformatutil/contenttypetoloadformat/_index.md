@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/fileformatutil/contenttypetoloadformat/
 ---
-## FileFormatUtil.ContentTypeToLoadFormat method
+## ContentTypeToLoadFormat method
 
 Converts IANA content type into a load format enumerated value.
 

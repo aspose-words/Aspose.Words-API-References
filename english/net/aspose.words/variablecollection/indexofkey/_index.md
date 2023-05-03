@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words/variablecollection/indexofkey/
 ---
-## VariableCollection.IndexOfKey method
+## IndexOfKey method
 
 Returns the zero-based index of the specified document variable in the collection.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 400
 url: /net/aspose.words/document/showspellingerrors/
 ---
-## Document.ShowSpellingErrors property
+## ShowSpellingErrors property
 
 Specifies whether to display spelling errors in this document.
 

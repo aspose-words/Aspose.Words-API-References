@@ -7,7 +7,7 @@ type: docs
 weight: 200
 url: /net/aspose.words.drawing/stroke/visible/
 ---
-## Stroke.Visible property
+## Visible property
 
 Gets or sets a flag indicating whether the stroke is visible.
 

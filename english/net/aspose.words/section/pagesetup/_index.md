@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words/section/pagesetup/
 ---
-## Section.PageSetup property
+## PageSetup property
 
 Returns an object that represents page setup and section properties.
 

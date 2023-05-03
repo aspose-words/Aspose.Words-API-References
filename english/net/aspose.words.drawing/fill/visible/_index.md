@@ -7,7 +7,7 @@ type: docs
 weight: 190
 url: /net/aspose.words.drawing/fill/visible/
 ---
-## Fill.Visible property
+## Visible property
 
 Gets or sets value that is `true` if the formatting applied to this instance, is visible.
 

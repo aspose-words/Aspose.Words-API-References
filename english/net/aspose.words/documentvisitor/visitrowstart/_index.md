@@ -7,7 +7,7 @@ type: docs
 weight: 350
 url: /net/aspose.words/documentvisitor/visitrowstart/
 ---
-## DocumentVisitor.VisitRowStart method
+## VisitRowStart method
 
 Called when enumeration of a table row has started.
 

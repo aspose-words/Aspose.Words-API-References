@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.drawing/stroke/backcolor/
 ---
-## Stroke.BackColor property
+## BackColor property
 
 Gets or sets the background color of the stroke.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.layout/pagelayoutcallbackargs/event/
 ---
-## PageLayoutCallbackArgs.Event property
+## Event property
 
 Gets event.
 

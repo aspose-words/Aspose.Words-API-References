@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.settings/odsofieldmapdatacollection/count/
 ---
-## OdsoFieldMapDataCollection.Count property
+## Count property
 
 Gets the number of elements contained in the collection.
 

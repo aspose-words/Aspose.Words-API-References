@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldincludetext/lockfields/
 ---
-## FieldIncludeText.LockFields property
+## LockFields property
 
 Gets or sets whether to prevent fields in the included document from being updated.
 

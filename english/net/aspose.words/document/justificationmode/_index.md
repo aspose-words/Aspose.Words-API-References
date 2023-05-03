@@ -7,7 +7,7 @@ type: docs
 weight: 230
 url: /net/aspose.words/document/justificationmode/
 ---
-## Document.JustificationMode property
+## JustificationMode property
 
 Gets or sets the character spacing adjustment of a document.
 

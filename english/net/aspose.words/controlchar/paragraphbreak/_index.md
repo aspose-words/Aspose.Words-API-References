@@ -7,7 +7,7 @@ type: docs
 weight: 220
 url: /net/aspose.words/controlchar/paragraphbreak/
 ---
-## ControlChar.ParagraphBreak field
+## ParagraphBreak field
 
 End of paragraph character: "\x000d" or "\r". Same as [`Cr`](../cr/)
 

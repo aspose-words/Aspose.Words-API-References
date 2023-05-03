@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.fields/fieldaddressblock/getfieldnames/
 ---
-## FieldAddressBlock.GetFieldNames method
+## GetFieldNames method
 
 Returns a collection of mail merge field names used by the field.
 

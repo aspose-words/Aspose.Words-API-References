@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.settings/odsorecipientdata/hash/
 ---
-## OdsoRecipientData.Hash property
+## Hash property
 
 Represents the hash code for this record. Sometimes Microsoft Word uses `Hash` of a whole record instead of a [`UniqueTag`](../uniquetag/) value. The default value is 0.
 

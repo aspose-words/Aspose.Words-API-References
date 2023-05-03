@@ -7,7 +7,7 @@ type: docs
 weight: 140
 url: /net/aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/
 ---
-## FieldOptions.IsBidiTextSupportedOnUpdate property
+## IsBidiTextSupportedOnUpdate property
 
 Gets or sets the value indicating whether bidirectional text is fully supported during field update or not.
 

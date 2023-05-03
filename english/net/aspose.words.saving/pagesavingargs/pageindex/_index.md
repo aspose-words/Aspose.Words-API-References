@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.saving/pagesavingargs/pageindex/
 ---
-## PageSavingArgs.PageIndex property
+## PageIndex property
 
 Current page index.
 

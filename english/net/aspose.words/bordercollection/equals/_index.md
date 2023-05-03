@@ -7,7 +7,7 @@ type: docs
 weight: 150
 url: /net/aspose.words/bordercollection/equals/
 ---
-## BorderCollection.Equals method
+## Equals method
 
 Compares collections of borders.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldmergefield/textbefore/
 ---
-## FieldMergeField.TextBefore property
+## TextBefore property
 
 Gets or sets the text to be inserted before the field if the field is not blank.
 

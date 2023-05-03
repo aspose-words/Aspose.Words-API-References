@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.themes/themecolors/dark1/
 ---
-## ThemeColors.Dark1 property
+## Dark1 property
 
 Specifies color Dark 1.
 

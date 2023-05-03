@@ -7,7 +7,7 @@ type: docs
 weight: 380
 url: /net/aspose.words/pagesetup/rtlgutter/
 ---
-## PageSetup.RtlGutter property
+## RtlGutter property
 
 Gets or sets whether Microsoft Word uses gutters for the section based on a right-to-left language or a left-to-right language.
 

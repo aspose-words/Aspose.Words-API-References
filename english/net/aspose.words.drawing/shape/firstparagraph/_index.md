@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.drawing/shape/firstparagraph/
 ---
-## Shape.FirstParagraph property
+## FirstParagraph property
 
 Gets the first paragraph in the shape.
 

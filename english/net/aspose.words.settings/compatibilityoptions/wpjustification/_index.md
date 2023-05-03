@@ -7,7 +7,7 @@ type: docs
 weight: 690
 url: /net/aspose.words.settings/compatibilityoptions/wpjustification/
 ---
-## CompatibilityOptions.WPJustification property
+## WPJustification property
 
 Emulate WordPerfect 6.x Paragraph Justification.
 

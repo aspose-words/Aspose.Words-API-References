@@ -7,7 +7,7 @@ type: docs
 weight: 130
 url: /net/aspose.words.drawing/shape/nodetype/
 ---
-## Shape.NodeType property
+## NodeType property
 
 Returns Shape.
 

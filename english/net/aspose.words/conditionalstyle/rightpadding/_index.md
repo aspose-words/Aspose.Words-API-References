@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words/conditionalstyle/rightpadding/
 ---
-## ConditionalStyle.RightPadding property
+## RightPadding property
 
 Gets or sets the amount of space (in points) to add to the right of the contents of table cells.
 

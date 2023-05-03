@@ -7,7 +7,7 @@ type: docs
 weight: 350
 url: /net/aspose.words/font/sizebi/
 ---
-## Font.SizeBi property
+## SizeBi property
 
 Gets or sets the font size in points used in a right-to-left document.
 

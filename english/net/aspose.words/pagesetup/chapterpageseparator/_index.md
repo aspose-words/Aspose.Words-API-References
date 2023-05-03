@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words/pagesetup/chapterpageseparator/
 ---
-## PageSetup.ChapterPageSeparator property
+## ChapterPageSeparator property
 
 Gets or sets the separator character that appears between the chapter number and the page number.
 

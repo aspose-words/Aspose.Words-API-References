@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.properties/documentproperty/todatetime/
 ---
-## DocumentProperty.ToDateTime method
+## ToDateTime method
 
 Returns the property value as **DateTime** in UTC.
 

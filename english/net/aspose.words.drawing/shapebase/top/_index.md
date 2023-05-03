@@ -7,7 +7,7 @@ type: docs
 weight: 540
 url: /net/aspose.words.drawing/shapebase/top/
 ---
-## ShapeBase.Top property
+## Top property
 
 Gets or sets the position of the top edge of the containing block of the shape.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.mailmerging/mailmerge/mappeddatafields/
 ---
-## MailMerge.MappedDataFields property
+## MappedDataFields property
 
 Returns a collection that represents mapped data fields for the mail merge operation.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/chartyvaluecollection/getenumerator/
 ---
-## ChartYValueCollection.GetEnumerator method
+## GetEnumerator method
 
 Returns an enumerator object.
 

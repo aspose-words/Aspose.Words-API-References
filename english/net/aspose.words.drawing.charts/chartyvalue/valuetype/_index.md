@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.drawing.charts/chartyvalue/valuetype/
 ---
-## ChartYValue.ValueType property
+## ValueType property
 
 Gets the type of the Y value stored in the object.
 

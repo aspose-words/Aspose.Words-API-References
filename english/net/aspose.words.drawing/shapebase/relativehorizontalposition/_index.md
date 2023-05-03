@@ -7,7 +7,7 @@ type: docs
 weight: 420
 url: /net/aspose.words.drawing/shapebase/relativehorizontalposition/
 ---
-## ShapeBase.RelativeHorizontalPosition property
+## RelativeHorizontalPosition property
 
 Specifies relative to what the shape is positioned horizontally.
 

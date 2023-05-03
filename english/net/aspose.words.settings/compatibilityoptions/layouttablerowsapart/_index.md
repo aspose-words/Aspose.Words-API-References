@@ -7,7 +7,7 @@ type: docs
 weight: 300
 url: /net/aspose.words.settings/compatibilityoptions/layouttablerowsapart/
 ---
-## CompatibilityOptions.LayoutTableRowsApart property
+## LayoutTableRowsApart property
 
 Allow Table Rows to Wrap Inline Objects Independently.
 

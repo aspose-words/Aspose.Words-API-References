@@ -7,7 +7,7 @@ type: docs
 weight: 260
 url: /net/aspose.words/documentbuilder/insertbreak/
 ---
-## DocumentBuilder.InsertBreak method
+## InsertBreak method
 
 Inserts a break of the specified type into the document.
 

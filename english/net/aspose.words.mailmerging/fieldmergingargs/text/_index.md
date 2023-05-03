@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.mailmerging/fieldmergingargs/text/
 ---
-## FieldMergingArgs.Text property
+## Text property
 
 Gets or sets the text that will be inserted into the document for the current merge field.
 

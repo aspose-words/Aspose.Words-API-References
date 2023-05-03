@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words.properties/builtindocumentproperties/hyperlinkbase/
 ---
-## BuiltInDocumentProperties.HyperlinkBase property
+## HyperlinkBase property
 
 Specifies the base string used for evaluating relative hyperlinks in this document.
 

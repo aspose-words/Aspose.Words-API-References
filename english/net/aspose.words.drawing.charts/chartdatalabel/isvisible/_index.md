@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.drawing.charts/chartdatalabel/isvisible/
 ---
-## ChartDataLabel.IsVisible property
+## IsVisible property
 
 Returns `true` if this data label has something to display.
 

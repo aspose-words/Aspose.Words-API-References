@@ -7,7 +7,7 @@ type: docs
 weight: 180
 url: /net/aspose.words.drawing/imagedata/title/
 ---
-## ImageData.Title property
+## Title property
 
 Defines the title of an image.
 

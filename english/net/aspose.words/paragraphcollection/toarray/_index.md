@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/paragraphcollection/toarray/
 ---
-## ParagraphCollection.ToArray method
+## ToArray method
 
 Copies all paragraphs from the collection to a new array of paragraphs.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.drawing/shapebase/anchorlocked/
 ---
-## ShapeBase.AnchorLocked property
+## AnchorLocked property
 
 Specifies whether the shape's anchor is locked.
 

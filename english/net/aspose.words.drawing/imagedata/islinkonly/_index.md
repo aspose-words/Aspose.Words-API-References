@@ -7,7 +7,7 @@ type: docs
 weight: 160
 url: /net/aspose.words.drawing/imagedata/islinkonly/
 ---
-## ImageData.IsLinkOnly property
+## IsLinkOnly property
 
 Returns `true` if the image is linked and not stored in the document.
 

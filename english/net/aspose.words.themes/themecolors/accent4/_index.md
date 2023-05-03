@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.themes/themecolors/accent4/
 ---
-## ThemeColors.Accent4 property
+## Accent4 property
 
 Specifies color Accent 4.
 

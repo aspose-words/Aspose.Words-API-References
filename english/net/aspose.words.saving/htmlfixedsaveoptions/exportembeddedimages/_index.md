@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedimages/
 ---
-## HtmlFixedSaveOptions.ExportEmbeddedImages property
+## ExportEmbeddedImages property
 
 Specifies whether images should be embedded into Html document in Base64 format. Note setting this flag can significantly increase size of output Html file.
 

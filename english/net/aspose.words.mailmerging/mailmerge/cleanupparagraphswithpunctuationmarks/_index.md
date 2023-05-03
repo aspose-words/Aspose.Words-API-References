@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.mailmerging/mailmerge/cleanupparagraphswithpunctuationmarks/
 ---
-## MailMerge.CleanupParagraphsWithPunctuationMarks property
+## CleanupParagraphsWithPunctuationMarks property
 
 Gets or sets a value indicating whether paragraphs with punctuation marks are considered as empty and should be removed if the RemoveEmptyParagraphs option is specified.
 

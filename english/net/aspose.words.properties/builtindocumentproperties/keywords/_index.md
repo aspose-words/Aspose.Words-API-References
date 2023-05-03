@@ -7,7 +7,7 @@ type: docs
 weight: 140
 url: /net/aspose.words.properties/builtindocumentproperties/keywords/
 ---
-## BuiltInDocumentProperties.Keywords property
+## Keywords property
 
 Gets or sets the document keywords.
 

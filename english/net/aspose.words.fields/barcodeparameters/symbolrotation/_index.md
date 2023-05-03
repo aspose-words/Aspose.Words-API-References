@@ -7,7 +7,7 @@ type: docs
 weight: 180
 url: /net/aspose.words.fields/barcodeparameters/symbolrotation/
 ---
-## BarcodeParameters.SymbolRotation property
+## SymbolRotation property
 
 Rotation of the barcode symbol. Valid values are [0, 3].
 

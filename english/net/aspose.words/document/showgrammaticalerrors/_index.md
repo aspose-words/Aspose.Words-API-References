@@ -7,7 +7,7 @@ type: docs
 weight: 390
 url: /net/aspose.words/document/showgrammaticalerrors/
 ---
-## Document.ShowGrammaticalErrors property
+## ShowGrammaticalErrors property
 
 Specifies whether to display grammar errors in this document.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/nodecollection/add/
 ---
-## NodeCollection.Add method
+## Add method
 
 Adds a node to the end of the collection.
 

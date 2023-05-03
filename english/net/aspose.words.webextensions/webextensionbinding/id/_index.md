@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.webextensions/webextensionbinding/id/
 ---
-## WebExtensionBinding.Id property
+## Id property
 
 Specifies the binding identifier.
 

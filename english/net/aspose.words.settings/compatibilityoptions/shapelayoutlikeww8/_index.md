@@ -7,7 +7,7 @@ type: docs
 weight: 420
 url: /net/aspose.words.settings/compatibilityoptions/shapelayoutlikeww8/
 ---
-## CompatibilityOptions.ShapeLayoutLikeWW8 property
+## ShapeLayoutLikeWW8 property
 
 Emulate Word 97 Text Wrapping Around Floating Objects.
 

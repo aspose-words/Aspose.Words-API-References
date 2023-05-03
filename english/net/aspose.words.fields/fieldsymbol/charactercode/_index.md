@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldsymbol/charactercode/
 ---
-## FieldSymbol.CharacterCode property
+## CharacterCode property
 
 Gets or sets the character's code point value in decimal or hexadecimal.
 

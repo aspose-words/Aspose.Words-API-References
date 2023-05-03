@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.fields/fieldddeauto/progid/
 ---
-## FieldDdeAuto.ProgId property
+## ProgId property
 
 Gets or sets the application type of the link information.
 

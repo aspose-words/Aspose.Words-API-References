@@ -7,7 +7,7 @@ type: docs
 weight: 770
 url: /net/aspose.words/document/updatepagelayout/
 ---
-## Document.UpdatePageLayout method
+## UpdatePageLayout method
 
 Rebuilds the page layout of the document.
 

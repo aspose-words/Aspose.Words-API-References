@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.settings/odsofieldmapdata/mappedname/
 ---
-## OdsoFieldMapData.MappedName property
+## MappedName property
 
 Specifies the predefined merge field name which shall be mapped to the column number specified by the [`Column`](../column/) property within this field mapping. The default value is an empty string.
 

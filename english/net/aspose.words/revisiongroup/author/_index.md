@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/revisiongroup/author/
 ---
-## RevisionGroup.Author property
+## Author property
 
 Gets the author of this revision group.
 

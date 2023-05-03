@@ -7,7 +7,7 @@ type: docs
 weight: 290
 url: /net/aspose.words/pagesetup/orientation/
 ---
-## PageSetup.Orientation property
+## Orientation property
 
 Returns or sets the orientation of the page.
 

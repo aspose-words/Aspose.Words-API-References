@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words.drawing.charts/chartaxis/majortickmark/
 ---
-## ChartAxis.MajorTickMark property
+## MajorTickMark property
 
 Returns or sets the major tick marks.
 

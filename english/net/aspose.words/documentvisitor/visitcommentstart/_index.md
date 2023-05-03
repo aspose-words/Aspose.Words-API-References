@@ -7,7 +7,7 @@ type: docs
 weight: 130
 url: /net/aspose.words/documentvisitor/visitcommentstart/
 ---
-## DocumentVisitor.VisitCommentStart method
+## VisitCommentStart method
 
 Called when enumeration of a comment text has started.
 

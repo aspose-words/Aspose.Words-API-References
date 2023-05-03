@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.lists/list/document/
 ---
-## List.Document property
+## Document property
 
 Gets the owner document.
 

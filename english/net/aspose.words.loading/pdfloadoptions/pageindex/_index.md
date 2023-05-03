@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.loading/pdfloadoptions/pageindex/
 ---
-## PdfLoadOptions.PageIndex property
+## PageIndex property
 
 Gets or sets the 0-based index of the first page to read. Default is 0.
 

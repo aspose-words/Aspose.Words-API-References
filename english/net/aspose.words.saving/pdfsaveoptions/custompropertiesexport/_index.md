@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.saving/pdfsaveoptions/custompropertiesexport/
 ---
-## PdfSaveOptions.CustomPropertiesExport property
+## CustomPropertiesExport property
 
 Gets or sets a value determining the way [`CustomDocumentProperties`](../../../aspose.words/document/customdocumentproperties/) are exported to PDF file.
 

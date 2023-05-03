@@ -7,7 +7,7 @@ type: docs
 weight: 160
 url: /net/aspose.words.saving/htmlfixedsaveoptions/savefontfacecssseparately/
 ---
-## HtmlFixedSaveOptions.SaveFontFaceCssSeparately property
+## SaveFontFaceCssSeparately property
 
 Flag indicates whether "@font-face" CSS rules should be placed into a separate file "fontFaces.css" when a document is being saved with external stylesheet (that is, when [`ExportEmbeddedCss`](../exportembeddedcss/) is `false`). Default value is `false`, all CSS rules are written into single file "styles.css".
 

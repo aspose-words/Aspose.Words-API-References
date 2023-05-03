@@ -7,7 +7,7 @@ type: docs
 weight: 150
 url: /net/aspose.words.drawing/fill/presettexture/
 ---
-## Fill.PresetTexture property
+## PresetTexture property
 
 Gets a [`PresetTexture`](../../presettexture/) for the fill.
 

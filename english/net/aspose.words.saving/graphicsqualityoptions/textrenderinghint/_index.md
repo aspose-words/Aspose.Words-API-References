@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.saving/graphicsqualityoptions/textrenderinghint/
 ---
-## GraphicsQualityOptions.TextRenderingHint property
+## TextRenderingHint property
 
 Gets or sets the rendering mode for text associated with this Graphics.
 

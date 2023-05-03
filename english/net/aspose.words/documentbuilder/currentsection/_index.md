@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words/documentbuilder/currentsection/
 ---
-## DocumentBuilder.CurrentSection property
+## CurrentSection property
 
 Gets the section that is currently selected in this [`DocumentBuilder`](../).
 

@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedfonts/
 ---
-## HtmlFixedSaveOptions.ExportEmbeddedFonts property
+## ExportEmbeddedFonts property
 
 Specifies whether fonts should be embedded into Html document in Base64 format. Note setting this flag can significantly increase size of output Html file.
 

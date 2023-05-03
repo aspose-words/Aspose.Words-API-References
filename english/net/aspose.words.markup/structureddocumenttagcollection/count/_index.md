@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.markup/structureddocumenttagcollection/count/
 ---
-## StructuredDocumentTagCollection.Count property
+## Count property
 
 Returns the number of structured document tags in the collection.
 

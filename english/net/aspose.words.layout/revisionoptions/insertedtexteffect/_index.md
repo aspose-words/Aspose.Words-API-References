@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.layout/revisionoptions/insertedtexteffect/
 ---
-## RevisionOptions.InsertedTextEffect property
+## InsertedTextEffect property
 
 Allows to specify the effect to be applied to the inserted content Insertion. Default value is Underline.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 420
 url: /net/aspose.words/document/theme/
 ---
-## Document.Theme property
+## Theme property
 
 Gets the `Theme` object for this document.
 

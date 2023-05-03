@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words/paragraphformat/firstlineindent/
 ---
-## ParagraphFormat.FirstLineIndent property
+## FirstLineIndent property
 
 Gets or sets the value (in points) for a first line or hanging indent.
 

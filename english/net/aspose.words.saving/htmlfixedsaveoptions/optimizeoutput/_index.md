@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words.saving/htmlfixedsaveoptions/optimizeoutput/
 ---
-## HtmlFixedSaveOptions.OptimizeOutput property
+## OptimizeOutput property
 
 Flag indicates whether it is required to optimize output. If this flag is set redundant nested canvases and empty canvases are removed, also neighbor glyphs with the same formating are concatenated. Note: The accuracy of the content display may be affected if this property is set to `true`. Default is `true`.
 

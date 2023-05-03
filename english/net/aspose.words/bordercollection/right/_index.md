@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words/bordercollection/right/
 ---
-## BorderCollection.Right property
+## Right property
 
 Gets the right border.
 

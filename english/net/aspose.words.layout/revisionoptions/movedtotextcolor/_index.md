@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.layout/revisionoptions/movedtotextcolor/
 ---
-## RevisionOptions.MovedToTextColor property
+## MovedToTextColor property
 
 Allows to specify the color to be used for areas where content was moved to Moving. Default value is ByAuthor.
 

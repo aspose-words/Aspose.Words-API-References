@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.fields/barcodeparameters/barcodetype/
 ---
-## BarcodeParameters.BarcodeType property
+## BarcodeType property
 
 Bar code type.
 

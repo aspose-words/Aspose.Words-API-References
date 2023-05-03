@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.saving/pdfdigitalsignaturedetails/hashalgorithm/
 ---
-## PdfDigitalSignatureDetails.HashAlgorithm property
+## HashAlgorithm property
 
 Gets or sets the hash algorithm.
 

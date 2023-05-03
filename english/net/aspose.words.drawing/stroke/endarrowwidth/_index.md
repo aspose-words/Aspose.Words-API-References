@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.drawing/stroke/endarrowwidth/
 ---
-## Stroke.EndArrowWidth property
+## EndArrowWidth property
 
 Defines the arrowhead width for the end of a stroke.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 180
 url: /net/aspose.words.saving/imagesaveoptions/usegdiemfrenderer/
 ---
-## ImageSaveOptions.UseGdiEmfRenderer property
+## UseGdiEmfRenderer property
 
 Gets or sets a value determining whether to use GDI+ or Aspose.Words metafile renderer when saving to EMF.
 

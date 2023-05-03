@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.fields/fieldcollection/count/
 ---
-## FieldCollection.Count property
+## Count property
 
 Returns the number of the fields in the collection.
 

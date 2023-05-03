@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/chartlegend/overlay/
 ---
-## ChartLegend.Overlay property
+## Overlay property
 
 Determines whether other chart elements shall be allowed to overlap legend. Default value is `false`.
 

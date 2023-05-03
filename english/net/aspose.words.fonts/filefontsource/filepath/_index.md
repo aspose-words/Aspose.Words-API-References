@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fonts/filefontsource/filepath/
 ---
-## FileFontSource.FilePath property
+## FilePath property
 
 Path to the font file.
 

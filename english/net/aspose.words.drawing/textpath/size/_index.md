@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words.drawing/textpath/size/
 ---
-## TextPath.Size property
+## Size property
 
 Defines the size of the font in points.
 

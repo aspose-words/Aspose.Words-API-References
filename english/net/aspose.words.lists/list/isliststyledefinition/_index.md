@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.lists/list/isliststyledefinition/
 ---
-## List.IsListStyleDefinition property
+## IsListStyleDefinition property
 
 Returns `true` if this list is a definition of a list style.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words/controlchar/cr/
 ---
-## ControlChar.Cr field
+## Cr field
 
 Carriage return character: "\x000d" or "\r". Same as [`ParagraphBreak`](../paragraphbreak/).
 

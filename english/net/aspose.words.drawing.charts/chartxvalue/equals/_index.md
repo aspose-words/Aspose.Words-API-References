@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words.drawing.charts/chartxvalue/equals/
 ---
-## ChartXValue.Equals method
+## Equals method
 
 Gets a flag indicating whether the specified object is equal to the current X value object.
 

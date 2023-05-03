@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words/frameformat/relativehorizontalposition/
 ---
-## FrameFormat.RelativeHorizontalPosition property
+## RelativeHorizontalPosition property
 
 Gets the relative horizontal position of a frame.
 

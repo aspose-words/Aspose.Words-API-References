@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/editablerangestart/editablerange/
 ---
-## EditableRangeStart.EditableRange property
+## EditableRange property
 
 Gets the facade object that encapsulates this editable range start and end.
 

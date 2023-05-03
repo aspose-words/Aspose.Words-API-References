@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.drawing.charts/chartyvalue/doublevalue/
 ---
-## ChartYValue.DoubleValue property
+## DoubleValue property
 
 Gets the stored numeric value.
 

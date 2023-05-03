@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.saving/xamlflowsaveoptions/imagesavingcallback/
 ---
-## XamlFlowSaveOptions.ImageSavingCallback property
+## ImageSavingCallback property
 
 Allows to control how images are saved when a document is saved to XAML.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.fields/fieldincludetext/sourcefullname/
 ---
-## FieldIncludeText.SourceFullName property
+## SourceFullName property
 
 Gets or sets the location of the document using an IRI.
 

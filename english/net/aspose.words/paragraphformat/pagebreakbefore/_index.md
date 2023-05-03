@@ -7,7 +7,7 @@ type: docs
 weight: 250
 url: /net/aspose.words/paragraphformat/pagebreakbefore/
 ---
-## ParagraphFormat.PageBreakBefore property
+## PageBreakBefore property
 
 True if a page break is forced before the paragraph.
 

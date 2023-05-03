@@ -7,7 +7,7 @@ type: docs
 weight: 440
 url: /net/aspose.words/document/variables/
 ---
-## Document.Variables property
+## Variables property
 
 Returns the collection of variables added to a document or template.
 

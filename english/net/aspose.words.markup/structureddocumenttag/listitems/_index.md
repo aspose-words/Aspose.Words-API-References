@@ -7,7 +7,7 @@ type: docs
 weight: 180
 url: /net/aspose.words.markup/structureddocumenttag/listitems/
 ---
-## StructuredDocumentTag.ListItems property
+## ListItems property
 
 Gets [`SdtListItemCollection`](../../sdtlistitemcollection/) associated with this **SDT**.
 

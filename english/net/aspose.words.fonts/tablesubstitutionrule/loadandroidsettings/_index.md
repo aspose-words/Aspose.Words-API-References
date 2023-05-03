@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.fonts/tablesubstitutionrule/loadandroidsettings/
 ---
-## TableSubstitutionRule.LoadAndroidSettings method
+## LoadAndroidSettings method
 
 Loads predefined table substitution settings for Android platform.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.vba/vbamodule/name/
 ---
-## VbaModule.Name property
+## Name property
 
 Gets or sets VBA project module name.
 

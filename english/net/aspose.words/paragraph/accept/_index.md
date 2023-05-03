@@ -7,7 +7,7 @@ type: docs
 weight: 230
 url: /net/aspose.words/paragraph/accept/
 ---
-## Paragraph.Accept method
+## Accept method
 
 Accepts a visitor.
 

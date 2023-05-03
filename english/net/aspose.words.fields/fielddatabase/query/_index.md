@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.fields/fielddatabase/query/
 ---
-## FieldDatabase.Query property
+## Query property
 
 Gets or sets a set of SQL instructions that query the database.
 

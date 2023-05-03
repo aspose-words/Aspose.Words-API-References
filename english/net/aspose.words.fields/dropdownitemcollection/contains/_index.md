@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.fields/dropdownitemcollection/contains/
 ---
-## DropDownItemCollection.Contains method
+## Contains method
 
 Determines whether the collection contains the specified value.
 

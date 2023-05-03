@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.rendering/noderendererbase/opaqueboundsinpoints/
 ---
-## NodeRendererBase.OpaqueBoundsInPoints property
+## OpaqueBoundsInPoints property
 
 Gets the opaque bounds of the shape in points.
 

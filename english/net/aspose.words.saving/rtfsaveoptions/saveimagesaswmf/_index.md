@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.saving/rtfsaveoptions/saveimagesaswmf/
 ---
-## RtfSaveOptions.SaveImagesAsWmf property
+## SaveImagesAsWmf property
 
 When `true` all images will be saved as WMF.
 

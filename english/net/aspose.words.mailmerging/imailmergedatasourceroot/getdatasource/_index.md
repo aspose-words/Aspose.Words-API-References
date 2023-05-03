@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.mailmerging/imailmergedatasourceroot/getdatasource/
 ---
-## IMailMergeDataSourceRoot.GetDataSource method
+## GetDataSource method
 
 The Aspose.Words mail merge engine invokes this method when it encounters a beginning of a top-level mail merge region.
 

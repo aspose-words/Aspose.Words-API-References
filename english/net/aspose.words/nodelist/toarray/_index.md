@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/nodelist/toarray/
 ---
-## NodeList.ToArray method
+## ToArray method
 
 Copies all nodes from the collection to a new array of nodes.
 

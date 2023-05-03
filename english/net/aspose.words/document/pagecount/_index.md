@@ -7,7 +7,7 @@ type: docs
 weight: 320
 url: /net/aspose.words/document/pagecount/
 ---
-## Document.PageCount property
+## PageCount property
 
 Gets the number of pages in the document as calculated by the most recent page layout operation.
 

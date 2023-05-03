@@ -7,7 +7,7 @@ type: docs
 weight: 140
 url: /net/aspose.words.drawing.charts/chartaxis/majorunitscale/
 ---
-## ChartAxis.MajorUnitScale property
+## MajorUnitScale property
 
 Returns or sets the scale value for major tick marks on the time category axis.
 

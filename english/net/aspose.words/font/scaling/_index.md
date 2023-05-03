@@ -7,7 +7,7 @@ type: docs
 weight: 310
 url: /net/aspose.words/font/scaling/
 ---
-## Font.Scaling property
+## Scaling property
 
 Gets or sets character width scaling in percent.
 

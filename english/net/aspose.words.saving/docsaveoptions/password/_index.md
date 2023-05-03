@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.saving/docsaveoptions/password/
 ---
-## DocSaveOptions.Password property
+## Password property
 
 Gets/sets a password to encrypt document using RC4 encryption method.
 

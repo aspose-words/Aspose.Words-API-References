@@ -7,7 +7,7 @@ type: docs
 weight: 200
 url: /net/aspose.words/documentbuilder/deleterow/
 ---
-## DocumentBuilder.DeleteRow method
+## DeleteRow method
 
 Deletes a row from a table.
 

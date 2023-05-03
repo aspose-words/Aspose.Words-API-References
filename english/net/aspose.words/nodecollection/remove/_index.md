@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words/nodecollection/remove/
 ---
-## NodeCollection.Remove method
+## Remove method
 
 Removes the node from the collection and from the document.
 

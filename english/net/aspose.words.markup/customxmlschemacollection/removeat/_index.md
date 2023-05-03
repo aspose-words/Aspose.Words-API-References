@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.markup/customxmlschemacollection/removeat/
 ---
-## CustomXmlSchemaCollection.RemoveAt method
+## RemoveAt method
 
 Removes a value at the specified index.
 

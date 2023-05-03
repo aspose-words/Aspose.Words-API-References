@@ -7,7 +7,7 @@ type: docs
 weight: 150
 url: /net/aspose.words/node/remove/
 ---
-## Node.Remove method
+## Remove method
 
 Removes itself from the parent.
 

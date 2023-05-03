@@ -7,7 +7,7 @@ type: docs
 weight: 240
 url: /net/aspose.words/pagesetup/linesperpage/
 ---
-## PageSetup.LinesPerPage property
+## LinesPerPage property
 
 Gets or sets the number of lines per page in the document grid.
 

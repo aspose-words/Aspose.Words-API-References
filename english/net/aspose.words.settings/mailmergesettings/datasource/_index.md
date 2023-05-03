@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.settings/mailmergesettings/datasource/
 ---
-## MailMergeSettings.DataSource property
+## DataSource property
 
 Specifies the path to the mail-merge data source. The default value is an empty string.
 

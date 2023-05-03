@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.tables/row/cells/
 ---
-## Row.Cells property
+## Cells property
 
 Provides typed access to the [`Cell`](../../cell/) child nodes of the row.
 

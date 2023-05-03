@@ -7,7 +7,7 @@ type: docs
 weight: 210
 url: /net/aspose.words/paragraphformat/lineunitafter/
 ---
-## ParagraphFormat.LineUnitAfter property
+## LineUnitAfter property
 
 Gets or sets the amount of spacing (in gridlines) after the paragraphs.
 

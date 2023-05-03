@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.saving/outlineoptions/expandedoutlinelevels/
 ---
-## OutlineOptions.ExpandedOutlineLevels property
+## ExpandedOutlineLevels property
 
 Specifies how many levels in the document outline to show expanded when the file is viewed.
 

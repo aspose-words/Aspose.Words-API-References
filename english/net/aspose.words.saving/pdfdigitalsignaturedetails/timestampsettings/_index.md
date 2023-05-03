@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.saving/pdfdigitalsignaturedetails/timestampsettings/
 ---
-## PdfDigitalSignatureDetails.TimestampSettings property
+## TimestampSettings property
 
 Gets or sets the digital signature timestamp settings.
 

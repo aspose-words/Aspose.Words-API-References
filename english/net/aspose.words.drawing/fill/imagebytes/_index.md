@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words.drawing/fill/imagebytes/
 ---
-## Fill.ImageBytes property
+## ImageBytes property
 
 Gets the raw bytes of the fill texture or pattern.
 

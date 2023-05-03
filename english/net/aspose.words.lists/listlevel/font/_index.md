@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.lists/listlevel/font/
 ---
-## ListLevel.Font property
+## Font property
 
 Specifies character formatting used for the list label.
 

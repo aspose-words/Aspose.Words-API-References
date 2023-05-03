@@ -7,7 +7,7 @@ type: docs
 weight: 200
 url: /net/aspose.words.drawing/textpath/xscale/
 ---
-## TextPath.XScale property
+## XScale property
 
 Determines whether a straight textpath will be used instead of the shape path.
 

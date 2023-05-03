@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/specialchar/gettext/
 ---
-## SpecialChar.GetText method
+## GetText method
 
 Gets the special character that this node represents.
 

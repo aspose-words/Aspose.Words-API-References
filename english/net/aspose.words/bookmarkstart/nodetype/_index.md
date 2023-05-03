@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/bookmarkstart/nodetype/
 ---
-## BookmarkStart.NodeType property
+## NodeType property
 
 Returns BookmarkStart.
 

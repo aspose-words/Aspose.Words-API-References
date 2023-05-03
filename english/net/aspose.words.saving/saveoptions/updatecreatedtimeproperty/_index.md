@@ -7,7 +7,7 @@ type: docs
 weight: 150
 url: /net/aspose.words.saving/saveoptions/updatecreatedtimeproperty/
 ---
-## SaveOptions.UpdateCreatedTimeProperty property
+## UpdateCreatedTimeProperty property
 
 Gets or sets a value determining whether the [`CreatedTime`](../../../aspose.words.properties/builtindocumentproperties/createdtime/) property is updated before saving. Default value is `false`;
 

@@ -7,7 +7,7 @@ type: docs
 weight: 160
 url: /net/aspose.words.saving/htmlsaveoptions/exportfontsasbase64/
 ---
-## HtmlSaveOptions.ExportFontsAsBase64 property
+## ExportFontsAsBase64 property
 
 Specifies whether fonts resources should be embedded to HTML in Base64 encoding. Default is `false`.
 

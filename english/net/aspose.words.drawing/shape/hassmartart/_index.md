@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.drawing/shape/hassmartart/
 ---
-## Shape.HasSmartArt property
+## HasSmartArt property
 
 Returns `true` if this [`Shape`](../) has a SmartArt object.
 

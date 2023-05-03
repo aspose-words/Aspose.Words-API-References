@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.saving/fixedpagesaveoptions/jpegquality/
 ---
-## FixedPageSaveOptions.JpegQuality property
+## JpegQuality property
 
 Gets or sets a value determining the quality of the JPEG images inside Html document.
 

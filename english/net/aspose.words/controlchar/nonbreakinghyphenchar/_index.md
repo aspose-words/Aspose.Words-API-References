@@ -7,7 +7,7 @@ type: docs
 weight: 160
 url: /net/aspose.words/controlchar/nonbreakinghyphenchar/
 ---
-## ControlChar.NonBreakingHyphenChar field
+## NonBreakingHyphenChar field
 
 Nonbreaking Hyphen in Microsoft Word is (char)30.
 

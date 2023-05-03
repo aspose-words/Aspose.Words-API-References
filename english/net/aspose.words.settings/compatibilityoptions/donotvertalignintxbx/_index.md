@@ -7,7 +7,7 @@ type: docs
 weight: 240
 url: /net/aspose.words.settings/compatibilityoptions/donotvertalignintxbx/
 ---
-## CompatibilityOptions.DoNotVertAlignInTxbx property
+## DoNotVertAlignInTxbx property
 
 Ignore Vertical Alignment in Textboxes.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/font/allcaps/
 ---
-## Font.AllCaps property
+## AllCaps property
 
 True if the font is formatted as all capital letters.
 

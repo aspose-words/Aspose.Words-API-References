@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words/comment/done/
 ---
-## Comment.Done property
+## Done property
 
 Gets or sets flag indicating that the comment has been marked done.
 

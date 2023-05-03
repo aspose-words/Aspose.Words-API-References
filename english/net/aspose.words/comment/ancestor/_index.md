@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/comment/ancestor/
 ---
-## Comment.Ancestor property
+## Ancestor property
 
 Returns the parent [`Comment`](../) object. Returns `null` for top-level comments.
 

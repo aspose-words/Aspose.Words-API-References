@@ -7,7 +7,7 @@ type: docs
 weight: 170
 url: /net/aspose.words.drawing.charts/chartseries/clear/
 ---
-## ChartSeries.Clear method
+## Clear method
 
 Removes all data values from the chart series. Format of all individual data points and data labels is cleared.
 

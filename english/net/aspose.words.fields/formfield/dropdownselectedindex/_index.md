@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.fields/formfield/dropdownselectedindex/
 ---
-## FormField.DropDownSelectedIndex property
+## DropDownSelectedIndex property
 
 Gets or sets the index specifying the currently selected item in a dropdown form field.
 

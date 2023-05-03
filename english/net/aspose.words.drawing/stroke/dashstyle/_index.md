@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.drawing/stroke/dashstyle/
 ---
-## Stroke.DashStyle property
+## DashStyle property
 
 Specifies the dot and dash pattern for a stroke.
 

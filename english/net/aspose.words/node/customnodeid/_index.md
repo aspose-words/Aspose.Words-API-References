@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/node/customnodeid/
 ---
-## Node.CustomNodeId property
+## CustomNodeId property
 
 Specifies custom node identifier.
 

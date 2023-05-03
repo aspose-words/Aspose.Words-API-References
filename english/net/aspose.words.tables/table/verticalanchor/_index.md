@@ -7,7 +7,7 @@ type: docs
 weight: 340
 url: /net/aspose.words.tables/table/verticalanchor/
 ---
-## Table.VerticalAnchor property
+## VerticalAnchor property
 
 Gets the base object from which the vertical positioning of floating table should be calculated. Default value is Margin.
 

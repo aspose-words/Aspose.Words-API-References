@@ -7,7 +7,7 @@ type: docs
 weight: 130
 url: /net/aspose.words/controlchar/linebreakchar/
 ---
-## ControlChar.LineBreakChar field
+## LineBreakChar field
 
 Line break character: (char)11 or "\v".
 

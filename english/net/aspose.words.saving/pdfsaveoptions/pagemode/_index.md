@@ -7,7 +7,7 @@ type: docs
 weight: 250
 url: /net/aspose.words.saving/pdfsaveoptions/pagemode/
 ---
-## PdfSaveOptions.PageMode property
+## PageMode property
 
 Specifies how the PDF document should be displayed when opened in the PDF reader.
 

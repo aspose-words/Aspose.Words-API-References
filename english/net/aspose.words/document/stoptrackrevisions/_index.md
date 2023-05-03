@@ -7,7 +7,7 @@ type: docs
 weight: 720
 url: /net/aspose.words/document/stoptrackrevisions/
 ---
-## Document.StopTrackRevisions method
+## StopTrackRevisions method
 
 Stops automatic marking of document changes as revisions.
 

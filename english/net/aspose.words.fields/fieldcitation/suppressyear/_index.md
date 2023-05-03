@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words.fields/fieldcitation/suppressyear/
 ---
-## FieldCitation.SuppressYear property
+## SuppressYear property
 
 Gets or sets whether the year information is suppressed from the citation.
 

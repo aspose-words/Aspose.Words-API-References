@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldtoa/entryseparator/
 ---
-## FieldToa.EntrySeparator property
+## EntrySeparator property
 
 Gets or sets the character sequence that is used to separate a table of authorities entry and its page number.
 

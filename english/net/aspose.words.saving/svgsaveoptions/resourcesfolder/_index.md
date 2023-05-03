@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.saving/svgsaveoptions/resourcesfolder/
 ---
-## SvgSaveOptions.ResourcesFolder property
+## ResourcesFolder property
 
 Specifies the physical folder where resources (images) are saved when exporting a document to Svg format. Default is `null`.
 

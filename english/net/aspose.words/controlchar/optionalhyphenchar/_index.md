@@ -7,7 +7,7 @@ type: docs
 weight: 190
 url: /net/aspose.words/controlchar/optionalhyphenchar/
 ---
-## ControlChar.OptionalHyphenChar field
+## OptionalHyphenChar field
 
 Optional Hyphen in Microsoft Word is (char)31.
 

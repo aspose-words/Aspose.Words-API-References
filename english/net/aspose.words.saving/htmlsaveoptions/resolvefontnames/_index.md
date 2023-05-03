@@ -7,7 +7,7 @@ type: docs
 weight: 410
 url: /net/aspose.words.saving/htmlsaveoptions/resolvefontnames/
 ---
-## HtmlSaveOptions.ResolveFontNames property
+## ResolveFontNames property
 
 Specifies whether font family names used in the document are resolved and substituted according to [`FontSettings`](../../../aspose.words/document/fontsettings/) when being written into HTML-based formats.
 

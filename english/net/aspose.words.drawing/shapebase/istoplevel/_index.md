@@ -7,7 +7,7 @@ type: docs
 weight: 350
 url: /net/aspose.words.drawing/shapebase/istoplevel/
 ---
-## ShapeBase.IsTopLevel property
+## IsTopLevel property
 
 Returns `true` if this shape is not a child of a group shape.
 

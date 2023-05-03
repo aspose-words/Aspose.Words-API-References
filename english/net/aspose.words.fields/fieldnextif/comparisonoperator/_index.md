@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldnextif/comparisonoperator/
 ---
-## FieldNextIf.ComparisonOperator property
+## ComparisonOperator property
 
 Gets or sets the comparison operator.
 

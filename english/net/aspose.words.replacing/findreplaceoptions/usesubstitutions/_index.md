@@ -7,7 +7,7 @@ type: docs
 weight: 180
 url: /net/aspose.words.replacing/findreplaceoptions/usesubstitutions/
 ---
-## FindReplaceOptions.UseSubstitutions property
+## UseSubstitutions property
 
 Gets or sets a boolean value indicating whether to recognize and use substitutions within replacement patterns. The default value is `false`.
 

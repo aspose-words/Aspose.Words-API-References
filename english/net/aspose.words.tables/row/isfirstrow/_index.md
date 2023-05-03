@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.tables/row/isfirstrow/
 ---
-## Row.IsFirstRow property
+## IsFirstRow property
 
 True if this is the first row in a table; false otherwise.
 

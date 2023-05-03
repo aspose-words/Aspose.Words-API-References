@@ -7,7 +7,7 @@ type: docs
 weight: 490
 url: /net/aspose.words/document/webextensiontaskpanes/
 ---
-## Document.WebExtensionTaskPanes property
+## WebExtensionTaskPanes property
 
 Returns a collection that represents a list of task pane add-ins.
 

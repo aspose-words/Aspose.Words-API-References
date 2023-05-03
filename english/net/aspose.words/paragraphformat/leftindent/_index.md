@@ -7,7 +7,7 @@ type: docs
 weight: 170
 url: /net/aspose.words/paragraphformat/leftindent/
 ---
-## ParagraphFormat.LeftIndent property
+## LeftIndent property
 
 Gets or sets the value (in points) that represents the left indent for paragraph.
 

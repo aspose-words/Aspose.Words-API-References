@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words/tablestyle/leftpadding/
 ---
-## TableStyle.LeftPadding property
+## LeftPadding property
 
 Gets or sets the amount of space (in points) to add to the left of the contents of table cells.
 

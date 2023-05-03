@@ -7,7 +7,7 @@ type: docs
 weight: 150
 url: /net/aspose.words.markup/structureddocumenttagrangestart/tag/
 ---
-## StructuredDocumentTagRangeStart.Tag property
+## Tag property
 
 Specifies a tag associated with the current structured document tag node. Can not be `null`.
 

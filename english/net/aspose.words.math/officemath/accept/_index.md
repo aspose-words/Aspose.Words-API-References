@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.math/officemath/accept/
 ---
-## OfficeMath.Accept method
+## Accept method
 
 Accepts a visitor.
 

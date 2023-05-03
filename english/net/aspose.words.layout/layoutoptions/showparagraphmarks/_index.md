@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.layout/layoutoptions/showparagraphmarks/
 ---
-## LayoutOptions.ShowParagraphMarks property
+## ShowParagraphMarks property
 
 Gets or sets indication of whether paragraph marks are rendered. Default is `false`.
 

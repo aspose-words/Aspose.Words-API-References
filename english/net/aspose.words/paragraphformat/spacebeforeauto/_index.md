@@ -7,7 +7,7 @@ type: docs
 weight: 320
 url: /net/aspose.words/paragraphformat/spacebeforeauto/
 ---
-## ParagraphFormat.SpaceBeforeAuto property
+## SpaceBeforeAuto property
 
 True if the amount of spacing before the paragraph is set automatically.
 

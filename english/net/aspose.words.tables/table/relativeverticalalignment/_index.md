@@ -7,7 +7,7 @@ type: docs
 weight: 240
 url: /net/aspose.words.tables/table/relativeverticalalignment/
 ---
-## Table.RelativeVerticalAlignment property
+## RelativeVerticalAlignment property
 
 Gets or sets floating table relative vertical alignment.
 

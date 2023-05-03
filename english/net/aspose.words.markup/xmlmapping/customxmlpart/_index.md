@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.markup/xmlmapping/customxmlpart/
 ---
-## XmlMapping.CustomXmlPart property
+## CustomXmlPart property
 
 Returns the custom XML data part to which the parent structured document tag is mapped.
 

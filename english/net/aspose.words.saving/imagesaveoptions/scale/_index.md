@@ -7,7 +7,7 @@ type: docs
 weight: 140
 url: /net/aspose.words.saving/imagesaveoptions/scale/
 ---
-## ImageSaveOptions.Scale property
+## Scale property
 
 Gets or sets the zoom factor for the generated images.
 

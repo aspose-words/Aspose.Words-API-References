@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.fields/fieldcitation/suppressauthor/
 ---
-## FieldCitation.SuppressAuthor property
+## SuppressAuthor property
 
 Gets or sets whether the author information is suppressed from the citation.
 

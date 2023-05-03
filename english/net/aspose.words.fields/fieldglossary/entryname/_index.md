@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldglossary/entryname/
 ---
-## FieldGlossary.EntryName property
+## EntryName property
 
 Gets or sets the name of the glossary entry to insert.
 

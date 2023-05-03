@@ -7,7 +7,7 @@ type: docs
 weight: 150
 url: /net/aspose.words/pagesetup/footnoteoptions/
 ---
-## PageSetup.FootnoteOptions property
+## FootnoteOptions property
 
 Provides options that control numbering and positioning of footnotes in this section.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 150
 url: /net/aspose.words.layout/layoutenumerator/moveprevious/
 ---
-## LayoutEnumerator.MovePrevious method
+## MovePrevious method
 
 Moves to the previous sibling entity.
 

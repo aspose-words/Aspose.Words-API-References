@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words.drawing.charts/chartdatalabel/showleaderlines/
 ---
-## ChartDataLabel.ShowLeaderLines property
+## ShowLeaderLines property
 
 Allows to specify if data label leader lines need be shown. Default value is `false`.
 

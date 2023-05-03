@@ -7,7 +7,7 @@ type: docs
 weight: 150
 url: /net/aspose.words.fields/barcodeparameters/postaladdress/
 ---
-## BarcodeParameters.PostalAddress property
+## PostalAddress property
 
 Barcode postal address.
 

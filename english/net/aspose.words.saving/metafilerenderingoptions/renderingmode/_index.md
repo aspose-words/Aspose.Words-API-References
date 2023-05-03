@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.saving/metafilerenderingoptions/renderingmode/
 ---
-## MetafileRenderingOptions.RenderingMode property
+## RenderingMode property
 
 Gets or sets a value determining how metafile images should be rendered.
 

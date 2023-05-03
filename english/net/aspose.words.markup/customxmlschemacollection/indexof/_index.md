@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.markup/customxmlschemacollection/indexof/
 ---
-## CustomXmlSchemaCollection.IndexOf method
+## IndexOf method
 
 Returns the zero-based index of the specified value in the collection.
 

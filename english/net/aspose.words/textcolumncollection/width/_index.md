@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words/textcolumncollection/width/
 ---
-## TextColumnCollection.Width property
+## Width property
 
 When columns are evenly spaced, gets the width of the columns.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 150
 url: /net/aspose.words.drawing/shapebase/distanceright/
 ---
-## ShapeBase.DistanceRight property
+## DistanceRight property
 
 Returns or sets the distance (in points) between the document text and the right edge of the shape.
 

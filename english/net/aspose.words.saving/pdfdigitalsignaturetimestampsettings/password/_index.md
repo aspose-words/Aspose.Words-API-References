@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/password/
 ---
-## PdfDigitalSignatureTimestampSettings.Password property
+## Password property
 
 Timestamp server password.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/chartxvaluecollection/count/
 ---
-## ChartXValueCollection.Count property
+## Count property
 
 Gets the number of items in this collection.
 

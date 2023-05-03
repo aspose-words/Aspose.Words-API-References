@@ -7,7 +7,7 @@ type: docs
 weight: 270
 url: /net/aspose.words.drawing.charts/chartaxis/tickmarkspacing/
 ---
-## ChartAxis.TickMarkSpacing property
+## TickMarkSpacing property
 
 Gets or sets the interval, at which tick marks are drawn.
 

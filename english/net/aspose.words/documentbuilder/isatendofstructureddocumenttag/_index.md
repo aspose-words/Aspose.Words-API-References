@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words/documentbuilder/isatendofstructureddocumenttag/
 ---
-## DocumentBuilder.IsAtEndOfStructuredDocumentTag property
+## IsAtEndOfStructuredDocumentTag property
 
 Returns **true** if the cursor is at the end of a structured document tag.
 

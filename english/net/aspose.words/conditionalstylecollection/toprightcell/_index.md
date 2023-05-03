@@ -7,7 +7,7 @@ type: docs
 weight: 140
 url: /net/aspose.words/conditionalstylecollection/toprightcell/
 ---
-## ConditionalStyleCollection.TopRightCell property
+## TopRightCell property
 
 Gets the top right cell style.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 160
 url: /net/aspose.words/paragraph/listlabel/
 ---
-## Paragraph.ListLabel property
+## ListLabel property
 
 Gets a `ListLabel` object that provides access to list numbering value and formatting for this paragraph.
 

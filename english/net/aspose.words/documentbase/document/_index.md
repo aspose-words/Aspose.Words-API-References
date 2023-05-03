@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/documentbase/document/
 ---
-## DocumentBase.Document property
+## Document property
 
 Gets this instance.
 

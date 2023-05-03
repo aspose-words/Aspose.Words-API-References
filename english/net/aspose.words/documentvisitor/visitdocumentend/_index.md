@@ -7,7 +7,7 @@ type: docs
 weight: 140
 url: /net/aspose.words/documentvisitor/visitdocumentend/
 ---
-## DocumentVisitor.VisitDocumentEnd method
+## VisitDocumentEnd method
 
 Called when enumeration of the document has finished.
 

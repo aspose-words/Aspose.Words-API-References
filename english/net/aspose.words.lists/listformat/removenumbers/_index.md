@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.lists/listformat/removenumbers/
 ---
-## ListFormat.RemoveNumbers method
+## RemoveNumbers method
 
 Removes numbers or bullets from the current paragraph and sets list level to zero.
 

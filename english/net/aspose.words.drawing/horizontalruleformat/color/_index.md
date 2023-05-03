@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.drawing/horizontalruleformat/color/
 ---
-## HorizontalRuleFormat.Color property
+## Color property
 
 Gets or sets the brush color that fills the horizontal rule.
 

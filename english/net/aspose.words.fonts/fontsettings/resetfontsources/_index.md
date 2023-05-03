@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.fonts/fontsettings/resetfontsources/
 ---
-## FontSettings.ResetFontSources method
+## ResetFontSources method
 
 Resets the fonts sources to the system default.
 

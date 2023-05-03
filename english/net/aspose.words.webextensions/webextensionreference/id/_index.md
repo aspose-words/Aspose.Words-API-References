@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.webextensions/webextensionreference/id/
 ---
-## WebExtensionReference.Id property
+## Id property
 
 Identifier associated with the web extension within a catalog provider.
 

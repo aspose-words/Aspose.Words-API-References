@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldseparator/accept/
 ---
-## FieldSeparator.Accept method
+## Accept method
 
 Accepts a visitor.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/tabstop/alignment/
 ---
-## TabStop.Alignment property
+## Alignment property
 
 Gets or sets the alignment of text at this tab stop.
 

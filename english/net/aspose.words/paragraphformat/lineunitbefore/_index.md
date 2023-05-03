@@ -7,7 +7,7 @@ type: docs
 weight: 220
 url: /net/aspose.words/paragraphformat/lineunitbefore/
 ---
-## ParagraphFormat.LineUnitBefore property
+## LineUnitBefore property
 
 Gets or sets the amount of spacing (in gridlines) before the paragraphs.
 

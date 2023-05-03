@@ -7,7 +7,7 @@ type: docs
 weight: 320
 url: /net/aspose.words/font/shading/
 ---
-## Font.Shading property
+## Shading property
 
 Returns a [`Shading`](../../shading/) object that refers to the shading formatting for the font.
 

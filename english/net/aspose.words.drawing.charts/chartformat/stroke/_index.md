@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/chartformat/stroke/
 ---
-## ChartFormat.Stroke property
+## Stroke property
 
 Gets line formatting for the parent chart element.
 

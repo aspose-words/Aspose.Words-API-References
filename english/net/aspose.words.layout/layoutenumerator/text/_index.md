@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.layout/layoutenumerator/text/
 ---
-## LayoutEnumerator.Text property
+## Text property
 
 Gets text of the current span entity. Throws for other entity types.
 

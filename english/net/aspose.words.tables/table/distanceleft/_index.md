@@ -7,7 +7,7 @@ type: docs
 weight: 130
 url: /net/aspose.words.tables/table/distanceleft/
 ---
-## Table.DistanceLeft property
+## DistanceLeft property
 
 Gets or sets distance between table left and the surrounding text, in points.
 

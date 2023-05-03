@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/compositenode/count/
 ---
-## CompositeNode.Count property
+## Count property
 
 Gets the number of immediate children of this node.
 

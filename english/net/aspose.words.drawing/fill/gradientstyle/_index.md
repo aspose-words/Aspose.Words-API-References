@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words.drawing/fill/gradientstyle/
 ---
-## Fill.GradientStyle property
+## GradientStyle property
 
 Gets the gradient style [`GradientStyle`](../../gradientstyle/) for the fill.
 

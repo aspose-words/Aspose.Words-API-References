@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.fields/fieldoptions/fieldupdatecultureprovider/
 ---
-## FieldOptions.FieldUpdateCultureProvider property
+## FieldUpdateCultureProvider property
 
 Gets or sets a provider that returns a culture object specific for each particular field.
 

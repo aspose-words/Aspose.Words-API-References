@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.webextensions/webextension/alternatereferences/
 ---
-## WebExtension.AlternateReferences property
+## AlternateReferences property
 
 Specifies alternate references to a web extension.
 

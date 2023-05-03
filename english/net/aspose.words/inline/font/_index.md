@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/inline/font/
 ---
-## Inline.Font property
+## Font property
 
 Provides access to the font formatting of this object.
 

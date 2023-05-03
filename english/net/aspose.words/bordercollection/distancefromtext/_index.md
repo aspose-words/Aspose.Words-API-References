@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/bordercollection/distancefromtext/
 ---
-## BorderCollection.DistanceFromText property
+## DistanceFromText property
 
 Gets or sets distance of the border from text in points.
 

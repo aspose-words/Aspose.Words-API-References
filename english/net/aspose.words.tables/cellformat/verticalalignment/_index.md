@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words.tables/cellformat/verticalalignment/
 ---
-## CellFormat.VerticalAlignment property
+## VerticalAlignment property
 
 Returns or sets the vertical alignment of text in the cell.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.properties/documentproperty/name/
 ---
-## DocumentProperty.Name property
+## Name property
 
 Returns the name of the property.
 

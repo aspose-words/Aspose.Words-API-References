@@ -7,7 +7,7 @@ type: docs
 weight: 520
 url: /net/aspose.words/document/acceptallrevisions/
 ---
-## Document.AcceptAllRevisions method
+## AcceptAllRevisions method
 
 Accepts all tracked changes in the document.
 

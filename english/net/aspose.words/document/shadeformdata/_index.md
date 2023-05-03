@@ -7,7 +7,7 @@ type: docs
 weight: 380
 url: /net/aspose.words/document/shadeformdata/
 ---
-## Document.ShadeFormData property
+## ShadeFormData property
 
 Specifies whether to turn on the gray shading on form fields.
 

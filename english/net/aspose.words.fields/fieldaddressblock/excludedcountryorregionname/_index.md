@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldaddressblock/excludedcountryorregionname/
 ---
-## FieldAddressBlock.ExcludedCountryOrRegionName property
+## ExcludedCountryOrRegionName property
 
 Gets or sets the excluded country/region name.
 

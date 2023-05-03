@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.themes/themecolors/accent2/
 ---
-## ThemeColors.Accent2 property
+## Accent2 property
 
 Specifies color Accent 2.
 

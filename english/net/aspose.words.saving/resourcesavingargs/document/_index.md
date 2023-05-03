@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.saving/resourcesavingargs/document/
 ---
-## ResourceSavingArgs.Document property
+## Document property
 
 Gets the document object that is currently being saved.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 130
 url: /net/aspose.words.drawing/stroke/linestyle/
 ---
-## Stroke.LineStyle property
+## LineStyle property
 
 Defines the line style of the stroke.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words.fields/fieldlink/sourcefullname/
 ---
-## FieldLink.SourceFullName property
+## SourceFullName property
 
 Gets or sets the name and location of the source file.
 

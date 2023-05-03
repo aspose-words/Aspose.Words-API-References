@@ -7,7 +7,7 @@ type: docs
 weight: 170
 url: /net/aspose.words.mailmerging/mailmerge/deletefields/
 ---
-## MailMerge.DeleteFields method
+## DeleteFields method
 
 Removes mail merge related fields from the document.
 

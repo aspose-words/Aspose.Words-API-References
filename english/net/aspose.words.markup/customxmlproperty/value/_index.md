@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.markup/customxmlproperty/value/
 ---
-## CustomXmlProperty.Value property
+## Value property
 
 Gets or sets the value of the custom XML attribute or smart tag property.
 

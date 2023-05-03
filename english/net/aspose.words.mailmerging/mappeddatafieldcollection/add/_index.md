@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.mailmerging/mappeddatafieldcollection/add/
 ---
-## MappedDataFieldCollection.Add method
+## Add method
 
 Adds a new field mapping.
 

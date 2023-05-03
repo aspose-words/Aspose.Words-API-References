@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words.fields/formfield/ischeckboxexactsize/
 ---
-## FormField.IsCheckBoxExactSize property
+## IsCheckBoxExactSize property
 
 Gets or sets the boolean value that indicates whether the size of the textbox is automatic or specified explicitly.
 

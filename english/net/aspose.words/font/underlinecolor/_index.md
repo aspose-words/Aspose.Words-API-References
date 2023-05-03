@@ -7,7 +7,7 @@ type: docs
 weight: 540
 url: /net/aspose.words/font/underlinecolor/
 ---
-## Font.UnderlineColor property
+## UnderlineColor property
 
 Gets or sets the color of the underline applied to the font.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 220
 url: /net/aspose.words.saving/pdfsaveoptions/jpegquality/
 ---
-## PdfSaveOptions.JpegQuality property
+## JpegQuality property
 
 Gets or sets a value determining the quality of the JPEG images inside PDF document.
 

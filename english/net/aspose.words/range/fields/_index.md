@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/range/fields/
 ---
-## Range.Fields property
+## Fields property
 
 Returns a `Fields` collection that represents all fields in the range.
 

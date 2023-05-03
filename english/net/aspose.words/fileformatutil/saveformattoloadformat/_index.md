@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words/fileformatutil/saveformattoloadformat/
 ---
-## FileFormatUtil.SaveFormatToLoadFormat method
+## SaveFormatToLoadFormat method
 
 Converts a [`SaveFormat`](../../saveformat/) value to a [`LoadFormat`](../../loadformat/) value if possible.
 

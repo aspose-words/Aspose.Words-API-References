@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.drawing/textbox/internalmarginright/
 ---
-## TextBox.InternalMarginRight property
+## InternalMarginRight property
 
 Specifies the inner right margin in points for a shape.
 

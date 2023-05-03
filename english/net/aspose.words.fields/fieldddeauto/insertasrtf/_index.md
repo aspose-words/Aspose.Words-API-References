@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldddeauto/insertasrtf/
 ---
-## FieldDdeAuto.InsertAsRtf property
+## InsertAsRtf property
 
 Gets or sets whether to insert the linked object in rich-text format (RTF).
 

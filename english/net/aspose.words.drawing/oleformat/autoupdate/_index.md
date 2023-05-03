@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.drawing/oleformat/autoupdate/
 ---
-## OleFormat.AutoUpdate property
+## AutoUpdate property
 
 Specifies whether the link to the OLE object is automatically updated or not in Microsoft Word.
 

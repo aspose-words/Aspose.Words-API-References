@@ -7,7 +7,7 @@ type: docs
 weight: 430
 url: /net/aspose.words/pagesetup/textorientation/
 ---
-## PageSetup.TextOrientation property
+## TextOrientation property
 
 Allows to specify `TextOrientation` for the whole page. Default value is Horizontal
 

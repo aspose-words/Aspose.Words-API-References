@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words.fields/barcodeparameters/foregroundcolor/
 ---
-## BarcodeParameters.ForegroundColor property
+## ForegroundColor property
 
 Bar code foreground color (0x000000 - 0xFFFFFF)
 

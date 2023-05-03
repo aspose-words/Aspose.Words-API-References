@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldask/promptonceonmailmerge/
 ---
-## FieldAsk.PromptOnceOnMailMerge property
+## PromptOnceOnMailMerge property
 
 Gets or sets whether the user response should be recieved once per a mail merge operation.
 

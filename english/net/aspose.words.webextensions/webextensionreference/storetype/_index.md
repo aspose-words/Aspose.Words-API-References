@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.webextensions/webextensionreference/storetype/
 ---
-## WebExtensionReference.StoreType property
+## StoreType property
 
 Specifies the type of marketplace.
 

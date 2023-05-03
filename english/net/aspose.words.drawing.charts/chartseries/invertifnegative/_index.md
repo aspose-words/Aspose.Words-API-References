@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.drawing.charts/chartseries/invertifnegative/
 ---
-## ChartSeries.InvertIfNegative property
+## InvertIfNegative property
 
 Specifies whether the parent element shall inverts its colors if the value is negative.
 

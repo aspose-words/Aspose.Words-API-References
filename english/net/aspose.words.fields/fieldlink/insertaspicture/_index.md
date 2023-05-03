@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldlink/insertaspicture/
 ---
-## FieldLink.InsertAsPicture property
+## InsertAsPicture property
 
 Gets or sets whether to insert the linked object as a picture.
 

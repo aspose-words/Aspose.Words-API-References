@@ -7,7 +7,7 @@ type: docs
 weight: 190
 url: /net/aspose.words/documentvisitor/visitfieldseparator/
 ---
-## DocumentVisitor.VisitFieldSeparator method
+## VisitFieldSeparator method
 
 Called when a field separator is encountered in the document.
 

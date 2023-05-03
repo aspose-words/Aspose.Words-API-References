@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/conditionalstylecollection/evencolumnbanding/
 ---
-## ConditionalStyleCollection.EvenColumnBanding property
+## EvenColumnBanding property
 
 Gets the even column banding style.
 

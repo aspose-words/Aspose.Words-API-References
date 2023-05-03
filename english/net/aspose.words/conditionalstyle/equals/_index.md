@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words/conditionalstyle/equals/
 ---
-## ConditionalStyle.Equals method
+## Equals method
 
 Compares this conditional style with the specified object.
 

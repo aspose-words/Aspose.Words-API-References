@@ -7,7 +7,7 @@ type: docs
 weight: 130
 url: /net/aspose.words.settings/mailmergesettings/mailsubject/
 ---
-## MailMergeSettings.MailSubject property
+## MailSubject property
 
 Specifies the text which shall appear in the subject line of the e-mails or faxes produced during mail merge. The default value is an empty string.
 

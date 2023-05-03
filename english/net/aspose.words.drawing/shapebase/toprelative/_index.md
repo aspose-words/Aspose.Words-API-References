@@ -7,7 +7,7 @@ type: docs
 weight: 550
 url: /net/aspose.words.drawing/shapebase/toprelative/
 ---
-## ShapeBase.TopRelative property
+## TopRelative property
 
 Gets or sets the value that represents shape's relative top position in percent.
 

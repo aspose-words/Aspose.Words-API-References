@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldbarcode/isbookmark/
 ---
-## FieldBarcode.IsBookmark property
+## IsBookmark property
 
 Gets or sets whether [`PostalAddress`](../postaladdress/) is the name of a bookmark.
 

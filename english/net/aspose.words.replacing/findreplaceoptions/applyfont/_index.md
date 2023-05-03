@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.replacing/findreplaceoptions/applyfont/
 ---
-## FindReplaceOptions.ApplyFont property
+## ApplyFont property
 
 Text formatting applied to new content.
 

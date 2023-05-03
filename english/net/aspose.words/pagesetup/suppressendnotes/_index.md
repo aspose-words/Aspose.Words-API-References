@@ -7,7 +7,7 @@ type: docs
 weight: 410
 url: /net/aspose.words/pagesetup/suppressendnotes/
 ---
-## PageSetup.SuppressEndnotes property
+## SuppressEndnotes property
 
 True if endnotes are printed at the end of the next section that doesn't suppress endnotes. Suppressed endnotes are printed before the endnotes in that section.
 

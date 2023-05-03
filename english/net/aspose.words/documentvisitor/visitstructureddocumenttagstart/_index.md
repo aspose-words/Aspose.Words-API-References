@@ -7,7 +7,7 @@ type: docs
 weight: 470
 url: /net/aspose.words/documentvisitor/visitstructureddocumenttagstart/
 ---
-## DocumentVisitor.VisitStructuredDocumentTagStart method
+## VisitStructuredDocumentTagStart method
 
 Called when enumeration of a structured document tag has started.
 

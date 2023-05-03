@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words/documentvisitor/visitbuildingblockend/
 ---
-## DocumentVisitor.VisitBuildingBlockEnd method
+## VisitBuildingBlockEnd method
 
 Called when enumeration of a building block has ended.
 

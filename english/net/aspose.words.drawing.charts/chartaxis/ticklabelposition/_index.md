@@ -7,7 +7,7 @@ type: docs
 weight: 240
 url: /net/aspose.words.drawing.charts/chartaxis/ticklabelposition/
 ---
-## ChartAxis.TickLabelPosition property
+## TickLabelPosition property
 
 Returns or sets the position of the tick labels on the axis.
 

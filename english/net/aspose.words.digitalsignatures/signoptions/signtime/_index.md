@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.digitalsignatures/signoptions/signtime/
 ---
-## SignOptions.SignTime property
+## SignTime property
 
 The date of signing. Default value is **current time** (Now).
 

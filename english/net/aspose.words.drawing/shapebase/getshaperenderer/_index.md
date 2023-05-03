@@ -7,7 +7,7 @@ type: docs
 weight: 660
 url: /net/aspose.words.drawing/shapebase/getshaperenderer/
 ---
-## ShapeBase.GetShapeRenderer method
+## GetShapeRenderer method
 
 Creates and returns an object that can be used to render this shape into an image.
 

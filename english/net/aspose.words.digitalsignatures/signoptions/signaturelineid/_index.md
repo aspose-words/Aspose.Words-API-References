@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.digitalsignatures/signoptions/signaturelineid/
 ---
-## SignOptions.SignatureLineId property
+## SignatureLineId property
 
 Signature line identifier. Default value is **Empty (all zeroes) Guid**.
 

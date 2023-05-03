@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.buildingblocks/buildingblock/lastsection/
 ---
-## BuildingBlock.LastSection property
+## LastSection property
 
 Gets the last section in the building block.
 

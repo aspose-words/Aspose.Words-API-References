@@ -7,7 +7,7 @@ type: docs
 weight: 180
 url: /net/aspose.words/paragraphformat/linespacing/
 ---
-## ParagraphFormat.LineSpacing property
+## LineSpacing property
 
 Gets or sets the line spacing (in points) for the paragraph.
 

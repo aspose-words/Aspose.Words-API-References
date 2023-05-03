@@ -7,7 +7,7 @@ type: docs
 weight: 140
 url: /net/aspose.words.drawing/textpath/spacing/
 ---
-## TextPath.Spacing property
+## Spacing property
 
 Defines the amount of spacing for text. 1 means 100%.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.drawing/imagesize/verticalresolution/
 ---
-## ImageSize.VerticalResolution property
+## VerticalResolution property
 
 Gets the vertical resolution in DPI.
 

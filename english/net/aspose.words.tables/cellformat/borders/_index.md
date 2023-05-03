@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.tables/cellformat/borders/
 ---
-## CellFormat.Borders property
+## Borders property
 
 Gets collection of borders of the cell.
 

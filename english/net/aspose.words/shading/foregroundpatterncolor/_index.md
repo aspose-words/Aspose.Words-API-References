@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/shading/foregroundpatterncolor/
 ---
-## Shading.ForegroundPatternColor property
+## ForegroundPatternColor property
 
 Gets or sets the color that's applied to the foreground of the [`Shading`](../) object.
 

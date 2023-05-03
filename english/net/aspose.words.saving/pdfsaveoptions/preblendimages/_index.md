@@ -7,7 +7,7 @@ type: docs
 weight: 260
 url: /net/aspose.words.saving/pdfsaveoptions/preblendimages/
 ---
-## PdfSaveOptions.PreblendImages property
+## PreblendImages property
 
 Gets or sets a value determining whether or not to preblend transparent images with black background color.
 

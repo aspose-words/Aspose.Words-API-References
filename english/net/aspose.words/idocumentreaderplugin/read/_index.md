@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/idocumentreaderplugin/read/
 ---
-## IDocumentReaderPlugin.Read method
+## Read method
 
 Reads the data from the specified stream into the [`Document`](../../document/) instance.
 

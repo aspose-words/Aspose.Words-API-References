@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldadvance/horizontalposition/
 ---
-## FieldAdvance.HorizontalPosition property
+## HorizontalPosition property
 
 Gets or sets the number of points by which the text that follows the field should be moved horizontally from the left edge of the column, frame, or text box.
 

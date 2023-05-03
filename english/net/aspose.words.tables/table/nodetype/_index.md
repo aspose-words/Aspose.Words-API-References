@@ -7,7 +7,7 @@ type: docs
 weight: 210
 url: /net/aspose.words.tables/table/nodetype/
 ---
-## Table.NodeType property
+## NodeType property
 
 Returns Table.
 

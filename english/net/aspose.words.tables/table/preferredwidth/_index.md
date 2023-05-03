@@ -7,7 +7,7 @@ type: docs
 weight: 220
 url: /net/aspose.words.tables/table/preferredwidth/
 ---
-## Table.PreferredWidth property
+## PreferredWidth property
 
 Gets or sets the table preferred width.
 

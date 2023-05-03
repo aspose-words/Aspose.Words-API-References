@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.settings/odsofieldmapdatacollection/removeat/
 ---
-## OdsoFieldMapDataCollection.RemoveAt method
+## RemoveAt method
 
 Removes the element at the specified index.
 

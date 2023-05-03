@@ -7,7 +7,7 @@ type: docs
 weight: 170
 url: /net/aspose.words/documentbuilder/paragraphformat/
 ---
-## DocumentBuilder.ParagraphFormat property
+## ParagraphFormat property
 
 Returns an object that represents current paragraph formatting properties.
 

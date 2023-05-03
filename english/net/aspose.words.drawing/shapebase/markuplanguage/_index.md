@@ -7,7 +7,7 @@ type: docs
 weight: 390
 url: /net/aspose.words.drawing/shapebase/markuplanguage/
 ---
-## ShapeBase.MarkupLanguage property
+## MarkupLanguage property
 
 Gets MarkupLanguage used for this graphic object.
 

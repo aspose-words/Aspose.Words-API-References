@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/bubblesizecollection/getenumerator/
 ---
-## BubbleSizeCollection.GetEnumerator method
+## GetEnumerator method
 
 Returns an enumerator object.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 390
 url: /net/aspose.words/font/strikethrough/
 ---
-## Font.StrikeThrough property
+## StrikeThrough property
 
 True if the font is formatted as strikethrough text.
 

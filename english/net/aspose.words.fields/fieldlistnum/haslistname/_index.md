@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldlistnum/haslistname/
 ---
-## FieldListNum.HasListName property
+## HasListName property
 
 Returns a value indicating whether the name of an abstract numbering definition is provided by the field's code.
 

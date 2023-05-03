@@ -7,7 +7,7 @@ type: docs
 weight: 540
 url: /net/aspose.words/documentbuilder/movetoheaderfooter/
 ---
-## DocumentBuilder.MoveToHeaderFooter method
+## MoveToHeaderFooter method
 
 Moves the cursor to the beginning of a header or footer in the current section.
 

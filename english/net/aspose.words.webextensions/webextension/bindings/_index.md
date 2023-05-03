@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.webextensions/webextension/bindings/
 ---
-## WebExtension.Bindings property
+## Bindings property
 
 Specifies a list of web extension bindings.
 

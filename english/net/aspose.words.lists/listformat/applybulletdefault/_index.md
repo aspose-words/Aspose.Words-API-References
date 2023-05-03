@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.lists/listformat/applybulletdefault/
 ---
-## ListFormat.ApplyBulletDefault method
+## ApplyBulletDefault method
 
 Starts a new default bulleted list and applies it to the paragraph.
 

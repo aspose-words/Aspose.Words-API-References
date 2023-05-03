@@ -7,7 +7,7 @@ type: docs
 weight: 290
 url: /net/aspose.words.properties/builtindocumentproperties/title/
 ---
-## BuiltInDocumentProperties.Title property
+## Title property
 
 Gets or sets the title of the document.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.fonts/fontsubstitutionsettings/defaultfontsubstitution/
 ---
-## FontSubstitutionSettings.DefaultFontSubstitution property
+## DefaultFontSubstitution property
 
 Settings related to default font substitution rule.
 

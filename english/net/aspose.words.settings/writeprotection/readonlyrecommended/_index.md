@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.settings/writeprotection/readonlyrecommended/
 ---
-## WriteProtection.ReadOnlyRecommended property
+## ReadOnlyRecommended property
 
 Specifies whether the document author has recommended that the document be opened as read-only.
 

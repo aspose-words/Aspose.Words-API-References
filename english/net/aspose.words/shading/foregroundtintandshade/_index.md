@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words/shading/foregroundtintandshade/
 ---
-## Shading.ForegroundTintAndShade property
+## ForegroundTintAndShade property
 
 Gets or sets a double value that lightens or darkens a foreground theme color.
 

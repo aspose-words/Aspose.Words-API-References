@@ -7,7 +7,7 @@ type: docs
 weight: 530
 url: /net/aspose.words/documentbuilder/movetofield/
 ---
-## DocumentBuilder.MoveToField method
+## MoveToField method
 
 Moves the cursor to a field in the document.
 

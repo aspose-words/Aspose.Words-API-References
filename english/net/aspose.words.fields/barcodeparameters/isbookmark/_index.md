@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words.fields/barcodeparameters/isbookmark/
 ---
-## BarcodeParameters.IsBookmark property
+## IsBookmark property
 
 Whether [`PostalAddress`](../postaladdress/) is the name of a bookmark.
 

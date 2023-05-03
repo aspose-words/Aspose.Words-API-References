@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/inodechangingcallback/noderemoved/
 ---
-## INodeChangingCallback.NodeRemoved method
+## NodeRemoved method
 
 Called when a node belonging to this document has been removed from its parent.
 

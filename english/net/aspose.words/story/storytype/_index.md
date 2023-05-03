@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/story/storytype/
 ---
-## Story.StoryType property
+## StoryType property
 
 Gets the type of this story.
 

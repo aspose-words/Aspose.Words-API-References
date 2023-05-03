@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words.drawing/shapebase/coordorigin/
 ---
-## ShapeBase.CoordOrigin property
+## CoordOrigin property
 
 The coordinates at the top-left corner of the containing block of this shape.
 

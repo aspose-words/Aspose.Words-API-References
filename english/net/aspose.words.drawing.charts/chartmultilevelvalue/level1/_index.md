@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/chartmultilevelvalue/level1/
 ---
-## ChartMultilevelValue.Level1 property
+## Level1 property
 
 Gets the name of the chart top level that this value refers to.
 

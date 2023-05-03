@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/chartdatapointcollection/clearformat/
 ---
-## ChartDataPointCollection.ClearFormat method
+## ClearFormat method
 
 Clears format of all [`ChartDataPoint`](../../chartdatapoint/) in this collection.
 

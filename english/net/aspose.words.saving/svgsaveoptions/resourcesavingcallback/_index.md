@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.saving/svgsaveoptions/resourcesavingcallback/
 ---
-## SvgSaveOptions.ResourceSavingCallback property
+## ResourceSavingCallback property
 
 Allows to control how resources (images) are saved when a document is exported to SVG format.
 

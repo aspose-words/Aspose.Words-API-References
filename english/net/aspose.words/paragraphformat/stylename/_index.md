@@ -7,7 +7,7 @@ type: docs
 weight: 350
 url: /net/aspose.words/paragraphformat/stylename/
 ---
-## ParagraphFormat.StyleName property
+## StyleName property
 
 Gets or sets the name of the paragraph style applied to this formatting.
 

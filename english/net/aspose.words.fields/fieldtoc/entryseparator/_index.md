@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.fields/fieldtoc/entryseparator/
 ---
-## FieldToc.EntrySeparator property
+## EntrySeparator property
 
 Gets or sets a sequence of characters that separate an entry and its page number.
 

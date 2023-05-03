@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words.saving/imagesaveoptions/pixelformat/
 ---
-## ImageSaveOptions.PixelFormat property
+## PixelFormat property
 
 Gets or sets the pixel format for the generated images.
 

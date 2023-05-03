@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words.tables/table/description/
 ---
-## Table.Description property
+## Description property
 
 Gets or sets description of this table. It provides an alternative text representation of the information contained in the table.
 

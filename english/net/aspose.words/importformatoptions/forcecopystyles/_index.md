@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/importformatoptions/forcecopystyles/
 ---
-## ImportFormatOptions.ForceCopyStyles property
+## ForceCopyStyles property
 
 Gets or sets a boolean value indicating either to copy conflicting styles in KeepSourceFormatting mode. The default value is `false`.
 

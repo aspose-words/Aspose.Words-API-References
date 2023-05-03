@@ -7,7 +7,7 @@ type: docs
 weight: 390
 url: /net/aspose.words/documentvisitor/visitshapeend/
 ---
-## DocumentVisitor.VisitShapeEnd method
+## VisitShapeEnd method
 
 Called when enumeration of a shape has ended.
 

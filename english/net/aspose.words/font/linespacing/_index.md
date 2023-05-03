@@ -7,7 +7,7 @@ type: docs
 weight: 190
 url: /net/aspose.words/font/linespacing/
 ---
-## Font.LineSpacing property
+## LineSpacing property
 
 Returns line spacing of this font (in points).
 

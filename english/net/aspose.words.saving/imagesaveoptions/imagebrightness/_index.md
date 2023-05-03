@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.saving/imagesaveoptions/imagebrightness/
 ---
-## ImageSaveOptions.ImageBrightness property
+## ImageBrightness property
 
 Gets or sets the brightness for the generated images.
 

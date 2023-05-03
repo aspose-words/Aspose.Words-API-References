@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/buildversioninfo/version/
 ---
-## BuildVersionInfo.Version property
+## Version property
 
 Gets the product version.
 

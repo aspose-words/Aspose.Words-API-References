@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.fonts/fontinfo/altname/
 ---
-## FontInfo.AltName property
+## AltName property
 
 Gets or sets the alternate name for the font.
 

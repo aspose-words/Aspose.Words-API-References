@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/watermark/type/
 ---
-## Watermark.Type property
+## Type property
 
 Gets the watermark type.
 

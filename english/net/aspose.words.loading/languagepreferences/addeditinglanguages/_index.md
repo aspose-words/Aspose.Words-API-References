@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.loading/languagepreferences/addeditinglanguages/
 ---
-## LanguagePreferences.AddEditingLanguages method
+## AddEditingLanguages method
 
 Adds additional editing languages.
 

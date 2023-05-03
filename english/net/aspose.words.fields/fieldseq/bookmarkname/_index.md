@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldseq/bookmarkname/
 ---
-## FieldSeq.BookmarkName property
+## BookmarkName property
 
 Gets or sets a bookmark name that refers to an item elsewhere in the document rather than in the current location.
 

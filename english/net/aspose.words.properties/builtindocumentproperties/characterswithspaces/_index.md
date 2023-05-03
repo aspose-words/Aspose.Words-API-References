@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.properties/builtindocumentproperties/characterswithspaces/
 ---
-## BuiltInDocumentProperties.CharactersWithSpaces property
+## CharactersWithSpaces property
 
 Represents an estimate of the number of characters (including spaces) in the document.
 

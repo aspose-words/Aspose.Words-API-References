@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words.loading/loadoptions/mswversion/
 ---
-## LoadOptions.MswVersion property
+## MswVersion property
 
 Allows to specify that the document loading process should match a specific MS Word version. Default value is Word2019
 

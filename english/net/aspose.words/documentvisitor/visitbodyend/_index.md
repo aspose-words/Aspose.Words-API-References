@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/documentvisitor/visitbodyend/
 ---
-## DocumentVisitor.VisitBodyEnd method
+## VisitBodyEnd method
 
 Called when enumeration of the main text story in a section has ended.
 

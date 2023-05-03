@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.markup/structureddocumenttagrangeend/nodetype/
 ---
-## StructuredDocumentTagRangeEnd.NodeType property
+## NodeType property
 
 Returns StructuredDocumentTagRangeEnd.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.fields/fielddatabase/insertheadings/
 ---
-## FieldDatabase.InsertHeadings property
+## InsertHeadings property
 
 Gets or sets whether to insert the field names from the database as column headings in the resulting table.
 

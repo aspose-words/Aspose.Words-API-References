@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.fields/fielddisplaybarcode/errorcorrectionlevel/
 ---
-## FieldDisplayBarcode.ErrorCorrectionLevel property
+## ErrorCorrectionLevel property
 
 Gets or sets an error correction level of QR Code. Valid values are [0, 3].
 

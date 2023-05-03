@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/documentbase/backgroundshape/
 ---
-## DocumentBase.BackgroundShape property
+## BackgroundShape property
 
 Gets or sets the background shape of the document. Can be `null`.
 

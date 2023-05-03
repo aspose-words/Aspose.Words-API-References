@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.fields/field/localeid/
 ---
-## Field.LocaleId property
+## LocaleId property
 
 Gets or sets the LCID of the field.
 

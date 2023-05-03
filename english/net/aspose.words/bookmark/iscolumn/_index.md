@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words/bookmark/iscolumn/
 ---
-## Bookmark.IsColumn property
+## IsColumn property
 
 Returns `true` if this bookmark is a table column bookmark.
 

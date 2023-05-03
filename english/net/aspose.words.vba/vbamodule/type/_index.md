@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.vba/vbamodule/type/
 ---
-## VbaModule.Type property
+## Type property
 
 Specifies whether the module is a procedural module, document module, class module, or designer module.
 

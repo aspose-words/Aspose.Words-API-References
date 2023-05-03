@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.drawing/oleformat/islocked/
 ---
-## OleFormat.IsLocked property
+## IsLocked property
 
 Specifies whether the link to the OLE object is locked from updates.
 

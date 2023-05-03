@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.layout/layoutenumerator/rectangle/
 ---
-## LayoutEnumerator.Rectangle property
+## Rectangle property
 
 Returns the bounding rectangle of the current entity relative to the page top left corner (in points).
 

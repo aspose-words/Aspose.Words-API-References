@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words.drawing/fill/gradientvariant/
 ---
-## Fill.GradientVariant property
+## GradientVariant property
 
 Gets the gradient variant [`GradientVariant`](../../gradientvariant/) for the fill.
 

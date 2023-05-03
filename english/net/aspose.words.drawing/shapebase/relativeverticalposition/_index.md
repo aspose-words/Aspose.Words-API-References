@@ -7,7 +7,7 @@ type: docs
 weight: 440
 url: /net/aspose.words.drawing/shapebase/relativeverticalposition/
 ---
-## ShapeBase.RelativeVerticalPosition property
+## RelativeVerticalPosition property
 
 Specifies relative to what the shape is positioned vertically.
 

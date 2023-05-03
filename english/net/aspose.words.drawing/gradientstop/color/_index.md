@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.drawing/gradientstop/color/
 ---
-## GradientStop.Color property
+## Color property
 
 Gets or sets a value representing the color of the gradient stop.
 

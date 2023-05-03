@@ -7,7 +7,7 @@ type: docs
 weight: 130
 url: /net/aspose.words.drawing/oleformat/suggestedfilename/
 ---
-## OleFormat.SuggestedFileName property
+## SuggestedFileName property
 
 Gets the file name suggested for the current embedded object if you want to save it into a file.
 

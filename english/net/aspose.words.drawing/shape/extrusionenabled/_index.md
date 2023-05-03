@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.drawing/shape/extrusionenabled/
 ---
-## Shape.ExtrusionEnabled property
+## ExtrusionEnabled property
 
 Returns `true` if an extrusion effect is enabled.
 

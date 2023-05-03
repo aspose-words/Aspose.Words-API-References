@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.mailmerging/imailmergedatasource/movenext/
 ---
-## IMailMergeDataSource.MoveNext method
+## MoveNext method
 
 Advances to the next record in the data source.
 

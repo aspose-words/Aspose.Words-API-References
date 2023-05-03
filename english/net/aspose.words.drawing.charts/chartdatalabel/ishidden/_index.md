@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/chartdatalabel/ishidden/
 ---
-## ChartDataLabel.IsHidden property
+## IsHidden property
 
 Gets/sets a flag indicating whether this label is hidden. The default value is `false`.
 

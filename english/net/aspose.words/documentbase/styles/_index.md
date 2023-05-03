@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words/documentbase/styles/
 ---
-## DocumentBase.Styles property
+## Styles property
 
 Returns a collection of styles defined in the document.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 210
 url: /net/aspose.words/document/hyphenationoptions/
 ---
-## Document.HyphenationOptions property
+## HyphenationOptions property
 
 Provides access to document hyphenation options.
 

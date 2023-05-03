@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.properties/documentpropertycollection/removeat/
 ---
-## DocumentPropertyCollection.RemoveAt method
+## RemoveAt method
 
 Removes a property at the specified index.
 

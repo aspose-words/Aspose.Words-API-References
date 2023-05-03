@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.saving/outlineoptions/bookmarksoutlinelevels/
 ---
-## OutlineOptions.BookmarksOutlineLevels property
+## BookmarksOutlineLevels property
 
 Allows to specify individual bookmarks outline level.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.drawing.charts/chartaxis/document/
 ---
-## ChartAxis.Document property
+## Document property
 
 Returns the Document the title holder belongs.
 

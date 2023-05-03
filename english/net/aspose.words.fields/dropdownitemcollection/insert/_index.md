@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.fields/dropdownitemcollection/insert/
 ---
-## DropDownItemCollection.Insert method
+## Insert method
 
 Inserts a string into the collection at the specified index.
 

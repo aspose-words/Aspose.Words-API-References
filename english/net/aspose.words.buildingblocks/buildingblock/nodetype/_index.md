@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words.buildingblocks/buildingblock/nodetype/
 ---
-## BuildingBlock.NodeType property
+## NodeType property
 
 Returns the BuildingBlock value.
 

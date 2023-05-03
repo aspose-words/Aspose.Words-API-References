@@ -7,7 +7,7 @@ type: docs
 weight: 210
 url: /net/aspose.words/pagesetup/linenumbercountby/
 ---
-## PageSetup.LineNumberCountBy property
+## LineNumberCountBy property
 
 Returns or sets the numeric increment for line numbers.
 

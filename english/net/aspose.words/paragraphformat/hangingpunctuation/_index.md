@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words/paragraphformat/hangingpunctuation/
 ---
-## ParagraphFormat.HangingPunctuation property
+## HangingPunctuation property
 
 Gets or sets a flag indicating whether hanging punctuation is enabled for the current paragraph.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words.fields/formfield/maxlength/
 ---
-## FormField.MaxLength property
+## MaxLength property
 
 Maximum length for the text field. Zero when the length is not limited.
 

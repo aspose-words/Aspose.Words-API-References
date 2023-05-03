@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldend/accept/
 ---
-## FieldEnd.Accept method
+## Accept method
 
 Accepts a visitor.
 

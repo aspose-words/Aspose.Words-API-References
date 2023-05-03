@@ -7,7 +7,7 @@ type: docs
 weight: 580
 url: /net/aspose.words.settings/compatibilityoptions/ultrailspace/
 ---
-## CompatibilityOptions.UlTrailSpace property
+## UlTrailSpace property
 
 Underline All Trailing Spaces.
 

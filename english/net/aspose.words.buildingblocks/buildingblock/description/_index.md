@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.buildingblocks/buildingblock/description/
 ---
-## BuildingBlock.Description property
+## Description property
 
 Gets or sets the description associated with this building block.
 

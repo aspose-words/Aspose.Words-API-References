@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words.tables/cell/accept/
 ---
-## Cell.Accept method
+## Accept method
 
 Accepts a visitor.
 

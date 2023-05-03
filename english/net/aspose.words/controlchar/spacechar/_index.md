@@ -7,7 +7,7 @@ type: docs
 weight: 260
 url: /net/aspose.words/controlchar/spacechar/
 ---
-## ControlChar.SpaceChar field
+## SpaceChar field
 
 Space character: (char)32.
 

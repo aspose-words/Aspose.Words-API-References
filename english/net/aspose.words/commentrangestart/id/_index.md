@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/commentrangestart/id/
 ---
-## CommentRangeStart.Id property
+## Id property
 
 Specifies the identifier of the comment to which this region is linked.
 

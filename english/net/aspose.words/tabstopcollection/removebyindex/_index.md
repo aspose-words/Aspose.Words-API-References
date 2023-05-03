@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words/tabstopcollection/removebyindex/
 ---
-## TabStopCollection.RemoveByIndex method
+## RemoveByIndex method
 
 Removes a tab stop at the specified index from the collection.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.drawing.charts/chartxvalue/multilevelvalue/
 ---
-## ChartXValue.MultilevelValue property
+## MultilevelValue property
 
 Gets the stored multilevel value.
 

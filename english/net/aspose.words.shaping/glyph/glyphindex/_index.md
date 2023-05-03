@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.shaping/glyph/glyphindex/
 ---
-## Glyph.GlyphIndex property
+## GlyphIndex property
 
 Index of the glyph (GID) in the physical font.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words/comment/id/
 ---
-## Comment.Id property
+## Id property
 
 Gets the comment identifier.
 

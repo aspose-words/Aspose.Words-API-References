@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/specialchar/nodetype/
 ---
-## SpecialChar.NodeType property
+## NodeType property
 
 Returns SpecialChar.
 

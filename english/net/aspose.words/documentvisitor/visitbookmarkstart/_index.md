@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words/documentvisitor/visitbookmarkstart/
 ---
-## DocumentVisitor.VisitBookmarkStart method
+## VisitBookmarkStart method
 
 Called when a start of a bookmark is encountered in the document.
 

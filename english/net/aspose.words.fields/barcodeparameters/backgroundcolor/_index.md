@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fields/barcodeparameters/backgroundcolor/
 ---
-## BarcodeParameters.BackgroundColor property
+## BackgroundColor property
 
 Bar code background color (0x000000 - 0xFFFFFF)
 

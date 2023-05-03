@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.saving/svgsaveoptions/resourcesfolderalias/
 ---
-## SvgSaveOptions.ResourcesFolderAlias property
+## ResourcesFolderAlias property
 
 Specifies the name of the folder used to construct image URIs written into an SVG document. Default is `null`.
 

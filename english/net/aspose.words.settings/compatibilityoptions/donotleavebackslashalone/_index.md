@@ -7,7 +7,7 @@ type: docs
 weight: 160
 url: /net/aspose.words.settings/compatibilityoptions/donotleavebackslashalone/
 ---
-## CompatibilityOptions.DoNotLeaveBackslashAlone property
+## DoNotLeaveBackslashAlone property
 
 Convert Backslash To Yen Sign When Entered.
 

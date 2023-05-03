@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.drawing.charts/chartdatapoint/index/
 ---
-## ChartDataPoint.Index property
+## Index property
 
 Index of the data point this object applies formatting to.
 

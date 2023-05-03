@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/textcolumn/width/
 ---
-## TextColumn.Width property
+## Width property
 
 Gets or sets the width of the text column in points.
 

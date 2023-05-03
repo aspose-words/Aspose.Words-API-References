@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words/node/nodetype/
 ---
-## Node.NodeType property
+## NodeType property
 
 Gets the type of this node.
 

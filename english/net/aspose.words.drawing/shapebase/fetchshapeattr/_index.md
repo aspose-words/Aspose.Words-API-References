@@ -7,7 +7,7 @@ type: docs
 weight: 640
 url: /net/aspose.words.drawing/shapebase/fetchshapeattr/
 ---
-## ShapeBase.FetchShapeAttr method
+## FetchShapeAttr method
 
 Reserved for system use. IShapeAttrSource.
 

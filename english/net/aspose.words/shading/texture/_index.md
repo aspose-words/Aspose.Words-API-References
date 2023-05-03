@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words/shading/texture/
 ---
-## Shading.Texture property
+## Texture property
 
 Gets or sets the shading texture.
 

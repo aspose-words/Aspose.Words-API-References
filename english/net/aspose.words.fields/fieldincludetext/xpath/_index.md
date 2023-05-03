@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.fields/fieldincludetext/xpath/
 ---
-## FieldIncludeText.XPath property
+## XPath property
 
 Gets or sets XPath for the desired portion of the XML file.
 

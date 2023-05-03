@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.saving/txtsaveoptionsbase/forcepagebreaks/
 ---
-## TxtSaveOptionsBase.ForcePageBreaks property
+## ForcePageBreaks property
 
 Allows to specify whether the page breaks should be preserved during export.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/chartmarker/symbol/
 ---
-## ChartMarker.Symbol property
+## Symbol property
 
 Gets or sets chart marker symbol.
 

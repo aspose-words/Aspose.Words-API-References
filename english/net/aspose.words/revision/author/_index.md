@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/revision/author/
 ---
-## Revision.Author property
+## Author property
 
 Gets or sets the author of this revision. Can not be empty string or `null`.
 

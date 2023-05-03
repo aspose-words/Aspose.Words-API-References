@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.shaping/glyph/advance/
 ---
-## Glyph.Advance property
+## Advance property
 
 Advance width indicating placement for the subsequent glyph.
 

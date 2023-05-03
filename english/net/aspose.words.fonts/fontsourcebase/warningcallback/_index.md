@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.fonts/fontsourcebase/warningcallback/
 ---
-## FontSourceBase.WarningCallback property
+## WarningCallback property
 
 Called during processing of font source when an issue is detected that might result in formatting fidelity loss.
 

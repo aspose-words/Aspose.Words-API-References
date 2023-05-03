@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.tables/preferredwidth/gethashcode/
 ---
-## PreferredWidth.GetHashCode method
+## GetHashCode method
 
 Serves as a hash function for this type.
 

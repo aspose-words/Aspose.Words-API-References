@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.markup/sdtlistitemcollection/count/
 ---
-## SdtListItemCollection.Count property
+## Count property
 
 Gets number of items in the collection.
 

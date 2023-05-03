@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words/bookmark/name/
 ---
-## Bookmark.Name property
+## Name property
 
 Gets or sets the name of the bookmark.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/
 ---
-## PageInfo.GetSpecifiedPrinterPaperSource method
+## GetSpecifiedPrinterPaperSource method
 
 Gets the PaperSource object suitable for printing the page represented by this [`PageInfo`](../).
 

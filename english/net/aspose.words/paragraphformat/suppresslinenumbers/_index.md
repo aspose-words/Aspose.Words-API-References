@@ -7,7 +7,7 @@ type: docs
 weight: 370
 url: /net/aspose.words/paragraphformat/suppresslinenumbers/
 ---
-## ParagraphFormat.SuppressLineNumbers property
+## SuppressLineNumbers property
 
 Specifies whether the current paragraph's lines should be exempted from line numbering which is applied in the parent section.
 

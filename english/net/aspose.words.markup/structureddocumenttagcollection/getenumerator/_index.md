@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.markup/structureddocumenttagcollection/getenumerator/
 ---
-## StructuredDocumentTagCollection.GetEnumerator method
+## GetEnumerator method
 
 Returns an enumerator object.
 

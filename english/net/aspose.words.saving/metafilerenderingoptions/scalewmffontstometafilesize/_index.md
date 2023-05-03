@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.saving/metafilerenderingoptions/scalewmffontstometafilesize/
 ---
-## MetafileRenderingOptions.ScaleWmfFontsToMetafileSize property
+## ScaleWmfFontsToMetafileSize property
 
 Gets or sets a value determining whether or not to scale fonts in WMF metafile according to metafile size on the page.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldref/insertparagraphnumberinfullcontext/
 ---
-## FieldRef.InsertParagraphNumberInFullContext property
+## InsertParagraphNumberInFullContext property
 
 Gets or sets whether to insert the paragraph number of the referenced paragraph in full context.
 

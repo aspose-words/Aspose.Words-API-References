@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.digitalsignatures/signoptions/comments/
 ---
-## SignOptions.Comments property
+## Comments property
 
 Specifies comments on the digital signature. Default value is **empty string** (Empty).
 

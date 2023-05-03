@@ -7,7 +7,7 @@ type: docs
 weight: 140
 url: /net/aspose.words.saving/pdfsaveoptions/exportdocumentstructure/
 ---
-## PdfSaveOptions.ExportDocumentStructure property
+## ExportDocumentStructure property
 
 Gets or sets a value determining whether or not to export document structure.
 

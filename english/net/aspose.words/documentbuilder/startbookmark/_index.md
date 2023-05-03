@@ -7,7 +7,7 @@ type: docs
 weight: 610
 url: /net/aspose.words/documentbuilder/startbookmark/
 ---
-## DocumentBuilder.StartBookmark method
+## StartBookmark method
 
 Marks the current position in the document as a bookmark start.
 

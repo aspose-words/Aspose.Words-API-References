@@ -7,7 +7,7 @@ type: docs
 weight: 300
 url: /net/aspose.words.markup/structureddocumenttag/wordopenxml/
 ---
-## StructuredDocumentTag.WordOpenXML property
+## WordOpenXML property
 
 Gets a string that represents the XML contained within the node in the FlatOpc format.
 

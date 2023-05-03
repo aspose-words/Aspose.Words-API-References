@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.reporting/knowntypeset/clear/
 ---
-## KnownTypeSet.Clear method
+## Clear method
 
 Removes all items from the set.
 

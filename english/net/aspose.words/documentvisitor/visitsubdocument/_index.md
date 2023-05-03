@@ -7,7 +7,7 @@ type: docs
 weight: 480
 url: /net/aspose.words/documentvisitor/visitsubdocument/
 ---
-## DocumentVisitor.VisitSubDocument method
+## VisitSubDocument method
 
 Called when a sub-document is encountered.
 

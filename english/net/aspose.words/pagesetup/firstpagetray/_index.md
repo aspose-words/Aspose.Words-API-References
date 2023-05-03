@@ -7,7 +7,7 @@ type: docs
 weight: 130
 url: /net/aspose.words/pagesetup/firstpagetray/
 ---
-## PageSetup.FirstPageTray property
+## FirstPageTray property
 
 Gets or sets the paper tray (bin) to use for the first page of a section. The value is implementation (printer) specific.
 

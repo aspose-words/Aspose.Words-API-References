@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words/bookmarkcollection/removeat/
 ---
-## BookmarkCollection.RemoveAt method
+## RemoveAt method
 
 Removes a bookmark at the specified index.
 

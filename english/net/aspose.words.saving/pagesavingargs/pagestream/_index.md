@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.saving/pagesavingargs/pagestream/
 ---
-## PageSavingArgs.PageStream property
+## PageStream property
 
 Allows to specify the stream where the document page will be saved to.
 

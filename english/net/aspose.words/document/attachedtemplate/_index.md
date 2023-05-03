@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words/document/attachedtemplate/
 ---
-## Document.AttachedTemplate property
+## AttachedTemplate property
 
 Gets or sets the full path of the template attached to the document.
 

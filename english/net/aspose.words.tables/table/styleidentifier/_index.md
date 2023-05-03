@@ -7,7 +7,7 @@ type: docs
 weight: 280
 url: /net/aspose.words.tables/table/styleidentifier/
 ---
-## Table.StyleIdentifier property
+## StyleIdentifier property
 
 Gets or sets the locale independent style identifier of the table style applied to this table.
 

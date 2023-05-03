@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.tables/rowformat/borders/
 ---
-## RowFormat.Borders property
+## Borders property
 
 Gets the collection of default cell borders for the row.
 

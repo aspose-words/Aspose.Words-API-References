@@ -7,7 +7,7 @@ type: docs
 weight: 150
 url: /net/aspose.words.fields/fieldtoc/sequenceseparator/
 ---
-## FieldToc.SequenceSeparator property
+## SequenceSeparator property
 
 Gets or sets the character sequence that is used to separate sequence numbers and page numbers.
 

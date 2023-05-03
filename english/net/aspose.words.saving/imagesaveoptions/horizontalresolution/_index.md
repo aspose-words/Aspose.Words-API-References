@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.saving/imagesaveoptions/horizontalresolution/
 ---
-## ImageSaveOptions.HorizontalResolution property
+## HorizontalResolution property
 
 Gets or sets the horizontal resolution for the generated images, in dots per inch.
 

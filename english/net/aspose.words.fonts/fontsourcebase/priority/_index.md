@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.fonts/fontsourcebase/priority/
 ---
-## FontSourceBase.Priority property
+## Priority property
 
 Returns the font source priority.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words/controlchar/fieldseparatorchar/
 ---
-## ControlChar.FieldSeparatorChar field
+## FieldSeparatorChar field
 
 Field separator character separates field code from field value. Optional in some fields. Value: (char)20.
 

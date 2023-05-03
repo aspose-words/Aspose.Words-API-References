@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words.mailmerging/mailmerge/restartlistsateachsection/
 ---
-## MailMerge.RestartListsAtEachSection property
+## RestartListsAtEachSection property
 
 Gets or sets a value indicating whether lists are restarted at each section after executing of a mail merge.
 

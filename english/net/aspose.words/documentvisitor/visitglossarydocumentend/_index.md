@@ -7,7 +7,7 @@ type: docs
 weight: 240
 url: /net/aspose.words/documentvisitor/visitglossarydocumentend/
 ---
-## DocumentVisitor.VisitGlossaryDocumentEnd method
+## VisitGlossaryDocumentEnd method
 
 Called when enumeration of a glossary document has ended.
 

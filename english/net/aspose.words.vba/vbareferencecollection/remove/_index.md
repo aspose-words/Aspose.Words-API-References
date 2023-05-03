@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.vba/vbareferencecollection/remove/
 ---
-## VbaReferenceCollection.Remove method
+## Remove method
 
 Removes the first occurrence of a specified [`VbaReference`](../../vbareference/) item from the collection.
 

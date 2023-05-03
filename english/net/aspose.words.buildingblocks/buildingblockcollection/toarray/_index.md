@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.buildingblocks/buildingblockcollection/toarray/
 ---
-## BuildingBlockCollection.ToArray method
+## ToArray method
 
 Copies all building blocks from the collection to a new array of building blocks.
 

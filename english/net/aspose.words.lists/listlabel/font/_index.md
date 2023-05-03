@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.lists/listlabel/font/
 ---
-## ListLabel.Font property
+## Font property
 
 Gets the list label font.
 

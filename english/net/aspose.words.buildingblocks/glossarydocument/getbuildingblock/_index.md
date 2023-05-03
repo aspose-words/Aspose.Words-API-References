@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.buildingblocks/glossarydocument/getbuildingblock/
 ---
-## GlossaryDocument.GetBuildingBlock method
+## GetBuildingBlock method
 
 Finds a building block using the specified gallery, category and name.
 

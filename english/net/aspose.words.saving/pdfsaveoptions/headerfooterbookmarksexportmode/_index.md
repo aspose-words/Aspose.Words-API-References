@@ -7,7 +7,7 @@ type: docs
 weight: 180
 url: /net/aspose.words.saving/pdfsaveoptions/headerfooterbookmarksexportmode/
 ---
-## PdfSaveOptions.HeaderFooterBookmarksExportMode property
+## HeaderFooterBookmarksExportMode property
 
 Determines how bookmarks in headers/footers are exported.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.fields/fieldoptions/fielddatabaseprovider/
 ---
-## FieldOptions.FieldDatabaseProvider property
+## FieldDatabaseProvider property
 
 Gets or sets a provider that returns a query result for the [`FieldDatabase`](../../fielddatabase/) field.
 

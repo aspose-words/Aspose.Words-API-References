@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words.fields/fieldddeauto/sourcefullname/
 ---
-## FieldDdeAuto.SourceFullName property
+## SourceFullName property
 
 Gets or sets the name and location of the source file.
 

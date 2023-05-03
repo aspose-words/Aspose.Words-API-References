@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/comparisonevaluationresult/errormessage/
 ---
-## ComparisonEvaluationResult.ErrorMessage property
+## ErrorMessage property
 
 Gets the failed comparison evaluation result's error message.
 

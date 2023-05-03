@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words/ihyphenationcallback/requestdictionary/
 ---
-## IHyphenationCallback.RequestDictionary method
+## RequestDictionary method
 
 Notifies application that hyphenation dictionary for the specified language wasn't found and may need to be registered.
 

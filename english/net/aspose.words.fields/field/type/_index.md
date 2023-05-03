@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words.fields/field/type/
 ---
-## Field.Type property
+## Type property
 
 Gets the Microsoft Word field type.
 

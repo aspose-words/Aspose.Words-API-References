@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.shaping/cluster/deepclone/
 ---
-## Cluster.DeepClone method
+## DeepClone method
 
 Returns a deep clone of this instance.
 

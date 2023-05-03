@@ -7,7 +7,7 @@ type: docs
 weight: 630
 url: /net/aspose.words.settings/compatibilityoptions/usenormalstyleforlist/
 ---
-## CompatibilityOptions.UseNormalStyleForList property
+## UseNormalStyleForList property
 
 Do Not Automatically Apply List Paragraph Style To Bulleted/Numbered Text.
 

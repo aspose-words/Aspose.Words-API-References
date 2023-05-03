@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.loading/htmlloadoptions/ignorenoscriptelements/
 ---
-## HtmlLoadOptions.IgnoreNoscriptElements property
+## IgnoreNoscriptElements property
 
 Gets or sets a value indicating whether to ignore &lt;noscript&gt; HTML elements. Default value is `false`.
 

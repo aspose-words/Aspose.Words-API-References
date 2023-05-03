@@ -7,7 +7,7 @@ type: docs
 weight: 100
 url: /net/aspose.words.fields/barcodeparameters/fixcheckdigit/
 ---
-## BarcodeParameters.FixCheckDigit property
+## FixCheckDigit property
 
 Whether to fix the check digit if it’s invalid.
 

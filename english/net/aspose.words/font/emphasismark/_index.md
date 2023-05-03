@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words/font/emphasismark/
 ---
-## Font.EmphasisMark property
+## EmphasisMark property
 
 Gets or sets the emphasis mark applied to this formatting.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 10
 url: /net/aspose.words.fields/ifielddatabaseprovider/getqueryresult/
 ---
-## IFieldDatabaseProvider.GetQueryResult method
+## GetQueryResult method
 
 Returns query result.
 

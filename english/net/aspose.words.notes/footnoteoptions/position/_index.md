@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.notes/footnoteoptions/position/
 ---
-## FootnoteOptions.Position property
+## Position property
 
 Specifies the footnotes position.
 

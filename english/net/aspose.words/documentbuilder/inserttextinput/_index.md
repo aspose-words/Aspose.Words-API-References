@@ -7,7 +7,7 @@ type: docs
 weight: 470
 url: /net/aspose.words/documentbuilder/inserttextinput/
 ---
-## DocumentBuilder.InsertTextInput method
+## InsertTextInput method
 
 Inserts a text form field at the current position.
 

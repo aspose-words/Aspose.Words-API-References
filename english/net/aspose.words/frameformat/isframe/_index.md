@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words/frameformat/isframe/
 ---
-## FrameFormat.IsFrame property
+## IsFrame property
 
 Returns `true` if the paragraph is a frame.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words/border/isvisible/
 ---
-## Border.IsVisible property
+## IsVisible property
 
 Returns `true` if the [`LineStyle`](../linestyle/) is not None.
 

@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words.fields/field/start/
 ---
-## Field.Start property
+## Start property
 
 Gets the node that represents the start of the field.
 

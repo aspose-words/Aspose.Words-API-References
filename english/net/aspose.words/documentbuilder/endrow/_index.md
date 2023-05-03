@@ -7,7 +7,7 @@ type: docs
 weight: 240
 url: /net/aspose.words/documentbuilder/endrow/
 ---
-## DocumentBuilder.EndRow method
+## EndRow method
 
 Ends a table row in the document.
 

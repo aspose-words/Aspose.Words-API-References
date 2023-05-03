@@ -7,7 +7,7 @@ type: docs
 weight: 80
 url: /net/aspose.words.drawing/shape/hasimage/
 ---
-## Shape.HasImage property
+## HasImage property
 
 Returns `true` if the shape has image bytes or links an image.
 

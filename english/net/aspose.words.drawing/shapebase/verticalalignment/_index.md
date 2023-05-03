@@ -7,7 +7,7 @@ type: docs
 weight: 560
 url: /net/aspose.words.drawing/shapebase/verticalalignment/
 ---
-## ShapeBase.VerticalAlignment property
+## VerticalAlignment property
 
 Specifies how the shape is positioned vertically.
 

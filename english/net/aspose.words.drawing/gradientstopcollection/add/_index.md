@@ -7,7 +7,7 @@ type: docs
 weight: 30
 url: /net/aspose.words.drawing/gradientstopcollection/add/
 ---
-## GradientStopCollection.Add method
+## Add method
 
 Adds a specified [`GradientStop`](../../gradientstop/) to a gradient.
 

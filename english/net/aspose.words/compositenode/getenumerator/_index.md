@@ -7,7 +7,7 @@ type: docs
 weight: 110
 url: /net/aspose.words/compositenode/getenumerator/
 ---
-## CompositeNode.GetEnumerator method
+## GetEnumerator method
 
 Provides support for the for each style iteration over the child nodes of this node.
 

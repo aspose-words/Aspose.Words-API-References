@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.markup/custompartcollection/getenumerator/
 ---
-## CustomPartCollection.GetEnumerator method
+## GetEnumerator method
 
 Returns an enumerator object that can be used to iterate over all items in the collection.
 

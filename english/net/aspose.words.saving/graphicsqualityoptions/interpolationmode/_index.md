@@ -7,7 +7,7 @@ type: docs
 weight: 40
 url: /net/aspose.words.saving/graphicsqualityoptions/interpolationmode/
 ---
-## GraphicsQualityOptions.InterpolationMode property
+## InterpolationMode property
 
 Gets or sets the interpolation mode associated with this Graphics.
 

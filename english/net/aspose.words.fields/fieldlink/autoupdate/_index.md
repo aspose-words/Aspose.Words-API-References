@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldlink/autoupdate/
 ---
-## FieldLink.AutoUpdate property
+## AutoUpdate property
 
 Gets or sets whether to update this field automatically.
 

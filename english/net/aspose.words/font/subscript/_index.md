@@ -7,7 +7,7 @@ type: docs
 weight: 430
 url: /net/aspose.words/font/subscript/
 ---
-## Font.Subscript property
+## Subscript property
 
 True if the font is formatted as subscript.
 

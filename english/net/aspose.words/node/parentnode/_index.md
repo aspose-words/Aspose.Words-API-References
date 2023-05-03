@@ -7,7 +7,7 @@ type: docs
 weight: 60
 url: /net/aspose.words/node/parentnode/
 ---
-## Node.ParentNode property
+## ParentNode property
 
 Gets the immediate parent of this node.
 

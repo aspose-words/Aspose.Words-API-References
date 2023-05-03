@@ -7,7 +7,7 @@ type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/chartnumberformat/islinkedtosource/
 ---
-## ChartNumberFormat.IsLinkedToSource property
+## IsLinkedToSource property
 
 Specifies whether the format code is linked to a source cell. Default is true.
 

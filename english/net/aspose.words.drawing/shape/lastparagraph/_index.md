@@ -7,7 +7,7 @@ type: docs
 weight: 120
 url: /net/aspose.words.drawing/shape/lastparagraph/
 ---
-## Shape.LastParagraph property
+## LastParagraph property
 
 Gets the last paragraph in the shape.
 

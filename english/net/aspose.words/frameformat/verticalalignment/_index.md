@@ -7,7 +7,7 @@ type: docs
 weight: 90
 url: /net/aspose.words/frameformat/verticalalignment/
 ---
-## FrameFormat.VerticalAlignment property
+## VerticalAlignment property
 
 Gets vertical alignment of the specified frame.
 

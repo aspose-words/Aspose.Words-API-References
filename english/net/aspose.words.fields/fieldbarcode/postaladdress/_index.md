@@ -7,7 +7,7 @@ type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldbarcode/postaladdress/
 ---
-## FieldBarcode.PostalAddress property
+## PostalAddress property
 
 Gets or sets the postal address used for generating a barcode or the name of the bookmark that refers to it.
 

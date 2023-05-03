@@ -7,7 +7,7 @@ type: docs
 weight: 380
 url: /net/aspose.words.tables/table/clearshading/
 ---
-## Table.ClearShading method
+## ClearShading method
 
 Removes all shading on the table.
 

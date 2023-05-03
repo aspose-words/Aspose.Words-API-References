@@ -7,7 +7,7 @@ type: docs
 weight: 470
 url: /net/aspose.words/document/viewoptions/
 ---
-## Document.ViewOptions property
+## ViewOptions property
 
 Provides options to control how the document is displayed in Microsoft Word.
 

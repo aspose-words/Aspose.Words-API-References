@@ -7,7 +7,7 @@ type: docs
 weight: 70
 url: /net/aspose.words.settings/compatibilityoptions/balancesinglebytedoublebytewidth/
 ---
-## CompatibilityOptions.BalanceSingleByteDoubleByteWidth property
+## BalanceSingleByteDoubleByteWidth property
 
 Balance Single Byte and Double Byte Characters.
 
