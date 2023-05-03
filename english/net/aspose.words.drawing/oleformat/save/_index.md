@@ -1,6 +1,7 @@
 ---
 title: OleFormat.Save
 linktitle: Save
+articleTitle: Save
 second_title: Aspose.Words for .NET API Reference
 description: OleFormat Save method. Saves the data of the embedded object into the specified stream in C#.
 type: docs

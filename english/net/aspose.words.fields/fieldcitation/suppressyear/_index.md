@@ -1,13 +1,14 @@
 ---
 title: FieldCitation.SuppressYear
 linktitle: SuppressYear
+articleTitle: SuppressYear
 second_title: Aspose.Words for .NET API Reference
 description: FieldCitation SuppressYear property. Gets or sets whether the year information is suppressed from the citation in C#.
 type: docs
 weight: 100
 url: /net/aspose.words.fields/fieldcitation/suppressyear/
 ---
-## SuppressYear property
+## FieldCitation.SuppressYear property
 
 Gets or sets whether the year information is suppressed from the citation.
 

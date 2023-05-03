@@ -1,13 +1,14 @@
 ---
 title: DocumentBuilder.CurrentStructuredDocumentTag
 linktitle: CurrentStructuredDocumentTag
+articleTitle: CurrentStructuredDocumentTag
 second_title: Aspose.Words for .NET API Reference
 description: DocumentBuilder CurrentStructuredDocumentTag property. Gets the structured document tag that is currently selected in this DocumentBuilder in C#.
 type: docs
 weight: 80
 url: /net/aspose.words/documentbuilder/currentstructureddocumenttag/
 ---
-## CurrentStructuredDocumentTag property
+## DocumentBuilder.CurrentStructuredDocumentTag property
 
 Gets the structured document tag that is currently selected in this [`DocumentBuilder`](../).
 

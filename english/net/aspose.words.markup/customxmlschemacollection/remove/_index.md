@@ -1,13 +1,14 @@
 ---
 title: CustomXmlSchemaCollection.Remove
 linktitle: Remove
+articleTitle: Remove
 second_title: Aspose.Words for .NET API Reference
 description: CustomXmlSchemaCollection Remove method. Removes the specified value from the collection in C#.
 type: docs
 weight: 80
 url: /net/aspose.words.markup/customxmlschemacollection/remove/
 ---
-## Remove method
+## CustomXmlSchemaCollection.Remove method
 
 Removes the specified value from the collection.
 

@@ -1,13 +1,14 @@
 ---
 title: IStructuredDocumentTag.PlaceholderName
 linktitle: PlaceholderName
+articleTitle: PlaceholderName
 second_title: Aspose.Words for .NET API Reference
 description: IStructuredDocumentTag PlaceholderName property. Gets or sets Name of the BuildingBlock containing placeholder text in C#.
 type: docs
 weight: 80
 url: /net/aspose.words.markup/istructureddocumenttag/placeholdername/
 ---
-## PlaceholderName property
+## IStructuredDocumentTag.PlaceholderName property
 
 Gets or sets Name of the [`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) containing placeholder text.
 

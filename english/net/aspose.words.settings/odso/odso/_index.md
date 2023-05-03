@@ -1,6 +1,7 @@
 ---
 title: Odso
 linktitle: Odso
+articleTitle: Odso
 second_title: Aspose.Words for .NET API Reference
 description: Odso constructor. The default constructor in C#.
 type: docs

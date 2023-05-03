@@ -1,13 +1,14 @@
 ---
 title: FieldSaveDate.UseSakaEraCalendar
 linktitle: UseSakaEraCalendar
+articleTitle: UseSakaEraCalendar
 second_title: Aspose.Words for .NET API Reference
 description: FieldSaveDate UseSakaEraCalendar property. Gets or sets whether to use the Saka Era calendar in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldsavedate/usesakaeracalendar/
 ---
-## UseSakaEraCalendar property
+## FieldSaveDate.UseSakaEraCalendar property
 
 Gets or sets whether to use the Saka Era calendar.
 

@@ -1,13 +1,14 @@
 ---
 title: SdtListItem.Value
 linktitle: Value
+articleTitle: Value
 second_title: Aspose.Words for .NET API Reference
 description: SdtListItem Value property. Gets the value of this list item in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.markup/sdtlistitem/value/
 ---
-## Value property
+## SdtListItem.Value property
 
 Gets the value of this list item.
 

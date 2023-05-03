@@ -1,13 +1,14 @@
 ---
 title: TextWatermarkOptions.FontSize
 linktitle: FontSize
+articleTitle: FontSize
 second_title: Aspose.Words for .NET API Reference
 description: TextWatermarkOptions FontSize property. Gets or sets a font size. The default value is 0  auto in C#.
 type: docs
 weight: 40
 url: /net/aspose.words/textwatermarkoptions/fontsize/
 ---
-## FontSize property
+## TextWatermarkOptions.FontSize property
 
 Gets or sets a font size. The default value is 0 - auto.
 

@@ -1,13 +1,14 @@
 ---
 title: FieldDdeAuto.SourceItem
 linktitle: SourceItem
+articleTitle: SourceItem
 second_title: Aspose.Words for .NET API Reference
 description: FieldDdeAuto SourceItem property. Gets or sets the portion of the source file thats being linked in C#.
 type: docs
 weight: 110
 url: /net/aspose.words.fields/fieldddeauto/sourceitem/
 ---
-## SourceItem property
+## FieldDdeAuto.SourceItem property
 
 Gets or sets the portion of the source file that's being linked.
 

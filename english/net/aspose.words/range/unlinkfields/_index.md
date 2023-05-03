@@ -1,13 +1,14 @@
 ---
 title: Range.UnlinkFields
 linktitle: UnlinkFields
+articleTitle: UnlinkFields
 second_title: Aspose.Words for .NET API Reference
 description: Range UnlinkFields method. Unlinks fields in this range in C#.
 type: docs
 weight: 110
 url: /net/aspose.words/range/unlinkfields/
 ---
-## UnlinkFields method
+## Range.UnlinkFields method
 
 Unlinks fields in this range.
 

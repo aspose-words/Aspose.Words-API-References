@@ -1,13 +1,14 @@
 ---
 title: PdfDigitalSignatureDetails.Location
 linktitle: Location
+articleTitle: Location
 second_title: Aspose.Words for .NET API Reference
 description: PdfDigitalSignatureDetails Location property. Gets or sets the location of the signing in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.saving/pdfdigitalsignaturedetails/location/
 ---
-## Location property
+## PdfDigitalSignatureDetails.Location property
 
 Gets or sets the location of the signing.
 

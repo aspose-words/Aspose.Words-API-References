@@ -1,13 +1,14 @@
 ---
 title: TextPath.Shadow
 linktitle: Shadow
+articleTitle: Shadow
 second_title: Aspose.Words for .NET API Reference
 description: TextPath Shadow property. Defines whether a shadow is applied to the text on a text path in C#.
 type: docs
 weight: 110
 url: /net/aspose.words.drawing/textpath/shadow/
 ---
-## Shadow property
+## TextPath.Shadow property
 
 Defines whether a shadow is applied to the text on a text path.
 

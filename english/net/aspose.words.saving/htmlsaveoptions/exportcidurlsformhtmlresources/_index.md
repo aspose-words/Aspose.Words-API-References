@@ -1,13 +1,14 @@
 ---
 title: HtmlSaveOptions.ExportCidUrlsForMhtmlResources
 linktitle: ExportCidUrlsForMhtmlResources
+articleTitle: ExportCidUrlsForMhtmlResources
 second_title: Aspose.Words for .NET API Reference
 description: HtmlSaveOptions ExportCidUrlsForMhtmlResources property. Specifies whether to use CID ContentID URLs to reference resources images fonts CSS included in MHTML documents. Default value is false in C#.
 type: docs
 weight: 120
 url: /net/aspose.words.saving/htmlsaveoptions/exportcidurlsformhtmlresources/
 ---
-## ExportCidUrlsForMhtmlResources property
+## HtmlSaveOptions.ExportCidUrlsForMhtmlResources property
 
 Specifies whether to use CID (Content-ID) URLs to reference resources (images, fonts, CSS) included in MHTML documents. Default value is `false`.
 

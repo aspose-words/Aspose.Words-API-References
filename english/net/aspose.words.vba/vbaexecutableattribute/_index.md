@@ -1,6 +1,7 @@
 ---
 title: VbaExecutableAttribute Class
 linktitle: VbaExecutableAttribute
+articleTitle: VbaExecutableAttribute
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Vba.VbaExecutableAttribute class.  in C#.
 type: docs

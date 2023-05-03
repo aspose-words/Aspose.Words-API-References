@@ -1,13 +1,14 @@
 ---
 title: SignOptions.Comments
 linktitle: Comments
+articleTitle: Comments
 second_title: Aspose.Words for .NET API Reference
 description: SignOptions Comments property. Specifies comments on the digital signature. Default value is empty string Empty in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.digitalsignatures/signoptions/comments/
 ---
-## Comments property
+## SignOptions.Comments property
 
 Specifies comments on the digital signature. Default value is **empty string** (Empty).
 

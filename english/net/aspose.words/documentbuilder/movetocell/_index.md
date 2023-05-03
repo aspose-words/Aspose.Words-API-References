@@ -1,13 +1,14 @@
 ---
 title: DocumentBuilder.MoveToCell
 linktitle: MoveToCell
+articleTitle: MoveToCell
 second_title: Aspose.Words for .NET API Reference
 description: DocumentBuilder MoveToCell method. Moves the cursor to a table cell in the current section in C#.
 type: docs
 weight: 500
 url: /net/aspose.words/documentbuilder/movetocell/
 ---
-## MoveToCell method
+## DocumentBuilder.MoveToCell method
 
 Moves the cursor to a table cell in the current section.
 

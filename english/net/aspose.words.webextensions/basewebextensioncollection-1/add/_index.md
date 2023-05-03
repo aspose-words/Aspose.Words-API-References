@@ -1,13 +1,14 @@
 ---
 title: BaseWebExtensionCollection1.Add
 linktitle: Add
+articleTitle: Add
 second_title: Aspose.Words for .NET API Reference
 description: BaseWebExtensionCollection Add method. Adds specified item to the collection in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.webextensions/basewebextensioncollection-1/add/
 ---
-## Add method
+## BaseWebExtensionCollection&lt;T&gt;.Add method
 
 Adds specified item to the collection.
 

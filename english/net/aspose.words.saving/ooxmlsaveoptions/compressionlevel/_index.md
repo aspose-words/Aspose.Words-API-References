@@ -1,13 +1,14 @@
 ---
 title: OoxmlSaveOptions.CompressionLevel
 linktitle: CompressionLevel
+articleTitle: CompressionLevel
 second_title: Aspose.Words for .NET API Reference
 description: OoxmlSaveOptions CompressionLevel property. Specifies the compression level used to save document. The default value is Normal in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.saving/ooxmlsaveoptions/compressionlevel/
 ---
-## CompressionLevel property
+## OoxmlSaveOptions.CompressionLevel property
 
 Specifies the compression level used to save document. The default value is Normal.
 

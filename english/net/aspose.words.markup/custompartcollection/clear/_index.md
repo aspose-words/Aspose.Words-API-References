@@ -1,13 +1,14 @@
 ---
 title: CustomPartCollection.Clear
 linktitle: Clear
+articleTitle: Clear
 second_title: Aspose.Words for .NET API Reference
 description: CustomPartCollection Clear method. Removes all elements from the collection in C#.
 type: docs
 weight: 50
 url: /net/aspose.words.markup/custompartcollection/clear/
 ---
-## Clear method
+## CustomPartCollection.Clear method
 
 Removes all elements from the collection.
 

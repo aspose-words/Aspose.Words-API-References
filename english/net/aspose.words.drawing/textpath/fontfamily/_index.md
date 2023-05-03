@@ -1,13 +1,14 @@
 ---
 title: TextPath.FontFamily
 linktitle: FontFamily
+articleTitle: FontFamily
 second_title: Aspose.Words for .NET API Reference
 description: TextPath FontFamily property. Defines the family of the textpath font in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.drawing/textpath/fontfamily/
 ---
-## FontFamily property
+## TextPath.FontFamily property
 
 Defines the family of the textpath font.
 

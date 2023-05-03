@@ -1,6 +1,7 @@
 ---
 title: FieldNumPages Class
 linktitle: FieldNumPages
+articleTitle: FieldNumPages
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FieldNumPages class. Implements the NUMPAGES field in C#.
 type: docs

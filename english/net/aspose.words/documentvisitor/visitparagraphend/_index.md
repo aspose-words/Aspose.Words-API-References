@@ -1,13 +1,14 @@
 ---
 title: DocumentVisitor.VisitParagraphEnd
 linktitle: VisitParagraphEnd
+articleTitle: VisitParagraphEnd
 second_title: Aspose.Words for .NET API Reference
 description: DocumentVisitor VisitParagraphEnd method. Called when enumeration of a paragraph has ended in C#.
 type: docs
 weight: 320
 url: /net/aspose.words/documentvisitor/visitparagraphend/
 ---
-## VisitParagraphEnd method
+## DocumentVisitor.VisitParagraphEnd method
 
 Called when enumeration of a paragraph has ended.
 

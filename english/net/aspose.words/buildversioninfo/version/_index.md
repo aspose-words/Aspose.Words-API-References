@@ -1,13 +1,14 @@
 ---
 title: BuildVersionInfo.Version
 linktitle: Version
+articleTitle: Version
 second_title: Aspose.Words for .NET API Reference
 description: BuildVersionInfo Version property. Gets the product version in C#.
 type: docs
 weight: 20
 url: /net/aspose.words/buildversioninfo/version/
 ---
-## Version property
+## BuildVersionInfo.Version property
 
 Gets the product version.
 

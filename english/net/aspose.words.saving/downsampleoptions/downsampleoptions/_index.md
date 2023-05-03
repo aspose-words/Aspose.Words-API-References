@@ -1,6 +1,7 @@
 ---
 title: DownsampleOptions
 linktitle: DownsampleOptions
+articleTitle: DownsampleOptions
 second_title: Aspose.Words for .NET API Reference
 description: DownsampleOptions constructor. The default constructor in C#.
 type: docs

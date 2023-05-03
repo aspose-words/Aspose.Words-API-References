@@ -1,13 +1,14 @@
 ---
 title: ControlChar.Tab
 linktitle: Tab
+articleTitle: Tab
 second_title: Aspose.Words for .NET API Reference
 description: ControlChar Tab field. Tab character x0009 or t in C#.
 type: docs
 weight: 270
 url: /net/aspose.words/controlchar/tab/
 ---
-## Tab field
+## ControlChar.Tab field
 
 Tab character: "\x0009" or "\t".
 

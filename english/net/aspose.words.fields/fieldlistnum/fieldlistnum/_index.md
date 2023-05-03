@@ -1,6 +1,7 @@
 ---
 title: FieldListNum
 linktitle: FieldListNum
+articleTitle: FieldListNum
 second_title: Aspose.Words for .NET API Reference
 description: FieldListNum constructor. The default constructor in C#.
 type: docs

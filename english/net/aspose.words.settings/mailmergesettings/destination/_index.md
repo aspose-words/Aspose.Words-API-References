@@ -1,13 +1,14 @@
 ---
 title: MailMergeSettings.Destination
 linktitle: Destination
+articleTitle: Destination
 second_title: Aspose.Words for .NET API Reference
 description: MailMergeSettings Destination property. Specifies how Microsoft Word will output the results of a mail merge. The default value is Default in C#.
 type: docs
 weight: 80
 url: /net/aspose.words.settings/mailmergesettings/destination/
 ---
-## Destination property
+## MailMergeSettings.Destination property
 
 Specifies how Microsoft Word will output the results of a mail merge. The default value is Default.
 

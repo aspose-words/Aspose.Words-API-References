@@ -1,13 +1,14 @@
 ---
 title: ShapeBase.AllowOverlap
 linktitle: AllowOverlap
+articleTitle: AllowOverlap
 second_title: Aspose.Words for .NET API Reference
 description: ShapeBase AllowOverlap property. Gets or sets a value that specifies whether this shape can overlap other shapes in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing/shapebase/allowoverlap/
 ---
-## AllowOverlap property
+## ShapeBase.AllowOverlap property
 
 Gets or sets a value that specifies whether this shape can overlap other shapes.
 

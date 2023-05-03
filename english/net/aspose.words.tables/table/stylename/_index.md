@@ -1,13 +1,14 @@
 ---
 title: Table.StyleName
 linktitle: StyleName
+articleTitle: StyleName
 second_title: Aspose.Words for .NET API Reference
 description: Table StyleName property. Gets or sets the name of the table style applied to this table in C#.
 type: docs
 weight: 290
 url: /net/aspose.words.tables/table/stylename/
 ---
-## StyleName property
+## Table.StyleName property
 
 Gets or sets the name of the table style applied to this table.
 

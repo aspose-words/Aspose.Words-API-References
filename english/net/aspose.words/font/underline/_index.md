@@ -1,13 +1,14 @@
 ---
 title: Font.Underline
 linktitle: Underline
+articleTitle: Underline
 second_title: Aspose.Words for .NET API Reference
 description: Font Underline property. Gets or sets the type of underline applied to the font in C#.
 type: docs
 weight: 530
 url: /net/aspose.words/font/underline/
 ---
-## Underline property
+## Font.Underline property
 
 Gets or sets the type of underline applied to the font.
 

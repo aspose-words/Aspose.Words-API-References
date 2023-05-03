@@ -1,13 +1,14 @@
 ---
 title: ParagraphFormat.Shading
 linktitle: Shading
+articleTitle: Shading
 second_title: Aspose.Words for .NET API Reference
 description: ParagraphFormat Shading property. Returns a Shading object that refers to the shading formatting for the paragraph in C#.
 type: docs
 weight: 270
 url: /net/aspose.words/paragraphformat/shading/
 ---
-## Shading property
+## ParagraphFormat.Shading property
 
 Returns a [`Shading`](../../shading/) object that refers to the shading formatting for the paragraph.
 

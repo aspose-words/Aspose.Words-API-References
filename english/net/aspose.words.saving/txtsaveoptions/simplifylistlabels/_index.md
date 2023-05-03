@@ -1,13 +1,14 @@
 ---
 title: TxtSaveOptions.SimplifyListLabels
 linktitle: SimplifyListLabels
+articleTitle: SimplifyListLabels
 second_title: Aspose.Words for .NET API Reference
 description: TxtSaveOptions SimplifyListLabels property. Specifies whether the program should simplify list labels in case of complex label formatting not being adequately represented by plain text in C#.
 type: docs
 weight: 70
 url: /net/aspose.words.saving/txtsaveoptions/simplifylistlabels/
 ---
-## SimplifyListLabels property
+## TxtSaveOptions.SimplifyListLabels property
 
 Specifies whether the program should simplify list labels in case of complex label formatting not being adequately represented by plain text.
 

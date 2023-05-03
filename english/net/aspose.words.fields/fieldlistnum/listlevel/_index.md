@@ -1,13 +1,14 @@
 ---
 title: FieldListNum.ListLevel
 linktitle: ListLevel
+articleTitle: ListLevel
 second_title: Aspose.Words for .NET API Reference
 description: FieldListNum ListLevel property. Gets or sets the level in the list overriding the default behavior of the field in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldlistnum/listlevel/
 ---
-## ListLevel property
+## FieldListNum.ListLevel property
 
 Gets or sets the level in the list, overriding the default behavior of the field.
 

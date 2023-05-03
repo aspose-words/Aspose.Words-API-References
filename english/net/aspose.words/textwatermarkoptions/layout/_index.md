@@ -1,13 +1,14 @@
 ---
 title: TextWatermarkOptions.Layout
 linktitle: Layout
+articleTitle: Layout
 second_title: Aspose.Words for .NET API Reference
 description: TextWatermarkOptions Layout property. Gets or sets layout of the watermark. The default value is Diagonal in C#.
 type: docs
 weight: 60
 url: /net/aspose.words/textwatermarkoptions/layout/
 ---
-## Layout property
+## TextWatermarkOptions.Layout property
 
 Gets or sets layout of the watermark. The default value is Diagonal.
 

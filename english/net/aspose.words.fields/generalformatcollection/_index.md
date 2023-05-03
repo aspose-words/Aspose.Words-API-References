@@ -1,6 +1,7 @@
 ---
 title: GeneralFormatCollection Class
 linktitle: GeneralFormatCollection
+articleTitle: GeneralFormatCollection
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.GeneralFormatCollection class. Represents a typed collection of general formats in C#.
 type: docs

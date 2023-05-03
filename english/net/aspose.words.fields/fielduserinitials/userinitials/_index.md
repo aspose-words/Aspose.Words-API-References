@@ -1,13 +1,14 @@
 ---
 title: FieldUserInitials.UserInitials
 linktitle: UserInitials
+articleTitle: UserInitials
 second_title: Aspose.Words for .NET API Reference
 description: FieldUserInitials UserInitials property. Gets or sets the current users initials in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fielduserinitials/userinitials/
 ---
-## UserInitials property
+## FieldUserInitials.UserInitials property
 
 Gets or sets the current user's initials.
 

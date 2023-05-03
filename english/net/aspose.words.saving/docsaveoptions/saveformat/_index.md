@@ -1,13 +1,14 @@
 ---
 title: DocSaveOptions.SaveFormat
 linktitle: SaveFormat
+articleTitle: SaveFormat
 second_title: Aspose.Words for .NET API Reference
 description: DocSaveOptions SaveFormat property. Specifies the format in which the document will be saved if this save options object is used. Can be Doc or Dot in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.saving/docsaveoptions/saveformat/
 ---
-## SaveFormat property
+## DocSaveOptions.SaveFormat property
 
 Specifies the format in which the document will be saved if this save options object is used. Can be Doc or Dot.
 

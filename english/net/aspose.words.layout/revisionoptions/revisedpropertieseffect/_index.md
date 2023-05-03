@@ -1,13 +1,14 @@
 ---
 title: RevisionOptions.RevisedPropertiesEffect
 linktitle: RevisedPropertiesEffect
+articleTitle: RevisedPropertiesEffect
 second_title: Aspose.Words for .NET API Reference
 description: RevisionOptions RevisedPropertiesEffect property. Allows to specify the effect for content areas with changes of formatting properties FormatChange Default value is None in C#.
 type: docs
 weight: 120
 url: /net/aspose.words.layout/revisionoptions/revisedpropertieseffect/
 ---
-## RevisedPropertiesEffect property
+## RevisionOptions.RevisedPropertiesEffect property
 
 Allows to specify the effect for content areas with changes of formatting properties FormatChange Default value is None
 

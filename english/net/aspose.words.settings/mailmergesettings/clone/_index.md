@@ -1,13 +1,14 @@
 ---
 title: MailMergeSettings.Clone
 linktitle: Clone
+articleTitle: Clone
 second_title: Aspose.Words for .NET API Reference
 description: MailMergeSettings Clone method. Returns a deep clone of this object in C#.
 type: docs
 weight: 190
 url: /net/aspose.words.settings/mailmergesettings/clone/
 ---
-## Clone method
+## MailMergeSettings.Clone method
 
 Returns a deep clone of this object.
 

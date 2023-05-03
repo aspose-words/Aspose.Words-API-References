@@ -1,13 +1,14 @@
 ---
 title: FieldOptions.TemplateName
 linktitle: TemplateName
+articleTitle: TemplateName
 second_title: Aspose.Words for .NET API Reference
 description: FieldOptions TemplateName property. Gets or sets the file name of the template used by the document in C#.
 type: docs
 weight: 180
 url: /net/aspose.words.fields/fieldoptions/templatename/
 ---
-## TemplateName property
+## FieldOptions.TemplateName property
 
 Gets or sets the file name of the template used by the document.
 

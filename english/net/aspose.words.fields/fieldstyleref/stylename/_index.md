@@ -1,13 +1,14 @@
 ---
 title: FieldStyleRef.StyleName
 linktitle: StyleName
+articleTitle: StyleName
 second_title: Aspose.Words for .NET API Reference
 description: FieldStyleRef StyleName property. Gets or sets the name of the style by which the text to search for is formatted in C#.
 type: docs
 weight: 70
 url: /net/aspose.words.fields/fieldstyleref/stylename/
 ---
-## StyleName property
+## FieldStyleRef.StyleName property
 
 Gets or sets the name of the style by which the text to search for is formatted.
 

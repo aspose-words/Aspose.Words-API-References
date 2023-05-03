@@ -1,6 +1,7 @@
 ---
 title: HorizontalRuleAlignment Enum
 linktitle: HorizontalRuleAlignment
+articleTitle: HorizontalRuleAlignment
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Drawing.HorizontalRuleAlignment enum. Represents the alignment for the specified horizontal rule in C#.
 type: docs

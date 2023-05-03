@@ -1,13 +1,14 @@
 ---
 title: DocumentVisitor.VisitDocumentEnd
 linktitle: VisitDocumentEnd
+articleTitle: VisitDocumentEnd
 second_title: Aspose.Words for .NET API Reference
 description: DocumentVisitor VisitDocumentEnd method. Called when enumeration of the document has finished in C#.
 type: docs
 weight: 140
 url: /net/aspose.words/documentvisitor/visitdocumentend/
 ---
-## VisitDocumentEnd method
+## DocumentVisitor.VisitDocumentEnd method
 
 Called when enumeration of the document has finished.
 

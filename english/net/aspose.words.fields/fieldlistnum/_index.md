@@ -1,6 +1,7 @@
 ---
 title: FieldListNum Class
 linktitle: FieldListNum
+articleTitle: FieldListNum
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FieldListNum class. Implements the LISTNUM field in C#.
 type: docs

@@ -1,13 +1,14 @@
 ---
 title: INodeChangingCallback.NodeRemoving
 linktitle: NodeRemoving
+articleTitle: NodeRemoving
 second_title: Aspose.Words for .NET API Reference
 description: INodeChangingCallback NodeRemoving method. Called just before a node belonging to this document is about to be removed from the document in C#.
 type: docs
 weight: 40
 url: /net/aspose.words/inodechangingcallback/noderemoving/
 ---
-## NodeRemoving method
+## INodeChangingCallback.NodeRemoving method
 
 Called just before a node belonging to this document is about to be removed from the document.
 

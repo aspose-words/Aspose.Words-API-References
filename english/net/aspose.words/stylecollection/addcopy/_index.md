@@ -1,13 +1,14 @@
 ---
 title: StyleCollection.AddCopy
 linktitle: AddCopy
+articleTitle: AddCopy
 second_title: Aspose.Words for .NET API Reference
 description: StyleCollection AddCopy method. Copies a style into this collection in C#.
 type: docs
 weight: 70
 url: /net/aspose.words/stylecollection/addcopy/
 ---
-## AddCopy method
+## StyleCollection.AddCopy method
 
 Copies a style into this collection.
 

@@ -1,13 +1,14 @@
 ---
 title: FieldGlossary.EntryName
 linktitle: EntryName
+articleTitle: EntryName
 second_title: Aspose.Words for .NET API Reference
 description: FieldGlossary EntryName property. Gets or sets the name of the glossary entry to insert in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldglossary/entryname/
 ---
-## EntryName property
+## FieldGlossary.EntryName property
 
 Gets or sets the name of the glossary entry to insert.
 

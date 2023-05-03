@@ -1,6 +1,7 @@
 ---
 title: FieldType Enum
 linktitle: FieldType
+articleTitle: FieldType
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FieldType enum. Specifies Microsoft Word field types in C#.
 type: docs

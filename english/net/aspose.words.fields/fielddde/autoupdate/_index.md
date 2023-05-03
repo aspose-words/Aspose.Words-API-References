@@ -1,13 +1,14 @@
 ---
 title: FieldDde.AutoUpdate
 linktitle: AutoUpdate
+articleTitle: AutoUpdate
 second_title: Aspose.Words for .NET API Reference
 description: FieldDde AutoUpdate property. Gets or sets whether to update this field automatically in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fielddde/autoupdate/
 ---
-## AutoUpdate property
+## FieldDde.AutoUpdate property
 
 Gets or sets whether to update this field automatically.
 

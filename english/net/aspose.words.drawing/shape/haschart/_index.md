@@ -1,13 +1,14 @@
 ---
 title: Shape.HasChart
 linktitle: HasChart
+articleTitle: HasChart
 second_title: Aspose.Words for .NET API Reference
 description: Shape HasChart property. Returns true if this Shape has a Chart in C#.
 type: docs
 weight: 70
 url: /net/aspose.words.drawing/shape/haschart/
 ---
-## HasChart property
+## Shape.HasChart property
 
 Returns `true` if this [`Shape`](../) has a [`Chart`](../../../aspose.words.drawing.charts/chart/).
 

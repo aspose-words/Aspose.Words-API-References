@@ -1,13 +1,14 @@
 ---
 title: DocumentBuilder.Font
 linktitle: Font
+articleTitle: Font
 second_title: Aspose.Words for .NET API Reference
 description: DocumentBuilder Font property. Returns an object that represents current font formatting properties in C#.
 type: docs
 weight: 100
 url: /net/aspose.words/documentbuilder/font/
 ---
-## Font property
+## DocumentBuilder.Font property
 
 Returns an object that represents current font formatting properties.
 

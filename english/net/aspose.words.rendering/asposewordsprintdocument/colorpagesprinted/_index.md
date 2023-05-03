@@ -1,13 +1,14 @@
 ---
 title: AsposeWordsPrintDocument.ColorPagesPrinted
 linktitle: ColorPagesPrinted
+articleTitle: ColorPagesPrinted
 second_title: Aspose.Words for .NET API Reference
 description: AsposeWordsPrintDocument ColorPagesPrinted property. Gets the number of pages printed in color i.e. with Color set to true in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.rendering/asposewordsprintdocument/colorpagesprinted/
 ---
-## ColorPagesPrinted property
+## AsposeWordsPrintDocument.ColorPagesPrinted property
 
 Gets the number of pages printed in color (i.e. with Color set to true).
 

@@ -1,13 +1,14 @@
 ---
 title: ShapeBase.MarkupLanguage
 linktitle: MarkupLanguage
+articleTitle: MarkupLanguage
 second_title: Aspose.Words for .NET API Reference
 description: ShapeBase MarkupLanguage property. Gets MarkupLanguage used for this graphic object in C#.
 type: docs
 weight: 390
 url: /net/aspose.words.drawing/shapebase/markuplanguage/
 ---
-## MarkupLanguage property
+## ShapeBase.MarkupLanguage property
 
 Gets MarkupLanguage used for this graphic object.
 

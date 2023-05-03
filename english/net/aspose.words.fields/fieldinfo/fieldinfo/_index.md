@@ -1,6 +1,7 @@
 ---
 title: FieldInfo
 linktitle: FieldInfo
+articleTitle: FieldInfo
 second_title: Aspose.Words for .NET API Reference
 description: FieldInfo constructor. The default constructor in C#.
 type: docs

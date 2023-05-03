@@ -1,13 +1,14 @@
 ---
 title: CompatibilityOptions.OptimizeFor
 linktitle: OptimizeFor
+articleTitle: OptimizeFor
 second_title: Aspose.Words for .NET API Reference
 description: CompatibilityOptions OptimizeFor method. Allows to optimize the document contents as well as default Aspose.Words behavior to a particular versions of MS Word in C#.
 type: docs
 weight: 720
 url: /net/aspose.words.settings/compatibilityoptions/optimizefor/
 ---
-## OptimizeFor method
+## CompatibilityOptions.OptimizeFor method
 
 Allows to optimize the document contents as well as default Aspose.Words behavior to a particular versions of MS Word.
 

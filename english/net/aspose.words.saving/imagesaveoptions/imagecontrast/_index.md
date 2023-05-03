@@ -1,13 +1,14 @@
 ---
 title: ImageSaveOptions.ImageContrast
 linktitle: ImageContrast
+articleTitle: ImageContrast
 second_title: Aspose.Words for .NET API Reference
 description: ImageSaveOptions ImageContrast property. Gets or sets the contrast for the generated images in C#.
 type: docs
 weight: 60
 url: /net/aspose.words.saving/imagesaveoptions/imagecontrast/
 ---
-## ImageContrast property
+## ImageSaveOptions.ImageContrast property
 
 Gets or sets the contrast for the generated images.
 

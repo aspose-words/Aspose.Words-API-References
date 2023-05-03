@@ -1,13 +1,14 @@
 ---
 title: CompositeNode.SelectNodes
 linktitle: SelectNodes
+articleTitle: SelectNodes
 second_title: Aspose.Words for .NET API Reference
 description: CompositeNode SelectNodes method. Selects a list of nodes matching the XPath expression in C#.
 type: docs
 weight: 200
 url: /net/aspose.words/compositenode/selectnodes/
 ---
-## SelectNodes method
+## CompositeNode.SelectNodes method
 
 Selects a list of nodes matching the XPath expression.
 

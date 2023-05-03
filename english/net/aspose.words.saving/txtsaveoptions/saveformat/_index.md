@@ -1,13 +1,14 @@
 ---
 title: TxtSaveOptions.SaveFormat
 linktitle: SaveFormat
+articleTitle: SaveFormat
 second_title: Aspose.Words for .NET API Reference
 description: TxtSaveOptions SaveFormat property. Specifies the format in which the document will be saved if this save options object is used. Can only be Text in C#.
 type: docs
 weight: 60
 url: /net/aspose.words.saving/txtsaveoptions/saveformat/
 ---
-## SaveFormat property
+## TxtSaveOptions.SaveFormat property
 
 Specifies the format in which the document will be saved if this save options object is used. Can only be Text.
 

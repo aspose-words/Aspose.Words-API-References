@@ -1,6 +1,7 @@
 ---
 title: Forms2OleControlCollection.Item
 linktitle: Item
+articleTitle: Item
 second_title: Aspose.Words for .NET API Reference
 description: Forms2OleControlCollection Item property. Gets Forms2OleControl object at a specified index in C#.
 type: docs

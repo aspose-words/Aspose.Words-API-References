@@ -1,13 +1,14 @@
 ---
 title: Paragraph.ListLabel
 linktitle: ListLabel
+articleTitle: ListLabel
 second_title: Aspose.Words for .NET API Reference
 description: Paragraph ListLabel property. Gets a ListLabel object that provides access to list numbering value and formatting for this paragraph in C#.
 type: docs
 weight: 160
 url: /net/aspose.words/paragraph/listlabel/
 ---
-## ListLabel property
+## Paragraph.ListLabel property
 
 Gets a `ListLabel` object that provides access to list numbering value and formatting for this paragraph.
 

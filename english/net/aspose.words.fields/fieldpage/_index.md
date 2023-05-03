@@ -1,6 +1,7 @@
 ---
 title: FieldPage Class
 linktitle: FieldPage
+articleTitle: FieldPage
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FieldPage class. Implements the PAGE field in C#.
 type: docs

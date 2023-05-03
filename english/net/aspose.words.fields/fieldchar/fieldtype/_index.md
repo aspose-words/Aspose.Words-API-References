@@ -1,13 +1,14 @@
 ---
 title: FieldChar.FieldType
 linktitle: FieldType
+articleTitle: FieldType
 second_title: Aspose.Words for .NET API Reference
 description: FieldChar FieldType property. Returns the type of the field in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.fields/fieldchar/fieldtype/
 ---
-## FieldType property
+## FieldChar.FieldType property
 
 Returns the type of the field.
 

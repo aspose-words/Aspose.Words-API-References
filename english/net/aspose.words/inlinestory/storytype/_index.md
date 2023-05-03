@@ -1,13 +1,14 @@
 ---
 title: InlineStory.StoryType
 linktitle: StoryType
+articleTitle: StoryType
 second_title: Aspose.Words for .NET API Reference
 description: InlineStory StoryType property. Returns the type of the story in C#.
 type: docs
 weight: 100
 url: /net/aspose.words/inlinestory/storytype/
 ---
-## StoryType property
+## InlineStory.StoryType property
 
 Returns the type of the story.
 

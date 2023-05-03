@@ -1,6 +1,7 @@
 ---
 title: DocumentBuilder
 linktitle: DocumentBuilder
+articleTitle: DocumentBuilder
 second_title: Aspose.Words for .NET API Reference
 description: DocumentBuilder constructor. Initializes a new instance of this class in C#.
 type: docs

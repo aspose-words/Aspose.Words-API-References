@@ -1,6 +1,7 @@
 ---
 title: List.Equals
 linktitle: Equals
+articleTitle: Equals
 second_title: Aspose.Words for .NET API Reference
 description: List Equals method. Compares with the specified list in C#.
 type: docs

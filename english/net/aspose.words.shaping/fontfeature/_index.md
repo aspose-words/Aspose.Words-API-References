@@ -1,6 +1,7 @@
 ---
 title: FontFeature Enum
 linktitle: FontFeature
+articleTitle: FontFeature
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Shaping.FontFeature enum. Features provide information about how glyphs are used in a font to render a script. https//docs.microsoft.com/enus/typography/opentype/spec/featuretags in C#.
 type: docs

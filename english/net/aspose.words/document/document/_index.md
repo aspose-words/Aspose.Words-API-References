@@ -1,6 +1,7 @@
 ---
 title: Document
 linktitle: Document
+articleTitle: Document
 second_title: Aspose.Words for .NET API Reference
 description: Document constructor. Creates a blank Word document in C#.
 type: docs

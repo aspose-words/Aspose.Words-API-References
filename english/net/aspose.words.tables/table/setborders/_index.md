@@ -1,13 +1,14 @@
 ---
 title: Table.SetBorders
 linktitle: SetBorders
+articleTitle: SetBorders
 second_title: Aspose.Words for .NET API Reference
 description: Table SetBorders method. Sets all table borders to the specified line style width and color in C#.
 type: docs
 weight: 420
 url: /net/aspose.words.tables/table/setborders/
 ---
-## SetBorders method
+## Table.SetBorders method
 
 Sets all table borders to the specified line style, width and color.
 

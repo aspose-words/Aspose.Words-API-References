@@ -1,6 +1,7 @@
 ---
 title: CustomXmlSchemaCollection.Item
 linktitle: Item
+articleTitle: Item
 second_title: Aspose.Words for .NET API Reference
 description: CustomXmlSchemaCollection Item property. Gets or sets the element at the specified index in C#.
 type: docs

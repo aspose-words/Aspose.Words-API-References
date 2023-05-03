@@ -1,13 +1,14 @@
 ---
 title: Paragraph.Accept
 linktitle: Accept
+articleTitle: Accept
 second_title: Aspose.Words for .NET API Reference
 description: Paragraph Accept method. Accepts a visitor in C#.
 type: docs
 weight: 230
 url: /net/aspose.words/paragraph/accept/
 ---
-## Accept method
+## Paragraph.Accept method
 
 Accepts a visitor.
 

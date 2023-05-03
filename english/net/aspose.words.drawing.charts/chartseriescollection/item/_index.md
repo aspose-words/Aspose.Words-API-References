@@ -1,6 +1,7 @@
 ---
 title: ChartSeriesCollection.Item
 linktitle: Item
+articleTitle: Item
 second_title: Aspose.Words for .NET API Reference
 description: ChartSeriesCollection Item property. Returns a ChartSeries at the specified index in C#.
 type: docs

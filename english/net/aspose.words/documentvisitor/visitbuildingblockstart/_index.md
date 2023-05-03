@@ -1,13 +1,14 @@
 ---
 title: DocumentVisitor.VisitBuildingBlockStart
 linktitle: VisitBuildingBlockStart
+articleTitle: VisitBuildingBlockStart
 second_title: Aspose.Words for .NET API Reference
 description: DocumentVisitor VisitBuildingBlockStart method. Called when enumeration of a building block has started in C#.
 type: docs
 weight: 70
 url: /net/aspose.words/documentvisitor/visitbuildingblockstart/
 ---
-## VisitBuildingBlockStart method
+## DocumentVisitor.VisitBuildingBlockStart method
 
 Called when enumeration of a building block has started.
 

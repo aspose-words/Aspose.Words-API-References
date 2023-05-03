@@ -1,13 +1,14 @@
 ---
 title: VbaProject.CodePage
 linktitle: CodePage
+articleTitle: CodePage
 second_title: Aspose.Words for .NET API Reference
 description: VbaProject CodePage property. Gets or sets the VBA projects code page in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.vba/vbaproject/codepage/
 ---
-## CodePage property
+## VbaProject.CodePage property
 
 Gets or sets the VBA project’s code page.
 

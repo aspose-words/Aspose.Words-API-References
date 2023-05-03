@@ -1,13 +1,14 @@
 ---
 title: FieldMergeBarcode.FixCheckDigit
 linktitle: FixCheckDigit
+articleTitle: FixCheckDigit
 second_title: Aspose.Words for .NET API Reference
 description: FieldMergeBarcode FixCheckDigit property. Gets or sets whether to fix the check digit if its invalid in C#.
 type: docs
 weight: 90
 url: /net/aspose.words.fields/fieldmergebarcode/fixcheckdigit/
 ---
-## FixCheckDigit property
+## FieldMergeBarcode.FixCheckDigit property
 
 Gets or sets whether to fix the check digit if it’s invalid.
 

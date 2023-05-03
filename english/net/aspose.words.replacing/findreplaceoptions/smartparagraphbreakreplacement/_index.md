@@ -1,13 +1,14 @@
 ---
 title: FindReplaceOptions.SmartParagraphBreakReplacement
 linktitle: SmartParagraphBreakReplacement
+articleTitle: SmartParagraphBreakReplacement
 second_title: Aspose.Words for .NET API Reference
 description: FindReplaceOptions SmartParagraphBreakReplacement property. Gets or sets a boolean value indicating either it is allowed to replace paragraph break when there is no next sibling paragraph in C#.
 type: docs
 weight: 160
 url: /net/aspose.words.replacing/findreplaceoptions/smartparagraphbreakreplacement/
 ---
-## SmartParagraphBreakReplacement property
+## FindReplaceOptions.SmartParagraphBreakReplacement property
 
 Gets or sets a boolean value indicating either it is allowed to replace paragraph break when there is no next sibling paragraph.
 

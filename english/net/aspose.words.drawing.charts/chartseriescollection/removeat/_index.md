@@ -1,13 +1,14 @@
 ---
 title: ChartSeriesCollection.RemoveAt
 linktitle: RemoveAt
+articleTitle: RemoveAt
 second_title: Aspose.Words for .NET API Reference
 description: ChartSeriesCollection RemoveAt method. Removes a ChartSeries at the specified index in C#.
 type: docs
 weight: 60
 url: /net/aspose.words.drawing.charts/chartseriescollection/removeat/
 ---
-## RemoveAt method
+## ChartSeriesCollection.RemoveAt method
 
 Removes a [`ChartSeries`](../../chartseries/) at the specified index.
 

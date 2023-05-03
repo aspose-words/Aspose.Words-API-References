@@ -1,13 +1,14 @@
 ---
 title: FieldEnd.HasSeparator
 linktitle: HasSeparator
+articleTitle: HasSeparator
 second_title: Aspose.Words for .NET API Reference
 description: FieldEnd HasSeparator property. Returns true if this field has a separator in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.fields/fieldend/hasseparator/
 ---
-## HasSeparator property
+## FieldEnd.HasSeparator property
 
 Returns `true` if this field has a separator.
 

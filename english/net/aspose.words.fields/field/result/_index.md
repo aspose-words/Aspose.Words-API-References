@@ -1,13 +1,14 @@
 ---
 title: Field.Result
 linktitle: Result
+articleTitle: Result
 second_title: Aspose.Words for .NET API Reference
 description: Field Result property. Gets or sets text that is between the field separator and field end in C#.
 type: docs
 weight: 70
 url: /net/aspose.words.fields/field/result/
 ---
-## Result property
+## Field.Result property
 
 Gets or sets text that is between the field separator and field end.
 

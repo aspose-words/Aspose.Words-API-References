@@ -1,6 +1,7 @@
 ---
 title: PdfSaveOptions Class
 linktitle: PdfSaveOptions
+articleTitle: PdfSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Saving.PdfSaveOptions class. Can be used to specify additional options when saving a document into the Pdf format in C#.
 type: docs

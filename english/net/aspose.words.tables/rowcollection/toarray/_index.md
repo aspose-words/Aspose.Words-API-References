@@ -1,13 +1,14 @@
 ---
 title: RowCollection.ToArray
 linktitle: ToArray
+articleTitle: ToArray
 second_title: Aspose.Words for .NET API Reference
 description: RowCollection ToArray method. Copies all rows from the collection to a new array of rows in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.tables/rowcollection/toarray/
 ---
-## ToArray method
+## RowCollection.ToArray method
 
 Copies all rows from the collection to a new array of rows.
 

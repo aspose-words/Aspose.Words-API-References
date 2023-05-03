@@ -1,13 +1,14 @@
 ---
 title: Font.Bidi
 linktitle: Bidi
+articleTitle: Bidi
 second_title: Aspose.Words for .NET API Reference
 description: Font Bidi property. Specifies whether the contents of this run shall have righttoleft characteristics in C#.
 type: docs
 weight: 30
 url: /net/aspose.words/font/bidi/
 ---
-## Bidi property
+## Font.Bidi property
 
 Specifies whether the contents of this run shall have right-to-left characteristics.
 

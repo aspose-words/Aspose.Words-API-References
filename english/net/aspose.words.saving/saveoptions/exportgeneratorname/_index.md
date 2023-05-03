@@ -1,13 +1,14 @@
 ---
 title: SaveOptions.ExportGeneratorName
 linktitle: ExportGeneratorName
+articleTitle: ExportGeneratorName
 second_title: Aspose.Words for .NET API Reference
 description: SaveOptions ExportGeneratorName property. When true causes the name and version of Aspose.Words to be embedded into produced files. Default value is true in C#.
 type: docs
 weight: 80
 url: /net/aspose.words.saving/saveoptions/exportgeneratorname/
 ---
-## ExportGeneratorName property
+## SaveOptions.ExportGeneratorName property
 
 When `true`, causes the name and version of Aspose.Words to be embedded into produced files. Default value is `true`.
 

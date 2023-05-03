@@ -1,13 +1,14 @@
 ---
 title: CompatibilityOptions.UnderlineTabInNumList
 linktitle: UnderlineTabInNumList
+articleTitle: UnderlineTabInNumList
 second_title: Aspose.Words for .NET API Reference
 description: CompatibilityOptions UnderlineTabInNumList property. Underline Following Character Following Numbering in C#.
 type: docs
 weight: 590
 url: /net/aspose.words.settings/compatibilityoptions/underlinetabinnumlist/
 ---
-## UnderlineTabInNumList property
+## CompatibilityOptions.UnderlineTabInNumList property
 
 Underline Following Character Following Numbering.
 

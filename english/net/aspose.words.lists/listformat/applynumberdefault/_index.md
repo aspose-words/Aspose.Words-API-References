@@ -1,13 +1,14 @@
 ---
 title: ListFormat.ApplyNumberDefault
 linktitle: ApplyNumberDefault
+articleTitle: ApplyNumberDefault
 second_title: Aspose.Words for .NET API Reference
 description: ListFormat ApplyNumberDefault method. Starts a new default numbered list and applies it to the paragraph in C#.
 type: docs
 weight: 60
 url: /net/aspose.words.lists/listformat/applynumberdefault/
 ---
-## ApplyNumberDefault method
+## ListFormat.ApplyNumberDefault method
 
 Starts a new default numbered list and applies it to the paragraph.
 

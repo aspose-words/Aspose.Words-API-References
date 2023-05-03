@@ -1,13 +1,14 @@
 ---
 title: ChartDataPointCollection.ClearFormat
 linktitle: ClearFormat
+articleTitle: ClearFormat
 second_title: Aspose.Words for .NET API Reference
 description: ChartDataPointCollection ClearFormat method. Clears format of all ChartDataPoint in this collection in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/chartdatapointcollection/clearformat/
 ---
-## ClearFormat method
+## ChartDataPointCollection.ClearFormat method
 
 Clears format of all [`ChartDataPoint`](../../chartdatapoint/) in this collection.
 

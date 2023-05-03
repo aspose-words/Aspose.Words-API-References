@@ -1,13 +1,14 @@
 ---
 title: ControlChar.LineFeedChar
 linktitle: LineFeedChar
+articleTitle: LineFeedChar
 second_title: Aspose.Words for .NET API Reference
 description: ControlChar LineFeedChar field. Line feed character char10 or n in C#.
 type: docs
 weight: 150
 url: /net/aspose.words/controlchar/linefeedchar/
 ---
-## LineFeedChar field
+## ControlChar.LineFeedChar field
 
 Line feed character: (char)10 or "\n".
 

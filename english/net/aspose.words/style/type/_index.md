@@ -1,13 +1,14 @@
 ---
 title: Style.Type
 linktitle: Type
+articleTitle: Type
 second_title: Aspose.Words for .NET API Reference
 description: Style Type property. Gets the style type paragraph or character in C#.
 type: docs
 weight: 170
 url: /net/aspose.words/style/type/
 ---
-## Type property
+## Style.Type property
 
 Gets the style type (paragraph or character).
 

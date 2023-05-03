@@ -1,13 +1,14 @@
 ---
 title: BuildingBlock.Type
 linktitle: Type
+articleTitle: Type
 second_title: Aspose.Words for .NET API Reference
 description: BuildingBlock Type property. Specifies the building block type in C#.
 type: docs
 weight: 120
 url: /net/aspose.words.buildingblocks/buildingblock/type/
 ---
-## Type property
+## BuildingBlock.Type property
 
 Specifies the building block type.
 

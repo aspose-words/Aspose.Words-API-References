@@ -1,6 +1,7 @@
 ---
 title: FieldXE
 linktitle: FieldXE
+articleTitle: FieldXE
 second_title: Aspose.Words for .NET API Reference
 description: FieldXE constructor. The default constructor in C#.
 type: docs

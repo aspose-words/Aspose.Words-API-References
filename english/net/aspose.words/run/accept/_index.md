@@ -1,13 +1,14 @@
 ---
 title: Run.Accept
 linktitle: Accept
+articleTitle: Accept
 second_title: Aspose.Words for .NET API Reference
 description: Run Accept method. Accepts a visitor in C#.
 type: docs
 weight: 60
 url: /net/aspose.words/run/accept/
 ---
-## Accept method
+## Run.Accept method
 
 Accepts a visitor.
 

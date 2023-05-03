@@ -1,13 +1,14 @@
 ---
 title: FontFallbackSettings.BuildAutomatic
 linktitle: BuildAutomatic
+articleTitle: BuildAutomatic
 second_title: Aspose.Words for .NET API Reference
 description: FontFallbackSettings BuildAutomatic method. Automatically builds the fallback settings by scanning available fonts in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.fonts/fontfallbacksettings/buildautomatic/
 ---
-## BuildAutomatic method
+## FontFallbackSettings.BuildAutomatic method
 
 Automatically builds the fallback settings by scanning available fonts.
 

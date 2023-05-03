@@ -1,13 +1,14 @@
 ---
 title: PageSetup.LayoutMode
 linktitle: LayoutMode
+articleTitle: LayoutMode
 second_title: Aspose.Words for .NET API Reference
 description: PageSetup LayoutMode property. Gets or sets the layout mode of this section in C#.
 type: docs
 weight: 190
 url: /net/aspose.words/pagesetup/layoutmode/
 ---
-## LayoutMode property
+## PageSetup.LayoutMode property
 
 Gets or sets the layout mode of this section.
 

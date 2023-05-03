@@ -1,13 +1,14 @@
 ---
 title: CompatibilityOptions.DoNotVertAlignInTxbx
 linktitle: DoNotVertAlignInTxbx
+articleTitle: DoNotVertAlignInTxbx
 second_title: Aspose.Words for .NET API Reference
 description: CompatibilityOptions DoNotVertAlignInTxbx property. Ignore Vertical Alignment in Textboxes in C#.
 type: docs
 weight: 240
 url: /net/aspose.words.settings/compatibilityoptions/donotvertalignintxbx/
 ---
-## DoNotVertAlignInTxbx property
+## CompatibilityOptions.DoNotVertAlignInTxbx property
 
 Ignore Vertical Alignment in Textboxes.
 

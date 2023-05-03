@@ -1,13 +1,14 @@
 ---
 title: MappedDataFieldCollection.GetEnumerator
 linktitle: GetEnumerator
+articleTitle: GetEnumerator
 second_title: Aspose.Words for .NET API Reference
 description: MappedDataFieldCollection GetEnumerator method. Returns a dictionary enumerator object that can be used to iterate over all items in the collection in C#.
 type: docs
 weight: 70
 url: /net/aspose.words.mailmerging/mappeddatafieldcollection/getenumerator/
 ---
-## GetEnumerator method
+## MappedDataFieldCollection.GetEnumerator method
 
 Returns a dictionary enumerator object that can be used to iterate over all items in the collection.
 

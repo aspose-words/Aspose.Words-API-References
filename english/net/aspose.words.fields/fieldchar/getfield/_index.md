@@ -1,13 +1,14 @@
 ---
 title: FieldChar.GetField
 linktitle: GetField
+articleTitle: GetField
 second_title: Aspose.Words for .NET API Reference
 description: FieldChar GetField method. Returns a field for the field char in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldchar/getfield/
 ---
-## GetField method
+## FieldChar.GetField method
 
 Returns a field for the field char.
 

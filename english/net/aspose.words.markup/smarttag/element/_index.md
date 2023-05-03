@@ -1,13 +1,14 @@
 ---
 title: SmartTag.Element
 linktitle: Element
+articleTitle: Element
 second_title: Aspose.Words for .NET API Reference
 description: SmartTag Element property. Specifies the name of the smart tag within the document in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.markup/smarttag/element/
 ---
-## Element property
+## SmartTag.Element property
 
 Specifies the name of the smart tag within the document.
 

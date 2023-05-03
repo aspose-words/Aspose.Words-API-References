@@ -1,13 +1,14 @@
 ---
 title: Shape.SignatureLine
 linktitle: SignatureLine
+articleTitle: SignatureLine
 second_title: Aspose.Words for .NET API Reference
 description: Shape SignatureLine property. Gets SignatureLine object if the shape is a signature line. Returns null otherwise in C#.
 type: docs
 weight: 160
 url: /net/aspose.words.drawing/shape/signatureline/
 ---
-## SignatureLine property
+## Shape.SignatureLine property
 
 Gets [`SignatureLine`](../../signatureline/) object if the shape is a signature line. Returns `null` otherwise.
 

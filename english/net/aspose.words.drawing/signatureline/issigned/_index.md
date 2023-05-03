@@ -1,13 +1,14 @@
 ---
 title: SignatureLine.IsSigned
 linktitle: IsSigned
+articleTitle: IsSigned
 second_title: Aspose.Words for .NET API Reference
 description: SignatureLine IsSigned property. Indicates that signature line is signed by digital signature in C#.
 type: docs
 weight: 60
 url: /net/aspose.words.drawing/signatureline/issigned/
 ---
-## IsSigned property
+## SignatureLine.IsSigned property
 
 Indicates that signature line is signed by digital signature.
 

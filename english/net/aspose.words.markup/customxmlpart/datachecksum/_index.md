@@ -1,13 +1,14 @@
 ---
 title: CustomXmlPart.DataChecksum
 linktitle: DataChecksum
+articleTitle: DataChecksum
 second_title: Aspose.Words for .NET API Reference
 description: CustomXmlPart DataChecksum property. Specifies a cyclic redundancy check CRC checksum of the Data content in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.markup/customxmlpart/datachecksum/
 ---
-## DataChecksum property
+## CustomXmlPart.DataChecksum property
 
 Specifies a cyclic redundancy check (CRC) checksum of the [`Data`](../data/) content.
 

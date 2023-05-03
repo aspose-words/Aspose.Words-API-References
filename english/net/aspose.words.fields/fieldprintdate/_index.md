@@ -1,6 +1,7 @@
 ---
 title: FieldPrintDate Class
 linktitle: FieldPrintDate
+articleTitle: FieldPrintDate
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FieldPrintDate class. Implements the PRINTDATE field in C#.
 type: docs

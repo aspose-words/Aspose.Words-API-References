@@ -1,13 +1,14 @@
 ---
 title: LayoutOptions.CommentDisplayMode
 linktitle: CommentDisplayMode
+articleTitle: CommentDisplayMode
 second_title: Aspose.Words for .NET API Reference
 description: LayoutOptions CommentDisplayMode property. Gets or sets the way comments are rendered. Default value is ShowInBalloons in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.layout/layoutoptions/commentdisplaymode/
 ---
-## CommentDisplayMode property
+## LayoutOptions.CommentDisplayMode property
 
 Gets or sets the way comments are rendered. Default value is ShowInBalloons.
 

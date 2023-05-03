@@ -1,13 +1,14 @@
 ---
 title: CustomPartCollection.RemoveAt
 linktitle: RemoveAt
+articleTitle: RemoveAt
 second_title: Aspose.Words for .NET API Reference
 description: CustomPartCollection RemoveAt method. Removes an item at the specified index in C#.
 type: docs
 weight: 80
 url: /net/aspose.words.markup/custompartcollection/removeat/
 ---
-## RemoveAt method
+## CustomPartCollection.RemoveAt method
 
 Removes an item at the specified index.
 

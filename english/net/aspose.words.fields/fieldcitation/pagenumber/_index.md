@@ -1,13 +1,14 @@
 ---
 title: FieldCitation.PageNumber
 linktitle: PageNumber
+articleTitle: PageNumber
 second_title: Aspose.Words for .NET API Reference
 description: FieldCitation PageNumber property. Gets or sets a page number associated with the citation in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldcitation/pagenumber/
 ---
-## PageNumber property
+## FieldCitation.PageNumber property
 
 Gets or sets a page number associated with the citation.
 

@@ -1,13 +1,14 @@
 ---
 title: BookmarkCollection.RemoveAt
 linktitle: RemoveAt
+articleTitle: RemoveAt
 second_title: Aspose.Words for .NET API Reference
 description: BookmarkCollection RemoveAt method. Removes a bookmark at the specified index in C#.
 type: docs
 weight: 60
 url: /net/aspose.words/bookmarkcollection/removeat/
 ---
-## RemoveAt method
+## BookmarkCollection.RemoveAt method
 
 Removes a bookmark at the specified index.
 

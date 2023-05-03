@@ -1,6 +1,7 @@
 ---
 title: NodeRendererBase Class
 linktitle: NodeRendererBase
+articleTitle: NodeRendererBase
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Rendering.NodeRendererBase class. Base class for ShapeRenderer and OfficeMathRenderer in C#.
 type: docs

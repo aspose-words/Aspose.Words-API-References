@@ -1,13 +1,14 @@
 ---
 title: Comment.RemoveAllReplies
 linktitle: RemoveAllReplies
+articleTitle: RemoveAllReplies
 second_title: Aspose.Words for .NET API Reference
 description: Comment RemoveAllReplies method. Removes all replies to this comment in C#.
 type: docs
 weight: 130
 url: /net/aspose.words/comment/removeallreplies/
 ---
-## RemoveAllReplies method
+## Comment.RemoveAllReplies method
 
 Removes all replies to this comment.
 

@@ -1,13 +1,14 @@
 ---
 title: FormField.CalculateOnExit
 linktitle: CalculateOnExit
+articleTitle: CalculateOnExit
 second_title: Aspose.Words for .NET API Reference
 description: FormField CalculateOnExit property. True if references to the specified form field are automatically updated whenever the field is exited in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.fields/formfield/calculateonexit/
 ---
-## CalculateOnExit property
+## FormField.CalculateOnExit property
 
 True if references to the specified form field are automatically updated whenever the field is exited.
 

@@ -1,6 +1,7 @@
 ---
 title: BuildingBlockCollection Class
 linktitle: BuildingBlockCollection
+articleTitle: BuildingBlockCollection
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.BuildingBlocks.BuildingBlockCollection class. A collection of BuildingBlock objects in the document in C#.
 type: docs

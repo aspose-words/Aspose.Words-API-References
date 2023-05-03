@@ -1,13 +1,14 @@
 ---
 title: FieldLink.InsertAsBitmap
 linktitle: InsertAsBitmap
+articleTitle: InsertAsBitmap
 second_title: Aspose.Words for .NET API Reference
 description: FieldLink InsertAsBitmap property. Gets or sets whether to insert the linked object as a bitmap in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldlink/insertasbitmap/
 ---
-## InsertAsBitmap property
+## FieldLink.InsertAsBitmap property
 
 Gets or sets whether to insert the linked object as a bitmap.
 

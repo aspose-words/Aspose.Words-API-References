@@ -1,13 +1,14 @@
 ---
 title: ChartDataPoint.Format
 linktitle: Format
+articleTitle: Format
 second_title: Aspose.Words for .NET API Reference
 description: ChartDataPoint Format property. Provides access to fill and line formatting of this data point in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/chartdatapoint/format/
 ---
-## Format property
+## ChartDataPoint.Format property
 
 Provides access to fill and line formatting of this data point.
 

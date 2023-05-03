@@ -1,13 +1,14 @@
 ---
 title: ChartMultilevelValue.Level1
 linktitle: Level1
+articleTitle: Level1
 second_title: Aspose.Words for .NET API Reference
 description: ChartMultilevelValue Level1 property. Gets the name of the chart top level that this value refers to in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/chartmultilevelvalue/level1/
 ---
-## Level1 property
+## ChartMultilevelValue.Level1 property
 
 Gets the name of the chart top level that this value refers to.
 

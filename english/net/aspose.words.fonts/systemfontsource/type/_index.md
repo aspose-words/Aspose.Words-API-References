@@ -1,13 +1,14 @@
 ---
 title: SystemFontSource.Type
 linktitle: Type
+articleTitle: Type
 second_title: Aspose.Words for .NET API Reference
 description: SystemFontSource Type property. Returns the type of the font source in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.fonts/systemfontsource/type/
 ---
-## Type property
+## SystemFontSource.Type property
 
 Returns the type of the font source.
 

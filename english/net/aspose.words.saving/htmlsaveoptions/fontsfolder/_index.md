@@ -1,13 +1,14 @@
 ---
 title: HtmlSaveOptions.FontsFolder
 linktitle: FontsFolder
+articleTitle: FontsFolder
 second_title: Aspose.Words for .NET API Reference
 description: HtmlSaveOptions FontsFolder property. Specifies the physical folder where fonts are saved when exporting a document to HTML. Default is an empty string in C#.
 type: docs
 weight: 320
 url: /net/aspose.words.saving/htmlsaveoptions/fontsfolder/
 ---
-## FontsFolder property
+## HtmlSaveOptions.FontsFolder property
 
 Specifies the physical folder where fonts are saved when exporting a document to HTML. Default is an empty string.
 

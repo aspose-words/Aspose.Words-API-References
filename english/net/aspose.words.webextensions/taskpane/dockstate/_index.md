@@ -1,13 +1,14 @@
 ---
 title: TaskPane.DockState
 linktitle: DockState
+articleTitle: DockState
 second_title: Aspose.Words for .NET API Reference
 description: TaskPane DockState property. Specifies the lastdocked location of this task pane object in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.webextensions/taskpane/dockstate/
 ---
-## DockState property
+## TaskPane.DockState property
 
 Specifies the last-docked location of this task pane object.
 

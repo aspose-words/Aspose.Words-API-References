@@ -1,6 +1,7 @@
 ---
 title: CustomDocumentProperties.Add
 linktitle: Add
+articleTitle: Add
 second_title: Aspose.Words for .NET API Reference
 description: CustomDocumentProperties Add method. Creates a new custom document property of the String data type in C#.
 type: docs

@@ -1,13 +1,14 @@
 ---
 title: ParagraphFormat.WidowControl
 linktitle: WidowControl
+articleTitle: WidowControl
 second_title: Aspose.Words for .NET API Reference
 description: ParagraphFormat WidowControl property. True if the first and last lines in the paragraph are to remain on the same page as the rest of the paragraph in C#.
 type: docs
 weight: 390
 url: /net/aspose.words/paragraphformat/widowcontrol/
 ---
-## WidowControl property
+## ParagraphFormat.WidowControl property
 
 True if the first and last lines in the paragraph are to remain on the same page as the rest of the paragraph.
 

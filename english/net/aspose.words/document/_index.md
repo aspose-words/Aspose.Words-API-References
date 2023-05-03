@@ -1,6 +1,7 @@
 ---
 title: Document Class
 linktitle: Document
+articleTitle: Document
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Document class. Represents a Word document in C#.
 type: docs

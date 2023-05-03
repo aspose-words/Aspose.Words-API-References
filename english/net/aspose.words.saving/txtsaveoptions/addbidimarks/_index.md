@@ -1,13 +1,14 @@
 ---
 title: TxtSaveOptions.AddBidiMarks
 linktitle: AddBidiMarks
+articleTitle: AddBidiMarks
 second_title: Aspose.Words for .NET API Reference
 description: TxtSaveOptions AddBidiMarks property. Specifies whether to add bidirectional marks before each BiDi run when exporting in plain text format in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.saving/txtsaveoptions/addbidimarks/
 ---
-## AddBidiMarks property
+## TxtSaveOptions.AddBidiMarks property
 
 Specifies whether to add bi-directional marks before each BiDi run when exporting in plain text format.
 

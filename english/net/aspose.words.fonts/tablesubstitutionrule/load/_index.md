@@ -1,6 +1,7 @@
 ---
 title: TableSubstitutionRule.Load
 linktitle: Load
+articleTitle: Load
 second_title: Aspose.Words for .NET API Reference
 description: TableSubstitutionRule Load method. Loads table substitution settings from XML file in C#.
 type: docs

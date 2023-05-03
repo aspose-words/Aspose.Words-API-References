@@ -1,13 +1,14 @@
 ---
 title: WebExtensionReference.StoreType
 linktitle: StoreType
+articleTitle: StoreType
 second_title: Aspose.Words for .NET API Reference
 description: WebExtensionReference StoreType property. Specifies the type of marketplace in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.webextensions/webextensionreference/storetype/
 ---
-## StoreType property
+## WebExtensionReference.StoreType property
 
 Specifies the type of marketplace.
 

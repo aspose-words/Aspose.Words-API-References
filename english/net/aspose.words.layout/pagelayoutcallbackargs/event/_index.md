@@ -1,13 +1,14 @@
 ---
 title: PageLayoutCallbackArgs.Event
 linktitle: Event
+articleTitle: Event
 second_title: Aspose.Words for .NET API Reference
 description: PageLayoutCallbackArgs Event property. Gets event in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.layout/pagelayoutcallbackargs/event/
 ---
-## Event property
+## PageLayoutCallbackArgs.Event property
 
 Gets event.
 

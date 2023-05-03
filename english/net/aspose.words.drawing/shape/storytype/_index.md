@@ -1,13 +1,14 @@
 ---
 title: Shape.StoryType
 linktitle: StoryType
+articleTitle: StoryType
 second_title: Aspose.Words for .NET API Reference
 description: Shape StoryType property. Returns Textbox in C#.
 type: docs
 weight: 170
 url: /net/aspose.words.drawing/shape/storytype/
 ---
-## StoryType property
+## Shape.StoryType property
 
 Returns Textbox.
 

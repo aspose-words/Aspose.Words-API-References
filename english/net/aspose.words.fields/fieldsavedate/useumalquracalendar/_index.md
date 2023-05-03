@@ -1,13 +1,14 @@
 ---
 title: FieldSaveDate.UseUmAlQuraCalendar
 linktitle: UseUmAlQuraCalendar
+articleTitle: UseUmAlQuraCalendar
 second_title: Aspose.Words for .NET API Reference
 description: FieldSaveDate UseUmAlQuraCalendar property. Gets or sets whether to use the UmalQura calendar in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldsavedate/useumalquracalendar/
 ---
-## UseUmAlQuraCalendar property
+## FieldSaveDate.UseUmAlQuraCalendar property
 
 Gets or sets whether to use the Um-al-Qura calendar.
 

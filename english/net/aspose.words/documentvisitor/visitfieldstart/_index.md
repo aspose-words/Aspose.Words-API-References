@@ -1,13 +1,14 @@
 ---
 title: DocumentVisitor.VisitFieldStart
 linktitle: VisitFieldStart
+articleTitle: VisitFieldStart
 second_title: Aspose.Words for .NET API Reference
 description: DocumentVisitor VisitFieldStart method. Called when a field starts in the document in C#.
 type: docs
 weight: 200
 url: /net/aspose.words/documentvisitor/visitfieldstart/
 ---
-## VisitFieldStart method
+## DocumentVisitor.VisitFieldStart method
 
 Called when a field starts in the document.
 

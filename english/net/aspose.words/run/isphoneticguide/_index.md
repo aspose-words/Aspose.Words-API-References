@@ -1,13 +1,14 @@
 ---
 title: Run.IsPhoneticGuide
 linktitle: IsPhoneticGuide
+articleTitle: IsPhoneticGuide
 second_title: Aspose.Words for .NET API Reference
 description: Run IsPhoneticGuide property. Gets a boolean value indicating either the run is a phonetic guide in C#.
 type: docs
 weight: 20
 url: /net/aspose.words/run/isphoneticguide/
 ---
-## IsPhoneticGuide property
+## Run.IsPhoneticGuide property
 
 Gets a boolean value indicating either the run is a phonetic guide.
 

@@ -1,13 +1,14 @@
 ---
 title: FixedPageSaveOptions.MetafileRenderingOptions
 linktitle: MetafileRenderingOptions
+articleTitle: MetafileRenderingOptions
 second_title: Aspose.Words for .NET API Reference
 description: FixedPageSaveOptions MetafileRenderingOptions property. Allows to specify metafile rendering options in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.saving/fixedpagesaveoptions/metafilerenderingoptions/
 ---
-## MetafileRenderingOptions property
+## FixedPageSaveOptions.MetafileRenderingOptions property
 
 Allows to specify metafile rendering options.
 

@@ -1,13 +1,14 @@
 ---
 title: CompositeNode.RemoveAllChildren
 linktitle: RemoveAllChildren
+articleTitle: RemoveAllChildren
 second_title: Aspose.Words for .NET API Reference
 description: CompositeNode RemoveAllChildren method. Removes all the child nodes of the current node in C#.
 type: docs
 weight: 170
 url: /net/aspose.words/compositenode/removeallchildren/
 ---
-## RemoveAllChildren method
+## CompositeNode.RemoveAllChildren method
 
 Removes all the child nodes of the current node.
 

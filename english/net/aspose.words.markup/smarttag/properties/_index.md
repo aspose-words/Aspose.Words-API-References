@@ -1,13 +1,14 @@
 ---
 title: SmartTag.Properties
 linktitle: Properties
+articleTitle: Properties
 second_title: Aspose.Words for .NET API Reference
 description: SmartTag Properties property. A collection of the smart tag properties in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.markup/smarttag/properties/
 ---
-## Properties property
+## SmartTag.Properties property
 
 A collection of the smart tag properties.
 

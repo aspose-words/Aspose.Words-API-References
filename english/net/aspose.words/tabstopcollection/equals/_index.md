@@ -1,6 +1,7 @@
 ---
 title: TabStopCollection.Equals
 linktitle: Equals
+articleTitle: Equals
 second_title: Aspose.Words for .NET API Reference
 description: TabStopCollection Equals method. Determines whether the specified TabStopCollection is equal in value to the current TabStopCollection in C#.
 type: docs

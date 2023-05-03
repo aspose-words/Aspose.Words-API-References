@@ -1,13 +1,14 @@
 ---
 title: ChartTitle.Show
 linktitle: Show
+articleTitle: Show
 second_title: Aspose.Words for .NET API Reference
 description: ChartTitle Show property. Determines whether the title shall be shown for this chart. Default value is true in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/charttitle/show/
 ---
-## Show property
+## ChartTitle.Show property
 
 Determines whether the title shall be shown for this chart. Default value is `true`.
 

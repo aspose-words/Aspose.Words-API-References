@@ -1,13 +1,14 @@
 ---
 title: VariableCollection.RemoveAt
 linktitle: RemoveAt
+articleTitle: RemoveAt
 second_title: Aspose.Words for .NET API Reference
 description: VariableCollection RemoveAt method. Removes a document variable at the specified index in C#.
 type: docs
 weight: 90
 url: /net/aspose.words/variablecollection/removeat/
 ---
-## RemoveAt method
+## VariableCollection.RemoveAt method
 
 Removes a document variable at the specified index.
 

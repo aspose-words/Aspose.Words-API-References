@@ -1,13 +1,14 @@
 ---
 title: Bookmark.Name
 linktitle: Name
+articleTitle: Name
 second_title: Aspose.Words for .NET API Reference
 description: Bookmark Name property. Gets or sets the name of the bookmark in C#.
 type: docs
 weight: 60
 url: /net/aspose.words/bookmark/name/
 ---
-## Name property
+## Bookmark.Name property
 
 Gets or sets the name of the bookmark.
 
@@ -25,7 +26,7 @@ Shows how to insert a bookmark.
 
 ```csharp
 Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
+DocumentBuilder builder = new DocumentBuilder(doc);            
 
 // A valid bookmark has a name, a BookmarkStart, and a BookmarkEnd node.
 // Any whitespace in the names of bookmarks will be converted to underscores if we open the saved document with Microsoft Word. 

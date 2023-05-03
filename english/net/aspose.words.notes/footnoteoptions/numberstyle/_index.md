@@ -1,13 +1,14 @@
 ---
 title: FootnoteOptions.NumberStyle
 linktitle: NumberStyle
+articleTitle: NumberStyle
 second_title: Aspose.Words for .NET API Reference
 description: FootnoteOptions NumberStyle property. Specifies the number format for automatically numbered footnotes in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.notes/footnoteoptions/numberstyle/
 ---
-## NumberStyle property
+## FootnoteOptions.NumberStyle property
 
 Specifies the number format for automatically numbered footnotes.
 

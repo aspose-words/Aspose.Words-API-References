@@ -1,13 +1,14 @@
 ---
 title: ChartXValue.MultilevelValue
 linktitle: MultilevelValue
+articleTitle: MultilevelValue
 second_title: Aspose.Words for .NET API Reference
 description: ChartXValue MultilevelValue property. Gets the stored multilevel value in C#.
 type: docs
 weight: 80
 url: /net/aspose.words.drawing.charts/chartxvalue/multilevelvalue/
 ---
-## MultilevelValue property
+## ChartXValue.MultilevelValue property
 
 Gets the stored multilevel value.
 

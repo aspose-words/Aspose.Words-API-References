@@ -1,13 +1,14 @@
 ---
 title: SignOptions.ProviderId
 linktitle: ProviderId
+articleTitle: ProviderId
 second_title: Aspose.Words for .NET API Reference
 description: SignOptions ProviderId property. Specifies the class ID of the signature provider. Default value is Empty all zeroes Guid in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.digitalsignatures/signoptions/providerid/
 ---
-## ProviderId property
+## SignOptions.ProviderId property
 
 Specifies the class ID of the signature provider. Default value is **Empty (all zeroes) Guid**.
 

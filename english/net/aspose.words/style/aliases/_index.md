@@ -1,13 +1,14 @@
 ---
 title: Style.Aliases
 linktitle: Aliases
+articleTitle: Aliases
 second_title: Aspose.Words for .NET API Reference
 description: Style Aliases property. Gets all aliases of this style. If style has no aliases then empty array of string is returned in C#.
 type: docs
 weight: 10
 url: /net/aspose.words/style/aliases/
 ---
-## Aliases property
+## Style.Aliases property
 
 Gets all aliases of this style. If style has no aliases then empty array of string is returned.
 

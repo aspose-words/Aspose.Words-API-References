@@ -1,13 +1,14 @@
 ---
 title: Cluster.Codepoints
 linktitle: Codepoints
+articleTitle: Codepoints
 second_title: Aspose.Words for .NET API Reference
 description: Cluster Codepoints property. Gets codepoints of the cluster in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.shaping/cluster/codepoints/
 ---
-## Codepoints property
+## Cluster.Codepoints property
 
 Gets codepoints of the cluster.
 

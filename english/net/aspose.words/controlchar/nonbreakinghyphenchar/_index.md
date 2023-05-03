@@ -1,13 +1,14 @@
 ---
 title: ControlChar.NonBreakingHyphenChar
 linktitle: NonBreakingHyphenChar
+articleTitle: NonBreakingHyphenChar
 second_title: Aspose.Words for .NET API Reference
 description: ControlChar NonBreakingHyphenChar field. Nonbreaking Hyphen in Microsoft Word is char30 in C#.
 type: docs
 weight: 160
 url: /net/aspose.words/controlchar/nonbreakinghyphenchar/
 ---
-## NonBreakingHyphenChar field
+## ControlChar.NonBreakingHyphenChar field
 
 Nonbreaking Hyphen in Microsoft Word is (char)30.
 

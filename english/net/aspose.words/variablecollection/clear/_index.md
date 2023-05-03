@@ -1,13 +1,14 @@
 ---
 title: VariableCollection.Clear
 linktitle: Clear
+articleTitle: Clear
 second_title: Aspose.Words for .NET API Reference
 description: VariableCollection Clear method. Removes all elements from the collection in C#.
 type: docs
 weight: 40
 url: /net/aspose.words/variablecollection/clear/
 ---
-## Clear method
+## VariableCollection.Clear method
 
 Removes all elements from the collection.
 

@@ -1,13 +1,14 @@
 ---
 title: FieldOptions.FieldUpdatingProgressCallback
 linktitle: FieldUpdatingProgressCallback
+articleTitle: FieldUpdatingProgressCallback
 second_title: Aspose.Words for .NET API Reference
 description: FieldOptions FieldUpdatingProgressCallback property. Gets or sets IFieldUpdatingProgressCallback implementation in C#.
 type: docs
 weight: 120
 url: /net/aspose.words.fields/fieldoptions/fieldupdatingprogresscallback/
 ---
-## FieldUpdatingProgressCallback property
+## FieldOptions.FieldUpdatingProgressCallback property
 
 Gets or sets [`IFieldUpdatingProgressCallback`](../../ifieldupdatingprogresscallback/) implementation.
 

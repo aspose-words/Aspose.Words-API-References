@@ -1,6 +1,7 @@
 ---
 title: GroupShape
 linktitle: GroupShape
+articleTitle: GroupShape
 second_title: Aspose.Words for .NET API Reference
 description: GroupShape constructor. Creates a new group shape in C#.
 type: docs

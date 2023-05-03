@@ -1,13 +1,14 @@
 ---
 title: FieldListNum.HasListName
 linktitle: HasListName
+articleTitle: HasListName
 second_title: Aspose.Words for .NET API Reference
 description: FieldListNum HasListName property. Returns a value indicating whether the name of an abstract numbering definition is provided by the fields code in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldlistnum/haslistname/
 ---
-## HasListName property
+## FieldListNum.HasListName property
 
 Returns a value indicating whether the name of an abstract numbering definition is provided by the field's code.
 

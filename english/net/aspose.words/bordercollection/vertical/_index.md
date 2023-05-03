@@ -1,13 +1,14 @@
 ---
 title: BorderCollection.Vertical
 linktitle: Vertical
+articleTitle: Vertical
 second_title: Aspose.Words for .NET API Reference
 description: BorderCollection Vertical property. Gets the vertical border that is used between cells in C#.
 type: docs
 weight: 130
 url: /net/aspose.words/bordercollection/vertical/
 ---
-## Vertical property
+## BorderCollection.Vertical property
 
 Gets the vertical border that is used between cells.
 

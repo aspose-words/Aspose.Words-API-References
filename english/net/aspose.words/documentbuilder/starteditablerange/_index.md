@@ -1,13 +1,14 @@
 ---
 title: DocumentBuilder.StartEditableRange
 linktitle: StartEditableRange
+articleTitle: StartEditableRange
 second_title: Aspose.Words for .NET API Reference
 description: DocumentBuilder StartEditableRange method. Marks the current position in the document as an editable range start in C#.
 type: docs
 weight: 630
 url: /net/aspose.words/documentbuilder/starteditablerange/
 ---
-## StartEditableRange method
+## DocumentBuilder.StartEditableRange method
 
 Marks the current position in the document as an editable range start.
 

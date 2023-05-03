@@ -1,13 +1,14 @@
 ---
 title: ChartXValue.FromTimeSpan
 linktitle: FromTimeSpan
+articleTitle: FromTimeSpan
 second_title: Aspose.Words for .NET API Reference
 description: ChartXValue FromTimeSpan method. Creates a ChartXValue instance of the Time type in C#.
 type: docs
 weight: 50
 url: /net/aspose.words.drawing.charts/chartxvalue/fromtimespan/
 ---
-## FromTimeSpan method
+## ChartXValue.FromTimeSpan method
 
 Creates a [`ChartXValue`](../) instance of the Time type.
 

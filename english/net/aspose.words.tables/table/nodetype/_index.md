@@ -1,13 +1,14 @@
 ---
 title: Table.NodeType
 linktitle: NodeType
+articleTitle: NodeType
 second_title: Aspose.Words for .NET API Reference
 description: Table NodeType property. Returns Table in C#.
 type: docs
 weight: 210
 url: /net/aspose.words.tables/table/nodetype/
 ---
-## NodeType property
+## Table.NodeType property
 
 Returns Table.
 

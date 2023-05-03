@@ -1,13 +1,14 @@
 ---
 title: FieldStyleRef.SearchFromBottom
 linktitle: SearchFromBottom
+articleTitle: SearchFromBottom
 second_title: Aspose.Words for .NET API Reference
 description: FieldStyleRef SearchFromBottom property. Gets or sets whether to search from the bottom of the current page rather from the top in C#.
 type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldstyleref/searchfrombottom/
 ---
-## SearchFromBottom property
+## FieldStyleRef.SearchFromBottom property
 
 Gets or sets whether to search from the bottom of the current page, rather from the top.
 

@@ -1,13 +1,14 @@
 ---
 title: ThemeFonts.ComplexScript
 linktitle: ComplexScript
+articleTitle: ComplexScript
 second_title: Aspose.Words for .NET API Reference
 description: ThemeFonts ComplexScript property. Specifies font name for ComplexScript characters in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.themes/themefonts/complexscript/
 ---
-## ComplexScript property
+## ThemeFonts.ComplexScript property
 
 Specifies font name for ComplexScript characters.
 

@@ -1,13 +1,14 @@
 ---
 title: Font.Italic
 linktitle: Italic
+articleTitle: Italic
 second_title: Aspose.Words for .NET API Reference
 description: Font Italic property. True if the font is formatted as italic in C#.
 type: docs
 weight: 160
 url: /net/aspose.words/font/italic/
 ---
-## Italic property
+## Font.Italic property
 
 True if the font is formatted as italic.
 

@@ -1,13 +1,14 @@
 ---
 title: MailMerge.ExecuteADO
 linktitle: ExecuteADO
+articleTitle: ExecuteADO
 second_title: Aspose.Words for .NET API Reference
 description: MailMerge ExecuteADO method. Performs mail merge from an ADO Recordset object into the document in C#.
 type: docs
 weight: 190
 url: /net/aspose.words.mailmerging/mailmerge/executeado/
 ---
-## ExecuteADO method
+## MailMerge.ExecuteADO method
 
 Performs mail merge from an ADO Recordset object into the document.
 

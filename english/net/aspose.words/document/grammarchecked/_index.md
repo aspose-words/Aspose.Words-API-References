@@ -1,13 +1,14 @@
 ---
 title: Document.GrammarChecked
 linktitle: GrammarChecked
+articleTitle: GrammarChecked
 second_title: Aspose.Words for .NET API Reference
 description: Document GrammarChecked property. Returns true if the document has been checked for grammar in C#.
 type: docs
 weight: 180
 url: /net/aspose.words/document/grammarchecked/
 ---
-## GrammarChecked property
+## Document.GrammarChecked property
 
 Returns `true` if the document has been checked for grammar.
 

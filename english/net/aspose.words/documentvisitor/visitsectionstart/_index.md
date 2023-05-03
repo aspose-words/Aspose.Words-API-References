@@ -1,13 +1,14 @@
 ---
 title: DocumentVisitor.VisitSectionStart
 linktitle: VisitSectionStart
+articleTitle: VisitSectionStart
 second_title: Aspose.Words for .NET API Reference
 description: DocumentVisitor VisitSectionStart method. Called when enumeration of a section has started in C#.
 type: docs
 weight: 380
 url: /net/aspose.words/documentvisitor/visitsectionstart/
 ---
-## VisitSectionStart method
+## DocumentVisitor.VisitSectionStart method
 
 Called when enumeration of a section has started.
 

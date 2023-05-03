@@ -1,13 +1,14 @@
 ---
 title: Document.GlossaryDocument
 linktitle: GlossaryDocument
+articleTitle: GlossaryDocument
 second_title: Aspose.Words for .NET API Reference
 description: Document GlossaryDocument property. Gets or sets the glossary document within this document or template. A glossary document is a storage for AutoText AutoCorrect and Building Block entries defined in a document in C#.
 type: docs
 weight: 170
 url: /net/aspose.words/document/glossarydocument/
 ---
-## GlossaryDocument property
+## Document.GlossaryDocument property
 
 Gets or sets the glossary document within this document or template. A glossary document is a storage for AutoText, AutoCorrect and Building Block entries defined in a document.
 

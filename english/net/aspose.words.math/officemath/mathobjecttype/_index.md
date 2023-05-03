@@ -1,13 +1,14 @@
 ---
 title: OfficeMath.MathObjectType
 linktitle: MathObjectType
+articleTitle: MathObjectType
 second_title: Aspose.Words for .NET API Reference
 description: OfficeMath MathObjectType property. Gets type MathObjectType of this Office Math object in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.math/officemath/mathobjecttype/
 ---
-## MathObjectType property
+## OfficeMath.MathObjectType property
 
 Gets type `MathObjectType` of this Office Math object.
 

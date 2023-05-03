@@ -1,13 +1,14 @@
 ---
 title: LoadOptions.LoadFormat
 linktitle: LoadFormat
+articleTitle: LoadFormat
 second_title: Aspose.Words for .NET API Reference
 description: LoadOptions LoadFormat property. Specifies the format of the document to be loaded. Default is Auto in C#.
 type: docs
 weight: 90
 url: /net/aspose.words.loading/loadoptions/loadformat/
 ---
-## LoadFormat property
+## LoadOptions.LoadFormat property
 
 Specifies the format of the document to be loaded. Default is Auto.
 

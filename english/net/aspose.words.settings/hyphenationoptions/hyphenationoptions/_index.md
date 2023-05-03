@@ -1,6 +1,7 @@
 ---
 title: HyphenationOptions
 linktitle: HyphenationOptions
+articleTitle: HyphenationOptions
 second_title: Aspose.Words for .NET API Reference
 description: HyphenationOptions constructor. The default constructor in C#.
 type: docs

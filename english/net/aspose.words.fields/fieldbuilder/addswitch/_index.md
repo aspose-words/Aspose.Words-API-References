@@ -1,6 +1,7 @@
 ---
 title: FieldBuilder.AddSwitch
 linktitle: AddSwitch
+articleTitle: AddSwitch
 second_title: Aspose.Words for .NET API Reference
 description: FieldBuilder AddSwitch method. Adds a fields switch in C#.
 type: docs

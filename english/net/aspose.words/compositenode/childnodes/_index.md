@@ -1,13 +1,14 @@
 ---
 title: CompositeNode.ChildNodes
 linktitle: ChildNodes
+articleTitle: ChildNodes
 second_title: Aspose.Words for .NET API Reference
 description: CompositeNode ChildNodes property. Gets all immediate child nodes of this node in C#.
 type: docs
 weight: 10
 url: /net/aspose.words/compositenode/childnodes/
 ---
-## ChildNodes property
+## CompositeNode.ChildNodes property
 
 Gets all immediate child nodes of this node.
 

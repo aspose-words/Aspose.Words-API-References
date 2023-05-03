@@ -1,13 +1,14 @@
 ---
 title: PhoneticGuide.BaseText
 linktitle: BaseText
+articleTitle: BaseText
 second_title: Aspose.Words for .NET API Reference
 description: PhoneticGuide BaseText property. Gets base text of the phonetic guide in C#.
 type: docs
 weight: 10
 url: /net/aspose.words/phoneticguide/basetext/
 ---
-## BaseText property
+## PhoneticGuide.BaseText property
 
 Gets base text of the phonetic guide.
 

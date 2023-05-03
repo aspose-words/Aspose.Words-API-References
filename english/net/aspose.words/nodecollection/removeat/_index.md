@@ -1,13 +1,14 @@
 ---
 title: NodeCollection.RemoveAt
 linktitle: RemoveAt
+articleTitle: RemoveAt
 second_title: Aspose.Words for .NET API Reference
 description: NodeCollection RemoveAt method. Removes the node at the specified index from the collection and from the document in C#.
 type: docs
 weight: 100
 url: /net/aspose.words/nodecollection/removeat/
 ---
-## RemoveAt method
+## NodeCollection.RemoveAt method
 
 Removes the node at the specified index from the collection and from the document.
 

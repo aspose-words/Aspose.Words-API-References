@@ -1,13 +1,14 @@
 ---
 title: DownsampleOptions.DownsampleImages
 linktitle: DownsampleImages
+articleTitle: DownsampleImages
 second_title: Aspose.Words for .NET API Reference
 description: DownsampleOptions DownsampleImages property. Specifies whether images should be downsampled in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.saving/downsampleoptions/downsampleimages/
 ---
-## DownsampleImages property
+## DownsampleOptions.DownsampleImages property
 
 Specifies whether images should be downsampled.
 

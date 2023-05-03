@@ -1,13 +1,14 @@
 ---
 title: Document.ProtectionType
 linktitle: ProtectionType
+articleTitle: ProtectionType
 second_title: Aspose.Words for .NET API Reference
 description: Document ProtectionType property. Gets the currently active document protection type in C#.
 type: docs
 weight: 330
 url: /net/aspose.words/document/protectiontype/
 ---
-## ProtectionType property
+## Document.ProtectionType property
 
 Gets the currently active document protection type.
 

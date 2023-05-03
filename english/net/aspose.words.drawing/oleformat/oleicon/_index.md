@@ -1,13 +1,14 @@
 ---
 title: OleFormat.OleIcon
 linktitle: OleIcon
+articleTitle: OleIcon
 second_title: Aspose.Words for .NET API Reference
 description: OleFormat OleIcon property. Gets the draw aspect of the OLE object. When true the OLE object is displayed as an icon. When false the OLE object is displayed as content in C#.
 type: docs
 weight: 70
 url: /net/aspose.words.drawing/oleformat/oleicon/
 ---
-## OleIcon property
+## OleFormat.OleIcon property
 
 Gets the draw aspect of the OLE object. When `true`, the OLE object is displayed as an icon. When `false`, the OLE object is displayed as content.
 

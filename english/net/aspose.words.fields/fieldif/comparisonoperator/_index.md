@@ -1,13 +1,14 @@
 ---
 title: FieldIf.ComparisonOperator
 linktitle: ComparisonOperator
+articleTitle: ComparisonOperator
 second_title: Aspose.Words for .NET API Reference
 description: FieldIf ComparisonOperator property. Gets or sets the comparison operator in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldif/comparisonoperator/
 ---
-## ComparisonOperator property
+## FieldIf.ComparisonOperator property
 
 Gets or sets the comparison operator.
 

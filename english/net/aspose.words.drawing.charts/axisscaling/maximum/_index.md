@@ -1,13 +1,14 @@
 ---
 title: AxisScaling.Maximum
 linktitle: Maximum
+articleTitle: Maximum
 second_title: Aspose.Words for .NET API Reference
 description: AxisScaling Maximum property. Gets or sets the maximum value of the axis in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/axisscaling/maximum/
 ---
-## Maximum property
+## AxisScaling.Maximum property
 
 Gets or sets the maximum value of the axis.
 

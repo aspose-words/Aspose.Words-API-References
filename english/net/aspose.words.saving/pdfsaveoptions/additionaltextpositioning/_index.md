@@ -1,13 +1,14 @@
 ---
 title: PdfSaveOptions.AdditionalTextPositioning
 linktitle: AdditionalTextPositioning
+articleTitle: AdditionalTextPositioning
 second_title: Aspose.Words for .NET API Reference
 description: PdfSaveOptions AdditionalTextPositioning property. A flag specifying whether to write additional text positioning operators or not in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.saving/pdfsaveoptions/additionaltextpositioning/
 ---
-## AdditionalTextPositioning property
+## PdfSaveOptions.AdditionalTextPositioning property
 
 A flag specifying whether to write additional text positioning operators or not.
 

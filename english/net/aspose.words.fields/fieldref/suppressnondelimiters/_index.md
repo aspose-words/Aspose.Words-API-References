@@ -1,13 +1,14 @@
 ---
 title: FieldRef.SuppressNonDelimiters
 linktitle: SuppressNonDelimiters
+articleTitle: SuppressNonDelimiters
 second_title: Aspose.Words for .NET API Reference
 description: FieldRef SuppressNonDelimiters property. Gets or sets whether to suppress nondelimiter characters in C#.
 type: docs
 weight: 100
 url: /net/aspose.words.fields/fieldref/suppressnondelimiters/
 ---
-## SuppressNonDelimiters property
+## FieldRef.SuppressNonDelimiters property
 
 Gets or sets whether to suppress non-delimiter characters.
 

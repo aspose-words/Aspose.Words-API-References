@@ -1,13 +1,14 @@
 ---
 title: FieldSeparator.NodeType
 linktitle: NodeType
+articleTitle: NodeType
 second_title: Aspose.Words for .NET API Reference
 description: FieldSeparator NodeType property. Returns FieldSeparator in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.fields/fieldseparator/nodetype/
 ---
-## NodeType property
+## FieldSeparator.NodeType property
 
 Returns FieldSeparator.
 

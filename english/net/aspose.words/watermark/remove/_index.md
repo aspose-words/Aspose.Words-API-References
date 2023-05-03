@@ -1,13 +1,14 @@
 ---
 title: Watermark.Remove
 linktitle: Remove
+articleTitle: Remove
 second_title: Aspose.Words for .NET API Reference
 description: Watermark Remove method. Removes the watermark in C#.
 type: docs
 weight: 20
 url: /net/aspose.words/watermark/remove/
 ---
-## Remove method
+## Watermark.Remove method
 
 Removes the watermark.
 

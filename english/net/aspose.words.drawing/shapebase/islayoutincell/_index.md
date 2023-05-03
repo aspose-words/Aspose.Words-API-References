@@ -1,13 +1,14 @@
 ---
 title: ShapeBase.IsLayoutInCell
 linktitle: IsLayoutInCell
+articleTitle: IsLayoutInCell
 second_title: Aspose.Words for .NET API Reference
 description: ShapeBase IsLayoutInCell property. Gets or sets a flag indicating whether the shape is displayed inside a table or outside of it in C#.
 type: docs
 weight: 310
 url: /net/aspose.words.drawing/shapebase/islayoutincell/
 ---
-## IsLayoutInCell property
+## ShapeBase.IsLayoutInCell property
 
 Gets or sets a flag indicating whether the shape is displayed inside a table or outside of it.
 

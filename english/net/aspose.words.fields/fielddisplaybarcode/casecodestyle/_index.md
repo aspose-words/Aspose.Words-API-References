@@ -1,13 +1,14 @@
 ---
 title: FieldDisplayBarcode.CaseCodeStyle
 linktitle: CaseCodeStyle
+articleTitle: CaseCodeStyle
 second_title: Aspose.Words for .NET API Reference
 description: FieldDisplayBarcode CaseCodeStyle property. Gets or sets the style of a Case Code for barcode type ITF14. The valid values are STDEXTADD in C#.
 type: docs
 weight: 60
 url: /net/aspose.words.fields/fielddisplaybarcode/casecodestyle/
 ---
-## CaseCodeStyle property
+## FieldDisplayBarcode.CaseCodeStyle property
 
 Gets or sets the style of a Case Code for barcode type ITF14. The valid values are [STD&#x7C;EXT&#x7C;ADD]
 

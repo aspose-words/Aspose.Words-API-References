@@ -1,13 +1,14 @@
 ---
 title: ThemeColors.Accent2
 linktitle: Accent2
+articleTitle: Accent2
 second_title: Aspose.Words for .NET API Reference
 description: ThemeColors Accent2 property. Specifies color Accent 2 in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.themes/themecolors/accent2/
 ---
-## Accent2 property
+## ThemeColors.Accent2 property
 
 Specifies color Accent 2.
 
