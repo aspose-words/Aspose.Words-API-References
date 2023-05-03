@@ -1,6 +1,7 @@
 ---
 title: CleanupOptions.UnusedBuiltinStyles
 linktitle: UnusedBuiltinStyles
+articleTitle: UnusedBuiltinStyles
 second_title: Aspose.Words for .NET API Reference
 description: CleanupOptions UnusedBuiltinStyles property. Specifies that unused BuiltIn styles should be removed from document in C#.
 type: docs

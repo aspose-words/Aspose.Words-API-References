@@ -1,6 +1,7 @@
 ---
 title: FindReplaceOptions.IgnoreFields
 linktitle: IgnoreFields
+articleTitle: IgnoreFields
 second_title: Aspose.Words for .NET API Reference
 description: FindReplaceOptions IgnoreFields property. Gets or sets a boolean value indicating either to ignore text inside fields. The default value is false in C#.
 type: docs

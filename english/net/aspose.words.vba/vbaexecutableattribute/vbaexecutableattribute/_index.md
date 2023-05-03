@@ -1,6 +1,7 @@
 ---
 title: VbaExecutableAttribute
 linktitle: VbaExecutableAttribute
+articleTitle: VbaExecutableAttribute
 second_title: Aspose.Words for .NET API Reference
 description: VbaExecutableAttribute constructor. The default constructor in C#.
 type: docs

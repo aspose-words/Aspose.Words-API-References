@@ -1,6 +1,7 @@
 ---
 title: HtmlFixedSaveOptions
 linktitle: HtmlFixedSaveOptions
+articleTitle: HtmlFixedSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: HtmlFixedSaveOptions constructor. The default constructor in C#.
 type: docs

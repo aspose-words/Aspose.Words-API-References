@@ -1,6 +1,7 @@
 ---
 title: BorderCollection.Left
 linktitle: Left
+articleTitle: Left
 second_title: Aspose.Words for .NET API Reference
 description: BorderCollection Left property. Gets the left border in C#.
 type: docs

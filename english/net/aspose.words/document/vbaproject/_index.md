@@ -1,6 +1,7 @@
 ---
 title: Document.VbaProject
 linktitle: VbaProject
+articleTitle: VbaProject
 second_title: Aspose.Words for .NET API Reference
 description: Document VbaProject property. Gets or sets a VbaProject in C#.
 type: docs

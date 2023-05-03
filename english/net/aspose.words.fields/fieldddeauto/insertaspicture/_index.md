@@ -1,6 +1,7 @@
 ---
 title: FieldDdeAuto.InsertAsPicture
 linktitle: InsertAsPicture
+articleTitle: InsertAsPicture
 second_title: Aspose.Words for .NET API Reference
 description: FieldDdeAuto InsertAsPicture property. Gets or sets whether to insert the linked object as a picture in C#.
 type: docs

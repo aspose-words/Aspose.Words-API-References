@@ -1,6 +1,7 @@
 ---
 title: ParagraphFormat.SpaceBefore
 linktitle: SpaceBefore
+articleTitle: SpaceBefore
 second_title: Aspose.Words for .NET API Reference
 description: ParagraphFormat SpaceBefore property. Gets or sets the amount of spacing in points before the paragraph in C#.
 type: docs

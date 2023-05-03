@@ -1,6 +1,7 @@
 ---
 title: FieldTA Class
 linktitle: FieldTA
+articleTitle: FieldTA
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FieldTA class. Implements the TA field in C#.
 type: docs

@@ -1,6 +1,7 @@
 ---
 title: ListFormat.ListOutdent
 linktitle: ListOutdent
+articleTitle: ListOutdent
 second_title: Aspose.Words for .NET API Reference
 description: ListFormat ListOutdent method. Decreases the list level of the current paragraph by one level in C#.
 type: docs

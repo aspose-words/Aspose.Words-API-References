@@ -1,6 +1,7 @@
 ---
 title: MailMergeRegionInfo.Regions
 linktitle: Regions
+articleTitle: Regions
 second_title: Aspose.Words for .NET API Reference
 description: MailMergeRegionInfo Regions property. Returns a list of child regions in C#.
 type: docs

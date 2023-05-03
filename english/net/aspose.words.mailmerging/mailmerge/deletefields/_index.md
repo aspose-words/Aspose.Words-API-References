@@ -1,6 +1,7 @@
 ---
 title: MailMerge.DeleteFields
 linktitle: DeleteFields
+articleTitle: DeleteFields
 second_title: Aspose.Words for .NET API Reference
 description: MailMerge DeleteFields method. Removes mail merge related fields from the document in C#.
 type: docs

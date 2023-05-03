@@ -1,6 +1,7 @@
 ---
 title: TaskPane.DockState
 linktitle: DockState
+articleTitle: DockState
 second_title: Aspose.Words for .NET API Reference
 description: TaskPane DockState property. Specifies the lastdocked location of this task pane object in C#.
 type: docs

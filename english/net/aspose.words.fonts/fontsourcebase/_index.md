@@ -1,6 +1,7 @@
 ---
 title: FontSourceBase Class
 linktitle: FontSourceBase
+articleTitle: FontSourceBase
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fonts.FontSourceBase class. This is an abstract base class for the classes that allow the user to specify various font sources in C#.
 type: docs

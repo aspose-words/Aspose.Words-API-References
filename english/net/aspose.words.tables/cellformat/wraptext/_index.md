@@ -1,6 +1,7 @@
 ---
 title: CellFormat.WrapText
 linktitle: WrapText
+articleTitle: WrapText
 second_title: Aspose.Words for .NET API Reference
 description: CellFormat WrapText property. If true wrap text for the cell in C#.
 type: docs

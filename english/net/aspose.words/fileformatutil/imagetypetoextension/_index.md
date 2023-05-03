@@ -1,6 +1,7 @@
 ---
 title: FileFormatUtil.ImageTypeToExtension
 linktitle: ImageTypeToExtension
+articleTitle: ImageTypeToExtension
 second_title: Aspose.Words for .NET API Reference
 description: FileFormatUtil ImageTypeToExtension method. Converts an Aspose.Words image type enumerated value into a file extension. The returned extension is a lowercase string with a leading dot in C#.
 type: docs

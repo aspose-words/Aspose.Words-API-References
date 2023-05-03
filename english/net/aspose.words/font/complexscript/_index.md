@@ -1,6 +1,7 @@
 ---
 title: Font.ComplexScript
 linktitle: ComplexScript
+articleTitle: ComplexScript
 second_title: Aspose.Words for .NET API Reference
 description: Font ComplexScript property. Specifies whether the contents of this run shall be treated as complex script text regardless of their Unicode character values when determining the formatting for this run in C#.
 type: docs

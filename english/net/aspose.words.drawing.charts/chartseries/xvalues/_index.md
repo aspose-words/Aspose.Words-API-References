@@ -1,6 +1,7 @@
 ---
 title: ChartSeries.XValues
 linktitle: XValues
+articleTitle: XValues
 second_title: Aspose.Words for .NET API Reference
 description: ChartSeries XValues property. Gets a collection of X values for this chart series in C#.
 type: docs

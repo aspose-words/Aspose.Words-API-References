@@ -1,6 +1,7 @@
 ---
 title: WordML2003SaveOptions.SaveFormat
 linktitle: SaveFormat
+articleTitle: SaveFormat
 second_title: Aspose.Words for .NET API Reference
 description: WordML2003SaveOptions SaveFormat property. Specifies the format in which the document will be saved if this save options object is used. Can only be WordML in C#.
 type: docs

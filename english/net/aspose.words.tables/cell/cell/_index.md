@@ -1,6 +1,7 @@
 ---
 title: Cell
 linktitle: Cell
+articleTitle: Cell
 second_title: Aspose.Words for .NET API Reference
 description: Cell constructor. Initializes a new instance of the Cell class in C#.
 type: docs

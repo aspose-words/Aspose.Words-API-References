@@ -1,6 +1,7 @@
 ---
 title: FieldToa
 linktitle: FieldToa
+articleTitle: FieldToa
 second_title: Aspose.Words for .NET API Reference
 description: FieldToa constructor. The default constructor in C#.
 type: docs

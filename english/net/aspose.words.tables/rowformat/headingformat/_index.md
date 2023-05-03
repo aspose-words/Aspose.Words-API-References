@@ -1,6 +1,7 @@
 ---
 title: RowFormat.HeadingFormat
 linktitle: HeadingFormat
+articleTitle: HeadingFormat
 second_title: Aspose.Words for .NET API Reference
 description: RowFormat HeadingFormat property. True if the row is repeated as a table heading on every page when the table spans more than one page in C#.
 type: docs

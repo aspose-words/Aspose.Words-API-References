@@ -1,6 +1,7 @@
 ---
 title: Document.Variables
 linktitle: Variables
+articleTitle: Variables
 second_title: Aspose.Words for .NET API Reference
 description: Document Variables property. Returns the collection of variables added to a document or template in C#.
 type: docs

@@ -1,6 +1,7 @@
 ---
 title: MetafileRenderingOptions
 linktitle: MetafileRenderingOptions
+articleTitle: MetafileRenderingOptions
 second_title: Aspose.Words for .NET API Reference
 description: MetafileRenderingOptions constructor. The default constructor in C#.
 type: docs

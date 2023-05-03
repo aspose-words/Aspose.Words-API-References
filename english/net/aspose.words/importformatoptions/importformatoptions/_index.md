@@ -1,6 +1,7 @@
 ---
 title: ImportFormatOptions
 linktitle: ImportFormatOptions
+articleTitle: ImportFormatOptions
 second_title: Aspose.Words for .NET API Reference
 description: ImportFormatOptions constructor. The default constructor in C#.
 type: docs

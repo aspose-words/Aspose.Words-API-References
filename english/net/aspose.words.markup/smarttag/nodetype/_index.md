@@ -1,6 +1,7 @@
 ---
 title: SmartTag.NodeType
 linktitle: NodeType
+articleTitle: NodeType
 second_title: Aspose.Words for .NET API Reference
 description: SmartTag NodeType property. Returns SmartTag in C#.
 type: docs

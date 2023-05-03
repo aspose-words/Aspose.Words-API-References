@@ -1,6 +1,7 @@
 ---
 title: PdfSaveOptions.DisplayDocTitle
 linktitle: DisplayDocTitle
+articleTitle: DisplayDocTitle
 second_title: Aspose.Words for .NET API Reference
 description: PdfSaveOptions DisplayDocTitle property. A flag specifying whether the windows title bar should display the document title taken from the Title entry of the document information dictionary in C#.
 type: docs

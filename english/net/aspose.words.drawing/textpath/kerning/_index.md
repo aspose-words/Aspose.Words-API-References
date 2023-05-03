@@ -1,6 +1,7 @@
 ---
 title: TextPath.Kerning
 linktitle: Kerning
+articleTitle: Kerning
 second_title: Aspose.Words for .NET API Reference
 description: TextPath Kerning property. Determines whether kerning is turned on in C#.
 type: docs

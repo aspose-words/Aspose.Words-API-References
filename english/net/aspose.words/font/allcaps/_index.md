@@ -1,6 +1,7 @@
 ---
 title: Font.AllCaps
 linktitle: AllCaps
+articleTitle: AllCaps
 second_title: Aspose.Words for .NET API Reference
 description: Font AllCaps property. True if the font is formatted as all capital letters in C#.
 type: docs

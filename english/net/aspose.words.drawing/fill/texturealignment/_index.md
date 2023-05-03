@@ -1,6 +1,7 @@
 ---
 title: Fill.TextureAlignment
 linktitle: TextureAlignment
+articleTitle: TextureAlignment
 second_title: Aspose.Words for .NET API Reference
 description: Fill TextureAlignment property. Gets or sets the alignment for tile texture fill in C#.
 type: docs

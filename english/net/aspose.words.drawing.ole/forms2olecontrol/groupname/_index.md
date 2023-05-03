@@ -1,6 +1,7 @@
 ---
 title: Forms2OleControl.GroupName
 linktitle: GroupName
+articleTitle: GroupName
 second_title: Aspose.Words for .NET API Reference
 description: Forms2OleControl GroupName property. Gets or sets a string that specifies a group of mutually exclusive controls. The default value is an empty string in C#.
 type: docs

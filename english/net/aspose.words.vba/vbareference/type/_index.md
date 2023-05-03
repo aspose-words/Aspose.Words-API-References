@@ -1,6 +1,7 @@
 ---
 title: VbaReference.Type
 linktitle: Type
+articleTitle: Type
 second_title: Aspose.Words for .NET API Reference
 description: VbaReference Type property. Gets VbaReferenceType object that indicates the type of reference that a VbaReference object represents in C#.
 type: docs

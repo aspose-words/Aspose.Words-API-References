@@ -1,6 +1,7 @@
 ---
 title: TableStyle.Bidi
 linktitle: Bidi
+articleTitle: Bidi
 second_title: Aspose.Words for .NET API Reference
 description: TableStyle Bidi property. Gets or sets whether this is a style for a righttoleft table in C#.
 type: docs

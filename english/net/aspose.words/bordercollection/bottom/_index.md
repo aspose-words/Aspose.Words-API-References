@@ -1,6 +1,7 @@
 ---
 title: BorderCollection.Bottom
 linktitle: Bottom
+articleTitle: Bottom
 second_title: Aspose.Words for .NET API Reference
 description: BorderCollection Bottom property. Gets the bottom border in C#.
 type: docs

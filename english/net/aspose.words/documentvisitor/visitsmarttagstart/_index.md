@@ -1,6 +1,7 @@
 ---
 title: DocumentVisitor.VisitSmartTagStart
 linktitle: VisitSmartTagStart
+articleTitle: VisitSmartTagStart
 second_title: Aspose.Words for .NET API Reference
 description: DocumentVisitor VisitSmartTagStart method. Called when enumeration of a smart tag has started in C#.
 type: docs

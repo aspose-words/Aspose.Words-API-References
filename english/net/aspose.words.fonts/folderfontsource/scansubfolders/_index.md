@@ -1,6 +1,7 @@
 ---
 title: FolderFontSource.ScanSubfolders
 linktitle: ScanSubfolders
+articleTitle: ScanSubfolders
 second_title: Aspose.Words for .NET API Reference
 description: FolderFontSource ScanSubfolders property. Determines whether or not to scan the subfolders in C#.
 type: docs

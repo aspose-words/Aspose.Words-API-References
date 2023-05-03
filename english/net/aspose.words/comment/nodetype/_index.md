@@ -1,6 +1,7 @@
 ---
 title: Comment.NodeType
 linktitle: NodeType
+articleTitle: NodeType
 second_title: Aspose.Words for .NET API Reference
 description: Comment NodeType property. Returns Comment in C#.
 type: docs

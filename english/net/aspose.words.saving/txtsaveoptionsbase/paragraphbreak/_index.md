@@ -1,6 +1,7 @@
 ---
 title: TxtSaveOptionsBase.ParagraphBreak
 linktitle: ParagraphBreak
+articleTitle: ParagraphBreak
 second_title: Aspose.Words for .NET API Reference
 description: TxtSaveOptionsBase ParagraphBreak property. Specifies the string to use as a paragraph break when exporting in text formats in C#.
 type: docs

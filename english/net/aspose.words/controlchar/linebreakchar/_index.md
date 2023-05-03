@@ -1,6 +1,7 @@
 ---
 title: ControlChar.LineBreakChar
 linktitle: LineBreakChar
+articleTitle: LineBreakChar
 second_title: Aspose.Words for .NET API Reference
 description: ControlChar LineBreakChar field. Line break character char11 or v in C#.
 type: docs

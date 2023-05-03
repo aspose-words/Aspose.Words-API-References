@@ -1,6 +1,7 @@
 ---
 title: StyleCollection.Add
 linktitle: Add
+articleTitle: Add
 second_title: Aspose.Words for .NET API Reference
 description: StyleCollection Add method. Creates a new user defined style and adds it the collection in C#.
 type: docs

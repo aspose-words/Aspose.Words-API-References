@@ -1,6 +1,7 @@
 ---
 title: LayoutEnumerator.Item
 linktitle: Item
+articleTitle: Item
 second_title: Aspose.Words for .NET API Reference
 description: LayoutEnumerator Item property. Gets a named property of the entity in C#.
 type: docs

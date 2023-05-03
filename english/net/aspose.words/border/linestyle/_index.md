@@ -1,6 +1,7 @@
 ---
 title: Border.LineStyle
 linktitle: LineStyle
+articleTitle: LineStyle
 second_title: Aspose.Words for .NET API Reference
 description: Border LineStyle property. Gets or sets the border style in C#.
 type: docs

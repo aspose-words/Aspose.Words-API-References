@@ -1,6 +1,7 @@
 ---
 title: ChartXValueCollection Class
 linktitle: ChartXValueCollection
+articleTitle: ChartXValueCollection
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Drawing.Charts.ChartXValueCollection class. Represents a collection of X values for a chart series in C#.
 type: docs

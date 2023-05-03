@@ -1,6 +1,7 @@
 ---
 title: Fill.GradientAngle
 linktitle: GradientAngle
+articleTitle: GradientAngle
 second_title: Aspose.Words for .NET API Reference
 description: Fill GradientAngle property. Gets or sets the angle of the gradient fill in C#.
 type: docs

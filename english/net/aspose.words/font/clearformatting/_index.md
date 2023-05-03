@@ -1,6 +1,7 @@
 ---
 title: Font.ClearFormatting
 linktitle: ClearFormatting
+articleTitle: ClearFormatting
 second_title: Aspose.Words for .NET API Reference
 description: Font ClearFormatting method. Resets to default font formatting in C#.
 type: docs

@@ -1,6 +1,7 @@
 ---
 title: SdtListItemCollection.RemoveAt
 linktitle: RemoveAt
+articleTitle: RemoveAt
 second_title: Aspose.Words for .NET API Reference
 description: SdtListItemCollection RemoveAt method. Removes a list item at the specified index in C#.
 type: docs

@@ -1,6 +1,7 @@
 ---
 title: RowFormat.Borders
 linktitle: Borders
+articleTitle: Borders
 second_title: Aspose.Words for .NET API Reference
 description: RowFormat Borders property. Gets the collection of default cell borders for the row in C#.
 type: docs

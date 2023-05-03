@@ -1,6 +1,7 @@
 ---
 title: Paragraph.IsMoveFromRevision
 linktitle: IsMoveFromRevision
+articleTitle: IsMoveFromRevision
 second_title: Aspose.Words for .NET API Reference
 description: Paragraph IsMoveFromRevision property. Returns true if this object was moved deleted in Microsoft Word while change tracking was enabled in C#.
 type: docs

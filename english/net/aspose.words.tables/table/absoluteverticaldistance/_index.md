@@ -1,6 +1,7 @@
 ---
 title: Table.AbsoluteVerticalDistance
 linktitle: AbsoluteVerticalDistance
+articleTitle: AbsoluteVerticalDistance
 second_title: Aspose.Words for .NET API Reference
 description: Table AbsoluteVerticalDistance property. Gets or sets absolute vertical floating table position specified by the table properties in points. Default value is 0 in C#.
 type: docs

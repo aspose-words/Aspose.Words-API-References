@@ -1,6 +1,7 @@
 ---
 title: FieldIncludeText.TextConverter
 linktitle: TextConverter
+articleTitle: TextConverter
 second_title: Aspose.Words for .NET API Reference
 description: FieldIncludeText TextConverter property. Gets or sets the name of the text converter for the format of the included file in C#.
 type: docs

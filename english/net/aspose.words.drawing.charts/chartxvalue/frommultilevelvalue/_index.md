@@ -1,6 +1,7 @@
 ---
 title: ChartXValue.FromMultilevelValue
 linktitle: FromMultilevelValue
+articleTitle: FromMultilevelValue
 second_title: Aspose.Words for .NET API Reference
 description: ChartXValue FromMultilevelValue method. Creates a ChartXValue instance of the Multilevel type in C#.
 type: docs

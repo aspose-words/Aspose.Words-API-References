@@ -1,6 +1,7 @@
 ---
 title: ImageFieldMergingArgs.Image
 linktitle: Image
+articleTitle: Image
 second_title: Aspose.Words for .NET API Reference
 description: ImageFieldMergingArgs Image property. Specifies the image that the mail merge engine must insert into the document in C#.
 type: docs

@@ -1,6 +1,7 @@
 ---
 title: GeneralFormatCollection.Remove
 linktitle: Remove
+articleTitle: Remove
 second_title: Aspose.Words for .NET API Reference
 description: GeneralFormatCollection Remove method. Removes all occurrences of the specified general format from the collection in C#.
 type: docs

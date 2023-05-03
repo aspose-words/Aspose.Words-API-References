@@ -1,6 +1,7 @@
 ---
 title: ChartSeries.HasDataLabels
 linktitle: HasDataLabels
+articleTitle: HasDataLabels
 second_title: Aspose.Words for .NET API Reference
 description: ChartSeries HasDataLabels property. Gets or sets a flag indicating whether data labels are displayed for the series in C#.
 type: docs

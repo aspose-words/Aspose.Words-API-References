@@ -1,6 +1,7 @@
 ---
 title: Shape.LastParagraph
 linktitle: LastParagraph
+articleTitle: LastParagraph
 second_title: Aspose.Words for .NET API Reference
 description: Shape LastParagraph property. Gets the last paragraph in the shape in C#.
 type: docs

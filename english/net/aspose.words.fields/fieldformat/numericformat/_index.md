@@ -1,6 +1,7 @@
 ---
 title: FieldFormat.NumericFormat
 linktitle: NumericFormat
+articleTitle: NumericFormat
 second_title: Aspose.Words for .NET API Reference
 description: FieldFormat NumericFormat property. Gets or sets a formatting that is applied to a numeric field result. Corresponds to the  switch in C#.
 type: docs

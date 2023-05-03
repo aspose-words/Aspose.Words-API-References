@@ -1,6 +1,7 @@
 ---
 title: FontSavingArgs.IsSubsettingNeeded
 linktitle: IsSubsettingNeeded
+articleTitle: IsSubsettingNeeded
 second_title: Aspose.Words for .NET API Reference
 description: FontSavingArgs IsSubsettingNeeded property. Allows to specify whether the current font will be subsetted before exporting as a font resource in C#.
 type: docs

@@ -1,6 +1,7 @@
 ---
 title: BuildVersionInfo.Version
 linktitle: Version
+articleTitle: Version
 second_title: Aspose.Words for .NET API Reference
 description: BuildVersionInfo Version property. Gets the product version in C#.
 type: docs

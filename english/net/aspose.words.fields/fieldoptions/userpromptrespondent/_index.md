@@ -1,6 +1,7 @@
 ---
 title: FieldOptions.UserPromptRespondent
 linktitle: UserPromptRespondent
+articleTitle: UserPromptRespondent
 second_title: Aspose.Words for .NET API Reference
 description: FieldOptions UserPromptRespondent property. Gets or sets the respondent to user prompts during field update in C#.
 type: docs

@@ -1,6 +1,7 @@
 ---
 title: Font.Fill
 linktitle: Fill
+articleTitle: Fill
 second_title: Aspose.Words for .NET API Reference
 description: Font Fill property. Gets fill formatting for the Font in C#.
 type: docs

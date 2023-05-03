@@ -1,6 +1,7 @@
 ---
 title: Node.NodeTypeToString
 linktitle: NodeTypeToString
+articleTitle: NodeTypeToString
 second_title: Aspose.Words for .NET API Reference
 description: Node NodeTypeToString method. A utility method that converts a node type enum value into a user friendly string in C#.
 type: docs

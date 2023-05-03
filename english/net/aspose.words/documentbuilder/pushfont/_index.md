@@ -1,6 +1,7 @@
 ---
 title: DocumentBuilder.PushFont
 linktitle: PushFont
+articleTitle: PushFont
 second_title: Aspose.Words for .NET API Reference
 description: DocumentBuilder PushFont method. Saves current character formatting onto the stack in C#.
 type: docs

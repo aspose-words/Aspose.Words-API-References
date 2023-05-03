@@ -1,6 +1,7 @@
 ---
 title: Stroke Class
 linktitle: Stroke
+articleTitle: Stroke
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Drawing.Stroke class. Defines a stroke for a shape in C#.
 type: docs

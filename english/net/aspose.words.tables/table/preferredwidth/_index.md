@@ -1,6 +1,7 @@
 ---
 title: Table.PreferredWidth
 linktitle: PreferredWidth
+articleTitle: PreferredWidth
 second_title: Aspose.Words for .NET API Reference
 description: Table PreferredWidth property. Gets or sets the table preferred width in C#.
 type: docs

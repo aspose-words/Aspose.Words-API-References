@@ -1,6 +1,7 @@
 ---
 title: ChartXValue.FromDateTime
 linktitle: FromDateTime
+articleTitle: FromDateTime
 second_title: Aspose.Words for .NET API Reference
 description: ChartXValue FromDateTime method. Creates a ChartXValue instance of the DateTime type in C#.
 type: docs

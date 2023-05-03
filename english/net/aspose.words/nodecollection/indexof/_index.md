@@ -1,6 +1,7 @@
 ---
 title: NodeCollection.IndexOf
 linktitle: IndexOf
+articleTitle: IndexOf
 second_title: Aspose.Words for .NET API Reference
 description: NodeCollection IndexOf method. Returns the zerobased index of the specified node in C#.
 type: docs

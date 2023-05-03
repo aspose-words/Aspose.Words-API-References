@@ -1,6 +1,7 @@
 ---
 title: ChartXValue.GetHashCode
 linktitle: GetHashCode
+articleTitle: GetHashCode
 second_title: Aspose.Words for .NET API Reference
 description: ChartXValue GetHashCode method. Gets a hash code for the current X value object in C#.
 type: docs

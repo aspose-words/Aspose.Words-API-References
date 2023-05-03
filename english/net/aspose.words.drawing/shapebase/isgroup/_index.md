@@ -1,6 +1,7 @@
 ---
 title: ShapeBase.IsGroup
 linktitle: IsGroup
+articleTitle: IsGroup
 second_title: Aspose.Words for .NET API Reference
 description: ShapeBase IsGroup property. Returns true if this is a group shape in C#.
 type: docs

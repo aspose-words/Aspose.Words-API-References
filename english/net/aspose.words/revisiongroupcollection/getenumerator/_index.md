@@ -1,6 +1,7 @@
 ---
 title: RevisionGroupCollection.GetEnumerator
 linktitle: GetEnumerator
+articleTitle: GetEnumerator
 second_title: Aspose.Words for .NET API Reference
 description: RevisionGroupCollection GetEnumerator method. Returns an enumerator object in C#.
 type: docs

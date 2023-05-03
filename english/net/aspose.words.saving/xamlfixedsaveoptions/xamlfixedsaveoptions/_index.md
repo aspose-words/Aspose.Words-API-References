@@ -1,6 +1,7 @@
 ---
 title: XamlFixedSaveOptions
 linktitle: XamlFixedSaveOptions
+articleTitle: XamlFixedSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: XamlFixedSaveOptions constructor. The default constructor in C#.
 type: docs

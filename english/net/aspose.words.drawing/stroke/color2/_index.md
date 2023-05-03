@@ -1,6 +1,7 @@
 ---
 title: Stroke.Color2
 linktitle: Color2
+articleTitle: Color2
 second_title: Aspose.Words for .NET API Reference
 description: Stroke Color2 property. Defines a second color for a stroke in C#.
 type: docs

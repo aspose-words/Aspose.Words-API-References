@@ -1,6 +1,7 @@
 ---
 title: Cell.FirstParagraph
 linktitle: FirstParagraph
+articleTitle: FirstParagraph
 second_title: Aspose.Words for .NET API Reference
 description: Cell FirstParagraph property. Gets the first paragraph among the immediate children in C#.
 type: docs

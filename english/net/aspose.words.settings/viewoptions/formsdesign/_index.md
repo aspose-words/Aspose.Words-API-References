@@ -1,6 +1,7 @@
 ---
 title: ViewOptions.FormsDesign
 linktitle: FormsDesign
+articleTitle: FormsDesign
 second_title: Aspose.Words for .NET API Reference
 description: ViewOptions FormsDesign property. Specifies whether the document is in forms design mode in C#.
 type: docs

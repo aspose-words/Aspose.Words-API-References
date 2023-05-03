@@ -1,6 +1,7 @@
 ---
 title: Font.Subscript
 linktitle: Subscript
+articleTitle: Subscript
 second_title: Aspose.Words for .NET API Reference
 description: Font Subscript property. True if the font is formatted as subscript in C#.
 type: docs

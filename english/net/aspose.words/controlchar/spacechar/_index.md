@@ -1,6 +1,7 @@
 ---
 title: ControlChar.SpaceChar
 linktitle: SpaceChar
+articleTitle: SpaceChar
 second_title: Aspose.Words for .NET API Reference
 description: ControlChar SpaceChar field. Space character char32 in C#.
 type: docs

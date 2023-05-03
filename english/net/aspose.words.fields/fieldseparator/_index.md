@@ -1,6 +1,7 @@
 ---
 title: FieldSeparator Class
 linktitle: FieldSeparator
+articleTitle: FieldSeparator
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FieldSeparator class. Represents a Word field separator that separates the field code from the field result in C#.
 type: docs

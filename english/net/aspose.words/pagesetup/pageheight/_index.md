@@ -1,6 +1,7 @@
 ---
 title: PageSetup.PageHeight
 linktitle: PageHeight
+articleTitle: PageHeight
 second_title: Aspose.Words for .NET API Reference
 description: PageSetup PageHeight property. Returns or sets the height of the page in points in C#.
 type: docs

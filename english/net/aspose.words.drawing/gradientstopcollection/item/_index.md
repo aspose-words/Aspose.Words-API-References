@@ -1,6 +1,7 @@
 ---
 title: GradientStopCollection.Item
 linktitle: Item
+articleTitle: Item
 second_title: Aspose.Words for .NET API Reference
 description: GradientStopCollection Item property. Gets or sets a GradientStop object in the collection in C#.
 type: docs

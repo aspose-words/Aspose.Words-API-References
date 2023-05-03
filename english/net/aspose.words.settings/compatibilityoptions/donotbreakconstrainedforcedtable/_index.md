@@ -1,6 +1,7 @@
 ---
 title: CompatibilityOptions.DoNotBreakConstrainedForcedTable
 linktitle: DoNotBreakConstrainedForcedTable
+articleTitle: DoNotBreakConstrainedForcedTable
 second_title: Aspose.Words for .NET API Reference
 description: CompatibilityOptions DoNotBreakConstrainedForcedTable property. Dont Break Table Rows Around Floating Tables in C#.
 type: docs

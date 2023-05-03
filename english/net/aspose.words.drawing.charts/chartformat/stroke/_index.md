@@ -1,6 +1,7 @@
 ---
 title: ChartFormat.Stroke
 linktitle: Stroke
+articleTitle: Stroke
 second_title: Aspose.Words for .NET API Reference
 description: ChartFormat Stroke property. Gets line formatting for the parent chart element in C#.
 type: docs

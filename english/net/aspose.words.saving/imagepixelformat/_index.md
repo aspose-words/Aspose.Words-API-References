@@ -1,6 +1,7 @@
 ---
 title: ImagePixelFormat Enum
 linktitle: ImagePixelFormat
+articleTitle: ImagePixelFormat
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Saving.ImagePixelFormat enum. Specifies the pixel format for the generated images of document pages in C#.
 type: docs

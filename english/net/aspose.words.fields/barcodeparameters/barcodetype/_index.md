@@ -1,6 +1,7 @@
 ---
 title: BarcodeParameters.BarcodeType
 linktitle: BarcodeType
+articleTitle: BarcodeType
 second_title: Aspose.Words for .NET API Reference
 description: BarcodeParameters BarcodeType property. Bar code type in C#.
 type: docs

@@ -1,6 +1,7 @@
 ---
 title: ChartAxis.TickLabelPosition
 linktitle: TickLabelPosition
+articleTitle: TickLabelPosition
 second_title: Aspose.Words for .NET API Reference
 description: ChartAxis TickLabelPosition property. Returns or sets the position of the tick labels on the axis in C#.
 type: docs

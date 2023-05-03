@@ -1,6 +1,7 @@
 ---
 title: Shape.NodeType
 linktitle: NodeType
+articleTitle: NodeType
 second_title: Aspose.Words for .NET API Reference
 description: Shape NodeType property. Returns Shape in C#.
 type: docs

@@ -1,6 +1,7 @@
 ---
 title: FieldAutoTextList.ScreenTip
 linktitle: ScreenTip
+articleTitle: ScreenTip
 second_title: Aspose.Words for .NET API Reference
 description: FieldAutoTextList ScreenTip property. Gets or sets the text of the ScreenTip to show in C#.
 type: docs

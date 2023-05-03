@@ -1,6 +1,7 @@
 ---
 title: IHyphenationCallback Interface
 linktitle: IHyphenationCallback
+articleTitle: IHyphenationCallback
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.IHyphenationCallback interface. Implemented by classes which can register hyphenation dictionaries in C#.
 type: docs

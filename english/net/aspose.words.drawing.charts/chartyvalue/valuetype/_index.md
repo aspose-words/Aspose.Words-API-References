@@ -1,6 +1,7 @@
 ---
 title: ChartYValue.ValueType
 linktitle: ValueType
+articleTitle: ValueType
 second_title: Aspose.Words for .NET API Reference
 description: ChartYValue ValueType property. Gets the type of the Y value stored in the object in C#.
 type: docs

@@ -1,6 +1,7 @@
 ---
 title: DocumentVisitor.VisitShapeStart
 linktitle: VisitShapeStart
+articleTitle: VisitShapeStart
 second_title: Aspose.Words for .NET API Reference
 description: DocumentVisitor VisitShapeStart method. Called when enumeration of a shape has started in C#.
 type: docs

@@ -1,6 +1,7 @@
 ---
 title: SignatureLineOptions.SignerTitle
 linktitle: SignerTitle
+articleTitle: SignerTitle
 second_title: Aspose.Words for .NET API Reference
 description: SignatureLineOptions SignerTitle property. Gets or sets suggested signers title. Default value for this property is empty string Empty in C#.
 type: docs

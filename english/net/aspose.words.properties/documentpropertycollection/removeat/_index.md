@@ -1,6 +1,7 @@
 ---
 title: DocumentPropertyCollection.RemoveAt
 linktitle: RemoveAt
+articleTitle: RemoveAt
 second_title: Aspose.Words for .NET API Reference
 description: DocumentPropertyCollection RemoveAt method. Removes a property at the specified index in C#.
 type: docs

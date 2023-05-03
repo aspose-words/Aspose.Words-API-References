@@ -1,6 +1,7 @@
 ---
 title: LayoutEnumerator.Reset
 linktitle: Reset
+articleTitle: Reset
 second_title: Aspose.Words for .NET API Reference
 description: LayoutEnumerator Reset method. Moves the enumerator to the first page of the document in C#.
 type: docs

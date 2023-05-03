@@ -1,6 +1,7 @@
 ---
 title: OdsoRecipientDataCollection.Item
 linktitle: Item
+articleTitle: Item
 second_title: Aspose.Words for .NET API Reference
 description: OdsoRecipientDataCollection Item property. Gets or sets an item in this collection in C#.
 type: docs

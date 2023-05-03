@@ -1,6 +1,7 @@
 ---
 title: CustomDocumentProperties.AddLinkToContent
 linktitle: AddLinkToContent
+articleTitle: AddLinkToContent
 second_title: Aspose.Words for .NET API Reference
 description: CustomDocumentProperties AddLinkToContent method. Creates a new linked to content custom document property in C#.
 type: docs

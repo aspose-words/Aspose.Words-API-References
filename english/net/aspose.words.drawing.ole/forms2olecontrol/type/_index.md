@@ -1,6 +1,7 @@
 ---
 title: Forms2OleControl.Type
 linktitle: Type
+articleTitle: Type
 second_title: Aspose.Words for .NET API Reference
 description: Forms2OleControl Type property. Gets type of Forms 2.0 control in C#.
 type: docs

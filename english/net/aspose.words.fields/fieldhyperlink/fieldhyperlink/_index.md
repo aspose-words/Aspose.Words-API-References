@@ -1,6 +1,7 @@
 ---
 title: FieldHyperlink
 linktitle: FieldHyperlink
+articleTitle: FieldHyperlink
 second_title: Aspose.Words for .NET API Reference
 description: FieldHyperlink constructor. The default constructor in C#.
 type: docs

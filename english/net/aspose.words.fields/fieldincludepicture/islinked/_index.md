@@ -1,6 +1,7 @@
 ---
 title: FieldIncludePicture.IsLinked
 linktitle: IsLinked
+articleTitle: IsLinked
 second_title: Aspose.Words for .NET API Reference
 description: FieldIncludePicture IsLinked property. Gets or sets whether to reduce the file size by not storing graphics data with the document in C#.
 type: docs

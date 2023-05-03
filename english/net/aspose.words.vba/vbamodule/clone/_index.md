@@ -1,6 +1,7 @@
 ---
 title: VbaModule.Clone
 linktitle: Clone
+articleTitle: Clone
 second_title: Aspose.Words for .NET API Reference
 description: VbaModule Clone method. Performs a copy of the VbaModule in C#.
 type: docs

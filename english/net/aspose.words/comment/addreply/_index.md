@@ -1,6 +1,7 @@
 ---
 title: Comment.AddReply
 linktitle: AddReply
+articleTitle: AddReply
 second_title: Aspose.Words for .NET API Reference
 description: Comment AddReply method. Adds a reply to this comment in C#.
 type: docs

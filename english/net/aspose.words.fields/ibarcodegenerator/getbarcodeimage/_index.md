@@ -1,6 +1,7 @@
 ---
 title: IBarcodeGenerator.GetBarcodeImage
 linktitle: GetBarcodeImage
+articleTitle: GetBarcodeImage
 second_title: Aspose.Words for .NET API Reference
 description: IBarcodeGenerator GetBarcodeImage method. Generate barcode image using the set of parameters for DisplayBarcode field in C#.
 type: docs

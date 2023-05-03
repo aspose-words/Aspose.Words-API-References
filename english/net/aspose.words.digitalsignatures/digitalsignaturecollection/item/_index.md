@@ -1,6 +1,7 @@
 ---
 title: DigitalSignatureCollection.Item
 linktitle: Item
+articleTitle: Item
 second_title: Aspose.Words for .NET API Reference
 description: DigitalSignatureCollection Item property. Gets a document signature at the specified index in C#.
 type: docs

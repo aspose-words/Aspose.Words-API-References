@@ -1,6 +1,7 @@
 ---
 title: ChartAxis.CrossesAt
 linktitle: CrossesAt
+articleTitle: CrossesAt
 second_title: Aspose.Words for .NET API Reference
 description: ChartAxis CrossesAt property. Specifies where on the perpendicular axis the axis crosses in C#.
 type: docs

@@ -1,6 +1,7 @@
 ---
 title: ShapeBase.RelativeHorizontalSize
 linktitle: RelativeHorizontalSize
+articleTitle: RelativeHorizontalSize
 second_title: Aspose.Words for .NET API Reference
 description: ShapeBase RelativeHorizontalSize property. Gets or sets the value of shapes relative size in horizontal direction in C#.
 type: docs

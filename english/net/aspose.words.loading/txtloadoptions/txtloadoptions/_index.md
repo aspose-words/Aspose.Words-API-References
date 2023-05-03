@@ -1,6 +1,7 @@
 ---
 title: TxtLoadOptions
 linktitle: TxtLoadOptions
+articleTitle: TxtLoadOptions
 second_title: Aspose.Words for .NET API Reference
 description: TxtLoadOptions constructor. Initializes a new instance of this class with default values in C#.
 type: docs

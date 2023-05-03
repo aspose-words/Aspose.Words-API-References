@@ -1,6 +1,7 @@
 ---
 title: ChartSeries.BubbleSizes
 linktitle: BubbleSizes
+articleTitle: BubbleSizes
 second_title: Aspose.Words for .NET API Reference
 description: ChartSeries BubbleSizes property. Gets a collection of bubble sizes for this chart series in C#.
 type: docs

@@ -1,6 +1,7 @@
 ---
 title: ChartAxis.Crosses
 linktitle: Crosses
+articleTitle: Crosses
 second_title: Aspose.Words for .NET API Reference
 description: ChartAxis Crosses property. Specifies how this axis crosses the perpendicular axis in C#.
 type: docs

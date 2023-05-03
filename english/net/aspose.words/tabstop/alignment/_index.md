@@ -1,6 +1,7 @@
 ---
 title: TabStop.Alignment
 linktitle: Alignment
+articleTitle: Alignment
 second_title: Aspose.Words for .NET API Reference
 description: TabStop Alignment property. Gets or sets the alignment of text at this tab stop in C#.
 type: docs

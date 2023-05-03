@@ -1,6 +1,7 @@
 ---
 title: MailMerge.TrimWhitespaces
 linktitle: TrimWhitespaces
+articleTitle: TrimWhitespaces
 second_title: Aspose.Words for .NET API Reference
 description: MailMerge TrimWhitespaces property. Gets or sets a value indicating whether trailing and leading whitespaces are trimmed from mail merge values in C#.
 type: docs

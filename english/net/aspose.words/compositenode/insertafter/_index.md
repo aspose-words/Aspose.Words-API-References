@@ -1,6 +1,7 @@
 ---
 title: CompositeNode.InsertAfter
 linktitle: InsertAfter
+articleTitle: InsertAfter
 second_title: Aspose.Words for .NET API Reference
 description: CompositeNode InsertAfter method. Inserts the specified node immediately after the specified reference node in C#.
 type: docs

@@ -1,6 +1,7 @@
 ---
 title: FieldFileSize.IsInMegabytes
 linktitle: IsInMegabytes
+articleTitle: IsInMegabytes
 second_title: Aspose.Words for .NET API Reference
 description: FieldFileSize IsInMegabytes property. Gets or sets whether to display the file size in megabytes in C#.
 type: docs

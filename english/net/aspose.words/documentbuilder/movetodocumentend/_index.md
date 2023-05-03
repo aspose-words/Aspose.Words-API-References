@@ -1,6 +1,7 @@
 ---
 title: DocumentBuilder.MoveToDocumentEnd
 linktitle: MoveToDocumentEnd
+articleTitle: MoveToDocumentEnd
 second_title: Aspose.Words for .NET API Reference
 description: DocumentBuilder MoveToDocumentEnd method. Moves the cursor to the end of the document in C#.
 type: docs

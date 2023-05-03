@@ -1,6 +1,7 @@
 ---
 title: FontInfo.IsTrueType
 linktitle: IsTrueType
+articleTitle: IsTrueType
 second_title: Aspose.Words for .NET API Reference
 description: FontInfo IsTrueType property. Indicates that this font is a TrueType or OpenType font as opposed to a raster or vector font. Default is true in C#.
 type: docs

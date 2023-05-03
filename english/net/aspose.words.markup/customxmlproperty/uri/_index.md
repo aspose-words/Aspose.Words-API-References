@@ -1,6 +1,7 @@
 ---
 title: CustomXmlProperty.Uri
 linktitle: Uri
+articleTitle: Uri
 second_title: Aspose.Words for .NET API Reference
 description: CustomXmlProperty Uri property. Gets or sets the namespace URI of the custom XML attribute or smart tag property in C#.
 type: docs

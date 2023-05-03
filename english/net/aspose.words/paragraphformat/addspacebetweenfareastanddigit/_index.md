@@ -1,6 +1,7 @@
 ---
 title: ParagraphFormat.AddSpaceBetweenFarEastAndDigit
 linktitle: AddSpaceBetweenFarEastAndDigit
+articleTitle: AddSpaceBetweenFarEastAndDigit
 second_title: Aspose.Words for .NET API Reference
 description: ParagraphFormat AddSpaceBetweenFarEastAndDigit property. Gets or sets a flag indicating whether intercharacter spacing is automatically adjusted between regions of numbers and regions of East Asian text in the current paragraph in C#.
 type: docs

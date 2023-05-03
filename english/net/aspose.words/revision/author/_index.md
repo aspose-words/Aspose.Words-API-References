@@ -1,6 +1,7 @@
 ---
 title: Revision.Author
 linktitle: Author
+articleTitle: Author
 second_title: Aspose.Words for .NET API Reference
 description: Revision Author property. Gets or sets the author of this revision. Can not be empty string or null in C#.
 type: docs

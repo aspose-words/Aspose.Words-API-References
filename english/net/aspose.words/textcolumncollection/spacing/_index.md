@@ -1,6 +1,7 @@
 ---
 title: TextColumnCollection.Spacing
 linktitle: Spacing
+articleTitle: Spacing
 second_title: Aspose.Words for .NET API Reference
 description: TextColumnCollection Spacing property. When columns are evenly spaced gets or sets the amount of space between each column in points in C#.
 type: docs

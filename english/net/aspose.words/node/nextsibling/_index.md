@@ -1,6 +1,7 @@
 ---
 title: Node.NextSibling
 linktitle: NextSibling
+articleTitle: NextSibling
 second_title: Aspose.Words for .NET API Reference
 description: Node NextSibling property. Gets the node immediately following this node in C#.
 type: docs

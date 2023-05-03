@@ -1,6 +1,7 @@
 ---
 title: InlineStory.FirstParagraph
 linktitle: FirstParagraph
+articleTitle: FirstParagraph
 second_title: Aspose.Words for .NET API Reference
 description: InlineStory FirstParagraph property. Gets the first paragraph in the story in C#.
 type: docs

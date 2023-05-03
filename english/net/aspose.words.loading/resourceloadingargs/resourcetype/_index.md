@@ -1,6 +1,7 @@
 ---
 title: ResourceLoadingArgs.ResourceType
 linktitle: ResourceType
+articleTitle: ResourceType
 second_title: Aspose.Words for .NET API Reference
 description: ResourceLoadingArgs ResourceType property. Type of resource in C#.
 type: docs

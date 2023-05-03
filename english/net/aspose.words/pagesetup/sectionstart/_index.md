@@ -1,6 +1,7 @@
 ---
 title: PageSetup.SectionStart
 linktitle: SectionStart
+articleTitle: SectionStart
 second_title: Aspose.Words for .NET API Reference
 description: PageSetup SectionStart property. Returns or sets the type of section break for the specified object in C#.
 type: docs

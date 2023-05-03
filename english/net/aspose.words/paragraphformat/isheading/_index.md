@@ -1,6 +1,7 @@
 ---
 title: ParagraphFormat.IsHeading
 linktitle: IsHeading
+articleTitle: IsHeading
 second_title: Aspose.Words for .NET API Reference
 description: ParagraphFormat IsHeading property. True when the paragraph style is one of the builtin Heading styles in C#.
 type: docs

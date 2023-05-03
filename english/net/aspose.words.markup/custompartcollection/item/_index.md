@@ -1,6 +1,7 @@
 ---
 title: CustomPartCollection.Item
 linktitle: Item
+articleTitle: Item
 second_title: Aspose.Words for .NET API Reference
 description: CustomPartCollection Item property. Gets or sets an item at the specified index in C#.
 type: docs

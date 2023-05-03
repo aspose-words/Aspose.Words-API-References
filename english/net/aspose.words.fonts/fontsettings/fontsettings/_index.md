@@ -1,6 +1,7 @@
 ---
 title: FontSettings
 linktitle: FontSettings
+articleTitle: FontSettings
 second_title: Aspose.Words for .NET API Reference
 description: FontSettings constructor. The default constructor in C#.
 type: docs

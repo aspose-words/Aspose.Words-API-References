@@ -1,6 +1,7 @@
 ---
 title: FontSavingArgs.FontFamilyName
 linktitle: FontFamilyName
+articleTitle: FontFamilyName
 second_title: Aspose.Words for .NET API Reference
 description: FontSavingArgs FontFamilyName property. Indicates the current font family name in C#.
 type: docs

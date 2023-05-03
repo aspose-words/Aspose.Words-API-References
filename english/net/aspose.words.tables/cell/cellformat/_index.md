@@ -1,6 +1,7 @@
 ---
 title: Cell.CellFormat
 linktitle: CellFormat
+articleTitle: CellFormat
 second_title: Aspose.Words for .NET API Reference
 description: Cell CellFormat property. Provides access to the formatting properties of the cell in C#.
 type: docs

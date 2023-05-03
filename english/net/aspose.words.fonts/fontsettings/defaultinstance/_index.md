@@ -1,6 +1,7 @@
 ---
 title: FontSettings.DefaultInstance
 linktitle: DefaultInstance
+articleTitle: DefaultInstance
 second_title: Aspose.Words for .NET API Reference
 description: FontSettings DefaultInstance property. Static default font settings in C#.
 type: docs

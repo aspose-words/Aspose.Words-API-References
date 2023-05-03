@@ -1,6 +1,7 @@
 ---
 title: ShapeBase.RelativeVerticalSize
 linktitle: RelativeVerticalSize
+articleTitle: RelativeVerticalSize
 second_title: Aspose.Words for .NET API Reference
 description: ShapeBase RelativeVerticalSize property. Gets or sets the value of shapes relative size in vertical direction in C#.
 type: docs

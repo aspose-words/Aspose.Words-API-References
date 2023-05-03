@@ -1,6 +1,7 @@
 ---
 title: Style.StyleIdentifier
 linktitle: StyleIdentifier
+articleTitle: StyleIdentifier
 second_title: Aspose.Words for .NET API Reference
 description: Style StyleIdentifier property. Gets the locale independent style identifier for a builtin style in C#.
 type: docs

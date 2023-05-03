@@ -1,6 +1,7 @@
 ---
 title: SvgSaveOptions.ResourcesFolderAlias
 linktitle: ResourcesFolderAlias
+articleTitle: ResourcesFolderAlias
 second_title: Aspose.Words for .NET API Reference
 description: SvgSaveOptions ResourcesFolderAlias property. Specifies the name of the folder used to construct image URIs written into an SVG document. Default is null in C#.
 type: docs

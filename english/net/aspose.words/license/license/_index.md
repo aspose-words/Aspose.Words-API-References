@@ -1,6 +1,7 @@
 ---
 title: License
 linktitle: License
+articleTitle: License
 second_title: Aspose.Words for .NET API Reference
 description: License constructor. Initializes a new instance of this class in C#.
 type: docs

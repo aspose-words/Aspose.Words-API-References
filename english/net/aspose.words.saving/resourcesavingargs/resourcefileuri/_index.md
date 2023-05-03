@@ -1,6 +1,7 @@
 ---
 title: ResourceSavingArgs.ResourceFileUri
 linktitle: ResourceFileUri
+articleTitle: ResourceFileUri
 second_title: Aspose.Words for .NET API Reference
 description: ResourceSavingArgs ResourceFileUri property. Gets or sets the uniform resource identifier URI used to reference the resource file from the document in C#.
 type: docs

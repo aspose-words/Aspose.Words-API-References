@@ -1,6 +1,7 @@
 ---
 title: BorderCollection.Right
 linktitle: Right
+articleTitle: Right
 second_title: Aspose.Words for .NET API Reference
 description: BorderCollection Right property. Gets the right border in C#.
 type: docs

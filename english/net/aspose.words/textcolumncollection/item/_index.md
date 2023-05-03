@@ -1,6 +1,7 @@
 ---
 title: TextColumnCollection.Item
 linktitle: Item
+articleTitle: Item
 second_title: Aspose.Words for .NET API Reference
 description: TextColumnCollection Item property. Returns a text column at the specified index in C#.
 type: docs

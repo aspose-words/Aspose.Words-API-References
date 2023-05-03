@@ -1,6 +1,7 @@
 ---
 title: Document.RemovePersonalInformation
 linktitle: RemovePersonalInformation
+articleTitle: RemovePersonalInformation
 second_title: Aspose.Words for .NET API Reference
 description: Document RemovePersonalInformation property. Gets or sets a flag indicating that Microsoft Word will remove all user information from comments revisions and document properties upon saving the document in C#.
 type: docs

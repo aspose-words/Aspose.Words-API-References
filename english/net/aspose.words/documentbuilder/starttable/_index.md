@@ -1,6 +1,7 @@
 ---
 title: DocumentBuilder.StartTable
 linktitle: StartTable
+articleTitle: StartTable
 second_title: Aspose.Words for .NET API Reference
 description: DocumentBuilder StartTable method. Starts a table in the document in C#.
 type: docs

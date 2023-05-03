@@ -1,6 +1,7 @@
 ---
 title: PageSetup.HeaderDistance
 linktitle: HeaderDistance
+articleTitle: HeaderDistance
 second_title: Aspose.Words for .NET API Reference
 description: PageSetup HeaderDistance property. Returns or sets the distance in points between the header and the top of the page in C#.
 type: docs

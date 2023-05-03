@@ -1,6 +1,7 @@
 ---
 title: CommentCollection.Item
 linktitle: Item
+articleTitle: Item
 second_title: Aspose.Words for .NET API Reference
 description: CommentCollection Item property. Retrieves a Comment at the given index in C#.
 type: docs

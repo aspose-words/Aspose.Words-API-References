@@ -1,6 +1,7 @@
 ---
 title: StructuredDocumentTagCollection.RemoveAt
 linktitle: RemoveAt
+articleTitle: RemoveAt
 second_title: Aspose.Words for .NET API Reference
 description: StructuredDocumentTagCollection RemoveAt method. Removes a structured document tag at the specified index in C#.
 type: docs

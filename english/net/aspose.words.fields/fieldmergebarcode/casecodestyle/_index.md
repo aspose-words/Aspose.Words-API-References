@@ -1,6 +1,7 @@
 ---
 title: FieldMergeBarcode.CaseCodeStyle
 linktitle: CaseCodeStyle
+articleTitle: CaseCodeStyle
 second_title: Aspose.Words for .NET API Reference
 description: FieldMergeBarcode CaseCodeStyle property. Gets or sets the style of a Case Code for barcode type ITF14. The valid values are STDEXTADD in C#.
 type: docs

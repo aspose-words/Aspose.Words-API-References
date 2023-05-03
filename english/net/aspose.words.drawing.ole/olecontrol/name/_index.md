@@ -1,6 +1,7 @@
 ---
 title: OleControl.Name
 linktitle: Name
+articleTitle: Name
 second_title: Aspose.Words for .NET API Reference
 description: OleControl Name property. Gets or sets name of the ActiveX control in C#.
 type: docs

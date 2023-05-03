@@ -1,6 +1,7 @@
 ---
 title: ChartSeries.YValues
 linktitle: YValues
+articleTitle: YValues
 second_title: Aspose.Words for .NET API Reference
 description: ChartSeries YValues property. Gets a collection of Y values for this chart series in C#.
 type: docs

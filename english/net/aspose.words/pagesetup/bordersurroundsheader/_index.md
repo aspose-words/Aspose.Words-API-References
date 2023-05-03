@@ -1,6 +1,7 @@
 ---
 title: PageSetup.BorderSurroundsHeader
 linktitle: BorderSurroundsHeader
+articleTitle: BorderSurroundsHeader
 second_title: Aspose.Words for .NET API Reference
 description: PageSetup BorderSurroundsHeader property. Specifies whether the page border includes or excludes the header in C#.
 type: docs

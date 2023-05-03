@@ -1,6 +1,7 @@
 ---
 title: ImageSize.HeightPixels
 linktitle: HeightPixels
+articleTitle: HeightPixels
 second_title: Aspose.Words for .NET API Reference
 description: ImageSize HeightPixels property. Gets the height of the image in pixels in C#.
 type: docs

@@ -1,6 +1,7 @@
 ---
 title: PdfSaveOptions.Compliance
 linktitle: Compliance
+articleTitle: Compliance
 second_title: Aspose.Words for .NET API Reference
 description: PdfSaveOptions Compliance property. Specifies the PDF standards compliance level for output documents in C#.
 type: docs

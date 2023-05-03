@@ -1,6 +1,7 @@
 ---
 title: BarcodeParameters.PostalAddress
 linktitle: PostalAddress
+articleTitle: PostalAddress
 second_title: Aspose.Words for .NET API Reference
 description: BarcodeParameters PostalAddress property. Barcode postal address in C#.
 type: docs

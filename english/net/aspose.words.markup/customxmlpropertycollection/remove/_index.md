@@ -1,6 +1,7 @@
 ---
 title: CustomXmlPropertyCollection.Remove
 linktitle: Remove
+articleTitle: Remove
 second_title: Aspose.Words for .NET API Reference
 description: CustomXmlPropertyCollection Remove method. Removes a property with the specified name from the collection in C#.
 type: docs

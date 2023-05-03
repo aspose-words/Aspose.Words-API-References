@@ -1,6 +1,7 @@
 ---
 title: EditableRangeEnd.NodeType
 linktitle: NodeType
+articleTitle: NodeType
 second_title: Aspose.Words for .NET API Reference
 description: EditableRangeEnd NodeType property. Returns EditableRangeEnd in C#.
 type: docs

@@ -1,6 +1,7 @@
 ---
 title: ImageData.Save
 linktitle: Save
+articleTitle: Save
 second_title: Aspose.Words for .NET API Reference
 description: ImageData Save method. Saves the image into the specified stream in C#.
 type: docs

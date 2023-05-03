@@ -1,6 +1,7 @@
 ---
 title: ListFormat.List
 linktitle: List
+articleTitle: List
 second_title: Aspose.Words for .NET API Reference
 description: ListFormat List property. Gets or sets the list this paragraph is a member of in C#.
 type: docs

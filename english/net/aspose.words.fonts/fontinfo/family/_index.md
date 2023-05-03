@@ -1,6 +1,7 @@
 ---
 title: FontInfo.Family
 linktitle: Family
+articleTitle: Family
 second_title: Aspose.Words for .NET API Reference
 description: FontInfo Family property. Gets or sets the font family this font belongs to in C#.
 type: docs

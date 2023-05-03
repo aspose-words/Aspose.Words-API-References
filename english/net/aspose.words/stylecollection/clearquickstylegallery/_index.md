@@ -1,6 +1,7 @@
 ---
 title: StyleCollection.ClearQuickStyleGallery
 linktitle: ClearQuickStyleGallery
+articleTitle: ClearQuickStyleGallery
 second_title: Aspose.Words for .NET API Reference
 description: StyleCollection ClearQuickStyleGallery method. Removes all styles from the Quick Style Gallery panel in C#.
 type: docs

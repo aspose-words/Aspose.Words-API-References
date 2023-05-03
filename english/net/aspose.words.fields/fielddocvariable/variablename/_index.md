@@ -1,6 +1,7 @@
 ---
 title: FieldDocVariable.VariableName
 linktitle: VariableName
+articleTitle: VariableName
 second_title: Aspose.Words for .NET API Reference
 description: FieldDocVariable VariableName property. Gets or sets the name of the document variable to retrieve in C#.
 type: docs

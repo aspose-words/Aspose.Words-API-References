@@ -1,6 +1,7 @@
 ---
 title: FieldIndex.LanguageId
 linktitle: LanguageId
+articleTitle: LanguageId
 second_title: Aspose.Words for .NET API Reference
 description: FieldIndex LanguageId property. Gets or sets the language ID used to generate the index in C#.
 type: docs

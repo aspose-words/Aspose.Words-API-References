@@ -1,6 +1,7 @@
 ---
 title: Bookmark.BookmarkEnd
 linktitle: BookmarkEnd
+articleTitle: BookmarkEnd
 second_title: Aspose.Words for .NET API Reference
 description: Bookmark BookmarkEnd property. Gets the node that represents the end of the bookmark in C#.
 type: docs

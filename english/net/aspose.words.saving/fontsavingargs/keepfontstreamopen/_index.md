@@ -1,6 +1,7 @@
 ---
 title: FontSavingArgs.KeepFontStreamOpen
 linktitle: KeepFontStreamOpen
+articleTitle: KeepFontStreamOpen
 second_title: Aspose.Words for .NET API Reference
 description: FontSavingArgs KeepFontStreamOpen property. Specifies whether Aspose.Words should keep the stream open or close it after saving a font in C#.
 type: docs

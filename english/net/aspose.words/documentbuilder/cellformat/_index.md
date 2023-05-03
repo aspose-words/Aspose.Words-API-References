@@ -1,6 +1,7 @@
 ---
 title: DocumentBuilder.CellFormat
 linktitle: CellFormat
+articleTitle: CellFormat
 second_title: Aspose.Words for .NET API Reference
 description: DocumentBuilder CellFormat property. Returns an object that represents current table cell formatting properties in C#.
 type: docs

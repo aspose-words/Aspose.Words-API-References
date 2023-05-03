@@ -1,6 +1,7 @@
 ---
 title: TaskPane.WebExtension
 linktitle: WebExtension
+articleTitle: WebExtension
 second_title: Aspose.Words for .NET API Reference
 description: TaskPane WebExtension property. Represents an web extension object in C#.
 type: docs

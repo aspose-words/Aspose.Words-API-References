@@ -1,6 +1,7 @@
 ---
 title: Field.IsLocked
 linktitle: IsLocked
+articleTitle: IsLocked
 second_title: Aspose.Words for .NET API Reference
 description: Field IsLocked property. Gets or sets whether the field is locked should not recalculate its result in C#.
 type: docs

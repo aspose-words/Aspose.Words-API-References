@@ -1,6 +1,7 @@
 ---
 title: LayoutEnumerator.Text
 linktitle: Text
+articleTitle: Text
 second_title: Aspose.Words for .NET API Reference
 description: LayoutEnumerator Text property. Gets text of the current span entity. Throws for other entity types in C#.
 type: docs

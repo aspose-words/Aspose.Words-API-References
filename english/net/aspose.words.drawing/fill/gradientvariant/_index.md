@@ -1,6 +1,7 @@
 ---
 title: Fill.GradientVariant
 linktitle: GradientVariant
+articleTitle: GradientVariant
 second_title: Aspose.Words for .NET API Reference
 description: Fill GradientVariant property. Gets the gradient variant GradientVariant for the fill in C#.
 type: docs

@@ -1,6 +1,7 @@
 ---
 title: MappedDataFieldCollection.ContainsKey
 linktitle: ContainsKey
+articleTitle: ContainsKey
 second_title: Aspose.Words for .NET API Reference
 description: MappedDataFieldCollection ContainsKey method. Determines whether a mapping from the specified field in the document exists in the collection in C#.
 type: docs

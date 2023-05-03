@@ -1,6 +1,7 @@
 ---
 title: FieldMergeBarcode.SymbolRotation
 linktitle: SymbolRotation
+articleTitle: SymbolRotation
 second_title: Aspose.Words for .NET API Reference
 description: FieldMergeBarcode SymbolRotation property. Gets or sets the rotation of the barcode symbol. Valid values are 0 3 in C#.
 type: docs

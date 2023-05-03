@@ -1,6 +1,7 @@
 ---
 title: Font.DoubleStrikeThrough
 linktitle: DoubleStrikeThrough
+articleTitle: DoubleStrikeThrough
 second_title: Aspose.Words for .NET API Reference
 description: Font DoubleStrikeThrough property. True if the font is formatted as double strikethrough text in C#.
 type: docs

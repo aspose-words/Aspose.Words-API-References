@@ -1,6 +1,7 @@
 ---
 title: Font.Size
 linktitle: Size
+articleTitle: Size
 second_title: Aspose.Words for .NET API Reference
 description: Font Size property. Gets or sets the font size in points in C#.
 type: docs

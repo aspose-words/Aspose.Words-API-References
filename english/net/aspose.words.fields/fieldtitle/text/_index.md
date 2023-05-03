@@ -1,6 +1,7 @@
 ---
 title: FieldTitle.Text
 linktitle: Text
+articleTitle: Text
 second_title: Aspose.Words for .NET API Reference
 description: FieldTitle Text property. Gets or sets the text of the title in C#.
 type: docs

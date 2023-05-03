@@ -1,6 +1,7 @@
 ---
 title: Border Class
 linktitle: Border
+articleTitle: Border
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Border class. Represents a border of an object in C#.
 type: docs

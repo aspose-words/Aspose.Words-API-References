@@ -1,6 +1,7 @@
 ---
 title: DocumentVisitor.VisitCommentStart
 linktitle: VisitCommentStart
+articleTitle: VisitCommentStart
 second_title: Aspose.Words for .NET API Reference
 description: DocumentVisitor VisitCommentStart method. Called when enumeration of a comment text has started in C#.
 type: docs

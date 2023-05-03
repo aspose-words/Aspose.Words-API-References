@@ -1,6 +1,7 @@
 ---
 title: Section.EnsureMinimum
 linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
 second_title: Aspose.Words for .NET API Reference
 description: Section EnsureMinimum method. Ensures that the section has Body with one Paragraph in C#.
 type: docs

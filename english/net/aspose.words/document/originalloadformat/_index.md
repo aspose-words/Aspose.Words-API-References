@@ -1,6 +1,7 @@
 ---
 title: Document.OriginalLoadFormat
 linktitle: OriginalLoadFormat
+articleTitle: OriginalLoadFormat
 second_title: Aspose.Words for .NET API Reference
 description: Document OriginalLoadFormat property. Gets the format of the original document that was loaded into this object in C#.
 type: docs

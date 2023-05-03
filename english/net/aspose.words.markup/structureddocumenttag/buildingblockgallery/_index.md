@@ -1,6 +1,7 @@
 ---
 title: StructuredDocumentTag.BuildingBlockGallery
 linktitle: BuildingBlockGallery
+articleTitle: BuildingBlockGallery
 second_title: Aspose.Words for .NET API Reference
 description: StructuredDocumentTag BuildingBlockGallery property. Specifies type of building block for this SDT. Can not be null in C#.
 type: docs

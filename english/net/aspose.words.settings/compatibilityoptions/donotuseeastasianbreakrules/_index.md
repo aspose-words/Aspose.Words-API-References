@@ -1,6 +1,7 @@
 ---
 title: CompatibilityOptions.DoNotUseEastAsianBreakRules
 linktitle: DoNotUseEastAsianBreakRules
+articleTitle: DoNotUseEastAsianBreakRules
 second_title: Aspose.Words for .NET API Reference
 description: CompatibilityOptions DoNotUseEastAsianBreakRules property. Do Not Compress Compressible Characters When Using Document Grid in C#.
 type: docs

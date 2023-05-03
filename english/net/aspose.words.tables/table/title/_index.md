@@ -1,6 +1,7 @@
 ---
 title: Table.Title
 linktitle: Title
+articleTitle: Title
 second_title: Aspose.Words for .NET API Reference
 description: Table Title property. Gets or sets title of this table. It provides an alternative text representation of the information contained in the table in C#.
 type: docs

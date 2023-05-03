@@ -1,6 +1,7 @@
 ---
 title: FieldListNum.StartingNumber
 linktitle: StartingNumber
+articleTitle: StartingNumber
 second_title: Aspose.Words for .NET API Reference
 description: FieldListNum StartingNumber property. Gets or sets the starting value for this field in C#.
 type: docs

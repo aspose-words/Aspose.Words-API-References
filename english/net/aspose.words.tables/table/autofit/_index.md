@@ -1,6 +1,7 @@
 ---
 title: Table.AutoFit
 linktitle: AutoFit
+articleTitle: AutoFit
 second_title: Aspose.Words for .NET API Reference
 description: Table AutoFit method. Resizes the table and cells according to the specified auto fit behavior in C#.
 type: docs

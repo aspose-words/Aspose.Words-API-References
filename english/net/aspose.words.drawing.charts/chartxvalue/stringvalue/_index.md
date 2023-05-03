@@ -1,6 +1,7 @@
 ---
 title: ChartXValue.StringValue
 linktitle: StringValue
+articleTitle: StringValue
 second_title: Aspose.Words for .NET API Reference
 description: ChartXValue StringValue property. Gets the stored string value in C#.
 type: docs

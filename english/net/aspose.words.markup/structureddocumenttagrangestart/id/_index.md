@@ -1,6 +1,7 @@
 ---
 title: StructuredDocumentTagRangeStart.Id
 linktitle: Id
+articleTitle: Id
 second_title: Aspose.Words for .NET API Reference
 description: StructuredDocumentTagRangeStart Id property. Specifies a unique readonly persistent numerical Id for this structured document tag in C#.
 type: docs

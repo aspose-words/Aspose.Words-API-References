@@ -1,6 +1,7 @@
 ---
 title: BarcodeParameters.DisplayText
 linktitle: DisplayText
+articleTitle: DisplayText
 second_title: Aspose.Words for .NET API Reference
 description: BarcodeParameters DisplayText property. Whether to display barcode data text along with image in C#.
 type: docs

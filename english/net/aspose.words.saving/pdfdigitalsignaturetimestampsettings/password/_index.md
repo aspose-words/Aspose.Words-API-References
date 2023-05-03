@@ -1,6 +1,7 @@
 ---
 title: PdfDigitalSignatureTimestampSettings.Password
 linktitle: Password
+articleTitle: Password
 second_title: Aspose.Words for .NET API Reference
 description: PdfDigitalSignatureTimestampSettings Password property. Timestamp server password in C#.
 type: docs

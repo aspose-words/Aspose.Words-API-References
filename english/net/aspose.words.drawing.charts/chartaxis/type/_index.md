@@ -1,6 +1,7 @@
 ---
 title: ChartAxis.Type
 linktitle: Type
+articleTitle: Type
 second_title: Aspose.Words for .NET API Reference
 description: ChartAxis Type property. Returns type of the axis in C#.
 type: docs

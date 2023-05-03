@@ -1,6 +1,7 @@
 ---
 title: TableSubstitutionRule.LoadWindowsSettings
 linktitle: LoadWindowsSettings
+articleTitle: LoadWindowsSettings
 second_title: Aspose.Words for .NET API Reference
 description: TableSubstitutionRule LoadWindowsSettings method. Loads predefined table substitution settings for Windows platform in C#.
 type: docs

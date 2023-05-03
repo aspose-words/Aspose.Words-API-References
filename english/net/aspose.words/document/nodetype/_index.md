@@ -1,6 +1,7 @@
 ---
 title: Document.NodeType
 linktitle: NodeType
+articleTitle: NodeType
 second_title: Aspose.Words for .NET API Reference
 description: Document NodeType property. Returns Document in C#.
 type: docs

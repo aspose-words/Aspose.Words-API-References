@@ -1,6 +1,7 @@
 ---
 title: IReplacingCallback.Replacing
 linktitle: Replacing
+articleTitle: Replacing
 second_title: Aspose.Words for .NET API Reference
 description: IReplacingCallback Replacing method. A user defined method that is called during a replace operation for each match found just before a replace is made in C#.
 type: docs

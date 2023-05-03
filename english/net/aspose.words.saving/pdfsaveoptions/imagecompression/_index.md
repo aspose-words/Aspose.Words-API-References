@@ -1,6 +1,7 @@
 ---
 title: PdfSaveOptions.ImageCompression
 linktitle: ImageCompression
+articleTitle: ImageCompression
 second_title: Aspose.Words for .NET API Reference
 description: PdfSaveOptions ImageCompression property. Specifies compression type to be used for all images in the document in C#.
 type: docs

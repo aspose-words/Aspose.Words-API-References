@@ -1,6 +1,7 @@
 ---
 title: PdfSaveOptions.HeaderFooterBookmarksExportMode
 linktitle: HeaderFooterBookmarksExportMode
+articleTitle: HeaderFooterBookmarksExportMode
 second_title: Aspose.Words for .NET API Reference
 description: PdfSaveOptions HeaderFooterBookmarksExportMode property. Determines how bookmarks in headers/footers are exported in C#.
 type: docs

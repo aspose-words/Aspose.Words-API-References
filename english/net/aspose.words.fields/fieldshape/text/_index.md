@@ -1,6 +1,7 @@
 ---
 title: FieldShape.Text
 linktitle: Text
+articleTitle: Text
 second_title: Aspose.Words for .NET API Reference
 description: FieldShape Text property. Gets or sets the text to retrieve in C#.
 type: docs

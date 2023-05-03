@@ -1,6 +1,7 @@
 ---
 title: BarcodeParameters.IsUSPostalAddress
 linktitle: IsUSPostalAddress
+articleTitle: IsUSPostalAddress
 second_title: Aspose.Words for .NET API Reference
 description: BarcodeParameters IsUSPostalAddress property. Whether PostalAddress is a U.S. postal address in C#.
 type: docs

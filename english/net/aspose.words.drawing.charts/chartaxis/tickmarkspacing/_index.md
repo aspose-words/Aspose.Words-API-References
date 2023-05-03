@@ -1,6 +1,7 @@
 ---
 title: ChartAxis.TickMarkSpacing
 linktitle: TickMarkSpacing
+articleTitle: TickMarkSpacing
 second_title: Aspose.Words for .NET API Reference
 description: ChartAxis TickMarkSpacing property. Gets or sets the interval at which tick marks are drawn in C#.
 type: docs

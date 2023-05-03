@@ -1,6 +1,7 @@
 ---
 title: FieldStart.FieldData
 linktitle: FieldData
+articleTitle: FieldData
 second_title: Aspose.Words for .NET API Reference
 description: FieldStart FieldData property. Gets custom field data which is associated with the field in C#.
 type: docs

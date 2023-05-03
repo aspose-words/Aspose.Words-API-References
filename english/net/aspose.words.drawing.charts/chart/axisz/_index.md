@@ -1,6 +1,7 @@
 ---
 title: Chart.AxisZ
 linktitle: AxisZ
+articleTitle: AxisZ
 second_title: Aspose.Words for .NET API Reference
 description: Chart AxisZ property. Provides access to properties of the Z axis of the chart in C#.
 type: docs

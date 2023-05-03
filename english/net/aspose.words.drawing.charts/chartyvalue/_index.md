@@ -1,6 +1,7 @@
 ---
 title: ChartYValue Class
 linktitle: ChartYValue
+articleTitle: ChartYValue
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Drawing.Charts.ChartYValue class. Represents an Y value for a chart series in C#.
 type: docs

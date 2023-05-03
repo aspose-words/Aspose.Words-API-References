@@ -1,6 +1,7 @@
 ---
 title: Table.Description
 linktitle: Description
+articleTitle: Description
 second_title: Aspose.Words for .NET API Reference
 description: Table Description property. Gets or sets description of this table. It provides an alternative text representation of the information contained in the table in C#.
 type: docs

@@ -1,6 +1,7 @@
 ---
 title: DocumentVisitor.VisitRun
 linktitle: VisitRun
+articleTitle: VisitRun
 second_title: Aspose.Words for .NET API Reference
 description: DocumentVisitor VisitRun method. Called when a run of text in the is encountered in C#.
 type: docs

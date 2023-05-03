@@ -1,6 +1,7 @@
 ---
 title: CustomPart.ContentType
 linktitle: ContentType
+articleTitle: ContentType
 second_title: Aspose.Words for .NET API Reference
 description: CustomPart ContentType property. Specifies the content type of this custom part in C#.
 type: docs

@@ -1,6 +1,7 @@
 ---
 title: PageSetup.PageNumberStyle
 linktitle: PageNumberStyle
+articleTitle: PageNumberStyle
 second_title: Aspose.Words for .NET API Reference
 description: PageSetup PageNumberStyle property. Gets or sets the page number format in C#.
 type: docs

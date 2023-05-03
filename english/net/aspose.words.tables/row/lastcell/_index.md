@@ -1,6 +1,7 @@
 ---
 title: Row.LastCell
 linktitle: LastCell
+articleTitle: LastCell
 second_title: Aspose.Words for .NET API Reference
 description: Row LastCell property. Returns the last Cell in the row in C#.
 type: docs

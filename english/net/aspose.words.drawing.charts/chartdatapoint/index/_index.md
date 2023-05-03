@@ -1,6 +1,7 @@
 ---
 title: ChartDataPoint.Index
 linktitle: Index
+articleTitle: Index
 second_title: Aspose.Words for .NET API Reference
 description: ChartDataPoint Index property. Index of the data point this object applies formatting to in C#.
 type: docs

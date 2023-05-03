@@ -1,6 +1,7 @@
 ---
 title: Glyph.Clone
 linktitle: Clone
+articleTitle: Clone
 second_title: Aspose.Words for .NET API Reference
 description: Glyph Clone method. Returns a clone of this instance in C#.
 type: docs

@@ -1,6 +1,7 @@
 ---
 title: FieldToa.EntryCategory
 linktitle: EntryCategory
+articleTitle: EntryCategory
 second_title: Aspose.Words for .NET API Reference
 description: FieldToa EntryCategory property. Gets or sets the integral category for entries included in the table in C#.
 type: docs

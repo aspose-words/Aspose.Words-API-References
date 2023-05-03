@@ -1,6 +1,7 @@
 ---
 title: ChartAxis.DisplayUnit
 linktitle: DisplayUnit
+articleTitle: DisplayUnit
 second_title: Aspose.Words for .NET API Reference
 description: ChartAxis DisplayUnit property. Specifies the scaling value of the display units for the value axis in C#.
 type: docs

@@ -1,6 +1,7 @@
 ---
 title: LayoutEnumerator.MoveFirstChild
 linktitle: MoveFirstChild
+articleTitle: MoveFirstChild
 second_title: Aspose.Words for .NET API Reference
 description: LayoutEnumerator MoveFirstChild method. Moves to the first child entity in C#.
 type: docs

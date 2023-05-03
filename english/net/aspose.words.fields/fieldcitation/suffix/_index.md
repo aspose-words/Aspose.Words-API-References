@@ -1,6 +1,7 @@
 ---
 title: FieldCitation.Suffix
 linktitle: Suffix
+articleTitle: Suffix
 second_title: Aspose.Words for .NET API Reference
 description: FieldCitation Suffix property. Gets or sets a suffix that is appended to the citation in C#.
 type: docs

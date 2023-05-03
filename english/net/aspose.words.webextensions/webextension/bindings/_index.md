@@ -1,6 +1,7 @@
 ---
 title: WebExtension.Bindings
 linktitle: Bindings
+articleTitle: Bindings
 second_title: Aspose.Words for .NET API Reference
 description: WebExtension Bindings property. Specifies a list of web extension bindings in C#.
 type: docs

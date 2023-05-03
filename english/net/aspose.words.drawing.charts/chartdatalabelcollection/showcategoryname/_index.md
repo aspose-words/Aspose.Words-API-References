@@ -1,6 +1,7 @@
 ---
 title: ChartDataLabelCollection.ShowCategoryName
 linktitle: ShowCategoryName
+articleTitle: ShowCategoryName
 second_title: Aspose.Words for .NET API Reference
 description: ChartDataLabelCollection ShowCategoryName property. Allows to specify whether category name is to be displayed for the data labels of the entire series. Default value is false in C#.
 type: docs

@@ -1,6 +1,7 @@
 ---
 title: Font.AutoColor
 linktitle: AutoColor
+articleTitle: AutoColor
 second_title: Aspose.Words for .NET API Reference
 description: Font AutoColor property. Returns the present calculated color of the text black or white to be used for auto color. If the color is not auto then returns Color in C#.
 type: docs

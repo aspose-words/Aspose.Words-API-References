@@ -1,6 +1,7 @@
 ---
 title: FrameFormat.VerticalAlignment
 linktitle: VerticalAlignment
+articleTitle: VerticalAlignment
 second_title: Aspose.Words for .NET API Reference
 description: FrameFormat VerticalAlignment property. Gets vertical alignment of the specified frame in C#.
 type: docs

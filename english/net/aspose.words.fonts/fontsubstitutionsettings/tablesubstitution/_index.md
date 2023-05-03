@@ -1,6 +1,7 @@
 ---
 title: FontSubstitutionSettings.TableSubstitution
 linktitle: TableSubstitution
+articleTitle: TableSubstitution
 second_title: Aspose.Words for .NET API Reference
 description: FontSubstitutionSettings TableSubstitution property. Settings related to table substitution rule in C#.
 type: docs

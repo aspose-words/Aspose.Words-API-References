@@ -1,6 +1,7 @@
 ---
 title: SectionCollection.ToArray
 linktitle: ToArray
+articleTitle: ToArray
 second_title: Aspose.Words for .NET API Reference
 description: SectionCollection ToArray method. Copies all sections from the collection to a new array of sections in C#.
 type: docs

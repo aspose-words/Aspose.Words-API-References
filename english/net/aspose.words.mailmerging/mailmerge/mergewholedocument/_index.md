@@ -1,6 +1,7 @@
 ---
 title: MailMerge.MergeWholeDocument
 linktitle: MergeWholeDocument
+articleTitle: MergeWholeDocument
 second_title: Aspose.Words for .NET API Reference
 description: MailMerge MergeWholeDocument property. Gets or sets a value indicating whether fields in whole document are updated while executing of a mail merge with regions in C#.
 type: docs

@@ -1,6 +1,7 @@
 ---
 title: FontSavingArgs.FontFileName
 linktitle: FontFileName
+articleTitle: FontFileName
 second_title: Aspose.Words for .NET API Reference
 description: FontSavingArgs FontFileName property. Gets or sets the file name without path where the font will be saved to in C#.
 type: docs

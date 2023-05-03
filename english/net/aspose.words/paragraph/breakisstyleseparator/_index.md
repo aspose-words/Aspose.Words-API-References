@@ -1,6 +1,7 @@
 ---
 title: Paragraph.BreakIsStyleSeparator
 linktitle: BreakIsStyleSeparator
+articleTitle: BreakIsStyleSeparator
 second_title: Aspose.Words for .NET API Reference
 description: Paragraph BreakIsStyleSeparator property. True if this paragraph break is a Style Separator. A style separator allows one paragraph to consist of parts that have different paragraph styles in C#.
 type: docs

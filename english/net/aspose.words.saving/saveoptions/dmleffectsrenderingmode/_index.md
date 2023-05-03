@@ -1,6 +1,7 @@
 ---
 title: SaveOptions.DmlEffectsRenderingMode
 linktitle: DmlEffectsRenderingMode
+articleTitle: DmlEffectsRenderingMode
 second_title: Aspose.Words for .NET API Reference
 description: SaveOptions DmlEffectsRenderingMode property. Gets or sets a value determining how DrawingML effects are rendered in C#.
 type: docs

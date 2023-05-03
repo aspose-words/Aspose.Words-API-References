@@ -1,6 +1,7 @@
 ---
 title: ITextShaper Interface
 linktitle: ITextShaper
+articleTitle: ITextShaper
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Shaping.ITextShaper interface. Provides methods for text shaping in C#.
 type: docs

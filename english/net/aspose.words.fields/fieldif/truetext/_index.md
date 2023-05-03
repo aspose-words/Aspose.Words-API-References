@@ -1,6 +1,7 @@
 ---
 title: FieldIf.TrueText
 linktitle: TrueText
+articleTitle: TrueText
 second_title: Aspose.Words for .NET API Reference
 description: FieldIf TrueText property. Gets or sets the text displayed if the comparison expression is true in C#.
 type: docs

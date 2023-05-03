@@ -1,6 +1,7 @@
 ---
 title: Font.NameAscii
 linktitle: NameAscii
+articleTitle: NameAscii
 second_title: Aspose.Words for .NET API Reference
 description: Font NameAscii property. Returns or sets the font used for Latin text characters with character codes from 0 zero through 127 in C#.
 type: docs

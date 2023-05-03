@@ -1,6 +1,7 @@
 ---
 title: Stroke.EndArrowLength
 linktitle: EndArrowLength
+articleTitle: EndArrowLength
 second_title: Aspose.Words for .NET API Reference
 description: Stroke EndArrowLength property. Defines the arrowhead length for the end of a stroke in C#.
 type: docs

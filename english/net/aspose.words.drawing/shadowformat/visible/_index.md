@@ -1,6 +1,7 @@
 ---
 title: ShadowFormat.Visible
 linktitle: Visible
+articleTitle: Visible
 second_title: Aspose.Words for .NET API Reference
 description: ShadowFormat Visible property. Returns true if the formatting applied to this instance is visible in C#.
 type: docs

@@ -1,6 +1,7 @@
 ---
 title: FileFormatInfo.LoadFormat
 linktitle: LoadFormat
+articleTitle: LoadFormat
 second_title: Aspose.Words for .NET API Reference
 description: FileFormatInfo LoadFormat property. Gets the detected document format in C#.
 type: docs

@@ -1,6 +1,7 @@
 ---
 title: MailMergeSettings.Clear
 linktitle: Clear
+articleTitle: Clear
 second_title: Aspose.Words for .NET API Reference
 description: MailMergeSettings Clear method. Clears the mail merge settings in such a way that when the document is saved no mail merge settings will be saved and it will become a normal document in C#.
 type: docs

@@ -1,6 +1,7 @@
 ---
 title: FieldAddIn Class
 linktitle: FieldAddIn
+articleTitle: FieldAddIn
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FieldAddIn class. Implements the ADDIN field in C#.
 type: docs

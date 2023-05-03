@@ -1,6 +1,7 @@
 ---
 title: Font.Bold
 linktitle: Bold
+articleTitle: Bold
 second_title: Aspose.Words for .NET API Reference
 description: Font Bold property. True if the font is formatted as bold in C#.
 type: docs

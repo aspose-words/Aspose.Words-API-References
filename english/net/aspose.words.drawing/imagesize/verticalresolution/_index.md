@@ -1,6 +1,7 @@
 ---
 title: ImageSize.VerticalResolution
 linktitle: VerticalResolution
+articleTitle: VerticalResolution
 second_title: Aspose.Words for .NET API Reference
 description: ImageSize VerticalResolution property. Gets the vertical resolution in DPI in C#.
 type: docs

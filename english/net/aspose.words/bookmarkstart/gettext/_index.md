@@ -1,6 +1,7 @@
 ---
 title: BookmarkStart.GetText
 linktitle: GetText
+articleTitle: GetText
 second_title: Aspose.Words for .NET API Reference
 description: BookmarkStart GetText method. Returns an empty string in C#.
 type: docs

@@ -1,6 +1,7 @@
 ---
 title: GlossaryDocument.FirstBuildingBlock
 linktitle: FirstBuildingBlock
+articleTitle: FirstBuildingBlock
 second_title: Aspose.Words for .NET API Reference
 description: GlossaryDocument FirstBuildingBlock property. Gets the first building block in the glossary document in C#.
 type: docs

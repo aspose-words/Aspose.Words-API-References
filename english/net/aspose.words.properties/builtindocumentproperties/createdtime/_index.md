@@ -1,6 +1,7 @@
 ---
 title: BuiltInDocumentProperties.CreatedTime
 linktitle: CreatedTime
+articleTitle: CreatedTime
 second_title: Aspose.Words for .NET API Reference
 description: BuiltInDocumentProperties CreatedTime property. Gets or sets date of the document creation in UTC in C#.
 type: docs

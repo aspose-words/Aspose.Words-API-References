@@ -1,6 +1,7 @@
 ---
 title: TextPath.Size
 linktitle: Size
+articleTitle: Size
 second_title: Aspose.Words for .NET API Reference
 description: TextPath Size property. Defines the size of the font in points in C#.
 type: docs

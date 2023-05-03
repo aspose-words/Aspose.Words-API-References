@@ -1,6 +1,7 @@
 ---
 title: ShapeBase.LocalToParent
 linktitle: LocalToParent
+articleTitle: LocalToParent
 second_title: Aspose.Words for .NET API Reference
 description: ShapeBase LocalToParent method. Converts a value from the local coordinate space into the coordinate space of the parent shape in C#.
 type: docs

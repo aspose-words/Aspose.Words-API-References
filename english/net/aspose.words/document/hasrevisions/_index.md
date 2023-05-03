@@ -1,6 +1,7 @@
 ---
 title: Document.HasRevisions
 linktitle: HasRevisions
+articleTitle: HasRevisions
 second_title: Aspose.Words for .NET API Reference
 description: Document HasRevisions property. Returns true if the document has any tracked changes in C#.
 type: docs

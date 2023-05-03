@@ -1,6 +1,7 @@
 ---
 title: SdtListItem.DisplayText
 linktitle: DisplayText
+articleTitle: DisplayText
 second_title: Aspose.Words for .NET API Reference
 description: SdtListItem DisplayText property. Gets the text to display in the run content in place of the Value attribute contents for this list item in C#.
 type: docs

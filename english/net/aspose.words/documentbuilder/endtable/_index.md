@@ -1,6 +1,7 @@
 ---
 title: DocumentBuilder.EndTable
 linktitle: EndTable
+articleTitle: EndTable
 second_title: Aspose.Words for .NET API Reference
 description: DocumentBuilder EndTable method. Ends a table in the document in C#.
 type: docs

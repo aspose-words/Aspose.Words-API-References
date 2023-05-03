@@ -1,6 +1,7 @@
 ---
 title: FootnoteOptions.RestartRule
 linktitle: RestartRule
+articleTitle: RestartRule
 second_title: Aspose.Words for .NET API Reference
 description: FootnoteOptions RestartRule property. Determines when automatic numbering restarts in C#.
 type: docs

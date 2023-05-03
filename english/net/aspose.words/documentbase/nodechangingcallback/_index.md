@@ -1,6 +1,7 @@
 ---
 title: DocumentBase.NodeChangingCallback
 linktitle: NodeChangingCallback
+articleTitle: NodeChangingCallback
 second_title: Aspose.Words for .NET API Reference
 description: DocumentBase NodeChangingCallback property. Called when a node is inserted or removed in the document in C#.
 type: docs

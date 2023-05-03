@@ -1,6 +1,7 @@
 ---
 title: Odso.TableName
 linktitle: TableName
+articleTitle: TableName
 second_title: Aspose.Words for .NET API Reference
 description: Odso TableName property. Specifies the particular set of data that a source shall be connected to within an external data source. The default value is an empty string in C#.
 type: docs

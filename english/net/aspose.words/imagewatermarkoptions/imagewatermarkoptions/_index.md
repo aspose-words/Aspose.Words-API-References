@@ -1,6 +1,7 @@
 ---
 title: ImageWatermarkOptions
 linktitle: ImageWatermarkOptions
+articleTitle: ImageWatermarkOptions
 second_title: Aspose.Words for .NET API Reference
 description: ImageWatermarkOptions constructor. The default constructor in C#.
 type: docs

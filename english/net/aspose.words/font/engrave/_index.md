@@ -1,6 +1,7 @@
 ---
 title: Font.Engrave
 linktitle: Engrave
+articleTitle: Engrave
 second_title: Aspose.Words for .NET API Reference
 description: Font Engrave property. True if the font is formatted as engraved in C#.
 type: docs

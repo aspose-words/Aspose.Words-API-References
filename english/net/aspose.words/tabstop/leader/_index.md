@@ -1,6 +1,7 @@
 ---
 title: TabStop.Leader
 linktitle: Leader
+articleTitle: Leader
 second_title: Aspose.Words for .NET API Reference
 description: TabStop Leader property. Gets or sets the type of the leader line displayed under the tab character in C#.
 type: docs

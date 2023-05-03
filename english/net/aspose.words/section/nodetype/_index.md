@@ -1,6 +1,7 @@
 ---
 title: Section.NodeType
 linktitle: NodeType
+articleTitle: NodeType
 second_title: Aspose.Words for .NET API Reference
 description: Section NodeType property. Returns Section in C#.
 type: docs

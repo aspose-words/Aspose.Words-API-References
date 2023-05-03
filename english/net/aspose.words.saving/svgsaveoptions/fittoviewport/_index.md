@@ -1,6 +1,7 @@
 ---
 title: SvgSaveOptions.FitToViewPort
 linktitle: FitToViewPort
+articleTitle: FitToViewPort
 second_title: Aspose.Words for .NET API Reference
 description: SvgSaveOptions FitToViewPort property. Specifies if the output SVG should fill the available viewport area browser window or container. When set to true width and height of output SVG are set to 100 in C#.
 type: docs

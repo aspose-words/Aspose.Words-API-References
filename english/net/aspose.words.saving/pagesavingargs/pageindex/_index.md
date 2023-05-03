@@ -1,6 +1,7 @@
 ---
 title: PageSavingArgs.PageIndex
 linktitle: PageIndex
+articleTitle: PageIndex
 second_title: Aspose.Words for .NET API Reference
 description: PageSavingArgs PageIndex property. Current page index in C#.
 type: docs

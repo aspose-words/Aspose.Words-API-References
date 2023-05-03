@@ -1,6 +1,7 @@
 ---
 title: PageSetup.PaperSize
 linktitle: PaperSize
+articleTitle: PaperSize
 second_title: Aspose.Words for .NET API Reference
 description: PageSetup PaperSize property. Returns or sets the paper size in C#.
 type: docs

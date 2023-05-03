@@ -1,6 +1,7 @@
 ---
 title: FieldNoteRef.InsertReferenceMark
 linktitle: InsertReferenceMark
+articleTitle: InsertReferenceMark
 second_title: Aspose.Words for .NET API Reference
 description: FieldNoteRef InsertReferenceMark property. Inserts the reference mark with the same character formatting as the Footnote Reference or Endnote Reference style in C#.
 type: docs

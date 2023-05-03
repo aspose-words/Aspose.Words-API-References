@@ -1,6 +1,7 @@
 ---
 title: DigitalSignature.SignatureType
 linktitle: SignatureType
+articleTitle: SignatureType
 second_title: Aspose.Words for .NET API Reference
 description: DigitalSignature SignatureType property. Gets the type of the digital signature in C#.
 type: docs

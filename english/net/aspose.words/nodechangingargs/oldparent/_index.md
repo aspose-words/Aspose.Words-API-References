@@ -1,6 +1,7 @@
 ---
 title: NodeChangingArgs.OldParent
 linktitle: OldParent
+articleTitle: OldParent
 second_title: Aspose.Words for .NET API Reference
 description: NodeChangingArgs OldParent property. Gets the nodes parent before the operation began in C#.
 type: docs

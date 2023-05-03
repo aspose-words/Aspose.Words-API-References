@@ -1,6 +1,7 @@
 ---
 title: CompatibilityOptions.UseWord2002TableStyleRules
 linktitle: UseWord2002TableStyleRules
+articleTitle: UseWord2002TableStyleRules
 second_title: Aspose.Words for .NET API Reference
 description: CompatibilityOptions UseWord2002TableStyleRules property. Emulate Word 2002 Table Style Rules in C#.
 type: docs

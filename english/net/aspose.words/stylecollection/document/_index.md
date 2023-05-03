@@ -1,6 +1,7 @@
 ---
 title: StyleCollection.Document
 linktitle: Document
+articleTitle: Document
 second_title: Aspose.Words for .NET API Reference
 description: StyleCollection Document property. Gets the owner document in C#.
 type: docs

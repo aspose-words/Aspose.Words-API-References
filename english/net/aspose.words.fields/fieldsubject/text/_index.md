@@ -1,6 +1,7 @@
 ---
 title: FieldSubject.Text
 linktitle: Text
+articleTitle: Text
 second_title: Aspose.Words for .NET API Reference
 description: FieldSubject Text property. Gets or sets the text of the subject in C#.
 type: docs

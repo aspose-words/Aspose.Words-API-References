@@ -1,6 +1,7 @@
 ---
 title: Font.LineSpacing
 linktitle: LineSpacing
+articleTitle: LineSpacing
 second_title: Aspose.Words for .NET API Reference
 description: Font LineSpacing property. Returns line spacing of this font in points in C#.
 type: docs

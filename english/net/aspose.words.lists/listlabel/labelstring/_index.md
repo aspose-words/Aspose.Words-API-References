@@ -1,6 +1,7 @@
 ---
 title: ListLabel.LabelString
 linktitle: LabelString
+articleTitle: LabelString
 second_title: Aspose.Words for .NET API Reference
 description: ListLabel LabelString property. Gets a string representation of list label in C#.
 type: docs

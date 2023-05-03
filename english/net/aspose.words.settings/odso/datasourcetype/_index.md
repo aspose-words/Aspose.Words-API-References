@@ -1,6 +1,7 @@
 ---
 title: Odso.DataSourceType
 linktitle: DataSourceType
+articleTitle: DataSourceType
 second_title: Aspose.Words for .NET API Reference
 description: Odso DataSourceType property. Specifies the type of the external data source to be connected to as part of the ODSO connection information for this mail merge. The default value is Default in C#.
 type: docs

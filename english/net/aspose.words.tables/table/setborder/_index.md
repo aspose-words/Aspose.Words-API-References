@@ -1,6 +1,7 @@
 ---
 title: Table.SetBorder
 linktitle: SetBorder
+articleTitle: SetBorder
 second_title: Aspose.Words for .NET API Reference
 description: Table SetBorder method. Sets the specified table border to the specified line style width and color in C#.
 type: docs

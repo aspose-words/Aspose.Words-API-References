@@ -1,6 +1,7 @@
 ---
 title: BuiltInDocumentProperties.Subject
 linktitle: Subject
+articleTitle: Subject
 second_title: Aspose.Words for .NET API Reference
 description: BuiltInDocumentProperties Subject property. Gets or sets the subject of the document in C#.
 type: docs

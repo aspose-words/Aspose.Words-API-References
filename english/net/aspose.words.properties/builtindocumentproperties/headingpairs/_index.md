@@ -1,6 +1,7 @@
 ---
 title: BuiltInDocumentProperties.HeadingPairs
 linktitle: HeadingPairs
+articleTitle: HeadingPairs
 second_title: Aspose.Words for .NET API Reference
 description: BuiltInDocumentProperties HeadingPairs property. Specifies document headings and their names in C#.
 type: docs

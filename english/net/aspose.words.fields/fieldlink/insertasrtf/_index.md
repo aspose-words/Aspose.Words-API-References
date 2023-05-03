@@ -1,6 +1,7 @@
 ---
 title: FieldLink.InsertAsRtf
 linktitle: InsertAsRtf
+articleTitle: InsertAsRtf
 second_title: Aspose.Words for .NET API Reference
 description: FieldLink InsertAsRtf property. Gets or sets whether to insert the linked object in richtext format RTF in C#.
 type: docs

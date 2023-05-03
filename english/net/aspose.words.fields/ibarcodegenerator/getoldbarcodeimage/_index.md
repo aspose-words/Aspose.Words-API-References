@@ -1,6 +1,7 @@
 ---
 title: IBarcodeGenerator.GetOldBarcodeImage
 linktitle: GetOldBarcodeImage
+articleTitle: GetOldBarcodeImage
 second_title: Aspose.Words for .NET API Reference
 description: IBarcodeGenerator GetOldBarcodeImage method. Generate barcode image using the set of parameters for oldfashioned Barcode field in C#.
 type: docs

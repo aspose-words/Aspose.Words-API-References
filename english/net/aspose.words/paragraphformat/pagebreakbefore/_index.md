@@ -1,6 +1,7 @@
 ---
 title: ParagraphFormat.PageBreakBefore
 linktitle: PageBreakBefore
+articleTitle: PageBreakBefore
 second_title: Aspose.Words for .NET API Reference
 description: ParagraphFormat PageBreakBefore property. True if a page break is forced before the paragraph in C#.
 type: docs

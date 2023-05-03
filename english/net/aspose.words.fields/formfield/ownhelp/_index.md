@@ -1,6 +1,7 @@
 ---
 title: FormField.OwnHelp
 linktitle: OwnHelp
+articleTitle: OwnHelp
 second_title: Aspose.Words for .NET API Reference
 description: FormField OwnHelp property. Specifies the source of the text thats displayed in a message box when a form field has the focus and the user presses F1 in C#.
 type: docs

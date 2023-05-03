@@ -1,6 +1,7 @@
 ---
 title: FieldTA.EntryCategory
 linktitle: EntryCategory
+articleTitle: EntryCategory
 second_title: Aspose.Words for .NET API Reference
 description: FieldTA EntryCategory property. Gets or sets the integral entry category which is a number that corresponds to the order of categories in C#.
 type: docs

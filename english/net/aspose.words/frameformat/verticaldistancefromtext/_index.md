@@ -1,6 +1,7 @@
 ---
 title: FrameFormat.VerticalDistanceFromText
 linktitle: VerticalDistanceFromText
+articleTitle: VerticalDistanceFromText
 second_title: Aspose.Words for .NET API Reference
 description: FrameFormat VerticalDistanceFromText property. Specifies vertical distance in points between a frame and the surrounding text in C#.
 type: docs

@@ -1,6 +1,7 @@
 ---
 title: Paragraph.ParentSection
 linktitle: ParentSection
+articleTitle: ParentSection
 second_title: Aspose.Words for .NET API Reference
 description: Paragraph ParentSection property. Retrieves the parent Section of the paragraph in C#.
 type: docs

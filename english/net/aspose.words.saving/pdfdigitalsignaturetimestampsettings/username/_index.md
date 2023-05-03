@@ -1,6 +1,7 @@
 ---
 title: PdfDigitalSignatureTimestampSettings.UserName
 linktitle: UserName
+articleTitle: UserName
 second_title: Aspose.Words for .NET API Reference
 description: PdfDigitalSignatureTimestampSettings UserName property. Timestamp server user name in C#.
 type: docs

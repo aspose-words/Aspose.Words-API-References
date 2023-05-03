@@ -1,6 +1,7 @@
 ---
 title: PrinterSettingsContainer.PaperSources
 linktitle: PaperSources
+articleTitle: PaperSources
 second_title: Aspose.Words for .NET API Reference
 description: PrinterSettingsContainer PaperSources property. See PaperSources in C#.
 type: docs

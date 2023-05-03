@@ -1,6 +1,7 @@
 ---
 title: NodeChangingArgs.Node
 linktitle: Node
+articleTitle: Node
 second_title: Aspose.Words for .NET API Reference
 description: NodeChangingArgs Node property. Gets the Node that is being added or removed in C#.
 type: docs

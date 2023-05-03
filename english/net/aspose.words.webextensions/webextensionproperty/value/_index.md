@@ -1,6 +1,7 @@
 ---
 title: WebExtensionProperty.Value
 linktitle: Value
+articleTitle: Value
 second_title: Aspose.Words for .NET API Reference
 description: WebExtensionProperty Value property. Specifies a custom property value in C#.
 type: docs

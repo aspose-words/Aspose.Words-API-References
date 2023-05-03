@@ -1,6 +1,7 @@
 ---
 title: BookmarkCollection.Count
 linktitle: Count
+articleTitle: Count
 second_title: Aspose.Words for .NET API Reference
 description: BookmarkCollection Count property. Returns the number of bookmarks in the collection in C#.
 type: docs

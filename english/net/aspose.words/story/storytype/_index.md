@@ -1,6 +1,7 @@
 ---
 title: Story.StoryType
 linktitle: StoryType
+articleTitle: StoryType
 second_title: Aspose.Words for .NET API Reference
 description: Story StoryType property. Gets the type of this story in C#.
 type: docs

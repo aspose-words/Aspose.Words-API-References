@@ -1,6 +1,7 @@
 ---
 title: CompatibilityOptions.SubFontBySize
 linktitle: SubFontBySize
+articleTitle: SubFontBySize
 second_title: Aspose.Words for .NET API Reference
 description: CompatibilityOptions SubFontBySize property. Increase Priority Of Font Size During Font Substitution in C#.
 type: docs

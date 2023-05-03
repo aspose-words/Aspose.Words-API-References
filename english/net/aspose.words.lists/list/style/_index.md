@@ -1,6 +1,7 @@
 ---
 title: List.Style
 linktitle: Style
+articleTitle: Style
 second_title: Aspose.Words for .NET API Reference
 description: List Style property. Gets the list style that this list references or defines in C#.
 type: docs

@@ -1,6 +1,7 @@
 ---
 title: OleFormat.SuggestedFileName
 linktitle: SuggestedFileName
+articleTitle: SuggestedFileName
 second_title: Aspose.Words for .NET API Reference
 description: OleFormat SuggestedFileName property. Gets the file name suggested for the current embedded object if you want to save it into a file in C#.
 type: docs

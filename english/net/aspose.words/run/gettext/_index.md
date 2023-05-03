@@ -1,6 +1,7 @@
 ---
 title: Run.GetText
 linktitle: GetText
+articleTitle: GetText
 second_title: Aspose.Words for .NET API Reference
 description: Run GetText method. Gets the text of the run in C#.
 type: docs

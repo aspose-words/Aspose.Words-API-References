@@ -1,6 +1,7 @@
 ---
 title: DocumentProperty.ToByteArray
 linktitle: ToByteArray
+articleTitle: ToByteArray
 second_title: Aspose.Words for .NET API Reference
 description: DocumentProperty ToByteArray method. Returns the property value as byte array in C#.
 type: docs

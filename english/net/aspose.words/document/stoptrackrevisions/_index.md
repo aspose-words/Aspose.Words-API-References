@@ -1,6 +1,7 @@
 ---
 title: Document.StopTrackRevisions
 linktitle: StopTrackRevisions
+articleTitle: StopTrackRevisions
 second_title: Aspose.Words for .NET API Reference
 description: Document StopTrackRevisions method. Stops automatic marking of document changes as revisions in C#.
 type: docs

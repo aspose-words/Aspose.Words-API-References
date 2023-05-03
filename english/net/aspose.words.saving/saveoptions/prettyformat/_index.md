@@ -1,6 +1,7 @@
 ---
 title: SaveOptions.PrettyFormat
 linktitle: PrettyFormat
+articleTitle: PrettyFormat
 second_title: Aspose.Words for .NET API Reference
 description: SaveOptions PrettyFormat property. When true pretty formats output where applicable. Default value is false in C#.
 type: docs

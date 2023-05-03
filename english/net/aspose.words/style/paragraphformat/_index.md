@@ -1,6 +1,7 @@
 ---
 title: Style.ParagraphFormat
 linktitle: ParagraphFormat
+articleTitle: ParagraphFormat
 second_title: Aspose.Words for .NET API Reference
 description: Style ParagraphFormat property. Gets the paragraph formatting of the style in C#.
 type: docs

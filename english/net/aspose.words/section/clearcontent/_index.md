@@ -1,6 +1,7 @@
 ---
 title: Section.ClearContent
 linktitle: ClearContent
+articleTitle: ClearContent
 second_title: Aspose.Words for .NET API Reference
 description: Section ClearContent method. Clears the section in C#.
 type: docs

@@ -1,6 +1,7 @@
 ---
 title: DocumentBuilder.Document
 linktitle: Document
+articleTitle: Document
 second_title: Aspose.Words for .NET API Reference
 description: DocumentBuilder Document property. Gets or sets the Document object that this object is attached to in C#.
 type: docs

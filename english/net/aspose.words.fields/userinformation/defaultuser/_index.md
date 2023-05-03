@@ -1,6 +1,7 @@
 ---
 title: UserInformation.DefaultUser
 linktitle: DefaultUser
+articleTitle: DefaultUser
 second_title: Aspose.Words for .NET API Reference
 description: UserInformation DefaultUser property. Default user information in C#.
 type: docs

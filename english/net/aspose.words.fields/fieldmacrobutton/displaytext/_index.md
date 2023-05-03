@@ -1,6 +1,7 @@
 ---
 title: FieldMacroButton.DisplayText
 linktitle: DisplayText
+articleTitle: DisplayText
 second_title: Aspose.Words for .NET API Reference
 description: FieldMacroButton DisplayText property. Gets or sets the text to appear as the button that is selected to run the macro or command in C#.
 type: docs

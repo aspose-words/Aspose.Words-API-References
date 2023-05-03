@@ -1,6 +1,7 @@
 ---
 title: ChartYValue.FromTimeSpan
 linktitle: FromTimeSpan
+articleTitle: FromTimeSpan
 second_title: Aspose.Words for .NET API Reference
 description: ChartYValue FromTimeSpan method. Creates a ChartYValue instance of the Time type in C#.
 type: docs

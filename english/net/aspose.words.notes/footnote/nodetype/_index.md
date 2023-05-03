@@ -1,6 +1,7 @@
 ---
 title: Footnote.NodeType
 linktitle: NodeType
+articleTitle: NodeType
 second_title: Aspose.Words for .NET API Reference
 description: Footnote NodeType property. Returns Footnote in C#.
 type: docs

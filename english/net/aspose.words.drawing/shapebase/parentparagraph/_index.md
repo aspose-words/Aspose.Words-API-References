@@ -1,6 +1,7 @@
 ---
 title: ShapeBase.ParentParagraph
 linktitle: ParentParagraph
+articleTitle: ParentParagraph
 second_title: Aspose.Words for .NET API Reference
 description: ShapeBase ParentParagraph property. Returns the immediate parent paragraph in C#.
 type: docs

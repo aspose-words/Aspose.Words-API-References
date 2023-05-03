@@ -1,6 +1,7 @@
 ---
 title: FieldMergingArgsBase.FieldName
 linktitle: FieldName
+articleTitle: FieldName
 second_title: Aspose.Words for .NET API Reference
 description: FieldMergingArgsBase FieldName property. Gets the name of the merge field in the data source in C#.
 type: docs

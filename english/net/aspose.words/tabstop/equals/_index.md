@@ -1,6 +1,7 @@
 ---
 title: TabStop.Equals
 linktitle: Equals
+articleTitle: Equals
 second_title: Aspose.Words for .NET API Reference
 description: TabStop Equals method. Compares with the specified TabStop in C#.
 type: docs

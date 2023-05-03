@@ -1,6 +1,7 @@
 ---
 title: UserInformation.Name
 linktitle: Name
+articleTitle: Name
 second_title: Aspose.Words for .NET API Reference
 description: UserInformation Name property. Gets or sets the users name in C#.
 type: docs

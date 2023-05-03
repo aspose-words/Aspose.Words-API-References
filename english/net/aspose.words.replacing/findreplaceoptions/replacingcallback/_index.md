@@ -1,6 +1,7 @@
 ---
 title: FindReplaceOptions.ReplacingCallback
 linktitle: ReplacingCallback
+articleTitle: ReplacingCallback
 second_title: Aspose.Words for .NET API Reference
 description: FindReplaceOptions ReplacingCallback property. The userdefined method which is called before every replace occurrence in C#.
 type: docs

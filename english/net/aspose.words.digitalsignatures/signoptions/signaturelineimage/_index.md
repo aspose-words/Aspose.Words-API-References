@@ -1,6 +1,7 @@
 ---
 title: SignOptions.SignatureLineImage
 linktitle: SignatureLineImage
+articleTitle: SignatureLineImage
 second_title: Aspose.Words for .NET API Reference
 description: SignOptions SignatureLineImage property. The image that will be shown in associated SignatureLine. Default value is null in C#.
 type: docs

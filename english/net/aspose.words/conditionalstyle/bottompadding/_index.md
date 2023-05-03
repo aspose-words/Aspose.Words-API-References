@@ -1,6 +1,7 @@
 ---
 title: ConditionalStyle.BottomPadding
 linktitle: BottomPadding
+articleTitle: BottomPadding
 second_title: Aspose.Words for .NET API Reference
 description: ConditionalStyle BottomPadding property. Gets or sets the amount of space in points to add below the contents of table cells in C#.
 type: docs

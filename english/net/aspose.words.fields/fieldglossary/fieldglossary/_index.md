@@ -1,6 +1,7 @@
 ---
 title: FieldGlossary
 linktitle: FieldGlossary
+articleTitle: FieldGlossary
 second_title: Aspose.Words for .NET API Reference
 description: FieldGlossary constructor. The default constructor in C#.
 type: docs

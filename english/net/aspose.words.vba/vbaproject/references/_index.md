@@ -1,6 +1,7 @@
 ---
 title: VbaProject.References
 linktitle: References
+articleTitle: References
 second_title: Aspose.Words for .NET API Reference
 description: VbaProject References property. Gets a collection of VBA project references in C#.
 type: docs

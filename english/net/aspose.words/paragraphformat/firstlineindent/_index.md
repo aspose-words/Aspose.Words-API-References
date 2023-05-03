@@ -1,6 +1,7 @@
 ---
 title: ParagraphFormat.FirstLineIndent
 linktitle: FirstLineIndent
+articleTitle: FirstLineIndent
 second_title: Aspose.Words for .NET API Reference
 description: ParagraphFormat FirstLineIndent property. Gets or sets the value in points for a first line or hanging indent in C#.
 type: docs

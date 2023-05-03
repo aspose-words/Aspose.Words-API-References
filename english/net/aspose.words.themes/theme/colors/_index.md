@@ -1,6 +1,7 @@
 ---
 title: Theme.Colors
 linktitle: Colors
+articleTitle: Colors
 second_title: Aspose.Words for .NET API Reference
 description: Theme Colors property. Allows to specify the set of theme colors for the document in C#.
 type: docs

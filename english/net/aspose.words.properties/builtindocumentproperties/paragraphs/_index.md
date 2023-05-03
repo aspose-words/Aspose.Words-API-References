@@ -1,6 +1,7 @@
 ---
 title: BuiltInDocumentProperties.Paragraphs
 linktitle: Paragraphs
+articleTitle: Paragraphs
 second_title: Aspose.Words for .NET API Reference
 description: BuiltInDocumentProperties Paragraphs property. Represents an estimate of the number of paragraphs in the document in C#.
 type: docs

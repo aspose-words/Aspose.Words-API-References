@@ -1,6 +1,7 @@
 ---
 title: HtmlSaveOptions.ExportListLabels
 linktitle: ExportListLabels
+articleTitle: ExportListLabels
 second_title: Aspose.Words for .NET API Reference
 description: HtmlSaveOptions ExportListLabels property. Controls how list labels are output to HTML MHTML or EPUB. Default value is Auto in C#.
 type: docs

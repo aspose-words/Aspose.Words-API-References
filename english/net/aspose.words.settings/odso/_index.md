@@ -1,6 +1,7 @@
 ---
 title: Odso Class
 linktitle: Odso
+articleTitle: Odso
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Settings.Odso class. Specifies the Office Data Source Object ODSO settings for a mail merge data source in C#.
 type: docs

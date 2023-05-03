@@ -1,6 +1,7 @@
 ---
 title: ChmLoadOptions Class
 linktitle: ChmLoadOptions
+articleTitle: ChmLoadOptions
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Loading.ChmLoadOptions class. Allows to specify additional options when loading CHM document into a Document object in C#.
 type: docs

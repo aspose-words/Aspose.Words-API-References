@@ -1,6 +1,7 @@
 ---
 title: TextBox.LayoutFlow
 linktitle: LayoutFlow
+articleTitle: LayoutFlow
 second_title: Aspose.Words for .NET API Reference
 description: TextBox LayoutFlow property. Determines the flow of the text layout in a shape in C#.
 type: docs

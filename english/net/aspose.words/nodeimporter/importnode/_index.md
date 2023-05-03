@@ -1,6 +1,7 @@
 ---
 title: NodeImporter.ImportNode
 linktitle: ImportNode
+articleTitle: ImportNode
 second_title: Aspose.Words for .NET API Reference
 description: NodeImporter ImportNode method. Imports a node from one document into another in C#.
 type: docs

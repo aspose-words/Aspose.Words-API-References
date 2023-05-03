@@ -1,6 +1,7 @@
 ---
 title: ListCollection.GetEnumerator
 linktitle: GetEnumerator
+articleTitle: GetEnumerator
 second_title: Aspose.Words for .NET API Reference
 description: ListCollection GetEnumerator method. Gets the enumerator object that will enumerate lists in the document in C#.
 type: docs

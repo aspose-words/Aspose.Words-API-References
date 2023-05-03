@@ -1,6 +1,7 @@
 ---
 title: ChartDataLabelCollection.ShowPercentage
 linktitle: ShowPercentage
+articleTitle: ShowPercentage
 second_title: Aspose.Words for .NET API Reference
 description: ChartDataLabelCollection ShowPercentage property. Allows to specify whether percentage value is to be displayed for the data labels of the entire series. Default value is false. Applies only to Pie charts in C#.
 type: docs

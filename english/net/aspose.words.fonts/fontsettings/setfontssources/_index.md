@@ -1,6 +1,7 @@
 ---
 title: FontSettings.SetFontsSources
 linktitle: SetFontsSources
+articleTitle: SetFontsSources
 second_title: Aspose.Words for .NET API Reference
 description: FontSettings SetFontsSources method. Sets the sources where Aspose.Words looks for TrueType fonts when rendering documents or embedding fonts in C#.
 type: docs

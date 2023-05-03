@@ -1,6 +1,7 @@
 ---
 title: ImageSaveOptions.TiffCompression
 linktitle: TiffCompression
+articleTitle: TiffCompression
 second_title: Aspose.Words for .NET API Reference
 description: ImageSaveOptions TiffCompression property. Gets or sets the type of compression to apply when saving generated images to the TIFF format in C#.
 type: docs

@@ -1,6 +1,7 @@
 ---
 title: ListLevel.Font
 linktitle: Font
+articleTitle: Font
 second_title: Aspose.Words for .NET API Reference
 description: ListLevel Font property. Specifies character formatting used for the list label in C#.
 type: docs

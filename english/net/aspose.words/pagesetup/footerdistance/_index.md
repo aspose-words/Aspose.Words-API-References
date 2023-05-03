@@ -1,6 +1,7 @@
 ---
 title: PageSetup.FooterDistance
 linktitle: FooterDistance
+articleTitle: FooterDistance
 second_title: Aspose.Words for .NET API Reference
 description: PageSetup FooterDistance property. Returns or sets the distance in points between the footer and the bottom of the page in C#.
 type: docs

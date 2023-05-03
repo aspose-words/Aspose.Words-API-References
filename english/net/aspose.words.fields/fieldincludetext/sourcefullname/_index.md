@@ -1,6 +1,7 @@
 ---
 title: FieldIncludeText.SourceFullName
 linktitle: SourceFullName
+articleTitle: SourceFullName
 second_title: Aspose.Words for .NET API Reference
 description: FieldIncludeText SourceFullName property. Gets or sets the location of the document using an IRI in C#.
 type: docs

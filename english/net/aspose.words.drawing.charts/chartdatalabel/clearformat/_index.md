@@ -1,6 +1,7 @@
 ---
 title: ChartDataLabel.ClearFormat
 linktitle: ClearFormat
+articleTitle: ClearFormat
 second_title: Aspose.Words for .NET API Reference
 description: ChartDataLabel ClearFormat method. Clears format of this data label. The properties are set to the default values defined in the parent data label collection in C#.
 type: docs

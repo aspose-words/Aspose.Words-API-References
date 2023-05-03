@@ -1,6 +1,7 @@
 ---
 title: ChartMultilevelValue.Equals
 linktitle: Equals
+articleTitle: Equals
 second_title: Aspose.Words for .NET API Reference
 description: ChartMultilevelValue Equals method. Gets a flag indicating whether the specified object is equal to the current multilevel data object in C#.
 type: docs

@@ -1,6 +1,7 @@
 ---
 title: PreferredWidth.FromPoints
 linktitle: FromPoints
+articleTitle: FromPoints
 second_title: Aspose.Words for .NET API Reference
 description: PreferredWidth FromPoints method. A creation method that returns a new instance that represents a preferred width specified using a number of points in C#.
 type: docs

@@ -1,6 +1,7 @@
 ---
 title: PageSetup.RightMargin
 linktitle: RightMargin
+articleTitle: RightMargin
 second_title: Aspose.Words for .NET API Reference
 description: PageSetup RightMargin property. Returns or sets the distance in points between the right edge of the page and the right boundary of the body text in C#.
 type: docs

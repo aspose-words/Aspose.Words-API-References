@@ -1,6 +1,7 @@
 ---
 title: Document.Theme
 linktitle: Theme
+articleTitle: Theme
 second_title: Aspose.Words for .NET API Reference
 description: Document Theme property. Gets the Theme object for this document in C#.
 type: docs

@@ -1,6 +1,7 @@
 ---
 title: IHyphenationCallback.RequestDictionary
 linktitle: RequestDictionary
+articleTitle: RequestDictionary
 second_title: Aspose.Words for .NET API Reference
 description: IHyphenationCallback RequestDictionary method. Notifies application that hyphenation dictionary for the specified language wasnt found and may need to be registered in C#.
 type: docs

@@ -1,6 +1,7 @@
 ---
 title: Style.BuiltIn
 linktitle: BuiltIn
+articleTitle: BuiltIn
 second_title: Aspose.Words for .NET API Reference
 description: Style BuiltIn property. True if this style is one of the builtin styles in MS Word in C#.
 type: docs

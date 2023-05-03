@@ -1,6 +1,7 @@
 ---
 title: Cell.IsLastCell
 linktitle: IsLastCell
+articleTitle: IsLastCell
 second_title: Aspose.Words for .NET API Reference
 description: Cell IsLastCell property. True if this is the last cell inside a row false otherwise in C#.
 type: docs

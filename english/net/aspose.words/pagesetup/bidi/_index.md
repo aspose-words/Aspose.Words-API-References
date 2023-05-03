@@ -1,6 +1,7 @@
 ---
 title: PageSetup.Bidi
 linktitle: Bidi
+articleTitle: Bidi
 second_title: Aspose.Words for .NET API Reference
 description: PageSetup Bidi property. Specifies that this section contains bidirectional complex scripts text in C#.
 type: docs

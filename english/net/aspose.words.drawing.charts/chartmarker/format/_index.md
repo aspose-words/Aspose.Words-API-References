@@ -1,6 +1,7 @@
 ---
 title: ChartMarker.Format
 linktitle: Format
+articleTitle: Format
 second_title: Aspose.Words for .NET API Reference
 description: ChartMarker Format property. Provides access to fill and line formatting of this marker in C#.
 type: docs

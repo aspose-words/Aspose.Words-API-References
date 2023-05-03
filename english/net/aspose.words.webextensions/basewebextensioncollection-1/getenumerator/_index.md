@@ -1,6 +1,7 @@
 ---
 title: BaseWebExtensionCollection1.GetEnumerator
 linktitle: GetEnumerator
+articleTitle: GetEnumerator
 second_title: Aspose.Words for .NET API Reference
 description: BaseWebExtensionCollection GetEnumerator method. Returns an enumerator that can iterate through a collection in C#.
 type: docs

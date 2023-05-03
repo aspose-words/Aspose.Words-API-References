@@ -1,6 +1,7 @@
 ---
 title: FontFamily Enum
 linktitle: FontFamily
+articleTitle: FontFamily
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fonts.FontFamily enum. Represents the font family in C#.
 type: docs

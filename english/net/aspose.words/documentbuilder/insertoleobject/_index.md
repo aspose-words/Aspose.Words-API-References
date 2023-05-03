@@ -1,6 +1,7 @@
 ---
 title: DocumentBuilder.InsertOleObject
 linktitle: InsertOleObject
+articleTitle: InsertOleObject
 second_title: Aspose.Words for .NET API Reference
 description: DocumentBuilder InsertOleObject method. Inserts an embedded OLE object from a stream into the document in C#.
 type: docs

@@ -1,6 +1,7 @@
 ---
 title: BorderCollection.Equals
 linktitle: Equals
+articleTitle: Equals
 second_title: Aspose.Words for .NET API Reference
 description: BorderCollection Equals method. Compares collections of borders in C#.
 type: docs

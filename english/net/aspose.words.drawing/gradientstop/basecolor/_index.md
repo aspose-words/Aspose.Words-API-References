@@ -1,6 +1,7 @@
 ---
 title: GradientStop.BaseColor
 linktitle: BaseColor
+articleTitle: BaseColor
 second_title: Aspose.Words for .NET API Reference
 description: GradientStop BaseColor property. Gets a value representing the color of the gradient stop without any modifiers in C#.
 type: docs

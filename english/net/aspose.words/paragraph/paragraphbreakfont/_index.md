@@ -1,6 +1,7 @@
 ---
 title: Paragraph.ParagraphBreakFont
 linktitle: ParagraphBreakFont
+articleTitle: ParagraphBreakFont
 second_title: Aspose.Words for .NET API Reference
 description: Paragraph ParagraphBreakFont property. Provides access to the font formatting of the paragraph break character in C#.
 type: docs

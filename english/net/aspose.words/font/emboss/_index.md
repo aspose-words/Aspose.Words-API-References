@@ -1,6 +1,7 @@
 ---
 title: Font.Emboss
 linktitle: Emboss
+articleTitle: Emboss
 second_title: Aspose.Words for .NET API Reference
 description: Font Emboss property. True if the font is formatted as embossed in C#.
 type: docs

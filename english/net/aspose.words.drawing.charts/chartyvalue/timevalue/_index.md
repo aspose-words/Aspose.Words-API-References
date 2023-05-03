@@ -1,6 +1,7 @@
 ---
 title: ChartYValue.TimeValue
 linktitle: TimeValue
+articleTitle: TimeValue
 second_title: Aspose.Words for .NET API Reference
 description: ChartYValue TimeValue property. Gets the stored time value in C#.
 type: docs

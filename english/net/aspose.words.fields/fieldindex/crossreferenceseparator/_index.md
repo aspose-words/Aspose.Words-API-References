@@ -1,6 +1,7 @@
 ---
 title: FieldIndex.CrossReferenceSeparator
 linktitle: CrossReferenceSeparator
+articleTitle: CrossReferenceSeparator
 second_title: Aspose.Words for .NET API Reference
 description: FieldIndex CrossReferenceSeparator property. Gets or sets the character sequence that is used to separate cross references and other entries in C#.
 type: docs

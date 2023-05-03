@@ -1,6 +1,7 @@
 ---
 title: Table.Style
 linktitle: Style
+articleTitle: Style
 second_title: Aspose.Words for .NET API Reference
 description: Table Style property. Gets or sets the table style applied to this table in C#.
 type: docs

@@ -1,6 +1,7 @@
 ---
 title: SignOptions.SignatureLineId
 linktitle: SignatureLineId
+articleTitle: SignatureLineId
 second_title: Aspose.Words for .NET API Reference
 description: SignOptions SignatureLineId property. Signature line identifier. Default value is Empty all zeroes Guid in C#.
 type: docs

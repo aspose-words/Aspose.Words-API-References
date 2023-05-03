@@ -1,6 +1,7 @@
 ---
 title: LayoutEnumerator.MovePrevious
 linktitle: MovePrevious
+articleTitle: MovePrevious
 second_title: Aspose.Words for .NET API Reference
 description: LayoutEnumerator MovePrevious method. Moves to the previous sibling entity in C#.
 type: docs

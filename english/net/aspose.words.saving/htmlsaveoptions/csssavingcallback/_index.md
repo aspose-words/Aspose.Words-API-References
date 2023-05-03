@@ -1,6 +1,7 @@
 ---
 title: HtmlSaveOptions.CssSavingCallback
 linktitle: CssSavingCallback
+articleTitle: CssSavingCallback
 second_title: Aspose.Words for .NET API Reference
 description: HtmlSaveOptions CssSavingCallback property. Allows to control how CSS styles are saved when a document is saved to HTML MHTML or EPUB in C#.
 type: docs

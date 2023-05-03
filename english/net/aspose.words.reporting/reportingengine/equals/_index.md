@@ -1,6 +1,7 @@
 ---
 title: ReportingEngine.Equals
 linktitle: Equals
+articleTitle: Equals
 second_title: Aspose.Words for .NET API Reference
 description: ReportingEngine Equals method. Determines whether the specified object is equal in value to the current object in C#.
 type: docs

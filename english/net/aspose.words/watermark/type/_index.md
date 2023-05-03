@@ -1,6 +1,7 @@
 ---
 title: Watermark.Type
 linktitle: Type
+articleTitle: Type
 second_title: Aspose.Words for .NET API Reference
 description: Watermark Type property. Gets the watermark type in C#.
 type: docs

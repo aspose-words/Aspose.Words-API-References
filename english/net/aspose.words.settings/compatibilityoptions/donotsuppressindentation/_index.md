@@ -1,6 +1,7 @@
 ---
 title: CompatibilityOptions.DoNotSuppressIndentation
 linktitle: DoNotSuppressIndentation
+articleTitle: DoNotSuppressIndentation
 second_title: Aspose.Words for .NET API Reference
 description: CompatibilityOptions DoNotSuppressIndentation property. Do Not Ignore Floating Objects When Calculating Paragraph Indentation in C#.
 type: docs

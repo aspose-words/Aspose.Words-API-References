@@ -1,6 +1,7 @@
 ---
 title: GeneralFormatCollection.Add
 linktitle: Add
+articleTitle: Add
 second_title: Aspose.Words for .NET API Reference
 description: GeneralFormatCollection Add method. Adds a general format to the collection in C#.
 type: docs

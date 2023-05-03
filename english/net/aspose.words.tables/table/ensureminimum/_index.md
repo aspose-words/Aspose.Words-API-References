@@ -1,6 +1,7 @@
 ---
 title: Table.EnsureMinimum
 linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
 second_title: Aspose.Words for .NET API Reference
 description: Table EnsureMinimum method. If the table has no rows creates and appends one Row in C#.
 type: docs

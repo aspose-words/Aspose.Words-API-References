@@ -1,6 +1,7 @@
 ---
 title: PhoneticGuide.RubyText
 linktitle: RubyText
+articleTitle: RubyText
 second_title: Aspose.Words for .NET API Reference
 description: PhoneticGuide RubyText property. Gets ruby text of the phonetic guide in C#.
 type: docs

@@ -1,6 +1,7 @@
 ---
 title: TableSubstitutionRule.AddSubstitutes
 linktitle: AddSubstitutes
+articleTitle: AddSubstitutes
 second_title: Aspose.Words for .NET API Reference
 description: TableSubstitutionRule AddSubstitutes method. Adds substitute font names for given original font name in C#.
 type: docs

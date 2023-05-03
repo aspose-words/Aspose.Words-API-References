@@ -1,6 +1,7 @@
 ---
 title: ChartDataLabelCollection.ShowValue
 linktitle: ShowValue
+articleTitle: ShowValue
 second_title: Aspose.Words for .NET API Reference
 description: ChartDataLabelCollection ShowValue property. Allows to specify whether values are to be displayed in the data labels of the entire series. Default value is false in C#.
 type: docs

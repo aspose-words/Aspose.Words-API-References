@@ -1,6 +1,7 @@
 ---
 title: CustomXmlPartCollection Class
 linktitle: CustomXmlPartCollection
+articleTitle: CustomXmlPartCollection
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Markup.CustomXmlPartCollection class. Represents a collection of Custom XML Parts. The items are CustomXmlPart objects in C#.
 type: docs

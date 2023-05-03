@@ -1,6 +1,7 @@
 ---
 title: DocumentProperty.ToDateTime
 linktitle: ToDateTime
+articleTitle: ToDateTime
 second_title: Aspose.Words for .NET API Reference
 description: DocumentProperty ToDateTime method. Returns the property value as DateTime in UTC in C#.
 type: docs

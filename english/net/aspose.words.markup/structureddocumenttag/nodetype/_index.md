@@ -1,6 +1,7 @@
 ---
 title: StructuredDocumentTag.NodeType
 linktitle: NodeType
+articleTitle: NodeType
 second_title: Aspose.Words for .NET API Reference
 description: StructuredDocumentTag NodeType property. Returns StructuredDocumentTag in C#.
 type: docs

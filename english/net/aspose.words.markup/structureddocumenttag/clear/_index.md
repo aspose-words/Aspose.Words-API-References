@@ -1,6 +1,7 @@
 ---
 title: StructuredDocumentTag.Clear
 linktitle: Clear
+articleTitle: Clear
 second_title: Aspose.Words for .NET API Reference
 description: StructuredDocumentTag Clear method. Clears contents of this structured document tag and displays a placeholder if it is defined in C#.
 type: docs
