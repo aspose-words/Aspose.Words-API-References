@@ -2,12 +2,12 @@
 title: ImageSaveOptions.Scale
 linktitle: Scale
 second_title: Aspose.Words for .NET API Reference
-description: ImageSaveOptions property. Gets or sets the zoom factor for the generated images in C#.
+description: ImageSaveOptions Scale property. Gets or sets the zoom factor for the generated images in C#.
 type: docs
 weight: 140
 url: /net/aspose.words.saving/imagesaveoptions/scale/
 ---
-## ImageSaveOptions.Scale property
+## Scale property
 
 Gets or sets the zoom factor for the generated images.
 

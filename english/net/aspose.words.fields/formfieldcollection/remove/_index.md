@@ -2,12 +2,12 @@
 title: FormFieldCollection.Remove
 linktitle: Remove
 second_title: Aspose.Words for .NET API Reference
-description: FormFieldCollection method. Removes a form field with the specified name in C#.
+description: FormFieldCollection Remove method. Removes a form field with the specified name in C#.
 type: docs
 weight: 50
 url: /net/aspose.words.fields/formfieldcollection/remove/
 ---
-## FormFieldCollection.Remove method
+## Remove method
 
 Removes a form field with the specified name.
 

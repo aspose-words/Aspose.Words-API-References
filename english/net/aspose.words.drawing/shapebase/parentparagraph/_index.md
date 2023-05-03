@@ -2,12 +2,12 @@
 title: ShapeBase.ParentParagraph
 linktitle: ParentParagraph
 second_title: Aspose.Words for .NET API Reference
-description: ShapeBase property. Returns the immediate parent paragraph in C#.
+description: ShapeBase ParentParagraph property. Returns the immediate parent paragraph in C#.
 type: docs
 weight: 410
 url: /net/aspose.words.drawing/shapebase/parentparagraph/
 ---
-## ShapeBase.ParentParagraph property
+## ParentParagraph property
 
 Returns the immediate parent paragraph.
 

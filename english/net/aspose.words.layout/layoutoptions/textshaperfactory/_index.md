@@ -2,12 +2,12 @@
 title: LayoutOptions.TextShaperFactory
 linktitle: TextShaperFactory
 second_title: Aspose.Words for .NET API Reference
-description: LayoutOptions property. Gets or sets ITextShaperFactory implementation used for Advanced Typography rendering features in C#.
+description: LayoutOptions TextShaperFactory property. Gets or sets ITextShaperFactory implementation used for Advanced Typography rendering features in C#.
 type: docs
 weight: 90
 url: /net/aspose.words.layout/layoutoptions/textshaperfactory/
 ---
-## LayoutOptions.TextShaperFactory property
+## TextShaperFactory property
 
 Gets or sets [`ITextShaperFactory`](../../../aspose.words.shaping/itextshaperfactory/) implementation used for Advanced Typography rendering features.
 

@@ -2,12 +2,12 @@
 title: ImageSaveOptions.MetafileRenderingOptions
 linktitle: MetafileRenderingOptions
 second_title: Aspose.Words for .NET API Reference
-description: ImageSaveOptions property. Allows to specify how metafiles are treated in the rendered output in C#.
+description: ImageSaveOptions MetafileRenderingOptions property. Allows to specify how metafiles are treated in the rendered output in C#.
 type: docs
 weight: 80
 url: /net/aspose.words.saving/imagesaveoptions/metafilerenderingoptions/
 ---
-## ImageSaveOptions.MetafileRenderingOptions property
+## MetafileRenderingOptions property
 
 Allows to specify how metafiles are treated in the rendered output.
 

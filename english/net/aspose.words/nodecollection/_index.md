@@ -4,7 +4,7 @@ linktitle: NodeCollection
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.NodeCollection class. Represents a collection of nodes of a specific type in C#.
 type: docs
-weight: 4030
+weight: 4110
 url: /net/aspose.words/nodecollection/
 ---
 ## NodeCollection class

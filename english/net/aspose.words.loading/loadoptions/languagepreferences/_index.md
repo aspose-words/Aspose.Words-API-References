@@ -2,12 +2,12 @@
 title: LoadOptions.LanguagePreferences
 linktitle: LanguagePreferences
 second_title: Aspose.Words for .NET API Reference
-description: LoadOptions property. Gets language preferences that will be used when document is loading in C#.
+description: LoadOptions LanguagePreferences property. Gets language preferences that will be used when document is loading in C#.
 type: docs
 weight: 80
 url: /net/aspose.words.loading/loadoptions/languagepreferences/
 ---
-## LoadOptions.LanguagePreferences property
+## LanguagePreferences property
 
 Gets language preferences that will be used when document is loading.
 

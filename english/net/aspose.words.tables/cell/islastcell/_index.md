@@ -2,12 +2,12 @@
 title: Cell.IsLastCell
 linktitle: IsLastCell
 second_title: Aspose.Words for .NET API Reference
-description: Cell property. True if this is the last cell inside a row false otherwise in C#.
+description: Cell IsLastCell property. True if this is the last cell inside a row false otherwise in C#.
 type: docs
 weight: 50
 url: /net/aspose.words.tables/cell/islastcell/
 ---
-## Cell.IsLastCell property
+## IsLastCell property
 
 True if this is the last cell inside a row; false otherwise.
 

@@ -2,12 +2,12 @@
 title: Section.ClearHeadersFooters
 linktitle: ClearHeadersFooters
 second_title: Aspose.Words for .NET API Reference
-description: Section method. Clears the headers and footers of this section in C#.
+description: Section ClearHeadersFooters method. Clears the headers and footers of this section in C#.
 type: docs
 weight: 100
 url: /net/aspose.words/section/clearheadersfooters/
 ---
-## Section.ClearHeadersFooters method
+## ClearHeadersFooters method
 
 Clears the headers and footers of this section.
 

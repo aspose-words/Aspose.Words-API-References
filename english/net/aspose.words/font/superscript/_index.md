@@ -2,12 +2,12 @@
 title: Font.Superscript
 linktitle: Superscript
 second_title: Aspose.Words for .NET API Reference
-description: Font property. True if the font is formatted as superscript in C#.
+description: Font Superscript property. True if the font is formatted as superscript in C#.
 type: docs
 weight: 440
 url: /net/aspose.words/font/superscript/
 ---
-## Font.Superscript property
+## Superscript property
 
 True if the font is formatted as superscript.
 

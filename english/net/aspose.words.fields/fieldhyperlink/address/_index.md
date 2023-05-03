@@ -2,12 +2,12 @@
 title: FieldHyperlink.Address
 linktitle: Address
 second_title: Aspose.Words for .NET API Reference
-description: FieldHyperlink property. Gets or sets a location where this hyperlink jumps in C#.
+description: FieldHyperlink Address property. Gets or sets a location where this hyperlink jumps in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldhyperlink/address/
 ---
-## FieldHyperlink.Address property
+## Address property
 
 Gets or sets a location where this hyperlink jumps.
 

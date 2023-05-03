@@ -4,7 +4,7 @@ linktitle: FieldRef
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FieldRef class. Implements the REF field in C#.
 type: docs
-weight: 2220
+weight: 2300
 url: /net/aspose.words.fields/fieldref/
 ---
 ## FieldRef class

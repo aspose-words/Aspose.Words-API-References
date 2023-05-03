@@ -2,12 +2,12 @@
 title: FontInfo.Pitch
 linktitle: Pitch
 second_title: Aspose.Words for .NET API Reference
-description: FontInfo property. The pitch indicates if the font is fixed pitch proportionally spaced or relies on a default setting in C#.
+description: FontInfo Pitch property. The pitch indicates if the font is fixed pitch proportionally spaced or relies on a default setting in C#.
 type: docs
 weight: 70
 url: /net/aspose.words.fonts/fontinfo/pitch/
 ---
-## FontInfo.Pitch property
+## Pitch property
 
 The pitch indicates if the font is fixed pitch, proportionally spaced, or relies on a default setting.
 

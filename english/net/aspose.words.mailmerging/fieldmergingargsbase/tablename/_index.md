@@ -2,12 +2,12 @@
 title: FieldMergingArgsBase.TableName
 linktitle: TableName
 second_title: Aspose.Words for .NET API Reference
-description: FieldMergingArgsBase property. Gets the name of the data table for the current merge operation or empty string if the name is not available in C#.
+description: FieldMergingArgsBase TableName property. Gets the name of the data table for the current merge operation or empty string if the name is not available in C#.
 type: docs
 weight: 70
 url: /net/aspose.words.mailmerging/fieldmergingargsbase/tablename/
 ---
-## FieldMergingArgsBase.TableName property
+## TableName property
 
 Gets the name of the data table for the current merge operation or empty string if the name is not available.
 

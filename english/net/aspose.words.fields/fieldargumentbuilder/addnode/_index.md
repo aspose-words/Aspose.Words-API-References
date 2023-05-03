@@ -2,12 +2,12 @@
 title: FieldArgumentBuilder.AddNode
 linktitle: AddNode
 second_title: Aspose.Words for .NET API Reference
-description: FieldArgumentBuilder method. Adds a node to the argument in C#.
+description: FieldArgumentBuilder AddNode method. Adds a node to the argument in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldargumentbuilder/addnode/
 ---
-## FieldArgumentBuilder.AddNode method
+## AddNode method
 
 Adds a node to the argument.
 

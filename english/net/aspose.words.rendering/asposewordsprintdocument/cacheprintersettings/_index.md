@@ -2,12 +2,12 @@
 title: AsposeWordsPrintDocument.CachePrinterSettings
 linktitle: CachePrinterSettings
 second_title: Aspose.Words for .NET API Reference
-description: AsposeWordsPrintDocument method. Reads and caches some fields of PrinterSettings to reduce printing time in C#.
+description: AsposeWordsPrintDocument CachePrinterSettings method. Reads and caches some fields of PrinterSettings to reduce printing time in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.rendering/asposewordsprintdocument/cacheprintersettings/
 ---
-## AsposeWordsPrintDocument.CachePrinterSettings method
+## CachePrinterSettings method
 
 Reads and caches some fields of PrinterSettings to reduce printing time.
 

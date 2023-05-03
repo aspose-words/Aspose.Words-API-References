@@ -2,12 +2,12 @@
 title: FieldLink.InsertAsUnicode
 linktitle: InsertAsUnicode
 second_title: Aspose.Words for .NET API Reference
-description: FieldLink property. Gets or sets whether to insert the linked object as Unicode text in C#.
+description: FieldLink InsertAsUnicode property. Gets or sets whether to insert the linked object as Unicode text in C#.
 type: docs
 weight: 90
 url: /net/aspose.words.fields/fieldlink/insertasunicode/
 ---
-## FieldLink.InsertAsUnicode property
+## InsertAsUnicode property
 
 Gets or sets whether to insert the linked object as Unicode text.
 

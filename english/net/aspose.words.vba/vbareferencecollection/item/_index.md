@@ -2,7 +2,7 @@
 title: VbaReferenceCollection.Item
 linktitle: Item
 second_title: Aspose.Words for .NET API Reference
-description: VbaReferenceCollection property. Gets VbaReference object at the specified index in C#.
+description: VbaReferenceCollection Item property. Gets VbaReference object at the specified index in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.vba/vbareferencecollection/item/

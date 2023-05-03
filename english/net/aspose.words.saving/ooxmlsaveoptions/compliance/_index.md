@@ -2,12 +2,12 @@
 title: OoxmlSaveOptions.Compliance
 linktitle: Compliance
 second_title: Aspose.Words for .NET API Reference
-description: OoxmlSaveOptions property. Specifies the OOXML version for the output document. The default value is Ecma376_2006 in C#.
+description: OoxmlSaveOptions Compliance property. Specifies the OOXML version for the output document. The default value is Ecma376_2006 in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.saving/ooxmlsaveoptions/compliance/
 ---
-## OoxmlSaveOptions.Compliance property
+## Compliance property
 
 Specifies the OOXML version for the output document. The default value is Ecma376_2006.
 

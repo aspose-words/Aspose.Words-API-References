@@ -2,12 +2,12 @@
 title: ControlChar.ColumnBreak
 linktitle: ColumnBreak
 second_title: Aspose.Words for .NET API Reference
-description: ControlChar field. End of column character x000e in C#.
+description: ControlChar ColumnBreak field. End of column character x000e in C#.
 type: docs
 weight: 30
 url: /net/aspose.words/controlchar/columnbreak/
 ---
-## ControlChar.ColumnBreak field
+## ColumnBreak field
 
 End of column character: "\x000e".
 

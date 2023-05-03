@@ -2,12 +2,12 @@
 title: CellFormat.ClearFormatting
 linktitle: ClearFormatting
 second_title: Aspose.Words for .NET API Reference
-description: CellFormat method. Resets to default cell formatting. Does not change the width of the cell in C#.
+description: CellFormat ClearFormatting method. Resets to default cell formatting. Does not change the width of the cell in C#.
 type: docs
 weight: 150
 url: /net/aspose.words.tables/cellformat/clearformatting/
 ---
-## CellFormat.ClearFormatting method
+## ClearFormatting method
 
 Resets to default cell formatting. Does not change the width of the cell.
 

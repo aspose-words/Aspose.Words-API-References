@@ -2,12 +2,12 @@
 title: DocumentVisitor.VisitFieldEnd
 linktitle: VisitFieldEnd
 second_title: Aspose.Words for .NET API Reference
-description: DocumentVisitor method. Called when a field ends in the document in C#.
+description: DocumentVisitor VisitFieldEnd method. Called when a field ends in the document in C#.
 type: docs
 weight: 180
 url: /net/aspose.words/documentvisitor/visitfieldend/
 ---
-## DocumentVisitor.VisitFieldEnd method
+## VisitFieldEnd method
 
 Called when a field ends in the document.
 

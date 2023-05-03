@@ -2,12 +2,12 @@
 title: Node.NextSibling
 linktitle: NextSibling
 second_title: Aspose.Words for .NET API Reference
-description: Node property. Gets the node immediately following this node in C#.
+description: Node NextSibling property. Gets the node immediately following this node in C#.
 type: docs
 weight: 40
 url: /net/aspose.words/node/nextsibling/
 ---
-## Node.NextSibling property
+## NextSibling property
 
 Gets the node immediately following this node.
 

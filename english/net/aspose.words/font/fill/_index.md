@@ -2,12 +2,12 @@
 title: Font.Fill
 linktitle: Fill
 second_title: Aspose.Words for .NET API Reference
-description: Font property. Gets fill formatting for the Font in C#.
+description: Font Fill property. Gets fill formatting for the Font in C#.
 type: docs
 weight: 130
 url: /net/aspose.words/font/fill/
 ---
-## Font.Fill property
+## Fill property
 
 Gets fill formatting for the [`Font`](../).
 

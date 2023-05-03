@@ -2,7 +2,7 @@
 title: FontFallbackSettings.Save
 linktitle: Save
 second_title: Aspose.Words for .NET API Reference
-description: FontFallbackSettings method. Saves the current fallback settings to stream in C#.
+description: FontFallbackSettings Save method. Saves the current fallback settings to stream in C#.
 type: docs
 weight: 50
 url: /net/aspose.words.fonts/fontfallbacksettings/save/

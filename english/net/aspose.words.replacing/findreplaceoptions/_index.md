@@ -4,7 +4,7 @@ linktitle: FindReplaceOptions
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Replacing.FindReplaceOptions class. Specifies options for find/replace operations in C#.
 type: docs
-weight: 4440
+weight: 4530
 url: /net/aspose.words.replacing/findreplaceoptions/
 ---
 ## FindReplaceOptions class
@@ -39,6 +39,7 @@ public class FindReplaceOptions
 | [IgnoreFields](../../aspose.words.replacing/findreplaceoptions/ignorefields/) { get; set; } | Gets or sets a boolean value indicating either to ignore text inside fields. The default value is `false`. |
 | [IgnoreFootnotes](../../aspose.words.replacing/findreplaceoptions/ignorefootnotes/) { get; set; } | Gets or sets a boolean value indicating either to ignore footnotes. The default value is `false`. |
 | [IgnoreInserted](../../aspose.words.replacing/findreplaceoptions/ignoreinserted/) { get; set; } | Gets or sets a boolean value indicating either to ignore text inside insert revisions. The default value is `false`. |
+| [IgnoreShapes](../../aspose.words.replacing/findreplaceoptions/ignoreshapes/) { get; set; } | Gets or sets a boolean value indicating either to ignore shapes within a text. |
 | [IgnoreStructuredDocumentTags](../../aspose.words.replacing/findreplaceoptions/ignorestructureddocumenttags/) { get; set; } | Gets or sets a boolean value indicating either to ignore content of [`StructuredDocumentTag`](../../aspose.words.markup/structureddocumenttag/). The default value is `false`. |
 | [LegacyMode](../../aspose.words.replacing/findreplaceoptions/legacymode/) { get; set; } | Gets or sets a boolean value indicating that old find/replace algorithm is used. |
 | [MatchCase](../../aspose.words.replacing/findreplaceoptions/matchcase/) { get; set; } | True indicates case-sensitive comparison, false indicates case-insensitive comparison. |

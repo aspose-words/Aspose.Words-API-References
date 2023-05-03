@@ -2,12 +2,12 @@
 title: SignatureLine.Id
 linktitle: Id
 second_title: Aspose.Words for .NET API Reference
-description: SignatureLine property. Gets or sets identifier for this signature line in C#.
+description: SignatureLine Id property. Gets or sets identifier for this signature line in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.drawing/signatureline/id/
 ---
-## SignatureLine.Id property
+## Id property
 
 Gets or sets identifier for this signature line.
 

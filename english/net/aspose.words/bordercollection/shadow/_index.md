@@ -2,12 +2,12 @@
 title: BorderCollection.Shadow
 linktitle: Shadow
 second_title: Aspose.Words for .NET API Reference
-description: BorderCollection property. Gets or sets a value indicating whether the border has a shadow in C#.
+description: BorderCollection Shadow property. Gets or sets a value indicating whether the border has a shadow in C#.
 type: docs
 weight: 110
 url: /net/aspose.words/bordercollection/shadow/
 ---
-## BorderCollection.Shadow property
+## Shadow property
 
 Gets or sets a value indicating whether the border has a shadow.
 

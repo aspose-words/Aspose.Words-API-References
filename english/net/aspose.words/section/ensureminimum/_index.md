@@ -2,12 +2,12 @@
 title: Section.EnsureMinimum
 linktitle: EnsureMinimum
 second_title: Aspose.Words for .NET API Reference
-description: Section method. Ensures that the section has Body with one Paragraph in C#.
+description: Section EnsureMinimum method. Ensures that the section has Body with one Paragraph in C#.
 type: docs
 weight: 130
 url: /net/aspose.words/section/ensureminimum/
 ---
-## Section.EnsureMinimum method
+## EnsureMinimum method
 
 Ensures that the section has [`Body`](../body/) with one [`Paragraph`](../../paragraph/).
 

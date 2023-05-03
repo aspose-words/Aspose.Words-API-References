@@ -2,12 +2,12 @@
 title: SdtListItemCollection.SelectedValue
 linktitle: SelectedValue
 second_title: Aspose.Words for .NET API Reference
-description: SdtListItemCollection property. Specifies currently selected value in this list. Null value allowed meaning that no currently selected entry is associated with this list item collection in C#.
+description: SdtListItemCollection SelectedValue property. Specifies currently selected value in this list. Null value allowed meaning that no currently selected entry is associated with this list item collection in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.markup/sdtlistitemcollection/selectedvalue/
 ---
-## SdtListItemCollection.SelectedValue property
+## SelectedValue property
 
 Specifies currently selected value in this list. Null value allowed, meaning that no currently selected entry is associated with this list item collection.
 

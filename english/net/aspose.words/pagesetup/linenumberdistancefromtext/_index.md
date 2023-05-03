@@ -2,12 +2,12 @@
 title: PageSetup.LineNumberDistanceFromText
 linktitle: LineNumberDistanceFromText
 second_title: Aspose.Words for .NET API Reference
-description: PageSetup property. Gets or sets distance between the right edge of line numbers and the left edge of the document in C#.
+description: PageSetup LineNumberDistanceFromText property. Gets or sets distance between the right edge of line numbers and the left edge of the document in C#.
 type: docs
 weight: 220
 url: /net/aspose.words/pagesetup/linenumberdistancefromtext/
 ---
-## PageSetup.LineNumberDistanceFromText property
+## LineNumberDistanceFromText property
 
 Gets or sets distance between the right edge of line numbers and the left edge of the document.
 

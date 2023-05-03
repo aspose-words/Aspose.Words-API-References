@@ -2,12 +2,12 @@
 title: StructuredDocumentTagCollection.GetEnumerator
 linktitle: GetEnumerator
 second_title: Aspose.Words for .NET API Reference
-description: StructuredDocumentTagCollection method. Returns an enumerator object in C#.
+description: StructuredDocumentTagCollection GetEnumerator method. Returns an enumerator object in C#.
 type: docs
 weight: 60
 url: /net/aspose.words.markup/structureddocumenttagcollection/getenumerator/
 ---
-## StructuredDocumentTagCollection.GetEnumerator method
+## GetEnumerator method
 
 Returns an enumerator object.
 

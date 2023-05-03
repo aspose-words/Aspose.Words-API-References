@@ -2,12 +2,12 @@
 title: Shape.Stroke
 linktitle: Stroke
 second_title: Aspose.Words for .NET API Reference
-description: Shape property. Defines a stroke for a shape in C#.
+description: Shape Stroke property. Defines a stroke for a shape in C#.
 type: docs
 weight: 180
 url: /net/aspose.words.drawing/shape/stroke/
 ---
-## Shape.Stroke property
+## Stroke property
 
 Defines a stroke for a shape.
 

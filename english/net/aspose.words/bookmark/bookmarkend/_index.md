@@ -2,12 +2,12 @@
 title: Bookmark.BookmarkEnd
 linktitle: BookmarkEnd
 second_title: Aspose.Words for .NET API Reference
-description: Bookmark property. Gets the node that represents the end of the bookmark in C#.
+description: Bookmark BookmarkEnd property. Gets the node that represents the end of the bookmark in C#.
 type: docs
 weight: 10
 url: /net/aspose.words/bookmark/bookmarkend/
 ---
-## Bookmark.BookmarkEnd property
+## BookmarkEnd property
 
 Gets the node that represents the end of the bookmark.
 

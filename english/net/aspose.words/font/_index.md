@@ -4,7 +4,7 @@ linktitle: Font
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Font class. Contains font attributes font name font size color and so on for an object in C#.
 type: docs
-weight: 2710
+weight: 2790
 url: /net/aspose.words/font/
 ---
 ## Font class

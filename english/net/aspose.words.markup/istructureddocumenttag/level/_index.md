@@ -2,12 +2,12 @@
 title: IStructuredDocumentTag.Level
 linktitle: Level
 second_title: Aspose.Words for .NET API Reference
-description: IStructuredDocumentTag property. Gets the level at which this SDT occurs in the document tree in C#.
+description: IStructuredDocumentTag Level property. Gets the level at which this SDT occurs in the document tree in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.markup/istructureddocumenttag/level/
 ---
-## IStructuredDocumentTag.Level property
+## Level property
 
 Gets the level at which this **SDT** occurs in the document tree.
 

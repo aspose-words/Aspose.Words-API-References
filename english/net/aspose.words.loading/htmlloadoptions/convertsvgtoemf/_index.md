@@ -2,12 +2,12 @@
 title: HtmlLoadOptions.ConvertSvgToEmf
 linktitle: ConvertSvgToEmf
 second_title: Aspose.Words for .NET API Reference
-description: HtmlLoadOptions property. Gets or sets a value indicating whether to convert loaded SVG images to the EMF format. Default value is false and if possible loaded SVG images are stored as is without conversion in C#.
+description: HtmlLoadOptions ConvertSvgToEmf property. Gets or sets a value indicating whether to convert loaded SVG images to the EMF format. Default value is false and if possible loaded SVG images are stored as is without conversion in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.loading/htmlloadoptions/convertsvgtoemf/
 ---
-## HtmlLoadOptions.ConvertSvgToEmf property
+## ConvertSvgToEmf property
 
 Gets or sets a value indicating whether to convert loaded SVG images to the EMF format. Default value is `false` and, if possible, loaded SVG images are stored as is without conversion.
 

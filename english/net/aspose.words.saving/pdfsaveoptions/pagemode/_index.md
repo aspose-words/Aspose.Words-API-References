@@ -2,12 +2,12 @@
 title: PdfSaveOptions.PageMode
 linktitle: PageMode
 second_title: Aspose.Words for .NET API Reference
-description: PdfSaveOptions property. Specifies how the PDF document should be displayed when opened in the PDF reader in C#.
+description: PdfSaveOptions PageMode property. Specifies how the PDF document should be displayed when opened in the PDF reader in C#.
 type: docs
-weight: 240
+weight: 250
 url: /net/aspose.words.saving/pdfsaveoptions/pagemode/
 ---
-## PdfSaveOptions.PageMode property
+## PageMode property
 
 Specifies how the PDF document should be displayed when opened in the PDF reader.
 

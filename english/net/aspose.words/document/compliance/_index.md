@@ -2,12 +2,12 @@
 title: Document.Compliance
 linktitle: Compliance
 second_title: Aspose.Words for .NET API Reference
-description: Document property. Gets the OOXML compliance version determined from the loaded document content. Makes sense only for OOXML documents in C#.
+description: Document Compliance property. Gets the OOXML compliance version determined from the loaded document content. Makes sense only for OOXML documents in C#.
 type: docs
 weight: 60
 url: /net/aspose.words/document/compliance/
 ---
-## Document.Compliance property
+## Compliance property
 
 Gets the OOXML compliance version determined from the loaded document content. Makes sense only for OOXML documents.
 

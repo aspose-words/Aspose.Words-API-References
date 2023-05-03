@@ -2,12 +2,12 @@
 title: ParagraphFormat.PageBreakBefore
 linktitle: PageBreakBefore
 second_title: Aspose.Words for .NET API Reference
-description: ParagraphFormat property. True if a page break is forced before the paragraph in C#.
+description: ParagraphFormat PageBreakBefore property. True if a page break is forced before the paragraph in C#.
 type: docs
 weight: 250
 url: /net/aspose.words/paragraphformat/pagebreakbefore/
 ---
-## ParagraphFormat.PageBreakBefore property
+## PageBreakBefore property
 
 True if a page break is forced before the paragraph.
 

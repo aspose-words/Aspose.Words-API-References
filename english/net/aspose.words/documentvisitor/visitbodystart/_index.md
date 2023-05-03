@@ -2,12 +2,12 @@
 title: DocumentVisitor.VisitBodyStart
 linktitle: VisitBodyStart
 second_title: Aspose.Words for .NET API Reference
-description: DocumentVisitor method. Called when enumeration of the main text story in a section has started in C#.
+description: DocumentVisitor VisitBodyStart method. Called when enumeration of the main text story in a section has started in C#.
 type: docs
 weight: 30
 url: /net/aspose.words/documentvisitor/visitbodystart/
 ---
-## DocumentVisitor.VisitBodyStart method
+## VisitBodyStart method
 
 Called when enumeration of the main text story in a section has started.
 

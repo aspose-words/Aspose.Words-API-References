@@ -2,12 +2,12 @@
 title: FieldSymbol.IsUnicode
 linktitle: IsUnicode
 second_title: Aspose.Words for .NET API Reference
-description: FieldSymbol property. Gets or sets whether the character code is interpreted as the value of a Unicode character in C#.
+description: FieldSymbol IsUnicode property. Gets or sets whether the character code is interpreted as the value of a Unicode character in C#.
 type: docs
 weight: 80
 url: /net/aspose.words.fields/fieldsymbol/isunicode/
 ---
-## FieldSymbol.IsUnicode property
+## IsUnicode property
 
 Gets or sets whether the character code is interpreted as the value of a Unicode character.
 

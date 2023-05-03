@@ -2,12 +2,12 @@
 title: FieldToc.HeadingLevelRange
 linktitle: HeadingLevelRange
 second_title: Aspose.Words for .NET API Reference
-description: FieldToc property. Gets or sets a range of heading levels to include in C#.
+description: FieldToc HeadingLevelRange property. Gets or sets a range of heading levels to include in C#.
 type: docs
 weight: 80
 url: /net/aspose.words.fields/fieldtoc/headinglevelrange/
 ---
-## FieldToc.HeadingLevelRange property
+## HeadingLevelRange property
 
 Gets or sets a range of heading levels to include.
 

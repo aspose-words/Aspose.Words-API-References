@@ -2,12 +2,12 @@
 title: ConditionalStyleCollection.LastRow
 linktitle: LastRow
 second_title: Aspose.Words for .NET API Reference
-description: ConditionalStyleCollection property. Gets the last row style in C#.
+description: ConditionalStyleCollection LastRow property. Gets the last row style in C#.
 type: docs
 weight: 100
 url: /net/aspose.words/conditionalstylecollection/lastrow/
 ---
-## ConditionalStyleCollection.LastRow property
+## LastRow property
 
 Gets the last row style.
 

@@ -2,12 +2,12 @@
 title: FontSavingArgs.Document
 linktitle: Document
 second_title: Aspose.Words for .NET API Reference
-description: FontSavingArgs property. Gets the document object that is being saved in C#.
+description: FontSavingArgs Document property. Gets the document object that is being saved in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.saving/fontsavingargs/document/
 ---
-## FontSavingArgs.Document property
+## Document property
 
 Gets the document object that is being saved.
 

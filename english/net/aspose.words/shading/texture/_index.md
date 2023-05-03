@@ -2,12 +2,12 @@
 title: Shading.Texture
 linktitle: Texture
 second_title: Aspose.Words for .NET API Reference
-description: Shading property. Gets or sets the shading texture in C#.
+description: Shading Texture property. Gets or sets the shading texture in C#.
 type: docs
 weight: 70
 url: /net/aspose.words/shading/texture/
 ---
-## Shading.Texture property
+## Texture property
 
 Gets or sets the shading texture.
 

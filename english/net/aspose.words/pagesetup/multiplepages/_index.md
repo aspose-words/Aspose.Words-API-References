@@ -2,12 +2,12 @@
 title: PageSetup.MultiplePages
 linktitle: MultiplePages
 second_title: Aspose.Words for .NET API Reference
-description: PageSetup property. For multiple page documents gets or sets how a document is printed or rendered so that it can be bound as a booklet in C#.
+description: PageSetup MultiplePages property. For multiple page documents gets or sets how a document is printed or rendered so that it can be bound as a booklet in C#.
 type: docs
 weight: 270
 url: /net/aspose.words/pagesetup/multiplepages/
 ---
-## PageSetup.MultiplePages property
+## MultiplePages property
 
 For multiple page documents, gets or sets how a document is printed or rendered so that it can be bound as a booklet.
 

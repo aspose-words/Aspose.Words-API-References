@@ -2,12 +2,12 @@
 title: FieldIf.FalseText
 linktitle: FalseText
 second_title: Aspose.Words for .NET API Reference
-description: FieldIf property. Gets or sets the text displayed if the comparison expression is false in C#.
+description: FieldIf FalseText property. Gets or sets the text displayed if the comparison expression is false in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldif/falsetext/
 ---
-## FieldIf.FalseText property
+## FalseText property
 
 Gets or sets the text displayed if the comparison expression is `false`.
 

@@ -2,12 +2,12 @@
 title: FieldEQ.AsOfficeMath
 linktitle: AsOfficeMath
 second_title: Aspose.Words for .NET API Reference
-description: FieldEQ method. Returns Office Math object corresponded to the EQ field in C#.
+description: FieldEQ AsOfficeMath method. Returns Office Math object corresponded to the EQ field in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldeq/asofficemath/
 ---
-## FieldEQ.AsOfficeMath method
+## AsOfficeMath method
 
 Returns Office Math object corresponded to the EQ field.
 

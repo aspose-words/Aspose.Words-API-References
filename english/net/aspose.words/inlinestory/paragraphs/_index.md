@@ -2,12 +2,12 @@
 title: InlineStory.Paragraphs
 linktitle: Paragraphs
 second_title: Aspose.Words for .NET API Reference
-description: InlineStory property. Gets a collection of paragraphs that are immediate children of the story in C#.
+description: InlineStory Paragraphs property. Gets a collection of paragraphs that are immediate children of the story in C#.
 type: docs
 weight: 80
 url: /net/aspose.words/inlinestory/paragraphs/
 ---
-## InlineStory.Paragraphs property
+## Paragraphs property
 
 Gets a collection of paragraphs that are immediate children of the story.
 

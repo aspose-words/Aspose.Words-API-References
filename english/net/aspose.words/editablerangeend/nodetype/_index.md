@@ -2,12 +2,12 @@
 title: EditableRangeEnd.NodeType
 linktitle: NodeType
 second_title: Aspose.Words for .NET API Reference
-description: EditableRangeEnd property. Returns EditableRangeEnd in C#.
+description: EditableRangeEnd NodeType property. Returns EditableRangeEnd in C#.
 type: docs
 weight: 30
 url: /net/aspose.words/editablerangeend/nodetype/
 ---
-## EditableRangeEnd.NodeType property
+## NodeType property
 
 Returns EditableRangeEnd.
 

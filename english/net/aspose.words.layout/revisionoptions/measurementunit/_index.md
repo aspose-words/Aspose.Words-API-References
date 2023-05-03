@@ -2,12 +2,12 @@
 title: RevisionOptions.MeasurementUnit
 linktitle: MeasurementUnit
 second_title: Aspose.Words for .NET API Reference
-description: RevisionOptions property. Allows to specify the measurement units for revision comments. Default value is Centimeters in C#.
+description: RevisionOptions MeasurementUnit property. Allows to specify the measurement units for revision comments. Default value is Centimeters in C#.
 type: docs
 weight: 60
 url: /net/aspose.words.layout/revisionoptions/measurementunit/
 ---
-## RevisionOptions.MeasurementUnit property
+## MeasurementUnit property
 
 Allows to specify the measurement units for revision comments. Default value is Centimeters
 

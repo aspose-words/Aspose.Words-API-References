@@ -2,12 +2,12 @@
 title: ParagraphFormat.LineSpacingRule
 linktitle: LineSpacingRule
 second_title: Aspose.Words for .NET API Reference
-description: ParagraphFormat property. Gets or sets the line spacing for the paragraph in C#.
+description: ParagraphFormat LineSpacingRule property. Gets or sets the line spacing for the paragraph in C#.
 type: docs
 weight: 190
 url: /net/aspose.words/paragraphformat/linespacingrule/
 ---
-## ParagraphFormat.LineSpacingRule property
+## LineSpacingRule property
 
 Gets or sets the line spacing for the paragraph.
 

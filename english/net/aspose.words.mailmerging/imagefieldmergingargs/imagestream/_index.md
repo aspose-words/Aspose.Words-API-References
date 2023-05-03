@@ -2,12 +2,12 @@
 title: ImageFieldMergingArgs.ImageStream
 linktitle: ImageStream
 second_title: Aspose.Words for .NET API Reference
-description: ImageFieldMergingArgs property. Specifies the stream for the mail merge engine to read an image from in C#.
+description: ImageFieldMergingArgs ImageStream property. Specifies the stream for the mail merge engine to read an image from in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.mailmerging/imagefieldmergingargs/imagestream/
 ---
-## ImageFieldMergingArgs.ImageStream property
+## ImageStream property
 
 Specifies the stream for the mail merge engine to read an image from.
 

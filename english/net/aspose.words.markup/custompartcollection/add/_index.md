@@ -2,12 +2,12 @@
 title: CustomPartCollection.Add
 linktitle: Add
 second_title: Aspose.Words for .NET API Reference
-description: CustomPartCollection method. Adds an item to the collection in C#.
+description: CustomPartCollection Add method. Adds an item to the collection in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.markup/custompartcollection/add/
 ---
-## CustomPartCollection.Add method
+## Add method
 
 Adds an item to the collection.
 

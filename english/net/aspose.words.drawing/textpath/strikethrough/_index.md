@@ -2,12 +2,12 @@
 title: TextPath.StrikeThrough
 linktitle: StrikeThrough
 second_title: Aspose.Words for .NET API Reference
-description: TextPath property. True if the font is formatted as strikethrough text in C#.
+description: TextPath StrikeThrough property. True if the font is formatted as strikethrough text in C#.
 type: docs
 weight: 150
 url: /net/aspose.words.drawing/textpath/strikethrough/
 ---
-## TextPath.StrikeThrough property
+## StrikeThrough property
 
 True if the font is formatted as strikethrough text.
 

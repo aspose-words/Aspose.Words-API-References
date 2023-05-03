@@ -2,12 +2,12 @@
 title: Font.Bold
 linktitle: Bold
 second_title: Aspose.Words for .NET API Reference
-description: Font property. True if the font is formatted as bold in C#.
+description: Font Bold property. True if the font is formatted as bold in C#.
 type: docs
 weight: 40
 url: /net/aspose.words/font/bold/
 ---
-## Font.Bold property
+## Bold property
 
 True if the font is formatted as bold.
 

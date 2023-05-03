@@ -2,12 +2,12 @@
 title: FieldDatabase.FileName
 linktitle: FileName
 second_title: Aspose.Words for .NET API Reference
-description: FieldDatabase property. Gets or sets the complete path and file name of the database in C#.
+description: FieldDatabase FileName property. Gets or sets the complete path and file name of the database in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fielddatabase/filename/
 ---
-## FieldDatabase.FileName property
+## FileName property
 
 Gets or sets the complete path and file name of the database
 

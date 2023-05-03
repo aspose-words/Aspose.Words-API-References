@@ -2,12 +2,12 @@
 title: IPageSavingCallback.PageSaving
 linktitle: PageSaving
 second_title: Aspose.Words for .NET API Reference
-description: IPageSavingCallback method. Called when Aspose.Words saves a separate page to fixed page formats in C#.
+description: IPageSavingCallback PageSaving method. Called when Aspose.Words saves a separate page to fixed page formats in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.saving/ipagesavingcallback/pagesaving/
 ---
-## IPageSavingCallback.PageSaving method
+## PageSaving method
 
 Called when Aspose.Words saves a separate page to fixed page formats.
 

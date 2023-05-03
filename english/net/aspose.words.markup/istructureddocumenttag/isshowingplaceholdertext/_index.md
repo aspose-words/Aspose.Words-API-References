@@ -2,12 +2,12 @@
 title: IStructuredDocumentTag.IsShowingPlaceholderText
 linktitle: IsShowingPlaceholderText
 second_title: Aspose.Words for .NET API Reference
-description: IStructuredDocumentTag property. Specifies whether the content of this SDT shall be interpreted to contain placeholder text as opposed to regular text contents within the SDT in C#.
+description: IStructuredDocumentTag IsShowingPlaceholderText property. Specifies whether the content of this SDT shall be interpreted to contain placeholder text as opposed to regular text contents within the SDT in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.markup/istructureddocumenttag/isshowingplaceholdertext/
 ---
-## IStructuredDocumentTag.IsShowingPlaceholderText property
+## IsShowingPlaceholderText property
 
 Specifies whether the content of this **SDT** shall be interpreted to contain placeholder text (as opposed to regular text contents within the SDT).
 

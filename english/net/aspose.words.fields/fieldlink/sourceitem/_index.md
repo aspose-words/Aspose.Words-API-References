@@ -2,12 +2,12 @@
 title: FieldLink.SourceItem
 linktitle: SourceItem
 second_title: Aspose.Words for .NET API Reference
-description: FieldLink property. Gets or sets the portion of the source file thats being linked in C#.
+description: FieldLink SourceItem property. Gets or sets the portion of the source file thats being linked in C#.
 type: docs
 weight: 130
 url: /net/aspose.words.fields/fieldlink/sourceitem/
 ---
-## FieldLink.SourceItem property
+## SourceItem property
 
 Gets or sets the portion of the source file that's being linked.
 

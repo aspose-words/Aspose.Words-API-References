@@ -2,12 +2,12 @@
 title: Document.UpdateThumbnail
 linktitle: UpdateThumbnail
 second_title: Aspose.Words for .NET API Reference
-description: Document method. Updates Thumbnail of the document according to the specified options in C#.
+description: Document UpdateThumbnail method. Updates Thumbnail of the document according to the specified options in C#.
 type: docs
 weight: 780
 url: /net/aspose.words/document/updatethumbnail/
 ---
-## UpdateThumbnail([`ThumbnailGeneratingOptions`](../../../aspose.words.rendering/thumbnailgeneratingoptions/)) {#updatethumbnail_1}
+## UpdateThumbnail(*[ThumbnailGeneratingOptions](../../../aspose.words.rendering/thumbnailgeneratingoptions/)*) {#updatethumbnail_1}
 
 Updates [`Thumbnail`](../../../aspose.words.properties/builtindocumentproperties/thumbnail/) of the document according to the specified options.
 

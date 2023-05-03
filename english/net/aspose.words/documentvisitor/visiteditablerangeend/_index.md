@@ -2,12 +2,12 @@
 title: DocumentVisitor.VisitEditableRangeEnd
 linktitle: VisitEditableRangeEnd
 second_title: Aspose.Words for .NET API Reference
-description: DocumentVisitor method. Called when an end of an editable range is encountered in the document in C#.
+description: DocumentVisitor VisitEditableRangeEnd method. Called when an end of an editable range is encountered in the document in C#.
 type: docs
 weight: 160
 url: /net/aspose.words/documentvisitor/visiteditablerangeend/
 ---
-## DocumentVisitor.VisitEditableRangeEnd method
+## VisitEditableRangeEnd method
 
 Called when an end of an editable range is encountered in the document.
 

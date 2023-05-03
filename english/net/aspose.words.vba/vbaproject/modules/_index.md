@@ -2,12 +2,12 @@
 title: VbaProject.Modules
 linktitle: Modules
 second_title: Aspose.Words for .NET API Reference
-description: VbaProject property. Returns collection of VBA project modules in C#.
+description: VbaProject Modules property. Returns collection of VBA project modules in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.vba/vbaproject/modules/
 ---
-## VbaProject.Modules property
+## Modules property
 
 Returns collection of VBA project modules.
 

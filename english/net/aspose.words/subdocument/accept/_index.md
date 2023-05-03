@@ -2,12 +2,12 @@
 title: SubDocument.Accept
 linktitle: Accept
 second_title: Aspose.Words for .NET API Reference
-description: SubDocument method. Accepts a visitor in C#.
+description: SubDocument Accept method. Accepts a visitor in C#.
 type: docs
 weight: 20
 url: /net/aspose.words/subdocument/accept/
 ---
-## SubDocument.Accept method
+## Accept method
 
 Accepts a visitor.
 

@@ -2,12 +2,12 @@
 title: BookmarkEnd.NodeType
 linktitle: NodeType
 second_title: Aspose.Words for .NET API Reference
-description: BookmarkEnd property. Returns BookmarkEnd in C#.
+description: BookmarkEnd NodeType property. Returns BookmarkEnd in C#.
 type: docs
 weight: 30
 url: /net/aspose.words/bookmarkend/nodetype/
 ---
-## BookmarkEnd.NodeType property
+## NodeType property
 
 Returns BookmarkEnd.
 

@@ -2,12 +2,12 @@
 title: ShapeBase.IsSignatureLine
 linktitle: IsSignatureLine
 second_title: Aspose.Words for .NET API Reference
-description: ShapeBase property. Indicates that shape is a SignatureLine in C#.
+description: ShapeBase IsSignatureLine property. Indicates that shape is a SignatureLine in C#.
 type: docs
 weight: 340
 url: /net/aspose.words.drawing/shapebase/issignatureline/
 ---
-## ShapeBase.IsSignatureLine property
+## IsSignatureLine property
 
 Indicates that shape is a [`SignatureLine`](../../signatureline/).
 

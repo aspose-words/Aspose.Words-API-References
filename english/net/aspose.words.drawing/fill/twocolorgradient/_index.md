@@ -2,7 +2,7 @@
 title: Fill.TwoColorGradient
 linktitle: TwoColorGradient
 second_title: Aspose.Words for .NET API Reference
-description: Fill method. Sets the specified fill to a twocolor gradient in C#.
+description: Fill TwoColorGradient method. Sets the specified fill to a twocolor gradient in C#.
 type: docs
 weight: 250
 url: /net/aspose.words.drawing/fill/twocolorgradient/

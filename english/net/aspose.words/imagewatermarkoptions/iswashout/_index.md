@@ -2,12 +2,12 @@
 title: ImageWatermarkOptions.IsWashout
 linktitle: IsWashout
 second_title: Aspose.Words for .NET API Reference
-description: ImageWatermarkOptions property. Gets or sets a boolean value which is responsible for washout effect of the watermark. The default value is true in C#.
+description: ImageWatermarkOptions IsWashout property. Gets or sets a boolean value which is responsible for washout effect of the watermark. The default value is true in C#.
 type: docs
 weight: 20
 url: /net/aspose.words/imagewatermarkoptions/iswashout/
 ---
-## ImageWatermarkOptions.IsWashout property
+## IsWashout property
 
 Gets or sets a boolean value which is responsible for washout effect of the watermark. The default value is `true`.
 

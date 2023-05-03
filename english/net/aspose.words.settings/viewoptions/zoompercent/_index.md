@@ -2,12 +2,12 @@
 title: ViewOptions.ZoomPercent
 linktitle: ZoomPercent
 second_title: Aspose.Words for .NET API Reference
-description: ViewOptions property. Gets or sets the percentage between 10 and 500 at which you want to view your document in C#.
+description: ViewOptions ZoomPercent property. Gets or sets the percentage between 10 and 500 at which you want to view your document in C#.
 type: docs
 weight: 50
 url: /net/aspose.words.settings/viewoptions/zoompercent/
 ---
-## ViewOptions.ZoomPercent property
+## ZoomPercent property
 
 Gets or sets the percentage (between 10 and 500) at which you want to view your document.
 

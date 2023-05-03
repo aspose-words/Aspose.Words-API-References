@@ -2,12 +2,12 @@
 title: Stroke.LineStyle
 linktitle: LineStyle
 second_title: Aspose.Words for .NET API Reference
-description: Stroke property. Defines the line style of the stroke in C#.
+description: Stroke LineStyle property. Defines the line style of the stroke in C#.
 type: docs
 weight: 130
 url: /net/aspose.words.drawing/stroke/linestyle/
 ---
-## Stroke.LineStyle property
+## LineStyle property
 
 Defines the line style of the stroke.
 

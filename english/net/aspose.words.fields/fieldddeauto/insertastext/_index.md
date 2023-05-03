@@ -2,12 +2,12 @@
 title: FieldDdeAuto.InsertAsText
 linktitle: InsertAsText
 second_title: Aspose.Words for .NET API Reference
-description: FieldDdeAuto property. Gets or sets whether to insert the linked object in textonly format in C#.
+description: FieldDdeAuto InsertAsText property. Gets or sets whether to insert the linked object in textonly format in C#.
 type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldddeauto/insertastext/
 ---
-## FieldDdeAuto.InsertAsText property
+## InsertAsText property
 
 Gets or sets whether to insert the linked object in text-only format.
 

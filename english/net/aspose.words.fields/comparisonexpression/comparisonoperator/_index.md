@@ -2,12 +2,12 @@
 title: ComparisonExpression.ComparisonOperator
 linktitle: ComparisonOperator
 second_title: Aspose.Words for .NET API Reference
-description: ComparisonExpression property. Gets the comparison operator in C#.
+description: ComparisonExpression ComparisonOperator property. Gets the comparison operator in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.fields/comparisonexpression/comparisonoperator/
 ---
-## ComparisonExpression.ComparisonOperator property
+## ComparisonOperator property
 
 Gets the comparison operator.
 

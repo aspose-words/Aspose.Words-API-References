@@ -2,12 +2,12 @@
 title: ConditionalStyleCollection.FirstRow
 linktitle: FirstRow
 second_title: Aspose.Words for .NET API Reference
-description: ConditionalStyleCollection property. Gets the first row style in C#.
+description: ConditionalStyleCollection FirstRow property. Gets the first row style in C#.
 type: docs
 weight: 70
 url: /net/aspose.words/conditionalstylecollection/firstrow/
 ---
-## ConditionalStyleCollection.FirstRow property
+## FirstRow property
 
 Gets the first row style.
 

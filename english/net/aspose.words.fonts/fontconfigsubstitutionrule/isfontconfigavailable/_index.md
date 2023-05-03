@@ -2,12 +2,12 @@
 title: FontConfigSubstitutionRule.IsFontConfigAvailable
 linktitle: IsFontConfigAvailable
 second_title: Aspose.Words for .NET API Reference
-description: FontConfigSubstitutionRule method. Check if fontconfig utility is available or not in C#.
+description: FontConfigSubstitutionRule IsFontConfigAvailable method. Check if fontconfig utility is available or not in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.fonts/fontconfigsubstitutionrule/isfontconfigavailable/
 ---
-## FontConfigSubstitutionRule.IsFontConfigAvailable method
+## IsFontConfigAvailable method
 
 Check if fontconfig utility is available or not.
 

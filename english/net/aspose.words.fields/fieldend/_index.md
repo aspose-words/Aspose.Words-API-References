@@ -4,7 +4,7 @@ linktitle: FieldEnd
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FieldEnd class. Represents an end of a Word field in a document in C#.
 type: docs
-weight: 1750
+weight: 1830
 url: /net/aspose.words.fields/fieldend/
 ---
 ## FieldEnd class

@@ -2,12 +2,12 @@
 title: TextColumn.Width
 linktitle: Width
 second_title: Aspose.Words for .NET API Reference
-description: TextColumn property. Gets or sets the width of the text column in points in C#.
+description: TextColumn Width property. Gets or sets the width of the text column in points in C#.
 type: docs
 weight: 20
 url: /net/aspose.words/textcolumn/width/
 ---
-## TextColumn.Width property
+## Width property
 
 Gets or sets the width of the text column in points.
 

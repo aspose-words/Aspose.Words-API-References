@@ -2,12 +2,12 @@
 title: FieldCollection.Remove
 linktitle: Remove
 second_title: Aspose.Words for .NET API Reference
-description: FieldCollection method. Removes the specified field from this collection and from the document in C#.
+description: FieldCollection Remove method. Removes the specified field from this collection and from the document in C#.
 type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldcollection/remove/
 ---
-## FieldCollection.Remove method
+## Remove method
 
 Removes the specified field from this collection and from the document.
 

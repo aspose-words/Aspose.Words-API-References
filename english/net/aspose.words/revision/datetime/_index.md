@@ -2,12 +2,12 @@
 title: Revision.DateTime
 linktitle: DateTime
 second_title: Aspose.Words for .NET API Reference
-description: Revision property. Gets or sets the date/time of this revision in C#.
+description: Revision DateTime property. Gets or sets the date/time of this revision in C#.
 type: docs
 weight: 20
 url: /net/aspose.words/revision/datetime/
 ---
-## Revision.DateTime property
+## DateTime property
 
 Gets or sets the date/time of this revision.
 

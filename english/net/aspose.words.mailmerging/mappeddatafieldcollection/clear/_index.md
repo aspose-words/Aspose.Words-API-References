@@ -2,12 +2,12 @@
 title: MappedDataFieldCollection.Clear
 linktitle: Clear
 second_title: Aspose.Words for .NET API Reference
-description: MappedDataFieldCollection method. Removes all elements from the collection in C#.
+description: MappedDataFieldCollection Clear method. Removes all elements from the collection in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.mailmerging/mappeddatafieldcollection/clear/
 ---
-## MappedDataFieldCollection.Clear method
+## Clear method
 
 Removes all elements from the collection.
 

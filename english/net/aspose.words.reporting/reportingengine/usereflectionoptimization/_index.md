@@ -2,12 +2,12 @@
 title: ReportingEngine.UseReflectionOptimization
 linktitle: UseReflectionOptimization
 second_title: Aspose.Words for .NET API Reference
-description: ReportingEngine property. Gets or sets a value indicating whether invocations of custom type members performed via reflection API are optimized using dynamic class generation or not. The default value is true in C#.
+description: ReportingEngine UseReflectionOptimization property. Gets or sets a value indicating whether invocations of custom type members performed via reflection API are optimized using dynamic class generation or not. The default value is true in C#.
 type: docs
 weight: 70
 url: /net/aspose.words.reporting/reportingengine/usereflectionoptimization/
 ---
-## ReportingEngine.UseReflectionOptimization property
+## UseReflectionOptimization property
 
 Gets or sets a value indicating whether invocations of custom type members performed via reflection API are optimized using dynamic class generation or not. The default value is `true`.
 

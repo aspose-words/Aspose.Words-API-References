@@ -2,12 +2,12 @@
 title: Paragraph.FrameFormat
 linktitle: FrameFormat
 second_title: Aspose.Words for .NET API Reference
-description: Paragraph property. Provides access to the frame formatting properties in C#.
+description: Paragraph FrameFormat property. Provides access to the frame formatting properties in C#.
 type: docs
 weight: 30
 url: /net/aspose.words/paragraph/frameformat/
 ---
-## Paragraph.FrameFormat property
+## FrameFormat property
 
 Provides access to the frame formatting properties.
 

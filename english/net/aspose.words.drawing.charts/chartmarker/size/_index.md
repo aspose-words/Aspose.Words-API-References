@@ -2,12 +2,12 @@
 title: ChartMarker.Size
 linktitle: Size
 second_title: Aspose.Words for .NET API Reference
-description: ChartMarker property. Gets or sets chart marker size. Default value is 7 in C#.
+description: ChartMarker Size property. Gets or sets chart marker size. Default value is 7 in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/chartmarker/size/
 ---
-## ChartMarker.Size property
+## Size property
 
 Gets or sets chart marker size. Default value is 7.
 

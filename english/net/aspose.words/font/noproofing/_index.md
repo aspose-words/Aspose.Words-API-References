@@ -2,12 +2,12 @@
 title: Font.NoProofing
 linktitle: NoProofing
 second_title: Aspose.Words for .NET API Reference
-description: Font property. True when the formatted characters are not to be spell checked in C#.
+description: Font NoProofing property. True when the formatted characters are not to be spell checked in C#.
 type: docs
 weight: 280
 url: /net/aspose.words/font/noproofing/
 ---
-## Font.NoProofing property
+## NoProofing property
 
 True when the formatted characters are not to be spell checked.
 

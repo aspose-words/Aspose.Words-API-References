@@ -2,12 +2,12 @@
 title: CustomXmlPropertyCollection.Add
 linktitle: Add
 second_title: Aspose.Words for .NET API Reference
-description: CustomXmlPropertyCollection method. Adds a property to the collection in C#.
+description: CustomXmlPropertyCollection Add method. Adds a property to the collection in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.markup/customxmlpropertycollection/add/
 ---
-## CustomXmlPropertyCollection.Add method
+## Add method
 
 Adds a property to the collection.
 

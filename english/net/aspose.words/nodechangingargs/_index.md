@@ -4,7 +4,7 @@ linktitle: NodeChangingArgs
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.NodeChangingArgs class. Provides data for methods of the INodeChangingCallback interface in C#.
 type: docs
-weight: 4020
+weight: 4100
 url: /net/aspose.words/nodechangingargs/
 ---
 ## NodeChangingArgs class

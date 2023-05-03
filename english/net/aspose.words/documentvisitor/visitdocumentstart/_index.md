@@ -2,12 +2,12 @@
 title: DocumentVisitor.VisitDocumentStart
 linktitle: VisitDocumentStart
 second_title: Aspose.Words for .NET API Reference
-description: DocumentVisitor method. Called when enumeration of the document has started in C#.
+description: DocumentVisitor VisitDocumentStart method. Called when enumeration of the document has started in C#.
 type: docs
 weight: 150
 url: /net/aspose.words/documentvisitor/visitdocumentstart/
 ---
-## DocumentVisitor.VisitDocumentStart method
+## VisitDocumentStart method
 
 Called when enumeration of the document has started.
 

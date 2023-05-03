@@ -2,12 +2,12 @@
 title: FieldCreateDate.UseSakaEraCalendar
 linktitle: UseSakaEraCalendar
 second_title: Aspose.Words for .NET API Reference
-description: FieldCreateDate property. Gets or sets whether to use the Saka Era calendar in C#.
+description: FieldCreateDate UseSakaEraCalendar property. Gets or sets whether to use the Saka Era calendar in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldcreatedate/usesakaeracalendar/
 ---
-## FieldCreateDate.UseSakaEraCalendar property
+## UseSakaEraCalendar property
 
 Gets or sets whether to use the Saka Era calendar.
 

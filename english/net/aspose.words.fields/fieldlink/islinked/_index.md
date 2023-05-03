@@ -2,12 +2,12 @@
 title: FieldLink.IsLinked
 linktitle: IsLinked
 second_title: Aspose.Words for .NET API Reference
-description: FieldLink property. Gets or sets whether to reduce the file size by not storing graphics data with the document in C#.
+description: FieldLink IsLinked property. Gets or sets whether to reduce the file size by not storing graphics data with the document in C#.
 type: docs
 weight: 100
 url: /net/aspose.words.fields/fieldlink/islinked/
 ---
-## FieldLink.IsLinked property
+## IsLinked property
 
 Gets or sets whether to reduce the file size by not storing graphics data with the document.
 

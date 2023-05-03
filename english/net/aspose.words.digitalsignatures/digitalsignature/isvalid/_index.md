@@ -2,12 +2,12 @@
 title: DigitalSignature.IsValid
 linktitle: IsValid
 second_title: Aspose.Words for .NET API Reference
-description: DigitalSignature property. Returns true if this digital signature is valid and the document has not been tampered with in C#.
+description: DigitalSignature IsValid property. Returns true if this digital signature is valid and the document has not been tampered with in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.digitalsignatures/digitalsignature/isvalid/
 ---
-## DigitalSignature.IsValid property
+## IsValid property
 
 Returns `true` if this digital signature is valid and the document has not been tampered with.
 

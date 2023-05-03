@@ -2,12 +2,12 @@
 title: CompareOptions.Target
 linktitle: Target
 second_title: Aspose.Words for .NET API Reference
-description: CompareOptions property. Specifies which document shall be used as a target during comparison in C#.
+description: CompareOptions Target property. Specifies which document shall be used as a target during comparison in C#.
 type: docs
 weight: 130
 url: /net/aspose.words.comparing/compareoptions/target/
 ---
-## CompareOptions.Target property
+## Target property
 
 Specifies which document shall be used as a target during comparison.
 

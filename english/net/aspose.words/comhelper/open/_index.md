@@ -2,7 +2,7 @@
 title: ComHelper.Open
 linktitle: Open
 second_title: Aspose.Words for .NET API Reference
-description: ComHelper method. Allows a COM application to load a Document from a file in C#.
+description: ComHelper Open method. Allows a COM application to load a Document from a file in C#.
 type: docs
 weight: 20
 url: /net/aspose.words/comhelper/open/

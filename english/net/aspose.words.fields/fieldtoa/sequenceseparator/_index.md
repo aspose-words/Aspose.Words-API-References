@@ -2,12 +2,12 @@
 title: FieldToa.SequenceSeparator
 linktitle: SequenceSeparator
 second_title: Aspose.Words for .NET API Reference
-description: FieldToa property. Gets or sets the character sequence that is used to separate sequence numbers and page numbers in C#.
+description: FieldToa SequenceSeparator property. Gets or sets the character sequence that is used to separate sequence numbers and page numbers in C#.
 type: docs
 weight: 90
 url: /net/aspose.words.fields/fieldtoa/sequenceseparator/
 ---
-## FieldToa.SequenceSeparator property
+## SequenceSeparator property
 
 Gets or sets the character sequence that is used to separate sequence numbers and page numbers.
 

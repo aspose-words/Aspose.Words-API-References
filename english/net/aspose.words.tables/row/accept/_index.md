@@ -2,12 +2,12 @@
 title: Row.Accept
 linktitle: Accept
 second_title: Aspose.Words for .NET API Reference
-description: Row method. Accepts a visitor in C#.
+description: Row Accept method. Accepts a visitor in C#.
 type: docs
 weight: 100
 url: /net/aspose.words.tables/row/accept/
 ---
-## Row.Accept method
+## Accept method
 
 Accepts a visitor.
 

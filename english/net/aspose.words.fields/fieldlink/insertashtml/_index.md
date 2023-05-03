@@ -2,12 +2,12 @@
 title: FieldLink.InsertAsHtml
 linktitle: InsertAsHtml
 second_title: Aspose.Words for .NET API Reference
-description: FieldLink property. Gets or sets whether to insert the linked object as HTML format text in C#.
+description: FieldLink InsertAsHtml property. Gets or sets whether to insert the linked object as HTML format text in C#.
 type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldlink/insertashtml/
 ---
-## FieldLink.InsertAsHtml property
+## InsertAsHtml property
 
 Gets or sets whether to insert the linked object as HTML format text.
 

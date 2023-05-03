@@ -4,7 +4,7 @@ linktitle: OutlineOptions
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Saving.OutlineOptions class. Allows to specify outline options in C#.
 type: docs
-weight: 5180
+weight: 5270
 url: /net/aspose.words.saving/outlineoptions/
 ---
 ## OutlineOptions class

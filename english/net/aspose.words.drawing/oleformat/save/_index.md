@@ -2,7 +2,7 @@
 title: OleFormat.Save
 linktitle: Save
 second_title: Aspose.Words for .NET API Reference
-description: OleFormat method. Saves the data of the embedded object into the specified stream in C#.
+description: OleFormat Save method. Saves the data of the embedded object into the specified stream in C#.
 type: docs
 weight: 160
 url: /net/aspose.words.drawing/oleformat/save/

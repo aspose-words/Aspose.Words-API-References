@@ -2,12 +2,12 @@
 title: Style.AutomaticallyUpdate
 linktitle: AutomaticallyUpdate
 second_title: Aspose.Words for .NET API Reference
-description: Style property. Specifies whether this style is automatically redefined based on the appropriate value in C#.
+description: Style AutomaticallyUpdate property. Specifies whether this style is automatically redefined based on the appropriate value in C#.
 type: docs
 weight: 20
 url: /net/aspose.words/style/automaticallyupdate/
 ---
-## Style.AutomaticallyUpdate property
+## AutomaticallyUpdate property
 
 Specifies whether this style is automatically redefined based on the appropriate value.
 

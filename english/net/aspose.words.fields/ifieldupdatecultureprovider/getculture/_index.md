@@ -2,12 +2,12 @@
 title: IFieldUpdateCultureProvider.GetCulture
 linktitle: GetCulture
 second_title: Aspose.Words for .NET API Reference
-description: IFieldUpdateCultureProvider method. Returns a CultureInfo object to be used during the fields update in C#.
+description: IFieldUpdateCultureProvider GetCulture method. Returns a CultureInfo object to be used during the fields update in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.fields/ifieldupdatecultureprovider/getculture/
 ---
-## IFieldUpdateCultureProvider.GetCulture method
+## GetCulture method
 
 Returns a CultureInfo object to be used during the field's update.
 

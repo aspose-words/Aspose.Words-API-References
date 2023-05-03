@@ -2,12 +2,12 @@
 title: TextBox.Next
 linktitle: Next
 second_title: Aspose.Words for .NET API Reference
-description: TextBox property. Returns or sets a TextBox that represents the next TextBox in a sequence of shapes in C#.
+description: TextBox Next property. Returns or sets a TextBox that represents the next TextBox in a sequence of shapes in C#.
 type: docs
 weight: 70
 url: /net/aspose.words.drawing/textbox/next/
 ---
-## TextBox.Next property
+## Next property
 
 Returns or sets a [`TextBox`](../) that represents the next [`TextBox`](../) in a sequence of shapes.
 

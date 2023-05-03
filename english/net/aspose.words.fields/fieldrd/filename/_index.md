@@ -2,12 +2,12 @@
 title: FieldRD.FileName
 linktitle: FileName
 second_title: Aspose.Words for .NET API Reference
-description: FieldRD property. Gets or sets the name of the file to include when generating a table of contents table of authorities or index in C#.
+description: FieldRD FileName property. Gets or sets the name of the file to include when generating a table of contents table of authorities or index in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldrd/filename/
 ---
-## FieldRD.FileName property
+## FileName property
 
 Gets or sets the name of the file to include when generating a table of contents, table of authorities, or index.
 

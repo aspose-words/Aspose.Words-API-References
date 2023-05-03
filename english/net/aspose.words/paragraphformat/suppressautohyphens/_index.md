@@ -2,12 +2,12 @@
 title: ParagraphFormat.SuppressAutoHyphens
 linktitle: SuppressAutoHyphens
 second_title: Aspose.Words for .NET API Reference
-description: ParagraphFormat property. Specifies whether the current paragraph should be exempted from any hyphenation which is applied in the document settings in C#.
+description: ParagraphFormat SuppressAutoHyphens property. Specifies whether the current paragraph should be exempted from any hyphenation which is applied in the document settings in C#.
 type: docs
 weight: 360
 url: /net/aspose.words/paragraphformat/suppressautohyphens/
 ---
-## ParagraphFormat.SuppressAutoHyphens property
+## SuppressAutoHyphens property
 
 Specifies whether the current paragraph should be exempted from any hyphenation which is applied in the document settings.
 

@@ -2,12 +2,12 @@
 title: DocumentBase.BackgroundShape
 linktitle: BackgroundShape
 second_title: Aspose.Words for .NET API Reference
-description: DocumentBase property. Gets or sets the background shape of the document. Can be null in C#.
+description: DocumentBase BackgroundShape property. Gets or sets the background shape of the document. Can be null in C#.
 type: docs
 weight: 10
 url: /net/aspose.words/documentbase/backgroundshape/
 ---
-## DocumentBase.BackgroundShape property
+## BackgroundShape property
 
 Gets or sets the background shape of the document. Can be `null`.
 

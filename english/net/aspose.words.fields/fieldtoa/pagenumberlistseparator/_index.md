@@ -2,12 +2,12 @@
 title: FieldToa.PageNumberListSeparator
 linktitle: PageNumberListSeparator
 second_title: Aspose.Words for .NET API Reference
-description: FieldToa property. Gets or sets the character sequence that is used to separate two page numbers in a page number list in C#.
+description: FieldToa PageNumberListSeparator property. Gets or sets the character sequence that is used to separate two page numbers in a page number list in C#.
 type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldtoa/pagenumberlistseparator/
 ---
-## FieldToa.PageNumberListSeparator property
+## PageNumberListSeparator property
 
 Gets or sets the character sequence that is used to separate two page numbers in a page number list.
 

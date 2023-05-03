@@ -2,12 +2,12 @@
 title: FieldAutoNum.SeparatorCharacter
 linktitle: SeparatorCharacter
 second_title: Aspose.Words for .NET API Reference
-description: FieldAutoNum property. Gets or sets the separator character to be used in C#.
+description: FieldAutoNum SeparatorCharacter property. Gets or sets the separator character to be used in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldautonum/separatorcharacter/
 ---
-## FieldAutoNum.SeparatorCharacter property
+## SeparatorCharacter property
 
 Gets or sets the separator character to be used.
 

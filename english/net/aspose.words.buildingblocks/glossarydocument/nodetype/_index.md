@@ -2,12 +2,12 @@
 title: GlossaryDocument.NodeType
 linktitle: NodeType
 second_title: Aspose.Words for .NET API Reference
-description: GlossaryDocument property. Returns the GlossaryDocument value in C#.
+description: GlossaryDocument NodeType property. Returns the GlossaryDocument value in C#.
 type: docs
 weight: 50
 url: /net/aspose.words.buildingblocks/glossarydocument/nodetype/
 ---
-## GlossaryDocument.NodeType property
+## NodeType property
 
 Returns the GlossaryDocument value.
 

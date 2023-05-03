@@ -2,12 +2,12 @@
 title: ConditionalStyle.Font
 linktitle: Font
 second_title: Aspose.Words for .NET API Reference
-description: ConditionalStyle property. Gets the character formatting of the conditional style in C#.
+description: ConditionalStyle Font property. Gets the character formatting of the conditional style in C#.
 type: docs
 weight: 30
 url: /net/aspose.words/conditionalstyle/font/
 ---
-## ConditionalStyle.Font property
+## Font property
 
 Gets the character formatting of the conditional style.
 

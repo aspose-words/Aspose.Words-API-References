@@ -2,7 +2,7 @@
 title: FileFormatUtil.DetectFileFormat
 linktitle: DetectFileFormat
 second_title: Aspose.Words for .NET API Reference
-description: FileFormatUtil method. Detects and returns the information about a format of a document stored in a disk file in C#.
+description: FileFormatUtil DetectFileFormat method. Detects and returns the information about a format of a document stored in a disk file in C#.
 type: docs
 weight: 30
 url: /net/aspose.words/fileformatutil/detectfileformat/

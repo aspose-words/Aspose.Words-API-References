@@ -2,12 +2,12 @@
 title: PageSetup.Gutter
 linktitle: Gutter
 second_title: Aspose.Words for .NET API Reference
-description: PageSetup property. Gets or sets the amount of extra space added to the margin for document binding in C#.
+description: PageSetup Gutter property. Gets or sets the amount of extra space added to the margin for document binding in C#.
 type: docs
 weight: 160
 url: /net/aspose.words/pagesetup/gutter/
 ---
-## PageSetup.Gutter property
+## Gutter property
 
 Gets or sets the amount of extra space added to the margin for document binding.
 

@@ -2,12 +2,12 @@
 title: Range.Delete
 linktitle: Delete
 second_title: Aspose.Words for .NET API Reference
-description: Range method. Deletes all characters of the range in C#.
+description: Range Delete method. Deletes all characters of the range in C#.
 type: docs
 weight: 70
 url: /net/aspose.words/range/delete/
 ---
-## Range.Delete method
+## Delete method
 
 Deletes all characters of the range.
 

@@ -2,12 +2,12 @@
 title: ThumbnailGeneratingOptions.GenerateFromFirstPage
 linktitle: GenerateFromFirstPage
 second_title: Aspose.Words for .NET API Reference
-description: ThumbnailGeneratingOptions property. Specifies whether to generate thumbnail from first page of the document or first image in C#.
+description: ThumbnailGeneratingOptions GenerateFromFirstPage property. Specifies whether to generate thumbnail from first page of the document or first image in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.rendering/thumbnailgeneratingoptions/generatefromfirstpage/
 ---
-## ThumbnailGeneratingOptions.GenerateFromFirstPage property
+## GenerateFromFirstPage property
 
 Specifies whether to generate thumbnail from first page of the document or first image.
 

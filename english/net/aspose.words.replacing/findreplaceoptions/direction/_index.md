@@ -2,12 +2,12 @@
 title: FindReplaceOptions.Direction
 linktitle: Direction
 second_title: Aspose.Words for .NET API Reference
-description: FindReplaceOptions property. Selects direction for replace. Default value is Forward in C#.
+description: FindReplaceOptions Direction property. Selects direction for replace. Default value is Forward in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.replacing/findreplaceoptions/direction/
 ---
-## FindReplaceOptions.Direction property
+## Direction property
 
 Selects direction for replace. Default value is Forward.
 

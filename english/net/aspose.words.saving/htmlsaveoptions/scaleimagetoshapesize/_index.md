@@ -2,12 +2,12 @@
 title: HtmlSaveOptions.ScaleImageToShapeSize
 linktitle: ScaleImageToShapeSize
 second_title: Aspose.Words for .NET API Reference
-description: HtmlSaveOptions property. Specifies whether images are scaled by Aspose.Words to the bounding shape size when exporting to HTML MHTML or EPUB. Default value is true in C#.
+description: HtmlSaveOptions ScaleImageToShapeSize property. Specifies whether images are scaled by Aspose.Words to the bounding shape size when exporting to HTML MHTML or EPUB. Default value is true in C#.
 type: docs
 weight: 450
 url: /net/aspose.words.saving/htmlsaveoptions/scaleimagetoshapesize/
 ---
-## HtmlSaveOptions.ScaleImageToShapeSize property
+## ScaleImageToShapeSize property
 
 Specifies whether images are scaled by Aspose.Words to the bounding shape size when exporting to HTML, MHTML or EPUB. Default value is `true`.
 

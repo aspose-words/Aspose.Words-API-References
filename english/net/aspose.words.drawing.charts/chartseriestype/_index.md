@@ -2,12 +2,14 @@
 title: ChartSeriesType Enum
 linktitle: ChartSeriesType
 second_title: Aspose.Words for .NET API Reference
-description: Aspose.Words.Drawing.Charts.ChartSeriesType enum.  in C#.
+description: Aspose.Words.Drawing.Charts.ChartSeriesType enum. Specifies a type of a chart series in C#.
 type: docs
-weight: 760
+weight: 780
 url: /net/aspose.words.drawing.charts/chartseriestype/
 ---
 ## ChartSeriesType enumeration
+
+Specifies a type of a chart series.
 
 ```csharp
 public enum ChartSeriesType
@@ -17,50 +19,50 @@ public enum ChartSeriesType
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Area | `0` |  |
-| AreaStacked | `1` |  |
-| AreaPercentStacked | `2` |  |
-| Area3D | `3` |  |
-| Area3DStacked | `4` |  |
-| Area3DPercentStacked | `5` |  |
-| Bar | `6` |  |
-| BarStacked | `7` |  |
-| BarPercentStacked | `8` |  |
-| Bar3D | `9` |  |
-| Bar3DStacked | `10` |  |
-| Bar3DPercentStacked | `11` |  |
-| Bubble | `12` |  |
-| Bubble3D | `13` |  |
-| Column | `14` |  |
-| ColumnStacked | `15` |  |
-| ColumnPercentStacked | `16` |  |
-| Column3D | `17` |  |
-| Column3DStacked | `18` |  |
-| Column3DPercentStacked | `19` |  |
-| Column3DClustered | `20` |  |
-| Doughnut | `21` |  |
-| Line | `22` |  |
-| LineStacked | `23` |  |
-| LinePercentStacked | `24` |  |
-| Line3D | `25` |  |
-| Pie | `26` |  |
-| Pie3D | `27` |  |
-| PieOfBar | `28` |  |
-| PieOfPie | `29` |  |
-| Radar | `30` |  |
-| Scatter | `31` |  |
-| Stock | `32` |  |
-| Surface | `33` |  |
-| Surface3D | `34` |  |
-| Treemap | `35` |  |
-| Sunburst | `36` |  |
-| Histogram | `37` |  |
-| Pareto | `38` |  |
-| ParetoLine | `39` |  |
-| BoxAndWhisker | `40` |  |
-| Waterfall | `41` |  |
-| Funnel | `42` |  |
-| RegionMap | `43` |  |
+| Area | `0` | Represents an Area chart series. |
+| AreaStacked | `1` | Represents a Stacked Area chart series. |
+| AreaPercentStacked | `2` | Represents a 100% Stacked Area chart series. |
+| Area3D | `3` | Represents a 3D Area chart series. |
+| Area3DStacked | `4` | Represents a 3D Stacked Area chart series. |
+| Area3DPercentStacked | `5` | Represents a 3D 100% Stacked Area chart series. |
+| Bar | `6` | Represents a Bar chart series. |
+| BarStacked | `7` | Represents a Stacked Bar chart series. |
+| BarPercentStacked | `8` | Represents a 100% Stacked Bar chart series. |
+| Bar3D | `9` | Represents a 3D Bar chart series. |
+| Bar3DStacked | `10` | Represents a 3D Stacked Bar chart series. |
+| Bar3DPercentStacked | `11` | Represents a 3D 100% Stacked Bar chart series. |
+| Bubble | `12` | Represents a Bubble chart series. |
+| Bubble3D | `13` | Represents a 3D Bubble chart series. |
+| Column | `14` | Represents a Column chart series. |
+| ColumnStacked | `15` | Represents a Stacked Column chart series. |
+| ColumnPercentStacked | `16` | Represents a 100% Stacked Column chart series. |
+| Column3D | `17` | Represents a 3D Column chart series. |
+| Column3DStacked | `18` | Represents a 3D Stacked Column chart series. |
+| Column3DPercentStacked | `19` | Represents a 3D 100% Stacked Column chart series. |
+| Column3DClustered | `20` | Represents a 3D Clustered Column chart series. |
+| Doughnut | `21` | Represents a Doughnut chart series. |
+| Line | `22` | Represents a Line chart series. |
+| LineStacked | `23` | Represents a Stacked Line chart series. |
+| LinePercentStacked | `24` | Represents a 100% Stacked Line chart series. |
+| Line3D | `25` | Represents a 3D Line chart series. |
+| Pie | `26` | Represents a Pie chart series. |
+| Pie3D | `27` | Represents a 3D Pie chart series. |
+| PieOfBar | `28` | Represents a Pie of Bar chart series. |
+| PieOfPie | `29` | Represents a Pie of Pie chart series. |
+| Radar | `30` | Represents a Radar chart series. |
+| Scatter | `31` | Represents a Scatter chart series. |
+| Stock | `32` | Represents a Stock chart series. |
+| Surface | `33` | Represents a Surface chart series. |
+| Surface3D | `34` | Represents a 3D Surface chart series. |
+| Treemap | `35` | Represents a Treemap chart series. |
+| Sunburst | `36` | Represents a Sunburst chart series. |
+| Histogram | `37` | Represents a Histogram chart series. |
+| Pareto | `38` | Represents a Pareto chart series. |
+| ParetoLine | `39` | Represents a Pareto Line chart series. |
+| BoxAndWhisker | `40` | Represents a Box and Whisker chart series. |
+| Waterfall | `41` | Represents a Waterfall chart series. |
+| Funnel | `42` | Represents a Funnel chart series. |
+| RegionMap | `43` | Represents a Region Map chart series. |
 
 ### See Also
 

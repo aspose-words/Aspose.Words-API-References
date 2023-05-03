@@ -2,12 +2,12 @@
 title: Style.IsQuickStyle
 linktitle: IsQuickStyle
 second_title: Aspose.Words for .NET API Reference
-description: Style property. Specifies whether this style is shown in the Quick Style gallery inside MS Word UI in C#.
+description: Style IsQuickStyle property. Specifies whether this style is shown in the Quick Style gallery inside MS Word UI in C#.
 type: docs
 weight: 80
 url: /net/aspose.words/style/isquickstyle/
 ---
-## Style.IsQuickStyle property
+## IsQuickStyle property
 
 Specifies whether this style is shown in the Quick Style gallery inside MS Word UI.
 

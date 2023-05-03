@@ -2,12 +2,12 @@
 title: VbaProject.Clone
 linktitle: Clone
 second_title: Aspose.Words for .NET API Reference
-description: VbaProject method. Performs a copy of the VbaProject in C#.
+description: VbaProject Clone method. Performs a copy of the VbaProject in C#.
 type: docs
 weight: 70
 url: /net/aspose.words.vba/vbaproject/clone/
 ---
-## VbaProject.Clone method
+## Clone method
 
 Performs a copy of the [`VbaProject`](../).
 

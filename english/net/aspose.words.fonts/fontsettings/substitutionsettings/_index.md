@@ -2,12 +2,12 @@
 title: FontSettings.SubstitutionSettings
 linktitle: SubstitutionSettings
 second_title: Aspose.Words for .NET API Reference
-description: FontSettings property. Settings related to font substitution mechanism in C#.
+description: FontSettings SubstitutionSettings property. Settings related to font substitution mechanism in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.fonts/fontsettings/substitutionsettings/
 ---
-## FontSettings.SubstitutionSettings property
+## SubstitutionSettings property
 
 Settings related to font substitution mechanism.
 

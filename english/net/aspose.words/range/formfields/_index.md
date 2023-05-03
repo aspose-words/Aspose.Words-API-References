@@ -2,12 +2,12 @@
 title: Range.FormFields
 linktitle: FormFields
 second_title: Aspose.Words for .NET API Reference
-description: Range property. Returns a FormFields collection that represents all form fields in the range in C#.
+description: Range FormFields property. Returns a FormFields collection that represents all form fields in the range in C#.
 type: docs
 weight: 30
 url: /net/aspose.words/range/formfields/
 ---
-## Range.FormFields property
+## FormFields property
 
 Returns a `FormFields` collection that represents all form fields in the range.
 

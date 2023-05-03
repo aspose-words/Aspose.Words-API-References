@@ -2,12 +2,12 @@
 title: FindReplaceOptions.LegacyMode
 linktitle: LegacyMode
 second_title: Aspose.Words for .NET API Reference
-description: FindReplaceOptions property. Gets or sets a boolean value indicating that old find/replace algorithm is used in C#.
+description: FindReplaceOptions LegacyMode property. Gets or sets a boolean value indicating that old find/replace algorithm is used in C#.
 type: docs
-weight: 120
+weight: 130
 url: /net/aspose.words.replacing/findreplaceoptions/legacymode/
 ---
-## FindReplaceOptions.LegacyMode property
+## LegacyMode property
 
 Gets or sets a boolean value indicating that old find/replace algorithm is used.
 

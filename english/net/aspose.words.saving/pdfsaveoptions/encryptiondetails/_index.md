@@ -2,12 +2,12 @@
 title: PdfSaveOptions.EncryptionDetails
 linktitle: EncryptionDetails
 second_title: Aspose.Words for .NET API Reference
-description: PdfSaveOptions property. Gets or sets the details for encrypting the output PDF document in C#.
+description: PdfSaveOptions EncryptionDetails property. Gets or sets the details for encrypting the output PDF document in C#.
 type: docs
 weight: 130
 url: /net/aspose.words.saving/pdfsaveoptions/encryptiondetails/
 ---
-## PdfSaveOptions.EncryptionDetails property
+## EncryptionDetails property
 
 Gets or sets the details for encrypting the output PDF document.
 

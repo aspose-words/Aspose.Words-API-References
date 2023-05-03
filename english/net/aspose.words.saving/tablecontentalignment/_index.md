@@ -4,7 +4,7 @@ linktitle: TableContentAlignment
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Saving.TableContentAlignment enum. Allows to specify the alignment of the content of the table to be used when exporting into Markdown format in C#.
 type: docs
-weight: 5440
+weight: 5530
 url: /net/aspose.words.saving/tablecontentalignment/
 ---
 ## TableContentAlignment enumeration

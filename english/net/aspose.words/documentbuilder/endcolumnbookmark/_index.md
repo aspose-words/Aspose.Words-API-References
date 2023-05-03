@@ -2,12 +2,12 @@
 title: DocumentBuilder.EndColumnBookmark
 linktitle: EndColumnBookmark
 second_title: Aspose.Words for .NET API Reference
-description: DocumentBuilder method. Marks the current position in the document as a column bookmark end. The position must be in a table cell in C#.
+description: DocumentBuilder EndColumnBookmark method. Marks the current position in the document as a column bookmark end. The position must be in a table cell in C#.
 type: docs
 weight: 220
 url: /net/aspose.words/documentbuilder/endcolumnbookmark/
 ---
-## DocumentBuilder.EndColumnBookmark method
+## EndColumnBookmark method
 
 Marks the current position in the document as a column bookmark end. The position must be in a table cell.
 

@@ -4,7 +4,7 @@ linktitle: WebExtensionBindingCollection
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.WebExtensions.WebExtensionBindingCollection class. Specifies a list of web extension bindings in C#.
 type: docs
-weight: 6570
+weight: 6660
 url: /net/aspose.words.webextensions/webextensionbindingcollection/
 ---
 ## WebExtensionBindingCollection class

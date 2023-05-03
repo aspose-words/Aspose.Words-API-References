@@ -2,12 +2,12 @@
 title: FootnoteOptions.Position
 linktitle: Position
 second_title: Aspose.Words for .NET API Reference
-description: FootnoteOptions property. Specifies the footnotes position in C#.
+description: FootnoteOptions Position property. Specifies the footnotes position in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.notes/footnoteoptions/position/
 ---
-## FootnoteOptions.Position property
+## Position property
 
 Specifies the footnotes position.
 

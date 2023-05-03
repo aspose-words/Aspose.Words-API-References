@@ -2,12 +2,12 @@
 title: SaveOptions.UseAntiAliasing
 linktitle: UseAntiAliasing
 second_title: Aspose.Words for .NET API Reference
-description: SaveOptions property. Gets or sets a value determining whether or not to use antialiasing for rendering in C#.
+description: SaveOptions UseAntiAliasing property. Gets or sets a value determining whether or not to use antialiasing for rendering in C#.
 type: docs
 weight: 190
 url: /net/aspose.words.saving/saveoptions/useantialiasing/
 ---
-## SaveOptions.UseAntiAliasing property
+## UseAntiAliasing property
 
 Gets or sets a value determining whether or not to use anti-aliasing for rendering.
 

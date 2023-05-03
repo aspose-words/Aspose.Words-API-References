@@ -2,12 +2,12 @@
 title: ListLevel.NumberFormat
 linktitle: NumberFormat
 second_title: Aspose.Words for .NET API Reference
-description: ListLevel property. Returns or sets the number format for the list level in C#.
+description: ListLevel NumberFormat property. Returns or sets the number format for the list level in C#.
 type: docs
 weight: 70
 url: /net/aspose.words.lists/listlevel/numberformat/
 ---
-## ListLevel.NumberFormat property
+## NumberFormat property
 
 Returns or sets the number format for the list level.
 

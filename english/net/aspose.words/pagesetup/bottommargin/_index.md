@@ -2,12 +2,12 @@
 title: PageSetup.BottomMargin
 linktitle: BottomMargin
 second_title: Aspose.Words for .NET API Reference
-description: PageSetup property. Returns or sets the distance in points between the bottom edge of the page and the bottom boundary of the body text in C#.
+description: PageSetup BottomMargin property. Returns or sets the distance in points between the bottom edge of the page and the bottom boundary of the body text in C#.
 type: docs
 weight: 80
 url: /net/aspose.words/pagesetup/bottommargin/
 ---
-## PageSetup.BottomMargin property
+## BottomMargin property
 
 Returns or sets the distance (in points) between the bottom edge of the page and the bottom boundary of the body text.
 

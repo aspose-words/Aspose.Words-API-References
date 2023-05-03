@@ -2,12 +2,12 @@
 title: StreamFontSource.Type
 linktitle: Type
 second_title: Aspose.Words for .NET API Reference
-description: StreamFontSource property. Returns the type of the font source in C#.
+description: StreamFontSource Type property. Returns the type of the font source in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.fonts/streamfontsource/type/
 ---
-## StreamFontSource.Type property
+## Type property
 
 Returns the type of the font source.
 

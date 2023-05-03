@@ -2,12 +2,12 @@
 title: CompareOptions.IgnoreCaseChanges
 linktitle: IgnoreCaseChanges
 second_title: Aspose.Words for .NET API Reference
-description: CompareOptions property. True indicates that documents comparison is case insensitive. By default comparison is case sensitive in C#.
+description: CompareOptions IgnoreCaseChanges property. True indicates that documents comparison is case insensitive. By default comparison is case sensitive in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.comparing/compareoptions/ignorecasechanges/
 ---
-## CompareOptions.IgnoreCaseChanges property
+## IgnoreCaseChanges property
 
 True indicates that documents comparison is case insensitive. By default comparison is case sensitive.
 

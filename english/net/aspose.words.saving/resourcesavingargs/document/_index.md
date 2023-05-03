@@ -2,12 +2,12 @@
 title: ResourceSavingArgs.Document
 linktitle: Document
 second_title: Aspose.Words for .NET API Reference
-description: ResourceSavingArgs property. Gets the document object that is currently being saved in C#.
+description: ResourceSavingArgs Document property. Gets the document object that is currently being saved in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.saving/resourcesavingargs/document/
 ---
-## ResourceSavingArgs.Document property
+## Document property
 
 Gets the document object that is currently being saved.
 

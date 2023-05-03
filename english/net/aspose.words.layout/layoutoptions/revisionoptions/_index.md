@@ -2,12 +2,12 @@
 title: LayoutOptions.RevisionOptions
 linktitle: RevisionOptions
 second_title: Aspose.Words for .NET API Reference
-description: LayoutOptions property. Gets revision options in C#.
+description: LayoutOptions RevisionOptions property. Gets revision options in C#.
 type: docs
 weight: 60
 url: /net/aspose.words.layout/layoutoptions/revisionoptions/
 ---
-## LayoutOptions.RevisionOptions property
+## RevisionOptions property
 
 Gets revision options.
 

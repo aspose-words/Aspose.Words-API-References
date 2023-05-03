@@ -2,12 +2,12 @@
 title: Node.GetText
 linktitle: GetText
 second_title: Aspose.Words for .NET API Reference
-description: Node method. Gets the text of this node and of all its children in C#.
+description: Node GetText method. Gets the text of this node and of all its children in C#.
 type: docs
 weight: 120
 url: /net/aspose.words/node/gettext/
 ---
-## Node.GetText method
+## GetText method
 
 Gets the text of this node and of all its children.
 

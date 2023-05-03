@@ -2,12 +2,12 @@
 title: Field.IsDirty
 linktitle: IsDirty
 second_title: Aspose.Words for .NET API Reference
-description: Field property. Gets or sets whether the current result of the field is no longer correct stale due to other modifications made to the document in C#.
+description: Field IsDirty property. Gets or sets whether the current result of the field is no longer correct stale due to other modifications made to the document in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/field/isdirty/
 ---
-## Field.IsDirty property
+## IsDirty property
 
 Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
 

@@ -2,12 +2,12 @@
 title: PageInfo.WidthInPoints
 linktitle: WidthInPoints
 second_title: Aspose.Words for .NET API Reference
-description: PageInfo property. Gets the width of the page in points in C#.
+description: PageInfo WidthInPoints property. Gets the width of the page in points in C#.
 type: docs
 weight: 60
 url: /net/aspose.words.rendering/pageinfo/widthinpoints/
 ---
-## PageInfo.WidthInPoints property
+## WidthInPoints property
 
 Gets the width of the page in points.
 

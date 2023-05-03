@@ -2,12 +2,12 @@
 title: TextColumnCollection.EvenlySpaced
 linktitle: EvenlySpaced
 second_title: Aspose.Words for .NET API Reference
-description: TextColumnCollection property. True if text columns are of equal width and evenly spaced in C#.
+description: TextColumnCollection EvenlySpaced property. True if text columns are of equal width and evenly spaced in C#.
 type: docs
 weight: 20
 url: /net/aspose.words/textcolumncollection/evenlyspaced/
 ---
-## TextColumnCollection.EvenlySpaced property
+## EvenlySpaced property
 
 True if text columns are of equal width and evenly spaced.
 

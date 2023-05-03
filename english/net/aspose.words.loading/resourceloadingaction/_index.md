@@ -4,7 +4,7 @@ linktitle: ResourceLoadingAction
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Loading.ResourceLoadingAction enum. Specifies the mode of resource loading in C#.
 type: docs
-weight: 3540
+weight: 3620
 url: /net/aspose.words.loading/resourceloadingaction/
 ---
 ## ResourceLoadingAction enumeration

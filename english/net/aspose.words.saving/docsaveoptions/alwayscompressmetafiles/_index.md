@@ -2,12 +2,12 @@
 title: DocSaveOptions.AlwaysCompressMetafiles
 linktitle: AlwaysCompressMetafiles
 second_title: Aspose.Words for .NET API Reference
-description: DocSaveOptions property. When false small metafiles are not compressed for performance reason. Default value is true all metafiles are compressed regardless of its size in C#.
+description: DocSaveOptions AlwaysCompressMetafiles property. When false small metafiles are not compressed for performance reason. Default value is true all metafiles are compressed regardless of its size in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.saving/docsaveoptions/alwayscompressmetafiles/
 ---
-## DocSaveOptions.AlwaysCompressMetafiles property
+## AlwaysCompressMetafiles property
 
 When `false`, small metafiles are not compressed for performance reason. Default value is `true`, all metafiles are compressed regardless of its size.
 

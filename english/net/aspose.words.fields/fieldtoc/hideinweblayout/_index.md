@@ -2,12 +2,12 @@
 title: FieldToc.HideInWebLayout
 linktitle: HideInWebLayout
 second_title: Aspose.Words for .NET API Reference
-description: FieldToc property. Gets or sets whether to hide tab leader and page numbers in Web layout view in C#.
+description: FieldToc HideInWebLayout property. Gets or sets whether to hide tab leader and page numbers in Web layout view in C#.
 type: docs
 weight: 90
 url: /net/aspose.words.fields/fieldtoc/hideinweblayout/
 ---
-## FieldToc.HideInWebLayout property
+## HideInWebLayout property
 
 Gets or sets whether to hide tab leader and page numbers in Web layout view.
 

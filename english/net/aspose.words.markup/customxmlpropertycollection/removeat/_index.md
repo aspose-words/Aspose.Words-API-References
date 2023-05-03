@@ -2,12 +2,12 @@
 title: CustomXmlPropertyCollection.RemoveAt
 linktitle: RemoveAt
 second_title: Aspose.Words for .NET API Reference
-description: CustomXmlPropertyCollection method. Removes a property at the specified index in C#.
+description: CustomXmlPropertyCollection RemoveAt method. Removes a property at the specified index in C#.
 type: docs
 weight: 90
 url: /net/aspose.words.markup/customxmlpropertycollection/removeat/
 ---
-## CustomXmlPropertyCollection.RemoveAt method
+## RemoveAt method
 
 Removes a property at the specified index.
 

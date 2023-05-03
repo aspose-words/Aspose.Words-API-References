@@ -2,12 +2,12 @@
 title: Table.LastRow
 linktitle: LastRow
 second_title: Aspose.Words for .NET API Reference
-description: Table property. Returns the last Row node in the table in C#.
+description: Table LastRow property. Returns the last Row node in the table in C#.
 type: docs
 weight: 180
 url: /net/aspose.words.tables/table/lastrow/
 ---
-## Table.LastRow property
+## LastRow property
 
 Returns the last [`Row`](../../row/) node in the table.
 

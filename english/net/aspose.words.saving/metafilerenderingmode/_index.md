@@ -4,7 +4,7 @@ linktitle: MetafileRenderingMode
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Saving.MetafileRenderingMode enum. Specifies how Aspose.Words should render WMF and EMF metafiles in C#.
 type: docs
-weight: 5110
+weight: 5200
 url: /net/aspose.words.saving/metafilerenderingmode/
 ---
 ## MetafileRenderingMode enumeration

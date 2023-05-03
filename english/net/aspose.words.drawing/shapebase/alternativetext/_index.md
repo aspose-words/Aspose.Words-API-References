@@ -2,12 +2,12 @@
 title: ShapeBase.AlternativeText
 linktitle: AlternativeText
 second_title: Aspose.Words for .NET API Reference
-description: ShapeBase property. Defines alternative text to be displayed instead of a graphic in C#.
+description: ShapeBase AlternativeText property. Defines alternative text to be displayed instead of a graphic in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing/shapebase/alternativetext/
 ---
-## ShapeBase.AlternativeText property
+## AlternativeText property
 
 Defines alternative text to be displayed instead of a graphic.
 

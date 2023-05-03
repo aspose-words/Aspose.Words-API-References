@@ -2,12 +2,12 @@
 title: FormField.EntryMacro
 linktitle: EntryMacro
 second_title: Aspose.Words for .NET API Reference
-description: FormField property. Returns or sets an entry macro name for the form field in C#.
+description: FormField EntryMacro property. Returns or sets an entry macro name for the form field in C#.
 type: docs
 weight: 80
 url: /net/aspose.words.fields/formfield/entrymacro/
 ---
-## FormField.EntryMacro property
+## EntryMacro property
 
 Returns or sets an entry macro name for the form field.
 

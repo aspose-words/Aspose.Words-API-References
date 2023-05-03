@@ -2,12 +2,12 @@
 title: RevisionCollection.AcceptAll
 linktitle: AcceptAll
 second_title: Aspose.Words for .NET API Reference
-description: RevisionCollection method. Accepts all revisions in this collection in C#.
+description: RevisionCollection AcceptAll method. Accepts all revisions in this collection in C#.
 type: docs
 weight: 40
 url: /net/aspose.words/revisioncollection/acceptall/
 ---
-## RevisionCollection.AcceptAll method
+## AcceptAll method
 
 Accepts all revisions in this collection.
 

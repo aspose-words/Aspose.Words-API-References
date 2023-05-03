@@ -2,12 +2,12 @@
 title: ReplacingArgs.GroupIndex
 linktitle: GroupIndex
 second_title: Aspose.Words for .NET API Reference
-description: ReplacingArgs property. Identifies by index a captured group in the Match that is to be replaced with the Replacement string in C#.
+description: ReplacingArgs GroupIndex property. Identifies by index a captured group in the Match that is to be replaced with the Replacement string in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.replacing/replacingargs/groupindex/
 ---
-## ReplacingArgs.GroupIndex property
+## GroupIndex property
 
 Identifies, by index, a captured group in the [`Match`](../match/) that is to be replaced with the [`Replacement`](../replacement/) string.
 

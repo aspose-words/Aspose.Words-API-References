@@ -2,12 +2,12 @@
 title: FieldUpdatingProgressArgs.UpdatedFieldsCount
 linktitle: UpdatedFieldsCount
 second_title: Aspose.Words for .NET API Reference
-description: FieldUpdatingProgressArgs property. Gets the number of updated fields in C#.
+description: FieldUpdatingProgressArgs UpdatedFieldsCount property. Gets the number of updated fields in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldupdatingprogressargs/updatedfieldscount/
 ---
-## FieldUpdatingProgressArgs.UpdatedFieldsCount property
+## UpdatedFieldsCount property
 
 Gets the number of updated fields.
 

@@ -2,12 +2,12 @@
 title: FieldAutoTextList.EntryName
 linktitle: EntryName
 second_title: Aspose.Words for .NET API Reference
-description: FieldAutoTextList property. Gets or sets the name of the AutoText entry in C#.
+description: FieldAutoTextList EntryName property. Gets or sets the name of the AutoText entry in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldautotextlist/entryname/
 ---
-## FieldAutoTextList.EntryName property
+## EntryName property
 
 Gets or sets the name of the AutoText entry.
 

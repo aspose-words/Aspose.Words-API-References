@@ -2,12 +2,12 @@
 title: Document.HyphenationOptions
 linktitle: HyphenationOptions
 second_title: Aspose.Words for .NET API Reference
-description: Document property. Provides access to document hyphenation options in C#.
+description: Document HyphenationOptions property. Provides access to document hyphenation options in C#.
 type: docs
 weight: 210
 url: /net/aspose.words/document/hyphenationoptions/
 ---
-## Document.HyphenationOptions property
+## HyphenationOptions property
 
 Provides access to document hyphenation options.
 

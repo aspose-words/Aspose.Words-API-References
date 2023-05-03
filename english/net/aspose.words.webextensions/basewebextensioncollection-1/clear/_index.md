@@ -2,12 +2,12 @@
 title: BaseWebExtensionCollection1.Clear
 linktitle: Clear
 second_title: Aspose.Words for .NET API Reference
-description: BaseWebExtensionCollection method. Removes all elements from the collection in C#.
+description: BaseWebExtensionCollection Clear method. Removes all elements from the collection in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.webextensions/basewebextensioncollection-1/clear/
 ---
-## BaseWebExtensionCollection&lt;T&gt;.Clear method
+## Clear method
 
 Removes all elements from the collection.
 

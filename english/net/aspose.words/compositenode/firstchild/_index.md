@@ -2,12 +2,12 @@
 title: CompositeNode.FirstChild
 linktitle: FirstChild
 second_title: Aspose.Words for .NET API Reference
-description: CompositeNode property. Gets the first child of the node in C#.
+description: CompositeNode FirstChild property. Gets the first child of the node in C#.
 type: docs
 weight: 30
 url: /net/aspose.words/compositenode/firstchild/
 ---
-## CompositeNode.FirstChild property
+## FirstChild property
 
 Gets the first child of the node.
 

@@ -2,12 +2,12 @@
 title: GradientStop.Position
 linktitle: Position
 second_title: Aspose.Words for .NET API Reference
-description: GradientStop property. Gets or sets a value representing the position of a stop within the gradient expressed as a percent in range 0.0 to 1.0 in C#.
+description: GradientStop Position property. Gets or sets a value representing the position of a stop within the gradient expressed as a percent in range 0.0 to 1.0 in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.drawing/gradientstop/position/
 ---
-## GradientStop.Position property
+## Position property
 
 Gets or sets a value representing the position of a stop within the gradient expressed as a percent in range 0.0 to 1.0.
 

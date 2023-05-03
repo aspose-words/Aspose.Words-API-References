@@ -2,12 +2,12 @@
 title: FieldToc.PreserveTabs
 linktitle: PreserveTabs
 second_title: Aspose.Words for .NET API Reference
-description: FieldToc property. Gets or sets whether to preserve tab entries within table entries in C#.
+description: FieldToc PreserveTabs property. Gets or sets whether to preserve tab entries within table entries in C#.
 type: docs
 weight: 140
 url: /net/aspose.words.fields/fieldtoc/preservetabs/
 ---
-## FieldToc.PreserveTabs property
+## PreserveTabs property
 
 Gets or sets whether to preserve tab entries within table entries.
 

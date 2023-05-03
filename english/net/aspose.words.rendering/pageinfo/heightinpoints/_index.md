@@ -2,12 +2,12 @@
 title: PageInfo.HeightInPoints
 linktitle: HeightInPoints
 second_title: Aspose.Words for .NET API Reference
-description: PageInfo property. Gets the height of the page in points in C#.
+description: PageInfo HeightInPoints property. Gets the height of the page in points in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.rendering/pageinfo/heightinpoints/
 ---
-## PageInfo.HeightInPoints property
+## HeightInPoints property
 
 Gets the height of the page in points.
 
