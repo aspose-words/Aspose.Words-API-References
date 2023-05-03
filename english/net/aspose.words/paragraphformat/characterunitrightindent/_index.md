@@ -2,12 +2,12 @@
 title: ParagraphFormat.CharacterUnitRightIndent
 linktitle: CharacterUnitRightIndent
 second_title: Aspose.Words for .NET API Reference
-description: ParagraphFormat property. Gets or sets the right indent value in characters for the specified paragraphs in C#.
+description: ParagraphFormat CharacterUnitRightIndent property. Gets or sets the right indent value in characters for the specified paragraphs in C#.
 type: docs
 weight: 80
 url: /net/aspose.words/paragraphformat/characterunitrightindent/
 ---
-## ParagraphFormat.CharacterUnitRightIndent property
+## CharacterUnitRightIndent property
 
 Gets or sets the right indent value (in characters) for the specified paragraphs.
 

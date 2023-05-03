@@ -2,12 +2,12 @@
 title: BuildingBlock.Name
 linktitle: Name
 second_title: Aspose.Words for .NET API Reference
-description: BuildingBlock property. Gets or sets the name of this building block in C#.
+description: BuildingBlock Name property. Gets or sets the name of this building block in C#.
 type: docs
 weight: 90
 url: /net/aspose.words.buildingblocks/buildingblock/name/
 ---
-## BuildingBlock.Name property
+## Name property
 
 Gets or sets the name of this building block.
 

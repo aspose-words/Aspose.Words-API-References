@@ -2,12 +2,12 @@
 title: DropDownItemCollection.Remove
 linktitle: Remove
 second_title: Aspose.Words for .NET API Reference
-description: DropDownItemCollection method. Removes the specified value from the collection in C#.
+description: DropDownItemCollection Remove method. Removes the specified value from the collection in C#.
 type: docs
 weight: 90
 url: /net/aspose.words.fields/dropdownitemcollection/remove/
 ---
-## DropDownItemCollection.Remove method
+## Remove method
 
 Removes the specified value from the collection.
 

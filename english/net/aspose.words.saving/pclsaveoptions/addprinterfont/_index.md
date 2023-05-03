@@ -2,12 +2,12 @@
 title: PclSaveOptions.AddPrinterFont
 linktitle: AddPrinterFont
 second_title: Aspose.Words for .NET API Reference
-description: PclSaveOptions method. Adds information about font that is uploaded to the printer by manufacturer in C#.
+description: PclSaveOptions AddPrinterFont method. Adds information about font that is uploaded to the printer by manufacturer in C#.
 type: docs
 weight: 50
 url: /net/aspose.words.saving/pclsaveoptions/addprinterfont/
 ---
-## PclSaveOptions.AddPrinterFont method
+## AddPrinterFont method
 
 Adds information about font that is uploaded to the printer by manufacturer.
 

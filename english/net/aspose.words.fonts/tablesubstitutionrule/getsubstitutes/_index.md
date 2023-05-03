@@ -2,12 +2,12 @@
 title: TableSubstitutionRule.GetSubstitutes
 linktitle: GetSubstitutes
 second_title: Aspose.Words for .NET API Reference
-description: TableSubstitutionRule method. Returns array containing substitute font names for the specified original font name in C#.
+description: TableSubstitutionRule GetSubstitutes method. Returns array containing substitute font names for the specified original font name in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.fonts/tablesubstitutionrule/getsubstitutes/
 ---
-## TableSubstitutionRule.GetSubstitutes method
+## GetSubstitutes method
 
 Returns array containing substitute font names for the specified original font name.
 

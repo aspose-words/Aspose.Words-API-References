@@ -4,7 +4,7 @@ linktitle: DashStyle
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Drawing.DashStyle enum. Dashed line style in C#.
 type: docs
-weight: 820
+weight: 900
 url: /net/aspose.words.drawing/dashstyle/
 ---
 ## DashStyle enumeration

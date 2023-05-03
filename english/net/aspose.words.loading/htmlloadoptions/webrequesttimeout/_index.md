@@ -2,12 +2,12 @@
 title: HtmlLoadOptions.WebRequestTimeout
 linktitle: WebRequestTimeout
 second_title: Aspose.Words for .NET API Reference
-description: HtmlLoadOptions property. The number of milliseconds to wait before the web request times out. The default value is 100000 milliseconds 100 seconds in C#.
+description: HtmlLoadOptions WebRequestTimeout property. The number of milliseconds to wait before the web request times out. The default value is 100000 milliseconds 100 seconds in C#.
 type: docs
 weight: 70
 url: /net/aspose.words.loading/htmlloadoptions/webrequesttimeout/
 ---
-## HtmlLoadOptions.WebRequestTimeout property
+## WebRequestTimeout property
 
 The number of milliseconds to wait before the web request times out. The default value is 100000 milliseconds (100 seconds).
 

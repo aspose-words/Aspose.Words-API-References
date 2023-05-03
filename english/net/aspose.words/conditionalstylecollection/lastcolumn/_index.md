@@ -2,12 +2,12 @@
 title: ConditionalStyleCollection.LastColumn
 linktitle: LastColumn
 second_title: Aspose.Words for .NET API Reference
-description: ConditionalStyleCollection property. Gets the last column style in C#.
+description: ConditionalStyleCollection LastColumn property. Gets the last column style in C#.
 type: docs
 weight: 90
 url: /net/aspose.words/conditionalstylecollection/lastcolumn/
 ---
-## ConditionalStyleCollection.LastColumn property
+## LastColumn property
 
 Gets the last column style.
 

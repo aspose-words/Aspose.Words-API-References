@@ -2,12 +2,12 @@
 title: Range.StructuredDocumentTags
 linktitle: StructuredDocumentTags
 second_title: Aspose.Words for .NET API Reference
-description: Range property. Returns a StructuredDocumentTags collection that represents all structured document tags in the range in C#.
+description: Range StructuredDocumentTags property. Returns a StructuredDocumentTags collection that represents all structured document tags in the range in C#.
 type: docs
 weight: 50
 url: /net/aspose.words/range/structureddocumenttags/
 ---
-## Range.StructuredDocumentTags property
+## StructuredDocumentTags property
 
 Returns a `StructuredDocumentTags` collection that represents all structured document tags in the range.
 

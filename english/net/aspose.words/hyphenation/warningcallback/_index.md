@@ -2,12 +2,12 @@
 title: Hyphenation.WarningCallback
 linktitle: WarningCallback
 second_title: Aspose.Words for .NET API Reference
-description: Hyphenation property. Called during a load hyphenation patterns when an issue is detected that might result in formatting fidelity loss in C#.
+description: Hyphenation WarningCallback property. Called during a load hyphenation patterns when an issue is detected that might result in formatting fidelity loss in C#.
 type: docs
 weight: 20
 url: /net/aspose.words/hyphenation/warningcallback/
 ---
-## Hyphenation.WarningCallback property
+## WarningCallback property
 
 Called during a load hyphenation patterns, when an issue is detected that might result in formatting fidelity loss.
 

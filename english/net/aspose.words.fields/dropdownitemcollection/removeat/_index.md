@@ -2,12 +2,12 @@
 title: DropDownItemCollection.RemoveAt
 linktitle: RemoveAt
 second_title: Aspose.Words for .NET API Reference
-description: DropDownItemCollection method. Removes a value at the specified index in C#.
+description: DropDownItemCollection RemoveAt method. Removes a value at the specified index in C#.
 type: docs
 weight: 100
 url: /net/aspose.words.fields/dropdownitemcollection/removeat/
 ---
-## DropDownItemCollection.RemoveAt method
+## RemoveAt method
 
 Removes a value at the specified index.
 

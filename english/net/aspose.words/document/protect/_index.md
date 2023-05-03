@@ -2,12 +2,12 @@
 title: Document.Protect
 linktitle: Protect
 second_title: Aspose.Words for .NET API Reference
-description: Document method. Protects the document from changes without changing the existing password or assigns a random password in C#.
+description: Document Protect method. Protects the document from changes without changing the existing password or assigns a random password in C#.
 type: docs
 weight: 650
 url: /net/aspose.words/document/protect/
 ---
-## Protect([`ProtectionType`](../../protectiontype/)) {#protect}
+## Protect(*[ProtectionType](../../protectiontype/)*) {#protect}
 
 Protects the document from changes without changing the existing password or assigns a random password.
 
@@ -62,7 +62,7 @@ doc.Save(ArtifactsDir + "Section.Protect.docx");
 
 ---
 
-## Protect([`ProtectionType`](../../protectiontype/), `string`) {#protect_1}
+## Protect(*[ProtectionType](../../protectiontype/), string*) {#protect_1}
 
 Protects the document from changes and optionally sets a protection password.
 

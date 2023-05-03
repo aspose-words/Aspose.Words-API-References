@@ -2,12 +2,12 @@
 title: ParagraphFormat.SpaceAfter
 linktitle: SpaceAfter
 second_title: Aspose.Words for .NET API Reference
-description: ParagraphFormat property. Gets or sets the amount of spacing in points after the paragraph in C#.
+description: ParagraphFormat SpaceAfter property. Gets or sets the amount of spacing in points after the paragraph in C#.
 type: docs
 weight: 290
 url: /net/aspose.words/paragraphformat/spaceafter/
 ---
-## ParagraphFormat.SpaceAfter property
+## SpaceAfter property
 
 Gets or sets the amount of spacing (in points) after the paragraph.
 

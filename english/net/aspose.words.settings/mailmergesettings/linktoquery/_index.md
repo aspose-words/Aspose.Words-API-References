@@ -2,12 +2,12 @@
 title: MailMergeSettings.LinkToQuery
 linktitle: LinkToQuery
 second_title: Aspose.Words for .NET API Reference
-description: MailMergeSettings property. Not sure about this one. The Microsoft Word Automation Reference suggests that this specifies that the query is executed every time the document is opened in Microsoft Word. But the OOXML specification suggests that this specifies that the query contains a reference to an external query file which contains the actual query. The default value is false in C#.
+description: MailMergeSettings LinkToQuery property. Not sure about this one. The Microsoft Word Automation Reference suggests that this specifies that the query is executed every time the document is opened in Microsoft Word. But the OOXML specification suggests that this specifies that the query contains a reference to an external query file which contains the actual query. The default value is false in C#.
 type: docs
 weight: 110
 url: /net/aspose.words.settings/mailmergesettings/linktoquery/
 ---
-## MailMergeSettings.LinkToQuery property
+## LinkToQuery property
 
 Not sure about this one. The Microsoft Word Automation Reference suggests that this specifies that the query is executed every time the document is opened in Microsoft Word. But the OOXML specification suggests that this specifies that the query contains a reference to an external query file which contains the actual query. The default value is `false`.
 

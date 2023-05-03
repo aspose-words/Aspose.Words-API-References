@@ -2,12 +2,12 @@
 title: BarcodeParameters.SymbolHeight
 linktitle: SymbolHeight
 second_title: Aspose.Words for .NET API Reference
-description: BarcodeParameters property. Bar code image height in twips  1/1440 inches in C#.
+description: BarcodeParameters SymbolHeight property. Bar code image height in twips  1/1440 inches in C#.
 type: docs
 weight: 170
 url: /net/aspose.words.fields/barcodeparameters/symbolheight/
 ---
-## BarcodeParameters.SymbolHeight property
+## SymbolHeight property
 
 Bar code image height (in twips - 1/1440 inches)
 

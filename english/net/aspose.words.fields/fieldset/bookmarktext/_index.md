@@ -2,12 +2,12 @@
 title: FieldSet.BookmarkText
 linktitle: BookmarkText
 second_title: Aspose.Words for .NET API Reference
-description: FieldSet property. Gets or sets the new text of the bookmark in C#.
+description: FieldSet BookmarkText property. Gets or sets the new text of the bookmark in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldset/bookmarktext/
 ---
-## FieldSet.BookmarkText property
+## BookmarkText property
 
 Gets or sets the new text of the bookmark.
 

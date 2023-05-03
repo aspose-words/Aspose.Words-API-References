@@ -2,12 +2,12 @@
 title: ResourceSavingArgs.ResourceFileName
 linktitle: ResourceFileName
 second_title: Aspose.Words for .NET API Reference
-description: ResourceSavingArgs property. Gets or sets the file name without path where the resource will be saved to in C#.
+description: ResourceSavingArgs ResourceFileName property. Gets or sets the file name without path where the resource will be saved to in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.saving/resourcesavingargs/resourcefilename/
 ---
-## ResourceSavingArgs.ResourceFileName property
+## ResourceFileName property
 
 Gets or sets the file name (without path) where the resource will be saved to.
 

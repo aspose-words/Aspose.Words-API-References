@@ -2,12 +2,12 @@
 title: FieldTA.ShortCitation
 linktitle: ShortCitation
 second_title: Aspose.Words for .NET API Reference
-description: FieldTA property. Gets or sets the short citation for the entry in C#.
+description: FieldTA ShortCitation property. Gets or sets the short citation for the entry in C#.
 type: docs
 weight: 70
 url: /net/aspose.words.fields/fieldta/shortcitation/
 ---
-## FieldTA.ShortCitation property
+## ShortCitation property
 
 Gets or sets the short citation for the entry.
 

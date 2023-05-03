@@ -2,12 +2,12 @@
 title: HtmlFixedSaveOptions.ExportEmbeddedCss
 linktitle: ExportEmbeddedCss
 second_title: Aspose.Words for .NET API Reference
-description: HtmlFixedSaveOptions property. Specifies whether the CSS Cascading Style Sheet should be embedded into Html document in C#.
+description: HtmlFixedSaveOptions ExportEmbeddedCss property. Specifies whether the CSS Cascading Style Sheet should be embedded into Html document in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedcss/
 ---
-## HtmlFixedSaveOptions.ExportEmbeddedCss property
+## ExportEmbeddedCss property
 
 Specifies whether the CSS (Cascading Style Sheet) should be embedded into Html document.
 

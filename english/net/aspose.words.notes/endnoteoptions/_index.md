@@ -4,7 +4,7 @@ linktitle: EndnoteOptions
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Notes.EndnoteOptions class. Represents the endnote numbering options for a document or section in C#.
 type: docs
-weight: 4070
+weight: 4150
 url: /net/aspose.words.notes/endnoteoptions/
 ---
 ## EndnoteOptions class

@@ -2,12 +2,12 @@
 title: CustomXmlPropertyCollection.Count
 linktitle: Count
 second_title: Aspose.Words for .NET API Reference
-description: CustomXmlPropertyCollection property. Gets the number of elements contained in the collection in C#.
+description: CustomXmlPropertyCollection Count property. Gets the number of elements contained in the collection in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.markup/customxmlpropertycollection/count/
 ---
-## CustomXmlPropertyCollection.Count property
+## Count property
 
 Gets the number of elements contained in the collection.
 

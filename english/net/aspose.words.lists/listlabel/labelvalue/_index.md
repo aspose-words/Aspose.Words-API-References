@@ -2,12 +2,12 @@
 title: ListLabel.LabelValue
 linktitle: LabelValue
 second_title: Aspose.Words for .NET API Reference
-description: ListLabel property. Gets a numeric value for this label in C#.
+description: ListLabel LabelValue property. Gets a numeric value for this label in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.lists/listlabel/labelvalue/
 ---
-## ListLabel.LabelValue property
+## LabelValue property
 
 Gets a numeric value for this label.
 

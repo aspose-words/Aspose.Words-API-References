@@ -2,12 +2,12 @@
 title: LayoutEnumerator.Type
 linktitle: Type
 second_title: Aspose.Words for .NET API Reference
-description: LayoutEnumerator property. Gets the type of the current entity in C#.
+description: LayoutEnumerator Type property. Gets the type of the current entity in C#.
 type: docs
 weight: 90
 url: /net/aspose.words.layout/layoutenumerator/type/
 ---
-## LayoutEnumerator.Type property
+## Type property
 
 Gets the type of the current entity.
 

@@ -2,12 +2,12 @@
 title: PageLayoutCallbackArgs.PageIndex
 linktitle: PageIndex
 second_title: Aspose.Words for .NET API Reference
-description: PageLayoutCallbackArgs property. Gets 0based index of the page in the document this event relates to. Returns negative value if there is no associated page or if page was removed during reflow in C#.
+description: PageLayoutCallbackArgs PageIndex property. Gets 0based index of the page in the document this event relates to. Returns negative value if there is no associated page or if page was removed during reflow in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.layout/pagelayoutcallbackargs/pageindex/
 ---
-## PageLayoutCallbackArgs.PageIndex property
+## PageIndex property
 
 Gets 0-based index of the page in the document this event relates to. Returns negative value if there is no associated page, or if page was removed during reflow.
 

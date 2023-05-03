@@ -2,7 +2,7 @@
 title: Cluster.GetString
 linktitle: GetString
 second_title: Aspose.Words for .NET API Reference
-description: Cluster method. Creates String using codepoints from the specified clusters in C#.
+description: Cluster GetString method. Creates String using codepoints from the specified clusters in C#.
 type: docs
 weight: 70
 url: /net/aspose.words.shaping/cluster/getstring/

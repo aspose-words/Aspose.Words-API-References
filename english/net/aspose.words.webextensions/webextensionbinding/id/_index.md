@@ -2,12 +2,12 @@
 title: WebExtensionBinding.Id
 linktitle: Id
 second_title: Aspose.Words for .NET API Reference
-description: WebExtensionBinding property. Specifies the binding identifier in C#.
+description: WebExtensionBinding Id property. Specifies the binding identifier in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.webextensions/webextensionbinding/id/
 ---
-## WebExtensionBinding.Id property
+## Id property
 
 Specifies the binding identifier.
 

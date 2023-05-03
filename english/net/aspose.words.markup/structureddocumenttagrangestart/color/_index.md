@@ -2,12 +2,12 @@
 title: StructuredDocumentTagRangeStart.Color
 linktitle: Color
 second_title: Aspose.Words for .NET API Reference
-description: StructuredDocumentTagRangeStart property. Gets or sets the color of the structured document tag in C#.
+description: StructuredDocumentTagRangeStart Color property. Gets or sets the color of the structured document tag in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.markup/structureddocumenttagrangestart/color/
 ---
-## StructuredDocumentTagRangeStart.Color property
+## Color property
 
 Gets or sets the color of the structured document tag.
 

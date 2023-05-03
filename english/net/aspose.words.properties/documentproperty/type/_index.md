@@ -2,12 +2,12 @@
 title: DocumentProperty.Type
 linktitle: Type
 second_title: Aspose.Words for .NET API Reference
-description: DocumentProperty property. Gets the data type of the property in C#.
+description: DocumentProperty Type property. Gets the data type of the property in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.properties/documentproperty/type/
 ---
-## DocumentProperty.Type property
+## Type property
 
 Gets the data type of the property.
 

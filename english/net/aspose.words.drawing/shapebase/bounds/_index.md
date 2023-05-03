@@ -2,12 +2,12 @@
 title: ShapeBase.Bounds
 linktitle: Bounds
 second_title: Aspose.Words for .NET API Reference
-description: ShapeBase property. Gets or sets the location and size of the containing block of the shape in C#.
+description: ShapeBase Bounds property. Gets or sets the location and size of the containing block of the shape in C#.
 type: docs
 weight: 70
 url: /net/aspose.words.drawing/shapebase/bounds/
 ---
-## ShapeBase.Bounds property
+## Bounds property
 
 Gets or sets the location and size of the containing block of the shape.
 

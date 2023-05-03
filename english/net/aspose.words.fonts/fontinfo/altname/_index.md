@@ -2,12 +2,12 @@
 title: FontInfo.AltName
 linktitle: AltName
 second_title: Aspose.Words for .NET API Reference
-description: FontInfo property. Gets or sets the alternate name for the font in C#.
+description: FontInfo AltName property. Gets or sets the alternate name for the font in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.fonts/fontinfo/altname/
 ---
-## FontInfo.AltName property
+## AltName property
 
 Gets or sets the alternate name for the font.
 

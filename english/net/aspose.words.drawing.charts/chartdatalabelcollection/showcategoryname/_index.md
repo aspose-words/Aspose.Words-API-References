@@ -2,12 +2,12 @@
 title: ChartDataLabelCollection.ShowCategoryName
 linktitle: ShowCategoryName
 second_title: Aspose.Words for .NET API Reference
-description: ChartDataLabelCollection property. Allows to specify whether category name is to be displayed for the data labels of the entire series. Default value is false in C#.
+description: ChartDataLabelCollection ShowCategoryName property. Allows to specify whether category name is to be displayed for the data labels of the entire series. Default value is false in C#.
 type: docs
 weight: 70
 url: /net/aspose.words.drawing.charts/chartdatalabelcollection/showcategoryname/
 ---
-## ChartDataLabelCollection.ShowCategoryName property
+## ShowCategoryName property
 
 Allows to specify whether category name is to be displayed for the data labels of the entire series. Default value is `false`.
 

@@ -2,12 +2,12 @@
 title: CustomXmlPartCollection.RemoveAt
 linktitle: RemoveAt
 second_title: Aspose.Words for .NET API Reference
-description: CustomXmlPartCollection method. Removes an item at the specified index in C#.
+description: CustomXmlPartCollection RemoveAt method. Removes an item at the specified index in C#.
 type: docs
 weight: 90
 url: /net/aspose.words.markup/customxmlpartcollection/removeat/
 ---
-## CustomXmlPartCollection.RemoveAt method
+## RemoveAt method
 
 Removes an item at the specified index.
 

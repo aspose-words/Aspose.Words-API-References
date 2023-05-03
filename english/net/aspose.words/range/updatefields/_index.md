@@ -2,12 +2,12 @@
 title: Range.UpdateFields
 linktitle: UpdateFields
 second_title: Aspose.Words for .NET API Reference
-description: Range method. Updates the values of document fields in this range in C#.
+description: Range UpdateFields method. Updates the values of document fields in this range in C#.
 type: docs
 weight: 120
 url: /net/aspose.words/range/updatefields/
 ---
-## Range.UpdateFields method
+## UpdateFields method
 
 Updates the values of document fields in this range.
 

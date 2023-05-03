@@ -2,12 +2,12 @@
 title: CustomPartCollection.Count
 linktitle: Count
 second_title: Aspose.Words for .NET API Reference
-description: CustomPartCollection property. Gets the number of elements contained in the collection in C#.
+description: CustomPartCollection Count property. Gets the number of elements contained in the collection in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.markup/custompartcollection/count/
 ---
-## CustomPartCollection.Count property
+## Count property
 
 Gets the number of elements contained in the collection.
 

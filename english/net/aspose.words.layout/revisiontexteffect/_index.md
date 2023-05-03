@@ -4,7 +4,7 @@ linktitle: RevisionTextEffect
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Layout.RevisionTextEffect enum. Allows to specify decoration effect for revisions of document text in C#.
 type: docs
-weight: 3260
+weight: 3340
 url: /net/aspose.words.layout/revisiontexteffect/
 ---
 ## RevisionTextEffect enumeration

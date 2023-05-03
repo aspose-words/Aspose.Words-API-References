@@ -2,12 +2,12 @@
 title: TextPath.On
 linktitle: On
 second_title: Aspose.Words for .NET API Reference
-description: TextPath property. Defines whether the text is displayed in C#.
+description: TextPath On property. Defines whether the text is displayed in C#.
 type: docs
 weight: 70
 url: /net/aspose.words.drawing/textpath/on/
 ---
-## TextPath.On property
+## On property
 
 Defines whether the text is displayed.
 

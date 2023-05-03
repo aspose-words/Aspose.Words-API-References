@@ -4,7 +4,7 @@ linktitle: PdfTextCompression
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Saving.PdfTextCompression enum. Specifies a type of compression applied to all content in the PDF file except images in C#.
 type: docs
-weight: 5350
+weight: 5440
 url: /net/aspose.words.saving/pdftextcompression/
 ---
 ## PdfTextCompression enumeration

@@ -2,12 +2,12 @@
 title: OfficeMath.DisplayType
 linktitle: DisplayType
 second_title: Aspose.Words for .NET API Reference
-description: OfficeMath property. Gets/sets Office Math display format type which represents whether an equation is displayed inline with the text or displayed on its own line in C#.
+description: OfficeMath DisplayType property. Gets/sets Office Math display format type which represents whether an equation is displayed inline with the text or displayed on its own line in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.math/officemath/displaytype/
 ---
-## OfficeMath.DisplayType property
+## DisplayType property
 
 Gets/sets Office Math display format type which represents whether an equation is displayed inline with the text or displayed on its own line.
 

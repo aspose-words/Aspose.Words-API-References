@@ -2,12 +2,12 @@
 title: FormField.HelpText
 linktitle: HelpText
 second_title: Aspose.Words for .NET API Reference
-description: FormField property. Returns or sets the text thats displayed in a message box when the form field has the focus and the user presses F1 in C#.
+description: FormField HelpText property. Returns or sets the text thats displayed in a message box when the form field has the focus and the user presses F1 in C#.
 type: docs
 weight: 100
 url: /net/aspose.words.fields/formfield/helptext/
 ---
-## FormField.HelpText property
+## HelpText property
 
 Returns or sets the text that's displayed in a message box when the form field has the focus and the user presses F1.
 

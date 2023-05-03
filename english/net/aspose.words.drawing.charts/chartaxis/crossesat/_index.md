@@ -2,12 +2,12 @@
 title: ChartAxis.CrossesAt
 linktitle: CrossesAt
 second_title: Aspose.Words for .NET API Reference
-description: ChartAxis property. Specifies where on the perpendicular axis the axis crosses in C#.
+description: ChartAxis CrossesAt property. Specifies where on the perpendicular axis the axis crosses in C#.
 type: docs
 weight: 50
 url: /net/aspose.words.drawing.charts/chartaxis/crossesat/
 ---
-## ChartAxis.CrossesAt property
+## CrossesAt property
 
 Specifies where on the perpendicular axis the axis crosses.
 

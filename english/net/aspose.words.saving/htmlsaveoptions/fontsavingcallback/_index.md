@@ -2,12 +2,12 @@
 title: HtmlSaveOptions.FontSavingCallback
 linktitle: FontSavingCallback
 second_title: Aspose.Words for .NET API Reference
-description: HtmlSaveOptions property. Allows to control how fonts are saved when a document is saved to HTML MHTML or EPUB in C#.
+description: HtmlSaveOptions FontSavingCallback property. Allows to control how fonts are saved when a document is saved to HTML MHTML or EPUB in C#.
 type: docs
 weight: 310
 url: /net/aspose.words.saving/htmlsaveoptions/fontsavingcallback/
 ---
-## HtmlSaveOptions.FontSavingCallback property
+## FontSavingCallback property
 
 Allows to control how fonts are saved when a document is saved to HTML, MHTML or EPUB.
 

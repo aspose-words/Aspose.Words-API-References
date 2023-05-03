@@ -4,7 +4,7 @@ linktitle: FootnoteOptions
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Notes.FootnoteOptions class. Represents the footnote numbering options for a document or section in C#.
 type: docs
-weight: 4110
+weight: 4190
 url: /net/aspose.words.notes/footnoteoptions/
 ---
 ## FootnoteOptions class

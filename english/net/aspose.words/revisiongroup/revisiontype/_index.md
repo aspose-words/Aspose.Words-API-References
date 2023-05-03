@@ -2,12 +2,12 @@
 title: RevisionGroup.RevisionType
 linktitle: RevisionType
 second_title: Aspose.Words for .NET API Reference
-description: RevisionGroup property. Gets the type of revisions included in this group in C#.
+description: RevisionGroup RevisionType property. Gets the type of revisions included in this group in C#.
 type: docs
 weight: 20
 url: /net/aspose.words/revisiongroup/revisiontype/
 ---
-## RevisionGroup.RevisionType property
+## RevisionType property
 
 Gets the type of revisions included in this group.
 

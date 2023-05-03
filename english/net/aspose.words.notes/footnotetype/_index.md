@@ -4,7 +4,7 @@ linktitle: FootnoteType
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Notes.FootnoteType enum. Specifies whether this is a footnote or an endnote in C#.
 type: docs
-weight: 4130
+weight: 4210
 url: /net/aspose.words.notes/footnotetype/
 ---
 ## FootnoteType enumeration

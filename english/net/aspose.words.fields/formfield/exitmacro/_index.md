@@ -2,12 +2,12 @@
 title: FormField.ExitMacro
 linktitle: ExitMacro
 second_title: Aspose.Words for .NET API Reference
-description: FormField property. Returns or sets an exit macro name for the form field in C#.
+description: FormField ExitMacro property. Returns or sets an exit macro name for the form field in C#.
 type: docs
 weight: 90
 url: /net/aspose.words.fields/formfield/exitmacro/
 ---
-## FormField.ExitMacro property
+## ExitMacro property
 
 Returns or sets an exit macro name for the form field.
 

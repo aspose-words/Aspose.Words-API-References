@@ -2,12 +2,12 @@
 title: Document.NodeType
 linktitle: NodeType
 second_title: Aspose.Words for .NET API Reference
-description: Document property. Returns Document in C#.
+description: Document NodeType property. Returns Document in C#.
 type: docs
 weight: 280
 url: /net/aspose.words/document/nodetype/
 ---
-## Document.NodeType property
+## NodeType property
 
 Returns Document.
 

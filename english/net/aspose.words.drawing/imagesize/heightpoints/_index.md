@@ -2,12 +2,12 @@
 title: ImageSize.HeightPoints
 linktitle: HeightPoints
 second_title: Aspose.Words for .NET API Reference
-description: ImageSize property. Gets the height of the image in points. 1 point is 1/72 inch in C#.
+description: ImageSize HeightPoints property. Gets the height of the image in points. 1 point is 1/72 inch in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.drawing/imagesize/heightpoints/
 ---
-## ImageSize.HeightPoints property
+## HeightPoints property
 
 Gets the height of the image in points. 1 point is 1/72 inch.
 

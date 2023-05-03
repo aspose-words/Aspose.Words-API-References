@@ -2,12 +2,12 @@
 title: InlineStory.EnsureMinimum
 linktitle: EnsureMinimum
 second_title: Aspose.Words for .NET API Reference
-description: InlineStory method. If the last child is not a paragraph creates and appends one empty paragraph in C#.
+description: InlineStory EnsureMinimum method. If the last child is not a paragraph creates and appends one empty paragraph in C#.
 type: docs
 weight: 120
 url: /net/aspose.words/inlinestory/ensureminimum/
 ---
-## InlineStory.EnsureMinimum method
+## EnsureMinimum method
 
 If the last child is not a paragraph, creates and appends one empty paragraph.
 

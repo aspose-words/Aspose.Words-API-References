@@ -2,12 +2,12 @@
 title: LoadOptions.Encoding
 linktitle: Encoding
 second_title: Aspose.Words for .NET API Reference
-description: LoadOptions property. Gets or sets the encoding that will be used to load an HTML TXT or CHM document if the encoding is not specified inside the document. Can be null. Default is null in C#.
+description: LoadOptions Encoding property. Gets or sets the encoding that will be used to load an HTML TXT or CHM document if the encoding is not specified inside the document. Can be null. Default is null in C#.
 type: docs
 weight: 50
 url: /net/aspose.words.loading/loadoptions/encoding/
 ---
-## LoadOptions.Encoding property
+## Encoding property
 
 Gets or sets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. Can be `null`. Default is `null`.
 

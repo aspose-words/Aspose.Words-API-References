@@ -2,12 +2,12 @@
 title: FieldIndex.SequenceName
 linktitle: SequenceName
 second_title: Aspose.Words for .NET API Reference
-description: FieldIndex property. Gets or sets the name of a sequence whose number is included with the page number in C#.
+description: FieldIndex SequenceName property. Gets or sets the name of a sequence whose number is included with the page number in C#.
 type: docs
 weight: 150
 url: /net/aspose.words.fields/fieldindex/sequencename/
 ---
-## FieldIndex.SequenceName property
+## SequenceName property
 
 Gets or sets the name of a sequence whose number is included with the page number.
 

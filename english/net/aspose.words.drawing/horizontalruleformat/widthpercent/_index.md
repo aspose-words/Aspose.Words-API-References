@@ -2,12 +2,12 @@
 title: HorizontalRuleFormat.WidthPercent
 linktitle: WidthPercent
 second_title: Aspose.Words for .NET API Reference
-description: HorizontalRuleFormat property. Gets or sets the length of the specified horizontal rule expressed as a percentage of the window width in C#.
+description: HorizontalRuleFormat WidthPercent property. Gets or sets the length of the specified horizontal rule expressed as a percentage of the window width in C#.
 type: docs
 weight: 50
 url: /net/aspose.words.drawing/horizontalruleformat/widthpercent/
 ---
-## HorizontalRuleFormat.WidthPercent property
+## WidthPercent property
 
 Gets or sets the length of the specified horizontal rule expressed as a percentage of the window width.
 

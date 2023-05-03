@@ -2,12 +2,12 @@
 title: TextWatermarkOptions.Color
 linktitle: Color
 second_title: Aspose.Words for .NET API Reference
-description: TextWatermarkOptions property. Gets or sets font color. The default value is Silver in C#.
+description: TextWatermarkOptions Color property. Gets or sets font color. The default value is Silver in C#.
 type: docs
 weight: 20
 url: /net/aspose.words/textwatermarkoptions/color/
 ---
-## TextWatermarkOptions.Color property
+## Color property
 
 Gets or sets font color. The default value is Silver.
 

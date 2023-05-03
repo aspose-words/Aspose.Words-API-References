@@ -2,12 +2,12 @@
 title: ChartDataLabelCollection.Count
 linktitle: Count
 second_title: Aspose.Words for .NET API Reference
-description: ChartDataLabelCollection property. Returns the number of ChartDataLabel in this collection in C#.
+description: ChartDataLabelCollection Count property. Returns the number of ChartDataLabel in this collection in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/chartdatalabelcollection/count/
 ---
-## ChartDataLabelCollection.Count property
+## Count property
 
 Returns the number of [`ChartDataLabel`](../../chartdatalabel/) in this collection.
 

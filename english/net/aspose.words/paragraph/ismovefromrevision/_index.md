@@ -2,12 +2,12 @@
 title: Paragraph.IsMoveFromRevision
 linktitle: IsMoveFromRevision
 second_title: Aspose.Words for .NET API Reference
-description: Paragraph property. Returns true if this object was moved deleted in Microsoft Word while change tracking was enabled in C#.
+description: Paragraph IsMoveFromRevision property. Returns true if this object was moved deleted in Microsoft Word while change tracking was enabled in C#.
 type: docs
 weight: 130
 url: /net/aspose.words/paragraph/ismovefromrevision/
 ---
-## Paragraph.IsMoveFromRevision property
+## IsMoveFromRevision property
 
 Returns `true` if this object was moved (deleted) in Microsoft Word while change tracking was enabled.
 

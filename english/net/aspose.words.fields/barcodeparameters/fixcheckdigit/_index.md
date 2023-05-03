@@ -2,12 +2,12 @@
 title: BarcodeParameters.FixCheckDigit
 linktitle: FixCheckDigit
 second_title: Aspose.Words for .NET API Reference
-description: BarcodeParameters property. Whether to fix the check digit if its invalid in C#.
+description: BarcodeParameters FixCheckDigit property. Whether to fix the check digit if its invalid in C#.
 type: docs
 weight: 100
 url: /net/aspose.words.fields/barcodeparameters/fixcheckdigit/
 ---
-## BarcodeParameters.FixCheckDigit property
+## FixCheckDigit property
 
 Whether to fix the check digit if it’s invalid.
 

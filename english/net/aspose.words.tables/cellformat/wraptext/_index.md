@@ -2,12 +2,12 @@
 title: CellFormat.WrapText
 linktitle: WrapText
 second_title: Aspose.Words for .NET API Reference
-description: CellFormat property. If true wrap text for the cell in C#.
+description: CellFormat WrapText property. If true wrap text for the cell in C#.
 type: docs
 weight: 140
 url: /net/aspose.words.tables/cellformat/wraptext/
 ---
-## CellFormat.WrapText property
+## WrapText property
 
 If `true`, wrap text for the cell.
 

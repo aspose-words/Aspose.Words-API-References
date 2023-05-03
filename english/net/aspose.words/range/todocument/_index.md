@@ -2,12 +2,12 @@
 title: Range.ToDocument
 linktitle: ToDocument
 second_title: Aspose.Words for .NET API Reference
-description: Range method. Constructs a new fully formed document that contains the range in C#.
+description: Range ToDocument method. Constructs a new fully formed document that contains the range in C#.
 type: docs
 weight: 100
 url: /net/aspose.words/range/todocument/
 ---
-## Range.ToDocument method
+## ToDocument method
 
 Constructs a new fully formed document that contains the range.
 

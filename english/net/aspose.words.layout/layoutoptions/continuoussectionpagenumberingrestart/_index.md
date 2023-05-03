@@ -2,12 +2,12 @@
 title: LayoutOptions.ContinuousSectionPageNumberingRestart
 linktitle: ContinuousSectionPageNumberingRestart
 second_title: Aspose.Words for .NET API Reference
-description: LayoutOptions property. Gets or sets the mode of behavior for computing page numbers when a continuous section restarts the page numbering in C#.
+description: LayoutOptions ContinuousSectionPageNumberingRestart property. Gets or sets the mode of behavior for computing page numbers when a continuous section restarts the page numbering in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.layout/layoutoptions/continuoussectionpagenumberingrestart/
 ---
-## LayoutOptions.ContinuousSectionPageNumberingRestart property
+## ContinuousSectionPageNumberingRestart property
 
 Gets or sets the mode of behavior for computing page numbers when a continuous section restarts the page numbering.
 

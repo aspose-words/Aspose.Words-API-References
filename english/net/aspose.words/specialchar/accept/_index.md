@@ -2,12 +2,12 @@
 title: SpecialChar.Accept
 linktitle: Accept
 second_title: Aspose.Words for .NET API Reference
-description: SpecialChar method. Accepts a visitor in C#.
+description: SpecialChar Accept method. Accepts a visitor in C#.
 type: docs
 weight: 20
 url: /net/aspose.words/specialchar/accept/
 ---
-## SpecialChar.Accept method
+## Accept method
 
 Accepts a visitor.
 

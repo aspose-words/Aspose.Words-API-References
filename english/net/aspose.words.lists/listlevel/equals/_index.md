@@ -2,12 +2,12 @@
 title: ListLevel.Equals
 linktitle: Equals
 second_title: Aspose.Words for .NET API Reference
-description: ListLevel method. Compares with the specified ListLevel in C#.
+description: ListLevel Equals method. Compares with the specified ListLevel in C#.
 type: docs
 weight: 170
 url: /net/aspose.words.lists/listlevel/equals/
 ---
-## ListLevel.Equals method
+## Equals method
 
 Compares with the specified ListLevel.
 

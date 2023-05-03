@@ -4,7 +4,7 @@ linktitle: ShadowType
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Drawing.ShadowType enum. Specifies the type of a shape shadow in C#.
 type: docs
-weight: 1130
+weight: 1210
 url: /net/aspose.words.drawing/shadowtype/
 ---
 ## ShadowType enumeration

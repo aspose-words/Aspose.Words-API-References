@@ -2,12 +2,12 @@
 title: FieldAsk.BookmarkName
 linktitle: BookmarkName
 second_title: Aspose.Words for .NET API Reference
-description: FieldAsk property. Gets or sets the name of the bookmark in C#.
+description: FieldAsk BookmarkName property. Gets or sets the name of the bookmark in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldask/bookmarkname/
 ---
-## FieldAsk.BookmarkName property
+## BookmarkName property
 
 Gets or sets the name of the bookmark.
 

@@ -4,7 +4,7 @@ linktitle: ShapeLineStyle
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Drawing.ShapeLineStyle enum. Specifies the compound line style of a Shape in C#.
 type: docs
-weight: 1160
+weight: 1240
 url: /net/aspose.words.drawing/shapelinestyle/
 ---
 ## ShapeLineStyle enumeration

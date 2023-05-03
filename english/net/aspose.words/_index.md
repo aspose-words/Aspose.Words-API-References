@@ -66,6 +66,7 @@ The **Aspose.Words** namespace provides classes for generating, converting, modi
 | [Paragraph](./paragraph/) | Represents a paragraph of text. |
 | [ParagraphCollection](./paragraphcollection/) | Provides typed access to a collection of [`Paragraph`](../aspose.words/paragraph/) nodes. |
 | [ParagraphFormat](./paragraphformat/) | Represents all the formatting for a paragraph. |
+| [PhoneticGuide](./phoneticguide/) | Represents Phonetic Guide. |
 | [PlainTextDocument](./plaintextdocument/) | Allows to extract plain-text representation of the document's content. |
 | [Range](./range/) | Represents a contiguous area in a document. |
 | [Revision](./revision/) | Represents a revision (tracked change) in a document node or style. Use [`RevisionType`](../aspose.words/revision/revisiontype/) to check the type of this revision. |

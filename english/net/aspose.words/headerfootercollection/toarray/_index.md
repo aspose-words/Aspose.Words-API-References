@@ -2,12 +2,12 @@
 title: HeaderFooterCollection.ToArray
 linktitle: ToArray
 second_title: Aspose.Words for .NET API Reference
-description: HeaderFooterCollection method. Copies all HeaderFoorters from the collection to a new array of HeaderFoorters in C#.
+description: HeaderFooterCollection ToArray method. Copies all HeaderFoorters from the collection to a new array of HeaderFoorters in C#.
 type: docs
 weight: 30
 url: /net/aspose.words/headerfootercollection/toarray/
 ---
-## HeaderFooterCollection.ToArray method
+## ToArray method
 
 Copies all `HeaderFoorter`s from the collection to a new array of `HeaderFoorter`s.
 

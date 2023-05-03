@@ -2,12 +2,12 @@
 title: DocumentBuilder.InsertComboBox
 linktitle: InsertComboBox
 second_title: Aspose.Words for .NET API Reference
-description: DocumentBuilder method. Inserts a combobox form field at the current position in C#.
+description: DocumentBuilder InsertComboBox method. Inserts a combobox form field at the current position in C#.
 type: docs
 weight: 300
 url: /net/aspose.words/documentbuilder/insertcombobox/
 ---
-## DocumentBuilder.InsertComboBox method
+## InsertComboBox method
 
 Inserts a combobox form field at the current position.
 

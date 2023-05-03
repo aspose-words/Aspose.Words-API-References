@@ -2,12 +2,12 @@
 title: FieldGreetingLine.NameFormat
 linktitle: NameFormat
 second_title: Aspose.Words for .NET API Reference
-description: FieldGreetingLine property. Gets or sets the format of the name included in the field in C#.
+description: FieldGreetingLine NameFormat property. Gets or sets the format of the name included in the field in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldgreetingline/nameformat/
 ---
-## FieldGreetingLine.NameFormat property
+## NameFormat property
 
 Gets or sets the format of the name included in the field.
 

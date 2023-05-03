@@ -2,7 +2,7 @@
 title: DigitalSignatureUtil.LoadSignatures
 linktitle: LoadSignatures
 second_title: Aspose.Words for .NET API Reference
-description: DigitalSignatureUtil method. Loads digital signatures from document in C#.
+description: DigitalSignatureUtil LoadSignatures method. Loads digital signatures from document in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/

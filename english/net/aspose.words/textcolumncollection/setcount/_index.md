@@ -2,12 +2,12 @@
 title: TextColumnCollection.SetCount
 linktitle: SetCount
 second_title: Aspose.Words for .NET API Reference
-description: TextColumnCollection method. Arranges text into the specified number of text columns in C#.
+description: TextColumnCollection SetCount method. Arranges text into the specified number of text columns in C#.
 type: docs
 weight: 70
 url: /net/aspose.words/textcolumncollection/setcount/
 ---
-## TextColumnCollection.SetCount method
+## SetCount method
 
 Arranges text into the specified number of text columns.
 

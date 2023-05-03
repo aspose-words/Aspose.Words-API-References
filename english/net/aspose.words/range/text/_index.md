@@ -2,12 +2,12 @@
 title: Range.Text
 linktitle: Text
 second_title: Aspose.Words for .NET API Reference
-description: Range property. Gets the text of the range in C#.
+description: Range Text property. Gets the text of the range in C#.
 type: docs
 weight: 60
 url: /net/aspose.words/range/text/
 ---
-## Range.Text property
+## Text property
 
 Gets the text of the range.
 

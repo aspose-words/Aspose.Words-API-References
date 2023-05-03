@@ -2,12 +2,12 @@
 title: FieldIndex.RunSubentriesOnSameLine
 linktitle: RunSubentriesOnSameLine
 second_title: Aspose.Words for .NET API Reference
-description: FieldIndex property. Gets or sets whether run subentries into the same line as the main entry in C#.
+description: FieldIndex RunSubentriesOnSameLine property. Gets or sets whether run subentries into the same line as the main entry in C#.
 type: docs
 weight: 140
 url: /net/aspose.words.fields/fieldindex/runsubentriesonsameline/
 ---
-## FieldIndex.RunSubentriesOnSameLine property
+## RunSubentriesOnSameLine property
 
 Gets or sets whether run subentries into the same line as the main entry.
 

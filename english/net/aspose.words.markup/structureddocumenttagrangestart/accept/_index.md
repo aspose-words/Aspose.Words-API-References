@@ -2,12 +2,12 @@
 title: StructuredDocumentTagRangeStart.Accept
 linktitle: Accept
 second_title: Aspose.Words for .NET API Reference
-description: StructuredDocumentTagRangeStart method. Accepts a visitor in C#.
+description: StructuredDocumentTagRangeStart Accept method. Accepts a visitor in C#.
 type: docs
 weight: 190
 url: /net/aspose.words.markup/structureddocumenttagrangestart/accept/
 ---
-## StructuredDocumentTagRangeStart.Accept method
+## Accept method
 
 Accepts a visitor.
 

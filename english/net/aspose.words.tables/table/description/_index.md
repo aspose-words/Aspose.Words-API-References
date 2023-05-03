@@ -2,12 +2,12 @@
 title: Table.Description
 linktitle: Description
 second_title: Aspose.Words for .NET API Reference
-description: Table property. Gets or sets description of this table. It provides an alternative text representation of the information contained in the table in C#.
+description: Table Description property. Gets or sets description of this table. It provides an alternative text representation of the information contained in the table in C#.
 type: docs
 weight: 110
 url: /net/aspose.words.tables/table/description/
 ---
-## Table.Description property
+## Description property
 
 Gets or sets description of this table. It provides an alternative text representation of the information contained in the table.
 

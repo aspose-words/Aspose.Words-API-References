@@ -2,12 +2,12 @@
 title: FieldMergeField.FieldNameNoPrefix
 linktitle: FieldNameNoPrefix
 second_title: Aspose.Words for .NET API Reference
-description: FieldMergeField property. Returns just the name of the data field. Any prefix is stripped to the prefix property in C#.
+description: FieldMergeField FieldNameNoPrefix property. Returns just the name of the data field. Any prefix is stripped to the prefix property in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldmergefield/fieldnamenoprefix/
 ---
-## FieldMergeField.FieldNameNoPrefix property
+## FieldNameNoPrefix property
 
 Returns just the name of the data field. Any prefix is stripped to the prefix property.
 

@@ -2,12 +2,12 @@
 title: TextBox.FitShapeToText
 linktitle: FitShapeToText
 second_title: Aspose.Words for .NET API Reference
-description: TextBox property. Determines whether Microsoft Word will grow the shape to fit text in C#.
+description: TextBox FitShapeToText property. Determines whether Microsoft Word will grow the shape to fit text in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing/textbox/fitshapetotext/
 ---
-## TextBox.FitShapeToText property
+## FitShapeToText property
 
 Determines whether Microsoft Word will grow the shape to fit text.
 

@@ -2,12 +2,12 @@
 title: DocumentBuilder.DeleteRow
 linktitle: DeleteRow
 second_title: Aspose.Words for .NET API Reference
-description: DocumentBuilder method. Deletes a row from a table in C#.
+description: DocumentBuilder DeleteRow method. Deletes a row from a table in C#.
 type: docs
 weight: 200
 url: /net/aspose.words/documentbuilder/deleterow/
 ---
-## DocumentBuilder.DeleteRow method
+## DeleteRow method
 
 Deletes a row from a table.
 

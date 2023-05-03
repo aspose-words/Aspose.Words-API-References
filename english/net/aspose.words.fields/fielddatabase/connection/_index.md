@@ -2,12 +2,12 @@
 title: FieldDatabase.Connection
 linktitle: Connection
 second_title: Aspose.Words for .NET API Reference
-description: FieldDatabase property. Gets or sets a connection to the data in C#.
+description: FieldDatabase Connection property. Gets or sets a connection to the data in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fielddatabase/connection/
 ---
-## FieldDatabase.Connection property
+## Connection property
 
 Gets or sets a connection to the data.
 

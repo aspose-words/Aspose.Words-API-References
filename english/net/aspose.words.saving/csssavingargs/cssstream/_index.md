@@ -2,12 +2,12 @@
 title: CssSavingArgs.CssStream
 linktitle: CssStream
 second_title: Aspose.Words for .NET API Reference
-description: CssSavingArgs property. Allows to specify the stream where the CSS information will be saved to in C#.
+description: CssSavingArgs CssStream property. Allows to specify the stream where the CSS information will be saved to in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.saving/csssavingargs/cssstream/
 ---
-## CssSavingArgs.CssStream property
+## CssStream property
 
 Allows to specify the stream where the CSS information will be saved to.
 

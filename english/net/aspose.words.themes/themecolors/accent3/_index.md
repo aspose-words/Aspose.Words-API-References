@@ -2,12 +2,12 @@
 title: ThemeColors.Accent3
 linktitle: Accent3
 second_title: Aspose.Words for .NET API Reference
-description: ThemeColors property. Specifies color Accent 3 in C#.
+description: ThemeColors Accent3 property. Specifies color Accent 3 in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.themes/themecolors/accent3/
 ---
-## ThemeColors.Accent3 property
+## Accent3 property
 
 Specifies color Accent 3.
 

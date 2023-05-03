@@ -2,12 +2,12 @@
 title: CompatibilityOptions.AdjustLineHeightInTable
 linktitle: AdjustLineHeightInTable
 second_title: Aspose.Words for .NET API Reference
-description: CompatibilityOptions property. Add Document Grid Line Pitch To Lines in Table Cells in C#.
+description: CompatibilityOptions AdjustLineHeightInTable property. Add Document Grid Line Pitch To Lines in Table Cells in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.settings/compatibilityoptions/adjustlineheightintable/
 ---
-## CompatibilityOptions.AdjustLineHeightInTable property
+## AdjustLineHeightInTable property
 
 Add Document Grid Line Pitch To Lines in Table Cells.
 

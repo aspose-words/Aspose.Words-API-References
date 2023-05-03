@@ -2,12 +2,12 @@
 title: PreferredWidth.Type
 linktitle: Type
 second_title: Aspose.Words for .NET API Reference
-description: PreferredWidth property. Gets the unit of measure used for this preferred width value in C#.
+description: PreferredWidth Type property. Gets the unit of measure used for this preferred width value in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.tables/preferredwidth/type/
 ---
-## PreferredWidth.Type property
+## Type property
 
 Gets the unit of measure used for this preferred width value.
 

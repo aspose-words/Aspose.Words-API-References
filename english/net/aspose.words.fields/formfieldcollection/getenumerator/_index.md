@@ -2,12 +2,12 @@
 title: FormFieldCollection.GetEnumerator
 linktitle: GetEnumerator
 second_title: Aspose.Words for .NET API Reference
-description: FormFieldCollection method. Returns an enumerator object in C#.
+description: FormFieldCollection GetEnumerator method. Returns an enumerator object in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/formfieldcollection/getenumerator/
 ---
-## FormFieldCollection.GetEnumerator method
+## GetEnumerator method
 
 Returns an enumerator object.
 

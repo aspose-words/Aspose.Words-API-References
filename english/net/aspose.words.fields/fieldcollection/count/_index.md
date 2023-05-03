@@ -2,12 +2,12 @@
 title: FieldCollection.Count
 linktitle: Count
 second_title: Aspose.Words for .NET API Reference
-description: FieldCollection property. Returns the number of the fields in the collection in C#.
+description: FieldCollection Count property. Returns the number of the fields in the collection in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.fields/fieldcollection/count/
 ---
-## FieldCollection.Count property
+## Count property
 
 Returns the number of the fields in the collection.
 

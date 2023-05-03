@@ -2,12 +2,12 @@
 title: Table.SetShading
 linktitle: SetShading
 second_title: Aspose.Words for .NET API Reference
-description: Table method. Sets shading to the specified values on whole table in C#.
+description: Table SetShading method. Sets shading to the specified values on whole table in C#.
 type: docs
 weight: 430
 url: /net/aspose.words.tables/table/setshading/
 ---
-## Table.SetShading method
+## SetShading method
 
 Sets shading to the specified values on whole table.
 

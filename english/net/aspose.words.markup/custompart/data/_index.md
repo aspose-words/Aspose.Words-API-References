@@ -2,12 +2,12 @@
 title: CustomPart.Data
 linktitle: Data
 second_title: Aspose.Words for .NET API Reference
-description: CustomPart property. Contains the data of this custom part in C#.
+description: CustomPart Data property. Contains the data of this custom part in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.markup/custompart/data/
 ---
-## CustomPart.Data property
+## Data property
 
 Contains the data of this custom part.
 

@@ -2,12 +2,12 @@
 title: ImageSaveOptions.UseGdiEmfRenderer
 linktitle: UseGdiEmfRenderer
 second_title: Aspose.Words for .NET API Reference
-description: ImageSaveOptions property. Gets or sets a value determining whether to use GDI or Aspose.Words metafile renderer when saving to EMF in C#.
+description: ImageSaveOptions UseGdiEmfRenderer property. Gets or sets a value determining whether to use GDI or Aspose.Words metafile renderer when saving to EMF in C#.
 type: docs
 weight: 180
 url: /net/aspose.words.saving/imagesaveoptions/usegdiemfrenderer/
 ---
-## ImageSaveOptions.UseGdiEmfRenderer property
+## UseGdiEmfRenderer property
 
 Gets or sets a value determining whether to use GDI+ or Aspose.Words metafile renderer when saving to EMF.
 

@@ -2,12 +2,12 @@
 title: Fill.BackColor
 linktitle: BackColor
 second_title: Aspose.Words for .NET API Reference
-description: Fill property. Gets or sets a Color object that represents the background color for the fill in C#.
+description: Fill BackColor property. Gets or sets a Color object that represents the background color for the fill in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing/fill/backcolor/
 ---
-## Fill.BackColor property
+## BackColor property
 
 Gets or sets a Color object that represents the background color for the fill.
 

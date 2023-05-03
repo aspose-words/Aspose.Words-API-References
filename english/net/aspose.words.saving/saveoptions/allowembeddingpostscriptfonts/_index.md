@@ -2,12 +2,12 @@
 title: SaveOptions.AllowEmbeddingPostScriptFonts
 linktitle: AllowEmbeddingPostScriptFonts
 second_title: Aspose.Words for .NET API Reference
-description: SaveOptions property. Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is false in C#.
+description: SaveOptions AllowEmbeddingPostScriptFonts property. Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is false in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/
 ---
-## SaveOptions.AllowEmbeddingPostScriptFonts property
+## AllowEmbeddingPostScriptFonts property
 
 Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is `false`.
 

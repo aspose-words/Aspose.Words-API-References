@@ -2,12 +2,12 @@
 title: CompositeNode.GetChildNodes
 linktitle: GetChildNodes
 second_title: Aspose.Words for .NET API Reference
-description: CompositeNode method. Returns a live collection of child nodes that match the specified type in C#.
+description: CompositeNode GetChildNodes method. Returns a live collection of child nodes that match the specified type in C#.
 type: docs
 weight: 100
 url: /net/aspose.words/compositenode/getchildnodes/
 ---
-## CompositeNode.GetChildNodes method
+## GetChildNodes method
 
 Returns a live collection of child nodes that match the specified type.
 

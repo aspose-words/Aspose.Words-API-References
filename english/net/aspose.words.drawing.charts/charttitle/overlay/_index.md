@@ -2,12 +2,12 @@
 title: ChartTitle.Overlay
 linktitle: Overlay
 second_title: Aspose.Words for .NET API Reference
-description: ChartTitle property. Determines whether other chart elements shall be allowed to overlap title. By default overlay is false in C#.
+description: ChartTitle Overlay property. Determines whether other chart elements shall be allowed to overlap title. By default overlay is false in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing.charts/charttitle/overlay/
 ---
-## ChartTitle.Overlay property
+## Overlay property
 
 Determines whether other chart elements shall be allowed to overlap title. By default overlay is `false`.
 

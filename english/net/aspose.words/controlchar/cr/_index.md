@@ -2,12 +2,12 @@
 title: ControlChar.Cr
 linktitle: Cr
 second_title: Aspose.Words for .NET API Reference
-description: ControlChar field. Carriage return character x000d or r. Same as ParagraphBreak in C#.
+description: ControlChar Cr field. Carriage return character x000d or r. Same as ParagraphBreak in C#.
 type: docs
 weight: 50
 url: /net/aspose.words/controlchar/cr/
 ---
-## ControlChar.Cr field
+## Cr field
 
 Carriage return character: "\x000d" or "\r". Same as [`ParagraphBreak`](../paragraphbreak/).
 

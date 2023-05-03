@@ -2,12 +2,12 @@
 title: ListLevel.RestartAfterLevel
 linktitle: RestartAfterLevel
 second_title: Aspose.Words for .NET API Reference
-description: ListLevel property. Sets or returns the list level that must appear before the specified list level restarts numbering in C#.
+description: ListLevel RestartAfterLevel property. Sets or returns the list level that must appear before the specified list level restarts numbering in C#.
 type: docs
 weight: 100
 url: /net/aspose.words.lists/listlevel/restartafterlevel/
 ---
-## ListLevel.RestartAfterLevel property
+## RestartAfterLevel property
 
 Sets or returns the list level that must appear before the specified list level restarts numbering.
 

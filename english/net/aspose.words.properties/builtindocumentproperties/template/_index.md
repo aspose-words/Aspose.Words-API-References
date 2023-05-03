@@ -2,12 +2,12 @@
 title: BuiltInDocumentProperties.Template
 linktitle: Template
 second_title: Aspose.Words for .NET API Reference
-description: BuiltInDocumentProperties property. Gets or sets the informational name of the document template in C#.
+description: BuiltInDocumentProperties Template property. Gets or sets the informational name of the document template in C#.
 type: docs
 weight: 270
 url: /net/aspose.words.properties/builtindocumentproperties/template/
 ---
-## BuiltInDocumentProperties.Template property
+## Template property
 
 Gets or sets the informational name of the document template.
 

@@ -2,12 +2,12 @@
 title: WarningInfoCollection.GetEnumerator
 linktitle: GetEnumerator
 second_title: Aspose.Words for .NET API Reference
-description: WarningInfoCollection method. Returns an enumerator object that can be used to iterate over all items in the collection in C#.
+description: WarningInfoCollection GetEnumerator method. Returns an enumerator object that can be used to iterate over all items in the collection in C#.
 type: docs
 weight: 50
 url: /net/aspose.words/warninginfocollection/getenumerator/
 ---
-## WarningInfoCollection.GetEnumerator method
+## GetEnumerator method
 
 Returns an enumerator object that can be used to iterate over all items in the collection.
 

@@ -2,12 +2,12 @@
 title: Row.NodeType
 linktitle: NodeType
 second_title: Aspose.Words for .NET API Reference
-description: Row property. Returns Row in C#.
+description: Row NodeType property. Returns Row in C#.
 type: docs
 weight: 70
 url: /net/aspose.words.tables/row/nodetype/
 ---
-## Row.NodeType property
+## NodeType property
 
 Returns Row.
 

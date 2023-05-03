@@ -2,12 +2,12 @@
 title: CompatibilityOptions.SwapBordersFacingPgs
 linktitle: SwapBordersFacingPgs
 second_title: Aspose.Words for .NET API Reference
-description: CompatibilityOptions property. Swap Paragraph Borders on Odd Numbered Pages in C#.
+description: CompatibilityOptions SwapBordersFacingPgs property. Swap Paragraph Borders on Odd Numbered Pages in C#.
 type: docs
 weight: 530
 url: /net/aspose.words.settings/compatibilityoptions/swapbordersfacingpgs/
 ---
-## CompatibilityOptions.SwapBordersFacingPgs property
+## SwapBordersFacingPgs property
 
 Swap Paragraph Borders on Odd Numbered Pages.
 

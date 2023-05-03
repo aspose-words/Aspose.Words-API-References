@@ -2,12 +2,12 @@
 title: FieldToc.TableOfFiguresLabel
 linktitle: TableOfFiguresLabel
 second_title: Aspose.Words for .NET API Reference
-description: FieldToc property. Gets or sets the name of the sequence identifier used when building a table of figures in C#.
+description: FieldToc TableOfFiguresLabel property. Gets or sets the name of the sequence identifier used when building a table of figures in C#.
 type: docs
 weight: 160
 url: /net/aspose.words.fields/fieldtoc/tableoffigureslabel/
 ---
-## FieldToc.TableOfFiguresLabel property
+## TableOfFiguresLabel property
 
 Gets or sets the name of the sequence identifier used when building a table of figures.
 

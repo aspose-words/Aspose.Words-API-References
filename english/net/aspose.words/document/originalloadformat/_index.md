@@ -2,12 +2,12 @@
 title: Document.OriginalLoadFormat
 linktitle: OriginalLoadFormat
 second_title: Aspose.Words for .NET API Reference
-description: Document property. Gets the format of the original document that was loaded into this object in C#.
+description: Document OriginalLoadFormat property. Gets the format of the original document that was loaded into this object in C#.
 type: docs
 weight: 300
 url: /net/aspose.words/document/originalloadformat/
 ---
-## Document.OriginalLoadFormat property
+## OriginalLoadFormat property
 
 Gets the format of the original document that was loaded into this object.
 

@@ -2,12 +2,12 @@
 title: Field.Separator
 linktitle: Separator
 second_title: Aspose.Words for .NET API Reference
-description: Field property. Gets the node that represents the field separator. Can be null in C#.
+description: Field Separator property. Gets the node that represents the field separator. Can be null in C#.
 type: docs
 weight: 80
 url: /net/aspose.words.fields/field/separator/
 ---
-## Field.Separator property
+## Separator property
 
 Gets the node that represents the field separator. Can be `null`.
 

@@ -2,12 +2,12 @@
 title: Paragraph.Runs
 linktitle: Runs
 second_title: Aspose.Words for .NET API Reference
-description: Paragraph property. Provides access to the typed collection of pieces of text inside the paragraph in C#.
+description: Paragraph Runs property. Provides access to the typed collection of pieces of text inside the paragraph in C#.
 type: docs
 weight: 220
 url: /net/aspose.words/paragraph/runs/
 ---
-## Paragraph.Runs property
+## Runs property
 
 Provides access to the typed collection of pieces of text inside the paragraph.
 

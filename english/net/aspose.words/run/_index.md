@@ -4,7 +4,7 @@ linktitle: Run
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Run class. Represents a run of characters with the same font formatting in C#.
 type: docs
-weight: 4640
+weight: 4730
 url: /net/aspose.words/run/
 ---
 ## Run class
@@ -42,6 +42,7 @@ public class Run : Inline
 | override [NodeType](../../aspose.words/run/nodetype/) { get; } | Returns Run. |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Gets the immediate parent of this node. |
 | [ParentParagraph](../../aspose.words/inline/parentparagraph/) { get; } | Retrieves the parent [`Paragraph`](../paragraph/) of this node. |
+| [PhoneticGuide](../../aspose.words/run/phoneticguide/) { get; } | Gets a [`PhoneticGuide`](./phoneticguide/) object. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Gets the node immediately preceding this node. |
 | [Range](../../aspose.words/node/range/) { get; } | Returns a [`Range`](../range/) object that represents the portion of a document that is contained in this node. |
 | [Text](../../aspose.words/run/text/) { get; set; } | Gets or sets the text of the run. |

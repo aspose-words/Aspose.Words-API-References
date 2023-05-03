@@ -2,12 +2,12 @@
 title: Watermark.Type
 linktitle: Type
 second_title: Aspose.Words for .NET API Reference
-description: Watermark property. Gets the watermark type in C#.
+description: Watermark Type property. Gets the watermark type in C#.
 type: docs
 weight: 10
 url: /net/aspose.words/watermark/type/
 ---
-## Watermark.Type property
+## Type property
 
 Gets the watermark type.
 

@@ -2,12 +2,12 @@
 title: FrameFormat.HorizontalAlignment
 linktitle: HorizontalAlignment
 second_title: Aspose.Words for .NET API Reference
-description: FrameFormat property. Gets horizontal alignment of the specified frame in C#.
+description: FrameFormat HorizontalAlignment property. Gets horizontal alignment of the specified frame in C#.
 type: docs
 weight: 30
 url: /net/aspose.words/frameformat/horizontalalignment/
 ---
-## FrameFormat.HorizontalAlignment property
+## HorizontalAlignment property
 
 Gets horizontal alignment of the specified frame.
 

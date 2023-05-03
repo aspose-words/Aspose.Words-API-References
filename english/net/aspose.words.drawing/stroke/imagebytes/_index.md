@@ -2,12 +2,12 @@
 title: Stroke.ImageBytes
 linktitle: ImageBytes
 second_title: Aspose.Words for .NET API Reference
-description: Stroke property. Defines the image for a stroke image or pattern fill in C#.
+description: Stroke ImageBytes property. Defines the image for a stroke image or pattern fill in C#.
 type: docs
 weight: 110
 url: /net/aspose.words.drawing/stroke/imagebytes/
 ---
-## Stroke.ImageBytes property
+## ImageBytes property
 
 Defines the image for a stroke image or pattern fill.
 

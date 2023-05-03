@@ -2,12 +2,12 @@
 title: FrameFormat.HorizontalDistanceFromText
 linktitle: HorizontalDistanceFromText
 second_title: Aspose.Words for .NET API Reference
-description: FrameFormat property. Gets horizontal distance between a frame and the surrounding text in points in C#.
+description: FrameFormat HorizontalDistanceFromText property. Gets horizontal distance between a frame and the surrounding text in points in C#.
 type: docs
 weight: 40
 url: /net/aspose.words/frameformat/horizontaldistancefromtext/
 ---
-## FrameFormat.HorizontalDistanceFromText property
+## HorizontalDistanceFromText property
 
 Gets horizontal distance between a frame and the surrounding text, in points.
 

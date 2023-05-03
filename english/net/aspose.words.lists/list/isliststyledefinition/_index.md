@@ -2,12 +2,12 @@
 title: List.IsListStyleDefinition
 linktitle: IsListStyleDefinition
 second_title: Aspose.Words for .NET API Reference
-description: List property. Returns true if this list is a definition of a list style in C#.
+description: List IsListStyleDefinition property. Returns true if this list is a definition of a list style in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.lists/list/isliststyledefinition/
 ---
-## List.IsListStyleDefinition property
+## IsListStyleDefinition property
 
 Returns `true` if this list is a definition of a list style.
 

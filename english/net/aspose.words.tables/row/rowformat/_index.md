@@ -2,12 +2,12 @@
 title: Row.RowFormat
 linktitle: RowFormat
 second_title: Aspose.Words for .NET API Reference
-description: Row property. Provides access to the formatting properties of the row in C#.
+description: Row RowFormat property. Provides access to the formatting properties of the row in C#.
 type: docs
 weight: 90
 url: /net/aspose.words.tables/row/rowformat/
 ---
-## Row.RowFormat property
+## RowFormat property
 
 Provides access to the formatting properties of the row.
 

@@ -2,12 +2,12 @@
 title: InlineStory.ParentParagraph
 linktitle: ParentParagraph
 second_title: Aspose.Words for .NET API Reference
-description: InlineStory property. Retrieves the parent Paragraph of this node in C#.
+description: InlineStory ParentParagraph property. Retrieves the parent Paragraph of this node in C#.
 type: docs
 weight: 90
 url: /net/aspose.words/inlinestory/parentparagraph/
 ---
-## InlineStory.ParentParagraph property
+## ParentParagraph property
 
 Retrieves the parent [`Paragraph`](../../paragraph/) of this node.
 

@@ -2,12 +2,12 @@
 title: InlineStory.Tables
 linktitle: Tables
 second_title: Aspose.Words for .NET API Reference
-description: InlineStory property. Gets a collection of tables that are immediate children of the story in C#.
+description: InlineStory Tables property. Gets a collection of tables that are immediate children of the story in C#.
 type: docs
 weight: 110
 url: /net/aspose.words/inlinestory/tables/
 ---
-## InlineStory.Tables property
+## Tables property
 
 Gets a collection of tables that are immediate children of the story.
 

@@ -2,12 +2,12 @@
 title: FieldFormat.DateTimeFormat
 linktitle: DateTimeFormat
 second_title: Aspose.Words for .NET API Reference
-description: FieldFormat property. Gets or sets a formatting that is applied to a date and time field result. Corresponds to the  switch in C#.
+description: FieldFormat DateTimeFormat property. Gets or sets a formatting that is applied to a date and time field result. Corresponds to the  switch in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.fields/fieldformat/datetimeformat/
 ---
-## FieldFormat.DateTimeFormat property
+## DateTimeFormat property
 
 Gets or sets a formatting that is applied to a date and time field result. Corresponds to the \@ switch.
 

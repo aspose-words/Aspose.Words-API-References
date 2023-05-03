@@ -2,12 +2,12 @@
 title: Cell.Accept
 linktitle: Accept
 second_title: Aspose.Words for .NET API Reference
-description: Cell method. Accepts a visitor in C#.
+description: Cell Accept method. Accepts a visitor in C#.
 type: docs
 weight: 110
 url: /net/aspose.words.tables/cell/accept/
 ---
-## Cell.Accept method
+## Accept method
 
 Accepts a visitor.
 

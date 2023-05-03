@@ -2,12 +2,12 @@
 title: Node.ParentNode
 linktitle: ParentNode
 second_title: Aspose.Words for .NET API Reference
-description: Node property. Gets the immediate parent of this node in C#.
+description: Node ParentNode property. Gets the immediate parent of this node in C#.
 type: docs
 weight: 60
 url: /net/aspose.words/node/parentnode/
 ---
-## Node.ParentNode property
+## ParentNode property
 
 Gets the immediate parent of this node.
 

@@ -2,12 +2,12 @@
 title: Cell.IsFirstCell
 linktitle: IsFirstCell
 second_title: Aspose.Words for .NET API Reference
-description: Cell property. True if this is the first cell inside a row false otherwise in C#.
+description: Cell IsFirstCell property. True if this is the first cell inside a row false otherwise in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.tables/cell/isfirstcell/
 ---
-## Cell.IsFirstCell property
+## IsFirstCell property
 
 True if this is the first cell inside a row; false otherwise.
 

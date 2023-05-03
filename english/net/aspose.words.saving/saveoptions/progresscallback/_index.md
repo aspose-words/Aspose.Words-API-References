@@ -2,12 +2,12 @@
 title: SaveOptions.ProgressCallback
 linktitle: ProgressCallback
 second_title: Aspose.Words for .NET API Reference
-description: SaveOptions property. Called during saving a document and accepts data about saving progress in C#.
+description: SaveOptions ProgressCallback property. Called during saving a document and accepts data about saving progress in C#.
 type: docs
 weight: 120
 url: /net/aspose.words.saving/saveoptions/progresscallback/
 ---
-## SaveOptions.ProgressCallback property
+## ProgressCallback property
 
 Called during saving a document and accepts data about saving progress.
 
@@ -17,7 +17,7 @@ public IDocumentSavingCallback ProgressCallback { get; set; }
 
 ## Remarks
 
-Progress is reported when saving to Docx, FlatOpc, Docm, Dotm, Dotx, Html, Mhtml, Epub, XamlFlow, or XamlFlowPack.
+Progress is reported when saving to Docx, FlatOpc, Docm, Dotm, Dotx, Doc, Dot, Html, Mhtml, Epub, XamlFlow, or XamlFlowPack.
 
 ## Examples
 

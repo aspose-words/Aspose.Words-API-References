@@ -2,7 +2,7 @@
 title: TabStopCollection.Item
 linktitle: Item
 second_title: Aspose.Words for .NET API Reference
-description: TabStopCollection property. Gets a tab stop at the given index in C#.
+description: TabStopCollection Item property. Gets a tab stop at the given index in C#.
 type: docs
 weight: 20
 url: /net/aspose.words/tabstopcollection/item/

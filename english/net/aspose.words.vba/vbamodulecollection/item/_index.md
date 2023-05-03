@@ -2,7 +2,7 @@
 title: VbaModuleCollection.Item
 linktitle: Item
 second_title: Aspose.Words for .NET API Reference
-description: VbaModuleCollection property. Retrieves a VbaModule object by index in C#.
+description: VbaModuleCollection Item property. Retrieves a VbaModule object by index in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.vba/vbamodulecollection/item/

@@ -2,12 +2,12 @@
 title: TabStopCollection.RemoveByPosition
 linktitle: RemoveByPosition
 second_title: Aspose.Words for .NET API Reference
-description: TabStopCollection method. Removes a tab stop at the specified position from the collection in C#.
+description: TabStopCollection RemoveByPosition method. Removes a tab stop at the specified position from the collection in C#.
 type: docs
 weight: 120
 url: /net/aspose.words/tabstopcollection/removebyposition/
 ---
-## TabStopCollection.RemoveByPosition method
+## RemoveByPosition method
 
 Removes a tab stop at the specified position from the collection.
 

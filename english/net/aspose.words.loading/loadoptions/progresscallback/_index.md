@@ -2,12 +2,12 @@
 title: LoadOptions.ProgressCallback
 linktitle: ProgressCallback
 second_title: Aspose.Words for .NET API Reference
-description: LoadOptions property. Called during loading a document and accepts data about loading progress in C#.
+description: LoadOptions ProgressCallback property. Called during loading a document and accepts data about loading progress in C#.
 type: docs
 weight: 130
 url: /net/aspose.words.loading/loadoptions/progresscallback/
 ---
-## LoadOptions.ProgressCallback property
+## ProgressCallback property
 
 Called during loading a document and accepts data about loading progress.
 

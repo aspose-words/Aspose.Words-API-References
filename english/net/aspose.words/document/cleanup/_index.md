@@ -2,7 +2,7 @@
 title: Document.Cleanup
 linktitle: Cleanup
 second_title: Aspose.Words for .NET API Reference
-description: Document method. Cleans unused styles and lists from the document in C#.
+description: Document Cleanup method. Cleans unused styles and lists from the document in C#.
 type: docs
 weight: 540
 url: /net/aspose.words/document/cleanup/
@@ -62,7 +62,7 @@ Assert.AreEqual(4, doc.Styles.Count);
 
 ---
 
-## Cleanup([`CleanupOptions`](../../cleanupoptions/)) {#cleanup_1}
+## Cleanup(*[CleanupOptions](../../cleanupoptions/)*) {#cleanup_1}
 
 Cleans unused styles and lists from the document depending on given [`CleanupOptions`](../../cleanupoptions/).
 

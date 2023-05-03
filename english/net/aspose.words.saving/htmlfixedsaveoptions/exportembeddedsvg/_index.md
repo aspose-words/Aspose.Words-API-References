@@ -2,12 +2,12 @@
 title: HtmlFixedSaveOptions.ExportEmbeddedSvg
 linktitle: ExportEmbeddedSvg
 second_title: Aspose.Words for .NET API Reference
-description: HtmlFixedSaveOptions property. Specifies whether SVG resources should be embedded into Html document. Default value is true in C#.
+description: HtmlFixedSaveOptions ExportEmbeddedSvg property. Specifies whether SVG resources should be embedded into Html document. Default value is true in C#.
 type: docs
 weight: 70
 url: /net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedsvg/
 ---
-## HtmlFixedSaveOptions.ExportEmbeddedSvg property
+## ExportEmbeddedSvg property
 
 Specifies whether SVG resources should be embedded into Html document. Default value is `true`.
 

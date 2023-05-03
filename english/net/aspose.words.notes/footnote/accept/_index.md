@@ -2,12 +2,12 @@
 title: Footnote.Accept
 linktitle: Accept
 second_title: Aspose.Words for .NET API Reference
-description: Footnote method. Accepts a visitor in C#.
+description: Footnote Accept method. Accepts a visitor in C#.
 type: docs
 weight: 70
 url: /net/aspose.words.notes/footnote/accept/
 ---
-## Footnote.Accept method
+## Accept method
 
 Accepts a visitor.
 

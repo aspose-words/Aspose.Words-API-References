@@ -2,12 +2,12 @@
 title: CustomXmlProperty.Name
 linktitle: Name
 second_title: Aspose.Words for .NET API Reference
-description: CustomXmlProperty property. Specifies the name of the custom XML attribute or smart tag property in C#.
+description: CustomXmlProperty Name property. Specifies the name of the custom XML attribute or smart tag property in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.markup/customxmlproperty/name/
 ---
-## CustomXmlProperty.Name property
+## Name property
 
 Specifies the name of the custom XML attribute or smart tag property.
 

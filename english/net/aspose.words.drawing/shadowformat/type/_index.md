@@ -2,12 +2,12 @@
 title: ShadowFormat.Type
 linktitle: Type
 second_title: Aspose.Words for .NET API Reference
-description: ShadowFormat property. Gets or sets the specified ShadowType for ShadowFormat in C#.
+description: ShadowFormat Type property. Gets or sets the specified ShadowType for ShadowFormat in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.drawing/shadowformat/type/
 ---
-## ShadowFormat.Type property
+## Type property
 
 Gets or sets the specified [`ShadowType`](../../shadowtype/) for ShadowFormat.
 

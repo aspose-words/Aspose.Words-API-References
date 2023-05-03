@@ -2,12 +2,12 @@
 title: DocumentBuilder.InsertParagraph
 linktitle: InsertParagraph
 second_title: Aspose.Words for .NET API Reference
-description: DocumentBuilder method. Inserts a paragraph break into the document in C#.
+description: DocumentBuilder InsertParagraph method. Inserts a paragraph break into the document in C#.
 type: docs
 weight: 420
 url: /net/aspose.words/documentbuilder/insertparagraph/
 ---
-## DocumentBuilder.InsertParagraph method
+## InsertParagraph method
 
 Inserts a paragraph break into the document.
 
@@ -24,6 +24,8 @@ The paragraph node that was just inserted. It is the same node as [`CurrentParag
 Current paragraph formatting specified by the [`ParagraphFormat`](../paragraphformat/) property is used.
 
 Breaks the current paragraph in two. After inserting the paragraph, the cursor is placed at the beginning of the new paragraph.
+
+An exception is thrown if it is not possible to insert a paragraph break at the current cursor position.
 
 ## Examples
 

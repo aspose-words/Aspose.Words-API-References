@@ -2,12 +2,12 @@
 title: FieldRef.InsertParagraphNumberInFullContext
 linktitle: InsertParagraphNumberInFullContext
 second_title: Aspose.Words for .NET API Reference
-description: FieldRef property. Gets or sets whether to insert the paragraph number of the referenced paragraph in full context in C#.
+description: FieldRef InsertParagraphNumberInFullContext property. Gets or sets whether to insert the paragraph number of the referenced paragraph in full context in C#.
 type: docs
 weight: 60
 url: /net/aspose.words.fields/fieldref/insertparagraphnumberinfullcontext/
 ---
-## FieldRef.InsertParagraphNumberInFullContext property
+## InsertParagraphNumberInFullContext property
 
 Gets or sets whether to insert the paragraph number of the referenced paragraph in full context.
 

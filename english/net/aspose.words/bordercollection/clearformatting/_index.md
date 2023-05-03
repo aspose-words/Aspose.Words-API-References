@@ -2,12 +2,12 @@
 title: BorderCollection.ClearFormatting
 linktitle: ClearFormatting
 second_title: Aspose.Words for .NET API Reference
-description: BorderCollection method. Removes all borders of an object in C#.
+description: BorderCollection ClearFormatting method. Removes all borders of an object in C#.
 type: docs
 weight: 140
 url: /net/aspose.words/bordercollection/clearformatting/
 ---
-## BorderCollection.ClearFormatting method
+## ClearFormatting method
 
 Removes all borders of an object.
 
