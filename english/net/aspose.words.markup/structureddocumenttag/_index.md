@@ -4,7 +4,7 @@ linktitle: StructuredDocumentTag
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Markup.StructuredDocumentTag class. Represents a structured document tag SDT or content control in a document in C#.
 type: docs
-weight: 3890
+weight: 3970
 url: /net/aspose.words.markup/structureddocumenttag/
 ---
 ## StructuredDocumentTag class
@@ -68,6 +68,7 @@ public class StructuredDocumentTag : CompositeNode, IStructuredDocumentTag
 | [Tag](../../aspose.words.markup/structureddocumenttag/tag/) { get; set; } | Specifies a tag associated with the current SDT node. Can not be `null`. |
 | [Title](../../aspose.words.markup/structureddocumenttag/title/) { get; set; } | Specifies the friendly name associated with this **SDT**. Can not be `null`. |
 | [WordOpenXML](../../aspose.words.markup/structureddocumenttag/wordopenxml/) { get; } | Gets a string that represents the XML contained within the node in the FlatOpc format. |
+| [WordOpenXMLMinimal](../../aspose.words.markup/structureddocumenttag/wordopenxmlminimal/) { get; } | Gets a string that represents the XML contained within the node in the FlatOpc format. Unlike the [`WordOpenXML`](./wordopenxml/) property, this method generates a stripped-down document that excludes any non-content-related parts. |
 | [XmlMapping](../../aspose.words.markup/structureddocumenttag/xmlmapping/) { get; } | Gets an object that represents the mapping of this structured document tag to XML data in a custom XML part of the current document. |
 
 ## Methods

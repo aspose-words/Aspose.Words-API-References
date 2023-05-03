@@ -4,7 +4,7 @@ linktitle: DataLabels
 second_title: Aspose.Words for .NET API Reference
 description: ChartSeries property. Specifies the settings for the data labels for the entire series in C#.
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.words.drawing.charts/chartseries/datalabels/
 ---
 ## ChartSeries.DataLabels property

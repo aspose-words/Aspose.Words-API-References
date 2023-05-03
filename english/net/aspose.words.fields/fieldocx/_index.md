@@ -4,7 +4,7 @@ linktitle: FieldOcx
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FieldOcx class. Implements the OCX field in C#.
 type: docs
-weight: 2130
+weight: 2210
 url: /net/aspose.words.fields/fieldocx/
 ---
 ## FieldOcx class

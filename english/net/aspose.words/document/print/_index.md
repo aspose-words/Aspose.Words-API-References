@@ -44,7 +44,7 @@ doc.Print(myPrinter);
 
 ---
 
-## Print(`string`) {#print_3}
+## Print(*string*) {#print_3}
 
 Print the whole document to the specified printer, using the standard (no User Interface) print controller.
 
@@ -85,7 +85,7 @@ doc.Print(myPrinter);
 
 ---
 
-## Print(`PrinterSettings`) {#print_1}
+## Print(*PrinterSettings*) {#print_1}
 
 Prints the document according to the specified printer settings, using the standard (no User Interface) print controller.
 
@@ -137,7 +137,7 @@ doc.Print(printerSettings, "My rendered document");
 
 ---
 
-## Print(`PrinterSettings`, `string`) {#print_2}
+## Print(*PrinterSettings, string*) {#print_2}
 
 Prints the document according to the specified printer settings, using the standard (no User Interface) print controller and a document name.
 

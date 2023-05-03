@@ -4,7 +4,7 @@ linktitle: RevisionColor
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Layout.RevisionColor enum. Allows to specify color of document revisions in C#.
 type: docs
-weight: 3240
+weight: 3320
 url: /net/aspose.words.layout/revisioncolor/
 ---
 ## RevisionColor enumeration

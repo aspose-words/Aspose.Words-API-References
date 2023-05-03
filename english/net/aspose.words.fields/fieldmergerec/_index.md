@@ -4,7 +4,7 @@ linktitle: FieldMergeRec
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FieldMergeRec class. Implements the MERGEREC field in C#.
 type: docs
-weight: 2050
+weight: 2130
 url: /net/aspose.words.fields/fieldmergerec/
 ---
 ## FieldMergeRec class

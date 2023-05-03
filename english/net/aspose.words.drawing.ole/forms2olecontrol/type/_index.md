@@ -4,7 +4,7 @@ linktitle: Type
 second_title: Aspose.Words for .NET API Reference
 description: Forms2OleControl property. Gets type of Forms 2.0 control in C#.
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.words.drawing.ole/forms2olecontrol/type/
 ---
 ## Forms2OleControl.Type property

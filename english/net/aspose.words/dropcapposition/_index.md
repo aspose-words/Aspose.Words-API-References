@@ -4,7 +4,7 @@ linktitle: DropCapPosition
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.DropCapPosition enum. Specifies the position for a drop cap text in C#.
 type: docs
-weight: 1300
+weight: 1380
 url: /net/aspose.words/dropcapposition/
 ---
 ## DropCapPosition enumeration

@@ -25,6 +25,8 @@ Current paragraph formatting specified by the [`ParagraphFormat`](../paragraphfo
 
 Breaks the current paragraph in two. After inserting the paragraph, the cursor is placed at the beginning of the new paragraph.
 
+An exception is thrown if it is not possible to insert a paragraph break at the current cursor position.
+
 ## Examples
 
 Shows how to insert a paragraph into the document.

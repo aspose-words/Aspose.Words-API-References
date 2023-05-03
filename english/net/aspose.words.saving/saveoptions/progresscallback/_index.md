@@ -17,7 +17,7 @@ public IDocumentSavingCallback ProgressCallback { get; set; }
 
 ## Remarks
 
-Progress is reported when saving to Docx, FlatOpc, Docm, Dotm, Dotx, Html, Mhtml, Epub, XamlFlow, or XamlFlowPack.
+Progress is reported when saving to Docx, FlatOpc, Docm, Dotm, Dotx, Doc, Dot, Html, Mhtml, Epub, XamlFlow, or XamlFlowPack.
 
 ## Examples
 

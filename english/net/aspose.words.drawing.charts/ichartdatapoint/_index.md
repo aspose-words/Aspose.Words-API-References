@@ -4,7 +4,7 @@ linktitle: IChartDataPoint
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Drawing.Charts.IChartDataPoint interface. Contains properties of a single data point on the chart in C#.
 type: docs
-weight: 790
+weight: 870
 url: /net/aspose.words.drawing.charts/ichartdatapoint/
 ---
 ## IChartDataPoint interface

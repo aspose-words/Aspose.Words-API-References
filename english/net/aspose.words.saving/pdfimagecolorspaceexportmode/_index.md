@@ -4,7 +4,7 @@ linktitle: PdfImageColorSpaceExportMode
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Saving.PdfImageColorSpaceExportMode enum. Specifies how the color space will be selected for the images in PDF document in C#.
 type: docs
-weight: 5300
+weight: 5390
 url: /net/aspose.words.saving/pdfimagecolorspaceexportmode/
 ---
 ## PdfImageColorSpaceExportMode enumeration

@@ -21,17 +21,23 @@ The allowed values are within the range from -1 (the darkest) to 1 (the lightest
 
 ## Examples
 
-Shows how to manage lightening and darkening foreground font color.
+Shows how to set theme color for foreground/background shape color.
 
 ```csharp
-Document doc = new Document(MyDir + "Big document.docx");
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
 
-Fill textFill = doc.FirstSection.Body.FirstParagraph.Runs[0].Font.Fill;
-textFill.ForeThemeColor = ThemeColor.Accent1;
-if (textFill.ForeTintAndShade == 0)
-    textFill.ForeTintAndShade = 0.5;
+Shape shape = builder.InsertShape(ShapeType.RoundRectangle, 80, 80);
 
-doc.Save(ArtifactsDir + "Shape.FillTintAndShade.docx");
+Fill fill = shape.Fill;
+fill.ForeThemeColor = ThemeColor.Dark1;
+fill.BackThemeColor = ThemeColor.Background2;
+
+// Note: do not use "BackThemeColor" and "BackTintAndShade" for font fill.
+if (fill.BackTintAndShade == 0)
+    fill.BackTintAndShade = 0.2;
+
+doc.Save(ArtifactsDir + "Shape.FillThemeColor.docx");
 ```
 
 ### See Also

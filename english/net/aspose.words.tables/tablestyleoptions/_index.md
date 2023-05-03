@@ -4,7 +4,7 @@ linktitle: TableStyleOptions
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Tables.TableStyleOptions enum. Specifies how table style is applied to a table in C#.
 type: docs
-weight: 6180
+weight: 6270
 url: /net/aspose.words.tables/tablestyleoptions/
 ---
 ## TableStyleOptions enumeration

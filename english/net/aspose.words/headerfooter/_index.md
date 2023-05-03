@@ -4,7 +4,7 @@ linktitle: HeaderFooter
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.HeaderFooter class. Represents a container for the header or footer text of a section in C#.
 type: docs
-weight: 2980
+weight: 3060
 url: /net/aspose.words/headerfooter/
 ---
 ## HeaderFooter class
