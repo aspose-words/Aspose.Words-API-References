@@ -1,13 +1,14 @@
 ---
 title: Odso.FirstRowContainsColumnNames
 linktitle: FirstRowContainsColumnNames
+articleTitle: FirstRowContainsColumnNames
 second_title: Aspose.Words for .NET API Reference
 description: Odso FirstRowContainsColumnNames property. Specifies that a hosting application shall treat the first row of data in the specified external data source as a header row containing the names of each column in the data source. The default value is false in C#.
 type: docs
 weight: 60
 url: /net/aspose.words.settings/odso/firstrowcontainscolumnnames/
 ---
-## FirstRowContainsColumnNames property
+## Odso.FirstRowContainsColumnNames property
 
 Specifies that a hosting application shall treat the first row of data in the specified external data source as a header row containing the names of each column in the data source. The default value is `false`.
 

@@ -1,13 +1,14 @@
 ---
 title: VbaReferenceCollection.RemoveAt
 linktitle: RemoveAt
+articleTitle: RemoveAt
 second_title: Aspose.Words for .NET API Reference
 description: VbaReferenceCollection RemoveAt method. Removes the VbaReference element at the specified index of the collection in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.vba/vbareferencecollection/removeat/
 ---
-## RemoveAt method
+## VbaReferenceCollection.RemoveAt method
 
 Removes the [`VbaReference`](../../vbareference/) element at the specified index of the collection.
 

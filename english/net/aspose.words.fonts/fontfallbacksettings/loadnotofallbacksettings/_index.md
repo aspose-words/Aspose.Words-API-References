@@ -1,13 +1,14 @@
 ---
 title: FontFallbackSettings.LoadNotoFallbackSettings
 linktitle: LoadNotoFallbackSettings
+articleTitle: LoadNotoFallbackSettings
 second_title: Aspose.Words for .NET API Reference
 description: FontFallbackSettings LoadNotoFallbackSettings method. Loads predefined fallback settings which uses Google Noto fonts in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/
 ---
-## LoadNotoFallbackSettings method
+## FontFallbackSettings.LoadNotoFallbackSettings method
 
 Loads predefined fallback settings which uses Google Noto fonts.
 

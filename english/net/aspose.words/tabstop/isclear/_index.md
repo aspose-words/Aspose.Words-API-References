@@ -1,13 +1,14 @@
 ---
 title: TabStop.IsClear
 linktitle: IsClear
+articleTitle: IsClear
 second_title: Aspose.Words for .NET API Reference
 description: TabStop IsClear property. Returns true if this tab stop clears any existing tab stops in this position in C#.
 type: docs
 weight: 30
 url: /net/aspose.words/tabstop/isclear/
 ---
-## IsClear property
+## TabStop.IsClear property
 
 Returns `true` if this tab stop clears any existing tab stops in this position.
 

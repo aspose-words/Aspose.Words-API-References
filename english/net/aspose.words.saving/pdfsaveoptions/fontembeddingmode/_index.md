@@ -1,13 +1,14 @@
 ---
 title: PdfSaveOptions.FontEmbeddingMode
 linktitle: FontEmbeddingMode
+articleTitle: FontEmbeddingMode
 second_title: Aspose.Words for .NET API Reference
 description: PdfSaveOptions FontEmbeddingMode property. Specifies the font embedding mode in C#.
 type: docs
 weight: 170
 url: /net/aspose.words.saving/pdfsaveoptions/fontembeddingmode/
 ---
-## FontEmbeddingMode property
+## PdfSaveOptions.FontEmbeddingMode property
 
 Specifies the font embedding mode.
 

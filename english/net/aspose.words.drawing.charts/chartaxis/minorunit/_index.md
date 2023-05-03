@@ -1,13 +1,14 @@
 ---
 title: ChartAxis.MinorUnit
 linktitle: MinorUnit
+articleTitle: MinorUnit
 second_title: Aspose.Words for .NET API Reference
 description: ChartAxis MinorUnit property. Returns or sets the distance between minor tick marks in C#.
 type: docs
 weight: 160
 url: /net/aspose.words.drawing.charts/chartaxis/minorunit/
 ---
-## MinorUnit property
+## ChartAxis.MinorUnit property
 
 Returns or sets the distance between minor tick marks.
 

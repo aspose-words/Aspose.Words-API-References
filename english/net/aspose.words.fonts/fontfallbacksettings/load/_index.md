@@ -1,6 +1,7 @@
 ---
 title: FontFallbackSettings.Load
 linktitle: Load
+articleTitle: Load
 second_title: Aspose.Words for .NET API Reference
 description: FontFallbackSettings Load method. Loads font fallback settings from XML file in C#.
 type: docs

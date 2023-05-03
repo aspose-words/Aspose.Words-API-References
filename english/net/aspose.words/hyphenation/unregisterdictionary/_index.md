@@ -1,13 +1,14 @@
 ---
 title: Hyphenation.UnregisterDictionary
 linktitle: UnregisterDictionary
+articleTitle: UnregisterDictionary
 second_title: Aspose.Words for .NET API Reference
 description: Hyphenation UnregisterDictionary method. Unregisters a hyphenation dictionary for the specified language in C#.
 type: docs
 weight: 50
 url: /net/aspose.words/hyphenation/unregisterdictionary/
 ---
-## UnregisterDictionary method
+## Hyphenation.UnregisterDictionary method
 
 Unregisters a hyphenation dictionary for the specified language.
 

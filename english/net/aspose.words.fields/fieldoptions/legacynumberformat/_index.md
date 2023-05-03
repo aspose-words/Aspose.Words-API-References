@@ -1,13 +1,14 @@
 ---
 title: FieldOptions.LegacyNumberFormat
 linktitle: LegacyNumberFormat
+articleTitle: LegacyNumberFormat
 second_title: Aspose.Words for .NET API Reference
 description: FieldOptions LegacyNumberFormat property. Gets or sets the value indicating whether legacy early than AW 13.10 number format for fields is enabled or not in C#.
 type: docs
 weight: 150
 url: /net/aspose.words.fields/fieldoptions/legacynumberformat/
 ---
-## LegacyNumberFormat property
+## FieldOptions.LegacyNumberFormat property
 
 Gets or sets the value indicating whether legacy (early than AW 13.10) number format for fields is enabled or not.
 

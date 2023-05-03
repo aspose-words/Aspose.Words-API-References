@@ -1,13 +1,14 @@
 ---
 title: FieldPrint.PrinterInstructions
 linktitle: PrinterInstructions
+articleTitle: PrinterInstructions
 second_title: Aspose.Words for .NET API Reference
 description: FieldPrint PrinterInstructions property. Gets or sets the printerspecific control code characters or PostScript instructions in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldprint/printerinstructions/
 ---
-## PrinterInstructions property
+## FieldPrint.PrinterInstructions property
 
 Gets or sets the printer-specific control code characters or PostScript instructions.
 

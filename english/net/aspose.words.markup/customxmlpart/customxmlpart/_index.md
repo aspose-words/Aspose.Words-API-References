@@ -1,6 +1,7 @@
 ---
 title: CustomXmlPart
 linktitle: CustomXmlPart
+articleTitle: CustomXmlPart
 second_title: Aspose.Words for .NET API Reference
 description: CustomXmlPart constructor. The default constructor in C#.
 type: docs

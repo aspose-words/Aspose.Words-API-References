@@ -1,13 +1,14 @@
 ---
 title: MailMerge.RetainFirstSectionStart
 linktitle: RetainFirstSectionStart
+articleTitle: RetainFirstSectionStart
 second_title: Aspose.Words for .NET API Reference
 description: MailMerge RetainFirstSectionStart property. Gets or sets a value indicating whether the SectionStart of the first document section and its copies for subsequent data source rows are retained during mail merge or updated according to MS Word behaviour in C#.
 type: docs
 weight: 120
 url: /net/aspose.words.mailmerging/mailmerge/retainfirstsectionstart/
 ---
-## RetainFirstSectionStart property
+## MailMerge.RetainFirstSectionStart property
 
 Gets or sets a value indicating whether the [`SectionStart`](../../../aspose.words/pagesetup/sectionstart/) of the first document section and its copies for subsequent data source rows are retained during mail merge or updated according to MS Word behaviour.
 

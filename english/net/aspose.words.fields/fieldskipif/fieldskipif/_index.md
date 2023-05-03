@@ -1,6 +1,7 @@
 ---
 title: FieldSkipIf
 linktitle: FieldSkipIf
+articleTitle: FieldSkipIf
 second_title: Aspose.Words for .NET API Reference
 description: FieldSkipIf constructor. The default constructor in C#.
 type: docs

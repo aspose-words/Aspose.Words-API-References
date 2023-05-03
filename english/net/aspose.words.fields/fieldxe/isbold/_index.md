@@ -1,13 +1,14 @@
 ---
 title: FieldXE.IsBold
 linktitle: IsBold
+articleTitle: IsBold
 second_title: Aspose.Words for .NET API Reference
 description: FieldXE IsBold property. Gets or sets whether to apply bold formatting to the entrys page number in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldxe/isbold/
 ---
-## IsBold property
+## FieldXE.IsBold property
 
 Gets or sets whether to apply bold formatting to the entry's page number.
 

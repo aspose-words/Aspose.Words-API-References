@@ -1,13 +1,14 @@
 ---
 title: Row.EnsureMinimum
 linktitle: EnsureMinimum
+articleTitle: EnsureMinimum
 second_title: Aspose.Words for .NET API Reference
 description: Row EnsureMinimum method. If the Row has no cells creates and appends one Cell in C#.
 type: docs
 weight: 110
 url: /net/aspose.words.tables/row/ensureminimum/
 ---
-## EnsureMinimum method
+## Row.EnsureMinimum method
 
 If the [`Row`](../) has no cells, creates and appends one [`Cell`](../../cell/).
 

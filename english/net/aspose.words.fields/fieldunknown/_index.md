@@ -1,6 +1,7 @@
 ---
 title: FieldUnknown Class
 linktitle: FieldUnknown
+articleTitle: FieldUnknown
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FieldUnknown class. Implements an unknown or unrecognized field in C#.
 type: docs

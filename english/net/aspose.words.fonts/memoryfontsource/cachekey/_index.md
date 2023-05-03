@@ -1,13 +1,14 @@
 ---
 title: MemoryFontSource.CacheKey
 linktitle: CacheKey
+articleTitle: CacheKey
 second_title: Aspose.Words for .NET API Reference
 description: MemoryFontSource CacheKey property. The key of this source in the cache in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.fonts/memoryfontsource/cachekey/
 ---
-## CacheKey property
+## MemoryFontSource.CacheKey property
 
 The key of this source in the cache.
 

@@ -1,13 +1,14 @@
 ---
 title: XmlMapping.XPath
 linktitle: XPath
+articleTitle: XPath
 second_title: Aspose.Words for .NET API Reference
 description: XmlMapping XPath property. Returns the XPath expression which is evaluated to find the custom XML node that is mapped to the parent structured document tag in C#.
 type: docs
 weight: 50
 url: /net/aspose.words.markup/xmlmapping/xpath/
 ---
-## XPath property
+## XmlMapping.XPath property
 
 Returns the XPath expression, which is evaluated to find the custom XML node that is mapped to the parent structured document tag.
 

@@ -1,13 +1,14 @@
 ---
 title: ParagraphFormat.LineSpacing
 linktitle: LineSpacing
+articleTitle: LineSpacing
 second_title: Aspose.Words for .NET API Reference
 description: ParagraphFormat LineSpacing property. Gets or sets the line spacing in points for the paragraph in C#.
 type: docs
 weight: 180
 url: /net/aspose.words/paragraphformat/linespacing/
 ---
-## LineSpacing property
+## ParagraphFormat.LineSpacing property
 
 Gets or sets the line spacing (in points) for the paragraph.
 

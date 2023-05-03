@@ -1,13 +1,14 @@
 ---
 title: PageSet.All
 linktitle: All
+articleTitle: All
 second_title: Aspose.Words for .NET API Reference
 description: PageSet All property. Gets a set with all the pages of the document in their original order in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.saving/pageset/all/
 ---
-## All property
+## PageSet.All property
 
 Gets a set with all the pages of the document in their original order.
 

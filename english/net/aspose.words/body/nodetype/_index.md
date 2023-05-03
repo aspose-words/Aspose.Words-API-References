@@ -1,13 +1,14 @@
 ---
 title: Body.NodeType
 linktitle: NodeType
+articleTitle: NodeType
 second_title: Aspose.Words for .NET API Reference
 description: Body NodeType property. Returns Body in C#.
 type: docs
 weight: 20
 url: /net/aspose.words/body/nodetype/
 ---
-## NodeType property
+## Body.NodeType property
 
 Returns Body.
 

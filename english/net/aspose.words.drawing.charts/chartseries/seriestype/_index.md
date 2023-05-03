@@ -1,13 +1,14 @@
 ---
 title: ChartSeries.SeriesType
 linktitle: SeriesType
+articleTitle: SeriesType
 second_title: Aspose.Words for .NET API Reference
 description: ChartSeries SeriesType property. Gets the type of this chart series in C#.
 type: docs
 weight: 120
 url: /net/aspose.words.drawing.charts/chartseries/seriestype/
 ---
-## SeriesType property
+## ChartSeries.SeriesType property
 
 Gets the type of this chart series.
 

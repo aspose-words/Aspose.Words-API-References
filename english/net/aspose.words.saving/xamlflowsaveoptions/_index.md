@@ -1,6 +1,7 @@
 ---
 title: XamlFlowSaveOptions Class
 linktitle: XamlFlowSaveOptions
+articleTitle: XamlFlowSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Saving.XamlFlowSaveOptions class. Can be used to specify additional options when saving a document into the XamlFlow or XamlFlowPack format in C#.
 type: docs

@@ -1,6 +1,7 @@
 ---
 title: ListLevelCollection.Item
 linktitle: Item
+articleTitle: Item
 second_title: Aspose.Words for .NET API Reference
 description: ListLevelCollection Item property. Gets a list level by index in C#.
 type: docs

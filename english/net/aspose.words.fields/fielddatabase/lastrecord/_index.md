@@ -1,13 +1,14 @@
 ---
 title: FieldDatabase.LastRecord
 linktitle: LastRecord
+articleTitle: LastRecord
 second_title: Aspose.Words for .NET API Reference
 description: FieldDatabase LastRecord property. Gets or sets the integral record number of the last data record to insert in C#.
 type: docs
 weight: 80
 url: /net/aspose.words.fields/fielddatabase/lastrecord/
 ---
-## LastRecord property
+## FieldDatabase.LastRecord property
 
 Gets or sets the integral record number of the last data record to insert.
 

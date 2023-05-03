@@ -1,13 +1,14 @@
 ---
 title: Paragraph.IsEndOfCell
 linktitle: IsEndOfCell
+articleTitle: IsEndOfCell
 second_title: Aspose.Words for .NET API Reference
 description: Paragraph IsEndOfCell property. True if this paragraph is the last paragraph in a Cell false otherwise in C#.
 type: docs
 weight: 50
 url: /net/aspose.words/paragraph/isendofcell/
 ---
-## IsEndOfCell property
+## Paragraph.IsEndOfCell property
 
 True if this paragraph is the last paragraph in a [`Cell`](../../../aspose.words.tables/cell/); false otherwise.
 

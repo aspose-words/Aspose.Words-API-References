@@ -1,13 +1,14 @@
 ---
 title: FieldGoToButton.Location
 linktitle: Location
+articleTitle: Location
 second_title: Aspose.Words for .NET API Reference
 description: FieldGoToButton Location property. Gets or sets the name of a bookmark a page number or some other item to jump to in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldgotobutton/location/
 ---
-## Location property
+## FieldGoToButton.Location property
 
 Gets or sets the name of a bookmark, a page number, or some other item to jump to.
 

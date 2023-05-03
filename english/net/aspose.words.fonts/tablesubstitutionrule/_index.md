@@ -1,6 +1,7 @@
 ---
 title: TableSubstitutionRule Class
 linktitle: TableSubstitutionRule
+articleTitle: TableSubstitutionRule
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fonts.TableSubstitutionRule class. Table font substitution rule in C#.
 type: docs

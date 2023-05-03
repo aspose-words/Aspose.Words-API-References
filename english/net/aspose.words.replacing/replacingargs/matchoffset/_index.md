@@ -1,13 +1,14 @@
 ---
 title: ReplacingArgs.MatchOffset
 linktitle: MatchOffset
+articleTitle: MatchOffset
 second_title: Aspose.Words for .NET API Reference
 description: ReplacingArgs MatchOffset property. Gets the zerobased starting position of the match from the start of the node that contains the beginning of the match in C#.
 type: docs
 weight: 50
 url: /net/aspose.words.replacing/replacingargs/matchoffset/
 ---
-## MatchOffset property
+## ReplacingArgs.MatchOffset property
 
 Gets the zero-based starting position of the match from the start of the node that contains the beginning of the match.
 

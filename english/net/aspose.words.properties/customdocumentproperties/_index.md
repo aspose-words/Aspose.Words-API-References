@@ -1,6 +1,7 @@
 ---
 title: CustomDocumentProperties Class
 linktitle: CustomDocumentProperties
+articleTitle: CustomDocumentProperties
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Properties.CustomDocumentProperties class. A collection of custom document properties in C#.
 type: docs

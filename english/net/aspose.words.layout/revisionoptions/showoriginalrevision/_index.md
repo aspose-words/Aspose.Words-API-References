@@ -1,13 +1,14 @@
 ---
 title: RevisionOptions.ShowOriginalRevision
 linktitle: ShowOriginalRevision
+articleTitle: ShowOriginalRevision
 second_title: Aspose.Words for .NET API Reference
 description: RevisionOptions ShowOriginalRevision property. Allows to specify whether the original text should be shown instead of revised one. Default value is false in C#.
 type: docs
 weight: 170
 url: /net/aspose.words.layout/revisionoptions/showoriginalrevision/
 ---
-## ShowOriginalRevision property
+## RevisionOptions.ShowOriginalRevision property
 
 Allows to specify whether the original text should be shown instead of revised one. Default value is `false`.
 

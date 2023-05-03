@@ -1,13 +1,14 @@
 ---
 title: ShapeBase.Fill
 linktitle: Fill
+articleTitle: Fill
 second_title: Aspose.Words for .NET API Reference
 description: ShapeBase Fill property. Gets fill formatting for the shape in C#.
 type: docs
 weight: 170
 url: /net/aspose.words.drawing/shapebase/fill/
 ---
-## Fill property
+## ShapeBase.Fill property
 
 Gets fill formatting for the shape.
 

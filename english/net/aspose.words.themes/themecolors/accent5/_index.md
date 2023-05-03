@@ -1,13 +1,14 @@
 ---
 title: ThemeColors.Accent5
 linktitle: Accent5
+articleTitle: Accent5
 second_title: Aspose.Words for .NET API Reference
 description: ThemeColors Accent5 property. Specifies color Accent 5 in C#.
 type: docs
 weight: 50
 url: /net/aspose.words.themes/themecolors/accent5/
 ---
-## Accent5 property
+## ThemeColors.Accent5 property
 
 Specifies color Accent 5.
 

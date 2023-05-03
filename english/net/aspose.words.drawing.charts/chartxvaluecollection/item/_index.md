@@ -1,6 +1,7 @@
 ---
 title: ChartXValueCollection.Item
 linktitle: Item
+articleTitle: Item
 second_title: Aspose.Words for .NET API Reference
 description: ChartXValueCollection Item property. Gets or sets the X value at the specified index in C#.
 type: docs

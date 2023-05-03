@@ -1,13 +1,14 @@
 ---
 title: DocumentBuilder.ListFormat
 linktitle: ListFormat
+articleTitle: ListFormat
 second_title: Aspose.Words for .NET API Reference
 description: DocumentBuilder ListFormat property. Returns an object that represents current list formatting properties in C#.
 type: docs
 weight: 150
 url: /net/aspose.words/documentbuilder/listformat/
 ---
-## ListFormat property
+## DocumentBuilder.ListFormat property
 
 Returns an object that represents current list formatting properties.
 

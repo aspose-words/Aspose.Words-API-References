@@ -1,13 +1,14 @@
 ---
 title: Bookmark.Text
 linktitle: Text
+articleTitle: Text
 second_title: Aspose.Words for .NET API Reference
 description: Bookmark Text property. Gets or sets the text enclosed in the bookmark in C#.
 type: docs
 weight: 70
 url: /net/aspose.words/bookmark/text/
 ---
-## Text property
+## Bookmark.Text property
 
 Gets or sets the text enclosed in the bookmark.
 

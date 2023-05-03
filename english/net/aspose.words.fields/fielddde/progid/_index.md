@@ -1,13 +1,14 @@
 ---
 title: FieldDde.ProgId
 linktitle: ProgId
+articleTitle: ProgId
 second_title: Aspose.Words for .NET API Reference
 description: FieldDde ProgId property. Gets or sets the application type of the link information in C#.
 type: docs
 weight: 100
 url: /net/aspose.words.fields/fielddde/progid/
 ---
-## ProgId property
+## FieldDde.ProgId property
 
 Gets or sets the application type of the link information.
 

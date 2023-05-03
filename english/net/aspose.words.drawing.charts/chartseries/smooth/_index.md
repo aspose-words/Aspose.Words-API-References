@@ -1,13 +1,14 @@
 ---
 title: ChartSeries.Smooth
 linktitle: Smooth
+articleTitle: Smooth
 second_title: Aspose.Words for .NET API Reference
 description: ChartSeries Smooth property. Allows to specify whether the line connecting the points on the chart shall be smoothed using CatmullRom splines in C#.
 type: docs
 weight: 130
 url: /net/aspose.words.drawing.charts/chartseries/smooth/
 ---
-## Smooth property
+## ChartSeries.Smooth property
 
 Allows to specify whether the line connecting the points on the chart shall be smoothed using Catmull-Rom splines.
 

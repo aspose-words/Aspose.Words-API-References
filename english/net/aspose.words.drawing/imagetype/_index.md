@@ -1,6 +1,7 @@
 ---
 title: ImageType Enum
 linktitle: ImageType
+articleTitle: ImageType
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Drawing.ImageType enum. Specifies the type format of an image in a Microsoft Word document in C#.
 type: docs

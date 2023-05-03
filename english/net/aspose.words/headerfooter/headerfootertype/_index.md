@@ -1,13 +1,14 @@
 ---
 title: HeaderFooter.HeaderFooterType
 linktitle: HeaderFooterType
+articleTitle: HeaderFooterType
 second_title: Aspose.Words for .NET API Reference
 description: HeaderFooter HeaderFooterType property. Gets the type of this header/footer in C#.
 type: docs
 weight: 20
 url: /net/aspose.words/headerfooter/headerfootertype/
 ---
-## HeaderFooterType property
+## HeaderFooter.HeaderFooterType property
 
 Gets the type of this header/footer.
 

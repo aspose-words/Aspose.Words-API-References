@@ -1,13 +1,14 @@
 ---
 title: FieldRef.BookmarkName
 linktitle: BookmarkName
+articleTitle: BookmarkName
 second_title: Aspose.Words for .NET API Reference
 description: FieldRef BookmarkName property. Gets or sets the referenced bookmarks name in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.fields/fieldref/bookmarkname/
 ---
-## BookmarkName property
+## FieldRef.BookmarkName property
 
 Gets or sets the referenced bookmark's name.
 

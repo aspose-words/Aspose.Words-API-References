@@ -1,6 +1,7 @@
 ---
 title: FieldQuote Class
 linktitle: FieldQuote
+articleTitle: FieldQuote
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FieldQuote class. Implements the QUOTE field in C#.
 type: docs

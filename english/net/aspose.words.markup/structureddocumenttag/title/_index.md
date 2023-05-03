@@ -1,13 +1,14 @@
 ---
 title: StructuredDocumentTag.Title
 linktitle: Title
+articleTitle: Title
 second_title: Aspose.Words for .NET API Reference
 description: StructuredDocumentTag Title property. Specifies the friendly name associated with this SDT. Can not be null in C#.
 type: docs
 weight: 290
 url: /net/aspose.words.markup/structureddocumenttag/title/
 ---
-## Title property
+## StructuredDocumentTag.Title property
 
 Specifies the friendly name associated with this **SDT**. Can not be `null`.
 

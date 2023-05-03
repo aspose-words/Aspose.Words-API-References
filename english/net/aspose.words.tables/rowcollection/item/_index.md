@@ -1,6 +1,7 @@
 ---
 title: RowCollection.Item
 linktitle: Item
+articleTitle: Item
 second_title: Aspose.Words for .NET API Reference
 description: RowCollection Item property. Retrieves a Row at the given index in C#.
 type: docs

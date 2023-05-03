@@ -1,13 +1,14 @@
 ---
 title: GradientStop.Transparency
 linktitle: Transparency
+articleTitle: Transparency
 second_title: Aspose.Words for .NET API Reference
 description: GradientStop Transparency property. Gets or sets a value representing the transparency of the gradient fill expressed as a percent in range 0.0 to 1.0 in C#.
 type: docs
 weight: 50
 url: /net/aspose.words.drawing/gradientstop/transparency/
 ---
-## Transparency property
+## GradientStop.Transparency property
 
 Gets or sets a value representing the transparency of the gradient fill expressed as a percent in range 0.0 to 1.0.
 
@@ -29,8 +30,8 @@ shape.Fill.TwoColorGradient(Color.Green, Color.Red, GradientStyle.Horizontal, Gr
 // Get gradient stops collection.
 GradientStopCollection gradientStops = shape.Fill.GradientStops;
 
-// Change first gradient stop.
-gradientStops[0].Color = Color.Aqua;
+// Change first gradient stop.            
+gradientStops[0].Color = Color.Aqua;            
 gradientStops[0].Position = 0.1;
 gradientStops[0].Transparency = 0.25;
 
@@ -49,6 +50,7 @@ gradientStops.Remove(gradientStop);
 
 Assert.AreEqual(2, gradientStops.Count);
 
+Assert.AreEqual(Color.FromArgb(255, 0, 255, 255), gradientStops[0].BaseColor);
 Assert.AreEqual(Color.Aqua.ToArgb(), gradientStops[0].Color.ToArgb());
 Assert.AreEqual(0.1d, gradientStops[0].Position, 0.01d);
 Assert.AreEqual(0.25d, gradientStops[0].Transparency, 0.01d);

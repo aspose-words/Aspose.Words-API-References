@@ -1,13 +1,14 @@
 ---
 title: RevisionOptions.RevisionBarsPosition
 linktitle: RevisionBarsPosition
+articleTitle: RevisionBarsPosition
 second_title: Aspose.Words for .NET API Reference
 description: RevisionOptions RevisionBarsPosition property. Gets or sets rendering position of revision bars. Default value is Outside in C#.
 type: docs
 weight: 140
 url: /net/aspose.words.layout/revisionoptions/revisionbarsposition/
 ---
-## RevisionBarsPosition property
+## RevisionOptions.RevisionBarsPosition property
 
 Gets or sets rendering position of revision bars. Default value is Outside.
 

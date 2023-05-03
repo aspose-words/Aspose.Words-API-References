@@ -1,13 +1,14 @@
 ---
 title: FieldIncludeText.Encoding
 linktitle: Encoding
+articleTitle: Encoding
 second_title: Aspose.Words for .NET API Reference
 description: FieldIncludeText Encoding property. Gets or sets the encoding applied to the data within the referenced file in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldincludetext/encoding/
 ---
-## Encoding property
+## FieldIncludeText.Encoding property
 
 Gets or sets the encoding applied to the data within the referenced file.
 

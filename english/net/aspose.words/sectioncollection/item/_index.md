@@ -1,6 +1,7 @@
 ---
 title: SectionCollection.Item
 linktitle: Item
+articleTitle: Item
 second_title: Aspose.Words for .NET API Reference
 description: SectionCollection Item property. Retrieves a section at the given index in C#.
 type: docs

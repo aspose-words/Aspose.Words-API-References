@@ -1,13 +1,14 @@
 ---
 title: FileFormatInfo.Encoding
 linktitle: Encoding
+articleTitle: Encoding
 second_title: Aspose.Words for .NET API Reference
 description: FileFormatInfo Encoding property. Gets the detected encoding if applicable to the current document format. At the moment detects encoding only for HTML documents in C#.
 type: docs
 weight: 10
 url: /net/aspose.words/fileformatinfo/encoding/
 ---
-## Encoding property
+## FileFormatInfo.Encoding property
 
 Gets the detected encoding if applicable to the current document format. At the moment detects encoding only for HTML documents.
 

@@ -1,13 +1,14 @@
 ---
 title: PageSavingArgs.PageIndex
 linktitle: PageIndex
+articleTitle: PageIndex
 second_title: Aspose.Words for .NET API Reference
 description: PageSavingArgs PageIndex property. Current page index in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.saving/pagesavingargs/pageindex/
 ---
-## PageIndex property
+## PageSavingArgs.PageIndex property
 
 Current page index.
 

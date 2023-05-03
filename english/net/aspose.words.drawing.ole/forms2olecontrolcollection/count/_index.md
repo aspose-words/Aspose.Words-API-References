@@ -1,13 +1,14 @@
 ---
 title: Forms2OleControlCollection.Count
 linktitle: Count
+articleTitle: Count
 second_title: Aspose.Words for .NET API Reference
 description: Forms2OleControlCollection Count property. Gets count of objects in the collection in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.ole/forms2olecontrolcollection/count/
 ---
-## Count property
+## Forms2OleControlCollection.Count property
 
 Gets count of objects in the collection.
 

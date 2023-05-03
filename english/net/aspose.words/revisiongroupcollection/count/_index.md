@@ -1,13 +1,14 @@
 ---
 title: RevisionGroupCollection.Count
 linktitle: Count
+articleTitle: Count
 second_title: Aspose.Words for .NET API Reference
 description: RevisionGroupCollection Count property. Returns the number of revision groups in the collection in C#.
 type: docs
 weight: 10
 url: /net/aspose.words/revisiongroupcollection/count/
 ---
-## Count property
+## RevisionGroupCollection.Count property
 
 Returns the number of revision groups in the collection.
 

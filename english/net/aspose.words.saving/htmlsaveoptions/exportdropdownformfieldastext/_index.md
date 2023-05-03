@@ -1,13 +1,14 @@
 ---
 title: HtmlSaveOptions.ExportDropDownFormFieldAsText
 linktitle: ExportDropDownFormFieldAsText
+articleTitle: ExportDropDownFormFieldAsText
 second_title: Aspose.Words for .NET API Reference
 description: HtmlSaveOptions ExportDropDownFormFieldAsText property. Controls how dropdown form fields are saved to HTML or MHTML. Default value is false in C#.
 type: docs
 weight: 140
 url: /net/aspose.words.saving/htmlsaveoptions/exportdropdownformfieldastext/
 ---
-## ExportDropDownFormFieldAsText property
+## HtmlSaveOptions.ExportDropDownFormFieldAsText property
 
 Controls how drop-down form fields are saved to HTML or MHTML. Default value is `false`.
 

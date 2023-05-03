@@ -1,6 +1,7 @@
 ---
 title: FieldNumChars
 linktitle: FieldNumChars
+articleTitle: FieldNumChars
 second_title: Aspose.Words for .NET API Reference
 description: FieldNumChars constructor. The default constructor in C#.
 type: docs

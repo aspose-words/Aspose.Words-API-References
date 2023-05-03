@@ -1,6 +1,7 @@
 ---
 title: OoxmlSaveOptions
 linktitle: OoxmlSaveOptions
+articleTitle: OoxmlSaveOptions
 second_title: Aspose.Words for .NET API Reference
 description: OoxmlSaveOptions constructor. Initializes a new instance of this class that can be used to save a document in the Docx format in C#.
 type: docs

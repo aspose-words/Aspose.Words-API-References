@@ -1,13 +1,14 @@
 ---
 title: ListLevelCollection.GetEnumerator
 linktitle: GetEnumerator
+articleTitle: GetEnumerator
 second_title: Aspose.Words for .NET API Reference
 description: ListLevelCollection GetEnumerator method. Gets the enumerator object that will enumerate levels in this list in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.lists/listlevelcollection/getenumerator/
 ---
-## GetEnumerator method
+## ListLevelCollection.GetEnumerator method
 
 Gets the enumerator object that will enumerate levels in this list.
 

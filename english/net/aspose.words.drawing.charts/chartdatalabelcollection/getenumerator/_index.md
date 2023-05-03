@@ -1,13 +1,14 @@
 ---
 title: ChartDataLabelCollection.GetEnumerator
 linktitle: GetEnumerator
+articleTitle: GetEnumerator
 second_title: Aspose.Words for .NET API Reference
 description: ChartDataLabelCollection GetEnumerator method. Returns an enumerator object in C#.
 type: docs
 weight: 150
 url: /net/aspose.words.drawing.charts/chartdatalabelcollection/getenumerator/
 ---
-## GetEnumerator method
+## ChartDataLabelCollection.GetEnumerator method
 
 Returns an enumerator object.
 

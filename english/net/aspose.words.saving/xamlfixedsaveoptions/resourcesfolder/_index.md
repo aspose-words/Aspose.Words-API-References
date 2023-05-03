@@ -1,13 +1,14 @@
 ---
 title: XamlFixedSaveOptions.ResourcesFolder
 linktitle: ResourcesFolder
+articleTitle: ResourcesFolder
 second_title: Aspose.Words for .NET API Reference
 description: XamlFixedSaveOptions ResourcesFolder property. Specifies the physical folder where resources images and fonts are saved when exporting a document to fixed page Xaml format. Default is null in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.saving/xamlfixedsaveoptions/resourcesfolder/
 ---
-## ResourcesFolder property
+## XamlFixedSaveOptions.ResourcesFolder property
 
 Specifies the physical folder where resources (images and fonts) are saved when exporting a document to fixed page Xaml format. Default is `null`.
 

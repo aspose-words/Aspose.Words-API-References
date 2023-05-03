@@ -1,13 +1,14 @@
 ---
 title: DigitalSignature.CertificateHolder
 linktitle: CertificateHolder
+articleTitle: CertificateHolder
 second_title: Aspose.Words for .NET API Reference
 description: DigitalSignature CertificateHolder property. Returns the certificate holder object that contains the certificate was used to sign the document in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.digitalsignatures/digitalsignature/certificateholder/
 ---
-## CertificateHolder property
+## DigitalSignature.CertificateHolder property
 
 Returns the certificate holder object that contains the certificate was used to sign the document.
 

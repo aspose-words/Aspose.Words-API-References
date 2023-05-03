@@ -1,13 +1,14 @@
 ---
 title: Font.Kerning
 linktitle: Kerning
+articleTitle: Kerning
 second_title: Aspose.Words for .NET API Reference
 description: Font Kerning property. Gets or sets the font size at which kerning starts in C#.
 type: docs
 weight: 180
 url: /net/aspose.words/font/kerning/
 ---
-## Kerning property
+## Font.Kerning property
 
 Gets or sets the font size at which kerning starts.
 

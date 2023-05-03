@@ -1,13 +1,14 @@
 ---
 title: HtmlLoadOptions.IgnoreNoscriptElements
 linktitle: IgnoreNoscriptElements
+articleTitle: IgnoreNoscriptElements
 second_title: Aspose.Words for .NET API Reference
 description: HtmlLoadOptions IgnoreNoscriptElements property. Gets or sets a value indicating whether to ignore noscript HTML elements. Default value is false in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.loading/htmlloadoptions/ignorenoscriptelements/
 ---
-## IgnoreNoscriptElements property
+## HtmlLoadOptions.IgnoreNoscriptElements property
 
 Gets or sets a value indicating whether to ignore &lt;noscript&gt; HTML elements. Default value is `false`.
 

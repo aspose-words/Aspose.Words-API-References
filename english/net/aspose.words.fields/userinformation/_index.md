@@ -1,6 +1,7 @@
 ---
 title: UserInformation Class
 linktitle: UserInformation
+articleTitle: UserInformation
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.UserInformation class. Specifies information about the user in C#.
 type: docs

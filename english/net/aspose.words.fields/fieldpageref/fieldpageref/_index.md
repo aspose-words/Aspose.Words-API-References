@@ -1,6 +1,7 @@
 ---
 title: FieldPageRef
 linktitle: FieldPageRef
+articleTitle: FieldPageRef
 second_title: Aspose.Words for .NET API Reference
 description: FieldPageRef constructor. The default constructor in C#.
 type: docs

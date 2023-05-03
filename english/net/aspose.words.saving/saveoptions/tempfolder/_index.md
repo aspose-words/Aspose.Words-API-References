@@ -1,13 +1,14 @@
 ---
 title: SaveOptions.TempFolder
 linktitle: TempFolder
+articleTitle: TempFolder
 second_title: Aspose.Words for .NET API Reference
 description: SaveOptions TempFolder property. Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is null and no temporary files are used in C#.
 type: docs
 weight: 140
 url: /net/aspose.words.saving/saveoptions/tempfolder/
 ---
-## TempFolder property
+## SaveOptions.TempFolder property
 
 Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is `null` and no temporary files are used.
 

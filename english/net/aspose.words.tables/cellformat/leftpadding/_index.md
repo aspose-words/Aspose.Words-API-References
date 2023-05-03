@@ -1,13 +1,14 @@
 ---
 title: CellFormat.LeftPadding
 linktitle: LeftPadding
+articleTitle: LeftPadding
 second_title: Aspose.Words for .NET API Reference
 description: CellFormat LeftPadding property. Returns or sets the amount of space in points to add to the left of the contents of cell in C#.
 type: docs
 weight: 50
 url: /net/aspose.words.tables/cellformat/leftpadding/
 ---
-## LeftPadding property
+## CellFormat.LeftPadding property
 
 Returns or sets the amount of space (in points) to add to the left of the contents of cell.
 

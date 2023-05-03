@@ -1,13 +1,14 @@
 ---
 title: SpecialChar.GetText
 linktitle: GetText
+articleTitle: GetText
 second_title: Aspose.Words for .NET API Reference
 description: SpecialChar GetText method. Gets the special character that this node represents in C#.
 type: docs
 weight: 30
 url: /net/aspose.words/specialchar/gettext/
 ---
-## GetText method
+## SpecialChar.GetText method
 
 Gets the special character that this node represents.
 

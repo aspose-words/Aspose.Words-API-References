@@ -1,13 +1,14 @@
 ---
 title: ControlChar.SectionBreakChar
 linktitle: SectionBreakChar
+articleTitle: SectionBreakChar
 second_title: Aspose.Words for .NET API Reference
 description: ControlChar SectionBreakChar field. End of section character char12 or f in C#.
 type: docs
 weight: 250
 url: /net/aspose.words/controlchar/sectionbreakchar/
 ---
-## SectionBreakChar field
+## ControlChar.SectionBreakChar field
 
 End of section character: (char)12 or "\f".
 

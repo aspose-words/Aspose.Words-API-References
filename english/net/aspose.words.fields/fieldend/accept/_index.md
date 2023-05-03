@@ -1,13 +1,14 @@
 ---
 title: FieldEnd.Accept
 linktitle: Accept
+articleTitle: Accept
 second_title: Aspose.Words for .NET API Reference
 description: FieldEnd Accept method. Accepts a visitor in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldend/accept/
 ---
-## Accept method
+## FieldEnd.Accept method
 
 Accepts a visitor.
 

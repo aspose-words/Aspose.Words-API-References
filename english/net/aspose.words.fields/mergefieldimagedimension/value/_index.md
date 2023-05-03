@@ -1,13 +1,14 @@
 ---
 title: MergeFieldImageDimension.Value
 linktitle: Value
+articleTitle: Value
 second_title: Aspose.Words for .NET API Reference
 description: MergeFieldImageDimension Value property. The value in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/mergefieldimagedimension/value/
 ---
-## Value property
+## MergeFieldImageDimension.Value property
 
 The value.
 

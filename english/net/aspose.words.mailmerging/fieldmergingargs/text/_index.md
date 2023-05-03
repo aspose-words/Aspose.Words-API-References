@@ -1,13 +1,14 @@
 ---
 title: FieldMergingArgs.Text
 linktitle: Text
+articleTitle: Text
 second_title: Aspose.Words for .NET API Reference
 description: FieldMergingArgs Text property. Gets or sets the text that will be inserted into the document for the current merge field in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.mailmerging/fieldmergingargs/text/
 ---
-## Text property
+## FieldMergingArgs.Text property
 
 Gets or sets the text that will be inserted into the document for the current merge field.
 

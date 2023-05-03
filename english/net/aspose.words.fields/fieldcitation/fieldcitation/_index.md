@@ -1,6 +1,7 @@
 ---
 title: FieldCitation
 linktitle: FieldCitation
+articleTitle: FieldCitation
 second_title: Aspose.Words for .NET API Reference
 description: FieldCitation constructor. The default constructor in C#.
 type: docs

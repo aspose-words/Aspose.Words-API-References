@@ -1,13 +1,14 @@
 ---
 title: Paragraph.JoinRunsWithSameFormatting
 linktitle: JoinRunsWithSameFormatting
+articleTitle: JoinRunsWithSameFormatting
 second_title: Aspose.Words for .NET API Reference
 description: Paragraph JoinRunsWithSameFormatting method. Joins runs with the same formatting in the paragraph in C#.
 type: docs
 weight: 280
 url: /net/aspose.words/paragraph/joinrunswithsameformatting/
 ---
-## JoinRunsWithSameFormatting method
+## Paragraph.JoinRunsWithSameFormatting method
 
 Joins runs with the same formatting in the paragraph.
 

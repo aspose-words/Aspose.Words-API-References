@@ -1,13 +1,14 @@
 ---
 title: DocumentSavingArgs.EstimatedProgress
 linktitle: EstimatedProgress
+articleTitle: EstimatedProgress
 second_title: Aspose.Words for .NET API Reference
 description: DocumentSavingArgs EstimatedProgress property. Overall estimated percentage progress in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.saving/documentsavingargs/estimatedprogress/
 ---
-## EstimatedProgress property
+## DocumentSavingArgs.EstimatedProgress property
 
 Overall estimated percentage progress.
 

@@ -1,6 +1,7 @@
 ---
 title: ShapeLineStyle Enum
 linktitle: ShapeLineStyle
+articleTitle: ShapeLineStyle
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Drawing.ShapeLineStyle enum. Specifies the compound line style of a Shape in C#.
 type: docs
@@ -51,6 +52,7 @@ stroke.DashStyle = DashStyle.ShortDashDotDot;
 stroke.JoinStyle = JoinStyle.Miter;
 stroke.EndCap = EndCap.Square;
 stroke.LineStyle = ShapeLineStyle.Triple;
+stroke.Fill.TwoColorGradient(Color.Red, Color.Blue, GradientStyle.Vertical, GradientVariant.Variant1);
 
 doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 ```

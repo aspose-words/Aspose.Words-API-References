@@ -1,13 +1,14 @@
 ---
 title: ChartXValue.DateTimeValue
 linktitle: DateTimeValue
+articleTitle: DateTimeValue
 second_title: Aspose.Words for .NET API Reference
 description: ChartXValue DateTimeValue property. Gets the stored datetime value in C#.
 type: docs
 weight: 60
 url: /net/aspose.words.drawing.charts/chartxvalue/datetimevalue/
 ---
-## DateTimeValue property
+## ChartXValue.DateTimeValue property
 
 Gets the stored datetime value.
 

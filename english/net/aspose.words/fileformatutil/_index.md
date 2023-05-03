@@ -1,6 +1,7 @@
 ---
 title: FileFormatUtil Class
 linktitle: FileFormatUtil
+articleTitle: FileFormatUtil
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.FileFormatUtil class. Provides utility methods for working with file formats such as detecting file format or converting file extensions to/from file format enums in C#.
 type: docs

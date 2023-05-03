@@ -1,13 +1,14 @@
 ---
 title: KnownTypeSet.Add
 linktitle: Add
+articleTitle: Add
 second_title: Aspose.Words for .NET API Reference
 description: KnownTypeSet Add method. Adds the specified Type object to the set. Throws ArgumentException in the following cases in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.reporting/knowntypeset/add/
 ---
-## Add method
+## KnownTypeSet.Add method
 
 Adds the specified Type object to the set. Throws ArgumentException in the following cases:
 

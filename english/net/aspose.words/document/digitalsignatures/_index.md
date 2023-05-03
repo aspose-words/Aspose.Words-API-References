@@ -1,13 +1,14 @@
 ---
 title: Document.DigitalSignatures
 linktitle: DigitalSignatures
+articleTitle: DigitalSignatures
 second_title: Aspose.Words for .NET API Reference
 description: Document DigitalSignatures property. Gets the collection of digital signatures for this document and their validation results in C#.
 type: docs
 weight: 100
 url: /net/aspose.words/document/digitalsignatures/
 ---
-## DigitalSignatures property
+## Document.DigitalSignatures property
 
 Gets the collection of digital signatures for this document and their validation results.
 

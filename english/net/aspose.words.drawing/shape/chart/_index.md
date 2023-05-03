@@ -1,13 +1,14 @@
 ---
 title: Shape.Chart
 linktitle: Chart
+articleTitle: Chart
 second_title: Aspose.Words for .NET API Reference
 description: Shape Chart property. Provides access to the chart properties if this shape has a Chart in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing/shape/chart/
 ---
-## Chart property
+## Shape.Chart property
 
 Provides access to the chart properties if this shape has a [`Chart`](../../../aspose.words.drawing.charts/chart/).
 

@@ -1,13 +1,14 @@
 ---
 title: GlossaryDocument.Accept
 linktitle: Accept
+articleTitle: Accept
 second_title: Aspose.Words for .NET API Reference
 description: GlossaryDocument Accept method. Accepts a visitor in C#.
 type: docs
 weight: 60
 url: /net/aspose.words.buildingblocks/glossarydocument/accept/
 ---
-## Accept method
+## GlossaryDocument.Accept method
 
 Accepts a visitor.
 

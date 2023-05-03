@@ -1,13 +1,14 @@
 ---
 title: BarcodeParameters.BackgroundColor
 linktitle: BackgroundColor
+articleTitle: BackgroundColor
 second_title: Aspose.Words for .NET API Reference
 description: BarcodeParameters BackgroundColor property. Bar code background color 0x000000  0xFFFFFF in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/barcodeparameters/backgroundcolor/
 ---
-## BackgroundColor property
+## BarcodeParameters.BackgroundColor property
 
 Bar code background color (0x000000 - 0xFFFFFF)
 

@@ -1,13 +1,14 @@
 ---
 title: List.IsRestartAtEachSection
 linktitle: IsRestartAtEachSection
+articleTitle: IsRestartAtEachSection
 second_title: Aspose.Words for .NET API Reference
 description: List IsRestartAtEachSection property. Specifies whether list should be restarted at each section. Default value is false in C#.
 type: docs
 weight: 50
 url: /net/aspose.words.lists/list/isrestartateachsection/
 ---
-## IsRestartAtEachSection property
+## List.IsRestartAtEachSection property
 
 Specifies whether list should be restarted at each section. Default value is `false`.
 

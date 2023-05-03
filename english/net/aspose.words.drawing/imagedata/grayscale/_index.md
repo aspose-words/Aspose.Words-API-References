@@ -1,13 +1,14 @@
 ---
 title: ImageData.GrayScale
 linktitle: GrayScale
+articleTitle: GrayScale
 second_title: Aspose.Words for .NET API Reference
 description: ImageData GrayScale property. Determines whether a picture will display in grayscale mode in C#.
 type: docs
 weight: 100
 url: /net/aspose.words.drawing/imagedata/grayscale/
 ---
-## GrayScale property
+## ImageData.GrayScale property
 
 Determines whether a picture will display in grayscale mode.
 

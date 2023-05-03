@@ -1,6 +1,7 @@
 ---
 title: FieldData
 linktitle: FieldData
+articleTitle: FieldData
 second_title: Aspose.Words for .NET API Reference
 description: FieldData constructor. The default constructor in C#.
 type: docs

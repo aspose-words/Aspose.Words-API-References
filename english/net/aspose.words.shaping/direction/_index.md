@@ -1,6 +1,7 @@
 ---
 title: Direction Enum
 linktitle: Direction
+articleTitle: Direction
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Shaping.Direction enum. Text direction in C#.
 type: docs

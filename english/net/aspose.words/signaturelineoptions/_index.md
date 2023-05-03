@@ -1,6 +1,7 @@
 ---
 title: SignatureLineOptions Class
 linktitle: SignatureLineOptions
+articleTitle: SignatureLineOptions
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.SignatureLineOptions class. Allows to specify options for signature line being inserted. Used in DocumentBuilder in C#.
 type: docs

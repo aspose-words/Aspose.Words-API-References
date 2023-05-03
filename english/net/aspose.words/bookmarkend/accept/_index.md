@@ -1,13 +1,14 @@
 ---
 title: BookmarkEnd.Accept
 linktitle: Accept
+articleTitle: Accept
 second_title: Aspose.Words for .NET API Reference
 description: BookmarkEnd Accept method. Accepts a visitor in C#.
 type: docs
 weight: 40
 url: /net/aspose.words/bookmarkend/accept/
 ---
-## Accept method
+## BookmarkEnd.Accept method
 
 Accepts a visitor.
 

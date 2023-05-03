@@ -1,13 +1,14 @@
 ---
 title: Table.Bidi
 linktitle: Bidi
+articleTitle: Bidi
 second_title: Aspose.Words for .NET API Reference
 description: Table Bidi property. Gets or sets whether this is a righttoleft table in C#.
 type: docs
 weight: 80
 url: /net/aspose.words.tables/table/bidi/
 ---
-## Bidi property
+## Table.Bidi property
 
 Gets or sets whether this is a right-to-left table.
 

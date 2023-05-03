@@ -1,13 +1,14 @@
 ---
 title: FieldImport.SourceFullName
 linktitle: SourceFullName
+articleTitle: SourceFullName
 second_title: Aspose.Words for .NET API Reference
 description: FieldImport SourceFullName property. Gets or sets the location of the picture in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldimport/sourcefullname/
 ---
-## SourceFullName property
+## FieldImport.SourceFullName property
 
 Gets or sets the location of the picture.
 

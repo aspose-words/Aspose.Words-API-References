@@ -1,13 +1,14 @@
 ---
 title: PdfLoadOptions.PageCount
 linktitle: PageCount
+articleTitle: PageCount
 second_title: Aspose.Words for .NET API Reference
 description: PdfLoadOptions PageCount property. Gets or sets the number of pages to read. Default is MaxValue which means all pages of the document will be read in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.loading/pdfloadoptions/pagecount/
 ---
-## PageCount property
+## PdfLoadOptions.PageCount property
 
 Gets or sets the number of pages to read. Default is MaxValue which means all pages of the document will be read.
 

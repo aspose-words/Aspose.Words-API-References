@@ -1,6 +1,7 @@
 ---
 title: SystemFontSource Class
 linktitle: SystemFontSource
+articleTitle: SystemFontSource
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fonts.SystemFontSource class. Represents all TrueType fonts installed to the system in C#.
 type: docs

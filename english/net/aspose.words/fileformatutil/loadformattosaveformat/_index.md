@@ -1,13 +1,14 @@
 ---
 title: FileFormatUtil.LoadFormatToSaveFormat
 linktitle: LoadFormatToSaveFormat
+articleTitle: LoadFormatToSaveFormat
 second_title: Aspose.Words for .NET API Reference
 description: FileFormatUtil LoadFormatToSaveFormat method. Converts a LoadFormat value to a SaveFormat value if possible in C#.
 type: docs
 weight: 70
 url: /net/aspose.words/fileformatutil/loadformattosaveformat/
 ---
-## LoadFormatToSaveFormat method
+## FileFormatUtil.LoadFormatToSaveFormat method
 
 Converts a [`LoadFormat`](../../loadformat/) value to a [`SaveFormat`](../../saveformat/) value if possible.
 

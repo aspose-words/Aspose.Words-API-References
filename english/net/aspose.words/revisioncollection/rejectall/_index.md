@@ -1,13 +1,14 @@
 ---
 title: RevisionCollection.RejectAll
 linktitle: RejectAll
+articleTitle: RejectAll
 second_title: Aspose.Words for .NET API Reference
 description: RevisionCollection RejectAll method. Rejects all revisions in this collection in C#.
 type: docs
 weight: 60
 url: /net/aspose.words/revisioncollection/rejectall/
 ---
-## RejectAll method
+## RevisionCollection.RejectAll method
 
 Rejects all revisions in this collection.
 

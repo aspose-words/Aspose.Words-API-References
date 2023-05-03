@@ -1,13 +1,14 @@
 ---
 title: FieldStart.Accept
 linktitle: Accept
+articleTitle: Accept
 second_title: Aspose.Words for .NET API Reference
 description: FieldStart Accept method. Accepts a visitor in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/fieldstart/accept/
 ---
-## Accept method
+## FieldStart.Accept method
 
 Accepts a visitor.
 

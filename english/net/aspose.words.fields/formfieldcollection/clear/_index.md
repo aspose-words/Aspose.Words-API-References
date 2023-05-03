@@ -1,13 +1,14 @@
 ---
 title: FormFieldCollection.Clear
 linktitle: Clear
+articleTitle: Clear
 second_title: Aspose.Words for .NET API Reference
 description: FormFieldCollection Clear method. Removes all form fields from this collection and from the document in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/formfieldcollection/clear/
 ---
-## Clear method
+## FormFieldCollection.Clear method
 
 Removes all form fields from this collection and from the document.
 

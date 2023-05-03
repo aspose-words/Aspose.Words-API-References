@@ -1,13 +1,14 @@
 ---
 title: DocumentVisitor.VisitCommentRangeEnd
 linktitle: VisitCommentRangeEnd
+articleTitle: VisitCommentRangeEnd
 second_title: Aspose.Words for .NET API Reference
 description: DocumentVisitor VisitCommentRangeEnd method. Called when the end of a commented range of text is encountered in C#.
 type: docs
 weight: 110
 url: /net/aspose.words/documentvisitor/visitcommentrangeend/
 ---
-## VisitCommentRangeEnd method
+## DocumentVisitor.VisitCommentRangeEnd method
 
 Called when the end of a commented range of text is encountered.
 

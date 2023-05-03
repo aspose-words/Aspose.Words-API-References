@@ -1,13 +1,14 @@
 ---
 title: Stroke.LineStyle
 linktitle: LineStyle
+articleTitle: LineStyle
 second_title: Aspose.Words for .NET API Reference
 description: Stroke LineStyle property. Defines the line style of the stroke in C#.
 type: docs
 weight: 130
 url: /net/aspose.words.drawing/stroke/linestyle/
 ---
-## LineStyle property
+## Stroke.LineStyle property
 
 Defines the line style of the stroke.
 
@@ -44,6 +45,7 @@ stroke.DashStyle = DashStyle.ShortDashDotDot;
 stroke.JoinStyle = JoinStyle.Miter;
 stroke.EndCap = EndCap.Square;
 stroke.LineStyle = ShapeLineStyle.Triple;
+stroke.Fill.TwoColorGradient(Color.Red, Color.Blue, GradientStyle.Vertical, GradientVariant.Variant1);
 
 doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 ```

@@ -1,13 +1,14 @@
 ---
 title: BuiltInDocumentProperties.LinksUpToDate
 linktitle: LinksUpToDate
+articleTitle: LinksUpToDate
 second_title: Aspose.Words for .NET API Reference
 description: BuiltInDocumentProperties LinksUpToDate property. Indicates whether hyperlinks in a document are uptodate in C#.
 type: docs
 weight: 190
 url: /net/aspose.words.properties/builtindocumentproperties/linksuptodate/
 ---
-## LinksUpToDate property
+## BuiltInDocumentProperties.LinksUpToDate property
 
 Indicates whether hyperlinks in a document are up-to-date.
 

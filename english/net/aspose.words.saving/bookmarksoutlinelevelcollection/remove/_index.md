@@ -1,13 +1,14 @@
 ---
 title: BookmarksOutlineLevelCollection.Remove
 linktitle: Remove
+articleTitle: Remove
 second_title: Aspose.Words for .NET API Reference
 description: BookmarksOutlineLevelCollection Remove method. Removes a bookmark with the specified name from the collection in C#.
 type: docs
 weight: 90
 url: /net/aspose.words.saving/bookmarksoutlinelevelcollection/remove/
 ---
-## Remove method
+## BookmarksOutlineLevelCollection.Remove method
 
 Removes a bookmark with the specified name from the collection.
 

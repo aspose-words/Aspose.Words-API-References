@@ -1,13 +1,14 @@
 ---
 title: IFieldMergingCallback.FieldMerging
 linktitle: FieldMerging
+articleTitle: FieldMerging
 second_title: Aspose.Words for .NET API Reference
 description: IFieldMergingCallback FieldMerging method. Called when the Aspose.Words mail merge engine is about to insert data into a merge field in the document in C#.
 type: docs
 weight: 10
 url: /net/aspose.words.mailmerging/ifieldmergingcallback/fieldmerging/
 ---
-## FieldMerging method
+## IFieldMergingCallback.FieldMerging method
 
 Called when the Aspose.Words mail merge engine is about to insert data into a merge field in the document.
 

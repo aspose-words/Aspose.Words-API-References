@@ -1,13 +1,14 @@
 ---
 title: StructuredDocumentTagRangeStart.ChildNodes
 linktitle: ChildNodes
+articleTitle: ChildNodes
 second_title: Aspose.Words for .NET API Reference
 description: StructuredDocumentTagRangeStart ChildNodes property. Gets all nodes between this range start node and the range end node in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.markup/structureddocumenttagrangestart/childnodes/
 ---
-## ChildNodes property
+## StructuredDocumentTagRangeStart.ChildNodes property
 
 Gets all nodes between this range start node and the range end node.
 

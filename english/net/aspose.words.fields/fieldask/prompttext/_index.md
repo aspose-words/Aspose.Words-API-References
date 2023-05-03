@@ -1,13 +1,14 @@
 ---
 title: FieldAsk.PromptText
 linktitle: PromptText
+articleTitle: PromptText
 second_title: Aspose.Words for .NET API Reference
 description: FieldAsk PromptText property. Gets or sets the prompt text the title of the prompt window in C#.
 type: docs
 weight: 50
 url: /net/aspose.words.fields/fieldask/prompttext/
 ---
-## PromptText property
+## FieldAsk.PromptText property
 
 Gets or sets the prompt text (the title of the prompt window).
 

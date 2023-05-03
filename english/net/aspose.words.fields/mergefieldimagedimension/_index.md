@@ -1,6 +1,7 @@
 ---
 title: MergeFieldImageDimension Class
 linktitle: MergeFieldImageDimension
+articleTitle: MergeFieldImageDimension
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.MergeFieldImageDimension class. Represents an image dimension i.e. the width or the height used across a mail merge process in C#.
 type: docs

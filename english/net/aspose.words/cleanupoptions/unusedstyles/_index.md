@@ -1,13 +1,14 @@
 ---
 title: CleanupOptions.UnusedStyles
 linktitle: UnusedStyles
+articleTitle: UnusedStyles
 second_title: Aspose.Words for .NET API Reference
 description: CleanupOptions UnusedStyles property. Specifies whether unused styles should be removed from document. Default value is true in C#.
 type: docs
 weight: 50
 url: /net/aspose.words/cleanupoptions/unusedstyles/
 ---
-## UnusedStyles property
+## CleanupOptions.UnusedStyles property
 
 Specifies whether unused styles should be removed from document. Default value is `true`.
 

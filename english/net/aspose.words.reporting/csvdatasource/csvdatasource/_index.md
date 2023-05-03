@@ -1,6 +1,7 @@
 ---
 title: CsvDataSource
 linktitle: CsvDataSource
+articleTitle: CsvDataSource
 second_title: Aspose.Words for .NET API Reference
 description: CsvDataSource constructor. Creates a new data source with data from a CSV file using default options for parsing CSV data in C#.
 type: docs

@@ -1,6 +1,7 @@
 ---
 title: GeneralFormatCollection.Item
 linktitle: Item
+articleTitle: Item
 second_title: Aspose.Words for .NET API Reference
 description: GeneralFormatCollection Item property. Gets a general format at the specified index in C#.
 type: docs

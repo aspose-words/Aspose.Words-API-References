@@ -1,6 +1,7 @@
 ---
 title: FieldFillIn Class
 linktitle: FieldFillIn
+articleTitle: FieldFillIn
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FieldFillIn class. Implements the FILLIN field in C#.
 type: docs

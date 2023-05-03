@@ -1,6 +1,7 @@
 ---
 title: StructuredDocumentTagRangeEnd Class
 linktitle: StructuredDocumentTagRangeEnd
+articleTitle: StructuredDocumentTagRangeEnd
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Markup.StructuredDocumentTagRangeEnd class. Represents an end of ranged structured document tag which accepts multisections content. See also StructuredDocumentTagRangeStart node in C#.
 type: docs

@@ -1,13 +1,14 @@
 ---
 title: ChartXValue.FromDouble
 linktitle: FromDouble
+articleTitle: FromDouble
 second_title: Aspose.Words for .NET API Reference
 description: ChartXValue FromDouble method. Creates a ChartXValue instance of the Double type in C#.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing.charts/chartxvalue/fromdouble/
 ---
-## FromDouble method
+## ChartXValue.FromDouble method
 
 Creates a [`ChartXValue`](../) instance of the Double type.
 

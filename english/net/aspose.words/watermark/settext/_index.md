@@ -1,6 +1,7 @@
 ---
 title: Watermark.SetText
 linktitle: SetText
+articleTitle: SetText
 second_title: Aspose.Words for .NET API Reference
 description: Watermark SetText method. Adds Text watermark into the document in C#.
 type: docs

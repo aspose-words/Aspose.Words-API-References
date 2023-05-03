@@ -1,13 +1,14 @@
 ---
 title: Fill.GradientStyle
 linktitle: GradientStyle
+articleTitle: GradientStyle
 second_title: Aspose.Words for .NET API Reference
 description: Fill GradientStyle property. Gets the gradient style GradientStyle for the fill in C#.
 type: docs
 weight: 100
 url: /net/aspose.words.drawing/fill/gradientstyle/
 ---
-## GradientStyle property
+## Fill.GradientStyle property
 
 Gets the gradient style [`GradientStyle`](../../gradientstyle/) for the fill.
 

@@ -1,6 +1,7 @@
 ---
 title: FieldCreateDate Class
 linktitle: FieldCreateDate
+articleTitle: FieldCreateDate
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FieldCreateDate class. Implements the CREATEDATE field in C#.
 type: docs

@@ -1,13 +1,14 @@
 ---
 title: SignatureLineOptions.Email
 linktitle: Email
+articleTitle: Email
 second_title: Aspose.Words for .NET API Reference
 description: SignatureLineOptions Email property. Gets or sets suggested signers email address. Default value for this property is empty string Empty in C#.
 type: docs
 weight: 40
 url: /net/aspose.words/signaturelineoptions/email/
 ---
-## Email property
+## SignatureLineOptions.Email property
 
 Gets or sets suggested signer's e-mail address. Default value for this property is **empty string** (Empty).
 

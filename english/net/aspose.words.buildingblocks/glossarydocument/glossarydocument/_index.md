@@ -1,6 +1,7 @@
 ---
 title: GlossaryDocument
 linktitle: GlossaryDocument
+articleTitle: GlossaryDocument
 second_title: Aspose.Words for .NET API Reference
 description: GlossaryDocument constructor. The default constructor in C#.
 type: docs

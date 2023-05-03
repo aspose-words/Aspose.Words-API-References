@@ -1,13 +1,14 @@
 ---
 title: EditableRange.EditableRangeEnd
 linktitle: EditableRangeEnd
+articleTitle: EditableRangeEnd
 second_title: Aspose.Words for .NET API Reference
 description: EditableRange EditableRangeEnd property. Gets the node that represents the end of the editable range in C#.
 type: docs
 weight: 10
 url: /net/aspose.words/editablerange/editablerangeend/
 ---
-## EditableRangeEnd property
+## EditableRange.EditableRangeEnd property
 
 Gets the node that represents the end of the editable range.
 

@@ -1,13 +1,14 @@
 ---
 title: ConditionalStyle.Equals
 linktitle: Equals
+articleTitle: Equals
 second_title: Aspose.Words for .NET API Reference
 description: ConditionalStyle Equals method. Compares this conditional style with the specified object in C#.
 type: docs
 weight: 110
 url: /net/aspose.words/conditionalstyle/equals/
 ---
-## Equals method
+## ConditionalStyle.Equals method
 
 Compares this conditional style with the specified object.
 

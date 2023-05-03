@@ -1,6 +1,7 @@
 ---
 title: FieldCitation Class
 linktitle: FieldCitation
+articleTitle: FieldCitation
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Fields.FieldCitation class. Implements the CITATION field in C#.
 type: docs

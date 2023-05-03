@@ -1,13 +1,14 @@
 ---
 title: Paragraph.IsEndOfHeaderFooter
 linktitle: IsEndOfHeaderFooter
+articleTitle: IsEndOfHeaderFooter
 second_title: Aspose.Words for .NET API Reference
 description: Paragraph IsEndOfHeaderFooter property. True if this paragraph is the last paragraph in the HeaderFooter main text story of a Section false otherwise in C#.
 type: docs
 weight: 70
 url: /net/aspose.words/paragraph/isendofheaderfooter/
 ---
-## IsEndOfHeaderFooter property
+## Paragraph.IsEndOfHeaderFooter property
 
 True if this paragraph is the last paragraph in the [`HeaderFooter`](../../headerfooter/) (main text story) of a [`Section`](../../section/); false otherwise.
 

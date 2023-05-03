@@ -1,13 +1,14 @@
 ---
 title: PageSetup.CharactersPerLine
 linktitle: CharactersPerLine
+articleTitle: CharactersPerLine
 second_title: Aspose.Words for .NET API Reference
 description: PageSetup CharactersPerLine property. Gets or sets the number of characters per line in the document grid in C#.
 type: docs
 weight: 100
 url: /net/aspose.words/pagesetup/charactersperline/
 ---
-## CharactersPerLine property
+## PageSetup.CharactersPerLine property
 
 Gets or sets the number of characters per line in the document grid.
 

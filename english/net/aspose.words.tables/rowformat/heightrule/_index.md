@@ -1,13 +1,14 @@
 ---
 title: RowFormat.HeightRule
 linktitle: HeightRule
+articleTitle: HeightRule
 second_title: Aspose.Words for .NET API Reference
 description: RowFormat HeightRule property. Gets or sets the rule for determining the height of the table row in C#.
 type: docs
 weight: 50
 url: /net/aspose.words.tables/rowformat/heightrule/
 ---
-## HeightRule property
+## RowFormat.HeightRule property
 
 Gets or sets the rule for determining the height of the table row.
 

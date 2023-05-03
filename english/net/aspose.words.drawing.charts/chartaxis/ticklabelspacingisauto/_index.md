@@ -1,13 +1,14 @@
 ---
 title: ChartAxis.TickLabelSpacingIsAuto
 linktitle: TickLabelSpacingIsAuto
+articleTitle: TickLabelSpacingIsAuto
 second_title: Aspose.Words for .NET API Reference
 description: ChartAxis TickLabelSpacingIsAuto property. Gets or sets a flag indicating whether automatic interval of drawing tick labels shall be used in C#.
 type: docs
 weight: 260
 url: /net/aspose.words.drawing.charts/chartaxis/ticklabelspacingisauto/
 ---
-## TickLabelSpacingIsAuto property
+## ChartAxis.TickLabelSpacingIsAuto property
 
 Gets or sets a flag indicating whether automatic interval of drawing tick labels shall be used.
 

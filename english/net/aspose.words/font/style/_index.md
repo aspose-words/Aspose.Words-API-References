@@ -1,13 +1,14 @@
 ---
 title: Font.Style
 linktitle: Style
+articleTitle: Style
 second_title: Aspose.Words for .NET API Reference
 description: Font Style property. Gets or sets the character style applied to this formatting in C#.
 type: docs
 weight: 400
 url: /net/aspose.words/font/style/
 ---
-## Style property
+## Font.Style property
 
 Gets or sets the character style applied to this formatting.
 

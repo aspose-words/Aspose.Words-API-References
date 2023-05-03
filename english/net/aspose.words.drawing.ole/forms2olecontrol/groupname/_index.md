@@ -1,13 +1,14 @@
 ---
 title: Forms2OleControl.GroupName
 linktitle: GroupName
+articleTitle: GroupName
 second_title: Aspose.Words for .NET API Reference
 description: Forms2OleControl GroupName property. Gets or sets a string that specifies a group of mutually exclusive controls. The default value is an empty string in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.drawing.ole/forms2olecontrol/groupname/
 ---
-## GroupName property
+## Forms2OleControl.GroupName property
 
 Gets or sets a string that specifies a group of mutually exclusive controls. The default value is an empty string.
 

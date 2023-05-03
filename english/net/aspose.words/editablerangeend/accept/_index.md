@@ -1,13 +1,14 @@
 ---
 title: EditableRangeEnd.Accept
 linktitle: Accept
+articleTitle: Accept
 second_title: Aspose.Words for .NET API Reference
 description: EditableRangeEnd Accept method. Accepts a visitor in C#.
 type: docs
 weight: 40
 url: /net/aspose.words/editablerangeend/accept/
 ---
-## Accept method
+## EditableRangeEnd.Accept method
 
 Accepts a visitor.
 

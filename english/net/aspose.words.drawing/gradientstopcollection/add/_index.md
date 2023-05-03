@@ -1,13 +1,14 @@
 ---
 title: GradientStopCollection.Add
 linktitle: Add
+articleTitle: Add
 second_title: Aspose.Words for .NET API Reference
 description: GradientStopCollection Add method. Adds a specified GradientStop to a gradient in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.drawing/gradientstopcollection/add/
 ---
-## Add method
+## GradientStopCollection.Add method
 
 Adds a specified [`GradientStop`](../../gradientstop/) to a gradient.
 
@@ -29,8 +30,8 @@ shape.Fill.TwoColorGradient(Color.Green, Color.Red, GradientStyle.Horizontal, Gr
 // Get gradient stops collection.
 GradientStopCollection gradientStops = shape.Fill.GradientStops;
 
-// Change first gradient stop.
-gradientStops[0].Color = Color.Aqua;
+// Change first gradient stop.            
+gradientStops[0].Color = Color.Aqua;            
 gradientStops[0].Position = 0.1;
 gradientStops[0].Transparency = 0.25;
 
@@ -49,6 +50,7 @@ gradientStops.Remove(gradientStop);
 
 Assert.AreEqual(2, gradientStops.Count);
 
+Assert.AreEqual(Color.FromArgb(255, 0, 255, 255), gradientStops[0].BaseColor);
 Assert.AreEqual(Color.Aqua.ToArgb(), gradientStops[0].Color.ToArgb());
 Assert.AreEqual(0.1d, gradientStops[0].Position, 0.01d);
 Assert.AreEqual(0.25d, gradientStops[0].Transparency, 0.01d);

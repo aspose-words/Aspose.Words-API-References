@@ -1,13 +1,14 @@
 ---
 title: ComparisonEvaluationResult.Result
 linktitle: Result
+articleTitle: Result
 second_title: Aspose.Words for .NET API Reference
 description: ComparisonEvaluationResult Result property. Gets the comparison evaluation result in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/comparisonevaluationresult/result/
 ---
-## Result property
+## ComparisonEvaluationResult.Result property
 
 Gets the comparison evaluation result.
 

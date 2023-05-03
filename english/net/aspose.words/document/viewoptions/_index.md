@@ -1,13 +1,14 @@
 ---
 title: Document.ViewOptions
 linktitle: ViewOptions
+articleTitle: ViewOptions
 second_title: Aspose.Words for .NET API Reference
 description: Document ViewOptions property. Provides options to control how the document is displayed in Microsoft Word in C#.
 type: docs
 weight: 470
 url: /net/aspose.words/document/viewoptions/
 ---
-## ViewOptions property
+## Document.ViewOptions property
 
 Provides options to control how the document is displayed in Microsoft Word.
 

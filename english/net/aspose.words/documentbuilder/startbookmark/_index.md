@@ -1,13 +1,14 @@
 ---
 title: DocumentBuilder.StartBookmark
 linktitle: StartBookmark
+articleTitle: StartBookmark
 second_title: Aspose.Words for .NET API Reference
 description: DocumentBuilder StartBookmark method. Marks the current position in the document as a bookmark start in C#.
 type: docs
 weight: 610
 url: /net/aspose.words/documentbuilder/startbookmark/
 ---
-## StartBookmark method
+## DocumentBuilder.StartBookmark method
 
 Marks the current position in the document as a bookmark start.
 

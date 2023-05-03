@@ -1,13 +1,14 @@
 ---
 title: GraphicsQualityOptions.UseTileFlipMode
 linktitle: UseTileFlipMode
+articleTitle: UseTileFlipMode
 second_title: Aspose.Words for .NET API Reference
 description: GraphicsQualityOptions UseTileFlipMode property. Gets or sets a flag indicating whether WrapMode is TileFlipXY in C#.
 type: docs
 weight: 80
 url: /net/aspose.words.saving/graphicsqualityoptions/usetileflipmode/
 ---
-## UseTileFlipMode property
+## GraphicsQualityOptions.UseTileFlipMode property
 
 Gets or sets a flag indicating whether WrapMode is TileFlipXY.
 

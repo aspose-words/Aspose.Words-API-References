@@ -1,13 +1,14 @@
 ---
 title: TextPath.RotateLetters
 linktitle: RotateLetters
+articleTitle: RotateLetters
 second_title: Aspose.Words for .NET API Reference
 description: TextPath RotateLetters property. Determines whether the letters of the text are rotated in C#.
 type: docs
 weight: 90
 url: /net/aspose.words.drawing/textpath/rotateletters/
 ---
-## RotateLetters property
+## TextPath.RotateLetters property
 
 Determines whether the letters of the text are rotated.
 

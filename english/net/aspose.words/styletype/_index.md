@@ -1,6 +1,7 @@
 ---
 title: StyleType Enum
 linktitle: StyleType
+articleTitle: StyleType
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.StyleType enum. Represents type of the style in C#.
 type: docs

@@ -1,6 +1,7 @@
 ---
 title: ListCollection.Add
 linktitle: Add
+articleTitle: Add
 second_title: Aspose.Words for .NET API Reference
 description: ListCollection Add method. Creates a new list based on a predefined template and adds it to the collection of lists in the document in C#.
 type: docs

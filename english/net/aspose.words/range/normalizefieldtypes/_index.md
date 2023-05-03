@@ -1,13 +1,14 @@
 ---
 title: Range.NormalizeFieldTypes
 linktitle: NormalizeFieldTypes
+articleTitle: NormalizeFieldTypes
 second_title: Aspose.Words for .NET API Reference
 description: Range NormalizeFieldTypes method. Changes field type values FieldType of FieldStart FieldSeparator FieldEnd in this range so that they correspond to the field types contained in the field codes in C#.
 type: docs
 weight: 80
 url: /net/aspose.words/range/normalizefieldtypes/
 ---
-## NormalizeFieldTypes method
+## Range.NormalizeFieldTypes method
 
 Changes field type values [`FieldType`](../../../aspose.words.fields/fieldchar/fieldtype/) of [`FieldStart`](../../../aspose.words.fields/fieldstart/), [`FieldSeparator`](../../../aspose.words.fields/fieldseparator/), [`FieldEnd`](../../../aspose.words.fields/fieldend/) in this range so that they correspond to the field types contained in the field codes.
 

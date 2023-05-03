@@ -1,13 +1,14 @@
 ---
 title: PageSetup.BorderSurroundsFooter
 linktitle: BorderSurroundsFooter
+articleTitle: BorderSurroundsFooter
 second_title: Aspose.Words for .NET API Reference
 description: PageSetup BorderSurroundsFooter property. Specifies whether the page border includes or excludes the footer in C#.
 type: docs
 weight: 60
 url: /net/aspose.words/pagesetup/bordersurroundsfooter/
 ---
-## BorderSurroundsFooter property
+## PageSetup.BorderSurroundsFooter property
 
 Specifies whether the page border includes or excludes the footer.
 

@@ -1,6 +1,7 @@
 ---
 title: FieldEQ
 linktitle: FieldEQ
+articleTitle: FieldEQ
 second_title: Aspose.Words for .NET API Reference
 description: FieldEQ constructor. The default constructor in C#.
 type: docs

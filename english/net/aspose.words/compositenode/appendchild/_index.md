@@ -1,13 +1,14 @@
 ---
 title: CompositeNode.AppendChild
 linktitle: AppendChild
+articleTitle: AppendChild
 second_title: Aspose.Words for .NET API Reference
 description: CompositeNode AppendChild method. Adds the specified node to the end of the list of child nodes for this node in C#.
 type: docs
 weight: 70
 url: /net/aspose.words/compositenode/appendchild/
 ---
-## AppendChild method
+## CompositeNode.AppendChild method
 
 Adds the specified node to the end of the list of child nodes for this node.
 

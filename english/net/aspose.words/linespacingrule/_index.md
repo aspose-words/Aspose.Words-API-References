@@ -1,6 +1,7 @@
 ---
 title: LineSpacingRule Enum
 linktitle: LineSpacingRule
+articleTitle: LineSpacingRule
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.LineSpacingRule enum. Specifies line spacing values for a paragraph in C#.
 type: docs

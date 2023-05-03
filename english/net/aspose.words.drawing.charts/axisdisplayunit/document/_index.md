@@ -1,13 +1,14 @@
 ---
 title: AxisDisplayUnit.Document
 linktitle: Document
+articleTitle: Document
 second_title: Aspose.Words for .NET API Reference
 description: AxisDisplayUnit Document property. Returns the Document the title holder belongs in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.drawing.charts/axisdisplayunit/document/
 ---
-## Document property
+## AxisDisplayUnit.Document property
 
 Returns the Document the title holder belongs.
 

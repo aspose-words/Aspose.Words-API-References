@@ -1,6 +1,7 @@
 ---
 title: CustomXmlPartCollection.Add
 linktitle: Add
+articleTitle: Add
 second_title: Aspose.Words for .NET API Reference
 description: CustomXmlPartCollection Add method. Adds an item to the collection in C#.
 type: docs

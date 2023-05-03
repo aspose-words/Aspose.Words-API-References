@@ -1,13 +1,14 @@
 ---
 title: BuiltInDocumentProperties.ContentType
 linktitle: ContentType
+articleTitle: ContentType
 second_title: Aspose.Words for .NET API Reference
 description: BuiltInDocumentProperties ContentType property. Gets or sets the ContentType of the document in C#.
 type: docs
 weight: 90
 url: /net/aspose.words.properties/builtindocumentproperties/contenttype/
 ---
-## ContentType property
+## BuiltInDocumentProperties.ContentType property
 
 Gets or sets the ContentType of the document.
 

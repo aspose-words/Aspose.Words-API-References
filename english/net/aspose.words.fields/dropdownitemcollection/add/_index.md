@@ -1,13 +1,14 @@
 ---
 title: DropDownItemCollection.Add
 linktitle: Add
+articleTitle: Add
 second_title: Aspose.Words for .NET API Reference
 description: DropDownItemCollection Add method. Adds a string to the end of the collection in C#.
 type: docs
 weight: 30
 url: /net/aspose.words.fields/dropdownitemcollection/add/
 ---
-## Add method
+## DropDownItemCollection.Add method
 
 Adds a string to the end of the collection.
 

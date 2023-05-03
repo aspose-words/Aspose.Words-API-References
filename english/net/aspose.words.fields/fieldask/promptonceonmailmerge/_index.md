@@ -1,13 +1,14 @@
 ---
 title: FieldAsk.PromptOnceOnMailMerge
 linktitle: PromptOnceOnMailMerge
+articleTitle: PromptOnceOnMailMerge
 second_title: Aspose.Words for .NET API Reference
 description: FieldAsk PromptOnceOnMailMerge property. Gets or sets whether the user response should be recieved once per a mail merge operation in C#.
 type: docs
 weight: 40
 url: /net/aspose.words.fields/fieldask/promptonceonmailmerge/
 ---
-## PromptOnceOnMailMerge property
+## FieldAsk.PromptOnceOnMailMerge property
 
 Gets or sets whether the user response should be recieved once per a mail merge operation.
 

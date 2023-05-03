@@ -1,13 +1,14 @@
 ---
 title: Story.AppendParagraph
 linktitle: AppendParagraph
+articleTitle: AppendParagraph
 second_title: Aspose.Words for .NET API Reference
 description: Story AppendParagraph method. A shortcut method that creates a Paragraph object with optional text and appends it to the end of this object in C#.
 type: docs
 weight: 60
 url: /net/aspose.words/story/appendparagraph/
 ---
-## AppendParagraph method
+## Story.AppendParagraph method
 
 A shortcut method that creates a [`Paragraph`](../../paragraph/) object with optional text and appends it to the end of this object.
 

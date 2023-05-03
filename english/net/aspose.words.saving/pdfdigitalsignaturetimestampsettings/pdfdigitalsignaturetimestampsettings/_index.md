@@ -1,6 +1,7 @@
 ---
 title: PdfDigitalSignatureTimestampSettings
 linktitle: PdfDigitalSignatureTimestampSettings
+articleTitle: PdfDigitalSignatureTimestampSettings
 second_title: Aspose.Words for .NET API Reference
 description: PdfDigitalSignatureTimestampSettings constructor. Initializes an instance of this class in C#.
 type: docs

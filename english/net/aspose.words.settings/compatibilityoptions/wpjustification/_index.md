@@ -1,13 +1,14 @@
 ---
 title: CompatibilityOptions.WPJustification
 linktitle: WPJustification
+articleTitle: WPJustification
 second_title: Aspose.Words for .NET API Reference
 description: CompatibilityOptions WPJustification property. Emulate WordPerfect 6.x Paragraph Justification in C#.
 type: docs
 weight: 690
 url: /net/aspose.words.settings/compatibilityoptions/wpjustification/
 ---
-## WPJustification property
+## CompatibilityOptions.WPJustification property
 
 Emulate WordPerfect 6.x Paragraph Justification.
 

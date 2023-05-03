@@ -1,13 +1,14 @@
 ---
 title: Shading.ForegroundTintAndShade
 linktitle: ForegroundTintAndShade
+articleTitle: ForegroundTintAndShade
 second_title: Aspose.Words for .NET API Reference
 description: Shading ForegroundTintAndShade property. Gets or sets a double value that lightens or darkens a foreground theme color in C#.
 type: docs
 weight: 60
 url: /net/aspose.words/shading/foregroundtintandshade/
 ---
-## ForegroundTintAndShade property
+## Shading.ForegroundTintAndShade property
 
 Gets or sets a double value that lightens or darkens a foreground theme color.
 

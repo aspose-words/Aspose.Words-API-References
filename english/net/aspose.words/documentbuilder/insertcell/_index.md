@@ -1,13 +1,14 @@
 ---
 title: DocumentBuilder.InsertCell
 linktitle: InsertCell
+articleTitle: InsertCell
 second_title: Aspose.Words for .NET API Reference
 description: DocumentBuilder InsertCell method. Inserts a table cell into the document in C#.
 type: docs
 weight: 270
 url: /net/aspose.words/documentbuilder/insertcell/
 ---
-## InsertCell method
+## DocumentBuilder.InsertCell method
 
 Inserts a table cell into the document.
 

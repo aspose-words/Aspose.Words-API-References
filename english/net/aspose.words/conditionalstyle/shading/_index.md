@@ -1,13 +1,14 @@
 ---
 title: ConditionalStyle.Shading
 linktitle: Shading
+articleTitle: Shading
 second_title: Aspose.Words for .NET API Reference
 description: ConditionalStyle Shading property. Gets a Shading object that refers to the shading formatting for this conditional style in C#.
 type: docs
 weight: 70
 url: /net/aspose.words/conditionalstyle/shading/
 ---
-## Shading property
+## ConditionalStyle.Shading property
 
 Gets a [`Shading`](../../shading/) object that refers to the shading formatting for this conditional style.
 

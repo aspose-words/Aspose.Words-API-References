@@ -1,6 +1,7 @@
 ---
 title: CellFormat Class
 linktitle: CellFormat
+articleTitle: CellFormat
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Tables.CellFormat class. Represents all formatting for a table cell in C#.
 type: docs

@@ -1,6 +1,7 @@
 ---
 title: SmartTag Class
 linktitle: SmartTag
+articleTitle: SmartTag
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.Markup.SmartTag class. This element specifies the presence of a smart tag around one or more inline structures runs images fieldsetc. within a paragraph in C#.
 type: docs

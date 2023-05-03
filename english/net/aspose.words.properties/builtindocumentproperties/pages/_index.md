@@ -1,13 +1,14 @@
 ---
 title: BuiltInDocumentProperties.Pages
 linktitle: Pages
+articleTitle: Pages
 second_title: Aspose.Words for .NET API Reference
 description: BuiltInDocumentProperties Pages property. Represents an estimate of the number of pages in the document in C#.
 type: docs
 weight: 220
 url: /net/aspose.words.properties/builtindocumentproperties/pages/
 ---
-## Pages property
+## BuiltInDocumentProperties.Pages property
 
 Represents an estimate of the number of pages in the document.
 

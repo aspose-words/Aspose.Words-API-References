@@ -1,6 +1,7 @@
 ---
 title: DocumentBuilder.Writeln
 linktitle: Writeln
+articleTitle: Writeln
 second_title: Aspose.Words for .NET API Reference
 description: DocumentBuilder Writeln method. Inserts a string and a paragraph break into the document in C#.
 type: docs

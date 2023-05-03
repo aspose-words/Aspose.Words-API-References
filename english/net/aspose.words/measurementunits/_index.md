@@ -1,6 +1,7 @@
 ---
 title: MeasurementUnits Enum
 linktitle: MeasurementUnits
+articleTitle: MeasurementUnits
 second_title: Aspose.Words for .NET API Reference
 description: Aspose.Words.MeasurementUnits enum. Specifies the unit of measurement in C#.
 type: docs
