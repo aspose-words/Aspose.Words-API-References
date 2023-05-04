@@ -2,7 +2,7 @@
 title: Table.AbsoluteHorizontalDistance
 linktitle: AbsoluteHorizontalDistance
 articleTitle: AbsoluteHorizontalDistance
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Table AbsoluteHorizontalDistance property. Gets or sets absolute horizontal floating table position specified by the table properties in points. Default value is 0 in C#.
 type: docs
 weight: 20

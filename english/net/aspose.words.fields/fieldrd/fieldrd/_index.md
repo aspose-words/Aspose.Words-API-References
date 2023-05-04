@@ -2,7 +2,7 @@
 title: FieldRD
 linktitle: FieldRD
 articleTitle: FieldRD
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldRD constructor. The default constructor in C#.
 type: docs
 weight: 10

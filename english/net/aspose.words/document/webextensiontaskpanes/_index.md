@@ -2,7 +2,7 @@
 title: Document.WebExtensionTaskPanes
 linktitle: WebExtensionTaskPanes
 articleTitle: WebExtensionTaskPanes
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Document WebExtensionTaskPanes property. Returns a collection that represents a list of task pane addins in C#.
 type: docs
 weight: 490

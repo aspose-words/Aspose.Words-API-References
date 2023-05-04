@@ -2,7 +2,7 @@
 title: Document.Cleanup
 linktitle: Cleanup
 articleTitle: Cleanup
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Document Cleanup method. Cleans unused styles and lists from the document in C#.
 type: docs
 weight: 540

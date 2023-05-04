@@ -2,7 +2,7 @@
 title: OdsoDataSourceType Enum
 linktitle: OdsoDataSourceType
 articleTitle: OdsoDataSourceType
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.Settings.OdsoDataSourceType enum. Specifies the type of the external data source to be connected to as part of the ODSO connection information in C#.
 type: docs
 weight: 5790

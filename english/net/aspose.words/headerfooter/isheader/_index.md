@@ -2,7 +2,7 @@
 title: HeaderFooter.IsHeader
 linktitle: IsHeader
 articleTitle: IsHeader
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: HeaderFooter IsHeader property. True if this HeaderFooter object is a header in C#.
 type: docs
 weight: 30

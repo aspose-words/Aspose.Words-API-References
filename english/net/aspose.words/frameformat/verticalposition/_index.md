@@ -2,7 +2,7 @@
 title: FrameFormat.VerticalPosition
 linktitle: VerticalPosition
 articleTitle: VerticalPosition
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FrameFormat VerticalPosition property. Gets vertical distance between the edge of the frame and the item specified by the RelativeVerticalPosition property in C#.
 type: docs
 weight: 110

@@ -2,7 +2,7 @@
 title: CleanupOptions
 linktitle: CleanupOptions
 articleTitle: CleanupOptions
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: CleanupOptions constructor. The default constructor in C#.
 type: docs
 weight: 10

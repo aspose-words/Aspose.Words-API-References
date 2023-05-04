@@ -2,7 +2,7 @@
 title: ListFormat.IsListItem
 linktitle: IsListItem
 articleTitle: IsListItem
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ListFormat IsListItem property. True when the paragraph has bulleted or numbered formatting applied to it in C#.
 type: docs
 weight: 10

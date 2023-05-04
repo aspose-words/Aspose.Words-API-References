@@ -2,7 +2,7 @@
 title: Font.StrikeThrough
 linktitle: StrikeThrough
 articleTitle: StrikeThrough
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Font StrikeThrough property. True if the font is formatted as strikethrough text in C#.
 type: docs
 weight: 390

@@ -2,7 +2,7 @@
 title: FieldTemplate
 linktitle: FieldTemplate
 articleTitle: FieldTemplate
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldTemplate constructor. The default constructor in C#.
 type: docs
 weight: 10

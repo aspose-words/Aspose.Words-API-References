@@ -2,7 +2,7 @@
 title: CustomXmlProperty
 linktitle: CustomXmlProperty
 articleTitle: CustomXmlProperty
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: CustomXmlProperty constructor. Initializes a new instance of this class in C#.
 type: docs
 weight: 10

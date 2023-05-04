@@ -2,7 +2,7 @@
 title: SvgSaveOptions.ShowPageBorder
 linktitle: ShowPageBorder
 articleTitle: ShowPageBorder
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: SvgSaveOptions ShowPageBorder property. Controls whether a border is added to the outline of the page. Default is true in C#.
 type: docs
 weight: 80

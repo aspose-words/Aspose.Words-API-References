@@ -2,7 +2,7 @@
 title: LayoutEnumerator
 linktitle: LayoutEnumerator
 articleTitle: LayoutEnumerator
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: LayoutEnumerator constructor. Initializes new instance of this class in C#.
 type: docs
 weight: 10

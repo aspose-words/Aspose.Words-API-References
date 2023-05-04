@@ -2,7 +2,7 @@
 title: HtmlSaveOptions.ImagesFolderAlias
 linktitle: ImagesFolderAlias
 articleTitle: ImagesFolderAlias
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: HtmlSaveOptions ImagesFolderAlias property. Specifies the name of the folder used to construct image URIs written into an HTML document. Default is an empty string in C#.
 type: docs
 weight: 380

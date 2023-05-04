@@ -2,7 +2,7 @@
 title: CompareOptions.IgnoreCaseChanges
 linktitle: IgnoreCaseChanges
 articleTitle: IgnoreCaseChanges
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: CompareOptions IgnoreCaseChanges property. True indicates that documents comparison is case insensitive. By default comparison is case sensitive in C#.
 type: docs
 weight: 40

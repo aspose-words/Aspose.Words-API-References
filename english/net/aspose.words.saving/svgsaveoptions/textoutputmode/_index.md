@@ -2,7 +2,7 @@
 title: SvgSaveOptions.TextOutputMode
 linktitle: TextOutputMode
 articleTitle: TextOutputMode
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: SvgSaveOptions TextOutputMode property. Gets or sets a value determining how text should be rendered in SVG in C#.
 type: docs
 weight: 90

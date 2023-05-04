@@ -2,7 +2,7 @@
 title: FieldMergeBarcode.BarcodeType
 linktitle: BarcodeType
 articleTitle: BarcodeType
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldMergeBarcode BarcodeType property. Gets or sets the barcode type QR etc in C#.
 type: docs
 weight: 40

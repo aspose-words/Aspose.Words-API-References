@@ -2,7 +2,7 @@
 title: Fill.Solid
 linktitle: Solid
 articleTitle: Solid
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Fill Solid method. Sets the fill to a uniform color in C#.
 type: docs
 weight: 240

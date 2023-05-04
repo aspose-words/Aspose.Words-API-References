@@ -2,7 +2,7 @@
 title: BuiltInDocumentProperties.Bytes
 linktitle: Bytes
 articleTitle: Bytes
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: BuiltInDocumentProperties Bytes property. Represents an estimate of the number of bytes in the document in C#.
 type: docs
 weight: 20

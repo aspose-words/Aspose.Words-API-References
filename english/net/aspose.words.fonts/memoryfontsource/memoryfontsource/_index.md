@@ -2,7 +2,7 @@
 title: MemoryFontSource
 linktitle: MemoryFontSource
 articleTitle: MemoryFontSource
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: MemoryFontSource constructor. Ctor in C#.
 type: docs
 weight: 10

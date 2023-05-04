@@ -2,7 +2,7 @@
 title: VbaModule.SourceCode
 linktitle: SourceCode
 articleTitle: SourceCode
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: VbaModule SourceCode property. Gets or sets VBA project module source code in C#.
 type: docs
 weight: 30

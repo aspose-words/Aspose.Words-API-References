@@ -2,7 +2,7 @@
 title: CommentRangeStart.NodeType
 linktitle: NodeType
 articleTitle: NodeType
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: CommentRangeStart NodeType property. Returns CommentRangeStart in C#.
 type: docs
 weight: 30

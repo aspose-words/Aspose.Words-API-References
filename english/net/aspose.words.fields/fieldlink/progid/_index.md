@@ -2,7 +2,7 @@
 title: FieldLink.ProgId
 linktitle: ProgId
 articleTitle: ProgId
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldLink ProgId property. Gets or sets the application type of the link information in C#.
 type: docs
 weight: 110

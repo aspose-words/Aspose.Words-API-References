@@ -2,7 +2,7 @@
 title: AxisBound.GetHashCode
 linktitle: GetHashCode
 articleTitle: GetHashCode
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: AxisBound GetHashCode method. Serves as a hash function for this type in C#.
 type: docs
 weight: 60

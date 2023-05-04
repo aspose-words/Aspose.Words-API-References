@@ -2,7 +2,7 @@
 title: Node.PreviousPreOrder
 linktitle: PreviousPreOrder
 articleTitle: PreviousPreOrder
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Node PreviousPreOrder method. Gets the previous node according to the preorder tree traversal algorithm in C#.
 type: docs
 weight: 140

@@ -2,7 +2,7 @@
 title: NodeRendererBase.RenderToScale
 linktitle: RenderToScale
 articleTitle: RenderToScale
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: NodeRendererBase RenderToScale method. Renders the shape into a Graphics object to a specified scale in C#.
 type: docs
 weight: 70

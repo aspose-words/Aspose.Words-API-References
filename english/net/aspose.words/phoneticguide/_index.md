@@ -2,7 +2,7 @@
 title: PhoneticGuide Class
 linktitle: PhoneticGuide
 articleTitle: PhoneticGuide
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.PhoneticGuide class. Represents Phonetic Guide in C#.
 type: docs
 weight: 4340

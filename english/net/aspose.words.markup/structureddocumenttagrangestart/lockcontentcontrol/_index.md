@@ -2,7 +2,7 @@
 title: StructuredDocumentTagRangeStart.LockContentControl
 linktitle: LockContentControl
 articleTitle: LockContentControl
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: StructuredDocumentTagRangeStart LockContentControl property. When set to true this property will prohibit a user from deleting this structured document tag in C#.
 type: docs
 weight: 80

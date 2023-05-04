@@ -2,7 +2,7 @@
 title: FieldMergingArgsBase.DocumentFieldName
 linktitle: DocumentFieldName
 articleTitle: DocumentFieldName
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldMergingArgsBase DocumentFieldName property. Gets the name of the merge field as specified in the document in C#.
 type: docs
 weight: 20

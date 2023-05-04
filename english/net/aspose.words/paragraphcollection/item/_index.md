@@ -2,7 +2,7 @@
 title: ParagraphCollection.Item
 linktitle: Item
 articleTitle: Item
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ParagraphCollection Item property. Retrieves a Paragraph at the given index in C#.
 type: docs
 weight: 10

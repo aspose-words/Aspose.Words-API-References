@@ -2,7 +2,7 @@
 title: ShapeBase.IsTopLevel
 linktitle: IsTopLevel
 articleTitle: IsTopLevel
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ShapeBase IsTopLevel property. Returns true if this shape is not a child of a group shape in C#.
 type: docs
 weight: 350

@@ -2,7 +2,7 @@
 title: Run.PhoneticGuide
 linktitle: PhoneticGuide
 articleTitle: PhoneticGuide
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Run PhoneticGuide property. Gets a PhoneticGuide object in C#.
 type: docs
 weight: 40

@@ -2,7 +2,7 @@
 title: ImageSavingArgs Class
 linktitle: ImageSavingArgs
 articleTitle: ImageSavingArgs
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.ImageSavingArgs class. Provides data for the ImageSaving event in C#.
 type: docs
 weight: 5150

@@ -2,7 +2,7 @@
 title: Forms2OleControl.ChildNodes
 linktitle: ChildNodes
 articleTitle: ChildNodes
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Forms2OleControl ChildNodes property. Gets collection of immediate child controls in C#.
 type: docs
 weight: 20

@@ -2,7 +2,7 @@
 title: FieldArgumentBuilder
 linktitle: FieldArgumentBuilder
 articleTitle: FieldArgumentBuilder
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldArgumentBuilder constructor. Initializes an instance of the FieldArgumentBuilder class in C#.
 type: docs
 weight: 10

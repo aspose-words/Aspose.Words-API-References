@@ -2,7 +2,7 @@
 title: FieldSymbol.DontAffectsLineSpacing
 linktitle: DontAffectsLineSpacing
 articleTitle: DontAffectsLineSpacing
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldSymbol DontAffectsLineSpacing property. Gets or sets whether the character retrieved by the field affects the line spacing of the paragraph in C#.
 type: docs
 weight: 30

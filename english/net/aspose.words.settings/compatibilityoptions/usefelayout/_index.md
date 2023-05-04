@@ -2,7 +2,7 @@
 title: CompatibilityOptions.UseFELayout
 linktitle: UseFELayout
 articleTitle: UseFELayout
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: CompatibilityOptions UseFELayout property. Do Not Bypass East Asian/Complex Script Layout Code in C#.
 type: docs
 weight: 620

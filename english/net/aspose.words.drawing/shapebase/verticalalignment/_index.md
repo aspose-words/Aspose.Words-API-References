@@ -2,7 +2,7 @@
 title: ShapeBase.VerticalAlignment
 linktitle: VerticalAlignment
 articleTitle: VerticalAlignment
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ShapeBase VerticalAlignment property. Specifies how the shape is positioned vertically in C#.
 type: docs
 weight: 560

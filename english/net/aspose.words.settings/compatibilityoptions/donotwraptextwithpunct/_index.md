@@ -2,7 +2,7 @@
 title: CompatibilityOptions.DoNotWrapTextWithPunct
 linktitle: DoNotWrapTextWithPunct
 articleTitle: DoNotWrapTextWithPunct
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: CompatibilityOptions DoNotWrapTextWithPunct property. Do Not Allow Hanging Punctuation With Character Grid in C#.
 type: docs
 weight: 250

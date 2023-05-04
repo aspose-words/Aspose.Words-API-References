@@ -2,7 +2,7 @@
 title: Revision.DateTime
 linktitle: DateTime
 articleTitle: DateTime
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Revision DateTime property. Gets or sets the date/time of this revision in C#.
 type: docs
 weight: 20

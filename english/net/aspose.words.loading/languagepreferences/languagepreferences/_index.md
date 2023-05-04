@@ -2,7 +2,7 @@
 title: LanguagePreferences
 linktitle: LanguagePreferences
 articleTitle: LanguagePreferences
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: LanguagePreferences constructor. The default constructor in C#.
 type: docs
 weight: 10

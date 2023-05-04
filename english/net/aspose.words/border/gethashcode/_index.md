@@ -2,7 +2,7 @@
 title: Border.GetHashCode
 linktitle: GetHashCode
 articleTitle: GetHashCode
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Border GetHashCode method. Serves as a hash function for this type in C#.
 type: docs
 weight: 110

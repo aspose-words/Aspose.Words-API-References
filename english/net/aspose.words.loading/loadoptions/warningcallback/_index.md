@@ -2,7 +2,7 @@
 title: LoadOptions.WarningCallback
 linktitle: WarningCallback
 articleTitle: WarningCallback
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: LoadOptions WarningCallback property. Called during a load operation when an issue is detected that might result in data or formatting fidelity loss in C#.
 type: docs
 weight: 170

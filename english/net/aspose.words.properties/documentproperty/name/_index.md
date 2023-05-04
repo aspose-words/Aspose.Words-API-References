@@ -2,7 +2,7 @@
 title: DocumentProperty.Name
 linktitle: Name
 articleTitle: Name
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: DocumentProperty Name property. Returns the name of the property in C#.
 type: docs
 weight: 30

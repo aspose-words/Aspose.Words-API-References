@@ -2,7 +2,7 @@
 title: NodeCollection.IndexOf
 linktitle: IndexOf
 articleTitle: IndexOf
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: NodeCollection IndexOf method. Returns the zerobased index of the specified node in C#.
 type: docs
 weight: 70

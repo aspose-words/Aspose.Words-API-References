@@ -2,7 +2,7 @@
 title: SdtListItem
 linktitle: SdtListItem
 articleTitle: SdtListItem
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: SdtListItem constructor. Initializes a new instance of this class in C#.
 type: docs
 weight: 10

@@ -2,7 +2,7 @@
 title: FontInfo.Charset
 linktitle: Charset
 articleTitle: Charset
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FontInfo Charset property. Gets or sets the character set for the font in C#.
 type: docs
 weight: 20

@@ -2,7 +2,7 @@
 title: Fill.Patterned
 linktitle: Patterned
 articleTitle: Patterned
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Fill Patterned method. Sets the specified fill to a pattern in C#.
 type: docs
 weight: 210

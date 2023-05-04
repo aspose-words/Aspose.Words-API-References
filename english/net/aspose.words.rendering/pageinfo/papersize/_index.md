@@ -2,7 +2,7 @@
 title: PageInfo.PaperSize
 linktitle: PaperSize
 articleTitle: PaperSize
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: PageInfo PaperSize property. Gets the paper size as enumeration in C#.
 type: docs
 weight: 30

@@ -2,7 +2,7 @@
 title: FieldMergingArgsBase.RecordIndex
 linktitle: RecordIndex
 articleTitle: RecordIndex
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldMergingArgsBase RecordIndex property. Gets the zero based index of the record that is being merged in C#.
 type: docs
 weight: 60

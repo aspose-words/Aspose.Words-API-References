@@ -2,7 +2,7 @@
 title: Row.IsLastRow
 linktitle: IsLastRow
 articleTitle: IsLastRow
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Row IsLastRow property. True if this is the last row in a table false otherwise in C#.
 type: docs
 weight: 50

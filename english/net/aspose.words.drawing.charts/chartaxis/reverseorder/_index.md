@@ -2,7 +2,7 @@
 title: ChartAxis.ReverseOrder
 linktitle: ReverseOrder
 articleTitle: ReverseOrder
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ChartAxis ReverseOrder property. Returns or sets a flag indicating whether values of axis should be displayed in reverse order i.e. from max to min in C#.
 type: docs
 weight: 200

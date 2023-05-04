@@ -2,7 +2,7 @@
 title: ChartDataLabelCollection.Item
 linktitle: Item
 articleTitle: Item
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ChartDataLabelCollection Item property. Returns ChartDataLabel for the specified index in C#.
 type: docs
 weight: 30

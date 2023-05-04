@@ -2,7 +2,7 @@
 title: JsonDataSource Class
 linktitle: JsonDataSource
 articleTitle: JsonDataSource
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.Reporting.JsonDataSource class. Provides access to data of a JSON file or stream to be used within a report in C#.
 type: docs
 weight: 4600

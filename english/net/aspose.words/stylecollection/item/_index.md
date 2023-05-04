@@ -2,7 +2,7 @@
 title: StyleCollection.Item
 linktitle: Item
 articleTitle: Item
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: StyleCollection Item property. Gets a style by name or alias in C#.
 type: docs
 weight: 50

@@ -2,7 +2,7 @@
 title: BuildingBlock.Sections
 linktitle: Sections
 articleTitle: Sections
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: BuildingBlock Sections property. Returns a collection that represents all sections in the building block in C#.
 type: docs
 weight: 110

@@ -2,7 +2,7 @@
 title: Document.Watermark
 linktitle: Watermark
 articleTitle: Watermark
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Document Watermark property. Provides access to the document watermark in C#.
 type: docs
 weight: 480

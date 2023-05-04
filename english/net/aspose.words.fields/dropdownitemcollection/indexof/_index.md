@@ -2,7 +2,7 @@
 title: DropDownItemCollection.IndexOf
 linktitle: IndexOf
 articleTitle: IndexOf
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: DropDownItemCollection IndexOf method. Returns the zerobased index of the specified value in the collection in C#.
 type: docs
 weight: 70

@@ -2,7 +2,7 @@
 title: HyphenationOptions.ConsecutiveHyphenLimit
 linktitle: ConsecutiveHyphenLimit
 articleTitle: ConsecutiveHyphenLimit
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: HyphenationOptions ConsecutiveHyphenLimit property. Gets or sets the maximum number of consecutive lines that can end with hyphens. Default value for this property is 0 in C#.
 type: docs
 weight: 30

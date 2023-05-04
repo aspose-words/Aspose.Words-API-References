@@ -2,7 +2,7 @@
 title: Node.GetAncestor
 linktitle: GetAncestor
 articleTitle: GetAncestor
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Node GetAncestor method. Gets the first ancestor of the specified object type in C#.
 type: docs
 weight: 110

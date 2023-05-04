@@ -2,7 +2,7 @@
 title: FieldToc.UpdatePageNumbers
 linktitle: UpdatePageNumbers
 articleTitle: UpdatePageNumbers
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldToc UpdatePageNumbers method. Updates the page numbers for items in this table of contents in C#.
 type: docs
 weight: 180

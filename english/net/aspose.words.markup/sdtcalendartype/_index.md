@@ -2,7 +2,7 @@
 title: SdtCalendarType Enum
 linktitle: SdtCalendarType
 articleTitle: SdtCalendarType
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.Markup.SdtCalendarType enum. Specifies the possible types of calendars which can be used to specify CalendarType in an Office Open XML document in C#.
 type: docs
 weight: 3910

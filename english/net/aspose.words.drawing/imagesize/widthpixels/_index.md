@@ -2,7 +2,7 @@
 title: ImageSize.WidthPixels
 linktitle: WidthPixels
 articleTitle: WidthPixels
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ImageSize WidthPixels property. Gets the width of the image in pixels in C#.
 type: docs
 weight: 60

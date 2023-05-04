@@ -2,7 +2,7 @@
 title: TxtLoadOptions.TrailingSpacesOptions
 linktitle: TrailingSpacesOptions
 articleTitle: TrailingSpacesOptions
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: TxtLoadOptions TrailingSpacesOptions property. Gets or sets preferred option of a trailing space handling. Default value is Trim in C#.
 type: docs
 weight: 60

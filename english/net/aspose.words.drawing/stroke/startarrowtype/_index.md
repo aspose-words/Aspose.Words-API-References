@@ -2,7 +2,7 @@
 title: Stroke.StartArrowType
 linktitle: StartArrowType
 articleTitle: StartArrowType
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Stroke StartArrowType property. Defines the arrowhead for the start of a stroke in C#.
 type: docs
 weight: 170

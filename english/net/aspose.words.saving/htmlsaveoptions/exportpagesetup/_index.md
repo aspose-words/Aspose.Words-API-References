@@ -2,7 +2,7 @@
 title: HtmlSaveOptions.ExportPageSetup
 linktitle: ExportPageSetup
 articleTitle: ExportPageSetup
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: HtmlSaveOptions ExportPageSetup property. Specifies whether page setup is exported to HTML MHTML or EPUB. Default is false in C#.
 type: docs
 weight: 230

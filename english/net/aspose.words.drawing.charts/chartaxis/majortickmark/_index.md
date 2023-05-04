@@ -2,7 +2,7 @@
 title: ChartAxis.MajorTickMark
 linktitle: MajorTickMark
 articleTitle: MajorTickMark
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ChartAxis MajorTickMark property. Returns or sets the major tick marks in C#.
 type: docs
 weight: 110

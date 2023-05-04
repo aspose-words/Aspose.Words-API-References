@@ -2,7 +2,7 @@
 title: Range.Revisions
 linktitle: Revisions
 articleTitle: Revisions
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Range Revisions property. Gets a collection of revisions tracked changes that exist in this range in C#.
 type: docs
 weight: 40

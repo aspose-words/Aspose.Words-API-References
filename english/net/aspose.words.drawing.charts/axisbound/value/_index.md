@@ -2,7 +2,7 @@
 title: AxisBound.Value
 linktitle: Value
 articleTitle: Value
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: AxisBound Value property. Returns numeric value of axis bound in C#.
 type: docs
 weight: 30

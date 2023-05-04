@@ -2,7 +2,7 @@
 title: LayoutEnumerator.Current
 linktitle: Current
 articleTitle: Current
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: LayoutEnumerator Current property. Gets or sets current position in the page layout model. This property returns an opaque object which corresponds to the current layout entity in C#.
 type: docs
 weight: 20

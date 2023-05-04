@@ -2,7 +2,7 @@
 title: XamlFlowSaveOptions
 linktitle: XamlFlowSaveOptions
 articleTitle: XamlFlowSaveOptions
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: XamlFlowSaveOptions constructor. Initializes a new instance of this class that can be used to save a document in the XamlFlow format in C#.
 type: docs
 weight: 10

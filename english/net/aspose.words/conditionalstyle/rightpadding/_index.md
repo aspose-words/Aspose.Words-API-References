@@ -2,7 +2,7 @@
 title: ConditionalStyle.RightPadding
 linktitle: RightPadding
 articleTitle: RightPadding
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ConditionalStyle RightPadding property. Gets or sets the amount of space in points to add to the right of the contents of table cells in C#.
 type: docs
 weight: 60

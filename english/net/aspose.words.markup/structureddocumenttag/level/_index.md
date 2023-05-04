@@ -2,7 +2,7 @@
 title: StructuredDocumentTag.Level
 linktitle: Level
 articleTitle: Level
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: StructuredDocumentTag Level property. Gets the level at which this SDT occurs in the document tree in C#.
 type: docs
 weight: 170

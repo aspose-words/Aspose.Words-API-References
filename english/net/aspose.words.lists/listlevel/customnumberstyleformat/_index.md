@@ -2,7 +2,7 @@
 title: ListLevel.CustomNumberStyleFormat
 linktitle: CustomNumberStyleFormat
 articleTitle: CustomNumberStyleFormat
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ListLevel CustomNumberStyleFormat property. Gets the custom number style format for this list level. For example a ç ĝ  in C#.
 type: docs
 weight: 20

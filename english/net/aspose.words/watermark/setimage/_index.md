@@ -2,7 +2,7 @@
 title: Watermark.SetImage
 linktitle: SetImage
 articleTitle: SetImage
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Watermark SetImage method. Adds Image watermark into the document in C#.
 type: docs
 weight: 30

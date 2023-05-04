@@ -2,7 +2,7 @@
 title: DocumentVisitor.VisitAbsolutePositionTab
 linktitle: VisitAbsolutePositionTab
 articleTitle: VisitAbsolutePositionTab
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: DocumentVisitor VisitAbsolutePositionTab method. Called when a AbsolutePositionTab node is encountered in the document in C#.
 type: docs
 weight: 10

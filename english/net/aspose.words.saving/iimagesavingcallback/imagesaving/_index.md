@@ -2,7 +2,7 @@
 title: IImageSavingCallback.ImageSaving
 linktitle: ImageSaving
 articleTitle: ImageSaving
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: IImageSavingCallback ImageSaving method. Called when Aspose.Words saves an image to HTML in C#.
 type: docs
 weight: 10

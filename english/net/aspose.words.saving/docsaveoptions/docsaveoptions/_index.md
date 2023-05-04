@@ -2,7 +2,7 @@
 title: DocSaveOptions
 linktitle: DocSaveOptions
 articleTitle: DocSaveOptions
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: DocSaveOptions constructor. Initializes a new instance of this class that can be used to save a document in the Doc format in C#.
 type: docs
 weight: 10

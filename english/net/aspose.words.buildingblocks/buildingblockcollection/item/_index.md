@@ -2,7 +2,7 @@
 title: BuildingBlockCollection.Item
 linktitle: Item
 articleTitle: Item
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: BuildingBlockCollection Item property. Retrieves a building block at the given index in C#.
 type: docs
 weight: 10

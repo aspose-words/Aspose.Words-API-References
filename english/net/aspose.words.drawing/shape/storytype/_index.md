@@ -2,7 +2,7 @@
 title: Shape.StoryType
 linktitle: StoryType
 articleTitle: StoryType
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Shape StoryType property. Returns Textbox in C#.
 type: docs
 weight: 170

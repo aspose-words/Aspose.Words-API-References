@@ -2,7 +2,7 @@
 title: ConditionalStyleCollection.BottomLeftCell
 linktitle: BottomLeftCell
 articleTitle: BottomLeftCell
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ConditionalStyleCollection BottomLeftCell property. Gets the bottom left cell style in C#.
 type: docs
 weight: 10

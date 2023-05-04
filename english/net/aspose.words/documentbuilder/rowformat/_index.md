@@ -2,7 +2,7 @@
 title: DocumentBuilder.RowFormat
 linktitle: RowFormat
 articleTitle: RowFormat
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: DocumentBuilder RowFormat property. Returns an object that represents current table row formatting properties in C#.
 type: docs
 weight: 180

@@ -2,7 +2,7 @@
 title: ControlChar.PageBreak
 linktitle: PageBreak
 articleTitle: PageBreak
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ControlChar PageBreak field. Page break character x000c or f. Note it has the same value as SectionBreak in C#.
 type: docs
 weight: 200

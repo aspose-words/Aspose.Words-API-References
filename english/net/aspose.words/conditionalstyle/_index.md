@@ -2,7 +2,7 @@
 title: ConditionalStyle Class
 linktitle: ConditionalStyle
 articleTitle: ConditionalStyle
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.ConditionalStyle class. Represents special formatting applied to some area of a table with assigned table style in C#.
 type: docs
 weight: 300

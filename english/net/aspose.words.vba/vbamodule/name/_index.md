@@ -2,7 +2,7 @@
 title: VbaModule.Name
 linktitle: Name
 articleTitle: Name
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: VbaModule Name property. Gets or sets VBA project module name in C#.
 type: docs
 weight: 20

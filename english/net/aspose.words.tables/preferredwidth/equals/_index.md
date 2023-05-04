@@ -2,7 +2,7 @@
 title: PreferredWidth.Equals
 linktitle: Equals
 articleTitle: Equals
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: PreferredWidth Equals method. Determines whether the specified PreferredWidth is equal in value to the current PreferredWidth in C#.
 type: docs
 weight: 60

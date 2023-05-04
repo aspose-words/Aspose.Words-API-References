@@ -2,7 +2,7 @@
 title: DropDownItemCollection Class
 linktitle: DropDownItemCollection
 articleTitle: DropDownItemCollection
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.DropDownItemCollection class. A collection of strings that represent all the items in a dropdown form field in C#.
 type: docs
 weight: 1470

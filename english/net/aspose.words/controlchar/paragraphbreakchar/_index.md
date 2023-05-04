@@ -2,7 +2,7 @@
 title: ControlChar.ParagraphBreakChar
 linktitle: ParagraphBreakChar
 articleTitle: ParagraphBreakChar
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ControlChar ParagraphBreakChar field. End of paragraph character char13 or r in C#.
 type: docs
 weight: 230

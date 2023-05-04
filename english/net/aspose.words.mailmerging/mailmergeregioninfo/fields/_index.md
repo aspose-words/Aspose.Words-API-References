@@ -2,7 +2,7 @@
 title: MailMergeRegionInfo.Fields
 linktitle: Fields
 articleTitle: Fields
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: MailMergeRegionInfo Fields property. Returns a list of child fields in C#.
 type: docs
 weight: 20

@@ -2,7 +2,7 @@
 title: FolderFontSource.FolderPath
 linktitle: FolderPath
 articleTitle: FolderPath
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FolderFontSource FolderPath property. Path to the folder in C#.
 type: docs
 weight: 20

@@ -2,7 +2,7 @@
 title: Table.ClearBorders
 linktitle: ClearBorders
 articleTitle: ClearBorders
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Table ClearBorders method. Removes all table and cell borders on this table in C#.
 type: docs
 weight: 370

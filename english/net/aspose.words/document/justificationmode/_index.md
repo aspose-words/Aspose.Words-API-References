@@ -2,7 +2,7 @@
 title: Document.JustificationMode
 linktitle: JustificationMode
 articleTitle: JustificationMode
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Document JustificationMode property. Gets or sets the character spacing adjustment of a document in C#.
 type: docs
 weight: 230

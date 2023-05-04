@@ -2,7 +2,7 @@
 title: ShapeBase.FetchInheritedShapeAttr
 linktitle: FetchInheritedShapeAttr
 articleTitle: FetchInheritedShapeAttr
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ShapeBase FetchInheritedShapeAttr method. Reserved for system use. IShapeAttrSource in C#.
 type: docs
 weight: 630

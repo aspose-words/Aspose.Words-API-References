@@ -2,7 +2,7 @@
 title: BookmarkEnd Class
 linktitle: BookmarkEnd
 articleTitle: BookmarkEnd
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.BookmarkEnd class. Represents an end of a bookmark in a Word document in C#.
 type: docs
 weight: 50

@@ -2,7 +2,7 @@
 title: ParagraphFormat.SpaceAfterAuto
 linktitle: SpaceAfterAuto
 articleTitle: SpaceAfterAuto
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ParagraphFormat SpaceAfterAuto property. True if the amount of spacing after the paragraph is set automatically in C#.
 type: docs
 weight: 300

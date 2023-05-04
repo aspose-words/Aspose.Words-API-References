@@ -2,7 +2,7 @@
 title: IPageLayoutCallback.Notify
 linktitle: Notify
 articleTitle: Notify
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: IPageLayoutCallback Notify method. This is called to notify of layout build and rendering progress in C#.
 type: docs
 weight: 10

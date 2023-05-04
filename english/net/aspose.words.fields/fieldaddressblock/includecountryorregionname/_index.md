@@ -2,7 +2,7 @@
 title: FieldAddressBlock.IncludeCountryOrRegionName
 linktitle: IncludeCountryOrRegionName
 articleTitle: IncludeCountryOrRegionName
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldAddressBlock IncludeCountryOrRegionName property. Gets or sets whether to include the name of the country/region in C#.
 type: docs
 weight: 40

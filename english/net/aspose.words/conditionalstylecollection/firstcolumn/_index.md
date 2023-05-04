@@ -2,7 +2,7 @@
 title: ConditionalStyleCollection.FirstColumn
 linktitle: FirstColumn
 articleTitle: FirstColumn
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ConditionalStyleCollection FirstColumn property. Gets the first column style in C#.
 type: docs
 weight: 60

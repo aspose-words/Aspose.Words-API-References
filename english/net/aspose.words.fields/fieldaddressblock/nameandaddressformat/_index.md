@@ -2,7 +2,7 @@
 title: FieldAddressBlock.NameAndAddressFormat
 linktitle: NameAndAddressFormat
 articleTitle: NameAndAddressFormat
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldAddressBlock NameAndAddressFormat property. Gets or sets the name and address format in C#.
 type: docs
 weight: 60

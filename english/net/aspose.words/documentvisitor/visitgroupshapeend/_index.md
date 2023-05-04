@@ -2,7 +2,7 @@
 title: DocumentVisitor.VisitGroupShapeEnd
 linktitle: VisitGroupShapeEnd
 articleTitle: VisitGroupShapeEnd
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: DocumentVisitor VisitGroupShapeEnd method. Called when enumeration of a group shape has ended in C#.
 type: docs
 weight: 260

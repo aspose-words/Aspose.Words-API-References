@@ -2,7 +2,7 @@
 title: ChartSeries.Name
 linktitle: Name
 articleTitle: Name
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ChartSeries Name property. Gets or sets the name of the series if name is not set explicitly it is generated using index. By default returns Series plus one based index in C#.
 type: docs
 weight: 110

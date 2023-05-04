@@ -2,7 +2,7 @@
 title: ChartAxis.TickLabelSpacing
 linktitle: TickLabelSpacing
 articleTitle: TickLabelSpacing
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ChartAxis TickLabelSpacing property. Gets or sets the interval at which tick labels are drawn in C#.
 type: docs
 weight: 250

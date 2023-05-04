@@ -2,7 +2,7 @@
 title: DocumentProperty.ToInt
 linktitle: ToInt
 articleTitle: ToInt
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: DocumentProperty ToInt method. Returns the property value as integer in C#.
 type: docs
 weight: 100

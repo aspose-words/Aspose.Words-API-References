@@ -2,7 +2,7 @@
 title: FieldRef
 linktitle: FieldRef
 articleTitle: FieldRef
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldRef constructor. The default constructor in C#.
 type: docs
 weight: 10

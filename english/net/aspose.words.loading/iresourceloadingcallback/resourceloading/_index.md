@@ -2,7 +2,7 @@
 title: IResourceLoadingCallback.ResourceLoading
 linktitle: ResourceLoading
 articleTitle: ResourceLoading
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: IResourceLoadingCallback ResourceLoading method. Called when Aspose.Words loads any external resource in C#.
 type: docs
 weight: 10

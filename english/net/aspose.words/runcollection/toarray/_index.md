@@ -2,7 +2,7 @@
 title: RunCollection.ToArray
 linktitle: ToArray
 articleTitle: ToArray
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: RunCollection ToArray method. Copies all runs from the collection to a new array of runs in C#.
 type: docs
 weight: 20

@@ -2,7 +2,7 @@
 title: ParagraphFormat.DropCapPosition
 linktitle: DropCapPosition
 articleTitle: DropCapPosition
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ParagraphFormat DropCapPosition property. Gets or sets the position for a drop cap text in C#.
 type: docs
 weight: 90

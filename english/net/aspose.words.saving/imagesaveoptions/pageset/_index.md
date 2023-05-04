@@ -2,7 +2,7 @@
 title: ImageSaveOptions.PageSet
 linktitle: PageSet
 articleTitle: PageSet
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ImageSaveOptions PageSet property. Gets or sets the pages to render. Default is all the pages in the document in C#.
 type: docs
 weight: 90

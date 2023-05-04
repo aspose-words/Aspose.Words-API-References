@@ -2,7 +2,7 @@
 title: ListLevelAlignment Enum
 linktitle: ListLevelAlignment
 articleTitle: ListLevelAlignment
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.Lists.ListLevelAlignment enum. Specifies alignment for the list number or bullet in C#.
 type: docs
 weight: 3450

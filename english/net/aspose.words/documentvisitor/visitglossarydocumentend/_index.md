@@ -2,7 +2,7 @@
 title: DocumentVisitor.VisitGlossaryDocumentEnd
 linktitle: VisitGlossaryDocumentEnd
 articleTitle: VisitGlossaryDocumentEnd
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: DocumentVisitor VisitGlossaryDocumentEnd method. Called when enumeration of a glossary document has ended in C#.
 type: docs
 weight: 240

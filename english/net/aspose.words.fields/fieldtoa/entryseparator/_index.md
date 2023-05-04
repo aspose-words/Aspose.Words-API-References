@@ -2,7 +2,7 @@
 title: FieldToa.EntrySeparator
 linktitle: EntrySeparator
 articleTitle: EntrySeparator
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldToa EntrySeparator property. Gets or sets the character sequence that is used to separate a table of authorities entry and its page number in C#.
 type: docs
 weight: 40

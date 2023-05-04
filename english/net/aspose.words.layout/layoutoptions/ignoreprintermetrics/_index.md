@@ -2,7 +2,7 @@
 title: LayoutOptions.IgnorePrinterMetrics
 linktitle: IgnorePrinterMetrics
 articleTitle: IgnorePrinterMetrics
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: LayoutOptions IgnorePrinterMetrics property. Gets or sets indication of whether the Use printer metrics to lay out document compatibility option is ignored. Default is true in C#.
 type: docs
 weight: 50

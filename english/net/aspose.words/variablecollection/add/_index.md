@@ -2,7 +2,7 @@
 title: VariableCollection.Add
 linktitle: Add
 articleTitle: Add
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: VariableCollection Add method. Adds a document variable to the collection in C#.
 type: docs
 weight: 30

@@ -2,7 +2,7 @@
 title: CustomXmlPart.Schemas
 linktitle: Schemas
 articleTitle: Schemas
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: CustomXmlPart Schemas property. Specifies the set of XML schemas that are associated with this custom XML part in C#.
 type: docs
 weight: 50

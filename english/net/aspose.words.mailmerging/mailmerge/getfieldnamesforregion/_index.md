@@ -2,7 +2,7 @@
 title: MailMerge.GetFieldNamesForRegion
 linktitle: GetFieldNamesForRegion
 articleTitle: GetFieldNamesForRegion
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: MailMerge GetFieldNamesForRegion method. Returns a collection of mail merge field names available in the region in C#.
 type: docs
 weight: 230

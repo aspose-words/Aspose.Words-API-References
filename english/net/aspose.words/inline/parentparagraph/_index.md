@@ -2,7 +2,7 @@
 title: Inline.ParentParagraph
 linktitle: ParentParagraph
 articleTitle: ParentParagraph
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Inline ParentParagraph property. Retrieves the parent Paragraph of this node in C#.
 type: docs
 weight: 70

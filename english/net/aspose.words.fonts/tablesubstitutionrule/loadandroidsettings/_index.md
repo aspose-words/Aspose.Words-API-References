@@ -2,7 +2,7 @@
 title: TableSubstitutionRule.LoadAndroidSettings
 linktitle: LoadAndroidSettings
 articleTitle: LoadAndroidSettings
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: TableSubstitutionRule LoadAndroidSettings method. Loads predefined table substitution settings for Android platform in C#.
 type: docs
 weight: 40

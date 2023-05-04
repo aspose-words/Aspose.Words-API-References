@@ -2,7 +2,7 @@
 title: FieldDdeAuto.InsertAsUnicode
 linktitle: InsertAsUnicode
 articleTitle: InsertAsUnicode
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldDdeAuto InsertAsUnicode property. Gets or sets whether to insert the linked object as Unicode text in C#.
 type: docs
 weight: 70

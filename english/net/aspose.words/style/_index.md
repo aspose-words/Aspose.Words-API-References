@@ -2,7 +2,7 @@
 title: Style Class
 linktitle: Style
 articleTitle: Style
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.Style class. Represents a single builtin or userdefined style in C#.
 type: docs
 weight: 6030

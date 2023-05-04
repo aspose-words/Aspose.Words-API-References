@@ -2,7 +2,7 @@
 title: DocumentBase.Document
 linktitle: Document
 articleTitle: Document
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: DocumentBase Document property. Gets this instance in C#.
 type: docs
 weight: 20

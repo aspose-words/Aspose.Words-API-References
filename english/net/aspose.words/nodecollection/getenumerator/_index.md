@@ -2,7 +2,7 @@
 title: NodeCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: NodeCollection GetEnumerator method. Provides a simple foreach style iteration over the collection of nodes in C#.
 type: docs
 weight: 60

@@ -2,7 +2,7 @@
 title: ChartSeriesType Enum
 linktitle: ChartSeriesType
 articleTitle: ChartSeriesType
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Charts.ChartSeriesType enum. Specifies a type of a chart series in C#.
 type: docs
 weight: 780

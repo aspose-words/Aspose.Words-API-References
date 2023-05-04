@@ -2,7 +2,7 @@
 title: MailMergeSettings.MailAsAttachment
 linktitle: MailAsAttachment
 articleTitle: MailAsAttachment
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: MailMergeSettings MailAsAttachment property. Specifies that the documents produced during a mail merge operation should be emailed as an attachment rather than the body of the actual email. The default value is false in C#.
 type: docs
 weight: 120

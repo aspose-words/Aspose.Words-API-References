@@ -2,7 +2,7 @@
 title: Run
 linktitle: Run
 articleTitle: Run
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Run constructor. Initializes a new instance of the Run class in C#.
 type: docs
 weight: 10

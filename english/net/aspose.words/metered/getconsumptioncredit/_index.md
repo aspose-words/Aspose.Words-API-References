@@ -2,7 +2,7 @@
 title: Metered.GetConsumptionCredit
 linktitle: GetConsumptionCredit
 articleTitle: GetConsumptionCredit
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Metered GetConsumptionCredit method. Gets consumption credit in C#.
 type: docs
 weight: 30

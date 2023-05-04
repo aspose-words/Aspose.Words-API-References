@@ -2,7 +2,7 @@
 title: TextPath.Trim
 linktitle: Trim
 articleTitle: Trim
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: TextPath Trim property. Determines whether extra space is removed above and below the text in C#.
 type: docs
 weight: 180

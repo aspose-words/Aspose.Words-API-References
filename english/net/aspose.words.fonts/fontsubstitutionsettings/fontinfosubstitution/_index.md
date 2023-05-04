@@ -2,7 +2,7 @@
 title: FontSubstitutionSettings.FontInfoSubstitution
 linktitle: FontInfoSubstitution
 articleTitle: FontInfoSubstitution
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FontSubstitutionSettings FontInfoSubstitution property. Settings related to font info substitution rule in C#.
 type: docs
 weight: 30

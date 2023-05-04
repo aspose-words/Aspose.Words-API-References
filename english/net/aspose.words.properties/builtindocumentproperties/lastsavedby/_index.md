@@ -2,7 +2,7 @@
 title: BuiltInDocumentProperties.LastSavedBy
 linktitle: LastSavedBy
 articleTitle: LastSavedBy
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: BuiltInDocumentProperties LastSavedBy property. Gets or sets the name of the last author in C#.
 type: docs
 weight: 160

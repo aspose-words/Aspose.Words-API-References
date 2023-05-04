@@ -2,7 +2,7 @@
 title: ChartNumberFormat.IsLinkedToSource
 linktitle: IsLinkedToSource
 articleTitle: IsLinkedToSource
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ChartNumberFormat IsLinkedToSource property. Specifies whether the format code is linked to a source cell. Default is true in C#.
 type: docs
 weight: 20

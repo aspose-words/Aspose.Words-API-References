@@ -2,7 +2,7 @@
 title: CommentRangeStart
 linktitle: CommentRangeStart
 articleTitle: CommentRangeStart
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: CommentRangeStart constructor. Initializes a new instance of this class in C#.
 type: docs
 weight: 10

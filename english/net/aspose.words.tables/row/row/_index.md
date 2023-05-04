@@ -2,7 +2,7 @@
 title: Row
 linktitle: Row
 articleTitle: Row
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Row constructor. Initializes a new instance of the Row class in C#.
 type: docs
 weight: 10

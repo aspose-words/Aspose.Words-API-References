@@ -2,7 +2,7 @@
 title: Forms2OleControlCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Forms2OleControlCollection GetEnumerator method. Gets enumerator in C#.
 type: docs
 weight: 40

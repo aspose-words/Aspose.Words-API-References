@@ -2,7 +2,7 @@
 title: DocumentBuilder.InsertShape
 linktitle: InsertShape
 articleTitle: InsertShape
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: DocumentBuilder InsertShape method. Inserts inline shape with specified type and size in C#.
 type: docs
 weight: 430

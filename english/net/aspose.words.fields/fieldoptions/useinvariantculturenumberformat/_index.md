@@ -2,7 +2,7 @@
 title: FieldOptions.UseInvariantCultureNumberFormat
 linktitle: UseInvariantCultureNumberFormat
 articleTitle: UseInvariantCultureNumberFormat
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldOptions UseInvariantCultureNumberFormat property. Gets or sets the value indicating that number format is parsed using invariant culture or not in C#.
 type: docs
 weight: 200

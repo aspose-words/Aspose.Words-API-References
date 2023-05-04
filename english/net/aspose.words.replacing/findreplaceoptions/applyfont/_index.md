@@ -2,7 +2,7 @@
 title: FindReplaceOptions.ApplyFont
 linktitle: ApplyFont
 articleTitle: ApplyFont
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FindReplaceOptions ApplyFont property. Text formatting applied to new content in C#.
 type: docs
 weight: 20

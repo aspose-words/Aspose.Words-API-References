@@ -2,7 +2,7 @@
 title: ShapeType Enum
 linktitle: ShapeType
 articleTitle: ShapeType
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.ShapeType enum. Specifies the type of shape in a Microsoft Word document in C#.
 type: docs
 weight: 1260

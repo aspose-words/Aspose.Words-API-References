@@ -2,7 +2,7 @@
 title: FieldOptions.FieldIndexFormat
 linktitle: FieldIndexFormat
 articleTitle: FieldIndexFormat
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldOptions FieldIndexFormat property. Gets or sets a FieldIndexFormat that represents the formatting for the FieldIndex fields in the document in C#.
 type: docs
 weight: 80

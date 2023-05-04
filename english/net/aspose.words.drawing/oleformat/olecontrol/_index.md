@@ -2,7 +2,7 @@
 title: OleFormat.OleControl
 linktitle: OleControl
 articleTitle: OleControl
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: OleFormat OleControl property. Gets OleControl objects if this OLE object is an ActiveX control. Otherwise this property is null in C#.
 type: docs
 weight: 60

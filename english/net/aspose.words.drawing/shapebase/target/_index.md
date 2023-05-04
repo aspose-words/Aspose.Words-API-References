@@ -2,7 +2,7 @@
 title: ShapeBase.Target
 linktitle: Target
 articleTitle: Target
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ShapeBase Target property. Gets or sets the target frame for the shape hyperlink in C#.
 type: docs
 weight: 520

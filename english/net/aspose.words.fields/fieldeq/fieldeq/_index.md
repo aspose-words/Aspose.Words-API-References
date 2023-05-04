@@ -2,7 +2,7 @@
 title: FieldEQ
 linktitle: FieldEQ
 articleTitle: FieldEQ
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldEQ constructor. The default constructor in C#.
 type: docs
 weight: 10

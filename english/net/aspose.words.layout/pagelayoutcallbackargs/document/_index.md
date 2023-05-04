@@ -2,7 +2,7 @@
 title: PageLayoutCallbackArgs.Document
 linktitle: Document
 articleTitle: Document
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: PageLayoutCallbackArgs Document property. Gets document in C#.
 type: docs
 weight: 10

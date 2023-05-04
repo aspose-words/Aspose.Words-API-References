@@ -2,7 +2,7 @@
 title: Table
 linktitle: Table
 articleTitle: Table
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Table constructor. Initializes a new instance of the Table class in C#.
 type: docs
 weight: 10

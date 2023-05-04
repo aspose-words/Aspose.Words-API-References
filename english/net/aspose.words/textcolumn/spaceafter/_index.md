@@ -2,7 +2,7 @@
 title: TextColumn.SpaceAfter
 linktitle: SpaceAfter
 articleTitle: SpaceAfter
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: TextColumn SpaceAfter property. Gets or sets the space between this column and the next column in points. Not required for the last column in C#.
 type: docs
 weight: 10

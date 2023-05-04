@@ -2,7 +2,7 @@
 title: PageSetup.LineStartingNumber
 linktitle: LineStartingNumber
 articleTitle: LineStartingNumber
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: PageSetup LineStartingNumber property. Gets or sets the starting line number in C#.
 type: docs
 weight: 250

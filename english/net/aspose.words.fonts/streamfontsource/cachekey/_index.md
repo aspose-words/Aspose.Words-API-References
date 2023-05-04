@@ -2,7 +2,7 @@
 title: StreamFontSource.CacheKey
 linktitle: CacheKey
 articleTitle: CacheKey
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: StreamFontSource CacheKey property. The key of this source in the cache in C#.
 type: docs
 weight: 10

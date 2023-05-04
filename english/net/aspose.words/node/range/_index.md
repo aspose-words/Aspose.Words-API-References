@@ -2,7 +2,7 @@
 title: Node.Range
 linktitle: Range
 articleTitle: Range
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Node Range property. Returns a Range object that represents the portion of a document that is contained in this node in C#.
 type: docs
 weight: 80

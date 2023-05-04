@@ -2,7 +2,7 @@
 title: AxisTimeUnit Enum
 linktitle: AxisTimeUnit
 articleTitle: AxisTimeUnit
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Charts.AxisTimeUnit enum. Specifies the unit of time for axes in C#.
 type: docs
 weight: 590

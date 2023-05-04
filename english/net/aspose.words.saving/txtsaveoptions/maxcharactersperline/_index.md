@@ -2,7 +2,7 @@
 title: TxtSaveOptions.MaxCharactersPerLine
 linktitle: MaxCharactersPerLine
 articleTitle: MaxCharactersPerLine
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: TxtSaveOptions MaxCharactersPerLine property. Gets or sets an integer value that specifies the maximum number of characters per one line. The default value is 0 that means no limit in C#.
 type: docs
 weight: 40

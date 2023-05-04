@@ -2,7 +2,7 @@
 title: HtmlLoadOptions.SupportVml
 linktitle: SupportVml
 articleTitle: SupportVml
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: HtmlLoadOptions SupportVml property. Gets or sets a value indicating whether to support VML images in C#.
 type: docs
 weight: 60

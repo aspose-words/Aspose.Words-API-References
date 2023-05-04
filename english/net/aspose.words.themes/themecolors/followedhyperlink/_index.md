@@ -2,7 +2,7 @@
 title: ThemeColors.FollowedHyperlink
 linktitle: FollowedHyperlink
 articleTitle: FollowedHyperlink
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ThemeColors FollowedHyperlink property. Specifies color for a clicked hyperlink in C#.
 type: docs
 weight: 90

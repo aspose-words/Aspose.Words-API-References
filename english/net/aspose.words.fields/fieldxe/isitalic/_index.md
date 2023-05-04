@@ -2,7 +2,7 @@
 title: FieldXE.IsItalic
 linktitle: IsItalic
 articleTitle: IsItalic
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldXE IsItalic property. Gets or sets whether to apply italic formatting to the entrys page number in C#.
 type: docs
 weight: 40

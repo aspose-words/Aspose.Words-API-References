@@ -2,7 +2,7 @@
 title: ListCollection.Document
 linktitle: Document
 articleTitle: Document
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ListCollection Document property. Gets the owner document in C#.
 type: docs
 weight: 20

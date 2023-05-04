@@ -2,7 +2,7 @@
 title: EditableRangeEnd.EditableRangeStart
 linktitle: EditableRangeStart
 articleTitle: EditableRangeStart
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: EditableRangeEnd EditableRangeStart property. Corresponding EditableRangeStart received by ID in C#.
 type: docs
 weight: 10

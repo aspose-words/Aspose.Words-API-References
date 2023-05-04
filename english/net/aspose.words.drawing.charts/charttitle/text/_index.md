@@ -2,7 +2,7 @@
 title: ChartTitle.Text
 linktitle: Text
 articleTitle: Text
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ChartTitle Text property. Gets or sets the text of the chart title. If null or empty value is specified auto generated title will be shown in C#.
 type: docs
 weight: 30

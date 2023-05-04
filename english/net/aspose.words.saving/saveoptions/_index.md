@@ -2,7 +2,7 @@
 title: SaveOptions Class
 linktitle: SaveOptions
 articleTitle: SaveOptions
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.SaveOptions class. This is an abstract base class for classes that allow the user to specify additional options when saving a document into a particular format in C#.
 type: docs
 weight: 5490

@@ -2,7 +2,7 @@
 title: FindReplaceOptions.IgnoreFootnotes
 linktitle: IgnoreFootnotes
 articleTitle: IgnoreFootnotes
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FindReplaceOptions IgnoreFootnotes property. Gets or sets a boolean value indicating either to ignore footnotes. The default value is false in C#.
 type: docs
 weight: 90

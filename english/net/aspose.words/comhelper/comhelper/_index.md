@@ -2,7 +2,7 @@
 title: ComHelper
 linktitle: ComHelper
 articleTitle: ComHelper
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ComHelper constructor. Initializes a new instance of this class in C#.
 type: docs
 weight: 10

@@ -2,7 +2,7 @@
 title: GraphicsQualityOptions Class
 linktitle: GraphicsQualityOptions
 articleTitle: GraphicsQualityOptions
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.GraphicsQualityOptions class. Allows to specify additional Graphics quality options in C#.
 type: docs
 weight: 4950

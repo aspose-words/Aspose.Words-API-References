@@ -2,7 +2,7 @@
 title: FileFormatUtil.ContentTypeToLoadFormat
 linktitle: ContentTypeToLoadFormat
 articleTitle: ContentTypeToLoadFormat
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FileFormatUtil ContentTypeToLoadFormat method. Converts IANA content type into a load format enumerated value in C#.
 type: docs
 weight: 10

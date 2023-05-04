@@ -2,7 +2,7 @@
 title: ImportFormatOptions.IgnoreTextBoxes
 linktitle: IgnoreTextBoxes
 articleTitle: IgnoreTextBoxes
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ImportFormatOptions IgnoreTextBoxes property. Gets or sets a boolean value that specifies that source formatting of textboxes content ignored if KeepSourceFormatting mode is used. The default value is true in C#.
 type: docs
 weight: 50

@@ -2,7 +2,7 @@
 title: CompatibilityOptions.UseSingleBorderforContiguousCells
 linktitle: UseSingleBorderforContiguousCells
 articleTitle: UseSingleBorderforContiguousCells
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: CompatibilityOptions UseSingleBorderforContiguousCells property. Use Simplified Rules For Table Border Conflicts in C#.
 type: docs
 weight: 650

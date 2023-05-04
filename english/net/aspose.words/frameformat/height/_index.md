@@ -2,7 +2,7 @@
 title: FrameFormat.Height
 linktitle: Height
 articleTitle: Height
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FrameFormat Height property. Gets the height of the specified frame in C#.
 type: docs
 weight: 10

@@ -2,7 +2,7 @@
 title: ImageSavingArgs.IsImageAvailable
 linktitle: IsImageAvailable
 articleTitle: IsImageAvailable
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ImageSavingArgs IsImageAvailable property. Returns true if the current image is available for export in C#.
 type: docs
 weight: 50

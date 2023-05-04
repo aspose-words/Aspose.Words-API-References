@@ -2,7 +2,7 @@
 title: Bookmark.IsColumn
 linktitle: IsColumn
 articleTitle: IsColumn
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Bookmark IsColumn property. Returns true if this bookmark is a table column bookmark in C#.
 type: docs
 weight: 40

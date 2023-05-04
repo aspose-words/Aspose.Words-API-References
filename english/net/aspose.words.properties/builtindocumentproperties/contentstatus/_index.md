@@ -2,7 +2,7 @@
 title: BuiltInDocumentProperties.ContentStatus
 linktitle: ContentStatus
 articleTitle: ContentStatus
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: BuiltInDocumentProperties ContentStatus property. Gets or sets the ContentStatus of the document in C#.
 type: docs
 weight: 80

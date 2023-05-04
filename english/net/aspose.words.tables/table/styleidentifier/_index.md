@@ -2,7 +2,7 @@
 title: Table.StyleIdentifier
 linktitle: StyleIdentifier
 articleTitle: StyleIdentifier
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Table StyleIdentifier property. Gets or sets the locale independent style identifier of the table style applied to this table in C#.
 type: docs
 weight: 280

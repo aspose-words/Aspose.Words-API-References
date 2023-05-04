@@ -2,7 +2,7 @@
 title: DocumentProperty.ToBool
 linktitle: ToBool
 articleTitle: ToBool
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: DocumentProperty ToBool method. Returns the property value as bool in C#.
 type: docs
 weight: 60

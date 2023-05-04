@@ -2,7 +2,7 @@
 title: ShapeBase.WidthRelative
 linktitle: WidthRelative
 articleTitle: WidthRelative
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ShapeBase WidthRelative property. Gets or sets the value that represents the percentage of shapes relative width in C#.
 type: docs
 weight: 580

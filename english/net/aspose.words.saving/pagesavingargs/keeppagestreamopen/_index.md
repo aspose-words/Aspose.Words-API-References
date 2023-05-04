@@ -2,7 +2,7 @@
 title: PageSavingArgs.KeepPageStreamOpen
 linktitle: KeepPageStreamOpen
 articleTitle: KeepPageStreamOpen
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: PageSavingArgs KeepPageStreamOpen property. Specifies whether Aspose.Words should keep the stream open or close it after saving a document page in C#.
 type: docs
 weight: 20

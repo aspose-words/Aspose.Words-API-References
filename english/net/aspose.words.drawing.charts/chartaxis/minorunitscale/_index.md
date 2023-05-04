@@ -2,7 +2,7 @@
 title: ChartAxis.MinorUnitScale
 linktitle: MinorUnitScale
 articleTitle: MinorUnitScale
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ChartAxis MinorUnitScale property. Returns or sets the scale value for minor tick marks on the time category axis in C#.
 type: docs
 weight: 180

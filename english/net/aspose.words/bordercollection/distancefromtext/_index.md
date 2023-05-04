@@ -2,7 +2,7 @@
 title: BorderCollection.DistanceFromText
 linktitle: DistanceFromText
 articleTitle: DistanceFromText
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: BorderCollection DistanceFromText property. Gets or sets distance of the border from text in points in C#.
 type: docs
 weight: 40

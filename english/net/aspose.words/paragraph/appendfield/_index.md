@@ -2,7 +2,7 @@
 title: Paragraph.AppendField
 linktitle: AppendField
 articleTitle: AppendField
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Paragraph AppendField method. Appends a field to this paragraph in C#.
 type: docs
 weight: 240

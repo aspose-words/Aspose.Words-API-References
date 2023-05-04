@@ -2,7 +2,7 @@
 title: PdfLoadOptions
 linktitle: PdfLoadOptions
 articleTitle: PdfLoadOptions
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: PdfLoadOptions constructor. The default constructor in C#.
 type: docs
 weight: 10

@@ -2,7 +2,7 @@
 title: NodeChangingArgs.NewParent
 linktitle: NewParent
 articleTitle: NewParent
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: NodeChangingArgs NewParent property. Gets the nodes parent that will be set after the operation completes in C#.
 type: docs
 weight: 20

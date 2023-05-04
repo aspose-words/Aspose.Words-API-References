@@ -2,7 +2,7 @@
 title: Font.ThemeFontBi
 linktitle: ThemeFontBi
 articleTitle: ThemeFontBi
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Font ThemeFontBi property. Gets or sets the theme font in the applied font scheme that is associated with this Font object in a righttoleft language document in C#.
 type: docs
 weight: 490

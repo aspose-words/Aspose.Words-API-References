@@ -2,7 +2,7 @@
 title: Node.Accept
 linktitle: Accept
 articleTitle: Accept
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Node Accept method. Accepts a visitor in C#.
 type: docs
 weight: 90

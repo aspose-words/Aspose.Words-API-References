@@ -2,7 +2,7 @@
 title: FieldInfo.InfoType
 linktitle: InfoType
 articleTitle: InfoType
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldInfo InfoType property. Gets or sets the type of the document property to insert in C#.
 type: docs
 weight: 20

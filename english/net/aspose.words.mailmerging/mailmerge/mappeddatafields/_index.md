@@ -2,7 +2,7 @@
 title: MailMerge.MappedDataFields
 linktitle: MappedDataFields
 articleTitle: MappedDataFields
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: MailMerge MappedDataFields property. Returns a collection that represents mapped data fields for the mail merge operation in C#.
 type: docs
 weight: 50

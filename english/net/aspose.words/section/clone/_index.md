@@ -2,7 +2,7 @@
 title: Section.Clone
 linktitle: Clone
 articleTitle: Clone
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Section Clone method. Creates a duplicate of this section in C#.
 type: docs
 weight: 110

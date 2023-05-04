@@ -2,7 +2,7 @@
 title: ImageData.CropLeft
 linktitle: CropLeft
 articleTitle: CropLeft
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ImageData CropLeft property. Defines the fraction of picture removal from the left side in C#.
 type: docs
 weight: 70

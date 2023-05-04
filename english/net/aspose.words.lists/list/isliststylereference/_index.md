@@ -2,7 +2,7 @@
 title: List.IsListStyleReference
 linktitle: IsListStyleReference
 articleTitle: IsListStyleReference
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: List IsListStyleReference property. Returns true if this list is a reference to a list style in C#.
 type: docs
 weight: 30

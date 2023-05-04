@@ -2,7 +2,7 @@
 title: Fill.PresetTexture
 linktitle: PresetTexture
 articleTitle: PresetTexture
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Fill PresetTexture property. Gets a PresetTexture for the fill in C#.
 type: docs
 weight: 150

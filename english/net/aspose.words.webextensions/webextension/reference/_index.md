@@ -2,7 +2,7 @@
 title: WebExtension.Reference
 linktitle: Reference
 articleTitle: Reference
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: WebExtension Reference property. Specifies the primary reference to an web extension in C#.
 type: docs
 weight: 60

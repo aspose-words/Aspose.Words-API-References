@@ -2,7 +2,7 @@
 title: FileFontSource
 linktitle: FileFontSource
 articleTitle: FileFontSource
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FileFontSource constructor. Ctor in C#.
 type: docs
 weight: 10

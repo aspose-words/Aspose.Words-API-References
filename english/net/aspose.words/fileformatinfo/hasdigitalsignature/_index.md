@@ -2,7 +2,7 @@
 title: FileFormatInfo.HasDigitalSignature
 linktitle: HasDigitalSignature
 articleTitle: HasDigitalSignature
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FileFormatInfo HasDigitalSignature property. Returns true if this document contains a digital signature. This property merely informs that a digital signature is present on a document but it does not specify whether the signature is valid or not in C#.
 type: docs
 weight: 20

@@ -2,7 +2,7 @@
 title: ImageData.ImageBytes
 linktitle: ImageBytes
 articleTitle: ImageBytes
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ImageData ImageBytes property. Gets or sets the raw bytes of the image stored in the shape in C#.
 type: docs
 weight: 120

@@ -2,7 +2,7 @@
 title: BarcodeParameters.FacingIdentificationMark
 linktitle: FacingIdentificationMark
 articleTitle: FacingIdentificationMark
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: BarcodeParameters FacingIdentificationMark property. Type of a Facing Identification Mark FIM in C#.
 type: docs
 weight: 90

@@ -2,7 +2,7 @@
 title: FieldFormText
 linktitle: FieldFormText
 articleTitle: FieldFormText
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldFormText constructor. The default constructor in C#.
 type: docs
 weight: 10

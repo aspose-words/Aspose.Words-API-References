@@ -2,7 +2,7 @@
 title: TextWatermarkOptions
 linktitle: TextWatermarkOptions
 articleTitle: TextWatermarkOptions
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: TextWatermarkOptions constructor. The default constructor in C#.
 type: docs
 weight: 10

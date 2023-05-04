@@ -2,7 +2,7 @@
 title: RowFormat Class
 linktitle: RowFormat
 articleTitle: RowFormat
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.Tables.RowFormat class. Represents all formatting for a table row in C#.
 type: docs
 weight: 6230

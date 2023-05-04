@@ -2,7 +2,7 @@
 title: WebExtensionBinding.BindingType
 linktitle: BindingType
 articleTitle: BindingType
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: WebExtensionBinding BindingType property. Specifies the binding type in C#.
 type: docs
 weight: 30

@@ -2,7 +2,7 @@
 title: OleFormat Class
 linktitle: OleFormat
 articleTitle: OleFormat
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.OleFormat class. Provides access to the data of an OLE object or ActiveX control in C#.
 type: docs
 weight: 1120

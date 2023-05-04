@@ -2,7 +2,7 @@
 title: ThemeColors.Light2
 linktitle: Light2
 articleTitle: Light2
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ThemeColors Light2 property. Specifies color Light 2 in C#.
 type: docs
 weight: 120

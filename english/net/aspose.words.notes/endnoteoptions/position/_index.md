@@ -2,7 +2,7 @@
 title: EndnoteOptions.Position
 linktitle: Position
 articleTitle: Position
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: EndnoteOptions Position property. Specifies the endnotes position in C#.
 type: docs
 weight: 20

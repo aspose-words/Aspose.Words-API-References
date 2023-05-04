@@ -2,7 +2,7 @@
 title: PageSetup.PageWidth
 linktitle: PageWidth
 articleTitle: PageWidth
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: PageSetup PageWidth property. Returns or sets the width of the page in points in C#.
 type: docs
 weight: 340

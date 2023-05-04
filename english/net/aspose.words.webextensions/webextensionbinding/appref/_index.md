@@ -2,7 +2,7 @@
 title: WebExtensionBinding.AppRef
 linktitle: AppRef
 articleTitle: AppRef
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: WebExtensionBinding AppRef property. Specifies the binding key used to map the binding entry in this list with the bound data in the document in C#.
 type: docs
 weight: 20

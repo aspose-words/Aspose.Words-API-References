@@ -2,7 +2,7 @@
 title: StructuredDocumentTagRangeStart
 linktitle: StructuredDocumentTagRangeStart
 articleTitle: StructuredDocumentTagRangeStart
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: StructuredDocumentTagRangeStart constructor. Initializes a new instance of the Structured document tag range start class in C#.
 type: docs
 weight: 10

@@ -2,7 +2,7 @@
 title: Font.Spacing
 linktitle: Spacing
 articleTitle: Spacing
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Font Spacing property. Returns or sets the spacing in points between characters  in C#.
 type: docs
 weight: 380

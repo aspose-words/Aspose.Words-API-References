@@ -2,7 +2,7 @@
 title: TableSubstitutionRule.SetSubstitutes
 linktitle: SetSubstitutes
 articleTitle: SetSubstitutes
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: TableSubstitutionRule SetSubstitutes method. Override substitute font names for given original font name in C#.
 type: docs
 weight: 80

@@ -2,7 +2,7 @@
 title: TxtListIndentation.Count
 linktitle: Count
 articleTitle: Count
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: TxtListIndentation Count property. Gets or sets how many Character to use as indentation per one list level. The default value is 0 that means no indentation in C#.
 type: docs
 weight: 30

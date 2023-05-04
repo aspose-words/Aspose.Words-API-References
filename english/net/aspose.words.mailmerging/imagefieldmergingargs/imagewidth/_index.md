@@ -2,7 +2,7 @@
 title: ImageFieldMergingArgs.ImageWidth
 linktitle: ImageWidth
 articleTitle: ImageWidth
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ImageFieldMergingArgs ImageWidth property. Specifies the image width for the image to insert into the document in C#.
 type: docs
 weight: 50

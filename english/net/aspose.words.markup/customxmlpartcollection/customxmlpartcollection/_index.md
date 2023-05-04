@@ -2,7 +2,7 @@
 title: CustomXmlPartCollection
 linktitle: CustomXmlPartCollection
 articleTitle: CustomXmlPartCollection
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: CustomXmlPartCollection constructor. The default constructor in C#.
 type: docs
 weight: 10

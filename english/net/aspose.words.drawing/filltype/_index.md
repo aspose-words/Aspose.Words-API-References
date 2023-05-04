@@ -2,7 +2,7 @@
 title: FillType Enum
 linktitle: FillType
 articleTitle: FillType
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.FillType enum. Specifies fill type for a fillable object in C#.
 type: docs
 weight: 930

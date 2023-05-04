@@ -2,7 +2,7 @@
 title: ImageData.CropRight
 linktitle: CropRight
 articleTitle: CropRight
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ImageData CropRight property. Defines the fraction of picture removal from the right side in C#.
 type: docs
 weight: 80

@@ -2,7 +2,7 @@
 title: Style.Styles
 linktitle: Styles
 articleTitle: Styles
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Style Styles property. Gets the collection of styles this style belongs to in C#.
 type: docs
 weight: 160

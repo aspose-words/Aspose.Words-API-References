@@ -2,7 +2,7 @@
 title: Aspose.Words.Drawing.Ole
 linktitle: Aspose.Words.Drawing.Ole
 articleTitle: Aspose.Words.Drawing.Ole
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Contains classes to work with OLE / ActiveX controls and forms in Microsoft Word documents in C#.
 type: docs
 weight: 70

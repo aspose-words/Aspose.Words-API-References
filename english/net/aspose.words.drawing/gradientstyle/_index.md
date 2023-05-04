@@ -2,7 +2,7 @@
 title: GradientStyle Enum
 linktitle: GradientStyle
 articleTitle: GradientStyle
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.GradientStyle enum. Specifies the style for a gradient fill in C#.
 type: docs
 weight: 970

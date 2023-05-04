@@ -2,7 +2,7 @@
 title: CsvDataLoadOptions.Delimiter
 linktitle: Delimiter
 articleTitle: Delimiter
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: CsvDataLoadOptions Delimiter property. Gets or sets the character to be used as a column delimiter in C#.
 type: docs
 weight: 30

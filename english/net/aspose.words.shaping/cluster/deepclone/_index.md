@@ -2,7 +2,7 @@
 title: Cluster.DeepClone
 linktitle: DeepClone
 articleTitle: DeepClone
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Cluster DeepClone method. Returns a deep clone of this instance in C#.
 type: docs
 weight: 50

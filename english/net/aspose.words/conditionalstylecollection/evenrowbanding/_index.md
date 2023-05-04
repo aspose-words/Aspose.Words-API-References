@@ -2,7 +2,7 @@
 title: ConditionalStyleCollection.EvenRowBanding
 linktitle: EvenRowBanding
 articleTitle: EvenRowBanding
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ConditionalStyleCollection EvenRowBanding property. Gets the even row banding style in C#.
 type: docs
 weight: 50

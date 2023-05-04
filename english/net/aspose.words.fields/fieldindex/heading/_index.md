@@ -2,7 +2,7 @@
 title: FieldIndex.Heading
 linktitle: Heading
 articleTitle: Heading
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldIndex Heading property. Gets or sets a heading that appears at the start of each set of entries for any given letter in C#.
 type: docs
 weight: 70

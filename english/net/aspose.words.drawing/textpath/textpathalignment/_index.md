@@ -2,7 +2,7 @@
 title: TextPath.TextPathAlignment
 linktitle: TextPathAlignment
 articleTitle: TextPathAlignment
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: TextPath TextPathAlignment property. Defines the alignment of text in C#.
 type: docs
 weight: 170

@@ -2,7 +2,7 @@
 title: OfficeMath.Justification
 linktitle: Justification
 articleTitle: Justification
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: OfficeMath Justification property. Gets/sets Office Math justification in C#.
 type: docs
 weight: 20

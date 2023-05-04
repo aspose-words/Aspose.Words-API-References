@@ -2,7 +2,7 @@
 title: DigitalSignatureCollection Class
 linktitle: DigitalSignatureCollection
 articleTitle: DigitalSignatureCollection
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.DigitalSignatures.DigitalSignatureCollection class. Provides a readonly collection of digital signatures attached to a document in C#.
 type: docs
 weight: 380

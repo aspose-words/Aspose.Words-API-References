@@ -2,7 +2,7 @@
 title: PageRange
 linktitle: PageRange
 articleTitle: PageRange
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: PageRange constructor. Creates a new page range object in C#.
 type: docs
 weight: 10

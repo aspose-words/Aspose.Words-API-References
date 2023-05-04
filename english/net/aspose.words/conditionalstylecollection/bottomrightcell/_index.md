@@ -2,7 +2,7 @@
 title: ConditionalStyleCollection.BottomRightCell
 linktitle: BottomRightCell
 articleTitle: BottomRightCell
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ConditionalStyleCollection BottomRightCell property. Gets the bottom right cell style in C#.
 type: docs
 weight: 20

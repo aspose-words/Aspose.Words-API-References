@@ -2,7 +2,7 @@
 title: PdfPageMode Enum
 linktitle: PdfPageMode
 articleTitle: PdfPageMode
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.PdfPageMode enum. Specifies how the PDF document should be displayed when opened in the PDF reader in C#.
 type: docs
 weight: 5410

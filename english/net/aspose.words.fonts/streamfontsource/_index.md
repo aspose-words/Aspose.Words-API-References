@@ -2,7 +2,7 @@
 title: StreamFontSource Class
 linktitle: StreamFontSource
 articleTitle: StreamFontSource
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.Fonts.StreamFontSource class. Base class for userdefined stream font source in C#.
 type: docs
 weight: 3000

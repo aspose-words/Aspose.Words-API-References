@@ -2,7 +2,7 @@
 title: ShapeBase.Font
 linktitle: Font
 articleTitle: Font
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ShapeBase Font property. Provides access to the font formatting of this object in C#.
 type: docs
 weight: 190

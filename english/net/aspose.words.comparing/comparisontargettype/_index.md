@@ -2,7 +2,7 @@
 title: ComparisonTargetType Enum
 linktitle: ComparisonTargetType
 articleTitle: ComparisonTargetType
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.Comparing.ComparisonTargetType enum. Allows to specify base document which will be used during comparison. Default value is Current in C#.
 type: docs
 weight: 270

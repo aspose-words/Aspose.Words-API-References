@@ -2,7 +2,7 @@
 title: CustomPartCollection Class
 linktitle: CustomPartCollection
 articleTitle: CustomPartCollection
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.Markup.CustomPartCollection class. Represents a collection of CustomPart objects in C#.
 type: docs
 weight: 3820

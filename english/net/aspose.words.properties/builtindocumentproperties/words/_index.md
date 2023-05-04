@@ -2,7 +2,7 @@
 title: BuiltInDocumentProperties.Words
 linktitle: Words
 articleTitle: Words
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: BuiltInDocumentProperties Words property. Represents an estimate of the number of words in the document in C#.
 type: docs
 weight: 330

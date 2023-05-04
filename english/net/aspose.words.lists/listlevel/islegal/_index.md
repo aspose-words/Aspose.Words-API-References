@@ -2,7 +2,7 @@
 title: ListLevel.IsLegal
 linktitle: IsLegal
 articleTitle: IsLegal
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ListLevel IsLegal property. True if the level turns all inherited numbers to Arabic false if it preserves their number style in C#.
 type: docs
 weight: 50

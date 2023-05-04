@@ -2,7 +2,7 @@
 title: FontSavingArgs.OriginalFileName
 linktitle: OriginalFileName
 articleTitle: OriginalFileName
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FontSavingArgs OriginalFileName property. Gets the original font file name with an extension in C#.
 type: docs
 weight: 100

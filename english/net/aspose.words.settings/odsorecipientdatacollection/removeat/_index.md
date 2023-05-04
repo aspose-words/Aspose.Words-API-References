@@ -2,7 +2,7 @@
 title: OdsoRecipientDataCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: OdsoRecipientDataCollection RemoveAt method. Removes the element at the specified index in C#.
 type: docs
 weight: 70

@@ -2,7 +2,7 @@
 title: FieldXE.Yomi
 linktitle: Yomi
 articleTitle: Yomi
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldXE Yomi property. Gets or sets the yomi first phonetic character for sorting indexes for the index entry in C#.
 type: docs
 weight: 80

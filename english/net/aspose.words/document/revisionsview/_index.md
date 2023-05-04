@@ -2,7 +2,7 @@
 title: Document.RevisionsView
 linktitle: RevisionsView
 articleTitle: RevisionsView
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Document RevisionsView property. Gets or sets a value indicating whether to work with the original or revised version of a document in C#.
 type: docs
 weight: 360

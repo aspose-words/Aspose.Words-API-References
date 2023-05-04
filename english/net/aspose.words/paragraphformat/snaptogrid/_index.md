@@ -2,7 +2,7 @@
 title: ParagraphFormat.SnapToGrid
 linktitle: SnapToGrid
 articleTitle: SnapToGrid
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ParagraphFormat SnapToGrid property. Specifies whether the current paragraph should use the document grid lines per page settings when laying out the contents in the paragraph in C#.
 type: docs
 weight: 280

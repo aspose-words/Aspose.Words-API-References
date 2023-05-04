@@ -2,7 +2,7 @@
 title: RelativeVerticalPosition Enum
 linktitle: RelativeVerticalPosition
 articleTitle: RelativeVerticalPosition
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.RelativeVerticalPosition enum. Specifies to what the vertical position of a shape or text frame is relative in C#.
 type: docs
 weight: 1180

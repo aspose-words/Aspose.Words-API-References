@@ -2,7 +2,7 @@
 title: FieldIf.EvaluateCondition
 linktitle: EvaluateCondition
 articleTitle: EvaluateCondition
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldIf EvaluateCondition method. Evaluates the condition in C#.
 type: docs
 weight: 70

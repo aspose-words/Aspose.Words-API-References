@@ -2,7 +2,7 @@
 title: ControlChar.FieldSeparatorChar
 linktitle: FieldSeparatorChar
 articleTitle: FieldSeparatorChar
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ControlChar FieldSeparatorChar field. Field separator character separates field code from field value. Optional in some fields. Value char20 in C#.
 type: docs
 weight: 90

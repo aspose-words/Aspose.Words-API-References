@@ -2,7 +2,7 @@
 title: MergeFieldImageDimension.Unit
 linktitle: Unit
 articleTitle: Unit
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: MergeFieldImageDimension Unit property. The unit in C#.
 type: docs
 weight: 20
