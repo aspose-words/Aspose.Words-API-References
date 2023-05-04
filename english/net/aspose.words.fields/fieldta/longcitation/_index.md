@@ -2,7 +2,7 @@
 title: FieldTA.LongCitation
 linktitle: LongCitation
 articleTitle: LongCitation
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldTA LongCitation property. Gets or sets the long citation for the entry in C#.
 type: docs
 weight: 50

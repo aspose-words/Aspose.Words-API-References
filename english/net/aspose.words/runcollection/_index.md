@@ -2,7 +2,7 @@
 title: RunCollection Class
 linktitle: RunCollection
 articleTitle: RunCollection
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.RunCollection class. Provides typed access to a collection of Run nodes in C#.
 type: docs
 weight: 4740

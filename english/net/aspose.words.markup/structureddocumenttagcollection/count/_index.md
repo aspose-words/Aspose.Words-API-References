@@ -2,7 +2,7 @@
 title: StructuredDocumentTagCollection.Count
 linktitle: Count
 articleTitle: Count
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: StructuredDocumentTagCollection Count property. Returns the number of structured document tags in the collection in C#.
 type: docs
 weight: 10

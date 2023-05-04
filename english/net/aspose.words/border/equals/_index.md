@@ -2,7 +2,7 @@
 title: Border.Equals
 linktitle: Equals
 articleTitle: Equals
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Border Equals method. Determines whether the specified border is equal in value to the current border in C#.
 type: docs
 weight: 100

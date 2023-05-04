@@ -2,7 +2,7 @@
 title: CompatibilityOptions.AllowSpaceOfSameStyleInTable
 linktitle: AllowSpaceOfSameStyleInTable
 articleTitle: AllowSpaceOfSameStyleInTable
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: CompatibilityOptions AllowSpaceOfSameStyleInTable property. Allow Contextual Spacing of Paragraphs in Tables in C#.
 type: docs
 weight: 30

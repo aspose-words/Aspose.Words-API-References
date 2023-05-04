@@ -2,7 +2,7 @@
 title: Chart.Legend
 linktitle: Legend
 articleTitle: Legend
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Chart Legend property. Provides access to the chart legend properties in C#.
 type: docs
 weight: 50

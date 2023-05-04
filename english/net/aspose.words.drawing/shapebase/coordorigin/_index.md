@@ -2,7 +2,7 @@
 title: ShapeBase.CoordOrigin
 linktitle: CoordOrigin
 articleTitle: CoordOrigin
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ShapeBase CoordOrigin property. The coordinates at the topleft corner of the containing block of this shape in C#.
 type: docs
 weight: 110

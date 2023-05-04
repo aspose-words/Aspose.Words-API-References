@@ -2,7 +2,7 @@
 title: DocumentPartSavingArgs.DocumentPartFileName
 linktitle: DocumentPartFileName
 articleTitle: DocumentPartFileName
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: DocumentPartSavingArgs DocumentPartFileName property. Gets or sets the file name without path where the document part will be saved to in C#.
 type: docs
 weight: 20

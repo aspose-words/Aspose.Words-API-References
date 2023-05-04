@@ -2,7 +2,7 @@
 title: StructuredDocumentTagRangeStart.AppendChild
 linktitle: AppendChild
 articleTitle: AppendChild
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: StructuredDocumentTagRangeStart AppendChild method. Adds the specified node to the end of the stdContent range in C#.
 type: docs
 weight: 200

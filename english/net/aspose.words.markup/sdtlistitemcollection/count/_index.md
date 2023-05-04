@@ -2,7 +2,7 @@
 title: SdtListItemCollection.Count
 linktitle: Count
 articleTitle: Count
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: SdtListItemCollection Count property. Gets number of items in the collection in C#.
 type: docs
 weight: 10

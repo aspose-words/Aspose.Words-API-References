@@ -2,7 +2,7 @@
 title: ChartSeries.DataPoints
 linktitle: DataPoints
 articleTitle: DataPoints
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ChartSeries DataPoints property. Returns a collection of formatting objects for all data points in this series in C#.
 type: docs
 weight: 40

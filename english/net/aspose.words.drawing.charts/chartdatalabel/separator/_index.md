@@ -2,7 +2,7 @@
 title: ChartDataLabel.Separator
 linktitle: Separator
 articleTitle: Separator
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ChartDataLabel Separator property. Gets or sets string separator used for the data labels on a chart. The default is a comma except for pie charts showing only category name and percentage when a line break shall be used instead in C#.
 type: docs
 weight: 60

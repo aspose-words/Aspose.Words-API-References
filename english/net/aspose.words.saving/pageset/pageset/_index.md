@@ -2,7 +2,7 @@
 title: PageSet
 linktitle: PageSet
 articleTitle: PageSet
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: PageSet constructor. Creates an onepage set based on exact page index in C#.
 type: docs
 weight: 10

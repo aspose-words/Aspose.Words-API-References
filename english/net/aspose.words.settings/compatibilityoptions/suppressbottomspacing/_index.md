@@ -2,7 +2,7 @@
 title: CompatibilityOptions.SuppressBottomSpacing
 linktitle: SuppressBottomSpacing
 articleTitle: SuppressBottomSpacing
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: CompatibilityOptions SuppressBottomSpacing property. Ignore Exact Line Height for Last Line on Page in C#.
 type: docs
 weight: 480

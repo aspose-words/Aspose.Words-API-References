@@ -2,7 +2,7 @@
 title: MailMerge.ExecuteWithRegionsADO
 linktitle: ExecuteWithRegionsADO
 articleTitle: ExecuteWithRegionsADO
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: MailMerge ExecuteWithRegionsADO method. Performs mail merge from an ADO Recordset object into the document with mail merge regions in C#.
 type: docs
 weight: 210

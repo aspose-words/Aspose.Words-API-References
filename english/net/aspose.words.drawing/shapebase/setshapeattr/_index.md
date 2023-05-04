@@ -2,7 +2,7 @@
 title: ShapeBase.SetShapeAttr
 linktitle: SetShapeAttr
 articleTitle: SetShapeAttr
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ShapeBase SetShapeAttr method. Reserved for system use. IShapeAttrSource in C#.
 type: docs
 weight: 690

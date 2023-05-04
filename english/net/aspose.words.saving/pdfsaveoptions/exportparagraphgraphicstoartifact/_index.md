@@ -2,7 +2,7 @@
 title: PdfSaveOptions.ExportParagraphGraphicsToArtifact
 linktitle: ExportParagraphGraphicsToArtifact
 articleTitle: ExportParagraphGraphicsToArtifact
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: PdfSaveOptions ExportParagraphGraphicsToArtifact property. Gets or sets a value determining whether a paragraph graphic should be marked as an artifact in C#.
 type: docs
 weight: 160

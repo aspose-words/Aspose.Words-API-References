@@ -2,7 +2,7 @@
 title: XpsSaveOptions
 linktitle: XpsSaveOptions
 articleTitle: XpsSaveOptions
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: XpsSaveOptions constructor. Initializes a new instance of this class that can be used to save a document in the Xps format in C#.
 type: docs
 weight: 10

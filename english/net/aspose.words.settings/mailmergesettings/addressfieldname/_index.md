@@ -2,7 +2,7 @@
 title: MailMergeSettings.AddressFieldName
 linktitle: AddressFieldName
 articleTitle: AddressFieldName
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: MailMergeSettings AddressFieldName property. Specifies the column within the data source that contains email addresses. The default value is an empty string in C#.
 type: docs
 weight: 30

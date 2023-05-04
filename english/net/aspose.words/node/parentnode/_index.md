@@ -2,7 +2,7 @@
 title: Node.ParentNode
 linktitle: ParentNode
 articleTitle: ParentNode
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Node ParentNode property. Gets the immediate parent of this node in C#.
 type: docs
 weight: 60

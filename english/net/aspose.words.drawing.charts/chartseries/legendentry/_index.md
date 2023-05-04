@@ -2,7 +2,7 @@
 title: ChartSeries.LegendEntry
 linktitle: LegendEntry
 articleTitle: LegendEntry
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ChartSeries LegendEntry property. Gets a legend entry for this chart series in C#.
 type: docs
 weight: 90

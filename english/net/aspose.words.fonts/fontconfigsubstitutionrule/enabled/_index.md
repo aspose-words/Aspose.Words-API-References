@@ -2,7 +2,7 @@
 title: FontConfigSubstitutionRule.Enabled
 linktitle: Enabled
 articleTitle: Enabled
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FontConfigSubstitutionRule Enabled property. Specifies whether the rule is enabled or not in C#.
 type: docs
 weight: 10

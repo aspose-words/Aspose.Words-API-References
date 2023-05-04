@@ -2,7 +2,7 @@
 title: FieldCitation.SuppressTitle
 linktitle: SuppressTitle
 articleTitle: SuppressTitle
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldCitation SuppressTitle property. Gets or sets whether the title information is suppressed from the citation in C#.
 type: docs
 weight: 90

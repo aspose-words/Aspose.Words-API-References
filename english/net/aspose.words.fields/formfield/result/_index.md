@@ -2,7 +2,7 @@
 title: FormField.Result
 linktitle: Result
 articleTitle: Result
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FormField Result property. Gets or sets a string that represents the result of this form field in C#.
 type: docs
 weight: 170

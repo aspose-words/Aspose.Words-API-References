@@ -2,7 +2,7 @@
 title: FontInfoCollection.Item
 linktitle: Item
 articleTitle: Item
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FontInfoCollection Item property. Gets a font with the specified name in C#.
 type: docs
 weight: 40

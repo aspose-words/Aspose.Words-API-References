@@ -2,7 +2,7 @@
 title: Row.Cells
 linktitle: Cells
 articleTitle: Cells
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Row Cells property. Provides typed access to the Cell child nodes of the row in C#.
 type: docs
 weight: 20

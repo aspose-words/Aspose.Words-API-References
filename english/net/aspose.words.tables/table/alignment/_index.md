@@ -2,7 +2,7 @@
 title: Table.Alignment
 linktitle: Alignment
 articleTitle: Alignment
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Table Alignment property. Specifies how an inline table is aligned in the document in C#.
 type: docs
 weight: 40

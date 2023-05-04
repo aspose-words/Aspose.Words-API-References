@@ -2,7 +2,7 @@
 title: MailMerge.PreserveUnusedTags
 linktitle: PreserveUnusedTags
 articleTitle: PreserveUnusedTags
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: MailMerge PreserveUnusedTags property. Gets or sets a value indicating whether the unused mustache tags should be preserved in C#.
 type: docs
 weight: 80

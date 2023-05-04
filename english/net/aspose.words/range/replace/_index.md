@@ -2,7 +2,7 @@
 title: Range.Replace
 linktitle: Replace
 articleTitle: Replace
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Range Replace method. Replaces all occurrences of a specified character string pattern with a replacement string in C#.
 type: docs
 weight: 90

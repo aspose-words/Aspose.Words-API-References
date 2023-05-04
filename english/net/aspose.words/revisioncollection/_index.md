@@ -2,7 +2,7 @@
 title: RevisionCollection Class
 linktitle: RevisionCollection
 articleTitle: RevisionCollection
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.RevisionCollection class. A collection of Revision objects that represent revisions in the document in C#.
 type: docs
 weight: 4680

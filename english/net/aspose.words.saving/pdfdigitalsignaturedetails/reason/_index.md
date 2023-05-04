@@ -2,7 +2,7 @@
 title: PdfDigitalSignatureDetails.Reason
 linktitle: Reason
 articleTitle: Reason
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: PdfDigitalSignatureDetails Reason property. Gets or sets the reason for the signing in C#.
 type: docs
 weight: 50

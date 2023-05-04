@@ -2,7 +2,7 @@
 title: ImageWatermarkOptions.Scale
 linktitle: Scale
 articleTitle: Scale
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ImageWatermarkOptions Scale property. Gets or sets the scale factor expressed as a fraction of the image. The default value is 0  auto in C#.
 type: docs
 weight: 30

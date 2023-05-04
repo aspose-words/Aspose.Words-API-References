@@ -2,7 +2,7 @@
 title: Node.Remove
 linktitle: Remove
 articleTitle: Remove
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Node Remove method. Removes itself from the parent in C#.
 type: docs
 weight: 150

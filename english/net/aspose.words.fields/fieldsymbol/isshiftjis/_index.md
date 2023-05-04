@@ -2,7 +2,7 @@
 title: FieldSymbol.IsShiftJis
 linktitle: IsShiftJis
 articleTitle: IsShiftJis
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldSymbol IsShiftJis property. Gets or sets whether the character code is interpreted as the value of a SHIFTJIS character in C#.
 type: docs
 weight: 70

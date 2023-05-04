@@ -2,7 +2,7 @@
 title: Body.NodeType
 linktitle: NodeType
 articleTitle: NodeType
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Body NodeType property. Returns Body in C#.
 type: docs
 weight: 20

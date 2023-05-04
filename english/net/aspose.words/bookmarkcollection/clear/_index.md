@@ -2,7 +2,7 @@
 title: BookmarkCollection.Clear
 linktitle: Clear
 articleTitle: Clear
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: BookmarkCollection Clear method. Removes all bookmarks from this collection and from the document in C#.
 type: docs
 weight: 30

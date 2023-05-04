@@ -2,7 +2,7 @@
 title: CompatibilityOptions.UICompat97To2003
 linktitle: UICompat97To2003
 articleTitle: UICompat97To2003
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: CompatibilityOptions UICompat97To2003 property. True to disable UI functionality which is not compatible with Word972003. Default value is false in C#.
 type: docs
 weight: 570

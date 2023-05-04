@@ -2,7 +2,7 @@
 title: FieldSkipIf Class
 linktitle: FieldSkipIf
 articleTitle: FieldSkipIf
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.FieldSkipIf class. Implements the SKIPIF field in C#.
 type: docs
 weight: 2390

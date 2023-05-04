@@ -2,7 +2,7 @@
 title: Node.IsComposite
 linktitle: IsComposite
 articleTitle: IsComposite
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Node IsComposite property. Returns true if this node can contain other nodes in C#.
 type: docs
 weight: 30

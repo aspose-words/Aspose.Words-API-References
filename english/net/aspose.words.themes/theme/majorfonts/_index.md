@@ -2,7 +2,7 @@
 title: Theme.MajorFonts
 linktitle: MajorFonts
 articleTitle: MajorFonts
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Theme MajorFonts property. Allows to specify the set of major fonts for different languages in C#.
 type: docs
 weight: 30

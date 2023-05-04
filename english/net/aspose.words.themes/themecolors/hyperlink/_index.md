@@ -2,7 +2,7 @@
 title: ThemeColors.Hyperlink
 linktitle: Hyperlink
 articleTitle: Hyperlink
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ThemeColors Hyperlink property. Specifies color for a hyperlink in C#.
 type: docs
 weight: 100

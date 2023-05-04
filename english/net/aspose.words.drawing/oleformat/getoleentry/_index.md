@@ -2,7 +2,7 @@
 title: OleFormat.GetOleEntry
 linktitle: GetOleEntry
 articleTitle: GetOleEntry
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: OleFormat GetOleEntry method. Gets OLE object data entry in C#.
 type: docs
 weight: 140

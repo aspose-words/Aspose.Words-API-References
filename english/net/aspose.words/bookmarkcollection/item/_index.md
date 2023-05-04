@@ -2,7 +2,7 @@
 title: BookmarkCollection.Item
 linktitle: Item
 articleTitle: Item
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: BookmarkCollection Item property. Returns a bookmark at the specified index in C#.
 type: docs
 weight: 20

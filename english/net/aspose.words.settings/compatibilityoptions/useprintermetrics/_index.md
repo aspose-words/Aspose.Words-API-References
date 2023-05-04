@@ -2,7 +2,7 @@
 title: CompatibilityOptions.UsePrinterMetrics
 linktitle: UsePrinterMetrics
 articleTitle: UsePrinterMetrics
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: CompatibilityOptions UsePrinterMetrics property. Use Printer Metrics To Display Documents in C#.
 type: docs
 weight: 640

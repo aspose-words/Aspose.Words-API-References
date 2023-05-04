@@ -2,7 +2,7 @@
 title: LayoutOptions Class
 linktitle: LayoutOptions
 articleTitle: LayoutOptions
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.Layout.LayoutOptions class. Holds the options that allow controlling the document layout process in C#.
 type: docs
 weight: 3290

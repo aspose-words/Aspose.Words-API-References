@@ -2,7 +2,7 @@
 title: FieldDde.InsertAsRtf
 linktitle: InsertAsRtf
 articleTitle: InsertAsRtf
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldDde InsertAsRtf property. Gets or sets whether to insert the linked object in richtext format RTF in C#.
 type: docs
 weight: 60

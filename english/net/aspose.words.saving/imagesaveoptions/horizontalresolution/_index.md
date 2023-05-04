@@ -2,7 +2,7 @@
 title: ImageSaveOptions.HorizontalResolution
 linktitle: HorizontalResolution
 articleTitle: HorizontalResolution
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ImageSaveOptions HorizontalResolution property. Gets or sets the horizontal resolution for the generated images in dots per inch in C#.
 type: docs
 weight: 30

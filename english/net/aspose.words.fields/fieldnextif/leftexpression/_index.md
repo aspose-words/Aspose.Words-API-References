@@ -2,7 +2,7 @@
 title: FieldNextIf.LeftExpression
 linktitle: LeftExpression
 articleTitle: LeftExpression
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldNextIf LeftExpression property. Gets or sets the left part of the comparison expression in C#.
 type: docs
 weight: 30

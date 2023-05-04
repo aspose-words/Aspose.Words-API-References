@@ -2,7 +2,7 @@
 title: FieldIncludePicture.GraphicFilter
 linktitle: GraphicFilter
 articleTitle: GraphicFilter
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldIncludePicture GraphicFilter property. Gets or sets the name of the filter for the format of the graphic that is to be inserted in C#.
 type: docs
 weight: 20

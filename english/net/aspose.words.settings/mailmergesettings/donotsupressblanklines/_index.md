@@ -2,7 +2,7 @@
 title: MailMergeSettings.DoNotSupressBlankLines
 linktitle: DoNotSupressBlankLines
 articleTitle: DoNotSupressBlankLines
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: MailMergeSettings DoNotSupressBlankLines property. Specifies how an application performing the mail merge shall handle blank lines in the merged documents resulting from the mail merge. The default value is false in C#.
 type: docs
 weight: 90

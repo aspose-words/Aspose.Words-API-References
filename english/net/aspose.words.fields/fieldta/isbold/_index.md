@@ -2,7 +2,7 @@
 title: FieldTA.IsBold
 linktitle: IsBold
 articleTitle: IsBold
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldTA IsBold property. Gets or sets whether to apply bold formatting to the page number for the entry in C#.
 type: docs
 weight: 30

@@ -2,7 +2,7 @@
 title: FieldIncludeText.XslTransformation
 linktitle: XslTransformation
 articleTitle: XslTransformation
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldIncludeText XslTransformation property. Gets or sets the location of XSL Transformation to format XML data in C#.
 type: docs
 weight: 100

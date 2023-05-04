@@ -2,7 +2,7 @@
 title: FieldOptions.FieldUpdatingCallback
 linktitle: FieldUpdatingCallback
 articleTitle: FieldUpdatingCallback
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldOptions FieldUpdatingCallback property. Gets or sets IFieldUpdatingCallback implementation in C#.
 type: docs
 weight: 110

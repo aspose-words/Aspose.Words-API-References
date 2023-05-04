@@ -2,7 +2,7 @@
 title: CompatibilityOptions.DoNotBreakWrappedTables
 linktitle: DoNotBreakWrappedTables
 articleTitle: DoNotBreakWrappedTables
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: CompatibilityOptions DoNotBreakWrappedTables property. Do Not Allow Floating Tables To Break Across Pages in C#.
 type: docs
 weight: 140

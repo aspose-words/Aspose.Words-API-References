@@ -2,7 +2,7 @@
 title: DocumentBuilder.CurrentStory
 linktitle: CurrentStory
 articleTitle: CurrentStory
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: DocumentBuilder CurrentStory property. Gets the story that is currently selected in this DocumentBuilder in C#.
 type: docs
 weight: 70

@@ -2,7 +2,7 @@
 title: Story.Paragraphs
 linktitle: Paragraphs
 articleTitle: Paragraphs
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Story Paragraphs property. Gets a collection of paragraphs that are immediate children of the story in C#.
 type: docs
 weight: 30

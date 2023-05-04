@@ -2,7 +2,7 @@
 title: ListFormat.ApplyBulletDefault
 linktitle: ApplyBulletDefault
 articleTitle: ApplyBulletDefault
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ListFormat ApplyBulletDefault method. Starts a new default bulleted list and applies it to the paragraph in C#.
 type: docs
 weight: 50

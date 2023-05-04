@@ -2,7 +2,7 @@
 title: Document.JoinRunsWithSameFormatting
 linktitle: JoinRunsWithSameFormatting
 articleTitle: JoinRunsWithSameFormatting
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Document JoinRunsWithSameFormatting method. Joins runs with same formatting in all paragraphs of the document in C#.
 type: docs
 weight: 620

@@ -2,7 +2,7 @@
 title: DocumentVisitor.VisitCellStart
 linktitle: VisitCellStart
 articleTitle: VisitCellStart
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: DocumentVisitor VisitCellStart method. Called when enumeration of a table cell has started in C#.
 type: docs
 weight: 90

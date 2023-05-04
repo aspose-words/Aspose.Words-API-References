@@ -2,7 +2,7 @@
 title: Style.AutomaticallyUpdate
 linktitle: AutomaticallyUpdate
 articleTitle: AutomaticallyUpdate
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Style AutomaticallyUpdate property. Specifies whether this style is automatically redefined based on the appropriate value in C#.
 type: docs
 weight: 20

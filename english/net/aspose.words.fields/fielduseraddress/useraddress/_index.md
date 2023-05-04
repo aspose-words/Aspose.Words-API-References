@@ -2,7 +2,7 @@
 title: FieldUserAddress.UserAddress
 linktitle: UserAddress
 articleTitle: UserAddress
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldUserAddress UserAddress property. Gets or sets the current users postal address in C#.
 type: docs
 weight: 20

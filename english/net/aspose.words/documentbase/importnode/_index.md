@@ -2,7 +2,7 @@
 title: DocumentBase.ImportNode
 linktitle: ImportNode
 articleTitle: ImportNode
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: DocumentBase ImportNode method. Imports a node from another document to the current document in C#.
 type: docs
 weight: 100

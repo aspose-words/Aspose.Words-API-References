@@ -2,7 +2,7 @@
 title: FormField.StatusText
 linktitle: StatusText
 articleTitle: StatusText
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FormField StatusText property. Returns or sets the text thats displayed in the status bar when a form field has the focus in C#.
 type: docs
 weight: 180

@@ -2,7 +2,7 @@
 title: Paragraph.FrameFormat
 linktitle: FrameFormat
 articleTitle: FrameFormat
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Paragraph FrameFormat property. Provides access to the frame formatting properties in C#.
 type: docs
 weight: 30

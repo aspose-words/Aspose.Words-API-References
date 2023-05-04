@@ -2,7 +2,7 @@
 title: CellFormat.Borders
 linktitle: Borders
 articleTitle: Borders
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: CellFormat Borders property. Gets collection of borders of the cell in C#.
 type: docs
 weight: 10

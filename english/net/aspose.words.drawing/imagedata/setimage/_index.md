@@ -2,7 +2,7 @@
 title: ImageData.SetImage
 linktitle: SetImage
 articleTitle: SetImage
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ImageData SetImage method. Sets the image that the shape displays in C#.
 type: docs
 weight: 200

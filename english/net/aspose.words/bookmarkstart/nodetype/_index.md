@@ -2,7 +2,7 @@
 title: BookmarkStart.NodeType
 linktitle: NodeType
 articleTitle: NodeType
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: BookmarkStart NodeType property. Returns BookmarkStart in C#.
 type: docs
 weight: 40

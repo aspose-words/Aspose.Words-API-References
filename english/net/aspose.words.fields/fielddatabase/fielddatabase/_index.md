@@ -2,7 +2,7 @@
 title: FieldDatabase
 linktitle: FieldDatabase
 articleTitle: FieldDatabase
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldDatabase constructor. The default constructor in C#.
 type: docs
 weight: 10

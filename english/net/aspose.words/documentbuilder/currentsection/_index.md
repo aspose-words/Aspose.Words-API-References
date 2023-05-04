@@ -2,7 +2,7 @@
 title: DocumentBuilder.CurrentSection
 linktitle: CurrentSection
 articleTitle: CurrentSection
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: DocumentBuilder CurrentSection property. Gets the section that is currently selected in this DocumentBuilder in C#.
 type: docs
 weight: 60

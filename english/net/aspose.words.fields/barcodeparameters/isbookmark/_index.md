@@ -2,7 +2,7 @@
 title: BarcodeParameters.IsBookmark
 linktitle: IsBookmark
 articleTitle: IsBookmark
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: BarcodeParameters IsBookmark property. Whether PostalAddress is the name of a bookmark in C#.
 type: docs
 weight: 120

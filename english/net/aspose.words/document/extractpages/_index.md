@@ -2,7 +2,7 @@
 title: Document.ExtractPages
 linktitle: ExtractPages
 articleTitle: ExtractPages
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Document ExtractPages method. Returns the Document object representing specified range of pages in C#.
 type: docs
 weight: 600

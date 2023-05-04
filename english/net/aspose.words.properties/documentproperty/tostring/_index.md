@@ -2,7 +2,7 @@
 title: DocumentProperty.ToString
 linktitle: ToString
 articleTitle: ToString
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: DocumentProperty ToString method. Returns the property value as a string formatted according to the current locale in C#.
 type: docs
 weight: 110

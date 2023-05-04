@@ -2,7 +2,7 @@
 title: NodeRendererBase.GetSizeInPixels
 linktitle: GetSizeInPixels
 articleTitle: GetSizeInPixels
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: NodeRendererBase GetSizeInPixels method. Calculates the size of the shape in pixels for a specified zoom factor and resolution in C#.
 type: docs
 weight: 60

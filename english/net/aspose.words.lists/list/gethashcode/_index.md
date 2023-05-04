@@ -2,7 +2,7 @@
 title: List.GetHashCode
 linktitle: GetHashCode
 articleTitle: GetHashCode
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: List GetHashCode method. Calculates hash code for this list object in C#.
 type: docs
 weight: 110

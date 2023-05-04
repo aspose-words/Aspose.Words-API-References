@@ -2,7 +2,7 @@
 title: FieldBibliography
 linktitle: FieldBibliography
 articleTitle: FieldBibliography
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldBibliography constructor. The default constructor in C#.
 type: docs
 weight: 10

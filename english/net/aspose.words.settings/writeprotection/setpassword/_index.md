@@ -2,7 +2,7 @@
 title: WriteProtection.SetPassword
 linktitle: SetPassword
 articleTitle: SetPassword
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: WriteProtection SetPassword method. Sets the write protection password for the document in C#.
 type: docs
 weight: 30

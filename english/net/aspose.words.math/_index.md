@@ -2,7 +2,7 @@
 title: Aspose.Words.Math
 linktitle: Aspose.Words.Math
 articleTitle: Aspose.Words.Math
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: The Aspose.Words.Math namespace contains classes that represent Office Math elements in C#.
 type: docs
 weight: 160

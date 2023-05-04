@@ -2,7 +2,7 @@
 title: Shape.HasChart
 linktitle: HasChart
 articleTitle: HasChart
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Shape HasChart property. Returns true if this Shape has a Chart in C#.
 type: docs
 weight: 70

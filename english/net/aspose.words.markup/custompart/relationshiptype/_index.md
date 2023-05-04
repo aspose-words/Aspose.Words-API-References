@@ -2,7 +2,7 @@
 title: CustomPart.RelationshipType
 linktitle: RelationshipType
 articleTitle: RelationshipType
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: CustomPart RelationshipType property. Gets or sets the relationship type from the parent part to this custom part in C#.
 type: docs
 weight: 60

@@ -2,7 +2,7 @@
 title: FontSettings.DefaultInstance
 linktitle: DefaultInstance
 articleTitle: DefaultInstance
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FontSettings DefaultInstance property. Static default font settings in C#.
 type: docs
 weight: 20

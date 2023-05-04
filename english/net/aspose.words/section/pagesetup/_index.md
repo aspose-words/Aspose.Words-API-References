@@ -2,7 +2,7 @@
 title: Section.PageSetup
 linktitle: PageSetup
 articleTitle: PageSetup
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Section PageSetup property. Returns an object that represents page setup and section properties in C#.
 type: docs
 weight: 50

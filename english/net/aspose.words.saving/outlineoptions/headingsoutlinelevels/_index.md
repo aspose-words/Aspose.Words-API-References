@@ -2,7 +2,7 @@
 title: OutlineOptions.HeadingsOutlineLevels
 linktitle: HeadingsOutlineLevels
 articleTitle: HeadingsOutlineLevels
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: OutlineOptions HeadingsOutlineLevels property. Specifies how many levels of headings paragraphs formatted with the Heading styles to include in the document outline in C#.
 type: docs
 weight: 70

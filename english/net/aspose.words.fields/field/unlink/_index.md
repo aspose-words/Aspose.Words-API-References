@@ -2,7 +2,7 @@
 title: Field.Unlink
 linktitle: Unlink
 articleTitle: Unlink
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Field Unlink method. Performs the field unlink in C#.
 type: docs
 weight: 130

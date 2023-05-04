@@ -2,7 +2,7 @@
 title: FieldCollection Class
 linktitle: FieldCollection
 articleTitle: FieldCollection
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.FieldCollection class. A collection of Field objects that represents the fields in the specified range in C#.
 type: docs
 weight: 1660

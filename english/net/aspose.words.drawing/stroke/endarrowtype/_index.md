@@ -2,7 +2,7 @@
 title: Stroke.EndArrowType
 linktitle: EndArrowType
 articleTitle: EndArrowType
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Stroke EndArrowType property. Defines the arrowhead for the end of a stroke in C#.
 type: docs
 weight: 60

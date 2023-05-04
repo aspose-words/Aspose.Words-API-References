@@ -2,7 +2,7 @@
 title: Document
 linktitle: Document
 articleTitle: Document
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Document constructor. Creates a blank Word document in C#.
 type: docs
 weight: 10

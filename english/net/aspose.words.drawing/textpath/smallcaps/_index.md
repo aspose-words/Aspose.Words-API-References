@@ -2,7 +2,7 @@
 title: TextPath.SmallCaps
 linktitle: SmallCaps
 articleTitle: SmallCaps
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: TextPath SmallCaps property. True if the font is formatted as small capital letters in C#.
 type: docs
 weight: 130

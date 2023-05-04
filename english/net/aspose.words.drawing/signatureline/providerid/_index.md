@@ -2,7 +2,7 @@
 title: SignatureLine.ProviderId
 linktitle: ProviderId
 articleTitle: ProviderId
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: SignatureLine ProviderId property. Gets or sets signature provider identifier for this signature line. Default value is 00000000000000000000000000000000 in C#.
 type: docs
 weight: 80

@@ -2,7 +2,7 @@
 title: BorderCollection.LineWidth
 linktitle: LineWidth
 articleTitle: LineWidth
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: BorderCollection LineWidth property. Gets or sets the border width in points in C#.
 type: docs
 weight: 90

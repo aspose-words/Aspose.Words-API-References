@@ -2,7 +2,7 @@
 title: CompatibilityOptions.SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning
 linktitle: SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning
 articleTitle: SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: CompatibilityOptions SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning property. Specifies to swap inside and outside for mirror indents and relative positioning in C#.
 type: docs
 weight: 540

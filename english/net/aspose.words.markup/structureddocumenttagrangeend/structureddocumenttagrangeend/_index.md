@@ -2,7 +2,7 @@
 title: StructuredDocumentTagRangeEnd
 linktitle: StructuredDocumentTagRangeEnd
 articleTitle: StructuredDocumentTagRangeEnd
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: StructuredDocumentTagRangeEnd constructor. Initializes a new instance of the Structured document tag range end class in C#.
 type: docs
 weight: 10

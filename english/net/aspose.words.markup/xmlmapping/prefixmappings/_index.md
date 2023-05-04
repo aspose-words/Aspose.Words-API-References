@@ -2,7 +2,7 @@
 title: XmlMapping.PrefixMappings
 linktitle: PrefixMappings
 articleTitle: PrefixMappings
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: XmlMapping PrefixMappings property. Returns XML namespace prefix mappings to evaluate the XPath in C#.
 type: docs
 weight: 30

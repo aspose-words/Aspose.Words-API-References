@@ -2,7 +2,7 @@
 title: ChartLegendEntryCollection.Item
 linktitle: Item
 articleTitle: Item
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ChartLegendEntryCollection Item property. Returns ChartLegendEntry for the specified index in C#.
 type: docs
 weight: 20

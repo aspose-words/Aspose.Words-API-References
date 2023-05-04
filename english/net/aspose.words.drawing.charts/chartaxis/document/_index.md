@@ -2,7 +2,7 @@
 title: ChartAxis.Document
 linktitle: Document
 articleTitle: Document
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ChartAxis Document property. Returns the Document the title holder belongs in C#.
 type: docs
 weight: 70

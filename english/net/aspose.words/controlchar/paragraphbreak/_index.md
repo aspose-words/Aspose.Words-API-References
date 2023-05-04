@@ -2,7 +2,7 @@
 title: ControlChar.ParagraphBreak
 linktitle: ParagraphBreak
 articleTitle: ParagraphBreak
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ControlChar ParagraphBreak field. End of paragraph character x000d or r. Same as Cr in C#.
 type: docs
 weight: 220

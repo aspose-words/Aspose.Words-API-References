@@ -2,7 +2,7 @@
 title: FontSavingArgs.OriginalFileSize
 linktitle: OriginalFileSize
 articleTitle: OriginalFileSize
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FontSavingArgs OriginalFileSize property. Gets the original font file size in C#.
 type: docs
 weight: 110

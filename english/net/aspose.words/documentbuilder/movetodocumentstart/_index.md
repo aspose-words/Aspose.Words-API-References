@@ -2,7 +2,7 @@
 title: DocumentBuilder.MoveToDocumentStart
 linktitle: MoveToDocumentStart
 articleTitle: MoveToDocumentStart
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: DocumentBuilder MoveToDocumentStart method. Moves the cursor to the beginning of the document in C#.
 type: docs
 weight: 520

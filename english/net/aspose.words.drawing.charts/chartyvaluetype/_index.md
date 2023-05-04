@@ -2,7 +2,7 @@
 title: ChartYValueType Enum
 linktitle: ChartYValueType
 articleTitle: ChartYValueType
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Charts.ChartYValueType enum. Allows to specify type of an Y value of a chart series in C#.
 type: docs
 weight: 860

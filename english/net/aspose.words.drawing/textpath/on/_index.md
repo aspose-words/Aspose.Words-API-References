@@ -2,7 +2,7 @@
 title: TextPath.On
 linktitle: On
 articleTitle: On
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: TextPath On property. Defines whether the text is displayed in C#.
 type: docs
 weight: 70

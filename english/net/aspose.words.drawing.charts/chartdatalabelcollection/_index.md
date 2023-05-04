@@ -2,7 +2,7 @@
 title: ChartDataLabelCollection Class
 linktitle: ChartDataLabelCollection
 articleTitle: ChartDataLabelCollection
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Charts.ChartDataLabelCollection class. Represents a collection of ChartDataLabel in C#.
 type: docs
 weight: 660

@@ -2,7 +2,7 @@
 title: Bookmark.BookmarkStart
 linktitle: BookmarkStart
 articleTitle: BookmarkStart
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Bookmark BookmarkStart property. Gets the node that represents the start of the bookmark in C#.
 type: docs
 weight: 20

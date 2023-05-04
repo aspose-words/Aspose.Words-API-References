@@ -2,7 +2,7 @@
 title: Glyph Class
 linktitle: Glyph
 articleTitle: Glyph
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.Shaping.Glyph class. Represents a glyph in C#.
 type: docs
 weight: 5940

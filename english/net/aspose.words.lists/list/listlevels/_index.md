@@ -2,7 +2,7 @@
 title: List.ListLevels
 linktitle: ListLevels
 articleTitle: ListLevels
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: List ListLevels property. Gets the collection of list levels for this list in C#.
 type: docs
 weight: 70

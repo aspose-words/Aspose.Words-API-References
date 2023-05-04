@@ -2,7 +2,7 @@
 title: EditableRange.Id
 linktitle: Id
 articleTitle: Id
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: EditableRange Id property. Gets the editable range identifier in C#.
 type: docs
 weight: 40

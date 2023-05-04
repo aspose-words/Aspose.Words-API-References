@@ -2,7 +2,7 @@
 title: CompositeNode.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: CompositeNode GetEnumerator method. Provides support for the for each style iteration over the child nodes of this node in C#.
 type: docs
 weight: 110

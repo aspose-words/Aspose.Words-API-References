@@ -2,7 +2,7 @@
 title: WriteProtection.IsWriteProtected
 linktitle: IsWriteProtected
 articleTitle: IsWriteProtected
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: WriteProtection IsWriteProtected property. Returns true when a write protection password is set in C#.
 type: docs
 weight: 10

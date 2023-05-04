@@ -2,7 +2,7 @@
 title: WebExtension Class
 linktitle: WebExtension
 articleTitle: WebExtension
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.WebExtensions.WebExtension class. Represents a web extension object in C#.
 type: docs
 weight: 6640

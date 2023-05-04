@@ -2,7 +2,7 @@
 title: ChartLegend Class
 linktitle: ChartLegend
 articleTitle: ChartLegend
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.Charts.ChartLegend class. Represents chart legend properties in C#.
 type: docs
 weight: 700

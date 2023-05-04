@@ -2,7 +2,7 @@
 title: FieldGreetingLine.LanguageId
 linktitle: LanguageId
 articleTitle: LanguageId
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldGreetingLine LanguageId property. Gets or sets the language id used to format the name in C#.
 type: docs
 weight: 30

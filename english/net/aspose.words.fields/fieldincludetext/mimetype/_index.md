@@ -2,7 +2,7 @@
 title: FieldIncludeText.MimeType
 linktitle: MimeType
 articleTitle: MimeType
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldIncludeText MimeType property. Gets or sets the MIME type of the referenced file in C#.
 type: docs
 weight: 50

@@ -2,7 +2,7 @@
 title: FieldGreetingLine.GetFieldNames
 linktitle: GetFieldNames
 articleTitle: GetFieldNames
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldGreetingLine GetFieldNames method. Returns a collection of mail merge field names used by the field in C#.
 type: docs
 weight: 50

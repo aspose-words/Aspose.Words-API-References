@@ -2,7 +2,7 @@
 title: FieldLink Class
 linktitle: FieldLink
 articleTitle: FieldLink
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.FieldLink class. Implements the LINK field in C#.
 type: docs
 weight: 2080

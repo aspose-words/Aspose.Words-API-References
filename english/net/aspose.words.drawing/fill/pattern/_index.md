@@ -2,7 +2,7 @@
 title: Fill.Pattern
 linktitle: Pattern
 articleTitle: Pattern
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Fill Pattern property. Gets a PatternType for the fill in C#.
 type: docs
 weight: 140

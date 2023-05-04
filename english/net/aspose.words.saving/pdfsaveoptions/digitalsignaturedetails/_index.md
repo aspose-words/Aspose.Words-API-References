@@ -2,7 +2,7 @@
 title: PdfSaveOptions.DigitalSignatureDetails
 linktitle: DigitalSignatureDetails
 articleTitle: DigitalSignatureDetails
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: PdfSaveOptions DigitalSignatureDetails property. Gets or sets the details for signing the output PDF document in C#.
 type: docs
 weight: 70

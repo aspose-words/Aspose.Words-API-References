@@ -2,7 +2,7 @@
 title: PageSetup.SheetsPerBooklet
 linktitle: SheetsPerBooklet
 articleTitle: SheetsPerBooklet
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: PageSetup SheetsPerBooklet property. Returns or sets the number of pages to be included in each booklet in C#.
 type: docs
 weight: 400

@@ -2,7 +2,7 @@
 title: FieldQuote
 linktitle: FieldQuote
 articleTitle: FieldQuote
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldQuote constructor. The default constructor in C#.
 type: docs
 weight: 10

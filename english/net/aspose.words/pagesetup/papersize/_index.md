@@ -2,7 +2,7 @@
 title: PageSetup.PaperSize
 linktitle: PaperSize
 articleTitle: PaperSize
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: PageSetup PaperSize property. Returns or sets the paper size in C#.
 type: docs
 weight: 350

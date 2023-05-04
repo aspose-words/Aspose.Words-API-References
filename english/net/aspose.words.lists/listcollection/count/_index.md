@@ -2,7 +2,7 @@
 title: ListCollection.Count
 linktitle: Count
 articleTitle: Count
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ListCollection Count property. Gets the count of numbered and bulleted lists in the document in C#.
 type: docs
 weight: 10

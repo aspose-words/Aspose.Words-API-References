@@ -2,7 +2,7 @@
 title: EditableRangeStart Class
 linktitle: EditableRangeStart
 articleTitle: EditableRangeStart
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.EditableRangeStart class. Represents a start of an editable range in a Word document in C#.
 type: docs
 weight: 1410

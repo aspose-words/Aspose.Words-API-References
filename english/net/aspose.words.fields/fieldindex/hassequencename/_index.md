@@ -2,7 +2,7 @@
 title: FieldIndex.HasSequenceName
 linktitle: HasSequenceName
 articleTitle: HasSequenceName
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldIndex HasSequenceName property. Gets a value indicating whether a sequence should be used while the fields result building in C#.
 type: docs
 weight: 60

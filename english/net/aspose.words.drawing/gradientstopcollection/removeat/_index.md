@@ -2,7 +2,7 @@
 title: GradientStopCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: GradientStopCollection RemoveAt method. Removes a GradientStop from the collection at a specified index in C#.
 type: docs
 weight: 70

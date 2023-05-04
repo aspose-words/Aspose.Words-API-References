@@ -2,7 +2,7 @@
 title: Paragraph
 linktitle: Paragraph
 articleTitle: Paragraph
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Paragraph constructor. Initializes a new instance of the Paragraph class in C#.
 type: docs
 weight: 10

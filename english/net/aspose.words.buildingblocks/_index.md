@@ -2,7 +2,7 @@
 title: Aspose.Words.BuildingBlocks
 linktitle: Aspose.Words.BuildingBlocks
 articleTitle: Aspose.Words.BuildingBlocks
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: The Aspose.Words.BuildingBlocks namespace provides classes that allow to access and use AutoText AutoCorrect entries and Building Blocks in a document in C#.
 type: docs
 weight: 20

@@ -2,7 +2,7 @@
 title: FieldXE Class
 linktitle: FieldXE
 articleTitle: FieldXE
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.FieldXE class. Implements the XE field in C#.
 type: docs
 weight: 2580

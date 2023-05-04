@@ -2,7 +2,7 @@
 title: HeaderFooterCollection.Item
 linktitle: Item
 articleTitle: Item
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: HeaderFooterCollection Item property. Retrieves a HeaderFooter at the given index in C#.
 type: docs
 weight: 10

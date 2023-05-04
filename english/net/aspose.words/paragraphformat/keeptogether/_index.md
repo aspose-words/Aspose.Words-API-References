@@ -2,7 +2,7 @@
 title: ParagraphFormat.KeepTogether
 linktitle: KeepTogether
 articleTitle: KeepTogether
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ParagraphFormat KeepTogether property. True if all lines in the paragraph are to remain on the same page in C#.
 type: docs
 weight: 150

@@ -2,7 +2,7 @@
 title: FieldCitation.Prefix
 linktitle: Prefix
 articleTitle: Prefix
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldCitation Prefix property. Gets or sets a prefix that is prepended to the citation in C#.
 type: docs
 weight: 50

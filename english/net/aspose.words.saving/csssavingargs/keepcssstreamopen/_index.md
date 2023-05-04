@@ -2,7 +2,7 @@
 title: CssSavingArgs.KeepCssStreamOpen
 linktitle: KeepCssStreamOpen
 articleTitle: KeepCssStreamOpen
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: CssSavingArgs KeepCssStreamOpen property. Specifies whether Aspose.Words should keep the stream open or close it after saving an CSS information in C#.
 type: docs
 weight: 40

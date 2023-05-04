@@ -2,7 +2,7 @@
 title: ConditionalStyle.Borders
 linktitle: Borders
 articleTitle: Borders
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ConditionalStyle Borders property. Gets the collection of default cell borders for the conditional style in C#.
 type: docs
 weight: 10

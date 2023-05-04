@@ -2,7 +2,7 @@
 title: Fill.BackTintAndShade
 linktitle: BackTintAndShade
 articleTitle: BackTintAndShade
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Fill BackTintAndShade property. Gets or sets a double value that lightens or darkens the background color in C#.
 type: docs
 weight: 30

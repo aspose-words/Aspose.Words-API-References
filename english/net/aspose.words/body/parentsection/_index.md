@@ -2,7 +2,7 @@
 title: Body.ParentSection
 linktitle: ParentSection
 articleTitle: ParentSection
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Body ParentSection property. Gets the parent section of this story in C#.
 type: docs
 weight: 30

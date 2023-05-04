@@ -2,7 +2,7 @@
 title: Cluster Class
 linktitle: Cluster
 articleTitle: Cluster
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.Shaping.Cluster class. Encapsulates code points and glyphs composing a grapheme in C#.
 type: docs
 weight: 5910

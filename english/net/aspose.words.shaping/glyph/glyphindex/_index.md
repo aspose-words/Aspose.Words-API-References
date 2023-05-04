@@ -2,7 +2,7 @@
 title: Glyph.GlyphIndex
 linktitle: GlyphIndex
 articleTitle: GlyphIndex
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Glyph GlyphIndex property. Index of the glyph GID in the physical font in C#.
 type: docs
 weight: 50

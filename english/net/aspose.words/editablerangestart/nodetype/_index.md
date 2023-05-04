@@ -2,7 +2,7 @@
 title: EditableRangeStart.NodeType
 linktitle: NodeType
 articleTitle: NodeType
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: EditableRangeStart NodeType property. Returns EditableRangeStart in C#.
 type: docs
 weight: 30

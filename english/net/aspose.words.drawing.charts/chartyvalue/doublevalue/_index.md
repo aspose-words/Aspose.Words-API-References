@@ -2,7 +2,7 @@
 title: ChartYValue.DoubleValue
 linktitle: DoubleValue
 articleTitle: DoubleValue
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ChartYValue DoubleValue property. Gets the stored numeric value in C#.
 type: docs
 weight: 50

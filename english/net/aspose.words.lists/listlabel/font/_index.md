@@ -2,7 +2,7 @@
 title: ListLabel.Font
 linktitle: Font
 articleTitle: Font
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ListLabel Font property. Gets the list label font in C#.
 type: docs
 weight: 10

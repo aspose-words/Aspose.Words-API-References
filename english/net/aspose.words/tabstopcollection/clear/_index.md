@@ -2,7 +2,7 @@
 title: TabStopCollection.Clear
 linktitle: Clear
 articleTitle: Clear
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: TabStopCollection Clear method. Deletes all tab stop positions in C#.
 type: docs
 weight: 60

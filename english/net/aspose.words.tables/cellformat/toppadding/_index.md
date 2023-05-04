@@ -2,7 +2,7 @@
 title: CellFormat.TopPadding
 linktitle: TopPadding
 articleTitle: TopPadding
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: CellFormat TopPadding property. Returns or sets the amount of space in points to add above the contents of cell in C#.
 type: docs
 weight: 100

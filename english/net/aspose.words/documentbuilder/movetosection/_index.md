@@ -2,7 +2,7 @@
 title: DocumentBuilder.MoveToSection
 linktitle: MoveToSection
 articleTitle: MoveToSection
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: DocumentBuilder MoveToSection method. Moves the cursor to the beginning of the body in a specified section in C#.
 type: docs
 weight: 570

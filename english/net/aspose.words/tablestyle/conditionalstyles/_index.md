@@ -2,7 +2,7 @@
 title: TableStyle.ConditionalStyles
 linktitle: ConditionalStyles
 articleTitle: ConditionalStyles
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: TableStyle ConditionalStyles property. Collection of conditional styles that may be defined for this table style in C#.
 type: docs
 weight: 80

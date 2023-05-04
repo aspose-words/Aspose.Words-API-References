@@ -2,7 +2,7 @@
 title: Font.LocaleIdFarEast
 linktitle: LocaleIdFarEast
 articleTitle: LocaleIdFarEast
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Font LocaleIdFarEast property. Gets or sets the locale identifier language of the formatted Asian characters in C#.
 type: docs
 weight: 220

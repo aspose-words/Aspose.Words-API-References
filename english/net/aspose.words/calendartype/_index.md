@@ -2,7 +2,7 @@
 title: CalendarType Enum
 linktitle: CalendarType
 articleTitle: CalendarType
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.CalendarType enum. Specifies the type of a calendar in C#.
 type: docs
 weight: 180

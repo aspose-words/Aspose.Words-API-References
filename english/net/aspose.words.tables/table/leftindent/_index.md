@@ -2,7 +2,7 @@
 title: Table.LeftIndent
 linktitle: LeftIndent
 articleTitle: LeftIndent
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Table LeftIndent property. Gets or sets the value that represents the left indent of the table in C#.
 type: docs
 weight: 190

@@ -2,7 +2,7 @@
 title: Font.Name
 linktitle: Name
 articleTitle: Name
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Font Name property. Gets or sets the name of the font in C#.
 type: docs
 weight: 230

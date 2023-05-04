@@ -2,7 +2,7 @@
 title: FontSourceBase.GetAvailableFonts
 linktitle: GetAvailableFonts
 articleTitle: GetAvailableFonts
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FontSourceBase GetAvailableFonts method. Returns list of fonts available via this source in C#.
 type: docs
 weight: 40

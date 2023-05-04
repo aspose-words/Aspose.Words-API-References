@@ -2,7 +2,7 @@
 title: Range.Text
 linktitle: Text
 articleTitle: Text
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Range Text property. Gets the text of the range in C#.
 type: docs
 weight: 60

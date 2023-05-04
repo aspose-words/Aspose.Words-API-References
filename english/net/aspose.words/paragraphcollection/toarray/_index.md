@@ -2,7 +2,7 @@
 title: ParagraphCollection.ToArray
 linktitle: ToArray
 articleTitle: ToArray
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ParagraphCollection ToArray method. Copies all paragraphs from the collection to a new array of paragraphs in C#.
 type: docs
 weight: 20

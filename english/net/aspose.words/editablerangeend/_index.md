@@ -2,7 +2,7 @@
 title: EditableRangeEnd Class
 linktitle: EditableRangeEnd
 articleTitle: EditableRangeEnd
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.EditableRangeEnd class. Represents an end of an editable range in a Word document in C#.
 type: docs
 weight: 1400

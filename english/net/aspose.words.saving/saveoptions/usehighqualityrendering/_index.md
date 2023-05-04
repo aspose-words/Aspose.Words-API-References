@@ -2,7 +2,7 @@
 title: SaveOptions.UseHighQualityRendering
 linktitle: UseHighQualityRendering
 articleTitle: UseHighQualityRendering
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: SaveOptions UseHighQualityRendering property. Gets or sets a value determining whether or not to use high quality i.e. slow rendering algorithms in C#.
 type: docs
 weight: 200

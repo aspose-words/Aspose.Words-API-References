@@ -2,7 +2,7 @@
 title: TextBox.NoTextRotation
 linktitle: NoTextRotation
 articleTitle: NoTextRotation
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: TextBox NoTextRotation property. Gets or sets a boolean value indicating either text of the TextBox should not rotate when the shape is rotated in C#.
 type: docs
 weight: 80

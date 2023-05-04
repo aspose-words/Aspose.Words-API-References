@@ -2,7 +2,7 @@
 title: CompatibilityOptions.ShapeLayoutLikeWW8
 linktitle: ShapeLayoutLikeWW8
 articleTitle: ShapeLayoutLikeWW8
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: CompatibilityOptions ShapeLayoutLikeWW8 property. Emulate Word 97 Text Wrapping Around Floating Objects in C#.
 type: docs
 weight: 420

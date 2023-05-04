@@ -2,7 +2,7 @@
 title: Font.ItalicBi
 linktitle: ItalicBi
 articleTitle: ItalicBi
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Font ItalicBi property. True if the righttoleft text is formatted as italic in C#.
 type: docs
 weight: 170

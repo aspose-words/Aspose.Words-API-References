@@ -2,7 +2,7 @@
 title: StructuredDocumentTag.DateDisplayFormat
 linktitle: DateDisplayFormat
 articleTitle: DateDisplayFormat
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: StructuredDocumentTag DateDisplayFormat property. String that represents the format in which dates are displayed. Can not be null. The dates for English U.S. is mm/dd/yyyy in C#.
 type: docs
 weight: 90

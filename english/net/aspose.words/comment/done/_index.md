@@ -2,7 +2,7 @@
 title: Comment.Done
 linktitle: Done
 articleTitle: Done
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Comment Done property. Gets or sets flag indicating that the comment has been marked done in C#.
 type: docs
 weight: 50

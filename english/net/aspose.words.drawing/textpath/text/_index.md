@@ -2,7 +2,7 @@
 title: TextPath.Text
 linktitle: Text
 articleTitle: Text
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: TextPath Text property. Defines the text of the text path in C#.
 type: docs
 weight: 160

@@ -2,7 +2,7 @@
 title: ChartYValue.GetHashCode
 linktitle: GetHashCode
 articleTitle: GetHashCode
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ChartYValue GetHashCode method. Gets a hash code for the current Y value object in C#.
 type: docs
 weight: 90

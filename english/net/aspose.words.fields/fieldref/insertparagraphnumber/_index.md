@@ -2,7 +2,7 @@
 title: FieldRef.InsertParagraphNumber
 linktitle: InsertParagraphNumber
 articleTitle: InsertParagraphNumber
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldRef InsertParagraphNumber property. Gets or sets whether to insert the paragraph number of the referenced paragraph exactly as it appears in the document in C#.
 type: docs
 weight: 50

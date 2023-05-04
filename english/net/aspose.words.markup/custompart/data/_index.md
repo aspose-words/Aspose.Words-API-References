@@ -2,7 +2,7 @@
 title: CustomPart.Data
 linktitle: Data
 articleTitle: Data
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: CustomPart Data property. Contains the data of this custom part in C#.
 type: docs
 weight: 30

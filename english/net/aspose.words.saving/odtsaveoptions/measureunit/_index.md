@@ -2,7 +2,7 @@
 title: OdtSaveOptions.MeasureUnit
 linktitle: MeasureUnit
 articleTitle: MeasureUnit
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: OdtSaveOptions MeasureUnit property. Allows to specify units of measure to apply to document content. The default value is Centimeters in C#.
 type: docs
 weight: 30

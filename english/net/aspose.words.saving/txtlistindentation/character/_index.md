@@ -2,7 +2,7 @@
 title: TxtListIndentation.Character
 linktitle: Character
 articleTitle: Character
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: TxtListIndentation Character property. Gets or sets which character to use for indenting list levels. The default value is 0 that means there is no indentation in C#.
 type: docs
 weight: 20

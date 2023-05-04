@@ -2,7 +2,7 @@
 title: MailMergeMainDocumentType Enum
 linktitle: MailMergeMainDocumentType
 articleTitle: MailMergeMainDocumentType
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.Settings.MailMergeMainDocumentType enum. Specifies the possible types for a mail merge source document in C#.
 type: docs
 weight: 5740

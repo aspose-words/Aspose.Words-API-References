@@ -2,7 +2,7 @@
 title: Comment.Author
 linktitle: Author
 articleTitle: Author
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Comment Author property. Returns or sets the author name for a comment in C#.
 type: docs
 weight: 30

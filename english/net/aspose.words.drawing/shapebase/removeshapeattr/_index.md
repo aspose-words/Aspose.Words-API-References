@@ -2,7 +2,7 @@
 title: ShapeBase.RemoveShapeAttr
 linktitle: RemoveShapeAttr
 articleTitle: RemoveShapeAttr
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ShapeBase RemoveShapeAttr method. Reserved for system use. IShapeAttrSource in C#.
 type: docs
 weight: 680

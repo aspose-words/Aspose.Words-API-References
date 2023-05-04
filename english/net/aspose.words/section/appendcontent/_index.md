@@ -2,7 +2,7 @@
 title: Section.AppendContent
 linktitle: AppendContent
 articleTitle: AppendContent
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Section AppendContent method. Inserts a copy of content of the source section at the end of this section in C#.
 type: docs
 weight: 80

@@ -2,7 +2,7 @@
 title: PsSaveOptions.SaveFormat
 linktitle: SaveFormat
 articleTitle: SaveFormat
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: PsSaveOptions SaveFormat property. Specifies the format in which the document will be saved if this save options object is used. Can only be Ps in C#.
 type: docs
 weight: 20

@@ -2,7 +2,7 @@
 title: ControlChar Class
 linktitle: ControlChar
 articleTitle: ControlChar
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.ControlChar class. Control characters often encountered in documents in C#.
 type: docs
 weight: 340

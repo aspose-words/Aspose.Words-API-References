@@ -2,7 +2,7 @@
 title: StructuredDocumentTag Class
 linktitle: StructuredDocumentTag
 articleTitle: StructuredDocumentTag
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.Markup.StructuredDocumentTag class. Represents a structured document tag SDT or content control in a document in C#.
 type: docs
 weight: 3970

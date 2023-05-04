@@ -2,7 +2,7 @@
 title: TaskPane.Width
 linktitle: Width
 articleTitle: Width
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: TaskPane Width property. Specifies the default width value for this task pane instance in C#.
 type: docs
 weight: 70

@@ -2,7 +2,7 @@
 title: CompatibilityOptions.WrapTrailSpaces
 linktitle: WrapTrailSpaces
 articleTitle: WrapTrailSpaces
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: CompatibilityOptions WrapTrailSpaces property. Line Wrap Trailing Spaces in C#.
 type: docs
 weight: 710

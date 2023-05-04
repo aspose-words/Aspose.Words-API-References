@@ -2,7 +2,7 @@
 title: TxtSaveOptionsBase.Encoding
 linktitle: Encoding
 articleTitle: Encoding
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: TxtSaveOptionsBase Encoding property. Specifies the encoding to use when exporting in text formats. Default value is Encoding.UTF8 in C#.
 type: docs
 weight: 10

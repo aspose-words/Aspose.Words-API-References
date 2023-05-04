@@ -2,7 +2,7 @@
 title: PdfSaveOptions.InterpolateImages
 linktitle: InterpolateImages
 articleTitle: InterpolateImages
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: PdfSaveOptions InterpolateImages property. A flag indicating whether image interpolation shall be performed by a conforming reader. When false is specified the flag is not written to the output document and the default behaviour of reader is used instead in C#.
 type: docs
 weight: 210

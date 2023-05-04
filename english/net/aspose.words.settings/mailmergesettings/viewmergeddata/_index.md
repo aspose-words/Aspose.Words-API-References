@@ -2,7 +2,7 @@
 title: MailMergeSettings.ViewMergedData
 linktitle: ViewMergedData
 articleTitle: ViewMergedData
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: MailMergeSettings ViewMergedData property. Specifies that Microsoft Word shall display the data from the specified external data source where merge fields have been inserted e.g. preview merged data. The default value is false in C#.
 type: docs
 weight: 170

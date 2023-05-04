@@ -2,7 +2,7 @@
 title: Aspose.Words.Reporting
 linktitle: Aspose.Words.Reporting
 articleTitle: Aspose.Words.Reporting
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: This namespace contains classes of the Aspose.Words new reporting engine that supports report templates marked up with a language based on the LINQ Method Syntax in C#.
 type: docs
 weight: 210

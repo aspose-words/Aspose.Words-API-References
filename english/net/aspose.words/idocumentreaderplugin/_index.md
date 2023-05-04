@@ -2,7 +2,7 @@
 title: IDocumentReaderPlugin Interface
 linktitle: IDocumentReaderPlugin
 articleTitle: IDocumentReaderPlugin
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.IDocumentReaderPlugin interface. Defines an interface for external reader plugins that can read a file into a document in C#.
 type: docs
 weight: 3120

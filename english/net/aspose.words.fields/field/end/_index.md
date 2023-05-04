@@ -2,7 +2,7 @@
 title: Field.End
 linktitle: End
 articleTitle: End
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Field End property. Gets the node that represents the field end in C#.
 type: docs
 weight: 20

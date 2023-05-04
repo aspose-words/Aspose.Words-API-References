@@ -2,7 +2,7 @@
 title: ConditionalStyleCollection.Count
 linktitle: Count
 articleTitle: Count
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ConditionalStyleCollection Count property. Gets the number of conditional styles in the collection in C#.
 type: docs
 weight: 30

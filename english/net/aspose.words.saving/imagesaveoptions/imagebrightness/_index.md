@@ -2,7 +2,7 @@
 title: ImageSaveOptions.ImageBrightness
 linktitle: ImageBrightness
 articleTitle: ImageBrightness
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ImageSaveOptions ImageBrightness property. Gets or sets the brightness for the generated images in C#.
 type: docs
 weight: 40

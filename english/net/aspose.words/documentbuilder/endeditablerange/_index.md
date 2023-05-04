@@ -2,7 +2,7 @@
 title: DocumentBuilder.EndEditableRange
 linktitle: EndEditableRange
 articleTitle: EndEditableRange
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: DocumentBuilder EndEditableRange method. Marks the current position in the document as an editable range end in C#.
 type: docs
 weight: 230

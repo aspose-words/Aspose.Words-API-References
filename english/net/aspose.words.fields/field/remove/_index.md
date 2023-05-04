@@ -2,7 +2,7 @@
 title: Field.Remove
 linktitle: Remove
 articleTitle: Remove
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Field Remove method. Removes the field from the document. Returns a node right after the field. If the fields end is the last child of its parent node returns its parent paragraph. If the field is already removed returns null in C#.
 type: docs
 weight: 120

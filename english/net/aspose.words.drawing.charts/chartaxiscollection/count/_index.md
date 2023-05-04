@@ -2,7 +2,7 @@
 title: ChartAxisCollection.Count
 linktitle: Count
 articleTitle: Count
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ChartAxisCollection Count property. Gets the number of axes in this collection in C#.
 type: docs
 weight: 10

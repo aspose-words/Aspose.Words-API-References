@@ -2,7 +2,7 @@
 title: Document.FontSettings
 linktitle: FontSettings
 articleTitle: FontSettings
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Document FontSettings property. Gets or sets document font settings in C#.
 type: docs
 weight: 140

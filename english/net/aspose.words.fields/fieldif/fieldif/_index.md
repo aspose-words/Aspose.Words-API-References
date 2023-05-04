@@ -2,7 +2,7 @@
 title: FieldIf
 linktitle: FieldIf
 articleTitle: FieldIf
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldIf constructor. The default constructor in C#.
 type: docs
 weight: 10

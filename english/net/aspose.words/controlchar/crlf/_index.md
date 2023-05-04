@@ -2,7 +2,7 @@
 title: ControlChar.CrLf
 linktitle: CrLf
 articleTitle: CrLf
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ControlChar CrLf field. Carriage return followed by line feed character x000dx000a or rn. Not used as such in Microsoft Word documents but commonly used in text files for paragraph breaks in C#.
 type: docs
 weight: 60

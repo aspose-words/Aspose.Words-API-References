@@ -2,7 +2,7 @@
 title: ThumbnailGeneratingOptions Class
 linktitle: ThumbnailGeneratingOptions
 articleTitle: ThumbnailGeneratingOptions
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.Rendering.ThumbnailGeneratingOptions class. Can be used to specify additional options when generating thumbnail for a document in C#.
 type: docs
 weight: 4510

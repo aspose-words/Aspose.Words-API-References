@@ -2,7 +2,7 @@
 title: MailMerge.ExecuteWithRegions
 linktitle: ExecuteWithRegions
 articleTitle: ExecuteWithRegions
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: MailMerge ExecuteWithRegions method. Performs a mail merge from a custom data source with mail merge regions in C#.
 type: docs
 weight: 200

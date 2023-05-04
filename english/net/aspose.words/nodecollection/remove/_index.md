@@ -2,7 +2,7 @@
 title: NodeCollection.Remove
 linktitle: Remove
 articleTitle: Remove
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: NodeCollection Remove method. Removes the node from the collection and from the document in C#.
 type: docs
 weight: 90

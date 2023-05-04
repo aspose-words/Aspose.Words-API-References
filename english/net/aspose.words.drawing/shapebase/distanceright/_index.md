@@ -2,7 +2,7 @@
 title: ShapeBase.DistanceRight
 linktitle: DistanceRight
 articleTitle: DistanceRight
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ShapeBase DistanceRight property. Returns or sets the distance in points between the document text and the right edge of the shape in C#.
 type: docs
 weight: 150

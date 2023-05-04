@@ -2,7 +2,7 @@
 title: SignatureLine.IsValid
 linktitle: IsValid
 articleTitle: IsValid
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: SignatureLine IsValid property. Indicates that signature line is signed by digital signature and this digital signature is valid in C#.
 type: docs
 weight: 70

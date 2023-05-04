@@ -2,7 +2,7 @@
 title: FileFontSource.FilePath
 linktitle: FilePath
 articleTitle: FilePath
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FileFontSource FilePath property. Path to the font file in C#.
 type: docs
 weight: 30

@@ -2,7 +2,7 @@
 title: FieldSet
 linktitle: FieldSet
 articleTitle: FieldSet
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldSet constructor. The default constructor in C#.
 type: docs
 weight: 10

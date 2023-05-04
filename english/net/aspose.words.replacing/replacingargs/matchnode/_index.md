@@ -2,7 +2,7 @@
 title: ReplacingArgs.MatchNode
 linktitle: MatchNode
 articleTitle: MatchNode
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ReplacingArgs MatchNode property. Gets the node that contains the beginning of the match in C#.
 type: docs
 weight: 40

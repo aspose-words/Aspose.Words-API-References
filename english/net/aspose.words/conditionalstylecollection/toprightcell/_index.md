@@ -2,7 +2,7 @@
 title: ConditionalStyleCollection.TopRightCell
 linktitle: TopRightCell
 articleTitle: TopRightCell
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ConditionalStyleCollection TopRightCell property. Gets the top right cell style in C#.
 type: docs
 weight: 140

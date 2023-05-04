@@ -2,7 +2,7 @@
 title: TextPath.ReverseRows
 linktitle: ReverseRows
 articleTitle: ReverseRows
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: TextPath ReverseRows property. Determines whether the layout order of rows is reversed in C#.
 type: docs
 weight: 80

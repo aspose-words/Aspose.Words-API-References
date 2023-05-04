@@ -2,7 +2,7 @@
 title: Font.HighlightColor
 linktitle: HighlightColor
 articleTitle: HighlightColor
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Font HighlightColor property. Gets or sets the highlight marker color in C#.
 type: docs
 weight: 150

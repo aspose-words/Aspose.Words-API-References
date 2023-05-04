@@ -2,7 +2,7 @@
 title: ShadowFormat.Type
 linktitle: Type
 articleTitle: Type
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ShadowFormat Type property. Gets or sets the specified ShadowType for ShadowFormat in C#.
 type: docs
 weight: 10

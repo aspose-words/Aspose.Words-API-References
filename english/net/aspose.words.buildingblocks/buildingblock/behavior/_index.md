@@ -2,7 +2,7 @@
 title: BuildingBlock.Behavior
 linktitle: Behavior
 articleTitle: Behavior
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: BuildingBlock Behavior property. Specifies the behavior that shall be applied when the contents of the building block is inserted into the main document in C#.
 type: docs
 weight: 20

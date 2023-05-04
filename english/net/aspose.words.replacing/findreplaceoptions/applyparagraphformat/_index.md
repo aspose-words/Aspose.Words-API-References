@@ -2,7 +2,7 @@
 title: FindReplaceOptions.ApplyParagraphFormat
 linktitle: ApplyParagraphFormat
 articleTitle: ApplyParagraphFormat
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FindReplaceOptions ApplyParagraphFormat property. Paragraph formatting applied to new content in C#.
 type: docs
 weight: 30

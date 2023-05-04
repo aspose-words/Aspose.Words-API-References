@@ -2,7 +2,7 @@
 title: Table Class
 linktitle: Table
 articleTitle: Table
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.Tables.Table class. Represents a table in a Word document in C#.
 type: docs
 weight: 6240

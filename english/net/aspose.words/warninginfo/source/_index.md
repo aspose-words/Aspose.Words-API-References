@@ -2,7 +2,7 @@
 title: WarningInfo.Source
 linktitle: Source
 articleTitle: Source
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: WarningInfo Source property. Returns the source of the warning in C#.
 type: docs
 weight: 20

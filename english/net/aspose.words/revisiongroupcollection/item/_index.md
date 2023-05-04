@@ -2,7 +2,7 @@
 title: RevisionGroupCollection.Item
 linktitle: Item
 articleTitle: Item
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: RevisionGroupCollection Item property. Returns a revision group at the specified index in C#.
 type: docs
 weight: 20

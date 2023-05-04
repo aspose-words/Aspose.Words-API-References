@@ -2,7 +2,7 @@
 title: Field.DisplayResult
 linktitle: DisplayResult
 articleTitle: DisplayResult
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Field DisplayResult property. Gets the text that represents the displayed field result in C#.
 type: docs
 weight: 10

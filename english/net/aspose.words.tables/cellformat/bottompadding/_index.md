@@ -2,7 +2,7 @@
 title: CellFormat.BottomPadding
 linktitle: BottomPadding
 articleTitle: BottomPadding
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: CellFormat BottomPadding property. Returns or sets the amount of space in points to add below the contents of cell in C#.
 type: docs
 weight: 20

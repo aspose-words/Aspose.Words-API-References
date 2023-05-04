@@ -2,7 +2,7 @@
 title: PdfZoomBehavior Enum
 linktitle: PdfZoomBehavior
 articleTitle: PdfZoomBehavior
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.Saving.PdfZoomBehavior enum. Specifies the type of zoom applied to a PDF document when it is opened in a PDF viewer in C#.
 type: docs
 weight: 5450

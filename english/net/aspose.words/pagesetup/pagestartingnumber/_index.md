@@ -2,7 +2,7 @@
 title: PageSetup.PageStartingNumber
 linktitle: PageStartingNumber
 articleTitle: PageStartingNumber
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: PageSetup PageStartingNumber property. Gets or sets the starting page number of the section in C#.
 type: docs
 weight: 330

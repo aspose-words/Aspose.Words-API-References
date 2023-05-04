@@ -2,7 +2,7 @@
 title: OleFormat.ProgId
 linktitle: ProgId
 articleTitle: ProgId
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: OleFormat ProgId property. Gets or sets the ProgID of the OLE object in C#.
 type: docs
 weight: 90

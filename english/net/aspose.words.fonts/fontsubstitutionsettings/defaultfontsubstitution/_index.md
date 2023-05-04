@@ -2,7 +2,7 @@
 title: FontSubstitutionSettings.DefaultFontSubstitution
 linktitle: DefaultFontSubstitution
 articleTitle: DefaultFontSubstitution
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FontSubstitutionSettings DefaultFontSubstitution property. Settings related to default font substitution rule in C#.
 type: docs
 weight: 10

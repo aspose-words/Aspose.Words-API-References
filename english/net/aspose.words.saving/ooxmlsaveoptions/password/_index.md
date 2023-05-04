@@ -2,7 +2,7 @@
 title: OoxmlSaveOptions.Password
 linktitle: Password
 articleTitle: Password
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: OoxmlSaveOptions Password property. Gets/sets a password to encrypt document using ECMA376 Standard encryption algorithm in C#.
 type: docs
 weight: 50

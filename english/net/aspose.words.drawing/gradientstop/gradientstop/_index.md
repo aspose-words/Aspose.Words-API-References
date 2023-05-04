@@ -2,7 +2,7 @@
 title: GradientStop
 linktitle: GradientStop
 articleTitle: GradientStop
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: GradientStop constructor. Initializes a new instance of the GradientStop class in C#.
 type: docs
 weight: 10

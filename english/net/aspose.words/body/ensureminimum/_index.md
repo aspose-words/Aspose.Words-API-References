@@ -2,7 +2,7 @@
 title: Body.EnsureMinimum
 linktitle: EnsureMinimum
 articleTitle: EnsureMinimum
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Body EnsureMinimum method. If the last child is not a paragraph creates and appends one empty paragraph in C#.
 type: docs
 weight: 50

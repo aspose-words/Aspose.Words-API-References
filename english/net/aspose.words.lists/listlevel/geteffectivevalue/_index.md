@@ -2,7 +2,7 @@
 title: ListLevel.GetEffectiveValue
 linktitle: GetEffectiveValue
 articleTitle: GetEffectiveValue
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ListLevel GetEffectiveValue method. Reports the string representation of the ListLevel object for the specified index of the list item. Parameters specify the NumberStyle and an optional format string used when Custom is specified in C#.
 type: docs
 weight: 190

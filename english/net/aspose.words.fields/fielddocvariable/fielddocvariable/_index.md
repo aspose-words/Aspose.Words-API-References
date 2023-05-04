@@ -2,7 +2,7 @@
 title: FieldDocVariable
 linktitle: FieldDocVariable
 articleTitle: FieldDocVariable
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldDocVariable constructor. The default constructor in C#.
 type: docs
 weight: 10

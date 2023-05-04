@@ -2,7 +2,7 @@
 title: StructuredDocumentTagCollection.Remove
 linktitle: Remove
 articleTitle: Remove
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: StructuredDocumentTagCollection Remove method. Removes the structured document tag with the specified identifier in C#.
 type: docs
 weight: 70

@@ -2,7 +2,7 @@
 title: Style.Font
 linktitle: Font
 articleTitle: Font
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Style Font property. Gets the character formatting of the style in C#.
 type: docs
 weight: 60

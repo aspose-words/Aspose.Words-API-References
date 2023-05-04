@@ -2,7 +2,7 @@
 title: CellMerge Enum
 linktitle: CellMerge
 articleTitle: CellMerge
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.Tables.CellMerge enum. Specifies how a cell in a table is merged with other cells in C#.
 type: docs
 weight: 6170

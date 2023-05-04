@@ -2,7 +2,7 @@
 title: DocumentVisitor.VisitHeaderFooterStart
 linktitle: VisitHeaderFooterStart
 articleTitle: VisitHeaderFooterStart
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: DocumentVisitor VisitHeaderFooterStart method. Called when enumeration of a header or footer in a section has started in C#.
 type: docs
 weight: 290

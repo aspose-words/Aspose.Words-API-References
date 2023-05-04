@@ -2,7 +2,7 @@
 title: ConvertUtil Class
 linktitle: ConvertUtil
 articleTitle: ConvertUtil
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.ConvertUtil class. Provides helper functions to convert between various measurement units in C#.
 type: docs
 weight: 350

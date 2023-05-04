@@ -2,7 +2,7 @@
 title: DocumentBuilder.InsertSignatureLine
 linktitle: InsertSignatureLine
 articleTitle: InsertSignatureLine
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: DocumentBuilder InsertSignatureLine method. Inserts a signature line at the current position in C#.
 type: docs
 weight: 440

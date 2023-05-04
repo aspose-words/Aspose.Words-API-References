@@ -2,7 +2,7 @@
 title: UserInformation.Address
 linktitle: Address
 articleTitle: Address
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: UserInformation Address property. Gets or sets the users postal address in C#.
 type: docs
 weight: 30

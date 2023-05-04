@@ -2,7 +2,7 @@
 title: DocumentVisitor.VisitSmartTagEnd
 linktitle: VisitSmartTagEnd
 articleTitle: VisitSmartTagEnd
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: DocumentVisitor VisitSmartTagEnd method. Called when enumeration of a smart tag has ended in C#.
 type: docs
 weight: 410

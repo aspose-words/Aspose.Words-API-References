@@ -2,7 +2,7 @@
 title: FieldNext
 linktitle: FieldNext
 articleTitle: FieldNext
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldNext constructor. The default constructor in C#.
 type: docs
 weight: 10

@@ -2,7 +2,7 @@
 title: List.HasSameTemplate
 linktitle: HasSameTemplate
 articleTitle: HasSameTemplate
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: List HasSameTemplate method. Returns true if the current list and the given list are created from the same template in C#.
 type: docs
 weight: 120

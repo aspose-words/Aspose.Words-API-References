@@ -2,7 +2,7 @@
 title: StructuredDocumentTagRangeEnd.NodeType
 linktitle: NodeType
 articleTitle: NodeType
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: StructuredDocumentTagRangeEnd NodeType property. Returns StructuredDocumentTagRangeEnd in C#.
 type: docs
 weight: 30

@@ -2,7 +2,7 @@
 title: FieldImport
 linktitle: FieldImport
 articleTitle: FieldImport
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldImport constructor. The default constructor in C#.
 type: docs
 weight: 10

@@ -2,7 +2,7 @@
 title: AxisBound.ToString
 linktitle: ToString
 articleTitle: ToString
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: AxisBound ToString method. Returns a userfriendly string that displays the value of this object in C#.
 type: docs
 weight: 70

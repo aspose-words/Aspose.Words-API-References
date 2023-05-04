@@ -2,7 +2,7 @@
 title: FieldBarcode.PostalAddress
 linktitle: PostalAddress
 articleTitle: PostalAddress
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldBarcode PostalAddress property. Gets or sets the postal address used for generating a barcode or the name of the bookmark that refers to it in C#.
 type: docs
 weight: 50

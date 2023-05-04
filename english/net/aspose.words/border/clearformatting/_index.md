@@ -2,7 +2,7 @@
 title: Border.ClearFormatting
 linktitle: ClearFormatting
 articleTitle: ClearFormatting
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Border ClearFormatting method. Resets border properties to default values in C#.
 type: docs
 weight: 90

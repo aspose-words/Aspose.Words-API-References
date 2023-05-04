@@ -2,7 +2,7 @@
 title: DocumentBuilder.PageSetup
 linktitle: PageSetup
 articleTitle: PageSetup
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: DocumentBuilder PageSetup property. Returns an object that represents current page setup and section properties in C#.
 type: docs
 weight: 160

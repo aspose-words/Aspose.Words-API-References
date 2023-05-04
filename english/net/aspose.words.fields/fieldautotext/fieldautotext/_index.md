@@ -2,7 +2,7 @@
 title: FieldAutoText
 linktitle: FieldAutoText
 articleTitle: FieldAutoText
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldAutoText constructor. The default constructor in C#.
 type: docs
 weight: 10

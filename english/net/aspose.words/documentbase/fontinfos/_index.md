@@ -2,7 +2,7 @@
 title: DocumentBase.FontInfos
 linktitle: FontInfos
 articleTitle: FontInfos
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: DocumentBase FontInfos property. Provides access to properties of fonts used in this document in C#.
 type: docs
 weight: 30

@@ -2,7 +2,7 @@
 title: FieldUserAddress Class
 linktitle: FieldUserAddress
 articleTitle: FieldUserAddress
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.Fields.FieldUserAddress class. Implements the USERADDRESS field in C#.
 type: docs
 weight: 2550

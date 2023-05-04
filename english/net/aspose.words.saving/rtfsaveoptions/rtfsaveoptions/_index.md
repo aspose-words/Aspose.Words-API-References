@@ -2,7 +2,7 @@
 title: RtfSaveOptions
 linktitle: RtfSaveOptions
 articleTitle: RtfSaveOptions
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: RtfSaveOptions constructor. The default constructor in C#.
 type: docs
 weight: 10

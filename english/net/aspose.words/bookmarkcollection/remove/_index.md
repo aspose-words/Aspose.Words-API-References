@@ -2,7 +2,7 @@
 title: BookmarkCollection.Remove
 linktitle: Remove
 articleTitle: Remove
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: BookmarkCollection Remove method. Removes the specified bookmark from the document in C#.
 type: docs
 weight: 50

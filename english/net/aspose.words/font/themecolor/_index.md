@@ -2,7 +2,7 @@
 title: Font.ThemeColor
 linktitle: ThemeColor
 articleTitle: ThemeColor
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Font ThemeColor property. Gets or sets the theme color in the applied color scheme that is associated with this Font object in C#.
 type: docs
 weight: 460

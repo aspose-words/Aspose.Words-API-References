@@ -2,7 +2,7 @@
 title: BaseWebExtensionCollection1.Remove
 linktitle: Remove
 articleTitle: Remove
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: BaseWebExtensionCollection Remove method. Removes the item at the specified index from the collection in C#.
 type: docs
 weight: 60

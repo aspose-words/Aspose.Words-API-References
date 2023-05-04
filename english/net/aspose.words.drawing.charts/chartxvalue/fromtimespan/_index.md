@@ -2,7 +2,7 @@
 title: ChartXValue.FromTimeSpan
 linktitle: FromTimeSpan
 articleTitle: FromTimeSpan
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ChartXValue FromTimeSpan method. Creates a ChartXValue instance of the Time type in C#.
 type: docs
 weight: 50

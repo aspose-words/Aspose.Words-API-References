@@ -2,7 +2,7 @@
 title: Font.StyleName
 linktitle: StyleName
 articleTitle: StyleName
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Font StyleName property. Gets or sets the name of the character style applied to this formatting in C#.
 type: docs
 weight: 420

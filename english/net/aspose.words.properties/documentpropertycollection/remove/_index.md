@@ -2,7 +2,7 @@
 title: DocumentPropertyCollection.Remove
 linktitle: Remove
 articleTitle: Remove
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: DocumentPropertyCollection Remove method. Removes a property with the specified name from the collection in C#.
 type: docs
 weight: 70

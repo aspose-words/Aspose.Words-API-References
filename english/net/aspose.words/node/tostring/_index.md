@@ -2,7 +2,7 @@
 title: Node.ToString
 linktitle: ToString
 articleTitle: ToString
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Node ToString method. Exports the content of the node into a string in the specified format in C#.
 type: docs
 weight: 160

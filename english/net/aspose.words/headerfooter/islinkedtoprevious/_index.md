@@ -2,7 +2,7 @@
 title: HeaderFooter.IsLinkedToPrevious
 linktitle: IsLinkedToPrevious
 articleTitle: IsLinkedToPrevious
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: HeaderFooter IsLinkedToPrevious property. True if this header or footer is linked to the corresponding header or footer in the previous section in C#.
 type: docs
 weight: 40

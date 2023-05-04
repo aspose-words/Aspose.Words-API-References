@@ -2,7 +2,7 @@
 title: FieldCollection.Clear
 linktitle: Clear
 articleTitle: Clear
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldCollection Clear method. Removes all fields of this collection from the document and from this collection itself in C#.
 type: docs
 weight: 30

@@ -2,7 +2,7 @@
 title: BarcodeParameters.BarcodeValue
 linktitle: BarcodeValue
 articleTitle: BarcodeValue
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: BarcodeParameters BarcodeValue property. Data to be encoded in C#.
 type: docs
 weight: 50

@@ -2,7 +2,7 @@
 title: ThumbnailGeneratingOptions.ThumbnailSize
 linktitle: ThumbnailSize
 articleTitle: ThumbnailSize
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ThumbnailGeneratingOptions ThumbnailSize property. Size of generated thumbnail in pixels. Default is 600x900 in C#.
 type: docs
 weight: 30

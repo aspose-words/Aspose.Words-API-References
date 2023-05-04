@@ -2,7 +2,7 @@
 title: NodeRendererBase.GetBoundsInPixels
 linktitle: GetBoundsInPixels
 articleTitle: GetBoundsInPixels
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: NodeRendererBase GetBoundsInPixels method. Calculates the bounds of the shape in pixels for a specified zoom factor and resolution in C#.
 type: docs
 weight: 40

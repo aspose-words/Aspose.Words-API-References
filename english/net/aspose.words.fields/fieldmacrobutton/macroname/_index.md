@@ -2,7 +2,7 @@
 title: FieldMacroButton.MacroName
 linktitle: MacroName
 articleTitle: MacroName
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldMacroButton MacroName property. Gets or sets the name of the macro or command to run in C#.
 type: docs
 weight: 30

@@ -2,7 +2,7 @@
 title: FieldLink.SourceFullName
 linktitle: SourceFullName
 articleTitle: SourceFullName
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: FieldLink SourceFullName property. Gets or sets the name and location of the source file in C#.
 type: docs
 weight: 120

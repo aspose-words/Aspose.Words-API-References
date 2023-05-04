@@ -2,7 +2,7 @@
 title: ReportingEngine.Options
 linktitle: Options
 articleTitle: Options
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: ReportingEngine Options property. Gets or sets a set of flags controlling behavior of this ReportingEngine instance while building a report in C#.
 type: docs
 weight: 30

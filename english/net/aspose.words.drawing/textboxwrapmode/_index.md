@@ -2,7 +2,7 @@
 title: TextBoxWrapMode Enum
 linktitle: TextBoxWrapMode
 articleTitle: TextBoxWrapMode
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Aspose.Words.Drawing.TextBoxWrapMode enum. Specifies how text wraps inside a shape in C#.
 type: docs
 weight: 1310

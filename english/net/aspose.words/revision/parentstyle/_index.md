@@ -2,7 +2,7 @@
 title: Revision.ParentStyle
 linktitle: ParentStyle
 articleTitle: ParentStyle
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: Revision ParentStyle property. Gets the immediate parent style owner of this revision. This property will work for only for the StyleDefinitionChange revision type in C#.
 type: docs
 weight: 50

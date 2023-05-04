@@ -2,7 +2,7 @@
 title: SignOptions.SignTime
 linktitle: SignTime
 articleTitle: SignTime
-second_title: Aspose.Words for .NET API Reference
+second_title: Aspose.Words for .NET
 description: SignOptions SignTime property. The date of signing. Default value is current time Now in C#.
 type: docs
 weight: 70
