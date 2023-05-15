@@ -3,7 +3,7 @@ title: SaveFormat enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Indicates the format in which the document is saved."
 type: docs
-weight: 990
+weight: 1000
 url: /python-net/aspose.words/saveformat/
 ---
 

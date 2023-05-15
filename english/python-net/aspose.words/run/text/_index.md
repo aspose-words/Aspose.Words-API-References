@@ -3,7 +3,7 @@ title: text property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets or sets the text of the run."
 type: docs
-weight: 40
+weight: 50
 url: /python-net/aspose.words/run/text/
 ---
 

@@ -3,7 +3,7 @@ title: SignatureLineOptions class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Allows to specify options for signature line being inserted"
 type: docs
-weight: 1050
+weight: 1060
 url: /python-net/aspose.words/signaturelineoptions/
 ---
 

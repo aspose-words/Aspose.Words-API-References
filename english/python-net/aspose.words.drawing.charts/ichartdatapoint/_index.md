@@ -3,7 +3,7 @@ title: IChartDataPoint class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Contains properties of a single data point on the chart."
 type: docs
-weight: 290
+weight: 380
 url: /python-net/aspose.words.drawing.charts/ichartdatapoint/
 ---
 

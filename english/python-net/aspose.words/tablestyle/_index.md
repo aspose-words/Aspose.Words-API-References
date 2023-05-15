@@ -3,7 +3,7 @@ title: TableStyle class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents a table style"
 type: docs
-weight: 1180
+weight: 1190
 url: /python-net/aspose.words/tablestyle/
 ---
 

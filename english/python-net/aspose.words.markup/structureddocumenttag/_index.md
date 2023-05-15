@@ -94,6 +94,7 @@ the [StructuredDocumentTag.xml_mapping](./xml_mapping/) property.
 | [tag](./tag/) | Specifies a tag associated with the current SDT node. Can not be ``None``. |
 | [title](./title/) | Specifies the friendly name associated with this **SDT**. Can not be ``None``. |
 | [word_open_xml](./word_open_xml/) | Gets a string that represents the XML contained within the node in the [SaveFormat.FLAT_OPC](../../aspose.words/saveformat/#FLAT_OPC) format. |
+| [word_open_xml_minimal](./word_open_xml_minimal/) | Gets a string that represents the XML contained within the node in the [SaveFormat.FLAT_OPC](../../aspose.words/saveformat/#FLAT_OPC) format. |
 | [xml_mapping](./xml_mapping/) | Gets an object that represents the mapping of this structured document tag to XML data in a custom XML part of the current document. |
 
 ### Methods

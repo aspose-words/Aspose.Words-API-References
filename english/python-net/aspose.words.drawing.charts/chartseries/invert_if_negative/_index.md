@@ -3,7 +3,7 @@ title: invert_if_negative property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies whether the parent element shall inverts its colors if the value is negative."
 type: docs
-weight: 70
+weight: 80
 url: /python-net/aspose.words.drawing.charts/chartseries/invert_if_negative/
 ---
 

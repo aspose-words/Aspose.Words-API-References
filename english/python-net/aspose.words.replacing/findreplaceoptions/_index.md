@@ -36,6 +36,7 @@ To learn more, visit the [Find and Replace](https://docs.aspose.com/words/python
 | [ignore_fields](./ignore_fields/) | Gets or sets a boolean value indicating either to ignore text inside fields. The default value is ``False``. |
 | [ignore_footnotes](./ignore_footnotes/) | Gets or sets a boolean value indicating either to ignore footnotes. The default value is ``False``. |
 | [ignore_inserted](./ignore_inserted/) | Gets or sets a boolean value indicating either to ignore text inside insert revisions. The default value is ``False``. |
+| [ignore_shapes](./ignore_shapes/) | Gets or sets a boolean value indicating either to ignore shapes within a text. |
 | [ignore_structured_document_tags](./ignore_structured_document_tags/) | Gets or sets a boolean value indicating either to ignore content of [StructuredDocumentTag](../../aspose.words.markup/structureddocumenttag/). The default value is ``False``. |
 | [legacy_mode](./legacy_mode/) | Gets or sets a boolean value indicating that old find/replace algorithm is used. |
 | [match_case](./match_case/) | True indicates case-sensitive comparison, false indicates case-insensitive comparison. |

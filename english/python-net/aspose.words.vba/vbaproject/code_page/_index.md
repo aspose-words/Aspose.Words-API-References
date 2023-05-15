@@ -1,7 +1,7 @@
 ﻿---
 title: code_page property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns the VBA project’s code page."
+description: "Gets or sets the VBA project’s code page."
 type: docs
 weight: 20
 url: /python-net/aspose.words.vba/vbaproject/code_page/
@@ -9,7 +9,10 @@ url: /python-net/aspose.words.vba/vbaproject/code_page/
 
 ## VbaProject.code_page property
 
-Returns the VBA project’s code page.
+Gets or sets the VBA project’s code page.
+
+Please note that VBA is pre-Unicode feature and you have to explicitly set appropriate code page
+to preserve regional character sets.
 
 
 ### Examples

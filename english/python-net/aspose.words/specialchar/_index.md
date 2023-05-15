@@ -3,7 +3,7 @@ title: SpecialChar class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Base class for special characters in the document"
 type: docs
-weight: 1060
+weight: 1070
 url: /python-net/aspose.words/specialchar/
 ---
 

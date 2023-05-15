@@ -3,7 +3,7 @@ title: preblend_images property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets or sets a value determining whether or not to preblend transparent images with black background color."
 type: docs
-weight: 250
+weight: 260
 url: /python-net/aspose.words.saving/pdfsaveoptions/preblend_images/
 ---
 

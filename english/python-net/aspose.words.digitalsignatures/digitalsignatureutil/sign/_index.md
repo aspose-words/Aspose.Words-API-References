@@ -9,7 +9,7 @@ url: /python-net/aspose.words.digitalsignatures/digitalsignatureutil/sign/
 
 ## sign(src_stream, dst_stream, cert_holder, sign_options) {#bytesio_bytesio_certificateholder_signoptions}
 
-Signs source document using given [CertificateHolder](../../certificateholder/) and [SignOptions](../../signoptions/) 
+Signs source document using given [CertificateHolder](../../certificateholder/) and [SignOptions](../../signoptions/)
 with digital signature and writes signed document to destination stream.
 Document should be either [LoadFormat.DOC](../../../aspose.words/loadformat/#DOC) or [LoadFormat.DOCX](../../../aspose.words/loadformat/#DOCX).
 

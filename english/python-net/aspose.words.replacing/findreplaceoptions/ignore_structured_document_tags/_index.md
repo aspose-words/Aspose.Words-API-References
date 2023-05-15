@@ -3,7 +3,7 @@ title: ignore_structured_document_tags property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets or sets a boolean value indicating either to ignore content of [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/)"
 type: docs
-weight: 110
+weight: 120
 url: /python-net/aspose.words.replacing/findreplaceoptions/ignore_structured_document_tags/
 ---
 

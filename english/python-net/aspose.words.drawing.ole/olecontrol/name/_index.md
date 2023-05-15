@@ -1,7 +1,7 @@
 ﻿---
 title: name property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets name of the ActiveX control."
+description: "Gets or sets name of the ActiveX control."
 type: docs
 weight: 20
 url: /python-net/aspose.words.drawing.ole/olecontrol/name/
@@ -9,7 +9,7 @@ url: /python-net/aspose.words.drawing.ole/olecontrol/name/
 
 ## OleControl.name property
 
-Gets name of the ActiveX control.
+Gets or sets name of the ActiveX control.
 
 
 ### Examples

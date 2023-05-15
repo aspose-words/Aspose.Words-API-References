@@ -3,7 +3,7 @@ title: SectionLayoutMode enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies the layout mode for a section allowing to define the document grid behavior."
 type: docs
-weight: 1020
+weight: 1030
 url: /python-net/aspose.words/sectionlayoutmode/
 ---
 

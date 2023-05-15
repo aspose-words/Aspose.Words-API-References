@@ -1,0 +1,29 @@
+﻿---
+title: from_date_time method
+second_title: Aspose.Words for Python via .NET API Reference
+description: "Creates a [ChartYValue](../) instance of the [ChartYValueType.DATE_TIME](../../chartyvaluetype/#DATE_TIME) type."
+type: docs
+weight: 50
+url: /python-net/aspose.words.drawing.charts/chartyvalue/from_date_time/
+---
+
+## from_date_time(value) {#datetime}
+
+Creates a [ChartYValue](../) instance of the [ChartYValueType.DATE_TIME](../../chartyvaluetype/#DATE_TIME) type.
+
+
+
+```python
+def from_date_time(self, value: datetime):
+    ...
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | datetime |  |
+
+### See Also
+
+* module [aspose.words.drawing.charts](../../)
+* class [ChartYValue](../)
+

@@ -20,7 +20,7 @@ To learn more, visit the [Working with Ole Objects](https://docs.aspose.com/word
 | Name | Description |
 | --- | --- |
 | [is_forms2_ole_control](./is_forms2_ole_control/) | Returns ``True`` if the control is a [Forms2OleControl](../forms2olecontrol/). |
-| [name](./name/) | Gets name of the ActiveX control. |
+| [name](./name/) | Gets or sets name of the ActiveX control. |
 
 ### Methods
 

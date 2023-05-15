@@ -46,6 +46,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/py
 | [export_document_structure](./export_document_structure/) | Gets or sets a value determining whether or not to export document structure. |
 | [export_generator_name](../saveoptions/export_generator_name/) | When ``True``, causes the name and version of Aspose.Words to be embedded into produced files. Default value is ``True``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [export_language_to_span_tag](./export_language_to_span_tag/) | Gets or sets a value determining whether or not to create a "Span" tag in the document structure to export the text language. |
+| [export_paragraph_graphics_to_artifact](./export_paragraph_graphics_to_artifact/) | Gets or sets a value determining whether a paragraph graphic should be marked as an artifact. |
 | [font_embedding_mode](./font_embedding_mode/) | Specifies the font embedding mode. |
 | [header_footer_bookmarks_export_mode](./header_footer_bookmarks_export_mode/) | Determines how bookmarks in headers/footers are exported. |
 | [image_color_space_export_mode](./image_color_space_export_mode/) | Specifies how the color space will be selected for the images in PDF document. |

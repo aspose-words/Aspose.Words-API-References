@@ -3,7 +3,7 @@ title: TabStopCollection class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "A collection of [TabStop](../tabstop/) objects that represent custom tabs for a paragraph or a style"
 type: docs
-weight: 1170
+weight: 1180
 url: /python-net/aspose.words/tabstopcollection/
 ---
 

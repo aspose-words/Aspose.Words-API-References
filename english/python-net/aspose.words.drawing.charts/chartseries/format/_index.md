@@ -3,7 +3,7 @@ title: format property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Provides access to fill and line formatting of the series."
 type: docs
-weight: 50
+weight: 60
 url: /python-net/aspose.words.drawing.charts/chartseries/format/
 ---
 

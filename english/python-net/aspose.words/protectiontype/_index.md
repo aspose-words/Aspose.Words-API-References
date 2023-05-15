@@ -3,7 +3,7 @@ title: ProtectionType enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Protection type for a document."
 type: docs
-weight: 890
+weight: 900
 url: /python-net/aspose.words/protectiontype/
 ---
 

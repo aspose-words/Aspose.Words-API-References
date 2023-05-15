@@ -3,7 +3,7 @@ title: name property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets or sets the name of the series, if name is not set explicitly it is generated using index"
 type: docs
-weight: 100
+weight: 110
 url: /python-net/aspose.words.drawing.charts/chartseries/name/
 ---
 
