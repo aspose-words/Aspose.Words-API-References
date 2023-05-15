@@ -3,7 +3,7 @@ title: outline_options property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Allows to specify outline options."
 type: docs
-weight: 230
+weight: 240
 url: /python-net/aspose.words.saving/pdfsaveoptions/outline_options/
 ---
 

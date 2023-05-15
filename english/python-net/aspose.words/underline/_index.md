@@ -3,7 +3,7 @@ title: Underline enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Indicates type of the underline applied to a font."
 type: docs
-weight: 1260
+weight: 1270
 url: /python-net/aspose.words/underline/
 ---
 

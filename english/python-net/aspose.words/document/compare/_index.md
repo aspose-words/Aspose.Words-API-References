@@ -24,12 +24,6 @@ def compare(self, document: aspose.words.Document, author: str, date_time: datet
 | author | str |  |
 | date_time | datetime |  |
 
-The following document nodes are not compared at the moment:
-
-* [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/)
-  
-* Item3
-  
 > **NOTE**
 >
 > Documents must not have revisions before comparison.

@@ -3,7 +3,7 @@ title: TextOrientation enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies orientation of text on a page, in a table cell or a text frame."
 type: docs
-weight: 1230
+weight: 1240
 url: /python-net/aspose.words/textorientation/
 ---
 

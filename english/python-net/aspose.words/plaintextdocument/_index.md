@@ -3,14 +3,14 @@ title: PlainTextDocument class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Allows to extract plain-text representation of the document's content"
 type: docs
-weight: 880
+weight: 890
 url: /python-net/aspose.words/plaintextdocument/
 ---
 
 ## PlainTextDocument class
 
 Allows to extract plain-text representation of the document's content.
-To learn more, visit the [Working with Text Document](https://docs.aspose.com/words/python-net/work-with-text-document/) documentation article.
+To learn more, visit the [Working with Text Document](https://docs.aspose.com/words/python-net/working-with-text-document/) documentation article.
 
 
 

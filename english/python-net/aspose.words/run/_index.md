@@ -3,7 +3,7 @@ title: Run class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents a run of characters with the same font formatting"
 type: docs
-weight: 970
+weight: 980
 url: /python-net/aspose.words/run/
 ---
 
@@ -48,6 +48,7 @@ All text of the document is stored in runs of text.
 | [node_type](./node_type/) | Returns [NodeType.RUN](../nodetype/#RUN). |
 | [parent_node](../node/parent_node/) | Gets the immediate parent of this node.<br>(Inherited from [Node](../node/)) |
 | [parent_paragraph](../inline/parent_paragraph/) | Retrieves the parent [Paragraph](../paragraph/) of this node.<br>(Inherited from [Inline](../inline/)) |
+| [phonetic_guide](./phonetic_guide/) | Gets a [Run.phonetic_guide](./phonetic_guide/) object. |
 | [previous_sibling](../node/previous_sibling/) | Gets the node immediately preceding this node.<br>(Inherited from [Node](../node/)) |
 | [range](../node/range/) | Returns a [Range](../range/) object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../node/)) |
 | [text](./text/) | Gets or sets the text of the run. |

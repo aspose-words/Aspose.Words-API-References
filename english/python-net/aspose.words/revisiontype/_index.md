@@ -3,7 +3,7 @@ title: RevisionType enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies the type of change being tracked in [Revision](../revision/)."
 type: docs
-weight: 950
+weight: 960
 url: /python-net/aspose.words/revisiontype/
 ---
 

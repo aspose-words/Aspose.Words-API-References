@@ -3,7 +3,7 @@ title: clear method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Clears contents of this structured document tag and displays a placeholder if it is defined."
 type: docs
-weight: 330
+weight: 340
 url: /python-net/aspose.words.markup/structureddocumenttag/clear/
 ---
 

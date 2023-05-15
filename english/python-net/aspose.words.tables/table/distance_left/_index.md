@@ -14,7 +14,7 @@ Gets or sets distance between table left and the surrounding text, in points.
 
 ### Examples
 
-Shows the minimum distance operations between table boundaries and text.
+Shows how to set distance between table boundaries and text.
 
 ```python
 doc = aw.Document(MY_DIR + "Table wrapped by text.docx")
@@ -25,6 +25,14 @@ self.assertEqual(25.9, table.distance_top)
 self.assertEqual(25.9, table.distance_bottom)
 self.assertEqual(17.3, table.distance_left)
 self.assertEqual(17.3, table.distance_right)
+
+# Set distance between table and surrounding text.
+table.distance_left = 24
+table.distance_right = 24
+table.distance_top = 3
+table.distance_bottom = 3
+
+doc.save(ARTIFACTS_DIR + "Table.DistanceBetweenTableAndText.docx")
 ```
 
 ### See Also

@@ -3,7 +3,7 @@ title: StyleType enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents type of the style."
 type: docs
-weight: 1120
+weight: 1130
 url: /python-net/aspose.words/styletype/
 ---
 

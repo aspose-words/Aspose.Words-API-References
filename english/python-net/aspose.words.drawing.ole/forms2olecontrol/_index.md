@@ -24,8 +24,9 @@ To learn more, visit the [Working with Ole Objects](https://docs.aspose.com/word
 | [caption](./caption/) | Gets Caption property of control. Default value is an empty string. |
 | [child_nodes](./child_nodes/) | Gets collection of immediate child controls. |
 | [enabled](./enabled/) | Returns ``True`` if control is in enabled state. |
+| [group_name](./group_name/) | Gets or sets a string that specifies a group of mutually exclusive controls. The default value is an empty string. |
 | [is_forms2_ole_control](../olecontrol/is_forms2_ole_control/) | Returns ``True`` if the control is a [Forms2OleControl](./).<br>(Inherited from [OleControl](../olecontrol/)) |
-| [name](../olecontrol/name/) | Gets name of the ActiveX control.<br>(Inherited from [OleControl](../olecontrol/)) |
+| [name](../olecontrol/name/) | Gets or sets name of the ActiveX control.<br>(Inherited from [OleControl](../olecontrol/)) |
 | [type](./type/) | Gets type of Forms 2.0 control. |
 | [value](./value/) | Gets underlying Value property which often represents control state. For example checked option button has '1' value while unchecked has '0'. Default value is an empty string. |
 

@@ -3,7 +3,7 @@ title: value property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets underlying Value property which often represents control state"
 type: docs
-weight: 50
+weight: 60
 url: /python-net/aspose.words.drawing.ole/forms2olecontrol/value/
 ---
 

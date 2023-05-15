@@ -3,7 +3,7 @@ title: font_embedding_mode property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies the font embedding mode."
 type: docs
-weight: 160
+weight: 170
 url: /python-net/aspose.words.saving/pdfsaveoptions/font_embedding_mode/
 ---
 

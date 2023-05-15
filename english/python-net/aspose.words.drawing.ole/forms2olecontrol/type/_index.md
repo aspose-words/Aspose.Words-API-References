@@ -3,7 +3,7 @@ title: type property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets type of Forms 2.0 control."
 type: docs
-weight: 40
+weight: 50
 url: /python-net/aspose.words.drawing.ole/forms2olecontrol/type/
 ---
 

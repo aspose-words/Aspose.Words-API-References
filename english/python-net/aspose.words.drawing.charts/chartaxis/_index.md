@@ -3,7 +3,7 @@ title: ChartAxis class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents the axis options of the chart"
 type: docs
-weight: 120
+weight: 130
 url: /python-net/aspose.words.drawing.charts/chartaxis/
 ---
 

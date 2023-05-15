@@ -3,7 +3,7 @@ title: ChartAxisCollection class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents a collection of chart axes."
 type: docs
-weight: 130
+weight: 140
 url: /python-net/aspose.words.drawing.charts/chartaxiscollection/
 ---
 
@@ -23,6 +23,25 @@ Represents a collection of chart axes.
 | Name | Description |
 | --- | --- |
 | [count](./count/) | Gets the number of axes in this collection. |
+
+### Examples
+
+Shows how to work with axes collection.
+
+```python
+doc = aw.Document()
+builder = aw.DocumentBuilder(doc)
+
+shape = builder.insert_chart(awdc.ChartType.COLUMN, 500, 300)
+chart = shape.chart
+
+# Hide the major grid lines on the primary and secondary Y axes.
+for axis in chart.axes:
+    if axis.type == awdc.ChartAxisType.VALUE:
+        axis.has_major_gridlines = False
+
+doc.save(ARTIFACTS_DIR + "Charts.AxisCollection.docx")
+```
 
 ### See Also
 

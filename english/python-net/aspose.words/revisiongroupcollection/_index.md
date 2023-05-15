@@ -3,7 +3,7 @@ title: RevisionGroupCollection class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "A collection of [RevisionGroup](../revisiongroup/) objects that represent revision groups in the document"
 type: docs
-weight: 940
+weight: 950
 url: /python-net/aspose.words/revisiongroupcollection/
 ---
 

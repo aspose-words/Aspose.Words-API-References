@@ -56,6 +56,7 @@ gradient_stop = gradient_stops[2]
 gradient_stops.remove(gradient_stop)
 
 self.assertEqual(2, gradient_stops.count)
+self.assertEqual(drawing.Color.from_argb(255, 0, 255, 255), gradient_stops[0].base_color);
 
 self.assertEqual(drawing.Color.aqua.to_argb(), gradient_stops[0].color.to_argb())
 self.assertAlmostEqual(0.1, gradient_stops[0].position, delta=0.01)
