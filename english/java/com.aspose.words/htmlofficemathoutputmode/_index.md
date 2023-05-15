@@ -1,10 +1,10 @@
 ---
 title: HtmlOfficeMathOutputMode
 linktitle: HtmlOfficeMathOutputMode
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Specifies how Aspose.Words exports OfficeMath to HTML MHTML and EPUB in Java.
 type: docs
-weight: 333
+weight: 342
 url: /java/com.aspose.words/htmlofficemathoutputmode/
 ---
 

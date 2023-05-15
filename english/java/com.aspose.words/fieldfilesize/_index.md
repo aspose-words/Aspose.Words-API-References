@@ -1,10 +1,10 @@
 ---
 title: FieldFileSize
 linktitle: FieldFileSize
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Implements the FILESIZE field in Java.
 type: docs
-weight: 190
+weight: 199
 url: /java/com.aspose.words/fieldfilesize/
 ---
 

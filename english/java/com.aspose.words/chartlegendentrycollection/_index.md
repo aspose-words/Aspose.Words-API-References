@@ -1,10 +1,10 @@
 ---
 title: ChartLegendEntryCollection
 linktitle: ChartLegendEntryCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents a collection of chart legend entries in Java.
 type: docs
-weight: 66
+weight: 67
 url: /java/com.aspose.words/chartlegendentrycollection/
 ---
 

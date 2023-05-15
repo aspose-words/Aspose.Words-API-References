@@ -1,10 +1,10 @@
 ---
 title: FieldAutoNumLgl
 linktitle: FieldAutoNumLgl
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Implements the AUTONUMLGL field in Java.
 type: docs
-weight: 161
+weight: 170
 url: /java/com.aspose.words/fieldautonumlgl/
 ---
 

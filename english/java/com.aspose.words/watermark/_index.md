@@ -1,10 +1,10 @@
 ---
 title: Watermark
 linktitle: Watermark
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents class to work with document watermark in Java.
 type: docs
-weight: 617
+weight: 628
 url: /java/com.aspose.words/watermark/
 ---
 

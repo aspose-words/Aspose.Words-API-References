@@ -1,10 +1,10 @@
 ---
 title: MailMergeMainDocumentType
 linktitle: MailMergeMainDocumentType
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Specifies the possible types for a mail merge source document in Java.
 type: docs
-weight: 388
+weight: 397
 url: /java/com.aspose.words/mailmergemaindocumenttype/
 ---
 

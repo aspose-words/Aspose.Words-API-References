@@ -1,10 +1,10 @@
 ---
 title: PageLayoutEvent
 linktitle: PageLayoutEvent
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: A code of event raised during page layout model build and rendering in Java.
 type: docs
-weight: 443
+weight: 453
 url: /java/com.aspose.words/pagelayoutevent/
 ---
 

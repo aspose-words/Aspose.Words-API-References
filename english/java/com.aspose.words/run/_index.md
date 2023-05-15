@@ -1,10 +1,10 @@
 ---
 title: Run
 linktitle: Run
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents a run of characters with the same font formatting in Java.
 type: docs
-weight: 506
+weight: 517
 url: /java/com.aspose.words/run/
 ---
 
@@ -172,6 +172,7 @@ Shows how to add, update and delete child nodes in a CompositeNode's collection 
 | [getParentNode()](#getParentNode) | Gets the immediate parent of this node. |
 | [getParentParagraph()](#getParentParagraph) | Retrieves the parent [Paragraph](../../com.aspose.words/paragraph/) of this node. |
 | [getParentParagraph_IInline()](#getParentParagraph-IInline) |  |
+| [getPhoneticGuide()](#getPhoneticGuide) | Gets a [getPhoneticGuide()](../../com.aspose.words/run/\#getPhoneticGuide) object. |
 | [getPreviousSibling()](#getPreviousSibling) | Gets the node immediately preceding this node. |
 | [getRange()](#getRange) | Returns a [Range](../../com.aspose.words/range/) object that represents the portion of a document that is contained in this node. |
 | [getText()](#getText) | Gets the text of the run. |
@@ -1073,6 +1074,16 @@ public Paragraph getParentParagraph_IInline()
 
 **Returns:**
 [Paragraph](../../com.aspose.words/paragraph/)
+### getPhoneticGuide() {#getPhoneticGuide}
+```
+public PhoneticGuide getPhoneticGuide()
+```
+
+
+Gets a [getPhoneticGuide()](../../com.aspose.words/run/\#getPhoneticGuide) object.
+
+**Returns:**
+[PhoneticGuide](../../com.aspose.words/phoneticguide/) - A [getPhoneticGuide()](../../com.aspose.words/run/\#getPhoneticGuide) object.
 ### getPreviousSibling() {#getPreviousSibling}
 ```
 public Node getPreviousSibling()
@@ -1223,7 +1234,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (139237,6)
+Returns  true  if this node can contain other nodes. (140491,6)
 
  **Examples:** 
 
@@ -1597,6 +1608,21 @@ public boolean isPhoneticGuide()
 
 
 Gets a boolean value indicating either the run is a phonetic guide.
+
+ **Examples:** 
+
+Shows how to check if the run is phonetic guide.
+
+```
+
+ DocumentBuilder builder = new DocumentBuilder();
+ builder.write("Lorem ipsum.");
+
+ RunCollection runs = builder.getDocument().getFirstSection().getBody().getFirstParagraph().getRuns();
+ // Use phonetic guide in the Asian text.
+ Assert.assertEquals(false, runs.get(0).isPhoneticGuide());
+ 
+```
 
 **Returns:**
 boolean - A boolean value indicating either the run is a phonetic guide.

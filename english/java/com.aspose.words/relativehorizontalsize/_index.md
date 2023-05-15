@@ -1,10 +1,10 @@
 ---
 title: RelativeHorizontalSize
 linktitle: RelativeHorizontalSize
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Specifies relatively to what the width of a shape or a text frame is calculated horizontally in Java.
 type: docs
-weight: 481
+weight: 492
 url: /java/com.aspose.words/relativehorizontalsize/
 ---
 
@@ -15,6 +15,60 @@ public class RelativeHorizontalSize
 ```
 
 Specifies relatively to what the width of a shape or a text frame is calculated horizontally.
+
+ **Examples:** 
+
+Shows how to set relative size and position.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Adding a simple shape with absolute size and position.
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 100.0, 40.0);
+ // Set WrapType to WrapType.None since Inline shapes are automatically converted to absolute units.
+ shape.setWrapType(WrapType.NONE);
+
+ // Checking and setting the relative horizontal size.
+ if (shape.getRelativeHorizontalSize() == RelativeHorizontalSize.DEFAULT)
+ {
+     // Setting the horizontal size binding to Margin.
+     shape.setRelativeHorizontalSize(RelativeHorizontalSize.MARGIN);
+     // Setting the width to 50% of Margin width.
+     shape.setWidthRelative(50f);
+ }
+
+ // Checking and setting the relative vertical size.
+ if (shape.getRelativeVerticalSize() == RelativeVerticalSize.DEFAULT)
+ {
+     // Setting the vertical size binding to Margin.
+     shape.setRelativeVerticalSize(RelativeVerticalSize.MARGIN);
+     // Setting the heigh to 30% of Margin height.
+     shape.setHeightRelative(30f);
+ }
+
+ // Checking and setting the relative vertical position.
+ if (shape.getRelativeVerticalPosition() == RelativeVerticalPosition.PARAGRAPH)
+ {
+     // etting the position binding to TopMargin.
+     shape.setRelativeVerticalPosition(RelativeVerticalPosition.TOP_MARGIN);
+     // Setting relative Top to 30% of TopMargin position.
+     shape.setTopRelative(30f);
+ }
+
+ // Checking and setting the relative horizontal position.
+ if (shape.getRelativeHorizontalPosition() == RelativeHorizontalPosition.DEFAULT)
+ {
+     // Setting the position binding to RightMargin.
+     shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.RIGHT_MARGIN);
+     // The position relative value can be negative.
+     shape.setLeftRelative(-260);
+ }
+
+ doc.save(getArtifactsDir() + "Shape.RelativeSizeAndPosition.docx");
+ 
+```
 ## Fields
 
 | Field | Description |

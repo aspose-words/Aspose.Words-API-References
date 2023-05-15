@@ -1,10 +1,10 @@
 ---
 title: MailMerge
 linktitle: MailMerge
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents the mail merge functionality in Java.
 type: docs
-weight: 383
+weight: 392
 url: /java/com.aspose.words/mailmerge/
 ---
 
@@ -1029,7 +1029,7 @@ Shows how to insert images stored in a database BLOB field into a report.
 
      // Create and execute a command
      java.sql.Statement statement = conn.createStatement();
-     java.sql.ResultSet resultSet = statement.executeQuery("SELECT// FROM Employees");
+     java.sql.ResultSet resultSet = statement.executeQuery("SELECT * FROM Employees");
 
      DataTable table = new DataTable(resultSet, "Employees");
 
@@ -1249,7 +1249,7 @@ Shows how to insert images stored in a database BLOB field into a report.
 
      // Create and execute a command
      java.sql.Statement statement = conn.createStatement();
-     java.sql.ResultSet resultSet = statement.executeQuery("SELECT// FROM Employees");
+     java.sql.ResultSet resultSet = statement.executeQuery("SELECT * FROM Employees");
 
      DataTable table = new DataTable(resultSet, "Employees");
 
@@ -2499,7 +2499,7 @@ Shows how to insert images stored in a database BLOB field into a report.
 
      // Create and execute a command
      java.sql.Statement statement = conn.createStatement();
-     java.sql.ResultSet resultSet = statement.executeQuery("SELECT// FROM Employees");
+     java.sql.ResultSet resultSet = statement.executeQuery("SELECT * FROM Employees");
 
      DataTable table = new DataTable(resultSet, "Employees");
 

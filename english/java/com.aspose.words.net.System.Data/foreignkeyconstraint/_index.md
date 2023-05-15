@@ -1,7 +1,7 @@
 ---
 title: ForeignKeyConstraint
 linktitle: ForeignKeyConstraint
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents an action restriction enforced on a set of columns in a primary key/foreign key relationship when a value or row is either deleted or updated in Java.
 type: docs
 weight: 29

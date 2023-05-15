@@ -1,7 +1,7 @@
 ---
 title: OverflowException
 linktitle: OverflowException
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: The exception that is thrown when an arithmetic casting or conversion operation in a checked context results in an overflow in Java.
 type: docs
 weight: 10

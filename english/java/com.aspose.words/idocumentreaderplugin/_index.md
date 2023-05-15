@@ -1,10 +1,10 @@
 ---
 title: IDocumentReaderPlugin
 linktitle: IDocumentReaderPlugin
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Defines an interface for external reader plugins that can read a file into a document in Java.
 type: docs
-weight: 647
+weight: 658
 url: /java/com.aspose.words/idocumentreaderplugin/
 ---
 ```

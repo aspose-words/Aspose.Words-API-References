@@ -1,10 +1,10 @@
 ---
 title: Comment
 linktitle: Comment
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents a container for text of a comment in Java.
 type: docs
-weight: 78
+weight: 87
 url: /java/com.aspose.words/comment/
 ---
 

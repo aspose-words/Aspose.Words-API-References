@@ -1,7 +1,7 @@
 ---
 title: com.aspose.words.net.System
 linktitle: com.aspose.words.net.System
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Provides types mimicking .NET types of the System namespace in Java in Java.
 type: docs
 weight: 11

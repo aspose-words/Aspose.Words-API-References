@@ -1,10 +1,10 @@
 ---
 title: ChartMarker
 linktitle: ChartMarker
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents a chart data marker in Java.
 type: docs
-weight: 67
+weight: 68
 url: /java/com.aspose.words/chartmarker/
 ---
 

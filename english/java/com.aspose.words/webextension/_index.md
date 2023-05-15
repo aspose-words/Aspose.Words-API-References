@@ -1,10 +1,10 @@
 ---
 title: WebExtension
 linktitle: WebExtension
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents a web extension object in Java.
 type: docs
-weight: 620
+weight: 631
 url: /java/com.aspose.words/webextension/
 ---
 

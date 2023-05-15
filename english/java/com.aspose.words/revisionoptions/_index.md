@@ -1,10 +1,10 @@
 ---
 title: RevisionOptions
 linktitle: RevisionOptions
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Allows to control how document revisions are handled during layout process in Java.
 type: docs
-weight: 497
+weight: 508
 url: /java/com.aspose.words/revisionoptions/
 ---
 

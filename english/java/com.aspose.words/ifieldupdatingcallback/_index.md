@@ -1,10 +1,10 @@
 ---
 title: IFieldUpdatingCallback
 linktitle: IFieldUpdatingCallback
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Implement this interface if you want to have your own custom methods called during a field update in Java.
 type: docs
-weight: 653
+weight: 664
 url: /java/com.aspose.words/ifieldupdatingcallback/
 ---
 ```

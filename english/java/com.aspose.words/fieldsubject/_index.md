@@ -1,10 +1,10 @@
 ---
 title: FieldSubject
 linktitle: FieldSubject
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Implements the SUBJECT field in Java.
 type: docs
-weight: 249
+weight: 258
 url: /java/com.aspose.words/fieldsubject/
 ---
 

@@ -1,10 +1,10 @@
 ---
 title: PageLayoutCallbackArgs
 linktitle: PageLayoutCallbackArgs
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: An argument passed into IPageLayoutCallback.notifycom.aspose.words.PageLayoutCallbackArgs in Java.
 type: docs
-weight: 442
+weight: 452
 url: /java/com.aspose.words/pagelayoutcallbackargs/
 ---
 

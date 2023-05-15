@@ -1,10 +1,10 @@
 ---
 title: ChartLegend
 linktitle: ChartLegend
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents chart legend properties in Java.
 type: docs
-weight: 64
+weight: 65
 url: /java/com.aspose.words/chartlegend/
 ---
 

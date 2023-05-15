@@ -1,10 +1,10 @@
 ---
 title: BuildingBlockBehavior
 linktitle: BuildingBlockBehavior
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Specifies the behavior that shall be applied to the contents of the building block when it is inserted into the main document in Java.
 type: docs
-weight: 42
+weight: 43
 url: /java/com.aspose.words/buildingblockbehavior/
 ---
 

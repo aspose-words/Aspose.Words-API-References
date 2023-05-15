@@ -1,10 +1,10 @@
 ---
 title: TableContentAlignment
 linktitle: TableContentAlignment
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Allows to specify the alignment of the content of the table to be used when exporting into Markdown format in Java.
 type: docs
-weight: 560
+weight: 571
 url: /java/com.aspose.words/tablecontentalignment/
 ---
 

@@ -1,10 +1,10 @@
 ---
 title: MailMergeDestination
 linktitle: MailMergeDestination
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Specifies the possible results which may be generated when a mail merge is carried out on a document in Java.
 type: docs
-weight: 387
+weight: 396
 url: /java/com.aspose.words/mailmergedestination/
 ---
 

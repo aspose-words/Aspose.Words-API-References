@@ -1,10 +1,10 @@
 ---
 title: FieldIf
 linktitle: FieldIf
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Implements the IF field in Java.
 type: docs
-weight: 202
+weight: 211
 url: /java/com.aspose.words/fieldif/
 ---
 

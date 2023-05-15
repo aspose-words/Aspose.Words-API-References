@@ -1,10 +1,10 @@
 ---
 title: IWarningCallback
 linktitle: IWarningCallback
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Implement this interface if you want to have your own custom method called to capture loss of fidelity warnings that can occur during document loading or saving in Java.
 type: docs
-weight: 671
+weight: 682
 url: /java/com.aspose.words/iwarningcallback/
 ---
 ```

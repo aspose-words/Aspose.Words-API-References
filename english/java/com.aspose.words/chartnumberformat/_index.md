@@ -1,10 +1,10 @@
 ---
 title: ChartNumberFormat
 linktitle: ChartNumberFormat
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents number formatting of the parent element in Java.
 type: docs
-weight: 68
+weight: 70
 url: /java/com.aspose.words/chartnumberformat/
 ---
 

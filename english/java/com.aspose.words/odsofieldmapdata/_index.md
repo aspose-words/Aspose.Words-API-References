@@ -1,10 +1,10 @@
 ---
 title: OdsoFieldMapData
 linktitle: OdsoFieldMapData
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Specifies how a column in the external data source shall be mapped to the predefined merge fields within the document in Java.
 type: docs
-weight: 420
+weight: 430
 url: /java/com.aspose.words/odsofieldmapdata/
 ---
 

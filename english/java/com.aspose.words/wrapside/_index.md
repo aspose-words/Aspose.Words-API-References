@@ -1,10 +1,10 @@
 ---
 title: WrapSide
 linktitle: WrapSide
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Specifies what sides of the shape or picture the text wraps around in Java.
 type: docs
-weight: 630
+weight: 641
 url: /java/com.aspose.words/wrapside/
 ---
 

@@ -1,10 +1,10 @@
 ---
 title: FontNameSubstitutionRule
 linktitle: FontNameSubstitutionRule
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Font substitution rule for processing font name in Java.
 type: docs
-weight: 286
+weight: 295
 url: /java/com.aspose.words/fontnamesubstitutionrule/
 ---
 

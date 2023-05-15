@@ -1,10 +1,10 @@
 ---
 title: FileFormatInfo
 linktitle: FileFormatInfo
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Contains data returned by FileFormatUtil document format detection methods in Java.
 type: docs
-weight: 268
+weight: 277
 url: /java/com.aspose.words/fileformatinfo/
 ---
 

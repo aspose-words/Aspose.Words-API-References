@@ -1,10 +1,10 @@
 ---
 title: Document
 linktitle: Document
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents a Word document in Java.
 type: docs
-weight: 122
+weight: 131
 url: /java/com.aspose.words/document/
 ---
 
@@ -854,11 +854,6 @@ public void compare(Document document, String author, Date dateTime)
 Compares this document with another document producing changes as number of edit and format revisions [Revision](../../com.aspose.words/revision/).
 
  **Remarks:** 
-
-The following document nodes are not compared at the moment:
-
- *  [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/)
- *  Item3
 
 Documents must not have revisions before comparison.
 

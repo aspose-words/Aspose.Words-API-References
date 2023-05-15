@@ -1,10 +1,10 @@
 ---
 title: SubDocument
 linktitle: SubDocument
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents a SubDocument - which is a reference to an externally stored document in Java.
 type: docs
-weight: 549
+weight: 560
 url: /java/com.aspose.words/subdocument/
 ---
 
@@ -869,7 +869,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (139237,6)
+Returns  true  if this node can contain other nodes. (140491,6)
 
  **Examples:** 
 

@@ -1,10 +1,10 @@
 ---
 title: ChartTitle
 linktitle: ChartTitle
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Provides access to the chart title properties in Java.
 type: docs
-weight: 71
+weight: 74
 url: /java/com.aspose.words/charttitle/
 ---
 

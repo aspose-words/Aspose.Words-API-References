@@ -1,10 +1,10 @@
 ---
 title: FieldSection
 linktitle: FieldSection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Implements the SECTION field in Java.
 type: docs
-weight: 240
+weight: 249
 url: /java/com.aspose.words/fieldsection/
 ---
 

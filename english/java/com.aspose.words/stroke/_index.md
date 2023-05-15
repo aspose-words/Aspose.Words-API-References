@@ -1,10 +1,10 @@
 ---
 title: Stroke
 linktitle: Stroke
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Defines a stroke for a shape in Java.
 type: docs
-weight: 540
+weight: 551
 url: /java/com.aspose.words/stroke/
 ---
 
@@ -48,6 +48,7 @@ Shows how change stroke properties.
  stroke.setJoinStyle(JoinStyle.MITER);
  stroke.setEndCap(EndCap.SQUARE);
  stroke.setLineStyle(ShapeLineStyle.TRIPLE);
+ stroke.getFill().twoColorGradient(Color.RED, Color.BLUE, GradientStyle.VERTICAL, GradientVariant.VARIANT_1);
 
  doc.save(getArtifactsDir() + "Shape.Stroke.docx");
  
@@ -795,6 +796,38 @@ public Fill getFill()
 
 Gets fill formatting for the [Stroke](../../com.aspose.words/stroke/).
 
+ **Examples:** 
+
+Shows how change stroke properties.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, RelativeHorizontalPosition.LEFT_MARGIN, 100.0,
+         RelativeVerticalPosition.TOP_MARGIN, 100.0, 200.0, 200.0, WrapType.NONE);
+
+ // Basic shapes, such as the rectangle, have two visible parts.
+ // 1 -  The fill, which applies to the area within the outline of the shape:
+ shape.getFill().setForeColor(Color.WHITE);
+
+ // 2 -  The stroke, which marks the outline of the shape:
+ // Modify various properties of this shape's stroke.
+ Stroke stroke = shape.getStroke();
+ stroke.setOn(true);
+ stroke.setWeight(5.0);
+ stroke.setColor(Color.RED);
+ stroke.setDashStyle(DashStyle.SHORT_DASH_DOT_DOT);
+ stroke.setJoinStyle(JoinStyle.MITER);
+ stroke.setEndCap(EndCap.SQUARE);
+ stroke.setLineStyle(ShapeLineStyle.TRIPLE);
+ stroke.getFill().twoColorGradient(Color.RED, Color.BLUE, GradientStyle.VERTICAL, GradientVariant.VARIANT_1);
+
+ doc.save(getArtifactsDir() + "Shape.Stroke.docx");
+ 
+```
+
 **Returns:**
 [Fill](../../com.aspose.words/fill/) - Fill formatting for the [Stroke](../../com.aspose.words/stroke/).
 ### getFillType() {#getFillType}
@@ -1066,6 +1099,7 @@ Shows how change stroke properties.
  stroke.setJoinStyle(JoinStyle.MITER);
  stroke.setEndCap(EndCap.SQUARE);
  stroke.setLineStyle(ShapeLineStyle.TRIPLE);
+ stroke.getFill().twoColorGradient(Color.RED, Color.BLUE, GradientStyle.VERTICAL, GradientVariant.VARIANT_1);
 
  doc.save(getArtifactsDir() + "Shape.Stroke.docx");
  
@@ -1111,6 +1145,7 @@ Shows how change stroke properties.
  stroke.setJoinStyle(JoinStyle.MITER);
  stroke.setEndCap(EndCap.SQUARE);
  stroke.setLineStyle(ShapeLineStyle.TRIPLE);
+ stroke.getFill().twoColorGradient(Color.RED, Color.BLUE, GradientStyle.VERTICAL, GradientVariant.VARIANT_1);
 
  doc.save(getArtifactsDir() + "Shape.Stroke.docx");
  
@@ -1176,6 +1211,7 @@ Shows how change stroke properties.
  stroke.setJoinStyle(JoinStyle.MITER);
  stroke.setEndCap(EndCap.SQUARE);
  stroke.setLineStyle(ShapeLineStyle.TRIPLE);
+ stroke.getFill().twoColorGradient(Color.RED, Color.BLUE, GradientStyle.VERTICAL, GradientVariant.VARIANT_1);
 
  doc.save(getArtifactsDir() + "Shape.Stroke.docx");
  
@@ -1715,6 +1751,7 @@ Shows how change stroke properties.
  stroke.setJoinStyle(JoinStyle.MITER);
  stroke.setEndCap(EndCap.SQUARE);
  stroke.setLineStyle(ShapeLineStyle.TRIPLE);
+ stroke.getFill().twoColorGradient(Color.RED, Color.BLUE, GradientStyle.VERTICAL, GradientVariant.VARIANT_1);
 
  doc.save(getArtifactsDir() + "Shape.Stroke.docx");
  
@@ -2661,6 +2698,7 @@ Shows how change stroke properties.
  stroke.setJoinStyle(JoinStyle.MITER);
  stroke.setEndCap(EndCap.SQUARE);
  stroke.setLineStyle(ShapeLineStyle.TRIPLE);
+ stroke.getFill().twoColorGradient(Color.RED, Color.BLUE, GradientStyle.VERTICAL, GradientVariant.VARIANT_1);
 
  doc.save(getArtifactsDir() + "Shape.Stroke.docx");
  
@@ -2709,6 +2747,7 @@ Shows how change stroke properties.
  stroke.setJoinStyle(JoinStyle.MITER);
  stroke.setEndCap(EndCap.SQUARE);
  stroke.setLineStyle(ShapeLineStyle.TRIPLE);
+ stroke.getFill().twoColorGradient(Color.RED, Color.BLUE, GradientStyle.VERTICAL, GradientVariant.VARIANT_1);
 
  doc.save(getArtifactsDir() + "Shape.Stroke.docx");
  
@@ -2783,6 +2822,7 @@ Shows how change stroke properties.
  stroke.setJoinStyle(JoinStyle.MITER);
  stroke.setEndCap(EndCap.SQUARE);
  stroke.setLineStyle(ShapeLineStyle.TRIPLE);
+ stroke.getFill().twoColorGradient(Color.RED, Color.BLUE, GradientStyle.VERTICAL, GradientVariant.VARIANT_1);
 
  doc.save(getArtifactsDir() + "Shape.Stroke.docx");
  
@@ -3329,6 +3369,7 @@ Shows how change stroke properties.
  stroke.setJoinStyle(JoinStyle.MITER);
  stroke.setEndCap(EndCap.SQUARE);
  stroke.setLineStyle(ShapeLineStyle.TRIPLE);
+ stroke.getFill().twoColorGradient(Color.RED, Color.BLUE, GradientStyle.VERTICAL, GradientVariant.VARIANT_1);
 
  doc.save(getArtifactsDir() + "Shape.Stroke.docx");
  

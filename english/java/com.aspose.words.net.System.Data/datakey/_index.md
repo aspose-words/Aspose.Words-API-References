@@ -1,7 +1,7 @@
 ---
 title: DataKey
 linktitle: DataKey
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents a DataKey created from not duplicated DataColumn in Java.
 type: docs
 weight: 17

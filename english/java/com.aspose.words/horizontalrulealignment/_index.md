@@ -1,10 +1,10 @@
 ---
 title: HorizontalRuleAlignment
 linktitle: HorizontalRuleAlignment
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents the alignment for the specified horizontal rule in Java.
 type: docs
-weight: 324
+weight: 333
 url: /java/com.aspose.words/horizontalrulealignment/
 ---
 

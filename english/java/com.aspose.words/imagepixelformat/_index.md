@@ -1,10 +1,10 @@
 ---
 title: ImagePixelFormat
 linktitle: ImagePixelFormat
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Specifies the pixel format for the generated images of document pages in Java.
 type: docs
-weight: 342
+weight: 351
 url: /java/com.aspose.words/imagepixelformat/
 ---
 

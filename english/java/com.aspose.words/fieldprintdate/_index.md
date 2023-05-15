@@ -1,10 +1,10 @@
 ---
 title: FieldPrintDate
 linktitle: FieldPrintDate
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Implements the PRINTDATE field in Java.
 type: docs
-weight: 233
+weight: 242
 url: /java/com.aspose.words/fieldprintdate/
 ---
 

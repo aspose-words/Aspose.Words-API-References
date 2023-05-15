@@ -1,10 +1,10 @@
 ---
 title: FipsUnapprovedOperationException
 linktitle: FipsUnapprovedOperationException
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents the exception that is thrown when incorrectly trying to use cryptography in Java.
 type: docs
-weight: 274
+weight: 283
 url: /java/com.aspose.words/fipsunapprovedoperationexception/
 ---
 

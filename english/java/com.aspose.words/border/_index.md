@@ -1,7 +1,7 @@
 ---
 title: Border
 linktitle: Border
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents a border of an object in Java.
 type: docs
 weight: 36

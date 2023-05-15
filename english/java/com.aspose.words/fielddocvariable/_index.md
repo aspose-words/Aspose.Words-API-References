@@ -1,10 +1,10 @@
 ---
 title: FieldDocVariable
 linktitle: FieldDocVariable
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Implements DOCVARIABLE field in Java.
 type: docs
-weight: 184
+weight: 193
 url: /java/com.aspose.words/fielddocvariable/
 ---
 

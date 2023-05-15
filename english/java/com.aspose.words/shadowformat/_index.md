@@ -1,10 +1,10 @@
 ---
 title: ShadowFormat
 linktitle: ShadowFormat
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents shadow formatting for an object in Java.
 type: docs
-weight: 523
+weight: 534
 url: /java/com.aspose.words/shadowformat/
 ---
 

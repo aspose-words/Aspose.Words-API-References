@@ -1,7 +1,7 @@
 ---
 title: DataException
 linktitle: DataException
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents the exception that is thrown when errors are generated using ADO.NET components in Java.
 type: docs
 weight: 16

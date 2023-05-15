@@ -1,7 +1,7 @@
 ---
 title: DataTableReader
 linktitle: DataTableReader
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: The DataTableReader obtains the contents of one or more DataTable objects in the form of one or more read-only forward-only result sets in Java.
 type: docs
 weight: 27

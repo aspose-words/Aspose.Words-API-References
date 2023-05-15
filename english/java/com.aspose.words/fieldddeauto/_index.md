@@ -1,10 +1,10 @@
 ---
 title: FieldDdeAuto
 linktitle: FieldDdeAuto
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Implements the DDEAUTO field in Java.
 type: docs
-weight: 181
+weight: 190
 url: /java/com.aspose.words/fieldddeauto/
 ---
 

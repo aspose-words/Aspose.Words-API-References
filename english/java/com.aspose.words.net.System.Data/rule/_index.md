@@ -1,7 +1,7 @@
 ---
 title: Rule
 linktitle: Rule
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Indicates the action that occurs when a ForeignKeyConstraint is enforced in Java.
 type: docs
 weight: 36

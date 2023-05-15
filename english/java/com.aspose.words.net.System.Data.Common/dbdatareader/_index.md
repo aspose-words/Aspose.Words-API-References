@@ -1,7 +1,7 @@
 ---
 title: DbDataReader
 linktitle: DbDataReader
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Reads a forward-only stream of rows from a data source in Java.
 type: docs
 weight: 10

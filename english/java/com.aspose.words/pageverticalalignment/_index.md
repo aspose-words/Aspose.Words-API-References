@@ -1,10 +1,10 @@
 ---
 title: PageVerticalAlignment
 linktitle: PageVerticalAlignment
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Specifies vertical justification of text on each page in Java.
 type: docs
-weight: 448
+weight: 458
 url: /java/com.aspose.words/pageverticalalignment/
 ---
 

@@ -1,10 +1,10 @@
 ---
 title: PdfDigitalSignatureDetails
 linktitle: PdfDigitalSignatureDetails
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Contains details for signing a PDF document with a digital signature in Java.
 type: docs
-weight: 458
+weight: 468
 url: /java/com.aspose.words/pdfdigitalsignaturedetails/
 ---
 

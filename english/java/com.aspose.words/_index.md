@@ -1,7 +1,7 @@
 ---
 title: com.aspose.words
 linktitle: com.aspose.words
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: The com.aspose.words package provides classes for generating converting modifying rendering and printing Microsoft Word documents without utilizing Microsoft Word in Java.
 type: docs
 weight: 10
@@ -61,6 +61,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [BorderCollection](../com.aspose.words/bordercollection/) | A collection of [Border](../com.aspose.words/border/) objects. |
 | [BorderType](../com.aspose.words/bordertype/) | Specifies sides of a border. |
 | [BreakType](../com.aspose.words/breaktype/) | Specifies type of a break inside a document. |
+| [BubbleSizeCollection](../com.aspose.words/bubblesizecollection/) | Represents a collection of bubble sizes for a chart series. |
 | [BuildVersionInfo](../com.aspose.words/buildversioninfo/) | Provides information about the current product name and version. |
 | [BuildingBlock](../com.aspose.words/buildingblock/) | Represents a glossary document entry such as a Building Block, AutoText or an AutoCorrect entry. |
 | [BuildingBlockBehavior](../com.aspose.words/buildingblockbehavior/) | Specifies the behavior that shall be applied to the contents of the building block when it is inserted into the main document. |
@@ -89,11 +90,19 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [ChartLegendEntry](../com.aspose.words/chartlegendentry/) | Represents a chart legend entry. |
 | [ChartLegendEntryCollection](../com.aspose.words/chartlegendentrycollection/) | Represents a collection of chart legend entries. |
 | [ChartMarker](../com.aspose.words/chartmarker/) | Represents a chart data marker. |
+| [ChartMultilevelValue](../com.aspose.words/chartmultilevelvalue/) | Represents a value for charts that display multilevel data. |
 | [ChartNumberFormat](../com.aspose.words/chartnumberformat/) | Represents number formatting of the parent element. |
 | [ChartSeries](../com.aspose.words/chartseries/) | Represents chart series properties. |
 | [ChartSeriesCollection](../com.aspose.words/chartseriescollection/) | Represents collection of a [ChartSeries](../com.aspose.words/chartseries/). |
+| [ChartSeriesType](../com.aspose.words/chartseriestype/) | Specifies a type of a chart series. |
 | [ChartTitle](../com.aspose.words/charttitle/) | Provides access to the chart title properties. |
 | [ChartType](../com.aspose.words/charttype/) | Specifies type of a chart. |
+| [ChartXValue](../com.aspose.words/chartxvalue/) | Represents an X value for a chart series. |
+| [ChartXValueCollection](../com.aspose.words/chartxvaluecollection/) | Represents a collection of X values for a chart series. |
+| [ChartXValueType](../com.aspose.words/chartxvaluetype/) | Allows to specify type of an X value of a chart series. |
+| [ChartYValue](../com.aspose.words/chartyvalue/) | Represents an Y value for a chart series. |
+| [ChartYValueCollection](../com.aspose.words/chartyvaluecollection/) | Represents a collection of Y values for a chart series. |
+| [ChartYValueType](../com.aspose.words/chartyvaluetype/) | Allows to specify type of an Y value of a chart series. |
 | [ChmLoadOptions](../com.aspose.words/chmloadoptions/) | Allows to specify additional options when loading CHM document into a [Document](../com.aspose.words/document/) object. |
 | [CleanupOptions](../com.aspose.words/cleanupoptions/) | Allows to specify options for document cleaning. |
 | [Cluster](../com.aspose.words/cluster/) | Encapsulates code points and glyphs composing a grapheme. |
@@ -429,6 +438,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [Metered](../com.aspose.words/metered/) | Provides methods to set metered key. |
 | [MsWordVersion](../com.aspose.words/mswordversion/) | Allows Aspose.Wods to mimic MS Word version-specific application behavior. |
 | [MultiplePagesType](../com.aspose.words/multiplepagestype/) | Specifies how document is printed out. |
+| [NativeLibSettings](../com.aspose.words/nativelibsettings/) | This class helps to set various options such as temporary folder for Aspose.Words native libraries and whether native libraries should be loaded and used. |
 | [Node](../com.aspose.words/node/) | Base class for all nodes of a Word document. |
 | [NodeChangingAction](../com.aspose.words/nodechangingaction/) | Specifies the type of node change. |
 | [NodeChangingArgs](../com.aspose.words/nodechangingargs/) | Provides data for methods of the [INodeChangingCallback](../com.aspose.words/inodechangingcallback/) interface. |
@@ -492,6 +502,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [PdfSaveOptions](../com.aspose.words/pdfsaveoptions/) | Can be used to specify additional options when saving a document into the [SaveFormat.\#PDF](../com.aspose.words/saveformat/\#PDF) format. |
 | [PdfTextCompression](../com.aspose.words/pdftextcompression/) | Specifies a type of compression applied to all content in the PDF file except images. |
 | [PdfZoomBehavior](../com.aspose.words/pdfzoombehavior/) | Specifies the type of zoom applied to a PDF document when it is opened in a PDF viewer. |
+| [PhoneticGuide](../com.aspose.words/phoneticguide/) | Represents Phonetic Guide. |
 | [PhysicalFontInfo](../com.aspose.words/physicalfontinfo/) | Specifies information about physical font available to Aspose.Words font engine. |
 | [PlainTextDocument](../com.aspose.words/plaintextdocument/) | Allows to extract plain-text representation of the document's content. |
 | [PreferredWidth](../com.aspose.words/preferredwidth/) | Represents a value and its unit of measure that is used to specify the preferred width of a table or a cell. |

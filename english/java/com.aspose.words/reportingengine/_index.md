@@ -1,10 +1,10 @@
 ---
 title: ReportingEngine
 linktitle: ReportingEngine
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Provides routines to populate template documents with data and a set of settings to control these routines in Java.
 type: docs
-weight: 487
+weight: 498
 url: /java/com.aspose.words/reportingengine/
 ---
 

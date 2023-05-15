@@ -1,10 +1,10 @@
 ---
 title: WarningInfo
 linktitle: WarningInfo
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Contains information about a warning that Aspose.Words issued during document loading or saving in Java.
 type: docs
-weight: 613
+weight: 624
 url: /java/com.aspose.words/warninginfo/
 ---
 

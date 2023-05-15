@@ -1,7 +1,7 @@
 ---
 title: AxisTickMark
 linktitle: AxisTickMark
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Specifies the possible positions for tick marks in Java.
 type: docs
 weight: 24

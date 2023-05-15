@@ -1,10 +1,10 @@
 ---
 title: MergeFieldImageDimensionUnit
 linktitle: MergeFieldImageDimensionUnit
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Specifies an unit of an image dimension i.e in Java.
 type: docs
-weight: 402
+weight: 411
 url: /java/com.aspose.words/mergefieldimagedimensionunit/
 ---
 

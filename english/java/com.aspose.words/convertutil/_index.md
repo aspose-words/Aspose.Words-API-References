@@ -1,10 +1,10 @@
 ---
 title: ConvertUtil
 linktitle: ConvertUtil
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Provides helper functions to convert between various measurement units in Java.
 type: docs
-weight: 97
+weight: 106
 url: /java/com.aspose.words/convertutil/
 ---
 

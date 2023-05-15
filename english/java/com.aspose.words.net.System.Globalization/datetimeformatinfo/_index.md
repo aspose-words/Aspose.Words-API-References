@@ -1,7 +1,7 @@
 ---
 title: DateTimeFormatInfo
 linktitle: DateTimeFormatInfo
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Map for .Nets System.Globalization.DateTimeFormatInfo in Java.
 type: docs
 weight: 12

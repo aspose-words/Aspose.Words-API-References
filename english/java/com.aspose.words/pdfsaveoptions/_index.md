@@ -1,10 +1,10 @@
 ---
 title: PdfSaveOptions
 linktitle: PdfSaveOptions
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Can be used to specify additional options when saving a document into the SaveFormat.PDF format in Java.
 type: docs
-weight: 468
+weight: 478
 url: /java/com.aspose.words/pdfsaveoptions/
 ---
 
@@ -57,6 +57,7 @@ To learn more, visit the [ Specify Save Options ][Specify Save Options] document
 | [getExportDocumentStructure()](#getExportDocumentStructure) | Gets a value determining whether or not to export document structure. |
 | [getExportGeneratorName()](#getExportGeneratorName) | When  true , causes the name and version of Aspose.Words to be embedded into produced files. |
 | [getExportLanguageToSpanTag()](#getExportLanguageToSpanTag) | Gets a value determining whether or not to create a "Span" tag in the document structure to export the text language. |
+| [getExportParagraphGraphicsToArtifact()](#getExportParagraphGraphicsToArtifact) | Gets a value determining whether a paragraph graphic should be marked as an artifact. |
 | [getFontEmbeddingMode()](#getFontEmbeddingMode) | Specifies the font embedding mode. |
 | [getHeaderFooterBookmarksExportMode()](#getHeaderFooterBookmarksExportMode) | Determines how bookmarks in headers/footers are exported. |
 | [getImageColorSpaceExportMode()](#getImageColorSpaceExportMode) | Specifies how the color space will be selected for the images in PDF document. |
@@ -114,6 +115,7 @@ To learn more, visit the [ Specify Save Options ][Specify Save Options] document
 | [setExportDocumentStructure(boolean value)](#setExportDocumentStructure-boolean) | Sets a value determining whether or not to export document structure. |
 | [setExportGeneratorName(boolean value)](#setExportGeneratorName-boolean) | When  true , causes the name and version of Aspose.Words to be embedded into produced files. |
 | [setExportLanguageToSpanTag(boolean value)](#setExportLanguageToSpanTag-boolean) | Sets a value determining whether or not to create a "Span" tag in the document structure to export the text language. |
+| [setExportParagraphGraphicsToArtifact(boolean value)](#setExportParagraphGraphicsToArtifact-boolean) | Sets a value determining whether a paragraph graphic should be marked as an artifact. |
 | [setFontEmbeddingMode(int value)](#setFontEmbeddingMode-int) | Specifies the font embedding mode. |
 | [setHeaderFooterBookmarksExportMode(int value)](#setHeaderFooterBookmarksExportMode-int) | Determines how bookmarks in headers/footers are exported. |
 | [setImageColorSpaceExportMode(int value)](#setImageColorSpaceExportMode-int) | Specifies how the color space will be selected for the images in PDF document. |
@@ -630,6 +632,24 @@ This value is ignored when [getExportDocumentStructure()](../../com.aspose.words
 
 **Returns:**
 boolean - A value determining whether or not to create a "Span" tag in the document structure to export the text language.
+### getExportParagraphGraphicsToArtifact() {#getExportParagraphGraphicsToArtifact}
+```
+public boolean getExportParagraphGraphicsToArtifact()
+```
+
+
+Gets a value determining whether a paragraph graphic should be marked as an artifact.
+
+ **Remarks:** 
+
+Default value is  false  and paragraph graphics (underlines, text emphasis, etc.) will be marked as "Span" in the logical structure of the document.
+
+When the value is  true  the paragraph graphics will be marked as "Artifact".
+
+This value is ignored when [getExportDocumentStructure()](../../com.aspose.words/pdfsaveoptions/\#getExportDocumentStructure) / [setExportDocumentStructure(boolean)](../../com.aspose.words/pdfsaveoptions/\#setExportDocumentStructure-boolean) is  false .
+
+**Returns:**
+boolean - A value determining whether a paragraph graphic should be marked as an artifact.
 ### getFontEmbeddingMode() {#getFontEmbeddingMode}
 ```
 public int getFontEmbeddingMode()
@@ -1145,7 +1165,7 @@ Called during saving a document and accepts data about saving progress.
 
  **Remarks:** 
 
-Progress is reported when saving to [SaveFormat.DOCX](../../com.aspose.words/saveformat/\#DOCX), [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat/\#FLAT-OPC), [SaveFormat.DOCM](../../com.aspose.words/saveformat/\#DOCM), [SaveFormat.DOTM](../../com.aspose.words/saveformat/\#DOTM), [SaveFormat.DOTX](../../com.aspose.words/saveformat/\#DOTX), [SaveFormat.HTML](../../com.aspose.words/saveformat/\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat/\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat/\#EPUB), [SaveFormat.XAML\_FLOW](../../com.aspose.words/saveformat/\#XAML-FLOW), or [SaveFormat.XAML\_FLOW\_PACK](../../com.aspose.words/saveformat/\#XAML-FLOW-PACK).
+Progress is reported when saving to [SaveFormat.DOCX](../../com.aspose.words/saveformat/\#DOCX), [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat/\#FLAT-OPC), [SaveFormat.DOCM](../../com.aspose.words/saveformat/\#DOCM), [SaveFormat.DOTM](../../com.aspose.words/saveformat/\#DOTM), [SaveFormat.DOTX](../../com.aspose.words/saveformat/\#DOTX), [SaveFormat.DOC](../../com.aspose.words/saveformat/\#DOC), [SaveFormat.DOT](../../com.aspose.words/saveformat/\#DOT), [SaveFormat.HTML](../../com.aspose.words/saveformat/\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat/\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat/\#EPUB), [SaveFormat.XAML\_FLOW](../../com.aspose.words/saveformat/\#XAML-FLOW), or [SaveFormat.XAML\_FLOW\_PACK](../../com.aspose.words/saveformat/\#XAML-FLOW-PACK).
 
  **Examples:** 
 
@@ -2198,6 +2218,27 @@ This value is ignored when [getExportDocumentStructure()](../../com.aspose.words
 | --- | --- | --- |
 | value | boolean | A value determining whether or not to create a "Span" tag in the document structure to export the text language. |
 
+### setExportParagraphGraphicsToArtifact(boolean value) {#setExportParagraphGraphicsToArtifact-boolean}
+```
+public void setExportParagraphGraphicsToArtifact(boolean value)
+```
+
+
+Sets a value determining whether a paragraph graphic should be marked as an artifact.
+
+ **Remarks:** 
+
+Default value is  false  and paragraph graphics (underlines, text emphasis, etc.) will be marked as "Span" in the logical structure of the document.
+
+When the value is  true  the paragraph graphics will be marked as "Artifact".
+
+This value is ignored when [getExportDocumentStructure()](../../com.aspose.words/pdfsaveoptions/\#getExportDocumentStructure) / [setExportDocumentStructure(boolean)](../../com.aspose.words/pdfsaveoptions/\#setExportDocumentStructure-boolean) is  false .
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | A value determining whether a paragraph graphic should be marked as an artifact. |
+
 ### setFontEmbeddingMode(int value) {#setFontEmbeddingMode-int}
 ```
 public void setFontEmbeddingMode(int value)
@@ -2745,7 +2786,7 @@ Called during saving a document and accepts data about saving progress.
 
  **Remarks:** 
 
-Progress is reported when saving to [SaveFormat.DOCX](../../com.aspose.words/saveformat/\#DOCX), [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat/\#FLAT-OPC), [SaveFormat.DOCM](../../com.aspose.words/saveformat/\#DOCM), [SaveFormat.DOTM](../../com.aspose.words/saveformat/\#DOTM), [SaveFormat.DOTX](../../com.aspose.words/saveformat/\#DOTX), [SaveFormat.HTML](../../com.aspose.words/saveformat/\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat/\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat/\#EPUB), [SaveFormat.XAML\_FLOW](../../com.aspose.words/saveformat/\#XAML-FLOW), or [SaveFormat.XAML\_FLOW\_PACK](../../com.aspose.words/saveformat/\#XAML-FLOW-PACK).
+Progress is reported when saving to [SaveFormat.DOCX](../../com.aspose.words/saveformat/\#DOCX), [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat/\#FLAT-OPC), [SaveFormat.DOCM](../../com.aspose.words/saveformat/\#DOCM), [SaveFormat.DOTM](../../com.aspose.words/saveformat/\#DOTM), [SaveFormat.DOTX](../../com.aspose.words/saveformat/\#DOTX), [SaveFormat.DOC](../../com.aspose.words/saveformat/\#DOC), [SaveFormat.DOT](../../com.aspose.words/saveformat/\#DOT), [SaveFormat.HTML](../../com.aspose.words/saveformat/\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat/\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat/\#EPUB), [SaveFormat.XAML\_FLOW](../../com.aspose.words/saveformat/\#XAML-FLOW), or [SaveFormat.XAML\_FLOW\_PACK](../../com.aspose.words/saveformat/\#XAML-FLOW-PACK).
 
  **Examples:** 
 

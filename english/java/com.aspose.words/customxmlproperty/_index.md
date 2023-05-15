@@ -1,10 +1,10 @@
 ---
 title: CustomXmlProperty
 linktitle: CustomXmlProperty
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents a single custom XML attribute or a smart tag property in Java.
 type: docs
-weight: 108
+weight: 117
 url: /java/com.aspose.words/customxmlproperty/
 ---
 

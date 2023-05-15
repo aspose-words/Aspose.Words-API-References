@@ -1,7 +1,7 @@
 ---
 title: DataTableEventListener
 linktitle: DataTableEventListener
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Provides methods to work with EventListeners when DataTable is changed in Java.
 type: docs
 weight: 33

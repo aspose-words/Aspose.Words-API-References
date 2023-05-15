@@ -1,10 +1,10 @@
 ---
 title: DocumentPartSavingArgs
 linktitle: DocumentPartSavingArgs
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Provides data for the IDocumentPartSavingCallback.documentPartSavingcom.aspose.words.DocumentPartSavingArgs callback in Java.
 type: docs
-weight: 127
+weight: 136
 url: /java/com.aspose.words/documentpartsavingargs/
 ---
 

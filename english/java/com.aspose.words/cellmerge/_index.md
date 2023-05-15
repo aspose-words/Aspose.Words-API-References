@@ -1,10 +1,10 @@
 ---
 title: CellMerge
 linktitle: CellMerge
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Specifies how a cell in a table is merged with other cells in Java.
 type: docs
-weight: 51
+weight: 52
 url: /java/com.aspose.words/cellmerge/
 ---
 

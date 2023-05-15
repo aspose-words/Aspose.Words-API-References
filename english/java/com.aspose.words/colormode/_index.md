@@ -1,10 +1,10 @@
 ---
 title: ColorMode
 linktitle: ColorMode
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Specifies how colors are rendered in Java.
 type: docs
-weight: 76
+weight: 85
 url: /java/com.aspose.words/colormode/
 ---
 

@@ -1,10 +1,10 @@
 ---
 title: XmlDataLoadOptions
 linktitle: XmlDataLoadOptions
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents options for XML data loading in Java.
 type: docs
-weight: 636
+weight: 647
 url: /java/com.aspose.words/xmldataloadoptions/
 ---
 

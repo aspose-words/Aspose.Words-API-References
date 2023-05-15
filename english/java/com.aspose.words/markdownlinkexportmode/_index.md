@@ -1,10 +1,10 @@
 ---
 title: MarkdownLinkExportMode
 linktitle: MarkdownLinkExportMode
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: The mode of exporting links to a target document in Java.
 type: docs
-weight: 393
+weight: 402
 url: /java/com.aspose.words/markdownlinkexportmode/
 ---
 

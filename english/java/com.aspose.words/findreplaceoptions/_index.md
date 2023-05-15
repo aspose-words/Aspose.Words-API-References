@@ -1,10 +1,10 @@
 ---
 title: FindReplaceOptions
 linktitle: FindReplaceOptions
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Specifies options for find/replace operations in Java.
 type: docs
-weight: 273
+weight: 282
 url: /java/com.aspose.words/findreplaceoptions/
 ---
 
@@ -92,6 +92,7 @@ Shows how to toggle standalone word-only find-and-replace operations.
 | [getIgnoreFields()](#getIgnoreFields) | Gets a boolean value indicating either to ignore text inside fields. |
 | [getIgnoreFootnotes()](#getIgnoreFootnotes) | Gets a boolean value indicating either to ignore footnotes. |
 | [getIgnoreInserted()](#getIgnoreInserted) | Gets a boolean value indicating either to ignore text inside insert revisions. |
+| [getIgnoreShapes()](#getIgnoreShapes) | Gets or sets a boolean value indicating either to ignore shapes within a text. |
 | [getIgnoreStructuredDocumentTags()](#getIgnoreStructuredDocumentTags) | Gets a boolean value indicating either to ignore content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/). |
 | [getLegacyMode()](#getLegacyMode) | Gets a boolean value indicating that old find/replace algorithm is used. |
 | [getMatchCase()](#getMatchCase) | True indicates case-sensitive comparison, false indicates case-insensitive comparison. |
@@ -109,6 +110,7 @@ Shows how to toggle standalone word-only find-and-replace operations.
 | [setIgnoreFields(boolean value)](#setIgnoreFields-boolean) | Sets a boolean value indicating either to ignore text inside fields. |
 | [setIgnoreFootnotes(boolean value)](#setIgnoreFootnotes-boolean) | Sets a boolean value indicating either to ignore footnotes. |
 | [setIgnoreInserted(boolean value)](#setIgnoreInserted-boolean) | Sets a boolean value indicating either to ignore text inside insert revisions. |
+| [setIgnoreShapes(boolean value)](#setIgnoreShapes-boolean) | Gets or sets a boolean value indicating either to ignore shapes within a text. |
 | [setIgnoreStructuredDocumentTags(boolean value)](#setIgnoreStructuredDocumentTags-boolean) | Sets a boolean value indicating either to ignore content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/). |
 | [setLegacyMode(boolean value)](#setLegacyMode-boolean) | Sets a boolean value indicating that old find/replace algorithm is used. |
 | [setMatchCase(boolean value)](#setMatchCase-boolean) | True indicates case-sensitive comparison, false indicates case-insensitive comparison. |
@@ -652,6 +654,18 @@ Shows how to include or ignore text inside insert revisions during a find-and-re
 
 **Returns:**
 boolean - A boolean value indicating either to ignore text inside insert revisions.
+### getIgnoreShapes() {#getIgnoreShapes}
+```
+public boolean getIgnoreShapes()
+```
+
+
+Gets or sets a boolean value indicating either to ignore shapes within a text.
+
+The default value is  false .
+
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getIgnoreStructuredDocumentTags() {#getIgnoreStructuredDocumentTags}
 ```
 public boolean getIgnoreStructuredDocumentTags()
@@ -1401,6 +1415,21 @@ Shows how to include or ignore text inside insert revisions during a find-and-re
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | A boolean value indicating either to ignore text inside insert revisions. |
+
+### setIgnoreShapes(boolean value) {#setIgnoreShapes-boolean}
+```
+public void setIgnoreShapes(boolean value)
+```
+
+
+Gets or sets a boolean value indicating either to ignore shapes within a text.
+
+The default value is  false .
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setIgnoreStructuredDocumentTags(boolean value) {#setIgnoreStructuredDocumentTags-boolean}
 ```

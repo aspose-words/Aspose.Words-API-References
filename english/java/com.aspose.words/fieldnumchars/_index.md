@@ -1,10 +1,10 @@
 ---
 title: FieldNumChars
 linktitle: FieldNumChars
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Implements the NUMCHARS field in Java.
 type: docs
-weight: 225
+weight: 234
 url: /java/com.aspose.words/fieldnumchars/
 ---
 

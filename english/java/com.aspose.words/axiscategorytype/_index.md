@@ -1,7 +1,7 @@
 ---
 title: AxisCategoryType
 linktitle: AxisCategoryType
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Specifies type of a category axis in Java.
 type: docs
 weight: 18

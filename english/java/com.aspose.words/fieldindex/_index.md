@@ -1,10 +1,10 @@
 ---
 title: FieldIndex
 linktitle: FieldIndex
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Implements the INDEX field in Java.
 type: docs
-weight: 208
+weight: 217
 url: /java/com.aspose.words/fieldindex/
 ---
 

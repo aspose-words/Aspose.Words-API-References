@@ -1,10 +1,10 @@
 ---
 title: ReplacingArgs
 linktitle: ReplacingArgs
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Provides data for a custom replace operation in Java.
 type: docs
-weight: 485
+weight: 496
 url: /java/com.aspose.words/replacingargs/
 ---
 

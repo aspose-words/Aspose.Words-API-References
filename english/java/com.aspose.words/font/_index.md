@@ -1,10 +1,10 @@
 ---
 title: Font
 linktitle: Font
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Contains font attributes font name font size color and so on for an object in Java.
 type: docs
-weight: 278
+weight: 287
 url: /java/com.aspose.words/font/
 ---
 

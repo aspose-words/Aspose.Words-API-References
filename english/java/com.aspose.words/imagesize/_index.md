@@ -1,10 +1,10 @@
 ---
 title: ImageSize
 linktitle: ImageSize
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Contains information about image size and resolution in Java.
 type: docs
-weight: 345
+weight: 354
 url: /java/com.aspose.words/imagesize/
 ---
 

@@ -1,10 +1,10 @@
 ---
 title: OleControl
 linktitle: OleControl
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents OLE ActiveX control in Java.
 type: docs
-weight: 431
+weight: 441
 url: /java/com.aspose.words/olecontrol/
 ---
 
@@ -61,7 +61,7 @@ Shows how to verify the properties of an ActiveX control.
 | [notify()](#notify) |  |
 | [notifyAll()](#notifyAll) |  |
 | [setId(int value)](#setId-int) |  |
-| [setName(String value)](#setName-java.lang.String) | Gets name of the ActiveX control. |
+| [setName(String value)](#setName-java.lang.String) | Sets name of the ActiveX control. |
 | [toString()](#toString) |  |
 | [wait()](#wait) |  |
 | [wait(long arg0)](#wait-long) |  |
@@ -259,7 +259,7 @@ public void setName(String value)
 ```
 
 
-Gets name of the ActiveX control.
+Sets name of the ActiveX control.
 
  **Examples:** 
 

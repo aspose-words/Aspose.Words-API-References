@@ -1,10 +1,10 @@
 ---
 title: ParagraphFormat
 linktitle: ParagraphFormat
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents all the formatting for a paragraph in Java.
 type: docs
-weight: 453
+weight: 463
 url: /java/com.aspose.words/paragraphformat/
 ---
 

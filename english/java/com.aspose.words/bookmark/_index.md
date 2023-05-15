@@ -1,7 +1,7 @@
 ---
 title: Bookmark
 linktitle: Bookmark
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents a single bookmark in Java.
 type: docs
 weight: 31

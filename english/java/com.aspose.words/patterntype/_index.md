@@ -1,10 +1,10 @@
 ---
 title: PatternType
 linktitle: PatternType
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Specifies the fill pattern to be used to fill a shape in Java.
 type: docs
-weight: 454
+weight: 464
 url: /java/com.aspose.words/patterntype/
 ---
 

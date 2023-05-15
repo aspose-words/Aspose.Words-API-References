@@ -1,10 +1,10 @@
 ---
 title: TxtLoadOptions
 linktitle: TxtLoadOptions
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Allows to specify additional options when loading LoadFormat.TEXT document into a Document object in Java.
 type: docs
-weight: 593
+weight: 604
 url: /java/com.aspose.words/txtloadoptions/
 ---
 

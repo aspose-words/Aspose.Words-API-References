@@ -1,10 +1,10 @@
 ---
 title: ReportBuildOptions
 linktitle: ReportBuildOptions
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Specifies options controlling behavior of ReportingEngine while building a report in Java.
 type: docs
-weight: 486
+weight: 497
 url: /java/com.aspose.words/reportbuildoptions/
 ---
 

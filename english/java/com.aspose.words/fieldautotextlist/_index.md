@@ -1,10 +1,10 @@
 ---
 title: FieldAutoTextList
 linktitle: FieldAutoTextList
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Implements the AUTOTEXTLIST field in Java.
 type: docs
-weight: 164
+weight: 173
 url: /java/com.aspose.words/fieldautotextlist/
 ---
 

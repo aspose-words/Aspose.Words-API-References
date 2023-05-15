@@ -1,10 +1,10 @@
 ---
 title: OleFormat
 linktitle: OleFormat
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Provides access to the data of an OLE object or ActiveX control in Java.
 type: docs
-weight: 432
+weight: 442
 url: /java/com.aspose.words/oleformat/
 ---
 

@@ -1,10 +1,10 @@
 ---
 title: FontSettings
 linktitle: FontSettings
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Specifies font settings for a document in Java.
 type: docs
-weight: 289
+weight: 298
 url: /java/com.aspose.words/fontsettings/
 ---
 

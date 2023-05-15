@@ -1,10 +1,10 @@
 ---
 title: PageSetup
 linktitle: PageSetup
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents the page setup properties of a section in Java.
 type: docs
-weight: 447
+weight: 457
 url: /java/com.aspose.words/pagesetup/
 ---
 

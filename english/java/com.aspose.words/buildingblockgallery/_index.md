@@ -1,10 +1,10 @@
 ---
 title: BuildingBlockGallery
 linktitle: BuildingBlockGallery
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Specifies the predefined gallery into which a building block is classified in Java.
 type: docs
-weight: 44
+weight: 45
 url: /java/com.aspose.words/buildingblockgallery/
 ---
 

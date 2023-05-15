@@ -1,10 +1,10 @@
 ---
 title: Chart
 linktitle: Chart
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Provides access to the chart shape properties in Java.
 type: docs
-weight: 55
+weight: 56
 url: /java/com.aspose.words/chart/
 ---
 
@@ -91,6 +91,29 @@ public ChartAxisCollection getAxes()
 
 
 Gets a collection of all axes of this chart.
+
+ **Examples:** 
+
+Shows how to work with axes collection.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ Shape shape = builder.insertChart(ChartType.COLUMN, 500.0, 300.0);
+ Chart chart = shape.getChart();
+
+ // Hide the major grid lines on the primary and secondary Y axes.
+ for (ChartAxis axis : chart.getAxes())
+ {
+     if (axis.getType() == ChartAxisType.VALUE)
+         axis.hasMajorGridlines(false);
+ }
+
+ doc.save(getArtifactsDir() + "Charts.AxisCollection.docx");
+ 
+```
 
 **Returns:**
 [ChartAxisCollection](../../com.aspose.words/chartaxiscollection/) - A collection of all axes of this chart.

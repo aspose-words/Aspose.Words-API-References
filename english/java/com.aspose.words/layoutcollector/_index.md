@@ -1,10 +1,10 @@
 ---
 title: LayoutCollector
 linktitle: LayoutCollector
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: This class allows to compute page numbers of document nodes in Java.
 type: docs
-weight: 362
+weight: 371
 url: /java/com.aspose.words/layoutcollector/
 ---
 

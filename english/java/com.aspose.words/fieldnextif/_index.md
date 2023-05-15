@@ -1,10 +1,10 @@
 ---
 title: FieldNextIf
 linktitle: FieldNextIf
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Implements the NEXTIF field in Java.
 type: docs
-weight: 223
+weight: 232
 url: /java/com.aspose.words/fieldnextif/
 ---
 

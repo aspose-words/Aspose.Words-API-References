@@ -1,10 +1,10 @@
 ---
 title: ComparisonTargetType
 linktitle: ComparisonTargetType
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Allows to specify base document which will be used during comparison in Java.
 type: docs
-weight: 86
+weight: 95
 url: /java/com.aspose.words/comparisontargettype/
 ---
 

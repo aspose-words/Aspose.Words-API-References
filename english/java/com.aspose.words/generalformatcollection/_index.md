@@ -1,10 +1,10 @@
 ---
 title: GeneralFormatCollection
 linktitle: GeneralFormatCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents a typed collection of general formats in Java.
 type: docs
-weight: 308
+weight: 317
 url: /java/com.aspose.words/generalformatcollection/
 ---
 

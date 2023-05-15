@@ -1,7 +1,7 @@
 ---
 title: CultureInfo
 linktitle: CultureInfo
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Map for .Nets System.Globalization.CultureInfo in Java.
 type: docs
 weight: 10

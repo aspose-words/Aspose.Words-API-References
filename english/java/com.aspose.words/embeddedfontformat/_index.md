@@ -1,10 +1,10 @@
 ---
 title: EmbeddedFontFormat
 linktitle: EmbeddedFontFormat
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Specifies format of particular embedded font inside FontInfo object in Java.
 type: docs
-weight: 143
+weight: 152
 url: /java/com.aspose.words/embeddedfontformat/
 ---
 

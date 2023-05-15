@@ -1,10 +1,10 @@
 ---
 title: SdtListItemCollection
 linktitle: SdtListItemCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Provides access to SdtListItem elements of a structured document tag in Java.
 type: docs
-weight: 516
+weight: 527
 url: /java/com.aspose.words/sdtlistitemcollection/
 ---
 

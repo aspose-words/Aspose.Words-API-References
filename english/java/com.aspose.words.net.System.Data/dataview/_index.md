@@ -1,7 +1,7 @@
 ---
 title: DataView
 linktitle: DataView
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents a databindable customized view of a DataTable for sorting filtering searching editing and navigation in Java.
 type: docs
 weight: 28

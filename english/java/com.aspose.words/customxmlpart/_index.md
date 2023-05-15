@@ -1,10 +1,10 @@
 ---
 title: CustomXmlPart
 linktitle: CustomXmlPart
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents a Custom XML Data Storage Part custom XML data within a package in Java.
 type: docs
-weight: 106
+weight: 115
 url: /java/com.aspose.words/customxmlpart/
 ---
 

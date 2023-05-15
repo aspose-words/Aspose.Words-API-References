@@ -1,7 +1,7 @@
 ---
 title: AbsolutePositionTab
 linktitle: AbsolutePositionTab
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: An absolute position tab is a character which is used to advance the position on the current line of text when displaying this WordprocessingML content in Java.
 type: docs
 weight: 10
@@ -989,7 +989,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (139237,6)
+Returns  true  if this node can contain other nodes. (140491,6)
 
  **Examples:** 
 

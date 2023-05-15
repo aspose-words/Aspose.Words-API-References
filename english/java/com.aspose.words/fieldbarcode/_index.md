@@ -1,10 +1,10 @@
 ---
 title: FieldBarcode
 linktitle: FieldBarcode
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Implements the BARCODE field in Java.
 type: docs
-weight: 165
+weight: 174
 url: /java/com.aspose.words/fieldbarcode/
 ---
 

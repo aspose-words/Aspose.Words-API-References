@@ -1,10 +1,10 @@
 ---
 title: FieldSectionPages
 linktitle: FieldSectionPages
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Implements the SECTIONPAGES field in Java.
 type: docs
-weight: 241
+weight: 250
 url: /java/com.aspose.words/fieldsectionpages/
 ---
 

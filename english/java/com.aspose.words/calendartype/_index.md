@@ -1,10 +1,10 @@
 ---
 title: CalendarType
 linktitle: CalendarType
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Specifies the type of a calendar in Java.
 type: docs
-weight: 47
+weight: 48
 url: /java/com.aspose.words/calendartype/
 ---
 

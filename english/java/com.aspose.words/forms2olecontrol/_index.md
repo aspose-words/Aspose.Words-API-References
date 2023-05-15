@@ -1,10 +1,10 @@
 ---
 title: Forms2OleControl
 linktitle: Forms2OleControl
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents Microsoft Forms 2.0 OLE control in Java.
 type: docs
-weight: 301
+weight: 310
 url: /java/com.aspose.words/forms2olecontrol/
 ---
 
@@ -61,6 +61,7 @@ Shows how to verify the properties of an ActiveX control.
 | [getEnabled()](#getEnabled) | Returns  true  if control is in enabled state. |
 | [getExtensionForUser(String progId)](#getExtensionForUser-java.lang.String) |  |
 | [getFileNameForUser()](#getFileNameForUser) |  |
+| [getGroupName()](#getGroupName) | Gets a string that specifies a group of mutually exclusive controls. |
 | [getId()](#getId) |  |
 | [getName()](#getName) | Gets name of the ActiveX control. |
 | [getType()](#getType) | Gets type of Forms 2.0 control. |
@@ -70,8 +71,9 @@ Shows how to verify the properties of an ActiveX control.
 | [isForms2OleControlInternal()](#isForms2OleControlInternal) |  |
 | [notify()](#notify) |  |
 | [notifyAll()](#notifyAll) |  |
+| [setGroupName(String value)](#setGroupName-java.lang.String) | Sets a string that specifies a group of mutually exclusive controls. |
 | [setId(int value)](#setId-int) |  |
-| [setName(String value)](#setName-java.lang.String) | Gets name of the ActiveX control. |
+| [setName(String value)](#setName-java.lang.String) | Sets name of the ActiveX control. |
 | [toString()](#toString) |  |
 | [wait()](#wait) |  |
 | [wait(long arg0)](#wait-long) |  |
@@ -248,6 +250,16 @@ public String getFileNameForUser()
 
 **Returns:**
 java.lang.String
+### getGroupName() {#getGroupName}
+```
+public String getGroupName()
+```
+
+
+Gets a string that specifies a group of mutually exclusive controls. The default value is an empty string.
+
+**Returns:**
+java.lang.String - A string that specifies a group of mutually exclusive controls.
 ### getId() {#getId}
 ```
 public int getId()
@@ -430,6 +442,19 @@ public final native void notifyAll()
 
 
 
+### setGroupName(String value) {#setGroupName-java.lang.String}
+```
+public void setGroupName(String value)
+```
+
+
+Sets a string that specifies a group of mutually exclusive controls. The default value is an empty string.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | A string that specifies a group of mutually exclusive controls. |
+
 ### setId(int value) {#setId-int}
 ```
 public void setId(int value)
@@ -449,7 +474,7 @@ public void setName(String value)
 ```
 
 
-Gets name of the ActiveX control.
+Sets name of the ActiveX control.
 
  **Examples:** 
 

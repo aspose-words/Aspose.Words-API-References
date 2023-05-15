@@ -1,10 +1,10 @@
 ---
 title: SmartTag
 linktitle: SmartTag
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: This element specifies the presence of a smart tag around one or more inline structures runs images fieldsetc. within a paragraph in Java.
 type: docs
-weight: 535
+weight: 546
 url: /java/com.aspose.words/smarttag/
 ---
 

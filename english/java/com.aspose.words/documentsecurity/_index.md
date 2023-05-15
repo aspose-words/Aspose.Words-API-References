@@ -1,10 +1,10 @@
 ---
 title: DocumentSecurity
 linktitle: DocumentSecurity
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Used as a value for the BuiltInDocumentProperties.getSecurity / BuiltInDocumentProperties.setSecurityint property in Java.
 type: docs
-weight: 132
+weight: 141
 url: /java/com.aspose.words/documentsecurity/
 ---
 

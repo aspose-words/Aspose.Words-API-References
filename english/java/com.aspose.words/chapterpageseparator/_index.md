@@ -1,10 +1,10 @@
 ---
 title: ChapterPageSeparator
 linktitle: ChapterPageSeparator
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Defines the separator character that appears between the chapter and page number in Java.
 type: docs
-weight: 54
+weight: 55
 url: /java/com.aspose.words/chapterpageseparator/
 ---
 

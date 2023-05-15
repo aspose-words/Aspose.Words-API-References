@@ -1,10 +1,10 @@
 ---
 title: Hyphenation
 linktitle: Hyphenation
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Provides methods for working with hyphenation dictionaries in Java.
 type: docs
-weight: 336
+weight: 345
 url: /java/com.aspose.words/hyphenation/
 ---
 

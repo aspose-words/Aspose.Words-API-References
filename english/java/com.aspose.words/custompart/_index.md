@@ -1,10 +1,10 @@
 ---
 title: CustomPart
 linktitle: CustomPart
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents a custom arbitrary content part that is not defined by the ISO/IEC 29500 standard in Java.
 type: docs
-weight: 104
+weight: 113
 url: /java/com.aspose.words/custompart/
 ---
 

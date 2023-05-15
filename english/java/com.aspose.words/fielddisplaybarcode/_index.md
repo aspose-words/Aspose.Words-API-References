@@ -1,10 +1,10 @@
 ---
 title: FieldDisplayBarcode
 linktitle: FieldDisplayBarcode
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Implements the DISPLAYBARCODE field in Java.
 type: docs
-weight: 182
+weight: 191
 url: /java/com.aspose.words/fielddisplaybarcode/
 ---
 

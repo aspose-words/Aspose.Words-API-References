@@ -1,7 +1,7 @@
 ---
 title: XmlReadMode
 linktitle: XmlReadMode
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Specifies how to read XML data and a relational schema into a DataSet in Java.
 type: docs
 weight: 37

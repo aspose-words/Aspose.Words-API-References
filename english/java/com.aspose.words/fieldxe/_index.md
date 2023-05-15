@@ -1,10 +1,10 @@
 ---
 title: FieldXE
 linktitle: FieldXE
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Implements the XE field in Java.
 type: docs
-weight: 265
+weight: 274
 url: /java/com.aspose.words/fieldxe/
 ---
 

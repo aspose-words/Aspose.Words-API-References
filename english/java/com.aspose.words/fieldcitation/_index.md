@@ -1,10 +1,10 @@
 ---
 title: FieldCitation
 linktitle: FieldCitation
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Implements the CITATION field in Java.
 type: docs
-weight: 170
+weight: 179
 url: /java/com.aspose.words/fieldcitation/
 ---
 

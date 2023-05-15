@@ -1,7 +1,7 @@
 ---
 title: UniqueConstraint
 linktitle: UniqueConstraint
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents a restriction on a set of columns in which all values must be unique in Java.
 type: docs
 weight: 32

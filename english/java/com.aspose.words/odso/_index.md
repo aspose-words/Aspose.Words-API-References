@@ -1,10 +1,10 @@
 ---
 title: Odso
 linktitle: Odso
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Specifies the Office Data Source Object ODSO settings for a mail merge data source in Java.
 type: docs
-weight: 418
+weight: 428
 url: /java/com.aspose.words/odso/
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: com.aspose.words.ref
 linktitle: com.aspose.words.ref
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Provides mimicking .NET Out/Ref language construction in Java in Java.
 type: docs
 weight: 15

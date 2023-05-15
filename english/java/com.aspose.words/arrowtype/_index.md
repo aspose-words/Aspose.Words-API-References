@@ -1,7 +1,7 @@
 ---
 title: ArrowType
 linktitle: ArrowType
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Specifies the type of an arrow at a line end in Java.
 type: docs
 weight: 12

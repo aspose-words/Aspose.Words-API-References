@@ -1,10 +1,10 @@
 ---
 title: ZoomType
 linktitle: ZoomType
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Possible values for how large or small the document appears on the screen in Microsoft Word in Java.
 type: docs
-weight: 640
+weight: 651
 url: /java/com.aspose.words/zoomtype/
 ---
 

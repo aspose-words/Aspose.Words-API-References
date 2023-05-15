@@ -1,10 +1,10 @@
 ---
 title: ResourceLoadingAction
 linktitle: ResourceLoadingAction
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Specifies the mode of resource loading in Java.
 type: docs
-weight: 488
+weight: 499
 url: /java/com.aspose.words/resourceloadingaction/
 ---
 

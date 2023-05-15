@@ -1,10 +1,10 @@
 ---
 title: Cell
 linktitle: Cell
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents a table cell in Java.
 type: docs
-weight: 48
+weight: 49
 url: /java/com.aspose.words/cell/
 ---
 

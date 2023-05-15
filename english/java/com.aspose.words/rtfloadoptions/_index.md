@@ -1,10 +1,10 @@
 ---
 title: RtfLoadOptions
 linktitle: RtfLoadOptions
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Allows to specify additional options when loading LoadFormat.RTF document into a Document object in Java.
 type: docs
-weight: 504
+weight: 515
 url: /java/com.aspose.words/rtfloadoptions/
 ---
 
