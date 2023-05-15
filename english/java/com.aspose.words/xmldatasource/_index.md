@@ -1,10 +1,10 @@
 ---
 title: XmlDataSource
 linktitle: XmlDataSource
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Provides access to data of an XML file or stream to be used within a report in Java.
 type: docs
-weight: 637
+weight: 648
 url: /java/com.aspose.words/xmldatasource/
 ---
 

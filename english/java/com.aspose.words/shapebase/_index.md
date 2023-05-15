@@ -1,10 +1,10 @@
 ---
 title: ShapeBase
 linktitle: ShapeBase
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Base class for objects in the drawing layer such as an AutoShape freeform OLE object ActiveX control or picture in Java.
 type: docs
-weight: 526
+weight: 537
 url: /java/com.aspose.words/shapebase/
 ---
 
@@ -2851,6 +2851,60 @@ public float getHeightRelative()
 
 Gets the value that represents the percentage of shape's relative height.
 
+ **Examples:** 
+
+Shows how to set relative size and position.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Adding a simple shape with absolute size and position.
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 100.0, 40.0);
+ // Set WrapType to WrapType.None since Inline shapes are automatically converted to absolute units.
+ shape.setWrapType(WrapType.NONE);
+
+ // Checking and setting the relative horizontal size.
+ if (shape.getRelativeHorizontalSize() == RelativeHorizontalSize.DEFAULT)
+ {
+     // Setting the horizontal size binding to Margin.
+     shape.setRelativeHorizontalSize(RelativeHorizontalSize.MARGIN);
+     // Setting the width to 50% of Margin width.
+     shape.setWidthRelative(50f);
+ }
+
+ // Checking and setting the relative vertical size.
+ if (shape.getRelativeVerticalSize() == RelativeVerticalSize.DEFAULT)
+ {
+     // Setting the vertical size binding to Margin.
+     shape.setRelativeVerticalSize(RelativeVerticalSize.MARGIN);
+     // Setting the heigh to 30% of Margin height.
+     shape.setHeightRelative(30f);
+ }
+
+ // Checking and setting the relative vertical position.
+ if (shape.getRelativeVerticalPosition() == RelativeVerticalPosition.PARAGRAPH)
+ {
+     // etting the position binding to TopMargin.
+     shape.setRelativeVerticalPosition(RelativeVerticalPosition.TOP_MARGIN);
+     // Setting relative Top to 30% of TopMargin position.
+     shape.setTopRelative(30f);
+ }
+
+ // Checking and setting the relative horizontal position.
+ if (shape.getRelativeHorizontalPosition() == RelativeHorizontalPosition.DEFAULT)
+ {
+     // Setting the position binding to RightMargin.
+     shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.RIGHT_MARGIN);
+     // The position relative value can be negative.
+     shape.setLeftRelative(-260);
+ }
+
+ doc.save(getArtifactsDir() + "Shape.RelativeSizeAndPosition.docx");
+ 
+```
+
 **Returns:**
 float - The value that represents the percentage of shape's relative height.
 ### getHorizontalAlignment() {#getHorizontalAlignment}
@@ -2994,6 +3048,60 @@ public float getLeftRelative()
 
 
 Gets the value that represents shape's relative left position in percent.
+
+ **Examples:** 
+
+Shows how to set relative size and position.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Adding a simple shape with absolute size and position.
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 100.0, 40.0);
+ // Set WrapType to WrapType.None since Inline shapes are automatically converted to absolute units.
+ shape.setWrapType(WrapType.NONE);
+
+ // Checking and setting the relative horizontal size.
+ if (shape.getRelativeHorizontalSize() == RelativeHorizontalSize.DEFAULT)
+ {
+     // Setting the horizontal size binding to Margin.
+     shape.setRelativeHorizontalSize(RelativeHorizontalSize.MARGIN);
+     // Setting the width to 50% of Margin width.
+     shape.setWidthRelative(50f);
+ }
+
+ // Checking and setting the relative vertical size.
+ if (shape.getRelativeVerticalSize() == RelativeVerticalSize.DEFAULT)
+ {
+     // Setting the vertical size binding to Margin.
+     shape.setRelativeVerticalSize(RelativeVerticalSize.MARGIN);
+     // Setting the heigh to 30% of Margin height.
+     shape.setHeightRelative(30f);
+ }
+
+ // Checking and setting the relative vertical position.
+ if (shape.getRelativeVerticalPosition() == RelativeVerticalPosition.PARAGRAPH)
+ {
+     // etting the position binding to TopMargin.
+     shape.setRelativeVerticalPosition(RelativeVerticalPosition.TOP_MARGIN);
+     // Setting relative Top to 30% of TopMargin position.
+     shape.setTopRelative(30f);
+ }
+
+ // Checking and setting the relative horizontal position.
+ if (shape.getRelativeHorizontalPosition() == RelativeHorizontalPosition.DEFAULT)
+ {
+     // Setting the position binding to RightMargin.
+     shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.RIGHT_MARGIN);
+     // The position relative value can be negative.
+     shape.setLeftRelative(-260);
+ }
+
+ doc.save(getArtifactsDir() + "Shape.RelativeSizeAndPosition.docx");
+ 
+```
 
 **Returns:**
 float - The value that represents shape's relative left position in percent.
@@ -3520,6 +3628,60 @@ The default value is [RelativeHorizontalSize](../../com.aspose.words/relativehor
 
 Has effect only if [getWidthRelative()](../../com.aspose.words/shapebase/\#getWidthRelative) / [setWidthRelative(float)](../../com.aspose.words/shapebase/\#setWidthRelative-float) is set.
 
+ **Examples:** 
+
+Shows how to set relative size and position.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Adding a simple shape with absolute size and position.
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 100.0, 40.0);
+ // Set WrapType to WrapType.None since Inline shapes are automatically converted to absolute units.
+ shape.setWrapType(WrapType.NONE);
+
+ // Checking and setting the relative horizontal size.
+ if (shape.getRelativeHorizontalSize() == RelativeHorizontalSize.DEFAULT)
+ {
+     // Setting the horizontal size binding to Margin.
+     shape.setRelativeHorizontalSize(RelativeHorizontalSize.MARGIN);
+     // Setting the width to 50% of Margin width.
+     shape.setWidthRelative(50f);
+ }
+
+ // Checking and setting the relative vertical size.
+ if (shape.getRelativeVerticalSize() == RelativeVerticalSize.DEFAULT)
+ {
+     // Setting the vertical size binding to Margin.
+     shape.setRelativeVerticalSize(RelativeVerticalSize.MARGIN);
+     // Setting the heigh to 30% of Margin height.
+     shape.setHeightRelative(30f);
+ }
+
+ // Checking and setting the relative vertical position.
+ if (shape.getRelativeVerticalPosition() == RelativeVerticalPosition.PARAGRAPH)
+ {
+     // etting the position binding to TopMargin.
+     shape.setRelativeVerticalPosition(RelativeVerticalPosition.TOP_MARGIN);
+     // Setting relative Top to 30% of TopMargin position.
+     shape.setTopRelative(30f);
+ }
+
+ // Checking and setting the relative horizontal position.
+ if (shape.getRelativeHorizontalPosition() == RelativeHorizontalPosition.DEFAULT)
+ {
+     // Setting the position binding to RightMargin.
+     shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.RIGHT_MARGIN);
+     // The position relative value can be negative.
+     shape.setLeftRelative(-260);
+ }
+
+ doc.save(getArtifactsDir() + "Shape.RelativeSizeAndPosition.docx");
+ 
+```
+
 **Returns:**
 int - The value of shape's relative size in horizontal direction. The returned value is one of [RelativeHorizontalSize](../../com.aspose.words/relativehorizontalsize/) constants.
 ### getRelativeVerticalPosition() {#getRelativeVerticalPosition}
@@ -3573,6 +3735,60 @@ Gets the value of shape's relative size in vertical direction.
 The default value is [RelativeVerticalSize.MARGIN](../../com.aspose.words/relativeverticalsize/\#MARGIN).
 
 Has effect only if [getHeightRelative()](../../com.aspose.words/shapebase/\#getHeightRelative) / [setHeightRelative(float)](../../com.aspose.words/shapebase/\#setHeightRelative-float) is set.
+
+ **Examples:** 
+
+Shows how to set relative size and position.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Adding a simple shape with absolute size and position.
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 100.0, 40.0);
+ // Set WrapType to WrapType.None since Inline shapes are automatically converted to absolute units.
+ shape.setWrapType(WrapType.NONE);
+
+ // Checking and setting the relative horizontal size.
+ if (shape.getRelativeHorizontalSize() == RelativeHorizontalSize.DEFAULT)
+ {
+     // Setting the horizontal size binding to Margin.
+     shape.setRelativeHorizontalSize(RelativeHorizontalSize.MARGIN);
+     // Setting the width to 50% of Margin width.
+     shape.setWidthRelative(50f);
+ }
+
+ // Checking and setting the relative vertical size.
+ if (shape.getRelativeVerticalSize() == RelativeVerticalSize.DEFAULT)
+ {
+     // Setting the vertical size binding to Margin.
+     shape.setRelativeVerticalSize(RelativeVerticalSize.MARGIN);
+     // Setting the heigh to 30% of Margin height.
+     shape.setHeightRelative(30f);
+ }
+
+ // Checking and setting the relative vertical position.
+ if (shape.getRelativeVerticalPosition() == RelativeVerticalPosition.PARAGRAPH)
+ {
+     // etting the position binding to TopMargin.
+     shape.setRelativeVerticalPosition(RelativeVerticalPosition.TOP_MARGIN);
+     // Setting relative Top to 30% of TopMargin position.
+     shape.setTopRelative(30f);
+ }
+
+ // Checking and setting the relative horizontal position.
+ if (shape.getRelativeHorizontalPosition() == RelativeHorizontalPosition.DEFAULT)
+ {
+     // Setting the position binding to RightMargin.
+     shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.RIGHT_MARGIN);
+     // The position relative value can be negative.
+     shape.setLeftRelative(-260);
+ }
+
+ doc.save(getArtifactsDir() + "Shape.RelativeSizeAndPosition.docx");
+ 
+```
 
 **Returns:**
 int - The value of shape's relative size in vertical direction. The returned value is one of [RelativeVerticalSize](../../com.aspose.words/relativeverticalsize/) constants.
@@ -4086,6 +4302,60 @@ public float getTopRelative()
 
 Gets the value that represents shape's relative top position in percent.
 
+ **Examples:** 
+
+Shows how to set relative size and position.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Adding a simple shape with absolute size and position.
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 100.0, 40.0);
+ // Set WrapType to WrapType.None since Inline shapes are automatically converted to absolute units.
+ shape.setWrapType(WrapType.NONE);
+
+ // Checking and setting the relative horizontal size.
+ if (shape.getRelativeHorizontalSize() == RelativeHorizontalSize.DEFAULT)
+ {
+     // Setting the horizontal size binding to Margin.
+     shape.setRelativeHorizontalSize(RelativeHorizontalSize.MARGIN);
+     // Setting the width to 50% of Margin width.
+     shape.setWidthRelative(50f);
+ }
+
+ // Checking and setting the relative vertical size.
+ if (shape.getRelativeVerticalSize() == RelativeVerticalSize.DEFAULT)
+ {
+     // Setting the vertical size binding to Margin.
+     shape.setRelativeVerticalSize(RelativeVerticalSize.MARGIN);
+     // Setting the heigh to 30% of Margin height.
+     shape.setHeightRelative(30f);
+ }
+
+ // Checking and setting the relative vertical position.
+ if (shape.getRelativeVerticalPosition() == RelativeVerticalPosition.PARAGRAPH)
+ {
+     // etting the position binding to TopMargin.
+     shape.setRelativeVerticalPosition(RelativeVerticalPosition.TOP_MARGIN);
+     // Setting relative Top to 30% of TopMargin position.
+     shape.setTopRelative(30f);
+ }
+
+ // Checking and setting the relative horizontal position.
+ if (shape.getRelativeHorizontalPosition() == RelativeHorizontalPosition.DEFAULT)
+ {
+     // Setting the position binding to RightMargin.
+     shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.RIGHT_MARGIN);
+     // The position relative value can be negative.
+     shape.setLeftRelative(-260);
+ }
+
+ doc.save(getArtifactsDir() + "Shape.RelativeSizeAndPosition.docx");
+ 
+```
+
 **Returns:**
 float - The value that represents shape's relative top position in percent.
 ### getVerticalAlignment() {#getVerticalAlignment}
@@ -4234,6 +4504,60 @@ public float getWidthRelative()
 
 
 Gets the value that represents the percentage of shape's relative width.
+
+ **Examples:** 
+
+Shows how to set relative size and position.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Adding a simple shape with absolute size and position.
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 100.0, 40.0);
+ // Set WrapType to WrapType.None since Inline shapes are automatically converted to absolute units.
+ shape.setWrapType(WrapType.NONE);
+
+ // Checking and setting the relative horizontal size.
+ if (shape.getRelativeHorizontalSize() == RelativeHorizontalSize.DEFAULT)
+ {
+     // Setting the horizontal size binding to Margin.
+     shape.setRelativeHorizontalSize(RelativeHorizontalSize.MARGIN);
+     // Setting the width to 50% of Margin width.
+     shape.setWidthRelative(50f);
+ }
+
+ // Checking and setting the relative vertical size.
+ if (shape.getRelativeVerticalSize() == RelativeVerticalSize.DEFAULT)
+ {
+     // Setting the vertical size binding to Margin.
+     shape.setRelativeVerticalSize(RelativeVerticalSize.MARGIN);
+     // Setting the heigh to 30% of Margin height.
+     shape.setHeightRelative(30f);
+ }
+
+ // Checking and setting the relative vertical position.
+ if (shape.getRelativeVerticalPosition() == RelativeVerticalPosition.PARAGRAPH)
+ {
+     // etting the position binding to TopMargin.
+     shape.setRelativeVerticalPosition(RelativeVerticalPosition.TOP_MARGIN);
+     // Setting relative Top to 30% of TopMargin position.
+     shape.setTopRelative(30f);
+ }
+
+ // Checking and setting the relative horizontal position.
+ if (shape.getRelativeHorizontalPosition() == RelativeHorizontalPosition.DEFAULT)
+ {
+     // Setting the position binding to RightMargin.
+     shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.RIGHT_MARGIN);
+     // The position relative value can be negative.
+     shape.setLeftRelative(-260);
+ }
+
+ doc.save(getArtifactsDir() + "Shape.RelativeSizeAndPosition.docx");
+ 
+```
 
 **Returns:**
 float - The value that represents the percentage of shape's relative width.
@@ -7761,6 +8085,60 @@ public void setHeightRelative(float value)
 
 Sets the value that represents the percentage of shape's relative height.
 
+ **Examples:** 
+
+Shows how to set relative size and position.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Adding a simple shape with absolute size and position.
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 100.0, 40.0);
+ // Set WrapType to WrapType.None since Inline shapes are automatically converted to absolute units.
+ shape.setWrapType(WrapType.NONE);
+
+ // Checking and setting the relative horizontal size.
+ if (shape.getRelativeHorizontalSize() == RelativeHorizontalSize.DEFAULT)
+ {
+     // Setting the horizontal size binding to Margin.
+     shape.setRelativeHorizontalSize(RelativeHorizontalSize.MARGIN);
+     // Setting the width to 50% of Margin width.
+     shape.setWidthRelative(50f);
+ }
+
+ // Checking and setting the relative vertical size.
+ if (shape.getRelativeVerticalSize() == RelativeVerticalSize.DEFAULT)
+ {
+     // Setting the vertical size binding to Margin.
+     shape.setRelativeVerticalSize(RelativeVerticalSize.MARGIN);
+     // Setting the heigh to 30% of Margin height.
+     shape.setHeightRelative(30f);
+ }
+
+ // Checking and setting the relative vertical position.
+ if (shape.getRelativeVerticalPosition() == RelativeVerticalPosition.PARAGRAPH)
+ {
+     // etting the position binding to TopMargin.
+     shape.setRelativeVerticalPosition(RelativeVerticalPosition.TOP_MARGIN);
+     // Setting relative Top to 30% of TopMargin position.
+     shape.setTopRelative(30f);
+ }
+
+ // Checking and setting the relative horizontal position.
+ if (shape.getRelativeHorizontalPosition() == RelativeHorizontalPosition.DEFAULT)
+ {
+     // Setting the position binding to RightMargin.
+     shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.RIGHT_MARGIN);
+     // The position relative value can be negative.
+     shape.setLeftRelative(-260);
+ }
+
+ doc.save(getArtifactsDir() + "Shape.RelativeSizeAndPosition.docx");
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -7886,6 +8264,60 @@ public void setLeftRelative(float value)
 
 
 Sets the value that represents shape's relative left position in percent.
+
+ **Examples:** 
+
+Shows how to set relative size and position.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Adding a simple shape with absolute size and position.
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 100.0, 40.0);
+ // Set WrapType to WrapType.None since Inline shapes are automatically converted to absolute units.
+ shape.setWrapType(WrapType.NONE);
+
+ // Checking and setting the relative horizontal size.
+ if (shape.getRelativeHorizontalSize() == RelativeHorizontalSize.DEFAULT)
+ {
+     // Setting the horizontal size binding to Margin.
+     shape.setRelativeHorizontalSize(RelativeHorizontalSize.MARGIN);
+     // Setting the width to 50% of Margin width.
+     shape.setWidthRelative(50f);
+ }
+
+ // Checking and setting the relative vertical size.
+ if (shape.getRelativeVerticalSize() == RelativeVerticalSize.DEFAULT)
+ {
+     // Setting the vertical size binding to Margin.
+     shape.setRelativeVerticalSize(RelativeVerticalSize.MARGIN);
+     // Setting the heigh to 30% of Margin height.
+     shape.setHeightRelative(30f);
+ }
+
+ // Checking and setting the relative vertical position.
+ if (shape.getRelativeVerticalPosition() == RelativeVerticalPosition.PARAGRAPH)
+ {
+     // etting the position binding to TopMargin.
+     shape.setRelativeVerticalPosition(RelativeVerticalPosition.TOP_MARGIN);
+     // Setting relative Top to 30% of TopMargin position.
+     shape.setTopRelative(30f);
+ }
+
+ // Checking and setting the relative horizontal position.
+ if (shape.getRelativeHorizontalPosition() == RelativeHorizontalPosition.DEFAULT)
+ {
+     // Setting the position binding to RightMargin.
+     shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.RIGHT_MARGIN);
+     // The position relative value can be negative.
+     shape.setLeftRelative(-260);
+ }
+
+ doc.save(getArtifactsDir() + "Shape.RelativeSizeAndPosition.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -8015,6 +8447,60 @@ The default value is [RelativeHorizontalSize](../../com.aspose.words/relativehor
 
 Has effect only if [getWidthRelative()](../../com.aspose.words/shapebase/\#getWidthRelative) / [setWidthRelative(float)](../../com.aspose.words/shapebase/\#setWidthRelative-float) is set.
 
+ **Examples:** 
+
+Shows how to set relative size and position.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Adding a simple shape with absolute size and position.
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 100.0, 40.0);
+ // Set WrapType to WrapType.None since Inline shapes are automatically converted to absolute units.
+ shape.setWrapType(WrapType.NONE);
+
+ // Checking and setting the relative horizontal size.
+ if (shape.getRelativeHorizontalSize() == RelativeHorizontalSize.DEFAULT)
+ {
+     // Setting the horizontal size binding to Margin.
+     shape.setRelativeHorizontalSize(RelativeHorizontalSize.MARGIN);
+     // Setting the width to 50% of Margin width.
+     shape.setWidthRelative(50f);
+ }
+
+ // Checking and setting the relative vertical size.
+ if (shape.getRelativeVerticalSize() == RelativeVerticalSize.DEFAULT)
+ {
+     // Setting the vertical size binding to Margin.
+     shape.setRelativeVerticalSize(RelativeVerticalSize.MARGIN);
+     // Setting the heigh to 30% of Margin height.
+     shape.setHeightRelative(30f);
+ }
+
+ // Checking and setting the relative vertical position.
+ if (shape.getRelativeVerticalPosition() == RelativeVerticalPosition.PARAGRAPH)
+ {
+     // etting the position binding to TopMargin.
+     shape.setRelativeVerticalPosition(RelativeVerticalPosition.TOP_MARGIN);
+     // Setting relative Top to 30% of TopMargin position.
+     shape.setTopRelative(30f);
+ }
+
+ // Checking and setting the relative horizontal position.
+ if (shape.getRelativeHorizontalPosition() == RelativeHorizontalPosition.DEFAULT)
+ {
+     // Setting the position binding to RightMargin.
+     shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.RIGHT_MARGIN);
+     // The position relative value can be negative.
+     shape.setLeftRelative(-260);
+ }
+
+ doc.save(getArtifactsDir() + "Shape.RelativeSizeAndPosition.docx");
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -8074,6 +8560,60 @@ Sets the value of shape's relative size in vertical direction.
 The default value is [RelativeVerticalSize.MARGIN](../../com.aspose.words/relativeverticalsize/\#MARGIN).
 
 Has effect only if [getHeightRelative()](../../com.aspose.words/shapebase/\#getHeightRelative) / [setHeightRelative(float)](../../com.aspose.words/shapebase/\#setHeightRelative-float) is set.
+
+ **Examples:** 
+
+Shows how to set relative size and position.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Adding a simple shape with absolute size and position.
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 100.0, 40.0);
+ // Set WrapType to WrapType.None since Inline shapes are automatically converted to absolute units.
+ shape.setWrapType(WrapType.NONE);
+
+ // Checking and setting the relative horizontal size.
+ if (shape.getRelativeHorizontalSize() == RelativeHorizontalSize.DEFAULT)
+ {
+     // Setting the horizontal size binding to Margin.
+     shape.setRelativeHorizontalSize(RelativeHorizontalSize.MARGIN);
+     // Setting the width to 50% of Margin width.
+     shape.setWidthRelative(50f);
+ }
+
+ // Checking and setting the relative vertical size.
+ if (shape.getRelativeVerticalSize() == RelativeVerticalSize.DEFAULT)
+ {
+     // Setting the vertical size binding to Margin.
+     shape.setRelativeVerticalSize(RelativeVerticalSize.MARGIN);
+     // Setting the heigh to 30% of Margin height.
+     shape.setHeightRelative(30f);
+ }
+
+ // Checking and setting the relative vertical position.
+ if (shape.getRelativeVerticalPosition() == RelativeVerticalPosition.PARAGRAPH)
+ {
+     // etting the position binding to TopMargin.
+     shape.setRelativeVerticalPosition(RelativeVerticalPosition.TOP_MARGIN);
+     // Setting relative Top to 30% of TopMargin position.
+     shape.setTopRelative(30f);
+ }
+
+ // Checking and setting the relative horizontal position.
+ if (shape.getRelativeHorizontalPosition() == RelativeHorizontalPosition.DEFAULT)
+ {
+     // Setting the position binding to RightMargin.
+     shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.RIGHT_MARGIN);
+     // The position relative value can be negative.
+     shape.setLeftRelative(-260);
+ }
+
+ doc.save(getArtifactsDir() + "Shape.RelativeSizeAndPosition.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -8361,6 +8901,60 @@ public void setTopRelative(float value)
 
 Sets the value that represents shape's relative top position in percent.
 
+ **Examples:** 
+
+Shows how to set relative size and position.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Adding a simple shape with absolute size and position.
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 100.0, 40.0);
+ // Set WrapType to WrapType.None since Inline shapes are automatically converted to absolute units.
+ shape.setWrapType(WrapType.NONE);
+
+ // Checking and setting the relative horizontal size.
+ if (shape.getRelativeHorizontalSize() == RelativeHorizontalSize.DEFAULT)
+ {
+     // Setting the horizontal size binding to Margin.
+     shape.setRelativeHorizontalSize(RelativeHorizontalSize.MARGIN);
+     // Setting the width to 50% of Margin width.
+     shape.setWidthRelative(50f);
+ }
+
+ // Checking and setting the relative vertical size.
+ if (shape.getRelativeVerticalSize() == RelativeVerticalSize.DEFAULT)
+ {
+     // Setting the vertical size binding to Margin.
+     shape.setRelativeVerticalSize(RelativeVerticalSize.MARGIN);
+     // Setting the heigh to 30% of Margin height.
+     shape.setHeightRelative(30f);
+ }
+
+ // Checking and setting the relative vertical position.
+ if (shape.getRelativeVerticalPosition() == RelativeVerticalPosition.PARAGRAPH)
+ {
+     // etting the position binding to TopMargin.
+     shape.setRelativeVerticalPosition(RelativeVerticalPosition.TOP_MARGIN);
+     // Setting relative Top to 30% of TopMargin position.
+     shape.setTopRelative(30f);
+ }
+
+ // Checking and setting the relative horizontal position.
+ if (shape.getRelativeHorizontalPosition() == RelativeHorizontalPosition.DEFAULT)
+ {
+     // Setting the position binding to RightMargin.
+     shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.RIGHT_MARGIN);
+     // The position relative value can be negative.
+     shape.setLeftRelative(-260);
+ }
+
+ doc.save(getArtifactsDir() + "Shape.RelativeSizeAndPosition.docx");
+ 
+```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -8518,6 +9112,60 @@ public void setWidthRelative(float value)
 
 
 Sets the value that represents the percentage of shape's relative width.
+
+ **Examples:** 
+
+Shows how to set relative size and position.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+
+ // Adding a simple shape with absolute size and position.
+ Shape shape = builder.insertShape(ShapeType.RECTANGLE, 100.0, 40.0);
+ // Set WrapType to WrapType.None since Inline shapes are automatically converted to absolute units.
+ shape.setWrapType(WrapType.NONE);
+
+ // Checking and setting the relative horizontal size.
+ if (shape.getRelativeHorizontalSize() == RelativeHorizontalSize.DEFAULT)
+ {
+     // Setting the horizontal size binding to Margin.
+     shape.setRelativeHorizontalSize(RelativeHorizontalSize.MARGIN);
+     // Setting the width to 50% of Margin width.
+     shape.setWidthRelative(50f);
+ }
+
+ // Checking and setting the relative vertical size.
+ if (shape.getRelativeVerticalSize() == RelativeVerticalSize.DEFAULT)
+ {
+     // Setting the vertical size binding to Margin.
+     shape.setRelativeVerticalSize(RelativeVerticalSize.MARGIN);
+     // Setting the heigh to 30% of Margin height.
+     shape.setHeightRelative(30f);
+ }
+
+ // Checking and setting the relative vertical position.
+ if (shape.getRelativeVerticalPosition() == RelativeVerticalPosition.PARAGRAPH)
+ {
+     // etting the position binding to TopMargin.
+     shape.setRelativeVerticalPosition(RelativeVerticalPosition.TOP_MARGIN);
+     // Setting relative Top to 30% of TopMargin position.
+     shape.setTopRelative(30f);
+ }
+
+ // Checking and setting the relative horizontal position.
+ if (shape.getRelativeHorizontalPosition() == RelativeHorizontalPosition.DEFAULT)
+ {
+     // Setting the position binding to RightMargin.
+     shape.setRelativeHorizontalPosition(RelativeHorizontalPosition.RIGHT_MARGIN);
+     // The position relative value can be negative.
+     shape.setLeftRelative(-260);
+ }
+
+ doc.save(getArtifactsDir() + "Shape.RelativeSizeAndPosition.docx");
+ 
+```
 
 **Parameters:**
 | Parameter | Type | Description |

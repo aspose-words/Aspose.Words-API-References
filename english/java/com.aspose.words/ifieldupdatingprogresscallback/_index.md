@@ -1,10 +1,10 @@
 ---
 title: IFieldUpdatingProgressCallback
 linktitle: IFieldUpdatingProgressCallback
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Implement this interface if you want to track field updating progress in Java.
 type: docs
-weight: 654
+weight: 665
 url: /java/com.aspose.words/ifieldupdatingprogresscallback/
 ---
 ```

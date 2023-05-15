@@ -1,10 +1,10 @@
 ---
 title: CssSavingArgs
 linktitle: CssSavingArgs
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Provides data for the ICssSavingCallback.cssSavingcom.aspose.words.CssSavingArgs event in Java.
 type: docs
-weight: 98
+weight: 107
 url: /java/com.aspose.words/csssavingargs/
 ---
 

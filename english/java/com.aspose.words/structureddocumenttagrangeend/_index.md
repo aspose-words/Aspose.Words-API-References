@@ -1,10 +1,10 @@
 ---
 title: StructuredDocumentTagRangeEnd
 linktitle: StructuredDocumentTagRangeEnd
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents an end of ranged structured document tag which accepts multi-sections content in Java.
 type: docs
-weight: 543
+weight: 554
 url: /java/com.aspose.words/structureddocumenttagrangeend/
 ---
 
@@ -774,7 +774,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (139237,6)
+Returns  true  if this node can contain other nodes. (140491,6)
 
  **Examples:** 
 

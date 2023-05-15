@@ -1,7 +1,7 @@
 ---
 title: ConstraintException
 linktitle: ConstraintException
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents the exception that is thrown when attempting an action that violates a constraint in Java.
 type: docs
 weight: 12

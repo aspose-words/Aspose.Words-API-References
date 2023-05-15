@@ -1,7 +1,7 @@
 ---
 title: DataTable
 linktitle: DataTable
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents one table of in-memory data in Java.
 type: docs
 weight: 25

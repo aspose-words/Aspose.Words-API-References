@@ -1,10 +1,10 @@
 ---
 title: DocumentProperty
 linktitle: DocumentProperty
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents a custom or built-in document property in Java.
 type: docs
-weight: 128
+weight: 137
 url: /java/com.aspose.words/documentproperty/
 ---
 

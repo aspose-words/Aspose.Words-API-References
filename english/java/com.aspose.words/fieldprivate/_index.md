@@ -1,10 +1,10 @@
 ---
 title: FieldPrivate
 linktitle: FieldPrivate
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Implements the PRIVATE field in Java.
 type: docs
-weight: 234
+weight: 243
 url: /java/com.aspose.words/fieldprivate/
 ---
 

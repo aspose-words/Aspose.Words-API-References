@@ -1,10 +1,10 @@
 ---
 title: FieldUpdateCultureSource
 linktitle: FieldUpdateCultureSource
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Indicates what culture to use during field update in Java.
 type: docs
-weight: 260
+weight: 269
 url: /java/com.aspose.words/fieldupdateculturesource/
 ---
 

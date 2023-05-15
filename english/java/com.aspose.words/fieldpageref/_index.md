@@ -1,10 +1,10 @@
 ---
 title: FieldPageRef
 linktitle: FieldPageRef
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Implements the PAGEREF field in Java.
 type: docs
-weight: 231
+weight: 240
 url: /java/com.aspose.words/fieldpageref/
 ---
 

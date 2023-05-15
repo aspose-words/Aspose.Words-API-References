@@ -1,10 +1,10 @@
 ---
 title: MailMergeSettings
 linktitle: MailMergeSettings
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Specifies all of the mail merge information for a document in Java.
 type: docs
-weight: 390
+weight: 399
 url: /java/com.aspose.words/mailmergesettings/
 ---
 

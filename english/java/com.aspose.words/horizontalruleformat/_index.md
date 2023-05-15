@@ -1,10 +1,10 @@
 ---
 title: HorizontalRuleFormat
 linktitle: HorizontalRuleFormat
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents horizontal rule formatting in Java.
 type: docs
-weight: 325
+weight: 334
 url: /java/com.aspose.words/horizontalruleformat/
 ---
 

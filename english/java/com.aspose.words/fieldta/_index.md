@@ -1,10 +1,10 @@
 ---
 title: FieldTA
 linktitle: FieldTA
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Implements the TA field in Java.
 type: docs
-weight: 251
+weight: 260
 url: /java/com.aspose.words/fieldta/
 ---
 

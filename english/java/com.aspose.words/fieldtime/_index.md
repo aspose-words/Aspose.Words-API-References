@@ -1,10 +1,10 @@
 ---
 title: FieldTime
 linktitle: FieldTime
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Implements the TIME field in Java.
 type: docs
-weight: 254
+weight: 263
 url: /java/com.aspose.words/fieldtime/
 ---
 

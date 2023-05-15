@@ -1,10 +1,10 @@
 ---
 title: IBarcodeGenerator
 linktitle: IBarcodeGenerator
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Public interface for barcode custom generator in Java.
 type: docs
-weight: 641
+weight: 652
 url: /java/com.aspose.words/ibarcodegenerator/
 ---
 ```

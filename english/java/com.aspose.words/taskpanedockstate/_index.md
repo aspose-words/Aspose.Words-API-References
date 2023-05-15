@@ -1,10 +1,10 @@
 ---
 title: TaskPaneDockState
 linktitle: TaskPaneDockState
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Enumerates available locations of task pane object in Java.
 type: docs
-weight: 566
+weight: 577
 url: /java/com.aspose.words/taskpanedockstate/
 ---
 

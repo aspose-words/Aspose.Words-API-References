@@ -1,10 +1,10 @@
 ---
 title: FieldAddIn
 linktitle: FieldAddIn
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Implements the ADDIN field in Java.
 type: docs
-weight: 154
+weight: 163
 url: /java/com.aspose.words/fieldaddin/
 ---
 

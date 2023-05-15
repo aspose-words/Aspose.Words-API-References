@@ -1,10 +1,10 @@
 ---
 title: EmbeddedFontStyle
 linktitle: EmbeddedFontStyle
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Specifies the style of an embedded font inside a FontInfo object in Java.
 type: docs
-weight: 144
+weight: 153
 url: /java/com.aspose.words/embeddedfontstyle/
 ---
 

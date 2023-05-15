@@ -1,10 +1,10 @@
 ---
 title: HeaderFooterType
 linktitle: HeaderFooterType
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Identifies the type of header or footer found in a Word file in Java.
 type: docs
-weight: 321
+weight: 330
 url: /java/com.aspose.words/headerfootertype/
 ---
 

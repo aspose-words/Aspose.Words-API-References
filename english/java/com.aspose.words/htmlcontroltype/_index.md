@@ -1,10 +1,10 @@
 ---
 title: HtmlControlType
 linktitle: HtmlControlType
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Type of document nodes that represent  and  elements imported from HTML in Java.
 type: docs
-weight: 326
+weight: 335
 url: /java/com.aspose.words/htmlcontroltype/
 ---
 

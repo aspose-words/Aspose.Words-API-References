@@ -1,10 +1,10 @@
 ---
 title: FileFormatUtil
 linktitle: FileFormatUtil
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Provides utility methods for working with file formats such as detecting file format or converting file extensions to/from file format enums in Java.
 type: docs
-weight: 269
+weight: 278
 url: /java/com.aspose.words/fileformatutil/
 ---
 

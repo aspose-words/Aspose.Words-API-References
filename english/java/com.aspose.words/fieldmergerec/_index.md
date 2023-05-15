@@ -1,10 +1,10 @@
 ---
 title: FieldMergeRec
 linktitle: FieldMergeRec
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Implements the MERGEREC field in Java.
 type: docs
-weight: 218
+weight: 227
 url: /java/com.aspose.words/fieldmergerec/
 ---
 

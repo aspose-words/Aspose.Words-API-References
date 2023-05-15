@@ -1,10 +1,10 @@
 ---
 title: JsonDataSource
 linktitle: JsonDataSource
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Provides access to data of a JSON file or stream to be used within a report in Java.
 type: docs
-weight: 357
+weight: 366
 url: /java/com.aspose.words/jsondatasource/
 ---
 

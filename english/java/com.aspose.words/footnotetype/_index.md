@@ -1,10 +1,10 @@
 ---
 title: FootnoteType
 linktitle: FootnoteType
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Specifies whether this is a footnote or an endnote in Java.
 type: docs
-weight: 298
+weight: 307
 url: /java/com.aspose.words/footnotetype/
 ---
 

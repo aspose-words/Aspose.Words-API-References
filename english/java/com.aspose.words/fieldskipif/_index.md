@@ -1,10 +1,10 @@
 ---
 title: FieldSkipIf
 linktitle: FieldSkipIf
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Implements the SKIPIF field in Java.
 type: docs
-weight: 246
+weight: 255
 url: /java/com.aspose.words/fieldskipif/
 ---
 

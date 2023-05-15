@@ -1,10 +1,10 @@
 ---
 title: SignatureLineOptions
 linktitle: SignatureLineOptions
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Allows to specify options for signature line being inserted in Java.
 type: docs
-weight: 534
+weight: 545
 url: /java/com.aspose.words/signaturelineoptions/
 ---
 

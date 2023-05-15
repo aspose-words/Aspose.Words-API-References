@@ -1,7 +1,7 @@
 ---
 title: BlockImportMode
 linktitle: BlockImportMode
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Specifies how properties of block-level elements are imported from HTML-based documents in Java.
 type: docs
 weight: 29

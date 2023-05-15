@@ -1,10 +1,10 @@
 ---
 title: FieldQuote
 linktitle: FieldQuote
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Implements the QUOTE field in Java.
 type: docs
-weight: 235
+weight: 244
 url: /java/com.aspose.words/fieldquote/
 ---
 

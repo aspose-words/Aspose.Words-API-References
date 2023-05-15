@@ -1,10 +1,10 @@
 ---
 title: ViewOptions
 linktitle: ViewOptions
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Provides various options that control how a document is shown in Microsoft Word in Java.
 type: docs
-weight: 610
+weight: 621
 url: /java/com.aspose.words/viewoptions/
 ---
 

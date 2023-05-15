@@ -1,10 +1,10 @@
 ---
 title: FieldInclude
 linktitle: FieldInclude
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Implements the INCLUDE field in Java.
 type: docs
-weight: 205
+weight: 214
 url: /java/com.aspose.words/fieldinclude/
 ---
 

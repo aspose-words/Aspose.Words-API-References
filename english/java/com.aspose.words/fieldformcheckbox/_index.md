@@ -1,10 +1,10 @@
 ---
 title: FieldFormCheckBox
 linktitle: FieldFormCheckBox
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Implements the FORMCHECKBOX field in Java.
 type: docs
-weight: 193
+weight: 202
 url: /java/com.aspose.words/fieldformcheckbox/
 ---
 

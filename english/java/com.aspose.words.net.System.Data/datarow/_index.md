@@ -1,7 +1,7 @@
 ---
 title: DataRow
 linktitle: DataRow
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents a row of data in a DataTable in Java.
 type: docs
 weight: 20

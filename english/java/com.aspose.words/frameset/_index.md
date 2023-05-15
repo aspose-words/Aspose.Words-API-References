@@ -1,10 +1,10 @@
 ---
 title: Frameset
 linktitle: Frameset
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents a frames page or a single frame on a frames page in Java.
 type: docs
-weight: 305
+weight: 314
 url: /java/com.aspose.words/frameset/
 ---
 

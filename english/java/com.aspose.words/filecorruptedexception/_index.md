@@ -1,10 +1,10 @@
 ---
 title: FileCorruptedException
 linktitle: FileCorruptedException
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Thrown during document load when the document appears to be corrupted and impossible to load in Java.
 type: docs
-weight: 266
+weight: 275
 url: /java/com.aspose.words/filecorruptedexception/
 ---
 

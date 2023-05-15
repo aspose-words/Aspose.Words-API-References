@@ -1,10 +1,10 @@
 ---
 title: RunCollection
 linktitle: RunCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Provides typed access to a collection of Run nodes in Java.
 type: docs
-weight: 507
+weight: 518
 url: /java/com.aspose.words/runcollection/
 ---
 

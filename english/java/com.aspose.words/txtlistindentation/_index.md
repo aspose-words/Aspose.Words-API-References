@@ -1,10 +1,10 @@
 ---
 title: TxtListIndentation
 linktitle: TxtListIndentation
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Specifies how list levels are indented when document is exporting to SaveFormat.TEXT format in Java.
 type: docs
-weight: 592
+weight: 603
 url: /java/com.aspose.words/txtlistindentation/
 ---
 

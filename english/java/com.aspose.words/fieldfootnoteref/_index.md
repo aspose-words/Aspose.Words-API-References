@@ -1,10 +1,10 @@
 ---
 title: FieldFootnoteRef
 linktitle: FieldFootnoteRef
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Implements the FOOTNOTEREF field in Java.
 type: docs
-weight: 192
+weight: 201
 url: /java/com.aspose.words/fieldfootnoteref/
 ---
 

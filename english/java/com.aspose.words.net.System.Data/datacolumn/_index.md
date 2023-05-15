@@ -1,7 +1,7 @@
 ---
 title: DataColumn
 linktitle: DataColumn
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents the schema of a column in a DataTable in Java.
 type: docs
 weight: 14

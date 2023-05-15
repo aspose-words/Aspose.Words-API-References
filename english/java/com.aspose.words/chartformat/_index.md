@@ -1,10 +1,10 @@
 ---
 title: ChartFormat
 linktitle: ChartFormat
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents the formatting of a chart element in Java.
 type: docs
-weight: 63
+weight: 64
 url: /java/com.aspose.words/chartformat/
 ---
 

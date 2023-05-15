@@ -1,10 +1,10 @@
 ---
 title: ImageFieldMergingArgs
 linktitle: ImageFieldMergingArgs
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Provides data for the IFieldMergingCallback.imageFieldMergingcom.aspose.words.ImageFieldMergingArgs event in Java.
 type: docs
-weight: 341
+weight: 350
 url: /java/com.aspose.words/imagefieldmergingargs/
 ---
 
@@ -49,7 +49,7 @@ Shows how to insert images stored in a database BLOB field into a report.
 
      // Create and execute a command
      java.sql.Statement statement = conn.createStatement();
-     java.sql.ResultSet resultSet = statement.executeQuery("SELECT// FROM Employees");
+     java.sql.ResultSet resultSet = statement.executeQuery("SELECT * FROM Employees");
 
      DataTable table = new DataTable(resultSet, "Employees");
 

@@ -1,10 +1,10 @@
 ---
 title: WebExtensionStoreType
 linktitle: WebExtensionStoreType
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Enumerates available types of a web extension store in Java.
 type: docs
-weight: 628
+weight: 639
 url: /java/com.aspose.words/webextensionstoretype/
 ---
 

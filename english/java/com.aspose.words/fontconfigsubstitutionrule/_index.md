@@ -1,10 +1,10 @@
 ---
 title: FontConfigSubstitutionRule
 linktitle: FontConfigSubstitutionRule
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Font config substitution rule in Java.
 type: docs
-weight: 279
+weight: 288
 url: /java/com.aspose.words/fontconfigsubstitutionrule/
 ---
 

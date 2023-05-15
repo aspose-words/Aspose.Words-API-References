@@ -1,10 +1,10 @@
 ---
 title: ShapeLineStyle
 linktitle: ShapeLineStyle
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Specifies the compound line style of a Shape in Java.
 type: docs
-weight: 527
+weight: 538
 url: /java/com.aspose.words/shapelinestyle/
 ---
 
@@ -42,6 +42,7 @@ Shows how change stroke properties.
  stroke.setJoinStyle(JoinStyle.MITER);
  stroke.setEndCap(EndCap.SQUARE);
  stroke.setLineStyle(ShapeLineStyle.TRIPLE);
+ stroke.getFill().twoColorGradient(Color.RED, Color.BLUE, GradientStyle.VERTICAL, GradientVariant.VARIANT_1);
 
  doc.save(getArtifactsDir() + "Shape.Stroke.docx");
  

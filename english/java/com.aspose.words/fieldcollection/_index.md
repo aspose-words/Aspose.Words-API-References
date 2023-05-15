@@ -1,10 +1,10 @@
 ---
 title: FieldCollection
 linktitle: FieldCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: A collection of Field objects that represents the fields in the specified range in Java.
 type: docs
-weight: 171
+weight: 180
 url: /java/com.aspose.words/fieldcollection/
 ---
 

@@ -1,10 +1,10 @@
 ---
 title: FootnoteOptions
 linktitle: FootnoteOptions
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents the footnote numbering options for a document or section in Java.
 type: docs
-weight: 296
+weight: 305
 url: /java/com.aspose.words/footnoteoptions/
 ---
 

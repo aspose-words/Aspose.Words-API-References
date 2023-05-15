@@ -1,10 +1,10 @@
 ---
 title: FieldUserAddress
 linktitle: FieldUserAddress
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Implements the USERADDRESS field in Java.
 type: docs
-weight: 262
+weight: 271
 url: /java/com.aspose.words/fielduseraddress/
 ---
 

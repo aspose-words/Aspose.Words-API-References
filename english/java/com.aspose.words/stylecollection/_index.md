@@ -1,10 +1,10 @@
 ---
 title: StyleCollection
 linktitle: StyleCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: A collection of Style objects that represent both the built-in and user-defined styles in a document in Java.
 type: docs
-weight: 546
+weight: 557
 url: /java/com.aspose.words/stylecollection/
 ---
 

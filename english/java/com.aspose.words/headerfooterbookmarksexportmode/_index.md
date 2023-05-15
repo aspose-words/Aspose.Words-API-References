@@ -1,10 +1,10 @@
 ---
 title: HeaderFooterBookmarksExportMode
 linktitle: HeaderFooterBookmarksExportMode
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Specifies how bookmarks in headers/footers are exported in Java.
 type: docs
-weight: 319
+weight: 328
 url: /java/com.aspose.words/headerfooterbookmarksexportmode/
 ---
 

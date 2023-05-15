@@ -1,7 +1,7 @@
 ---
 title: MappingType
 linktitle: MappingType
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Specifies how a DataColumn is mapped in Java.
 type: docs
 weight: 31

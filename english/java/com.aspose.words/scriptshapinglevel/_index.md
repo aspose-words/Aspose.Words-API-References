@@ -1,10 +1,10 @@
 ---
 title: ScriptShapingLevel
 linktitle: ScriptShapingLevel
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Describes shaping levels required by a script in Java.
 type: docs
-weight: 511
+weight: 522
 url: /java/com.aspose.words/scriptshapinglevel/
 ---
 

@@ -1,10 +1,10 @@
 ---
 title: FieldEnd
 linktitle: FieldEnd
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents an end of a Word field in a document in Java.
 type: docs
-weight: 188
+weight: 197
 url: /java/com.aspose.words/fieldend/
 ---
 
@@ -1244,7 +1244,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (139237,6)
+Returns  true  if this node can contain other nodes. (140491,6)
 
  **Examples:** 
 

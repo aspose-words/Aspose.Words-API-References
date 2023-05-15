@@ -1,10 +1,10 @@
 ---
 title: ControlChar
 linktitle: ControlChar
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Control characters often encountered in documents in Java.
 type: docs
-weight: 96
+weight: 105
 url: /java/com.aspose.words/controlchar/
 ---
 

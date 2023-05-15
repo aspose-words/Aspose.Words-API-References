@@ -1,7 +1,7 @@
 ---
 title: IDataRecord
 linktitle: IDataRecord
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Provides access to the column values within each row for a DataReader and is implemented by .NET Framework data providers that access relational databases in Java.
 type: docs
 weight: 35

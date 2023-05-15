@@ -1,10 +1,10 @@
 ---
 title: MarkdownListExportMode
 linktitle: MarkdownListExportMode
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Specifies how lists are exported into Markdown in Java.
 type: docs
-weight: 394
+weight: 403
 url: /java/com.aspose.words/markdownlistexportmode/
 ---
 

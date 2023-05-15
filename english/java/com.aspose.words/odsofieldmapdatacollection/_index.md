@@ -1,10 +1,10 @@
 ---
 title: OdsoFieldMapDataCollection
 linktitle: OdsoFieldMapDataCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: A typed collection of the OdsoFieldMapData objects in Java.
 type: docs
-weight: 421
+weight: 431
 url: /java/com.aspose.words/odsofieldmapdatacollection/
 ---
 

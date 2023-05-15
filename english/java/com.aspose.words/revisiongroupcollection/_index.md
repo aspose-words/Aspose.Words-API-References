@@ -1,10 +1,10 @@
 ---
 title: RevisionGroupCollection
 linktitle: RevisionGroupCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: A collection of RevisionGroup objects that represent revision groups in the document in Java.
 type: docs
-weight: 496
+weight: 507
 url: /java/com.aspose.words/revisiongroupcollection/
 ---
 

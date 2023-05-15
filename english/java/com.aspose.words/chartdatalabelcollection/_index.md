@@ -1,10 +1,10 @@
 ---
 title: ChartDataLabelCollection
 linktitle: ChartDataLabelCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents a collection of ChartDataLabel in Java.
 type: docs
-weight: 60
+weight: 61
 url: /java/com.aspose.words/chartdatalabelcollection/
 ---
 

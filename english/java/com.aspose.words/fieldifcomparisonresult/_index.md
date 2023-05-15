@@ -1,10 +1,10 @@
 ---
 title: FieldIfComparisonResult
 linktitle: FieldIfComparisonResult
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Specifies the result of the IF field condition evaluation in Java.
 type: docs
-weight: 203
+weight: 212
 url: /java/com.aspose.words/fieldifcomparisonresult/
 ---
 

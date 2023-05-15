@@ -1,10 +1,10 @@
 ---
 title: FieldFormat
 linktitle: FieldFormat
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Provides typed access to fields numeric date and time and general formatting in Java.
 type: docs
-weight: 196
+weight: 205
 url: /java/com.aspose.words/fieldformat/
 ---
 

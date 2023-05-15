@@ -1,10 +1,10 @@
 ---
 title: FontSubstitutionRule
 linktitle: FontSubstitutionRule
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: This is an abstract base class for the font substitution rule in Java.
 type: docs
-weight: 292
+weight: 301
 url: /java/com.aspose.words/fontsubstitutionrule/
 ---
 

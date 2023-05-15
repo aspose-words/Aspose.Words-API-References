@@ -1,10 +1,10 @@
 ---
 title: RowCollection
 linktitle: RowCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Provides typed access to a collection of Row nodes in Java.
 type: docs
-weight: 502
+weight: 513
 url: /java/com.aspose.words/rowcollection/
 ---
 

@@ -1,10 +1,10 @@
 ---
 title: ContentDisposition
 linktitle: ContentDisposition
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Enumerates different ways of presenting the document at the client browser in Java.
 type: docs
-weight: 94
+weight: 103
 url: /java/com.aspose.words/contentdisposition/
 ---
 

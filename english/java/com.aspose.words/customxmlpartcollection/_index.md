@@ -1,10 +1,10 @@
 ---
 title: CustomXmlPartCollection
 linktitle: CustomXmlPartCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents a collection of Custom XML Parts in Java.
 type: docs
-weight: 107
+weight: 116
 url: /java/com.aspose.words/customxmlpartcollection/
 ---
 

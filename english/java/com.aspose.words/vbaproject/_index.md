@@ -1,10 +1,10 @@
 ---
 title: VbaProject
 linktitle: VbaProject
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Provides access to VBA project information in Java.
 type: docs
-weight: 605
+weight: 616
 url: /java/com.aspose.words/vbaproject/
 ---
 
@@ -66,7 +66,7 @@ Shows how to access a document's VBA project information.
 | [deepClone()](#deepClone) | Performs a copy of the [VbaProject](../../com.aspose.words/vbaproject/). |
 | [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getClass()](#getClass) |  |
-| [getCodePage()](#getCodePage) | Returns the VBA project\\u2019s code page. |
+| [getCodePage()](#getCodePage) | Gets the VBA project\\u2019s code page. |
 | [getModules()](#getModules) | Returns collection of VBA project modules. |
 | [getName()](#getName) | Gets VBA project name. |
 | [getReferences()](#getReferences) | Gets a collection of VBA project references. |
@@ -74,6 +74,7 @@ Shows how to access a document's VBA project information.
 | [isSigned()](#isSigned) | Shows whether the [VbaProject](../../com.aspose.words/vbaproject/) is signed or not. |
 | [notify()](#notify) |  |
 | [notifyAll()](#notifyAll) |  |
+| [setCodePage(int value)](#setCodePage-int) | Sets the VBA project\\u2019s code page. |
 | [setName(String value)](#setName-java.lang.String) | Sets VBA project name. |
 | [toString()](#toString) |  |
 | [wait()](#wait) |  |
@@ -177,7 +178,11 @@ public int getCodePage()
 ```
 
 
-Returns the VBA project\\u2019s code page.
+Gets the VBA project\\u2019s code page.
+
+ **Remarks:** 
+
+Please note that VBA is pre-Unicode feature and you have to explicitly set appropriate code page to preserve regional character sets.
 
  **Examples:** 
 
@@ -394,6 +399,54 @@ public final native void notifyAll()
 
 
 
+
+### setCodePage(int value) {#setCodePage-int}
+```
+public void setCodePage(int value)
+```
+
+
+Sets the VBA project\\u2019s code page.
+
+ **Remarks:** 
+
+Please note that VBA is pre-Unicode feature and you have to explicitly set appropriate code page to preserve regional character sets.
+
+ **Examples:** 
+
+Shows how to access a document's VBA project information.
+
+```
+
+ Document doc = new Document(getMyDir() + "VBA project.docm");
+
+ // A VBA project contains a collection of VBA modules.
+ VbaProject vbaProject = doc.getVbaProject();
+ System.out.println(vbaProject.isSigned()
+         ? MessageFormat.format("Project name: {0} signed; Project code page: {1}; Modules count: {2}\n", vbaProject.getName(), vbaProject.getCodePage(), vbaProject.getModules().getCount())
+         : MessageFormat.format("Project name: {0} not signed; Project code page: {1}; Modules count: {2}\n", vbaProject.getName(), vbaProject.getCodePage(), vbaProject.getModules().getCount()));
+
+ VbaModuleCollection vbaModules = doc.getVbaProject().getModules();
+
+ Assert.assertEquals(vbaModules.getCount(), 3);
+
+ for (VbaModule module : vbaModules) {
+     System.out.println(MessageFormat.format("Module name: {0};\nModule code:\n{1}\n", module.getName(), module.getSourceCode()));
+ }
+
+ // Set new source code for VBA module. You can access VBA modules in the collection either by index or by name.
+ vbaModules.get(0).setSourceCode("Your VBA code...");
+ vbaModules.get("Module1").setSourceCode("Your VBA code...");
+
+ // Remove a module from the collection.
+ vbaModules.remove(vbaModules.get(2));
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The VBA project\\u2019s code page. |
 
 ### setName(String value) {#setName-java.lang.String}
 ```

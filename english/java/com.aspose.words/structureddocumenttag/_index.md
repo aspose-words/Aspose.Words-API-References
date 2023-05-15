@@ -1,10 +1,10 @@
 ---
 title: StructuredDocumentTag
 linktitle: StructuredDocumentTag
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents a structured document tag SDT or content control in a document in Java.
 type: docs
-weight: 541
+weight: 552
 url: /java/com.aspose.words/structureddocumenttag/
 ---
 
@@ -136,6 +136,7 @@ Shows how to work with styles for content control elements.
 | [getText()](#getText) | Gets the text of this node and of all its children. |
 | [getTitle()](#getTitle) | Specifies the friendly name associated with this **SDT**. |
 | [getWordOpenXML()](#getWordOpenXML) | Gets a string that represents the XML contained within the node in the [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat/\#FLAT-OPC) format. |
+| [getWordOpenXMLMinimal()](#getWordOpenXMLMinimal) | Gets a string that represents the XML contained within the node in the [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat/\#FLAT-OPC) format. |
 | [getXmlMapping()](#getXmlMapping) | Gets an object that represents the mapping of this structured document tag to XML data in a custom XML part of the current document. |
 | [hasChildNodes()](#hasChildNodes) | Returns  true  if this node has any child nodes. |
 | [hashCode()](#hashCode) |  |
@@ -2803,6 +2804,16 @@ Shows how to get XML contained within the node in the FlatOpc format.
                  ""));
  
 ```
+
+**Returns:**
+java.lang.String - A string that represents the XML contained within the node in the [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat/\#FLAT-OPC) format.
+### getWordOpenXMLMinimal() {#getWordOpenXMLMinimal}
+```
+public String getWordOpenXMLMinimal()
+```
+
+
+Gets a string that represents the XML contained within the node in the [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat/\#FLAT-OPC) format. Unlike the [getWordOpenXML()](../../com.aspose.words/structureddocumenttag/\#getWordOpenXML) property, this method generates a stripped-down document that excludes any non-content-related parts.
 
 **Returns:**
 java.lang.String - A string that represents the XML contained within the node in the [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat/\#FLAT-OPC) format.

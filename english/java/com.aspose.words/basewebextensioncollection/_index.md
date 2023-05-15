@@ -1,7 +1,7 @@
 ---
 title: BaseWebExtensionCollection
 linktitle: BaseWebExtensionCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Base class for TaskPaneCollection WebExtensionBindingCollection WebExtensionPropertyCollection and WebExtensionReferenceCollection collections in Java.
 type: docs
 weight: 27

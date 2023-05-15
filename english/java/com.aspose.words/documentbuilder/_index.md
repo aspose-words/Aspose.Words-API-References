@@ -1,10 +1,10 @@
 ---
 title: DocumentBuilder
 linktitle: DocumentBuilder
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Provides methods to insert text images and other content specify font paragraph and section formatting in Java.
 type: docs
-weight: 124
+weight: 133
 url: /java/com.aspose.words/documentbuilder/
 ---
 
@@ -4120,6 +4120,8 @@ Inserts a paragraph break into the document.
 Current paragraph formatting specified by the [getParagraphFormat()](../../com.aspose.words/documentbuilder/\#getParagraphFormat) property is used.
 
 Breaks the current paragraph in two. After inserting the paragraph, the cursor is placed at the beginning of the new paragraph.
+
+An exception is thrown if it is not possible to insert a paragraph break at the current cursor position.
 
  **Examples:** 
 

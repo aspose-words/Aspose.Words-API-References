@@ -1,10 +1,10 @@
 ---
 title: BuildingBlockCollection
 linktitle: BuildingBlockCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: A collection of BuildingBlock objects in the document in Java.
 type: docs
-weight: 43
+weight: 44
 url: /java/com.aspose.words/buildingblockcollection/
 ---
 

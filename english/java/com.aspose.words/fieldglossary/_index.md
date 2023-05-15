@@ -1,10 +1,10 @@
 ---
 title: FieldGlossary
 linktitle: FieldGlossary
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Implements the GLOSSARY field in Java.
 type: docs
-weight: 198
+weight: 207
 url: /java/com.aspose.words/fieldglossary/
 ---
 

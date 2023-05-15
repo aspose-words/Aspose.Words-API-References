@@ -1,10 +1,10 @@
 ---
 title: PhysicalFontInfo
 linktitle: PhysicalFontInfo
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Specifies information about physical font available to Aspose.Words font engine in Java.
 type: docs
-weight: 471
+weight: 482
 url: /java/com.aspose.words/physicalfontinfo/
 ---
 

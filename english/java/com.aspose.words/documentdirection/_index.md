@@ -1,10 +1,10 @@
 ---
 title: DocumentDirection
 linktitle: DocumentDirection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Allows to specify the direction to flow the text in a document in Java.
 type: docs
-weight: 125
+weight: 134
 url: /java/com.aspose.words/documentdirection/
 ---
 

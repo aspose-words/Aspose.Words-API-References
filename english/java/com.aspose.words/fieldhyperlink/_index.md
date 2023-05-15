@@ -1,10 +1,10 @@
 ---
 title: FieldHyperlink
 linktitle: FieldHyperlink
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Implements the HYPERLINK field in Java.
 type: docs
-weight: 201
+weight: 210
 url: /java/com.aspose.words/fieldhyperlink/
 ---
 

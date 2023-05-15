@@ -1,10 +1,10 @@
 ---
 title: FieldSeq
 linktitle: FieldSeq
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Implements the SEQ field in Java.
 type: docs
-weight: 243
+weight: 252
 url: /java/com.aspose.words/fieldseq/
 ---
 

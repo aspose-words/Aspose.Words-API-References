@@ -1,10 +1,10 @@
 ---
 title: TextureAlignment
 linktitle: TextureAlignment
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Specifies the alignment for the tiling of the texture fill in Java.
 type: docs
-weight: 580
+weight: 591
 url: /java/com.aspose.words/texturealignment/
 ---
 

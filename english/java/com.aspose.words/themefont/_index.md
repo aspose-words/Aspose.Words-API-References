@@ -1,10 +1,10 @@
 ---
 title: ThemeFont
 linktitle: ThemeFont
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Specifies the types of theme font names for document themes in Java.
 type: docs
-weight: 585
+weight: 596
 url: /java/com.aspose.words/themefont/
 ---
 

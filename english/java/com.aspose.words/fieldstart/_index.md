@@ -1,10 +1,10 @@
 ---
 title: FieldStart
 linktitle: FieldStart
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents a start of a Word field in a document in Java.
 type: docs
-weight: 247
+weight: 256
 url: /java/com.aspose.words/fieldstart/
 ---
 
@@ -1349,7 +1349,7 @@ public boolean isComposite()
 ```
 
 
-Returns  true  if this node can contain other nodes. (139237,6)
+Returns  true  if this node can contain other nodes. (140491,6)
 
  **Examples:** 
 

@@ -1,10 +1,10 @@
 ---
 title: FontSubstitutionSettings
 linktitle: FontSubstitutionSettings
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Specifies font substitution mechanism settings in Java.
 type: docs
-weight: 293
+weight: 302
 url: /java/com.aspose.words/fontsubstitutionsettings/
 ---
 

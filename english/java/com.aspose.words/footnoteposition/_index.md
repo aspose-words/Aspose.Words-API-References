@@ -1,10 +1,10 @@
 ---
 title: FootnotePosition
 linktitle: FootnotePosition
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Defines the footnote position in Java.
 type: docs
-weight: 297
+weight: 306
 url: /java/com.aspose.words/footnoteposition/
 ---
 

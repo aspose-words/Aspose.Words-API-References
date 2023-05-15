@@ -1,7 +1,7 @@
 ---
 title: IDataReader
 linktitle: IDataReader
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Provides a means of reading one or more forward-only streams of result sets obtained by executing a command at a data source and is implemented by .NET Framework data providers that access relational databases in Java.
 type: docs
 weight: 34

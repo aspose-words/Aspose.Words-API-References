@@ -1,10 +1,10 @@
 ---
 title: HyphenationOptions
 linktitle: HyphenationOptions
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Allows to configure document hyphenation options in Java.
 type: docs
-weight: 337
+weight: 346
 url: /java/com.aspose.words/hyphenationoptions/
 ---
 

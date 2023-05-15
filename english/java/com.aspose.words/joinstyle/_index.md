@@ -1,10 +1,10 @@
 ---
 title: JoinStyle
 linktitle: JoinStyle
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Line join style in Java.
 type: docs
-weight: 355
+weight: 364
 url: /java/com.aspose.words/joinstyle/
 ---
 

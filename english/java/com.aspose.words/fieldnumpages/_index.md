@@ -1,10 +1,10 @@
 ---
 title: FieldNumPages
 linktitle: FieldNumPages
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Implements the NUMPAGES field in Java.
 type: docs
-weight: 226
+weight: 235
 url: /java/com.aspose.words/fieldnumpages/
 ---
 

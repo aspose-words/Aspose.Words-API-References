@@ -1,10 +1,10 @@
 ---
 title: SvgTextOutputMode
 linktitle: SvgTextOutputMode
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Allows to specify how text inside a document should be rendered when saving in SVG format in Java.
 type: docs
-weight: 551
+weight: 562
 url: /java/com.aspose.words/svgtextoutputmode/
 ---
 

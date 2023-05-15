@@ -1,7 +1,7 @@
 ---
 title: DataSet
 linktitle: DataSet
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents an in-memory cache of data in Java.
 type: docs
 weight: 24

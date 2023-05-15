@@ -1,10 +1,10 @@
 ---
 title: SignatureLine
 linktitle: SignatureLine
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Provides access to signature line properties in Java.
 type: docs
-weight: 533
+weight: 544
 url: /java/com.aspose.words/signatureline/
 ---
 

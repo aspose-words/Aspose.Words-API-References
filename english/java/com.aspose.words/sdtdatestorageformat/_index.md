@@ -1,10 +1,10 @@
 ---
 title: SdtDateStorageFormat
 linktitle: SdtDateStorageFormat
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Specifies how the date for a date SDT is stored/retrieved when the SDT is bound to an XML node in the documents data store in Java.
 type: docs
-weight: 514
+weight: 525
 url: /java/com.aspose.words/sdtdatestorageformat/
 ---
 

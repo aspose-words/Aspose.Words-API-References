@@ -1,10 +1,10 @@
 ---
 title: IFieldMergingCallback
 linktitle: IFieldMergingCallback
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Implement this interface if you want to control how data is inserted into merge fields during a mail merge operation in Java.
 type: docs
-weight: 650
+weight: 661
 url: /java/com.aspose.words/ifieldmergingcallback/
 ---
 ```
@@ -81,7 +81,7 @@ Shows how to insert images stored in a database BLOB field into a report.
 
      // Create and execute a command
      java.sql.Statement statement = conn.createStatement();
-     java.sql.ResultSet resultSet = statement.executeQuery("SELECT// FROM Employees");
+     java.sql.ResultSet resultSet = statement.executeQuery("SELECT * FROM Employees");
 
      DataTable table = new DataTable(resultSet, "Employees");
 
@@ -192,7 +192,7 @@ Shows how to insert images stored in a database BLOB field into a report.
 
      // Create and execute a command
      java.sql.Statement statement = conn.createStatement();
-     java.sql.ResultSet resultSet = statement.executeQuery("SELECT// FROM Employees");
+     java.sql.ResultSet resultSet = statement.executeQuery("SELECT * FROM Employees");
 
      DataTable table = new DataTable(resultSet, "Employees");
 
@@ -258,7 +258,7 @@ Shows how to insert images stored in a database BLOB field into a report.
 
      // Create and execute a command
      java.sql.Statement statement = conn.createStatement();
-     java.sql.ResultSet resultSet = statement.executeQuery("SELECT// FROM Employees");
+     java.sql.ResultSet resultSet = statement.executeQuery("SELECT * FROM Employees");
 
      DataTable table = new DataTable(resultSet, "Employees");
 

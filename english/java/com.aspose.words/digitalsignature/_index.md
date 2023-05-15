@@ -1,10 +1,10 @@
 ---
 title: DigitalSignature
 linktitle: DigitalSignature
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents a digital signature on a document and the result of its verification in Java.
 type: docs
-weight: 113
+weight: 122
 url: /java/com.aspose.words/digitalsignature/
 ---
 

@@ -1,10 +1,10 @@
 ---
 title: HorizontalAlignment
 linktitle: HorizontalAlignment
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Specifies horizontal alignment of a floating shape text frame or floating table in Java.
 type: docs
-weight: 323
+weight: 332
 url: /java/com.aspose.words/horizontalalignment/
 ---
 

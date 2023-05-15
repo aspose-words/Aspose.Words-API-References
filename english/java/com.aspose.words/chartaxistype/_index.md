@@ -1,10 +1,10 @@
 ---
 title: ChartAxisType
 linktitle: ChartAxisType
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Specifies type of chart axis in Java.
 type: docs
-weight: 58
+weight: 59
 url: /java/com.aspose.words/chartaxistype/
 ---
 

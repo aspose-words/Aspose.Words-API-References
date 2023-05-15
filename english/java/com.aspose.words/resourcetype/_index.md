@@ -1,10 +1,10 @@
 ---
 title: ResourceType
 linktitle: ResourceType
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Type of loaded resource in Java.
 type: docs
-weight: 491
+weight: 502
 url: /java/com.aspose.words/resourcetype/
 ---
 

@@ -1,10 +1,10 @@
 ---
 title: FieldIndexFormat
 linktitle: FieldIndexFormat
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Specifies the formatting for the FieldIndex fields in a document in Java.
 type: docs
-weight: 209
+weight: 218
 url: /java/com.aspose.words/fieldindexformat/
 ---
 

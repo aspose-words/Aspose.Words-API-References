@@ -1,10 +1,10 @@
 ---
 title: OdsoRecipientData
 linktitle: OdsoRecipientData
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents information about a single record within an external data source that is to be excluded from the mail merge in Java.
 type: docs
-weight: 423
+weight: 433
 url: /java/com.aspose.words/odsorecipientdata/
 ---
 

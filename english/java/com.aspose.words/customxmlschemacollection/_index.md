@@ -1,10 +1,10 @@
 ---
 title: CustomXmlSchemaCollection
 linktitle: CustomXmlSchemaCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: A collection of strings that represent XML schemas that are associated with a custom XML part in Java.
 type: docs
-weight: 110
+weight: 119
 url: /java/com.aspose.words/customxmlschemacollection/
 ---
 

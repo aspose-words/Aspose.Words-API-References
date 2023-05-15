@@ -1,10 +1,10 @@
 ---
 title: FieldEQ
 linktitle: FieldEQ
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Implements the EQ field in Java.
 type: docs
-weight: 185
+weight: 194
 url: /java/com.aspose.words/fieldeq/
 ---
 

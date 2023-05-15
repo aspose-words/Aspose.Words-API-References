@@ -1,10 +1,10 @@
 ---
 title: JsonDataLoadOptions
 linktitle: JsonDataLoadOptions
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents options for parsing JSON data in Java.
 type: docs
-weight: 356
+weight: 365
 url: /java/com.aspose.words/jsondataloadoptions/
 ---
 

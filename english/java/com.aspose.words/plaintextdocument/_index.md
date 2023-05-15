@@ -1,10 +1,10 @@
 ---
 title: PlainTextDocument
 linktitle: PlainTextDocument
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Allows to extract plain-text representation of the documents content in Java.
 type: docs
-weight: 472
+weight: 483
 url: /java/com.aspose.words/plaintextdocument/
 ---
 
@@ -37,7 +37,7 @@ Shows how to load the contents of a Microsoft Word document in plaintext.
 ```
 
 
-[Working with Text Document]: https://docs.aspose.com/words/java/work-with-text-document/
+[Working with Text Document]: https://docs.aspose.com/words/java/working-with-text-document/
 ## Constructors
 
 | Constructor | Description |

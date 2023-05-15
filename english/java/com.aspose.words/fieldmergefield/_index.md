@@ -1,10 +1,10 @@
 ---
 title: FieldMergeField
 linktitle: FieldMergeField
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Implements the MERGEFIELD field in Java.
 type: docs
-weight: 217
+weight: 226
 url: /java/com.aspose.words/fieldmergefield/
 ---
 

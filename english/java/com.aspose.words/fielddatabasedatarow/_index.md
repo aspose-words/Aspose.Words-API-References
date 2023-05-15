@@ -1,10 +1,10 @@
 ---
 title: FieldDatabaseDataRow
 linktitle: FieldDatabaseDataRow
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Provides data for the FieldDatabase field result in Java.
 type: docs
-weight: 177
+weight: 186
 url: /java/com.aspose.words/fielddatabasedatarow/
 ---
 

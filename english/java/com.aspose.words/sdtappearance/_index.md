@@ -1,10 +1,10 @@
 ---
 title: SdtAppearance
 linktitle: SdtAppearance
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Specifies the appearance of a structured document tag in Java.
 type: docs
-weight: 512
+weight: 523
 url: /java/com.aspose.words/sdtappearance/
 ---
 

@@ -1,10 +1,10 @@
 ---
 title: Range
 linktitle: Range
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents a contiguous area in a document in Java.
 type: docs
-weight: 479
+weight: 490
 url: /java/com.aspose.words/range/
 ---
 

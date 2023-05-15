@@ -1,10 +1,10 @@
 ---
 title: Table
 linktitle: Table
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Represents a table in a Word document in Java.
 type: docs
-weight: 557
+weight: 568
 url: /java/com.aspose.words/table/
 ---
 
@@ -1818,7 +1818,7 @@ Gets distance between table bottom and the surrounding text, in points.
 
  **Examples:** 
 
-Shows the minimum distance operations between table boundaries and text.
+Shows how to set distance between table boundaries and text.
 
 ```
 
@@ -1830,6 +1830,14 @@ Shows the minimum distance operations between table boundaries and text.
  Assert.assertEquals(table.getDistanceBottom(), 25.9d);
  Assert.assertEquals(table.getDistanceLeft(), 17.3d);
  Assert.assertEquals(table.getDistanceRight(), 17.3d);
+
+ // Set distance between table and surrounding text.
+ table.setDistanceLeft(24.0);
+ table.setDistanceRight(24.0);
+ table.setDistanceTop(3.0);
+ table.setDistanceBottom(3.0);
+
+ doc.save(getArtifactsDir() + "Table.DistanceBetweenTableAndText.docx");
  
 ```
 
@@ -1845,7 +1853,7 @@ Gets distance between table left and the surrounding text, in points.
 
  **Examples:** 
 
-Shows the minimum distance operations between table boundaries and text.
+Shows how to set distance between table boundaries and text.
 
 ```
 
@@ -1857,6 +1865,14 @@ Shows the minimum distance operations between table boundaries and text.
  Assert.assertEquals(table.getDistanceBottom(), 25.9d);
  Assert.assertEquals(table.getDistanceLeft(), 17.3d);
  Assert.assertEquals(table.getDistanceRight(), 17.3d);
+
+ // Set distance between table and surrounding text.
+ table.setDistanceLeft(24.0);
+ table.setDistanceRight(24.0);
+ table.setDistanceTop(3.0);
+ table.setDistanceBottom(3.0);
+
+ doc.save(getArtifactsDir() + "Table.DistanceBetweenTableAndText.docx");
  
 ```
 
@@ -1872,7 +1888,7 @@ Gets distance between table right and the surrounding text, in points.
 
  **Examples:** 
 
-Shows the minimum distance operations between table boundaries and text.
+Shows how to set distance between table boundaries and text.
 
 ```
 
@@ -1884,6 +1900,14 @@ Shows the minimum distance operations between table boundaries and text.
  Assert.assertEquals(table.getDistanceBottom(), 25.9d);
  Assert.assertEquals(table.getDistanceLeft(), 17.3d);
  Assert.assertEquals(table.getDistanceRight(), 17.3d);
+
+ // Set distance between table and surrounding text.
+ table.setDistanceLeft(24.0);
+ table.setDistanceRight(24.0);
+ table.setDistanceTop(3.0);
+ table.setDistanceBottom(3.0);
+
+ doc.save(getArtifactsDir() + "Table.DistanceBetweenTableAndText.docx");
  
 ```
 
@@ -1899,7 +1923,7 @@ Gets distance between table top and the surrounding text, in points.
 
  **Examples:** 
 
-Shows the minimum distance operations between table boundaries and text.
+Shows how to set distance between table boundaries and text.
 
 ```
 
@@ -1911,6 +1935,14 @@ Shows the minimum distance operations between table boundaries and text.
  Assert.assertEquals(table.getDistanceBottom(), 25.9d);
  Assert.assertEquals(table.getDistanceLeft(), 17.3d);
  Assert.assertEquals(table.getDistanceRight(), 17.3d);
+
+ // Set distance between table and surrounding text.
+ table.setDistanceLeft(24.0);
+ table.setDistanceRight(24.0);
+ table.setDistanceTop(3.0);
+ table.setDistanceBottom(3.0);
+
+ doc.save(getArtifactsDir() + "Table.DistanceBetweenTableAndText.docx");
  
 ```
 
@@ -4959,7 +4991,7 @@ Sets distance between table bottom and the surrounding text, in points.
 
  **Examples:** 
 
-Shows the minimum distance operations between table boundaries and text.
+Shows how to set distance between table boundaries and text.
 
 ```
 
@@ -4971,6 +5003,14 @@ Shows the minimum distance operations between table boundaries and text.
  Assert.assertEquals(table.getDistanceBottom(), 25.9d);
  Assert.assertEquals(table.getDistanceLeft(), 17.3d);
  Assert.assertEquals(table.getDistanceRight(), 17.3d);
+
+ // Set distance between table and surrounding text.
+ table.setDistanceLeft(24.0);
+ table.setDistanceRight(24.0);
+ table.setDistanceTop(3.0);
+ table.setDistanceBottom(3.0);
+
+ doc.save(getArtifactsDir() + "Table.DistanceBetweenTableAndText.docx");
  
 ```
 
@@ -4989,7 +5029,7 @@ Sets distance between table left and the surrounding text, in points.
 
  **Examples:** 
 
-Shows the minimum distance operations between table boundaries and text.
+Shows how to set distance between table boundaries and text.
 
 ```
 
@@ -5001,6 +5041,14 @@ Shows the minimum distance operations between table boundaries and text.
  Assert.assertEquals(table.getDistanceBottom(), 25.9d);
  Assert.assertEquals(table.getDistanceLeft(), 17.3d);
  Assert.assertEquals(table.getDistanceRight(), 17.3d);
+
+ // Set distance between table and surrounding text.
+ table.setDistanceLeft(24.0);
+ table.setDistanceRight(24.0);
+ table.setDistanceTop(3.0);
+ table.setDistanceBottom(3.0);
+
+ doc.save(getArtifactsDir() + "Table.DistanceBetweenTableAndText.docx");
  
 ```
 
@@ -5019,7 +5067,7 @@ Sets distance between table right and the surrounding text, in points.
 
  **Examples:** 
 
-Shows the minimum distance operations between table boundaries and text.
+Shows how to set distance between table boundaries and text.
 
 ```
 
@@ -5031,6 +5079,14 @@ Shows the minimum distance operations between table boundaries and text.
  Assert.assertEquals(table.getDistanceBottom(), 25.9d);
  Assert.assertEquals(table.getDistanceLeft(), 17.3d);
  Assert.assertEquals(table.getDistanceRight(), 17.3d);
+
+ // Set distance between table and surrounding text.
+ table.setDistanceLeft(24.0);
+ table.setDistanceRight(24.0);
+ table.setDistanceTop(3.0);
+ table.setDistanceBottom(3.0);
+
+ doc.save(getArtifactsDir() + "Table.DistanceBetweenTableAndText.docx");
  
 ```
 
@@ -5049,7 +5105,7 @@ Sets distance between table top and the surrounding text, in points.
 
  **Examples:** 
 
-Shows the minimum distance operations between table boundaries and text.
+Shows how to set distance between table boundaries and text.
 
 ```
 
@@ -5061,6 +5117,14 @@ Shows the minimum distance operations between table boundaries and text.
  Assert.assertEquals(table.getDistanceBottom(), 25.9d);
  Assert.assertEquals(table.getDistanceLeft(), 17.3d);
  Assert.assertEquals(table.getDistanceRight(), 17.3d);
+
+ // Set distance between table and surrounding text.
+ table.setDistanceLeft(24.0);
+ table.setDistanceRight(24.0);
+ table.setDistanceTop(3.0);
+ table.setDistanceBottom(3.0);
+
+ doc.save(getArtifactsDir() + "Table.DistanceBetweenTableAndText.docx");
  
 ```
 

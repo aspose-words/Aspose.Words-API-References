@@ -1,10 +1,10 @@
 ---
 title: IFieldResultFormatter
 linktitle: IFieldResultFormatter
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Implement this interface if you want to control how the field result is formatted in Java.
 type: docs
-weight: 651
+weight: 662
 url: /java/com.aspose.words/ifieldresultformatter/
 ---
 ```

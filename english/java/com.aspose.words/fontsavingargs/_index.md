@@ -1,10 +1,10 @@
 ---
 title: FontSavingArgs
 linktitle: FontSavingArgs
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java
 description: Provides data for the IFontSavingCallback.fontSavingcom.aspose.words.FontSavingArgs event in Java.
 type: docs
-weight: 288
+weight: 297
 url: /java/com.aspose.words/fontsavingargs/
 ---
 
