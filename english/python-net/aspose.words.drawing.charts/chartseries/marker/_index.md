@@ -3,7 +3,7 @@ title: marker property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies a data marker"
 type: docs
-weight: 90
+weight: 100
 url: /python-net/aspose.words.drawing.charts/chartseries/marker/
 ---
 

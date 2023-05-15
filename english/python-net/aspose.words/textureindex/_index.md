@@ -3,7 +3,7 @@ title: TextureIndex enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies shading texture."
 type: docs
-weight: 1250
+weight: 1260
 url: /python-net/aspose.words/textureindex/
 ---
 

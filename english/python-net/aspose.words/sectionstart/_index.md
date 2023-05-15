@@ -3,7 +3,7 @@ title: SectionStart enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "The type of break at the beginning of the section."
 type: docs
-weight: 1030
+weight: 1040
 url: /python-net/aspose.words/sectionstart/
 ---
 

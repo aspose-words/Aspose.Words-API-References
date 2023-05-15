@@ -3,7 +3,7 @@ title: StyleIdentifier enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Locale independent style identifier."
 type: docs
-weight: 1110
+weight: 1120
 url: /python-net/aspose.words/styleidentifier/
 ---
 

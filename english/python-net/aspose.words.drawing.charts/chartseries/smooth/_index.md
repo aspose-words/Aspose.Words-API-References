@@ -3,7 +3,7 @@ title: smooth property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Allows to specify whether the line connecting the points on the chart shall be smoothed using Catmull-Rom splines."
 type: docs
-weight: 110
+weight: 130
 url: /python-net/aspose.words.drawing.charts/chartseries/smooth/
 ---
 

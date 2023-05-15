@@ -3,7 +3,7 @@ title: WatermarkLayout enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Defines layout of the watermark relative to the watermark center."
 type: docs
-weight: 1350
+weight: 1360
 url: /python-net/aspose.words/watermarklayout/
 ---
 

@@ -3,7 +3,7 @@ title: WarningType enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies the type of a warning that is issued by Aspose.Words during document loading or saving."
 type: docs
-weight: 1330
+weight: 1340
 url: /python-net/aspose.words/warningtype/
 ---
 

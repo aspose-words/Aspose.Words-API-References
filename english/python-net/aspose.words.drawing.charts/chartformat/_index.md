@@ -3,7 +3,7 @@ title: ChartFormat class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents the formatting of a chart element"
 type: docs
-weight: 190
+weight: 200
 url: /python-net/aspose.words.drawing.charts/chartformat/
 ---
 

@@ -3,7 +3,7 @@ title: legacy_mode property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets or sets a boolean value indicating that old find/replace algorithm is used."
 type: docs
-weight: 120
+weight: 130
 url: /python-net/aspose.words.replacing/findreplaceoptions/legacy_mode/
 ---
 

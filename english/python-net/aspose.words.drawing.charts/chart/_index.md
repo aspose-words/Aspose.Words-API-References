@@ -3,7 +3,7 @@ title: Chart class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Provides access to the chart shape properties"
 type: docs
-weight: 110
+weight: 120
 url: /python-net/aspose.words.drawing.charts/chart/
 ---
 

@@ -3,7 +3,7 @@ title: xml_mapping property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets an object that represents the mapping of this structured document tag to XML data in a custom XML part of the current document."
 type: docs
-weight: 310
+weight: 320
 url: /python-net/aspose.words.markup/structureddocumenttag/xml_mapping/
 ---
 

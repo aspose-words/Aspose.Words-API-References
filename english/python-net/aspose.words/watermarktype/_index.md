@@ -3,7 +3,7 @@ title: WatermarkType enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies the watermark type."
 type: docs
-weight: 1360
+weight: 1370
 url: /python-net/aspose.words/watermarktype/
 ---
 

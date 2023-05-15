@@ -3,7 +3,7 @@ title: Story class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Base class for elements that contain block-level nodes [Paragraph](../paragraph/) and [Table](../../aspose.words.tables/table/)"
 type: docs
-weight: 1070
+weight: 1080
 url: /python-net/aspose.words/story/
 ---
 

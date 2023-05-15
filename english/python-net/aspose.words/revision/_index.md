@@ -3,7 +3,7 @@ title: Revision class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents a revision (tracked change) in a document node or style"
 type: docs
-weight: 910
+weight: 920
 url: /python-net/aspose.words/revision/
 ---
 

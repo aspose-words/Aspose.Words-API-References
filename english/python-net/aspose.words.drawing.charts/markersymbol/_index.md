@@ -3,7 +3,7 @@ title: MarkerSymbol enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies marker symbol style."
 type: docs
-weight: 310
+weight: 400
 url: /python-net/aspose.words.drawing.charts/markersymbol/
 ---
 

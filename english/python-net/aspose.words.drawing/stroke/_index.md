@@ -73,6 +73,8 @@ stroke.join_style = aw.drawing.JoinStyle.MITER
 stroke.end_cap = aw.drawing.EndCap.SQUARE
 stroke.line_style = aw.drawing.ShapeLineStyle.TRIPLE
 
+stroke.fill.two_color_gradient(drawing.Color.red, drawing.Color.blue, awd.GradientStyle.VERTICAL, awd.GradientVariant.VARIANT1)
+
 doc.save(ARTIFACTS_DIR + "Shape.stroke.docx")
 ```
 
