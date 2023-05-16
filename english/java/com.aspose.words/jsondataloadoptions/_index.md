@@ -33,21 +33,12 @@ An instance of this class can be passed into constructors of [JsonDataSource](..
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getAlwaysGenerateRootObject()](#getAlwaysGenerateRootObject) | Gets a flag indicating whether a generated data source will always contain an object for a JSON root element. |
-| [getClass()](#getClass) |  |
 | [getExactDateTimeParseFormats()](#getExactDateTimeParseFormats) | Gets exact formats for parsing JSON date-time values while loading JSON. |
 | [getSimpleValueParseMode()](#getSimpleValueParseMode) | Gets a mode for parsing JSON simple values (null, boolean, number, integer, and string) while loading JSON. |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setAlwaysGenerateRootObject(boolean value)](#setAlwaysGenerateRootObject-boolean) | Sets a flag indicating whether a generated data source will always contain an object for a JSON root element. |
 | [setExactDateTimeParseFormats(Iterable value)](#setExactDateTimeParseFormats-java.lang.Iterable) | Sets exact formats for parsing JSON date-time values while loading JSON. |
 | [setSimpleValueParseMode(int value)](#setSimpleValueParseMode-int) | Sets a mode for parsing JSON simple values (null, boolean, number, integer, and string) while loading JSON. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### JsonDataLoadOptions() {#JsonDataLoadOptions}
 ```
 public JsonDataLoadOptions()
@@ -56,21 +47,6 @@ public JsonDataLoadOptions()
 
 Initializes a new instance of this class with default options.
 
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### getAlwaysGenerateRootObject() {#getAlwaysGenerateRootObject}
 ```
 public boolean getAlwaysGenerateRootObject()
@@ -85,16 +61,6 @@ The default value is  false .
 
 **Returns:**
 boolean - A flag indicating whether a generated data source will always contain an object for a JSON root element.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getExactDateTimeParseFormats() {#getExactDateTimeParseFormats}
 ```
 public Iterable getExactDateTimeParseFormats()
@@ -123,32 +89,6 @@ Gets a mode for parsing JSON simple values (null, boolean, number, integer, and 
 
 **Returns:**
 int - A mode for parsing JSON simple values (null, boolean, number, integer, and string) while loading JSON. The returned value is one of [JsonSimpleValueParseMode](../../com.aspose.words/jsonsimplevalueparsemode/) constants.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setAlwaysGenerateRootObject(boolean value) {#setAlwaysGenerateRootObject-boolean}
 ```
 public void setAlwaysGenerateRootObject(boolean value)
@@ -199,49 +139,4 @@ Sets a mode for parsing JSON simple values (null, boolean, number, integer, and 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | A mode for parsing JSON simple values (null, boolean, number, integer, and string) while loading JSON. The value must be one of [JsonSimpleValueParseMode](../../com.aspose.words/jsonsimplevalueparsemode/) constants. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

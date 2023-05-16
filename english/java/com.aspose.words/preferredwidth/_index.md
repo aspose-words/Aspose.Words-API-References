@@ -99,16 +99,10 @@ Shows how to set a preferred width for table cells.
 | [equals(Object obj)](#equals-java.lang.Object) | Determines whether the specified object is equal in value to the current object. |
 | [fromPercent(double percent)](#fromPercent-double) | A creation method that returns a new instance that represents a preferred width specified as a percentage. |
 | [fromPoints(double points)](#fromPoints-double) | A creation method that returns a new instance that represents a preferred width specified using a number of points. |
-| [getClass()](#getClass) |  |
 | [getType()](#getType) | Gets the unit of measure used for this preferred width value. |
 | [getValue()](#getValue) | Gets the preferred width value. |
 | [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [toString()](#toString) | Returns a user-friendly string that displays the value of this object. |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### AUTO {#AUTO}
 ```
 public static PreferredWidth AUTO
@@ -408,16 +402,6 @@ Shows how to set a preferred width for table cells.
 
 **Returns:**
 [PreferredWidth](../../com.aspose.words/preferredwidth/)
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getType() {#getType}
 ```
 public int getType()
@@ -480,22 +464,6 @@ public int hashCode()
 
 **Returns:**
 int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### toString() {#toString}
 ```
 public String toString()
@@ -545,38 +513,3 @@ Shows how to set a preferred width for table cells.
 
 **Returns:**
 java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
-

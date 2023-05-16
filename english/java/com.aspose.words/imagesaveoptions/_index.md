@@ -142,7 +142,6 @@ Shows how to specify a resolution while rendering a document to PNG.
 | [deepClone()](#deepClone) | Creates a deep clone of this object. |
 | [equals(Object obj)](#equals-java.lang.Object) | Determines whether the specified object is equal in value to the current object. |
 | [getAllowEmbeddingPostScriptFonts()](#getAllowEmbeddingPostScriptFonts) | Gets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
-| [getClass()](#getClass) |  |
 | [getColorMode()](#getColorMode) | Gets a value determining how colors are rendered. |
 | [getDefaultTemplate()](#getDefaultTemplate) | Gets path to default template (including filename). |
 | [getDml3DEffectsRenderingMode()](#getDml3DEffectsRenderingMode) | Gets a value determining how 3D effects are rendered. |
@@ -181,9 +180,6 @@ Shows how to specify a resolution while rendering a document to PNG.
 | [getUseGdiEmfRenderer()](#getUseGdiEmfRenderer) | Gets a value determining whether to use GDI+ or Aspose.Words metafile renderer when saving to EMF. |
 | [getUseHighQualityRendering()](#getUseHighQualityRendering) | Gets a value determining whether or not to use high quality (i.e. |
 | [getVerticalResolution()](#getVerticalResolution) | Gets the vertical resolution for the generated images, in dots per inch. |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setAllowEmbeddingPostScriptFonts(boolean value)](#setAllowEmbeddingPostScriptFonts-boolean) | Sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
 | [setColorMode(int value)](#setColorMode-int) | Sets a value determining how colors are rendered. |
 | [setDefaultTemplate(String value)](#setDefaultTemplate-java.lang.String) | Sets path to default template (including filename). |
@@ -224,10 +220,6 @@ Shows how to specify a resolution while rendering a document to PNG.
 | [setUseGdiEmfRenderer(boolean value)](#setUseGdiEmfRenderer-boolean) | Sets a value determining whether to use GDI+ or Aspose.Words metafile renderer when saving to EMF. |
 | [setUseHighQualityRendering(boolean value)](#setUseHighQualityRendering-boolean) | Sets a value determining whether or not to use high quality (i.e. |
 | [setVerticalResolution(float value)](#setVerticalResolution-float) | Sets the vertical resolution for the generated images, in dots per inch. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### ImageSaveOptions(int saveFormat) {#ImageSaveOptions-int}
 ```
 public ImageSaveOptions(int saveFormat)
@@ -406,16 +398,6 @@ Shows how to save the document with PostScript font.
 
 **Returns:**
 boolean - A boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getColorMode() {#getColorMode}
 ```
 public int getColorMode()
@@ -2216,32 +2198,6 @@ Shows how to edit the image while Aspose.Words converts a document to one.
 
 **Returns:**
 float - The vertical resolution for the generated images, in dots per inch.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setAllowEmbeddingPostScriptFonts(boolean value) {#setAllowEmbeddingPostScriptFonts-boolean}
 ```
 public void setAllowEmbeddingPostScriptFonts(boolean value)
@@ -4229,49 +4185,4 @@ Shows how to edit the image while Aspose.Words converts a document to one.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | float | The vertical resolution for the generated images, in dots per inch. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

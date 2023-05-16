@@ -99,7 +99,6 @@ Shows how to construct an Aspose.Words document by hand.
 | [clearRunAttrs()](#clearRunAttrs) |  |
 | [dd()](#dd) |  |
 | [deepClone(boolean isCloneChildren)](#deepClone-boolean) | Creates a duplicate of the node. |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [fetchInheritedParaAttr(int key)](#fetchInheritedParaAttr-int) |  |
 | [fetchInheritedRunAttr(int key)](#fetchInheritedRunAttr-int) |  |
 | [fetchParaAttr(int key)](#fetchParaAttr-int) |  |
@@ -109,7 +108,6 @@ Shows how to construct an Aspose.Words document by hand.
 | [getChild(int nodeType, int index, boolean isDeep)](#getChild-int-int-boolean) |  |
 | [getChildNodes()](#getChildNodes) | Gets all immediate child nodes of this node. |
 | [getChildNodes(int nodeType, boolean isDeep)](#getChildNodes-int-boolean) |  |
-| [getClass()](#getClass) |  |
 | [getContainer()](#getContainer) |  |
 | [getCount()](#getCount) | Gets the number of immediate children of this node. |
 | [getCurrentNode()](#getCurrentNode) |  |
@@ -138,7 +136,6 @@ Shows how to construct an Aspose.Words document by hand.
 | [getRuns()](#getRuns) | Provides access to the typed collection of pieces of text inside the paragraph. |
 | [getText()](#getText) | Gets the text of this paragraph including the end of paragraph character. |
 | [hasChildNodes()](#hasChildNodes) | Returns  true  if this node has any child nodes. |
-| [hashCode()](#hashCode) |  |
 | [indexOf(Node child)](#indexOf-com.aspose.words.Node) | Returns the index of the specified child node in the child node array. |
 | [insertAfter(Node newChild, Node refChild)](#insertAfter-com.aspose.words.Node-com.aspose.words.Node) | Inserts the specified node immediately after the specified reference node. |
 | [insertBefore(Node newChild, Node refChild)](#insertBefore-com.aspose.words.Node-com.aspose.words.Node) | Inserts the specified node immediately before the specified reference node. |
@@ -161,8 +158,6 @@ Shows how to construct an Aspose.Words document by hand.
 | [joinRunsWithSameFormatting()](#joinRunsWithSameFormatting) | Joins runs with the same formatting in the paragraph. |
 | [nextPreOrder(Node rootNode)](#nextPreOrder-com.aspose.words.Node) | Gets next node according to the pre-order tree traversal algorithm. |
 | [nodeTypeToString(int nodeType)](#nodeTypeToString-int) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [prependChild(Node newChild)](#prependChild-com.aspose.words.Node) | Adds the specified node to the beginning of the list of child nodes for this node. |
 | [previousPreOrder(Node rootNode)](#previousPreOrder-com.aspose.words.Node) | Gets the previous node according to the pre-order tree traversal algorithm. |
 | [remove()](#remove) | Removes itself from the parent. |
@@ -180,9 +175,6 @@ Shows how to construct an Aspose.Words document by hand.
 | [toString()](#toString) |  |
 | [toString(SaveOptions saveOptions)](#toString-com.aspose.words.SaveOptions) | Exports the content of the node into a string using the specified save options. |
 | [toString(int saveFormat)](#toString-int) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### Paragraph(DocumentBase doc) {#Paragraph-com.aspose.words.DocumentBase}
 ```
 public Paragraph(DocumentBase doc)
@@ -700,21 +692,6 @@ Shows how to clone a composite node.
 
 **Returns:**
 [Node](../../com.aspose.words/node/) - The cloned node.
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### fetchInheritedParaAttr(int key) {#fetchInheritedParaAttr-int}
 ```
 public Object fetchInheritedParaAttr(int key)
@@ -994,16 +971,6 @@ public NodeCollection getChildNodes(int nodeType, boolean isDeep)
 
 **Returns:**
 [NodeCollection](../../com.aspose.words/nodecollection/)
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getContainer() {#getContainer}
 ```
 public CompositeNode getContainer()
@@ -2300,16 +2267,6 @@ Shows how to combine the rows from two tables into one.
 
 **Returns:**
 boolean -  true  if this node has any child nodes.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### indexOf(Node child) {#indexOf-com.aspose.words.Node}
 ```
 public int indexOf(Node child)
@@ -3418,22 +3375,6 @@ public static String nodeTypeToString(int nodeType)
 
 **Returns:**
 java.lang.String
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### prependChild(Node newChild) {#prependChild-com.aspose.words.Node}
 ```
 public Node prependChild(Node newChild)
@@ -4172,38 +4113,3 @@ public String toString(int saveFormat)
 
 **Returns:**
 java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
-

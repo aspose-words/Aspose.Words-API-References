@@ -67,52 +67,18 @@ Shows how to set a custom zoom type, which older versions of Microsoft Word will
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getClass()](#getClass) |  |
 | [getDisplayBackgroundShape()](#getDisplayBackgroundShape) | Controls display of the background shape in print layout view. |
 | [getDoNotDisplayPageBoundaries()](#getDoNotDisplayPageBoundaries) | Turns off display of the space between the top of the text and the top edge of the page. |
 | [getFormsDesign()](#getFormsDesign) | Specifies whether the document is in forms design mode. |
 | [getViewType()](#getViewType) | Controls the view mode in Microsoft Word. |
 | [getZoomPercent()](#getZoomPercent) | Gets the percentage (between 10 and 500) at which you want to view your document. |
 | [getZoomType()](#getZoomType) | Gets a zoom value based on the size of the window. |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setDisplayBackgroundShape(boolean value)](#setDisplayBackgroundShape-boolean) | Controls display of the background shape in print layout view. |
 | [setDoNotDisplayPageBoundaries(boolean value)](#setDoNotDisplayPageBoundaries-boolean) | Turns off display of the space between the top of the text and the top edge of the page. |
 | [setFormsDesign(boolean value)](#setFormsDesign-boolean) | Specifies whether the document is in forms design mode. |
 | [setViewType(int value)](#setViewType-int) | Controls the view mode in Microsoft Word. |
 | [setZoomPercent(int value)](#setZoomPercent-int) | Sets the percentage (between 10 and 500) at which you want to view your document. |
 | [setZoomType(int value)](#setZoomType-int) | Sets a zoom value based on the size of the window. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getDisplayBackgroundShape() {#getDisplayBackgroundShape}
 ```
 public boolean getDisplayBackgroundShape()
@@ -343,32 +309,6 @@ Shows how to set a custom zoom type, which older versions of Microsoft Word will
 
 **Returns:**
 int - A zoom value based on the size of the window. The returned value is one of [ZoomType](../../com.aspose.words/zoomtype/) constants.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setDisplayBackgroundShape(boolean value) {#setDisplayBackgroundShape-boolean}
 ```
 public void setDisplayBackgroundShape(boolean value)
@@ -616,49 +556,4 @@ Shows how to set a custom zoom type, which older versions of Microsoft Word will
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | A zoom value based on the size of the window. The value must be one of [ZoomType](../../com.aspose.words/zoomtype/) constants. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

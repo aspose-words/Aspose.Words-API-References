@@ -69,44 +69,10 @@ Shows how to create unevenly spaced columns.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getClass()](#getClass) |  |
 | [getSpaceAfter()](#getSpaceAfter) | Gets the space between this column and the next column in points. |
 | [getWidth()](#getWidth) | Gets the width of the text column in points. |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setSpaceAfter(double value)](#setSpaceAfter-double) | Sets the space between this column and the next column in points. |
 | [setWidth(double value)](#setWidth-double) | Sets the width of the text column in points. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getSpaceAfter() {#getSpaceAfter}
 ```
 public double getSpaceAfter()
@@ -199,32 +165,6 @@ Shows how to create unevenly spaced columns.
 
 **Returns:**
 double - The width of the text column in points.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setSpaceAfter(double value) {#setSpaceAfter-double}
 ```
 public void setSpaceAfter(double value)
@@ -322,49 +262,4 @@ Shows how to create unevenly spaced columns.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double | The width of the text column in points. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

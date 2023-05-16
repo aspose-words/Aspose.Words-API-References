@@ -93,38 +93,14 @@ Shows how to open and register a dictionary from a file.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getCallback()](#getCallback) | Gets callback interface used to request dictionaries when page layout of the document is built. |
-| [getClass()](#getClass) |  |
 | [getWarningCallback()](#getWarningCallback) | Called during a load hyphenation patterns, when an issue is detected that might result in formatting fidelity loss. |
-| [hashCode()](#hashCode) |  |
 | [isDictionaryRegistered(String language)](#isDictionaryRegistered-java.lang.String) | Returns  false  if for the specified language there is no dictionary registered or if registered is Null dictionary,  true  otherwise. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [registerDictionary(String language, InputStream stream)](#registerDictionary-java.lang.String-java.io.InputStream) |  |
 | [registerDictionary(String language, String fileName)](#registerDictionary-java.lang.String-java.lang.String) | Registers and loads a hyphenation dictionary for the specified language from file. |
 | [setCallback(IHyphenationCallback value)](#setCallback-com.aspose.words.IHyphenationCallback) | Sets callback interface used to request dictionaries when page layout of the document is built. |
 | [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.words.IWarningCallback) | Called during a load hyphenation patterns, when an issue is detected that might result in formatting fidelity loss. |
-| [toString()](#toString) |  |
 | [unregisterDictionary(String language)](#unregisterDictionary-java.lang.String) | Unregisters a hyphenation dictionary for the specified language. |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### getCallback() {#getCallback}
 ```
 public static IHyphenationCallback getCallback()
@@ -204,16 +180,6 @@ Shows how to open and register a dictionary from a file.
 
 **Returns:**
 [IHyphenationCallback](../../com.aspose.words/ihyphenationcallback/) - Callback interface used to request dictionaries when page layout of the document is built.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getWarningCallback() {#getWarningCallback}
 ```
 public static IWarningCallback getWarningCallback()
@@ -293,16 +259,6 @@ Shows how to open and register a dictionary from a file.
 
 **Returns:**
 [IWarningCallback](../../com.aspose.words/iwarningcallback/) - The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback/) value.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### isDictionaryRegistered(String language) {#isDictionaryRegistered-java.lang.String}
 ```
 public static boolean isDictionaryRegistered(String language)
@@ -353,22 +309,6 @@ Shows how to register a hyphenation dictionary.
 
 **Returns:**
 boolean
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### registerDictionary(String language, InputStream stream) {#registerDictionary-java.lang.String-java.io.InputStream}
 ```
 public static void registerDictionary(String language, InputStream stream)
@@ -669,16 +609,6 @@ Shows how to open and register a dictionary from a file.
 | --- | --- | --- |
 | value | [IWarningCallback](../../com.aspose.words/iwarningcallback/) | The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback/) value. |
 
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
 ### unregisterDictionary(String language) {#unregisterDictionary-java.lang.String}
 ```
 public static void unregisterDictionary(String language)
@@ -730,39 +660,4 @@ Shows how to register a hyphenation dictionary.
 | language | java.lang.String | A language name, e.g. "en-US". See .NET documentation for "culture name" and RFC 4646 for details.
 
 If  null  or empty string then all dictionaries are unregistered. |
-
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

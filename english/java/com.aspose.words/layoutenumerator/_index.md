@@ -159,9 +159,7 @@ Shows ways of traversing a document's layout entities.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [get(String key)](#get-java.lang.String) | Gets a named property of the entity. |
-| [getClass()](#getClass) |  |
 | [getCurrent()](#getCurrent) | Gets current position in the page layout model. |
 | [getDocument()](#getDocument) | Gets document this instance enumerates. |
 | [getKind()](#getKind) | Gets the kind of the current entity. |
@@ -169,7 +167,6 @@ Shows ways of traversing a document's layout entities.
 | [getRectangle()](#getRectangle) | Returns the bounding rectangle of the current entity relative to the page top left corner (in points). |
 | [getText()](#getText) | Gets text of the current span entity. |
 | [getType()](#getType) | Gets the type of the current entity. |
-| [hashCode()](#hashCode) |  |
 | [moveFirstChild()](#moveFirstChild) | Moves to the first child entity. |
 | [moveLastChild()](#moveLastChild) | Moves to the last child entity. |
 | [moveNext()](#moveNext) | Moves to the next sibling entity in visual order. |
@@ -178,14 +175,8 @@ Shows ways of traversing a document's layout entities.
 | [moveParent(int types)](#moveParent-int) |  |
 | [movePrevious()](#movePrevious) | Moves to the previous sibling entity. |
 | [movePreviousLogical()](#movePreviousLogical) | Moves to the previous sibling entity in a logical order. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [reset()](#reset) | Moves the enumerator to the first page of the document. |
 | [setCurrent(Object value)](#setCurrent-java.lang.Object) | Sets current position in the page layout model. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### LayoutEnumerator(Document document) {#LayoutEnumerator-com.aspose.words.Document}
 ```
 public LayoutEnumerator(Document document)
@@ -335,21 +326,6 @@ Shows ways of traversing a document's layout entities.
 | --- | --- | --- |
 | document | [Document](../../com.aspose.words/document/) | A document whose page layout model to enumerate. |
 
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### get(String key) {#get-java.lang.String}
 ```
 public Object get(String key)
@@ -369,16 +345,6 @@ This is currently used to get font properties of spans. See [Font](../../com.asp
 
 **Returns:**
 java.lang.Object - Null if property is not available, otherwise value of the property.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getCurrent() {#getCurrent}
 ```
 public Object getCurrent()
@@ -1288,16 +1254,6 @@ Shows ways of traversing a document's layout entities.
 
 **Returns:**
 int - The type of the current entity. The returned value is a bitwise combination of [LayoutEntityType](../../com.aspose.words/layoutentitytype/) constants.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### moveFirstChild() {#moveFirstChild}
 ```
 public boolean moveFirstChild()
@@ -2301,22 +2257,6 @@ Shows ways of traversing a document's layout entities.
 
 **Returns:**
 boolean
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### reset() {#reset}
 ```
 public void reset()
@@ -2522,49 +2462,4 @@ Shows how to see the the ranges of pages that a node spans.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.Object | Current position in the page layout model. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

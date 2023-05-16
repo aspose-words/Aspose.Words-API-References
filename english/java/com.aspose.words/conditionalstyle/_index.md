@@ -104,7 +104,6 @@ Shows how to work with certain area styles of a table.
 | [fetchParaAttr(int key)](#fetchParaAttr-int) |  |
 | [getBorders()](#getBorders) | Gets the collection of default cell borders for the conditional style. |
 | [getBottomPadding()](#getBottomPadding) | Gets the amount of space (in points) to add below the contents of table cells. |
-| [getClass()](#getClass) |  |
 | [getDirectBorderAttr(int key)](#getDirectBorderAttr-int) |  |
 | [getDirectParaAttr(int key)](#getDirectParaAttr-int) |  |
 | [getDirectParaAttr(int key, int revisionsView)](#getDirectParaAttr-int-int) |  |
@@ -118,8 +117,6 @@ Shows how to work with certain area styles of a table.
 | [getTopPadding()](#getTopPadding) | Gets the amount of space (in points) to add above the contents of table cells. |
 | [getType()](#getType) | Gets table area to which this conditional style relates. |
 | [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [removeParaAttr(int key)](#removeParaAttr-int) |  |
 | [removeRunAttr(int key)](#removeRunAttr-int) |  |
 | [setBorderAttr(int key, Object value)](#setBorderAttr-int-java.lang.Object) |  |
@@ -129,10 +126,6 @@ Shows how to work with certain area styles of a table.
 | [setRightPadding(double value)](#setRightPadding-double) | Sets the amount of space (in points) to add to the right of the contents of table cells. |
 | [setRunAttr(int key, Object value)](#setRunAttr-int-java.lang.Object) |  |
 | [setTopPadding(double value)](#setTopPadding-double) | Sets the amount of space (in points) to add above the contents of table cells. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### clearFormatting() {#clearFormatting}
 ```
 public void clearFormatting()
@@ -438,16 +431,6 @@ Shows how to work with certain area styles of a table.
 
 **Returns:**
 double - The amount of space (in points) to add below the contents of table cells.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getDirectBorderAttr(int key) {#getDirectBorderAttr-int}
 ```
 public Object getDirectBorderAttr(int key)
@@ -1067,22 +1050,6 @@ public int hashCode()
 
 **Returns:**
 int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### removeParaAttr(int key) {#removeParaAttr-int}
 ```
 public void removeParaAttr(int key)
@@ -1466,49 +1433,4 @@ Shows how to work with certain area styles of a table.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double | The amount of space (in points) to add above the contents of table cells. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

@@ -34,23 +34,14 @@ An instance of this class can be passed into constructors of [CsvDataSource](../
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getClass()](#getClass) |  |
 | [getCommentChar()](#getCommentChar) | Gets the character that is used to comment lines of CSV data. |
 | [getDelimiter()](#getDelimiter) | Gets the character to be used as a column delimiter. |
 | [getQuoteChar()](#getQuoteChar) | Gets the character that is used to quote field values. |
 | [hasHeaders()](#hasHeaders) | Gets a value indicating whether the first record of CSV data contains column names. |
 | [hasHeaders(boolean value)](#hasHeaders-boolean) | Sets a value indicating whether the first record of CSV data contains column names. |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setCommentChar(char value)](#setCommentChar-char) | Sets the character that is used to comment lines of CSV data. |
 | [setDelimiter(char value)](#setDelimiter-char) | Sets the character to be used as a column delimiter. |
 | [setQuoteChar(char value)](#setQuoteChar-char) | Sets the character that is used to quote field values. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### CsvDataLoadOptions() {#CsvDataLoadOptions}
 ```
 public CsvDataLoadOptions()
@@ -72,31 +63,6 @@ Initializes a new instance of this class with specifying whether CSV data contai
 | --- | --- | --- |
 | hasHeaders | boolean |  |
 
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getCommentChar() {#getCommentChar}
 ```
 public char getCommentChar()
@@ -172,32 +138,6 @@ The default value is  false .
 | --- | --- | --- |
 | value | boolean | A value indicating whether the first record of CSV data contains column names. |
 
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setCommentChar(char value) {#setCommentChar-char}
 ```
 public void setCommentChar(char value)
@@ -250,49 +190,4 @@ Double the character to place it into quoted text.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | char | The character that is used to quote field values. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

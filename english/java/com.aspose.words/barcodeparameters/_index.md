@@ -104,13 +104,11 @@ Shows how to use a barcode generator.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getAddStartStopChar()](#getAddStartStopChar) | Whether to add Start/Stop characters for barcode types NW7 and CODE39. |
 | [getBackgroundColor()](#getBackgroundColor) | Bar code background color (0x000000 - 0xFFFFFF) |
 | [getBarcodeType()](#getBarcodeType) | Bar code type. |
 | [getBarcodeValue()](#getBarcodeValue) | Data to be encoded. |
 | [getCaseCodeStyle()](#getCaseCodeStyle) | Style of a Case Code for barcode type ITF14. |
-| [getClass()](#getClass) |  |
 | [getDisplayText()](#getDisplayText) | Whether to display barcode data (text) along with image. |
 | [getErrorCorrectionLevel()](#getErrorCorrectionLevel) | Error correction level of QR Code. |
 | [getFacingIdentificationMark()](#getFacingIdentificationMark) | Type of a Facing Identification Mark (FIM). |
@@ -121,13 +119,10 @@ Shows how to use a barcode generator.
 | [getScalingFactor()](#getScalingFactor) | Scaling factor for the symbol. |
 | [getSymbolHeight()](#getSymbolHeight) | Bar code image height (in twips - 1/1440 inches) |
 | [getSymbolRotation()](#getSymbolRotation) | Rotation of the barcode symbol. |
-| [hashCode()](#hashCode) |  |
 | [isBookmark()](#isBookmark) | Whether [getPostalAddress()](../../com.aspose.words/barcodeparameters/\#getPostalAddress) / [setPostalAddress(java.lang.String)](../../com.aspose.words/barcodeparameters/\#setPostalAddress-java.lang.String) is the name of a bookmark. |
 | [isBookmark(boolean value)](#isBookmark-boolean) | Whether [getPostalAddress()](../../com.aspose.words/barcodeparameters/\#getPostalAddress) / [setPostalAddress(java.lang.String)](../../com.aspose.words/barcodeparameters/\#setPostalAddress-java.lang.String) is the name of a bookmark. |
 | [isUSPostalAddress()](#isUSPostalAddress) | Whether [getPostalAddress()](../../com.aspose.words/barcodeparameters/\#getPostalAddress) / [setPostalAddress(java.lang.String)](../../com.aspose.words/barcodeparameters/\#setPostalAddress-java.lang.String) is a U.S. |
 | [isUSPostalAddress(boolean value)](#isUSPostalAddress-boolean) | Whether [getPostalAddress()](../../com.aspose.words/barcodeparameters/\#getPostalAddress) / [setPostalAddress(java.lang.String)](../../com.aspose.words/barcodeparameters/\#setPostalAddress-java.lang.String) is a U.S. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setAddStartStopChar(boolean value)](#setAddStartStopChar-boolean) | Whether to add Start/Stop characters for barcode types NW7 and CODE39. |
 | [setBackgroundColor(String value)](#setBackgroundColor-java.lang.String) | Bar code background color (0x000000 - 0xFFFFFF) |
 | [setBarcodeType(String value)](#setBarcodeType-java.lang.String) | Bar code type. |
@@ -143,25 +138,6 @@ Shows how to use a barcode generator.
 | [setScalingFactor(String value)](#setScalingFactor-java.lang.String) | Scaling factor for the symbol. |
 | [setSymbolHeight(String value)](#setSymbolHeight-java.lang.String) | Bar code image height (in twips - 1/1440 inches) |
 | [setSymbolRotation(String value)](#setSymbolRotation-java.lang.String) | Rotation of the barcode symbol. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### getAddStartStopChar() {#getAddStartStopChar}
 ```
 public boolean getAddStartStopChar()
@@ -587,16 +563,6 @@ Shows how to use a barcode generator.
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getDisplayText() {#getDisplayText}
 ```
 public boolean getDisplayText()
@@ -1447,16 +1413,6 @@ Shows how to use a barcode generator.
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### isBookmark() {#isBookmark}
 ```
 public boolean isBookmark()
@@ -1802,22 +1758,6 @@ Shows how to use a barcode generator.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
-
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
 
 ### setAddStartStopChar(boolean value) {#setAddStartStopChar-boolean}
 ```
@@ -3138,49 +3078,4 @@ Shows how to use a barcode generator.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | The corresponding java.lang.String value. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

@@ -74,49 +74,15 @@ Shows how to use a callback to track external resources created while converting
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getClass()](#getClass) |  |
 | [getDocument()](#getDocument) | Gets the document object that is currently being saved. |
 | [getKeepResourceStreamOpen()](#getKeepResourceStreamOpen) | Specifies whether Aspose.Words should keep the stream open or close it after saving a resource. |
 | [getResourceFileName()](#getResourceFileName) | Gets the file name (without path) where the resource will be saved to. |
 | [getResourceFileUri()](#getResourceFileUri) | Gets the uniform resource identifier (URI) used to reference the resource file from the document. |
 | [getResourceStream()](#getResourceStream) |  |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setKeepResourceStreamOpen(boolean value)](#setKeepResourceStreamOpen-boolean) | Specifies whether Aspose.Words should keep the stream open or close it after saving a resource. |
 | [setResourceFileName(String value)](#setResourceFileName-java.lang.String) | Sets the file name (without path) where the resource will be saved to. |
 | [setResourceFileUri(String value)](#setResourceFileUri-java.lang.String) | Sets the uniform resource identifier (URI) used to reference the resource file from the document. |
 | [setResourceStream(OutputStream value)](#setResourceStream-java.io.OutputStream) |  |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getDocument() {#getDocument}
 ```
 public Document getDocument()
@@ -397,32 +363,6 @@ public OutputStream getResourceStream()
 
 **Returns:**
 java.io.OutputStream
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setKeepResourceStreamOpen(boolean value) {#setKeepResourceStreamOpen-boolean}
 ```
 public void setKeepResourceStreamOpen(boolean value)
@@ -664,49 +604,4 @@ public void setResourceStream(OutputStream value)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.io.OutputStream |  |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

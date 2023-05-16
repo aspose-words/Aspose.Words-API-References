@@ -29,21 +29,12 @@ To learn more, visit the [ Protect or Encrypt a Document ][Protect or Encrypt a 
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getClass()](#getClass) |  |
 | [getOwnerPassword()](#getOwnerPassword) | Specifies the owner password for the encrypted PDF document. |
 | [getPermissions()](#getPermissions) | Specifies the operations that are allowed to a user on an encrypted PDF document. |
 | [getUserPassword()](#getUserPassword) | Specifies the user password required for opening the encrypted PDF document. |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setOwnerPassword(String value)](#setOwnerPassword-java.lang.String) | Specifies the owner password for the encrypted PDF document. |
 | [setPermissions(int value)](#setPermissions-int) | Specifies the operations that are allowed to a user on an encrypted PDF document. |
 | [setUserPassword(String value)](#setUserPassword-java.lang.String) | Specifies the user password required for opening the encrypted PDF document. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### PdfEncryptionDetails(String userPassword, String ownerPassword) {#PdfEncryptionDetails-java.lang.String-java.lang.String}
 ```
 public PdfEncryptionDetails(String userPassword, String ownerPassword)
@@ -58,31 +49,6 @@ Initializes an instance of this class.
 | userPassword | java.lang.String |  |
 | ownerPassword | java.lang.String |  |
 
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getOwnerPassword() {#getOwnerPassword}
 ```
 public String getOwnerPassword()
@@ -125,32 +91,6 @@ The user password can be  null  or empty string, in this case no password will b
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setOwnerPassword(String value) {#setOwnerPassword-java.lang.String}
 ```
 public void setOwnerPassword(String value)
@@ -201,49 +141,4 @@ The user password can be  null  or empty string, in this case no password will b
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | The corresponding java.lang.String value. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

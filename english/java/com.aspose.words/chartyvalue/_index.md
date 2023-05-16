@@ -29,18 +29,11 @@ All non-null Y values of a chart series must be of the same [ChartYValueType](..
 | [fromDateTime(Date value)](#fromDateTime-java.util.Date) | Creates a [ChartYValue](../../com.aspose.words/chartyvalue/) instance of the [ChartYValueType.DATE\_TIME](../../com.aspose.words/chartyvaluetype/\#DATE-TIME) type. |
 | [fromDouble(double value)](#fromDouble-double) | Creates a [ChartYValue](../../com.aspose.words/chartyvalue/) instance of the [ChartYValueType.DOUBLE](../../com.aspose.words/chartyvaluetype/\#DOUBLE) type. |
 | [fromTimeSpan(long value)](#fromTimeSpan-long) | Creates a [ChartYValue](../../com.aspose.words/chartyvalue/) instance of the [ChartYValueType.TIME](../../com.aspose.words/chartyvaluetype/\#TIME) type. |
-| [getClass()](#getClass) |  |
 | [getDateTimeValue()](#getDateTimeValue) | Gets the stored datetime value. |
 | [getDoubleValue()](#getDoubleValue) | Gets the stored numeric value. |
 | [getTimeValue()](#getTimeValue) | Gets the stored time value. |
 | [getValueType()](#getValueType) | Gets the type of the Y value stored in the object. |
 | [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### equals(Object obj) {#equals-java.lang.Object}
 ```
 public boolean equals(Object obj)
@@ -101,16 +94,6 @@ Creates a [ChartYValue](../../com.aspose.words/chartyvalue/) instance of the [Ch
 
 **Returns:**
 [ChartYValue](../../com.aspose.words/chartyvalue/)
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getDateTimeValue() {#getDateTimeValue}
 ```
 public Date getDateTimeValue()
@@ -161,64 +144,3 @@ public int hashCode()
 
 **Returns:**
 int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
-

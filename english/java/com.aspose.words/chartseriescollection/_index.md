@@ -75,19 +75,10 @@ Shows how to add and remove series data in a chart.
 | [add(String seriesName, String[] categories, double[] values)](#add-java.lang.String-java.lang.String---double) | Adds new [ChartSeries](../../com.aspose.words/chartseries/) to this collection. |
 | [add(String seriesName, Date[] dates, double[] values)](#add-java.lang.String-java.util.Date---double) | Adds new [ChartSeries](../../com.aspose.words/chartseries/) to this collection. |
 | [clear()](#clear) | Removes all [ChartSeries](../../com.aspose.words/chartseries/) from this collection. |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [get(int index)](#get-int) | Returns a [ChartSeries](../../com.aspose.words/chartseries/) at the specified index. |
-| [getClass()](#getClass) |  |
 | [getCount()](#getCount) | Returns the number of [ChartSeries](../../com.aspose.words/chartseries/) in this collection. |
-| [hashCode()](#hashCode) |  |
 | [iterator()](#iterator) | Returns an enumerator object. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [removeAt(int index)](#removeAt-int) | Removes a [ChartSeries](../../com.aspose.words/chartseries/) at the specified index. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### add(String seriesName, double[] xValues, double[] yValues) {#add-java.lang.String-double---double}
 ```
 public ChartSeries add(String seriesName, double[] xValues, double[] yValues)
@@ -552,21 +543,6 @@ Shows how to add and remove series data in a chart.
  
 ```
 
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### get(int index) {#get-int}
 ```
 public ChartSeries get(int index)
@@ -635,16 +611,6 @@ Shows how to add and remove series data in a chart.
 
 **Returns:**
 [ChartSeries](../../com.aspose.words/chartseries/) - A [ChartSeries](../../com.aspose.words/chartseries/) at the specified index.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getCount() {#getCount}
 ```
 public int getCount()
@@ -698,16 +664,6 @@ Shows how to add and remove series data in a chart.
 
 **Returns:**
 int - The number of [ChartSeries](../../com.aspose.words/chartseries/) in this collection.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### iterator() {#iterator}
 ```
 public Iterator iterator()
@@ -761,22 +717,6 @@ Shows how to add and remove series data in a chart.
 
 **Returns:**
 java.util.Iterator
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### removeAt(int index) {#removeAt-int}
 ```
 public void removeAt(int index)
@@ -832,49 +772,4 @@ Shows how to add and remove series data in a chart.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index of the [ChartSeries](../../com.aspose.words/chartseries/) to remove. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

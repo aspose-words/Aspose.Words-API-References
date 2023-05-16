@@ -74,46 +74,12 @@ Shows how to set custom colors and fonts for themes.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getClass()](#getClass) |  |
 | [getComplexScript()](#getComplexScript) | Specifies font name for ComplexScript characters. |
 | [getEastAsian()](#getEastAsian) | Specifies font name for EastAsian characters. |
 | [getLatin()](#getLatin) | Specifies font name for Latin characters. |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setComplexScript(String value)](#setComplexScript-java.lang.String) | Specifies font name for ComplexScript characters. |
 | [setEastAsian(String value)](#setEastAsian-java.lang.String) | Specifies font name for EastAsian characters. |
 | [setLatin(String value)](#setLatin-java.lang.String) | Specifies font name for Latin characters. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getComplexScript() {#getComplexScript}
 ```
 public String getComplexScript()
@@ -285,32 +251,6 @@ Shows how to set custom colors and fonts for themes.
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setComplexScript(String value) {#setComplexScript-java.lang.String}
 ```
 public void setComplexScript(String value)
@@ -490,49 +430,4 @@ Shows how to set custom colors and fonts for themes.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | The corresponding java.lang.String value. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

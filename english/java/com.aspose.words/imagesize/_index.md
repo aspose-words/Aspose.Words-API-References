@@ -79,21 +79,12 @@ Shows how to resize a shape with an image.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getClass()](#getClass) |  |
 | [getHeightPixels()](#getHeightPixels) | Gets the height of the image in pixels. |
 | [getHeightPoints()](#getHeightPoints) | Gets the height of the image in points. |
 | [getHorizontalResolution()](#getHorizontalResolution) | Gets the horizontal resolution in DPI. |
 | [getVerticalResolution()](#getVerticalResolution) | Gets the vertical resolution in DPI. |
 | [getWidthPixels()](#getWidthPixels) | Gets the width of the image in pixels. |
 | [getWidthPoints()](#getWidthPoints) | Gets the width of the image in points. |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### ImageSize(int widthPixels, int heightPixels) {#ImageSize-int-int}
 ```
 public ImageSize(int widthPixels, int heightPixels)
@@ -124,31 +115,6 @@ Initializes width, height and resolution to the given values.
 | horizontalResolution | double | Horizontal resolution in DPI. |
 | verticalResolution | double | Vertical resolution in DPI. |
 
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getHeightPixels() {#getHeightPixels}
 ```
 public int getHeightPixels()
@@ -435,74 +401,3 @@ Shows how to resize a shape with an image.
 
 **Returns:**
 double - The width of the image in points.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
-

@@ -49,24 +49,15 @@ Shows how to use a font file in the local file system as a font source.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getAvailableFonts()](#getAvailableFonts) | Returns list of fonts available via this source. |
 | [getCacheKey()](#getCacheKey) | The key of this source in the cache. |
-| [getClass()](#getClass) |  |
 | [getFilePath()](#getFilePath) | Path to the font file. |
 | [getFontDataInternal()](#getFontDataInternal) |  |
 | [getPriority()](#getPriority) | Returns the font source priority. |
 | [getPriorityInternal()](#getPriorityInternal) |  |
 | [getType()](#getType) | Returns the type of the font source. |
 | [getWarningCallback()](#getWarningCallback) | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.words.IWarningCallback) | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### FileFontSource(String filePath) {#FileFontSource-java.lang.String}
 ```
 public FileFontSource(String filePath)
@@ -198,21 +189,6 @@ Shows how to speed up the font cache initialization process.
 | priority | int | Font source priority. See the [FontSourceBase.getPriority()](../../com.aspose.words/fontsourcebase/\#getPriority) property description for more information. |
 | cacheKey | java.lang.String | The key of this source in the cache. See [getCacheKey()](../../com.aspose.words/filefontsource/\#getCacheKey) property description for more information. |
 
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### getAvailableFonts() {#getAvailableFonts}
 ```
 public ArrayList getAvailableFonts()
@@ -257,16 +233,6 @@ If key is not specified then [getFilePath()](../../com.aspose.words/filefontsour
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getFilePath() {#getFilePath}
 ```
 public String getFilePath()
@@ -424,32 +390,6 @@ Shows how to call warning callback when the font sources working with.
 
 **Returns:**
 [IWarningCallback](../../com.aspose.words/iwarningcallback/) - The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback/) value.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setWarningCallback(IWarningCallback value) {#setWarningCallback-com.aspose.words.IWarningCallback}
 ```
 public void setWarningCallback(IWarningCallback value)
@@ -499,49 +439,4 @@ Shows how to call warning callback when the font sources working with.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [IWarningCallback](../../com.aspose.words/iwarningcallback/) | The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback/) value. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

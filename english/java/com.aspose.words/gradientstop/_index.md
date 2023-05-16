@@ -30,23 +30,14 @@ To learn more, visit the [ Working with Graphic Elements ][Working with Graphic 
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getBaseColor()](#getBaseColor) | Gets a value representing the color of the gradient stop without any modifiers. |
-| [getClass()](#getClass) |  |
 | [getColor()](#getColor) | Gets a value representing the color of the gradient stop. |
 | [getPosition()](#getPosition) | Gets a value representing the position of a stop within the gradient expressed as a percent in range 0.0 to 1.0. |
 | [getTransparency()](#getTransparency) | Gets a value representing the transparency of the gradient fill expressed as a percent in range 0.0 to 1.0. |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [remove()](#remove) | Removes the gradient stop from the parent [GradientStopCollection](../../com.aspose.words/gradientstopcollection/). |
 | [setColor(Color value)](#setColor-java.awt.Color) | Sets a value representing the color of the gradient stop. |
 | [setPosition(double value)](#setPosition-double) | Sets a value representing the position of a stop within the gradient expressed as a percent in range 0.0 to 1.0. |
 | [setTransparency(double value)](#setTransparency-double) | Sets a value representing the transparency of the gradient fill expressed as a percent in range 0.0 to 1.0. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### GradientStop(Color color, double position) {#GradientStop-java.awt.Color-double}
 ```
 public GradientStop(Color color, double position)
@@ -180,21 +171,6 @@ Shows how to add gradient stops to the gradient fill.
 | position | double | Represents the position of a stop within the gradient expressed as a percent in range 0.0 to 1.0. |
 | transparency | double | Represents the transparency of a stop within the gradient expressed as a percent in range 0.0 to 1.0. |
 
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### getBaseColor() {#getBaseColor}
 ```
 public Color getBaseColor()
@@ -257,16 +233,6 @@ Shows how to add gradient stops to the gradient fill.
 
 **Returns:**
 java.awt.Color - A value representing the color of the gradient stop without any modifiers.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getColor() {#getColor}
 ```
 public Color getColor()
@@ -453,32 +419,6 @@ Shows how to add gradient stops to the gradient fill.
 
 **Returns:**
 double - A value representing the transparency of the gradient fill expressed as a percent in range 0.0 to 1.0.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### remove() {#remove}
 ```
 public void remove()
@@ -733,49 +673,4 @@ Shows how to add gradient stops to the gradient fill.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double | A value representing the transparency of the gradient fill expressed as a percent in range 0.0 to 1.0. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

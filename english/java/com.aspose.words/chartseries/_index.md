@@ -102,10 +102,8 @@ Shows how to apply labels to data points in a line chart.
 | [add(ChartXValue xValue, ChartYValue yValue, double bubbleSize)](#add-com.aspose.words.ChartXValue-com.aspose.words.ChartYValue-double) | Adds the specified X value, Y value and bubble size to the chart series. |
 | [clear()](#clear) | Removes all data values from the chart series. |
 | [clearValues()](#clearValues) | Removes all data values from the chart series with preserving the format of the data points and data labels. |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getBubble3D()](#getBubble3D) | Specifies whether the bubbles in Bubble chart should have a 3-D effect applied to them. |
 | [getBubbleSizes()](#getBubbleSizes) | Gets a collection of bubble sizes for this chart series. |
-| [getClass()](#getClass) |  |
 | [getDataLabels()](#getDataLabels) | Specifies the settings for the data labels for the entire series. |
 | [getDataPoints()](#getDataPoints) | Returns a collection of formatting objects for all data points in this series. |
 | [getExplosion()](#getExplosion) | Specifies the amount the data point shall be moved from the center of the pie. |
@@ -120,22 +118,15 @@ Shows how to apply labels to data points in a line chart.
 | [getYValues()](#getYValues) | Gets a collection of Y values for this chart series. |
 | [hasDataLabels()](#hasDataLabels) | Gets a flag indicating whether data labels are displayed for the series. |
 | [hasDataLabels(boolean value)](#hasDataLabels-boolean) | Sets a flag indicating whether data labels are displayed for the series. |
-| [hashCode()](#hashCode) |  |
 | [insert(int index, ChartXValue xValue)](#insert-int-com.aspose.words.ChartXValue) | Inserts the specified X value into the chart series at the specified index. |
 | [insert(int index, ChartXValue xValue, ChartYValue yValue)](#insert-int-com.aspose.words.ChartXValue-com.aspose.words.ChartYValue) | Inserts the specified X and Y values into the chart series at the specified index. |
 | [insert(int index, ChartXValue xValue, ChartYValue yValue, double bubbleSize)](#insert-int-com.aspose.words.ChartXValue-com.aspose.words.ChartYValue-double) | Inserts the specified X value, Y value and bubble size into the chart series at the specified index. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [remove(int index)](#remove-int) | Removes the X value, Y value, and bubble size, if supported, from the chart series at the specified index. |
 | [setBubble3D(boolean value)](#setBubble3D-boolean) | Specifies whether the bubbles in Bubble chart should have a 3-D effect applied to them. |
 | [setExplosion(int value)](#setExplosion-int) | Specifies the amount the data point shall be moved from the center of the pie. |
 | [setInvertIfNegative(boolean value)](#setInvertIfNegative-boolean) | Specifies whether the parent element shall inverts its colors if the value is negative. |
 | [setName(String value)](#setName-java.lang.String) | Sets the name of the series, if name is not set explicitly it is generated using index. |
 | [setSmooth(boolean value)](#setSmooth-boolean) | Allows to specify whether the line connecting the points on the chart shall be smoothed using Catmull-Rom splines. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### add(ChartXValue xValue) {#add-com.aspose.words.ChartXValue}
 ```
 public void add(ChartXValue xValue)
@@ -194,21 +185,6 @@ public void clearValues()
 
 Removes all data values from the chart series with preserving the format of the data points and data labels.
 
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### getBubble3D() {#getBubble3D}
 ```
 public boolean getBubble3D()
@@ -229,16 +205,6 @@ Gets a collection of bubble sizes for this chart series.
 
 **Returns:**
 [BubbleSizeCollection](../../com.aspose.words/bubblesizecollection/) - A collection of bubble sizes for this chart series.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getDataLabels() {#getDataLabels}
 ```
 public ChartDataLabelCollection getDataLabels()
@@ -681,16 +647,6 @@ Sets a flag indicating whether data labels are displayed for the series.
 | --- | --- | --- |
 | value | boolean | A flag indicating whether data labels are displayed for the series. |
 
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### insert(int index, ChartXValue xValue) {#insert-int-com.aspose.words.ChartXValue}
 ```
 public void insert(int index, ChartXValue xValue)
@@ -747,22 +703,6 @@ The corresponding data point with default formatting will be inserted into the d
 | xValue | [ChartXValue](../../com.aspose.words/chartxvalue/) |  |
 | yValue | [ChartYValue](../../com.aspose.words/chartyvalue/) |  |
 | bubbleSize | double |  |
-
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
 
 ### remove(int index) {#remove-int}
 ```
@@ -966,49 +906,4 @@ Shows how to work with data points on a line chart.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

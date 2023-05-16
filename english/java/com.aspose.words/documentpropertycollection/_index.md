@@ -99,22 +99,13 @@ Shows how to work with a document's custom properties.
 | --- | --- |
 | [clear()](#clear) | Removes all properties from the collection. |
 | [contains(String name)](#contains-java.lang.String) | Returns  true  if a property with the specified name exists in the collection. |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [get(int index)](#get-int) | Returns a [DocumentProperty](../../com.aspose.words/documentproperty/) object by index. |
 | [get(String name)](#get-java.lang.String) | Provides access to the collection items. |
-| [getClass()](#getClass) |  |
 | [getCount()](#getCount) | Gets number of items in the collection. |
-| [hashCode()](#hashCode) |  |
 | [indexOf(String name)](#indexOf-java.lang.String) | Gets the index of a property by name. |
 | [iterator()](#iterator) | Returns an iterator object that can be used to iterate over all items in the collection. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [remove(String name)](#remove-java.lang.String) | Removes a property with the specified name from the collection. |
 | [removeAt(int index)](#removeAt-int) | Removes a property at the specified index. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### DocumentPropertyCollection() {#DocumentPropertyCollection}
 ```
 public DocumentPropertyCollection()
@@ -262,21 +253,6 @@ Shows how to work with a document's custom properties.
 
 **Returns:**
 boolean -  true  if the property exists in the collection;  false  otherwise.
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### get(int index) {#get-int}
 ```
 public DocumentProperty get(int index)
@@ -352,16 +328,6 @@ Shows how to create a custom document property which contains a date and time.
 
 **Returns:**
 [DocumentProperty](../../com.aspose.words/documentproperty/) - The corresponding [DocumentProperty](../../com.aspose.words/documentproperty/) value.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getCount() {#getCount}
 ```
 public int getCount()
@@ -395,16 +361,6 @@ Shows how to work with custom document properties.
 
 **Returns:**
 int - Number of items in the collection.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### indexOf(String name) {#indexOf-java.lang.String}
 ```
 public int indexOf(String name)
@@ -552,22 +508,6 @@ Shows how to work with a document's custom properties.
 
 **Returns:**
 java.util.Iterator
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### remove(String name) {#remove-java.lang.String}
 ```
 public void remove(String name)
@@ -715,49 +655,4 @@ Shows how to work with a document's custom properties.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | The zero based index. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

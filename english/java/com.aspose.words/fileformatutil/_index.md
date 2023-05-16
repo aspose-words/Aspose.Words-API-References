@@ -43,21 +43,12 @@ Shows how to detect encoding in an html file.
 | [contentTypeToSaveFormat(String contentType)](#contentTypeToSaveFormat-java.lang.String) | Converts IANA content type into a save format enumerated value. |
 | [detectFileFormat(InputStream stream)](#detectFileFormat-java.io.InputStream) |  |
 | [detectFileFormat(String fileName)](#detectFileFormat-java.lang.String) | Detects and returns the information about a format of a document. |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [extensionToSaveFormat(String extension)](#extensionToSaveFormat-java.lang.String) | Converts a file name extension into a [SaveFormat](../../com.aspose.words/saveformat/) value. |
-| [getClass()](#getClass) |  |
-| [hashCode()](#hashCode) |  |
 | [imageTypeToExtension(int imageType)](#imageTypeToExtension-int) |  |
 | [loadFormatToExtension(int loadFormat)](#loadFormatToExtension-int) |  |
 | [loadFormatToSaveFormat(int loadFormat)](#loadFormatToSaveFormat-int) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [saveFormatToExtension(int saveFormat)](#saveFormatToExtension-int) |  |
 | [saveFormatToLoadFormat(int saveFormat)](#saveFormatToLoadFormat-int) |  |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### contentTypeToLoadFormat(String contentType) {#contentTypeToLoadFormat-java.lang.String}
 ```
 public static int contentTypeToLoadFormat(String contentType)
@@ -171,21 +162,6 @@ Shows how to use the FileFormatUtil class to detect the document format and pres
 
 **Returns:**
 [FileFormatInfo](../../com.aspose.words/fileformatinfo/) - A [FileFormatInfo](../../com.aspose.words/fileformatinfo/) object that contains the detected information.
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### extensionToSaveFormat(String extension) {#extensionToSaveFormat-java.lang.String}
 ```
 public static int extensionToSaveFormat(String extension)
@@ -198,26 +174,6 @@ Converts a file name extension into a [SaveFormat](../../com.aspose.words/savefo
 | Parameter | Type | Description |
 | --- | --- | --- |
 | extension | java.lang.String | The file extension. Can be with or without a leading dot. Case-insensitive. |
-
-**Returns:**
-int
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
 
 **Returns:**
 int
@@ -266,22 +222,6 @@ public static int loadFormatToSaveFormat(int loadFormat)
 
 **Returns:**
 int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### saveFormatToExtension(int saveFormat) {#saveFormatToExtension-int}
 ```
 public static String saveFormatToExtension(int saveFormat)
@@ -312,48 +252,3 @@ public static int saveFormatToLoadFormat(int saveFormat)
 
 **Returns:**
 int
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
-

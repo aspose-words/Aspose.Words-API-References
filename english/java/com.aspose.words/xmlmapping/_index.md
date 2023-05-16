@@ -60,21 +60,12 @@ Shows how to set XML mappings for custom XML parts.
 | Method | Description |
 | --- | --- |
 | [delete()](#delete) | Deletes mapping of the parent structured document to XML data. |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getClass()](#getClass) |  |
 | [getCustomXmlPart()](#getCustomXmlPart) | Returns the custom XML data part to which the parent structured document tag is mapped. |
 | [getPrefixMappings()](#getPrefixMappings) | Returns XML namespace prefix mappings to evaluate the [getXPath()](../../com.aspose.words/xmlmapping/\#getXPath). |
 | [getStoreItemId()](#getStoreItemId) | Specifies the custom XML data identifier for the custom XML data part which shall be used to evaluate the [getXPath()](../../com.aspose.words/xmlmapping/\#getXPath) expression. |
 | [getXPath()](#getXPath) | Returns the XPath expression, which is evaluated to find the custom XML node that is mapped to the parent structured document tag. |
-| [hashCode()](#hashCode) |  |
 | [isMapped()](#isMapped) | Returns  true  if the parent structured document tag is successfully mapped to XML data. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setMapping(CustomXmlPart customXmlPart, String xPath, String prefixMapping)](#setMapping-com.aspose.words.CustomXmlPart-java.lang.String-java.lang.String) | Sets a mapping between the parent structured document tag and an XML node of a custom XML data part. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### delete() {#delete}
 ```
 public void delete()
@@ -115,31 +106,6 @@ Shows how to set XML mappings for custom XML parts.
  
 ```
 
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getCustomXmlPart() {#getCustomXmlPart}
 ```
 public CustomXmlPart getCustomXmlPart()
@@ -295,16 +261,6 @@ Shows how to set XML mappings for custom XML parts.
 
 **Returns:**
 java.lang.String - The XPath expression, which is evaluated to find the custom XML node that is mapped to the parent structured document tag.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### isMapped() {#isMapped}
 ```
 public boolean isMapped()
@@ -347,22 +303,6 @@ Shows how to set XML mappings for custom XML parts.
 
 **Returns:**
 boolean -  true  if the parent structured document tag is successfully mapped to XML data.
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setMapping(CustomXmlPart customXmlPart, String xPath, String prefixMapping) {#setMapping-com.aspose.words.CustomXmlPart-java.lang.String-java.lang.String}
 ```
 public boolean setMapping(CustomXmlPart customXmlPart, String xPath, String prefixMapping)
@@ -444,48 +384,3 @@ Shows how to create a structured document tag with custom XML data.
 
 **Returns:**
 boolean - A flag indicating whether the parent structured document tag is successfully mapped to the XML node.
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
-

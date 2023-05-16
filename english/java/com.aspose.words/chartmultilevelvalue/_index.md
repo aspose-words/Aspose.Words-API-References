@@ -27,17 +27,10 @@ Represents a value for charts that display multilevel data.
 | Method | Description |
 | --- | --- |
 | [equals(Object obj)](#equals-java.lang.Object) | Gets a flag indicating whether the specified object is equal to the current multilevel data object. |
-| [getClass()](#getClass) |  |
 | [getLevel1()](#getLevel1) | Gets the name of the chart top level that this value refers to. |
 | [getLevel2()](#getLevel2) | Gets the name of the chart intermediate level that this value refers to. |
 | [getLevel3()](#getLevel3) | Gets the name of the chart bottom level that this value refers to. |
 | [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### ChartMultilevelValue(String level1, String level2, String level3) {#ChartMultilevelValue-java.lang.String-java.lang.String-java.lang.String}
 ```
 public ChartMultilevelValue(String level1, String level2, String level3)
@@ -95,16 +88,6 @@ Gets a flag indicating whether the specified object is equal to the current mult
 
 **Returns:**
 boolean
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getLevel1() {#getLevel1}
 ```
 public String getLevel1()
@@ -145,64 +128,3 @@ public int hashCode()
 
 **Returns:**
 int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
-

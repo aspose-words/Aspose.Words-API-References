@@ -74,7 +74,6 @@ Shows how to construct an Aspose.Words document by hand.
 | Method | Description |
 | --- | --- |
 | [clearFormatting()](#clearFormatting) | Resets to default paragraph formatting. |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [fetchInheritedBorderAttr(int key)](#fetchInheritedBorderAttr-int) |  |
 | [fetchInheritedShadingAttr(int key)](#fetchInheritedShadingAttr-int) |  |
 | [getAddSpaceBetweenFarEastAndAlpha()](#getAddSpaceBetweenFarEastAndAlpha) | Gets a flag indicating whether inter-character spacing is automatically adjusted between regions of Latin text and regions of East Asian text in the current paragraph. |
@@ -85,7 +84,6 @@ Shows how to construct an Aspose.Words document by hand.
 | [getCharacterUnitFirstLineIndent()](#getCharacterUnitFirstLineIndent) | Gets the value (in characters) for the first-line or hanging indent. |
 | [getCharacterUnitLeftIndent()](#getCharacterUnitLeftIndent) | Gets the left indent value (in characters) for the specified paragraphs. |
 | [getCharacterUnitRightIndent()](#getCharacterUnitRightIndent) | Gets the right indent value (in characters) for the specified paragraphs. |
-| [getClass()](#getClass) |  |
 | [getDirectBorderAttr(int key)](#getDirectBorderAttr-int) |  |
 | [getDropCapPosition()](#getDropCapPosition) | Gets the position for a drop cap text. |
 | [getFarEastLineBreakControl()](#getFarEastLineBreakControl) | Gets a flag indicating whether East Asian line-breaking rules are applied to the current paragraph. |
@@ -117,11 +115,8 @@ Shows how to construct an Aspose.Words document by hand.
 | [getTabStops()](#getTabStops) | Gets the collection of custom tab stops defined for this object. |
 | [getWidowControl()](#getWidowControl) | True if the first and last lines in the paragraph are to remain on the same page as the rest of the paragraph. |
 | [getWordWrap()](#getWordWrap) | If this property is  false , Latin text in the middle of a word can be wrapped for the current paragraph. |
-| [hashCode()](#hashCode) |  |
 | [isHeading()](#isHeading) | True when the paragraph style is one of the built-in Heading styles. |
 | [isListItem()](#isListItem) | True when the paragraph is an item in a bulleted or numbered list. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setAddSpaceBetweenFarEastAndAlpha(boolean value)](#setAddSpaceBetweenFarEastAndAlpha-boolean) | Sets a flag indicating whether inter-character spacing is automatically adjusted between regions of Latin text and regions of East Asian text in the current paragraph. |
 | [setAddSpaceBetweenFarEastAndDigit(boolean value)](#setAddSpaceBetweenFarEastAndDigit-boolean) | Sets a flag indicating whether inter-character spacing is automatically adjusted between regions of numbers and regions of East Asian text in the current paragraph. |
 | [setAlignment(int value)](#setAlignment-int) | Sets text alignment for the paragraph. |
@@ -158,10 +153,6 @@ Shows how to construct an Aspose.Words document by hand.
 | [setSuppressLineNumbers(boolean value)](#setSuppressLineNumbers-boolean) | Specifies whether the current paragraph's lines should be exempted from line numbering which is applied in the parent section. |
 | [setWidowControl(boolean value)](#setWidowControl-boolean) | True if the first and last lines in the paragraph are to remain on the same page as the rest of the paragraph. |
 | [setWordWrap(boolean value)](#setWordWrap-boolean) | If this property is  false , Latin text in the middle of a word can be wrapped for the current paragraph. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### clearFormatting() {#clearFormatting}
 ```
 public void clearFormatting()
@@ -227,21 +218,6 @@ Shows how to nest a list inside another list.
  
 ```
 
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### fetchInheritedBorderAttr(int key) {#fetchInheritedBorderAttr-int}
 ```
 public Object fetchInheritedBorderAttr(int key)
@@ -738,16 +714,6 @@ Shows how to change paragraph spacing and indents.
 
 **Returns:**
 double - The right indent value (in characters) for the specified paragraphs.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getDirectBorderAttr(int key) {#getDirectBorderAttr-int}
 ```
 public Object getDirectBorderAttr(int key)
@@ -2001,16 +1967,6 @@ Shows how to set special properties for Asian typography.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### isHeading() {#isHeading}
 ```
 public boolean isHeading()
@@ -2084,22 +2040,6 @@ Shows how to nest a list inside another list.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setAddSpaceBetweenFarEastAndAlpha(boolean value) {#setAddSpaceBetweenFarEastAndAlpha-boolean}
 ```
 public void setAddSpaceBetweenFarEastAndAlpha(boolean value)
@@ -3819,49 +3759,4 @@ Shows how to set special properties for Asian typography.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

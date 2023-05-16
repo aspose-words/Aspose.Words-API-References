@@ -86,9 +86,7 @@ Shows how to create an ASK field, and set its properties.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getBookmarkName()](#getBookmarkName) | Gets the name of the bookmark. |
-| [getClass()](#getClass) |  |
 | [getDefaultResponse()](#getDefaultResponse) | Gets default user response (initial value contained in the prompt window). |
 | [getDisplayResult()](#getDisplayResult) | Gets the text that represents the displayed field result. |
 | [getEnd()](#getEnd) | Gets the node that represents the field end. |
@@ -103,13 +101,10 @@ Shows how to create an ASK field, and set its properties.
 | [getStart()](#getStart) | Gets the node that represents the start of the field. |
 | [getSwitchType(String switchName)](#getSwitchType-java.lang.String) |  |
 | [getType()](#getType) | Gets the Microsoft Word field type. |
-| [hashCode()](#hashCode) |  |
 | [isDirty()](#isDirty) | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [isDirty(boolean value)](#isDirty-boolean) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [isLocked()](#isLocked) | Gets whether the field is locked (should not recalculate its result). |
 | [isLocked(boolean value)](#isLocked-boolean) | Sets whether the field is locked (should not recalculate its result). |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [remove()](#remove) | Removes the field from the document. |
 | [setBookmarkName(String value)](#setBookmarkName-java.lang.String) | Sets the name of the bookmark. |
 | [setDefaultResponse(String value)](#setDefaultResponse-java.lang.String) | Sets default user response (initial value contained in the prompt window). |
@@ -117,28 +112,9 @@ Shows how to create an ASK field, and set its properties.
 | [setPromptOnceOnMailMerge(boolean value)](#setPromptOnceOnMailMerge-boolean) | Sets whether the user response should be recieved once per a mail merge operation. |
 | [setPromptText(String value)](#setPromptText-java.lang.String) | Sets the prompt text (the title of the prompt window). |
 | [setResult(String value)](#setResult-java.lang.String) | Sets text that is between the field separator and field end. |
-| [toString()](#toString) |  |
 | [unlink()](#unlink) | Performs the field unlink. |
 | [update()](#update) | Performs the field update. |
 | [update(boolean ignoreMergeFormat)](#update-boolean) | Performs a field update. |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### getBookmarkName() {#getBookmarkName}
 ```
 public String getBookmarkName()
@@ -207,16 +183,6 @@ Shows how to create an ASK field, and set its properties.
 
 **Returns:**
 java.lang.String - The name of the bookmark.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getDefaultResponse() {#getDefaultResponse}
 ```
 public String getDefaultResponse()
@@ -1039,16 +1005,6 @@ Shows how to insert a field into a document using a field code.
 
 **Returns:**
 int - The Microsoft Word field type. The returned value is one of [FieldType](../../com.aspose.words/fieldtype/) constants.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### isDirty() {#isDirty}
 ```
 public boolean isDirty()
@@ -1256,22 +1212,6 @@ Shows how to work with a FieldStart node.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | Whether the field is locked (should not recalculate its result). |
-
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
 
 ### remove() {#remove}
 ```
@@ -1739,16 +1679,6 @@ Shows how to insert a field into a document using a field code.
 | --- | --- | --- |
 | value | java.lang.String | Text that is between the field separator and field end. |
 
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
 ### unlink() {#unlink}
 ```
 public boolean unlink()
@@ -1938,39 +1868,4 @@ Shows how to preserve or discard INCLUDEPICTURE fields when loading a document.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | ignoreMergeFormat | boolean | If  true  then direct field result formatting is abandoned, regardless of the MERGEFORMAT switch, otherwise normal update is performed. |
-
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

@@ -24,48 +24,14 @@ To learn more, visit the [ Work with Office Add-ins ][Work with Office Add-ins] 
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getClass()](#getClass) |  |
 | [getId()](#getId) | Identifier associated with the web extension within a catalog provider. |
 | [getStore()](#getStore) | Specifies the instance of the marketplace where the web extension is stored. |
 | [getStoreType()](#getStoreType) | Specifies the type of marketplace. |
 | [getVersion()](#getVersion) | Specifies the version of the web extension. |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setId(String value)](#setId-java.lang.String) | Identifier associated with the web extension within a catalog provider. |
 | [setStore(String value)](#setStore-java.lang.String) | Specifies the instance of the marketplace where the web extension is stored. |
 | [setStoreType(int value)](#setStoreType-int) | Specifies the type of marketplace. |
 | [setVersion(String value)](#setVersion-java.lang.String) | Specifies the version of the web extension. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getId() {#getId}
 ```
 public String getId()
@@ -282,32 +248,6 @@ Shows how to add a web extension to a document.
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setId(String value) {#setId-java.lang.String}
 ```
 public void setId(String value)
@@ -535,49 +475,4 @@ Shows how to add a web extension to a document.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | The corresponding java.lang.String value. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

@@ -31,10 +31,8 @@ To learn more, visit the [ Specify Load Options ][Specify Load Options] document
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getBaseUri()](#getBaseUri) | Gets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. |
 | [getBlockImportMode()](#getBlockImportMode) | Gets a value that specifies how properties of block-level elements are imported. |
-| [getClass()](#getClass) |  |
 | [getConvertMetafilesToPng()](#getConvertMetafilesToPng) | Gets whether to convert metafile ( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) images to **F:Aspose.FileFormat.Png** image format. |
 | [getConvertShapeToOfficeMath()](#getConvertShapeToOfficeMath) | Gets whether to convert shapes with EquationXML to Office Math objects. |
 | [getConvertSvgToEmf()](#getConvertSvgToEmf) | Gets a value indicating whether to convert loaded SVG images to the EMF format. |
@@ -55,9 +53,6 @@ To learn more, visit the [ Specify Load Options ][Specify Load Options] document
 | [getUpdateDirtyFields()](#getUpdateDirtyFields) | Specifies whether to update the fields with the  dirty  attribute. |
 | [getWarningCallback()](#getWarningCallback) | Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss. |
 | [getWebRequestTimeout()](#getWebRequestTimeout) | The number of milliseconds to wait before the web request times out. |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setBaseUri(String value)](#setBaseUri-java.lang.String) | Sets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. |
 | [setBlockImportMode(int value)](#setBlockImportMode-int) | Sets a value that specifies how properties of block-level elements are imported. |
 | [setConvertMetafilesToPng(boolean value)](#setConvertMetafilesToPng-boolean) | Sets whether to convert metafile ( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) images to **F:Aspose.FileFormat.Png** image format. |
@@ -79,10 +74,6 @@ To learn more, visit the [ Specify Load Options ][Specify Load Options] document
 | [setUpdateDirtyFields(boolean value)](#setUpdateDirtyFields-boolean) | Specifies whether to update the fields with the  dirty  attribute. |
 | [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.words.IWarningCallback) | Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss. |
 | [setWebRequestTimeout(int value)](#setWebRequestTimeout-int) | The number of milliseconds to wait before the web request times out. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### HtmlLoadOptions() {#HtmlLoadOptions}
 ```
 public HtmlLoadOptions()
@@ -163,21 +154,6 @@ Initializes a new instance of this class.
 | password | java.lang.String |  |
 | baseUri | java.lang.String |  |
 
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### getBaseUri() {#getBaseUri}
 ```
 public String getBaseUri()
@@ -250,16 +226,6 @@ Shows how properties of block-level elements are imported from HTML-based docume
 
 **Returns:**
 int - A value that specifies how properties of block-level elements are imported. The returned value is one of [BlockImportMode](../../com.aspose.words/blockimportmode/) constants.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getConvertMetafilesToPng() {#getConvertMetafilesToPng}
 ```
 public boolean getConvertMetafilesToPng()
@@ -1030,32 +996,6 @@ The number of milliseconds that Aspose.Words waits for a response, when loading 
 
 **Returns:**
 int - The corresponding  int  value.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setBaseUri(String value) {#setBaseUri-java.lang.String}
 ```
 public void setBaseUri(String value)
@@ -1932,49 +1872,4 @@ The number of milliseconds that Aspose.Words waits for a response, when loading 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | The corresponding  int  value. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

@@ -62,7 +62,6 @@ Shows how to apply and revert page setup settings to sections in a document.
 | Method | Description |
 | --- | --- |
 | [clearFormatting()](#clearFormatting) | Resets page setup to default paper size, margins and orientation. |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [fetchInheritedBorderAttr(int key)](#fetchInheritedBorderAttr-int) |  |
 | [getBidi()](#getBidi) | Specifies that this section contains bidirectional (complex scripts) text. |
 | [getBorderAlwaysInFront()](#getBorderAlwaysInFront) | Specifies where the page border is positioned relative to intersecting texts and objects. |
@@ -74,7 +73,6 @@ Shows how to apply and revert page setup settings to sections in a document.
 | [getBottomMargin()](#getBottomMargin) | Gets the distance (in points) between the bottom edge of the page and the bottom boundary of the body text. |
 | [getChapterPageSeparator()](#getChapterPageSeparator) | Gets the separator character that appears between the chapter number and the page number. |
 | [getCharactersPerLine()](#getCharactersPerLine) | Gets the number of characters per line in the document grid. |
-| [getClass()](#getClass) |  |
 | [getDifferentFirstPageHeaderFooter()](#getDifferentFirstPageHeaderFooter) | True if a different header or footer is used on the first page. |
 | [getDirectBorderAttr(int key)](#getDirectBorderAttr-int) |  |
 | [getEndnoteOptions()](#getEndnoteOptions) | Provides options that control numbering and positioning of endnotes in this section. |
@@ -111,9 +109,6 @@ Shows how to apply and revert page setup settings to sections in a document.
 | [getTextOrientation()](#getTextOrientation) | Allows to specify [getTextOrientation()](../../com.aspose.words/pagesetup/\#getTextOrientation) / [setTextOrientation(int)](../../com.aspose.words/pagesetup/\#setTextOrientation-int) for the whole page. |
 | [getTopMargin()](#getTopMargin) | Gets the distance (in points) between the top edge of the page and the top boundary of the body text. |
 | [getVerticalAlignment()](#getVerticalAlignment) | Gets the vertical alignment of text on each page in a document or section. |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setBidi(boolean value)](#setBidi-boolean) | Specifies that this section contains bidirectional (complex scripts) text. |
 | [setBorderAlwaysInFront(boolean value)](#setBorderAlwaysInFront-boolean) | Specifies where the page border is positioned relative to intersecting texts and objects. |
 | [setBorderAppliesTo(int value)](#setBorderAppliesTo-int) | Specifies which pages the page border is printed on. |
@@ -156,10 +151,6 @@ Shows how to apply and revert page setup settings to sections in a document.
 | [setTextOrientation(int value)](#setTextOrientation-int) | Allows to specify [getTextOrientation()](../../com.aspose.words/pagesetup/\#getTextOrientation) / [setTextOrientation(int)](../../com.aspose.words/pagesetup/\#setTextOrientation-int) for the whole page. |
 | [setTopMargin(double value)](#setTopMargin-double) | Sets the distance (in points) between the top edge of the page and the top boundary of the body text. |
 | [setVerticalAlignment(int value)](#setVerticalAlignment-int) | Sets the vertical alignment of text on each page in a document or section. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### clearFormatting() {#clearFormatting}
 ```
 public void clearFormatting()
@@ -201,21 +192,6 @@ Shows how to apply and revert page setup settings to sections in a document.
  
 ```
 
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### fetchInheritedBorderAttr(int key) {#fetchInheritedBorderAttr-int}
 ```
 public Object fetchInheritedBorderAttr(int key)
@@ -597,16 +573,6 @@ Shows how to specify a for the number of characters that each line may have.
 
 **Returns:**
 int - The number of characters per line in the document grid.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getDifferentFirstPageHeaderFooter() {#getDifferentFirstPageHeaderFooter}
 ```
 public boolean getDifferentFirstPageHeaderFooter()
@@ -2546,32 +2512,6 @@ Shows how to apply and revert page setup settings to sections in a document.
 
 **Returns:**
 int - The vertical alignment of text on each page in a document or section. The returned value is one of [PageVerticalAlignment](../../com.aspose.words/pageverticalalignment/) constants.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setBidi(boolean value) {#setBidi-boolean}
 ```
 public void setBidi(boolean value)
@@ -4852,49 +4792,4 @@ Shows how to apply and revert page setup settings to sections in a document.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | The vertical alignment of text on each page in a document or section. The value must be one of [PageVerticalAlignment](../../com.aspose.words/pageverticalalignment/) constants. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

@@ -105,29 +105,20 @@ Shows how to create a header and a footer.
 | [add(Node node)](#add-com.aspose.words.Node) | Adds a node to the end of the collection. |
 | [clear()](#clear) | Removes all nodes from this collection and from the document. |
 | [contains(Node node)](#contains-com.aspose.words.Node) | Determines whether a node is in the collection. |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [get(int index)](#get-int) | Retrieves a [HeaderFooter](../../com.aspose.words/headerfooter/) at the given index. |
 | [getByHeaderFooterType(int headerFooterType)](#getByHeaderFooterType-int) |  |
-| [getClass()](#getClass) |  |
 | [getContainer()](#getContainer) |  |
 | [getCount()](#getCount) | Gets the number of nodes in the collection. |
 | [getCurrentNode()](#getCurrentNode) |  |
 | [getNextMatchingNode(Node curNode)](#getNextMatchingNode-com.aspose.words.Node) |  |
-| [hashCode()](#hashCode) |  |
 | [indexOf(Node node)](#indexOf-com.aspose.words.Node) | Returns the zero-based index of the specified node. |
 | [insert(int index, Node node)](#insert-int-com.aspose.words.Node) | Inserts a node into the collection at the specified index. |
 | [iterator()](#iterator) | Provides a simple "foreach" style iteration over the collection of nodes. |
 | [linkToPrevious(boolean isLinkToPrevious)](#linkToPrevious-boolean) | Links or unlinks all headers and footers to the corresponding headers and footers in the previous section. |
 | [linkToPrevious(int headerFooterType, boolean isLinkToPrevious)](#linkToPrevious-int-boolean) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [remove(Node node)](#remove-com.aspose.words.Node) | Removes the node from the collection and from the document. |
 | [removeAt(int index)](#removeAt-int) | Removes the node at the specified index from the collection and from the document. |
 | [toArray()](#toArray) | Copies all  HeaderFoorter  s from the collection to a new array of  HeaderFoorter  s. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### add(Node node) {#add-com.aspose.words.Node}
 ```
 public void add(Node node)
@@ -225,21 +216,6 @@ Shows how to work with a NodeCollection.
 
 **Returns:**
 boolean -  true  if item is found in the collection; otherwise,  false .
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### get(int index) {#get-int}
 ```
 public Node get(int index)
@@ -344,16 +320,6 @@ public HeaderFooter getByHeaderFooterType(int headerFooterType)
 
 **Returns:**
 [HeaderFooter](../../com.aspose.words/headerfooter/)
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getContainer() {#getContainer}
 ```
 public CompositeNode getContainer()
@@ -505,16 +471,6 @@ public Node getNextMatchingNode(Node curNode)
 
 **Returns:**
 [Node](../../com.aspose.words/node/)
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### indexOf(Node node) {#indexOf-com.aspose.words.Node}
 ```
 public int indexOf(Node node)
@@ -675,22 +631,6 @@ public void linkToPrevious(int headerFooterType, boolean isLinkToPrevious)
 | --- | --- | --- |
 | headerFooterType | int |  |
 | isLinkToPrevious | boolean |  |
-
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
 
 ### remove(Node node) {#remove-com.aspose.words.Node}
 ```
@@ -879,48 +819,3 @@ Shows how to print the node structure of every header and footer in a document.
 
 **Returns:**
 com.aspose.words.HeaderFooter[] - An array of  HeaderFoorter  s.
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
-

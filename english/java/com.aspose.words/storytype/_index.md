@@ -65,19 +65,10 @@ Shows how to remove all shapes from a node.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [fromName(String storyTypeName)](#fromName-java.lang.String) |  |
-| [getClass()](#getClass) |  |
 | [getName(int storyType)](#getName-int) |  |
 | [getValues()](#getValues) |  |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
-| [toString()](#toString) |  |
 | [toString(int storyType)](#toString-int) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### COMMENTS {#COMMENTS}
 ```
 public static int COMMENTS
@@ -228,21 +219,6 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### fromName(String storyTypeName) {#fromName-java.lang.String}
 ```
 public static int fromName(String storyTypeName)
@@ -258,16 +234,6 @@ public static int fromName(String storyTypeName)
 
 **Returns:**
 int
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getName(int storyType) {#getName-int}
 ```
 public static String getName(int storyType)
@@ -293,42 +259,6 @@ public static int[] getValues()
 
 **Returns:**
 int[]
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
 ### toString(int storyType) {#toString-int}
 ```
 public static String toString(int storyType)
@@ -344,38 +274,3 @@ public static String toString(int storyType)
 
 **Returns:**
 java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
-

@@ -79,11 +79,9 @@ Shows how to insert a chart and modify the appearance of its axes.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getAxisBetweenCategories()](#getAxisBetweenCategories) | Gets a flag indicating whether the value axis crosses the category axis between categories. |
 | [getBaseTimeUnit()](#getBaseTimeUnit) | Gets the smallest time unit that is represented on the time category axis. |
 | [getCategoryType()](#getCategoryType) | Gets type of the category axis. |
-| [getClass()](#getClass) |  |
 | [getCrosses()](#getCrosses) | Specifies how this axis crosses the perpendicular axis. |
 | [getCrossesAt()](#getCrossesAt) | Specifies where on the perpendicular axis the axis crosses. |
 | [getDisplayUnit()](#getDisplayUnit) | Specifies the scaling value of the display units for the value axis. |
@@ -114,11 +112,8 @@ Shows how to insert a chart and modify the appearance of its axes.
 | [hasMajorGridlines(boolean value)](#hasMajorGridlines-boolean) | Sets a flag indicating whether the axis has major gridlines. |
 | [hasMinorGridlines()](#hasMinorGridlines) | Gets a flag indicating whether the axis has minor gridlines. |
 | [hasMinorGridlines(boolean value)](#hasMinorGridlines-boolean) | Sets a flag indicating whether the axis has minor gridlines. |
-| [hashCode()](#hashCode) |  |
 | [isInherited()](#isInherited) |  |
 | [isVisible()](#isVisible) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setAxisBetweenCategories(boolean value)](#setAxisBetweenCategories-boolean) | Sets a flag indicating whether the value axis crosses the category axis between categories. |
 | [setBaseTimeUnit(int value)](#setBaseTimeUnit-int) | Sets the smallest time unit that is represented on the time category axis. |
 | [setCategoryType(int value)](#setCategoryType-int) | Sets type of the category axis. |
@@ -142,25 +137,6 @@ Shows how to insert a chart and modify the appearance of its axes.
 | [setTickMarkSpacing(int value)](#setTickMarkSpacing-int) | Sets the interval, at which tick marks are drawn. |
 | [setTitle(ChartTitle value)](#setTitle-com.aspose.words.ChartTitle) |  |
 | [setTitleDeleted(boolean value)](#setTitleDeleted-boolean) |  |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### getAxisBetweenCategories() {#getAxisBetweenCategories}
 ```
 public boolean getAxisBetweenCategories()
@@ -337,16 +313,6 @@ Shows how to insert a chart and modify the appearance of its axes.
 
 **Returns:**
 int - Type of the category axis. The returned value is one of [AxisCategoryType](../../com.aspose.words/axiscategorytype/) constants.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getCrosses() {#getCrosses}
 ```
 public int getCrosses()
@@ -2101,16 +2067,6 @@ Shows how to insert chart with date/time values.
 | --- | --- | --- |
 | value | boolean | A flag indicating whether the axis has minor gridlines. |
 
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### isInherited() {#isInherited}
 ```
 public boolean isInherited()
@@ -2131,22 +2087,6 @@ public boolean isVisible()
 
 **Returns:**
 boolean
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setAxisBetweenCategories(boolean value) {#setAxisBetweenCategories-boolean}
 ```
 public void setAxisBetweenCategories(boolean value)
@@ -3596,49 +3536,4 @@ public void setTitleDeleted(boolean value)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

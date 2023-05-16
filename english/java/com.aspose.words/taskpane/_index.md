@@ -68,51 +68,17 @@ Shows how to add a web extension to a document.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getClass()](#getClass) |  |
 | [getDockState()](#getDockState) | Specifies the last-docked location of this task pane object. |
 | [getRow()](#getRow) | Specifies the index, enumerating from the outside to the inside, of this task pane among other persisted task panes docked in the same default location. |
 | [getWebExtension()](#getWebExtension) | Represents an web extension object. |
 | [getWidth()](#getWidth) | Specifies the default width value for this task pane instance. |
-| [hashCode()](#hashCode) |  |
 | [isLocked()](#isLocked) | Specifies whether the task pane is locked to the document in the UI and cannot be closed by the user. |
 | [isLocked(boolean value)](#isLocked-boolean) | Specifies whether the task pane is locked to the document in the UI and cannot be closed by the user. |
 | [isVisible()](#isVisible) | Specifies whether the task pane shows as visible by default when the document opens. |
 | [isVisible(boolean value)](#isVisible-boolean) | Specifies whether the task pane shows as visible by default when the document opens. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setDockState(int value)](#setDockState-int) | Specifies the last-docked location of this task pane object. |
 | [setRow(int value)](#setRow-int) | Specifies the index, enumerating from the outside to the inside, of this task pane among other persisted task panes docked in the same default location. |
 | [setWidth(double value)](#setWidth-double) | Specifies the default width value for this task pane instance. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getDockState() {#getDockState}
 ```
 public int getDockState()
@@ -329,16 +295,6 @@ Shows how to add a web extension to a document.
 
 **Returns:**
 double - The corresponding  double  value.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### isLocked() {#isLocked}
 ```
 public boolean isLocked()
@@ -561,22 +517,6 @@ Shows how to add a web extension to a document.
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
 
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setDockState(int value) {#setDockState-int}
 ```
 public void setDockState(int value)
@@ -747,49 +687,4 @@ Shows how to add a web extension to a document.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double | The corresponding  double  value. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

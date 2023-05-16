@@ -19,11 +19,9 @@ Map for .Net's System.Globalization.DateTimeFormatInfo.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getAMDesignator()](#getAMDesignator) |  |
 | [getAbbreviatedDayNames()](#getAbbreviatedDayNames) |  |
 | [getAbbreviatedMonthNames()](#getAbbreviatedMonthNames) |  |
-| [getClass()](#getClass) |  |
 | [getDayNames()](#getDayNames) |  |
 | [getLongDatePattern()](#getLongDatePattern) |  |
 | [getLongTimePattern()](#getLongTimePattern) |  |
@@ -32,9 +30,6 @@ Map for .Net's System.Globalization.DateTimeFormatInfo.
 | [getShortDatePattern()](#getShortDatePattern) |  |
 | [getShortTimePattern()](#getShortTimePattern) |  |
 | [getShortestDayNames()](#getShortestDayNames) |  |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setAMDesignator(String amDesignator)](#setAMDesignator-java.lang.String) |  |
 | [setAbbreviatedDayNames(String[] abbreviatedDayNames)](#setAbbreviatedDayNames-java.lang.String) |  |
 | [setAbbreviatedMonthGenitiveNames(String[] abbreviatedMonthNames)](#setAbbreviatedMonthGenitiveNames-java.lang.String) |  |
@@ -48,25 +43,6 @@ Map for .Net's System.Globalization.DateTimeFormatInfo.
 | [setShortDatePattern(String shortDatePattern)](#setShortDatePattern-java.lang.String) |  |
 | [setShortTimePattern(String shortTimePatt)](#setShortTimePattern-java.lang.String) |  |
 | [setShortestDayNames(String[] shortestDayNames)](#setShortestDayNames-java.lang.String) |  |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### getAMDesignator() {#getAMDesignator}
 ```
 public String getAMDesignator()
@@ -97,16 +73,6 @@ public String[] getAbbreviatedMonthNames()
 
 **Returns:**
 java.lang.String[]
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getDayNames() {#getDayNames}
 ```
 public String[] getDayNames()
@@ -187,32 +153,6 @@ public String[] getShortestDayNames()
 
 **Returns:**
 java.lang.String[]
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setAMDesignator(String amDesignator) {#setAMDesignator-java.lang.String}
 ```
 public void setAMDesignator(String amDesignator)
@@ -381,49 +321,4 @@ public void setShortestDayNames(String[] shortestDayNames)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | shortestDayNames | java.lang.String[] |  |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

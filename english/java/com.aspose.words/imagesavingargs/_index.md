@@ -144,49 +144,15 @@ Shows how to split a document into parts and save them.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getClass()](#getClass) |  |
 | [getCurrentShape()](#getCurrentShape) | Gets the [ShapeBase](../../com.aspose.words/shapebase/) object corresponding to the shape or group shape that is about to be saved. |
 | [getDocument()](#getDocument) | Gets the document object that is currently being saved. |
 | [getImageFileName()](#getImageFileName) | Gets the file name (without path) where the image will be saved to. |
 | [getImageStream()](#getImageStream) |  |
 | [getKeepImageStreamOpen()](#getKeepImageStreamOpen) | Specifies whether Aspose.Words should keep the stream open or close it after saving an image. |
-| [hashCode()](#hashCode) |  |
 | [isImageAvailable()](#isImageAvailable) | Returns  true  if the current image is available for export. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setImageFileName(String value)](#setImageFileName-java.lang.String) | Sets the file name (without path) where the image will be saved to. |
 | [setImageStream(OutputStream value)](#setImageStream-java.io.OutputStream) |  |
 | [setKeepImageStreamOpen(boolean value)](#setKeepImageStreamOpen-boolean) | Specifies whether Aspose.Words should keep the stream open or close it after saving an image. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getCurrentShape() {#getCurrentShape}
 ```
 public ShapeBase getCurrentShape()
@@ -507,16 +473,6 @@ Shows how to involve an image saving callback in an HTML conversion process.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### isImageAvailable() {#isImageAvailable}
 ```
 public boolean isImageAvailable()
@@ -576,22 +532,6 @@ Shows how to involve an image saving callback in an HTML conversion process.
 
 **Returns:**
 boolean -  true  if the current image is available for export.
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setImageFileName(String value) {#setImageFileName-java.lang.String}
 ```
 public void setImageFileName(String value)
@@ -806,49 +746,4 @@ Shows how to involve an image saving callback in an HTML conversion process.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

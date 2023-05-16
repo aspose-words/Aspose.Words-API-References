@@ -180,7 +180,6 @@ Shows how to build a table with custom borders.
 | [endEditableRange(EditableRangeStart start)](#endEditableRange-com.aspose.words.EditableRangeStart) | Marks the current position in the document as an editable range end. |
 | [endRow()](#endRow) | Ends a table row in the document. |
 | [endTable()](#endTable) | Ends a table in the document. |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [fetchCellAttr(int key)](#fetchCellAttr-int) |  |
 | [fetchInheritedCellAttr(int key)](#fetchInheritedCellAttr-int) |  |
 | [fetchInheritedParaAttr(int key)](#fetchInheritedParaAttr-int) |  |
@@ -190,7 +189,6 @@ Shows how to build a table with custom borders.
 | [fetchRowAttr(int key)](#fetchRowAttr-int) |  |
 | [getBold()](#getBold) | True if the font is formatted as bold. |
 | [getCellFormat()](#getCellFormat) | Returns an object that represents current table cell formatting properties. |
-| [getClass()](#getClass) |  |
 | [getCurrentNode()](#getCurrentNode) | Gets the node that is currently selected in this DocumentBuilder. |
 | [getCurrentParagraph()](#getCurrentParagraph) | Gets the paragraph that is currently selected in this [DocumentBuilder](../../com.aspose.words/documentbuilder/). |
 | [getCurrentSection()](#getCurrentSection) | Gets the section that is currently selected in this [DocumentBuilder](../../com.aspose.words/documentbuilder/). |
@@ -210,7 +208,6 @@ Shows how to build a table with custom borders.
 | [getParagraphFormat()](#getParagraphFormat) | Returns an object that represents current paragraph formatting properties. |
 | [getRowFormat()](#getRowFormat) | Returns an object that represents current table row formatting properties. |
 | [getUnderline()](#getUnderline) | Gets/sets underline type for the current font. |
-| [hashCode()](#hashCode) |  |
 | [insertBreak(int breakType)](#insertBreak-int) |  |
 | [insertCell()](#insertCell) | Inserts a table cell into the document. |
 | [insertChart(int chartType, double width, double height)](#insertChart-int-double-double) |  |
@@ -278,8 +275,6 @@ Shows how to build a table with custom borders.
 | [moveToSection(int sectionIndex)](#moveToSection-int) | Moves the cursor to the beginning of the body in a specified section. |
 | [moveToStructuredDocumentTag(StructuredDocumentTag structuredDocumentTag, int characterIndex)](#moveToStructuredDocumentTag-com.aspose.words.StructuredDocumentTag-int) | Moves the cursor to the structured document tag. |
 | [moveToStructuredDocumentTag(int structuredDocumentTagIndex, int characterIndex)](#moveToStructuredDocumentTag-int-int) | Moves the cursor to a structured document tag in the current section. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [popFont()](#popFont) | Retrieves character formatting previously saved on the stack. |
 | [pushFont()](#pushFont) | Saves current character formatting onto the stack. |
 | [removeParaAttr(int key)](#removeParaAttr-int) |  |
@@ -297,10 +292,6 @@ Shows how to build a table with custom borders.
 | [startColumnBookmark(String bookmarkName)](#startColumnBookmark-java.lang.String) | Marks the current position in the document as a column bookmark start. |
 | [startEditableRange()](#startEditableRange) | Marks the current position in the document as an editable range start. |
 | [startTable()](#startTable) | Starts a table in the document. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 | [write(String text)](#write-java.lang.String) | Inserts a string into the document at the current insert position. |
 | [writeln()](#writeln) | Inserts a paragraph break into the document. |
 | [writeln(String text)](#writeln-java.lang.String) | Inserts a string and a paragraph break into the document. |
@@ -1104,21 +1095,6 @@ Shows how to build a formatted 2x2 table.
 
 **Returns:**
 [Table](../../com.aspose.words/table/) - The table node that was just finished.
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### fetchCellAttr(int key) {#fetchCellAttr-int}
 ```
 public Object fetchCellAttr(int key)
@@ -1427,16 +1403,6 @@ Shows how to build a formatted 2x2 table.
 
 **Returns:**
 [CellFormat](../../com.aspose.words/cellformat/) - An object that represents current table cell formatting properties.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getCurrentNode() {#getCurrentNode}
 ```
 public Node getCurrentNode()
@@ -2360,16 +2326,6 @@ Shows how to format text inserted by a document builder.
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [Underline](../../com.aspose.words/underline/) constants.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### insertBreak(int breakType) {#insertBreak-int}
 ```
 public void insertBreak(int breakType)
@@ -5448,22 +5404,6 @@ Shows how to move cursor of DocumentBuilder inside a structured document tag.
 | structuredDocumentTagIndex | int | The index of the structured document tag to move to. |
 | characterIndex | int | The index of the character inside the structured document tag. A negative value allows you to specify a position from the end of the structured document tag. Use -1 to move to the end of the structured document tag. If the structured document tag is at the block level, and you want to move the cursor to the end of its last paragraph, specify -2. |
 
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### popFont() {#popFont}
 ```
 public void popFont()
@@ -6208,51 +6148,6 @@ Shows how to build a formatted 2x2 table.
 
 **Returns:**
 [Table](../../com.aspose.words/table/) - The table node that was just created.
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
-
 ### write(String text) {#write-java.lang.String}
 ```
 public void write(String text)

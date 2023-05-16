@@ -141,12 +141,10 @@ Shows how to build a table with custom borders.
 | Method | Description |
 | --- | --- |
 | [clearFormatting()](#clearFormatting) | Resets to default cell formatting. |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [fetchInheritedBorderAttr(int key)](#fetchInheritedBorderAttr-int) |  |
 | [fetchInheritedShadingAttr(int key)](#fetchInheritedShadingAttr-int) |  |
 | [getBorders()](#getBorders) | Gets collection of borders of the cell. |
 | [getBottomPadding()](#getBottomPadding) | Gets the amount of space (in points) to add below the contents of cell. |
-| [getClass()](#getClass) |  |
 | [getDirectBorderAttr(int key)](#getDirectBorderAttr-int) |  |
 | [getFitText()](#getFitText) | If  true , fits text in the cell, compressing each paragraph to the width of the cell. |
 | [getHorizontalMerge()](#getHorizontalMerge) | Specifies how the cell is merged horizontally with other cells in the row. |
@@ -160,9 +158,6 @@ Shows how to build a table with custom borders.
 | [getVerticalMerge()](#getVerticalMerge) | Specifies how the cell is merged with other cells vertically. |
 | [getWidth()](#getWidth) | Gets the width of the cell in points. |
 | [getWrapText()](#getWrapText) | If  true , wrap text for the cell. |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setBorderAttr(int key, Object value)](#setBorderAttr-int-java.lang.Object) |  |
 | [setBottomPadding(double value)](#setBottomPadding-double) | Sets the amount of space (in points) to add below the contents of cell. |
 | [setFitText(boolean value)](#setFitText-boolean) | If  true , fits text in the cell, compressing each paragraph to the width of the cell. |
@@ -177,10 +172,6 @@ Shows how to build a table with custom borders.
 | [setVerticalMerge(int value)](#setVerticalMerge-int) | Specifies how the cell is merged with other cells vertically. |
 | [setWidth(double value)](#setWidth-double) | Gets the width of the cell in points. |
 | [setWrapText(boolean value)](#setWrapText-boolean) | If  true , wrap text for the cell. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### clearFormatting() {#clearFormatting}
 ```
 public void clearFormatting()
@@ -215,21 +206,6 @@ Shows how to combine the rows from two tables into one.
  
 ```
 
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### fetchInheritedBorderAttr(int key) {#fetchInheritedBorderAttr-int}
 ```
 public Object fetchInheritedBorderAttr(int key)
@@ -352,16 +328,6 @@ Shows how to format cells with a document builder.
 
 **Returns:**
 double - The amount of space (in points) to add below the contents of cell.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getDirectBorderAttr(int key) {#getDirectBorderAttr-int}
 ```
 public Object getDirectBorderAttr(int key)
@@ -1339,32 +1305,6 @@ Shows how to build a table with custom borders.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setBorderAttr(int key, Object value) {#setBorderAttr-int-java.lang.Object}
 ```
 public void setBorderAttr(int key, Object value)
@@ -2362,49 +2302,4 @@ Shows how to build a table with custom borders.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

@@ -43,11 +43,9 @@ Aspose.Words preserves mail merge information when loading, saving and convertin
 | --- | --- |
 | [clear()](#clear) | Clears the mail merge settings in such a way that when the document is saved, no mail merge settings will be saved and it will become a normal document. |
 | [deepClone()](#deepClone) | Returns a deep clone of this object. |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getActiveRecord()](#getActiveRecord) | Specifies the one-based index of the record from the data source which shall be displayed in Microsoft Word. |
 | [getAddressFieldName()](#getAddressFieldName) | Specifies the column within the data source that contains e-mail addresses. |
 | [getCheckErrors()](#getCheckErrors) | Specifies the type of error reporting which shall be conducted by Microsoft Word when performing a mail merge. |
-| [getClass()](#getClass) |  |
 | [getConnectString()](#getConnectString) | Specifies the connection string used to connect to an external data source. |
 | [getDataSource()](#getDataSource) | Specifies the path to the mail-merge data source. |
 | [getDataType()](#getDataType) | Specifies the type of the mail-merge data source and the method of data access. |
@@ -61,9 +59,6 @@ Aspose.Words preserves mail merge information when loading, saving and convertin
 | [getOdso()](#getOdso) | Gets the object that specifies the Office Data Source Object (ODSO) settings. |
 | [getQuery()](#getQuery) | Contains the Structured Query Language string that shall be run against the specified external data source to return the set of records which shall be imported into the document when the mail merge operation is performed. |
 | [getViewMergedData()](#getViewMergedData) | Specifies that Microsoft Word shall display the data from the specified external data source where merge fields have been inserted (e.g. |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setActiveRecord(int value)](#setActiveRecord-int) | Specifies the one-based index of the record from the data source which shall be displayed in Microsoft Word. |
 | [setAddressFieldName(String value)](#setAddressFieldName-java.lang.String) | Specifies the column within the data source that contains e-mail addresses. |
 | [setCheckErrors(int value)](#setCheckErrors-int) | Specifies the type of error reporting which shall be conducted by Microsoft Word when performing a mail merge. |
@@ -80,10 +75,6 @@ Aspose.Words preserves mail merge information when loading, saving and convertin
 | [setOdso(Odso value)](#setOdso-com.aspose.words.Odso) | Sets the object that specifies the Office Data Source Object (ODSO) settings. |
 | [setQuery(String value)](#setQuery-java.lang.String) | Contains the Structured Query Language string that shall be run against the specified external data source to return the set of records which shall be imported into the document when the mail merge operation is performed. |
 | [setViewMergedData(boolean value)](#setViewMergedData-boolean) | Specifies that Microsoft Word shall display the data from the specified external data source where merge fields have been inserted (e.g. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### clear() {#clear}
 ```
 public void clear()
@@ -102,21 +93,6 @@ Returns a deep clone of this object.
 
 **Returns:**
 [MailMergeSettings](../../com.aspose.words/mailmergesettings/)
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### getActiveRecord() {#getActiveRecord}
 ```
 public int getActiveRecord()
@@ -147,16 +123,6 @@ Specifies the type of error reporting which shall be conducted by Microsoft Word
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [MailMergeCheckErrors](../../com.aspose.words/mailmergecheckerrors/) constants.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getConnectString() {#getConnectString}
 ```
 public String getConnectString()
@@ -295,32 +261,6 @@ Specifies that Microsoft Word shall display the data from the specified external
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setActiveRecord(int value) {#setActiveRecord-int}
 ```
 public void setActiveRecord(int value)
@@ -536,49 +476,4 @@ Specifies that Microsoft Word shall display the data from the specified external
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

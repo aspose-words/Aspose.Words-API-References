@@ -97,15 +97,12 @@ Shows how to apply border and shading color while building a table.
 | [getBackgroundPatternColor()](#getBackgroundPatternColor) | Gets the color that's applied to the background of the [Shading](../../com.aspose.words/shading/) object. |
 | [getBackgroundPatternThemeColor()](#getBackgroundPatternThemeColor) | Gets the background pattern theme color in the applied color scheme that is associated with this [Shading](../../com.aspose.words/shading/) object. |
 | [getBackgroundTintAndShade()](#getBackgroundTintAndShade) | Gets a double value that lightens or darkens a background theme color. |
-| [getClass()](#getClass) |  |
 | [getForegroundPatternColor()](#getForegroundPatternColor) | Gets the color that's applied to the foreground of the [Shading](../../com.aspose.words/shading/) object. |
 | [getForegroundPatternThemeColor()](#getForegroundPatternThemeColor) | Gets the foreground pattern theme color in the applied color scheme that is associated with this [Shading](../../com.aspose.words/shading/) object. |
 | [getForegroundTintAndShade()](#getForegroundTintAndShade) | Gets a double value that lightens or darkens a foreground theme color. |
 | [getTexture()](#getTexture) | Gets the shading texture. |
 | [hashCode()](#hashCode) |  |
 | [isInheritedComplexAttr()](#isInheritedComplexAttr) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setBackgroundPatternColor(Color value)](#setBackgroundPatternColor-java.awt.Color) | Sets the color that's applied to the background of the [Shading](../../com.aspose.words/shading/) object. |
 | [setBackgroundPatternThemeColor(int value)](#setBackgroundPatternThemeColor-int) | Sets the background pattern theme color in the applied color scheme that is associated with this [Shading](../../com.aspose.words/shading/) object. |
 | [setBackgroundTintAndShade(double value)](#setBackgroundTintAndShade-double) | Sets a double value that lightens or darkens a background theme color. |
@@ -113,10 +110,6 @@ Shows how to apply border and shading color while building a table.
 | [setForegroundPatternThemeColor(int value)](#setForegroundPatternThemeColor-int) | Sets the foreground pattern theme color in the applied color scheme that is associated with this [Shading](../../com.aspose.words/shading/) object. |
 | [setForegroundTintAndShade(double value)](#setForegroundTintAndShade-double) | Sets a double value that lightens or darkens a foreground theme color. |
 | [setTexture(int value)](#setTexture-int) | Sets the shading texture. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### clearFormatting() {#clearFormatting}
 ```
 public void clearFormatting()
@@ -336,16 +329,6 @@ Shows how to set foreground and background colors for shading texture.
 
 **Returns:**
 double - A double value that lightens or darkens a background theme color.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getForegroundPatternColor() {#getForegroundPatternColor}
 ```
 public Color getForegroundPatternColor()
@@ -518,22 +501,6 @@ public boolean isInheritedComplexAttr()
 
 **Returns:**
 boolean
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setBackgroundPatternColor(Color value) {#setBackgroundPatternColor-java.awt.Color}
 ```
 public void setBackgroundPatternColor(Color value)
@@ -822,49 +789,4 @@ Shows how to decorate text with borders and shading.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | The shading texture. The value must be one of [TextureIndex](../../com.aspose.words/textureindex/) constants. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

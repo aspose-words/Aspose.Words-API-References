@@ -35,9 +35,7 @@ Represents one table of in-memory data.
 | [clearEventListneers()](#clearEventListneers) |  |
 | [close()](#close) |  |
 | [containsColumn(String columnName)](#containsColumn-java.lang.String) | Check whether the given column exists or not |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getChildRelations()](#getChildRelations) | Gets the collection of child relations for this [DataTable](../../com.aspose.words.net.system.data/datatable/). |
-| [getClass()](#getClass) |  |
 | [getColumnName(int index)](#getColumnName-int) | Analog for .Net DataTable.Columns[i].ColumnName |
 | [getColumns()](#getColumns) | Gets the collection of columns that belong to this table. |
 | [getColumnsCount()](#getColumnsCount) |  |
@@ -50,10 +48,7 @@ Represents one table of in-memory data.
 | [getResultSet()](#getResultSet) | Returns the underlying Java ResultSet object. |
 | [getRows()](#getRows) | Gets the collection of rows that belong to this table. |
 | [getTableName()](#getTableName) | Gets the name of the [DataTable](../../com.aspose.words.net.system.data/datatable/). |
-| [hashCode()](#hashCode) |  |
 | [newRow()](#newRow) | Creates a new [DataRow](../../com.aspose.words.net.system.data/datarow/) with the same schema as the table. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [onDataColumnDeleted(System.Data.DataColumn column)](#onDataColumnDeleted-com.aspose.words.net.System.Data.DataColumn) |  |
 | [onDataColumnInserted(System.Data.DataColumn column)](#onDataColumnInserted-com.aspose.words.net.System.Data.DataColumn) |  |
 | [onDataRowChanged(System.Data.DataRow row)](#onDataRowChanged-com.aspose.words.net.System.Data.DataRow) |  |
@@ -64,10 +59,6 @@ Represents one table of in-memory data.
 | [setNamespace(String value)](#setNamespace-java.lang.String) | Sets the namespace for the XML representation of the data stored in the [DataTable](../../com.aspose.words.net.system.data/datatable/). |
 | [setPrimaryKey(System.Data.DataColumn[] value)](#setPrimaryKey-com.aspose.words.net.System.Data.DataColumn) | Sets an array of columns that function as primary keys for the data table. |
 | [setTableName(String value)](#setTableName-java.lang.String) | Sets the name of the [DataTable](../../com.aspose.words.net.system.data/datatable/). |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### DataTable() {#DataTable}
 ```
 public DataTable()
@@ -168,21 +159,6 @@ Check whether the given column exists or not
 
 **Returns:**
 boolean - `true` is column can be found by the given `columnName`
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### getChildRelations() {#getChildRelations}
 ```
 public System.Data.DataRelationCollection getChildRelations()
@@ -193,16 +169,6 @@ Gets the collection of child relations for this [DataTable](../../com.aspose.wor
 
 **Returns:**
 [DataRelationCollection](../../com.aspose.words.net.system.data/datarelationcollection/) - A [DataRelationCollection](../../com.aspose.words.net.system.data/datarelationcollection/) that contains the child relations for the table. An empty collection is returned if no [DataRelation](../../com.aspose.words.net.system.data/datarelation/) objects exist.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getColumnName(int index) {#getColumnName-int}
 ```
 public String getColumnName(int index)
@@ -328,16 +294,6 @@ Gets the name of the [DataTable](../../com.aspose.words.net.system.data/datatabl
 
 **Returns:**
 java.lang.String - The name of the [DataTable](../../com.aspose.words.net.system.data/datatable/).
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### newRow() {#newRow}
 ```
 public System.Data.DataRow newRow()
@@ -348,22 +304,6 @@ Creates a new [DataRow](../../com.aspose.words.net.system.data/datarow/) with th
 
 **Returns:**
 [DataRow](../../com.aspose.words.net.system.data/datarow/) - A [DataRow](../../com.aspose.words.net.system.data/datarow/) with the same schema as the [DataTable](../../com.aspose.words.net.system.data/datatable/).
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### onDataColumnDeleted(System.Data.DataColumn column) {#onDataColumnDeleted-com.aspose.words.net.System.Data.DataColumn}
 ```
 public void onDataColumnDeleted(System.Data.DataColumn column)
@@ -488,49 +428,4 @@ Sets the name of the [DataTable](../../com.aspose.words.net.system.data/datatabl
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | The name of the [DataTable](../../com.aspose.words.net.system.data/datatable/). |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

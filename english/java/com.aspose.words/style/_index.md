@@ -97,7 +97,6 @@ Shows how to create and apply a custom style.
 | [clearParaAttrs()](#clearParaAttrs) |  |
 | [clearRunAttrs()](#clearRunAttrs) |  |
 | [equals(Style style)](#equals-com.aspose.words.Style) | Compares with the specified style. |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [fetchInheritedParaAttr(int key)](#fetchInheritedParaAttr-int) |  |
 | [fetchInheritedRunAttr(int key)](#fetchInheritedRunAttr-int) |  |
 | [fetchParaAttr(int key)](#fetchParaAttr-int) |  |
@@ -105,7 +104,6 @@ Shows how to create and apply a custom style.
 | [getAutomaticallyUpdate()](#getAutomaticallyUpdate) | Specifies whether this style is automatically redefined based on the appropriate value. |
 | [getBaseStyleName()](#getBaseStyleName) | Gets/sets the name of the style this style is based on. |
 | [getBuiltIn()](#getBuiltIn) | True if this style is one of the built-in styles in MS Word. |
-| [getClass()](#getClass) |  |
 | [getDirectParaAttr(int key)](#getDirectParaAttr-int) |  |
 | [getDirectParaAttr(int key, int revisionsView)](#getDirectParaAttr-int-int) |  |
 | [getDirectRunAttr(int key)](#getDirectRunAttr-int) |  |
@@ -121,12 +119,9 @@ Shows how to create and apply a custom style.
 | [getStyleIdentifier()](#getStyleIdentifier) | Gets the locale independent style identifier for a built-in style. |
 | [getStyles()](#getStyles) | Gets the collection of styles this style belongs to. |
 | [getType()](#getType) | Gets the style type (paragraph or character). |
-| [hashCode()](#hashCode) |  |
 | [isHeading()](#isHeading) | True when the style is one of the built-in Heading styles. |
 | [isQuickStyle()](#isQuickStyle) | Specifies whether this style is shown in the Quick Style gallery inside MS Word UI. |
 | [isQuickStyle(boolean value)](#isQuickStyle-boolean) | Specifies whether this style is shown in the Quick Style gallery inside MS Word UI. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [remove()](#remove) | Removes the specified style from the document. |
 | [removeParaAttr(int key)](#removeParaAttr-int) |  |
 | [removeRunAttr(int key)](#removeRunAttr-int) |  |
@@ -136,10 +131,6 @@ Shows how to create and apply a custom style.
 | [setNextParagraphStyleName(String value)](#setNextParagraphStyleName-java.lang.String) | Gets/sets the name of the style to be applied automatically to a new paragraph inserted after a paragraph formatted with the specified style. |
 | [setParaAttr(int key, Object value)](#setParaAttr-int-java.lang.Object) |  |
 | [setRunAttr(int key, Object value)](#setRunAttr-int-java.lang.Object) |  |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### clearParaAttrs() {#clearParaAttrs}
 ```
 public void clearParaAttrs()
@@ -198,21 +189,6 @@ Shows how to use style aliases.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | style | [Style](../../com.aspose.words/style/) |  |
-
-**Returns:**
-boolean
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
@@ -437,16 +413,6 @@ Shows how to differentiate custom styles from built-in styles.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getDirectParaAttr(int key) {#getDirectParaAttr-int}
 ```
 public Object getDirectParaAttr(int key)
@@ -962,16 +928,6 @@ Shows how to access a document's style collection.
 
 **Returns:**
 int - The style type (paragraph or character). The returned value is one of [StyleType](../../com.aspose.words/styletype/) constants.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### isHeading() {#isHeading}
 ```
 public boolean isHeading()
@@ -1046,22 +1002,6 @@ Shows how to access a document's style collection.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
-
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
 
 ### remove() {#remove}
 ```
@@ -1340,49 +1280,4 @@ public void setRunAttr(int key, Object value)
 | --- | --- | --- |
 | key | int |  |
 | value | java.lang.Object |  |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

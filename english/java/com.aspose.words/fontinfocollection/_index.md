@@ -71,25 +71,16 @@ Shows how to save a document with embedded TrueType fonts.
 | Method | Description |
 | --- | --- |
 | [contains(String name)](#contains-java.lang.String) | Determines whether the collection contains a font with the given name. |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [get(int index)](#get-int) | Gets a font at the specified index. |
 | [get(String name)](#get-java.lang.String) | Provides access to the collection items. |
-| [getClass()](#getClass) |  |
 | [getCount()](#getCount) | Gets the number of elements contained in the collection. |
 | [getEmbedSystemFonts()](#getEmbedSystemFonts) | Specifies whether or not to embed System fonts into the document. |
 | [getEmbedTrueTypeFonts()](#getEmbedTrueTypeFonts) | Specifies whether or not to embed TrueType fonts in a document when it is saved. |
 | [getSaveSubsetFonts()](#getSaveSubsetFonts) | Specifies whether or not to save a subset of the embedded TrueType fonts with the document. |
-| [hashCode()](#hashCode) |  |
 | [iterator()](#iterator) | Returns an iterator object that can be used to iterate over all items in the collection. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setEmbedSystemFonts(boolean value)](#setEmbedSystemFonts-boolean) | Specifies whether or not to embed System fonts into the document. |
 | [setEmbedTrueTypeFonts(boolean value)](#setEmbedTrueTypeFonts-boolean) | Specifies whether or not to embed TrueType fonts in a document when it is saved. |
 | [setSaveSubsetFonts(boolean value)](#setSaveSubsetFonts-boolean) | Specifies whether or not to save a subset of the embedded TrueType fonts with the document. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### contains(String name) {#contains-java.lang.String}
 ```
 public boolean contains(String name)
@@ -125,21 +116,6 @@ Shows info about the fonts that are present in the blank document.
 
 **Returns:**
 boolean -  true  if the item is found in the collection; otherwise,  false .
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### get(int index) {#get-int}
 ```
 public FontInfo get(int index)
@@ -222,16 +198,6 @@ Shows how to extract an embedded font from a document, and save it to the local 
 
 **Returns:**
 [FontInfo](../../com.aspose.words/fontinfo/) - The corresponding [FontInfo](../../com.aspose.words/fontinfo/) value.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getCount() {#getCount}
 ```
 public int getCount()
@@ -378,16 +344,6 @@ Shows how to save a document with embedded TrueType fonts.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### iterator() {#iterator}
 ```
 public Iterator iterator()
@@ -434,22 +390,6 @@ Shows how to access and print details of each font in a document.
 
 **Returns:**
 java.util.Iterator
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setEmbedSystemFonts(boolean value) {#setEmbedSystemFonts-boolean}
 ```
 public void setEmbedSystemFonts(boolean value)
@@ -574,49 +514,4 @@ Shows how to save a document with embedded TrueType fonts.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

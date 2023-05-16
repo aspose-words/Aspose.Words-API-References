@@ -93,21 +93,12 @@ Shows how to see the the ranges of pages that a node spans.
 | Method | Description |
 | --- | --- |
 | [clear()](#clear) | Clears all collected layout data. |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getClass()](#getClass) |  |
 | [getDocument()](#getDocument) | Gets the document this collector instance is attached to. |
 | [getEndPageIndex(Node node)](#getEndPageIndex-com.aspose.words.Node) | Gets 1-based index of the page where node ends. |
 | [getEntity(Node node)](#getEntity-com.aspose.words.Node) | Returns an opaque position of the [LayoutEnumerator](../../com.aspose.words/layoutenumerator/) which corresponds to the specified node. |
 | [getNumPagesSpanned(Node node)](#getNumPagesSpanned-com.aspose.words.Node) | Gets number of pages the specified node spans. |
 | [getStartPageIndex(Node node)](#getStartPageIndex-com.aspose.words.Node) | Gets 1-based index of the page where node begins. |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setDocument(Document value)](#setDocument-com.aspose.words.Document) | Sets the document this collector instance is attached to. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### LayoutCollector(Document doc) {#LayoutCollector-com.aspose.words.Document}
 ```
 public LayoutCollector(Document doc)
@@ -239,31 +230,6 @@ Shows how to see the the ranges of pages that a node spans.
  
 ```
 
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getDocument() {#getDocument}
 ```
 public Document getDocument()
@@ -623,32 +589,6 @@ Shows how to see the the ranges of pages that a node spans.
 
 **Returns:**
 int
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setDocument(Document value) {#setDocument-com.aspose.words.Document}
 ```
 public void setDocument(Document value)
@@ -720,49 +660,4 @@ Shows how to see the the ranges of pages that a node spans.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [Document](../../com.aspose.words/document/) | The document this collector instance is attached to. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

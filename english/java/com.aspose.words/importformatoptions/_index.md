@@ -58,18 +58,13 @@ Shows how to resolve duplicate styles while inserting documents.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getAdjustSentenceAndWordSpacing()](#getAdjustSentenceAndWordSpacing) | Gets a boolean value that specifies whether to adjust sentence and word spacing automatically. |
-| [getClass()](#getClass) |  |
 | [getForceCopyStyles()](#getForceCopyStyles) | Gets a boolean value indicating either to copy conflicting styles in [ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode/\#KEEP-SOURCE-FORMATTING) mode. |
 | [getIgnoreHeaderFooter()](#getIgnoreHeaderFooter) | Gets a boolean value that specifies that source formatting of headers/footers content ignored if [ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode/\#KEEP-SOURCE-FORMATTING) mode is used. |
 | [getIgnoreTextBoxes()](#getIgnoreTextBoxes) | Gets a boolean value that specifies that source formatting of textboxes content ignored if [ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode/\#KEEP-SOURCE-FORMATTING) mode is used. |
 | [getKeepSourceNumbering()](#getKeepSourceNumbering) | Gets a boolean value that specifies how the numbering will be imported when it clashes in source and destination documents. |
 | [getMergePastedLists()](#getMergePastedLists) | Gets a boolean value that specifies whether pasted lists will be merged with surrounding lists. |
 | [getSmartStyleBehavior()](#getSmartStyleBehavior) | Gets a boolean value that specifies how styles will be imported when they have equal names in source and destination documents. |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setAdjustSentenceAndWordSpacing(boolean value)](#setAdjustSentenceAndWordSpacing-boolean) | Sets a boolean value that specifies whether to adjust sentence and word spacing automatically. |
 | [setForceCopyStyles(boolean value)](#setForceCopyStyles-boolean) | Sets a boolean value indicating either to copy conflicting styles in [ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode/\#KEEP-SOURCE-FORMATTING) mode. |
 | [setIgnoreHeaderFooter(boolean value)](#setIgnoreHeaderFooter-boolean) | Sets a boolean value that specifies that source formatting of headers/footers content ignored if [ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode/\#KEEP-SOURCE-FORMATTING) mode is used. |
@@ -77,25 +72,6 @@ Shows how to resolve duplicate styles while inserting documents.
 | [setKeepSourceNumbering(boolean value)](#setKeepSourceNumbering-boolean) | Sets a boolean value that specifies how the numbering will be imported when it clashes in source and destination documents. |
 | [setMergePastedLists(boolean value)](#setMergePastedLists-boolean) | Sets a boolean value that specifies whether pasted lists will be merged with surrounding lists. |
 | [setSmartStyleBehavior(boolean value)](#setSmartStyleBehavior-boolean) | Sets a boolean value that specifies how styles will be imported when they have equal names in source and destination documents. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### getAdjustSentenceAndWordSpacing() {#getAdjustSentenceAndWordSpacing}
 ```
 public boolean getAdjustSentenceAndWordSpacing()
@@ -128,16 +104,6 @@ Shows how to adjust sentence and word spacing automatically.
 
 **Returns:**
 boolean - A boolean value that specifies whether to adjust sentence and word spacing automatically.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getForceCopyStyles() {#getForceCopyStyles}
 ```
 public boolean getForceCopyStyles()
@@ -446,32 +412,6 @@ Shows how to resolve duplicate styles while inserting documents.
 
 **Returns:**
 boolean - A boolean value that specifies how styles will be imported when they have equal names in source and destination documents.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setAdjustSentenceAndWordSpacing(boolean value) {#setAdjustSentenceAndWordSpacing-boolean}
 ```
 public void setAdjustSentenceAndWordSpacing(boolean value)
@@ -832,49 +772,4 @@ Shows how to resolve duplicate styles while inserting documents.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | A boolean value that specifies how styles will be imported when they have equal names in source and destination documents. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

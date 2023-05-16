@@ -165,19 +165,10 @@ Shows how to work with a FieldStart node.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [fromName(String fieldTypeName)](#fromName-java.lang.String) |  |
-| [getClass()](#getClass) |  |
 | [getName(int fieldType)](#getName-int) |  |
 | [getValues()](#getValues) |  |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
-| [toString()](#toString) |  |
 | [toString(int fieldType)](#toString-int) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### FIELD_ADDIN {#FIELD-ADDIN}
 ```
 public static int FIELD_ADDIN
@@ -962,21 +953,6 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### fromName(String fieldTypeName) {#fromName-java.lang.String}
 ```
 public static int fromName(String fieldTypeName)
@@ -992,16 +968,6 @@ public static int fromName(String fieldTypeName)
 
 **Returns:**
 int
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getName(int fieldType) {#getName-int}
 ```
 public static String getName(int fieldType)
@@ -1027,42 +993,6 @@ public static int[] getValues()
 
 **Returns:**
 int[]
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
 ### toString(int fieldType) {#toString-int}
 ```
 public static String toString(int fieldType)
@@ -1078,38 +1008,3 @@ public static String toString(int fieldType)
 
 **Returns:**
 java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
-

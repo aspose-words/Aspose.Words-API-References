@@ -183,11 +183,9 @@ Shows how to populate a TOC field with entries using SEQ fields.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getAreCustomStylesSpecified()](#getAreCustomStylesSpecified) |  |
 | [getBookmarkName()](#getBookmarkName) | Gets the name of the bookmark that marks the portion of the document used to build the table. |
 | [getCaptionlessTableOfFiguresLabel()](#getCaptionlessTableOfFiguresLabel) | Gets the name of the sequence identifier used when building a table of figures that does not include caption's label and number. |
-| [getClass()](#getClass) |  |
 | [getCustomStyles()](#getCustomStyles) | Gets a list of styles other than the built-in heading styles to include in the table of contents. |
 | [getDisplayResult()](#getDisplayResult) | Gets the text that represents the displayed field result. |
 | [getEnd()](#getEnd) | Gets the node that represents the field end. |
@@ -219,7 +217,6 @@ Shows how to populate a TOC field with entries using SEQ fields.
 | [getTableOfFiguresLabel()](#getTableOfFiguresLabel) | Gets the name of the sequence identifier used when building a table of figures. |
 | [getType()](#getType) | Gets the Microsoft Word field type. |
 | [getUseParagraphOutlineLevel()](#getUseParagraphOutlineLevel) | Gets whether to use the applied paragraph outline level. |
-| [hashCode()](#hashCode) |  |
 | [isBookmarkRangeSpecified()](#isBookmarkRangeSpecified) |  |
 | [isDirty()](#isDirty) | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [isDirty(boolean value)](#isDirty-boolean) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
@@ -228,8 +225,6 @@ Shows how to populate a TOC field with entries using SEQ fields.
 | [isLocked()](#isLocked) | Gets whether the field is locked (should not recalculate its result). |
 | [isLocked(boolean value)](#isLocked-boolean) | Sets whether the field is locked (should not recalculate its result). |
 | [isTableOfFigures()](#isTableOfFigures) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [remove()](#remove) | Removes the field from the document. |
 | [setBookmarkName(String value)](#setBookmarkName-java.lang.String) | Sets the name of the bookmark that marks the portion of the document used to build the table. |
 | [setCaptionlessTableOfFiguresLabel(String value)](#setCaptionlessTableOfFiguresLabel-java.lang.String) | Sets the name of the sequence identifier used when building a table of figures that does not include caption's label and number. |
@@ -249,29 +244,10 @@ Shows how to populate a TOC field with entries using SEQ fields.
 | [setSequenceSeparator(String value)](#setSequenceSeparator-java.lang.String) | Sets the character sequence that is used to separate sequence numbers and page numbers. |
 | [setTableOfFiguresLabel(String value)](#setTableOfFiguresLabel-java.lang.String) | Sets the name of the sequence identifier used when building a table of figures. |
 | [setUseParagraphOutlineLevel(boolean value)](#setUseParagraphOutlineLevel-boolean) | Sets whether to use the applied paragraph outline level. |
-| [toString()](#toString) |  |
 | [unlink()](#unlink) | Performs the field unlink. |
 | [update()](#update) | Performs the field update. |
 | [update(boolean ignoreMergeFormat)](#update-boolean) | Performs a field update. |
 | [updatePageNumbers()](#updatePageNumbers) | Updates the page numbers for items in this table of contents. |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### getAreCustomStylesSpecified() {#getAreCustomStylesSpecified}
 ```
 public boolean getAreCustomStylesSpecified()
@@ -384,16 +360,6 @@ Gets the name of the sequence identifier used when building a table of figures t
 
 **Returns:**
 java.lang.String - The name of the sequence identifier used when building a table of figures that does not include caption's label and number.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getCustomStyles() {#getCustomStyles}
 ```
 public String getCustomStyles()
@@ -2279,16 +2245,6 @@ Shows how to insert a TOC, and populate it with entries based on heading styles.
 
 **Returns:**
 boolean - Whether to use the applied paragraph outline level.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### isBookmarkRangeSpecified() {#isBookmarkRangeSpecified}
 ```
 public boolean isBookmarkRangeSpecified()
@@ -2537,22 +2493,6 @@ public boolean isTableOfFigures()
 
 **Returns:**
 boolean
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### remove() {#remove}
 ```
 public Node remove()
@@ -4086,16 +4026,6 @@ Shows how to insert a TOC, and populate it with entries based on heading styles.
 | --- | --- | --- |
 | value | boolean | Whether to use the applied paragraph outline level. |
 
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
 ### unlink() {#unlink}
 ```
 public boolean unlink()
@@ -4378,38 +4308,3 @@ Shows how to insert a TOC, and populate it with entries based on heading styles.
 
 **Returns:**
 boolean -  true  if the operation is successful. If any of the related TOC bookmarks was removed,  false  will be returned.
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
-

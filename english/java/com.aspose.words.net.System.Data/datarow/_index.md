@@ -20,12 +20,10 @@ Represents a row of data in a [DataTable](../../com.aspose.words.net.system.data
 | Method | Description |
 | --- | --- |
 | [delete()](#delete) | Deletes the [DataRow](../../com.aspose.words.net.system.data/datarow/). |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [get(System.Data.DataColumn column)](#get-com.aspose.words.net.System.Data.DataColumn) | Gets the data stored in the specified [DataColumn](../../com.aspose.words.net.system.data/datacolumn/). |
 | [get(int columnIndex)](#get-int) | Gets the data stored in the column specified by index. |
 | [get(String columnName)](#get-java.lang.String) | Gets the data stored in the column specified by name. |
 | [getChildRows(System.Data.DataRelation relation)](#getChildRows-com.aspose.words.net.System.Data.DataRelation) | Gets the child rows of this [DataRow](../../com.aspose.words.net.system.data/datarow/) using the specified [DataRelation](../../com.aspose.words.net.system.data/datarelation/). |
-| [getClass()](#getClass) |  |
 | [getItemArray()](#getItemArray) | Gets all the values for this row through an array. |
 | [getKeyValues(System.Data.DataKey childKey)](#getKeyValues-com.aspose.words.net.System.Data.DataKey) |  |
 | [getOriginalValue(String columnName)](#getOriginalValue-java.lang.String) |  |
@@ -33,9 +31,6 @@ Represents a row of data in a [DataTable](../../com.aspose.words.net.system.data
 | [getParentRows(System.Data.DataRelation relation)](#getParentRows-com.aspose.words.net.System.Data.DataRelation) | Gets the parent rows of a [DataRow](../../com.aspose.words.net.system.data/datarow/) using the specified [DataRelation](../../com.aspose.words.net.system.data/datarelation/). |
 | [getRowState()](#getRowState) | Gets the current state of the row with regard to its relationship to the [DataRowCollection](../../com.aspose.words.net.system.data/datarowcollection/). |
 | [getTable()](#getTable) | Gets the [DataTable](../../com.aspose.words.net.system.data/datatable/) for which this row has a schema. |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [readFrom(ResultSet resultSet)](#readFrom-java.sql.ResultSet) | Reads values from the java.sql.ResultSet |
 | [remove(int index)](#remove-int) |  |
 | [set(System.Data.DataColumn column, Object value)](#set-com.aspose.words.net.System.Data.DataColumn-java.lang.Object) | Sets the data stored in the specified [DataColumn](../../com.aspose.words.net.system.data/datacolumn/). |
@@ -45,9 +40,6 @@ Represents a row of data in a [DataTable](../../com.aspose.words.net.system.data
 | [setOriginalValue(String columnName, Object data)](#setOriginalValue-java.lang.String-java.lang.Object) |  |
 | [setRowState(int state)](#setRowState-int) |  |
 | [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### delete() {#delete}
 ```
 public void delete()
@@ -56,21 +48,6 @@ public void delete()
 
 Deletes the [DataRow](../../com.aspose.words.net.system.data/datarow/).
 
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### get(System.Data.DataColumn column) {#get-com.aspose.words.net.System.Data.DataColumn}
 ```
 public Object get(System.Data.DataColumn column)
@@ -131,16 +108,6 @@ Gets the child rows of this [DataRow](../../com.aspose.words.net.system.data/dat
 
 **Returns:**
 com.aspose.words.net.System.Data.DataRow[] - An array of [DataRow](../../com.aspose.words.net.system.data/datarow/) objects or an array of length zero.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getItemArray() {#getItemArray}
 ```
 public Object[] getItemArray()
@@ -231,32 +198,6 @@ Gets the [DataTable](../../com.aspose.words.net.system.data/datatable/) for whic
 
 **Returns:**
 [DataTable](../../com.aspose.words.net.system.data/datatable/) - The [DataTable](../../com.aspose.words.net.system.data/datatable/) to which this row belongs.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### readFrom(ResultSet resultSet) {#readFrom-java.sql.ResultSet}
 ```
 public boolean readFrom(ResultSet resultSet)
@@ -377,38 +318,3 @@ public String toString()
 
 **Returns:**
 java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
-

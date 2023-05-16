@@ -139,7 +139,6 @@ Shows ways of accessing building blocks in a glossary document.
 | [appendChild(Node newChild)](#appendChild-com.aspose.words.Node) | Adds the specified node to the end of the list of child nodes for this node. |
 | [dd()](#dd) |  |
 | [deepClone(boolean isCloneChildren)](#deepClone-boolean) | Creates a duplicate of the node. |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getAncestor(int ancestorType)](#getAncestor-int) |  |
 | [getAncestor(Class ancestorType)](#getAncestor-java.lang.Class) | Gets the first ancestor of the specified object type. |
 | [getBackgroundShape()](#getBackgroundShape) | Gets the background shape of the document. |
@@ -148,7 +147,6 @@ Shows ways of accessing building blocks in a glossary document.
 | [getChild(int nodeType, int index, boolean isDeep)](#getChild-int-int-boolean) |  |
 | [getChildNodes()](#getChildNodes) | Gets all immediate child nodes of this node. |
 | [getChildNodes(int nodeType, boolean isDeep)](#getChildNodes-int-boolean) |  |
-| [getClass()](#getClass) |  |
 | [getContainer()](#getContainer) |  |
 | [getCount()](#getCount) | Gets the number of immediate children of this node. |
 | [getCurrentNode()](#getCurrentNode) |  |
@@ -173,7 +171,6 @@ Shows ways of accessing building blocks in a glossary document.
 | [getText()](#getText) | Gets the text of this node and of all its children. |
 | [getWarningCallback()](#getWarningCallback) | Called during various document processing procedures when an issue is detected that might result in data or formatting fidelity loss. |
 | [hasChildNodes()](#hasChildNodes) | Returns  true  if this node has any child nodes. |
-| [hashCode()](#hashCode) |  |
 | [importNode(Node srcNode, boolean isImportChildren)](#importNode-com.aspose.words.Node-boolean) | Imports a node from another document to the current document. |
 | [importNode(Node srcNode, boolean isImportChildren, int importFormatMode)](#importNode-com.aspose.words.Node-boolean-int) |  |
 | [indexOf(Node child)](#indexOf-com.aspose.words.Node) | Returns the index of the specified child node in the child node array. |
@@ -183,8 +180,6 @@ Shows ways of accessing building blocks in a glossary document.
 | [iterator()](#iterator) | Provides support for the for each style iteration over the child nodes of this node. |
 | [nextPreOrder(Node rootNode)](#nextPreOrder-com.aspose.words.Node) | Gets next node according to the pre-order tree traversal algorithm. |
 | [nodeTypeToString(int nodeType)](#nodeTypeToString-int) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [prependChild(Node newChild)](#prependChild-com.aspose.words.Node) | Adds the specified node to the beginning of the list of child nodes for this node. |
 | [previousPreOrder(Node rootNode)](#previousPreOrder-com.aspose.words.Node) | Gets the previous node according to the pre-order tree traversal algorithm. |
 | [remove()](#remove) | Removes itself from the parent. |
@@ -202,9 +197,6 @@ Shows ways of accessing building blocks in a glossary document.
 | [toString()](#toString) |  |
 | [toString(SaveOptions saveOptions)](#toString-com.aspose.words.SaveOptions) | Exports the content of the node into a string using the specified save options. |
 | [toString(int saveFormat)](#toString-int) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### accept(DocumentVisitor visitor) {#accept-com.aspose.words.DocumentVisitor}
 ```
 public boolean accept(DocumentVisitor visitor)
@@ -455,21 +447,6 @@ Shows how to clone a composite node.
 
 **Returns:**
 [Node](../../com.aspose.words/node/) - The cloned node.
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### getAncestor(int ancestorType) {#getAncestor-int}
 ```
 public CompositeNode getAncestor(int ancestorType)
@@ -848,16 +825,6 @@ public NodeCollection getChildNodes(int nodeType, boolean isDeep)
 
 **Returns:**
 [NodeCollection](../../com.aspose.words/nodecollection/)
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getContainer() {#getContainer}
 ```
 public CompositeNode getContainer()
@@ -2145,16 +2112,6 @@ Shows how to combine the rows from two tables into one.
 
 **Returns:**
 boolean -  true  if this node has any child nodes.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### importNode(Node srcNode, boolean isImportChildren) {#importNode-com.aspose.words.Node-boolean}
 ```
 public Node importNode(Node srcNode, boolean isImportChildren)
@@ -2640,22 +2597,6 @@ public static String nodeTypeToString(int nodeType)
 
 **Returns:**
 java.lang.String
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### prependChild(Node newChild) {#prependChild-com.aspose.words.Node}
 ```
 public Node prependChild(Node newChild)
@@ -3696,38 +3637,3 @@ public String toString(int saveFormat)
 
 **Returns:**
 java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
-

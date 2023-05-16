@@ -61,22 +61,13 @@ Shows how to use a specific encoding when saving a document to .epub.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [fromName(String documentSplitCriteriaName)](#fromName-java.lang.String) |  |
 | [fromNames(Set documentSplitCriteriaNames)](#fromNames-java.util.Set) |  |
-| [getClass()](#getClass) |  |
 | [getName(int documentSplitCriteria)](#getName-int) |  |
 | [getNames(int documentSplitCriteria)](#getNames-int) |  |
 | [getValues()](#getValues) |  |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
-| [toString()](#toString) |  |
 | [toString(int documentSplitCriteria)](#toString-int) |  |
 | [toStringSet(int attr)](#toStringSet-int) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### COLUMN_BREAK {#COLUMN-BREAK}
 ```
 public static int COLUMN_BREAK
@@ -123,21 +114,6 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### fromName(String documentSplitCriteriaName) {#fromName-java.lang.String}
 ```
 public static int fromName(String documentSplitCriteriaName)
@@ -168,16 +144,6 @@ public static int fromNames(Set documentSplitCriteriaNames)
 
 **Returns:**
 int
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getName(int documentSplitCriteria) {#getName-int}
 ```
 public static String getName(int documentSplitCriteria)
@@ -218,42 +184,6 @@ public static int[] getValues()
 
 **Returns:**
 int[]
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
 ### toString(int documentSplitCriteria) {#toString-int}
 ```
 public static String toString(int documentSplitCriteria)
@@ -284,38 +214,3 @@ public static String toStringSet(int attr)
 
 **Returns:**
 java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
-

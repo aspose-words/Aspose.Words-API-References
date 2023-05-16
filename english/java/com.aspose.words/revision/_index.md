@@ -107,24 +107,15 @@ Shows how to work with revisions in a document.
 | Method | Description |
 | --- | --- |
 | [accept()](#accept) | Accepts this revision. |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getAuthor()](#getAuthor) | Gets the author of this revision. |
-| [getClass()](#getClass) |  |
 | [getDateTime()](#getDateTime) | Gets the date/time of this revision. |
 | [getGroup()](#getGroup) | Gets the revision group. |
 | [getParentNode()](#getParentNode) | Gets the immediate parent node (owner) of this revision. |
 | [getParentStyle()](#getParentStyle) | Gets the immediate parent style (owner) of this revision. |
 | [getRevisionType()](#getRevisionType) | Gets the type of this revision. |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [reject()](#reject) | Reject this revision. |
 | [setAuthor(String value)](#setAuthor-java.lang.String) | Sets the author of this revision. |
 | [setDateTime(Date value)](#setDateTime-java.util.Date) | Sets the date/time of this revision. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### accept() {#accept}
 ```
 public void accept()
@@ -215,21 +206,6 @@ Shows how to work with revisions in a document.
  
 ```
 
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### getAuthor() {#getAuthor}
 ```
 public String getAuthor()
@@ -322,16 +298,6 @@ Shows how to work with revisions in a document.
 
 **Returns:**
 java.lang.String - The author of this revision.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getDateTime() {#getDateTime}
 ```
 public Date getDateTime()
@@ -747,32 +713,6 @@ Shows how to work with revisions in a document.
 
 **Returns:**
 int - The type of this revision. The returned value is one of [RevisionType](../../com.aspose.words/revisiontype/) constants.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### reject() {#reject}
 ```
 public void reject()
@@ -1052,49 +992,4 @@ Shows how to work with revisions in a document.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.util.Date | The date/time of this revision. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

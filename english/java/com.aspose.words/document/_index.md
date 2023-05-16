@@ -117,7 +117,6 @@ Shows how to execute a mail merge with data from a DataTable.
 | [deepClone()](#deepClone) | Performs a deep copy of the [Document](../../com.aspose.words/document/). |
 | [deepClone(boolean isCloneChildren)](#deepClone-boolean) | Creates a duplicate of the node. |
 | [ensureMinimum()](#ensureMinimum) | If the document contains no sections, creates one section with one paragraph. |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [expandTableStylesToDirectFormatting()](#expandTableStylesToDirectFormatting) | Converts formatting specified in table styles into direct formatting on tables in the document. |
 | [extractPages(int index, int count)](#extractPages-int-int) | Returns the [Document](../../com.aspose.words/document/) object representing specified range of pages. |
 | [fetchInheritedSectionAttr(int key)](#fetchInheritedSectionAttr-int) |  |
@@ -132,7 +131,6 @@ Shows how to execute a mail merge with data from a DataTable.
 | [getChild(int nodeType, int index, boolean isDeep)](#getChild-int-int-boolean) |  |
 | [getChildNodes()](#getChildNodes) | Gets all immediate child nodes of this node. |
 | [getChildNodes(int nodeType, boolean isDeep)](#getChildNodes-int-boolean) |  |
-| [getClass()](#getClass) |  |
 | [getCompatibilityOptions()](#getCompatibilityOptions) | Provides access to document compatibility options (that is, the user preferences entered on the **Compatibility** tab of the **Options** dialog in Word). |
 | [getCompliance()](#getCompliance) | Gets the OOXML compliance version determined from the loaded document content. |
 | [getContainer()](#getContainer) |  |
@@ -202,7 +200,6 @@ Shows how to execute a mail merge with data from a DataTable.
 | [hasChildNodes()](#hasChildNodes) | Returns  true  if this node has any child nodes. |
 | [hasMacros()](#hasMacros) | Returns  true  if the document has a VBA project (macros). |
 | [hasRevisions()](#hasRevisions) | Returns  true  if the document has any tracked changes. |
-| [hashCode()](#hashCode) |  |
 | [importNode(Node srcNode, boolean isImportChildren)](#importNode-com.aspose.words.Node-boolean) | Imports a node from another document to the current document. |
 | [importNode(Node srcNode, boolean isImportChildren, int importFormatMode)](#importNode-com.aspose.words.Node-boolean-int) |  |
 | [indexOf(Node child)](#indexOf-com.aspose.words.Node) | Returns the index of the specified child node in the child node array. |
@@ -214,8 +211,6 @@ Shows how to execute a mail merge with data from a DataTable.
 | [nextPreOrder(Node rootNode)](#nextPreOrder-com.aspose.words.Node) | Gets next node according to the pre-order tree traversal algorithm. |
 | [nodeTypeToString(int nodeType)](#nodeTypeToString-int) |  |
 | [normalizeFieldTypes()](#normalizeFieldTypes) | Changes field type values [FieldChar.getFieldType()](../../com.aspose.words/fieldchar/\#getFieldType) of [FieldStart](../../com.aspose.words/fieldstart/), [FieldSeparator](../../com.aspose.words/fieldseparator/), [FieldEnd](../../com.aspose.words/fieldend/) in the whole document so that they correspond to the field types contained in the field codes. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [prependChild(Node newChild)](#prependChild-com.aspose.words.Node) | Adds the specified node to the beginning of the list of child nodes for this node. |
 | [previousPreOrder(Node rootNode)](#previousPreOrder-com.aspose.words.Node) | Gets the previous node according to the pre-order tree traversal algorithm. |
 | [print()](#print) | Prints the document without bringing up any user interface forms. |
@@ -282,9 +277,6 @@ Shows how to execute a mail merge with data from a DataTable.
 | [updateThumbnail(ThumbnailGeneratingOptions options)](#updateThumbnail-com.aspose.words.ThumbnailGeneratingOptions) | Updates [BuiltInDocumentProperties.getThumbnail()](../../com.aspose.words/builtindocumentproperties/\#getThumbnail) / [BuiltInDocumentProperties.setThumbnail(byte[])](../../com.aspose.words/builtindocumentproperties/\#setThumbnail-byte) of the document according to the specified options. |
 | [updateWordCount()](#updateWordCount) | Updates word count properties of the document. |
 | [updateWordCount(boolean updateLinesCount)](#updateWordCount-boolean) | Updates word count properties of the document, optionally updates [BuiltInDocumentProperties.getLines()](../../com.aspose.words/builtindocumentproperties/\#getLines) / [BuiltInDocumentProperties.setLines(int)](../../com.aspose.words/builtindocumentproperties/\#setLines-int) property. |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### Document() {#Document}
 ```
 public Document()
@@ -1262,21 +1254,6 @@ Shows how to ensure that a document contains the minimal set of nodes required f
  
 ```
 
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### expandTableStylesToDirectFormatting() {#expandTableStylesToDirectFormatting}
 ```
 public void expandTableStylesToDirectFormatting()
@@ -1721,16 +1698,6 @@ public NodeCollection getChildNodes(int nodeType, boolean isDeep)
 
 **Returns:**
 [NodeCollection](../../com.aspose.words/nodecollection/)
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getCompatibilityOptions() {#getCompatibilityOptions}
 ```
 public CompatibilityOptions getCompatibilityOptions()
@@ -5256,16 +5223,6 @@ Shows how to work with revisions in a document.
 
 **Returns:**
 boolean -  true  if the document has any tracked changes.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### importNode(Node srcNode, boolean isImportChildren) {#importNode-com.aspose.words.Node-boolean}
 ```
 public Node importNode(Node srcNode, boolean isImportChildren)
@@ -5839,22 +5796,6 @@ Shows how to get the keep a field's type up to date with its field code.
  Assert.assertEquals(FieldType.FIELD_PAGE, field.getEnd().getFieldType());
  
 ```
-
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
 
 ### prependChild(Node newChild) {#prependChild-com.aspose.words.Node}
 ```
@@ -9063,39 +9004,4 @@ Shows how to update all list labels in a document.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | updateLinesCount | boolean |  true  if number of lines in the document shall be calculated. |
-
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

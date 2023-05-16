@@ -26,10 +26,8 @@ The [DataTableReader](../../com.aspose.words.net.system.data/datatablereader/) o
 | Method | Description |
 | --- | --- |
 | [close()](#close) | Closes the current [DataTableReader](../../com.aspose.words.net.system.data/datatablereader/). |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [get(int ordinal)](#get-int) | Gets the value of the specified column in its native format given the column ordinal. |
 | [get(String name)](#get-java.lang.String) | Gets the value of the specified column in its native format given the column name. |
-| [getClass()](#getClass) |  |
 | [getDepth()](#getDepth) | The depth of nesting for the current row of the [DataTableReader](../../com.aspose.words.net.system.data/datatablereader/). |
 | [getFieldCount()](#getFieldCount) | Returns the number of columns in the current row. |
 | [getFieldType(int ordinal)](#getFieldType-int) | Gets the java.lang.Class that is the data type of the object. |
@@ -38,17 +36,10 @@ The [DataTableReader](../../com.aspose.words.net.system.data/datatablereader/) o
 | [getSchemaTable()](#getSchemaTable) | Returns a [DataTable](../../com.aspose.words.net.system.data/datatable/) that describes the column metadata of the [DataTableReader](../../com.aspose.words.net.system.data/datatablereader/). |
 | [getValue(int ordinal)](#getValue-int) | Gets the value of the specified column in its native format. |
 | [hasRows()](#hasRows) | Gets a value that indicates whether the [DataTableReader](../../com.aspose.words.net.system.data/datatablereader/) contains one or more rows. |
-| [hashCode()](#hashCode) |  |
 | [isClosed()](#isClosed) | Gets a value that indicates whether the [DataTableReader](../../com.aspose.words.net.system.data/datatablereader/) is closed. |
 | [iterator()](#iterator) | Returns an enumerator that can be used to iterate through the item collection. |
 | [nextResult()](#nextResult) | Advances the [DataTableReader](../../com.aspose.words.net.system.data/datatablereader/) to the next result set, if any. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [read()](#read) | Advances the [DataTableReader](../../com.aspose.words.net.system.data/datatablereader/) to the next record. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### DataTableReader(System.Data.DataTable dataTable) {#DataTableReader-com.aspose.words.net.System.Data.DataTable}
 ```
 public DataTableReader(System.Data.DataTable dataTable)
@@ -83,21 +74,6 @@ public void close()
 
 Closes the current [DataTableReader](../../com.aspose.words.net.system.data/datatablereader/).
 
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### get(int ordinal) {#get-int}
 ```
 public Object get(int ordinal)
@@ -128,16 +104,6 @@ Gets the value of the specified column in its native format given the column nam
 
 **Returns:**
 java.lang.Object - The value of the specified column in its native format.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getDepth() {#getDepth}
 ```
 public int getDepth()
@@ -233,16 +199,6 @@ Gets a value that indicates whether the [DataTableReader](../../com.aspose.words
 
 **Returns:**
 boolean - true if the [DataTableReader](../../com.aspose.words.net.system.data/datatablereader/) contains one or more rows; otherwise false.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### isClosed() {#isClosed}
 ```
 public boolean isClosed()
@@ -273,22 +229,6 @@ Advances the [DataTableReader](../../com.aspose.words.net.system.data/datatabler
 
 **Returns:**
 boolean - true if there was another result set; otherwise false.
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### read() {#read}
 ```
 public boolean read()
@@ -299,48 +239,3 @@ Advances the [DataTableReader](../../com.aspose.words.net.system.data/datatabler
 
 **Returns:**
 boolean - true if there was another row to read; otherwise false.
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
-

@@ -28,19 +28,12 @@ Represents a restriction on a set of columns in which all values must be unique.
 | Method | Description |
 | --- | --- |
 | [equals(Object key2)](#equals-java.lang.Object) | Compares this constraint to a second to determine if both are identical. |
-| [getClass()](#getClass) |  |
 | [getColumns()](#getColumns) | Gets the array of columns that this constraint affects. |
 | [getConstraintName()](#getConstraintName) | The name of a constraint in the [ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection/). |
 | [getTable()](#getTable) | Gets the table to which this constraint belongs. |
 | [hashCode()](#hashCode) |  |
 | [isPrimaryKey()](#isPrimaryKey) | Gets a value indicating whether or not the constraint is on a primary key. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setConstraintName(String value)](#setConstraintName-java.lang.String) | The name of a constraint in the [ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection/). |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### UniqueConstraint(String name, System.Data.DataColumn[] columns, boolean isPrimaryKey) {#UniqueConstraint-java.lang.String-com.aspose.words.net.System.Data.DataColumn---boolean}
 ```
 public UniqueConstraint(String name, System.Data.DataColumn[] columns, boolean isPrimaryKey)
@@ -111,16 +104,6 @@ Compares this constraint to a second to determine if both are identical.
 
 **Returns:**
 boolean - true, if the contraints are equal; otherwise, false.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getColumns() {#getColumns}
 ```
 public System.Data.DataColumn[] getColumns()
@@ -171,22 +154,6 @@ Gets a value indicating whether or not the constraint is on a primary key.
 
 **Returns:**
 boolean - true, if the constraint is on a primary key; otherwise, false.
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setConstraintName(String value) {#setConstraintName-java.lang.String}
 ```
 public void setConstraintName(String value)
@@ -199,49 +166,4 @@ The name of a constraint in the [ConstraintCollection](../../com.aspose.words.ne
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | The name of the [Constraint](../../com.aspose.words.net.system.data/constraint/). |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

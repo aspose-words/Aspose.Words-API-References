@@ -98,12 +98,10 @@ Shows how to work with certain area styles of a table.
 | Method | Description |
 | --- | --- |
 | [clearFormatting()](#clearFormatting) | Clears all conditional styles of the table style. |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [get(int index)](#get-int) | Retrieves a [ConditionalStyle](../../com.aspose.words/conditionalstyle/) object by index. |
 | [getBottomLeftCell()](#getBottomLeftCell) | Gets the bottom left cell style. |
 | [getBottomRightCell()](#getBottomRightCell) | Gets the bottom right cell style. |
 | [getByConditionalStyleType(int conditionalStyleType)](#getByConditionalStyleType-int) |  |
-| [getClass()](#getClass) |  |
 | [getCount()](#getCount) | Gets the number of conditional styles in the collection. |
 | [getEvenColumnBanding()](#getEvenColumnBanding) | Gets the even column banding style. |
 | [getEvenRowBanding()](#getEvenRowBanding) | Gets the even row banding style. |
@@ -115,14 +113,7 @@ Shows how to work with certain area styles of a table.
 | [getOddRowBanding()](#getOddRowBanding) | Gets the odd row banding style. |
 | [getTopLeftCell()](#getTopLeftCell) | Gets the top left cell style. |
 | [getTopRightCell()](#getTopRightCell) | Gets the top right cell style. |
-| [hashCode()](#hashCode) |  |
 | [iterator()](#iterator) | Returns an enumerator object that can be used to iterate over all conditional styles in the collection. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### clearFormatting() {#clearFormatting}
 ```
 public void clearFormatting()
@@ -170,21 +161,6 @@ Shows how to reset conditional table styles.
  
 ```
 
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### get(int index) {#get-int}
 ```
 public ConditionalStyle get(int index)
@@ -433,16 +409,6 @@ public ConditionalStyle getByConditionalStyleType(int conditionalStyleType)
 
 **Returns:**
 [ConditionalStyle](../../com.aspose.words/conditionalstyle/)
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getCount() {#getCount}
 ```
 public int getCount()
@@ -1279,16 +1245,6 @@ Shows how to work with certain area styles of a table.
 
 **Returns:**
 [ConditionalStyle](../../com.aspose.words/conditionalstyle/) - The top right cell style.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### iterator() {#iterator}
 ```
 public Iterator iterator()
@@ -1365,64 +1321,3 @@ Shows how to work with certain area styles of a table.
 
 **Returns:**
 java.util.Iterator
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
-

@@ -72,7 +72,6 @@ Shows how to create custom style settings for the table.
 | [clearRowAttrs()](#clearRowAttrs) |  |
 | [clearRunAttrs()](#clearRunAttrs) |  |
 | [equals(Style style)](#equals-com.aspose.words.Style) | Compares with the specified style. |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [fetchCellAttr(int key)](#fetchCellAttr-int) |  |
 | [fetchInheritedBorderAttr(int key)](#fetchInheritedBorderAttr-int) |  |
 | [fetchInheritedCellAttr(int key)](#fetchInheritedCellAttr-int) |  |
@@ -92,7 +91,6 @@ Shows how to create custom style settings for the table.
 | [getBottomPadding()](#getBottomPadding) | Gets the amount of space (in points) to add below the contents of table cells. |
 | [getBuiltIn()](#getBuiltIn) | True if this style is one of the built-in styles in MS Word. |
 | [getCellSpacing()](#getCellSpacing) | Gets the amount of space (in points) between the cells. |
-| [getClass()](#getClass) |  |
 | [getColumnStripe()](#getColumnStripe) | Gets a number of columns to include in the banding when the style specifies odd/even columns banding. |
 | [getConditionalStyles()](#getConditionalStyles) | Collection of conditional styles that may be defined for this table style. |
 | [getDirectBorderAttr(int key)](#getDirectBorderAttr-int) |  |
@@ -120,12 +118,9 @@ Shows how to create custom style settings for the table.
 | [getTopPadding()](#getTopPadding) | Gets the amount of space (in points) to add above the contents of table cells. |
 | [getType()](#getType) | Gets the style type (paragraph or character). |
 | [getVerticalAlignment()](#getVerticalAlignment) | Specifies the vertical alignment for the cells. |
-| [hashCode()](#hashCode) |  |
 | [isHeading()](#isHeading) | True when the style is one of the built-in Heading styles. |
 | [isQuickStyle()](#isQuickStyle) | Specifies whether this style is shown in the Quick Style gallery inside MS Word UI. |
 | [isQuickStyle(boolean value)](#isQuickStyle-boolean) | Specifies whether this style is shown in the Quick Style gallery inside MS Word UI. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [remove()](#remove) | Removes the specified style from the document. |
 | [removeParaAttr(int key)](#removeParaAttr-int) |  |
 | [removeRunAttr(int key)](#removeRunAttr-int) |  |
@@ -151,10 +146,6 @@ Shows how to create custom style settings for the table.
 | [setRunAttr(int key, Object value)](#setRunAttr-int-java.lang.Object) |  |
 | [setTopPadding(double value)](#setTopPadding-double) | Sets the amount of space (in points) to add above the contents of table cells. |
 | [setVerticalAlignment(int value)](#setVerticalAlignment-int) | Specifies the vertical alignment for the cells. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### clearCellAttrs() {#clearCellAttrs}
 ```
 public void clearCellAttrs()
@@ -229,21 +220,6 @@ Shows how to use style aliases.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | style | [Style](../../com.aspose.words/style/) |  |
-
-**Returns:**
-boolean
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
@@ -890,16 +866,6 @@ Shows how to create custom style settings for the table.
 
 **Returns:**
 double - The amount of space (in points) between the cells.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getColumnStripe() {#getColumnStripe}
 ```
 public int getColumnStripe()
@@ -1986,16 +1952,6 @@ Shows how to create custom style settings for the table.
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [CellVerticalAlignment](../../com.aspose.words/cellverticalalignment/) constants.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### isHeading() {#isHeading}
 ```
 public boolean isHeading()
@@ -2070,22 +2026,6 @@ Shows how to access a document's style collection.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
-
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
 
 ### remove() {#remove}
 ```
@@ -3126,49 +3066,4 @@ Shows how to create custom style settings for the table.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | The corresponding  int  value. The value must be one of [CellVerticalAlignment](../../com.aspose.words/cellverticalalignment/) constants. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

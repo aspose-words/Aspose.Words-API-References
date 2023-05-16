@@ -84,22 +84,13 @@ Shows how to add gradient stops to the gradient fill.
 | Method | Description |
 | --- | --- |
 | [add(GradientStop gradientStop)](#add-com.aspose.words.GradientStop) | Adds a specified [GradientStop](../../com.aspose.words/gradientstop/) to a gradient. |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [get(int index)](#get-int) | Gets a [GradientStop](../../com.aspose.words/gradientstop/) object in the collection. |
-| [getClass()](#getClass) |  |
 | [getCount()](#getCount) | Gets an integer value indicating the number of items in the collection. |
-| [hashCode()](#hashCode) |  |
 | [insert(int index, GradientStop gradientStop)](#insert-int-com.aspose.words.GradientStop) | Inserts a [GradientStop](../../com.aspose.words/gradientstop/) to the collection at a specified index. |
 | [iterator()](#iterator) | Returns an enumerator that iterates through the collection. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [remove(GradientStop gradientStop)](#remove-com.aspose.words.GradientStop) | Removes a specified [GradientStop](../../com.aspose.words/gradientstop/) from the collection. |
 | [removeAt(int index)](#removeAt-int) | Removes a [GradientStop](../../com.aspose.words/gradientstop/) from the collection at a specified index. |
 | [set(int index, GradientStop value)](#set-int-com.aspose.words.GradientStop) | Sets a [GradientStop](../../com.aspose.words/gradientstop/) object in the collection. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### add(GradientStop gradientStop) {#add-com.aspose.words.GradientStop}
 ```
 public GradientStop add(GradientStop gradientStop)
@@ -167,21 +158,6 @@ Shows how to add gradient stops to the gradient fill.
 
 **Returns:**
 [GradientStop](../../com.aspose.words/gradientstop/)
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### get(int index) {#get-int}
 ```
 public GradientStop get(int index)
@@ -249,16 +225,6 @@ Shows how to add gradient stops to the gradient fill.
 
 **Returns:**
 [GradientStop](../../com.aspose.words/gradientstop/) - A [GradientStop](../../com.aspose.words/gradientstop/) object in the collection.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getCount() {#getCount}
 ```
 public int getCount()
@@ -321,16 +287,6 @@ Shows how to add gradient stops to the gradient fill.
 
 **Returns:**
 int - An integer value indicating the number of items in the collection.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### insert(int index, GradientStop gradientStop) {#insert-int-com.aspose.words.GradientStop}
 ```
 public GradientStop insert(int index, GradientStop gradientStop)
@@ -409,22 +365,6 @@ Returns an enumerator that iterates through the collection.
 
 **Returns:**
 java.util.Iterator
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### remove(GradientStop gradientStop) {#remove-com.aspose.words.GradientStop}
 ```
 public boolean remove(GradientStop gradientStop)
@@ -624,49 +564,4 @@ Shows how to add gradient stops to the gradient fill.
 | --- | --- | --- |
 | index | int |  |
 | value | [GradientStop](../../com.aspose.words/gradientstop/) | A [GradientStop](../../com.aspose.words/gradientstop/) object in the collection. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

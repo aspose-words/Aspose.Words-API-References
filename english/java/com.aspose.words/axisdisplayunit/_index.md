@@ -84,51 +84,17 @@ Shows how to manipulate the tick marks and displayed values of a chart axis.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getClass()](#getClass) |  |
 | [getCustomUnit()](#getCustomUnit) | Gets a user-defined divisor to scale display units on the value axis. |
 | [getDocument()](#getDocument) | Returns the Document the title holder belongs. |
 | [getTitle()](#getTitle) |  |
 | [getTitleDeleted()](#getTitleDeleted) |  |
 | [getTitlePosition()](#getTitlePosition) |  |
 | [getUnit()](#getUnit) | Gets the scaling value of the display units as one of the predefined values. |
-| [hashCode()](#hashCode) |  |
 | [isVisible()](#isVisible) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setCustomUnit(double value)](#setCustomUnit-double) | Sets a user-defined divisor to scale display units on the value axis. |
 | [setTitle(ChartTitle value)](#setTitle-com.aspose.words.ChartTitle) |  |
 | [setTitleDeleted(boolean value)](#setTitleDeleted-boolean) |  |
 | [setUnit(int value)](#setUnit-int) | Sets the scaling value of the display units as one of the predefined values. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getCustomUnit() {#getCustomUnit}
 ```
 public double getCustomUnit()
@@ -313,16 +279,6 @@ Shows how to manipulate the tick marks and displayed values of a chart axis.
 
 **Returns:**
 int - The scaling value of the display units as one of the predefined values. The returned value is one of [AxisBuiltInUnit](../../com.aspose.words/axisbuiltinunit/) constants.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### isVisible() {#isVisible}
 ```
 public boolean isVisible()
@@ -333,22 +289,6 @@ public boolean isVisible()
 
 **Returns:**
 boolean
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setCustomUnit(double value) {#setCustomUnit-double}
 ```
 public void setCustomUnit(double value)
@@ -524,49 +464,4 @@ Shows how to manipulate the tick marks and displayed values of a chart axis.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | The scaling value of the display units as one of the predefined values. The value must be one of [AxisBuiltInUnit](../../com.aspose.words/axisbuiltinunit/) constants. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

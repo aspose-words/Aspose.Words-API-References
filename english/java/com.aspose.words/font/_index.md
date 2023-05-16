@@ -94,7 +94,6 @@ Shows how to create and use a paragraph style with list formatting.
 | Method | Description |
 | --- | --- |
 | [clearFormatting()](#clearFormatting) | Resets to default font formatting. |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [fetchInheritedBorderAttr(int key)](#fetchInheritedBorderAttr-int) |  |
 | [fetchInheritedShadingAttr(int key)](#fetchInheritedShadingAttr-int) |  |
 | [getAllCaps()](#getAllCaps) | True if the font is formatted as all capital letters. |
@@ -103,7 +102,6 @@ Shows how to create and use a paragraph style with list formatting.
 | [getBold()](#getBold) | True if the font is formatted as bold. |
 | [getBoldBi()](#getBoldBi) | True if the right-to-left text is formatted as bold. |
 | [getBorder()](#getBorder) | Returns a [Border](../../com.aspose.words/border/) object that specifies border for the font. |
-| [getClass()](#getClass) |  |
 | [getColor()](#getColor) | Gets the color of the font. |
 | [getComplexScript()](#getComplexScript) | Specifies whether the contents of this run shall be treated as complex script text regardless of their Unicode character values when determining the formatting for this run. |
 | [getDirectBorderAttr(int key)](#getDirectBorderAttr-int) |  |
@@ -175,9 +173,6 @@ Shows how to create and use a paragraph style with list formatting.
 | [getUnderline()](#getUnderline) | Gets the type of underline applied to the font. |
 | [getUnderlineColor()](#getUnderlineColor) | Gets the color of the underline applied to the font. |
 | [hasDmlEffect(int dmlEffectType)](#hasDmlEffect-int) |  |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [oneColorGradient(int style, int variant, double degree)](#oneColorGradient-int-int-double) |  |
 | [patterned(int patternType)](#patterned-int) |  |
 | [presetTextured(int presetTexture)](#presetTextured-int) |  |
@@ -247,11 +242,7 @@ Shows how to create and use a paragraph style with list formatting.
 | [setUnderline(int value)](#setUnderline-int) | Sets the type of underline applied to the font. |
 | [setUnderlineColor(Color value)](#setUnderlineColor-java.awt.Color) | Sets the color of the underline applied to the font. |
 | [solid()](#solid) |  |
-| [toString()](#toString) |  |
 | [twoColorGradient(int style, int variant)](#twoColorGradient-int-int) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### clearFormatting() {#clearFormatting}
 ```
 public void clearFormatting()
@@ -288,21 +279,6 @@ Shows how to insert a hyperlink field.
  
 ```
 
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### fetchInheritedBorderAttr(int key) {#fetchInheritedBorderAttr-int}
 ```
 public Object fetchInheritedBorderAttr(int key)
@@ -583,16 +559,6 @@ Shows how to insert a string surrounded by a border into a document.
 
 **Returns:**
 [Border](../../com.aspose.words/border/) - A [Border](../../com.aspose.words/border/) object that specifies border for the font.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getColor() {#getColor}
 ```
 public Color getColor()
@@ -3206,32 +3172,6 @@ public boolean hasDmlEffect(int dmlEffectType)
 
 **Returns:**
 boolean
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### oneColorGradient(int style, int variant, double degree) {#oneColorGradient-int-int-double}
 ```
 public void oneColorGradient(int style, int variant, double degree)
@@ -6112,16 +6052,6 @@ public void solid()
 
 
 
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
 ### twoColorGradient(int style, int variant) {#twoColorGradient-int-int}
 ```
 public void twoColorGradient(int style, int variant)
@@ -6135,39 +6065,4 @@ public void twoColorGradient(int style, int variant)
 | --- | --- | --- |
 | style | int |  |
 | variant | int |  |
-
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

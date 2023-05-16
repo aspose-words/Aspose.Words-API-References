@@ -55,44 +55,10 @@ Shows how to set formatting for chart values.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getClass()](#getClass) |  |
 | [getFormatCode()](#getFormatCode) | Gets the format code applied to a data label. |
-| [hashCode()](#hashCode) |  |
 | [isLinkedToSource()](#isLinkedToSource) | Specifies whether the format code is linked to a source cell. |
 | [isLinkedToSource(boolean value)](#isLinkedToSource-boolean) | Specifies whether the format code is linked to a source cell. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setFormatCode(String value)](#setFormatCode-java.lang.String) | Sets the format code applied to a data label. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getFormatCode() {#getFormatCode}
 ```
 public String getFormatCode()
@@ -190,16 +156,6 @@ Shows how to enable and configure data labels for a chart series.
 
 **Returns:**
 java.lang.String - The format code applied to a data label.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### isLinkedToSource() {#isLinkedToSource}
 ```
 public boolean isLinkedToSource()
@@ -292,22 +248,6 @@ Shows how to set formatting for chart values.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
-
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
 
 ### setFormatCode(String value) {#setFormatCode-java.lang.String}
 ```
@@ -408,49 +348,4 @@ Shows how to enable and configure data labels for a chart series.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | The format code applied to a data label. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

@@ -66,45 +66,11 @@ Shows how to protect a document with a password.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getClass()](#getClass) |  |
 | [getReadOnlyRecommended()](#getReadOnlyRecommended) | Specifies whether the document author has recommended that the document be opened as read-only. |
-| [hashCode()](#hashCode) |  |
 | [isWriteProtected()](#isWriteProtected) | Returns  true  when a write protection password is set. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setPassword(String password)](#setPassword-java.lang.String) | Sets the write protection password for the document. |
 | [setReadOnlyRecommended(boolean value)](#setReadOnlyRecommended-boolean) | Specifies whether the document author has recommended that the document be opened as read-only. |
-| [toString()](#toString) |  |
 | [validatePassword(String password)](#validatePassword-java.lang.String) | Returns  true  if the specified password is the same as the write-protection password the document was protected with. |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getReadOnlyRecommended() {#getReadOnlyRecommended}
 ```
 public boolean getReadOnlyRecommended()
@@ -146,16 +112,6 @@ Shows how to protect a document with a password.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### isWriteProtected() {#isWriteProtected}
 ```
 public boolean isWriteProtected()
@@ -197,22 +153,6 @@ Shows how to protect a document with a password.
 
 **Returns:**
 boolean -  true  when a write protection password is set.
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setPassword(String password) {#setPassword-java.lang.String}
 ```
 public void setPassword(String password)
@@ -305,16 +245,6 @@ Shows how to protect a document with a password.
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
 
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
 ### validatePassword(String password) {#validatePassword-java.lang.String}
 ```
 public boolean validatePassword(String password)
@@ -361,38 +291,3 @@ Shows how to protect a document with a password.
 
 **Returns:**
 boolean
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
-

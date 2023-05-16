@@ -82,46 +82,12 @@ Shows how to work with data points on a line chart.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getClass()](#getClass) |  |
 | [getFormat()](#getFormat) | Provides access to fill and line formatting of this marker. |
 | [getSize()](#getSize) | Gets chart marker size. |
 | [getSymbol()](#getSymbol) | Gets chart marker symbol. |
-| [hashCode()](#hashCode) |  |
 | [materializeSpPr()](#materializeSpPr) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setSize(int value)](#setSize-int) | Sets chart marker size. |
 | [setSymbol(int value)](#setSymbol-int) | Sets chart marker symbol. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getFormat() {#getFormat}
 ```
 public ChartFormat getFormat()
@@ -299,35 +265,9 @@ Shows how to work with data points on a line chart.
 
 **Returns:**
 int - Chart marker symbol. The returned value is one of [MarkerSymbol](../../com.aspose.words/markersymbol/) constants.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### materializeSpPr() {#materializeSpPr}
 ```
 public void materializeSpPr()
-```
-
-
-
-
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
 ```
 
 
@@ -468,49 +408,4 @@ Shows how to work with data points on a line chart.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | Chart marker symbol. The value must be one of [MarkerSymbol](../../com.aspose.words/markersymbol/) constants. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

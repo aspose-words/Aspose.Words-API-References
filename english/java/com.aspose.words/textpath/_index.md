@@ -128,9 +128,7 @@ Shows how to work with WordArt.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getBold()](#getBold) | True if the font is formatted as bold. |
-| [getClass()](#getClass) |  |
 | [getFitPath()](#getFitPath) | Defines whether the text fits the path of a shape. |
 | [getFitShape()](#getFitShape) | Defines whether the text fits bounding box of a shape. |
 | [getFontFamily()](#getFontFamily) | Defines the family of the textpath font. |
@@ -150,9 +148,6 @@ Shows how to work with WordArt.
 | [getTrim()](#getTrim) | Determines whether extra space is removed above and below the text. |
 | [getUnderline()](#getUnderline) | True if the font is underlined. |
 | [getXScale()](#getXScale) | Determines whether a straight textpath will be used instead of the shape path. |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setBold(boolean value)](#setBold-boolean) | True if the font is formatted as bold. |
 | [setFitPath(boolean value)](#setFitPath-boolean) | Defines whether the text fits the path of a shape. |
 | [setFitShape(boolean value)](#setFitShape-boolean) | Defines whether the text fits bounding box of a shape. |
@@ -173,25 +168,6 @@ Shows how to work with WordArt.
 | [setTrim(boolean value)](#setTrim-boolean) | Determines whether extra space is removed above and below the text. |
 | [setUnderline(boolean value)](#setUnderline-boolean) | True if the font is underlined. |
 | [setXScale(boolean value)](#setXScale-boolean) | Determines whether a straight textpath will be used instead of the shape path. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### getBold() {#getBold}
 ```
 public boolean getBold()
@@ -306,16 +282,6 @@ Shows how to work with WordArt.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getFitPath() {#getFitPath}
 ```
 public boolean getFitPath()
@@ -2386,32 +2352,6 @@ Shows how to work with WordArt.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setBold(boolean value) {#setBold-boolean}
 ```
 public void setBold(boolean value)
@@ -4655,49 +4595,4 @@ Shows how to work with WordArt.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

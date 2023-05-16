@@ -102,9 +102,7 @@ Shows how to apply labels to data points in a line chart.
 | Method | Description |
 | --- | --- |
 | [clearFormat()](#clearFormat) | Clears format of this data label. |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [generateItemText()](#generateItemText) |  |
-| [getClass()](#getClass) |  |
 | [getFont()](#getFont) | Provides access to the font formatting of this data label. |
 | [getIndex()](#getIndex) | Specifies the index of the containing element. |
 | [getNumberFormat()](#getNumberFormat) | Returns number format of the parent element. |
@@ -117,13 +115,10 @@ Shows how to apply labels to data points in a line chart.
 | [getShowPercentage()](#getShowPercentage) | Allows to specify if percentage value is to be displayed for the data labels on a chart. |
 | [getShowSeriesName()](#getShowSeriesName) | Gets a Boolean to indicate the series name display behavior for the data labels on a chart. |
 | [getShowValue()](#getShowValue) | Allows to specify if values are to be displayed in the data labels. |
-| [hashCode()](#hashCode) |  |
 | [isHidden()](#isHidden) | Gets/sets a flag indicating whether this label is hidden. |
 | [isHidden(boolean value)](#isHidden-boolean) | Gets/sets a flag indicating whether this label is hidden. |
 | [isInherited()](#isInherited) |  |
 | [isVisible()](#isVisible) | Returns  true  if this data label has something to display. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setSeparator(String value)](#setSeparator-java.lang.String) | Sets string separator used for the data labels on a chart. |
 | [setShowBubbleSize(boolean value)](#setShowBubbleSize-boolean) | Allows to specify if bubble size is to be displayed for the data labels on a chart. |
 | [setShowCategoryName(boolean value)](#setShowCategoryName-boolean) | Allows to specify if category name is to be displayed for the data labels on a chart. |
@@ -133,10 +128,6 @@ Shows how to apply labels to data points in a line chart.
 | [setShowPercentage(boolean value)](#setShowPercentage-boolean) | Allows to specify if percentage value is to be displayed for the data labels on a chart. |
 | [setShowSeriesName(boolean value)](#setShowSeriesName-boolean) | Sets a Boolean to indicate the series name display behavior for the data labels on a chart. |
 | [setShowValue(boolean value)](#setShowValue-boolean) | Allows to specify if values are to be displayed in the data labels. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### clearFormat() {#clearFormat}
 ```
 public void clearFormat()
@@ -145,21 +136,6 @@ public void clearFormat()
 
 Clears format of this data label. The properties are set to the default values defined in the parent data label collection.
 
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### generateItemText() {#generateItemText}
 ```
 public String generateItemText()
@@ -170,16 +146,6 @@ public String generateItemText()
 
 **Returns:**
 java.lang.String
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getFont() {#getFont}
 ```
 public Font getFont()
@@ -1060,16 +1026,6 @@ Shows how to apply labels to data points in a line chart.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### isHidden() {#isHidden}
 ```
 public boolean isHidden()
@@ -1323,22 +1279,6 @@ Shows how to apply labels to data points in a line chart.
 
 **Returns:**
 boolean -  true  if this data label has something to display.
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setSeparator(String value) {#setSeparator-java.lang.String}
 ```
 public void setSeparator(String value)
@@ -2047,49 +1987,4 @@ Shows how to apply labels to data points in a line chart.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

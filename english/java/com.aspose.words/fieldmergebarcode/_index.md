@@ -200,13 +200,11 @@ Shows how to perform a mail merge on QR barcodes.
 | Method | Description |
 | --- | --- |
 | [canWorkAsMergeField()](#canWorkAsMergeField) |  |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getAddStartStopChar()](#getAddStartStopChar) | Gets whether to add Start/Stop characters for barcode types NW7 and CODE39. |
 | [getBackgroundColor()](#getBackgroundColor) | Gets the background color of the barcode symbol. |
 | [getBarcodeType()](#getBarcodeType) | Gets the barcode type (QR, etc.) |
 | [getBarcodeValue()](#getBarcodeValue) | Gets the barcode value. |
 | [getCaseCodeStyle()](#getCaseCodeStyle) | Gets the style of a Case Code for barcode type ITF14. |
-| [getClass()](#getClass) |  |
 | [getDisplayResult()](#getDisplayResult) | Gets the text that represents the displayed field result. |
 | [getDisplayText()](#getDisplayText) | Gets whether to display barcode data (text) along with image. |
 | [getEnd()](#getEnd) | Gets the node that represents the field end. |
@@ -227,14 +225,11 @@ Shows how to perform a mail merge on QR barcodes.
 | [getSymbolHeight()](#getSymbolHeight) | Gets the height of the symbol. |
 | [getSymbolRotation()](#getSymbolRotation) | Gets the rotation of the barcode symbol. |
 | [getType()](#getType) | Gets the Microsoft Word field type. |
-| [hashCode()](#hashCode) |  |
 | [isDirty()](#isDirty) | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [isDirty(boolean value)](#isDirty-boolean) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [isLocked()](#isLocked) | Gets whether the field is locked (should not recalculate its result). |
 | [isLocked(boolean value)](#isLocked-boolean) | Sets whether the field is locked (should not recalculate its result). |
 | [isMergeValueRequired()](#isMergeValueRequired) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [remove()](#remove) | Removes the field from the document. |
 | [setAddStartStopChar(boolean value)](#setAddStartStopChar-boolean) | Sets whether to add Start/Stop characters for barcode types NW7 and CODE39. |
 | [setBackgroundColor(String value)](#setBackgroundColor-java.lang.String) | Sets the background color of the barcode symbol. |
@@ -251,13 +246,9 @@ Shows how to perform a mail merge on QR barcodes.
 | [setScalingFactor(String value)](#setScalingFactor-java.lang.String) | Sets a scaling factor for the symbol. |
 | [setSymbolHeight(String value)](#setSymbolHeight-java.lang.String) | Sets the height of the symbol. |
 | [setSymbolRotation(String value)](#setSymbolRotation-java.lang.String) | Sets the rotation of the barcode symbol. |
-| [toString()](#toString) |  |
 | [unlink()](#unlink) | Performs the field unlink. |
 | [update()](#update) | Performs the field update. |
 | [update(boolean ignoreMergeFormat)](#update-boolean) | Performs a field update. |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### canWorkAsMergeField() {#canWorkAsMergeField}
 ```
 public boolean canWorkAsMergeField()
@@ -265,21 +256,6 @@ public boolean canWorkAsMergeField()
 
 
 
-
-**Returns:**
-boolean
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
@@ -728,16 +704,6 @@ Shows how to perform a mail merge on ITF14 barcodes.
 
 **Returns:**
 java.lang.String - The style of a Case Code for barcode type ITF14.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getDisplayResult() {#getDisplayResult}
 ```
 public String getDisplayResult()
@@ -1826,16 +1792,6 @@ Shows how to insert a field into a document using a field code.
 
 **Returns:**
 int - The Microsoft Word field type. The returned value is one of [FieldType](../../com.aspose.words/fieldtype/) constants.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### isDirty() {#isDirty}
 ```
 public boolean isDirty()
@@ -2054,22 +2010,6 @@ public boolean isMergeValueRequired()
 
 **Returns:**
 boolean
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### remove() {#remove}
 ```
 public Node remove()
@@ -3196,16 +3136,6 @@ Shows how to perform a mail merge on QR barcodes.
 | --- | --- | --- |
 | value | java.lang.String | The rotation of the barcode symbol. |
 
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
 ### unlink() {#unlink}
 ```
 public boolean unlink()
@@ -3395,39 +3325,4 @@ Shows how to preserve or discard INCLUDEPICTURE fields when loading a document.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | ignoreMergeFormat | boolean | If  true  then direct field result formatting is abandoned, regardless of the MERGEFORMAT switch, otherwise normal update is performed. |
-
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 
