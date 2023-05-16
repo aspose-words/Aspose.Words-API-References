@@ -93,22 +93,13 @@ Shows how to work with smart tag properties to get in depth information about sm
 | [add(CustomXmlProperty property)](#add-com.aspose.words.CustomXmlProperty) | Adds a property to the collection. |
 | [clear()](#clear) | Removes all elements from the collection. |
 | [contains(String name)](#contains-java.lang.String) | Determines whether the collection contains a property with the given name. |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [get(int index)](#get-int) | Gets a property at the specified index. |
 | [get(String name)](#get-java.lang.String) | Provides access to the collection items. |
-| [getClass()](#getClass) |  |
 | [getCount()](#getCount) | Gets the number of elements contained in the collection. |
-| [hashCode()](#hashCode) |  |
 | [indexOfKey(String name)](#indexOfKey-java.lang.String) | Returns the zero-based index of the specified property in the collection. |
 | [iterator()](#iterator) | Returns an iterator object that can be used to iterate over all items in the collection. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [remove(String name)](#remove-java.lang.String) | Removes a property with the specified name from the collection. |
 | [removeAt(int index)](#removeAt-int) | Removes a property at the specified index. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### add(CustomXmlProperty property) {#add-com.aspose.words.CustomXmlProperty}
 ```
 public void add(CustomXmlProperty property)
@@ -322,21 +313,6 @@ Shows how to work with smart tag properties to get in depth information about sm
 
 **Returns:**
 boolean -  true  if the item is found in the collection; otherwise,  false .
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### get(int index) {#get-int}
 ```
 public CustomXmlProperty get(int index)
@@ -485,16 +461,6 @@ Shows how to work with smart tag properties to get in depth information about sm
 
 **Returns:**
 [CustomXmlProperty](../../com.aspose.words/customxmlproperty/) - The corresponding [CustomXmlProperty](../../com.aspose.words/customxmlproperty/) value.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getCount() {#getCount}
 ```
 public int getCount()
@@ -564,16 +530,6 @@ Shows how to work with smart tag properties to get in depth information about sm
 
 **Returns:**
 int - The number of elements contained in the collection.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### indexOfKey(String name) {#indexOfKey-java.lang.String}
 ```
 public int indexOfKey(String name)
@@ -717,22 +673,6 @@ Shows how to work with smart tag properties to get in depth information about sm
 
 **Returns:**
 java.util.Iterator
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### remove(String name) {#remove-java.lang.String}
 ```
 public void remove(String name)
@@ -876,49 +816,4 @@ Shows how to work with smart tag properties to get in depth information about sm
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | The zero based index. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

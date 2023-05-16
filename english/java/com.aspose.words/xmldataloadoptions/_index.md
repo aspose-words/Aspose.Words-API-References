@@ -33,17 +33,8 @@ An instance of this class can be passed into constructors of [XmlDataSource](../
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getAlwaysGenerateRootObject()](#getAlwaysGenerateRootObject) | Gets a flag indicating whether a generated data source will always contain an object for an XML root element. |
-| [getClass()](#getClass) |  |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setAlwaysGenerateRootObject(boolean value)](#setAlwaysGenerateRootObject-boolean) | Sets a flag indicating whether a generated data source will always contain an object for an XML root element. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### XmlDataLoadOptions() {#XmlDataLoadOptions}
 ```
 public XmlDataLoadOptions()
@@ -52,21 +43,6 @@ public XmlDataLoadOptions()
 
 Initializes a new instance of this class with default options.
 
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### getAlwaysGenerateRootObject() {#getAlwaysGenerateRootObject}
 ```
 public boolean getAlwaysGenerateRootObject()
@@ -81,42 +57,6 @@ The default value is  false .
 
 **Returns:**
 boolean - A flag indicating whether a generated data source will always contain an object for an XML root element.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setAlwaysGenerateRootObject(boolean value) {#setAlwaysGenerateRootObject-boolean}
 ```
 public void setAlwaysGenerateRootObject(boolean value)
@@ -133,49 +73,4 @@ The default value is  false .
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | A flag indicating whether a generated data source will always contain an object for an XML root element. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

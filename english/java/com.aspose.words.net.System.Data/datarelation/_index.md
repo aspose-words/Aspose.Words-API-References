@@ -34,7 +34,6 @@ Represents a parent/child relationship between two [DataTable](../../com.aspose.
 | [getChildKeyConstraint()](#getChildKeyConstraint) | Gets the [ForeignKeyConstraint](../../com.aspose.words.net.system.data/foreignkeyconstraint/) for the relation. |
 | [getChildTable()](#getChildTable) | Gets the child table of this relation. |
 | [getChildTableName()](#getChildTableName) |  |
-| [getClass()](#getClass) |  |
 | [getDataSet()](#getDataSet) | Gets the [DataSet](../../com.aspose.words.net.system.data/dataset/) to which the [DataRelation](../../com.aspose.words.net.system.data/datarelation/) belongs. |
 | [getParentColumnNames()](#getParentColumnNames) |  |
 | [getParentColumns()](#getParentColumns) | Gets an array of [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) objects that are the parent columns of this [DataRelation](../../com.aspose.words.net.system.data/datarelation/). |
@@ -44,15 +43,9 @@ Represents a parent/child relationship between two [DataTable](../../com.aspose.
 | [getParentTableName()](#getParentTableName) |  |
 | [getRelationName()](#getRelationName) | Gets the name used to retrieve a [DataRelation](../../com.aspose.words.net.system.data/datarelation/) from the [DataRelationCollection](../../com.aspose.words.net.system.data/datarelationcollection/). |
 | [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setChildKeyConstraint(System.Data.ForeignKeyConstraint childKeyConstraint)](#setChildKeyConstraint-com.aspose.words.net.System.Data.ForeignKeyConstraint) |  |
 | [setNested(boolean value)](#setNested-boolean) | Sets a value that indicates whether [DataRelation](../../com.aspose.words.net.system.data/datarelation/) objects are nested. |
 | [setParentKeyConstraint(System.Data.UniqueConstraint parentKeyConstraint)](#setParentKeyConstraint-com.aspose.words.net.System.Data.UniqueConstraint) |  |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### DataRelation(String relationName, System.Data.DataTable parentTable, System.Data.DataTable childTable, String[] parentColumnNames, String[] childColumnNames) {#DataRelation-java.lang.String-com.aspose.words.net.System.Data.DataTable-com.aspose.words.net.System.Data.DataTable-java.lang.String---java.lang.String}
 ```
 public DataRelation(String relationName, System.Data.DataTable parentTable, System.Data.DataTable childTable, String[] parentColumnNames, String[] childColumnNames)
@@ -192,16 +185,6 @@ public String getChildTableName()
 
 **Returns:**
 java.lang.String - the child DataTable's name of this DataRelation.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getDataSet() {#getDataSet}
 ```
 public System.Data.DataSet getDataSet()
@@ -292,22 +275,6 @@ public int hashCode()
 
 **Returns:**
 int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setChildKeyConstraint(System.Data.ForeignKeyConstraint childKeyConstraint) {#setChildKeyConstraint-com.aspose.words.net.System.Data.ForeignKeyConstraint}
 ```
 public void setChildKeyConstraint(System.Data.ForeignKeyConstraint childKeyConstraint)
@@ -346,49 +313,4 @@ public void setParentKeyConstraint(System.Data.UniqueConstraint parentKeyConstra
 | Parameter | Type | Description |
 | --- | --- | --- |
 | parentKeyConstraint | [UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint/) |  |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

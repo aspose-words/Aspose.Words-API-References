@@ -101,7 +101,6 @@ Shows how to use a callback to print the URIs of external resources created whil
 | [createSaveOptions(String fileName)](#createSaveOptions-java.lang.String) | Creates a save options object of a class suitable for the file extension specified in the given file name. |
 | [equals(Object obj)](#equals-java.lang.Object) | Determines whether the specified object is equal in value to the current object. |
 | [getAllowEmbeddingPostScriptFonts()](#getAllowEmbeddingPostScriptFonts) | Gets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
-| [getClass()](#getClass) |  |
 | [getColorMode()](#getColorMode) | Gets a value determining how colors are rendered. |
 | [getCssClassNamesPrefix()](#getCssClassNamesPrefix) | Specifies prefix which is added to all class names in style.css file. |
 | [getDefaultTemplate()](#getDefaultTemplate) | Gets path to default template (including filename). |
@@ -143,9 +142,6 @@ Shows how to use a callback to print the URIs of external resources created whil
 | [getUseAntiAliasing()](#getUseAntiAliasing) | Gets a value determining whether or not to use anti-aliasing for rendering. |
 | [getUseHighQualityRendering()](#getUseHighQualityRendering) | Gets a value determining whether or not to use high quality (i.e. |
 | [getUseTargetMachineFonts()](#getUseTargetMachineFonts) | Flag indicates whether fonts from target machine must be used to display the document. |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setAllowEmbeddingPostScriptFonts(boolean value)](#setAllowEmbeddingPostScriptFonts-boolean) | Sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
 | [setColorMode(int value)](#setColorMode-int) | Sets a value determining how colors are rendered. |
 | [setCssClassNamesPrefix(String value)](#setCssClassNamesPrefix-java.lang.String) | Specifies prefix which is added to all class names in style.css file. |
@@ -188,10 +184,6 @@ Shows how to use a callback to print the URIs of external resources created whil
 | [setUseAntiAliasing(boolean value)](#setUseAntiAliasing-boolean) | Sets a value determining whether or not to use anti-aliasing for rendering. |
 | [setUseHighQualityRendering(boolean value)](#setUseHighQualityRendering-boolean) | Sets a value determining whether or not to use high quality (i.e. |
 | [setUseTargetMachineFonts(boolean value)](#setUseTargetMachineFonts-boolean) | Flag indicates whether fonts from target machine must be used to display the document. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### createSaveOptions(int saveFormat) {#createSaveOptions-int}
 ```
 public static SaveOptions createSaveOptions(int saveFormat)
@@ -305,16 +297,6 @@ Shows how to save the document with PostScript font.
 
 **Returns:**
 boolean - A boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getColorMode() {#getColorMode}
 ```
 public int getColorMode()
@@ -2175,32 +2157,6 @@ Shows how use fonts only from the target machine when saving a document to HTML.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setAllowEmbeddingPostScriptFonts(boolean value) {#setAllowEmbeddingPostScriptFonts-boolean}
 ```
 public void setAllowEmbeddingPostScriptFonts(boolean value)
@@ -4231,49 +4187,4 @@ Shows how use fonts only from the target machine when saving a document to HTML.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

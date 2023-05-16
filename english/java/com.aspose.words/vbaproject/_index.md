@@ -64,22 +64,13 @@ Shows how to access a document's VBA project information.
 | Method | Description |
 | --- | --- |
 | [deepClone()](#deepClone) | Performs a copy of the [VbaProject](../../com.aspose.words/vbaproject/). |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getClass()](#getClass) |  |
 | [getCodePage()](#getCodePage) | Gets the VBA project\\u2019s code page. |
 | [getModules()](#getModules) | Returns collection of VBA project modules. |
 | [getName()](#getName) | Gets VBA project name. |
 | [getReferences()](#getReferences) | Gets a collection of VBA project references. |
-| [hashCode()](#hashCode) |  |
 | [isSigned()](#isSigned) | Shows whether the [VbaProject](../../com.aspose.words/vbaproject/) is signed or not. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setCodePage(int value)](#setCodePage-int) | Sets the VBA project\\u2019s code page. |
 | [setName(String value)](#setName-java.lang.String) | Sets VBA project name. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### VbaProject() {#VbaProject}
 ```
 public VbaProject()
@@ -147,31 +138,6 @@ Shows how to deep clone a VBA project and module.
 
 **Returns:**
 [VbaProject](../../com.aspose.words/vbaproject/) - The cloned [VbaProject](../../com.aspose.words/vbaproject/).
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getCodePage() {#getCodePage}
 ```
 public int getCodePage()
@@ -333,16 +299,6 @@ Gets a collection of VBA project references.
 
 **Returns:**
 [VbaReferenceCollection](../../com.aspose.words/vbareferencecollection/) - A collection of VBA project references.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### isSigned() {#isSigned}
 ```
 public boolean isSigned()
@@ -384,22 +340,6 @@ Shows how to access a document's VBA project information.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setCodePage(int value) {#setCodePage-int}
 ```
 public void setCodePage(int value)
@@ -515,49 +455,4 @@ Shows how to access a document's VBA project information.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | VBA project name. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

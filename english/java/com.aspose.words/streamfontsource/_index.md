@@ -61,11 +61,9 @@ Shows how to load fonts from stream.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getAvailableFonts()](#getAvailableFonts) | Returns list of fonts available via this source. |
 | [getCacheKey()](#getCacheKey) | The key of this source in the cache. |
 | [getCacheKeyInternal()](#getCacheKeyInternal) |  |
-| [getClass()](#getClass) |  |
 | [getFilePath()](#getFilePath) |  |
 | [getFontDataInternal()](#getFontDataInternal) |  |
 | [getPriority()](#getPriority) | Returns the font source priority. |
@@ -73,30 +71,8 @@ Shows how to load fonts from stream.
 | [getSize()](#getSize) |  |
 | [getType()](#getType) | Returns the type of the font source. |
 | [getWarningCallback()](#getWarningCallback) | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [openFontDataStream()](#openFontDataStream) | This method should open the stream with font data on demand. |
 | [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.words.IWarningCallback) | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### getAvailableFonts() {#getAvailableFonts}
 ```
 public ArrayList getAvailableFonts()
@@ -149,16 +125,6 @@ public String getCacheKeyInternal()
 
 **Returns:**
 java.lang.String
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getFilePath() {#getFilePath}
 ```
 public String getFilePath()
@@ -290,32 +256,6 @@ Shows how to call warning callback when the font sources working with.
 
 **Returns:**
 [IWarningCallback](../../com.aspose.words/iwarningcallback/) - The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback/) value.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### openFontDataStream() {#openFontDataStream}
 ```
 public abstract InputStream openFontDataStream()
@@ -408,49 +348,4 @@ Shows how to call warning callback when the font sources working with.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [IWarningCallback](../../com.aspose.words/iwarningcallback/) | The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback/) value. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

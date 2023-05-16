@@ -91,17 +91,11 @@ Shows how to insert chart with date/time values.
 | Method | Description |
 | --- | --- |
 | [equals(Object obj)](#equals-java.lang.Object) | Determines whether the specified object is equal in value to the current object. |
-| [getClass()](#getClass) |  |
 | [getValue()](#getValue) | Returns numeric value of axis bound. |
 | [getValueAsDate()](#getValueAsDate) | Returns value of axis bound represented as datetime. |
 | [hashCode()](#hashCode) |  |
 | [isAuto()](#isAuto) | Returns a flag indicating that axis bound should be determined automatically. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [toString()](#toString) | Returns a user-friendly string that displays the value of this object. |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### AxisBound() {#AxisBound}
 ```
 public AxisBound()
@@ -316,16 +310,6 @@ Determines whether the specified object is equal in value to the current object.
 
 **Returns:**
 boolean
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getValue() {#getValue}
 ```
 public double getValue()
@@ -543,22 +527,6 @@ Shows how to set custom axis bounds.
 
 **Returns:**
 boolean - A flag indicating that axis bound should be determined automatically.
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### toString() {#toString}
 ```
 public String toString()
@@ -569,38 +537,3 @@ Returns a user-friendly string that displays the value of this object.
 
 **Returns:**
 java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
-

@@ -28,23 +28,14 @@ Represents a collection of [DataColumn](../../com.aspose.words.net.system.data/d
 | [add(String columnName, Class type, int columnMapping, boolean allowAutoIncrement, boolean allowDBNull)](#add-java.lang.String-java.lang.Class-int-boolean-boolean) | Creates and adds a [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) with the specified name, type and specific values to the columns collection. |
 | [clear()](#clear) | Clears the collection of any columns. |
 | [contains(String name)](#contains-java.lang.String) | Checks whether the collection contains a column with the specified name. |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [get(int index)](#get-int) | Gets the [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) from the collection at the specified index. |
 | [get(String name)](#get-java.lang.String) | Gets the [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) from the collection with the specified name. |
-| [getClass()](#getClass) |  |
 | [getCount()](#getCount) |  |
-| [hashCode()](#hashCode) |  |
 | [indexOf(System.Data.DataColumn column)](#indexOf-com.aspose.words.net.System.Data.DataColumn) | Gets the index of a column specified by name. |
 | [indexOf(String columnName)](#indexOf-java.lang.String) | Gets the index of the column with the specific name (the name is not case sensitive). |
 | [iterator()](#iterator) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [remove(System.Data.DataColumn column)](#remove-com.aspose.words.net.System.Data.DataColumn) | Removes the specified [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) object from the collection. |
 | [remove(String name)](#remove-java.lang.String) | Removes the [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) object that has the specified name from the collection. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### add(System.Data.DataColumn column) {#add-com.aspose.words.net.System.Data.DataColumn}
 ```
 public void add(System.Data.DataColumn column)
@@ -129,21 +120,6 @@ Checks whether the collection contains a column with the specified name.
 
 **Returns:**
 boolean - true if a column exists with this name; otherwise, false.
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### get(int index) {#get-int}
 ```
 public System.Data.DataColumn get(int index)
@@ -174,16 +150,6 @@ Gets the [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) from t
 
 **Returns:**
 [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) - The [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) in the collection with the specified [DataColumn.getColumnName()](../../com.aspose.words.net.system.data/datacolumn/\#getColumnName) / [DataColumn.setColumnName(java.lang.String)](../../com.aspose.words.net.system.data/datacolumn/\#setColumnName-java.lang.String); otherwise a null value if the [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) does not exist.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getCount() {#getCount}
 ```
 public int getCount()
@@ -194,16 +160,6 @@ public int getCount()
 
 **Returns:**
 int - the total number of elements in a collection.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### indexOf(System.Data.DataColumn column) {#indexOf-com.aspose.words.net.System.Data.DataColumn}
 ```
 public int indexOf(System.Data.DataColumn column)
@@ -244,22 +200,6 @@ public Iterator iterator()
 
 **Returns:**
 java.util.Iterator
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### remove(System.Data.DataColumn column) {#remove-com.aspose.words.net.System.Data.DataColumn}
 ```
 public void remove(System.Data.DataColumn column)
@@ -285,49 +225,4 @@ Removes the [DataColumn](../../com.aspose.words.net.system.data/datacolumn/) obj
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | java.lang.String | The name of the column to remove. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

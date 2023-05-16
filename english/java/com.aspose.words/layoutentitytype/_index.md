@@ -168,22 +168,13 @@ Shows ways of traversing a document's layout entities.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [fromName(String layoutEntityTypeName)](#fromName-java.lang.String) |  |
 | [fromNames(Set layoutEntityTypeNames)](#fromNames-java.util.Set) |  |
-| [getClass()](#getClass) |  |
 | [getName(int layoutEntityType)](#getName-int) |  |
 | [getNames(int layoutEntityType)](#getNames-int) |  |
 | [getValues()](#getValues) |  |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
-| [toString()](#toString) |  |
 | [toString(int layoutEntityType)](#toString-int) |  |
 | [toStringSet(int attr)](#toStringSet-int) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### CELL {#CELL}
 ```
 public static int CELL
@@ -302,21 +293,6 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### fromName(String layoutEntityTypeName) {#fromName-java.lang.String}
 ```
 public static int fromName(String layoutEntityTypeName)
@@ -347,16 +323,6 @@ public static int fromNames(Set layoutEntityTypeNames)
 
 **Returns:**
 int
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getName(int layoutEntityType) {#getName-int}
 ```
 public static String getName(int layoutEntityType)
@@ -397,42 +363,6 @@ public static int[] getValues()
 
 **Returns:**
 int[]
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
 ### toString(int layoutEntityType) {#toString-int}
 ```
 public static String toString(int layoutEntityType)
@@ -463,38 +393,3 @@ public static String toStringSet(int attr)
 
 **Returns:**
 java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
-

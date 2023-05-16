@@ -155,8 +155,6 @@ Shows how to populate an INDEX field with entries using XE fields, and also modi
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getClass()](#getClass) |  |
 | [getDisplayResult()](#getDisplayResult) | Gets the text that represents the displayed field result. |
 | [getEnd()](#getEnd) | Gets the node that represents the field end. |
 | [getEntryType()](#getEntryType) | Gets an index entry type. |
@@ -173,7 +171,6 @@ Shows how to populate an INDEX field with entries using XE fields, and also modi
 | [getText()](#getText) | Gets the text of the entry. |
 | [getType()](#getType) | Gets the Microsoft Word field type. |
 | [getYomi()](#getYomi) | Gets the yomi (first phonetic character for sorting indexes) for the index entry |
-| [hashCode()](#hashCode) |  |
 | [isBold()](#isBold) | Gets whether to apply bold formatting to the entry's page number. |
 | [isBold(boolean value)](#isBold-boolean) | Sets whether to apply bold formatting to the entry's page number. |
 | [isDirty()](#isDirty) | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
@@ -182,8 +179,6 @@ Shows how to populate an INDEX field with entries using XE fields, and also modi
 | [isItalic(boolean value)](#isItalic-boolean) | Sets whether to apply italic formatting to the entry's page number. |
 | [isLocked()](#isLocked) | Gets whether the field is locked (should not recalculate its result). |
 | [isLocked(boolean value)](#isLocked-boolean) | Sets whether the field is locked (should not recalculate its result). |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [remove()](#remove) | Removes the field from the document. |
 | [setEntryType(String value)](#setEntryType-java.lang.String) | Sets an index entry type. |
 | [setLocaleId(int value)](#setLocaleId-int) | Sets the LCID of the field. |
@@ -192,38 +187,9 @@ Shows how to populate an INDEX field with entries using XE fields, and also modi
 | [setResult(String value)](#setResult-java.lang.String) | Sets text that is between the field separator and field end. |
 | [setText(String value)](#setText-java.lang.String) | Sets the text of the entry. |
 | [setYomi(String value)](#setYomi-java.lang.String) | Sets the yomi (first phonetic character for sorting indexes) for the index entry |
-| [toString()](#toString) |  |
 | [unlink()](#unlink) | Performs the field unlink. |
 | [update()](#update) | Performs the field update. |
 | [update(boolean ignoreMergeFormat)](#update-boolean) | Performs a field update. |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getDisplayResult() {#getDisplayResult}
 ```
 public String getDisplayResult()
@@ -1236,16 +1202,6 @@ Shows how to sort INDEX field entries phonetically.
 
 **Returns:**
 java.lang.String - The yomi (first phonetic character for sorting indexes) for the index entry
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### isBold() {#isBold}
 ```
 public boolean isBold()
@@ -1783,22 +1739,6 @@ Shows how to work with a FieldStart node.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | Whether the field is locked (should not recalculate its result). |
-
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
 
 ### remove() {#remove}
 ```
@@ -2391,16 +2331,6 @@ Shows how to sort INDEX field entries phonetically.
 | --- | --- | --- |
 | value | java.lang.String | The yomi (first phonetic character for sorting indexes) for the index entry |
 
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
 ### unlink() {#unlink}
 ```
 public boolean unlink()
@@ -2590,39 +2520,4 @@ Shows how to preserve or discard INCLUDEPICTURE fields when loading a document.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | ignoreMergeFormat | boolean | If  true  then direct field result formatting is abandoned, regardless of the MERGEFORMAT switch, otherwise normal update is performed. |
-
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

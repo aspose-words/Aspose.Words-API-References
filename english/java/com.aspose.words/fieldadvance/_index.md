@@ -72,8 +72,6 @@ Shows how to insert an ADVANCE field, and edit its properties.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getClass()](#getClass) |  |
 | [getDisplayResult()](#getDisplayResult) | Gets the text that represents the displayed field result. |
 | [getDownOffset()](#getDownOffset) | Gets the number of points by which the text that follows the field should be moved down. |
 | [getEnd()](#getEnd) | Gets the node that represents the field end. |
@@ -91,13 +89,10 @@ Shows how to insert an ADVANCE field, and edit its properties.
 | [getType()](#getType) | Gets the Microsoft Word field type. |
 | [getUpOffset()](#getUpOffset) | Gets the number of points by which the text that follows the field should be moved up. |
 | [getVerticalPosition()](#getVerticalPosition) | Gets the number of points by which the text that follows the field should be moved vertically from the top edge of the page. |
-| [hashCode()](#hashCode) |  |
 | [isDirty()](#isDirty) | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [isDirty(boolean value)](#isDirty-boolean) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [isLocked()](#isLocked) | Gets whether the field is locked (should not recalculate its result). |
 | [isLocked(boolean value)](#isLocked-boolean) | Sets whether the field is locked (should not recalculate its result). |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [remove()](#remove) | Removes the field from the document. |
 | [setDownOffset(String value)](#setDownOffset-java.lang.String) | Sets the number of points by which the text that follows the field should be moved down. |
 | [setHorizontalPosition(String value)](#setHorizontalPosition-java.lang.String) | Sets the number of points by which the text that follows the field should be moved horizontally from the left edge of the column, frame, or text box. |
@@ -107,38 +102,9 @@ Shows how to insert an ADVANCE field, and edit its properties.
 | [setRightOffset(String value)](#setRightOffset-java.lang.String) | Sets the number of points by which the text that follows the field should be moved right. |
 | [setUpOffset(String value)](#setUpOffset-java.lang.String) | Sets the number of points by which the text that follows the field should be moved up. |
 | [setVerticalPosition(String value)](#setVerticalPosition-java.lang.String) | Sets the number of points by which the text that follows the field should be moved vertically from the top edge of the page. |
-| [toString()](#toString) |  |
 | [unlink()](#unlink) | Performs the field unlink. |
 | [update()](#update) | Performs the field update. |
 | [update(boolean ignoreMergeFormat)](#update-boolean) | Performs a field update. |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getDisplayResult() {#getDisplayResult}
 ```
 public String getDisplayResult()
@@ -1081,16 +1047,6 @@ Shows how to insert an ADVANCE field, and edit its properties.
 
 **Returns:**
 java.lang.String - The number of points by which the text that follows the field should be moved vertically from the top edge of the page.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### isDirty() {#isDirty}
 ```
 public boolean isDirty()
@@ -1298,22 +1254,6 @@ Shows how to work with a FieldStart node.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | Whether the field is locked (should not recalculate its result). |
-
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
 
 ### remove() {#remove}
 ```
@@ -1839,16 +1779,6 @@ Shows how to insert an ADVANCE field, and edit its properties.
 | --- | --- | --- |
 | value | java.lang.String | The number of points by which the text that follows the field should be moved vertically from the top edge of the page. |
 
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
 ### unlink() {#unlink}
 ```
 public boolean unlink()
@@ -2038,39 +1968,4 @@ Shows how to preserve or discard INCLUDEPICTURE fields when loading a document.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | ignoreMergeFormat | boolean | If  true  then direct field result formatting is abandoned, regardless of the MERGEFORMAT switch, otherwise normal update is performed. |
-
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

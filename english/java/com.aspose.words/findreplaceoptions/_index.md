@@ -81,10 +81,8 @@ Shows how to toggle standalone word-only find-and-replace operations.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getApplyFont()](#getApplyFont) | Text formatting applied to new content. |
 | [getApplyParagraphFormat()](#getApplyParagraphFormat) | Paragraph formatting applied to new content. |
-| [getClass()](#getClass) |  |
 | [getDirection()](#getDirection) | Selects direction for replace. |
 | [getFindWholeWordsOnly()](#getFindWholeWordsOnly) | True indicates the oldValue must be a standalone word. |
 | [getIgnoreDeleted()](#getIgnoreDeleted) | Gets a boolean value indicating either to ignore text inside delete revisions. |
@@ -100,9 +98,6 @@ Shows how to toggle standalone word-only find-and-replace operations.
 | [getSmartParagraphBreakReplacement()](#getSmartParagraphBreakReplacement) | Gets or sets a boolean value indicating either it is allowed to replace paragraph break when there is no next sibling paragraph. |
 | [getUseLegacyOrder()](#getUseLegacyOrder) | True indicates that a text search is performed sequentially from top to bottom considering the text boxes. |
 | [getUseSubstitutions()](#getUseSubstitutions) | Gets a boolean value indicating whether to recognize and use substitutions within replacement patterns. |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setDirection(int value)](#setDirection-int) | Selects direction for replace. |
 | [setFindWholeWordsOnly(boolean value)](#setFindWholeWordsOnly-boolean) | True indicates the oldValue must be a standalone word. |
 | [setIgnoreDeleted(boolean value)](#setIgnoreDeleted-boolean) | Sets a boolean value indicating either to ignore text inside delete revisions. |
@@ -118,10 +113,6 @@ Shows how to toggle standalone word-only find-and-replace operations.
 | [setSmartParagraphBreakReplacement(boolean value)](#setSmartParagraphBreakReplacement-boolean) | Gets or sets a boolean value indicating either it is allowed to replace paragraph break when there is no next sibling paragraph. |
 | [setUseLegacyOrder(boolean value)](#setUseLegacyOrder-boolean) | True indicates that a text search is performed sequentially from top to bottom considering the text boxes. |
 | [setUseSubstitutions(boolean value)](#setUseSubstitutions-boolean) | Sets a boolean value indicating whether to recognize and use substitutions within replacement patterns. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### FindReplaceOptions() {#FindReplaceOptions}
 ```
 public FindReplaceOptions()
@@ -170,21 +161,6 @@ Initializes a new instance of this class.
 | direction | int |  |
 | replacingCallback | [IReplacingCallback](../../com.aspose.words/ireplacingcallback/) |  |
 
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### getApplyFont() {#getApplyFont}
 ```
 public Font getApplyFont()
@@ -306,16 +282,6 @@ Shows how to add formatting to paragraphs in which a find-and-replace operation 
 
 **Returns:**
 [ParagraphFormat](../../com.aspose.words/paragraphformat/) - The corresponding [ParagraphFormat](../../com.aspose.words/paragraphformat/) value.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getDirection() {#getDirection}
 ```
 public int getDirection()
@@ -1031,32 +997,6 @@ Shows how to replace the text with substitutions.
 
 **Returns:**
 boolean - A boolean value indicating whether to recognize and use substitutions within replacement patterns.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setDirection(int value) {#setDirection-int}
 ```
 public void setDirection(int value)
@@ -1816,49 +1756,4 @@ Shows how to replace the text with substitutions.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | A boolean value indicating whether to recognize and use substitutions within replacement patterns. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

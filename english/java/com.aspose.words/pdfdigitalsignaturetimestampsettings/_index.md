@@ -31,23 +31,14 @@ To learn more, visit the [ Work with Digital Signatures ][Work with Digital Sign
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getClass()](#getClass) |  |
 | [getPassword()](#getPassword) | Timestamp server password. |
 | [getServerUrl()](#getServerUrl) | Timestamp server URL. |
 | [getTimeout()](#getTimeout) | Time-out value in milliseconds for accessing timestamp server. |
 | [getUserName()](#getUserName) | Timestamp server user name. |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setPassword(String value)](#setPassword-java.lang.String) | Timestamp server password. |
 | [setServerUrl(String value)](#setServerUrl-java.lang.String) | Timestamp server URL. |
 | [setTimeout(long value)](#setTimeout-long) | Time-out value in milliseconds for accessing timestamp server. |
 | [setUserName(String value)](#setUserName-java.lang.String) | Timestamp server user name. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### PdfDigitalSignatureTimestampSettings() {#PdfDigitalSignatureTimestampSettings}
 ```
 public PdfDigitalSignatureTimestampSettings()
@@ -87,31 +78,6 @@ Initializes an instance of this class.
 | password | java.lang.String | Timestamp server password. |
 | timeout | long | Time-out value in milliseconds for accessing timestamp server. |
 
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getPassword() {#getPassword}
 ```
 public String getPassword()
@@ -168,32 +134,6 @@ The default value is  null .
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setPassword(String value) {#setPassword-java.lang.String}
 ```
 public void setPassword(String value)
@@ -261,49 +201,4 @@ The default value is  null .
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | The corresponding java.lang.String value. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

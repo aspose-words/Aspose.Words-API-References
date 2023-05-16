@@ -24,8 +24,6 @@ To learn more, visit the [ Working with Charts ][Working with Charts] documentat
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getClass()](#getClass) |  |
 | [getDashStyle()](#getDashStyle) |  |
 | [getEndArrowLength()](#getEndArrowLength) |  |
 | [getEndArrowType()](#getEndArrowType) |  |
@@ -64,9 +62,6 @@ To learn more, visit the [ Working with Charts ][Working with Charts] documentat
 | [getStrokeVisible()](#getStrokeVisible) |  |
 | [getTextureAlignment()](#getTextureAlignment) |  |
 | [getWeight()](#getWeight) |  |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [oneColorGradient(int style, int variant, double degree)](#oneColorGradient-int-int-double) |  |
 | [patterned(int patternType)](#patterned-int) |  |
 | [presetTextured(int presetTexture)](#presetTextured-int) |  |
@@ -100,36 +95,7 @@ To learn more, visit the [ Working with Charts ][Working with Charts] documentat
 | [setTextureAlignment(int value)](#setTextureAlignment-int) |  |
 | [setWeight(double value)](#setWeight-double) |  |
 | [solid()](#solid) |  |
-| [toString()](#toString) |  |
 | [twoColorGradient(int style, int variant)](#twoColorGradient-int-int) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getDashStyle() {#getDashStyle}
 ```
 public int getDashStyle()
@@ -584,32 +550,6 @@ public double getWeight()
 
 **Returns:**
 double
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### oneColorGradient(int style, int variant, double degree) {#oneColorGradient-int-int-double}
 ```
 public void oneColorGradient(int style, int variant, double degree)
@@ -1036,16 +976,6 @@ public void solid()
 
 
 
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
 ### twoColorGradient(int style, int variant) {#twoColorGradient-int-int}
 ```
 public void twoColorGradient(int style, int variant)
@@ -1059,39 +989,4 @@ public void twoColorGradient(int style, int variant)
 | --- | --- | --- |
 | style | int |  |
 | variant | int |  |
-
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

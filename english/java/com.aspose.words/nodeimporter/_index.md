@@ -104,16 +104,7 @@ Shows how to insert the contents of one document to a bookmark in another docume
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getClass()](#getClass) |  |
-| [hashCode()](#hashCode) |  |
 | [importNode(Node srcNode, boolean isImportChildren)](#importNode-com.aspose.words.Node-boolean) | Imports a node from one document into another. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, int importFormatMode) {#NodeImporter-com.aspose.words.DocumentBase-com.aspose.words.DocumentBase-int}
 ```
 public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, int importFormatMode)
@@ -145,41 +136,6 @@ Initializes a new instance of this class.
 | importFormatMode | int |  |
 | importFormatOptions | [ImportFormatOptions](../../com.aspose.words/importformatoptions/) |  |
 
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### importNode(Node srcNode, boolean isImportChildren) {#importNode-com.aspose.words.Node-boolean}
 ```
 public Node importNode(Node srcNode, boolean isImportChildren)
@@ -264,64 +220,3 @@ Shows how to insert the contents of one document to a bookmark in another docume
 
 **Returns:**
 [Node](../../com.aspose.words/node/) - The cloned, imported node. The node belongs to the destination document, but has no parent.
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
-

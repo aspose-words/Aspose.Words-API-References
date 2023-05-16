@@ -77,7 +77,6 @@ Shows how to execute a mail merge with data from a DataTable.
 | Method | Description |
 | --- | --- |
 | [deleteFields()](#deleteFields) | Removes mail merge related fields from the document. |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [execute(IMailMergeDataSource dataSource)](#execute-com.aspose.words.IMailMergeDataSource) | Performs a mail merge from a custom data source. |
 | [execute(System.Data.DataRow row)](#execute-com.aspose.words.net.System.Data.DataRow) | Performs mail merge from a **DataRow** into the document. |
 | [execute(System.Data.DataTable table)](#execute-com.aspose.words.net.System.Data.DataTable) | Performs mail merge from a com.aspose.words.net.System.Data.DataTable into the document. |
@@ -90,7 +89,6 @@ Shows how to execute a mail merge with data from a DataTable.
 | [executeWithRegions(System.Data.DataTable dataTable)](#executeWithRegions-com.aspose.words.net.System.Data.DataTable) | Performs mail merge from a **DataTable** into the document with mail merge regions. |
 | [executeWithRegions(System.Data.DataView dataView)](#executeWithRegions-com.aspose.words.net.System.Data.DataView) | Performs mail merge from a **DataView** into the document with mail merge regions. |
 | [executeWithRegions(System.Data.IDataReader dataReader, String tableName)](#executeWithRegions-com.aspose.words.net.System.Data.IDataReader-java.lang.String) | Performs mail merge from **IDataReader** into the document with mail merge regions. |
-| [getClass()](#getClass) |  |
 | [getCleanupOptions()](#getCleanupOptions) | Gets a set of flags that specify what items should be removed during mail merge. |
 | [getCleanupParagraphsWithPunctuationMarks()](#getCleanupParagraphsWithPunctuationMarks) | Gets a value indicating whether paragraphs with punctuation marks are considered as empty and should be removed if the [MailMergeCleanupOptions.REMOVE\_EMPTY\_PARAGRAPHS](../../com.aspose.words/mailmergecleanupoptions/\#REMOVE-EMPTY-PARAGRAPHS) option is specified. |
 | [getFieldMergingCallback()](#getFieldMergingCallback) | Occurs during mail merge when a mail merge field is encountered in the document. |
@@ -112,9 +110,6 @@ Shows how to execute a mail merge with data from a DataTable.
 | [getUnconditionalMergeFieldsAndRegions()](#getUnconditionalMergeFieldsAndRegions) | Gets a value indicating whether merge fields and merge regions are merged regardless of the parent IF field's condition. |
 | [getUseNonMergeFields()](#getUseNonMergeFields) | When  true , specifies that in addition to MERGEFIELD fields, mail merge is performed into some other types of fields and also into "\{\{fieldName\}\}" tags. |
 | [getUseWholeParagraphAsRegion()](#getUseWholeParagraphAsRegion) | Gets a value indicating whether whole paragraph with **TableStart** or **TableEnd** field or particular range between **TableStart** and **TableEnd** fields should be included into mail merge region. |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setCleanupOptions(int value)](#setCleanupOptions-int) | Sets a set of flags that specify what items should be removed during mail merge. |
 | [setCleanupParagraphsWithPunctuationMarks(boolean value)](#setCleanupParagraphsWithPunctuationMarks-boolean) | Sets a value indicating whether paragraphs with punctuation marks are considered as empty and should be removed if the [MailMergeCleanupOptions.REMOVE\_EMPTY\_PARAGRAPHS](../../com.aspose.words/mailmergecleanupoptions/\#REMOVE-EMPTY-PARAGRAPHS) option is specified. |
 | [setFieldMergingCallback(IFieldMergingCallback value)](#setFieldMergingCallback-com.aspose.words.IFieldMergingCallback) | Occurs during mail merge when a mail merge field is encountered in the document. |
@@ -130,10 +125,6 @@ Shows how to execute a mail merge with data from a DataTable.
 | [setUnconditionalMergeFieldsAndRegions(boolean value)](#setUnconditionalMergeFieldsAndRegions-boolean) | Sets a value indicating whether merge fields and merge regions are merged regardless of the parent IF field's condition. |
 | [setUseNonMergeFields(boolean value)](#setUseNonMergeFields-boolean) | When  true , specifies that in addition to MERGEFIELD fields, mail merge is performed into some other types of fields and also into "\{\{fieldName\}\}" tags. |
 | [setUseWholeParagraphAsRegion(boolean value)](#setUseWholeParagraphAsRegion-boolean) | Sets a value indicating whether whole paragraph with **TableStart** or **TableEnd** field or particular range between **TableStart** and **TableEnd** fields should be included into mail merge region. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### deleteFields() {#deleteFields}
 ```
 public void deleteFields()
@@ -158,21 +149,6 @@ Shows how to delete all merge fields from a document without executing mail merg
  
 ```
 
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### execute(IMailMergeDataSource dataSource) {#execute-com.aspose.words.IMailMergeDataSource}
 ```
 public void execute(IMailMergeDataSource dataSource)
@@ -1065,16 +1041,6 @@ Shows how to insert images stored in a database BLOB field into a report.
 | dataReader | [IDataReader](../../com.aspose.words.net.system.data/idatareader/) | Source of the data records for mail merge such as **OleDbDataReader** or **SqlDataReader**. |
 | tableName | java.lang.String | Name of the mail merge region in the document to populate. |
 
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getCleanupOptions() {#getCleanupOptions}
 ```
 public int getCleanupOptions()
@@ -2293,32 +2259,6 @@ Shows the relationship between mail merge regions and paragraphs.
 
 **Returns:**
 boolean - A value indicating whether whole paragraph with **TableStart** or **TableEnd** field or particular range between **TableStart** and **TableEnd** fields should be included into mail merge region.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setCleanupOptions(int value) {#setCleanupOptions-int}
 ```
 public void setCleanupOptions(int value)
@@ -3197,49 +3137,4 @@ Shows the relationship between mail merge regions and paragraphs.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | A value indicating whether whole paragraph with **TableStart** or **TableEnd** field or particular range between **TableStart** and **TableEnd** fields should be included into mail merge region. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

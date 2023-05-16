@@ -191,25 +191,16 @@ Shows how to set multiple font source directories.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getClass()](#getClass) |  |
 | [getDefaultInstance()](#getDefaultInstance) | Static default font settings. |
 | [getFallbackSettings()](#getFallbackSettings) | Settings related to font fallback mechanism. |
 | [getFontsSources()](#getFontsSources) | Gets a copy of the array that contains the list of sources where Aspose.Words looks for TrueType fonts. |
 | [getSubstitutionSettings()](#getSubstitutionSettings) | Settings related to font substitution mechanism. |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [resetFontSources()](#resetFontSources) | Resets the fonts sources to the system default. |
 | [saveSearchCache(OutputStream outputStream)](#saveSearchCache-java.io.OutputStream) |  |
 | [setFontsFolder(String fontFolder, boolean recursive)](#setFontsFolder-java.lang.String-boolean) | Sets the folder where Aspose.Words looks for TrueType fonts when rendering documents or embedding fonts. |
 | [setFontsFolders(String[] fontsFolders, boolean recursive)](#setFontsFolders-java.lang.String---boolean) | Sets the folders where Aspose.Words looks for TrueType fonts when rendering documents or embedding fonts. |
 | [setFontsSources(FontSourceBase[] sources)](#setFontsSources-com.aspose.words.FontSourceBase) | Sets the sources where Aspose.Words looks for TrueType fonts when rendering documents or embedding fonts. |
 | [setFontsSources(FontSourceBase[] sources, InputStream cacheInputStream)](#setFontsSources-com.aspose.words.FontSourceBase---java.io.InputStream) |  |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### FontSettings() {#FontSettings}
 ```
 public FontSettings()
@@ -218,31 +209,6 @@ public FontSettings()
 
 Initializes a new instance of this class.
 
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getDefaultInstance() {#getDefaultInstance}
 ```
 public static FontSettings getDefaultInstance()
@@ -512,32 +478,6 @@ Shows how to access a document's system font source and set font substitutes.
 
 **Returns:**
 [FontSubstitutionSettings](../../com.aspose.words/fontsubstitutionsettings/) - The corresponding [FontSubstitutionSettings](../../com.aspose.words/fontsubstitutionsettings/) value.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### resetFontSources() {#resetFontSources}
 ```
 public void resetFontSources()
@@ -829,49 +769,4 @@ public void setFontsSources(FontSourceBase[] sources, InputStream cacheInputStre
 | --- | --- | --- |
 | sources | [FontSourceBase\[\]](../../com.aspose.words/fontsourcebase/) |  |
 | cacheInputStream | java.io.InputStream |  |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

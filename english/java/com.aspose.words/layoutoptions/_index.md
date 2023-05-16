@@ -91,9 +91,7 @@ Shows how to alter the appearance of revisions in a rendered output document.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getCallback()](#getCallback) | Gets [IPageLayoutCallback](../../com.aspose.words/ipagelayoutcallback/) implementation used by page layout model. |
-| [getClass()](#getClass) |  |
 | [getCommentDisplayMode()](#getCommentDisplayMode) | Gets the way comments are rendered. |
 | [getContinuousSectionPageNumberingRestart()](#getContinuousSectionPageNumberingRestart) | Gets the mode of behavior for computing page numbers when a continuous section restarts the page numbering. |
 | [getIgnorePrinterMetrics()](#getIgnorePrinterMetrics) | Gets indication of whether the "Use printer metrics to lay out document" compatibility option is ignored. |
@@ -101,9 +99,6 @@ Shows how to alter the appearance of revisions in a rendered output document.
 | [getShowHiddenText()](#getShowHiddenText) | Gets indication of whether hidden text in the document is rendered. |
 | [getShowParagraphMarks()](#getShowParagraphMarks) | Gets indication of whether paragraph marks are rendered. |
 | [getTextShaperFactory()](#getTextShaperFactory) | Gets [ITextShaperFactory](../../com.aspose.words/itextshaperfactory/) implementation used for Advanced Typography rendering features. |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setCallback(IPageLayoutCallback value)](#setCallback-com.aspose.words.IPageLayoutCallback) | Sets [IPageLayoutCallback](../../com.aspose.words/ipagelayoutcallback/) implementation used by page layout model. |
 | [setCommentDisplayMode(int value)](#setCommentDisplayMode-int) | Sets the way comments are rendered. |
 | [setContinuousSectionPageNumberingRestart(int value)](#setContinuousSectionPageNumberingRestart-int) | Sets the mode of behavior for computing page numbers when a continuous section restarts the page numbering. |
@@ -111,25 +106,6 @@ Shows how to alter the appearance of revisions in a rendered output document.
 | [setShowHiddenText(boolean value)](#setShowHiddenText-boolean) | Sets indication of whether hidden text in the document is rendered. |
 | [setShowParagraphMarks(boolean value)](#setShowParagraphMarks-boolean) | Sets indication of whether paragraph marks are rendered. |
 | [setTextShaperFactory(ITextShaperFactory value)](#setTextShaperFactory-com.aspose.words.ITextShaperFactory) | Sets [ITextShaperFactory](../../com.aspose.words/itextshaperfactory/) implementation used for Advanced Typography rendering features. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### getCallback() {#getCallback}
 ```
 public IPageLayoutCallback getCallback()
@@ -140,16 +116,6 @@ Gets [IPageLayoutCallback](../../com.aspose.words/ipagelayoutcallback/) implemen
 
 **Returns:**
 [IPageLayoutCallback](../../com.aspose.words/ipagelayoutcallback/) - [IPageLayoutCallback](../../com.aspose.words/ipagelayoutcallback/) implementation used by page layout model.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getCommentDisplayMode() {#getCommentDisplayMode}
 ```
 public int getCommentDisplayMode()
@@ -377,32 +343,6 @@ Shows how to support OpenType features using the HarfBuzz text shaping engine.
 
 **Returns:**
 [ITextShaperFactory](../../com.aspose.words/itextshaperfactory/) - [ITextShaperFactory](../../com.aspose.words/itextshaperfactory/) implementation used for Advanced Typography rendering features.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setCallback(IPageLayoutCallback value) {#setCallback-com.aspose.words.IPageLayoutCallback}
 ```
 public void setCallback(IPageLayoutCallback value)
@@ -626,49 +566,4 @@ Shows how to support OpenType features using the HarfBuzz text shaping engine.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [ITextShaperFactory](../../com.aspose.words/itextshaperfactory/) | [ITextShaperFactory](../../com.aspose.words/itextshaperfactory/) implementation used for Advanced Typography rendering features. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

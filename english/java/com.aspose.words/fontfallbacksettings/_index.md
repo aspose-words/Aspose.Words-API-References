@@ -83,21 +83,12 @@ Shows how to distribute fallback fonts across Unicode character code ranges.
 | Method | Description |
 | --- | --- |
 | [buildAutomatic()](#buildAutomatic) | Automatically builds the fallback settings by scanning available fonts. |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getClass()](#getClass) |  |
-| [hashCode()](#hashCode) |  |
 | [load(InputStream stream)](#load-java.io.InputStream) |  |
 | [load(String fileName)](#load-java.lang.String) | Loads font fallback settings from XML file. |
 | [loadMsOfficeFallbackSettings()](#loadMsOfficeFallbackSettings) | Loads predefined fallback settings which mimics the Microsoft Word fallback and uses Microsoft office fonts. |
 | [loadNotoFallbackSettings()](#loadNotoFallbackSettings) | Loads predefined fallback settings which uses Google Noto fonts. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [save(OutputStream outputStream)](#save-java.io.OutputStream) |  |
 | [save(String fileName)](#save-java.lang.String) | Saves the current fallback settings to file. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### buildAutomatic() {#buildAutomatic}
 ```
 public void buildAutomatic()
@@ -167,41 +158,6 @@ Shows how to distribute fallback fonts across Unicode character code ranges.
 
 [Unicode Character Range]: https://docs.microsoft.com/en-us/typography/opentype/spec/os2#ur
 
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### load(InputStream stream) {#load-java.io.InputStream}
 ```
 public void load(InputStream stream)
@@ -345,22 +301,6 @@ Shows how to load pre-defined fallback font settings.
  
 ```
 
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### save(OutputStream outputStream) {#save-java.io.OutputStream}
 ```
 public void save(OutputStream outputStream)
@@ -406,49 +346,4 @@ Shows how to load and save font fallback settings to/from an XML document in the
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | java.lang.String | Output file name. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

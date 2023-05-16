@@ -49,8 +49,6 @@ Shows how to get information about formatting properties of paragraphs that are 
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getClass()](#getClass) |  |
 | [getHeight()](#getHeight) | Gets the height of the specified frame. |
 | [getHeightRule()](#getHeightRule) | Gets the rule for determining the height of the specified frame. |
 | [getHorizontalAlignment()](#getHorizontalAlignment) | Gets horizontal alignment of the specified frame. |
@@ -62,39 +60,7 @@ Shows how to get information about formatting properties of paragraphs that are 
 | [getVerticalDistanceFromText()](#getVerticalDistanceFromText) | Specifies vertical distance (in points) between a frame and the surrounding text. |
 | [getVerticalPosition()](#getVerticalPosition) | Gets vertical distance between the edge of the frame and the item specified by the [getRelativeVerticalPosition()](../../com.aspose.words/frameformat/\#getRelativeVerticalPosition) property. |
 | [getWidth()](#getWidth) | Gets the width of the specified frame, in points. |
-| [hashCode()](#hashCode) |  |
 | [isFrame()](#isFrame) | Returns  true  if the paragraph is a frame. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getHeight() {#getHeight}
 ```
 public double getHeight()
@@ -469,16 +435,6 @@ Shows how to get information about formatting properties of paragraphs that are 
 
 **Returns:**
 double - The width of the specified frame, in points.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### isFrame() {#isFrame}
 ```
 public boolean isFrame()
@@ -513,64 +469,3 @@ Shows how to get information about formatting properties of paragraphs that are 
 
 **Returns:**
 boolean -  true  if the paragraph is a frame.
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
-

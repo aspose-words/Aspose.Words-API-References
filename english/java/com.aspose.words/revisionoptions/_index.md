@@ -51,8 +51,6 @@ Shows how to alter the appearance of revisions in a rendered output document.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getClass()](#getClass) |  |
 | [getCommentColor()](#getCommentColor) | Allows to specify the color to be used for comments. |
 | [getDeletedTextColor()](#getDeletedTextColor) | Allows to specify the color to be used for deleted content [RevisionType.DELETION](../../com.aspose.words/revisiontype/\#DELETION). |
 | [getDeletedTextEffect()](#getDeletedTextEffect) | Allows to specify the effect to be applied to the deleted content [RevisionType.DELETION](../../com.aspose.words/revisiontype/\#DELETION). |
@@ -72,9 +70,6 @@ Shows how to alter the appearance of revisions in a rendered output document.
 | [getShowOriginalRevision()](#getShowOriginalRevision) | Allows to specify whether the original text should be shown instead of revised one. |
 | [getShowRevisionBars()](#getShowRevisionBars) | Allows to specify whether revision bars should be rendered near lines containing revised content. |
 | [getShowRevisionMarks()](#getShowRevisionMarks) | Allow to specify whether revision text should be marked with special formatting markup. |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setCommentColor(int value)](#setCommentColor-int) | Allows to specify the color to be used for comments. |
 | [setDeletedTextColor(int value)](#setDeletedTextColor-int) | Allows to specify the color to be used for deleted content [RevisionType.DELETION](../../com.aspose.words/revisiontype/\#DELETION). |
 | [setDeletedTextEffect(int value)](#setDeletedTextEffect-int) | Allows to specify the effect to be applied to the deleted content [RevisionType.DELETION](../../com.aspose.words/revisiontype/\#DELETION). |
@@ -94,35 +89,6 @@ Shows how to alter the appearance of revisions in a rendered output document.
 | [setShowOriginalRevision(boolean value)](#setShowOriginalRevision-boolean) | Allows to specify whether the original text should be shown instead of revised one. |
 | [setShowRevisionBars(boolean value)](#setShowRevisionBars-boolean) | Allows to specify whether revision bars should be rendered near lines containing revised content. |
 | [setShowRevisionMarks(boolean value)](#setShowRevisionMarks-boolean) | Allow to specify whether revision text should be marked with special formatting markup. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getCommentColor() {#getCommentColor}
 ```
 public int getCommentColor()
@@ -1152,32 +1118,6 @@ Shows how to modify the appearance of revisions.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setCommentColor(int value) {#setCommentColor-int}
 ```
 public void setCommentColor(int value)
@@ -2263,49 +2203,4 @@ Shows how to modify the appearance of revisions.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

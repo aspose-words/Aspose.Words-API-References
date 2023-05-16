@@ -30,21 +30,12 @@ Represents the collection of [DataRelation](../../com.aspose.words.net.system.da
 | [add(String name, System.Data.DataColumn parentColumn, System.Data.DataColumn childColumn, boolean createConstraints)](#add-java.lang.String-com.aspose.words.net.System.Data.DataColumn-com.aspose.words.net.System.Data.DataColumn-boolean) | Creates a [DataRelation](../../com.aspose.words.net.system.data/datarelation/) with the specified name, parent and child columns, with optional constraints according to the value of the  createConstraints  parameter, and adds it to the collection. |
 | [clear()](#clear) | Clears the collection of any relations. |
 | [contains(System.Data.DataRelation relation)](#contains-com.aspose.words.net.System.Data.DataRelation) | Verifies whether a DataRelation with the specific name (case insensitive) exists in the collection. |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [get(int index)](#get-int) | Gets the [DataRelation](../../com.aspose.words.net.system.data/datarelation/) object at the specified index. |
 | [get(String name)](#get-java.lang.String) | Gets the [DataRelation](../../com.aspose.words.net.system.data/datarelation/) object specified by name. |
-| [getClass()](#getClass) |  |
 | [getCount()](#getCount) |  |
-| [hashCode()](#hashCode) |  |
 | [indexOf(System.Data.DataRelation relation)](#indexOf-com.aspose.words.net.System.Data.DataRelation) | Gets the index of the specified [DataRelation](../../com.aspose.words.net.system.data/datarelation/) object. |
 | [iterator()](#iterator) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [removeAt(int index)](#removeAt-int) | Removes the relation at the specified index from the collection. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### add(System.Data.DataColumn parentColumn, System.Data.DataColumn childColumn) {#add-com.aspose.words.net.System.Data.DataColumn-com.aspose.words.net.System.Data.DataColumn}
 ```
 public void add(System.Data.DataColumn parentColumn, System.Data.DataColumn childColumn)
@@ -158,21 +149,6 @@ Verifies whether a DataRelation with the specific name (case insensitive) exists
 
 **Returns:**
 boolean - true, if a relation with the specified name exists; otherwise false.
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### get(int index) {#get-int}
 ```
 public System.Data.DataRelation get(int index)
@@ -203,16 +179,6 @@ Gets the [DataRelation](../../com.aspose.words.net.system.data/datarelation/) ob
 
 **Returns:**
 [DataRelation](../../com.aspose.words.net.system.data/datarelation/) - The named [DataRelation](../../com.aspose.words.net.system.data/datarelation/), or a null value if the specified [DataRelation](../../com.aspose.words.net.system.data/datarelation/) does not exist.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getCount() {#getCount}
 ```
 public int getCount()
@@ -223,16 +189,6 @@ public int getCount()
 
 **Returns:**
 int - the total number of elements in a collection
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### indexOf(System.Data.DataRelation relation) {#indexOf-com.aspose.words.net.System.Data.DataRelation}
 ```
 public int indexOf(System.Data.DataRelation relation)
@@ -258,22 +214,6 @@ public Iterator iterator()
 
 **Returns:**
 java.util.Iterator
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### removeAt(int index) {#removeAt-int}
 ```
 public void removeAt(int index)
@@ -286,49 +226,4 @@ Removes the relation at the specified index from the collection.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | int | The index of the relation to remove. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

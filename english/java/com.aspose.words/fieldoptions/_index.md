@@ -24,10 +24,8 @@ To learn more, visit the [ Working with Fields ][Working with Fields] documentat
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getBarcodeGenerator()](#getBarcodeGenerator) | Gets or set custom barcode generator. |
 | [getBuiltInTemplatesPaths()](#getBuiltInTemplatesPaths) | Gets paths of MS Word built-in templates. |
-| [getClass()](#getClass) |  |
 | [getComparisonExpressionEvaluator()](#getComparisonExpressionEvaluator) | Gets the field comparison expressions evaluator. |
 | [getCurrentUser()](#getCurrentUser) | Gets the current user information. |
 | [getCustomTocStyleSeparator()](#getCustomTocStyleSeparator) | Gets custom style separator for the \\t switch in [FieldToc](../../com.aspose.words/fieldtoc/) field. |
@@ -46,11 +44,8 @@ To learn more, visit the [ Working with Fields ][Working with Fields] documentat
 | [getToaCategories()](#getToaCategories) | Gets the table of authorities categories. |
 | [getUseInvariantCultureNumberFormat()](#getUseInvariantCultureNumberFormat) | Gets the value indicating that number format is parsed using invariant culture or not |
 | [getUserPromptRespondent()](#getUserPromptRespondent) | Gets the respondent to user prompts during field update. |
-| [hashCode()](#hashCode) |  |
 | [isBidiTextSupportedOnUpdate()](#isBidiTextSupportedOnUpdate) | Gets the value indicating whether bidirectional text is fully supported during field update or not. |
 | [isBidiTextSupportedOnUpdate(boolean value)](#isBidiTextSupportedOnUpdate-boolean) | Sets the value indicating whether bidirectional text is fully supported during field update or not. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setBarcodeGenerator(IBarcodeGenerator value)](#setBarcodeGenerator-com.aspose.words.IBarcodeGenerator) | Gets or set custom barcode generator. |
 | [setBuiltInTemplatesPaths(String[] value)](#setBuiltInTemplatesPaths-java.lang.String) | Sets paths of MS Word built-in templates. |
 | [setComparisonExpressionEvaluator(IComparisonExpressionEvaluator value)](#setComparisonExpressionEvaluator-com.aspose.words.IComparisonExpressionEvaluator) | Sets the field comparison expressions evaluator. |
@@ -71,25 +66,6 @@ To learn more, visit the [ Working with Fields ][Working with Fields] documentat
 | [setToaCategories(ToaCategories value)](#setToaCategories-com.aspose.words.ToaCategories) | Sets the table of authorities categories. |
 | [setUseInvariantCultureNumberFormat(boolean value)](#setUseInvariantCultureNumberFormat-boolean) | Sets the value indicating that number format is parsed using invariant culture or not |
 | [setUserPromptRespondent(IFieldUserPromptRespondent value)](#setUserPromptRespondent-com.aspose.words.IFieldUserPromptRespondent) | Sets the respondent to user prompts during field update. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### getBarcodeGenerator() {#getBarcodeGenerator}
 ```
 public IBarcodeGenerator getBarcodeGenerator()
@@ -244,16 +220,6 @@ Shows how to display a building block with AUTOTEXT and GLOSSARY fields.
 
 **Returns:**
 java.lang.String[] - Paths of MS Word built-in templates.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getComparisonExpressionEvaluator() {#getComparisonExpressionEvaluator}
 ```
 public IComparisonExpressionEvaluator getComparisonExpressionEvaluator()
@@ -1242,16 +1208,6 @@ Shows how to create an ASK field, and set its properties.
 
 **Returns:**
 [IFieldUserPromptRespondent](../../com.aspose.words/ifielduserpromptrespondent/) - The respondent to user prompts during field update.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### isBidiTextSupportedOnUpdate() {#isBidiTextSupportedOnUpdate}
 ```
 public boolean isBidiTextSupportedOnUpdate()
@@ -1332,22 +1288,6 @@ Shows how to use FieldOptions to ensure that field updating fully supports bi-di
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The value indicating whether bidirectional text is fully supported during field update or not. |
-
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
 
 ### setBarcodeGenerator(IBarcodeGenerator value) {#setBarcodeGenerator-com.aspose.words.IBarcodeGenerator}
 ```
@@ -2550,49 +2490,4 @@ Shows how to create an ASK field, and set its properties.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [IFieldUserPromptRespondent](../../com.aspose.words/ifielduserpromptrespondent/) | The respondent to user prompts during field update. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

@@ -48,29 +48,20 @@ Shows how to get the text contents of all the nodes that a range covers.
 | Method | Description |
 | --- | --- |
 | [delete()](#delete) | Deletes all characters of the range. |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getBookmarks()](#getBookmarks) | Returns a [getBookmarks()](../../com.aspose.words/range/\#getBookmarks) collection that represents all bookmarks in the range. |
-| [getClass()](#getClass) |  |
 | [getFields()](#getFields) | Returns a [getFields()](../../com.aspose.words/range/\#getFields) collection that represents all fields in the range. |
 | [getFormFields()](#getFormFields) | Returns a [getFormFields()](../../com.aspose.words/range/\#getFormFields) collection that represents all form fields in the range. |
 | [getRevisions()](#getRevisions) | Gets a collection of revisions (tracked changes) that exist in this range. |
 | [getStructuredDocumentTags()](#getStructuredDocumentTags) | Returns a [getStructuredDocumentTags()](../../com.aspose.words/range/\#getStructuredDocumentTags) collection that represents all structured document tags in the range. |
 | [getText()](#getText) | Gets the text of the range. |
-| [hashCode()](#hashCode) |  |
 | [normalizeFieldTypes()](#normalizeFieldTypes) | Changes field type values [FieldChar.getFieldType()](../../com.aspose.words/fieldchar/\#getFieldType) of [FieldStart](../../com.aspose.words/fieldstart/), [FieldSeparator](../../com.aspose.words/fieldseparator/), [FieldEnd](../../com.aspose.words/fieldend/) in this range so that they correspond to the field types contained in the field codes. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [replace(String pattern, String replacement)](#replace-java.lang.String-java.lang.String) | Replaces all occurrences of a specified character string pattern with a replacement string. |
 | [replace(String pattern, String replacement, FindReplaceOptions options)](#replace-java.lang.String-java.lang.String-com.aspose.words.FindReplaceOptions) | Replaces all occurrences of a specified character string pattern with a replacement string. |
 | [replace(Pattern pattern, String replacement)](#replace-java.util.regex.Pattern-java.lang.String) | Replaces all occurrences of a character pattern specified by a regular expression with another string. |
 | [replace(Pattern pattern, String replacement, FindReplaceOptions options)](#replace-java.util.regex.Pattern-java.lang.String-com.aspose.words.FindReplaceOptions) | Replaces all occurrences of a character pattern specified by a regular expression with another string. |
 | [toDocument()](#toDocument) | Constructs a new fully formed document that contains the range. |
-| [toString()](#toString) |  |
 | [unlinkFields()](#unlinkFields) | Unlinks fields in this range. |
 | [updateFields()](#updateFields) | Updates the values of document fields in this range. |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### delete() {#delete}
 ```
 public void delete()
@@ -104,21 +95,6 @@ Shows how to delete all the nodes from a range.
  
 ```
 
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### getBookmarks() {#getBookmarks}
 ```
 public BookmarkCollection getBookmarks()
@@ -208,16 +184,6 @@ Shows how to add bookmarks and update their contents.
 
 **Returns:**
 [BookmarkCollection](../../com.aspose.words/bookmarkcollection/) - A [getBookmarks()](../../com.aspose.words/range/\#getBookmarks) collection that represents all bookmarks in the range.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getFields() {#getFields}
 ```
 public FieldCollection getFields()
@@ -437,16 +403,6 @@ Shows how to get the text contents of all the nodes that a range covers.
 
 **Returns:**
 java.lang.String - The text of the range.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### normalizeFieldTypes() {#normalizeFieldTypes}
 ```
 public void normalizeFieldTypes()
@@ -460,22 +416,6 @@ Changes field type values [FieldChar.getFieldType()](../../com.aspose.words/fiel
 Use this method after document changes that affect field types.
 
 To change field type values in the whole document use [Document.normalizeFieldTypes()](../../com.aspose.words/document/\#normalizeFieldTypes).
-
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
 
 ### replace(String pattern, String replacement) {#replace-java.lang.String-java.lang.String}
 ```
@@ -945,16 +885,6 @@ Constructs a new fully formed document that contains the range.
 
 **Returns:**
 [Document](../../com.aspose.words/document/)
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
 ### unlinkFields() {#unlinkFields}
 ```
 public void unlinkFields()
@@ -1031,39 +961,4 @@ Shows how to update all the fields in a range.
  Assert.assertEquals("", doc.getRange().getFields().get(1).getResult());
  
 ```
-
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

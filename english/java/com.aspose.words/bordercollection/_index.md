@@ -55,11 +55,9 @@ Shows how to insert a paragraph with a top border.
 | --- | --- |
 | [clearFormatting()](#clearFormatting) | Removes all borders of an object. |
 | [equals(BorderCollection brColl)](#equals-com.aspose.words.BorderCollection) | Compares collections of borders. |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [get(int index)](#get-int) | Retrieves a [Border](../../com.aspose.words/border/) object by index. |
 | [getBottom()](#getBottom) | Gets the bottom border. |
 | [getByBorderType(int borderType)](#getByBorderType-int) |  |
-| [getClass()](#getClass) |  |
 | [getColor()](#getColor) | Gets the border color. |
 | [getCount()](#getCount) | Gets the number of borders in the collection. |
 | [getDistanceFromText()](#getDistanceFromText) | Gets distance of the border from text in points. |
@@ -71,19 +69,12 @@ Shows how to insert a paragraph with a top border.
 | [getShadow()](#getShadow) | Gets a value indicating whether the border has a shadow. |
 | [getTop()](#getTop) | Gets the top border. |
 | [getVertical()](#getVertical) | Gets the vertical border that is used between cells. |
-| [hashCode()](#hashCode) |  |
 | [iterator()](#iterator) | Returns an enumerator object that can be used to iterate over all borders in the collection. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setColor(Color value)](#setColor-java.awt.Color) | Sets the border color. |
 | [setDistanceFromText(double value)](#setDistanceFromText-double) | Sets distance of the border from text in points. |
 | [setLineStyle(int value)](#setLineStyle-int) | Sets the border style. |
 | [setLineWidth(double value)](#setLineWidth-double) | Sets the border width in points. |
 | [setShadow(boolean value)](#setShadow-boolean) | Sets a value indicating whether the border has a shadow. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### clearFormatting() {#clearFormatting}
 ```
 public void clearFormatting()
@@ -173,21 +164,6 @@ Shows how border collections can share elements.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | brColl | [BorderCollection](../../com.aspose.words/bordercollection/) |  |
-
-**Returns:**
-boolean
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
 
 **Returns:**
 boolean
@@ -310,16 +286,6 @@ public Border getByBorderType(int borderType)
 
 **Returns:**
 [Border](../../com.aspose.words/border/)
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getColor() {#getColor}
 ```
 public Color getColor()
@@ -827,16 +793,6 @@ Shows how to apply settings to vertical borders to a table row's format.
 
 **Returns:**
 [Border](../../com.aspose.words/border/) - The vertical border that is used between cells.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### iterator() {#iterator}
 ```
 public Iterator iterator()
@@ -874,22 +830,6 @@ Shows how to iterate over and edit all of the borders in a paragraph format obje
 
 **Returns:**
 java.util.Iterator
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setColor(Color value) {#setColor-java.awt.Color}
 ```
 public void setColor(Color value)
@@ -1081,49 +1021,4 @@ Shows how to create green wavy page border with a shadow.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | A value indicating whether the border has a shadow. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

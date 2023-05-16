@@ -64,9 +64,7 @@ Shows how to extract embedded OLE objects into files.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getAutoUpdate()](#getAutoUpdate) | Specifies whether the link to the OLE object is automatically updated or not in Microsoft Word. |
-| [getClass()](#getClass) |  |
 | [getClsid()](#getClsid) | Gets the CLSID of the OLE object. |
 | [getIconCaption()](#getIconCaption) | Gets icon caption of OLE object. |
 | [getOleControl()](#getOleControl) | Gets [getOleControl()](../../com.aspose.words/oleformat/\#getOleControl) objects if this OLE object is an ActiveX control. |
@@ -79,37 +77,15 @@ Shows how to extract embedded OLE objects into files.
 | [getSourceItem()](#getSourceItem) | Gets a string that is used to identify the portion of the source file that is being linked. |
 | [getSuggestedExtension()](#getSuggestedExtension) | Gets the file extension suggested for the current embedded object if you want to save it into a file. |
 | [getSuggestedFileName()](#getSuggestedFileName) | Gets the file name suggested for the current embedded object if you want to save it into a file. |
-| [hashCode()](#hashCode) |  |
 | [isLink()](#isLink) | Returns  true  if the OLE object is linked (when [getSourceFullName()](../../com.aspose.words/oleformat/\#getSourceFullName) / [setSourceFullName(java.lang.String)](../../com.aspose.words/oleformat/\#setSourceFullName-java.lang.String) is specified). |
 | [isLocked()](#isLocked) | Specifies whether the link to the OLE object is locked from updates. |
 | [isLocked(boolean value)](#isLocked-boolean) | Specifies whether the link to the OLE object is locked from updates. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [save(OutputStream stream)](#save-java.io.OutputStream) |  |
 | [save(String fileName)](#save-java.lang.String) | Saves the data of the embedded object into a file with the specified name. |
 | [setAutoUpdate(boolean value)](#setAutoUpdate-boolean) | Specifies whether the link to the OLE object is automatically updated or not in Microsoft Word. |
 | [setProgId(String value)](#setProgId-java.lang.String) | Sets the ProgID of the OLE object. |
 | [setSourceFullName(String value)](#setSourceFullName-java.lang.String) | Sets the path and name of the source file for the linked OLE object. |
 | [setSourceItem(String value)](#setSourceItem-java.lang.String) | Sets a string that is used to identify the portion of the source file that is being linked. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### getAutoUpdate() {#getAutoUpdate}
 ```
 public boolean getAutoUpdate()
@@ -160,16 +136,6 @@ Shows how to extract embedded OLE objects into files.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getClsid() {#getClsid}
 ```
 public UUID getClsid()
@@ -724,16 +690,6 @@ Shows how to get an OLE object's suggested file name.
 
 **Returns:**
 java.lang.String - The file name suggested for the current embedded object if you want to save it into a file.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### isLink() {#isLink}
 ```
 public boolean isLink()
@@ -895,22 +851,6 @@ Shows how to extract embedded OLE objects into files.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
-
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
 
 ### save(OutputStream stream) {#save-java.io.OutputStream}
 ```
@@ -1183,49 +1123,4 @@ Shows how to insert linked and unlinked OLE objects.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | A string that is used to identify the portion of the source file that is being linked. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

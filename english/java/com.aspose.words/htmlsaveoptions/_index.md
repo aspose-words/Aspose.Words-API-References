@@ -191,10 +191,8 @@ Shows how to split a document into parts and save them.
 | --- | --- |
 | [createSaveOptions(int saveFormat)](#createSaveOptions-int) |  |
 | [createSaveOptions(String fileName)](#createSaveOptions-java.lang.String) | Creates a save options object of a class suitable for the file extension specified in the given file name. |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getAllowEmbeddingPostScriptFonts()](#getAllowEmbeddingPostScriptFonts) | Gets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
 | [getAllowNegativeIndent()](#getAllowNegativeIndent) | Specifies whether negative left and right indents of paragraphs are normalized when saving to HTML, MHTML or EPUB. |
-| [getClass()](#getClass) |  |
 | [getCssClassNamePrefix()](#getCssClassNamePrefix) | Specifies a prefix which is added to all CSS class names. |
 | [getCssSavingCallback()](#getCssSavingCallback) | Allows to control how CSS styles are saved when a document is saved to HTML, MHTML or EPUB. |
 | [getCssStyleSheetFileName()](#getCssStyleSheetFileName) | Specifies the path and the name of the Cascading Style Sheet (CSS) file written when a document is exported to HTML. |
@@ -256,9 +254,6 @@ Shows how to split a document into parts and save them.
 | [getUpdateSdtContent()](#getUpdateSdtContent) | Gets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) is updated before saving. |
 | [getUseAntiAliasing()](#getUseAntiAliasing) | Gets a value determining whether or not to use anti-aliasing for rendering. |
 | [getUseHighQualityRendering()](#getUseHighQualityRendering) | Gets a value determining whether or not to use high quality (i.e. |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setAllowEmbeddingPostScriptFonts(boolean value)](#setAllowEmbeddingPostScriptFonts-boolean) | Sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
 | [setAllowNegativeIndent(boolean value)](#setAllowNegativeIndent-boolean) | Specifies whether negative left and right indents of paragraphs are normalized when saving to HTML, MHTML or EPUB. |
 | [setCssClassNamePrefix(String value)](#setCssClassNamePrefix-java.lang.String) | Specifies a prefix which is added to all CSS class names. |
@@ -322,10 +317,6 @@ Shows how to split a document into parts and save them.
 | [setUpdateSdtContent(boolean value)](#setUpdateSdtContent-boolean) | Sets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) is updated before saving. |
 | [setUseAntiAliasing(boolean value)](#setUseAntiAliasing-boolean) | Sets a value determining whether or not to use anti-aliasing for rendering. |
 | [setUseHighQualityRendering(boolean value)](#setUseHighQualityRendering-boolean) | Sets a value determining whether or not to use high quality (i.e. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### HtmlSaveOptions() {#HtmlSaveOptions}
 ```
 public HtmlSaveOptions()
@@ -426,21 +417,6 @@ Shows how to set a default template for documents that do not have attached temp
 
 **Returns:**
 [SaveOptions](../../com.aspose.words/saveoptions/) - An object of a class that derives from [SaveOptions](../../com.aspose.words/saveoptions/).
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### getAllowEmbeddingPostScriptFonts() {#getAllowEmbeddingPostScriptFonts}
 ```
 public boolean getAllowEmbeddingPostScriptFonts()
@@ -558,16 +534,6 @@ Shows how to preserve negative indents in the output .html.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getCssClassNamePrefix() {#getCssClassNamePrefix}
 ```
 public String getCssClassNamePrefix()
@@ -3874,32 +3840,6 @@ Shows how to improve the quality of a rendered document with SaveOptions.
 
 **Returns:**
 boolean - A value determining whether or not to use high quality (i.e.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setAllowEmbeddingPostScriptFonts(boolean value) {#setAllowEmbeddingPostScriptFonts-boolean}
 ```
 public void setAllowEmbeddingPostScriptFonts(boolean value)
@@ -7511,49 +7451,4 @@ Shows how to improve the quality of a rendered document with SaveOptions.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | A value determining whether or not to use high quality (i.e. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

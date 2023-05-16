@@ -81,9 +81,7 @@ Shows how to work with CITATION and BIBLIOGRAPHY fields.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getAnotherSourceTag()](#getAnotherSourceTag) | Gets a value that mathes the **Tag** element's value of another source to be included in the citation. |
-| [getClass()](#getClass) |  |
 | [getDisplayResult()](#getDisplayResult) | Gets the text that represents the displayed field result. |
 | [getEnd()](#getEnd) | Gets the node that represents the field end. |
 | [getFieldCode()](#getFieldCode) | Returns text between field start and field separator (or field end if there is no separator). |
@@ -104,13 +102,10 @@ Shows how to work with CITATION and BIBLIOGRAPHY fields.
 | [getSwitchType(String switchName)](#getSwitchType-java.lang.String) |  |
 | [getType()](#getType) | Gets the Microsoft Word field type. |
 | [getVolumeNumber()](#getVolumeNumber) | Gets a volume number associated with the citation. |
-| [hashCode()](#hashCode) |  |
 | [isDirty()](#isDirty) | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [isDirty(boolean value)](#isDirty-boolean) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [isLocked()](#isLocked) | Gets whether the field is locked (should not recalculate its result). |
 | [isLocked(boolean value)](#isLocked-boolean) | Sets whether the field is locked (should not recalculate its result). |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [remove()](#remove) | Removes the field from the document. |
 | [setAnotherSourceTag(String value)](#setAnotherSourceTag-java.lang.String) | Sets a value that mathes the **Tag** element's value of another source to be included in the citation. |
 | [setFormatLanguageId(String value)](#setFormatLanguageId-java.lang.String) | Sets the language ID that is used in conjunction with the specified bibliographic style to format the citation in the document. |
@@ -124,28 +119,9 @@ Shows how to work with CITATION and BIBLIOGRAPHY fields.
 | [setSuppressTitle(boolean value)](#setSuppressTitle-boolean) | Sets whether the title information is suppressed from the citation. |
 | [setSuppressYear(boolean value)](#setSuppressYear-boolean) | Sets whether the year information is suppressed from the citation. |
 | [setVolumeNumber(String value)](#setVolumeNumber-java.lang.String) | Sets a volume number associated with the citation. |
-| [toString()](#toString) |  |
 | [unlink()](#unlink) | Performs the field unlink. |
 | [update()](#update) | Performs the field update. |
 | [update(boolean ignoreMergeFormat)](#update-boolean) | Performs a field update. |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### getAnotherSourceTag() {#getAnotherSourceTag}
 ```
 public String getAnotherSourceTag()
@@ -209,16 +185,6 @@ Shows how to work with CITATION and BIBLIOGRAPHY fields.
 
 **Returns:**
 java.lang.String - A value that mathes the **Tag** element's value of another source to be included in the citation.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getDisplayResult() {#getDisplayResult}
 ```
 public String getDisplayResult()
@@ -1404,16 +1370,6 @@ Shows how to work with CITATION and BIBLIOGRAPHY fields.
 
 **Returns:**
 java.lang.String - A volume number associated with the citation.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### isDirty() {#isDirty}
 ```
 public boolean isDirty()
@@ -1621,22 +1577,6 @@ Shows how to work with a FieldStart node.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | Whether the field is locked (should not recalculate its result). |
-
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
 
 ### remove() {#remove}
 ```
@@ -2480,16 +2420,6 @@ Shows how to work with CITATION and BIBLIOGRAPHY fields.
 | --- | --- | --- |
 | value | java.lang.String | A volume number associated with the citation. |
 
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
 ### unlink() {#unlink}
 ```
 public boolean unlink()
@@ -2679,39 +2609,4 @@ Shows how to preserve or discard INCLUDEPICTURE fields when loading a document.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | ignoreMergeFormat | boolean | If  true  then direct field result formatting is abandoned, regardless of the MERGEFORMAT switch, otherwise normal update is performed. |
-
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

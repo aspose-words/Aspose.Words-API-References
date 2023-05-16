@@ -48,49 +48,15 @@ Shows how to verify the properties of an ActiveX control.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getClass()](#getClass) |  |
 | [getClsidInternal()](#getClsidInternal) |  |
 | [getExtensionForUser(String progId)](#getExtensionForUser-java.lang.String) |  |
 | [getFileNameForUser()](#getFileNameForUser) |  |
 | [getId()](#getId) |  |
 | [getName()](#getName) | Gets name of the ActiveX control. |
-| [hashCode()](#hashCode) |  |
 | [isForms2OleControl()](#isForms2OleControl) | Returns  true  if the control is a [Forms2OleControl](../../com.aspose.words/forms2olecontrol/). |
 | [isForms2OleControlInternal()](#isForms2OleControlInternal) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setId(int value)](#setId-int) |  |
 | [setName(String value)](#setName-java.lang.String) | Sets name of the ActiveX control. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getClsidInternal() {#getClsidInternal}
 ```
 public String getClsidInternal()
@@ -170,16 +136,6 @@ Shows how to verify the properties of an ActiveX control.
 
 **Returns:**
 java.lang.String - Name of the ActiveX control.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### isForms2OleControl() {#isForms2OleControl}
 ```
 public boolean isForms2OleControl()
@@ -224,22 +180,6 @@ public boolean isForms2OleControlInternal()
 
 **Returns:**
 boolean
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setId(int value) {#setId-int}
 ```
 public void setId(int value)
@@ -289,49 +229,4 @@ Shows how to verify the properties of an ActiveX control.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | Name of the ActiveX control. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

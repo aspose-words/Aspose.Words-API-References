@@ -68,9 +68,7 @@ Shows how to create a line for a signature and insert it into a document.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getAllowComments()](#getAllowComments) | Gets a value indicating that the signer can add comments in the Sign dialog. |
-| [getClass()](#getClass) |  |
 | [getDefaultInstructions()](#getDefaultInstructions) | Gets a value indicating that default instructions is shown in the Sign dialog. |
 | [getEmail()](#getEmail) | Gets suggested signer's e-mail address. |
 | [getId()](#getId) | Gets identifier for this signature line. |
@@ -79,11 +77,8 @@ Shows how to create a line for a signature and insert it into a document.
 | [getShowDate()](#getShowDate) | Gets a value indicating that sign date is shown in the signature line. |
 | [getSigner()](#getSigner) | Gets suggested signer of the signature line. |
 | [getSignerTitle()](#getSignerTitle) | Gets suggested signer's title (for example, Manager). |
-| [hashCode()](#hashCode) |  |
 | [isSigned()](#isSigned) | Indicates that signature line is signed by digital signature. |
 | [isValid()](#isValid) | Indicates that signature line is signed by digital signature and this digital signature is valid. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setAllowComments(boolean value)](#setAllowComments-boolean) | Sets a value indicating that the signer can add comments in the Sign dialog. |
 | [setDefaultInstructions(boolean value)](#setDefaultInstructions-boolean) | Sets a value indicating that default instructions is shown in the Sign dialog. |
 | [setEmail(String value)](#setEmail-java.lang.String) | Sets suggested signer's e-mail address. |
@@ -93,25 +88,6 @@ Shows how to create a line for a signature and insert it into a document.
 | [setShowDate(boolean value)](#setShowDate-boolean) | Sets a value indicating that sign date is shown in the signature line. |
 | [setSigner(String value)](#setSigner-java.lang.String) | Sets suggested signer of the signature line. |
 | [setSignerTitle(String value)](#setSignerTitle-java.lang.String) | Sets suggested signer's title (for example, Manager). |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### getAllowComments() {#getAllowComments}
 ```
 public boolean getAllowComments()
@@ -166,16 +142,6 @@ Shows how to create a line for a signature and insert it into a document.
 
 **Returns:**
 boolean - A value indicating that the signer can add comments in the Sign dialog.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getDefaultInstructions() {#getDefaultInstructions}
 ```
 public boolean getDefaultInstructions()
@@ -664,16 +630,6 @@ Shows how to create a line for a signature and insert it into a document.
 
 **Returns:**
 java.lang.String - Suggested signer's title (for example, Manager).
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### isSigned() {#isSigned}
 ```
 public boolean isSigned()
@@ -794,22 +750,6 @@ Shows how to sign a document with a personal certificate and a signature line.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setAllowComments(boolean value) {#setAllowComments-boolean}
 ```
 public void setAllowComments(boolean value)
@@ -1378,49 +1318,4 @@ Shows how to create a line for a signature and insert it into a document.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | Suggested signer's title (for example, Manager). |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

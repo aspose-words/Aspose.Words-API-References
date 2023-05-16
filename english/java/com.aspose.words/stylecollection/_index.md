@@ -61,23 +61,14 @@ Shows how to create and use a paragraph style with list formatting.
 | [add(int type, String name)](#add-int-java.lang.String) |  |
 | [addCopy(Style style)](#addCopy-com.aspose.words.Style) | Copies a style into this collection. |
 | [clearQuickStyleGallery()](#clearQuickStyleGallery) | Removes all styles from the Quick Style Gallery panel. |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [get(int index)](#get-int) | Gets a style by index. |
 | [get(String name)](#get-java.lang.String) | Retrieves a style from the collection. |
 | [getByStyleIdentifier(int sti)](#getByStyleIdentifier-int) |  |
-| [getClass()](#getClass) |  |
 | [getCount()](#getCount) | Gets the number of styles in the collection. |
 | [getDefaultFont()](#getDefaultFont) | Gets document default text formatting. |
 | [getDefaultParagraphFormat()](#getDefaultParagraphFormat) | Gets document default paragraph formatting. |
 | [getDocument()](#getDocument) | Gets the owner document. |
-| [hashCode()](#hashCode) |  |
 | [iterator()](#iterator) | Gets an enumerator object that will enumerate styles in the alphabetical order of their names. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### add(int type, String name) {#add-int-java.lang.String}
 ```
 public Style add(int type, String name)
@@ -191,21 +182,6 @@ Shows how to remove styles from Style Gallery panel.
  
 ```
 
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### get(int index) {#get-int}
 ```
 public Style get(int index)
@@ -307,16 +283,6 @@ public Style getByStyleIdentifier(int sti)
 
 **Returns:**
 [Style](../../com.aspose.words/style/)
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getCount() {#getCount}
 ```
 public int getCount()
@@ -451,16 +417,6 @@ Shows how to access a document's style collection.
 
 **Returns:**
 [DocumentBase](../../com.aspose.words/documentbase/) - The owner document.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### iterator() {#iterator}
 ```
 public Iterator iterator()
@@ -485,64 +441,3 @@ Shows how to access a document's style collection.
 
 **Returns:**
 java.util.Iterator
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
-

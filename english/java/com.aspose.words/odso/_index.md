@@ -36,8 +36,6 @@ You do not normally need to create objects of this class directly because ODSO s
 | Method | Description |
 | --- | --- |
 | [deepClone()](#deepClone) | Returns a deep clone of this object. |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getClass()](#getClass) |  |
 | [getColumnDelimiter()](#getColumnDelimiter) | Specifies the character which shall be interpreted as the column delimiter used to separate columns within external data sources. |
 | [getDataSource()](#getDataSource) | Specifies the location of the external data source to be connected to a document to perform the mail merge. |
 | [getDataSourceType()](#getDataSourceType) | Specifies the type of the external data source to be connected to as part of the ODSO connection information for this mail merge. |
@@ -46,9 +44,6 @@ You do not normally need to create objects of this class directly because ODSO s
 | [getRecipientDatas()](#getRecipientDatas) | Gets a collection of objects that specify inclusion/exclusion of individual records in the mail merge. |
 | [getTableName()](#getTableName) | Specifies the particular set of data that a source shall be connected to within an external data source. |
 | [getUdlConnectString()](#getUdlConnectString) | Specifies the Universal Data Link (UDL) connection string used to connect to an external data source. |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setColumnDelimiter(char value)](#setColumnDelimiter-char) | Specifies the character which shall be interpreted as the column delimiter used to separate columns within external data sources. |
 | [setDataSource(String value)](#setDataSource-java.lang.String) | Specifies the location of the external data source to be connected to a document to perform the mail merge. |
 | [setDataSourceType(int value)](#setDataSourceType-int) | Specifies the type of the external data source to be connected to as part of the ODSO connection information for this mail merge. |
@@ -57,10 +52,6 @@ You do not normally need to create objects of this class directly because ODSO s
 | [setRecipientDatas(OdsoRecipientDataCollection value)](#setRecipientDatas-com.aspose.words.OdsoRecipientDataCollection) | Sets a collection of objects that specify inclusion/exclusion of individual records in the mail merge. |
 | [setTableName(String value)](#setTableName-java.lang.String) | Specifies the particular set of data that a source shall be connected to within an external data source. |
 | [setUdlConnectString(String value)](#setUdlConnectString-java.lang.String) | Specifies the Universal Data Link (UDL) connection string used to connect to an external data source. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### deepClone() {#deepClone}
 ```
 public Odso deepClone()
@@ -71,31 +62,6 @@ Returns a deep clone of this object.
 
 **Returns:**
 [Odso](../../com.aspose.words/odso/)
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getColumnDelimiter() {#getColumnDelimiter}
 ```
 public char getColumnDelimiter()
@@ -188,32 +154,6 @@ Specifies the Universal Data Link (UDL) connection string used to connect to an 
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setColumnDelimiter(char value) {#setColumnDelimiter-char}
 ```
 public void setColumnDelimiter(char value)
@@ -329,49 +269,4 @@ Specifies the Universal Data Link (UDL) connection string used to connect to an 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | The corresponding java.lang.String value. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

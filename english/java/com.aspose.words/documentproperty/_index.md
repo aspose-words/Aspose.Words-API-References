@@ -27,16 +27,11 @@ To learn more, visit the [ Work with Document Properties ][Work with Document Pr
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getClass()](#getClass) |  |
 | [getLinkSource()](#getLinkSource) | Gets the source of a linked custom document property. |
 | [getName()](#getName) | Returns the name of the property. |
 | [getType()](#getType) | Gets the data type of the property. |
 | [getValue()](#getValue) | Gets the value of the property. |
-| [hashCode()](#hashCode) |  |
 | [isLinkToContent()](#isLinkToContent) | Shows whether this property is linked to content or not. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setValue(Object value)](#setValue-java.lang.Object) | Sets the value of the property. |
 | [toBool()](#toBool) | Returns the property value as bool. |
 | [toByteArray()](#toByteArray) | Returns the property value as byte array. |
@@ -44,34 +39,6 @@ To learn more, visit the [ Work with Document Properties ][Work with Document Pr
 | [toDouble()](#toDouble) | Returns the property value as double. |
 | [toInt()](#toInt) | Returns the property value as integer. |
 | [toString()](#toString) | Returns the property value as a string formatted according to the current locale. |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getLinkSource() {#getLinkSource}
 ```
 public String getLinkSource()
@@ -205,16 +172,6 @@ Cannot be  null .
 
 **Returns:**
 java.lang.Object - The value of the property.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### isLinkToContent() {#isLinkToContent}
 ```
 public boolean isLinkToContent()
@@ -251,22 +208,6 @@ Shows how to link a custom document property to a bookmark.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setValue(Object value) {#setValue-java.lang.Object}
 ```
 public void setValue(Object value)
@@ -548,38 +489,3 @@ Shows how to work with custom document properties.
 
 **Returns:**
 java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
-

@@ -85,7 +85,6 @@ Shows how to set an OOXML compliance specification for a saved document to adher
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getAdjustLineHeightInTable()](#getAdjustLineHeightInTable) | Add Document Grid Line Pitch To Lines in Table Cells. |
 | [getAlignTablesRowByRow()](#getAlignTablesRowByRow) | Align Table Rows Independently. |
 | [getAllowSpaceOfSameStyleInTable()](#getAllowSpaceOfSameStyleInTable) | Allow Contextual Spacing of Paragraphs in Tables. |
@@ -94,7 +93,6 @@ Shows how to set an OOXML compliance specification for a saved document to adher
 | [getAutofitToFirstFixedWidthCell()](#getAutofitToFirstFixedWidthCell) | Allow Table Columns To Exceed Preferred Widths of Constituent Cells. |
 | [getBalanceSingleByteDoubleByteWidth()](#getBalanceSingleByteDoubleByteWidth) | Balance Single Byte and Double Byte Characters. |
 | [getCachedColBalance()](#getCachedColBalance) | Use Cached Paragraph Information for Column Balancing. |
-| [getClass()](#getClass) |  |
 | [getConvMailMergeEsc()](#getConvMailMergeEsc) | Treat Backslash Quotation Delimiter as Two Quotation Marks. |
 | [getDisableOpenTypeFontFormattingFeatures()](#getDisableOpenTypeFontFormattingFeatures) | Specifies to disable OpenType font formatting features. |
 | [getDisplayHangulFixedWidth()](#getDisplayHangulFixedWidth) | Always Use Fixed Width for Hangul Characters. |
@@ -158,9 +156,6 @@ Shows how to set an OOXML compliance specification for a saved document to adher
 | [getWPJustification()](#getWPJustification) | Emulate WordPerfect 6.x Paragraph Justification. |
 | [getWPSpaceWidth()](#getWPSpaceWidth) | Specifies whether to set the width of a space as is done in WordPerfect 5.x. |
 | [getWrapTrailSpaces()](#getWrapTrailSpaces) | Line Wrap Trailing Spaces. |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [optimizeFor(int version)](#optimizeFor-int) |  |
 | [setAdjustLineHeightInTable(boolean value)](#setAdjustLineHeightInTable-boolean) | Add Document Grid Line Pitch To Lines in Table Cells. |
 | [setAlignTablesRowByRow(boolean value)](#setAlignTablesRowByRow-boolean) | Align Table Rows Independently. |
@@ -233,25 +228,6 @@ Shows how to set an OOXML compliance specification for a saved document to adher
 | [setWPJustification(boolean value)](#setWPJustification-boolean) | Emulate WordPerfect 6.x Paragraph Justification. |
 | [setWPSpaceWidth(boolean value)](#setWPSpaceWidth-boolean) | Specifies whether to set the width of a space as is done in WordPerfect 5.x. |
 | [setWrapTrailSpaces(boolean value)](#setWrapTrailSpaces-boolean) | Line Wrap Trailing Spaces. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### getAdjustLineHeightInTable() {#getAdjustLineHeightInTable}
 ```
 public boolean getAdjustLineHeightInTable()
@@ -336,16 +312,6 @@ Use Cached Paragraph Information for Column Balancing.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getConvMailMergeEsc() {#getConvMailMergeEsc}
 ```
 public boolean getConvMailMergeEsc()
@@ -984,32 +950,6 @@ Line Wrap Trailing Spaces.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### optimizeFor(int version) {#optimizeFor-int}
 ```
 public void optimizeFor(int version)
@@ -1957,49 +1897,4 @@ Line Wrap Trailing Spaces.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

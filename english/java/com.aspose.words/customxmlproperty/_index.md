@@ -129,20 +129,11 @@ Shows how to create smart tags.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getClass()](#getClass) |  |
 | [getName()](#getName) | Specifies the name of the custom XML attribute or smart tag property. |
 | [getUri()](#getUri) | Gets the namespace URI of the custom XML attribute or smart tag property. |
 | [getValue()](#getValue) | Gets the value of the custom XML attribute or smart tag property. |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setUri(String value)](#setUri-java.lang.String) | Sets the namespace URI of the custom XML attribute or smart tag property. |
 | [setValue(String value)](#setValue-java.lang.String) | Sets the value of the custom XML attribute or smart tag property. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### CustomXmlProperty(String name, String uri, String value) {#CustomXmlProperty-java.lang.String-java.lang.String-java.lang.String}
 ```
 public CustomXmlProperty(String name, String uri, String value)
@@ -251,31 +242,6 @@ Shows how to create smart tags.
 | uri | java.lang.String | The namespace URI of the property. Cannot be  null . |
 | value | java.lang.String | The value of the property. Cannot be  null . |
 
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getName() {#getName}
 ```
 public String getName()
@@ -569,32 +535,6 @@ Shows how to create smart tags.
 
 **Returns:**
 java.lang.String - The value of the custom XML attribute or smart tag property.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setUri(String value) {#setUri-java.lang.String}
 ```
 public void setUri(String value)
@@ -784,49 +724,4 @@ Shows how to create smart tags.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | The value of the custom XML attribute or smart tag property. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

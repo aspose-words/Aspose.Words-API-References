@@ -92,24 +92,15 @@ Shows how to work with list levels.
 | --- | --- |
 | [applyBulletDefault()](#applyBulletDefault) | Starts a new default bulleted list and applies it to the paragraph. |
 | [applyNumberDefault()](#applyNumberDefault) | Starts a new default numbered list and applies it to the paragraph. |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getClass()](#getClass) |  |
 | [getList()](#getList) | Gets the list this paragraph is a member of. |
 | [getListLevel()](#getListLevel) | Returns the list level formatting plus any formatting overrides applied to the current paragraph. |
 | [getListLevelNumber()](#getListLevelNumber) | Gets the list level number (0 to 8) for the paragraph. |
-| [hashCode()](#hashCode) |  |
 | [isListItem()](#isListItem) | True when the paragraph has bulleted or numbered formatting applied to it. |
 | [listIndent()](#listIndent) | Increases the list level of the current paragraph by one level. |
 | [listOutdent()](#listOutdent) | Decreases the list level of the current paragraph by one level. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [removeNumbers()](#removeNumbers) | Removes numbers or bullets from the current paragraph and sets list level to zero. |
 | [setList(List value)](#setList-com.aspose.words.List) | Sets the list this paragraph is a member of. |
 | [setListLevelNumber(int value)](#setListLevelNumber-int) | Sets the list level number (0 to 8) for the paragraph. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### applyBulletDefault() {#applyBulletDefault}
 ```
 public void applyBulletDefault()
@@ -302,31 +293,6 @@ Shows how to create bulleted and numbered lists.
  
 ```
 
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getList() {#getList}
 ```
 public List getList()
@@ -662,16 +628,6 @@ Shows how to create bulleted and numbered lists.
 
 **Returns:**
 int - The list level number (0 to 8) for the paragraph.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### isListItem() {#isListItem}
 ```
 public boolean isListItem()
@@ -956,22 +912,6 @@ Shows how to create bulleted and numbered lists.
  doc.save(getArtifactsDir() + "Lists.ApplyDefaultBulletsAndNumbers.docx");
  
 ```
-
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
 
 ### removeNumbers() {#removeNumbers}
 ```
@@ -1367,49 +1307,4 @@ Shows how to create bulleted and numbered lists.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | The list level number (0 to 8) for the paragraph. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

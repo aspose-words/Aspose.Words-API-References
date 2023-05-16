@@ -75,44 +75,10 @@ Shows how to use the FileFormatUtil class to detect the document format and pres
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getClass()](#getClass) |  |
 | [getEncoding()](#getEncoding) | Gets the detected encoding if applicable to the current document format. |
 | [getLoadFormat()](#getLoadFormat) | Gets the detected document format. |
 | [hasDigitalSignature()](#hasDigitalSignature) | Returns  true  if this document contains a digital signature. |
-| [hashCode()](#hashCode) |  |
 | [isEncrypted()](#isEncrypted) | Returns  true  if the document is encrypted and requires a password to open. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getEncoding() {#getEncoding}
 ```
 public Charset getEncoding()
@@ -270,16 +236,6 @@ Shows how to use the FileFormatUtil class to detect the document format and pres
 
 **Returns:**
 boolean -  true  if this document contains a digital signature.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### isEncrypted() {#isEncrypted}
 ```
 public boolean isEncrypted()
@@ -317,64 +273,3 @@ Shows how to use the FileFormatUtil class to detect the document format and encr
 
 **Returns:**
 boolean -  true  if the document is encrypted and requires a password to open.
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
-

@@ -107,40 +107,16 @@ Shows how to add bookmarks and update their contents.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getBookmarkEnd()](#getBookmarkEnd) | Gets the node that represents the end of the bookmark. |
 | [getBookmarkStart()](#getBookmarkStart) | Gets the node that represents the start of the bookmark. |
-| [getClass()](#getClass) |  |
 | [getFirstColumn()](#getFirstColumn) | Gets the zero-based index of the first column of the table column range associated with the bookmark. |
 | [getLastColumn()](#getLastColumn) | Gets the zero-based index of the last column of the table column range associated with the bookmark. |
 | [getName()](#getName) | Gets the name of the bookmark. |
 | [getText()](#getText) | Gets the text enclosed in the bookmark. |
-| [hashCode()](#hashCode) |  |
 | [isColumn()](#isColumn) | Returns  true  if this bookmark is a table column bookmark. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [remove()](#remove) | Removes the bookmark from the document. |
 | [setName(String value)](#setName-java.lang.String) | Sets the name of the bookmark. |
 | [setText(String value)](#setText-java.lang.String) | Sets the text enclosed in the bookmark. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### getBookmarkEnd() {#getBookmarkEnd}
 ```
 public BookmarkEnd getBookmarkEnd()
@@ -319,16 +295,6 @@ Shows how to add bookmarks and update their contents.
 
 **Returns:**
 [BookmarkStart](../../com.aspose.words/bookmarkstart/) - The node that represents the start of the bookmark.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getFirstColumn() {#getFirstColumn}
 ```
 public int getFirstColumn()
@@ -605,16 +571,6 @@ Shows how to add bookmarks and update their contents.
 
 **Returns:**
 java.lang.String - The text enclosed in the bookmark.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### isColumn() {#isColumn}
 ```
 public boolean isColumn()
@@ -647,22 +603,6 @@ Shows how to get information about table column bookmarks.
 
 **Returns:**
 boolean -  true  if this bookmark is a table column bookmark.
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### remove() {#remove}
 ```
 public void remove()
@@ -939,49 +879,4 @@ Shows how to add bookmarks and update their contents.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | The text enclosed in the bookmark. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

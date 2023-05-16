@@ -75,9 +75,7 @@ Shows how to use different measurement units to define style parameters of a sav
 | --- | --- |
 | [createSaveOptions(int saveFormat)](#createSaveOptions-int) |  |
 | [createSaveOptions(String fileName)](#createSaveOptions-java.lang.String) | Creates a save options object of a class suitable for the file extension specified in the given file name. |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getAllowEmbeddingPostScriptFonts()](#getAllowEmbeddingPostScriptFonts) | Gets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
-| [getClass()](#getClass) |  |
 | [getDefaultTemplate()](#getDefaultTemplate) | Gets path to default template (including filename). |
 | [getDml3DEffectsRenderingMode()](#getDml3DEffectsRenderingMode) | Gets a value determining how 3D effects are rendered. |
 | [getDmlEffectsRenderingMode()](#getDmlEffectsRenderingMode) | Gets a value determining how DrawingML effects are rendered. |
@@ -98,11 +96,8 @@ Shows how to use different measurement units to define style parameters of a sav
 | [getUpdateSdtContent()](#getUpdateSdtContent) | Gets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) is updated before saving. |
 | [getUseAntiAliasing()](#getUseAntiAliasing) | Gets a value determining whether or not to use anti-aliasing for rendering. |
 | [getUseHighQualityRendering()](#getUseHighQualityRendering) | Gets a value determining whether or not to use high quality (i.e. |
-| [hashCode()](#hashCode) |  |
 | [isStrictSchema11()](#isStrictSchema11) | Specifies whether export should correspond to ODT specification 1.1 strictly. |
 | [isStrictSchema11(boolean value)](#isStrictSchema11-boolean) | Specifies whether export should correspond to ODT specification 1.1 strictly. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setAllowEmbeddingPostScriptFonts(boolean value)](#setAllowEmbeddingPostScriptFonts-boolean) | Sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
 | [setDefaultTemplate(String value)](#setDefaultTemplate-java.lang.String) | Sets path to default template (including filename). |
 | [setDml3DEffectsRenderingMode(int value)](#setDml3DEffectsRenderingMode-int) | Sets a value determining how 3D effects are rendered. |
@@ -124,10 +119,6 @@ Shows how to use different measurement units to define style parameters of a sav
 | [setUpdateSdtContent(boolean value)](#setUpdateSdtContent-boolean) | Sets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) is updated before saving. |
 | [setUseAntiAliasing(boolean value)](#setUseAntiAliasing-boolean) | Sets a value determining whether or not to use anti-aliasing for rendering. |
 | [setUseHighQualityRendering(boolean value)](#setUseHighQualityRendering-boolean) | Sets a value determining whether or not to use high quality (i.e. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### OdtSaveOptions() {#OdtSaveOptions}
 ```
 public OdtSaveOptions()
@@ -233,21 +224,6 @@ Shows how to set a default template for documents that do not have attached temp
 
 **Returns:**
 [SaveOptions](../../com.aspose.words/saveoptions/) - An object of a class that derives from [SaveOptions](../../com.aspose.words/saveoptions/).
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### getAllowEmbeddingPostScriptFonts() {#getAllowEmbeddingPostScriptFonts}
 ```
 public boolean getAllowEmbeddingPostScriptFonts()
@@ -293,16 +269,6 @@ Shows how to save the document with PostScript font.
 
 **Returns:**
 boolean - A boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getDefaultTemplate() {#getDefaultTemplate}
 ```
 public String getDefaultTemplate()
@@ -1158,16 +1124,6 @@ Shows how to improve the quality of a rendered document with SaveOptions.
 
 **Returns:**
 boolean - A value determining whether or not to use high quality (i.e.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### isStrictSchema11() {#isStrictSchema11}
 ```
 public boolean isStrictSchema11()
@@ -1226,22 +1182,6 @@ Shows how to make a saved document conform to an older ODT schema.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
-
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
 
 ### setAllowEmbeddingPostScriptFonts(boolean value) {#setAllowEmbeddingPostScriptFonts-boolean}
 ```
@@ -2205,49 +2145,4 @@ Shows how to improve the quality of a rendered document with SaveOptions.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | A value determining whether or not to use high quality (i.e. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

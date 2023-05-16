@@ -223,34 +223,10 @@ Shows how to find all hyperlinks in a Word document, and then change their URLs 
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [get(int index)](#get-int) | Retrieves a node at the given index. |
-| [getClass()](#getClass) |  |
 | [getCount()](#getCount) | Gets the number of nodes in the list. |
-| [hashCode()](#hashCode) |  |
 | [iterator()](#iterator) | Provides a simple "foreach" style iteration over the collection of nodes. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [toArray()](#toArray) | Copies all nodes from the collection to a new array of nodes. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### get(int index) {#get-int}
 ```
 public Node get(int index)
@@ -323,16 +299,6 @@ Shows how to use XPaths to navigate a NodeList.
 
 **Returns:**
 [Node](../../com.aspose.words/node/) - The corresponding [Node](../../com.aspose.words/node/) value.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getCount() {#getCount}
 ```
 public int getCount()
@@ -390,16 +356,6 @@ Shows how to use XPaths to navigate a NodeList.
 
 **Returns:**
 int - The number of nodes in the list.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### iterator() {#iterator}
 ```
 public Iterator iterator()
@@ -444,22 +400,6 @@ Shows how to select certain nodes by using an XPath expression.
 
 **Returns:**
 java.util.Iterator - An Iterator.
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### toArray() {#toArray}
 ```
 public Node[] toArray()
@@ -510,48 +450,3 @@ Shows how to select certain nodes by using an XPath expression.
 
 **Returns:**
 com.aspose.words.Node[] - An array of nodes.
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
-

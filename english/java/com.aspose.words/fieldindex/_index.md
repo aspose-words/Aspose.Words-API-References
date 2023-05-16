@@ -155,9 +155,7 @@ Shows how to populate an INDEX field with entries using XE fields, and also modi
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getBookmarkName()](#getBookmarkName) | Gets the name of the bookmark that marks the portion of the document used to build the index. |
-| [getClass()](#getClass) |  |
 | [getCrossReferenceSeparator()](#getCrossReferenceSeparator) | Gets the character sequence that is used to separate cross references and other entries. |
 | [getDisplayResult()](#getDisplayResult) | Gets the text that represents the displayed field result. |
 | [getEnd()](#getEnd) | Gets the node that represents the field end. |
@@ -184,13 +182,10 @@ Shows how to populate an INDEX field with entries using XE fields, and also modi
 | [getUseYomi()](#getUseYomi) | Gets whether to enable the use of yomi text for index entries. |
 | [hasPageNumberSeparator()](#hasPageNumberSeparator) | Gets a value indicating whether a page number separator is overridden through the field's code. |
 | [hasSequenceName()](#hasSequenceName) | Gets a value indicating whether a sequence should be used while the field's result building. |
-| [hashCode()](#hashCode) |  |
 | [isDirty()](#isDirty) | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [isDirty(boolean value)](#isDirty-boolean) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [isLocked()](#isLocked) | Gets whether the field is locked (should not recalculate its result). |
 | [isLocked(boolean value)](#isLocked-boolean) | Sets whether the field is locked (should not recalculate its result). |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [remove()](#remove) | Removes the field from the document. |
 | [setBookmarkName(String value)](#setBookmarkName-java.lang.String) | Sets the name of the bookmark that marks the portion of the document used to build the index. |
 | [setCrossReferenceSeparator(String value)](#setCrossReferenceSeparator-java.lang.String) | Sets the character sequence that is used to separate cross references and other entries. |
@@ -208,28 +203,9 @@ Shows how to populate an INDEX field with entries using XE fields, and also modi
 | [setSequenceName(String value)](#setSequenceName-java.lang.String) | Sets the name of a sequence whose number is included with the page number. |
 | [setSequenceSeparator(String value)](#setSequenceSeparator-java.lang.String) | Sets the character sequence that is used to separate sequence numbers and page numbers. |
 | [setUseYomi(boolean value)](#setUseYomi-boolean) | Sets whether to enable the use of yomi text for index entries. |
-| [toString()](#toString) |  |
 | [unlink()](#unlink) | Performs the field unlink. |
 | [update()](#update) | Performs the field update. |
 | [update(boolean ignoreMergeFormat)](#update-boolean) | Performs a field update. |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### getBookmarkName() {#getBookmarkName}
 ```
 public String getBookmarkName()
@@ -298,16 +274,6 @@ Shows how to create an INDEX field, and then use XE fields to populate it with e
 
 **Returns:**
 java.lang.String - The name of the bookmark that marks the portion of the document used to build the index.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getCrossReferenceSeparator() {#getCrossReferenceSeparator}
 ```
 public String getCrossReferenceSeparator()
@@ -1997,16 +1963,6 @@ Shows how to split a document into portions by combining INDEX and SEQ fields.
 
 **Returns:**
 boolean - A value indicating whether a sequence should be used while the field's result building.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### isDirty() {#isDirty}
 ```
 public boolean isDirty()
@@ -2214,22 +2170,6 @@ Shows how to work with a FieldStart node.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | Whether the field is locked (should not recalculate its result). |
-
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
 
 ### remove() {#remove}
 ```
@@ -3453,16 +3393,6 @@ Shows how to sort INDEX field entries phonetically.
 | --- | --- | --- |
 | value | boolean | Whether to enable the use of yomi text for index entries. |
 
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
 ### unlink() {#unlink}
 ```
 public boolean unlink()
@@ -3652,39 +3582,4 @@ Shows how to preserve or discard INCLUDEPICTURE fields when loading a document.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | ignoreMergeFormat | boolean | If  true  then direct field result formatting is abandoned, regardless of the MERGEFORMAT switch, otherwise normal update is performed. |
-
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

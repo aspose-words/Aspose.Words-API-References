@@ -62,11 +62,9 @@ Shows how to fill a shape with a solid color.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getBackColor()](#getBackColor) | Gets a Color object that represents the background color for the fill. |
 | [getBackThemeColor()](#getBackThemeColor) | Gets a ThemeColor object that represents the background color for the fill. |
 | [getBackTintAndShade()](#getBackTintAndShade) | Gets a double value that lightens or darkens the background color. |
-| [getClass()](#getClass) |  |
 | [getColor()](#getColor) | Gets a Color object that represents the foreground color for the fill. |
 | [getFillType()](#getFillType) | Gets a fill type. |
 | [getForeColor()](#getForeColor) | Gets a Color object that represents the foreground color for the fill. |
@@ -85,9 +83,6 @@ Shows how to fill a shape with a solid color.
 | [getTextureAlignment()](#getTextureAlignment) | Gets the alignment for tile texture fill. |
 | [getTransparency()](#getTransparency) | Gets the degree of transparency of the specified fill as a value between 0.0 (opaque) and 1.0 (clear). |
 | [getVisible()](#getVisible) | Gets value that is  true  if the formatting applied to this instance, is visible. |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [oneColorGradient(int style, int variant, double degree)](#oneColorGradient-int-int-double) |  |
 | [oneColorGradient(Color color, int style, int variant, double degree)](#oneColorGradient-java.awt.Color-int-int-double) |  |
 | [patterned(int patternType)](#patterned-int) |  |
@@ -112,27 +107,8 @@ Shows how to fill a shape with a solid color.
 | [setVisible(boolean value)](#setVisible-boolean) | Sets value that is  true  if the formatting applied to this instance, is visible. |
 | [solid()](#solid) | Sets the fill to a uniform color. |
 | [solid(Color color)](#solid-java.awt.Color) | Sets the fill to a specified uniform color. |
-| [toString()](#toString) |  |
 | [twoColorGradient(int style, int variant)](#twoColorGradient-int-int) |  |
 | [twoColorGradient(Color color1, Color color2, int style, int variant)](#twoColorGradient-java.awt.Color-java.awt.Color-int-int) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### getBackColor() {#getBackColor}
 ```
 public Color getBackColor()
@@ -213,16 +189,6 @@ Shows how to set theme color for foreground/background shape color.
 
 **Returns:**
 double - A double value that lightens or darkens the background color.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getColor() {#getColor}
 ```
 public Color getColor()
@@ -937,32 +903,6 @@ Shows to create a variety of shapes.
 
 **Returns:**
 boolean - Value that is  true  if the formatting applied to this instance, is visible.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### oneColorGradient(int style, int variant, double degree) {#oneColorGradient-int-int-double}
 ```
 public void oneColorGradient(int style, int variant, double degree)
@@ -1686,16 +1626,6 @@ Shows how to convert any of the fills back to solid fill.
 | --- | --- | --- |
 | color | java.awt.Color |  |
 
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
 ### twoColorGradient(int style, int variant) {#twoColorGradient-int-int}
 ```
 public void twoColorGradient(int style, int variant)
@@ -1725,39 +1655,4 @@ public void twoColorGradient(Color color1, Color color2, int style, int variant)
 | color2 | java.awt.Color |  |
 | style | int |  |
 | variant | int |  |
-
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

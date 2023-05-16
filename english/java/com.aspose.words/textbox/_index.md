@@ -97,8 +97,6 @@ Shows how to get a text box to resize itself to fit its contents tightly.
 | Method | Description |
 | --- | --- |
 | [breakForwardLink()](#breakForwardLink) | Breaks the link to the next [TextBox](../../com.aspose.words/textbox/). |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getClass()](#getClass) |  |
 | [getFitShapeToText()](#getFitShapeToText) | Determines whether Microsoft Word will grow the shape to fit text. |
 | [getInternalMarginBottom()](#getInternalMarginBottom) | Specifies the inner bottom margin in points for a shape. |
 | [getInternalMarginLeft()](#getInternalMarginLeft) | Specifies the inner left margin in points for a shape. |
@@ -111,10 +109,7 @@ Shows how to get a text box to resize itself to fit its contents tightly.
 | [getPrevious()](#getPrevious) | Returns a [TextBox](../../com.aspose.words/textbox/) that represents the previous [TextBox](../../com.aspose.words/textbox/) in a sequence of shapes. |
 | [getTextBoxWrapMode()](#getTextBoxWrapMode) | Determines how text wraps inside a shape. |
 | [getVerticalAnchor()](#getVerticalAnchor) | Specifies the vertical alignment of the text within a shape. |
-| [hashCode()](#hashCode) |  |
 | [isValidLinkTarget(TextBox target)](#isValidLinkTarget-com.aspose.words.TextBox) | Determines whether this [TextBox](../../com.aspose.words/textbox/) can be linked to the target [TextBox](../../com.aspose.words/textbox/). |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setFitShapeToText(boolean value)](#setFitShapeToText-boolean) | Determines whether Microsoft Word will grow the shape to fit text. |
 | [setInternalMarginBottom(double value)](#setInternalMarginBottom-double) | Specifies the inner bottom margin in points for a shape. |
 | [setInternalMarginLeft(double value)](#setInternalMarginLeft-double) | Specifies the inner left margin in points for a shape. |
@@ -125,10 +120,6 @@ Shows how to get a text box to resize itself to fit its contents tightly.
 | [setNoTextRotation(boolean value)](#setNoTextRotation-boolean) | Sets a boolean value indicating either text of the TextBox should not rotate when the shape is rotated. |
 | [setTextBoxWrapMode(int value)](#setTextBoxWrapMode-int) | Determines how text wraps inside a shape. |
 | [setVerticalAnchor(int value)](#setVerticalAnchor-int) | Specifies the vertical alignment of the text within a shape. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### breakForwardLink() {#breakForwardLink}
 ```
 public void breakForwardLink()
@@ -200,31 +191,6 @@ Shows how to link text boxes.
  
 ```
 
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getFitShapeToText() {#getFitShapeToText}
 ```
 public boolean getFitShapeToText()
@@ -713,16 +679,6 @@ Shows how to vertically align the text contents of a text box.
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [TextBoxAnchor](../../com.aspose.words/textboxanchor/) constants.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### isValidLinkTarget(TextBox target) {#isValidLinkTarget-com.aspose.words.TextBox}
 ```
 public boolean isValidLinkTarget(TextBox target)
@@ -797,22 +753,6 @@ Shows how to link text boxes.
 
 **Returns:**
 boolean
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setFitShapeToText(boolean value) {#setFitShapeToText-boolean}
 ```
 public void setFitShapeToText(boolean value)
@@ -1251,49 +1191,4 @@ Shows how to vertically align the text contents of a text box.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | The corresponding  int  value. The value must be one of [TextBoxAnchor](../../com.aspose.words/textboxanchor/) constants. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

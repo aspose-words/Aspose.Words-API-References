@@ -175,48 +175,14 @@ Shows how to limit the editing rights of editable ranges to a specific group/use
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getClass()](#getClass) |  |
 | [getEditableRangeEnd()](#getEditableRangeEnd) | Gets the node that represents the end of the editable range. |
 | [getEditableRangeStart()](#getEditableRangeStart) | Gets the node that represents the start of the editable range. |
 | [getEditorGroup()](#getEditorGroup) | Gets an alias (or editing group) which shall be used to determine if the current user shall be allowed to edit this editable range. |
 | [getId()](#getId) | Gets the editable range identifier. |
 | [getSingleUser()](#getSingleUser) | Gets the single user for editable range. |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [remove()](#remove) | Removes the editable range from the document. |
 | [setEditorGroup(int value)](#setEditorGroup-int) | Sets an alias (or editing group) which shall be used to determine if the current user shall be allowed to edit this editable range. |
 | [setSingleUser(String value)](#setSingleUser-java.lang.String) | Sets the single user for editable range. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getEditableRangeEnd() {#getEditableRangeEnd}
 ```
 public EditableRangeEnd getEditableRangeEnd()
@@ -670,32 +636,6 @@ Shows how to limit the editing rights of editable ranges to a specific group/use
 
 **Returns:**
 java.lang.String - The single user for editable range.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### remove() {#remove}
 ```
 public void remove()
@@ -1036,49 +976,4 @@ Shows how to limit the editing rights of editable ranges to a specific group/use
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | The single user for editable range. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

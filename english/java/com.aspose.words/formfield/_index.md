@@ -85,14 +85,12 @@ Shows how to formatting the entire FormField, including the field value.
 | [clearRunAttrs()](#clearRunAttrs) |  |
 | [dd()](#dd) |  |
 | [deepClone(boolean isCloneChildren)](#deepClone-boolean) | Creates a duplicate of the node. |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [fetchInheritedRunAttr(int fontAttr)](#fetchInheritedRunAttr-int) |  |
 | [getAncestor(int ancestorType)](#getAncestor-int) |  |
 | [getAncestor(Class ancestorType)](#getAncestor-java.lang.Class) | Gets the first ancestor of the specified object type. |
 | [getCalculateOnExit()](#getCalculateOnExit) | True if references to the specified form field are automatically updated whenever the field is exited. |
 | [getCheckBoxSize()](#getCheckBoxSize) | Gets the size of the checkbox in points. |
 | [getChecked()](#getChecked) | Gets the checked status of the check box form field. |
-| [getClass()](#getClass) |  |
 | [getCustomNodeId()](#getCustomNodeId) | Specifies custom node identifier. |
 | [getDefault()](#getDefault) | Gets the default value of the check box form field. |
 | [getDirectRunAttr(int key)](#getDirectRunAttr-int) |  |
@@ -124,7 +122,6 @@ Shows how to formatting the entire FormField, including the field value.
 | [getTextInputFormat()](#getTextInputFormat) | Gets the text formatting for a text form field. |
 | [getTextInputType()](#getTextInputType) | Gets the type of a text form field. |
 | [getType()](#getType) | Returns the form field type. |
-| [hashCode()](#hashCode) |  |
 | [isCheckBoxExactSize()](#isCheckBoxExactSize) | Gets the boolean value that indicates whether the size of the textbox is automatic or specified explicitly. |
 | [isCheckBoxExactSize(boolean value)](#isCheckBoxExactSize-boolean) | Sets the boolean value that indicates whether the size of the textbox is automatic or specified explicitly. |
 | [isComposite()](#isComposite) | Returns  true  if this node can contain other nodes. |
@@ -135,8 +132,6 @@ Shows how to formatting the entire FormField, including the field value.
 | [isMoveToRevision()](#isMoveToRevision) | Returns  true  if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
 | [nextPreOrder(Node rootNode)](#nextPreOrder-com.aspose.words.Node) | Gets next node according to the pre-order tree traversal algorithm. |
 | [nodeTypeToString(int nodeType)](#nodeTypeToString-int) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [previousPreOrder(Node rootNode)](#previousPreOrder-com.aspose.words.Node) | Gets the previous node according to the pre-order tree traversal algorithm. |
 | [remove()](#remove) | Removes itself from the parent. |
 | [removeField()](#removeField) | Removes the complete form field, not just the form field special character. |
@@ -166,9 +161,6 @@ Shows how to formatting the entire FormField, including the field value.
 | [toString()](#toString) |  |
 | [toString(SaveOptions saveOptions)](#toString-com.aspose.words.SaveOptions) | Exports the content of the node into a string using the specified save options. |
 | [toString(int saveFormat)](#toString-int) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### accept(DocumentVisitor visitor) {#accept-com.aspose.words.DocumentVisitor}
 ```
 public boolean accept(DocumentVisitor visitor)
@@ -378,21 +370,6 @@ Shows how to clone a composite node.
 
 **Returns:**
 [Node](../../com.aspose.words/node/) - The cloned node.
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### fetchInheritedRunAttr(int fontAttr) {#fetchInheritedRunAttr-int}
 ```
 public Object fetchInheritedRunAttr(int fontAttr)
@@ -927,16 +904,6 @@ Shows how insert different kinds of form fields into a document, and process the
 
 **Returns:**
 boolean - The checked status of the check box form field.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getCustomNodeId() {#getCustomNodeId}
 ```
 public int getCustomNodeId()
@@ -3561,16 +3528,6 @@ Shows how to insert a combo box.
 
 **Returns:**
 int - The form field type. The returned value is one of [FieldType](../../com.aspose.words/fieldtype/) constants.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### isCheckBoxExactSize() {#isCheckBoxExactSize}
 ```
 public boolean isCheckBoxExactSize()
@@ -4301,22 +4258,6 @@ public static String nodeTypeToString(int nodeType)
 
 **Returns:**
 java.lang.String
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### previousPreOrder(Node rootNode) {#previousPreOrder-com.aspose.words.Node}
 ```
 public Node previousPreOrder(Node rootNode)
@@ -7161,38 +7102,3 @@ public String toString(int saveFormat)
 
 **Returns:**
 java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
-

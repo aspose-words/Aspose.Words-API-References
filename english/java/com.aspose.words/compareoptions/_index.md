@@ -96,8 +96,6 @@ Shows how to filter specific types of document elements when making a comparison
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getClass()](#getClass) |  |
 | [getCompareMoves()](#getCompareMoves) | Specifies whether to compare differences in **T:Aspose.Words.Revisions.MoveRevision** between the two documents. |
 | [getGranularity()](#getGranularity) | Specifies whether changes are tracked by character or by word. |
 | [getIgnoreCaseChanges()](#getIgnoreCaseChanges) | True indicates that documents comparison is case insensitive. |
@@ -110,9 +108,6 @@ Shows how to filter specific types of document elements when making a comparison
 | [getIgnoreTables()](#getIgnoreTables) | Specifies whether to compare the differences in data contained in tables. |
 | [getIgnoreTextboxes()](#getIgnoreTextboxes) | Specifies whether to compare differences in the data contained within text boxes. |
 | [getTarget()](#getTarget) | Specifies which document shall be used as a target during comparison. |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setCompareMoves(boolean value)](#setCompareMoves-boolean) | Specifies whether to compare differences in **T:Aspose.Words.Revisions.MoveRevision** between the two documents. |
 | [setGranularity(int value)](#setGranularity-int) | Specifies whether changes are tracked by character or by word. |
 | [setIgnoreCaseChanges(boolean value)](#setIgnoreCaseChanges-boolean) | True indicates that documents comparison is case insensitive. |
@@ -125,35 +120,6 @@ Shows how to filter specific types of document elements when making a comparison
 | [setIgnoreTables(boolean value)](#setIgnoreTables-boolean) | Specifies whether to compare the differences in data contained in tables. |
 | [setIgnoreTextboxes(boolean value)](#setIgnoreTextboxes-boolean) | Specifies whether to compare differences in the data contained within text boxes. |
 | [setTarget(int value)](#setTarget-int) | Specifies which document shall be used as a target during comparison. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getCompareMoves() {#getCompareMoves}
 ```
 public boolean getCompareMoves()
@@ -969,32 +935,6 @@ Shows how to filter specific types of document elements when making a comparison
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [ComparisonTargetType](../../com.aspose.words/comparisontargettype/) constants.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setCompareMoves(boolean value) {#setCompareMoves-boolean}
 ```
 public void setCompareMoves(boolean value)
@@ -1845,49 +1785,4 @@ Shows how to filter specific types of document elements when making a comparison
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | The corresponding  int  value. The value must be one of [ComparisonTargetType](../../com.aspose.words/comparisontargettype/) constants. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

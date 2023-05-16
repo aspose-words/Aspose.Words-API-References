@@ -114,20 +114,11 @@ Shows how to work with revisions in a document.
 | Method | Description |
 | --- | --- |
 | [acceptAll()](#acceptAll) | Accepts all revisions in this collection. |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [get(int index)](#get-int) | Returns a [Revision](../../com.aspose.words/revision/) at the specified index. |
-| [getClass()](#getClass) |  |
 | [getCount()](#getCount) | Returns the number of revisions in the collection. |
 | [getGroups()](#getGroups) | Collection of revision groups. |
-| [hashCode()](#hashCode) |  |
 | [iterator()](#iterator) | Returns an enumerator object. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [rejectAll()](#rejectAll) | Rejects all revisions in this collection. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### acceptAll() {#acceptAll}
 ```
 public void acceptAll()
@@ -168,21 +159,6 @@ Shows how to compare documents.
  
 ```
 
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### get(int index) {#get-int}
 ```
 public Revision get(int index)
@@ -290,16 +266,6 @@ Shows how to work with revisions in a document.
 
 **Returns:**
 [Revision](../../com.aspose.words/revision/) - A [Revision](../../com.aspose.words/revision/) at the specified index.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getCount() {#getCount}
 ```
 public int getCount()
@@ -454,16 +420,6 @@ Shows how to work with a document's collection of revisions.
 
 **Returns:**
 [RevisionGroupCollection](../../com.aspose.words/revisiongroupcollection/) - The corresponding [RevisionGroupCollection](../../com.aspose.words/revisiongroupcollection/) value.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### iterator() {#iterator}
 ```
 public Iterator iterator()
@@ -526,22 +482,6 @@ Shows how to work with a document's collection of revisions.
 
 **Returns:**
 java.util.Iterator
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### rejectAll() {#rejectAll}
 ```
 public void rejectAll()
@@ -601,49 +541,4 @@ Shows how to work with a document's collection of revisions.
  Assert.assertEquals(0, revisions.getCount());
  
 ```
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

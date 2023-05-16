@@ -84,58 +84,14 @@ Shows how to remove digital signatures from a digitally signed document.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getClass()](#getClass) |  |
-| [hashCode()](#hashCode) |  |
 | [loadSignatures(InputStream stream)](#loadSignatures-java.io.InputStream) |  |
 | [loadSignatures(String fileName)](#loadSignatures-java.lang.String) | Loads digital signatures from document. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [removeAllSignatures(InputStream srcStream, OutputStream dstStream)](#removeAllSignatures-java.io.InputStream-java.io.OutputStream) |  |
 | [removeAllSignatures(String srcFileName, String dstFileName)](#removeAllSignatures-java.lang.String-java.lang.String) | Removes all digital signatures from source file and writes unsigned file to destination file. |
 | [sign(InputStream srcStream, OutputStream dstStream, CertificateHolder certHolder)](#sign-java.io.InputStream-java.io.OutputStream-com.aspose.words.CertificateHolder) |  |
 | [sign(InputStream srcStream, OutputStream dstStream, CertificateHolder certHolder, SignOptions signOptions)](#sign-java.io.InputStream-java.io.OutputStream-com.aspose.words.CertificateHolder-com.aspose.words.SignOptions) |  |
 | [sign(String srcFileName, String dstFileName, CertificateHolder certHolder)](#sign-java.lang.String-java.lang.String-com.aspose.words.CertificateHolder) | Signs source document using given [CertificateHolder](../../com.aspose.words/certificateholder/) with digital signature and writes signed document to destination file. |
 | [sign(String srcFileName, String dstFileName, CertificateHolder certHolder, SignOptions signOptions)](#sign-java.lang.String-java.lang.String-com.aspose.words.CertificateHolder-com.aspose.words.SignOptions) | Signs source document using given [CertificateHolder](../../com.aspose.words/certificateholder/) and [SignOptions](../../com.aspose.words/signoptions/) with digital signature and writes signed document to destination file. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### loadSignatures(InputStream stream) {#loadSignatures-java.io.InputStream}
 ```
 public static DigitalSignatureCollection loadSignatures(InputStream stream)
@@ -220,22 +176,6 @@ Shows how to remove digital signatures from a digitally signed document.
 
 **Returns:**
 [DigitalSignatureCollection](../../com.aspose.words/digitalsignaturecollection/) - Collection of digital signatures. Returns empty collection if file is not signed.
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### removeAllSignatures(InputStream srcStream, OutputStream dstStream) {#removeAllSignatures-java.io.InputStream-java.io.OutputStream}
 ```
 public static void removeAllSignatures(InputStream srcStream, OutputStream dstStream)
@@ -493,49 +433,4 @@ Shows how to add a signature line to a document, and then sign it using a digita
 | dstFileName | java.lang.String | The file name of the signed document output. |
 | certHolder | [CertificateHolder](../../com.aspose.words/certificateholder/) | [CertificateHolder](../../com.aspose.words/certificateholder/) object with certificate that used to sign file. |
 | signOptions | [SignOptions](../../com.aspose.words/signoptions/) | [SignOptions](../../com.aspose.words/signoptions/) object with various signing options. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

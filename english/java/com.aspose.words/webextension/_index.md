@@ -68,38 +68,14 @@ Shows how to add a web extension to a document.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getAlternateReferences()](#getAlternateReferences) | Specifies alternate references to a web extension. |
 | [getBindings()](#getBindings) | Specifies a list of web extension bindings. |
-| [getClass()](#getClass) |  |
 | [getId()](#getId) | Uniquely identifies the web extension instance in the current document. |
 | [getProperties()](#getProperties) | Represents a set of web extension custom properties. |
 | [getReference()](#getReference) | Specifies the primary reference to an web extension. |
-| [hashCode()](#hashCode) |  |
 | [isFrozen()](#isFrozen) | Specifies whether the user can interact with the web extension or not. |
 | [isFrozen(boolean value)](#isFrozen-boolean) | Specifies whether the user can interact with the web extension or not. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setId(String value)](#setId-java.lang.String) | Uniquely identifies the web extension instance in the current document. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### getAlternateReferences() {#getAlternateReferences}
 ```
 public WebExtensionReferenceCollection getAlternateReferences()
@@ -164,16 +140,6 @@ Shows how to add a web extension to a document.
 
 **Returns:**
 [WebExtensionBindingCollection](../../com.aspose.words/webextensionbindingcollection/) - The corresponding [WebExtensionBindingCollection](../../com.aspose.words/webextensionbindingcollection/) value.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getId() {#getId}
 ```
 public String getId()
@@ -292,16 +258,6 @@ Shows how to add a web extension to a document.
 
 **Returns:**
 [WebExtensionReference](../../com.aspose.words/webextensionreference/) - The corresponding [WebExtensionReference](../../com.aspose.words/webextensionreference/) value.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### isFrozen() {#isFrozen}
 ```
 public boolean isFrozen()
@@ -413,22 +369,6 @@ Shows how to add a web extension to a document.
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
 
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setId(String value) {#setId-java.lang.String}
 ```
 public void setId(String value)
@@ -441,49 +381,4 @@ Uniquely identifies the web extension instance in the current document.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | The corresponding java.lang.String value. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

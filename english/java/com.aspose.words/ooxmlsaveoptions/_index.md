@@ -64,9 +64,7 @@ Shows how to set an OOXML compliance specification for a saved document to adher
 | --- | --- |
 | [createSaveOptions(int saveFormat)](#createSaveOptions-int) |  |
 | [createSaveOptions(String fileName)](#createSaveOptions-java.lang.String) | Creates a save options object of a class suitable for the file extension specified in the given file name. |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getAllowEmbeddingPostScriptFonts()](#getAllowEmbeddingPostScriptFonts) | Gets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
-| [getClass()](#getClass) |  |
 | [getCompliance()](#getCompliance) | Specifies the OOXML version for the output document. |
 | [getCompressionLevel()](#getCompressionLevel) | Specifies the compression level used to save document. |
 | [getDefaultTemplate()](#getDefaultTemplate) | Gets path to default template (including filename). |
@@ -89,9 +87,6 @@ Shows how to set an OOXML compliance specification for a saved document to adher
 | [getUpdateSdtContent()](#getUpdateSdtContent) | Gets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) is updated before saving. |
 | [getUseAntiAliasing()](#getUseAntiAliasing) | Gets a value determining whether or not to use anti-aliasing for rendering. |
 | [getUseHighQualityRendering()](#getUseHighQualityRendering) | Gets a value determining whether or not to use high quality (i.e. |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setAllowEmbeddingPostScriptFonts(boolean value)](#setAllowEmbeddingPostScriptFonts-boolean) | Sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
 | [setCompliance(int value)](#setCompliance-int) | Specifies the OOXML version for the output document. |
 | [setCompressionLevel(int value)](#setCompressionLevel-int) | Specifies the compression level used to save document. |
@@ -115,10 +110,6 @@ Shows how to set an OOXML compliance specification for a saved document to adher
 | [setUpdateSdtContent(boolean value)](#setUpdateSdtContent-boolean) | Sets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag/) is updated before saving. |
 | [setUseAntiAliasing(boolean value)](#setUseAntiAliasing-boolean) | Sets a value determining whether or not to use anti-aliasing for rendering. |
 | [setUseHighQualityRendering(boolean value)](#setUseHighQualityRendering-boolean) | Sets a value determining whether or not to use high quality (i.e. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### OoxmlSaveOptions() {#OoxmlSaveOptions}
 ```
 public OoxmlSaveOptions()
@@ -225,21 +216,6 @@ Shows how to set a default template for documents that do not have attached temp
 
 **Returns:**
 [SaveOptions](../../com.aspose.words/saveoptions/) - An object of a class that derives from [SaveOptions](../../com.aspose.words/saveoptions/).
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### getAllowEmbeddingPostScriptFonts() {#getAllowEmbeddingPostScriptFonts}
 ```
 public boolean getAllowEmbeddingPostScriptFonts()
@@ -285,16 +261,6 @@ Shows how to save the document with PostScript font.
 
 **Returns:**
 boolean - A boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getCompliance() {#getCompliance}
 ```
 public int getCompliance()
@@ -1286,32 +1252,6 @@ Shows how to improve the quality of a rendered document with SaveOptions.
 
 **Returns:**
 boolean - A value determining whether or not to use high quality (i.e.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setAllowEmbeddingPostScriptFonts(boolean value) {#setAllowEmbeddingPostScriptFonts-boolean}
 ```
 public void setAllowEmbeddingPostScriptFonts(boolean value)
@@ -2416,49 +2356,4 @@ Shows how to improve the quality of a rendered document with SaveOptions.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | A value determining whether or not to use high quality (i.e. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

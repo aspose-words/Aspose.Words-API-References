@@ -69,9 +69,7 @@ Shows how to create an INCLUDETEXT field, and set its properties.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getBookmarkName()](#getBookmarkName) | Gets the name of the bookmark in the document to include. |
-| [getClass()](#getClass) |  |
 | [getDisplayResult()](#getDisplayResult) | Gets the text that represents the displayed field result. |
 | [getEncoding()](#getEncoding) | Gets the encoding applied to the data within the referenced file. |
 | [getEnd()](#getEnd) | Gets the node that represents the field end. |
@@ -92,13 +90,10 @@ Shows how to create an INCLUDETEXT field, and set its properties.
 | [getType()](#getType) | Gets the Microsoft Word field type. |
 | [getXPath()](#getXPath) | Gets XPath for the desired portion of the XML file. |
 | [getXslTransformation()](#getXslTransformation) | Gets the location of XSL Transformation to format XML data. |
-| [hashCode()](#hashCode) |  |
 | [isDirty()](#isDirty) | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [isDirty(boolean value)](#isDirty-boolean) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [isLocked()](#isLocked) | Gets whether the field is locked (should not recalculate its result). |
 | [isLocked(boolean value)](#isLocked-boolean) | Sets whether the field is locked (should not recalculate its result). |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [remove()](#remove) | Removes the field from the document. |
 | [setBookmarkName(String value)](#setBookmarkName-java.lang.String) | Sets the name of the bookmark in the document to include. |
 | [setEncoding(String value)](#setEncoding-java.lang.String) | Sets the encoding applied to the data within the referenced file. |
@@ -111,28 +106,9 @@ Shows how to create an INCLUDETEXT field, and set its properties.
 | [setTextConverter(String value)](#setTextConverter-java.lang.String) | Sets the name of the text converter for the format of the included file. |
 | [setXPath(String value)](#setXPath-java.lang.String) | Sets XPath for the desired portion of the XML file. |
 | [setXslTransformation(String value)](#setXslTransformation-java.lang.String) | Sets the location of XSL Transformation to format XML data. |
-| [toString()](#toString) |  |
 | [unlink()](#unlink) | Performs the field unlink. |
 | [update()](#update) | Performs the field update. |
 | [update(boolean ignoreMergeFormat)](#update-boolean) | Performs a field update. |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### getBookmarkName() {#getBookmarkName}
 ```
 public String getBookmarkName()
@@ -184,16 +160,6 @@ Shows how to create an INCLUDETEXT field, and set its properties.
 
 **Returns:**
 java.lang.String - The name of the bookmark in the document to include.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getDisplayResult() {#getDisplayResult}
 ```
 public String getDisplayResult()
@@ -1230,16 +1196,6 @@ Shows how to create an INCLUDETEXT field, and set its properties.
 
 **Returns:**
 java.lang.String - The location of XSL Transformation to format XML data.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### isDirty() {#isDirty}
 ```
 public boolean isDirty()
@@ -1447,22 +1403,6 @@ Shows how to work with a FieldStart node.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | Whether the field is locked (should not recalculate its result). |
-
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
 
 ### remove() {#remove}
 ```
@@ -2132,16 +2072,6 @@ Shows how to create an INCLUDETEXT field, and set its properties.
 | --- | --- | --- |
 | value | java.lang.String | The location of XSL Transformation to format XML data. |
 
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
 ### unlink() {#unlink}
 ```
 public boolean unlink()
@@ -2331,39 +2261,4 @@ Shows how to preserve or discard INCLUDEPICTURE fields when loading a document.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | ignoreMergeFormat | boolean | If  true  then direct field result formatting is abandoned, regardless of the MERGEFORMAT switch, otherwise normal update is performed. |
-
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

@@ -31,7 +31,6 @@ All non-null X values of a chart series must be of the same [ChartXValueType](..
 | [fromMultilevelValue(ChartMultilevelValue value)](#fromMultilevelValue-com.aspose.words.ChartMultilevelValue) | Creates a [ChartXValue](../../com.aspose.words/chartxvalue/) instance of the [ChartXValueType.MULTILEVEL](../../com.aspose.words/chartxvaluetype/\#MULTILEVEL) type. |
 | [fromString(String value)](#fromString-java.lang.String) | Creates a [ChartXValue](../../com.aspose.words/chartxvalue/) instance of the [ChartXValueType.STRING](../../com.aspose.words/chartxvaluetype/\#STRING) type. |
 | [fromTimeSpan(long value)](#fromTimeSpan-long) | Creates a [ChartXValue](../../com.aspose.words/chartxvalue/) instance of the [ChartXValueType.TIME](../../com.aspose.words/chartxvaluetype/\#TIME) type. |
-| [getClass()](#getClass) |  |
 | [getDateTimeValue()](#getDateTimeValue) | Gets the stored datetime value. |
 | [getDoubleValue()](#getDoubleValue) | Gets the stored numeric value. |
 | [getMultilevelValue()](#getMultilevelValue) | Gets the stored multilevel value. |
@@ -39,12 +38,6 @@ All non-null X values of a chart series must be of the same [ChartXValueType](..
 | [getTimeValue()](#getTimeValue) | Gets the stored time value. |
 | [getValueType()](#getValueType) | Gets the type of the X value stored in the object. |
 | [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### equals(Object obj) {#equals-java.lang.Object}
 ```
 public boolean equals(Object obj)
@@ -135,16 +128,6 @@ Creates a [ChartXValue](../../com.aspose.words/chartxvalue/) instance of the [Ch
 
 **Returns:**
 [ChartXValue](../../com.aspose.words/chartxvalue/)
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getDateTimeValue() {#getDateTimeValue}
 ```
 public Date getDateTimeValue()
@@ -215,64 +198,3 @@ public int hashCode()
 
 **Returns:**
 int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
-

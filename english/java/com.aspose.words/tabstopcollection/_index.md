@@ -84,20 +84,13 @@ Shows how to work with a document's collection of tab stops.
 | [equals(Object obj)](#equals-java.lang.Object) | Determines whether the specified object is equal in value to the current object. |
 | [get(double position)](#get-double) | Gets a tab stop at the specified position. |
 | [get(int index)](#get-int) | Retrieves a tab stop from the collection. |
-| [getClass()](#getClass) |  |
 | [getCount()](#getCount) | Gets the number of tab stops in the collection. |
 | [getIndexByPosition(double position)](#getIndexByPosition-double) | Gets the index of a tab stop with the specified position in points. |
 | [getPositionByIndex(int index)](#getPositionByIndex-int) | Gets the position (in points) of the tab stop at the specified index. |
 | [hashCode()](#hashCode) |  |
 | [isInheritedComplexAttr()](#isInheritedComplexAttr) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [removeByIndex(int index)](#removeByIndex-int) | Removes a tab stop at the specified index from the collection. |
 | [removeByPosition(double position)](#removeByPosition-double) | Removes a tab stop at the specified position from the collection. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### add(TabStop tabStop) {#add-com.aspose.words.TabStop}
 ```
 public void add(TabStop tabStop)
@@ -566,16 +559,6 @@ Shows how to work with a document's collection of tab stops.
 
 **Returns:**
 [TabStop](../../com.aspose.words/tabstop/) - The corresponding [TabStop](../../com.aspose.words/tabstop/) value.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getCount() {#getCount}
 ```
 public int getCount()
@@ -717,22 +700,6 @@ public boolean isInheritedComplexAttr()
 
 **Returns:**
 boolean
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### removeByIndex(int index) {#removeByIndex-int}
 ```
 public void removeByIndex(int index)
@@ -806,49 +773,4 @@ Shows how to modify the position of the right tab stop in TOC related paragraphs
 | Parameter | Type | Description |
 | --- | --- | --- |
 | position | double | The position (in points) of the tab stop to remove. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

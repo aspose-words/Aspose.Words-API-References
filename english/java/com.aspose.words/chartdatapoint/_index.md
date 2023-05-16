@@ -87,25 +87,16 @@ Shows how to work with data points on a line chart.
 | Method | Description |
 | --- | --- |
 | [clearFormat()](#clearFormat) | Clears format of this data point. |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getBubble3D()](#getBubble3D) | Specifies whether the bubbles in Bubble chart should have a 3-D effect applied to them. |
-| [getClass()](#getClass) |  |
 | [getExplosion()](#getExplosion) | Specifies the amount the data point shall be moved from the center of the pie. |
 | [getFormat()](#getFormat) | Provides access to fill and line formatting of this data point. |
 | [getIndex()](#getIndex) | Index of the data point this object applies formatting to. |
 | [getInvertIfNegative()](#getInvertIfNegative) | Specifies whether the parent element shall inverts its colors if the value is negative. |
 | [getMarker()](#getMarker) | Specifies chart data marker. |
-| [hashCode()](#hashCode) |  |
 | [materializeSpPr()](#materializeSpPr) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setBubble3D(boolean value)](#setBubble3D-boolean) | Specifies whether the bubbles in Bubble chart should have a 3-D effect applied to them. |
 | [setExplosion(int value)](#setExplosion-int) | Specifies the amount the data point shall be moved from the center of the pie. |
 | [setInvertIfNegative(boolean value)](#setInvertIfNegative-boolean) | Specifies whether the parent element shall inverts its colors if the value is negative. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### clearFormat() {#clearFormat}
 ```
 public void clearFormat()
@@ -114,21 +105,6 @@ public void clearFormat()
 
 Clears format of this data point. The properties are set to the default values defined in the parent series.
 
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### getBubble3D() {#getBubble3D}
 ```
 public boolean getBubble3D()
@@ -139,16 +115,6 @@ Specifies whether the bubbles in Bubble chart should have a 3-D effect applied t
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getExplosion() {#getExplosion}
 ```
 public int getExplosion()
@@ -285,35 +251,9 @@ Specifies chart data marker.
 
 **Returns:**
 [ChartMarker](../../com.aspose.words/chartmarker/) - The corresponding [ChartMarker](../../com.aspose.words/chartmarker/) value.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### materializeSpPr() {#materializeSpPr}
 ```
 public void materializeSpPr()
-```
-
-
-
-
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
 ```
 
 
@@ -357,49 +297,4 @@ Specifies whether the parent element shall inverts its colors if the value is ne
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

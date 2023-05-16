@@ -131,7 +131,6 @@ Shows how to add a custom building block to a document.
 | [appendChild(Node newChild)](#appendChild-com.aspose.words.Node) | Adds the specified node to the end of the list of child nodes for this node. |
 | [dd()](#dd) |  |
 | [deepClone(boolean isCloneChildren)](#deepClone-boolean) | Creates a duplicate of the node. |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getAncestor(int ancestorType)](#getAncestor-int) |  |
 | [getAncestor(Class ancestorType)](#getAncestor-java.lang.Class) | Gets the first ancestor of the specified object type. |
 | [getBehavior()](#getBehavior) | Specifies the behavior that shall be applied when the contents of the building block is inserted into the main document. |
@@ -139,7 +138,6 @@ Shows how to add a custom building block to a document.
 | [getChild(int nodeType, int index, boolean isDeep)](#getChild-int-int-boolean) |  |
 | [getChildNodes()](#getChildNodes) | Gets all immediate child nodes of this node. |
 | [getChildNodes(int nodeType, boolean isDeep)](#getChildNodes-int-boolean) |  |
-| [getClass()](#getClass) |  |
 | [getContainer()](#getContainer) |  |
 | [getCount()](#getCount) | Gets the number of immediate children of this node. |
 | [getCurrentNode()](#getCurrentNode) |  |
@@ -163,7 +161,6 @@ Shows how to add a custom building block to a document.
 | [getText()](#getText) | Gets the text of this node and of all its children. |
 | [getType()](#getType) | Specifies the building block type. |
 | [hasChildNodes()](#hasChildNodes) | Returns  true  if this node has any child nodes. |
-| [hashCode()](#hashCode) |  |
 | [indexOf(Node child)](#indexOf-com.aspose.words.Node) | Returns the index of the specified child node in the child node array. |
 | [insertAfter(Node newChild, Node refChild)](#insertAfter-com.aspose.words.Node-com.aspose.words.Node) | Inserts the specified node immediately after the specified reference node. |
 | [insertBefore(Node newChild, Node refChild)](#insertBefore-com.aspose.words.Node-com.aspose.words.Node) | Inserts the specified node immediately before the specified reference node. |
@@ -171,8 +168,6 @@ Shows how to add a custom building block to a document.
 | [iterator()](#iterator) | Provides support for the for each style iteration over the child nodes of this node. |
 | [nextPreOrder(Node rootNode)](#nextPreOrder-com.aspose.words.Node) | Gets next node according to the pre-order tree traversal algorithm. |
 | [nodeTypeToString(int nodeType)](#nodeTypeToString-int) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [prependChild(Node newChild)](#prependChild-com.aspose.words.Node) | Adds the specified node to the beginning of the list of child nodes for this node. |
 | [previousPreOrder(Node rootNode)](#previousPreOrder-com.aspose.words.Node) | Gets the previous node according to the pre-order tree traversal algorithm. |
 | [remove()](#remove) | Removes itself from the parent. |
@@ -192,9 +187,6 @@ Shows how to add a custom building block to a document.
 | [toString()](#toString) |  |
 | [toString(SaveOptions saveOptions)](#toString-com.aspose.words.SaveOptions) | Exports the content of the node into a string using the specified save options. |
 | [toString(int saveFormat)](#toString-int) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### BuildingBlock(GlossaryDocument glossaryDoc) {#BuildingBlock-com.aspose.words.GlossaryDocument}
 ```
 public BuildingBlock(GlossaryDocument glossaryDoc)
@@ -539,21 +531,6 @@ Shows how to clone a composite node.
 
 **Returns:**
 [Node](../../com.aspose.words/node/) - The cloned node.
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### getAncestor(int ancestorType) {#getAncestor-int}
 ```
 public CompositeNode getAncestor(int ancestorType)
@@ -949,16 +926,6 @@ public NodeCollection getChildNodes(int nodeType, boolean isDeep)
 
 **Returns:**
 [NodeCollection](../../com.aspose.words/nodecollection/)
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getContainer() {#getContainer}
 ```
 public CompositeNode getContainer()
@@ -2442,16 +2409,6 @@ Shows how to combine the rows from two tables into one.
 
 **Returns:**
 boolean -  true  if this node has any child nodes.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### indexOf(Node child) {#indexOf-com.aspose.words.Node}
 ```
 public int indexOf(Node child)
@@ -2859,22 +2816,6 @@ public static String nodeTypeToString(int nodeType)
 
 **Returns:**
 java.lang.String
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### prependChild(Node newChild) {#prependChild-com.aspose.words.Node}
 ```
 public Node prependChild(Node newChild)
@@ -4300,38 +4241,3 @@ public String toString(int saveFormat)
 
 **Returns:**
 java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
-

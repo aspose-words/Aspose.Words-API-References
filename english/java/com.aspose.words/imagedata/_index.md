@@ -98,13 +98,11 @@ Shows how to insert a linked image into a document.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [fetchInheritedBorderAttr(int key)](#fetchInheritedBorderAttr-int) |  |
 | [getBiLevel()](#getBiLevel) | Determines whether an image will be displayed in black and white. |
 | [getBorders()](#getBorders) | Gets the collection of borders of the image. |
 | [getBrightness()](#getBrightness) | Gets the brightness of the picture. |
 | [getChromaKey()](#getChromaKey) | Defines the color value of the image that will be treated as transparent. |
-| [getClass()](#getClass) |  |
 | [getContrast()](#getContrast) | Gets the contrast for the specified picture. |
 | [getCropBottom()](#getCropBottom) | Defines the fraction of picture removal from the bottom side. |
 | [getCropLeft()](#getCropLeft) | Defines the fraction of picture removal from the left side. |
@@ -118,11 +116,8 @@ Shows how to insert a linked image into a document.
 | [getSourceFullName()](#getSourceFullName) | Gets the path and name of the source file for the linked image. |
 | [getTitle()](#getTitle) | Defines the title of an image. |
 | [hasImage()](#hasImage) | Returns  true  if the shape has image bytes or links an image. |
-| [hashCode()](#hashCode) |  |
 | [isLink()](#isLink) | Returns  true  if the image is linked to the shape (when [getSourceFullName()](../../com.aspose.words/imagedata/\#getSourceFullName) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata/\#setSourceFullName-java.lang.String) is specified). |
 | [isLinkOnly()](#isLinkOnly) | Returns  true  if the image is linked and not stored in the document. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [save(OutputStream stream)](#save-java.io.OutputStream) |  |
 | [save(String fileName)](#save-java.lang.String) | Saves the image into a file. |
 | [setBiLevel(boolean value)](#setBiLevel-boolean) | Determines whether an image will be displayed in black and white. |
@@ -144,25 +139,6 @@ Shows how to insert a linked image into a document.
 | [toByteArray()](#toByteArray) | Returns image bytes for any image regardless whether the image is stored or linked. |
 | [toImage()](#toImage) | Gets the image stored in the shape as a java  BufferedImage  object. |
 | [toStream()](#toStream) | Creates and returns a stream that contains the image bytes. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### fetchInheritedBorderAttr(int key) {#fetchInheritedBorderAttr-int}
 ```
 public Object fetchInheritedBorderAttr(int key)
@@ -482,16 +458,6 @@ Shows how to edit a shape's image data.
 
 **Returns:**
 java.awt.Color - The corresponding java.awt.Color value.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getContrast() {#getContrast}
 ```
 public double getContrast()
@@ -1301,16 +1267,6 @@ Shows how to save all images from a document to the file system.
 
 **Returns:**
 boolean -  true  if the shape has image bytes or links an image.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### isLink() {#isLink}
 ```
 public boolean isLink()
@@ -1457,22 +1413,6 @@ Shows how to edit a shape's image data.
 
 **Returns:**
 boolean -  true  if the image is linked and not stored in the document.
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### save(OutputStream stream) {#save-java.io.OutputStream}
 ```
 public void save(OutputStream stream)
@@ -2709,48 +2649,3 @@ Shows how to create an image file from a shape's raw image data.
 
 **Returns:**
 java.io.InputStream
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
-

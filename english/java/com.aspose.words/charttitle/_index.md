@@ -55,26 +55,17 @@ Shows how to insert a chart and set a title.
 | Method | Description |
 | --- | --- |
 | [clearRunAttrs()](#clearRunAttrs) |  |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [fetchInheritedRunAttr(int key)](#fetchInheritedRunAttr-int) |  |
-| [getClass()](#getClass) |  |
 | [getDirectRunAttr(int key)](#getDirectRunAttr-int) |  |
 | [getDirectRunAttr(int key, int revisionsView)](#getDirectRunAttr-int-int) |  |
 | [getOverlay()](#getOverlay) | Determines whether other chart elements shall be allowed to overlap title. |
 | [getShow()](#getShow) | Determines whether the title shall be shown for this chart. |
 | [getText()](#getText) | Gets the text of the chart title. |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [removeRunAttr(int key)](#removeRunAttr-int) |  |
 | [setOverlay(boolean value)](#setOverlay-boolean) | Determines whether other chart elements shall be allowed to overlap title. |
 | [setRunAttr(int key, Object value)](#setRunAttr-int-java.lang.Object) |  |
 | [setShow(boolean value)](#setShow-boolean) | Determines whether the title shall be shown for this chart. |
 | [setText(String value)](#setText-java.lang.String) | Sets the text of the chart title. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### clearRunAttrs() {#clearRunAttrs}
 ```
 public void clearRunAttrs()
@@ -83,21 +74,6 @@ public void clearRunAttrs()
 
 
 
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### fetchInheritedRunAttr(int key) {#fetchInheritedRunAttr-int}
 ```
 public Object fetchInheritedRunAttr(int key)
@@ -113,16 +89,6 @@ public Object fetchInheritedRunAttr(int key)
 
 **Returns:**
 java.lang.Object
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getDirectRunAttr(int key) {#getDirectRunAttr-int}
 ```
 public Object getDirectRunAttr(int key)
@@ -269,32 +235,6 @@ Shows how to insert a chart and set a title.
 
 **Returns:**
 java.lang.String - The text of the chart title.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### removeRunAttr(int key) {#removeRunAttr-int}
 ```
 public void removeRunAttr(int key)
@@ -445,49 +385,4 @@ Shows how to insert a chart and set a title.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | The text of the chart title. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

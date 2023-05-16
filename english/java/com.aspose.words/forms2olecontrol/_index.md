@@ -53,10 +53,8 @@ Shows how to verify the properties of an ActiveX control.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getCaption()](#getCaption) | Gets Caption property of control. |
 | [getChildNodes()](#getChildNodes) | Gets collection of immediate child controls. |
-| [getClass()](#getClass) |  |
 | [getClsidInternal()](#getClsidInternal) |  |
 | [getEnabled()](#getEnabled) | Returns  true  if control is in enabled state. |
 | [getExtensionForUser(String progId)](#getExtensionForUser-java.lang.String) |  |
@@ -66,39 +64,17 @@ Shows how to verify the properties of an ActiveX control.
 | [getName()](#getName) | Gets name of the ActiveX control. |
 | [getType()](#getType) | Gets type of Forms 2.0 control. |
 | [getValue()](#getValue) | Gets underlying Value property which often represents control state. |
-| [hashCode()](#hashCode) |  |
 | [isForms2OleControl()](#isForms2OleControl) | Returns  true  if the control is a [Forms2OleControl](../../com.aspose.words/forms2olecontrol/). |
 | [isForms2OleControlInternal()](#isForms2OleControlInternal) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setGroupName(String value)](#setGroupName-java.lang.String) | Sets a string that specifies a group of mutually exclusive controls. |
 | [setId(int value)](#setId-int) |  |
 | [setName(String value)](#setName-java.lang.String) | Sets name of the ActiveX control. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### Forms2OleControl() {#Forms2OleControl}
 ```
 public Forms2OleControl()
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### getCaption() {#getCaption}
 ```
 public String getCaption()
@@ -171,16 +147,6 @@ Shows how to verify the properties of an ActiveX control.
 
 **Returns:**
 [Forms2OleControlCollection](../../com.aspose.words/forms2olecontrolcollection/) - Collection of immediate child controls.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getClsidInternal() {#getClsidInternal}
 ```
 public String getClsidInternal()
@@ -372,16 +338,6 @@ Shows how to verify the properties of an ActiveX control.
 
 **Returns:**
 java.lang.String - Underlying Value property which often represents control state.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### isForms2OleControl() {#isForms2OleControl}
 ```
 public boolean isForms2OleControl()
@@ -426,22 +382,6 @@ public boolean isForms2OleControlInternal()
 
 **Returns:**
 boolean
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setGroupName(String value) {#setGroupName-java.lang.String}
 ```
 public void setGroupName(String value)
@@ -504,49 +444,4 @@ Shows how to verify the properties of an ActiveX control.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | Name of the ActiveX control. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

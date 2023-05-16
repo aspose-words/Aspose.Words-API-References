@@ -29,13 +29,11 @@ Represents the schema of a column in a [DataTable](../../com.aspose.words.net.sy
 | Method | Description |
 | --- | --- |
 | [areColumnSetsTheSame(System.Data.DataColumn[] columnSet, System.Data.DataColumn[] compareSet)](#areColumnSetsTheSame-com.aspose.words.net.System.Data.DataColumn---com.aspose.words.net.System.Data.DataColumn) |  |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getAllowDBNull()](#getAllowDBNull) | Gets a value that indicates whether null values are allowed in this column for rows that belong to the table. |
 | [getAutoIncrement()](#getAutoIncrement) | Gets a value that indicates whether the column automatically increments the value of the column for new rows added to the table. |
 | [getAutoIncrementSeed()](#getAutoIncrementSeed) | Gets the starting value for a column that has its [getAutoIncrement()](../../com.aspose.words.net.system.data/datacolumn/\#getAutoIncrement) / [setAutoIncrement(boolean)](../../com.aspose.words.net.system.data/datacolumn/\#setAutoIncrement-boolean) property set to true. |
 | [getAutoIncrementStep()](#getAutoIncrementStep) | Gets the increment used by a column with its [getAutoIncrement()](../../com.aspose.words.net.system.data/datacolumn/\#getAutoIncrement) / [setAutoIncrement(boolean)](../../com.aspose.words.net.system.data/datacolumn/\#setAutoIncrement-boolean) property set to true. |
 | [getCaption()](#getCaption) | Gets the caption for the column. |
-| [getClass()](#getClass) |  |
 | [getColumnMapping()](#getColumnMapping) | Gets the [MappingType](../../com.aspose.words.net.system.data/mappingtype/) of the column. |
 | [getColumnName()](#getColumnName) | Gets the name of the column in the [DataColumnCollection](../../com.aspose.words.net.system.data/datacolumncollection/). |
 | [getDataType()](#getDataType) | Gets the type of data stored in the column. |
@@ -48,11 +46,8 @@ Represents the schema of a column in a [DataTable](../../com.aspose.words.net.sy
 | [getReadOnly()](#getReadOnly) | Gets a value that indicates whether the column allows for changes as soon as a row has been added to the table. |
 | [getTable()](#getTable) | Gets the [DataTable](../../com.aspose.words.net.system.data/datatable/) to which the column belongs to. |
 | [getUnique()](#getUnique) | Gets a value that indicates whether the values in each row of the column must be unique. |
-| [hashCode()](#hashCode) |  |
 | [isReadOnly()](#isReadOnly) |  |
 | [isUnique()](#isUnique) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setAllowDBNull(boolean value)](#setAllowDBNull-boolean) | Sets a value that indicates whether null values are allowed in this column for rows that belong to the table. |
 | [setAutoIncrement(boolean value)](#setAutoIncrement-boolean) | Sets a value that indicates whether the column automatically increments the value of the column for new rows added to the table. |
 | [setAutoIncrementSeed(long value)](#setAutoIncrementSeed-long) | Sets the starting value for a column that has its [getAutoIncrement()](../../com.aspose.words.net.system.data/datacolumn/\#getAutoIncrement) / [setAutoIncrement(boolean)](../../com.aspose.words.net.system.data/datacolumn/\#setAutoIncrement-boolean) property set to true. |
@@ -69,9 +64,6 @@ Represents the schema of a column in a [DataTable](../../com.aspose.words.net.sy
 | [setReadOnly(boolean value)](#setReadOnly-boolean) | Sets a value that indicates whether the column allows for changes as soon as a row has been added to the table. |
 | [setUnique(boolean value)](#setUnique-boolean) | Sets a value that indicates whether the values in each row of the column must be unique. |
 | [toString()](#toString) | Gets the [getExpression()](../../com.aspose.words.net.system.data/datacolumn/\#getExpression) of the column, if one exists. |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### DataColumn() {#DataColumn}
 ```
 public DataColumn()
@@ -152,21 +144,6 @@ public static boolean areColumnSetsTheSame(System.Data.DataColumn[] columnSet, S
 
 **Returns:**
 boolean
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### getAllowDBNull() {#getAllowDBNull}
 ```
 public boolean getAllowDBNull()
@@ -217,16 +194,6 @@ Gets the caption for the column.
 
 **Returns:**
 java.lang.String - The caption of the column. If not set, returns the [getColumnName()](../../com.aspose.words.net.system.data/datacolumn/\#getColumnName) / [setColumnName(java.lang.String)](../../com.aspose.words.net.system.data/datacolumn/\#setColumnName-java.lang.String) value.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getColumnMapping() {#getColumnMapping}
 ```
 public int getColumnMapping()
@@ -347,16 +314,6 @@ Gets a value that indicates whether the values in each row of the column must be
 
 **Returns:**
 boolean - true if the value must be unique; otherwise, false. The default is false.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### isReadOnly() {#isReadOnly}
 ```
 public boolean isReadOnly()
@@ -377,22 +334,6 @@ public boolean isUnique()
 
 **Returns:**
 boolean
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setAllowDBNull(boolean value) {#setAllowDBNull-boolean}
 ```
 public void setAllowDBNull(boolean value)
@@ -598,38 +539,3 @@ Gets the [getExpression()](../../com.aspose.words.net.system.data/datacolumn/\#g
 
 **Returns:**
 java.lang.String - The [getExpression()](../../com.aspose.words.net.system.data/datacolumn/\#getExpression) value, if the property is set; otherwise, the [getColumnName()](../../com.aspose.words.net.system.data/datacolumn/\#getColumnName) / [setColumnName(java.lang.String)](../../com.aspose.words.net.system.data/datacolumn/\#setColumnName-java.lang.String) property.
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
-

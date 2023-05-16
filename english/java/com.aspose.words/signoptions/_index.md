@@ -24,52 +24,18 @@ To learn more, visit the [ Work with Digital Signatures ][Work with Digital Sign
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getClass()](#getClass) |  |
 | [getComments()](#getComments) | Specifies comments on the digital signature. |
 | [getDecryptionPassword()](#getDecryptionPassword) | The password to decrypt source document. |
 | [getProviderId()](#getProviderId) | Specifies the class ID of the signature provider. |
 | [getSignTime()](#getSignTime) | The date of signing. |
 | [getSignatureLineId()](#getSignatureLineId) | Signature line identifier. |
 | [getSignatureLineImage()](#getSignatureLineImage) | The image that will be shown in associated [SignatureLine](../../com.aspose.words/signatureline/). |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setComments(String value)](#setComments-java.lang.String) | Specifies comments on the digital signature. |
 | [setDecryptionPassword(String value)](#setDecryptionPassword-java.lang.String) | The password to decrypt source document. |
 | [setProviderId(UUID value)](#setProviderId-java.util.UUID) | Specifies the class ID of the signature provider. |
 | [setSignTime(Date value)](#setSignTime-java.util.Date) | The date of signing. |
 | [setSignatureLineId(UUID value)](#setSignatureLineId-java.util.UUID) | Signature line identifier. |
 | [setSignatureLineImage(byte[] value)](#setSignatureLineImage-byte) | The image that will be shown in associated [SignatureLine](../../com.aspose.words/signatureline/). |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getComments() {#getComments}
 ```
 public String getComments()
@@ -453,32 +419,6 @@ Shows how to add a signature line to a document, and then sign it using a digita
 
 **Returns:**
 byte[] - The corresponding byte[] value.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setComments(String value) {#setComments-java.lang.String}
 ```
 public void setComments(String value)
@@ -879,49 +819,4 @@ Shows how to add a signature line to a document, and then sign it using a digita
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | byte[] | The corresponding byte[] value. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

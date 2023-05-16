@@ -39,8 +39,6 @@ Shows how to insert an OCX field.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getClass()](#getClass) |  |
 | [getDisplayResult()](#getDisplayResult) | Gets the text that represents the displayed field result. |
 | [getEnd()](#getEnd) | Gets the node that represents the field end. |
 | [getFieldCode()](#getFieldCode) | Returns text between field start and field separator (or field end if there is no separator). |
@@ -51,48 +49,16 @@ Shows how to insert an OCX field.
 | [getSeparator()](#getSeparator) | Gets the node that represents the field separator. |
 | [getStart()](#getStart) | Gets the node that represents the start of the field. |
 | [getType()](#getType) | Gets the Microsoft Word field type. |
-| [hashCode()](#hashCode) |  |
 | [isDirty()](#isDirty) | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [isDirty(boolean value)](#isDirty-boolean) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [isLocked()](#isLocked) | Gets whether the field is locked (should not recalculate its result). |
 | [isLocked(boolean value)](#isLocked-boolean) | Sets whether the field is locked (should not recalculate its result). |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [remove()](#remove) | Removes the field from the document. |
 | [setLocaleId(int value)](#setLocaleId-int) | Sets the LCID of the field. |
 | [setResult(String value)](#setResult-java.lang.String) | Sets text that is between the field separator and field end. |
-| [toString()](#toString) |  |
 | [unlink()](#unlink) | Performs the field unlink. |
 | [update()](#update) | Performs the field update. |
 | [update(boolean ignoreMergeFormat)](#update-boolean) | Performs a field update. |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getDisplayResult() {#getDisplayResult}
 ```
 public String getDisplayResult()
@@ -696,16 +662,6 @@ Shows how to insert a field into a document using a field code.
 
 **Returns:**
 int - The Microsoft Word field type. The returned value is one of [FieldType](../../com.aspose.words/fieldtype/) constants.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### isDirty() {#isDirty}
 ```
 public boolean isDirty()
@@ -914,22 +870,6 @@ Shows how to work with a FieldStart node.
 | --- | --- | --- |
 | value | boolean | Whether the field is locked (should not recalculate its result). |
 
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### remove() {#remove}
 ```
 public Node remove()
@@ -1112,16 +1052,6 @@ Shows how to insert a field into a document using a field code.
 | --- | --- | --- |
 | value | java.lang.String | Text that is between the field separator and field end. |
 
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
 ### unlink() {#unlink}
 ```
 public boolean unlink()
@@ -1311,39 +1241,4 @@ Shows how to preserve or discard INCLUDEPICTURE fields when loading a document.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | ignoreMergeFormat | boolean | If  true  then direct field result formatting is abandoned, regardless of the MERGEFORMAT switch, otherwise normal update is performed. |
-
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

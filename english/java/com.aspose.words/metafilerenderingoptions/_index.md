@@ -24,52 +24,18 @@ To learn more, visit the [ Handling Windows Metafiles ][Handling Windows Metafil
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getClass()](#getClass) |  |
 | [getEmfPlusDualRenderingMode()](#getEmfPlusDualRenderingMode) | Gets a value determining how EMF+ Dual metafiles should be rendered. |
 | [getEmulateRasterOperations()](#getEmulateRasterOperations) | Gets a value determining whether or not the raster operations should be emulated. |
 | [getRenderingMode()](#getRenderingMode) | Gets a value determining how metafile images should be rendered. |
 | [getScaleWmfFontsToMetafileSize()](#getScaleWmfFontsToMetafileSize) | Gets a value determining whether or not to scale fonts in WMF metafile according to metafile size on the page. |
 | [getUseEmfEmbeddedToWmf()](#getUseEmfEmbeddedToWmf) | Gets a value determining how WMF metafiles with embedded EMF metafiles should be rendered. |
 | [getUseGdiRasterOperationsEmulation()](#getUseGdiRasterOperationsEmulation) | Gets a value determining whether or not to use the GDI+ for raster operations emulation. |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setEmfPlusDualRenderingMode(int value)](#setEmfPlusDualRenderingMode-int) | Sets a value determining how EMF+ Dual metafiles should be rendered. |
 | [setEmulateRasterOperations(boolean value)](#setEmulateRasterOperations-boolean) | Sets a value determining whether or not the raster operations should be emulated. |
 | [setRenderingMode(int value)](#setRenderingMode-int) | Sets a value determining how metafile images should be rendered. |
 | [setScaleWmfFontsToMetafileSize(boolean value)](#setScaleWmfFontsToMetafileSize-boolean) | Sets a value determining whether or not to scale fonts in WMF metafile according to metafile size on the page. |
 | [setUseEmfEmbeddedToWmf(boolean value)](#setUseEmfEmbeddedToWmf-boolean) | Sets a value determining how WMF metafiles with embedded EMF metafiles should be rendered. |
 | [setUseGdiRasterOperationsEmulation(boolean value)](#setUseGdiRasterOperationsEmulation-boolean) | Sets a value determining whether or not to use the GDI+ for raster operations emulation. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getEmfPlusDualRenderingMode() {#getEmfPlusDualRenderingMode}
 ```
 public int getEmfPlusDualRenderingMode()
@@ -215,32 +181,6 @@ Shows how to set the rendering mode when saving documents with Windows Metafile 
 
 **Returns:**
 boolean - A value determining whether or not to use the GDI+ for raster operations emulation.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setEmfPlusDualRenderingMode(int value) {#setEmfPlusDualRenderingMode-int}
 ```
 public void setEmfPlusDualRenderingMode(int value)
@@ -403,49 +343,4 @@ Shows how to set the rendering mode when saving documents with Windows Metafile 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | A value determining whether or not to use the GDI+ for raster operations emulation. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

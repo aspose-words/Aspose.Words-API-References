@@ -195,12 +195,6 @@ Shows how to use a document visitor to print a document's node structure.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getClass()](#getClass) |  |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
-| [toString()](#toString) |  |
 | [visitAbsolutePositionTab(AbsolutePositionTab tab)](#visitAbsolutePositionTab-com.aspose.words.AbsolutePositionTab) | Called when a [AbsolutePositionTab](../../com.aspose.words/absolutepositiontab/) node is encountered in the document. |
 | [visitBodyEnd(Body body)](#visitBodyEnd-com.aspose.words.Body) | Called when enumeration of the main text story in a section has ended. |
 | [visitBodyStart(Body body)](#visitBodyStart-com.aspose.words.Body) | Called when enumeration of the main text story in a section has started. |
@@ -251,70 +245,6 @@ Shows how to use a document visitor to print a document's node structure.
 | [visitSubDocument(SubDocument subDocument)](#visitSubDocument-com.aspose.words.SubDocument) | Called when a sub-document is encountered. |
 | [visitTableEnd(Table table)](#visitTableEnd-com.aspose.words.Table) | Called when enumeration of a table has ended. |
 | [visitTableStart(Table table)](#visitTableStart-com.aspose.words.Table) | Called when enumeration of a table has started. |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
 ### visitAbsolutePositionTab(AbsolutePositionTab tab) {#visitAbsolutePositionTab-com.aspose.words.AbsolutePositionTab}
 ```
 public int visitAbsolutePositionTab(AbsolutePositionTab tab)
@@ -8006,38 +7936,3 @@ Shows how to print the node structure of every table in a document.
 
 **Returns:**
 int - A [VisitorAction](../../com.aspose.words/visitoraction/) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction/) constants.
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
-

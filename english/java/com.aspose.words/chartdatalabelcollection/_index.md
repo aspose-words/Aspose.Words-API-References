@@ -98,9 +98,7 @@ Shows how to apply labels to data points in a line chart.
 | Method | Description |
 | --- | --- |
 | [clearFormat()](#clearFormat) | Clears format of all [ChartDataLabel](../../com.aspose.words/chartdatalabel/) in this collection. |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [get(int index)](#get-int) | Returns [ChartDataLabel](../../com.aspose.words/chartdatalabel/) for the specified index. |
-| [getClass()](#getClass) |  |
 | [getCount()](#getCount) | Returns the number of [ChartDataLabel](../../com.aspose.words/chartdatalabel/) in this collection. |
 | [getFont()](#getFont) | Provides access to the font formatting of the data labels of the entire series. |
 | [getNumberFormat()](#getNumberFormat) | Gets an [ChartNumberFormat](../../com.aspose.words/chartnumberformat/) instance allowing to set number format for the data labels of the entire series. |
@@ -113,11 +111,8 @@ Shows how to apply labels to data points in a line chart.
 | [getShowPercentage()](#getShowPercentage) | Allows to specify whether percentage value is to be displayed for the data labels of the entire series. |
 | [getShowSeriesName()](#getShowSeriesName) | Gets a Boolean to indicate the series name display behavior for the data labels of the entire series. |
 | [getShowValue()](#getShowValue) | Allows to specify whether values are to be displayed in the data labels of the entire series. |
-| [hashCode()](#hashCode) |  |
 | [isInherited()](#isInherited) |  |
 | [iterator()](#iterator) | Returns an enumerator object. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setSeparator(String value)](#setSeparator-java.lang.String) | Sets string separator used for the data labels of the entire series. |
 | [setShowBubbleSize(boolean value)](#setShowBubbleSize-boolean) | Allows to specify whether bubble size is to be displayed for the data labels of the entire series. |
 | [setShowCategoryName(boolean value)](#setShowCategoryName-boolean) | Allows to specify whether category name is to be displayed for the data labels of the entire series. |
@@ -127,10 +122,6 @@ Shows how to apply labels to data points in a line chart.
 | [setShowPercentage(boolean value)](#setShowPercentage-boolean) | Allows to specify whether percentage value is to be displayed for the data labels of the entire series. |
 | [setShowSeriesName(boolean value)](#setShowSeriesName-boolean) | Sets a Boolean to indicate the series name display behavior for the data labels of the entire series. |
 | [setShowValue(boolean value)](#setShowValue-boolean) | Allows to specify whether values are to be displayed in the data labels of the entire series. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### clearFormat() {#clearFormat}
 ```
 public void clearFormat()
@@ -209,21 +200,6 @@ Shows how to apply labels to data points in a line chart.
  
 ```
 
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### get(int index) {#get-int}
 ```
 public ChartDataLabel get(int index)
@@ -309,16 +285,6 @@ Shows how to apply labels to data points in a line chart.
 
 **Returns:**
 [ChartDataLabel](../../com.aspose.words/chartdatalabel/) - [ChartDataLabel](../../com.aspose.words/chartdatalabel/) for the specified index.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getCount() {#getCount}
 ```
 public int getCount()
@@ -905,16 +871,6 @@ Shows how to work with data labels of a pie chart.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### isInherited() {#isInherited}
 ```
 public boolean isInherited()
@@ -1005,22 +961,6 @@ Shows how to apply labels to data points in a line chart.
 
 **Returns:**
 java.util.Iterator
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setSeparator(String value) {#setSeparator-java.lang.String}
 ```
 public void setSeparator(String value)
@@ -1461,49 +1401,4 @@ Shows how to work with data labels of a pie chart.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

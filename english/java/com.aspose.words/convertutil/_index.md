@@ -82,58 +82,14 @@ Shows how to specify page properties in inches.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getClass()](#getClass) |  |
-| [hashCode()](#hashCode) |  |
 | [inchToPoint(double inches)](#inchToPoint-double) | Converts inches to points. |
 | [millimeterToPoint(double millimeters)](#millimeterToPoint-double) | Converts millimeters to points. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [pixelToNewDpi(double pixels, double oldDpi, double newDpi)](#pixelToNewDpi-double-double-double) | Converts pixels from one resolution to another. |
 | [pixelToPoint(double pixels)](#pixelToPoint-double) | Converts pixels to points. |
 | [pixelToPoint(double pixels, double resolution)](#pixelToPoint-double-double) | Converts pixels to points at the specified pixel resolution. |
 | [pointToInch(double points)](#pointToInch-double) | Converts points to inches. |
 | [pointToPixel(double points)](#pointToPixel-double) | Converts points to pixels. |
 | [pointToPixel(double points, double resolution)](#pointToPixel-double-double) | Converts points to pixels at the specified pixel resolution. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### inchToPoint(double inches) {#inchToPoint-double}
 ```
 public static double inchToPoint(double inches)
@@ -261,22 +217,6 @@ Shows how to specify page properties in millimeters.
 
 **Returns:**
 double
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### pixelToNewDpi(double pixels, double oldDpi, double newDpi) {#pixelToNewDpi-double-double-double}
 ```
 public static int pixelToNewDpi(double pixels, double oldDpi, double newDpi)
@@ -613,48 +553,3 @@ Shows how to use convert points to pixels with default and custom resolution.
 
 **Returns:**
 double
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
-

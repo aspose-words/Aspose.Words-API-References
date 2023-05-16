@@ -34,19 +34,10 @@ Specifies the outline level of a paragraph in the document.
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [fromName(String outlineLevelName)](#fromName-java.lang.String) |  |
-| [getClass()](#getClass) |  |
 | [getName(int outlineLevel)](#getName-int) |  |
 | [getValues()](#getValues) |  |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
-| [toString()](#toString) |  |
 | [toString(int outlineLevel)](#toString-int) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### BODY_TEXT {#BODY-TEXT}
 ```
 public static int BODY_TEXT
@@ -133,21 +124,6 @@ public static int length
 ```
 
 
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### fromName(String outlineLevelName) {#fromName-java.lang.String}
 ```
 public static int fromName(String outlineLevelName)
@@ -163,16 +139,6 @@ public static int fromName(String outlineLevelName)
 
 **Returns:**
 int
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getName(int outlineLevel) {#getName-int}
 ```
 public static String getName(int outlineLevel)
@@ -198,42 +164,6 @@ public static int[] getValues()
 
 **Returns:**
 int[]
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
 ### toString(int outlineLevel) {#toString-int}
 ```
 public static String toString(int outlineLevel)
@@ -249,38 +179,3 @@ public static String toString(int outlineLevel)
 
 **Returns:**
 java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
-

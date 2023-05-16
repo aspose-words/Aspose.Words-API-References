@@ -82,25 +82,16 @@ Shows how to access a document's arbitrary custom parts collection.
 | Method | Description |
 | --- | --- |
 | [deepClone()](#deepClone) | Makes a "deep enough" copy of the object. |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getClass()](#getClass) |  |
 | [getContentType()](#getContentType) | Specifies the content type of this custom part. |
 | [getData()](#getData) | Contains the data of this custom part. |
 | [getName()](#getName) | Gets this part's absolute name within the OOXML package or the target URL. |
 | [getRelationshipType()](#getRelationshipType) | Gets the relationship type from the parent part to this custom part. |
-| [hashCode()](#hashCode) |  |
 | [isExternal()](#isExternal) | False if this custom part is stored inside the OOXML package. |
 | [isExternal(boolean value)](#isExternal-boolean) | False if this custom part is stored inside the OOXML package. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setContentType(String value)](#setContentType-java.lang.String) | Specifies the content type of this custom part. |
 | [setData(byte[] value)](#setData-byte) | Contains the data of this custom part. |
 | [setName(String value)](#setName-java.lang.String) | Sets this part's absolute name within the OOXML package or the target URL. |
 | [setRelationshipType(String value)](#setRelationshipType-java.lang.String) | Sets the relationship type from the parent part to this custom part. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### deepClone() {#deepClone}
 ```
 public CustomPart deepClone()
@@ -155,31 +146,6 @@ Shows how to access a document's arbitrary custom parts collection.
 
 **Returns:**
 [CustomPart](../../com.aspose.words/custompart/)
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getContentType() {#getContentType}
 ```
 public String getContentType()
@@ -420,16 +386,6 @@ Shows how to access a document's arbitrary custom parts collection.
 
 **Returns:**
 java.lang.String - The relationship type from the parent part to this custom part.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### isExternal() {#isExternal}
 ```
 public boolean isExternal()
@@ -548,22 +504,6 @@ Shows how to access a document's arbitrary custom parts collection.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
-
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
 
 ### setContentType(String value) {#setContentType-java.lang.String}
 ```
@@ -816,49 +756,4 @@ Shows how to access a document's arbitrary custom parts collection.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | The relationship type from the parent part to this custom part. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

@@ -172,20 +172,11 @@ Shows how to work with list levels.
 | [add(Style listStyle)](#add-com.aspose.words.Style) | Creates a new list that references a list style and adds it to the collection of lists in the document. |
 | [add(int listTemplate)](#add-int) |  |
 | [addCopy(List srcList)](#addCopy-com.aspose.words.List) | Creates a new list by copying the specified list and adding it to the collection of lists in the document. |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [get(int index)](#get-int) | Gets a list by index. |
-| [getClass()](#getClass) |  |
 | [getCount()](#getCount) | Gets the count of numbered and bulleted lists in the document. |
 | [getDocument()](#getDocument) | Gets the owner document. |
 | [getListByListId(int listId)](#getListByListId-int) | Gets a list by a list identifier. |
-| [hashCode()](#hashCode) |  |
 | [iterator()](#iterator) | Gets the enumerator object that will enumerate lists in the document. |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### add(Style listStyle) {#add-com.aspose.words.Style}
 ```
 public List add(Style listStyle)
@@ -374,21 +365,6 @@ Shows how to restart numbering in a list by copying a list.
 
 **Returns:**
 [List](../../com.aspose.words/list/) - The newly created list.
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### get(int index) {#get-int}
 ```
 public List get(int index)
@@ -456,16 +432,6 @@ Shows how to apply list formatting of an existing list to a collection of paragr
 
 **Returns:**
 [List](../../com.aspose.words/list/) - A list by index.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getCount() {#getCount}
 ```
 public int getCount()
@@ -574,16 +540,6 @@ Shows how to verify owner document properties of lists.
 
 **Returns:**
 [List](../../com.aspose.words/list/) - Returns the list object. Returns  null  if a list with the specified identifier was not found.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### iterator() {#iterator}
 ```
 public Iterator iterator()
@@ -627,64 +583,3 @@ Shows how to create a document with a sample of all the lists from another docum
 
 **Returns:**
 java.util.Iterator
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
-

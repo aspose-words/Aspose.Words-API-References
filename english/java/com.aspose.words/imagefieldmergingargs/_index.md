@@ -147,8 +147,6 @@ Shows how to set the dimensions of images as MERGEFIELDS accepts them during a m
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getClass()](#getClass) |  |
 | [getDocument()](#getDocument) | Returns the [getDocument()](../../com.aspose.words/fieldmergingargsbase/\#getDocument) object for which the mail merge is performed. |
 | [getDocumentFieldName()](#getDocumentFieldName) | Gets the name of the merge field as specified in the document. |
 | [getField()](#getField) | Gets the object that represents the current merge field. |
@@ -162,9 +160,6 @@ Shows how to set the dimensions of images as MERGEFIELDS accepts them during a m
 | [getRecordIndex()](#getRecordIndex) | Gets the zero based index of the record that is being merged. |
 | [getShape()](#getShape) | Specifies the shape that the mail merge engine must insert into the document. |
 | [getTableName()](#getTableName) | Gets the name of the data table for the current merge operation or empty string if the name is not available. |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setFieldValue(Object value)](#setFieldValue-java.lang.Object) | Sets the value of the field from the data source. |
 | [setImage(BufferedImage value)](#setImage-java.awt.image.BufferedImage) | Specifies the image that the mail merge engine must insert into the document. |
 | [setImageFileName(String value)](#setImageFileName-java.lang.String) | Sets the file name of the image that the mail merge engine must insert into the document. |
@@ -172,35 +167,6 @@ Shows how to set the dimensions of images as MERGEFIELDS accepts them during a m
 | [setImageStream(InputStream value)](#setImageStream-java.io.InputStream) |  |
 | [setImageWidth(MergeFieldImageDimension value)](#setImageWidth-com.aspose.words.MergeFieldImageDimension) | Specifies the image width for the image to insert into the document. |
 | [setShape(Shape value)](#setShape-com.aspose.words.Shape) | Specifies the shape that the mail merge engine must insert into the document. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getDocument() {#getDocument}
 ```
 public Document getDocument()
@@ -1040,32 +1006,6 @@ Shows how to insert checkbox form fields into a document during mail merge.
 
 **Returns:**
 java.lang.String - The name of the data table for the current merge operation or empty string if the name is not available.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setFieldValue(Object value) {#setFieldValue-java.lang.Object}
 ```
 public void setFieldValue(Object value)
@@ -1484,49 +1424,4 @@ Use this property to fully control the process of merging an image merge field. 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [Shape](../../com.aspose.words/shape/) | The corresponding [Shape](../../com.aspose.words/shape/) value. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

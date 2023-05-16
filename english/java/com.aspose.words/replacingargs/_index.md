@@ -136,47 +136,13 @@ Shows how to insert an entire document's contents as a replacement of a match in
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
-| [getClass()](#getClass) |  |
 | [getGroupIndex()](#getGroupIndex) | Identifies, by index, a captured group in the [getMatch()](../../com.aspose.words/replacingargs/\#getMatch) that is to be replaced with the [getReplacement()](../../com.aspose.words/replacingargs/\#getReplacement) / [setReplacement(java.lang.String)](../../com.aspose.words/replacingargs/\#setReplacement-java.lang.String) string. |
 | [getMatch()](#getMatch) | The java.util.regex.Matcher resulting from a single regular expression match during a **Replace**. |
 | [getMatchNode()](#getMatchNode) | Gets the node that contains the beginning of the match. |
 | [getMatchOffset()](#getMatchOffset) | Gets the zero-based starting position of the match from the start of the node that contains the beginning of the match. |
 | [getReplacement()](#getReplacement) | Gets the replacement string. |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setGroupIndex(int value)](#setGroupIndex-int) | Identifies, by index, a captured group in the [getMatch()](../../com.aspose.words/replacingargs/\#getMatch) that is to be replaced with the [getReplacement()](../../com.aspose.words/replacingargs/\#getReplacement) / [setReplacement(java.lang.String)](../../com.aspose.words/replacingargs/\#setReplacement-java.lang.String) string. |
 | [setReplacement(String value)](#setReplacement-java.lang.String) | Sets the replacement string. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getGroupIndex() {#getGroupIndex}
 ```
 public int getGroupIndex()
@@ -535,32 +501,6 @@ Shows how to replace all occurrences of a regular expression pattern with anothe
 
 **Returns:**
 java.lang.String - The replacement string.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setGroupIndex(int value) {#setGroupIndex-int}
 ```
 public void setGroupIndex(int value)
@@ -702,49 +642,4 @@ Shows how to replace all occurrences of a regular expression pattern with anothe
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | The replacement string. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

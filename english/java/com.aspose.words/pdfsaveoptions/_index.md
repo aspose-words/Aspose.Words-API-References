@@ -39,7 +39,6 @@ To learn more, visit the [ Specify Save Options ][Specify Save Options] document
 | [getAdditionalTextPositioning()](#getAdditionalTextPositioning) | A flag specifying whether to write additional text positioning operators or not. |
 | [getAllowEmbeddingPostScriptFonts()](#getAllowEmbeddingPostScriptFonts) | Gets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
 | [getCacheBackgroundGraphics()](#getCacheBackgroundGraphics) | Gets a value determining whether or not to cache graphics placed in document's background. |
-| [getClass()](#getClass) |  |
 | [getColorMode()](#getColorMode) | Gets a value determining how colors are rendered. |
 | [getCompliance()](#getCompliance) | Specifies the PDF standards compliance level for output documents. |
 | [getCreateNoteHyperlinks()](#getCreateNoteHyperlinks) | Specifies whether to convert footnote/endnote references in main text story into active hyperlinks. |
@@ -92,9 +91,6 @@ To learn more, visit the [ Specify Save Options ][Specify Save Options] document
 | [getUseHighQualityRendering()](#getUseHighQualityRendering) | Gets a value determining whether or not to use high quality (i.e. |
 | [getZoomBehavior()](#getZoomBehavior) | Gets a value determining what type of zoom should be applied when a document is opened with a PDF viewer. |
 | [getZoomFactor()](#getZoomFactor) | Gets a value determining zoom factor (in percentages) for a document. |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [setAdditionalTextPositioning(boolean value)](#setAdditionalTextPositioning-boolean) | A flag specifying whether to write additional text positioning operators or not. |
 | [setAllowEmbeddingPostScriptFonts(boolean value)](#setAllowEmbeddingPostScriptFonts-boolean) | Sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
 | [setCacheBackgroundGraphics(boolean value)](#setCacheBackgroundGraphics-boolean) | Sets a value determining whether or not to cache graphics placed in document's background. |
@@ -149,10 +145,6 @@ To learn more, visit the [ Specify Save Options ][Specify Save Options] document
 | [setUseHighQualityRendering(boolean value)](#setUseHighQualityRendering-boolean) | Sets a value determining whether or not to use high quality (i.e. |
 | [setZoomBehavior(int value)](#setZoomBehavior-int) | Sets a value determining what type of zoom should be applied when a document is opened with a PDF viewer. |
 | [setZoomFactor(int value)](#setZoomFactor-int) | Sets a value determining zoom factor (in percentages) for a document. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### PdfSaveOptions() {#PdfSaveOptions}
 ```
 public PdfSaveOptions()
@@ -320,16 +312,6 @@ Document background graphic is various shapes, charts, images placed in the foot
 
 **Returns:**
 boolean - A value determining whether or not to cache graphics placed in document's background.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getColorMode() {#getColorMode}
 ```
 public int getColorMode()
@@ -1749,32 +1731,6 @@ This value is used only if [getZoomBehavior()](../../com.aspose.words/pdfsaveopt
 
 **Returns:**
 int - A value determining zoom factor (in percentages) for a document.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### setAdditionalTextPositioning(boolean value) {#setAdditionalTextPositioning-boolean}
 ```
 public void setAdditionalTextPositioning(boolean value)
@@ -3414,49 +3370,4 @@ This value is used only if [getZoomBehavior()](../../com.aspose.words/pdfsaveopt
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | A value determining zoom factor (in percentages) for a document. |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 

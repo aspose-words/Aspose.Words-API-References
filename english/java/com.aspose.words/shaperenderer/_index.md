@@ -29,28 +29,19 @@ To learn more, visit the [ Working with Shapes ][Working with Shapes] documentat
 
 | Method | Description |
 | --- | --- |
-| [equals(Object arg0)](#equals-java.lang.Object) |  |
 | [getBoundsInPixels(float scale, float dpi)](#getBoundsInPixels-float-float) | Calculates the bounds of the shape in pixels for a specified zoom factor and resolution. |
 | [getBoundsInPixels(float scale, float horizontalDpi, float verticalDpi)](#getBoundsInPixels-float-float-float) | Calculates the bounds of the shape in pixels for a specified zoom factor and resolution. |
 | [getBoundsInPoints()](#getBoundsInPoints) | Gets the actual bounds of the shape in points. |
-| [getClass()](#getClass) |  |
 | [getOpaqueBoundsInPixels(float scale, float dpi)](#getOpaqueBoundsInPixels-float-float) | Calculates the opaque bounds of the shape in pixels for a specified zoom factor and resolution. |
 | [getOpaqueBoundsInPixels(float scale, float horizontalDpi, float verticalDpi)](#getOpaqueBoundsInPixels-float-float-float) | Calculates the opaque bounds of the shape in pixels for a specified zoom factor and resolution. |
 | [getOpaqueBoundsInPoints()](#getOpaqueBoundsInPoints) | Gets the opaque bounds of the shape in points. |
 | [getSizeInPixels(float scale, float dpi)](#getSizeInPixels-float-float) | Calculates the size of the shape in pixels for a specified zoom factor and resolution. |
 | [getSizeInPixels(float scale, float horizontalDpi, float verticalDpi)](#getSizeInPixels-float-float-float) | Calculates the size of the shape in pixels for a specified zoom factor and resolution. |
 | [getSizeInPoints()](#getSizeInPoints) | Gets the actual size of the shape in points. |
-| [hashCode()](#hashCode) |  |
-| [notify()](#notify) |  |
-| [notifyAll()](#notifyAll) |  |
 | [renderToScale(Graphics2D graphics, float x, float y, float scale)](#renderToScale-java.awt.Graphics2D-float-float-float) | Renders the shape into a java.awt.Graphics2D object to a specified scale. |
 | [renderToSize(Graphics2D graphics, float x, float y, float width, float height)](#renderToSize-java.awt.Graphics2D-float-float-float-float) | Renders the shape into a java.awt.Graphics2D object to a specified size. |
 | [save(OutputStream stream, ImageSaveOptions saveOptions)](#save-java.io.OutputStream-com.aspose.words.ImageSaveOptions) |  |
 | [save(String fileName, ImageSaveOptions saveOptions)](#save-java.lang.String-com.aspose.words.ImageSaveOptions) | Renders the shape and saves into an image. |
-| [toString()](#toString) |  |
-| [wait()](#wait) |  |
-| [wait(long arg0)](#wait-long) |  |
-| [wait(long arg0, int arg1)](#wait-long-int) |  |
 ### ShapeRenderer(ShapeBase shape) {#ShapeRenderer-com.aspose.words.ShapeBase}
 ```
 public ShapeRenderer(ShapeBase shape)
@@ -64,21 +55,6 @@ Initializes a new instance of this class.
 | --- | --- | --- |
 | shape | [ShapeBase](../../com.aspose.words/shapebase/) | The DrawinML shape object that you want to render. |
 
-### equals(Object arg0) {#equals-java.lang.Object}
-```
-public boolean equals(Object arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | java.lang.Object |  |
-
-**Returns:**
-boolean
 ### getBoundsInPixels(float scale, float dpi) {#getBoundsInPixels-float-float}
 ```
 public Rectangle getBoundsInPixels(float scale, float dpi)
@@ -260,16 +236,6 @@ Shows how to measure and scale shapes.
 
 **Returns:**
 java.awt.geom.Rectangle2D.Float - The actual bounds of the shape in points.
-### getClass() {#getClass}
-```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
 ### getOpaqueBoundsInPixels(float scale, float dpi) {#getOpaqueBoundsInPixels-float-float}
 ```
 public Rectangle getOpaqueBoundsInPixels(float scale, float dpi)
@@ -632,32 +598,6 @@ Shows how to measure and scale shapes.
 
 **Returns:**
 java.awt.geom.Point2D.Float - The actual size of the shape in points.
-### hashCode() {#hashCode}
-```
-public native int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### notify() {#notify}
-```
-public final native void notify()
-```
-
-
-
-
-### notifyAll() {#notifyAll}
-```
-public final native void notifyAll()
-```
-
-
-
-
 ### renderToScale(Graphics2D graphics, float x, float y, float scale) {#renderToScale-java.awt.Graphics2D-float-float-float}
 ```
 public Point2D.Float renderToScale(Graphics2D graphics, float x, float y, float scale)
@@ -743,49 +683,4 @@ Shows how to render an Office Math object into an image file in the local file s
 | --- | --- | --- |
 | fileName | java.lang.String | The name for the image file. If a file with the specified name already exists, the existing file is overwritten. |
 | saveOptions | [ImageSaveOptions](../../com.aspose.words/imagesaveoptions/) | Specifies the options that control how the shape is rendered and saved. Can be  null . |
-
-### toString() {#toString}
-```
-public String toString()
-```
-
-
-
-
-**Returns:**
-java.lang.String
-### wait() {#wait}
-```
-public final void wait()
-```
-
-
-
-
-### wait(long arg0) {#wait-long}
-```
-public final native void wait(long arg0)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-
-### wait(long arg0, int arg1) {#wait-long-int}
-```
-public final void wait(long arg0, int arg1)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| arg0 | long |  |
-| arg1 | int |  |
 
