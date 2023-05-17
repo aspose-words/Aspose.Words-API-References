@@ -23,7 +23,7 @@ Aspose.Words for .NET helps to process and convert [Doc](/words/net/aspose.words
 
 These are links to some useful resources:
 - [Aspose.Words for .NET API Reference](/words/net/)
-- [Aspose.Words for .NET API Examples](/examples/words/net/)
+- [Aspose.Words for .NET API Tutorials](/tutorials/words/net/)
 
 ## Aspose.Words for Java
 
