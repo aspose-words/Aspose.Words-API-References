@@ -1,9 +1,10 @@
 ---
-title: HtmlLoadOptions
+title: Aspose::Words::Loading::HtmlLoadOptions class
+linktitle: HtmlLoadOptions
 second_title: Aspose.Words for C++ API Reference
-description: Allows to specify additional options when loading HTML document into a Document object. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Loading::HtmlLoadOptions class. Allows to specify additional options when loading HTML document into a Document object. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.loading/htmlloadoptions/
 ---
 ## HtmlLoadOptions class
@@ -67,12 +68,12 @@ class HtmlLoadOptions : public Aspose::Words::Loading::LoadOptions
 | [set_ResourceLoadingCallback](../loadoptions/set_resourceloadingcallback/)(const System::SharedPtr\<Aspose::Words::Loading::IResourceLoadingCallback\>\&) | Setter for [Aspose::Words::Loading::LoadOptions::get_ResourceLoadingCallback](../loadoptions/get_resourceloadingcallback/). |
 | [set_SupportVml](./set_supportvml/)(bool) | Setter for [Aspose::Words::Loading::HtmlLoadOptions::get_SupportVml](./get_supportvml/). |
 | [set_TempFolder](../loadoptions/set_tempfolder/)(const System::String\&) | Setter for [Aspose::Words::Loading::LoadOptions::get_TempFolder](../loadoptions/get_tempfolder/). |
-| [set_UpdateDirtyFields](../loadoptions/set_updatedirtyfields/)(bool) | Setter for [Aspose::Words::Loading::LoadOptions::get_UpdateDirtyFields](../loadoptions/get_updatedirtyfields/). |
+| [set_UpdateDirtyFields](../loadoptions/set_updatedirtyfields/)(bool) | Specifies whether to update the fields with the **dirty** attribute. |
 | [set_WarningCallback](../loadoptions/set_warningcallback/)(const System::SharedPtr\<Aspose::Words::IWarningCallback\>\&) | Setter for [Aspose::Words::Loading::LoadOptions::get_WarningCallback](../loadoptions/get_warningcallback/). |
-| [set_WebRequestTimeout](./set_webrequesttimeout/)(int32_t) | Setter for [Aspose::Words::Loading::HtmlLoadOptions::get_WebRequestTimeout](./get_webrequesttimeout/). |
+| [set_WebRequestTimeout](./set_webrequesttimeout/)(int32_t) | The number of milliseconds to wait before the web request times out. The default value is 100000 milliseconds (100 seconds). |
 | static [Type](./type/)() |  |
 ## See Also
 
 * Class [LoadOptions](../loadoptions/)
 * Namespace [Aspose::Words::Loading](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

@@ -1,9 +1,10 @@
 ---
-title: get_FormatCode
+title: Aspose::Words::Drawing::Charts::ChartNumberFormat::get_FormatCode method
+linktitle: get_FormatCode
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the format code applied to a data label.
+description: 'Aspose::Words::Drawing::Charts::ChartNumberFormat::get_FormatCode method. Gets or sets the format code applied to a data label in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.drawing.charts/chartnumberformat/get_formatcode/
 ---
 ## ChartNumberFormat::get_FormatCode method
@@ -101,4 +102,4 @@ doc->Save(ArtifactsDir + u"Charts.SetNumberFormatToChartAxis.docx");
 
 * Class [ChartNumberFormat](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

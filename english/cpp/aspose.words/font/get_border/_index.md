@@ -1,9 +1,10 @@
 ---
-title: get_Border
+title: Aspose::Words::Font::get_Border method
+linktitle: get_Border
 second_title: Aspose.Words for C++ API Reference
-description: Returns a Border object that specifies border for the font.
+description: 'Aspose::Words::Font::get_Border method. Returns a Border object that specifies border for the font in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words/font/get_border/
 ---
 ## Font::get_Border method
@@ -39,4 +40,4 @@ doc->Save(ArtifactsDir + u"Border.FontBorder.docx");
 * Class [Border](../../border/)
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

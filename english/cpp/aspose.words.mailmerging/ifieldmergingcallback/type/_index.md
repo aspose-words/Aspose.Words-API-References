@@ -1,9 +1,10 @@
 ---
-title: Type
+title: Aspose::Words::MailMerging::IFieldMergingCallback::Type method
+linktitle: Type
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Type method of Aspose::Words::MailMerging::IFieldMergingCallback class in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words.mailmerging/ifieldmergingcallback/type/
 ---
 ## IFieldMergingCallback::Type method
@@ -19,4 +20,4 @@ static const System::TypeInfo & Aspose::Words::MailMerging::IFieldMergingCallbac
 
 * Interface [IFieldMergingCallback](../)
 * Namespace [Aspose::Words::MailMerging](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

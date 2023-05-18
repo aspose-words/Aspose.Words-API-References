@@ -1,9 +1,10 @@
 ---
-title: ChartAxis
+title: Aspose::Words::Drawing::Charts::ChartAxis class
+linktitle: ChartAxis
 second_title: Aspose.Words for C++ API Reference
-description: Represents the axis options of the chart. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Drawing::Charts::ChartAxis class. Represents the axis options of the chart. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.drawing.charts/chartaxis/
 ---
 ## ChartAxis class
@@ -129,4 +130,4 @@ doc->Save(ArtifactsDir + u"Charts.AxisProperties.docx");
 ## See Also
 
 * Namespace [Aspose::Words::Drawing::Charts](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

@@ -1,9 +1,10 @@
 ---
-title: Accept
+title: Aspose::Words::Fields::FieldEnd::Accept method
+linktitle: Accept
 second_title: Aspose.Words for C++ API Reference
-description: Accepts a visitor.
+description: 'Aspose::Words::Fields::FieldEnd::Accept method. Accepts a visitor in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fields/fieldend/accept/
 ---
 ## FieldEnd::Accept method
@@ -126,4 +127,4 @@ private:
 * Class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * Class [FieldEnd](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

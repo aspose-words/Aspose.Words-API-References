@@ -1,9 +1,10 @@
 ---
-title: Clear
+title: Aspose::Words::Settings::OdsoFieldMapDataCollection::Clear method
+linktitle: Clear
 second_title: Aspose.Words for C++ API Reference
-description: Removes all elements from this collection.
+description: 'Aspose::Words::Settings::OdsoFieldMapDataCollection::Clear method. Removes all elements from this collection in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.settings/odsofieldmapdatacollection/clear/
 ---
 ## OdsoFieldMapDataCollection::Clear method
@@ -19,4 +20,4 @@ void Aspose::Words::Settings::OdsoFieldMapDataCollection::Clear()
 
 * Class [OdsoFieldMapDataCollection](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

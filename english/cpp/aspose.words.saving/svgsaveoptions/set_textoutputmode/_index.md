@@ -1,9 +1,10 @@
 ---
-title: set_TextOutputMode
+title: Aspose::Words::Saving::SvgSaveOptions::set_TextOutputMode method
+linktitle: set_TextOutputMode
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::SvgSaveOptions::get_TextOutputMode.'
+description: 'Aspose::Words::Saving::SvgSaveOptions::set_TextOutputMode method. Setter for Aspose::Words::Saving::SvgSaveOptions::get_TextOutputMode in C++.'
 type: docs
-weight: 248
+weight: 20000
 url: /cpp/aspose.words.saving/svgsaveoptions/set_textoutputmode/
 ---
 ## SvgSaveOptions::set_TextOutputMode method
@@ -20,4 +21,4 @@ void Aspose::Words::Saving::SvgSaveOptions::set_TextOutputMode(Aspose::Words::Sa
 * Enum [SvgTextOutputMode](../../svgtextoutputmode/)
 * Class [SvgSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

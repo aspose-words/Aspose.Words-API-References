@@ -1,9 +1,10 @@
 ---
-title: BuildingBlock
+title: Aspose::Words::BuildingBlocks::BuildingBlock::BuildingBlock constructor
+linktitle: BuildingBlock
 second_title: Aspose.Words for C++ API Reference
-description: Initializes a new instance of this class.
+description: 'Aspose::Words::BuildingBlocks::BuildingBlock::BuildingBlock constructor. Initializes a new instance of this class in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.buildingblocks/buildingblock/buildingblock/
 ---
 ## BuildingBlock::BuildingBlock constructor
@@ -126,4 +127,4 @@ private:
 * Class [GlossaryDocument](../../glossarydocument/)
 * Class [BuildingBlock](../)
 * Namespace [Aspose::Words::BuildingBlocks](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

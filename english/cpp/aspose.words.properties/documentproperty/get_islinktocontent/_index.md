@@ -1,9 +1,10 @@
 ---
-title: get_IsLinkToContent
+title: Aspose::Words::Properties::DocumentProperty::get_IsLinkToContent method
+linktitle: get_IsLinkToContent
 second_title: Aspose.Words for C++ API Reference
-description: Shows whether this property is linked to content or not.
+description: 'Aspose::Words::Properties::DocumentProperty::get_IsLinkToContent method. Shows whether this property is linked to content or not in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.properties/documentproperty/get_islinktocontent/
 ---
 ## DocumentProperty::get_IsLinkToContent method
@@ -45,4 +46,4 @@ doc->Save(ArtifactsDir + u"DocumentProperties.LinkCustomDocumentPropertiesToBook
 
 * Class [DocumentProperty](../)
 * Namespace [Aspose::Words::Properties](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

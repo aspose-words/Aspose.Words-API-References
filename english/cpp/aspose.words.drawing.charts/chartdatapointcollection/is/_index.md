@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Drawing::Charts::ChartDataPointCollection::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Drawing::Charts::ChartDataPointCollection class in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.drawing.charts/chartdatapointcollection/is/
 ---
 ## ChartDataPointCollection::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Drawing::Charts::ChartDataPointCollection::Is(const 
 
 * Class [ChartDataPointCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

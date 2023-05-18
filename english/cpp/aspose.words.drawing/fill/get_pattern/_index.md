@@ -1,9 +1,10 @@
 ---
-title: get_Pattern
+title: Aspose::Words::Drawing::Fill::get_Pattern method
+linktitle: get_Pattern
 second_title: Aspose.Words for C++ API Reference
-description: Gets a PatternType for the fill.
+description: 'Aspose::Words::Drawing::Fill::get_Pattern method. Gets a PatternType for the fill in C++.'
 type: docs
-weight: 209
+weight: 17000
 url: /cpp/aspose.words.drawing/fill/get_pattern/
 ---
 ## Fill::get_Pattern method
@@ -20,4 +21,4 @@ Aspose::Words::Drawing::PatternType Aspose::Words::Drawing::Fill::get_Pattern()
 * Enum [PatternType](../../patterntype/)
 * Class [Fill](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

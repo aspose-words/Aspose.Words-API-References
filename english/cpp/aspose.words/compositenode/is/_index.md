@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::CompositeNode::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::CompositeNode class in C++.'
 type: docs
-weight: 209
+weight: 17000
 url: /cpp/aspose.words/compositenode/is/
 ---
 ## CompositeNode::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::CompositeNode::Is(const System::TypeInfo &target) co
 
 * Class [CompositeNode](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

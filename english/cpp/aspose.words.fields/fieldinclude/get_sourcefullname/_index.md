@@ -1,9 +1,10 @@
 ---
-title: get_SourceFullName
+title: Aspose::Words::Fields::FieldInclude::get_SourceFullName method
+linktitle: get_SourceFullName
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the location of the document.
+description: 'Aspose::Words::Fields::FieldInclude::get_SourceFullName method. Gets or sets the location of the document in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.fields/fieldinclude/get_sourcefullname/
 ---
 ## FieldInclude::get_SourceFullName method
@@ -27,7 +28,7 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 
 // We can use an INCLUDE field to import a portion of another document in the local file system.
 // The bookmark from the other document that we reference with this field contains this imported portion.
-auto field = System::DynamicCast<FieldInclude>(builder->InsertField(FieldType::FieldInclude, true));
+auto field = System::ExplicitCast<FieldInclude>(builder->InsertField(FieldType::FieldInclude, true));
 field->set_SourceFullName(MyDir + u"Bookmarks.docx");
 field->set_BookmarkName(u"MyBookmark1");
 field->set_LockFields(false);
@@ -43,4 +44,4 @@ doc->Save(ArtifactsDir + u"Field.INCLUDE.docx");
 
 * Class [FieldInclude](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

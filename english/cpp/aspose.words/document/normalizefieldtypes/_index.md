@@ -1,9 +1,10 @@
 ---
-title: NormalizeFieldTypes
+title: Aspose::Words::Document::NormalizeFieldTypes method
+linktitle: NormalizeFieldTypes
 second_title: Aspose.Words for C++ API Reference
-description: Changes field type values FieldType of FieldStart, FieldSeparator, FieldEnd in the whole document so that they correspond to the field types contained in the field codes.
+description: 'Aspose::Words::Document::NormalizeFieldTypes method. Changes field type values FieldType of FieldStart, FieldSeparator, FieldEnd in the whole document so that they correspond to the field types contained in the field codes in C++.'
 type: docs
-weight: 846
+weight: 66000
 url: /cpp/aspose.words/document/normalizefieldtypes/
 ---
 ## Document::NormalizeFieldTypes method
@@ -37,7 +38,7 @@ SharedPtr<Field> field = builder->InsertField(u"DATE", nullptr);
 ASSERT_EQ(FieldType::FieldDate, field->get_Type());
 
 // Manually change the raw text of the field, which determines the field code.
-auto fieldText = System::DynamicCast<Run>(doc->get_FirstSection()->get_Body()->get_FirstParagraph()->GetChildNodes(NodeType::Run, true)->idx_get(0));
+auto fieldText = System::ExplicitCast<Run>(doc->get_FirstSection()->get_Body()->get_FirstParagraph()->GetChildNodes(NodeType::Run, true)->idx_get(0));
 fieldText->set_Text(u"PAGE");
 
 // Changing the field code has changed this field to one of a different type,
@@ -61,4 +62,4 @@ ASSERT_EQ(FieldType::FieldPage, field->get_End()->get_FieldType());
 
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

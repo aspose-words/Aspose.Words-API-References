@@ -1,9 +1,10 @@
 ---
-title: HtmlFixedPageHorizontalAlignment
+title: Aspose::Words::Saving::HtmlFixedPageHorizontalAlignment enum
+linktitle: HtmlFixedPageHorizontalAlignment
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the horizontal alignment for pages in output HTML document.
+description: 'Aspose::Words::Saving::HtmlFixedPageHorizontalAlignment enum. Specifies the horizontal alignment for pages in output HTML document in C++.'
 type: docs
-weight: 755
+weight: 59000
 url: /cpp/aspose.words.saving/htmlfixedpagehorizontalalignment/
 ---
 ## HtmlFixedPageHorizontalAlignment enum
@@ -64,4 +65,4 @@ case HtmlFixedPageHorizontalAlignment::Right:
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

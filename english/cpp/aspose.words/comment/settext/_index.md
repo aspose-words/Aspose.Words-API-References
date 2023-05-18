@@ -1,9 +1,10 @@
 ---
-title: SetText
+title: Aspose::Words::Comment::SetText method
+linktitle: SetText
 second_title: Aspose.Words for C++ API Reference
-description: This is a convenience method that allows to easily set text of the comment.
+description: 'Aspose::Words::Comment::SetText method. This is a convenience method that allows to easily set text of the comment in C++.'
 type: docs
-weight: 274
+weight: 22000
 url: /cpp/aspose.words/comment/settext/
 ---
 ## Comment::SetText method
@@ -60,4 +61,4 @@ doc->Save(ArtifactsDir + u"Comment.AddCommentWithReply.docx");
 
 * Class [Comment](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

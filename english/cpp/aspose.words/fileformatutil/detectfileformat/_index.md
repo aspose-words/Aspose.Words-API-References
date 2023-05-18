@@ -1,9 +1,10 @@
 ---
-title: DetectFileFormat
+title: Aspose::Words::FileFormatUtil::DetectFileFormat method
+linktitle: DetectFileFormat
 second_title: Aspose.Words for C++ API Reference
-description: Detects and returns the information about a format of a document stored in a stream.
+description: 'Aspose::Words::FileFormatUtil::DetectFileFormat method. Detects and returns the information about a format of a document stored in a stream in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words/fileformatutil/detectfileformat/
 ---
 ## FileFormatUtil::DetectFileFormat(const System::SharedPtr\<System::IO::Stream\>\&) method
@@ -70,7 +71,7 @@ Shows how to use the [FileFormatUtil](../) methods to detect the format of a doc
 * Class [FileFormatInfo](../../fileformatinfo/)
 * Class [FileFormatUtil](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## FileFormatUtil::DetectFileFormat(const System::String\&) method
 
 
@@ -145,7 +146,7 @@ ASSERT_EQ(1, DigitalSignatureUtil::LoadSignatures(ArtifactsDir + u"File.DetectDi
 * Class [FileFormatInfo](../../fileformatinfo/)
 * Class [FileFormatUtil](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## FileFormatUtil::DetectFileFormat(std::basic_istream\<CharType, Traits\>\&) method
 
 
@@ -160,4 +161,4 @@ template<typename CharType,typename Traits> static System::SharedPtr<Aspose::Wor
 * Class [FileFormatInfo](../../fileformatinfo/)
 * Class [FileFormatUtil](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

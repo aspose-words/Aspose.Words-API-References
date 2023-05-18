@@ -1,9 +1,10 @@
 ---
-title: iterator
+title: Aspose::Words::Saving::BookmarksOutlineLevelCollection::iterator typedef
+linktitle: iterator
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Aspose::Words::Saving::BookmarksOutlineLevelCollection::iterator typedef of Aspose::Words::Saving::BookmarksOutlineLevelCollection class in C++.'
 type: docs
-weight: 300
+weight: 24000
 url: /cpp/aspose.words.saving/bookmarksoutlinelevelcollection/iterator/
 ---
 ## iterator typedef
@@ -19,4 +20,4 @@ using Aspose::Words::Saving::BookmarksOutlineLevelCollection::iterator =  typena
 
 * Class [BookmarksOutlineLevelCollection](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

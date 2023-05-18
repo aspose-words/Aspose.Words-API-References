@@ -1,9 +1,10 @@
 ---
-title: set_SavePictureBullet
+title: Aspose::Words::Saving::DocSaveOptions::set_SavePictureBullet method
+linktitle: set_SavePictureBullet
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::DocSaveOptions::get_SavePictureBullet.'
+description: 'Aspose::Words::Saving::DocSaveOptions::set_SavePictureBullet method. Setter for Aspose::Words::Saving::DocSaveOptions::get_SavePictureBullet in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words.saving/docsaveoptions/set_savepicturebullet/
 ---
 ## DocSaveOptions::set_SavePictureBullet method
@@ -19,4 +20,4 @@ void Aspose::Words::Saving::DocSaveOptions::set_SavePictureBullet(bool value)
 
 * Class [DocSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

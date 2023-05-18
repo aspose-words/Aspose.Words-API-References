@@ -1,9 +1,10 @@
 ---
-title: get_OlePackage
+title: Aspose::Words::Drawing::OleFormat::get_OlePackage method
+linktitle: get_OlePackage
 second_title: Aspose.Words for C++ API Reference
-description: Provide access to OlePackage if OLE object is an OLE Package. Returns null otherwise.
+description: 'Aspose::Words::Drawing::OleFormat::get_OlePackage method. Provide access to OlePackage if OLE object is an OLE Package. Returns null otherwise in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.drawing/oleformat/get_olepackage/
 ---
 ## OleFormat::get_OlePackage method
@@ -46,4 +47,4 @@ doc->Save(ArtifactsDir + u"Shape.InsertOlePackage.docx");
 * Class [OlePackage](../../olepackage/)
 * Class [OleFormat](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

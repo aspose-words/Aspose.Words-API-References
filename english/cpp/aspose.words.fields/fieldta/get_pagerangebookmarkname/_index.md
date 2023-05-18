@@ -1,9 +1,10 @@
 ---
-title: get_PageRangeBookmarkName
+title: Aspose::Words::Fields::FieldTA::get_PageRangeBookmarkName method
+linktitle: get_PageRangeBookmarkName
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the name of the bookmark that marks a range of pages that is inserted as the entry's page number.
+description: 'Aspose::Words::Fields::FieldTA::get_PageRangeBookmarkName method. Gets or sets the name of the bookmark that marks a range of pages that is inserted as the entry''s page number in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.fields/fieldta/get_pagerangebookmarkname/
 ---
 ## FieldTA::get_PageRangeBookmarkName method
@@ -29,7 +30,7 @@ void FieldTOA_()
 
     // Insert a TOA field, which will create an entry for each TA field in the document,
     // displaying long citations and page numbers for each entry.
-    auto fieldToa = System::DynamicCast<FieldToa>(builder->InsertField(FieldType::FieldTOA, false));
+    auto fieldToa = System::ExplicitCast<FieldToa>(builder->InsertField(FieldType::FieldTOA, false));
 
     // Set the entry category for our table. This TOA will now only include TA fields
     // that have a matching value in their EntryCategory property.
@@ -127,7 +128,7 @@ void FieldTOA_()
 
 static SharedPtr<FieldTA> InsertToaEntry(SharedPtr<DocumentBuilder> builder, String entryCategory, String longCitation)
 {
-    auto field = System::DynamicCast<FieldTA>(builder->InsertField(FieldType::FieldTOAEntry, false));
+    auto field = System::ExplicitCast<FieldTA>(builder->InsertField(FieldType::FieldTOAEntry, false));
     field->set_EntryCategory(entryCategory);
     field->set_LongCitation(longCitation);
 
@@ -141,4 +142,4 @@ static SharedPtr<FieldTA> InsertToaEntry(SharedPtr<DocumentBuilder> builder, Str
 
 * Class [FieldTA](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

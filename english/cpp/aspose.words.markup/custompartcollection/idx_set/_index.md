@@ -1,9 +1,10 @@
 ---
-title: idx_set
+title: Aspose::Words::Markup::CustomPartCollection::idx_set method
+linktitle: idx_set
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets an item at the specified index.
+description: 'Aspose::Words::Markup::CustomPartCollection::idx_set method. Gets or sets an item at the specified index in C++.'
 type: docs
-weight: 170
+weight: 14000
 url: /cpp/aspose.words.markup/custompartcollection/idx_set/
 ---
 ## CustomPartCollection::idx_set method
@@ -69,4 +70,4 @@ ASSERT_EQ(0, doc->get_PackageCustomParts()->get_Count());
 * Class [CustomPart](../../custompart/)
 * Class [CustomPartCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: set_Description
+title: Aspose::Words::BuildingBlocks::BuildingBlock::set_Description method
+linktitle: set_Description
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::BuildingBlocks::BuildingBlock::get_Description.'
+description: 'Aspose::Words::BuildingBlocks::BuildingBlock::set_Description method. Setter for Aspose::Words::BuildingBlocks::BuildingBlock::get_Description in C++.'
 type: docs
-weight: 235
+weight: 19000
 url: /cpp/aspose.words.buildingblocks/buildingblock/set_description/
 ---
 ## BuildingBlock::set_Description method
@@ -19,4 +20,4 @@ void Aspose::Words::BuildingBlocks::BuildingBlock::set_Description(const System:
 
 * Class [BuildingBlock](../)
 * Namespace [Aspose::Words::BuildingBlocks](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

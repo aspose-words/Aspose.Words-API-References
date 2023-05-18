@@ -1,9 +1,10 @@
 ---
-title: WarningSource
+title: Aspose::Words::WarningSource enum
+linktitle: WarningSource
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the module that produces a warning during document loading or saving.
+description: 'Aspose::Words::WarningSource enum. Specifies the module that produces a warning during document loading or saving in C++.'
 type: docs
-weight: 1652
+weight: 128000
 url: /cpp/aspose.words/warningsource/
 ---
 ## WarningSource enum
@@ -49,4 +50,4 @@ enum class WarningSource
 ## See Also
 
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

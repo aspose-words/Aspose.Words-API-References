@@ -1,9 +1,10 @@
 ---
-title: get_IncludeFullPath
+title: Aspose::Words::Fields::FieldTemplate::get_IncludeFullPath method
+linktitle: get_IncludeFullPath
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets whether to include the full file path name.
+description: 'Aspose::Words::Fields::FieldTemplate::get_IncludeFullPath method. Gets or sets whether to include the full file path name in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fields/fieldtemplate/get_includefullpath/
 ---
 ## FieldTemplate::get_IncludeFullPath method
@@ -29,11 +30,11 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 // If this property is empty the default template file name "Normal.dotm" is used.
 doc->get_FieldOptions()->set_TemplateName(String::Empty);
 
-auto field = System::DynamicCast<FieldTemplate>(builder->InsertField(FieldType::FieldTemplate, false));
+auto field = System::ExplicitCast<FieldTemplate>(builder->InsertField(FieldType::FieldTemplate, false));
 ASSERT_EQ(u" TEMPLATE ", field->GetFieldCode());
 
 builder->Writeln();
-field = System::DynamicCast<FieldTemplate>(builder->InsertField(FieldType::FieldTemplate, false));
+field = System::ExplicitCast<FieldTemplate>(builder->InsertField(FieldType::FieldTemplate, false));
 field->set_IncludeFullPath(true);
 
 ASSERT_EQ(u" TEMPLATE  \\p", field->GetFieldCode());
@@ -46,4 +47,4 @@ doc->Save(ArtifactsDir + u"Field.TEMPLATE.docx");
 
 * Class [FieldTemplate](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

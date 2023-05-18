@@ -1,9 +1,10 @@
 ---
-title: AddArgument
+title: Aspose::Words::Fields::FieldBuilder::AddArgument method
+linktitle: AddArgument
 second_title: Aspose.Words for C++ API Reference
-description: Adds a field's argument represented by FieldArgumentBuilder to the field's code.
+description: 'Aspose::Words::Fields::FieldBuilder::AddArgument method. Adds a field''s argument represented by FieldArgumentBuilder to the field''s code in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.fields/fieldbuilder/addargument/
 ---
 ## FieldBuilder::AddArgument(const System::SharedPtr\<Aspose::Words::Fields::FieldArgumentBuilder\>\&) method
@@ -104,7 +105,7 @@ doc->Save(ArtifactsDir + u"Field.SYMBOL.docx");
 * Class [FieldArgumentBuilder](../../fieldargumentbuilder/)
 * Class [FieldBuilder](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## FieldBuilder::AddArgument(const System::SharedPtr\<Aspose::Words::Fields::FieldBuilder\>\&) method
 
 
@@ -202,7 +203,7 @@ doc->Save(ArtifactsDir + u"Field.SYMBOL.docx");
 * Class [FieldBuilder](../)
 * Class [FieldBuilder](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## FieldBuilder::AddArgument(const System::String\&) method
 
 
@@ -304,7 +305,7 @@ doc->Save(ArtifactsDir + u"Field.SYMBOL.docx");
 * Class [FieldBuilder](../)
 * Class [FieldBuilder](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## FieldBuilder::AddArgument(double) method
 
 
@@ -406,7 +407,7 @@ doc->Save(ArtifactsDir + u"Field.SYMBOL.docx");
 * Class [FieldBuilder](../)
 * Class [FieldBuilder](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## FieldBuilder::AddArgument(int32_t) method
 
 
@@ -508,4 +509,4 @@ doc->Save(ArtifactsDir + u"Field.SYMBOL.docx");
 * Class [FieldBuilder](../)
 * Class [FieldBuilder](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

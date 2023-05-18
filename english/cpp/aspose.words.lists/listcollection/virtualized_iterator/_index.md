@@ -1,9 +1,10 @@
 ---
-title: virtualized_iterator
+title: Aspose::Words::Lists::ListCollection::virtualized_iterator typedef
+linktitle: virtualized_iterator
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Aspose::Words::Lists::ListCollection::virtualized_iterator typedef of Aspose::Words::Lists::ListCollection class in C++.'
 type: docs
-weight: 274
+weight: 22000
 url: /cpp/aspose.words.lists/listcollection/virtualized_iterator/
 ---
 ## virtualized_iterator typedef
@@ -19,4 +20,4 @@ using Aspose::Words::Lists::ListCollection::virtualized_iterator =  typename ite
 
 * Class [ListCollection](../)
 * Namespace [Aspose::Words::Lists](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

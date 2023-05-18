@@ -1,9 +1,10 @@
 ---
-title: set_BackgroundShape
+title: Aspose::Words::DocumentBase::set_BackgroundShape method
+linktitle: set_BackgroundShape
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::DocumentBase::get_BackgroundShape.'
+description: 'Aspose::Words::DocumentBase::set_BackgroundShape method. Setter for Aspose::Words::DocumentBase::get_BackgroundShape in C++.'
 type: docs
-weight: 170
+weight: 14000
 url: /cpp/aspose.words/documentbase/set_backgroundshape/
 ---
 ## DocumentBase::set_BackgroundShape method
@@ -20,4 +21,4 @@ void Aspose::Words::DocumentBase::set_BackgroundShape(const System::SharedPtr<As
 * Class [Shape](../../../aspose.words.drawing/shape/)
 * Class [DocumentBase](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

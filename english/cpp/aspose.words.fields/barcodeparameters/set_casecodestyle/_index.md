@@ -1,9 +1,10 @@
 ---
-title: set_CaseCodeStyle
+title: Aspose::Words::Fields::BarcodeParameters::set_CaseCodeStyle method
+linktitle: set_CaseCodeStyle
 second_title: Aspose.Words for C++ API Reference
-description: Style of a Case Code for barcode type ITF14. The valid values are [STD|EXT|ADD].
+description: 'Aspose::Words::Fields::BarcodeParameters::set_CaseCodeStyle method. Style of a Case Code for barcode type ITF14. The valid values are [STD|EXT|ADD] in C++.'
 type: docs
-weight: 326
+weight: 26000
 url: /cpp/aspose.words.fields/barcodeparameters/set_casecodestyle/
 ---
 ## BarcodeParameters::set_CaseCodeStyle method
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::BarcodeParameters::set_CaseCodeStyle(const System::S
 
 * Class [BarcodeParameters](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_ImageColorMode
+title: Aspose::Words::Saving::ImageSaveOptions::get_ImageColorMode method
+linktitle: get_ImageColorMode
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the color mode for the generated images.
+description: 'Aspose::Words::Saving::ImageSaveOptions::get_ImageColorMode method. Gets or sets the color mode for the generated images in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.saving/imagesaveoptions/get_imagecolormode/
 ---
 ## ImageSaveOptions::get_ImageColorMode method
@@ -56,4 +57,4 @@ doc->Save(ArtifactsDir + u"ImageSaveOptions.ColorMode.png", imageSaveOptions);
 * Enum [ImageColorMode](../../imagecolormode/)
 * Class [ImageSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

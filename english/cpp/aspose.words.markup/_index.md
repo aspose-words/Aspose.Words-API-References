@@ -1,9 +1,10 @@
 ---
-title: 'Aspose::Words::Markup'
+title: Aspose::Words::Markup namespace
+linktitle: Aspose::Words::Markup
 second_title: Aspose.Words for C++ API Reference
-description: 'The Aspose.Words.Markup namespace contains classes that represent customer defined semantics in a document: smart tags, custom XML and structured document tags (content controls).'
+description: 'Aspose::Words::Markup namespace. The Aspose.Words.Markup namespace contains classes that represent customer defined semantics in a document: smart tags, custom XML and structured document tags (content controls) in C++.'
 type: docs
-weight: 170
+weight: 14000
 url: /cpp/aspose.words.markup/
 ---
 

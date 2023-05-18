@@ -1,9 +1,10 @@
 ---
-title: Table
+title: Aspose::Words::Tables::Table::Table constructor
+linktitle: Table
 second_title: Aspose.Words for C++ API Reference
-description: Initializes a new instance of the Table class.
+description: 'Aspose::Words::Tables::Table::Table constructor. Initializes a new instance of the Table class in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.tables/table/table/
 ---
 ## Table::Table constructor
@@ -109,4 +110,4 @@ static SharedPtr<Table> CreateTable(SharedPtr<Document> doc, int rowCount, int c
 * Class [DocumentBase](../../../aspose.words/documentbase/)
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

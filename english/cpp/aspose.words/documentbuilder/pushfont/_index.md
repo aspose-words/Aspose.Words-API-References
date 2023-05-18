@@ -1,9 +1,10 @@
 ---
-title: PushFont
+title: Aspose::Words::DocumentBuilder::PushFont method
+linktitle: PushFont
 second_title: Aspose.Words for C++ API Reference
-description: Saves current character formatting onto the stack.
+description: 'Aspose::Words::DocumentBuilder::PushFont method. Saves current character formatting onto the stack in C++.'
 type: docs
-weight: 807
+weight: 63000
 url: /cpp/aspose.words/documentbuilder/pushfont/
 ---
 ## DocumentBuilder::PushFont method
@@ -55,4 +56,4 @@ doc->Save(ArtifactsDir + u"DocumentBuilder.PushPopFont.docx");
 
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

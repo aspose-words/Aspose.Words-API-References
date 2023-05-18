@@ -1,9 +1,10 @@
 ---
-title: get_Count
+title: Aspose::Words::Fonts::FontInfoCollection::get_Count method
+linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
-description: Gets the number of elements contained in the collection.
+description: 'Aspose::Words::Fonts::FontInfoCollection::get_Count method. Gets the number of elements contained in the collection in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.fonts/fontinfocollection/get_count/
 ---
 ## FontInfoCollection::get_Count method
@@ -39,4 +40,4 @@ ASSERT_TRUE(doc->get_FontInfos()->Contains(u"Arial"));
 
 * Class [FontInfoCollection](../)
 * Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

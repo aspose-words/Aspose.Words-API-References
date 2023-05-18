@@ -1,9 +1,10 @@
 ---
-title: Type
+title: Aspose::Words::Lists::ListLevel::Type method
+linktitle: Type
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Type method of Aspose::Words::Lists::ListLevel class in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.lists/listlevel/type/
 ---
 ## ListLevel::Type method
@@ -19,4 +20,4 @@ static const System::TypeInfo & Aspose::Words::Lists::ListLevel::Type()
 
 * Class [ListLevel](../)
 * Namespace [Aspose::Words::Lists](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

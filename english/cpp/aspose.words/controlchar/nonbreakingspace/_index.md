@@ -1,9 +1,10 @@
 ---
-title: NonBreakingSpace
+title: Aspose::Words::ControlChar::NonBreakingSpace method
+linktitle: NonBreakingSpace
 second_title: Aspose.Words for C++ API Reference
-description: 'Non-breaking space character: "\x00a0".'
+description: 'Aspose::Words::ControlChar::NonBreakingSpace method. Non-breaking space character: "\x00a0" in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words/controlchar/nonbreakingspace/
 ---
 ## ControlChar::NonBreakingSpace method
@@ -90,4 +91,4 @@ ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::ColumnBreak()), ControlCha
 
 * Class [ControlChar](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

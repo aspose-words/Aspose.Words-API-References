@@ -1,9 +1,10 @@
 ---
-title: get_UsePrinterMetrics
+title: Aspose::Words::Settings::CompatibilityOptions::get_UsePrinterMetrics method
+linktitle: get_UsePrinterMetrics
 second_title: Aspose.Words for C++ API Reference
-description: Use Printer Metrics To Display Documents.
+description: 'Aspose::Words::Settings::CompatibilityOptions::get_UsePrinterMetrics method. Use Printer Metrics To Display Documents in C++.'
 type: docs
-weight: 833
+weight: 65000
 url: /cpp/aspose.words.settings/compatibilityoptions/get_useprintermetrics/
 ---
 ## CompatibilityOptions::get_UsePrinterMetrics method
@@ -19,4 +20,4 @@ bool Aspose::Words::Settings::CompatibilityOptions::get_UsePrinterMetrics()
 
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_Font
+title: Aspose::Words::Lists::ListLevel::get_Font method
+linktitle: get_Font
 second_title: Aspose.Words for C++ API Reference
-description: Specifies character formatting used for the list label.
+description: 'Aspose::Words::Lists::ListLevel::get_Font method. Specifies character formatting used for the list label in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.lists/listlevel/get_font/
 ---
 ## ListLevel::get_Font method
@@ -78,4 +79,4 @@ builder->get_Document()->Save(ArtifactsDir + u"Lists.CreateCustomList.docx");
 * Class [Font](../../../aspose.words/font/)
 * Class [ListLevel](../)
 * Namespace [Aspose::Words::Lists](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

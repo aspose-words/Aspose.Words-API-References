@@ -1,9 +1,10 @@
 ---
-title: Remove
+title: Aspose::Words::Properties::DocumentPropertyCollection::Remove method
+linktitle: Remove
 second_title: Aspose.Words for C++ API Reference
-description: Removes a property with the specified name from the collection.
+description: 'Aspose::Words::Properties::DocumentPropertyCollection::Remove method. Removes a property with the specified name from the collection in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words.properties/documentpropertycollection/remove/
 ---
 ## DocumentPropertyCollection::Remove method
@@ -55,7 +56,7 @@ ASSERT_EQ(5, properties->get_Count());
 
 // Display the value of a custom property using a DOCPROPERTY field.
 auto builder = MakeObject<DocumentBuilder>(doc);
-auto field = System::DynamicCast<FieldDocProperty>(builder->InsertField(u" DOCPROPERTY \"Authorized By\""));
+auto field = System::ExplicitCast<FieldDocProperty>(builder->InsertField(u" DOCPROPERTY \"Authorized By\""));
 field->Update();
 
 ASSERT_EQ(u"John Doe", field->get_Result());
@@ -86,4 +87,4 @@ ASSERT_EQ(0, properties->get_Count());
 
 * Class [DocumentPropertyCollection](../)
 * Namespace [Aspose::Words::Properties](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

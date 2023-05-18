@@ -1,9 +1,10 @@
 ---
-title: get_OmitPageNumber
+title: Aspose::Words::Fields::FieldTC::get_OmitPageNumber method
+linktitle: get_OmitPageNumber
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets whether page number in TOC should be omitted for this field.
+description: 'Aspose::Words::Fields::FieldTC::get_OmitPageNumber method. Gets or sets whether page number in TOC should be omitted for this field in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.fields/fieldtc/get_omitpagenumber/
 ---
 ## FieldTC::get_OmitPageNumber method
@@ -28,7 +29,7 @@ void FieldTocEntryIdentifier()
     auto builder = MakeObject<DocumentBuilder>(doc);
 
     // Insert a TOC field, which will compile all TC fields into a table of contents.
-    auto fieldToc = System::DynamicCast<FieldToc>(builder->InsertField(FieldType::FieldTOC, true));
+    auto fieldToc = System::ExplicitCast<FieldToc>(builder->InsertField(FieldType::FieldTOC, true));
 
     // Configure the field only to pick up TC entries of the "A" type, and an entry-level between 1 and 3.
     fieldToc->set_EntryIdentifier(u"A");
@@ -55,7 +56,7 @@ void FieldTocEntryIdentifier()
 
 void InsertTocEntry(SharedPtr<DocumentBuilder> builder, String text, String typeIdentifier, String entryLevel)
 {
-    auto fieldTc = System::DynamicCast<FieldTC>(builder->InsertField(FieldType::FieldTOCEntry, true));
+    auto fieldTc = System::ExplicitCast<FieldTC>(builder->InsertField(FieldType::FieldTOCEntry, true));
     fieldTc->set_OmitPageNumber(true);
     fieldTc->set_Text(text);
     fieldTc->set_TypeIdentifier(typeIdentifier);
@@ -67,4 +68,4 @@ void InsertTocEntry(SharedPtr<DocumentBuilder> builder, String text, String type
 
 * Class [FieldTC](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: set_HeadingFormat
+title: Aspose::Words::Tables::RowFormat::set_HeadingFormat method
+linktitle: set_HeadingFormat
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Tables::RowFormat::get_HeadingFormat.'
+description: 'Aspose::Words::Tables::RowFormat::set_HeadingFormat method. Setter for Aspose::Words::Tables::RowFormat::get_HeadingFormat in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words.tables/rowformat/set_headingformat/
 ---
 ## RowFormat::set_HeadingFormat method
@@ -19,4 +20,4 @@ void Aspose::Words::Tables::RowFormat::set_HeadingFormat(bool value)
 
 * Class [RowFormat](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

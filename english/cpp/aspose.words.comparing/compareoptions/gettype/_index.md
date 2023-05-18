@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Comparing::CompareOptions::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Comparing::CompareOptions class in C++.'
 type: docs
-weight: 183
+weight: 15000
 url: /cpp/aspose.words.comparing/compareoptions/gettype/
 ---
 ## CompareOptions::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Comparing::CompareOptions::GetTy
 
 * Class [CompareOptions](../)
 * Namespace [Aspose::Words::Comparing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_StyleIdentifier
+title: Aspose::Words::Style::get_StyleIdentifier method
+linktitle: get_StyleIdentifier
 second_title: Aspose.Words for C++ API Reference
-description: Gets the locale independent style identifier for a built-in style.
+description: 'Aspose::Words::Style::get_StyleIdentifier method. Gets the locale independent style identifier for a built-in style in C++.'
 type: docs
-weight: 209
+weight: 17000
 url: /cpp/aspose.words/style/get_styleidentifier/
 ---
 ## Style::get_StyleIdentifier method
@@ -51,4 +52,4 @@ doc->Save(ArtifactsDir + u"Styles.ChangeTocsTabStops.docx");
 * Enum [StyleIdentifier](../../styleidentifier/)
 * Class [Style](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: LoadWindowsSettings
+title: Aspose::Words::Fonts::TableSubstitutionRule::LoadWindowsSettings method
+linktitle: LoadWindowsSettings
 second_title: Aspose.Words for C++ API Reference
-description: Loads predefined table substitution settings for Windows platform.
+description: 'Aspose::Words::Fonts::TableSubstitutionRule::LoadWindowsSettings method. Loads predefined table substitution settings for Windows platform in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.fonts/tablesubstitutionrule/loadwindowssettings/
 ---
 ## TableSubstitutionRule::LoadWindowsSettings method
@@ -55,4 +56,4 @@ ASPOSE_ASSERT_EQ(MakeArray<String>({u"FreeSerif", u"Liberation Serif", u"DejaVu 
 
 * Class [TableSubstitutionRule](../)
 * Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

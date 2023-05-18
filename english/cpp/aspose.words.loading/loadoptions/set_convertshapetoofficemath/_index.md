@@ -1,9 +1,10 @@
 ---
-title: set_ConvertShapeToOfficeMath
+title: Aspose::Words::Loading::LoadOptions::set_ConvertShapeToOfficeMath method
+linktitle: set_ConvertShapeToOfficeMath
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Loading::LoadOptions::get_ConvertShapeToOfficeMath.'
+description: 'Aspose::Words::Loading::LoadOptions::set_ConvertShapeToOfficeMath method. Setter for Aspose::Words::Loading::LoadOptions::get_ConvertShapeToOfficeMath in C++.'
 type: docs
-weight: 287
+weight: 23000
 url: /cpp/aspose.words.loading/loadoptions/set_convertshapetoofficemath/
 ---
 ## LoadOptions::set_ConvertShapeToOfficeMath method
@@ -19,4 +20,4 @@ void Aspose::Words::Loading::LoadOptions::set_ConvertShapeToOfficeMath(bool valu
 
 * Class [LoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

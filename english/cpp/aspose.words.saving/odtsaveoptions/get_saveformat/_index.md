@@ -1,9 +1,10 @@
 ---
-title: get_SaveFormat
+title: Aspose::Words::Saving::OdtSaveOptions::get_SaveFormat method
+linktitle: get_SaveFormat
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the format in which the document will be saved if this save options object is used. Can be Odt or Ott.
+description: 'Aspose::Words::Saving::OdtSaveOptions::get_SaveFormat method. Specifies the format in which the document will be saved if this save options object is used. Can be Odt or Ott in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.saving/odtsaveoptions/get_saveformat/
 ---
 ## OdtSaveOptions::get_SaveFormat method
@@ -53,4 +54,4 @@ ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
 * Enum [SaveFormat](../../../aspose.words/saveformat/)
 * Class [OdtSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

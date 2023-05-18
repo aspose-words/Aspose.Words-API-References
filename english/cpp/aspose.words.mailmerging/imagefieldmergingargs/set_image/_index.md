@@ -1,9 +1,10 @@
 ---
-title: set_Image
+title: Aspose::Words::MailMerging::ImageFieldMergingArgs::set_Image method
+linktitle: set_Image
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the image that the mail merge engine must insert into the document.
+description: 'Aspose::Words::MailMerging::ImageFieldMergingArgs::set_Image method. Specifies the image that the mail merge engine must insert into the document in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words.mailmerging/imagefieldmergingargs/set_image/
 ---
 ## ImageFieldMergingArgs::set_Image method
@@ -19,4 +20,4 @@ void Aspose::Words::MailMerging::ImageFieldMergingArgs::set_Image(const System::
 
 * Class [ImageFieldMergingArgs](../)
 * Namespace [Aspose::Words::MailMerging](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

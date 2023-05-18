@@ -1,9 +1,10 @@
 ---
-title: get_ProviderId
+title: Aspose::Words::DigitalSignatures::SignOptions::get_ProviderId method
+linktitle: get_ProviderId
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the class ID of the signature provider. Default value is Empty (all zeroes) Guid.
+description: 'Aspose::Words::DigitalSignatures::SignOptions::get_ProviderId method. Specifies the class ID of the signature provider. Default value is Empty (all zeroes) Guid in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.digitalsignatures/signoptions/get_providerid/
 ---
 ## SignOptions::get_ProviderId method
@@ -64,7 +65,7 @@ DigitalSignatureUtil::Sign(ArtifactsDir + u"DocumentBuilder.SignatureLineProvide
 // Re-open our saved document, and verify that the "IsSigned" and "IsValid" properties both equal "true",
 // indicating that the signature line contains a signature.
 doc = MakeObject<Document>(ArtifactsDir + u"DocumentBuilder.SignatureLineProviderId.Signed.docx");
-auto shape = System::DynamicCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
+auto shape = System::ExplicitCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
 signatureLine = shape->get_SignatureLine();
 
 ASSERT_TRUE(signatureLine->get_IsSigned());
@@ -75,4 +76,4 @@ ASSERT_TRUE(signatureLine->get_IsValid());
 
 * Class [SignOptions](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: FileFontSource
+title: Aspose::Words::Fonts::FileFontSource::FileFontSource constructor
+linktitle: FileFontSource
 second_title: Aspose.Words for C++ API Reference
-description: Ctor.
+description: 'Aspose::Words::Fonts::FileFontSource::FileFontSource constructor. Ctor in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fonts/filefontsource/filefontsource/
 ---
 ## FileFontSource::FileFontSource(const System::String\&) constructor
@@ -41,7 +42,7 @@ ASSERT_EQ(0, fileFontSource->get_Priority());
 
 * Class [FileFontSource](../)
 * Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## FileFontSource::FileFontSource(const System::String\&, int32_t) constructor
 
 
@@ -78,7 +79,7 @@ ASSERT_EQ(0, fileFontSource->get_Priority());
 
 * Class [FileFontSource](../)
 * Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## FileFontSource::FileFontSource(const System::String\&, int32_t, const System::String\&) constructor
 
 
@@ -99,4 +100,4 @@ Aspose::Words::Fonts::FileFontSource::FileFontSource(const System::String &fileP
 
 * Class [FileFontSource](../)
 * Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

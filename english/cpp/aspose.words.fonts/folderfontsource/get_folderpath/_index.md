@@ -1,9 +1,10 @@
 ---
-title: get_FolderPath
+title: Aspose::Words::Fonts::FolderFontSource::get_FolderPath method
+linktitle: get_FolderPath
 second_title: Aspose.Words for C++ API Reference
-description: Path to the folder.
+description: 'Aspose::Words::Fonts::FolderFontSource::get_FolderPath method. Path to the folder in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.fonts/folderfontsource/get_folderpath/
 ---
 ## FolderFontSource::get_FolderPath method
@@ -39,4 +40,4 @@ ASSERT_EQ(1, folderFontSource->get_Priority());
 
 * Class [FolderFontSource](../)
 * Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

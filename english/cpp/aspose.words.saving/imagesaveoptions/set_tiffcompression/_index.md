@@ -1,9 +1,10 @@
 ---
-title: set_TiffCompression
+title: Aspose::Words::Saving::ImageSaveOptions::set_TiffCompression method
+linktitle: set_TiffCompression
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::ImageSaveOptions::get_TiffCompression.'
+description: 'Aspose::Words::Saving::ImageSaveOptions::set_TiffCompression method. Setter for Aspose::Words::Saving::ImageSaveOptions::get_TiffCompression in C++.'
 type: docs
-weight: 443
+weight: 35000
 url: /cpp/aspose.words.saving/imagesaveoptions/set_tiffcompression/
 ---
 ## ImageSaveOptions::set_TiffCompression method
@@ -20,4 +21,4 @@ void Aspose::Words::Saving::ImageSaveOptions::set_TiffCompression(Aspose::Words:
 * Enum [TiffCompression](../../tiffcompression/)
 * Class [ImageSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: set_FileName
+title: Aspose::Words::Fields::FieldDatabase::set_FileName method
+linktitle: set_FileName
 second_title: Aspose.Words for C++ API Reference
-description: Sets the complete path and file name of the database.
+description: 'Aspose::Words::Fields::FieldDatabase::set_FileName method. Sets the complete path and file name of the database in C++.'
 type: docs
-weight: 183
+weight: 15000
 url: /cpp/aspose.words.fields/fielddatabase/set_filename/
 ---
 ## FieldDatabase::set_FileName method
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldDatabase::set_FileName(const System::String &va
 
 * Class [FieldDatabase](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

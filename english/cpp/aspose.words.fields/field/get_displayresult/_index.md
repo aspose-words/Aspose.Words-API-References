@@ -1,9 +1,10 @@
 ---
-title: get_DisplayResult
+title: Aspose::Words::Fields::Field::get_DisplayResult method
+linktitle: get_DisplayResult
 second_title: Aspose.Words for C++ API Reference
-description: Gets the text that represents the displayed field result.
+description: 'Aspose::Words::Fields::Field::get_DisplayResult method. Gets the text that represents the displayed field result in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fields/field/get_displayresult/
 ---
 ## Field::get_DisplayResult method
@@ -26,7 +27,7 @@ auto doc = MakeObject<Document>();
 auto builder = MakeObject<DocumentBuilder>(doc);
 
 builder->Write(u"This document was written by ");
-auto fieldAuthor = System::DynamicCast<FieldAuthor>(builder->InsertField(FieldType::FieldAuthor, true));
+auto fieldAuthor = System::ExplicitCast<FieldAuthor>(builder->InsertField(FieldType::FieldAuthor, true));
 fieldAuthor->set_AuthorName(u"John Doe");
 
 // We can use the DisplayResult property to verify what exact text
@@ -47,4 +48,4 @@ doc->Save(ArtifactsDir + u"Field.DisplayResult.docx");
 
 * Class [Field](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

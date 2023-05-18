@@ -1,9 +1,10 @@
 ---
-title: idx_get
+title: Aspose::Words::RunCollection::idx_get method
+linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
-description: Retrieves a Run at the given index.
+description: 'Aspose::Words::RunCollection::idx_get method. Retrieves a Run at the given index in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words/runcollection/idx_get/
 ---
 ## RunCollection::idx_get method
@@ -47,7 +48,7 @@ auto doc = MakeObject<Document>(MyDir + u"Revision runs.docx");
 ASSERT_EQ(6, doc->get_Revisions()->get_Count());
 
 // The parent node of a revision is the run that the revision concerns. A Run is an Inline node.
-auto run = System::DynamicCast<Run>(doc->get_Revisions()->idx_get(0)->get_ParentNode());
+auto run = System::ExplicitCast<Run>(doc->get_Revisions()->idx_get(0)->get_ParentNode());
 
 SharedPtr<Paragraph> firstParagraph = run->get_ParentParagraph();
 SharedPtr<RunCollection> runs = firstParagraph->get_Runs();
@@ -89,4 +90,4 @@ ASSERT_TRUE(runs->idx_get(5)->get_IsDeleteRevision());
 * Class [Run](../../run/)
 * Class [RunCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

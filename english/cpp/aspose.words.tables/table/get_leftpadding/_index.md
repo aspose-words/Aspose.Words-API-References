@@ -1,9 +1,10 @@
 ---
-title: get_LeftPadding
+title: Aspose::Words::Tables::Table::get_LeftPadding method
+linktitle: get_LeftPadding
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the amount of space (in points) to add to the left of the contents of cells.
+description: 'Aspose::Words::Tables::Table::get_LeftPadding method. Gets or sets the amount of space (in points) to add to the left of the contents of cells in C++.'
 type: docs
-weight: 339
+weight: 27000
 url: /cpp/aspose.words.tables/table/get_leftpadding/
 ---
 ## Table::get_LeftPadding method
@@ -47,4 +48,4 @@ doc->Save(ArtifactsDir + u"DocumentBuilder.SetRowFormatting.docx");
 
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

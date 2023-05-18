@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Drawing::TextPath::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Drawing::TextPath class in C++.'
 type: docs
-weight: 274
+weight: 22000
 url: /cpp/aspose.words.drawing/textpath/gettype/
 ---
 ## TextPath::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Drawing::TextPath::GetType() con
 
 * Class [TextPath](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

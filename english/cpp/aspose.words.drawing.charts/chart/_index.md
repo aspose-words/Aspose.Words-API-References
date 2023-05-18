@@ -1,9 +1,10 @@
 ---
-title: Chart
+title: Aspose::Words::Drawing::Charts::Chart class
+linktitle: Chart
 second_title: Aspose.Words for C++ API Reference
-description: Provides access to the chart shape properties. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Drawing::Charts::Chart class. Provides access to the chart shape properties. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.drawing.charts/chart/
 ---
 ## Chart class
@@ -19,6 +20,7 @@ class Chart : public System::Object
 
 | Method | Description |
 | --- | --- |
+| [get_Axes](./get_axes/)() | Gets a collection of all axes of this chart. |
 | [get_AxisX](./get_axisx/)() | Provides access to properties of the X axis of the chart. |
 | [get_AxisY](./get_axisy/)() | Provides access to properties of the Y axis of the chart. |
 | [get_AxisZ](./get_axisz/)() | Provides access to properties of the Z axis of the chart. |
@@ -60,4 +62,4 @@ doc->Save(ArtifactsDir + u"Charts.ChartTitle.docx");
 ## See Also
 
 * Namespace [Aspose::Words::Drawing::Charts](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

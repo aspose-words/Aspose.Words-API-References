@@ -1,9 +1,10 @@
 ---
-title: get_UseGdiRasterOperationsEmulation
+title: Aspose::Words::Saving::MetafileRenderingOptions::get_UseGdiRasterOperationsEmulation method
+linktitle: get_UseGdiRasterOperationsEmulation
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets a value determining whether or not to use the GDI+ for raster operations emulation.
+description: 'Aspose::Words::Saving::MetafileRenderingOptions::get_UseGdiRasterOperationsEmulation method. Gets or sets a value determining whether or not to use the GDI+ for raster operations emulation in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.saving/metafilerenderingoptions/get_usegdirasteroperationsemulation/
 ---
 ## MetafileRenderingOptions::get_UseGdiRasterOperationsEmulation method
@@ -31,4 +32,4 @@ The default value is **false**.
 
 * Class [MetafileRenderingOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

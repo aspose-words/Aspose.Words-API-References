@@ -1,9 +1,10 @@
 ---
-title: get_ExportXhtmlTransitional
+title: Aspose::Words::Saving::HtmlSaveOptions::get_ExportXhtmlTransitional method
+linktitle: get_ExportXhtmlTransitional
 second_title: Aspose.Words for C++ API Reference
-description: Specifies whether to write the DOCTYPE declaration when saving to HTML or MHTML. When true, writes a DOCTYPE declaration in the document prior to the root element. Default value is false. When saving to EPUB or HTML5 (Html5) the DOCTYPE declaration is always written.
+description: 'Aspose::Words::Saving::HtmlSaveOptions::get_ExportXhtmlTransitional method. Specifies whether to write the DOCTYPE declaration when saving to HTML or MHTML. When true, writes a DOCTYPE declaration in the document prior to the root element. Default value is false. When saving to EPUB or HTML5 (Html5) the DOCTYPE declaration is always written in C++.'
 type: docs
-weight: 378
+weight: 30000
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_exportxhtmltransitional/
 ---
 ## HtmlSaveOptions::get_ExportXhtmlTransitional method
@@ -72,4 +73,4 @@ else
 
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_ExportImagesAsBase64
+title: Aspose::Words::Saving::HtmlSaveOptions::get_ExportImagesAsBase64 method
+linktitle: get_ExportImagesAsBase64
 second_title: Aspose.Words for C++ API Reference
-description: Specifies whether images are saved in Base64 format to the output HTML, MHTML or EPUB. Default is false.
+description: 'Aspose::Words::Saving::HtmlSaveOptions::get_ExportImagesAsBase64 method. Specifies whether images are saved in Base64 format to the output HTML, MHTML or EPUB. Default is false in C++.'
 type: docs
-weight: 235
+weight: 19000
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_exportimagesasbase64/
 ---
 ## HtmlSaveOptions::get_ExportImagesAsBase64 method
@@ -57,4 +58,4 @@ doc->Save(ArtifactsDir + u"HtmlSaveOptions.ExportFontsAsBase64.html", options);
 
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

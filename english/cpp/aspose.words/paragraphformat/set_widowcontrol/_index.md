@@ -1,9 +1,10 @@
 ---
-title: set_WidowControl
+title: Aspose::Words::ParagraphFormat::set_WidowControl method
+linktitle: set_WidowControl
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::ParagraphFormat::get_WidowControl.'
+description: 'Aspose::Words::ParagraphFormat::set_WidowControl method. Setter for Aspose::Words::ParagraphFormat::get_WidowControl in C++.'
 type: docs
-weight: 1002
+weight: 78000
 url: /cpp/aspose.words/paragraphformat/set_widowcontrol/
 ---
 ## ParagraphFormat::set_WidowControl method
@@ -19,4 +20,4 @@ void Aspose::Words::ParagraphFormat::set_WidowControl(bool value)
 
 * Class [ParagraphFormat](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: AxisScaling
+title: Aspose::Words::Drawing::Charts::AxisScaling::AxisScaling constructor
+linktitle: AxisScaling
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use AxisScaling constructor of Aspose::Words::Drawing::Charts::AxisScaling class in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.drawing.charts/axisscaling/axisscaling/
 ---
 ## AxisScaling::AxisScaling constructor
@@ -19,4 +20,4 @@ Aspose::Words::Drawing::Charts::AxisScaling::AxisScaling()
 
 * Class [AxisScaling](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_ShowParagraphMarks
+title: Aspose::Words::Layout::LayoutOptions::get_ShowParagraphMarks method
+linktitle: get_ShowParagraphMarks
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets indication of whether paragraph marks are rendered. Default is false.
+description: 'Aspose::Words::Layout::LayoutOptions::get_ShowParagraphMarks method. Gets or sets indication of whether paragraph marks are rendered. Default is false in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.layout/layoutoptions/get_showparagraphmarks/
 ---
 ## LayoutOptions::get_ShowParagraphMarks method
@@ -39,4 +40,4 @@ doc->Save(ArtifactsDir + u"Document.LayoutOptionsParagraphMarks.pdf");
 
 * Class [LayoutOptions](../)
 * Namespace [Aspose::Words::Layout](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

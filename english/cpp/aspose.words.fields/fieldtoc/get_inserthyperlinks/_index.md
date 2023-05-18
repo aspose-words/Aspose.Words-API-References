@@ -1,9 +1,10 @@
 ---
-title: get_InsertHyperlinks
+title: Aspose::Words::Fields::FieldToc::get_InsertHyperlinks method
+linktitle: get_InsertHyperlinks
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets whether to make the table of contents entries hyperlinks.
+description: 'Aspose::Words::Fields::FieldToc::get_InsertHyperlinks method. Gets or sets whether to make the table of contents entries hyperlinks in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words.fields/fieldtoc/get_inserthyperlinks/
 ---
 ## FieldToc::get_InsertHyperlinks method
@@ -32,7 +33,7 @@ void FieldToc_()
     // Insert a TOC field, which will compile all headings into a table of contents.
     // For each heading, this field will create a line with the text in that heading style to the left,
     // and the page the heading appears on to the right.
-    auto field = System::DynamicCast<FieldToc>(builder->InsertField(FieldType::FieldTOC, true));
+    auto field = System::ExplicitCast<FieldToc>(builder->InsertField(FieldType::FieldTOC, true));
 
     // Use the BookmarkName property to only list headings
     // that appear within the bounds of a bookmark with the "MyBookmark" name.
@@ -100,4 +101,4 @@ void InsertNewPageWithHeading(SharedPtr<DocumentBuilder> builder, String caption
 
 * Class [FieldToc](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

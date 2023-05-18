@@ -1,9 +1,10 @@
 ---
-title: Row
+title: Aspose::Words::Tables::Row class
+linktitle: Row
 second_title: Aspose.Words for C++ API Reference
-description: Represents a table row. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Tables::Row class. Represents a table row. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.tables/row/
 ---
 ## Row class
@@ -204,4 +205,4 @@ static SharedPtr<Table> CreateTable(SharedPtr<Document> doc, int rowCount, int c
 
 * Class [CompositeNode](../../aspose.words/compositenode/)
 * Namespace [Aspose::Words::Tables](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

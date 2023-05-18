@@ -1,9 +1,10 @@
 ---
-title: RevisionType
+title: Aspose::Words::RevisionType enum
+linktitle: RevisionType
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the type of change being tracked in Revision.
+description: 'Aspose::Words::RevisionType enum. Specifies the type of change being tracked in Revision in C++.'
 type: docs
-weight: 1457
+weight: 113000
 url: /cpp/aspose.words/revisiontype/
 ---
 ## RevisionType enum
@@ -110,4 +111,4 @@ ASSERT_EQ(u"This is revision #1. \rThis is revision #2.", doc->GetText().Trim())
 ## See Also
 
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

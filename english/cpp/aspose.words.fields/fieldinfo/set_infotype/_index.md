@@ -1,9 +1,10 @@
 ---
-title: set_InfoType
+title: Aspose::Words::Fields::FieldInfo::set_InfoType method
+linktitle: set_InfoType
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fields::FieldInfo::get_InfoType.'
+description: 'Aspose::Words::Fields::FieldInfo::set_InfoType method. Setter for Aspose::Words::Fields::FieldInfo::get_InfoType in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.fields/fieldinfo/set_infotype/
 ---
 ## FieldInfo::set_InfoType method
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldInfo::set_InfoType(const System::String &value)
 
 * Class [FieldInfo](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

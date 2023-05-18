@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Drawing::Charts::ChartDataLabel::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Drawing::Charts::ChartDataLabel class in C++.'
 type: docs
-weight: 209
+weight: 17000
 url: /cpp/aspose.words.drawing.charts/chartdatalabel/gettype/
 ---
 ## ChartDataLabel::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Drawing::Charts::ChartDataLabel:
 
 * Class [ChartDataLabel](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

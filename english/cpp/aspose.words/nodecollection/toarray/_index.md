@@ -1,9 +1,10 @@
 ---
-title: ToArray
+title: Aspose::Words::NodeCollection::ToArray method
+linktitle: ToArray
 second_title: Aspose.Words for C++ API Reference
-description: Copies all nodes from the collection to a new array of nodes.
+description: 'Aspose::Words::NodeCollection::ToArray method. Copies all nodes from the collection to a new array of nodes in C++.'
 type: docs
-weight: 170
+weight: 14000
 url: /cpp/aspose.words/nodecollection/toarray/
 ---
 ## NodeCollection::ToArray method
@@ -82,4 +83,4 @@ doc->Save(ArtifactsDir + u"Shape.ReplaceTextboxesWithImages.docx");
 * Class [Node](../../node/)
 * Class [NodeCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

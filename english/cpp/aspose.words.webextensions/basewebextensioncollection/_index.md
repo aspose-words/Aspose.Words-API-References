@@ -1,9 +1,10 @@
 ---
-title: BaseWebExtensionCollection
+title: Aspose::Words::WebExtensions::BaseWebExtensionCollection class
+linktitle: BaseWebExtensionCollection
 second_title: Aspose.Words for C++ API Reference
-description: Base class for TaskPaneCollection, WebExtensionBindingCollection, WebExtensionPropertyCollection and WebExtensionReferenceCollection collections. To learn more, visit the  documentation article.
+description: 'Aspose::Words::WebExtensions::BaseWebExtensionCollection class. Base class for TaskPaneCollection, WebExtensionBindingCollection, WebExtensionPropertyCollection and WebExtensionReferenceCollection collections. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words.webextensions/basewebextensioncollection/
 ---
 ## BaseWebExtensionCollection class
@@ -83,4 +84,4 @@ ASSERT_EQ(0, doc->get_WebExtensionTaskPanes()->get_Count());
 ## See Also
 
 * Namespace [Aspose::Words::WebExtensions](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

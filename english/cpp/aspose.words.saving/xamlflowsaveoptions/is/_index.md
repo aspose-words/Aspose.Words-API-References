@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Saving::XamlFlowSaveOptions::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Saving::XamlFlowSaveOptions class in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.saving/xamlflowsaveoptions/is/
 ---
 ## XamlFlowSaveOptions::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Saving::XamlFlowSaveOptions::Is(const System::TypeIn
 
 * Class [XamlFlowSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

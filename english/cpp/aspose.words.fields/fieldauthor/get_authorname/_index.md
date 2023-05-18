@@ -1,9 +1,10 @@
 ---
-title: get_AuthorName
+title: Aspose::Words::Fields::FieldAuthor::get_AuthorName method
+linktitle: get_AuthorName
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the document author's name.
+description: 'Aspose::Words::Fields::FieldAuthor::get_AuthorName method. Gets or sets the document author''s name in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fields/fieldauthor/get_authorname/
 ---
 ## FieldAuthor::get_AuthorName method
@@ -37,7 +38,7 @@ ASSERT_EQ(String::Empty, doc->get_BuiltInDocumentProperties()->get_Author());
 doc->get_FieldOptions()->set_DefaultDocumentAuthor(u"Joe Bloggs");
 
 builder->Write(u"This document was created by ");
-auto field = System::DynamicCast<FieldAuthor>(builder->InsertField(FieldType::FieldAuthor, true));
+auto field = System::ExplicitCast<FieldAuthor>(builder->InsertField(FieldType::FieldAuthor, true));
 field->Update();
 
 ASSERT_EQ(u" AUTHOR ", field->GetFieldCode());
@@ -73,4 +74,4 @@ doc->Save(ArtifactsDir + u"Field.AUTHOR.docx");
 
 * Class [FieldAuthor](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Tables::TableCollection::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Tables::TableCollection class in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.tables/tablecollection/is/
 ---
 ## TableCollection::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Tables::TableCollection::Is(const System::TypeInfo &
 
 * Class [TableCollection](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

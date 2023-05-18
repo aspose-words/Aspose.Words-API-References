@@ -1,9 +1,10 @@
 ---
-title: get_SaveFormat
+title: Aspose::Words::Saving::PsSaveOptions::get_SaveFormat method
+linktitle: get_SaveFormat
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the format in which the document will be saved if this save options object is used. Can only be Ps.
+description: 'Aspose::Words::Saving::PsSaveOptions::get_SaveFormat method. Specifies the format in which the document will be saved if this save options object is used. Can only be Ps in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.saving/pssaveoptions/get_saveformat/
 ---
 ## PsSaveOptions::get_SaveFormat method
@@ -50,4 +51,4 @@ doc->Save(ArtifactsDir + u"PsSaveOptions.UseBookFoldPrintingSettings.ps", saveOp
 * Enum [SaveFormat](../../../aspose.words/saveformat/)
 * Class [PsSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

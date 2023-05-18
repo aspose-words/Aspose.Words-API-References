@@ -1,9 +1,10 @@
 ---
-title: HeaderFooter
+title: Aspose::Words::HeaderFooter class
+linktitle: HeaderFooter
 second_title: Aspose.Words for C++ API Reference
-description: Represents a container for the header or footer text of a section. To learn more, visit the  documentation article.
+description: 'Aspose::Words::HeaderFooter class. Represents a container for the header or footer text of a section. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 391
+weight: 31000
 url: /cpp/aspose.words/headerfooter/
 ---
 ## HeaderFooter class
@@ -151,7 +152,7 @@ for (const auto& section : System::IterateOver(doc->LINQ_OfType<SharedPtr<Sectio
     }
 
     ASSERT_EQ(0,
-              section->get_HeadersFooters()->LINQ_Count([](SharedPtr<Node> hf) { return !(System::DynamicCast<HeaderFooter>(hf))->get_IsHeader(); }));
+              section->get_HeadersFooters()->LINQ_Count([](SharedPtr<Node> hf) { return !(System::ExplicitCast<HeaderFooter>(hf))->get_IsHeader(); }));
 }
 
 doc->Save(ArtifactsDir + u"HeaderFooter.RemoveFooters.docx");
@@ -179,4 +180,4 @@ doc->Save(ArtifactsDir + u"HeaderFooter.ReplaceText.docx");
 
 * Class [Story](../story/)
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

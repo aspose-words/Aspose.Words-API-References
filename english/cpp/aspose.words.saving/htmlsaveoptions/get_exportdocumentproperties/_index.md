@@ -1,9 +1,10 @@
 ---
-title: get_ExportDocumentProperties
+title: Aspose::Words::Saving::HtmlSaveOptions::get_ExportDocumentProperties method
+linktitle: get_ExportDocumentProperties
 second_title: Aspose.Words for C++ API Reference
-description: Specifies whether to export built-in and custom document properties to HTML, MHTML or EPUB. Default value is false.
+description: 'Aspose::Words::Saving::HtmlSaveOptions::get_ExportDocumentProperties method. Specifies whether to export built-in and custom document properties to HTML, MHTML or EPUB. Default value is false in C++.'
 type: docs
-weight: 170
+weight: 14000
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_exportdocumentproperties/
 ---
 ## HtmlSaveOptions::get_ExportDocumentProperties method
@@ -45,4 +46,4 @@ doc->Save(ArtifactsDir + u"HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOption
 
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

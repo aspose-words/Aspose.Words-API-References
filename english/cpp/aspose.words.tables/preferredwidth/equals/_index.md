@@ -1,9 +1,10 @@
 ---
-title: Equals
+title: Aspose::Words::Tables::PreferredWidth::Equals method
+linktitle: Equals
 second_title: Aspose.Words for C++ API Reference
-description: Determines whether the specified PreferredWidth is equal in value to the current PreferredWidth.
+description: 'Aspose::Words::Tables::PreferredWidth::Equals method. Determines whether the specified PreferredWidth is equal in value to the current PreferredWidth in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.tables/preferredwidth/equals/
 ---
 ## PreferredWidth::Equals(const System::SharedPtr\<Aspose::Words::Tables::PreferredWidth\>\&) method
@@ -59,7 +60,7 @@ doc->Save(ArtifactsDir + u"DocumentBuilder.InsertCellsWithPreferredWidths.docx")
 * Class [PreferredWidth](../)
 * Class [PreferredWidth](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## PreferredWidth::Equals(System::SharedPtr\<System::Object\>) method
 
 
@@ -112,4 +113,4 @@ doc->Save(ArtifactsDir + u"DocumentBuilder.InsertCellsWithPreferredWidths.docx")
 
 * Class [PreferredWidth](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

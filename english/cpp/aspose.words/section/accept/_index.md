@@ -1,9 +1,10 @@
 ---
-title: Accept
+title: Aspose::Words::Section::Accept method
+linktitle: Accept
 second_title: Aspose.Words for C++ API Reference
-description: Accepts a visitor.
+description: 'Aspose::Words::Section::Accept method. Accepts a visitor in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words/section/accept/
 ---
 ## Section::Accept method
@@ -35,4 +36,4 @@ For more info see the Visitor design pattern.
 * Class [DocumentVisitor](../../documentvisitor/)
 * Class [Section](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

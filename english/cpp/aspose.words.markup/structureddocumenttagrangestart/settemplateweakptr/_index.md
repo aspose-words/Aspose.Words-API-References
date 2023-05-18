@@ -1,9 +1,10 @@
 ---
-title: SetTemplateWeakPtr
+title: Aspose::Words::Markup::StructuredDocumentTagRangeStart::SetTemplateWeakPtr method
+linktitle: SetTemplateWeakPtr
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use SetTemplateWeakPtr method of Aspose::Words::Markup::StructuredDocumentTagRangeStart class in C++.'
 type: docs
-weight: 443
+weight: 35000
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/settemplateweakptr/
 ---
 ## StructuredDocumentTagRangeStart::SetTemplateWeakPtr method
@@ -19,4 +20,4 @@ void Aspose::Words::Markup::StructuredDocumentTagRangeStart::SetTemplateWeakPtr(
 
 * Class [StructuredDocumentTagRangeStart](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

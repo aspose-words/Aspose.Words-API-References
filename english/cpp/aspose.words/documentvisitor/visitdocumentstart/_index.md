@@ -1,9 +1,10 @@
 ---
-title: VisitDocumentStart
+title: Aspose::Words::DocumentVisitor::VisitDocumentStart method
+linktitle: VisitDocumentStart
 second_title: Aspose.Words for C++ API Reference
-description: Called when enumeration of the document has started.
+description: 'Aspose::Words::DocumentVisitor::VisitDocumentStart method. Called when enumeration of the document has started in C++.'
 type: docs
-weight: 222
+weight: 18000
 url: /cpp/aspose.words/documentvisitor/visitdocumentstart/
 ---
 ## DocumentVisitor::VisitDocumentStart method
@@ -164,4 +165,4 @@ private:
 * Class [Document](../../document/)
 * Class [DocumentVisitor](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,15 +1,16 @@
 ---
-title: set_NumberSeparator
+title: Aspose::Words::Fields::FieldRef::set_NumberSeparator method
+linktitle: set_NumberSeparator
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fields::FieldRef::get_NumberSeparator.'
+description: 'Aspose::Words::Fields::FieldRef::set_NumberSeparator method. Sets the character sequence that is used to separate sequence numbers and page numbers in C++.'
 type: docs
-weight: 287
+weight: 23000
 url: /cpp/aspose.words.fields/fieldref/set_numberseparator/
 ---
 ## FieldRef::set_NumberSeparator method
 
 
-Setter for [Aspose::Words::Fields::FieldRef::get_NumberSeparator](../get_numberseparator/).
+Sets the character sequence that is used to separate sequence numbers and page numbers.
 
 ```cpp
 void Aspose::Words::Fields::FieldRef::set_NumberSeparator(const System::String &value)
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldRef::set_NumberSeparator(const System::String &
 
 * Class [FieldRef](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

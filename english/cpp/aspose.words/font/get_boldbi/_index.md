@@ -1,9 +1,10 @@
 ---
-title: get_BoldBi
+title: Aspose::Words::Font::get_BoldBi method
+linktitle: get_BoldBi
 second_title: Aspose.Words for C++ API Reference
-description: True if the right-to-left text is formatted as bold.
+description: 'Aspose::Words::Font::get_BoldBi method. True if the right-to-left text is formatted as bold in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words/font/get_boldbi/
 ---
 ## Font::get_BoldBi method
@@ -57,4 +58,4 @@ doc->Save(ArtifactsDir + u"Font.Bidi.docx");
 
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

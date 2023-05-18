@@ -1,9 +1,10 @@
 ---
-title: get_Id
+title: Aspose::Words::Drawing::SignatureLine::get_Id method
+linktitle: get_Id
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets identifier for this signature line. This identifier can be associated with a digital signature, when signing document using DigitalSignatureUtil. This value must be unique and by default it is randomly generated new Guid (NewGuid).
+description: 'Aspose::Words::Drawing::SignatureLine::get_Id method. Gets or sets identifier for this signature line. This identifier can be associated with a digital signature, when signing document using DigitalSignatureUtil. This value must be unique and by default it is randomly generated new Guid (NewGuid) in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.drawing/signatureline/get_id/
 ---
 ## SignatureLine::get_Id method
@@ -153,4 +154,4 @@ static SharedPtr<System::Collections::Generic::List<SharedPtr<ExSignDocumentCust
 
 * Class [SignatureLine](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

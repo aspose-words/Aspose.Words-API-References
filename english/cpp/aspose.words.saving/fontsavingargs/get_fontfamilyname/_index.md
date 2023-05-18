@@ -1,9 +1,10 @@
 ---
-title: get_FontFamilyName
+title: Aspose::Words::Saving::FontSavingArgs::get_FontFamilyName method
+linktitle: get_FontFamilyName
 second_title: Aspose.Words for C++ API Reference
-description: Indicates the current font family name.
+description: 'Aspose::Words::Saving::FontSavingArgs::get_FontFamilyName method. Indicates the current font family name in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.saving/fontsavingargs/get_fontfamilyname/
 ---
 ## FontSavingArgs::get_FontFamilyName method
@@ -86,4 +87,4 @@ private:
 
 * Class [FontSavingArgs](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

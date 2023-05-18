@@ -1,9 +1,10 @@
 ---
-title: FontSaving
+title: Aspose::Words::Saving::IFontSavingCallback::FontSaving method
+linktitle: FontSaving
 second_title: Aspose.Words for C++ API Reference
-description: Called when Aspose.Words is about to save a font resource.
+description: 'Aspose::Words::Saving::IFontSavingCallback::FontSaving method. Called when Aspose.Words is about to save a font resource in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.saving/ifontsavingcallback/fontsaving/
 ---
 ## IFontSavingCallback::FontSaving method
@@ -87,4 +88,4 @@ private:
 * Class [FontSavingArgs](../../fontsavingargs/)
 * Interface [IFontSavingCallback](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

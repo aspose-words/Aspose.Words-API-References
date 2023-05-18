@@ -1,9 +1,10 @@
 ---
-title: RelativeVerticalPosition
+title: Aspose::Words::Drawing::RelativeVerticalPosition enum
+linktitle: RelativeVerticalPosition
 second_title: Aspose.Words for C++ API Reference
-description: Specifies to what the vertical position of a shape or text frame is relative.
+description: 'Aspose::Words::Drawing::RelativeVerticalPosition enum. Specifies to what the vertical position of a shape or text frame is relative in C++.'
 type: docs
-weight: 430
+weight: 34000
 url: /cpp/aspose.words.drawing/relativeverticalposition/
 ---
 ## RelativeVerticalPosition enum
@@ -77,4 +78,4 @@ doc->Save(ArtifactsDir + u"Image.CreateFloatingPageCenter.docx");
 ## See Also
 
 * Namespace [Aspose::Words::Drawing](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

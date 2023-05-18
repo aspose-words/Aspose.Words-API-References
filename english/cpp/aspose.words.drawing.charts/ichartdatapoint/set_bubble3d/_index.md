@@ -1,9 +1,10 @@
 ---
-title: set_Bubble3D
+title: Aspose::Words::Drawing::Charts::IChartDataPoint::set_Bubble3D method
+linktitle: set_Bubble3D
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Drawing::Charts::IChartDataPoint::get_Bubble3D.'
+description: 'Aspose::Words::Drawing::Charts::IChartDataPoint::set_Bubble3D method. Setter for Aspose::Words::Drawing::Charts::IChartDataPoint::get_Bubble3D in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.drawing.charts/ichartdatapoint/set_bubble3d/
 ---
 ## IChartDataPoint::set_Bubble3D method
@@ -19,4 +20,4 @@ virtual void Aspose::Words::Drawing::Charts::IChartDataPoint::set_Bubble3D(bool 
 
 * Interface [IChartDataPoint](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

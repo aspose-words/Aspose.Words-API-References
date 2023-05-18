@@ -1,9 +1,10 @@
 ---
-title: set_RelationshipType
+title: Aspose::Words::Markup::CustomPart::set_RelationshipType method
+linktitle: set_RelationshipType
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Markup::CustomPart::get_RelationshipType.'
+description: 'Aspose::Words::Markup::CustomPart::set_RelationshipType method. Setter for Aspose::Words::Markup::CustomPart::get_RelationshipType in C++.'
 type: docs
-weight: 183
+weight: 15000
 url: /cpp/aspose.words.markup/custompart/set_relationshiptype/
 ---
 ## CustomPart::set_RelationshipType method
@@ -19,4 +20,4 @@ void Aspose::Words::Markup::CustomPart::set_RelationshipType(const System::Strin
 
 * Class [CustomPart](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

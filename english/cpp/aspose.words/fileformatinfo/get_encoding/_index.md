@@ -1,9 +1,10 @@
 ---
-title: get_Encoding
+title: Aspose::Words::FileFormatInfo::get_Encoding method
+linktitle: get_Encoding
 second_title: Aspose.Words for C++ API Reference
-description: Gets the detected encoding if applicable to the current document format. At the moment detects encoding only for HTML documents.
+description: 'Aspose::Words::FileFormatInfo::get_Encoding method. Gets the detected encoding if applicable to the current document format. At the moment detects encoding only for HTML documents in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words/fileformatinfo/get_encoding/
 ---
 ## FileFormatInfo::get_Encoding method
@@ -35,4 +36,4 @@ ASSERT_EQ(1252, info->get_Encoding()->get_CodePage());
 
 * Class [FileFormatInfo](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_ResourceFileUri
+title: Aspose::Words::Saving::ResourceSavingArgs::get_ResourceFileUri method
+linktitle: get_ResourceFileUri
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the uniform resource identifier (URI) used to reference the resource file from the document.
+description: 'Aspose::Words::Saving::ResourceSavingArgs::get_ResourceFileUri method. Gets or sets the uniform resource identifier (URI) used to reference the resource file from the document in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.saving/resourcesavingargs/get_resourcefileuri/
 ---
 ## ResourceSavingArgs::get_ResourceFileUri method
@@ -72,4 +73,4 @@ private:
 
 * Class [ResourceSavingArgs](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

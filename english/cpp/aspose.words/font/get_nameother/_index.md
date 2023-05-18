@@ -1,9 +1,10 @@
 ---
-title: get_NameOther
+title: Aspose::Words::Font::get_NameOther method
+linktitle: get_NameOther
 second_title: Aspose.Words for C++ API Reference
-description: Returns or sets the font used for characters with character codes from 128 through 255.
+description: 'Aspose::Words::Font::get_NameOther method. Returns or sets the font used for characters with character codes from 128 through 255 in C++.'
 type: docs
-weight: 365
+weight: 29000
 url: /cpp/aspose.words/font/get_nameother/
 ---
 ## Font::get_NameOther method
@@ -48,4 +49,4 @@ doc->Save(ArtifactsDir + u"Font.NameAscii.docx");
 
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

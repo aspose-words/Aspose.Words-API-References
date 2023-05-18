@@ -1,9 +1,10 @@
 ---
-title: PresetTextured
+title: Aspose::Words::Drawing::Fill::PresetTextured method
+linktitle: PresetTextured
 second_title: Aspose.Words for C++ API Reference
-description: Sets the fill to a preset texture.
+description: 'Aspose::Words::Drawing::Fill::PresetTextured method. Sets the fill to a preset texture in C++.'
 type: docs
-weight: 339
+weight: 27000
 url: /cpp/aspose.words.drawing/fill/presettextured/
 ---
 ## Fill::PresetTextured method
@@ -61,4 +62,4 @@ doc->Save(ArtifactsDir + u"Charts.MarkerFormatting.docx");
 * Enum [PresetTexture](../../presettexture/)
 * Class [Fill](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

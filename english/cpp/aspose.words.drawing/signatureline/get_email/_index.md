@@ -1,9 +1,10 @@
 ---
-title: get_Email
+title: Aspose::Words::Drawing::SignatureLine::get_Email method
+linktitle: get_Email
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets suggested signer's e-mail address. Default value for this property is empty string.
+description: 'Aspose::Words::Drawing::SignatureLine::get_Email method. Gets or sets suggested signer''s e-mail address. Default value for this property is empty string in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.drawing/signatureline/get_email/
 ---
 ## SignatureLine::get_Email method
@@ -61,4 +62,4 @@ doc->Save(ArtifactsDir + u"Shape.SignatureLine.docx");
 
 * Class [SignatureLine](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

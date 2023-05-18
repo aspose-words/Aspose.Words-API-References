@@ -1,9 +1,10 @@
 ---
-title: VisitSmartTagEnd
+title: Aspose::Words::DocumentVisitor::VisitSmartTagEnd method
+linktitle: VisitSmartTagEnd
 second_title: Aspose.Words for C++ API Reference
-description: Called when enumeration of a smart tag has ended.
+description: 'Aspose::Words::DocumentVisitor::VisitSmartTagEnd method. Called when enumeration of a smart tag has ended in C++.'
 type: docs
-weight: 560
+weight: 44000
 url: /cpp/aspose.words/documentvisitor/visitsmarttagend/
 ---
 ## DocumentVisitor::VisitSmartTagEnd method
@@ -108,4 +109,4 @@ private:
 * Class [SmartTag](../../../aspose.words.markup/smarttag/)
 * Class [DocumentVisitor](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

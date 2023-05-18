@@ -1,9 +1,10 @@
 ---
-title: get_CheckBoxSize
+title: Aspose::Words::Fields::FormField::get_CheckBoxSize method
+linktitle: get_CheckBoxSize
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the size of the checkbox in points. Has effect only when IsCheckBoxExactSize is true.
+description: 'Aspose::Words::Fields::FormField::get_CheckBoxSize method. Gets or sets the size of the checkbox in points. Has effect only when IsCheckBoxExactSize is true in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.fields/formfield/get_checkboxsize/
 ---
 ## FormField::get_CheckBoxSize method
@@ -157,4 +158,4 @@ private:
 
 * Class [FormField](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

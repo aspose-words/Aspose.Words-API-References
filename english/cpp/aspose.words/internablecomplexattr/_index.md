@@ -1,9 +1,10 @@
 ---
-title: InternableComplexAttr
+title: Aspose::Words::InternableComplexAttr class
+linktitle: InternableComplexAttr
 second_title: Aspose.Words for C++ API Reference
-description: Base class for internable complex attribute. Internable complex attribute should notify parent collection when going to be changed. To learn more, visit the  documentation article.
+description: 'Aspose::Words::InternableComplexAttr class. Base class for internable complex attribute. Internable complex attribute should notify parent collection when going to be changed. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 482
+weight: 38000
 url: /cpp/aspose.words/internablecomplexattr/
 ---
 ## InternableComplexAttr class
@@ -25,4 +26,4 @@ class InternableComplexAttr : public virtual System::Object
 ## See Also
 
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

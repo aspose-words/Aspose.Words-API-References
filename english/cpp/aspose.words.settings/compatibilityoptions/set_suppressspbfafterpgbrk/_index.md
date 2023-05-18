@@ -1,9 +1,10 @@
 ---
-title: set_SuppressSpBfAfterPgBrk
+title: Aspose::Words::Settings::CompatibilityOptions::set_SuppressSpBfAfterPgBrk method
+linktitle: set_SuppressSpBfAfterPgBrk
 second_title: Aspose.Words for C++ API Reference
-description: Do Not Use Space Before On First Line After a Page Break.
+description: 'Aspose::Words::Settings::CompatibilityOptions::set_SuppressSpBfAfterPgBrk method. Do Not Use Space Before On First Line After a Page Break in C++.'
 type: docs
-weight: 1613
+weight: 125000
 url: /cpp/aspose.words.settings/compatibilityoptions/set_suppressspbfafterpgbrk/
 ---
 ## CompatibilityOptions::set_SuppressSpBfAfterPgBrk method
@@ -19,4 +20,4 @@ void Aspose::Words::Settings::CompatibilityOptions::set_SuppressSpBfAfterPgBrk(b
 
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

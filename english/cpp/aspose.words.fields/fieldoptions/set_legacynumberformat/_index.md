@@ -1,9 +1,10 @@
 ---
-title: set_LegacyNumberFormat
+title: Aspose::Words::Fields::FieldOptions::set_LegacyNumberFormat method
+linktitle: set_LegacyNumberFormat
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fields::FieldOptions::get_LegacyNumberFormat.'
+description: 'Aspose::Words::Fields::FieldOptions::set_LegacyNumberFormat method. Setter for Aspose::Words::Fields::FieldOptions::get_LegacyNumberFormat in C++.'
 type: docs
-weight: 495
+weight: 39000
 url: /cpp/aspose.words.fields/fieldoptions/set_legacynumberformat/
 ---
 ## FieldOptions::set_LegacyNumberFormat method
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldOptions::set_LegacyNumberFormat(bool value)
 
 * Class [FieldOptions](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

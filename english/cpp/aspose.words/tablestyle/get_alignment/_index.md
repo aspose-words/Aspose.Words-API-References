@@ -1,9 +1,10 @@
 ---
-title: get_Alignment
+title: Aspose::Words::TableStyle::get_Alignment method
+linktitle: get_Alignment
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the alignment for the table style.
+description: 'Aspose::Words::TableStyle::get_Alignment method. Specifies the alignment for the table style in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words/tablestyle/get_alignment/
 ---
 ## TableStyle::get_Alignment method
@@ -27,7 +28,7 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 
 // Below are two ways of aligning a table horizontally.
 // 1 -  Use the "Alignment" property to align it to a location on the page, such as the center:
-auto tableStyle = System::DynamicCast<TableStyle>(doc->get_Styles()->Add(StyleType::Table, u"MyTableStyle1"));
+auto tableStyle = System::ExplicitCast<TableStyle>(doc->get_Styles()->Add(StyleType::Table, u"MyTableStyle1"));
 tableStyle->set_Alignment(TableAlignment::Center);
 tableStyle->get_Borders()->set_Color(System::Drawing::Color::get_Blue());
 tableStyle->get_Borders()->set_LineStyle(LineStyle::Single);
@@ -42,7 +43,7 @@ table->set_PreferredWidth(PreferredWidth::FromPoints(300));
 table->set_Style(tableStyle);
 
 // 2 -  Use the "LeftIndent" to specify an indent from the left margin of the page:
-tableStyle = System::DynamicCast<TableStyle>(doc->get_Styles()->Add(StyleType::Table, u"MyTableStyle2"));
+tableStyle = System::ExplicitCast<TableStyle>(doc->get_Styles()->Add(StyleType::Table, u"MyTableStyle2"));
 tableStyle->set_LeftIndent(55);
 tableStyle->get_Borders()->set_Color(System::Drawing::Color::get_Green());
 tableStyle->get_Borders()->set_LineStyle(LineStyle::Single);
@@ -63,4 +64,4 @@ doc->Save(ArtifactsDir + u"Table.SetTableAlignment.docx");
 * Enum [TableAlignment](../../../aspose.words.tables/tablealignment/)
 * Class [TableStyle](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

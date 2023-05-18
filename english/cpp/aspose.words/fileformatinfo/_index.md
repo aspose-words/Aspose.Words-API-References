@@ -1,9 +1,10 @@
 ---
-title: FileFormatInfo
+title: Aspose::Words::FileFormatInfo class
+linktitle: FileFormatInfo
 second_title: Aspose.Words for C++ API Reference
-description: Contains data returned by FileFormatUtil document format detection methods. To learn more, visit the  documentation article.
+description: 'Aspose::Words::FileFormatInfo class. Contains data returned by FileFormatUtil document format detection methods. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 339
+weight: 27000
 url: /cpp/aspose.words/fileformatinfo/
 ---
 ## FileFormatInfo class
@@ -79,4 +80,4 @@ ASSERT_EQ(1, DigitalSignatureUtil::LoadSignatures(ArtifactsDir + u"File.DetectDi
 ## See Also
 
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

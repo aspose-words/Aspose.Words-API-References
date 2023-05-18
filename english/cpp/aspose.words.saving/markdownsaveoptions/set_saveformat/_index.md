@@ -1,9 +1,10 @@
 ---
-title: set_SaveFormat
+title: Aspose::Words::Saving::MarkdownSaveOptions::set_SaveFormat method
+linktitle: set_SaveFormat
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the format in which the document will be saved if this save options object is used. Can only be Markdown.
+description: 'Aspose::Words::Saving::MarkdownSaveOptions::set_SaveFormat method. Specifies the format in which the document will be saved if this save options object is used. Can only be Markdown in C++.'
 type: docs
-weight: 183
+weight: 15000
 url: /cpp/aspose.words.saving/markdownsaveoptions/set_saveformat/
 ---
 ## MarkdownSaveOptions::set_SaveFormat method
@@ -20,4 +21,4 @@ void Aspose::Words::Saving::MarkdownSaveOptions::set_SaveFormat(Aspose::Words::S
 * Enum [SaveFormat](../../../aspose.words/saveformat/)
 * Class [MarkdownSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::BookmarkEnd::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::BookmarkEnd class in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words/bookmarkend/is/
 ---
 ## BookmarkEnd::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::BookmarkEnd::Is(const System::TypeInfo &target) cons
 
 * Class [BookmarkEnd](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

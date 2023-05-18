@@ -1,9 +1,10 @@
 ---
-title: get_LocaleId
+title: Aspose::Words::Fields::Field::get_LocaleId method
+linktitle: get_LocaleId
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the LCID of the field.
+description: 'Aspose::Words::Fields::Field::get_LocaleId method. Gets or sets the LCID of the field in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.fields/field/get_localeid/
 ---
 ## Field::get_LocaleId method
@@ -50,4 +51,4 @@ std::cout << "Today's date, as displayed according to the \""
 
 * Class [Field](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

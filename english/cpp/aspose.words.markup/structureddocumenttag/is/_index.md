@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Markup::StructuredDocumentTag::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Markup::StructuredDocumentTag class in C++.'
 type: docs
-weight: 456
+weight: 36000
 url: /cpp/aspose.words.markup/structureddocumenttag/is/
 ---
 ## StructuredDocumentTag::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Markup::StructuredDocumentTag::Is(const System::Type
 
 * Class [StructuredDocumentTag](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

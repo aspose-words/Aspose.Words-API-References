@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Fields::FieldStart::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Fields::FieldStart class in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.fields/fieldstart/is/
 ---
 ## FieldStart::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Fields::FieldStart::Is(const System::TypeInfo &targe
 
 * Class [FieldStart](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: idx_get
+title: Aspose::Words::Markup::CustomXmlSchemaCollection::idx_get method
+linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the element at the specified index.
+description: 'Aspose::Words::Markup::CustomXmlSchemaCollection::idx_get method. Gets or sets the element at the specified index in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words.markup/customxmlschemacollection/idx_get/
 ---
 ## CustomXmlSchemaCollection::idx_get method
@@ -66,4 +67,4 @@ ASSERT_EQ(0, schemas->get_Count());
 
 * Class [CustomXmlSchemaCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_HyperlinkBase
+title: Aspose::Words::Properties::BuiltInDocumentProperties::get_HyperlinkBase method
+linktitle: get_HyperlinkBase
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the base string used for evaluating relative hyperlinks in this document.
+description: 'Aspose::Words::Properties::BuiltInDocumentProperties::get_HyperlinkBase method. Specifies the base string used for evaluating relative hyperlinks in this document in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words.properties/builtindocumentproperties/get_hyperlinkbase/
 ---
 ## BuiltInDocumentProperties::get_HyperlinkBase method
@@ -46,7 +47,7 @@ SharedPtr<BuiltInDocumentProperties> properties = doc->get_BuiltInDocumentProper
 properties->set_HyperlinkBase(MyDir);
 
 ASSERT_TRUE(System::IO::File::Exists(properties->get_HyperlinkBase() +
-                                     (System::DynamicCast<FieldHyperlink>(doc->get_Range()->get_Fields()->idx_get(0)))->get_Address()));
+                                     (System::ExplicitCast<FieldHyperlink>(doc->get_Range()->get_Fields()->idx_get(0)))->get_Address()));
 
 doc->Save(ArtifactsDir + u"DocumentProperties.HyperlinkBase.WorkingLink.docx");
 ```
@@ -55,4 +56,4 @@ doc->Save(ArtifactsDir + u"DocumentProperties.HyperlinkBase.WorkingLink.docx");
 
 * Class [BuiltInDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

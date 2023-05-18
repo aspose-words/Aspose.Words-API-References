@@ -1,9 +1,10 @@
 ---
-title: OdtSaveMeasureUnit
+title: Aspose::Words::Saving::OdtSaveMeasureUnit enum
+linktitle: OdtSaveMeasureUnit
 second_title: Aspose.Words for C++ API Reference
-description: Specified units of measure to apply to measurable document content such as shape, widths and other during saving.
+description: 'Aspose::Words::Saving::OdtSaveMeasureUnit enum. Specified units of measure to apply to measurable document content such as shape, widths and other during saving in C++.'
 type: docs
-weight: 911
+weight: 71000
 url: /cpp/aspose.words.saving/odtsavemeasureunit/
 ---
 ## OdtSaveMeasureUnit enum
@@ -45,4 +46,4 @@ doc->Save(ArtifactsDir + u"OdtSaveOptions.Odt11Schema.odt", saveOptions);
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

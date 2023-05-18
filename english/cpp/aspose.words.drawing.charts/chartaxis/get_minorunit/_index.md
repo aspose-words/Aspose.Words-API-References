@@ -1,9 +1,10 @@
 ---
-title: get_MinorUnit
+title: Aspose::Words::Drawing::Charts::ChartAxis::get_MinorUnit method
+linktitle: get_MinorUnit
 second_title: Aspose.Words for C++ API Reference
-description: Returns or sets the distance between minor tick marks.
+description: 'Aspose::Words::Drawing::Charts::ChartAxis::get_MinorUnit method. Returns or sets the distance between minor tick marks in C++.'
 type: docs
-weight: 209
+weight: 17000
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_minorunit/
 ---
 ## ChartAxis::get_MinorUnit method
@@ -76,4 +77,4 @@ doc->Save(ArtifactsDir + u"Charts.AxisProperties.docx");
 
 * Class [ChartAxis](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: set_RelativeVerticalPosition
+title: Aspose::Words::Drawing::ShapeBase::set_RelativeVerticalPosition method
+linktitle: set_RelativeVerticalPosition
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Drawing::ShapeBase::get_RelativeVerticalPosition.'
+description: 'Aspose::Words::Drawing::ShapeBase::set_RelativeVerticalPosition method. Setter for Aspose::Words::Drawing::ShapeBase::get_RelativeVerticalPosition in C++.'
 type: docs
-weight: 1067
+weight: 83000
 url: /cpp/aspose.words.drawing/shapebase/set_relativeverticalposition/
 ---
 ## ShapeBase::set_RelativeVerticalPosition method
@@ -20,4 +21,4 @@ void Aspose::Words::Drawing::ShapeBase::set_RelativeVerticalPosition(Aspose::Wor
 * Enum [RelativeVerticalPosition](../../relativeverticalposition/)
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

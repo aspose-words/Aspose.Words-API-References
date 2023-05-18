@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Drawing::TextBox::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Drawing::TextBox class in C++.'
 type: docs
-weight: 196
+weight: 16000
 url: /cpp/aspose.words.drawing/textbox/is/
 ---
 ## TextBox::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Drawing::TextBox::Is(const System::TypeInfo &target)
 
 * Class [TextBox](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

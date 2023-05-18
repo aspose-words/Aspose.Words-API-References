@@ -1,9 +1,10 @@
 ---
-title: cbegin
+title: Aspose::Words::Fonts::FontInfoCollection::cbegin method
+linktitle: cbegin
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use cbegin method of Aspose::Words::Fonts::FontInfoCollection class in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.fonts/fontinfocollection/cbegin/
 ---
 ## FontInfoCollection::cbegin method
@@ -20,4 +21,4 @@ const_iterator Aspose::Words::Fonts::FontInfoCollection::cbegin() const noexcept
 * Typedef [const_iterator](../const_iterator/)
 * Class [FontInfoCollection](../)
 * Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

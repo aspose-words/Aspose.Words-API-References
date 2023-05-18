@@ -1,9 +1,10 @@
 ---
-title: MoveNextLogical
+title: Aspose::Words::Layout::LayoutEnumerator::MoveNextLogical method
+linktitle: MoveNextLogical
 second_title: Aspose.Words for C++ API Reference
-description: Moves to the next sibling entity in a logical order. When iterating lines of a paragraph broken across pages this method will move to the next line even if it resides on another page.
+description: 'Aspose::Words::Layout::LayoutEnumerator::MoveNextLogical method. Moves to the next sibling entity in a logical order. When iterating lines of a paragraph broken across pages this method will move to the next line even if it resides on another page in C++.'
 type: docs
-weight: 235
+weight: 19000
 url: /cpp/aspose.words.layout/layoutenumerator/movenextlogical/
 ---
 ## LayoutEnumerator::MoveNextLogical method
@@ -146,4 +147,4 @@ static void PrintCurrentEntity(SharedPtr<LayoutEnumerator> layoutEnumerator, int
 
 * Class [LayoutEnumerator](../)
 * Namespace [Aspose::Words::Layout](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

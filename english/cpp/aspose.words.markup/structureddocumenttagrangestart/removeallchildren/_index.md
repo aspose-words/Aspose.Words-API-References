@@ -1,9 +1,10 @@
 ---
-title: RemoveAllChildren
+title: Aspose::Words::Markup::StructuredDocumentTagRangeStart::RemoveAllChildren method
+linktitle: RemoveAllChildren
 second_title: Aspose.Words for C++ API Reference
-description: Removes all the nodes between this range start node and the range end node.
+description: 'Aspose::Words::Markup::StructuredDocumentTagRangeStart::RemoveAllChildren method. Removes all the nodes between this range start node and the range end node in C++.'
 type: docs
-weight: 326
+weight: 26000
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/removeallchildren/
 ---
 ## StructuredDocumentTagRangeStart::RemoveAllChildren method
@@ -35,10 +36,10 @@ void SdtRangeExtendedMethods()
     // Removes ranged structured document tag, but keeps content inside.
     rangeStart->RemoveSelfOnly();
 
-    rangeStart = System::DynamicCast<StructuredDocumentTagRangeStart>(doc->GetChild(NodeType::StructuredDocumentTagRangeStart, 0, false));
+    rangeStart = System::ExplicitCast<StructuredDocumentTagRangeStart>(doc->GetChild(NodeType::StructuredDocumentTagRangeStart, 0, false));
     ASPOSE_ASSERT_EQ(nullptr, rangeStart);
 
-    auto rangeEnd = System::DynamicCast<StructuredDocumentTagRangeEnd>(doc->GetChild(NodeType::StructuredDocumentTagRangeEnd, 0, false));
+    auto rangeEnd = System::ExplicitCast<StructuredDocumentTagRangeEnd>(doc->GetChild(NodeType::StructuredDocumentTagRangeEnd, 0, false));
 
     ASPOSE_ASSERT_EQ(nullptr, rangeEnd);
     ASSERT_EQ(u"StructuredDocumentTag element", doc->GetText().Trim());
@@ -70,4 +71,4 @@ void InsertStructuredDocumentTagRanges(SharedPtr<Document> doc, SharedPtr<Struct
 
 * Class [StructuredDocumentTagRangeStart](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Rendering::ThumbnailGeneratingOptions::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Rendering::ThumbnailGeneratingOptions class in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.rendering/thumbnailgeneratingoptions/is/
 ---
 ## ThumbnailGeneratingOptions::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Rendering::ThumbnailGeneratingOptions::Is(const Syst
 
 * Class [ThumbnailGeneratingOptions](../)
 * Namespace [Aspose::Words::Rendering](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

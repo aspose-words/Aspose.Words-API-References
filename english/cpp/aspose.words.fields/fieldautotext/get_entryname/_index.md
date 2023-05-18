@@ -1,9 +1,10 @@
 ---
-title: get_EntryName
+title: Aspose::Words::Fields::FieldAutoText::get_EntryName method
+linktitle: get_EntryName
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the name of the AutoText entry.
+description: 'Aspose::Words::Fields::FieldAutoText::get_EntryName method. Gets or sets the name of the AutoText entry in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fields/fieldautotext/get_entryname/
 ---
 ## FieldAutoText::get_EntryName method
@@ -49,13 +50,13 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 
 // Below are two ways to use fields to display the contents of our building block.
 // 1 -  Using an AUTOTEXT field:
-auto fieldAutoText = System::DynamicCast<FieldAutoText>(builder->InsertField(FieldType::FieldAutoText, true));
+auto fieldAutoText = System::ExplicitCast<FieldAutoText>(builder->InsertField(FieldType::FieldAutoText, true));
 fieldAutoText->set_EntryName(u"MyBlock");
 
 ASSERT_EQ(u" AUTOTEXT  MyBlock", fieldAutoText->GetFieldCode());
 
 // 2 -  Using a GLOSSARY field:
-auto fieldGlossary = System::DynamicCast<FieldGlossary>(builder->InsertField(FieldType::FieldGlossary, true));
+auto fieldGlossary = System::ExplicitCast<FieldGlossary>(builder->InsertField(FieldType::FieldGlossary, true));
 fieldGlossary->set_EntryName(u"MyBlock");
 
 ASSERT_EQ(u" GLOSSARY  MyBlock", fieldGlossary->GetFieldCode());
@@ -68,4 +69,4 @@ doc->Save(ArtifactsDir + u"Field.AUTOTEXT.GLOSSARY.dotx");
 
 * Class [FieldAutoText](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Themes::ThemeFonts::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Themes::ThemeFonts class in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.themes/themefonts/is/
 ---
 ## ThemeFonts::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Themes::ThemeFonts::Is(const System::TypeInfo &targe
 
 * Class [ThemeFonts](../)
 * Namespace [Aspose::Words::Themes](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

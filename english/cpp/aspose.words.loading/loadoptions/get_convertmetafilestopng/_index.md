@@ -1,9 +1,10 @@
 ---
-title: get_ConvertMetafilesToPng
+title: Aspose::Words::Loading::LoadOptions::get_ConvertMetafilesToPng method
+linktitle: get_ConvertMetafilesToPng
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets whether to convert metafile (Wmf or Emf) images to Png image format.
+description: 'Aspose::Words::Loading::LoadOptions::get_ConvertMetafilesToPng method. Gets or sets whether to convert metafile (Wmf or Emf) images to Png image format in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.loading/loadoptions/get_convertmetafilestopng/
 ---
 ## LoadOptions::get_ConvertMetafilesToPng method
@@ -33,7 +34,7 @@ doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild(shape);
 
 doc->Save(ArtifactsDir + u"Image.CreateImageDirectly.docx");
 
-shape = System::DynamicCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
+shape = System::ExplicitCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
 
 TestUtil::VerifyImageInShape(1600, 1600, ImageType::Wmf, shape);
 
@@ -41,11 +42,11 @@ auto loadOptions = MakeObject<LoadOptions>();
 loadOptions->set_ConvertMetafilesToPng(true);
 
 doc = MakeObject<Document>(ArtifactsDir + u"Image.CreateImageDirectly.docx", loadOptions);
-shape = System::DynamicCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
+shape = System::ExplicitCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
 ```
 
 ## See Also
 
 * Class [LoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

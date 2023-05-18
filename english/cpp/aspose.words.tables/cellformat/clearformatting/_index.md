@@ -1,9 +1,10 @@
 ---
-title: ClearFormatting
+title: Aspose::Words::Tables::CellFormat::ClearFormatting method
+linktitle: ClearFormatting
 second_title: Aspose.Words for C++ API Reference
-description: Resets to default cell formatting. Does not change the width of the cell.
+description: 'Aspose::Words::Tables::CellFormat::ClearFormatting method. Resets to default cell formatting. Does not change the width of the cell in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.tables/cellformat/clearformatting/
 ---
 ## CellFormat::ClearFormatting method
@@ -29,7 +30,7 @@ auto doc = MakeObject<Document>(MyDir + u"Tables.docx");
 SharedPtr<Table> firstTable = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
 
 // 2 -  Using the "GetChild" method:
-auto secondTable = System::DynamicCast<Table>(doc->GetChild(NodeType::Table, 1, true));
+auto secondTable = System::ExplicitCast<Table>(doc->GetChild(NodeType::Table, 1, true));
 
 // Append all rows from the current table to the next.
 while (secondTable->get_HasChildNodes())
@@ -47,4 +48,4 @@ doc->Save(ArtifactsDir + u"Table.CombineTables.docx");
 
 * Class [CellFormat](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

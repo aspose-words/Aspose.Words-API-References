@@ -1,9 +1,10 @@
 ---
-title: FieldToa
+title: Aspose::Words::Fields::FieldToa class
+linktitle: FieldToa
 second_title: Aspose.Words for C++ API Reference
-description: Implements the TOA field. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Fields::FieldToa class. Implements the TOA field. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 1340
+weight: 104000
 url: /cpp/aspose.words.fields/fieldtoa/
 ---
 ## FieldToa class
@@ -28,7 +29,7 @@ class FieldToa : public Aspose::Words::Fields::Field,
 | [get_FieldEnd](../field/get_fieldend/)() const | Gets the node that represents the field end. |
 | [get_FieldStart](../field/get_fieldstart/)() const | Gets the node that represents the start of the field. |
 | [get_Format](../field/get_format/)() | Gets a [FieldFormat](../fieldformat/) object that provides typed access to field's formatting. |
-| [get_IsDirty](../field/get_isdirty/)() | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [get_IsDirty](../field/get_isdirty/)() | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [get_IsLocked](../field/get_islocked/)() | Gets or sets whether the field is locked (should not recalculate its result). |
 | [get_LocaleId](../field/get_localeid/)() | Gets or sets the LCID of the field. |
 | [get_PageNumberListSeparator](./get_pagenumberlistseparator/)() | Gets or sets the character sequence that is used to separate two page numbers in a page number list. |
@@ -50,7 +51,7 @@ class FieldToa : public Aspose::Words::Fields::Field,
 | [set_BookmarkName](./set_bookmarkname/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldToa::get_BookmarkName](./get_bookmarkname/). |
 | [set_EntryCategory](./set_entrycategory/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldToa::get_EntryCategory](./get_entrycategory/). |
 | [set_EntrySeparator](./set_entryseparator/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldToa::get_EntrySeparator](./get_entryseparator/). |
-| [set_IsDirty](../field/set_isdirty/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsDirty](../field/get_isdirty/). |
+| [set_IsDirty](../field/set_isdirty/)(bool) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [set_IsLocked](../field/set_islocked/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsLocked](../field/get_islocked/). |
 | [set_LocaleId](../field/set_localeid/)(int32_t) | Setter for [Aspose::Words::Fields::Field::get_LocaleId](../field/get_localeid/). |
 | [set_PageNumberListSeparator](./set_pagenumberlistseparator/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldToa::get_PageNumberListSeparator](./get_pagenumberlistseparator/). |
@@ -79,7 +80,7 @@ void FieldTOA_()
 
     // Insert a TOA field, which will create an entry for each TA field in the document,
     // displaying long citations and page numbers for each entry.
-    auto fieldToa = System::DynamicCast<FieldToa>(builder->InsertField(FieldType::FieldTOA, false));
+    auto fieldToa = System::ExplicitCast<FieldToa>(builder->InsertField(FieldType::FieldTOA, false));
 
     // Set the entry category for our table. This TOA will now only include TA fields
     // that have a matching value in their EntryCategory property.
@@ -177,7 +178,7 @@ void FieldTOA_()
 
 static SharedPtr<FieldTA> InsertToaEntry(SharedPtr<DocumentBuilder> builder, String entryCategory, String longCitation)
 {
-    auto field = System::DynamicCast<FieldTA>(builder->InsertField(FieldType::FieldTOAEntry, false));
+    auto field = System::ExplicitCast<FieldTA>(builder->InsertField(FieldType::FieldTOAEntry, false));
     field->set_EntryCategory(entryCategory);
     field->set_LongCitation(longCitation);
 
@@ -191,4 +192,4 @@ static SharedPtr<FieldTA> InsertToaEntry(SharedPtr<DocumentBuilder> builder, Str
 
 * Class [Field](../field/)
 * Namespace [Aspose::Words::Fields](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

@@ -1,9 +1,10 @@
 ---
-title: get_LanguageId
+title: Aspose::Words::Fields::FieldAddressBlock::get_LanguageId method
+linktitle: get_LanguageId
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the language ID used to format the address.
+description: 'Aspose::Words::Fields::FieldAddressBlock::get_LanguageId method. Gets or sets the language ID used to format the address in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.fields/fieldaddressblock/get_languageid/
 ---
 ## FieldAddressBlock::get_LanguageId method
@@ -25,7 +26,7 @@ Shows how to insert an ADDRESSBLOCK field.
 auto doc = MakeObject<Document>();
 auto builder = MakeObject<DocumentBuilder>(doc);
 
-auto field = System::DynamicCast<FieldAddressBlock>(builder->InsertField(FieldType::FieldAddressBlock, true));
+auto field = System::ExplicitCast<FieldAddressBlock>(builder->InsertField(FieldType::FieldAddressBlock, true));
 
 ASSERT_EQ(u" ADDRESSBLOCK ", field->GetFieldCode());
 
@@ -49,4 +50,4 @@ ASSERT_EQ(
 
 * Class [FieldAddressBlock](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

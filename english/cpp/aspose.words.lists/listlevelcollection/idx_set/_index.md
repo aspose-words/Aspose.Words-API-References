@@ -1,9 +1,10 @@
 ---
-title: idx_set
+title: Aspose::Words::Lists::ListLevelCollection::idx_set method
+linktitle: idx_set
 second_title: Aspose.Words for C++ API Reference
-description: Gets a list level by index.
+description: 'Aspose::Words::Lists::ListLevelCollection::idx_set method. Gets a list level by index in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words.lists/listlevelcollection/idx_set/
 ---
 ## ListLevelCollection::idx_set method
@@ -134,4 +135,4 @@ builder->get_Document()->Save(ArtifactsDir + u"Lists.CreateAndUseListStyle.docx"
 * Class [ListLevel](../../listlevel/)
 * Class [ListLevelCollection](../)
 * Namespace [Aspose::Words::Lists](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

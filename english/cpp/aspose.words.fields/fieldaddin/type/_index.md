@@ -1,9 +1,10 @@
 ---
-title: Type
+title: Aspose::Words::Fields::FieldAddIn::Type method
+linktitle: Type
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Type method of Aspose::Words::Fields::FieldAddIn class in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words.fields/fieldaddin/type/
 ---
 ## FieldAddIn::Type method
@@ -19,4 +20,4 @@ static const System::TypeInfo & Aspose::Words::Fields::FieldAddIn::Type()
 
 * Class [FieldAddIn](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

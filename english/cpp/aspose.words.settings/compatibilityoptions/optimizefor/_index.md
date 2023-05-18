@@ -1,9 +1,10 @@
 ---
-title: OptimizeFor
+title: Aspose::Words::Settings::CompatibilityOptions::OptimizeFor method
+linktitle: OptimizeFor
 second_title: Aspose.Words for C++ API Reference
-description: Allows to optimize the document contents as well as default Aspose.Words behavior to a particular versions of MS Word. Use this method to prevent MS Word from displaying "Compatibility mode" ribbon upon document loading. (Note that you may also need to set the Compliance property to Iso29500_2008_Transitional or higher.)
+description: 'Aspose::Words::Settings::CompatibilityOptions::OptimizeFor method. Allows to optimize the document contents as well as default Aspose.Words behavior to a particular versions of MS Word. Use this method to prevent MS Word from displaying "Compatibility mode" ribbon upon document loading. (Note that you may also need to set the Compliance property to Iso29500_2008_Transitional or higher.) in C++.'
 type: docs
-weight: 963
+weight: 75000
 url: /cpp/aspose.words.settings/compatibilityoptions/optimizefor/
 ---
 ## CompatibilityOptions::OptimizeFor method
@@ -30,7 +31,7 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 doc->get_CompatibilityOptions()->OptimizeFor(MsWordVersion::Word2003);
 builder->InsertImage(ImageDir + u"Transparent background logo.png");
 
-ASSERT_EQ(ShapeMarkupLanguage::Vml, (System::DynamicCast<Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_MarkupLanguage());
+ASSERT_EQ(ShapeMarkupLanguage::Vml, (System::ExplicitCast<Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_MarkupLanguage());
 
 // The "ISO/IEC 29500:2008" OOXML standard does not support VML shapes.
 // If we set the "Compliance" property of the SaveOptions object to "OoxmlCompliance.Iso29500_2008_Strict",
@@ -44,7 +45,7 @@ doc->Save(ArtifactsDir + u"OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
 // Our saved document defines the shape using DML to adhere to the "ISO/IEC 29500:2008" OOXML standard.
 doc = MakeObject<Document>(ArtifactsDir + u"OoxmlSaveOptions.Iso29500Strict.docx");
 
-ASSERT_EQ(ShapeMarkupLanguage::Dml, (System::DynamicCast<Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_MarkupLanguage());
+ASSERT_EQ(ShapeMarkupLanguage::Dml, (System::ExplicitCast<Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_MarkupLanguage());
 ```
 
 
@@ -76,4 +77,4 @@ doc->Save(ArtifactsDir + u"Shape.VerticalAnchor.docx");
 * Enum [MsWordVersion](../../mswordversion/)
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

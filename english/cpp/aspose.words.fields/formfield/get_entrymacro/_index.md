@@ -1,9 +1,10 @@
 ---
-title: get_EntryMacro
+title: Aspose::Words::Fields::FormField::get_EntryMacro method
+linktitle: get_EntryMacro
 second_title: Aspose.Words for C++ API Reference
-description: Returns or sets an entry macro name for the form field.
+description: 'Aspose::Words::Fields::FormField::get_EntryMacro method. Returns or sets an entry macro name for the form field in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words.fields/formfield/get_entrymacro/
 ---
 ## FormField::get_EntryMacro method
@@ -159,4 +160,4 @@ private:
 
 * Class [FormField](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

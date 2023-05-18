@@ -1,9 +1,10 @@
 ---
-title: get_PageNumberListSeparator
+title: Aspose::Words::Fields::FieldToa::get_PageNumberListSeparator method
+linktitle: get_PageNumberListSeparator
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the character sequence that is used to separate two page numbers in a page number list.
+description: 'Aspose::Words::Fields::FieldToa::get_PageNumberListSeparator method. Gets or sets the character sequence that is used to separate two page numbers in a page number list in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.fields/fieldtoa/get_pagenumberlistseparator/
 ---
 ## FieldToa::get_PageNumberListSeparator method
@@ -29,7 +30,7 @@ void FieldTOA_()
 
     // Insert a TOA field, which will create an entry for each TA field in the document,
     // displaying long citations and page numbers for each entry.
-    auto fieldToa = System::DynamicCast<FieldToa>(builder->InsertField(FieldType::FieldTOA, false));
+    auto fieldToa = System::ExplicitCast<FieldToa>(builder->InsertField(FieldType::FieldTOA, false));
 
     // Set the entry category for our table. This TOA will now only include TA fields
     // that have a matching value in their EntryCategory property.
@@ -127,7 +128,7 @@ void FieldTOA_()
 
 static SharedPtr<FieldTA> InsertToaEntry(SharedPtr<DocumentBuilder> builder, String entryCategory, String longCitation)
 {
-    auto field = System::DynamicCast<FieldTA>(builder->InsertField(FieldType::FieldTOAEntry, false));
+    auto field = System::ExplicitCast<FieldTA>(builder->InsertField(FieldType::FieldTOAEntry, false));
     field->set_EntryCategory(entryCategory);
     field->set_LongCitation(longCitation);
 
@@ -141,4 +142,4 @@ static SharedPtr<FieldTA> InsertToaEntry(SharedPtr<DocumentBuilder> builder, Str
 
 * Class [FieldToa](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

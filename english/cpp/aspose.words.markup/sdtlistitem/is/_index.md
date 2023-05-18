@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Markup::SdtListItem::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Markup::SdtListItem class in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.markup/sdtlistitem/is/
 ---
 ## SdtListItem::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Markup::SdtListItem::Is(const System::TypeInfo &targ
 
 * Class [SdtListItem](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

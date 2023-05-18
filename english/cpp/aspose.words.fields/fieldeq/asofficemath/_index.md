@@ -1,9 +1,10 @@
 ---
-title: AsOfficeMath
+title: Aspose::Words::Fields::FieldEQ::AsOfficeMath method
+linktitle: AsOfficeMath
 second_title: Aspose.Words for C++ API Reference
-description: Returns Office Math object corresponded to the EQ field.
+description: 'Aspose::Words::Fields::FieldEQ::AsOfficeMath method. Returns Office Math object corresponded to the EQ field in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fields/fieldeq/asofficemath/
 ---
 ## FieldEQ::AsOfficeMath method
@@ -25,4 +26,4 @@ Returns **null** if field code is empty or invalid, otherwise an [OfficeMath](..
 * Class [OfficeMath](../../../aspose.words.math/officemath/)
 * Class [FieldEQ](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

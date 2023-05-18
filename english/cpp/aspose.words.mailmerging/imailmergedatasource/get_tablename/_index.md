@@ -1,9 +1,10 @@
 ---
-title: get_TableName
+title: Aspose::Words::MailMerging::IMailMergeDataSource::get_TableName method
+linktitle: get_TableName
 second_title: Aspose.Words for C++ API Reference
-description: Returns the name of the data source.
+description: 'Aspose::Words::MailMerging::IMailMergeDataSource::get_TableName method. Returns the name of the data source in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.mailmerging/imailmergedatasource/get_tablename/
 ---
 ## IMailMergeDataSource::get_TableName method
@@ -152,4 +153,4 @@ private:
 
 * Interface [IMailMergeDataSource](../)
 * Namespace [Aspose::Words::MailMerging](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

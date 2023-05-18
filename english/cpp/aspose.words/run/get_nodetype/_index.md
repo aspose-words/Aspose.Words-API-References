@@ -1,9 +1,10 @@
 ---
-title: get_NodeType
+title: Aspose::Words::Run::get_NodeType method
+linktitle: get_NodeType
 second_title: Aspose.Words for C++ API Reference
-description: Returns Run.
+description: 'Aspose::Words::Run::get_NodeType method. Returns Run in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words/run/get_nodetype/
 ---
 ## Run::get_NodeType method
@@ -43,7 +44,7 @@ void TraverseAllNodes(SharedPtr<CompositeNode> parentNode, int depth)
         if (childNode->get_IsComposite())
         {
             std::cout << std::endl;
-            TraverseAllNodes(System::DynamicCast<CompositeNode>(childNode), depth + 1);
+            TraverseAllNodes(System::ExplicitCast<CompositeNode>(childNode), depth + 1);
         }
         else if (System::ObjectExt::Is<Inline>(childNode))
         {
@@ -62,4 +63,4 @@ void TraverseAllNodes(SharedPtr<CompositeNode> parentNode, int depth)
 * Enum [NodeType](../../nodetype/)
 * Class [Run](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

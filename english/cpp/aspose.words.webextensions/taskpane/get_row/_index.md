@@ -1,9 +1,10 @@
 ---
-title: get_Row
+title: Aspose::Words::WebExtensions::TaskPane::get_Row method
+linktitle: get_Row
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the index, enumerating from the outside to the inside, of this task pane among other persisted task panes docked in the same default location.
+description: 'Aspose::Words::WebExtensions::TaskPane::get_Row method. Specifies the index, enumerating from the outside to the inside, of this task pane among other persisted task panes docked in the same default location in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.webextensions/taskpane/get_row/
 ---
 ## TaskPane::get_Row method
@@ -63,4 +64,4 @@ ASSERT_EQ(0, doc->get_WebExtensionTaskPanes()->get_Count());
 
 * Class [TaskPane](../)
 * Namespace [Aspose::Words::WebExtensions](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

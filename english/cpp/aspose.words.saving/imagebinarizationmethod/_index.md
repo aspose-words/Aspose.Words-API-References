@@ -1,9 +1,10 @@
 ---
-title: ImageBinarizationMethod
+title: Aspose::Words::Saving::ImageBinarizationMethod enum
+linktitle: ImageBinarizationMethod
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the method used to binarize image.
+description: 'Aspose::Words::Saving::ImageBinarizationMethod enum. Specifies the method used to binarize image in C++.'
 type: docs
-weight: 807
+weight: 63000
 url: /cpp/aspose.words.saving/imagebinarizationmethod/
 ---
 ## ImageBinarizationMethod enum
@@ -51,4 +52,4 @@ doc->Save(ArtifactsDir + u"ImageSaveOptions.FloydSteinbergDithering.tiff", optio
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

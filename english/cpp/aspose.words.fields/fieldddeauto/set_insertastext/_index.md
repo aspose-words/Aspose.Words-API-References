@@ -1,9 +1,10 @@
 ---
-title: set_InsertAsText
+title: Aspose::Words::Fields::FieldDdeAuto::set_InsertAsText method
+linktitle: set_InsertAsText
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fields::FieldDdeAuto::get_InsertAsText.'
+description: 'Aspose::Words::Fields::FieldDdeAuto::set_InsertAsText method. Setter for Aspose::Words::Fields::FieldDdeAuto::get_InsertAsText in C++.'
 type: docs
-weight: 222
+weight: 18000
 url: /cpp/aspose.words.fields/fieldddeauto/set_insertastext/
 ---
 ## FieldDdeAuto::set_InsertAsText method
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldDdeAuto::set_InsertAsText(bool value)
 
 * Class [FieldDdeAuto](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

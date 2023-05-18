@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Fields::IFieldUpdatingProgressCallback::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Fields::IFieldUpdatingProgressCallback class in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.fields/ifieldupdatingprogresscallback/is/
 ---
 ## IFieldUpdatingProgressCallback::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Fields::IFieldUpdatingProgressCallback::Is(const Sys
 
 * Interface [IFieldUpdatingProgressCallback](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

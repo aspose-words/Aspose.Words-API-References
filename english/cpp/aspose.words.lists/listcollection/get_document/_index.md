@@ -1,9 +1,10 @@
 ---
-title: get_Document
+title: Aspose::Words::Lists::ListCollection::get_Document method
+linktitle: get_Document
 second_title: Aspose.Words for C++ API Reference
-description: Gets the owner document.
+description: 'Aspose::Words::Lists::ListCollection::get_Document method. Gets the owner document in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.lists/listcollection/get_document/
 ---
 ## ListCollection::get_Document method
@@ -43,4 +44,4 @@ std::cout << (String(u"List is the same by ListId: ") + (System::ObjectExt::Equa
 * Class [DocumentBase](../../../aspose.words/documentbase/)
 * Class [ListCollection](../)
 * Namespace [Aspose::Words::Lists](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: VisitRun
+title: Aspose::Words::DocumentVisitor::VisitRun method
+linktitle: VisitRun
 second_title: Aspose.Words for C++ API Reference
-description: Called when a run of text in the is encountered.
+description: 'Aspose::Words::DocumentVisitor::VisitRun method. Called when a run of text in the is encountered in C++.'
 type: docs
-weight: 495
+weight: 39000
 url: /cpp/aspose.words/documentvisitor/visitrun/
 ---
 ## DocumentVisitor::VisitRun method
@@ -164,4 +165,4 @@ private:
 * Class [Run](../../run/)
 * Class [DocumentVisitor](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

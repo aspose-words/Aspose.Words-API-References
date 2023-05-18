@@ -1,9 +1,10 @@
 ---
-title: get_MajorTickMark
+title: Aspose::Words::Drawing::Charts::ChartAxis::get_MajorTickMark method
+linktitle: get_MajorTickMark
 second_title: Aspose.Words for C++ API Reference
-description: Returns or sets the major tick marks.
+description: 'Aspose::Words::Drawing::Charts::ChartAxis::get_MajorTickMark method. Returns or sets the major tick marks in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_majortickmark/
 ---
 ## ChartAxis::get_MajorTickMark method
@@ -71,4 +72,4 @@ doc->Save(ArtifactsDir + u"Charts.AxisProperties.docx");
 * Enum [AxisTickMark](../../axistickmark/)
 * Class [ChartAxis](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

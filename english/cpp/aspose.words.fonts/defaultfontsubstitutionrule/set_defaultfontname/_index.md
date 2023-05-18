@@ -1,9 +1,10 @@
 ---
-title: set_DefaultFontName
+title: Aspose::Words::Fonts::DefaultFontSubstitutionRule::set_DefaultFontName method
+linktitle: set_DefaultFontName
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fonts::DefaultFontSubstitutionRule::get_DefaultFontName.'
+description: 'Aspose::Words::Fonts::DefaultFontSubstitutionRule::set_DefaultFontName method. Setter for Aspose::Words::Fonts::DefaultFontSubstitutionRule::get_DefaultFontName in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.fonts/defaultfontsubstitutionrule/set_defaultfontname/
 ---
 ## DefaultFontSubstitutionRule::set_DefaultFontName method
@@ -19,4 +20,4 @@ void Aspose::Words::Fonts::DefaultFontSubstitutionRule::set_DefaultFontName(cons
 
 * Class [DefaultFontSubstitutionRule](../)
 * Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

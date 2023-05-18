@@ -1,9 +1,10 @@
 ---
-title: set_RevisionBarsColor
+title: Aspose::Words::Layout::RevisionOptions::set_RevisionBarsColor method
+linktitle: set_RevisionBarsColor
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Layout::RevisionOptions::get_RevisionBarsColor.'
+description: 'Aspose::Words::Layout::RevisionOptions::set_RevisionBarsColor method. Setter for Aspose::Words::Layout::RevisionOptions::get_RevisionBarsColor in C++.'
 type: docs
-weight: 443
+weight: 35000
 url: /cpp/aspose.words.layout/revisionoptions/set_revisionbarscolor/
 ---
 ## RevisionOptions::set_RevisionBarsColor method
@@ -20,4 +21,4 @@ void Aspose::Words::Layout::RevisionOptions::set_RevisionBarsColor(Aspose::Words
 * Enum [RevisionColor](../../revisioncolor/)
 * Class [RevisionOptions](../)
 * Namespace [Aspose::Words::Layout](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: Add
+title: Aspose::Words::Markup::CustomXmlSchemaCollection::Add method
+linktitle: Add
 second_title: Aspose.Words for C++ API Reference
-description: Adds an item to the collection.
+description: 'Aspose::Words::Markup::CustomXmlSchemaCollection::Add method. Adds an item to the collection in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.markup/customxmlschemacollection/add/
 ---
 ## CustomXmlSchemaCollection::Add method
@@ -70,4 +71,4 @@ ASSERT_EQ(0, schemas->get_Count());
 
 * Class [CustomXmlSchemaCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

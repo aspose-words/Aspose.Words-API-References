@@ -1,9 +1,10 @@
 ---
-title: get_DmlEffectsRenderingMode
+title: Aspose::Words::Saving::PdfSaveOptions::get_DmlEffectsRenderingMode method
+linktitle: get_DmlEffectsRenderingMode
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets a value determining how DrawingML effects are rendered.
+description: 'Aspose::Words::Saving::PdfSaveOptions::get_DmlEffectsRenderingMode method. Gets or sets a value determining how DrawingML effects are rendered in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words.saving/pdfsaveoptions/get_dmleffectsrenderingmode/
 ---
 ## PdfSaveOptions::get_DmlEffectsRenderingMode method
@@ -53,4 +54,4 @@ doc->Save(ArtifactsDir + u"PdfSaveOptions.DrawingMLEffects.pdf", options);
 * Enum [DmlEffectsRenderingMode](../../dmleffectsrenderingmode/)
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

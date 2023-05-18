@@ -1,9 +1,10 @@
 ---
-title: StructuredDocumentTagRangeEnd
+title: Aspose::Words::Markup::StructuredDocumentTagRangeEnd class
+linktitle: StructuredDocumentTagRangeEnd
 second_title: Aspose.Words for C++ API Reference
-description: Represents an end of ranged structured document tag which accepts multi-sections content. See also StructuredDocumentTagRangeStart node. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Markup::StructuredDocumentTagRangeEnd class. Represents an end of ranged structured document tag which accepts multi-sections content. See also StructuredDocumentTagRangeStart node. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words.markup/structureddocumenttagrangeend/
 ---
 ## StructuredDocumentTagRangeEnd class
@@ -54,9 +55,9 @@ Shows how to get the properties of multi-section structured document tags.
 auto doc = MakeObject<Document>(MyDir + u"Multi-section structured document tags.docx");
 
 auto rangeStartTag =
-    System::DynamicCast_noexcept<StructuredDocumentTagRangeStart>(doc->GetChildNodes(NodeType::StructuredDocumentTagRangeStart, true)->idx_get(0));
+    System::AsCast<StructuredDocumentTagRangeStart>(doc->GetChildNodes(NodeType::StructuredDocumentTagRangeStart, true)->idx_get(0));
 auto rangeEndTag =
-    System::DynamicCast_noexcept<StructuredDocumentTagRangeEnd>(doc->GetChildNodes(NodeType::StructuredDocumentTagRangeEnd, true)->idx_get(0));
+    System::AsCast<StructuredDocumentTagRangeEnd>(doc->GetChildNodes(NodeType::StructuredDocumentTagRangeEnd, true)->idx_get(0));
 
 std::cout << "StructuredDocumentTagRangeStart values:" << std::endl;
 std::cout << "\t|Id: " << rangeStartTag->get_Id() << std::endl;
@@ -81,4 +82,4 @@ std::cout << String::Format(u"\t|NodeType: {0}", rangeEndTag->get_NodeType()) <<
 
 * Class [Node](../../aspose.words/node/)
 * Namespace [Aspose::Words::Markup](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

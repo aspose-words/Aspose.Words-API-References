@@ -1,9 +1,10 @@
 ---
-title: set_DisplayText
+title: Aspose::Words::Fields::FieldMacroButton::set_DisplayText method
+linktitle: set_DisplayText
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fields::FieldMacroButton::get_DisplayText.'
+description: 'Aspose::Words::Fields::FieldMacroButton::set_DisplayText method. Setter for Aspose::Words::Fields::FieldMacroButton::get_DisplayText in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.fields/fieldmacrobutton/set_displaytext/
 ---
 ## FieldMacroButton::set_DisplayText method
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldMacroButton::set_DisplayText(const System::Stri
 
 * Class [FieldMacroButton](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

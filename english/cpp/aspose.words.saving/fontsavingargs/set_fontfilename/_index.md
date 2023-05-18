@@ -1,9 +1,10 @@
 ---
-title: set_FontFileName
+title: Aspose::Words::Saving::FontSavingArgs::set_FontFileName method
+linktitle: set_FontFileName
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::FontSavingArgs::get_FontFileName.'
+description: 'Aspose::Words::Saving::FontSavingArgs::set_FontFileName method. Setter for Aspose::Words::Saving::FontSavingArgs::get_FontFileName in C++.'
 type: docs
-weight: 183
+weight: 15000
 url: /cpp/aspose.words.saving/fontsavingargs/set_fontfilename/
 ---
 ## FontSavingArgs::set_FontFileName method
@@ -19,4 +20,4 @@ void Aspose::Words::Saving::FontSavingArgs::set_FontFileName(const System::Strin
 
 * Class [FontSavingArgs](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_ActiveRecord
+title: Aspose::Words::Settings::MailMergeSettings::get_ActiveRecord method
+linktitle: get_ActiveRecord
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the one-based index of the record from the data source which shall be displayed in Microsoft Word. The default value is 1.
+description: 'Aspose::Words::Settings::MailMergeSettings::get_ActiveRecord method. Specifies the one-based index of the record from the data source which shall be displayed in Microsoft Word. The default value is 1 in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.settings/mailmergesettings/get_activerecord/
 ---
 ## MailMergeSettings::get_ActiveRecord method
@@ -19,4 +20,4 @@ int32_t Aspose::Words::Settings::MailMergeSettings::get_ActiveRecord() const
 
 * Class [MailMergeSettings](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

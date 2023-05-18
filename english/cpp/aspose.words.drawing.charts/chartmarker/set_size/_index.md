@@ -1,9 +1,10 @@
 ---
-title: set_Size
+title: Aspose::Words::Drawing::Charts::ChartMarker::set_Size method
+linktitle: set_Size
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Drawing::Charts::ChartMarker::get_Size.'
+description: 'Aspose::Words::Drawing::Charts::ChartMarker::set_Size method. Setter for Aspose::Words::Drawing::Charts::ChartMarker::get_Size in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.drawing.charts/chartmarker/set_size/
 ---
 ## ChartMarker::set_Size method
@@ -19,4 +20,4 @@ void Aspose::Words::Drawing::Charts::ChartMarker::set_Size(int32_t value)
 
 * Class [ChartMarker](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

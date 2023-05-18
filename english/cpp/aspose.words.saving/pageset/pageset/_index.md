@@ -1,9 +1,10 @@
 ---
-title: PageSet
+title: Aspose::Words::Saving::PageSet::PageSet constructor
+linktitle: PageSet
 second_title: Aspose.Words for C++ API Reference
-description: Creates a page set based on exact page indices.
+description: 'Aspose::Words::Saving::PageSet::PageSet constructor. Creates a page set based on exact page indices in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.saving/pageset/pageset/
 ---
 ## PageSet::PageSet(const System::ArrayPtr\<int32_t\>\&) constructor
@@ -51,7 +52,7 @@ doc->Save(ArtifactsDir + u"XpsSaveOptions.ExportExactPages.xps", xpsOptions);
 
 * Class [PageSet](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## PageSet::PageSet(const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Saving::PageRange\>\>\&) constructor
 
 
@@ -87,7 +88,7 @@ doc->Save(ArtifactsDir + u"ImageSaveOptions.ExportVariousPageRanges.tiff", image
 * Class [PageRange](../../pagerange/)
 * Class [PageSet](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## PageSet::PageSet(int32_t) constructor
 
 
@@ -106,4 +107,4 @@ Aspose::Words::Saving::PageSet::PageSet(int32_t page)
 
 * Class [PageSet](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

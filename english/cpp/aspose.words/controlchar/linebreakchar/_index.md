@@ -1,9 +1,10 @@
 ---
-title: LineBreakChar
+title: Aspose::Words::ControlChar::LineBreakChar field
+linktitle: LineBreakChar
 second_title: Aspose.Words for C++ API Reference
-description: 'Line break character: (char)11 or "\v".'
+description: 'Aspose::Words::ControlChar::LineBreakChar field. Line break character: (char)11 or "\v" in C++.'
 type: docs
-weight: 248
+weight: 20000
 url: /cpp/aspose.words/controlchar/linebreakchar/
 ---
 ## LineBreakChar field
@@ -90,4 +91,4 @@ ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::ColumnBreak()), ControlCha
 
 * Class [ControlChar](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

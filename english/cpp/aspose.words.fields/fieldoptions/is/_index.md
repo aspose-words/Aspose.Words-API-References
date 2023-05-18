@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Fields::FieldOptions::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Fields::FieldOptions class in C++.'
 type: docs
-weight: 300
+weight: 24000
 url: /cpp/aspose.words.fields/fieldoptions/is/
 ---
 ## FieldOptions::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Fields::FieldOptions::Is(const System::TypeInfo &tar
 
 * Class [FieldOptions](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

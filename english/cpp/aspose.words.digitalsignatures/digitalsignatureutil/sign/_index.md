@@ -1,9 +1,10 @@
 ---
-title: Sign
+title: Aspose::Words::DigitalSignatures::DigitalSignatureUtil::Sign method
+linktitle: Sign
 second_title: Aspose.Words for C++ API Reference
-description: Signs source document using given CertificateHolder with digital signature and writes signed document to destination stream. Document should be either Doc or Docx.Output will be written to the start of stream and stream size will be updated with content length.
+description: 'Aspose::Words::DigitalSignatures::DigitalSignatureUtil::Sign method. Signs source document using given CertificateHolder with digital signature and writes signed document to destination stream. Document should be either Doc or Docx.Output will be written to the start of stream and stream size will be updated with content length in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.digitalsignatures/digitalsignatureutil/sign/
 ---
 ## DigitalSignatureUtil::Sign(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\>\&) method
@@ -70,7 +71,7 @@ ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_S
 * Class [CertificateHolder](../../certificateholder/)
 * Class [DigitalSignatureUtil](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## DigitalSignatureUtil::Sign(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\>\&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::SignOptions\>\&) method
 
 
@@ -120,7 +121,7 @@ signOptions->set_SignTime(System::DateTime::get_Now());
 * Class [SignOptions](../../signoptions/)
 * Class [DigitalSignatureUtil](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## DigitalSignatureUtil::Sign(const System::String\&, const System::String\&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\>\&) method
 
 
@@ -185,7 +186,7 @@ ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_S
 * Class [CertificateHolder](../../certificateholder/)
 * Class [DigitalSignatureUtil](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## DigitalSignatureUtil::Sign(const System::String\&, const System::String\&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\>\&, const System::SharedPtr\<Aspose::Words::DigitalSignatures::SignOptions\>\&) method
 
 
@@ -342,7 +343,7 @@ static SharedPtr<System::Collections::Generic::List<SharedPtr<ExSignDocumentCust
 * Class [SignOptions](../../signoptions/)
 * Class [DigitalSignatureUtil](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## DigitalSignatureUtil::Sign(std::basic_istream\<CharType, Traits\>\&, std::basic_ostream\<CharType, Traits\>\&, System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\>) method
 
 
@@ -357,7 +358,7 @@ template<typename CharType,typename Traits> static void Aspose::Words::DigitalSi
 * Class [CertificateHolder](../../certificateholder/)
 * Class [DigitalSignatureUtil](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## DigitalSignatureUtil::Sign(std::basic_istream\<CharType, Traits\>\&, std::basic_ostream\<CharType, Traits\>\&, System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\>, System::SharedPtr\<Aspose::Words::DigitalSignatures::SignOptions\>) method
 
 
@@ -373,4 +374,4 @@ template<typename CharType,typename Traits> static void Aspose::Words::DigitalSi
 * Class [SignOptions](../../signoptions/)
 * Class [DigitalSignatureUtil](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_Paragraphs
+title: Aspose::Words::InlineStory::get_Paragraphs method
+linktitle: get_Paragraphs
 second_title: Aspose.Words for C++ API Reference
-description: Gets a collection of paragraphs that are immediate children of the story.
+description: 'Aspose::Words::InlineStory::get_Paragraphs method. Gets a collection of paragraphs that are immediate children of the story in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words/inlinestory/get_paragraphs/
 ---
 ## InlineStory::get_Paragraphs method
@@ -85,4 +86,4 @@ doc->Save(ArtifactsDir + u"InlineStory.AddComment.docx");
 * Class [ParagraphCollection](../../paragraphcollection/)
 * Class [InlineStory](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

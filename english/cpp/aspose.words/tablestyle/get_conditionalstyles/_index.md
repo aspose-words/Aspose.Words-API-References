@@ -1,9 +1,10 @@
 ---
-title: get_ConditionalStyles
+title: Aspose::Words::TableStyle::get_ConditionalStyles method
+linktitle: get_ConditionalStyles
 second_title: Aspose.Words for C++ API Reference
-description: Collection of conditional styles that may be defined for this table style.
+description: 'Aspose::Words::TableStyle::get_ConditionalStyles method. Collection of conditional styles that may be defined for this table style in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words/tablestyle/get_conditionalstyles/
 ---
 ## TableStyle::get_ConditionalStyles method
@@ -38,7 +39,7 @@ builder->Write(u"Cell 4");
 builder->EndTable();
 
 // Create a custom table style.
-auto tableStyle = System::DynamicCast<TableStyle>(doc->get_Styles()->Add(StyleType::Table, u"MyTableStyle1"));
+auto tableStyle = System::ExplicitCast<TableStyle>(doc->get_Styles()->Add(StyleType::Table, u"MyTableStyle1"));
 
 // Conditional styles are formatting changes that affect only some of the table's cells
 // based on a predicate, such as the cells being in the last row.
@@ -94,4 +95,4 @@ doc->Save(ArtifactsDir + u"Table.ConditionalStyles.docx");
 * Class [ConditionalStyleCollection](../../conditionalstylecollection/)
 * Class [TableStyle](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_Separator
+title: Aspose::Words::Fields::Field::get_Separator method
+linktitle: get_Separator
 second_title: Aspose.Words for C++ API Reference
-description: Gets the node that represents the field separator. Can be null.
+description: 'Aspose::Words::Fields::Field::get_Separator method. Gets the node that represents the field separator. Can be null in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words.fields/field/get_separator/
 ---
 ## Field::get_Separator method
@@ -112,4 +113,4 @@ private:
 * Class [FieldSeparator](../../fieldseparator/)
 * Class [Field](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

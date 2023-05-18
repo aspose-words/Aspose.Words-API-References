@@ -1,9 +1,10 @@
 ---
-title: FontFamily
+title: Aspose::Words::Fonts::FontFamily enum
+linktitle: FontFamily
 second_title: Aspose.Words for C++ API Reference
-description: Represents the font family.
+description: 'Aspose::Words::Fonts::FontFamily enum. Represents the font family in C++.'
 type: docs
-weight: 261
+weight: 21000
 url: /cpp/aspose.words.fonts/fontfamily/
 ---
 ## FontFamily enum
@@ -71,4 +72,4 @@ while (fontCollectionEnumerator->MoveNext())
 ## See Also
 
 * Namespace [Aspose::Words::Fonts](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

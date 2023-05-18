@@ -1,9 +1,10 @@
 ---
-title: set_IsLinked
+title: Aspose::Words::Fields::FieldImport::set_IsLinked method
+linktitle: set_IsLinked
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fields::FieldImport::get_IsLinked.'
+description: 'Aspose::Words::Fields::FieldImport::set_IsLinked method. Setter for Aspose::Words::Fields::FieldImport::get_IsLinked in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.fields/fieldimport/set_islinked/
 ---
 ## FieldImport::set_IsLinked method
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldImport::set_IsLinked(bool value)
 
 * Class [FieldImport](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

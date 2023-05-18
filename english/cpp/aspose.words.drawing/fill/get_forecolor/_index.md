@@ -1,9 +1,10 @@
 ---
-title: get_ForeColor
+title: Aspose::Words::Drawing::Fill::get_ForeColor method
+linktitle: get_ForeColor
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets a Color object that represents the foreground color for the fill.
+description: 'Aspose::Words::Drawing::Fill::get_ForeColor method. Gets or sets a Color object that represents the foreground color for the fill in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.drawing/fill/get_forecolor/
 ---
 ## Fill::get_ForeColor method
@@ -93,4 +94,4 @@ doc->Save(ArtifactsDir + u"Drawing.VariousShapes.docx");
 
 * Class [Fill](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

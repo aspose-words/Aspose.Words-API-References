@@ -1,9 +1,10 @@
 ---
-title: get_Author
+title: Aspose::Words::Revision::get_Author method
+linktitle: get_Author
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the author of this revision. Can not be empty string or null.
+description: 'Aspose::Words::Revision::get_Author method. Gets or sets the author of this revision. Can not be empty string or null in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words/revision/get_author/
 ---
 ## Revision::get_Author method
@@ -101,4 +102,4 @@ ASSERT_EQ(u"This is revision #1. \rThis is revision #2.", doc->GetText().Trim())
 
 * Class [Revision](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

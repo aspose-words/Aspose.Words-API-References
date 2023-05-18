@@ -1,9 +1,10 @@
 ---
-title: Orientation
+title: Aspose::Words::Orientation enum
+linktitle: Orientation
 second_title: Aspose.Words for C++ API Reference
-description: Specifies page orientation.
+description: 'Aspose::Words::Orientation enum. Specifies page orientation in C++.'
 type: docs
-weight: 1340
+weight: 104000
 url: /cpp/aspose.words/orientation/
 ---
 ## Orientation enum
@@ -58,4 +59,4 @@ doc->Save(ArtifactsDir + u"PageSetup.ClearFormatting.docx");
 ## See Also
 
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

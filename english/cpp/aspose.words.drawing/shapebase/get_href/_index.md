@@ -1,9 +1,10 @@
 ---
-title: get_HRef
+title: Aspose::Words::Drawing::ShapeBase::get_HRef method
+linktitle: get_HRef
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the full hyperlink address for a shape.
+description: 'Aspose::Words::Drawing::ShapeBase::get_HRef method. Gets or sets the full hyperlink address for a shape in C++.'
 type: docs
-weight: 300
+weight: 24000
 url: /cpp/aspose.words.drawing/shapebase/get_href/
 ---
 ## ShapeBase::get_HRef method
@@ -57,4 +58,4 @@ doc->Save(ArtifactsDir + u"Image.InsertImageWithHyperlink.docx");
 
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

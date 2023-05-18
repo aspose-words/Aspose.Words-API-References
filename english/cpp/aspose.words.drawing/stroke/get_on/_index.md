@@ -1,9 +1,10 @@
 ---
-title: get_On
+title: Aspose::Words::Drawing::Stroke::get_On method
+linktitle: get_On
 second_title: Aspose.Words for C++ API Reference
-description: Defines whether the path will be stroked.
+description: 'Aspose::Words::Drawing::Stroke::get_On method. Defines whether the path will be stroked in C++.'
 type: docs
-weight: 170
+weight: 14000
 url: /cpp/aspose.words.drawing/stroke/get_on/
 ---
 ## Stroke::get_On method
@@ -54,4 +55,4 @@ doc->Save(ArtifactsDir + u"Shape.Stroke.docx");
 
 * Class [Stroke](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

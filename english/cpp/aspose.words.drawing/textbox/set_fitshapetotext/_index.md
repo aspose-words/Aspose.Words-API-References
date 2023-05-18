@@ -1,9 +1,10 @@
 ---
-title: set_FitShapeToText
+title: Aspose::Words::Drawing::TextBox::set_FitShapeToText method
+linktitle: set_FitShapeToText
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Drawing::TextBox::get_FitShapeToText.'
+description: 'Aspose::Words::Drawing::TextBox::set_FitShapeToText method. Setter for Aspose::Words::Drawing::TextBox::get_FitShapeToText in C++.'
 type: docs
-weight: 222
+weight: 18000
 url: /cpp/aspose.words.drawing/textbox/set_fitshapetotext/
 ---
 ## TextBox::set_FitShapeToText method
@@ -19,4 +20,4 @@ void Aspose::Words::Drawing::TextBox::set_FitShapeToText(bool value)
 
 * Class [TextBox](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

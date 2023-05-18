@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Saving::HtmlFixedSaveOptions::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Saving::HtmlFixedSaveOptions class in C++.'
 type: docs
-weight: 274
+weight: 22000
 url: /cpp/aspose.words.saving/htmlfixedsaveoptions/is/
 ---
 ## HtmlFixedSaveOptions::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Saving::HtmlFixedSaveOptions::Is(const System::TypeI
 
 * Class [HtmlFixedSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

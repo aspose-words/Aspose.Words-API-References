@@ -1,9 +1,10 @@
 ---
-title: set_MinorTickMark
+title: Aspose::Words::Drawing::Charts::ChartAxis::set_MinorTickMark method
+linktitle: set_MinorTickMark
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Drawing::Charts::ChartAxis::get_MinorTickMark.'
+description: 'Aspose::Words::Drawing::Charts::ChartAxis::set_MinorTickMark method. Setter for Aspose::Words::Drawing::Charts::ChartAxis::get_MinorTickMark in C++.'
 type: docs
-weight: 560
+weight: 44000
 url: /cpp/aspose.words.drawing.charts/chartaxis/set_minortickmark/
 ---
 ## ChartAxis::set_MinorTickMark method
@@ -20,4 +21,4 @@ void Aspose::Words::Drawing::Charts::ChartAxis::set_MinorTickMark(Aspose::Words:
 * Enum [AxisTickMark](../../axistickmark/)
 * Class [ChartAxis](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

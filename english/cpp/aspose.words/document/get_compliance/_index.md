@@ -1,9 +1,10 @@
 ---
-title: get_Compliance
+title: Aspose::Words::Document::get_Compliance method
+linktitle: get_Compliance
 second_title: Aspose.Words for C++ API Reference
-description: Gets the OOXML compliance version determined from the loaded document content. Makes sense only for OOXML documents.
+description: 'Aspose::Words::Document::get_Compliance method. Gets the OOXML compliance version determined from the loaded document content. Makes sense only for OOXML documents in C++.'
 type: docs
-weight: 209
+weight: 17000
 url: /cpp/aspose.words/document/get_compliance/
 ---
 ## Document::get_Compliance method
@@ -41,4 +42,4 @@ ASSERT_EQ(doc->get_Compliance(), OoxmlCompliance::Iso29500_2008_Transitional);
 * Enum [OoxmlCompliance](../../../aspose.words.saving/ooxmlcompliance/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

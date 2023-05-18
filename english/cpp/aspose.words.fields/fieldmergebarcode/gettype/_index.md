@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Fields::FieldMergeBarcode::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Fields::FieldMergeBarcode class in C++.'
 type: docs
-weight: 222
+weight: 18000
 url: /cpp/aspose.words.fields/fieldmergebarcode/gettype/
 ---
 ## FieldMergeBarcode::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Fields::FieldMergeBarcode::GetTy
 
 * Class [FieldMergeBarcode](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

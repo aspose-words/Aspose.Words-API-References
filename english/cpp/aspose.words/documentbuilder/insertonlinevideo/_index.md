@@ -1,9 +1,10 @@
 ---
-title: InsertOnlineVideo
+title: Aspose::Words::DocumentBuilder::InsertOnlineVideo method
+linktitle: InsertOnlineVideo
 second_title: Aspose.Words for C++ API Reference
-description: Inserts an online video object into the document and scales it to the specified size.
+description: 'Aspose::Words::DocumentBuilder::InsertOnlineVideo method. Inserts an online video object into the document and scales it to the specified size in C++.'
 type: docs
-weight: 547
+weight: 43000
 url: /cpp/aspose.words/documentbuilder/insertonlinevideo/
 ---
 ## DocumentBuilder::InsertOnlineVideo(const System::String\&, Aspose::Words::Drawing::RelativeHorizontalPosition, double, Aspose::Words::Drawing::RelativeVerticalPosition, double, double, double, Aspose::Words::Drawing::WrapType) method
@@ -46,26 +47,6 @@ If your online video is not displaying correctly, use [InsertOnlineVideo()](../)
 
 The code for embedding video can vary between providers, consult your corresponding provider of choice for details.
 
-## Examples
-
-
-
-Shows how to insert an online video into a document. 
-```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
-
-String videoUrl = u"https://vimeo.com/52477838";
-
-// Insert a shape that plays a video from the web when clicked in Microsoft Word.
-// This rectangular shape will contain an image based on the first frame of the linked video
-// and a "play button" visual prompt. The video has an aspect ratio of 16:9.
-// We will set the shape's size to that ratio, so the image does not appear stretched.
-builder->InsertOnlineVideo(videoUrl, RelativeHorizontalPosition::LeftMargin, 0, RelativeVerticalPosition::TopMargin, 0, 320, 180, WrapType::Square);
-
-doc->Save(ArtifactsDir + u"DocumentBuilder.InsertOnlineVideo.docx");
-```
-
 ## See Also
 
 * Class [Shape](../../../aspose.words.drawing/shape/)
@@ -74,7 +55,7 @@ doc->Save(ArtifactsDir + u"DocumentBuilder.InsertOnlineVideo.docx");
 * Enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## DocumentBuilder::InsertOnlineVideo(const System::String\&, const System::String\&, const System::ArrayPtr\<uint8_t\>\&, Aspose::Words::Drawing::RelativeHorizontalPosition, double, Aspose::Words::Drawing::RelativeVerticalPosition, double, double, double, Aspose::Words::Drawing::WrapType) method
 
 
@@ -152,7 +133,7 @@ doc->Save(ArtifactsDir + u"DocumentBuilder.InsertOnlineVideoCustomThumbnail.docx
 * Enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## DocumentBuilder::InsertOnlineVideo(const System::String\&, const System::String\&, const System::ArrayPtr\<uint8_t\>\&, double, double) method
 
 
@@ -222,7 +203,7 @@ doc->Save(ArtifactsDir + u"DocumentBuilder.InsertOnlineVideoCustomThumbnail.docx
 * Class [Shape](../../../aspose.words.drawing/shape/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## DocumentBuilder::InsertOnlineVideo(const System::String\&, double, double) method
 
 
@@ -258,24 +239,9 @@ If your online video is not displaying correctly, use [InsertOnlineVideo()](../)
 
 The code for embedding video can vary between providers, consult your corresponding provider of choice for details.
 
-## Examples
-
-
-
-Shows how to insert an online video into a document using a URL. 
-```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
-
-builder->InsertOnlineVideo(u"https://youtu.be/t_1LYZ102RA", 360, 270);
-
-// We can watch the video from Microsoft Word by clicking on the shape.
-doc->Save(ArtifactsDir + u"DocumentBuilder.InsertVideoWithUrl.docx");
-```
-
 ## See Also
 
 * Class [Shape](../../../aspose.words.drawing/shape/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

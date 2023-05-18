@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Markup::StructuredDocumentTagRangeStart::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Markup::StructuredDocumentTagRangeStart class in C++.'
 type: docs
-weight: 313
+weight: 25000
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/is/
 ---
 ## StructuredDocumentTagRangeStart::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Markup::StructuredDocumentTagRangeStart::Is(const Sy
 
 * Class [StructuredDocumentTagRangeStart](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

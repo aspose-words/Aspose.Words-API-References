@@ -1,9 +1,10 @@
 ---
-title: SdtListItemCollection
+title: Aspose::Words::Markup::SdtListItemCollection class
+linktitle: SdtListItemCollection
 second_title: Aspose.Words for C++ API Reference
-description: Provides access to SdtListItem elements of a structured document tag. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Markup::SdtListItemCollection class. Provides access to SdtListItem elements of a structured document tag. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.markup/sdtlistitemcollection/
 ---
 ## SdtListItemCollection class
@@ -113,4 +114,4 @@ ASSERT_EQ(0, listItems->get_Count());
 ## See Also
 
 * Namespace [Aspose::Words::Markup](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

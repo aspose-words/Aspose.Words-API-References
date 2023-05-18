@@ -1,9 +1,10 @@
 ---
-title: get_IsBookmark
+title: Aspose::Words::Fields::BarcodeParameters::get_IsBookmark method
+linktitle: get_IsBookmark
 second_title: Aspose.Words for C++ API Reference
-description: Whether PostalAddress is the name of a bookmark.
+description: 'Aspose::Words::Fields::BarcodeParameters::get_IsBookmark method. Whether PostalAddress is the name of a bookmark in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words.fields/barcodeparameters/get_isbookmark/
 ---
 ## BarcodeParameters::get_IsBookmark method
@@ -19,4 +20,4 @@ bool Aspose::Words::Fields::BarcodeParameters::get_IsBookmark() const
 
 * Class [BarcodeParameters](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

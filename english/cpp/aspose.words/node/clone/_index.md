@@ -1,9 +1,10 @@
 ---
-title: Clone
+title: Aspose::Words::Node::Clone method
+linktitle: Clone
 second_title: Aspose.Words for C++ API Reference
-description: Creates a duplicate of the node.
+description: 'Aspose::Words::Node::Clone method. Creates a duplicate of the node in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words/node/clone/
 ---
 ## Node::Clone method
@@ -44,13 +45,13 @@ para->AppendChild(MakeObject<Run>(doc, u"Hello world!"));
 // 1 -  Create a clone of a node, and create a clone of each of its child nodes as well.
 SharedPtr<Node> cloneWithChildren = para->Clone(true);
 
-ASSERT_TRUE((System::DynamicCast<CompositeNode>(cloneWithChildren))->get_HasChildNodes());
+ASSERT_TRUE((System::ExplicitCast<CompositeNode>(cloneWithChildren))->get_HasChildNodes());
 ASSERT_EQ(u"Hello world!", cloneWithChildren->GetText().Trim());
 
 // 2 -  Create a clone of a node just by itself without any children.
 SharedPtr<Node> cloneWithoutChildren = para->Clone(false);
 
-ASSERT_FALSE((System::DynamicCast<CompositeNode>(cloneWithoutChildren))->get_HasChildNodes());
+ASSERT_FALSE((System::ExplicitCast<CompositeNode>(cloneWithoutChildren))->get_HasChildNodes());
 ASSERT_EQ(String::Empty, cloneWithoutChildren->GetText().Trim());
 ```
 
@@ -59,4 +60,4 @@ ASSERT_EQ(String::Empty, cloneWithoutChildren->GetText().Trim());
 * Class [Node](../)
 * Class [Node](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

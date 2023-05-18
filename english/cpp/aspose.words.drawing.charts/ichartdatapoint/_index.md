@@ -1,9 +1,10 @@
 ---
-title: IChartDataPoint
+title: Aspose::Words::Drawing::Charts::IChartDataPoint interface
+linktitle: IChartDataPoint
 second_title: Aspose.Words for C++ API Reference
-description: Contains properties of a single data point on the chart.
+description: 'Aspose::Words::Drawing::Charts::IChartDataPoint interface. Contains properties of a single data point on the chart in C++.'
 type: docs
-weight: 235
+weight: 19000
 url: /cpp/aspose.words.drawing.charts/ichartdatapoint/
 ---
 ## IChartDataPoint interface
@@ -93,4 +94,4 @@ static void ApplyDataPoints(SharedPtr<ChartSeries> series, int dataPointsCount, 
 ## See Also
 
 * Namespace [Aspose::Words::Drawing::Charts](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

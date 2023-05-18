@@ -1,9 +1,10 @@
 ---
-title: LineNumberRestartMode
+title: Aspose::Words::LineNumberRestartMode enum
+linktitle: LineNumberRestartMode
 second_title: Aspose.Words for C++ API Reference
-description: Determines when automatic line numbering restarts.
+description: 'Aspose::Words::LineNumberRestartMode enum. Determines when automatic line numbering restarts in C++.'
 type: docs
-weight: 1210
+weight: 94000
 url: /cpp/aspose.words/linenumberrestartmode/
 ---
 ## LineNumberRestartMode enum
@@ -61,4 +62,4 @@ doc->Save(ArtifactsDir + u"PageSetup.LineNumbers.docx");
 ## See Also
 
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

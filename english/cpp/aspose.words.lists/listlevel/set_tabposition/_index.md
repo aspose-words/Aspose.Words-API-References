@@ -1,9 +1,10 @@
 ---
-title: set_TabPosition
+title: Aspose::Words::Lists::ListLevel::set_TabPosition method
+linktitle: set_TabPosition
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Lists::ListLevel::get_TabPosition.'
+description: 'Aspose::Words::Lists::ListLevel::set_TabPosition method. Setter for Aspose::Words::Lists::ListLevel::get_TabPosition in C++.'
 type: docs
-weight: 391
+weight: 31000
 url: /cpp/aspose.words.lists/listlevel/set_tabposition/
 ---
 ## ListLevel::set_TabPosition method
@@ -19,4 +20,4 @@ void Aspose::Words::Lists::ListLevel::set_TabPosition(double value)
 
 * Class [ListLevel](../)
 * Namespace [Aspose::Words::Lists](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

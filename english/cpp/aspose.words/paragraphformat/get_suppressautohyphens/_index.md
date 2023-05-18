@@ -1,9 +1,10 @@
 ---
-title: get_SuppressAutoHyphens
+title: Aspose::Words::ParagraphFormat::get_SuppressAutoHyphens method
+linktitle: get_SuppressAutoHyphens
 second_title: Aspose.Words for C++ API Reference
-description: Specifies whether the current paragraph should be exempted from any hyphenation which is applied in the document settings.
+description: 'Aspose::Words::ParagraphFormat::get_SuppressAutoHyphens method. Specifies whether the current paragraph should be exempted from any hyphenation which is applied in the document settings in C++.'
 type: docs
-weight: 482
+weight: 38000
 url: /cpp/aspose.words/paragraphformat/get_suppressautohyphens/
 ---
 ## ParagraphFormat::get_SuppressAutoHyphens method
@@ -43,4 +44,4 @@ doc->Save(ArtifactsDir + u"ParagraphFormat.SuppressHyphens.pdf");
 
 * Class [ParagraphFormat](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

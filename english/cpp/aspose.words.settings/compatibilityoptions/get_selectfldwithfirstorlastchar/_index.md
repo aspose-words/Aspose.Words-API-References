@@ -1,9 +1,10 @@
 ---
-title: get_SelectFldWithFirstOrLastChar
+title: Aspose::Words::Settings::CompatibilityOptions::get_SelectFldWithFirstOrLastChar method
+linktitle: get_SelectFldWithFirstOrLastChar
 second_title: Aspose.Words for C++ API Reference
-description: Select Field When First or Last Character Is Selected.
+description: 'Aspose::Words::Settings::CompatibilityOptions::get_SelectFldWithFirstOrLastChar method. Select Field When First or Last Character Is Selected in C++.'
 type: docs
-weight: 534
+weight: 42000
 url: /cpp/aspose.words.settings/compatibilityoptions/get_selectfldwithfirstorlastchar/
 ---
 ## CompatibilityOptions::get_SelectFldWithFirstOrLastChar method
@@ -19,4 +20,4 @@ bool Aspose::Words::Settings::CompatibilityOptions::get_SelectFldWithFirstOrLast
 
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

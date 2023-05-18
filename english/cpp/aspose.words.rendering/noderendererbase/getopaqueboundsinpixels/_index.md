@@ -1,9 +1,10 @@
 ---
-title: GetOpaqueBoundsInPixels
+title: Aspose::Words::Rendering::NodeRendererBase::GetOpaqueBoundsInPixels method
+linktitle: GetOpaqueBoundsInPixels
 second_title: Aspose.Words for C++ API Reference
-description: Calculates the opaque bounds of the shape in pixels for a specified zoom factor and resolution.
+description: 'Aspose::Words::Rendering::NodeRendererBase::GetOpaqueBoundsInPixels method. Calculates the opaque bounds of the shape in pixels for a specified zoom factor and resolution in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/
 ---
 ## NodeRendererBase::GetOpaqueBoundsInPixels(float, float) method
@@ -37,7 +38,7 @@ Shows how to measure and scale shapes.
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"Office math.docx");
 
-auto officeMath = System::DynamicCast<OfficeMath>(doc->GetChild(NodeType::OfficeMath, 0, true));
+auto officeMath = System::ExplicitCast<OfficeMath>(doc->GetChild(NodeType::OfficeMath, 0, true));
 auto renderer = MakeObject<OfficeMathRenderer>(officeMath);
 
 // Verify the size of the image that the OfficeMath object will create when we render it.
@@ -78,7 +79,7 @@ ASSERT_EQ(30, bounds.get_Height());
 
 * Class [NodeRendererBase](../)
 * Namespace [Aspose::Words::Rendering](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## NodeRendererBase::GetOpaqueBoundsInPixels(float, float, float) method
 
 
@@ -111,7 +112,7 @@ Shows how to measure and scale shapes.
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"Office math.docx");
 
-auto officeMath = System::DynamicCast<OfficeMath>(doc->GetChild(NodeType::OfficeMath, 0, true));
+auto officeMath = System::ExplicitCast<OfficeMath>(doc->GetChild(NodeType::OfficeMath, 0, true));
 auto renderer = MakeObject<OfficeMathRenderer>(officeMath);
 
 // Verify the size of the image that the OfficeMath object will create when we render it.
@@ -152,4 +153,4 @@ ASSERT_EQ(30, bounds.get_Height());
 
 * Class [NodeRendererBase](../)
 * Namespace [Aspose::Words::Rendering](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: PreferredWidthType
+title: Aspose::Words::Tables::PreferredWidthType enum
+linktitle: PreferredWidthType
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the unit of measurement for the preferred width of a table or cell.
+description: 'Aspose::Words::Tables::PreferredWidthType enum. Specifies the unit of measurement for the preferred width of a table or cell in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words.tables/preferredwidthtype/
 ---
 ## PreferredWidthType enum
@@ -42,4 +43,4 @@ ASPOSE_ASSERT_EQ(11.16, firstCell->get_CellFormat()->get_PreferredWidth()->get_V
 ## See Also
 
 * Namespace [Aspose::Words::Tables](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

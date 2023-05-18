@@ -1,9 +1,10 @@
 ---
-title: get_AddSpaceBetweenFarEastAndDigit
+title: Aspose::Words::ParagraphFormat::get_AddSpaceBetweenFarEastAndDigit method
+linktitle: get_AddSpaceBetweenFarEastAndDigit
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets a flag indicating whether inter-character spacing is automatically adjusted between regions of numbers and regions of East Asian text in the current paragraph.
+description: 'Aspose::Words::ParagraphFormat::get_AddSpaceBetweenFarEastAndDigit method. Gets or sets a flag indicating whether inter-character spacing is automatically adjusted between regions of numbers and regions of East Asian text in the current paragraph in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words/paragraphformat/get_addspacebetweenfareastanddigit/
 ---
 ## ParagraphFormat::get_AddSpaceBetweenFarEastAndDigit method
@@ -50,4 +51,4 @@ ASSERT_TRUE(builder->get_CurrentParagraph()->get_IsEndOfDocument());
 
 * Class [ParagraphFormat](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

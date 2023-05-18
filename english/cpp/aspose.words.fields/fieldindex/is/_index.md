@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Fields::FieldIndex::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Fields::FieldIndex class in C++.'
 type: docs
-weight: 235
+weight: 19000
 url: /cpp/aspose.words.fields/fieldindex/is/
 ---
 ## FieldIndex::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Fields::FieldIndex::Is(const System::TypeInfo &targe
 
 * Class [FieldIndex](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

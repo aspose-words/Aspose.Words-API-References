@@ -1,9 +1,10 @@
 ---
-title: StructuredDocumentTag
+title: Aspose::Words::Markup::StructuredDocumentTag class
+linktitle: StructuredDocumentTag
 second_title: Aspose.Words for C++ API Reference
-description: Represents a structured document tag (SDT or content control) in a document. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Markup::StructuredDocumentTag class. Represents a structured document tag (SDT or content control) in a document. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words.markup/structureddocumenttag/
 ---
 ## StructuredDocumentTag class
@@ -68,6 +69,7 @@ class StructuredDocumentTag : public Aspose::Words::CompositeNode,
 | [get_Tag](./get_tag/)() const override | Specifies a tag associated with the current SDT node. Can not be **null**. |
 | [get_Title](./get_title/)() const override | Specifies the friendly name associated with this **SDT**. Can not be **null**. |
 | [get_WordOpenXML](./get_wordopenxml/)() override | Gets a string that represents the XML contained within the node in the [FlatOpc](../../aspose.words/saveformat/) format. |
+| [get_WordOpenXMLMinimal](./get_wordopenxmlminimal/)() | Gets a string that represents the XML contained within the node in the [FlatOpc](../../aspose.words/saveformat/) format. Unlike the [WordOpenXML](./get_wordopenxml/) property, this method generates a stripped-down document that excludes any non-content-related parts. |
 | [get_XmlMapping](./get_xmlmapping/)() override | Gets an object that represents the mapping of this structured document tag to XML data in a custom XML part of the current document. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(Aspose::Words::NodeType) | Gets the first ancestor of the specified [NodeType](../../aspose.words/nodetype/). |
 | [GetAncestorOf](../../aspose.words/node/getancestorof/)() |  |
@@ -164,7 +166,7 @@ SharedPtr<NodeCollection> tags = doc->GetChildNodes(NodeType::StructuredDocument
 
 for (const auto& node : System::IterateOver(tags))
 {
-    auto sdt = System::DynamicCast<StructuredDocumentTag>(node);
+    auto sdt = System::ExplicitCast<StructuredDocumentTag>(node);
 
     ASSERT_EQ(StyleIdentifier::Quote, sdt->get_Style()->get_StyleIdentifier());
     ASSERT_EQ(u"Quote", sdt->get_StyleName());
@@ -176,4 +178,4 @@ for (const auto& node : System::IterateOver(tags))
 * Class [CompositeNode](../../aspose.words/compositenode/)
 * Interface [IStructuredDocumentTag](../istructureddocumenttag/)
 * Namespace [Aspose::Words::Markup](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

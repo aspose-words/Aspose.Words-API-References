@@ -1,9 +1,10 @@
 ---
-title: OoxmlCompliance
+title: Aspose::Words::Saving::OoxmlCompliance enum
+linktitle: OoxmlCompliance
 second_title: Aspose.Words for C++ API Reference
-description: Allows to specify which OOXML specification will be used when saving in the DOCX format.
+description: 'Aspose::Words::Saving::OoxmlCompliance enum. Allows to specify which OOXML specification will be used when saving in the DOCX format in C++.'
 type: docs
-weight: 924
+weight: 72000
 url: /cpp/aspose.words.saving/ooxmlcompliance/
 ---
 ## OoxmlCompliance enum
@@ -38,7 +39,7 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 doc->get_CompatibilityOptions()->OptimizeFor(MsWordVersion::Word2003);
 builder->InsertImage(ImageDir + u"Transparent background logo.png");
 
-ASSERT_EQ(ShapeMarkupLanguage::Vml, (System::DynamicCast<Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_MarkupLanguage());
+ASSERT_EQ(ShapeMarkupLanguage::Vml, (System::ExplicitCast<Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_MarkupLanguage());
 
 // The "ISO/IEC 29500:2008" OOXML standard does not support VML shapes.
 // If we set the "Compliance" property of the SaveOptions object to "OoxmlCompliance.Iso29500_2008_Strict",
@@ -52,7 +53,7 @@ doc->Save(ArtifactsDir + u"OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
 // Our saved document defines the shape using DML to adhere to the "ISO/IEC 29500:2008" OOXML standard.
 doc = MakeObject<Document>(ArtifactsDir + u"OoxmlSaveOptions.Iso29500Strict.docx");
 
-ASSERT_EQ(ShapeMarkupLanguage::Dml, (System::DynamicCast<Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_MarkupLanguage());
+ASSERT_EQ(ShapeMarkupLanguage::Dml, (System::ExplicitCast<Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_MarkupLanguage());
 ```
 
 
@@ -111,4 +112,4 @@ doc->Save(ArtifactsDir + u"Shape.ShapeInsertion.docx", saveOptions);
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

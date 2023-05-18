@@ -1,9 +1,10 @@
 ---
-title: get_IsListItem
+title: Aspose::Words::Paragraph::get_IsListItem method
+linktitle: get_IsListItem
 second_title: Aspose.Words for C++ API Reference
-description: True when the paragraph is an item in a bulleted or numbered list in original revision.
+description: 'Aspose::Words::Paragraph::get_IsListItem method. True when the paragraph is an item in a bulleted or numbered list in original revision in C++.'
 type: docs
-weight: 183
+weight: 15000
 url: /cpp/aspose.words/paragraph/get_islistitem/
 ---
 ## Paragraph::get_IsListItem method
@@ -72,4 +73,4 @@ builder->get_Document()->Save(ArtifactsDir + u"Lists.NestedLists.docx");
 
 * Class [Paragraph](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

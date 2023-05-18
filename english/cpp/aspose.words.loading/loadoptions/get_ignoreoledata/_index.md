@@ -1,9 +1,10 @@
 ---
-title: get_IgnoreOleData
+title: Aspose::Words::Loading::LoadOptions::get_IgnoreOleData method
+linktitle: get_IgnoreOleData
 second_title: Aspose.Words for C++ API Reference
-description: Specifies whether to ignore the OLE data.
+description: 'Aspose::Words::Loading::LoadOptions::get_IgnoreOleData method. Specifies whether to ignore the OLE data in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.loading/loadoptions/get_ignoreoledata/
 ---
 ## LoadOptions::get_IgnoreOleData method
@@ -25,4 +26,4 @@ The default value is **false**.
 
 * Class [LoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

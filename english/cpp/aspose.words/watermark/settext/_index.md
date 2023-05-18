@@ -1,9 +1,10 @@
 ---
-title: SetText
+title: Aspose::Words::Watermark::SetText method
+linktitle: SetText
 second_title: Aspose.Words for C++ API Reference
-description: Adds Text watermark into the document.
+description: 'Aspose::Words::Watermark::SetText method. Adds Text watermark into the document in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words/watermark/settext/
 ---
 ## Watermark::SetText(const System::String\&) method
@@ -55,7 +56,7 @@ if (doc->get_Watermark()->get_Type() == WatermarkType::Text)
 
 * Class [Watermark](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## Watermark::SetText(const System::String\&, const System::SharedPtr\<Aspose::Words::TextWatermarkOptions\>\&) method
 
 
@@ -107,4 +108,4 @@ if (doc->get_Watermark()->get_Type() == WatermarkType::Text)
 * Class [TextWatermarkOptions](../../textwatermarkoptions/)
 * Class [Watermark](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: set_Hyperlink
+title: Aspose::Words::Themes::ThemeColors::set_Hyperlink method
+linktitle: set_Hyperlink
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Themes::ThemeColors::get_Hyperlink.'
+description: 'Aspose::Words::Themes::ThemeColors::set_Hyperlink method. Setter for Aspose::Words::Themes::ThemeColors::get_Hyperlink in C++.'
 type: docs
-weight: 313
+weight: 25000
 url: /cpp/aspose.words.themes/themecolors/set_hyperlink/
 ---
 ## ThemeColors::set_Hyperlink method
@@ -19,4 +20,4 @@ void Aspose::Words::Themes::ThemeColors::set_Hyperlink(System::Drawing::Color va
 
 * Class [ThemeColors](../)
 * Namespace [Aspose::Words::Themes](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

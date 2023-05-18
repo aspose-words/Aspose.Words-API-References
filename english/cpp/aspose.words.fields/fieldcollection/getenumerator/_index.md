@@ -1,9 +1,10 @@
 ---
-title: GetEnumerator
+title: Aspose::Words::Fields::FieldCollection::GetEnumerator method
+linktitle: GetEnumerator
 second_title: Aspose.Words for C++ API Reference
-description: Returns an enumerator object.
+description: 'Aspose::Words::Fields::FieldCollection::GetEnumerator method. Returns an enumerator object in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.fields/fieldcollection/getenumerator/
 ---
 ## FieldCollection::GetEnumerator method
@@ -112,4 +113,4 @@ private:
 * Class [Field](../../field/)
 * Class [FieldCollection](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

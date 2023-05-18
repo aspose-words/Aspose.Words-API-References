@@ -1,9 +1,10 @@
 ---
-title: get_LayoutMode
+title: Aspose::Words::PageSetup::get_LayoutMode method
+linktitle: get_LayoutMode
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the layout mode of this section.
+description: 'Aspose::Words::PageSetup::get_LayoutMode method. Gets or sets the layout mode of this section in C++.'
 type: docs
-weight: 261
+weight: 21000
 url: /cpp/aspose.words/pagesetup/get_layoutmode/
 ---
 ## PageSetup::get_LayoutMode method
@@ -65,4 +66,4 @@ doc->Save(ArtifactsDir + u"PageSetup.LinesPerPage.docx");
 * Enum [SectionLayoutMode](../../sectionlayoutmode/)
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

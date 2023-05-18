@@ -1,9 +1,10 @@
 ---
-title: iterator_holder_type
+title: Aspose::Words::Settings::OdsoFieldMapDataCollection::iterator_holder_type typedef
+linktitle: iterator_holder_type
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Aspose::Words::Settings::OdsoFieldMapDataCollection::iterator_holder_type typedef of Aspose::Words::Settings::OdsoFieldMapDataCollection class in C++.'
 type: docs
-weight: 274
+weight: 22000
 url: /cpp/aspose.words.settings/odsofieldmapdatacollection/iterator_holder_type/
 ---
 ## iterator_holder_type typedef
@@ -19,4 +20,4 @@ using Aspose::Words::Settings::OdsoFieldMapDataCollection::iterator_holder_type 
 
 * Class [OdsoFieldMapDataCollection](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

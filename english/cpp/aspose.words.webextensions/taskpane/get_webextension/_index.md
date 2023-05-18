@@ -1,9 +1,10 @@
 ---
-title: get_WebExtension
+title: Aspose::Words::WebExtensions::TaskPane::get_WebExtension method
+linktitle: get_WebExtension
 second_title: Aspose.Words for C++ API Reference
-description: Represents an web extension object.
+description: 'Aspose::Words::WebExtensions::TaskPane::get_WebExtension method. Represents an web extension object in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.webextensions/taskpane/get_webextension/
 ---
 ## TaskPane::get_WebExtension method
@@ -64,4 +65,4 @@ ASSERT_EQ(0, doc->get_WebExtensionTaskPanes()->get_Count());
 * Class [WebExtension](../../webextension/)
 * Class [TaskPane](../)
 * Namespace [Aspose::Words::WebExtensions](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

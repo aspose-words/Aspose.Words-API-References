@@ -1,9 +1,10 @@
 ---
-title: set_SameLetterHeights
+title: Aspose::Words::Drawing::TextPath::set_SameLetterHeights method
+linktitle: set_SameLetterHeights
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Drawing::TextPath::get_SameLetterHeights.'
+description: 'Aspose::Words::Drawing::TextPath::set_SameLetterHeights method. Setter for Aspose::Words::Drawing::TextPath::get_SameLetterHeights in C++.'
 type: docs
-weight: 417
+weight: 33000
 url: /cpp/aspose.words.drawing/textpath/set_sameletterheights/
 ---
 ## TextPath::set_SameLetterHeights method
@@ -19,4 +20,4 @@ void Aspose::Words::Drawing::TextPath::set_SameLetterHeights(bool value)
 
 * Class [TextPath](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

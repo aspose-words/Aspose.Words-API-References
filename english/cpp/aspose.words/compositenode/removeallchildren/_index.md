@@ -1,9 +1,10 @@
 ---
-title: RemoveAllChildren
+title: Aspose::Words::CompositeNode::RemoveAllChildren method
+linktitle: RemoveAllChildren
 second_title: Aspose.Words for C++ API Reference
-description: Removes all the child nodes of the current node.
+description: 'Aspose::Words::CompositeNode::RemoveAllChildren method. Removes all the child nodes of the current node in C++.'
 type: docs
-weight: 235
+weight: 19000
 url: /cpp/aspose.words/compositenode/removeallchildren/
 ---
 ## CompositeNode::RemoveAllChildren method
@@ -68,4 +69,4 @@ doc->Save(ArtifactsDir + u"Section.CreateManually.docx");
 
 * Class [CompositeNode](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

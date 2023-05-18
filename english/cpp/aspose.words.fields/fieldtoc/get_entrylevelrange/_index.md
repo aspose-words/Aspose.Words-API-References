@@ -1,9 +1,10 @@
 ---
-title: get_EntryLevelRange
+title: Aspose::Words::Fields::FieldToc::get_EntryLevelRange method
+linktitle: get_EntryLevelRange
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets a range of levels of the table of contents entries to be included.
+description: 'Aspose::Words::Fields::FieldToc::get_EntryLevelRange method. Gets or sets a range of levels of the table of contents entries to be included in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.fields/fieldtoc/get_entrylevelrange/
 ---
 ## FieldToc::get_EntryLevelRange method
@@ -28,7 +29,7 @@ void FieldTocEntryIdentifier()
     auto builder = MakeObject<DocumentBuilder>(doc);
 
     // Insert a TOC field, which will compile all TC fields into a table of contents.
-    auto fieldToc = System::DynamicCast<FieldToc>(builder->InsertField(FieldType::FieldTOC, true));
+    auto fieldToc = System::ExplicitCast<FieldToc>(builder->InsertField(FieldType::FieldTOC, true));
 
     // Configure the field only to pick up TC entries of the "A" type, and an entry-level between 1 and 3.
     fieldToc->set_EntryIdentifier(u"A");
@@ -55,7 +56,7 @@ void FieldTocEntryIdentifier()
 
 void InsertTocEntry(SharedPtr<DocumentBuilder> builder, String text, String typeIdentifier, String entryLevel)
 {
-    auto fieldTc = System::DynamicCast<FieldTC>(builder->InsertField(FieldType::FieldTOCEntry, true));
+    auto fieldTc = System::ExplicitCast<FieldTC>(builder->InsertField(FieldType::FieldTOCEntry, true));
     fieldTc->set_OmitPageNumber(true);
     fieldTc->set_Text(text);
     fieldTc->set_TypeIdentifier(typeIdentifier);
@@ -67,4 +68,4 @@ void InsertTocEntry(SharedPtr<DocumentBuilder> builder, String text, String type
 
 * Class [FieldToc](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

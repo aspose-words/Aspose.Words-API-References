@@ -1,9 +1,10 @@
 ---
-title: get_TintAndShade
+title: Aspose::Words::Font::get_TintAndShade method
+linktitle: get_TintAndShade
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets a double value that lightens or darkens a color.
+description: 'Aspose::Words::Font::get_TintAndShade method. Gets or sets a double value that lightens or darkens a color in C++.'
 type: docs
-weight: 690
+weight: 54000
 url: /cpp/aspose.words/font/get_tintandshade/
 ---
 ## Font::get_TintAndShade method
@@ -47,4 +48,4 @@ builder->Writeln(u"Text with themed style");
 
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

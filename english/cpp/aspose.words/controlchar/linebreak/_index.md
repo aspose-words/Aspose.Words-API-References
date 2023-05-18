@@ -1,9 +1,10 @@
 ---
-title: LineBreak
+title: Aspose::Words::ControlChar::LineBreak method
+linktitle: LineBreak
 second_title: Aspose.Words for C++ API Reference
-description: 'Line break character: "\x000b" or "\v".'
+description: 'Aspose::Words::ControlChar::LineBreak method. Line break character: "\x000b" or "\v" in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words/controlchar/linebreak/
 ---
 ## ControlChar::LineBreak method
@@ -90,4 +91,4 @@ ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::ColumnBreak()), ControlCha
 
 * Class [ControlChar](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

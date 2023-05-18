@@ -1,9 +1,10 @@
 ---
-title: get_IsInMegabytes
+title: Aspose::Words::Fields::FieldFileSize::get_IsInMegabytes method
+linktitle: get_IsInMegabytes
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets whether to display the file size in megabytes.
+description: 'Aspose::Words::Fields::FieldFileSize::get_IsInMegabytes method. Gets or sets whether to display the file size in megabytes in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.fields/fieldfilesize/get_isinmegabytes/
 ---
 ## FieldFileSize::get_IsInMegabytes method
@@ -33,7 +34,7 @@ builder->InsertParagraph();
 // Below are three different units of measure
 // with which FILESIZE fields can display the document's file size.
 // 1 -  Bytes:
-auto field = System::DynamicCast<FieldFileSize>(builder->InsertField(FieldType::FieldFileSize, true));
+auto field = System::ExplicitCast<FieldFileSize>(builder->InsertField(FieldType::FieldFileSize, true));
 field->Update();
 
 ASSERT_EQ(u" FILESIZE ", field->GetFieldCode());
@@ -41,7 +42,7 @@ ASSERT_EQ(u"18105", field->get_Result());
 
 // 2 -  Kilobytes:
 builder->InsertParagraph();
-field = System::DynamicCast<FieldFileSize>(builder->InsertField(FieldType::FieldFileSize, true));
+field = System::ExplicitCast<FieldFileSize>(builder->InsertField(FieldType::FieldFileSize, true));
 field->set_IsInKilobytes(true);
 field->Update();
 
@@ -50,7 +51,7 @@ ASSERT_EQ(u"18", field->get_Result());
 
 // 3 -  Megabytes:
 builder->InsertParagraph();
-field = System::DynamicCast<FieldFileSize>(builder->InsertField(FieldType::FieldFileSize, true));
+field = System::ExplicitCast<FieldFileSize>(builder->InsertField(FieldType::FieldFileSize, true));
 field->set_IsInMegabytes(true);
 field->Update();
 
@@ -66,4 +67,4 @@ doc->Save(ArtifactsDir + u"Field.FILESIZE.docx");
 
 * Class [FieldFileSize](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

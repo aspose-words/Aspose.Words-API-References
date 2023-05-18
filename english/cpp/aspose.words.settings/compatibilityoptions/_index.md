@@ -1,9 +1,10 @@
 ---
-title: CompatibilityOptions
+title: Aspose::Words::Settings::CompatibilityOptions class
+linktitle: CompatibilityOptions
 second_title: Aspose.Words for C++ API Reference
-description: Contains compatibility options (that is, the user preferences entered on the Compatibility tab of the Options dialog in Microsoft Word). To learn more, visit the  documentation article.
+description: 'Aspose::Words::Settings::CompatibilityOptions class. Contains compatibility options (that is, the user preferences entered on the Compatibility tab of the Options dialog in Microsoft Word). To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words.settings/compatibilityoptions/
 ---
 ## CompatibilityOptions class
@@ -180,7 +181,7 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 doc->get_CompatibilityOptions()->OptimizeFor(MsWordVersion::Word2003);
 builder->InsertImage(ImageDir + u"Transparent background logo.png");
 
-ASSERT_EQ(ShapeMarkupLanguage::Vml, (System::DynamicCast<Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_MarkupLanguage());
+ASSERT_EQ(ShapeMarkupLanguage::Vml, (System::ExplicitCast<Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_MarkupLanguage());
 
 // The "ISO/IEC 29500:2008" OOXML standard does not support VML shapes.
 // If we set the "Compliance" property of the SaveOptions object to "OoxmlCompliance.Iso29500_2008_Strict",
@@ -194,7 +195,7 @@ doc->Save(ArtifactsDir + u"OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
 // Our saved document defines the shape using DML to adhere to the "ISO/IEC 29500:2008" OOXML standard.
 doc = MakeObject<Document>(ArtifactsDir + u"OoxmlSaveOptions.Iso29500Strict.docx");
 
-ASSERT_EQ(ShapeMarkupLanguage::Dml, (System::DynamicCast<Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_MarkupLanguage());
+ASSERT_EQ(ShapeMarkupLanguage::Dml, (System::ExplicitCast<Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_MarkupLanguage());
 ```
 
 
@@ -224,4 +225,4 @@ doc->Save(ArtifactsDir + u"Shape.VerticalAnchor.docx");
 ## See Also
 
 * Namespace [Aspose::Words::Settings](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

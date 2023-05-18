@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Lists::ListLabel::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Lists::ListLabel class in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.lists/listlabel/gettype/
 ---
 ## ListLabel::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Lists::ListLabel::GetType() cons
 
 * Class [ListLabel](../)
 * Namespace [Aspose::Words::Lists](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

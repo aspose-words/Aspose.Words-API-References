@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Fields::FieldStyleRef::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Fields::FieldStyleRef class in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.fields/fieldstyleref/gettype/
 ---
 ## FieldStyleRef::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Fields::FieldStyleRef::GetType()
 
 * Class [FieldStyleRef](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

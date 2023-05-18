@@ -1,9 +1,10 @@
 ---
-title: Accept
+title: Aspose::Words::HeaderFooter::Accept method
+linktitle: Accept
 second_title: Aspose.Words for C++ API Reference
-description: Accepts a visitor.
+description: 'Aspose::Words::HeaderFooter::Accept method. Accepts a visitor in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words/headerfooter/accept/
 ---
 ## HeaderFooter::Accept method
@@ -117,4 +118,4 @@ private:
 * Class [DocumentVisitor](../../documentvisitor/)
 * Class [HeaderFooter](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

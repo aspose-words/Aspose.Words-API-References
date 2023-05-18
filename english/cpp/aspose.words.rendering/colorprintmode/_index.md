@@ -1,9 +1,10 @@
 ---
-title: ColorPrintMode
+title: Aspose::Words::Rendering::ColorPrintMode enum
+linktitle: ColorPrintMode
 second_title: Aspose.Words for C++ API Reference
-description: Specifies how non-colored pages are printed if the device supports color printing.
+description: 'Aspose::Words::Rendering::ColorPrintMode enum. Specifies how non-colored pages are printed if the device supports color printing in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.rendering/colorprintmode/
 ---
 ## ColorPrintMode enum
@@ -25,4 +26,4 @@ enum class ColorPrintMode
 ## See Also
 
 * Namespace [Aspose::Words::Rendering](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

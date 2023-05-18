@@ -1,9 +1,10 @@
 ---
-title: get_PreferredWidth
+title: Aspose::Words::Tables::Table::get_PreferredWidth method
+linktitle: get_PreferredWidth
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the table preferred width.
+description: 'Aspose::Words::Tables::Table::get_PreferredWidth method. Gets or sets the table preferred width in C++.'
 type: docs
-weight: 365
+weight: 29000
 url: /cpp/aspose.words.tables/table/get_preferredwidth/
 ---
 ## Table::get_PreferredWidth method
@@ -47,4 +48,4 @@ doc->Save(ArtifactsDir + u"DocumentBuilder.InsertTableWithPreferredWidth.docx");
 * Class [PreferredWidth](../../preferredwidth/)
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

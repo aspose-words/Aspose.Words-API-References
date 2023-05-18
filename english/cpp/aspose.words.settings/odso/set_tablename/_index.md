@@ -1,9 +1,10 @@
 ---
-title: set_TableName
+title: Aspose::Words::Settings::Odso::set_TableName method
+linktitle: set_TableName
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the particular set of data that a source shall be connected to within an external data source. The default value is an empty string.
+description: 'Aspose::Words::Settings::Odso::set_TableName method. Specifies the particular set of data that a source shall be connected to within an external data source. The default value is an empty string in C++.'
 type: docs
-weight: 248
+weight: 20000
 url: /cpp/aspose.words.settings/odso/set_tablename/
 ---
 ## Odso::set_TableName method
@@ -19,4 +20,4 @@ void Aspose::Words::Settings::Odso::set_TableName(const System::String &value)
 
 * Class [Odso](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

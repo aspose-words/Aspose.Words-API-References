@@ -1,9 +1,10 @@
 ---
-title: get_DataPoints
+title: Aspose::Words::Drawing::Charts::ChartSeries::get_DataPoints method
+linktitle: get_DataPoints
 second_title: Aspose.Words for C++ API Reference
-description: Returns a collection of formatting objects for all data points in this series.
+description: 'Aspose::Words::Drawing::Charts::ChartSeries::get_DataPoints method. Returns a collection of formatting objects for all data points in this series in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.drawing.charts/chartseries/get_datapoints/
 ---
 ## ChartSeries::get_DataPoints method
@@ -95,4 +96,4 @@ static void ApplyDataLabels(SharedPtr<ChartSeries> series, int labelsCount, Stri
 * Class [ChartDataPointCollection](../../chartdatapointcollection/)
 * Class [ChartSeries](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

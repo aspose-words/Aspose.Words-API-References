@@ -1,9 +1,10 @@
 ---
-title: get_IsMultiLevel
+title: Aspose::Words::Lists::List::get_IsMultiLevel method
+linktitle: get_IsMultiLevel
 second_title: Aspose.Words for C++ API Reference
-description: Returns true when the list contains 9 levels; false when 1 level.
+description: 'Aspose::Words::Lists::List::get_IsMultiLevel method. Returns true when the list contains 9 levels; false when 1 level in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.lists/list/get_ismultilevel/
 ---
 ## List::get_IsMultiLevel method
@@ -85,4 +86,4 @@ builder->get_Document()->Save(ArtifactsDir + u"Lists.CreateAndUseListStyle.docx"
 
 * Class [List](../)
 * Namespace [Aspose::Words::Lists](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

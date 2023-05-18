@@ -1,9 +1,10 @@
 ---
-title: Type
+title: Aspose::Words::Fonts::FontSubstitutionSettings::Type method
+linktitle: Type
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Type method of Aspose::Words::Fonts::FontSubstitutionSettings class in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words.fonts/fontsubstitutionsettings/type/
 ---
 ## FontSubstitutionSettings::Type method
@@ -19,4 +20,4 @@ static const System::TypeInfo & Aspose::Words::Fonts::FontSubstitutionSettings::
 
 * Class [FontSubstitutionSettings](../)
 * Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

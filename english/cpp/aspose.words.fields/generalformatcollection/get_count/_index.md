@@ -1,9 +1,10 @@
 ---
-title: get_Count
+title: Aspose::Words::Fields::GeneralFormatCollection::get_Count method
+linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
-description: Gets the total number of the items in the collection.
+description: 'Aspose::Words::Fields::GeneralFormatCollection::get_Count method. Gets the total number of the items in the collection in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.fields/generalformatcollection/get_count/
 ---
 ## GeneralFormatCollection::get_Count method
@@ -86,4 +87,4 @@ ASSERT_EQ(0, format->get_GeneralFormats()->get_Count());
 
 * Class [GeneralFormatCollection](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

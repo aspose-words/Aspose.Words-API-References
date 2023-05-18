@@ -1,9 +1,10 @@
 ---
-title: Type
+title: Aspose::Words::Fields::FieldDatabaseDataTable::Type method
+linktitle: Type
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Type method of Aspose::Words::Fields::FieldDatabaseDataTable class in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fields/fielddatabasedatatable/type/
 ---
 ## FieldDatabaseDataTable::Type method
@@ -19,4 +20,4 @@ static const System::TypeInfo & Aspose::Words::Fields::FieldDatabaseDataTable::T
 
 * Class [FieldDatabaseDataTable](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

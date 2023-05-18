@@ -1,9 +1,10 @@
 ---
-title: ReplacingArgs
+title: Aspose::Words::Replacing::ReplacingArgs class
+linktitle: ReplacingArgs
 second_title: Aspose.Words for C++ API Reference
-description: Provides data for a custom replace operation. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Replacing::ReplacingArgs class. Provides data for a custom replace operation. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.replacing/replacingargs/
 ---
 ## ReplacingArgs class
@@ -113,7 +114,7 @@ private:
         auto subDoc = MakeObject<Document>(MyDir + u"Document.docx");
 
         // Insert a document after the paragraph containing the matched text.
-        auto para = System::DynamicCast<Paragraph>(args->get_MatchNode()->get_ParentNode());
+        auto para = System::ExplicitCast<Paragraph>(args->get_MatchNode()->get_ParentNode());
         InsertDocument(para, subDoc);
 
         // Remove the paragraph with the matched text.
@@ -138,7 +139,7 @@ static void InsertDocument(SharedPtr<Node> insertionDestination, SharedPtr<Docum
                 // Skip the node if it is the last empty paragraph in a section.
                 if (srcNode->get_NodeType() == NodeType::Paragraph)
                 {
-                    auto para = System::DynamicCast<Paragraph>(srcNode);
+                    auto para = System::ExplicitCast<Paragraph>(srcNode);
                     if (para->get_IsEndOfSection() && !para->get_HasChildNodes())
                     {
                         continue;
@@ -162,4 +163,4 @@ static void InsertDocument(SharedPtr<Node> insertionDestination, SharedPtr<Docum
 ## See Also
 
 * Namespace [Aspose::Words::Replacing](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

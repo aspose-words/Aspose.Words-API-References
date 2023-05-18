@@ -1,9 +1,10 @@
 ---
-title: Body
+title: Aspose::Words::Body::Body constructor
+linktitle: Body
 second_title: Aspose.Words for C++ API Reference
-description: Initializes a new instance of the Body class.
+description: 'Aspose::Words::Body::Body constructor. Initializes a new instance of the Body class in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words/body/body/
 ---
 ## Body::Body constructor
@@ -79,4 +80,4 @@ doc->Save(ArtifactsDir + u"Section.CreateManually.docx");
 * Class [DocumentBase](../../documentbase/)
 * Class [Body](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::NodeList::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::NodeList class in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words/nodelist/is/
 ---
 ## NodeList::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::NodeList::Is(const System::TypeInfo &target) const o
 
 * Class [NodeList](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

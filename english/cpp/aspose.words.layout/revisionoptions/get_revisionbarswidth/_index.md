@@ -1,9 +1,10 @@
 ---
-title: get_RevisionBarsWidth
+title: Aspose::Words::Layout::RevisionOptions::get_RevisionBarsWidth method
+linktitle: get_RevisionBarsWidth
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets width of revision bars, points.
+description: 'Aspose::Words::Layout::RevisionOptions::get_RevisionBarsWidth method. Gets or sets width of revision bars, points in C++.'
 type: docs
-weight: 196
+weight: 16000
 url: /cpp/aspose.words.layout/revisionoptions/get_revisionbarswidth/
 ---
 ## RevisionOptions::get_RevisionBarsWidth method
@@ -69,4 +70,4 @@ doc->Save(ArtifactsDir + u"Revision.RevisionOptions.pdf");
 
 * Class [RevisionOptions](../)
 * Namespace [Aspose::Words::Layout](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

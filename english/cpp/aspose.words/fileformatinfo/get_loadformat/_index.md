@@ -1,9 +1,10 @@
 ---
-title: get_LoadFormat
+title: Aspose::Words::FileFormatInfo::get_LoadFormat method
+linktitle: get_LoadFormat
 second_title: Aspose.Words for C++ API Reference
-description: Gets the detected document format.
+description: 'Aspose::Words::FileFormatInfo::get_LoadFormat method. Gets the detected document format in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words/fileformatinfo/get_loadformat/
 ---
 ## FileFormatInfo::get_LoadFormat method
@@ -98,4 +99,4 @@ Shows how to use the [FileFormatUtil](../../fileformatutil/) methods to detect t
 * Enum [LoadFormat](../../loadformat/)
 * Class [FileFormatInfo](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

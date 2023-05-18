@@ -1,9 +1,10 @@
 ---
-title: set_Id
+title: Aspose::Words::Markup::CustomXmlPart::set_Id method
+linktitle: set_Id
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Markup::CustomXmlPart::get_Id.'
+description: 'Aspose::Words::Markup::CustomXmlPart::set_Id method. Setter for Aspose::Words::Markup::CustomXmlPart::get_Id in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words.markup/customxmlpart/set_id/
 ---
 ## CustomXmlPart::set_Id method
@@ -19,4 +20,4 @@ void Aspose::Words::Markup::CustomXmlPart::set_Id(const System::String &value)
 
 * Class [CustomXmlPart](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

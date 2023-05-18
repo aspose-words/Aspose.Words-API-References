@@ -1,9 +1,10 @@
 ---
-title: get_RelativeHorizontalPosition
+title: Aspose::Words::Drawing::ShapeBase::get_RelativeHorizontalPosition method
+linktitle: get_RelativeHorizontalPosition
 second_title: Aspose.Words for C++ API Reference
-description: Specifies relative to what the shape is positioned horizontally.
+description: 'Aspose::Words::Drawing::ShapeBase::get_RelativeHorizontalPosition method. Specifies relative to what the shape is positioned horizontally in C++.'
 type: docs
-weight: 534
+weight: 42000
 url: /cpp/aspose.words.drawing/shapebase/get_relativehorizontalposition/
 ---
 ## ShapeBase::get_RelativeHorizontalPosition method
@@ -48,4 +49,4 @@ doc->Save(ArtifactsDir + u"Image.CreateFloatingPageCenter.docx");
 * Enum [RelativeHorizontalPosition](../../relativehorizontalposition/)
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

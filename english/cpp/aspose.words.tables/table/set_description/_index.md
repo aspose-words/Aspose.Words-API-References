@@ -1,9 +1,10 @@
 ---
-title: set_Description
+title: Aspose::Words::Tables::Table::set_Description method
+linktitle: set_Description
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Tables::Table::get_Description.'
+description: 'Aspose::Words::Tables::Table::set_Description method. Setter for Aspose::Words::Tables::Table::get_Description in C++.'
 type: docs
-weight: 664
+weight: 52000
 url: /cpp/aspose.words.tables/table/set_description/
 ---
 ## Table::set_Description method
@@ -19,4 +20,4 @@ void Aspose::Words::Tables::Table::set_Description(const System::String &value)
 
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

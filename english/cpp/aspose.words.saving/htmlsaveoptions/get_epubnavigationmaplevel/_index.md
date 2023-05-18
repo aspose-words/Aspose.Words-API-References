@@ -1,9 +1,10 @@
 ---
-title: get_EpubNavigationMapLevel
+title: Aspose::Words::Saving::HtmlSaveOptions::get_EpubNavigationMapLevel method
+linktitle: get_EpubNavigationMapLevel
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the maximum level of headings populated to the navigation map when exporting to IDPF EPUB or AZW3 formats. Default value is %3.
+description: 'Aspose::Words::Saving::HtmlSaveOptions::get_EpubNavigationMapLevel method. Specifies the maximum level of headings populated to the navigation map when exporting to IDPF EPUB or AZW3 formats. Default value is %3 in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_epubnavigationmaplevel/
 ---
 ## HtmlSaveOptions::get_EpubNavigationMapLevel method
@@ -63,4 +64,4 @@ doc->Save(ArtifactsDir + u"HtmlSaveOptions.EpubHeadings.epub", options);
 
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

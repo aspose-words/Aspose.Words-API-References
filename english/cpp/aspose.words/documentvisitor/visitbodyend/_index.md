@@ -1,9 +1,10 @@
 ---
-title: VisitBodyEnd
+title: Aspose::Words::DocumentVisitor::VisitBodyEnd method
+linktitle: VisitBodyEnd
 second_title: Aspose.Words for C++ API Reference
-description: Called when enumeration of the main text story in a section has ended.
+description: 'Aspose::Words::DocumentVisitor::VisitBodyEnd method. Called when enumeration of the main text story in a section has ended in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words/documentvisitor/visitbodyend/
 ---
 ## DocumentVisitor::VisitBodyEnd method
@@ -164,4 +165,4 @@ private:
 * Class [Body](../../body/)
 * Class [DocumentVisitor](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

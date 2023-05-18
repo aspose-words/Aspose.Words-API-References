@@ -1,9 +1,10 @@
 ---
-title: Type
+title: Aspose::Words::MailMerging::FieldMergingArgs::Type method
+linktitle: Type
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Type method of Aspose::Words::MailMerging::FieldMergingArgs class in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words.mailmerging/fieldmergingargs/type/
 ---
 ## FieldMergingArgs::Type method
@@ -19,4 +20,4 @@ static const System::TypeInfo & Aspose::Words::MailMerging::FieldMergingArgs::Ty
 
 * Class [FieldMergingArgs](../)
 * Namespace [Aspose::Words::MailMerging](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

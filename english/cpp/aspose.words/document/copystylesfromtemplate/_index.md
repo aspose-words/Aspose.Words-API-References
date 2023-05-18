@@ -1,9 +1,10 @@
 ---
-title: CopyStylesFromTemplate
+title: Aspose::Words::Document::CopyStylesFromTemplate method
+linktitle: CopyStylesFromTemplate
 second_title: Aspose.Words for C++ API Reference
-description: Copies styles from the specified template to a document.
+description: 'Aspose::Words::Document::CopyStylesFromTemplate method. Copies styles from the specified template to a document in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words/document/copystylesfromtemplate/
 ---
 ## Document::CopyStylesFromTemplate(const System::SharedPtr\<Aspose::Words::Document\>\&) method
@@ -80,7 +81,7 @@ ASSERT_EQ(21, target->get_Styles()->get_Count());
 * Class [Document](../)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## Document::CopyStylesFromTemplate(const System::String\&) method
 
 
@@ -145,4 +146,4 @@ ASSERT_EQ(21, target->get_Styles()->get_Count());
 
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

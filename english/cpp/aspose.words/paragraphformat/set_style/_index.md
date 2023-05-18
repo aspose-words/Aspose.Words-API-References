@@ -1,9 +1,10 @@
 ---
-title: set_Style
+title: Aspose::Words::ParagraphFormat::set_Style method
+linktitle: set_Style
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::ParagraphFormat::get_Style.'
+description: 'Aspose::Words::ParagraphFormat::set_Style method. Setter for Aspose::Words::ParagraphFormat::get_Style in C++.'
 type: docs
-weight: 937
+weight: 73000
 url: /cpp/aspose.words/paragraphformat/set_style/
 ---
 ## ParagraphFormat::set_Style method
@@ -20,4 +21,4 @@ void Aspose::Words::ParagraphFormat::set_Style(const System::SharedPtr<Aspose::W
 * Class [Style](../../style/)
 * Class [ParagraphFormat](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

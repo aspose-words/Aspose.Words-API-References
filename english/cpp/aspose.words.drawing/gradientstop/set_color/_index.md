@@ -1,9 +1,10 @@
 ---
-title: set_Color
+title: Aspose::Words::Drawing::GradientStop::set_Color method
+linktitle: set_Color
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Drawing::GradientStop::get_Color.'
+description: 'Aspose::Words::Drawing::GradientStop::set_Color method. Setter for Aspose::Words::Drawing::GradientStop::get_Color in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.drawing/gradientstop/set_color/
 ---
 ## GradientStop::set_Color method
@@ -19,4 +20,4 @@ void Aspose::Words::Drawing::GradientStop::set_Color(System::Drawing::Color valu
 
 * Class [GradientStop](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

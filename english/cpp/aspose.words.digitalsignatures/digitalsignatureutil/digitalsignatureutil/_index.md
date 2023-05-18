@@ -1,9 +1,10 @@
 ---
-title: DigitalSignatureUtil
+title: Aspose::Words::DigitalSignatures::DigitalSignatureUtil::DigitalSignatureUtil constructor
+linktitle: DigitalSignatureUtil
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use DigitalSignatureUtil constructor of Aspose::Words::DigitalSignatures::DigitalSignatureUtil class in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.digitalsignatures/digitalsignatureutil/digitalsignatureutil/
 ---
 ## DigitalSignatureUtil::DigitalSignatureUtil constructor
@@ -19,4 +20,4 @@ Aspose::Words::DigitalSignatures::DigitalSignatureUtil::DigitalSignatureUtil()=d
 
 * Class [DigitalSignatureUtil](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

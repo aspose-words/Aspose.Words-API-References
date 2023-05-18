@@ -1,9 +1,10 @@
 ---
-title: FontNameSubstitutionRule
+title: Aspose::Words::Fonts::FontNameSubstitutionRule class
+linktitle: FontNameSubstitutionRule
 second_title: Aspose.Words for C++ API Reference
-description: Font substitution rule for processing font name. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Fonts::FontNameSubstitutionRule class. Font substitution rule for processing font name. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.fonts/fontnamesubstitutionrule/
 ---
 ## FontNameSubstitutionRule class
@@ -28,4 +29,4 @@ class FontNameSubstitutionRule : public Aspose::Words::Fonts::FontSubstitutionRu
 
 * Class [FontSubstitutionRule](../fontsubstitutionrule/)
 * Namespace [Aspose::Words::Fonts](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

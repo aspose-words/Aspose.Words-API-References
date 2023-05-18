@@ -1,9 +1,10 @@
 ---
-title: set_Id
+title: Aspose::Words::WebExtensions::WebExtensionReference::set_Id method
+linktitle: set_Id
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::WebExtensions::WebExtensionReference::get_Id.'
+description: 'Aspose::Words::WebExtensions::WebExtensionReference::set_Id method. Setter for Aspose::Words::WebExtensions::WebExtensionReference::get_Id in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.webextensions/webextensionreference/set_id/
 ---
 ## WebExtensionReference::set_Id method
@@ -19,4 +20,4 @@ void Aspose::Words::WebExtensions::WebExtensionReference::set_Id(const System::S
 
 * Class [WebExtensionReference](../)
 * Namespace [Aspose::Words::WebExtensions](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

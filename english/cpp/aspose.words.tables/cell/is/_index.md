@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Tables::Cell::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Tables::Cell class in C++.'
 type: docs
-weight: 183
+weight: 15000
 url: /cpp/aspose.words.tables/cell/is/
 ---
 ## Cell::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Tables::Cell::Is(const System::TypeInfo &target) con
 
 * Class [Cell](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

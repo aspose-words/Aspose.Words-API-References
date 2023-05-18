@@ -1,9 +1,10 @@
 ---
-title: DocumentProperty
+title: Aspose::Words::Properties::DocumentProperty class
+linktitle: DocumentProperty
 second_title: Aspose.Words for C++ API Reference
-description: Represents a custom or built-in document property. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Properties::DocumentProperty class. Represents a custom or built-in document property. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.properties/documentproperty/
 ---
 ## DocumentProperty class
@@ -58,7 +59,7 @@ for (const auto& docProperty : System::IterateOver(doc->get_BuiltInDocumentPrope
     if (System::ObjectExt::Is<System::Collections::Generic::ICollection<SharedPtr<System::Object>>>(docProperty->get_Value()))
     {
         for (const auto& value : System::IterateOver(
-                 System::DynamicCast_noexcept<System::Collections::Generic::ICollection<SharedPtr<System::Object>>>(docProperty->get_Value())))
+                 System::AsCast<System::Collections::Generic::ICollection<SharedPtr<System::Object>>>(docProperty->get_Value())))
         {
             std::cout << "\tValue:\t\"" << value << "\"" << std::endl;
         }
@@ -73,4 +74,4 @@ for (const auto& docProperty : System::IterateOver(doc->get_BuiltInDocumentPrope
 ## See Also
 
 * Namespace [Aspose::Words::Properties](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

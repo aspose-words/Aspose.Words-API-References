@@ -1,9 +1,10 @@
 ---
-title: set_SourceCode
+title: Aspose::Words::Vba::VbaModule::set_SourceCode method
+linktitle: set_SourceCode
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Vba::VbaModule::get_SourceCode.'
+description: 'Aspose::Words::Vba::VbaModule::set_SourceCode method. Setter for Aspose::Words::Vba::VbaModule::get_SourceCode in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words.vba/vbamodule/set_sourcecode/
 ---
 ## VbaModule::set_SourceCode method
@@ -19,4 +20,4 @@ void Aspose::Words::Vba::VbaModule::set_SourceCode(const System::String &value)
 
 * Class [VbaModule](../)
 * Namespace [Aspose::Words::Vba](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

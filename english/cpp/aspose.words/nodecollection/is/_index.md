@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::NodeCollection::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::NodeCollection class in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words/nodecollection/is/
 ---
 ## NodeCollection::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::NodeCollection::Is(const System::TypeInfo &target) c
 
 * Class [NodeCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

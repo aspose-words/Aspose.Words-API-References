@@ -1,9 +1,10 @@
 ---
-title: PageSavingArgs
+title: Aspose::Words::Saving::PageSavingArgs::PageSavingArgs constructor
+linktitle: PageSavingArgs
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use PageSavingArgs constructor of Aspose::Words::Saving::PageSavingArgs class in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.saving/pagesavingargs/pagesavingargs/
 ---
 ## PageSavingArgs::PageSavingArgs constructor
@@ -19,4 +20,4 @@ Aspose::Words::Saving::PageSavingArgs::PageSavingArgs()
 
 * Class [PageSavingArgs](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: Accept
+title: Aspose::Words::Notes::Footnote::Accept method
+linktitle: Accept
 second_title: Aspose.Words for C++ API Reference
-description: Accepts a visitor.
+description: 'Aspose::Words::Notes::Footnote::Accept method. Accepts a visitor in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.notes/footnote/accept/
 ---
 ## Footnote::Accept method
@@ -113,4 +114,4 @@ private:
 * Class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * Class [Footnote](../)
 * Namespace [Aspose::Words::Notes](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

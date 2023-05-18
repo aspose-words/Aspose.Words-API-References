@@ -1,9 +1,10 @@
 ---
-title: InitializeIterator
+title: Aspose::Words::Layout::LayoutEnumerator::InitializeIterator method
+linktitle: InitializeIterator
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use InitializeIterator method of Aspose::Words::Layout::LayoutEnumerator class in C++.'
 type: docs
-weight: 170
+weight: 14000
 url: /cpp/aspose.words.layout/layoutenumerator/initializeiterator/
 ---
 ## LayoutEnumerator::InitializeIterator method
@@ -19,4 +20,4 @@ void Aspose::Words::Layout::LayoutEnumerator::InitializeIterator() override
 
 * Class [LayoutEnumerator](../)
 * Namespace [Aspose::Words::Layout](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

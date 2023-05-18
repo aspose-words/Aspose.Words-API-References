@@ -1,9 +1,10 @@
 ---
-title: idx_get
+title: Aspose::Words::Drawing::Charts::ChartSeriesCollection::idx_get method
+linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
-description: Returns a ChartSeries at the specified index.
+description: 'Aspose::Words::Drawing::Charts::ChartSeriesCollection::idx_get method. Returns a ChartSeries at the specified index in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.drawing.charts/chartseriescollection/idx_get/
 ---
 ## ChartSeriesCollection::idx_get method
@@ -82,4 +83,4 @@ chartData->Clear();
 * Class [ChartSeries](../../chartseries/)
 * Class [ChartSeriesCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

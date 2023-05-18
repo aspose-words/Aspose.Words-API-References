@@ -1,9 +1,10 @@
 ---
-title: set_FieldUpdatingProgressCallback
+title: Aspose::Words::Fields::FieldOptions::set_FieldUpdatingProgressCallback method
+linktitle: set_FieldUpdatingProgressCallback
 second_title: Aspose.Words for C++ API Reference
-description: Sets IFieldUpdatingProgressCallback implementation.
+description: 'Aspose::Words::Fields::FieldOptions::set_FieldUpdatingProgressCallback method. Sets IFieldUpdatingProgressCallback implementation in C++.'
 type: docs
-weight: 456
+weight: 36000
 url: /cpp/aspose.words.fields/fieldoptions/set_fieldupdatingprogresscallback/
 ---
 ## FieldOptions::set_FieldUpdatingProgressCallback method
@@ -20,4 +21,4 @@ void Aspose::Words::Fields::FieldOptions::set_FieldUpdatingProgressCallback(cons
 * Interface [IFieldUpdatingProgressCallback](../../ifieldupdatingprogresscallback/)
 * Class [FieldOptions](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

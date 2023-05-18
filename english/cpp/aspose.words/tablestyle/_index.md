@@ -1,9 +1,10 @@
 ---
-title: TableStyle
+title: Aspose::Words::TableStyle class
+linktitle: TableStyle
 second_title: Aspose.Words for C++ API Reference
-description: Represents a table style. To learn more, visit the  documentation article.
+description: 'Aspose::Words::TableStyle class. Represents a table style. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 859
+weight: 67000
 url: /cpp/aspose.words/tablestyle/
 ---
 ## TableStyle class
@@ -97,7 +98,7 @@ builder->InsertCell();
 builder->InsertCell();
 builder->EndTable();
 
-auto tableStyle = System::DynamicCast<TableStyle>(doc->get_Styles()->Add(StyleType::Table, u"MyTableStyle1"));
+auto tableStyle = System::ExplicitCast<TableStyle>(doc->get_Styles()->Add(StyleType::Table, u"MyTableStyle1"));
 tableStyle->set_AllowBreakAcrossPages(true);
 tableStyle->set_Bidi(true);
 tableStyle->set_CellSpacing(5);
@@ -124,4 +125,4 @@ doc->Save(ArtifactsDir + u"Table.TableStyleCreation.docx");
 
 * Class [Style](../style/)
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

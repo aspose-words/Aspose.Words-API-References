@@ -1,9 +1,10 @@
 ---
-title: get_AltName
+title: Aspose::Words::Fonts::FontInfo::get_AltName method
+linktitle: get_AltName
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the alternate name for the font.
+description: 'Aspose::Words::Fonts::FontInfo::get_AltName method. Gets or sets the alternate name for the font in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fonts/fontinfo/get_altname/
 ---
 ## FontInfo::get_AltName method
@@ -61,4 +62,4 @@ while (fontCollectionEnumerator->MoveNext())
 
 * Class [FontInfo](../)
 * Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

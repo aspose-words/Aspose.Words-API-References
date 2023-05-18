@@ -1,9 +1,10 @@
 ---
-title: const_iterator
+title: Aspose::Words::Vba::VbaModuleCollection::const_iterator typedef
+linktitle: const_iterator
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Aspose::Words::Vba::VbaModuleCollection::const_iterator typedef of Aspose::Words::Vba::VbaModuleCollection class in C++.'
 type: docs
-weight: 196
+weight: 16000
 url: /cpp/aspose.words.vba/vbamodulecollection/const_iterator/
 ---
 ## const_iterator typedef
@@ -19,4 +20,4 @@ using Aspose::Words::Vba::VbaModuleCollection::const_iterator =  typename iterat
 
 * Class [VbaModuleCollection](../)
 * Namespace [Aspose::Words::Vba](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

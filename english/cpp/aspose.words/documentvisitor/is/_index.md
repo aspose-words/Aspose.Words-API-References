@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::DocumentVisitor::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::DocumentVisitor class in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words/documentvisitor/is/
 ---
 ## DocumentVisitor::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::DocumentVisitor::Is(const System::TypeInfo &target) 
 
 * Class [DocumentVisitor](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

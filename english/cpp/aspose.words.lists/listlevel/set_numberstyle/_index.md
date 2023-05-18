@@ -1,9 +1,10 @@
 ---
-title: set_NumberStyle
+title: Aspose::Words::Lists::ListLevel::set_NumberStyle method
+linktitle: set_NumberStyle
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Lists::ListLevel::get_NumberStyle.'
+description: 'Aspose::Words::Lists::ListLevel::set_NumberStyle method. Setter for Aspose::Words::Lists::ListLevel::get_NumberStyle in C++.'
 type: docs
-weight: 352
+weight: 28000
 url: /cpp/aspose.words.lists/listlevel/set_numberstyle/
 ---
 ## ListLevel::set_NumberStyle method
@@ -20,4 +21,4 @@ void Aspose::Words::Lists::ListLevel::set_NumberStyle(Aspose::Words::NumberStyle
 * Enum [NumberStyle](../../../aspose.words/numberstyle/)
 * Class [ListLevel](../)
 * Namespace [Aspose::Words::Lists](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

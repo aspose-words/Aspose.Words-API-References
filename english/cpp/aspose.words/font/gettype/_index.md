@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Font::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Font class in C++.'
 type: docs
-weight: 729
+weight: 57000
 url: /cpp/aspose.words/font/gettype/
 ---
 ## Font::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Font::GetType() const override
 
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

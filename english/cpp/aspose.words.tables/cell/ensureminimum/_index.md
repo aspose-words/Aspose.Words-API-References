@@ -1,9 +1,10 @@
 ---
-title: EnsureMinimum
+title: Aspose::Words::Tables::Cell::EnsureMinimum method
+linktitle: EnsureMinimum
 second_title: Aspose.Words for C++ API Reference
-description: If the last child is not a paragraph, creates and appends one empty paragraph.
+description: 'Aspose::Words::Tables::Cell::EnsureMinimum method. If the last child is not a paragraph, creates and appends one empty paragraph in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.tables/cell/ensureminimum/
 ---
 ## Cell::EnsureMinimum method
@@ -44,4 +45,4 @@ cell->get_FirstParagraph()->AppendChild(MakeObject<Run>(doc, u"Hello world!"));
 
 * Class [Cell](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

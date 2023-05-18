@@ -1,9 +1,10 @@
 ---
-title: set_PaperColor
+title: Aspose::Words::Saving::ImageSaveOptions::set_PaperColor method
+linktitle: set_PaperColor
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::ImageSaveOptions::get_PaperColor.'
+description: 'Aspose::Words::Saving::ImageSaveOptions::set_PaperColor method. Setter for Aspose::Words::Saving::ImageSaveOptions::get_PaperColor in C++.'
 type: docs
-weight: 352
+weight: 28000
 url: /cpp/aspose.words.saving/imagesaveoptions/set_papercolor/
 ---
 ## ImageSaveOptions::set_PaperColor method
@@ -19,4 +20,4 @@ void Aspose::Words::Saving::ImageSaveOptions::set_PaperColor(System::Drawing::Co
 
 * Class [ImageSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

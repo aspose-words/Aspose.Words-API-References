@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Layout::LayoutCollector::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Layout::LayoutCollector class in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.layout/layoutcollector/gettype/
 ---
 ## LayoutCollector::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Layout::LayoutCollector::GetType
 
 * Class [LayoutCollector](../)
 * Namespace [Aspose::Words::Layout](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

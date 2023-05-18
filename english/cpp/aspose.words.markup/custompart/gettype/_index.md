@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Markup::CustomPart::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Markup::CustomPart class in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.markup/custompart/gettype/
 ---
 ## CustomPart::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Markup::CustomPart::GetType() co
 
 * Class [CustomPart](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

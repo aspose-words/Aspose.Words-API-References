@@ -1,9 +1,10 @@
 ---
-title: Table
+title: Aspose::Words::Tables::Table class
+linktitle: Table
 second_title: Aspose.Words for C++ API Reference
-description: Represents a table in a Word document. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Tables::Table class. Represents a table in a Word document. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.tables/table/
 ---
 ## Table class
@@ -31,7 +32,7 @@ class Table : public Aspose::Words::CompositeNode
 | [get_AbsoluteVerticalDistance](./get_absoluteverticaldistance/)() | Gets or sets absolute vertical floating table position specified by the table properties, in points. Default value is 0. |
 | [get_Alignment](./get_alignment/)() | Specifies how an inline table is aligned in the document. |
 | [get_AllowAutoFit](./get_allowautofit/)() | Allows Microsoft Word and Aspose.Words to automatically resize cells in a table to fit their contents. |
-| [get_AllowCellSpacing](./get_allowcellspacing/)() | Gets or sets the "Allow spacing between cells" option. |
+| [get_AllowCellSpacing](./get_allowcellspacing/)() | Gets the "Allow spacing between cells" option. |
 | [get_AllowOverlap](./get_allowoverlap/)() | Gets whether a floating table shall allow other floating objects in the document to overlap its extents when displayed. Default value is **true**. |
 | [get_Bidi](./get_bidi/)() | Gets or sets whether this is a right-to-left table. |
 | [get_BottomPadding](./get_bottompadding/)() | Gets or sets the amount of space (in points) to add below the contents of cells. |
@@ -40,10 +41,10 @@ class Table : public Aspose::Words::CompositeNode
 | [get_Count](../../aspose.words/compositenode/get_count/)() | Gets the number of immediate children of this node. |
 | [get_CustomNodeId](../../aspose.words/node/get_customnodeid/)() const | Specifies custom node identifier. |
 | [get_Description](./get_description/)() | Gets or sets description of this table. It provides an alternative text representation of the information contained in the table. |
-| [get_DistanceBottom](./get_distancebottom/)() | Gets distance between table bottom and the surrounding text, in points. |
-| [get_DistanceLeft](./get_distanceleft/)() | Gets distance between table left and the surrounding text, in points. |
-| [get_DistanceRight](./get_distanceright/)() | Gets distance between table right and the surrounding text, in points. |
-| [get_DistanceTop](./get_distancetop/)() | Gets distance between table top and the surrounding text, in points. |
+| [get_DistanceBottom](./get_distancebottom/)() | Gets or sets distance between table bottom and the surrounding text, in points. |
+| [get_DistanceLeft](./get_distanceleft/)() | Gets or sets distance between table left and the surrounding text, in points. |
+| [get_DistanceRight](./get_distanceright/)() | Gets or sets distance between table right and the surrounding text, in points. |
+| [get_DistanceTop](./get_distancetop/)() | Gets or sets distance between table top and the surrounding text, in points. |
 | virtual [get_Document](../../aspose.words/node/get_document/)() const | Gets the document to which this node belongs. |
 | [get_FirstChild](../../aspose.words/compositenode/get_firstchild/)() const | Gets the first child of the node. |
 | [get_FirstRow](./get_firstrow/)() | Returns the first [Row](../row/) node in the table. |
@@ -97,12 +98,16 @@ class Table : public Aspose::Words::CompositeNode
 | [set_AbsoluteVerticalDistance](./set_absoluteverticaldistance/)(double) | Setter for [Aspose::Words::Tables::Table::get_AbsoluteVerticalDistance](./get_absoluteverticaldistance/). |
 | [set_Alignment](./set_alignment/)(Aspose::Words::Tables::TableAlignment) | Setter for [Aspose::Words::Tables::Table::get_Alignment](./get_alignment/). |
 | [set_AllowAutoFit](./set_allowautofit/)(bool) | Setter for [Aspose::Words::Tables::Table::get_AllowAutoFit](./get_allowautofit/). |
-| [set_AllowCellSpacing](./set_allowcellspacing/)(bool) | Setter for [Aspose::Words::Tables::Table::get_AllowCellSpacing](./get_allowcellspacing/). |
+| [set_AllowCellSpacing](./set_allowcellspacing/)(bool) | Sets the "Allow spacing between cells" option. |
 | [set_Bidi](./set_bidi/)(bool) | Setter for [Aspose::Words::Tables::Table::get_Bidi](./get_bidi/). |
 | [set_BottomPadding](./set_bottompadding/)(double) | Setter for [Aspose::Words::Tables::Table::get_BottomPadding](./get_bottompadding/). |
 | [set_CellSpacing](./set_cellspacing/)(double) | Setter for [Aspose::Words::Tables::Table::get_CellSpacing](./get_cellspacing/). |
 | [set_CustomNodeId](../../aspose.words/node/set_customnodeid/)(int32_t) | Setter for [Aspose::Words::Node::get_CustomNodeId](../../aspose.words/node/get_customnodeid/). |
 | [set_Description](./set_description/)(const System::String\&) | Setter for [Aspose::Words::Tables::Table::get_Description](./get_description/). |
+| [set_DistanceBottom](./set_distancebottom/)(double) | Setter for [Aspose::Words::Tables::Table::get_DistanceBottom](./get_distancebottom/). |
+| [set_DistanceLeft](./set_distanceleft/)(double) | Setter for [Aspose::Words::Tables::Table::get_DistanceLeft](./get_distanceleft/). |
+| [set_DistanceRight](./set_distanceright/)(double) | Setter for [Aspose::Words::Tables::Table::get_DistanceRight](./get_distanceright/). |
+| [set_DistanceTop](./set_distancetop/)(double) | Setter for [Aspose::Words::Tables::Table::get_DistanceTop](./get_distancetop/). |
 | [set_HorizontalAnchor](./set_horizontalanchor/)(Aspose::Words::Drawing::RelativeHorizontalPosition) | Setter for [Aspose::Words::Tables::Table::get_HorizontalAnchor](./get_horizontalanchor/). |
 | [set_LeftIndent](./set_leftindent/)(double) | Setter for [Aspose::Words::Tables::Table::get_LeftIndent](./get_leftindent/). |
 | [set_LeftPadding](./set_leftpadding/)(double) | Setter for [Aspose::Words::Tables::Table::get_LeftPadding](./get_leftpadding/). |
@@ -299,4 +304,4 @@ static SharedPtr<Table> CreateTable(SharedPtr<Document> doc, int rowCount, int c
 
 * Class [CompositeNode](../../aspose.words/compositenode/)
 * Namespace [Aspose::Words::Tables](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

@@ -1,9 +1,10 @@
 ---
-title: IReplacingCallback
+title: Aspose::Words::Replacing::IReplacingCallback interface
+linktitle: IReplacingCallback
 second_title: Aspose.Words for C++ API Reference
-description: Implement this interface if you want to have your own custom method called during a find and replace operation.
+description: 'Aspose::Words::Replacing::IReplacingCallback interface. Implement this interface if you want to have your own custom method called during a find and replace operation in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.replacing/ireplacingcallback/
 ---
 ## IReplacingCallback interface
@@ -12,7 +13,7 @@ url: /cpp/aspose.words.replacing/ireplacingcallback/
 Implement this interface if you want to have your own custom method called during a find and replace operation.
 
 ```cpp
-class IReplacingCallback : public System::Object
+class IReplacingCallback : public virtual System::Object
 ```
 
 ## Methods
@@ -155,7 +156,7 @@ private:
         auto subDoc = MakeObject<Document>(MyDir + u"Document.docx");
 
         // Insert a document after the paragraph containing the matched text.
-        auto para = System::DynamicCast<Paragraph>(args->get_MatchNode()->get_ParentNode());
+        auto para = System::ExplicitCast<Paragraph>(args->get_MatchNode()->get_ParentNode());
         InsertDocument(para, subDoc);
 
         // Remove the paragraph with the matched text.
@@ -180,7 +181,7 @@ static void InsertDocument(SharedPtr<Node> insertionDestination, SharedPtr<Docum
                 // Skip the node if it is the last empty paragraph in a section.
                 if (srcNode->get_NodeType() == NodeType::Paragraph)
                 {
-                    auto para = System::DynamicCast<Paragraph>(srcNode);
+                    auto para = System::ExplicitCast<Paragraph>(srcNode);
                     if (para->get_IsEndOfSection() && !para->get_HasChildNodes())
                     {
                         continue;
@@ -204,4 +205,4 @@ static void InsertDocument(SharedPtr<Node> insertionDestination, SharedPtr<Docum
 ## See Also
 
 * Namespace [Aspose::Words::Replacing](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

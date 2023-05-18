@@ -1,9 +1,10 @@
 ---
-title: set_UserInitials
+title: Aspose::Words::Fields::FieldUserInitials::set_UserInitials method
+linktitle: set_UserInitials
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fields::FieldUserInitials::get_UserInitials.'
+description: 'Aspose::Words::Fields::FieldUserInitials::set_UserInitials method. Setter for Aspose::Words::Fields::FieldUserInitials::get_UserInitials in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.fields/fielduserinitials/set_userinitials/
 ---
 ## FieldUserInitials::set_UserInitials method
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldUserInitials::set_UserInitials(const System::St
 
 * Class [FieldUserInitials](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

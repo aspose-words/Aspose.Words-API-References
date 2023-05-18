@@ -1,9 +1,10 @@
 ---
-title: set_TruncateFontHeightsLikeWP6
+title: Aspose::Words::Settings::CompatibilityOptions::set_TruncateFontHeightsLikeWP6 method
+linktitle: set_TruncateFontHeightsLikeWP6
 second_title: Aspose.Words for C++ API Reference
-description: Emulate WordPerfect 6.x Font Height Calculation.
+description: 'Aspose::Words::Settings::CompatibilityOptions::set_TruncateFontHeightsLikeWP6 method. Emulate WordPerfect 6.x Font Height Calculation in C++.'
 type: docs
-weight: 1691
+weight: 131000
 url: /cpp/aspose.words.settings/compatibilityoptions/set_truncatefontheightslikewp6/
 ---
 ## CompatibilityOptions::set_TruncateFontHeightsLikeWP6 method
@@ -19,4 +20,4 @@ void Aspose::Words::Settings::CompatibilityOptions::set_TruncateFontHeightsLikeW
 
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

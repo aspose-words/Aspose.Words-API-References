@@ -1,9 +1,10 @@
 ---
-title: get_ComparisonOperator
+title: Aspose::Words::Fields::FieldNextIf::get_ComparisonOperator method
+linktitle: get_ComparisonOperator
 second_title: Aspose.Words for C++ API Reference
-description: Gets the comparison operator.
+description: 'Aspose::Words::Fields::FieldNextIf::get_ComparisonOperator method. Gets the comparison operator in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fields/fieldnextif/get_comparisonoperator/
 ---
 ## FieldNextIf::get_ComparisonOperator method
@@ -19,4 +20,4 @@ System::String Aspose::Words::Fields::FieldNextIf::get_ComparisonOperator()
 
 * Class [FieldNextIf](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: FieldInclude
+title: Aspose::Words::Fields::FieldInclude class
+linktitle: FieldInclude
 second_title: Aspose.Words for C++ API Reference
-description: Implements the INCLUDE field. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Fields::FieldInclude class. Implements the INCLUDE field. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 716
+weight: 56000
 url: /cpp/aspose.words.fields/fieldinclude/
 ---
 ## FieldInclude class
@@ -27,7 +28,7 @@ class FieldInclude : public Aspose::Words::Fields::Field,
 | [get_FieldEnd](../field/get_fieldend/)() const | Gets the node that represents the field end. |
 | [get_FieldStart](../field/get_fieldstart/)() const | Gets the node that represents the start of the field. |
 | [get_Format](../field/get_format/)() | Gets a [FieldFormat](../fieldformat/) object that provides typed access to field's formatting. |
-| [get_IsDirty](../field/get_isdirty/)() | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [get_IsDirty](../field/get_isdirty/)() | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [get_IsLocked](../field/get_islocked/)() | Gets or sets whether the field is locked (should not recalculate its result). |
 | [get_LocaleId](../field/get_localeid/)() | Gets or sets the LCID of the field. |
 | [get_LockFields](./get_lockfields/)() override | Gets or sets whether to prevent fields in the included document from being updated. |
@@ -43,7 +44,7 @@ class FieldInclude : public Aspose::Words::Fields::Field,
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
 | [set_BookmarkName](./set_bookmarkname/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldInclude::get_BookmarkName](./get_bookmarkname/). |
-| [set_IsDirty](../field/set_isdirty/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsDirty](../field/get_isdirty/). |
+| [set_IsDirty](../field/set_isdirty/)(bool) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [set_IsLocked](../field/set_islocked/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsLocked](../field/get_islocked/). |
 | [set_LocaleId](../field/set_localeid/)(int32_t) | Setter for [Aspose::Words::Fields::Field::get_LocaleId](../field/get_localeid/). |
 | [set_LockFields](./set_lockfields/)(bool) | Setter for [Aspose::Words::Fields::FieldInclude::get_LockFields](./get_lockfields/). |
@@ -66,7 +67,7 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 
 // We can use an INCLUDE field to import a portion of another document in the local file system.
 // The bookmark from the other document that we reference with this field contains this imported portion.
-auto field = System::DynamicCast<FieldInclude>(builder->InsertField(FieldType::FieldInclude, true));
+auto field = System::ExplicitCast<FieldInclude>(builder->InsertField(FieldType::FieldInclude, true));
 field->set_SourceFullName(MyDir + u"Bookmarks.docx");
 field->set_BookmarkName(u"MyBookmark1");
 field->set_LockFields(false);
@@ -82,4 +83,4 @@ doc->Save(ArtifactsDir + u"Field.INCLUDE.docx");
 
 * Class [Field](../field/)
 * Namespace [Aspose::Words::Fields](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

@@ -1,9 +1,10 @@
 ---
-title: get_CreateOutlinesForHeadingsInTables
+title: Aspose::Words::Saving::OutlineOptions::get_CreateOutlinesForHeadingsInTables method
+linktitle: get_CreateOutlinesForHeadingsInTables
 second_title: Aspose.Words for C++ API Reference
-description: Specifies whether or not to create outlines for headings (paragraphs formatted with the Heading styles) inside tables.
+description: 'Aspose::Words::Saving::OutlineOptions::get_CreateOutlinesForHeadingsInTables method. Specifies whether or not to create outlines for headings (paragraphs formatted with the Heading styles) inside tables in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.saving/outlineoptions/get_createoutlinesforheadingsintables/
 ---
 ## OutlineOptions::get_CreateOutlinesForHeadingsInTables method
@@ -67,4 +68,4 @@ doc->Save(ArtifactsDir + u"PdfSaveOptions.TableHeadingOutlines.pdf", pdfSaveOpti
 
 * Class [OutlineOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

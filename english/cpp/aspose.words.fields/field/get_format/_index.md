@@ -1,9 +1,10 @@
 ---
-title: get_Format
+title: Aspose::Words::Fields::Field::get_Format method
+linktitle: get_Format
 second_title: Aspose.Words for C++ API Reference
-description: Gets a FieldFormat object that provides typed access to field's formatting.
+description: 'Aspose::Words::Fields::Field::get_Format method. Gets a FieldFormat object that provides typed access to field''s formatting in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.fields/field/get_format/
 ---
 ## Field::get_Format method
@@ -87,4 +88,4 @@ ASSERT_EQ(0, format->get_GeneralFormats()->get_Count());
 * Class [FieldFormat](../../fieldformat/)
 * Class [Field](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

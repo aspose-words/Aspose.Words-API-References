@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Body::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Body class in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words/body/is/
 ---
 ## Body::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Body::Is(const System::TypeInfo &target) const overr
 
 * Class [Body](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

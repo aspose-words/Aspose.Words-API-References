@@ -1,9 +1,10 @@
 ---
-title: get_UserPromptRespondent
+title: Aspose::Words::Fields::FieldOptions::get_UserPromptRespondent method
+linktitle: get_UserPromptRespondent
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the respondent to user prompts during field update.
+description: 'Aspose::Words::Fields::FieldOptions::get_UserPromptRespondent method. Gets or sets the respondent to user prompts during field update in C++.'
 type: docs
-weight: 274
+weight: 22000
 url: /cpp/aspose.words.fields/fieldoptions/get_userpromptrespondent/
 ---
 ## FieldOptions::get_UserPromptRespondent method
@@ -26,4 +27,4 @@ The default value is **null**.
 * Interface [IFieldUserPromptRespondent](../../ifielduserpromptrespondent/)
 * Class [FieldOptions](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

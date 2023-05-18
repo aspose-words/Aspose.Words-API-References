@@ -1,9 +1,10 @@
 ---
-title: set_Category
+title: Aspose::Words::BuildingBlocks::BuildingBlock::set_Category method
+linktitle: set_Category
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::BuildingBlocks::BuildingBlock::get_Category.'
+description: 'Aspose::Words::BuildingBlocks::BuildingBlock::set_Category method. Setter for Aspose::Words::BuildingBlocks::BuildingBlock::get_Category in C++.'
 type: docs
-weight: 222
+weight: 18000
 url: /cpp/aspose.words.buildingblocks/buildingblock/set_category/
 ---
 ## BuildingBlock::set_Category method
@@ -19,4 +20,4 @@ void Aspose::Words::BuildingBlocks::BuildingBlock::set_Category(const System::St
 
 * Class [BuildingBlock](../)
 * Namespace [Aspose::Words::BuildingBlocks](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

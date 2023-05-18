@@ -1,9 +1,10 @@
 ---
-title: get_Email
+title: Aspose::Words::SignatureLineOptions::get_Email method
+linktitle: get_Email
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets suggested signer's e-mail address. Default value for this property is empty string.
+description: 'Aspose::Words::SignatureLineOptions::get_Email method. Gets or sets suggested signer''s e-mail address. Default value for this property is empty string in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words/signaturelineoptions/get_email/
 ---
 ## SignatureLineOptions::get_Email method
@@ -56,7 +57,7 @@ DigitalSignatureUtil::Sign(ArtifactsDir + u"DocumentBuilder.SignatureLineProvide
 // Re-open our saved document, and verify that the "IsSigned" and "IsValid" properties both equal "true",
 // indicating that the signature line contains a signature.
 doc = MakeObject<Document>(ArtifactsDir + u"DocumentBuilder.SignatureLineProviderId.Signed.docx");
-auto shape = System::DynamicCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
+auto shape = System::ExplicitCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
 signatureLine = shape->get_SignatureLine();
 
 ASSERT_TRUE(signatureLine->get_IsSigned());
@@ -67,4 +68,4 @@ ASSERT_TRUE(signatureLine->get_IsValid());
 
 * Class [SignatureLineOptions](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

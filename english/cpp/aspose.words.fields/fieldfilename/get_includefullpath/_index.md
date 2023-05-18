@@ -1,9 +1,10 @@
 ---
-title: get_IncludeFullPath
+title: Aspose::Words::Fields::FieldFileName::get_IncludeFullPath method
+linktitle: get_IncludeFullPath
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets whether to include the full file path name.
+description: 'Aspose::Words::Fields::FieldFileName::get_IncludeFullPath method. Gets or sets whether to include the full file path name in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fields/fieldfilename/get_includefullpath/
 ---
 ## FieldFileName::get_IncludeFullPath method
@@ -29,7 +30,7 @@ builder->MoveToDocumentEnd();
 builder->Writeln();
 
 // This FILENAME field will display the local system file name of the document we loaded.
-auto field = System::DynamicCast<FieldFileName>(builder->InsertField(FieldType::FieldFileName, true));
+auto field = System::ExplicitCast<FieldFileName>(builder->InsertField(FieldType::FieldFileName, true));
 field->Update();
 
 ASSERT_EQ(u" FILENAME ", field->GetFieldCode());
@@ -39,7 +40,7 @@ builder->Writeln();
 
 // By default, the FILENAME field shows the file's name, but not its full local file system path.
 // We can set a flag to make it show the full file path.
-field = System::DynamicCast<FieldFileName>(builder->InsertField(FieldType::FieldFileName, true));
+field = System::ExplicitCast<FieldFileName>(builder->InsertField(FieldType::FieldFileName, true));
 field->set_IncludeFullPath(true);
 field->Update();
 
@@ -61,4 +62,4 @@ doc->Save(ArtifactsDir + doc->get_FieldOptions()->get_FileName());
 
 * Class [FieldFileName](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

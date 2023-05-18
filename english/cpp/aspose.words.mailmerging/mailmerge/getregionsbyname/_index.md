@@ -1,9 +1,10 @@
 ---
-title: GetRegionsByName
+title: Aspose::Words::MailMerging::MailMerge::GetRegionsByName method
+linktitle: GetRegionsByName
 second_title: Aspose.Words for C++ API Reference
-description: Returns a collection of mail merge regions with the specified name.
+description: 'Aspose::Words::MailMerging::MailMerge::GetRegionsByName method. Returns a collection of mail merge regions with the specified name in C++.'
 type: docs
-weight: 287
+weight: 23000
 url: /cpp/aspose.words.mailmerging/mailmerge/getregionsbyname/
 ---
 ## MailMerge::GetRegionsByName method
@@ -82,4 +83,4 @@ ASSERT_EQ(u"Column2", mergeFieldNames[0]);
 * Class [MailMergeRegionInfo](../../mailmergeregioninfo/)
 * Class [MailMerge](../)
 * Namespace [Aspose::Words::MailMerging](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

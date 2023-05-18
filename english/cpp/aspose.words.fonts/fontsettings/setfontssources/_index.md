@@ -1,9 +1,10 @@
 ---
-title: SetFontsSources
+title: Aspose::Words::Fonts::FontSettings::SetFontsSources method
+linktitle: SetFontsSources
 second_title: Aspose.Words for C++ API Reference
-description: Sets the sources where Aspose.Words looks for TrueType fonts when rendering documents or embedding fonts.
+description: 'Aspose::Words::Fonts::FontSettings::SetFontsSources method. Sets the sources where Aspose.Words looks for TrueType fonts when rendering documents or embedding fonts in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words.fonts/fontsettings/setfontssources/
 ---
 ## FontSettings::SetFontsSources(const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Fonts::FontSourceBase\>\>\&) method
@@ -81,7 +82,7 @@ FontSettings::get_DefaultInstance()->SetFontsSources(originalFontSources);
 * Class [FontSourceBase](../../fontsourcebase/)
 * Class [FontSettings](../)
 * Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## FontSettings::SetFontsSources(const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Fonts::FontSourceBase\>\>\&, const System::SharedPtr\<System::IO::Stream\>\&) method
 
 
@@ -110,4 +111,4 @@ It is highly recommended to provide the same font sources when loading cache as 
 * Class [FontSourceBase](../../fontsourcebase/)
 * Class [FontSettings](../)
 * Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

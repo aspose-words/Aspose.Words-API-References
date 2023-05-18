@@ -1,9 +1,10 @@
 ---
-title: get_IsMoveToRevision
+title: Aspose::Words::Inline::get_IsMoveToRevision method
+linktitle: get_IsMoveToRevision
 second_title: Aspose.Words for C++ API Reference
-description: Returns true if this object was moved (inserted) in Microsoft Word while change tracking was enabled.
+description: 'Aspose::Words::Inline::get_IsMoveToRevision method. Returns true if this object was moved (inserted) in Microsoft Word while change tracking was enabled in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words/inline/get_ismovetorevision/
 ---
 ## Inline::get_IsMoveToRevision method
@@ -33,7 +34,7 @@ auto doc = MakeObject<Document>(MyDir + u"Revision runs.docx");
 ASSERT_EQ(6, doc->get_Revisions()->get_Count());
 
 // The parent node of a revision is the run that the revision concerns. A Run is an Inline node.
-auto run = System::DynamicCast<Run>(doc->get_Revisions()->idx_get(0)->get_ParentNode());
+auto run = System::ExplicitCast<Run>(doc->get_Revisions()->idx_get(0)->get_ParentNode());
 
 SharedPtr<Paragraph> firstParagraph = run->get_ParentParagraph();
 SharedPtr<RunCollection> runs = firstParagraph->get_Runs();
@@ -74,4 +75,4 @@ ASSERT_TRUE(runs->idx_get(5)->get_IsDeleteRevision());
 
 * Class [Inline](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

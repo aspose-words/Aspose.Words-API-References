@@ -1,9 +1,10 @@
 ---
-title: set_Style
+title: Aspose::Words::Font::set_Style method
+linktitle: set_Style
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Font::get_Style.'
+description: 'Aspose::Words::Font::set_Style method. Setter for Aspose::Words::Font::get_Style in C++.'
 type: docs
-weight: 1210
+weight: 94000
 url: /cpp/aspose.words/font/set_style/
 ---
 ## Font::set_Style method
@@ -20,4 +21,4 @@ void Aspose::Words::Font::set_Style(const System::SharedPtr<Aspose::Words::Style
 * Class [Style](../../style/)
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

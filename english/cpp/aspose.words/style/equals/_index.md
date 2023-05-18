@@ -1,9 +1,10 @@
 ---
-title: Equals
+title: Aspose::Words::Style::Equals method
+linktitle: Equals
 second_title: Aspose.Words for C++ API Reference
-description: Compares with the specified style. Styles Istds are compared for built-in styles only. Styles defaults are not included in comparison. Base style, linked style and next paragraph style are recursively compared.
+description: 'Aspose::Words::Style::Equals method. Compares with the specified style. Styles Istds are compared for built-in styles only. Styles defaults are not included in comparison. Base style, linked style and next paragraph style are recursively compared in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words/style/equals/
 ---
 ## Style::Equals method
@@ -50,4 +51,4 @@ ASPOSE_ASSERT_EQ(doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(
 * Class [Style](../)
 * Class [Style](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

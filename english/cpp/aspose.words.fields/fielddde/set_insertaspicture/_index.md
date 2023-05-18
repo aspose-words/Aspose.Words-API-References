@@ -1,9 +1,10 @@
 ---
-title: set_InsertAsPicture
+title: Aspose::Words::Fields::FieldDde::set_InsertAsPicture method
+linktitle: set_InsertAsPicture
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fields::FieldDde::get_InsertAsPicture.'
+description: 'Aspose::Words::Fields::FieldDde::set_InsertAsPicture method. Setter for Aspose::Words::Fields::FieldDde::get_InsertAsPicture in C++.'
 type: docs
-weight: 222
+weight: 18000
 url: /cpp/aspose.words.fields/fielddde/set_insertaspicture/
 ---
 ## FieldDde::set_InsertAsPicture method
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldDde::set_InsertAsPicture(bool value)
 
 * Class [FieldDde](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

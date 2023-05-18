@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::MailMerging::IMailMergeDataSource::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::MailMerging::IMailMergeDataSource class in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.mailmerging/imailmergedatasource/is/
 ---
 ## IMailMergeDataSource::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::MailMerging::IMailMergeDataSource::Is(const System::
 
 * Interface [IMailMergeDataSource](../)
 * Namespace [Aspose::Words::MailMerging](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

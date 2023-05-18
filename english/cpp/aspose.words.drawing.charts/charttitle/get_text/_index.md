@@ -1,9 +1,10 @@
 ---
-title: get_Text
+title: Aspose::Words::Drawing::Charts::ChartTitle::get_Text method
+linktitle: get_Text
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the text of the chart title. If null or empty value is specified, auto generated title will be shown.
+description: 'Aspose::Words::Drawing::Charts::ChartTitle::get_Text method. Gets or sets the text of the chart title. If null or empty value is specified, auto generated title will be shown in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.drawing.charts/charttitle/get_text/
 ---
 ## ChartTitle::get_Text method
@@ -46,4 +47,4 @@ doc->Save(ArtifactsDir + u"Charts.ChartTitle.docx");
 
 * Class [ChartTitle](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

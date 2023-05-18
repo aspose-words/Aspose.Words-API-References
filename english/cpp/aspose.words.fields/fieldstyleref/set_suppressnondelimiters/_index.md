@@ -1,15 +1,16 @@
 ---
-title: set_SuppressNonDelimiters
+title: Aspose::Words::Fields::FieldStyleRef::set_SuppressNonDelimiters method
+linktitle: set_SuppressNonDelimiters
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fields::FieldStyleRef::get_SuppressNonDelimiters.'
+description: 'Aspose::Words::Fields::FieldStyleRef::set_SuppressNonDelimiters method. Sets whether to suppress non-delimiter characters in C++.'
 type: docs
-weight: 209
+weight: 17000
 url: /cpp/aspose.words.fields/fieldstyleref/set_suppressnondelimiters/
 ---
 ## FieldStyleRef::set_SuppressNonDelimiters method
 
 
-Setter for [Aspose::Words::Fields::FieldStyleRef::get_SuppressNonDelimiters](../get_suppressnondelimiters/).
+Sets whether to suppress non-delimiter characters.
 
 ```cpp
 void Aspose::Words::Fields::FieldStyleRef::set_SuppressNonDelimiters(bool value)
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldStyleRef::set_SuppressNonDelimiters(bool value)
 
 * Class [FieldStyleRef](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

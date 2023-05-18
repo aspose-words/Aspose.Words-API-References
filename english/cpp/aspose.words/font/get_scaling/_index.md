@@ -1,9 +1,10 @@
 ---
-title: get_Scaling
+title: Aspose::Words::Font::get_Scaling method
+linktitle: get_Scaling
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets character width scaling in percent.
+description: 'Aspose::Words::Font::get_Scaling method. Gets or sets character width scaling in percent in C++.'
 type: docs
-weight: 417
+weight: 33000
 url: /cpp/aspose.words/font/get_scaling/
 ---
 ## Font::get_Scaling method
@@ -44,4 +45,4 @@ doc->Save(ArtifactsDir + u"Font.ScalingSpacing.docx");
 
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

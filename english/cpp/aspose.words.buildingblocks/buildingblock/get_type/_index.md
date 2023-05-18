@@ -1,9 +1,10 @@
 ---
-title: get_Type
+title: Aspose::Words::BuildingBlocks::BuildingBlock::get_Type method
+linktitle: get_Type
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the building block type.
+description: 'Aspose::Words::BuildingBlocks::BuildingBlock::get_Type method. Specifies the building block type in C++.'
 type: docs
-weight: 170
+weight: 14000
 url: /cpp/aspose.words.buildingblocks/buildingblock/get_type/
 ---
 ## BuildingBlock::get_Type method
@@ -122,4 +123,4 @@ private:
 * Enum [BuildingBlockType](../../buildingblocktype/)
 * Class [BuildingBlock](../)
 * Namespace [Aspose::Words::BuildingBlocks](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

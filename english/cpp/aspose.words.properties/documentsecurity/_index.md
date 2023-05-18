@@ -1,9 +1,10 @@
 ---
-title: DocumentSecurity
+title: Aspose::Words::Properties::DocumentSecurity enum
+linktitle: DocumentSecurity
 second_title: Aspose.Words for C++ API Reference
-description: Used as a value for the Security property. Specifies the security level of a document as a numeric value.
+description: 'Aspose::Words::Properties::DocumentSecurity enum. Used as a value for the Security property. Specifies the security level of a document as a numeric value in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.properties/documentsecurity/
 ---
 ## DocumentSecurity enum
@@ -75,4 +76,4 @@ ASSERT_EQ(DocumentSecurity::ReadOnlyExceptAnnotations,
 ## See Also
 
 * Namespace [Aspose::Words::Properties](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

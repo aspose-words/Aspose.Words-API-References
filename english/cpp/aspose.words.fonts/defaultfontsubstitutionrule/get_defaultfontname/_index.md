@@ -1,9 +1,10 @@
 ---
-title: get_DefaultFontName
+title: Aspose::Words::Fonts::DefaultFontSubstitutionRule::get_DefaultFontName method
+linktitle: get_DefaultFontName
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the default font name.
+description: 'Aspose::Words::Fonts::DefaultFontSubstitutionRule::get_DefaultFontName method. Gets or sets the default font name in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fonts/defaultfontsubstitutionrule/get_defaultfontname/
 ---
 ## DefaultFontSubstitutionRule::get_DefaultFontName method
@@ -81,4 +82,4 @@ doc->Save(ArtifactsDir + u"FontSettings.DefaultFontSubstitutionRule.pdf");
 
 * Class [DefaultFontSubstitutionRule](../)
 * Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

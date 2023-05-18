@@ -1,9 +1,10 @@
 ---
-title: get_SingleUser
+title: Aspose::Words::EditableRange::get_SingleUser method
+linktitle: get_SingleUser
 second_title: Aspose.Words for C++ API Reference
-description: Returns or sets the single user for editable range.
+description: 'Aspose::Words::EditableRange::get_SingleUser method. Returns or sets the single user for editable range in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words/editablerange/get_singleuser/
 ---
 ## EditableRange::get_SingleUser method
@@ -138,4 +139,4 @@ private:
 
 * Class [EditableRange](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

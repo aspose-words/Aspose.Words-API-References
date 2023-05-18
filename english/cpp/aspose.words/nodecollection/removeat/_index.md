@@ -1,9 +1,10 @@
 ---
-title: RemoveAt
+title: Aspose::Words::NodeCollection::RemoveAt method
+linktitle: RemoveAt
 second_title: Aspose.Words for C++ API Reference
-description: Removes the node at the specified index from the collection and from the document.
+description: 'Aspose::Words::NodeCollection::RemoveAt method. Removes the node at the specified index from the collection and from the document in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words/nodecollection/removeat/
 ---
 ## NodeCollection::RemoveAt method
@@ -56,4 +57,4 @@ ASSERT_EQ(u"Section 2\x000c"
 
 * Class [NodeCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: AddSubstitutes
+title: Aspose::Words::Fonts::TableSubstitutionRule::AddSubstitutes method
+linktitle: AddSubstitutes
 second_title: Aspose.Words for C++ API Reference
-description: Adds substitute font names for given original font name.
+description: 'Aspose::Words::Fonts::TableSubstitutionRule::AddSubstitutes method. Adds substitute font names for given original font name in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fonts/tablesubstitutionrule/addsubstitutes/
 ---
 ## TableSubstitutionRule::AddSubstitutes method
@@ -33,7 +34,7 @@ doc->set_FontSettings(MakeObject<FontSettings>());
 // By default, a blank document always contains a system font source.
 ASSERT_EQ(1, doc->get_FontSettings()->GetFontsSources()->get_Length());
 
-auto systemFontSource = System::DynamicCast<SystemFontSource>(doc->get_FontSettings()->GetFontsSources()->idx_get(0));
+auto systemFontSource = System::ExplicitCast<SystemFontSource>(doc->get_FontSettings()->GetFontsSources()->idx_get(0));
 ASSERT_EQ(FontSourceType::SystemFonts, systemFontSource->get_Type());
 ASSERT_EQ(0, systemFontSource->get_Priority());
 
@@ -135,4 +136,4 @@ doc->Save(ArtifactsDir + u"FontSettings.TableSubstitutionRule.Custom.pdf");
 
 * Class [TableSubstitutionRule](../)
 * Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

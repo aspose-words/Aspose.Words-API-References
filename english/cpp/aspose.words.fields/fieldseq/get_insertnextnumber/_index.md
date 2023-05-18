@@ -1,9 +1,10 @@
 ---
-title: get_InsertNextNumber
+title: Aspose::Words::Fields::FieldSeq::get_InsertNextNumber method
+linktitle: get_InsertNextNumber
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets whether to insert the next sequence number for the specified item.
+description: 'Aspose::Words::Fields::FieldSeq::get_InsertNextNumber method. Gets or sets whether to insert the next sequence number for the specified item in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.fields/fieldseq/get_insertnextnumber/
 ---
 ## FieldSeq::get_InsertNextNumber method
@@ -31,7 +32,7 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 // Insert a SEQ field that will display the current count value of "MySequence",
 // after using the "ResetNumber" property to set it to 100.
 builder->Write(u"#");
-auto fieldSeq = System::DynamicCast<FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
+auto fieldSeq = System::ExplicitCast<FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
 fieldSeq->set_SequenceIdentifier(u"MySequence");
 fieldSeq->set_ResetNumber(u"100");
 fieldSeq->Update();
@@ -41,7 +42,7 @@ ASSERT_EQ(u"100", fieldSeq->get_Result());
 
 // Display the next number in this sequence with another SEQ field.
 builder->Write(u", #");
-fieldSeq = System::DynamicCast<FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
+fieldSeq = System::ExplicitCast<FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
 fieldSeq->set_SequenceIdentifier(u"MySequence");
 fieldSeq->Update();
 
@@ -55,7 +56,7 @@ builder->get_ParagraphFormat()->set_Style(doc->get_Styles()->idx_get(u"Normal"))
 
 // Insert another SEQ field from the same sequence and configure it to reset the count at every heading with 1.
 builder->Write(u"\n#");
-fieldSeq = System::DynamicCast<FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
+fieldSeq = System::ExplicitCast<FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
 fieldSeq->set_SequenceIdentifier(u"MySequence");
 fieldSeq->set_ResetHeadingLevel(u"1");
 fieldSeq->Update();
@@ -66,7 +67,7 @@ ASSERT_EQ(u"1", fieldSeq->get_Result());
 
 // Move to the next number of this sequence.
 builder->Write(u", #");
-fieldSeq = System::DynamicCast<FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
+fieldSeq = System::ExplicitCast<FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
 fieldSeq->set_SequenceIdentifier(u"MySequence");
 fieldSeq->set_InsertNextNumber(true);
 fieldSeq->Update();
@@ -82,4 +83,4 @@ doc->Save(ArtifactsDir + u"Field.SEQ.ResetNumbering.docx");
 
 * Class [FieldSeq](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

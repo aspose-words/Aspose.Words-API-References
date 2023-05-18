@@ -1,9 +1,10 @@
 ---
-title: GetEnumerator
+title: Aspose::Words::MailMerging::MappedDataFieldCollection::GetEnumerator method
+linktitle: GetEnumerator
 second_title: Aspose.Words for C++ API Reference
-description: Returns a dictionary enumerator object that can be used to iterate over all items in the collection.
+description: 'Aspose::Words::MailMerging::MappedDataFieldCollection::GetEnumerator method. Returns a dictionary enumerator object that can be used to iterate over all items in the collection in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words.mailmerging/mappeddatafieldcollection/getenumerator/
 ---
 ## MappedDataFieldCollection::GetEnumerator method
@@ -19,4 +20,4 @@ System::SharedPtr<System::Collections::Generic::IEnumerator<System::Collections:
 
 * Class [MappedDataFieldCollection](../)
 * Namespace [Aspose::Words::MailMerging](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

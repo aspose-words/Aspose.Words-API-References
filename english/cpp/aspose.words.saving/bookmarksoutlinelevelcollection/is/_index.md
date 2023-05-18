@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Saving::BookmarksOutlineLevelCollection::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Saving::BookmarksOutlineLevelCollection class in C++.'
 type: docs
-weight: 196
+weight: 16000
 url: /cpp/aspose.words.saving/bookmarksoutlinelevelcollection/is/
 ---
 ## BookmarksOutlineLevelCollection::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Saving::BookmarksOutlineLevelCollection::Is(const Sy
 
 * Class [BookmarksOutlineLevelCollection](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

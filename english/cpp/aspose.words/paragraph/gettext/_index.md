@@ -1,9 +1,10 @@
 ---
-title: GetText
+title: Aspose::Words::Paragraph::GetText method
+linktitle: GetText
 second_title: Aspose.Words for C++ API Reference
-description: Gets the text of this paragraph including the end of paragraph character.
+description: 'Aspose::Words::Paragraph::GetText method. Gets the text of this paragraph including the end of paragraph character in C++.'
 type: docs
-weight: 339
+weight: 27000
 url: /cpp/aspose.words/paragraph/gettext/
 ---
 ## Paragraph::GetText method
@@ -72,7 +73,7 @@ ASSERT_EQ(u"Run 1. Run 2. Initial text. Run 3.", paragraph->GetText().Trim());
 ASSERT_EQ(4, paragraph->GetChildNodes(NodeType::Any, true)->get_Count());
 
 // We can modify the contents of the run by editing and deleting existing child nodes.
-(System::DynamicCast<Run>(paragraph->GetChildNodes(NodeType::Run, true)->idx_get(1)))->set_Text(u"Updated run 2. ");
+(System::ExplicitCast<Run>(paragraph->GetChildNodes(NodeType::Run, true)->idx_get(1)))->set_Text(u"Updated run 2. ");
 paragraph->GetChildNodes(NodeType::Run, true)->Remove(paragraphText);
 
 ASSERT_EQ(u"Run 1. Updated run 2. Run 3.", paragraph->GetText().Trim());
@@ -83,4 +84,4 @@ ASSERT_EQ(3, paragraph->GetChildNodes(NodeType::Any, true)->get_Count());
 
 * Class [Paragraph](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

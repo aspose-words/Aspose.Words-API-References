@@ -1,9 +1,10 @@
 ---
-title: Type
+title: Aspose::Words::Vba::VbaProject::Type method
+linktitle: Type
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Type method of Aspose::Words::Vba::VbaProject class in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words.vba/vbaproject/type/
 ---
 ## VbaProject::Type method
@@ -19,4 +20,4 @@ static const System::TypeInfo & Aspose::Words::Vba::VbaProject::Type()
 
 * Class [VbaProject](../)
 * Namespace [Aspose::Words::Vba](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

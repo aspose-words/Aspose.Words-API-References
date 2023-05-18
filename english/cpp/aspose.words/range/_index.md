@@ -1,9 +1,10 @@
 ---
-title: Range
+title: Aspose::Words::Range class
+linktitle: Range
 second_title: Aspose.Words for C++ API Reference
-description: Represents a contiguous area in a document. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Range class. Represents a contiguous area in a document. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 651
+weight: 51000
 url: /cpp/aspose.words/range/
 ---
 ## Range class
@@ -63,4 +64,4 @@ ASSERT_EQ(u"Hello world!", doc->get_Range()->get_Text().Trim());
 ## See Also
 
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

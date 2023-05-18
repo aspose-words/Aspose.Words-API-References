@@ -1,9 +1,10 @@
 ---
-title: LoadOptions
+title: Aspose::Words::Loading::LoadOptions::LoadOptions constructor
+linktitle: LoadOptions
 second_title: Aspose.Words for C++ API Reference
-description: Initializes a new instance of this class with default values.
+description: 'Aspose::Words::Loading::LoadOptions::LoadOptions constructor. Initializes a new instance of this class with default values in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.loading/loadoptions/loadoptions/
 ---
 ## LoadOptions::LoadOptions() constructor
@@ -32,7 +33,7 @@ Shows how to open an HTML document with images from a stream using a base URI.
     auto doc = MakeObject<Document>(stream, loadOptions);
 
     // Verify that the first shape of the document contains a valid image.
-    auto shape = System::DynamicCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
+    auto shape = System::ExplicitCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
 
     ASSERT_TRUE(shape->get_IsImage());
     ASSERT_FALSE(shape->get_ImageData()->get_ImageBytes() == nullptr);
@@ -45,7 +46,7 @@ Shows how to open an HTML document with images from a stream using a base URI.
 
 * Class [LoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## LoadOptions::LoadOptions(Aspose::Words::LoadFormat, const System::String\&, const System::String\&) constructor
 
 
@@ -66,28 +67,6 @@ Aspose::Words::Loading::LoadOptions::LoadOptions(Aspose::Words::LoadFormat loadF
 
 
 
-Shows how save a web page as a .docx file. 
-```cpp
-const String url = u"https://www.aspose.com/";
-
-{
-    auto client = MakeObject<System::Net::WebClient>();
-    {
-        auto stream = MakeObject<System::IO::MemoryStream>(client->DownloadData(url));
-        // The URL is used again as a baseUri to ensure that any relative image paths are retrieved correctly.
-        auto options = MakeObject<LoadOptions>(LoadFormat::Html, u"", url);
-
-        // Load the HTML document from stream and pass the LoadOptions object.
-        auto doc = MakeObject<Document>(stream, options);
-
-        // At this stage, we can read and edit the document's contents and then save it to the local file system.
-
-        doc->Save(ArtifactsDir + u"Document.InsertHtmlFromWebPage.docx");
-    }
-}
-```
-
-
 Shows how to specify a base URI when opening an html document. 
 ```cpp
 // Suppose we want to load an .html document that contains an image linked by a relative URI
@@ -100,7 +79,7 @@ ASSERT_EQ(LoadFormat::Html, loadOptions->get_LoadFormat());
 auto doc = MakeObject<Document>(MyDir + u"Missing image.html", loadOptions);
 
 // While the image was broken in the input .html, our custom base URI helped us repair the link.
-auto imageShape = System::DynamicCast<Shape>(doc->GetChildNodes(NodeType::Shape, true)->idx_get(0));
+auto imageShape = System::ExplicitCast<Shape>(doc->GetChildNodes(NodeType::Shape, true)->idx_get(0));
 ASSERT_TRUE(imageShape->get_IsImage());
 
 // This output document will display the image that was missing.
@@ -112,7 +91,7 @@ doc->Save(ArtifactsDir + u"HtmlLoadOptions.BaseUri.docx");
 * Enum [LoadFormat](../../../aspose.words/loadformat/)
 * Class [LoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## LoadOptions::LoadOptions(const System::String\&) constructor
 
 
@@ -156,4 +135,4 @@ doc = MakeObject<Document>(MyDir + u"Encrypted.docx", options);
 
 * Class [LoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

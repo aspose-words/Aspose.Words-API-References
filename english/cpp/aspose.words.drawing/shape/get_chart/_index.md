@@ -1,9 +1,10 @@
 ---
-title: get_Chart
+title: Aspose::Words::Drawing::Shape::get_Chart method
+linktitle: get_Chart
 second_title: Aspose.Words for C++ API Reference
-description: Provides access to the chart properties if this shape has a Chart.
+description: 'Aspose::Words::Drawing::Shape::get_Chart method. Provides access to the chart properties if this shape has a Chart in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.drawing/shape/get_chart/
 ---
 ## Shape::get_Chart method
@@ -135,4 +136,4 @@ private:
 * Class [Chart](../../../aspose.words.drawing.charts/chart/)
 * Class [Shape](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

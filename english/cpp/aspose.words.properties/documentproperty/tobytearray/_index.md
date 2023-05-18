@@ -1,9 +1,10 @@
 ---
-title: ToByteArray
+title: Aspose::Words::Properties::DocumentProperty::ToByteArray method
+linktitle: ToByteArray
 second_title: Aspose.Words for C++ API Reference
-description: Returns the property value as byte array.
+description: 'Aspose::Words::Properties::DocumentProperty::ToByteArray method. Returns the property value as byte array in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words.properties/documentproperty/tobytearray/
 ---
 ## DocumentProperty::ToByteArray method
@@ -48,4 +49,4 @@ System::IO::File::WriteAllBytes(ArtifactsDir + u"DocumentProperties.Thumbnail.gi
 
 * Class [DocumentProperty](../)
 * Namespace [Aspose::Words::Properties](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

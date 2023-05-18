@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Fields::FieldUserInitials::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Fields::FieldUserInitials class in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.fields/fielduserinitials/is/
 ---
 ## FieldUserInitials::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Fields::FieldUserInitials::Is(const System::TypeInfo
 
 * Class [FieldUserInitials](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

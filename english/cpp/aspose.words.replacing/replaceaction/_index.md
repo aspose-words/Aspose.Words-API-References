@@ -1,9 +1,10 @@
 ---
-title: ReplaceAction
+title: Aspose::Words::Replacing::ReplaceAction enum
+linktitle: ReplaceAction
 second_title: Aspose.Words for C++ API Reference
-description: Allows the user to specify what happens to the current match during a replace operation.
+description: 'Aspose::Words::Replacing::ReplaceAction enum. Allows the user to specify what happens to the current match during a replace operation in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.replacing/replaceaction/
 ---
 ## ReplaceAction enum
@@ -51,7 +52,7 @@ private:
         auto subDoc = MakeObject<Document>(MyDir + u"Document.docx");
 
         // Insert a document after the paragraph containing the matched text.
-        auto para = System::DynamicCast<Paragraph>(args->get_MatchNode()->get_ParentNode());
+        auto para = System::ExplicitCast<Paragraph>(args->get_MatchNode()->get_ParentNode());
         InsertDocument(para, subDoc);
 
         // Remove the paragraph with the matched text.
@@ -76,7 +77,7 @@ static void InsertDocument(SharedPtr<Node> insertionDestination, SharedPtr<Docum
                 // Skip the node if it is the last empty paragraph in a section.
                 if (srcNode->get_NodeType() == NodeType::Paragraph)
                 {
-                    auto para = System::DynamicCast<Paragraph>(srcNode);
+                    auto para = System::ExplicitCast<Paragraph>(srcNode);
                     if (para->get_IsEndOfSection() && !para->get_HasChildNodes())
                     {
                         continue;
@@ -100,4 +101,4 @@ static void InsertDocument(SharedPtr<Node> insertionDestination, SharedPtr<Docum
 ## See Also
 
 * Namespace [Aspose::Words::Replacing](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

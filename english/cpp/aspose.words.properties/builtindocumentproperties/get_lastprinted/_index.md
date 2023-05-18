@@ -1,9 +1,10 @@
 ---
-title: get_LastPrinted
+title: Aspose::Words::Properties::BuiltInDocumentProperties::get_LastPrinted method
+linktitle: get_LastPrinted
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the date when the document was last printed in UTC.
+description: 'Aspose::Words::Properties::BuiltInDocumentProperties::get_LastPrinted method. Gets or sets the date when the document was last printed in UTC in C++.'
 type: docs
-weight: 183
+weight: 15000
 url: /cpp/aspose.words.properties/builtindocumentproperties/get_lastprinted/
 ---
 ## BuiltInDocumentProperties::get_LastPrinted method
@@ -62,4 +63,4 @@ doc->Save(ArtifactsDir + u"DocumentProperties.Origin.docx");
 
 * Class [BuiltInDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

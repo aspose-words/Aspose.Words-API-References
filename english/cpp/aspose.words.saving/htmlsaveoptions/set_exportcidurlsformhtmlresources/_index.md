@@ -1,9 +1,10 @@
 ---
-title: set_ExportCidUrlsForMhtmlResources
+title: Aspose::Words::Saving::HtmlSaveOptions::set_ExportCidUrlsForMhtmlResources method
+linktitle: set_ExportCidUrlsForMhtmlResources
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::HtmlSaveOptions::get_ExportCidUrlsForMhtmlResources.'
+description: 'Aspose::Words::Saving::HtmlSaveOptions::set_ExportCidUrlsForMhtmlResources method. Setter for Aspose::Words::Saving::HtmlSaveOptions::get_ExportCidUrlsForMhtmlResources in C++.'
 type: docs
-weight: 768
+weight: 60000
 url: /cpp/aspose.words.saving/htmlsaveoptions/set_exportcidurlsformhtmlresources/
 ---
 ## HtmlSaveOptions::set_ExportCidUrlsForMhtmlResources method
@@ -19,4 +20,4 @@ void Aspose::Words::Saving::HtmlSaveOptions::set_ExportCidUrlsForMhtmlResources(
 
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

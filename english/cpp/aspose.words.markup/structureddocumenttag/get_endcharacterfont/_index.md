@@ -1,9 +1,10 @@
 ---
-title: get_EndCharacterFont
+title: Aspose::Words::Markup::StructuredDocumentTag::get_EndCharacterFont method
+linktitle: get_EndCharacterFont
 second_title: Aspose.Words for C++ API Reference
-description: Font formatting that will be applied to the last character of text entered into SDT.
+description: 'Aspose::Words::Markup::StructuredDocumentTag::get_EndCharacterFont method. Font formatting that will be applied to the last character of text entered into SDT in C++.'
 type: docs
-weight: 183
+weight: 15000
 url: /cpp/aspose.words.markup/structureddocumenttag/get_endcharacterfont/
 ---
 ## StructuredDocumentTag::get_EndCharacterFont method
@@ -61,7 +62,7 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 builder->InsertNode(tag);
 
 // Insert a clone of our structured document tag in a new paragraph.
-auto tagClone = System::DynamicCast<StructuredDocumentTag>(tag->Clone(true));
+auto tagClone = System::ExplicitCast<StructuredDocumentTag>(tag->Clone(true));
 builder->InsertParagraph();
 builder->InsertNode(tagClone);
 
@@ -76,4 +77,4 @@ doc->Save(ArtifactsDir + u"StructuredDocumentTag.PlainText.docx");
 * Class [Font](../../../aspose.words/font/)
 * Class [StructuredDocumentTag](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

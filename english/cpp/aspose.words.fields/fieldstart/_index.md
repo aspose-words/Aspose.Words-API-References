@@ -1,9 +1,10 @@
 ---
-title: FieldStart
+title: Aspose::Words::Fields::FieldStart class
+linktitle: FieldStart
 second_title: Aspose.Words for C++ API Reference
-description: Represents a start of a Word field in a document. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Fields::FieldStart class. Represents a start of a Word field in a document. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 1223
+weight: 95000
 url: /cpp/aspose.words.fields/fieldstart/
 ---
 ## FieldStart class
@@ -207,7 +208,7 @@ public:
     {
         // Hyperlink display name is stored in the field result, which is a Run
         // node between field separator and field end.
-        auto fieldResult = System::DynamicCast<Run>(mFieldSeparator->get_NextSibling());
+        auto fieldResult = System::ExplicitCast<Run>(mFieldSeparator->get_NextSibling());
         fieldResult->set_Text(value);
 
         // If the field result consists of more than one run, delete these runs.
@@ -282,7 +283,7 @@ private:
     void UpdateFieldCode()
     {
         // A field's field code is in a Run node between the field's start node and field separator.
-        auto fieldCode = System::DynamicCast<Run>(mFieldStart->get_NextSibling());
+        auto fieldCode = System::ExplicitCast<Run>(mFieldStart->get_NextSibling());
         fieldCode->set_Text(String::Format(u"HYPERLINK {0}\"{1}\"", ((mIsLocal) ? String(u"\\l ") : String(u"")), mTarget));
 
         // If the field code consists of more than one run, delete these runs.
@@ -378,4 +379,4 @@ public:
 
 * Class [FieldChar](../fieldchar/)
 * Namespace [Aspose::Words::Fields](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Replacing::FindReplaceOptions::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Replacing::FindReplaceOptions class in C++.'
 type: docs
-weight: 248
+weight: 20000
 url: /cpp/aspose.words.replacing/findreplaceoptions/is/
 ---
 ## FindReplaceOptions::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Replacing::FindReplaceOptions::Is(const System::Type
 
 * Class [FindReplaceOptions](../)
 * Namespace [Aspose::Words::Replacing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

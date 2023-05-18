@@ -1,9 +1,10 @@
 ---
-title: VisitBodyStart
+title: Aspose::Words::DocumentVisitor::VisitBodyStart method
+linktitle: VisitBodyStart
 second_title: Aspose.Words for C++ API Reference
-description: Called when enumeration of the main text story in a section has started.
+description: 'Aspose::Words::DocumentVisitor::VisitBodyStart method. Called when enumeration of the main text story in a section has started in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words/documentvisitor/visitbodystart/
 ---
 ## DocumentVisitor::VisitBodyStart method
@@ -164,4 +165,4 @@ private:
 * Class [Body](../../body/)
 * Class [DocumentVisitor](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

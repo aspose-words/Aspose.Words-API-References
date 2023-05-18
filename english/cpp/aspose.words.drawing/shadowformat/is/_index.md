@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Drawing::ShadowFormat::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Drawing::ShadowFormat class in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.drawing/shadowformat/is/
 ---
 ## ShadowFormat::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Drawing::ShadowFormat::Is(const System::TypeInfo &ta
 
 * Class [ShadowFormat](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

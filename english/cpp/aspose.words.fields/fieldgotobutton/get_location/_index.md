@@ -1,9 +1,10 @@
 ---
-title: get_Location
+title: Aspose::Words::Fields::FieldGoToButton::get_Location method
+linktitle: get_Location
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the name of a bookmark, a page number, or some other item to jump to.
+description: 'Aspose::Words::Fields::FieldGoToButton::get_Location method. Gets or sets the name of a bookmark, a page number, or some other item to jump to in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.fields/fieldgotobutton/get_location/
 ---
 ## FieldGoToButton::get_Location method
@@ -27,7 +28,7 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 
 // Add a GOTOBUTTON field. When we double-click this field in Microsoft Word,
 // it will take the text cursor to the bookmark whose name the Location property references.
-auto field = System::DynamicCast<FieldGoToButton>(builder->InsertField(FieldType::FieldGoToButton, true));
+auto field = System::ExplicitCast<FieldGoToButton>(builder->InsertField(FieldType::FieldGoToButton, true));
 field->set_DisplayText(u"My Button");
 field->set_Location(u"MyBookmark");
 
@@ -47,4 +48,4 @@ doc->Save(ArtifactsDir + u"Field.GOTOBUTTON.docx");
 
 * Class [FieldGoToButton](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

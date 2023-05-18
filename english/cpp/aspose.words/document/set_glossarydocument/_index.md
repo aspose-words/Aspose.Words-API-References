@@ -1,9 +1,10 @@
 ---
-title: set_GlossaryDocument
+title: Aspose::Words::Document::set_GlossaryDocument method
+linktitle: set_GlossaryDocument
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Document::get_GlossaryDocument.'
+description: 'Aspose::Words::Document::set_GlossaryDocument method. Setter for Aspose::Words::Document::get_GlossaryDocument in C++.'
 type: docs
-weight: 1002
+weight: 78000
 url: /cpp/aspose.words/document/set_glossarydocument/
 ---
 ## Document::set_GlossaryDocument method
@@ -20,4 +21,4 @@ void Aspose::Words::Document::set_GlossaryDocument(const System::SharedPtr<Aspos
 * Class [GlossaryDocument](../../../aspose.words.buildingblocks/glossarydocument/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

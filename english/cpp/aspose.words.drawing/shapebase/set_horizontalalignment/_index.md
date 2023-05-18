@@ -1,9 +1,10 @@
 ---
-title: set_HorizontalAlignment
+title: Aspose::Words::Drawing::ShapeBase::set_HorizontalAlignment method
+linktitle: set_HorizontalAlignment
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Drawing::ShapeBase::get_HorizontalAlignment.'
+description: 'Aspose::Words::Drawing::ShapeBase::set_HorizontalAlignment method. Setter for Aspose::Words::Drawing::ShapeBase::get_HorizontalAlignment in C++.'
 type: docs
-weight: 976
+weight: 76000
 url: /cpp/aspose.words.drawing/shapebase/set_horizontalalignment/
 ---
 ## ShapeBase::set_HorizontalAlignment method
@@ -20,4 +21,4 @@ void Aspose::Words::Drawing::ShapeBase::set_HorizontalAlignment(Aspose::Words::D
 * Enum [HorizontalAlignment](../../horizontalalignment/)
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

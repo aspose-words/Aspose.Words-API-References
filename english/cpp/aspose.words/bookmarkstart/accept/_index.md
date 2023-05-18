@@ -1,9 +1,10 @@
 ---
-title: Accept
+title: Aspose::Words::BookmarkStart::Accept method
+linktitle: Accept
 second_title: Aspose.Words for C++ API Reference
-description: Accepts a visitor.
+description: 'Aspose::Words::BookmarkStart::Accept method. Accepts a visitor in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words/bookmarkstart/accept/
 ---
 ## BookmarkStart::Accept method
@@ -116,4 +117,4 @@ public:
 * Class [DocumentVisitor](../../documentvisitor/)
 * Class [BookmarkStart](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

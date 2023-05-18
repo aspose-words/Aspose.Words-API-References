@@ -1,9 +1,10 @@
 ---
-title: get_UseAnsiKerningPairs
+title: Aspose::Words::Settings::CompatibilityOptions::get_UseAnsiKerningPairs method
+linktitle: get_UseAnsiKerningPairs
 second_title: Aspose.Words for C++ API Reference
-description: Use ANSI Kerning Pairs from Fonts.
+description: 'Aspose::Words::Settings::CompatibilityOptions::get_UseAnsiKerningPairs method. Use ANSI Kerning Pairs from Fonts in C++.'
 type: docs
-weight: 794
+weight: 62000
 url: /cpp/aspose.words.settings/compatibilityoptions/get_useansikerningpairs/
 ---
 ## CompatibilityOptions::get_UseAnsiKerningPairs method
@@ -19,4 +20,4 @@ bool Aspose::Words::Settings::CompatibilityOptions::get_UseAnsiKerningPairs()
 
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

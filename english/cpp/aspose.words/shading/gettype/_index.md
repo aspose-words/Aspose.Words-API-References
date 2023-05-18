@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Shading::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Shading class in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words/shading/gettype/
 ---
 ## Shading::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Shading::GetType() const overrid
 
 * Class [Shading](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

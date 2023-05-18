@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Lists::ListFormat::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Lists::ListFormat class in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.lists/listformat/gettype/
 ---
 ## ListFormat::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Lists::ListFormat::GetType() con
 
 * Class [ListFormat](../)
 * Namespace [Aspose::Words::Lists](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

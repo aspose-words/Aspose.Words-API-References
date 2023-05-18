@@ -1,9 +1,10 @@
 ---
-title: get_ParentSection
+title: Aspose::Words::Paragraph::get_ParentSection method
+linktitle: get_ParentSection
 second_title: Aspose.Words for C++ API Reference
-description: Retrieves the parent Section of the paragraph.
+description: 'Aspose::Words::Paragraph::get_ParentSection method. Retrieves the parent Section of the paragraph in C++.'
 type: docs
-weight: 287
+weight: 23000
 url: /cpp/aspose.words/paragraph/get_parentsection/
 ---
 ## Paragraph::get_ParentSection method
@@ -56,4 +57,4 @@ doc->Save(ArtifactsDir + u"HeaderFooter.Create.docx");
 * Class [Section](../../section/)
 * Class [Paragraph](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

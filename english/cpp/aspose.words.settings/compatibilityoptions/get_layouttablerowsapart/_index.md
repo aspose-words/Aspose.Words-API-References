@@ -1,9 +1,10 @@
 ---
-title: get_LayoutTableRowsApart
+title: Aspose::Words::Settings::CompatibilityOptions::get_LayoutTableRowsApart method
+linktitle: get_LayoutTableRowsApart
 second_title: Aspose.Words for C++ API Reference
-description: Allow Table Rows to Wrap Inline Objects Independently.
+description: 'Aspose::Words::Settings::CompatibilityOptions::get_LayoutTableRowsApart method. Allow Table Rows to Wrap Inline Objects Independently in C++.'
 type: docs
-weight: 391
+weight: 31000
 url: /cpp/aspose.words.settings/compatibilityoptions/get_layouttablerowsapart/
 ---
 ## CompatibilityOptions::get_LayoutTableRowsApart method
@@ -19,4 +20,4 @@ bool Aspose::Words::Settings::CompatibilityOptions::get_LayoutTableRowsApart()
 
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

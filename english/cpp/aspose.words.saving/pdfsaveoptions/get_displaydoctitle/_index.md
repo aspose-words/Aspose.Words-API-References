@@ -1,9 +1,10 @@
 ---
-title: get_DisplayDocTitle
+title: Aspose::Words::Saving::PdfSaveOptions::get_DisplayDocTitle method
+linktitle: get_DisplayDocTitle
 second_title: Aspose.Words for C++ API Reference
-description: A flag specifying whether the window’s title bar should display the document title taken from the Title entry of the document information dictionary.
+description: 'Aspose::Words::Saving::PdfSaveOptions::get_DisplayDocTitle method. A flag specifying whether the window’s title bar should display the document title taken from the Title entry of the document information dictionary in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words.saving/pdfsaveoptions/get_displaydoctitle/
 ---
 ## PdfSaveOptions::get_DisplayDocTitle method
@@ -51,4 +52,4 @@ doc->Save(ArtifactsDir + u"PdfSaveOptions.DocTitle.pdf", pdfSaveOptions);
 
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

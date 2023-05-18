@@ -1,9 +1,10 @@
 ---
-title: GetEnumerator
+title: Aspose::Words::Markup::SdtListItemCollection::GetEnumerator method
+linktitle: GetEnumerator
 second_title: Aspose.Words for C++ API Reference
-description: Returns an enumerator object that can be used to iterate over all items in the collection.
+description: 'Aspose::Words::Markup::SdtListItemCollection::GetEnumerator method. Returns an enumerator object that can be used to iterate over all items in the collection in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words.markup/sdtlistitemcollection/getenumerator/
 ---
 ## SdtListItemCollection::GetEnumerator method
@@ -81,4 +82,4 @@ ASSERT_EQ(0, listItems->get_Count());
 * Class [SdtListItem](../../sdtlistitem/)
 * Class [SdtListItemCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

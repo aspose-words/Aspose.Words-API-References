@@ -1,9 +1,10 @@
 ---
-title: InsertBefore
+title: Aspose::Words::CompositeNode::InsertBefore method
+linktitle: InsertBefore
 second_title: Aspose.Words for C++ API Reference
-description: Inserts the specified node immediately before the specified reference node.
+description: 'Aspose::Words::CompositeNode::InsertBefore method. Inserts the specified node immediately before the specified reference node in C++.'
 type: docs
-weight: 196
+weight: 16000
 url: /cpp/aspose.words/compositenode/insertbefore/
 ---
 ## CompositeNode::InsertBefore method
@@ -77,7 +78,7 @@ ASSERT_EQ(u"Run 1. Run 2. Initial text. Run 3.", paragraph->GetText().Trim());
 ASSERT_EQ(4, paragraph->GetChildNodes(NodeType::Any, true)->get_Count());
 
 // We can modify the contents of the run by editing and deleting existing child nodes.
-(System::DynamicCast<Run>(paragraph->GetChildNodes(NodeType::Run, true)->idx_get(1)))->set_Text(u"Updated run 2. ");
+(System::ExplicitCast<Run>(paragraph->GetChildNodes(NodeType::Run, true)->idx_get(1)))->set_Text(u"Updated run 2. ");
 paragraph->GetChildNodes(NodeType::Run, true)->Remove(paragraphText);
 
 ASSERT_EQ(u"Run 1. Updated run 2. Run 3.", paragraph->GetText().Trim());
@@ -89,4 +90,4 @@ ASSERT_EQ(3, paragraph->GetChildNodes(NodeType::Any, true)->get_Count());
 * Class [Node](../../node/)
 * Class [CompositeNode](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

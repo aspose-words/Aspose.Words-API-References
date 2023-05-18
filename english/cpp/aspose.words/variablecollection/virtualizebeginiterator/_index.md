@@ -1,9 +1,10 @@
 ---
-title: virtualizeBeginIterator
+title: Aspose::Words::VariableCollection::virtualizeBeginIterator method
+linktitle: virtualizeBeginIterator
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use virtualizeBeginIterator method of Aspose::Words::VariableCollection class in C++.'
 type: docs
-weight: 235
+weight: 19000
 url: /cpp/aspose.words/variablecollection/virtualizebeginiterator/
 ---
 ## VariableCollection::virtualizeBeginIterator method
@@ -20,4 +21,4 @@ virtualized_iterator * Aspose::Words::VariableCollection::virtualizeBeginIterato
 * Typedef [virtualized_iterator](../virtualized_iterator/)
 * Class [VariableCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

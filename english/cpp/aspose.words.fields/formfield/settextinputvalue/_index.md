@@ -1,9 +1,10 @@
 ---
-title: SetTextInputValue
+title: Aspose::Words::Fields::FormField::SetTextInputValue method
+linktitle: SetTextInputValue
 second_title: Aspose.Words for C++ API Reference
-description: Applies the text format specified in TextInputFormat and stores the value in Result.
+description: 'Aspose::Words::Fields::FormField::SetTextInputValue method. Applies the text format specified in TextInputFormat and stores the value in Result in C++.'
 type: docs
-weight: 599
+weight: 47000
 url: /cpp/aspose.words.fields/formfield/settextinputvalue/
 ---
 ## FormField::SetTextInputValue method
@@ -157,4 +158,4 @@ private:
 
 * Class [FormField](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

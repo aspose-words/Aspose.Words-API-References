@@ -1,9 +1,10 @@
 ---
-title: get_ExportDropDownFormFieldAsText
+title: Aspose::Words::Saving::HtmlSaveOptions::get_ExportDropDownFormFieldAsText method
+linktitle: get_ExportDropDownFormFieldAsText
 second_title: Aspose.Words for C++ API Reference
-description: Controls how drop-down form fields are saved to HTML or MHTML. Default value is false.
+description: 'Aspose::Words::Saving::HtmlSaveOptions::get_ExportDropDownFormFieldAsText method. Controls how drop-down form fields are saved to HTML or MHTML. Default value is false in C++.'
 type: docs
-weight: 183
+weight: 15000
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_exportdropdownformfieldastext/
 ---
 ## HtmlSaveOptions::get_ExportDropDownFormFieldAsText method
@@ -61,4 +62,4 @@ else
 
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

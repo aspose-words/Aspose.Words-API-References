@@ -1,9 +1,10 @@
 ---
-title: set_PageHorizontalAlignment
+title: Aspose::Words::Saving::HtmlFixedSaveOptions::set_PageHorizontalAlignment method
+linktitle: set_PageHorizontalAlignment
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::HtmlFixedSaveOptions::get_PageHorizontalAlignment.'
+description: 'Aspose::Words::Saving::HtmlFixedSaveOptions::set_PageHorizontalAlignment method. Setter for Aspose::Words::Saving::HtmlFixedSaveOptions::get_PageHorizontalAlignment in C++.'
 type: docs
-weight: 404
+weight: 32000
 url: /cpp/aspose.words.saving/htmlfixedsaveoptions/set_pagehorizontalalignment/
 ---
 ## HtmlFixedSaveOptions::set_PageHorizontalAlignment method
@@ -20,4 +21,4 @@ void Aspose::Words::Saving::HtmlFixedSaveOptions::set_PageHorizontalAlignment(As
 * Enum [HtmlFixedPageHorizontalAlignment](../../htmlfixedpagehorizontalalignment/)
 * Class [HtmlFixedSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

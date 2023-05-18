@@ -1,9 +1,10 @@
 ---
-title: TextFormFieldType
+title: Aspose::Words::Fields::TextFormFieldType enum
+linktitle: TextFormFieldType
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the type of a text form field.
+description: 'Aspose::Words::Fields::TextFormFieldType enum. Specifies the type of a text form field in C++.'
 type: docs
-weight: 1730
+weight: 134000
 url: /cpp/aspose.words.fields/textformfieldtype/
 ---
 ## TextFormFieldType enum
@@ -52,4 +53,4 @@ builder->get_Document()->Save(ArtifactsDir + u"DocumentBuilder.CreateForm.docx")
 ## See Also
 
 * Namespace [Aspose::Words::Fields](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

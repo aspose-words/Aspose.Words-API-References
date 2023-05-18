@@ -1,9 +1,10 @@
 ---
-title: ImageTypeToExtension
+title: Aspose::Words::FileFormatUtil::ImageTypeToExtension method
+linktitle: ImageTypeToExtension
 second_title: Aspose.Words for C++ API Reference
-description: Converts an Aspose.Words image type enumerated value into a file extension. The returned extension is a lower-case string with a leading dot.
+description: 'Aspose::Words::FileFormatUtil::ImageTypeToExtension method. Converts an Aspose.Words image type enumerated value into a file extension. The returned extension is a lower-case string with a leading dot in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words/fileformatutil/imagetypetoextension/
 ---
 ## FileFormatUtil::ImageTypeToExtension method
@@ -28,7 +29,7 @@ auto doc = MakeObject<Document>(MyDir + u"Images.docx");
 // and save the image data of every shape with an image as a file to the local file system.
 SharedPtr<NodeCollection> shapes = doc->GetChildNodes(NodeType::Shape, true);
 
-ASSERT_EQ(9, shapes->LINQ_Count([](SharedPtr<Node> s) { return (System::DynamicCast<Shape>(s))->get_HasImage(); }));
+ASSERT_EQ(9, shapes->LINQ_Count([](SharedPtr<Node> s) { return (System::ExplicitCast<Shape>(s))->get_HasImage(); }));
 
 int imageIndex = 0;
 for (const auto& shape : System::IterateOver(shapes->LINQ_OfType<SharedPtr<Shape>>()))
@@ -50,4 +51,4 @@ for (const auto& shape : System::IterateOver(shapes->LINQ_OfType<SharedPtr<Shape
 * Enum [ImageType](../../../aspose.words.drawing/imagetype/)
 * Class [FileFormatUtil](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

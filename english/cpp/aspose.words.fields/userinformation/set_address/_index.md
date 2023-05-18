@@ -1,9 +1,10 @@
 ---
-title: set_Address
+title: Aspose::Words::Fields::UserInformation::set_Address method
+linktitle: set_Address
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fields::UserInformation::get_Address.'
+description: 'Aspose::Words::Fields::UserInformation::set_Address method. Setter for Aspose::Words::Fields::UserInformation::get_Address in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.fields/userinformation/set_address/
 ---
 ## UserInformation::set_Address method
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::UserInformation::set_Address(const System::String &v
 
 * Class [UserInformation](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

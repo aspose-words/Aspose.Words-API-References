@@ -1,9 +1,10 @@
 ---
-title: virtualizeBeginConstIterator
+title: Aspose::Words::Settings::OdsoFieldMapDataCollection::virtualizeBeginConstIterator method
+linktitle: virtualizeBeginConstIterator
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use virtualizeBeginConstIterator method of Aspose::Words::Settings::OdsoFieldMapDataCollection class in C++.'
 type: docs
-weight: 196
+weight: 16000
 url: /cpp/aspose.words.settings/odsofieldmapdatacollection/virtualizebeginconstiterator/
 ---
 ## OdsoFieldMapDataCollection::virtualizeBeginConstIterator method
@@ -20,4 +21,4 @@ virtualized_iterator * Aspose::Words::Settings::OdsoFieldMapDataCollection::virt
 * Typedef [virtualized_iterator](../virtualized_iterator/)
 * Class [OdsoFieldMapDataCollection](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

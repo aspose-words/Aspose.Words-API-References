@@ -1,9 +1,10 @@
 ---
-title: Clear
+title: Aspose::Words::Fields::FieldCollection::Clear method
+linktitle: Clear
 second_title: Aspose.Words for C++ API Reference
-description: Removes all fields of this collection from the document and from this collection itself.
+description: 'Aspose::Words::Fields::FieldCollection::Clear method. Removes all fields of this collection from the document and from this collection itself in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fields/fieldcollection/clear/
 ---
 ## FieldCollection::Clear method
@@ -60,4 +61,4 @@ ASSERT_EQ(0, fields->get_Count());
 
 * Class [FieldCollection](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

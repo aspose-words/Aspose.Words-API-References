@@ -1,9 +1,10 @@
 ---
-title: get_LineStyle
+title: Aspose::Words::Drawing::Stroke::get_LineStyle method
+linktitle: get_LineStyle
 second_title: Aspose.Words for C++ API Reference
-description: Defines the line style of the stroke.
+description: 'Aspose::Words::Drawing::Stroke::get_LineStyle method. Defines the line style of the stroke in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words.drawing/stroke/get_linestyle/
 ---
 ## Stroke::get_LineStyle method
@@ -55,4 +56,4 @@ doc->Save(ArtifactsDir + u"Shape.Stroke.docx");
 * Enum [ShapeLineStyle](../../shapelinestyle/)
 * Class [Stroke](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

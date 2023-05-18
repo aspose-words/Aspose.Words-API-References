@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Vba::VbaProject::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Vba::VbaProject class in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.vba/vbaproject/gettype/
 ---
 ## VbaProject::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Vba::VbaProject::GetType() const
 
 * Class [VbaProject](../)
 * Namespace [Aspose::Words::Vba](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

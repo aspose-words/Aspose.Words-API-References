@@ -1,9 +1,10 @@
 ---
-title: get_NextSibling
+title: Aspose::Words::Node::get_NextSibling method
+linktitle: get_NextSibling
 second_title: Aspose.Words for C++ API Reference
-description: Gets the node immediately following this node.
+description: 'Aspose::Words::Node::get_NextSibling method. Gets the node immediately following this node in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words/node/get_nextsibling/
 ---
 ## Node::get_NextSibling method
@@ -43,7 +44,7 @@ void TraverseAllNodes(SharedPtr<CompositeNode> parentNode, int depth)
         if (childNode->get_IsComposite())
         {
             std::cout << std::endl;
-            TraverseAllNodes(System::DynamicCast<CompositeNode>(childNode), depth + 1);
+            TraverseAllNodes(System::ExplicitCast<CompositeNode>(childNode), depth + 1);
         }
         else if (System::ObjectExt::Is<Inline>(childNode))
         {
@@ -78,4 +79,4 @@ for (SharedPtr<Node> node = doc->get_FirstSection()->get_Body()->get_FirstChild(
 * Class [Node](../)
 * Class [Node](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

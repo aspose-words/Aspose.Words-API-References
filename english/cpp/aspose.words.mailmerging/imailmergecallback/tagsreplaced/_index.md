@@ -1,9 +1,10 @@
 ---
-title: TagsReplaced
+title: Aspose::Words::MailMerging::IMailMergeCallback::TagsReplaced method
+linktitle: TagsReplaced
 second_title: Aspose.Words for C++ API Reference
-description: Called when "mustache" text tags are replaced with MERGEFIELD fields.
+description: 'Aspose::Words::MailMerging::IMailMergeCallback::TagsReplaced method. Called when "mustache" text tags are replaced with MERGEFIELD fields in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.mailmerging/imailmergecallback/tagsreplaced/
 ---
 ## IMailMergeCallback::TagsReplaced method
@@ -20,4 +21,4 @@ virtual void Aspose::Words::MailMerging::IMailMergeCallback::TagsReplaced()=0
 
 * Interface [IMailMergeCallback](../)
 * Namespace [Aspose::Words::MailMerging](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

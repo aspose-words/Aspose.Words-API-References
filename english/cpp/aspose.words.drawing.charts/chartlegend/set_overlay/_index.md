@@ -1,9 +1,10 @@
 ---
-title: set_Overlay
+title: Aspose::Words::Drawing::Charts::ChartLegend::set_Overlay method
+linktitle: set_Overlay
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Drawing::Charts::ChartLegend::get_Overlay.'
+description: 'Aspose::Words::Drawing::Charts::ChartLegend::set_Overlay method. Setter for Aspose::Words::Drawing::Charts::ChartLegend::get_Overlay in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.drawing.charts/chartlegend/set_overlay/
 ---
 ## ChartLegend::set_Overlay method
@@ -19,4 +20,4 @@ void Aspose::Words::Drawing::Charts::ChartLegend::set_Overlay(bool value)
 
 * Class [ChartLegend](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: SetImage
+title: Aspose::Words::Drawing::ImageData::SetImage method
+linktitle: SetImage
 second_title: Aspose.Words for C++ API Reference
-description: Sets the image that the shape displays.
+description: 'Aspose::Words::Drawing::ImageData::SetImage method. Sets the image that the shape displays in C++.'
 type: docs
-weight: 443
+weight: 35000
 url: /cpp/aspose.words.drawing/imagedata/setimage/
 ---
 ## ImageData::SetImage(const System::SharedPtr\<System::Drawing::Image\>\&) method
@@ -58,7 +59,7 @@ doc->Save(ArtifactsDir + u"Drawing.ImportImage.docx");
 
 * Class [ImageData](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## ImageData::SetImage(const System::SharedPtr\<System::IO::Stream\>\&) method
 
 
@@ -111,7 +112,7 @@ doc->Save(ArtifactsDir + u"Drawing.ImportImage.docx");
 
 * Class [ImageData](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## ImageData::SetImage(const System::String\&) method
 
 
@@ -170,7 +171,7 @@ ASSERT_TRUE(10000 > MakeObject<System::IO::FileInfo>(ArtifactsDir + u"Image.Crea
 
 * Class [ImageData](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## ImageData::SetImage(std::basic_istream\<CharType, Traits\>\&) method
 
 
@@ -184,4 +185,4 @@ template<typename CharType,typename Traits> void Aspose::Words::Drawing::ImageDa
 
 * Class [ImageData](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

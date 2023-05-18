@@ -1,9 +1,10 @@
 ---
-title: get_Shadow
+title: Aspose::Words::Font::get_Shadow method
+linktitle: get_Shadow
 second_title: Aspose.Words for C++ API Reference
-description: True if the font is formatted as shadowed.
+description: 'Aspose::Words::Font::get_Shadow method. True if the font is formatted as shadowed in C++.'
 type: docs
-weight: 443
+weight: 35000
 url: /cpp/aspose.words/font/get_shadow/
 ---
 ## Font::get_Shadow method
@@ -39,4 +40,4 @@ doc->Save(ArtifactsDir + u"Font.Shadow.docx");
 
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

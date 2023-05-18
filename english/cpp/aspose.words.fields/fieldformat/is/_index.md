@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Fields::FieldFormat::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Fields::FieldFormat class in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.fields/fieldformat/is/
 ---
 ## FieldFormat::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Fields::FieldFormat::Is(const System::TypeInfo &targ
 
 * Class [FieldFormat](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

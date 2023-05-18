@@ -1,9 +1,10 @@
 ---
-title: get_DifferentFirstPageHeaderFooter
+title: Aspose::Words::PageSetup::get_DifferentFirstPageHeaderFooter method
+linktitle: get_DifferentFirstPageHeaderFooter
 second_title: Aspose.Words for C++ API Reference
-description: True if a different header or footer is used on the first page.
+description: 'Aspose::Words::PageSetup::get_DifferentFirstPageHeaderFooter method. True if a different header or footer is used on the first page in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words/pagesetup/get_differentfirstpageheaderfooter/
 ---
 ## PageSetup::get_DifferentFirstPageHeaderFooter method
@@ -140,4 +141,4 @@ doc->Save(ArtifactsDir + u"PageSetup.DifferentFirstPageHeaderFooter.docx");
 
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

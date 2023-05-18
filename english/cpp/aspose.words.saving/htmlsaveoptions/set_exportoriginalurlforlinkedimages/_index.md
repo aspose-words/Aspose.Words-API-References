@@ -1,9 +1,10 @@
 ---
-title: set_ExportOriginalUrlForLinkedImages
+title: Aspose::Words::Saving::HtmlSaveOptions::set_ExportOriginalUrlForLinkedImages method
+linktitle: set_ExportOriginalUrlForLinkedImages
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::HtmlSaveOptions::get_ExportOriginalUrlForLinkedImages.'
+description: 'Aspose::Words::Saving::HtmlSaveOptions::set_ExportOriginalUrlForLinkedImages method. Setter for Aspose::Words::Saving::HtmlSaveOptions::get_ExportOriginalUrlForLinkedImages in C++.'
 type: docs
-weight: 885
+weight: 69000
 url: /cpp/aspose.words.saving/htmlsaveoptions/set_exportoriginalurlforlinkedimages/
 ---
 ## HtmlSaveOptions::set_ExportOriginalUrlForLinkedImages method
@@ -19,4 +20,4 @@ void Aspose::Words::Saving::HtmlSaveOptions::set_ExportOriginalUrlForLinkedImage
 
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

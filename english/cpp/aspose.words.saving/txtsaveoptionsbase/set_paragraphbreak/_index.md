@@ -1,9 +1,10 @@
 ---
-title: set_ParagraphBreak
+title: Aspose::Words::Saving::TxtSaveOptionsBase::set_ParagraphBreak method
+linktitle: set_ParagraphBreak
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::TxtSaveOptionsBase::get_ParagraphBreak.'
+description: 'Aspose::Words::Saving::TxtSaveOptionsBase::set_ParagraphBreak method. Setter for Aspose::Words::Saving::TxtSaveOptionsBase::get_ParagraphBreak in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words.saving/txtsaveoptionsbase/set_paragraphbreak/
 ---
 ## TxtSaveOptionsBase::set_ParagraphBreak method
@@ -19,4 +20,4 @@ void Aspose::Words::Saving::TxtSaveOptionsBase::set_ParagraphBreak(const System:
 
 * Class [TxtSaveOptionsBase](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_ImageSavingCallback
+title: Aspose::Words::Saving::XamlFlowSaveOptions::get_ImageSavingCallback method
+linktitle: get_ImageSavingCallback
 second_title: Aspose.Words for C++ API Reference
-description: Allows to control how images are saved when a document is saved to XAML.
+description: 'Aspose::Words::Saving::XamlFlowSaveOptions::get_ImageSavingCallback method. Allows to control how images are saved when a document is saved to XAML in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.saving/xamlflowsaveoptions/get_imagesavingcallback/
 ---
 ## XamlFlowSaveOptions::get_ImageSavingCallback method
@@ -97,4 +98,4 @@ private:
 * Interface [IImageSavingCallback](../../iimagesavingcallback/)
 * Class [XamlFlowSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

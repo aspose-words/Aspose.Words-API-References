@@ -1,9 +1,10 @@
 ---
-title: IFieldMergingCallback
+title: Aspose::Words::MailMerging::IFieldMergingCallback interface
+linktitle: IFieldMergingCallback
 second_title: Aspose.Words for C++ API Reference
-description: Implement this interface if you want to control how data is inserted into merge fields during a mail merge operation.
+description: 'Aspose::Words::MailMerging::IFieldMergingCallback interface. Implement this interface if you want to control how data is inserted into merge fields during a mail merge operation in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.mailmerging/ifieldmergingcallback/
 ---
 ## IFieldMergingCallback interface
@@ -12,7 +13,7 @@ url: /cpp/aspose.words.mailmerging/ifieldmergingcallback/
 Implement this interface if you want to control how data is inserted into merge fields during a mail merge operation.
 
 ```cpp
-class IFieldMergingCallback : public System::Object
+class IFieldMergingCallback : public virtual System::Object
 ```
 
 ## Methods
@@ -81,4 +82,4 @@ private:
 ## See Also
 
 * Namespace [Aspose::Words::MailMerging](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

@@ -1,9 +1,10 @@
 ---
-title: get_Permissions
+title: Aspose::Words::Saving::PdfEncryptionDetails::get_Permissions method
+linktitle: get_Permissions
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the operations that are allowed to a user on an encrypted PDF document. The default value is DisallowAll.
+description: 'Aspose::Words::Saving::PdfEncryptionDetails::get_Permissions method. Specifies the operations that are allowed to a user on an encrypted PDF document. The default value is DisallowAll in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.saving/pdfencryptiondetails/get_permissions/
 ---
 ## PdfEncryptionDetails::get_Permissions method
@@ -51,4 +52,4 @@ doc->Save(ArtifactsDir + u"PdfSaveOptions.EncryptionPermissions.pdf", saveOption
 * Enum [PdfPermissions](../../pdfpermissions/)
 * Class [PdfEncryptionDetails](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

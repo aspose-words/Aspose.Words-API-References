@@ -1,9 +1,10 @@
 ---
-title: get_XScale
+title: Aspose::Words::Drawing::TextPath::get_XScale method
+linktitle: get_XScale
 second_title: Aspose.Words for C++ API Reference
-description: Determines whether a straight textpath will be used instead of the shape path.
+description: 'Aspose::Words::Drawing::TextPath::get_XScale method. Determines whether a straight textpath will be used instead of the shape path in C++.'
 type: docs
-weight: 261
+weight: 21000
 url: /cpp/aspose.words.drawing/textpath/get_xscale/
 ---
 ## TextPath::get_XScale method
@@ -122,7 +123,7 @@ static SharedPtr<Shape> AppendWordArt(SharedPtr<Document> doc, String text, Stri
     shape->get_TextPath()->set_Text(text);
     shape->get_TextPath()->set_FontFamily(textFontFamily);
 
-    auto para = System::DynamicCast<Paragraph>(doc->get_FirstSection()->get_Body()->AppendChild(MakeObject<Paragraph>(doc)));
+    auto para = System::ExplicitCast<Paragraph>(doc->get_FirstSection()->get_Body()->AppendChild(MakeObject<Paragraph>(doc)));
     para->AppendChild(shape);
     return shape;
 }
@@ -132,4 +133,4 @@ static SharedPtr<Shape> AppendWordArt(SharedPtr<Document> doc, String text, Stri
 
 * Class [TextPath](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: ChartMarker
+title: Aspose::Words::Drawing::Charts::ChartMarker class
+linktitle: ChartMarker
 second_title: Aspose.Words for C++ API Reference
-description: Represents a chart data marker. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Drawing::Charts::ChartMarker class. Represents a chart data marker. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 170
+weight: 14000
 url: /cpp/aspose.words.drawing.charts/chartmarker/
 ---
 ## ChartMarker class
@@ -91,4 +92,4 @@ static void ApplyDataPoints(SharedPtr<ChartSeries> series, int dataPointsCount, 
 ## See Also
 
 * Namespace [Aspose::Words::Drawing::Charts](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

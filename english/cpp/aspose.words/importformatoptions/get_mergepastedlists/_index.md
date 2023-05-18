@@ -1,9 +1,10 @@
 ---
-title: get_MergePastedLists
+title: Aspose::Words::ImportFormatOptions::get_MergePastedLists method
+linktitle: get_MergePastedLists
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets a boolean value that specifies whether pasted lists will be merged with surrounding lists. The default value is false.
+description: 'Aspose::Words::ImportFormatOptions::get_MergePastedLists method. Gets or sets a boolean value that specifies whether pasted lists will be merged with surrounding lists. The default value is false in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words/importformatoptions/get_mergepastedlists/
 ---
 ## ImportFormatOptions::get_MergePastedLists method
@@ -38,4 +39,4 @@ dstDoc->Save(ArtifactsDir + u"Document.MergePastedLists.docx");
 
 * Class [ImportFormatOptions](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

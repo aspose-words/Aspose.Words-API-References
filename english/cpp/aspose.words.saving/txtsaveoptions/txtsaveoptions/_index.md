@@ -1,9 +1,10 @@
 ---
-title: TxtSaveOptions
+title: Aspose::Words::Saving::TxtSaveOptions::TxtSaveOptions constructor
+linktitle: TxtSaveOptions
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use TxtSaveOptions constructor of Aspose::Words::Saving::TxtSaveOptions class in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.saving/txtsaveoptions/txtsaveoptions/
 ---
 ## TxtSaveOptions::TxtSaveOptions constructor
@@ -19,4 +20,4 @@ Aspose::Words::Saving::TxtSaveOptions::TxtSaveOptions()
 
 * Class [TxtSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

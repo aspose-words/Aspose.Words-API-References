@@ -1,9 +1,10 @@
 ---
-title: get_TrackRevisions
+title: Aspose::Words::Document::get_TrackRevisions method
+linktitle: get_TrackRevisions
 second_title: Aspose.Words for C++ API Reference
-description: True if changes are tracked when this document is edited in Microsoft Word.
+description: 'Aspose::Words::Document::get_TrackRevisions method. True if changes are tracked when this document is edited in Microsoft Word in C++.'
 type: docs
-weight: 690
+weight: 54000
 url: /cpp/aspose.words/document/get_trackrevisions/
 ---
 ## Document::get_TrackRevisions method
@@ -107,4 +108,4 @@ ASSERT_EQ(u"This is revision #1. \rThis is revision #2.", doc->GetText().Trim())
 
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

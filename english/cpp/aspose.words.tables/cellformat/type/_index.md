@@ -1,9 +1,10 @@
 ---
-title: Type
+title: Aspose::Words::Tables::CellFormat::Type method
+linktitle: Type
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Type method of Aspose::Words::Tables::CellFormat class in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words.tables/cellformat/type/
 ---
 ## CellFormat::Type method
@@ -19,4 +20,4 @@ static const System::TypeInfo & Aspose::Words::Tables::CellFormat::Type()
 
 * Class [CellFormat](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

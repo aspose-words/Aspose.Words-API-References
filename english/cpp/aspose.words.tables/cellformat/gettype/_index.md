@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Tables::CellFormat::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Tables::CellFormat class in C++.'
 type: docs
-weight: 209
+weight: 17000
 url: /cpp/aspose.words.tables/cellformat/gettype/
 ---
 ## CellFormat::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Tables::CellFormat::GetType() co
 
 * Class [CellFormat](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

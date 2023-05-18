@@ -1,9 +1,10 @@
 ---
-title: get_Count
+title: Aspose::Words::BookmarkCollection::get_Count method
+linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
-description: Returns the number of bookmarks in the collection.
+description: 'Aspose::Words::BookmarkCollection::get_Count method. Returns the number of bookmarks in the collection in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words/bookmarkcollection/get_count/
 ---
 ## BookmarkCollection::get_Count method
@@ -77,4 +78,4 @@ ASSERT_EQ(String(u"Text inside MyBookmark_1.\r") + u"Text inside MyBookmark_2.\r
 
 * Class [BookmarkCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

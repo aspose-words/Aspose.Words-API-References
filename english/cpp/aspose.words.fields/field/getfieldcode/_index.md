@@ -1,9 +1,10 @@
 ---
-title: GetFieldCode
+title: Aspose::Words::Fields::Field::GetFieldCode method
+linktitle: GetFieldCode
 second_title: Aspose.Words for C++ API Reference
-description: Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included.
+description: 'Aspose::Words::Fields::Field::GetFieldCode method. Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included in C++.'
 type: docs
-weight: 170
+weight: 14000
 url: /cpp/aspose.words.fields/field/getfieldcode/
 ---
 ## Field::GetFieldCode() method
@@ -39,7 +40,7 @@ Shows how to get a field's field code.
 ```cpp
 // Open a document which contains a MERGEFIELD inside an IF field.
 auto doc = MakeObject<Document>(MyDir + u"Nested fields.docx");
-auto fieldIf = System::DynamicCast<FieldIf>(doc->get_Range()->get_Fields()->idx_get(0));
+auto fieldIf = System::ExplicitCast<FieldIf>(doc->get_Range()->get_Fields()->idx_get(0));
 
 // There are two ways of getting a field's field code:
 // 1 -  Omit its inner fields:
@@ -57,7 +58,7 @@ ASSERT_EQ(fieldIf->GetFieldCode(), fieldIf->GetFieldCode(true));
 
 * Class [Field](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## Field::GetFieldCode(bool) method
 
 
@@ -80,7 +81,7 @@ Shows how to get a field's field code.
 ```cpp
 // Open a document which contains a MERGEFIELD inside an IF field.
 auto doc = MakeObject<Document>(MyDir + u"Nested fields.docx");
-auto fieldIf = System::DynamicCast<FieldIf>(doc->get_Range()->get_Fields()->idx_get(0));
+auto fieldIf = System::ExplicitCast<FieldIf>(doc->get_Range()->get_Fields()->idx_get(0));
 
 // There are two ways of getting a field's field code:
 // 1 -  Omit its inner fields:
@@ -98,4 +99,4 @@ ASSERT_EQ(fieldIf->GetFieldCode(), fieldIf->GetFieldCode(true));
 
 * Class [Field](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

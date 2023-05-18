@@ -1,9 +1,10 @@
 ---
-title: GetChildNodes
+title: Aspose::Words::CompositeNode::GetChildNodes method
+linktitle: GetChildNodes
 second_title: Aspose.Words for C++ API Reference
-description: Returns a live collection of child nodes that match the specified type.
+description: 'Aspose::Words::CompositeNode::GetChildNodes method. Returns a live collection of child nodes that match the specified type in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words/compositenode/getchildnodes/
 ---
 ## CompositeNode::GetChildNodes method
@@ -70,7 +71,7 @@ auto doc = MakeObject<Document>(MyDir + u"Images.docx");
 // and save the image data of every shape with an image as a file to the local file system.
 SharedPtr<NodeCollection> shapes = doc->GetChildNodes(NodeType::Shape, true);
 
-ASSERT_EQ(9, shapes->LINQ_Count([](SharedPtr<Node> s) { return (System::DynamicCast<Shape>(s))->get_HasImage(); }));
+ASSERT_EQ(9, shapes->LINQ_Count([](SharedPtr<Node> s) { return (System::ExplicitCast<Shape>(s))->get_HasImage(); }));
 
 int imageIndex = 0;
 for (const auto& shape : System::IterateOver(shapes->LINQ_OfType<SharedPtr<Shape>>()))
@@ -128,7 +129,7 @@ ASSERT_EQ(u"Run 1. Run 2. Initial text. Run 3.", paragraph->GetText().Trim());
 ASSERT_EQ(4, paragraph->GetChildNodes(NodeType::Any, true)->get_Count());
 
 // We can modify the contents of the run by editing and deleting existing child nodes.
-(System::DynamicCast<Run>(paragraph->GetChildNodes(NodeType::Run, true)->idx_get(1)))->set_Text(u"Updated run 2. ");
+(System::ExplicitCast<Run>(paragraph->GetChildNodes(NodeType::Run, true)->idx_get(1)))->set_Text(u"Updated run 2. ");
 paragraph->GetChildNodes(NodeType::Run, true)->Remove(paragraphText);
 
 ASSERT_EQ(u"Run 1. Updated run 2. Run 3.", paragraph->GetText().Trim());
@@ -141,4 +142,4 @@ ASSERT_EQ(3, paragraph->GetChildNodes(NodeType::Any, true)->get_Count());
 * Enum [NodeType](../../nodetype/)
 * Class [CompositeNode](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

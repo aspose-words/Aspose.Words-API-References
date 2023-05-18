@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::DigitalSignatures::SignOptions::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::DigitalSignatures::SignOptions class in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.digitalsignatures/signoptions/gettype/
 ---
 ## SignOptions::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::DigitalSignatures::SignOptions::
 
 * Class [SignOptions](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

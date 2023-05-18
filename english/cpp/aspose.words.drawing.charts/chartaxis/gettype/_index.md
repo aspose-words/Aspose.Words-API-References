@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Drawing::Charts::ChartAxis::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Drawing::Charts::ChartAxis class in C++.'
 type: docs
-weight: 378
+weight: 30000
 url: /cpp/aspose.words.drawing.charts/chartaxis/gettype/
 ---
 ## ChartAxis::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Drawing::Charts::ChartAxis::GetT
 
 * Class [ChartAxis](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_DisplayText
+title: Aspose::Words::Fields::FieldMacroButton::get_DisplayText method
+linktitle: get_DisplayText
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the text to appear as the "button" that is selected to run the macro or command.
+description: 'Aspose::Words::Fields::FieldMacroButton::get_DisplayText method. Gets or sets the text to appear as the "button" that is selected to run the macro or command in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fields/fieldmacrobutton/get_displaytext/
 ---
 ## FieldMacroButton::get_DisplayText method
@@ -28,7 +29,7 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 ASSERT_TRUE(doc->get_HasMacros());
 
 // Insert a MACROBUTTON field, and reference one of the document's macros by name in the MacroName property.
-auto field = System::DynamicCast<FieldMacroButton>(builder->InsertField(FieldType::FieldMacroButton, true));
+auto field = System::ExplicitCast<FieldMacroButton>(builder->InsertField(FieldType::FieldMacroButton, true));
 field->set_MacroName(u"MyMacro");
 field->set_DisplayText(String(u"Double click to run macro: ") + field->get_MacroName());
 
@@ -40,7 +41,7 @@ ASSERT_EQ(u" MACROBUTTON  MyMacro Double click to run macro: MyMacro", field->Ge
 // If our document contains a custom macro with the same name as a stock macro,
 // our macro will be the one that the MACROBUTTON field runs.
 builder->InsertParagraph();
-field = System::DynamicCast<FieldMacroButton>(builder->InsertField(FieldType::FieldMacroButton, true));
+field = System::ExplicitCast<FieldMacroButton>(builder->InsertField(FieldType::FieldMacroButton, true));
 field->set_MacroName(u"ViewZoom200");
 field->set_DisplayText(String(u"Run ") + field->get_MacroName());
 
@@ -54,4 +55,4 @@ doc->Save(ArtifactsDir + u"Field.MACROBUTTON.docm");
 
 * Class [FieldMacroButton](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

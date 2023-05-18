@@ -1,9 +1,10 @@
 ---
-title: get_Variables
+title: Aspose::Words::Document::get_Variables method
+linktitle: get_Variables
 second_title: Aspose.Words for C++ API Reference
-description: Returns the collection of variables added to a document or template.
+description: 'Aspose::Words::Document::get_Variables method. Returns the collection of variables added to a document or template in C++.'
 type: docs
-weight: 703
+weight: 55000
 url: /cpp/aspose.words/document/get_variables/
 ---
 ## Document::get_Variables method
@@ -34,7 +35,7 @@ ASSERT_EQ(3, variables->get_Count());
 
 // We can display the values of variables in the document body using DOCVARIABLE fields.
 auto builder = MakeObject<DocumentBuilder>(doc);
-auto field = System::DynamicCast<FieldDocVariable>(builder->InsertField(FieldType::FieldDocVariable, true));
+auto field = System::ExplicitCast<FieldDocVariable>(builder->InsertField(FieldType::FieldDocVariable, true));
 field->set_VariableName(u"Home address");
 field->Update();
 
@@ -91,4 +92,4 @@ ASSERT_EQ(0, variables->get_Count());
 * Class [VariableCollection](../../variablecollection/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_PrettyFormat
+title: Aspose::Words::Saving::SaveOptions::get_PrettyFormat method
+linktitle: get_PrettyFormat
 second_title: Aspose.Words for C++ API Reference
-description: When true, pretty formats output where applicable. Default value is false.
+description: 'Aspose::Words::Saving::SaveOptions::get_PrettyFormat method. When true, pretty formats output where applicable. Default value is false in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words.saving/saveoptions/get_prettyformat/
 ---
 ## SaveOptions::get_PrettyFormat method
@@ -67,4 +68,4 @@ else
 
 * Class [SaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

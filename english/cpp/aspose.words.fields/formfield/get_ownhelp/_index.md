@@ -1,9 +1,10 @@
 ---
-title: get_OwnHelp
+title: Aspose::Words::Fields::FormField::get_OwnHelp method
+linktitle: get_OwnHelp
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the source of the text that's displayed in a message box when a form field has the focus and the user presses F1.
+description: 'Aspose::Words::Fields::FormField::get_OwnHelp method. Specifies the source of the text that''s displayed in a message box when a form field has the focus and the user presses F1 in C++.'
 type: docs
-weight: 209
+weight: 17000
 url: /cpp/aspose.words.fields/formfield/get_ownhelp/
 ---
 ## FormField::get_OwnHelp method
@@ -157,4 +158,4 @@ private:
 
 * Class [FormField](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

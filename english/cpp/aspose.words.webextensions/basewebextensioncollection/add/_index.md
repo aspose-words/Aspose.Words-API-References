@@ -1,9 +1,10 @@
 ---
-title: Add
+title: Aspose::Words::WebExtensions::BaseWebExtensionCollection::Add method
+linktitle: Add
 second_title: Aspose.Words for C++ API Reference
-description: Adds specified item to the collection.
+description: 'Aspose::Words::WebExtensions::BaseWebExtensionCollection::Add method. Adds specified item to the collection in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.webextensions/basewebextensioncollection/add/
 ---
 ## BaseWebExtensionCollection::Add method
@@ -67,4 +68,4 @@ ASSERT_EQ(0, doc->get_WebExtensionTaskPanes()->get_Count());
 
 * Class [BaseWebExtensionCollection](../)
 * Namespace [Aspose::Words::WebExtensions](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

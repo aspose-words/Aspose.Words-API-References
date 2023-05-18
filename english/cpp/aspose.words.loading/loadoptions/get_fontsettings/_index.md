@@ -1,9 +1,10 @@
 ---
-title: get_FontSettings
+title: Aspose::Words::Loading::LoadOptions::get_FontSettings method
+linktitle: get_FontSettings
 second_title: Aspose.Words for C++ API Reference
-description: Allows to specify document font settings.
+description: 'Aspose::Words::Loading::LoadOptions::get_FontSettings method. Allows to specify document font settings in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.loading/loadoptions/get_fontsettings/
 ---
 ## LoadOptions::get_FontSettings method
@@ -73,4 +74,4 @@ doc->Save(ArtifactsDir + u"LoadOptions.FontSettings.pdf");
 * Class [FontSettings](../../../aspose.words.fonts/fontsettings/)
 * Class [LoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: GetEnumerator
+title: Aspose::Words::Drawing::Charts::ChartLegendEntryCollection::GetEnumerator method
+linktitle: GetEnumerator
 second_title: Aspose.Words for C++ API Reference
-description: Returns an enumerator object.
+description: 'Aspose::Words::Drawing::Charts::ChartLegendEntryCollection::GetEnumerator method. Returns an enumerator object in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.drawing.charts/chartlegendentrycollection/getenumerator/
 ---
 ## ChartLegendEntryCollection::GetEnumerator method
@@ -20,4 +21,4 @@ System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<As
 * Class [ChartLegendEntry](../../chartlegendentry/)
 * Class [ChartLegendEntryCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

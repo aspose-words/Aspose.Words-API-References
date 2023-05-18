@@ -1,9 +1,10 @@
 ---
-title: get_AllowSpaceOfSameStyleInTable
+title: Aspose::Words::Settings::CompatibilityOptions::get_AllowSpaceOfSameStyleInTable method
+linktitle: get_AllowSpaceOfSameStyleInTable
 second_title: Aspose.Words for C++ API Reference
-description: Allow Contextual Spacing of Paragraphs in Tables.
+description: 'Aspose::Words::Settings::CompatibilityOptions::get_AllowSpaceOfSameStyleInTable method. Allow Contextual Spacing of Paragraphs in Tables in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.settings/compatibilityoptions/get_allowspaceofsamestyleintable/
 ---
 ## CompatibilityOptions::get_AllowSpaceOfSameStyleInTable method
@@ -19,4 +20,4 @@ bool Aspose::Words::Settings::CompatibilityOptions::get_AllowSpaceOfSameStyleInT
 
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_ShowBubbleSize
+title: Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_ShowBubbleSize method
+linktitle: get_ShowBubbleSize
 second_title: Aspose.Words for C++ API Reference
-description: Allows to specify whether bubble size is to be displayed for the data labels of the entire series. Applies only to Bubble charts. Default value is false.
+description: 'Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_ShowBubbleSize method. Allows to specify whether bubble size is to be displayed for the data labels of the entire series. Applies only to Bubble charts. Default value is false in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.drawing.charts/chartdatalabelcollection/get_showbubblesize/
 ---
 ## ChartDataLabelCollection::get_ShowBubbleSize method
@@ -49,4 +50,4 @@ doc->Save(ArtifactsDir + u"Charts.DataLabelsBubbleChart.docx");
 
 * Class [ChartDataLabelCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

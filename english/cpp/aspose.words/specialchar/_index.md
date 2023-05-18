@@ -1,9 +1,10 @@
 ---
-title: SpecialChar
+title: Aspose::Words::SpecialChar class
+linktitle: SpecialChar
 second_title: Aspose.Words for C++ API Reference
-description: Base class for special characters in the document. To learn more, visit the  documentation article.
+description: 'Aspose::Words::SpecialChar class. Base class for special characters in the document. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 794
+weight: 62000
 url: /cpp/aspose.words/specialchar/
 ---
 ## SpecialChar class
@@ -73,7 +74,7 @@ void RemoveHiddenContentFromDocument()
     // Below are three types of fields which can accept a document visitor,
     // which will allow it to visit the accepting node, and then traverse its child nodes in a depth-first manner.
     // 1 -  Paragraph node:
-    auto para = System::DynamicCast<Paragraph>(doc->GetChild(NodeType::Paragraph, 4, true));
+    auto para = System::ExplicitCast<Paragraph>(doc->GetChild(NodeType::Paragraph, 4, true));
     para->Accept(hiddenContentRemover);
 
     // 2 -  Table node:
@@ -241,4 +242,4 @@ public:
 
 * Class [Inline](../inline/)
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Saving::ImageSavingArgs::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Saving::ImageSavingArgs class in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.saving/imagesavingargs/gettype/
 ---
 ## ImageSavingArgs::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Saving::ImageSavingArgs::GetType
 
 * Class [ImageSavingArgs](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

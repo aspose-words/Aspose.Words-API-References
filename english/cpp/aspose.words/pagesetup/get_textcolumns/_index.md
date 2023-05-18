@@ -1,9 +1,10 @@
 ---
-title: get_TextColumns
+title: Aspose::Words::PageSetup::get_TextColumns method
+linktitle: get_TextColumns
 second_title: Aspose.Words for C++ API Reference
-description: Returns a collection that represents the set of text columns.
+description: 'Aspose::Words::PageSetup::get_TextColumns method. Returns a collection that represents the set of text columns in C++.'
 type: docs
-weight: 560
+weight: 44000
 url: /cpp/aspose.words/pagesetup/get_textcolumns/
 ---
 ## PageSetup::get_TextColumns method
@@ -41,4 +42,4 @@ doc->Save(ArtifactsDir + u"PageSetup.ColumnsSameWidth.docx");
 * Class [TextColumnCollection](../../textcolumncollection/)
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

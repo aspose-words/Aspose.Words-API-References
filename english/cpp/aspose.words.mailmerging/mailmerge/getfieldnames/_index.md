@@ -1,9 +1,10 @@
 ---
-title: GetFieldNames
+title: Aspose::Words::MailMerging::MailMerge::GetFieldNames method
+linktitle: GetFieldNames
 second_title: Aspose.Words for C++ API Reference
-description: Returns a collection of mail merge field names available in the document.
+description: 'Aspose::Words::MailMerging::MailMerge::GetFieldNames method. Returns a collection of mail merge field names available in the document in C++.'
 type: docs
-weight: 261
+weight: 21000
 url: /cpp/aspose.words.mailmerging/mailmerge/getfieldnames/
 ---
 ## MailMerge::GetFieldNames method
@@ -27,4 +28,4 @@ Includes "mustache" field names if [UseNonMergeFields](../get_usenonmergefields/
 
 * Class [MailMerge](../)
 * Namespace [Aspose::Words::MailMerging](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

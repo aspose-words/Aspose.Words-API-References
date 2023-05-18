@@ -1,9 +1,10 @@
 ---
-title: Accept
+title: Aspose::Words::Node::Accept method
+linktitle: Accept
 second_title: Aspose.Words for C++ API Reference
-description: Accepts a visitor.
+description: 'Aspose::Words::Node::Accept method. Accepts a visitor in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words/node/accept/
 ---
 ## Node::Accept method
@@ -45,7 +46,7 @@ void RemoveHiddenContentFromDocument()
     // Below are three types of fields which can accept a document visitor,
     // which will allow it to visit the accepting node, and then traverse its child nodes in a depth-first manner.
     // 1 -  Paragraph node:
-    auto para = System::DynamicCast<Paragraph>(doc->GetChild(NodeType::Paragraph, 4, true));
+    auto para = System::ExplicitCast<Paragraph>(doc->GetChild(NodeType::Paragraph, 4, true));
     para->Accept(hiddenContentRemover);
 
     // 2 -  Table node:
@@ -214,4 +215,4 @@ public:
 * Class [DocumentVisitor](../../documentvisitor/)
 * Class [Node](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

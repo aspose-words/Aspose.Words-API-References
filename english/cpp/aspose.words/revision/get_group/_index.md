@@ -1,9 +1,10 @@
 ---
-title: get_Group
+title: Aspose::Words::Revision::get_Group method
+linktitle: get_Group
 second_title: Aspose.Words for C++ API Reference
-description: Gets the revision group. Returns null if the revision does not belong to any group.
+description: 'Aspose::Words::Revision::get_Group method. Gets the revision group. Returns null if the revision does not belong to any group in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words/revision/get_group/
 ---
 ## Revision::get_Group method
@@ -102,4 +103,4 @@ ASSERT_EQ(u"This is revision #1. \rThis is revision #2.", doc->GetText().Trim())
 * Class [RevisionGroup](../../revisiongroup/)
 * Class [Revision](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

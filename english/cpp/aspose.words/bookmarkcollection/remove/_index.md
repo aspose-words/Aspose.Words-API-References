@@ -1,9 +1,10 @@
 ---
-title: Remove
+title: Aspose::Words::BookmarkCollection::Remove method
+linktitle: Remove
 second_title: Aspose.Words for C++ API Reference
-description: Removes the specified bookmark from the document.
+description: 'Aspose::Words::BookmarkCollection::Remove method. Removes the specified bookmark from the document in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words/bookmarkcollection/remove/
 ---
 ## BookmarkCollection::Remove(const System::SharedPtr\<Aspose::Words::Bookmark\>\&) method
@@ -82,7 +83,7 @@ ASSERT_EQ(String(u"Text inside MyBookmark_1.\r") + u"Text inside MyBookmark_2.\r
 * Class [Bookmark](../../bookmark/)
 * Class [BookmarkCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## BookmarkCollection::Remove(const System::String\&) method
 
 
@@ -158,4 +159,4 @@ ASSERT_EQ(String(u"Text inside MyBookmark_1.\r") + u"Text inside MyBookmark_2.\r
 
 * Class [BookmarkCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

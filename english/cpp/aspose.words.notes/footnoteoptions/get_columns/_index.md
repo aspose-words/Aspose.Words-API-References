@@ -1,9 +1,10 @@
 ---
-title: get_Columns
+title: Aspose::Words::Notes::FootnoteOptions::get_Columns method
+linktitle: get_Columns
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the number of columns with which the footnotes area is formatted.
+description: 'Aspose::Words::Notes::FootnoteOptions::get_Columns method. Specifies the number of columns with which the footnotes area is formatted in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.notes/footnoteoptions/get_columns/
 ---
 ## FootnoteOptions::get_Columns method
@@ -32,4 +33,4 @@ doc->Save(ArtifactsDir + u"Document.FootnoteColumns.docx");
 
 * Class [FootnoteOptions](../)
 * Namespace [Aspose::Words::Notes](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

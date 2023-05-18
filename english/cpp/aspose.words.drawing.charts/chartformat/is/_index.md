@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Drawing::Charts::ChartFormat::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Drawing::Charts::ChartFormat class in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.drawing.charts/chartformat/is/
 ---
 ## ChartFormat::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Drawing::Charts::ChartFormat::Is(const System::TypeI
 
 * Class [ChartFormat](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

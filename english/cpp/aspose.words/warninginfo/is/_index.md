@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::WarningInfo::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::WarningInfo class in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words/warninginfo/is/
 ---
 ## WarningInfo::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::WarningInfo::Is(const System::TypeInfo &target) cons
 
 * Class [WarningInfo](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

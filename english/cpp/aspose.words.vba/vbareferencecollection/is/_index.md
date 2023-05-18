@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Vba::VbaReferenceCollection::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Vba::VbaReferenceCollection class in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.vba/vbareferencecollection/is/
 ---
 ## VbaReferenceCollection::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Vba::VbaReferenceCollection::Is(const System::TypeIn
 
 * Class [VbaReferenceCollection](../)
 * Namespace [Aspose::Words::Vba](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: CreateSaveOptions
+title: Aspose::Words::Saving::SaveOptions::CreateSaveOptions method
+linktitle: CreateSaveOptions
 second_title: Aspose.Words for C++ API Reference
-description: Creates a save options object of a class suitable for the specified save format.
+description: 'Aspose::Words::Saving::SaveOptions::CreateSaveOptions method. Creates a save options object of a class suitable for the specified save format in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words.saving/saveoptions/createsaveoptions/
 ---
 ## SaveOptions::CreateSaveOptions(Aspose::Words::SaveFormat) method
@@ -50,7 +51,7 @@ doc->Save(ArtifactsDir + u"PdfSaveOptions.MemoryOptimization.pdf", saveOptions);
 * Enum [SaveFormat](../../../aspose.words/saveformat/)
 * Class [SaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## SaveOptions::CreateSaveOptions(const System::String\&) method
 
 
@@ -96,4 +97,4 @@ doc->Save(ArtifactsDir + u"Document.DefaultTemplate.docx", options);
 * Class [SaveOptions](../)
 * Class [SaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

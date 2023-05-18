@@ -1,9 +1,10 @@
 ---
-title: get_Data
+title: Aspose::Words::Markup::CustomXmlPart::get_Data method
+linktitle: get_Data
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the XML content of this Custom XML Data Storage Part.
+description: 'Aspose::Words::Markup::CustomXmlPart::get_Data method. Gets or sets the XML content of this Custom XML Data Storage Part in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.markup/customxmlpart/get_data/
 ---
 ## CustomXmlPart::get_Data method
@@ -89,4 +90,4 @@ doc->Save(ArtifactsDir + u"StructuredDocumentTag.CustomXml.docx");
 
 * Class [CustomXmlPart](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

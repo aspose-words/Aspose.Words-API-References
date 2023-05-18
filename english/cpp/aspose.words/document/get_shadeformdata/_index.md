@@ -1,9 +1,10 @@
 ---
-title: get_ShadeFormData
+title: Aspose::Words::Document::get_ShadeFormData method
+linktitle: get_ShadeFormData
 second_title: Aspose.Words for C++ API Reference
-description: Specifies whether to turn on the gray shading on form fields.
+description: 'Aspose::Words::Document::get_ShadeFormData method. Specifies whether to turn on the gray shading on form fields in C++.'
 type: docs
-weight: 625
+weight: 49000
 url: /cpp/aspose.words/document/get_shadeformdata/
 ---
 ## Document::get_ShadeFormData method
@@ -37,4 +38,4 @@ doc->Save(ArtifactsDir + u"Document.ShadeFormData.docx");
 
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_NodeType
+title: Aspose::Words::SubDocument::get_NodeType method
+linktitle: get_NodeType
 second_title: Aspose.Words for C++ API Reference
-description: Returns SubDocument.
+description: 'Aspose::Words::SubDocument::get_NodeType method. Returns SubDocument in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words/subdocument/get_nodetype/
 ---
 ## SubDocument::get_NodeType method
@@ -27,7 +28,7 @@ auto doc = MakeObject<Document>(MyDir + u"Master document.docx");
 SharedPtr<NodeCollection> subDocuments = doc->GetChildNodes(NodeType::SubDocument, true);
 
 // This node serves as a reference to an external document, and its contents cannot be accessed.
-auto subDocument = System::DynamicCast<SubDocument>(subDocuments->idx_get(0));
+auto subDocument = System::ExplicitCast<SubDocument>(subDocuments->idx_get(0));
 
 ASSERT_FALSE(subDocument->get_IsComposite());
 ```
@@ -37,4 +38,4 @@ ASSERT_FALSE(subDocument->get_IsComposite());
 * Enum [NodeType](../../nodetype/)
 * Class [SubDocument](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

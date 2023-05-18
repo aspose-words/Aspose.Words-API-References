@@ -1,9 +1,10 @@
 ---
-title: get_Target
+title: Aspose::Words::Comparing::CompareOptions::get_Target method
+linktitle: get_Target
 second_title: Aspose.Words for C++ API Reference
-description: Specifies which document shall be used as a target during comparison.
+description: 'Aspose::Words::Comparing::CompareOptions::get_Target method. Specifies which document shall be used as a target during comparison in C++.'
 type: docs
-weight: 170
+weight: 14000
 url: /cpp/aspose.words.comparing/compareoptions/get_target/
 ---
 ## CompareOptions::get_Target method
@@ -57,17 +58,17 @@ builder->MoveToHeaderFooter(HeaderFooterType::HeaderPrimary);
 builder->Writeln(u"Original header contents.");
 
 // Create a clone of our document and perform a quick edit on each of the cloned document's elements.
-auto docEdited = System::DynamicCast<Document>(docOriginal->Clone(true));
+auto docEdited = System::ExplicitCast<Document>(docOriginal->Clone(true));
 SharedPtr<Paragraph> firstParagraph = docEdited->get_FirstSection()->get_Body()->get_FirstParagraph();
 
 firstParagraph->get_Runs()->idx_get(0)->set_Text(u"hello world! this is the first paragraph, after editing.");
 firstParagraph->get_ParagraphFormat()->set_Style(docEdited->get_Styles()->idx_get(StyleIdentifier::Heading1));
-(System::DynamicCast<Footnote>(docEdited->GetChild(NodeType::Footnote, 0, true)))
+(System::ExplicitCast<Footnote>(docEdited->GetChild(NodeType::Footnote, 0, true)))
     ->get_FirstParagraph()
     ->get_Runs()
     ->idx_get(1)
     ->set_Text(u"Edited endnote text.");
-(System::DynamicCast<Table>(docEdited->GetChild(NodeType::Table, 0, true)))
+(System::ExplicitCast<Table>(docEdited->GetChild(NodeType::Table, 0, true)))
     ->get_FirstRow()
     ->get_Cells()
     ->idx_get(1)
@@ -75,13 +76,13 @@ firstParagraph->get_ParagraphFormat()->set_Style(docEdited->get_Styles()->idx_ge
     ->get_Runs()
     ->idx_get(0)
     ->set_Text(u"Edited Cell 2 contents");
-(System::DynamicCast<Shape>(docEdited->GetChild(NodeType::Shape, 0, true)))
+(System::ExplicitCast<Shape>(docEdited->GetChild(NodeType::Shape, 0, true)))
     ->get_FirstParagraph()
     ->get_Runs()
     ->idx_get(0)
     ->set_Text(u"Edited textbox contents");
-(System::DynamicCast<FieldDate>(docEdited->get_Range()->get_Fields()->idx_get(0)))->set_UseLunarCalendar(true);
-(System::DynamicCast<Comment>(docEdited->GetChild(NodeType::Comment, 0, true)))
+(System::ExplicitCast<FieldDate>(docEdited->get_Range()->get_Fields()->idx_get(0)))->set_UseLunarCalendar(true);
+(System::ExplicitCast<Comment>(docEdited->GetChild(NodeType::Comment, 0, true)))
     ->get_FirstParagraph()
     ->get_Runs()
     ->idx_get(0)
@@ -117,4 +118,4 @@ docOriginal->Save(ArtifactsDir + u"Document.CompareOptions.docx");
 * Enum [ComparisonTargetType](../../comparisontargettype/)
 * Class [CompareOptions](../)
 * Namespace [Aspose::Words::Comparing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

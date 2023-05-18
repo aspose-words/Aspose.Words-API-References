@@ -1,9 +1,10 @@
 ---
-title: get_Properties
+title: Aspose::Words::Markup::SmartTag::get_Properties method
+linktitle: get_Properties
 second_title: Aspose.Words for C++ API Reference
-description: A collection of the smart tag properties.
+description: 'Aspose::Words::Markup::SmartTag::get_Properties method. A collection of the smart tag properties in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.markup/smarttag/get_properties/
 ---
 ## SmartTag::get_Properties method
@@ -118,4 +119,4 @@ public:
 * Class [CustomXmlPropertyCollection](../../customxmlpropertycollection/)
 * Class [SmartTag](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

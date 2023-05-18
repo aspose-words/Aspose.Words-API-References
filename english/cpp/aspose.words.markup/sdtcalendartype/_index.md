@@ -1,9 +1,10 @@
 ---
-title: SdtCalendarType
+title: Aspose::Words::Markup::SdtCalendarType enum
+linktitle: SdtCalendarType
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the possible types of calendars which can be used to specify CalendarType in an Office Open XML document.
+description: 'Aspose::Words::Markup::SdtCalendarType enum. Specifies the possible types of calendars which can be used to specify CalendarType in an Office Open XML document in C++.'
 type: docs
-weight: 235
+weight: 19000
 url: /cpp/aspose.words.markup/sdtcalendartype/
 ---
 ## SdtCalendarType enum
@@ -38,4 +39,4 @@ enum class SdtCalendarType
 ## See Also
 
 * Namespace [Aspose::Words::Markup](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

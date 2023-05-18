@@ -1,9 +1,10 @@
 ---
-title: get_Type
+title: Aspose::Words::Properties::DocumentProperty::get_Type method
+linktitle: get_Type
 second_title: Aspose.Words for C++ API Reference
-description: Gets the data type of the property.
+description: 'Aspose::Words::Properties::DocumentProperty::get_Type method. Gets the data type of the property in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.properties/documentproperty/get_type/
 ---
 ## DocumentProperty::get_Type method
@@ -39,7 +40,7 @@ for (const auto& docProperty : System::IterateOver(doc->get_BuiltInDocumentPrope
     if (System::ObjectExt::Is<System::Collections::Generic::ICollection<SharedPtr<System::Object>>>(docProperty->get_Value()))
     {
         for (const auto& value : System::IterateOver(
-                 System::DynamicCast_noexcept<System::Collections::Generic::ICollection<SharedPtr<System::Object>>>(docProperty->get_Value())))
+                 System::AsCast<System::Collections::Generic::ICollection<SharedPtr<System::Object>>>(docProperty->get_Value())))
         {
             std::cout << "\tValue:\t\"" << value << "\"" << std::endl;
         }
@@ -83,7 +84,7 @@ ASSERT_EQ(5, properties->get_Count());
 
 // Display the value of a custom property using a DOCPROPERTY field.
 auto builder = MakeObject<DocumentBuilder>(doc);
-auto field = System::DynamicCast<FieldDocProperty>(builder->InsertField(u" DOCPROPERTY \"Authorized By\""));
+auto field = System::ExplicitCast<FieldDocProperty>(builder->InsertField(u" DOCPROPERTY \"Authorized By\""));
 field->Update();
 
 ASSERT_EQ(u"John Doe", field->get_Result());
@@ -115,4 +116,4 @@ ASSERT_EQ(0, properties->get_Count());
 * Enum [PropertyType](../../propertytype/)
 * Class [DocumentProperty](../)
 * Namespace [Aspose::Words::Properties](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

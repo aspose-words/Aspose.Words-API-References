@@ -1,9 +1,10 @@
 ---
-title: HorizontalRuleFormat
+title: Aspose::Words::Drawing::HorizontalRuleFormat class
+linktitle: HorizontalRuleFormat
 second_title: Aspose.Words for C++ API Reference
-description: Represents horizontal rule formatting. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Drawing::HorizontalRuleFormat class. Represents horizontal rule formatting. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.drawing/horizontalruleformat/
 ---
 ## HorizontalRuleFormat class
@@ -57,4 +58,4 @@ ASSERT_TRUE(shape->get_HorizontalRuleFormat()->get_NoShade());
 ## See Also
 
 * Namespace [Aspose::Words::Drawing](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

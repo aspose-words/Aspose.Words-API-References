@@ -1,9 +1,10 @@
 ---
-title: set_CleanupOptions
+title: Aspose::Words::MailMerging::MailMerge::set_CleanupOptions method
+linktitle: set_CleanupOptions
 second_title: Aspose.Words for C++ API Reference
-description: Sets a set of flags that specify what items should be removed during mail merge.
+description: 'Aspose::Words::MailMerging::MailMerge::set_CleanupOptions method. Sets a set of flags that specify what items should be removed during mail merge in C++.'
 type: docs
-weight: 339
+weight: 27000
 url: /cpp/aspose.words.mailmerging/mailmerge/set_cleanupoptions/
 ---
 ## MailMerge::set_CleanupOptions method
@@ -20,4 +21,4 @@ void Aspose::Words::MailMerging::MailMerge::set_CleanupOptions(Aspose::Words::Ma
 * Enum [MailMergeCleanupOptions](../../mailmergecleanupoptions/)
 * Class [MailMerge](../)
 * Namespace [Aspose::Words::MailMerging](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

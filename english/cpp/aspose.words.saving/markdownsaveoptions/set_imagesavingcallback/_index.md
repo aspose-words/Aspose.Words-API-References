@@ -1,9 +1,10 @@
 ---
-title: set_ImageSavingCallback
+title: Aspose::Words::Saving::MarkdownSaveOptions::set_ImageSavingCallback method
+linktitle: set_ImageSavingCallback
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::MarkdownSaveOptions::get_ImageSavingCallback.'
+description: 'Aspose::Words::Saving::MarkdownSaveOptions::set_ImageSavingCallback method. Setter for Aspose::Words::Saving::MarkdownSaveOptions::get_ImageSavingCallback in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words.saving/markdownsaveoptions/set_imagesavingcallback/
 ---
 ## MarkdownSaveOptions::set_ImageSavingCallback method
@@ -20,4 +21,4 @@ void Aspose::Words::Saving::MarkdownSaveOptions::set_ImageSavingCallback(const S
 * Interface [IImageSavingCallback](../../iimagesavingcallback/)
 * Class [MarkdownSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

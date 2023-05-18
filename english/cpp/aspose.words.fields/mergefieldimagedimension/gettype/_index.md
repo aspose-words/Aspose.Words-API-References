@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Fields::MergeFieldImageDimension::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Fields::MergeFieldImageDimension class in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.fields/mergefieldimagedimension/gettype/
 ---
 ## MergeFieldImageDimension::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Fields::MergeFieldImageDimension
 
 * Class [MergeFieldImageDimension](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: InsertParagraph
+title: Aspose::Words::DocumentBuilder::InsertParagraph method
+linktitle: InsertParagraph
 second_title: Aspose.Words for C++ API Reference
-description: Inserts a paragraph break into the document.
+description: 'Aspose::Words::DocumentBuilder::InsertParagraph method. Inserts a paragraph break into the document in C++.'
 type: docs
-weight: 560
+weight: 44000
 url: /cpp/aspose.words/documentbuilder/insertparagraph/
 ---
 ## DocumentBuilder::InsertParagraph method
@@ -25,6 +26,8 @@ The paragraph node that was just inserted. It is the same node as [CurrentParagr
 Current paragraph formatting specified by the [ParagraphFormat](../get_paragraphformat/) property is used.
 
 Breaks the current paragraph in two. After inserting the paragraph, the cursor is placed at the beginning of the new paragraph.
+
+An exception is thrown if it is not possible to insert a paragraph break at the current cursor position.
 
 ## Examples
 
@@ -61,4 +64,4 @@ ASSERT_TRUE(builder->get_CurrentParagraph()->get_IsEndOfDocument());
 * Class [Paragraph](../../paragraph/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

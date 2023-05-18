@@ -1,9 +1,10 @@
 ---
-title: StructuredDocumentTagRangeEnd
+title: Aspose::Words::Markup::StructuredDocumentTagRangeEnd::StructuredDocumentTagRangeEnd constructor
+linktitle: StructuredDocumentTagRangeEnd
 second_title: Aspose.Words for C++ API Reference
-description: Initializes a new instance of the Structured document tag range end class.
+description: 'Aspose::Words::Markup::StructuredDocumentTagRangeEnd::StructuredDocumentTagRangeEnd constructor. Initializes a new instance of the Structured document tag range end class in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.markup/structureddocumenttagrangeend/structureddocumenttagrangeend/
 ---
 ## StructuredDocumentTagRangeEnd::StructuredDocumentTagRangeEnd constructor
@@ -40,10 +41,10 @@ void SdtRangeExtendedMethods()
     // Removes ranged structured document tag, but keeps content inside.
     rangeStart->RemoveSelfOnly();
 
-    rangeStart = System::DynamicCast<StructuredDocumentTagRangeStart>(doc->GetChild(NodeType::StructuredDocumentTagRangeStart, 0, false));
+    rangeStart = System::ExplicitCast<StructuredDocumentTagRangeStart>(doc->GetChild(NodeType::StructuredDocumentTagRangeStart, 0, false));
     ASPOSE_ASSERT_EQ(nullptr, rangeStart);
 
-    auto rangeEnd = System::DynamicCast<StructuredDocumentTagRangeEnd>(doc->GetChild(NodeType::StructuredDocumentTagRangeEnd, 0, false));
+    auto rangeEnd = System::ExplicitCast<StructuredDocumentTagRangeEnd>(doc->GetChild(NodeType::StructuredDocumentTagRangeEnd, 0, false));
 
     ASPOSE_ASSERT_EQ(nullptr, rangeEnd);
     ASSERT_EQ(u"StructuredDocumentTag element", doc->GetText().Trim());
@@ -76,4 +77,4 @@ void InsertStructuredDocumentTagRanges(SharedPtr<Document> doc, SharedPtr<Struct
 * Class [DocumentBase](../../../aspose.words/documentbase/)
 * Class [StructuredDocumentTagRangeEnd](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

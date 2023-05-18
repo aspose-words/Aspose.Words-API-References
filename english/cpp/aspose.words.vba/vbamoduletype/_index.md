@@ -1,9 +1,10 @@
 ---
-title: VbaModuleType
+title: Aspose::Words::Vba::VbaModuleType enum
+linktitle: VbaModuleType
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the type of a model in a VBA project.
+description: 'Aspose::Words::Vba::VbaModuleType enum. Specifies the type of a model in a VBA project in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.vba/vbamoduletype/
 ---
 ## VbaModuleType enum
@@ -53,4 +54,4 @@ doc->Save(ArtifactsDir + u"VbaProject.CreateVBAMacros.docm");
 ## See Also
 
 * Namespace [Aspose::Words::Vba](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

@@ -1,9 +1,10 @@
 ---
-title: PageSetup
+title: Aspose::Words::PageSetup class
+linktitle: PageSetup
 second_title: Aspose.Words for C++ API Reference
-description: Represents the page setup properties of a section. To learn more, visit the  documentation article.
+description: 'Aspose::Words::PageSetup class. Represents the page setup properties of a section. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 586
+weight: 46000
 url: /cpp/aspose.words/pagesetup/
 ---
 ## PageSetup class
@@ -149,4 +150,4 @@ doc->Save(ArtifactsDir + u"PageSetup.ClearFormatting.docx");
 ## See Also
 
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

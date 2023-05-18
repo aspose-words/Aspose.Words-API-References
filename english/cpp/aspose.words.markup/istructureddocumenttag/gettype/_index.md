@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Markup::IStructuredDocumentTag::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Markup::IStructuredDocumentTag class in C++.'
 type: docs
-weight: 183
+weight: 15000
 url: /cpp/aspose.words.markup/istructureddocumenttag/gettype/
 ---
 ## IStructuredDocumentTag::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Markup::IStructuredDocumentTag::
 
 * Interface [IStructuredDocumentTag](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

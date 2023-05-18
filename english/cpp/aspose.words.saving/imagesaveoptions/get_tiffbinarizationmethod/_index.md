@@ -1,9 +1,10 @@
 ---
-title: get_TiffBinarizationMethod
+title: Aspose::Words::Saving::ImageSaveOptions::get_TiffBinarizationMethod method
+linktitle: get_TiffBinarizationMethod
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets method used while converting images to 1 bpp format when SaveFormat is Tiff and TiffCompression is equal to Ccitt3 or Ccitt4.
+description: 'Aspose::Words::Saving::ImageSaveOptions::get_TiffBinarizationMethod method. Gets or sets method used while converting images to 1 bpp format when SaveFormat is Tiff and TiffCompression is equal to Ccitt3 or Ccitt4 in C++.'
 type: docs
-weight: 196
+weight: 16000
 url: /cpp/aspose.words.saving/imagesaveoptions/get_tiffbinarizationmethod/
 ---
 ## ImageSaveOptions::get_TiffBinarizationMethod method
@@ -50,4 +51,4 @@ doc->Save(ArtifactsDir + u"ImageSaveOptions.FloydSteinbergDithering.tiff", optio
 * Enum [ImageBinarizationMethod](../../imagebinarizationmethod/)
 * Class [ImageSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

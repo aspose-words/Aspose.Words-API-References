@@ -1,9 +1,10 @@
 ---
-title: get_Color2
+title: Aspose::Words::Drawing::Stroke::get_Color2 method
+linktitle: get_Color2
 second_title: Aspose.Words for C++ API Reference
-description: Defines a second color for a stroke.
+description: 'Aspose::Words::Drawing::Stroke::get_Color2 method. Defines a second color for a stroke in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.drawing/stroke/get_color2/
 ---
 ## Stroke::get_Color2 method
@@ -27,7 +28,7 @@ The default value for a [Shape](../../shape/) is **White**.
 Shows how to process shape stroke features. 
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"Shape stroke pattern border.docx");
-auto shape = System::DynamicCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
+auto shape = System::ExplicitCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
 SharedPtr<Stroke> stroke = shape->get_Stroke();
 
 // Strokes can have two colors, which are used to create a pattern defined by two-tone image data.
@@ -43,4 +44,4 @@ System::IO::File::WriteAllBytes(ArtifactsDir + u"Drawing.StrokePattern.png", str
 
 * Class [Stroke](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

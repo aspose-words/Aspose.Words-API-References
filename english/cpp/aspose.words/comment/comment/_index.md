@@ -1,9 +1,10 @@
 ---
-title: Comment
+title: Aspose::Words::Comment::Comment constructor
+linktitle: Comment
 second_title: Aspose.Words for C++ API Reference
-description: Initializes a new instance of the Comment class.
+description: 'Aspose::Words::Comment::Comment constructor. Initializes a new instance of the Comment class in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words/comment/comment/
 ---
 ## Comment::Comment(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&) constructor
@@ -66,13 +67,13 @@ static void PrintAllCommentInfo(SharedPtr<NodeCollection> comments)
     // Iterate over all top-level comments. Unlike reply-type comments, top-level comments have no ancestor.
     std::function<bool(SharedPtr<Node> c)> haveNoAncestor = [](SharedPtr<Node> c)
     {
-        return (System::DynamicCast<Comment>(c))->get_Ancestor() == nullptr;
+        return (System::ExplicitCast<Comment>(c))->get_Ancestor() == nullptr;
     };
 
     for (auto comment : System::IterateOver<Comment>(comments->LINQ_Where(haveNoAncestor)))
     {
         // First, visit the start of the comment range.
-        auto commentRangeStart = System::DynamicCast<CommentRangeStart>(comment->get_PreviousSibling()->get_PreviousSibling()->get_PreviousSibling());
+        auto commentRangeStart = System::ExplicitCast<CommentRangeStart>(comment->get_PreviousSibling()->get_PreviousSibling()->get_PreviousSibling());
         commentRangeStart->Accept(commentVisitor);
 
         // Then, visit the comment, and any replies that it may have.
@@ -84,7 +85,7 @@ static void PrintAllCommentInfo(SharedPtr<NodeCollection> comments)
         }
 
         // Finally, visit the end of the comment range, and then print the visitor's text contents.
-        auto commentRangeEnd = System::DynamicCast<CommentRangeEnd>(comment->get_PreviousSibling());
+        auto commentRangeEnd = System::ExplicitCast<CommentRangeEnd>(comment->get_PreviousSibling());
         commentRangeEnd->Accept(commentVisitor);
 
         std::cout << commentVisitor->GetText() << std::endl;
@@ -174,7 +175,7 @@ private:
 * Class [DocumentBase](../../documentbase/)
 * Class [Comment](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## Comment::Comment(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&, const System::String\&, const System::String\&, System::DateTime) constructor
 
 
@@ -218,4 +219,4 @@ doc->Save(ArtifactsDir + u"InlineStory.AddComment.docx");
 * Class [DocumentBase](../../documentbase/)
 * Class [Comment](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: AddField
+title: Aspose::Words::Fields::FieldArgumentBuilder::AddField method
+linktitle: AddField
 second_title: Aspose.Words for C++ API Reference
-description: Adds a field represented by a FieldBuilder to the argument.
+description: 'Aspose::Words::Fields::FieldArgumentBuilder::AddField method. Adds a field represented by a FieldBuilder to the argument in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.fields/fieldargumentbuilder/addfield/
 ---
 ## FieldArgumentBuilder::AddField method
@@ -104,4 +105,4 @@ doc->Save(ArtifactsDir + u"Field.SYMBOL.docx");
 * Class [FieldBuilder](../../fieldbuilder/)
 * Class [FieldArgumentBuilder](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Fields::FieldDisplayBarcode::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Fields::FieldDisplayBarcode class in C++.'
 type: docs
-weight: 196
+weight: 16000
 url: /cpp/aspose.words.fields/fielddisplaybarcode/is/
 ---
 ## FieldDisplayBarcode::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Fields::FieldDisplayBarcode::Is(const System::TypeIn
 
 * Class [FieldDisplayBarcode](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

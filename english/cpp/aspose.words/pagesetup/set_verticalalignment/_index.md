@@ -1,9 +1,10 @@
 ---
-title: set_VerticalAlignment
+title: Aspose::Words::PageSetup::set_VerticalAlignment method
+linktitle: set_VerticalAlignment
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::PageSetup::get_VerticalAlignment.'
+description: 'Aspose::Words::PageSetup::set_VerticalAlignment method. Setter for Aspose::Words::PageSetup::get_VerticalAlignment in C++.'
 type: docs
-weight: 1158
+weight: 90000
 url: /cpp/aspose.words/pagesetup/set_verticalalignment/
 ---
 ## PageSetup::set_VerticalAlignment method
@@ -20,4 +21,4 @@ void Aspose::Words::PageSetup::set_VerticalAlignment(Aspose::Words::PageVertical
 * Enum [PageVerticalAlignment](../../pageverticalalignment/)
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

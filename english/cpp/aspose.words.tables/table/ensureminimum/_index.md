@@ -1,9 +1,10 @@
 ---
-title: EnsureMinimum
+title: Aspose::Words::Tables::Table::EnsureMinimum method
+linktitle: EnsureMinimum
 second_title: Aspose.Words for C++ API Reference
-description: If the table has no rows, creates and appends one Row.
+description: 'Aspose::Words::Tables::Table::EnsureMinimum method. If the table has no rows, creates and appends one Row in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.tables/table/ensureminimum/
 ---
 ## Table::EnsureMinimum method
@@ -41,4 +42,4 @@ table->get_FirstRow()->get_FirstCell()->get_FirstParagraph()->AppendChild(MakeOb
 
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

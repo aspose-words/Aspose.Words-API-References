@@ -1,9 +1,10 @@
 ---
-title: get_WidthInPoints
+title: Aspose::Words::Rendering::PageInfo::get_WidthInPoints method
+linktitle: get_WidthInPoints
 second_title: Aspose.Words for C++ API Reference
-description: Gets the width of the page in points.
+description: 'Aspose::Words::Rendering::PageInfo::get_WidthInPoints method. Gets the width of the page in points in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.rendering/pageinfo/get_widthinpoints/
 ---
 ## PageInfo::get_WidthInPoints method
@@ -19,4 +20,4 @@ float Aspose::Words::Rendering::PageInfo::get_WidthInPoints()
 
 * Class [PageInfo](../)
 * Namespace [Aspose::Words::Rendering](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

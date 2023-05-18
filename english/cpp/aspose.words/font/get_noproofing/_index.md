@@ -1,9 +1,10 @@
 ---
-title: get_NoProofing
+title: Aspose::Words::Font::get_NoProofing method
+linktitle: get_NoProofing
 second_title: Aspose.Words for C++ API Reference
-description: True when the formatted characters are not to be spell checked.
+description: 'Aspose::Words::Font::get_NoProofing method. True when the formatted characters are not to be spell checked in C++.'
 type: docs
-weight: 378
+weight: 30000
 url: /cpp/aspose.words/font/get_noproofing/
 ---
 ## Font::get_NoProofing method
@@ -39,4 +40,4 @@ doc->Save(ArtifactsDir + u"Font.NoProofing.docx");
 
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

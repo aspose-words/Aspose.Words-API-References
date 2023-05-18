@@ -1,9 +1,10 @@
 ---
-title: get_NodeType
+title: Aspose::Words::Body::get_NodeType method
+linktitle: get_NodeType
 second_title: Aspose.Words for C++ API Reference
-description: Returns Body.
+description: 'Aspose::Words::Body::get_NodeType method. Returns Body in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words/body/get_nodetype/
 ---
 ## Body::get_NodeType method
@@ -40,7 +41,7 @@ for (const auto& node : System::IterateOver(section))
     switch (node->get_NodeType())
     {
     case NodeType::Body: {
-        auto body = System::DynamicCast<Body>(node);
+        auto body = System::ExplicitCast<Body>(node);
 
         std::cout << "Body:" << std::endl;
         std::cout << "\t\"" << body->GetText().Trim() << "\"" << std::endl;
@@ -48,7 +49,7 @@ for (const auto& node : System::IterateOver(section))
     }
 
     case NodeType::HeaderFooter: {
-        auto headerFooter = System::DynamicCast<HeaderFooter>(node);
+        auto headerFooter = System::ExplicitCast<HeaderFooter>(node);
 
         std::cout << String::Format(u"HeaderFooter type: {0}:", headerFooter->get_HeaderFooterType()) << std::endl;
         std::cout << "\t\"" << headerFooter->GetText().Trim() << "\"" << std::endl;
@@ -67,4 +68,4 @@ for (const auto& node : System::IterateOver(section))
 * Enum [NodeType](../../nodetype/)
 * Class [Body](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

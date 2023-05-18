@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Layout::LayoutOptions::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Layout::LayoutOptions class in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words.layout/layoutoptions/is/
 ---
 ## LayoutOptions::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Layout::LayoutOptions::Is(const System::TypeInfo &ta
 
 * Class [LayoutOptions](../)
 * Namespace [Aspose::Words::Layout](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

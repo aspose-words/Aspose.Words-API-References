@@ -1,9 +1,10 @@
 ---
-title: const_iterator
+title: Aspose::Words::Fonts::FontInfoCollection::const_iterator typedef
+linktitle: const_iterator
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Aspose::Words::Fonts::FontInfoCollection::const_iterator typedef of Aspose::Words::Fonts::FontInfoCollection class in C++.'
 type: docs
-weight: 274
+weight: 22000
 url: /cpp/aspose.words.fonts/fontinfocollection/const_iterator/
 ---
 ## const_iterator typedef
@@ -19,4 +20,4 @@ using Aspose::Words::Fonts::FontInfoCollection::const_iterator =  typename itera
 
 * Class [FontInfoCollection](../)
 * Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

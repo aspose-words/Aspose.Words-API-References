@@ -1,9 +1,10 @@
 ---
-title: ClearFormatting
+title: Aspose::Words::ParagraphFormat::ClearFormatting method
+linktitle: ClearFormatting
 second_title: Aspose.Words for C++ API Reference
-description: Resets to default paragraph formatting.
+description: 'Aspose::Words::ParagraphFormat::ClearFormatting method. Resets to default paragraph formatting in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words/paragraphformat/clearformatting/
 ---
 ## ParagraphFormat::ClearFormatting method
@@ -72,4 +73,4 @@ builder->get_Document()->Save(ArtifactsDir + u"Lists.NestedLists.docx");
 
 * Class [ParagraphFormat](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

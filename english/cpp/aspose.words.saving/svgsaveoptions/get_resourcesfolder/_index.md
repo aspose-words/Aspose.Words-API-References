@@ -1,9 +1,10 @@
 ---
-title: get_ResourcesFolder
+title: Aspose::Words::Saving::SvgSaveOptions::get_ResourcesFolder method
+linktitle: get_ResourcesFolder
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the physical folder where resources (images) are saved when exporting a document to Svg format. Default is null.
+description: 'Aspose::Words::Saving::SvgSaveOptions::get_ResourcesFolder method. Specifies the physical folder where resources (images) are saved when exporting a document to Svg format. Default is null in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.saving/svgsaveoptions/get_resourcesfolder/
 ---
 ## SvgSaveOptions::get_ResourcesFolder method
@@ -71,4 +72,4 @@ private:
 
 * Class [SvgSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

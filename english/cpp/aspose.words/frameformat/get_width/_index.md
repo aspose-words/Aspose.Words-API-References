@@ -1,9 +1,10 @@
 ---
-title: get_Width
+title: Aspose::Words::FrameFormat::get_Width method
+linktitle: get_Width
 second_title: Aspose.Words for C++ API Reference
-description: Gets the width of the specified frame, in points.
+description: 'Aspose::Words::FrameFormat::get_Width method. Gets the width of the specified frame, in points in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words/frameformat/get_width/
 ---
 ## FrameFormat::get_Width method
@@ -44,4 +45,4 @@ ASPOSE_ASSERT_EQ(0.0, paragraphFrame->get_FrameFormat()->get_VerticalDistanceFro
 
 * Class [FrameFormat](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Fields::FieldSaveDate::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Fields::FieldSaveDate class in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.fields/fieldsavedate/is/
 ---
 ## FieldSaveDate::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Fields::FieldSaveDate::Is(const System::TypeInfo &ta
 
 * Class [FieldSaveDate](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

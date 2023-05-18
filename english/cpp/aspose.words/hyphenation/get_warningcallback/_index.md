@@ -1,9 +1,10 @@
 ---
-title: get_WarningCallback
+title: Aspose::Words::Hyphenation::get_WarningCallback method
+linktitle: get_WarningCallback
 second_title: Aspose.Words for C++ API Reference
-description: Called during a load hyphenation patterns, when an issue is detected that might result in formatting fidelity loss.
+description: 'Aspose::Words::Hyphenation::get_WarningCallback method. Called during a load hyphenation patterns, when an issue is detected that might result in formatting fidelity loss in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words/hyphenation/get_warningcallback/
 ---
 ## Hyphenation::get_WarningCallback method
@@ -93,4 +94,4 @@ private:
 * Interface [IWarningCallback](../../iwarningcallback/)
 * Class [Hyphenation](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

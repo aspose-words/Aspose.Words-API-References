@@ -1,9 +1,10 @@
 ---
-title: set_EmulateRasterOperations
+title: Aspose::Words::Saving::MetafileRenderingOptions::set_EmulateRasterOperations method
+linktitle: set_EmulateRasterOperations
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::MetafileRenderingOptions::get_EmulateRasterOperations.'
+description: 'Aspose::Words::Saving::MetafileRenderingOptions::set_EmulateRasterOperations method. Setter for Aspose::Words::Saving::MetafileRenderingOptions::get_EmulateRasterOperations in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words.saving/metafilerenderingoptions/set_emulaterasteroperations/
 ---
 ## MetafileRenderingOptions::set_EmulateRasterOperations method
@@ -19,4 +20,4 @@ void Aspose::Words::Saving::MetafileRenderingOptions::set_EmulateRasterOperation
 
 * Class [MetafileRenderingOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

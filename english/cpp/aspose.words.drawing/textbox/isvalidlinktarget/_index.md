@@ -1,9 +1,10 @@
 ---
-title: IsValidLinkTarget
+title: Aspose::Words::Drawing::TextBox::IsValidLinkTarget method
+linktitle: IsValidLinkTarget
 second_title: Aspose.Words for C++ API Reference
-description: Determines whether this TextBox can be linked to the target TextBox.
+description: 'Aspose::Words::Drawing::TextBox::IsValidLinkTarget method. Determines whether this TextBox can be linked to the target TextBox in C++.'
 type: docs
-weight: 209
+weight: 17000
 url: /cpp/aspose.words.drawing/textbox/isvalidlinktarget/
 ---
 ## TextBox::IsValidLinkTarget method
@@ -88,4 +89,4 @@ doc->Save(ArtifactsDir + u"Shape.CreateLinkBetweenTextBoxes.docx");
 * Class [TextBox](../)
 * Class [TextBox](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

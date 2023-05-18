@@ -1,9 +1,10 @@
 ---
-title: CustomXmlPartCollection
+title: Aspose::Words::Markup::CustomXmlPartCollection class
+linktitle: CustomXmlPartCollection
 second_title: Aspose.Words for C++ API Reference
-description: Represents a collection of Custom XML Parts. The items are CustomXmlPart objects. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Markup::CustomXmlPartCollection class. Represents a collection of Custom XML Parts. The items are CustomXmlPart objects. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.markup/customxmlpartcollection/
 ---
 ## CustomXmlPartCollection class
@@ -125,4 +126,4 @@ doc->Save(ArtifactsDir + u"StructuredDocumentTag.CustomXml.docx");
 ## See Also
 
 * Namespace [Aspose::Words::Markup](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

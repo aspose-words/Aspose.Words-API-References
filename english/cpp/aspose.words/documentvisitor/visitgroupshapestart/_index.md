@@ -1,9 +1,10 @@
 ---
-title: VisitGroupShapeStart
+title: Aspose::Words::DocumentVisitor::VisitGroupShapeStart method
+linktitle: VisitGroupShapeStart
 second_title: Aspose.Words for C++ API Reference
-description: Called when enumeration of a group shape has started.
+description: 'Aspose::Words::DocumentVisitor::VisitGroupShapeStart method. Called when enumeration of a group shape has started in C++.'
 type: docs
-weight: 378
+weight: 30000
 url: /cpp/aspose.words/documentvisitor/visitgroupshapestart/
 ---
 ## DocumentVisitor::VisitGroupShapeStart method
@@ -120,7 +121,7 @@ void RemoveHiddenContentFromDocument()
     // Below are three types of fields which can accept a document visitor,
     // which will allow it to visit the accepting node, and then traverse its child nodes in a depth-first manner.
     // 1 -  Paragraph node:
-    auto para = System::DynamicCast<Paragraph>(doc->GetChild(NodeType::Paragraph, 4, true));
+    auto para = System::ExplicitCast<Paragraph>(doc->GetChild(NodeType::Paragraph, 4, true));
     para->Accept(hiddenContentRemover);
 
     // 2 -  Table node:
@@ -290,4 +291,4 @@ public:
 * Class [GroupShape](../../../aspose.words.drawing/groupshape/)
 * Class [DocumentVisitor](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

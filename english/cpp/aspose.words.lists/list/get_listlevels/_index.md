@@ -1,9 +1,10 @@
 ---
-title: get_ListLevels
+title: Aspose::Words::Lists::List::get_ListLevels method
+linktitle: get_ListLevels
 second_title: Aspose.Words for C++ API Reference
-description: Gets the collection of list levels for this list.
+description: 'Aspose::Words::Lists::List::get_ListLevels method. Gets the collection of list levels for this list in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words.lists/list/get_listlevels/
 ---
 ## List::get_ListLevels method
@@ -82,4 +83,4 @@ builder->get_Document()->Save(ArtifactsDir + u"Lists.CreateCustomList.docx");
 * Class [ListLevelCollection](../../listlevelcollection/)
 * Class [List](../)
 * Namespace [Aspose::Words::Lists](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

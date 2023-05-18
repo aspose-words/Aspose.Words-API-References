@@ -1,9 +1,10 @@
 ---
-title: PdfPageMode
+title: Aspose::Words::Saving::PdfPageMode enum
+linktitle: PdfPageMode
 second_title: Aspose.Words for C++ API Reference
-description: Specifies how the PDF document should be displayed when opened in the PDF reader.
+description: 'Aspose::Words::Saving::PdfPageMode enum. Specifies how the PDF document should be displayed when opened in the PDF reader in C++.'
 type: docs
-weight: 1015
+weight: 79000
 url: /cpp/aspose.words.saving/pdfpagemode/
 ---
 ## PdfPageMode enum
@@ -85,4 +86,4 @@ doc->Save(ArtifactsDir + u"PdfSaveOptions.PageMode.pdf", options);
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

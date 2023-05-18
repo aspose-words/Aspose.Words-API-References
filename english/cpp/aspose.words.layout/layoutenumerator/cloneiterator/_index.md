@@ -1,9 +1,10 @@
 ---
-title: CloneIterator
+title: Aspose::Words::Layout::LayoutEnumerator::CloneIterator method
+linktitle: CloneIterator
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use CloneIterator method of Aspose::Words::Layout::LayoutEnumerator class in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.layout/layoutenumerator/cloneiterator/
 ---
 ## LayoutEnumerator::CloneIterator method
@@ -19,4 +20,4 @@ url: /cpp/aspose.words.layout/layoutenumerator/cloneiterator/
 
 * Class [LayoutEnumerator](../)
 * Namespace [Aspose::Words::Layout](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

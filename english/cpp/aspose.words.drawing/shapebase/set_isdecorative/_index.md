@@ -1,9 +1,10 @@
 ---
-title: set_IsDecorative
+title: Aspose::Words::Drawing::ShapeBase::set_IsDecorative method
+linktitle: set_IsDecorative
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Drawing::ShapeBase::get_IsDecorative.'
+description: 'Aspose::Words::Drawing::ShapeBase::set_IsDecorative method. Setter for Aspose::Words::Drawing::ShapeBase::get_IsDecorative in C++.'
 type: docs
-weight: 1002
+weight: 78000
 url: /cpp/aspose.words.drawing/shapebase/set_isdecorative/
 ---
 ## ShapeBase::set_IsDecorative method
@@ -19,4 +20,4 @@ void Aspose::Words::Drawing::ShapeBase::set_IsDecorative(bool value)
 
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_PageSet
+title: Aspose::Words::Saving::FixedPageSaveOptions::get_PageSet method
+linktitle: get_PageSet
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the pages to render. Default is all the pages in the document.
+description: 'Aspose::Words::Saving::FixedPageSaveOptions::get_PageSet method. Gets or sets the pages to render. Default is all the pages in the document in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.saving/fixedpagesaveoptions/get_pageset/
 ---
 ## FixedPageSaveOptions::get_PageSet method
@@ -111,4 +112,4 @@ doc->Save(ArtifactsDir + u"XpsSaveOptions.ExportExactPages.xps", xpsOptions);
 * Class [PageSet](../../pageset/)
 * Class [FixedPageSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

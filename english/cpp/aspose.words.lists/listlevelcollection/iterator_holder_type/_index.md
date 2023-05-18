@@ -1,9 +1,10 @@
 ---
-title: iterator_holder_type
+title: Aspose::Words::Lists::ListLevelCollection::iterator_holder_type typedef
+linktitle: iterator_holder_type
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Aspose::Words::Lists::ListLevelCollection::iterator_holder_type typedef of Aspose::Words::Lists::ListLevelCollection class in C++.'
 type: docs
-weight: 222
+weight: 18000
 url: /cpp/aspose.words.lists/listlevelcollection/iterator_holder_type/
 ---
 ## iterator_holder_type typedef
@@ -19,4 +20,4 @@ using Aspose::Words::Lists::ListLevelCollection::iterator_holder_type =  System:
 
 * Class [ListLevelCollection](../)
 * Namespace [Aspose::Words::Lists](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

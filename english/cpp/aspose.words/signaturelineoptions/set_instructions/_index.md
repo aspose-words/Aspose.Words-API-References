@@ -1,9 +1,10 @@
 ---
-title: set_Instructions
+title: Aspose::Words::SignatureLineOptions::set_Instructions method
+linktitle: set_Instructions
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::SignatureLineOptions::get_Instructions.'
+description: 'Aspose::Words::SignatureLineOptions::set_Instructions method. Setter for Aspose::Words::SignatureLineOptions::get_Instructions in C++.'
 type: docs
-weight: 183
+weight: 15000
 url: /cpp/aspose.words/signaturelineoptions/set_instructions/
 ---
 ## SignatureLineOptions::set_Instructions method
@@ -19,4 +20,4 @@ void Aspose::Words::SignatureLineOptions::set_Instructions(const System::String 
 
 * Class [SignatureLineOptions](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

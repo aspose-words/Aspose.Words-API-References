@@ -1,9 +1,10 @@
 ---
-title: ToArray
+title: Aspose::Words::ParagraphCollection::ToArray method
+linktitle: ToArray
 second_title: Aspose.Words for C++ API Reference
-description: Copies all paragraphs from the collection to a new array of paragraphs.
+description: 'Aspose::Words::ParagraphCollection::ToArray method. Copies all paragraphs from the collection to a new array of paragraphs in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words/paragraphcollection/toarray/
 ---
 ## ParagraphCollection::ToArray method
@@ -61,4 +62,4 @@ ASSERT_FALSE(doc->GetText().Contains(u"The third paragraph"));
 * Class [Paragraph](../../paragraph/)
 * Class [ParagraphCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

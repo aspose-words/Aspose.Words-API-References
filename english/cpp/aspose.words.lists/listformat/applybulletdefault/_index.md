@@ -1,9 +1,10 @@
 ---
-title: ApplyBulletDefault
+title: Aspose::Words::Lists::ListFormat::ApplyBulletDefault method
+linktitle: ApplyBulletDefault
 second_title: Aspose.Words for C++ API Reference
-description: Starts a new default bulleted list and applies it to the paragraph.
+description: 'Aspose::Words::Lists::ListFormat::ApplyBulletDefault method. Starts a new default bulleted list and applies it to the paragraph in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.lists/listformat/applybulletdefault/
 ---
 ## ListFormat::ApplyBulletDefault method
@@ -107,4 +108,4 @@ doc->Save(ArtifactsDir + u"Lists.ApplyDefaultBulletsAndNumbers.docx");
 
 * Class [ListFormat](../)
 * Namespace [Aspose::Words::Lists](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

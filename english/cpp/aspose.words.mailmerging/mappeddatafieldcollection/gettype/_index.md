@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::MailMerging::MappedDataFieldCollection::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::MailMerging::MappedDataFieldCollection class in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words.mailmerging/mappeddatafieldcollection/gettype/
 ---
 ## MappedDataFieldCollection::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::MailMerging::MappedDataFieldColl
 
 * Class [MappedDataFieldCollection](../)
 * Namespace [Aspose::Words::MailMerging](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

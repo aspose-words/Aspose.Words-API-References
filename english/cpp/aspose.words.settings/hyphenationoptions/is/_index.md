@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Settings::HyphenationOptions::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Settings::HyphenationOptions class in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.settings/hyphenationoptions/is/
 ---
 ## HyphenationOptions::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Settings::HyphenationOptions::Is(const System::TypeI
 
 * Class [HyphenationOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

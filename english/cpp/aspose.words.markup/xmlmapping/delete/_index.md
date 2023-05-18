@@ -1,9 +1,10 @@
 ---
-title: Delete
+title: Aspose::Words::Markup::XmlMapping::Delete method
+linktitle: Delete
 second_title: Aspose.Words for C++ API Reference
-description: Deletes mapping of the parent structured document to XML data.
+description: 'Aspose::Words::Markup::XmlMapping::Delete method. Deletes mapping of the parent structured document to XML data in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.markup/xmlmapping/delete/
 ---
 ## XmlMapping::Delete method
@@ -53,4 +54,4 @@ doc->Save(ArtifactsDir + u"StructuredDocumentTag.XmlMapping.docx");
 
 * Class [XmlMapping](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: FieldAddressBlock
+title: Aspose::Words::Fields::FieldAddressBlock class
+linktitle: FieldAddressBlock
 second_title: Aspose.Words for C++ API Reference
-description: Implements the ADDRESSBLOCK field. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Fields::FieldAddressBlock class. Implements the ADDRESSBLOCK field. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.fields/fieldaddressblock/
 ---
 ## FieldAddressBlock class
@@ -30,7 +31,7 @@ class FieldAddressBlock : public Aspose::Words::Fields::Field,
 | [get_Format](../field/get_format/)() | Gets a [FieldFormat](../fieldformat/) object that provides typed access to field's formatting. |
 | [get_FormatAddressOnCountryOrRegion](./get_formataddressoncountryorregion/)() | Gets or sets whether to format the address according to the country/region of the recipient as defined by POST*CODE (Universal Postal Union 2006). |
 | [get_IncludeCountryOrRegionName](./get_includecountryorregionname/)() | Gets or sets whether to include the name of the country/region. |
-| [get_IsDirty](../field/get_isdirty/)() | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [get_IsDirty](../field/get_isdirty/)() | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [get_IsLocked](../field/get_islocked/)() | Gets or sets whether the field is locked (should not recalculate its result). |
 | [get_LanguageId](./get_languageid/)() | Gets or sets the language ID used to format the address. |
 | [get_LocaleId](../field/get_localeid/)() | Gets or sets the LCID of the field. |
@@ -48,7 +49,7 @@ class FieldAddressBlock : public Aspose::Words::Fields::Field,
 | [set_ExcludedCountryOrRegionName](./set_excludedcountryorregionname/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldAddressBlock::get_ExcludedCountryOrRegionName](./get_excludedcountryorregionname/). |
 | [set_FormatAddressOnCountryOrRegion](./set_formataddressoncountryorregion/)(bool) | Setter for [Aspose::Words::Fields::FieldAddressBlock::get_FormatAddressOnCountryOrRegion](./get_formataddressoncountryorregion/). |
 | [set_IncludeCountryOrRegionName](./set_includecountryorregionname/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldAddressBlock::get_IncludeCountryOrRegionName](./get_includecountryorregionname/). |
-| [set_IsDirty](../field/set_isdirty/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsDirty](../field/get_isdirty/). |
+| [set_IsDirty](../field/set_isdirty/)(bool) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [set_IsLocked](../field/set_islocked/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsLocked](../field/get_islocked/). |
 | [set_LanguageId](./set_languageid/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldAddressBlock::get_LanguageId](./get_languageid/). |
 | [set_LocaleId](../field/set_localeid/)(int32_t) | Setter for [Aspose::Words::Fields::Field::get_LocaleId](../field/get_localeid/). |
@@ -70,7 +71,7 @@ auto doc = MakeObject<Document>(MyDir + u"Field sample - ADDRESSBLOCK.docx");
 ArrayPtr<String> addressFieldsExpect = MakeArray<String>(
     {u"Company", u"First Name", u"Middle Name", u"Last Name", u"Suffix", u"Address 1", u"City", u"State", u"Country or Region", u"Postal Code"});
 
-auto addressBlockField = System::DynamicCast<FieldAddressBlock>(doc->get_Range()->get_Fields()->idx_get(0));
+auto addressBlockField = System::ExplicitCast<FieldAddressBlock>(doc->get_Range()->get_Fields()->idx_get(0));
 ArrayPtr<String> addressBlockFieldNames = addressBlockField->GetFieldNames();
 ```
 
@@ -78,4 +79,4 @@ ArrayPtr<String> addressBlockFieldNames = addressBlockField->GetFieldNames();
 
 * Class [Field](../field/)
 * Namespace [Aspose::Words::Fields](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

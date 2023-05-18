@@ -1,9 +1,10 @@
 ---
-title: set_UseHighQualityRendering
+title: Aspose::Words::Saving::SaveOptions::set_UseHighQualityRendering method
+linktitle: set_UseHighQualityRendering
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::SaveOptions::get_UseHighQualityRendering.'
+description: 'Aspose::Words::Saving::SaveOptions::set_UseHighQualityRendering method. Setter for Aspose::Words::Saving::SaveOptions::get_UseHighQualityRendering in C++.'
 type: docs
-weight: 560
+weight: 44000
 url: /cpp/aspose.words.saving/saveoptions/set_usehighqualityrendering/
 ---
 ## SaveOptions::set_UseHighQualityRendering method
@@ -19,4 +20,4 @@ void Aspose::Words::Saving::SaveOptions::set_UseHighQualityRendering(bool value)
 
 * Class [SaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

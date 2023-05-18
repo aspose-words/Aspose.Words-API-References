@@ -1,9 +1,10 @@
 ---
-title: Style
+title: Aspose::Words::Style class
+linktitle: Style
 second_title: Aspose.Words for C++ API Reference
-description: Represents a single built-in or user-defined style. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Style class. Represents a single built-in or user-defined style. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 820
+weight: 64000
 url: /cpp/aspose.words/style/
 ---
 ## Style class
@@ -113,4 +114,4 @@ builder->get_Document()->Save(ArtifactsDir + u"Styles.ParagraphStyleBulletedList
 ## See Also
 
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

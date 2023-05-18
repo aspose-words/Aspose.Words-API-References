@@ -1,9 +1,10 @@
 ---
-title: OfficeMathRenderer
+title: Aspose::Words::Rendering::OfficeMathRenderer class
+linktitle: OfficeMathRenderer
 second_title: Aspose.Words for C++ API Reference
-description: Provides methods to render an individual OfficeMath to a raster or vector image or to a Graphics object. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Rendering::OfficeMathRenderer class. Provides methods to render an individual OfficeMath to a raster or vector image or to a Graphics object. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.rendering/officemathrenderer/
 ---
 ## OfficeMathRenderer class
@@ -47,7 +48,7 @@ Shows how to measure and scale shapes.
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"Office math.docx");
 
-auto officeMath = System::DynamicCast<OfficeMath>(doc->GetChild(NodeType::OfficeMath, 0, true));
+auto officeMath = System::ExplicitCast<OfficeMath>(doc->GetChild(NodeType::OfficeMath, 0, true));
 auto renderer = MakeObject<OfficeMathRenderer>(officeMath);
 
 // Verify the size of the image that the OfficeMath object will create when we render it.
@@ -88,4 +89,4 @@ ASSERT_EQ(30, bounds.get_Height());
 
 * Class [NodeRendererBase](../noderendererbase/)
 * Namespace [Aspose::Words::Rendering](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

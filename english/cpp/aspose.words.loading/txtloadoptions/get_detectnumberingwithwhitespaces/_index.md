@@ -1,9 +1,10 @@
 ---
-title: get_DetectNumberingWithWhitespaces
+title: Aspose::Words::Loading::TxtLoadOptions::get_DetectNumberingWithWhitespaces method
+linktitle: get_DetectNumberingWithWhitespaces
 second_title: Aspose.Words for C++ API Reference
-description: Allows to specify how numbered list items are recognized when document is imported from plain text format. The default value is true.
+description: 'Aspose::Words::Loading::TxtLoadOptions::get_DetectNumberingWithWhitespaces method. Allows to specify how numbered list items are recognized when document is imported from plain text format. The default value is true in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.loading/txtloadoptions/get_detectnumberingwithwhitespaces/
 ---
 ## TxtLoadOptions::get_DetectNumberingWithWhitespaces method
@@ -54,13 +55,13 @@ if (detectNumberingWithWhitespaces)
 {
     ASSERT_EQ(4, doc->get_Lists()->get_Count());
     ASSERT_TRUE(doc->get_FirstSection()->get_Body()->get_Paragraphs()->LINQ_Any(
-        [](SharedPtr<Node> p) { return p->GetText().Contains(u"Fourth list") && (System::DynamicCast<Paragraph>(p))->get_IsListItem(); }));
+        [](SharedPtr<Node> p) { return p->GetText().Contains(u"Fourth list") && (System::ExplicitCast<Paragraph>(p))->get_IsListItem(); }));
 }
 else
 {
     ASSERT_EQ(3, doc->get_Lists()->get_Count());
     ASSERT_FALSE(doc->get_FirstSection()->get_Body()->get_Paragraphs()->LINQ_Any(
-        [](SharedPtr<Node> p) { return p->GetText().Contains(u"Fourth list") && (System::DynamicCast<Paragraph>(p))->get_IsListItem(); }));
+        [](SharedPtr<Node> p) { return p->GetText().Contains(u"Fourth list") && (System::ExplicitCast<Paragraph>(p))->get_IsListItem(); }));
 }
 ```
 
@@ -68,4 +69,4 @@ else
 
 * Class [TxtLoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_ParentSection
+title: Aspose::Words::Body::get_ParentSection method
+linktitle: get_ParentSection
 second_title: Aspose.Words for C++ API Reference
-description: Gets the parent section of this story.
+description: 'Aspose::Words::Body::get_ParentSection method. Gets the parent section of this story in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words/body/get_parentsection/
 ---
 ## Body::get_ParentSection method
@@ -79,4 +80,4 @@ static void InsertSectionWithEndnote(SharedPtr<Document> doc, String sectionBody
 * Class [Section](../../section/)
 * Class [Body](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

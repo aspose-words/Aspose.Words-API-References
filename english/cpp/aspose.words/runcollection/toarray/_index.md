@@ -1,9 +1,10 @@
 ---
-title: ToArray
+title: Aspose::Words::RunCollection::ToArray method
+linktitle: ToArray
 second_title: Aspose.Words for C++ API Reference
-description: Copies all runs from the collection to a new array of runs.
+description: 'Aspose::Words::RunCollection::ToArray method. Copies all runs from the collection to a new array of runs in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words/runcollection/toarray/
 ---
 ## RunCollection::ToArray method
@@ -37,7 +38,7 @@ auto doc = MakeObject<Document>(MyDir + u"Revision runs.docx");
 ASSERT_EQ(6, doc->get_Revisions()->get_Count());
 
 // The parent node of a revision is the run that the revision concerns. A Run is an Inline node.
-auto run = System::DynamicCast<Run>(doc->get_Revisions()->idx_get(0)->get_ParentNode());
+auto run = System::ExplicitCast<Run>(doc->get_Revisions()->idx_get(0)->get_ParentNode());
 
 SharedPtr<Paragraph> firstParagraph = run->get_ParentParagraph();
 SharedPtr<RunCollection> runs = firstParagraph->get_Runs();
@@ -79,4 +80,4 @@ ASSERT_TRUE(runs->idx_get(5)->get_IsDeleteRevision());
 * Class [Run](../../run/)
 * Class [RunCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

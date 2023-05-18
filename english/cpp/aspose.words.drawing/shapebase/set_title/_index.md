@@ -1,9 +1,10 @@
 ---
-title: set_Title
+title: Aspose::Words::Drawing::ShapeBase::set_Title method
+linktitle: set_Title
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Drawing::ShapeBase::get_Title.'
+description: 'Aspose::Words::Drawing::ShapeBase::set_Title method. Setter for Aspose::Words::Drawing::ShapeBase::get_Title in C++.'
 type: docs
-weight: 1119
+weight: 87000
 url: /cpp/aspose.words.drawing/shapebase/set_title/
 ---
 ## ShapeBase::set_Title method
@@ -19,4 +20,4 @@ void Aspose::Words::Drawing::ShapeBase::set_Title(const System::String &value)
 
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

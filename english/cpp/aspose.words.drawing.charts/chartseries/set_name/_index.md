@@ -1,9 +1,10 @@
 ---
-title: set_Name
+title: Aspose::Words::Drawing::Charts::ChartSeries::set_Name method
+linktitle: set_Name
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Drawing::Charts::ChartSeries::get_Name.'
+description: 'Aspose::Words::Drawing::Charts::ChartSeries::set_Name method. Setter for Aspose::Words::Drawing::Charts::ChartSeries::get_Name in C++.'
 type: docs
-weight: 235
+weight: 19000
 url: /cpp/aspose.words.drawing.charts/chartseries/set_name/
 ---
 ## ChartSeries::set_Name method
@@ -19,4 +20,4 @@ void Aspose::Words::Drawing::Charts::ChartSeries::set_Name(const System::String 
 
 * Class [ChartSeries](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

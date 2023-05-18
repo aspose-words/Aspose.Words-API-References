@@ -1,9 +1,10 @@
 ---
-title: get_ImageResolution
+title: Aspose::Words::Saving::HtmlSaveOptions::get_ImageResolution method
+linktitle: get_ImageResolution
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the output resolution for images when exporting to HTML, MHTML or EPUB. Default is %96 dpi.
+description: 'Aspose::Words::Saving::HtmlSaveOptions::get_ImageResolution method. Specifies the output resolution for images when exporting to HTML, MHTML or EPUB. Default is %96 dpi in C++.'
 type: docs
-weight: 456
+weight: 36000
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_imageresolution/
 ---
 ## HtmlSaveOptions::get_ImageResolution method
@@ -48,4 +49,4 @@ doc->Save(ArtifactsDir + u"HtmlSaveOptions.FolderAlias.html", options);
 
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_Count
+title: Aspose::Words::Drawing::Charts::ChartSeriesCollection::get_Count method
+linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
-description: Returns the number of ChartSeries in this collection.
+description: 'Aspose::Words::Drawing::Charts::ChartSeriesCollection::get_Count method. Returns the number of ChartSeries in this collection in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.drawing.charts/chartseriescollection/get_count/
 ---
 ## ChartSeriesCollection::get_Count method
@@ -67,4 +68,4 @@ chartData->Clear();
 
 * Class [ChartSeriesCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

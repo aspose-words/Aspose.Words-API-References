@@ -1,9 +1,10 @@
 ---
-title: set_Explosion
+title: Aspose::Words::Drawing::Charts::ChartSeries::set_Explosion method
+linktitle: set_Explosion
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the amount the data point shall be moved from the center of the pie. Can be negative, negative means that property is not set and no explosion should be applied. Applies only to Pie charts.
+description: 'Aspose::Words::Drawing::Charts::ChartSeries::set_Explosion method. Specifies the amount the data point shall be moved from the center of the pie. Can be negative, negative means that property is not set and no explosion should be applied. Applies only to Pie charts in C++.'
 type: docs
-weight: 196
+weight: 16000
 url: /cpp/aspose.words.drawing.charts/chartseries/set_explosion/
 ---
 ## ChartSeries::set_Explosion method
@@ -19,4 +20,4 @@ void Aspose::Words::Drawing::Charts::ChartSeries::set_Explosion(int32_t value) o
 
 * Class [ChartSeries](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

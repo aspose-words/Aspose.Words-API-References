@@ -1,9 +1,10 @@
 ---
-title: set_IgnorePrinterMetrics
+title: Aspose::Words::Layout::LayoutOptions::set_IgnorePrinterMetrics method
+linktitle: set_IgnorePrinterMetrics
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Layout::LayoutOptions::get_IgnorePrinterMetrics.'
+description: 'Aspose::Words::Layout::LayoutOptions::set_IgnorePrinterMetrics method. Setter for Aspose::Words::Layout::LayoutOptions::get_IgnorePrinterMetrics in C++.'
 type: docs
-weight: 196
+weight: 16000
 url: /cpp/aspose.words.layout/layoutoptions/set_ignoreprintermetrics/
 ---
 ## LayoutOptions::set_IgnorePrinterMetrics method
@@ -19,4 +20,4 @@ void Aspose::Words::Layout::LayoutOptions::set_IgnorePrinterMetrics(bool value)
 
 * Class [LayoutOptions](../)
 * Namespace [Aspose::Words::Layout](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_ResolveFontNames
+title: Aspose::Words::Saving::HtmlSaveOptions::get_ResolveFontNames method
+linktitle: get_ResolveFontNames
 second_title: Aspose.Words for C++ API Reference
-description: Specifies whether font family names used in the document are resolved and substituted according to FontSettings when being written into HTML-based formats.
+description: 'Aspose::Words::Saving::HtmlSaveOptions::get_ResolveFontNames method. Specifies whether font family names used in the document are resolved and substituted according to FontSettings when being written into HTML-based formats in C++.'
 type: docs
-weight: 534
+weight: 42000
 url: /cpp/aspose.words.saving/htmlsaveoptions/get_resolvefontnames/
 ---
 ## HtmlSaveOptions::get_ResolveFontNames method
@@ -25,4 +26,4 @@ If this option is set to **true**, Aspose.Words uses [FontSettings](../../../asp
 
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

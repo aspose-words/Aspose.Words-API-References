@@ -1,9 +1,10 @@
 ---
-title: iterator_holder_type
+title: Aspose::Words::Framesets::FramesetCollection::iterator_holder_type typedef
+linktitle: iterator_holder_type
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Aspose::Words::Framesets::FramesetCollection::iterator_holder_type typedef of Aspose::Words::Framesets::FramesetCollection class in C++.'
 type: docs
-weight: 222
+weight: 18000
 url: /cpp/aspose.words.framesets/framesetcollection/iterator_holder_type/
 ---
 ## iterator_holder_type typedef
@@ -19,4 +20,4 @@ using Aspose::Words::Framesets::FramesetCollection::iterator_holder_type =  Syst
 
 * Class [FramesetCollection](../)
 * Namespace [Aspose::Words::Framesets](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

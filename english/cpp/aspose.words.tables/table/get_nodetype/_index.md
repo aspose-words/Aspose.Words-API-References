@@ -1,9 +1,10 @@
 ---
-title: get_NodeType
+title: Aspose::Words::Tables::Table::get_NodeType method
+linktitle: get_NodeType
 second_title: Aspose.Words for C++ API Reference
-description: Returns Table.
+description: 'Aspose::Words::Tables::Table::get_NodeType method. Returns Table in C++.'
 type: docs
-weight: 352
+weight: 28000
 url: /cpp/aspose.words.tables/table/get_nodetype/
 ---
 ## Table::get_NodeType method
@@ -43,7 +44,7 @@ void TraverseAllNodes(SharedPtr<CompositeNode> parentNode, int depth)
         if (childNode->get_IsComposite())
         {
             std::cout << std::endl;
-            TraverseAllNodes(System::DynamicCast<CompositeNode>(childNode), depth + 1);
+            TraverseAllNodes(System::ExplicitCast<CompositeNode>(childNode), depth + 1);
         }
         else if (System::ObjectExt::Is<Inline>(childNode))
         {
@@ -67,7 +68,7 @@ void CalculateDepthOfNestedTables()
 
     for (int i = 0; i < tables->get_Count(); i++)
     {
-        auto table = System::DynamicCast<Table>(tables->idx_get(i));
+        auto table = System::ExplicitCast<Table>(tables->idx_get(i));
 
         // Find out if any cells in the table have other tables as children.
         int count = GetChildTableCount(table);
@@ -127,4 +128,4 @@ static int GetChildTableCount(SharedPtr<Table> table)
 * Enum [NodeType](../../../aspose.words/nodetype/)
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

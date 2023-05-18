@@ -1,9 +1,10 @@
 ---
-title: set_SourceFullName
+title: Aspose::Words::Fields::FieldLink::set_SourceFullName method
+linktitle: set_SourceFullName
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fields::FieldLink::get_SourceFullName.'
+description: 'Aspose::Words::Fields::FieldLink::set_SourceFullName method. Setter for Aspose::Words::Fields::FieldLink::get_SourceFullName in C++.'
 type: docs
-weight: 326
+weight: 26000
 url: /cpp/aspose.words.fields/fieldlink/set_sourcefullname/
 ---
 ## FieldLink::set_SourceFullName method
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldLink::set_SourceFullName(const System::String &
 
 * Class [FieldLink](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

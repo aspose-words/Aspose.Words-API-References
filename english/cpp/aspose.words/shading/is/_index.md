@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Shading::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Shading class in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words/shading/is/
 ---
 ## Shading::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Shading::Is(const System::TypeInfo &target) const ov
 
 * Class [Shading](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

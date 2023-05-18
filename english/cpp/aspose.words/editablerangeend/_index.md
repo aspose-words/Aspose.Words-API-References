@@ -1,9 +1,10 @@
 ---
-title: EditableRangeEnd
+title: Aspose::Words::EditableRangeEnd class
+linktitle: EditableRangeEnd
 second_title: Aspose.Words for C++ API Reference
-description: Represents an end of an editable range in a Word document. To learn more, visit the  documentation article.
+description: 'Aspose::Words::EditableRangeEnd class. Represents an end of an editable range in a Word document. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 313
+weight: 25000
 url: /cpp/aspose.words/editablerangeend/
 ---
 ## EditableRangeEnd class
@@ -168,4 +169,4 @@ private:
 
 * Class [Node](../node/)
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

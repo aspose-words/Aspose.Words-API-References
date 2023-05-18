@@ -1,9 +1,10 @@
 ---
-title: get_Top
+title: Aspose::Words::BorderCollection::get_Top method
+linktitle: get_Top
 second_title: Aspose.Words for C++ API Reference
-description: Gets the top border.
+description: 'Aspose::Words::BorderCollection::get_Top method. Gets the top border in C++.'
 type: docs
-weight: 170
+weight: 14000
 url: /cpp/aspose.words/bordercollection/get_top/
 ---
 ## BorderCollection::get_Top method
@@ -60,4 +61,4 @@ doc->Save(ArtifactsDir + u"DocumentBuilder.TableBordersAndShading.docx");
 * Class [Border](../../border/)
 * Class [BorderCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

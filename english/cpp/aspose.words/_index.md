@@ -1,9 +1,10 @@
 ---
-title: 'Aspose::Words'
+title: Aspose::Words namespace
+linktitle: Aspose::Words
 second_title: Aspose.Words for C++ API Reference
-description: The Aspose.Words namespace provides classes for generating, converting, modifying, rendering and printing Microsoft Word documents without utilizing Microsoft Word.
+description: 'Aspose::Words namespace. The Aspose.Words namespace provides classes for generating, converting, modifying, rendering and printing Microsoft Word documents without utilizing Microsoft Word in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words/
 ---
 
@@ -62,7 +63,8 @@ The **Aspose.Words** namespace provides classes for generating, converting, modi
 | [Paragraph](./paragraph/) | Represents a paragraph of text. To learn more, visit the [Working with Paragraphs](https://docs.aspose.com/words/cpp/working-with-paragraphs/) documentation article. |
 | [ParagraphCollection](./paragraphcollection/) | Provides typed access to a collection of [Paragraph](./paragraph/) nodes. To learn more, visit the [Working with Paragraphs](https://docs.aspose.com/words/cpp/working-with-paragraphs/) documentation article. |
 | [ParagraphFormat](./paragraphformat/) | Represents all the formatting for a paragraph. To learn more, visit the [Working with Paragraphs](https://docs.aspose.com/words/cpp/working-with-paragraphs/) documentation article. |
-| [PlainTextDocument](./plaintextdocument/) | Allows to extract plain-text representation of the document's content. To learn more, visit the [Working with Text Document](https://docs.aspose.com/words/cpp/work-with-text-document/) documentation article. |
+| [PhoneticGuide](./phoneticguide/) | Represents Phonetic Guide. |
+| [PlainTextDocument](./plaintextdocument/) | Allows to extract plain-text representation of the document's content. To learn more, visit the [Working with Text Document](https://docs.aspose.com/words/cpp/working-with-text-document/) documentation article. |
 | [Range](./range/) | Represents a contiguous area in a document. To learn more, visit the [Working with Ranges](https://docs.aspose.com/words/cpp/working-with-ranges/) documentation article. |
 | [Revision](./revision/) | Represents a revision (tracked change) in a document node or style. Use [RevisionType](./revision/get_revisiontype/) to check the type of this revision. To learn more, visit the [Track Changes in a Document](https://docs.aspose.com/words/cpp/track-changes-in-a-document/) documentation article. |
 | [RevisionCollection](./revisioncollection/) | A collection of [Revision](./revision/) objects that represent revisions in the document. To learn more, visit the [Track Changes in a Document](https://docs.aspose.com/words/cpp/track-changes-in-a-document/) documentation article. |

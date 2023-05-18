@@ -1,9 +1,10 @@
 ---
-title: get_HasMajorGridlines
+title: Aspose::Words::Drawing::Charts::ChartAxis::get_HasMajorGridlines method
+linktitle: get_HasMajorGridlines
 second_title: Aspose.Words for C++ API Reference
-description: Gets a flag indicating whether the axis has major gridlines.
+description: 'Aspose::Words::Drawing::Charts::ChartAxis::get_HasMajorGridlines method. Gets a flag indicating whether the axis has major gridlines in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_hasmajorgridlines/
 ---
 ## ChartAxis::get_HasMajorGridlines method
@@ -19,4 +20,4 @@ bool Aspose::Words::Drawing::Charts::ChartAxis::get_HasMajorGridlines()
 
 * Class [ChartAxis](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

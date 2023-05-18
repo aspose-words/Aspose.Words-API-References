@@ -1,9 +1,10 @@
 ---
-title: get_LineNumberCountBy
+title: Aspose::Words::PageSetup::get_LineNumberCountBy method
+linktitle: get_LineNumberCountBy
 second_title: Aspose.Words for C++ API Reference
-description: Returns or sets the numeric increment for line numbers.
+description: 'Aspose::Words::PageSetup::get_LineNumberCountBy method. Returns or sets the numeric increment for line numbers in C++.'
 type: docs
-weight: 287
+weight: 23000
 url: /cpp/aspose.words/pagesetup/get_linenumbercountby/
 ---
 ## PageSetup::get_LineNumberCountBy method
@@ -54,4 +55,4 @@ doc->Save(ArtifactsDir + u"PageSetup.LineNumbers.docx");
 
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

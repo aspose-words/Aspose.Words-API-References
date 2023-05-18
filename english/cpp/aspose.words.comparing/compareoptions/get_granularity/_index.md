@@ -1,9 +1,10 @@
 ---
-title: get_Granularity
+title: Aspose::Words::Comparing::CompareOptions::get_Granularity method
+linktitle: get_Granularity
 second_title: Aspose.Words for C++ API Reference
-description: Specifies whether changes are tracked by character or by word. Default value is WordLevel.
+description: 'Aspose::Words::Comparing::CompareOptions::get_Granularity method. Specifies whether changes are tracked by character or by word. Default value is WordLevel in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.comparing/compareoptions/get_granularity/
 ---
 ## CompareOptions::get_Granularity method
@@ -47,4 +48,4 @@ ASSERT_EQ(5, groups->get_Count());
 * Enum [Granularity](../../granularity/)
 * Class [CompareOptions](../)
 * Namespace [Aspose::Words::Comparing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

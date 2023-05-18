@@ -1,9 +1,10 @@
 ---
-title: TabStop
+title: Aspose::Words::TabStop::TabStop constructor
+linktitle: TabStop
 second_title: Aspose.Words for C++ API Reference
-description: Initializes a new instance of this class.
+description: 'Aspose::Words::TabStop::TabStop constructor. Initializes a new instance of this class in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words/tabstop/tabstop/
 ---
 ## TabStop::TabStop(double) constructor
@@ -62,7 +63,7 @@ doc->Save(ArtifactsDir + u"TabStopCollection.TabStopCollection.docx");
 
 * Class [TabStop](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## TabStop::TabStop(double, Aspose::Words::TabAlignment, Aspose::Words::TabLeader) constructor
 
 
@@ -127,4 +128,4 @@ doc->Save(ArtifactsDir + u"TabStopCollection.TabStopCollection.docx");
 * Enum [TabLeader](../../tableader/)
 * Class [TabStop](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

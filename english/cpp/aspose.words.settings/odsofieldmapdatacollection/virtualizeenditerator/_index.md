@@ -1,9 +1,10 @@
 ---
-title: virtualizeEndIterator
+title: Aspose::Words::Settings::OdsoFieldMapDataCollection::virtualizeEndIterator method
+linktitle: virtualizeEndIterator
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use virtualizeEndIterator method of Aspose::Words::Settings::OdsoFieldMapDataCollection class in C++.'
 type: docs
-weight: 235
+weight: 19000
 url: /cpp/aspose.words.settings/odsofieldmapdatacollection/virtualizeenditerator/
 ---
 ## OdsoFieldMapDataCollection::virtualizeEndIterator method
@@ -20,4 +21,4 @@ virtualized_iterator * Aspose::Words::Settings::OdsoFieldMapDataCollection::virt
 * Typedef [virtualized_iterator](../virtualized_iterator/)
 * Class [OdsoFieldMapDataCollection](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

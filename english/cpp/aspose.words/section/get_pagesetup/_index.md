@@ -1,9 +1,10 @@
 ---
-title: get_PageSetup
+title: Aspose::Words::Section::get_PageSetup method
+linktitle: get_PageSetup
 second_title: Aspose.Words for C++ API Reference
-description: Returns an object that represents page setup and section properties.
+description: 'Aspose::Words::Section::get_PageSetup method. Returns an object that represents page setup and section properties in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words/section/get_pagesetup/
 ---
 ## Section::get_PageSetup method
@@ -88,4 +89,4 @@ doc->Save(ArtifactsDir + u"Section.CreateManually.docx");
 * Class [PageSetup](../../pagesetup/)
 * Class [Section](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_FirstSection
+title: Aspose::Words::Document::get_FirstSection method
+linktitle: get_FirstSection
 second_title: Aspose.Words for C++ API Reference
-description: Gets the first section in the document.
+description: 'Aspose::Words::Document::get_FirstSection method. Gets the first section in the document in C++.'
 type: docs
-weight: 300
+weight: 24000
 url: /cpp/aspose.words/document/get_firstsection/
 ---
 ## Document::get_FirstSection method
@@ -90,7 +91,7 @@ for (const auto& node : System::IterateOver(section))
     switch (node->get_NodeType())
     {
     case NodeType::Body: {
-        auto body = System::DynamicCast<Body>(node);
+        auto body = System::ExplicitCast<Body>(node);
 
         std::cout << "Body:" << std::endl;
         std::cout << "\t\"" << body->GetText().Trim() << "\"" << std::endl;
@@ -98,7 +99,7 @@ for (const auto& node : System::IterateOver(section))
     }
 
     case NodeType::HeaderFooter: {
-        auto headerFooter = System::DynamicCast<HeaderFooter>(node);
+        auto headerFooter = System::ExplicitCast<HeaderFooter>(node);
 
         std::cout << String::Format(u"HeaderFooter type: {0}:", headerFooter->get_HeaderFooterType()) << std::endl;
         std::cout << "\t\"" << headerFooter->GetText().Trim() << "\"" << std::endl;
@@ -117,4 +118,4 @@ for (const auto& node : System::IterateOver(section))
 * Class [Section](../../section/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_CaptionlessTableOfFiguresLabel
+title: Aspose::Words::Fields::FieldToc::get_CaptionlessTableOfFiguresLabel method
+linktitle: get_CaptionlessTableOfFiguresLabel
 second_title: Aspose.Words for C++ API Reference
-description: Gets the name of the sequence identifier used when building a table of figures that does not include caption's label and number.
+description: 'Aspose::Words::Fields::FieldToc::get_CaptionlessTableOfFiguresLabel method. Gets the name of the sequence identifier used when building a table of figures that does not include caption''s label and number in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.fields/fieldtoc/get_captionlesstableoffigureslabel/
 ---
 ## FieldToc::get_CaptionlessTableOfFiguresLabel method
@@ -19,4 +20,4 @@ System::String Aspose::Words::Fields::FieldToc::get_CaptionlessTableOfFiguresLab
 
 * Class [FieldToc](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

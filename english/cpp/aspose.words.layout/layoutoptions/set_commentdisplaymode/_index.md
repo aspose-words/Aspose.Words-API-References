@@ -1,9 +1,10 @@
 ---
-title: set_CommentDisplayMode
+title: Aspose::Words::Layout::LayoutOptions::set_CommentDisplayMode method
+linktitle: set_CommentDisplayMode
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Layout::LayoutOptions::get_CommentDisplayMode.'
+description: 'Aspose::Words::Layout::LayoutOptions::set_CommentDisplayMode method. Setter for Aspose::Words::Layout::LayoutOptions::get_CommentDisplayMode in C++.'
 type: docs
-weight: 170
+weight: 14000
 url: /cpp/aspose.words.layout/layoutoptions/set_commentdisplaymode/
 ---
 ## LayoutOptions::set_CommentDisplayMode method
@@ -20,4 +21,4 @@ void Aspose::Words::Layout::LayoutOptions::set_CommentDisplayMode(Aspose::Words:
 * Enum [CommentDisplayMode](../../commentdisplaymode/)
 * Class [LayoutOptions](../)
 * Namespace [Aspose::Words::Layout](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

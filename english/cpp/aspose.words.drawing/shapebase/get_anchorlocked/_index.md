@@ -1,9 +1,10 @@
 ---
-title: get_AnchorLocked
+title: Aspose::Words::Drawing::ShapeBase::get_AnchorLocked method
+linktitle: get_AnchorLocked
 second_title: Aspose.Words for C++ API Reference
-description: Specifies whether the shape's anchor is locked.
+description: 'Aspose::Words::Drawing::ShapeBase::get_AnchorLocked method. Specifies whether the shape''s anchor is locked in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.drawing/shapebase/get_anchorlocked/
 ---
 ## ShapeBase::get_AnchorLocked method
@@ -57,4 +58,4 @@ doc->Save(ArtifactsDir + u"Shape.AnchorLocked.docx");
 
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

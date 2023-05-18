@@ -1,9 +1,10 @@
 ---
-title: get_DropDownSelectedIndex
+title: Aspose::Words::Fields::FormField::get_DropDownSelectedIndex method
+linktitle: get_DropDownSelectedIndex
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the index specifying the currently selected item in a dropdown form field.
+description: 'Aspose::Words::Fields::FormField::get_DropDownSelectedIndex method. Gets or sets the index specifying the currently selected item in a dropdown form field in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.fields/formfield/get_dropdownselectedindex/
 ---
 ## FormField::get_DropDownSelectedIndex method
@@ -153,4 +154,4 @@ private:
 
 * Class [FormField](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

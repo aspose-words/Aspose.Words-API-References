@@ -1,9 +1,10 @@
 ---
-title: set_ResourceStream
+title: Aspose::Words::Saving::ResourceSavingArgs::set_ResourceStream method
+linktitle: set_ResourceStream
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::ResourceSavingArgs::get_ResourceStream.'
+description: 'Aspose::Words::Saving::ResourceSavingArgs::set_ResourceStream method. Setter for Aspose::Words::Saving::ResourceSavingArgs::get_ResourceStream in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words.saving/resourcesavingargs/set_resourcestream/
 ---
 ## ResourceSavingArgs::set_ResourceStream(const System::SharedPtr\<System::IO::Stream\>\&) method
@@ -19,7 +20,7 @@ void Aspose::Words::Saving::ResourceSavingArgs::set_ResourceStream(const System:
 
 * Class [ResourceSavingArgs](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## ResourceSavingArgs::set_ResourceStream(std::basic_ostream\<CharType, Traits\>\&) method
 
 
@@ -33,4 +34,4 @@ template<typename CharType,typename Traits> void Aspose::Words::Saving::Resource
 
 * Class [ResourceSavingArgs](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

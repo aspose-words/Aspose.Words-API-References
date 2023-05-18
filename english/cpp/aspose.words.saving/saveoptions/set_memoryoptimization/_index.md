@@ -1,9 +1,10 @@
 ---
-title: set_MemoryOptimization
+title: Aspose::Words::Saving::SaveOptions::set_MemoryOptimization method
+linktitle: set_MemoryOptimization
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::SaveOptions::get_MemoryOptimization.'
+description: 'Aspose::Words::Saving::SaveOptions::set_MemoryOptimization method. Setter for Aspose::Words::Saving::SaveOptions::get_MemoryOptimization in C++.'
 type: docs
-weight: 417
+weight: 33000
 url: /cpp/aspose.words.saving/saveoptions/set_memoryoptimization/
 ---
 ## SaveOptions::set_MemoryOptimization method
@@ -19,4 +20,4 @@ void Aspose::Words::Saving::SaveOptions::set_MemoryOptimization(bool value)
 
 * Class [SaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: PdfDigitalSignatureDetails
+title: Aspose::Words::Saving::PdfDigitalSignatureDetails::PdfDigitalSignatureDetails constructor
+linktitle: PdfDigitalSignatureDetails
 second_title: Aspose.Words for C++ API Reference
-description: Initializes an instance of this class.
+description: 'Aspose::Words::Saving::PdfDigitalSignatureDetails::PdfDigitalSignatureDetails constructor. Initializes an instance of this class in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.saving/pdfdigitalsignaturedetails/pdfdigitalsignaturedetails/
 ---
 ## PdfDigitalSignatureDetails::PdfDigitalSignatureDetails() constructor
@@ -19,7 +20,7 @@ Aspose::Words::Saving::PdfDigitalSignatureDetails::PdfDigitalSignatureDetails()
 
 * Class [PdfDigitalSignatureDetails](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## PdfDigitalSignatureDetails::PdfDigitalSignatureDetails(const System::SharedPtr\<Aspose::Words::DigitalSignatures::CertificateHolder\>\&, const System::String\&, const System::String\&, System::DateTime) constructor
 
 
@@ -71,4 +72,4 @@ doc->Save(ArtifactsDir + u"PdfSaveOptions.PdfDigitalSignature.pdf", options);
 * Class [CertificateHolder](../../../aspose.words.digitalsignatures/certificateholder/)
 * Class [PdfDigitalSignatureDetails](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

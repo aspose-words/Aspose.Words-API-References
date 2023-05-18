@@ -1,9 +1,10 @@
 ---
-title: get_VariableName
+title: Aspose::Words::Fields::FieldDocVariable::get_VariableName method
+linktitle: get_VariableName
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the name of the document variable to retrieve.
+description: 'Aspose::Words::Fields::FieldDocVariable::get_VariableName method. Gets or sets the name of the document variable to retrieve in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fields/fielddocvariable/get_variablename/
 ---
 ## FieldDocVariable::get_VariableName method
@@ -30,7 +31,7 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 // Set a custom value for the "Category" built-in property, then insert a DOCPROPERTY field that references it.
 doc->get_BuiltInDocumentProperties()->set_Category(u"My category");
 
-auto fieldDocProperty = System::DynamicCast<FieldDocProperty>(builder->InsertField(u" DOCPROPERTY Category "));
+auto fieldDocProperty = System::ExplicitCast<FieldDocProperty>(builder->InsertField(u" DOCPROPERTY Category "));
 fieldDocProperty->Update();
 
 ASSERT_EQ(u" DOCPROPERTY Category ", fieldDocProperty->GetFieldCode());
@@ -43,7 +44,7 @@ builder->InsertParagraph();
 ASSERT_EQ(0, doc->get_Variables()->get_Count());
 doc->get_Variables()->Add(u"My variable", u"My variable's value");
 
-auto fieldDocVariable = System::DynamicCast<FieldDocVariable>(builder->InsertField(FieldType::FieldDocVariable, true));
+auto fieldDocVariable = System::ExplicitCast<FieldDocVariable>(builder->InsertField(FieldType::FieldDocVariable, true));
 fieldDocVariable->set_VariableName(u"My Variable");
 fieldDocVariable->Update();
 
@@ -57,4 +58,4 @@ doc->Save(ArtifactsDir + u"Field.DOCPROPERTY.DOCVARIABLE.docx");
 
 * Class [FieldDocVariable](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_TrueText
+title: Aspose::Words::Fields::FieldIf::get_TrueText method
+linktitle: get_TrueText
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the text displayed if the comparison expression is true.
+description: 'Aspose::Words::Fields::FieldIf::get_TrueText method. Gets or sets the text displayed if the comparison expression is true in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words.fields/fieldif/get_truetext/
 ---
 ## FieldIf::get_TrueText method
@@ -26,7 +27,7 @@ auto doc = MakeObject<Document>();
 auto builder = MakeObject<DocumentBuilder>(doc);
 
 builder->Write(u"Statement 1: ");
-auto field = System::DynamicCast<FieldIf>(builder->InsertField(FieldType::FieldIf, true));
+auto field = System::ExplicitCast<FieldIf>(builder->InsertField(FieldType::FieldIf, true));
 field->set_LeftExpression(u"0");
 field->set_ComparisonOperator(u"=");
 field->set_RightExpression(u"1");
@@ -43,7 +44,7 @@ ASSERT_EQ(FieldIfComparisonResult::False, field->EvaluateCondition());
 ASSERT_EQ(u"False", field->get_Result());
 
 builder->Write(u"\nStatement 2: ");
-field = System::DynamicCast<FieldIf>(builder->InsertField(FieldType::FieldIf, true));
+field = System::ExplicitCast<FieldIf>(builder->InsertField(FieldType::FieldIf, true));
 field->set_LeftExpression(u"5");
 field->set_ComparisonOperator(u"=");
 field->set_RightExpression(u"2 + 3");
@@ -64,4 +65,4 @@ doc->Save(ArtifactsDir + u"Field.IF.docx");
 
 * Class [FieldIf](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

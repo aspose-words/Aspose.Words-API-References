@@ -1,9 +1,10 @@
 ---
-title: set_PosCodeStyle
+title: Aspose::Words::Fields::BarcodeParameters::set_PosCodeStyle method
+linktitle: set_PosCodeStyle
 second_title: Aspose.Words for C++ API Reference
-description: Style of a Point of Sale barcode (barcode types UPCA|UPCE|EAN13|EAN8). The valid values (case insensitive) are [STD|SUP2|SUP5|CASE].
+description: 'Aspose::Words::Fields::BarcodeParameters::set_PosCodeStyle method. Style of a Point of Sale barcode (barcode types UPCA|UPCE|EAN13|EAN8). The valid values (case insensitive) are [STD|SUP2|SUP5|CASE] in C++.'
 type: docs
-weight: 430
+weight: 34000
 url: /cpp/aspose.words.fields/barcodeparameters/set_poscodestyle/
 ---
 ## BarcodeParameters::set_PosCodeStyle method
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::BarcodeParameters::set_PosCodeStyle(const System::St
 
 * Class [BarcodeParameters](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

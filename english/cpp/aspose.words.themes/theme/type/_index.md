@@ -1,9 +1,10 @@
 ---
-title: Type
+title: Aspose::Words::Themes::Theme::Type method
+linktitle: Type
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Type method of Aspose::Words::Themes::Theme class in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words.themes/theme/type/
 ---
 ## Theme::Type method
@@ -19,4 +20,4 @@ static const System::TypeInfo & Aspose::Words::Themes::Theme::Type()
 
 * Class [Theme](../)
 * Namespace [Aspose::Words::Themes](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

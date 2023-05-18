@@ -1,9 +1,10 @@
 ---
-title: ShowInBalloons
+title: Aspose::Words::Layout::ShowInBalloons enum
+linktitle: ShowInBalloons
 second_title: Aspose.Words for C++ API Reference
-description: Specifies which revisions are rendered in balloons.
+description: 'Aspose::Words::Layout::ShowInBalloons enum. Specifies which revisions are rendered in balloons in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words.layout/showinballoons/
 ---
 ## ShowInBalloons enum
@@ -76,4 +77,4 @@ doc->Save(ArtifactsDir + u"Revision.RevisionOptions.pdf");
 ## See Also
 
 * Namespace [Aspose::Words::Layout](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

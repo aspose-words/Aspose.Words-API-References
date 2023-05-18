@@ -1,9 +1,10 @@
 ---
-title: InsertOleObject
+title: Aspose::Words::DocumentBuilder::InsertOleObject method
+linktitle: InsertOleObject
 second_title: Aspose.Words for C++ API Reference
-description: Inserts an embedded OLE object from a stream into the document.
+description: 'Aspose::Words::DocumentBuilder::InsertOleObject method. Inserts an embedded OLE object from a stream into the document in C++.'
 type: docs
-weight: 521
+weight: 41000
 url: /cpp/aspose.words/documentbuilder/insertoleobject/
 ---
 ## DocumentBuilder::InsertOleObject(const System::SharedPtr\<System::IO::Stream\>\&, const System::String\&, bool, const System::SharedPtr\<System::IO::Stream\>\&) method
@@ -32,7 +33,7 @@ Shape node containing Ole object and inserted at the current Builder position.
 * Class [Shape](../../../aspose.words.drawing/shape/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## DocumentBuilder::InsertOleObject(const System::String\&, bool, bool, const System::SharedPtr\<System::IO::Stream\>\&) method
 
 
@@ -59,7 +60,7 @@ Shape node containing Ole object and inserted at the current Builder position.
 * Class [Shape](../../../aspose.words.drawing/shape/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## DocumentBuilder::InsertOleObject(const System::String\&, const System::String\&, bool, bool, const System::SharedPtr\<System::IO::Stream\>\&) method
 
 
@@ -87,7 +88,7 @@ Shape node containing Ole object and inserted at the current Builder position.
 * Class [Shape](../../../aspose.words.drawing/shape/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## DocumentBuilder::InsertOleObject(std::basic_istream\<CharType, Traits\>\&, System::String, bool, std::basic_istream\<CharType, Traits\>\&) method
 
 
@@ -102,7 +103,7 @@ template<typename CharType,typename Traits> System::SharedPtr<Aspose::Words::Dra
 * Class [Shape](../../../aspose.words.drawing/shape/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## DocumentBuilder::InsertOleObject(System::String, bool, bool, std::basic_istream\<CharType, Traits\>\&) method
 
 
@@ -117,7 +118,7 @@ template<typename CharType,typename Traits> System::SharedPtr<Aspose::Words::Dra
 * Class [Shape](../../../aspose.words.drawing/shape/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## DocumentBuilder::InsertOleObject(System::String, System::String, bool, bool, std::basic_istream\<CharType, Traits\>\&) method
 
 
@@ -132,4 +133,4 @@ template<typename CharType,typename Traits> System::SharedPtr<Aspose::Words::Dra
 * Class [Shape](../../../aspose.words.drawing/shape/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

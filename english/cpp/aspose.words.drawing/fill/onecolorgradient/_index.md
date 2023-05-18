@@ -1,9 +1,10 @@
 ---
-title: OneColorGradient
+title: Aspose::Words::Drawing::Fill::OneColorGradient method
+linktitle: OneColorGradient
 second_title: Aspose.Words for C++ API Reference
-description: Sets the specified fill to a one-color gradient.
+description: 'Aspose::Words::Drawing::Fill::OneColorGradient method. Sets the specified fill to a one-color gradient in C++.'
 type: docs
-weight: 313
+weight: 25000
 url: /cpp/aspose.words.drawing/fill/onecolorgradient/
 ---
 ## Fill::OneColorGradient(Aspose::Words::Drawing::GradientStyle, Aspose::Words::Drawing::GradientVariant, double) method
@@ -68,7 +69,7 @@ doc->Save(ArtifactsDir + u"Shape.GradientFill.docx", saveOptions);
 * Enum [GradientVariant](../../gradientvariant/)
 * Class [Fill](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## Fill::OneColorGradient(System::Drawing::Color, Aspose::Words::Drawing::GradientStyle, Aspose::Words::Drawing::GradientVariant, double) method
 
 
@@ -132,4 +133,4 @@ doc->Save(ArtifactsDir + u"Shape.GradientFill.docx", saveOptions);
 * Enum [GradientVariant](../../gradientvariant/)
 * Class [Fill](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

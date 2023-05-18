@@ -1,9 +1,10 @@
 ---
-title: NonBreakingSpaceChar
+title: Aspose::Words::ControlChar::NonBreakingSpaceChar field
+linktitle: NonBreakingSpaceChar
 second_title: Aspose.Words for C++ API Reference
-description: 'Non-breaking space character: (char)160.'
+description: 'Aspose::Words::ControlChar::NonBreakingSpaceChar field. Non-breaking space character: (char)160 in C++.'
 type: docs
-weight: 287
+weight: 23000
 url: /cpp/aspose.words/controlchar/nonbreakingspacechar/
 ---
 ## NonBreakingSpaceChar field
@@ -90,4 +91,4 @@ ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::ColumnBreak()), ControlCha
 
 * Class [ControlChar](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

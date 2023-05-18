@@ -1,9 +1,10 @@
 ---
-title: RemoveAllReplies
+title: Aspose::Words::Comment::RemoveAllReplies method
+linktitle: RemoveAllReplies
 second_title: Aspose.Words for C++ API Reference
-description: Removes all replies to this comment.
+description: 'Aspose::Words::Comment::RemoveAllReplies method. Removes all replies to this comment in C++.'
 type: docs
-weight: 196
+weight: 16000
 url: /cpp/aspose.words/comment/removeallreplies/
 ---
 ## Comment::RemoveAllReplies method
@@ -50,4 +51,4 @@ ASSERT_EQ(0, comment->get_Replies()->LINQ_Count());
 
 * Class [Comment](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

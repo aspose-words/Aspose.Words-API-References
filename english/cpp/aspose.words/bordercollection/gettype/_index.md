@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::BorderCollection::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::BorderCollection class in C++.'
 type: docs
-weight: 209
+weight: 17000
 url: /cpp/aspose.words/bordercollection/gettype/
 ---
 ## BorderCollection::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::BorderCollection::GetType() cons
 
 * Class [BorderCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

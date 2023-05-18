@@ -1,9 +1,10 @@
 ---
-title: get_AxisY
+title: Aspose::Words::Drawing::Charts::Chart::get_AxisY method
+linktitle: get_AxisY
 second_title: Aspose.Words for C++ API Reference
-description: Provides access to properties of the Y axis of the chart.
+description: 'Aspose::Words::Drawing::Charts::Chart::get_AxisY method. Provides access to properties of the Y axis of the chart in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.drawing.charts/chart/get_axisy/
 ---
 ## Chart::get_AxisY method
@@ -71,4 +72,4 @@ doc->Save(ArtifactsDir + u"Charts.AxisProperties.docx");
 * Class [ChartAxis](../../chartaxis/)
 * Class [Chart](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

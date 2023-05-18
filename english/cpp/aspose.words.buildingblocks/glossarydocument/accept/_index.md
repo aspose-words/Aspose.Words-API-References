@@ -1,9 +1,10 @@
 ---
-title: Accept
+title: Aspose::Words::BuildingBlocks::GlossaryDocument::Accept method
+linktitle: Accept
 second_title: Aspose.Words for C++ API Reference
-description: Accepts a visitor.
+description: 'Aspose::Words::BuildingBlocks::GlossaryDocument::Accept method. Accepts a visitor in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.buildingblocks/glossarydocument/accept/
 ---
 ## GlossaryDocument::Accept method
@@ -139,4 +140,4 @@ private:
 * Class [DocumentVisitor](../../../aspose.words/documentvisitor/)
 * Class [GlossaryDocument](../)
 * Namespace [Aspose::Words::BuildingBlocks](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: set_EpubNavigationMapLevel
+title: Aspose::Words::Saving::HtmlSaveOptions::set_EpubNavigationMapLevel method
+linktitle: set_EpubNavigationMapLevel
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::HtmlSaveOptions::get_EpubNavigationMapLevel.'
+description: 'Aspose::Words::Saving::HtmlSaveOptions::set_EpubNavigationMapLevel method. Setter for Aspose::Words::Saving::HtmlSaveOptions::get_EpubNavigationMapLevel in C++.'
 type: docs
-weight: 755
+weight: 59000
 url: /cpp/aspose.words.saving/htmlsaveoptions/set_epubnavigationmaplevel/
 ---
 ## HtmlSaveOptions::set_EpubNavigationMapLevel method
@@ -19,4 +20,4 @@ void Aspose::Words::Saving::HtmlSaveOptions::set_EpubNavigationMapLevel(int32_t 
 
 * Class [HtmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

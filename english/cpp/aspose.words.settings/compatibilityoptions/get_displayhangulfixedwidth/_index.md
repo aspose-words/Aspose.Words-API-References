@@ -1,9 +1,10 @@
 ---
-title: get_DisplayHangulFixedWidth
+title: Aspose::Words::Settings::CompatibilityOptions::get_DisplayHangulFixedWidth method
+linktitle: get_DisplayHangulFixedWidth
 second_title: Aspose.Words for C++ API Reference
-description: Always Use Fixed Width for Hangul Characters.
+description: 'Aspose::Words::Settings::CompatibilityOptions::get_DisplayHangulFixedWidth method. Always Use Fixed Width for Hangul Characters in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words.settings/compatibilityoptions/get_displayhangulfixedwidth/
 ---
 ## CompatibilityOptions::get_DisplayHangulFixedWidth method
@@ -19,4 +20,4 @@ bool Aspose::Words::Settings::CompatibilityOptions::get_DisplayHangulFixedWidth(
 
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

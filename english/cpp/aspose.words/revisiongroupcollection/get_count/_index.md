@@ -1,9 +1,10 @@
 ---
-title: get_Count
+title: Aspose::Words::RevisionGroupCollection::get_Count method
+linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
-description: Returns the number of revision groups in the collection.
+description: 'Aspose::Words::RevisionGroupCollection::get_Count method. Returns the number of revision groups in the collection in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words/revisiongroupcollection/get_count/
 ---
 ## RevisionGroupCollection::get_Count method
@@ -38,4 +39,4 @@ for (const auto& group : doc->get_Revisions()->get_Groups())
 
 * Class [RevisionGroupCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

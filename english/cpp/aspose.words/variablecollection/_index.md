@@ -1,9 +1,10 @@
 ---
-title: VariableCollection
+title: Aspose::Words::VariableCollection class
+linktitle: VariableCollection
 second_title: Aspose.Words for C++ API Reference
-description: A collection of document variables. To learn more, visit the  documentation article.
+description: 'Aspose::Words::VariableCollection class. A collection of document variables. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 937
+weight: 73000
 url: /cpp/aspose.words/variablecollection/
 ---
 ## VariableCollection class
@@ -78,7 +79,7 @@ ASSERT_EQ(3, variables->get_Count());
 
 // We can display the values of variables in the document body using DOCVARIABLE fields.
 auto builder = MakeObject<DocumentBuilder>(doc);
-auto field = System::DynamicCast<FieldDocVariable>(builder->InsertField(FieldType::FieldDocVariable, true));
+auto field = System::ExplicitCast<FieldDocVariable>(builder->InsertField(FieldType::FieldDocVariable, true));
 field->set_VariableName(u"Home address");
 field->Update();
 
@@ -133,4 +134,4 @@ ASSERT_EQ(0, variables->get_Count());
 ## See Also
 
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

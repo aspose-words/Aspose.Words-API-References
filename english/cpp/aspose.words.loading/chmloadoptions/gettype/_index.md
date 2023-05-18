@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Loading::ChmLoadOptions::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Loading::ChmLoadOptions class in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.loading/chmloadoptions/gettype/
 ---
 ## ChmLoadOptions::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Loading::ChmLoadOptions::GetType
 
 * Class [ChmLoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

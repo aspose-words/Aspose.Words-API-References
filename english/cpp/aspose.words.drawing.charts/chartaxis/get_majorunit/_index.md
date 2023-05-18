@@ -1,9 +1,10 @@
 ---
-title: get_MajorUnit
+title: Aspose::Words::Drawing::Charts::ChartAxis::get_MajorUnit method
+linktitle: get_MajorUnit
 second_title: Aspose.Words for C++ API Reference
-description: Returns or sets the distance between major tick marks.
+description: 'Aspose::Words::Drawing::Charts::ChartAxis::get_MajorUnit method. Returns or sets the distance between major tick marks in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_majorunit/
 ---
 ## ChartAxis::get_MajorUnit method
@@ -76,4 +77,4 @@ doc->Save(ArtifactsDir + u"Charts.AxisProperties.docx");
 
 * Class [ChartAxis](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

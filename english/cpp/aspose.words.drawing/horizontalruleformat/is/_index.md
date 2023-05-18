@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Drawing::HorizontalRuleFormat::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Drawing::HorizontalRuleFormat class in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.drawing/horizontalruleformat/is/
 ---
 ## HorizontalRuleFormat::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Drawing::HorizontalRuleFormat::Is(const System::Type
 
 * Class [HorizontalRuleFormat](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

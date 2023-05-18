@@ -1,9 +1,10 @@
 ---
-title: get_Style
+title: Aspose::Words::Markup::StructuredDocumentTag::get_Style method
+linktitle: get_Style
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the Style of the structured document tag.
+description: 'Aspose::Words::Markup::StructuredDocumentTag::get_Style method. Gets or sets the Style of the structured document tag in C++.'
 type: docs
-weight: 365
+weight: 29000
 url: /cpp/aspose.words.markup/structureddocumenttag/get_style/
 ---
 ## StructuredDocumentTag::get_Style method
@@ -44,7 +45,7 @@ SharedPtr<NodeCollection> tags = doc->GetChildNodes(NodeType::StructuredDocument
 
 for (const auto& node : System::IterateOver(tags))
 {
-    auto sdt = System::DynamicCast<StructuredDocumentTag>(node);
+    auto sdt = System::ExplicitCast<StructuredDocumentTag>(node);
 
     ASSERT_EQ(StyleIdentifier::Quote, sdt->get_Style()->get_StyleIdentifier());
     ASSERT_EQ(u"Quote", sdt->get_StyleName());
@@ -56,4 +57,4 @@ for (const auto& node : System::IterateOver(tags))
 * Class [Style](../../../aspose.words/style/)
 * Class [StructuredDocumentTag](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

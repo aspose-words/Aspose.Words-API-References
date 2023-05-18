@@ -1,9 +1,10 @@
 ---
-title: get_EndCap
+title: Aspose::Words::Drawing::Stroke::get_EndCap method
+linktitle: get_EndCap
 second_title: Aspose.Words for C++ API Reference
-description: Defines the cap style for the end of a stroke.
+description: 'Aspose::Words::Drawing::Stroke::get_EndCap method. Defines the cap style for the end of a stroke in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.drawing/stroke/get_endcap/
 ---
 ## Stroke::get_EndCap method
@@ -98,4 +99,4 @@ doc->Save(ArtifactsDir + u"Drawing.VariousShapes.docx");
 * Enum [EndCap](../../endcap/)
 * Class [Stroke](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

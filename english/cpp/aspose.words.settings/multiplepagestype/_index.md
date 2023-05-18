@@ -1,9 +1,10 @@
 ---
-title: MultiplePagesType
+title: Aspose::Words::Settings::MultiplePagesType enum
+linktitle: MultiplePagesType
 second_title: Aspose.Words for C++ API Reference
-description: Specifies how document is printed out.
+description: 'Aspose::Words::Settings::MultiplePagesType enum. Specifies how document is printed out in C++.'
 type: docs
-weight: 222
+weight: 18000
 url: /cpp/aspose.words.settings/multiplepagestype/
 ---
 ## MultiplePagesType enum
@@ -29,4 +30,4 @@ enum class MultiplePagesType
 ## See Also
 
 * Namespace [Aspose::Words::Settings](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

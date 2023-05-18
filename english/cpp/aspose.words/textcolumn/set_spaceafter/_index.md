@@ -1,9 +1,10 @@
 ---
-title: set_SpaceAfter
+title: Aspose::Words::TextColumn::set_SpaceAfter method
+linktitle: set_SpaceAfter
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::TextColumn::get_SpaceAfter.'
+description: 'Aspose::Words::TextColumn::set_SpaceAfter method. Setter for Aspose::Words::TextColumn::get_SpaceAfter in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words/textcolumn/set_spaceafter/
 ---
 ## TextColumn::set_SpaceAfter method
@@ -19,4 +20,4 @@ void Aspose::Words::TextColumn::set_SpaceAfter(double value)
 
 * Class [TextColumn](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

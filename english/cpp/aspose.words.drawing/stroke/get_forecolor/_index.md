@@ -1,9 +1,10 @@
 ---
-title: get_ForeColor
+title: Aspose::Words::Drawing::Stroke::get_ForeColor method
+linktitle: get_ForeColor
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the foreground color of the stroke.
+description: 'Aspose::Words::Drawing::Stroke::get_ForeColor method. Gets or sets the foreground color of the stroke in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words.drawing/stroke/get_forecolor/
 ---
 ## Stroke::get_ForeColor method
@@ -56,4 +57,4 @@ doc->Save(ArtifactsDir + u"Charts.MarkerFormatting.docx");
 
 * Class [Stroke](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

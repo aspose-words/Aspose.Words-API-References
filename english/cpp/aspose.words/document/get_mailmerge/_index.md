@@ -1,9 +1,10 @@
 ---
-title: get_MailMerge
+title: Aspose::Words::Document::get_MailMerge method
+linktitle: get_MailMerge
 second_title: Aspose.Words for C++ API Reference
-description: Returns a MailMerge object that represents the mail merge functionality for the document.
+description: 'Aspose::Words::Document::get_MailMerge method. Returns a MailMerge object that represents the mail merge functionality for the document in C++.'
 type: docs
-weight: 469
+weight: 37000
 url: /cpp/aspose.words/document/get_mailmerge/
 ---
 ## Document::get_MailMerge method
@@ -20,4 +21,4 @@ System::SharedPtr<Aspose::Words::MailMerging::MailMerge> Aspose::Words::Document
 * Class [MailMerge](../../../aspose.words.mailmerging/mailmerge/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

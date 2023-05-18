@@ -1,9 +1,10 @@
 ---
-title: idx_get
+title: Aspose::Words::Fonts::FontInfoCollection::idx_get method
+linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
-description: Gets a font with the specified name.
+description: 'Aspose::Words::Fonts::FontInfoCollection::idx_get method. Gets a font with the specified name in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words.fonts/fontinfocollection/idx_get/
 ---
 ## FontInfoCollection::idx_get(const System::String\&) method
@@ -54,7 +55,7 @@ System::IO::File::WriteAllBytes(ArtifactsDir + u"Alte DIN 1451 Mittelschrift.otf
 * Class [FontInfo](../../fontinfo/)
 * Class [FontInfoCollection](../)
 * Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## FontInfoCollection::idx_get(int32_t) method
 
 
@@ -103,4 +104,4 @@ System::IO::File::WriteAllBytes(ArtifactsDir + u"Alte DIN 1451 Mittelschrift.otf
 * Class [FontInfo](../../fontinfo/)
 * Class [FontInfoCollection](../)
 * Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

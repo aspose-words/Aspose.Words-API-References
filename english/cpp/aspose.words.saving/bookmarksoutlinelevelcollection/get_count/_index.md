@@ -1,9 +1,10 @@
 ---
-title: get_Count
+title: Aspose::Words::Saving::BookmarksOutlineLevelCollection::get_Count method
+linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
-description: Gets the number of elements contained in the collection.
+description: 'Aspose::Words::Saving::BookmarksOutlineLevelCollection::get_Count method. Gets the number of elements contained in the collection in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words.saving/bookmarksoutlinelevelcollection/get_count/
 ---
 ## BookmarksOutlineLevelCollection::get_Count method
@@ -76,4 +77,4 @@ outlineLevels->Clear();
 
 * Class [BookmarksOutlineLevelCollection](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

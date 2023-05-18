@@ -1,9 +1,10 @@
 ---
-title: ListIndent
+title: Aspose::Words::Lists::ListFormat::ListIndent method
+linktitle: ListIndent
 second_title: Aspose.Words for C++ API Reference
-description: Increases the list level of the current paragraph by one level.
+description: 'Aspose::Words::Lists::ListFormat::ListIndent method. Increases the list level of the current paragraph by one level in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words.lists/listformat/listindent/
 ---
 ## ListFormat::ListIndent method
@@ -109,4 +110,4 @@ doc->Save(ArtifactsDir + u"Lists.ApplyDefaultBulletsAndNumbers.docx");
 
 * Class [ListFormat](../)
 * Namespace [Aspose::Words::Lists](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::AbsolutePositionTab::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::AbsolutePositionTab class in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words/absolutepositiontab/is/
 ---
 ## AbsolutePositionTab::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::AbsolutePositionTab::Is(const System::TypeInfo &targ
 
 * Class [AbsolutePositionTab](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_FirstColumn
+title: Aspose::Words::Bookmark::get_FirstColumn method
+linktitle: get_FirstColumn
 second_title: Aspose.Words for C++ API Reference
-description: Gets the zero-based index of the first column of the table column range associated with the bookmark.
+description: 'Aspose::Words::Bookmark::get_FirstColumn method. Gets the zero-based index of the first column of the table column range associated with the bookmark in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words/bookmark/get_firstcolumn/
 ---
 ## Bookmark::get_FirstColumn method
@@ -30,7 +31,7 @@ for (const auto& bookmark : System::IterateOver(doc->get_Range()->get_Bookmarks(
     std::cout << "Bookmark: " << bookmark->get_Name() << (bookmark->get_IsColumn() ? String(u" (Column)") : String(u"")) << std::endl;
     if (bookmark->get_IsColumn())
     {
-        auto row = System::DynamicCast_noexcept<Row>(bookmark->get_BookmarkStart()->GetAncestor(NodeType::Row));
+        auto row = System::AsCast<Row>(bookmark->get_BookmarkStart()->GetAncestor(NodeType::Row));
         if (row != nullptr && bookmark->get_FirstColumn() < row->get_Cells()->get_Count())
         {
             // Print the contents of the first and last columns enclosed by the bookmark.
@@ -47,4 +48,4 @@ for (const auto& bookmark : System::IterateOver(doc->get_Range()->get_Bookmarks(
 
 * Class [Bookmark](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

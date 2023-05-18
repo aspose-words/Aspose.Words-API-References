@@ -1,9 +1,10 @@
 ---
-title: get_Type
+title: Aspose::Words::Fonts::FolderFontSource::get_Type method
+linktitle: get_Type
 second_title: Aspose.Words for C++ API Reference
-description: Returns the type of the font source.
+description: 'Aspose::Words::Fonts::FolderFontSource::get_Type method. Returns the type of the font source in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.fonts/folderfontsource/get_type/
 ---
 ## FolderFontSource::get_Type method
@@ -40,4 +41,4 @@ ASSERT_EQ(1, folderFontSource->get_Priority());
 * Enum [FontSourceType](../../fontsourcetype/)
 * Class [FolderFontSource](../)
 * Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

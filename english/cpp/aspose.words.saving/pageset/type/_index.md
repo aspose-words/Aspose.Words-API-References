@@ -1,9 +1,10 @@
 ---
-title: Type
+title: Aspose::Words::Saving::PageSet::Type method
+linktitle: Type
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Type method of Aspose::Words::Saving::PageSet class in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.saving/pageset/type/
 ---
 ## PageSet::Type method
@@ -19,4 +20,4 @@ static const System::TypeInfo & Aspose::Words::Saving::PageSet::Type()
 
 * Class [PageSet](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

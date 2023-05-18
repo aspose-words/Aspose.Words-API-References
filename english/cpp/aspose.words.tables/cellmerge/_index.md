@@ -1,9 +1,10 @@
 ---
-title: CellMerge
+title: Aspose::Words::Tables::CellMerge enum
+linktitle: CellMerge
 second_title: Aspose.Words for C++ API Reference
-description: Specifies how a cell in a table is merged with other cells.
+description: 'Aspose::Words::Tables::CellMerge enum. Specifies how a cell in a table is merged with other cells in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words.tables/cellmerge/
 ---
 ## CellMerge enum
@@ -132,4 +133,4 @@ String PrintCellMergeType(SharedPtr<Cell> cell)
 ## See Also
 
 * Namespace [Aspose::Words::Tables](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

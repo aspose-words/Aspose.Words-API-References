@@ -1,9 +1,10 @@
 ---
-title: get_ErrorCorrectionLevel
+title: Aspose::Words::Fields::FieldDisplayBarcode::get_ErrorCorrectionLevel method
+linktitle: get_ErrorCorrectionLevel
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets an error correction level of QR Code. Valid values are [0, 3].
+description: 'Aspose::Words::Fields::FieldDisplayBarcode::get_ErrorCorrectionLevel method. Gets or sets an error correction level of QR Code. Valid values are [0, 3] in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.fields/fielddisplaybarcode/get_errorcorrectionlevel/
 ---
 ## FieldDisplayBarcode::get_ErrorCorrectionLevel method
@@ -25,7 +26,7 @@ Shows how to insert a DISPLAYBARCODE field, and set its properties.
 auto doc = MakeObject<Document>();
 auto builder = MakeObject<DocumentBuilder>(doc);
 
-auto field = System::DynamicCast<FieldDisplayBarcode>(builder->InsertField(FieldType::FieldDisplayBarcode, true));
+auto field = System::ExplicitCast<FieldDisplayBarcode>(builder->InsertField(FieldType::FieldDisplayBarcode, true));
 
 // Below are four types of barcodes, decorated in various ways, that the DISPLAYBARCODE field can display.
 // 1 -  QR code with custom colors:
@@ -42,7 +43,7 @@ ASSERT_EQ(u" DISPLAYBARCODE  ABC123 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \
 builder->Writeln();
 
 // 2 -  EAN13 barcode, with the digits displayed below the bars:
-field = System::DynamicCast<FieldDisplayBarcode>(builder->InsertField(FieldType::FieldDisplayBarcode, true));
+field = System::ExplicitCast<FieldDisplayBarcode>(builder->InsertField(FieldType::FieldDisplayBarcode, true));
 field->set_BarcodeType(u"EAN13");
 field->set_BarcodeValue(u"501234567890");
 field->set_DisplayText(true);
@@ -53,7 +54,7 @@ ASSERT_EQ(u" DISPLAYBARCODE  501234567890 EAN13 \\t \\p CASE \\x", field->GetFie
 builder->Writeln();
 
 // 3 -  CODE39 barcode:
-field = System::DynamicCast<FieldDisplayBarcode>(builder->InsertField(FieldType::FieldDisplayBarcode, true));
+field = System::ExplicitCast<FieldDisplayBarcode>(builder->InsertField(FieldType::FieldDisplayBarcode, true));
 field->set_BarcodeType(u"CODE39");
 field->set_BarcodeValue(u"12345ABCDE");
 field->set_AddStartStopChar(true);
@@ -62,7 +63,7 @@ ASSERT_EQ(u" DISPLAYBARCODE  12345ABCDE CODE39 \\d", field->GetFieldCode());
 builder->Writeln();
 
 // 4 -  ITF4 barcode, with a specified case code:
-field = System::DynamicCast<FieldDisplayBarcode>(builder->InsertField(FieldType::FieldDisplayBarcode, true));
+field = System::ExplicitCast<FieldDisplayBarcode>(builder->InsertField(FieldType::FieldDisplayBarcode, true));
 field->set_BarcodeType(u"ITF14");
 field->set_BarcodeValue(u"09312345678907");
 field->set_CaseCodeStyle(u"STD");
@@ -76,4 +77,4 @@ doc->Save(ArtifactsDir + u"Field.DISPLAYBARCODE.docx");
 
 * Class [FieldDisplayBarcode](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

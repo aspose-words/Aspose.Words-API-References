@@ -1,9 +1,10 @@
 ---
-title: get_MovedToTextEffect
+title: Aspose::Words::Layout::RevisionOptions::get_MovedToTextEffect method
+linktitle: get_MovedToTextEffect
 second_title: Aspose.Words for C++ API Reference
-description: Allows to specify the effect to be applied to the areas where content was moved to Moving. Default value is DoubleUnderline
+description: 'Aspose::Words::Layout::RevisionOptions::get_MovedToTextEffect method. Allows to specify the effect to be applied to the areas where content was moved to Moving. Default value is DoubleUnderline in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words.layout/revisionoptions/get_movedtotexteffect/
 ---
 ## RevisionOptions::get_MovedToTextEffect method
@@ -70,4 +71,4 @@ doc->Save(ArtifactsDir + u"Revision.RevisionOptions.pdf");
 * Enum [RevisionTextEffect](../../revisiontexteffect/)
 * Class [RevisionOptions](../)
 * Namespace [Aspose::Words::Layout](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

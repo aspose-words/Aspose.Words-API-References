@@ -1,9 +1,10 @@
 ---
-title: get_Underline
+title: Aspose::Words::Drawing::TextPath::get_Underline method
+linktitle: get_Underline
 second_title: Aspose.Words for C++ API Reference
-description: True if the font is underlined.
+description: 'Aspose::Words::Drawing::TextPath::get_Underline method. True if the font is underlined in C++.'
 type: docs
-weight: 248
+weight: 20000
 url: /cpp/aspose.words.drawing/textpath/get_underline/
 ---
 ## TextPath::get_Underline method
@@ -120,7 +121,7 @@ static SharedPtr<Shape> AppendWordArt(SharedPtr<Document> doc, String text, Stri
     shape->get_TextPath()->set_Text(text);
     shape->get_TextPath()->set_FontFamily(textFontFamily);
 
-    auto para = System::DynamicCast<Paragraph>(doc->get_FirstSection()->get_Body()->AppendChild(MakeObject<Paragraph>(doc)));
+    auto para = System::ExplicitCast<Paragraph>(doc->get_FirstSection()->get_Body()->AppendChild(MakeObject<Paragraph>(doc)));
     para->AppendChild(shape);
     return shape;
 }
@@ -130,4 +131,4 @@ static SharedPtr<Shape> AppendWordArt(SharedPtr<Document> doc, String text, Stri
 
 * Class [TextPath](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

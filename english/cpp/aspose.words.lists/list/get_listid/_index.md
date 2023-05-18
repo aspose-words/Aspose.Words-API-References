@@ -1,9 +1,10 @@
 ---
-title: get_ListId
+title: Aspose::Words::Lists::List::get_ListId method
+linktitle: get_ListId
 second_title: Aspose.Words for C++ API Reference
-description: Gets the unique identifier of the list.
+description: 'Aspose::Words::Lists::List::get_ListId method. Gets the unique identifier of the list in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.lists/list/get_listid/
 ---
 ## List::get_ListId method
@@ -76,4 +77,4 @@ std::cout << (String(u"List is the same by ListId: ") + (System::ObjectExt::Equa
 
 * Class [List](../)
 * Namespace [Aspose::Words::Lists](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

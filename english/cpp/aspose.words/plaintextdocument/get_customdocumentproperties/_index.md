@@ -1,9 +1,10 @@
 ---
-title: get_CustomDocumentProperties
+title: Aspose::Words::PlainTextDocument::get_CustomDocumentProperties method
+linktitle: get_CustomDocumentProperties
 second_title: Aspose.Words for C++ API Reference
-description: Gets CustomDocumentProperties of the document.
+description: 'Aspose::Words::PlainTextDocument::get_CustomDocumentProperties method. Gets CustomDocumentProperties of the document in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words/plaintextdocument/get_customdocumentproperties/
 ---
 ## PlainTextDocument::get_CustomDocumentProperties method
@@ -41,4 +42,4 @@ ASPOSE_ASSERT_EQ(u"123 Main St, London, UK", plaintext->get_CustomDocumentProper
 * Class [CustomDocumentProperties](../../../aspose.words.properties/customdocumentproperties/)
 * Class [PlainTextDocument](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

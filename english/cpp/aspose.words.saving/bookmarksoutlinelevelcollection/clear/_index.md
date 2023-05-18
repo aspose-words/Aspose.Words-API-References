@@ -1,9 +1,10 @@
 ---
-title: Clear
+title: Aspose::Words::Saving::BookmarksOutlineLevelCollection::Clear method
+linktitle: Clear
 second_title: Aspose.Words for C++ API Reference
-description: Removes all elements from the collection.
+description: 'Aspose::Words::Saving::BookmarksOutlineLevelCollection::Clear method. Removes all elements from the collection in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.saving/bookmarksoutlinelevelcollection/clear/
 ---
 ## BookmarksOutlineLevelCollection::Clear method
@@ -76,4 +77,4 @@ outlineLevels->Clear();
 
 * Class [BookmarksOutlineLevelCollection](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

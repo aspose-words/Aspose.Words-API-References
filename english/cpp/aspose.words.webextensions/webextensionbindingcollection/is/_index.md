@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::WebExtensions::WebExtensionBindingCollection::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::WebExtensions::WebExtensionBindingCollection class in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.webextensions/webextensionbindingcollection/is/
 ---
 ## WebExtensionBindingCollection::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::WebExtensions::WebExtensionBindingCollection::Is(con
 
 * Class [WebExtensionBindingCollection](../)
 * Namespace [Aspose::Words::WebExtensions](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

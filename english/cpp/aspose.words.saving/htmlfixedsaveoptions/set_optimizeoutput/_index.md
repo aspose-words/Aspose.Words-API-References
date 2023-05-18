@@ -1,9 +1,10 @@
 ---
-title: set_OptimizeOutput
+title: Aspose::Words::Saving::HtmlFixedSaveOptions::set_OptimizeOutput method
+linktitle: set_OptimizeOutput
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::HtmlFixedSaveOptions::get_OptimizeOutput.'
+description: 'Aspose::Words::Saving::HtmlFixedSaveOptions::set_OptimizeOutput method. Setter for Aspose::Words::Saving::HtmlFixedSaveOptions::get_OptimizeOutput in C++.'
 type: docs
-weight: 391
+weight: 31000
 url: /cpp/aspose.words.saving/htmlfixedsaveoptions/set_optimizeoutput/
 ---
 ## HtmlFixedSaveOptions::set_OptimizeOutput method
@@ -19,4 +20,4 @@ void Aspose::Words::Saving::HtmlFixedSaveOptions::set_OptimizeOutput(bool value)
 
 * Class [HtmlFixedSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

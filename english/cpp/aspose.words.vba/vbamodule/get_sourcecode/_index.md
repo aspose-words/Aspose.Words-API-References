@@ -1,9 +1,10 @@
 ---
-title: get_SourceCode
+title: Aspose::Words::Vba::VbaModule::get_SourceCode method
+linktitle: get_SourceCode
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets VBA project module source code.
+description: 'Aspose::Words::Vba::VbaModule::get_SourceCode method. Gets or sets VBA project module source code in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.vba/vbamodule/get_sourcecode/
 ---
 ## VbaModule::get_SourceCode method
@@ -75,4 +76,4 @@ doc->Save(ArtifactsDir + u"VbaProject.CreateVBAMacros.docm");
 
 * Class [VbaModule](../)
 * Namespace [Aspose::Words::Vba](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

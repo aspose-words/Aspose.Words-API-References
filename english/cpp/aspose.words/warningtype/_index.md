@@ -1,9 +1,10 @@
 ---
-title: WarningType
+title: Aspose::Words::WarningType enum
+linktitle: WarningType
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the type of a warning that is issued by Aspose.Words during document loading or saving.
+description: 'Aspose::Words::WarningType enum. Specifies the type of a warning that is issued by Aspose.Words during document loading or saving in C++.'
 type: docs
-weight: 1665
+weight: 129000
 url: /cpp/aspose.words/warningtype/
 ---
 ## WarningType enum
@@ -97,4 +98,4 @@ public:
 ## See Also
 
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)
