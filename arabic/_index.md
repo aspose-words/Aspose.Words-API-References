@@ -20,6 +20,7 @@ Aspose.Words for .NET هي مكتبة فئة تمكن تطبيقاتك من أد
 
 هذه روابط لبعض المصادر المفيدة:
 - [Aspose.Words لمرجع .NET API](/words/ar/net/)
+- [Aspose.Words لدروس .NET API](/tutorials/ar/words/net/)
 
 ## Aspose.Words for Java
 

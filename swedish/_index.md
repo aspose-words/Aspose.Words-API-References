@@ -20,6 +20,7 @@ Aspose.Words för .NET är ett klassbibliotek som gör det möjligt för dina ap
 
 Det här är länkar till några användbara resurser:
 - [Aspose.Words för .NET API Referens](/words/sv/net/)
+- [Handledning för Aspose.Words för .NET API](/tutorials/sv/words/net/)
 
 ## Aspose.Words för Java
 
