@@ -20,6 +20,7 @@ Aspose.Words for .NET 是一个类库，使您的应用程序能够执行大量�
 
 这些是一些有用资源的链接：
 - [Aspose.Words for .NET API 参考](/words/zh/net/)
+- [Aspose.Words for .NET API 教程](/tutorials/zh/words/net/)
 
 ## Aspose.Words for Java
 

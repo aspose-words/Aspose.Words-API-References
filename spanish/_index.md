@@ -20,6 +20,7 @@ Aspose.Words para .NET es una biblioteca de clases que permite que sus aplicacio
 
 Estos son enlaces a algunos recursos útiles:
 - [Referencia de API de Aspose.Words para .NET](/words/es/net/)
+- [Tutoriales de API de Aspose.Words para .NET](/tutorials/es/words/net/)
 
 ## Aspose.Palabras para Java
 

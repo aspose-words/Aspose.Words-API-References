@@ -20,6 +20,7 @@ Aspose.Words f체r .NET ist eine Klassenbibliothek, die es Ihren Anwendungen erm�
 
 Dies sind Links zu einigen n체tzlichen Ressourcen:
 - [Aspose.Words f체r .NET-API-Referenz](/words/de/net/)
+- [Aspose.Words f체r .NET API-Tutorials](/tutorials/de/words/net/)
 
 ## Aspose.Words f체r Java
 
