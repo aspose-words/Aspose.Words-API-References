@@ -1,7 +1,9 @@
 ﻿---
-title: is_signed property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Shows whether the [VbaProject](../) is signed or not."
+title: VbaProject.is_signed property
+linktitle: is_signed property
+articleTitle: is_signed property
+second_title: Aspose.Words for Python
+description: "VbaProject.is_signed property. Shows whether the [VbaProject](../) is signed or not."
 type: docs
 weight: 30
 url: /python-net/aspose.words.vba/vbaproject/is_signed/

@@ -1,7 +1,9 @@
 ﻿---
 title: TextureAlignment enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the alignment for the tiling of the texture fill."
+linktitle: TextureAlignment enumeration
+articleTitle: TextureAlignment enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.drawing.TextureAlignment enumeration. Specifies the alignment for the tiling of the texture fill."
 type: docs
 weight: 440
 url: /python-net/aspose.words.drawing/texturealignment/

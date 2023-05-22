@@ -1,7 +1,9 @@
 ﻿---
-title: no_space_between_paragraphs_of_same_style property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "When ``True``, [ParagraphFormat.space_before](../space_before/) and [ParagraphFormat.space_after](../space_after/) will be ignored between the paragraphs of the same style."
+title: ParagraphFormat.no_space_between_paragraphs_of_same_style property
+linktitle: no_space_between_paragraphs_of_same_style property
+articleTitle: no_space_between_paragraphs_of_same_style property
+second_title: Aspose.Words for Python
+description: "ParagraphFormat.no_space_between_paragraphs_of_same_style property. When ``True``, [ParagraphFormat.space_before](../space_before/) and [ParagraphFormat.space_after](../space_after/) will be ignored between the paragraphs of the same style."
 type: docs
 weight: 230
 url: /python-net/aspose.words/paragraphformat/no_space_between_paragraphs_of_same_style/

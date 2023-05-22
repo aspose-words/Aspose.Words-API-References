@@ -1,7 +1,9 @@
 ﻿---
-title: vertical_merge property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies how the cell is merged with other cells vertically."
+title: CellFormat.vertical_merge property
+linktitle: vertical_merge property
+articleTitle: vertical_merge property
+second_title: Aspose.Words for Python
+description: "CellFormat.vertical_merge property. Specifies how the cell is merged with other cells vertically."
 type: docs
 weight: 120
 url: /python-net/aspose.words.tables/cellformat/vertical_merge/

@@ -1,7 +1,9 @@
 ﻿﻿---
 title: NodeRendererBase class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Base class for [ShapeRenderer](../shaperenderer/) and [OfficeMathRenderer](../officemathrenderer/)"
+linktitle: NodeRendererBase class
+articleTitle: NodeRendererBase class
+second_title: Aspose.Words for Python
+description: "aspose.words.rendering.NodeRendererBase class. Base class for [ShapeRenderer](../shaperenderer/) and [OfficeMathRenderer](../officemathrenderer/)"
 type: docs
 weight: 10
 url: /python-net/aspose.words.rendering/noderendererbase/

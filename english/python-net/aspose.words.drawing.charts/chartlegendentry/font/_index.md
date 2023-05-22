@@ -1,7 +1,9 @@
 ﻿---
-title: font property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides access to the font formatting of this legend entry."
+title: ChartLegendEntry.font property
+linktitle: font property
+articleTitle: font property
+second_title: Aspose.Words for Python
+description: "ChartLegendEntry.font property. Provides access to the font formatting of this legend entry."
 type: docs
 weight: 10
 url: /python-net/aspose.words.drawing.charts/chartlegendentry/font/

@@ -1,7 +1,9 @@
 ﻿---
-title: tables property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets a collection of tables that are immediate children of the story."
+title: InlineStory.tables property
+linktitle: tables property
+articleTitle: tables property
+second_title: Aspose.Words for Python
+description: "InlineStory.tables property. Gets a collection of tables that are immediate children of the story."
 type: docs
 weight: 110
 url: /python-net/aspose.words/inlinestory/tables/

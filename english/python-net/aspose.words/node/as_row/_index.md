@@ -1,7 +1,9 @@
 ﻿---
-title: as_row method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Cast node to [Row](../../../aspose.words.tables/row/)."
+title: Node.as_row method
+linktitle: as_row method
+articleTitle: as_row method
+second_title: Aspose.Words for Python
+description: "Node.as_row method. Cast node to [Row](../../../aspose.words.tables/row/)."
 type: docs
 weight: 320
 url: /python-net/aspose.words/node/as_row/

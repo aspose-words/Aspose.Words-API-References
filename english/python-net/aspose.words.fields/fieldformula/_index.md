@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldFormula class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the = (formula) field"
+linktitle: FieldFormula class
+articleTitle: FieldFormula class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldFormula class. Implements the = (formula) field"
 type: docs
 weight: 490
 url: /python-net/aspose.words.fields/fieldformula/

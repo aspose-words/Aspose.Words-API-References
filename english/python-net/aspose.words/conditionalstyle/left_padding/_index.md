@@ -1,7 +1,9 @@
 ﻿---
-title: left_padding property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the amount of space (in points) to add to the left of the contents of table cells."
+title: ConditionalStyle.left_padding property
+linktitle: left_padding property
+articleTitle: left_padding property
+second_title: Aspose.Words for Python
+description: "ConditionalStyle.left_padding property. Gets or sets the amount of space (in points) to add to the left of the contents of table cells."
 type: docs
 weight: 40
 url: /python-net/aspose.words/conditionalstyle/left_padding/

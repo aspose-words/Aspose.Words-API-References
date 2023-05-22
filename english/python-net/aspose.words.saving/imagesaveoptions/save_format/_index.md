@@ -1,7 +1,9 @@
 ﻿---
-title: save_format property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used"
+title: ImageSaveOptions.save_format property
+linktitle: save_format property
+articleTitle: save_format property
+second_title: Aspose.Words for Python
+description: "ImageSaveOptions.save_format property. Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used"
 type: docs
 weight: 110
 url: /python-net/aspose.words.saving/imagesaveoptions/save_format/

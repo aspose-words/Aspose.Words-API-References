@@ -1,7 +1,9 @@
 ﻿---
-title: equals method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Determines whether the specified [Shading](../) is equal in value to the current [Shading](../)."
+title: Shading.equals method
+linktitle: equals method
+articleTitle: equals method
+second_title: Aspose.Words for Python
+description: "Shading.equals method. Determines whether the specified [Shading](../) is equal in value to the current [Shading](../)."
 type: docs
 weight: 90
 url: /python-net/aspose.words/shading/equals/

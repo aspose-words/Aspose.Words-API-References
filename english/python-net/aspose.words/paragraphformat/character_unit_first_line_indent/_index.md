@@ -1,7 +1,9 @@
 ﻿---
-title: character_unit_first_line_indent property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the value (in characters) for the first-line or hanging indent"
+title: ParagraphFormat.character_unit_first_line_indent property
+linktitle: character_unit_first_line_indent property
+articleTitle: character_unit_first_line_indent property
+second_title: Aspose.Words for Python
+description: "ParagraphFormat.character_unit_first_line_indent property. Gets or sets the value (in characters) for the first-line or hanging indent"
 type: docs
 weight: 60
 url: /python-net/aspose.words/paragraphformat/character_unit_first_line_indent/

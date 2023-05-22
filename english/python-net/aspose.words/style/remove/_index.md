@@ -1,7 +1,9 @@
 ﻿---
-title: remove method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Removes the specified style from the document."
+title: Style.remove method
+linktitle: remove method
+articleTitle: remove method
+second_title: Aspose.Words for Python
+description: "Style.remove method. Removes the specified style from the document."
 type: docs
 weight: 200
 url: /python-net/aspose.words/style/remove/

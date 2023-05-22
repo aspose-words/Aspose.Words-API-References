@@ -1,7 +1,9 @@
 ﻿---
-title: evaluate_condition method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Evaluates the condition."
+title: FieldIf.evaluate_condition method
+linktitle: evaluate_condition method
+articleTitle: evaluate_condition method
+second_title: Aspose.Words for Python
+description: "FieldIf.evaluate_condition method. Evaluates the condition."
 type: docs
 weight: 70
 url: /python-net/aspose.words.fields/fieldif/evaluate_condition/

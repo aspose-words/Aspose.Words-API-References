@@ -1,7 +1,9 @@
 ﻿---
-title: image_type_to_extension method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Converts an Aspose.Words image type enumerated value into a file extension"
+title: FileFormatUtil.image_type_to_extension method
+linktitle: image_type_to_extension method
+articleTitle: image_type_to_extension method
+second_title: Aspose.Words for Python
+description: "FileFormatUtil.image_type_to_extension method. Converts an Aspose.Words image type enumerated value into a file extension"
 type: docs
 weight: 50
 url: /python-net/aspose.words/fileformatutil/image_type_to_extension/

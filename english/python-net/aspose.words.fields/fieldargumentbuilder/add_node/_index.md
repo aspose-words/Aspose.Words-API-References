@@ -1,7 +1,9 @@
 ﻿---
-title: add_node method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Adds a node to the argument."
+title: FieldArgumentBuilder.add_node method
+linktitle: add_node method
+articleTitle: add_node method
+second_title: Aspose.Words for Python
+description: "FieldArgumentBuilder.add_node method. Adds a node to the argument."
 type: docs
 weight: 30
 url: /python-net/aspose.words.fields/fieldargumentbuilder/add_node/

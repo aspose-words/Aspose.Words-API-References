@@ -1,6 +1,8 @@
 ﻿---
-title: move_parent method
-second_title: Aspose.Words for Python via .NET API Reference
+title: LayoutEnumerator.move_parent method
+linktitle: move_parent method
+articleTitle: move_parent method
+second_title: Aspose.Words for Python
 description: "aspose.words.layout.LayoutEnumerator.move_parent method"
 type: docs
 weight: 130

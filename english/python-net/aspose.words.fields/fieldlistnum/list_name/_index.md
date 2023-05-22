@@ -1,7 +1,9 @@
 ﻿---
-title: list_name property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the name of the abstract numbering definition used for the numbering."
+title: FieldListNum.list_name property
+linktitle: list_name property
+articleTitle: list_name property
+second_title: Aspose.Words for Python
+description: "FieldListNum.list_name property. Gets or sets the name of the abstract numbering definition used for the numbering."
 type: docs
 weight: 40
 url: /python-net/aspose.words.fields/fieldlistnum/list_name/

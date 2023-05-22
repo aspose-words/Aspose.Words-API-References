@@ -1,7 +1,9 @@
 ﻿---
-title: from_double method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Creates a [ChartXValue](../) instance of the [ChartXValueType.DOUBLE](../../chartxvaluetype/#DOUBLE) type."
+title: ChartXValue.from_double method
+linktitle: from_double method
+articleTitle: from_double method
+second_title: Aspose.Words for Python
+description: "ChartXValue.from_double method. Creates a [ChartXValue](../) instance of the [ChartXValueType.DOUBLE](../../chartxvaluetype/#DOUBLE) type."
 type: docs
 weight: 80
 url: /python-net/aspose.words.drawing.charts/chartxvalue/from_double/

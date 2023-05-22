@@ -1,7 +1,9 @@
 ﻿---
-title: use_printer_metrics property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Use Printer Metrics To Display Documents."
+title: CompatibilityOptions.use_printer_metrics property
+linktitle: use_printer_metrics property
+articleTitle: use_printer_metrics property
+second_title: Aspose.Words for Python
+description: "CompatibilityOptions.use_printer_metrics property. Use Printer Metrics To Display Documents."
 type: docs
 weight: 640
 url: /python-net/aspose.words.settings/compatibilityoptions/use_printer_metrics/

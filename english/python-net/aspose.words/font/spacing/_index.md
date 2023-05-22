@@ -1,7 +1,9 @@
 ﻿---
-title: spacing property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns or sets the spacing (in points) between characters ."
+title: Font.spacing property
+linktitle: spacing property
+articleTitle: spacing property
+second_title: Aspose.Words for Python
+description: "Font.spacing property. Returns or sets the spacing (in points) between characters ."
 type: docs
 weight: 380
 url: /python-net/aspose.words/font/spacing/

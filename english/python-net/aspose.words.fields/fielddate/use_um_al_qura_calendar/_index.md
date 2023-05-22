@@ -1,7 +1,9 @@
 ﻿---
-title: use_um_al_qura_calendar property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets whether to use the Um-al-Qura calendar."
+title: FieldDate.use_um_al_qura_calendar property
+linktitle: use_um_al_qura_calendar property
+articleTitle: use_um_al_qura_calendar property
+second_title: Aspose.Words for Python
+description: "FieldDate.use_um_al_qura_calendar property. Gets or sets whether to use the Um-al-Qura calendar."
 type: docs
 weight: 50
 url: /python-net/aspose.words.fields/fielddate/use_um_al_qura_calendar/

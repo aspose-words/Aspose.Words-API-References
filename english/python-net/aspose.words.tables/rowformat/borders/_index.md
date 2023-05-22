@@ -1,7 +1,9 @@
 ﻿---
-title: borders property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the collection of default cell borders for the row."
+title: RowFormat.borders property
+linktitle: borders property
+articleTitle: borders property
+second_title: Aspose.Words for Python
+description: "RowFormat.borders property. Gets the collection of default cell borders for the row."
 type: docs
 weight: 20
 url: /python-net/aspose.words.tables/rowformat/borders/

@@ -1,6 +1,8 @@
 ﻿---
-title: append_field method
-second_title: Aspose.Words for Python via .NET API Reference
+title: Paragraph.append_field method
+linktitle: append_field method
+articleTitle: append_field method
+second_title: Aspose.Words for Python
 description: "aspose.words.Paragraph.append_field method"
 type: docs
 weight: 240

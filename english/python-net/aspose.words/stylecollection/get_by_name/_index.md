@@ -1,7 +1,9 @@
 ﻿---
-title: get_by_name method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets a style by name or alias."
+title: StyleCollection.get_by_name method
+linktitle: get_by_name method
+articleTitle: get_by_name method
+second_title: Aspose.Words for Python
+description: "StyleCollection.get_by_name method. Gets a style by name or alias."
 type: docs
 weight: 90
 url: /python-net/aspose.words/stylecollection/get_by_name/

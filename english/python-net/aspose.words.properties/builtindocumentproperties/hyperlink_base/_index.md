@@ -1,7 +1,9 @@
 ﻿---
-title: hyperlink_base property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the base string used for evaluating relative hyperlinks in this document."
+title: BuiltInDocumentProperties.hyperlink_base property
+linktitle: hyperlink_base property
+articleTitle: hyperlink_base property
+second_title: Aspose.Words for Python
+description: "BuiltInDocumentProperties.hyperlink_base property. Specifies the base string used for evaluating relative hyperlinks in this document."
 type: docs
 weight: 130
 url: /python-net/aspose.words.properties/builtindocumentproperties/hyperlink_base/

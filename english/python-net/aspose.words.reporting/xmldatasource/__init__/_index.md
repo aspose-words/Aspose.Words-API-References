@@ -1,6 +1,8 @@
 ﻿---
 title: XmlDataSource constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: XmlDataSource constructor
+articleTitle: XmlDataSource constructor
+second_title: Aspose.Words for Python
 description: "aspose.words.reporting.XmlDataSource constructor"
 type: docs
 weight: 10

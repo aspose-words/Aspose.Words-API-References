@@ -1,7 +1,9 @@
 ﻿---
-title: content_type property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the content type of this custom part."
+title: CustomPart.content_type property
+linktitle: content_type property
+articleTitle: content_type property
+second_title: Aspose.Words for Python
+description: "CustomPart.content_type property. Specifies the content type of this custom part."
 type: docs
 weight: 20
 url: /python-net/aspose.words.markup/custompart/content_type/

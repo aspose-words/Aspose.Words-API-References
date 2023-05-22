@@ -1,7 +1,9 @@
 ﻿---
-title: text property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Defines the text of the text path."
+title: TextPath.text property
+linktitle: text property
+articleTitle: text property
+second_title: Aspose.Words for Python
+description: "TextPath.text property. Defines the text of the text path."
 type: docs
 weight: 160
 url: /python-net/aspose.words.drawing/textpath/text/

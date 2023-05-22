@@ -1,7 +1,9 @@
 ﻿﻿---
 title: RowFormat class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents all formatting for a table row"
+linktitle: RowFormat class
+articleTitle: RowFormat class
+second_title: Aspose.Words for Python
+description: "aspose.words.tables.RowFormat class. Represents all formatting for a table row"
 type: docs
 weight: 110
 url: /python-net/aspose.words.tables/rowformat/

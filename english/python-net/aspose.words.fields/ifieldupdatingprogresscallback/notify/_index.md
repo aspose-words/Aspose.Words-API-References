@@ -1,7 +1,9 @@
 ﻿---
-title: notify method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "A user defined method that is called when updating progress is changed."
+title: IFieldUpdatingProgressCallback.notify method
+linktitle: notify method
+articleTitle: notify method
+second_title: Aspose.Words for Python
+description: "IFieldUpdatingProgressCallback.notify method. A user defined method that is called when updating progress is changed."
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/ifieldupdatingprogresscallback/notify/

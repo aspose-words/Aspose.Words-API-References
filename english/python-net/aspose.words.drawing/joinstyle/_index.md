@@ -1,7 +1,9 @@
 ﻿---
 title: JoinStyle enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Line join style."
+linktitle: JoinStyle enumeration
+articleTitle: JoinStyle enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.drawing.JoinStyle enumeration. Line join style."
 type: docs
 weight: 200
 url: /python-net/aspose.words.drawing/joinstyle/

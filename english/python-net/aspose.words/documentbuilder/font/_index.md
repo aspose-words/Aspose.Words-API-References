@@ -1,7 +1,9 @@
 ﻿---
-title: font property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns an object that represents current font formatting properties."
+title: DocumentBuilder.font property
+linktitle: font property
+articleTitle: font property
+second_title: Aspose.Words for Python
+description: "DocumentBuilder.font property. Returns an object that represents current font formatting properties."
 type: docs
 weight: 100
 url: /python-net/aspose.words/documentbuilder/font/

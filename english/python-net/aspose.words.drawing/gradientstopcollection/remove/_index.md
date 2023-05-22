@@ -1,7 +1,9 @@
 ﻿---
-title: remove method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Removes a specified [GradientStop](../../gradientstop/) from the collection."
+title: GradientStopCollection.remove method
+linktitle: remove method
+articleTitle: remove method
+second_title: Aspose.Words for Python
+description: "GradientStopCollection.remove method. Removes a specified [GradientStop](../../gradientstop/) from the collection."
 type: docs
 weight: 50
 url: /python-net/aspose.words.drawing/gradientstopcollection/remove/

@@ -1,7 +1,9 @@
 ﻿---
-title: get_field method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns a field for the field char."
+title: FieldChar.get_field method
+linktitle: get_field method
+articleTitle: get_field method
+second_title: Aspose.Words for Python
+description: "FieldChar.get_field method. Returns a field for the field char."
 type: docs
 weight: 40
 url: /python-net/aspose.words.fields/fieldchar/get_field/

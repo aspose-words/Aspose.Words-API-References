@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldAuthor class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the AUTHOR field"
+linktitle: FieldAuthor class
+articleTitle: FieldAuthor class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldAuthor class. Implements the AUTHOR field"
 type: docs
 weight: 110
 url: /python-net/aspose.words.fields/fieldauthor/

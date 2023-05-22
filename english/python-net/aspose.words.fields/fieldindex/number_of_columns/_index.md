@@ -1,7 +1,9 @@
 ﻿---
-title: number_of_columns property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the number of columns per page used when building the index."
+title: FieldIndex.number_of_columns property
+linktitle: number_of_columns property
+articleTitle: number_of_columns property
+second_title: Aspose.Words for Python
+description: "FieldIndex.number_of_columns property. Gets or sets the number of columns per page used when building the index."
 type: docs
 weight: 100
 url: /python-net/aspose.words.fields/fieldindex/number_of_columns/

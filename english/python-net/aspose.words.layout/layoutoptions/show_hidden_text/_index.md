@@ -1,7 +1,9 @@
 ﻿---
-title: show_hidden_text property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets indication of whether hidden text in the document is rendered"
+title: LayoutOptions.show_hidden_text property
+linktitle: show_hidden_text property
+articleTitle: show_hidden_text property
+second_title: Aspose.Words for Python
+description: "LayoutOptions.show_hidden_text property. Gets or sets indication of whether hidden text in the document is rendered"
 type: docs
 weight: 70
 url: /python-net/aspose.words.layout/layoutoptions/show_hidden_text/

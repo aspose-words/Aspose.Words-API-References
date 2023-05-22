@@ -1,7 +1,9 @@
 ﻿---
-title: parent_node property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the immediate parent node (owner) of this revision"
+title: Revision.parent_node property
+linktitle: parent_node property
+articleTitle: parent_node property
+second_title: Aspose.Words for Python
+description: "Revision.parent_node property. Gets the immediate parent node (owner) of this revision"
 type: docs
 weight: 40
 url: /python-net/aspose.words/revision/parent_node/

@@ -1,6 +1,9 @@
 ﻿---
 title: FieldAuthor constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: FieldAuthor constructor
+articleTitle: FieldAuthor constructor
+second_title: Aspose.Words for Python
+description: "FieldAuthor constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/fieldauthor/__init__/

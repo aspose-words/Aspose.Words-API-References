@@ -1,7 +1,9 @@
 ﻿---
 title: ITextShaperFactory class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "An interface of a factory for constructing [ITextShaper](../itextshaper/) implementations."
+linktitle: ITextShaperFactory class
+articleTitle: ITextShaperFactory class
+second_title: Aspose.Words for Python
+description: "aspose.words.shaping.ITextShaperFactory class. An interface of a factory for constructing [ITextShaper](../itextshaper/) implementations."
 type: docs
 weight: 70
 url: /python-net/aspose.words.shaping/itextshaperfactory/

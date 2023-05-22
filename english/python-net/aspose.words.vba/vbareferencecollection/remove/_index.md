@@ -1,7 +1,9 @@
 ﻿---
-title: remove method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Removes the first occurrence of a specified [VbaReference](../../vbareference/) item from the collection."
+title: VbaReferenceCollection.remove method
+linktitle: remove method
+articleTitle: remove method
+second_title: Aspose.Words for Python
+description: "VbaReferenceCollection.remove method. Removes the first occurrence of a specified [VbaReference](../../vbareference/) item from the collection."
 type: docs
 weight: 30
 url: /python-net/aspose.words.vba/vbareferencecollection/remove/

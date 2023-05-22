@@ -1,7 +1,9 @@
 ﻿---
-title: clone method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns a deep clone of this object."
+title: MailMergeSettings.clone method
+linktitle: clone method
+articleTitle: clone method
+second_title: Aspose.Words for Python
+description: "MailMergeSettings.clone method. Returns a deep clone of this object."
 type: docs
 weight: 190
 url: /python-net/aspose.words.settings/mailmergesettings/clone/

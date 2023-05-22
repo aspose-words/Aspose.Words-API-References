@@ -1,7 +1,9 @@
 ﻿---
-title: is_temporary property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies whether this SDT shall be removed from the WordProcessingML document when its contents are modified."
+title: StructuredDocumentTag.is_temporary property
+linktitle: is_temporary property
+articleTitle: is_temporary property
+second_title: Aspose.Words for Python
+description: "StructuredDocumentTag.is_temporary property. Specifies whether this SDT shall be removed from the WordProcessingML document when its contents are modified."
 type: docs
 weight: 160
 url: /python-net/aspose.words.markup/structureddocumenttag/is_temporary/

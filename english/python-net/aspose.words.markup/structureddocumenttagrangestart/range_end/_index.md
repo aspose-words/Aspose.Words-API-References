@@ -1,7 +1,9 @@
 ﻿---
-title: range_end property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies end of range if the [StructuredDocumentTag](../../structureddocumenttag/) is a ranged structured document tag"
+title: StructuredDocumentTagRangeStart.range_end property
+linktitle: range_end property
+articleTitle: range_end property
+second_title: Aspose.Words for Python
+description: "StructuredDocumentTagRangeStart.range_end property. Specifies end of range if the [StructuredDocumentTag](../../structureddocumenttag/) is a ranged structured document tag"
 type: docs
 weight: 130
 url: /python-net/aspose.words.markup/structureddocumenttagrangestart/range_end/

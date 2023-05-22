@@ -1,7 +1,9 @@
 ﻿---
 title: ImagePixelFormat enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the pixel format for the generated images of document pages."
+linktitle: ImagePixelFormat enumeration
+articleTitle: ImagePixelFormat enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.saving.ImagePixelFormat enumeration. Specifies the pixel format for the generated images of document pages."
 type: docs
 weight: 370
 url: /python-net/aspose.words.saving/imagepixelformat/

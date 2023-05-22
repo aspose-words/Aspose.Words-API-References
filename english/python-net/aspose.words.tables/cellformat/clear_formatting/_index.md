@@ -1,7 +1,9 @@
 ﻿---
-title: clear_formatting method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Resets to default cell formatting"
+title: CellFormat.clear_formatting method
+linktitle: clear_formatting method
+articleTitle: clear_formatting method
+second_title: Aspose.Words for Python
+description: "CellFormat.clear_formatting method. Resets to default cell formatting"
 type: docs
 weight: 150
 url: /python-net/aspose.words.tables/cellformat/clear_formatting/

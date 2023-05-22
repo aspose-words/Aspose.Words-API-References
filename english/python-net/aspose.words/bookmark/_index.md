@@ -1,7 +1,9 @@
 ﻿﻿---
 title: Bookmark class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a single bookmark"
+linktitle: Bookmark class
+articleTitle: Bookmark class
+second_title: Aspose.Words for Python
+description: "aspose.words.Bookmark class. Represents a single bookmark"
 type: docs
 weight: 30
 url: /python-net/aspose.words/bookmark/

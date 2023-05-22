@@ -1,7 +1,9 @@
 ﻿---
-title: font_saving method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Called when Aspose.Words is about to save a font resource."
+title: IFontSavingCallback.font_saving method
+linktitle: font_saving method
+articleTitle: font_saving method
+second_title: Aspose.Words for Python
+description: "IFontSavingCallback.font_saving method. Called when Aspose.Words is about to save a font resource."
 type: docs
 weight: 10
 url: /python-net/aspose.words.saving/ifontsavingcallback/font_saving/

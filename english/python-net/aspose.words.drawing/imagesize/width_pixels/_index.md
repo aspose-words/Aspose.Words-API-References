@@ -1,7 +1,9 @@
 ﻿---
-title: width_pixels property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the width of the image in pixels."
+title: ImageSize.width_pixels property
+linktitle: width_pixels property
+articleTitle: width_pixels property
+second_title: Aspose.Words for Python
+description: "ImageSize.width_pixels property. Gets the width of the image in pixels."
 type: docs
 weight: 60
 url: /python-net/aspose.words.drawing/imagesize/width_pixels/

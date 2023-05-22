@@ -1,7 +1,9 @@
 ﻿---
-title: name property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets this part's absolute name within the OOXML package or the target URL."
+title: CustomPart.name property
+linktitle: name property
+articleTitle: name property
+second_title: Aspose.Words for Python
+description: "CustomPart.name property. Gets or sets this part's absolute name within the OOXML package or the target URL."
 type: docs
 weight: 50
 url: /python-net/aspose.words.markup/custompart/name/

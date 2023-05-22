@@ -1,7 +1,9 @@
 ﻿---
-title: get_consumption_credit method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets consumption credit"
+title: Metered.get_consumption_credit method
+linktitle: get_consumption_credit method
+articleTitle: get_consumption_credit method
+second_title: Aspose.Words for Python
+description: "Metered.get_consumption_credit method. Gets consumption credit"
 type: docs
 weight: 20
 url: /python-net/aspose.words/metered/get_consumption_credit/

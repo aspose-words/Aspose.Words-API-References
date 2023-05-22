@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldAutoNumLgl class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the AUTONUMLGL field"
+linktitle: FieldAutoNumLgl class
+articleTitle: FieldAutoNumLgl class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldAutoNumLgl class. Implements the AUTONUMLGL field"
 type: docs
 weight: 130
 url: /python-net/aspose.words.fields/fieldautonumlgl/

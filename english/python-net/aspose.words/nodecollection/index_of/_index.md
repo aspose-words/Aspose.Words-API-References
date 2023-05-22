@@ -1,7 +1,9 @@
 ﻿---
-title: index_of method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns the zero-based index of the specified node."
+title: NodeCollection.index_of method
+linktitle: index_of method
+articleTitle: index_of method
+second_title: Aspose.Words for Python
+description: "NodeCollection.index_of method. Returns the zero-based index of the specified node."
 type: docs
 weight: 60
 url: /python-net/aspose.words/nodecollection/index_of/

@@ -1,6 +1,8 @@
 ﻿---
 title: OdtSaveOptions constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: OdtSaveOptions constructor
+articleTitle: OdtSaveOptions constructor
+second_title: Aspose.Words for Python
 description: "aspose.words.saving.OdtSaveOptions constructor"
 type: docs
 weight: 10

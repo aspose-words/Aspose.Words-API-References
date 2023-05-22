@@ -1,7 +1,9 @@
 ﻿---
-title: count property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the number of tab stops in the collection."
+title: TabStopCollection.count property
+linktitle: count property
+articleTitle: count property
+second_title: Aspose.Words for Python
+description: "TabStopCollection.count property. Gets the number of tab stops in the collection."
 type: docs
 weight: 20
 url: /python-net/aspose.words/tabstopcollection/count/

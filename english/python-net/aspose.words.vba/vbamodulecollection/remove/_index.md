@@ -1,7 +1,9 @@
 ﻿---
-title: remove method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Removes the specified module from the collection."
+title: VbaModuleCollection.remove method
+linktitle: remove method
+articleTitle: remove method
+second_title: Aspose.Words for Python
+description: "VbaModuleCollection.remove method. Removes the specified module from the collection."
 type: docs
 weight: 50
 url: /python-net/aspose.words.vba/vbamodulecollection/remove/

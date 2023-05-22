@@ -1,7 +1,9 @@
 ﻿---
 title: WarningSource enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the module that produces a warning during document loading or saving."
+linktitle: WarningSource enumeration
+articleTitle: WarningSource enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.WarningSource enumeration. Specifies the module that produces a warning during document loading or saving."
 type: docs
 weight: 1330
 url: /python-net/aspose.words/warningsource/

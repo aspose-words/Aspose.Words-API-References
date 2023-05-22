@@ -1,6 +1,9 @@
 ﻿---
 title: FieldUserAddress constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: FieldUserAddress constructor
+articleTitle: FieldUserAddress constructor
+second_title: Aspose.Words for Python
+description: "FieldUserAddress constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/fielduseraddress/__init__/

@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FolderFontSource class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents the folder that contains TrueType font files"
+linktitle: FolderFontSource class
+articleTitle: FolderFontSource class
+second_title: Aspose.Words for Python
+description: "aspose.words.fonts.FolderFontSource class. Represents the folder that contains TrueType font files"
 type: docs
 weight: 50
 url: /python-net/aspose.words.fonts/folderfontsource/

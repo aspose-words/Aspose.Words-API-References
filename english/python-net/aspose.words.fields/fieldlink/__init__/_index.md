@@ -1,6 +1,9 @@
 ﻿---
 title: FieldLink constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: FieldLink constructor
+articleTitle: FieldLink constructor
+second_title: Aspose.Words for Python
+description: "FieldLink constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/fieldlink/__init__/

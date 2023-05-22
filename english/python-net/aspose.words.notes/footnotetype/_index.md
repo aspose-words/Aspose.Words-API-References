@@ -1,7 +1,9 @@
 ﻿---
 title: FootnoteType enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies whether this is a footnote or an endnote."
+linktitle: FootnoteType enumeration
+articleTitle: FootnoteType enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.notes.FootnoteType enumeration. Specifies whether this is a footnote or an endnote."
 type: docs
 weight: 70
 url: /python-net/aspose.words.notes/footnotetype/

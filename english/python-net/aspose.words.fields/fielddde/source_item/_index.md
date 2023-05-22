@@ -1,7 +1,9 @@
 ﻿---
-title: source_item property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the portion of the source file that's being linked."
+title: FieldDde.source_item property
+linktitle: source_item property
+articleTitle: source_item property
+second_title: Aspose.Words for Python
+description: "FieldDde.source_item property. Gets or sets the portion of the source file that's being linked."
 type: docs
 weight: 120
 url: /python-net/aspose.words.fields/fielddde/source_item/

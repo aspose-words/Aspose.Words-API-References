@@ -1,7 +1,9 @@
 ﻿---
-title: image_stream property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to specify the stream where the image will be saved to."
+title: ImageSavingArgs.image_stream property
+linktitle: image_stream property
+articleTitle: image_stream property
+second_title: Aspose.Words for Python
+description: "ImageSavingArgs.image_stream property. Allows to specify the stream where the image will be saved to."
 type: docs
 weight: 40
 url: /python-net/aspose.words.saving/imagesavingargs/image_stream/

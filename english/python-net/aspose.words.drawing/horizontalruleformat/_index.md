@@ -1,7 +1,9 @@
 ﻿﻿---
 title: HorizontalRuleFormat class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents horizontal rule formatting"
+linktitle: HorizontalRuleFormat class
+articleTitle: HorizontalRuleFormat class
+second_title: Aspose.Words for Python
+description: "aspose.words.drawing.HorizontalRuleFormat class. Represents horizontal rule formatting"
 type: docs
 weight: 160
 url: /python-net/aspose.words.drawing/horizontalruleformat/

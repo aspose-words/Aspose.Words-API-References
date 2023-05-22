@@ -1,7 +1,9 @@
 ﻿---
 title: DocumentSplitCriteria enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies how the document is split into parts when saving to [SaveFormat.HTML](../../aspose.words/saveformat/#HTML), [SaveFormat.EPUB](../../aspose.words/saveformat/#EPUB) or [SaveFormat.AZW3](../../aspose.words/saveformat/#AZW3) format."
+linktitle: DocumentSplitCriteria enumeration
+articleTitle: DocumentSplitCriteria enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.saving.DocumentSplitCriteria enumeration. Specifies how the document is split into parts when saving to [SaveFormat.HTML](../../aspose.words/saveformat/#HTML), [SaveFormat.EPUB](../../aspose.words/saveformat/#EPUB) or [SaveFormat.AZW3](../../aspose.words/saveformat/#AZW3) format."
 type: docs
 weight: 120
 url: /python-net/aspose.words.saving/documentsplitcriteria/

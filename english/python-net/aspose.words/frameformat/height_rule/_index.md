@@ -1,7 +1,9 @@
 ﻿---
-title: height_rule property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the rule for determining the height of the specified frame."
+title: FrameFormat.height_rule property
+linktitle: height_rule property
+articleTitle: height_rule property
+second_title: Aspose.Words for Python
+description: "FrameFormat.height_rule property. Gets the rule for determining the height of the specified frame."
 type: docs
 weight: 20
 url: /python-net/aspose.words/frameformat/height_rule/

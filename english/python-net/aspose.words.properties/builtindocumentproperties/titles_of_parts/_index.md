@@ -1,7 +1,9 @@
 ﻿---
-title: titles_of_parts property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Each string in the array specifies the name of a part in the document."
+title: BuiltInDocumentProperties.titles_of_parts property
+linktitle: titles_of_parts property
+articleTitle: titles_of_parts property
+second_title: Aspose.Words for Python
+description: "BuiltInDocumentProperties.titles_of_parts property. Each string in the array specifies the name of a part in the document."
 type: docs
 weight: 300
 url: /python-net/aspose.words.properties/builtindocumentproperties/titles_of_parts/

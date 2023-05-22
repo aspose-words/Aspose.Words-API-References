@@ -1,7 +1,9 @@
 ﻿---
-title: is_strict_schema11 property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies whether export should correspond to ODT specification 1.1 strictly"
+title: OdtSaveOptions.is_strict_schema11 property
+linktitle: is_strict_schema11 property
+articleTitle: is_strict_schema11 property
+second_title: Aspose.Words for Python
+description: "OdtSaveOptions.is_strict_schema11 property. Specifies whether export should correspond to ODT specification 1.1 strictly"
 type: docs
 weight: 20
 url: /python-net/aspose.words.saving/odtsaveoptions/is_strict_schema11/

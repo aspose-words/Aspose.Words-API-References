@@ -1,7 +1,9 @@
 ﻿---
-title: xpath property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns the XPath expression, which is evaluated to find the custom XML node that is mapped to the parent structured document tag."
+title: XmlMapping.xpath property
+linktitle: xpath property
+articleTitle: xpath property
+second_title: Aspose.Words for Python
+description: "XmlMapping.xpath property. Returns the XPath expression, which is evaluated to find the custom XML node that is mapped to the parent structured document tag."
 type: docs
 weight: 50
 url: /python-net/aspose.words.markup/xmlmapping/xpath/

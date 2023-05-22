@@ -1,7 +1,9 @@
 ﻿---
-title: source_item property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a string that is used to identify the portion of the source file that is being linked."
+title: OleFormat.source_item property
+linktitle: source_item property
+articleTitle: source_item property
+second_title: Aspose.Words for Python
+description: "OleFormat.source_item property. Gets or sets a string that is used to identify the portion of the source file that is being linked."
 type: docs
 weight: 110
 url: /python-net/aspose.words.drawing/oleformat/source_item/

@@ -1,7 +1,9 @@
 ﻿---
-title: space_before property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the amount of spacing (in points) before the paragraph."
+title: ParagraphFormat.space_before property
+linktitle: space_before property
+articleTitle: space_before property
+second_title: Aspose.Words for Python
+description: "ParagraphFormat.space_before property. Gets or sets the amount of spacing (in points) before the paragraph."
 type: docs
 weight: 310
 url: /python-net/aspose.words/paragraphformat/space_before/

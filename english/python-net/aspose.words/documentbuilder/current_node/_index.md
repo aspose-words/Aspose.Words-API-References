@@ -1,7 +1,9 @@
 ﻿---
-title: current_node property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the node that is currently selected in this DocumentBuilder."
+title: DocumentBuilder.current_node property
+linktitle: current_node property
+articleTitle: current_node property
+second_title: Aspose.Words for Python
+description: "DocumentBuilder.current_node property. Gets the node that is currently selected in this DocumentBuilder."
 type: docs
 weight: 40
 url: /python-net/aspose.words/documentbuilder/current_node/

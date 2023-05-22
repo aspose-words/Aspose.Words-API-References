@@ -1,7 +1,9 @@
 ﻿---
-title: next_pre_order method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets next node according to the pre-order tree traversal algorithm."
+title: Node.next_pre_order method
+linktitle: next_pre_order method
+articleTitle: next_pre_order method
+second_title: Aspose.Words for Python
+description: "Node.next_pre_order method. Gets next node according to the pre-order tree traversal algorithm."
 type: docs
 weight: 460
 url: /python-net/aspose.words/node/next_pre_order/

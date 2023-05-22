@@ -1,7 +1,9 @@
 ﻿---
-title: as_structured_document_tag_range_end method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Cast node to [StructuredDocumentTagRangeEnd](../../../aspose.words.markup/structureddocumenttagrangeend/)."
+title: Node.as_structured_document_tag_range_end method
+linktitle: as_structured_document_tag_range_end method
+articleTitle: as_structured_document_tag_range_end method
+second_title: Aspose.Words for Python
+description: "Node.as_structured_document_tag_range_end method. Cast node to [StructuredDocumentTagRangeEnd](../../../aspose.words.markup/structureddocumenttagrangeend/)."
 type: docs
 weight: 390
 url: /python-net/aspose.words/node/as_structured_document_tag_range_end/

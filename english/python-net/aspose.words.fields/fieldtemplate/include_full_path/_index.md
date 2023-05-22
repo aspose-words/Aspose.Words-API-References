@@ -1,7 +1,9 @@
 ﻿---
-title: include_full_path property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets whether to include the full file path name."
+title: FieldTemplate.include_full_path property
+linktitle: include_full_path property
+articleTitle: include_full_path property
+second_title: Aspose.Words for Python
+description: "FieldTemplate.include_full_path property. Gets or sets whether to include the full file path name."
 type: docs
 weight: 20
 url: /python-net/aspose.words.fields/fieldtemplate/include_full_path/

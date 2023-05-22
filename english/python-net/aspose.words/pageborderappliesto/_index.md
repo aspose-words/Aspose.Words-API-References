@@ -1,7 +1,9 @@
 ﻿---
 title: PageBorderAppliesTo enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies which pages the page border is printed on."
+linktitle: PageBorderAppliesTo enumeration
+articleTitle: PageBorderAppliesTo enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.PageBorderAppliesTo enumeration. Specifies which pages the page border is printed on."
 type: docs
 weight: 790
 url: /python-net/aspose.words/pageborderappliesto/

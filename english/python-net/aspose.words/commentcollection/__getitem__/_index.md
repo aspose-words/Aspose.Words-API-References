@@ -1,7 +1,9 @@
 ﻿---
 title: CommentCollection indexer
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Retrieves a [Comment](../../comment/) at the given index."
+linktitle: CommentCollection indexer
+articleTitle: CommentCollection indexer
+second_title: Aspose.Words for Python
+description: "CommentCollection indexer. Retrieves a [Comment](../../comment/) at the given index."
 type: docs
 weight: 10
 url: /python-net/aspose.words/commentcollection/__getitem__/

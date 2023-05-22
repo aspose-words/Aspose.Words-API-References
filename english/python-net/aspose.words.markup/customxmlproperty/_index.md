@@ -1,7 +1,9 @@
 ﻿﻿---
 title: CustomXmlProperty class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a single custom XML attribute or a smart tag property"
+linktitle: CustomXmlProperty class
+articleTitle: CustomXmlProperty class
+second_title: Aspose.Words for Python
+description: "aspose.words.markup.CustomXmlProperty class. Represents a single custom XML attribute or a smart tag property"
 type: docs
 weight: 50
 url: /python-net/aspose.words.markup/customxmlproperty/

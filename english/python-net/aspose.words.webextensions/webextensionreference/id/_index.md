@@ -1,7 +1,9 @@
 ﻿---
-title: id property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Identifier associated with the web extension within a catalog provider."
+title: WebExtensionReference.id property
+linktitle: id property
+articleTitle: id property
+second_title: Aspose.Words for Python
+description: "WebExtensionReference.id property. Identifier associated with the web extension within a catalog provider."
 type: docs
 weight: 20
 url: /python-net/aspose.words.webextensions/webextensionreference/id/

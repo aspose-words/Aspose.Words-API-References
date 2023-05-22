@@ -1,7 +1,9 @@
 ﻿---
-title: export_page_margins property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies whether page margins is exported to HTML, MHTML or EPUB"
+title: HtmlSaveOptions.export_page_margins property
+linktitle: export_page_margins property
+articleTitle: export_page_margins property
+second_title: Aspose.Words for Python
+description: "HtmlSaveOptions.export_page_margins property. Specifies whether page margins is exported to HTML, MHTML or EPUB"
 type: docs
 weight: 220
 url: /python-net/aspose.words.saving/htmlsaveoptions/export_page_margins/

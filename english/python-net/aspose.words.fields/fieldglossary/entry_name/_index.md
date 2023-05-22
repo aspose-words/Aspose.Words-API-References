@@ -1,7 +1,9 @@
 ﻿---
-title: entry_name property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the name of the glossary entry to insert."
+title: FieldGlossary.entry_name property
+linktitle: entry_name property
+articleTitle: entry_name property
+second_title: Aspose.Words for Python
+description: "FieldGlossary.entry_name property. Gets or sets the name of the glossary entry to insert."
 type: docs
 weight: 20
 url: /python-net/aspose.words.fields/fieldglossary/entry_name/

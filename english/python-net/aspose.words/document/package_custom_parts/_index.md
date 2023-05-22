@@ -1,7 +1,9 @@
 ﻿---
-title: package_custom_parts property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the collection of custom parts (arbitrary content) that are linked to the OOXML package using unknown relationships."
+title: Document.package_custom_parts property
+linktitle: package_custom_parts property
+articleTitle: package_custom_parts property
+second_title: Aspose.Words for Python
+description: "Document.package_custom_parts property. Gets or sets the collection of custom parts (arbitrary content) that are linked to the OOXML package using unknown relationships."
 type: docs
 weight: 310
 url: /python-net/aspose.words/document/package_custom_parts/

@@ -1,7 +1,9 @@
 ﻿---
-title: set_unchecked_symbol method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Sets the symbol used to represent the unchecked state of a check box content control."
+title: StructuredDocumentTag.set_unchecked_symbol method
+linktitle: set_unchecked_symbol method
+articleTitle: set_unchecked_symbol method
+second_title: Aspose.Words for Python
+description: "StructuredDocumentTag.set_unchecked_symbol method. Sets the symbol used to represent the unchecked state of a check box content control."
 type: docs
 weight: 370
 url: /python-net/aspose.words.markup/structureddocumenttag/set_unchecked_symbol/

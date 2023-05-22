@@ -1,7 +1,9 @@
 ﻿---
-title: remove_at method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Removes a structured document tag at the specified index."
+title: StructuredDocumentTagCollection.remove_at method
+linktitle: remove_at method
+articleTitle: remove_at method
+second_title: Aspose.Words for Python
+description: "StructuredDocumentTagCollection.remove_at method. Removes a structured document tag at the specified index."
 type: docs
 weight: 70
 url: /python-net/aspose.words.markup/structureddocumenttagcollection/remove_at/

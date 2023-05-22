@@ -1,7 +1,9 @@
 ﻿---
-title: is_showing_placeholder_text property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies whether the content of this structured document tag shall be interpreted to contain placeholder text (as opposed to regular text contents within the structured document tag)."
+title: StructuredDocumentTagRangeStart.is_showing_placeholder_text property
+linktitle: is_showing_placeholder_text property
+articleTitle: is_showing_placeholder_text property
+second_title: Aspose.Words for Python
+description: "StructuredDocumentTagRangeStart.is_showing_placeholder_text property. Specifies whether the content of this structured document tag shall be interpreted to contain placeholder text (as opposed to regular text contents within the structured document tag)."
 type: docs
 weight: 50
 url: /python-net/aspose.words.markup/structureddocumenttagrangestart/is_showing_placeholder_text/

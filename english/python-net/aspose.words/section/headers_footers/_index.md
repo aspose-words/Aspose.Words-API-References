@@ -1,7 +1,9 @@
 ﻿---
-title: headers_footers property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides access to the headers and footers nodes of the section."
+title: Section.headers_footers property
+linktitle: headers_footers property
+articleTitle: headers_footers property
+second_title: Aspose.Words for Python
+description: "Section.headers_footers property. Provides access to the headers and footers nodes of the section."
 type: docs
 weight: 30
 url: /python-net/aspose.words/section/headers_footers/

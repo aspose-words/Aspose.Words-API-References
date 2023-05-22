@@ -1,7 +1,9 @@
 ﻿---
-title: allow_comments property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a value indicating that the signer can add comments in the Sign dialog"
+title: SignatureLine.allow_comments property
+linktitle: allow_comments property
+articleTitle: allow_comments property
+second_title: Aspose.Words for Python
+description: "SignatureLine.allow_comments property. Gets or sets a value indicating that the signer can add comments in the Sign dialog"
 type: docs
 weight: 10
 url: /python-net/aspose.words.drawing/signatureline/allow_comments/

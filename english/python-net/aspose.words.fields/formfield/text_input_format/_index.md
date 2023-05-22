@@ -1,7 +1,9 @@
 ﻿---
-title: text_input_format property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns or sets the text formatting for a text form field."
+title: FormField.text_input_format property
+linktitle: text_input_format property
+articleTitle: text_input_format property
+second_title: Aspose.Words for Python
+description: "FormField.text_input_format property. Returns or sets the text formatting for a text form field."
 type: docs
 weight: 200
 url: /python-net/aspose.words.fields/formfield/text_input_format/

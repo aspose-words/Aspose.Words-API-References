@@ -1,6 +1,8 @@
 ﻿---
-title: pixel_to_point method
-second_title: Aspose.Words for Python via .NET API Reference
+title: ConvertUtil.pixel_to_point method
+linktitle: pixel_to_point method
+articleTitle: pixel_to_point method
+second_title: Aspose.Words for Python
 description: "aspose.words.ConvertUtil.pixel_to_point method"
 type: docs
 weight: 40

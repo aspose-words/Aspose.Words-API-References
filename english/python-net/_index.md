@@ -1,10 +1,12 @@
 ﻿---
-title: Aspose.Words for Python via .NET
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Aspose.Words for Python via .NET API Reference"
+title: Aspose.Words for Python
+linktitle: Aspose.Words for Python
+articleTitle: Aspose.Words for Python
+description: "Aspose.Words is a class library that can be used by developers for various platforms for a variety of document processing tasks. "
 type: docs
 weight: 100
 url: /python-net/
+keywords: Aspose.Words for Python, Aspose Words, Aspose API Reference.
 is_root: true
 ---
 

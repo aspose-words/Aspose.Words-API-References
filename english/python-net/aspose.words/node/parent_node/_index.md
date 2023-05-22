@@ -1,7 +1,9 @@
 ﻿---
-title: parent_node property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the immediate parent of this node."
+title: Node.parent_node property
+linktitle: parent_node property
+articleTitle: parent_node property
+second_title: Aspose.Words for Python
+description: "Node.parent_node property. Gets the immediate parent of this node."
 type: docs
 weight: 60
 url: /python-net/aspose.words/node/parent_node/

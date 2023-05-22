@@ -1,7 +1,9 @@
 ﻿---
-title: get_entity method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns an opaque position of the [LayoutEnumerator](../../layoutenumerator/) which corresponds to the specified node"
+title: LayoutCollector.get_entity method
+linktitle: get_entity method
+articleTitle: get_entity method
+second_title: Aspose.Words for Python
+description: "LayoutCollector.get_entity method. Returns an opaque position of the [LayoutEnumerator](../../layoutenumerator/) which corresponds to the specified node"
 type: docs
 weight: 50
 url: /python-net/aspose.words.layout/layoutcollector/get_entity/

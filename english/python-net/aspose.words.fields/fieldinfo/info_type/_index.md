@@ -1,7 +1,9 @@
 ﻿---
-title: info_type property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the type of the document property to insert."
+title: FieldInfo.info_type property
+linktitle: info_type property
+articleTitle: info_type property
+second_title: Aspose.Words for Python
+description: "FieldInfo.info_type property. Gets or sets the type of the document property to insert."
 type: docs
 weight: 20
 url: /python-net/aspose.words.fields/fieldinfo/info_type/

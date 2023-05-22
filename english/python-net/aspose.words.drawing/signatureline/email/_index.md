@@ -1,7 +1,9 @@
 ﻿---
-title: email property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets suggested signer's e-mail address"
+title: SignatureLine.email property
+linktitle: email property
+articleTitle: email property
+second_title: Aspose.Words for Python
+description: "SignatureLine.email property. Gets or sets suggested signer's e-mail address"
 type: docs
 weight: 30
 url: /python-net/aspose.words.drawing/signatureline/email/

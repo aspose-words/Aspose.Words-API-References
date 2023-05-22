@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldGoToButton class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the GOTOBUTTON field"
+linktitle: FieldGoToButton class
+articleTitle: FieldGoToButton class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldGoToButton class. Implements the GOTOBUTTON field"
 type: docs
 weight: 510
 url: /python-net/aspose.words.fields/fieldgotobutton/

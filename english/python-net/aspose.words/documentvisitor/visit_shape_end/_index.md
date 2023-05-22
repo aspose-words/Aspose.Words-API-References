@@ -1,7 +1,9 @@
 ﻿---
-title: visit_shape_end method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Called when enumeration of a shape has ended."
+title: DocumentVisitor.visit_shape_end method
+linktitle: visit_shape_end method
+articleTitle: visit_shape_end method
+second_title: Aspose.Words for Python
+description: "DocumentVisitor.visit_shape_end method. Called when enumeration of a shape has ended."
 type: docs
 weight: 390
 url: /python-net/aspose.words/documentvisitor/visit_shape_end/

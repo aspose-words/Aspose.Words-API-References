@@ -1,7 +1,9 @@
 ﻿---
 title: SdtDateStorageFormat enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies how the date for a date SDT is stored/retrieved when the SDT is bound to an XML node in the document's data store."
+linktitle: SdtDateStorageFormat enumeration
+articleTitle: SdtDateStorageFormat enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.markup.SdtDateStorageFormat enumeration. Specifies how the date for a date SDT is stored/retrieved when the SDT is bound to an XML node in the document's data store."
 type: docs
 weight: 120
 url: /python-net/aspose.words.markup/sdtdatestorageformat/

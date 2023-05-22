@@ -1,7 +1,9 @@
 ﻿---
-title: digital_signatures property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the collection of digital signatures for this document and their validation results."
+title: Document.digital_signatures property
+linktitle: digital_signatures property
+articleTitle: digital_signatures property
+second_title: Aspose.Words for Python
+description: "Document.digital_signatures property. Gets the collection of digital signatures for this document and their validation results."
 type: docs
 weight: 100
 url: /python-net/aspose.words/document/digital_signatures/

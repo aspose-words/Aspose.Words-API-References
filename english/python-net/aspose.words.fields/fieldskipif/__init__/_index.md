@@ -1,6 +1,9 @@
 ﻿---
 title: FieldSkipIf constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: FieldSkipIf constructor
+articleTitle: FieldSkipIf constructor
+second_title: Aspose.Words for Python
+description: "FieldSkipIf constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/fieldskipif/__init__/

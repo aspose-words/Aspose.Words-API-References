@@ -1,7 +1,9 @@
 ﻿---
 title: ChartMultilevelValue class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a value for charts that display multilevel data."
+linktitle: ChartMultilevelValue class
+articleTitle: ChartMultilevelValue class
+second_title: Aspose.Words for Python
+description: "aspose.words.drawing.charts.ChartMultilevelValue class. Represents a value for charts that display multilevel data."
 type: docs
 weight: 250
 url: /python-net/aspose.words.drawing.charts/chartmultilevelvalue/

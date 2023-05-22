@@ -1,6 +1,9 @@
 ﻿---
 title: MailMergeSettings constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: MailMergeSettings constructor
+articleTitle: MailMergeSettings constructor
+second_title: Aspose.Words for Python
+description: "MailMergeSettings constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.settings/mailmergesettings/__init__/

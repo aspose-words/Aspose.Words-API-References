@@ -1,6 +1,9 @@
 ﻿---
 title: FieldAsk constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: FieldAsk constructor
+articleTitle: FieldAsk constructor
+second_title: Aspose.Words for Python
+description: "FieldAsk constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/fieldask/__init__/

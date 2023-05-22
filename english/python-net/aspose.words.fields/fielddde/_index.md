@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldDde class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the DDE field"
+linktitle: FieldDde class
+articleTitle: FieldDde class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldDde class. Implements the DDE field"
 type: docs
 weight: 320
 url: /python-net/aspose.words.fields/fielddde/

@@ -1,6 +1,9 @@
 ﻿---
 title: FieldFileName constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: FieldFileName constructor
+articleTitle: FieldFileName constructor
+second_title: Aspose.Words for Python
+description: "FieldFileName constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/fieldfilename/__init__/

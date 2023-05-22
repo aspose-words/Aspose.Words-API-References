@@ -1,7 +1,9 @@
 ﻿---
-title: size_in_points property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the actual size of the shape in points."
+title: NodeRendererBase.size_in_points property
+linktitle: size_in_points property
+articleTitle: size_in_points property
+second_title: Aspose.Words for Python
+description: "NodeRendererBase.size_in_points property. Gets the actual size of the shape in points."
 type: docs
 weight: 30
 url: /python-net/aspose.words.rendering/noderendererbase/size_in_points/

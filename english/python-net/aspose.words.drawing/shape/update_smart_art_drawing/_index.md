@@ -1,7 +1,9 @@
 ﻿---
-title: update_smart_art_drawing method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Updates SmartArt pre-rendered drawing by using Aspose.Words's SmartArt cold rendering engine."
+title: Shape.update_smart_art_drawing method
+linktitle: update_smart_art_drawing method
+articleTitle: update_smart_art_drawing method
+second_title: Aspose.Words for Python
+description: "Shape.update_smart_art_drawing method. Updates SmartArt pre-rendered drawing by using Aspose.Words's SmartArt cold rendering engine."
 type: docs
 weight: 250
 url: /python-net/aspose.words.drawing/shape/update_smart_art_drawing/

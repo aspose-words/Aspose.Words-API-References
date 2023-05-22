@@ -1,7 +1,9 @@
 ﻿---
 title: CustomXmlPartCollection indexer
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets an item at the specified index."
+linktitle: CustomXmlPartCollection indexer
+articleTitle: CustomXmlPartCollection indexer
+second_title: Aspose.Words for Python
+description: "CustomXmlPartCollection indexer. Gets or sets an item at the specified index."
 type: docs
 weight: 20
 url: /python-net/aspose.words.markup/customxmlpartcollection/__getitem__/

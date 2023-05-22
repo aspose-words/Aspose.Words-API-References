@@ -1,6 +1,8 @@
 ﻿﻿---
 title: aspose.words.fields module
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: aspose.words.fields module
+articleTitle: aspose.words.fields module
+second_title: Aspose.Words for Python
 description: "The aspose.words.fields module contains classes that represent Microsoft Word fields in a document."
 type: docs
 weight: 80

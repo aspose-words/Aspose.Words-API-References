@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldCreateDate class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the CREATEDATE field"
+linktitle: FieldCreateDate class
+articleTitle: FieldCreateDate class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldCreateDate class. Implements the CREATEDATE field"
 type: docs
 weight: 260
 url: /python-net/aspose.words.fields/fieldcreatedate/

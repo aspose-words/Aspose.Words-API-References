@@ -1,7 +1,9 @@
 ﻿---
-title: header_source property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the path to the mail-merge header source"
+title: MailMergeSettings.header_source property
+linktitle: header_source property
+articleTitle: header_source property
+second_title: Aspose.Words for Python
+description: "MailMergeSettings.header_source property. Specifies the path to the mail-merge header source"
 type: docs
 weight: 100
 url: /python-net/aspose.words.settings/mailmergesettings/header_source/

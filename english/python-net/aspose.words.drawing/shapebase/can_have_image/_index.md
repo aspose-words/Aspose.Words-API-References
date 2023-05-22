@@ -1,7 +1,9 @@
 ﻿---
-title: can_have_image property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns ``True`` if the shape type allows the shape to have an image."
+title: ShapeBase.can_have_image property
+linktitle: can_have_image property
+articleTitle: can_have_image property
+second_title: Aspose.Words for Python
+description: "ShapeBase.can_have_image property. Returns ``True`` if the shape type allows the shape to have an image."
 type: docs
 weight: 100
 url: /python-net/aspose.words.drawing/shapebase/can_have_image/

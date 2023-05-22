@@ -1,6 +1,9 @@
 ﻿---
 title: DigitalSignatureCollection constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: DigitalSignatureCollection constructor
+articleTitle: DigitalSignatureCollection constructor
+second_title: Aspose.Words for Python
+description: "DigitalSignatureCollection constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.digitalsignatures/digitalsignaturecollection/__init__/

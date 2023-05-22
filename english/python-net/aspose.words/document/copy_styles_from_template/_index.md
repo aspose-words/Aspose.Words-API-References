@@ -1,6 +1,8 @@
 ﻿---
-title: copy_styles_from_template method
-second_title: Aspose.Words for Python via .NET API Reference
+title: Document.copy_styles_from_template method
+linktitle: copy_styles_from_template method
+articleTitle: copy_styles_from_template method
+second_title: Aspose.Words for Python
 description: "aspose.words.Document.copy_styles_from_template method"
 type: docs
 weight: 570

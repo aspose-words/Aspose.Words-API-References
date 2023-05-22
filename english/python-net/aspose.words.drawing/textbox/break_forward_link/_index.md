@@ -1,7 +1,9 @@
 ﻿---
-title: break_forward_link method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Breaks the link to the next [TextBox](../)."
+title: TextBox.break_forward_link method
+linktitle: break_forward_link method
+articleTitle: break_forward_link method
+second_title: Aspose.Words for Python
+description: "TextBox.break_forward_link method. Breaks the link to the next [TextBox](../)."
 type: docs
 weight: 130
 url: /python-net/aspose.words.drawing/textbox/break_forward_link/

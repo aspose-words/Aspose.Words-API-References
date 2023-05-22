@@ -1,7 +1,9 @@
 ﻿---
 title: ComHelper constructor
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Initializes a new instance of this class."
+linktitle: ComHelper constructor
+articleTitle: ComHelper constructor
+second_title: Aspose.Words for Python
+description: "ComHelper constructor. Initializes a new instance of this class."
 type: docs
 weight: 10
 url: /python-net/aspose.words/comhelper/__init__/

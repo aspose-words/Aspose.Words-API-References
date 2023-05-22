@@ -1,7 +1,9 @@
 ﻿---
-title: add_copy method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Copies a style into this collection."
+title: StyleCollection.add_copy method
+linktitle: add_copy method
+articleTitle: add_copy method
+second_title: Aspose.Words for Python
+description: "StyleCollection.add_copy method. Copies a style into this collection."
 type: docs
 weight: 70
 url: /python-net/aspose.words/stylecollection/add_copy/

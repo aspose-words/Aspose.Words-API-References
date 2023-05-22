@@ -1,7 +1,9 @@
 ﻿---
-title: first_paragraph property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the first paragraph in the shape."
+title: Shape.first_paragraph property
+linktitle: first_paragraph property
+articleTitle: first_paragraph property
+second_title: Aspose.Words for Python
+description: "Shape.first_paragraph property. Gets the first paragraph in the shape."
 type: docs
 weight: 60
 url: /python-net/aspose.words.drawing/shape/first_paragraph/

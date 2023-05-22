@@ -1,7 +1,9 @@
 ﻿---
-title: position property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the position of the tab stop in points."
+title: TabStop.position property
+linktitle: position property
+articleTitle: position property
+second_title: Aspose.Words for Python
+description: "TabStop.position property. Gets the position of the tab stop in points."
 type: docs
 weight: 50
 url: /python-net/aspose.words/tabstop/position/

@@ -1,7 +1,9 @@
 ﻿---
-title: date_time_format property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a formatting that is applied to a date and time field result"
+title: FieldFormat.date_time_format property
+linktitle: date_time_format property
+articleTitle: date_time_format property
+second_title: Aspose.Words for Python
+description: "FieldFormat.date_time_format property. Gets or sets a formatting that is applied to a date and time field result"
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/fieldformat/date_time_format/

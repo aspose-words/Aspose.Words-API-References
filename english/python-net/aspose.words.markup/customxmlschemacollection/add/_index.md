@@ -1,7 +1,9 @@
 ﻿---
-title: add method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Adds an item to the collection."
+title: CustomXmlSchemaCollection.add method
+linktitle: add method
+articleTitle: add method
+second_title: Aspose.Words for Python
+description: "CustomXmlSchemaCollection.add method. Adds an item to the collection."
 type: docs
 weight: 30
 url: /python-net/aspose.words.markup/customxmlschemacollection/add/

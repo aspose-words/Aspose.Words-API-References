@@ -1,7 +1,9 @@
 ﻿---
-title: equals method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Determines whether the specified [PreferredWidth](../) is equal in value to the current [PreferredWidth](../)."
+title: PreferredWidth.equals method
+linktitle: equals method
+articleTitle: equals method
+second_title: Aspose.Words for Python
+description: "PreferredWidth.equals method. Determines whether the specified [PreferredWidth](../) is equal in value to the current [PreferredWidth](../)."
 type: docs
 weight: 40
 url: /python-net/aspose.words.tables/preferredwidth/equals/

@@ -1,7 +1,9 @@
 ﻿---
-title: source_full_name property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the path and name of the source file for the linked OLE object."
+title: OleFormat.source_full_name property
+linktitle: source_full_name property
+articleTitle: source_full_name property
+second_title: Aspose.Words for Python
+description: "OleFormat.source_full_name property. Gets or sets the path and name of the source file for the linked OLE object."
 type: docs
 weight: 100
 url: /python-net/aspose.words.drawing/oleformat/source_full_name/

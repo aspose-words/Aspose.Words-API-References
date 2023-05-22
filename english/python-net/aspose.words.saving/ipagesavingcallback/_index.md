@@ -1,7 +1,9 @@
 ﻿---
 title: IPageSavingCallback class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implement this interface if you want to control how Aspose.Words saves separate pages when  saving a document to fixed page formats."
+linktitle: IPageSavingCallback class
+articleTitle: IPageSavingCallback class
+second_title: Aspose.Words for Python
+description: "aspose.words.saving.IPageSavingCallback class. Implement this interface if you want to control how Aspose.Words saves separate pages when  saving a document to fixed page formats."
 type: docs
 weight: 330
 url: /python-net/aspose.words.saving/ipagesavingcallback/

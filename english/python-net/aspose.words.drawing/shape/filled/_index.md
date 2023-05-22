@@ -1,7 +1,9 @@
 ﻿---
-title: filled property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Determines whether the closed path of the shape will be filled."
+title: Shape.filled property
+linktitle: filled property
+articleTitle: filled property
+second_title: Aspose.Words for Python
+description: "Shape.filled property. Determines whether the closed path of the shape will be filled."
 type: docs
 weight: 50
 url: /python-net/aspose.words.drawing/shape/filled/

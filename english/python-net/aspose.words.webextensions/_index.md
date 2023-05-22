@@ -1,6 +1,8 @@
 ﻿﻿---
 title: aspose.words.webextensions module
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: aspose.words.webextensions module
+articleTitle: aspose.words.webextensions module
+second_title: Aspose.Words for Python
 description: "The aspose.words.webextensions module provides classes that allow to customize elements and attributes that extend the XML vocabulary for representing Office Add-ins."
 type: docs
 weight: 280

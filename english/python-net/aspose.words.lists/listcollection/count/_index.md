@@ -1,7 +1,9 @@
 ﻿---
-title: count property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the count of numbered and bulleted lists in the document."
+title: ListCollection.count property
+linktitle: count property
+articleTitle: count property
+second_title: Aspose.Words for Python
+description: "ListCollection.count property. Gets the count of numbered and bulleted lists in the document."
 type: docs
 weight: 20
 url: /python-net/aspose.words.lists/listcollection/count/

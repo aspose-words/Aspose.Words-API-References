@@ -1,6 +1,8 @@
 ﻿---
 title: GradientStop constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: GradientStop constructor
+articleTitle: GradientStop constructor
+second_title: Aspose.Words for Python
 description: "aspose.words.drawing.GradientStop constructor"
 type: docs
 weight: 10

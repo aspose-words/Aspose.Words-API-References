@@ -1,7 +1,9 @@
 ﻿---
-title: has_major_gridlines property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a flag indicating whether the axis has major gridlines."
+title: ChartAxis.has_major_gridlines property
+linktitle: has_major_gridlines property
+articleTitle: has_major_gridlines property
+second_title: Aspose.Words for Python
+description: "ChartAxis.has_major_gridlines property. Gets or sets a flag indicating whether the axis has major gridlines."
 type: docs
 weight: 80
 url: /python-net/aspose.words.drawing.charts/chartaxis/has_major_gridlines/

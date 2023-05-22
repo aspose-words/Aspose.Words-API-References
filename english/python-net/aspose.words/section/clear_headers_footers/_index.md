@@ -1,7 +1,9 @@
 ﻿---
-title: clear_headers_footers method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Clears the headers and footers of this section."
+title: Section.clear_headers_footers method
+linktitle: clear_headers_footers method
+articleTitle: clear_headers_footers method
+second_title: Aspose.Words for Python
+description: "Section.clear_headers_footers method. Clears the headers and footers of this section."
 type: docs
 weight: 100
 url: /python-net/aspose.words/section/clear_headers_footers/

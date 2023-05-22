@@ -1,7 +1,9 @@
 ﻿---
-title: load_noto_fallback_settings method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Loads predefined fallback settings which uses Google Noto fonts."
+title: FontFallbackSettings.load_noto_fallback_settings method
+linktitle: load_noto_fallback_settings method
+articleTitle: load_noto_fallback_settings method
+second_title: Aspose.Words for Python
+description: "FontFallbackSettings.load_noto_fallback_settings method. Loads predefined fallback settings which uses Google Noto fonts."
 type: docs
 weight: 40
 url: /python-net/aspose.words.fonts/fontfallbacksettings/load_noto_fallback_settings/

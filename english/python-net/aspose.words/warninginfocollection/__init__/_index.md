@@ -1,6 +1,9 @@
 ﻿---
 title: WarningInfoCollection constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: WarningInfoCollection constructor
+articleTitle: WarningInfoCollection constructor
+second_title: Aspose.Words for Python
+description: "WarningInfoCollection constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words/warninginfocollection/__init__/

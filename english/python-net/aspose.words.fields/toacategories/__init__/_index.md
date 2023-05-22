@@ -1,6 +1,9 @@
 ﻿---
 title: ToaCategories constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: ToaCategories constructor
+articleTitle: ToaCategories constructor
+second_title: Aspose.Words for Python
+description: "ToaCategories constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/toacategories/__init__/

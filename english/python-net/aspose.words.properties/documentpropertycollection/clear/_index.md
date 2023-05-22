@@ -1,7 +1,9 @@
 ﻿---
-title: clear method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Removes all properties from the collection."
+title: DocumentPropertyCollection.clear method
+linktitle: clear method
+articleTitle: clear method
+second_title: Aspose.Words for Python
+description: "DocumentPropertyCollection.clear method. Removes all properties from the collection."
 type: docs
 weight: 30
 url: /python-net/aspose.words.properties/documentpropertycollection/clear/

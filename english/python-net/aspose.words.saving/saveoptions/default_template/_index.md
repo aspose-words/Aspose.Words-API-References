@@ -1,7 +1,9 @@
 ﻿---
-title: default_template property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets path to default template (including filename)"
+title: SaveOptions.default_template property
+linktitle: default_template property
+articleTitle: default_template property
+second_title: Aspose.Words for Python
+description: "SaveOptions.default_template property. Gets or sets path to default template (including filename)"
 type: docs
 weight: 20
 url: /python-net/aspose.words.saving/saveoptions/default_template/

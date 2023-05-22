@@ -1,7 +1,9 @@
 ﻿﻿---
 title: PdfLoadOptions class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to specify additional options when loading Pdf document into a [Document](../../aspose.words/document/) object"
+linktitle: PdfLoadOptions class
+articleTitle: PdfLoadOptions class
+second_title: Aspose.Words for Python
+description: "aspose.words.loading.PdfLoadOptions class. Allows to specify additional options when loading Pdf document into a [Document](../../aspose.words/document/) object"
 type: docs
 weight: 120
 url: /python-net/aspose.words.loading/pdfloadoptions/

@@ -1,7 +1,9 @@
 ﻿---
-title: images_folder property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the physical folder where images are saved when exporting a document to HTML format"
+title: HtmlSaveOptions.images_folder property
+linktitle: images_folder property
+articleTitle: images_folder property
+second_title: Aspose.Words for Python
+description: "HtmlSaveOptions.images_folder property. Specifies the physical folder where images are saved when exporting a document to HTML format"
 type: docs
 weight: 370
 url: /python-net/aspose.words.saving/htmlsaveoptions/images_folder/

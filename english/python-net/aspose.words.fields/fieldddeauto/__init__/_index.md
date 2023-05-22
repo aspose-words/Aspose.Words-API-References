@@ -1,6 +1,9 @@
 ﻿---
 title: FieldDdeAuto constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: FieldDdeAuto constructor
+articleTitle: FieldDdeAuto constructor
+second_title: Aspose.Words for Python
+description: "FieldDdeAuto constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/fieldddeauto/__init__/

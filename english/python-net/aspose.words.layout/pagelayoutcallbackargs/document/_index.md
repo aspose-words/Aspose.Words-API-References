@@ -1,7 +1,9 @@
 ﻿---
-title: document property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets document."
+title: PageLayoutCallbackArgs.document property
+linktitle: document property
+articleTitle: document property
+second_title: Aspose.Words for Python
+description: "PageLayoutCallbackArgs.document property. Gets document."
 type: docs
 weight: 10
 url: /python-net/aspose.words.layout/pagelayoutcallbackargs/document/

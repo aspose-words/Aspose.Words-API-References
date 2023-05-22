@@ -1,7 +1,9 @@
 ﻿---
-title: remove_all_replies method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Removes all replies to this comment."
+title: Comment.remove_all_replies method
+linktitle: remove_all_replies method
+articleTitle: remove_all_replies method
+second_title: Aspose.Words for Python
+description: "Comment.remove_all_replies method. Removes all replies to this comment."
 type: docs
 weight: 130
 url: /python-net/aspose.words/comment/remove_all_replies/

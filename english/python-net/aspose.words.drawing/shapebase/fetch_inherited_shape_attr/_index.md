@@ -1,7 +1,9 @@
 ﻿---
-title: fetch_inherited_shape_attr method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Reserved for system use"
+title: ShapeBase.fetch_inherited_shape_attr method
+linktitle: fetch_inherited_shape_attr method
+articleTitle: fetch_inherited_shape_attr method
+second_title: Aspose.Words for Python
+description: "ShapeBase.fetch_inherited_shape_attr method. Reserved for system use"
 type: docs
 weight: 630
 url: /python-net/aspose.words.drawing/shapebase/fetch_inherited_shape_attr/

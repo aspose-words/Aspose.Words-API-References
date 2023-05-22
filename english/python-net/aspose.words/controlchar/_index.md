@@ -1,7 +1,9 @@
 ﻿﻿---
 title: ControlChar class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Control characters often encountered in documents"
+linktitle: ControlChar class
+articleTitle: ControlChar class
+second_title: Aspose.Words for Python
+description: "aspose.words.ControlChar class. Control characters often encountered in documents"
 type: docs
 weight: 250
 url: /python-net/aspose.words/controlchar/

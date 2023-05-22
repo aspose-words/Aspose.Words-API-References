@@ -1,6 +1,9 @@
 ﻿---
 title: OdsoFieldMapDataCollection constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: OdsoFieldMapDataCollection constructor
+articleTitle: OdsoFieldMapDataCollection constructor
+second_title: Aspose.Words for Python
+description: "OdsoFieldMapDataCollection constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.settings/odsofieldmapdatacollection/__init__/

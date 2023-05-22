@@ -1,7 +1,9 @@
 ﻿---
-title: position property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the endnotes position."
+title: EndnoteOptions.position property
+linktitle: position property
+articleTitle: position property
+second_title: Aspose.Words for Python
+description: "EndnoteOptions.position property. Specifies the endnotes position."
 type: docs
 weight: 20
 url: /python-net/aspose.words.notes/endnoteoptions/position/

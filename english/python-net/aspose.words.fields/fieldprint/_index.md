@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldPrint class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the PRINT field"
+linktitle: FieldPrint class
+articleTitle: FieldPrint class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldPrint class. Implements the PRINT field"
 type: docs
 weight: 820
 url: /python-net/aspose.words.fields/fieldprint/

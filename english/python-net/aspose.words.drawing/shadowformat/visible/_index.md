@@ -1,7 +1,9 @@
 ﻿---
-title: visible property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns ``True`` if the formatting applied to this instance is visible."
+title: ShadowFormat.visible property
+linktitle: visible property
+articleTitle: visible property
+second_title: Aspose.Words for Python
+description: "ShadowFormat.visible property. Returns ``True`` if the formatting applied to this instance is visible."
 type: docs
 weight: 20
 url: /python-net/aspose.words.drawing/shadowformat/visible/

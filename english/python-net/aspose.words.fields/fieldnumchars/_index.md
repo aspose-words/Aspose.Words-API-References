@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldNumChars class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the NUMCHARS field"
+linktitle: FieldNumChars class
+articleTitle: FieldNumChars class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldNumChars class. Implements the NUMCHARS field"
 type: docs
 weight: 750
 url: /python-net/aspose.words.fields/fieldnumchars/

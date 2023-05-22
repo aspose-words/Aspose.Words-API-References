@@ -1,7 +1,9 @@
 ﻿---
-title: is_linked property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets whether to reduce the file size by not storing graphics data with the document."
+title: FieldIncludePicture.is_linked property
+linktitle: is_linked property
+articleTitle: is_linked property
+second_title: Aspose.Words for Python
+description: "FieldIncludePicture.is_linked property. Gets or sets whether to reduce the file size by not storing graphics data with the document."
 type: docs
 weight: 30
 url: /python-net/aspose.words.fields/fieldincludepicture/is_linked/

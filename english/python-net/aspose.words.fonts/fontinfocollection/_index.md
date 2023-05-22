@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FontInfoCollection class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a collection of fonts used in a document"
+linktitle: FontInfoCollection class
+articleTitle: FontInfoCollection class
+second_title: Aspose.Words for Python
+description: "aspose.words.fonts.FontInfoCollection class. Represents a collection of fonts used in a document"
 type: docs
 weight: 100
 url: /python-net/aspose.words.fonts/fontinfocollection/

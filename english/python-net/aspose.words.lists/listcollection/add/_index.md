@@ -1,6 +1,8 @@
 ﻿---
-title: add method
-second_title: Aspose.Words for Python via .NET API Reference
+title: ListCollection.add method
+linktitle: add method
+articleTitle: add method
+second_title: Aspose.Words for Python
 description: "aspose.words.lists.ListCollection.add method"
 type: docs
 weight: 40

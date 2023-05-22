@@ -1,7 +1,9 @@
 ﻿---
-title: clear method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Removes all nodes from this collection and from the document."
+title: NodeCollection.clear method
+linktitle: clear method
+articleTitle: clear method
+second_title: Aspose.Words for Python
+description: "NodeCollection.clear method. Removes all nodes from this collection and from the document."
 type: docs
 weight: 40
 url: /python-net/aspose.words/nodecollection/clear/

@@ -1,7 +1,9 @@
 ﻿---
-title: another_source_tag property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a value that mathes the Tag element's value of another source to be included in the citation."
+title: FieldCitation.another_source_tag property
+linktitle: another_source_tag property
+articleTitle: another_source_tag property
+second_title: Aspose.Words for Python
+description: "FieldCitation.another_source_tag property. Gets or sets a value that mathes the Tag element's value of another source to be included in the citation."
 type: docs
 weight: 20
 url: /python-net/aspose.words.fields/fieldcitation/another_source_tag/

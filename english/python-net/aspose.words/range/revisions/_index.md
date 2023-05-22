@@ -1,7 +1,9 @@
 ﻿---
-title: revisions property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets a collection of revisions (tracked changes) that exist in this range."
+title: Range.revisions property
+linktitle: revisions property
+articleTitle: revisions property
+second_title: Aspose.Words for Python
+description: "Range.revisions property. Gets a collection of revisions (tracked changes) that exist in this range."
 type: docs
 weight: 40
 url: /python-net/aspose.words/range/revisions/

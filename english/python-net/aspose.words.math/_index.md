@@ -1,6 +1,8 @@
 ﻿﻿---
 title: aspose.words.math module
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: aspose.words.math module
+articleTitle: aspose.words.math module
+second_title: Aspose.Words for Python
 description: "The aspose.words.math module contains classes that represent Office Math elements."
 type: docs
 weight: 160

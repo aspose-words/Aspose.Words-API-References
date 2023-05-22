@@ -1,7 +1,9 @@
 ﻿---
-title: major_tick_mark property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns or sets the major tick marks."
+title: ChartAxis.major_tick_mark property
+linktitle: major_tick_mark property
+articleTitle: major_tick_mark property
+second_title: Aspose.Words for Python
+description: "ChartAxis.major_tick_mark property. Returns or sets the major tick marks."
 type: docs
 weight: 110
 url: /python-net/aspose.words.drawing.charts/chartaxis/major_tick_mark/

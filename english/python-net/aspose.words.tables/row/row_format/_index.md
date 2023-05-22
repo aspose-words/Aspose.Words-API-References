@@ -1,7 +1,9 @@
 ﻿---
-title: row_format property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides access to the formatting properties of the row."
+title: Row.row_format property
+linktitle: row_format property
+articleTitle: row_format property
+second_title: Aspose.Words for Python
+description: "Row.row_format property. Provides access to the formatting properties of the row."
 type: docs
 weight: 90
 url: /python-net/aspose.words.tables/row/row_format/

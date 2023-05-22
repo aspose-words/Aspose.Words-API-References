@@ -1,7 +1,9 @@
 ﻿---
-title: fit_path property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Defines whether the text fits the path of a shape."
+title: TextPath.fit_path property
+linktitle: fit_path property
+articleTitle: fit_path property
+second_title: Aspose.Words for Python
+description: "TextPath.fit_path property. Defines whether the text fits the path of a shape."
 type: docs
 weight: 20
 url: /python-net/aspose.words.drawing/textpath/fit_path/

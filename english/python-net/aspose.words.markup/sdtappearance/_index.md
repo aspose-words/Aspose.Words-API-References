@@ -1,7 +1,9 @@
 ﻿---
 title: SdtAppearance enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the appearance of a structured document tag."
+linktitle: SdtAppearance enumeration
+articleTitle: SdtAppearance enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.markup.SdtAppearance enumeration. Specifies the appearance of a structured document tag."
 type: docs
 weight: 100
 url: /python-net/aspose.words.markup/sdtappearance/

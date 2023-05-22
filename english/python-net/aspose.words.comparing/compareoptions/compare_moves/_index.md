@@ -1,7 +1,9 @@
 ﻿---
-title: compare_moves property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies whether to compare differences in Aspose.Words.Revisions.MoveRevision between the two documents"
+title: CompareOptions.compare_moves property
+linktitle: compare_moves property
+articleTitle: compare_moves property
+second_title: Aspose.Words for Python
+description: "CompareOptions.compare_moves property. Specifies whether to compare differences in Aspose.Words.Revisions.MoveRevision between the two documents"
 type: docs
 weight: 20
 url: /python-net/aspose.words.comparing/compareoptions/compare_moves/

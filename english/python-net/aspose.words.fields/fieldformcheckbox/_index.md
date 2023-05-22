@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldFormCheckBox class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the FORMCHECKBOX field"
+linktitle: FieldFormCheckBox class
+articleTitle: FieldFormCheckBox class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldFormCheckBox class. Implements the FORMCHECKBOX field"
 type: docs
 weight: 450
 url: /python-net/aspose.words.fields/fieldformcheckbox/

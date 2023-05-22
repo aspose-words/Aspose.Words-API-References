@@ -1,7 +1,9 @@
 ﻿---
-title: true_text property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the text displayed if the comparison expression is true."
+title: FieldIf.true_text property
+linktitle: true_text property
+articleTitle: true_text property
+second_title: Aspose.Words for Python
+description: "FieldIf.true_text property. Gets or sets the text displayed if the comparison expression is true."
 type: docs
 weight: 60
 url: /python-net/aspose.words.fields/fieldif/true_text/

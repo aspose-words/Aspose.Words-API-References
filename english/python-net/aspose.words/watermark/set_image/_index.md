@@ -1,7 +1,9 @@
 ﻿---
-title: set_image method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Adds Image watermark into the document."
+title: Watermark.set_image method
+linktitle: set_image method
+articleTitle: set_image method
+second_title: Aspose.Words for Python
+description: "Watermark.set_image method. Adds Image watermark into the document."
 type: docs
 weight: 30
 url: /python-net/aspose.words/watermark/set_image/

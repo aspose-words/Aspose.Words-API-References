@@ -1,7 +1,9 @@
 ﻿---
-title: name property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the name of the font."
+title: Font.name property
+linktitle: name property
+articleTitle: name property
+second_title: Aspose.Words for Python
+description: "Font.name property. Gets or sets the name of the font."
 type: docs
 weight: 230
 url: /python-net/aspose.words/font/name/

@@ -1,7 +1,9 @@
 ﻿---
 title: Cluster constructor
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Initializes new instance of this class."
+linktitle: Cluster constructor
+articleTitle: Cluster constructor
+second_title: Aspose.Words for Python
+description: "Cluster constructor. Initializes new instance of this class."
 type: docs
 weight: 10
 url: /python-net/aspose.words.shaping/cluster/__init__/

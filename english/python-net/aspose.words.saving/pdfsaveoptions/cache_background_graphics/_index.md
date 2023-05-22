@@ -1,7 +1,9 @@
 ﻿---
-title: cache_background_graphics property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a value determining whether or not to cache graphics placed in document's background."
+title: PdfSaveOptions.cache_background_graphics property
+linktitle: cache_background_graphics property
+articleTitle: cache_background_graphics property
+second_title: Aspose.Words for Python
+description: "PdfSaveOptions.cache_background_graphics property. Gets or sets a value determining whether or not to cache graphics placed in document's background."
 type: docs
 weight: 30
 url: /python-net/aspose.words.saving/pdfsaveoptions/cache_background_graphics/

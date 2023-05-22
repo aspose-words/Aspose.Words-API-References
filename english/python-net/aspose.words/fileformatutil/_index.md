@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FileFormatUtil class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides utility methods for working with file formats, such as detecting file format  or converting file extensions to/from file format enums"
+linktitle: FileFormatUtil class
+articleTitle: FileFormatUtil class
+second_title: Aspose.Words for Python
+description: "aspose.words.FileFormatUtil class. Provides utility methods for working with file formats, such as detecting file format  or converting file extensions to/from file format enums"
 type: docs
 weight: 400
 url: /python-net/aspose.words/fileformatutil/

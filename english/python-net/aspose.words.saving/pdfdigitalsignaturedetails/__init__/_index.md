@@ -1,6 +1,8 @@
 ﻿---
 title: PdfDigitalSignatureDetails constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: PdfDigitalSignatureDetails constructor
+articleTitle: PdfDigitalSignatureDetails constructor
+second_title: Aspose.Words for Python
 description: "aspose.words.saving.PdfDigitalSignatureDetails constructor"
 type: docs
 weight: 10

@@ -1,7 +1,9 @@
 ﻿---
-title: panose property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the PANOSE typeface classification number."
+title: FontInfo.panose property
+linktitle: panose property
+articleTitle: panose property
+second_title: Aspose.Words for Python
+description: "FontInfo.panose property. Gets or sets the PANOSE typeface classification number."
 type: docs
 weight: 60
 url: /python-net/aspose.words.fonts/fontinfo/panose/

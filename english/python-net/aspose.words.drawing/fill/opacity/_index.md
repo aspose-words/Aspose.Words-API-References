@@ -1,7 +1,9 @@
 ﻿---
-title: opacity property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the degree of opacity of the specified fill as a value between 0.0 (clear) and 1.0 (opaque)."
+title: Fill.opacity property
+linktitle: opacity property
+articleTitle: opacity property
+second_title: Aspose.Words for Python
+description: "Fill.opacity property. Gets or sets the degree of opacity of the specified fill as a value between 0.0 (clear) and 1.0 (opaque)."
 type: docs
 weight: 150
 url: /python-net/aspose.words.drawing/fill/opacity/

@@ -1,7 +1,9 @@
 ﻿---
 title: TableAlignment enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies alignment for an inline table."
+linktitle: TableAlignment enumeration
+articleTitle: TableAlignment enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.tables.TableAlignment enumeration. Specifies alignment for an inline table."
 type: docs
 weight: 130
 url: /python-net/aspose.words.tables/tablealignment/

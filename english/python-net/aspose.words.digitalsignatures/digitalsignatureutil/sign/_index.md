@@ -1,6 +1,8 @@
 ﻿---
-title: sign method
-second_title: Aspose.Words for Python via .NET API Reference
+title: DigitalSignatureUtil.sign method
+linktitle: sign method
+articleTitle: sign method
+second_title: Aspose.Words for Python
 description: "aspose.words.digitalsignatures.DigitalSignatureUtil.sign method"
 type: docs
 weight: 30

@@ -1,7 +1,9 @@
 ﻿---
-title: back_tint_and_shade property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a double value that lightens or darkens the background color."
+title: Fill.back_tint_and_shade property
+linktitle: back_tint_and_shade property
+articleTitle: back_tint_and_shade property
+second_title: Aspose.Words for Python
+description: "Fill.back_tint_and_shade property. Gets or sets a double value that lightens or darkens the background color."
 type: docs
 weight: 30
 url: /python-net/aspose.words.drawing/fill/back_tint_and_shade/

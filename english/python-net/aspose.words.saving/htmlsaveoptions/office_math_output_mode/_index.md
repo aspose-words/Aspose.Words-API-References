@@ -1,7 +1,9 @@
 ﻿---
-title: office_math_output_mode property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Controls how OfficeMath objects are exported to HTML, MHTML or EPUB"
+title: HtmlSaveOptions.office_math_output_mode property
+linktitle: office_math_output_mode property
+articleTitle: office_math_output_mode property
+second_title: Aspose.Words for Python
+description: "HtmlSaveOptions.office_math_output_mode property. Controls how OfficeMath objects are exported to HTML, MHTML or EPUB"
 type: docs
 weight: 400
 url: /python-net/aspose.words.saving/htmlsaveoptions/office_math_output_mode/

@@ -1,7 +1,9 @@
 ﻿---
 title: MathObjectType enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies type of an Office Math object."
+linktitle: MathObjectType enumeration
+articleTitle: MathObjectType enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.math.MathObjectType enumeration. Specifies type of an Office Math object."
 type: docs
 weight: 10
 url: /python-net/aspose.words.math/mathobjecttype/

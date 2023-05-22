@@ -1,7 +1,9 @@
 ﻿---
-title: hyphenation_options property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides access to document hyphenation options."
+title: Document.hyphenation_options property
+linktitle: hyphenation_options property
+articleTitle: hyphenation_options property
+second_title: Aspose.Words for Python
+description: "Document.hyphenation_options property. Provides access to document hyphenation options."
 type: docs
 weight: 210
 url: /python-net/aspose.words/document/hyphenation_options/

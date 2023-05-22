@@ -1,7 +1,9 @@
 ﻿---
-title: SECTION_BREAK property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "End of section character: \\x000c or \\f"
+title: ControlChar.SECTION_BREAK property
+linktitle: SECTION_BREAK property
+articleTitle: SECTION_BREAK property
+second_title: Aspose.Words for Python
+description: "ControlChar.SECTION_BREAK property. End of section character: \\x000c or \\f"
 type: docs
 weight: 240
 url: /python-net/aspose.words/controlchar/SECTION_BREAK/

@@ -1,7 +1,9 @@
 ﻿---
-title: reason property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the reason for the signing."
+title: PdfDigitalSignatureDetails.reason property
+linktitle: reason property
+articleTitle: reason property
+second_title: Aspose.Words for Python
+description: "PdfDigitalSignatureDetails.reason property. Gets or sets the reason for the signing."
 type: docs
 weight: 50
 url: /python-net/aspose.words.saving/pdfdigitalsignaturedetails/reason/

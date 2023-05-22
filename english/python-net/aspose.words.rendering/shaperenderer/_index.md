@@ -1,7 +1,9 @@
 ﻿﻿---
 title: ShapeRenderer class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides methods to render an individual [Shape](../../aspose.words.drawing/shape/) or [GroupShape](../../aspose.words.drawing/groupshape/)  to a raster or vector image or to a Graphics object"
+linktitle: ShapeRenderer class
+articleTitle: ShapeRenderer class
+second_title: Aspose.Words for Python
+description: "aspose.words.rendering.ShapeRenderer class. Provides methods to render an individual [Shape](../../aspose.words.drawing/shape/) or [GroupShape](../../aspose.words.drawing/groupshape/)  to a raster or vector image or to a Graphics object"
 type: docs
 weight: 40
 url: /python-net/aspose.words.rendering/shaperenderer/

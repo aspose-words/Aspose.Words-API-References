@@ -1,7 +1,9 @@
 ﻿---
-title: is_image_available property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns ``True`` if the current image is available for export."
+title: ImageSavingArgs.is_image_available property
+linktitle: is_image_available property
+articleTitle: is_image_available property
+second_title: Aspose.Words for Python
+description: "ImageSavingArgs.is_image_available property. Returns ``True`` if the current image is available for export."
 type: docs
 weight: 50
 url: /python-net/aspose.words.saving/imagesavingargs/is_image_available/

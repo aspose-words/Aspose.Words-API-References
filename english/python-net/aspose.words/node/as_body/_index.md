@@ -1,7 +1,9 @@
 ﻿---
-title: as_body method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Cast node to [Body](../../body/)."
+title: Node.as_body method
+linktitle: as_body method
+articleTitle: as_body method
+second_title: Aspose.Words for Python
+description: "Node.as_body method. Cast node to [Body](../../body/)."
 type: docs
 weight: 100
 url: /python-net/aspose.words/node/as_body/

@@ -1,7 +1,9 @@
 ﻿﻿---
 title: SignOptions class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to specify options for document signing"
+linktitle: SignOptions class
+articleTitle: SignOptions class
+second_title: Aspose.Words for Python
+description: "aspose.words.digitalsignatures.SignOptions class. Allows to specify options for document signing"
 type: docs
 weight: 60
 url: /python-net/aspose.words.digitalsignatures/signoptions/

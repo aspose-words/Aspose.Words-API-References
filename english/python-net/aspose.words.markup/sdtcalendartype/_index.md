@@ -1,7 +1,9 @@
 ﻿---
 title: SdtCalendarType enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the possible types of calendars which can be used to specify [StructuredDocumentTag.calendar_type](../structureddocumenttag/calendar_type/) in an Office Open XML document."
+linktitle: SdtCalendarType enumeration
+articleTitle: SdtCalendarType enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.markup.SdtCalendarType enumeration. Specifies the possible types of calendars which can be used to specify [StructuredDocumentTag.calendar_type](../structureddocumenttag/calendar_type/) in an Office Open XML document."
 type: docs
 weight: 110
 url: /python-net/aspose.words.markup/sdtcalendartype/

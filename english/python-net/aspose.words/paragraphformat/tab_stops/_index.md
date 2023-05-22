@@ -1,7 +1,9 @@
 ﻿---
-title: tab_stops property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the collection of custom tab stops defined for this object."
+title: ParagraphFormat.tab_stops property
+linktitle: tab_stops property
+articleTitle: tab_stops property
+second_title: Aspose.Words for Python
+description: "ParagraphFormat.tab_stops property. Gets the collection of custom tab stops defined for this object."
 type: docs
 weight: 380
 url: /python-net/aspose.words/paragraphformat/tab_stops/

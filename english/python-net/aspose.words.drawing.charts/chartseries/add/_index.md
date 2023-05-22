@@ -1,6 +1,8 @@
 ﻿---
-title: add method
-second_title: Aspose.Words for Python via .NET API Reference
+title: ChartSeries.add method
+linktitle: add method
+articleTitle: add method
+second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.ChartSeries.add method"
 type: docs
 weight: 160

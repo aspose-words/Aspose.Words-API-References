@@ -1,7 +1,9 @@
 ﻿---
-title: crosses_at property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies where on the perpendicular axis the axis crosses."
+title: ChartAxis.crosses_at property
+linktitle: crosses_at property
+articleTitle: crosses_at property
+second_title: Aspose.Words for Python
+description: "ChartAxis.crosses_at property. Specifies where on the perpendicular axis the axis crosses."
 type: docs
 weight: 50
 url: /python-net/aspose.words.drawing.charts/chartaxis/crosses_at/

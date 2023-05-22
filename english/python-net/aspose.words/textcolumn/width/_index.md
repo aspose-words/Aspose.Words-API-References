@@ -1,7 +1,9 @@
 ﻿---
-title: width property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the width of the text column in points."
+title: TextColumn.width property
+linktitle: width property
+articleTitle: width property
+second_title: Aspose.Words for Python
+description: "TextColumn.width property. Gets or sets the width of the text column in points."
 type: docs
 weight: 20
 url: /python-net/aspose.words/textcolumn/width/

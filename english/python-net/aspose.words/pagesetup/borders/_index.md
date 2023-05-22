@@ -1,7 +1,9 @@
 ﻿---
-title: borders property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets a collection of the page borders."
+title: PageSetup.borders property
+linktitle: borders property
+articleTitle: borders property
+second_title: Aspose.Words for Python
+description: "PageSetup.borders property. Gets a collection of the page borders."
 type: docs
 weight: 70
 url: /python-net/aspose.words/pagesetup/borders/

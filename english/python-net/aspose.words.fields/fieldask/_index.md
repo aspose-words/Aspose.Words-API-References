@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldAsk class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the ASK field"
+linktitle: FieldAsk class
+articleTitle: FieldAsk class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldAsk class. Implements the ASK field"
 type: docs
 weight: 100
 url: /python-net/aspose.words.fields/fieldask/

@@ -1,7 +1,9 @@
 ﻿﻿---
 title: Body class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a container for the main text of a section"
+linktitle: Body class
+articleTitle: Body class
+second_title: Aspose.Words for Python
+description: "aspose.words.Body class. Represents a container for the main text of a section"
 type: docs
 weight: 20
 url: /python-net/aspose.words/body/

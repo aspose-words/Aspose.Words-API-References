@@ -1,7 +1,9 @@
 ﻿---
-title: update_list_labels method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Updates list labels for all list items in the document."
+title: Document.update_list_labels method
+linktitle: update_list_labels method
+articleTitle: update_list_labels method
+second_title: Aspose.Words for Python
+description: "Document.update_list_labels method. Updates list labels for all list items in the document."
 type: docs
 weight: 730
 url: /python-net/aspose.words/document/update_list_labels/

@@ -1,7 +1,9 @@
 ﻿---
-title: replies property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns a collection of [Comment](../) objects that are immediate children of the specified comment."
+title: Comment.replies property
+linktitle: replies property
+articleTitle: replies property
+second_title: Aspose.Words for Python
+description: "Comment.replies property. Returns a collection of [Comment](../) objects that are immediate children of the specified comment."
 type: docs
 weight: 90
 url: /python-net/aspose.words/comment/replies/

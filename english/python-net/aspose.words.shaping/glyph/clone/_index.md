@@ -1,7 +1,9 @@
 ﻿---
-title: clone method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns a clone of this instance."
+title: Glyph.clone method
+linktitle: clone method
+articleTitle: clone method
+second_title: Aspose.Words for Python
+description: "Glyph.clone method. Returns a clone of this instance."
 type: docs
 weight: 60
 url: /python-net/aspose.words.shaping/glyph/clone/

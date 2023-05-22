@@ -1,7 +1,9 @@
 ﻿---
-title: move_next method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Moves to the next sibling entity in visual order."
+title: LayoutEnumerator.move_next method
+linktitle: move_next method
+articleTitle: move_next method
+second_title: Aspose.Words for Python
+description: "LayoutEnumerator.move_next method. Moves to the next sibling entity in visual order."
 type: docs
 weight: 110
 url: /python-net/aspose.words.layout/layoutenumerator/move_next/

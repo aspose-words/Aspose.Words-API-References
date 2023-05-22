@@ -1,7 +1,9 @@
 ﻿---
-title: use_passim property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets whether to replace five or more different page references to the same authority with passim, which is used to indicate that a word or passage occurs frequently in the work cited."
+title: FieldToa.use_passim property
+linktitle: use_passim property
+articleTitle: use_passim property
+second_title: Aspose.Words for Python
+description: "FieldToa.use_passim property. Gets or sets whether to replace five or more different page references to the same authority with passim, which is used to indicate that a word or passage occurs frequently in the work cited."
 type: docs
 weight: 110
 url: /python-net/aspose.words.fields/fieldtoa/use_passim/

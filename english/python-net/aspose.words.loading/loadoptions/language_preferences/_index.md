@@ -1,7 +1,9 @@
 ﻿---
-title: language_preferences property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets language preferences that will be used when document is loading."
+title: LoadOptions.language_preferences property
+linktitle: language_preferences property
+articleTitle: language_preferences property
+second_title: Aspose.Words for Python
+description: "LoadOptions.language_preferences property. Gets language preferences that will be used when document is loading."
 type: docs
 weight: 80
 url: /python-net/aspose.words.loading/loadoptions/language_preferences/

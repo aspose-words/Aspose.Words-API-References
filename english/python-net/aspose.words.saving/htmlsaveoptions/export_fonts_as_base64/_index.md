@@ -1,7 +1,9 @@
 ﻿---
-title: export_fonts_as_base64 property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies whether fonts resources should be embedded to HTML in Base64 encoding"
+title: HtmlSaveOptions.export_fonts_as_base64 property
+linktitle: export_fonts_as_base64 property
+articleTitle: export_fonts_as_base64 property
+second_title: Aspose.Words for Python
+description: "HtmlSaveOptions.export_fonts_as_base64 property. Specifies whether fonts resources should be embedded to HTML in Base64 encoding"
 type: docs
 weight: 160
 url: /python-net/aspose.words.saving/htmlsaveoptions/export_fonts_as_base64/

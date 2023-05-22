@@ -1,7 +1,9 @@
 ﻿---
-title: to_byte_array method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns the property value as byte array."
+title: DocumentProperty.to_byte_array method
+linktitle: to_byte_array method
+articleTitle: to_byte_array method
+second_title: Aspose.Words for Python
+description: "DocumentProperty.to_byte_array method. Returns the property value as byte array."
 type: docs
 weight: 70
 url: /python-net/aspose.words.properties/documentproperty/to_byte_array/

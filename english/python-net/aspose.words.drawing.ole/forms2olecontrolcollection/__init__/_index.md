@@ -1,6 +1,9 @@
 ﻿---
 title: Forms2OleControlCollection constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: Forms2OleControlCollection constructor
+articleTitle: Forms2OleControlCollection constructor
+second_title: Aspose.Words for Python
+description: "Forms2OleControlCollection constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.drawing.ole/forms2olecontrolcollection/__init__/

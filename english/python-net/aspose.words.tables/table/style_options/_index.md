@@ -1,7 +1,9 @@
 ﻿---
-title: style_options property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets bit flags that specify how a table style is applied to this table."
+title: Table.style_options property
+linktitle: style_options property
+articleTitle: style_options property
+second_title: Aspose.Words for Python
+description: "Table.style_options property. Gets or sets bit flags that specify how a table style is applied to this table."
 type: docs
 weight: 300
 url: /python-net/aspose.words.tables/table/style_options/

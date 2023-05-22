@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldKeywords class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the KEYWORDS field"
+linktitle: FieldKeywords class
+articleTitle: FieldKeywords class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldKeywords class. Implements the KEYWORDS field"
 type: docs
 weight: 630
 url: /python-net/aspose.words.fields/fieldkeywords/

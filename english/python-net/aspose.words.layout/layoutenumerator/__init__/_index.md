@@ -1,7 +1,9 @@
 ﻿---
 title: LayoutEnumerator constructor
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Initializes new instance of this class."
+linktitle: LayoutEnumerator constructor
+articleTitle: LayoutEnumerator constructor
+second_title: Aspose.Words for Python
+description: "LayoutEnumerator constructor. Initializes new instance of this class."
 type: docs
 weight: 10
 url: /python-net/aspose.words.layout/layoutenumerator/__init__/

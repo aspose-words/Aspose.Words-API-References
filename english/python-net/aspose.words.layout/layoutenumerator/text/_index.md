@@ -1,7 +1,9 @@
 ﻿---
-title: text property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets text of the current span entity"
+title: LayoutEnumerator.text property
+linktitle: text property
+articleTitle: text property
+second_title: Aspose.Words for Python
+description: "LayoutEnumerator.text property. Gets text of the current span entity"
 type: docs
 weight: 70
 url: /python-net/aspose.words.layout/layoutenumerator/text/

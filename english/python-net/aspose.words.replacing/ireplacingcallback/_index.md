@@ -1,7 +1,9 @@
 ﻿---
 title: IReplacingCallback class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implement this interface if you want to have your own custom method called during a find and replace operation."
+linktitle: IReplacingCallback class
+articleTitle: IReplacingCallback class
+second_title: Aspose.Words for Python
+description: "aspose.words.replacing.IReplacingCallback class. Implement this interface if you want to have your own custom method called during a find and replace operation."
 type: docs
 weight: 30
 url: /python-net/aspose.words.replacing/ireplacingcallback/

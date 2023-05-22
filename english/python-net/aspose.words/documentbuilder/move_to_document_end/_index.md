@@ -1,7 +1,9 @@
 ﻿---
-title: move_to_document_end method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Moves the cursor to the end of the document."
+title: DocumentBuilder.move_to_document_end method
+linktitle: move_to_document_end method
+articleTitle: move_to_document_end method
+second_title: Aspose.Words for Python
+description: "DocumentBuilder.move_to_document_end method. Moves the cursor to the end of the document."
 type: docs
 weight: 510
 url: /python-net/aspose.words/documentbuilder/move_to_document_end/

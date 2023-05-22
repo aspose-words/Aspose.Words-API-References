@@ -1,7 +1,9 @@
 ﻿---
 title: DashStyle enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Dashed line style."
+linktitle: DashStyle enumeration
+articleTitle: DashStyle enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.drawing.DashStyle enumeration. Dashed line style."
 type: docs
 weight: 40
 url: /python-net/aspose.words.drawing/dashstyle/

@@ -1,7 +1,9 @@
 ﻿---
-title: shape_text method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns [Cluster](../../cluster/) objects generated from a sequence of text fragments"
+title: ITextShaper.shape_text method
+linktitle: shape_text method
+articleTitle: shape_text method
+second_title: Aspose.Words for Python
+description: "ITextShaper.shape_text method. Returns [Cluster](../../cluster/) objects generated from a sequence of text fragments"
 type: docs
 weight: 10
 url: /python-net/aspose.words.shaping/itextshaper/shape_text/

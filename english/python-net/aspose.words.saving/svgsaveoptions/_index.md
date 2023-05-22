@@ -1,7 +1,9 @@
 ﻿﻿---
 title: SvgSaveOptions class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Can be used to specify additional options when saving a document into the [SaveFormat.SVG](../../aspose.words/saveformat/#SVG) format"
+linktitle: SvgSaveOptions class
+articleTitle: SvgSaveOptions class
+second_title: Aspose.Words for Python
+description: "aspose.words.saving.SvgSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.SVG](../../aspose.words/saveformat/#SVG) format"
 type: docs
 weight: 750
 url: /python-net/aspose.words.saving/svgsaveoptions/

@@ -1,7 +1,9 @@
 ﻿---
-title: visit_glossary_document_end method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Called when enumeration of a glossary document has ended."
+title: DocumentVisitor.visit_glossary_document_end method
+linktitle: visit_glossary_document_end method
+articleTitle: visit_glossary_document_end method
+second_title: Aspose.Words for Python
+description: "DocumentVisitor.visit_glossary_document_end method. Called when enumeration of a glossary document has ended."
 type: docs
 weight: 240
 url: /python-net/aspose.words/documentvisitor/visit_glossary_document_end/

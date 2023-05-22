@@ -1,7 +1,9 @@
 ﻿---
-title: layout_options property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets a [LayoutOptions](../../../aspose.words.layout/layoutoptions/) object that represents options to control the layout process of this document."
+title: Document.layout_options property
+linktitle: layout_options property
+articleTitle: layout_options property
+second_title: Aspose.Words for Python
+description: "Document.layout_options property. Gets a [LayoutOptions](../../../aspose.words.layout/layoutoptions/) object that represents options to control the layout process of this document."
 type: docs
 weight: 250
 url: /python-net/aspose.words/document/layout_options/

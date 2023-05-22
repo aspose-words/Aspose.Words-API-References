@@ -1,7 +1,9 @@
 ﻿---
-title: folder_path property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Path to the folder."
+title: FolderFontSource.folder_path property
+linktitle: folder_path property
+articleTitle: folder_path property
+second_title: Aspose.Words for Python
+description: "FolderFontSource.folder_path property. Path to the folder."
 type: docs
 weight: 20
 url: /python-net/aspose.words.fonts/folderfontsource/folder_path/

@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldIncludeText class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the INCLUDETEXT field"
+linktitle: FieldIncludeText class
+articleTitle: FieldIncludeText class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldIncludeText class. Implements the INCLUDETEXT field"
 type: docs
 weight: 590
 url: /python-net/aspose.words.fields/fieldincludetext/

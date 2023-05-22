@@ -1,7 +1,9 @@
 ﻿---
 title: WebExtensionBinding constructor
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Creates web extension binding with specified parameters."
+linktitle: WebExtensionBinding constructor
+articleTitle: WebExtensionBinding constructor
+second_title: Aspose.Words for Python
+description: "WebExtensionBinding constructor. Creates web extension binding with specified parameters."
 type: docs
 weight: 10
 url: /python-net/aspose.words.webextensions/webextensionbinding/__init__/

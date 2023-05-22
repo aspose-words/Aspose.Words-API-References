@@ -1,7 +1,9 @@
 ﻿---
-title: page_set property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the pages to render"
+title: ImageSaveOptions.page_set property
+linktitle: page_set property
+articleTitle: page_set property
+second_title: Aspose.Words for Python
+description: "ImageSaveOptions.page_set property. Gets or sets the pages to render"
 type: docs
 weight: 80
 url: /python-net/aspose.words.saving/imagesaveoptions/page_set/

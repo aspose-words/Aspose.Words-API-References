@@ -1,7 +1,9 @@
 ﻿---
-title: paragraph_break property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the string to use as a paragraph break when exporting in text formats."
+title: TxtSaveOptionsBase.paragraph_break property
+linktitle: paragraph_break property
+articleTitle: paragraph_break property
+second_title: Aspose.Words for Python
+description: "TxtSaveOptionsBase.paragraph_break property. Specifies the string to use as a paragraph break when exporting in text formats."
 type: docs
 weight: 40
 url: /python-net/aspose.words.saving/txtsaveoptionsbase/paragraph_break/

@@ -1,7 +1,9 @@
 ﻿---
-title: height property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the height of the horizontal rule."
+title: HorizontalRuleFormat.height property
+linktitle: height property
+articleTitle: height property
+second_title: Aspose.Words for Python
+description: "HorizontalRuleFormat.height property. Gets or sets the height of the horizontal rule."
 type: docs
 weight: 30
 url: /python-net/aspose.words.drawing/horizontalruleformat/height/

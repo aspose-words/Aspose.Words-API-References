@@ -1,7 +1,9 @@
 ﻿---
-title: insert method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Inserts a node into the collection at the specified index."
+title: NodeCollection.insert method
+linktitle: insert method
+articleTitle: insert method
+second_title: Aspose.Words for Python
+description: "NodeCollection.insert method. Inserts a node into the collection at the specified index."
 type: docs
 weight: 70
 url: /python-net/aspose.words/nodecollection/insert/

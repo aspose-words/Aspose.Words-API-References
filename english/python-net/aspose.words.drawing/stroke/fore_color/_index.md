@@ -1,7 +1,9 @@
 ﻿---
-title: fore_color property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the foreground color of the stroke."
+title: Stroke.fore_color property
+linktitle: fore_color property
+articleTitle: fore_color property
+second_title: Aspose.Words for Python
+description: "Stroke.fore_color property. Gets or sets the foreground color of the stroke."
 type: docs
 weight: 100
 url: /python-net/aspose.words.drawing/stroke/fore_color/

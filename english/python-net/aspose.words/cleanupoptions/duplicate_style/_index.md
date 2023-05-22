@@ -1,7 +1,9 @@
 ﻿---
-title: duplicate_style property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets/sets a flag indicating whether duplicate styles should be removed from document"
+title: CleanupOptions.duplicate_style property
+linktitle: duplicate_style property
+articleTitle: duplicate_style property
+second_title: Aspose.Words for Python
+description: "CleanupOptions.duplicate_style property. Gets/sets a flag indicating whether duplicate styles should be removed from document"
 type: docs
 weight: 20
 url: /python-net/aspose.words/cleanupoptions/duplicate_style/

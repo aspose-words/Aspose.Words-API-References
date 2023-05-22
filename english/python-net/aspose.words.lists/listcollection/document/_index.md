@@ -1,7 +1,9 @@
 ﻿---
-title: document property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the owner document."
+title: ListCollection.document property
+linktitle: document property
+articleTitle: document property
+second_title: Aspose.Words for Python
+description: "ListCollection.document property. Gets the owner document."
 type: docs
 weight: 30
 url: /python-net/aspose.words.lists/listcollection/document/

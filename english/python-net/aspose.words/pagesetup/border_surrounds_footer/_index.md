@@ -1,7 +1,9 @@
 ﻿---
-title: border_surrounds_footer property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies whether the page border includes or excludes the footer."
+title: PageSetup.border_surrounds_footer property
+linktitle: border_surrounds_footer property
+articleTitle: border_surrounds_footer property
+second_title: Aspose.Words for Python
+description: "PageSetup.border_surrounds_footer property. Specifies whether the page border includes or excludes the footer."
 type: docs
 weight: 50
 url: /python-net/aspose.words/pagesetup/border_surrounds_footer/

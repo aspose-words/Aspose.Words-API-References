@@ -1,6 +1,8 @@
 ﻿---
-title: register_dictionary method
-second_title: Aspose.Words for Python via .NET API Reference
+title: Hyphenation.register_dictionary method
+linktitle: register_dictionary method
+articleTitle: register_dictionary method
+second_title: Aspose.Words for Python
 description: "aspose.words.Hyphenation.register_dictionary method"
 type: docs
 weight: 40

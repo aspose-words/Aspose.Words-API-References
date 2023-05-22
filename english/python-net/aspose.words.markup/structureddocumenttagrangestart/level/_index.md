@@ -1,7 +1,9 @@
 ﻿---
-title: level property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the level at which this structured document tag range start occurs in the document tree."
+title: StructuredDocumentTagRangeStart.level property
+linktitle: level property
+articleTitle: level property
+second_title: Aspose.Words for Python
+description: "StructuredDocumentTagRangeStart.level property. Gets the level at which this structured document tag range start occurs in the document tree."
 type: docs
 weight: 70
 url: /python-net/aspose.words.markup/structureddocumenttagrangestart/level/

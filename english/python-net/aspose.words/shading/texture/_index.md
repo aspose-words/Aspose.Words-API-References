@@ -1,7 +1,9 @@
 ﻿---
-title: texture property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the shading texture."
+title: Shading.texture property
+linktitle: texture property
+articleTitle: texture property
+second_title: Aspose.Words for Python
+description: "Shading.texture property. Gets or sets the shading texture."
 type: docs
 weight: 70
 url: /python-net/aspose.words/shading/texture/

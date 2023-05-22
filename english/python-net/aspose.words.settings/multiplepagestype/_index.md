@@ -1,7 +1,9 @@
 ﻿---
 title: MultiplePagesType enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies how document is printed out."
+linktitle: MultiplePagesType enumeration
+articleTitle: MultiplePagesType enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.settings.MultiplePagesType enumeration. Specifies how document is printed out."
 type: docs
 weight: 110
 url: /python-net/aspose.words.settings/multiplepagestype/

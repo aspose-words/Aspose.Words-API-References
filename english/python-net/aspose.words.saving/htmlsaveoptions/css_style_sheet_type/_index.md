@@ -1,7 +1,9 @@
 ﻿---
-title: css_style_sheet_type property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies how CSS (Cascading Style Sheet) styles are exported to HTML, MHTML or EPUB"
+title: HtmlSaveOptions.css_style_sheet_type property
+linktitle: css_style_sheet_type property
+articleTitle: css_style_sheet_type property
+second_title: Aspose.Words for Python
+description: "HtmlSaveOptions.css_style_sheet_type property. Specifies how CSS (Cascading Style Sheet) styles are exported to HTML, MHTML or EPUB"
 type: docs
 weight: 60
 url: /python-net/aspose.words.saving/htmlsaveoptions/css_style_sheet_type/

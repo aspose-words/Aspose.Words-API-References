@@ -1,7 +1,9 @@
 ﻿---
-title: ignore_headers_and_footers property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "True indicates that headers and footers content is ignored"
+title: CompareOptions.ignore_headers_and_footers property
+linktitle: ignore_headers_and_footers property
+articleTitle: ignore_headers_and_footers property
+second_title: Aspose.Words for Python
+description: "CompareOptions.ignore_headers_and_footers property. True indicates that headers and footers content is ignored"
 type: docs
 weight: 100
 url: /python-net/aspose.words.comparing/compareoptions/ignore_headers_and_footers/

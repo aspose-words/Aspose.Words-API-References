@@ -1,7 +1,9 @@
 ﻿---
-title: properties property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "A collection of the smart tag properties."
+title: SmartTag.properties property
+linktitle: properties property
+articleTitle: properties property
+second_title: Aspose.Words for Python
+description: "SmartTag.properties property. A collection of the smart tag properties."
 type: docs
 weight: 40
 url: /python-net/aspose.words.markup/smarttag/properties/

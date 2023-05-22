@@ -1,7 +1,9 @@
 ﻿---
-title: ignore_case_changes property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "True indicates that documents comparison is case insensitive"
+title: CompareOptions.ignore_case_changes property
+linktitle: ignore_case_changes property
+articleTitle: ignore_case_changes property
+second_title: Aspose.Words for Python
+description: "CompareOptions.ignore_case_changes property. True indicates that documents comparison is case insensitive"
 type: docs
 weight: 40
 url: /python-net/aspose.words.comparing/compareoptions/ignore_case_changes/

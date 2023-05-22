@@ -1,7 +1,9 @@
 ﻿---
-title: end_table method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Ends a table in the document."
+title: DocumentBuilder.end_table method
+linktitle: end_table method
+articleTitle: end_table method
+second_title: Aspose.Words for Python
+description: "DocumentBuilder.end_table method. Ends a table in the document."
 type: docs
 weight: 250
 url: /python-net/aspose.words/documentbuilder/end_table/

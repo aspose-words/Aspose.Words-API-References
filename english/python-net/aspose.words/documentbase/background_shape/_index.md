@@ -1,7 +1,9 @@
 ﻿---
-title: background_shape property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the background shape of the document"
+title: DocumentBase.background_shape property
+linktitle: background_shape property
+articleTitle: background_shape property
+second_title: Aspose.Words for Python
+description: "DocumentBase.background_shape property. Gets or sets the background shape of the document"
 type: docs
 weight: 10
 url: /python-net/aspose.words/documentbase/background_shape/

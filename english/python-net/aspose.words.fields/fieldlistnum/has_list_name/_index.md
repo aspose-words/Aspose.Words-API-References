@@ -1,7 +1,9 @@
 ﻿---
-title: has_list_name property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns a value indicating whether the name of an abstract numbering definition is provided by the field's code."
+title: FieldListNum.has_list_name property
+linktitle: has_list_name property
+articleTitle: has_list_name property
+second_title: Aspose.Words for Python
+description: "FieldListNum.has_list_name property. Returns a value indicating whether the name of an abstract numbering definition is provided by the field's code."
 type: docs
 weight: 20
 url: /python-net/aspose.words.fields/fieldlistnum/has_list_name/

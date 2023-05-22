@@ -1,7 +1,9 @@
 ﻿---
-title: remove method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Removes a property with the specified name from the collection."
+title: DocumentPropertyCollection.remove method
+linktitle: remove method
+articleTitle: remove method
+second_title: Aspose.Words for Python
+description: "DocumentPropertyCollection.remove method. Removes a property with the specified name from the collection."
 type: docs
 weight: 70
 url: /python-net/aspose.words.properties/documentpropertycollection/remove/

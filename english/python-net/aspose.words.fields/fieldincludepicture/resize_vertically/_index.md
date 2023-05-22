@@ -1,7 +1,9 @@
 ﻿---
-title: resize_vertically property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets whether to resize the picture vertically from the source."
+title: FieldIncludePicture.resize_vertically property
+linktitle: resize_vertically property
+articleTitle: resize_vertically property
+second_title: Aspose.Words for Python
+description: "FieldIncludePicture.resize_vertically property. Gets or sets whether to resize the picture vertically from the source."
 type: docs
 weight: 50
 url: /python-net/aspose.words.fields/fieldincludepicture/resize_vertically/

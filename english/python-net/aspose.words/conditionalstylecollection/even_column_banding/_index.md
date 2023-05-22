@@ -1,7 +1,9 @@
 ﻿---
-title: even_column_banding property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the even column banding style."
+title: ConditionalStyleCollection.even_column_banding property
+linktitle: even_column_banding property
+articleTitle: even_column_banding property
+second_title: Aspose.Words for Python
+description: "ConditionalStyleCollection.even_column_banding property. Gets the even column banding style."
 type: docs
 weight: 50
 url: /python-net/aspose.words/conditionalstylecollection/even_column_banding/

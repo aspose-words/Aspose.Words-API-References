@@ -1,7 +1,9 @@
 ﻿---
 title: PdfTextCompression enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies a type of compression applied to all content in the PDF file except images."
+linktitle: PdfTextCompression enumeration
+articleTitle: PdfTextCompression enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.saving.PdfTextCompression enumeration. Specifies a type of compression applied to all content in the PDF file except images."
 type: docs
 weight: 680
 url: /python-net/aspose.words.saving/pdftextcompression/

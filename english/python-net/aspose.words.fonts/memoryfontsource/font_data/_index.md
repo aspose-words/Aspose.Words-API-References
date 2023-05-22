@@ -1,7 +1,9 @@
 ﻿---
-title: font_data property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Binary font data."
+title: MemoryFontSource.font_data property
+linktitle: font_data property
+articleTitle: font_data property
+second_title: Aspose.Words for Python
+description: "MemoryFontSource.font_data property. Binary font data."
 type: docs
 weight: 30
 url: /python-net/aspose.words.fonts/memoryfontsource/font_data/

@@ -1,6 +1,8 @@
 ﻿﻿---
 title: aspose.words.digitalsignatures module
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: aspose.words.digitalsignatures module
+articleTitle: aspose.words.digitalsignatures module
+second_title: Aspose.Words for Python
 description: "The aspose.words.digitalsignatures module provides classes to sign documents and verify signatures."
 type: docs
 weight: 40

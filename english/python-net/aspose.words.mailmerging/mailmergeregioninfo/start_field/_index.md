@@ -1,7 +1,9 @@
 ﻿---
-title: start_field property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns a start field for the region."
+title: MailMergeRegionInfo.start_field property
+linktitle: start_field property
+articleTitle: start_field property
+second_title: Aspose.Words for Python
+description: "MailMergeRegionInfo.start_field property. Returns a start field for the region."
 type: docs
 weight: 70
 url: /python-net/aspose.words.mailmerging/mailmergeregioninfo/start_field/

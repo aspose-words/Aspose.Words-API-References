@@ -1,7 +1,9 @@
 ﻿﻿---
 title: OfficeMath class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents an Office Math object such as function, equation, matrix or alike"
+linktitle: OfficeMath class
+articleTitle: OfficeMath class
+second_title: Aspose.Words for Python
+description: "aspose.words.math.OfficeMath class. Represents an Office Math object such as function, equation, matrix or alike"
 type: docs
 weight: 20
 url: /python-net/aspose.words.math/officemath/

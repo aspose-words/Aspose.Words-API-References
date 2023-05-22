@@ -1,6 +1,9 @@
 ﻿---
 title: ImportFormatOptions constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: ImportFormatOptions constructor
+articleTitle: ImportFormatOptions constructor
+second_title: Aspose.Words for Python
+description: "ImportFormatOptions constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words/importformatoptions/__init__/

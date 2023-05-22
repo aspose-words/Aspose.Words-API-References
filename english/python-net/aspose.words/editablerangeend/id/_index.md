@@ -1,7 +1,9 @@
 ﻿---
-title: id property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the identifier of the editable range."
+title: EditableRangeEnd.id property
+linktitle: id property
+articleTitle: id property
+second_title: Aspose.Words for Python
+description: "EditableRangeEnd.id property. Specifies the identifier of the editable range."
 type: docs
 weight: 20
 url: /python-net/aspose.words/editablerangeend/id/

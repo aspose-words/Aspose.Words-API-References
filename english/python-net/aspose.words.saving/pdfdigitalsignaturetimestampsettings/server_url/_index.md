@@ -1,7 +1,9 @@
 ﻿---
-title: server_url property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Timestamp server URL."
+title: PdfDigitalSignatureTimestampSettings.server_url property
+linktitle: server_url property
+articleTitle: server_url property
+second_title: Aspose.Words for Python
+description: "PdfDigitalSignatureTimestampSettings.server_url property. Timestamp server URL."
 type: docs
 weight: 30
 url: /python-net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/server_url/

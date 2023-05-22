@@ -1,6 +1,9 @@
 ﻿---
 title: SignOptions constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: SignOptions constructor
+articleTitle: SignOptions constructor
+second_title: Aspose.Words for Python
+description: "SignOptions constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.digitalsignatures/signoptions/__init__/

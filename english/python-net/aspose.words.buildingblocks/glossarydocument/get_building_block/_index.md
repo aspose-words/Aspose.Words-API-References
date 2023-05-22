@@ -1,7 +1,9 @@
 ﻿---
-title: get_building_block method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Finds a building block using the specified gallery, category and name."
+title: GlossaryDocument.get_building_block method
+linktitle: get_building_block method
+articleTitle: get_building_block method
+second_title: Aspose.Words for Python
+description: "GlossaryDocument.get_building_block method. Finds a building block using the specified gallery, category and name."
 type: docs
 weight: 70
 url: /python-net/aspose.words.buildingblocks/glossarydocument/get_building_block/

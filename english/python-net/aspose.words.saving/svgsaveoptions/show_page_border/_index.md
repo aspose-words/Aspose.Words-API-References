@@ -1,7 +1,9 @@
 ﻿---
-title: show_page_border property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Controls whether a border is added to the outline of the page"
+title: SvgSaveOptions.show_page_border property
+linktitle: show_page_border property
+articleTitle: show_page_border property
+second_title: Aspose.Words for Python
+description: "SvgSaveOptions.show_page_border property. Controls whether a border is added to the outline of the page"
 type: docs
 weight: 80
 url: /python-net/aspose.words.saving/svgsaveoptions/show_page_border/

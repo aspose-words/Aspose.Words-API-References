@@ -1,7 +1,9 @@
 ﻿---
-title: remove_at method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Removes the element at the specified index."
+title: OdsoRecipientDataCollection.remove_at method
+linktitle: remove_at method
+articleTitle: remove_at method
+second_title: Aspose.Words for Python
+description: "OdsoRecipientDataCollection.remove_at method. Removes the element at the specified index."
 type: docs
 weight: 60
 url: /python-net/aspose.words.settings/odsorecipientdatacollection/remove_at/

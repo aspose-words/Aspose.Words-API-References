@@ -1,6 +1,8 @@
 ﻿---
-title: replace method
-second_title: Aspose.Words for Python via .NET API Reference
+title: Range.replace method
+linktitle: replace method
+articleTitle: replace method
+second_title: Aspose.Words for Python
 description: "aspose.words.Range.replace method"
 type: docs
 weight: 90

@@ -1,7 +1,9 @@
 ﻿---
-title: image_resolution property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the output resolution for images when exporting to HTML, MHTML or EPUB"
+title: HtmlSaveOptions.image_resolution property
+linktitle: image_resolution property
+articleTitle: image_resolution property
+second_title: Aspose.Words for Python
+description: "HtmlSaveOptions.image_resolution property. Specifies the output resolution for images when exporting to HTML, MHTML or EPUB"
 type: docs
 weight: 350
 url: /python-net/aspose.words.saving/htmlsaveoptions/image_resolution/

@@ -1,6 +1,8 @@
 ﻿---
 title: SdtListItem constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: SdtListItem constructor
+articleTitle: SdtListItem constructor
+second_title: Aspose.Words for Python
 description: "aspose.words.markup.SdtListItem constructor"
 type: docs
 weight: 10

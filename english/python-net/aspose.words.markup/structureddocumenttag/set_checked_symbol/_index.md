@@ -1,7 +1,9 @@
 ﻿---
-title: set_checked_symbol method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Sets the symbol used to represent the checked state of a check box content control."
+title: StructuredDocumentTag.set_checked_symbol method
+linktitle: set_checked_symbol method
+articleTitle: set_checked_symbol method
+second_title: Aspose.Words for Python
+description: "StructuredDocumentTag.set_checked_symbol method. Sets the symbol used to represent the checked state of a check box content control."
 type: docs
 weight: 360
 url: /python-net/aspose.words.markup/structureddocumenttag/set_checked_symbol/

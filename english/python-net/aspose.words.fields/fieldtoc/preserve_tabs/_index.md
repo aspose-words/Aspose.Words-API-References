@@ -1,7 +1,9 @@
 ﻿---
-title: preserve_tabs property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets whether to preserve tab entries within table entries."
+title: FieldToc.preserve_tabs property
+linktitle: preserve_tabs property
+articleTitle: preserve_tabs property
+second_title: Aspose.Words for Python
+description: "FieldToc.preserve_tabs property. Gets or sets whether to preserve tab entries within table entries."
 type: docs
 weight: 140
 url: /python-net/aspose.words.fields/fieldtoc/preserve_tabs/

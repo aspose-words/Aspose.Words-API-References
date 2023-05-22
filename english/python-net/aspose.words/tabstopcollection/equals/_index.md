@@ -1,7 +1,9 @@
 ﻿---
-title: equals method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Determines whether the specified [TabStopCollection](../) is equal in value to the current [TabStopCollection](../)."
+title: TabStopCollection.equals method
+linktitle: equals method
+articleTitle: equals method
+second_title: Aspose.Words for Python
+description: "TabStopCollection.equals method. Determines whether the specified [TabStopCollection](../) is equal in value to the current [TabStopCollection](../)."
 type: docs
 weight: 70
 url: /python-net/aspose.words/tabstopcollection/equals/

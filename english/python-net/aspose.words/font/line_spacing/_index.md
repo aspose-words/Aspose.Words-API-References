@@ -1,7 +1,9 @@
 ﻿---
-title: line_spacing property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns line spacing of this font (in points)."
+title: Font.line_spacing property
+linktitle: line_spacing property
+articleTitle: line_spacing property
+second_title: Aspose.Words for Python
+description: "Font.line_spacing property. Returns line spacing of this font (in points)."
 type: docs
 weight: 190
 url: /python-net/aspose.words/font/line_spacing/

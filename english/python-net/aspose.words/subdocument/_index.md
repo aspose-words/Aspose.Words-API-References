@@ -1,7 +1,9 @@
 ﻿﻿---
 title: SubDocument class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a SubDocument - which is a reference to an externally stored document"
+linktitle: SubDocument class
+articleTitle: SubDocument class
+second_title: Aspose.Words for Python
+description: "aspose.words.SubDocument class. Represents a SubDocument - which is a reference to an externally stored document"
 type: docs
 weight: 1140
 url: /python-net/aspose.words/subdocument/

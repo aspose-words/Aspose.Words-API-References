@@ -1,7 +1,9 @@
 ﻿---
-title: user_password property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the user password required for opening the encrypted PDF document."
+title: PdfEncryptionDetails.user_password property
+linktitle: user_password property
+articleTitle: user_password property
+second_title: Aspose.Words for Python
+description: "PdfEncryptionDetails.user_password property. Specifies the user password required for opening the encrypted PDF document."
 type: docs
 weight: 40
 url: /python-net/aspose.words.saving/pdfencryptiondetails/user_password/

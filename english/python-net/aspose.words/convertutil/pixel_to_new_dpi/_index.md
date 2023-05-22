@@ -1,7 +1,9 @@
 ﻿---
-title: pixel_to_new_dpi method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Converts pixels from one resolution to another."
+title: ConvertUtil.pixel_to_new_dpi method
+linktitle: pixel_to_new_dpi method
+articleTitle: pixel_to_new_dpi method
+second_title: Aspose.Words for Python
+description: "ConvertUtil.pixel_to_new_dpi method. Converts pixels from one resolution to another."
 type: docs
 weight: 30
 url: /python-net/aspose.words/convertutil/pixel_to_new_dpi/

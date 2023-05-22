@@ -1,7 +1,9 @@
 ﻿---
-title: document property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the [DocumentBuilder.document](./) object that this object is attached to."
+title: DocumentBuilder.document property
+linktitle: document property
+articleTitle: document property
+second_title: Aspose.Words for Python
+description: "DocumentBuilder.document property. Gets or sets the [DocumentBuilder.document](./) object that this object is attached to."
 type: docs
 weight: 90
 url: /python-net/aspose.words/documentbuilder/document/

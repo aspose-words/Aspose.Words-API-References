@@ -1,7 +1,9 @@
 ﻿---
-title: show_leader_lines property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to specify if data label leader lines need be shown"
+title: ChartDataLabel.show_leader_lines property
+linktitle: show_leader_lines property
+articleTitle: show_leader_lines property
+second_title: Aspose.Words for Python
+description: "ChartDataLabel.show_leader_lines property. Allows to specify if data label leader lines need be shown"
 type: docs
 weight: 100
 url: /python-net/aspose.words.drawing.charts/chartdatalabel/show_leader_lines/

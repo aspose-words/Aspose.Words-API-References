@@ -1,7 +1,9 @@
 ﻿---
-title: default_font_name property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the default font name."
+title: DefaultFontSubstitutionRule.default_font_name property
+linktitle: default_font_name property
+articleTitle: default_font_name property
+second_title: Aspose.Words for Python
+description: "DefaultFontSubstitutionRule.default_font_name property. Gets or sets the default font name."
 type: docs
 weight: 10
 url: /python-net/aspose.words.fonts/defaultfontsubstitutionrule/default_font_name/

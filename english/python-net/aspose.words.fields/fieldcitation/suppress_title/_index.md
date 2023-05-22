@@ -1,7 +1,9 @@
 ﻿---
-title: suppress_title property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets whether the title information is suppressed from the citation."
+title: FieldCitation.suppress_title property
+linktitle: suppress_title property
+articleTitle: suppress_title property
+second_title: Aspose.Words for Python
+description: "FieldCitation.suppress_title property. Gets or sets whether the title information is suppressed from the citation."
 type: docs
 weight: 90
 url: /python-net/aspose.words.fields/fieldcitation/suppress_title/

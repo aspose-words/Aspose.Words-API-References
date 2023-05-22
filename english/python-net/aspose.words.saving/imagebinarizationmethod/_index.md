@@ -1,7 +1,9 @@
 ﻿---
 title: ImageBinarizationMethod enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the method used to binarize image."
+linktitle: ImageBinarizationMethod enumeration
+articleTitle: ImageBinarizationMethod enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.saving.ImageBinarizationMethod enumeration. Specifies the method used to binarize image."
 type: docs
 weight: 350
 url: /python-net/aspose.words.saving/imagebinarizationmethod/

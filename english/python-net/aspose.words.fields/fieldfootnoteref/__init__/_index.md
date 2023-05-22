@@ -1,6 +1,9 @@
 ﻿---
 title: FieldFootnoteRef constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: FieldFootnoteRef constructor
+articleTitle: FieldFootnoteRef constructor
+second_title: Aspose.Words for Python
+description: "FieldFootnoteRef constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/fieldfootnoteref/__init__/

@@ -1,7 +1,9 @@
 ﻿---
-title: comment_color property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to specify the color to be used for comments"
+title: RevisionOptions.comment_color property
+linktitle: comment_color property
+articleTitle: comment_color property
+second_title: Aspose.Words for Python
+description: "RevisionOptions.comment_color property. Allows to specify the color to be used for comments"
 type: docs
 weight: 10
 url: /python-net/aspose.words.layout/revisionoptions/comment_color/

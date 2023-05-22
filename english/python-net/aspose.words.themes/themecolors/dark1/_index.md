@@ -1,7 +1,9 @@
 ﻿---
-title: dark1 property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies color Dark 1."
+title: ThemeColors.dark1 property
+linktitle: dark1 property
+articleTitle: dark1 property
+second_title: Aspose.Words for Python
+description: "ThemeColors.dark1 property. Specifies color Dark 1."
 type: docs
 weight: 70
 url: /python-net/aspose.words.themes/themecolors/dark1/

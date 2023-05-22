@@ -1,7 +1,9 @@
 ﻿---
-title: insert_horizontal_rule method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Inserts a horizontal rule shape into the document."
+title: DocumentBuilder.insert_horizontal_rule method
+linktitle: insert_horizontal_rule method
+articleTitle: insert_horizontal_rule method
+second_title: Aspose.Words for Python
+description: "DocumentBuilder.insert_horizontal_rule method. Inserts a horizontal rule shape into the document."
 type: docs
 weight: 340
 url: /python-net/aspose.words/documentbuilder/insert_horizontal_rule/

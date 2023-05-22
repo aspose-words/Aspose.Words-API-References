@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldSymbol class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements a SYMBOL field"
+linktitle: FieldSymbol class
+articleTitle: FieldSymbol class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldSymbol class. Implements a SYMBOL field"
 type: docs
 weight: 1000
 url: /python-net/aspose.words.fields/fieldsymbol/

@@ -1,7 +1,9 @@
 ﻿---
-title: clear_formatting method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Resets page setup to default paper size, margins and orientation."
+title: PageSetup.clear_formatting method
+linktitle: clear_formatting method
+articleTitle: clear_formatting method
+second_title: Aspose.Words for Python
+description: "PageSetup.clear_formatting method. Resets page setup to default paper size, margins and orientation."
 type: docs
 weight: 460
 url: /python-net/aspose.words/pagesetup/clear_formatting/

@@ -1,7 +1,9 @@
 ﻿---
-title: bold_bi property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "True if the right-to-left text is formatted as bold."
+title: Font.bold_bi property
+linktitle: bold_bi property
+articleTitle: bold_bi property
+second_title: Aspose.Words for Python
+description: "Font.bold_bi property. True if the right-to-left text is formatted as bold."
 type: docs
 weight: 50
 url: /python-net/aspose.words/font/bold_bi/

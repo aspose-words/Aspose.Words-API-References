@@ -1,7 +1,9 @@
 ﻿---
-title: omit_page_number property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets whether page number in TOC should be omitted for this field."
+title: FieldTC.omit_page_number property
+linktitle: omit_page_number property
+articleTitle: omit_page_number property
+second_title: Aspose.Words for Python
+description: "FieldTC.omit_page_number property. Gets or sets whether page number in TOC should be omitted for this field."
 type: docs
 weight: 30
 url: /python-net/aspose.words.fields/fieldtc/omit_page_number/

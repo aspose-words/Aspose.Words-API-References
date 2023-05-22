@@ -1,7 +1,9 @@
 ﻿---
-title: is_visible property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies whether the task pane shows as visible by default when the document opens."
+title: TaskPane.is_visible property
+linktitle: is_visible property
+articleTitle: is_visible property
+second_title: Aspose.Words for Python
+description: "TaskPane.is_visible property. Specifies whether the task pane shows as visible by default when the document opens."
 type: docs
 weight: 40
 url: /python-net/aspose.words.webextensions/taskpane/is_visible/

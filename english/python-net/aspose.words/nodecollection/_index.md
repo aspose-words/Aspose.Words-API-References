@@ -1,7 +1,9 @@
 ﻿﻿---
 title: NodeCollection class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a collection of nodes of a specific type"
+linktitle: NodeCollection class
+articleTitle: NodeCollection class
+second_title: Aspose.Words for Python
+description: "aspose.words.NodeCollection class. Represents a collection of nodes of a specific type"
 type: docs
 weight: 720
 url: /python-net/aspose.words/nodecollection/

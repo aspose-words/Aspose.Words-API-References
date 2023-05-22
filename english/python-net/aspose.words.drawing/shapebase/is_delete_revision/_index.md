@@ -1,7 +1,9 @@
 ﻿---
-title: is_delete_revision property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns true if this object was deleted in Microsoft Word while change tracking was enabled."
+title: ShapeBase.is_delete_revision property
+linktitle: is_delete_revision property
+articleTitle: is_delete_revision property
+second_title: Aspose.Words for Python
+description: "ShapeBase.is_delete_revision property. Returns true if this object was deleted in Microsoft Word while change tracking was enabled."
 type: docs
 weight: 250
 url: /python-net/aspose.words.drawing/shapebase/is_delete_revision/

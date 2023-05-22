@@ -1,7 +1,9 @@
 ﻿---
-title: signer property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets suggested signer of the signature line"
+title: SignatureLine.signer property
+linktitle: signer property
+articleTitle: signer property
+second_title: Aspose.Words for Python
+description: "SignatureLine.signer property. Gets or sets suggested signer of the signature line"
 type: docs
 weight: 100
 url: /python-net/aspose.words.drawing/signatureline/signer/

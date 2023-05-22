@@ -1,7 +1,9 @@
 ﻿---
 title: StoryType enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Text of a Word document is stored in stories"
+linktitle: StoryType enumeration
+articleTitle: StoryType enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.StoryType enumeration. Text of a Word document is stored in stories"
 type: docs
 weight: 1090
 url: /python-net/aspose.words/storytype/

@@ -1,7 +1,9 @@
 ﻿---
-title: image_bytes property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the raw bytes of the image stored in the shape."
+title: ImageData.image_bytes property
+linktitle: image_bytes property
+articleTitle: image_bytes property
+second_title: Aspose.Words for Python
+description: "ImageData.image_bytes property. Gets or sets the raw bytes of the image stored in the shape."
 type: docs
 weight: 120
 url: /python-net/aspose.words.drawing/imagedata/image_bytes/

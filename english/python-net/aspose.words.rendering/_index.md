@@ -1,6 +1,8 @@
 ﻿﻿---
 title: aspose.words.rendering module
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: aspose.words.rendering module
+articleTitle: aspose.words.rendering module
+second_title: Aspose.Words for Python
 description: "The aspose.words.rendering module provides classes that allow to customize printing or rendering of documents."
 type: docs
 weight: 190

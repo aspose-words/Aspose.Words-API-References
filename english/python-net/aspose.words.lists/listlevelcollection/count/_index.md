@@ -1,7 +1,9 @@
 ﻿---
-title: count property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the number of levels in this list."
+title: ListLevelCollection.count property
+linktitle: count property
+articleTitle: count property
+second_title: Aspose.Words for Python
+description: "ListLevelCollection.count property. Gets the number of levels in this list."
 type: docs
 weight: 20
 url: /python-net/aspose.words.lists/listlevelcollection/count/

@@ -1,7 +1,9 @@
 ﻿---
 title: ArrowLength enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Length of the arrow at the end of a line."
+linktitle: ArrowLength enumeration
+articleTitle: ArrowLength enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.drawing.ArrowLength enumeration. Length of the arrow at the end of a line."
 type: docs
 weight: 10
 url: /python-net/aspose.words.drawing/arrowlength/

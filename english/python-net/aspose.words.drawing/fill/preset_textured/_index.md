@@ -1,7 +1,9 @@
 ﻿---
-title: preset_textured method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Sets the fill to a preset texture."
+title: Fill.preset_textured method
+linktitle: preset_textured method
+articleTitle: preset_textured method
+second_title: Aspose.Words for Python
+description: "Fill.preset_textured method. Sets the fill to a preset texture."
 type: docs
 weight: 240
 url: /python-net/aspose.words.drawing/fill/preset_textured/

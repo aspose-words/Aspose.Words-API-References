@@ -1,6 +1,8 @@
 ﻿---
-title: load method
-second_title: Aspose.Words for Python via .NET API Reference
+title: TableSubstitutionRule.load method
+linktitle: load method
+articleTitle: load method
+second_title: Aspose.Words for Python
 description: "aspose.words.fonts.TableSubstitutionRule.load method"
 type: docs
 weight: 30

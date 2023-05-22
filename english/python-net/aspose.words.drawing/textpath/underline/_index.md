@@ -1,7 +1,9 @@
 ﻿---
-title: underline property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "True if the font is underlined."
+title: TextPath.underline property
+linktitle: underline property
+articleTitle: underline property
+second_title: Aspose.Words for Python
+description: "TextPath.underline property. True if the font is underlined."
 type: docs
 weight: 190
 url: /python-net/aspose.words.drawing/textpath/underline/

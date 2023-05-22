@@ -1,7 +1,9 @@
 ﻿---
-title: get_child_nodes method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns a live collection of child nodes that match the specified types."
+title: StructuredDocumentTagRangeStart.get_child_nodes method
+linktitle: get_child_nodes method
+articleTitle: get_child_nodes method
+second_title: Aspose.Words for Python
+description: "StructuredDocumentTagRangeStart.get_child_nodes method. Returns a live collection of child nodes that match the specified types."
 type: docs
 weight: 210
 url: /python-net/aspose.words.markup/structureddocumenttagrangestart/get_child_nodes/

@@ -1,7 +1,9 @@
 ﻿---
-title: revised_properties_effect property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to specify the effect for content areas with changes of formatting properties [RevisionType.FORMAT_CHANGE](../../../aspose.words/revisiontype/#FORMAT_CHANGE) Default value is [RevisionTextEffect.NONE](../../revisiontexteffect/#NONE)"
+title: RevisionOptions.revised_properties_effect property
+linktitle: revised_properties_effect property
+articleTitle: revised_properties_effect property
+second_title: Aspose.Words for Python
+description: "RevisionOptions.revised_properties_effect property. Allows to specify the effect for content areas with changes of formatting properties [RevisionType.FORMAT_CHANGE](../../../aspose.words/revisiontype/#FORMAT_CHANGE) Default value is [RevisionTextEffect.NONE](../../revisiontexteffect/#NONE)"
 type: docs
 weight: 120
 url: /python-net/aspose.words.layout/revisionoptions/revised_properties_effect/

@@ -1,7 +1,9 @@
 ﻿---
-title: is_in_megabytes property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets whether to display the file size in megabytes."
+title: FieldFileSize.is_in_megabytes property
+linktitle: is_in_megabytes property
+articleTitle: is_in_megabytes property
+second_title: Aspose.Words for Python
+description: "FieldFileSize.is_in_megabytes property. Gets or sets whether to display the file size in megabytes."
 type: docs
 weight: 30
 url: /python-net/aspose.words.fields/fieldfilesize/is_in_megabytes/

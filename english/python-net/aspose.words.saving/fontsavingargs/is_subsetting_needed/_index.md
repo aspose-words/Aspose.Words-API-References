@@ -1,7 +1,9 @@
 ﻿---
-title: is_subsetting_needed property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to specify whether the current font will be subsetted before exporting as a font resource."
+title: FontSavingArgs.is_subsetting_needed property
+linktitle: is_subsetting_needed property
+articleTitle: is_subsetting_needed property
+second_title: Aspose.Words for Python
+description: "FontSavingArgs.is_subsetting_needed property. Allows to specify whether the current font will be subsetted before exporting as a font resource."
 type: docs
 weight: 70
 url: /python-net/aspose.words.saving/fontsavingargs/is_subsetting_needed/

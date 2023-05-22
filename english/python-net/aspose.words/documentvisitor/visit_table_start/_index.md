@@ -1,7 +1,9 @@
 ﻿---
-title: visit_table_start method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Called when enumeration of a table has started."
+title: DocumentVisitor.visit_table_start method
+linktitle: visit_table_start method
+articleTitle: visit_table_start method
+second_title: Aspose.Words for Python
+description: "DocumentVisitor.visit_table_start method. Called when enumeration of a table has started."
 type: docs
 weight: 500
 url: /python-net/aspose.words/documentvisitor/visit_table_start/

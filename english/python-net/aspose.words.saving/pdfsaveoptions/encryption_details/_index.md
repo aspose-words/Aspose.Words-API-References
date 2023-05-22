@@ -1,7 +1,9 @@
 ﻿---
-title: encryption_details property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the details for encrypting the output PDF document."
+title: PdfSaveOptions.encryption_details property
+linktitle: encryption_details property
+articleTitle: encryption_details property
+second_title: Aspose.Words for Python
+description: "PdfSaveOptions.encryption_details property. Gets or sets the details for encrypting the output PDF document."
 type: docs
 weight: 130
 url: /python-net/aspose.words.saving/pdfsaveoptions/encryption_details/

@@ -1,7 +1,9 @@
 ﻿---
 title: RelativeVerticalSize enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies relatively to what the height of a shape or a text frame is calculated vertically."
+linktitle: RelativeVerticalSize enumeration
+articleTitle: RelativeVerticalSize enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.drawing.RelativeVerticalSize enumeration. Specifies relatively to what the height of a shape or a text frame is calculated vertically."
 type: docs
 weight: 290
 url: /python-net/aspose.words.drawing/relativeverticalsize/

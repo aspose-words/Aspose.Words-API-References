@@ -1,7 +1,9 @@
 ﻿---
-title: detect_numbering_with_whitespaces property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to specify how numbered list items are recognized when document is imported from plain text format"
+title: TxtLoadOptions.detect_numbering_with_whitespaces property
+linktitle: detect_numbering_with_whitespaces property
+articleTitle: detect_numbering_with_whitespaces property
+second_title: Aspose.Words for Python
+description: "TxtLoadOptions.detect_numbering_with_whitespaces property. Allows to specify how numbered list items are recognized when document is imported from plain text format"
 type: docs
 weight: 30
 url: /python-net/aspose.words.loading/txtloadoptions/detect_numbering_with_whitespaces/

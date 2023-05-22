@@ -1,7 +1,9 @@
 ﻿---
-title: far_east_line_break_control property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a flag indicating whether East Asian line-breaking rules are applied to the current paragraph."
+title: ParagraphFormat.far_east_line_break_control property
+linktitle: far_east_line_break_control property
+articleTitle: far_east_line_break_control property
+second_title: Aspose.Words for Python
+description: "ParagraphFormat.far_east_line_break_control property. Gets or sets a flag indicating whether East Asian line-breaking rules are applied to the current paragraph."
 type: docs
 weight: 100
 url: /python-net/aspose.words/paragraphformat/far_east_line_break_control/

@@ -1,7 +1,9 @@
 ﻿---
-title: element property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the name of the smart tag within the document."
+title: SmartTag.element property
+linktitle: element property
+articleTitle: element property
+second_title: Aspose.Words for Python
+description: "SmartTag.element property. Specifies the name of the smart tag within the document."
 type: docs
 weight: 20
 url: /python-net/aspose.words.markup/smarttag/element/

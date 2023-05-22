@@ -1,7 +1,9 @@
 ﻿---
-title: fit_shape_to_text property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Determines whether Microsoft Word will grow the shape to fit text."
+title: TextBox.fit_shape_to_text property
+linktitle: fit_shape_to_text property
+articleTitle: fit_shape_to_text property
+second_title: Aspose.Words for Python
+description: "TextBox.fit_shape_to_text property. Determines whether Microsoft Word will grow the shape to fit text."
 type: docs
 weight: 10
 url: /python-net/aspose.words.drawing/textbox/fit_shape_to_text/

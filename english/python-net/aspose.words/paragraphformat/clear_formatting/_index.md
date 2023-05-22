@@ -1,7 +1,9 @@
 ﻿---
-title: clear_formatting method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Resets to default paragraph formatting."
+title: ParagraphFormat.clear_formatting method
+linktitle: clear_formatting method
+articleTitle: clear_formatting method
+second_title: Aspose.Words for Python
+description: "ParagraphFormat.clear_formatting method. Resets to default paragraph formatting."
 type: docs
 weight: 410
 url: /python-net/aspose.words/paragraphformat/clear_formatting/

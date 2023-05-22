@@ -1,7 +1,9 @@
 ﻿---
-title: move_first_child method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Moves to the first child entity."
+title: LayoutEnumerator.move_first_child method
+linktitle: move_first_child method
+articleTitle: move_first_child method
+second_title: Aspose.Words for Python
+description: "LayoutEnumerator.move_first_child method. Moves to the first child entity."
 type: docs
 weight: 90
 url: /python-net/aspose.words.layout/layoutenumerator/move_first_child/

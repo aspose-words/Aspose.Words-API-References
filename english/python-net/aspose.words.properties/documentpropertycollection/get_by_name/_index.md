@@ -1,7 +1,9 @@
 ﻿---
-title: get_by_name method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns a [DocumentProperty](../../documentproperty/) object by the name of the property."
+title: DocumentPropertyCollection.get_by_name method
+linktitle: get_by_name method
+articleTitle: get_by_name method
+second_title: Aspose.Words for Python
+description: "DocumentPropertyCollection.get_by_name method. Returns a [DocumentProperty](../../documentproperty/) object by the name of the property."
 type: docs
 weight: 50
 url: /python-net/aspose.words.properties/documentpropertycollection/get_by_name/

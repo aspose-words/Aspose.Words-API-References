@@ -1,7 +1,9 @@
 ﻿---
-title: end_column_bookmark method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Marks the current position in the document as a column bookmark end"
+title: DocumentBuilder.end_column_bookmark method
+linktitle: end_column_bookmark method
+articleTitle: end_column_bookmark method
+second_title: Aspose.Words for Python
+description: "DocumentBuilder.end_column_bookmark method. Marks the current position in the document as a column bookmark end"
 type: docs
 weight: 220
 url: /python-net/aspose.words/documentbuilder/end_column_bookmark/

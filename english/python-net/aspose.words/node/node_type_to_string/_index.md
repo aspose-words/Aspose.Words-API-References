@@ -1,7 +1,9 @@
 ﻿---
-title: node_type_to_string method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "A utility method that converts a node type enum value into a user friendly string."
+title: Node.node_type_to_string method
+linktitle: node_type_to_string method
+articleTitle: node_type_to_string method
+second_title: Aspose.Words for Python
+description: "Node.node_type_to_string method. A utility method that converts a node type enum value into a user friendly string."
 type: docs
 weight: 470
 url: /python-net/aspose.words/node/node_type_to_string/

@@ -1,7 +1,9 @@
 ﻿---
-title: vertical_resolution property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the vertical resolution for the generated images, in dots per inch."
+title: ImageSaveOptions.vertical_resolution property
+linktitle: vertical_resolution property
+articleTitle: vertical_resolution property
+second_title: Aspose.Words for Python
+description: "ImageSaveOptions.vertical_resolution property. Gets or sets the vertical resolution for the generated images, in dots per inch."
 type: docs
 weight: 170
 url: /python-net/aspose.words.saving/imagesaveoptions/vertical_resolution/

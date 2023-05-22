@@ -1,7 +1,9 @@
 ﻿---
-title: shading property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns a [Shading](../../shading/) object that refers to the shading formatting for the paragraph."
+title: ParagraphFormat.shading property
+linktitle: shading property
+articleTitle: shading property
+second_title: Aspose.Words for Python
+description: "ParagraphFormat.shading property. Returns a [Shading](../../shading/) object that refers to the shading formatting for the paragraph."
 type: docs
 weight: 270
 url: /python-net/aspose.words/paragraphformat/shading/

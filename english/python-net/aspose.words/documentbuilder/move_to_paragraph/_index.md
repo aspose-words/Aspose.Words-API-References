@@ -1,7 +1,9 @@
 ﻿---
-title: move_to_paragraph method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Moves the cursor to a paragraph in the current section."
+title: DocumentBuilder.move_to_paragraph method
+linktitle: move_to_paragraph method
+articleTitle: move_to_paragraph method
+second_title: Aspose.Words for Python
+description: "DocumentBuilder.move_to_paragraph method. Moves the cursor to a paragraph in the current section."
 type: docs
 weight: 560
 url: /python-net/aspose.words/documentbuilder/move_to_paragraph/

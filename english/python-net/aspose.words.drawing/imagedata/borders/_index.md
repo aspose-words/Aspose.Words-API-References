@@ -1,7 +1,9 @@
 ﻿---
-title: borders property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the collection of borders of the image"
+title: ImageData.borders property
+linktitle: borders property
+articleTitle: borders property
+second_title: Aspose.Words for Python
+description: "ImageData.borders property. Gets the collection of borders of the image"
 type: docs
 weight: 20
 url: /python-net/aspose.words.drawing/imagedata/borders/

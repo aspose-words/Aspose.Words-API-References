@@ -1,7 +1,9 @@
 ﻿---
 title: ProtectionType enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Protection type for a document."
+linktitle: ProtectionType enumeration
+articleTitle: ProtectionType enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.ProtectionType enumeration. Protection type for a document."
 type: docs
 weight: 900
 url: /python-net/aspose.words/protectiontype/

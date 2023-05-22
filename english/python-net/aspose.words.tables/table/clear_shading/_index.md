@@ -1,7 +1,9 @@
 ﻿---
-title: clear_shading method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Removes all shading on the table."
+title: Table.clear_shading method
+linktitle: clear_shading method
+articleTitle: clear_shading method
+second_title: Aspose.Words for Python
+description: "Table.clear_shading method. Removes all shading on the table."
 type: docs
 weight: 380
 url: /python-net/aspose.words.tables/table/clear_shading/

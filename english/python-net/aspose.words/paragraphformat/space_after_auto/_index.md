@@ -1,7 +1,9 @@
 ﻿---
-title: space_after_auto property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "True if the amount of spacing after the paragraph is set automatically."
+title: ParagraphFormat.space_after_auto property
+linktitle: space_after_auto property
+articleTitle: space_after_auto property
+second_title: Aspose.Words for Python
+description: "ParagraphFormat.space_after_auto property. True if the amount of spacing after the paragraph is set automatically."
 type: docs
 weight: 300
 url: /python-net/aspose.words/paragraphformat/space_after_auto/

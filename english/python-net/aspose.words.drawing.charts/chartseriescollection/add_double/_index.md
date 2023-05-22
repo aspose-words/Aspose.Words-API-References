@@ -1,6 +1,9 @@
 ﻿---
-title: add_double method
-second_title: Aspose.Words for Python via .NET API Reference
+title: ChartSeriesCollection.add_double method
+linktitle: add_double method
+articleTitle: add_double method
+second_title: Aspose.Words for Python
+description: "ChartSeriesCollection.add_double method. "
 type: docs
 weight: 50
 url: /python-net/aspose.words.drawing.charts/chartseriescollection/add_double/

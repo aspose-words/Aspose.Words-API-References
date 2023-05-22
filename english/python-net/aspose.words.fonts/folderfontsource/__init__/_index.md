@@ -1,6 +1,8 @@
 ﻿---
 title: FolderFontSource constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: FolderFontSource constructor
+articleTitle: FolderFontSource constructor
+second_title: Aspose.Words for Python
 description: "aspose.words.fonts.FolderFontSource constructor"
 type: docs
 weight: 10

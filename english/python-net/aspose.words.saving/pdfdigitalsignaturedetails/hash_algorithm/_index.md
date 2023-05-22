@@ -1,7 +1,9 @@
 ﻿---
-title: hash_algorithm property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the hash algorithm."
+title: PdfDigitalSignatureDetails.hash_algorithm property
+linktitle: hash_algorithm property
+articleTitle: hash_algorithm property
+second_title: Aspose.Words for Python
+description: "PdfDigitalSignatureDetails.hash_algorithm property. Gets or sets the hash algorithm."
 type: docs
 weight: 30
 url: /python-net/aspose.words.saving/pdfdigitalsignaturedetails/hash_algorithm/

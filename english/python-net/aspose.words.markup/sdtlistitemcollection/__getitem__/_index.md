@@ -1,7 +1,9 @@
 ﻿---
 title: SdtListItemCollection indexer
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns a [SdtListItem](../../sdtlistitem/) object given its zero-based index in the collection."
+linktitle: SdtListItemCollection indexer
+articleTitle: SdtListItemCollection indexer
+second_title: Aspose.Words for Python
+description: "SdtListItemCollection indexer. Returns a [SdtListItem](../../sdtlistitem/) object given its zero-based index in the collection."
 type: docs
 weight: 10
 url: /python-net/aspose.words.markup/sdtlistitemcollection/__getitem__/

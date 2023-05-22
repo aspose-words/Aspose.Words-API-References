@@ -1,7 +1,9 @@
 ﻿---
-title: source_full_name property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the location of the picture using an IRI."
+title: FieldIncludePicture.source_full_name property
+linktitle: source_full_name property
+articleTitle: source_full_name property
+second_title: Aspose.Words for Python
+description: "FieldIncludePicture.source_full_name property. Gets or sets the location of the picture using an IRI."
 type: docs
 weight: 60
 url: /python-net/aspose.words.fields/fieldincludepicture/source_full_name/

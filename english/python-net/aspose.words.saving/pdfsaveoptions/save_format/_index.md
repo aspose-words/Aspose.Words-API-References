@@ -1,7 +1,9 @@
 ﻿---
-title: save_format property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the format in which the document will be saved if this save options object is used"
+title: PdfSaveOptions.save_format property
+linktitle: save_format property
+articleTitle: save_format property
+second_title: Aspose.Words for Python
+description: "PdfSaveOptions.save_format property. Specifies the format in which the document will be saved if this save options object is used"
 type: docs
 weight: 280
 url: /python-net/aspose.words.saving/pdfsaveoptions/save_format/

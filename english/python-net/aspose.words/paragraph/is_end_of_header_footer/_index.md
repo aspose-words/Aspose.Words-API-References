@@ -1,7 +1,9 @@
 ﻿---
-title: is_end_of_header_footer property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "True if this paragraph is the last paragraph in the [HeaderFooter](../../headerfooter/) (main text story) of a [Section](../../section/); false otherwise."
+title: Paragraph.is_end_of_header_footer property
+linktitle: is_end_of_header_footer property
+articleTitle: is_end_of_header_footer property
+second_title: Aspose.Words for Python
+description: "Paragraph.is_end_of_header_footer property. True if this paragraph is the last paragraph in the [HeaderFooter](../../headerfooter/) (main text story) of a [Section](../../section/); false otherwise."
 type: docs
 weight: 70
 url: /python-net/aspose.words/paragraph/is_end_of_header_footer/

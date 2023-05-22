@@ -1,7 +1,9 @@
 ﻿---
-title: body property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns the [Body](../../body/) child node of the section."
+title: Section.body property
+linktitle: body property
+articleTitle: body property
+second_title: Aspose.Words for Python
+description: "Section.body property. Returns the [Body](../../body/) child node of the section."
 type: docs
 weight: 20
 url: /python-net/aspose.words/section/body/

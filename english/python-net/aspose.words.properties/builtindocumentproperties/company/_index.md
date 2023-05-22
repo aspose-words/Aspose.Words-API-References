@@ -1,7 +1,9 @@
 ﻿---
-title: company property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the company property."
+title: BuiltInDocumentProperties.company property
+linktitle: company property
+articleTitle: company property
+second_title: Aspose.Words for Python
+description: "BuiltInDocumentProperties.company property. Gets or sets the company property."
 type: docs
 weight: 80
 url: /python-net/aspose.words.properties/builtindocumentproperties/company/

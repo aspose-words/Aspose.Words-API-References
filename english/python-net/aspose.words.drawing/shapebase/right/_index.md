@@ -1,7 +1,9 @@
 ﻿---
-title: right property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the position of the right edge of the containing block of the shape."
+title: ShapeBase.right property
+linktitle: right property
+articleTitle: right property
+second_title: Aspose.Words for Python
+description: "ShapeBase.right property. Gets the position of the right edge of the containing block of the shape."
 type: docs
 weight: 460
 url: /python-net/aspose.words.drawing/shapebase/right/

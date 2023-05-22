@@ -1,6 +1,8 @@
 ﻿﻿---
 title: aspose.words.saving module
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: aspose.words.saving module
+articleTitle: aspose.words.saving module
+second_title: Aspose.Words for Python
 description: "The aspose.words.saving module provides classes and enumerations that allow to specify additional options for saving or converting documents."
 type: docs
 weight: 220

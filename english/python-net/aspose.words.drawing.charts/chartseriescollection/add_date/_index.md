@@ -1,6 +1,9 @@
 ﻿---
-title: add_date method
-second_title: Aspose.Words for Python via .NET API Reference
+title: ChartSeriesCollection.add_date method
+linktitle: add_date method
+articleTitle: add_date method
+second_title: Aspose.Words for Python
+description: "ChartSeriesCollection.add_date method. "
 type: docs
 weight: 40
 url: /python-net/aspose.words.drawing.charts/chartseriescollection/add_date/

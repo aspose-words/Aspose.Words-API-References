@@ -1,7 +1,9 @@
 ﻿---
-title: drop_down_items property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides access to the items of a dropdown form field."
+title: FormField.drop_down_items property
+linktitle: drop_down_items property
+articleTitle: drop_down_items property
+second_title: Aspose.Words for Python
+description: "FormField.drop_down_items property. Provides access to the items of a dropdown form field."
 type: docs
 weight: 50
 url: /python-net/aspose.words.fields/formfield/drop_down_items/

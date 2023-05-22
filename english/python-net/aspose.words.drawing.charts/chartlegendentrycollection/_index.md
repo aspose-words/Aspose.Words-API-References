@@ -1,7 +1,9 @@
 ﻿﻿---
 title: ChartLegendEntryCollection class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a collection of chart legend entries"
+linktitle: ChartLegendEntryCollection class
+articleTitle: ChartLegendEntryCollection class
+second_title: Aspose.Words for Python
+description: "aspose.words.drawing.charts.ChartLegendEntryCollection class. Represents a collection of chart legend entries"
 type: docs
 weight: 230
 url: /python-net/aspose.words.drawing.charts/chartlegendentrycollection/

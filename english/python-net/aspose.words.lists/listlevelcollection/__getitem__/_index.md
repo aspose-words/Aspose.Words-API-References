@@ -1,7 +1,9 @@
 ﻿---
 title: ListLevelCollection indexer
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets a list level by index."
+linktitle: ListLevelCollection indexer
+articleTitle: ListLevelCollection indexer
+second_title: Aspose.Words for Python
+description: "ListLevelCollection indexer. Gets a list level by index."
 type: docs
 weight: 10
 url: /python-net/aspose.words.lists/listlevelcollection/__getitem__/

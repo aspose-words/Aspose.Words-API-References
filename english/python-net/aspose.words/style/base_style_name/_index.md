@@ -1,7 +1,9 @@
 ﻿---
-title: base_style_name property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets/sets the name of the style this style is based on."
+title: Style.base_style_name property
+linktitle: base_style_name property
+articleTitle: base_style_name property
+second_title: Aspose.Words for Python
+description: "Style.base_style_name property. Gets/sets the name of the style this style is based on."
 type: docs
 weight: 30
 url: /python-net/aspose.words/style/base_style_name/

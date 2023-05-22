@@ -1,7 +1,9 @@
 ﻿---
-title: is_visible property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns ``True`` if the [Border.line_style](../line_style/) is not [LineStyle.NONE](../../linestyle/#NONE)."
+title: Border.is_visible property
+linktitle: is_visible property
+articleTitle: is_visible property
+second_title: Aspose.Words for Python
+description: "Border.is_visible property. Returns ``True`` if the [Border.line_style](../line_style/) is not [LineStyle.NONE](../../linestyle/#NONE)."
 type: docs
 weight: 30
 url: /python-net/aspose.words/border/is_visible/

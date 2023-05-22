@@ -1,7 +1,9 @@
 ﻿---
-title: building_block_gallery property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies type of building block for this SDT"
+title: StructuredDocumentTag.building_block_gallery property
+linktitle: building_block_gallery property
+articleTitle: building_block_gallery property
+second_title: Aspose.Words for Python
+description: "StructuredDocumentTag.building_block_gallery property. Specifies type of building block for this SDT"
 type: docs
 weight: 40
 url: /python-net/aspose.words.markup/structureddocumenttag/building_block_gallery/

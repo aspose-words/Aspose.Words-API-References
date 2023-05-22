@@ -1,7 +1,9 @@
 ﻿---
-title: field_update_culture_source property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies what culture to use to format the field result."
+title: FieldOptions.field_update_culture_source property
+linktitle: field_update_culture_source property
+articleTitle: field_update_culture_source property
+second_title: Aspose.Words for Python
+description: "FieldOptions.field_update_culture_source property. Specifies what culture to use to format the field result."
 type: docs
 weight: 100
 url: /python-net/aspose.words.fields/fieldoptions/field_update_culture_source/

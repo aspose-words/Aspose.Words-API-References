@@ -1,7 +1,9 @@
 ﻿---
-title: emulate_raster_operations property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a value determining whether or not the raster operations should be emulated."
+title: MetafileRenderingOptions.emulate_raster_operations property
+linktitle: emulate_raster_operations property
+articleTitle: emulate_raster_operations property
+second_title: Aspose.Words for Python
+description: "MetafileRenderingOptions.emulate_raster_operations property. Gets or sets a value determining whether or not the raster operations should be emulated."
 type: docs
 weight: 30
 url: /python-net/aspose.words.saving/metafilerenderingoptions/emulate_raster_operations/

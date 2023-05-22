@@ -1,7 +1,9 @@
 ﻿---
-title: width property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the width of the containing block of the shape."
+title: ShapeBase.width property
+linktitle: width property
+articleTitle: width property
+second_title: Aspose.Words for Python
+description: "ShapeBase.width property. Gets or sets the width of the containing block of the shape."
 type: docs
 weight: 570
 url: /python-net/aspose.words.drawing/shapebase/width/

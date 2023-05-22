@@ -1,7 +1,9 @@
 ﻿---
-title: line_number_restart_mode property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the way line numbering runs  that is, whether it starts over at the beginning of a new page or section or runs continuously."
+title: PageSetup.line_number_restart_mode property
+linktitle: line_number_restart_mode property
+articleTitle: line_number_restart_mode property
+second_title: Aspose.Words for Python
+description: "PageSetup.line_number_restart_mode property. Gets or sets the way line numbering runs  that is, whether it starts over at the beginning of a new page or section or runs continuously."
 type: docs
 weight: 230
 url: /python-net/aspose.words/pagesetup/line_number_restart_mode/

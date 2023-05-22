@@ -1,7 +1,9 @@
 ﻿---
-title: use_emf_embedded_to_wmf property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a value determining how WMF metafiles with embedded EMF metafiles should be rendered."
+title: MetafileRenderingOptions.use_emf_embedded_to_wmf property
+linktitle: use_emf_embedded_to_wmf property
+articleTitle: use_emf_embedded_to_wmf property
+second_title: Aspose.Words for Python
+description: "MetafileRenderingOptions.use_emf_embedded_to_wmf property. Gets or sets a value determining how WMF metafiles with embedded EMF metafiles should be rendered."
 type: docs
 weight: 60
 url: /python-net/aspose.words.saving/metafilerenderingoptions/use_emf_embedded_to_wmf/

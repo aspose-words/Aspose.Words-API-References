@@ -1,7 +1,9 @@
 ﻿---
-title: comments property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the signing purpose comment."
+title: DigitalSignature.comments property
+linktitle: comments property
+articleTitle: comments property
+second_title: Aspose.Words for Python
+description: "DigitalSignature.comments property. Gets the signing purpose comment."
 type: docs
 weight: 20
 url: /python-net/aspose.words.digitalsignatures/digitalsignature/comments/

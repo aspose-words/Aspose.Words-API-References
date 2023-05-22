@@ -1,7 +1,9 @@
 ﻿---
-title: warning method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Aspose.Words invokes this method when it encounters some issue during document loading  or saving that might result in loss of formatting or data fidelity."
+title: IWarningCallback.warning method
+linktitle: warning method
+articleTitle: warning method
+second_title: Aspose.Words for Python
+description: "IWarningCallback.warning method. Aspose.Words invokes this method when it encounters some issue during document loading  or saving that might result in loss of formatting or data fidelity."
 type: docs
 weight: 10
 url: /python-net/aspose.words/iwarningcallback/warning/

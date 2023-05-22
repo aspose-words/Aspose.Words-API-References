@@ -1,7 +1,9 @@
 ﻿---
-title: language_id property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the language ID used to generate the index."
+title: FieldIndex.language_id property
+linktitle: language_id property
+articleTitle: language_id property
+second_title: Aspose.Words for Python
+description: "FieldIndex.language_id property. Gets or sets the language ID used to generate the index."
 type: docs
 weight: 80
 url: /python-net/aspose.words.fields/fieldindex/language_id/

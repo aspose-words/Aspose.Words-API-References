@@ -1,7 +1,9 @@
 ﻿---
-title: user_name property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gest or sets the current user's name."
+title: FieldUserName.user_name property
+linktitle: user_name property
+articleTitle: user_name property
+second_title: Aspose.Words for Python
+description: "FieldUserName.user_name property. Gest or sets the current user's name."
 type: docs
 weight: 20
 url: /python-net/aspose.words.fields/fieldusername/user_name/

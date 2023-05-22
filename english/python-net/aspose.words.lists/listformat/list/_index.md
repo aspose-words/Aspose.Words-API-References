@@ -1,7 +1,9 @@
 ﻿---
-title: list property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the list this paragraph is a member of."
+title: ListFormat.list property
+linktitle: list property
+articleTitle: list property
+second_title: Aspose.Words for Python
+description: "ListFormat.list property. Gets or sets the list this paragraph is a member of."
 type: docs
 weight: 20
 url: /python-net/aspose.words.lists/listformat/list/

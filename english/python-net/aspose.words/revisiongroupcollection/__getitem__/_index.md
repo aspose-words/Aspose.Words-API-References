@@ -1,7 +1,9 @@
 ﻿---
 title: RevisionGroupCollection indexer
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns a revision group at the specified index."
+linktitle: RevisionGroupCollection indexer
+articleTitle: RevisionGroupCollection indexer
+second_title: Aspose.Words for Python
+description: "RevisionGroupCollection indexer. Returns a revision group at the specified index."
 type: docs
 weight: 10
 url: /python-net/aspose.words/revisiongroupcollection/__getitem__/

@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FileFontSource class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents the single TrueType font file stored in the file system"
+linktitle: FileFontSource class
+articleTitle: FileFontSource class
+second_title: Aspose.Words for Python
+description: "aspose.words.fonts.FileFontSource class. Represents the single TrueType font file stored in the file system"
 type: docs
 weight: 40
 url: /python-net/aspose.words.fonts/filefontsource/

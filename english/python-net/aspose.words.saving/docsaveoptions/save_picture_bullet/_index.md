@@ -1,7 +1,9 @@
 ﻿---
-title: save_picture_bullet property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "When ``False``, PictureBullet data is not saved to output document"
+title: DocSaveOptions.save_picture_bullet property
+linktitle: save_picture_bullet property
+articleTitle: save_picture_bullet property
+second_title: Aspose.Words for Python
+description: "DocSaveOptions.save_picture_bullet property. When ``False``, PictureBullet data is not saved to output document"
 type: docs
 weight: 50
 url: /python-net/aspose.words.saving/docsaveoptions/save_picture_bullet/

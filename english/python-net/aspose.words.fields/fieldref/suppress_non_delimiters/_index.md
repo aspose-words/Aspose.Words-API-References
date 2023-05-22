@@ -1,7 +1,9 @@
 ﻿---
-title: suppress_non_delimiters property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets whether to suppress non-delimiter characters."
+title: FieldRef.suppress_non_delimiters property
+linktitle: suppress_non_delimiters property
+articleTitle: suppress_non_delimiters property
+second_title: Aspose.Words for Python
+description: "FieldRef.suppress_non_delimiters property. Gets or sets whether to suppress non-delimiter characters."
 type: docs
 weight: 100
 url: /python-net/aspose.words.fields/fieldref/suppress_non_delimiters/

@@ -1,7 +1,9 @@
 ﻿---
-title: automatically_update_styles property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a flag indicating whether the styles in the document are updated to match the styles in the attached template each time the document is opened in MS Word."
+title: Document.automatically_update_styles property
+linktitle: automatically_update_styles property
+articleTitle: automatically_update_styles property
+second_title: Aspose.Words for Python
+description: "Document.automatically_update_styles property. Gets or sets a flag indicating whether the styles in the document are updated to match the styles in the attached template each time the document is opened in MS Word."
 type: docs
 weight: 30
 url: /python-net/aspose.words/document/automatically_update_styles/

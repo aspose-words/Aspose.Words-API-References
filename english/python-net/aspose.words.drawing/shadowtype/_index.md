@@ -1,7 +1,9 @@
 ﻿---
 title: ShadowType enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the type of a shape shadow."
+linktitle: ShadowType enumeration
+articleTitle: ShadowType enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.drawing.ShadowType enumeration. Specifies the type of a shape shadow."
 type: docs
 weight: 310
 url: /python-net/aspose.words.drawing/shadowtype/

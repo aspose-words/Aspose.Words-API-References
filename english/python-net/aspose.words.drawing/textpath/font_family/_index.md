@@ -1,7 +1,9 @@
 ﻿---
-title: font_family property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Defines the family of the textpath font."
+title: TextPath.font_family property
+linktitle: font_family property
+articleTitle: font_family property
+second_title: Aspose.Words for Python
+description: "TextPath.font_family property. Defines the family of the textpath font."
 type: docs
 weight: 40
 url: /python-net/aspose.words.drawing/textpath/font_family/

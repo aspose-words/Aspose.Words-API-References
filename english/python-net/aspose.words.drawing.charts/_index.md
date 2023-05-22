@@ -1,6 +1,8 @@
 ﻿﻿---
 title: aspose.words.drawing.charts module
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: aspose.words.drawing.charts module
+articleTitle: aspose.words.drawing.charts module
+second_title: Aspose.Words for Python
 description: "The aspose.words.drawing.charts module provides classes that allow to access charts in Microsoft Word documents."
 type: docs
 weight: 60

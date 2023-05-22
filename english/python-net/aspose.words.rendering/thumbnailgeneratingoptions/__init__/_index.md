@@ -1,6 +1,9 @@
 ﻿---
 title: ThumbnailGeneratingOptions constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: ThumbnailGeneratingOptions constructor
+articleTitle: ThumbnailGeneratingOptions constructor
+second_title: Aspose.Words for Python
+description: "ThumbnailGeneratingOptions constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.rendering/thumbnailgeneratingoptions/__init__/

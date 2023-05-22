@@ -1,7 +1,9 @@
 ﻿---
-title: default property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the default value of the check box form field"
+title: FormField.default property
+linktitle: default property
+articleTitle: default property
+second_title: Aspose.Words for Python
+description: "FormField.default property. Gets or sets the default value of the check box form field"
 type: docs
 weight: 40
 url: /python-net/aspose.words.fields/formfield/default/

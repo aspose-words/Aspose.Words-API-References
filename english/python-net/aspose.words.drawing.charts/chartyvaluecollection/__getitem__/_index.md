@@ -1,7 +1,9 @@
 ﻿---
 title: ChartYValueCollection indexer
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the Y value at the specified index."
+linktitle: ChartYValueCollection indexer
+articleTitle: ChartYValueCollection indexer
+second_title: Aspose.Words for Python
+description: "ChartYValueCollection indexer. Gets or sets the Y value at the specified index."
 type: docs
 weight: 10
 url: /python-net/aspose.words.drawing.charts/chartyvaluecollection/__getitem__/

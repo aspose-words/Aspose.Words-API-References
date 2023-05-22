@@ -1,7 +1,9 @@
 ﻿---
-title: accent2 property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies color Accent 2."
+title: ThemeColors.accent2 property
+linktitle: accent2 property
+articleTitle: accent2 property
+second_title: Aspose.Words for Python
+description: "ThemeColors.accent2 property. Specifies color Accent 2."
 type: docs
 weight: 20
 url: /python-net/aspose.words.themes/themecolors/accent2/

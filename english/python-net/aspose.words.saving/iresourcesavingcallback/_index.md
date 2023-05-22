@@ -1,7 +1,9 @@
 ﻿---
 title: IResourceSavingCallback class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implement this interface if you want to control how Aspose.Words saves external resources (images, fonts and css) when  saving a document to fixed page HTML or SVG."
+linktitle: IResourceSavingCallback class
+articleTitle: IResourceSavingCallback class
+second_title: Aspose.Words for Python
+description: "aspose.words.saving.IResourceSavingCallback class. Implement this interface if you want to control how Aspose.Words saves external resources (images, fonts and css) when  saving a document to fixed page HTML or SVG."
 type: docs
 weight: 340
 url: /python-net/aspose.words.saving/iresourcesavingcallback/

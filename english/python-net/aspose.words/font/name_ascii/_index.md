@@ -1,7 +1,9 @@
 ﻿---
-title: name_ascii property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns or sets the font used for Latin text (characters with character codes from 0 (zero) through 127)."
+title: Font.name_ascii property
+linktitle: name_ascii property
+articleTitle: name_ascii property
+second_title: Aspose.Words for Python
+description: "Font.name_ascii property. Returns or sets the font used for Latin text (characters with character codes from 0 (zero) through 127)."
 type: docs
 weight: 240
 url: /python-net/aspose.words/font/name_ascii/

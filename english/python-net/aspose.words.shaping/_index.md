@@ -1,6 +1,8 @@
 ﻿---
 title: aspose.words.shaping module
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: aspose.words.shaping module
+articleTitle: aspose.words.shaping module
+second_title: Aspose.Words for Python
 description: "The aspose.words.shaping module contains classes to provide support for OpenType features using external text shaping engines."
 type: docs
 weight: 240

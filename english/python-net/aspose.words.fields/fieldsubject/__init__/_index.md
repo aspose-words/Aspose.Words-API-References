@@ -1,6 +1,9 @@
 ﻿---
 title: FieldSubject constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: FieldSubject constructor
+articleTitle: FieldSubject constructor
+second_title: Aspose.Words for Python
+description: "FieldSubject constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/fieldsubject/__init__/

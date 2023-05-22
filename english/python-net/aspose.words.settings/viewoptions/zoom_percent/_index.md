@@ -1,7 +1,9 @@
 ﻿---
-title: zoom_percent property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the percentage (between 10 and 500) at which you want to view your document."
+title: ViewOptions.zoom_percent property
+linktitle: zoom_percent property
+articleTitle: zoom_percent property
+second_title: Aspose.Words for Python
+description: "ViewOptions.zoom_percent property. Gets or sets the percentage (between 10 and 500) at which you want to view your document."
 type: docs
 weight: 50
 url: /python-net/aspose.words.settings/viewoptions/zoom_percent/

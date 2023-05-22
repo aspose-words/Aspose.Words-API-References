@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldTA class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the TA field"
+linktitle: FieldTA class
+articleTitle: FieldTA class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldTA class. Implements the TA field"
 type: docs
 weight: 1010
 url: /python-net/aspose.words.fields/fieldta/

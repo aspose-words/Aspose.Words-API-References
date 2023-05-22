@@ -1,6 +1,9 @@
 ﻿---
 title: FieldLastSavedBy constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: FieldLastSavedBy constructor
+articleTitle: FieldLastSavedBy constructor
+second_title: Aspose.Words for Python
+description: "FieldLastSavedBy constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/fieldlastsavedby/__init__/

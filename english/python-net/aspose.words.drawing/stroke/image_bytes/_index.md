@@ -1,7 +1,9 @@
 ﻿---
-title: image_bytes property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Defines the image for a stroke image or pattern fill."
+title: Stroke.image_bytes property
+linktitle: image_bytes property
+articleTitle: image_bytes property
+second_title: Aspose.Words for Python
+description: "Stroke.image_bytes property. Defines the image for a stroke image or pattern fill."
 type: docs
 weight: 110
 url: /python-net/aspose.words.drawing/stroke/image_bytes/

@@ -1,7 +1,9 @@
 ﻿---
-title: display_result property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the text that represents the displayed field result."
+title: Field.display_result property
+linktitle: display_result property
+articleTitle: display_result property
+second_title: Aspose.Words for Python
+description: "Field.display_result property. Gets the text that represents the displayed field result."
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/field/display_result/

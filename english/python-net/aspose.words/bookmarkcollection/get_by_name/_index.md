@@ -1,7 +1,9 @@
 ﻿---
-title: get_by_name method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns a bookmark by name."
+title: BookmarkCollection.get_by_name method
+linktitle: get_by_name method
+articleTitle: get_by_name method
+second_title: Aspose.Words for Python
+description: "BookmarkCollection.get_by_name method. Returns a bookmark by name."
 type: docs
 weight: 40
 url: /python-net/aspose.words/bookmarkcollection/get_by_name/

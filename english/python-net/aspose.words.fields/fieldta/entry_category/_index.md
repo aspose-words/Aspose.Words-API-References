@@ -1,7 +1,9 @@
 ﻿---
-title: entry_category property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the integral entry category, which is a number that corresponds to the order of categories."
+title: FieldTA.entry_category property
+linktitle: entry_category property
+articleTitle: entry_category property
+second_title: Aspose.Words for Python
+description: "FieldTA.entry_category property. Gets or sets the integral entry category, which is a number that corresponds to the order of categories."
 type: docs
 weight: 20
 url: /python-net/aspose.words.fields/fieldta/entry_category/

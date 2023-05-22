@@ -1,7 +1,9 @@
 ﻿﻿---
 title: JsonDataLoadOptions class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents options for parsing JSON data"
+linktitle: JsonDataLoadOptions class
+articleTitle: JsonDataLoadOptions class
+second_title: Aspose.Words for Python
+description: "aspose.words.reporting.JsonDataLoadOptions class. Represents options for parsing JSON data"
 type: docs
 weight: 30
 url: /python-net/aspose.words.reporting/jsondataloadoptions/

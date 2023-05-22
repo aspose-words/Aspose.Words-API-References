@@ -1,7 +1,9 @@
 ﻿---
-title: line_number_distance_from_text property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets distance between the right edge of line numbers and the left edge of the document."
+title: PageSetup.line_number_distance_from_text property
+linktitle: line_number_distance_from_text property
+articleTitle: line_number_distance_from_text property
+second_title: Aspose.Words for Python
+description: "PageSetup.line_number_distance_from_text property. Gets or sets distance between the right edge of line numbers and the left edge of the document."
 type: docs
 weight: 220
 url: /python-net/aspose.words/pagesetup/line_number_distance_from_text/

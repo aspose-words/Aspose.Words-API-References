@@ -1,7 +1,9 @@
 ﻿---
 title: GradientStyle enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the style for a gradient fill."
+linktitle: GradientStyle enumeration
+articleTitle: GradientStyle enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.drawing.GradientStyle enumeration. Specifies the style for a gradient fill."
 type: docs
 weight: 110
 url: /python-net/aspose.words.drawing/gradientstyle/

@@ -1,7 +1,9 @@
 ﻿﻿---
 title: GradientStopCollection class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Contains a collection of [GradientStop](../gradientstop/) objects"
+linktitle: GradientStopCollection class
+articleTitle: GradientStopCollection class
+second_title: Aspose.Words for Python
+description: "aspose.words.drawing.GradientStopCollection class. Contains a collection of [GradientStop](../gradientstop/) objects"
 type: docs
 weight: 100
 url: /python-net/aspose.words.drawing/gradientstopcollection/

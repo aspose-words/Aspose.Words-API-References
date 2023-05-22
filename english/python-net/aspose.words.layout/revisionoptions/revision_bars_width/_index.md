@@ -1,7 +1,9 @@
 ﻿---
-title: revision_bars_width property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets width of revision bars, points."
+title: RevisionOptions.revision_bars_width property
+linktitle: revision_bars_width property
+articleTitle: revision_bars_width property
+second_title: Aspose.Words for Python
+description: "RevisionOptions.revision_bars_width property. Gets or sets width of revision bars, points."
 type: docs
 weight: 150
 url: /python-net/aspose.words.layout/revisionoptions/revision_bars_width/

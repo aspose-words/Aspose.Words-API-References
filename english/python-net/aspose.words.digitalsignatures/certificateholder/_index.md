@@ -1,7 +1,9 @@
 ﻿﻿---
 title: CertificateHolder class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a holder of X509Certificate2 instance"
+linktitle: CertificateHolder class
+articleTitle: CertificateHolder class
+second_title: Aspose.Words for Python
+description: "aspose.words.digitalsignatures.CertificateHolder class. Represents a holder of X509Certificate2 instance"
 type: docs
 weight: 10
 url: /python-net/aspose.words.digitalsignatures/certificateholder/

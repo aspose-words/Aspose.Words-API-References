@@ -1,7 +1,9 @@
 ﻿---
-title: vertical_alignment property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the vertical alignment for the cells."
+title: TableStyle.vertical_alignment property
+linktitle: vertical_alignment property
+articleTitle: vertical_alignment property
+second_title: Aspose.Words for Python
+description: "TableStyle.vertical_alignment property. Specifies the vertical alignment for the cells."
 type: docs
 weight: 150
 url: /python-net/aspose.words/tablestyle/vertical_alignment/

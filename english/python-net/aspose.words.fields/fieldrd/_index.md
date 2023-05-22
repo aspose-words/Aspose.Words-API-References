@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldRD class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the RD field"
+linktitle: FieldRD class
+articleTitle: FieldRD class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldRD class. Implements the RD field"
 type: docs
 weight: 860
 url: /python-net/aspose.words.fields/fieldrd/

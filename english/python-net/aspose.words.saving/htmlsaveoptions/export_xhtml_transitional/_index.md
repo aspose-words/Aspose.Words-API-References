@@ -1,7 +1,9 @@
 ﻿---
-title: export_xhtml_transitional property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies whether to write the DOCTYPE declaration when saving to HTML or MHTML"
+title: HtmlSaveOptions.export_xhtml_transitional property
+linktitle: export_xhtml_transitional property
+articleTitle: export_xhtml_transitional property
+second_title: Aspose.Words for Python
+description: "HtmlSaveOptions.export_xhtml_transitional property. Specifies whether to write the DOCTYPE declaration when saving to HTML or MHTML"
 type: docs
 weight: 290
 url: /python-net/aspose.words.saving/htmlsaveoptions/export_xhtml_transitional/

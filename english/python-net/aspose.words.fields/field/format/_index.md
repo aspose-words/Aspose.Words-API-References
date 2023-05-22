@@ -1,7 +1,9 @@
 ﻿---
-title: format property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets a [FieldFormat](../../fieldformat/) object that provides typed access to field's formatting."
+title: Field.format property
+linktitle: format property
+articleTitle: format property
+second_title: Aspose.Words for Python
+description: "Field.format property. Gets a [FieldFormat](../../fieldformat/) object that provides typed access to field's formatting."
 type: docs
 weight: 30
 url: /python-net/aspose.words.fields/field/format/

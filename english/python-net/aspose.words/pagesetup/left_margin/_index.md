@@ -1,7 +1,9 @@
 ﻿---
-title: left_margin property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns or sets the distance (in points) between the left edge of the page and the left boundary of the body text."
+title: PageSetup.left_margin property
+linktitle: left_margin property
+articleTitle: left_margin property
+second_title: Aspose.Words for Python
+description: "PageSetup.left_margin property. Returns or sets the distance (in points) between the left edge of the page and the left boundary of the body text."
 type: docs
 weight: 200
 url: /python-net/aspose.words/pagesetup/left_margin/

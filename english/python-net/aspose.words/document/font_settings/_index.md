@@ -1,7 +1,9 @@
 ﻿---
-title: font_settings property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets document font settings."
+title: Document.font_settings property
+linktitle: font_settings property
+articleTitle: font_settings property
+second_title: Aspose.Words for Python
+description: "Document.font_settings property. Gets or sets document font settings."
 type: docs
 weight: 140
 url: /python-net/aspose.words/document/font_settings/

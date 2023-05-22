@@ -1,7 +1,9 @@
 ﻿---
-title: show_value property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to specify whether values are to be displayed in the data labels of the entire series"
+title: ChartDataLabelCollection.show_value property
+linktitle: show_value property
+articleTitle: show_value property
+second_title: Aspose.Words for Python
+description: "ChartDataLabelCollection.show_value property. Allows to specify whether values are to be displayed in the data labels of the entire series"
 type: docs
 weight: 130
 url: /python-net/aspose.words.drawing.charts/chartdatalabelcollection/show_value/

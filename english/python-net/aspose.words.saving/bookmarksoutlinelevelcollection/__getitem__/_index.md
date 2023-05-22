@@ -1,7 +1,9 @@
 ﻿---
 title: BookmarksOutlineLevelCollection indexer
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a bookmark outline level at the specified index."
+linktitle: BookmarksOutlineLevelCollection indexer
+articleTitle: BookmarksOutlineLevelCollection indexer
+second_title: Aspose.Words for Python
+description: "BookmarksOutlineLevelCollection indexer. Gets or sets a bookmark outline level at the specified index."
 type: docs
 weight: 20
 url: /python-net/aspose.words.saving/bookmarksoutlinelevelcollection/__getitem__/

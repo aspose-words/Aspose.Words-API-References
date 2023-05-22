@@ -1,7 +1,9 @@
 ﻿---
-title: full_date property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the full date and time last entered into this SDT."
+title: StructuredDocumentTag.full_date property
+linktitle: full_date property
+articleTitle: full_date property
+second_title: Aspose.Words for Python
+description: "StructuredDocumentTag.full_date property. Specifies the full date and time last entered into this SDT."
 type: docs
 weight: 130
 url: /python-net/aspose.words.markup/structureddocumenttag/full_date/

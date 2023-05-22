@@ -1,7 +1,9 @@
 ﻿---
-title: compliance property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the OOXML compliance version determined from the loaded document content"
+title: Document.compliance property
+linktitle: compliance property
+articleTitle: compliance property
+second_title: Aspose.Words for Python
+description: "Document.compliance property. Gets the OOXML compliance version determined from the loaded document content"
 type: docs
 weight: 60
 url: /python-net/aspose.words/document/compliance/

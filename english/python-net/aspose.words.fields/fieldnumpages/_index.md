@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldNumPages class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the NUMPAGES field"
+linktitle: FieldNumPages class
+articleTitle: FieldNumPages class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldNumPages class. Implements the NUMPAGES field"
 type: docs
 weight: 760
 url: /python-net/aspose.words.fields/fieldnumpages/

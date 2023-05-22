@@ -1,7 +1,9 @@
 ﻿---
 title: StructuredDocumentTag constructor
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Initializes a new instance of the Structured document tag class."
+linktitle: StructuredDocumentTag constructor
+articleTitle: StructuredDocumentTag constructor
+second_title: Aspose.Words for Python
+description: "StructuredDocumentTag constructor. Initializes a new instance of the Structured document tag class."
 type: docs
 weight: 10
 url: /python-net/aspose.words.markup/structureddocumenttag/__init__/

@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldMacroButton class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the MACROBUTTON field"
+linktitle: FieldMacroButton class
+articleTitle: FieldMacroButton class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldMacroButton class. Implements the MACROBUTTON field"
 type: docs
 weight: 670
 url: /python-net/aspose.words.fields/fieldmacrobutton/

@@ -1,7 +1,9 @@
 ﻿---
 title: OfficeMathRenderer constructor
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Initializes a new instance of this class."
+linktitle: OfficeMathRenderer constructor
+articleTitle: OfficeMathRenderer constructor
+second_title: Aspose.Words for Python
+description: "OfficeMathRenderer constructor. Initializes a new instance of this class."
 type: docs
 weight: 10
 url: /python-net/aspose.words.rendering/officemathrenderer/__init__/

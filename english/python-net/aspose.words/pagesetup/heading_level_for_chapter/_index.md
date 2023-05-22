@@ -1,7 +1,9 @@
 ﻿---
-title: heading_level_for_chapter property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the heading level style that is applied to the chapter titles in the document."
+title: PageSetup.heading_level_for_chapter property
+linktitle: heading_level_for_chapter property
+articleTitle: heading_level_for_chapter property
+second_title: Aspose.Words for Python
+description: "PageSetup.heading_level_for_chapter property. Gets or sets the heading level style that is applied to the chapter titles in the document."
 type: docs
 weight: 180
 url: /python-net/aspose.words/pagesetup/heading_level_for_chapter/

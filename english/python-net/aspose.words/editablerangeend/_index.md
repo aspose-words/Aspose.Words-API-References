@@ -1,7 +1,9 @@
 ﻿﻿---
 title: EditableRangeEnd class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents an end of an editable range in a Word document"
+linktitle: EditableRangeEnd class
+articleTitle: EditableRangeEnd class
+second_title: Aspose.Words for Python
+description: "aspose.words.EditableRangeEnd class. Represents an end of an editable range in a Word document"
 type: docs
 weight: 340
 url: /python-net/aspose.words/editablerangeend/

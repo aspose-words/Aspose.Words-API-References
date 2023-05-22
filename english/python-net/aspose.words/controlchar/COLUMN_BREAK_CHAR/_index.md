@@ -1,7 +1,9 @@
 ﻿---
-title: COLUMN_BREAK_CHAR property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "End of column character: (char)14."
+title: ControlChar.COLUMN_BREAK_CHAR property
+linktitle: COLUMN_BREAK_CHAR property
+articleTitle: COLUMN_BREAK_CHAR property
+second_title: Aspose.Words for Python
+description: "ControlChar.COLUMN_BREAK_CHAR property. End of column character: (char)14."
 type: docs
 weight: 40
 url: /python-net/aspose.words/controlchar/COLUMN_BREAK_CHAR/

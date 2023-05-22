@@ -1,7 +1,9 @@
 ﻿---
 title: FieldAddIn class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the ADDIN field."
+linktitle: FieldAddIn class
+articleTitle: FieldAddIn class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldAddIn class. Implements the ADDIN field."
 type: docs
 weight: 60
 url: /python-net/aspose.words.fields/fieldaddin/

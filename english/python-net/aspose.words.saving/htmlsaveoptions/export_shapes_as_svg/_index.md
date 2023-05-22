@@ -1,7 +1,9 @@
 ﻿---
-title: export_shapes_as_svg property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Controls whether [Shape](../../../aspose.words.drawing/shape/) nodes are converted to SVG images when saving to HTML, MHTML, EPUB or AZW3"
+title: HtmlSaveOptions.export_shapes_as_svg property
+linktitle: export_shapes_as_svg property
+articleTitle: export_shapes_as_svg property
+second_title: Aspose.Words for Python
+description: "HtmlSaveOptions.export_shapes_as_svg property. Controls whether [Shape](../../../aspose.words.drawing/shape/) nodes are converted to SVG images when saving to HTML, MHTML, EPUB or AZW3"
 type: docs
 weight: 260
 url: /python-net/aspose.words.saving/htmlsaveoptions/export_shapes_as_svg/

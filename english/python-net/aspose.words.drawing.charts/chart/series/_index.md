@@ -1,7 +1,9 @@
 ﻿---
-title: series property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides access to series collection."
+title: Chart.series property
+linktitle: series property
+articleTitle: series property
+second_title: Aspose.Words for Python
+description: "Chart.series property. Provides access to series collection."
 type: docs
 weight: 60
 url: /python-net/aspose.words.drawing.charts/chart/series/

@@ -1,7 +1,9 @@
 ﻿---
-title: insert_paragraph_number_in_relative_context property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets whether to insert the paragraph number of the referenced paragraph in relative context."
+title: FieldStyleRef.insert_paragraph_number_in_relative_context property
+linktitle: insert_paragraph_number_in_relative_context property
+articleTitle: insert_paragraph_number_in_relative_context property
+second_title: Aspose.Words for Python
+description: "FieldStyleRef.insert_paragraph_number_in_relative_context property. Gets or sets whether to insert the paragraph number of the referenced paragraph in relative context."
 type: docs
 weight: 40
 url: /python-net/aspose.words.fields/fieldstyleref/insert_paragraph_number_in_relative_context/

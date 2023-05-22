@@ -1,7 +1,9 @@
 ﻿﻿---
 title: DocumentBuilder class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides methods to insert text, images and other content, specify font, paragraph and section formatting"
+linktitle: DocumentBuilder class
+articleTitle: DocumentBuilder class
+second_title: Aspose.Words for Python
+description: "aspose.words.DocumentBuilder class. Provides methods to insert text, images and other content, specify font, paragraph and section formatting"
 type: docs
 weight: 290
 url: /python-net/aspose.words/documentbuilder/

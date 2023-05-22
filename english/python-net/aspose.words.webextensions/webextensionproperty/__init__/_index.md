@@ -1,7 +1,9 @@
 ﻿---
 title: WebExtensionProperty constructor
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Creates web extension custom property with specified name and value."
+linktitle: WebExtensionProperty constructor
+articleTitle: WebExtensionProperty constructor
+second_title: Aspose.Words for Python
+description: "WebExtensionProperty constructor. Creates web extension custom property with specified name and value."
 type: docs
 weight: 10
 url: /python-net/aspose.words.webextensions/webextensionproperty/__init__/

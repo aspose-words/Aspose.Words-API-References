@@ -1,7 +1,9 @@
 ﻿---
-title: text property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns inserted/deleted/moved text or description of format change."
+title: RevisionGroup.text property
+linktitle: text property
+articleTitle: text property
+second_title: Aspose.Words for Python
+description: "RevisionGroup.text property. Returns inserted/deleted/moved text or description of format change."
 type: docs
 weight: 30
 url: /python-net/aspose.words/revisiongroup/text/

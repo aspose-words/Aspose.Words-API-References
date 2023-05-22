@@ -1,7 +1,9 @@
 ﻿---
-title: alignment property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the justification of the actual number of the list item."
+title: ListLevel.alignment property
+linktitle: alignment property
+articleTitle: alignment property
+second_title: Aspose.Words for Python
+description: "ListLevel.alignment property. Gets or sets the justification of the actual number of the list item."
 type: docs
 weight: 10
 url: /python-net/aspose.words.lists/listlevel/alignment/

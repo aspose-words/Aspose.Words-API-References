@@ -1,7 +1,9 @@
 ﻿---
-title: full_font_name property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Full name of the font."
+title: PhysicalFontInfo.full_font_name property
+linktitle: full_font_name property
+articleTitle: full_font_name property
+second_title: Aspose.Words for Python
+description: "PhysicalFontInfo.full_font_name property. Full name of the font."
 type: docs
 weight: 30
 url: /python-net/aspose.words.fonts/physicalfontinfo/full_font_name/

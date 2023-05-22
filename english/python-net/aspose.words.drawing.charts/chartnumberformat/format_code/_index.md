@@ -1,7 +1,9 @@
 ﻿---
-title: format_code property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the format code applied to a data label."
+title: ChartNumberFormat.format_code property
+linktitle: format_code property
+articleTitle: format_code property
+second_title: Aspose.Words for Python
+description: "ChartNumberFormat.format_code property. Gets or sets the format code applied to a data label."
 type: docs
 weight: 10
 url: /python-net/aspose.words.drawing.charts/chartnumberformat/format_code/

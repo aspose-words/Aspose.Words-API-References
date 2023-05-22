@@ -1,7 +1,9 @@
 ﻿---
-title: number_format property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns or sets the number format for the list level."
+title: ListLevel.number_format property
+linktitle: number_format property
+articleTitle: number_format property
+second_title: Aspose.Words for Python
+description: "ListLevel.number_format property. Returns or sets the number format for the list level."
 type: docs
 weight: 70
 url: /python-net/aspose.words.lists/listlevel/number_format/

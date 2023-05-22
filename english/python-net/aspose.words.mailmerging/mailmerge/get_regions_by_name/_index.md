@@ -1,7 +1,9 @@
 ﻿---
-title: get_regions_by_name method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns a collection of mail merge regions with the specified name."
+title: MailMerge.get_regions_by_name method
+linktitle: get_regions_by_name method
+articleTitle: get_regions_by_name method
+second_title: Aspose.Words for Python
+description: "MailMerge.get_regions_by_name method. Returns a collection of mail merge regions with the specified name."
 type: docs
 weight: 220
 url: /python-net/aspose.words.mailmerging/mailmerge/get_regions_by_name/

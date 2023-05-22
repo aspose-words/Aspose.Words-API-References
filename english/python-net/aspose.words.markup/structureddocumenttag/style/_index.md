@@ -1,7 +1,9 @@
 ﻿---
-title: style property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the Style of the structured document tag."
+title: StructuredDocumentTag.style property
+linktitle: style property
+articleTitle: style property
+second_title: Aspose.Words for Python
+description: "StructuredDocumentTag.style property. Gets or sets the Style of the structured document tag."
 type: docs
 weight: 260
 url: /python-net/aspose.words.markup/structureddocumenttag/style/

@@ -1,7 +1,9 @@
 ﻿---
-title: signature_line_id property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Signature line identifier"
+title: SignOptions.signature_line_id property
+linktitle: signature_line_id property
+articleTitle: signature_line_id property
+second_title: Aspose.Words for Python
+description: "SignOptions.signature_line_id property. Signature line identifier"
 type: docs
 weight: 60
 url: /python-net/aspose.words.digitalsignatures/signoptions/signature_line_id/

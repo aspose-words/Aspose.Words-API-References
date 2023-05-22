@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldCompare class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the COMPARE field"
+linktitle: FieldCompare class
+articleTitle: FieldCompare class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldCompare class. Implements the COMPARE field"
 type: docs
 weight: 250
 url: /python-net/aspose.words.fields/fieldcompare/

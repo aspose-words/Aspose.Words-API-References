@@ -1,7 +1,9 @@
 ﻿---
-title: left property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the position of the left edge of the containing block of the shape."
+title: ShapeBase.left property
+linktitle: left property
+articleTitle: left property
+second_title: Aspose.Words for Python
+description: "ShapeBase.left property. Gets or sets the position of the left edge of the containing block of the shape."
 type: docs
 weight: 370
 url: /python-net/aspose.words.drawing/shapebase/left/

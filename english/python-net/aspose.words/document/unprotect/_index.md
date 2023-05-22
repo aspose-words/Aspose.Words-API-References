@@ -1,6 +1,8 @@
 ﻿---
-title: unprotect method
-second_title: Aspose.Words for Python via .NET API Reference
+title: Document.unprotect method
+linktitle: unprotect method
+articleTitle: unprotect method
+second_title: Aspose.Words for Python
 description: "aspose.words.Document.unprotect method"
 type: docs
 weight: 710

@@ -1,7 +1,9 @@
 ﻿---
 title: RunCollection indexer
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Retrieves a [Run](../../run/) at the given index."
+linktitle: RunCollection indexer
+articleTitle: RunCollection indexer
+second_title: Aspose.Words for Python
+description: "RunCollection indexer. Retrieves a [Run](../../run/) at the given index."
 type: docs
 weight: 10
 url: /python-net/aspose.words/runcollection/__getitem__/

@@ -1,7 +1,9 @@
 ﻿---
-title: is_link_to_content property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Shows whether this property is linked to content or not."
+title: DocumentProperty.is_link_to_content property
+linktitle: is_link_to_content property
+articleTitle: is_link_to_content property
+second_title: Aspose.Words for Python
+description: "DocumentProperty.is_link_to_content property. Shows whether this property is linked to content or not."
 type: docs
 weight: 10
 url: /python-net/aspose.words.properties/documentproperty/is_link_to_content/

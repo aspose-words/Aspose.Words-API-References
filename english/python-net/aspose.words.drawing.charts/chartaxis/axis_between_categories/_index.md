@@ -1,7 +1,9 @@
 ﻿---
-title: axis_between_categories property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a flag indicating whether the value axis crosses the category axis between categories."
+title: ChartAxis.axis_between_categories property
+linktitle: axis_between_categories property
+articleTitle: axis_between_categories property
+second_title: Aspose.Words for Python
+description: "ChartAxis.axis_between_categories property. Gets or sets a flag indicating whether the value axis crosses the category axis between categories."
 type: docs
 weight: 10
 url: /python-net/aspose.words.drawing.charts/chartaxis/axis_between_categories/

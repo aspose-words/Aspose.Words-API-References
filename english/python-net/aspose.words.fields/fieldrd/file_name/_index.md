@@ -1,7 +1,9 @@
 ﻿---
-title: file_name property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the name of the file to include when generating a table of contents, table of authorities, or index."
+title: FieldRD.file_name property
+linktitle: file_name property
+articleTitle: file_name property
+second_title: Aspose.Words for Python
+description: "FieldRD.file_name property. Gets or sets the name of the file to include when generating a table of contents, table of authorities, or index."
 type: docs
 weight: 20
 url: /python-net/aspose.words.fields/fieldrd/file_name/

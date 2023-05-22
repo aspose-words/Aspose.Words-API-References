@@ -1,7 +1,9 @@
 ﻿---
-title: scale property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the zoom factor for the generated images."
+title: ImageSaveOptions.scale property
+linktitle: scale property
+articleTitle: scale property
+second_title: Aspose.Words for Python
+description: "ImageSaveOptions.scale property. Gets or sets the zoom factor for the generated images."
 type: docs
 weight: 120
 url: /python-net/aspose.words.saving/imagesaveoptions/scale/

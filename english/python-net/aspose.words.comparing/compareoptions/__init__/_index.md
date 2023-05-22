@@ -1,6 +1,9 @@
 ﻿---
 title: CompareOptions constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: CompareOptions constructor
+articleTitle: CompareOptions constructor
+second_title: Aspose.Words for Python
+description: "CompareOptions constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.comparing/compareoptions/__init__/

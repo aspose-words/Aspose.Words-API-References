@@ -1,7 +1,9 @@
 ﻿﻿---
 title: ImageData class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Defines an image for a shape"
+linktitle: ImageData class
+articleTitle: ImageData class
+second_title: Aspose.Words for Python
+description: "aspose.words.drawing.ImageData class. Defines an image for a shape"
 type: docs
 weight: 170
 url: /python-net/aspose.words.drawing/imagedata/

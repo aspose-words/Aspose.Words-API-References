@@ -1,6 +1,9 @@
 ﻿---
 title: WebExtensionPropertyCollection indexer
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: WebExtensionPropertyCollection indexer
+articleTitle: WebExtensionPropertyCollection indexer
+second_title: Aspose.Words for Python
+description: "WebExtensionPropertyCollection indexer. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.webextensions/webextensionpropertycollection/__getitem__/

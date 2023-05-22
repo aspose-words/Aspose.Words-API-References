@@ -1,7 +1,9 @@
 ﻿---
-title: is_link property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns ``True`` if the OLE object is linked (when [OleFormat.source_full_name](../source_full_name/) is specified)."
+title: OleFormat.is_link property
+linktitle: is_link property
+articleTitle: is_link property
+second_title: Aspose.Words for Python
+description: "OleFormat.is_link property. Returns ``True`` if the OLE object is linked (when [OleFormat.source_full_name](../source_full_name/) is specified)."
 type: docs
 weight: 40
 url: /python-net/aspose.words.drawing/oleformat/is_link/

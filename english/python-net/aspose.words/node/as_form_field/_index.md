@@ -1,7 +1,9 @@
 ﻿---
-title: as_form_field method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Cast node to [FormField](../../../aspose.words.fields/formfield/)."
+title: Node.as_form_field method
+linktitle: as_form_field method
+articleTitle: as_form_field method
+second_title: Aspose.Words for Python
+description: "Node.as_form_field method. Cast node to [FormField](../../../aspose.words.fields/formfield/)."
 type: docs
 weight: 260
 url: /python-net/aspose.words/node/as_form_field/

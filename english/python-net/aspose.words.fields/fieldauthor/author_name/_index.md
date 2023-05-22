@@ -1,7 +1,9 @@
 ﻿---
-title: author_name property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the document author's name."
+title: FieldAuthor.author_name property
+linktitle: author_name property
+articleTitle: author_name property
+second_title: Aspose.Words for Python
+description: "FieldAuthor.author_name property. Gets or sets the document author's name."
 type: docs
 weight: 20
 url: /python-net/aspose.words.fields/fieldauthor/author_name/

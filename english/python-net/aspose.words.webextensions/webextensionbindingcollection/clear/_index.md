@@ -1,6 +1,9 @@
 ﻿---
-title: clear method
-second_title: Aspose.Words for Python via .NET API Reference
+title: WebExtensionBindingCollection.clear method
+linktitle: clear method
+articleTitle: clear method
+second_title: Aspose.Words for Python
+description: "WebExtensionBindingCollection.clear method. "
 type: docs
 weight: 40
 url: /python-net/aspose.words.webextensions/webextensionbindingcollection/clear/

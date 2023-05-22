@@ -1,7 +1,9 @@
 ﻿---
-title: tint_and_shade property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a double value that lightens or darkens a color."
+title: Font.tint_and_shade property
+linktitle: tint_and_shade property
+articleTitle: tint_and_shade property
+second_title: Aspose.Words for Python
+description: "Font.tint_and_shade property. Gets or sets a double value that lightens or darkens a color."
 type: docs
 weight: 520
 url: /python-net/aspose.words/font/tint_and_shade/

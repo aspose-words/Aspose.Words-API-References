@@ -1,7 +1,9 @@
 ﻿---
-title: text property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets textual content of the document concatenated as a string."
+title: PlainTextDocument.text property
+linktitle: text property
+articleTitle: text property
+second_title: Aspose.Words for Python
+description: "PlainTextDocument.text property. Gets textual content of the document concatenated as a string."
 type: docs
 weight: 40
 url: /python-net/aspose.words/plaintextdocument/text/

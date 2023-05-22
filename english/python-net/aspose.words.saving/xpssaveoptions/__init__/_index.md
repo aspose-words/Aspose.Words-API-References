@@ -1,6 +1,8 @@
 ﻿---
 title: XpsSaveOptions constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: XpsSaveOptions constructor
+articleTitle: XpsSaveOptions constructor
+second_title: Aspose.Words for Python
 description: "aspose.words.saving.XpsSaveOptions constructor"
 type: docs
 weight: 10

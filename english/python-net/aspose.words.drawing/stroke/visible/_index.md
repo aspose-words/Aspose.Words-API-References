@@ -1,7 +1,9 @@
 ﻿---
-title: visible property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a flag indicating whether the stroke is visible."
+title: Stroke.visible property
+linktitle: visible property
+articleTitle: visible property
+second_title: Aspose.Words for Python
+description: "Stroke.visible property. Gets or sets a flag indicating whether the stroke is visible."
 type: docs
 weight: 200
 url: /python-net/aspose.words.drawing/stroke/visible/

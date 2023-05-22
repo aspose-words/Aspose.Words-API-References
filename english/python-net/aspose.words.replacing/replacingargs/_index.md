@@ -1,7 +1,9 @@
 ﻿﻿---
 title: ReplacingArgs class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides data for a custom replace operation"
+linktitle: ReplacingArgs class
+articleTitle: ReplacingArgs class
+second_title: Aspose.Words for Python
+description: "aspose.words.replacing.ReplacingArgs class. Provides data for a custom replace operation"
 type: docs
 weight: 50
 url: /python-net/aspose.words.replacing/replacingargs/

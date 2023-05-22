@@ -1,7 +1,9 @@
 ﻿---
-title: get_shape_renderer method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Creates and returns an object that can be used to render this shape into an image."
+title: ShapeBase.get_shape_renderer method
+linktitle: get_shape_renderer method
+articleTitle: get_shape_renderer method
+second_title: Aspose.Words for Python
+description: "ShapeBase.get_shape_renderer method. Creates and returns an object that can be used to render this shape into an image."
 type: docs
 weight: 660
 url: /python-net/aspose.words.drawing/shapebase/get_shape_renderer/

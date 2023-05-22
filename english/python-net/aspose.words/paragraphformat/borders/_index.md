@@ -1,7 +1,9 @@
 ﻿---
-title: borders property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets collection of borders of the paragraph."
+title: ParagraphFormat.borders property
+linktitle: borders property
+articleTitle: borders property
+second_title: Aspose.Words for Python
+description: "ParagraphFormat.borders property. Gets collection of borders of the paragraph."
 type: docs
 weight: 50
 url: /python-net/aspose.words/paragraphformat/borders/

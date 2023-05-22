@@ -1,7 +1,9 @@
 ﻿﻿---
 title: OleFormat class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides access to the data of an OLE object or ActiveX control"
+linktitle: OleFormat class
+articleTitle: OleFormat class
+second_title: Aspose.Words for Python
+description: "aspose.words.drawing.OleFormat class. Provides access to the data of an OLE object or ActiveX control"
 type: docs
 weight: 220
 url: /python-net/aspose.words.drawing/oleformat/

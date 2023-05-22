@@ -1,6 +1,8 @@
 ﻿---
-title: get_ancestor method
-second_title: Aspose.Words for Python via .NET API Reference
+title: Node.get_ancestor method
+linktitle: get_ancestor method
+articleTitle: get_ancestor method
+second_title: Aspose.Words for Python
 description: "aspose.words.Node.get_ancestor method"
 type: docs
 weight: 440

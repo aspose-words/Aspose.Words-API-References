@@ -1,7 +1,9 @@
 ﻿---
-title: ignore_footnotes property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a boolean value indicating either to ignore footnotes"
+title: FindReplaceOptions.ignore_footnotes property
+linktitle: ignore_footnotes property
+articleTitle: ignore_footnotes property
+second_title: Aspose.Words for Python
+description: "FindReplaceOptions.ignore_footnotes property. Gets or sets a boolean value indicating either to ignore footnotes"
 type: docs
 weight: 90
 url: /python-net/aspose.words.replacing/findreplaceoptions/ignore_footnotes/

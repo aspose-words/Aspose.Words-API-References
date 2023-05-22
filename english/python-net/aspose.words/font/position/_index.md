@@ -1,7 +1,9 @@
 ﻿---
-title: position property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the position of text (in points) relative to the base line"
+title: Font.position property
+linktitle: position property
+articleTitle: position property
+second_title: Aspose.Words for Python
+description: "Font.position property. Gets or sets the position of text (in points) relative to the base line"
 type: docs
 weight: 300
 url: /python-net/aspose.words/font/position/

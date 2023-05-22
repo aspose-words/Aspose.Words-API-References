@@ -1,7 +1,9 @@
 ﻿﻿---
 title: LayoutEnumerator class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Enumerates page layout entities of a document."
+linktitle: LayoutEnumerator class
+articleTitle: LayoutEnumerator class
+second_title: Aspose.Words for Python
+description: "aspose.words.layout.LayoutEnumerator class. Enumerates page layout entities of a document."
 type: docs
 weight: 60
 url: /python-net/aspose.words.layout/layoutenumerator/

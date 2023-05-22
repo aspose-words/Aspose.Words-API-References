@@ -1,7 +1,9 @@
 ﻿---
-title: downsample_images property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies whether images should be downsampled."
+title: DownsampleOptions.downsample_images property
+linktitle: downsample_images property
+articleTitle: downsample_images property
+second_title: Aspose.Words for Python
+description: "DownsampleOptions.downsample_images property. Specifies whether images should be downsampled."
 type: docs
 weight: 20
 url: /python-net/aspose.words.saving/downsampleoptions/downsample_images/

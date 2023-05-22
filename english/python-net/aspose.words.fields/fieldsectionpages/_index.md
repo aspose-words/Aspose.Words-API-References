@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldSectionPages class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the SECTIONPAGES field"
+linktitle: FieldSectionPages class
+articleTitle: FieldSectionPages class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldSectionPages class. Implements the SECTIONPAGES field"
 type: docs
 weight: 910
 url: /python-net/aspose.words.fields/fieldsectionpages/

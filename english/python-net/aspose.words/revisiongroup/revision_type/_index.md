@@ -1,7 +1,9 @@
 ﻿---
-title: revision_type property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the type of revisions included in this group."
+title: RevisionGroup.revision_type property
+linktitle: revision_type property
+articleTitle: revision_type property
+second_title: Aspose.Words for Python
+description: "RevisionGroup.revision_type property. Gets the type of revisions included in this group."
 type: docs
 weight: 20
 url: /python-net/aspose.words/revisiongroup/revision_type/

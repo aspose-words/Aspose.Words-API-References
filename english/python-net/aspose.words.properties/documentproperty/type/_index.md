@@ -1,7 +1,9 @@
 ﻿---
-title: type property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the data type of the property."
+title: DocumentProperty.type property
+linktitle: type property
+articleTitle: type property
+second_title: Aspose.Words for Python
+description: "DocumentProperty.type property. Gets the data type of the property."
 type: docs
 weight: 40
 url: /python-net/aspose.words.properties/documentproperty/type/

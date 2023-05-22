@@ -1,7 +1,9 @@
 ﻿---
-title: suggested_extension property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the file extension suggested for the current embedded object if you want to save it into a file."
+title: OleFormat.suggested_extension property
+linktitle: suggested_extension property
+articleTitle: suggested_extension property
+second_title: Aspose.Words for Python
+description: "OleFormat.suggested_extension property. Gets the file extension suggested for the current embedded object if you want to save it into a file."
 type: docs
 weight: 120
 url: /python-net/aspose.words.drawing/oleformat/suggested_extension/

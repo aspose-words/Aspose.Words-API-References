@@ -1,6 +1,9 @@
 ﻿---
 title: TaskPane constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: TaskPane constructor
+articleTitle: TaskPane constructor
+second_title: Aspose.Words for Python
+description: "TaskPane constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.webextensions/taskpane/__init__/

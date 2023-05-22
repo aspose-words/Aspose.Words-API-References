@@ -1,7 +1,9 @@
 ﻿﻿---
 title: ImportFormatOptions class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to specify various import options to format output"
+linktitle: ImportFormatOptions class
+articleTitle: ImportFormatOptions class
+second_title: Aspose.Words for Python
+description: "aspose.words.ImportFormatOptions class. Allows to specify various import options to format output"
 type: docs
 weight: 550
 url: /python-net/aspose.words/importformatoptions/

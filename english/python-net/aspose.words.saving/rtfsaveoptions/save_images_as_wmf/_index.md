@@ -1,7 +1,9 @@
 ﻿---
-title: save_images_as_wmf property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "When ``True`` all images will be saved as WMF."
+title: RtfSaveOptions.save_images_as_wmf property
+linktitle: save_images_as_wmf property
+articleTitle: save_images_as_wmf property
+second_title: Aspose.Words for Python
+description: "RtfSaveOptions.save_images_as_wmf property. When ``True`` all images will be saved as WMF."
 type: docs
 weight: 50
 url: /python-net/aspose.words.saving/rtfsaveoptions/save_images_as_wmf/

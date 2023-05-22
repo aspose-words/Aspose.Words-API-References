@@ -1,7 +1,9 @@
 ﻿---
-title: name property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the name of the style."
+title: Style.name property
+linktitle: name property
+articleTitle: name property
+second_title: Aspose.Words for Python
+description: "Style.name property. Gets or sets the name of the style."
 type: docs
 weight: 120
 url: /python-net/aspose.words/style/name/

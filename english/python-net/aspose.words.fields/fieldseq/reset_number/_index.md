@@ -1,7 +1,9 @@
 ﻿---
-title: reset_number property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets an integer number to reset the sequence number to"
+title: FieldSeq.reset_number property
+linktitle: reset_number property
+articleTitle: reset_number property
+second_title: Aspose.Words for Python
+description: "FieldSeq.reset_number property. Gets or sets an integer number to reset the sequence number to"
 type: docs
 weight: 50
 url: /python-net/aspose.words.fields/fieldseq/reset_number/

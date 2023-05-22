@@ -1,7 +1,9 @@
 ﻿---
-title: text_orientation property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to specify [PageSetup.text_orientation](./) for the whole page"
+title: PageSetup.text_orientation property
+linktitle: text_orientation property
+articleTitle: text_orientation property
+second_title: Aspose.Words for Python
+description: "PageSetup.text_orientation property. Allows to specify [PageSetup.text_orientation](./) for the whole page"
 type: docs
 weight: 430
 url: /python-net/aspose.words/pagesetup/text_orientation/

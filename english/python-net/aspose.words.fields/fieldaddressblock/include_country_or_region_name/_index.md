@@ -1,7 +1,9 @@
 ﻿---
-title: include_country_or_region_name property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets whether to include the name of the country/region."
+title: FieldAddressBlock.include_country_or_region_name property
+linktitle: include_country_or_region_name property
+articleTitle: include_country_or_region_name property
+second_title: Aspose.Words for Python
+description: "FieldAddressBlock.include_country_or_region_name property. Gets or sets whether to include the name of the country/region."
 type: docs
 weight: 40
 url: /python-net/aspose.words.fields/fieldaddressblock/include_country_or_region_name/

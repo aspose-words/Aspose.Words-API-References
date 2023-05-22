@@ -1,7 +1,9 @@
 ﻿---
-title: rectangle property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns the bounding rectangle of the current entity relative to the page top left corner (in points)."
+title: LayoutEnumerator.rectangle property
+linktitle: rectangle property
+articleTitle: rectangle property
+second_title: Aspose.Words for Python
+description: "LayoutEnumerator.rectangle property. Returns the bounding rectangle of the current entity relative to the page top left corner (in points)."
 type: docs
 weight: 60
 url: /python-net/aspose.words.layout/layoutenumerator/rectangle/

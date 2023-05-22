@@ -1,7 +1,9 @@
 ﻿---
-title: pages property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents an estimate of the number of pages in the document."
+title: BuiltInDocumentProperties.pages property
+linktitle: pages property
+articleTitle: pages property
+second_title: Aspose.Words for Python
+description: "BuiltInDocumentProperties.pages property. Represents an estimate of the number of pages in the document."
 type: docs
 weight: 220
 url: /python-net/aspose.words.properties/builtindocumentproperties/pages/

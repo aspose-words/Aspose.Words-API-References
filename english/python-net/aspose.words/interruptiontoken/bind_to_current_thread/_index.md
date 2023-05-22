@@ -1,7 +1,9 @@
 ﻿---
-title: bind_to_current_thread method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Associates the current thread with this [InterruptionToken](../) instance."
+title: InterruptionToken.bind_to_current_thread method
+linktitle: bind_to_current_thread method
+articleTitle: bind_to_current_thread method
+second_title: Aspose.Words for Python
+description: "InterruptionToken.bind_to_current_thread method. Associates the current thread with this [InterruptionToken](../) instance."
 type: docs
 weight: 20
 url: /python-net/aspose.words/interruptiontoken/bind_to_current_thread/

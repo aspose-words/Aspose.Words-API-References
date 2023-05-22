@@ -1,7 +1,9 @@
 ﻿---
-title: move_previous_logical method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Moves to the previous sibling entity in a logical order."
+title: LayoutEnumerator.move_previous_logical method
+linktitle: move_previous_logical method
+articleTitle: move_previous_logical method
+second_title: Aspose.Words for Python
+description: "LayoutEnumerator.move_previous_logical method. Moves to the previous sibling entity in a logical order."
 type: docs
 weight: 150
 url: /python-net/aspose.words.layout/layoutenumerator/move_previous_logical/

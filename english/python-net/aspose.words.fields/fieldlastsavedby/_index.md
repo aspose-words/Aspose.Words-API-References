@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldLastSavedBy class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the LASTSAVEDBY field"
+linktitle: FieldLastSavedBy class
+articleTitle: FieldLastSavedBy class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldLastSavedBy class. Implements the LASTSAVEDBY field"
 type: docs
 weight: 640
 url: /python-net/aspose.words.fields/fieldlastsavedby/

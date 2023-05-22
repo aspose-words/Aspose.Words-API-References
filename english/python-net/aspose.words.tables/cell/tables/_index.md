@@ -1,7 +1,9 @@
 ﻿---
-title: tables property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets a collection of tables that are immediate children of the cell."
+title: Cell.tables property
+linktitle: tables property
+articleTitle: tables property
+second_title: Aspose.Words for Python
+description: "Cell.tables property. Gets a collection of tables that are immediate children of the cell."
 type: docs
 weight: 100
 url: /python-net/aspose.words.tables/cell/tables/

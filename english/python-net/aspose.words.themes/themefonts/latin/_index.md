@@ -1,7 +1,9 @@
 ﻿---
-title: latin property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies font name for Latin characters."
+title: ThemeFonts.latin property
+linktitle: latin property
+articleTitle: latin property
+second_title: Aspose.Words for Python
+description: "ThemeFonts.latin property. Specifies font name for Latin characters."
 type: docs
 weight: 30
 url: /python-net/aspose.words.themes/themefonts/latin/

@@ -1,7 +1,9 @@
 ﻿---
-title: evenly_spaced property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "True if text columns are of equal width and evenly spaced."
+title: TextColumnCollection.evenly_spaced property
+linktitle: evenly_spaced property
+articleTitle: evenly_spaced property
+second_title: Aspose.Words for Python
+description: "TextColumnCollection.evenly_spaced property. True if text columns are of equal width and evenly spaced."
 type: docs
 weight: 30
 url: /python-net/aspose.words/textcolumncollection/evenly_spaced/

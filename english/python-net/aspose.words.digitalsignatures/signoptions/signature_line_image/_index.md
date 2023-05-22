@@ -1,7 +1,9 @@
 ﻿---
-title: signature_line_image property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "The image that will be shown in associated [SignatureLine](../../../aspose.words.drawing/signatureline/)"
+title: SignOptions.signature_line_image property
+linktitle: signature_line_image property
+articleTitle: signature_line_image property
+second_title: Aspose.Words for Python
+description: "SignOptions.signature_line_image property. The image that will be shown in associated [SignatureLine](../../../aspose.words.drawing/signatureline/)"
 type: docs
 weight: 70
 url: /python-net/aspose.words.digitalsignatures/signoptions/signature_line_image/

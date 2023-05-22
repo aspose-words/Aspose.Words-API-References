@@ -1,7 +1,9 @@
 ﻿﻿---
 title: TableCollection class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides typed access to a collection of [Table](../table/) nodes"
+linktitle: TableCollection class
+articleTitle: TableCollection class
+second_title: Aspose.Words for Python
+description: "aspose.words.tables.TableCollection class. Provides typed access to a collection of [Table](../table/) nodes"
 type: docs
 weight: 140
 url: /python-net/aspose.words.tables/tablecollection/

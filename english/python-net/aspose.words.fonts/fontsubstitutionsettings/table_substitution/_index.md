@@ -1,7 +1,9 @@
 ﻿---
-title: table_substitution property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Settings related to table substitution rule."
+title: FontSubstitutionSettings.table_substitution property
+linktitle: table_substitution property
+articleTitle: table_substitution property
+second_title: Aspose.Words for Python
+description: "FontSubstitutionSettings.table_substitution property. Settings related to table substitution rule."
 type: docs
 weight: 50
 url: /python-net/aspose.words.fonts/fontsubstitutionsettings/table_substitution/

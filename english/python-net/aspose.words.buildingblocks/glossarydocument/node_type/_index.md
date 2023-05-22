@@ -1,7 +1,9 @@
 ﻿---
-title: node_type property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns the [NodeType.GLOSSARY_DOCUMENT](../../../aspose.words/nodetype/#GLOSSARY_DOCUMENT) value."
+title: GlossaryDocument.node_type property
+linktitle: node_type property
+articleTitle: node_type property
+second_title: Aspose.Words for Python
+description: "GlossaryDocument.node_type property. Returns the [NodeType.GLOSSARY_DOCUMENT](../../../aspose.words/nodetype/#GLOSSARY_DOCUMENT) value."
 type: docs
 weight: 50
 url: /python-net/aspose.words.buildingblocks/glossarydocument/node_type/

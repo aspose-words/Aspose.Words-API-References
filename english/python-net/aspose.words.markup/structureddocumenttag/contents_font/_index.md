@@ -1,7 +1,9 @@
 ﻿---
-title: contents_font property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Font formatting that will be applied to text entered into SDT."
+title: StructuredDocumentTag.contents_font property
+linktitle: contents_font property
+articleTitle: contents_font property
+second_title: Aspose.Words for Python
+description: "StructuredDocumentTag.contents_font property. Font formatting that will be applied to text entered into SDT."
 type: docs
 weight: 80
 url: /python-net/aspose.words.markup/structureddocumenttag/contents_font/

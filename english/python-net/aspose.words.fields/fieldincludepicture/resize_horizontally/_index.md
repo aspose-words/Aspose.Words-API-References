@@ -1,7 +1,9 @@
 ﻿---
-title: resize_horizontally property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets whether to resize the picture horizontally from the source."
+title: FieldIncludePicture.resize_horizontally property
+linktitle: resize_horizontally property
+articleTitle: resize_horizontally property
+second_title: Aspose.Words for Python
+description: "FieldIncludePicture.resize_horizontally property. Gets or sets whether to resize the picture horizontally from the source."
 type: docs
 weight: 40
 url: /python-net/aspose.words.fields/fieldincludepicture/resize_horizontally/

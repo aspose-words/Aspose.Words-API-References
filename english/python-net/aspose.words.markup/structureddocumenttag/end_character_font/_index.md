@@ -1,7 +1,9 @@
 ﻿---
-title: end_character_font property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Font formatting that will be applied to the last character of text entered into SDT."
+title: StructuredDocumentTag.end_character_font property
+linktitle: end_character_font property
+articleTitle: end_character_font property
+second_title: Aspose.Words for Python
+description: "StructuredDocumentTag.end_character_font property. Font formatting that will be applied to the last character of text entered into SDT."
 type: docs
 weight: 120
 url: /python-net/aspose.words.markup/structureddocumenttag/end_character_font/

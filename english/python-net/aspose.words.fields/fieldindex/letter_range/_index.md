@@ -1,7 +1,9 @@
 ﻿---
-title: letter_range property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a range of letters to which limit the index."
+title: FieldIndex.letter_range property
+linktitle: letter_range property
+articleTitle: letter_range property
+second_title: Aspose.Words for Python
+description: "FieldIndex.letter_range property. Gets or sets a range of letters to which limit the index."
 type: docs
 weight: 90
 url: /python-net/aspose.words.fields/fieldindex/letter_range/

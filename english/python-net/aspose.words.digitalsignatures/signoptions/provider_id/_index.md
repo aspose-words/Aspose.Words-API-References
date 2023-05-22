@@ -1,7 +1,9 @@
 ﻿---
-title: provider_id property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the class ID of the signature provider"
+title: SignOptions.provider_id property
+linktitle: provider_id property
+articleTitle: provider_id property
+second_title: Aspose.Words for Python
+description: "SignOptions.provider_id property. Specifies the class ID of the signature provider"
 type: docs
 weight: 40
 url: /python-net/aspose.words.digitalsignatures/signoptions/provider_id/

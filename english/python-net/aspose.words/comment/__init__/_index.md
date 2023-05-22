@@ -1,6 +1,8 @@
 ﻿---
 title: Comment constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: Comment constructor
+articleTitle: Comment constructor
+second_title: Aspose.Words for Python
 description: "aspose.words.Comment constructor"
 type: docs
 weight: 10

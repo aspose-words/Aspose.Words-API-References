@@ -1,7 +1,9 @@
 ﻿---
-title: list_level property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the level in the list, overriding the default behavior of the field."
+title: FieldListNum.list_level property
+linktitle: list_level property
+articleTitle: list_level property
+second_title: Aspose.Words for Python
+description: "FieldListNum.list_level property. Gets or sets the level in the list, overriding the default behavior of the field."
 type: docs
 weight: 30
 url: /python-net/aspose.words.fields/fieldlistnum/list_level/

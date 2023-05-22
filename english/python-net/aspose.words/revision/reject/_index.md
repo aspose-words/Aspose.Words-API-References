@@ -1,7 +1,9 @@
 ﻿---
-title: reject method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Reject this revision."
+title: Revision.reject method
+linktitle: reject method
+articleTitle: reject method
+second_title: Aspose.Words for Python
+description: "Revision.reject method. Reject this revision."
 type: docs
 weight: 80
 url: /python-net/aspose.words/revision/reject/

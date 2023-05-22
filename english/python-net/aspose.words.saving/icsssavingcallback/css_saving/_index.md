@@ -1,7 +1,9 @@
 ﻿---
-title: css_saving method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Called when Aspose.Words saves an CSS (Cascading Style Sheet)."
+title: ICssSavingCallback.css_saving method
+linktitle: css_saving method
+articleTitle: css_saving method
+second_title: Aspose.Words for Python
+description: "ICssSavingCallback.css_saving method. Called when Aspose.Words saves an CSS (Cascading Style Sheet)."
 type: docs
 weight: 10
 url: /python-net/aspose.words.saving/icsssavingcallback/css_saving/

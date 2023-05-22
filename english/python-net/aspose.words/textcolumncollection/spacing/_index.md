@@ -1,7 +1,9 @@
 ﻿---
-title: spacing property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "When columns are evenly spaced, gets or sets the amount of space between each column in points."
+title: TextColumnCollection.spacing property
+linktitle: spacing property
+articleTitle: spacing property
+second_title: Aspose.Words for Python
+description: "TextColumnCollection.spacing property. When columns are evenly spaced, gets or sets the amount of space between each column in points."
 type: docs
 weight: 50
 url: /python-net/aspose.words/textcolumncollection/spacing/

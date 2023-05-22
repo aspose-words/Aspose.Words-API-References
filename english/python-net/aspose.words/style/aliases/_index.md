@@ -1,7 +1,9 @@
 ﻿---
-title: aliases property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets all aliases of this style"
+title: Style.aliases property
+linktitle: aliases property
+articleTitle: aliases property
+second_title: Aspose.Words for Python
+description: "Style.aliases property. Gets all aliases of this style"
 type: docs
 weight: 10
 url: /python-net/aspose.words/style/aliases/

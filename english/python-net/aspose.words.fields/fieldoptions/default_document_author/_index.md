@@ -1,7 +1,9 @@
 ﻿---
-title: default_document_author property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets default document author's name"
+title: FieldOptions.default_document_author property
+linktitle: default_document_author property
+articleTitle: default_document_author property
+second_title: Aspose.Words for Python
+description: "FieldOptions.default_document_author property. Gets or sets default document author's name"
 type: docs
 weight: 60
 url: /python-net/aspose.words.fields/fieldoptions/default_document_author/

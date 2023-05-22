@@ -1,7 +1,9 @@
 ﻿---
-title: cell_spacing property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the amount of space (in points) between the cells."
+title: Table.cell_spacing property
+linktitle: cell_spacing property
+articleTitle: cell_spacing property
+second_title: Aspose.Words for Python
+description: "Table.cell_spacing property. Gets or sets the amount of space (in points) between the cells."
 type: docs
 weight: 100
 url: /python-net/aspose.words.tables/table/cell_spacing/

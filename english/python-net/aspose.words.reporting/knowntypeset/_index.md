@@ -1,7 +1,9 @@
 ﻿﻿---
 title: KnownTypeSet class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents an unordered set (i.e"
+linktitle: KnownTypeSet class
+articleTitle: KnownTypeSet class
+second_title: Aspose.Words for Python
+description: "aspose.words.reporting.KnownTypeSet class. Represents an unordered set (i.e"
 type: docs
 weight: 60
 url: /python-net/aspose.words.reporting/knowntypeset/

@@ -1,7 +1,9 @@
 ﻿---
-title: get_text method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the text of all cells in this row including the end of row character."
+title: Row.get_text method
+linktitle: get_text method
+articleTitle: get_text method
+second_title: Aspose.Words for Python
+description: "Row.get_text method. Gets the text of all cells in this row including the end of row character."
 type: docs
 weight: 120
 url: /python-net/aspose.words.tables/row/get_text/

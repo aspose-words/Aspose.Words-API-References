@@ -1,7 +1,9 @@
 ﻿---
-title: remove method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Removes the node from the collection and from the document."
+title: NodeCollection.remove method
+linktitle: remove method
+articleTitle: remove method
+second_title: Aspose.Words for Python
+description: "NodeCollection.remove method. Removes the node from the collection and from the document."
 type: docs
 weight: 80
 url: /python-net/aspose.words/nodecollection/remove/

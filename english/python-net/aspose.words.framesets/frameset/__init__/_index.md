@@ -1,6 +1,9 @@
 ﻿---
 title: Frameset constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: Frameset constructor
+articleTitle: Frameset constructor
+second_title: Aspose.Words for Python
+description: "Frameset constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.framesets/frameset/__init__/

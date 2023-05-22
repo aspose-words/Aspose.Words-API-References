@@ -1,7 +1,9 @@
 ﻿---
-title: is_image_map property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets whether to append coordinates to the hyperlink for a server-side image map."
+title: FieldHyperlink.is_image_map property
+linktitle: is_image_map property
+articleTitle: is_image_map property
+second_title: Aspose.Words for Python
+description: "FieldHyperlink.is_image_map property. Gets or sets whether to append coordinates to the hyperlink for a server-side image map."
 type: docs
 weight: 30
 url: /python-net/aspose.words.fields/fieldhyperlink/is_image_map/

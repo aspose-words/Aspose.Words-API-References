@@ -1,7 +1,9 @@
 ﻿---
-title: auto_color property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns the present calculated color of the text (black or white) to be used for 'auto color'"
+title: Font.auto_color property
+linktitle: auto_color property
+articleTitle: auto_color property
+second_title: Aspose.Words for Python
+description: "Font.auto_color property. Returns the present calculated color of the text (black or white) to be used for 'auto color'"
 type: docs
 weight: 20
 url: /python-net/aspose.words/font/auto_color/

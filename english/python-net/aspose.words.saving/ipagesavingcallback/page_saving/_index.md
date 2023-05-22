@@ -1,7 +1,9 @@
 ﻿---
-title: page_saving method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Called when Aspose.Words saves a separate page to fixed page formats."
+title: IPageSavingCallback.page_saving method
+linktitle: page_saving method
+articleTitle: page_saving method
+second_title: Aspose.Words for Python
+description: "IPageSavingCallback.page_saving method. Called when Aspose.Words saves a separate page to fixed page formats."
 type: docs
 weight: 10
 url: /python-net/aspose.words.saving/ipagesavingcallback/page_saving/

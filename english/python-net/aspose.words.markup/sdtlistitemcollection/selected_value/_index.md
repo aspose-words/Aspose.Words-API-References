@@ -1,7 +1,9 @@
 ﻿---
-title: selected_value property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies currently selected value in this list"
+title: SdtListItemCollection.selected_value property
+linktitle: selected_value property
+articleTitle: selected_value property
+second_title: Aspose.Words for Python
+description: "SdtListItemCollection.selected_value property. Specifies currently selected value in this list"
 type: docs
 weight: 30
 url: /python-net/aspose.words.markup/sdtlistitemcollection/selected_value/

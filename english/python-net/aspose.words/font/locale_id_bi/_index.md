@@ -1,7 +1,9 @@
 ﻿---
-title: locale_id_bi property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the locale identifier (language) of the formatted right-to-left characters."
+title: Font.locale_id_bi property
+linktitle: locale_id_bi property
+articleTitle: locale_id_bi property
+second_title: Aspose.Words for Python
+description: "Font.locale_id_bi property. Gets or sets the locale identifier (language) of the formatted right-to-left characters."
 type: docs
 weight: 210
 url: /python-net/aspose.words/font/locale_id_bi/

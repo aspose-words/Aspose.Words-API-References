@@ -1,7 +1,9 @@
 ﻿---
-title: to_array method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Copies all nodes from the collection to a new array of nodes."
+title: NodeList.to_array method
+linktitle: to_array method
+articleTitle: to_array method
+second_title: Aspose.Words for Python
+description: "NodeList.to_array method. Copies all nodes from the collection to a new array of nodes."
 type: docs
 weight: 30
 url: /python-net/aspose.words/nodelist/to_array/

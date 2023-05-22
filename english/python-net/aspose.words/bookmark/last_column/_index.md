@@ -1,7 +1,9 @@
 ﻿---
-title: last_column property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the zero-based index of the last column of the table column range associated with the bookmark."
+title: Bookmark.last_column property
+linktitle: last_column property
+articleTitle: last_column property
+second_title: Aspose.Words for Python
+description: "Bookmark.last_column property. Gets the zero-based index of the last column of the table column range associated with the bookmark."
 type: docs
 weight: 50
 url: /python-net/aspose.words/bookmark/last_column/

@@ -1,7 +1,9 @@
 ﻿---
-title: get_child_nodes method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns a live collection of child nodes that match the specified type."
+title: CompositeNode.get_child_nodes method
+linktitle: get_child_nodes method
+articleTitle: get_child_nodes method
+second_title: Aspose.Words for Python
+description: "CompositeNode.get_child_nodes method. Returns a live collection of child nodes that match the specified type."
 type: docs
 weight: 90
 url: /python-net/aspose.words/compositenode/get_child_nodes/

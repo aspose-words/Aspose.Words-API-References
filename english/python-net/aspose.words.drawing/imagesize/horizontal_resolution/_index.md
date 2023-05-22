@@ -1,7 +1,9 @@
 ﻿---
-title: horizontal_resolution property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the horizontal resolution in DPI."
+title: ImageSize.horizontal_resolution property
+linktitle: horizontal_resolution property
+articleTitle: horizontal_resolution property
+second_title: Aspose.Words for Python
+description: "ImageSize.horizontal_resolution property. Gets the horizontal resolution in DPI."
 type: docs
 weight: 40
 url: /python-net/aspose.words.drawing/imagesize/horizontal_resolution/

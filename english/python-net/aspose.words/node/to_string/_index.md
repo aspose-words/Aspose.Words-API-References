@@ -1,6 +1,8 @@
 ﻿---
-title: to_string method
-second_title: Aspose.Words for Python via .NET API Reference
+title: Node.to_string method
+linktitle: to_string method
+articleTitle: to_string method
+second_title: Aspose.Words for Python
 description: "aspose.words.Node.to_string method"
 type: docs
 weight: 500

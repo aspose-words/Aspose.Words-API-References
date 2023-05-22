@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldFileSize class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the FILESIZE field"
+linktitle: FieldFileSize class
+articleTitle: FieldFileSize class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldFileSize class. Implements the FILESIZE field"
 type: docs
 weight: 420
 url: /python-net/aspose.words.fields/fieldfilesize/

@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldArgumentBuilder class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Builds a complex field argument consisting of fields, nodes, and plain text"
+linktitle: FieldArgumentBuilder class
+articleTitle: FieldArgumentBuilder class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldArgumentBuilder class. Builds a complex field argument consisting of fields, nodes, and plain text"
 type: docs
 weight: 90
 url: /python-net/aspose.words.fields/fieldargumentbuilder/

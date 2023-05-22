@@ -1,7 +1,9 @@
 ﻿---
-title: get_value method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns a value for the specified field name or ``False`` if the field is not found."
+title: IMailMergeDataSource.get_value method
+linktitle: get_value method
+articleTitle: get_value method
+second_title: Aspose.Words for Python
+description: "IMailMergeDataSource.get_value method. Returns a value for the specified field name or ``False`` if the field is not found."
 type: docs
 weight: 30
 url: /python-net/aspose.words.mailmerging/imailmergedatasource/get_value/

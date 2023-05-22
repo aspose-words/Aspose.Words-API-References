@@ -1,7 +1,9 @@
 ﻿---
-title: screen_tip property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the ScreenTip text for the hyperlink."
+title: FieldHyperlink.screen_tip property
+linktitle: screen_tip property
+articleTitle: screen_tip property
+second_title: Aspose.Words for Python
+description: "FieldHyperlink.screen_tip property. Gets or sets the ScreenTip text for the hyperlink."
 type: docs
 weight: 50
 url: /python-net/aspose.words.fields/fieldhyperlink/screen_tip/

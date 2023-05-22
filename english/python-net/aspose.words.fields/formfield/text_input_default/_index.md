@@ -1,7 +1,9 @@
 ﻿---
-title: text_input_default property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the default string or a calculation expression of a text form field."
+title: FormField.text_input_default property
+linktitle: text_input_default property
+articleTitle: text_input_default property
+second_title: Aspose.Words for Python
+description: "FormField.text_input_default property. Gets or sets the default string or a calculation expression of a text form field."
 type: docs
 weight: 190
 url: /python-net/aspose.words.fields/formfield/text_input_default/

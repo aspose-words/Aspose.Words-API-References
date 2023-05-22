@@ -1,7 +1,9 @@
 ﻿---
-title: show_revision_bars property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to specify whether revision bars should be rendered near lines containing revised content"
+title: RevisionOptions.show_revision_bars property
+linktitle: show_revision_bars property
+articleTitle: show_revision_bars property
+second_title: Aspose.Words for Python
+description: "RevisionOptions.show_revision_bars property. Allows to specify whether revision bars should be rendered near lines containing revised content"
 type: docs
 weight: 180
 url: /python-net/aspose.words.layout/revisionoptions/show_revision_bars/

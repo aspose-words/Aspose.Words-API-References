@@ -1,7 +1,9 @@
 ﻿---
-title: current_shape property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the [ShapeBase](../../../aspose.words.drawing/shapebase/) object corresponding to the shape or group shape  that is about to be saved."
+title: ImageSavingArgs.current_shape property
+linktitle: current_shape property
+articleTitle: current_shape property
+second_title: Aspose.Words for Python
+description: "ImageSavingArgs.current_shape property. Gets the [ShapeBase](../../../aspose.words.drawing/shapebase/) object corresponding to the shape or group shape  that is about to be saved."
 type: docs
 weight: 10
 url: /python-net/aspose.words.saving/imagesavingargs/current_shape/

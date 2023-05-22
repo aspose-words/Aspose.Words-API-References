@@ -1,7 +1,9 @@
 ﻿---
-title: ole_package property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Provide access to [OlePackage](../../olepackage/) if OLE object is an OLE Package"
+title: OleFormat.ole_package property
+linktitle: ole_package property
+articleTitle: ole_package property
+second_title: Aspose.Words for Python
+description: "OleFormat.ole_package property. Provide access to [OlePackage](../../olepackage/) if OLE object is an OLE Package"
 type: docs
 weight: 80
 url: /python-net/aspose.words.drawing/oleformat/ole_package/

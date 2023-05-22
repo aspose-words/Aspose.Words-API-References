@@ -1,6 +1,9 @@
 ﻿---
 title: FieldFormText constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: FieldFormText constructor
+articleTitle: FieldFormText constructor
+second_title: Aspose.Words for Python
+description: "FieldFormText constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/fieldformtext/__init__/

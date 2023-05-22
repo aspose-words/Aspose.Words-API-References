@@ -1,7 +1,9 @@
 ﻿---
-title: web_request_timeout property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "The number of milliseconds to wait before the web request times out"
+title: HtmlLoadOptions.web_request_timeout property
+linktitle: web_request_timeout property
+articleTitle: web_request_timeout property
+second_title: Aspose.Words for Python
+description: "HtmlLoadOptions.web_request_timeout property. The number of milliseconds to wait before the web request times out"
 type: docs
 weight: 70
 url: /python-net/aspose.words.loading/htmlloadoptions/web_request_timeout/

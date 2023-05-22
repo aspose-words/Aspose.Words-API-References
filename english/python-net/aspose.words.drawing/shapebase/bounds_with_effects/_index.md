@@ -1,7 +1,9 @@
 ﻿---
-title: bounds_with_effects property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets final extent that this shape object has after applying drawing effects"
+title: ShapeBase.bounds_with_effects property
+linktitle: bounds_with_effects property
+articleTitle: bounds_with_effects property
+second_title: Aspose.Words for Python
+description: "ShapeBase.bounds_with_effects property. Gets final extent that this shape object has after applying drawing effects"
 type: docs
 weight: 90
 url: /python-net/aspose.words.drawing/shapebase/bounds_with_effects/

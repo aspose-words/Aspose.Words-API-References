@@ -1,7 +1,9 @@
 ﻿---
 title: TableContentAlignment enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to specify the alignment of the content of the table to be used when exporting into Markdown format."
+linktitle: TableContentAlignment enumeration
+articleTitle: TableContentAlignment enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.saving.TableContentAlignment enumeration. Allows to specify the alignment of the content of the table to be used when exporting into Markdown format."
 type: docs
 weight: 770
 url: /python-net/aspose.words.saving/tablecontentalignment/

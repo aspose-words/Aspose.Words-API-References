@@ -1,6 +1,8 @@
 ﻿---
-title: open method
-second_title: Aspose.Words for Python via .NET API Reference
+title: ComHelper.open method
+linktitle: open method
+articleTitle: open method
+second_title: Aspose.Words for Python
 description: "aspose.words.ComHelper.open method"
 type: docs
 weight: 20

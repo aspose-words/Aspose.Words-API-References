@@ -1,7 +1,9 @@
 ﻿---
 title: DigitalSignatureType enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the type of a digital signature."
+linktitle: DigitalSignatureType enumeration
+articleTitle: DigitalSignatureType enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.digitalsignatures.DigitalSignatureType enumeration. Specifies the type of a digital signature."
 type: docs
 weight: 40
 url: /python-net/aspose.words.digitalsignatures/digitalsignaturetype/

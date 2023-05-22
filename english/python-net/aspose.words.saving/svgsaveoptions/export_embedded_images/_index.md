@@ -1,7 +1,9 @@
 ﻿---
-title: export_embedded_images property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specified whether images should be embedded into SVG document as base64"
+title: SvgSaveOptions.export_embedded_images property
+linktitle: export_embedded_images property
+articleTitle: export_embedded_images property
+second_title: Aspose.Words for Python
+description: "SvgSaveOptions.export_embedded_images property. Specified whether images should be embedded into SVG document as base64"
 type: docs
 weight: 20
 url: /python-net/aspose.words.saving/svgsaveoptions/export_embedded_images/

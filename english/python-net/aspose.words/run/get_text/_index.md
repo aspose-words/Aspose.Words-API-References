@@ -1,7 +1,9 @@
 ﻿---
-title: get_text method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the text of the run."
+title: Run.get_text method
+linktitle: get_text method
+articleTitle: get_text method
+second_title: Aspose.Words for Python
+description: "Run.get_text method. Gets the text of the run."
 type: docs
 weight: 70
 url: /python-net/aspose.words/run/get_text/

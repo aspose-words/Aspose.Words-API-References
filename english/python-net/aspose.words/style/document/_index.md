@@ -1,7 +1,9 @@
 ﻿---
-title: document property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the owner document."
+title: Style.document property
+linktitle: document property
+articleTitle: document property
+second_title: Aspose.Words for Python
+description: "Style.document property. Gets the owner document."
 type: docs
 weight: 50
 url: /python-net/aspose.words/style/document/

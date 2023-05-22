@@ -1,7 +1,9 @@
 ﻿---
-title: export_list_labels property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Controls how list labels are output to HTML, MHTML or EPUB"
+title: HtmlSaveOptions.export_list_labels property
+linktitle: export_list_labels property
+articleTitle: export_list_labels property
+second_title: Aspose.Words for Python
+description: "HtmlSaveOptions.export_list_labels property. Controls how list labels are output to HTML, MHTML or EPUB"
 type: docs
 weight: 200
 url: /python-net/aspose.words.saving/htmlsaveoptions/export_list_labels/

@@ -1,7 +1,9 @@
 ﻿---
 title: ComparisonTargetType enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to specify base document which will be used during comparison"
+linktitle: ComparisonTargetType enumeration
+articleTitle: ComparisonTargetType enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.comparing.ComparisonTargetType enumeration. Allows to specify base document which will be used during comparison"
 type: docs
 weight: 20
 url: /python-net/aspose.words.comparing/comparisontargettype/

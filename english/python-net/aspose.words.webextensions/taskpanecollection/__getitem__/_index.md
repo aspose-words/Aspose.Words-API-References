@@ -1,6 +1,9 @@
 ﻿---
 title: TaskPaneCollection indexer
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: TaskPaneCollection indexer
+articleTitle: TaskPaneCollection indexer
+second_title: Aspose.Words for Python
+description: "TaskPaneCollection indexer. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.webextensions/taskpanecollection/__getitem__/

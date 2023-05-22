@@ -1,6 +1,8 @@
 ﻿---
 title: TabStop constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: TabStop constructor
+articleTitle: TabStop constructor
+second_title: Aspose.Words for Python
 description: "aspose.words.TabStop constructor"
 type: docs
 weight: 10

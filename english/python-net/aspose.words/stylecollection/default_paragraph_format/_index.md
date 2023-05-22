@@ -1,7 +1,9 @@
 ﻿---
-title: default_paragraph_format property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets document default paragraph formatting."
+title: StyleCollection.default_paragraph_format property
+linktitle: default_paragraph_format property
+articleTitle: default_paragraph_format property
+second_title: Aspose.Words for Python
+description: "StyleCollection.default_paragraph_format property. Gets document default paragraph formatting."
 type: docs
 weight: 40
 url: /python-net/aspose.words/stylecollection/default_paragraph_format/

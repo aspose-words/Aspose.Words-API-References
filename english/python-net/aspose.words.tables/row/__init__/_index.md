@@ -1,7 +1,9 @@
 ﻿---
 title: Row constructor
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Initializes a new instance of the [Row](../) class."
+linktitle: Row constructor
+articleTitle: Row constructor
+second_title: Aspose.Words for Python
+description: "Row constructor. Initializes a new instance of the [Row](../) class."
 type: docs
 weight: 10
 url: /python-net/aspose.words.tables/row/__init__/

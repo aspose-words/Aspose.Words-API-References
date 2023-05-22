@@ -1,7 +1,9 @@
 ﻿---
-title: parent_region property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns parent region info (null for top-level region)."
+title: MailMergeRegionInfo.parent_region property
+linktitle: parent_region property
+articleTitle: parent_region property
+second_title: Aspose.Words for Python
+description: "MailMergeRegionInfo.parent_region property. Returns parent region info (null for top-level region)."
 type: docs
 weight: 50
 url: /python-net/aspose.words.mailmerging/mailmergeregioninfo/parent_region/

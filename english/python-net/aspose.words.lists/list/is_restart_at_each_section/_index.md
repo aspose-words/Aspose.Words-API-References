@@ -1,7 +1,9 @@
 ﻿---
-title: is_restart_at_each_section property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies whether list should be restarted at each section"
+title: List.is_restart_at_each_section property
+linktitle: is_restart_at_each_section property
+articleTitle: is_restart_at_each_section property
+second_title: Aspose.Words for Python
+description: "List.is_restart_at_each_section property. Specifies whether list should be restarted at each section"
 type: docs
 weight: 50
 url: /python-net/aspose.words.lists/list/is_restart_at_each_section/

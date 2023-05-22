@@ -1,7 +1,9 @@
 ﻿---
-title: tags_replaced method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Called when mustache text tags are replaced with MERGEFIELD fields."
+title: IMailMergeCallback.tags_replaced method
+linktitle: tags_replaced method
+articleTitle: tags_replaced method
+second_title: Aspose.Words for Python
+description: "IMailMergeCallback.tags_replaced method. Called when mustache text tags are replaced with MERGEFIELD fields."
 type: docs
 weight: 10
 url: /python-net/aspose.words.mailmerging/imailmergecallback/tags_replaced/

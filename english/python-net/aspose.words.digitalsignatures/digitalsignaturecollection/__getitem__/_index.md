@@ -1,7 +1,9 @@
 ﻿---
 title: DigitalSignatureCollection indexer
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets a document signature at the specified index."
+linktitle: DigitalSignatureCollection indexer
+articleTitle: DigitalSignatureCollection indexer
+second_title: Aspose.Words for Python
+description: "DigitalSignatureCollection indexer. Gets a document signature at the specified index."
 type: docs
 weight: 20
 url: /python-net/aspose.words.digitalsignatures/digitalsignaturecollection/__getitem__/

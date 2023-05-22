@@ -1,7 +1,9 @@
 ﻿---
-title: document_direction property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a document direction"
+title: TxtLoadOptions.document_direction property
+linktitle: document_direction property
+articleTitle: document_direction property
+second_title: Aspose.Words for Python
+description: "TxtLoadOptions.document_direction property. Gets or sets a document direction"
 type: docs
 weight: 40
 url: /python-net/aspose.words.loading/txtloadoptions/document_direction/

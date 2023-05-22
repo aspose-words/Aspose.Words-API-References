@@ -1,7 +1,9 @@
 ﻿﻿---
 title: Document class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a Word document"
+linktitle: Document class
+articleTitle: Document class
+second_title: Aspose.Words for Python
+description: "aspose.words.Document class. Represents a Word document"
 type: docs
 weight: 270
 url: /python-net/aspose.words/document/

@@ -1,7 +1,9 @@
 ﻿---
-title: encoding property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the encoding to use when exporting to HTML"
+title: HtmlFixedSaveOptions.encoding property
+linktitle: encoding property
+articleTitle: encoding property
+second_title: Aspose.Words for Python
+description: "HtmlFixedSaveOptions.encoding property. Specifies the encoding to use when exporting to HTML"
 type: docs
 weight: 30
 url: /python-net/aspose.words.saving/htmlfixedsaveoptions/encoding/

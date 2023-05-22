@@ -1,7 +1,9 @@
 ﻿---
-title: direction property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Selects direction for replace"
+title: FindReplaceOptions.direction property
+linktitle: direction property
+articleTitle: direction property
+second_title: Aspose.Words for Python
+description: "FindReplaceOptions.direction property. Selects direction for replace"
 type: docs
 weight: 40
 url: /python-net/aspose.words.replacing/findreplaceoptions/direction/

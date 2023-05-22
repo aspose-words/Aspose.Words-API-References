@@ -1,7 +1,9 @@
 ﻿---
-title: event property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets event."
+title: PageLayoutCallbackArgs.event property
+linktitle: event property
+articleTitle: event property
+second_title: Aspose.Words for Python
+description: "PageLayoutCallbackArgs.event property. Gets event."
 type: docs
 weight: 20
 url: /python-net/aspose.words.layout/pagelayoutcallbackargs/event/

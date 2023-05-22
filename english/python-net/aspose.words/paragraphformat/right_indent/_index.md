@@ -1,7 +1,9 @@
 ﻿---
-title: right_indent property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the value (in points) that represents the right indent for paragraph."
+title: ParagraphFormat.right_indent property
+linktitle: right_indent property
+articleTitle: right_indent property
+second_title: Aspose.Words for Python
+description: "ParagraphFormat.right_indent property. Gets or sets the value (in points) that represents the right indent for paragraph."
 type: docs
 weight: 260
 url: /python-net/aspose.words/paragraphformat/right_indent/

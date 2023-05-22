@@ -1,7 +1,9 @@
 ﻿---
-title: add_text method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Adds a plain text to the argument."
+title: FieldArgumentBuilder.add_text method
+linktitle: add_text method
+articleTitle: add_text method
+second_title: Aspose.Words for Python
+description: "FieldArgumentBuilder.add_text method. Adds a plain text to the argument."
 type: docs
 weight: 40
 url: /python-net/aspose.words.fields/fieldargumentbuilder/add_text/

@@ -1,7 +1,9 @@
 ﻿---
 title: Glyph constructor
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Initializes new instance of this class."
+linktitle: Glyph constructor
+articleTitle: Glyph constructor
+second_title: Aspose.Words for Python
+description: "Glyph constructor. Initializes new instance of this class."
 type: docs
 weight: 10
 url: /python-net/aspose.words.shaping/glyph/__init__/

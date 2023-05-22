@@ -1,7 +1,9 @@
 ﻿---
-title: start_at property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns or sets the starting number for this list level."
+title: ListLevel.start_at property
+linktitle: start_at property
+articleTitle: start_at property
+second_title: Aspose.Words for Python
+description: "ListLevel.start_at property. Returns or sets the starting number for this list level."
 type: docs
 weight: 110
 url: /python-net/aspose.words.lists/listlevel/start_at/

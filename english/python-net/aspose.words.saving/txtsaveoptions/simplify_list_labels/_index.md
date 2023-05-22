@@ -1,7 +1,9 @@
 ﻿---
-title: simplify_list_labels property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies whether the program should simplify list labels in case of complex label formatting not being adequately represented by plain text."
+title: TxtSaveOptions.simplify_list_labels property
+linktitle: simplify_list_labels property
+articleTitle: simplify_list_labels property
+second_title: Aspose.Words for Python
+description: "TxtSaveOptions.simplify_list_labels property. Specifies whether the program should simplify list labels in case of complex label formatting not being adequately represented by plain text."
 type: docs
 weight: 70
 url: /python-net/aspose.words.saving/txtsaveoptions/simplify_list_labels/

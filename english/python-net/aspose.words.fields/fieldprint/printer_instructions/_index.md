@@ -1,7 +1,9 @@
 ﻿---
-title: printer_instructions property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the printer-specific control code characters or PostScript instructions."
+title: FieldPrint.printer_instructions property
+linktitle: printer_instructions property
+articleTitle: printer_instructions property
+second_title: Aspose.Words for Python
+description: "FieldPrint.printer_instructions property. Gets or sets the printer-specific control code characters or PostScript instructions."
 type: docs
 weight: 30
 url: /python-net/aspose.words.fields/fieldprint/printer_instructions/

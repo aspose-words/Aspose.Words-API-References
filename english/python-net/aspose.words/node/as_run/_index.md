@@ -1,7 +1,9 @@
 ﻿---
-title: as_run method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Cast node to [Run](../../run/)."
+title: Node.as_run method
+linktitle: as_run method
+articleTitle: as_run method
+second_title: Aspose.Words for Python
+description: "Node.as_run method. Cast node to [Run](../../run/)."
 type: docs
 weight: 330
 url: /python-net/aspose.words/node/as_run/

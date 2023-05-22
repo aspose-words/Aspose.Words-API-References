@@ -1,7 +1,9 @@
 ﻿---
-title: images_folder_alias property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the name of the folder used to construct image URIs written into an XAML document"
+title: XamlFlowSaveOptions.images_folder_alias property
+linktitle: images_folder_alias property
+articleTitle: images_folder_alias property
+second_title: Aspose.Words for Python
+description: "XamlFlowSaveOptions.images_folder_alias property. Specifies the name of the folder used to construct image URIs written into an XAML document"
 type: docs
 weight: 40
 url: /python-net/aspose.words.saving/xamlflowsaveoptions/images_folder_alias/

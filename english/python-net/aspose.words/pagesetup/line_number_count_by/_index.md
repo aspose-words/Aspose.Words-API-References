@@ -1,7 +1,9 @@
 ﻿---
-title: line_number_count_by property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns or sets the numeric increment for line numbers."
+title: PageSetup.line_number_count_by property
+linktitle: line_number_count_by property
+articleTitle: line_number_count_by property
+second_title: Aspose.Words for Python
+description: "PageSetup.line_number_count_by property. Returns or sets the numeric increment for line numbers."
 type: docs
 weight: 210
 url: /python-net/aspose.words/pagesetup/line_number_count_by/

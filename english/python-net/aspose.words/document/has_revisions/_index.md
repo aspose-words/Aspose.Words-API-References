@@ -1,7 +1,9 @@
 ﻿---
-title: has_revisions property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns ``True`` if the document has any tracked changes."
+title: Document.has_revisions property
+linktitle: has_revisions property
+articleTitle: has_revisions property
+second_title: Aspose.Words for Python
+description: "Document.has_revisions property. Returns ``True`` if the document has any tracked changes."
 type: docs
 weight: 200
 url: /python-net/aspose.words/document/has_revisions/

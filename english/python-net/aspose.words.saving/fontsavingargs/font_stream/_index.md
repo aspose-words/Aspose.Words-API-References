@@ -1,7 +1,9 @@
 ﻿---
-title: font_stream property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to specify the stream where the font will be saved to."
+title: FontSavingArgs.font_stream property
+linktitle: font_stream property
+articleTitle: font_stream property
+second_title: Aspose.Words for Python
+description: "FontSavingArgs.font_stream property. Allows to specify the stream where the font will be saved to."
 type: docs
 weight: 50
 url: /python-net/aspose.words.saving/fontsavingargs/font_stream/

@@ -1,7 +1,9 @@
 ﻿---
-title: issuer_name property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns the subject distinguished name of the certificate isuuer."
+title: DigitalSignature.issuer_name property
+linktitle: issuer_name property
+articleTitle: issuer_name property
+second_title: Aspose.Words for Python
+description: "DigitalSignature.issuer_name property. Returns the subject distinguished name of the certificate isuuer."
 type: docs
 weight: 40
 url: /python-net/aspose.words.digitalsignatures/digitalsignature/issuer_name/

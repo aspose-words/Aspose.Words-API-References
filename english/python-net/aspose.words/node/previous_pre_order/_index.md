@@ -1,7 +1,9 @@
 ﻿---
-title: previous_pre_order method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the previous node according to the pre-order tree traversal algorithm."
+title: Node.previous_pre_order method
+linktitle: previous_pre_order method
+articleTitle: previous_pre_order method
+second_title: Aspose.Words for Python
+description: "Node.previous_pre_order method. Gets the previous node according to the pre-order tree traversal algorithm."
 type: docs
 weight: 480
 url: /python-net/aspose.words/node/previous_pre_order/

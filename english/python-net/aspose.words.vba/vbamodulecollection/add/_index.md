@@ -1,7 +1,9 @@
 ﻿---
-title: add method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Adds a module to the collection."
+title: VbaModuleCollection.add method
+linktitle: add method
+articleTitle: add method
+second_title: Aspose.Words for Python
+description: "VbaModuleCollection.add method. Adds a module to the collection."
 type: docs
 weight: 30
 url: /python-net/aspose.words.vba/vbamodulecollection/add/

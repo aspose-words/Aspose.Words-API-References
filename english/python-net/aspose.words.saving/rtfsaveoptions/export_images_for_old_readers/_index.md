@@ -1,7 +1,9 @@
 ﻿---
-title: export_images_for_old_readers property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies whether the keywords for old readers are written to RTF or not"
+title: RtfSaveOptions.export_images_for_old_readers property
+linktitle: export_images_for_old_readers property
+articleTitle: export_images_for_old_readers property
+second_title: Aspose.Words for Python
+description: "RtfSaveOptions.export_images_for_old_readers property. Specifies whether the keywords for old readers are written to RTF or not"
 type: docs
 weight: 30
 url: /python-net/aspose.words.saving/rtfsaveoptions/export_images_for_old_readers/

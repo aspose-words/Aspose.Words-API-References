@@ -1,7 +1,9 @@
 ﻿---
-title: vertical_resolution property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the vertical resolution in DPI."
+title: ImageSize.vertical_resolution property
+linktitle: vertical_resolution property
+articleTitle: vertical_resolution property
+second_title: Aspose.Words for Python
+description: "ImageSize.vertical_resolution property. Gets the vertical resolution in DPI."
 type: docs
 weight: 50
 url: /python-net/aspose.words.drawing/imagesize/vertical_resolution/

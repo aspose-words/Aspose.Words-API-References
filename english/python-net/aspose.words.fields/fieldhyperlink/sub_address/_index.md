@@ -1,7 +1,9 @@
 ﻿---
-title: sub_address property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a location in the file, such as a bookmark, where this hyperlink jumps."
+title: FieldHyperlink.sub_address property
+linktitle: sub_address property
+articleTitle: sub_address property
+second_title: Aspose.Words for Python
+description: "FieldHyperlink.sub_address property. Gets or sets a location in the file, such as a bookmark, where this hyperlink jumps."
 type: docs
 weight: 60
 url: /python-net/aspose.words.fields/fieldhyperlink/sub_address/

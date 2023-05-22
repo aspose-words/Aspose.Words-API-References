@@ -1,7 +1,9 @@
 ﻿---
-title: id property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies a unique read-only persistent numerical Id for this StructuredDocumentTagRange node"
+title: StructuredDocumentTagRangeEnd.id property
+linktitle: id property
+articleTitle: id property
+second_title: Aspose.Words for Python
+description: "StructuredDocumentTagRangeEnd.id property. Specifies a unique read-only persistent numerical Id for this StructuredDocumentTagRange node"
 type: docs
 weight: 20
 url: /python-net/aspose.words.markup/structureddocumenttagrangeend/id/

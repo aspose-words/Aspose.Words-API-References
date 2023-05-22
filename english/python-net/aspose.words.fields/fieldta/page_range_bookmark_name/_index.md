@@ -1,7 +1,9 @@
 ﻿---
-title: page_range_bookmark_name property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the name of the bookmark that marks a range of pages that is inserted as the entry's page number."
+title: FieldTA.page_range_bookmark_name property
+linktitle: page_range_bookmark_name property
+articleTitle: page_range_bookmark_name property
+second_title: Aspose.Words for Python
+description: "FieldTA.page_range_bookmark_name property. Gets or sets the name of the bookmark that marks a range of pages that is inserted as the entry's page number."
 type: docs
 weight: 60
 url: /python-net/aspose.words.fields/fieldta/page_range_bookmark_name/

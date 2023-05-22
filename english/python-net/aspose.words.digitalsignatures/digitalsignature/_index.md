@@ -1,7 +1,9 @@
 ﻿﻿---
 title: DigitalSignature class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a digital signature on a document and the result of its verification"
+linktitle: DigitalSignature class
+articleTitle: DigitalSignature class
+second_title: Aspose.Words for Python
+description: "aspose.words.digitalsignatures.DigitalSignature class. Represents a digital signature on a document and the result of its verification"
 type: docs
 weight: 20
 url: /python-net/aspose.words.digitalsignatures/digitalsignature/

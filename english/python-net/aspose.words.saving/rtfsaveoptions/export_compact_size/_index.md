@@ -1,7 +1,9 @@
 ﻿---
-title: export_compact_size property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to make output RTF documents smaller in size, but if they contain  RTL (right-to-left) text, it will not be displayed correctly."
+title: RtfSaveOptions.export_compact_size property
+linktitle: export_compact_size property
+articleTitle: export_compact_size property
+second_title: Aspose.Words for Python
+description: "RtfSaveOptions.export_compact_size property. Allows to make output RTF documents smaller in size, but if they contain  RTL (right-to-left) text, it will not be displayed correctly."
 type: docs
 weight: 20
 url: /python-net/aspose.words.saving/rtfsaveoptions/export_compact_size/

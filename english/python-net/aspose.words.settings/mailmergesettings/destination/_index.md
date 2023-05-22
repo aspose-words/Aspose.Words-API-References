@@ -1,7 +1,9 @@
 ﻿---
-title: destination property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies how Microsoft Word will output the results of a mail merge"
+title: MailMergeSettings.destination property
+linktitle: destination property
+articleTitle: destination property
+second_title: Aspose.Words for Python
+description: "MailMergeSettings.destination property. Specifies how Microsoft Word will output the results of a mail merge"
 type: docs
 weight: 80
 url: /python-net/aspose.words.settings/mailmergesettings/destination/

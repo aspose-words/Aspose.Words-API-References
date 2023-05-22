@@ -1,7 +1,9 @@
 ﻿---
-title: FIELD_START_CHAR property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Start of MS Word field character: (char)19."
+title: ControlChar.FIELD_START_CHAR property
+linktitle: FIELD_START_CHAR property
+articleTitle: FIELD_START_CHAR property
+second_title: Aspose.Words for Python
+description: "ControlChar.FIELD_START_CHAR property. Start of MS Word field character: (char)19."
 type: docs
 weight: 100
 url: /python-net/aspose.words/controlchar/FIELD_START_CHAR/

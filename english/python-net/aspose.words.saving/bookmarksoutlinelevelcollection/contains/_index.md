@@ -1,7 +1,9 @@
 ﻿---
-title: contains method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Determines whether the collection contains a bookmark with the given name."
+title: BookmarksOutlineLevelCollection.contains method
+linktitle: contains method
+articleTitle: contains method
+second_title: Aspose.Words for Python
+description: "BookmarksOutlineLevelCollection.contains method. Determines whether the collection contains a bookmark with the given name."
 type: docs
 weight: 60
 url: /python-net/aspose.words.saving/bookmarksoutlinelevelcollection/contains/

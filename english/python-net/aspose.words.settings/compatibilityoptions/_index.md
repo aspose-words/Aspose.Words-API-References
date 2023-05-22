@@ -1,7 +1,9 @@
 ﻿﻿---
 title: CompatibilityOptions class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Contains compatibility options (that is, the user preferences entered on the Compatibility tab of the Options dialog in Microsoft Word)"
+linktitle: CompatibilityOptions class
+articleTitle: CompatibilityOptions class
+second_title: Aspose.Words for Python
+description: "aspose.words.settings.CompatibilityOptions class. Contains compatibility options (that is, the user preferences entered on the Compatibility tab of the Options dialog in Microsoft Word)"
 type: docs
 weight: 20
 url: /python-net/aspose.words.settings/compatibilityoptions/

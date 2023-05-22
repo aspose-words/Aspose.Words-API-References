@@ -1,7 +1,9 @@
 ﻿---
-title: id property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets identifier for this signature line"
+title: SignatureLine.id property
+linktitle: id property
+articleTitle: id property
+second_title: Aspose.Words for Python
+description: "SignatureLine.id property. Gets or sets identifier for this signature line"
 type: docs
 weight: 40
 url: /python-net/aspose.words.drawing/signatureline/id/

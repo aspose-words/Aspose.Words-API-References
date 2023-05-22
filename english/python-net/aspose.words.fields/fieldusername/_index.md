@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldUserName class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the USERNAME field"
+linktitle: FieldUserName class
+articleTitle: FieldUserName class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldUserName class. Implements the USERNAME field"
 type: docs
 weight: 1140
 url: /python-net/aspose.words.fields/fieldusername/

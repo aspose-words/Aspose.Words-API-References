@@ -1,7 +1,9 @@
 ﻿---
-title: user_initials property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the current user's initials."
+title: FieldUserInitials.user_initials property
+linktitle: user_initials property
+articleTitle: user_initials property
+second_title: Aspose.Words for Python
+description: "FieldUserInitials.user_initials property. Gets or sets the current user's initials."
 type: docs
 weight: 20
 url: /python-net/aspose.words.fields/fielduserinitials/user_initials/

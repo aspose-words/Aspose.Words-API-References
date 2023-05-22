@@ -1,7 +1,9 @@
 ﻿---
-title: right property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the right border."
+title: BorderCollection.right property
+linktitle: right property
+articleTitle: right property
+second_title: Aspose.Words for Python
+description: "BorderCollection.right property. Gets the right border."
 type: docs
 weight: 100
 url: /python-net/aspose.words/bordercollection/right/
