@@ -1,9 +1,10 @@
 ---
-title: GroupShape
+title: Aspose::Words::Drawing::GroupShape::GroupShape constructor
+linktitle: GroupShape
 second_title: Aspose.Words for C++ API Reference
-description: Creates a new group shape.
+description: 'Aspose::Words::Drawing::GroupShape::GroupShape constructor. Creates a new group shape in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.drawing/groupshape/groupshape/
 ---
 ## GroupShape::GroupShape constructor
@@ -115,4 +116,4 @@ private:
 * Class [DocumentBase](../../../aspose.words/documentbase/)
 * Class [GroupShape](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

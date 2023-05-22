@@ -1,9 +1,10 @@
 ---
-title: virtualized_iterator_element
+title: Aspose::Words::VariableCollection::virtualized_iterator_element typedef
+linktitle: virtualized_iterator_element
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Aspose::Words::VariableCollection::virtualized_iterator_element typedef of Aspose::Words::VariableCollection class in C++.'
 type: docs
-weight: 326
+weight: 26000
 url: /cpp/aspose.words/variablecollection/virtualized_iterator_element/
 ---
 ## virtualized_iterator_element typedef
@@ -19,4 +20,4 @@ using Aspose::Words::VariableCollection::virtualized_iterator_element =  typenam
 
 * Class [VariableCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

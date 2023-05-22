@@ -1,9 +1,10 @@
 ---
-title: FieldType
+title: Aspose::Words::Fields::FieldType enum
+linktitle: FieldType
 second_title: Aspose.Words for C++ API Reference
-description: Specifies Microsoft Word field types.
+description: 'Aspose::Words::Fields::FieldType enum. Specifies Microsoft Word field types in C++.'
 type: docs
-weight: 1678
+weight: 130000
 url: /cpp/aspose.words.fields/fieldtype/
 ---
 ## FieldType enum
@@ -142,7 +143,7 @@ Shows how to work with a [FieldStart](../fieldstart/) node.
 auto doc = MakeObject<Document>();
 auto builder = MakeObject<DocumentBuilder>(doc);
 
-auto field = System::DynamicCast<FieldDate>(builder->InsertField(FieldType::FieldDate, true));
+auto field = System::ExplicitCast<FieldDate>(builder->InsertField(FieldType::FieldDate, true));
 field->get_Format()->set_DateTimeFormat(u"dddd, MMMM dd, yyyy");
 field->Update();
 
@@ -153,7 +154,7 @@ ASPOSE_ASSERT_EQ(false, fieldStart->get_IsDirty());
 ASPOSE_ASSERT_EQ(false, fieldStart->get_IsLocked());
 
 // Retrieve the facade object which represents the field in the document.
-field = System::DynamicCast<FieldDate>(fieldStart->GetField());
+field = System::ExplicitCast<FieldDate>(fieldStart->GetField());
 
 ASPOSE_ASSERT_EQ(false, field->get_IsLocked());
 ASSERT_EQ(u" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field->GetFieldCode());
@@ -165,4 +166,4 @@ field->Update();
 ## See Also
 
 * Namespace [Aspose::Words::Fields](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

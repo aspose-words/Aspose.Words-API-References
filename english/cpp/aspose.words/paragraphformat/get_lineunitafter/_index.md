@@ -1,9 +1,10 @@
 ---
-title: get_LineUnitAfter
+title: Aspose::Words::ParagraphFormat::get_LineUnitAfter method
+linktitle: get_LineUnitAfter
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the amount of spacing (in gridlines) after the paragraphs.
+description: 'Aspose::Words::ParagraphFormat::get_LineUnitAfter method. Gets or sets the amount of spacing (in gridlines) after the paragraphs in C++.'
 type: docs
-weight: 287
+weight: 23000
 url: /cpp/aspose.words/paragraphformat/get_lineunitafter/
 ---
 ## ParagraphFormat::get_LineUnitAfter method
@@ -72,4 +73,4 @@ builder->Write(String(u"测试文档测试文档测试文档测试文档测试�
 
 * Class [ParagraphFormat](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

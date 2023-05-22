@@ -1,9 +1,10 @@
 ---
-title: get_Alignment
+title: Aspose::Words::ParagraphFormat::get_Alignment method
+linktitle: get_Alignment
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets text alignment for the paragraph.
+description: 'Aspose::Words::ParagraphFormat::get_Alignment method. Gets or sets text alignment for the paragraph in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words/paragraphformat/get_alignment/
 ---
 ## ParagraphFormat::get_Alignment method
@@ -96,4 +97,4 @@ doc->Save(ArtifactsDir + u"Section.CreateManually.docx");
 * Enum [ParagraphAlignment](../../paragraphalignment/)
 * Class [ParagraphFormat](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

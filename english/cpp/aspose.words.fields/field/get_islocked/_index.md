@@ -1,9 +1,10 @@
 ---
-title: get_IsLocked
+title: Aspose::Words::Fields::Field::get_IsLocked method
+linktitle: get_IsLocked
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets whether the field is locked (should not recalculate its result).
+description: 'Aspose::Words::Fields::Field::get_IsLocked method. Gets or sets whether the field is locked (should not recalculate its result) in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.fields/field/get_islocked/
 ---
 ## Field::get_IsLocked method
@@ -25,7 +26,7 @@ Shows how to work with a [FieldStart](../../fieldstart/) node.
 auto doc = MakeObject<Document>();
 auto builder = MakeObject<DocumentBuilder>(doc);
 
-auto field = System::DynamicCast<FieldDate>(builder->InsertField(FieldType::FieldDate, true));
+auto field = System::ExplicitCast<FieldDate>(builder->InsertField(FieldType::FieldDate, true));
 field->get_Format()->set_DateTimeFormat(u"dddd, MMMM dd, yyyy");
 field->Update();
 
@@ -36,7 +37,7 @@ ASPOSE_ASSERT_EQ(false, fieldStart->get_IsDirty());
 ASPOSE_ASSERT_EQ(false, fieldStart->get_IsLocked());
 
 // Retrieve the facade object which represents the field in the document.
-field = System::DynamicCast<FieldDate>(fieldStart->GetField());
+field = System::ExplicitCast<FieldDate>(fieldStart->GetField());
 
 ASPOSE_ASSERT_EQ(false, field->get_IsLocked());
 ASSERT_EQ(u" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field->GetFieldCode());
@@ -49,4 +50,4 @@ field->Update();
 
 * Class [Field](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

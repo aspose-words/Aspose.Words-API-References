@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::CompositeNode::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::CompositeNode class in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words/compositenode/gettype/
 ---
 ## CompositeNode::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::CompositeNode::GetType() const o
 
 * Class [CompositeNode](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: Type
+title: Aspose::Words::Math::OfficeMath::Type method
+linktitle: Type
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Type method of Aspose::Words::Math::OfficeMath class in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words.math/officemath/type/
 ---
 ## OfficeMath::Type method
@@ -19,4 +20,4 @@ static const System::TypeInfo & Aspose::Words::Math::OfficeMath::Type()
 
 * Class [OfficeMath](../)
 * Namespace [Aspose::Words::Math](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

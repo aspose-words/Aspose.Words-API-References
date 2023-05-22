@@ -1,9 +1,10 @@
 ---
-title: get_RestartAfterLevel
+title: Aspose::Words::Lists::ListLevel::get_RestartAfterLevel method
+linktitle: get_RestartAfterLevel
 second_title: Aspose.Words for C++ API Reference
-description: Sets or returns the list level that must appear before the specified list level restarts numbering.
+description: 'Aspose::Words::Lists::ListLevel::get_RestartAfterLevel method. Sets or returns the list level that must appear before the specified list level restarts numbering in C++.'
 type: docs
-weight: 183
+weight: 15000
 url: /cpp/aspose.words.lists/listlevel/get_restartafterlevel/
 ---
 ## ListLevel::get_RestartAfterLevel method
@@ -88,4 +89,4 @@ doc->Save(ArtifactsDir + u"Lists.CreateListRestartAfterHigher.docx");
 
 * Class [ListLevel](../)
 * Namespace [Aspose::Words::Lists](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

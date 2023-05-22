@@ -1,9 +1,10 @@
 ---
-title: GetEnumerator
+title: Aspose::Words::Properties::DocumentPropertyCollection::GetEnumerator method
+linktitle: GetEnumerator
 second_title: Aspose.Words for C++ API Reference
-description: Returns an enumerator object that can be used to iterate over all items in the collection.
+description: 'Aspose::Words::Properties::DocumentPropertyCollection::GetEnumerator method. Returns an enumerator object that can be used to iterate over all items in the collection in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.properties/documentpropertycollection/getenumerator/
 ---
 ## DocumentPropertyCollection::GetEnumerator method
@@ -51,7 +52,7 @@ ASSERT_EQ(5, properties->get_Count());
 
 // Display the value of a custom property using a DOCPROPERTY field.
 auto builder = MakeObject<DocumentBuilder>(doc);
-auto field = System::DynamicCast<FieldDocProperty>(builder->InsertField(u" DOCPROPERTY \"Authorized By\""));
+auto field = System::ExplicitCast<FieldDocProperty>(builder->InsertField(u" DOCPROPERTY \"Authorized By\""));
 field->Update();
 
 ASSERT_EQ(u"John Doe", field->get_Result());
@@ -83,4 +84,4 @@ ASSERT_EQ(0, properties->get_Count());
 * Class [DocumentProperty](../../documentproperty/)
 * Class [DocumentPropertyCollection](../)
 * Namespace [Aspose::Words::Properties](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

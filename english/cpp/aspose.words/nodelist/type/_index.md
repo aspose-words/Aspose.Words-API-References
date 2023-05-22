@@ -1,9 +1,10 @@
 ---
-title: Type
+title: Aspose::Words::NodeList::Type method
+linktitle: Type
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Type method of Aspose::Words::NodeList class in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words/nodelist/type/
 ---
 ## NodeList::Type method
@@ -19,4 +20,4 @@ static const System::TypeInfo & Aspose::Words::NodeList::Type()
 
 * Class [NodeList](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

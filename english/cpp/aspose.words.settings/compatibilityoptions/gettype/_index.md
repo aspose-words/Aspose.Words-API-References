@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Settings::CompatibilityOptions::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Settings::CompatibilityOptions class in C++.'
 type: docs
-weight: 937
+weight: 73000
 url: /cpp/aspose.words.settings/compatibilityoptions/gettype/
 ---
 ## CompatibilityOptions::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Settings::CompatibilityOptions::
 
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

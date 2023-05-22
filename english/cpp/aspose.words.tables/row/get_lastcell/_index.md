@@ -1,9 +1,10 @@
 ---
-title: get_LastCell
+title: Aspose::Words::Tables::Row::get_LastCell method
+linktitle: get_LastCell
 second_title: Aspose.Words for C++ API Reference
-description: Returns the last Cell in the row.
+description: 'Aspose::Words::Tables::Row::get_LastCell method. Returns the last Cell in the row in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.tables/row/get_lastcell/
 ---
 ## Row::get_LastCell method
@@ -162,4 +163,4 @@ private:
 * Class [Cell](../../cell/)
 * Class [Row](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

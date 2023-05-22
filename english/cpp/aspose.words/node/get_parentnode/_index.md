@@ -1,9 +1,10 @@
 ---
-title: get_ParentNode
+title: Aspose::Words::Node::get_ParentNode method
+linktitle: get_ParentNode
 second_title: Aspose.Words for C++ API Reference
-description: Gets the immediate parent of this node.
+description: 'Aspose::Words::Node::get_ParentNode method. Gets the immediate parent of this node in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words/node/get_parentnode/
 ---
 ## Node::get_ParentNode method
@@ -73,4 +74,4 @@ ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
 * Class [CompositeNode](../../compositenode/)
 * Class [Node](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

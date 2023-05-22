@@ -1,9 +1,10 @@
 ---
-title: get_SignatureLineImage
+title: Aspose::Words::DigitalSignatures::SignOptions::get_SignatureLineImage method
+linktitle: get_SignatureLineImage
 second_title: Aspose.Words for C++ API Reference
-description: The image that will be shown in associated SignatureLine. Default value is null.
+description: 'Aspose::Words::DigitalSignatures::SignOptions::get_SignatureLineImage method. The image that will be shown in associated SignatureLine. Default value is null in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.digitalsignatures/signoptions/get_signaturelineimage/
 ---
 ## SignOptions::get_SignatureLineImage method
@@ -153,4 +154,4 @@ static SharedPtr<System::Collections::Generic::List<SharedPtr<ExSignDocumentCust
 
 * Class [SignOptions](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

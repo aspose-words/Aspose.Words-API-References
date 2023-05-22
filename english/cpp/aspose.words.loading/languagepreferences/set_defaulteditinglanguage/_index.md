@@ -1,9 +1,10 @@
 ---
-title: set_DefaultEditingLanguage
+title: Aspose::Words::Loading::LanguagePreferences::set_DefaultEditingLanguage method
+linktitle: set_DefaultEditingLanguage
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Loading::LanguagePreferences::get_DefaultEditingLanguage.'
+description: 'Aspose::Words::Loading::LanguagePreferences::set_DefaultEditingLanguage method. Setter for Aspose::Words::Loading::LanguagePreferences::get_DefaultEditingLanguage in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.loading/languagepreferences/set_defaulteditinglanguage/
 ---
 ## LanguagePreferences::set_DefaultEditingLanguage method
@@ -20,4 +21,4 @@ void Aspose::Words::Loading::LanguagePreferences::set_DefaultEditingLanguage(Asp
 * Enum [EditingLanguage](../../editinglanguage/)
 * Class [LanguagePreferences](../)
 * Namespace [Aspose::Words::Loading](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

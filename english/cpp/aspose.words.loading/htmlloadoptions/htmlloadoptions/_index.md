@@ -1,9 +1,10 @@
 ---
-title: HtmlLoadOptions
+title: Aspose::Words::Loading::HtmlLoadOptions::HtmlLoadOptions constructor
+linktitle: HtmlLoadOptions
 second_title: Aspose.Words for C++ API Reference
-description: Initializes a new instance of this class with default values.
+description: 'Aspose::Words::Loading::HtmlLoadOptions::HtmlLoadOptions constructor. Initializes a new instance of this class with default values in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.loading/htmlloadoptions/htmlloadoptions/
 ---
 ## HtmlLoadOptions::HtmlLoadOptions() constructor
@@ -35,11 +36,11 @@ auto doc = MakeObject<Document>(MyDir + u"VML conditional.htm", loadOptions);
 
 if (supportVml)
 {
-    ASSERT_EQ(ImageType::Jpeg, (System::DynamicCast<Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_ImageData()->get_ImageType());
+    ASSERT_EQ(ImageType::Jpeg, (System::ExplicitCast<Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_ImageData()->get_ImageType());
 }
 else
 {
-    ASSERT_EQ(ImageType::Png, (System::DynamicCast<Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_ImageData()->get_ImageType());
+    ASSERT_EQ(ImageType::Png, (System::ExplicitCast<Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_ImageData()->get_ImageType());
 }
 ```
 
@@ -47,7 +48,7 @@ else
 
 * Class [HtmlLoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## HtmlLoadOptions::HtmlLoadOptions(Aspose::Words::LoadFormat, const System::String\&, const System::String\&) constructor
 
 
@@ -80,7 +81,7 @@ ASSERT_EQ(LoadFormat::Html, loadOptions->get_LoadFormat());
 auto doc = MakeObject<Document>(MyDir + u"Missing image.html", loadOptions);
 
 // While the image was broken in the input .html, our custom base URI helped us repair the link.
-auto imageShape = System::DynamicCast<Shape>(doc->GetChildNodes(NodeType::Shape, true)->idx_get(0));
+auto imageShape = System::ExplicitCast<Shape>(doc->GetChildNodes(NodeType::Shape, true)->idx_get(0));
 ASSERT_TRUE(imageShape->get_IsImage());
 
 // This output document will display the image that was missing.
@@ -92,7 +93,7 @@ doc->Save(ArtifactsDir + u"HtmlLoadOptions.BaseUri.docx");
 * Enum [LoadFormat](../../../aspose.words/loadformat/)
 * Class [HtmlLoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## HtmlLoadOptions::HtmlLoadOptions(const System::String\&) constructor
 
 
@@ -140,4 +141,4 @@ ASSERT_EQ(u"Test encrypted document.", doc->GetText().Trim());
 
 * Class [HtmlLoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

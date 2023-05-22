@@ -1,9 +1,10 @@
 ---
-title: get_IsLinkOnly
+title: Aspose::Words::Drawing::ImageData::get_IsLinkOnly method
+linktitle: get_IsLinkOnly
 second_title: Aspose.Words for C++ API Reference
-description: Returns true if the image is linked and not stored in the document.
+description: 'Aspose::Words::Drawing::ImageData::get_IsLinkOnly method. Returns true if the image is linked and not stored in the document in C++.'
 type: docs
-weight: 209
+weight: 17000
 url: /cpp/aspose.words.drawing/imagedata/get_islinkonly/
 ---
 ## ImageData::get_IsLinkOnly method
@@ -23,12 +24,12 @@ bool Aspose::Words::Drawing::ImageData::get_IsLinkOnly()
 Shows how to edit a shape's image data. 
 ```cpp
 auto imgSourceDoc = MakeObject<Document>(MyDir + u"Images.docx");
-auto sourceShape = System::DynamicCast<Shape>(imgSourceDoc->GetChildNodes(NodeType::Shape, true)->idx_get(0));
+auto sourceShape = System::ExplicitCast<Shape>(imgSourceDoc->GetChildNodes(NodeType::Shape, true)->idx_get(0));
 
 auto dstDoc = MakeObject<Document>();
 
 // Import a shape from the source document and append it to the first paragraph.
-auto importedShape = System::DynamicCast<Shape>(dstDoc->ImportNode(sourceShape, true));
+auto importedShape = System::ExplicitCast<Shape>(dstDoc->ImportNode(sourceShape, true));
 dstDoc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild(importedShape);
 
 // The imported shape contains an image. We can access the image's properties and raw data via the ImageData object.
@@ -55,14 +56,14 @@ imageData->set_Contrast(1.0);
 imageData->set_ChromaKey(System::Drawing::Color::get_White());
 
 // Import the source shape again and set the image to monochrome.
-importedShape = System::DynamicCast<Shape>(dstDoc->ImportNode(sourceShape, true));
+importedShape = System::ExplicitCast<Shape>(dstDoc->ImportNode(sourceShape, true));
 dstDoc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild(importedShape);
 
 importedShape->get_ImageData()->set_GrayScale(true);
 
 // Import the source shape again to create a third image and set it to BiLevel.
 // BiLevel sets every pixel to either black or white, whichever is closer to the original color.
-importedShape = System::DynamicCast<Shape>(dstDoc->ImportNode(sourceShape, true));
+importedShape = System::ExplicitCast<Shape>(dstDoc->ImportNode(sourceShape, true));
 dstDoc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild(importedShape);
 
 importedShape->get_ImageData()->set_BiLevel(true);
@@ -81,4 +82,4 @@ dstDoc->Save(ArtifactsDir + u"Drawing.ImageData.docx");
 
 * Class [ImageData](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

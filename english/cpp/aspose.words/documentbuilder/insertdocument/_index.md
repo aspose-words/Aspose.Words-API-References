@@ -1,9 +1,10 @@
 ---
-title: InsertDocument
+title: Aspose::Words::DocumentBuilder::InsertDocument method
+linktitle: InsertDocument
 second_title: Aspose.Words for C++ API Reference
-description: Inserts a document at the cursor position.
+description: 'Aspose::Words::DocumentBuilder::InsertDocument method. Inserts a document at the cursor position in C++.'
 type: docs
-weight: 417
+weight: 33000
 url: /cpp/aspose.words/documentbuilder/insertdocument/
 ---
 ## DocumentBuilder::InsertDocument(const System::SharedPtr\<Aspose::Words::Document\>\&, Aspose::Words::ImportFormatMode) method
@@ -25,24 +26,6 @@ System::SharedPtr<Aspose::Words::Node> Aspose::Words::DocumentBuilder::InsertDoc
 
 First node of the inserted content.
 
-## Examples
-
-
-
-Shows how to insert a document into another document. 
-```cpp
-auto doc = MakeObject<Document>(MyDir + u"Document.docx");
-
-auto builder = MakeObject<DocumentBuilder>(doc);
-builder->MoveToDocumentEnd();
-builder->InsertBreak(BreakType::PageBreak);
-
-auto docToInsert = MakeObject<Document>(MyDir + u"Formatted elements.docx");
-
-builder->InsertDocument(docToInsert, ImportFormatMode::KeepSourceFormatting);
-builder->get_Document()->Save(ArtifactsDir + u"DocumentBuilder.InsertDocument.docx");
-```
-
 ## See Also
 
 * Class [Node](../../node/)
@@ -50,7 +33,7 @@ builder->get_Document()->Save(ArtifactsDir + u"DocumentBuilder.InsertDocument.do
 * Enum [ImportFormatMode](../../importformatmode/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## DocumentBuilder::InsertDocument(const System::SharedPtr\<Aspose::Words::Document\>\&, Aspose::Words::ImportFormatMode, const System::SharedPtr\<Aspose::Words::ImportFormatOptions\>\&) method
 
 
@@ -112,4 +95,4 @@ dstDoc->Save(ArtifactsDir + u"DocumentBuilder.SmartStyleBehavior.docx");
 * Class [ImportFormatOptions](../../importformatoptions/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

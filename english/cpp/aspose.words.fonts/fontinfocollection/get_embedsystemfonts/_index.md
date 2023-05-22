@@ -1,9 +1,10 @@
 ---
-title: get_EmbedSystemFonts
+title: Aspose::Words::Fonts::FontInfoCollection::get_EmbedSystemFonts method
+linktitle: get_EmbedSystemFonts
 second_title: Aspose.Words for C++ API Reference
-description: Specifies whether or not to embed System fonts into the document. Default value for this property is false. This option works only when EmbedTrueTypeFonts option is set to true.
+description: 'Aspose::Words::Fonts::FontInfoCollection::get_EmbedSystemFonts method. Specifies whether or not to embed System fonts into the document. Default value for this property is false. This option works only when EmbedTrueTypeFonts option is set to true in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.fonts/fontinfocollection/get_embedsystemfonts/
 ---
 ## FontInfoCollection::get_EmbedSystemFonts method
@@ -51,4 +52,4 @@ else
 
 * Class [FontInfoCollection](../)
 * Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

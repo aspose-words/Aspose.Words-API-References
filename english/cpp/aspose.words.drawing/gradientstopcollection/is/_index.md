@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Drawing::GradientStopCollection::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Drawing::GradientStopCollection class in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.drawing/gradientstopcollection/is/
 ---
 ## GradientStopCollection::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Drawing::GradientStopCollection::Is(const System::Ty
 
 * Class [GradientStopCollection](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

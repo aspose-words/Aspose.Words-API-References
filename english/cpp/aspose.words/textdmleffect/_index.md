@@ -1,9 +1,10 @@
 ---
-title: TextDmlEffect
+title: Aspose::Words::TextDmlEffect enum
+linktitle: TextDmlEffect
 second_title: Aspose.Words for C++ API Reference
-description: Dml text effect for text runs.
+description: 'Aspose::Words::TextDmlEffect enum. Dml text effect for text runs in C++.'
 type: docs
-weight: 1574
+weight: 122000
 url: /cpp/aspose.words/textdmleffect/
 ---
 ## TextDmlEffect enum
@@ -29,4 +30,4 @@ enum class TextDmlEffect
 ## See Also
 
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

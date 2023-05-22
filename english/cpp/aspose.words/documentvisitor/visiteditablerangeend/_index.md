@@ -1,9 +1,10 @@
 ---
-title: VisitEditableRangeEnd
+title: Aspose::Words::DocumentVisitor::VisitEditableRangeEnd method
+linktitle: VisitEditableRangeEnd
 second_title: Aspose.Words for C++ API Reference
-description: Called when an end of an editable range is encountered in the document.
+description: 'Aspose::Words::DocumentVisitor::VisitEditableRangeEnd method. Called when an end of an editable range is encountered in the document in C++.'
 type: docs
-weight: 235
+weight: 19000
 url: /cpp/aspose.words/documentvisitor/visiteditablerangeend/
 ---
 ## DocumentVisitor::VisitEditableRangeEnd method
@@ -110,4 +111,4 @@ private:
 * Class [EditableRangeEnd](../../editablerangeend/)
 * Class [DocumentVisitor](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

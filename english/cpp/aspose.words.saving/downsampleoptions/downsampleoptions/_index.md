@@ -1,9 +1,10 @@
 ---
-title: DownsampleOptions
+title: Aspose::Words::Saving::DownsampleOptions::DownsampleOptions constructor
+linktitle: DownsampleOptions
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use DownsampleOptions constructor of Aspose::Words::Saving::DownsampleOptions class in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.saving/downsampleoptions/downsampleoptions/
 ---
 ## DownsampleOptions::DownsampleOptions constructor
@@ -19,4 +20,4 @@ Aspose::Words::Saving::DownsampleOptions::DownsampleOptions()
 
 * Class [DownsampleOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

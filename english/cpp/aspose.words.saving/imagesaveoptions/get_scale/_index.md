@@ -1,9 +1,10 @@
 ---
-title: get_Scale
+title: Aspose::Words::Saving::ImageSaveOptions::get_Scale method
+linktitle: get_Scale
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the zoom factor for the generated images.
+description: 'Aspose::Words::Saving::ImageSaveOptions::get_Scale method. Gets or sets the zoom factor for the generated images in C++.'
 type: docs
-weight: 170
+weight: 14000
 url: /cpp/aspose.words.saving/imagesaveoptions/get_scale/
 ---
 ## ImageSaveOptions::get_Scale method
@@ -46,7 +47,7 @@ Shows how to render an Office [Math](../../../aspose.words.math/) object into an
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"Office math.docx");
 
-auto math = System::DynamicCast<OfficeMath>(doc->GetChild(NodeType::OfficeMath, 0, true));
+auto math = System::ExplicitCast<OfficeMath>(doc->GetChild(NodeType::OfficeMath, 0, true));
 
 // Create an "ImageSaveOptions" object to pass to the node renderer's "Save" method to modify
 // how it renders the OfficeMath node into an image.
@@ -62,4 +63,4 @@ math->GetMathRenderer()->Save(ArtifactsDir + u"Shape.RenderOfficeMath.png", save
 
 * Class [ImageSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

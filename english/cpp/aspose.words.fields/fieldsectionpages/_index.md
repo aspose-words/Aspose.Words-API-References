@@ -1,9 +1,10 @@
 ---
-title: FieldSectionPages
+title: Aspose::Words::Fields::FieldSectionPages class
+linktitle: FieldSectionPages
 second_title: Aspose.Words for C++ API Reference
-description: Implements the SECTIONPAGES field. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Fields::FieldSectionPages class. Implements the SECTIONPAGES field. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 1145
+weight: 89000
 url: /cpp/aspose.words.fields/fieldsectionpages/
 ---
 ## FieldSectionPages class
@@ -24,7 +25,7 @@ class FieldSectionPages : public Aspose::Words::Fields::Field
 | [get_FieldEnd](../field/get_fieldend/)() const | Gets the node that represents the field end. |
 | [get_FieldStart](../field/get_fieldstart/)() const | Gets the node that represents the start of the field. |
 | [get_Format](../field/get_format/)() | Gets a [FieldFormat](../fieldformat/) object that provides typed access to field's formatting. |
-| [get_IsDirty](../field/get_isdirty/)() | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [get_IsDirty](../field/get_isdirty/)() | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [get_IsLocked](../field/get_islocked/)() | Gets or sets whether the field is locked (should not recalculate its result). |
 | [get_LocaleId](../field/get_localeid/)() | Gets or sets the LCID of the field. |
 | [get_Result](../field/get_result/)() | Gets or sets text that is between the field separator and field end. |
@@ -36,7 +37,7 @@ class FieldSectionPages : public Aspose::Words::Fields::Field
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
-| [set_IsDirty](../field/set_isdirty/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsDirty](../field/get_isdirty/). |
+| [set_IsDirty](../field/set_isdirty/)(bool) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [set_IsLocked](../field/set_islocked/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsLocked](../field/get_islocked/). |
 | [set_LocaleId](../field/set_localeid/)(int32_t) | Setter for [Aspose::Words::Fields::Field::get_LocaleId](../field/get_localeid/). |
 | [set_Result](../field/set_result/)(const System::String\&) | Setter for [Aspose::Words::Fields::Field::get_Result](../field/get_result/). |
@@ -59,19 +60,19 @@ builder->get_ParagraphFormat()->set_Alignment(ParagraphAlignment::Right);
 
 // A SECTION field displays the number of the section it is in.
 builder->Write(u"Section ");
-auto fieldSection = System::DynamicCast<FieldSection>(builder->InsertField(FieldType::FieldSection, true));
+auto fieldSection = System::ExplicitCast<FieldSection>(builder->InsertField(FieldType::FieldSection, true));
 
 ASSERT_EQ(u" SECTION ", fieldSection->GetFieldCode());
 
 // A PAGE field displays the number of the page it is in.
 builder->Write(u"\nPage ");
-auto fieldPage = System::DynamicCast<FieldPage>(builder->InsertField(FieldType::FieldPage, true));
+auto fieldPage = System::ExplicitCast<FieldPage>(builder->InsertField(FieldType::FieldPage, true));
 
 ASSERT_EQ(u" PAGE ", fieldPage->GetFieldCode());
 
 // A SECTIONPAGES field displays the number of pages that the section it is in spans across.
 builder->Write(u" of ");
-auto fieldSectionPages = System::DynamicCast<FieldSectionPages>(builder->InsertField(FieldType::FieldSectionPages, true));
+auto fieldSectionPages = System::ExplicitCast<FieldSectionPages>(builder->InsertField(FieldType::FieldSectionPages, true));
 
 ASSERT_EQ(u" SECTIONPAGES ", fieldSectionPages->GetFieldCode());
 
@@ -99,4 +100,4 @@ doc->Save(ArtifactsDir + u"Field.SECTION.SECTIONPAGES.docx");
 
 * Class [Field](../field/)
 * Namespace [Aspose::Words::Fields](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

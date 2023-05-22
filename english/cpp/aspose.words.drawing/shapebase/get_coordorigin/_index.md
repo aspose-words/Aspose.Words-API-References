@@ -1,9 +1,10 @@
 ---
-title: get_CoordOrigin
+title: Aspose::Words::Drawing::ShapeBase::get_CoordOrigin method
+linktitle: get_CoordOrigin
 second_title: Aspose.Words for C++ API Reference
-description: The coordinates at the top-left corner of the containing block of this shape.
+description: 'Aspose::Words::Drawing::ShapeBase::get_CoordOrigin method. The coordinates at the top-left corner of the containing block of this shape in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words.drawing/shapebase/get_coordorigin/
 ---
 ## ShapeBase::get_CoordOrigin method
@@ -57,7 +58,7 @@ rectangle->set_Top(group->get_CoordOrigin().get_Y());
 group->AppendChild(rectangle);
 
 // Once a shape is a part of a group shape, we can access it as a child node and then modify it.
-(System::DynamicCast<Shape>(group->GetChild(NodeType::Shape, 0, true)))->get_Stroke()->set_DashStyle(DashStyle::Dash);
+(System::ExplicitCast<Shape>(group->GetChild(NodeType::Shape, 0, true)))->get_Stroke()->set_DashStyle(DashStyle::Dash);
 
 // Create a small red star and insert it into the group.
 // Line up the shape with the group's coordinate origin, which we have moved to the center.
@@ -88,7 +89,7 @@ image->set_Left(-225);
 image->set_Top(-225);
 group->AppendChild(image);
 
-(System::DynamicCast<Shape>(group->GetChild(NodeType::Shape, 3, true)))->get_ImageData()->SetImage(ImageDir + u"Logo.jpg");
+(System::ExplicitCast<Shape>(group->GetChild(NodeType::Shape, 3, true)))->get_ImageData()->SetImage(ImageDir + u"Logo.jpg");
 
 // Insert a text box into the group shape. Set the "Left" property so that the text box's right edge
 // touches the right boundary of the group shape. Set the "Top" property so that the text box sits outside
@@ -102,7 +103,7 @@ group->AppendChild(textBox);
 
 auto builder = MakeObject<DocumentBuilder>(doc);
 builder->InsertNode(group);
-builder->MoveTo((System::DynamicCast<Shape>(group->GetChild(NodeType::Shape, 4, true)))->AppendChild(MakeObject<Paragraph>(doc)));
+builder->MoveTo((System::ExplicitCast<Shape>(group->GetChild(NodeType::Shape, 4, true)))->AppendChild(MakeObject<Paragraph>(doc)));
 builder->Write(u"Hello world!");
 
 doc->Save(ArtifactsDir + u"Shape.GroupShape.docx");
@@ -161,4 +162,4 @@ doc->Save(ArtifactsDir + u"Shape.LocalToParent.docx");
 
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

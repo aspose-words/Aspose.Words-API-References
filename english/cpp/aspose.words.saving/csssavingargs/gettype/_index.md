@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Saving::CssSavingArgs::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Saving::CssSavingArgs class in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.saving/csssavingargs/gettype/
 ---
 ## CssSavingArgs::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Saving::CssSavingArgs::GetType()
 
 * Class [CssSavingArgs](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

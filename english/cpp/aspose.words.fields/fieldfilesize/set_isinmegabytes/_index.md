@@ -1,9 +1,10 @@
 ---
-title: set_IsInMegabytes
+title: Aspose::Words::Fields::FieldFileSize::set_IsInMegabytes method
+linktitle: set_IsInMegabytes
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fields::FieldFileSize::get_IsInMegabytes.'
+description: 'Aspose::Words::Fields::FieldFileSize::set_IsInMegabytes method. Setter for Aspose::Words::Fields::FieldFileSize::get_IsInMegabytes in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.fields/fieldfilesize/set_isinmegabytes/
 ---
 ## FieldFileSize::set_IsInMegabytes method
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldFileSize::set_IsInMegabytes(bool value)
 
 * Class [FieldFileSize](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: idx_get
+title: Aspose::Words::TextColumnCollection::idx_get method
+linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
-description: Returns a text column at the specified index.
+description: 'Aspose::Words::TextColumnCollection::idx_get method. Returns a text column at the specified index in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words/textcolumncollection/idx_get/
 ---
 ## TextColumnCollection::idx_get method
@@ -56,4 +57,4 @@ doc->Save(ArtifactsDir + u"PageSetup.CustomColumnWidth.docx");
 * Class [TextColumn](../../textcolumn/)
 * Class [TextColumnCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

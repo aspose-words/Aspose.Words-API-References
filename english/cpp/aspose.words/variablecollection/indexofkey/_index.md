@@ -1,9 +1,10 @@
 ---
-title: IndexOfKey
+title: Aspose::Words::VariableCollection::IndexOfKey method
+linktitle: IndexOfKey
 second_title: Aspose.Words for C++ API Reference
-description: Returns the zero-based index of the specified document variable in the collection.
+description: 'Aspose::Words::VariableCollection::IndexOfKey method. Returns the zero-based index of the specified document variable in the collection in C++.'
 type: docs
-weight: 170
+weight: 14000
 url: /cpp/aspose.words/variablecollection/indexofkey/
 ---
 ## VariableCollection::IndexOfKey method
@@ -42,7 +43,7 @@ ASSERT_EQ(3, variables->get_Count());
 
 // We can display the values of variables in the document body using DOCVARIABLE fields.
 auto builder = MakeObject<DocumentBuilder>(doc);
-auto field = System::DynamicCast<FieldDocVariable>(builder->InsertField(FieldType::FieldDocVariable, true));
+auto field = System::ExplicitCast<FieldDocVariable>(builder->InsertField(FieldType::FieldDocVariable, true));
 field->set_VariableName(u"Home address");
 field->Update();
 
@@ -98,4 +99,4 @@ ASSERT_EQ(0, variables->get_Count());
 
 * Class [VariableCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

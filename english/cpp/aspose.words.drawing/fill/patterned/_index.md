@@ -1,9 +1,10 @@
 ---
-title: Patterned
+title: Aspose::Words::Drawing::Fill::Patterned method
+linktitle: Patterned
 second_title: Aspose.Words for C++ API Reference
-description: Sets the specified fill to a pattern.
+description: 'Aspose::Words::Drawing::Fill::Patterned method. Sets the specified fill to a pattern in C++.'
 type: docs
-weight: 326
+weight: 26000
 url: /cpp/aspose.words.drawing/fill/patterned/
 ---
 ## Fill::Patterned(Aspose::Words::Drawing::PatternType) method
@@ -28,7 +29,7 @@ Shows how to set pattern for a shape.
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"Shape stroke pattern border.docx");
 
-auto shape = System::DynamicCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
+auto shape = System::ExplicitCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
 SharedPtr<Fill> fill = shape->get_Fill();
 
 std::cout << String::Format(u"Pattern value is: {0}", fill->get_Pattern()) << std::endl;
@@ -48,7 +49,7 @@ doc->Save(ArtifactsDir + u"Shape.FillPattern.docx");
 * Enum [PatternType](../../patterntype/)
 * Class [Fill](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## Fill::Patterned(Aspose::Words::Drawing::PatternType, System::Drawing::Color, System::Drawing::Color) method
 
 
@@ -73,7 +74,7 @@ Shows how to set pattern for a shape.
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"Shape stroke pattern border.docx");
 
-auto shape = System::DynamicCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
+auto shape = System::ExplicitCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
 SharedPtr<Fill> fill = shape->get_Fill();
 
 std::cout << String::Format(u"Pattern value is: {0}", fill->get_Pattern()) << std::endl;
@@ -93,4 +94,4 @@ doc->Save(ArtifactsDir + u"Shape.FillPattern.docx");
 * Enum [PatternType](../../patterntype/)
 * Class [Fill](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

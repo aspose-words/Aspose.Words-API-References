@@ -1,9 +1,10 @@
 ---
-title: AxisBound
+title: Aspose::Words::Drawing::Charts::AxisBound class
+linktitle: AxisBound
 second_title: Aspose.Words for C++ API Reference
-description: Represents minimum or maximum bound of axis values. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Drawing::Charts::AxisBound class. Represents minimum or maximum bound of axis values. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words.drawing.charts/axisbound/
 ---
 ## AxisBound class
@@ -86,4 +87,4 @@ doc->Save(ArtifactsDir + u"Charts.DateTimeValues.docx");
 ## See Also
 
 * Namespace [Aspose::Words::Drawing::Charts](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

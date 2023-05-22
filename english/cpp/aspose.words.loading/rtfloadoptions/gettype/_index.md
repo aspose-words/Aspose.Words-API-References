@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Loading::RtfLoadOptions::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Loading::RtfLoadOptions class in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.loading/rtfloadoptions/gettype/
 ---
 ## RtfLoadOptions::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Loading::RtfLoadOptions::GetType
 
 * Class [RtfLoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

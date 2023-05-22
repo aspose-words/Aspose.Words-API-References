@@ -1,9 +1,10 @@
 ---
-title: set_IsExportNeeded
+title: Aspose::Words::Saving::FontSavingArgs::set_IsExportNeeded method
+linktitle: set_IsExportNeeded
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::FontSavingArgs::get_IsExportNeeded.'
+description: 'Aspose::Words::Saving::FontSavingArgs::set_IsExportNeeded method. Setter for Aspose::Words::Saving::FontSavingArgs::get_IsExportNeeded in C++.'
 type: docs
-weight: 209
+weight: 17000
 url: /cpp/aspose.words.saving/fontsavingargs/set_isexportneeded/
 ---
 ## FontSavingArgs::set_IsExportNeeded method
@@ -19,4 +20,4 @@ void Aspose::Words::Saving::FontSavingArgs::set_IsExportNeeded(bool value)
 
 * Class [FontSavingArgs](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

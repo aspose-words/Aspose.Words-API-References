@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Drawing::Stroke::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Drawing::Stroke class in C++.'
 type: docs
-weight: 287
+weight: 23000
 url: /cpp/aspose.words.drawing/stroke/is/
 ---
 ## Stroke::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Drawing::Stroke::Is(const System::TypeInfo &target) 
 
 * Class [Stroke](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

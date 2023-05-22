@@ -1,9 +1,10 @@
 ---
-title: OutlineLevel
+title: Aspose::Words::OutlineLevel enum
+linktitle: OutlineLevel
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the outline level of a paragraph in the document.
+description: 'Aspose::Words::OutlineLevel enum. Specifies the outline level of a paragraph in the document in C++.'
 type: docs
-weight: 1353
+weight: 105000
 url: /cpp/aspose.words/outlinelevel/
 ---
 ## OutlineLevel enum
@@ -33,4 +34,4 @@ enum class OutlineLevel
 ## See Also
 
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

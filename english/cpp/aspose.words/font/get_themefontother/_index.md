@@ -1,9 +1,10 @@
 ---
-title: get_ThemeFontOther
+title: Aspose::Words::Font::get_ThemeFontOther method
+linktitle: get_ThemeFontOther
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the theme font used for characters with character codes from 128 through 255 in the applied font scheme that is associated with this Font object.
+description: 'Aspose::Words::Font::get_ThemeFontOther method. Gets or sets the theme font used for characters with character codes from 128 through 255 in the applied font scheme that is associated with this Font object in C++.'
 type: docs
-weight: 677
+weight: 53000
 url: /cpp/aspose.words/font/get_themefontother/
 ---
 ## Font::get_ThemeFontOther method
@@ -106,4 +107,4 @@ ASSERT_EQ(System::Drawing::Color::get_Blue().ToArgb(), font->get_Color().ToArgb(
 * Enum [ThemeFont](../../../aspose.words.themes/themefont/)
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

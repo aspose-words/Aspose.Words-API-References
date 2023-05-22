@@ -1,9 +1,10 @@
 ---
-title: set_LineWrapLikeWord6
+title: Aspose::Words::Settings::CompatibilityOptions::set_LineWrapLikeWord6 method
+linktitle: set_LineWrapLikeWord6
 second_title: Aspose.Words for C++ API Reference
-description: Emulate Word 6.0 Line Wrapping for East Asian Text.
+description: 'Aspose::Words::Settings::CompatibilityOptions::set_LineWrapLikeWord6 method. Emulate Word 6.0 Line Wrapping for East Asian Text in C++.'
 type: docs
-weight: 1366
+weight: 106000
 url: /cpp/aspose.words.settings/compatibilityoptions/set_linewraplikeword6/
 ---
 ## CompatibilityOptions::set_LineWrapLikeWord6 method
@@ -19,4 +20,4 @@ void Aspose::Words::Settings::CompatibilityOptions::set_LineWrapLikeWord6(bool v
 
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

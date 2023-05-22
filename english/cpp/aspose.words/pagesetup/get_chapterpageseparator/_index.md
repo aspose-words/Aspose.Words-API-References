@@ -1,9 +1,10 @@
 ---
-title: get_ChapterPageSeparator
+title: Aspose::Words::PageSetup::get_ChapterPageSeparator method
+linktitle: get_ChapterPageSeparator
 second_title: Aspose.Words for C++ API Reference
-description: Gets the separator character that appears between the chapter number and the page number.
+description: 'Aspose::Words::PageSetup::get_ChapterPageSeparator method. Gets the separator character that appears between the chapter number and the page number in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words/pagesetup/get_chapterpageseparator/
 ---
 ## PageSetup::get_ChapterPageSeparator method
@@ -24,4 +25,4 @@ Before you can create page numbers that include chapter numbers, the document he
 * Enum [ChapterPageSeparator](../../chapterpageseparator/)
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

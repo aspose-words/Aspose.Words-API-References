@@ -1,9 +1,10 @@
 ---
-title: get_LoadFormat
+title: Aspose::Words::Loading::LoadOptions::get_LoadFormat method
+linktitle: get_LoadFormat
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the format of the document to be loaded. Default is Auto.
+description: 'Aspose::Words::Loading::LoadOptions::get_LoadFormat method. Specifies the format of the document to be loaded. Default is Auto in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words.loading/loadoptions/get_loadformat/
 ---
 ## LoadOptions::get_LoadFormat method
@@ -36,7 +37,7 @@ ASSERT_EQ(LoadFormat::Html, loadOptions->get_LoadFormat());
 auto doc = MakeObject<Document>(MyDir + u"Missing image.html", loadOptions);
 
 // While the image was broken in the input .html, our custom base URI helped us repair the link.
-auto imageShape = System::DynamicCast<Shape>(doc->GetChildNodes(NodeType::Shape, true)->idx_get(0));
+auto imageShape = System::ExplicitCast<Shape>(doc->GetChildNodes(NodeType::Shape, true)->idx_get(0));
 ASSERT_TRUE(imageShape->get_IsImage());
 
 // This output document will display the image that was missing.
@@ -48,4 +49,4 @@ doc->Save(ArtifactsDir + u"HtmlLoadOptions.BaseUri.docx");
 * Enum [LoadFormat](../../../aspose.words/loadformat/)
 * Class [LoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

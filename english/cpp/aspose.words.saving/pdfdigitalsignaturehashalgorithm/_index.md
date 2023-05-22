@@ -1,9 +1,10 @@
 ---
-title: PdfDigitalSignatureHashAlgorithm
+title: Aspose::Words::Saving::PdfDigitalSignatureHashAlgorithm enum
+linktitle: PdfDigitalSignatureHashAlgorithm
 second_title: Aspose.Words for C++ API Reference
-description: Specifies a digital hash algorithm used by a digital signature.
+description: 'Aspose::Words::Saving::PdfDigitalSignatureHashAlgorithm enum. Specifies a digital hash algorithm used by a digital signature in C++.'
 type: docs
-weight: 963
+weight: 75000
 url: /cpp/aspose.words.saving/pdfdigitalsignaturehashalgorithm/
 ---
 ## PdfDigitalSignatureHashAlgorithm enum
@@ -57,4 +58,4 @@ doc->Save(ArtifactsDir + u"PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

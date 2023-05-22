@@ -1,9 +1,10 @@
 ---
-title: set_DisplayDocTitle
+title: Aspose::Words::Saving::PdfSaveOptions::set_DisplayDocTitle method
+linktitle: set_DisplayDocTitle
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::PdfSaveOptions::get_DisplayDocTitle.'
+description: 'Aspose::Words::Saving::PdfSaveOptions::set_DisplayDocTitle method. Setter for Aspose::Words::Saving::PdfSaveOptions::get_DisplayDocTitle in C++.'
 type: docs
-weight: 547
+weight: 43000
 url: /cpp/aspose.words.saving/pdfsaveoptions/set_displaydoctitle/
 ---
 ## PdfSaveOptions::set_DisplayDocTitle method
@@ -19,4 +20,4 @@ void Aspose::Words::Saving::PdfSaveOptions::set_DisplayDocTitle(bool value)
 
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

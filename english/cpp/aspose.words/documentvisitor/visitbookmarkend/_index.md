@@ -1,9 +1,10 @@
 ---
-title: VisitBookmarkEnd
+title: Aspose::Words::DocumentVisitor::VisitBookmarkEnd method
+linktitle: VisitBookmarkEnd
 second_title: Aspose.Words for C++ API Reference
-description: Called when an end of a bookmark is encountered in the document.
+description: 'Aspose::Words::DocumentVisitor::VisitBookmarkEnd method. Called when an end of a bookmark is encountered in the document in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words/documentvisitor/visitbookmarkend/
 ---
 ## DocumentVisitor::VisitBookmarkEnd method
@@ -111,4 +112,4 @@ public:
 * Class [BookmarkEnd](../../bookmarkend/)
 * Class [DocumentVisitor](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

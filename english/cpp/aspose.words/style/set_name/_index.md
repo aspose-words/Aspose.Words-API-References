@@ -1,9 +1,10 @@
 ---
-title: set_Name
+title: Aspose::Words::Style::set_Name method
+linktitle: set_Name
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Style::get_Name.'
+description: 'Aspose::Words::Style::set_Name method. Setter for Aspose::Words::Style::get_Name in C++.'
 type: docs
-weight: 326
+weight: 26000
 url: /cpp/aspose.words/style/set_name/
 ---
 ## Style::set_Name method
@@ -19,4 +20,4 @@ void Aspose::Words::Style::set_Name(const System::String &value)
 
 * Class [Style](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

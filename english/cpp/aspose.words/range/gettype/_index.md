@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Range::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Range class in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words/range/gettype/
 ---
 ## Range::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Range::GetType() const override
 
 * Class [Range](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

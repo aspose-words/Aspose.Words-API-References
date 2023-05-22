@@ -1,9 +1,10 @@
 ---
-title: set_SymbolHeight
+title: Aspose::Words::Fields::FieldMergeBarcode::set_SymbolHeight method
+linktitle: set_SymbolHeight
 second_title: Aspose.Words for C++ API Reference
-description: Sets the height of the symbol. The units are in TWIPS (1/1440 inch).
+description: 'Aspose::Words::Fields::FieldMergeBarcode::set_SymbolHeight method. Sets the height of the symbol. The units are in TWIPS (1/1440 inch) in C++.'
 type: docs
-weight: 391
+weight: 31000
 url: /cpp/aspose.words.fields/fieldmergebarcode/set_symbolheight/
 ---
 ## FieldMergeBarcode::set_SymbolHeight method
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldMergeBarcode::set_SymbolHeight(const System::St
 
 * Class [FieldMergeBarcode](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

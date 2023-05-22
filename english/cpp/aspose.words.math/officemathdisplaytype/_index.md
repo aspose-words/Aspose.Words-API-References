@@ -1,9 +1,10 @@
 ---
-title: OfficeMathDisplayType
+title: Aspose::Words::Math::OfficeMathDisplayType enum
+linktitle: OfficeMathDisplayType
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the display format type of the equation.
+description: 'Aspose::Words::Math::OfficeMathDisplayType enum. Specifies the display format type of the equation in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.math/officemathdisplaytype/
 ---
 ## OfficeMathDisplayType enum
@@ -31,16 +32,13 @@ Shows how to set office math display formatting.
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"Office math.docx");
 
-auto officeMath = System::DynamicCast<OfficeMath>(doc->GetChild(NodeType::OfficeMath, 0, true));
+auto officeMath = System::ExplicitCast<OfficeMath>(doc->GetChild(NodeType::OfficeMath, 0, true));
 
 // OfficeMath nodes that are children of other OfficeMath nodes are always inline.
 // The node we are working with is the base node to change its location and display type.
 ASSERT_EQ(MathObjectType::OMathPara, officeMath->get_MathObjectType());
 ASSERT_EQ(NodeType::OfficeMath, officeMath->get_NodeType());
 ASPOSE_ASSERT_EQ(officeMath->get_ParentNode(), officeMath->get_ParentParagraph());
-
-// OOXML and WML formats use the "EquationXmlEncoding" property.
-ASSERT_TRUE(officeMath->get_EquationXmlEncoding() == nullptr);
 
 // Change the location and display type of the OfficeMath node.
 officeMath->set_DisplayType(OfficeMathDisplayType::Display);
@@ -52,4 +50,4 @@ doc->Save(ArtifactsDir + u"Shape.OfficeMath.docx");
 ## See Also
 
 * Namespace [Aspose::Words::Math](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

@@ -1,9 +1,10 @@
 ---
-title: set_LeadingSpacesOptions
+title: Aspose::Words::Loading::TxtLoadOptions::set_LeadingSpacesOptions method
+linktitle: set_LeadingSpacesOptions
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Loading::TxtLoadOptions::get_LeadingSpacesOptions.'
+description: 'Aspose::Words::Loading::TxtLoadOptions::set_LeadingSpacesOptions method. Setter for Aspose::Words::Loading::TxtLoadOptions::get_LeadingSpacesOptions in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words.loading/txtloadoptions/set_leadingspacesoptions/
 ---
 ## TxtLoadOptions::set_LeadingSpacesOptions method
@@ -20,4 +21,4 @@ void Aspose::Words::Loading::TxtLoadOptions::set_LeadingSpacesOptions(Aspose::Wo
 * Enum [TxtLeadingSpacesOptions](../../txtleadingspacesoptions/)
 * Class [TxtLoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_PostalAddress
+title: Aspose::Words::Fields::FieldBarcode::get_PostalAddress method
+linktitle: get_PostalAddress
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the postal address used for generating a barcode or the name of the bookmark that refers to it.
+description: 'Aspose::Words::Fields::FieldBarcode::get_PostalAddress method. Gets or sets the postal address used for generating a barcode or the name of the bookmark that refers to it in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.fields/fieldbarcode/get_postaladdress/
 ---
 ## FieldBarcode::get_PostalAddress method
@@ -29,7 +30,7 @@ builder->Writeln();
 
 // Below are two ways of using BARCODE fields to display custom values as barcodes.
 // 1 -  Store the value that the barcode will display in the PostalAddress property:
-auto field = System::DynamicCast<FieldBarcode>(builder->InsertField(FieldType::FieldBarcode, true));
+auto field = System::ExplicitCast<FieldBarcode>(builder->InsertField(FieldType::FieldBarcode, true));
 
 // This value needs to be a valid ZIP code.
 field->set_PostalAddress(u"96801");
@@ -41,7 +42,7 @@ ASSERT_EQ(u" BARCODE  96801 \\u \\f C", field->GetFieldCode());
 builder->InsertBreak(BreakType::LineBreak);
 
 // 2 -  Reference a bookmark that stores the value that this barcode will display:
-field = System::DynamicCast<FieldBarcode>(builder->InsertField(FieldType::FieldBarcode, true));
+field = System::ExplicitCast<FieldBarcode>(builder->InsertField(FieldType::FieldBarcode, true));
 field->set_PostalAddress(u"BarcodeBookmark");
 field->set_IsBookmark(true);
 
@@ -61,4 +62,4 @@ doc->Save(ArtifactsDir + u"Field.BARCODE.docx");
 
 * Class [FieldBarcode](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

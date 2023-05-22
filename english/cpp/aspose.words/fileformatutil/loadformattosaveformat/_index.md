@@ -1,9 +1,10 @@
 ---
-title: LoadFormatToSaveFormat
+title: Aspose::Words::FileFormatUtil::LoadFormatToSaveFormat method
+linktitle: LoadFormatToSaveFormat
 second_title: Aspose.Words for C++ API Reference
-description: Converts a LoadFormat value to a SaveFormat value if possible.
+description: 'Aspose::Words::FileFormatUtil::LoadFormatToSaveFormat method. Converts a LoadFormat value to a SaveFormat value if possible in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words/fileformatutil/loadformattosaveformat/
 ---
 ## FileFormatUtil::LoadFormatToSaveFormat method
@@ -53,4 +54,4 @@ Shows how to use the [FileFormatUtil](../) methods to detect the format of a doc
 * Enum [LoadFormat](../../loadformat/)
 * Class [FileFormatUtil](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

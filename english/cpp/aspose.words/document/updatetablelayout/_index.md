@@ -1,9 +1,10 @@
 ---
-title: UpdateTableLayout
+title: Aspose::Words::Document::UpdateTableLayout method
+linktitle: UpdateTableLayout
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use UpdateTableLayout method of Aspose::Words::Document class in C++.'
 type: docs
-weight: 1275
+weight: 99000
 url: /cpp/aspose.words/document/updatetablelayout/
 ---
 ## Document::UpdateTableLayout method
@@ -19,4 +20,4 @@ void Aspose::Words::Document::UpdateTableLayout()
 
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

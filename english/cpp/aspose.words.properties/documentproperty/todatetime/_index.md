@@ -1,9 +1,10 @@
 ---
-title: ToDateTime
+title: Aspose::Words::Properties::DocumentProperty::ToDateTime method
+linktitle: ToDateTime
 second_title: Aspose.Words for C++ API Reference
-description: Returns the property value as DateTime in UTC.
+description: 'Aspose::Words::Properties::DocumentProperty::ToDateTime method. Returns the property value as DateTime in UTC in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words.properties/documentproperty/todatetime/
 ---
 ## DocumentProperty::ToDateTime method
@@ -59,4 +60,4 @@ ASPOSE_ASSERT_EQ(123.45, properties->idx_get(u"Authorized Amount")->ToDouble());
 
 * Class [DocumentProperty](../)
 * Namespace [Aspose::Words::Properties](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

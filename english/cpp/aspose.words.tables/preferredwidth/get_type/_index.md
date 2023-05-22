@@ -1,9 +1,10 @@
 ---
-title: get_Type
+title: Aspose::Words::Tables::PreferredWidth::get_Type method
+linktitle: get_Type
 second_title: Aspose.Words for C++ API Reference
-description: Gets the unit of measure used for this preferred width value.
+description: 'Aspose::Words::Tables::PreferredWidth::get_Type method. Gets the unit of measure used for this preferred width value in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.tables/preferredwidth/get_type/
 ---
 ## PreferredWidth::get_Type method
@@ -36,4 +37,4 @@ ASPOSE_ASSERT_EQ(11.16, firstCell->get_CellFormat()->get_PreferredWidth()->get_V
 * Enum [PreferredWidthType](../../preferredwidthtype/)
 * Class [PreferredWidth](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

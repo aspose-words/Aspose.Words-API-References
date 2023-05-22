@@ -1,9 +1,10 @@
 ---
-title: TextBox
+title: Aspose::Words::Drawing::TextBox class
+linktitle: TextBox
 second_title: Aspose.Words for C++ API Reference
-description: Defines attributes that specify how a text is displayed inside a shape. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Drawing::TextBox class. Defines attributes that specify how a text is displayed inside a shape. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 183
+weight: 15000
 url: /cpp/aspose.words.drawing/textbox/
 ---
 ## TextBox class
@@ -40,7 +41,7 @@ class TextBox : public System::Object
 | [set_InternalMarginLeft](./set_internalmarginleft/)(double) | Setter for [Aspose::Words::Drawing::TextBox::get_InternalMarginLeft](./get_internalmarginleft/). |
 | [set_InternalMarginRight](./set_internalmarginright/)(double) | Setter for [Aspose::Words::Drawing::TextBox::get_InternalMarginRight](./get_internalmarginright/). |
 | [set_InternalMarginTop](./set_internalmargintop/)(double) | Setter for [Aspose::Words::Drawing::TextBox::get_InternalMarginTop](./get_internalmargintop/). |
-| [set_LayoutFlow](./set_layoutflow/)(Aspose::Words::Drawing::LayoutFlow) | Setter for [Aspose::Words::Drawing::TextBox::get_LayoutFlow](./get_layoutflow/). |
+| [set_LayoutFlow](./set_layoutflow/)(Aspose::Words::Drawing::LayoutFlow) | Determines the flow of the text layout in a shape. |
 | [set_Next](./set_next/)(const System::SharedPtr\<Aspose::Words::Drawing::TextBox\>\&) | Setter for [Aspose::Words::Drawing::TextBox::get_Next](./get_next/). |
 | [set_NoTextRotation](./set_notextrotation/)(bool) | Sets a boolean value indicating either text of the [TextBox](./) should not rotate when the shape is rotated. |
 | [set_TextBoxWrapMode](./set_textboxwrapmode/)(Aspose::Words::Drawing::TextBoxWrapMode) | Setter for [Aspose::Words::Drawing::TextBox::get_TextBoxWrapMode](./get_textboxwrapmode/). |
@@ -53,26 +54,6 @@ Use the [TextBox](../shape/get_textbox/) property to access text properties of a
 
 ## Examples
 
-
-
-Shows how to set the orientation of text inside a text box. 
-```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
-
-SharedPtr<Shape> textBoxShape = builder->InsertShape(ShapeType::TextBox, 150, 100);
-SharedPtr<TextBox> textBox = textBoxShape->get_TextBox();
-
-// Move the document builder to inside the TextBox and add text.
-builder->MoveTo(textBoxShape->get_LastParagraph());
-builder->Writeln(u"Hello world!");
-builder->Write(u"Hello again!");
-
-// Set the "LayoutFlow" property to set an orientation for the text contents of this text box.
-textBox->set_LayoutFlow(layoutFlow);
-
-doc->Save(ArtifactsDir + u"Shape.TextBoxLayoutFlow.docx");
-```
 
 
 Shows how to get a text box to resize itself to fit its contents tightly. 
@@ -117,4 +98,4 @@ doc->Save(ArtifactsDir + u"Shape.TextBoxMargins.docx");
 ## See Also
 
 * Namespace [Aspose::Words::Drawing](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

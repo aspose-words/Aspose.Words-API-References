@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Drawing::HorizontalRuleFormat::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Drawing::HorizontalRuleFormat class in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.drawing/horizontalruleformat/gettype/
 ---
 ## HorizontalRuleFormat::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Drawing::HorizontalRuleFormat::G
 
 * Class [HorizontalRuleFormat](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

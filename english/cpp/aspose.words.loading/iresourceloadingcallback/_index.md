@@ -1,9 +1,10 @@
 ---
-title: IResourceLoadingCallback
+title: Aspose::Words::Loading::IResourceLoadingCallback interface
+linktitle: IResourceLoadingCallback
 second_title: Aspose.Words for C++ API Reference
-description: Implement this interface if you want to control how Aspose.Words loads external resource when importing a document and inserting images using DocumentBuilder.
+description: 'Aspose::Words::Loading::IResourceLoadingCallback interface. Implement this interface if you want to control how Aspose.Words loads external resource when importing a document and inserting images using DocumentBuilder in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words.loading/iresourceloadingcallback/
 ---
 ## IResourceLoadingCallback interface
@@ -85,4 +86,4 @@ public:
 ## See Also
 
 * Namespace [Aspose::Words::Loading](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

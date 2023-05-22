@@ -1,9 +1,10 @@
 ---
-title: get_Value
+title: Aspose::Words::Drawing::Charts::AxisBound::get_Value method
+linktitle: get_Value
 second_title: Aspose.Words for C++ API Reference
-description: Returns numeric value of axis bound.
+description: 'Aspose::Words::Drawing::Charts::AxisBound::get_Value method. Returns numeric value of axis bound in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.drawing.charts/axisbound/get_value/
 ---
 ## AxisBound::get_Value method
@@ -73,4 +74,4 @@ doc->Save(ArtifactsDir + u"Charts.AxisBound.docx");
 
 * Class [AxisBound](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

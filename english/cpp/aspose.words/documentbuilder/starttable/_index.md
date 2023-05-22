@@ -1,9 +1,10 @@
 ---
-title: StartTable
+title: Aspose::Words::DocumentBuilder::StartTable method
+linktitle: StartTable
 second_title: Aspose.Words for C++ API Reference
-description: Starts a table in the document.
+description: 'Aspose::Words::DocumentBuilder::StartTable method. Starts a table in the document in C++.'
 type: docs
-weight: 911
+weight: 71000
 url: /cpp/aspose.words/documentbuilder/starttable/
 ---
 ## DocumentBuilder::StartTable method
@@ -178,4 +179,4 @@ doc->Save(ArtifactsDir + u"DocumentBuilder.SetCellFormatting.docx");
 * Class [Table](../../../aspose.words.tables/table/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

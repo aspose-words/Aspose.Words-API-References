@@ -1,9 +1,10 @@
 ---
-title: FindReplaceOptions
+title: Aspose::Words::Replacing::FindReplaceOptions::FindReplaceOptions constructor
+linktitle: FindReplaceOptions
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use FindReplaceOptions constructor of Aspose::Words::Replacing::FindReplaceOptions class in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.replacing/findreplaceoptions/findreplaceoptions/
 ---
 ## FindReplaceOptions::FindReplaceOptions() constructor
@@ -19,7 +20,7 @@ Aspose::Words::Replacing::FindReplaceOptions::FindReplaceOptions()
 
 * Class [FindReplaceOptions](../)
 * Namespace [Aspose::Words::Replacing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## FindReplaceOptions::FindReplaceOptions(Aspose::Words::Replacing::FindReplaceDirection) constructor
 
 
@@ -34,7 +35,7 @@ Aspose::Words::Replacing::FindReplaceOptions::FindReplaceOptions(Aspose::Words::
 * Enum [FindReplaceDirection](../../findreplacedirection/)
 * Class [FindReplaceOptions](../)
 * Namespace [Aspose::Words::Replacing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## FindReplaceOptions::FindReplaceOptions(Aspose::Words::Replacing::FindReplaceDirection, const System::SharedPtr\<Aspose::Words::Replacing::IReplacingCallback\>\&) constructor
 
 
@@ -50,7 +51,7 @@ Aspose::Words::Replacing::FindReplaceOptions::FindReplaceOptions(Aspose::Words::
 * Interface [IReplacingCallback](../../ireplacingcallback/)
 * Class [FindReplaceOptions](../)
 * Namespace [Aspose::Words::Replacing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## FindReplaceOptions::FindReplaceOptions(const System::SharedPtr\<Aspose::Words::Replacing::IReplacingCallback\>\&) constructor
 
 
@@ -65,4 +66,4 @@ Aspose::Words::Replacing::FindReplaceOptions::FindReplaceOptions(const System::S
 * Interface [IReplacingCallback](../../ireplacingcallback/)
 * Class [FindReplaceOptions](../)
 * Namespace [Aspose::Words::Replacing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

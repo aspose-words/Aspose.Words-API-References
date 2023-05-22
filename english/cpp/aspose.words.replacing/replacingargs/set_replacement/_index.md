@@ -1,9 +1,10 @@
 ---
-title: set_Replacement
+title: Aspose::Words::Replacing::ReplacingArgs::set_Replacement method
+linktitle: set_Replacement
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Replacing::ReplacingArgs::get_Replacement.'
+description: 'Aspose::Words::Replacing::ReplacingArgs::set_Replacement method. Setter for Aspose::Words::Replacing::ReplacingArgs::get_Replacement in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words.replacing/replacingargs/set_replacement/
 ---
 ## ReplacingArgs::set_Replacement method
@@ -19,4 +20,4 @@ void Aspose::Words::Replacing::ReplacingArgs::set_Replacement(const System::Stri
 
 * Class [ReplacingArgs](../)
 * Namespace [Aspose::Words::Replacing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

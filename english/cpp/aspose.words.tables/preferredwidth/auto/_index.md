@@ -1,9 +1,10 @@
 ---
-title: Auto
+title: Aspose::Words::Tables::PreferredWidth::Auto method
+linktitle: Auto
 second_title: Aspose.Words for C++ API Reference
-description: Returns an instance that represents the "preferred width is not specified" value.
+description: 'Aspose::Words::Tables::PreferredWidth::Auto method. Returns an instance that represents the "preferred width is not specified" value in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words.tables/preferredwidth/auto/
 ---
 ## PreferredWidth::Auto method
@@ -59,4 +60,4 @@ doc->Save(ArtifactsDir + u"DocumentBuilder.InsertCellsWithPreferredWidths.docx")
 * Class [PreferredWidth](../)
 * Class [PreferredWidth](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

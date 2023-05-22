@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::MailMerging::MailMergeRegionInfo::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::MailMerging::MailMergeRegionInfo class in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.mailmerging/mailmergeregioninfo/gettype/
 ---
 ## MailMergeRegionInfo::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::MailMerging::MailMergeRegionInfo
 
 * Class [MailMergeRegionInfo](../)
 * Namespace [Aspose::Words::MailMerging](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

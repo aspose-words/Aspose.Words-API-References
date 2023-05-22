@@ -1,9 +1,10 @@
 ---
-title: Accept
+title: Aspose::Words::AbsolutePositionTab::Accept method
+linktitle: Accept
 second_title: Aspose.Words for C++ API Reference
-description: Accepts a visitor.
+description: 'Aspose::Words::AbsolutePositionTab::Accept method. Accepts a visitor in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words/absolutepositiontab/accept/
 ---
 ## AbsolutePositionTab::Accept method
@@ -49,7 +50,7 @@ void DocumentToTxt()
 
     // An AbsolutePositionTab can accept a DocumentVisitor by itself too.
     auto absPositionTab =
-        System::DynamicCast<AbsolutePositionTab>(doc->get_FirstSection()->get_Body()->get_FirstParagraph()->GetChild(NodeType::SpecialChar, 0, true));
+        System::ExplicitCast<AbsolutePositionTab>(doc->get_FirstSection()->get_Body()->get_FirstParagraph()->GetChild(NodeType::SpecialChar, 0, true));
 
     myDocTextExtractor = MakeObject<ExAbsolutePositionTab::DocTextExtractor>();
     absPositionTab->Accept(myDocTextExtractor);
@@ -97,4 +98,4 @@ private:
 * Class [DocumentVisitor](../../documentvisitor/)
 * Class [AbsolutePositionTab](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

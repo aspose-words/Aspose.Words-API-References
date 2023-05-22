@@ -1,9 +1,10 @@
 ---
-title: set_EntryCategory
+title: Aspose::Words::Fields::FieldToa::set_EntryCategory method
+linktitle: set_EntryCategory
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fields::FieldToa::get_EntryCategory.'
+description: 'Aspose::Words::Fields::FieldToa::set_EntryCategory method. Setter for Aspose::Words::Fields::FieldToa::get_EntryCategory in C++.'
 type: docs
-weight: 183
+weight: 15000
 url: /cpp/aspose.words.fields/fieldtoa/set_entrycategory/
 ---
 ## FieldToa::set_EntryCategory method
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldToa::set_EntryCategory(const System::String &va
 
 * Class [FieldToa](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

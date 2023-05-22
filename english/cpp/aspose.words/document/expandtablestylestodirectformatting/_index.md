@@ -1,9 +1,10 @@
 ---
-title: ExpandTableStylesToDirectFormatting
+title: Aspose::Words::Document::ExpandTableStylesToDirectFormatting method
+linktitle: ExpandTableStylesToDirectFormatting
 second_title: Aspose.Words for C++ API Reference
-description: Converts formatting specified in table styles into direct formatting on tables in the document.
+description: 'Aspose::Words::Document::ExpandTableStylesToDirectFormatting method. Converts formatting specified in table styles into direct formatting on tables in the document in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words/document/expandtablestylestodirectformatting/
 ---
 ## Document::ExpandTableStylesToDirectFormatting method
@@ -42,7 +43,7 @@ builder->InsertCell();
 builder->Write(u"Hello world!");
 builder->EndTable();
 
-auto tableStyle = System::DynamicCast<TableStyle>(doc->get_Styles()->Add(StyleType::Table, u"MyTableStyle1"));
+auto tableStyle = System::ExplicitCast<TableStyle>(doc->get_Styles()->Add(StyleType::Table, u"MyTableStyle1"));
 tableStyle->set_RowStripe(3);
 tableStyle->set_CellSpacing(5);
 tableStyle->get_Shading()->set_BackgroundPatternColor(System::Drawing::Color::get_AntiqueWhite());
@@ -61,4 +62,4 @@ doc->Save(ArtifactsDir + u"Document.TableStyleToDirectFormatting.docx");
 
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

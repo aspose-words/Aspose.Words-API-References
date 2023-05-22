@@ -1,9 +1,10 @@
 ---
-title: get_DefaultDocumentAuthor
+title: Aspose::Words::Fields::FieldOptions::get_DefaultDocumentAuthor method
+linktitle: get_DefaultDocumentAuthor
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets default document author's name. If author's name is already specified in built-in document properties, this option is not considered.
+description: 'Aspose::Words::Fields::FieldOptions::get_DefaultDocumentAuthor method. Gets or sets default document author''s name. If author''s name is already specified in built-in document properties, this option is not considered in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.fields/fieldoptions/get_defaultdocumentauthor/
 ---
 ## FieldOptions::get_DefaultDocumentAuthor method
@@ -37,7 +38,7 @@ ASSERT_EQ(String::Empty, doc->get_BuiltInDocumentProperties()->get_Author());
 doc->get_FieldOptions()->set_DefaultDocumentAuthor(u"Joe Bloggs");
 
 builder->Write(u"This document was created by ");
-auto field = System::DynamicCast<FieldAuthor>(builder->InsertField(FieldType::FieldAuthor, true));
+auto field = System::ExplicitCast<FieldAuthor>(builder->InsertField(FieldType::FieldAuthor, true));
 field->Update();
 
 ASSERT_EQ(u" AUTHOR ", field->GetFieldCode());
@@ -73,4 +74,4 @@ doc->Save(ArtifactsDir + u"Field.AUTHOR.docx");
 
 * Class [FieldOptions](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

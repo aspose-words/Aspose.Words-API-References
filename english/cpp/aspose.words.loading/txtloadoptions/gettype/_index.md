@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Loading::TxtLoadOptions::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Loading::TxtLoadOptions class in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.loading/txtloadoptions/gettype/
 ---
 ## TxtLoadOptions::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Loading::TxtLoadOptions::GetType
 
 * Class [TxtLoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: AxisBound
+title: Aspose::Words::Drawing::Charts::AxisBound::AxisBound constructor
+linktitle: AxisBound
 second_title: Aspose.Words for C++ API Reference
-description: Creates a new instance indicating that axis bound should be determined automatically by a word-processing application.
+description: 'Aspose::Words::Drawing::Charts::AxisBound::AxisBound constructor. Creates a new instance indicating that axis bound should be determined automatically by a word-processing application in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.drawing.charts/axisbound/axisbound/
 ---
 ## AxisBound::AxisBound() constructor
@@ -19,7 +20,7 @@ Aspose::Words::Drawing::Charts::AxisBound::AxisBound()
 
 * Class [AxisBound](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## AxisBound::AxisBound(double) constructor
 
 
@@ -129,7 +130,7 @@ doc->Save(ArtifactsDir + u"Charts.AxisBound.docx");
 
 * Class [AxisBound](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## AxisBound::AxisBound(System::DateTime) constructor
 
 
@@ -239,4 +240,4 @@ doc->Save(ArtifactsDir + u"Charts.AxisBound.docx");
 
 * Class [AxisBound](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

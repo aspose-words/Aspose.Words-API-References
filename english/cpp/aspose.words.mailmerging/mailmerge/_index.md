@@ -1,9 +1,10 @@
 ---
-title: MailMerge
+title: Aspose::Words::MailMerging::MailMerge class
+linktitle: MailMerge
 second_title: Aspose.Words for C++ API Reference
-description: Represents the mail merge functionality. To learn more, visit the  documentation article.
+description: 'Aspose::Words::MailMerging::MailMerge class. Represents the mail merge functionality. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.mailmerging/mailmerge/
 ---
 ## MailMerge class
@@ -81,4 +82,4 @@ You need to use mail merge regions if you want to dynamically grow portions insi
 ## See Also
 
 * Namespace [Aspose::Words::MailMerging](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

@@ -1,9 +1,10 @@
 ---
-title: get_StoryType
+title: Aspose::Words::Comment::get_StoryType method
+linktitle: get_StoryType
 second_title: Aspose.Words for C++ API Reference
-description: Returns Comments.
+description: 'Aspose::Words::Comment::get_StoryType method. Returns Comments in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words/comment/get_storytype/
 ---
 ## Comment::get_StoryType method
@@ -51,7 +52,7 @@ footnote->get_Font()->set_Color(System::Drawing::Color::get_Green());
 ASSERT_EQ(StoryType::Footnotes, footnote->get_StoryType());
 
 // A comment is another type of inline story.
-auto comment = System::DynamicCast<Comment>(
+auto comment = System::ExplicitCast<Comment>(
     builder->get_CurrentParagraph()->AppendChild(MakeObject<Comment>(doc, u"John Doe", u"J. D.", System::DateTime::get_Now())));
 
 // The parent paragraph of an inline story node will be the one from the main document body.
@@ -79,4 +80,4 @@ doc->Save(ArtifactsDir + u"InlineStory.InsertInlineStoryNodes.docx");
 * Enum [StoryType](../../storytype/)
 * Class [Comment](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

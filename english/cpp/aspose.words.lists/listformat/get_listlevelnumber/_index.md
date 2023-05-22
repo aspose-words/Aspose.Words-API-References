@@ -1,9 +1,10 @@
 ---
-title: get_ListLevelNumber
+title: Aspose::Words::Lists::ListFormat::get_ListLevelNumber method
+linktitle: get_ListLevelNumber
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the list level number (0 to 8) for the paragraph.
+description: 'Aspose::Words::Lists::ListFormat::get_ListLevelNumber method. Gets or sets the list level number (0 to 8) for the paragraph in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.lists/listformat/get_listlevelnumber/
 ---
 ## ListFormat::get_ListLevelNumber method
@@ -157,4 +158,4 @@ doc->Save(ArtifactsDir + u"Lists.SpecifyListLevel.docx");
 
 * Class [ListFormat](../)
 * Namespace [Aspose::Words::Lists](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

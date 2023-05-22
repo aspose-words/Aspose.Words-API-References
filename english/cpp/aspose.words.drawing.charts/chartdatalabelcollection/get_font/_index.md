@@ -1,9 +1,10 @@
 ---
-title: get_Font
+title: Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_Font method
+linktitle: get_Font
 second_title: Aspose.Words for C++ API Reference
-description: Provides access to the font formatting of the data labels of the entire series.
+description: 'Aspose::Words::Drawing::Charts::ChartDataLabelCollection::get_Font method. Provides access to the font formatting of the data labels of the entire series in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.drawing.charts/chartdatalabelcollection/get_font/
 ---
 ## ChartDataLabelCollection::get_Font method
@@ -20,4 +21,4 @@ System::SharedPtr<Aspose::Words::Font> Aspose::Words::Drawing::Charts::ChartData
 * Class [Font](../../../aspose.words/font/)
 * Class [ChartDataLabelCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

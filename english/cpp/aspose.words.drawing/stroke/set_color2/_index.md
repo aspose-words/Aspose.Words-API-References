@@ -1,9 +1,10 @@
 ---
-title: set_Color2
+title: Aspose::Words::Drawing::Stroke::set_Color2 method
+linktitle: set_Color2
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Drawing::Stroke::get_Color2.'
+description: 'Aspose::Words::Drawing::Stroke::set_Color2 method. Setter for Aspose::Words::Drawing::Stroke::get_Color2 in C++.'
 type: docs
-weight: 326
+weight: 26000
 url: /cpp/aspose.words.drawing/stroke/set_color2/
 ---
 ## Stroke::set_Color2 method
@@ -19,4 +20,4 @@ void Aspose::Words::Drawing::Stroke::set_Color2(System::Drawing::Color value)
 
 * Class [Stroke](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

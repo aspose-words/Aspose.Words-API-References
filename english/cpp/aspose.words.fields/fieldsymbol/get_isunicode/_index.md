@@ -1,9 +1,10 @@
 ---
-title: get_IsUnicode
+title: Aspose::Words::Fields::FieldSymbol::get_IsUnicode method
+linktitle: get_IsUnicode
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets whether the character code is interpreted as the value of a Unicode character.
+description: 'Aspose::Words::Fields::FieldSymbol::get_IsUnicode method. Gets or sets whether the character code is interpreted as the value of a Unicode character in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.fields/fieldsymbol/get_isunicode/
 ---
 ## FieldSymbol::get_IsUnicode method
@@ -27,7 +28,7 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 
 // Below are three ways to use a SYMBOL field to display a single character.
 // 1 -  Add a SYMBOL field which displays the © (Copyright) symbol, specified by an ANSI character code:
-auto field = System::DynamicCast<FieldSymbol>(builder->InsertField(FieldType::FieldSymbol, true));
+auto field = System::ExplicitCast<FieldSymbol>(builder->InsertField(FieldType::FieldSymbol, true));
 
 // The ANSI character code "U+00A9", or "169" in integer form, is reserved for the copyright symbol.
 field->set_CharacterCode(System::Convert::ToString(0x00a9));
@@ -38,7 +39,7 @@ ASSERT_EQ(u" SYMBOL  169 \\a", field->GetFieldCode());
 builder->Writeln(u" Line 1");
 
 // 2 -  Add a SYMBOL field which displays the ∞ (Infinity) symbol, and modify its appearance:
-field = System::DynamicCast<FieldSymbol>(builder->InsertField(FieldType::FieldSymbol, true));
+field = System::ExplicitCast<FieldSymbol>(builder->InsertField(FieldType::FieldSymbol, true));
 
 // In Unicode, the infinity symbol occupies the "221E" code.
 field->set_CharacterCode(System::Convert::ToString(0x221E));
@@ -58,7 +59,7 @@ builder->Writeln(u"Line 2");
 
 // 3 -  Add a SYMBOL field which displays the あ character,
 // with a font that supports Shift-JIS (Windows-932) codepage:
-field = System::DynamicCast<FieldSymbol>(builder->InsertField(FieldType::FieldSymbol, true));
+field = System::ExplicitCast<FieldSymbol>(builder->InsertField(FieldType::FieldSymbol, true));
 field->set_FontName(u"MS Gothic");
 field->set_CharacterCode(System::Convert::ToString(0x82A0));
 field->set_IsShiftJis(true);
@@ -74,4 +75,4 @@ doc->Save(ArtifactsDir + u"Field.SYMBOL.docx");
 
 * Class [FieldSymbol](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: set_DeletedTextColor
+title: Aspose::Words::Layout::RevisionOptions::set_DeletedTextColor method
+linktitle: set_DeletedTextColor
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Layout::RevisionOptions::get_DeletedTextColor.'
+description: 'Aspose::Words::Layout::RevisionOptions::set_DeletedTextColor method. Setter for Aspose::Words::Layout::RevisionOptions::get_DeletedTextColor in C++.'
 type: docs
-weight: 300
+weight: 24000
 url: /cpp/aspose.words.layout/revisionoptions/set_deletedtextcolor/
 ---
 ## RevisionOptions::set_DeletedTextColor method
@@ -20,4 +21,4 @@ void Aspose::Words::Layout::RevisionOptions::set_DeletedTextColor(Aspose::Words:
 * Enum [RevisionColor](../../revisioncolor/)
 * Class [RevisionOptions](../)
 * Namespace [Aspose::Words::Layout](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

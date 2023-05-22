@@ -1,9 +1,10 @@
 ---
-title: FieldToc
+title: Aspose::Words::Fields::FieldToc class
+linktitle: FieldToc
 second_title: Aspose.Words for C++ API Reference
-description: Implements the TOC field. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Fields::FieldToc class. Implements the TOC field. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 1353
+weight: 105000
 url: /cpp/aspose.words.fields/fieldtoc/
 ---
 ## FieldToc class
@@ -37,7 +38,7 @@ class FieldToc : public Aspose::Words::Fields::Field,
 | [get_HeadingLevelRange](./get_headinglevelrange/)() | Gets or sets a range of heading levels to include. |
 | [get_HideInWebLayout](./get_hideinweblayout/)() | Gets or sets whether to hide tab leader and page numbers in Web layout view. |
 | [get_InsertHyperlinks](./get_inserthyperlinks/)() | Gets or sets whether to make the table of contents entries hyperlinks. |
-| [get_IsDirty](../field/get_isdirty/)() | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [get_IsDirty](../field/get_isdirty/)() | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [get_IsLocked](../field/get_islocked/)() | Gets or sets whether the field is locked (should not recalculate its result). |
 | [get_LocaleId](../field/get_localeid/)() | Gets or sets the LCID of the field. |
 | [get_PageNumberOmittingLevelRange](./get_pagenumberomittinglevelrange/)() | Gets or sets a range of levels of the table of contents entries from which to omits page numbers. |
@@ -66,7 +67,7 @@ class FieldToc : public Aspose::Words::Fields::Field,
 | [set_HeadingLevelRange](./set_headinglevelrange/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldToc::get_HeadingLevelRange](./get_headinglevelrange/). |
 | [set_HideInWebLayout](./set_hideinweblayout/)(bool) | Setter for [Aspose::Words::Fields::FieldToc::get_HideInWebLayout](./get_hideinweblayout/). |
 | [set_InsertHyperlinks](./set_inserthyperlinks/)(bool) | Setter for [Aspose::Words::Fields::FieldToc::get_InsertHyperlinks](./get_inserthyperlinks/). |
-| [set_IsDirty](../field/set_isdirty/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsDirty](../field/get_isdirty/). |
+| [set_IsDirty](../field/set_isdirty/)(bool) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [set_IsLocked](../field/set_islocked/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsLocked](../field/get_islocked/). |
 | [set_LocaleId](../field/set_localeid/)(int32_t) | Setter for [Aspose::Words::Fields::Field::get_LocaleId](../field/get_localeid/). |
 | [set_PageNumberOmittingLevelRange](./set_pagenumberomittinglevelrange/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldToc::get_PageNumberOmittingLevelRange](./get_pagenumberomittinglevelrange/). |
@@ -99,7 +100,7 @@ void FieldToc_()
     // Insert a TOC field, which will compile all headings into a table of contents.
     // For each heading, this field will create a line with the text in that heading style to the left,
     // and the page the heading appears on to the right.
-    auto field = System::DynamicCast<FieldToc>(builder->InsertField(FieldType::FieldTOC, true));
+    auto field = System::ExplicitCast<FieldToc>(builder->InsertField(FieldType::FieldTOC, true));
 
     // Use the BookmarkName property to only list headings
     // that appear within the bounds of a bookmark with the "MyBookmark" name.
@@ -171,7 +172,7 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 
 // A TOC field can create an entry in its table of contents for each SEQ field found in the document.
 // Each entry contains the paragraph that includes the SEQ field and the page's number that the field appears on.
-auto fieldToc = System::DynamicCast<FieldToc>(builder->InsertField(FieldType::FieldTOC, true));
+auto fieldToc = System::ExplicitCast<FieldToc>(builder->InsertField(FieldType::FieldTOC, true));
 
 // SEQ fields display a count that increments at each SEQ field.
 // These fields also maintain separate counts for each unique named sequence
@@ -200,7 +201,7 @@ builder->InsertBreak(BreakType::PageBreak);
 // This field will increment the SEQ sequence count for the "PrefixSequence" by 1.
 // Since this field does not belong to the main sequence identified
 // by the "TableOfFiguresLabel" property of the TOC, it will not appear as an entry.
-auto fieldSeq = System::DynamicCast<FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
+auto fieldSeq = System::ExplicitCast<FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
 fieldSeq->set_SequenceIdentifier(u"PrefixSequence");
 builder->InsertParagraph();
 
@@ -214,7 +215,7 @@ ASSERT_EQ(u" SEQ  PrefixSequence", fieldSeq->GetFieldCode());
 // The "PrefixSequence" count is at 1, this main sequence SEQ field is on page 2,
 // and the separator is ">", so entry will display "1>2".
 builder->Write(u"First TOC entry, MySequence #");
-fieldSeq = System::DynamicCast<FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
+fieldSeq = System::ExplicitCast<FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
 fieldSeq->set_SequenceIdentifier(u"MySequence");
 
 ASSERT_EQ(u" SEQ  MySequence", fieldSeq->GetFieldCode());
@@ -223,10 +224,10 @@ ASSERT_EQ(u" SEQ  MySequence", fieldSeq->GetFieldCode());
 // The prefix sequence is now at 2, and the main sequence SEQ field is on page 3,
 // so the TOC entry will display "2>3" at its page count.
 builder->InsertBreak(BreakType::PageBreak);
-fieldSeq = System::DynamicCast<FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
+fieldSeq = System::ExplicitCast<FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
 fieldSeq->set_SequenceIdentifier(u"PrefixSequence");
 builder->InsertParagraph();
-fieldSeq = System::DynamicCast<FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
+fieldSeq = System::ExplicitCast<FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
 builder->Write(u"Second TOC entry, MySequence #");
 fieldSeq->set_SequenceIdentifier(u"MySequence");
 
@@ -238,4 +239,4 @@ doc->Save(ArtifactsDir + u"Field.TOC.SEQ.docx");
 
 * Class [Field](../field/)
 * Namespace [Aspose::Words::Fields](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

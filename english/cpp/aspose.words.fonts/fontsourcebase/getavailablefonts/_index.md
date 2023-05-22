@@ -1,9 +1,10 @@
 ---
-title: GetAvailableFonts
+title: Aspose::Words::Fonts::FontSourceBase::GetAvailableFonts method
+linktitle: GetAvailableFonts
 second_title: Aspose.Words for C++ API Reference
-description: Returns list of fonts available via this source.
+description: 'Aspose::Words::Fonts::FontSourceBase::GetAvailableFonts method. Returns list of fonts available via this source in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.fonts/fontsourcebase/getavailablefonts/
 ---
 ## FontSourceBase::GetAvailableFonts method
@@ -39,4 +40,4 @@ for (const auto& fontInfo : System::IterateOver(folderFontSource[0]->GetAvailabl
 * Class [PhysicalFontInfo](../../physicalfontinfo/)
 * Class [FontSourceBase](../)
 * Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

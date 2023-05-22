@@ -1,9 +1,10 @@
 ---
-title: get_Password
+title: Aspose::Words::Saving::OdtSaveOptions::get_Password method
+linktitle: get_Password
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets a password to encrypt document.
+description: 'Aspose::Words::Saving::OdtSaveOptions::get_Password method. Gets or sets a password to encrypt document in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.saving/odtsaveoptions/get_password/
 ---
 ## OdtSaveOptions::get_Password method
@@ -56,4 +57,4 @@ ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
 
 * Class [OdtSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

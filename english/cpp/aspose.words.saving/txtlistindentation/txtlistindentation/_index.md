@@ -1,9 +1,10 @@
 ---
-title: TxtListIndentation
+title: Aspose::Words::Saving::TxtListIndentation::TxtListIndentation constructor
+linktitle: TxtListIndentation
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use TxtListIndentation constructor of Aspose::Words::Saving::TxtListIndentation class in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.saving/txtlistindentation/txtlistindentation/
 ---
 ## TxtListIndentation::TxtListIndentation constructor
@@ -19,4 +20,4 @@ Aspose::Words::Saving::TxtListIndentation::TxtListIndentation()
 
 * Class [TxtListIndentation](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

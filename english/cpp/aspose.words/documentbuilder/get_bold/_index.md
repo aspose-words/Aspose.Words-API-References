@@ -1,9 +1,10 @@
 ---
-title: get_Bold
+title: Aspose::Words::DocumentBuilder::get_Bold method
+linktitle: get_Bold
 second_title: Aspose.Words for C++ API Reference
-description: True if the font is formatted as bold.
+description: 'Aspose::Words::DocumentBuilder::get_Bold method. True if the font is formatted as bold in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words/documentbuilder/get_bold/
 ---
 ## DocumentBuilder::get_Bold method
@@ -50,4 +51,4 @@ doc->Save(ArtifactsDir + u"DocumentBuilder.FillMergeFields.docx");
 
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

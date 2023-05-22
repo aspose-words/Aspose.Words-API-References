@@ -1,9 +1,10 @@
 ---
-title: Accept
+title: Aspose::Words::EditableRangeEnd::Accept method
+linktitle: Accept
 second_title: Aspose.Words for C++ API Reference
-description: Accepts a visitor.
+description: 'Aspose::Words::EditableRangeEnd::Accept method. Accepts a visitor in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words/editablerangeend/accept/
 ---
 ## EditableRangeEnd::Accept method
@@ -141,4 +142,4 @@ private:
 * Class [DocumentVisitor](../../documentvisitor/)
 * Class [EditableRangeEnd](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

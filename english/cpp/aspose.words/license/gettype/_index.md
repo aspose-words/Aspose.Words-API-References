@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::License::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::License class in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words/license/gettype/
 ---
 ## License::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::License::GetType() const overrid
 
 * Class [License](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

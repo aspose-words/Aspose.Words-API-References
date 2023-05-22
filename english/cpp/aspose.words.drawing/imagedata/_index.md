@@ -1,9 +1,10 @@
 ---
-title: ImageData
+title: Aspose::Words::Drawing::ImageData class
+linktitle: ImageData
 second_title: Aspose.Words for C++ API Reference
-description: Defines an image for a shape. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Drawing::ImageData class. Defines an image for a shape. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.drawing/imagedata/
 ---
 ## ImageData class
@@ -85,7 +86,7 @@ auto doc = MakeObject<Document>(MyDir + u"Images.docx");
 // and save the image data of every shape with an image as a file to the local file system.
 SharedPtr<NodeCollection> shapes = doc->GetChildNodes(NodeType::Shape, true);
 
-ASSERT_EQ(9, shapes->LINQ_Count([](SharedPtr<Node> s) { return (System::DynamicCast<Shape>(s))->get_HasImage(); }));
+ASSERT_EQ(9, shapes->LINQ_Count([](SharedPtr<Node> s) { return (System::ExplicitCast<Shape>(s))->get_HasImage(); }));
 
 int imageIndex = 0;
 for (const auto& shape : System::IterateOver(shapes->LINQ_OfType<SharedPtr<Shape>>()))
@@ -142,4 +143,4 @@ ASSERT_TRUE(10000 > MakeObject<System::IO::FileInfo>(ArtifactsDir + u"Image.Crea
 ## See Also
 
 * Namespace [Aspose::Words::Drawing](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

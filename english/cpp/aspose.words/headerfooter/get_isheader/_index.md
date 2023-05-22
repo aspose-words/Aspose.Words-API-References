@@ -1,9 +1,10 @@
 ---
-title: get_IsHeader
+title: Aspose::Words::HeaderFooter::get_IsHeader method
+linktitle: get_IsHeader
 second_title: Aspose.Words for C++ API Reference
-description: True if this HeaderFooter object is a header.
+description: 'Aspose::Words::HeaderFooter::get_IsHeader method. True if this HeaderFooter object is a header in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words/headerfooter/get_isheader/
 ---
 ## HeaderFooter::get_IsHeader method
@@ -55,4 +56,4 @@ doc->Save(ArtifactsDir + u"HeaderFooter.Create.docx");
 
 * Class [HeaderFooter](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

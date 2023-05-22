@@ -1,9 +1,10 @@
 ---
-title: RemoveAt
+title: Aspose::Words::Drawing::Charts::ChartSeriesCollection::RemoveAt method
+linktitle: RemoveAt
 second_title: Aspose.Words for C++ API Reference
-description: Removes a ChartSeries at the specified index.
+description: 'Aspose::Words::Drawing::Charts::ChartSeriesCollection::RemoveAt method. Removes a ChartSeries at the specified index in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.drawing.charts/chartseriescollection/removeat/
 ---
 ## ChartSeriesCollection::RemoveAt method
@@ -71,4 +72,4 @@ chartData->Clear();
 
 * Class [ChartSeriesCollection](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

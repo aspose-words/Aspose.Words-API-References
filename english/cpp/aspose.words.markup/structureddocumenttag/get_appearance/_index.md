@@ -1,9 +1,10 @@
 ---
-title: get_Appearance
+title: Aspose::Words::Markup::StructuredDocumentTag::get_Appearance method
+linktitle: get_Appearance
 second_title: Aspose.Words for C++ API Reference
-description: Gets/sets the appearance of a structured document tag.
+description: 'Aspose::Words::Markup::StructuredDocumentTag::get_Appearance method. Gets/sets the appearance of a structured document tag in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.markup/structureddocumenttag/get_appearance/
 ---
 ## StructuredDocumentTag::get_Appearance method
@@ -61,7 +62,7 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 builder->InsertNode(tag);
 
 // Insert a clone of our structured document tag in a new paragraph.
-auto tagClone = System::DynamicCast<StructuredDocumentTag>(tag->Clone(true));
+auto tagClone = System::ExplicitCast<StructuredDocumentTag>(tag->Clone(true));
 builder->InsertParagraph();
 builder->InsertNode(tagClone);
 
@@ -76,4 +77,4 @@ doc->Save(ArtifactsDir + u"StructuredDocumentTag.PlainText.docx");
 * Enum [SdtAppearance](../../sdtappearance/)
 * Class [StructuredDocumentTag](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

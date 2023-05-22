@@ -1,9 +1,10 @@
 ---
-title: get_SizeBi
+title: Aspose::Words::Font::get_SizeBi method
+linktitle: get_SizeBi
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the font size in points used in a right-to-left document.
+description: 'Aspose::Words::Font::get_SizeBi method. Gets or sets the font size in points used in a right-to-left document in C++.'
 type: docs
-weight: 469
+weight: 37000
 url: /cpp/aspose.words/font/get_sizebi/
 ---
 ## Font::get_SizeBi method
@@ -57,4 +58,4 @@ doc->Save(ArtifactsDir + u"Font.Bidi.docx");
 
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

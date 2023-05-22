@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::BuildingBlocks::BuildingBlockCollection::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::BuildingBlocks::BuildingBlockCollection class in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.buildingblocks/buildingblockcollection/is/
 ---
 ## BuildingBlockCollection::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::BuildingBlocks::BuildingBlockCollection::Is(const Sy
 
 * Class [BuildingBlockCollection](../)
 * Namespace [Aspose::Words::BuildingBlocks](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

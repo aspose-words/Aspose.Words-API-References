@@ -1,9 +1,10 @@
 ---
-title: VisitCellStart
+title: Aspose::Words::DocumentVisitor::VisitCellStart method
+linktitle: VisitCellStart
 second_title: Aspose.Words for C++ API Reference
-description: Called when enumeration of a table cell has started.
+description: 'Aspose::Words::DocumentVisitor::VisitCellStart method. Called when enumeration of a table cell has started in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words/documentvisitor/visitcellstart/
 ---
 ## DocumentVisitor::VisitCellStart method
@@ -171,4 +172,4 @@ private:
 * Class [Cell](../../../aspose.words.tables/cell/)
 * Class [DocumentVisitor](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

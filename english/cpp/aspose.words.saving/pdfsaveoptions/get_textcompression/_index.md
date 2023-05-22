@@ -1,9 +1,10 @@
 ---
-title: get_TextCompression
+title: Aspose::Words::Saving::PdfSaveOptions::get_TextCompression method
+linktitle: get_TextCompression
 second_title: Aspose.Words for C++ API Reference
-description: Specifies compression type to be used for all textual content in the document.
+description: 'Aspose::Words::Saving::PdfSaveOptions::get_TextCompression method. Specifies compression type to be used for all textual content in the document in C++.'
 type: docs
-weight: 378
+weight: 30000
 url: /cpp/aspose.words.saving/pdfsaveoptions/get_textcompression/
 ---
 ## PdfSaveOptions::get_TextCompression method
@@ -55,4 +56,4 @@ doc->Save(ArtifactsDir + u"PdfSaveOptions.TextCompression.pdf", options);
 * Enum [PdfTextCompression](../../pdftextcompression/)
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

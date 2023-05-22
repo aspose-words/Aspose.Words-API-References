@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Fields::FieldAutoTextList::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Fields::FieldAutoTextList class in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.fields/fieldautotextlist/is/
 ---
 ## FieldAutoTextList::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Fields::FieldAutoTextList::Is(const System::TypeInfo
 
 * Class [FieldAutoTextList](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

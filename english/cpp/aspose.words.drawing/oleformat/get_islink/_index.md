@@ -1,9 +1,10 @@
 ---
-title: get_IsLink
+title: Aspose::Words::Drawing::OleFormat::get_IsLink method
+linktitle: get_IsLink
 second_title: Aspose.Words for C++ API Reference
-description: Returns true if the OLE object is linked (when SourceFullName is specified).
+description: 'Aspose::Words::Drawing::OleFormat::get_IsLink method. Returns true if the OLE object is linked (when SourceFullName is specified) in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.drawing/oleformat/get_islink/
 ---
 ## OleFormat::get_IsLink method
@@ -73,4 +74,4 @@ doc->Save(ArtifactsDir + u"Shape.OleLinks.docx");
 
 * Class [OleFormat](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

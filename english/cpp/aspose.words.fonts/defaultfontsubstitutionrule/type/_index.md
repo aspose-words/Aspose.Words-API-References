@@ -1,9 +1,10 @@
 ---
-title: Type
+title: Aspose::Words::Fonts::DefaultFontSubstitutionRule::Type method
+linktitle: Type
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Type method of Aspose::Words::Fonts::DefaultFontSubstitutionRule class in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words.fonts/defaultfontsubstitutionrule/type/
 ---
 ## DefaultFontSubstitutionRule::Type method
@@ -19,4 +20,4 @@ static const System::TypeInfo & Aspose::Words::Fonts::DefaultFontSubstitutionRul
 
 * Class [DefaultFontSubstitutionRule](../)
 * Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

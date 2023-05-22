@@ -1,9 +1,10 @@
 ---
-title: Clear
+title: Aspose::Words::Markup::CustomXmlPropertyCollection::Clear method
+linktitle: Clear
 second_title: Aspose.Words for C++ API Reference
-description: Removes all elements from the collection.
+description: 'Aspose::Words::Markup::CustomXmlPropertyCollection::Clear method. Removes all elements from the collection in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.markup/customxmlpropertycollection/clear/
 ---
 ## CustomXmlPropertyCollection::Clear method
@@ -75,4 +76,4 @@ ASSERT_EQ(0, properties->get_Count());
 
 * Class [CustomXmlPropertyCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

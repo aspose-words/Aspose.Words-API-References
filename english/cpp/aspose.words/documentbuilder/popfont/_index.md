@@ -1,9 +1,10 @@
 ---
-title: PopFont
+title: Aspose::Words::DocumentBuilder::PopFont method
+linktitle: PopFont
 second_title: Aspose.Words for C++ API Reference
-description: Retrieves character formatting previously saved on the stack.
+description: 'Aspose::Words::DocumentBuilder::PopFont method. Retrieves character formatting previously saved on the stack in C++.'
 type: docs
-weight: 794
+weight: 62000
 url: /cpp/aspose.words/documentbuilder/popfont/
 ---
 ## DocumentBuilder::PopFont method
@@ -55,4 +56,4 @@ doc->Save(ArtifactsDir + u"DocumentBuilder.PushPopFont.docx");
 
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: MoveParent
+title: Aspose::Words::Layout::LayoutEnumerator::MoveParent method
+linktitle: MoveParent
 second_title: Aspose.Words for C++ API Reference
-description: Moves to the parent entity.
+description: 'Aspose::Words::Layout::LayoutEnumerator::MoveParent method. Moves to the parent entity in C++.'
 type: docs
-weight: 248
+weight: 20000
 url: /cpp/aspose.words.layout/layoutenumerator/moveparent/
 ---
 ## LayoutEnumerator::MoveParent() method
@@ -146,7 +147,7 @@ static void PrintCurrentEntity(SharedPtr<LayoutEnumerator> layoutEnumerator, int
 
 * Class [LayoutEnumerator](../)
 * Namespace [Aspose::Words::Layout](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## LayoutEnumerator::MoveParent(Aspose::Words::Layout::LayoutEntityType) method
 
 
@@ -292,4 +293,4 @@ static void PrintCurrentEntity(SharedPtr<LayoutEnumerator> layoutEnumerator, int
 * Enum [LayoutEntityType](../../layoutentitytype/)
 * Class [LayoutEnumerator](../)
 * Namespace [Aspose::Words::Layout](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

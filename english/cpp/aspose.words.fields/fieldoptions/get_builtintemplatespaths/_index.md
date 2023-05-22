@@ -1,9 +1,10 @@
 ---
-title: get_BuiltInTemplatesPaths
+title: Aspose::Words::Fields::FieldOptions::get_BuiltInTemplatesPaths method
+linktitle: get_BuiltInTemplatesPaths
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets paths of MS Word built-in templates.
+description: 'Aspose::Words::Fields::FieldOptions::get_BuiltInTemplatesPaths method. Gets or sets paths of MS Word built-in templates in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.fields/fieldoptions/get_builtintemplatespaths/
 ---
 ## FieldOptions::get_BuiltInTemplatesPaths method
@@ -55,13 +56,13 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 
 // Below are two ways to use fields to display the contents of our building block.
 // 1 -  Using an AUTOTEXT field:
-auto fieldAutoText = System::DynamicCast<FieldAutoText>(builder->InsertField(FieldType::FieldAutoText, true));
+auto fieldAutoText = System::ExplicitCast<FieldAutoText>(builder->InsertField(FieldType::FieldAutoText, true));
 fieldAutoText->set_EntryName(u"MyBlock");
 
 ASSERT_EQ(u" AUTOTEXT  MyBlock", fieldAutoText->GetFieldCode());
 
 // 2 -  Using a GLOSSARY field:
-auto fieldGlossary = System::DynamicCast<FieldGlossary>(builder->InsertField(FieldType::FieldGlossary, true));
+auto fieldGlossary = System::ExplicitCast<FieldGlossary>(builder->InsertField(FieldType::FieldGlossary, true));
 fieldGlossary->set_EntryName(u"MyBlock");
 
 ASSERT_EQ(u" GLOSSARY  MyBlock", fieldGlossary->GetFieldCode());
@@ -74,4 +75,4 @@ doc->Save(ArtifactsDir + u"Field.AUTOTEXT.GLOSSARY.dotx");
 
 * Class [FieldOptions](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

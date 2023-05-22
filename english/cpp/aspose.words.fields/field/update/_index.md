@@ -1,9 +1,10 @@
 ---
-title: Update
+title: Aspose::Words::Fields::Field::Update method
+linktitle: Update
 second_title: Aspose.Words for C++ API Reference
-description: Performs the field update. Throws if the field is being updated already.
+description: 'Aspose::Words::Fields::Field::Update method. Performs the field update. Throws if the field is being updated already in C++.'
 type: docs
-weight: 287
+weight: 23000
 url: /cpp/aspose.words.fields/field/update/
 ---
 ## Field::Update() method
@@ -126,7 +127,7 @@ ASSERT_EQ(0, format->get_GeneralFormats()->get_Count());
 
 * Class [Field](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## Field::Update(bool) method
 
 
@@ -150,7 +151,7 @@ Shows how to preserve or discard INCLUDEPICTURE fields when loading a document.
 auto doc = MakeObject<Document>();
 auto builder = MakeObject<DocumentBuilder>(doc);
 
-auto includePicture = System::DynamicCast<FieldIncludePicture>(builder->InsertField(FieldType::FieldIncludePicture, true));
+auto includePicture = System::ExplicitCast<FieldIncludePicture>(builder->InsertField(FieldType::FieldIncludePicture, true));
 includePicture->set_SourceFullName(ImageDir + u"Transparent background logo.png");
 includePicture->Update(true);
 
@@ -183,4 +184,4 @@ includePicture->Update(true);
 
 * Class [Field](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

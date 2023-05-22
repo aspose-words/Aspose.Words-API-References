@@ -1,9 +1,10 @@
 ---
-title: EndnoteOptions
+title: Aspose::Words::Notes::EndnoteOptions class
+linktitle: EndnoteOptions
 second_title: Aspose.Words for C++ API Reference
-description: Represents the endnote numbering options for a document or section. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Notes::EndnoteOptions class. Represents the endnote numbering options for a document or section. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words.notes/endnoteoptions/
 ---
 ## EndnoteOptions class
@@ -205,4 +206,4 @@ doc->Save(ArtifactsDir + u"InlineStory.StartNumber.docx");
 ## See Also
 
 * Namespace [Aspose::Words::Notes](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

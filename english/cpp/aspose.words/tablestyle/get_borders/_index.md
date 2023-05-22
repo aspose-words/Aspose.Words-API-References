@@ -1,9 +1,10 @@
 ---
-title: get_Borders
+title: Aspose::Words::TableStyle::get_Borders method
+linktitle: get_Borders
 second_title: Aspose.Words for C++ API Reference
-description: Gets the collection of default cell borders for the style.
+description: 'Aspose::Words::TableStyle::get_Borders method. Gets the collection of default cell borders for the style in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words/tablestyle/get_borders/
 ---
 ## TableStyle::get_Borders method
@@ -35,7 +36,7 @@ builder->InsertCell();
 builder->InsertCell();
 builder->EndTable();
 
-auto tableStyle = System::DynamicCast<TableStyle>(doc->get_Styles()->Add(StyleType::Table, u"MyTableStyle1"));
+auto tableStyle = System::ExplicitCast<TableStyle>(doc->get_Styles()->Add(StyleType::Table, u"MyTableStyle1"));
 tableStyle->set_AllowBreakAcrossPages(true);
 tableStyle->set_Bidi(true);
 tableStyle->set_CellSpacing(5);
@@ -63,4 +64,4 @@ doc->Save(ArtifactsDir + u"Table.TableStyleCreation.docx");
 * Class [BorderCollection](../../bordercollection/)
 * Class [TableStyle](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: begin
+title: Aspose::Words::WebExtensions::BaseWebExtensionCollection::begin method
+linktitle: begin
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use begin method of Aspose::Words::WebExtensions::BaseWebExtensionCollection class in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.webextensions/basewebextensioncollection/begin/
 ---
 ## BaseWebExtensionCollection::begin() const method
@@ -20,7 +21,7 @@ const_iterator Aspose::Words::WebExtensions::BaseWebExtensionCollection<T>::begi
 * Typedef [const_iterator](../const_iterator/)
 * Class [BaseWebExtensionCollection](../)
 * Namespace [Aspose::Words::WebExtensions](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## BaseWebExtensionCollection::begin() method
 
 
@@ -35,4 +36,4 @@ iterator Aspose::Words::WebExtensions::BaseWebExtensionCollection<T>::begin() no
 * Typedef [iterator](../iterator/)
 * Class [BaseWebExtensionCollection](../)
 * Namespace [Aspose::Words::WebExtensions](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_Match
+title: Aspose::Words::Replacing::ReplacingArgs::get_Match method
+linktitle: get_Match
 second_title: Aspose.Words for C++ API Reference
-description: The Match resulting from a single regular expression match during a Replace.
+description: 'Aspose::Words::Replacing::ReplacingArgs::get_Match method. The Match resulting from a single regular expression match during a Replace in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.replacing/replacingargs/get_match/
 ---
 ## ReplacingArgs::get_Match method
@@ -95,4 +96,4 @@ private:
 
 * Class [ReplacingArgs](../)
 * Namespace [Aspose::Words::Replacing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

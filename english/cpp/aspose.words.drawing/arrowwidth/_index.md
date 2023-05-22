@@ -1,9 +1,10 @@
 ---
-title: ArrowWidth
+title: Aspose::Words::Drawing::ArrowWidth enum
+linktitle: ArrowWidth
 second_title: Aspose.Words for C++ API Reference
-description: Width of the arrow at the end of a line.
+description: 'Aspose::Words::Drawing::ArrowWidth enum. Width of the arrow at the end of a line in C++.'
 type: docs
-weight: 235
+weight: 19000
 url: /cpp/aspose.words.drawing/arrowwidth/
 ---
 ## ArrowWidth enum
@@ -101,4 +102,4 @@ doc->Save(ArtifactsDir + u"Drawing.VariousShapes.docx");
 ## See Also
 
 * Namespace [Aspose::Words::Drawing](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

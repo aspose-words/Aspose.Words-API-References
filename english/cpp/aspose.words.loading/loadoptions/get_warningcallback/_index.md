@@ -1,9 +1,10 @@
 ---
-title: get_WarningCallback
+title: Aspose::Words::Loading::LoadOptions::get_WarningCallback method
+linktitle: get_WarningCallback
 second_title: Aspose.Words for C++ API Reference
-description: Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss.
+description: 'Aspose::Words::Loading::LoadOptions::get_WarningCallback method. Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss in C++.'
 type: docs
-weight: 222
+weight: 18000
 url: /cpp/aspose.words.loading/loadoptions/get_warningcallback/
 ---
 ## LoadOptions::get_WarningCallback method
@@ -33,7 +34,7 @@ void LoadOptionsWarningCallback()
     auto doc = MakeObject<Document>(MyDir + u"Document.docx", loadOptions);
 
     SharedPtr<System::Collections::Generic::List<SharedPtr<WarningInfo>>> warnings =
-        (System::StaticCast<ApiExamples::ExLoadOptions::DocumentLoadingWarningCallback>(loadOptions->get_WarningCallback()))->GetWarnings();
+        (System::ExplicitCast<ApiExamples::ExLoadOptions::DocumentLoadingWarningCallback>(loadOptions->get_WarningCallback()))->GetWarnings();
     ASSERT_EQ(3, warnings->get_Count());
 }
 
@@ -67,4 +68,4 @@ private:
 * Interface [IWarningCallback](../../../aspose.words/iwarningcallback/)
 * Class [LoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

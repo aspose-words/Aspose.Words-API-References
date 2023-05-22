@@ -1,9 +1,10 @@
 ---
-title: StructuredDocumentTagRangeStart
+title: Aspose::Words::Markup::StructuredDocumentTagRangeStart::StructuredDocumentTagRangeStart constructor
+linktitle: StructuredDocumentTagRangeStart
 second_title: Aspose.Words for C++ API Reference
-description: Initializes a new instance of the Structured document tag range start class.
+description: 'Aspose::Words::Markup::StructuredDocumentTagRangeStart::StructuredDocumentTagRangeStart constructor. Initializes a new instance of the Structured document tag range start class in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/structureddocumenttagrangestart/
 ---
 ## StructuredDocumentTagRangeStart::StructuredDocumentTagRangeStart constructor
@@ -56,10 +57,10 @@ void SdtRangeExtendedMethods()
     // Removes ranged structured document tag, but keeps content inside.
     rangeStart->RemoveSelfOnly();
 
-    rangeStart = System::DynamicCast<StructuredDocumentTagRangeStart>(doc->GetChild(NodeType::StructuredDocumentTagRangeStart, 0, false));
+    rangeStart = System::ExplicitCast<StructuredDocumentTagRangeStart>(doc->GetChild(NodeType::StructuredDocumentTagRangeStart, 0, false));
     ASPOSE_ASSERT_EQ(nullptr, rangeStart);
 
-    auto rangeEnd = System::DynamicCast<StructuredDocumentTagRangeEnd>(doc->GetChild(NodeType::StructuredDocumentTagRangeEnd, 0, false));
+    auto rangeEnd = System::ExplicitCast<StructuredDocumentTagRangeEnd>(doc->GetChild(NodeType::StructuredDocumentTagRangeEnd, 0, false));
 
     ASPOSE_ASSERT_EQ(nullptr, rangeEnd);
     ASSERT_EQ(u"StructuredDocumentTag element", doc->GetText().Trim());
@@ -93,4 +94,4 @@ void InsertStructuredDocumentTagRanges(SharedPtr<Document> doc, SharedPtr<Struct
 * Enum [SdtType](../../sdttype/)
 * Class [StructuredDocumentTagRangeStart](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

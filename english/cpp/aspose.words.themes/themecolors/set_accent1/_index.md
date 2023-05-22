@@ -1,9 +1,10 @@
 ---
-title: set_Accent1
+title: Aspose::Words::Themes::ThemeColors::set_Accent1 method
+linktitle: set_Accent1
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Themes::ThemeColors::get_Accent1.'
+description: 'Aspose::Words::Themes::ThemeColors::set_Accent1 method. Setter for Aspose::Words::Themes::ThemeColors::get_Accent1 in C++.'
 type: docs
-weight: 196
+weight: 16000
 url: /cpp/aspose.words.themes/themecolors/set_accent1/
 ---
 ## ThemeColors::set_Accent1 method
@@ -19,4 +20,4 @@ void Aspose::Words::Themes::ThemeColors::set_Accent1(System::Drawing::Color valu
 
 * Class [ThemeColors](../)
 * Namespace [Aspose::Words::Themes](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

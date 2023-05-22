@@ -1,9 +1,10 @@
 ---
-title: virtualized_iterator
+title: Aspose::Words::Vba::VbaModuleCollection::virtualized_iterator typedef
+linktitle: virtualized_iterator
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Aspose::Words::Vba::VbaModuleCollection::virtualized_iterator typedef of Aspose::Words::Vba::VbaModuleCollection class in C++.'
 type: docs
-weight: 235
+weight: 19000
 url: /cpp/aspose.words.vba/vbamodulecollection/virtualized_iterator/
 ---
 ## virtualized_iterator typedef
@@ -19,4 +20,4 @@ using Aspose::Words::Vba::VbaModuleCollection::virtualized_iterator =  typename 
 
 * Class [VbaModuleCollection](../)
 * Namespace [Aspose::Words::Vba](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

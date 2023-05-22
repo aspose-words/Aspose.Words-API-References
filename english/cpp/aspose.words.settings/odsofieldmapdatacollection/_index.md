@@ -1,9 +1,10 @@
 ---
-title: OdsoFieldMapDataCollection
+title: Aspose::Words::Settings::OdsoFieldMapDataCollection class
+linktitle: OdsoFieldMapDataCollection
 second_title: Aspose.Words for C++ API Reference
-description: A typed collection of the OdsoFieldMapData objects. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Settings::OdsoFieldMapDataCollection class. A typed collection of the OdsoFieldMapData objects. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.settings/odsofieldmapdatacollection/
 ---
 ## OdsoFieldMapDataCollection class
@@ -53,4 +54,4 @@ class OdsoFieldMapDataCollection : public System::Collections::Generic::IEnumera
 ## See Also
 
 * Namespace [Aspose::Words::Settings](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

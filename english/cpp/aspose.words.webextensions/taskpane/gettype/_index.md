@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::WebExtensions::TaskPane::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::WebExtensions::TaskPane class in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.webextensions/taskpane/gettype/
 ---
 ## TaskPane::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::WebExtensions::TaskPane::GetType
 
 * Class [TaskPane](../)
 * Namespace [Aspose::Words::WebExtensions](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

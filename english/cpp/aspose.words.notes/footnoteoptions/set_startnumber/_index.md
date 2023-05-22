@@ -1,9 +1,10 @@
 ---
-title: set_StartNumber
+title: Aspose::Words::Notes::FootnoteOptions::set_StartNumber method
+linktitle: set_StartNumber
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Notes::FootnoteOptions::get_StartNumber.'
+description: 'Aspose::Words::Notes::FootnoteOptions::set_StartNumber method. Setter for Aspose::Words::Notes::FootnoteOptions::get_StartNumber in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words.notes/footnoteoptions/set_startnumber/
 ---
 ## FootnoteOptions::set_StartNumber method
@@ -19,4 +20,4 @@ void Aspose::Words::Notes::FootnoteOptions::set_StartNumber(int32_t value) overr
 
 * Class [FootnoteOptions](../)
 * Namespace [Aspose::Words::Notes](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

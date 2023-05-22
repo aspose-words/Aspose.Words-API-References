@@ -1,9 +1,10 @@
 ---
-title: TableStyleOptions
+title: Aspose::Words::Tables::TableStyleOptions enum
+linktitle: TableStyleOptions
 second_title: Aspose.Words for C++ API Reference
-description: Specifies how table style is applied to a table.
+description: 'Aspose::Words::Tables::TableStyleOptions enum. Specifies how table style is applied to a table in C++.'
 type: docs
-weight: 183
+weight: 15000
 url: /cpp/aspose.words.tables/tablestyleoptions/
 ---
 ## TableStyleOptions enum
@@ -81,4 +82,4 @@ doc->Save(ArtifactsDir + u"DocumentBuilder.InsertTableWithStyle.docx");
 ## See Also
 
 * Namespace [Aspose::Words::Tables](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

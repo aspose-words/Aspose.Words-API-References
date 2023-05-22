@@ -1,9 +1,10 @@
 ---
-title: GetNumPagesSpanned
+title: Aspose::Words::Layout::LayoutCollector::GetNumPagesSpanned method
+linktitle: GetNumPagesSpanned
 second_title: Aspose.Words for C++ API Reference
-description: Gets number of pages the specified node spans. 0 if node is within a single page. This is the same as GetEndPageIndex() - GetStartPageIndex().
+description: 'Aspose::Words::Layout::LayoutCollector::GetNumPagesSpanned method. Gets number of pages the specified node spans. 0 if node is within a single page. This is the same as GetEndPageIndex() - GetStartPageIndex() in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.layout/layoutcollector/getnumpagesspanned/
 ---
 ## LayoutCollector::GetNumPagesSpanned method
@@ -78,4 +79,4 @@ ASSERT_EQ(u"¶", layoutEnumerator->get_Text());
 * Class [Node](../../../aspose.words/node/)
 * Class [LayoutCollector](../)
 * Namespace [Aspose::Words::Layout](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

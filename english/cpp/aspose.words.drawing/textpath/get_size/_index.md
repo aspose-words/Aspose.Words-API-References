@@ -1,9 +1,10 @@
 ---
-title: get_Size
+title: Aspose::Words::Drawing::TextPath::get_Size method
+linktitle: get_Size
 second_title: Aspose.Words for C++ API Reference
-description: Defines the size of the font in points.
+description: 'Aspose::Words::Drawing::TextPath::get_Size method. Defines the size of the font in points in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words.drawing/textpath/get_size/
 ---
 ## TextPath::get_Size method
@@ -23,4 +24,4 @@ The default value is 36.
 
 * Class [TextPath](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

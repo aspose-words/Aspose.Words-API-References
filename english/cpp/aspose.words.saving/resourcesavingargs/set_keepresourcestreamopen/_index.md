@@ -1,9 +1,10 @@
 ---
-title: set_KeepResourceStreamOpen
+title: Aspose::Words::Saving::ResourceSavingArgs::set_KeepResourceStreamOpen method
+linktitle: set_KeepResourceStreamOpen
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::ResourceSavingArgs::get_KeepResourceStreamOpen.'
+description: 'Aspose::Words::Saving::ResourceSavingArgs::set_KeepResourceStreamOpen method. Setter for Aspose::Words::Saving::ResourceSavingArgs::get_KeepResourceStreamOpen in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.saving/resourcesavingargs/set_keepresourcestreamopen/
 ---
 ## ResourceSavingArgs::set_KeepResourceStreamOpen method
@@ -19,4 +20,4 @@ void Aspose::Words::Saving::ResourceSavingArgs::set_KeepResourceStreamOpen(bool 
 
 * Class [ResourceSavingArgs](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

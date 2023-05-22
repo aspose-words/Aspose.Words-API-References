@@ -1,9 +1,10 @@
 ---
-title: get_LeftExpression
+title: Aspose::Words::Fields::FieldCompare::get_LeftExpression method
+linktitle: get_LeftExpression
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the left part of the comparison expression.
+description: 'Aspose::Words::Fields::FieldCompare::get_LeftExpression method. Gets or sets the left part of the comparison expression in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.fields/fieldcompare/get_leftexpression/
 ---
 ## FieldCompare::get_LeftExpression method
@@ -25,7 +26,7 @@ Shows how to compare expressions using a COMPARE field.
 auto doc = MakeObject<Document>();
 auto builder = MakeObject<DocumentBuilder>(doc);
 
-auto field = System::DynamicCast<FieldCompare>(builder->InsertField(FieldType::FieldCompare, true));
+auto field = System::ExplicitCast<FieldCompare>(builder->InsertField(FieldType::FieldCompare, true));
 field->set_LeftExpression(u"3");
 field->set_ComparisonOperator(u"<");
 field->set_RightExpression(u"2");
@@ -38,7 +39,7 @@ ASSERT_EQ(u"0", field->get_Result());
 
 builder->Writeln();
 
-field = System::DynamicCast<FieldCompare>(builder->InsertField(FieldType::FieldCompare, true));
+field = System::ExplicitCast<FieldCompare>(builder->InsertField(FieldType::FieldCompare, true));
 field->set_LeftExpression(u"5");
 field->set_ComparisonOperator(u"=");
 field->set_RightExpression(u"2 + 3");
@@ -56,4 +57,4 @@ doc->Save(ArtifactsDir + u"Field.COMPARE.docx");
 
 * Class [FieldCompare](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

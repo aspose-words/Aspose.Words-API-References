@@ -1,9 +1,10 @@
 ---
-title: ClearContent
+title: Aspose::Words::Section::ClearContent method
+linktitle: ClearContent
 second_title: Aspose.Words for C++ API Reference
-description: Clears the section.
+description: 'Aspose::Words::Section::ClearContent method. Clears the section in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words/section/clearcontent/
 ---
 ## Section::ClearContent method
@@ -48,4 +49,4 @@ ASSERT_EQ(1, doc->get_FirstSection()->get_Body()->get_Paragraphs()->get_Count())
 
 * Class [Section](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

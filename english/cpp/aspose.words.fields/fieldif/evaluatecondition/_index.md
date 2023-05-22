@@ -1,9 +1,10 @@
 ---
-title: EvaluateCondition
+title: Aspose::Words::Fields::FieldIf::EvaluateCondition method
+linktitle: EvaluateCondition
 second_title: Aspose.Words for C++ API Reference
-description: Evaluates the condition.
+description: 'Aspose::Words::Fields::FieldIf::EvaluateCondition method. Evaluates the condition in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fields/fieldif/evaluatecondition/
 ---
 ## FieldIf::EvaluateCondition method
@@ -30,7 +31,7 @@ auto doc = MakeObject<Document>();
 auto builder = MakeObject<DocumentBuilder>(doc);
 
 builder->Write(u"Statement 1: ");
-auto field = System::DynamicCast<FieldIf>(builder->InsertField(FieldType::FieldIf, true));
+auto field = System::ExplicitCast<FieldIf>(builder->InsertField(FieldType::FieldIf, true));
 field->set_LeftExpression(u"0");
 field->set_ComparisonOperator(u"=");
 field->set_RightExpression(u"1");
@@ -47,7 +48,7 @@ ASSERT_EQ(FieldIfComparisonResult::False, field->EvaluateCondition());
 ASSERT_EQ(u"False", field->get_Result());
 
 builder->Write(u"\nStatement 2: ");
-field = System::DynamicCast<FieldIf>(builder->InsertField(FieldType::FieldIf, true));
+field = System::ExplicitCast<FieldIf>(builder->InsertField(FieldType::FieldIf, true));
 field->set_LeftExpression(u"5");
 field->set_ComparisonOperator(u"=");
 field->set_RightExpression(u"2 + 3");
@@ -69,4 +70,4 @@ doc->Save(ArtifactsDir + u"Field.IF.docx");
 * Enum [FieldIfComparisonResult](../../fieldifcomparisonresult/)
 * Class [FieldIf](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_ResourceLoadingCallback
+title: Aspose::Words::Loading::LoadOptions::get_ResourceLoadingCallback method
+linktitle: get_ResourceLoadingCallback
 second_title: Aspose.Words for C++ API Reference
-description: Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML.
+description: 'Aspose::Words::Loading::LoadOptions::get_ResourceLoadingCallback method. Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML in C++.'
 type: docs
-weight: 183
+weight: 15000
 url: /cpp/aspose.words.loading/loadoptions/get_resourceloadingcallback/
 ---
 ## LoadOptions::get_ResourceLoadingCallback method
@@ -50,7 +51,7 @@ public:
             SharedPtr<System::Drawing::Image> newImage = System::Drawing::Image::FromFile(ImageDir + newImageFilename);
             auto converter = MakeObject<System::Drawing::ImageConverter>();
             ArrayPtr<uint8_t> imageBytes =
-                System::DynamicCast<System::Array<uint8_t>>(converter->ConvertTo(newImage, System::ObjectExt::GetType<System::Array<uint8_t>>()));
+                System::ExplicitCast<System::Array<uint8_t>>(converter->ConvertTo(newImage, System::ObjectExt::GetType<System::Array<uint8_t>>()));
             args->SetData(imageBytes);
             return ResourceLoadingAction::UserProvided;
         }
@@ -69,4 +70,4 @@ public:
 * Interface [IResourceLoadingCallback](../../iresourceloadingcallback/)
 * Class [LoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

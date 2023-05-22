@@ -1,9 +1,10 @@
 ---
-title: HtmlSaveOptions
+title: Aspose::Words::Saving::HtmlSaveOptions class
+linktitle: HtmlSaveOptions
 second_title: Aspose.Words for C++ API Reference
-description: Can be used to specify additional options when saving a document into the Html, Mhtml, Epub, Azw3 or Mobi format. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Saving::HtmlSaveOptions class. Can be used to specify additional options when saving a document into the Html, Mhtml, Epub, Azw3 or Mobi format. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words.saving/htmlsaveoptions/
 ---
 ## HtmlSaveOptions class
@@ -116,13 +117,13 @@ class HtmlSaveOptions : public Aspose::Words::Saving::SaveOptions
 | [set_ExportLanguageInformation](./set_exportlanguageinformation/)(bool) | Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_ExportLanguageInformation](./get_exportlanguageinformation/). |
 | [set_ExportListLabels](./set_exportlistlabels/)(Aspose::Words::Saving::ExportListLabels) | Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_ExportListLabels](./get_exportlistlabels/). |
 | [set_ExportOriginalUrlForLinkedImages](./set_exportoriginalurlforlinkedimages/)(bool) | Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_ExportOriginalUrlForLinkedImages](./get_exportoriginalurlforlinkedimages/). |
-| [set_ExportPageMargins](./set_exportpagemargins/)(bool) | Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_ExportPageMargins](./get_exportpagemargins/). |
+| [set_ExportPageMargins](./set_exportpagemargins/)(bool) | Specifies whether page margins is exported to HTML, MHTML or EPUB. Default is **false**. |
 | [set_ExportPageSetup](./set_exportpagesetup/)(bool) | Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_ExportPageSetup](./get_exportpagesetup/). |
 | [set_ExportRelativeFontSize](./set_exportrelativefontsize/)(bool) | Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_ExportRelativeFontSize](./get_exportrelativefontsize/). |
 | [set_ExportRoundtripInformation](./set_exportroundtripinformation/)(bool) | Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_ExportRoundtripInformation](./get_exportroundtripinformation/). |
 | [set_ExportShapesAsSvg](./set_exportshapesassvg/)(bool) | Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_ExportShapesAsSvg](./get_exportshapesassvg/). |
 | [set_ExportTextInputFormFieldAsText](./set_exporttextinputformfieldastext/)(bool) | Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_ExportTextInputFormFieldAsText](./get_exporttextinputformfieldastext/). |
-| [set_ExportTocPageNumbers](./set_exporttocpagenumbers/)(bool) | Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_ExportTocPageNumbers](./get_exporttocpagenumbers/). |
+| [set_ExportTocPageNumbers](./set_exporttocpagenumbers/)(bool) | Specifies whether to write page numbers to table of contents when saving HTML, MHTML and EPUB. Default value is **false**. |
 | [set_ExportXhtmlTransitional](./set_exportxhtmltransitional/)(bool) | Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_ExportXhtmlTransitional](./get_exportxhtmltransitional/). |
 | [set_FontResourcesSubsettingSizeThreshold](./set_fontresourcessubsettingsizethreshold/)(int32_t) | Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_FontResourcesSubsettingSizeThreshold](./get_fontresourcessubsettingsizethreshold/). |
 | [set_FontSavingCallback](./set_fontsavingcallback/)(const System::SharedPtr\<Aspose::Words::Saving::IFontSavingCallback\>\&) | Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_FontSavingCallback](./get_fontsavingcallback/). |
@@ -325,4 +326,4 @@ private:
 
 * Class [SaveOptions](../saveoptions/)
 * Namespace [Aspose::Words::Saving](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

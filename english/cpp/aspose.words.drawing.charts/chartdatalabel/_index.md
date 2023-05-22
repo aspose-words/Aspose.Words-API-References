@@ -1,9 +1,10 @@
 ---
-title: ChartDataLabel
+title: Aspose::Words::Drawing::Charts::ChartDataLabel class
+linktitle: ChartDataLabel
 second_title: Aspose.Words for C++ API Reference
-description: Represents data label on a chart point or trendline. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Drawing::Charts::ChartDataLabel class. Represents data label on a chart point or trendline. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.drawing.charts/chartdatalabel/
 ---
 ## ChartDataLabel class
@@ -126,4 +127,4 @@ static void ApplyDataLabels(SharedPtr<ChartSeries> series, int labelsCount, Stri
 ## See Also
 
 * Namespace [Aspose::Words::Drawing::Charts](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

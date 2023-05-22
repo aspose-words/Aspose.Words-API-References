@@ -1,9 +1,10 @@
 ---
-title: RemoveSelfOnly
+title: Aspose::Words::Markup::StructuredDocumentTagRangeStart::RemoveSelfOnly method
+linktitle: RemoveSelfOnly
 second_title: Aspose.Words for C++ API Reference
-description: Removes this range start and appropriate range end nodes of the structured document tag, but keeps its content inside the document tree.
+description: 'Aspose::Words::Markup::StructuredDocumentTagRangeStart::RemoveSelfOnly method. Removes this range start and appropriate range end nodes of the structured document tag, but keeps its content inside the document tree in C++.'
 type: docs
-weight: 339
+weight: 27000
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/removeselfonly/
 ---
 ## StructuredDocumentTagRangeStart::RemoveSelfOnly method
@@ -35,10 +36,10 @@ void SdtRangeExtendedMethods()
     // Removes ranged structured document tag, but keeps content inside.
     rangeStart->RemoveSelfOnly();
 
-    rangeStart = System::DynamicCast<StructuredDocumentTagRangeStart>(doc->GetChild(NodeType::StructuredDocumentTagRangeStart, 0, false));
+    rangeStart = System::ExplicitCast<StructuredDocumentTagRangeStart>(doc->GetChild(NodeType::StructuredDocumentTagRangeStart, 0, false));
     ASPOSE_ASSERT_EQ(nullptr, rangeStart);
 
-    auto rangeEnd = System::DynamicCast<StructuredDocumentTagRangeEnd>(doc->GetChild(NodeType::StructuredDocumentTagRangeEnd, 0, false));
+    auto rangeEnd = System::ExplicitCast<StructuredDocumentTagRangeEnd>(doc->GetChild(NodeType::StructuredDocumentTagRangeEnd, 0, false));
 
     ASPOSE_ASSERT_EQ(nullptr, rangeEnd);
     ASSERT_EQ(u"StructuredDocumentTag element", doc->GetText().Trim());
@@ -70,4 +71,4 @@ void InsertStructuredDocumentTagRanges(SharedPtr<Document> doc, SharedPtr<Struct
 
 * Class [StructuredDocumentTagRangeStart](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

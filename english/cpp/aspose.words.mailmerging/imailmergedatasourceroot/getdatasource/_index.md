@@ -1,9 +1,10 @@
 ---
-title: GetDataSource
+title: Aspose::Words::MailMerging::IMailMergeDataSourceRoot::GetDataSource method
+linktitle: GetDataSource
 second_title: Aspose.Words for C++ API Reference
-description: The Aspose.Words mail merge engine invokes this method when it encounters a beginning of a top-level mail merge region.
+description: 'Aspose::Words::MailMerging::IMailMergeDataSourceRoot::GetDataSource method. The Aspose.Words mail merge engine invokes this method when it encounters a beginning of a top-level mail merge region in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.mailmerging/imailmergedatasourceroot/getdatasource/
 ---
 ## IMailMergeDataSourceRoot::GetDataSource method
@@ -202,4 +203,4 @@ private:
 * Interface [IMailMergeDataSource](../../imailmergedatasource/)
 * Interface [IMailMergeDataSourceRoot](../)
 * Namespace [Aspose::Words::MailMerging](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

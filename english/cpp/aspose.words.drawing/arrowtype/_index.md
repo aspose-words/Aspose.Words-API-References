@@ -1,9 +1,10 @@
 ---
-title: ArrowType
+title: Aspose::Words::Drawing::ArrowType enum
+linktitle: ArrowType
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the type of an arrow at a line end.
+description: 'Aspose::Words::Drawing::ArrowType enum. Specifies the type of an arrow at a line end in C++.'
 type: docs
-weight: 222
+weight: 18000
 url: /cpp/aspose.words.drawing/arrowtype/
 ---
 ## ArrowType enum
@@ -104,4 +105,4 @@ doc->Save(ArtifactsDir + u"Drawing.VariousShapes.docx");
 ## See Also
 
 * Namespace [Aspose::Words::Drawing](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

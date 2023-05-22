@@ -1,9 +1,10 @@
 ---
-title: get_UseWord97LineBreakRules
+title: Aspose::Words::Settings::CompatibilityOptions::get_UseWord97LineBreakRules method
+linktitle: get_UseWord97LineBreakRules
 second_title: Aspose.Words for C++ API Reference
-description: Emulate Word 97 East Asian Line Breaking.
+description: 'Aspose::Words::Settings::CompatibilityOptions::get_UseWord97LineBreakRules method. Emulate Word 97 East Asian Line Breaking in C++.'
 type: docs
-weight: 885
+weight: 69000
 url: /cpp/aspose.words.settings/compatibilityoptions/get_useword97linebreakrules/
 ---
 ## CompatibilityOptions::get_UseWord97LineBreakRules method
@@ -19,4 +20,4 @@ bool Aspose::Words::Settings::CompatibilityOptions::get_UseWord97LineBreakRules(
 
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

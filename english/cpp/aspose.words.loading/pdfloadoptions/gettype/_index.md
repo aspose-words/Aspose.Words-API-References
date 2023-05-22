@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Loading::PdfLoadOptions::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Loading::PdfLoadOptions class in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.loading/pdfloadoptions/gettype/
 ---
 ## PdfLoadOptions::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Loading::PdfLoadOptions::GetType
 
 * Class [PdfLoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

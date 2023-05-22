@@ -1,9 +1,10 @@
 ---
-title: set_PrinterInstructions
+title: Aspose::Words::Fields::FieldPrint::set_PrinterInstructions method
+linktitle: set_PrinterInstructions
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fields::FieldPrint::get_PrinterInstructions.'
+description: 'Aspose::Words::Fields::FieldPrint::set_PrinterInstructions method. Setter for Aspose::Words::Fields::FieldPrint::get_PrinterInstructions in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.fields/fieldprint/set_printerinstructions/
 ---
 ## FieldPrint::set_PrinterInstructions method
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldPrint::set_PrinterInstructions(const System::St
 
 * Class [FieldPrint](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

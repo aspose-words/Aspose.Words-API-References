@@ -1,9 +1,10 @@
 ---
-title: RemoveNumbers
+title: Aspose::Words::Lists::ListFormat::RemoveNumbers method
+linktitle: RemoveNumbers
 second_title: Aspose.Words for C++ API Reference
-description: Removes numbers or bullets from the current paragraph and sets list level to zero.
+description: 'Aspose::Words::Lists::ListFormat::RemoveNumbers method. Removes numbers or bullets from the current paragraph and sets list level to zero in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words.lists/listformat/removenumbers/
 ---
 ## ListFormat::RemoveNumbers method
@@ -117,18 +118,18 @@ builder->get_ListFormat()->RemoveNumbers();
 
 SharedPtr<NodeCollection> paras = doc->GetChildNodes(NodeType::Paragraph, true);
 
-ASSERT_EQ(3, paras->LINQ_Count([](SharedPtr<Node> n) { return System::DynamicCast<Paragraph>(n)->get_ListFormat()->get_IsListItem(); }));
+ASSERT_EQ(3, paras->LINQ_Count([](SharedPtr<Node> n) { return System::ExplicitCast<Paragraph>(n)->get_ListFormat()->get_IsListItem(); }));
 
 for (const auto& paragraph : System::IterateOver<Paragraph>(paras))
 {
     paragraph->get_ListFormat()->RemoveNumbers();
 }
 
-ASSERT_EQ(0, paras->LINQ_Count([](SharedPtr<Node> n) { return System::DynamicCast<Paragraph>(n)->get_ListFormat()->get_IsListItem(); }));
+ASSERT_EQ(0, paras->LINQ_Count([](SharedPtr<Node> n) { return System::ExplicitCast<Paragraph>(n)->get_ListFormat()->get_IsListItem(); }));
 ```
 
 ## See Also
 
 * Class [ListFormat](../)
 * Namespace [Aspose::Words::Lists](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

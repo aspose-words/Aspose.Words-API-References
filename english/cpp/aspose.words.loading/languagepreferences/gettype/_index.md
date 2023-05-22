@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Loading::LanguagePreferences::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Loading::LanguagePreferences class in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.loading/languagepreferences/gettype/
 ---
 ## LanguagePreferences::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Loading::LanguagePreferences::Ge
 
 * Class [LanguagePreferences](../)
 * Namespace [Aspose::Words::Loading](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

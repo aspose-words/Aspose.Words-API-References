@@ -1,9 +1,10 @@
 ---
-title: set_TopMargin
+title: Aspose::Words::PageSetup::set_TopMargin method
+linktitle: set_TopMargin
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::PageSetup::get_TopMargin.'
+description: 'Aspose::Words::PageSetup::set_TopMargin method. Setter for Aspose::Words::PageSetup::get_TopMargin in C++.'
 type: docs
-weight: 1145
+weight: 89000
 url: /cpp/aspose.words/pagesetup/set_topmargin/
 ---
 ## PageSetup::set_TopMargin method
@@ -19,4 +20,4 @@ void Aspose::Words::PageSetup::set_TopMargin(double value)
 
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

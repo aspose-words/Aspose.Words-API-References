@@ -1,9 +1,10 @@
 ---
-title: get_LockContents
+title: Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_LockContents method
+linktitle: get_LockContents
 second_title: Aspose.Words for C++ API Reference
-description: When set to true, this property will prohibit a user from editing the contents of this structured document tag.
+description: 'Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_LockContents method. When set to true, this property will prohibit a user from editing the contents of this structured document tag in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/get_lockcontents/
 ---
 ## StructuredDocumentTagRangeStart::get_LockContents method
@@ -25,9 +26,9 @@ Shows how to get the properties of multi-section structured document tags.
 auto doc = MakeObject<Document>(MyDir + u"Multi-section structured document tags.docx");
 
 auto rangeStartTag =
-    System::DynamicCast_noexcept<StructuredDocumentTagRangeStart>(doc->GetChildNodes(NodeType::StructuredDocumentTagRangeStart, true)->idx_get(0));
+    System::AsCast<StructuredDocumentTagRangeStart>(doc->GetChildNodes(NodeType::StructuredDocumentTagRangeStart, true)->idx_get(0));
 auto rangeEndTag =
-    System::DynamicCast_noexcept<StructuredDocumentTagRangeEnd>(doc->GetChildNodes(NodeType::StructuredDocumentTagRangeEnd, true)->idx_get(0));
+    System::AsCast<StructuredDocumentTagRangeEnd>(doc->GetChildNodes(NodeType::StructuredDocumentTagRangeEnd, true)->idx_get(0));
 
 std::cout << "StructuredDocumentTagRangeStart values:" << std::endl;
 std::cout << "\t|Id: " << rangeStartTag->get_Id() << std::endl;
@@ -52,4 +53,4 @@ std::cout << String::Format(u"\t|NodeType: {0}", rangeEndTag->get_NodeType()) <<
 
 * Class [StructuredDocumentTagRangeStart](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

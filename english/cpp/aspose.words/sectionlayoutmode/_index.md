@@ -1,9 +1,10 @@
 ---
-title: SectionLayoutMode
+title: Aspose::Words::SectionLayoutMode enum
+linktitle: SectionLayoutMode
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the layout mode for a section allowing to define the document grid behavior.
+description: 'Aspose::Words::SectionLayoutMode enum. Specifies the layout mode for a section allowing to define the document grid behavior in C++.'
 type: docs
-weight: 1483
+weight: 115000
 url: /cpp/aspose.words/sectionlayoutmode/
 ---
 ## SectionLayoutMode enum
@@ -72,4 +73,4 @@ doc->Save(ArtifactsDir + u"PageSetup.LinesPerPage.docx");
 ## See Also
 
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

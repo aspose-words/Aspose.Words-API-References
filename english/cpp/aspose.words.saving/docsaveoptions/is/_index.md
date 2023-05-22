@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Saving::DocSaveOptions::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Saving::DocSaveOptions class in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.saving/docsaveoptions/is/
 ---
 ## DocSaveOptions::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Saving::DocSaveOptions::Is(const System::TypeInfo &t
 
 * Class [DocSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

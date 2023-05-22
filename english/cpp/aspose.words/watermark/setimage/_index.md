@@ -1,9 +1,10 @@
 ---
-title: SetImage
+title: Aspose::Words::Watermark::SetImage method
+linktitle: SetImage
 second_title: Aspose.Words for C++ API Reference
-description: Adds Image watermark into the document.
+description: 'Aspose::Words::Watermark::SetImage method. Adds Image watermark into the document in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words/watermark/setimage/
 ---
 ## Watermark::SetImage(const System::SharedPtr\<System::Drawing::Image\>\&) method
@@ -24,7 +25,7 @@ void Aspose::Words::Watermark::SetImage(const System::SharedPtr<System::Drawing:
 
 * Class [Watermark](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## Watermark::SetImage(const System::SharedPtr\<System::Drawing::Image\>\&, const System::SharedPtr\<Aspose::Words::ImageWatermarkOptions\>\&) method
 
 
@@ -64,7 +65,7 @@ doc->Save(ArtifactsDir + u"Document.ImageWatermark.docx");
 * Class [ImageWatermarkOptions](../../imagewatermarkoptions/)
 * Class [Watermark](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## Watermark::SetImage(const System::String\&, const System::SharedPtr\<Aspose::Words::ImageWatermarkOptions\>\&) method
 
 
@@ -85,4 +86,4 @@ void Aspose::Words::Watermark::SetImage(const System::String &imagePath, const S
 * Class [ImageWatermarkOptions](../../imagewatermarkoptions/)
 * Class [Watermark](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

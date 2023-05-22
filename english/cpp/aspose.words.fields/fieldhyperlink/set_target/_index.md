@@ -1,15 +1,16 @@
 ---
-title: set_Target
+title: Aspose::Words::Fields::FieldHyperlink::set_Target method
+linktitle: set_Target
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fields::FieldHyperlink::get_Target.'
+description: 'Aspose::Words::Fields::FieldHyperlink::set_Target method. Sets the target to which the link should be redirected in C++.'
 type: docs
-weight: 183
+weight: 15000
 url: /cpp/aspose.words.fields/fieldhyperlink/set_target/
 ---
 ## FieldHyperlink::set_Target method
 
 
-Setter for [Aspose::Words::Fields::FieldHyperlink::get_Target](../get_target/).
+Sets the target to which the link should be redirected.
 
 ```cpp
 void Aspose::Words::Fields::FieldHyperlink::set_Target(const System::String &value)
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldHyperlink::set_Target(const System::String &val
 
 * Class [FieldHyperlink](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

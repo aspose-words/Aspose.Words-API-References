@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Math::OfficeMath::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Math::OfficeMath class in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words.math/officemath/is/
 ---
 ## OfficeMath::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Math::OfficeMath::Is(const System::TypeInfo &target)
 
 * Class [OfficeMath](../)
 * Namespace [Aspose::Words::Math](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

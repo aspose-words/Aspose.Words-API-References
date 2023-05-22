@@ -1,9 +1,10 @@
 ---
-title: DocSaveOptions
+title: Aspose::Words::Saving::DocSaveOptions::DocSaveOptions constructor
+linktitle: DocSaveOptions
 second_title: Aspose.Words for C++ API Reference
-description: Initializes a new instance of this class that can be used to save a document in the Doc format.
+description: 'Aspose::Words::Saving::DocSaveOptions::DocSaveOptions constructor. Initializes a new instance of this class that can be used to save a document in the Doc format in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.saving/docsaveoptions/docsaveoptions/
 ---
 ## DocSaveOptions::DocSaveOptions() constructor
@@ -51,7 +52,7 @@ ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
 
 * Class [DocSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## DocSaveOptions::DocSaveOptions(Aspose::Words::SaveFormat) constructor
 
 
@@ -102,4 +103,4 @@ ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
 * Enum [SaveFormat](../../../aspose.words/saveformat/)
 * Class [DocSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

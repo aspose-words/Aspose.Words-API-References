@@ -1,9 +1,10 @@
 ---
-title: Dml3DEffectsRenderingMode
+title: Aspose::Words::Saving::Dml3DEffectsRenderingMode enum
+linktitle: Dml3DEffectsRenderingMode
 second_title: Aspose.Words for C++ API Reference
-description: Specifies how 3D shape effects are rendered.
+description: 'Aspose::Words::Saving::Dml3DEffectsRenderingMode enum. Specifies how 3D shape effects are rendered in C++.'
 type: docs
-weight: 625
+weight: 49000
 url: /cpp/aspose.words.saving/dml3deffectsrenderingmode/
 ---
 ## Dml3DEffectsRenderingMode enum
@@ -25,4 +26,4 @@ enum class Dml3DEffectsRenderingMode
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

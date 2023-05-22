@@ -1,9 +1,10 @@
 ---
-title: Notify
+title: Aspose::Words::Saving::IDocumentSavingCallback::Notify method
+linktitle: Notify
 second_title: Aspose.Words for C++ API Reference
-description: This is called to notify of document saving progress.
+description: 'Aspose::Words::Saving::IDocumentSavingCallback::Notify method. This is called to notify of document saving progress in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.saving/idocumentsavingcallback/notify/
 ---
 ## IDocumentSavingCallback::Notify method
@@ -31,4 +32,4 @@ An exception should be threw from the progress callback for abortion and it shou
 * Class [DocumentSavingArgs](../../documentsavingargs/)
 * Interface [IDocumentSavingCallback](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

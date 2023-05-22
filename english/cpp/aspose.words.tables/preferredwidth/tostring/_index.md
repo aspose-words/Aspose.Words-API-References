@@ -1,9 +1,10 @@
 ---
-title: ToString
+title: Aspose::Words::Tables::PreferredWidth::ToString method
+linktitle: ToString
 second_title: Aspose.Words for C++ API Reference
-description: Returns a user-friendly string that displays the value of this object.
+description: 'Aspose::Words::Tables::PreferredWidth::ToString method. Returns a user-friendly string that displays the value of this object in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words.tables/preferredwidth/tostring/
 ---
 ## PreferredWidth::ToString method
@@ -58,4 +59,4 @@ doc->Save(ArtifactsDir + u"DocumentBuilder.InsertCellsWithPreferredWidths.docx")
 
 * Class [PreferredWidth](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

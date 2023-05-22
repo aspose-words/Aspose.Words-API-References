@@ -1,9 +1,10 @@
 ---
-title: UpdateWordCount
+title: Aspose::Words::Document::UpdateWordCount method
+linktitle: UpdateWordCount
 second_title: Aspose.Words for C++ API Reference
-description: Updates word count properties of the document.
+description: 'Aspose::Words::Document::UpdateWordCount method. Updates word count properties of the document in C++.'
 type: docs
-weight: 1301
+weight: 101000
 url: /cpp/aspose.words/document/updatewordcount/
 ---
 ## Document::UpdateWordCount() method
@@ -62,7 +63,7 @@ ASSERT_EQ(4, doc->get_BuiltInDocumentProperties()->get_Lines());
 
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## Document::UpdateWordCount(bool) method
 
 
@@ -115,4 +116,4 @@ ASSERT_EQ(4, doc->get_BuiltInDocumentProperties()->get_Lines());
 
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: DefaultTextInputChar
+title: Aspose::Words::ControlChar::DefaultTextInputChar field
+linktitle: DefaultTextInputChar
 second_title: Aspose.Words for C++ API Reference
-description: This is the "o" character used as a default value in text input form fields.
+description: 'Aspose::Words::ControlChar::DefaultTextInputChar field. This is the "o" character used as a default value in text input form fields in C++.'
 type: docs
-weight: 196
+weight: 16000
 url: /cpp/aspose.words/controlchar/defaulttextinputchar/
 ---
 ## DefaultTextInputChar field
@@ -90,4 +91,4 @@ ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::ColumnBreak()), ControlCha
 
 * Class [ControlChar](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

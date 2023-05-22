@@ -1,9 +1,10 @@
 ---
-title: set_Title
+title: Aspose::Words::Properties::BuiltInDocumentProperties::set_Title method
+linktitle: set_Title
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Properties::BuiltInDocumentProperties::get_Title.'
+description: 'Aspose::Words::Properties::BuiltInDocumentProperties::set_Title method. Setter for Aspose::Words::Properties::BuiltInDocumentProperties::get_Title in C++.'
 type: docs
-weight: 820
+weight: 64000
 url: /cpp/aspose.words.properties/builtindocumentproperties/set_title/
 ---
 ## BuiltInDocumentProperties::set_Title method
@@ -19,4 +20,4 @@ void Aspose::Words::Properties::BuiltInDocumentProperties::set_Title(const Syste
 
 * Class [BuiltInDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

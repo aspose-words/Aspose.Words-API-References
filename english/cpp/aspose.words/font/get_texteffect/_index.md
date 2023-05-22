@@ -1,9 +1,10 @@
 ---
-title: get_TextEffect
+title: Aspose::Words::Font::get_TextEffect method
+linktitle: get_TextEffect
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the font animation effect.
+description: 'Aspose::Words::Font::get_TextEffect method. Gets or sets the font animation effect in C++.'
 type: docs
-weight: 599
+weight: 47000
 url: /cpp/aspose.words/font/get_texteffect/
 ---
 ## Font::get_TextEffect method
@@ -39,4 +40,4 @@ doc->Save(ArtifactsDir + u"Font.SparklingText.doc");
 * Enum [TextEffect](../../texteffect/)
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

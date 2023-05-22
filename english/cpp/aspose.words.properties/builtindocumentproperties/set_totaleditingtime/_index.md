@@ -1,9 +1,10 @@
 ---
-title: set_TotalEditingTime
+title: Aspose::Words::Properties::BuiltInDocumentProperties::set_TotalEditingTime method
+linktitle: set_TotalEditingTime
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Properties::BuiltInDocumentProperties::get_TotalEditingTime.'
+description: 'Aspose::Words::Properties::BuiltInDocumentProperties::set_TotalEditingTime method. Setter for Aspose::Words::Properties::BuiltInDocumentProperties::get_TotalEditingTime in C++.'
 type: docs
-weight: 846
+weight: 66000
 url: /cpp/aspose.words.properties/builtindocumentproperties/set_totaleditingtime/
 ---
 ## BuiltInDocumentProperties::set_TotalEditingTime method
@@ -19,4 +20,4 @@ void Aspose::Words::Properties::BuiltInDocumentProperties::set_TotalEditingTime(
 
 * Class [BuiltInDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

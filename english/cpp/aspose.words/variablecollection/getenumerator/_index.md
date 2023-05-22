@@ -1,9 +1,10 @@
 ---
-title: GetEnumerator
+title: Aspose::Words::VariableCollection::GetEnumerator method
+linktitle: GetEnumerator
 second_title: Aspose.Words for C++ API Reference
-description: Returns an enumerator object that can be used to iterate over all variable in the collection.
+description: 'Aspose::Words::VariableCollection::GetEnumerator method. Returns an enumerator object that can be used to iterate over all variable in the collection in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words/variablecollection/getenumerator/
 ---
 ## VariableCollection::GetEnumerator method
@@ -34,7 +35,7 @@ ASSERT_EQ(3, variables->get_Count());
 
 // We can display the values of variables in the document body using DOCVARIABLE fields.
 auto builder = MakeObject<DocumentBuilder>(doc);
-auto field = System::DynamicCast<FieldDocVariable>(builder->InsertField(FieldType::FieldDocVariable, true));
+auto field = System::ExplicitCast<FieldDocVariable>(builder->InsertField(FieldType::FieldDocVariable, true));
 field->set_VariableName(u"Home address");
 field->Update();
 
@@ -90,4 +91,4 @@ ASSERT_EQ(0, variables->get_Count());
 
 * Class [VariableCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

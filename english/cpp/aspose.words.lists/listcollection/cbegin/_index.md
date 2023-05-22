@@ -1,9 +1,10 @@
 ---
-title: cbegin
+title: Aspose::Words::Lists::ListCollection::cbegin method
+linktitle: cbegin
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use cbegin method of Aspose::Words::Lists::ListCollection class in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.lists/listcollection/cbegin/
 ---
 ## ListCollection::cbegin method
@@ -20,4 +21,4 @@ const_iterator Aspose::Words::Lists::ListCollection::cbegin() const noexcept
 * Typedef [const_iterator](../const_iterator/)
 * Class [ListCollection](../)
 * Namespace [Aspose::Words::Lists](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

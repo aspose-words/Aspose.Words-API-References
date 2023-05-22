@@ -1,9 +1,10 @@
 ---
-title: get_BorderDistanceFrom
+title: Aspose::Words::PageSetup::get_BorderDistanceFrom method
+linktitle: get_BorderDistanceFrom
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets a value that indicates whether the specified page border is measured from the edge of the page or from the text it surrounds.
+description: 'Aspose::Words::PageSetup::get_BorderDistanceFrom method. Gets or sets a value that indicates whether the specified page border is measured from the edge of the page or from the text it surrounds in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words/pagesetup/get_borderdistancefrom/
 ---
 ## PageSetup::get_BorderDistanceFrom method
@@ -43,4 +44,4 @@ doc->Save(ArtifactsDir + u"PageSetup.PageBorderProperties.docx");
 * Enum [PageBorderDistanceFrom](../../pageborderdistancefrom/)
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: VisitStructuredDocumentTagRangeEnd
+title: Aspose::Words::DocumentVisitor::VisitStructuredDocumentTagRangeEnd method
+linktitle: VisitStructuredDocumentTagRangeEnd
 second_title: Aspose.Words for C++ API Reference
-description: Called when a StructuredDocumentTagRangeEnd is encountered.
+description: 'Aspose::Words::DocumentVisitor::VisitStructuredDocumentTagRangeEnd method. Called when a StructuredDocumentTagRangeEnd is encountered in C++.'
 type: docs
-weight: 612
+weight: 48000
 url: /cpp/aspose.words/documentvisitor/visitstructureddocumenttagrangeend/
 ---
 ## DocumentVisitor::VisitStructuredDocumentTagRangeEnd method
@@ -21,4 +22,4 @@ virtual Aspose::Words::VisitorAction Aspose::Words::DocumentVisitor::VisitStruct
 * Class [StructuredDocumentTagRangeEnd](../../../aspose.words.markup/structureddocumenttagrangeend/)
 * Class [DocumentVisitor](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

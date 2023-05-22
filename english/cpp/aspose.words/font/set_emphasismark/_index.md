@@ -1,9 +1,10 @@
 ---
-title: set_EmphasisMark
+title: Aspose::Words::Font::set_EmphasisMark method
+linktitle: set_EmphasisMark
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Font::get_EmphasisMark.'
+description: 'Aspose::Words::Font::set_EmphasisMark method. Setter for Aspose::Words::Font::get_EmphasisMark in C++.'
 type: docs
-weight: 872
+weight: 68000
 url: /cpp/aspose.words/font/set_emphasismark/
 ---
 ## Font::set_EmphasisMark method
@@ -20,4 +21,4 @@ void Aspose::Words::Font::set_EmphasisMark(Aspose::Words::EmphasisMark value)
 * Enum [EmphasisMark](../../emphasismark/)
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

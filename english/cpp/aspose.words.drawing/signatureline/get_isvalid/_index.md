@@ -1,9 +1,10 @@
 ---
-title: get_IsValid
+title: Aspose::Words::Drawing::SignatureLine::get_IsValid method
+linktitle: get_IsValid
 second_title: Aspose.Words for C++ API Reference
-description: Indicates that signature line is signed by digital signature and this digital signature is valid.
+description: 'Aspose::Words::Drawing::SignatureLine::get_IsValid method. Indicates that signature line is signed by digital signature and this digital signature is valid in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.drawing/signatureline/get_isvalid/
 ---
 ## SignatureLine::get_IsValid method
@@ -56,7 +57,7 @@ DigitalSignatureUtil::Sign(ArtifactsDir + u"DocumentBuilder.SignatureLineProvide
 // Re-open our saved document, and verify that the "IsSigned" and "IsValid" properties both equal "true",
 // indicating that the signature line contains a signature.
 doc = MakeObject<Document>(ArtifactsDir + u"DocumentBuilder.SignatureLineProviderId.Signed.docx");
-auto shape = System::DynamicCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
+auto shape = System::ExplicitCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
 signatureLine = shape->get_SignatureLine();
 
 ASSERT_TRUE(signatureLine->get_IsSigned());
@@ -67,4 +68,4 @@ ASSERT_TRUE(signatureLine->get_IsValid());
 
 * Class [SignatureLine](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

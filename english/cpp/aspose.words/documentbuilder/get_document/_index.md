@@ -1,9 +1,10 @@
 ---
-title: get_Document
+title: Aspose::Words::DocumentBuilder::get_Document method
+linktitle: get_Document
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the Document object that this object is attached to.
+description: 'Aspose::Words::DocumentBuilder::get_Document method. Gets or sets the Document object that this object is attached to in C++.'
 type: docs
-weight: 196
+weight: 16000
 url: /cpp/aspose.words/documentbuilder/get_document/
 ---
 ## DocumentBuilder::get_Document method
@@ -53,4 +54,4 @@ doc->Save(ArtifactsDir + u"PageSetup.ClearFormatting.docx");
 * Class [Document](../../document/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

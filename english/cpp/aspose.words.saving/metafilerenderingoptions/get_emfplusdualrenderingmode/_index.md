@@ -1,9 +1,10 @@
 ---
-title: get_EmfPlusDualRenderingMode
+title: Aspose::Words::Saving::MetafileRenderingOptions::get_EmfPlusDualRenderingMode method
+linktitle: get_EmfPlusDualRenderingMode
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets a value determining how EMF+ Dual metafiles should be rendered.
+description: 'Aspose::Words::Saving::MetafileRenderingOptions::get_EmfPlusDualRenderingMode method. Gets or sets a value determining how EMF+ Dual metafiles should be rendered in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.saving/metafilerenderingoptions/get_emfplusdualrenderingmode/
 ---
 ## MetafileRenderingOptions::get_EmfPlusDualRenderingMode method
@@ -57,4 +58,4 @@ doc->Save(ArtifactsDir + u"PdfSaveOptions.RenderMetafile.pdf", saveOptions);
 * Enum [EmfPlusDualRenderingMode](../../emfplusdualrenderingmode/)
 * Class [MetafileRenderingOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

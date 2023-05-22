@@ -1,9 +1,10 @@
 ---
-title: get_Resolution
+title: Aspose::Words::Saving::DownsampleOptions::get_Resolution method
+linktitle: get_Resolution
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the resolution in pixels per inch which the images should be downsampled to.
+description: 'Aspose::Words::Saving::DownsampleOptions::get_Resolution method. Specifies the resolution in pixels per inch which the images should be downsampled to in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.saving/downsampleoptions/get_resolution/
 ---
 ## DownsampleOptions::get_Resolution method
@@ -50,4 +51,4 @@ doc->Save(ArtifactsDir + u"PdfSaveOptions.DownsampleOptions.LowerResolution.pdf"
 
 * Class [DownsampleOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

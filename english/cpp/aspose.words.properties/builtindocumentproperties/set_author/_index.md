@@ -1,9 +1,10 @@
 ---
-title: set_Author
+title: Aspose::Words::Properties::BuiltInDocumentProperties::set_Author method
+linktitle: set_Author
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Properties::BuiltInDocumentProperties::get_Author.'
+description: 'Aspose::Words::Properties::BuiltInDocumentProperties::set_Author method. Setter for Aspose::Words::Properties::BuiltInDocumentProperties::get_Author in C++.'
 type: docs
-weight: 469
+weight: 37000
 url: /cpp/aspose.words.properties/builtindocumentproperties/set_author/
 ---
 ## BuiltInDocumentProperties::set_Author method
@@ -19,4 +20,4 @@ void Aspose::Words::Properties::BuiltInDocumentProperties::set_Author(const Syst
 
 * Class [BuiltInDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

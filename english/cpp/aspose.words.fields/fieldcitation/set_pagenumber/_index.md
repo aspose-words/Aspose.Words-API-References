@@ -1,15 +1,16 @@
 ---
-title: set_PageNumber
+title: Aspose::Words::Fields::FieldCitation::set_PageNumber method
+linktitle: set_PageNumber
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fields::FieldCitation::get_PageNumber.'
+description: 'Aspose::Words::Fields::FieldCitation::set_PageNumber method. Sets a page number associated with the citation in C++.'
 type: docs
-weight: 196
+weight: 16000
 url: /cpp/aspose.words.fields/fieldcitation/set_pagenumber/
 ---
 ## FieldCitation::set_PageNumber method
 
 
-Setter for [Aspose::Words::Fields::FieldCitation::get_PageNumber](../get_pagenumber/).
+Sets a page number associated with the citation.
 
 ```cpp
 void Aspose::Words::Fields::FieldCitation::set_PageNumber(const System::String &value)
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldCitation::set_PageNumber(const System::String &
 
 * Class [FieldCitation](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

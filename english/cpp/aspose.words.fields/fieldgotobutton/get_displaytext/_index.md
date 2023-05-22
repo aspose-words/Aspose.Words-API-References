@@ -1,9 +1,10 @@
 ---
-title: get_DisplayText
+title: Aspose::Words::Fields::FieldGoToButton::get_DisplayText method
+linktitle: get_DisplayText
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the text of the "button" that appears in the document, such that it can be selected to activate the jump.
+description: 'Aspose::Words::Fields::FieldGoToButton::get_DisplayText method. Gets or sets the text of the "button" that appears in the document, such that it can be selected to activate the jump in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fields/fieldgotobutton/get_displaytext/
 ---
 ## FieldGoToButton::get_DisplayText method
@@ -27,7 +28,7 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 
 // Add a GOTOBUTTON field. When we double-click this field in Microsoft Word,
 // it will take the text cursor to the bookmark whose name the Location property references.
-auto field = System::DynamicCast<FieldGoToButton>(builder->InsertField(FieldType::FieldGoToButton, true));
+auto field = System::ExplicitCast<FieldGoToButton>(builder->InsertField(FieldType::FieldGoToButton, true));
 field->set_DisplayText(u"My Button");
 field->set_Location(u"MyBookmark");
 
@@ -47,4 +48,4 @@ doc->Save(ArtifactsDir + u"Field.GOTOBUTTON.docx");
 
 * Class [FieldGoToButton](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

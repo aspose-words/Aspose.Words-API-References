@@ -1,9 +1,10 @@
 ---
-title: set_WPJustification
+title: Aspose::Words::Settings::CompatibilityOptions::set_WPJustification method
+linktitle: set_WPJustification
 second_title: Aspose.Words for C++ API Reference
-description: Emulate WordPerfect 6.x Paragraph Justification.
+description: 'Aspose::Words::Settings::CompatibilityOptions::set_WPJustification method. Emulate WordPerfect 6.x Paragraph Justification in C++.'
 type: docs
-weight: 1860
+weight: 144000
 url: /cpp/aspose.words.settings/compatibilityoptions/set_wpjustification/
 ---
 ## CompatibilityOptions::set_WPJustification method
@@ -19,4 +20,4 @@ void Aspose::Words::Settings::CompatibilityOptions::set_WPJustification(bool val
 
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

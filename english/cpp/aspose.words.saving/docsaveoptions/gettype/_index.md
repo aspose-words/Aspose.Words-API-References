@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Saving::DocSaveOptions::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Saving::DocSaveOptions class in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.saving/docsaveoptions/gettype/
 ---
 ## DocSaveOptions::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Saving::DocSaveOptions::GetType(
 
 * Class [DocSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: RemoveChild
+title: Aspose::Words::CompositeNode::RemoveChild method
+linktitle: RemoveChild
 second_title: Aspose.Words for C++ API Reference
-description: Removes the specified child node.
+description: 'Aspose::Words::CompositeNode::RemoveChild method. Removes the specified child node in C++.'
 type: docs
-weight: 248
+weight: 20000
 url: /cpp/aspose.words/compositenode/removechild/
 ---
 ## CompositeNode::RemoveChild method
@@ -42,8 +43,8 @@ builder->InsertBreak(BreakType::SectionBreakContinuous);
 builder->Writeln(u"Section 2 text.");
 
 // Both sections are siblings of each other.
-auto lastSection = System::DynamicCast<Section>(doc->get_LastChild());
-auto firstSection = System::DynamicCast<Section>(lastSection->get_PreviousSibling());
+auto lastSection = System::ExplicitCast<Section>(doc->get_LastChild());
+auto firstSection = System::ExplicitCast<Section>(lastSection->get_PreviousSibling());
 
 // Remove a section based on its sibling relationship with another section.
 if (lastSection->get_PreviousSibling() != nullptr)
@@ -60,4 +61,4 @@ ASSERT_EQ(u"Section 2 text.", doc->GetText().Trim());
 * Class [Node](../../node/)
 * Class [CompositeNode](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: set_IsUSPostalAddress
+title: Aspose::Words::Fields::BarcodeParameters::set_IsUSPostalAddress method
+linktitle: set_IsUSPostalAddress
 second_title: Aspose.Words for C++ API Reference
-description: Whether PostalAddress is a U.S. postal address.
+description: 'Aspose::Words::Fields::BarcodeParameters::set_IsUSPostalAddress method. Whether PostalAddress is a U.S. postal address in C++.'
 type: docs
-weight: 417
+weight: 33000
 url: /cpp/aspose.words.fields/barcodeparameters/set_isuspostaladdress/
 ---
 ## BarcodeParameters::set_IsUSPostalAddress method
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::BarcodeParameters::set_IsUSPostalAddress(bool value)
 
 * Class [BarcodeParameters](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

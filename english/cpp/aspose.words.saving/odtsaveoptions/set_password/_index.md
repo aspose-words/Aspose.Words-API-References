@@ -1,9 +1,10 @@
 ---
-title: set_Password
+title: Aspose::Words::Saving::OdtSaveOptions::set_Password method
+linktitle: set_Password
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::OdtSaveOptions::get_Password.'
+description: 'Aspose::Words::Saving::OdtSaveOptions::set_Password method. Setter for Aspose::Words::Saving::OdtSaveOptions::get_Password in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words.saving/odtsaveoptions/set_password/
 ---
 ## OdtSaveOptions::set_Password method
@@ -19,4 +20,4 @@ void Aspose::Words::Saving::OdtSaveOptions::set_Password(const System::String &v
 
 * Class [OdtSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

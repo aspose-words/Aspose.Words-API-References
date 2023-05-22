@@ -1,9 +1,10 @@
 ---
-title: XpsSaveOptions
+title: Aspose::Words::Saving::XpsSaveOptions::XpsSaveOptions constructor
+linktitle: XpsSaveOptions
 second_title: Aspose.Words for C++ API Reference
-description: Initializes a new instance of this class that can be used to save a document in the Xps format.
+description: 'Aspose::Words::Saving::XpsSaveOptions::XpsSaveOptions constructor. Initializes a new instance of this class that can be used to save a document in the Xps format in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.saving/xpssaveoptions/xpssaveoptions/
 ---
 ## XpsSaveOptions::XpsSaveOptions() constructor
@@ -61,7 +62,7 @@ doc->Save(ArtifactsDir + u"XpsSaveOptions.OutlineLevels.xps", saveOptions);
 
 * Class [XpsSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## XpsSaveOptions::XpsSaveOptions(Aspose::Words::SaveFormat) constructor
 
 
@@ -109,4 +110,4 @@ doc->Save(ArtifactsDir + u"XpsSaveOptions.BookFold.xps", xpsOptions);
 * Enum [SaveFormat](../../../aspose.words/saveformat/)
 * Class [XpsSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

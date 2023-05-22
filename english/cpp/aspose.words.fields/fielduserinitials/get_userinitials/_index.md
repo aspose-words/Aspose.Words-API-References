@@ -1,9 +1,10 @@
 ---
-title: get_UserInitials
+title: Aspose::Words::Fields::FieldUserInitials::get_UserInitials method
+linktitle: get_UserInitials
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the current user's initials.
+description: 'Aspose::Words::Fields::FieldUserInitials::get_UserInitials method. Gets or sets the current user''s initials in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fields/fielduserinitials/get_userinitials/
 ---
 ## FieldUserInitials::get_UserInitials method
@@ -32,7 +33,7 @@ doc->get_FieldOptions()->set_CurrentUser(userInformation);
 // Create a USERINITIALS field to display the current user's initials,
 // taken from the UserInformation object we created above.
 auto builder = MakeObject<DocumentBuilder>(doc);
-auto fieldUserInitials = System::DynamicCast<FieldUserInitials>(builder->InsertField(FieldType::FieldUserInitials, true));
+auto fieldUserInitials = System::ExplicitCast<FieldUserInitials>(builder->InsertField(FieldType::FieldUserInitials, true));
 ASSERT_EQ(userInformation->get_Initials(), fieldUserInitials->get_Result());
 
 ASSERT_EQ(u" USERINITIALS ", fieldUserInitials->GetFieldCode());
@@ -56,4 +57,4 @@ doc->Save(ArtifactsDir + u"Field.USERINITIALS.docx");
 
 * Class [FieldUserInitials](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

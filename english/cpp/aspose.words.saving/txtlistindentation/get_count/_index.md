@@ -1,9 +1,10 @@
 ---
-title: get_Count
+title: Aspose::Words::Saving::TxtListIndentation::get_Count method
+linktitle: get_Count
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets how many Character to use as indentation per one list level. The default value is 0, that means no indentation.
+description: 'Aspose::Words::Saving::TxtListIndentation::get_Count method. Gets or sets how many Character to use as indentation per one list level. The default value is 0, that means no indentation in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.saving/txtlistindentation/get_count/
 ---
 ## TxtListIndentation::get_Count method
@@ -56,4 +57,4 @@ ASSERT_EQ(String(u"1. Item 1\r\n") + u"   a. Item 2\r\n" + u"      i. Item 3\r\n
 
 * Class [TxtListIndentation](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

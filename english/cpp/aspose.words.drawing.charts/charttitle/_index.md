@@ -1,9 +1,10 @@
 ---
-title: ChartTitle
+title: Aspose::Words::Drawing::Charts::ChartTitle class
+linktitle: ChartTitle
 second_title: Aspose.Words for C++ API Reference
-description: Provides access to the chart title properties. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Drawing::Charts::ChartTitle class. Provides access to the chart title properties. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 222
+weight: 18000
 url: /cpp/aspose.words.drawing.charts/charttitle/
 ---
 ## ChartTitle class
@@ -59,4 +60,4 @@ doc->Save(ArtifactsDir + u"Charts.ChartTitle.docx");
 ## See Also
 
 * Namespace [Aspose::Words::Drawing::Charts](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

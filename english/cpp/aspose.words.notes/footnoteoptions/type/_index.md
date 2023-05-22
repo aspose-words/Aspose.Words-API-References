@@ -1,9 +1,10 @@
 ---
-title: Type
+title: Aspose::Words::Notes::FootnoteOptions::Type method
+linktitle: Type
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Type method of Aspose::Words::Notes::FootnoteOptions class in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words.notes/footnoteoptions/type/
 ---
 ## FootnoteOptions::Type method
@@ -19,4 +20,4 @@ static const System::TypeInfo & Aspose::Words::Notes::FootnoteOptions::Type()
 
 * Class [FootnoteOptions](../)
 * Namespace [Aspose::Words::Notes](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

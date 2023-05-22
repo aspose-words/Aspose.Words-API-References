@@ -1,9 +1,10 @@
 ---
-title: get_LinkedStyle
+title: Aspose::Words::Lists::ListLevel::get_LinkedStyle method
+linktitle: get_LinkedStyle
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the paragraph style that is linked to this list level.
+description: 'Aspose::Words::Lists::ListLevel::get_LinkedStyle method. Gets or sets the paragraph style that is linked to this list level in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words.lists/listlevel/get_linkedstyle/
 ---
 ## ListLevel::get_LinkedStyle method
@@ -89,4 +90,4 @@ doc->Save(ArtifactsDir + u"Lists.CreateListRestartAfterHigher.docx");
 * Class [Style](../../../aspose.words/style/)
 * Class [ListLevel](../)
 * Namespace [Aspose::Words::Lists](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: ConvertToHorizontallyMergedCells
+title: Aspose::Words::Tables::Table::ConvertToHorizontallyMergedCells method
+linktitle: ConvertToHorizontallyMergedCells
 second_title: Aspose.Words for C++ API Reference
-description: Converts cells horizontally merged by width to cells merged by HorizontalMerge.
+description: 'Aspose::Words::Tables::Table::ConvertToHorizontallyMergedCells method. Converts cells horizontally merged by width to cells merged by HorizontalMerge in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.tables/table/converttohorizontallymergedcells/
 ---
 ## Table::ConvertToHorizontallyMergedCells method
@@ -41,7 +42,7 @@ SharedPtr<Row> row = table->get_Rows()->idx_get(0);
 ASSERT_EQ(5, row->get_Cells()->get_Count());
 auto horizontalMergeIsNone = [](SharedPtr<Node> c)
 {
-    return (System::DynamicCast<Cell>(c))->get_CellFormat()->get_HorizontalMerge() == CellMerge::None;
+    return (System::ExplicitCast<Cell>(c))->get_CellFormat()->get_HorizontalMerge() == CellMerge::None;
 };
 ASSERT_TRUE(row->get_Cells()->LINQ_All(horizontalMergeIsNone));
 
@@ -66,4 +67,4 @@ ASSERT_EQ(CellMerge::None, row->get_Cells()->idx_get(6)->get_CellFormat()->get_H
 
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

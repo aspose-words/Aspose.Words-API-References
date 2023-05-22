@@ -1,9 +1,10 @@
 ---
-title: BorderType
+title: Aspose::Words::BorderType enum
+linktitle: BorderType
 second_title: Aspose.Words for C++ API Reference
-description: Specifies sides of a border. To learn more, visit the  documentation article.
+description: 'Aspose::Words::BorderType enum. Specifies sides of a border. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 1041
+weight: 81000
 url: /cpp/aspose.words/bordertype/
 ---
 ## BorderType enum
@@ -52,4 +53,4 @@ doc->Save(ArtifactsDir + u"Border.ParagraphTopBorder.docx");
 ## See Also
 
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

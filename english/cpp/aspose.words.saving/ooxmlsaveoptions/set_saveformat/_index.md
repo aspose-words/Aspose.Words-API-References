@@ -1,9 +1,10 @@
 ---
-title: set_SaveFormat
+title: Aspose::Words::Saving::OoxmlSaveOptions::set_SaveFormat method
+linktitle: set_SaveFormat
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::OoxmlSaveOptions::get_SaveFormat.'
+description: 'Aspose::Words::Saving::OoxmlSaveOptions::set_SaveFormat method. Setter for Aspose::Words::Saving::OoxmlSaveOptions::get_SaveFormat in C++.'
 type: docs
-weight: 170
+weight: 14000
 url: /cpp/aspose.words.saving/ooxmlsaveoptions/set_saveformat/
 ---
 ## OoxmlSaveOptions::set_SaveFormat method
@@ -20,4 +21,4 @@ void Aspose::Words::Saving::OoxmlSaveOptions::set_SaveFormat(Aspose::Words::Save
 * Enum [SaveFormat](../../../aspose.words/saveformat/)
 * Class [OoxmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

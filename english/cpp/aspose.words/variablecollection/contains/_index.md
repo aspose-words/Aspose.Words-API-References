@@ -1,9 +1,10 @@
 ---
-title: Contains
+title: Aspose::Words::VariableCollection::Contains method
+linktitle: Contains
 second_title: Aspose.Words for C++ API Reference
-description: Determines whether the collection contains a document variable with the given name.
+description: 'Aspose::Words::VariableCollection::Contains method. Determines whether the collection contains a document variable with the given name in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words/variablecollection/contains/
 ---
 ## VariableCollection::Contains method
@@ -42,7 +43,7 @@ ASSERT_EQ(3, variables->get_Count());
 
 // We can display the values of variables in the document body using DOCVARIABLE fields.
 auto builder = MakeObject<DocumentBuilder>(doc);
-auto field = System::DynamicCast<FieldDocVariable>(builder->InsertField(FieldType::FieldDocVariable, true));
+auto field = System::ExplicitCast<FieldDocVariable>(builder->InsertField(FieldType::FieldDocVariable, true));
 field->set_VariableName(u"Home address");
 field->Update();
 
@@ -98,4 +99,4 @@ ASSERT_EQ(0, variables->get_Count());
 
 * Class [VariableCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: set_InsertHeadings
+title: Aspose::Words::Fields::FieldDatabase::set_InsertHeadings method
+linktitle: set_InsertHeadings
 second_title: Aspose.Words for C++ API Reference
-description: Sets whether to insert the field names from the database as column headings in the resulting table.
+description: 'Aspose::Words::Fields::FieldDatabase::set_InsertHeadings method. Sets whether to insert the field names from the database as column headings in the resulting table in C++.'
 type: docs
-weight: 222
+weight: 18000
 url: /cpp/aspose.words.fields/fielddatabase/set_insertheadings/
 ---
 ## FieldDatabase::set_InsertHeadings method
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldDatabase::set_InsertHeadings(bool value)
 
 * Class [FieldDatabase](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

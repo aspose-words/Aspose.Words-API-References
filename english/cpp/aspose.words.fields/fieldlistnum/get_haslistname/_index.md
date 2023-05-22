@@ -1,9 +1,10 @@
 ---
-title: get_HasListName
+title: Aspose::Words::Fields::FieldListNum::get_HasListName method
+linktitle: get_HasListName
 second_title: Aspose.Words for C++ API Reference
-description: Returns a value indicating whether the name of an abstract numbering definition is provided by the field's code.
+description: 'Aspose::Words::Fields::FieldListNum::get_HasListName method. Returns a value indicating whether the name of an abstract numbering definition is provided by the field''s code in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fields/fieldlistnum/get_haslistname/
 ---
 ## FieldListNum::get_HasListName method
@@ -27,7 +28,7 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 
 // LISTNUM fields display a number that increments at each LISTNUM field.
 // These fields also have a variety of options that allow us to use them to emulate numbered lists.
-auto field = System::DynamicCast<FieldListNum>(builder->InsertField(FieldType::FieldListNum, true));
+auto field = System::ExplicitCast<FieldListNum>(builder->InsertField(FieldType::FieldListNum, true));
 
 // Lists start counting at 1 by default, but we can set this number to a different value, such as 0.
 // This field will display "0)".
@@ -56,7 +57,7 @@ builder->Writeln(u"Paragraph 2");
 // We can use the "ListLevel" property to jump to a different list level.
 // If this LISTNUM field stayed on list level 3, it would display "ii)",
 // but, since we have moved it to list level 2, it carries on the count at that level and displays "b)".
-field = System::DynamicCast<FieldListNum>(builder->InsertField(FieldType::FieldListNum, true));
+field = System::ExplicitCast<FieldListNum>(builder->InsertField(FieldType::FieldListNum, true));
 field->set_ListLevel(u"2");
 builder->Writeln(u"Paragraph 3");
 
@@ -66,7 +67,7 @@ ASSERT_EQ(u" LISTNUM  \\l 2", field->GetFieldCode());
 // "NumberDefault" emulates AUTONUM, "OutlineDefault" emulates AUTONUMOUT,
 // and "LegalDefault" emulates AUTONUMLGL fields.
 // The "OutlineDefault" list name with 1 as the starting number will result in displaying "I.".
-field = System::DynamicCast<FieldListNum>(builder->InsertField(FieldType::FieldListNum, true));
+field = System::ExplicitCast<FieldListNum>(builder->InsertField(FieldType::FieldListNum, true));
 field->set_StartingNumber(u"1");
 field->set_ListName(u"OutlineDefault");
 builder->Writeln(u"Paragraph 4");
@@ -76,7 +77,7 @@ ASSERT_EQ(u" LISTNUM  OutlineDefault \\s 1", field->GetFieldCode());
 
 // The ListName does not carry over from the previous field, so we will need to set it for each new field.
 // This field continues the count with the different list name and displays "II.".
-field = System::DynamicCast<FieldListNum>(builder->InsertField(FieldType::FieldListNum, true));
+field = System::ExplicitCast<FieldListNum>(builder->InsertField(FieldType::FieldListNum, true));
 field->set_ListName(u"OutlineDefault");
 builder->Writeln(u"Paragraph 5");
 
@@ -88,4 +89,4 @@ doc->Save(ArtifactsDir + u"Field.LISTNUM.docx");
 
 * Class [FieldListNum](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

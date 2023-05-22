@@ -1,9 +1,10 @@
 ---
-title: set_Scale
+title: Aspose::Words::ImageWatermarkOptions::set_Scale method
+linktitle: set_Scale
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::ImageWatermarkOptions::get_Scale.'
+description: 'Aspose::Words::ImageWatermarkOptions::set_Scale method. Setter for Aspose::Words::ImageWatermarkOptions::get_Scale in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words/imagewatermarkoptions/set_scale/
 ---
 ## ImageWatermarkOptions::set_Scale method
@@ -19,4 +20,4 @@ void Aspose::Words::ImageWatermarkOptions::set_Scale(double value)
 
 * Class [ImageWatermarkOptions](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: MarkdownListExportMode
+title: Aspose::Words::Saving::MarkdownListExportMode enum
+linktitle: MarkdownListExportMode
 second_title: Aspose.Words for C++ API Reference
-description: Specifies how lists are exported into Markdown.
+description: 'Aspose::Words::Saving::MarkdownListExportMode enum. Specifies how lists are exported into Markdown in C++.'
 type: docs
-weight: 872
+weight: 68000
 url: /cpp/aspose.words.saving/markdownlistexportmode/
 ---
 ## MarkdownListExportMode enum
@@ -25,4 +26,4 @@ enum class MarkdownListExportMode
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

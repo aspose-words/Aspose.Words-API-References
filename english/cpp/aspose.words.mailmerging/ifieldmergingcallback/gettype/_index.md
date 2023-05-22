@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::MailMerging::IFieldMergingCallback::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::MailMerging::IFieldMergingCallback class in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.mailmerging/ifieldmergingcallback/gettype/
 ---
 ## IFieldMergingCallback::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::MailMerging::IFieldMergingCallba
 
 * Interface [IFieldMergingCallback](../)
 * Namespace [Aspose::Words::MailMerging](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

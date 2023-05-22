@@ -1,9 +1,10 @@
 ---
-title: get_UseSingleBorderforContiguousCells
+title: Aspose::Words::Settings::CompatibilityOptions::get_UseSingleBorderforContiguousCells method
+linktitle: get_UseSingleBorderforContiguousCells
 second_title: Aspose.Words for C++ API Reference
-description: Use Simplified Rules For Table Border Conflicts.
+description: 'Aspose::Words::Settings::CompatibilityOptions::get_UseSingleBorderforContiguousCells method. Use Simplified Rules For Table Border Conflicts in C++.'
 type: docs
-weight: 846
+weight: 66000
 url: /cpp/aspose.words.settings/compatibilityoptions/get_usesingleborderforcontiguouscells/
 ---
 ## CompatibilityOptions::get_UseSingleBorderforContiguousCells method
@@ -19,4 +20,4 @@ bool Aspose::Words::Settings::CompatibilityOptions::get_UseSingleBorderforContig
 
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

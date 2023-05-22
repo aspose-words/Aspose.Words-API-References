@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::BuildingBlocks::GlossaryDocument::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::BuildingBlocks::GlossaryDocument class in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.buildingblocks/glossarydocument/gettype/
 ---
 ## GlossaryDocument::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::BuildingBlocks::GlossaryDocument
 
 * Class [GlossaryDocument](../)
 * Namespace [Aspose::Words::BuildingBlocks](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

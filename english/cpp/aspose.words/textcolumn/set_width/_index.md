@@ -1,9 +1,10 @@
 ---
-title: set_Width
+title: Aspose::Words::TextColumn::set_Width method
+linktitle: set_Width
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::TextColumn::get_Width.'
+description: 'Aspose::Words::TextColumn::set_Width method. Setter for Aspose::Words::TextColumn::get_Width in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words/textcolumn/set_width/
 ---
 ## TextColumn::set_Width method
@@ -19,4 +20,4 @@ void Aspose::Words::TextColumn::set_Width(double value)
 
 * Class [TextColumn](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

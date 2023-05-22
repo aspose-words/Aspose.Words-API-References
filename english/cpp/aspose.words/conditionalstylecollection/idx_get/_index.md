@@ -1,9 +1,10 @@
 ---
-title: idx_get
+title: Aspose::Words::ConditionalStyleCollection::idx_get method
+linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
-description: Retrieves a ConditionalStyle object by conditional style type.
+description: 'Aspose::Words::ConditionalStyleCollection::idx_get method. Retrieves a ConditionalStyle object by conditional style type in C++.'
 type: docs
-weight: 222
+weight: 18000
 url: /cpp/aspose.words/conditionalstylecollection/idx_get/
 ---
 ## ConditionalStyleCollection::idx_get(Aspose::Words::ConditionalStyleType) method
@@ -38,7 +39,7 @@ builder->Write(u"Cell 4");
 builder->EndTable();
 
 // Create a custom table style.
-auto tableStyle = System::DynamicCast<TableStyle>(doc->get_Styles()->Add(StyleType::Table, u"MyTableStyle1"));
+auto tableStyle = System::ExplicitCast<TableStyle>(doc->get_Styles()->Add(StyleType::Table, u"MyTableStyle1"));
 
 // Conditional styles are formatting changes that affect only some of the table's cells
 // based on a predicate, such as the cells being in the last row.
@@ -95,7 +96,7 @@ doc->Save(ArtifactsDir + u"Table.ConditionalStyles.docx");
 * Enum [ConditionalStyleType](../../conditionalstyletype/)
 * Class [ConditionalStyleCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## ConditionalStyleCollection::idx_get(int32_t) method
 
 
@@ -132,7 +133,7 @@ builder->Write(u"Cell 4");
 builder->EndTable();
 
 // Create a custom table style.
-auto tableStyle = System::DynamicCast<TableStyle>(doc->get_Styles()->Add(StyleType::Table, u"MyTableStyle1"));
+auto tableStyle = System::ExplicitCast<TableStyle>(doc->get_Styles()->Add(StyleType::Table, u"MyTableStyle1"));
 
 // Conditional styles are formatting changes that affect only some of the table's cells
 // based on a predicate, such as the cells being in the last row.
@@ -188,4 +189,4 @@ doc->Save(ArtifactsDir + u"Table.ConditionalStyles.docx");
 * Class [ConditionalStyle](../../conditionalstyle/)
 * Class [ConditionalStyleCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

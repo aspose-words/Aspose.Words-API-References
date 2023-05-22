@@ -1,9 +1,10 @@
 ---
-title: get_ProgId
+title: Aspose::Words::Drawing::OleFormat::get_ProgId method
+linktitle: get_ProgId
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the ProgID of the OLE object.
+description: 'Aspose::Words::Drawing::OleFormat::get_ProgId method. Gets or sets the ProgID of the OLE object in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words.drawing/oleformat/get_progid/
 ---
 ## OleFormat::get_ProgId method
@@ -31,7 +32,7 @@ The default value is an empty string.
 Shows how to extract embedded OLE objects into files. 
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"OLE spreadsheet.docm");
-auto shape = System::DynamicCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
+auto shape = System::ExplicitCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
 
 // The OLE object in the first shape is a Microsoft Excel spreadsheet.
 SharedPtr<OleFormat> oleFormat = shape->get_OleFormat();
@@ -62,4 +63,4 @@ oleFormat->Save(ArtifactsDir + u"OLE spreadsheet saved directly" + oleFormat->ge
 
 * Class [OleFormat](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

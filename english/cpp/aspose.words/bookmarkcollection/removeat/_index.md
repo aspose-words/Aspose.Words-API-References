@@ -1,9 +1,10 @@
 ---
-title: RemoveAt
+title: Aspose::Words::BookmarkCollection::RemoveAt method
+linktitle: RemoveAt
 second_title: Aspose.Words for C++ API Reference
-description: Removes a bookmark at the specified index.
+description: 'Aspose::Words::BookmarkCollection::RemoveAt method. Removes a bookmark at the specified index in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words/bookmarkcollection/removeat/
 ---
 ## BookmarkCollection::RemoveAt method
@@ -81,4 +82,4 @@ ASSERT_EQ(String(u"Text inside MyBookmark_1.\r") + u"Text inside MyBookmark_2.\r
 
 * Class [BookmarkCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

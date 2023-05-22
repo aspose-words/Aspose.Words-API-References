@@ -1,9 +1,10 @@
 ---
-title: get_EvenColumnBanding
+title: Aspose::Words::ConditionalStyleCollection::get_EvenColumnBanding method
+linktitle: get_EvenColumnBanding
 second_title: Aspose.Words for C++ API Reference
-description: Gets the even column banding style.
+description: 'Aspose::Words::ConditionalStyleCollection::get_EvenColumnBanding method. Gets the even column banding style in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words/conditionalstylecollection/get_evencolumnbanding/
 ---
 ## ConditionalStyleCollection::get_EvenColumnBanding method
@@ -38,7 +39,7 @@ builder->Write(u"Cell 4");
 builder->EndTable();
 
 // Create a custom table style.
-auto tableStyle = System::DynamicCast<TableStyle>(doc->get_Styles()->Add(StyleType::Table, u"MyTableStyle1"));
+auto tableStyle = System::ExplicitCast<TableStyle>(doc->get_Styles()->Add(StyleType::Table, u"MyTableStyle1"));
 
 // Conditional styles are formatting changes that affect only some of the table's cells
 // based on a predicate, such as the cells being in the last row.
@@ -94,4 +95,4 @@ doc->Save(ArtifactsDir + u"Table.ConditionalStyles.docx");
 * Class [ConditionalStyle](../../conditionalstyle/)
 * Class [ConditionalStyleCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

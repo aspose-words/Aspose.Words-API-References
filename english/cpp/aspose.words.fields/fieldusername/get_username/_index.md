@@ -1,9 +1,10 @@
 ---
-title: get_UserName
+title: Aspose::Words::Fields::FieldUserName::get_UserName method
+linktitle: get_UserName
 second_title: Aspose.Words for C++ API Reference
-description: Gest or sets the current user's name.
+description: 'Aspose::Words::Fields::FieldUserName::get_UserName method. Gest or sets the current user''s name in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fields/fieldusername/get_username/
 ---
 ## FieldUserName::get_UserName method
@@ -33,7 +34,7 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 
 // Create a USERNAME field to display the current user's name,
 // taken from the UserInformation object we created above.
-auto fieldUserName = System::DynamicCast<FieldUserName>(builder->InsertField(FieldType::FieldUserName, true));
+auto fieldUserName = System::ExplicitCast<FieldUserName>(builder->InsertField(FieldType::FieldUserName, true));
 ASSERT_EQ(userInformation->get_Name(), fieldUserName->get_Result());
 
 ASSERT_EQ(u" USERNAME ", fieldUserName->GetFieldCode());
@@ -57,4 +58,4 @@ doc->Save(ArtifactsDir + u"Field.USERNAME.docx");
 
 * Class [FieldUserName](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Fields::FieldGlossary::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Fields::FieldGlossary class in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.fields/fieldglossary/is/
 ---
 ## FieldGlossary::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Fields::FieldGlossary::Is(const System::TypeInfo &ta
 
 * Class [FieldGlossary](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

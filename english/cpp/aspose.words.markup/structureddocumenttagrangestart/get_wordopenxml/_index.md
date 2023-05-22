@@ -1,9 +1,10 @@
 ---
-title: get_WordOpenXML
+title: Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_WordOpenXML method
+linktitle: get_WordOpenXML
 second_title: Aspose.Words for C++ API Reference
-description: Gets a string that represents the XML contained within the node in the FlatOpc format.
+description: 'Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_WordOpenXML method. Gets a string that represents the XML contained within the node in the FlatOpc format in C++.'
 type: docs
-weight: 248
+weight: 20000
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/get_wordopenxml/
 ---
 ## StructuredDocumentTagRangeStart::get_WordOpenXML method
@@ -19,4 +20,4 @@ System::String Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_WordO
 
 * Class [StructuredDocumentTagRangeStart](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

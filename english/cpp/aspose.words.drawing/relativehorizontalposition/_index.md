@@ -1,9 +1,10 @@
 ---
-title: RelativeHorizontalPosition
+title: Aspose::Words::Drawing::RelativeHorizontalPosition enum
+linktitle: RelativeHorizontalPosition
 second_title: Aspose.Words for C++ API Reference
-description: Specifies to what the horizontal position of a shape or text frame is relative.
+description: 'Aspose::Words::Drawing::RelativeHorizontalPosition enum. Specifies to what the horizontal position of a shape or text frame is relative in C++.'
 type: docs
-weight: 417
+weight: 33000
 url: /cpp/aspose.words.drawing/relativehorizontalposition/
 ---
 ## RelativeHorizontalPosition enum
@@ -76,4 +77,4 @@ doc->Save(ArtifactsDir + u"Image.CreateFloatingPageCenter.docx");
 ## See Also
 
 * Namespace [Aspose::Words::Drawing](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

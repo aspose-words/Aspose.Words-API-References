@@ -1,9 +1,10 @@
 ---
-title: OleFormat
+title: Aspose::Words::Drawing::OleFormat class
+linktitle: OleFormat
 second_title: Aspose.Words for C++ API Reference
-description: Provides access to the data of an OLE object or ActiveX control. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Drawing::OleFormat class. Provides access to the data of an OLE object or ActiveX control. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.drawing/oleformat/
 ---
 ## OleFormat class
@@ -57,7 +58,7 @@ Use the [OleFormat](../shape/get_oleformat/) property to access the data of an O
 Shows how to extract embedded OLE objects into files. 
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"OLE spreadsheet.docm");
-auto shape = System::DynamicCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
+auto shape = System::ExplicitCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
 
 // The OLE object in the first shape is a Microsoft Excel spreadsheet.
 SharedPtr<OleFormat> oleFormat = shape->get_OleFormat();
@@ -87,4 +88,4 @@ oleFormat->Save(ArtifactsDir + u"OLE spreadsheet saved directly" + oleFormat->ge
 ## See Also
 
 * Namespace [Aspose::Words::Drawing](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

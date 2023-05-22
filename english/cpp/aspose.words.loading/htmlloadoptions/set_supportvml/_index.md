@@ -1,9 +1,10 @@
 ---
-title: set_SupportVml
+title: Aspose::Words::Loading::HtmlLoadOptions::set_SupportVml method
+linktitle: set_SupportVml
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Loading::HtmlLoadOptions::get_SupportVml.'
+description: 'Aspose::Words::Loading::HtmlLoadOptions::set_SupportVml method. Setter for Aspose::Words::Loading::HtmlLoadOptions::get_SupportVml in C++.'
 type: docs
-weight: 183
+weight: 15000
 url: /cpp/aspose.words.loading/htmlloadoptions/set_supportvml/
 ---
 ## HtmlLoadOptions::set_SupportVml method
@@ -19,4 +20,4 @@ void Aspose::Words::Loading::HtmlLoadOptions::set_SupportVml(bool value)
 
 * Class [HtmlLoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

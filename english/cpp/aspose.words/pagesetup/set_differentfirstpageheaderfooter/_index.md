@@ -1,9 +1,10 @@
 ---
-title: set_DifferentFirstPageHeaderFooter
+title: Aspose::Words::PageSetup::set_DifferentFirstPageHeaderFooter method
+linktitle: set_DifferentFirstPageHeaderFooter
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::PageSetup::get_DifferentFirstPageHeaderFooter.'
+description: 'Aspose::Words::PageSetup::set_DifferentFirstPageHeaderFooter method. Setter for Aspose::Words::PageSetup::get_DifferentFirstPageHeaderFooter in C++.'
 type: docs
-weight: 755
+weight: 59000
 url: /cpp/aspose.words/pagesetup/set_differentfirstpageheaderfooter/
 ---
 ## PageSetup::set_DifferentFirstPageHeaderFooter method
@@ -19,4 +20,4 @@ void Aspose::Words::PageSetup::set_DifferentFirstPageHeaderFooter(bool value)
 
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

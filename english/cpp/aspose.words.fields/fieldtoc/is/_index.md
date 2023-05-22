@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Fields::FieldToc::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Fields::FieldToc class in C++.'
 type: docs
-weight: 274
+weight: 22000
 url: /cpp/aspose.words.fields/fieldtoc/is/
 ---
 ## FieldToc::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Fields::FieldToc::Is(const System::TypeInfo &target)
 
 * Class [FieldToc](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

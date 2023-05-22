@@ -1,9 +1,10 @@
 ---
-title: iterator
+title: Aspose::Words::Markup::CustomPartCollection::iterator typedef
+linktitle: iterator
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Aspose::Words::Markup::CustomPartCollection::iterator typedef of Aspose::Words::Markup::CustomPartCollection class in C++.'
 type: docs
-weight: 274
+weight: 22000
 url: /cpp/aspose.words.markup/custompartcollection/iterator/
 ---
 ## iterator typedef
@@ -19,4 +20,4 @@ using Aspose::Words::Markup::CustomPartCollection::iterator =  typename iterator
 
 * Class [CustomPartCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

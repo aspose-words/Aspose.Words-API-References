@@ -1,9 +1,10 @@
 ---
-title: get_SectionStart
+title: Aspose::Words::PageSetup::get_SectionStart method
+linktitle: get_SectionStart
 second_title: Aspose.Words for C++ API Reference
-description: Returns or sets the type of section break for the specified object.
+description: 'Aspose::Words::PageSetup::get_SectionStart method. Returns or sets the type of section break for the specified object in C++.'
 type: docs
-weight: 521
+weight: 41000
 url: /cpp/aspose.words/pagesetup/get_sectionstart/
 ---
 ## PageSetup::get_SectionStart method
@@ -114,4 +115,4 @@ doc->Save(ArtifactsDir + u"Section.CreateManually.docx");
 * Enum [SectionStart](../../sectionstart/)
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

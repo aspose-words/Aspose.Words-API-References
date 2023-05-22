@@ -1,9 +1,10 @@
 ---
-title: set_FirstPageTray
+title: Aspose::Words::PageSetup::set_FirstPageTray method
+linktitle: set_FirstPageTray
 second_title: Aspose.Words for C++ API Reference
-description: Sets the paper tray (bin) to use for the first page of a section. The value is implementation (printer) specific.
+description: 'Aspose::Words::PageSetup::set_FirstPageTray method. Sets the paper tray (bin) to use for the first page of a section. The value is implementation (printer) specific in C++.'
 type: docs
-weight: 768
+weight: 60000
 url: /cpp/aspose.words/pagesetup/set_firstpagetray/
 ---
 ## PageSetup::set_FirstPageTray method
@@ -19,4 +20,4 @@ void Aspose::Words::PageSetup::set_FirstPageTray(int32_t value)
 
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_CategoryType
+title: Aspose::Words::Drawing::Charts::ChartAxis::get_CategoryType method
+linktitle: get_CategoryType
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets type of the category axis.
+description: 'Aspose::Words::Drawing::Charts::ChartAxis::get_CategoryType method. Gets or sets type of the category axis in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_categorytype/
 ---
 ## ChartAxis::get_CategoryType method
@@ -71,4 +72,4 @@ doc->Save(ArtifactsDir + u"Charts.AxisProperties.docx");
 * Enum [AxisCategoryType](../../axiscategorytype/)
 * Class [ChartAxis](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

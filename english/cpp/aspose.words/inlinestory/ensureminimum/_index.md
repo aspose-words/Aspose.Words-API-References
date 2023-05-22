@@ -1,9 +1,10 @@
 ---
-title: EnsureMinimum
+title: Aspose::Words::InlineStory::EnsureMinimum method
+linktitle: EnsureMinimum
 second_title: Aspose.Words for C++ API Reference
-description: If the last child is not a paragraph, creates and appends one empty paragraph.
+description: 'Aspose::Words::InlineStory::EnsureMinimum method. If the last child is not a paragraph, creates and appends one empty paragraph in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words/inlinestory/ensureminimum/
 ---
 ## InlineStory::EnsureMinimum method
@@ -51,7 +52,7 @@ footnote->get_Font()->set_Color(System::Drawing::Color::get_Green());
 ASSERT_EQ(StoryType::Footnotes, footnote->get_StoryType());
 
 // A comment is another type of inline story.
-auto comment = System::DynamicCast<Comment>(
+auto comment = System::ExplicitCast<Comment>(
     builder->get_CurrentParagraph()->AppendChild(MakeObject<Comment>(doc, u"John Doe", u"J. D.", System::DateTime::get_Now())));
 
 // The parent paragraph of an inline story node will be the one from the main document body.
@@ -78,4 +79,4 @@ doc->Save(ArtifactsDir + u"InlineStory.InsertInlineStoryNodes.docx");
 
 * Class [InlineStory](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: Type
+title: Aspose::Words::Drawing::Stroke::Type method
+linktitle: Type
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Type method of Aspose::Words::Drawing::Stroke class in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words.drawing/stroke/type/
 ---
 ## Stroke::Type method
@@ -19,4 +20,4 @@ static const System::TypeInfo & Aspose::Words::Drawing::Stroke::Type()
 
 * Class [Stroke](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

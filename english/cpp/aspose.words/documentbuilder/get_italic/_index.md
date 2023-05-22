@@ -1,9 +1,10 @@
 ---
-title: get_Italic
+title: Aspose::Words::DocumentBuilder::get_Italic method
+linktitle: get_Italic
 second_title: Aspose.Words for C++ API Reference
-description: True if the font is formatted as italic.
+description: 'Aspose::Words::DocumentBuilder::get_Italic method. True if the font is formatted as italic in C++.'
 type: docs
-weight: 261
+weight: 21000
 url: /cpp/aspose.words/documentbuilder/get_italic/
 ---
 ## DocumentBuilder::get_Italic method
@@ -50,4 +51,4 @@ doc->Save(ArtifactsDir + u"DocumentBuilder.FillMergeFields.docx");
 
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

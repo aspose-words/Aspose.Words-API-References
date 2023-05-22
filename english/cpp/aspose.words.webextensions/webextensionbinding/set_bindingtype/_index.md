@@ -1,9 +1,10 @@
 ---
-title: set_BindingType
+title: Aspose::Words::WebExtensions::WebExtensionBinding::set_BindingType method
+linktitle: set_BindingType
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the binding type.
+description: 'Aspose::Words::WebExtensions::WebExtensionBinding::set_BindingType method. Specifies the binding type in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.webextensions/webextensionbinding/set_bindingtype/
 ---
 ## WebExtensionBinding::set_BindingType method
@@ -20,4 +21,4 @@ void Aspose::Words::WebExtensions::WebExtensionBinding::set_BindingType(Aspose::
 * Enum [WebExtensionBindingType](../../webextensionbindingtype/)
 * Class [WebExtensionBinding](../)
 * Namespace [Aspose::Words::WebExtensions](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

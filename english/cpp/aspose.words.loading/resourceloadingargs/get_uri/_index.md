@@ -1,9 +1,10 @@
 ---
-title: get_Uri
+title: Aspose::Words::Loading::ResourceLoadingArgs::get_Uri method
+linktitle: get_Uri
 second_title: Aspose.Words for C++ API Reference
-description: URI of the resource which is used for downloading if ResourceLoading() returns Default. Initially it's set to absolute URI of the resource, but user can redefine it to any value.
+description: 'Aspose::Words::Loading::ResourceLoadingArgs::get_Uri method. URI of the resource which is used for downloading if ResourceLoading() returns Default. Initially it''s set to absolute URI of the resource, but user can redefine it to any value in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.loading/resourceloadingargs/get_uri/
 ---
 ## ResourceLoadingArgs::get_Uri method
@@ -19,4 +20,4 @@ System::String Aspose::Words::Loading::ResourceLoadingArgs::get_Uri() const
 
 * Class [ResourceLoadingArgs](../)
 * Namespace [Aspose::Words::Loading](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

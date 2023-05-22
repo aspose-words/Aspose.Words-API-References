@@ -1,9 +1,10 @@
 ---
-title: get_Left
+title: Aspose::Words::Drawing::ShapeBase::get_Left method
+linktitle: get_Left
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the position of the left edge of the containing block of the shape.
+description: 'Aspose::Words::Drawing::ShapeBase::get_Left method. Gets or sets the position of the left edge of the containing block of the shape in C++.'
 type: docs
-weight: 482
+weight: 38000
 url: /cpp/aspose.words.drawing/shapebase/get_left/
 ---
 ## ShapeBase::get_Left method
@@ -65,4 +66,4 @@ doc->Save(ArtifactsDir + u"Image.CreateFloatingPositionSize.docx");
 
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

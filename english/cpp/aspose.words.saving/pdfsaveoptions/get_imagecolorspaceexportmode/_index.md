@@ -1,9 +1,10 @@
 ---
-title: get_ImageColorSpaceExportMode
+title: Aspose::Words::Saving::PdfSaveOptions::get_ImageColorSpaceExportMode method
+linktitle: get_ImageColorSpaceExportMode
 second_title: Aspose.Words for C++ API Reference
-description: Specifies how the color space will be selected for the images in PDF document.
+description: 'Aspose::Words::Saving::PdfSaveOptions::get_ImageColorSpaceExportMode method. Specifies how the color space will be selected for the images in PDF document in C++.'
 type: docs
-weight: 248
+weight: 20000
 url: /cpp/aspose.words.saving/pdfsaveoptions/get_imagecolorspaceexportmode/
 ---
 ## PdfSaveOptions::get_ImageColorSpaceExportMode method
@@ -59,4 +60,4 @@ doc->Save(ArtifactsDir + u"PdfSaveOptions.ImageColorSpaceExportMode.pdf", pdfSav
 * Enum [PdfImageColorSpaceExportMode](../../pdfimagecolorspaceexportmode/)
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

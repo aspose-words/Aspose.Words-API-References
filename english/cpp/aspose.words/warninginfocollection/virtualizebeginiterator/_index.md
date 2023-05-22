@@ -1,9 +1,10 @@
 ---
-title: virtualizeBeginIterator
+title: Aspose::Words::WarningInfoCollection::virtualizeBeginIterator method
+linktitle: virtualizeBeginIterator
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use virtualizeBeginIterator method of Aspose::Words::WarningInfoCollection class in C++.'
 type: docs
-weight: 170
+weight: 14000
 url: /cpp/aspose.words/warninginfocollection/virtualizebeginiterator/
 ---
 ## WarningInfoCollection::virtualizeBeginIterator method
@@ -20,4 +21,4 @@ virtualized_iterator * Aspose::Words::WarningInfoCollection::virtualizeBeginIter
 * Typedef [virtualized_iterator](../virtualized_iterator/)
 * Class [WarningInfoCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

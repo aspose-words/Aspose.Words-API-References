@@ -1,9 +1,10 @@
 ---
-title: Add
+title: Aspose::Words::TabStopCollection::Add method
+linktitle: Add
 second_title: Aspose.Words for C++ API Reference
-description: Adds or replaces a tab stop in the collection.
+description: 'Aspose::Words::TabStopCollection::Add method. Adds or replaces a tab stop in the collection in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words/tabstopcollection/add/
 ---
 ## TabStopCollection::Add(const System::SharedPtr\<Aspose::Words::TabStop\>\&) method
@@ -31,7 +32,7 @@ If a tab stop already exists at the specified position, it is replaced.
 Shows how to add custom tab stops to a document. 
 ```cpp
 auto doc = MakeObject<Document>();
-auto paragraph = System::DynamicCast<Paragraph>(doc->GetChild(NodeType::Paragraph, 0, true));
+auto paragraph = System::ExplicitCast<Paragraph>(doc->GetChild(NodeType::Paragraph, 0, true));
 
 // Below are two ways of adding tab stops to a paragraph's collection of tab stops via the "ParagraphFormat" property.
 // 1 -  Create a "TabStop" object, and then add it to the collection:
@@ -59,7 +60,7 @@ doc->Save(ArtifactsDir + u"TabStopCollection.AddTabStops.docx");
 * Class [TabStop](../../tabstop/)
 * Class [TabStopCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## TabStopCollection::Add(double, Aspose::Words::TabAlignment, Aspose::Words::TabLeader) method
 
 
@@ -87,7 +88,7 @@ If a tab stop already exists at the specified position, it is replaced.
 Shows how to add custom tab stops to a document. 
 ```cpp
 auto doc = MakeObject<Document>();
-auto paragraph = System::DynamicCast<Paragraph>(doc->GetChild(NodeType::Paragraph, 0, true));
+auto paragraph = System::ExplicitCast<Paragraph>(doc->GetChild(NodeType::Paragraph, 0, true));
 
 // Below are two ways of adding tab stops to a paragraph's collection of tab stops via the "ParagraphFormat" property.
 // 1 -  Create a "TabStop" object, and then add it to the collection:
@@ -116,4 +117,4 @@ doc->Save(ArtifactsDir + u"TabStopCollection.AddTabStops.docx");
 * Enum [TabLeader](../../tableader/)
 * Class [TabStopCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

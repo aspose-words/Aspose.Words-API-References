@@ -1,9 +1,10 @@
 ---
-title: Type
+title: Aspose::Words::Tables::CellCollection::Type method
+linktitle: Type
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Type method of Aspose::Words::Tables::CellCollection class in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words.tables/cellcollection/type/
 ---
 ## CellCollection::Type method
@@ -19,4 +20,4 @@ static const System::TypeInfo & Aspose::Words::Tables::CellCollection::Type()
 
 * Class [CellCollection](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

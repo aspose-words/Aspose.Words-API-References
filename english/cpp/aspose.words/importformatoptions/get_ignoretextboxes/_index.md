@@ -1,9 +1,10 @@
 ---
-title: get_IgnoreTextBoxes
+title: Aspose::Words::ImportFormatOptions::get_IgnoreTextBoxes method
+linktitle: get_IgnoreTextBoxes
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets a boolean value that specifies that source formatting of textboxes content ignored if KeepSourceFormatting mode is used. The default value is true.
+description: 'Aspose::Words::ImportFormatOptions::get_IgnoreTextBoxes method. Gets or sets a boolean value that specifies that source formatting of textboxes content ignored if KeepSourceFormatting mode is used. The default value is true in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words/importformatoptions/get_ignoretextboxes/
 ---
 ## ImportFormatOptions::get_IgnoreTextBoxes method
@@ -46,7 +47,7 @@ importFormatOptions->set_IgnoreTextBoxes(ignoreTextBoxes);
 // Import the text box from the source document into the destination document,
 // and then verify whether we have preserved the styling of its text contents.
 auto importer = MakeObject<NodeImporter>(srcDoc, dstDoc, ImportFormatMode::KeepSourceFormatting, importFormatOptions);
-auto importedTextBox = System::DynamicCast<Shape>(importer->ImportNode(textBox, true));
+auto importedTextBox = System::ExplicitCast<Shape>(importer->ImportNode(textBox, true));
 dstDoc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(1)->AppendChild(importedTextBox);
 
 if (ignoreTextBoxes)
@@ -67,4 +68,4 @@ dstDoc->Save(ArtifactsDir + u"DocumentBuilder.IgnoreTextBoxes.docx");
 
 * Class [ImportFormatOptions](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

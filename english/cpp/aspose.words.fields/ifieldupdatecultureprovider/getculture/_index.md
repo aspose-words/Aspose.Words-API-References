@@ -1,9 +1,10 @@
 ---
-title: GetCulture
+title: Aspose::Words::Fields::IFieldUpdateCultureProvider::GetCulture method
+linktitle: GetCulture
 second_title: Aspose.Words for C++ API Reference
-description: Returns a CultureInfo object to be used during the field's update.
+description: 'Aspose::Words::Fields::IFieldUpdateCultureProvider::GetCulture method. Returns a CultureInfo object to be used during the field''s update in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fields/ifieldupdatecultureprovider/getculture/
 ---
 ## IFieldUpdateCultureProvider::GetCulture method
@@ -43,7 +44,7 @@ void DefineDateTimeFormatting()
     // Set a provider that returns a culture object specific to each field.
     doc->get_FieldOptions()->set_FieldUpdateCultureProvider(MakeObject<ExFieldOptions::FieldUpdateCultureProvider>());
 
-    auto fieldDate = System::DynamicCast<FieldTime>(doc->get_Range()->get_Fields()->idx_get(0));
+    auto fieldDate = System::ExplicitCast<FieldTime>(doc->get_Range()->get_Fields()->idx_get(0));
     if (fieldDate->get_LocaleId() != (int)EditingLanguage::Russian)
     {
         fieldDate->set_LocaleId((int)EditingLanguage::Russian);
@@ -97,4 +98,4 @@ public:
 * Class [Field](../../field/)
 * Interface [IFieldUpdateCultureProvider](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

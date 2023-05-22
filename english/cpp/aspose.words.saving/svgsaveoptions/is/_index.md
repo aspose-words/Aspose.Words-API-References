@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Saving::SvgSaveOptions::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Saving::SvgSaveOptions class in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words.saving/svgsaveoptions/is/
 ---
 ## SvgSaveOptions::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Saving::SvgSaveOptions::Is(const System::TypeInfo &t
 
 * Class [SvgSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

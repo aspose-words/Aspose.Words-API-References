@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Rendering::PageInfo::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Rendering::PageInfo class in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words.rendering/pageinfo/is/
 ---
 ## PageInfo::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Rendering::PageInfo::Is(const System::TypeInfo &targ
 
 * Class [PageInfo](../)
 * Namespace [Aspose::Words::Rendering](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

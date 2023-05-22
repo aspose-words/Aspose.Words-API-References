@@ -1,9 +1,10 @@
 ---
-title: get_Color
+title: Aspose::Words::Markup::IStructuredDocumentTag::get_Color method
+linktitle: get_Color
 second_title: Aspose.Words for C++ API Reference
-description: Gets the color of the structured document tag.
+description: 'Aspose::Words::Markup::IStructuredDocumentTag::get_Color method. Gets the color of the structured document tag in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.markup/istructureddocumenttag/get_color/
 ---
 ## IStructuredDocumentTag::get_Color method
@@ -19,4 +20,4 @@ virtual System::Drawing::Color Aspose::Words::Markup::IStructuredDocumentTag::ge
 
 * Interface [IStructuredDocumentTag](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

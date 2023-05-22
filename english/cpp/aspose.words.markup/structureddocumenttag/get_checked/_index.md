@@ -1,9 +1,10 @@
 ---
-title: get_Checked
+title: Aspose::Words::Markup::StructuredDocumentTag::get_Checked method
+linktitle: get_Checked
 second_title: Aspose.Words for C++ API Reference
-description: Gets/Sets current state of the Checkbox SDT. Default value for this property is false.
+description: 'Aspose::Words::Markup::StructuredDocumentTag::get_Checked method. Gets/Sets current state of the Checkbox SDT. Default value for this property is false in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.markup/structureddocumenttag/get_checked/
 ---
 ## StructuredDocumentTag::get_Checked method
@@ -47,4 +48,4 @@ doc->Save(ArtifactsDir + u"StructuredDocumentTag.CheckBox.docx");
 
 * Class [StructuredDocumentTag](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

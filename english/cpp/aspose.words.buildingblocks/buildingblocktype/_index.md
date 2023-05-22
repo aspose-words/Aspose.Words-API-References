@@ -1,9 +1,10 @@
 ---
-title: BuildingBlockType
+title: Aspose::Words::BuildingBlocks::BuildingBlockType enum
+linktitle: BuildingBlockType
 second_title: Aspose.Words for C++ API Reference
-description: Specifies a building block type. The type might affect the visibility and behavior of the building block in Microsoft Word.
+description: 'Aspose::Words::BuildingBlocks::BuildingBlockType enum. Specifies a building block type. The type might affect the visibility and behavior of the building block in Microsoft Word in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.buildingblocks/buildingblocktype/
 ---
 ## BuildingBlockType enum
@@ -132,4 +133,4 @@ private:
 ## See Also
 
 * Namespace [Aspose::Words::BuildingBlocks](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

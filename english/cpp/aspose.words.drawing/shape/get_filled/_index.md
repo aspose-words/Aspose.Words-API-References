@@ -1,9 +1,10 @@
 ---
-title: get_Filled
+title: Aspose::Words::Drawing::Shape::get_Filled method
+linktitle: get_Filled
 second_title: Aspose.Words for C++ API Reference
-description: Determines whether the closed path of the shape will be filled.
+description: 'Aspose::Words::Drawing::Shape::get_Filled method. Determines whether the closed path of the shape will be filled in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.drawing/shape/get_filled/
 ---
 ## Shape::get_Filled method
@@ -140,4 +141,4 @@ private:
 
 * Class [Shape](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

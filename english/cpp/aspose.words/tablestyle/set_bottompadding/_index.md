@@ -1,9 +1,10 @@
 ---
-title: set_BottomPadding
+title: Aspose::Words::TableStyle::set_BottomPadding method
+linktitle: set_BottomPadding
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::TableStyle::get_BottomPadding.'
+description: 'Aspose::Words::TableStyle::set_BottomPadding method. Setter for Aspose::Words::TableStyle::get_BottomPadding in C++.'
 type: docs
-weight: 274
+weight: 22000
 url: /cpp/aspose.words/tablestyle/set_bottompadding/
 ---
 ## TableStyle::set_BottomPadding method
@@ -19,4 +20,4 @@ void Aspose::Words::TableStyle::set_BottomPadding(double value)
 
 * Class [TableStyle](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: GradientStop
+title: Aspose::Words::Drawing::GradientStop class
+linktitle: GradientStop
 second_title: Aspose.Words for C++ API Reference
-description: Represents one gradient stop. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Drawing::GradientStop class. Represents one gradient stop. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.drawing/gradientstop/
 ---
 ## GradientStop class
@@ -19,6 +20,7 @@ class GradientStop : public System::Object
 
 | Method | Description |
 | --- | --- |
+| [get_BaseColor](./get_basecolor/)() | Gets a value representing the color of the gradient stop without any modifiers. |
 | [get_Color](./get_color/)() | Gets or sets a value representing the color of the gradient stop. |
 | [get_Position](./get_position/)() const | Gets or sets a value representing the position of a stop within the gradient expressed as a percent in range 0.0 to 1.0. |
 | [get_Transparency](./get_transparency/)() const | Gets or sets a value representing the transparency of the gradient fill expressed as a percent in range 0.0 to 1.0. |
@@ -34,4 +36,4 @@ class GradientStop : public System::Object
 ## See Also
 
 * Namespace [Aspose::Words::Drawing](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

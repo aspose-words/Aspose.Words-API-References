@@ -1,9 +1,10 @@
 ---
-title: set_ComplexScript
+title: Aspose::Words::Themes::ThemeFonts::set_ComplexScript method
+linktitle: set_ComplexScript
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Themes::ThemeFonts::get_ComplexScript.'
+description: 'Aspose::Words::Themes::ThemeFonts::set_ComplexScript method. Setter for Aspose::Words::Themes::ThemeFonts::get_ComplexScript in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.themes/themefonts/set_complexscript/
 ---
 ## ThemeFonts::set_ComplexScript method
@@ -19,4 +20,4 @@ void Aspose::Words::Themes::ThemeFonts::set_ComplexScript(const System::String &
 
 * Class [ThemeFonts](../)
 * Namespace [Aspose::Words::Themes](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: NodeImporter
+title: Aspose::Words::NodeImporter::NodeImporter constructor
+linktitle: NodeImporter
 second_title: Aspose.Words for C++ API Reference
-description: Initializes a new instance of the NodeImporter class.
+description: 'Aspose::Words::NodeImporter::NodeImporter constructor. Initializes a new instance of the NodeImporter class in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words/nodeimporter/nodeimporter/
 ---
 ## NodeImporter::NodeImporter(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&, const System::SharedPtr\<Aspose::Words::DocumentBase\>\&, Aspose::Words::ImportFormatMode) constructor
@@ -66,7 +67,7 @@ static void InsertDocument(SharedPtr<Node> insertionDestination, SharedPtr<Docum
             {
                 if (srcNode->get_NodeType() == NodeType::Paragraph)
                 {
-                    auto para = System::DynamicCast<Paragraph>(srcNode);
+                    auto para = System::ExplicitCast<Paragraph>(srcNode);
                     if (para->get_IsEndOfSection() && !para->get_HasChildNodes())
                     {
                         continue;
@@ -93,7 +94,7 @@ static void InsertDocument(SharedPtr<Node> insertionDestination, SharedPtr<Docum
 * Enum [ImportFormatMode](../../importformatmode/)
 * Class [NodeImporter](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## NodeImporter::NodeImporter(const System::SharedPtr\<Aspose::Words::DocumentBase\>\&, const System::SharedPtr\<Aspose::Words::DocumentBase\>\&, Aspose::Words::ImportFormatMode, const System::SharedPtr\<Aspose::Words::ImportFormatOptions\>\&) constructor
 
 
@@ -177,4 +178,4 @@ else
 * Class [ImportFormatOptions](../../importformatoptions/)
 * Class [NodeImporter](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

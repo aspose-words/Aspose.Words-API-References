@@ -1,9 +1,10 @@
 ---
-title: WebExtensionBindingType
+title: Aspose::Words::WebExtensions::WebExtensionBindingType enum
+linktitle: WebExtensionBindingType
 second_title: Aspose.Words for C++ API Reference
-description: Enumerates available types of binding between a web extension and the data in the document.
+description: 'Aspose::Words::WebExtensions::WebExtensionBindingType enum. Enumerates available types of binding between a web extension and the data in the document in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words.webextensions/webextensionbindingtype/
 ---
 ## WebExtensionBindingType enum
@@ -71,4 +72,4 @@ ASSERT_EQ(0, doc->get_WebExtensionTaskPanes()->get_Count());
 ## See Also
 
 * Namespace [Aspose::Words::WebExtensions](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

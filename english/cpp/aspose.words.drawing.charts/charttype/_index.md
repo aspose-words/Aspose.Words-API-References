@@ -1,9 +1,10 @@
 ---
-title: ChartType
+title: Aspose::Words::Drawing::Charts::ChartType enum
+linktitle: ChartType
 second_title: Aspose.Words for C++ API Reference
-description: Specifies type of a chart.
+description: 'Aspose::Words::Drawing::Charts::ChartType enum. Specifies type of a chart in C++.'
 type: docs
-weight: 352
+weight: 28000
 url: /cpp/aspose.words.drawing.charts/charttype/
 ---
 ## ChartType enum
@@ -136,4 +137,4 @@ static SharedPtr<Chart> AppendChart(SharedPtr<DocumentBuilder> builder, ChartTyp
 ## See Also
 
 * Namespace [Aspose::Words::Drawing::Charts](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

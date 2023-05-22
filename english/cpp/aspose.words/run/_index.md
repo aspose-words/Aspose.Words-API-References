@@ -1,9 +1,10 @@
 ---
-title: Run
+title: Aspose::Words::Run class
+linktitle: Run
 second_title: Aspose.Words for C++ API Reference
-description: Represents a run of characters with the same font formatting. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Run class. Represents a run of characters with the same font formatting. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 716
+weight: 56000
 url: /cpp/aspose.words/run/
 ---
 ## Run class
@@ -30,10 +31,12 @@ class Run : public Aspose::Words::Inline
 | [get_IsInsertRevision](../inline/get_isinsertrevision/)() | Returns true if this object was inserted in Microsoft Word while change tracking was enabled. |
 | [get_IsMoveFromRevision](../inline/get_ismovefromrevision/)() | Returns **true** if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
 | [get_IsMoveToRevision](../inline/get_ismovetorevision/)() | Returns **true** if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
+| [get_IsPhoneticGuide](./get_isphoneticguide/)() | Gets a boolean value indicating either the run is a phonetic guide. |
 | [get_NextSibling](../node/get_nextsibling/)() | Gets the node immediately following this node. |
 | [get_NodeType](./get_nodetype/)() const override | Returns [Run](../nodetype/). |
 | [get_ParentNode](../node/get_parentnode/)() | Gets the immediate parent of this node. |
 | [get_ParentParagraph](../inline/get_parentparagraph/)() | Retrieves the parent [Paragraph](../paragraph/) of this node. |
+| [get_PhoneticGuide](./get_phoneticguide/)() | Gets a [PhoneticGuide](./get_phoneticguide/) object. |
 | [get_PreviousSibling](../node/get_previoussibling/)() | Gets the node immediately preceding this node. |
 | [get_Range](../node/get_range/)() | Returns a [Range](../range/) object that represents the portion of a document that is contained in this node. |
 | [get_Text](./get_text/)() const | Gets or sets the text of the run. |
@@ -119,7 +122,7 @@ ASSERT_EQ(u"Run 1. Run 2. Initial text. Run 3.", paragraph->GetText().Trim());
 ASSERT_EQ(4, paragraph->GetChildNodes(NodeType::Any, true)->get_Count());
 
 // We can modify the contents of the run by editing and deleting existing child nodes.
-(System::DynamicCast<Run>(paragraph->GetChildNodes(NodeType::Run, true)->idx_get(1)))->set_Text(u"Updated run 2. ");
+(System::ExplicitCast<Run>(paragraph->GetChildNodes(NodeType::Run, true)->idx_get(1)))->set_Text(u"Updated run 2. ");
 paragraph->GetChildNodes(NodeType::Run, true)->Remove(paragraphText);
 
 ASSERT_EQ(u"Run 1. Updated run 2. Run 3.", paragraph->GetText().Trim());
@@ -175,4 +178,4 @@ doc->Save(ArtifactsDir + u"Section.CreateManually.docx");
 
 * Class [Inline](../inline/)
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

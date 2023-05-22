@@ -1,9 +1,10 @@
 ---
-title: FieldLink
+title: Aspose::Words::Fields::FieldLink class
+linktitle: FieldLink
 second_title: Aspose.Words for C++ API Reference
-description: Implements the LINK field. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Fields::FieldLink class. Implements the LINK field. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 807
+weight: 63000
 url: /cpp/aspose.words.fields/fieldlink/
 ---
 ## FieldLink class
@@ -33,7 +34,7 @@ class FieldLink : public Aspose::Words::Fields::Field,
 | [get_InsertAsRtf](./get_insertasrtf/)() | Gets or sets whether to insert the linked object in rich-text format (RTF). |
 | [get_InsertAsText](./get_insertastext/)() | Gets or sets whether to insert the linked object in text-only format. |
 | [get_InsertAsUnicode](./get_insertasunicode/)() | Gets or sets whether to insert the linked object as Unicode text. |
-| [get_IsDirty](../field/get_isdirty/)() | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [get_IsDirty](../field/get_isdirty/)() | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [get_IsLinked](./get_islinked/)() | Gets or sets whether to reduce the file size by not storing graphics data with the document. |
 | [get_IsLocked](../field/get_islocked/)() | Gets or sets whether the field is locked (should not recalculate its result). |
 | [get_LocaleId](../field/get_localeid/)() | Gets or sets the LCID of the field. |
@@ -57,7 +58,7 @@ class FieldLink : public Aspose::Words::Fields::Field,
 | [set_InsertAsRtf](./set_insertasrtf/)(bool) | Setter for [Aspose::Words::Fields::FieldLink::get_InsertAsRtf](./get_insertasrtf/). |
 | [set_InsertAsText](./set_insertastext/)(bool) | Setter for [Aspose::Words::Fields::FieldLink::get_InsertAsText](./get_insertastext/). |
 | [set_InsertAsUnicode](./set_insertasunicode/)(bool) | Setter for [Aspose::Words::Fields::FieldLink::get_InsertAsUnicode](./get_insertasunicode/). |
-| [set_IsDirty](../field/set_isdirty/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsDirty](../field/get_isdirty/). |
+| [set_IsDirty](../field/set_isdirty/)(bool) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [set_IsLinked](./set_islinked/)(bool) | Setter for [Aspose::Words::Fields::FieldLink::get_IsLinked](./get_islinked/). |
 | [set_IsLocked](../field/set_islocked/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsLocked](../field/get_islocked/). |
 | [set_LocaleId](../field/set_localeid/)(int32_t) | Setter for [Aspose::Words::Fields::Field::get_LocaleId](../field/get_localeid/). |
@@ -85,54 +86,11 @@ enum class InsertLinkedObjectAs
     Picture,
     Bitmap
 };
-void FieldLinkedObjectsAsText(ExField::InsertLinkedObjectAs insertLinkedObjectAs)
-{
-    auto doc = MakeObject<Document>();
-    auto builder = MakeObject<DocumentBuilder>(doc);
-
-    // Below are three types of fields we can use to display contents from a linked document in the form of text.
-    // 1 -  A LINK field:
-    builder->Writeln(u"FieldLink:\n");
-    InsertFieldLink(builder, insertLinkedObjectAs, u"Word.Document.8", MyDir + u"Document.docx", nullptr, true);
-
-    // 2 -  A DDE field:
-    builder->Writeln(u"FieldDde:\n");
-    InsertFieldDde(builder, insertLinkedObjectAs, u"Excel.Sheet", MyDir + u"Spreadsheet.xlsx", u"Sheet1!R1C1", true, true);
-
-    // 3 -  A DDEAUTO field:
-    builder->Writeln(u"FieldDdeAuto:\n");
-    InsertFieldDdeAuto(builder, insertLinkedObjectAs, u"Excel.Sheet", MyDir + u"Spreadsheet.xlsx", u"Sheet1!R1C1", true);
-
-    doc->UpdateFields();
-    doc->Save(ArtifactsDir + u"Field.LINK.DDE.DDEAUTO.docx");
-}
-
-void FieldLinkedObjectsAsImage(ExField::InsertLinkedObjectAs insertLinkedObjectAs)
-{
-    auto doc = MakeObject<Document>();
-    auto builder = MakeObject<DocumentBuilder>(doc);
-
-    // Below are three types of fields we can use to display contents from a linked document in the form of an image.
-    // 1 -  A LINK field:
-    builder->Writeln(u"FieldLink:\n");
-    InsertFieldLink(builder, insertLinkedObjectAs, u"Excel.Sheet", MyDir + u"MySpreadsheet.xlsx", u"Sheet1!R2C2", true);
-
-    // 2 -  A DDE field:
-    builder->Writeln(u"FieldDde:\n");
-    InsertFieldDde(builder, insertLinkedObjectAs, u"Excel.Sheet", MyDir + u"Spreadsheet.xlsx", u"Sheet1!R1C1", true, true);
-
-    // 3 -  A DDEAUTO field:
-    builder->Writeln(u"FieldDdeAuto:\n");
-    InsertFieldDdeAuto(builder, insertLinkedObjectAs, u"Excel.Sheet", MyDir + u"Spreadsheet.xlsx", u"Sheet1!R1C1", true);
-
-    doc->UpdateFields();
-    doc->Save(ArtifactsDir + u"Field.LINK.DDE.DDEAUTO.AsImage.docx");
-}
 
 static void InsertFieldLink(SharedPtr<DocumentBuilder> builder, ExField::InsertLinkedObjectAs insertLinkedObjectAs, String progId, String sourceFullName,
                             String sourceItem, bool shouldAutoUpdate)
 {
-    auto field = System::DynamicCast<FieldLink>(builder->InsertField(FieldType::FieldLink, true));
+    auto field = System::ExplicitCast<FieldLink>(builder->InsertField(FieldType::FieldLink, true));
 
     switch (insertLinkedObjectAs)
     {
@@ -172,7 +130,7 @@ static void InsertFieldLink(SharedPtr<DocumentBuilder> builder, ExField::InsertL
 static void InsertFieldDde(SharedPtr<DocumentBuilder> builder, ExField::InsertLinkedObjectAs insertLinkedObjectAs, String progId, String sourceFullName,
                            String sourceItem, bool isLinked, bool shouldAutoUpdate)
 {
-    auto field = System::DynamicCast<FieldDde>(builder->InsertField(FieldType::FieldDDE, true));
+    auto field = System::ExplicitCast<FieldDde>(builder->InsertField(FieldType::FieldDDE, true));
 
     switch (insertLinkedObjectAs)
     {
@@ -213,7 +171,7 @@ static void InsertFieldDde(SharedPtr<DocumentBuilder> builder, ExField::InsertLi
 static void InsertFieldDdeAuto(SharedPtr<DocumentBuilder> builder, ExField::InsertLinkedObjectAs insertLinkedObjectAs, String progId, String sourceFullName,
                                String sourceItem, bool isLinked)
 {
-    auto field = System::DynamicCast<FieldDdeAuto>(builder->InsertField(FieldType::FieldDDEAuto, true));
+    auto field = System::ExplicitCast<FieldDdeAuto>(builder->InsertField(FieldType::FieldDDEAuto, true));
 
     switch (insertLinkedObjectAs)
     {
@@ -253,4 +211,4 @@ static void InsertFieldDdeAuto(SharedPtr<DocumentBuilder> builder, ExField::Inse
 
 * Class [Field](../field/)
 * Namespace [Aspose::Words::Fields](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

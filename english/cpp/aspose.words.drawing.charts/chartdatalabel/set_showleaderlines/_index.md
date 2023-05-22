@@ -1,9 +1,10 @@
 ---
-title: set_ShowLeaderLines
+title: Aspose::Words::Drawing::Charts::ChartDataLabel::set_ShowLeaderLines method
+linktitle: set_ShowLeaderLines
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Drawing::Charts::ChartDataLabel::get_ShowLeaderLines.'
+description: 'Aspose::Words::Drawing::Charts::ChartDataLabel::set_ShowLeaderLines method. Setter for Aspose::Words::Drawing::Charts::ChartDataLabel::get_ShowLeaderLines in C++.'
 type: docs
-weight: 300
+weight: 24000
 url: /cpp/aspose.words.drawing.charts/chartdatalabel/set_showleaderlines/
 ---
 ## ChartDataLabel::set_ShowLeaderLines method
@@ -19,4 +20,4 @@ void Aspose::Words::Drawing::Charts::ChartDataLabel::set_ShowLeaderLines(bool va
 
 * Class [ChartDataLabel](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

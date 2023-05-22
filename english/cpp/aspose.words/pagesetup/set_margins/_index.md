@@ -1,9 +1,10 @@
 ---
-title: set_Margins
+title: Aspose::Words::PageSetup::set_Margins method
+linktitle: set_Margins
 second_title: Aspose.Words for C++ API Reference
-description: Sets preset Margins of the page.
+description: 'Aspose::Words::PageSetup::set_Margins method. Sets preset Margins of the page in C++.'
 type: docs
-weight: 924
+weight: 72000
 url: /cpp/aspose.words/pagesetup/set_margins/
 ---
 ## PageSetup::set_Margins method
@@ -20,4 +21,4 @@ void Aspose::Words::PageSetup::set_Margins(Aspose::Words::Margins value)
 * Enum [Margins](../../margins/)
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

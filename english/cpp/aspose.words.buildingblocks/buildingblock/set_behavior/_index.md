@@ -1,9 +1,10 @@
 ---
-title: set_Behavior
+title: Aspose::Words::BuildingBlocks::BuildingBlock::set_Behavior method
+linktitle: set_Behavior
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::BuildingBlocks::BuildingBlock::get_Behavior.'
+description: 'Aspose::Words::BuildingBlocks::BuildingBlock::set_Behavior method. Setter for Aspose::Words::BuildingBlocks::BuildingBlock::get_Behavior in C++.'
 type: docs
-weight: 209
+weight: 17000
 url: /cpp/aspose.words.buildingblocks/buildingblock/set_behavior/
 ---
 ## BuildingBlock::set_Behavior method
@@ -20,4 +21,4 @@ void Aspose::Words::BuildingBlocks::BuildingBlock::set_Behavior(Aspose::Words::B
 * Enum [BuildingBlockBehavior](../../buildingblockbehavior/)
 * Class [BuildingBlock](../)
 * Namespace [Aspose::Words::BuildingBlocks](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

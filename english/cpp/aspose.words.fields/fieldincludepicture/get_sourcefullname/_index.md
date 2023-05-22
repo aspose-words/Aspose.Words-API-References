@@ -1,9 +1,10 @@
 ---
-title: get_SourceFullName
+title: Aspose::Words::Fields::FieldIncludePicture::get_SourceFullName method
+linktitle: get_SourceFullName
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the location of the picture using an IRI.
+description: 'Aspose::Words::Fields::FieldIncludePicture::get_SourceFullName method. Gets or sets the location of the picture using an IRI in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.fields/fieldincludepicture/get_sourcefullname/
 ---
 ## FieldIncludePicture::get_SourceFullName method
@@ -27,7 +28,7 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 
 // Below are two similar field types that we can use to display images linked from the local file system.
 // 1 -  The INCLUDEPICTURE field:
-auto fieldIncludePicture = System::DynamicCast<FieldIncludePicture>(builder->InsertField(FieldType::FieldIncludePicture, true));
+auto fieldIncludePicture = System::ExplicitCast<FieldIncludePicture>(builder->InsertField(FieldType::FieldIncludePicture, true));
 fieldIncludePicture->set_SourceFullName(ImageDir + u"Transparent background logo.png");
 
 ASSERT_TRUE(System::Text::RegularExpressions::Regex::Match(fieldIncludePicture->GetFieldCode(), u" INCLUDEPICTURE  .*")->get_Success());
@@ -39,7 +40,7 @@ fieldIncludePicture->set_ResizeHorizontally(true);
 fieldIncludePicture->set_ResizeVertically(true);
 
 // 2 -  The IMPORT field:
-auto fieldImport = System::DynamicCast<FieldImport>(builder->InsertField(FieldType::FieldImport, true));
+auto fieldImport = System::ExplicitCast<FieldImport>(builder->InsertField(FieldType::FieldImport, true));
 fieldImport->set_SourceFullName(ImageDir + u"Transparent background logo.png");
 fieldImport->set_GraphicFilter(u"PNG32");
 fieldImport->set_IsLinked(true);
@@ -54,4 +55,4 @@ doc->Save(ArtifactsDir + u"Field.IMPORT.INCLUDEPICTURE.docx");
 
 * Class [FieldIncludePicture](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

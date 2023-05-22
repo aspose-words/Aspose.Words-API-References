@@ -1,9 +1,10 @@
 ---
-title: get_LocaleId
+title: Aspose::Words::Font::get_LocaleId method
+linktitle: get_LocaleId
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the locale identifier (language) of the formatted characters.
+description: 'Aspose::Words::Font::get_LocaleId method. Gets or sets the locale identifier (language) of the formatted characters in C++.'
 type: docs
-weight: 274
+weight: 22000
 url: /cpp/aspose.words/font/get_localeid/
 ---
 ## Font::get_LocaleId method
@@ -41,4 +42,4 @@ doc->Save(ArtifactsDir + u"Font.LocaleId.docx");
 
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

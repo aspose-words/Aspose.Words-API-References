@@ -1,9 +1,10 @@
 ---
-title: get_Bytes
+title: Aspose::Words::Properties::BuiltInDocumentProperties::get_Bytes method
+linktitle: get_Bytes
 second_title: Aspose.Words for C++ API Reference
-description: Represents an estimate of the number of bytes in the document.
+description: 'Aspose::Words::Properties::BuiltInDocumentProperties::get_Bytes method. Represents an estimate of the number of bytes in the document in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.properties/builtindocumentproperties/get_bytes/
 ---
 ## BuiltInDocumentProperties::get_Bytes method
@@ -131,4 +132,4 @@ private:
 
 * Class [BuiltInDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

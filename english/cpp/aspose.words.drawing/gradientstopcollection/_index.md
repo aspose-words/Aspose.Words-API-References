@@ -1,9 +1,10 @@
 ---
-title: GradientStopCollection
+title: Aspose::Words::Drawing::GradientStopCollection class
+linktitle: GradientStopCollection
 second_title: Aspose.Words for C++ API Reference
-description: Contains a collection of GradientStop objects. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Drawing::GradientStopCollection class. Contains a collection of GradientStop objects. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.drawing/gradientstopcollection/
 ---
 ## GradientStopCollection class
@@ -86,4 +87,4 @@ doc->Save(ArtifactsDir + u"Shape.GradientStops.docx", saveOptions);
 ## See Also
 
 * Namespace [Aspose::Words::Drawing](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

@@ -1,9 +1,10 @@
 ---
-title: VisitFieldStart
+title: Aspose::Words::DocumentVisitor::VisitFieldStart method
+linktitle: VisitFieldStart
 second_title: Aspose.Words for C++ API Reference
-description: Called when a field starts in the document.
+description: 'Aspose::Words::DocumentVisitor::VisitFieldStart method. Called when a field starts in the document in C++.'
 type: docs
-weight: 287
+weight: 23000
 url: /cpp/aspose.words/documentvisitor/visitfieldstart/
 ---
 ## DocumentVisitor::VisitFieldStart method
@@ -127,4 +128,4 @@ private:
 * Class [FieldStart](../../../aspose.words.fields/fieldstart/)
 * Class [DocumentVisitor](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

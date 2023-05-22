@@ -1,9 +1,10 @@
 ---
-title: get_PageSetup
+title: Aspose::Words::DocumentBuilder::get_PageSetup method
+linktitle: get_PageSetup
 second_title: Aspose.Words for C++ API Reference
-description: Returns an object that represents current page setup and section properties.
+description: 'Aspose::Words::DocumentBuilder::get_PageSetup method. Returns an object that represents current page setup and section properties in C++.'
 type: docs
-weight: 287
+weight: 23000
 url: /cpp/aspose.words/documentbuilder/get_pagesetup/
 ---
 ## DocumentBuilder::get_PageSetup method
@@ -53,4 +54,4 @@ doc->Save(ArtifactsDir + u"PageSetup.ClearFormatting.docx");
 * Class [PageSetup](../../pagesetup/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,15 +1,16 @@
 ---
-title: set_UseSakaEraCalendar
+title: Aspose::Words::Fields::FieldCreateDate::set_UseSakaEraCalendar method
+linktitle: set_UseSakaEraCalendar
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fields::FieldCreateDate::get_UseSakaEraCalendar.'
+description: 'Aspose::Words::Fields::FieldCreateDate::set_UseSakaEraCalendar method. Sets whether to use the Saka Era calendar in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.fields/fieldcreatedate/set_usesakaeracalendar/
 ---
 ## FieldCreateDate::set_UseSakaEraCalendar method
 
 
-Setter for [Aspose::Words::Fields::FieldCreateDate::get_UseSakaEraCalendar](../get_usesakaeracalendar/).
+Sets whether to use the Saka Era calendar.
 
 ```cpp
 void Aspose::Words::Fields::FieldCreateDate::set_UseSakaEraCalendar(bool value)
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldCreateDate::set_UseSakaEraCalendar(bool value)
 
 * Class [FieldCreateDate](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

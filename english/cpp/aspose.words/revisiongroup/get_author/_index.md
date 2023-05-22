@@ -1,9 +1,10 @@
 ---
-title: get_Author
+title: Aspose::Words::RevisionGroup::get_Author method
+linktitle: get_Author
 second_title: Aspose.Words for C++ API Reference
-description: Gets the author of this revision group.
+description: 'Aspose::Words::RevisionGroup::get_Author method. Gets the author of this revision group in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words/revisiongroup/get_author/
 ---
 ## RevisionGroup::get_Author method
@@ -38,4 +39,4 @@ for (const auto& group : doc->get_Revisions()->get_Groups())
 
 * Class [RevisionGroup](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

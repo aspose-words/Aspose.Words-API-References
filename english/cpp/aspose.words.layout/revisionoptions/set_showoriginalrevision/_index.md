@@ -1,9 +1,10 @@
 ---
-title: set_ShowOriginalRevision
+title: Aspose::Words::Layout::RevisionOptions::set_ShowOriginalRevision method
+linktitle: set_ShowOriginalRevision
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Layout::RevisionOptions::get_ShowOriginalRevision.'
+description: 'Aspose::Words::Layout::RevisionOptions::set_ShowOriginalRevision method. Setter for Aspose::Words::Layout::RevisionOptions::get_ShowOriginalRevision in C++.'
 type: docs
-weight: 495
+weight: 39000
 url: /cpp/aspose.words.layout/revisionoptions/set_showoriginalrevision/
 ---
 ## RevisionOptions::set_ShowOriginalRevision method
@@ -19,4 +20,4 @@ void Aspose::Words::Layout::RevisionOptions::set_ShowOriginalRevision(bool value
 
 * Class [RevisionOptions](../)
 * Namespace [Aspose::Words::Layout](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

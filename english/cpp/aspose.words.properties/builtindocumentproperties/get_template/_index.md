@@ -1,9 +1,10 @@
 ---
-title: get_Template
+title: Aspose::Words::Properties::BuiltInDocumentProperties::get_Template method
+linktitle: get_Template
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the informational name of the document template.
+description: 'Aspose::Words::Properties::BuiltInDocumentProperties::get_Template method. Gets or sets the informational name of the document template in C++.'
 type: docs
-weight: 339
+weight: 27000
 url: /cpp/aspose.words.properties/builtindocumentproperties/get_template/
 ---
 ## BuiltInDocumentProperties::get_Template method
@@ -62,4 +63,4 @@ doc->Save(ArtifactsDir + u"DocumentProperties.Origin.docx");
 
 * Class [BuiltInDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

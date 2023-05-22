@@ -1,9 +1,10 @@
 ---
-title: get_VerticalAlignment
+title: Aspose::Words::PageSetup::get_VerticalAlignment method
+linktitle: get_VerticalAlignment
 second_title: Aspose.Words for C++ API Reference
-description: Returns or sets the vertical alignment of text on each page in a document or section.
+description: 'Aspose::Words::PageSetup::get_VerticalAlignment method. Returns or sets the vertical alignment of text on each page in a document or section in C++.'
 type: docs
-weight: 599
+weight: 47000
 url: /cpp/aspose.words/pagesetup/get_verticalalignment/
 ---
 ## PageSetup::get_VerticalAlignment method
@@ -53,4 +54,4 @@ doc->Save(ArtifactsDir + u"PageSetup.ClearFormatting.docx");
 * Enum [PageVerticalAlignment](../../pageverticalalignment/)
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

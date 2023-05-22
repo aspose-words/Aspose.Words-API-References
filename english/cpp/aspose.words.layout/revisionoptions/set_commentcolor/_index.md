@@ -1,9 +1,10 @@
 ---
-title: set_CommentColor
+title: Aspose::Words::Layout::RevisionOptions::set_CommentColor method
+linktitle: set_CommentColor
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Layout::RevisionOptions::get_CommentColor.'
+description: 'Aspose::Words::Layout::RevisionOptions::set_CommentColor method. Setter for Aspose::Words::Layout::RevisionOptions::get_CommentColor in C++.'
 type: docs
-weight: 287
+weight: 23000
 url: /cpp/aspose.words.layout/revisionoptions/set_commentcolor/
 ---
 ## RevisionOptions::set_CommentColor method
@@ -20,4 +21,4 @@ void Aspose::Words::Layout::RevisionOptions::set_CommentColor(Aspose::Words::Lay
 * Enum [RevisionColor](../../revisioncolor/)
 * Class [RevisionOptions](../)
 * Namespace [Aspose::Words::Layout](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

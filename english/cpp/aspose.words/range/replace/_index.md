@@ -1,9 +1,10 @@
 ---
-title: Replace
+title: Aspose::Words::Range::Replace method
+linktitle: Replace
 second_title: Aspose.Words for C++ API Reference
-description: Replaces all occurrences of a character pattern specified by a regular expression with another string.
+description: 'Aspose::Words::Range::Replace method. Replaces all occurrences of a character pattern specified by a regular expression with another string in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words/range/replace/
 ---
 ## Range::Replace(const System::SharedPtr\<System::Text::RegularExpressions::Regex\>\&, const System::String\&) method
@@ -60,7 +61,7 @@ ASSERT_EQ(u"I decided to get the curtains in lavender, ideal for the lavender-ac
 
 * Class [Range](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## Range::Replace(const System::SharedPtr\<System::Text::RegularExpressions::Regex\>\&, const System::String\&, const System::SharedPtr\<Aspose::Words::Replacing::FindReplaceOptions\>\&) method
 
 
@@ -178,7 +179,7 @@ private:
         auto subDoc = MakeObject<Document>(MyDir + u"Document.docx");
 
         // Insert a document after the paragraph containing the matched text.
-        auto para = System::DynamicCast<Paragraph>(args->get_MatchNode()->get_ParentNode());
+        auto para = System::ExplicitCast<Paragraph>(args->get_MatchNode()->get_ParentNode());
         InsertDocument(para, subDoc);
 
         // Remove the paragraph with the matched text.
@@ -203,7 +204,7 @@ static void InsertDocument(SharedPtr<Node> insertionDestination, SharedPtr<Docum
                 // Skip the node if it is the last empty paragraph in a section.
                 if (srcNode->get_NodeType() == NodeType::Paragraph)
                 {
-                    auto para = System::DynamicCast<Paragraph>(srcNode);
+                    auto para = System::ExplicitCast<Paragraph>(srcNode);
                     if (para->get_IsEndOfSection() && !para->get_HasChildNodes())
                     {
                         continue;
@@ -229,7 +230,7 @@ static void InsertDocument(SharedPtr<Node> insertionDestination, SharedPtr<Docum
 * Class [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)
 * Class [Range](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## Range::Replace(const System::String\&, const System::String\&) method
 
 
@@ -323,7 +324,7 @@ ASSERT_EQ(String(u"Every paragraph that ends with a full stop like this one will
 
 * Class [Range](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## Range::Replace(const System::String\&, const System::String\&, const System::SharedPtr\<Aspose::Words::Replacing::FindReplaceOptions\>\&) method
 
 
@@ -457,4 +458,4 @@ ASSERT_EQ(String(u"Eggs\a50\a\a") + u"Potatoes\a20\a\a", table->GetText().Trim()
 * Class [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)
 * Class [Range](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

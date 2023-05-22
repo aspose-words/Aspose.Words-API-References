@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Framesets::Frameset::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Framesets::Frameset class in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.framesets/frameset/is/
 ---
 ## Frameset::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Framesets::Frameset::Is(const System::TypeInfo &targ
 
 * Class [Frameset](../)
 * Namespace [Aspose::Words::Framesets](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

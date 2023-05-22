@@ -1,9 +1,10 @@
 ---
-title: FieldUpdatingProgressArgs
+title: Aspose::Words::Fields::FieldUpdatingProgressArgs class
+linktitle: FieldUpdatingProgressArgs
 second_title: Aspose.Words for C++ API Reference
-description: Provides data for the field updating progress event.
+description: 'Aspose::Words::Fields::FieldUpdatingProgressArgs class. Provides data for the field updating progress event in C++.'
 type: docs
-weight: 1379
+weight: 107000
 url: /cpp/aspose.words.fields/fieldupdatingprogressargs/
 ---
 ## FieldUpdatingProgressArgs class
@@ -28,4 +29,4 @@ class FieldUpdatingProgressArgs : public System::Object
 ## See Also
 
 * Namespace [Aspose::Words::Fields](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

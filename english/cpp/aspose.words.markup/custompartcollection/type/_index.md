@@ -1,9 +1,10 @@
 ---
-title: Type
+title: Aspose::Words::Markup::CustomPartCollection::Type method
+linktitle: Type
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Type method of Aspose::Words::Markup::CustomPartCollection class in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words.markup/custompartcollection/type/
 ---
 ## CustomPartCollection::Type method
@@ -19,4 +20,4 @@ static const System::TypeInfo & Aspose::Words::Markup::CustomPartCollection::Typ
 
 * Class [CustomPartCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

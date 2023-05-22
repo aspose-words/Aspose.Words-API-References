@@ -1,9 +1,10 @@
 ---
-title: RemoveAt
+title: Aspose::Words::Drawing::GradientStopCollection::RemoveAt method
+linktitle: RemoveAt
 second_title: Aspose.Words for C++ API Reference
-description: Removes a GradientStop from the collection at a specified index.
+description: 'Aspose::Words::Drawing::GradientStopCollection::RemoveAt method. Removes a GradientStop from the collection at a specified index in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words.drawing/gradientstopcollection/removeat/
 ---
 ## GradientStopCollection::RemoveAt method
@@ -77,4 +78,4 @@ doc->Save(ArtifactsDir + u"Shape.GradientStops.docx", saveOptions);
 * Class [GradientStop](../../gradientstop/)
 * Class [GradientStopCollection](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

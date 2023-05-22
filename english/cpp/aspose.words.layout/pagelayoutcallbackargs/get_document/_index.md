@@ -1,9 +1,10 @@
 ---
-title: get_Document
+title: Aspose::Words::Layout::PageLayoutCallbackArgs::get_Document method
+linktitle: get_Document
 second_title: Aspose.Words for C++ API Reference
-description: Gets document.
+description: 'Aspose::Words::Layout::PageLayoutCallbackArgs::get_Document method. Gets document in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.layout/pagelayoutcallbackargs/get_document/
 ---
 ## PageLayoutCallbackArgs::get_Document method
@@ -93,4 +94,4 @@ private:
 * Class [Document](../../../aspose.words/document/)
 * Class [PageLayoutCallbackArgs](../)
 * Namespace [Aspose::Words::Layout](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

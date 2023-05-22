@@ -1,9 +1,10 @@
 ---
-title: get_LastSavedTime
+title: Aspose::Words::Properties::BuiltInDocumentProperties::get_LastSavedTime method
+linktitle: get_LastSavedTime
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the time of the last save in UTC.
+description: 'Aspose::Words::Properties::BuiltInDocumentProperties::get_LastSavedTime method. Gets or sets the time of the last save in UTC in C++.'
 type: docs
-weight: 209
+weight: 17000
 url: /cpp/aspose.words.properties/builtindocumentproperties/get_lastsavedtime/
 ---
 ## BuiltInDocumentProperties::get_LastSavedTime method
@@ -56,49 +57,8 @@ properties->set_LastSavedTime(System::DateTime::get_Now());
 doc->Save(ArtifactsDir + u"DocumentProperties.Origin.docx");
 ```
 
-
-Shows how to use the SAVEDATE field to display the date/time of the document's most recent save operation performed using Microsoft Word. 
-```cpp
-auto doc = MakeObject<Document>(MyDir + u"Document.docx");
-auto builder = MakeObject<DocumentBuilder>(doc);
-builder->MoveToDocumentEnd();
-builder->Writeln(u" Date this document was last saved:");
-
-// We can use the SAVEDATE field to display the last save operation's date and time on the document.
-// The save operation that these fields refer to is the manual save in an application like Microsoft Word,
-// not the document's Save method.
-// Below are three different calendar types according to which the SAVEDATE field can display the date/time.
-// 1 -  Islamic Lunar Calendar:
-builder->Write(u"According to the Lunar Calendar - ");
-auto field = System::DynamicCast<FieldSaveDate>(builder->InsertField(FieldType::FieldSaveDate, true));
-field->set_UseLunarCalendar(true);
-
-ASSERT_EQ(u" SAVEDATE  \\h", field->GetFieldCode());
-
-// 2 -  Umm al-Qura calendar:
-builder->Write(u"\nAccording to the Umm al-Qura calendar - ");
-field = System::DynamicCast<FieldSaveDate>(builder->InsertField(FieldType::FieldSaveDate, true));
-field->set_UseUmAlQuraCalendar(true);
-
-ASSERT_EQ(u" SAVEDATE  \\u", field->GetFieldCode());
-
-// 3 -  Indian National calendar:
-builder->Write(u"\nAccording to the Indian National calendar - ");
-field = System::DynamicCast<FieldSaveDate>(builder->InsertField(FieldType::FieldSaveDate, true));
-field->set_UseSakaEraCalendar(true);
-
-ASSERT_EQ(u" SAVEDATE  \\s", field->GetFieldCode());
-
-// The SAVEDATE fields draw their date/time values from the LastSavedTime built-in property.
-// The document's Save method will not update this value, but we can still update it manually.
-doc->get_BuiltInDocumentProperties()->set_LastSavedTime(System::DateTime::get_Now());
-
-doc->UpdateFields();
-doc->Save(ArtifactsDir + u"Field.SAVEDATE.docx");
-```
-
 ## See Also
 
 * Class [BuiltInDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: set_StyleIdentifier
+title: Aspose::Words::Font::set_StyleIdentifier method
+linktitle: set_StyleIdentifier
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Font::get_StyleIdentifier.'
+description: 'Aspose::Words::Font::set_StyleIdentifier method. Setter for Aspose::Words::Font::get_StyleIdentifier in C++.'
 type: docs
-weight: 1223
+weight: 95000
 url: /cpp/aspose.words/font/set_styleidentifier/
 ---
 ## Font::set_StyleIdentifier method
@@ -20,4 +21,4 @@ void Aspose::Words::Font::set_StyleIdentifier(Aspose::Words::StyleIdentifier val
 * Enum [StyleIdentifier](../../styleidentifier/)
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

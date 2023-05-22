@@ -1,9 +1,10 @@
 ---
-title: get_IsEndOfHeaderFooter
+title: Aspose::Words::Paragraph::get_IsEndOfHeaderFooter method
+linktitle: get_IsEndOfHeaderFooter
 second_title: Aspose.Words for C++ API Reference
-description: True if this paragraph is the last paragraph in the HeaderFooter (main text story) of a Section; false otherwise.
+description: 'Aspose::Words::Paragraph::get_IsEndOfHeaderFooter method. True if this paragraph is the last paragraph in the HeaderFooter (main text story) of a Section; false otherwise in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words/paragraph/get_isendofheaderfooter/
 ---
 ## Paragraph::get_IsEndOfHeaderFooter method
@@ -55,4 +56,4 @@ doc->Save(ArtifactsDir + u"HeaderFooter.Create.docx");
 
 * Class [Paragraph](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

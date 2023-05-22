@@ -1,9 +1,10 @@
 ---
-title: TxtLeadingSpacesOptions
+title: Aspose::Words::Loading::TxtLeadingSpacesOptions enum
+linktitle: TxtLeadingSpacesOptions
 second_title: Aspose.Words for C++ API Reference
-description: Specifies available options for leading space handling during import from Text file.
+description: 'Aspose::Words::Loading::TxtLeadingSpacesOptions enum. Specifies available options for leading space handling during import from Text file in C++.'
 type: docs
-weight: 222
+weight: 18000
 url: /cpp/aspose.words.loading/txtleadingspacesoptions/
 ---
 ## TxtLeadingSpacesOptions enum
@@ -67,7 +68,7 @@ case TxtLeadingSpacesOptions::ConvertToIndent:
 
 case TxtLeadingSpacesOptions::Preserve:
     ASSERT_TRUE(paragraphs->LINQ_All([](SharedPtr<Node> p)
-                                     { return (System::DynamicCast<Paragraph>(p))->get_ParagraphFormat()->get_FirstLineIndent() == 0.0; }));
+                                     { return (System::ExplicitCast<Paragraph>(p))->get_ParagraphFormat()->get_FirstLineIndent() == 0.0; }));
     ASSERT_TRUE(paragraphs->idx_get(0)->GetText().StartsWith(u"      Line 1"));
     ASSERT_TRUE(paragraphs->idx_get(1)->GetText().StartsWith(u"    Line 2"));
     ASSERT_TRUE(paragraphs->idx_get(2)->GetText().StartsWith(u" Line 3"));
@@ -75,7 +76,7 @@ case TxtLeadingSpacesOptions::Preserve:
 
 case TxtLeadingSpacesOptions::Trim:
     ASSERT_TRUE(paragraphs->LINQ_All([](SharedPtr<Node> p)
-                                     { return (System::DynamicCast<Paragraph>(p))->get_ParagraphFormat()->get_FirstLineIndent() == 0.0; }));
+                                     { return (System::ExplicitCast<Paragraph>(p))->get_ParagraphFormat()->get_FirstLineIndent() == 0.0; }));
     ASSERT_TRUE(paragraphs->idx_get(0)->GetText().StartsWith(u"Line 1"));
     ASSERT_TRUE(paragraphs->idx_get(1)->GetText().StartsWith(u"Line 2"));
     ASSERT_TRUE(paragraphs->idx_get(2)->GetText().StartsWith(u"Line 3"));
@@ -101,4 +102,4 @@ case TxtTrailingSpacesOptions::Trim:
 ## See Also
 
 * Namespace [Aspose::Words::Loading](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

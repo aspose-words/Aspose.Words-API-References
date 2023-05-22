@@ -1,9 +1,10 @@
 ---
-title: set_ListName
+title: Aspose::Words::Fields::FieldListNum::set_ListName method
+linktitle: set_ListName
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fields::FieldListNum::get_ListName.'
+description: 'Aspose::Words::Fields::FieldListNum::set_ListName method. Setter for Aspose::Words::Fields::FieldListNum::get_ListName in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.fields/fieldlistnum/set_listname/
 ---
 ## FieldListNum::set_ListName method
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldListNum::set_ListName(const System::String &val
 
 * Class [FieldListNum](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

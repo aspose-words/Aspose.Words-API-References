@@ -1,9 +1,10 @@
 ---
-title: Respond
+title: Aspose::Words::Fields::IFieldUserPromptRespondent::Respond method
+linktitle: Respond
 second_title: Aspose.Words for C++ API Reference
-description: When implemented, returns a response from the user on prompting. Your implementation should return null to indicate that the user has not responded to the prompt (i.e. the user has pressed the Cancel button in the prompt window).
+description: 'Aspose::Words::Fields::IFieldUserPromptRespondent::Respond method. When implemented, returns a response from the user on prompting. Your implementation should return null to indicate that the user has not responded to the prompt (i.e. the user has pressed the Cancel button in the prompt window) in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.fields/ifielduserpromptrespondent/respond/
 ---
 ## IFieldUserPromptRespondent::Respond method
@@ -29,4 +30,4 @@ User response (i.e. confirmed value contained in the prompt window).
 
 * Interface [IFieldUserPromptRespondent](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

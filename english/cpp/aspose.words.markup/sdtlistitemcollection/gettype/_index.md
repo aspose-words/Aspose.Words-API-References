@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Markup::SdtListItemCollection::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Markup::SdtListItemCollection class in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words.markup/sdtlistitemcollection/gettype/
 ---
 ## SdtListItemCollection::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Markup::SdtListItemCollection::G
 
 * Class [SdtListItemCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

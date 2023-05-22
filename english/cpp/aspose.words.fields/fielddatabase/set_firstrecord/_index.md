@@ -1,9 +1,10 @@
 ---
-title: set_FirstRecord
+title: Aspose::Words::Fields::FieldDatabase::set_FirstRecord method
+linktitle: set_FirstRecord
 second_title: Aspose.Words for C++ API Reference
-description: Sets the integral record number of the first data record to insert.
+description: 'Aspose::Words::Fields::FieldDatabase::set_FirstRecord method. Sets the integral record number of the first data record to insert in C++.'
 type: docs
-weight: 196
+weight: 16000
 url: /cpp/aspose.words.fields/fielddatabase/set_firstrecord/
 ---
 ## FieldDatabase::set_FirstRecord method
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldDatabase::set_FirstRecord(const System::String 
 
 * Class [FieldDatabase](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

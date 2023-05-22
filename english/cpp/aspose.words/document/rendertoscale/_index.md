@@ -1,9 +1,10 @@
 ---
-title: RenderToScale
+title: Aspose::Words::Document::RenderToScale method
+linktitle: RenderToScale
 second_title: Aspose.Words for C++ API Reference
-description: Renders a document page into a object to a specified scale.
+description: 'Aspose::Words::Document::RenderToScale method. Renders a document page into a object to a specified scale in C++.'
 type: docs
-weight: 898
+weight: 70000
 url: /cpp/aspose.words/document/rendertoscale/
 ---
 ## Document::RenderToScale method
@@ -86,4 +87,4 @@ int imgHeight = thumbSize.get_Height() * thumbRows;
 
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

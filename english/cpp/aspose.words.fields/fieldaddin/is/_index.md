@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Fields::FieldAddIn::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Fields::FieldAddIn class in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.fields/fieldaddin/is/
 ---
 ## FieldAddIn::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Fields::FieldAddIn::Is(const System::TypeInfo &targe
 
 * Class [FieldAddIn](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

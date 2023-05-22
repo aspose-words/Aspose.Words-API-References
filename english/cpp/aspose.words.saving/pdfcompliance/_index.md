@@ -1,9 +1,10 @@
 ---
-title: PdfCompliance
+title: Aspose::Words::Saving::PdfCompliance enum
+linktitle: PdfCompliance
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the PDF standards compliance level.
+description: 'Aspose::Words::Saving::PdfCompliance enum. Specifies the PDF standards compliance level in C++.'
 type: docs
-weight: 937
+weight: 73000
 url: /cpp/aspose.words.saving/pdfcompliance/
 ---
 ## PdfCompliance enum
@@ -55,4 +56,4 @@ doc->Save(ArtifactsDir + u"PdfSaveOptions.Compliance.pdf", saveOptions);
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

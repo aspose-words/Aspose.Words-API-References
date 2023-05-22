@@ -1,9 +1,10 @@
 ---
-title: set_ZoomType
+title: Aspose::Words::Settings::ViewOptions::set_ZoomType method
+linktitle: set_ZoomType
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Settings::ViewOptions::get_ZoomType.'
+description: 'Aspose::Words::Settings::ViewOptions::set_ZoomType method. Setter for Aspose::Words::Settings::ViewOptions::get_ZoomType in C++.'
 type: docs
-weight: 183
+weight: 15000
 url: /cpp/aspose.words.settings/viewoptions/set_zoomtype/
 ---
 ## ViewOptions::set_ZoomType method
@@ -20,4 +21,4 @@ void Aspose::Words::Settings::ViewOptions::set_ZoomType(Aspose::Words::Settings:
 * Enum [ZoomType](../../zoomtype/)
 * Class [ViewOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

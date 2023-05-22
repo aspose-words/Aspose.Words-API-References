@@ -1,9 +1,10 @@
 ---
-title: get_BorderSurroundsFooter
+title: Aspose::Words::PageSetup::get_BorderSurroundsFooter method
+linktitle: get_BorderSurroundsFooter
 second_title: Aspose.Words for C++ API Reference
-description: Specifies whether the page border includes or excludes the footer.
+description: 'Aspose::Words::PageSetup::get_BorderSurroundsFooter method. Specifies whether the page border includes or excludes the footer in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words/pagesetup/get_bordersurroundsfooter/
 ---
 ## PageSetup::get_BorderSurroundsFooter method
@@ -51,4 +52,4 @@ doc->Save(ArtifactsDir + u"PageSetup.PageBorder.docx");
 
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

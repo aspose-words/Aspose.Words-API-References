@@ -1,9 +1,10 @@
 ---
-title: Type
+title: Aspose::Words::ImportFormatOptions::Type method
+linktitle: Type
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Type method of Aspose::Words::ImportFormatOptions class in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words/importformatoptions/type/
 ---
 ## ImportFormatOptions::Type method
@@ -19,4 +20,4 @@ static const System::TypeInfo & Aspose::Words::ImportFormatOptions::Type()
 
 * Class [ImportFormatOptions](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

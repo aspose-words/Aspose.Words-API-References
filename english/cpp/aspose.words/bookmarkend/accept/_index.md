@@ -1,9 +1,10 @@
 ---
-title: Accept
+title: Aspose::Words::BookmarkEnd::Accept method
+linktitle: Accept
 second_title: Aspose.Words for C++ API Reference
-description: Accepts a visitor.
+description: 'Aspose::Words::BookmarkEnd::Accept method. Accepts a visitor in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words/bookmarkend/accept/
 ---
 ## BookmarkEnd::Accept method
@@ -116,4 +117,4 @@ public:
 * Class [DocumentVisitor](../../documentvisitor/)
 * Class [BookmarkEnd](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

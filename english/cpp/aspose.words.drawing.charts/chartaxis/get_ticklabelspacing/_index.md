@@ -1,9 +1,10 @@
 ---
-title: get_TickLabelSpacing
+title: Aspose::Words::Drawing::Charts::ChartAxis::get_TickLabelSpacing method
+linktitle: get_TickLabelSpacing
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the interval, at which tick labels are drawn.
+description: 'Aspose::Words::Drawing::Charts::ChartAxis::get_TickLabelSpacing method. Gets or sets the interval, at which tick labels are drawn in C++.'
 type: docs
-weight: 326
+weight: 26000
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_ticklabelspacing/
 ---
 ## ChartAxis::get_TickLabelSpacing method
@@ -83,4 +84,4 @@ doc->Save(ArtifactsDir + u"Charts.AxisDisplayUnit.docx");
 
 * Class [ChartAxis](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

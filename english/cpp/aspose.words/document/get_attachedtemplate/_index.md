@@ -1,9 +1,10 @@
 ---
-title: get_AttachedTemplate
+title: Aspose::Words::Document::get_AttachedTemplate method
+linktitle: get_AttachedTemplate
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the full path of the template attached to the document.
+description: 'Aspose::Words::Document::get_AttachedTemplate method. Gets or sets the full path of the template attached to the document in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words/document/get_attachedtemplate/
 ---
 ## Document::get_AttachedTemplate method
@@ -46,4 +47,4 @@ doc->Save(ArtifactsDir + u"Document.DefaultTemplate.docx", options);
 
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

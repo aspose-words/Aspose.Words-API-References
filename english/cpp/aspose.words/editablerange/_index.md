@@ -1,9 +1,10 @@
 ---
-title: EditableRange
+title: Aspose::Words::EditableRange class
+linktitle: EditableRange
 second_title: Aspose.Words for C++ API Reference
-description: Represents a single editable range. To learn more, visit the  documentation article.
+description: 'Aspose::Words::EditableRange class. Represents a single editable range. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 300
+weight: 24000
 url: /cpp/aspose.words/editablerange/
 ---
 ## EditableRange class
@@ -185,4 +186,4 @@ private:
 ## See Also
 
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

@@ -1,9 +1,10 @@
 ---
-title: virtualizeEndConstIterator
+title: Aspose::Words::DigitalSignatures::DigitalSignatureCollection::virtualizeEndConstIterator method
+linktitle: virtualizeEndConstIterator
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use virtualizeEndConstIterator method of Aspose::Words::DigitalSignatures::DigitalSignatureCollection class in C++.'
 type: docs
-weight: 183
+weight: 15000
 url: /cpp/aspose.words.digitalsignatures/digitalsignaturecollection/virtualizeendconstiterator/
 ---
 ## DigitalSignatureCollection::virtualizeEndConstIterator method
@@ -20,4 +21,4 @@ virtualized_iterator * Aspose::Words::DigitalSignatures::DigitalSignatureCollect
 * Typedef [virtualized_iterator](../virtualized_iterator/)
 * Class [DigitalSignatureCollection](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

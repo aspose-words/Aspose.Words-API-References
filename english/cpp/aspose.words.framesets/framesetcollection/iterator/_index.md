@@ -1,9 +1,10 @@
 ---
-title: iterator
+title: Aspose::Words::Framesets::FramesetCollection::iterator typedef
+linktitle: iterator
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Aspose::Words::Framesets::FramesetCollection::iterator typedef of Aspose::Words::Framesets::FramesetCollection class in C++.'
 type: docs
-weight: 209
+weight: 17000
 url: /cpp/aspose.words.framesets/framesetcollection/iterator/
 ---
 ## iterator typedef
@@ -19,4 +20,4 @@ using Aspose::Words::Framesets::FramesetCollection::iterator =  typename iterato
 
 * Class [FramesetCollection](../)
 * Namespace [Aspose::Words::Framesets](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

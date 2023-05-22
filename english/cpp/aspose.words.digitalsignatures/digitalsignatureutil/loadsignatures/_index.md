@@ -1,9 +1,10 @@
 ---
-title: LoadSignatures
+title: Aspose::Words::DigitalSignatures::DigitalSignatureUtil::LoadSignatures method
+linktitle: LoadSignatures
 second_title: Aspose.Words for C++ API Reference
-description: Loads digital signatures from document using stream.
+description: 'Aspose::Words::DigitalSignatures::DigitalSignatureUtil::LoadSignatures method. Loads digital signatures from document using stream in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/
 ---
 ## DigitalSignatureUtil::LoadSignatures(const System::SharedPtr\<System::IO::Stream\>\&) method
@@ -50,7 +51,7 @@ ASSERT_EQ(1, digitalSignatures->get_Count());
 * Class [DigitalSignatureCollection](../../digitalsignaturecollection/)
 * Class [DigitalSignatureUtil](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## DigitalSignatureUtil::LoadSignatures(const System::String\&) method
 
 
@@ -118,7 +119,7 @@ ASSERT_EQ(0, DigitalSignatureUtil::LoadSignatures(ArtifactsDir + u"DigitalSignat
 * Class [DigitalSignatureCollection](../../digitalsignaturecollection/)
 * Class [DigitalSignatureUtil](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## DigitalSignatureUtil::LoadSignatures(std::basic_istream\<CharType, Traits\>\&) method
 
 
@@ -133,4 +134,4 @@ template<typename CharType,typename Traits> static System::SharedPtr<Aspose::Wor
 * Class [DigitalSignatureCollection](../../digitalsignaturecollection/)
 * Class [DigitalSignatureUtil](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: DocSaveOptions
+title: Aspose::Words::Saving::DocSaveOptions class
+linktitle: DocSaveOptions
 second_title: Aspose.Words for C++ API Reference
-description: Can be used to specify additional options when saving a document into the Doc or Dot format. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Saving::DocSaveOptions class. Can be used to specify additional options when saving a document into the Doc or Dot format. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.saving/docsaveoptions/
 ---
 ## DocSaveOptions class
@@ -114,4 +115,4 @@ ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
 
 * Class [SaveOptions](../saveoptions/)
 * Namespace [Aspose::Words::Saving](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

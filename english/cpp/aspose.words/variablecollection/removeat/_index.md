@@ -1,9 +1,10 @@
 ---
-title: RemoveAt
+title: Aspose::Words::VariableCollection::RemoveAt method
+linktitle: RemoveAt
 second_title: Aspose.Words for C++ API Reference
-description: Removes a document variable at the specified index.
+description: 'Aspose::Words::VariableCollection::RemoveAt method. Removes a document variable at the specified index in C++.'
 type: docs
-weight: 209
+weight: 17000
 url: /cpp/aspose.words/variablecollection/removeat/
 ---
 ## VariableCollection::RemoveAt method
@@ -38,7 +39,7 @@ ASSERT_EQ(3, variables->get_Count());
 
 // We can display the values of variables in the document body using DOCVARIABLE fields.
 auto builder = MakeObject<DocumentBuilder>(doc);
-auto field = System::DynamicCast<FieldDocVariable>(builder->InsertField(FieldType::FieldDocVariable, true));
+auto field = System::ExplicitCast<FieldDocVariable>(builder->InsertField(FieldType::FieldDocVariable, true));
 field->set_VariableName(u"Home address");
 field->Update();
 
@@ -94,4 +95,4 @@ ASSERT_EQ(0, variables->get_Count());
 
 * Class [VariableCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

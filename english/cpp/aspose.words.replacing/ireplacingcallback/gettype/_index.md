@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Replacing::IReplacingCallback::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Replacing::IReplacingCallback class in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.replacing/ireplacingcallback/gettype/
 ---
 ## IReplacingCallback::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Replacing::IReplacingCallback::G
 
 * Interface [IReplacingCallback](../)
 * Namespace [Aspose::Words::Replacing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

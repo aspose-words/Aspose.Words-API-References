@@ -1,9 +1,10 @@
 ---
-title: get_RevisionBarsPosition
+title: Aspose::Words::Layout::RevisionOptions::get_RevisionBarsPosition method
+linktitle: get_RevisionBarsPosition
 second_title: Aspose.Words for C++ API Reference
-description: Gets rendering position of revision bars. Default value is Outside.
+description: 'Aspose::Words::Layout::RevisionOptions::get_RevisionBarsPosition method. Gets rendering position of revision bars. Default value is Outside in C++.'
 type: docs
-weight: 183
+weight: 15000
 url: /cpp/aspose.words.layout/revisionoptions/get_revisionbarsposition/
 ---
 ## RevisionOptions::get_RevisionBarsPosition method
@@ -20,4 +21,4 @@ Aspose::Words::Drawing::HorizontalAlignment Aspose::Words::Layout::RevisionOptio
 * Enum [HorizontalAlignment](../../../aspose.words.drawing/horizontalalignment/)
 * Class [RevisionOptions](../)
 * Namespace [Aspose::Words::Layout](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

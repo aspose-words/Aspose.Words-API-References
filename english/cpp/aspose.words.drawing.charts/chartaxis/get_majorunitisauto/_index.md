@@ -1,9 +1,10 @@
 ---
-title: get_MajorUnitIsAuto
+title: Aspose::Words::Drawing::Charts::ChartAxis::get_MajorUnitIsAuto method
+linktitle: get_MajorUnitIsAuto
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets a flag indicating whether default distance between major tick marks shall be used.
+description: 'Aspose::Words::Drawing::Charts::ChartAxis::get_MajorUnitIsAuto method. Gets or sets a flag indicating whether default distance between major tick marks shall be used in C++.'
 type: docs
-weight: 170
+weight: 14000
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_majorunitisauto/
 ---
 ## ChartAxis::get_MajorUnitIsAuto method
@@ -77,4 +78,4 @@ doc->Save(ArtifactsDir + u"Charts.AxisDisplayUnit.docx");
 
 * Class [ChartAxis](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

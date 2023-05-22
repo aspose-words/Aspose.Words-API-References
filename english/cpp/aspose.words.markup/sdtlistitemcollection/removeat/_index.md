@@ -1,9 +1,10 @@
 ---
-title: RemoveAt
+title: Aspose::Words::Markup::SdtListItemCollection::RemoveAt method
+linktitle: RemoveAt
 second_title: Aspose.Words for C++ API Reference
-description: Removes a list item at the specified index.
+description: 'Aspose::Words::Markup::SdtListItemCollection::RemoveAt method. Removes a list item at the specified index in C++.'
 type: docs
-weight: 170
+weight: 14000
 url: /cpp/aspose.words.markup/sdtlistitemcollection/removeat/
 ---
 ## SdtListItemCollection::RemoveAt method
@@ -84,4 +85,4 @@ ASSERT_EQ(0, listItems->get_Count());
 
 * Class [SdtListItemCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

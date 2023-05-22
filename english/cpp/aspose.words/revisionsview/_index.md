@@ -1,9 +1,10 @@
 ---
-title: RevisionsView
+title: Aspose::Words::RevisionsView enum
+linktitle: RevisionsView
 second_title: Aspose.Words for C++ API Reference
-description: Allows to specify whether to work with the original or revised version of a document.
+description: 'Aspose::Words::RevisionsView enum. Allows to specify whether to work with the original or revised version of a document in C++.'
 type: docs
-weight: 1444
+weight: 112000
 url: /cpp/aspose.words/revisionsview/
 ---
 ## RevisionsView enum
@@ -48,4 +49,4 @@ ASSERT_EQ(u"a.", paragraphs->idx_get(2)->get_ListLabel()->get_LabelString());
 ## See Also
 
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

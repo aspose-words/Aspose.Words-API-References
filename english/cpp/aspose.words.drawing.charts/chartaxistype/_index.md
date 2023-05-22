@@ -1,9 +1,10 @@
 ---
-title: ChartAxisType
+title: Aspose::Words::Drawing::Charts::ChartAxisType enum
+linktitle: ChartAxisType
 second_title: Aspose.Words for C++ API Reference
-description: Specifies type of chart axis.
+description: 'Aspose::Words::Drawing::Charts::ChartAxisType enum. Specifies type of chart axis in C++.'
 type: docs
-weight: 339
+weight: 27000
 url: /cpp/aspose.words.drawing.charts/chartaxistype/
 ---
 ## ChartAxisType enum
@@ -104,4 +105,4 @@ static SharedPtr<Chart> AppendChart(SharedPtr<DocumentBuilder> builder, ChartTyp
 ## See Also
 
 * Namespace [Aspose::Words::Drawing::Charts](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

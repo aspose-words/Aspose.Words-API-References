@@ -1,9 +1,10 @@
 ---
-title: get_StyleName
+title: Aspose::Words::ParagraphFormat::get_StyleName method
+linktitle: get_StyleName
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the name of the paragraph style applied to this formatting.
+description: 'Aspose::Words::ParagraphFormat::get_StyleName method. Gets or sets the name of the paragraph style applied to this formatting in C++.'
 type: docs
-weight: 469
+weight: 37000
 url: /cpp/aspose.words/paragraphformat/get_stylename/
 ---
 ## ParagraphFormat::get_StyleName method
@@ -68,4 +69,4 @@ doc->Save(ArtifactsDir + u"Section.CreateManually.docx");
 
 * Class [ParagraphFormat](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

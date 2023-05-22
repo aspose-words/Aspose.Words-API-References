@@ -1,9 +1,10 @@
 ---
-title: SaveSearchCache
+title: Aspose::Words::Fonts::FontSettings::SaveSearchCache method
+linktitle: SaveSearchCache
 second_title: Aspose.Words for C++ API Reference
-description: Saves the font search cache to the stream.
+description: 'Aspose::Words::Fonts::FontSettings::SaveSearchCache method. Saves the font search cache to the stream in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words.fonts/fontsettings/savesearchcache/
 ---
 ## FontSettings::SaveSearchCache method
@@ -24,4 +25,4 @@ void Aspose::Words::Fonts::FontSettings::SaveSearchCache(const System::SharedPtr
 
 * Class [FontSettings](../)
 * Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

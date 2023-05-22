@@ -1,9 +1,10 @@
 ---
-title: get_AutoColor
+title: Aspose::Words::Font::get_AutoColor method
+linktitle: get_AutoColor
 second_title: Aspose.Words for C++ API Reference
-description: Returns the present calculated color of the text (black or white) to be used for 'auto color'. If the color is not 'auto' then returns Color.
+description: 'Aspose::Words::Font::get_AutoColor method. Returns the present calculated color of the text (black or white) to be used for ''auto color''. If the color is not ''auto'' then returns Color in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words/font/get_autocolor/
 ---
 ## Font::get_AutoColor method
@@ -58,4 +59,4 @@ doc->Save(ArtifactsDir + u"Font.SetFontAutoColor.docx");
 
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

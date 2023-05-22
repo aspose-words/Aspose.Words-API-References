@@ -1,9 +1,10 @@
 ---
-title: get_TrailingSpacesOptions
+title: Aspose::Words::Loading::TxtLoadOptions::get_TrailingSpacesOptions method
+linktitle: get_TrailingSpacesOptions
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets preferred option of a trailing space handling. Default value is Trim.
+description: 'Aspose::Words::Loading::TxtLoadOptions::get_TrailingSpacesOptions method. Gets or sets preferred option of a trailing space handling. Default value is Trim in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.loading/txtloadoptions/get_trailingspacesoptions/
 ---
 ## TxtLoadOptions::get_TrailingSpacesOptions method
@@ -59,7 +60,7 @@ case TxtLeadingSpacesOptions::ConvertToIndent:
 
 case TxtLeadingSpacesOptions::Preserve:
     ASSERT_TRUE(paragraphs->LINQ_All([](SharedPtr<Node> p)
-                                     { return (System::DynamicCast<Paragraph>(p))->get_ParagraphFormat()->get_FirstLineIndent() == 0.0; }));
+                                     { return (System::ExplicitCast<Paragraph>(p))->get_ParagraphFormat()->get_FirstLineIndent() == 0.0; }));
     ASSERT_TRUE(paragraphs->idx_get(0)->GetText().StartsWith(u"      Line 1"));
     ASSERT_TRUE(paragraphs->idx_get(1)->GetText().StartsWith(u"    Line 2"));
     ASSERT_TRUE(paragraphs->idx_get(2)->GetText().StartsWith(u" Line 3"));
@@ -67,7 +68,7 @@ case TxtLeadingSpacesOptions::Preserve:
 
 case TxtLeadingSpacesOptions::Trim:
     ASSERT_TRUE(paragraphs->LINQ_All([](SharedPtr<Node> p)
-                                     { return (System::DynamicCast<Paragraph>(p))->get_ParagraphFormat()->get_FirstLineIndent() == 0.0; }));
+                                     { return (System::ExplicitCast<Paragraph>(p))->get_ParagraphFormat()->get_FirstLineIndent() == 0.0; }));
     ASSERT_TRUE(paragraphs->idx_get(0)->GetText().StartsWith(u"Line 1"));
     ASSERT_TRUE(paragraphs->idx_get(1)->GetText().StartsWith(u"Line 2"));
     ASSERT_TRUE(paragraphs->idx_get(2)->GetText().StartsWith(u"Line 3"));
@@ -95,4 +96,4 @@ case TxtTrailingSpacesOptions::Trim:
 * Enum [TxtTrailingSpacesOptions](../../txttrailingspacesoptions/)
 * Class [TxtLoadOptions](../)
 * Namespace [Aspose::Words::Loading](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

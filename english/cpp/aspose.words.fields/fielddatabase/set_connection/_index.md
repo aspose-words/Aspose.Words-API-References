@@ -1,9 +1,10 @@
 ---
-title: set_Connection
+title: Aspose::Words::Fields::FieldDatabase::set_Connection method
+linktitle: set_Connection
 second_title: Aspose.Words for C++ API Reference
-description: Sets a connection to the data.
+description: 'Aspose::Words::Fields::FieldDatabase::set_Connection method. Sets a connection to the data in C++.'
 type: docs
-weight: 170
+weight: 14000
 url: /cpp/aspose.words.fields/fielddatabase/set_connection/
 ---
 ## FieldDatabase::set_Connection method
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldDatabase::set_Connection(const System::String &
 
 * Class [FieldDatabase](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

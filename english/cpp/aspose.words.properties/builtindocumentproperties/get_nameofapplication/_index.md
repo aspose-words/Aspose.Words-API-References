@@ -1,9 +1,10 @@
 ---
-title: get_NameOfApplication
+title: Aspose::Words::Properties::BuiltInDocumentProperties::get_NameOfApplication method
+linktitle: get_NameOfApplication
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the name of the application.
+description: 'Aspose::Words::Properties::BuiltInDocumentProperties::get_NameOfApplication method. Gets or sets the name of the application in C++.'
 type: docs
-weight: 261
+weight: 21000
 url: /cpp/aspose.words.properties/builtindocumentproperties/get_nameofapplication/
 ---
 ## BuiltInDocumentProperties::get_NameOfApplication method
@@ -54,4 +55,4 @@ doc->Save(ArtifactsDir + u"DocumentProperties.Origin.docx");
 
 * Class [BuiltInDocumentProperties](../)
 * Namespace [Aspose::Words::Properties](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

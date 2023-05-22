@@ -1,9 +1,10 @@
 ---
-title: Compare
+title: Aspose::Words::Document::Compare method
+linktitle: Compare
 second_title: Aspose.Words for C++ API Reference
-description: Compares this document with another document producing changes as number of edit and format revisions Revision.
+description: 'Aspose::Words::Document::Compare method. Compares this document with another document producing changes as number of edit and format revisions Revision in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words/document/compare/
 ---
 ## Document::Compare(const System::SharedPtr\<Aspose::Words::Document\>\&, const System::String\&, System::DateTime) method
@@ -22,13 +23,6 @@ void Aspose::Words::Document::Compare(const System::SharedPtr<Aspose::Words::Doc
 | author | const System::String\& | Initials of the author to use for revisions. |
 | dateTime | System::DateTime | The date and time to use for revisions. |
 ## Remarks
-
-
-The following document nodes are not compared at the moment:
-
-* [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/)
-* Item3
-
 
 
 
@@ -73,7 +67,7 @@ ASSERT_EQ(docOriginal->GetText(), docEdited->GetText());
 * Class [Document](../)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## Document::Compare(const System::SharedPtr\<Aspose::Words::Document\>\&, const System::String\&, System::DateTime, const System::SharedPtr\<Aspose::Words::Comparing::CompareOptions\>\&) method
 
 
@@ -125,17 +119,17 @@ builder->MoveToHeaderFooter(HeaderFooterType::HeaderPrimary);
 builder->Writeln(u"Original header contents.");
 
 // Create a clone of our document and perform a quick edit on each of the cloned document's elements.
-auto docEdited = System::DynamicCast<Document>(docOriginal->Clone(true));
+auto docEdited = System::ExplicitCast<Document>(docOriginal->Clone(true));
 SharedPtr<Paragraph> firstParagraph = docEdited->get_FirstSection()->get_Body()->get_FirstParagraph();
 
 firstParagraph->get_Runs()->idx_get(0)->set_Text(u"hello world! this is the first paragraph, after editing.");
 firstParagraph->get_ParagraphFormat()->set_Style(docEdited->get_Styles()->idx_get(StyleIdentifier::Heading1));
-(System::DynamicCast<Footnote>(docEdited->GetChild(NodeType::Footnote, 0, true)))
+(System::ExplicitCast<Footnote>(docEdited->GetChild(NodeType::Footnote, 0, true)))
     ->get_FirstParagraph()
     ->get_Runs()
     ->idx_get(1)
     ->set_Text(u"Edited endnote text.");
-(System::DynamicCast<Table>(docEdited->GetChild(NodeType::Table, 0, true)))
+(System::ExplicitCast<Table>(docEdited->GetChild(NodeType::Table, 0, true)))
     ->get_FirstRow()
     ->get_Cells()
     ->idx_get(1)
@@ -143,13 +137,13 @@ firstParagraph->get_ParagraphFormat()->set_Style(docEdited->get_Styles()->idx_ge
     ->get_Runs()
     ->idx_get(0)
     ->set_Text(u"Edited Cell 2 contents");
-(System::DynamicCast<Shape>(docEdited->GetChild(NodeType::Shape, 0, true)))
+(System::ExplicitCast<Shape>(docEdited->GetChild(NodeType::Shape, 0, true)))
     ->get_FirstParagraph()
     ->get_Runs()
     ->idx_get(0)
     ->set_Text(u"Edited textbox contents");
-(System::DynamicCast<FieldDate>(docEdited->get_Range()->get_Fields()->idx_get(0)))->set_UseLunarCalendar(true);
-(System::DynamicCast<Comment>(docEdited->GetChild(NodeType::Comment, 0, true)))
+(System::ExplicitCast<FieldDate>(docEdited->get_Range()->get_Fields()->idx_get(0)))->set_UseLunarCalendar(true);
+(System::ExplicitCast<Comment>(docEdited->GetChild(NodeType::Comment, 0, true)))
     ->get_FirstParagraph()
     ->get_Runs()
     ->idx_get(0)
@@ -186,4 +180,4 @@ docOriginal->Save(ArtifactsDir + u"Document.CompareOptions.docx");
 * Class [CompareOptions](../../../aspose.words.comparing/compareoptions/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

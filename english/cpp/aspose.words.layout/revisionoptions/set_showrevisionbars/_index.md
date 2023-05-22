@@ -1,9 +1,10 @@
 ---
-title: set_ShowRevisionBars
+title: Aspose::Words::Layout::RevisionOptions::set_ShowRevisionBars method
+linktitle: set_ShowRevisionBars
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Layout::RevisionOptions::get_ShowRevisionBars.'
+description: 'Aspose::Words::Layout::RevisionOptions::set_ShowRevisionBars method. Setter for Aspose::Words::Layout::RevisionOptions::get_ShowRevisionBars in C++.'
 type: docs
-weight: 508
+weight: 40000
 url: /cpp/aspose.words.layout/revisionoptions/set_showrevisionbars/
 ---
 ## RevisionOptions::set_ShowRevisionBars method
@@ -19,4 +20,4 @@ void Aspose::Words::Layout::RevisionOptions::set_ShowRevisionBars(bool value)
 
 * Class [RevisionOptions](../)
 * Namespace [Aspose::Words::Layout](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

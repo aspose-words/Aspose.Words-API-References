@@ -1,9 +1,10 @@
 ---
-title: AutoFitBehavior
+title: Aspose::Words::Tables::AutoFitBehavior enum
+linktitle: AutoFitBehavior
 second_title: Aspose.Words for C++ API Reference
-description: Determines how Aspose.Words resizes the table when you invoke the AutoFit() method.
+description: 'Aspose::Words::Tables::AutoFitBehavior enum. Determines how Aspose.Words resizes the table when you invoke the AutoFit() method in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words.tables/autofitbehavior/
 ---
 ## AutoFitBehavior enum
@@ -116,4 +117,4 @@ doc->Save(ArtifactsDir + u"DocumentBuilder.BuildTable.docx");
 ## See Also
 
 * Namespace [Aspose::Words::Tables](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

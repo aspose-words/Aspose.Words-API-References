@@ -1,15 +1,16 @@
 ---
-title: set_InsertHyperlink
+title: Aspose::Words::Fields::FieldRef::set_InsertHyperlink method
+linktitle: set_InsertHyperlink
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fields::FieldRef::get_InsertHyperlink.'
+description: 'Aspose::Words::Fields::FieldRef::set_InsertHyperlink method. Sets whether to create a hyperlink to the bookmarked paragraph in C++.'
 type: docs
-weight: 222
+weight: 18000
 url: /cpp/aspose.words.fields/fieldref/set_inserthyperlink/
 ---
 ## FieldRef::set_InsertHyperlink method
 
 
-Setter for [Aspose::Words::Fields::FieldRef::get_InsertHyperlink](../get_inserthyperlink/).
+Sets whether to create a hyperlink to the bookmarked paragraph.
 
 ```cpp
 void Aspose::Words::Fields::FieldRef::set_InsertHyperlink(bool value)
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldRef::set_InsertHyperlink(bool value)
 
 * Class [FieldRef](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

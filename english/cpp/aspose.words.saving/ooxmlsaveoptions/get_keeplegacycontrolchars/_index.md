@@ -1,9 +1,10 @@
 ---
-title: get_KeepLegacyControlChars
+title: Aspose::Words::Saving::OoxmlSaveOptions::get_KeepLegacyControlChars method
+linktitle: get_KeepLegacyControlChars
 second_title: Aspose.Words for C++ API Reference
-description: Keeps original representation of legacy control characters.
+description: 'Aspose::Words::Saving::OoxmlSaveOptions::get_KeepLegacyControlChars method. Keeps original representation of legacy control characters in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.saving/ooxmlsaveoptions/get_keeplegacycontrolchars/
 ---
 ## OoxmlSaveOptions::get_KeepLegacyControlChars method
@@ -45,4 +46,4 @@ ASSERT_EQ(keepLegacyControlChars ? String(u"\u0013date \\@ \"MM/dd/yyyy\"\u0014\
 
 * Class [OoxmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

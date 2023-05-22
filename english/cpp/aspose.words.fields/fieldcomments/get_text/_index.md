@@ -1,9 +1,10 @@
 ---
-title: get_Text
+title: Aspose::Words::Fields::FieldComments::get_Text method
+linktitle: get_Text
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the text of the comments.
+description: 'Aspose::Words::Fields::FieldComments::get_Text method. Gets or sets the text of the comments in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fields/fieldcomments/get_text/
 ---
 ## FieldComments::get_Text method
@@ -29,7 +30,7 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 doc->get_BuiltInDocumentProperties()->set_Comments(u"My comment.");
 
 // Create a COMMENTS field to display the value of that built-in property.
-auto field = System::DynamicCast<FieldComments>(builder->InsertField(FieldType::FieldComments, true));
+auto field = System::ExplicitCast<FieldComments>(builder->InsertField(FieldType::FieldComments, true));
 field->Update();
 
 ASSERT_EQ(u" COMMENTS ", field->GetFieldCode());
@@ -51,4 +52,4 @@ doc->Save(ArtifactsDir + u"Field.COMMENTS.docx");
 
 * Class [FieldComments](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

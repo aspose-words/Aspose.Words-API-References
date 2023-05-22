@@ -1,9 +1,10 @@
 ---
-title: set_ToaCategories
+title: Aspose::Words::Fields::FieldOptions::set_ToaCategories method
+linktitle: set_ToaCategories
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fields::FieldOptions::get_ToaCategories.'
+description: 'Aspose::Words::Fields::FieldOptions::set_ToaCategories method. Setter for Aspose::Words::Fields::FieldOptions::get_ToaCategories in C++.'
 type: docs
-weight: 547
+weight: 43000
 url: /cpp/aspose.words.fields/fieldoptions/set_toacategories/
 ---
 ## FieldOptions::set_ToaCategories method
@@ -20,4 +21,4 @@ void Aspose::Words::Fields::FieldOptions::set_ToaCategories(const System::Shared
 * Class [ToaCategories](../../toacategories/)
 * Class [FieldOptions](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

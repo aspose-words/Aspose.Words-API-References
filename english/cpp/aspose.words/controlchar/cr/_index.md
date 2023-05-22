@@ -1,9 +1,10 @@
 ---
-title: Cr
+title: Aspose::Words::ControlChar::Cr method
+linktitle: Cr
 second_title: Aspose.Words for C++ API Reference
-description: 'Carriage return character: "\x000d" or "\r". Same as ParagraphBreak.'
+description: 'Aspose::Words::ControlChar::Cr method. Carriage return character: "\x000d" or "\r". Same as ParagraphBreak in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words/controlchar/cr/
 ---
 ## ControlChar::Cr method
@@ -43,4 +44,4 @@ ASSERT_EQ(String::Format(u"Hello world!{0}", ControlChar::Cr()) + u"Hello again!
 
 * Class [ControlChar](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

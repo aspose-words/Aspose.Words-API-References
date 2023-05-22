@@ -1,9 +1,10 @@
 ---
-title: ListLevelCollection
+title: Aspose::Words::Lists::ListLevelCollection class
+linktitle: ListLevelCollection
 second_title: Aspose.Words for C++ API Reference
-description: A collection of list formatting for each level in a list. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Lists::ListLevelCollection class. A collection of list formatting for each level in a list. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.lists/listlevelcollection/
 ---
 ## ListLevelCollection class
@@ -162,4 +163,4 @@ builder->get_Document()->Save(ArtifactsDir + u"Lists.CreateAndUseListStyle.docx"
 ## See Also
 
 * Namespace [Aspose::Words::Lists](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

@@ -1,9 +1,10 @@
 ---
-title: set_KeepPageStreamOpen
+title: Aspose::Words::Saving::PageSavingArgs::set_KeepPageStreamOpen method
+linktitle: set_KeepPageStreamOpen
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::PageSavingArgs::get_KeepPageStreamOpen.'
+description: 'Aspose::Words::Saving::PageSavingArgs::set_KeepPageStreamOpen method. Setter for Aspose::Words::Saving::PageSavingArgs::get_KeepPageStreamOpen in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.saving/pagesavingargs/set_keeppagestreamopen/
 ---
 ## PageSavingArgs::set_KeepPageStreamOpen method
@@ -19,4 +20,4 @@ void Aspose::Words::Saving::PageSavingArgs::set_KeepPageStreamOpen(bool value)
 
 * Class [PageSavingArgs](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

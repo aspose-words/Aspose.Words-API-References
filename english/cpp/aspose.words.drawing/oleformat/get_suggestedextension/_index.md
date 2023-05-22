@@ -1,9 +1,10 @@
 ---
-title: get_SuggestedExtension
+title: Aspose::Words::Drawing::OleFormat::get_SuggestedExtension method
+linktitle: get_SuggestedExtension
 second_title: Aspose.Words for C++ API Reference
-description: Gets the file extension suggested for the current embedded object if you want to save it into a file.
+description: 'Aspose::Words::Drawing::OleFormat::get_SuggestedExtension method. Gets the file extension suggested for the current embedded object if you want to save it into a file in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words.drawing/oleformat/get_suggestedextension/
 ---
 ## OleFormat::get_SuggestedExtension method
@@ -23,7 +24,7 @@ System::String Aspose::Words::Drawing::OleFormat::get_SuggestedExtension()
 Shows how to extract embedded OLE objects into files. 
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"OLE spreadsheet.docm");
-auto shape = System::DynamicCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
+auto shape = System::ExplicitCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
 
 // The OLE object in the first shape is a Microsoft Excel spreadsheet.
 SharedPtr<OleFormat> oleFormat = shape->get_OleFormat();
@@ -54,4 +55,4 @@ oleFormat->Save(ArtifactsDir + u"OLE spreadsheet saved directly" + oleFormat->ge
 
 * Class [OleFormat](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

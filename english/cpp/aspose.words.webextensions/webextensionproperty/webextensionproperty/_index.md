@@ -1,9 +1,10 @@
 ---
-title: WebExtensionProperty
+title: Aspose::Words::WebExtensions::WebExtensionProperty::WebExtensionProperty constructor
+linktitle: WebExtensionProperty
 second_title: Aspose.Words for C++ API Reference
-description: Creates web extension custom property with specified name and value.
+description: 'Aspose::Words::WebExtensions::WebExtensionProperty::WebExtensionProperty constructor. Creates web extension custom property with specified name and value in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.webextensions/webextensionproperty/webextensionproperty/
 ---
 ## WebExtensionProperty::WebExtensionProperty constructor
@@ -68,4 +69,4 @@ ASSERT_EQ(0, doc->get_WebExtensionTaskPanes()->get_Count());
 
 * Class [WebExtensionProperty](../)
 * Namespace [Aspose::Words::WebExtensions](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

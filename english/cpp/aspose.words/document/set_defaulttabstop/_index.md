@@ -1,9 +1,10 @@
 ---
-title: set_DefaultTabStop
+title: Aspose::Words::Document::set_DefaultTabStop method
+linktitle: set_DefaultTabStop
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Document::get_DefaultTabStop.'
+description: 'Aspose::Words::Document::set_DefaultTabStop method. Setter for Aspose::Words::Document::get_DefaultTabStop in C++.'
 type: docs
-weight: 976
+weight: 76000
 url: /cpp/aspose.words/document/set_defaulttabstop/
 ---
 ## Document::set_DefaultTabStop method
@@ -19,4 +20,4 @@ void Aspose::Words::Document::set_DefaultTabStop(double value)
 
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

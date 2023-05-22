@@ -1,9 +1,10 @@
 ---
-title: get_Name
+title: Aspose::Words::Font::get_Name method
+linktitle: get_Name
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the name of the font.
+description: 'Aspose::Words::Font::get_Name method. Gets or sets the name of the font in C++.'
 type: docs
-weight: 313
+weight: 25000
 url: /cpp/aspose.words/font/get_name/
 ---
 ## Font::get_Name method
@@ -61,4 +62,4 @@ doc->Save(ArtifactsDir + u"Font.CreateFormattedRun.docx");
 
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

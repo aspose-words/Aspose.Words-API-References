@@ -1,9 +1,10 @@
 ---
-title: GetMathRenderer
+title: Aspose::Words::Math::OfficeMath::GetMathRenderer method
+linktitle: GetMathRenderer
 second_title: Aspose.Words for C++ API Reference
-description: Creates and returns an object that can be used to render this equation into an image.
+description: 'Aspose::Words::Math::OfficeMath::GetMathRenderer method. Creates and returns an object that can be used to render this equation into an image in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.math/officemath/getmathrenderer/
 ---
 ## OfficeMath::GetMathRenderer method
@@ -32,7 +33,7 @@ Shows how to render an Office [Math](../../) object into an image file in the lo
 ```cpp
 auto doc = MakeObject<Document>(MyDir + u"Office math.docx");
 
-auto math = System::DynamicCast<OfficeMath>(doc->GetChild(NodeType::OfficeMath, 0, true));
+auto math = System::ExplicitCast<OfficeMath>(doc->GetChild(NodeType::OfficeMath, 0, true));
 
 // Create an "ImageSaveOptions" object to pass to the node renderer's "Save" method to modify
 // how it renders the OfficeMath node into an image.
@@ -49,4 +50,4 @@ math->GetMathRenderer()->Save(ArtifactsDir + u"Shape.RenderOfficeMath.png", save
 * Class [OfficeMathRenderer](../../../aspose.words.rendering/officemathrenderer/)
 * Class [OfficeMath](../)
 * Namespace [Aspose::Words::Math](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

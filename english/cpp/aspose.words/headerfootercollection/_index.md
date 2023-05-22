@@ -1,9 +1,10 @@
 ---
-title: HeaderFooterCollection
+title: Aspose::Words::HeaderFooterCollection class
+linktitle: HeaderFooterCollection
 second_title: Aspose.Words for C++ API Reference
-description: Provides typed access to HeaderFooter nodes of a Section. To learn more, visit the  documentation article.
+description: 'Aspose::Words::HeaderFooterCollection class. Provides typed access to HeaderFooter nodes of a Section. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 404
+weight: 32000
 url: /cpp/aspose.words/headerfootercollection/
 ---
 ## HeaderFooterCollection class
@@ -111,7 +112,7 @@ for (const auto& section : System::IterateOver(doc->LINQ_OfType<SharedPtr<Sectio
     }
 
     ASSERT_EQ(0,
-              section->get_HeadersFooters()->LINQ_Count([](SharedPtr<Node> hf) { return !(System::DynamicCast<HeaderFooter>(hf))->get_IsHeader(); }));
+              section->get_HeadersFooters()->LINQ_Count([](SharedPtr<Node> hf) { return !(System::ExplicitCast<HeaderFooter>(hf))->get_IsHeader(); }));
 }
 
 doc->Save(ArtifactsDir + u"HeaderFooter.RemoveFooters.docx");
@@ -121,4 +122,4 @@ doc->Save(ArtifactsDir + u"HeaderFooter.RemoveFooters.docx");
 
 * Class [NodeCollection](../nodecollection/)
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

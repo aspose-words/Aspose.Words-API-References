@@ -1,9 +1,10 @@
 ---
-title: GetEnumerator
+title: Aspose::Words::Markup::CustomPartCollection::GetEnumerator method
+linktitle: GetEnumerator
 second_title: Aspose.Words for C++ API Reference
-description: Returns an enumerator object that can be used to iterate over all items in the collection.
+description: 'Aspose::Words::Markup::CustomPartCollection::GetEnumerator method. Returns an enumerator object that can be used to iterate over all items in the collection in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words.markup/custompartcollection/getenumerator/
 ---
 ## CustomPartCollection::GetEnumerator method
@@ -65,4 +66,4 @@ ASSERT_EQ(0, doc->get_PackageCustomParts()->get_Count());
 * Class [CustomPart](../../custompart/)
 * Class [CustomPartCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

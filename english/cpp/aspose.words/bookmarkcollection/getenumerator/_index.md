@@ -1,9 +1,10 @@
 ---
-title: GetEnumerator
+title: Aspose::Words::BookmarkCollection::GetEnumerator method
+linktitle: GetEnumerator
 second_title: Aspose.Words for C++ API Reference
-description: Returns an enumerator object.
+description: 'Aspose::Words::BookmarkCollection::GetEnumerator method. Returns an enumerator object in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words/bookmarkcollection/getenumerator/
 ---
 ## BookmarkCollection::GetEnumerator method
@@ -102,4 +103,4 @@ public:
 * Class [Bookmark](../../bookmark/)
 * Class [BookmarkCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

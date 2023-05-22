@@ -1,9 +1,10 @@
 ---
-title: begin
+title: Aspose::Words::Fonts::FontInfoCollection::begin method
+linktitle: begin
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use begin method of Aspose::Words::Fonts::FontInfoCollection class in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fonts/fontinfocollection/begin/
 ---
 ## FontInfoCollection::begin() const method
@@ -20,7 +21,7 @@ const_iterator Aspose::Words::Fonts::FontInfoCollection::begin() const noexcept
 * Typedef [const_iterator](../const_iterator/)
 * Class [FontInfoCollection](../)
 * Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## FontInfoCollection::begin() method
 
 
@@ -35,4 +36,4 @@ iterator Aspose::Words::Fonts::FontInfoCollection::begin() noexcept
 * Typedef [iterator](../iterator/)
 * Class [FontInfoCollection](../)
 * Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

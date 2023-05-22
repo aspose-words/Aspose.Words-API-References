@@ -1,9 +1,10 @@
 ---
-title: get_Result
+title: Aspose::Words::Fields::Field::get_Result method
+linktitle: get_Result
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets text that is between the field separator and field end.
+description: 'Aspose::Words::Fields::Field::get_Result method. Gets or sets text that is between the field separator and field end in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words.fields/field/get_result/
 ---
 ## Field::get_Result method
@@ -38,4 +39,4 @@ ASSERT_LE(System::Math::Abs((System::DateTime::Parse(field->get_Result()) - Syst
 
 * Class [Field](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_NumberStyle
+title: Aspose::Words::Notes::FootnoteOptions::get_NumberStyle method
+linktitle: get_NumberStyle
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the number format for automatically numbered footnotes.
+description: 'Aspose::Words::Notes::FootnoteOptions::get_NumberStyle method. Specifies the number format for automatically numbered footnotes in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.notes/footnoteoptions/get_numberstyle/
 ---
 ## FootnoteOptions::get_NumberStyle method
@@ -73,4 +74,4 @@ doc->Save(ArtifactsDir + u"InlineStory.RefMarkNumberStyle.docx");
 * Enum [NumberStyle](../../../aspose.words/numberstyle/)
 * Class [FootnoteOptions](../)
 * Namespace [Aspose::Words::Notes](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

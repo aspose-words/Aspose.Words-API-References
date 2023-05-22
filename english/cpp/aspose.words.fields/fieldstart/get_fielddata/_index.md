@@ -1,9 +1,10 @@
 ---
-title: get_FieldData
+title: Aspose::Words::Fields::FieldStart::get_FieldData method
+linktitle: get_FieldData
 second_title: Aspose.Words for C++ API Reference
-description: Gets custom field data which is associated with the field.
+description: 'Aspose::Words::Fields::FieldStart::get_FieldData method. Gets custom field data which is associated with the field in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.fields/fieldstart/get_fielddata/
 ---
 ## FieldStart::get_FieldData method
@@ -19,4 +20,4 @@ const System::ArrayPtr<uint8_t> & Aspose::Words::Fields::FieldStart::get_FieldDa
 
 * Class [FieldStart](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

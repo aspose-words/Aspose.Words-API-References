@@ -1,9 +1,10 @@
 ---
-title: set_FooterDistance
+title: Aspose::Words::PageSetup::set_FooterDistance method
+linktitle: set_FooterDistance
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::PageSetup::get_FooterDistance.'
+description: 'Aspose::Words::PageSetup::set_FooterDistance method. Setter for Aspose::Words::PageSetup::get_FooterDistance in C++.'
 type: docs
-weight: 781
+weight: 61000
 url: /cpp/aspose.words/pagesetup/set_footerdistance/
 ---
 ## PageSetup::set_FooterDistance method
@@ -19,4 +20,4 @@ void Aspose::Words::PageSetup::set_FooterDistance(double value)
 
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

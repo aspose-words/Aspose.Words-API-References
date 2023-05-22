@@ -1,9 +1,10 @@
 ---
-title: get_NodeType
+title: Aspose::Words::Markup::StructuredDocumentTag::get_NodeType method
+linktitle: get_NodeType
 second_title: Aspose.Words for C++ API Reference
-description: Returns StructuredDocumentTag.
+description: 'Aspose::Words::Markup::StructuredDocumentTag::get_NodeType method. Returns StructuredDocumentTag in C++.'
 type: docs
-weight: 313
+weight: 25000
 url: /cpp/aspose.words.markup/structureddocumenttag/get_nodetype/
 ---
 ## StructuredDocumentTag::get_NodeType method
@@ -44,7 +45,7 @@ SharedPtr<NodeCollection> tags = doc->GetChildNodes(NodeType::StructuredDocument
 
 for (const auto& node : System::IterateOver(tags))
 {
-    auto sdt = System::DynamicCast<StructuredDocumentTag>(node);
+    auto sdt = System::ExplicitCast<StructuredDocumentTag>(node);
 
     ASSERT_EQ(StyleIdentifier::Quote, sdt->get_Style()->get_StyleIdentifier());
     ASSERT_EQ(u"Quote", sdt->get_StyleName());
@@ -56,4 +57,4 @@ for (const auto& node : System::IterateOver(tags))
 * Enum [NodeType](../../../aspose.words/nodetype/)
 * Class [StructuredDocumentTag](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

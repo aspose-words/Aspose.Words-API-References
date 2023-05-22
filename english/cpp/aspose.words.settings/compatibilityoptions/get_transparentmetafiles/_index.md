@@ -1,9 +1,10 @@
 ---
-title: get_TransparentMetafiles
+title: Aspose::Words::Settings::CompatibilityOptions::get_TransparentMetafiles method
+linktitle: get_TransparentMetafiles
 second_title: Aspose.Words for C++ API Reference
-description: Specifies not to blank the area behind metafile pictures.
+description: 'Aspose::Words::Settings::CompatibilityOptions::get_TransparentMetafiles method. Specifies not to blank the area behind metafile pictures in C++.'
 type: docs
-weight: 716
+weight: 56000
 url: /cpp/aspose.words.settings/compatibilityoptions/get_transparentmetafiles/
 ---
 ## CompatibilityOptions::get_TransparentMetafiles method
@@ -19,4 +20,4 @@ bool Aspose::Words::Settings::CompatibilityOptions::get_TransparentMetafiles()
 
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: HtmlMetafileFormat
+title: Aspose::Words::Saving::HtmlMetafileFormat enum
+linktitle: HtmlMetafileFormat
 second_title: Aspose.Words for C++ API Reference
-description: Indicates the format in which metafiles are saved to HTML documents.
+description: 'Aspose::Words::Saving::HtmlMetafileFormat enum. Indicates the format in which metafiles are saved to HTML documents in C++.'
 type: docs
-weight: 768
+weight: 60000
 url: /cpp/aspose.words.saving/htmlmetafileformat/
 ---
 ## HtmlMetafileFormat enum
@@ -83,4 +84,4 @@ case HtmlMetafileFormat::EmfOrWmf:
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

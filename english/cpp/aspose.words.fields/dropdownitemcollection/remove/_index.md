@@ -1,9 +1,10 @@
 ---
-title: Remove
+title: Aspose::Words::Fields::DropDownItemCollection::Remove method
+linktitle: Remove
 second_title: Aspose.Words for C++ API Reference
-description: Removes the specified value from the collection.
+description: 'Aspose::Words::Fields::DropDownItemCollection::Remove method. Removes the specified value from the collection in C++.'
 type: docs
-weight: 209
+weight: 17000
 url: /cpp/aspose.words.fields/dropdownitemcollection/remove/
 ---
 ## DropDownItemCollection::Remove method
@@ -80,4 +81,4 @@ dropDownItems->Clear();
 
 * Class [DropDownItemCollection](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

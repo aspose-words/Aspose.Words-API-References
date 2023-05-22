@@ -1,9 +1,10 @@
 ---
-title: get_FilePath
+title: Aspose::Words::Fonts::FileFontSource::get_FilePath method
+linktitle: get_FilePath
 second_title: Aspose.Words for C++ API Reference
-description: Path to the font file.
+description: 'Aspose::Words::Fonts::FileFontSource::get_FilePath method. Path to the font file in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.fonts/filefontsource/get_filepath/
 ---
 ## FileFontSource::get_FilePath method
@@ -37,4 +38,4 @@ ASSERT_EQ(0, fileFontSource->get_Priority());
 
 * Class [FileFontSource](../)
 * Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Drawing::ImageData::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Drawing::ImageData class in C++.'
 type: docs
-weight: 261
+weight: 21000
 url: /cpp/aspose.words.drawing/imagedata/is/
 ---
 ## ImageData::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Drawing::ImageData::Is(const System::TypeInfo &targe
 
 * Class [ImageData](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

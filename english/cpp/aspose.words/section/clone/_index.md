@@ -1,9 +1,10 @@
 ---
-title: Clone
+title: Aspose::Words::Section::Clone method
+linktitle: Clone
 second_title: Aspose.Words for C++ API Reference
-description: Creates a duplicate of this section.
+description: 'Aspose::Words::Section::Clone method. Creates a duplicate of this section in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words/section/clone/
 ---
 ## Section::Clone method
@@ -53,4 +54,4 @@ ASSERT_EQ(u"Section 2\x000c"
 * Class [Section](../)
 * Class [Section](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

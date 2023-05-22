@@ -1,9 +1,10 @@
 ---
-title: get_EmbedAttachments
+title: Aspose::Words::Saving::PdfSaveOptions::get_EmbedAttachments method
+linktitle: get_EmbedAttachments
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets a value determining whether or not to embed attachments to the PDF document.
+description: 'Aspose::Words::Saving::PdfSaveOptions::get_EmbedAttachments method. Gets or sets a value determining whether or not to embed attachments to the PDF document in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words.saving/pdfsaveoptions/get_embedattachments/
 ---
 ## PdfSaveOptions::get_EmbedAttachments method
@@ -29,4 +30,4 @@ Embedding attachments is not supported when encryption is enabled. **false** val
 
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

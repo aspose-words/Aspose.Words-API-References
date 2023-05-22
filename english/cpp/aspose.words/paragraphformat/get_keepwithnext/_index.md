@@ -1,9 +1,10 @@
 ---
-title: get_KeepWithNext
+title: Aspose::Words::ParagraphFormat::get_KeepWithNext method
+linktitle: get_KeepWithNext
 second_title: Aspose.Words for C++ API Reference
-description: True if the paragraph is to remains on the same page as the paragraph that follows it.
+description: 'Aspose::Words::ParagraphFormat::get_KeepWithNext method. True if the paragraph is to remains on the same page as the paragraph that follows it in C++.'
 type: docs
-weight: 222
+weight: 18000
 url: /cpp/aspose.words/paragraphformat/get_keepwithnext/
 ---
 ## ParagraphFormat::get_KeepWithNext method
@@ -47,4 +48,4 @@ doc->Save(ArtifactsDir + u"Table.KeepTableTogether.docx");
 
 * Class [ParagraphFormat](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

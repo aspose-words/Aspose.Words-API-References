@@ -1,9 +1,10 @@
 ---
-title: set_AutoUpdate
+title: Aspose::Words::Fields::FieldDde::set_AutoUpdate method
+linktitle: set_AutoUpdate
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fields::FieldDde::get_AutoUpdate.'
+description: 'Aspose::Words::Fields::FieldDde::set_AutoUpdate method. Setter for Aspose::Words::Fields::FieldDde::get_AutoUpdate in C++.'
 type: docs
-weight: 183
+weight: 15000
 url: /cpp/aspose.words.fields/fielddde/set_autoupdate/
 ---
 ## FieldDde::set_AutoUpdate method
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldDde::set_AutoUpdate(bool value)
 
 * Class [FieldDde](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

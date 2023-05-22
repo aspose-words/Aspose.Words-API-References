@@ -1,9 +1,10 @@
 ---
-title: Clear
+title: Aspose::Words::WarningInfoCollection::Clear method
+linktitle: Clear
 second_title: Aspose.Words for C++ API Reference
-description: Removes all elements from the collection.
+description: 'Aspose::Words::WarningInfoCollection::Clear method. Removes all elements from the collection in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words/warninginfocollection/clear/
 ---
 ## WarningInfoCollection::Clear method
@@ -82,4 +83,4 @@ public:
 
 * Class [WarningInfoCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

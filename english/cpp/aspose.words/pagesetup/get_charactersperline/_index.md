@@ -1,9 +1,10 @@
 ---
-title: get_CharactersPerLine
+title: Aspose::Words::PageSetup::get_CharactersPerLine method
+linktitle: get_CharactersPerLine
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the number of characters per line in the document grid.
+description: 'Aspose::Words::PageSetup::get_CharactersPerLine method. Gets or sets the number of characters per line in the document grid in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words/pagesetup/get_charactersperline/
 ---
 ## PageSetup::get_CharactersPerLine method
@@ -49,4 +50,4 @@ doc->Save(ArtifactsDir + u"PageSetup.CharactersPerLine.docx");
 
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: FieldTC
+title: Aspose::Words::Fields::FieldTC class
+linktitle: FieldTC
 second_title: Aspose.Words for C++ API Reference
-description: Implements the TC field. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Fields::FieldTC class. Implements the TC field. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 1288
+weight: 100000
 url: /cpp/aspose.words.fields/fieldtc/
 ---
 ## FieldTC class
@@ -28,7 +29,7 @@ class FieldTC : public Aspose::Words::Fields::Field,
 | [get_FieldEnd](../field/get_fieldend/)() const | Gets the node that represents the field end. |
 | [get_FieldStart](../field/get_fieldstart/)() const | Gets the node that represents the start of the field. |
 | [get_Format](../field/get_format/)() | Gets a [FieldFormat](../fieldformat/) object that provides typed access to field's formatting. |
-| [get_IsDirty](../field/get_isdirty/)() | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [get_IsDirty](../field/get_isdirty/)() | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [get_IsLocked](../field/get_islocked/)() | Gets or sets whether the field is locked (should not recalculate its result). |
 | [get_LocaleId](../field/get_localeid/)() | Gets or sets the LCID of the field. |
 | [get_OmitPageNumber](./get_omitpagenumber/)() override | Gets or sets whether page number in TOC should be omitted for this field. |
@@ -44,7 +45,7 @@ class FieldTC : public Aspose::Words::Fields::Field,
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
 | [set_EntryLevel](./set_entrylevel/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldTC::get_EntryLevel](./get_entrylevel/). |
-| [set_IsDirty](../field/set_isdirty/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsDirty](../field/get_isdirty/). |
+| [set_IsDirty](../field/set_isdirty/)(bool) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [set_IsLocked](../field/set_islocked/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsLocked](../field/get_islocked/). |
 | [set_LocaleId](../field/set_localeid/)(int32_t) | Setter for [Aspose::Words::Fields::Field::get_LocaleId](../field/get_localeid/). |
 | [set_OmitPageNumber](./set_omitpagenumber/)(bool) | Setter for [Aspose::Words::Fields::FieldTC::get_OmitPageNumber](./get_omitpagenumber/). |
@@ -68,7 +69,7 @@ void FieldTocEntryIdentifier()
     auto builder = MakeObject<DocumentBuilder>(doc);
 
     // Insert a TOC field, which will compile all TC fields into a table of contents.
-    auto fieldToc = System::DynamicCast<FieldToc>(builder->InsertField(FieldType::FieldTOC, true));
+    auto fieldToc = System::ExplicitCast<FieldToc>(builder->InsertField(FieldType::FieldTOC, true));
 
     // Configure the field only to pick up TC entries of the "A" type, and an entry-level between 1 and 3.
     fieldToc->set_EntryIdentifier(u"A");
@@ -95,7 +96,7 @@ void FieldTocEntryIdentifier()
 
 void InsertTocEntry(SharedPtr<DocumentBuilder> builder, String text, String typeIdentifier, String entryLevel)
 {
-    auto fieldTc = System::DynamicCast<FieldTC>(builder->InsertField(FieldType::FieldTOCEntry, true));
+    auto fieldTc = System::ExplicitCast<FieldTC>(builder->InsertField(FieldType::FieldTOCEntry, true));
     fieldTc->set_OmitPageNumber(true);
     fieldTc->set_Text(text);
     fieldTc->set_TypeIdentifier(typeIdentifier);
@@ -107,4 +108,4 @@ void InsertTocEntry(SharedPtr<DocumentBuilder> builder, String text, String type
 
 * Class [Field](../field/)
 * Namespace [Aspose::Words::Fields](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

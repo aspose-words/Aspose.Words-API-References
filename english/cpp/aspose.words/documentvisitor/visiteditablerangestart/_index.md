@@ -1,9 +1,10 @@
 ---
-title: VisitEditableRangeStart
+title: Aspose::Words::DocumentVisitor::VisitEditableRangeStart method
+linktitle: VisitEditableRangeStart
 second_title: Aspose.Words for C++ API Reference
-description: Called when a start of an editable range is encountered in the document.
+description: 'Aspose::Words::DocumentVisitor::VisitEditableRangeStart method. Called when a start of an editable range is encountered in the document in C++.'
 type: docs
-weight: 248
+weight: 20000
 url: /cpp/aspose.words/documentvisitor/visiteditablerangestart/
 ---
 ## DocumentVisitor::VisitEditableRangeStart method
@@ -110,4 +111,4 @@ private:
 * Class [EditableRangeStart](../../editablerangestart/)
 * Class [DocumentVisitor](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

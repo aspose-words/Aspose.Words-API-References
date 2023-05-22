@@ -1,9 +1,10 @@
 ---
-title: get_Body
+title: Aspose::Words::Section::get_Body method
+linktitle: get_Body
 second_title: Aspose.Words for C++ API Reference
-description: Returns the Body child node of the section.
+description: 'Aspose::Words::Section::get_Body method. Returns the Body child node of the section in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words/section/get_body/
 ---
 ## Section::get_Body method
@@ -63,4 +64,4 @@ ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
 * Class [Body](../../body/)
 * Class [Section](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

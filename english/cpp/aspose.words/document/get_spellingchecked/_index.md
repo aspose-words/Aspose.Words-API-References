@@ -1,9 +1,10 @@
 ---
-title: get_SpellingChecked
+title: Aspose::Words::Document::get_SpellingChecked method
+linktitle: get_SpellingChecked
 second_title: Aspose.Words for C++ API Reference
-description: Returns true if the document has been checked for spelling.
+description: 'Aspose::Words::Document::get_SpellingChecked method. Returns true if the document has been checked for spelling in C++.'
 type: docs
-weight: 664
+weight: 52000
 url: /cpp/aspose.words/document/get_spellingchecked/
 ---
 ## Document::get_SpellingChecked method
@@ -40,4 +41,4 @@ doc->Save(ArtifactsDir + u"Document.SpellingOrGrammar.docx");
 
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

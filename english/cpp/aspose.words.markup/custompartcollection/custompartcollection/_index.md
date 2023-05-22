@@ -1,9 +1,10 @@
 ---
-title: CustomPartCollection
+title: Aspose::Words::Markup::CustomPartCollection::CustomPartCollection constructor
+linktitle: CustomPartCollection
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use CustomPartCollection constructor of Aspose::Words::Markup::CustomPartCollection class in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.markup/custompartcollection/custompartcollection/
 ---
 ## CustomPartCollection::CustomPartCollection constructor
@@ -19,4 +20,4 @@ Aspose::Words::Markup::CustomPartCollection::CustomPartCollection()
 
 * Class [CustomPartCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

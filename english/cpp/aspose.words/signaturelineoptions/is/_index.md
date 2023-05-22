@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::SignatureLineOptions::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::SignatureLineOptions class in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words/signaturelineoptions/is/
 ---
 ## SignatureLineOptions::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::SignatureLineOptions::Is(const System::TypeInfo &tar
 
 * Class [SignatureLineOptions](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

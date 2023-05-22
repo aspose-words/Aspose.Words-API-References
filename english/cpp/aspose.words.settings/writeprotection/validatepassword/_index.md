@@ -1,9 +1,10 @@
 ---
-title: ValidatePassword
+title: Aspose::Words::Settings::WriteProtection::ValidatePassword method
+linktitle: ValidatePassword
 second_title: Aspose.Words for C++ API Reference
-description: Returns true if the specified password is the same as the write-protection password the document was protected with. If document is not write-protected with password then returns false.
+description: 'Aspose::Words::Settings::WriteProtection::ValidatePassword method. Returns true if the specified password is the same as the write-protection password the document was protected with. If document is not write-protected with password then returns false in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.settings/writeprotection/validatepassword/
 ---
 ## WriteProtection::ValidatePassword method
@@ -50,4 +51,4 @@ ASSERT_EQ(String(u"Hello world! This document is protected.") + u"\rWriting text
 
 * Class [WriteProtection](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

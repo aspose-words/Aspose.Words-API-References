@@ -1,9 +1,10 @@
 ---
-title: set_Transparency
+title: Aspose::Words::Drawing::Stroke::set_Transparency method
+linktitle: set_Transparency
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Drawing::Stroke::get_Transparency.'
+description: 'Aspose::Words::Drawing::Stroke::set_Transparency method. Setter for Aspose::Words::Drawing::Stroke::get_Transparency in C++.'
 type: docs
-weight: 508
+weight: 40000
 url: /cpp/aspose.words.drawing/stroke/set_transparency/
 ---
 ## Stroke::set_Transparency method
@@ -19,4 +20,4 @@ void Aspose::Words::Drawing::Stroke::set_Transparency(double value)
 
 * Class [Stroke](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_Separator
+title: Aspose::Words::Drawing::Charts::ChartDataLabel::get_Separator method
+linktitle: get_Separator
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets string separator used for the data labels on a chart. The default is a comma, except for pie charts showing only category name and percentage, when a line break shall be used instead.
+description: 'Aspose::Words::Drawing::Charts::ChartDataLabel::get_Separator method. Gets or sets string separator used for the data labels on a chart. The default is a comma, except for pie charts showing only category name and percentage, when a line break shall be used instead in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.drawing.charts/chartdatalabel/get_separator/
 ---
 ## ChartDataLabel::get_Separator method
@@ -94,4 +95,4 @@ static void ApplyDataLabels(SharedPtr<ChartSeries> series, int labelsCount, Stri
 
 * Class [ChartDataLabel](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: idx_get
+title: Aspose::Words::Lists::ListCollection::idx_get method
+linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
-description: Gets a list by index.
+description: 'Aspose::Words::Lists::ListCollection::idx_get method. Gets a list by index in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words.lists/listcollection/idx_get/
 ---
 ## ListCollection::idx_get method
@@ -31,7 +32,7 @@ builder->Write(u"Paragraph 3");
 
 SharedPtr<NodeCollection> paras = doc->GetChildNodes(NodeType::Paragraph, true);
 
-ASSERT_EQ(0, paras->LINQ_Count([](SharedPtr<Node> n) { return System::DynamicCast<Paragraph>(n)->get_ListFormat()->get_IsListItem(); }));
+ASSERT_EQ(0, paras->LINQ_Count([](SharedPtr<Node> n) { return System::ExplicitCast<Paragraph>(n)->get_ListFormat()->get_IsListItem(); }));
 
 doc->get_Lists()->Add(ListTemplate::NumberDefault);
 SharedPtr<List> list = doc->get_Lists()->idx_get(0);
@@ -42,7 +43,7 @@ for (const auto& paragraph : System::IterateOver(paras->LINQ_OfType<SharedPtr<Pa
     paragraph->get_ListFormat()->set_ListLevelNumber(2);
 }
 
-ASSERT_EQ(3, paras->LINQ_Count([](SharedPtr<Node> n) { return System::DynamicCast<Paragraph>(n)->get_ListFormat()->get_IsListItem(); }));
+ASSERT_EQ(3, paras->LINQ_Count([](SharedPtr<Node> n) { return System::ExplicitCast<Paragraph>(n)->get_ListFormat()->get_IsListItem(); }));
 ```
 
 
@@ -69,4 +70,4 @@ std::cout << (String(u"List is the same by ListId: ") + (System::ObjectExt::Equa
 * Class [List](../../list/)
 * Class [ListCollection](../)
 * Namespace [Aspose::Words::Lists](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_TabPosition
+title: Aspose::Words::Lists::ListLevel::get_TabPosition method
+linktitle: get_TabPosition
 second_title: Aspose.Words for C++ API Reference
-description: Returns or sets the tab position (in points) for the list level.
+description: 'Aspose::Words::Lists::ListLevel::get_TabPosition method. Returns or sets the tab position (in points) for the list level in C++.'
 type: docs
-weight: 209
+weight: 17000
 url: /cpp/aspose.words.lists/listlevel/get_tabposition/
 ---
 ## ListLevel::get_TabPosition method
@@ -81,4 +82,4 @@ builder->get_Document()->Save(ArtifactsDir + u"Lists.CreateCustomList.docx");
 
 * Class [ListLevel](../)
 * Namespace [Aspose::Words::Lists](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

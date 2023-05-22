@@ -1,9 +1,10 @@
 ---
-title: set_JpegQuality
+title: Aspose::Words::Saving::FixedPageSaveOptions::set_JpegQuality method
+linktitle: set_JpegQuality
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::FixedPageSaveOptions::get_JpegQuality.'
+description: 'Aspose::Words::Saving::FixedPageSaveOptions::set_JpegQuality method. Setter for Aspose::Words::Saving::FixedPageSaveOptions::get_JpegQuality in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words.saving/fixedpagesaveoptions/set_jpegquality/
 ---
 ## FixedPageSaveOptions::set_JpegQuality method
@@ -19,4 +20,4 @@ void Aspose::Words::Saving::FixedPageSaveOptions::set_JpegQuality(int32_t value)
 
 * Class [FixedPageSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

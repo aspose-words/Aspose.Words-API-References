@@ -1,9 +1,10 @@
 ---
-title: set_ForeColor
+title: Aspose::Words::Drawing::Stroke::set_ForeColor method
+linktitle: set_ForeColor
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Drawing::Stroke::get_ForeColor.'
+description: 'Aspose::Words::Drawing::Stroke::set_ForeColor method. Setter for Aspose::Words::Drawing::Stroke::get_ForeColor in C++.'
 type: docs
-weight: 404
+weight: 32000
 url: /cpp/aspose.words.drawing/stroke/set_forecolor/
 ---
 ## Stroke::set_ForeColor method
@@ -19,4 +20,4 @@ void Aspose::Words::Drawing::Stroke::set_ForeColor(System::Drawing::Color value)
 
 * Class [Stroke](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

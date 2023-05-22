@@ -1,9 +1,10 @@
 ---
-title: get_PreserveUnusedTags
+title: Aspose::Words::MailMerging::MailMerge::get_PreserveUnusedTags method
+linktitle: get_PreserveUnusedTags
 second_title: Aspose.Words for C++ API Reference
-description: Gets a value indicating whether the unused "mustache" tags should be preserved.
+description: 'Aspose::Words::MailMerging::MailMerge::get_PreserveUnusedTags method. Gets a value indicating whether the unused "mustache" tags should be preserved in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words.mailmerging/mailmerge/get_preserveunusedtags/
 ---
 ## MailMerge::get_PreserveUnusedTags method
@@ -20,4 +21,4 @@ bool Aspose::Words::MailMerging::MailMerge::get_PreserveUnusedTags() const
 
 * Class [MailMerge](../)
 * Namespace [Aspose::Words::MailMerging](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

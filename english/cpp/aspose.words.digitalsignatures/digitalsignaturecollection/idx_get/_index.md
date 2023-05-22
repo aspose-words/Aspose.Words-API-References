@@ -1,9 +1,10 @@
 ---
-title: idx_get
+title: Aspose::Words::DigitalSignatures::DigitalSignatureCollection::idx_get method
+linktitle: idx_get
 second_title: Aspose.Words for C++ API Reference
-description: Gets a document signature at the specified index.
+description: 'Aspose::Words::DigitalSignatures::DigitalSignatureCollection::idx_get method. Gets a document signature at the specified index in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words.digitalsignatures/digitalsignaturecollection/idx_get/
 ---
 ## DigitalSignatureCollection::idx_get method
@@ -68,4 +69,4 @@ ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_S
 * Class [DigitalSignature](../../digitalsignature/)
 * Class [DigitalSignatureCollection](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

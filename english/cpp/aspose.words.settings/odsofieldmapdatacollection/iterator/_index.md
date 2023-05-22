@@ -1,9 +1,10 @@
 ---
-title: iterator
+title: Aspose::Words::Settings::OdsoFieldMapDataCollection::iterator typedef
+linktitle: iterator
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Aspose::Words::Settings::OdsoFieldMapDataCollection::iterator typedef of Aspose::Words::Settings::OdsoFieldMapDataCollection class in C++.'
 type: docs
-weight: 261
+weight: 21000
 url: /cpp/aspose.words.settings/odsofieldmapdatacollection/iterator/
 ---
 ## iterator typedef
@@ -19,4 +20,4 @@ using Aspose::Words::Settings::OdsoFieldMapDataCollection::iterator =  typename 
 
 * Class [OdsoFieldMapDataCollection](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

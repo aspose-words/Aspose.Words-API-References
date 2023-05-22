@@ -1,9 +1,10 @@
 ---
-title: GetListByListId
+title: Aspose::Words::Lists::ListCollection::GetListByListId method
+linktitle: GetListByListId
 second_title: Aspose.Words for C++ API Reference
-description: Gets a list by a list identifier.
+description: 'Aspose::Words::Lists::ListCollection::GetListByListId method. Gets a list by a list identifier in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words.lists/listcollection/getlistbylistid/
 ---
 ## ListCollection::GetListByListId method
@@ -55,4 +56,4 @@ std::cout << (String(u"List is the same by ListId: ") + (System::ObjectExt::Equa
 * Class [List](../../list/)
 * Class [ListCollection](../)
 * Namespace [Aspose::Words::Lists](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

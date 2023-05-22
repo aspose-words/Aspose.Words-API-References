@@ -1,9 +1,10 @@
 ---
-title: set_AutoUpdate
+title: Aspose::Words::Drawing::OleFormat::set_AutoUpdate method
+linktitle: set_AutoUpdate
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Drawing::OleFormat::get_AutoUpdate.'
+description: 'Aspose::Words::Drawing::OleFormat::set_AutoUpdate method. Setter for Aspose::Words::Drawing::OleFormat::get_AutoUpdate in C++.'
 type: docs
-weight: 248
+weight: 20000
 url: /cpp/aspose.words.drawing/oleformat/set_autoupdate/
 ---
 ## OleFormat::set_AutoUpdate method
@@ -19,4 +20,4 @@ void Aspose::Words::Drawing::OleFormat::set_AutoUpdate(bool value)
 
 * Class [OleFormat](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

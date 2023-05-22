@@ -1,9 +1,10 @@
 ---
-title: Remove
+title: Aspose::Words::Vba::VbaModuleCollection::Remove method
+linktitle: Remove
 second_title: Aspose.Words for C++ API Reference
-description: Removes the specified module from the collection.
+description: 'Aspose::Words::Vba::VbaModuleCollection::Remove method. Removes the specified module from the collection in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words.vba/vbamodulecollection/remove/
 ---
 ## VbaModuleCollection::Remove method
@@ -58,4 +59,4 @@ vbaModules->Remove(vbaModules->idx_get(2));
 * Class [VbaModule](../../vbamodule/)
 * Class [VbaModuleCollection](../)
 * Namespace [Aspose::Words::Vba](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

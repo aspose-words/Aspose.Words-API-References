@@ -1,9 +1,10 @@
 ---
-title: get_SaveFormat
+title: Aspose::Words::Saving::SaveOptions::get_SaveFormat method
+linktitle: get_SaveFormat
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the format in which the document will be saved if this save options object is used.
+description: 'Aspose::Words::Saving::SaveOptions::get_SaveFormat method. Specifies the format in which the document will be saved if this save options object is used in C++.'
 type: docs
-weight: 170
+weight: 14000
 url: /cpp/aspose.words.saving/saveoptions/get_saveformat/
 ---
 ## SaveOptions::get_SaveFormat method
@@ -46,4 +47,4 @@ doc->Save(ArtifactsDir + u"HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOption
 * Enum [SaveFormat](../../../aspose.words/saveformat/)
 * Class [SaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

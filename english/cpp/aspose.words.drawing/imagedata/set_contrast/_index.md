@@ -1,9 +1,10 @@
 ---
-title: set_Contrast
+title: Aspose::Words::Drawing::ImageData::set_Contrast method
+linktitle: set_Contrast
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Drawing::ImageData::get_Contrast.'
+description: 'Aspose::Words::Drawing::ImageData::set_Contrast method. Setter for Aspose::Words::Drawing::ImageData::get_Contrast in C++.'
 type: docs
-weight: 326
+weight: 26000
 url: /cpp/aspose.words.drawing/imagedata/set_contrast/
 ---
 ## ImageData::set_Contrast method
@@ -19,4 +20,4 @@ void Aspose::Words::Drawing::ImageData::set_Contrast(double value)
 
 * Class [ImageData](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: Remove
+title: Aspose::Words::Markup::CustomXmlPropertyCollection::Remove method
+linktitle: Remove
 second_title: Aspose.Words for C++ API Reference
-description: Removes a property with the specified name from the collection.
+description: 'Aspose::Words::Markup::CustomXmlPropertyCollection::Remove method. Removes a property with the specified name from the collection in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words.markup/customxmlpropertycollection/remove/
 ---
 ## CustomXmlPropertyCollection::Remove method
@@ -79,4 +80,4 @@ ASSERT_EQ(0, properties->get_Count());
 
 * Class [CustomXmlPropertyCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

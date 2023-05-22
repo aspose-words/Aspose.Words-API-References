@@ -1,9 +1,10 @@
 ---
-title: get_FontFileName
+title: Aspose::Words::Saving::FontSavingArgs::get_FontFileName method
+linktitle: get_FontFileName
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the file name (without path) where the font will be saved to.
+description: 'Aspose::Words::Saving::FontSavingArgs::get_FontFileName method. Gets or sets the file name (without path) where the font will be saved to in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.saving/fontsavingargs/get_fontfilename/
 ---
 ## FontSavingArgs::get_FontFileName method
@@ -100,4 +101,4 @@ private:
 
 * Class [FontSavingArgs](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

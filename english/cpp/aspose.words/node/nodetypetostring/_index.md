@@ -1,9 +1,10 @@
 ---
-title: NodeTypeToString
+title: Aspose::Words::Node::NodeTypeToString method
+linktitle: NodeTypeToString
 second_title: Aspose.Words for C++ API Reference
-description: A utility method that converts a node type enum value into a user friendly string.
+description: 'Aspose::Words::Node::NodeTypeToString method. A utility method that converts a node type enum value into a user friendly string in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words/node/nodetypetostring/
 ---
 ## Node::NodeTypeToString method
@@ -43,7 +44,7 @@ void TraverseAllNodes(SharedPtr<CompositeNode> parentNode, int depth)
         if (childNode->get_IsComposite())
         {
             std::cout << std::endl;
-            TraverseAllNodes(System::DynamicCast<CompositeNode>(childNode), depth + 1);
+            TraverseAllNodes(System::ExplicitCast<CompositeNode>(childNode), depth + 1);
         }
         else if (System::ObjectExt::Is<Inline>(childNode))
         {
@@ -78,4 +79,4 @@ for (SharedPtr<Node> node = doc->get_FirstSection()->get_Body()->get_FirstChild(
 * Enum [NodeType](../../nodetype/)
 * Class [Node](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

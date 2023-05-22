@@ -1,9 +1,10 @@
 ---
-title: get_PageNumberOmittingLevelRange
+title: Aspose::Words::Fields::FieldToc::get_PageNumberOmittingLevelRange method
+linktitle: get_PageNumberOmittingLevelRange
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets a range of levels of the table of contents entries from which to omits page numbers.
+description: 'Aspose::Words::Fields::FieldToc::get_PageNumberOmittingLevelRange method. Gets or sets a range of levels of the table of contents entries from which to omits page numbers in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words.fields/fieldtoc/get_pagenumberomittinglevelrange/
 ---
 ## FieldToc::get_PageNumberOmittingLevelRange method
@@ -32,7 +33,7 @@ void FieldToc_()
     // Insert a TOC field, which will compile all headings into a table of contents.
     // For each heading, this field will create a line with the text in that heading style to the left,
     // and the page the heading appears on to the right.
-    auto field = System::DynamicCast<FieldToc>(builder->InsertField(FieldType::FieldTOC, true));
+    auto field = System::ExplicitCast<FieldToc>(builder->InsertField(FieldType::FieldTOC, true));
 
     // Use the BookmarkName property to only list headings
     // that appear within the bounds of a bookmark with the "MyBookmark" name.
@@ -100,4 +101,4 @@ void InsertNewPageWithHeading(SharedPtr<DocumentBuilder> builder, String caption
 
 * Class [FieldToc](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

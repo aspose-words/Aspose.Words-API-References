@@ -1,9 +1,10 @@
 ---
-title: AppendDocument
+title: Aspose::Words::Document::AppendDocument method
+linktitle: AppendDocument
 second_title: Aspose.Words for C++ API Reference
-description: Appends the specified document to the end of this document.
+description: 'Aspose::Words::Document::AppendDocument method. Appends the specified document to the end of this document in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words/document/appenddocument/
 ---
 ## Document::AppendDocument(const System::SharedPtr\<Aspose::Words::Document\>\&, Aspose::Words::ImportFormatMode) method
@@ -80,7 +81,7 @@ dstDoc->Save(ArtifactsDir + u"Document.AppendAllDocumentsInFolder.doc");
 * Enum [ImportFormatMode](../../importformatmode/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## Document::AppendDocument(const System::SharedPtr\<Aspose::Words::Document\>\&, Aspose::Words::ImportFormatMode, const System::SharedPtr\<Aspose::Words::ImportFormatOptions\>\&) method
 
 
@@ -143,7 +144,7 @@ for (int i = 1; i <= 15; i++)
     builder->Write(String::Format(u"List Item {0}\n", i));
 }
 
-auto attachDoc = System::DynamicCast<Document>(dstDoc->Clone(true));
+auto attachDoc = System::ExplicitCast<Document>(dstDoc->Clone(true));
 
 // If there is a clash of list styles, apply the list format of the source document.
 // Set the "KeepSourceNumbering" property to "false" to not import any list numbers into the destination document.
@@ -186,4 +187,4 @@ dstDoc->UpdateListLabels();
 * Class [ImportFormatOptions](../../importformatoptions/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

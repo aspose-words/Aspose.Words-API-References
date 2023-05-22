@@ -1,9 +1,10 @@
 ---
-title: end
+title: Aspose::Words::MailMerging::MappedDataFieldCollection::end method
+linktitle: end
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use end method of Aspose::Words::MailMerging::MappedDataFieldCollection class in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.mailmerging/mappeddatafieldcollection/end/
 ---
 ## MappedDataFieldCollection::end() const method
@@ -20,7 +21,7 @@ const_iterator Aspose::Words::MailMerging::MappedDataFieldCollection::end() cons
 * Typedef [const_iterator](../const_iterator/)
 * Class [MappedDataFieldCollection](../)
 * Namespace [Aspose::Words::MailMerging](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## MappedDataFieldCollection::end() method
 
 
@@ -35,4 +36,4 @@ iterator Aspose::Words::MailMerging::MappedDataFieldCollection::end() noexcept
 * Typedef [iterator](../iterator/)
 * Class [MappedDataFieldCollection](../)
 * Namespace [Aspose::Words::MailMerging](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

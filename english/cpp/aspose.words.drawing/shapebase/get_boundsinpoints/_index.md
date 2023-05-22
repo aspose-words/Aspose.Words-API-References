@@ -1,9 +1,10 @@
 ---
-title: get_BoundsInPoints
+title: Aspose::Words::Drawing::ShapeBase::get_BoundsInPoints method
+linktitle: get_BoundsInPoints
 second_title: Aspose.Words for C++ API Reference
-description: Gets the location and size of the containing block of the shape in points, relative to the anchor of the topmost shape.
+description: 'Aspose::Words::Drawing::ShapeBase::get_BoundsInPoints method. Gets the location and size of the containing block of the shape in points, relative to the anchor of the topmost shape in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words.drawing/shapebase/get_boundsinpoints/
 ---
 ## ShapeBase::get_BoundsInPoints method
@@ -81,4 +82,4 @@ doc->Save(ArtifactsDir + u"Shape.Bounds.docx");
 
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

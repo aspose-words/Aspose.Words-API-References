@@ -1,9 +1,10 @@
 ---
-title: get_Left
+title: Aspose::Words::BorderCollection::get_Left method
+linktitle: get_Left
 second_title: Aspose.Words for C++ API Reference
-description: Gets the left border.
+description: 'Aspose::Words::BorderCollection::get_Left method. Gets the left border in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words/bordercollection/get_left/
 ---
 ## BorderCollection::get_Left method
@@ -60,4 +61,4 @@ doc->Save(ArtifactsDir + u"DocumentBuilder.TableBordersAndShading.docx");
 * Class [Border](../../border/)
 * Class [BorderCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

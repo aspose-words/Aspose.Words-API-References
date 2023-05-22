@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Notes::EndnoteOptions::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Notes::EndnoteOptions class in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.notes/endnoteoptions/is/
 ---
 ## EndnoteOptions::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Notes::EndnoteOptions::Is(const System::TypeInfo &ta
 
 * Class [EndnoteOptions](../)
 * Namespace [Aspose::Words::Notes](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

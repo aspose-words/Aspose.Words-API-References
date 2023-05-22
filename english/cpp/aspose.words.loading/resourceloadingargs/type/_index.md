@@ -1,9 +1,10 @@
 ---
-title: Type
+title: Aspose::Words::Loading::ResourceLoadingArgs::Type method
+linktitle: Type
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Type method of Aspose::Words::Loading::ResourceLoadingArgs class in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words.loading/resourceloadingargs/type/
 ---
 ## ResourceLoadingArgs::Type method
@@ -19,4 +20,4 @@ static const System::TypeInfo & Aspose::Words::Loading::ResourceLoadingArgs::Typ
 
 * Class [ResourceLoadingArgs](../)
 * Namespace [Aspose::Words::Loading](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

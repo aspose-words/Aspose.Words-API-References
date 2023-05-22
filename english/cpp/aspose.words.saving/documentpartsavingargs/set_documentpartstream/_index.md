@@ -1,9 +1,10 @@
 ---
-title: set_DocumentPartStream
+title: Aspose::Words::Saving::DocumentPartSavingArgs::set_DocumentPartStream method
+linktitle: set_DocumentPartStream
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::DocumentPartSavingArgs::get_DocumentPartStream.'
+description: 'Aspose::Words::Saving::DocumentPartSavingArgs::set_DocumentPartStream method. Setter for Aspose::Words::Saving::DocumentPartSavingArgs::get_DocumentPartStream in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.saving/documentpartsavingargs/set_documentpartstream/
 ---
 ## DocumentPartSavingArgs::set_DocumentPartStream(const System::SharedPtr\<System::IO::Stream\>\&) method
@@ -19,7 +20,7 @@ void Aspose::Words::Saving::DocumentPartSavingArgs::set_DocumentPartStream(const
 
 * Class [DocumentPartSavingArgs](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## DocumentPartSavingArgs::set_DocumentPartStream(std::basic_ostream\<CharType, Traits\>\&) method
 
 
@@ -33,4 +34,4 @@ template<typename CharType,typename Traits> void Aspose::Words::Saving::Document
 
 * Class [DocumentPartSavingArgs](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

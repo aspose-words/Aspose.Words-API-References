@@ -1,9 +1,10 @@
 ---
-title: set_EmbedAttachments
+title: Aspose::Words::Saving::PdfSaveOptions::set_EmbedAttachments method
+linktitle: set_EmbedAttachments
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::PdfSaveOptions::get_EmbedAttachments.'
+description: 'Aspose::Words::Saving::PdfSaveOptions::set_EmbedAttachments method. Setter for Aspose::Words::Saving::PdfSaveOptions::get_EmbedAttachments in C++.'
 type: docs
-weight: 586
+weight: 46000
 url: /cpp/aspose.words.saving/pdfsaveoptions/set_embedattachments/
 ---
 ## PdfSaveOptions::set_EmbedAttachments method
@@ -19,4 +20,4 @@ void Aspose::Words::Saving::PdfSaveOptions::set_EmbedAttachments(bool value)
 
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

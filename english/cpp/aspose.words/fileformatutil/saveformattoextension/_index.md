@@ -1,9 +1,10 @@
 ---
-title: SaveFormatToExtension
+title: Aspose::Words::FileFormatUtil::SaveFormatToExtension method
+linktitle: SaveFormatToExtension
 second_title: Aspose.Words for C++ API Reference
-description: Converts a save format enumerated value into a file extension. The returned extension is a lower-case string with a leading dot.
+description: 'Aspose::Words::FileFormatUtil::SaveFormatToExtension method. Converts a save format enumerated value into a file extension. The returned extension is a lower-case string with a leading dot in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words/fileformatutil/saveformattoextension/
 ---
 ## FileFormatUtil::SaveFormatToExtension method
@@ -58,4 +59,4 @@ Shows how to use the [FileFormatUtil](../) methods to detect the format of a doc
 * Enum [SaveFormat](../../saveformat/)
 * Class [FileFormatUtil](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

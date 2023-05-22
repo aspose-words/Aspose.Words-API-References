@@ -1,9 +1,10 @@
 ---
-title: get_EntryName
+title: Aspose::Words::Fields::FieldAutoTextList::get_EntryName method
+linktitle: get_EntryName
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the name of the AutoText entry.
+description: 'Aspose::Words::Fields::FieldAutoTextList::get_EntryName method. Gets or sets the name of the AutoText entry in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fields/fieldautotextlist/get_entryname/
 ---
 ## FieldAutoTextList::get_EntryName method
@@ -37,7 +38,7 @@ void FieldAutoTextList_()
     // Create an AUTOTEXTLIST field and set the text that the field will display in Microsoft Word.
     // Set the text to prompt the user to right-click this field to select an AutoText building block,
     // whose contents the field will display.
-    auto field = System::DynamicCast<FieldAutoTextList>(builder->InsertField(FieldType::FieldAutoTextList, true));
+    auto field = System::ExplicitCast<FieldAutoTextList>(builder->InsertField(FieldType::FieldAutoTextList, true));
     field->set_EntryName(u"Right click here to select an AutoText block");
     field->set_ListStyle(u"Heading 1");
     field->set_ScreenTip(u"Hover tip text for AutoTextList goes here");
@@ -70,4 +71,4 @@ static void AppendAutoTextEntry(SharedPtr<GlossaryDocument> glossaryDoc, String 
 
 * Class [FieldAutoTextList](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

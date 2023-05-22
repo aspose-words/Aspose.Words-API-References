@@ -1,9 +1,10 @@
 ---
-title: get_TextInputDefault
+title: Aspose::Words::Fields::FormField::get_TextInputDefault method
+linktitle: get_TextInputDefault
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the default string or a calculation expression of a text form field.
+description: 'Aspose::Words::Fields::FormField::get_TextInputDefault method. Gets or sets the default string or a calculation expression of a text form field in C++.'
 type: docs
-weight: 261
+weight: 21000
 url: /cpp/aspose.words.fields/formfield/get_textinputdefault/
 ---
 ## FormField::get_TextInputDefault method
@@ -163,4 +164,4 @@ private:
 
 * Class [FormField](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

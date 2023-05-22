@@ -1,9 +1,10 @@
 ---
-title: set_LeftExpression
+title: Aspose::Words::Fields::FieldCompare::set_LeftExpression method
+linktitle: set_LeftExpression
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fields::FieldCompare::get_LeftExpression.'
+description: 'Aspose::Words::Fields::FieldCompare::set_LeftExpression method. Setter for Aspose::Words::Fields::FieldCompare::get_LeftExpression in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.fields/fieldcompare/set_leftexpression/
 ---
 ## FieldCompare::set_LeftExpression method
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldCompare::set_LeftExpression(const System::Strin
 
 * Class [FieldCompare](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

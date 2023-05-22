@@ -1,9 +1,10 @@
 ---
-title: set_DoNotLeaveBackslashAlone
+title: Aspose::Words::Settings::CompatibilityOptions::set_DoNotLeaveBackslashAlone method
+linktitle: set_DoNotLeaveBackslashAlone
 second_title: Aspose.Words for C++ API Reference
-description: Convert Backslash To Yen Sign When Entered.
+description: 'Aspose::Words::Settings::CompatibilityOptions::set_DoNotLeaveBackslashAlone method. Convert Backslash To Yen Sign When Entered in C++.'
 type: docs
-weight: 1171
+weight: 91000
 url: /cpp/aspose.words.settings/compatibilityoptions/set_donotleavebackslashalone/
 ---
 ## CompatibilityOptions::set_DoNotLeaveBackslashAlone method
@@ -19,4 +20,4 @@ void Aspose::Words::Settings::CompatibilityOptions::set_DoNotLeaveBackslashAlone
 
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

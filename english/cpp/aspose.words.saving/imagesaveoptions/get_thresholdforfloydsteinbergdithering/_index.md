@@ -1,9 +1,10 @@
 ---
-title: get_ThresholdForFloydSteinbergDithering
+title: Aspose::Words::Saving::ImageSaveOptions::get_ThresholdForFloydSteinbergDithering method
+linktitle: get_ThresholdForFloydSteinbergDithering
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the threshold that determines the value of the binarization error in the Floyd-Steinberg method. when ImageBinarizationMethod is FloydSteinbergDithering.
+description: 'Aspose::Words::Saving::ImageSaveOptions::get_ThresholdForFloydSteinbergDithering method. Gets or sets the threshold that determines the value of the binarization error in the Floyd-Steinberg method. when ImageBinarizationMethod is FloydSteinbergDithering in C++.'
 type: docs
-weight: 183
+weight: 15000
 url: /cpp/aspose.words.saving/imagesaveoptions/get_thresholdforfloydsteinbergdithering/
 ---
 ## ImageSaveOptions::get_ThresholdForFloydSteinbergDithering method
@@ -49,4 +50,4 @@ doc->Save(ArtifactsDir + u"ImageSaveOptions.FloydSteinbergDithering.tiff", optio
 
 * Class [ImageSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

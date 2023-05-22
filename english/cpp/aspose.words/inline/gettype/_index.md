@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Inline::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Inline class in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words/inline/gettype/
 ---
 ## Inline::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Inline::GetType() const override
 
 * Class [Inline](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

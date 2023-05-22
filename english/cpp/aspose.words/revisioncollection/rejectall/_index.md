@@ -1,9 +1,10 @@
 ---
-title: RejectAll
+title: Aspose::Words::RevisionCollection::RejectAll method
+linktitle: RejectAll
 second_title: Aspose.Words for C++ API Reference
-description: Rejects all revisions in this collection.
+description: 'Aspose::Words::RevisionCollection::RejectAll method. Rejects all revisions in this collection in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words/revisioncollection/rejectall/
 ---
 ## RevisionCollection::RejectAll method
@@ -78,4 +79,4 @@ ASSERT_EQ(0, revisions->get_Count());
 
 * Class [RevisionCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

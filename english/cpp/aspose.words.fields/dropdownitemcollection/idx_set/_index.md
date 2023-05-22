@@ -1,9 +1,10 @@
 ---
-title: idx_set
+title: Aspose::Words::Fields::DropDownItemCollection::idx_set method
+linktitle: idx_set
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the element at the specified index.
+description: 'Aspose::Words::Fields::DropDownItemCollection::idx_set method. Gets or sets the element at the specified index in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words.fields/dropdownitemcollection/idx_set/
 ---
 ## DropDownItemCollection::idx_set method
@@ -76,4 +77,4 @@ dropDownItems->Clear();
 
 * Class [DropDownItemCollection](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

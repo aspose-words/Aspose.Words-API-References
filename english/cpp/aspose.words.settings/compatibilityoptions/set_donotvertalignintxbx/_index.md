@@ -1,9 +1,10 @@
 ---
-title: set_DoNotVertAlignInTxbx
+title: Aspose::Words::Settings::CompatibilityOptions::set_DoNotVertAlignInTxbx method
+linktitle: set_DoNotVertAlignInTxbx
 second_title: Aspose.Words for C++ API Reference
-description: Ignore Vertical Alignment in Textboxes.
+description: 'Aspose::Words::Settings::CompatibilityOptions::set_DoNotVertAlignInTxbx method. Ignore Vertical Alignment in Textboxes in C++.'
 type: docs
-weight: 1275
+weight: 99000
 url: /cpp/aspose.words.settings/compatibilityoptions/set_donotvertalignintxbx/
 ---
 ## CompatibilityOptions::set_DoNotVertAlignInTxbx method
@@ -19,4 +20,4 @@ void Aspose::Words::Settings::CompatibilityOptions::set_DoNotVertAlignInTxbx(boo
 
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

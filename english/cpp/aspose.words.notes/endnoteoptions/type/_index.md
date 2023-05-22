@@ -1,9 +1,10 @@
 ---
-title: Type
+title: Aspose::Words::Notes::EndnoteOptions::Type method
+linktitle: Type
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Type method of Aspose::Words::Notes::EndnoteOptions class in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words.notes/endnoteoptions/type/
 ---
 ## EndnoteOptions::Type method
@@ -19,4 +20,4 @@ static const System::TypeInfo & Aspose::Words::Notes::EndnoteOptions::Type()
 
 * Class [EndnoteOptions](../)
 * Namespace [Aspose::Words::Notes](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

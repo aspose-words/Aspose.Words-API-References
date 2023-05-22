@@ -1,9 +1,10 @@
 ---
-title: set_Color
+title: Aspose::Words::Drawing::Fill::set_Color method
+linktitle: set_Color
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use set_Color method of Aspose::Words::Drawing::Fill class in C++.'
 type: docs
-weight: 391
+weight: 31000
 url: /cpp/aspose.words.drawing/fill/set_color/
 ---
 ## Fill::set_Color method
@@ -19,4 +20,4 @@ void Aspose::Words::Drawing::Fill::set_Color(System::Drawing::Color value)
 
 * Class [Fill](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

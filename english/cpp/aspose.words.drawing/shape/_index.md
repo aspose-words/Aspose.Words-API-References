@@ -1,9 +1,10 @@
 ---
-title: Shape
+title: Aspose::Words::Drawing::Shape class
+linktitle: Shape
 second_title: Aspose.Words for C++ API Reference
-description: Represents an object in the drawing layer, such as an AutoShape, textbox, freeform, OLE object, ActiveX control, or picture. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Drawing::Shape class. Represents an object in the drawing layer, such as an AutoShape, textbox, freeform, OLE object, ActiveX control, or picture. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words.drawing/shape/
 ---
 ## Shape class
@@ -59,6 +60,7 @@ class Shape : public Aspose::Words::Drawing::ShapeBase,
 | [get_HasImage](./get_hasimage/)() | Returns **true** if the shape has image bytes or links an image. |
 | [get_HasSmartArt](./get_hassmartart/)() | Returns **true** if this [Shape](./) has a SmartArt object. |
 | [get_Height](../shapebase/get_height/)() | Gets or sets the height of the containing block of the shape. |
+| [get_HeightRelative](../shapebase/get_heightrelative/)() | Gets the value that represents the percentage of shape's relative height. |
 | [get_HorizontalAlignment](../shapebase/get_horizontalalignment/)() | Specifies how the shape is positioned horizontally. |
 | [get_HorizontalRuleFormat](./get_horizontalruleformat/)() | Provides access to the properties of the horizontal rule shape. For a shape that is not a horizontal rule, returns **null**. |
 | [get_HRef](../shapebase/get_href/)() | Gets or sets the full hyperlink address for a shape. |
@@ -80,6 +82,7 @@ class Shape : public Aspose::Words::Drawing::ShapeBase,
 | [get_LastChild](../../aspose.words/compositenode/get_lastchild/)() const | Gets the last child of the node. |
 | [get_LastParagraph](./get_lastparagraph/)() | Gets the last paragraph in the shape. |
 | [get_Left](../shapebase/get_left/)() | Gets or sets the position of the left edge of the containing block of the shape. |
+| [get_LeftRelative](../shapebase/get_leftrelative/)() | Gets the value that represents shape's relative left position in percent. |
 | [get_MarkupLanguage](../shapebase/get_markuplanguage/)() const | Gets MarkupLanguage used for this graphic object. |
 | [get_Name](../shapebase/get_name/)() | Gets or sets the optional shape name. |
 | [get_NextSibling](../../aspose.words/node/get_nextsibling/)() | Gets the node immediately following this node. |
@@ -90,7 +93,9 @@ class Shape : public Aspose::Words::Drawing::ShapeBase,
 | [get_PreviousSibling](../../aspose.words/node/get_previoussibling/)() | Gets the node immediately preceding this node. |
 | [get_Range](../../aspose.words/node/get_range/)() | Returns a [Range](../../aspose.words/range/) object that represents the portion of a document that is contained in this node. |
 | [get_RelativeHorizontalPosition](../shapebase/get_relativehorizontalposition/)() | Specifies relative to what the shape is positioned horizontally. |
+| [get_RelativeHorizontalSize](../shapebase/get_relativehorizontalsize/)() | Gets or sets the value of shape's relative size in horizontal direction. |
 | [get_RelativeVerticalPosition](../shapebase/get_relativeverticalposition/)() | Specifies relative to what the shape is positioned vertically. |
+| [get_RelativeVerticalSize](../shapebase/get_relativeverticalsize/)() | Gets or sets the value of shape's relative size in vertical direction. |
 | [get_Right](../shapebase/get_right/)() | Gets the position of the right edge of the containing block of the shape. |
 | [get_Rotation](../shapebase/get_rotation/)() | Defines the angle (in degrees) that a shape is rotated. Positive value corresponds to clockwise rotation angle. |
 | [get_ScreenTip](../shapebase/get_screentip/)() | Defines the text displayed when the mouse pointer moves over the shape. |
@@ -109,8 +114,10 @@ class Shape : public Aspose::Words::Drawing::ShapeBase,
 | [get_TextPath](./get_textpath/)() | Defines the text of the text path (of a WordArt object). |
 | [get_Title](../shapebase/get_title/)() | Gets or sets the title (caption) of the current shape object. |
 | [get_Top](../shapebase/get_top/)() | Gets or sets the position of the top edge of the containing block of the shape. |
+| [get_TopRelative](../shapebase/get_toprelative/)() | Gets the value that represents shape's relative top position in percent. |
 | [get_VerticalAlignment](../shapebase/get_verticalalignment/)() | Specifies how the shape is positioned vertically. |
 | [get_Width](../shapebase/get_width/)() | Gets or sets the width of the containing block of the shape. |
+| [get_WidthRelative](../shapebase/get_widthrelative/)() | Gets the value that represents the percentage of shape's relative width. |
 | [get_WrapSide](../shapebase/get_wrapside/)() | Specifies how the text is wrapped around the shape. |
 | [get_WrapType](../shapebase/get_wraptype/)() | Defines whether the shape is inline or floating. For floating shapes defines the wrapping mode for text around the shape. |
 | [get_ZOrder](../shapebase/get_zorder/)() | Determines the display order of overlapping shapes. |
@@ -138,7 +145,7 @@ class Shape : public Aspose::Words::Drawing::ShapeBase,
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(const System::String\&) | Selects a list of nodes matching the XPath expression. |
 | [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(const System::String\&) | Selects the first [Node](../../aspose.words/node/) that matches the XPath expression. |
 | [set_AllowOverlap](../shapebase/set_allowoverlap/)(bool) | Setter for [Aspose::Words::Drawing::ShapeBase::get_AllowOverlap](../shapebase/get_allowoverlap/). |
-| [set_AlternativeText](../shapebase/set_alternativetext/)(const System::String\&) | Setter for [Aspose::Words::Drawing::ShapeBase::get_AlternativeText](../shapebase/get_alternativetext/). |
+| [set_AlternativeText](../shapebase/set_alternativetext/)(const System::String\&) | Defines alternative text to be displayed instead of a graphic. |
 | [set_AnchorLocked](../shapebase/set_anchorlocked/)(bool) | Setter for [Aspose::Words::Drawing::ShapeBase::get_AnchorLocked](../shapebase/get_anchorlocked/). |
 | [set_AspectRatioLocked](../shapebase/set_aspectratiolocked/)(bool) | Setter for [Aspose::Words::Drawing::ShapeBase::get_AspectRatioLocked](../shapebase/get_aspectratiolocked/). |
 | [set_BehindText](../shapebase/set_behindtext/)(bool) | Setter for [Aspose::Words::Drawing::ShapeBase::get_BehindText](../shapebase/get_behindtext/). |
@@ -154,14 +161,18 @@ class Shape : public Aspose::Words::Drawing::ShapeBase,
 | [set_Filled](./set_filled/)(bool) | Setter for [Aspose::Words::Drawing::Shape::get_Filled](./get_filled/). |
 | [set_FlipOrientation](../shapebase/set_fliporientation/)(Aspose::Words::Drawing::FlipOrientation) | Setter for [Aspose::Words::Drawing::ShapeBase::get_FlipOrientation](../shapebase/get_fliporientation/). |
 | [set_Height](../shapebase/set_height/)(double) | Setter for [Aspose::Words::Drawing::ShapeBase::get_Height](../shapebase/get_height/). |
+| [set_HeightRelative](../shapebase/set_heightrelative/)(float) | Sets the value that represents the percentage of shape's relative height. |
 | [set_HorizontalAlignment](../shapebase/set_horizontalalignment/)(Aspose::Words::Drawing::HorizontalAlignment) | Setter for [Aspose::Words::Drawing::ShapeBase::get_HorizontalAlignment](../shapebase/get_horizontalalignment/). |
 | [set_HRef](../shapebase/set_href/)(const System::String\&) | Setter for [Aspose::Words::Drawing::ShapeBase::get_HRef](../shapebase/get_href/). |
 | [set_IsDecorative](../shapebase/set_isdecorative/)(bool) | Setter for [Aspose::Words::Drawing::ShapeBase::get_IsDecorative](../shapebase/get_isdecorative/). |
 | [set_IsLayoutInCell](../shapebase/set_islayoutincell/)(bool) | Setter for [Aspose::Words::Drawing::ShapeBase::get_IsLayoutInCell](../shapebase/get_islayoutincell/). |
 | [set_Left](../shapebase/set_left/)(double) | Setter for [Aspose::Words::Drawing::ShapeBase::get_Left](../shapebase/get_left/). |
+| [set_LeftRelative](../shapebase/set_leftrelative/)(float) | Sets the value that represents shape's relative left position in percent. |
 | [set_Name](../shapebase/set_name/)(const System::String\&) | Setter for [Aspose::Words::Drawing::ShapeBase::get_Name](../shapebase/get_name/). |
 | [set_RelativeHorizontalPosition](../shapebase/set_relativehorizontalposition/)(Aspose::Words::Drawing::RelativeHorizontalPosition) | Setter for [Aspose::Words::Drawing::ShapeBase::get_RelativeHorizontalPosition](../shapebase/get_relativehorizontalposition/). |
+| [set_RelativeHorizontalSize](../shapebase/set_relativehorizontalsize/)(Aspose::Words::Drawing::RelativeHorizontalSize) | Setter for [Aspose::Words::Drawing::ShapeBase::get_RelativeHorizontalSize](../shapebase/get_relativehorizontalsize/). |
 | [set_RelativeVerticalPosition](../shapebase/set_relativeverticalposition/)(Aspose::Words::Drawing::RelativeVerticalPosition) | Setter for [Aspose::Words::Drawing::ShapeBase::get_RelativeVerticalPosition](../shapebase/get_relativeverticalposition/). |
+| [set_RelativeVerticalSize](../shapebase/set_relativeverticalsize/)(Aspose::Words::Drawing::RelativeVerticalSize) | Setter for [Aspose::Words::Drawing::ShapeBase::get_RelativeVerticalSize](../shapebase/get_relativeverticalsize/). |
 | [set_Rotation](../shapebase/set_rotation/)(double) | Setter for [Aspose::Words::Drawing::ShapeBase::get_Rotation](../shapebase/get_rotation/). |
 | [set_ScreenTip](../shapebase/set_screentip/)(const System::String\&) | Setter for [Aspose::Words::Drawing::ShapeBase::get_ScreenTip](../shapebase/get_screentip/). |
 | [set_StrokeColor](./set_strokecolor/)(System::Drawing::Color) | Setter for [Aspose::Words::Drawing::Shape::get_StrokeColor](./get_strokecolor/). |
@@ -170,8 +181,10 @@ class Shape : public Aspose::Words::Drawing::ShapeBase,
 | [set_Target](../shapebase/set_target/)(const System::String\&) | Setter for [Aspose::Words::Drawing::ShapeBase::get_Target](../shapebase/get_target/). |
 | [set_Title](../shapebase/set_title/)(const System::String\&) | Setter for [Aspose::Words::Drawing::ShapeBase::get_Title](../shapebase/get_title/). |
 | [set_Top](../shapebase/set_top/)(double) | Setter for [Aspose::Words::Drawing::ShapeBase::get_Top](../shapebase/get_top/). |
+| [set_TopRelative](../shapebase/set_toprelative/)(float) | Sets the value that represents shape's relative top position in percent. |
 | [set_VerticalAlignment](../shapebase/set_verticalalignment/)(Aspose::Words::Drawing::VerticalAlignment) | Setter for [Aspose::Words::Drawing::ShapeBase::get_VerticalAlignment](../shapebase/get_verticalalignment/). |
 | [set_Width](../shapebase/set_width/)(double) | Setter for [Aspose::Words::Drawing::ShapeBase::get_Width](../shapebase/get_width/). |
+| [set_WidthRelative](../shapebase/set_widthrelative/)(float) | Sets the value that represents the percentage of shape's relative width. |
 | [set_WrapSide](../shapebase/set_wrapside/)(Aspose::Words::Drawing::WrapSide) | Setter for [Aspose::Words::Drawing::ShapeBase::get_WrapSide](../shapebase/get_wrapside/). |
 | [set_WrapType](../shapebase/set_wraptype/)(Aspose::Words::Drawing::WrapType) | Setter for [Aspose::Words::Drawing::ShapeBase::get_WrapType](../shapebase/get_wraptype/). |
 | [set_ZOrder](../shapebase/set_zorder/)(int32_t) | Setter for [Aspose::Words::Drawing::ShapeBase::get_ZOrder](../shapebase/get_zorder/). |
@@ -202,7 +215,7 @@ auto doc = MakeObject<Document>(MyDir + u"Images.docx");
 // and save the image data of every shape with an image as a file to the local file system.
 SharedPtr<NodeCollection> shapes = doc->GetChildNodes(NodeType::Shape, true);
 
-ASSERT_EQ(9, shapes->LINQ_Count([](SharedPtr<Node> s) { return (System::DynamicCast<Shape>(s))->get_HasImage(); }));
+ASSERT_EQ(9, shapes->LINQ_Count([](SharedPtr<Node> s) { return (System::ExplicitCast<Shape>(s))->get_HasImage(); }));
 
 int imageIndex = 0;
 for (const auto& shape : System::IterateOver(shapes->LINQ_OfType<SharedPtr<Shape>>()))
@@ -283,4 +296,4 @@ ASSERT_EQ(0, doc->GetChildNodes(NodeType::Shape, true)->get_Count());
 
 * Class [ShapeBase](../shapebase/)
 * Namespace [Aspose::Words::Drawing](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

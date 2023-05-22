@@ -1,9 +1,10 @@
 ---
-title: set_ViewType
+title: Aspose::Words::Settings::ViewOptions::set_ViewType method
+linktitle: set_ViewType
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Settings::ViewOptions::get_ViewType.'
+description: 'Aspose::Words::Settings::ViewOptions::set_ViewType method. Setter for Aspose::Words::Settings::ViewOptions::get_ViewType in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words.settings/viewoptions/set_viewtype/
 ---
 ## ViewOptions::set_ViewType method
@@ -20,4 +21,4 @@ void Aspose::Words::Settings::ViewOptions::set_ViewType(Aspose::Words::Settings:
 * Enum [ViewType](../../viewtype/)
 * Class [ViewOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

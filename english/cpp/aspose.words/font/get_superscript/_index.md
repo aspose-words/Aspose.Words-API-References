@@ -1,9 +1,10 @@
 ---
-title: get_Superscript
+title: Aspose::Words::Font::get_Superscript method
+linktitle: get_Superscript
 second_title: Aspose.Words for C++ API Reference
-description: True if the font is formatted as superscript.
+description: 'Aspose::Words::Font::get_Superscript method. True if the font is formatted as superscript in C++.'
 type: docs
-weight: 586
+weight: 46000
 url: /cpp/aspose.words/font/get_superscript/
 ---
 ## Font::get_Superscript method
@@ -23,7 +24,7 @@ bool Aspose::Words::Font::get_Superscript()
 Shows how to format text to offset its position. 
 ```cpp
 auto doc = MakeObject<Document>();
-auto para = System::DynamicCast<Paragraph>(doc->GetChild(NodeType::Paragraph, 0, true));
+auto para = System::ExplicitCast<Paragraph>(doc->GetChild(NodeType::Paragraph, 0, true));
 
 // Raise this run of text 5 points above the baseline.
 auto run = MakeObject<Run>(doc, u"Raised text. ");
@@ -56,4 +57,4 @@ doc->Save(ArtifactsDir + u"Font.PositionSubscript.docx");
 
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

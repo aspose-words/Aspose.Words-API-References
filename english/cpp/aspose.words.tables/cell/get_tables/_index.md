@@ -1,9 +1,10 @@
 ---
-title: get_Tables
+title: Aspose::Words::Tables::Cell::get_Tables method
+linktitle: get_Tables
 second_title: Aspose.Words for C++ API Reference
-description: Gets a collection of tables that are immediate children of the cell.
+description: 'Aspose::Words::Tables::Cell::get_Tables method. Gets a collection of tables that are immediate children of the cell in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words.tables/cell/get_tables/
 ---
 ## Cell::get_Tables method
@@ -29,7 +30,7 @@ void CalculateDepthOfNestedTables()
 
     for (int i = 0; i < tables->get_Count(); i++)
     {
-        auto table = System::DynamicCast<Table>(tables->idx_get(i));
+        auto table = System::ExplicitCast<Table>(tables->idx_get(i));
 
         // Find out if any cells in the table have other tables as children.
         int count = GetChildTableCount(table);
@@ -89,4 +90,4 @@ static int GetChildTableCount(SharedPtr<Table> table)
 * Class [TableCollection](../../tablecollection/)
 * Class [Cell](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_RevisedPropertiesEffect
+title: Aspose::Words::Layout::RevisionOptions::get_RevisedPropertiesEffect method
+linktitle: get_RevisedPropertiesEffect
 second_title: Aspose.Words for C++ API Reference
-description: Allows to specify the effect for content areas with changes of formatting properties FormatChange Default value is None
+description: 'Aspose::Words::Layout::RevisionOptions::get_RevisedPropertiesEffect method. Allows to specify the effect for content areas with changes of formatting properties FormatChange Default value is None in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words.layout/revisionoptions/get_revisedpropertieseffect/
 ---
 ## RevisionOptions::get_RevisedPropertiesEffect method
@@ -70,4 +71,4 @@ doc->Save(ArtifactsDir + u"Revision.RevisionOptions.pdf");
 * Enum [RevisionTextEffect](../../revisiontexteffect/)
 * Class [RevisionOptions](../)
 * Namespace [Aspose::Words::Layout](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

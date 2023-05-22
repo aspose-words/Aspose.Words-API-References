@@ -1,9 +1,10 @@
 ---
-title: FieldUpdating
+title: Aspose::Words::Fields::IFieldUpdatingCallback::FieldUpdating method
+linktitle: FieldUpdating
 second_title: Aspose.Words for C++ API Reference
-description: A user defined method that is called just before a field is updated.
+description: 'Aspose::Words::Fields::IFieldUpdatingCallback::FieldUpdating method. A user defined method that is called just before a field is updated in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.fields/ifieldupdatingcallback/fieldupdating/
 ---
 ## IFieldUpdatingCallback::FieldUpdating method
@@ -62,7 +63,7 @@ private:
     {
         if (field->get_Type() == FieldType::FieldAuthor)
         {
-            auto fieldAuthor = System::DynamicCast<FieldAuthor>(field);
+            auto fieldAuthor = System::ExplicitCast<FieldAuthor>(field);
             fieldAuthor->set_AuthorName(u"Updating John Doe");
         }
     }
@@ -79,4 +80,4 @@ private:
 * Class [Field](../../field/)
 * Interface [IFieldUpdatingCallback](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

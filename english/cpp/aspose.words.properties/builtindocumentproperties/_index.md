@@ -1,9 +1,10 @@
 ---
-title: BuiltInDocumentProperties
+title: Aspose::Words::Properties::BuiltInDocumentProperties class
+linktitle: BuiltInDocumentProperties
 second_title: Aspose.Words for C++ API Reference
-description: A collection of built-in document properties. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Properties::BuiltInDocumentProperties class. A collection of built-in document properties. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words.properties/builtindocumentproperties/
 ---
 ## BuiltInDocumentProperties class
@@ -127,7 +128,7 @@ for (const auto& docProperty : System::IterateOver(doc->get_BuiltInDocumentPrope
     if (System::ObjectExt::Is<System::Collections::Generic::ICollection<SharedPtr<System::Object>>>(docProperty->get_Value()))
     {
         for (const auto& value : System::IterateOver(
-                 System::DynamicCast_noexcept<System::Collections::Generic::ICollection<SharedPtr<System::Object>>>(docProperty->get_Value())))
+                 System::AsCast<System::Collections::Generic::ICollection<SharedPtr<System::Object>>>(docProperty->get_Value())))
         {
             std::cout << "\tValue:\t\"" << value << "\"" << std::endl;
         }
@@ -143,4 +144,4 @@ for (const auto& docProperty : System::IterateOver(doc->get_BuiltInDocumentPrope
 
 * Class [DocumentPropertyCollection](../documentpropertycollection/)
 * Namespace [Aspose::Words::Properties](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

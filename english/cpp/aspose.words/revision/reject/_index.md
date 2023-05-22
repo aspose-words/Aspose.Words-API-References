@@ -1,9 +1,10 @@
 ---
-title: Reject
+title: Aspose::Words::Revision::Reject method
+linktitle: Reject
 second_title: Aspose.Words for C++ API Reference
-description: Reject this revision.
+description: 'Aspose::Words::Revision::Reject method. Reject this revision in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words/revision/reject/
 ---
 ## Revision::Reject method
@@ -101,4 +102,4 @@ ASSERT_EQ(u"This is revision #1. \rThis is revision #2.", doc->GetText().Trim())
 
 * Class [Revision](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

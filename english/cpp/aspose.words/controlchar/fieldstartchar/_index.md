@@ -1,9 +1,10 @@
 ---
-title: FieldStartChar
+title: Aspose::Words::ControlChar::FieldStartChar field
+linktitle: FieldStartChar
 second_title: Aspose.Words for C++ API Reference
-description: 'Start of MS Word field character: (char)19.'
+description: 'Aspose::Words::ControlChar::FieldStartChar field. Start of MS Word field character: (char)19 in C++.'
 type: docs
-weight: 235
+weight: 19000
 url: /cpp/aspose.words/controlchar/fieldstartchar/
 ---
 ## FieldStartChar field
@@ -90,4 +91,4 @@ ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::ColumnBreak()), ControlCha
 
 * Class [ControlChar](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

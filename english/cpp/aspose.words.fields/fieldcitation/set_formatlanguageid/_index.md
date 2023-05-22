@@ -1,15 +1,16 @@
 ---
-title: set_FormatLanguageId
+title: Aspose::Words::Fields::FieldCitation::set_FormatLanguageId method
+linktitle: set_FormatLanguageId
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Fields::FieldCitation::get_FormatLanguageId.'
+description: 'Aspose::Words::Fields::FieldCitation::set_FormatLanguageId method. Sets the language ID that is used in conjunction with the specified bibliographic style to format the citation in the document in C++.'
 type: docs
-weight: 183
+weight: 15000
 url: /cpp/aspose.words.fields/fieldcitation/set_formatlanguageid/
 ---
 ## FieldCitation::set_FormatLanguageId method
 
 
-Setter for [Aspose::Words::Fields::FieldCitation::get_FormatLanguageId](../get_formatlanguageid/).
+Sets the language ID that is used in conjunction with the specified bibliographic style to format the citation in the document.
 
 ```cpp
 void Aspose::Words::Fields::FieldCitation::set_FormatLanguageId(const System::String &value)
@@ -19,4 +20,4 @@ void Aspose::Words::Fields::FieldCitation::set_FormatLanguageId(const System::St
 
 * Class [FieldCitation](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

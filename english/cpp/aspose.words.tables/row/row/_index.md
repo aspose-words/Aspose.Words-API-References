@@ -1,9 +1,10 @@
 ---
-title: Row
+title: Aspose::Words::Tables::Row::Row constructor
+linktitle: Row
 second_title: Aspose.Words for C++ API Reference
-description: Initializes a new instance of the Row class.
+description: 'Aspose::Words::Tables::Row::Row constructor. Initializes a new instance of the Row class in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.tables/row/row/
 ---
 ## Row::Row constructor
@@ -82,4 +83,4 @@ static SharedPtr<Table> CreateTable(SharedPtr<Document> doc, int rowCount, int c
 * Class [DocumentBase](../../../aspose.words/documentbase/)
 * Class [Row](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

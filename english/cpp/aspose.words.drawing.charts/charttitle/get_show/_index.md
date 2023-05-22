@@ -1,9 +1,10 @@
 ---
-title: get_Show
+title: Aspose::Words::Drawing::Charts::ChartTitle::get_Show method
+linktitle: get_Show
 second_title: Aspose.Words for C++ API Reference
-description: Determines whether the title shall be shown for this chart. Default value is true.
+description: 'Aspose::Words::Drawing::Charts::ChartTitle::get_Show method. Determines whether the title shall be shown for this chart. Default value is true in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.drawing.charts/charttitle/get_show/
 ---
 ## ChartTitle::get_Show method
@@ -46,4 +47,4 @@ doc->Save(ArtifactsDir + u"Charts.ChartTitle.docx");
 
 * Class [ChartTitle](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: FieldChar
+title: Aspose::Words::Fields::FieldChar class
+linktitle: FieldChar
 second_title: Aspose.Words for C++ API Reference
-description: Base class for nodes that represent field characters in a document. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Fields::FieldChar class. Base class for nodes that represent field characters in a document. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 261
+weight: 21000
 url: /cpp/aspose.words.fields/fieldchar/
 ---
 ## FieldChar class
@@ -71,7 +72,7 @@ Shows how to work with a [FieldStart](../fieldstart/) node.
 auto doc = MakeObject<Document>();
 auto builder = MakeObject<DocumentBuilder>(doc);
 
-auto field = System::DynamicCast<FieldDate>(builder->InsertField(FieldType::FieldDate, true));
+auto field = System::ExplicitCast<FieldDate>(builder->InsertField(FieldType::FieldDate, true));
 field->get_Format()->set_DateTimeFormat(u"dddd, MMMM dd, yyyy");
 field->Update();
 
@@ -82,7 +83,7 @@ ASPOSE_ASSERT_EQ(false, fieldStart->get_IsDirty());
 ASPOSE_ASSERT_EQ(false, fieldStart->get_IsLocked());
 
 // Retrieve the facade object which represents the field in the document.
-field = System::DynamicCast<FieldDate>(fieldStart->GetField());
+field = System::ExplicitCast<FieldDate>(fieldStart->GetField());
 
 ASPOSE_ASSERT_EQ(false, field->get_IsLocked());
 ASSERT_EQ(u" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field->GetFieldCode());
@@ -95,4 +96,4 @@ field->Update();
 
 * Class [SpecialChar](../../aspose.words/specialchar/)
 * Namespace [Aspose::Words::Fields](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

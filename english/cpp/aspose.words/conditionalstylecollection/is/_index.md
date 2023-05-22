@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::ConditionalStyleCollection::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::ConditionalStyleCollection class in C++.'
 type: docs
-weight: 235
+weight: 19000
 url: /cpp/aspose.words/conditionalstylecollection/is/
 ---
 ## ConditionalStyleCollection::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::ConditionalStyleCollection::Is(const System::TypeInf
 
 * Class [ConditionalStyleCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

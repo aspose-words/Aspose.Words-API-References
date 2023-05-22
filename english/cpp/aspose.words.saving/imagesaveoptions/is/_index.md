@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Saving::ImageSaveOptions::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Saving::ImageSaveOptions class in C++.'
 type: docs
-weight: 261
+weight: 21000
 url: /cpp/aspose.words.saving/imagesaveoptions/is/
 ---
 ## ImageSaveOptions::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Saving::ImageSaveOptions::Is(const System::TypeInfo 
 
 * Class [ImageSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

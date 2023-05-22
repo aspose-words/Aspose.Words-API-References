@@ -1,9 +1,10 @@
 ---
-title: GetEnumerator
+title: Aspose::Words::CompositeNode::GetEnumerator method
+linktitle: GetEnumerator
 second_title: Aspose.Words for C++ API Reference
-description: Provides support for the for each style iteration over the child nodes of this node.
+description: 'Aspose::Words::CompositeNode::GetEnumerator method. Provides support for the for each style iteration over the child nodes of this node in C++.'
 type: docs
-weight: 131
+weight: 11000
 url: /cpp/aspose.words/compositenode/getenumerator/
 ---
 ## CompositeNode::GetEnumerator method
@@ -25,7 +26,7 @@ Shows how to traverse through a composite node's collection of child nodes.
 auto doc = MakeObject<Document>();
 
 // Add two runs and one shape as child nodes to the first paragraph of this document.
-auto paragraph = System::DynamicCast<Paragraph>(doc->GetChild(NodeType::Paragraph, 0, true));
+auto paragraph = System::ExplicitCast<Paragraph>(doc->GetChild(NodeType::Paragraph, 0, true));
 paragraph->AppendChild(MakeObject<Run>(doc, u"Hello world! "));
 
 auto shape = MakeObject<Shape>(doc, ShapeType::Rectangle);
@@ -54,7 +55,7 @@ for (const auto& child : System::IterateOver(children))
         break;
 
     case NodeType::Shape: {
-        auto childShape = System::DynamicCast<Shape>(child);
+        auto childShape = System::ExplicitCast<Shape>(child);
         std::cout << "Shape:" << std::endl;
         std::cout << String::Format(u"\t{0}, {1}x{2}", childShape->get_ShapeType(), childShape->get_Width(), childShape->get_Height()) << std::endl;
         ASSERT_EQ(100, shape->get_CustomNodeId());
@@ -72,4 +73,4 @@ for (const auto& child : System::IterateOver(children))
 * Class [Node](../../node/)
 * Class [CompositeNode](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_Compliance
+title: Aspose::Words::Saving::OoxmlSaveOptions::get_Compliance method
+linktitle: get_Compliance
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the OOXML version for the output document. The default value is Ecma376_2006.
+description: 'Aspose::Words::Saving::OoxmlSaveOptions::get_Compliance method. Specifies the OOXML version for the output document. The default value is Ecma376_2006 in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.saving/ooxmlsaveoptions/get_compliance/
 ---
 ## OoxmlSaveOptions::get_Compliance method
@@ -30,7 +31,7 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 doc->get_CompatibilityOptions()->OptimizeFor(MsWordVersion::Word2003);
 builder->InsertImage(ImageDir + u"Transparent background logo.png");
 
-ASSERT_EQ(ShapeMarkupLanguage::Vml, (System::DynamicCast<Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_MarkupLanguage());
+ASSERT_EQ(ShapeMarkupLanguage::Vml, (System::ExplicitCast<Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_MarkupLanguage());
 
 // The "ISO/IEC 29500:2008" OOXML standard does not support VML shapes.
 // If we set the "Compliance" property of the SaveOptions object to "OoxmlCompliance.Iso29500_2008_Strict",
@@ -44,7 +45,7 @@ doc->Save(ArtifactsDir + u"OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
 // Our saved document defines the shape using DML to adhere to the "ISO/IEC 29500:2008" OOXML standard.
 doc = MakeObject<Document>(ArtifactsDir + u"OoxmlSaveOptions.Iso29500Strict.docx");
 
-ASSERT_EQ(ShapeMarkupLanguage::Dml, (System::DynamicCast<Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_MarkupLanguage());
+ASSERT_EQ(ShapeMarkupLanguage::Dml, (System::ExplicitCast<Shape>(doc->GetChild(NodeType::Shape, 0, true)))->get_MarkupLanguage());
 ```
 
 
@@ -105,4 +106,4 @@ doc->Save(ArtifactsDir + u"Shape.ShapeInsertion.docx", saveOptions);
 * Enum [OoxmlCompliance](../../ooxmlcompliance/)
 * Class [OoxmlSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

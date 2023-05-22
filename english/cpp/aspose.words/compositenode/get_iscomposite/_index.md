@@ -1,9 +1,10 @@
 ---
-title: get_IsComposite
+title: Aspose::Words::CompositeNode::get_IsComposite method
+linktitle: get_IsComposite
 second_title: Aspose.Words for C++ API Reference
-description: Returns true as this node can have child nodes.
+description: 'Aspose::Words::CompositeNode::get_IsComposite method. Returns true as this node can have child nodes in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words/compositenode/get_iscomposite/
 ---
 ## CompositeNode::get_IsComposite method
@@ -43,7 +44,7 @@ void TraverseAllNodes(SharedPtr<CompositeNode> parentNode, int depth)
         if (childNode->get_IsComposite())
         {
             std::cout << std::endl;
-            TraverseAllNodes(System::DynamicCast<CompositeNode>(childNode), depth + 1);
+            TraverseAllNodes(System::ExplicitCast<CompositeNode>(childNode), depth + 1);
         }
         else if (System::ObjectExt::Is<Inline>(childNode))
         {
@@ -61,4 +62,4 @@ void TraverseAllNodes(SharedPtr<CompositeNode> parentNode, int depth)
 
 * Class [CompositeNode](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

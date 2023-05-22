@@ -1,9 +1,10 @@
 ---
-title: Contains
+title: Aspose::Words::Properties::DocumentPropertyCollection::Contains method
+linktitle: Contains
 second_title: Aspose.Words for C++ API Reference
-description: Returns true if a property with the specified name exists in the collection.
+description: 'Aspose::Words::Properties::DocumentPropertyCollection::Contains method. Returns true if a property with the specified name exists in the collection in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words.properties/documentpropertycollection/contains/
 ---
 ## DocumentPropertyCollection::Contains method
@@ -59,7 +60,7 @@ ASSERT_EQ(5, properties->get_Count());
 
 // Display the value of a custom property using a DOCPROPERTY field.
 auto builder = MakeObject<DocumentBuilder>(doc);
-auto field = System::DynamicCast<FieldDocProperty>(builder->InsertField(u" DOCPROPERTY \"Authorized By\""));
+auto field = System::ExplicitCast<FieldDocProperty>(builder->InsertField(u" DOCPROPERTY \"Authorized By\""));
 field->Update();
 
 ASSERT_EQ(u"John Doe", field->get_Result());
@@ -90,4 +91,4 @@ ASSERT_EQ(0, properties->get_Count());
 
 * Class [DocumentPropertyCollection](../)
 * Namespace [Aspose::Words::Properties](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

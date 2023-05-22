@@ -1,9 +1,10 @@
 ---
-title: GetAncestor
+title: Aspose::Words::Node::GetAncestor method
+linktitle: GetAncestor
 second_title: Aspose.Words for C++ API Reference
-description: Gets the first ancestor of the specified NodeType.
+description: 'Aspose::Words::Node::GetAncestor method. Gets the first ancestor of the specified NodeType in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words/node/getancestor/
 ---
 ## Node::GetAncestor method
@@ -37,7 +38,7 @@ void CalculateDepthOfNestedTables()
 
     for (int i = 0; i < tables->get_Count(); i++)
     {
-        auto table = System::DynamicCast<Table>(tables->idx_get(i));
+        auto table = System::ExplicitCast<Table>(tables->idx_get(i));
 
         // Find out if any cells in the table have other tables as children.
         int count = GetChildTableCount(table);
@@ -98,4 +99,4 @@ static int GetChildTableCount(SharedPtr<Table> table)
 * Enum [NodeType](../../nodetype/)
 * Class [Node](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

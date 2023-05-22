@@ -1,9 +1,10 @@
 ---
-title: Create
+title: Aspose::Words::DigitalSignatures::CertificateHolder::Create method
+linktitle: Create
 second_title: Aspose.Words for C++ API Reference
-description: Creates CertificateHolder object using byte array of PKCS12 store and its password.
+description: 'Aspose::Words::DigitalSignatures::CertificateHolder::Create method. Creates CertificateHolder object using byte array of PKCS12 store and its password in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words.digitalsignatures/certificateholder/create/
 ---
 ## CertificateHolder::Create(const System::ArrayPtr\<uint8_t\>\&, const System::SharedPtr\<System::Security::SecureString\>\&) method
@@ -30,7 +31,7 @@ An instance of [CertificateHolder](../)
 * Class [CertificateHolder](../)
 * Class [CertificateHolder](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## CertificateHolder::Create(const System::ArrayPtr\<uint8_t\>\&, const System::String\&) method
 
 
@@ -55,7 +56,7 @@ An instance of [CertificateHolder](../)
 * Class [CertificateHolder](../)
 * Class [CertificateHolder](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## CertificateHolder::Create(const System::String\&, const System::String\&) method
 
 
@@ -106,7 +107,7 @@ signOptions->set_SignTime(System::DateTime::get_Now());
 * Class [CertificateHolder](../)
 * Class [CertificateHolder](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## CertificateHolder::Create(const System::String\&, const System::String\&, const System::String\&) method
 
 
@@ -132,4 +133,4 @@ An instance of [CertificateHolder](../)
 * Class [CertificateHolder](../)
 * Class [CertificateHolder](../)
 * Namespace [Aspose::Words::DigitalSignatures](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

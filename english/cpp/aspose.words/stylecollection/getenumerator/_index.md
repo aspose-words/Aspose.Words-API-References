@@ -1,9 +1,10 @@
 ---
-title: GetEnumerator
+title: Aspose::Words::StyleCollection::GetEnumerator method
+linktitle: GetEnumerator
 second_title: Aspose.Words for C++ API Reference
-description: Gets an enumerator object that will enumerate styles in the alphabetical order of their names.
+description: 'Aspose::Words::StyleCollection::GetEnumerator method. Gets an enumerator object that will enumerate styles in the alphabetical order of their names in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words/stylecollection/getenumerator/
 ---
 ## StyleCollection::GetEnumerator method
@@ -47,4 +48,4 @@ ASSERT_EQ(4, doc->get_Styles()->get_Count());
 * Class [Style](../../style/)
 * Class [StyleCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: virtualized_iterator
+title: Aspose::Words::Fonts::FontInfoCollection::virtualized_iterator typedef
+linktitle: virtualized_iterator
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Aspose::Words::Fonts::FontInfoCollection::virtualized_iterator typedef of Aspose::Words::Fonts::FontInfoCollection class in C++.'
 type: docs
-weight: 313
+weight: 25000
 url: /cpp/aspose.words.fonts/fontinfocollection/virtualized_iterator/
 ---
 ## virtualized_iterator typedef
@@ -19,4 +20,4 @@ using Aspose::Words::Fonts::FontInfoCollection::virtualized_iterator =  typename
 
 * Class [FontInfoCollection](../)
 * Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

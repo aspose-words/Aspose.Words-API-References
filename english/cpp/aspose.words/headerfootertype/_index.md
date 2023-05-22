@@ -1,9 +1,10 @@
 ---
-title: HeaderFooterType
+title: Aspose::Words::HeaderFooterType enum
+linktitle: HeaderFooterType
 second_title: Aspose.Words for C++ API Reference
-description: Identifies the type of header or footer found in a Word file.
+description: 'Aspose::Words::HeaderFooterType enum. Identifies the type of header or footer found in a Word file in C++.'
 type: docs
-weight: 1158
+weight: 90000
 url: /cpp/aspose.words/headerfootertype/
 ---
 ## HeaderFooterType enum
@@ -61,4 +62,4 @@ doc->Save(ArtifactsDir + u"DocumentBuilder.HeadersAndFooters.docx");
 ## See Also
 
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

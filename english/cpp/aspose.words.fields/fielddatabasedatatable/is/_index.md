@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Fields::FieldDatabaseDataTable::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Fields::FieldDatabaseDataTable class in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.fields/fielddatabasedatatable/is/
 ---
 ## FieldDatabaseDataTable::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Fields::FieldDatabaseDataTable::Is(const System::Typ
 
 * Class [FieldDatabaseDataTable](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

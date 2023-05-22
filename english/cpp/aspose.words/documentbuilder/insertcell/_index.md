@@ -1,9 +1,10 @@
 ---
-title: InsertCell
+title: Aspose::Words::DocumentBuilder::InsertCell method
+linktitle: InsertCell
 second_title: Aspose.Words for C++ API Reference
-description: Inserts a table cell into the document.
+description: 'Aspose::Words::DocumentBuilder::InsertCell method. Inserts a table cell into the document in C++.'
 type: docs
-weight: 365
+weight: 29000
 url: /cpp/aspose.words/documentbuilder/insertcell/
 ---
 ## DocumentBuilder::InsertCell method
@@ -123,4 +124,4 @@ doc->Save(ArtifactsDir + u"DocumentBuilder.CreateTable.docx");
 * Class [Cell](../../../aspose.words.tables/cell/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

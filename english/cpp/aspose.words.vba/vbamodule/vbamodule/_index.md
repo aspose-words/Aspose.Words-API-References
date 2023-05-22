@@ -1,9 +1,10 @@
 ---
-title: VbaModule
+title: Aspose::Words::Vba::VbaModule::VbaModule constructor
+linktitle: VbaModule
 second_title: Aspose.Words for C++ API Reference
-description: Creates an empty module.
+description: 'Aspose::Words::Vba::VbaModule::VbaModule constructor. Creates an empty module in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.vba/vbamodule/vbamodule/
 ---
 ## VbaModule::VbaModule constructor
@@ -45,4 +46,4 @@ doc->Save(ArtifactsDir + u"VbaProject.CreateVBAMacros.docm");
 
 * Class [VbaModule](../)
 * Namespace [Aspose::Words::Vba](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_StatusText
+title: Aspose::Words::Fields::FormField::get_StatusText method
+linktitle: get_StatusText
 second_title: Aspose.Words for C++ API Reference
-description: Returns or sets the text that's displayed in the status bar when a form field has the focus.
+description: 'Aspose::Words::Fields::FormField::get_StatusText method. Returns or sets the text that''s displayed in the status bar when a form field has the focus in C++.'
 type: docs
-weight: 248
+weight: 20000
 url: /cpp/aspose.words.fields/formfield/get_statustext/
 ---
 ## FormField::get_StatusText method
@@ -159,4 +160,4 @@ private:
 
 * Class [FormField](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_BottomPadding
+title: Aspose::Words::Tables::Table::get_BottomPadding method
+linktitle: get_BottomPadding
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the amount of space (in points) to add below the contents of cells.
+description: 'Aspose::Words::Tables::Table::get_BottomPadding method. Gets or sets the amount of space (in points) to add below the contents of cells in C++.'
 type: docs
-weight: 196
+weight: 16000
 url: /cpp/aspose.words.tables/table/get_bottompadding/
 ---
 ## Table::get_BottomPadding method
@@ -47,4 +48,4 @@ doc->Save(ArtifactsDir + u"DocumentBuilder.SetRowFormatting.docx");
 
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

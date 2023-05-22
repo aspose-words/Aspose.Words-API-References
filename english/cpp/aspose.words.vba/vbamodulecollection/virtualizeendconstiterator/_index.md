@@ -1,9 +1,10 @@
 ---
-title: virtualizeEndConstIterator
+title: Aspose::Words::Vba::VbaModuleCollection::virtualizeEndConstIterator method
+linktitle: virtualizeEndConstIterator
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use virtualizeEndConstIterator method of Aspose::Words::Vba::VbaModuleCollection class in C++.'
 type: docs
-weight: 170
+weight: 14000
 url: /cpp/aspose.words.vba/vbamodulecollection/virtualizeendconstiterator/
 ---
 ## VbaModuleCollection::virtualizeEndConstIterator method
@@ -20,4 +21,4 @@ virtualized_iterator * Aspose::Words::Vba::VbaModuleCollection::virtualizeEndCon
 * Typedef [virtualized_iterator](../virtualized_iterator/)
 * Class [VbaModuleCollection](../)
 * Namespace [Aspose::Words::Vba](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

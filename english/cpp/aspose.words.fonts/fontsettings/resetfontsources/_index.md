@@ -1,9 +1,10 @@
 ---
-title: ResetFontSources
+title: Aspose::Words::Fonts::FontSettings::ResetFontSources method
+linktitle: ResetFontSources
 second_title: Aspose.Words for C++ API Reference
-description: Resets the fonts sources to the system default.
+description: 'Aspose::Words::Fonts::FontSettings::ResetFontSources method. Resets the fonts sources to the system default in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.fonts/fontsettings/resetfontsources/
 ---
 ## FontSettings::ResetFontSources method
@@ -28,7 +29,7 @@ doc->set_FontSettings(MakeObject<FontSettings>());
 // By default, a blank document always contains a system font source.
 ASSERT_EQ(1, doc->get_FontSettings()->GetFontsSources()->get_Length());
 
-auto systemFontSource = System::DynamicCast<SystemFontSource>(doc->get_FontSettings()->GetFontsSources()->idx_get(0));
+auto systemFontSource = System::ExplicitCast<SystemFontSource>(doc->get_FontSettings()->GetFontsSources()->idx_get(0));
 ASSERT_EQ(FontSourceType::SystemFonts, systemFontSource->get_Type());
 ASSERT_EQ(0, systemFontSource->get_Priority());
 
@@ -75,4 +76,4 @@ ASSERT_EQ(1, doc->get_FontSettings()->get_SubstitutionSettings()->get_TableSubst
 
 * Class [FontSettings](../)
 * Namespace [Aspose::Words::Fonts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

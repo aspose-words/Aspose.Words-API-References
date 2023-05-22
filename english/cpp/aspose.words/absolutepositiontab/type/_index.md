@@ -1,9 +1,10 @@
 ---
-title: Type
+title: Aspose::Words::AbsolutePositionTab::Type method
+linktitle: Type
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Type method of Aspose::Words::AbsolutePositionTab class in C++.'
 type: docs
-weight: 1
+weight: 1000
 url: /cpp/aspose.words/absolutepositiontab/type/
 ---
 ## AbsolutePositionTab::Type method
@@ -19,4 +20,4 @@ static const System::TypeInfo & Aspose::Words::AbsolutePositionTab::Type()
 
 * Class [AbsolutePositionTab](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_Style
+title: Aspose::Words::Font::get_Style method
+linktitle: get_Style
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the character style applied to this formatting.
+description: 'Aspose::Words::Font::get_Style method. Gets or sets the character style applied to this formatting in C++.'
 type: docs
-weight: 534
+weight: 42000
 url: /cpp/aspose.words/font/get_style/
 ---
 ## Font::get_Style method
@@ -52,4 +53,4 @@ doc->Save(ArtifactsDir + u"Font.Style.docx");
 * Class [Style](../../style/)
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

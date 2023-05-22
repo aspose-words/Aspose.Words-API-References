@@ -1,9 +1,10 @@
 ---
-title: get_BaseStyleName
+title: Aspose::Words::Style::get_BaseStyleName method
+linktitle: get_BaseStyleName
 second_title: Aspose.Words for C++ API Reference
-description: Gets/sets the name of the style this style is based on.
+description: 'Aspose::Words::Style::get_BaseStyleName method. Gets/sets the name of the style this style is based on in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words/style/get_basestylename/
 ---
 ## Style::get_BaseStyleName method
@@ -49,4 +50,4 @@ ASPOSE_ASSERT_EQ(doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(
 
 * Class [Style](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

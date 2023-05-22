@@ -1,9 +1,10 @@
 ---
-title: BuildAndInsert
+title: Aspose::Words::Fields::FieldBuilder::BuildAndInsert method
+linktitle: BuildAndInsert
 second_title: Aspose.Words for C++ API Reference
-description: Builds and inserts a field into the document before the specified inline node.
+description: 'Aspose::Words::Fields::FieldBuilder::BuildAndInsert method. Builds and inserts a field into the document before the specified inline node in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.fields/fieldbuilder/buildandinsert/
 ---
 ## FieldBuilder::BuildAndInsert(const System::SharedPtr\<Aspose::Words::Inline\>\&) method
@@ -52,7 +53,7 @@ doc->Save(ArtifactsDir + u"Field.CreateWithFieldBuilder.docx");
 * Class [Inline](../../../aspose.words/inline/)
 * Class [FieldBuilder](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## FieldBuilder::BuildAndInsert(const System::SharedPtr\<Aspose::Words::Paragraph\>\&) method
 
 
@@ -155,4 +156,4 @@ doc->Save(ArtifactsDir + u"Field.SYMBOL.docx");
 * Class [Paragraph](../../../aspose.words/paragraph/)
 * Class [FieldBuilder](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

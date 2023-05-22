@@ -1,9 +1,10 @@
 ---
-title: get_AlternateReferences
+title: Aspose::Words::WebExtensions::WebExtension::get_AlternateReferences method
+linktitle: get_AlternateReferences
 second_title: Aspose.Words for C++ API Reference
-description: Specifies alternate references to a web extension.
+description: 'Aspose::Words::WebExtensions::WebExtension::get_AlternateReferences method. Specifies alternate references to a web extension in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.webextensions/webextension/get_alternatereferences/
 ---
 ## WebExtension::get_AlternateReferences method
@@ -20,4 +21,4 @@ System::SharedPtr<Aspose::Words::WebExtensions::WebExtensionReferenceCollection>
 * Class [WebExtensionReferenceCollection](../../webextensionreferencecollection/)
 * Class [WebExtension](../)
 * Namespace [Aspose::Words::WebExtensions](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

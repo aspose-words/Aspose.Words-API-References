@@ -1,9 +1,10 @@
 ---
-title: ConditionalStyleCollection
+title: Aspose::Words::ConditionalStyleCollection class
+linktitle: ConditionalStyleCollection
 second_title: Aspose.Words for C++ API Reference
-description: Represents a collection of ConditionalStyle objects. To learn more, visit the  documentation article.
+description: 'Aspose::Words::ConditionalStyleCollection class. Represents a collection of ConditionalStyle objects. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 209
+weight: 17000
 url: /cpp/aspose.words/conditionalstylecollection/
 ---
 ## ConditionalStyleCollection class
@@ -62,7 +63,7 @@ builder->Write(u"Cell 4");
 builder->EndTable();
 
 // Create a custom table style.
-auto tableStyle = System::DynamicCast<TableStyle>(doc->get_Styles()->Add(StyleType::Table, u"MyTableStyle1"));
+auto tableStyle = System::ExplicitCast<TableStyle>(doc->get_Styles()->Add(StyleType::Table, u"MyTableStyle1"));
 
 // Conditional styles are formatting changes that affect only some of the table's cells
 // based on a predicate, such as the cells being in the last row.
@@ -116,4 +117,4 @@ doc->Save(ArtifactsDir + u"Table.ConditionalStyles.docx");
 ## See Also
 
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

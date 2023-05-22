@@ -1,9 +1,10 @@
 ---
-title: get_ListLevel
+title: Aspose::Words::Lists::ListFormat::get_ListLevel method
+linktitle: get_ListLevel
 second_title: Aspose.Words for C++ API Reference
-description: Returns the list level formatting plus any formatting overrides applied to the current paragraph.
+description: 'Aspose::Words::Lists::ListFormat::get_ListLevel method. Returns the list level formatting plus any formatting overrides applied to the current paragraph in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words.lists/listformat/get_listlevel/
 ---
 ## ListFormat::get_ListLevel method
@@ -78,4 +79,4 @@ builder->get_Document()->Save(ArtifactsDir + u"Lists.CreateCustomList.docx");
 * Class [ListLevel](../../listlevel/)
 * Class [ListFormat](../)
 * Namespace [Aspose::Words::Lists](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

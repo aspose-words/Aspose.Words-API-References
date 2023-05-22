@@ -1,9 +1,10 @@
 ---
-title: get_ListIndentation
+title: Aspose::Words::Saving::TxtSaveOptions::get_ListIndentation method
+linktitle: get_ListIndentation
 second_title: Aspose.Words for C++ API Reference
-description: Gets a TxtListIndentation object that specifies how many and which character to use for indentation of list levels. By default it is zero count of character '\0', that means no indentation.
+description: 'Aspose::Words::Saving::TxtSaveOptions::get_ListIndentation method. Gets a TxtListIndentation object that specifies how many and which character to use for indentation of list levels. By default it is zero count of character ''\0'', that means no indentation in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.saving/txtsaveoptions/get_listindentation/
 ---
 ## TxtSaveOptions::get_ListIndentation method
@@ -57,4 +58,4 @@ ASSERT_EQ(String(u"1. Item 1\r\n") + u"   a. Item 2\r\n" + u"      i. Item 3\r\n
 * Class [TxtListIndentation](../../txtlistindentation/)
 * Class [TxtSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

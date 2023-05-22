@@ -1,9 +1,10 @@
 ---
-title: get_SeparatorCharacter
+title: Aspose::Words::Fields::FieldAutoNum::get_SeparatorCharacter method
+linktitle: get_SeparatorCharacter
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the separator character to be used.
+description: 'Aspose::Words::Fields::FieldAutoNum::get_SeparatorCharacter method. Gets or sets the separator character to be used in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.fields/fieldautonum/get_separatorcharacter/
 ---
 ## FieldAutoNum::get_SeparatorCharacter method
@@ -28,12 +29,12 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 // Each AUTONUM field displays the current value of a running count of AUTONUM fields,
 // allowing us to automatically number items like a numbered list.
 // This field will display a number "1.".
-auto field = System::DynamicCast<FieldAutoNum>(builder->InsertField(FieldType::FieldAutoNum, true));
+auto field = System::ExplicitCast<FieldAutoNum>(builder->InsertField(FieldType::FieldAutoNum, true));
 builder->Writeln(u"\tParagraph 1.");
 
 ASSERT_EQ(u" AUTONUM ", field->GetFieldCode());
 
-field = System::DynamicCast<FieldAutoNum>(builder->InsertField(FieldType::FieldAutoNum, true));
+field = System::ExplicitCast<FieldAutoNum>(builder->InsertField(FieldType::FieldAutoNum, true));
 builder->Writeln(u"\tParagraph 2.");
 
 // The separator character, which appears in the field result immediately after the number,is a full stop by default.
@@ -53,4 +54,4 @@ doc->Save(ArtifactsDir + u"Field.AUTONUM.docx");
 
 * Class [FieldAutoNum](../)
 * Namespace [Aspose::Words::Fields](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

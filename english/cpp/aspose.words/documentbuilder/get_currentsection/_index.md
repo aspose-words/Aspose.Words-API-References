@@ -1,9 +1,10 @@
 ---
-title: get_CurrentSection
+title: Aspose::Words::DocumentBuilder::get_CurrentSection method
+linktitle: get_CurrentSection
 second_title: Aspose.Words for C++ API Reference
-description: Gets the section that is currently selected in this DocumentBuilder.
+description: 'Aspose::Words::DocumentBuilder::get_CurrentSection method. Gets the section that is currently selected in this DocumentBuilder in C++.'
 type: docs
-weight: 157
+weight: 13000
 url: /cpp/aspose.words/documentbuilder/get_currentsection/
 ---
 ## DocumentBuilder::get_CurrentSection method
@@ -56,4 +57,4 @@ doc->Save(ArtifactsDir + u"Image.CreateFloatingPositionSize.docx");
 * Class [Section](../../section/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

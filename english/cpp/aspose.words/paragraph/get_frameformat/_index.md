@@ -1,9 +1,10 @@
 ---
-title: get_FrameFormat
+title: Aspose::Words::Paragraph::get_FrameFormat method
+linktitle: get_FrameFormat
 second_title: Aspose.Words for C++ API Reference
-description: Provides access to the frame formatting properties.
+description: 'Aspose::Words::Paragraph::get_FrameFormat method. Provides access to the frame formatting properties in C++.'
 type: docs
-weight: 66
+weight: 6000
 url: /cpp/aspose.words/paragraph/get_frameformat/
 ---
 ## Paragraph::get_FrameFormat method
@@ -45,4 +46,4 @@ ASPOSE_ASSERT_EQ(0.0, paragraphFrame->get_FrameFormat()->get_VerticalDistanceFro
 * Class [FrameFormat](../../frameformat/)
 * Class [Paragraph](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

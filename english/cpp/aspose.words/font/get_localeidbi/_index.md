@@ -1,9 +1,10 @@
 ---
-title: get_LocaleIdBi
+title: Aspose::Words::Font::get_LocaleIdBi method
+linktitle: get_LocaleIdBi
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the locale identifier (language) of the formatted right-to-left characters.
+description: 'Aspose::Words::Font::get_LocaleIdBi method. Gets or sets the locale identifier (language) of the formatted right-to-left characters in C++.'
 type: docs
-weight: 287
+weight: 23000
 url: /cpp/aspose.words/font/get_localeidbi/
 ---
 ## Font::get_LocaleIdBi method
@@ -57,4 +58,4 @@ doc->Save(ArtifactsDir + u"Font.Bidi.docx");
 
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

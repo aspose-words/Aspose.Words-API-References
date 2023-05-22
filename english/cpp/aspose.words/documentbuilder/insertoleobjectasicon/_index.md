@@ -1,9 +1,10 @@
 ---
-title: InsertOleObjectAsIcon
+title: Aspose::Words::DocumentBuilder::InsertOleObjectAsIcon method
+linktitle: InsertOleObjectAsIcon
 second_title: Aspose.Words for C++ API Reference
-description: Inserts an embedded OLE object as icon from a stream into the document. Allows to specify icon file and caption. Detects OLE object type using given progID parameter.
+description: 'Aspose::Words::DocumentBuilder::InsertOleObjectAsIcon method. Inserts an embedded OLE object as icon from a stream into the document. Allows to specify icon file and caption. Detects OLE object type using given progID parameter in C++.'
 type: docs
-weight: 534
+weight: 42000
 url: /cpp/aspose.words/documentbuilder/insertoleobjectasicon/
 ---
 ## DocumentBuilder::InsertOleObjectAsIcon(const System::SharedPtr\<System::IO::Stream\>\&, const System::String\&, const System::String\&, const System::String\&) method
@@ -61,7 +62,7 @@ doc->Save(ArtifactsDir + u"DocumentBuilder.InsertOleObjectAsIcon.docx");
 * Class [Shape](../../../aspose.words.drawing/shape/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## DocumentBuilder::InsertOleObjectAsIcon(const System::String\&, bool, const System::String\&, const System::String\&) method
 
 
@@ -88,7 +89,7 @@ Shape node containing Ole object and inserted at the current Builder position.
 * Class [Shape](../../../aspose.words.drawing/shape/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## DocumentBuilder::InsertOleObjectAsIcon(const System::String\&, const System::String\&, bool, const System::String\&, const System::String\&) method
 
 
@@ -145,7 +146,7 @@ doc->Save(ArtifactsDir + u"DocumentBuilder.InsertOleObjectAsIcon.docx");
 * Class [Shape](../../../aspose.words.drawing/shape/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## DocumentBuilder::InsertOleObjectAsIcon(std::basic_istream\<CharType, Traits\>\&, System::String, System::String, System::String) method
 
 
@@ -160,4 +161,4 @@ template<typename CharType,typename Traits> System::SharedPtr<Aspose::Words::Dra
 * Class [Shape](../../../aspose.words.drawing/shape/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

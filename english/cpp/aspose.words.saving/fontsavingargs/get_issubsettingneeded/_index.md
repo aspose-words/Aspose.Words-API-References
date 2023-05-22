@@ -1,9 +1,10 @@
 ---
-title: get_IsSubsettingNeeded
+title: Aspose::Words::Saving::FontSavingArgs::get_IsSubsettingNeeded method
+linktitle: get_IsSubsettingNeeded
 second_title: Aspose.Words for C++ API Reference
-description: Allows to specify whether the current font will be subsetted before exporting as a font resource.
+description: 'Aspose::Words::Saving::FontSavingArgs::get_IsSubsettingNeeded method. Allows to specify whether the current font will be subsetted before exporting as a font resource in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.saving/fontsavingargs/get_issubsettingneeded/
 ---
 ## FontSavingArgs::get_IsSubsettingNeeded method
@@ -92,4 +93,4 @@ private:
 
 * Class [FontSavingArgs](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

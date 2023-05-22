@@ -1,9 +1,10 @@
 ---
-title: get_MainDocumentType
+title: Aspose::Words::Settings::MailMergeSettings::get_MainDocumentType method
+linktitle: get_MainDocumentType
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the mail-merge main document type. The default value is Default.
+description: 'Aspose::Words::Settings::MailMergeSettings::get_MainDocumentType method. Specifies the mail-merge main document type. The default value is Default in C++.'
 type: docs
-weight: 209
+weight: 17000
 url: /cpp/aspose.words.settings/mailmergesettings/get_maindocumenttype/
 ---
 ## MailMergeSettings::get_MainDocumentType method
@@ -24,4 +25,4 @@ The main document is the document that contains information that is the same for
 * Enum [MailMergeMainDocumentType](../../mailmergemaindocumenttype/)
 * Class [MailMergeSettings](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_ExportImagesForOldReaders
+title: Aspose::Words::Saving::RtfSaveOptions::get_ExportImagesForOldReaders method
+linktitle: get_ExportImagesForOldReaders
 second_title: Aspose.Words for C++ API Reference
-description: Specifies whether the keywords for "old readers" are written to RTF or not. This can significantly affect the size of the RTF document. Default value is true.
+description: 'Aspose::Words::Saving::RtfSaveOptions::get_ExportImagesForOldReaders method. Specifies whether the keywords for "old readers" are written to RTF or not. This can significantly affect the size of the RTF document. Default value is true in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.saving/rtfsaveoptions/get_exportimagesforoldreaders/
 ---
 ## RtfSaveOptions::get_ExportImagesForOldReaders method
@@ -52,4 +53,4 @@ doc->Save(ArtifactsDir + u"RtfSaveOptions.ExportImages.rtf", options);
 
 * Class [RtfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

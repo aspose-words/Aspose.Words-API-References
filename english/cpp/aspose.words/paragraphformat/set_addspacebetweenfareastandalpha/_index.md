@@ -1,9 +1,10 @@
 ---
-title: set_AddSpaceBetweenFarEastAndAlpha
+title: Aspose::Words::ParagraphFormat::set_AddSpaceBetweenFarEastAndAlpha method
+linktitle: set_AddSpaceBetweenFarEastAndAlpha
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::ParagraphFormat::get_AddSpaceBetweenFarEastAndAlpha.'
+description: 'Aspose::Words::ParagraphFormat::set_AddSpaceBetweenFarEastAndAlpha method. Setter for Aspose::Words::ParagraphFormat::get_AddSpaceBetweenFarEastAndAlpha in C++.'
 type: docs
-weight: 573
+weight: 45000
 url: /cpp/aspose.words/paragraphformat/set_addspacebetweenfareastandalpha/
 ---
 ## ParagraphFormat::set_AddSpaceBetweenFarEastAndAlpha method
@@ -19,4 +20,4 @@ void Aspose::Words::ParagraphFormat::set_AddSpaceBetweenFarEastAndAlpha(bool val
 
 * Class [ParagraphFormat](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: get_Italic
+title: Aspose::Words::Saving::FontSavingArgs::get_Italic method
+linktitle: get_Italic
 second_title: Aspose.Words for C++ API Reference
-description: Indicates whether the current font is italic.
+description: 'Aspose::Words::Saving::FontSavingArgs::get_Italic method. Indicates whether the current font is italic in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words.saving/fontsavingargs/get_italic/
 ---
 ## FontSavingArgs::get_Italic method
@@ -86,4 +87,4 @@ private:
 
 * Class [FontSavingArgs](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

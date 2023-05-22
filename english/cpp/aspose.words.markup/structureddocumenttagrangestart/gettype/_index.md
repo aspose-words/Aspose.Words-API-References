@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Markup::StructuredDocumentTagRangeStart::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Markup::StructuredDocumentTagRangeStart class in C++.'
 type: docs
-weight: 300
+weight: 24000
 url: /cpp/aspose.words.markup/structureddocumenttagrangestart/gettype/
 ---
 ## StructuredDocumentTagRangeStart::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Markup::StructuredDocumentTagRan
 
 * Class [StructuredDocumentTagRangeStart](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

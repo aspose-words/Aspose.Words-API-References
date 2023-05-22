@@ -1,9 +1,10 @@
 ---
-title: set_RestartPageNumbering
+title: Aspose::Words::PageSetup::set_RestartPageNumbering method
+linktitle: set_RestartPageNumbering
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::PageSetup::get_RestartPageNumbering.'
+description: 'Aspose::Words::PageSetup::set_RestartPageNumbering method. Setter for Aspose::Words::PageSetup::get_RestartPageNumbering in C++.'
 type: docs
-weight: 1054
+weight: 82000
 url: /cpp/aspose.words/pagesetup/set_restartpagenumbering/
 ---
 ## PageSetup::set_RestartPageNumbering method
@@ -19,4 +20,4 @@ void Aspose::Words::PageSetup::set_RestartPageNumbering(bool value)
 
 * Class [PageSetup](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

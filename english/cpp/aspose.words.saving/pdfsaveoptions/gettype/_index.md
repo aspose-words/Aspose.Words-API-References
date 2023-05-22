@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Saving::PdfSaveOptions::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Saving::PdfSaveOptions class in C++.'
 type: docs
-weight: 443
+weight: 35000
 url: /cpp/aspose.words.saving/pdfsaveoptions/gettype/
 ---
 ## PdfSaveOptions::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Saving::PdfSaveOptions::GetType(
 
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

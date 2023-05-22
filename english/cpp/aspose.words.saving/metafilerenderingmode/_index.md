@@ -1,9 +1,10 @@
 ---
-title: MetafileRenderingMode
+title: Aspose::Words::Saving::MetafileRenderingMode enum
+linktitle: MetafileRenderingMode
 second_title: Aspose.Words for C++ API Reference
-description: Specifies how Aspose.Words should render WMF and EMF metafiles.
+description: 'Aspose::Words::Saving::MetafileRenderingMode enum. Specifies how Aspose.Words should render WMF and EMF metafiles in C++.'
 type: docs
-weight: 885
+weight: 69000
 url: /cpp/aspose.words.saving/metafilerenderingmode/
 ---
 ## MetafileRenderingMode enum
@@ -81,4 +82,4 @@ public:
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

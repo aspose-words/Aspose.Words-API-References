@@ -1,9 +1,10 @@
 ---
-title: get_BottomLeftCell
+title: Aspose::Words::ConditionalStyleCollection::get_BottomLeftCell method
+linktitle: get_BottomLeftCell
 second_title: Aspose.Words for C++ API Reference
-description: Gets the bottom left cell style.
+description: 'Aspose::Words::ConditionalStyleCollection::get_BottomLeftCell method. Gets the bottom left cell style in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words/conditionalstylecollection/get_bottomleftcell/
 ---
 ## ConditionalStyleCollection::get_BottomLeftCell method
@@ -38,7 +39,7 @@ builder->Write(u"Cell 4");
 builder->EndTable();
 
 // Create a custom table style.
-auto tableStyle = System::DynamicCast<TableStyle>(doc->get_Styles()->Add(StyleType::Table, u"MyTableStyle1"));
+auto tableStyle = System::ExplicitCast<TableStyle>(doc->get_Styles()->Add(StyleType::Table, u"MyTableStyle1"));
 
 // Conditional styles are formatting changes that affect only some of the table's cells
 // based on a predicate, such as the cells being in the last row.
@@ -94,4 +95,4 @@ doc->Save(ArtifactsDir + u"Table.ConditionalStyles.docx");
 * Class [ConditionalStyle](../../conditionalstyle/)
 * Class [ConditionalStyleCollection](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

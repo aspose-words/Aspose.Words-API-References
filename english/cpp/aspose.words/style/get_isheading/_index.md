@@ -1,9 +1,10 @@
 ---
-title: get_IsHeading
+title: Aspose::Words::Style::get_IsHeading method
+linktitle: get_IsHeading
 second_title: Aspose.Words for C++ API Reference
-description: True when the style is one of the built-in Heading styles.
+description: 'Aspose::Words::Style::get_IsHeading method. True when the style is one of the built-in Heading styles in C++.'
 type: docs
-weight: 105
+weight: 9000
 url: /cpp/aspose.words/style/get_isheading/
 ---
 ## Style::get_IsHeading method
@@ -46,4 +47,4 @@ ASSERT_EQ(4, doc->get_Styles()->get_Count());
 
 * Class [Style](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

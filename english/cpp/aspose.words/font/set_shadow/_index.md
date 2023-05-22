@@ -1,9 +1,10 @@
 ---
-title: set_Shadow
+title: Aspose::Words::Font::set_Shadow method
+linktitle: set_Shadow
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Font::get_Shadow.'
+description: 'Aspose::Words::Font::set_Shadow method. Setter for Aspose::Words::Font::get_Shadow in C++.'
 type: docs
-weight: 1119
+weight: 87000
 url: /cpp/aspose.words/font/set_shadow/
 ---
 ## Font::set_Shadow method
@@ -19,4 +20,4 @@ void Aspose::Words::Font::set_Shadow(bool value)
 
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

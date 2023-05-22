@@ -1,9 +1,10 @@
 ---
-title: ExportHeadersFootersMode
+title: Aspose::Words::Saving::ExportHeadersFootersMode enum
+linktitle: ExportHeadersFootersMode
 second_title: Aspose.Words for C++ API Reference
-description: Specifies how headers and footers are exported to HTML, MHTML or EPUB.
+description: 'Aspose::Words::Saving::ExportHeadersFootersMode enum. Specifies how headers and footers are exported to HTML, MHTML or EPUB in C++.'
 type: docs
-weight: 703
+weight: 55000
 url: /cpp/aspose.words.saving/exportheadersfootersmode/
 ---
 ## ExportHeadersFootersMode enum
@@ -54,4 +55,4 @@ ASSERT_FALSE(doc->get_Range()->get_Text().Contains(u"First header"));
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

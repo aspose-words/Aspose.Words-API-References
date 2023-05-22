@@ -1,9 +1,10 @@
 ---
-title: set_TintAndShade
+title: Aspose::Words::Border::set_TintAndShade method
+linktitle: set_TintAndShade
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Border::get_TintAndShade.'
+description: 'Aspose::Words::Border::set_TintAndShade method. Setter for Aspose::Words::Border::get_TintAndShade in C++.'
 type: docs
-weight: 261
+weight: 21000
 url: /cpp/aspose.words/border/set_tintandshade/
 ---
 ## Border::set_TintAndShade method
@@ -19,4 +20,4 @@ void Aspose::Words::Border::set_TintAndShade(double value)
 
 * Class [Border](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

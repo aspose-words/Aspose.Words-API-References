@@ -1,9 +1,10 @@
 ---
-title: get_Description
+title: Aspose::Words::Tables::Table::get_Description method
+linktitle: get_Description
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets description of this table. It provides an alternative text representation of the information contained in the table.
+description: 'Aspose::Words::Tables::Table::get_Description method. Gets or sets description of this table. It provides an alternative text representation of the information contained in the table in C++.'
 type: docs
-weight: 222
+weight: 18000
 url: /cpp/aspose.words.tables/table/get_description/
 ---
 ## Table::get_Description method
@@ -77,4 +78,4 @@ static SharedPtr<Table> CreateTable(SharedPtr<Document> doc, int rowCount, int c
 
 * Class [Table](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

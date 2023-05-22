@@ -1,9 +1,10 @@
 ---
-title: get_StoreType
+title: Aspose::Words::WebExtensions::WebExtensionReference::get_StoreType method
+linktitle: get_StoreType
 second_title: Aspose.Words for C++ API Reference
-description: Specifies the type of marketplace.
+description: 'Aspose::Words::WebExtensions::WebExtensionReference::get_StoreType method. Specifies the type of marketplace in C++.'
 type: docs
-weight: 53
+weight: 5000
 url: /cpp/aspose.words.webextensions/webextensionreference/get_storetype/
 ---
 ## WebExtensionReference::get_StoreType method
@@ -64,4 +65,4 @@ ASSERT_EQ(0, doc->get_WebExtensionTaskPanes()->get_Count());
 * Enum [WebExtensionStoreType](../../webextensionstoretype/)
 * Class [WebExtensionReference](../)
 * Namespace [Aspose::Words::WebExtensions](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: set_CalendarType
+title: Aspose::Words::Markup::StructuredDocumentTag::set_CalendarType method
+linktitle: set_CalendarType
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Markup::StructuredDocumentTag::get_CalendarType.'
+description: 'Aspose::Words::Markup::StructuredDocumentTag::set_CalendarType method. Setter for Aspose::Words::Markup::StructuredDocumentTag::get_CalendarType in C++.'
 type: docs
-weight: 521
+weight: 41000
 url: /cpp/aspose.words.markup/structureddocumenttag/set_calendartype/
 ---
 ## StructuredDocumentTag::set_CalendarType method
@@ -20,4 +21,4 @@ void Aspose::Words::Markup::StructuredDocumentTag::set_CalendarType(Aspose::Word
 * Enum [SdtCalendarType](../../sdtcalendartype/)
 * Class [StructuredDocumentTag](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: Equals
+title: Aspose::Words::TabStop::Equals method
+linktitle: Equals
 second_title: Aspose.Words for C++ API Reference
-description: Compares with the specified TabStop.
+description: 'Aspose::Words::TabStop::Equals method. Compares with the specified TabStop in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words/tabstop/equals/
 ---
 ## TabStop::Equals method
@@ -63,4 +64,4 @@ doc->Save(ArtifactsDir + u"TabStopCollection.TabStopCollection.docx");
 * Class [TabStop](../)
 * Class [TabStop](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

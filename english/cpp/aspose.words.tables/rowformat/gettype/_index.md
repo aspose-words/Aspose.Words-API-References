@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::Tables::RowFormat::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::Tables::RowFormat class in C++.'
 type: docs
-weight: 92
+weight: 8000
 url: /cpp/aspose.words.tables/rowformat/gettype/
 ---
 ## RowFormat::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::Tables::RowFormat::GetType() con
 
 * Class [RowFormat](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: NodeChangingArgs
+title: Aspose::Words::NodeChangingArgs class
+linktitle: NodeChangingArgs
 second_title: Aspose.Words for C++ API Reference
-description: Provides data for methods of the INodeChangingCallback interface. To learn more, visit the  documentation article.
+description: 'Aspose::Words::NodeChangingArgs class. Provides data for methods of the INodeChangingCallback interface. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 534
+weight: 42000
 url: /cpp/aspose.words/nodechangingargs/
 ---
 ## NodeChangingArgs class
@@ -75,7 +76,7 @@ private:
 
         if (args->get_Node()->get_NodeType() == NodeType::Run)
         {
-            SharedPtr<Aspose::Words::Font> font = (System::DynamicCast<Run>(args->get_Node()))->get_Font();
+            SharedPtr<Aspose::Words::Font> font = (System::ExplicitCast<Run>(args->get_Node()))->get_Font();
             mLog->Append(String::Format(u"\tFont:\tChanged from \"{0}\" {1}pt", font->get_Name(), font->get_Size()));
 
             font->set_Size(24);
@@ -107,4 +108,4 @@ private:
 ## See Also
 
 * Namespace [Aspose::Words](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

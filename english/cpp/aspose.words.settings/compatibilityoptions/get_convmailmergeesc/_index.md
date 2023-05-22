@@ -1,9 +1,10 @@
 ---
-title: get_ConvMailMergeEsc
+title: Aspose::Words::Settings::CompatibilityOptions::get_ConvMailMergeEsc method
+linktitle: get_ConvMailMergeEsc
 second_title: Aspose.Words for C++ API Reference
-description: Treat Backslash Quotation Delimiter as Two Quotation Marks.
+description: 'Aspose::Words::Settings::CompatibilityOptions::get_ConvMailMergeEsc method. Treat Backslash Quotation Delimiter as Two Quotation Marks in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words.settings/compatibilityoptions/get_convmailmergeesc/
 ---
 ## CompatibilityOptions::get_ConvMailMergeEsc method
@@ -19,4 +20,4 @@ bool Aspose::Words::Settings::CompatibilityOptions::get_ConvMailMergeEsc()
 
 * Class [CompatibilityOptions](../)
 * Namespace [Aspose::Words::Settings](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

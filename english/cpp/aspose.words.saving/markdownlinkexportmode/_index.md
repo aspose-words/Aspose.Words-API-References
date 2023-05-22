@@ -1,9 +1,10 @@
 ---
-title: MarkdownLinkExportMode
+title: Aspose::Words::Saving::MarkdownLinkExportMode enum
+linktitle: MarkdownLinkExportMode
 second_title: Aspose.Words for C++ API Reference
-description: The mode of exporting links to a target document.
+description: 'Aspose::Words::Saving::MarkdownLinkExportMode enum. The mode of exporting links to a target document in C++.'
 type: docs
-weight: 859
+weight: 67000
 url: /cpp/aspose.words.saving/markdownlinkexportmode/
 ---
 ## MarkdownLinkExportMode enum
@@ -26,4 +27,4 @@ enum class MarkdownLinkExportMode
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

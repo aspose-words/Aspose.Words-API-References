@@ -1,9 +1,10 @@
 ---
-title: FindReplaceDirection
+title: Aspose::Words::Replacing::FindReplaceDirection enum
+linktitle: FindReplaceDirection
 second_title: Aspose.Words for C++ API Reference
-description: Specifies direction for replace operations.
+description: 'Aspose::Words::Replacing::FindReplaceDirection enum. Specifies direction for replace operations in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.replacing/findreplacedirection/
 ---
 ## FindReplaceDirection enum
@@ -96,4 +97,4 @@ private:
 ## See Also
 
 * Namespace [Aspose::Words::Replacing](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

@@ -1,9 +1,10 @@
 ---
-title: GetType
+title: Aspose::Words::InternableComplexAttr::GetType method
+linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use GetType method of Aspose::Words::InternableComplexAttr class in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words/internablecomplexattr/gettype/
 ---
 ## InternableComplexAttr::GetType method
@@ -19,4 +20,4 @@ virtual const System::TypeInfo & Aspose::Words::InternableComplexAttr::GetType()
 
 * Class [InternableComplexAttr](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

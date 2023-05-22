@@ -1,9 +1,10 @@
 ---
-title: FieldEnd
+title: Aspose::Words::Fields::FieldEnd class
+linktitle: FieldEnd
 second_title: Aspose.Words for C++ API Reference
-description: Represents an end of a Word field in a document. To learn more, visit the  documentation article.
+description: 'Aspose::Words::Fields::FieldEnd class. Represents an end of a Word field in a document. To learn more, visit the  documentation article in C++.'
 type: docs
-weight: 495
+weight: 39000
 url: /cpp/aspose.words.fields/fieldend/
 ---
 ## FieldEnd class
@@ -162,4 +163,4 @@ private:
 
 * Class [FieldChar](../fieldchar/)
 * Namespace [Aspose::Words::Fields](../)
-* Library [Aspose.Words](../../)
+* Library [Aspose.Words for C++](../../)

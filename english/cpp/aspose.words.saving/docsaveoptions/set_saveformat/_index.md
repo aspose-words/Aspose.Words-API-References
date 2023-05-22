@@ -1,9 +1,10 @@
 ---
-title: set_SaveFormat
+title: Aspose::Words::Saving::DocSaveOptions::set_SaveFormat method
+linktitle: set_SaveFormat
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Saving::DocSaveOptions::get_SaveFormat.'
+description: 'Aspose::Words::Saving::DocSaveOptions::set_SaveFormat method. Setter for Aspose::Words::Saving::DocSaveOptions::get_SaveFormat in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words.saving/docsaveoptions/set_saveformat/
 ---
 ## DocSaveOptions::set_SaveFormat method
@@ -20,4 +21,4 @@ void Aspose::Words::Saving::DocSaveOptions::set_SaveFormat(Aspose::Words::SaveFo
 * Enum [SaveFormat](../../../aspose.words/saveformat/)
 * Class [DocSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

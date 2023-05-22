@@ -1,9 +1,10 @@
 ---
-title: get_ContentType
+title: Aspose::Words::Saving::SaveOutputParameters::get_ContentType method
+linktitle: get_ContentType
 second_title: Aspose.Words for C++ API Reference
-description: Returns the Content-Type string (Internet Media Type) that identifies the type of the saved document.
+description: 'Aspose::Words::Saving::SaveOutputParameters::get_ContentType method. Returns the Content-Type string (Internet Media Type) that identifies the type of the saved document in C++.'
 type: docs
-weight: 14
+weight: 2000
 url: /cpp/aspose.words.saving/saveoutputparameters/get_contenttype/
 ---
 ## SaveOutputParameters::get_ContentType method
@@ -41,4 +42,4 @@ ASSERT_EQ(u"application/pdf", parameters->get_ContentType());
 
 * Class [SaveOutputParameters](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

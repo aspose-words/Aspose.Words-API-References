@@ -1,9 +1,10 @@
 ---
-title: set_UseLegacyOrder
+title: Aspose::Words::Replacing::FindReplaceOptions::set_UseLegacyOrder method
+linktitle: set_UseLegacyOrder
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Replacing::FindReplaceOptions::get_UseLegacyOrder.'
+description: 'Aspose::Words::Replacing::FindReplaceOptions::set_UseLegacyOrder method. Setter for Aspose::Words::Replacing::FindReplaceOptions::get_UseLegacyOrder in C++.'
 type: docs
-weight: 417
+weight: 33000
 url: /cpp/aspose.words.replacing/findreplaceoptions/set_uselegacyorder/
 ---
 ## FindReplaceOptions::set_UseLegacyOrder method
@@ -19,4 +20,4 @@ void Aspose::Words::Replacing::FindReplaceOptions::set_UseLegacyOrder(bool value
 
 * Class [FindReplaceOptions](../)
 * Namespace [Aspose::Words::Replacing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

@@ -1,9 +1,10 @@
 ---
-title: InsertSignatureLine
+title: Aspose::Words::DocumentBuilder::InsertSignatureLine method
+linktitle: InsertSignatureLine
 second_title: Aspose.Words for C++ API Reference
-description: Inserts a signature line at the current position.
+description: 'Aspose::Words::DocumentBuilder::InsertSignatureLine method. Inserts a signature line at the current position in C++.'
 type: docs
-weight: 586
+weight: 46000
 url: /cpp/aspose.words/documentbuilder/insertsignatureline/
 ---
 ## DocumentBuilder::InsertSignatureLine(const System::SharedPtr\<Aspose::Words::SignatureLineOptions\>\&) method
@@ -64,7 +65,7 @@ DigitalSignatureUtil::Sign(ArtifactsDir + u"DocumentBuilder.SignatureLineProvide
 // Re-open our saved document, and verify that the "IsSigned" and "IsValid" properties both equal "true",
 // indicating that the signature line contains a signature.
 doc = MakeObject<Document>(ArtifactsDir + u"DocumentBuilder.SignatureLineProviderId.Signed.docx");
-auto shape = System::DynamicCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
+auto shape = System::ExplicitCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
 signatureLine = shape->get_SignatureLine();
 
 ASSERT_TRUE(signatureLine->get_IsSigned());
@@ -77,7 +78,7 @@ ASSERT_TRUE(signatureLine->get_IsValid());
 * Class [SignatureLineOptions](../../signaturelineoptions/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## DocumentBuilder::InsertSignatureLine(const System::SharedPtr\<Aspose::Words::SignatureLineOptions\>\&, Aspose::Words::Drawing::RelativeHorizontalPosition, double, Aspose::Words::Drawing::RelativeVerticalPosition, double, Aspose::Words::Drawing::WrapType) method
 
 
@@ -138,4 +139,4 @@ doc->Save(ArtifactsDir + u"DocumentBuilder.SignatureLineInline.docx");
 * Enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * Class [DocumentBuilder](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

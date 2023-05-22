@@ -1,9 +1,10 @@
 ---
-title: get_DigitalSignatures
+title: Aspose::Words::Document::get_DigitalSignatures method
+linktitle: get_DigitalSignatures
 second_title: Aspose.Words for C++ API Reference
-description: Gets the collection of digital signatures for this document and their validation results.
+description: 'Aspose::Words::Document::get_DigitalSignatures method. Gets the collection of digital signatures for this document and their validation results in C++.'
 type: docs
-weight: 261
+weight: 21000
 url: /cpp/aspose.words/document/get_digitalsignatures/
 ---
 ## Document::get_DigitalSignatures method
@@ -87,4 +88,4 @@ ASSERT_EQ(u"CN=Morzal.Me", signedDoc->get_DigitalSignatures()->idx_get(0)->get_S
 * Class [DigitalSignatureCollection](../../../aspose.words.digitalsignatures/digitalsignaturecollection/)
 * Class [Document](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

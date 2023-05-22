@@ -1,9 +1,10 @@
 ---
-title: get_EditableRange
+title: Aspose::Words::EditableRangeStart::get_EditableRange method
+linktitle: get_EditableRange
 second_title: Aspose.Words for C++ API Reference
-description: Gets the facade object that encapsulates this editable range start and end.
+description: 'Aspose::Words::EditableRangeStart::get_EditableRange method. Gets the facade object that encapsulates this editable range start and end in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words/editablerangestart/get_editablerange/
 ---
 ## EditableRangeStart::get_EditableRange method
@@ -65,4 +66,4 @@ editableRange->Remove();
 * Class [EditableRange](../../editablerange/)
 * Class [EditableRangeStart](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

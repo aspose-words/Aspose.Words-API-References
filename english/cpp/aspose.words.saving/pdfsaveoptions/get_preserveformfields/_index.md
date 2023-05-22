@@ -1,9 +1,10 @@
 ---
-title: get_PreserveFormFields
+title: Aspose::Words::Saving::PdfSaveOptions::get_PreserveFormFields method
+linktitle: get_PreserveFormFields
 second_title: Aspose.Words for C++ API Reference
-description: Specifies whether to preserve Microsoft Word form fields as form fields in PDF or convert them to text. Default is false.
+description: 'Aspose::Words::Saving::PdfSaveOptions::get_PreserveFormFields method. Specifies whether to preserve Microsoft Word form fields as form fields in PDF or convert them to text. Default is false in C++.'
 type: docs
-weight: 352
+weight: 28000
 url: /cpp/aspose.words.saving/pdfsaveoptions/get_preserveformfields/
 ---
 ## PdfSaveOptions::get_PreserveFormFields method
@@ -60,4 +61,4 @@ doc->Save(ArtifactsDir + u"PdfSaveOptions.PreserveFormFields.pdf", pdfOptions);
 
 * Class [PdfSaveOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

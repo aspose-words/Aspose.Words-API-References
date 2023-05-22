@@ -1,9 +1,10 @@
 ---
-title: ExecuteWithRegions
+title: Aspose::Words::MailMerging::MailMerge::ExecuteWithRegions method
+linktitle: ExecuteWithRegions
 second_title: Aspose.Words for C++ API Reference
-description: Performs a mail merge from a custom data source with mail merge regions.
+description: 'Aspose::Words::MailMerging::MailMerge::ExecuteWithRegions method. Performs a mail merge from a custom data source with mail merge regions in C++.'
 type: docs
-weight: 40
+weight: 4000
 url: /cpp/aspose.words.mailmerging/mailmerge/executewithregions/
 ---
 ## MailMerge::ExecuteWithRegions(const System::SharedPtr\<Aspose::Words::MailMerging::IMailMergeDataSource\>\&) method
@@ -299,7 +300,7 @@ private:
 * Interface [IMailMergeDataSource](../../imailmergedatasource/)
 * Class [MailMerge](../)
 * Namespace [Aspose::Words::MailMerging](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
 ## MailMerge::ExecuteWithRegions(const System::SharedPtr\<Aspose::Words::MailMerging::IMailMergeDataSourceRoot\>\&) method
 
 
@@ -492,4 +493,4 @@ private:
 * Interface [IMailMergeDataSourceRoot](../../imailmergedatasourceroot/)
 * Class [MailMerge](../)
 * Namespace [Aspose::Words::MailMerging](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

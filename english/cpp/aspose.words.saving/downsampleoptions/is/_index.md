@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Saving::DownsampleOptions::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Saving::DownsampleOptions class in C++.'
 type: docs
-weight: 79
+weight: 7000
 url: /cpp/aspose.words.saving/downsampleoptions/is/
 ---
 ## DownsampleOptions::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Saving::DownsampleOptions::Is(const System::TypeInfo
 
 * Class [DownsampleOptions](../)
 * Namespace [Aspose::Words::Saving](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

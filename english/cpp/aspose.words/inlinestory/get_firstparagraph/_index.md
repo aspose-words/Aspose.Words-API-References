@@ -1,9 +1,10 @@
 ---
-title: get_FirstParagraph
+title: Aspose::Words::InlineStory::get_FirstParagraph method
+linktitle: get_FirstParagraph
 second_title: Aspose.Words for C++ API Reference
-description: Gets the first paragraph in the story.
+description: 'Aspose::Words::InlineStory::get_FirstParagraph method. Gets the first paragraph in the story in C++.'
 type: docs
-weight: 27
+weight: 3000
 url: /cpp/aspose.words/inlinestory/get_firstparagraph/
 ---
 ## InlineStory::get_FirstParagraph method
@@ -85,4 +86,4 @@ doc->Save(ArtifactsDir + u"InlineStory.AddComment.docx");
 * Class [Paragraph](../../paragraph/)
 * Class [InlineStory](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

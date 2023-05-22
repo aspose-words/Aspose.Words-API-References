@@ -1,9 +1,10 @@
 ---
-title: IndexOf
+title: Aspose::Words::Markup::CustomXmlSchemaCollection::IndexOf method
+linktitle: IndexOf
 second_title: Aspose.Words for C++ API Reference
-description: Returns the zero-based index of the specified value in the collection.
+description: 'Aspose::Words::Markup::CustomXmlSchemaCollection::IndexOf method. Returns the zero-based index of the specified value in the collection in C++.'
 type: docs
-weight: 170
+weight: 14000
 url: /cpp/aspose.words.markup/customxmlschemacollection/indexof/
 ---
 ## CustomXmlSchemaCollection::IndexOf method
@@ -74,4 +75,4 @@ ASSERT_EQ(0, schemas->get_Count());
 
 * Class [CustomXmlSchemaCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

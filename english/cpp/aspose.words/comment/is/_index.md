@@ -1,9 +1,10 @@
 ---
-title: Is
+title: Aspose::Words::Comment::Is method
+linktitle: Is
 second_title: Aspose.Words for C++ API Reference
-description: 
+description: 'How to use Is method of Aspose::Words::Comment class in C++.'
 type: docs
-weight: 183
+weight: 15000
 url: /cpp/aspose.words/comment/is/
 ---
 ## Comment::Is method
@@ -19,4 +20,4 @@ virtual bool Aspose::Words::Comment::Is(const System::TypeInfo &target) const ov
 
 * Class [Comment](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

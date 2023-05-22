@@ -1,9 +1,10 @@
 ---
-title: set_NumberPosition
+title: Aspose::Words::Lists::ListLevel::set_NumberPosition method
+linktitle: set_NumberPosition
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Lists::ListLevel::get_NumberPosition.'
+description: 'Aspose::Words::Lists::ListLevel::set_NumberPosition method. Setter for Aspose::Words::Lists::ListLevel::get_NumberPosition in C++.'
 type: docs
-weight: 339
+weight: 27000
 url: /cpp/aspose.words.lists/listlevel/set_numberposition/
 ---
 ## ListLevel::set_NumberPosition method
@@ -19,4 +20,4 @@ void Aspose::Words::Lists::ListLevel::set_NumberPosition(double value)
 
 * Class [ListLevel](../)
 * Namespace [Aspose::Words::Lists](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

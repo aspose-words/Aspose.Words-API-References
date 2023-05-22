@@ -1,9 +1,10 @@
 ---
-title: get_Engrave
+title: Aspose::Words::Font::get_Engrave method
+linktitle: get_Engrave
 second_title: Aspose.Words for C++ API Reference
-description: True if the font is formatted as engraved.
+description: 'Aspose::Words::Font::get_Engrave method. True if the font is formatted as engraved in C++.'
 type: docs
-weight: 170
+weight: 14000
 url: /cpp/aspose.words/font/get_engrave/
 ---
 ## Font::get_Engrave method
@@ -47,4 +48,4 @@ doc->Save(ArtifactsDir + u"Font.EngraveEmboss.docx");
 
 * Class [Font](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

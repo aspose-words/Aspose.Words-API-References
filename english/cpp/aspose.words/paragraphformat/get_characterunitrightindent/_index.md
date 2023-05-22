@@ -1,9 +1,10 @@
 ---
-title: get_CharacterUnitRightIndent
+title: Aspose::Words::ParagraphFormat::get_CharacterUnitRightIndent method
+linktitle: get_CharacterUnitRightIndent
 second_title: Aspose.Words for C++ API Reference
-description: Gets or sets the right indent value (in characters) for the specified paragraphs.
+description: 'Aspose::Words::ParagraphFormat::get_CharacterUnitRightIndent method. Gets or sets the right indent value (in characters) for the specified paragraphs in C++.'
 type: docs
-weight: 118
+weight: 10000
 url: /cpp/aspose.words/paragraphformat/get_characterunitrightindent/
 ---
 ## ParagraphFormat::get_CharacterUnitRightIndent method
@@ -72,4 +73,4 @@ builder->Write(String(u"测试文档测试文档测试文档测试文档测试�
 
 * Class [ParagraphFormat](../)
 * Namespace [Aspose::Words](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

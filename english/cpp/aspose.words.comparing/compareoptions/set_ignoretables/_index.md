@@ -1,9 +1,10 @@
 ---
-title: set_IgnoreTables
+title: Aspose::Words::Comparing::CompareOptions::set_IgnoreTables method
+linktitle: set_IgnoreTables
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Comparing::CompareOptions::get_IgnoreTables.'
+description: 'Aspose::Words::Comparing::CompareOptions::set_IgnoreTables method. Setter for Aspose::Words::Comparing::CompareOptions::get_IgnoreTables in C++.'
 type: docs
-weight: 326
+weight: 26000
 url: /cpp/aspose.words.comparing/compareoptions/set_ignoretables/
 ---
 ## CompareOptions::set_IgnoreTables method
@@ -19,4 +20,4 @@ void Aspose::Words::Comparing::CompareOptions::set_IgnoreTables(bool value)
 
 * Class [CompareOptions](../)
 * Namespace [Aspose::Words::Comparing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

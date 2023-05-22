@@ -1,9 +1,10 @@
 ---
-title: get_Type
+title: Aspose::Words::Drawing::Charts::ChartAxis::get_Type method
+linktitle: get_Type
 second_title: Aspose.Words for C++ API Reference
-description: Returns type of the axis.
+description: 'Aspose::Words::Drawing::Charts::ChartAxis::get_Type method. Returns type of the axis in C++.'
 type: docs
-weight: 365
+weight: 29000
 url: /cpp/aspose.words.drawing.charts/chartaxis/get_type/
 ---
 ## ChartAxis::get_Type method
@@ -98,4 +99,4 @@ static SharedPtr<Chart> AppendChart(SharedPtr<DocumentBuilder> builder, ChartTyp
 * Enum [ChartAxisType](../../chartaxistype/)
 * Class [ChartAxis](../)
 * Namespace [Aspose::Words::Drawing::Charts](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

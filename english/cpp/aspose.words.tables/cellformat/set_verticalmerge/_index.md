@@ -1,9 +1,10 @@
 ---
-title: set_VerticalMerge
+title: Aspose::Words::Tables::CellFormat::set_VerticalMerge method
+linktitle: set_VerticalMerge
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Tables::CellFormat::get_VerticalMerge.'
+description: 'Aspose::Words::Tables::CellFormat::set_VerticalMerge method. Setter for Aspose::Words::Tables::CellFormat::get_VerticalMerge in C++.'
 type: docs
-weight: 352
+weight: 28000
 url: /cpp/aspose.words.tables/cellformat/set_verticalmerge/
 ---
 ## CellFormat::set_VerticalMerge method
@@ -20,4 +21,4 @@ void Aspose::Words::Tables::CellFormat::set_VerticalMerge(Aspose::Words::Tables:
 * Enum [CellMerge](../../cellmerge/)
 * Class [CellFormat](../)
 * Namespace [Aspose::Words::Tables](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

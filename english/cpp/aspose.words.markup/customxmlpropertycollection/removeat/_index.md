@@ -1,9 +1,10 @@
 ---
-title: RemoveAt
+title: Aspose::Words::Markup::CustomXmlPropertyCollection::RemoveAt method
+linktitle: RemoveAt
 second_title: Aspose.Words for C++ API Reference
-description: Removes a property at the specified index.
+description: 'Aspose::Words::Markup::CustomXmlPropertyCollection::RemoveAt method. Removes a property at the specified index in C++.'
 type: docs
-weight: 144
+weight: 12000
 url: /cpp/aspose.words.markup/customxmlpropertycollection/removeat/
 ---
 ## CustomXmlPropertyCollection::RemoveAt method
@@ -79,4 +80,4 @@ ASSERT_EQ(0, properties->get_Count());
 
 * Class [CustomXmlPropertyCollection](../)
 * Namespace [Aspose::Words::Markup](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)

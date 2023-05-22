@@ -1,9 +1,10 @@
 ---
-title: set_DistanceRight
+title: Aspose::Words::Drawing::ShapeBase::set_DistanceRight method
+linktitle: set_DistanceRight
 second_title: Aspose.Words for C++ API Reference
-description: 'Setter for Aspose::Words::Drawing::ShapeBase::get_DistanceRight.'
+description: 'Aspose::Words::Drawing::ShapeBase::set_DistanceRight method. Setter for Aspose::Words::Drawing::ShapeBase::get_DistanceRight in C++.'
 type: docs
-weight: 924
+weight: 72000
 url: /cpp/aspose.words.drawing/shapebase/set_distanceright/
 ---
 ## ShapeBase::set_DistanceRight method
@@ -19,4 +20,4 @@ void Aspose::Words::Drawing::ShapeBase::set_DistanceRight(double value)
 
 * Class [ShapeBase](../)
 * Namespace [Aspose::Words::Drawing](../../)
-* Library [Aspose.Words](../../../)
+* Library [Aspose.Words for C++](../../../)
