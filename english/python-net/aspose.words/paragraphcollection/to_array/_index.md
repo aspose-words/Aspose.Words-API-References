@@ -1,7 +1,9 @@
 ﻿---
-title: to_array method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Copies all paragraphs from the collection to a new array of paragraphs."
+title: ParagraphCollection.to_array method
+linktitle: to_array method
+articleTitle: to_array method
+second_title: Aspose.Words for Python
+description: "ParagraphCollection.to_array method. Copies all paragraphs from the collection to a new array of paragraphs."
 type: docs
 weight: 20
 url: /python-net/aspose.words/paragraphcollection/to_array/

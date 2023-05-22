@@ -1,7 +1,9 @@
 ﻿---
 title: TabLeader enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the type of the leader line displayed under the tab character."
+linktitle: TabLeader enumeration
+articleTitle: TabLeader enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.TabLeader enumeration. Specifies the type of the leader line displayed under the tab character."
 type: docs
 weight: 1160
 url: /python-net/aspose.words/tableader/

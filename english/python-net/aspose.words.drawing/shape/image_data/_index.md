@@ -1,7 +1,9 @@
 ﻿---
-title: image_data property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides access to the image of the shape"
+title: Shape.image_data property
+linktitle: image_data property
+articleTitle: image_data property
+second_title: Aspose.Words for Python
+description: "Shape.image_data property. Provides access to the image of the shape"
 type: docs
 weight: 110
 url: /python-net/aspose.words.drawing/shape/image_data/

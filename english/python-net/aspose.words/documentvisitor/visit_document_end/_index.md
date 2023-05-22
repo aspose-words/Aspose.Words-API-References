@@ -1,7 +1,9 @@
 ﻿---
-title: visit_document_end method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Called when enumeration of the document has finished."
+title: DocumentVisitor.visit_document_end method
+linktitle: visit_document_end method
+articleTitle: visit_document_end method
+second_title: Aspose.Words for Python
+description: "DocumentVisitor.visit_document_end method. Called when enumeration of the document has finished."
 type: docs
 weight: 140
 url: /python-net/aspose.words/documentvisitor/visit_document_end/

@@ -1,7 +1,9 @@
 ﻿---
-title: show_data_labels_range property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to specify if values from data labels range to be displayed in the data labels"
+title: ChartDataLabel.show_data_labels_range property
+linktitle: show_data_labels_range property
+articleTitle: show_data_labels_range property
+second_title: Aspose.Words for Python
+description: "ChartDataLabel.show_data_labels_range property. Allows to specify if values from data labels range to be displayed in the data labels"
 type: docs
 weight: 90
 url: /python-net/aspose.words.drawing.charts/chartdatalabel/show_data_labels_range/

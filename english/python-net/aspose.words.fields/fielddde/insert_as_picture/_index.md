@@ -1,7 +1,9 @@
 ﻿---
-title: insert_as_picture property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets whether to insert the linked object as a picture."
+title: FieldDde.insert_as_picture property
+linktitle: insert_as_picture property
+articleTitle: insert_as_picture property
+second_title: Aspose.Words for Python
+description: "FieldDde.insert_as_picture property. Gets or sets whether to insert the linked object as a picture."
 type: docs
 weight: 50
 url: /python-net/aspose.words.fields/fielddde/insert_as_picture/

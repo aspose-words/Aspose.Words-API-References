@@ -1,7 +1,9 @@
 ﻿---
 title: HtmlInsertOptions enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies options for the [DocumentBuilder.insert_html()](../documentbuilder/insert_html/#str_htmlinsertoptions) method."
+linktitle: HtmlInsertOptions enumeration
+articleTitle: HtmlInsertOptions enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.HtmlInsertOptions enumeration. Specifies options for the [DocumentBuilder.insert_html()](../documentbuilder/insert_html/#str_htmlinsertoptions) method."
 type: docs
 weight: 470
 url: /python-net/aspose.words/htmlinsertoptions/

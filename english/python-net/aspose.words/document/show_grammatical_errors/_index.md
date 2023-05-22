@@ -1,7 +1,9 @@
 ﻿---
-title: show_grammatical_errors property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies whether to display grammar errors in this document."
+title: Document.show_grammatical_errors property
+linktitle: show_grammatical_errors property
+articleTitle: show_grammatical_errors property
+second_title: Aspose.Words for Python
+description: "Document.show_grammatical_errors property. Specifies whether to display grammar errors in this document."
 type: docs
 weight: 390
 url: /python-net/aspose.words/document/show_grammatical_errors/

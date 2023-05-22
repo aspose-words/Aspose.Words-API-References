@@ -1,7 +1,9 @@
 ﻿---
-title: open_in_new_window property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets whether to open the destination site in a new web browser window."
+title: FieldHyperlink.open_in_new_window property
+linktitle: open_in_new_window property
+articleTitle: open_in_new_window property
+second_title: Aspose.Words for Python
+description: "FieldHyperlink.open_in_new_window property. Gets or sets whether to open the destination site in a new web browser window."
 type: docs
 weight: 40
 url: /python-net/aspose.words.fields/fieldhyperlink/open_in_new_window/

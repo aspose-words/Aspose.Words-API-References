@@ -1,7 +1,9 @@
 ﻿---
 title: ITextShaper class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides methods for text shaping."
+linktitle: ITextShaper class
+articleTitle: ITextShaper class
+second_title: Aspose.Words for Python
+description: "aspose.words.shaping.ITextShaper class. Provides methods for text shaping."
 type: docs
 weight: 60
 url: /python-net/aspose.words.shaping/itextshaper/

@@ -1,7 +1,9 @@
 ﻿---
-title: case_code_style property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the style of a Case Code for barcode type ITF14"
+title: FieldMergeBarcode.case_code_style property
+linktitle: case_code_style property
+articleTitle: case_code_style property
+second_title: Aspose.Words for Python
+description: "FieldMergeBarcode.case_code_style property. Gets or sets the style of a Case Code for barcode type ITF14"
 type: docs
 weight: 60
 url: /python-net/aspose.words.fields/fieldmergebarcode/case_code_style/

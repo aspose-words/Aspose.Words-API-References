@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldFillIn class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the FILLIN field"
+linktitle: FieldFillIn class
+articleTitle: FieldFillIn class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldFillIn class. Implements the FILLIN field"
 type: docs
 weight: 430
 url: /python-net/aspose.words.fields/fieldfillin/

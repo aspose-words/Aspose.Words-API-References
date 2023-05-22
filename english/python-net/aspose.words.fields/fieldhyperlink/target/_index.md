@@ -1,7 +1,9 @@
 ﻿---
-title: target property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the target to which the link should be redirected."
+title: FieldHyperlink.target property
+linktitle: target property
+articleTitle: target property
+second_title: Aspose.Words for Python
+description: "FieldHyperlink.target property. Gets or sets the target to which the link should be redirected."
 type: docs
 weight: 70
 url: /python-net/aspose.words.fields/fieldhyperlink/target/

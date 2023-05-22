@@ -1,7 +1,9 @@
 ﻿---
 title: CustomXmlSchemaCollection indexer
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the element at the specified index."
+linktitle: CustomXmlSchemaCollection indexer
+articleTitle: CustomXmlSchemaCollection indexer
+second_title: Aspose.Words for Python
+description: "CustomXmlSchemaCollection indexer. Gets or sets the element at the specified index."
 type: docs
 weight: 10
 url: /python-net/aspose.words.markup/customxmlschemacollection/__getitem__/

@@ -1,7 +1,9 @@
 ﻿---
-title: border property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns a [Border](../../border/) object that specifies border for the font."
+title: Font.border property
+linktitle: border property
+articleTitle: border property
+second_title: Aspose.Words for Python
+description: "Font.border property. Returns a [Border](../../border/) object that specifies border for the font."
 type: docs
 weight: 60
 url: /python-net/aspose.words/font/border/

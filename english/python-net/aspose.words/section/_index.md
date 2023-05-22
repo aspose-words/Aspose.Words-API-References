@@ -1,7 +1,9 @@
 ﻿﻿---
 title: Section class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a single section in a document"
+linktitle: Section class
+articleTitle: Section class
+second_title: Aspose.Words for Python
+description: "aspose.words.Section class. Represents a single section in a document"
 type: docs
 weight: 1010
 url: /python-net/aspose.words/section/

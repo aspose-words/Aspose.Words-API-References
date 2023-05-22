@@ -1,7 +1,9 @@
 ﻿---
 title: CssStyleSheetType enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies how CSS (Cascading Style Sheet) styles are exported to HTML."
+linktitle: CssStyleSheetType enumeration
+articleTitle: CssStyleSheetType enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.saving.CssStyleSheetType enumeration. Specifies how CSS (Cascading Style Sheet) styles are exported to HTML."
 type: docs
 weight: 50
 url: /python-net/aspose.words.saving/cssstylesheettype/

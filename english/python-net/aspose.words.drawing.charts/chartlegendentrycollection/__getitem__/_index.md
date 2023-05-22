@@ -1,7 +1,9 @@
 ﻿---
 title: ChartLegendEntryCollection indexer
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns [ChartLegendEntry](../../chartlegendentry/) for the specified index."
+linktitle: ChartLegendEntryCollection indexer
+articleTitle: ChartLegendEntryCollection indexer
+second_title: Aspose.Words for Python
+description: "ChartLegendEntryCollection indexer. Returns [ChartLegendEntry](../../chartlegendentry/) for the specified index."
 type: docs
 weight: 10
 url: /python-net/aspose.words.drawing.charts/chartlegendentrycollection/__getitem__/

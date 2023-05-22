@@ -1,7 +1,9 @@
 ﻿---
-title: show_percentage property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to specify whether percentage value is to be displayed for the data labels of the entire series"
+title: ChartDataLabelCollection.show_percentage property
+linktitle: show_percentage property
+articleTitle: show_percentage property
+second_title: Aspose.Words for Python
+description: "ChartDataLabelCollection.show_percentage property. Allows to specify whether percentage value is to be displayed for the data labels of the entire series"
 type: docs
 weight: 110
 url: /python-net/aspose.words.drawing.charts/chartdatalabelcollection/show_percentage/

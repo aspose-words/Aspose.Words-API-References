@@ -1,6 +1,9 @@
 ﻿---
 title: FieldGlossary constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: FieldGlossary constructor
+articleTitle: FieldGlossary constructor
+second_title: Aspose.Words for Python
+description: "FieldGlossary constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/fieldglossary/__init__/

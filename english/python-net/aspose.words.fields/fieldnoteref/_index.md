@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldNoteRef class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the NOTEREF field"
+linktitle: FieldNoteRef class
+articleTitle: FieldNoteRef class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldNoteRef class. Implements the NOTEREF field"
 type: docs
 weight: 740
 url: /python-net/aspose.words.fields/fieldnoteref/

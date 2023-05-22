@@ -1,7 +1,9 @@
 ﻿---
-title: value property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the value of the property."
+title: DocumentProperty.value property
+linktitle: value property
+articleTitle: value property
+second_title: Aspose.Words for Python
+description: "DocumentProperty.value property. Gets or sets the value of the property."
 type: docs
 weight: 50
 url: /python-net/aspose.words.properties/documentproperty/value/

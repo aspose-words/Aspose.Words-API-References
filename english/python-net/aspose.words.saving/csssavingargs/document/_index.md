@@ -1,7 +1,9 @@
 ﻿---
-title: document property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the document object that is currently being saved."
+title: CssSavingArgs.document property
+linktitle: document property
+articleTitle: document property
+second_title: Aspose.Words for Python
+description: "CssSavingArgs.document property. Gets the document object that is currently being saved."
 type: docs
 weight: 20
 url: /python-net/aspose.words.saving/csssavingargs/document/

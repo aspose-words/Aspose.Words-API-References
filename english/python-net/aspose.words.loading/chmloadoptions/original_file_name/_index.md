@@ -1,7 +1,9 @@
 ﻿---
-title: original_file_name property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "The name of the CHM file"
+title: ChmLoadOptions.original_file_name property
+linktitle: original_file_name property
+articleTitle: original_file_name property
+second_title: Aspose.Words for Python
+description: "ChmLoadOptions.original_file_name property. The name of the CHM file"
 type: docs
 weight: 20
 url: /python-net/aspose.words.loading/chmloadoptions/original_file_name/

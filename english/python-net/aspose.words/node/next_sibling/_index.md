@@ -1,7 +1,9 @@
 ﻿---
-title: next_sibling property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the node immediately following this node."
+title: Node.next_sibling property
+linktitle: next_sibling property
+articleTitle: next_sibling property
+second_title: Aspose.Words for Python
+description: "Node.next_sibling property. Gets the node immediately following this node."
 type: docs
 weight: 40
 url: /python-net/aspose.words/node/next_sibling/

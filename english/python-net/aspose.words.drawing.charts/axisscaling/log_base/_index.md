@@ -1,7 +1,9 @@
 ﻿---
-title: log_base property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the logarithmic base for a logarithmic axis."
+title: AxisScaling.log_base property
+linktitle: log_base property
+articleTitle: log_base property
+second_title: Aspose.Words for Python
+description: "AxisScaling.log_base property. Gets or sets the logarithmic base for a logarithmic axis."
 type: docs
 weight: 20
 url: /python-net/aspose.words.drawing.charts/axisscaling/log_base/

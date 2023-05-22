@@ -1,7 +1,9 @@
 ﻿﻿---
 title: Border class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a border of an object"
+linktitle: Border class
+articleTitle: Border class
+second_title: Aspose.Words for Python
+description: "aspose.words.Border class. Represents a border of an object"
 type: docs
 weight: 70
 url: /python-net/aspose.words/border/

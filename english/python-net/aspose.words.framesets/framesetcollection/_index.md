@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FramesetCollection class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a collection of instances of the [Frameset](../frameset/) class"
+linktitle: FramesetCollection class
+articleTitle: FramesetCollection class
+second_title: Aspose.Words for Python
+description: "aspose.words.framesets.FramesetCollection class. Represents a collection of instances of the [Frameset](../frameset/) class"
 type: docs
 weight: 20
 url: /python-net/aspose.words.framesets/framesetcollection/

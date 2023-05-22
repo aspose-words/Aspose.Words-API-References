@@ -1,7 +1,9 @@
 ﻿---
-title: back_color property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the background color of the stroke."
+title: Stroke.back_color property
+linktitle: back_color property
+articleTitle: back_color property
+second_title: Aspose.Words for Python
+description: "Stroke.back_color property. Gets or sets the background color of the stroke."
 type: docs
 weight: 10
 url: /python-net/aspose.words.drawing/stroke/back_color/

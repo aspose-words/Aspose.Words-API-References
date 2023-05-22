@@ -1,7 +1,9 @@
 ﻿---
-title: theme_font_bi property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the theme font in the applied font scheme that is associated with this [Font](../) object in a right-to-left language document."
+title: Font.theme_font_bi property
+linktitle: theme_font_bi property
+articleTitle: theme_font_bi property
+second_title: Aspose.Words for Python
+description: "Font.theme_font_bi property. Gets or sets the theme font in the applied font scheme that is associated with this [Font](../) object in a right-to-left language document."
 type: docs
 weight: 490
 url: /python-net/aspose.words/font/theme_font_bi/

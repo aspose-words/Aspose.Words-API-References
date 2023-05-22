@@ -1,7 +1,9 @@
 ﻿---
-title: notify method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "This is called to notify of document saving progress."
+title: IDocumentSavingCallback.notify method
+linktitle: notify method
+articleTitle: notify method
+second_title: Aspose.Words for Python
+description: "IDocumentSavingCallback.notify method. This is called to notify of document saving progress."
 type: docs
 weight: 10
 url: /python-net/aspose.words.saving/idocumentsavingcallback/notify/

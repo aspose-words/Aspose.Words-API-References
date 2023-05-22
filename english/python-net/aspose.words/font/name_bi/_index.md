@@ -1,7 +1,9 @@
 ﻿---
-title: name_bi property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns or sets the name of the font in a right-to-left language document."
+title: Font.name_bi property
+linktitle: name_bi property
+articleTitle: name_bi property
+second_title: Aspose.Words for Python
+description: "Font.name_bi property. Returns or sets the name of the font in a right-to-left language document."
 type: docs
 weight: 250
 url: /python-net/aspose.words/font/name_bi/

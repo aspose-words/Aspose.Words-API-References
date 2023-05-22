@@ -1,6 +1,9 @@
 ﻿---
 title: XamlFixedSaveOptions constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: XamlFixedSaveOptions constructor
+articleTitle: XamlFixedSaveOptions constructor
+second_title: Aspose.Words for Python
+description: "XamlFixedSaveOptions constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.saving/xamlfixedsaveoptions/__init__/

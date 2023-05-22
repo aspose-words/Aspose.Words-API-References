@@ -1,7 +1,9 @@
 ﻿---
-title: remove_at method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Removes a general format occurrence at the specified index."
+title: GeneralFormatCollection.remove_at method
+linktitle: remove_at method
+articleTitle: remove_at method
+second_title: Aspose.Words for Python
+description: "GeneralFormatCollection.remove_at method. Removes a general format occurrence at the specified index."
 type: docs
 weight: 50
 url: /python-net/aspose.words.fields/generalformatcollection/remove_at/

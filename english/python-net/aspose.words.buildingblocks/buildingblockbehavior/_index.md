@@ -1,7 +1,9 @@
 ﻿---
 title: BuildingBlockBehavior enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the behavior that shall be applied to the contents of the building block when it is inserted into the main document."
+linktitle: BuildingBlockBehavior enumeration
+articleTitle: BuildingBlockBehavior enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.buildingblocks.BuildingBlockBehavior enumeration. Specifies the behavior that shall be applied to the contents of the building block when it is inserted into the main document."
 type: docs
 weight: 20
 url: /python-net/aspose.words.buildingblocks/buildingblockbehavior/

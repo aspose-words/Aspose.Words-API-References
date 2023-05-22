@@ -1,7 +1,9 @@
 ﻿---
-title: space_after property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the amount of spacing (in points) after the paragraph."
+title: ParagraphFormat.space_after property
+linktitle: space_after property
+articleTitle: space_after property
+second_title: Aspose.Words for Python
+description: "ParagraphFormat.space_after property. Gets or sets the amount of spacing (in points) after the paragraph."
 type: docs
 weight: 290
 url: /python-net/aspose.words/paragraphformat/space_after/

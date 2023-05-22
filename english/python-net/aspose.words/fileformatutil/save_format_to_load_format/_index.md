@@ -1,7 +1,9 @@
 ﻿---
-title: save_format_to_load_format method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Converts a [SaveFormat](../../saveformat/) value to a [LoadFormat](../../loadformat/) value if possible."
+title: FileFormatUtil.save_format_to_load_format method
+linktitle: save_format_to_load_format method
+articleTitle: save_format_to_load_format method
+second_title: Aspose.Words for Python
+description: "FileFormatUtil.save_format_to_load_format method. Converts a [SaveFormat](../../saveformat/) value to a [LoadFormat](../../loadformat/) value if possible."
 type: docs
 weight: 90
 url: /python-net/aspose.words/fileformatutil/save_format_to_load_format/

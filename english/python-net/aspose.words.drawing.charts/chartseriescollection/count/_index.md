@@ -1,7 +1,9 @@
 ﻿---
-title: count property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns the number of [ChartSeries](../../chartseries/) in this collection."
+title: ChartSeriesCollection.count property
+linktitle: count property
+articleTitle: count property
+second_title: Aspose.Words for Python
+description: "ChartSeriesCollection.count property. Returns the number of [ChartSeries](../../chartseries/) in this collection."
 type: docs
 weight: 20
 url: /python-net/aspose.words.drawing.charts/chartseriescollection/count/

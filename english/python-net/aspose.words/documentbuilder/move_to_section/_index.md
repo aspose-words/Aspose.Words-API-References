@@ -1,7 +1,9 @@
 ﻿---
-title: move_to_section method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Moves the cursor to the beginning of the body in a specified section."
+title: DocumentBuilder.move_to_section method
+linktitle: move_to_section method
+articleTitle: move_to_section method
+second_title: Aspose.Words for Python
+description: "DocumentBuilder.move_to_section method. Moves the cursor to the beginning of the body in a specified section."
 type: docs
 weight: 570
 url: /python-net/aspose.words/documentbuilder/move_to_section/

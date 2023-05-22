@@ -1,7 +1,9 @@
 ﻿---
 title: PdfImageColorSpaceExportMode enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies how the color space will be selected for the images in PDF document."
+linktitle: PdfImageColorSpaceExportMode enumeration
+articleTitle: PdfImageColorSpaceExportMode enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.saving.PdfImageColorSpaceExportMode enumeration. Specifies how the color space will be selected for the images in PDF document."
 type: docs
 weight: 630
 url: /python-net/aspose.words.saving/pdfimagecolorspaceexportmode/

@@ -1,7 +1,9 @@
 ﻿---
 title: GeneralFormat enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies a general format that is applied to a numeric, text, or any field result"
+linktitle: GeneralFormat enumeration
+articleTitle: GeneralFormat enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.GeneralFormat enumeration. Specifies a general format that is applied to a numeric, text, or any field result"
 type: docs
 weight: 1180
 url: /python-net/aspose.words.fields/generalformat/

@@ -1,7 +1,9 @@
 ﻿---
-title: as_header_footer method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Cast node to [HeaderFooter](../../headerfooter/)."
+title: Node.as_header_footer method
+linktitle: as_header_footer method
+articleTitle: as_header_footer method
+second_title: Aspose.Words for Python
+description: "Node.as_header_footer method. Cast node to [HeaderFooter](../../headerfooter/)."
 type: docs
 weight: 290
 url: /python-net/aspose.words/node/as_header_footer/

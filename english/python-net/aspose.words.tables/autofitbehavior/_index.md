@@ -1,7 +1,9 @@
 ﻿---
 title: AutoFitBehavior enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Determines how Aspose.Words resizes the table when you invoke the [Table.auto_fit()](../table/auto_fit/#autofitbehavior) method."
+linktitle: AutoFitBehavior enumeration
+articleTitle: AutoFitBehavior enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.tables.AutoFitBehavior enumeration. Determines how Aspose.Words resizes the table when you invoke the [Table.auto_fit()](../table/auto_fit/#autofitbehavior) method."
 type: docs
 weight: 10
 url: /python-net/aspose.words.tables/autofitbehavior/

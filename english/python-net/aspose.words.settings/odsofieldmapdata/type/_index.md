@@ -1,7 +1,9 @@
 ﻿---
-title: type property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies if a given mail merge field has been mapped to a column in the given external data source or not"
+title: OdsoFieldMapData.type property
+linktitle: type property
+articleTitle: type property
+second_title: Aspose.Words for Python
+description: "OdsoFieldMapData.type property. Specifies if a given mail merge field has been mapped to a column in the given external data source or not"
 type: docs
 weight: 50
 url: /python-net/aspose.words.settings/odsofieldmapdata/type/

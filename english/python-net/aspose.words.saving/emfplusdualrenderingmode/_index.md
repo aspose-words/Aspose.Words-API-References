@@ -1,7 +1,9 @@
 ﻿---
 title: EmfPlusDualRenderingMode enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies how Aspose.Words should render EMF+ Dual metafiles."
+linktitle: EmfPlusDualRenderingMode enumeration
+articleTitle: EmfPlusDualRenderingMode enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.saving.EmfPlusDualRenderingMode enumeration. Specifies how Aspose.Words should render EMF+ Dual metafiles."
 type: docs
 weight: 140
 url: /python-net/aspose.words.saving/emfplusdualrenderingmode/

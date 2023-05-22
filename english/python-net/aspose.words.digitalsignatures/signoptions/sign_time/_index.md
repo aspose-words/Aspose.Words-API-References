@@ -1,7 +1,9 @@
 ﻿---
-title: sign_time property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "The date of signing"
+title: SignOptions.sign_time property
+linktitle: sign_time property
+articleTitle: sign_time property
+second_title: Aspose.Words for Python
+description: "SignOptions.sign_time property. The date of signing"
 type: docs
 weight: 50
 url: /python-net/aspose.words.digitalsignatures/signoptions/sign_time/

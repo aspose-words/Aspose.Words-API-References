@@ -1,7 +1,9 @@
 ﻿---
-title: height_points property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the height of the image in points"
+title: ImageSize.height_points property
+linktitle: height_points property
+articleTitle: height_points property
+second_title: Aspose.Words for Python
+description: "ImageSize.height_points property. Gets the height of the image in points"
 type: docs
 weight: 30
 url: /python-net/aspose.words.drawing/imagesize/height_points/

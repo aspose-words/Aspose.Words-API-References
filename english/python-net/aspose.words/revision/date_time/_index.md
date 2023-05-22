@@ -1,7 +1,9 @@
 ﻿---
-title: date_time property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the date/time of this revision."
+title: Revision.date_time property
+linktitle: date_time property
+articleTitle: date_time property
+second_title: Aspose.Words for Python
+description: "Revision.date_time property. Gets or sets the date/time of this revision."
 type: docs
 weight: 20
 url: /python-net/aspose.words/revision/date_time/

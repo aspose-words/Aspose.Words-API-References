@@ -1,7 +1,9 @@
 ﻿---
-title: end_row method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Ends a table row in the document."
+title: DocumentBuilder.end_row method
+linktitle: end_row method
+articleTitle: end_row method
+second_title: Aspose.Words for Python
+description: "DocumentBuilder.end_row method. Ends a table row in the document."
 type: docs
 weight: 240
 url: /python-net/aspose.words/documentbuilder/end_row/

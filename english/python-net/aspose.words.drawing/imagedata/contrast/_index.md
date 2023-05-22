@@ -1,7 +1,9 @@
 ﻿---
-title: contrast property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the contrast for the specified picture"
+title: ImageData.contrast property
+linktitle: contrast property
+articleTitle: contrast property
+second_title: Aspose.Words for Python
+description: "ImageData.contrast property. Gets or sets the contrast for the specified picture"
 type: docs
 weight: 50
 url: /python-net/aspose.words.drawing/imagedata/contrast/

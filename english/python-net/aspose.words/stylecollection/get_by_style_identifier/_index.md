@@ -1,7 +1,9 @@
 ﻿---
-title: get_by_style_identifier method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets a built-in style by its locale independent identifier."
+title: StyleCollection.get_by_style_identifier method
+linktitle: get_by_style_identifier method
+articleTitle: get_by_style_identifier method
+second_title: Aspose.Words for Python
+description: "StyleCollection.get_by_style_identifier method. Gets a built-in style by its locale independent identifier."
 type: docs
 weight: 100
 url: /python-net/aspose.words/stylecollection/get_by_style_identifier/

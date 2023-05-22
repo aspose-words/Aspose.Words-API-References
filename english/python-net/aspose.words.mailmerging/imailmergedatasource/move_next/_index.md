@@ -1,7 +1,9 @@
 ﻿---
-title: move_next method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Advances to the next record in the data source."
+title: IMailMergeDataSource.move_next method
+linktitle: move_next method
+articleTitle: move_next method
+second_title: Aspose.Words for Python
+description: "IMailMergeDataSource.move_next method. Advances to the next record in the data source."
 type: docs
 weight: 40
 url: /python-net/aspose.words.mailmerging/imailmergedatasource/move_next/

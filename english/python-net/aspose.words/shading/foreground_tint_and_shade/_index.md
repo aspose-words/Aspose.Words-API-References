@@ -1,7 +1,9 @@
 ﻿---
-title: foreground_tint_and_shade property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a double value that lightens or darkens a foreground theme color."
+title: Shading.foreground_tint_and_shade property
+linktitle: foreground_tint_and_shade property
+articleTitle: foreground_tint_and_shade property
+second_title: Aspose.Words for Python
+description: "Shading.foreground_tint_and_shade property. Gets or sets a double value that lightens or darkens a foreground theme color."
 type: docs
 weight: 60
 url: /python-net/aspose.words/shading/foreground_tint_and_shade/

@@ -1,7 +1,9 @@
 ﻿---
-title: story_type property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns [StoryType.TEXTBOX](../../../aspose.words/storytype/#TEXTBOX)."
+title: Shape.story_type property
+linktitle: story_type property
+articleTitle: story_type property
+second_title: Aspose.Words for Python
+description: "Shape.story_type property. Returns [StoryType.TEXTBOX](../../../aspose.words/storytype/#TEXTBOX)."
 type: docs
 weight: 170
 url: /python-net/aspose.words.drawing/shape/story_type/

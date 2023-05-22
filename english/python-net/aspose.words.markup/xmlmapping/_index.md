@@ -1,7 +1,9 @@
 ﻿﻿---
 title: XmlMapping class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the information that is used to establish a mapping between the parent structured document tag and an XML element stored within a custom XML data part in the document"
+linktitle: XmlMapping class
+articleTitle: XmlMapping class
+second_title: Aspose.Words for Python
+description: "aspose.words.markup.XmlMapping class. Specifies the information that is used to establish a mapping between the parent structured document tag and an XML element stored within a custom XML data part in the document"
 type: docs
 weight: 210
 url: /python-net/aspose.words.markup/xmlmapping/

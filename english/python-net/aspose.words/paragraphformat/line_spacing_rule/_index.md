@@ -1,7 +1,9 @@
 ﻿---
-title: line_spacing_rule property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the line spacing for the paragraph."
+title: ParagraphFormat.line_spacing_rule property
+linktitle: line_spacing_rule property
+articleTitle: line_spacing_rule property
+second_title: Aspose.Words for Python
+description: "ParagraphFormat.line_spacing_rule property. Gets or sets the line spacing for the paragraph."
 type: docs
 weight: 190
 url: /python-net/aspose.words/paragraphformat/line_spacing_rule/

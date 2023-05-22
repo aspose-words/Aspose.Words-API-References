@@ -1,7 +1,9 @@
 ﻿﻿---
 title: Fill class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents fill formatting for an object"
+linktitle: Fill class
+articleTitle: Fill class
+second_title: Aspose.Words for Python
+description: "aspose.words.drawing.Fill class. Represents fill formatting for an object"
 type: docs
 weight: 60
 url: /python-net/aspose.words.drawing/fill/

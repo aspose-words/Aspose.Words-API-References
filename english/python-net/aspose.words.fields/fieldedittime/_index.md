@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldEditTime class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the EDITTIME field"
+linktitle: FieldEditTime class
+articleTitle: FieldEditTime class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldEditTime class. Implements the EDITTIME field"
 type: docs
 weight: 380
 url: /python-net/aspose.words.fields/fieldedittime/

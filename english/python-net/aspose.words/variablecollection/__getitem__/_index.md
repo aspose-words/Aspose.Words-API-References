@@ -1,7 +1,9 @@
 ﻿---
 title: VariableCollection indexer
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a document variable at the specified index"
+linktitle: VariableCollection indexer
+articleTitle: VariableCollection indexer
+second_title: Aspose.Words for Python
+description: "VariableCollection indexer. Gets or sets a document variable at the specified index"
 type: docs
 weight: 10
 url: /python-net/aspose.words/variablecollection/__getitem__/

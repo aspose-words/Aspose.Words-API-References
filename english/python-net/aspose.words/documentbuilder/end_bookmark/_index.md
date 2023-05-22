@@ -1,7 +1,9 @@
 ﻿---
-title: end_bookmark method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Marks the current position in the document as a bookmark end."
+title: DocumentBuilder.end_bookmark method
+linktitle: end_bookmark method
+articleTitle: end_bookmark method
+second_title: Aspose.Words for Python
+description: "DocumentBuilder.end_bookmark method. Marks the current position in the document as a bookmark end."
 type: docs
 weight: 210
 url: /python-net/aspose.words/documentbuilder/end_bookmark/

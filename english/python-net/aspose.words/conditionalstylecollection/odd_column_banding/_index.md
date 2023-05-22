@@ -1,7 +1,9 @@
 ﻿---
-title: odd_column_banding property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the odd column banding style."
+title: ConditionalStyleCollection.odd_column_banding property
+linktitle: odd_column_banding property
+articleTitle: odd_column_banding property
+second_title: Aspose.Words for Python
+description: "ConditionalStyleCollection.odd_column_banding property. Gets the odd column banding style."
 type: docs
 weight: 110
 url: /python-net/aspose.words/conditionalstylecollection/odd_column_banding/

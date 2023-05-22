@@ -1,6 +1,8 @@
 ﻿---
-title: add_switch method
-second_title: Aspose.Words for Python via .NET API Reference
+title: FieldBuilder.add_switch method
+linktitle: add_switch method
+articleTitle: add_switch method
+second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldBuilder.add_switch method"
 type: docs
 weight: 30

@@ -1,7 +1,9 @@
 ﻿---
 title: ListCollection indexer
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets a list by index."
+linktitle: ListCollection indexer
+articleTitle: ListCollection indexer
+second_title: Aspose.Words for Python
+description: "ListCollection indexer. Gets a list by index."
 type: docs
 weight: 10
 url: /python-net/aspose.words.lists/listcollection/__getitem__/

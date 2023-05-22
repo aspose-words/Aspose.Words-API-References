@@ -1,7 +1,9 @@
 ﻿---
-title: result property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a string that represents the result of this form field."
+title: FormField.result property
+linktitle: result property
+articleTitle: result property
+second_title: Aspose.Words for Python
+description: "FormField.result property. Gets or sets a string that represents the result of this form field."
 type: docs
 weight: 170
 url: /python-net/aspose.words.fields/formfield/result/

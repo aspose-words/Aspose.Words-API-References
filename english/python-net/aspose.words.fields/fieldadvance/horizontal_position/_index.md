@@ -1,7 +1,9 @@
 ﻿---
-title: horizontal_position property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the number of points by which the text that follows the field should be moved horizontally from the left edge of the column, frame, or text box."
+title: FieldAdvance.horizontal_position property
+linktitle: horizontal_position property
+articleTitle: horizontal_position property
+second_title: Aspose.Words for Python
+description: "FieldAdvance.horizontal_position property. Gets or sets the number of points by which the text that follows the field should be moved horizontally from the left edge of the column, frame, or text box."
 type: docs
 weight: 30
 url: /python-net/aspose.words.fields/fieldadvance/horizontal_position/

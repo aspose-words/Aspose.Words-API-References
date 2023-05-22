@@ -1,7 +1,9 @@
 ﻿---
-title: evaluate method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Evaluates comparison expression."
+title: IComparisonExpressionEvaluator.evaluate method
+linktitle: evaluate method
+articleTitle: evaluate method
+second_title: Aspose.Words for Python
+description: "IComparisonExpressionEvaluator.evaluate method. Evaluates comparison expression."
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/icomparisonexpressionevaluator/evaluate/

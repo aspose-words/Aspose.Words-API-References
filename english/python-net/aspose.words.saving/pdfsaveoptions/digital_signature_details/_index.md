@@ -1,7 +1,9 @@
 ﻿---
-title: digital_signature_details property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the details for signing the output PDF document."
+title: PdfSaveOptions.digital_signature_details property
+linktitle: digital_signature_details property
+articleTitle: digital_signature_details property
+second_title: Aspose.Words for Python
+description: "PdfSaveOptions.digital_signature_details property. Gets or sets the details for signing the output PDF document."
 type: docs
 weight: 70
 url: /python-net/aspose.words.saving/pdfsaveoptions/digital_signature_details/

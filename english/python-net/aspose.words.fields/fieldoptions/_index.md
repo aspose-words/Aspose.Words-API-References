@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldOptions class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents options to control field handling in a document"
+linktitle: FieldOptions class
+articleTitle: FieldOptions class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldOptions class. Represents options to control field handling in a document"
 type: docs
 weight: 790
 url: /python-net/aspose.words.fields/fieldoptions/

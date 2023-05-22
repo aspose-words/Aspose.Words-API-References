@@ -1,7 +1,9 @@
 ﻿---
-title: number_style property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns or sets the number style for this list level."
+title: ListLevel.number_style property
+linktitle: number_style property
+articleTitle: number_style property
+second_title: Aspose.Words for Python
+description: "ListLevel.number_style property. Returns or sets the number style for this list level."
 type: docs
 weight: 90
 url: /python-net/aspose.words.lists/listlevel/number_style/

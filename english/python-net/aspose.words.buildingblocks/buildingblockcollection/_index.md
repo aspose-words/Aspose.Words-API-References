@@ -1,7 +1,9 @@
 ﻿﻿---
 title: BuildingBlockCollection class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "A collection of [BuildingBlock](../buildingblock/) objects in the document"
+linktitle: BuildingBlockCollection class
+articleTitle: BuildingBlockCollection class
+second_title: Aspose.Words for Python
+description: "aspose.words.buildingblocks.BuildingBlockCollection class. A collection of [BuildingBlock](../buildingblock/) objects in the document"
 type: docs
 weight: 30
 url: /python-net/aspose.words.buildingblocks/buildingblockcollection/

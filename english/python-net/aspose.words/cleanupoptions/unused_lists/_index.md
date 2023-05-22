@@ -1,7 +1,9 @@
 ﻿---
-title: unused_lists property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies whether unused list and list definitions should be removed from document"
+title: CleanupOptions.unused_lists property
+linktitle: unused_lists property
+articleTitle: unused_lists property
+second_title: Aspose.Words for Python
+description: "CleanupOptions.unused_lists property. Specifies whether unused list and list definitions should be removed from document"
 type: docs
 weight: 40
 url: /python-net/aspose.words/cleanupoptions/unused_lists/

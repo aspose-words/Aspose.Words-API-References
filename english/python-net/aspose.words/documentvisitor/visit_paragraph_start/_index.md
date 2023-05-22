@@ -1,7 +1,9 @@
 ﻿---
-title: visit_paragraph_start method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Called when enumeration of a paragraph has started."
+title: DocumentVisitor.visit_paragraph_start method
+linktitle: visit_paragraph_start method
+articleTitle: visit_paragraph_start method
+second_title: Aspose.Words for Python
+description: "DocumentVisitor.visit_paragraph_start method. Called when enumeration of a paragraph has started."
 type: docs
 weight: 330
 url: /python-net/aspose.words/documentvisitor/visit_paragraph_start/

@@ -1,7 +1,9 @@
 ﻿---
-title: numeric_format property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a formatting that is applied to a numeric field result"
+title: FieldFormat.numeric_format property
+linktitle: numeric_format property
+articleTitle: numeric_format property
+second_title: Aspose.Words for Python
+description: "FieldFormat.numeric_format property. Gets or sets a formatting that is applied to a numeric field result"
 type: docs
 weight: 30
 url: /python-net/aspose.words.fields/fieldformat/numeric_format/

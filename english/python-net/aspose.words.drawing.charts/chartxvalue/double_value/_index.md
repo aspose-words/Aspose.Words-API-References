@@ -1,7 +1,9 @@
 ﻿---
-title: double_value property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the stored numeric value."
+title: ChartXValue.double_value property
+linktitle: double_value property
+articleTitle: double_value property
+second_title: Aspose.Words for Python
+description: "ChartXValue.double_value property. Gets the stored numeric value."
 type: docs
 weight: 20
 url: /python-net/aspose.words.drawing.charts/chartxvalue/double_value/

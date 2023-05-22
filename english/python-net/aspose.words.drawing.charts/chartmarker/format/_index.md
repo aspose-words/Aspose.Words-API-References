@@ -1,7 +1,9 @@
 ﻿---
-title: format property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides access to fill and line formatting of this marker."
+title: ChartMarker.format property
+linktitle: format property
+articleTitle: format property
+second_title: Aspose.Words for Python
+description: "ChartMarker.format property. Provides access to fill and line formatting of this marker."
 type: docs
 weight: 10
 url: /python-net/aspose.words.drawing.charts/chartmarker/format/

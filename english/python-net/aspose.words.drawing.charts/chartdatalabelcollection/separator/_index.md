@@ -1,7 +1,9 @@
 ﻿---
-title: separator property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets string separator used for the data labels of the entire series"
+title: ChartDataLabelCollection.separator property
+linktitle: separator property
+articleTitle: separator property
+second_title: Aspose.Words for Python
+description: "ChartDataLabelCollection.separator property. Gets or sets string separator used for the data labels of the entire series"
 type: docs
 weight: 50
 url: /python-net/aspose.words.drawing.charts/chartdatalabelcollection/separator/

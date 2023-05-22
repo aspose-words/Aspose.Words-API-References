@@ -1,7 +1,9 @@
 ﻿﻿---
 title: ChartSeries class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents chart series properties"
+linktitle: ChartSeries class
+articleTitle: ChartSeries class
+second_title: Aspose.Words for Python
+description: "aspose.words.drawing.charts.ChartSeries class. Represents chart series properties"
 type: docs
 weight: 270
 url: /python-net/aspose.words.drawing.charts/chartseries/

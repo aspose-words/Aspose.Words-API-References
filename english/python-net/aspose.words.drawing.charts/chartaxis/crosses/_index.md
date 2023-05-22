@@ -1,7 +1,9 @@
 ﻿---
-title: crosses property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies how this axis crosses the perpendicular axis."
+title: ChartAxis.crosses property
+linktitle: crosses property
+articleTitle: crosses property
+second_title: Aspose.Words for Python
+description: "ChartAxis.crosses property. Specifies how this axis crosses the perpendicular axis."
 type: docs
 weight: 40
 url: /python-net/aspose.words.drawing.charts/chartaxis/crosses/

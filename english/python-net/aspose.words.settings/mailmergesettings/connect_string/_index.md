@@ -1,7 +1,9 @@
 ﻿---
-title: connect_string property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the connection string used to connect to an external data source"
+title: MailMergeSettings.connect_string property
+linktitle: connect_string property
+articleTitle: connect_string property
+second_title: Aspose.Words for Python
+description: "MailMergeSettings.connect_string property. Specifies the connection string used to connect to an external data source"
 type: docs
 weight: 50
 url: /python-net/aspose.words.settings/mailmergesettings/connect_string/

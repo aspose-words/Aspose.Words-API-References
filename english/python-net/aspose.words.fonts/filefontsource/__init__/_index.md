@@ -1,6 +1,8 @@
 ﻿---
 title: FileFontSource constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: FileFontSource constructor
+articleTitle: FileFontSource constructor
+second_title: Aspose.Words for Python
 description: "aspose.words.fonts.FileFontSource constructor"
 type: docs
 weight: 10

@@ -1,7 +1,9 @@
 ﻿---
-title: compression_level property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the compression level used to save document"
+title: OoxmlSaveOptions.compression_level property
+linktitle: compression_level property
+articleTitle: compression_level property
+second_title: Aspose.Words for Python
+description: "OoxmlSaveOptions.compression_level property. Specifies the compression level used to save document"
 type: docs
 weight: 30
 url: /python-net/aspose.words.saving/ooxmlsaveoptions/compression_level/

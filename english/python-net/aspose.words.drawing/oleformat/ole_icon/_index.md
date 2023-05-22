@@ -1,7 +1,9 @@
 ﻿---
-title: ole_icon property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the draw aspect of the OLE object"
+title: OleFormat.ole_icon property
+linktitle: ole_icon property
+articleTitle: ole_icon property
+second_title: Aspose.Words for Python
+description: "OleFormat.ole_icon property. Gets the draw aspect of the OLE object"
 type: docs
 weight: 70
 url: /python-net/aspose.words.drawing/oleformat/ole_icon/

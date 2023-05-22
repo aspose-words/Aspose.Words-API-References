@@ -1,7 +1,9 @@
 ﻿---
-title: symbol_height property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the height of the symbol"
+title: FieldMergeBarcode.symbol_height property
+linktitle: symbol_height property
+articleTitle: symbol_height property
+second_title: Aspose.Words for Python
+description: "FieldMergeBarcode.symbol_height property. Gets or sets the height of the symbol"
 type: docs
 weight: 130
 url: /python-net/aspose.words.fields/fieldmergebarcode/symbol_height/

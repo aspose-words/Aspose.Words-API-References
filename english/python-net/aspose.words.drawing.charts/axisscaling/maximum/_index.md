@@ -1,7 +1,9 @@
 ﻿---
-title: maximum property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the maximum value of the axis."
+title: AxisScaling.maximum property
+linktitle: maximum property
+articleTitle: maximum property
+second_title: Aspose.Words for Python
+description: "AxisScaling.maximum property. Gets or sets the maximum value of the axis."
 type: docs
 weight: 30
 url: /python-net/aspose.words.drawing.charts/axisscaling/maximum/

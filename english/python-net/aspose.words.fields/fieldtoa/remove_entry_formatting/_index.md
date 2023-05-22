@@ -1,7 +1,9 @@
 ﻿---
-title: remove_entry_formatting property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets whether to remove the formatting of the entry text in the document from the entry in the table of authorities."
+title: FieldToa.remove_entry_formatting property
+linktitle: remove_entry_formatting property
+articleTitle: remove_entry_formatting property
+second_title: Aspose.Words for Python
+description: "FieldToa.remove_entry_formatting property. Gets or sets whether to remove the formatting of the entry text in the document from the entry in the table of authorities."
 type: docs
 weight: 70
 url: /python-net/aspose.words.fields/fieldtoa/remove_entry_formatting/

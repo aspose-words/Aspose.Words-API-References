@@ -1,7 +1,9 @@
 ﻿---
-title: field_type property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns the type of the field."
+title: FieldChar.field_type property
+linktitle: field_type property
+articleTitle: field_type property
+second_title: Aspose.Words for Python
+description: "FieldChar.field_type property. Returns the type of the field."
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/fieldchar/field_type/

@@ -1,7 +1,9 @@
 ﻿---
-title: type property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the building block type."
+title: BuildingBlock.type property
+linktitle: type property
+articleTitle: type property
+second_title: Aspose.Words for Python
+description: "BuildingBlock.type property. Specifies the building block type."
 type: docs
 weight: 120
 url: /python-net/aspose.words.buildingblocks/buildingblock/type/

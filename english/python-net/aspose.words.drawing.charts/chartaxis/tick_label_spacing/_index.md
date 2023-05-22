@@ -1,7 +1,9 @@
 ﻿---
-title: tick_label_spacing property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the interval, at which tick labels are drawn."
+title: ChartAxis.tick_label_spacing property
+linktitle: tick_label_spacing property
+articleTitle: tick_label_spacing property
+second_title: Aspose.Words for Python
+description: "ChartAxis.tick_label_spacing property. Gets or sets the interval, at which tick labels are drawn."
 type: docs
 weight: 250
 url: /python-net/aspose.words.drawing.charts/chartaxis/tick_label_spacing/

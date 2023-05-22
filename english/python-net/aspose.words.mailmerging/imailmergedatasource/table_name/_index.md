@@ -1,7 +1,9 @@
 ﻿---
-title: table_name property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns the name of the data source."
+title: IMailMergeDataSource.table_name property
+linktitle: table_name property
+articleTitle: table_name property
+second_title: Aspose.Words for Python
+description: "IMailMergeDataSource.table_name property. Returns the name of the data source."
 type: docs
 weight: 10
 url: /python-net/aspose.words.mailmerging/imailmergedatasource/table_name/

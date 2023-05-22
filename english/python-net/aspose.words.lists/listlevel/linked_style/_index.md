@@ -1,7 +1,9 @@
 ﻿---
-title: linked_style property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the paragraph style that is linked to this list level."
+title: ListLevel.linked_style property
+linktitle: linked_style property
+articleTitle: linked_style property
+second_title: Aspose.Words for Python
+description: "ListLevel.linked_style property. Gets or sets the paragraph style that is linked to this list level."
 type: docs
 weight: 60
 url: /python-net/aspose.words.lists/listlevel/linked_style/

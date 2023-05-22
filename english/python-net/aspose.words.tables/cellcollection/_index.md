@@ -1,7 +1,9 @@
 ﻿﻿---
 title: CellCollection class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides typed access to a collection of [Cell](../cell/) nodes"
+linktitle: CellCollection class
+articleTitle: CellCollection class
+second_title: Aspose.Words for Python
+description: "aspose.words.tables.CellCollection class. Provides typed access to a collection of [Cell](../cell/) nodes"
 type: docs
 weight: 30
 url: /python-net/aspose.words.tables/cellcollection/

@@ -1,7 +1,9 @@
 ﻿---
-title: subject_name property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns the subject distinguished name of the certificate that was used to sign the document."
+title: DigitalSignature.subject_name property
+linktitle: subject_name property
+articleTitle: subject_name property
+second_title: Aspose.Words for Python
+description: "DigitalSignature.subject_name property. Returns the subject distinguished name of the certificate that was used to sign the document."
 type: docs
 weight: 70
 url: /python-net/aspose.words.digitalsignatures/digitalsignature/subject_name/

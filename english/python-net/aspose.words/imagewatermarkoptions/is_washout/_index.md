@@ -1,7 +1,9 @@
 ﻿---
-title: is_washout property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a boolean value which is responsible for washout effect of the watermark"
+title: ImageWatermarkOptions.is_washout property
+linktitle: is_washout property
+articleTitle: is_washout property
+second_title: Aspose.Words for Python
+description: "ImageWatermarkOptions.is_washout property. Gets or sets a boolean value which is responsible for washout effect of the watermark"
 type: docs
 weight: 20
 url: /python-net/aspose.words/imagewatermarkoptions/is_washout/

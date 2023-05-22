@@ -1,7 +1,9 @@
 ﻿---
 title: CellCollection indexer
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Retrieves a [Cell](../../cell/) at the given index."
+linktitle: CellCollection indexer
+articleTitle: CellCollection indexer
+second_title: Aspose.Words for Python
+description: "CellCollection indexer. Retrieves a [Cell](../../cell/) at the given index."
 type: docs
 weight: 10
 url: /python-net/aspose.words.tables/cellcollection/__getitem__/

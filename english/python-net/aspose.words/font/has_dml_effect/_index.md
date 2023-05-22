@@ -1,7 +1,9 @@
 ﻿---
-title: has_dml_effect method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Checks if particular DrawingML text effect is applied."
+title: Font.has_dml_effect method
+linktitle: has_dml_effect method
+articleTitle: has_dml_effect method
+second_title: Aspose.Words for Python
+description: "Font.has_dml_effect method. Checks if particular DrawingML text effect is applied."
 type: docs
 weight: 560
 url: /python-net/aspose.words/font/has_dml_effect/

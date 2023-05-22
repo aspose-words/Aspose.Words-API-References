@@ -1,7 +1,9 @@
 ﻿---
 title: WarningInfoCollection indexer
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets an item at the specified index."
+linktitle: WarningInfoCollection indexer
+articleTitle: WarningInfoCollection indexer
+second_title: Aspose.Words for Python
+description: "WarningInfoCollection indexer. Gets an item at the specified index."
 type: docs
 weight: 20
 url: /python-net/aspose.words/warninginfocollection/__getitem__/

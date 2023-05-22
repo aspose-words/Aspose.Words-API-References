@@ -1,7 +1,9 @@
 ﻿---
-title: is_linked_to_previous property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "True if this header or footer is linked to the corresponding header or footer in the previous section."
+title: HeaderFooter.is_linked_to_previous property
+linktitle: is_linked_to_previous property
+articleTitle: is_linked_to_previous property
+second_title: Aspose.Words for Python
+description: "HeaderFooter.is_linked_to_previous property. True if this header or footer is linked to the corresponding header or footer in the previous section."
 type: docs
 weight: 40
 url: /python-net/aspose.words/headerfooter/is_linked_to_previous/

@@ -1,7 +1,9 @@
 ﻿---
-title: signature_line property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets [SignatureLine](../../signatureline/) object if the shape is a signature line"
+title: Shape.signature_line property
+linktitle: signature_line property
+articleTitle: signature_line property
+second_title: Aspose.Words for Python
+description: "Shape.signature_line property. Gets [SignatureLine](../../signatureline/) object if the shape is a signature line"
 type: docs
 weight: 160
 url: /python-net/aspose.words.drawing/shape/signature_line/

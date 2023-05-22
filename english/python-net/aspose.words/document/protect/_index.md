@@ -1,6 +1,8 @@
 ﻿---
-title: protect method
-second_title: Aspose.Words for Python via .NET API Reference
+title: Document.protect method
+linktitle: protect method
+articleTitle: protect method
+second_title: Aspose.Words for Python
 description: "aspose.words.Document.protect method"
 type: docs
 weight: 640

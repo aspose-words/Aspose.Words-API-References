@@ -1,7 +1,9 @@
 ﻿---
 title: ListTemplate enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies one of the predefined list formats available in Microsoft Word."
+linktitle: ListTemplate enumeration
+articleTitle: ListTemplate enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.lists.ListTemplate enumeration. Specifies one of the predefined list formats available in Microsoft Word."
 type: docs
 weight: 80
 url: /python-net/aspose.words.lists/listtemplate/

@@ -1,7 +1,9 @@
 ﻿---
-title: revision_bars_color property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to specify the color to be used for side bars that identify document lines containing revised information"
+title: RevisionOptions.revision_bars_color property
+linktitle: revision_bars_color property
+articleTitle: revision_bars_color property
+second_title: Aspose.Words for Python
+description: "RevisionOptions.revision_bars_color property. Allows to specify the color to be used for side bars that identify document lines containing revised information"
 type: docs
 weight: 130
 url: /python-net/aspose.words.layout/revisionoptions/revision_bars_color/

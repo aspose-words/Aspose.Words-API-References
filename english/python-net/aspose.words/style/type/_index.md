@@ -1,7 +1,9 @@
 ﻿---
-title: type property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the style type (paragraph or character)."
+title: Style.type property
+linktitle: type property
+articleTitle: type property
+second_title: Aspose.Words for Python
+description: "Style.type property. Gets the style type (paragraph or character)."
 type: docs
 weight: 170
 url: /python-net/aspose.words/style/type/

@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldMergingArgs class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides data for the MergeField event"
+linktitle: FieldMergingArgs class
+articleTitle: FieldMergingArgs class
+second_title: Aspose.Words for Python
+description: "aspose.words.mailmerging.FieldMergingArgs class. Provides data for the MergeField event"
 type: docs
 weight: 10
 url: /python-net/aspose.words.mailmerging/fieldmergingargs/

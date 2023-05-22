@@ -1,7 +1,9 @@
 ﻿---
-title: hidden property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "True if the font is formatted as hidden text."
+title: Font.hidden property
+linktitle: hidden property
+articleTitle: hidden property
+second_title: Aspose.Words for Python
+description: "Font.hidden property. True if the font is formatted as hidden text."
 type: docs
 weight: 140
 url: /python-net/aspose.words/font/hidden/

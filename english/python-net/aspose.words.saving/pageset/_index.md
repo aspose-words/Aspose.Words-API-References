@@ -1,7 +1,9 @@
 ﻿﻿---
 title: PageSet class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Describes a random set of pages"
+linktitle: PageSet class
+articleTitle: PageSet class
+second_title: Aspose.Words for Python
+description: "aspose.words.saving.PageSet class. Describes a random set of pages"
 type: docs
 weight: 540
 url: /python-net/aspose.words.saving/pageset/

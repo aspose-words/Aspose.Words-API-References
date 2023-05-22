@@ -1,7 +1,9 @@
 ﻿---
-title: has_digital_signature property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns ``True`` if this document contains a digital signature"
+title: FileFormatInfo.has_digital_signature property
+linktitle: has_digital_signature property
+articleTitle: has_digital_signature property
+second_title: Aspose.Words for Python
+description: "FileFormatInfo.has_digital_signature property. Returns ``True`` if this document contains a digital signature"
 type: docs
 weight: 20
 url: /python-net/aspose.words/fileformatinfo/has_digital_signature/

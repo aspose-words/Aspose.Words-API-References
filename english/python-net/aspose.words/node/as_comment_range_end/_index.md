@@ -1,7 +1,9 @@
 ﻿---
-title: as_comment_range_end method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Cast node to [CommentRangeEnd](../../commentrangeend/)."
+title: Node.as_comment_range_end method
+linktitle: as_comment_range_end method
+articleTitle: as_comment_range_end method
+second_title: Aspose.Words for Python
+description: "Node.as_comment_range_end method. Cast node to [CommentRangeEnd](../../commentrangeend/)."
 type: docs
 weight: 160
 url: /python-net/aspose.words/node/as_comment_range_end/

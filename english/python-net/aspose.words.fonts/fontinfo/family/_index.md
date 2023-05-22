@@ -1,7 +1,9 @@
 ﻿---
-title: family property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the font family this font belongs to."
+title: FontInfo.family property
+linktitle: family property
+articleTitle: family property
+second_title: Aspose.Words for Python
+description: "FontInfo.family property. Gets or sets the font family this font belongs to."
 type: docs
 weight: 30
 url: /python-net/aspose.words.fonts/fontinfo/family/

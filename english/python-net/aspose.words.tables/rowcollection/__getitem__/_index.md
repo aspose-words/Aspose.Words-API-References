@@ -1,7 +1,9 @@
 ﻿---
 title: RowCollection indexer
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Retrieves a [Row](../../row/) at the given index."
+linktitle: RowCollection indexer
+articleTitle: RowCollection indexer
+second_title: Aspose.Words for Python
+description: "RowCollection indexer. Retrieves a [Row](../../row/) at the given index."
 type: docs
 weight: 10
 url: /python-net/aspose.words.tables/rowcollection/__getitem__/

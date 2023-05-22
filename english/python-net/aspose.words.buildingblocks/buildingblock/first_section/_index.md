@@ -1,7 +1,9 @@
 ﻿---
-title: first_section property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the first section in the building block."
+title: BuildingBlock.first_section property
+linktitle: first_section property
+articleTitle: first_section property
+second_title: Aspose.Words for Python
+description: "BuildingBlock.first_section property. Gets the first section in the building block."
 type: docs
 weight: 50
 url: /python-net/aspose.words.buildingblocks/buildingblock/first_section/

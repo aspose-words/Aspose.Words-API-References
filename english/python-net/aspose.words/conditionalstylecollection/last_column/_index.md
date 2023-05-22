@@ -1,7 +1,9 @@
 ﻿---
-title: last_column property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the last column style."
+title: ConditionalStyleCollection.last_column property
+linktitle: last_column property
+articleTitle: last_column property
+second_title: Aspose.Words for Python
+description: "ConditionalStyleCollection.last_column property. Gets the last column style."
 type: docs
 weight: 90
 url: /python-net/aspose.words/conditionalstylecollection/last_column/

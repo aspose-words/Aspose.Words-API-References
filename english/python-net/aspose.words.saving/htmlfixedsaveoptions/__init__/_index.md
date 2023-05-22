@@ -1,6 +1,9 @@
 ﻿---
 title: HtmlFixedSaveOptions constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: HtmlFixedSaveOptions constructor
+articleTitle: HtmlFixedSaveOptions constructor
+second_title: Aspose.Words for Python
+description: "HtmlFixedSaveOptions constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.saving/htmlfixedsaveoptions/__init__/

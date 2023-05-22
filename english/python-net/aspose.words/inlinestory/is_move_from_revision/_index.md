@@ -1,7 +1,9 @@
 ﻿---
-title: is_move_from_revision property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns ``True`` if this object was moved (deleted) in Microsoft Word while change tracking was enabled."
+title: InlineStory.is_move_from_revision property
+linktitle: is_move_from_revision property
+articleTitle: is_move_from_revision property
+second_title: Aspose.Words for Python
+description: "InlineStory.is_move_from_revision property. Returns ``True`` if this object was moved (deleted) in Microsoft Word while change tracking was enabled."
 type: docs
 weight: 50
 url: /python-net/aspose.words/inlinestory/is_move_from_revision/

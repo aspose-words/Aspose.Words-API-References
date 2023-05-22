@@ -1,7 +1,9 @@
 ﻿﻿---
 title: GradientStop class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents one gradient stop"
+linktitle: GradientStop class
+articleTitle: GradientStop class
+second_title: Aspose.Words for Python
+description: "aspose.words.drawing.GradientStop class. Represents one gradient stop"
 type: docs
 weight: 90
 url: /python-net/aspose.words.drawing/gradientstop/

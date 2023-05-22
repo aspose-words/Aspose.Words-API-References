@@ -1,7 +1,9 @@
 ﻿﻿---
 title: PageSetup class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents the page setup properties of a section"
+linktitle: PageSetup class
+articleTitle: PageSetup class
+second_title: Aspose.Words for Python
+description: "aspose.words.PageSetup class. Represents the page setup properties of a section"
 type: docs
 weight: 810
 url: /python-net/aspose.words/pagesetup/

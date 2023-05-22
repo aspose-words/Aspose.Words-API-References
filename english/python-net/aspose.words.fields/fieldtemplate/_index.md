@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldTemplate class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the TEMPLATE field"
+linktitle: FieldTemplate class
+articleTitle: FieldTemplate class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldTemplate class. Implements the TEMPLATE field"
 type: docs
 weight: 1030
 url: /python-net/aspose.words.fields/fieldtemplate/

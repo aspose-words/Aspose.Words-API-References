@@ -1,7 +1,9 @@
 ﻿---
-title: fit_shape property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Defines whether the text fits bounding box of a shape."
+title: TextPath.fit_shape property
+linktitle: fit_shape property
+articleTitle: fit_shape property
+second_title: Aspose.Words for Python
+description: "TextPath.fit_shape property. Defines whether the text fits bounding box of a shape."
 type: docs
 weight: 30
 url: /python-net/aspose.words.drawing/textpath/fit_shape/

@@ -1,7 +1,9 @@
 ﻿---
-title: width_points property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the width of the image in points"
+title: ImageSize.width_points property
+linktitle: width_points property
+articleTitle: width_points property
+second_title: Aspose.Words for Python
+description: "ImageSize.width_points property. Gets the width of the image in points"
 type: docs
 weight: 70
 url: /python-net/aspose.words.drawing/imagesize/width_points/

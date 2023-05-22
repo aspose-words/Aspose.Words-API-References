@@ -1,7 +1,9 @@
 ﻿---
-title: relative_horizontal_position property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the relative horizontal position of a frame."
+title: FrameFormat.relative_horizontal_position property
+linktitle: relative_horizontal_position property
+articleTitle: relative_horizontal_position property
+second_title: Aspose.Words for Python
+description: "FrameFormat.relative_horizontal_position property. Gets the relative horizontal position of a frame."
 type: docs
 weight: 70
 url: /python-net/aspose.words/frameformat/relative_horizontal_position/

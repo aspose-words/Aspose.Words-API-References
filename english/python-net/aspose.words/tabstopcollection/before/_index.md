@@ -1,7 +1,9 @@
 ﻿---
-title: before method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets a first tab stop to the left of the specified position."
+title: TabStopCollection.before method
+linktitle: before method
+articleTitle: before method
+second_title: Aspose.Words for Python
+description: "TabStopCollection.before method. Gets a first tab stop to the left of the specified position."
 type: docs
 weight: 50
 url: /python-net/aspose.words/tabstopcollection/before/

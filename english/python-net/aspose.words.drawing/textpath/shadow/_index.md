@@ -1,7 +1,9 @@
 ﻿---
-title: shadow property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Defines whether a shadow is applied to the text on a text path."
+title: TextPath.shadow property
+linktitle: shadow property
+articleTitle: shadow property
+second_title: Aspose.Words for Python
+description: "TextPath.shadow property. Defines whether a shadow is applied to the text on a text path."
 type: docs
 weight: 110
 url: /python-net/aspose.words.drawing/textpath/shadow/

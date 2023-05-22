@@ -1,7 +1,9 @@
 ﻿---
-title: tick_label_alignment property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets text alignment of axis tick labels."
+title: ChartAxis.tick_label_alignment property
+linktitle: tick_label_alignment property
+articleTitle: tick_label_alignment property
+second_title: Aspose.Words for Python
+description: "ChartAxis.tick_label_alignment property. Gets or sets text alignment of axis tick labels."
 type: docs
 weight: 220
 url: /python-net/aspose.words.drawing.charts/chartaxis/tick_label_alignment/

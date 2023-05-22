@@ -1,6 +1,8 @@
 ﻿---
 title: OoxmlSaveOptions constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: OoxmlSaveOptions constructor
+articleTitle: OoxmlSaveOptions constructor
+second_title: Aspose.Words for Python
 description: "aspose.words.saving.OoxmlSaveOptions constructor"
 type: docs
 weight: 10

@@ -1,7 +1,9 @@
 ﻿---
-title: remove method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Removes all occurrences of the specified general format from the collection."
+title: GeneralFormatCollection.remove method
+linktitle: remove method
+articleTitle: remove method
+second_title: Aspose.Words for Python
+description: "GeneralFormatCollection.remove method. Removes all occurrences of the specified general format from the collection."
 type: docs
 weight: 40
 url: /python-net/aspose.words.fields/generalformatcollection/remove/

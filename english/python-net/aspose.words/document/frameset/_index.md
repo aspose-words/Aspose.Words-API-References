@@ -1,7 +1,9 @@
 ﻿---
-title: frameset property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns a [Document.frameset](./) instance if this document represents a frames page."
+title: Document.frameset property
+linktitle: frameset property
+articleTitle: frameset property
+second_title: Aspose.Words for Python
+description: "Document.frameset property. Returns a [Document.frameset](./) instance if this document represents a frames page."
 type: docs
 weight: 160
 url: /python-net/aspose.words/document/frameset/

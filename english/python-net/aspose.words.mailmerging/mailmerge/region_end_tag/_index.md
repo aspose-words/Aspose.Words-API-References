@@ -1,7 +1,9 @@
 ﻿---
-title: region_end_tag property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a mail merge region end tag."
+title: MailMerge.region_end_tag property
+linktitle: region_end_tag property
+articleTitle: region_end_tag property
+second_title: Aspose.Words for Python
+description: "MailMerge.region_end_tag property. Gets or sets a mail merge region end tag."
 type: docs
 weight: 90
 url: /python-net/aspose.words.mailmerging/mailmerge/region_end_tag/

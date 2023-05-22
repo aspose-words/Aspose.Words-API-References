@@ -1,7 +1,9 @@
 ﻿---
-title: label_string property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets a string representation of list label."
+title: ListLabel.label_string property
+linktitle: label_string property
+articleTitle: label_string property
+second_title: Aspose.Words for Python
+description: "ListLabel.label_string property. Gets a string representation of list label."
 type: docs
 weight: 20
 url: /python-net/aspose.words.lists/listlabel/label_string/

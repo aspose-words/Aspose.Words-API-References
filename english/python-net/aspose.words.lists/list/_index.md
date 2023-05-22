@@ -1,7 +1,9 @@
 ﻿﻿---
 title: List class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents formatting of a list"
+linktitle: List class
+articleTitle: List class
+second_title: Aspose.Words for Python
+description: "aspose.words.lists.List class. Represents formatting of a list"
 type: docs
 weight: 10
 url: /python-net/aspose.words.lists/list/

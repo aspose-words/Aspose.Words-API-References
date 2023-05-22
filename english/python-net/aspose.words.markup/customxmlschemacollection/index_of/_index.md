@@ -1,7 +1,9 @@
 ﻿---
-title: index_of method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns the zero-based index of the specified value in the collection."
+title: CustomXmlSchemaCollection.index_of method
+linktitle: index_of method
+articleTitle: index_of method
+second_title: Aspose.Words for Python
+description: "CustomXmlSchemaCollection.index_of method. Returns the zero-based index of the specified value in the collection."
 type: docs
 weight: 60
 url: /python-net/aspose.words.markup/customxmlschemacollection/index_of/

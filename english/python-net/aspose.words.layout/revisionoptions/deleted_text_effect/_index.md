@@ -1,7 +1,9 @@
 ﻿---
-title: deleted_text_effect property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to specify the effect to be applied to the deleted content [RevisionType.DELETION](../../../aspose.words/revisiontype/#DELETION)"
+title: RevisionOptions.deleted_text_effect property
+linktitle: deleted_text_effect property
+articleTitle: deleted_text_effect property
+second_title: Aspose.Words for Python
+description: "RevisionOptions.deleted_text_effect property. Allows to specify the effect to be applied to the deleted content [RevisionType.DELETION](../../../aspose.words/revisiontype/#DELETION)"
 type: docs
 weight: 30
 url: /python-net/aspose.words.layout/revisionoptions/deleted_text_effect/

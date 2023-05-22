@@ -1,7 +1,9 @@
 ﻿---
 title: VbaModuleCollection indexer
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Retrieves a [VbaModule](../../vbamodule/) object by index."
+linktitle: VbaModuleCollection indexer
+articleTitle: VbaModuleCollection indexer
+second_title: Aspose.Words for Python
+description: "VbaModuleCollection indexer. Retrieves a [VbaModule](../../vbamodule/) object by index."
 type: docs
 weight: 10
 url: /python-net/aspose.words.vba/vbamodulecollection/__getitem__/

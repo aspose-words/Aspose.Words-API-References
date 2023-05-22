@@ -1,7 +1,9 @@
 ﻿﻿---
 title: Field class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a Microsoft Word document field"
+linktitle: Field class
+articleTitle: Field class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.Field class. Represents a Microsoft Word document field"
 type: docs
 weight: 50
 url: /python-net/aspose.words.fields/field/

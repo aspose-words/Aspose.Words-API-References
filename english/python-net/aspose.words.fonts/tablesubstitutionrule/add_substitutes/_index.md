@@ -1,7 +1,9 @@
 ﻿---
-title: add_substitutes method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Adds substitute font names for given original font name."
+title: TableSubstitutionRule.add_substitutes method
+linktitle: add_substitutes method
+articleTitle: add_substitutes method
+second_title: Aspose.Words for Python
+description: "TableSubstitutionRule.add_substitutes method. Adds substitute font names for given original font name."
 type: docs
 weight: 10
 url: /python-net/aspose.words.fonts/tablesubstitutionrule/add_substitutes/

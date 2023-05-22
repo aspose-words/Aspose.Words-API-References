@@ -1,7 +1,9 @@
 ﻿---
-title: keywords property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the document keywords."
+title: BuiltInDocumentProperties.keywords property
+linktitle: keywords property
+articleTitle: keywords property
+second_title: Aspose.Words for Python
+description: "BuiltInDocumentProperties.keywords property. Gets or sets the document keywords."
 type: docs
 weight: 140
 url: /python-net/aspose.words.properties/builtindocumentproperties/keywords/

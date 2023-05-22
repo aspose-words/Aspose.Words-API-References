@@ -1,7 +1,9 @@
 ﻿---
-title: break_is_style_separator property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "True if this paragraph break is a Style Separator"
+title: Paragraph.break_is_style_separator property
+linktitle: break_is_style_separator property
+articleTitle: break_is_style_separator property
+second_title: Aspose.Words for Python
+description: "Paragraph.break_is_style_separator property. True if this paragraph break is a Style Separator"
 type: docs
 weight: 20
 url: /python-net/aspose.words/paragraph/break_is_style_separator/

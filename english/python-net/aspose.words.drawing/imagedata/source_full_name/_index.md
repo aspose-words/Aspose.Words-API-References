@@ -1,7 +1,9 @@
 ﻿---
-title: source_full_name property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the path and name of the source file for the linked image."
+title: ImageData.source_full_name property
+linktitle: source_full_name property
+articleTitle: source_full_name property
+second_title: Aspose.Words for Python
+description: "ImageData.source_full_name property. Gets or sets the path and name of the source file for the linked image."
 type: docs
 weight: 170
 url: /python-net/aspose.words.drawing/imagedata/source_full_name/

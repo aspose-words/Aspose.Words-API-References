@@ -1,7 +1,9 @@
 ﻿---
 title: ExportFontFormat enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Indicates the format that is used to export fonts while rendering to HTML fixed format."
+linktitle: ExportFontFormat enumeration
+articleTitle: ExportFontFormat enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.saving.ExportFontFormat enumeration. Indicates the format that is used to export fonts while rendering to HTML fixed format."
 type: docs
 weight: 150
 url: /python-net/aspose.words.saving/exportfontformat/

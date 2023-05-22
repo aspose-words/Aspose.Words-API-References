@@ -1,7 +1,9 @@
 ﻿---
-title: count property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the number of borders in the collection."
+title: BorderCollection.count property
+linktitle: count property
+articleTitle: count property
+second_title: Aspose.Words for Python
+description: "BorderCollection.count property. Gets the number of borders in the collection."
 type: docs
 weight: 40
 url: /python-net/aspose.words/bordercollection/count/

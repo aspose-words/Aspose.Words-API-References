@@ -1,7 +1,9 @@
 ﻿---
-title: layout_mode property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the layout mode of this section."
+title: PageSetup.layout_mode property
+linktitle: layout_mode property
+articleTitle: layout_mode property
+second_title: Aspose.Words for Python
+description: "PageSetup.layout_mode property. Gets or sets the layout mode of this section."
 type: docs
 weight: 190
 url: /python-net/aspose.words/pagesetup/layout_mode/

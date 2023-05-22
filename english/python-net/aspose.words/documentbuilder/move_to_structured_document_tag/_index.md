@@ -1,6 +1,8 @@
 ﻿---
-title: move_to_structured_document_tag method
-second_title: Aspose.Words for Python via .NET API Reference
+title: DocumentBuilder.move_to_structured_document_tag method
+linktitle: move_to_structured_document_tag method
+articleTitle: move_to_structured_document_tag method
+second_title: Aspose.Words for Python
 description: "aspose.words.DocumentBuilder.move_to_structured_document_tag method"
 type: docs
 weight: 580

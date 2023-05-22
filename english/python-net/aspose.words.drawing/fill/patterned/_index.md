@@ -1,6 +1,8 @@
 ﻿---
-title: patterned method
-second_title: Aspose.Words for Python via .NET API Reference
+title: Fill.patterned method
+linktitle: patterned method
+articleTitle: patterned method
+second_title: Aspose.Words for Python
 description: "aspose.words.drawing.Fill.patterned method"
 type: docs
 weight: 230

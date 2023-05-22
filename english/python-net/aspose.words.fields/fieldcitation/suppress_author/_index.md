@@ -1,7 +1,9 @@
 ﻿---
-title: suppress_author property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets whether the author information is suppressed from the citation."
+title: FieldCitation.suppress_author property
+linktitle: suppress_author property
+articleTitle: suppress_author property
+second_title: Aspose.Words for Python
+description: "FieldCitation.suppress_author property. Gets or sets whether the author information is suppressed from the citation."
 type: docs
 weight: 80
 url: /python-net/aspose.words.fields/fieldcitation/suppress_author/

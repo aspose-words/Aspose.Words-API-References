@@ -1,7 +1,9 @@
 ﻿---
 title: PdfSaveOptions constructor
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Initializes a new instance of this class that can be used to save a document in the [SaveFormat.PDF](../../../aspose.words/saveformat/#PDF) format."
+linktitle: PdfSaveOptions constructor
+articleTitle: PdfSaveOptions constructor
+second_title: Aspose.Words for Python
+description: "PdfSaveOptions constructor. Initializes a new instance of this class that can be used to save a document in the [SaveFormat.PDF](../../../aspose.words/saveformat/#PDF) format."
 type: docs
 weight: 10
 url: /python-net/aspose.words.saving/pdfsaveoptions/__init__/

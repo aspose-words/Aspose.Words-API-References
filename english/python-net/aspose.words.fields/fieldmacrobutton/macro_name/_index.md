@@ -1,7 +1,9 @@
 ﻿---
-title: macro_name property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the name of the macro or command to run."
+title: FieldMacroButton.macro_name property
+linktitle: macro_name property
+articleTitle: macro_name property
+second_title: Aspose.Words for Python
+description: "FieldMacroButton.macro_name property. Gets or sets the name of the macro or command to run."
 type: docs
 weight: 30
 url: /python-net/aspose.words.fields/fieldmacrobutton/macro_name/

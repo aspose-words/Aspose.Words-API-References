@@ -1,7 +1,9 @@
 ﻿---
-title: get_embedded_font_as_open_type method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets an embedded font file in OpenType format"
+title: FontInfo.get_embedded_font_as_open_type method
+linktitle: get_embedded_font_as_open_type method
+articleTitle: get_embedded_font_as_open_type method
+second_title: Aspose.Words for Python
+description: "FontInfo.get_embedded_font_as_open_type method. Gets an embedded font file in OpenType format"
 type: docs
 weight: 90
 url: /python-net/aspose.words.fonts/fontinfo/get_embedded_font_as_open_type/

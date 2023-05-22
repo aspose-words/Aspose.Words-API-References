@@ -1,7 +1,9 @@
 ﻿---
-title: write_protection property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides access to the document write protection options."
+title: Document.write_protection property
+linktitle: write_protection property
+articleTitle: write_protection property
+second_title: Aspose.Words for Python
+description: "Document.write_protection property. Provides access to the document write protection options."
 type: docs
 weight: 500
 url: /python-net/aspose.words/document/write_protection/

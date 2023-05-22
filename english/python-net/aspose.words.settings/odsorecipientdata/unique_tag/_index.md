@@ -1,7 +1,9 @@
 ﻿---
-title: unique_tag property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the contents of a given record in the column containing unique data"
+title: OdsoRecipientData.unique_tag property
+linktitle: unique_tag property
+articleTitle: unique_tag property
+second_title: Aspose.Words for Python
+description: "OdsoRecipientData.unique_tag property. Specifies the contents of a given record in the column containing unique data"
 type: docs
 weight: 50
 url: /python-net/aspose.words.settings/odsorecipientdata/unique_tag/

@@ -1,7 +1,9 @@
 ﻿---
-title: display_doc_title property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "A flag specifying whether the window’s title bar should display the document title taken from the Title entry of the document information dictionary."
+title: PdfSaveOptions.display_doc_title property
+linktitle: display_doc_title property
+articleTitle: display_doc_title property
+second_title: Aspose.Words for Python
+description: "PdfSaveOptions.display_doc_title property. A flag specifying whether the window’s title bar should display the document title taken from the Title entry of the document information dictionary."
 type: docs
 weight: 80
 url: /python-net/aspose.words.saving/pdfsaveoptions/display_doc_title/

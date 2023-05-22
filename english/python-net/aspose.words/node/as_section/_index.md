@@ -1,7 +1,9 @@
 ﻿---
-title: as_section method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Cast node to [Section](../../section/)."
+title: Node.as_section method
+linktitle: as_section method
+articleTitle: as_section method
+second_title: Aspose.Words for Python
+description: "Node.as_section method. Cast node to [Section](../../section/)."
 type: docs
 weight: 340
 url: /python-net/aspose.words/node/as_section/

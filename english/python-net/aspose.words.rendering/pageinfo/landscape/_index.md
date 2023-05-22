@@ -1,7 +1,9 @@
 ﻿---
-title: landscape property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns ``True`` if the page orientation specified in the document for this page is landscape."
+title: PageInfo.landscape property
+linktitle: landscape property
+articleTitle: landscape property
+second_title: Aspose.Words for Python
+description: "PageInfo.landscape property. Returns ``True`` if the page orientation specified in the document for this page is landscape."
 type: docs
 weight: 20
 url: /python-net/aspose.words.rendering/pageinfo/landscape/

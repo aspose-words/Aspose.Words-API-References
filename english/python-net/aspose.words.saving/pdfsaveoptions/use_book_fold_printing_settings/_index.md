@@ -1,7 +1,9 @@
 ﻿---
-title: use_book_fold_printing_settings property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a boolean value indicating whether the document should be saved using a booklet printing layout, if it is specified via [PageSetup.multiple_pages](../../../aspose.words/pagesetup/multiple_pages/)."
+title: PdfSaveOptions.use_book_fold_printing_settings property
+linktitle: use_book_fold_printing_settings property
+articleTitle: use_book_fold_printing_settings property
+second_title: Aspose.Words for Python
+description: "PdfSaveOptions.use_book_fold_printing_settings property. Gets or sets a boolean value indicating whether the document should be saved using a booklet printing layout, if it is specified via [PageSetup.multiple_pages](../../../aspose.words/pagesetup/multiple_pages/)."
 type: docs
 weight: 300
 url: /python-net/aspose.words.saving/pdfsaveoptions/use_book_fold_printing_settings/

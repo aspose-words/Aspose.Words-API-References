@@ -1,6 +1,9 @@
 ﻿---
-title: as_field_ta method
-second_title: Aspose.Words for Python via .NET API Reference
+title: Field.as_field_ta method
+linktitle: as_field_ta method
+articleTitle: as_field_ta method
+second_title: Aspose.Words for Python
+description: "Field.as_field_ta method. "
 type: docs
 weight: 940
 url: /python-net/aspose.words.fields/field/as_field_ta/

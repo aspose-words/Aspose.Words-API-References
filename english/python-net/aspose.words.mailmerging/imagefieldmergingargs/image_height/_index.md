@@ -1,7 +1,9 @@
 ﻿---
-title: image_height property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the image height for the image to insert into the document."
+title: ImageFieldMergingArgs.image_height property
+linktitle: image_height property
+articleTitle: image_height property
+second_title: Aspose.Words for Python
+description: "ImageFieldMergingArgs.image_height property. Specifies the image height for the image to insert into the document."
 type: docs
 weight: 20
 url: /python-net/aspose.words.mailmerging/imagefieldmergingargs/image_height/

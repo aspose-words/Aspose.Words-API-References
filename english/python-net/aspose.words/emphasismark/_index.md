@@ -1,7 +1,9 @@
 ﻿---
 title: EmphasisMark enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies possible types of emphasis mark."
+linktitle: EmphasisMark enumeration
+articleTitle: EmphasisMark enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.EmphasisMark enumeration. Specifies possible types of emphasis mark."
 type: docs
 weight: 370
 url: /python-net/aspose.words/emphasismark/

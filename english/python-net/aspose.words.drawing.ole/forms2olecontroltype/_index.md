@@ -1,7 +1,9 @@
 ﻿---
 title: Forms2OleControlType enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Enumerates types of Forms 2.0 controls."
+linktitle: Forms2OleControlType enumeration
+articleTitle: Forms2OleControlType enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.drawing.ole.Forms2OleControlType enumeration. Enumerates types of Forms 2.0 controls."
 type: docs
 weight: 30
 url: /python-net/aspose.words.drawing.ole/forms2olecontroltype/

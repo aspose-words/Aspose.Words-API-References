@@ -1,7 +1,9 @@
 ﻿---
-title: page_number_style property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the page number format."
+title: PageSetup.page_number_style property
+linktitle: page_number_style property
+articleTitle: page_number_style property
+second_title: Aspose.Words for Python
+description: "PageSetup.page_number_style property. Gets or sets the page number format."
 type: docs
 weight: 320
 url: /python-net/aspose.words/pagesetup/page_number_style/

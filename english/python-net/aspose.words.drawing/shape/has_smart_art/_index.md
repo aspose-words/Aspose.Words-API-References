@@ -1,7 +1,9 @@
 ﻿---
-title: has_smart_art property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns ``True`` if this [Shape](../) has a SmartArt object."
+title: Shape.has_smart_art property
+linktitle: has_smart_art property
+articleTitle: has_smart_art property
+second_title: Aspose.Words for Python
+description: "Shape.has_smart_art property. Returns ``True`` if this [Shape](../) has a SmartArt object."
 type: docs
 weight: 90
 url: /python-net/aspose.words.drawing/shape/has_smart_art/

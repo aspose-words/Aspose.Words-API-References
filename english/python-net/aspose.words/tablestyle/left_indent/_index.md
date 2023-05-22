@@ -1,7 +1,9 @@
 ﻿---
-title: left_indent property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the value that represents the left indent of a table."
+title: TableStyle.left_indent property
+linktitle: left_indent property
+articleTitle: left_indent property
+second_title: Aspose.Words for Python
+description: "TableStyle.left_indent property. Gets or sets the value that represents the left indent of a table."
 type: docs
 weight: 90
 url: /python-net/aspose.words/tablestyle/left_indent/

@@ -1,6 +1,8 @@
 ﻿---
-title: compare_to method
-second_title: Aspose.Words for Python via .NET API Reference
+title: List.compare_to method
+linktitle: compare_to method
+articleTitle: compare_to method
+second_title: Aspose.Words for Python
 description: "aspose.words.lists.List.compare_to method"
 type: docs
 weight: 90

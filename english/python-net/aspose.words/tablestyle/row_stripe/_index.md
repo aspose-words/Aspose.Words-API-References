@@ -1,7 +1,9 @@
 ﻿---
-title: row_stripe property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a number of rows to include in the banding when the style specifies odd/even row banding."
+title: TableStyle.row_stripe property
+linktitle: row_stripe property
+articleTitle: row_stripe property
+second_title: Aspose.Words for Python
+description: "TableStyle.row_stripe property. Gets or sets a number of rows to include in the banding when the style specifies odd/even row banding."
 type: docs
 weight: 120
 url: /python-net/aspose.words/tablestyle/row_stripe/

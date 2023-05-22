@@ -1,7 +1,9 @@
 ﻿---
-title: import_node method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Imports a node from one document into another."
+title: NodeImporter.import_node method
+linktitle: import_node method
+articleTitle: import_node method
+second_title: Aspose.Words for Python
+description: "NodeImporter.import_node method. Imports a node from one document into another."
 type: docs
 weight: 20
 url: /python-net/aspose.words/nodeimporter/import_node/

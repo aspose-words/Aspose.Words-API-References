@@ -1,7 +1,9 @@
 ﻿---
-title: start_number property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the starting number or character for the first automatically numbered endnotes."
+title: EndnoteOptions.start_number property
+linktitle: start_number property
+articleTitle: start_number property
+second_title: Aspose.Words for Python
+description: "EndnoteOptions.start_number property. Specifies the starting number or character for the first automatically numbered endnotes."
 type: docs
 weight: 40
 url: /python-net/aspose.words.notes/endnoteoptions/start_number/

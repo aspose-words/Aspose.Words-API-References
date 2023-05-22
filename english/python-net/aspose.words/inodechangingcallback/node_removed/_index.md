@@ -1,7 +1,9 @@
 ﻿---
-title: node_removed method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Called when a node belonging to this document has been removed from its parent."
+title: INodeChangingCallback.node_removed method
+linktitle: node_removed method
+articleTitle: node_removed method
+second_title: Aspose.Words for Python
+description: "INodeChangingCallback.node_removed method. Called when a node belonging to this document has been removed from its parent."
 type: docs
 weight: 30
 url: /python-net/aspose.words/inodechangingcallback/node_removed/

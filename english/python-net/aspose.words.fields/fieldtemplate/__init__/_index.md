@@ -1,6 +1,9 @@
 ﻿---
 title: FieldTemplate constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: FieldTemplate constructor
+articleTitle: FieldTemplate constructor
+second_title: Aspose.Words for Python
+description: "FieldTemplate constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/fieldtemplate/__init__/

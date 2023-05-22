@@ -1,6 +1,9 @@
 ﻿---
 title: FieldOcx constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: FieldOcx constructor
+articleTitle: FieldOcx constructor
+second_title: Aspose.Words for Python
+description: "FieldOcx constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/fieldocx/__init__/

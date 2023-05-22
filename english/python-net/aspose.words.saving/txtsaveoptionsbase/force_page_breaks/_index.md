@@ -1,7 +1,9 @@
 ﻿---
-title: force_page_breaks property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to specify whether the page breaks should be preserved during export."
+title: TxtSaveOptionsBase.force_page_breaks property
+linktitle: force_page_breaks property
+articleTitle: force_page_breaks property
+second_title: Aspose.Words for Python
+description: "TxtSaveOptionsBase.force_page_breaks property. Allows to specify whether the page breaks should be preserved during export."
 type: docs
 weight: 30
 url: /python-net/aspose.words.saving/txtsaveoptionsbase/force_page_breaks/

@@ -1,7 +1,9 @@
 ﻿---
-title: equals method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Compares with the specified list."
+title: List.equals method
+linktitle: equals method
+articleTitle: equals method
+second_title: Aspose.Words for Python
+description: "List.equals method. Compares with the specified list."
 type: docs
 weight: 100
 url: /python-net/aspose.words.lists/list/equals/

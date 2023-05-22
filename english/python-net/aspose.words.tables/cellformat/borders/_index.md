@@ -1,7 +1,9 @@
 ﻿---
-title: borders property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets collection of borders of the cell."
+title: CellFormat.borders property
+linktitle: borders property
+articleTitle: borders property
+second_title: Aspose.Words for Python
+description: "CellFormat.borders property. Gets collection of borders of the cell."
 type: docs
 weight: 10
 url: /python-net/aspose.words.tables/cellformat/borders/

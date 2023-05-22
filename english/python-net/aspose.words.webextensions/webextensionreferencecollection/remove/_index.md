@@ -1,6 +1,9 @@
 ﻿---
-title: remove method
-second_title: Aspose.Words for Python via .NET API Reference
+title: WebExtensionReferenceCollection.remove method
+linktitle: remove method
+articleTitle: remove method
+second_title: Aspose.Words for Python
+description: "WebExtensionReferenceCollection.remove method. "
 type: docs
 weight: 50
 url: /python-net/aspose.words.webextensions/webextensionreferencecollection/remove/

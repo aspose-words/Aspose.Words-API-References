@@ -1,7 +1,9 @@
 ﻿---
-title: point_to_inch method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Converts points to inches."
+title: ConvertUtil.point_to_inch method
+linktitle: point_to_inch method
+articleTitle: point_to_inch method
+second_title: Aspose.Words for Python
+description: "ConvertUtil.point_to_inch method. Converts points to inches."
 type: docs
 weight: 50
 url: /python-net/aspose.words/convertutil/point_to_inch/

@@ -1,7 +1,9 @@
 ﻿---
-title: line_starting_number property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the starting line number."
+title: PageSetup.line_starting_number property
+linktitle: line_starting_number property
+articleTitle: line_starting_number property
+second_title: Aspose.Words for Python
+description: "PageSetup.line_starting_number property. Gets or sets the starting line number."
 type: docs
 weight: 240
 url: /python-net/aspose.words/pagesetup/line_starting_number/

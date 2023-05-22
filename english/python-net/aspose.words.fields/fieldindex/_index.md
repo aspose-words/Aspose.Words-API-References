@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldIndex class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the INDEX field"
+linktitle: FieldIndex class
+articleTitle: FieldIndex class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldIndex class. Implements the INDEX field"
 type: docs
 weight: 600
 url: /python-net/aspose.words.fields/fieldindex/

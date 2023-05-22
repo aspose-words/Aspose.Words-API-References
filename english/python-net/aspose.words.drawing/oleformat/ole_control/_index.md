@@ -1,7 +1,9 @@
 ﻿---
-title: ole_control property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets [OleFormat.ole_control](./) objects if this OLE object is an ActiveX control"
+title: OleFormat.ole_control property
+linktitle: ole_control property
+articleTitle: ole_control property
+second_title: Aspose.Words for Python
+description: "OleFormat.ole_control property. Gets [OleFormat.ole_control](./) objects if this OLE object is an ActiveX control"
 type: docs
 weight: 60
 url: /python-net/aspose.words.drawing/oleformat/ole_control/

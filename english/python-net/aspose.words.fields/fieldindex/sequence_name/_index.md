@@ -1,7 +1,9 @@
 ﻿---
-title: sequence_name property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the name of a sequence whose number is included with the page number."
+title: FieldIndex.sequence_name property
+linktitle: sequence_name property
+articleTitle: sequence_name property
+second_title: Aspose.Words for Python
+description: "FieldIndex.sequence_name property. Gets or sets the name of a sequence whose number is included with the page number."
 type: docs
 weight: 150
 url: /python-net/aspose.words.fields/fieldindex/sequence_name/

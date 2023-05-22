@@ -1,7 +1,9 @@
 ﻿---
-title: editable_range_start property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the node that represents the start of the editable range."
+title: EditableRange.editable_range_start property
+linktitle: editable_range_start property
+articleTitle: editable_range_start property
+second_title: Aspose.Words for Python
+description: "EditableRange.editable_range_start property. Gets the node that represents the start of the editable range."
 type: docs
 weight: 20
 url: /python-net/aspose.words/editablerange/editable_range_start/

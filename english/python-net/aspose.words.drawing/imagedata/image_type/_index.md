@@ -1,7 +1,9 @@
 ﻿---
-title: image_type property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the type of the image."
+title: ImageData.image_type property
+linktitle: image_type property
+articleTitle: image_type property
+second_title: Aspose.Words for Python
+description: "ImageData.image_type property. Gets the type of the image."
 type: docs
 weight: 140
 url: /python-net/aspose.words.drawing/imagedata/image_type/

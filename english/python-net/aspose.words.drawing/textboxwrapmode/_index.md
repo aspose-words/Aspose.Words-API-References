@@ -1,7 +1,9 @@
 ﻿---
 title: TextBoxWrapMode enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies how text wraps inside a shape."
+linktitle: TextBoxWrapMode enumeration
+articleTitle: TextBoxWrapMode enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.drawing.TextBoxWrapMode enumeration. Specifies how text wraps inside a shape."
 type: docs
 weight: 410
 url: /python-net/aspose.words.drawing/textboxwrapmode/

@@ -1,7 +1,9 @@
 ﻿---
-title: data_labels property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the settings for the data labels for the entire series."
+title: ChartSeries.data_labels property
+linktitle: data_labels property
+articleTitle: data_labels property
+second_title: Aspose.Words for Python
+description: "ChartSeries.data_labels property. Specifies the settings for the data labels for the entire series."
 type: docs
 weight: 30
 url: /python-net/aspose.words.drawing.charts/chartseries/data_labels/

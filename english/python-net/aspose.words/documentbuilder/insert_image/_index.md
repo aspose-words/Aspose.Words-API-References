@@ -1,6 +1,8 @@
 ﻿---
-title: insert_image method
-second_title: Aspose.Words for Python via .NET API Reference
+title: DocumentBuilder.insert_image method
+linktitle: insert_image method
+articleTitle: insert_image method
+second_title: Aspose.Words for Python
 description: "aspose.words.DocumentBuilder.insert_image method"
 type: docs
 weight: 370

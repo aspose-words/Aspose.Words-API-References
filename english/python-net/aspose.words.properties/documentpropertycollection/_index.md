@@ -1,7 +1,9 @@
 ﻿﻿---
 title: DocumentPropertyCollection class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Base class for [BuiltInDocumentProperties](../builtindocumentproperties/) and [CustomDocumentProperties](../customdocumentproperties/) collections"
+linktitle: DocumentPropertyCollection class
+articleTitle: DocumentPropertyCollection class
+second_title: Aspose.Words for Python
+description: "aspose.words.properties.DocumentPropertyCollection class. Base class for [BuiltInDocumentProperties](../builtindocumentproperties/) and [CustomDocumentProperties](../customdocumentproperties/) collections"
 type: docs
 weight: 40
 url: /python-net/aspose.words.properties/documentpropertycollection/

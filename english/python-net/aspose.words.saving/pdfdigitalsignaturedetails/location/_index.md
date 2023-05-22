@@ -1,7 +1,9 @@
 ﻿---
-title: location property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the location of the signing."
+title: PdfDigitalSignatureDetails.location property
+linktitle: location property
+articleTitle: location property
+second_title: Aspose.Words for Python
+description: "PdfDigitalSignatureDetails.location property. Gets or sets the location of the signing."
 type: docs
 weight: 40
 url: /python-net/aspose.words.saving/pdfdigitalsignaturedetails/location/

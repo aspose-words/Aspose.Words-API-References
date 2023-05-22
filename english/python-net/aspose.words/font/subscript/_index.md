@@ -1,7 +1,9 @@
 ﻿---
-title: subscript property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "True if the font is formatted as subscript."
+title: Font.subscript property
+linktitle: subscript property
+articleTitle: subscript property
+second_title: Aspose.Words for Python
+description: "Font.subscript property. True if the font is formatted as subscript."
 type: docs
 weight: 430
 url: /python-net/aspose.words/font/subscript/

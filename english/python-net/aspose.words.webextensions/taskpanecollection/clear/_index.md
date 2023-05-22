@@ -1,6 +1,9 @@
 ﻿---
-title: clear method
-second_title: Aspose.Words for Python via .NET API Reference
+title: TaskPaneCollection.clear method
+linktitle: clear method
+articleTitle: clear method
+second_title: Aspose.Words for Python
+description: "TaskPaneCollection.clear method. "
 type: docs
 weight: 40
 url: /python-net/aspose.words.webextensions/taskpanecollection/clear/

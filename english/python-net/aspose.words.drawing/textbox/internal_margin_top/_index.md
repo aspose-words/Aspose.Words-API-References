@@ -1,7 +1,9 @@
 ﻿---
-title: internal_margin_top property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the inner top margin in points for a shape."
+title: TextBox.internal_margin_top property
+linktitle: internal_margin_top property
+articleTitle: internal_margin_top property
+second_title: Aspose.Words for Python
+description: "TextBox.internal_margin_top property. Specifies the inner top margin in points for a shape."
 type: docs
 weight: 50
 url: /python-net/aspose.words.drawing/textbox/internal_margin_top/

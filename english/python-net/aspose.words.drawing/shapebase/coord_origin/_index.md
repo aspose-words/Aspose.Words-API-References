@@ -1,7 +1,9 @@
 ﻿---
-title: coord_origin property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "The coordinates at the top-left corner of the containing block of this shape."
+title: ShapeBase.coord_origin property
+linktitle: coord_origin property
+articleTitle: coord_origin property
+second_title: Aspose.Words for Python
+description: "ShapeBase.coord_origin property. The coordinates at the top-left corner of the containing block of this shape."
 type: docs
 weight: 110
 url: /python-net/aspose.words.drawing/shapebase/coord_origin/

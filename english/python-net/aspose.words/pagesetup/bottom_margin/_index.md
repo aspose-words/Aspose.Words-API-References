@@ -1,7 +1,9 @@
 ﻿---
-title: bottom_margin property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns or sets the distance (in points) between the bottom edge of the page and the bottom boundary of the body text."
+title: PageSetup.bottom_margin property
+linktitle: bottom_margin property
+articleTitle: bottom_margin property
+second_title: Aspose.Words for Python
+description: "PageSetup.bottom_margin property. Returns or sets the distance (in points) between the bottom edge of the page and the bottom boundary of the body text."
 type: docs
 weight: 80
 url: /python-net/aspose.words/pagesetup/bottom_margin/

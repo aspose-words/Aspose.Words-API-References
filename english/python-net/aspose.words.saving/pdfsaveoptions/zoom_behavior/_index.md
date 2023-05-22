@@ -1,7 +1,9 @@
 ﻿---
-title: zoom_behavior property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a value determining what type of zoom should be applied when a document is opened with a PDF viewer."
+title: PdfSaveOptions.zoom_behavior property
+linktitle: zoom_behavior property
+articleTitle: zoom_behavior property
+second_title: Aspose.Words for Python
+description: "PdfSaveOptions.zoom_behavior property. Gets or sets a value determining what type of zoom should be applied when a document is opened with a PDF viewer."
 type: docs
 weight: 320
 url: /python-net/aspose.words.saving/pdfsaveoptions/zoom_behavior/

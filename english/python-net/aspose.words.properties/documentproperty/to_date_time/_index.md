@@ -1,7 +1,9 @@
 ﻿---
-title: to_date_time method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns the property value as DateTime in UTC."
+title: DocumentProperty.to_date_time method
+linktitle: to_date_time method
+articleTitle: to_date_time method
+second_title: Aspose.Words for Python
+description: "DocumentProperty.to_date_time method. Returns the property value as DateTime in UTC."
 type: docs
 weight: 80
 url: /python-net/aspose.words.properties/documentproperty/to_date_time/

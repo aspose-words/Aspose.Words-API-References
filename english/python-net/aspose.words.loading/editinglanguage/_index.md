@@ -1,7 +1,9 @@
 ﻿---
 title: EditingLanguage enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the editing language."
+linktitle: EditingLanguage enumeration
+articleTitle: EditingLanguage enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.loading.EditingLanguage enumeration. Specifies the editing language."
 type: docs
 weight: 50
 url: /python-net/aspose.words.loading/editinglanguage/

@@ -1,7 +1,9 @@
 ﻿---
-title: is_write_protected property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns ``True`` when a write protection password is set."
+title: WriteProtection.is_write_protected property
+linktitle: is_write_protected property
+articleTitle: is_write_protected property
+second_title: Aspose.Words for Python
+description: "WriteProtection.is_write_protected property. Returns ``True`` when a write protection password is set."
 type: docs
 weight: 10
 url: /python-net/aspose.words.settings/writeprotection/is_write_protected/

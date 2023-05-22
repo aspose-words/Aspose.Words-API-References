@@ -1,7 +1,9 @@
 ﻿﻿---
 title: StructuredDocumentTagCollection class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "A collection of [IStructuredDocumentTag](../istructureddocumenttag/) instances that represent the structured document tags in the specified range"
+linktitle: StructuredDocumentTagCollection class
+articleTitle: StructuredDocumentTagCollection class
+second_title: Aspose.Words for Python
+description: "aspose.words.markup.StructuredDocumentTagCollection class. A collection of [IStructuredDocumentTag](../istructureddocumenttag/) instances that represent the structured document tags in the specified range"
 type: docs
 weight: 180
 url: /python-net/aspose.words.markup/structureddocumenttagcollection/

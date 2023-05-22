@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldEQ class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the EQ field"
+linktitle: FieldEQ class
+articleTitle: FieldEQ class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldEQ class. Implements the EQ field"
 type: docs
 weight: 370
 url: /python-net/aspose.words.fields/fieldeq/

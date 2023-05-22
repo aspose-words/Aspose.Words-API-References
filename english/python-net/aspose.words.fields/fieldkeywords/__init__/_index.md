@@ -1,6 +1,9 @@
 ﻿---
 title: FieldKeywords constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: FieldKeywords constructor
+articleTitle: FieldKeywords constructor
+second_title: Aspose.Words for Python
+description: "FieldKeywords constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/fieldkeywords/__init__/

@@ -1,6 +1,9 @@
 ﻿---
 title: WordML2003SaveOptions constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: WordML2003SaveOptions constructor
+articleTitle: WordML2003SaveOptions constructor
+second_title: Aspose.Words for Python
+description: "WordML2003SaveOptions constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.saving/wordml2003saveoptions/__init__/

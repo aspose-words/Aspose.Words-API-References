@@ -1,7 +1,9 @@
 ﻿---
-title: field_name property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the name of the merge field in the data source."
+title: FieldMergingArgsBase.field_name property
+linktitle: field_name property
+articleTitle: field_name property
+second_title: Aspose.Words for Python
+description: "FieldMergingArgsBase.field_name property. Gets the name of the merge field in the data source."
 type: docs
 weight: 40
 url: /python-net/aspose.words.mailmerging/fieldmergingargsbase/field_name/

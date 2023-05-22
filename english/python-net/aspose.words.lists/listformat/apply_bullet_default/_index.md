@@ -1,7 +1,9 @@
 ﻿---
-title: apply_bullet_default method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Starts a new default bulleted list and applies it to the paragraph."
+title: ListFormat.apply_bullet_default method
+linktitle: apply_bullet_default method
+articleTitle: apply_bullet_default method
+second_title: Aspose.Words for Python
+description: "ListFormat.apply_bullet_default method. Starts a new default bulleted list and applies it to the paragraph."
 type: docs
 weight: 50
 url: /python-net/aspose.words.lists/listformat/apply_bullet_default/

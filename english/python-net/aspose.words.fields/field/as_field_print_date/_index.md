@@ -1,6 +1,9 @@
 ﻿---
-title: as_field_print_date method
-second_title: Aspose.Words for Python via .NET API Reference
+title: Field.as_field_print_date method
+linktitle: as_field_print_date method
+articleTitle: as_field_print_date method
+second_title: Aspose.Words for Python
+description: "Field.as_field_print_date method. "
 type: docs
 weight: 780
 url: /python-net/aspose.words.fields/field/as_field_print_date/

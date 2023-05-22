@@ -1,7 +1,9 @@
 ﻿---
-title: icon_caption property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets icon caption of OLE object"
+title: OleFormat.icon_caption property
+linktitle: icon_caption property
+articleTitle: icon_caption property
+second_title: Aspose.Words for Python
+description: "OleFormat.icon_caption property. Gets icon caption of OLE object"
 type: docs
 weight: 30
 url: /python-net/aspose.words.drawing/oleformat/icon_caption/

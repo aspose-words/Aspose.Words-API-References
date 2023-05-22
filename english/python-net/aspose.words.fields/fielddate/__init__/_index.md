@@ -1,6 +1,9 @@
 ﻿---
 title: FieldDate constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: FieldDate constructor
+articleTitle: FieldDate constructor
+second_title: Aspose.Words for Python
+description: "FieldDate constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/fielddate/__init__/

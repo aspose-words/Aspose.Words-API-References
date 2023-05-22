@@ -1,7 +1,9 @@
 ﻿---
-title: image_color_mode property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the color mode for the generated images."
+title: ImageSaveOptions.image_color_mode property
+linktitle: image_color_mode property
+articleTitle: image_color_mode property
+second_title: Aspose.Words for Python
+description: "ImageSaveOptions.image_color_mode property. Gets or sets the color mode for the generated images."
 type: docs
 weight: 40
 url: /python-net/aspose.words.saving/imagesaveoptions/image_color_mode/

@@ -1,7 +1,9 @@
 ﻿---
-title: include_textboxes_footnotes_endnotes_in_stat property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies whether to include textboxes, footnotes and endnotes in word count statistics."
+title: Document.include_textboxes_footnotes_endnotes_in_stat property
+linktitle: include_textboxes_footnotes_endnotes_in_stat property
+articleTitle: include_textboxes_footnotes_endnotes_in_stat property
+second_title: Aspose.Words for Python
+description: "Document.include_textboxes_footnotes_endnotes_in_stat property. Specifies whether to include textboxes, footnotes and endnotes in word count statistics."
 type: docs
 weight: 220
 url: /python-net/aspose.words/document/include_textboxes_footnotes_endnotes_in_stat/

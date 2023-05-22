@@ -1,7 +1,9 @@
 ﻿---
-title: get_start_page_index method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets 1-based index of the page where node begins"
+title: LayoutCollector.get_start_page_index method
+linktitle: get_start_page_index method
+articleTitle: get_start_page_index method
+second_title: Aspose.Words for Python
+description: "LayoutCollector.get_start_page_index method. Gets 1-based index of the page where node begins"
 type: docs
 weight: 70
 url: /python-net/aspose.words.layout/layoutcollector/get_start_page_index/

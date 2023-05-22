@@ -1,7 +1,9 @@
 ﻿---
 title: CustomXmlPropertyCollection indexer
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets a property at the specified index."
+linktitle: CustomXmlPropertyCollection indexer
+articleTitle: CustomXmlPropertyCollection indexer
+second_title: Aspose.Words for Python
+description: "CustomXmlPropertyCollection indexer. Gets a property at the specified index."
 type: docs
 weight: 10
 url: /python-net/aspose.words.markup/customxmlpropertycollection/__getitem__/

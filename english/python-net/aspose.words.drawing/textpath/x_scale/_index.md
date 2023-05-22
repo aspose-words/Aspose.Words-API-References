@@ -1,7 +1,9 @@
 ﻿---
-title: x_scale property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Determines whether a straight textpath will be used instead of the shape path."
+title: TextPath.x_scale property
+linktitle: x_scale property
+articleTitle: x_scale property
+second_title: Aspose.Words for Python
+description: "TextPath.x_scale property. Determines whether a straight textpath will be used instead of the shape path."
 type: docs
 weight: 200
 url: /python-net/aspose.words.drawing/textpath/x_scale/

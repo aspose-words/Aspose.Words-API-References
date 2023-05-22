@@ -1,7 +1,9 @@
 ﻿---
-title: content_status property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the Aspose.Words.Properties.PropertyName.ContentStatus of the document."
+title: BuiltInDocumentProperties.content_status property
+linktitle: content_status property
+articleTitle: content_status property
+second_title: Aspose.Words for Python
+description: "BuiltInDocumentProperties.content_status property. Gets or sets the Aspose.Words.Properties.PropertyName.ContentStatus of the document."
 type: docs
 weight: 90
 url: /python-net/aspose.words.properties/builtindocumentproperties/content_status/

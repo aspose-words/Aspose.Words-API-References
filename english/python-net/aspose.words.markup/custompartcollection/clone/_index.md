@@ -1,7 +1,9 @@
 ﻿---
-title: clone method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Makes a deep copy of this collection and its items."
+title: CustomPartCollection.clone method
+linktitle: clone method
+articleTitle: clone method
+second_title: Aspose.Words for Python
+description: "CustomPartCollection.clone method. Makes a deep copy of this collection and its items."
 type: docs
 weight: 60
 url: /python-net/aspose.words.markup/custompartcollection/clone/

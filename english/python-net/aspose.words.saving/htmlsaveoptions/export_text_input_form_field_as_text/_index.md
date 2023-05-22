@@ -1,7 +1,9 @@
 ﻿---
-title: export_text_input_form_field_as_text property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Controls how text input form fields are saved to HTML or MHTML"
+title: HtmlSaveOptions.export_text_input_form_field_as_text property
+linktitle: export_text_input_form_field_as_text property
+articleTitle: export_text_input_form_field_as_text property
+second_title: Aspose.Words for Python
+description: "HtmlSaveOptions.export_text_input_form_field_as_text property. Controls how text input form fields are saved to HTML or MHTML"
 type: docs
 weight: 270
 url: /python-net/aspose.words.saving/htmlsaveoptions/export_text_input_form_field_as_text/

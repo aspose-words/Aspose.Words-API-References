@@ -1,7 +1,9 @@
 ﻿---
-title: style property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the character style applied to this formatting."
+title: Font.style property
+linktitle: style property
+articleTitle: style property
+second_title: Aspose.Words for Python
+description: "Font.style property. Gets or sets the character style applied to this formatting."
 type: docs
 weight: 400
 url: /python-net/aspose.words/font/style/

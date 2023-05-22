@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldFormDropDown class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the FORMDROPDOWN field"
+linktitle: FieldFormDropDown class
+articleTitle: FieldFormDropDown class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldFormDropDown class. Implements the FORMDROPDOWN field"
 type: docs
 weight: 460
 url: /python-net/aspose.words.fields/fieldformdropdown/

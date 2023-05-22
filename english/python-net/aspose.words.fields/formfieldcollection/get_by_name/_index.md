@@ -1,7 +1,9 @@
 ﻿---
-title: get_by_name method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns a form field by bookmark name."
+title: FormFieldCollection.get_by_name method
+linktitle: get_by_name method
+articleTitle: get_by_name method
+second_title: Aspose.Words for Python
+description: "FormFieldCollection.get_by_name method. Returns a form field by bookmark name."
 type: docs
 weight: 40
 url: /python-net/aspose.words.fields/formfieldcollection/get_by_name/

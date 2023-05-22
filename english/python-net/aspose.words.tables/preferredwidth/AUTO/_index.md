@@ -1,7 +1,9 @@
 ﻿---
-title: AUTO property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns an instance that represents the preferred width is not specified value."
+title: PreferredWidth.AUTO property
+linktitle: AUTO property
+articleTitle: AUTO property
+second_title: Aspose.Words for Python
+description: "PreferredWidth.AUTO property. Returns an instance that represents the preferred width is not specified value."
 type: docs
 weight: 10
 url: /python-net/aspose.words.tables/preferredwidth/AUTO/

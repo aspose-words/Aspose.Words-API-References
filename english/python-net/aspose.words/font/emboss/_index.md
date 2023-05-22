@@ -1,7 +1,9 @@
 ﻿---
-title: emboss property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "True if the font is formatted as embossed."
+title: Font.emboss property
+linktitle: emboss property
+articleTitle: emboss property
+second_title: Aspose.Words for Python
+description: "Font.emboss property. True if the font is formatted as embossed."
 type: docs
 weight: 100
 url: /python-net/aspose.words/font/emboss/

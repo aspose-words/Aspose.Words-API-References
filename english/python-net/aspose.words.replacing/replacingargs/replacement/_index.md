@@ -1,7 +1,9 @@
 ﻿---
-title: replacement property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the replacement string."
+title: ReplacingArgs.replacement property
+linktitle: replacement property
+articleTitle: replacement property
+second_title: Aspose.Words for Python
+description: "ReplacingArgs.replacement property. Gets or sets the replacement string."
 type: docs
 weight: 50
 url: /python-net/aspose.words.replacing/replacingargs/replacement/

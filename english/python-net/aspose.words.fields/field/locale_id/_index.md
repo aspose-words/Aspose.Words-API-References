@@ -1,7 +1,9 @@
 ﻿---
-title: locale_id property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the LCID of the field."
+title: Field.locale_id property
+linktitle: locale_id property
+articleTitle: locale_id property
+second_title: Aspose.Words for Python
+description: "Field.locale_id property. Gets or sets the LCID of the field."
 type: docs
 weight: 60
 url: /python-net/aspose.words.fields/field/locale_id/

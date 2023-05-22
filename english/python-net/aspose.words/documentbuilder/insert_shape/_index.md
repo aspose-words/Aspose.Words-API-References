@@ -1,6 +1,8 @@
 ﻿---
-title: insert_shape method
-second_title: Aspose.Words for Python via .NET API Reference
+title: DocumentBuilder.insert_shape method
+linktitle: insert_shape method
+articleTitle: insert_shape method
+second_title: Aspose.Words for Python
 description: "aspose.words.DocumentBuilder.insert_shape method"
 type: docs
 weight: 430

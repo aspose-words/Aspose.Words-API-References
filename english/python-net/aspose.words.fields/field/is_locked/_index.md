@@ -1,7 +1,9 @@
 ﻿---
-title: is_locked property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets whether the field is locked (should not recalculate its result)."
+title: Field.is_locked property
+linktitle: is_locked property
+articleTitle: is_locked property
+second_title: Aspose.Words for Python
+description: "Field.is_locked property. Gets or sets whether the field is locked (should not recalculate its result)."
 type: docs
 weight: 50
 url: /python-net/aspose.words.fields/field/is_locked/

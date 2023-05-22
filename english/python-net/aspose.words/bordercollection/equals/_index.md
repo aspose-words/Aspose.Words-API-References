@@ -1,7 +1,9 @@
 ﻿---
-title: equals method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Compares collections of borders."
+title: BorderCollection.equals method
+linktitle: equals method
+articleTitle: equals method
+second_title: Aspose.Words for Python
+description: "BorderCollection.equals method. Compares collections of borders."
 type: docs
 weight: 150
 url: /python-net/aspose.words/bordercollection/equals/

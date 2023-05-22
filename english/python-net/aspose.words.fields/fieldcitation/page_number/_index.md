@@ -1,7 +1,9 @@
 ﻿---
-title: page_number property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a page number associated with the citation."
+title: FieldCitation.page_number property
+linktitle: page_number property
+articleTitle: page_number property
+second_title: Aspose.Words for Python
+description: "FieldCitation.page_number property. Gets or sets a page number associated with the citation."
 type: docs
 weight: 40
 url: /python-net/aspose.words.fields/fieldcitation/page_number/

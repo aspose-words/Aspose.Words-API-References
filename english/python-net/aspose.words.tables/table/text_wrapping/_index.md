@@ -1,7 +1,9 @@
 ﻿---
-title: text_wrapping property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets [Table.text_wrapping](./) for table."
+title: Table.text_wrapping property
+linktitle: text_wrapping property
+articleTitle: text_wrapping property
+second_title: Aspose.Words for Python
+description: "Table.text_wrapping property. Gets or sets [Table.text_wrapping](./) for table."
 type: docs
 weight: 310
 url: /python-net/aspose.words.tables/table/text_wrapping/

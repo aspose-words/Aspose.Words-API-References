@@ -1,7 +1,9 @@
 ﻿---
-title: add_reply method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Adds a reply to this comment."
+title: Comment.add_reply method
+linktitle: add_reply method
+articleTitle: add_reply method
+second_title: Aspose.Words for Python
+description: "Comment.add_reply method. Adds a reply to this comment."
 type: docs
 weight: 120
 url: /python-net/aspose.words/comment/add_reply/

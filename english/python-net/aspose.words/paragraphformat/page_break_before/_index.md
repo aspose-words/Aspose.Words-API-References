@@ -1,7 +1,9 @@
 ﻿---
-title: page_break_before property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "True if a page break is forced before the paragraph."
+title: ParagraphFormat.page_break_before property
+linktitle: page_break_before property
+articleTitle: page_break_before property
+second_title: Aspose.Words for Python
+description: "ParagraphFormat.page_break_before property. True if a page break is forced before the paragraph."
 type: docs
 weight: 250
 url: /python-net/aspose.words/paragraphformat/page_break_before/

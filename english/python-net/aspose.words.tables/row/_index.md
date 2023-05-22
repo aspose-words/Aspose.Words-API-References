@@ -1,7 +1,9 @@
 ﻿﻿---
 title: Row class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a table row"
+linktitle: Row class
+articleTitle: Row class
+second_title: Aspose.Words for Python
+description: "aspose.words.tables.Row class. Represents a table row"
 type: docs
 weight: 90
 url: /python-net/aspose.words.tables/row/

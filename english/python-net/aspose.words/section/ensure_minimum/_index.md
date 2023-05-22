@@ -1,7 +1,9 @@
 ﻿---
-title: ensure_minimum method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Ensures that the section has [Section.body](../body/) with one [Paragraph](../../paragraph/)."
+title: Section.ensure_minimum method
+linktitle: ensure_minimum method
+articleTitle: ensure_minimum method
+second_title: Aspose.Words for Python
+description: "Section.ensure_minimum method. Ensures that the section has [Section.body](../body/) with one [Paragraph](../../paragraph/)."
 type: docs
 weight: 130
 url: /python-net/aspose.words/section/ensure_minimum/

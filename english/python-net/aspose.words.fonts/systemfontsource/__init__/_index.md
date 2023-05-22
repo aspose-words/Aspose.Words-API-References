@@ -1,6 +1,8 @@
 ﻿---
 title: SystemFontSource constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: SystemFontSource constructor
+articleTitle: SystemFontSource constructor
+second_title: Aspose.Words for Python
 description: "aspose.words.fonts.SystemFontSource constructor"
 type: docs
 weight: 10

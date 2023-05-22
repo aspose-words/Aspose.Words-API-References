@@ -1,7 +1,9 @@
 ﻿---
-title: suppress_auto_hyphens property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies whether the current paragraph should be exempted from any hyphenation which is applied in the document settings."
+title: ParagraphFormat.suppress_auto_hyphens property
+linktitle: suppress_auto_hyphens property
+articleTitle: suppress_auto_hyphens property
+second_title: Aspose.Words for Python
+description: "ParagraphFormat.suppress_auto_hyphens property. Specifies whether the current paragraph should be exempted from any hyphenation which is applied in the document settings."
 type: docs
 weight: 360
 url: /python-net/aspose.words/paragraphformat/suppress_auto_hyphens/

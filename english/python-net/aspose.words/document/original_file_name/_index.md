@@ -1,7 +1,9 @@
 ﻿---
-title: original_file_name property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the original file name of the document."
+title: Document.original_file_name property
+linktitle: original_file_name property
+articleTitle: original_file_name property
+second_title: Aspose.Words for Python
+description: "Document.original_file_name property. Gets the original file name of the document."
 type: docs
 weight: 290
 url: /python-net/aspose.words/document/original_file_name/

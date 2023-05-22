@@ -1,7 +1,9 @@
 ﻿---
-title: clear method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Removes all elements from the collection."
+title: BookmarksOutlineLevelCollection.clear method
+linktitle: clear method
+articleTitle: clear method
+second_title: Aspose.Words for Python
+description: "BookmarksOutlineLevelCollection.clear method. Removes all elements from the collection."
 type: docs
 weight: 50
 url: /python-net/aspose.words.saving/bookmarksoutlinelevelcollection/clear/

@@ -1,7 +1,9 @@
 ﻿---
-title: after method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets a first tab stop to the right of the specified position."
+title: TabStopCollection.after method
+linktitle: after method
+articleTitle: after method
+second_title: Aspose.Words for Python
+description: "TabStopCollection.after method. Gets a first tab stop to the right of the specified position."
 type: docs
 weight: 40
 url: /python-net/aspose.words/tabstopcollection/after/

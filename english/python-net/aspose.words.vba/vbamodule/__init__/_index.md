@@ -1,7 +1,9 @@
 ﻿---
 title: VbaModule constructor
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Creates an empty module."
+linktitle: VbaModule constructor
+articleTitle: VbaModule constructor
+second_title: Aspose.Words for Python
+description: "VbaModule constructor. Creates an empty module."
 type: docs
 weight: 10
 url: /python-net/aspose.words.vba/vbamodule/__init__/

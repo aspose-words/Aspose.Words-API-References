@@ -1,7 +1,9 @@
 ﻿---
-title: lines_to_drop property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the number of lines of the paragraph text used to calculate the drop cap height."
+title: ParagraphFormat.lines_to_drop property
+linktitle: lines_to_drop property
+articleTitle: lines_to_drop property
+second_title: Aspose.Words for Python
+description: "ParagraphFormat.lines_to_drop property. Gets or sets the number of lines of the paragraph text used to calculate the drop cap height."
 type: docs
 weight: 220
 url: /python-net/aspose.words/paragraphformat/lines_to_drop/

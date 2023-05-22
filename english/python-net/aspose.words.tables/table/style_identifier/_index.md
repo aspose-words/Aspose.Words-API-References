@@ -1,7 +1,9 @@
 ﻿---
-title: style_identifier property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the locale independent style identifier of the table style applied to this table."
+title: Table.style_identifier property
+linktitle: style_identifier property
+articleTitle: style_identifier property
+second_title: Aspose.Words for Python
+description: "Table.style_identifier property. Gets or sets the locale independent style identifier of the table style applied to this table."
 type: docs
 weight: 280
 url: /python-net/aspose.words.tables/table/style_identifier/

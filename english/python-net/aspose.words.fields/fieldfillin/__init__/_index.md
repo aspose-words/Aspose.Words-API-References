@@ -1,6 +1,9 @@
 ﻿---
 title: FieldFillIn constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: FieldFillIn constructor
+articleTitle: FieldFillIn constructor
+second_title: Aspose.Words for Python
+description: "FieldFillIn constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/fieldfillin/__init__/

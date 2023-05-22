@@ -1,6 +1,8 @@
 ﻿---
 title: LoadOptions constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: LoadOptions constructor
+articleTitle: LoadOptions constructor
+second_title: Aspose.Words for Python
 description: "aspose.words.loading.LoadOptions constructor"
 type: docs
 weight: 10

@@ -1,7 +1,9 @@
 ﻿---
-title: temp_folder property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the folder for temporary files used when saving to a DOC or DOCX file"
+title: SaveOptions.temp_folder property
+linktitle: temp_folder property
+articleTitle: temp_folder property
+second_title: Aspose.Words for Python
+description: "SaveOptions.temp_folder property. Specifies the folder for temporary files used when saving to a DOC or DOCX file"
 type: docs
 weight: 120
 url: /python-net/aspose.words.saving/saveoptions/temp_folder/

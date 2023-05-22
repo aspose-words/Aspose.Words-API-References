@@ -1,7 +1,9 @@
 ﻿---
-title: interrupt method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Requests Aspose.Words to abandon the current task."
+title: InterruptionToken.interrupt method
+linktitle: interrupt method
+articleTitle: interrupt method
+second_title: Aspose.Words for Python
+description: "InterruptionToken.interrupt method. Requests Aspose.Words to abandon the current task."
 type: docs
 weight: 30
 url: /python-net/aspose.words/interruptiontoken/interrupt/

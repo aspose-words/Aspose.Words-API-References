@@ -1,7 +1,9 @@
 ﻿---
-title: remove_at method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Removes a [GradientStop](../../gradientstop/) from the collection at a specified index."
+title: GradientStopCollection.remove_at method
+linktitle: remove_at method
+articleTitle: remove_at method
+second_title: Aspose.Words for Python
+description: "GradientStopCollection.remove_at method. Removes a [GradientStop](../../gradientstop/) from the collection at a specified index."
 type: docs
 weight: 60
 url: /python-net/aspose.words.drawing/gradientstopcollection/remove_at/

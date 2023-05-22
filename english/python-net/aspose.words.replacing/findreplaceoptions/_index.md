@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FindReplaceOptions class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies options for find/replace operations"
+linktitle: FindReplaceOptions class
+articleTitle: FindReplaceOptions class
+second_title: Aspose.Words for Python
+description: "aspose.words.replacing.FindReplaceOptions class. Specifies options for find/replace operations"
 type: docs
 weight: 20
 url: /python-net/aspose.words.replacing/findreplaceoptions/

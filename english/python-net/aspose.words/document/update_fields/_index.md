@@ -1,7 +1,9 @@
 ﻿---
-title: update_fields method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Updates the values of fields in the whole document."
+title: Document.update_fields method
+linktitle: update_fields method
+articleTitle: update_fields method
+second_title: Aspose.Words for Python
+description: "Document.update_fields method. Updates the values of fields in the whole document."
 type: docs
 weight: 720
 url: /python-net/aspose.words/document/update_fields/

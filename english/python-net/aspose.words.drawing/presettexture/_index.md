@@ -1,7 +1,9 @@
 ﻿---
 title: PresetTexture enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies texture to be used to fill a shape."
+linktitle: PresetTexture enumeration
+articleTitle: PresetTexture enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.drawing.PresetTexture enumeration. Specifies texture to be used to fill a shape."
 type: docs
 weight: 250
 url: /python-net/aspose.words.drawing/presettexture/

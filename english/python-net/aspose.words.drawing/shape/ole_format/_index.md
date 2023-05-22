@@ -1,7 +1,9 @@
 ﻿---
-title: ole_format property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides access to the OLE data of a shape"
+title: Shape.ole_format property
+linktitle: ole_format property
+articleTitle: ole_format property
+second_title: Aspose.Words for Python
+description: "Shape.ole_format property. Provides access to the OLE data of a shape"
 type: docs
 weight: 140
 url: /python-net/aspose.words.drawing/shape/ole_format/

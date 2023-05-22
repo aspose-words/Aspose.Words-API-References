@@ -1,7 +1,9 @@
 ﻿---
-title: set_fonts_folder method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Sets the folder where Aspose.Words looks for TrueType fonts when rendering documents or embedding fonts"
+title: FontSettings.set_fonts_folder method
+linktitle: set_fonts_folder method
+articleTitle: set_fonts_folder method
+second_title: Aspose.Words for Python
+description: "FontSettings.set_fonts_folder method. Sets the folder where Aspose.Words looks for TrueType fonts when rendering documents or embedding fonts"
 type: docs
 weight: 80
 url: /python-net/aspose.words.fonts/fontsettings/set_fonts_folder/

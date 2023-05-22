@@ -1,7 +1,9 @@
 ﻿---
-title: table_name property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the particular set of data that a source shall be connected to within an external data source"
+title: Odso.table_name property
+linktitle: table_name property
+articleTitle: table_name property
+second_title: Aspose.Words for Python
+description: "Odso.table_name property. Specifies the particular set of data that a source shall be connected to within an external data source"
 type: docs
 weight: 80
 url: /python-net/aspose.words.settings/odso/table_name/

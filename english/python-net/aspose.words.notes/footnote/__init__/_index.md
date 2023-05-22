@@ -1,7 +1,9 @@
 ﻿---
 title: Footnote constructor
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Initializes an instance of the [Footnote](../) class."
+linktitle: Footnote constructor
+articleTitle: Footnote constructor
+second_title: Aspose.Words for Python
+description: "Footnote constructor. Initializes an instance of the [Footnote](../) class."
 type: docs
 weight: 10
 url: /python-net/aspose.words.notes/footnote/__init__/

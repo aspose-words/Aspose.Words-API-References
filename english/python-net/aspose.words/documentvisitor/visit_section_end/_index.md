@@ -1,7 +1,9 @@
 ﻿---
-title: visit_section_end method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Called when enumeration of a section has ended."
+title: DocumentVisitor.visit_section_end method
+linktitle: visit_section_end method
+articleTitle: visit_section_end method
+second_title: Aspose.Words for Python
+description: "DocumentVisitor.visit_section_end method. Called when enumeration of a section has ended."
 type: docs
 weight: 370
 url: /python-net/aspose.words/documentvisitor/visit_section_end/

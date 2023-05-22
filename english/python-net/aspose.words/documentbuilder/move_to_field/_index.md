@@ -1,7 +1,9 @@
 ﻿---
-title: move_to_field method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Moves the cursor to a field in the document."
+title: DocumentBuilder.move_to_field method
+linktitle: move_to_field method
+articleTitle: move_to_field method
+second_title: Aspose.Words for Python
+description: "DocumentBuilder.move_to_field method. Moves the cursor to a field in the document."
 type: docs
 weight: 530
 url: /python-net/aspose.words/documentbuilder/move_to_field/

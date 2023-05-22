@@ -1,7 +1,9 @@
 ﻿﻿---
 title: DigitalSignatureUtil class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides methods for signing document"
+linktitle: DigitalSignatureUtil class
+articleTitle: DigitalSignatureUtil class
+second_title: Aspose.Words for Python
+description: "aspose.words.digitalsignatures.DigitalSignatureUtil class. Provides methods for signing document"
 type: docs
 weight: 50
 url: /python-net/aspose.words.digitalsignatures/digitalsignatureutil/

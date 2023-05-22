@@ -1,7 +1,9 @@
 ﻿---
-title: shadow property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "True if the font is formatted as shadowed."
+title: Font.shadow property
+linktitle: shadow property
+articleTitle: shadow property
+second_title: Aspose.Words for Python
+description: "Font.shadow property. True if the font is formatted as shadowed."
 type: docs
 weight: 330
 url: /python-net/aspose.words/font/shadow/

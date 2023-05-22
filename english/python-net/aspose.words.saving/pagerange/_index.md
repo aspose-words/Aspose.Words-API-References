@@ -1,7 +1,9 @@
 ﻿﻿---
 title: PageRange class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a continuous range of pages"
+linktitle: PageRange class
+articleTitle: PageRange class
+second_title: Aspose.Words for Python
+description: "aspose.words.saving.PageRange class. Represents a continuous range of pages"
 type: docs
 weight: 520
 url: /python-net/aspose.words.saving/pagerange/

@@ -1,7 +1,9 @@
 ﻿---
-title: use_heading property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets whether to include the category heading for the entries in a table of authorities."
+title: FieldToa.use_heading property
+linktitle: use_heading property
+articleTitle: use_heading property
+second_title: Aspose.Words for Python
+description: "FieldToa.use_heading property. Gets or sets whether to include the category heading for the entries in a table of authorities."
 type: docs
 weight: 100
 url: /python-net/aspose.words.fields/fieldtoa/use_heading/

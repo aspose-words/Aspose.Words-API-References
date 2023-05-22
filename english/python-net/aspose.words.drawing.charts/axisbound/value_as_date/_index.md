@@ -1,7 +1,9 @@
 ﻿---
-title: value_as_date property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns value of axis bound represented as datetime."
+title: AxisBound.value_as_date property
+linktitle: value_as_date property
+articleTitle: value_as_date property
+second_title: Aspose.Words for Python
+description: "AxisBound.value_as_date property. Returns value of axis bound represented as datetime."
 type: docs
 weight: 40
 url: /python-net/aspose.words.drawing.charts/axisbound/value_as_date/

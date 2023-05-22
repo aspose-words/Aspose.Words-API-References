@@ -1,6 +1,8 @@
 ﻿---
 title: AxisBound constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: AxisBound constructor
+articleTitle: AxisBound constructor
+second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.AxisBound constructor"
 type: docs
 weight: 10

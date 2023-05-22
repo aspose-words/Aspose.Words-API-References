@@ -1,7 +1,9 @@
 ﻿---
 title: ListTrailingCharacter enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the character that separates the list label from the text of the paragraph."
+linktitle: ListTrailingCharacter enumeration
+articleTitle: ListTrailingCharacter enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.lists.ListTrailingCharacter enumeration. Specifies the character that separates the list label from the text of the paragraph."
 type: docs
 weight: 90
 url: /python-net/aspose.words.lists/listtrailingcharacter/

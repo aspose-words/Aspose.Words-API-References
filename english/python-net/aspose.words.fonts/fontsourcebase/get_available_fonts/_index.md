@@ -1,7 +1,9 @@
 ﻿---
-title: get_available_fonts method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns list of fonts available via this source."
+title: FontSourceBase.get_available_fonts method
+linktitle: get_available_fonts method
+articleTitle: get_available_fonts method
+second_title: Aspose.Words for Python
+description: "FontSourceBase.get_available_fonts method. Returns list of fonts available via this source."
 type: docs
 weight: 90
 url: /python-net/aspose.words.fonts/fontsourcebase/get_available_fonts/

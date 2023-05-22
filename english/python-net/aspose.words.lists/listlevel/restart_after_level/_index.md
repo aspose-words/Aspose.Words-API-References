@@ -1,7 +1,9 @@
 ﻿---
-title: restart_after_level property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Sets or returns the list level that must appear before the specified list level restarts numbering."
+title: ListLevel.restart_after_level property
+linktitle: restart_after_level property
+articleTitle: restart_after_level property
+second_title: Aspose.Words for Python
+description: "ListLevel.restart_after_level property. Sets or returns the list level that must appear before the specified list level restarts numbering."
 type: docs
 weight: 100
 url: /python-net/aspose.words.lists/listlevel/restart_after_level/

@@ -1,6 +1,8 @@
 ﻿---
 title: PdfDigitalSignatureTimestampSettings constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: PdfDigitalSignatureTimestampSettings constructor
+articleTitle: PdfDigitalSignatureTimestampSettings constructor
+second_title: Aspose.Words for Python
 description: "aspose.words.saving.PdfDigitalSignatureTimestampSettings constructor"
 type: docs
 weight: 10

@@ -1,7 +1,9 @@
 ﻿---
-title: add method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Adds a new field mapping."
+title: MappedDataFieldCollection.add method
+linktitle: add method
+articleTitle: add method
+second_title: Aspose.Words for Python
+description: "MappedDataFieldCollection.add method. Adds a new field mapping."
 type: docs
 weight: 20
 url: /python-net/aspose.words.mailmerging/mappeddatafieldcollection/add/

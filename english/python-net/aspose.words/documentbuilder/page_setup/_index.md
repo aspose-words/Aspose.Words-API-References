@@ -1,7 +1,9 @@
 ﻿---
-title: page_setup property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns an object that represents current page setup and section properties."
+title: DocumentBuilder.page_setup property
+linktitle: page_setup property
+articleTitle: page_setup property
+second_title: Aspose.Words for Python
+description: "DocumentBuilder.page_setup property. Returns an object that represents current page setup and section properties."
 type: docs
 weight: 160
 url: /python-net/aspose.words/documentbuilder/page_setup/

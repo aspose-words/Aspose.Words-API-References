@@ -1,7 +1,9 @@
 ﻿---
 title: Body constructor
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Initializes a new instance of the [Body](../) class."
+linktitle: Body constructor
+articleTitle: Body constructor
+second_title: Aspose.Words for Python
+description: "Body constructor. Initializes a new instance of the [Body](../) class."
 type: docs
 weight: 10
 url: /python-net/aspose.words/body/__init__/

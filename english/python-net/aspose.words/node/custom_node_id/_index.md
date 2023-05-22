@@ -1,7 +1,9 @@
 ﻿---
-title: custom_node_id property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies custom node identifier."
+title: Node.custom_node_id property
+linktitle: custom_node_id property
+articleTitle: custom_node_id property
+second_title: Aspose.Words for Python
+description: "Node.custom_node_id property. Specifies custom node identifier."
 type: docs
 weight: 10
 url: /python-net/aspose.words/node/custom_node_id/

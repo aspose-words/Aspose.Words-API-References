@@ -1,7 +1,9 @@
 ﻿---
-title: current property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets current position in the page layout model"
+title: LayoutEnumerator.current property
+linktitle: current property
+articleTitle: current property
+second_title: Aspose.Words for Python
+description: "LayoutEnumerator.current property. Gets or sets current position in the page layout model"
 type: docs
 weight: 20
 url: /python-net/aspose.words.layout/layoutenumerator/current/

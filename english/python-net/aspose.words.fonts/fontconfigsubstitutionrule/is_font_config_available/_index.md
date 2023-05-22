@@ -1,7 +1,9 @@
 ﻿---
-title: is_font_config_available method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Check if fontconfig utility is available or not."
+title: FontConfigSubstitutionRule.is_font_config_available method
+linktitle: is_font_config_available method
+articleTitle: is_font_config_available method
+second_title: Aspose.Words for Python
+description: "FontConfigSubstitutionRule.is_font_config_available method. Check if fontconfig utility is available or not."
 type: docs
 weight: 20
 url: /python-net/aspose.words.fonts/fontconfigsubstitutionrule/is_font_config_available/

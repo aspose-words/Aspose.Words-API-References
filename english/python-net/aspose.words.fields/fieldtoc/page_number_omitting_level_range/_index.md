@@ -1,7 +1,9 @@
 ﻿---
-title: page_number_omitting_level_range property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a range of levels of the table of contents entries from which to omits page numbers."
+title: FieldToc.page_number_omitting_level_range property
+linktitle: page_number_omitting_level_range property
+articleTitle: page_number_omitting_level_range property
+second_title: Aspose.Words for Python
+description: "FieldToc.page_number_omitting_level_range property. Gets or sets a range of levels of the table of contents entries from which to omits page numbers."
 type: docs
 weight: 110
 url: /python-net/aspose.words.fields/fieldtoc/page_number_omitting_level_range/

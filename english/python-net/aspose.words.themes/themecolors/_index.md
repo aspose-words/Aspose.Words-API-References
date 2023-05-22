@@ -1,7 +1,9 @@
 ﻿---
 title: ThemeColors class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents the color scheme of the document theme which contains twelve colors."
+linktitle: ThemeColors class
+articleTitle: ThemeColors class
+second_title: Aspose.Words for Python
+description: "aspose.words.themes.ThemeColors class. Represents the color scheme of the document theme which contains twelve colors."
 type: docs
 weight: 30
 url: /python-net/aspose.words.themes/themecolors/

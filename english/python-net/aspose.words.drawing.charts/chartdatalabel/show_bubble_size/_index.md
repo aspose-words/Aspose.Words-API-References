@@ -1,7 +1,9 @@
 ﻿---
-title: show_bubble_size property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to specify if bubble size is to be displayed for the data labels on a chart"
+title: ChartDataLabel.show_bubble_size property
+linktitle: show_bubble_size property
+articleTitle: show_bubble_size property
+second_title: Aspose.Words for Python
+description: "ChartDataLabel.show_bubble_size property. Allows to specify if bubble size is to be displayed for the data labels on a chart"
 type: docs
 weight: 70
 url: /python-net/aspose.words.drawing.charts/chartdatalabel/show_bubble_size/

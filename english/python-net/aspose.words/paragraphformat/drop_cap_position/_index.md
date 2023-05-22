@@ -1,7 +1,9 @@
 ﻿---
-title: drop_cap_position property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the position for a drop cap text."
+title: ParagraphFormat.drop_cap_position property
+linktitle: drop_cap_position property
+articleTitle: drop_cap_position property
+second_title: Aspose.Words for Python
+description: "ParagraphFormat.drop_cap_position property. Gets or sets the position for a drop cap text."
 type: docs
 weight: 90
 url: /python-net/aspose.words/paragraphformat/drop_cap_position/

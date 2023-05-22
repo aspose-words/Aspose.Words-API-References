@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldDate class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the DATE field"
+linktitle: FieldDate class
+articleTitle: FieldDate class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldDate class. Implements the DATE field"
 type: docs
 weight: 310
 url: /python-net/aspose.words.fields/fielddate/

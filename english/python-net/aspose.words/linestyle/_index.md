@@ -1,7 +1,9 @@
 ﻿---
 title: LineStyle enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies line style of a [Border](../border/)."
+linktitle: LineStyle enumeration
+articleTitle: LineStyle enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.LineStyle enumeration. Specifies line style of a [Border](../border/)."
 type: docs
 weight: 640
 url: /python-net/aspose.words/linestyle/

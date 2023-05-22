@@ -1,7 +1,9 @@
 ﻿---
-title: category_type property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets type of the category axis."
+title: ChartAxis.category_type property
+linktitle: category_type property
+articleTitle: category_type property
+second_title: Aspose.Words for Python
+description: "ChartAxis.category_type property. Gets or sets type of the category axis."
 type: docs
 weight: 30
 url: /python-net/aspose.words.drawing.charts/chartaxis/category_type/

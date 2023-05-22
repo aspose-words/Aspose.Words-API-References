@@ -1,7 +1,9 @@
 ﻿﻿---
 title: GlossaryDocument class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents the root element for a glossary document within a Word document"
+linktitle: GlossaryDocument class
+articleTitle: GlossaryDocument class
+second_title: Aspose.Words for Python
+description: "aspose.words.buildingblocks.GlossaryDocument class. Represents the root element for a glossary document within a Word document"
 type: docs
 weight: 60
 url: /python-net/aspose.words.buildingblocks/glossarydocument/

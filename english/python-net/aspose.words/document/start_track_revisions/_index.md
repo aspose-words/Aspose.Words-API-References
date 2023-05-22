@@ -1,6 +1,8 @@
 ﻿---
-title: start_track_revisions method
-second_title: Aspose.Words for Python via .NET API Reference
+title: Document.start_track_revisions method
+linktitle: start_track_revisions method
+articleTitle: start_track_revisions method
+second_title: Aspose.Words for Python
 description: "aspose.words.Document.start_track_revisions method"
 type: docs
 weight: 680

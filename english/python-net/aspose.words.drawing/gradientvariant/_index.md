@@ -1,7 +1,9 @@
 ﻿---
 title: GradientVariant enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the variant for a gradient fill."
+linktitle: GradientVariant enumeration
+articleTitle: GradientVariant enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.drawing.GradientVariant enumeration. Specifies the variant for a gradient fill."
 type: docs
 weight: 120
 url: /python-net/aspose.words.drawing/gradientvariant/

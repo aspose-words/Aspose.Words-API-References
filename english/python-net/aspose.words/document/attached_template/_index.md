@@ -1,7 +1,9 @@
 ﻿---
-title: attached_template property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the full path of the template attached to the document."
+title: Document.attached_template property
+linktitle: attached_template property
+articleTitle: attached_template property
+second_title: Aspose.Words for Python
+description: "Document.attached_template property. Gets or sets the full path of the template attached to the document."
 type: docs
 weight: 20
 url: /python-net/aspose.words/document/attached_template/

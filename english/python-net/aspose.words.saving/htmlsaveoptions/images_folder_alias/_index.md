@@ -1,7 +1,9 @@
 ﻿---
-title: images_folder_alias property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the name of the folder used to construct image URIs written into an HTML document"
+title: HtmlSaveOptions.images_folder_alias property
+linktitle: images_folder_alias property
+articleTitle: images_folder_alias property
+second_title: Aspose.Words for Python
+description: "HtmlSaveOptions.images_folder_alias property. Specifies the name of the folder used to construct image URIs written into an HTML document"
 type: docs
 weight: 380
 url: /python-net/aspose.words.saving/htmlsaveoptions/images_folder_alias/

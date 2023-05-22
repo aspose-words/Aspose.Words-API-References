@@ -1,6 +1,8 @@
 ﻿---
-title: set_license method
-second_title: Aspose.Words for Python via .NET API Reference
+title: License.set_license method
+linktitle: set_license method
+articleTitle: set_license method
+second_title: Aspose.Words for Python
 description: "aspose.words.License.set_license method"
 type: docs
 weight: 20

@@ -1,7 +1,9 @@
 ﻿---
-title: words property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents an estimate of the number of words in the document."
+title: BuiltInDocumentProperties.words property
+linktitle: words property
+articleTitle: words property
+second_title: Aspose.Words for Python
+description: "BuiltInDocumentProperties.words property. Represents an estimate of the number of words in the document."
 type: docs
 weight: 330
 url: /python-net/aspose.words.properties/builtindocumentproperties/words/

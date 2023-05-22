@@ -1,7 +1,9 @@
 ﻿---
-title: use_last_format property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets whether to use a format last used by the hosting application when inserting a new DATE field."
+title: FieldDate.use_last_format property
+linktitle: use_last_format property
+articleTitle: use_last_format property
+second_title: Aspose.Words for Python
+description: "FieldDate.use_last_format property. Gets or sets whether to use a format last used by the hosting application when inserting a new DATE field."
 type: docs
 weight: 20
 url: /python-net/aspose.words.fields/fielddate/use_last_format/

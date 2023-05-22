@@ -1,7 +1,9 @@
 ﻿---
 title: CustomXmlProperty constructor
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Initializes a new instance of this class."
+linktitle: CustomXmlProperty constructor
+articleTitle: CustomXmlProperty constructor
+second_title: Aspose.Words for Python
+description: "CustomXmlProperty constructor. Initializes a new instance of this class."
 type: docs
 weight: 10
 url: /python-net/aspose.words.markup/customxmlproperty/__init__/

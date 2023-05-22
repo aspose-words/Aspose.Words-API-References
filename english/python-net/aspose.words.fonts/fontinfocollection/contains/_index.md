@@ -1,7 +1,9 @@
 ﻿---
-title: contains method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Determines whether the collection contains a font with the given name."
+title: FontInfoCollection.contains method
+linktitle: contains method
+articleTitle: contains method
+second_title: Aspose.Words for Python
+description: "FontInfoCollection.contains method. Determines whether the collection contains a font with the given name."
 type: docs
 weight: 60
 url: /python-net/aspose.words.fonts/fontinfocollection/contains/

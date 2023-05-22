@@ -1,7 +1,9 @@
 ﻿---
-title: postal_address property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Barcode postal address."
+title: BarcodeParameters.postal_address property
+linktitle: postal_address property
+articleTitle: postal_address property
+second_title: Aspose.Words for Python
+description: "BarcodeParameters.postal_address property. Barcode postal address."
 type: docs
 weight: 150
 url: /python-net/aspose.words.fields/barcodeparameters/postal_address/

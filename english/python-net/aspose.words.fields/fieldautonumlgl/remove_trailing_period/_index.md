@@ -1,7 +1,9 @@
 ﻿---
-title: remove_trailing_period property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets whether to display the number without a trailing period."
+title: FieldAutoNumLgl.remove_trailing_period property
+linktitle: remove_trailing_period property
+articleTitle: remove_trailing_period property
+second_title: Aspose.Words for Python
+description: "FieldAutoNumLgl.remove_trailing_period property. Gets or sets whether to display the number without a trailing period."
 type: docs
 weight: 20
 url: /python-net/aspose.words.fields/fieldautonumlgl/remove_trailing_period/

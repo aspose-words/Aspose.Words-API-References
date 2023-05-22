@@ -1,7 +1,9 @@
 ﻿---
-title: relationship_type property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the relationship type from the parent part to this custom part."
+title: CustomPart.relationship_type property
+linktitle: relationship_type property
+articleTitle: relationship_type property
+second_title: Aspose.Words for Python
+description: "CustomPart.relationship_type property. Gets or sets the relationship type from the parent part to this custom part."
 type: docs
 weight: 60
 url: /python-net/aspose.words.markup/custompart/relationship_type/

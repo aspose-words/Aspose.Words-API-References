@@ -1,7 +1,9 @@
 ﻿---
 title: StructuredDocumentTagRangeEnd constructor
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Initializes a new instance of the Structured document tag range end class."
+linktitle: StructuredDocumentTagRangeEnd constructor
+articleTitle: StructuredDocumentTagRangeEnd constructor
+second_title: Aspose.Words for Python
+description: "StructuredDocumentTagRangeEnd constructor. Initializes a new instance of the Structured document tag range end class."
 type: docs
 weight: 10
 url: /python-net/aspose.words.markup/structureddocumenttagrangeend/__init__/

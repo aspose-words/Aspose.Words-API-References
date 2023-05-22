@@ -1,7 +1,9 @@
 ﻿﻿---
 title: Stroke class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Defines a stroke for a shape"
+linktitle: Stroke class
+articleTitle: Stroke class
+second_title: Aspose.Words for Python
+description: "aspose.words.drawing.Stroke class. Defines a stroke for a shape"
 type: docs
 weight: 380
 url: /python-net/aspose.words.drawing/stroke/

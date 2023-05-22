@@ -1,7 +1,9 @@
 ﻿---
-title: page_color property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the page color of the document"
+title: DocumentBase.page_color property
+linktitle: page_color property
+articleTitle: page_color property
+second_title: Aspose.Words for Python
+description: "DocumentBase.page_color property. Gets or sets the page color of the document"
 type: docs
 weight: 60
 url: /python-net/aspose.words/documentbase/page_color/

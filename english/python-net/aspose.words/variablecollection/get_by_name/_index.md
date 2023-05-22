@@ -1,7 +1,9 @@
 ﻿---
-title: get_by_name method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or a sets a document variable by the case-insensitive name"
+title: VariableCollection.get_by_name method
+linktitle: get_by_name method
+articleTitle: get_by_name method
+second_title: Aspose.Words for Python
+description: "VariableCollection.get_by_name method. Gets or a sets a document variable by the case-insensitive name"
 type: docs
 weight: 60
 url: /python-net/aspose.words/variablecollection/get_by_name/

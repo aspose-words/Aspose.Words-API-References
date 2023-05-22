@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldSeparator class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a Word field separator that separates the field code from the field result"
+linktitle: FieldSeparator class
+articleTitle: FieldSeparator class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldSeparator class. Represents a Word field separator that separates the field code from the field result"
 type: docs
 weight: 920
 url: /python-net/aspose.words.fields/fieldseparator/

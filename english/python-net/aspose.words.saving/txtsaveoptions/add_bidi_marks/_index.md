@@ -1,7 +1,9 @@
 ﻿---
-title: add_bidi_marks property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies whether to add bi-directional marks before each BiDi run when exporting in plain text format."
+title: TxtSaveOptions.add_bidi_marks property
+linktitle: add_bidi_marks property
+articleTitle: add_bidi_marks property
+second_title: Aspose.Words for Python
+description: "TxtSaveOptions.add_bidi_marks property. Specifies whether to add bi-directional marks before each BiDi run when exporting in plain text format."
 type: docs
 weight: 20
 url: /python-net/aspose.words.saving/txtsaveoptions/add_bidi_marks/

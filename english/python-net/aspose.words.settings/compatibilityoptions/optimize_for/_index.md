@@ -1,7 +1,9 @@
 ﻿---
-title: optimize_for method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to optimize the document contents as well as default Aspose.Words behavior to a particular versions of MS Word."
+title: CompatibilityOptions.optimize_for method
+linktitle: optimize_for method
+articleTitle: optimize_for method
+second_title: Aspose.Words for Python
+description: "CompatibilityOptions.optimize_for method. Allows to optimize the document contents as well as default Aspose.Words behavior to a particular versions of MS Word."
 type: docs
 weight: 720
 url: /python-net/aspose.words.settings/compatibilityoptions/optimize_for/

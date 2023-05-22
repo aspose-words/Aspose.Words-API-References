@@ -1,7 +1,9 @@
 ﻿﻿---
 title: CustomXmlPropertyCollection class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a collection of custom XML attributes or smart tag properties"
+linktitle: CustomXmlPropertyCollection class
+articleTitle: CustomXmlPropertyCollection class
+second_title: Aspose.Words for Python
+description: "aspose.words.markup.CustomXmlPropertyCollection class. Represents a collection of custom XML attributes or smart tag properties"
 type: docs
 weight: 60
 url: /python-net/aspose.words.markup/customxmlpropertycollection/

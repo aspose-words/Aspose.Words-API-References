@@ -1,7 +1,9 @@
 ﻿---
-title: source_code property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets VBA project module source code."
+title: VbaModule.source_code property
+linktitle: source_code property
+articleTitle: source_code property
+second_title: Aspose.Words for Python
+description: "VbaModule.source_code property. Gets or sets VBA project module source code."
 type: docs
 weight: 30
 url: /python-net/aspose.words.vba/vbamodule/source_code/

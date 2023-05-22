@@ -1,7 +1,9 @@
 ﻿---
-title: bottom property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the bottom border."
+title: BorderCollection.bottom property
+linktitle: bottom property
+articleTitle: bottom property
+second_title: Aspose.Words for Python
+description: "BorderCollection.bottom property. Gets the bottom border."
 type: docs
 weight: 20
 url: /python-net/aspose.words/bordercollection/bottom/

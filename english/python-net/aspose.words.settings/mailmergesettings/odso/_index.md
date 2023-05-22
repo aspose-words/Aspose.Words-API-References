@@ -1,7 +1,9 @@
 ﻿---
-title: odso property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the object that specifies the Office Data Source Object (ODSO) settings."
+title: MailMergeSettings.odso property
+linktitle: odso property
+articleTitle: odso property
+second_title: Aspose.Words for Python
+description: "MailMergeSettings.odso property. Gets or sets the object that specifies the Office Data Source Object (ODSO) settings."
 type: docs
 weight: 150
 url: /python-net/aspose.words.settings/mailmergesettings/odso/

@@ -1,7 +1,9 @@
 ﻿---
-title: as_folder_font_source method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Cast [FontSourceBase](../) object to [FolderFontSource](../../folderfontsource/)."
+title: FontSourceBase.as_folder_font_source method
+linktitle: as_folder_font_source method
+articleTitle: as_folder_font_source method
+second_title: Aspose.Words for Python
+description: "FontSourceBase.as_folder_font_source method. Cast [FontSourceBase](../) object to [FolderFontSource](../../folderfontsource/)."
 type: docs
 weight: 50
 url: /python-net/aspose.words.fonts/fontsourcebase/as_folder_font_source/

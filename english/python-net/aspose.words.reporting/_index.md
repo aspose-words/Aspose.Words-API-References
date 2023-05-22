@@ -1,6 +1,8 @@
 ﻿﻿---
 title: aspose.words.reporting module
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: aspose.words.reporting module
+articleTitle: aspose.words.reporting module
+second_title: Aspose.Words for Python
 description: "This module contains classes of the Aspose.Words' new reporting engine that supports report templates marked up with a language based on the LINQ Method Syntax."
 type: docs
 weight: 210

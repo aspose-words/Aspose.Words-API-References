@@ -1,7 +1,9 @@
 ﻿---
-title: scale_image_to_shape_size property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies whether images are scaled by Aspose.Words to the bounding shape size when exporting to HTML, MHTML or EPUB"
+title: HtmlSaveOptions.scale_image_to_shape_size property
+linktitle: scale_image_to_shape_size property
+articleTitle: scale_image_to_shape_size property
+second_title: Aspose.Words for Python
+description: "HtmlSaveOptions.scale_image_to_shape_size property. Specifies whether images are scaled by Aspose.Words to the bounding shape size when exporting to HTML, MHTML or EPUB"
 type: docs
 weight: 450
 url: /python-net/aspose.words.saving/htmlsaveoptions/scale_image_to_shape_size/

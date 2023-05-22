@@ -1,6 +1,9 @@
 ﻿---
 title: FieldBarcode constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: FieldBarcode constructor
+articleTitle: FieldBarcode constructor
+second_title: Aspose.Words for Python
+description: "FieldBarcode constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/fieldbarcode/__init__/

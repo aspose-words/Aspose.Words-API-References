@@ -1,7 +1,9 @@
 ﻿---
-title: index_of_key method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns the zero-based index of the specified document variable in the collection."
+title: VariableCollection.index_of_key method
+linktitle: index_of_key method
+articleTitle: index_of_key method
+second_title: Aspose.Words for Python
+description: "VariableCollection.index_of_key method. Returns the zero-based index of the specified document variable in the collection."
 type: docs
 weight: 70
 url: /python-net/aspose.words/variablecollection/index_of_key/

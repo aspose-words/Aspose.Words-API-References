@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldNumWords class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the NUMWORDS field"
+linktitle: FieldNumWords class
+articleTitle: FieldNumWords class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldNumWords class. Implements the NUMWORDS field"
 type: docs
 weight: 770
 url: /python-net/aspose.words.fields/fieldnumwords/

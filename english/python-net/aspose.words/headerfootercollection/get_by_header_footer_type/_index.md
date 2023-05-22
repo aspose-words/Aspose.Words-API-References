@@ -1,7 +1,9 @@
 ﻿---
-title: get_by_header_footer_type method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Retrieves a HeaderFooter of the specified type."
+title: HeaderFooterCollection.get_by_header_footer_type method
+linktitle: get_by_header_footer_type method
+articleTitle: get_by_header_footer_type method
+second_title: Aspose.Words for Python
+description: "HeaderFooterCollection.get_by_header_footer_type method. Retrieves a HeaderFooter of the specified type."
 type: docs
 weight: 80
 url: /python-net/aspose.words/headerfootercollection/get_by_header_footer_type/

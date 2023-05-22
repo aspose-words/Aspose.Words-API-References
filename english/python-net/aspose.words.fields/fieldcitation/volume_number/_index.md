@@ -1,7 +1,9 @@
 ﻿---
-title: volume_number property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a volume number associated with the citation."
+title: FieldCitation.volume_number property
+linktitle: volume_number property
+articleTitle: volume_number property
+second_title: Aspose.Words for Python
+description: "FieldCitation.volume_number property. Gets or sets a volume number associated with the citation."
 type: docs
 weight: 110
 url: /python-net/aspose.words.fields/fieldcitation/volume_number/

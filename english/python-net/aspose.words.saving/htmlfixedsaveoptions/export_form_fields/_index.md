@@ -1,7 +1,9 @@
 ﻿---
-title: export_form_fields property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets indication of whether form fields are exported as interactive items (as 'input' tag) rather than converted to text or graphics."
+title: HtmlFixedSaveOptions.export_form_fields property
+linktitle: export_form_fields property
+articleTitle: export_form_fields property
+second_title: Aspose.Words for Python
+description: "HtmlFixedSaveOptions.export_form_fields property. Gets or sets indication of whether form fields are exported as interactive items (as 'input' tag) rather than converted to text or graphics."
 type: docs
 weight: 80
 url: /python-net/aspose.words.saving/htmlfixedsaveoptions/export_form_fields/

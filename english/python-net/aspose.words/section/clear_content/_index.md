@@ -1,7 +1,9 @@
 ﻿---
-title: clear_content method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Clears the section."
+title: Section.clear_content method
+linktitle: clear_content method
+articleTitle: clear_content method
+second_title: Aspose.Words for Python
+description: "Section.clear_content method. Clears the section."
 type: docs
 weight: 90
 url: /python-net/aspose.words/section/clear_content/

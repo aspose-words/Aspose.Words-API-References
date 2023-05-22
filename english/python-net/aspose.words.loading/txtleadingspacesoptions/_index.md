@@ -1,7 +1,9 @@
 ﻿---
 title: TxtLeadingSpacesOptions enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies available options for leading space handling during import from [LoadFormat.TEXT](../../aspose.words/loadformat/#TEXT) file."
+linktitle: TxtLeadingSpacesOptions enumeration
+articleTitle: TxtLeadingSpacesOptions enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.loading.TxtLeadingSpacesOptions enumeration. Specifies available options for leading space handling during import from [LoadFormat.TEXT](../../aspose.words/loadformat/#TEXT) file."
 type: docs
 weight: 170
 url: /python-net/aspose.words.loading/txtleadingspacesoptions/

@@ -1,7 +1,9 @@
 ﻿---
-title: last_section property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the last section in the building block."
+title: BuildingBlock.last_section property
+linktitle: last_section property
+articleTitle: last_section property
+second_title: Aspose.Words for Python
+description: "BuildingBlock.last_section property. Gets the last section in the building block."
 type: docs
 weight: 80
 url: /python-net/aspose.words.buildingblocks/buildingblock/last_section/

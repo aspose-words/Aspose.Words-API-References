@@ -1,7 +1,9 @@
 ﻿﻿---
 title: Paragraph class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a paragraph of text"
+linktitle: Paragraph class
+articleTitle: Paragraph class
+second_title: Aspose.Words for Python
+description: "aspose.words.Paragraph class. Represents a paragraph of text"
 type: docs
 weight: 840
 url: /python-net/aspose.words/paragraph/

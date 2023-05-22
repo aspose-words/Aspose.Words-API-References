@@ -1,7 +1,9 @@
 ﻿---
-title: title property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Defines the title of an image."
+title: ImageData.title property
+linktitle: title property
+articleTitle: title property
+second_title: Aspose.Words for Python
+description: "ImageData.title property. Defines the title of an image."
 type: docs
 weight: 180
 url: /python-net/aspose.words.drawing/imagedata/title/

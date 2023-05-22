@@ -1,7 +1,9 @@
 ﻿---
-title: add_start_stop_char property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets whether to add Start/Stop characters for barcode types NW7 and CODE39."
+title: FieldDisplayBarcode.add_start_stop_char property
+linktitle: add_start_stop_char property
+articleTitle: add_start_stop_char property
+second_title: Aspose.Words for Python
+description: "FieldDisplayBarcode.add_start_stop_char property. Gets or sets whether to add Start/Stop characters for barcode types NW7 and CODE39."
 type: docs
 weight: 20
 url: /python-net/aspose.words.fields/fielddisplaybarcode/add_start_stop_char/

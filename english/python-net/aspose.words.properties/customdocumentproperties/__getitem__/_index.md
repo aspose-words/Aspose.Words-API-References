@@ -1,6 +1,9 @@
 ﻿---
 title: CustomDocumentProperties indexer
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: CustomDocumentProperties indexer
+articleTitle: CustomDocumentProperties indexer
+second_title: Aspose.Words for Python
+description: "CustomDocumentProperties indexer. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.properties/customdocumentproperties/__getitem__/

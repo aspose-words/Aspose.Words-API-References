@@ -1,7 +1,9 @@
 ﻿---
-title: flip_orientation property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Switches the orientation of a shape."
+title: ShapeBase.flip_orientation property
+linktitle: flip_orientation property
+articleTitle: flip_orientation property
+second_title: Aspose.Words for Python
+description: "ShapeBase.flip_orientation property. Switches the orientation of a shape."
 type: docs
 weight: 180
 url: /python-net/aspose.words.drawing/shapebase/flip_orientation/

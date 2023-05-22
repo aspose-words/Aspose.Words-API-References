@@ -1,7 +1,9 @@
 ﻿---
-title: font property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides access to the font formatting of the anchor character of this object."
+title: InlineStory.font property
+linktitle: font property
+articleTitle: font property
+second_title: Aspose.Words for Python
+description: "InlineStory.font property. Provides access to the font formatting of the anchor character of this object."
 type: docs
 weight: 20
 url: /python-net/aspose.words/inlinestory/font/

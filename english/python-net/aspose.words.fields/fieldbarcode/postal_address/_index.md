@@ -1,7 +1,9 @@
 ﻿---
-title: postal_address property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the postal address used for generating a barcode or the name of the bookmark that refers to it."
+title: FieldBarcode.postal_address property
+linktitle: postal_address property
+articleTitle: postal_address property
+second_title: Aspose.Words for Python
+description: "FieldBarcode.postal_address property. Gets or sets the postal address used for generating a barcode or the name of the bookmark that refers to it."
 type: docs
 weight: 50
 url: /python-net/aspose.words.fields/fieldbarcode/postal_address/

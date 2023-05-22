@@ -1,7 +1,9 @@
 ﻿---
-title: embed_attachments property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a value determining whether or not to embed attachments to the PDF document."
+title: PdfSaveOptions.embed_attachments property
+linktitle: embed_attachments property
+articleTitle: embed_attachments property
+second_title: Aspose.Words for Python
+description: "PdfSaveOptions.embed_attachments property. Gets or sets a value determining whether or not to embed attachments to the PDF document."
 type: docs
 weight: 110
 url: /python-net/aspose.words.saving/pdfsaveoptions/embed_attachments/

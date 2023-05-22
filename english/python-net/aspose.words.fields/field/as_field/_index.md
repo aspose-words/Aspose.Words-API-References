@@ -1,6 +1,9 @@
 ﻿---
-title: as_field method
-second_title: Aspose.Words for Python via .NET API Reference
+title: Field.as_field method
+linktitle: as_field method
+articleTitle: as_field method
+second_title: Aspose.Words for Python
+description: "Field.as_field method. "
 type: docs
 weight: 110
 url: /python-net/aspose.words.fields/field/as_field/

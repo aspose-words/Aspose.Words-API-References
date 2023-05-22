@@ -1,7 +1,9 @@
 ﻿---
-title: add method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Creates a new user defined style and adds it the collection."
+title: StyleCollection.add method
+linktitle: add method
+articleTitle: add method
+second_title: Aspose.Words for Python
+description: "StyleCollection.add method. Creates a new user defined style and adds it the collection."
 type: docs
 weight: 60
 url: /python-net/aspose.words/stylecollection/add/

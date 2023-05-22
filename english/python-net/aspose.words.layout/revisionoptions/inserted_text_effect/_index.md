@@ -1,7 +1,9 @@
 ﻿---
-title: inserted_text_effect property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to specify the effect to be applied to the inserted content [RevisionType.INSERTION](../../../aspose.words/revisiontype/#INSERTION)"
+title: RevisionOptions.inserted_text_effect property
+linktitle: inserted_text_effect property
+articleTitle: inserted_text_effect property
+second_title: Aspose.Words for Python
+description: "RevisionOptions.inserted_text_effect property. Allows to specify the effect to be applied to the inserted content [RevisionType.INSERTION](../../../aspose.words/revisiontype/#INSERTION)"
 type: docs
 weight: 50
 url: /python-net/aspose.words.layout/revisionoptions/inserted_text_effect/

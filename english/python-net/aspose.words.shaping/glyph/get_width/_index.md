@@ -1,7 +1,9 @@
 ﻿---
-title: get_width method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns width (advance) of the glyph in points."
+title: Glyph.get_width method
+linktitle: get_width method
+articleTitle: get_width method
+second_title: Aspose.Words for Python
+description: "Glyph.get_width method. Returns width (advance) of the glyph in points."
 type: docs
 weight: 70
 url: /python-net/aspose.words.shaping/glyph/get_width/

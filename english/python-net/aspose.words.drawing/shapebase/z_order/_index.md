@@ -1,7 +1,9 @@
 ﻿---
-title: z_order property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Determines the display order of overlapping shapes."
+title: ShapeBase.z_order property
+linktitle: z_order property
+articleTitle: z_order property
+second_title: Aspose.Words for Python
+description: "ShapeBase.z_order property. Determines the display order of overlapping shapes."
 type: docs
 weight: 610
 url: /python-net/aspose.words.drawing/shapebase/z_order/

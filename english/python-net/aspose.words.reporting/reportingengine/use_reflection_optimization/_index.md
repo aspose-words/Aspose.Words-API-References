@@ -1,7 +1,9 @@
 ﻿---
-title: use_reflection_optimization property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a value indicating whether invocations of custom type members performed via reflection API are  optimized using dynamic class generation or not"
+title: ReportingEngine.use_reflection_optimization property
+linktitle: use_reflection_optimization property
+articleTitle: use_reflection_optimization property
+second_title: Aspose.Words for Python
+description: "ReportingEngine.use_reflection_optimization property. Gets or sets a value indicating whether invocations of custom type members performed via reflection API are  optimized using dynamic class generation or not"
 type: docs
 weight: 40
 url: /python-net/aspose.words.reporting/reportingengine/use_reflection_optimization/

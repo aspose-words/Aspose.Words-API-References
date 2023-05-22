@@ -1,7 +1,9 @@
 ﻿---
-title: add method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Adds a document variable to the collection."
+title: VariableCollection.add method
+linktitle: add method
+articleTitle: add method
+second_title: Aspose.Words for Python
+description: "VariableCollection.add method. Adds a document variable to the collection."
 type: docs
 weight: 30
 url: /python-net/aspose.words/variablecollection/add/

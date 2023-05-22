@@ -1,7 +1,9 @@
 ﻿---
-title: italic property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "True if the font is formatted as italic."
+title: DocumentBuilder.italic property
+linktitle: italic property
+articleTitle: italic property
+second_title: Aspose.Words for Python
+description: "DocumentBuilder.italic property. True if the font is formatted as italic."
 type: docs
 weight: 140
 url: /python-net/aspose.words/documentbuilder/italic/

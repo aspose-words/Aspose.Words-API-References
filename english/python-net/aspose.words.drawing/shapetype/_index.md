@@ -1,7 +1,9 @@
 ﻿---
 title: ShapeType enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the type of shape in a Microsoft Word document."
+linktitle: ShapeType enumeration
+articleTitle: ShapeType enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.drawing.ShapeType enumeration. Specifies the type of shape in a Microsoft Word document."
 type: docs
 weight: 360
 url: /python-net/aspose.words.drawing/shapetype/

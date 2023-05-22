@@ -1,7 +1,9 @@
 ﻿---
-title: reference_mark property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets/sets custom reference mark to be used for this footnote"
+title: Footnote.reference_mark property
+linktitle: reference_mark property
+articleTitle: reference_mark property
+second_title: Aspose.Words for Python
+description: "Footnote.reference_mark property. Gets/sets custom reference mark to be used for this footnote"
 type: docs
 weight: 50
 url: /python-net/aspose.words.notes/footnote/reference_mark/

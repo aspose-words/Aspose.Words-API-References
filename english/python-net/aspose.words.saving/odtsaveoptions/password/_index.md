@@ -1,7 +1,9 @@
 ﻿---
-title: password property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a password to encrypt document."
+title: OdtSaveOptions.password property
+linktitle: password property
+articleTitle: password property
+second_title: Aspose.Words for Python
+description: "OdtSaveOptions.password property. Gets or sets a password to encrypt document."
 type: docs
 weight: 40
 url: /python-net/aspose.words.saving/odtsaveoptions/password/

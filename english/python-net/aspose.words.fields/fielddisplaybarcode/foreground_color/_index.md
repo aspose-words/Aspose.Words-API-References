@@ -1,7 +1,9 @@
 ﻿---
-title: foreground_color property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the foreground color of the barcode symbol"
+title: FieldDisplayBarcode.foreground_color property
+linktitle: foreground_color property
+articleTitle: foreground_color property
+second_title: Aspose.Words for Python
+description: "FieldDisplayBarcode.foreground_color property. Gets or sets the foreground color of the barcode symbol"
 type: docs
 weight: 100
 url: /python-net/aspose.words.fields/fielddisplaybarcode/foreground_color/

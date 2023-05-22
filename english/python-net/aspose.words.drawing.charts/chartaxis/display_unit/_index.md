@@ -1,7 +1,9 @@
 ﻿---
-title: display_unit property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the scaling value of the display units for the value axis."
+title: ChartAxis.display_unit property
+linktitle: display_unit property
+articleTitle: display_unit property
+second_title: Aspose.Words for Python
+description: "ChartAxis.display_unit property. Specifies the scaling value of the display units for the value axis."
 type: docs
 weight: 60
 url: /python-net/aspose.words.drawing.charts/chartaxis/display_unit/

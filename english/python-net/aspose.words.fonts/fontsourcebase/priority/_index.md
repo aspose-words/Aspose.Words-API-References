@@ -1,7 +1,9 @@
 ﻿---
-title: priority property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns the font source priority."
+title: FontSourceBase.priority property
+linktitle: priority property
+articleTitle: priority property
+second_title: Aspose.Words for Python
+description: "FontSourceBase.priority property. Returns the font source priority."
 type: docs
 weight: 10
 url: /python-net/aspose.words.fonts/fontsourcebase/priority/

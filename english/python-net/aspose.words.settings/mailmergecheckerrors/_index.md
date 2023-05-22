@@ -1,7 +1,9 @@
 ﻿---
 title: MailMergeCheckErrors enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies how Microsoft Word will report errors detected during mail merge."
+linktitle: MailMergeCheckErrors enumeration
+articleTitle: MailMergeCheckErrors enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.settings.MailMergeCheckErrors enumeration. Specifies how Microsoft Word will report errors detected during mail merge."
 type: docs
 weight: 50
 url: /python-net/aspose.words.settings/mailmergecheckerrors/

@@ -1,7 +1,9 @@
 ﻿---
-title: background_tint_and_shade property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a double value that lightens or darkens a background theme color."
+title: Shading.background_tint_and_shade property
+linktitle: background_tint_and_shade property
+articleTitle: background_tint_and_shade property
+second_title: Aspose.Words for Python
+description: "Shading.background_tint_and_shade property. Gets or sets a double value that lightens or darkens a background theme color."
 type: docs
 weight: 30
 url: /python-net/aspose.words/shading/background_tint_and_shade/

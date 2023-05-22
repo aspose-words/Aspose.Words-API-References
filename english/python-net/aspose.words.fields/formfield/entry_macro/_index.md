@@ -1,7 +1,9 @@
 ﻿---
-title: entry_macro property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns or sets an entry macro name for the form field."
+title: FormField.entry_macro property
+linktitle: entry_macro property
+articleTitle: entry_macro property
+second_title: Aspose.Words for Python
+description: "FormField.entry_macro property. Returns or sets an entry macro name for the form field."
 type: docs
 weight: 80
 url: /python-net/aspose.words.fields/formfield/entry_macro/

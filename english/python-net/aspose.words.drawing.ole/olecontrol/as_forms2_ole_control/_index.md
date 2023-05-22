@@ -1,6 +1,9 @@
 ﻿---
-title: as_forms2_ole_control method
-second_title: Aspose.Words for Python via .NET API Reference
+title: OleControl.as_forms2_ole_control method
+linktitle: as_forms2_ole_control method
+articleTitle: as_forms2_ole_control method
+second_title: Aspose.Words for Python
+description: "OleControl.as_forms2_ole_control method. "
 type: docs
 weight: 30
 url: /python-net/aspose.words.drawing.ole/olecontrol/as_forms2_ole_control/

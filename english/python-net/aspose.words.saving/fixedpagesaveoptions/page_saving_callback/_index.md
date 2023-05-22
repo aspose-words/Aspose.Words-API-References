@@ -1,7 +1,9 @@
 ﻿---
-title: page_saving_callback property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to control how separate pages are saved when a document is exported to fixed page format."
+title: FixedPageSaveOptions.page_saving_callback property
+linktitle: page_saving_callback property
+articleTitle: page_saving_callback property
+second_title: Aspose.Words for Python
+description: "FixedPageSaveOptions.page_saving_callback property. Allows to control how separate pages are saved when a document is exported to fixed page format."
 type: docs
 weight: 60
 url: /python-net/aspose.words.saving/fixedpagesaveoptions/page_saving_callback/

@@ -1,7 +1,9 @@
 ﻿---
-title: hidden property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a flag indicating whether this axis is hidden or not."
+title: ChartAxis.hidden property
+linktitle: hidden property
+articleTitle: hidden property
+second_title: Aspose.Words for Python
+description: "ChartAxis.hidden property. Gets or sets a flag indicating whether this axis is hidden or not."
 type: docs
 weight: 100
 url: /python-net/aspose.words.drawing.charts/chartaxis/hidden/

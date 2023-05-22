@@ -1,7 +1,9 @@
 ﻿---
-title: bookmark_name property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the name of the bookmark."
+title: FieldNoteRef.bookmark_name property
+linktitle: bookmark_name property
+articleTitle: bookmark_name property
+second_title: Aspose.Words for Python
+description: "FieldNoteRef.bookmark_name property. Gets or sets the name of the bookmark."
 type: docs
 weight: 20
 url: /python-net/aspose.words.fields/fieldnoteref/bookmark_name/

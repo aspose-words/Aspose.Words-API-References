@@ -1,7 +1,9 @@
 ﻿---
 title: OdsoDataSourceType enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the type of the external data source to be connected to as part of the ODSO connection information."
+linktitle: OdsoDataSourceType enumeration
+articleTitle: OdsoDataSourceType enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.settings.OdsoDataSourceType enumeration. Specifies the type of the external data source to be connected to as part of the ODSO connection information."
 type: docs
 weight: 130
 url: /python-net/aspose.words.settings/odsodatasourcetype/

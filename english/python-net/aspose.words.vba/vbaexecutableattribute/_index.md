@@ -1,6 +1,9 @@
 ﻿---
 title: VbaExecutableAttribute class
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: VbaExecutableAttribute class
+articleTitle: VbaExecutableAttribute class
+second_title: Aspose.Words for Python
+description: "aspose.words.vba.VbaExecutableAttribute class. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.vba/vbaexecutableattribute/

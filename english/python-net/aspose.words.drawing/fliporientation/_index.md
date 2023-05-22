@@ -1,7 +1,9 @@
 ﻿---
 title: FlipOrientation enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Possible values for the orientation of a shape."
+linktitle: FlipOrientation enumeration
+articleTitle: FlipOrientation enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.drawing.FlipOrientation enumeration. Possible values for the orientation of a shape."
 type: docs
 weight: 80
 url: /python-net/aspose.words.drawing/fliporientation/

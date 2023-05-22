@@ -1,7 +1,9 @@
 ﻿---
 title: Granularity enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the granularity of changes to track when comparing two documents."
+linktitle: Granularity enumeration
+articleTitle: Granularity enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.comparing.Granularity enumeration. Specifies the granularity of changes to track when comparing two documents."
 type: docs
 weight: 30
 url: /python-net/aspose.words.comparing/granularity/

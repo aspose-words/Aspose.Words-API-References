@@ -1,7 +1,9 @@
 ﻿---
-title: zoom_type property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a zoom value based on the size of the window."
+title: ViewOptions.zoom_type property
+linktitle: zoom_type property
+articleTitle: zoom_type property
+second_title: Aspose.Words for Python
+description: "ViewOptions.zoom_type property. Gets or sets a zoom value based on the size of the window."
 type: docs
 weight: 60
 url: /python-net/aspose.words.settings/viewoptions/zoom_type/

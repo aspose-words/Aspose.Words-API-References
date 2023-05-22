@@ -1,7 +1,9 @@
 ﻿---
-title: display_background_shape property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Controls display of the background shape in print layout view."
+title: ViewOptions.display_background_shape property
+linktitle: display_background_shape property
+articleTitle: display_background_shape property
+second_title: Aspose.Words for Python
+description: "ViewOptions.display_background_shape property. Controls display of the background shape in print layout view."
 type: docs
 weight: 10
 url: /python-net/aspose.words.settings/viewoptions/display_background_shape/

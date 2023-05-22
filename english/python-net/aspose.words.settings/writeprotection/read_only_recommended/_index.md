@@ -1,7 +1,9 @@
 ﻿---
-title: read_only_recommended property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies whether the document author has recommended that the document be opened as read-only."
+title: WriteProtection.read_only_recommended property
+linktitle: read_only_recommended property
+articleTitle: read_only_recommended property
+second_title: Aspose.Words for Python
+description: "WriteProtection.read_only_recommended property. Specifies whether the document author has recommended that the document be opened as read-only."
 type: docs
 weight: 20
 url: /python-net/aspose.words.settings/writeprotection/read_only_recommended/

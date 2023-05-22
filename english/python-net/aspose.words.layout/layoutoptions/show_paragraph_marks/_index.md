@@ -1,7 +1,9 @@
 ﻿---
-title: show_paragraph_marks property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets indication of whether paragraph marks are rendered"
+title: LayoutOptions.show_paragraph_marks property
+linktitle: show_paragraph_marks property
+articleTitle: show_paragraph_marks property
+second_title: Aspose.Words for Python
+description: "LayoutOptions.show_paragraph_marks property. Gets or sets indication of whether paragraph marks are rendered"
 type: docs
 weight: 80
 url: /python-net/aspose.words.layout/layoutoptions/show_paragraph_marks/

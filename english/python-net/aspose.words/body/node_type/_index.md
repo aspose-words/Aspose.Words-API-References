@@ -1,7 +1,9 @@
 ﻿---
-title: node_type property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns [NodeType.BODY](../../nodetype/#BODY)."
+title: Body.node_type property
+linktitle: node_type property
+articleTitle: node_type property
+second_title: Aspose.Words for Python
+description: "Body.node_type property. Returns [NodeType.BODY](../../nodetype/#BODY)."
 type: docs
 weight: 20
 url: /python-net/aspose.words/body/node_type/

@@ -1,7 +1,9 @@
 ﻿---
 title: DocumentPropertyCollection indexer
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns a [DocumentProperty](../../documentproperty/) object by index."
+linktitle: DocumentPropertyCollection indexer
+articleTitle: DocumentPropertyCollection indexer
+second_title: Aspose.Words for Python
+description: "DocumentPropertyCollection indexer. Returns a [DocumentProperty](../../documentproperty/) object by index."
 type: docs
 weight: 10
 url: /python-net/aspose.words.properties/documentpropertycollection/__getitem__/

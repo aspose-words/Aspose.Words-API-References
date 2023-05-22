@@ -1,7 +1,9 @@
 ﻿﻿---
 title: Hyphenation class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides methods for working with hyphenation dictionaries"
+linktitle: Hyphenation class
+articleTitle: Hyphenation class
+second_title: Aspose.Words for Python
+description: "aspose.words.Hyphenation class. Provides methods for working with hyphenation dictionaries"
 type: docs
 weight: 480
 url: /python-net/aspose.words/hyphenation/

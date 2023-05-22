@@ -1,7 +1,9 @@
 ﻿﻿---
 title: RowCollection class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides typed access to a collection of [Row](../row/) nodes"
+linktitle: RowCollection class
+articleTitle: RowCollection class
+second_title: Aspose.Words for Python
+description: "aspose.words.tables.RowCollection class. Provides typed access to a collection of [Row](../row/) nodes"
 type: docs
 weight: 100
 url: /python-net/aspose.words.tables/rowcollection/

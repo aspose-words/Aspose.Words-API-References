@@ -1,6 +1,9 @@
 ﻿---
-title: as_field_auto_text_list method
-second_title: Aspose.Words for Python via .NET API Reference
+title: Field.as_field_auto_text_list method
+linktitle: as_field_auto_text_list method
+articleTitle: as_field_auto_text_list method
+second_title: Aspose.Words for Python
+description: "Field.as_field_auto_text_list method. "
 type: docs
 weight: 210
 url: /python-net/aspose.words.fields/field/as_field_auto_text_list/

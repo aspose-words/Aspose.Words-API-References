@@ -1,7 +1,9 @@
 ﻿---
-title: glossary_document property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the glossary document within this document or template"
+title: Document.glossary_document property
+linktitle: glossary_document property
+articleTitle: glossary_document property
+second_title: Aspose.Words for Python
+description: "Document.glossary_document property. Gets or sets the glossary document within this document or template"
 type: docs
 weight: 170
 url: /python-net/aspose.words/document/glossary_document/

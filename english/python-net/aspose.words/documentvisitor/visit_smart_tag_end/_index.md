@@ -1,7 +1,9 @@
 ﻿---
-title: visit_smart_tag_end method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Called when enumeration of a smart tag has ended."
+title: DocumentVisitor.visit_smart_tag_end method
+linktitle: visit_smart_tag_end method
+articleTitle: visit_smart_tag_end method
+second_title: Aspose.Words for Python
+description: "DocumentVisitor.visit_smart_tag_end method. Called when enumeration of a smart tag has ended."
 type: docs
 weight: 410
 url: /python-net/aspose.words/documentvisitor/visit_smart_tag_end/

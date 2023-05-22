@@ -1,7 +1,9 @@
 ﻿---
-title: default_bookmarks_outline_level property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the default level in the document outline at which to display Word bookmarks."
+title: OutlineOptions.default_bookmarks_outline_level property
+linktitle: default_bookmarks_outline_level property
+articleTitle: default_bookmarks_outline_level property
+second_title: Aspose.Words for Python
+description: "OutlineOptions.default_bookmarks_outline_level property. Specifies the default level in the document outline at which to display Word bookmarks."
 type: docs
 weight: 50
 url: /python-net/aspose.words.saving/outlineoptions/default_bookmarks_outline_level/

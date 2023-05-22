@@ -1,7 +1,9 @@
 ﻿---
-title: export_embedded_css property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies whether the CSS (Cascading Style Sheet) should be embedded into Html document."
+title: HtmlFixedSaveOptions.export_embedded_css property
+linktitle: export_embedded_css property
+articleTitle: export_embedded_css property
+second_title: Aspose.Words for Python
+description: "HtmlFixedSaveOptions.export_embedded_css property. Specifies whether the CSS (Cascading Style Sheet) should be embedded into Html document."
 type: docs
 weight: 40
 url: /python-net/aspose.words.saving/htmlfixedsaveoptions/export_embedded_css/

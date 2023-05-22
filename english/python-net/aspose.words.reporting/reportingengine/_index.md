@@ -1,7 +1,9 @@
 ﻿﻿---
 title: ReportingEngine class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides routines to populate template documents with data and a set of settings to control these routines"
+linktitle: ReportingEngine class
+articleTitle: ReportingEngine class
+second_title: Aspose.Words for Python
+description: "aspose.words.reporting.ReportingEngine class. Provides routines to populate template documents with data and a set of settings to control these routines"
 type: docs
 weight: 80
 url: /python-net/aspose.words.reporting/reportingengine/

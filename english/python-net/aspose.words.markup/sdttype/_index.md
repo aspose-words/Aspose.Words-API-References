@@ -1,7 +1,9 @@
 ﻿---
 title: SdtType enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the type of a structured document tag (SDT) node."
+linktitle: SdtType enumeration
+articleTitle: SdtType enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.markup.SdtType enumeration. Specifies the type of a structured document tag (SDT) node."
 type: docs
 weight: 150
 url: /python-net/aspose.words.markup/sdttype/

@@ -1,7 +1,9 @@
 ﻿---
-title: scale_wmf_fonts_to_metafile_size property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a value determining whether or not to scale fonts in WMF metafile according to metafile size on the page."
+title: MetafileRenderingOptions.scale_wmf_fonts_to_metafile_size property
+linktitle: scale_wmf_fonts_to_metafile_size property
+articleTitle: scale_wmf_fonts_to_metafile_size property
+second_title: Aspose.Words for Python
+description: "MetafileRenderingOptions.scale_wmf_fonts_to_metafile_size property. Gets or sets a value determining whether or not to scale fonts in WMF metafile according to metafile size on the page."
 type: docs
 weight: 50
 url: /python-net/aspose.words.saving/metafilerenderingoptions/scale_wmf_fonts_to_metafile_size/

@@ -1,7 +1,9 @@
 ﻿---
-title: rendering_mode property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a value determining how metafile images should be rendered."
+title: MetafileRenderingOptions.rendering_mode property
+linktitle: rendering_mode property
+articleTitle: rendering_mode property
+second_title: Aspose.Words for Python
+description: "MetafileRenderingOptions.rendering_mode property. Gets or sets a value determining how metafile images should be rendered."
 type: docs
 weight: 40
 url: /python-net/aspose.words.saving/metafilerenderingoptions/rendering_mode/

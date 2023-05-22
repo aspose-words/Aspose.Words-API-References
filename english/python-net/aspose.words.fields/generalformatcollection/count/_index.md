@@ -1,7 +1,9 @@
 ﻿---
-title: count property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the total number of the items in the collection."
+title: GeneralFormatCollection.count property
+linktitle: count property
+articleTitle: count property
+second_title: Aspose.Words for Python
+description: "GeneralFormatCollection.count property. Gets the total number of the items in the collection."
 type: docs
 weight: 20
 url: /python-net/aspose.words.fields/generalformatcollection/count/

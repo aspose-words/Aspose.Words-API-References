@@ -1,7 +1,9 @@
 ﻿---
-title: font property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides access to the font formatting of this object."
+title: ShapeBase.font property
+linktitle: font property
+articleTitle: font property
+second_title: Aspose.Words for Python
+description: "ShapeBase.font property. Provides access to the font formatting of this object."
 type: docs
 weight: 190
 url: /python-net/aspose.words.drawing/shapebase/font/

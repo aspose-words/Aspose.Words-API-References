@@ -1,6 +1,8 @@
 ﻿---
 title: HtmlLoadOptions constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: HtmlLoadOptions constructor
+articleTitle: HtmlLoadOptions constructor
+second_title: Aspose.Words for Python
 description: "aspose.words.loading.HtmlLoadOptions constructor"
 type: docs
 weight: 10

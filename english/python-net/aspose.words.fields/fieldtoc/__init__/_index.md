@@ -1,6 +1,9 @@
 ﻿---
 title: FieldToc constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: FieldToc constructor
+articleTitle: FieldToc constructor
+second_title: Aspose.Words for Python
+description: "FieldToc constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/fieldtoc/__init__/

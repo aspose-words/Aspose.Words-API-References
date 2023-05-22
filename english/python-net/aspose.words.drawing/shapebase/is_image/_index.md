@@ -1,7 +1,9 @@
 ﻿---
-title: is_image property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns ``True`` if this shape is an image shape."
+title: ShapeBase.is_image property
+linktitle: is_image property
+articleTitle: is_image property
+second_title: Aspose.Words for Python
+description: "ShapeBase.is_image property. Returns ``True`` if this shape is an image shape."
 type: docs
 weight: 280
 url: /python-net/aspose.words.drawing/shapebase/is_image/

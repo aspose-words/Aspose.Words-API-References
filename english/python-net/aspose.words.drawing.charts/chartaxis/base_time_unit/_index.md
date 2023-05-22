@@ -1,7 +1,9 @@
 ﻿---
-title: base_time_unit property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns or sets the smallest time unit that is represented on the time category axis."
+title: ChartAxis.base_time_unit property
+linktitle: base_time_unit property
+articleTitle: base_time_unit property
+second_title: Aspose.Words for Python
+description: "ChartAxis.base_time_unit property. Returns or sets the smallest time unit that is represented on the time category axis."
 type: docs
 weight: 20
 url: /python-net/aspose.words.drawing.charts/chartaxis/base_time_unit/

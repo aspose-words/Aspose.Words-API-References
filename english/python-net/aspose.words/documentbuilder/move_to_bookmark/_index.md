@@ -1,6 +1,8 @@
 ﻿---
-title: move_to_bookmark method
-second_title: Aspose.Words for Python via .NET API Reference
+title: DocumentBuilder.move_to_bookmark method
+linktitle: move_to_bookmark method
+articleTitle: move_to_bookmark method
+second_title: Aspose.Words for Python
 description: "aspose.words.DocumentBuilder.move_to_bookmark method"
 type: docs
 weight: 490

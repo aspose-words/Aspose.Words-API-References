@@ -1,7 +1,9 @@
 ﻿---
-title: distance_top property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns or sets the distance (in points) between the document text and the top edge of the shape."
+title: ShapeBase.distance_top property
+linktitle: distance_top property
+articleTitle: distance_top property
+second_title: Aspose.Words for Python
+description: "ShapeBase.distance_top property. Returns or sets the distance (in points) between the document text and the top edge of the shape."
 type: docs
 weight: 160
 url: /python-net/aspose.words.drawing/shapebase/distance_top/

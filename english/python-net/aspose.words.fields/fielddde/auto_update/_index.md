@@ -1,7 +1,9 @@
 ﻿---
-title: auto_update property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets whether to update this field automatically."
+title: FieldDde.auto_update property
+linktitle: auto_update property
+articleTitle: auto_update property
+second_title: Aspose.Words for Python
+description: "FieldDde.auto_update property. Gets or sets whether to update this field automatically."
 type: docs
 weight: 20
 url: /python-net/aspose.words.fields/fielddde/auto_update/

@@ -1,7 +1,9 @@
 ﻿---
-title: from_string method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Creates a [ChartXValue](../) instance of the [ChartXValueType.STRING](../../chartxvaluetype/#STRING) type."
+title: ChartXValue.from_string method
+linktitle: from_string method
+articleTitle: from_string method
+second_title: Aspose.Words for Python
+description: "ChartXValue.from_string method. Creates a [ChartXValue](../) instance of the [ChartXValueType.STRING](../../chartxvaluetype/#STRING) type."
 type: docs
 weight: 100
 url: /python-net/aspose.words.drawing.charts/chartxvalue/from_string/

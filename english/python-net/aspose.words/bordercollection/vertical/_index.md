@@ -1,7 +1,9 @@
 ﻿---
-title: vertical property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the vertical border that is used between cells."
+title: BorderCollection.vertical property
+linktitle: vertical property
+articleTitle: vertical property
+second_title: Aspose.Words for Python
+description: "BorderCollection.vertical property. Gets the vertical border that is used between cells."
 type: docs
 weight: 130
 url: /python-net/aspose.words/bordercollection/vertical/

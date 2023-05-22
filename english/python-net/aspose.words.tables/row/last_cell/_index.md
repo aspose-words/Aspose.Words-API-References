@@ -1,7 +1,9 @@
 ﻿---
-title: last_cell property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns the last [Cell](../../cell/) in the row."
+title: Row.last_cell property
+linktitle: last_cell property
+articleTitle: last_cell property
+second_title: Aspose.Words for Python
+description: "Row.last_cell property. Returns the last [Cell](../../cell/) in the row."
 type: docs
 weight: 60
 url: /python-net/aspose.words.tables/row/last_cell/

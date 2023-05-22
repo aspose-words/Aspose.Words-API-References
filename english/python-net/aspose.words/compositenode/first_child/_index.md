@@ -1,7 +1,9 @@
 ﻿---
-title: first_child property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the first child of the node."
+title: CompositeNode.first_child property
+linktitle: first_child property
+articleTitle: first_child property
+second_title: Aspose.Words for Python
+description: "CompositeNode.first_child property. Gets the first child of the node."
 type: docs
 weight: 30
 url: /python-net/aspose.words/compositenode/first_child/

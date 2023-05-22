@@ -1,6 +1,8 @@
 ﻿﻿---
 title: aspose.words.mailmerging module
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: aspose.words.mailmerging module
+articleTitle: aspose.words.mailmerging module
+second_title: Aspose.Words for Python
 description: "The aspose.words.mailmerging module contains classes of the original mail merge reporting engine."
 type: docs
 weight: 140

@@ -1,7 +1,9 @@
 ﻿---
-title: barcode_value property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the barcode value."
+title: FieldMergeBarcode.barcode_value property
+linktitle: barcode_value property
+articleTitle: barcode_value property
+second_title: Aspose.Words for Python
+description: "FieldMergeBarcode.barcode_value property. Gets or sets the barcode value."
 type: docs
 weight: 50
 url: /python-net/aspose.words.fields/fieldmergebarcode/barcode_value/

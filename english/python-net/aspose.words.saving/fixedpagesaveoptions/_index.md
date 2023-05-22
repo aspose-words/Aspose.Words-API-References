@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FixedPageSaveOptions class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Contains common options that can be specified when saving a document into fixed page formats (PDF, XPS, images etc)"
+linktitle: FixedPageSaveOptions class
+articleTitle: FixedPageSaveOptions class
+second_title: Aspose.Words for Python
+description: "aspose.words.saving.FixedPageSaveOptions class. Contains common options that can be specified when saving a document into fixed page formats (PDF, XPS, images etc)"
 type: docs
 weight: 180
 url: /python-net/aspose.words.saving/fixedpagesaveoptions/

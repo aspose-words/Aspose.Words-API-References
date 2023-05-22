@@ -1,7 +1,9 @@
 ﻿---
-title: stroke property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets line formatting for the parent chart element."
+title: ChartFormat.stroke property
+linktitle: stroke property
+articleTitle: stroke property
+second_title: Aspose.Words for Python
+description: "ChartFormat.stroke property. Gets line formatting for the parent chart element."
 type: docs
 weight: 20
 url: /python-net/aspose.words.drawing.charts/chartformat/stroke/

@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FormField class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a single form field"
+linktitle: FormField class
+articleTitle: FormField class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FormField class. Represents a single form field"
 type: docs
 weight: 1160
 url: /python-net/aspose.words.fields/formfield/

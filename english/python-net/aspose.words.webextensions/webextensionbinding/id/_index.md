@@ -1,7 +1,9 @@
 ﻿---
-title: id property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the binding identifier."
+title: WebExtensionBinding.id property
+linktitle: id property
+articleTitle: id property
+second_title: Aspose.Words for Python
+description: "WebExtensionBinding.id property. Specifies the binding identifier."
 type: docs
 weight: 40
 url: /python-net/aspose.words.webextensions/webextensionbinding/id/

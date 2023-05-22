@@ -1,7 +1,9 @@
 ﻿---
-title: result property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets text that is between the field separator and field end."
+title: Field.result property
+linktitle: result property
+articleTitle: result property
+second_title: Aspose.Words for Python
+description: "Field.result property. Gets or sets text that is between the field separator and field end."
 type: docs
 weight: 70
 url: /python-net/aspose.words.fields/field/result/

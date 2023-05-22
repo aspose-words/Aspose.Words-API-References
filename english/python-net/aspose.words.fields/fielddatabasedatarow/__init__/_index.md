@@ -1,7 +1,9 @@
 ﻿---
 title: FieldDatabaseDataRow constructor
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Initializes a new instance of the [FieldDatabaseDataRow](../) class."
+linktitle: FieldDatabaseDataRow constructor
+articleTitle: FieldDatabaseDataRow constructor
+second_title: Aspose.Words for Python
+description: "FieldDatabaseDataRow constructor. Initializes a new instance of the [FieldDatabaseDataRow](../) class."
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/fielddatabasedatarow/__init__/

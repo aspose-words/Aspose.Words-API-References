@@ -1,7 +1,9 @@
 ﻿---
-title: is_insert_revision property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns true if this object was inserted in Microsoft Word while change tracking was enabled."
+title: Inline.is_insert_revision property
+linktitle: is_insert_revision property
+articleTitle: is_insert_revision property
+second_title: Aspose.Words for Python
+description: "Inline.is_insert_revision property. Returns true if this object was inserted in Microsoft Word while change tracking was enabled."
 type: docs
 weight: 40
 url: /python-net/aspose.words/inline/is_insert_revision/

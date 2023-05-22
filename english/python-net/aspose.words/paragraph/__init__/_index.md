@@ -1,7 +1,9 @@
 ﻿---
 title: Paragraph constructor
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Initializes a new instance of the [Paragraph](../) class."
+linktitle: Paragraph constructor
+articleTitle: Paragraph constructor
+second_title: Aspose.Words for Python
+description: "Paragraph constructor. Initializes a new instance of the [Paragraph](../) class."
 type: docs
 weight: 10
 url: /python-net/aspose.words/paragraph/__init__/

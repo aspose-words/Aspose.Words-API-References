@@ -1,7 +1,9 @@
 ﻿---
-title: resource_file_uri property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the uniform resource identifier (URI) used to reference the resource file from the document."
+title: ResourceSavingArgs.resource_file_uri property
+linktitle: resource_file_uri property
+articleTitle: resource_file_uri property
+second_title: Aspose.Words for Python
+description: "ResourceSavingArgs.resource_file_uri property. Gets or sets the uniform resource identifier (URI) used to reference the resource file from the document."
 type: docs
 weight: 40
 url: /python-net/aspose.words.saving/resourcesavingargs/resource_file_uri/

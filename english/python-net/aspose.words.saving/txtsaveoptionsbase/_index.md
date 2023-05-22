@@ -1,7 +1,9 @@
 ﻿﻿---
 title: TxtSaveOptionsBase class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "The base class for specifying additional options when saving a document into a text based formats"
+linktitle: TxtSaveOptionsBase class
+articleTitle: TxtSaveOptionsBase class
+second_title: Aspose.Words for Python
+description: "aspose.words.saving.TxtSaveOptionsBase class. The base class for specifying additional options when saving a document into a text based formats"
 type: docs
 weight: 820
 url: /python-net/aspose.words.saving/txtsaveoptionsbase/

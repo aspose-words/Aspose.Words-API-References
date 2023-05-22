@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldAutoText class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the AUTOTEXT field"
+linktitle: FieldAutoText class
+articleTitle: FieldAutoText class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldAutoText class. Implements the AUTOTEXT field"
 type: docs
 weight: 150
 url: /python-net/aspose.words.fields/fieldautotext/

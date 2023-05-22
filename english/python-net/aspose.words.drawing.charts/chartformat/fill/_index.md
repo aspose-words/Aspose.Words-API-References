@@ -1,7 +1,9 @@
 ﻿---
-title: fill property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets fill formatting for the parent chart element."
+title: ChartFormat.fill property
+linktitle: fill property
+articleTitle: fill property
+second_title: Aspose.Words for Python
+description: "ChartFormat.fill property. Gets fill formatting for the parent chart element."
 type: docs
 weight: 10
 url: /python-net/aspose.words.drawing.charts/chartformat/fill/

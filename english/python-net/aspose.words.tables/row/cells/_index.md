@@ -1,7 +1,9 @@
 ﻿---
-title: cells property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides typed access to the [Cell](../../cell/) child nodes of the row."
+title: Row.cells property
+linktitle: cells property
+articleTitle: cells property
+second_title: Aspose.Words for Python
+description: "Row.cells property. Provides typed access to the [Cell](../../cell/) child nodes of the row."
 type: docs
 weight: 20
 url: /python-net/aspose.words.tables/row/cells/

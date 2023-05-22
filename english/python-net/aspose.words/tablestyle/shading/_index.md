@@ -1,7 +1,9 @@
 ﻿---
-title: shading property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets a [Shading](../../shading/) object that refers to the shading formatting for table cells."
+title: TableStyle.shading property
+linktitle: shading property
+articleTitle: shading property
+second_title: Aspose.Words for Python
+description: "TableStyle.shading property. Gets a [Shading](../../shading/) object that refers to the shading formatting for table cells."
 type: docs
 weight: 130
 url: /python-net/aspose.words/tablestyle/shading/

@@ -1,7 +1,9 @@
 ﻿﻿---
 title: HyphenationOptions class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to configure document hyphenation options"
+linktitle: HyphenationOptions class
+articleTitle: HyphenationOptions class
+second_title: Aspose.Words for Python
+description: "aspose.words.settings.HyphenationOptions class. Allows to configure document hyphenation options"
 type: docs
 weight: 30
 url: /python-net/aspose.words.settings/hyphenationoptions/

@@ -1,7 +1,9 @@
 ﻿---
-title: vertical_distance_from_text property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies vertical distance (in points) between a frame and the surrounding text."
+title: FrameFormat.vertical_distance_from_text property
+linktitle: vertical_distance_from_text property
+articleTitle: vertical_distance_from_text property
+second_title: Aspose.Words for Python
+description: "FrameFormat.vertical_distance_from_text property. Specifies vertical distance (in points) between a frame and the surrounding text."
 type: docs
 weight: 100
 url: /python-net/aspose.words/frameformat/vertical_distance_from_text/

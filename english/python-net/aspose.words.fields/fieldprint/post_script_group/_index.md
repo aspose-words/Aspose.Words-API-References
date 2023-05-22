@@ -1,7 +1,9 @@
 ﻿---
-title: post_script_group property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the drawing rectangle that the PostScript instructions operate on."
+title: FieldPrint.post_script_group property
+linktitle: post_script_group property
+articleTitle: post_script_group property
+second_title: Aspose.Words for Python
+description: "FieldPrint.post_script_group property. Gets or sets the drawing rectangle that the PostScript instructions operate on."
 type: docs
 weight: 20
 url: /python-net/aspose.words.fields/fieldprint/post_script_group/

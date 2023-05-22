@@ -1,7 +1,9 @@
 ﻿---
-title: is_word_art property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns ``True`` if this shape is a WordArt object."
+title: ShapeBase.is_word_art property
+linktitle: is_word_art property
+articleTitle: is_word_art property
+second_title: Aspose.Words for Python
+description: "ShapeBase.is_word_art property. Returns ``True`` if this shape is a WordArt object."
 type: docs
 weight: 360
 url: /python-net/aspose.words.drawing/shapebase/is_word_art/

@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldAutoNum class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the AUTONUM field"
+linktitle: FieldAutoNum class
+articleTitle: FieldAutoNum class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldAutoNum class. Implements the AUTONUM field"
 type: docs
 weight: 120
 url: /python-net/aspose.words.fields/fieldautonum/

@@ -1,7 +1,9 @@
 ﻿---
-title: top_padding property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the amount of space (in points) to add above the contents of table cells."
+title: ConditionalStyle.top_padding property
+linktitle: top_padding property
+articleTitle: top_padding property
+second_title: Aspose.Words for Python
+description: "ConditionalStyle.top_padding property. Gets or sets the amount of space (in points) to add above the contents of table cells."
 type: docs
 weight: 80
 url: /python-net/aspose.words/conditionalstyle/top_padding/

@@ -1,7 +1,9 @@
 ﻿---
-title: list_style property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the name of the style on which the list to contain entries is based."
+title: FieldAutoTextList.list_style property
+linktitle: list_style property
+articleTitle: list_style property
+second_title: Aspose.Words for Python
+description: "FieldAutoTextList.list_style property. Gets or sets the name of the style on which the list to contain entries is based."
 type: docs
 weight: 30
 url: /python-net/aspose.words.fields/fieldautotextlist/list_style/

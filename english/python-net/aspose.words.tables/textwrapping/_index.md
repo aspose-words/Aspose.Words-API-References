@@ -1,7 +1,9 @@
 ﻿---
 title: TextWrapping enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies how text is wrapped around the table."
+linktitle: TextWrapping enumeration
+articleTitle: TextWrapping enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.tables.TextWrapping enumeration. Specifies how text is wrapped around the table."
 type: docs
 weight: 160
 url: /python-net/aspose.words.tables/textwrapping/

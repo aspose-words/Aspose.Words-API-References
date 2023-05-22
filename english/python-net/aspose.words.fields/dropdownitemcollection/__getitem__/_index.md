@@ -1,7 +1,9 @@
 ﻿---
 title: DropDownItemCollection indexer
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the element at the specified index."
+linktitle: DropDownItemCollection indexer
+articleTitle: DropDownItemCollection indexer
+second_title: Aspose.Words for Python
+description: "DropDownItemCollection indexer. Gets or sets the element at the specified index."
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/dropdownitemcollection/__getitem__/

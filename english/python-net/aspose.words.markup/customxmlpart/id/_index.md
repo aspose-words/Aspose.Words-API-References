@@ -1,7 +1,9 @@
 ﻿---
-title: id property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the string that identifies this custom XML part within an OOXML document."
+title: CustomXmlPart.id property
+linktitle: id property
+articleTitle: id property
+second_title: Aspose.Words for Python
+description: "CustomXmlPart.id property. Gets or sets the string that identifies this custom XML part within an OOXML document."
 type: docs
 weight: 40
 url: /python-net/aspose.words.markup/customxmlpart/id/

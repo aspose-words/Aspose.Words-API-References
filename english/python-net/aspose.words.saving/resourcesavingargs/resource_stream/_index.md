@@ -1,7 +1,9 @@
 ﻿---
-title: resource_stream property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to specify the stream where the resource will be saved to."
+title: ResourceSavingArgs.resource_stream property
+linktitle: resource_stream property
+articleTitle: resource_stream property
+second_title: Aspose.Words for Python
+description: "ResourceSavingArgs.resource_stream property. Allows to specify the stream where the resource will be saved to."
 type: docs
 weight: 50
 url: /python-net/aspose.words.saving/resourcesavingargs/resource_stream/

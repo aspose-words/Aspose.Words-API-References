@@ -1,6 +1,9 @@
 ﻿---
-title: count property
-second_title: Aspose.Words for Python via .NET API Reference
+title: WebExtensionPropertyCollection.count property
+linktitle: count property
+articleTitle: count property
+second_title: Aspose.Words for Python
+description: "WebExtensionPropertyCollection.count property. "
 type: docs
 weight: 20
 url: /python-net/aspose.words.webextensions/webextensionpropertycollection/count/

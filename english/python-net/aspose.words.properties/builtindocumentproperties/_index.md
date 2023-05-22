@@ -1,7 +1,9 @@
 ﻿﻿---
 title: BuiltInDocumentProperties class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "A collection of built-in document properties"
+linktitle: BuiltInDocumentProperties class
+articleTitle: BuiltInDocumentProperties class
+second_title: Aspose.Words for Python
+description: "aspose.words.properties.BuiltInDocumentProperties class. A collection of built-in document properties"
 type: docs
 weight: 10
 url: /python-net/aspose.words.properties/builtindocumentproperties/

@@ -1,7 +1,9 @@
 ﻿---
-title: enabled property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "True if a form field is enabled."
+title: FormField.enabled property
+linktitle: enabled property
+articleTitle: enabled property
+second_title: Aspose.Words for Python
+description: "FormField.enabled property. True if a form field is enabled."
 type: docs
 weight: 70
 url: /python-net/aspose.words.fields/formfield/enabled/

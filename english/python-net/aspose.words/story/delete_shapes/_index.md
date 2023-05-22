@@ -1,7 +1,9 @@
 ﻿---
-title: delete_shapes method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Deletes all shapes from the text of this story."
+title: Story.delete_shapes method
+linktitle: delete_shapes method
+articleTitle: delete_shapes method
+second_title: Aspose.Words for Python
+description: "Story.delete_shapes method. Deletes all shapes from the text of this story."
 type: docs
 weight: 70
 url: /python-net/aspose.words/story/delete_shapes/

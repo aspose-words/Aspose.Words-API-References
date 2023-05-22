@@ -1,7 +1,9 @@
 ﻿﻿---
 title: WebExtensionPropertyCollection class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies a set of web extension custom properties"
+linktitle: WebExtensionPropertyCollection class
+articleTitle: WebExtensionPropertyCollection class
+second_title: Aspose.Words for Python
+description: "aspose.words.webextensions.WebExtensionPropertyCollection class. Specifies a set of web extension custom properties"
 type: docs
 weight: 90
 url: /python-net/aspose.words.webextensions/webextensionpropertycollection/

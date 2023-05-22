@@ -1,7 +1,9 @@
 ﻿---
-title: is_end_of_document property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "True if this paragraph is the last paragraph in the last section of the document."
+title: Paragraph.is_end_of_document property
+linktitle: is_end_of_document property
+articleTitle: is_end_of_document property
+second_title: Aspose.Words for Python
+description: "Paragraph.is_end_of_document property. True if this paragraph is the last paragraph in the last section of the document."
 type: docs
 weight: 60
 url: /python-net/aspose.words/paragraph/is_end_of_document/

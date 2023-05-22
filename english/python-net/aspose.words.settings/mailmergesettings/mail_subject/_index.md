@@ -1,7 +1,9 @@
 ﻿---
-title: mail_subject property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the text which shall appear in the subject line of the e-mails or faxes produced during mail merge"
+title: MailMergeSettings.mail_subject property
+linktitle: mail_subject property
+articleTitle: mail_subject property
+second_title: Aspose.Words for Python
+description: "MailMergeSettings.mail_subject property. Specifies the text which shall appear in the subject line of the e-mails or faxes produced during mail merge"
 type: docs
 weight: 130
 url: /python-net/aspose.words.settings/mailmergesettings/mail_subject/

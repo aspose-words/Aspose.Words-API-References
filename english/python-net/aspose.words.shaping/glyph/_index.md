@@ -1,7 +1,9 @@
 ﻿---
 title: Glyph class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a glyph"
+linktitle: Glyph class
+articleTitle: Glyph class
+second_title: Aspose.Words for Python
+description: "aspose.words.shaping.Glyph class. Represents a glyph"
 type: docs
 weight: 50
 url: /python-net/aspose.words.shaping/glyph/

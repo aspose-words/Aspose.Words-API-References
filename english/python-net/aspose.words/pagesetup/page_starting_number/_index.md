@@ -1,7 +1,9 @@
 ﻿---
-title: page_starting_number property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the starting page number of the section."
+title: PageSetup.page_starting_number property
+linktitle: page_starting_number property
+articleTitle: page_starting_number property
+second_title: Aspose.Words for Python
+description: "PageSetup.page_starting_number property. Gets or sets the starting page number of the section."
 type: docs
 weight: 330
 url: /python-net/aspose.words/pagesetup/page_starting_number/

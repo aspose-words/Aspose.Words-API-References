@@ -1,6 +1,9 @@
 ﻿---
 title: FieldComments constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: FieldComments constructor
+articleTitle: FieldComments constructor
+second_title: Aspose.Words for Python
+description: "FieldComments constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/fieldcomments/__init__/

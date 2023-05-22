@@ -1,7 +1,9 @@
 ﻿---
-title: to_stream method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Creates and returns a stream that contains the image bytes."
+title: ImageData.to_stream method
+linktitle: to_stream method
+articleTitle: to_stream method
+second_title: Aspose.Words for Python
+description: "ImageData.to_stream method. Creates and returns a stream that contains the image bytes."
 type: docs
 weight: 220
 url: /python-net/aspose.words.drawing/imagedata/to_stream/

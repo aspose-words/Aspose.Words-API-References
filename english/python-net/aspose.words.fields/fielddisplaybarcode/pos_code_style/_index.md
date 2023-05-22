@@ -1,7 +1,9 @@
 ﻿---
-title: pos_code_style property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the style of a Point of Sale barcode (barcode types UPCA|UPCE|EAN13|EAN8)"
+title: FieldDisplayBarcode.pos_code_style property
+linktitle: pos_code_style property
+articleTitle: pos_code_style property
+second_title: Aspose.Words for Python
+description: "FieldDisplayBarcode.pos_code_style property. Gets or sets the style of a Point of Sale barcode (barcode types UPCA|UPCE|EAN13|EAN8)"
 type: docs
 weight: 110
 url: /python-net/aspose.words.fields/fielddisplaybarcode/pos_code_style/

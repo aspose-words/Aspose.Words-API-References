@@ -1,7 +1,9 @@
 ﻿---
-title: line_style property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the border style."
+title: BorderCollection.line_style property
+linktitle: line_style property
+articleTitle: line_style property
+second_title: Aspose.Words for Python
+description: "BorderCollection.line_style property. Gets or sets the border style."
 type: docs
 weight: 80
 url: /python-net/aspose.words/bordercollection/line_style/

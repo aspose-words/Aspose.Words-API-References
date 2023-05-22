@@ -1,6 +1,9 @@
 ﻿---
 title: FieldUnknown constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: FieldUnknown constructor
+articleTitle: FieldUnknown constructor
+second_title: Aspose.Words for Python
+description: "FieldUnknown constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/fieldunknown/__init__/

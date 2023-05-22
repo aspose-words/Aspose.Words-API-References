@@ -1,7 +1,9 @@
 ﻿---
-title: height property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the height of the table row in points."
+title: RowFormat.height property
+linktitle: height property
+articleTitle: height property
+second_title: Aspose.Words for Python
+description: "RowFormat.height property. Gets or sets the height of the table row in points."
 type: docs
 weight: 40
 url: /python-net/aspose.words.tables/rowformat/height/

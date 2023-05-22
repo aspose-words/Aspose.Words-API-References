@@ -1,7 +1,9 @@
 ﻿---
 title: ICssSavingCallback class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implement this interface if you want to control how Aspose.Words saves CSS (Cascading Style Sheet) when  saving a document to HTML."
+linktitle: ICssSavingCallback class
+articleTitle: ICssSavingCallback class
+second_title: Aspose.Words for Python
+description: "aspose.words.saving.ICssSavingCallback class. Implement this interface if you want to control how Aspose.Words saves CSS (Cascading Style Sheet) when  saving a document to HTML."
 type: docs
 weight: 280
 url: /python-net/aspose.words.saving/icsssavingcallback/

@@ -1,7 +1,9 @@
 ﻿﻿---
 title: EditableRangeStart class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a start of an editable range in a Word document"
+linktitle: EditableRangeStart class
+articleTitle: EditableRangeStart class
+second_title: Aspose.Words for Python
+description: "aspose.words.EditableRangeStart class. Represents a start of an editable range in a Word document"
 type: docs
 weight: 350
 url: /python-net/aspose.words/editablerangestart/

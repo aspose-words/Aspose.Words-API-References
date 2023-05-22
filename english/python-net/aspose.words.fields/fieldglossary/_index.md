@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldGlossary class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the GLOSSARY field"
+linktitle: FieldGlossary class
+articleTitle: FieldGlossary class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldGlossary class. Implements the GLOSSARY field"
 type: docs
 weight: 500
 url: /python-net/aspose.words.fields/fieldglossary/

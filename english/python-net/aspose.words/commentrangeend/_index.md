@@ -1,7 +1,9 @@
 ﻿﻿---
 title: CommentRangeEnd class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Denotes the end of a region of text that has a comment associated with it"
+linktitle: CommentRangeEnd class
+articleTitle: CommentRangeEnd class
+second_title: Aspose.Words for Python
+description: "aspose.words.CommentRangeEnd class. Denotes the end of a region of text that has a comment associated with it"
 type: docs
 weight: 180
 url: /python-net/aspose.words/commentrangeend/

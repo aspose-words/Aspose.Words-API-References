@@ -1,7 +1,9 @@
 ﻿---
-title: load_linux_settings method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Loads predefined table substitution settings for Linux platform."
+title: TableSubstitutionRule.load_linux_settings method
+linktitle: load_linux_settings method
+articleTitle: load_linux_settings method
+second_title: Aspose.Words for Python
+description: "TableSubstitutionRule.load_linux_settings method. Loads predefined table substitution settings for Linux platform."
 type: docs
 weight: 50
 url: /python-net/aspose.words.fonts/tablesubstitutionrule/load_linux_settings/

@@ -1,6 +1,9 @@
 ﻿---
 title: FieldInfo constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: FieldInfo constructor
+articleTitle: FieldInfo constructor
+second_title: Aspose.Words for Python
+description: "FieldInfo constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/fieldinfo/__init__/

@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldDdeAuto class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the DDEAUTO field"
+linktitle: FieldDdeAuto class
+articleTitle: FieldDdeAuto class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldDdeAuto class. Implements the DDEAUTO field"
 type: docs
 weight: 330
 url: /python-net/aspose.words.fields/fieldddeauto/

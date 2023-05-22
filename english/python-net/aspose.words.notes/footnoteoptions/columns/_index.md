@@ -1,7 +1,9 @@
 ﻿---
-title: columns property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the number of columns with which the footnotes area is formatted."
+title: FootnoteOptions.columns property
+linktitle: columns property
+articleTitle: columns property
+second_title: Aspose.Words for Python
+description: "FootnoteOptions.columns property. Specifies the number of columns with which the footnotes area is formatted."
 type: docs
 weight: 10
 url: /python-net/aspose.words.notes/footnoteoptions/columns/

@@ -1,7 +1,9 @@
 ﻿---
-title: set_text method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "This is a convenience method that allows to easily set text of the comment."
+title: Comment.set_text method
+linktitle: set_text method
+articleTitle: set_text method
+second_title: Aspose.Words for Python
+description: "Comment.set_text method. This is a convenience method that allows to easily set text of the comment."
 type: docs
 weight: 150
 url: /python-net/aspose.words/comment/set_text/

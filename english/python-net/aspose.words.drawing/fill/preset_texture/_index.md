@@ -1,7 +1,9 @@
 ﻿---
-title: preset_texture property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets a [PresetTexture](../../presettexture/) for the fill."
+title: Fill.preset_texture property
+linktitle: preset_texture property
+articleTitle: preset_texture property
+second_title: Aspose.Words for Python
+description: "Fill.preset_texture property. Gets a [PresetTexture](../../presettexture/) for the fill."
 type: docs
 weight: 170
 url: /python-net/aspose.words.drawing/fill/preset_texture/

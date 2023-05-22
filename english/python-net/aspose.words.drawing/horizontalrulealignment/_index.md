@@ -1,7 +1,9 @@
 ﻿---
 title: HorizontalRuleAlignment enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents the alignment for the specified horizontal rule."
+linktitle: HorizontalRuleAlignment enumeration
+articleTitle: HorizontalRuleAlignment enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.drawing.HorizontalRuleAlignment enumeration. Represents the alignment for the specified horizontal rule."
 type: docs
 weight: 150
 url: /python-net/aspose.words.drawing/horizontalrulealignment/

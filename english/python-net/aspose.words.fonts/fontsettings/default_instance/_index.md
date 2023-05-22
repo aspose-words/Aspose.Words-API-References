@@ -1,7 +1,9 @@
 ﻿---
-title: default_instance property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Static default font settings."
+title: FontSettings.default_instance property
+linktitle: default_instance property
+articleTitle: default_instance property
+second_title: Aspose.Words for Python
+description: "FontSettings.default_instance property. Static default font settings."
 type: docs
 weight: 20
 url: /python-net/aspose.words.fonts/fontsettings/default_instance/

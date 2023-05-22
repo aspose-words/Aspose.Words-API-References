@@ -1,6 +1,8 @@
 ﻿﻿---
 title: aspose.words.lists module
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: aspose.words.lists module
+articleTitle: aspose.words.lists module
+second_title: Aspose.Words for Python
 description: "The aspose.words.lists module contains classes for working with bulleted and numbered lists defined in a document."
 type: docs
 weight: 120

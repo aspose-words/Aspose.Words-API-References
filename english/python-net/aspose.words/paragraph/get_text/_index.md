@@ -1,7 +1,9 @@
 ﻿---
-title: get_text method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the text of this paragraph including the end of paragraph character."
+title: Paragraph.get_text method
+linktitle: get_text method
+articleTitle: get_text method
+second_title: Aspose.Words for Python
+description: "Paragraph.get_text method. Gets the text of this paragraph including the end of paragraph character."
 type: docs
 weight: 260
 url: /python-net/aspose.words/paragraph/get_text/

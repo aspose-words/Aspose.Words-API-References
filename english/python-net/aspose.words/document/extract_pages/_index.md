@@ -1,7 +1,9 @@
 ﻿---
-title: extract_pages method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns the [Document](../) object representing specified range of pages."
+title: Document.extract_pages method
+linktitle: extract_pages method
+articleTitle: extract_pages method
+second_title: Aspose.Words for Python
+description: "Document.extract_pages method. Returns the [Document](../) object representing specified range of pages."
 type: docs
 weight: 600
 url: /python-net/aspose.words/document/extract_pages/

@@ -1,7 +1,9 @@
 ﻿---
-title: top property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the top border."
+title: BorderCollection.top property
+linktitle: top property
+articleTitle: top property
+second_title: Aspose.Words for Python
+description: "BorderCollection.top property. Gets the top border."
 type: docs
 weight: 120
 url: /python-net/aspose.words/bordercollection/top/

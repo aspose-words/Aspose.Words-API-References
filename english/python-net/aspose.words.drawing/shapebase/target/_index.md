@@ -1,7 +1,9 @@
 ﻿---
-title: target property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the target frame for the shape hyperlink."
+title: ShapeBase.target property
+linktitle: target property
+articleTitle: target property
+second_title: Aspose.Words for Python
+description: "ShapeBase.target property. Gets or sets the target frame for the shape hyperlink."
 type: docs
 weight: 520
 url: /python-net/aspose.words.drawing/shapebase/target/

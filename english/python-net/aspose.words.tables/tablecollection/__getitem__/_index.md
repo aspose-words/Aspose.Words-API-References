@@ -1,7 +1,9 @@
 ﻿---
 title: TableCollection indexer
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Retrieves a [Table](../../table/) at the given index."
+linktitle: TableCollection indexer
+articleTitle: TableCollection indexer
+second_title: Aspose.Words for Python
+description: "TableCollection indexer. Retrieves a [Table](../../table/) at the given index."
 type: docs
 weight: 10
 url: /python-net/aspose.words.tables/tablecollection/__getitem__/

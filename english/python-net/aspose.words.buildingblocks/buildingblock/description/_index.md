@@ -1,7 +1,9 @@
 ﻿---
-title: description property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the description associated with this building block."
+title: BuildingBlock.description property
+linktitle: description property
+articleTitle: description property
+second_title: Aspose.Words for Python
+description: "BuildingBlock.description property. Gets or sets the description associated with this building block."
 type: docs
 weight: 40
 url: /python-net/aspose.words.buildingblocks/buildingblock/description/

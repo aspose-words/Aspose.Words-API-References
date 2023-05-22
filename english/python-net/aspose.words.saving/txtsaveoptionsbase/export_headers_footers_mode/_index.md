@@ -1,7 +1,9 @@
 ﻿---
-title: export_headers_footers_mode property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the way headers and footers are exported to the text formats"
+title: TxtSaveOptionsBase.export_headers_footers_mode property
+linktitle: export_headers_footers_mode property
+articleTitle: export_headers_footers_mode property
+second_title: Aspose.Words for Python
+description: "TxtSaveOptionsBase.export_headers_footers_mode property. Specifies the way headers and footers are exported to the text formats"
 type: docs
 weight: 20
 url: /python-net/aspose.words.saving/txtsaveoptionsbase/export_headers_footers_mode/

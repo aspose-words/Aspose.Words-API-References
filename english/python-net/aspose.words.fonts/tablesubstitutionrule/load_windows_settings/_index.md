@@ -1,7 +1,9 @@
 ﻿---
-title: load_windows_settings method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Loads predefined table substitution settings for Windows platform."
+title: TableSubstitutionRule.load_windows_settings method
+linktitle: load_windows_settings method
+articleTitle: load_windows_settings method
+second_title: Aspose.Words for Python
+description: "TableSubstitutionRule.load_windows_settings method. Loads predefined table substitution settings for Windows platform."
 type: docs
 weight: 60
 url: /python-net/aspose.words.fonts/tablesubstitutionrule/load_windows_settings/

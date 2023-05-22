@@ -1,7 +1,9 @@
 ﻿---
-title: color property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the border color."
+title: BorderCollection.color property
+linktitle: color property
+articleTitle: color property
+second_title: Aspose.Words for Python
+description: "BorderCollection.color property. Gets or sets the border color."
 type: docs
 weight: 30
 url: /python-net/aspose.words/bordercollection/color/

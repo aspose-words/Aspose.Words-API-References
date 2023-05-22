@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldEmbed class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the EMBED field"
+linktitle: FieldEmbed class
+articleTitle: FieldEmbed class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldEmbed class. Implements the EMBED field"
 type: docs
 weight: 390
 url: /python-net/aspose.words.fields/fieldembed/

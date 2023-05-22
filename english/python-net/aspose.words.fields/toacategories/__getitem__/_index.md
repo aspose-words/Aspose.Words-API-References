@@ -1,7 +1,9 @@
 ﻿---
 title: ToaCategories indexer
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the category heading by category number."
+linktitle: ToaCategories indexer
+articleTitle: ToaCategories indexer
+second_title: Aspose.Words for Python
+description: "ToaCategories indexer. Gets or sets the category heading by category number."
 type: docs
 weight: 20
 url: /python-net/aspose.words.fields/toacategories/__getitem__/

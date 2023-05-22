@@ -1,7 +1,9 @@
 ﻿---
-title: to_array method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Copies all rows from the collection to a new array of rows."
+title: RowCollection.to_array method
+linktitle: to_array method
+articleTitle: to_array method
+second_title: Aspose.Words for Python
+description: "RowCollection.to_array method. Copies all rows from the collection to a new array of rows."
 type: docs
 weight: 20
 url: /python-net/aspose.words.tables/rowcollection/to_array/

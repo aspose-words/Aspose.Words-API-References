@@ -1,7 +1,9 @@
 ﻿﻿---
 title: EndnoteOptions class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents the endnote numbering options for a document or section"
+linktitle: EndnoteOptions class
+articleTitle: EndnoteOptions class
+second_title: Aspose.Words for Python
+description: "aspose.words.notes.EndnoteOptions class. Represents the endnote numbering options for a document or section"
 type: docs
 weight: 10
 url: /python-net/aspose.words.notes/endnoteoptions/

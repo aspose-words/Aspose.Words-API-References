@@ -1,7 +1,9 @@
 ﻿---
-title: accept method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Accepts a visitor."
+title: Paragraph.accept method
+linktitle: accept method
+articleTitle: accept method
+second_title: Aspose.Words for Python
+description: "Paragraph.accept method. Accepts a visitor."
 type: docs
 weight: 230
 url: /python-net/aspose.words/paragraph/accept/

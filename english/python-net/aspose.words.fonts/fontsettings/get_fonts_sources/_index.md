@@ -1,7 +1,9 @@
 ﻿---
-title: get_fonts_sources method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets a copy of the array that contains the list of sources where Aspose.Words looks for TrueType fonts."
+title: FontSettings.get_fonts_sources method
+linktitle: get_fonts_sources method
+articleTitle: get_fonts_sources method
+second_title: Aspose.Words for Python
+description: "FontSettings.get_fonts_sources method. Gets a copy of the array that contains the list of sources where Aspose.Words looks for TrueType fonts."
 type: docs
 weight: 50
 url: /python-net/aspose.words.fonts/fontsettings/get_fonts_sources/

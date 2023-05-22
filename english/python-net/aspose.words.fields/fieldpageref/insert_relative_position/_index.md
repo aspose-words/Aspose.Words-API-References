@@ -1,7 +1,9 @@
 ﻿---
-title: insert_relative_position property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets whether to insert a relative position of the bookmarked paragraph."
+title: FieldPageRef.insert_relative_position property
+linktitle: insert_relative_position property
+articleTitle: insert_relative_position property
+second_title: Aspose.Words for Python
+description: "FieldPageRef.insert_relative_position property. Gets or sets whether to insert a relative position of the bookmarked paragraph."
 type: docs
 weight: 40
 url: /python-net/aspose.words.fields/fieldpageref/insert_relative_position/

@@ -1,7 +1,9 @@
 ﻿﻿---
 title: NodeChangingArgs class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides data for methods of the [INodeChangingCallback](../inodechangingcallback/) interface."
+linktitle: NodeChangingArgs class
+articleTitle: NodeChangingArgs class
+second_title: Aspose.Words for Python
+description: "aspose.words.NodeChangingArgs class. Provides data for methods of the [INodeChangingCallback](../inodechangingcallback/) interface."
 type: docs
 weight: 710
 url: /python-net/aspose.words/nodechangingargs/

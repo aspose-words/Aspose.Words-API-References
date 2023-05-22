@@ -1,7 +1,9 @@
 ﻿---
 title: UnicodeScript enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Unicode Character Database property: Script (sc)."
+linktitle: UnicodeScript enumeration
+articleTitle: UnicodeScript enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.shaping.UnicodeScript enumeration. Unicode Character Database property: Script (sc)."
 type: docs
 weight: 90
 url: /python-net/aspose.words.shaping/unicodescript/

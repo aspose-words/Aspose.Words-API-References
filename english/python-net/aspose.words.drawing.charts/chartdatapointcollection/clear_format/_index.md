@@ -1,7 +1,9 @@
 ﻿---
-title: clear_format method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Clears format of all [ChartDataPoint](../../chartdatapoint/) in this collection."
+title: ChartDataPointCollection.clear_format method
+linktitle: clear_format method
+articleTitle: clear_format method
+second_title: Aspose.Words for Python
+description: "ChartDataPointCollection.clear_format method. Clears format of all [ChartDataPoint](../../chartdatapoint/) in this collection."
 type: docs
 weight: 30
 url: /python-net/aspose.words.drawing.charts/chartdatapointcollection/clear_format/

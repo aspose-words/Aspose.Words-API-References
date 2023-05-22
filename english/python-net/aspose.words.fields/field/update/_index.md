@@ -1,6 +1,8 @@
 ﻿---
-title: update method
-second_title: Aspose.Words for Python via .NET API Reference
+title: Field.update method
+linktitle: update method
+articleTitle: update method
+second_title: Aspose.Words for Python
 description: "aspose.words.fields.Field.update method"
 type: docs
 weight: 1090

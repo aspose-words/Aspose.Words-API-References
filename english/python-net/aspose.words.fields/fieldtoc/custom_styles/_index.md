@@ -1,7 +1,9 @@
 ﻿---
-title: custom_styles property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a list of styles other than the built-in heading styles to include in the table of contents."
+title: FieldToc.custom_styles property
+linktitle: custom_styles property
+articleTitle: custom_styles property
+second_title: Aspose.Words for Python
+description: "FieldToc.custom_styles property. Gets or sets a list of styles other than the built-in heading styles to include in the table of contents."
 type: docs
 weight: 40
 url: /python-net/aspose.words.fields/fieldtoc/custom_styles/

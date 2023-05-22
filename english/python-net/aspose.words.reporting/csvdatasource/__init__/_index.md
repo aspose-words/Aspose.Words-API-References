@@ -1,6 +1,8 @@
 ﻿---
 title: CsvDataSource constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: CsvDataSource constructor
+articleTitle: CsvDataSource constructor
+second_title: Aspose.Words for Python
 description: "aspose.words.reporting.CsvDataSource constructor"
 type: docs
 weight: 10

@@ -1,7 +1,9 @@
 ﻿---
-title: resources_folder property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the physical folder where resources (images) are saved when exporting a document to Svg format"
+title: SvgSaveOptions.resources_folder property
+linktitle: resources_folder property
+articleTitle: resources_folder property
+second_title: Aspose.Words for Python
+description: "SvgSaveOptions.resources_folder property. Specifies the physical folder where resources (images) are saved when exporting a document to Svg format"
 type: docs
 weight: 50
 url: /python-net/aspose.words.saving/svgsaveoptions/resources_folder/

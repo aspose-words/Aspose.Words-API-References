@@ -1,7 +1,9 @@
 ﻿---
-title: preserve_form_fields property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies whether to preserve Microsoft Word form fields as form fields in PDF or convert them to text"
+title: PdfSaveOptions.preserve_form_fields property
+linktitle: preserve_form_fields property
+articleTitle: preserve_form_fields property
+second_title: Aspose.Words for Python
+description: "PdfSaveOptions.preserve_form_fields property. Specifies whether to preserve Microsoft Word form fields as form fields in PDF or convert them to text"
 type: docs
 weight: 270
 url: /python-net/aspose.words.saving/pdfsaveoptions/preserve_form_fields/

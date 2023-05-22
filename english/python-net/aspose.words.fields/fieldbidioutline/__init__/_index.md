@@ -1,6 +1,9 @@
 ﻿---
 title: FieldBidiOutline constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: FieldBidiOutline constructor
+articleTitle: FieldBidiOutline constructor
+second_title: Aspose.Words for Python
+description: "FieldBidiOutline constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/fieldbidioutline/__init__/

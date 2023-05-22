@@ -1,7 +1,9 @@
 ﻿---
-title: update_sdt_content property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets value determining whether content of [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/) is updated before saving."
+title: SaveOptions.update_sdt_content property
+linktitle: update_sdt_content property
+articleTitle: update_sdt_content property
+second_title: Aspose.Words for Python
+description: "SaveOptions.update_sdt_content property. Gets or sets value determining whether content of [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/) is updated before saving."
 type: docs
 weight: 170
 url: /python-net/aspose.words.saving/saveoptions/update_sdt_content/

@@ -1,7 +1,9 @@
 ﻿---
-title: uri property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the namespace URI of the custom XML attribute or smart tag property."
+title: CustomXmlProperty.uri property
+linktitle: uri property
+articleTitle: uri property
+second_title: Aspose.Words for Python
+description: "CustomXmlProperty.uri property. Gets or sets the namespace URI of the custom XML attribute or smart tag property."
 type: docs
 weight: 30
 url: /python-net/aspose.words.markup/customxmlproperty/uri/

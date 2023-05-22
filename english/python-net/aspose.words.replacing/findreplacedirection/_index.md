@@ -1,7 +1,9 @@
 ﻿---
 title: FindReplaceDirection enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies direction for replace operations."
+linktitle: FindReplaceDirection enumeration
+articleTitle: FindReplaceDirection enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.replacing.FindReplaceDirection enumeration. Specifies direction for replace operations."
 type: docs
 weight: 10
 url: /python-net/aspose.words.replacing/findreplacedirection/

@@ -1,6 +1,8 @@
 ﻿---
 title: DocSaveOptions constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: DocSaveOptions constructor
+articleTitle: DocSaveOptions constructor
+second_title: Aspose.Words for Python
 description: "aspose.words.saving.DocSaveOptions constructor"
 type: docs
 weight: 10

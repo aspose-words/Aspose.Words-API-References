@@ -1,7 +1,9 @@
 ﻿---
-title: bidi property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets whether this is a style for a right-to-left table."
+title: TableStyle.bidi property
+linktitle: bidi property
+articleTitle: bidi property
+second_title: Aspose.Words for Python
+description: "TableStyle.bidi property. Gets or sets whether this is a style for a right-to-left table."
 type: docs
 weight: 30
 url: /python-net/aspose.words/tablestyle/bidi/

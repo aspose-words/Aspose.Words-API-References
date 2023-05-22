@@ -1,7 +1,9 @@
 ﻿---
-title: insert_as_bitmap property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets whether to insert the linked object as a bitmap."
+title: FieldDdeAuto.insert_as_bitmap property
+linktitle: insert_as_bitmap property
+articleTitle: insert_as_bitmap property
+second_title: Aspose.Words for Python
+description: "FieldDdeAuto.insert_as_bitmap property. Gets or sets whether to insert the linked object as a bitmap."
 type: docs
 weight: 20
 url: /python-net/aspose.words.fields/fieldddeauto/insert_as_bitmap/

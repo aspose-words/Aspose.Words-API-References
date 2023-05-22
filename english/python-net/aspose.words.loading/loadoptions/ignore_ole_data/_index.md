@@ -1,7 +1,9 @@
 ﻿---
-title: ignore_ole_data property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies whether to ignore the OLE data."
+title: LoadOptions.ignore_ole_data property
+linktitle: ignore_ole_data property
+articleTitle: ignore_ole_data property
+second_title: Aspose.Words for Python
+description: "LoadOptions.ignore_ole_data property. Specifies whether to ignore the OLE data."
 type: docs
 weight: 70
 url: /python-net/aspose.words.loading/loadoptions/ignore_ole_data/

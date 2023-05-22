@@ -1,7 +1,9 @@
 ﻿---
-title: scan_subfolders property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Determines whether or not to scan the subfolders."
+title: FolderFontSource.scan_subfolders property
+linktitle: scan_subfolders property
+articleTitle: scan_subfolders property
+second_title: Aspose.Words for Python
+description: "FolderFontSource.scan_subfolders property. Determines whether or not to scan the subfolders."
 type: docs
 weight: 30
 url: /python-net/aspose.words.fonts/folderfontsource/scan_subfolders/

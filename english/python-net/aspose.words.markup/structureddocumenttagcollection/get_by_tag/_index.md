@@ -1,7 +1,9 @@
 ﻿---
-title: get_by_tag method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns the first structured document tag encountered in the collection with the specified tag."
+title: StructuredDocumentTagCollection.get_by_tag method
+linktitle: get_by_tag method
+articleTitle: get_by_tag method
+second_title: Aspose.Words for Python
+description: "StructuredDocumentTagCollection.get_by_tag method. Returns the first structured document tag encountered in the collection with the specified tag."
 type: docs
 weight: 40
 url: /python-net/aspose.words.markup/structureddocumenttagcollection/get_by_tag/

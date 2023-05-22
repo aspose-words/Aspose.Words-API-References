@@ -1,7 +1,9 @@
 ﻿---
-title: clear method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Clears shadow format."
+title: ShadowFormat.clear method
+linktitle: clear method
+articleTitle: clear method
+second_title: Aspose.Words for Python
+description: "ShadowFormat.clear method. Clears shadow format."
 type: docs
 weight: 30
 url: /python-net/aspose.words.drawing/shadowformat/clear/

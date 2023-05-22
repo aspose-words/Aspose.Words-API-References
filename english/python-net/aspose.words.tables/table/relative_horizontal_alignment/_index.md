@@ -1,7 +1,9 @@
 ﻿---
-title: relative_horizontal_alignment property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets floating table relative horizontal alignment."
+title: Table.relative_horizontal_alignment property
+linktitle: relative_horizontal_alignment property
+articleTitle: relative_horizontal_alignment property
+second_title: Aspose.Words for Python
+description: "Table.relative_horizontal_alignment property. Gets or sets floating table relative horizontal alignment."
 type: docs
 weight: 230
 url: /python-net/aspose.words.tables/table/relative_horizontal_alignment/

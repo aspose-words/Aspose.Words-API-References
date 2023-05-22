@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldTC class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the TC field"
+linktitle: FieldTC class
+articleTitle: FieldTC class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldTC class. Implements the TC field"
 type: docs
 weight: 1020
 url: /python-net/aspose.words.fields/fieldtc/

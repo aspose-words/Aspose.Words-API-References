@@ -1,7 +1,9 @@
 ﻿---
-title: bounds_in_points property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the actual bounds of the shape in points."
+title: NodeRendererBase.bounds_in_points property
+linktitle: bounds_in_points property
+articleTitle: bounds_in_points property
+second_title: Aspose.Words for Python
+description: "NodeRendererBase.bounds_in_points property. Gets the actual bounds of the shape in points."
 type: docs
 weight: 10
 url: /python-net/aspose.words.rendering/noderendererbase/bounds_in_points/

@@ -1,7 +1,9 @@
 ﻿---
-title: characters_per_line property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the number of characters per line in the document grid."
+title: PageSetup.characters_per_line property
+linktitle: characters_per_line property
+articleTitle: characters_per_line property
+second_title: Aspose.Words for Python
+description: "PageSetup.characters_per_line property. Gets or sets the number of characters per line in the document grid."
 type: docs
 weight: 100
 url: /python-net/aspose.words/pagesetup/characters_per_line/

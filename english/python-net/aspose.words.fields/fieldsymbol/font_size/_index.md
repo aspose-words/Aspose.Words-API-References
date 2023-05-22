@@ -1,7 +1,9 @@
 ﻿---
-title: font_size property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the size in points of the font of the character retrieved by the field."
+title: FieldSymbol.font_size property
+linktitle: font_size property
+articleTitle: font_size property
+second_title: Aspose.Words for Python
+description: "FieldSymbol.font_size property. Gets or sets the size in points of the font of the character retrieved by the field."
 type: docs
 weight: 50
 url: /python-net/aspose.words.fields/fieldsymbol/font_size/

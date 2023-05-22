@@ -1,7 +1,9 @@
 ﻿﻿---
 title: ListCollection class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Stores and manages formatting of bulleted and numbered lists used in a document"
+linktitle: ListCollection class
+articleTitle: ListCollection class
+second_title: Aspose.Words for Python
+description: "aspose.words.lists.ListCollection class. Stores and manages formatting of bulleted and numbered lists used in a document"
 type: docs
 weight: 20
 url: /python-net/aspose.words.lists/listcollection/

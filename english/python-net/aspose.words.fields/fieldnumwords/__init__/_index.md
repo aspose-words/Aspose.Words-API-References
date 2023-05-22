@@ -1,6 +1,9 @@
 ﻿---
 title: FieldNumWords constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: FieldNumWords constructor
+articleTitle: FieldNumWords constructor
+second_title: Aspose.Words for Python
+description: "FieldNumWords constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/fieldnumwords/__init__/

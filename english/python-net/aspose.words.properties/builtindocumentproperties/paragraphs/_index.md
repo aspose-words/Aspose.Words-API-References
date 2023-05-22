@@ -1,7 +1,9 @@
 ﻿---
-title: paragraphs property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents an estimate of the number of paragraphs in the document."
+title: BuiltInDocumentProperties.paragraphs property
+linktitle: paragraphs property
+articleTitle: paragraphs property
+second_title: Aspose.Words for Python
+description: "BuiltInDocumentProperties.paragraphs property. Represents an estimate of the number of paragraphs in the document."
 type: docs
 weight: 230
 url: /python-net/aspose.words.properties/builtindocumentproperties/paragraphs/

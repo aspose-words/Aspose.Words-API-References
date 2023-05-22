@@ -1,7 +1,9 @@
 ﻿---
-title: timeout property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Time-out value for accessing timestamp server."
+title: PdfDigitalSignatureTimestampSettings.timeout property
+linktitle: timeout property
+articleTitle: timeout property
+second_title: Aspose.Words for Python
+description: "PdfDigitalSignatureTimestampSettings.timeout property. Time-out value for accessing timestamp server."
 type: docs
 weight: 40
 url: /python-net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/timeout/

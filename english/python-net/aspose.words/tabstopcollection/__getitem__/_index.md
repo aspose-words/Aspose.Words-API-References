@@ -1,7 +1,9 @@
 ﻿---
 title: TabStopCollection indexer
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets a tab stop at the given index."
+linktitle: TabStopCollection indexer
+articleTitle: TabStopCollection indexer
+second_title: Aspose.Words for Python
+description: "TabStopCollection indexer. Gets a tab stop at the given index."
 type: docs
 weight: 10
 url: /python-net/aspose.words/tabstopcollection/__getitem__/

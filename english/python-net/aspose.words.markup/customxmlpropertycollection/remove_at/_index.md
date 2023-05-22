@@ -1,7 +1,9 @@
 ﻿---
-title: remove_at method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Removes a property at the specified index."
+title: CustomXmlPropertyCollection.remove_at method
+linktitle: remove_at method
+articleTitle: remove_at method
+second_title: Aspose.Words for Python
+description: "CustomXmlPropertyCollection.remove_at method. Removes a property at the specified index."
 type: docs
 weight: 90
 url: /python-net/aspose.words.markup/customxmlpropertycollection/remove_at/

@@ -1,6 +1,9 @@
 ﻿---
 title: FieldCompare constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: FieldCompare constructor
+articleTitle: FieldCompare constructor
+second_title: Aspose.Words for Python
+description: "FieldCompare constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/fieldcompare/__init__/

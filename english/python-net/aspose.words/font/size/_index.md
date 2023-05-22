@@ -1,7 +1,9 @@
 ﻿---
-title: size property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the font size in points."
+title: Font.size property
+linktitle: size property
+articleTitle: size property
+second_title: Aspose.Words for Python
+description: "Font.size property. Gets or sets the font size in points."
 type: docs
 weight: 340
 url: /python-net/aspose.words/font/size/

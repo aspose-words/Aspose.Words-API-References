@@ -1,7 +1,9 @@
 ﻿---
-title: forms_design property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies whether the document is in forms design mode."
+title: ViewOptions.forms_design property
+linktitle: forms_design property
+articleTitle: forms_design property
+second_title: Aspose.Words for Python
+description: "ViewOptions.forms_design property. Specifies whether the document is in forms design mode."
 type: docs
 weight: 30
 url: /python-net/aspose.words.settings/viewoptions/forms_design/

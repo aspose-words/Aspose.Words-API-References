@@ -1,7 +1,9 @@
 ﻿---
 title: ChartXValueCollection indexer
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the X value at the specified index."
+linktitle: ChartXValueCollection indexer
+articleTitle: ChartXValueCollection indexer
+second_title: Aspose.Words for Python
+description: "ChartXValueCollection indexer. Gets or sets the X value at the specified index."
 type: docs
 weight: 10
 url: /python-net/aspose.words.drawing.charts/chartxvaluecollection/__getitem__/

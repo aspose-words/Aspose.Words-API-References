@@ -1,7 +1,9 @@
 ﻿---
 title: ShapeMarkupLanguage enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies Markup language used for the shape."
+linktitle: ShapeMarkupLanguage enumeration
+articleTitle: ShapeMarkupLanguage enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.drawing.ShapeMarkupLanguage enumeration. Specifies Markup language used for the shape."
 type: docs
 weight: 350
 url: /python-net/aspose.words.drawing/shapemarkuplanguage/

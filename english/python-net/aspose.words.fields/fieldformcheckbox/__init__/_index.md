@@ -1,6 +1,9 @@
 ﻿---
 title: FieldFormCheckBox constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: FieldFormCheckBox constructor
+articleTitle: FieldFormCheckBox constructor
+second_title: Aspose.Words for Python
+description: "FieldFormCheckBox constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/fieldformcheckbox/__init__/

@@ -1,7 +1,9 @@
 ﻿---
 title: ImportFormatMode enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies how formatting is merged when importing content from another document."
+linktitle: ImportFormatMode enumeration
+articleTitle: ImportFormatMode enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.ImportFormatMode enumeration. Specifies how formatting is merged when importing content from another document."
 type: docs
 weight: 540
 url: /python-net/aspose.words/importformatmode/

@@ -1,7 +1,9 @@
 ﻿---
-title: fallback_font_name property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Name of the font that will be used  if no expected font is found in printer and built-in fonts collections."
+title: PclSaveOptions.fallback_font_name property
+linktitle: fallback_font_name property
+articleTitle: fallback_font_name property
+second_title: Aspose.Words for Python
+description: "PclSaveOptions.fallback_font_name property. Name of the font that will be used  if no expected font is found in printer and built-in fonts collections."
 type: docs
 weight: 20
 url: /python-net/aspose.words.saving/pclsaveoptions/fallback_font_name/

@@ -1,7 +1,9 @@
 ﻿---
 title: GradientStopCollection indexer
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a [GradientStop](../../gradientstop/) object in the collection."
+linktitle: GradientStopCollection indexer
+articleTitle: GradientStopCollection indexer
+second_title: Aspose.Words for Python
+description: "GradientStopCollection indexer. Gets or sets a [GradientStop](../../gradientstop/) object in the collection."
 type: docs
 weight: 10
 url: /python-net/aspose.words.drawing/gradientstopcollection/__getitem__/

@@ -1,7 +1,9 @@
 ﻿---
-title: name_other property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns or sets the font used for characters with character codes from 128 through 255."
+title: Font.name_other property
+linktitle: name_other property
+articleTitle: name_other property
+second_title: Aspose.Words for Python
+description: "Font.name_other property. Returns or sets the font used for characters with character codes from 128 through 255."
 type: docs
 weight: 270
 url: /python-net/aspose.words/font/name_other/

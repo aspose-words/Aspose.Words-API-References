@@ -1,7 +1,9 @@
 ﻿---
-title: add method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Adds an item to this collection."
+title: SdtListItemCollection.add method
+linktitle: add method
+articleTitle: add method
+second_title: Aspose.Words for Python
+description: "SdtListItemCollection.add method. Adds an item to this collection."
 type: docs
 weight: 40
 url: /python-net/aspose.words.markup/sdtlistitemcollection/add/

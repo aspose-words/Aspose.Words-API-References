@@ -1,7 +1,9 @@
 ﻿---
-title: relative_vertical_alignment property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets floating table relative vertical alignment."
+title: Table.relative_vertical_alignment property
+linktitle: relative_vertical_alignment property
+articleTitle: relative_vertical_alignment property
+second_title: Aspose.Words for Python
+description: "Table.relative_vertical_alignment property. Gets or sets floating table relative vertical alignment."
 type: docs
 weight: 240
 url: /python-net/aspose.words.tables/table/relative_vertical_alignment/

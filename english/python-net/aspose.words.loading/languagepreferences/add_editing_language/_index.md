@@ -1,7 +1,9 @@
 ﻿---
-title: add_editing_language method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Adds additional editing language."
+title: LanguagePreferences.add_editing_language method
+linktitle: add_editing_language method
+articleTitle: add_editing_language method
+second_title: Aspose.Words for Python
+description: "LanguagePreferences.add_editing_language method. Adds additional editing language."
 type: docs
 weight: 30
 url: /python-net/aspose.words.loading/languagepreferences/add_editing_language/

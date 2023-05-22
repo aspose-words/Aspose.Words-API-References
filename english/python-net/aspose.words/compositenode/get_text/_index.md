@@ -1,7 +1,9 @@
 ﻿---
-title: get_text method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the text of this node and of all its children."
+title: CompositeNode.get_text method
+linktitle: get_text method
+articleTitle: get_text method
+second_title: Aspose.Words for Python
+description: "CompositeNode.get_text method. Gets the text of this node and of all its children."
 type: docs
 weight: 100
 url: /python-net/aspose.words/compositenode/get_text/

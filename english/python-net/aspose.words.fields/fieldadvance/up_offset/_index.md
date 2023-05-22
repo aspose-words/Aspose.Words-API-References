@@ -1,7 +1,9 @@
 ﻿---
-title: up_offset property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the number of points by which the text that follows the field should be moved up."
+title: FieldAdvance.up_offset property
+linktitle: up_offset property
+articleTitle: up_offset property
+second_title: Aspose.Words for Python
+description: "FieldAdvance.up_offset property. Gets or sets the number of points by which the text that follows the field should be moved up."
 type: docs
 weight: 60
 url: /python-net/aspose.words.fields/fieldadvance/up_offset/

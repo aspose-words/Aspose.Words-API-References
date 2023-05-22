@@ -1,7 +1,9 @@
 ﻿---
-title: clear_quick_style_gallery method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Removes all styles from the Quick Style Gallery panel."
+title: StyleCollection.clear_quick_style_gallery method
+linktitle: clear_quick_style_gallery method
+articleTitle: clear_quick_style_gallery method
+second_title: Aspose.Words for Python
+description: "StyleCollection.clear_quick_style_gallery method. Removes all styles from the Quick Style Gallery panel."
 type: docs
 weight: 80
 url: /python-net/aspose.words/stylecollection/clear_quick_style_gallery/

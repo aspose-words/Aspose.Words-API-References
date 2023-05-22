@@ -1,7 +1,9 @@
 ﻿---
-title: export_embedded_svg property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies whether SVG resources should be embedded into Html document"
+title: HtmlFixedSaveOptions.export_embedded_svg property
+linktitle: export_embedded_svg property
+articleTitle: export_embedded_svg property
+second_title: Aspose.Words for Python
+description: "HtmlFixedSaveOptions.export_embedded_svg property. Specifies whether SVG resources should be embedded into Html document"
 type: docs
 weight: 70
 url: /python-net/aspose.words.saving/htmlfixedsaveoptions/export_embedded_svg/

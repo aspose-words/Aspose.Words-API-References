@@ -1,7 +1,9 @@
 ﻿---
 title: VbaReferenceCollection indexer
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets [VbaReference](../../vbareference/) object at the specified index."
+linktitle: VbaReferenceCollection indexer
+articleTitle: VbaReferenceCollection indexer
+second_title: Aspose.Words for Python
+description: "VbaReferenceCollection indexer. Gets [VbaReference](../../vbareference/) object at the specified index."
 type: docs
 weight: 10
 url: /python-net/aspose.words.vba/vbareferencecollection/__getitem__/

@@ -1,7 +1,9 @@
 ﻿---
-title: built_in_document_properties property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets [PlainTextDocument.built_in_document_properties](./) of the document."
+title: PlainTextDocument.built_in_document_properties property
+linktitle: built_in_document_properties property
+articleTitle: built_in_document_properties property
+second_title: Aspose.Words for Python
+description: "PlainTextDocument.built_in_document_properties property. Gets [PlainTextDocument.built_in_document_properties](./) of the document."
 type: docs
 weight: 20
 url: /python-net/aspose.words/plaintextdocument/built_in_document_properties/

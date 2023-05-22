@@ -1,7 +1,9 @@
 ﻿---
-title: product property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the full name of the product."
+title: BuildVersionInfo.product property
+linktitle: product property
+articleTitle: product property
+second_title: Aspose.Words for Python
+description: "BuildVersionInfo.product property. Gets the full name of the product."
 type: docs
 weight: 10
 url: /python-net/aspose.words/buildversioninfo/product/

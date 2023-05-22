@@ -1,7 +1,9 @@
 ﻿---
-title: document property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns the [FieldMergingArgsBase.document](./) object for which the mail merge is performed."
+title: FieldMergingArgsBase.document property
+linktitle: document property
+articleTitle: document property
+second_title: Aspose.Words for Python
+description: "FieldMergingArgsBase.document property. Returns the [FieldMergingArgsBase.document](./) object for which the mail merge is performed."
 type: docs
 weight: 10
 url: /python-net/aspose.words.mailmerging/fieldmergingargsbase/document/

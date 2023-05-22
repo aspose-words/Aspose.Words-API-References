@@ -1,7 +1,9 @@
 ﻿---
-title: checked property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the checked status of the check box form field"
+title: FormField.checked property
+linktitle: checked property
+articleTitle: checked property
+second_title: Aspose.Words for Python
+description: "FormField.checked property. Gets or sets the checked status of the check box form field"
 type: docs
 weight: 30
 url: /python-net/aspose.words.fields/formfield/checked/

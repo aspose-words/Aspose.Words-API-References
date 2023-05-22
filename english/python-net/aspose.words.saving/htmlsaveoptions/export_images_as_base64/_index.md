@@ -1,7 +1,9 @@
 ﻿---
-title: export_images_as_base64 property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies whether images are saved in Base64 format to the output HTML, MHTML or EPUB"
+title: HtmlSaveOptions.export_images_as_base64 property
+linktitle: export_images_as_base64 property
+articleTitle: export_images_as_base64 property
+second_title: Aspose.Words for Python
+description: "HtmlSaveOptions.export_images_as_base64 property. Specifies whether images are saved in Base64 format to the output HTML, MHTML or EPUB"
 type: docs
 weight: 180
 url: /python-net/aspose.words.saving/htmlsaveoptions/export_images_as_base64/

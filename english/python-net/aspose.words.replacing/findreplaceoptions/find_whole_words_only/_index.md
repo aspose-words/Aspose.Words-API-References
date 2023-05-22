@@ -1,7 +1,9 @@
 ﻿---
-title: find_whole_words_only property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "True indicates the oldValue must be a standalone word."
+title: FindReplaceOptions.find_whole_words_only property
+linktitle: find_whole_words_only property
+articleTitle: find_whole_words_only property
+second_title: Aspose.Words for Python
+description: "FindReplaceOptions.find_whole_words_only property. True indicates the oldValue must be a standalone word."
 type: docs
 weight: 50
 url: /python-net/aspose.words.replacing/findreplaceoptions/find_whole_words_only/

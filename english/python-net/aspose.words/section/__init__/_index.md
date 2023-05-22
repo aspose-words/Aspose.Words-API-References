@@ -1,7 +1,9 @@
 ﻿---
 title: Section constructor
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Initializes a new instance of the Section class."
+linktitle: Section constructor
+articleTitle: Section constructor
+second_title: Aspose.Words for Python
+description: "Section constructor. Initializes a new instance of the Section class."
 type: docs
 weight: 10
 url: /python-net/aspose.words/section/__init__/

@@ -1,6 +1,8 @@
 ﻿---
-title: set_fonts_sources method
-second_title: Aspose.Words for Python via .NET API Reference
+title: FontSettings.set_fonts_sources method
+linktitle: set_fonts_sources method
+articleTitle: set_fonts_sources method
+second_title: Aspose.Words for Python
 description: "aspose.words.fonts.FontSettings.set_fonts_sources method"
 type: docs
 weight: 100

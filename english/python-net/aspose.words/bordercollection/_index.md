@@ -1,7 +1,9 @@
 ﻿﻿---
 title: BorderCollection class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "A collection of [Border](../border/) objects"
+linktitle: BorderCollection class
+articleTitle: BorderCollection class
+second_title: Aspose.Words for Python
+description: "aspose.words.BorderCollection class. A collection of [Border](../border/) objects"
 type: docs
 weight: 80
 url: /python-net/aspose.words/bordercollection/

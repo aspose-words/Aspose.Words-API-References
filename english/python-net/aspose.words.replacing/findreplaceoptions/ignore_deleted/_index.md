@@ -1,7 +1,9 @@
 ﻿---
-title: ignore_deleted property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a boolean value indicating either to ignore text inside delete revisions"
+title: FindReplaceOptions.ignore_deleted property
+linktitle: ignore_deleted property
+articleTitle: ignore_deleted property
+second_title: Aspose.Words for Python
+description: "FindReplaceOptions.ignore_deleted property. Gets or sets a boolean value indicating either to ignore text inside delete revisions"
 type: docs
 weight: 60
 url: /python-net/aspose.words.replacing/findreplaceoptions/ignore_deleted/

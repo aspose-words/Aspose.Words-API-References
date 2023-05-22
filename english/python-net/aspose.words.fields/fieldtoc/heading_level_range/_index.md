@@ -1,7 +1,9 @@
 ﻿---
-title: heading_level_range property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a range of heading levels to include."
+title: FieldToc.heading_level_range property
+linktitle: heading_level_range property
+articleTitle: heading_level_range property
+second_title: Aspose.Words for Python
+description: "FieldToc.heading_level_range property. Gets or sets a range of heading levels to include."
 type: docs
 weight: 80
 url: /python-net/aspose.words.fields/fieldtoc/heading_level_range/

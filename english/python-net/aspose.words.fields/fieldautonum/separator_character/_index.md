@@ -1,7 +1,9 @@
 ﻿---
-title: separator_character property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the separator character to be used."
+title: FieldAutoNum.separator_character property
+linktitle: separator_character property
+articleTitle: separator_character property
+second_title: Aspose.Words for Python
+description: "FieldAutoNum.separator_character property. Gets or sets the separator character to be used."
 type: docs
 weight: 20
 url: /python-net/aspose.words.fields/fieldautonum/separator_character/

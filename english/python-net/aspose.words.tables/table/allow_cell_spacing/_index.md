@@ -1,7 +1,9 @@
 ﻿---
-title: allow_cell_spacing property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the Allow spacing between cells option."
+title: Table.allow_cell_spacing property
+linktitle: allow_cell_spacing property
+articleTitle: allow_cell_spacing property
+second_title: Aspose.Words for Python
+description: "Table.allow_cell_spacing property. Gets or sets the Allow spacing between cells option."
 type: docs
 weight: 60
 url: /python-net/aspose.words.tables/table/allow_cell_spacing/

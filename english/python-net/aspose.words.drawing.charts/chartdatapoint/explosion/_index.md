@@ -1,7 +1,9 @@
 ﻿---
-title: explosion property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the amount the data point shall be moved from the center of the pie"
+title: ChartDataPoint.explosion property
+linktitle: explosion property
+articleTitle: explosion property
+second_title: Aspose.Words for Python
+description: "ChartDataPoint.explosion property. Specifies the amount the data point shall be moved from the center of the pie"
 type: docs
 weight: 20
 url: /python-net/aspose.words.drawing.charts/chartdatapoint/explosion/

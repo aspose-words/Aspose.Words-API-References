@@ -1,7 +1,9 @@
 ﻿---
-title: document_part_file_name property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the file name (without path) where the document part will be saved to."
+title: DocumentPartSavingArgs.document_part_file_name property
+linktitle: document_part_file_name property
+articleTitle: document_part_file_name property
+second_title: Aspose.Words for Python
+description: "DocumentPartSavingArgs.document_part_file_name property. Gets or sets the file name (without path) where the document part will be saved to."
 type: docs
 weight: 20
 url: /python-net/aspose.words.saving/documentpartsavingargs/document_part_file_name/

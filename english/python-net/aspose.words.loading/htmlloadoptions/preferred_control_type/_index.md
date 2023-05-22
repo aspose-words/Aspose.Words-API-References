@@ -1,7 +1,9 @@
 ﻿---
-title: preferred_control_type property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets preferred type of document nodes that will represent imported <input> and <select> elements"
+title: HtmlLoadOptions.preferred_control_type property
+linktitle: preferred_control_type property
+articleTitle: preferred_control_type property
+second_title: Aspose.Words for Python
+description: "HtmlLoadOptions.preferred_control_type property. Gets or sets preferred type of document nodes that will represent imported <input> and <select> elements"
 type: docs
 weight: 50
 url: /python-net/aspose.words.loading/htmlloadoptions/preferred_control_type/

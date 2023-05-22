@@ -1,7 +1,9 @@
 ﻿---
-title: link_source property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the source of a linked custom document property."
+title: DocumentProperty.link_source property
+linktitle: link_source property
+articleTitle: link_source property
+second_title: Aspose.Words for Python
+description: "DocumentProperty.link_source property. Gets the source of a linked custom document property."
 type: docs
 weight: 20
 url: /python-net/aspose.words.properties/documentproperty/link_source/

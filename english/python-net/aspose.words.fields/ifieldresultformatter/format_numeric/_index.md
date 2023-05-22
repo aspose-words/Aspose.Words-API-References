@@ -1,7 +1,9 @@
 ﻿---
-title: format_numeric method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Called when Aspose.Words applies a numeric format switch, i.e"
+title: IFieldResultFormatter.format_numeric method
+linktitle: format_numeric method
+articleTitle: format_numeric method
+second_title: Aspose.Words for Python
+description: "IFieldResultFormatter.format_numeric method. Called when Aspose.Words applies a numeric format switch, i.e"
 type: docs
 weight: 30
 url: /python-net/aspose.words.fields/ifieldresultformatter/format_numeric/

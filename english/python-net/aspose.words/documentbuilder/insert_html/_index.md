@@ -1,6 +1,8 @@
 ﻿---
-title: insert_html method
-second_title: Aspose.Words for Python via .NET API Reference
+title: DocumentBuilder.insert_html method
+linktitle: insert_html method
+articleTitle: insert_html method
+second_title: Aspose.Words for Python
 description: "aspose.words.DocumentBuilder.insert_html method"
 type: docs
 weight: 350

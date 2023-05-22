@@ -1,7 +1,9 @@
 ﻿---
-title: distance_right property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns or sets the distance (in points) between the document text and the right edge of the shape."
+title: ShapeBase.distance_right property
+linktitle: distance_right property
+articleTitle: distance_right property
+second_title: Aspose.Words for Python
+description: "ShapeBase.distance_right property. Returns or sets the distance (in points) between the document text and the right edge of the shape."
 type: docs
 weight: 150
 url: /python-net/aspose.words.drawing/shapebase/distance_right/

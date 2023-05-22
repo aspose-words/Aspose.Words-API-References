@@ -1,6 +1,8 @@
 ﻿---
-title: update_thumbnail method
-second_title: Aspose.Words for Python via .NET API Reference
+title: Document.update_thumbnail method
+linktitle: update_thumbnail method
+articleTitle: update_thumbnail method
+second_title: Aspose.Words for Python
 description: "aspose.words.Document.update_thumbnail method"
 type: docs
 weight: 760

@@ -1,7 +1,9 @@
 ﻿---
-title: first_row property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the first row style."
+title: ConditionalStyleCollection.first_row property
+linktitle: first_row property
+articleTitle: first_row property
+second_title: Aspose.Words for Python
+description: "ConditionalStyleCollection.first_row property. Gets the first row style."
 type: docs
 weight: 80
 url: /python-net/aspose.words/conditionalstylecollection/first_row/

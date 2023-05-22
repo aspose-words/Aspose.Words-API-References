@@ -1,6 +1,8 @@
 ﻿---
 title: FindReplaceOptions constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: FindReplaceOptions constructor
+articleTitle: FindReplaceOptions constructor
+second_title: Aspose.Words for Python
 description: "aspose.words.replacing.FindReplaceOptions constructor"
 type: docs
 weight: 10

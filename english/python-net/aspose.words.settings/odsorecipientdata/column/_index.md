@@ -1,7 +1,9 @@
 ﻿---
-title: column property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the column within the data source that contains unique data for the current record"
+title: OdsoRecipientData.column property
+linktitle: column property
+articleTitle: column property
+second_title: Aspose.Words for Python
+description: "OdsoRecipientData.column property. Specifies the column within the data source that contains unique data for the current record"
 type: docs
 weight: 30
 url: /python-net/aspose.words.settings/odsorecipientdata/column/

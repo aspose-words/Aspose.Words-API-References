@@ -1,7 +1,9 @@
 ﻿---
-title: to_array method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Copies all building blocks from the collection to a new array of building blocks."
+title: BuildingBlockCollection.to_array method
+linktitle: to_array method
+articleTitle: to_array method
+second_title: Aspose.Words for Python
+description: "BuildingBlockCollection.to_array method. Copies all building blocks from the collection to a new array of building blocks."
 type: docs
 weight: 20
 url: /python-net/aspose.words.buildingblocks/buildingblockcollection/to_array/

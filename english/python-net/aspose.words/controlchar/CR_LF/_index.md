@@ -1,7 +1,9 @@
 ﻿---
-title: CR_LF property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Carriage return followed by line feed character: \\x000d\\x000a or \\r\\n"
+title: ControlChar.CR_LF property
+linktitle: CR_LF property
+articleTitle: CR_LF property
+second_title: Aspose.Words for Python
+description: "ControlChar.CR_LF property. Carriage return followed by line feed character: \\x000d\\x000a or \\r\\n"
 type: docs
 weight: 60
 url: /python-net/aspose.words/controlchar/CR_LF/

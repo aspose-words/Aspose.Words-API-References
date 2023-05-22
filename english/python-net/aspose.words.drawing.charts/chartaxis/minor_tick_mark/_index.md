@@ -1,7 +1,9 @@
 ﻿---
-title: minor_tick_mark property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns or sets the minor tick marks for the axis."
+title: ChartAxis.minor_tick_mark property
+linktitle: minor_tick_mark property
+articleTitle: minor_tick_mark property
+second_title: Aspose.Words for Python
+description: "ChartAxis.minor_tick_mark property. Returns or sets the minor tick marks for the axis."
 type: docs
 weight: 150
 url: /python-net/aspose.words.drawing.charts/chartaxis/minor_tick_mark/

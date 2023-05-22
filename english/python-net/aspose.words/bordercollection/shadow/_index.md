@@ -1,7 +1,9 @@
 ﻿---
-title: shadow property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a value indicating whether the border has a shadow."
+title: BorderCollection.shadow property
+linktitle: shadow property
+articleTitle: shadow property
+second_title: Aspose.Words for Python
+description: "BorderCollection.shadow property. Gets or sets a value indicating whether the border has a shadow."
 type: docs
 weight: 110
 url: /python-net/aspose.words/bordercollection/shadow/

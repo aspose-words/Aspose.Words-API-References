@@ -1,6 +1,8 @@
 ﻿﻿---
 title: aspose.words.vba module
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: aspose.words.vba module
+articleTitle: aspose.words.vba module
+second_title: Aspose.Words for Python
 description: "The aspose.words.vba module provides classes to work with VBA projects."
 type: docs
 weight: 270

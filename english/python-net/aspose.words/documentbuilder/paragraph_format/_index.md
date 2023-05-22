@@ -1,7 +1,9 @@
 ﻿---
-title: paragraph_format property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns an object that represents current paragraph formatting properties."
+title: DocumentBuilder.paragraph_format property
+linktitle: paragraph_format property
+articleTitle: paragraph_format property
+second_title: Aspose.Words for Python
+description: "DocumentBuilder.paragraph_format property. Returns an object that represents current paragraph formatting properties."
 type: docs
 weight: 170
 url: /python-net/aspose.words/documentbuilder/paragraph_format/

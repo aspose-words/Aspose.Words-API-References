@@ -1,7 +1,9 @@
 ﻿---
-title: resource_folder_alias property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the name of the folder used to construct URIs of all resources written into an HTML document"
+title: HtmlSaveOptions.resource_folder_alias property
+linktitle: resource_folder_alias property
+articleTitle: resource_folder_alias property
+second_title: Aspose.Words for Python
+description: "HtmlSaveOptions.resource_folder_alias property. Specifies the name of the folder used to construct URIs of all resources written into an HTML document"
 type: docs
 weight: 430
 url: /python-net/aspose.words.saving/htmlsaveoptions/resource_folder_alias/

@@ -1,6 +1,9 @@
 ﻿---
 title: FontSettings constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: FontSettings constructor
+articleTitle: FontSettings constructor
+second_title: Aspose.Words for Python
+description: "FontSettings constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.fonts/fontsettings/__init__/

@@ -1,7 +1,9 @@
 ﻿---
-title: is_frame property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns ``True`` if the paragraph is a frame."
+title: FrameFormat.is_frame property
+linktitle: is_frame property
+articleTitle: is_frame property
+second_title: Aspose.Words for Python
+description: "FrameFormat.is_frame property. Returns ``True`` if the paragraph is a frame."
 type: docs
 weight: 60
 url: /python-net/aspose.words/frameformat/is_frame/

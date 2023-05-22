@@ -1,7 +1,9 @@
 ﻿---
-title: name property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the name of this building block."
+title: BuildingBlock.name property
+linktitle: name property
+articleTitle: name property
+second_title: Aspose.Words for Python
+description: "BuildingBlock.name property. Gets or sets the name of this building block."
 type: docs
 weight: 90
 url: /python-net/aspose.words.buildingblocks/buildingblock/name/

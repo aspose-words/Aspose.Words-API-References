@@ -1,7 +1,9 @@
 ﻿---
-title: page_height property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns or sets the height of the page in points."
+title: PageSetup.page_height property
+linktitle: page_height property
+articleTitle: page_height property
+second_title: Aspose.Words for Python
+description: "PageSetup.page_height property. Returns or sets the height of the page in points."
 type: docs
 weight: 310
 url: /python-net/aspose.words/pagesetup/page_height/

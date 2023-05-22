@@ -1,7 +1,9 @@
 ﻿---
-title: image_color_space_export_mode property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies how the color space will be selected for the images in PDF document."
+title: PdfSaveOptions.image_color_space_export_mode property
+linktitle: image_color_space_export_mode property
+articleTitle: image_color_space_export_mode property
+second_title: Aspose.Words for Python
+description: "PdfSaveOptions.image_color_space_export_mode property. Specifies how the color space will be selected for the images in PDF document."
 type: docs
 weight: 190
 url: /python-net/aspose.words.saving/pdfsaveoptions/image_color_space_export_mode/

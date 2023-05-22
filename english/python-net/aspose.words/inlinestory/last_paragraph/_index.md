@@ -1,7 +1,9 @@
 ﻿---
-title: last_paragraph property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the last paragraph in the story."
+title: InlineStory.last_paragraph property
+linktitle: last_paragraph property
+articleTitle: last_paragraph property
+second_title: Aspose.Words for Python
+description: "InlineStory.last_paragraph property. Gets the last paragraph in the story."
 type: docs
 weight: 70
 url: /python-net/aspose.words/inlinestory/last_paragraph/

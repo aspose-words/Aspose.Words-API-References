@@ -1,7 +1,9 @@
 ﻿---
-title: record_index property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the zero based index of the record that is being merged."
+title: FieldMergingArgsBase.record_index property
+linktitle: record_index property
+articleTitle: record_index property
+second_title: Aspose.Words for Python
+description: "FieldMergingArgsBase.record_index property. Gets the zero based index of the record that is being merged."
 type: docs
 weight: 60
 url: /python-net/aspose.words.mailmerging/fieldmergingargsbase/record_index/

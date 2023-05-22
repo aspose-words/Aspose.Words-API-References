@@ -1,7 +1,9 @@
 ﻿﻿---
 title: Table class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a table in a Word document"
+linktitle: Table class
+articleTitle: Table class
+second_title: Aspose.Words for Python
+description: "aspose.words.tables.Table class. Represents a table in a Word document"
 type: docs
 weight: 120
 url: /python-net/aspose.words.tables/table/

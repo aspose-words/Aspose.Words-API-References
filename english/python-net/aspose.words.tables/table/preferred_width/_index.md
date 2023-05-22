@@ -1,7 +1,9 @@
 ﻿---
-title: preferred_width property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the table preferred width."
+title: Table.preferred_width property
+linktitle: preferred_width property
+articleTitle: preferred_width property
+second_title: Aspose.Words for Python
+description: "Table.preferred_width property. Gets or sets the table preferred width."
 type: docs
 weight: 220
 url: /python-net/aspose.words.tables/table/preferred_width/

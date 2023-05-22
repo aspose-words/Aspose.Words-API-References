@@ -1,7 +1,9 @@
 ﻿---
-title: run_subentries_on_same_line property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets whether run subentries into the same line as the main entry."
+title: FieldIndex.run_subentries_on_same_line property
+linktitle: run_subentries_on_same_line property
+articleTitle: run_subentries_on_same_line property
+second_title: Aspose.Words for Python
+description: "FieldIndex.run_subentries_on_same_line property. Gets or sets whether run subentries into the same line as the main entry."
 type: docs
 weight: 140
 url: /python-net/aspose.words.fields/fieldindex/run_subentries_on_same_line/

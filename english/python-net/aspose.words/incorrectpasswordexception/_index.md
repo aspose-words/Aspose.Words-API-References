@@ -1,7 +1,9 @@
 ﻿﻿---
 title: IncorrectPasswordException class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Thrown if a document is encrypted with a password and the password specified when opening the document is incorrect or missing"
+linktitle: IncorrectPasswordException class
+articleTitle: IncorrectPasswordException class
+second_title: Aspose.Words for Python
+description: "aspose.words.IncorrectPasswordException class. Thrown if a document is encrypted with a password and the password specified when opening the document is incorrect or missing"
 type: docs
 weight: 560
 url: /python-net/aspose.words/incorrectpasswordexception/

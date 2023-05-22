@@ -1,7 +1,9 @@
 ﻿---
-title: field_updating method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "A user defined method that is called just before a field is updated."
+title: IFieldUpdatingCallback.field_updating method
+linktitle: field_updating method
+articleTitle: field_updating method
+second_title: Aspose.Words for Python
+description: "IFieldUpdatingCallback.field_updating method. A user defined method that is called just before a field is updated."
 type: docs
 weight: 20
 url: /python-net/aspose.words.fields/ifieldupdatingcallback/field_updating/

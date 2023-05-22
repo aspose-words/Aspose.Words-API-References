@@ -1,7 +1,9 @@
 ﻿---
-title: insert_hyperlinks property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets whether to make the table of contents entries hyperlinks."
+title: FieldToc.insert_hyperlinks property
+linktitle: insert_hyperlinks property
+articleTitle: insert_hyperlinks property
+second_title: Aspose.Words for Python
+description: "FieldToc.insert_hyperlinks property. Gets or sets whether to make the table of contents entries hyperlinks."
 type: docs
 weight: 100
 url: /python-net/aspose.words.fields/fieldtoc/insert_hyperlinks/

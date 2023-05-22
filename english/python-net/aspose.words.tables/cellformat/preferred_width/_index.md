@@ -1,7 +1,9 @@
 ﻿---
-title: preferred_width property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns or sets the preferred width of the cell."
+title: CellFormat.preferred_width property
+linktitle: preferred_width property
+articleTitle: preferred_width property
+second_title: Aspose.Words for Python
+description: "CellFormat.preferred_width property. Returns or sets the preferred width of the cell."
 type: docs
 weight: 70
 url: /python-net/aspose.words.tables/cellformat/preferred_width/

@@ -1,7 +1,9 @@
 ﻿---
-title: display_text property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the text to display in the run content in place of the [SdtListItem.value](../value/) attribute contents for this list item."
+title: SdtListItem.display_text property
+linktitle: display_text property
+articleTitle: display_text property
+second_title: Aspose.Words for Python
+description: "SdtListItem.display_text property. Gets the text to display in the run content in place of the [SdtListItem.value](../value/) attribute contents for this list item."
 type: docs
 weight: 20
 url: /python-net/aspose.words.markup/sdtlistitem/display_text/

@@ -1,7 +1,9 @@
 ﻿---
-title: to_document method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Constructs a new fully formed document that contains the range."
+title: Range.to_document method
+linktitle: to_document method
+articleTitle: to_document method
+second_title: Aspose.Words for Python
+description: "Range.to_document method. Constructs a new fully formed document that contains the range."
 type: docs
 weight: 110
 url: /python-net/aspose.words/range/to_document/

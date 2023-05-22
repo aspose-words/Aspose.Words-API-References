@@ -1,7 +1,9 @@
 ﻿﻿---
 title: ImageSaveOptions class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to specify additional options when rendering document pages or shapes to images"
+linktitle: ImageSaveOptions class
+articleTitle: ImageSaveOptions class
+second_title: Aspose.Words for Python
+description: "aspose.words.saving.ImageSaveOptions class. Allows to specify additional options when rendering document pages or shapes to images"
 type: docs
 weight: 380
 url: /python-net/aspose.words.saving/imagesaveoptions/

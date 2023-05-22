@@ -1,7 +1,9 @@
 ﻿---
-title: light2 property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies color Light 2."
+title: ThemeColors.light2 property
+linktitle: light2 property
+articleTitle: light2 property
+second_title: Aspose.Words for Python
+description: "ThemeColors.light2 property. Specifies color Light 2."
 type: docs
 weight: 120
 url: /python-net/aspose.words.themes/themecolors/light2/

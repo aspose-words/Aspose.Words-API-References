@@ -1,6 +1,9 @@
 ﻿---
 title: FieldSectionPages constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: FieldSectionPages constructor
+articleTitle: FieldSectionPages constructor
+second_title: Aspose.Words for Python
+description: "FieldSectionPages constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/fieldsectionpages/__init__/

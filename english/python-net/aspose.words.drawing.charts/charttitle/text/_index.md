@@ -1,7 +1,9 @@
 ﻿---
-title: text property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the text of the chart title"
+title: ChartTitle.text property
+linktitle: text property
+articleTitle: text property
+second_title: Aspose.Words for Python
+description: "ChartTitle.text property. Gets or sets the text of the chart title"
 type: docs
 weight: 30
 url: /python-net/aspose.words.drawing.charts/charttitle/text/

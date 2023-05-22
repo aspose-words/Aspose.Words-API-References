@@ -1,7 +1,9 @@
 ﻿---
-title: bookmark_name property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the name of the bookmark that marks the portion of the document used to build the table."
+title: FieldToc.bookmark_name property
+linktitle: bookmark_name property
+articleTitle: bookmark_name property
+second_title: Aspose.Words for Python
+description: "FieldToc.bookmark_name property. Gets or sets the name of the bookmark that marks the portion of the document used to build the table."
 type: docs
 weight: 20
 url: /python-net/aspose.words.fields/fieldtoc/bookmark_name/

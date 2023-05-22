@@ -1,7 +1,9 @@
 ﻿﻿---
 title: WebExtensionBindingCollection class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies a list of web extension bindings"
+linktitle: WebExtensionBindingCollection class
+articleTitle: WebExtensionBindingCollection class
+second_title: Aspose.Words for Python
+description: "aspose.words.webextensions.WebExtensionBindingCollection class. Specifies a list of web extension bindings"
 type: docs
 weight: 60
 url: /python-net/aspose.words.webextensions/webextensionbindingcollection/

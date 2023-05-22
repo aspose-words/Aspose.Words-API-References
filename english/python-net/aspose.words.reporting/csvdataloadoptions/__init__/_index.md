@@ -1,6 +1,8 @@
 ﻿---
 title: CsvDataLoadOptions constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: CsvDataLoadOptions constructor
+articleTitle: CsvDataLoadOptions constructor
+second_title: Aspose.Words for Python
 description: "aspose.words.reporting.CsvDataLoadOptions constructor"
 type: docs
 weight: 10

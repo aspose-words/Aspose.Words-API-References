@@ -1,7 +1,9 @@
 ﻿---
-title: document property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the document to which this node belongs."
+title: Node.document property
+linktitle: document property
+articleTitle: document property
+second_title: Aspose.Words for Python
+description: "Node.document property. Gets the document to which this node belongs."
 type: docs
 weight: 20
 url: /python-net/aspose.words/node/document/

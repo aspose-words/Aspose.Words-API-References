@@ -1,7 +1,9 @@
 ﻿---
-title: count property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets count of objects in the collection."
+title: Forms2OleControlCollection.count property
+linktitle: count property
+articleTitle: count property
+second_title: Aspose.Words for Python
+description: "Forms2OleControlCollection.count property. Gets count of objects in the collection."
 type: docs
 weight: 30
 url: /python-net/aspose.words.drawing.ole/forms2olecontrolcollection/count/

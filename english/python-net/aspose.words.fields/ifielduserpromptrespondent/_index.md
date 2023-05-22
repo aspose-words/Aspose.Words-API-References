@@ -1,7 +1,9 @@
 ﻿---
 title: IFieldUserPromptRespondent class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents the respondent to user prompts during field update."
+linktitle: IFieldUserPromptRespondent class
+articleTitle: IFieldUserPromptRespondent class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.IFieldUserPromptRespondent class. Represents the respondent to user prompts during field update."
 type: docs
 weight: 1270
 url: /python-net/aspose.words.fields/ifielduserpromptrespondent/

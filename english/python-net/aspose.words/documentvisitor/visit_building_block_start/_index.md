@@ -1,7 +1,9 @@
 ﻿---
-title: visit_building_block_start method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Called when enumeration of a building block has started."
+title: DocumentVisitor.visit_building_block_start method
+linktitle: visit_building_block_start method
+articleTitle: visit_building_block_start method
+second_title: Aspose.Words for Python
+description: "DocumentVisitor.visit_building_block_start method. Called when enumeration of a building block has started."
 type: docs
 weight: 70
 url: /python-net/aspose.words/documentvisitor/visit_building_block_start/

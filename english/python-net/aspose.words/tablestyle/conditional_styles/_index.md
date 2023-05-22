@@ -1,7 +1,9 @@
 ﻿---
-title: conditional_styles property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Collection of conditional styles that may be defined for this table style."
+title: TableStyle.conditional_styles property
+linktitle: conditional_styles property
+articleTitle: conditional_styles property
+second_title: Aspose.Words for Python
+description: "TableStyle.conditional_styles property. Collection of conditional styles that may be defined for this table style."
 type: docs
 weight: 80
 url: /python-net/aspose.words/tablestyle/conditional_styles/

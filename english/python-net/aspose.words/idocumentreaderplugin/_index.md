@@ -1,7 +1,9 @@
 ﻿---
 title: IDocumentReaderPlugin class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Defines an interface for external reader plugins that can read a file into a document."
+linktitle: IDocumentReaderPlugin class
+articleTitle: IDocumentReaderPlugin class
+second_title: Aspose.Words for Python
+description: "aspose.words.IDocumentReaderPlugin class. Defines an interface for external reader plugins that can read a file into a document."
 type: docs
 weight: 490
 url: /python-net/aspose.words/idocumentreaderplugin/

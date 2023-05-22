@@ -1,7 +1,9 @@
 ﻿---
-title: appearance property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets/sets the appearance of a structured document tag."
+title: StructuredDocumentTag.appearance property
+linktitle: appearance property
+articleTitle: appearance property
+second_title: Aspose.Words for Python
+description: "StructuredDocumentTag.appearance property. Gets/sets the appearance of a structured document tag."
 type: docs
 weight: 20
 url: /python-net/aspose.words.markup/structureddocumenttag/appearance/

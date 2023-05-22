@@ -1,7 +1,9 @@
 ﻿---
-title: update_table_layout method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements an earlier approach to table column widths re-calculation that has known issues."
+title: Document.update_table_layout method
+linktitle: update_table_layout method
+articleTitle: update_table_layout method
+second_title: Aspose.Words for Python
+description: "Document.update_table_layout method. Implements an earlier approach to table column widths re-calculation that has known issues."
 type: docs
 weight: 750
 url: /python-net/aspose.words/document/update_table_layout/

@@ -1,7 +1,9 @@
 ﻿﻿---
 title: Footnote class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a container for text of a footnote or endnote"
+linktitle: Footnote class
+articleTitle: Footnote class
+second_title: Aspose.Words for Python
+description: "aspose.words.notes.Footnote class. Represents a container for text of a footnote or endnote"
 type: docs
 weight: 30
 url: /python-net/aspose.words.notes/footnote/

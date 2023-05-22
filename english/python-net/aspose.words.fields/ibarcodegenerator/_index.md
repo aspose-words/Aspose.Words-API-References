@@ -1,7 +1,9 @@
 ﻿---
 title: IBarcodeGenerator class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Public interface for barcode custom generator"
+linktitle: IBarcodeGenerator class
+articleTitle: IBarcodeGenerator class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.IBarcodeGenerator class. Public interface for barcode custom generator"
 type: docs
 weight: 1200
 url: /python-net/aspose.words.fields/ibarcodegenerator/

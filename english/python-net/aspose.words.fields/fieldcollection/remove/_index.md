@@ -1,7 +1,9 @@
 ﻿---
-title: remove method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Removes the specified field from this collection and from the document."
+title: FieldCollection.remove method
+linktitle: remove method
+articleTitle: remove method
+second_title: Aspose.Words for Python
+description: "FieldCollection.remove method. Removes the specified field from this collection and from the document."
 type: docs
 weight: 40
 url: /python-net/aspose.words.fields/fieldcollection/remove/

@@ -1,7 +1,9 @@
 ﻿---
-title: type property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns the type of the font source."
+title: StreamFontSource.type property
+linktitle: type property
+articleTitle: type property
+second_title: Aspose.Words for Python
+description: "StreamFontSource.type property. Returns the type of the font source."
 type: docs
 weight: 20
 url: /python-net/aspose.words.fonts/streamfontsource/type/

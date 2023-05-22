@@ -1,7 +1,9 @@
 ﻿---
-title: keep_legacy_control_chars property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Keeps original representation of legacy control characters."
+title: OoxmlSaveOptions.keep_legacy_control_chars property
+linktitle: keep_legacy_control_chars property
+articleTitle: keep_legacy_control_chars property
+second_title: Aspose.Words for Python
+description: "OoxmlSaveOptions.keep_legacy_control_chars property. Keeps original representation of legacy control characters."
 type: docs
 weight: 40
 url: /python-net/aspose.words.saving/ooxmlsaveoptions/keep_legacy_control_chars/

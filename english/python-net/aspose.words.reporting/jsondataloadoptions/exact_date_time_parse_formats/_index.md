@@ -1,7 +1,9 @@
 ﻿---
-title: exact_date_time_parse_formats property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets exact formats for parsing JSON date-time values while loading JSON"
+title: JsonDataLoadOptions.exact_date_time_parse_formats property
+linktitle: exact_date_time_parse_formats property
+articleTitle: exact_date_time_parse_formats property
+second_title: Aspose.Words for Python
+description: "JsonDataLoadOptions.exact_date_time_parse_formats property. Gets or sets exact formats for parsing JSON date-time values while loading JSON"
 type: docs
 weight: 30
 url: /python-net/aspose.words.reporting/jsondataloadoptions/exact_date_time_parse_formats/

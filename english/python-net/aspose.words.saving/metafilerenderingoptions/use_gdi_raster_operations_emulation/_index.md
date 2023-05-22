@@ -1,7 +1,9 @@
 ﻿---
-title: use_gdi_raster_operations_emulation property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a value determining whether or not to use the GDI+ for raster operations emulation."
+title: MetafileRenderingOptions.use_gdi_raster_operations_emulation property
+linktitle: use_gdi_raster_operations_emulation property
+articleTitle: use_gdi_raster_operations_emulation property
+second_title: Aspose.Words for Python
+description: "MetafileRenderingOptions.use_gdi_raster_operations_emulation property. Gets or sets a value determining whether or not to use the GDI+ for raster operations emulation."
 type: docs
 weight: 70
 url: /python-net/aspose.words.saving/metafilerenderingoptions/use_gdi_raster_operations_emulation/
