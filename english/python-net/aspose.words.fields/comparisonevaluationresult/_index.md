@@ -1,7 +1,9 @@
 ﻿﻿---
 title: ComparisonEvaluationResult class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "The comparison evaluation result"
+linktitle: ComparisonEvaluationResult class
+articleTitle: ComparisonEvaluationResult class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.ComparisonEvaluationResult class. The comparison evaluation result"
 type: docs
 weight: 20
 url: /python-net/aspose.words.fields/comparisonevaluationresult/

@@ -1,7 +1,9 @@
 ﻿---
-title: link_to_query property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Not sure about this one"
+title: MailMergeSettings.link_to_query property
+linktitle: link_to_query property
+articleTitle: link_to_query property
+second_title: Aspose.Words for Python
+description: "MailMergeSettings.link_to_query property. Not sure about this one"
 type: docs
 weight: 110
 url: /python-net/aspose.words.settings/mailmergesettings/link_to_query/

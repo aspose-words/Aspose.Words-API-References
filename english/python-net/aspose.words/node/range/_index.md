@@ -1,7 +1,9 @@
 ﻿---
-title: range property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns a [Range](../../range/) object that represents the portion of a document that is contained in this node."
+title: Node.range property
+linktitle: range property
+articleTitle: range property
+second_title: Aspose.Words for Python
+description: "Node.range property. Returns a [Range](../../range/) object that represents the portion of a document that is contained in this node."
 type: docs
 weight: 80
 url: /python-net/aspose.words/node/range/

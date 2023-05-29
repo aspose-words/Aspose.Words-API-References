@@ -1,6 +1,8 @@
 ﻿---
-title: execute method
-second_title: Aspose.Words for Python via .NET API Reference
+title: MailMerge.execute method
+linktitle: execute method
+articleTitle: execute method
+second_title: Aspose.Words for Python
 description: "aspose.words.mailmerging.MailMerge.execute method"
 type: docs
 weight: 180

@@ -1,6 +1,9 @@
 ﻿---
 title: LanguagePreferences constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: LanguagePreferences constructor
+articleTitle: LanguagePreferences constructor
+second_title: Aspose.Words for Python
+description: "LanguagePreferences constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.loading/languagepreferences/__init__/

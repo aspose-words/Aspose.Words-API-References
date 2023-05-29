@@ -1,7 +1,9 @@
 ﻿---
-title: custom_document_properties property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets [PlainTextDocument.custom_document_properties](./) of the document."
+title: PlainTextDocument.custom_document_properties property
+linktitle: custom_document_properties property
+articleTitle: custom_document_properties property
+second_title: Aspose.Words for Python
+description: "PlainTextDocument.custom_document_properties property. Gets [PlainTextDocument.custom_document_properties](./) of the document."
 type: docs
 weight: 30
 url: /python-net/aspose.words/plaintextdocument/custom_document_properties/

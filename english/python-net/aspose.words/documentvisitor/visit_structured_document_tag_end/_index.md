@@ -1,7 +1,9 @@
 ﻿---
-title: visit_structured_document_tag_end method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Called when enumeration of a structured document tag has ended."
+title: DocumentVisitor.visit_structured_document_tag_end method
+linktitle: visit_structured_document_tag_end method
+articleTitle: visit_structured_document_tag_end method
+second_title: Aspose.Words for Python
+description: "DocumentVisitor.visit_structured_document_tag_end method. Called when enumeration of a structured document tag has ended."
 type: docs
 weight: 440
 url: /python-net/aspose.words/documentvisitor/visit_structured_document_tag_end/

@@ -1,7 +1,9 @@
 ﻿---
-title: single_user property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns or sets the single user for editable range."
+title: EditableRange.single_user property
+linktitle: single_user property
+articleTitle: single_user property
+second_title: Aspose.Words for Python
+description: "EditableRange.single_user property. Returns or sets the single user for editable range."
 type: docs
 weight: 50
 url: /python-net/aspose.words/editablerange/single_user/

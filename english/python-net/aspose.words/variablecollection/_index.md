@@ -1,7 +1,9 @@
 ﻿﻿---
 title: VariableCollection class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "A collection of document variables"
+linktitle: VariableCollection class
+articleTitle: VariableCollection class
+second_title: Aspose.Words for Python
+description: "aspose.words.VariableCollection class. A collection of document variables"
 type: docs
 weight: 1290
 url: /python-net/aspose.words/variablecollection/

@@ -1,7 +1,9 @@
 ﻿---
 title: ChmLoadOptions constructor
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Initializes a new instance of this class with default values."
+linktitle: ChmLoadOptions constructor
+articleTitle: ChmLoadOptions constructor
+second_title: Aspose.Words for Python
+description: "ChmLoadOptions constructor. Initializes a new instance of this class with default values."
 type: docs
 weight: 10
 url: /python-net/aspose.words.loading/chmloadoptions/__init__/

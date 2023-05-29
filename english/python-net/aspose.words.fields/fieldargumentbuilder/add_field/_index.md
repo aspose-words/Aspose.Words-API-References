@@ -1,7 +1,9 @@
 ﻿---
-title: add_field method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Adds a field represented by a [FieldBuilder](../../fieldbuilder/) to the argument."
+title: FieldArgumentBuilder.add_field method
+linktitle: add_field method
+articleTitle: add_field method
+second_title: Aspose.Words for Python
+description: "FieldArgumentBuilder.add_field method. Adds a field represented by a [FieldBuilder](../../fieldbuilder/) to the argument."
 type: docs
 weight: 20
 url: /python-net/aspose.words.fields/fieldargumentbuilder/add_field/

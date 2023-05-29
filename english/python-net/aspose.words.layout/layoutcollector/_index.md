@@ -1,7 +1,9 @@
 ﻿﻿---
 title: LayoutCollector class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "This class allows to compute page numbers of document nodes."
+linktitle: LayoutCollector class
+articleTitle: LayoutCollector class
+second_title: Aspose.Words for Python
+description: "aspose.words.layout.LayoutCollector class. This class allows to compute page numbers of document nodes."
 type: docs
 weight: 40
 url: /python-net/aspose.words.layout/layoutcollector/

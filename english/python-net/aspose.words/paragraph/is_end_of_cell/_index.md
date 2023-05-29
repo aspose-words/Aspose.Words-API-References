@@ -1,7 +1,9 @@
 ﻿---
-title: is_end_of_cell property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "True if this paragraph is the last paragraph in a [Cell](../../../aspose.words.tables/cell/); false otherwise."
+title: Paragraph.is_end_of_cell property
+linktitle: is_end_of_cell property
+articleTitle: is_end_of_cell property
+second_title: Aspose.Words for Python
+description: "Paragraph.is_end_of_cell property. True if this paragraph is the last paragraph in a [Cell](../../../aspose.words.tables/cell/); false otherwise."
 type: docs
 weight: 50
 url: /python-net/aspose.words/paragraph/is_end_of_cell/

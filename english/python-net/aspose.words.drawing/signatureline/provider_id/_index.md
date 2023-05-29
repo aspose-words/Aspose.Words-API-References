@@ -1,7 +1,9 @@
 ﻿---
-title: provider_id property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets signature provider identifier for this signature line"
+title: SignatureLine.provider_id property
+linktitle: provider_id property
+articleTitle: provider_id property
+second_title: Aspose.Words for Python
+description: "SignatureLine.provider_id property. Gets or sets signature provider identifier for this signature line"
 type: docs
 weight: 80
 url: /python-net/aspose.words.drawing/signatureline/provider_id/

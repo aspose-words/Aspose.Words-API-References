@@ -1,7 +1,9 @@
 ﻿---
-title: LINE_FEED property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Line feed character: \\x000a or \\n"
+title: ControlChar.LINE_FEED property
+linktitle: LINE_FEED property
+articleTitle: LINE_FEED property
+second_title: Aspose.Words for Python
+description: "ControlChar.LINE_FEED property. Line feed character: \\x000a or \\n"
 type: docs
 weight: 140
 url: /python-net/aspose.words/controlchar/LINE_FEED/

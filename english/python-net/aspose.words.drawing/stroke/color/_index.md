@@ -1,7 +1,9 @@
 ﻿---
-title: color property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Defines the color of a stroke."
+title: Stroke.color property
+linktitle: color property
+articleTitle: color property
+second_title: Aspose.Words for Python
+description: "Stroke.color property. Defines the color of a stroke."
 type: docs
 weight: 20
 url: /python-net/aspose.words.drawing/stroke/color/

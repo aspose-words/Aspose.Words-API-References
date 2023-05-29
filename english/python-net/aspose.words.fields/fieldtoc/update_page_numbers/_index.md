@@ -1,7 +1,9 @@
 ﻿---
-title: update_page_numbers method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Updates the page numbers for items in this table of contents."
+title: FieldToc.update_page_numbers method
+linktitle: update_page_numbers method
+articleTitle: update_page_numbers method
+second_title: Aspose.Words for Python
+description: "FieldToc.update_page_numbers method. Updates the page numbers for items in this table of contents."
 type: docs
 weight: 180
 url: /python-net/aspose.words.fields/fieldtoc/update_page_numbers/

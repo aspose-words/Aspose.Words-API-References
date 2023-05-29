@@ -1,7 +1,9 @@
 ﻿---
-title: get_text method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the special character that this node represents."
+title: SpecialChar.get_text method
+linktitle: get_text method
+articleTitle: get_text method
+second_title: Aspose.Words for Python
+description: "SpecialChar.get_text method. Gets the special character that this node represents."
 type: docs
 weight: 30
 url: /python-net/aspose.words/specialchar/get_text/

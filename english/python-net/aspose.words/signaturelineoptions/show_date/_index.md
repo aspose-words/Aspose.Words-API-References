@@ -1,7 +1,9 @@
 ﻿---
-title: show_date property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a value indicating that sign date is shown in the signature line"
+title: SignatureLineOptions.show_date property
+linktitle: show_date property
+articleTitle: show_date property
+second_title: Aspose.Words for Python
+description: "SignatureLineOptions.show_date property. Gets or sets a value indicating that sign date is shown in the signature line"
 type: docs
 weight: 60
 url: /python-net/aspose.words/signaturelineoptions/show_date/

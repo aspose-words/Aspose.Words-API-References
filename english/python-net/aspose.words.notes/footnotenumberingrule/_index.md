@@ -1,7 +1,9 @@
 ﻿---
 title: FootnoteNumberingRule enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Determines when automatic footnote or endnote numbering restarts."
+linktitle: FootnoteNumberingRule enumeration
+articleTitle: FootnoteNumberingRule enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.notes.FootnoteNumberingRule enumeration. Determines when automatic footnote or endnote numbering restarts."
 type: docs
 weight: 40
 url: /python-net/aspose.words.notes/footnotenumberingrule/

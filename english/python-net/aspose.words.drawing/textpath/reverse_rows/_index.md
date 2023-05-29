@@ -1,7 +1,9 @@
 ﻿---
-title: reverse_rows property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Determines whether the layout order of rows is reversed."
+title: TextPath.reverse_rows property
+linktitle: reverse_rows property
+articleTitle: reverse_rows property
+second_title: Aspose.Words for Python
+description: "TextPath.reverse_rows property. Determines whether the layout order of rows is reversed."
 type: docs
 weight: 80
 url: /python-net/aspose.words.drawing/textpath/reverse_rows/

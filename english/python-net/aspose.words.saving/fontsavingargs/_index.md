@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FontSavingArgs class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides data for the [IFontSavingCallback.font_saving()](../ifontsavingcallback/font_saving/#fontsavingargs) event"
+linktitle: FontSavingArgs class
+articleTitle: FontSavingArgs class
+second_title: Aspose.Words for Python
+description: "aspose.words.saving.FontSavingArgs class. Provides data for the [IFontSavingCallback.font_saving()](../ifontsavingcallback/font_saving/#fontsavingargs) event"
 type: docs
 weight: 190
 url: /python-net/aspose.words.saving/fontsavingargs/

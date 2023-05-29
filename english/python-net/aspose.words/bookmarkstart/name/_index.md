@@ -1,7 +1,9 @@
 ﻿---
-title: name property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the bookmark name."
+title: BookmarkStart.name property
+linktitle: name property
+articleTitle: name property
+second_title: Aspose.Words for Python
+description: "BookmarkStart.name property. Gets or sets the bookmark name."
 type: docs
 weight: 30
 url: /python-net/aspose.words/bookmarkstart/name/

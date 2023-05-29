@@ -1,7 +1,9 @@
 ﻿---
-title: engrave property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "True if the font is formatted as engraved."
+title: Font.engrave property
+linktitle: engrave property
+articleTitle: engrave property
+second_title: Aspose.Words for Python
+description: "Font.engrave property. True if the font is formatted as engraved."
 type: docs
 weight: 120
 url: /python-net/aspose.words/font/engrave/

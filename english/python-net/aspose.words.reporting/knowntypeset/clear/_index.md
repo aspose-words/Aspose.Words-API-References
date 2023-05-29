@@ -1,7 +1,9 @@
 ﻿---
-title: clear method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Removes all items from the set."
+title: KnownTypeSet.clear method
+linktitle: clear method
+articleTitle: clear method
+second_title: Aspose.Words for Python
+description: "KnownTypeSet.clear method. Removes all items from the set."
 type: docs
 weight: 30
 url: /python-net/aspose.words.reporting/knowntypeset/clear/

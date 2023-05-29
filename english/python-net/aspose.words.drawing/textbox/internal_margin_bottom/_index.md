@@ -1,7 +1,9 @@
 ﻿---
-title: internal_margin_bottom property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the inner bottom margin in points for a shape."
+title: TextBox.internal_margin_bottom property
+linktitle: internal_margin_bottom property
+articleTitle: internal_margin_bottom property
+second_title: Aspose.Words for Python
+description: "TextBox.internal_margin_bottom property. Specifies the inner bottom margin in points for a shape."
 type: docs
 weight: 20
 url: /python-net/aspose.words.drawing/textbox/internal_margin_bottom/

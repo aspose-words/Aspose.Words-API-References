@@ -1,7 +1,9 @@
 ﻿---
-title: left property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the left border."
+title: BorderCollection.left property
+linktitle: left property
+articleTitle: left property
+second_title: Aspose.Words for Python
+description: "BorderCollection.left property. Gets the left border."
 type: docs
 weight: 70
 url: /python-net/aspose.words/bordercollection/left/

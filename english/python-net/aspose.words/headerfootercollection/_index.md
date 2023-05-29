@@ -1,7 +1,9 @@
 ﻿﻿---
 title: HeaderFooterCollection class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides typed access to [HeaderFooter](../headerfooter/) nodes of a [Section](../section/)"
+linktitle: HeaderFooterCollection class
+articleTitle: HeaderFooterCollection class
+second_title: Aspose.Words for Python
+description: "aspose.words.HeaderFooterCollection class. Provides typed access to [HeaderFooter](../headerfooter/) nodes of a [Section](../section/)"
 type: docs
 weight: 440
 url: /python-net/aspose.words/headerfootercollection/

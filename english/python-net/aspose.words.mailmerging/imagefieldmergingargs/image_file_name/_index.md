@@ -1,7 +1,9 @@
 ﻿---
-title: image_file_name property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Sets the file name of the image that the mail merge engine must insert into the document."
+title: ImageFieldMergingArgs.image_file_name property
+linktitle: image_file_name property
+articleTitle: image_file_name property
+second_title: Aspose.Words for Python
+description: "ImageFieldMergingArgs.image_file_name property. Sets the file name of the image that the mail merge engine must insert into the document."
 type: docs
 weight: 10
 url: /python-net/aspose.words.mailmerging/imagefieldmergingargs/image_file_name/

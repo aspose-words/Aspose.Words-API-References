@@ -1,7 +1,9 @@
 ﻿---
-title: double_strike_through property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "True if the font is formatted as double strikethrough text."
+title: Font.double_strike_through property
+linktitle: double_strike_through property
+articleTitle: double_strike_through property
+second_title: Aspose.Words for Python
+description: "Font.double_strike_through property. True if the font is formatted as double strikethrough text."
 type: docs
 weight: 90
 url: /python-net/aspose.words/font/double_strike_through/

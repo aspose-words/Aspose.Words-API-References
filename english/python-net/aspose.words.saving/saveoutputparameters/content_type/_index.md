@@ -1,7 +1,9 @@
 ﻿---
-title: content_type property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns the Content-Type string (Internet Media Type) that identifies the type of the saved document."
+title: SaveOutputParameters.content_type property
+linktitle: content_type property
+articleTitle: content_type property
+second_title: Aspose.Words for Python
+description: "SaveOutputParameters.content_type property. Returns the Content-Type string (Internet Media Type) that identifies the type of the saved document."
 type: docs
 weight: 10
 url: /python-net/aspose.words.saving/saveoutputparameters/content_type/

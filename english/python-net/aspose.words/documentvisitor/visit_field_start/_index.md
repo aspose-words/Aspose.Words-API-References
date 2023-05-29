@@ -1,7 +1,9 @@
 ﻿---
-title: visit_field_start method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Called when a field starts in the document."
+title: DocumentVisitor.visit_field_start method
+linktitle: visit_field_start method
+articleTitle: visit_field_start method
+second_title: Aspose.Words for Python
+description: "DocumentVisitor.visit_field_start method. Called when a field starts in the document."
 type: docs
 weight: 200
 url: /python-net/aspose.words/documentvisitor/visit_field_start/

@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldIf class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the IF field"
+linktitle: FieldIf class
+articleTitle: FieldIf class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldIf class. Implements the IF field"
 type: docs
 weight: 540
 url: /python-net/aspose.words.fields/fieldif/

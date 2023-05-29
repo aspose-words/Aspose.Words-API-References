@@ -1,6 +1,8 @@
 ﻿---
 title: HtmlSaveOptions constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: HtmlSaveOptions constructor
+articleTitle: HtmlSaveOptions constructor
+second_title: Aspose.Words for Python
 description: "aspose.words.saving.HtmlSaveOptions constructor"
 type: docs
 weight: 10

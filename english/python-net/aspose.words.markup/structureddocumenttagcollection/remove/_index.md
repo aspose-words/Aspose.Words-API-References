@@ -1,7 +1,9 @@
 ﻿---
-title: remove method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Removes the structured document tag with the specified identifier."
+title: StructuredDocumentTagCollection.remove method
+linktitle: remove method
+articleTitle: remove method
+second_title: Aspose.Words for Python
+description: "StructuredDocumentTagCollection.remove method. Removes the structured document tag with the specified identifier."
 type: docs
 weight: 60
 url: /python-net/aspose.words.markup/structureddocumenttagcollection/remove/

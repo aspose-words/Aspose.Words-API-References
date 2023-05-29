@@ -1,7 +1,9 @@
 ﻿---
-title: fonts_folder property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the physical folder where fonts are saved when exporting a document to HTML"
+title: HtmlSaveOptions.fonts_folder property
+linktitle: fonts_folder property
+articleTitle: fonts_folder property
+second_title: Aspose.Words for Python
+description: "HtmlSaveOptions.fonts_folder property. Specifies the physical folder where fonts are saved when exporting a document to HTML"
 type: docs
 weight: 320
 url: /python-net/aspose.words.saving/htmlsaveoptions/fonts_folder/

@@ -1,7 +1,9 @@
 ﻿---
-title: name property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the form field name."
+title: FormField.name property
+linktitle: name property
+articleTitle: name property
+second_title: Aspose.Words for Python
+description: "FormField.name property. Gets or sets the form field name."
 type: docs
 weight: 130
 url: /python-net/aspose.words.fields/formfield/name/

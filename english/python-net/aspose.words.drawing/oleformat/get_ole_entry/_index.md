@@ -1,7 +1,9 @@
 ﻿---
-title: get_ole_entry method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets OLE object data entry."
+title: OleFormat.get_ole_entry method
+linktitle: get_ole_entry method
+articleTitle: get_ole_entry method
+second_title: Aspose.Words for Python
+description: "OleFormat.get_ole_entry method. Gets OLE object data entry."
 type: docs
 weight: 140
 url: /python-net/aspose.words.drawing/oleformat/get_ole_entry/

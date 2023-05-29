@@ -1,7 +1,9 @@
 ﻿---
-title: visit_building_block_end method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Called when enumeration of a building block has ended."
+title: DocumentVisitor.visit_building_block_end method
+linktitle: visit_building_block_end method
+articleTitle: visit_building_block_end method
+second_title: Aspose.Words for Python
+description: "DocumentVisitor.visit_building_block_end method. Called when enumeration of a building block has ended."
 type: docs
 weight: 60
 url: /python-net/aspose.words/documentvisitor/visit_building_block_end/

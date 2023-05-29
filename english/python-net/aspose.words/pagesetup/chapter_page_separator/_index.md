@@ -1,7 +1,9 @@
 ﻿---
-title: chapter_page_separator property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the separator character that appears between the chapter number and the page number."
+title: PageSetup.chapter_page_separator property
+linktitle: chapter_page_separator property
+articleTitle: chapter_page_separator property
+second_title: Aspose.Words for Python
+description: "PageSetup.chapter_page_separator property. Gets or sets the separator character that appears between the chapter number and the page number."
 type: docs
 weight: 90
 url: /python-net/aspose.words/pagesetup/chapter_page_separator/

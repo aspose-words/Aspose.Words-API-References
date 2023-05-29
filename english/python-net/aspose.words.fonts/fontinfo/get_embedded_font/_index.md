@@ -1,7 +1,9 @@
 ﻿---
-title: get_embedded_font method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets a specific embedded font file."
+title: FontInfo.get_embedded_font method
+linktitle: get_embedded_font method
+articleTitle: get_embedded_font method
+second_title: Aspose.Words for Python
+description: "FontInfo.get_embedded_font method. Gets a specific embedded font file."
 type: docs
 weight: 80
 url: /python-net/aspose.words.fonts/fontinfo/get_embedded_font/

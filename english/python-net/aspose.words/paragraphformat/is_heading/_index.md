@@ -1,7 +1,9 @@
 ﻿---
-title: is_heading property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "True when the paragraph style is one of the built-in Heading styles."
+title: ParagraphFormat.is_heading property
+linktitle: is_heading property
+articleTitle: is_heading property
+second_title: Aspose.Words for Python
+description: "ParagraphFormat.is_heading property. True when the paragraph style is one of the built-in Heading styles."
 type: docs
 weight: 130
 url: /python-net/aspose.words/paragraphformat/is_heading/

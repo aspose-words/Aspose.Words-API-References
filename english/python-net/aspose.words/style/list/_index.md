@@ -1,7 +1,9 @@
 ﻿---
-title: list property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the list that defines formatting of this list style."
+title: Style.list property
+linktitle: list property
+articleTitle: list property
+second_title: Aspose.Words for Python
+description: "Style.list property. Gets the list that defines formatting of this list style."
 type: docs
 weight: 100
 url: /python-net/aspose.words/style/list/

@@ -1,7 +1,9 @@
 ﻿---
-title: add_space_between_far_east_and_alpha property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a flag indicating whether inter-character spacing is automatically adjusted between regions of Latin text and regions of East Asian text in the current paragraph."
+title: ParagraphFormat.add_space_between_far_east_and_alpha property
+linktitle: add_space_between_far_east_and_alpha property
+articleTitle: add_space_between_far_east_and_alpha property
+second_title: Aspose.Words for Python
+description: "ParagraphFormat.add_space_between_far_east_and_alpha property. Gets or sets a flag indicating whether inter-character spacing is automatically adjusted between regions of Latin text and regions of East Asian text in the current paragraph."
 type: docs
 weight: 10
 url: /python-net/aspose.words/paragraphformat/add_space_between_far_east_and_alpha/

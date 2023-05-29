@@ -1,7 +1,9 @@
 ﻿---
 title: ConditionalStyleType enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents possible table areas to which conditional formatting may be defined in a table style."
+linktitle: ConditionalStyleType enumeration
+articleTitle: ConditionalStyleType enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.ConditionalStyleType enumeration. Represents possible table areas to which conditional formatting may be defined in a table style."
 type: docs
 weight: 230
 url: /python-net/aspose.words/conditionalstyletype/

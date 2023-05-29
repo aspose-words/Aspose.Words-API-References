@@ -1,7 +1,9 @@
 ﻿---
-title: parent_section property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Retrieves the parent [Section](../../section/) of the paragraph."
+title: Paragraph.parent_section property
+linktitle: parent_section property
+articleTitle: parent_section property
+second_title: Aspose.Words for Python
+description: "Paragraph.parent_section property. Retrieves the parent [Section](../../section/) of the paragraph."
 type: docs
 weight: 200
 url: /python-net/aspose.words/paragraph/parent_section/

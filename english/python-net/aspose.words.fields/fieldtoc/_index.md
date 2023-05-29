@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldToc class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the TOC field"
+linktitle: FieldToc class
+articleTitle: FieldToc class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldToc class. Implements the TOC field"
 type: docs
 weight: 1070
 url: /python-net/aspose.words.fields/fieldtoc/

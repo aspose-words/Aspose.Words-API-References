@@ -1,7 +1,9 @@
 ﻿---
-title: text property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the text of the run."
+title: Run.text property
+linktitle: text property
+articleTitle: text property
+second_title: Aspose.Words for Python
+description: "Run.text property. Gets or sets the text of the run."
 type: docs
 weight: 50
 url: /python-net/aspose.words/run/text/

@@ -1,7 +1,9 @@
 ﻿---
-title: delete_header_footer_shapes method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Deletes all shapes (drawing objects) from the headers and footers of this section."
+title: Section.delete_header_footer_shapes method
+linktitle: delete_header_footer_shapes method
+articleTitle: delete_header_footer_shapes method
+second_title: Aspose.Words for Python
+description: "Section.delete_header_footer_shapes method. Deletes all shapes (drawing objects) from the headers and footers of this section."
 type: docs
 weight: 120
 url: /python-net/aspose.words/section/delete_header_footer_shapes/

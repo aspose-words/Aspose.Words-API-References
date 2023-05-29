@@ -1,7 +1,9 @@
 ﻿---
-title: password property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Timestamp server password."
+title: PdfDigitalSignatureTimestampSettings.password property
+linktitle: password property
+articleTitle: password property
+second_title: Aspose.Words for Python
+description: "PdfDigitalSignatureTimestampSettings.password property. Timestamp server password."
 type: docs
 weight: 20
 url: /python-net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/password/

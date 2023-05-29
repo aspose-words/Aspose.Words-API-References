@@ -1,7 +1,9 @@
 ﻿---
-title: type property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns type of the axis."
+title: ChartAxis.type property
+linktitle: type property
+articleTitle: type property
+second_title: Aspose.Words for Python
+description: "ChartAxis.type property. Returns type of the axis."
 type: docs
 weight: 280
 url: /python-net/aspose.words.drawing.charts/chartaxis/type/

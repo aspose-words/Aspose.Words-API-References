@@ -1,7 +1,9 @@
 ﻿---
-title: export_headers_footers_mode property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies how headers and footers are output to HTML, MHTML or EPUB"
+title: HtmlSaveOptions.export_headers_footers_mode property
+linktitle: export_headers_footers_mode property
+articleTitle: export_headers_footers_mode property
+second_title: Aspose.Words for Python
+description: "HtmlSaveOptions.export_headers_footers_mode property. Specifies how headers and footers are output to HTML, MHTML or EPUB"
 type: docs
 weight: 170
 url: /python-net/aspose.words.saving/htmlsaveoptions/export_headers_footers_mode/

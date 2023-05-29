@@ -1,7 +1,9 @@
 ﻿---
-title: yomi property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the yomi (first phonetic character for sorting indexes) for the index entry"
+title: FieldXE.yomi property
+linktitle: yomi property
+articleTitle: yomi property
+second_title: Aspose.Words for Python
+description: "FieldXE.yomi property. Gets or sets the yomi (first phonetic character for sorting indexes) for the index entry"
 type: docs
 weight: 80
 url: /python-net/aspose.words.fields/fieldxe/yomi/

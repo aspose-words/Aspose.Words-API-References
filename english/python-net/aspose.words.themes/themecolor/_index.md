@@ -1,7 +1,9 @@
 ﻿﻿---
 title: ThemeColor enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the theme colors for document themes"
+linktitle: ThemeColor enumeration
+articleTitle: ThemeColor enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.themes.ThemeColor enumeration. Specifies the theme colors for document themes"
 type: docs
 weight: 20
 url: /python-net/aspose.words.themes/themecolor/

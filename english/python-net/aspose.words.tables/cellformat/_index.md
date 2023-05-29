@@ -1,7 +1,9 @@
 ﻿﻿---
 title: CellFormat class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents all formatting for a table cell"
+linktitle: CellFormat class
+articleTitle: CellFormat class
+second_title: Aspose.Words for Python
+description: "aspose.words.tables.CellFormat class. Represents all formatting for a table cell"
 type: docs
 weight: 40
 url: /python-net/aspose.words.tables/cellformat/

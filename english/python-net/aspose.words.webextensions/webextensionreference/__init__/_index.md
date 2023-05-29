@@ -1,6 +1,9 @@
 ﻿---
 title: WebExtensionReference constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: WebExtensionReference constructor
+articleTitle: WebExtensionReference constructor
+second_title: Aspose.Words for Python
+description: "WebExtensionReference constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.webextensions/webextensionreference/__init__/

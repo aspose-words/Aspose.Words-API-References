@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldTime class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the TIME field"
+linktitle: FieldTime class
+articleTitle: FieldTime class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldTime class. Implements the TIME field"
 type: docs
 weight: 1040
 url: /python-net/aspose.words.fields/fieldtime/

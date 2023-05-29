@@ -1,7 +1,9 @@
 ﻿---
-title: label_value property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets a numeric value for this label."
+title: ListLabel.label_value property
+linktitle: label_value property
+articleTitle: label_value property
+second_title: Aspose.Words for Python
+description: "ListLabel.label_value property. Gets a numeric value for this label."
 type: docs
 weight: 30
 url: /python-net/aspose.words.lists/listlabel/label_value/

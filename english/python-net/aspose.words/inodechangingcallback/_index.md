@@ -1,7 +1,9 @@
 ﻿---
 title: INodeChangingCallback class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implement this interface if you want to receive notifications when nodes are inserted or removed in the document."
+linktitle: INodeChangingCallback class
+articleTitle: INodeChangingCallback class
+second_title: Aspose.Words for Python
+description: "aspose.words.INodeChangingCallback class. Implement this interface if you want to receive notifications when nodes are inserted or removed in the document."
 type: docs
 weight: 510
 url: /python-net/aspose.words/inodechangingcallback/

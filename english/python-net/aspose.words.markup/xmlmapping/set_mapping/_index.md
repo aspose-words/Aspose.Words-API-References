@@ -1,7 +1,9 @@
 ﻿---
-title: set_mapping method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Sets a mapping between the parent structured document tag and an XML node of a custom XML data part."
+title: XmlMapping.set_mapping method
+linktitle: set_mapping method
+articleTitle: set_mapping method
+second_title: Aspose.Words for Python
+description: "XmlMapping.set_mapping method. Sets a mapping between the parent structured document tag and an XML node of a custom XML data part."
 type: docs
 weight: 70
 url: /python-net/aspose.words.markup/xmlmapping/set_mapping/

@@ -1,7 +1,9 @@
 ﻿---
-title: is_auto property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Holds a value that specifies whether this is a auto-numbered footnote or  footnote with user defined custom reference mark."
+title: Footnote.is_auto property
+linktitle: is_auto property
+articleTitle: is_auto property
+second_title: Aspose.Words for Python
+description: "Footnote.is_auto property. Holds a value that specifies whether this is a auto-numbered footnote or  footnote with user defined custom reference mark."
 type: docs
 weight: 30
 url: /python-net/aspose.words.notes/footnote/is_auto/

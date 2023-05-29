@@ -1,7 +1,9 @@
 ﻿---
-title: author property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the author of this revision"
+title: Revision.author property
+linktitle: author property
+articleTitle: author property
+second_title: Aspose.Words for Python
+description: "Revision.author property. Gets or sets the author of this revision"
 type: docs
 weight: 10
 url: /python-net/aspose.words/revision/author/

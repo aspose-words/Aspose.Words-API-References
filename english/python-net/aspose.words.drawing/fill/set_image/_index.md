@@ -1,6 +1,8 @@
 ﻿---
-title: set_image method
-second_title: Aspose.Words for Python via .NET API Reference
+title: Fill.set_image method
+linktitle: set_image method
+articleTitle: set_image method
+second_title: Aspose.Words for Python
 description: "aspose.words.drawing.Fill.set_image method"
 type: docs
 weight: 250

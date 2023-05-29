@@ -1,7 +1,9 @@
 ﻿---
 title: ChapterPageSeparator enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Defines the separator character that appears between the chapter and page number."
+linktitle: ChapterPageSeparator enumeration
+articleTitle: ChapterPageSeparator enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.ChapterPageSeparator enumeration. Defines the separator character that appears between the chapter and page number."
 type: docs
 weight: 130
 url: /python-net/aspose.words/chapterpageseparator/

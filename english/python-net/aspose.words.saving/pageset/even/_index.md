@@ -1,7 +1,9 @@
 ﻿---
-title: even property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets a set with all the even pages of the document in their original order."
+title: PageSet.even property
+linktitle: even property
+articleTitle: even property
+second_title: Aspose.Words for Python
+description: "PageSet.even property. Gets a set with all the even pages of the document in their original order."
 type: docs
 weight: 30
 url: /python-net/aspose.words.saving/pageset/even/

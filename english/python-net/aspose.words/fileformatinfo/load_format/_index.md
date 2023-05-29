@@ -1,7 +1,9 @@
 ﻿---
-title: load_format property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the detected document format."
+title: FileFormatInfo.load_format property
+linktitle: load_format property
+articleTitle: load_format property
+second_title: Aspose.Words for Python
+description: "FileFormatInfo.load_format property. Gets the detected document format."
 type: docs
 weight: 40
 url: /python-net/aspose.words/fileformatinfo/load_format/

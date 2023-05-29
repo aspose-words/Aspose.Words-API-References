@@ -1,6 +1,8 @@
 ﻿---
-title: end_editable_range method
-second_title: Aspose.Words for Python via .NET API Reference
+title: DocumentBuilder.end_editable_range method
+linktitle: end_editable_range method
+articleTitle: end_editable_range method
+second_title: Aspose.Words for Python
 description: "aspose.words.DocumentBuilder.end_editable_range method"
 type: docs
 weight: 230

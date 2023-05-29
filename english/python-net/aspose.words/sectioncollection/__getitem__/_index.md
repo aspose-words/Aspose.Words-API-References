@@ -1,7 +1,9 @@
 ﻿---
 title: SectionCollection indexer
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Retrieves a section at the given index."
+linktitle: SectionCollection indexer
+articleTitle: SectionCollection indexer
+second_title: Aspose.Words for Python
+description: "SectionCollection indexer. Retrieves a section at the given index."
 type: docs
 weight: 10
 url: /python-net/aspose.words/sectioncollection/__getitem__/

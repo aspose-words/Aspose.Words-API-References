@@ -1,7 +1,9 @@
 ﻿---
-title: image_contrast property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the contrast for the generated images."
+title: ImageSaveOptions.image_contrast property
+linktitle: image_contrast property
+articleTitle: image_contrast property
+second_title: Aspose.Words for Python
+description: "ImageSaveOptions.image_contrast property. Gets or sets the contrast for the generated images."
 type: docs
 weight: 50
 url: /python-net/aspose.words.saving/imagesaveoptions/image_contrast/

@@ -1,7 +1,9 @@
 ﻿---
-title: field_index_format property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a [FieldOptions.field_index_format](./) that represents the formatting for the [FieldIndex](../../fieldindex/) fields in the document."
+title: FieldOptions.field_index_format property
+linktitle: field_index_format property
+articleTitle: field_index_format property
+second_title: Aspose.Words for Python
+description: "FieldOptions.field_index_format property. Gets or sets a [FieldOptions.field_index_format](./) that represents the formatting for the [FieldIndex](../../fieldindex/) fields in the document."
 type: docs
 weight: 80
 url: /python-net/aspose.words.fields/fieldoptions/field_index_format/

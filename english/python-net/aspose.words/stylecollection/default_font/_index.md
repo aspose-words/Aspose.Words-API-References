@@ -1,7 +1,9 @@
 ﻿---
-title: default_font property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets document default text formatting."
+title: StyleCollection.default_font property
+linktitle: default_font property
+articleTitle: default_font property
+second_title: Aspose.Words for Python
+description: "StyleCollection.default_font property. Gets document default text formatting."
 type: docs
 weight: 30
 url: /python-net/aspose.words/stylecollection/default_font/

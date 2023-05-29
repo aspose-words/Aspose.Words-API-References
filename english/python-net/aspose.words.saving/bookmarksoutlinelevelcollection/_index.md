@@ -1,7 +1,9 @@
 ﻿﻿---
 title: BookmarksOutlineLevelCollection class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "A collection of individual bookmarks outline level"
+linktitle: BookmarksOutlineLevelCollection class
+articleTitle: BookmarksOutlineLevelCollection class
+second_title: Aspose.Words for Python
+description: "aspose.words.saving.BookmarksOutlineLevelCollection class. A collection of individual bookmarks outline level"
 type: docs
 weight: 10
 url: /python-net/aspose.words.saving/bookmarksoutlinelevelcollection/

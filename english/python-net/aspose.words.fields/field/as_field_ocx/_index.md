@@ -1,6 +1,9 @@
 ﻿---
-title: as_field_ocx method
-second_title: Aspose.Words for Python via .NET API Reference
+title: Field.as_field_ocx method
+linktitle: as_field_ocx method
+articleTitle: as_field_ocx method
+second_title: Aspose.Words for Python
+description: "Field.as_field_ocx method. "
 type: docs
 weight: 740
 url: /python-net/aspose.words.fields/field/as_field_ocx/

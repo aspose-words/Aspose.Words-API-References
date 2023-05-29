@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FontSubstitutionSettings class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies font substitution mechanism settings"
+linktitle: FontSubstitutionSettings class
+articleTitle: FontSubstitutionSettings class
+second_title: Aspose.Words for Python
+description: "aspose.words.fonts.FontSubstitutionSettings class. Specifies font substitution mechanism settings"
 type: docs
 weight: 180
 url: /python-net/aspose.words.fonts/fontsubstitutionsettings/

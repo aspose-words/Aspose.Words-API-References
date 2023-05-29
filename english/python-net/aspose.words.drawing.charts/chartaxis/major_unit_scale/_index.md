@@ -1,7 +1,9 @@
 ﻿---
-title: major_unit_scale property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns or sets the scale value for major tick marks on the time category axis."
+title: ChartAxis.major_unit_scale property
+linktitle: major_unit_scale property
+articleTitle: major_unit_scale property
+second_title: Aspose.Words for Python
+description: "ChartAxis.major_unit_scale property. Returns or sets the scale value for major tick marks on the time category axis."
 type: docs
 weight: 140
 url: /python-net/aspose.words.drawing.charts/chartaxis/major_unit_scale/

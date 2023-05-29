@@ -1,6 +1,8 @@
 ﻿---
-title: detect_file_format method
-second_title: Aspose.Words for Python via .NET API Reference
+title: FileFormatUtil.detect_file_format method
+linktitle: detect_file_format method
+articleTitle: detect_file_format method
+second_title: Aspose.Words for Python
 description: "aspose.words.FileFormatUtil.detect_file_format method"
 type: docs
 weight: 30

@@ -1,7 +1,9 @@
 ﻿---
-title: allow_break_across_pages property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a flag indicating whether text in a table row is allowed to split across a page break."
+title: TableStyle.allow_break_across_pages property
+linktitle: allow_break_across_pages property
+articleTitle: allow_break_across_pages property
+second_title: Aspose.Words for Python
+description: "TableStyle.allow_break_across_pages property. Gets or sets a flag indicating whether text in a table row is allowed to split across a page break."
 type: docs
 weight: 20
 url: /python-net/aspose.words/tablestyle/allow_break_across_pages/

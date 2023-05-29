@@ -1,7 +1,9 @@
 ﻿---
-title: default_editing_language property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets default editing language."
+title: LanguagePreferences.default_editing_language property
+linktitle: default_editing_language property
+articleTitle: default_editing_language property
+second_title: Aspose.Words for Python
+description: "LanguagePreferences.default_editing_language property. Gets or sets default editing language."
 type: docs
 weight: 20
 url: /python-net/aspose.words.loading/languagepreferences/default_editing_language/

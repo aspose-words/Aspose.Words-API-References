@@ -1,6 +1,8 @@
 ﻿---
 title: PageSet constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: PageSet constructor
+articleTitle: PageSet constructor
+second_title: Aspose.Words for Python
 description: "aspose.words.saving.PageSet constructor"
 type: docs
 weight: 10

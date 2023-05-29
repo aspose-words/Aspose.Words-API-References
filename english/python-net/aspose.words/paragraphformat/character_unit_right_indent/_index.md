@@ -1,7 +1,9 @@
 ﻿---
-title: character_unit_right_indent property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the right indent value (in characters) for the specified paragraphs."
+title: ParagraphFormat.character_unit_right_indent property
+linktitle: character_unit_right_indent property
+articleTitle: character_unit_right_indent property
+second_title: Aspose.Words for Python
+description: "ParagraphFormat.character_unit_right_indent property. Gets or sets the right indent value (in characters) for the specified paragraphs."
 type: docs
 weight: 80
 url: /python-net/aspose.words/paragraphformat/character_unit_right_indent/

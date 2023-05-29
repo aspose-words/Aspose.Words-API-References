@@ -1,7 +1,9 @@
 ﻿---
-title: auto_hyphenation property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets value determining whether automatic hyphenation is turned on for the document"
+title: HyphenationOptions.auto_hyphenation property
+linktitle: auto_hyphenation property
+articleTitle: auto_hyphenation property
+second_title: Aspose.Words for Python
+description: "HyphenationOptions.auto_hyphenation property. Gets or sets value determining whether automatic hyphenation is turned on for the document"
 type: docs
 weight: 20
 url: /python-net/aspose.words.settings/hyphenationoptions/auto_hyphenation/

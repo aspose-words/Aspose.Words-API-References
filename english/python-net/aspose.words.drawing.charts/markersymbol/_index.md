@@ -1,7 +1,9 @@
 ﻿---
 title: MarkerSymbol enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies marker symbol style."
+linktitle: MarkerSymbol enumeration
+articleTitle: MarkerSymbol enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.drawing.charts.MarkerSymbol enumeration. Specifies marker symbol style."
 type: docs
 weight: 400
 url: /python-net/aspose.words.drawing.charts/markersymbol/

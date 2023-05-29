@@ -1,6 +1,9 @@
 ﻿---
 title: FieldGoToButton constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: FieldGoToButton constructor
+articleTitle: FieldGoToButton constructor
+second_title: Aspose.Words for Python
+description: "FieldGoToButton constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/fieldgotobutton/__init__/

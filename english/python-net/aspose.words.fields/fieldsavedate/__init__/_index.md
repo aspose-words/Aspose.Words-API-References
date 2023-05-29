@@ -1,6 +1,9 @@
 ﻿---
 title: FieldSaveDate constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: FieldSaveDate constructor
+articleTitle: FieldSaveDate constructor
+second_title: Aspose.Words for Python
+description: "FieldSaveDate constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/fieldsavedate/__init__/

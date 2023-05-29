@@ -1,7 +1,9 @@
 ﻿---
-title: text property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the text of the subject."
+title: FieldSubject.text property
+linktitle: text property
+articleTitle: text property
+second_title: Aspose.Words for Python
+description: "FieldSubject.text property. Gets or sets the text of the subject."
 type: docs
 weight: 20
 url: /python-net/aspose.words.fields/fieldsubject/text/

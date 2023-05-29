@@ -1,7 +1,9 @@
 ﻿---
-title: headings_outline_levels property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies how many levels of headings (paragraphs formatted with the Heading styles) to include in the  document outline."
+title: OutlineOptions.headings_outline_levels property
+linktitle: headings_outline_levels property
+articleTitle: headings_outline_levels property
+second_title: Aspose.Words for Python
+description: "OutlineOptions.headings_outline_levels property. Specifies how many levels of headings (paragraphs formatted with the Heading styles) to include in the  document outline."
 type: docs
 weight: 70
 url: /python-net/aspose.words.saving/outlineoptions/headings_outline_levels/

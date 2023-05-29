@@ -1,6 +1,8 @@
 ﻿---
 title: XamlFlowSaveOptions constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: XamlFlowSaveOptions constructor
+articleTitle: XamlFlowSaveOptions constructor
+second_title: Aspose.Words for Python
 description: "aspose.words.saving.XamlFlowSaveOptions constructor"
 type: docs
 weight: 10

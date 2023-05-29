@@ -1,7 +1,9 @@
 ﻿---
-title: show_original_revision property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to specify whether the original text should be shown instead of revised one"
+title: RevisionOptions.show_original_revision property
+linktitle: show_original_revision property
+articleTitle: show_original_revision property
+second_title: Aspose.Words for Python
+description: "RevisionOptions.show_original_revision property. Allows to specify whether the original text should be shown instead of revised one"
 type: docs
 weight: 170
 url: /python-net/aspose.words.layout/revisionoptions/show_original_revision/

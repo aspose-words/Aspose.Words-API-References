@@ -1,7 +1,9 @@
 ﻿﻿---
 title: LanguagePreferences class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to set up language preferences"
+linktitle: LanguagePreferences class
+articleTitle: LanguagePreferences class
+second_title: Aspose.Words for Python
+description: "aspose.words.loading.LanguagePreferences class. Allows to set up language preferences"
 type: docs
 weight: 100
 url: /python-net/aspose.words.loading/languagepreferences/

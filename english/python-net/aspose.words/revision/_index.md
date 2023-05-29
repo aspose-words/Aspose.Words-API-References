@@ -1,7 +1,9 @@
 ﻿﻿---
 title: Revision class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a revision (tracked change) in a document node or style"
+linktitle: Revision class
+articleTitle: Revision class
+second_title: Aspose.Words for Python
+description: "aspose.words.Revision class. Represents a revision (tracked change) in a document node or style"
 type: docs
 weight: 920
 url: /python-net/aspose.words/revision/

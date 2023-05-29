@@ -1,7 +1,9 @@
 ﻿---
-title: keep_page_stream_open property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies whether Aspose.Words should keep the stream open or close it after saving a document page."
+title: PageSavingArgs.keep_page_stream_open property
+linktitle: keep_page_stream_open property
+articleTitle: keep_page_stream_open property
+second_title: Aspose.Words for Python
+description: "PageSavingArgs.keep_page_stream_open property. Specifies whether Aspose.Words should keep the stream open or close it after saving a document page."
 type: docs
 weight: 20
 url: /python-net/aspose.words.saving/pagesavingargs/keep_page_stream_open/

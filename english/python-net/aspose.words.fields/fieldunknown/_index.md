@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldUnknown class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements an unknown or unrecognized field"
+linktitle: FieldUnknown class
+articleTitle: FieldUnknown class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldUnknown class. Implements an unknown or unrecognized field"
 type: docs
 weight: 1090
 url: /python-net/aspose.words.fields/fieldunknown/

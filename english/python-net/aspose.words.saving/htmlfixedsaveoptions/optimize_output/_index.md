@@ -1,7 +1,9 @@
 ﻿---
-title: optimize_output property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Flag indicates whether it is required to optimize output"
+title: HtmlFixedSaveOptions.optimize_output property
+linktitle: optimize_output property
+articleTitle: optimize_output property
+second_title: Aspose.Words for Python
+description: "HtmlFixedSaveOptions.optimize_output property. Flag indicates whether it is required to optimize output"
 type: docs
 weight: 100
 url: /python-net/aspose.words.saving/htmlfixedsaveoptions/optimize_output/

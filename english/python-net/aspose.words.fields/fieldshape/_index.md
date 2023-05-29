@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldShape class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the SHAPE field"
+linktitle: FieldShape class
+articleTitle: FieldShape class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldShape class. Implements the SHAPE field"
 type: docs
 weight: 950
 url: /python-net/aspose.words.fields/fieldshape/

@@ -1,7 +1,9 @@
 ﻿---
-title: visit_smart_tag_start method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Called when enumeration of a smart tag has started."
+title: DocumentVisitor.visit_smart_tag_start method
+linktitle: visit_smart_tag_start method
+articleTitle: visit_smart_tag_start method
+second_title: Aspose.Words for Python
+description: "DocumentVisitor.visit_smart_tag_start method. Called when enumeration of a smart tag has started."
 type: docs
 weight: 420
 url: /python-net/aspose.words/documentvisitor/visit_smart_tag_start/

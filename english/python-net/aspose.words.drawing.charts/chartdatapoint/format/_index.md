@@ -1,7 +1,9 @@
 ﻿---
-title: format property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides access to fill and line formatting of this data point."
+title: ChartDataPoint.format property
+linktitle: format property
+articleTitle: format property
+second_title: Aspose.Words for Python
+description: "ChartDataPoint.format property. Provides access to fill and line formatting of this data point."
 type: docs
 weight: 30
 url: /python-net/aspose.words.drawing.charts/chartdatapoint/format/

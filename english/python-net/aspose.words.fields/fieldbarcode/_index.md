@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldBarcode class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the BARCODE field"
+linktitle: FieldBarcode class
+articleTitle: FieldBarcode class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldBarcode class. Implements the BARCODE field"
 type: docs
 weight: 170
 url: /python-net/aspose.words.fields/fieldbarcode/

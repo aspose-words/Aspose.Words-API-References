@@ -1,7 +1,9 @@
 ﻿﻿---
 title: CustomXmlSchemaCollection class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "A collection of strings that represent XML schemas that are associated with a custom XML part"
+linktitle: CustomXmlSchemaCollection class
+articleTitle: CustomXmlSchemaCollection class
+second_title: Aspose.Words for Python
+description: "aspose.words.markup.CustomXmlSchemaCollection class. A collection of strings that represent XML schemas that are associated with a custom XML part"
 type: docs
 weight: 70
 url: /python-net/aspose.words.markup/customxmlschemacollection/

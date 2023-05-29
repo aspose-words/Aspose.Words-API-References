@@ -1,6 +1,8 @@
 ﻿---
-title: solid method
-second_title: Aspose.Words for Python via .NET API Reference
+title: Fill.solid method
+linktitle: solid method
+articleTitle: solid method
+second_title: Aspose.Words for Python
 description: "aspose.words.drawing.Fill.solid method"
 type: docs
 weight: 260

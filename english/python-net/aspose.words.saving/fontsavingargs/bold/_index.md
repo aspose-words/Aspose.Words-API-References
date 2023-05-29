@@ -1,7 +1,9 @@
 ﻿---
-title: bold property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Indicates whether the current font is bold."
+title: FontSavingArgs.bold property
+linktitle: bold property
+articleTitle: bold property
+second_title: Aspose.Words for Python
+description: "FontSavingArgs.bold property. Indicates whether the current font is bold."
 type: docs
 weight: 10
 url: /python-net/aspose.words.saving/fontsavingargs/bold/

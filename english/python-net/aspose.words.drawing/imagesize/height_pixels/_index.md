@@ -1,7 +1,9 @@
 ﻿---
-title: height_pixels property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the height of the image in pixels."
+title: ImageSize.height_pixels property
+linktitle: height_pixels property
+articleTitle: height_pixels property
+second_title: Aspose.Words for Python
+description: "ImageSize.height_pixels property. Gets the height of the image in pixels."
 type: docs
 weight: 20
 url: /python-net/aspose.words.drawing/imagesize/height_pixels/

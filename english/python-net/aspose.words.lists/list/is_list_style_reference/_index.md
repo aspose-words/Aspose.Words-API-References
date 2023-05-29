@@ -1,7 +1,9 @@
 ﻿---
-title: is_list_style_reference property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns ``True`` if this list is a reference to a list style."
+title: List.is_list_style_reference property
+linktitle: is_list_style_reference property
+articleTitle: is_list_style_reference property
+second_title: Aspose.Words for Python
+description: "List.is_list_style_reference property. Returns ``True`` if this list is a reference to a list style."
 type: docs
 weight: 30
 url: /python-net/aspose.words.lists/list/is_list_style_reference/

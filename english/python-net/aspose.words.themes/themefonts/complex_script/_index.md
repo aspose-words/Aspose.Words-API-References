@@ -1,7 +1,9 @@
 ﻿---
-title: complex_script property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies font name for ComplexScript characters."
+title: ThemeFonts.complex_script property
+linktitle: complex_script property
+articleTitle: complex_script property
+second_title: Aspose.Words for Python
+description: "ThemeFonts.complex_script property. Specifies font name for ComplexScript characters."
 type: docs
 weight: 10
 url: /python-net/aspose.words.themes/themefonts/complex_script/

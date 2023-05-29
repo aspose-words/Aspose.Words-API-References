@@ -1,6 +1,8 @@
 ﻿---
-title: get_text_shaper method
-second_title: Aspose.Words for Python via .NET API Reference
+title: ITextShaperFactory.get_text_shaper method
+linktitle: get_text_shaper method
+articleTitle: get_text_shaper method
+second_title: Aspose.Words for Python
 description: "aspose.words.shaping.ITextShaperFactory.get_text_shaper method"
 type: docs
 weight: 10

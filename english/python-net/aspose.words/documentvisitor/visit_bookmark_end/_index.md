@@ -1,7 +1,9 @@
 ﻿---
-title: visit_bookmark_end method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Called when an end of a bookmark is encountered in the document."
+title: DocumentVisitor.visit_bookmark_end method
+linktitle: visit_bookmark_end method
+articleTitle: visit_bookmark_end method
+second_title: Aspose.Words for Python
+description: "DocumentVisitor.visit_bookmark_end method. Called when an end of a bookmark is encountered in the document."
 type: docs
 weight: 40
 url: /python-net/aspose.words/documentvisitor/visit_bookmark_end/

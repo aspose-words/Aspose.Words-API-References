@@ -1,7 +1,9 @@
 ﻿---
-title: form_fields property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns a [Range.form_fields](./) collection that represents all form fields in the range."
+title: Range.form_fields property
+linktitle: form_fields property
+articleTitle: form_fields property
+second_title: Aspose.Words for Python
+description: "Range.form_fields property. Returns a [Range.form_fields](./) collection that represents all form fields in the range."
 type: docs
 weight: 30
 url: /python-net/aspose.words/range/form_fields/

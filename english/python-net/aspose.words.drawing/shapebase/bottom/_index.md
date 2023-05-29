@@ -1,7 +1,9 @@
 ﻿---
-title: bottom property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the position of the bottom edge of the containing block of the shape."
+title: ShapeBase.bottom property
+linktitle: bottom property
+articleTitle: bottom property
+second_title: Aspose.Words for Python
+description: "ShapeBase.bottom property. Gets the position of the bottom edge of the containing block of the shape."
 type: docs
 weight: 60
 url: /python-net/aspose.words.drawing/shapebase/bottom/

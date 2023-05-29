@@ -1,7 +1,9 @@
 ﻿---
-title: text property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the text to retrieve."
+title: FieldShape.text property
+linktitle: text property
+articleTitle: text property
+second_title: Aspose.Words for Python
+description: "FieldShape.text property. Gets or sets the text to retrieve."
 type: docs
 weight: 20
 url: /python-net/aspose.words.fields/fieldshape/text/

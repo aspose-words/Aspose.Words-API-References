@@ -1,7 +1,9 @@
 ﻿---
 title: ColorMode enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies how colors are rendered."
+linktitle: ColorMode enumeration
+articleTitle: ColorMode enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.saving.ColorMode enumeration. Specifies how colors are rendered."
 type: docs
 weight: 20
 url: /python-net/aspose.words.saving/colormode/

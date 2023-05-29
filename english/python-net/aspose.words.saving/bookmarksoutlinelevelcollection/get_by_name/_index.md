@@ -1,7 +1,9 @@
 ﻿---
-title: get_by_name method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or a sets a bookmark outline level by the bookmark name."
+title: BookmarksOutlineLevelCollection.get_by_name method
+linktitle: get_by_name method
+articleTitle: get_by_name method
+second_title: Aspose.Words for Python
+description: "BookmarksOutlineLevelCollection.get_by_name method. Gets or a sets a bookmark outline level by the bookmark name."
 type: docs
 weight: 70
 url: /python-net/aspose.words.saving/bookmarksoutlinelevelcollection/get_by_name/

@@ -1,7 +1,9 @@
 ﻿---
-title: visit_group_shape_start method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Called when enumeration of a group shape has started."
+title: DocumentVisitor.visit_group_shape_start method
+linktitle: visit_group_shape_start method
+articleTitle: visit_group_shape_start method
+second_title: Aspose.Words for Python
+description: "DocumentVisitor.visit_group_shape_start method. Called when enumeration of a group shape has started."
 type: docs
 weight: 270
 url: /python-net/aspose.words/documentvisitor/visit_group_shape_start/

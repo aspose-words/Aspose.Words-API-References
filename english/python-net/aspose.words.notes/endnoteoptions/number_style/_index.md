@@ -1,7 +1,9 @@
 ﻿---
-title: number_style property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the number format for automatically numbered endnotes."
+title: EndnoteOptions.number_style property
+linktitle: number_style property
+articleTitle: number_style property
+second_title: Aspose.Words for Python
+description: "EndnoteOptions.number_style property. Specifies the number format for automatically numbered endnotes."
 type: docs
 weight: 10
 url: /python-net/aspose.words.notes/endnoteoptions/number_style/

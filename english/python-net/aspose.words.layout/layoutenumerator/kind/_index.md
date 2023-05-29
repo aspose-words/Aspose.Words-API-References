@@ -1,7 +1,9 @@
 ﻿---
-title: kind property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the kind of the current entity"
+title: LayoutEnumerator.kind property
+linktitle: kind property
+articleTitle: kind property
+second_title: Aspose.Words for Python
+description: "LayoutEnumerator.kind property. Gets the kind of the current entity"
 type: docs
 weight: 40
 url: /python-net/aspose.words.layout/layoutenumerator/kind/

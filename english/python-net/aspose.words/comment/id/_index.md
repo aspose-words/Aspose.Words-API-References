@@ -1,7 +1,9 @@
 ﻿---
-title: id property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the comment identifier."
+title: Comment.id property
+linktitle: id property
+articleTitle: id property
+second_title: Aspose.Words for Python
+description: "Comment.id property. Gets the comment identifier."
 type: docs
 weight: 60
 url: /python-net/aspose.words/comment/id/

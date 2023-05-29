@@ -1,7 +1,9 @@
 ﻿---
-title: clsid property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the CLSID of the OLE object."
+title: OleFormat.clsid property
+linktitle: clsid property
+articleTitle: clsid property
+second_title: Aspose.Words for Python
+description: "OleFormat.clsid property. Gets the CLSID of the OLE object."
 type: docs
 weight: 20
 url: /python-net/aspose.words.drawing/oleformat/clsid/

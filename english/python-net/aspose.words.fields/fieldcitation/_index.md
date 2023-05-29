@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldCitation class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the CITATION field"
+linktitle: FieldCitation class
+articleTitle: FieldCitation class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldCitation class. Implements the CITATION field"
 type: docs
 weight: 220
 url: /python-net/aspose.words.fields/fieldcitation/

@@ -1,7 +1,9 @@
 ﻿---
-title: continuous_section_page_numbering_restart property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the mode of behavior for computing page numbers when a continuous section restarts the page numbering."
+title: LayoutOptions.continuous_section_page_numbering_restart property
+linktitle: continuous_section_page_numbering_restart property
+articleTitle: continuous_section_page_numbering_restart property
+second_title: Aspose.Words for Python
+description: "LayoutOptions.continuous_section_page_numbering_restart property. Gets or sets the mode of behavior for computing page numbers when a continuous section restarts the page numbering."
 type: docs
 weight: 40
 url: /python-net/aspose.words.layout/layoutoptions/continuous_section_page_numbering_restart/

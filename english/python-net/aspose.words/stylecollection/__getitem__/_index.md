@@ -1,7 +1,9 @@
 ﻿---
 title: StyleCollection indexer
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets a style by index."
+linktitle: StyleCollection indexer
+articleTitle: StyleCollection indexer
+second_title: Aspose.Words for Python
+description: "StyleCollection indexer. Gets a style by index."
 type: docs
 weight: 10
 url: /python-net/aspose.words/stylecollection/__getitem__/

@@ -1,6 +1,9 @@
 ﻿---
 title: BuiltInDocumentProperties indexer
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: BuiltInDocumentProperties indexer
+articleTitle: BuiltInDocumentProperties indexer
+second_title: Aspose.Words for Python
+description: "BuiltInDocumentProperties indexer. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.properties/builtindocumentproperties/__getitem__/

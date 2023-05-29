@@ -1,7 +1,9 @@
 ﻿---
-title: TAB property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Tab character: \\x0009 or \\t."
+title: ControlChar.TAB property
+linktitle: TAB property
+articleTitle: TAB property
+second_title: Aspose.Words for Python
+description: "ControlChar.TAB property. Tab character: \\x0009 or \\t."
 type: docs
 weight: 270
 url: /python-net/aspose.words/controlchar/TAB/

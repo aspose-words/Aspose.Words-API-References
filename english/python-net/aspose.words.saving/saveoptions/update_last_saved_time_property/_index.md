@@ -1,7 +1,9 @@
 ﻿---
-title: update_last_saved_time_property property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a value determining whether the [BuiltInDocumentProperties.last_saved_time](../../../aspose.words.properties/builtindocumentproperties/last_saved_time/) property is updated before saving."
+title: SaveOptions.update_last_saved_time_property property
+linktitle: update_last_saved_time_property property
+articleTitle: update_last_saved_time_property property
+second_title: Aspose.Words for Python
+description: "SaveOptions.update_last_saved_time_property property. Gets or sets a value determining whether the [BuiltInDocumentProperties.last_saved_time](../../../aspose.words.properties/builtindocumentproperties/last_saved_time/) property is updated before saving."
 type: docs
 weight: 160
 url: /python-net/aspose.words.saving/saveoptions/update_last_saved_time_property/

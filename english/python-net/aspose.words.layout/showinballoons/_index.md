@@ -1,7 +1,9 @@
 ﻿---
 title: ShowInBalloons enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies which revisions are rendered in balloons."
+linktitle: ShowInBalloons enumeration
+articleTitle: ShowInBalloons enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.layout.ShowInBalloons enumeration. Specifies which revisions are rendered in balloons."
 type: docs
 weight: 130
 url: /python-net/aspose.words.layout/showinballoons/

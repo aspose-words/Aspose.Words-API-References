@@ -1,7 +1,9 @@
 ﻿---
-title: character property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets which character to use for indenting list levels"
+title: TxtListIndentation.character property
+linktitle: character property
+articleTitle: character property
+second_title: Aspose.Words for Python
+description: "TxtListIndentation.character property. Gets or sets which character to use for indenting list levels"
 type: docs
 weight: 20
 url: /python-net/aspose.words.saving/txtlistindentation/character/

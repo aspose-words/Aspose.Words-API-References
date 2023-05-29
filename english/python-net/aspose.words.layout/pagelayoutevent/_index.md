@@ -1,7 +1,9 @@
 ﻿---
 title: PageLayoutEvent enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "A code of event raised during page layout model build and rendering."
+linktitle: PageLayoutEvent enumeration
+articleTitle: PageLayoutEvent enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.layout.PageLayoutEvent enumeration. A code of event raised during page layout model build and rendering."
 type: docs
 weight: 90
 url: /python-net/aspose.words.layout/pagelayoutevent/

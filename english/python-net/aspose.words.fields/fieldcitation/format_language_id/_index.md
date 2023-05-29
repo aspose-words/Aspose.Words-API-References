@@ -1,7 +1,9 @@
 ﻿---
-title: format_language_id property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the language ID that is used in conjunction with the specified bibliographic style to format the citation in the document."
+title: FieldCitation.format_language_id property
+linktitle: format_language_id property
+articleTitle: format_language_id property
+second_title: Aspose.Words for Python
+description: "FieldCitation.format_language_id property. Gets or sets the language ID that is used in conjunction with the specified bibliographic style to format the citation in the document."
 type: docs
 weight: 30
 url: /python-net/aspose.words.fields/fieldcitation/format_language_id/

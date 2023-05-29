@@ -1,7 +1,9 @@
 ﻿﻿---
 title: LoadOptions class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to specify additional options (such as password or base URI) when loading a document into a [Document](../../aspose.words/document/) object"
+linktitle: LoadOptions class
+articleTitle: LoadOptions class
+second_title: Aspose.Words for Python
+description: "aspose.words.loading.LoadOptions class. Allows to specify additional options (such as password or base URI) when loading a document into a [Document](../../aspose.words/document/) object"
 type: docs
 weight: 110
 url: /python-net/aspose.words.loading/loadoptions/

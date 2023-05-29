@@ -1,6 +1,8 @@
 ﻿---
-title: format method
-second_title: Aspose.Words for Python via .NET API Reference
+title: IFieldResultFormatter.format method
+linktitle: format method
+articleTitle: format method
+second_title: Aspose.Words for Python
 description: "aspose.words.fields.IFieldResultFormatter.format method"
 type: docs
 weight: 10

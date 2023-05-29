@@ -1,7 +1,9 @@
 ﻿---
-title: date_time_value property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the stored datetime value."
+title: ChartYValue.date_time_value property
+linktitle: date_time_value property
+articleTitle: date_time_value property
+second_title: Aspose.Words for Python
+description: "ChartYValue.date_time_value property. Gets the stored datetime value."
 type: docs
 weight: 10
 url: /python-net/aspose.words.drawing.charts/chartyvalue/date_time_value/

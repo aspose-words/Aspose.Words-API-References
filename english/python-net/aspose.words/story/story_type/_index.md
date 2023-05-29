@@ -1,7 +1,9 @@
 ﻿---
-title: story_type property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the type of this story."
+title: Story.story_type property
+linktitle: story_type property
+articleTitle: story_type property
+second_title: Aspose.Words for Python
+description: "Story.story_type property. Gets the type of this story."
 type: docs
 weight: 40
 url: /python-net/aspose.words/story/story_type/

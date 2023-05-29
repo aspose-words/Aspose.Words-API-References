@@ -1,7 +1,9 @@
 ﻿﻿---
 title: InlineStory class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Base class for inline-level nodes that can contain paragraphs and tables"
+linktitle: InlineStory class
+articleTitle: InlineStory class
+second_title: Aspose.Words for Python
+description: "aspose.words.InlineStory class. Base class for inline-level nodes that can contain paragraphs and tables"
 type: docs
 weight: 580
 url: /python-net/aspose.words/inlinestory/

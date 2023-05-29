@@ -1,7 +1,9 @@
 ﻿---
 title: MetafileRenderingMode enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies how Aspose.Words should render WMF and EMF metafiles."
+linktitle: MetafileRenderingMode enumeration
+articleTitle: MetafileRenderingMode enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.saving.MetafileRenderingMode enumeration. Specifies how Aspose.Words should render WMF and EMF metafiles."
 type: docs
 weight: 440
 url: /python-net/aspose.words.saving/metafilerenderingmode/

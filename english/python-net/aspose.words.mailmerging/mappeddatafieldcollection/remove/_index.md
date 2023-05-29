@@ -1,7 +1,9 @@
 ﻿---
-title: remove method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Removes a field mapping."
+title: MappedDataFieldCollection.remove method
+linktitle: remove method
+articleTitle: remove method
+second_title: Aspose.Words for Python
+description: "MappedDataFieldCollection.remove method. Removes a field mapping."
 type: docs
 weight: 60
 url: /python-net/aspose.words.mailmerging/mappeddatafieldcollection/remove/

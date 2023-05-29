@@ -1,7 +1,9 @@
 ﻿---
-title: lock_contents property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "When set to ``True``, this property will prohibit a user from editing the contents of this SDT."
+title: StructuredDocumentTag.lock_contents property
+linktitle: lock_contents property
+articleTitle: lock_contents property
+second_title: Aspose.Words for Python
+description: "StructuredDocumentTag.lock_contents property. When set to ``True``, this property will prohibit a user from editing the contents of this SDT."
 type: docs
 weight: 200
 url: /python-net/aspose.words.markup/structureddocumenttag/lock_contents/

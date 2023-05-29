@@ -1,7 +1,9 @@
 ﻿---
-title: followed_hyperlink property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies color for a clicked hyperlink."
+title: ThemeColors.followed_hyperlink property
+linktitle: followed_hyperlink property
+articleTitle: followed_hyperlink property
+second_title: Aspose.Words for Python
+description: "ThemeColors.followed_hyperlink property. Specifies color for a clicked hyperlink."
 type: docs
 weight: 90
 url: /python-net/aspose.words.themes/themecolors/followed_hyperlink/

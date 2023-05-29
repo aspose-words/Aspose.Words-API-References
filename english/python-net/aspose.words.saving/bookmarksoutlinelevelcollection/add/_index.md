@@ -1,7 +1,9 @@
 ﻿---
-title: add method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Adds a bookmark to the collection."
+title: BookmarksOutlineLevelCollection.add method
+linktitle: add method
+articleTitle: add method
+second_title: Aspose.Words for Python
+description: "BookmarksOutlineLevelCollection.add method. Adds a bookmark to the collection."
 type: docs
 weight: 40
 url: /python-net/aspose.words.saving/bookmarksoutlinelevelcollection/add/

@@ -1,7 +1,9 @@
 ﻿---
-title: display_text property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the text to appear as the button that is selected to run the macro or command."
+title: FieldMacroButton.display_text property
+linktitle: display_text property
+articleTitle: display_text property
+second_title: Aspose.Words for Python
+description: "FieldMacroButton.display_text property. Gets or sets the text to appear as the button that is selected to run the macro or command."
 type: docs
 weight: 20
 url: /python-net/aspose.words.fields/fieldmacrobutton/display_text/

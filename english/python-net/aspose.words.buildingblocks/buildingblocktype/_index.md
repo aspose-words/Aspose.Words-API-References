@@ -1,7 +1,9 @@
 ﻿---
 title: BuildingBlockType enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies a building block type"
+linktitle: BuildingBlockType enumeration
+articleTitle: BuildingBlockType enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.buildingblocks.BuildingBlockType enumeration. Specifies a building block type"
 type: docs
 weight: 50
 url: /python-net/aspose.words.buildingblocks/buildingblocktype/

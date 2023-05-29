@@ -1,7 +1,9 @@
 ﻿---
-title: append_paragraph method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "A shortcut method that creates a [Paragraph](../../paragraph/) object with optional text and appends it to the end of this object."
+title: Story.append_paragraph method
+linktitle: append_paragraph method
+articleTitle: append_paragraph method
+second_title: Aspose.Words for Python
+description: "Story.append_paragraph method. A shortcut method that creates a [Paragraph](../../paragraph/) object with optional text and appends it to the end of this object."
 type: docs
 weight: 60
 url: /python-net/aspose.words/story/append_paragraph/

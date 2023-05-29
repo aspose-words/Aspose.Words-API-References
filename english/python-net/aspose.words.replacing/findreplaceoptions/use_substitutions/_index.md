@@ -1,7 +1,9 @@
 ﻿---
-title: use_substitutions property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a boolean value indicating whether to recognize and use substitutions within replacement patterns"
+title: FindReplaceOptions.use_substitutions property
+linktitle: use_substitutions property
+articleTitle: use_substitutions property
+second_title: Aspose.Words for Python
+description: "FindReplaceOptions.use_substitutions property. Gets or sets a boolean value indicating whether to recognize and use substitutions within replacement patterns"
 type: docs
 weight: 180
 url: /python-net/aspose.words.replacing/findreplaceoptions/use_substitutions/

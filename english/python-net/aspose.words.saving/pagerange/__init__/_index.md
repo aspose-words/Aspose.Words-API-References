@@ -1,7 +1,9 @@
 ﻿---
 title: PageRange constructor
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Creates a new page range object."
+linktitle: PageRange constructor
+articleTitle: PageRange constructor
+second_title: Aspose.Words for Python
+description: "PageRange constructor. Creates a new page range object."
 type: docs
 weight: 10
 url: /python-net/aspose.words.saving/pagerange/__init__/

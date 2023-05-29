@@ -1,7 +1,9 @@
 ﻿---
-title: pattern property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets a [PatternType](../../patterntype/) for the fill."
+title: Fill.pattern property
+linktitle: pattern property
+articleTitle: pattern property
+second_title: Aspose.Words for Python
+description: "Fill.pattern property. Gets a [PatternType](../../patterntype/) for the fill."
 type: docs
 weight: 160
 url: /python-net/aspose.words.drawing/fill/pattern/

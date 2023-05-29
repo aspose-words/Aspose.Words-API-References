@@ -1,7 +1,9 @@
 ﻿---
-title: insert_cell method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Inserts a table cell into the document."
+title: DocumentBuilder.insert_cell method
+linktitle: insert_cell method
+articleTitle: insert_cell method
+second_title: Aspose.Words for Python
+description: "DocumentBuilder.insert_cell method. Inserts a table cell into the document."
 type: docs
 weight: 270
 url: /python-net/aspose.words/documentbuilder/insert_cell/

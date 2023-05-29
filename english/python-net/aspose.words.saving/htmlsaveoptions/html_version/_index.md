@@ -1,7 +1,9 @@
 ﻿---
-title: html_version property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies version of HTML standard that should be used when saving the document to HTML or MHTML"
+title: HtmlSaveOptions.html_version property
+linktitle: html_version property
+articleTitle: html_version property
+second_title: Aspose.Words for Python
+description: "HtmlSaveOptions.html_version property. Specifies version of HTML standard that should be used when saving the document to HTML or MHTML"
 type: docs
 weight: 340
 url: /python-net/aspose.words.saving/htmlsaveoptions/html_version/

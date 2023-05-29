@@ -1,7 +1,9 @@
 ﻿---
-title: child_nodes property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets all nodes between this range start node and the range end node."
+title: StructuredDocumentTagRangeStart.child_nodes property
+linktitle: child_nodes property
+articleTitle: child_nodes property
+second_title: Aspose.Words for Python
+description: "StructuredDocumentTagRangeStart.child_nodes property. Gets all nodes between this range start node and the range end node."
 type: docs
 weight: 20
 url: /python-net/aspose.words.markup/structureddocumenttagrangestart/child_nodes/

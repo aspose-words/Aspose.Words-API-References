@@ -1,7 +1,9 @@
 ﻿---
-title: move_to method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Moves the cursor to an inline node or to the end of a paragraph."
+title: DocumentBuilder.move_to method
+linktitle: move_to method
+articleTitle: move_to method
+second_title: Aspose.Words for Python
+description: "DocumentBuilder.move_to method. Moves the cursor to an inline node or to the end of a paragraph."
 type: docs
 weight: 480
 url: /python-net/aspose.words/documentbuilder/move_to/

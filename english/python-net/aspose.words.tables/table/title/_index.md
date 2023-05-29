@@ -1,7 +1,9 @@
 ﻿---
-title: title property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets title of this table"
+title: Table.title property
+linktitle: title property
+articleTitle: title property
+second_title: Aspose.Words for Python
+description: "Table.title property. Gets or sets title of this table"
 type: docs
 weight: 320
 url: /python-net/aspose.words.tables/table/title/

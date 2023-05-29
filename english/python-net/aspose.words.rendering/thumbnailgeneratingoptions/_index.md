@@ -1,7 +1,9 @@
 ﻿---
 title: ThumbnailGeneratingOptions class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Can be used to specify additional options when generating thumbnail for a document."
+linktitle: ThumbnailGeneratingOptions class
+articleTitle: ThumbnailGeneratingOptions class
+second_title: Aspose.Words for Python
+description: "aspose.words.rendering.ThumbnailGeneratingOptions class. Can be used to specify additional options when generating thumbnail for a document."
 type: docs
 weight: 50
 url: /python-net/aspose.words.rendering/thumbnailgeneratingoptions/

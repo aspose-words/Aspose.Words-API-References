@@ -1,7 +1,9 @@
 ﻿---
-title: fit_to_view_port property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies if the output SVG should fill the available viewport area (browser window or container)"
+title: SvgSaveOptions.fit_to_view_port property
+linktitle: fit_to_view_port property
+articleTitle: fit_to_view_port property
+second_title: Aspose.Words for Python
+description: "SvgSaveOptions.fit_to_view_port property. Specifies if the output SVG should fill the available viewport area (browser window or container)"
 type: docs
 weight: 30
 url: /python-net/aspose.words.saving/svgsaveoptions/fit_to_view_port/

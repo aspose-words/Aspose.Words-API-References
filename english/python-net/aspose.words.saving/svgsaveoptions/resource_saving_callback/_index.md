@@ -1,7 +1,9 @@
 ﻿---
-title: resource_saving_callback property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to control how resources (images) are saved when a document is exported to SVG format."
+title: SvgSaveOptions.resource_saving_callback property
+linktitle: resource_saving_callback property
+articleTitle: resource_saving_callback property
+second_title: Aspose.Words for Python
+description: "SvgSaveOptions.resource_saving_callback property. Allows to control how resources (images) are saved when a document is exported to SVG format."
 type: docs
 weight: 40
 url: /python-net/aspose.words.saving/svgsaveoptions/resource_saving_callback/

@@ -1,7 +1,9 @@
 ﻿---
-title: get_width method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns width of the cluster."
+title: Cluster.get_width method
+linktitle: get_width method
+articleTitle: get_width method
+second_title: Aspose.Words for Python
+description: "Cluster.get_width method. Returns width of the cluster."
 type: docs
 weight: 70
 url: /python-net/aspose.words.shaping/cluster/get_width/

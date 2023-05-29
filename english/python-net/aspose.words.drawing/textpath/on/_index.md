@@ -1,7 +1,9 @@
 ﻿---
-title: on property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Defines whether the text is displayed."
+title: TextPath.on property
+linktitle: on property
+articleTitle: on property
+second_title: Aspose.Words for Python
+description: "TextPath.on property. Defines whether the text is displayed."
 type: docs
 weight: 70
 url: /python-net/aspose.words.drawing/textpath/on/

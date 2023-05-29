@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldMergeRec class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the MERGEREC field"
+linktitle: FieldMergeRec class
+articleTitle: FieldMergeRec class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldMergeRec class. Implements the MERGEREC field"
 type: docs
 weight: 700
 url: /python-net/aspose.words.fields/fieldmergerec/

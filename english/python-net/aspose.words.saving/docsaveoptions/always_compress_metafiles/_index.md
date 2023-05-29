@@ -1,7 +1,9 @@
 ﻿---
-title: always_compress_metafiles property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "When ``False``, small metafiles are not compressed for performance reason"
+title: DocSaveOptions.always_compress_metafiles property
+linktitle: always_compress_metafiles property
+articleTitle: always_compress_metafiles property
+second_title: Aspose.Words for Python
+description: "DocSaveOptions.always_compress_metafiles property. When ``False``, small metafiles are not compressed for performance reason"
 type: docs
 weight: 20
 url: /python-net/aspose.words.saving/docsaveoptions/always_compress_metafiles/

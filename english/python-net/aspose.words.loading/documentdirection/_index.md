@@ -1,7 +1,9 @@
 ﻿---
 title: DocumentDirection enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to specify the direction to flow the text in a document."
+linktitle: DocumentDirection enumeration
+articleTitle: DocumentDirection enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.loading.DocumentDirection enumeration. Allows to specify the direction to flow the text in a document."
 type: docs
 weight: 30
 url: /python-net/aspose.words.loading/documentdirection/

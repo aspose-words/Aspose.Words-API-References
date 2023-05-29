@@ -1,7 +1,9 @@
 ﻿---
-title: clear_formatting method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Clears all conditional styles of the table style."
+title: ConditionalStyleCollection.clear_formatting method
+linktitle: clear_formatting method
+articleTitle: clear_formatting method
+second_title: Aspose.Words for Python
+description: "ConditionalStyleCollection.clear_formatting method. Clears all conditional styles of the table style."
 type: docs
 weight: 150
 url: /python-net/aspose.words/conditionalstylecollection/clear_formatting/

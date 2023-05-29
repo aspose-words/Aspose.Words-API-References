@@ -1,7 +1,9 @@
 ﻿---
-title: unit property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the scaling value of the display units as one of the predefined values."
+title: AxisDisplayUnit.unit property
+linktitle: unit property
+articleTitle: unit property
+second_title: Aspose.Words for Python
+description: "AxisDisplayUnit.unit property. Gets or sets the scaling value of the display units as one of the predefined values."
 type: docs
 weight: 40
 url: /python-net/aspose.words.drawing.charts/axisdisplayunit/unit/

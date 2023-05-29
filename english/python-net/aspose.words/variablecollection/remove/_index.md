@@ -1,7 +1,9 @@
 ﻿---
-title: remove method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Removes a document variable with the specified name from the collection."
+title: VariableCollection.remove method
+linktitle: remove method
+articleTitle: remove method
+second_title: Aspose.Words for Python
+description: "VariableCollection.remove method. Removes a document variable with the specified name from the collection."
 type: docs
 weight: 80
 url: /python-net/aspose.words/variablecollection/remove/

@@ -1,7 +1,9 @@
 ﻿---
-title: stroke property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Defines a stroke for a shape."
+title: Shape.stroke property
+linktitle: stroke property
+articleTitle: stroke property
+second_title: Aspose.Words for Python
+description: "Shape.stroke property. Defines a stroke for a shape."
 type: docs
 weight: 180
 url: /python-net/aspose.words.drawing/shape/stroke/

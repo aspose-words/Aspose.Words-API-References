@@ -1,7 +1,9 @@
 ﻿﻿---
 title: OoxmlSaveOptions class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Can be used to specify additional options when saving a document into the [SaveFormat.DOCX](../../aspose.words/saveformat/#DOCX), [SaveFormat.DOCM](../../aspose.words/saveformat/#DOCM), [SaveFormat.DOTX](../../aspose.words/saveformat/#DOTX), [SaveFormat.DOTM](../../aspose.words/saveformat/#DOTM) or [SaveFormat.FLAT_OPC](../../aspose.words/saveformat/#FLAT_OPC) format"
+linktitle: OoxmlSaveOptions class
+articleTitle: OoxmlSaveOptions class
+second_title: Aspose.Words for Python
+description: "aspose.words.saving.OoxmlSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.DOCX](../../aspose.words/saveformat/#DOCX), [SaveFormat.DOCM](../../aspose.words/saveformat/#DOCM), [SaveFormat.DOTX](../../aspose.words/saveformat/#DOTX), [SaveFormat.DOTM](../../aspose.words/saveformat/#DOTM) or [SaveFormat.FLAT_OPC](../../aspose.words/saveformat/#FLAT_OPC) format"
 type: docs
 weight: 500
 url: /python-net/aspose.words.saving/ooxmlsaveoptions/

@@ -1,7 +1,9 @@
 ﻿---
-title: all_caps property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "True if the font is formatted as all capital letters."
+title: Font.all_caps property
+linktitle: all_caps property
+articleTitle: all_caps property
+second_title: Aspose.Words for Python
+description: "Font.all_caps property. True if the font is formatted as all capital letters."
 type: docs
 weight: 10
 url: /python-net/aspose.words/font/all_caps/

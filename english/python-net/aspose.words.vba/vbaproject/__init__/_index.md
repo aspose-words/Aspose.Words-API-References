@@ -1,7 +1,9 @@
 ﻿---
 title: VbaProject constructor
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Creates a blank [VbaProject](../)."
+linktitle: VbaProject constructor
+articleTitle: VbaProject constructor
+second_title: Aspose.Words for Python
+description: "VbaProject constructor. Creates a blank [VbaProject](../)."
 type: docs
 weight: 10
 url: /python-net/aspose.words.vba/vbaproject/__init__/

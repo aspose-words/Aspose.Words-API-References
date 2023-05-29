@@ -1,7 +1,9 @@
 ﻿---
-title: clear_formatting method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Removes shading from the object."
+title: Shading.clear_formatting method
+linktitle: clear_formatting method
+articleTitle: clear_formatting method
+second_title: Aspose.Words for Python
+description: "Shading.clear_formatting method. Removes shading from the object."
 type: docs
 weight: 80
 url: /python-net/aspose.words/shading/clear_formatting/

@@ -1,6 +1,8 @@
 ﻿---
-title: load_signatures method
-second_title: Aspose.Words for Python via .NET API Reference
+title: DigitalSignatureUtil.load_signatures method
+linktitle: load_signatures method
+articleTitle: load_signatures method
+second_title: Aspose.Words for Python
 description: "aspose.words.digitalsignatures.DigitalSignatureUtil.load_signatures method"
 type: docs
 weight: 10

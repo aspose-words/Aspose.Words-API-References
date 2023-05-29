@@ -1,7 +1,9 @@
 ﻿---
 title: LayoutFlow enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Determines the flow of the text layout in a textbox."
+linktitle: LayoutFlow enumeration
+articleTitle: LayoutFlow enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.drawing.LayoutFlow enumeration. Determines the flow of the text layout in a textbox."
 type: docs
 weight: 210
 url: /python-net/aspose.words.drawing/layoutflow/

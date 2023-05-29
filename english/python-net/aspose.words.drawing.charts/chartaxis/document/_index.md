@@ -1,7 +1,9 @@
 ﻿---
-title: document property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns the Document the title holder belongs."
+title: ChartAxis.document property
+linktitle: document property
+articleTitle: document property
+second_title: Aspose.Words for Python
+description: "ChartAxis.document property. Returns the Document the title holder belongs."
 type: docs
 weight: 70
 url: /python-net/aspose.words.drawing.charts/chartaxis/document/

@@ -1,7 +1,9 @@
 ﻿---
-title: type property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets table area to which this conditional style relates."
+title: ConditionalStyle.type property
+linktitle: type property
+articleTitle: type property
+second_title: Aspose.Words for Python
+description: "ConditionalStyle.type property. Gets table area to which this conditional style relates."
 type: docs
 weight: 90
 url: /python-net/aspose.words/conditionalstyle/type/

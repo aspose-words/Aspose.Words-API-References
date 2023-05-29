@@ -1,7 +1,9 @@
 ﻿---
 title: Table constructor
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Initializes a new instance of the [Table](../) class."
+linktitle: Table constructor
+articleTitle: Table constructor
+second_title: Aspose.Words for Python
+description: "Table constructor. Initializes a new instance of the [Table](../) class."
 type: docs
 weight: 10
 url: /python-net/aspose.words.tables/table/__init__/

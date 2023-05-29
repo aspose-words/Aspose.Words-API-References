@@ -1,7 +1,9 @@
 ﻿---
-title: paper_size property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns or sets the paper size."
+title: PageSetup.paper_size property
+linktitle: paper_size property
+articleTitle: paper_size property
+second_title: Aspose.Words for Python
+description: "PageSetup.paper_size property. Returns or sets the paper size."
 type: docs
 weight: 350
 url: /python-net/aspose.words/pagesetup/paper_size/

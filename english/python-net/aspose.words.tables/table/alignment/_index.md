@@ -1,7 +1,9 @@
 ﻿---
-title: alignment property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies how an inline table is aligned in the document."
+title: Table.alignment property
+linktitle: alignment property
+articleTitle: alignment property
+second_title: Aspose.Words for Python
+description: "Table.alignment property. Specifies how an inline table is aligned in the document."
 type: docs
 weight: 40
 url: /python-net/aspose.words.tables/table/alignment/

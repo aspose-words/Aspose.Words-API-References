@@ -1,6 +1,8 @@
 ﻿---
-title: update_word_count method
-second_title: Aspose.Words for Python via .NET API Reference
+title: Document.update_word_count method
+linktitle: update_word_count method
+articleTitle: update_word_count method
+second_title: Aspose.Words for Python
 description: "aspose.words.Document.update_word_count method"
 type: docs
 weight: 770

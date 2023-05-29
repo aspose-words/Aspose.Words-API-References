@@ -1,7 +1,9 @@
 ﻿---
-title: moved_to_text_effect property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to specify the effect to be applied to the areas where content was moved to [RevisionType.MOVING](../../../aspose.words/revisiontype/#MOVING)"
+title: RevisionOptions.moved_to_text_effect property
+linktitle: moved_to_text_effect property
+articleTitle: moved_to_text_effect property
+second_title: Aspose.Words for Python
+description: "RevisionOptions.moved_to_text_effect property. Allows to specify the effect to be applied to the areas where content was moved to [RevisionType.MOVING](../../../aspose.words/revisiontype/#MOVING)"
 type: docs
 weight: 100
 url: /python-net/aspose.words.layout/revisionoptions/moved_to_text_effect/

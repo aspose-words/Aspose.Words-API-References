@@ -1,7 +1,9 @@
 ﻿---
-title: xml_mapping property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets an object that represents the mapping of this structured document tag range to XML data in a custom XML part of the current document."
+title: StructuredDocumentTagRangeStart.xml_mapping property
+linktitle: xml_mapping property
+articleTitle: xml_mapping property
+second_title: Aspose.Words for Python
+description: "StructuredDocumentTagRangeStart.xml_mapping property. Gets an object that represents the mapping of this structured document tag range to XML data in a custom XML part of the current document."
 type: docs
 weight: 180
 url: /python-net/aspose.words.markup/structureddocumenttagrangestart/xml_mapping/

@@ -1,7 +1,9 @@
 ﻿---
-title: result_formatter property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to control how the field result is formatted."
+title: FieldOptions.result_formatter property
+linktitle: result_formatter property
+articleTitle: result_formatter property
+second_title: Aspose.Words for Python
+description: "FieldOptions.result_formatter property. Allows to control how the field result is formatted."
 type: docs
 weight: 160
 url: /python-net/aspose.words.fields/fieldoptions/result_formatter/

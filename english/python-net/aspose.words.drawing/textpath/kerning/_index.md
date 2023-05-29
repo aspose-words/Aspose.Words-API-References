@@ -1,7 +1,9 @@
 ﻿---
-title: kerning property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Determines whether kerning is turned on."
+title: TextPath.kerning property
+linktitle: kerning property
+articleTitle: kerning property
+second_title: Aspose.Words for Python
+description: "TextPath.kerning property. Determines whether kerning is turned on."
 type: docs
 weight: 60
 url: /python-net/aspose.words.drawing/textpath/kerning/

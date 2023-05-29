@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldNext class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the NEXT field"
+linktitle: FieldNext class
+articleTitle: FieldNext class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldNext class. Implements the NEXT field"
 type: docs
 weight: 720
 url: /python-net/aspose.words.fields/fieldnext/

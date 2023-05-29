@@ -1,6 +1,9 @@
 ﻿---
 title: FieldEQ constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: FieldEQ constructor
+articleTitle: FieldEQ constructor
+second_title: Aspose.Words for Python
+description: "FieldEQ constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/fieldeq/__init__/

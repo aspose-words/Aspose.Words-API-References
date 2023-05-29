@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldStyleRef class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the STYLEREF field"
+linktitle: FieldStyleRef class
+articleTitle: FieldStyleRef class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldStyleRef class. Implements the STYLEREF field"
 type: docs
 weight: 980
 url: /python-net/aspose.words.fields/fieldstyleref/

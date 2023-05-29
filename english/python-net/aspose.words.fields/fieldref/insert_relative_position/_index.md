@@ -1,7 +1,9 @@
 ﻿---
-title: insert_relative_position property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets whether to insert the relative position of the referenced paragraph."
+title: FieldRef.insert_relative_position property
+linktitle: insert_relative_position property
+articleTitle: insert_relative_position property
+second_title: Aspose.Words for Python
+description: "FieldRef.insert_relative_position property. Gets or sets whether to insert the relative position of the referenced paragraph."
 type: docs
 weight: 80
 url: /python-net/aspose.words.fields/fieldref/insert_relative_position/

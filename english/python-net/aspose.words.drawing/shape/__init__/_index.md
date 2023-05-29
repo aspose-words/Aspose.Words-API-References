@@ -1,7 +1,9 @@
 ﻿---
 title: Shape constructor
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Creates a new shape object."
+linktitle: Shape constructor
+articleTitle: Shape constructor
+second_title: Aspose.Words for Python
+description: "Shape constructor. Creates a new shape object."
 type: docs
 weight: 10
 url: /python-net/aspose.words.drawing/shape/__init__/

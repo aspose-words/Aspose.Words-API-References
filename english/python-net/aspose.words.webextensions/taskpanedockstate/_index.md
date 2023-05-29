@@ -1,7 +1,9 @@
 ﻿---
 title: TaskPaneDockState enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Enumerates available locations of task pane object."
+linktitle: TaskPaneDockState enumeration
+articleTitle: TaskPaneDockState enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.webextensions.TaskPaneDockState enumeration. Enumerates available locations of task pane object."
 type: docs
 weight: 30
 url: /python-net/aspose.words.webextensions/taskpanedockstate/

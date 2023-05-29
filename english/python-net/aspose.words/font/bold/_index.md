@@ -1,7 +1,9 @@
 ﻿---
-title: bold property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "True if the font is formatted as bold."
+title: Font.bold property
+linktitle: bold property
+articleTitle: bold property
+second_title: Aspose.Words for Python
+description: "Font.bold property. True if the font is formatted as bold."
 type: docs
 weight: 40
 url: /python-net/aspose.words/font/bold/

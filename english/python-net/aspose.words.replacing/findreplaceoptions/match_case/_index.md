@@ -1,7 +1,9 @@
 ﻿---
-title: match_case property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "True indicates case-sensitive comparison, false indicates case-insensitive comparison."
+title: FindReplaceOptions.match_case property
+linktitle: match_case property
+articleTitle: match_case property
+second_title: Aspose.Words for Python
+description: "FindReplaceOptions.match_case property. True indicates case-sensitive comparison, false indicates case-insensitive comparison."
 type: docs
 weight: 140
 url: /python-net/aspose.words.replacing/findreplaceoptions/match_case/

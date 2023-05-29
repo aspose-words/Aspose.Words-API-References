@@ -1,6 +1,8 @@
 ﻿---
 title: MergeFieldImageDimension constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: MergeFieldImageDimension constructor
+articleTitle: MergeFieldImageDimension constructor
+second_title: Aspose.Words for Python
 description: "aspose.words.fields.MergeFieldImageDimension constructor"
 type: docs
 weight: 10

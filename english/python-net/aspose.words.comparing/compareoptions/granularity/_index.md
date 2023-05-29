@@ -1,7 +1,9 @@
 ﻿---
-title: granularity property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies whether changes are tracked by character or by word"
+title: CompareOptions.granularity property
+linktitle: granularity property
+articleTitle: granularity property
+second_title: Aspose.Words for Python
+description: "CompareOptions.granularity property. Specifies whether changes are tracked by character or by word"
 type: docs
 weight: 30
 url: /python-net/aspose.words.comparing/compareoptions/granularity/

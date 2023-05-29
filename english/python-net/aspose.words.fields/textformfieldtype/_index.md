@@ -1,7 +1,9 @@
 ﻿---
 title: TextFormFieldType enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the type of a text form field."
+linktitle: TextFormFieldType enumeration
+articleTitle: TextFormFieldType enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.TextFormFieldType enumeration. Specifies the type of a text form field."
 type: docs
 weight: 1300
 url: /python-net/aspose.words.fields/textformfieldtype/

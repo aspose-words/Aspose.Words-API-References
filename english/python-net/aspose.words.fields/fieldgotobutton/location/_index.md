@@ -1,7 +1,9 @@
 ﻿---
-title: location property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the name of a bookmark, a page number, or some other item to jump to."
+title: FieldGoToButton.location property
+linktitle: location property
+articleTitle: location property
+second_title: Aspose.Words for Python
+description: "FieldGoToButton.location property. Gets or sets the name of a bookmark, a page number, or some other item to jump to."
 type: docs
 weight: 30
 url: /python-net/aspose.words.fields/fieldgotobutton/location/

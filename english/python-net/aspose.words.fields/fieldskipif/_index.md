@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldSkipIf class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the SKIPIF field"
+linktitle: FieldSkipIf class
+articleTitle: FieldSkipIf class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldSkipIf class. Implements the SKIPIF field"
 type: docs
 weight: 960
 url: /python-net/aspose.words.fields/fieldskipif/

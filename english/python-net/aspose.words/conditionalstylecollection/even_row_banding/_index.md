@@ -1,7 +1,9 @@
 ﻿---
-title: even_row_banding property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the even row banding style."
+title: ConditionalStyleCollection.even_row_banding property
+linktitle: even_row_banding property
+articleTitle: even_row_banding property
+second_title: Aspose.Words for Python
+description: "ConditionalStyleCollection.even_row_banding property. Gets the even row banding style."
 type: docs
 weight: 60
 url: /python-net/aspose.words/conditionalstylecollection/even_row_banding/

@@ -1,7 +1,9 @@
 ﻿---
-title: clone method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Creates a duplicate of the node."
+title: Node.clone method
+linktitle: clone method
+articleTitle: clone method
+second_title: Aspose.Words for Python
+description: "Node.clone method. Creates a duplicate of the node."
 type: docs
 weight: 430
 url: /python-net/aspose.words/node/clone/

@@ -1,7 +1,9 @@
 ﻿---
-title: child_nodes property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets all immediate child nodes of this node."
+title: CompositeNode.child_nodes property
+linktitle: child_nodes property
+articleTitle: child_nodes property
+second_title: Aspose.Words for Python
+description: "CompositeNode.child_nodes property. Gets all immediate child nodes of this node."
 type: docs
 weight: 10
 url: /python-net/aspose.words/compositenode/child_nodes/

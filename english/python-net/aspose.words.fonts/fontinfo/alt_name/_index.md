@@ -1,7 +1,9 @@
 ﻿---
-title: alt_name property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the alternate name for the font."
+title: FontInfo.alt_name property
+linktitle: alt_name property
+articleTitle: alt_name property
+second_title: Aspose.Words for Python
+description: "FontInfo.alt_name property. Gets or sets the alternate name for the font."
 type: docs
 weight: 10
 url: /python-net/aspose.words.fonts/fontinfo/alt_name/

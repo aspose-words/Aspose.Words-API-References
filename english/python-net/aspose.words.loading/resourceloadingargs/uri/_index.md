@@ -1,7 +1,9 @@
 ﻿---
-title: uri property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "URI of the resource which is used for downloading if [IResourceLoadingCallback.resource_loading()](../../iresourceloadingcallback/resource_loading/#resourceloadingargs) returns [ResourceLoadingAction.DEFAULT](../../resourceloadingaction/#DEFAULT)."
+title: ResourceLoadingArgs.uri property
+linktitle: uri property
+articleTitle: uri property
+second_title: Aspose.Words for Python
+description: "ResourceLoadingArgs.uri property. URI of the resource which is used for downloading if [IResourceLoadingCallback.resource_loading()](../../iresourceloadingcallback/resource_loading/#resourceloadingargs) returns [ResourceLoadingAction.DEFAULT](../../resourceloadingaction/#DEFAULT)."
 type: docs
 weight: 30
 url: /python-net/aspose.words.loading/resourceloadingargs/uri/

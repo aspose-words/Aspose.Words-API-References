@@ -1,7 +1,9 @@
 ﻿---
-title: clear method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Deletes all tab stop positions."
+title: TabStopCollection.clear method
+linktitle: clear method
+articleTitle: clear method
+second_title: Aspose.Words for Python
+description: "TabStopCollection.clear method. Deletes all tab stop positions."
 type: docs
 weight: 60
 url: /python-net/aspose.words/tabstopcollection/clear/

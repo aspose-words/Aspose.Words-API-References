@@ -1,7 +1,9 @@
 ﻿---
 title: HeightRule enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the rule for determining the height of an object."
+linktitle: HeightRule enumeration
+articleTitle: HeightRule enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.HeightRule enumeration. Specifies the rule for determining the height of an object."
 type: docs
 weight: 460
 url: /python-net/aspose.words/heightrule/

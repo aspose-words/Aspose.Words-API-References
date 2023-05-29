@@ -1,7 +1,9 @@
 ﻿---
-title: axes property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets a collection of all axes of this chart."
+title: Chart.axes property
+linktitle: axes property
+articleTitle: axes property
+second_title: Aspose.Words for Python
+description: "Chart.axes property. Gets a collection of all axes of this chart."
 type: docs
 weight: 10
 url: /python-net/aspose.words.drawing.charts/chart/axes/

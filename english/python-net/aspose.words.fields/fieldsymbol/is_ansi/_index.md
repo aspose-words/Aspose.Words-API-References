@@ -1,7 +1,9 @@
 ﻿---
-title: is_ansi property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets whether the character code is interpreted as the value of an ANSI character."
+title: FieldSymbol.is_ansi property
+linktitle: is_ansi property
+articleTitle: is_ansi property
+second_title: Aspose.Words for Python
+description: "FieldSymbol.is_ansi property. Gets or sets whether the character code is interpreted as the value of an ANSI character."
 type: docs
 weight: 60
 url: /python-net/aspose.words.fields/fieldsymbol/is_ansi/

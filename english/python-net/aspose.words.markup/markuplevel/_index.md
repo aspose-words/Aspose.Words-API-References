@@ -1,7 +1,9 @@
 ﻿---
 title: MarkupLevel enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the level in the document tree where a particular [StructuredDocumentTag](../structureddocumenttag/) can occur."
+linktitle: MarkupLevel enumeration
+articleTitle: MarkupLevel enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.markup.MarkupLevel enumeration. Specifies the level in the document tree where a particular [StructuredDocumentTag](../structureddocumenttag/) can occur."
 type: docs
 weight: 90
 url: /python-net/aspose.words.markup/markuplevel/

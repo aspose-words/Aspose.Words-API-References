@@ -1,7 +1,9 @@
 ﻿---
-title: dml_effects_rendering_mode property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a value determining how DrawingML effects are rendered."
+title: PdfSaveOptions.dml_effects_rendering_mode property
+linktitle: dml_effects_rendering_mode property
+articleTitle: dml_effects_rendering_mode property
+second_title: Aspose.Words for Python
+description: "PdfSaveOptions.dml_effects_rendering_mode property. Gets or sets a value determining how DrawingML effects are rendered."
 type: docs
 weight: 90
 url: /python-net/aspose.words.saving/pdfsaveoptions/dml_effects_rendering_mode/

@@ -1,7 +1,9 @@
 ﻿---
-title: list_levels property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the collection of list levels for this list."
+title: List.list_levels property
+linktitle: list_levels property
+articleTitle: list_levels property
+second_title: Aspose.Words for Python
+description: "List.list_levels property. Gets the collection of list levels for this list."
 type: docs
 weight: 70
 url: /python-net/aspose.words.lists/list/list_levels/

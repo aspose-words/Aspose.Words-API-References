@@ -1,6 +1,8 @@
 ﻿---
-title: set_text method
-second_title: Aspose.Words for Python via .NET API Reference
+title: Watermark.set_text method
+linktitle: set_text method
+articleTitle: set_text method
+second_title: Aspose.Words for Python
 description: "aspose.words.Watermark.set_text method"
 type: docs
 weight: 40

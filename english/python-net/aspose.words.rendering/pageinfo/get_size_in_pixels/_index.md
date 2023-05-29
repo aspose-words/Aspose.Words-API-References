@@ -1,6 +1,8 @@
 ﻿---
-title: get_size_in_pixels method
-second_title: Aspose.Words for Python via .NET API Reference
+title: PageInfo.get_size_in_pixels method
+linktitle: get_size_in_pixels method
+articleTitle: get_size_in_pixels method
+second_title: Aspose.Words for Python
 description: "aspose.words.rendering.PageInfo.get_size_in_pixels method"
 type: docs
 weight: 70

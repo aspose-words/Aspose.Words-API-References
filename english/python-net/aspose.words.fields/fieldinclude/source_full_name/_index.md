@@ -1,7 +1,9 @@
 ﻿---
-title: source_full_name property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the location of the document."
+title: FieldInclude.source_full_name property
+linktitle: source_full_name property
+articleTitle: source_full_name property
+second_title: Aspose.Words for Python
+description: "FieldInclude.source_full_name property. Gets or sets the location of the document."
 type: docs
 weight: 40
 url: /python-net/aspose.words.fields/fieldinclude/source_full_name/

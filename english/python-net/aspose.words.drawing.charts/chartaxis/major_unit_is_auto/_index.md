@@ -1,7 +1,9 @@
 ﻿---
-title: major_unit_is_auto property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a flag indicating whether default distance between major tick marks shall be used."
+title: ChartAxis.major_unit_is_auto property
+linktitle: major_unit_is_auto property
+articleTitle: major_unit_is_auto property
+second_title: Aspose.Words for Python
+description: "ChartAxis.major_unit_is_auto property. Gets or sets a flag indicating whether default distance between major tick marks shall be used."
 type: docs
 weight: 130
 url: /python-net/aspose.words.drawing.charts/chartaxis/major_unit_is_auto/

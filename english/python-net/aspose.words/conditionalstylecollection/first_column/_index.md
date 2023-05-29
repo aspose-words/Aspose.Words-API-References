@@ -1,7 +1,9 @@
 ﻿---
-title: first_column property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the first column style."
+title: ConditionalStyleCollection.first_column property
+linktitle: first_column property
+articleTitle: first_column property
+second_title: Aspose.Words for Python
+description: "ConditionalStyleCollection.first_column property. Gets the first column style."
 type: docs
 weight: 70
 url: /python-net/aspose.words/conditionalstylecollection/first_column/

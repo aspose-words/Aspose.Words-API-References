@@ -1,7 +1,9 @@
 ﻿---
-title: editable_range_start property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Corresponding [EditableRangeStart](../../editablerangestart/), received by ID."
+title: EditableRangeEnd.editable_range_start property
+linktitle: editable_range_start property
+articleTitle: editable_range_start property
+second_title: Aspose.Words for Python
+description: "EditableRangeEnd.editable_range_start property. Corresponding [EditableRangeStart](../../editablerangestart/), received by ID."
 type: docs
 weight: 10
 url: /python-net/aspose.words/editablerangeend/editable_range_start/

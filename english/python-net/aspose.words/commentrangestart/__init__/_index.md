@@ -1,7 +1,9 @@
 ﻿---
 title: CommentRangeStart constructor
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Initializes a new instance of this class."
+linktitle: CommentRangeStart constructor
+articleTitle: CommentRangeStart constructor
+second_title: Aspose.Words for Python
+description: "CommentRangeStart constructor. Initializes a new instance of this class."
 type: docs
 weight: 10
 url: /python-net/aspose.words/commentrangestart/__init__/

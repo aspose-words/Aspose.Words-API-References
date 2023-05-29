@@ -1,7 +1,9 @@
 ﻿﻿---
 title: CompareOptions class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to choose advanced options for document comparison operation"
+linktitle: CompareOptions class
+articleTitle: CompareOptions class
+second_title: Aspose.Words for Python
+description: "aspose.words.comparing.CompareOptions class. Allows to choose advanced options for document comparison operation"
 type: docs
 weight: 10
 url: /python-net/aspose.words.comparing/compareoptions/

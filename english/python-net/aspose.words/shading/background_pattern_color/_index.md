@@ -1,7 +1,9 @@
 ﻿---
-title: background_pattern_color property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the color that's applied to the background of the [Shading](../) object."
+title: Shading.background_pattern_color property
+linktitle: background_pattern_color property
+articleTitle: background_pattern_color property
+second_title: Aspose.Words for Python
+description: "Shading.background_pattern_color property. Gets or sets the color that's applied to the background of the [Shading](../) object."
 type: docs
 weight: 10
 url: /python-net/aspose.words/shading/background_pattern_color/

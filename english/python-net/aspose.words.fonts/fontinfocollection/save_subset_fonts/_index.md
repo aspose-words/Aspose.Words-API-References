@@ -1,7 +1,9 @@
 ﻿---
-title: save_subset_fonts property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies whether or not to save a subset of the embedded TrueType fonts with the document"
+title: FontInfoCollection.save_subset_fonts property
+linktitle: save_subset_fonts property
+articleTitle: save_subset_fonts property
+second_title: Aspose.Words for Python
+description: "FontInfoCollection.save_subset_fonts property. Specifies whether or not to save a subset of the embedded TrueType fonts with the document"
 type: docs
 weight: 50
 url: /python-net/aspose.words.fonts/fontinfocollection/save_subset_fonts/

@@ -1,6 +1,9 @@
 ﻿---
 title: FieldAddIn constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: FieldAddIn constructor
+articleTitle: FieldAddIn constructor
+second_title: Aspose.Words for Python
+description: "FieldAddIn constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/fieldaddin/__init__/

@@ -1,7 +1,9 @@
 ﻿---
-title: list_level property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns the list level formatting plus any formatting overrides applied to the current paragraph."
+title: ListFormat.list_level property
+linktitle: list_level property
+articleTitle: list_level property
+second_title: Aspose.Words for Python
+description: "ListFormat.list_level property. Returns the list level formatting plus any formatting overrides applied to the current paragraph."
 type: docs
 weight: 30
 url: /python-net/aspose.words.lists/listformat/list_level/

@@ -1,7 +1,9 @@
 ﻿---
-title: select_single_node method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Selects the first [Node](../../node/) that matches the XPath expression."
+title: CompositeNode.select_single_node method
+linktitle: select_single_node method
+articleTitle: select_single_node method
+second_title: Aspose.Words for Python
+description: "CompositeNode.select_single_node method. Selects the first [Node](../../node/) that matches the XPath expression."
 type: docs
 weight: 190
 url: /python-net/aspose.words/compositenode/select_single_node/

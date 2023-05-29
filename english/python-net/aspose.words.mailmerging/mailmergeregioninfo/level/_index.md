@@ -1,7 +1,9 @@
 ﻿---
-title: level property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns the nesting level for the region."
+title: MailMergeRegionInfo.level property
+linktitle: level property
+articleTitle: level property
+second_title: Aspose.Words for Python
+description: "MailMergeRegionInfo.level property. Returns the nesting level for the region."
 type: docs
 weight: 30
 url: /python-net/aspose.words.mailmerging/mailmergeregioninfo/level/

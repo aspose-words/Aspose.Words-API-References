@@ -1,7 +1,9 @@
 ﻿---
 title: ChartAxisCollection class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a collection of chart axes."
+linktitle: ChartAxisCollection class
+articleTitle: ChartAxisCollection class
+second_title: Aspose.Words for Python
+description: "aspose.words.drawing.charts.ChartAxisCollection class. Represents a collection of chart axes."
 type: docs
 weight: 140
 url: /python-net/aspose.words.drawing.charts/chartaxiscollection/

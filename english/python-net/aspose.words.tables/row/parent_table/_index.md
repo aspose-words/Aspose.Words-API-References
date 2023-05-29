@@ -1,7 +1,9 @@
 ﻿---
-title: parent_table property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns the immediate parent table of the row."
+title: Row.parent_table property
+linktitle: parent_table property
+articleTitle: parent_table property
+second_title: Aspose.Words for Python
+description: "Row.parent_table property. Returns the immediate parent table of the row."
 type: docs
 weight: 80
 url: /python-net/aspose.words.tables/row/parent_table/

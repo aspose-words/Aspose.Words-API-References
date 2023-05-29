@@ -1,6 +1,8 @@
 ﻿---
 title: Run constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: Run constructor
+articleTitle: Run constructor
+second_title: Aspose.Words for Python
 description: "aspose.words.Run constructor"
 type: docs
 weight: 10

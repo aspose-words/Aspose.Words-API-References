@@ -1,7 +1,9 @@
 ﻿---
-title: graphic_filter property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the name of the filter for the format of the graphic that is to be inserted."
+title: FieldIncludePicture.graphic_filter property
+linktitle: graphic_filter property
+articleTitle: graphic_filter property
+second_title: Aspose.Words for Python
+description: "FieldIncludePicture.graphic_filter property. Gets or sets the name of the filter for the format of the graphic that is to be inserted."
 type: docs
 weight: 20
 url: /python-net/aspose.words.fields/fieldincludepicture/graphic_filter/

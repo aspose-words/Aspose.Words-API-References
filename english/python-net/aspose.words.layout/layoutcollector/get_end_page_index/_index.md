@@ -1,7 +1,9 @@
 ﻿---
-title: get_end_page_index method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets 1-based index of the page where node ends"
+title: LayoutCollector.get_end_page_index method
+linktitle: get_end_page_index method
+articleTitle: get_end_page_index method
+second_title: Aspose.Words for Python
+description: "LayoutCollector.get_end_page_index method. Gets 1-based index of the page where node ends"
 type: docs
 weight: 40
 url: /python-net/aspose.words.layout/layoutcollector/get_end_page_index/

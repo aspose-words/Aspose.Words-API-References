@@ -1,6 +1,9 @@
 ﻿---
 title: FieldGreetingLine constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: FieldGreetingLine constructor
+articleTitle: FieldGreetingLine constructor
+second_title: Aspose.Words for Python
+description: "FieldGreetingLine constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/fieldgreetingline/__init__/

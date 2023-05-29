@@ -1,7 +1,9 @@
 ﻿﻿---
 title: EditableRange class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a single editable range"
+linktitle: EditableRange class
+articleTitle: EditableRange class
+second_title: Aspose.Words for Python
+description: "aspose.words.EditableRange class. Represents a single editable range"
 type: docs
 weight: 330
 url: /python-net/aspose.words/editablerange/

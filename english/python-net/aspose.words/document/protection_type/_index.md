@@ -1,7 +1,9 @@
 ﻿---
-title: protection_type property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the currently active document protection type."
+title: Document.protection_type property
+linktitle: protection_type property
+articleTitle: protection_type property
+second_title: Aspose.Words for Python
+description: "Document.protection_type property. Gets the currently active document protection type."
 type: docs
 weight: 330
 url: /python-net/aspose.words/document/protection_type/

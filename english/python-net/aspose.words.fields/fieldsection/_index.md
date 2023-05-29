@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldSection class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the SECTION field"
+linktitle: FieldSection class
+articleTitle: FieldSection class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldSection class. Implements the SECTION field"
 type: docs
 weight: 900
 url: /python-net/aspose.words.fields/fieldsection/

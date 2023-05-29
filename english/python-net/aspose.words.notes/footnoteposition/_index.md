@@ -1,7 +1,9 @@
 ﻿---
 title: FootnotePosition enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Defines the footnote position."
+linktitle: FootnotePosition enumeration
+articleTitle: FootnotePosition enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.notes.FootnotePosition enumeration. Defines the footnote position."
 type: docs
 weight: 60
 url: /python-net/aspose.words.notes/footnoteposition/

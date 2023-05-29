@@ -1,7 +1,9 @@
 ﻿---
 title: FontFamily enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents the font family."
+linktitle: FontFamily enumeration
+articleTitle: FontFamily enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.fonts.FontFamily enumeration. Represents the font family."
 type: docs
 weight: 80
 url: /python-net/aspose.words.fonts/fontfamily/

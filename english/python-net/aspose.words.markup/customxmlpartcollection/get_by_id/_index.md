@@ -1,7 +1,9 @@
 ﻿---
-title: get_by_id method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Finds and returns a custom XML part by its identifier."
+title: CustomXmlPartCollection.get_by_id method
+linktitle: get_by_id method
+articleTitle: get_by_id method
+second_title: Aspose.Words for Python
+description: "CustomXmlPartCollection.get_by_id method. Finds and returns a custom XML part by its identifier."
 type: docs
 weight: 70
 url: /python-net/aspose.words.markup/customxmlpartcollection/get_by_id/

@@ -1,7 +1,9 @@
 ﻿---
-title: count property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the number of elements contained in the collection."
+title: OdsoRecipientDataCollection.count property
+linktitle: count property
+articleTitle: count property
+second_title: Aspose.Words for Python
+description: "OdsoRecipientDataCollection.count property. Gets the number of elements contained in the collection."
 type: docs
 weight: 30
 url: /python-net/aspose.words.settings/odsorecipientdatacollection/count/

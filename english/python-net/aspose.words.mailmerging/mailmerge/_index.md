@@ -1,7 +1,9 @@
 ﻿﻿---
 title: MailMerge class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents the mail merge functionality"
+linktitle: MailMerge class
+articleTitle: MailMerge class
+second_title: Aspose.Words for Python
+description: "aspose.words.mailmerging.MailMerge class. Represents the mail merge functionality"
 type: docs
 weight: 80
 url: /python-net/aspose.words.mailmerging/mailmerge/

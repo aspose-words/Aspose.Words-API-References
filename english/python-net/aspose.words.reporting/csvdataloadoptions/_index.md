@@ -1,7 +1,9 @@
 ﻿﻿---
 title: CsvDataLoadOptions class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents options for parsing CSV data"
+linktitle: CsvDataLoadOptions class
+articleTitle: CsvDataLoadOptions class
+second_title: Aspose.Words for Python
+description: "aspose.words.reporting.CsvDataLoadOptions class. Represents options for parsing CSV data"
 type: docs
 weight: 10
 url: /python-net/aspose.words.reporting/csvdataloadoptions/

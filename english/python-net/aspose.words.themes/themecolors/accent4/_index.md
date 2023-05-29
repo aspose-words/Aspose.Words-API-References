@@ -1,7 +1,9 @@
 ﻿---
-title: accent4 property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies color Accent 4."
+title: ThemeColors.accent4 property
+linktitle: accent4 property
+articleTitle: accent4 property
+second_title: Aspose.Words for Python
+description: "ThemeColors.accent4 property. Specifies color Accent 4."
 type: docs
 weight: 40
 url: /python-net/aspose.words.themes/themecolors/accent4/

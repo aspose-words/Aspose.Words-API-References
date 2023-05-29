@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldData class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the DATA field"
+linktitle: FieldData class
+articleTitle: FieldData class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldData class. Implements the DATA field"
 type: docs
 weight: 270
 url: /python-net/aspose.words.fields/fielddata/

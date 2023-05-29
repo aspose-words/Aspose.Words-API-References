@@ -1,7 +1,9 @@
 ﻿﻿---
 title: CustomPart class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a custom (arbitrary content) part, that is not defined by the ISO/IEC 29500 standard"
+linktitle: CustomPart class
+articleTitle: CustomPart class
+second_title: Aspose.Words for Python
+description: "aspose.words.markup.CustomPart class. Represents a custom (arbitrary content) part, that is not defined by the ISO/IEC 29500 standard"
 type: docs
 weight: 10
 url: /python-net/aspose.words.markup/custompart/

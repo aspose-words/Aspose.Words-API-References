@@ -1,7 +1,9 @@
 ﻿---
 title: ContentDisposition enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Enumerates different ways of presenting the document at the client browser."
+linktitle: ContentDisposition enumeration
+articleTitle: ContentDisposition enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.ContentDisposition enumeration. Enumerates different ways of presenting the document at the client browser."
 type: docs
 weight: 240
 url: /python-net/aspose.words/contentdisposition/

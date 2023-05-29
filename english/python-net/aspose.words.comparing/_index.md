@@ -1,6 +1,8 @@
 ﻿﻿---
 title: aspose.words.comparing module
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: aspose.words.comparing module
+articleTitle: aspose.words.comparing module
+second_title: Aspose.Words for Python
 description: "The aspose.words.comparing module provides classes and enumerations that allow to specify additional options when comparing documents."
 type: docs
 weight: 30

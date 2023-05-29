@@ -1,7 +1,9 @@
 ﻿---
-title: validate_password method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns ``True`` if the specified password is the same as the write-protection password the document was protected with"
+title: WriteProtection.validate_password method
+linktitle: validate_password method
+articleTitle: validate_password method
+second_title: Aspose.Words for Python
+description: "WriteProtection.validate_password method. Returns ``True`` if the specified password is the same as the write-protection password the document was protected with"
 type: docs
 weight: 40
 url: /python-net/aspose.words.settings/writeprotection/validate_password/

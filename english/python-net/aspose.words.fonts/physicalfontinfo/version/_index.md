@@ -1,7 +1,9 @@
 ﻿---
-title: version property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Version string of the font."
+title: PhysicalFontInfo.version property
+linktitle: version property
+articleTitle: version property
+second_title: Aspose.Words for Python
+description: "PhysicalFontInfo.version property. Version string of the font."
 type: docs
 weight: 40
 url: /python-net/aspose.words.fonts/physicalfontinfo/version/

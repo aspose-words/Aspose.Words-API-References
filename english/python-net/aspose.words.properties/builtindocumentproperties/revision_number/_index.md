@@ -1,7 +1,9 @@
 ﻿---
-title: revision_number property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the document revision number."
+title: BuiltInDocumentProperties.revision_number property
+linktitle: revision_number property
+articleTitle: revision_number property
+second_title: Aspose.Words for Python
+description: "BuiltInDocumentProperties.revision_number property. Gets or sets the document revision number."
 type: docs
 weight: 240
 url: /python-net/aspose.words.properties/builtindocumentproperties/revision_number/

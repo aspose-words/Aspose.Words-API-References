@@ -1,7 +1,9 @@
 ﻿---
-title: thumbnail_size property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Size of generated thumbnail in pixels"
+title: ThumbnailGeneratingOptions.thumbnail_size property
+linktitle: thumbnail_size property
+articleTitle: thumbnail_size property
+second_title: Aspose.Words for Python
+description: "ThumbnailGeneratingOptions.thumbnail_size property. Size of generated thumbnail in pixels"
 type: docs
 weight: 30
 url: /python-net/aspose.words.rendering/thumbnailgeneratingoptions/thumbnail_size/

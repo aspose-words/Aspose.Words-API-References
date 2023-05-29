@@ -1,6 +1,9 @@
 ﻿---
 title: FieldFormula constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: FieldFormula constructor
+articleTitle: FieldFormula constructor
+second_title: Aspose.Words for Python
+description: "FieldFormula constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/fieldformula/__init__/

@@ -1,7 +1,9 @@
 ﻿---
-title: encoding property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the encoding applied to the data within the referenced file."
+title: FieldIncludeText.encoding property
+linktitle: encoding property
+articleTitle: encoding property
+second_title: Aspose.Words for Python
+description: "FieldIncludeText.encoding property. Gets or sets the encoding applied to the data within the referenced file."
 type: docs
 weight: 30
 url: /python-net/aspose.words.fields/fieldincludetext/encoding/

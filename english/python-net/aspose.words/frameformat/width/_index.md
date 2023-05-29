@@ -1,7 +1,9 @@
 ﻿---
-title: width property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the width of the specified frame, in points."
+title: FrameFormat.width property
+linktitle: width property
+articleTitle: width property
+second_title: Aspose.Words for Python
+description: "FrameFormat.width property. Gets the width of the specified frame, in points."
 type: docs
 weight: 120
 url: /python-net/aspose.words/frameformat/width/

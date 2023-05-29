@@ -1,7 +1,9 @@
 ﻿---
 title: GroupShape constructor
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Creates a new group shape."
+linktitle: GroupShape constructor
+articleTitle: GroupShape constructor
+second_title: Aspose.Words for Python
+description: "GroupShape constructor. Creates a new group shape."
 type: docs
 weight: 10
 url: /python-net/aspose.words.drawing/groupshape/__init__/

@@ -1,7 +1,9 @@
 ﻿---
-title: equals method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Compares with the specified style"
+title: Style.equals method
+linktitle: equals method
+articleTitle: equals method
+second_title: Aspose.Words for Python
+description: "Style.equals method. Compares with the specified style"
 type: docs
 weight: 190
 url: /python-net/aspose.words/style/equals/

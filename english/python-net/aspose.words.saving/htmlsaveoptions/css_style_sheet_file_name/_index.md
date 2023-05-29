@@ -1,7 +1,9 @@
 ﻿---
-title: css_style_sheet_file_name property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the path and the name of the Cascading Style Sheet (CSS) file written when a document is exported to HTML"
+title: HtmlSaveOptions.css_style_sheet_file_name property
+linktitle: css_style_sheet_file_name property
+articleTitle: css_style_sheet_file_name property
+second_title: Aspose.Words for Python
+description: "HtmlSaveOptions.css_style_sheet_file_name property. Specifies the path and the name of the Cascading Style Sheet (CSS) file written when a document is exported to HTML"
 type: docs
 weight: 50
 url: /python-net/aspose.words.saving/htmlsaveoptions/css_style_sheet_file_name/

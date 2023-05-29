@@ -1,7 +1,9 @@
 ﻿---
-title: from_percent method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "A creation method that returns a new instance that represents a preferred width specified as a percentage."
+title: PreferredWidth.from_percent method
+linktitle: from_percent method
+articleTitle: from_percent method
+second_title: Aspose.Words for Python
+description: "PreferredWidth.from_percent method. A creation method that returns a new instance that represents a preferred width specified as a percentage."
 type: docs
 weight: 50
 url: /python-net/aspose.words.tables/preferredwidth/from_percent/

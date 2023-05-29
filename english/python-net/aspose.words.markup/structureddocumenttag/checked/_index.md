@@ -1,7 +1,9 @@
 ﻿---
-title: checked property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets/Sets current state of the Checkbox SDT"
+title: StructuredDocumentTag.checked property
+linktitle: checked property
+articleTitle: checked property
+second_title: Aspose.Words for Python
+description: "StructuredDocumentTag.checked property. Gets/Sets current state of the Checkbox SDT"
 type: docs
 weight: 60
 url: /python-net/aspose.words.markup/structureddocumenttag/checked/

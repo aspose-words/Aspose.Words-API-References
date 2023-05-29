@@ -1,6 +1,9 @@
 ﻿---
 title: FieldRD constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: FieldRD constructor
+articleTitle: FieldRD constructor
+second_title: Aspose.Words for Python
+description: "FieldRD constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/fieldrd/__init__/

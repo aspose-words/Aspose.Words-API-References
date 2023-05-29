@@ -1,7 +1,9 @@
 ﻿---
-title: trailing_character property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns or sets the character inserted after the number for the list level."
+title: ListLevel.trailing_character property
+linktitle: trailing_character property
+articleTitle: trailing_character property
+second_title: Aspose.Words for Python
+description: "ListLevel.trailing_character property. Returns or sets the character inserted after the number for the list level."
 type: docs
 weight: 140
 url: /python-net/aspose.words.lists/listlevel/trailing_character/

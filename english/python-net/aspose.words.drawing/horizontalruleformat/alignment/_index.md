@@ -1,7 +1,9 @@
 ﻿---
-title: alignment property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the alignment of the horizontal rule."
+title: HorizontalRuleFormat.alignment property
+linktitle: alignment property
+articleTitle: alignment property
+second_title: Aspose.Words for Python
+description: "HorizontalRuleFormat.alignment property. Gets or sets the alignment of the horizontal rule."
 type: docs
 weight: 10
 url: /python-net/aspose.words.drawing/horizontalruleformat/alignment/

@@ -1,6 +1,8 @@
 ﻿---
 title: ComparisonEvaluationResult constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: ComparisonEvaluationResult constructor
+articleTitle: ComparisonEvaluationResult constructor
+second_title: Aspose.Words for Python
 description: "aspose.words.fields.ComparisonEvaluationResult constructor"
 type: docs
 weight: 10

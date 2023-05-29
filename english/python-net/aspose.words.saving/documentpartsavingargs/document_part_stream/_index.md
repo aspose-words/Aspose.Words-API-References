@@ -1,7 +1,9 @@
 ﻿---
-title: document_part_stream property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to specify the stream where the document part will be saved to."
+title: DocumentPartSavingArgs.document_part_stream property
+linktitle: document_part_stream property
+articleTitle: document_part_stream property
+second_title: Aspose.Words for Python
+description: "DocumentPartSavingArgs.document_part_stream property. Allows to specify the stream where the document part will be saved to."
 type: docs
 weight: 30
 url: /python-net/aspose.words.saving/documentpartsavingargs/document_part_stream/

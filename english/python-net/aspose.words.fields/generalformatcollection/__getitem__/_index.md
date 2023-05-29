@@ -1,7 +1,9 @@
 ﻿---
 title: GeneralFormatCollection indexer
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets a general format at the specified index."
+linktitle: GeneralFormatCollection indexer
+articleTitle: GeneralFormatCollection indexer
+second_title: Aspose.Words for Python
+description: "GeneralFormatCollection indexer. Gets a general format at the specified index."
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/generalformatcollection/__getitem__/

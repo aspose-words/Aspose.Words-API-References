@@ -1,7 +1,9 @@
 ﻿---
-title: list_id property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the unique identifier of the list."
+title: List.list_id property
+linktitle: list_id property
+articleTitle: list_id property
+second_title: Aspose.Words for Python
+description: "List.list_id property. Gets the unique identifier of the list."
 type: docs
 weight: 60
 url: /python-net/aspose.words.lists/list/list_id/

@@ -1,7 +1,9 @@
 ﻿---
-title: is_valid property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Indicates that signature line is signed by digital signature and this digital signature is valid."
+title: SignatureLine.is_valid property
+linktitle: is_valid property
+articleTitle: is_valid property
+second_title: Aspose.Words for Python
+description: "SignatureLine.is_valid property. Indicates that signature line is signed by digital signature and this digital signature is valid."
 type: docs
 weight: 70
 url: /python-net/aspose.words.drawing/signatureline/is_valid/

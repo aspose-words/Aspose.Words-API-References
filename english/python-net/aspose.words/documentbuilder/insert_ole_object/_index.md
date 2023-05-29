@@ -1,6 +1,8 @@
 ﻿---
-title: insert_ole_object method
-second_title: Aspose.Words for Python via .NET API Reference
+title: DocumentBuilder.insert_ole_object method
+linktitle: insert_ole_object method
+articleTitle: insert_ole_object method
+second_title: Aspose.Words for Python
 description: "aspose.words.DocumentBuilder.insert_ole_object method"
 type: docs
 weight: 390

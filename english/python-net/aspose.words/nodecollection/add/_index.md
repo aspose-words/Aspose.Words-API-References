@@ -1,7 +1,9 @@
 ﻿---
-title: add method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Adds a node to the end of the collection."
+title: NodeCollection.add method
+linktitle: add method
+articleTitle: add method
+second_title: Aspose.Words for Python
+description: "NodeCollection.add method. Adds a node to the end of the collection."
 type: docs
 weight: 30
 url: /python-net/aspose.words/nodecollection/add/

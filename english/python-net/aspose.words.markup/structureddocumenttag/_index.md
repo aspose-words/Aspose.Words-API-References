@@ -1,7 +1,9 @@
 ﻿﻿---
 title: StructuredDocumentTag class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a structured document tag (SDT or content control) in a document"
+linktitle: StructuredDocumentTag class
+articleTitle: StructuredDocumentTag class
+second_title: Aspose.Words for Python
+description: "aspose.words.markup.StructuredDocumentTag class. Represents a structured document tag (SDT or content control) in a document"
 type: docs
 weight: 170
 url: /python-net/aspose.words.markup/structureddocumenttag/

@@ -1,7 +1,9 @@
 ﻿---
-title: field_update_culture_provider property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a provider that returns a culture object specific for each particular field."
+title: FieldOptions.field_update_culture_provider property
+linktitle: field_update_culture_provider property
+articleTitle: field_update_culture_provider property
+second_title: Aspose.Words for Python
+description: "FieldOptions.field_update_culture_provider property. Gets or sets a provider that returns a culture object specific for each particular field."
 type: docs
 weight: 90
 url: /python-net/aspose.words.fields/fieldoptions/field_update_culture_provider/

@@ -1,7 +1,9 @@
 ﻿---
-title: warning method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the [IWarningCallback](../../iwarningcallback/) interface"
+title: WarningInfoCollection.warning method
+linktitle: warning method
+articleTitle: warning method
+second_title: Aspose.Words for Python
+description: "WarningInfoCollection.warning method. Implements the [IWarningCallback](../../iwarningcallback/) interface"
 type: docs
 weight: 50
 url: /python-net/aspose.words/warninginfocollection/warning/

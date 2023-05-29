@@ -1,7 +1,9 @@
 ﻿---
-title: opaque_bounds_in_points property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the opaque bounds of the shape in points."
+title: NodeRendererBase.opaque_bounds_in_points property
+linktitle: opaque_bounds_in_points property
+articleTitle: opaque_bounds_in_points property
+second_title: Aspose.Words for Python
+description: "NodeRendererBase.opaque_bounds_in_points property. Gets the opaque bounds of the shape in points."
 type: docs
 weight: 20
 url: /python-net/aspose.words.rendering/noderendererbase/opaque_bounds_in_points/

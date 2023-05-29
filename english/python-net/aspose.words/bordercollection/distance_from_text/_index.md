@@ -1,7 +1,9 @@
 ﻿---
-title: distance_from_text property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets distance of the border from text in points."
+title: BorderCollection.distance_from_text property
+linktitle: distance_from_text property
+articleTitle: distance_from_text property
+second_title: Aspose.Words for Python
+description: "BorderCollection.distance_from_text property. Gets or sets distance of the border from text in points."
 type: docs
 weight: 50
 url: /python-net/aspose.words/bordercollection/distance_from_text/

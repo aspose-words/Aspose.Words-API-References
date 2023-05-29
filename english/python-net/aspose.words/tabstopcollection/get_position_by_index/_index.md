@@ -1,7 +1,9 @@
 ﻿---
-title: get_position_by_index method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the position (in points) of the tab stop at the specified index."
+title: TabStopCollection.get_position_by_index method
+linktitle: get_position_by_index method
+articleTitle: get_position_by_index method
+second_title: Aspose.Words for Python
+description: "TabStopCollection.get_position_by_index method. Gets the position (in points) of the tab stop at the specified index."
 type: docs
 weight: 90
 url: /python-net/aspose.words/tabstopcollection/get_position_by_index/

@@ -1,7 +1,9 @@
 ﻿---
-title: name property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the column name within an external data source for the column whose  index is specified by the [OdsoFieldMapData.column](../column/) property"
+title: OdsoFieldMapData.name property
+linktitle: name property
+articleTitle: name property
+second_title: Aspose.Words for Python
+description: "OdsoFieldMapData.name property. Specifies the column name within an external data source for the column whose  index is specified by the [OdsoFieldMapData.column](../column/) property"
 type: docs
 weight: 40
 url: /python-net/aspose.words.settings/odsofieldmapdata/name/

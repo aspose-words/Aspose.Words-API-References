@@ -1,7 +1,9 @@
 ﻿---
-title: editable_range property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the facade object that encapsulates this editable range start and end."
+title: EditableRangeStart.editable_range property
+linktitle: editable_range property
+articleTitle: editable_range property
+second_title: Aspose.Words for Python
+description: "EditableRangeStart.editable_range property. Gets the facade object that encapsulates this editable range start and end."
 type: docs
 weight: 10
 url: /python-net/aspose.words/editablerangestart/editable_range/

@@ -1,7 +1,9 @@
 ﻿---
-title: delete_fields method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Removes mail merge related fields from the document."
+title: MailMerge.delete_fields method
+linktitle: delete_fields method
+articleTitle: delete_fields method
+second_title: Aspose.Words for Python
+description: "MailMerge.delete_fields method. Removes mail merge related fields from the document."
 type: docs
 weight: 170
 url: /python-net/aspose.words.mailmerging/mailmerge/delete_fields/

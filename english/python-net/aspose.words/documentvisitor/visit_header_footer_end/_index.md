@@ -1,7 +1,9 @@
 ﻿---
-title: visit_header_footer_end method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Called when enumeration of a header or footer in a section has ended."
+title: DocumentVisitor.visit_header_footer_end method
+linktitle: visit_header_footer_end method
+articleTitle: visit_header_footer_end method
+second_title: Aspose.Words for Python
+description: "DocumentVisitor.visit_header_footer_end method. Called when enumeration of a header or footer in a section has ended."
 type: docs
 weight: 280
 url: /python-net/aspose.words/documentvisitor/visit_header_footer_end/

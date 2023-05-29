@@ -1,7 +1,9 @@
 ﻿---
-title: image_compression property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies compression type to be used for all images in the document."
+title: PdfSaveOptions.image_compression property
+linktitle: image_compression property
+articleTitle: image_compression property
+second_title: Aspose.Words for Python
+description: "PdfSaveOptions.image_compression property. Specifies compression type to be used for all images in the document."
 type: docs
 weight: 200
 url: /python-net/aspose.words.saving/pdfsaveoptions/image_compression/

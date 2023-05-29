@@ -1,7 +1,9 @@
 ﻿---
-title: category property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the second-level categorization for the building block."
+title: BuildingBlock.category property
+linktitle: category property
+articleTitle: category property
+second_title: Aspose.Words for Python
+description: "BuildingBlock.category property. Specifies the second-level categorization for the building block."
 type: docs
 weight: 30
 url: /python-net/aspose.words.buildingblocks/buildingblock/category/

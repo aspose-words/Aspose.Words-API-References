@@ -1,7 +1,9 @@
 ﻿﻿---
 title: TaskPaneCollection class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies a list of persisted task pane objects"
+linktitle: TaskPaneCollection class
+articleTitle: TaskPaneCollection class
+second_title: Aspose.Words for Python
+description: "aspose.words.webextensions.TaskPaneCollection class. Specifies a list of persisted task pane objects"
 type: docs
 weight: 20
 url: /python-net/aspose.words.webextensions/taskpanecollection/

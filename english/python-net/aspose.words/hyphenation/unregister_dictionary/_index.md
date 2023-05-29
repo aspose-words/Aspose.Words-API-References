@@ -1,7 +1,9 @@
 ﻿---
-title: unregister_dictionary method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Unregisters a hyphenation dictionary for the specified language."
+title: Hyphenation.unregister_dictionary method
+linktitle: unregister_dictionary method
+articleTitle: unregister_dictionary method
+second_title: Aspose.Words for Python
+description: "Hyphenation.unregister_dictionary method. Unregisters a hyphenation dictionary for the specified language."
 type: docs
 weight: 50
 url: /python-net/aspose.words/hyphenation/unregister_dictionary/

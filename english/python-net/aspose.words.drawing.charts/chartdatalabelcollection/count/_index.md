@@ -1,7 +1,9 @@
 ﻿---
-title: count property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns the number of [ChartDataLabel](../../chartdatalabel/) in this collection."
+title: ChartDataLabelCollection.count property
+linktitle: count property
+articleTitle: count property
+second_title: Aspose.Words for Python
+description: "ChartDataLabelCollection.count property. Returns the number of [ChartDataLabel](../../chartdatalabel/) in this collection."
 type: docs
 weight: 20
 url: /python-net/aspose.words.drawing.charts/chartdatalabelcollection/count/

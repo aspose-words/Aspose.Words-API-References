@@ -1,6 +1,8 @@
 ﻿---
-title: get_string method
-second_title: Aspose.Words for Python via .NET API Reference
+title: Cluster.get_string method
+linktitle: get_string method
+articleTitle: get_string method
+second_title: Aspose.Words for Python
 description: "aspose.words.shaping.Cluster.get_string method"
 type: docs
 weight: 60

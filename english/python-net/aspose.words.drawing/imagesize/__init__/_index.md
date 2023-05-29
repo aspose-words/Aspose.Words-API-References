@@ -1,6 +1,8 @@
 ﻿---
 title: ImageSize constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: ImageSize constructor
+articleTitle: ImageSize constructor
+second_title: Aspose.Words for Python
 description: "aspose.words.drawing.ImageSize constructor"
 type: docs
 weight: 10

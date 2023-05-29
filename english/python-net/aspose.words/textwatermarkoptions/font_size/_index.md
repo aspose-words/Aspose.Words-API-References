@@ -1,7 +1,9 @@
 ﻿---
-title: font_size property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a font size"
+title: TextWatermarkOptions.font_size property
+linktitle: font_size property
+articleTitle: font_size property
+second_title: Aspose.Words for Python
+description: "TextWatermarkOptions.font_size property. Gets or sets a font size"
 type: docs
 weight: 40
 url: /python-net/aspose.words/textwatermarkoptions/font_size/

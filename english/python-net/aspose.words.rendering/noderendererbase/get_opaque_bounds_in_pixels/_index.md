@@ -1,6 +1,8 @@
 ﻿---
-title: get_opaque_bounds_in_pixels method
-second_title: Aspose.Words for Python via .NET API Reference
+title: NodeRendererBase.get_opaque_bounds_in_pixels method
+linktitle: get_opaque_bounds_in_pixels method
+articleTitle: get_opaque_bounds_in_pixels method
+second_title: Aspose.Words for Python
 description: "aspose.words.rendering.NodeRendererBase.get_opaque_bounds_in_pixels method"
 type: docs
 weight: 50

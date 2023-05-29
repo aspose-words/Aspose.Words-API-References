@@ -1,7 +1,9 @@
 ﻿﻿---
 title: OlePackage class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to access OLE Package properties"
+linktitle: OlePackage class
+articleTitle: OlePackage class
+second_title: Aspose.Words for Python
+description: "aspose.words.drawing.OlePackage class. Allows to access OLE Package properties"
 type: docs
 weight: 230
 url: /python-net/aspose.words.drawing/olepackage/

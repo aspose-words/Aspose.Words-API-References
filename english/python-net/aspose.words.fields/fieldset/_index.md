@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldSet class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the SET field"
+linktitle: FieldSet class
+articleTitle: FieldSet class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldSet class. Implements the SET field"
 type: docs
 weight: 940
 url: /python-net/aspose.words.fields/fieldset/

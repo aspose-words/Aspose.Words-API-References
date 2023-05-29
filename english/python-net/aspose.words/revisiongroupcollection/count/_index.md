@@ -1,7 +1,9 @@
 ﻿---
-title: count property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns the number of revision groups in the collection."
+title: RevisionGroupCollection.count property
+linktitle: count property
+articleTitle: count property
+second_title: Aspose.Words for Python
+description: "RevisionGroupCollection.count property. Returns the number of revision groups in the collection."
 type: docs
 weight: 20
 url: /python-net/aspose.words/revisiongroupcollection/count/

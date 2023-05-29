@@ -1,7 +1,9 @@
 ﻿---
-title: source_full_name property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the name and location of the source file."
+title: FieldDde.source_full_name property
+linktitle: source_full_name property
+articleTitle: source_full_name property
+second_title: Aspose.Words for Python
+description: "FieldDde.source_full_name property. Gets or sets the name and location of the source file."
 type: docs
 weight: 110
 url: /python-net/aspose.words.fields/fielddde/source_full_name/

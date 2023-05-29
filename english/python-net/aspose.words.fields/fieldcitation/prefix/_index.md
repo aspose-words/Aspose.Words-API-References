@@ -1,7 +1,9 @@
 ﻿---
-title: prefix property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a prefix that is prepended to the citation."
+title: FieldCitation.prefix property
+linktitle: prefix property
+articleTitle: prefix property
+second_title: Aspose.Words for Python
+description: "FieldCitation.prefix property. Gets or sets a prefix that is prepended to the citation."
 type: docs
 weight: 50
 url: /python-net/aspose.words.fields/fieldcitation/prefix/

@@ -1,7 +1,9 @@
 ﻿---
-title: bytes property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents an estimate of the number of bytes in the document."
+title: BuiltInDocumentProperties.bytes property
+linktitle: bytes property
+articleTitle: bytes property
+second_title: Aspose.Words for Python
+description: "BuiltInDocumentProperties.bytes property. Represents an estimate of the number of bytes in the document."
 type: docs
 weight: 30
 url: /python-net/aspose.words.properties/builtindocumentproperties/bytes/

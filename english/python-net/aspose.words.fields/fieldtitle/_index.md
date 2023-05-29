@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldTitle class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the TITLE field"
+linktitle: FieldTitle class
+articleTitle: FieldTitle class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldTitle class. Implements the TITLE field"
 type: docs
 weight: 1050
 url: /python-net/aspose.words.fields/fieldtitle/

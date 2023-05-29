@@ -1,7 +1,9 @@
 ﻿---
-title: callback property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets callback interface used to request dictionaries when page layout of the document is built"
+title: Hyphenation.callback property
+linktitle: callback property
+articleTitle: callback property
+second_title: Aspose.Words for Python
+description: "Hyphenation.callback property. Gets or sets callback interface used to request dictionaries when page layout of the document is built"
 type: docs
 weight: 10
 url: /python-net/aspose.words/hyphenation/callback/

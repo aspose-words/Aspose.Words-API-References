@@ -1,7 +1,9 @@
 ﻿---
-title: absolute_vertical_distance property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets absolute vertical floating table position specified by the table properties, in points"
+title: Table.absolute_vertical_distance property
+linktitle: absolute_vertical_distance property
+articleTitle: absolute_vertical_distance property
+second_title: Aspose.Words for Python
+description: "Table.absolute_vertical_distance property. Gets or sets absolute vertical floating table position specified by the table properties, in points"
 type: docs
 weight: 30
 url: /python-net/aspose.words.tables/table/absolute_vertical_distance/

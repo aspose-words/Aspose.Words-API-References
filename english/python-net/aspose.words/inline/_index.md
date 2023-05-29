@@ -1,7 +1,9 @@
 ﻿﻿---
 title: Inline class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Base class for inline-level nodes that can have character formatting associated with them, but cannot have child nodes of their own"
+linktitle: Inline class
+articleTitle: Inline class
+second_title: Aspose.Words for Python
+description: "aspose.words.Inline class. Base class for inline-level nodes that can have character formatting associated with them, but cannot have child nodes of their own"
 type: docs
 weight: 570
 url: /python-net/aspose.words/inline/

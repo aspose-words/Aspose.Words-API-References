@@ -1,7 +1,9 @@
 ﻿---
-title: first_paragraph property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the first paragraph among the immediate children."
+title: Cell.first_paragraph property
+linktitle: first_paragraph property
+articleTitle: first_paragraph property
+second_title: Aspose.Words for Python
+description: "Cell.first_paragraph property. Gets the first paragraph among the immediate children."
 type: docs
 weight: 30
 url: /python-net/aspose.words.tables/cell/first_paragraph/

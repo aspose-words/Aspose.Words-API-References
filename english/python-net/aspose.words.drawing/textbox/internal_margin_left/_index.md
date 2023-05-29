@@ -1,7 +1,9 @@
 ﻿---
-title: internal_margin_left property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the inner left margin in points for a shape."
+title: TextBox.internal_margin_left property
+linktitle: internal_margin_left property
+articleTitle: internal_margin_left property
+second_title: Aspose.Words for Python
+description: "TextBox.internal_margin_left property. Specifies the inner left margin in points for a shape."
 type: docs
 weight: 30
 url: /python-net/aspose.words.drawing/textbox/internal_margin_left/

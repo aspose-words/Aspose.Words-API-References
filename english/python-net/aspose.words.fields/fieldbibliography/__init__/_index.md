@@ -1,6 +1,9 @@
 ﻿---
 title: FieldBibliography constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: FieldBibliography constructor
+articleTitle: FieldBibliography constructor
+second_title: Aspose.Words for Python
+description: "FieldBibliography constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/fieldbibliography/__init__/

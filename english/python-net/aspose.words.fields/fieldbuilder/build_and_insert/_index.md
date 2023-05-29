@@ -1,6 +1,8 @@
 ﻿---
-title: build_and_insert method
-second_title: Aspose.Words for Python via .NET API Reference
+title: FieldBuilder.build_and_insert method
+linktitle: build_and_insert method
+articleTitle: build_and_insert method
+second_title: Aspose.Words for Python
 description: "aspose.words.fields.FieldBuilder.build_and_insert method"
 type: docs
 weight: 40

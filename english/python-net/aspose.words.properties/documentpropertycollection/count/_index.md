@@ -1,7 +1,9 @@
 ﻿---
-title: count property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets number of items in the collection."
+title: DocumentPropertyCollection.count property
+linktitle: count property
+articleTitle: count property
+second_title: Aspose.Words for Python
+description: "DocumentPropertyCollection.count property. Gets number of items in the collection."
 type: docs
 weight: 20
 url: /python-net/aspose.words.properties/documentpropertycollection/count/

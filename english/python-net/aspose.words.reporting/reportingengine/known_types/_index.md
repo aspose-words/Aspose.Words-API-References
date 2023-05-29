@@ -1,7 +1,9 @@
 ﻿---
-title: known_types property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets an unordered set (i.e"
+title: ReportingEngine.known_types property
+linktitle: known_types property
+articleTitle: known_types property
+second_title: Aspose.Words for Python
+description: "ReportingEngine.known_types property. Gets an unordered set (i.e"
 type: docs
 weight: 20
 url: /python-net/aspose.words.reporting/reportingengine/known_types/

@@ -1,7 +1,9 @@
 ﻿﻿---
 title: WriteProtection class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies write protection settings for a document"
+linktitle: WriteProtection class
+articleTitle: WriteProtection class
+second_title: Aspose.Words for Python
+description: "aspose.words.settings.WriteProtection class. Specifies write protection settings for a document"
 type: docs
 weight: 210
 url: /python-net/aspose.words.settings/writeprotection/

@@ -1,7 +1,9 @@
 ﻿---
-title: node_type property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the type of this node."
+title: Node.node_type property
+linktitle: node_type property
+articleTitle: node_type property
+second_title: Aspose.Words for Python
+description: "Node.node_type property. Gets the type of this node."
 type: docs
 weight: 50
 url: /python-net/aspose.words/node/node_type/

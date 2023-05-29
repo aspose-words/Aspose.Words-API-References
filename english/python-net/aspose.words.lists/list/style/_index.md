@@ -1,7 +1,9 @@
 ﻿---
-title: style property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the list style that this list references or defines."
+title: List.style property
+linktitle: style property
+articleTitle: style property
+second_title: Aspose.Words for Python
+description: "List.style property. Gets the list style that this list references or defines."
 type: docs
 weight: 80
 url: /python-net/aspose.words.lists/list/style/

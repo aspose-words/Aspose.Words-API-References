@@ -1,7 +1,9 @@
 ﻿---
-title: insert_paragraph method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Inserts a paragraph break into the document."
+title: DocumentBuilder.insert_paragraph method
+linktitle: insert_paragraph method
+articleTitle: insert_paragraph method
+second_title: Aspose.Words for Python
+description: "DocumentBuilder.insert_paragraph method. Inserts a paragraph break into the document."
 type: docs
 weight: 420
 url: /python-net/aspose.words/documentbuilder/insert_paragraph/

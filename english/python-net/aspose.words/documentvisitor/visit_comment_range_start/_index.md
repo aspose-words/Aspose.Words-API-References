@@ -1,7 +1,9 @@
 ﻿---
-title: visit_comment_range_start method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Called when the start of a commented range of text is encountered."
+title: DocumentVisitor.visit_comment_range_start method
+linktitle: visit_comment_range_start method
+articleTitle: visit_comment_range_start method
+second_title: Aspose.Words for Python
+description: "DocumentVisitor.visit_comment_range_start method. Called when the start of a commented range of text is encountered."
 type: docs
 weight: 120
 url: /python-net/aspose.words/documentvisitor/visit_comment_range_start/

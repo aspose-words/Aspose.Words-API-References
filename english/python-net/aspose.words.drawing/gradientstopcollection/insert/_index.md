@@ -1,7 +1,9 @@
 ﻿---
-title: insert method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Inserts a [GradientStop](../../gradientstop/) to the collection at a specified index."
+title: GradientStopCollection.insert method
+linktitle: insert method
+articleTitle: insert method
+second_title: Aspose.Words for Python
+description: "GradientStopCollection.insert method. Inserts a [GradientStop](../../gradientstop/) to the collection at a specified index."
 type: docs
 weight: 40
 url: /python-net/aspose.words.drawing/gradientstopcollection/insert/

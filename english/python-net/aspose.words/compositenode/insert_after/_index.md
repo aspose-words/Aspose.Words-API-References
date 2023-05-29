@@ -1,7 +1,9 @@
 ﻿---
-title: insert_after method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Inserts the specified node immediately after the specified reference node."
+title: CompositeNode.insert_after method
+linktitle: insert_after method
+articleTitle: insert_after method
+second_title: Aspose.Words for Python
+description: "CompositeNode.insert_after method. Inserts the specified node immediately after the specified reference node."
 type: docs
 weight: 120
 url: /python-net/aspose.words/compositenode/insert_after/

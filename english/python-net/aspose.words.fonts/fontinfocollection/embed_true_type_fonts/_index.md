@@ -1,7 +1,9 @@
 ﻿---
-title: embed_true_type_fonts property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies whether or not to embed TrueType fonts in a document when it is saved"
+title: FontInfoCollection.embed_true_type_fonts property
+linktitle: embed_true_type_fonts property
+articleTitle: embed_true_type_fonts property
+second_title: Aspose.Words for Python
+description: "FontInfoCollection.embed_true_type_fonts property. Specifies whether or not to embed TrueType fonts in a document when it is saved"
 type: docs
 weight: 40
 url: /python-net/aspose.words.fonts/fontinfocollection/embed_true_type_fonts/

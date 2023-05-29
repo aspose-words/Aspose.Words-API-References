@@ -1,7 +1,9 @@
 ﻿---
-title: count property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets an integer value indicating the number of items in the collection."
+title: GradientStopCollection.count property
+linktitle: count property
+articleTitle: count property
+second_title: Aspose.Words for Python
+description: "GradientStopCollection.count property. Gets an integer value indicating the number of items in the collection."
 type: docs
 weight: 20
 url: /python-net/aspose.words.drawing/gradientstopcollection/count/

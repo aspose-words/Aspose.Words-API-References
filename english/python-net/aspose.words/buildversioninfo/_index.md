@@ -1,7 +1,9 @@
 ﻿﻿---
 title: BuildVersionInfo class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides information about the current product name and version"
+linktitle: BuildVersionInfo class
+articleTitle: BuildVersionInfo class
+second_title: Aspose.Words for Python
+description: "aspose.words.BuildVersionInfo class. Provides information about the current product name and version"
 type: docs
 weight: 110
 url: /python-net/aspose.words/buildversioninfo/

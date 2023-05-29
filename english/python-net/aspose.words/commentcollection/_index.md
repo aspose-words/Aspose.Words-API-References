@@ -1,7 +1,9 @@
 ﻿﻿---
 title: CommentCollection class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides typed access to a collection of [Comment](../comment/) nodes"
+linktitle: CommentCollection class
+articleTitle: CommentCollection class
+second_title: Aspose.Words for Python
+description: "aspose.words.CommentCollection class. Provides typed access to a collection of [Comment](../comment/) nodes"
 type: docs
 weight: 170
 url: /python-net/aspose.words/commentcollection/

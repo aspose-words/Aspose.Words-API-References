@@ -1,7 +1,9 @@
 ﻿---
-title: tag property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies a tag associated with the current structured document tag node"
+title: StructuredDocumentTagRangeStart.tag property
+linktitle: tag property
+articleTitle: tag property
+second_title: Aspose.Words for Python
+description: "StructuredDocumentTagRangeStart.tag property. Specifies a tag associated with the current structured document tag node"
 type: docs
 weight: 150
 url: /python-net/aspose.words.markup/structureddocumenttagrangestart/tag/

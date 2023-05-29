@@ -1,7 +1,9 @@
 ﻿---
-title: space_before_auto property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "True if the amount of spacing before the paragraph is set automatically."
+title: ParagraphFormat.space_before_auto property
+linktitle: space_before_auto property
+articleTitle: space_before_auto property
+second_title: Aspose.Words for Python
+description: "ParagraphFormat.space_before_auto property. True if the amount of spacing before the paragraph is set automatically."
 type: docs
 weight: 320
 url: /python-net/aspose.words/paragraphformat/space_before_auto/

@@ -1,7 +1,9 @@
 ﻿---
-title: show_series_name property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns or sets a Boolean to indicate the series name display behavior for the data labels on a chart"
+title: ChartDataLabel.show_series_name property
+linktitle: show_series_name property
+articleTitle: show_series_name property
+second_title: Aspose.Words for Python
+description: "ChartDataLabel.show_series_name property. Returns or sets a Boolean to indicate the series name display behavior for the data labels on a chart"
 type: docs
 weight: 130
 url: /python-net/aspose.words.drawing.charts/chartdatalabel/show_series_name/

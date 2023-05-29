@@ -1,7 +1,9 @@
 ﻿---
-title: parent_section property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the parent section of this story."
+title: HeaderFooter.parent_section property
+linktitle: parent_section property
+articleTitle: parent_section property
+second_title: Aspose.Words for Python
+description: "HeaderFooter.parent_section property. Gets the parent section of this story."
 type: docs
 weight: 60
 url: /python-net/aspose.words/headerfooter/parent_section/

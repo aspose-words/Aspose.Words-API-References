@@ -1,7 +1,9 @@
 ﻿---
-title: alignment property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the alignment for the table style."
+title: TableStyle.alignment property
+linktitle: alignment property
+articleTitle: alignment property
+second_title: Aspose.Words for Python
+description: "TableStyle.alignment property. Specifies the alignment for the table style."
 type: docs
 weight: 10
 url: /python-net/aspose.words/tablestyle/alignment/

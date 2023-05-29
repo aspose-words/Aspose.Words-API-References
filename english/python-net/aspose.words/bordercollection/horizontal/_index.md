@@ -1,7 +1,9 @@
 ﻿---
-title: horizontal property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the horizontal border that is used between cells or conforming paragraphs."
+title: BorderCollection.horizontal property
+linktitle: horizontal property
+articleTitle: horizontal property
+second_title: Aspose.Words for Python
+description: "BorderCollection.horizontal property. Gets the horizontal border that is used between cells or conforming paragraphs."
 type: docs
 weight: 60
 url: /python-net/aspose.words/bordercollection/horizontal/

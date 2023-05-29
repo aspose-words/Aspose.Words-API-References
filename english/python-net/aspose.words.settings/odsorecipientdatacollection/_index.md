@@ -1,7 +1,9 @@
 ﻿﻿---
 title: OdsoRecipientDataCollection class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "A typed collection of [OdsoRecipientData](../odsorecipientdata/)To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/python-net/mail-merge-and-reporting/) documentation article."
+linktitle: OdsoRecipientDataCollection class
+articleTitle: OdsoRecipientDataCollection class
+second_title: Aspose.Words for Python
+description: "aspose.words.settings.OdsoRecipientDataCollection class. A typed collection of [OdsoRecipientData](../odsorecipientdata/)To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/python-net/mail-merge-and-reporting/) documentation article."
 type: docs
 weight: 180
 url: /python-net/aspose.words.settings/odsorecipientdatacollection/

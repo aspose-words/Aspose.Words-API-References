@@ -1,7 +1,9 @@
 ﻿---
-title: dml_rendering_mode property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a value determining how DrawingML shapes are rendered."
+title: SaveOptions.dml_rendering_mode property
+linktitle: dml_rendering_mode property
+articleTitle: dml_rendering_mode property
+second_title: Aspose.Words for Python
+description: "SaveOptions.dml_rendering_mode property. Gets or sets a value determining how DrawingML shapes are rendered."
 type: docs
 weight: 50
 url: /python-net/aspose.words.saving/saveoptions/dml_rendering_mode/

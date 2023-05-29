@@ -1,7 +1,9 @@
 ﻿---
-title: absolute_horizontal_distance property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets absolute horizontal floating table position specified by the table properties, in points"
+title: Table.absolute_horizontal_distance property
+linktitle: absolute_horizontal_distance property
+articleTitle: absolute_horizontal_distance property
+second_title: Aspose.Words for Python
+description: "Table.absolute_horizontal_distance property. Gets or sets absolute horizontal floating table position specified by the table properties, in points"
 type: docs
 weight: 20
 url: /python-net/aspose.words.tables/table/absolute_horizontal_distance/

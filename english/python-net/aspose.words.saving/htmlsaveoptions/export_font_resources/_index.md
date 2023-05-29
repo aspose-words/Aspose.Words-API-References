@@ -1,7 +1,9 @@
 ﻿---
-title: export_font_resources property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies whether font resources should be exported to HTML, MHTML or EPUB"
+title: HtmlSaveOptions.export_font_resources property
+linktitle: export_font_resources property
+articleTitle: export_font_resources property
+second_title: Aspose.Words for Python
+description: "HtmlSaveOptions.export_font_resources property. Specifies whether font resources should be exported to HTML, MHTML or EPUB"
 type: docs
 weight: 150
 url: /python-net/aspose.words.saving/htmlsaveoptions/export_font_resources/

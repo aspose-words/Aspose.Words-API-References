@@ -1,6 +1,9 @@
 ﻿---
 title: FieldTime constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: FieldTime constructor
+articleTitle: FieldTime constructor
+second_title: Aspose.Words for Python
+description: "FieldTime constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/fieldtime/__init__/

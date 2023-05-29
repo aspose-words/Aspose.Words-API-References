@@ -1,7 +1,9 @@
 ﻿---
-title: groups property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Collection of revision groups."
+title: RevisionCollection.groups property
+linktitle: groups property
+articleTitle: groups property
+second_title: Aspose.Words for Python
+description: "RevisionCollection.groups property. Collection of revision groups."
 type: docs
 weight: 30
 url: /python-net/aspose.words/revisioncollection/groups/

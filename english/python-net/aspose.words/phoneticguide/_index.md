@@ -1,7 +1,9 @@
 ﻿---
 title: PhoneticGuide class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents Phonetic Guide."
+linktitle: PhoneticGuide class
+articleTitle: PhoneticGuide class
+second_title: Aspose.Words for Python
+description: "aspose.words.PhoneticGuide class. Represents Phonetic Guide."
 type: docs
 weight: 880
 url: /python-net/aspose.words/phoneticguide/

@@ -1,6 +1,9 @@
 ﻿---
-title: as_field_unknown method
-second_title: Aspose.Words for Python via .NET API Reference
+title: Field.as_field_unknown method
+linktitle: as_field_unknown method
+articleTitle: as_field_unknown method
+second_title: Aspose.Words for Python
+description: "Field.as_field_unknown method. "
 type: docs
 weight: 1010
 url: /python-net/aspose.words.fields/field/as_field_unknown/

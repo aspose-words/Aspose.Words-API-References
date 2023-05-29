@@ -1,7 +1,9 @@
 ﻿---
-title: metafile_rendering_options property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to specify how metafiles are treated in the rendered output."
+title: ImageSaveOptions.metafile_rendering_options property
+linktitle: metafile_rendering_options property
+articleTitle: metafile_rendering_options property
+second_title: Aspose.Words for Python
+description: "ImageSaveOptions.metafile_rendering_options property. Allows to specify how metafiles are treated in the rendered output."
 type: docs
 weight: 70
 url: /python-net/aspose.words.saving/imagesaveoptions/metafile_rendering_options/

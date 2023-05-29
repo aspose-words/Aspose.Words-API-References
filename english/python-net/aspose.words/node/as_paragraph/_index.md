@@ -1,7 +1,9 @@
 ﻿---
-title: as_paragraph method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Cast node to [Paragraph](../../paragraph/)."
+title: Node.as_paragraph method
+linktitle: as_paragraph method
+articleTitle: as_paragraph method
+second_title: Aspose.Words for Python
+description: "Node.as_paragraph method. Cast node to [Paragraph](../../paragraph/)."
 type: docs
 weight: 310
 url: /python-net/aspose.words/node/as_paragraph/

@@ -1,7 +1,9 @@
 ﻿﻿---
 title: ResourceLoadingAction enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the mode of resource loading"
+linktitle: ResourceLoadingAction enumeration
+articleTitle: ResourceLoadingAction enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.loading.ResourceLoadingAction enumeration. Specifies the mode of resource loading"
 type: docs
 weight: 130
 url: /python-net/aspose.words.loading/resourceloadingaction/

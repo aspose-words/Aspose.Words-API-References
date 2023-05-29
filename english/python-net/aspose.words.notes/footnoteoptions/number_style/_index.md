@@ -1,7 +1,9 @@
 ﻿---
-title: number_style property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the number format for automatically numbered footnotes."
+title: FootnoteOptions.number_style property
+linktitle: number_style property
+articleTitle: number_style property
+second_title: Aspose.Words for Python
+description: "FootnoteOptions.number_style property. Specifies the number format for automatically numbered footnotes."
 type: docs
 weight: 20
 url: /python-net/aspose.words.notes/footnoteoptions/number_style/

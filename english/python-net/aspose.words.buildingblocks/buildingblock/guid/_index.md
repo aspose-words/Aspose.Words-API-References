@@ -1,7 +1,9 @@
 ﻿---
-title: guid property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets an identifier (a 128-bit GUID) that uniquely identifies this building block."
+title: BuildingBlock.guid property
+linktitle: guid property
+articleTitle: guid property
+second_title: Aspose.Words for Python
+description: "BuildingBlock.guid property. Gets or sets an identifier (a 128-bit GUID) that uniquely identifies this building block."
 type: docs
 weight: 70
 url: /python-net/aspose.words.buildingblocks/buildingblock/guid/

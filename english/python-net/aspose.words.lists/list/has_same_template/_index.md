@@ -1,7 +1,9 @@
 ﻿---
-title: has_same_template method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns true if the current list and the given list are created from the same template."
+title: List.has_same_template method
+linktitle: has_same_template method
+articleTitle: has_same_template method
+second_title: Aspose.Words for Python
+description: "List.has_same_template method. Returns true if the current list and the given list are created from the same template."
 type: docs
 weight: 110
 url: /python-net/aspose.words.lists/list/has_same_template/

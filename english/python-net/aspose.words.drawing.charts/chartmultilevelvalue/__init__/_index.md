@@ -1,6 +1,8 @@
 ﻿---
 title: ChartMultilevelValue constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: ChartMultilevelValue constructor
+articleTitle: ChartMultilevelValue constructor
+second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.ChartMultilevelValue constructor"
 type: docs
 weight: 10

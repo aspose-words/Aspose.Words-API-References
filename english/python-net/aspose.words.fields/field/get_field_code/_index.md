@@ -1,6 +1,8 @@
 ﻿---
-title: get_field_code method
-second_title: Aspose.Words for Python via .NET API Reference
+title: Field.get_field_code method
+linktitle: get_field_code method
+articleTitle: get_field_code method
+second_title: Aspose.Words for Python
 description: "aspose.words.fields.Field.get_field_code method"
 type: docs
 weight: 1060

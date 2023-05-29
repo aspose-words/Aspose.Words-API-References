@@ -1,7 +1,9 @@
 ﻿---
-title: heading_pairs property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies document headings and their names."
+title: BuiltInDocumentProperties.heading_pairs property
+linktitle: heading_pairs property
+articleTitle: heading_pairs property
+second_title: Aspose.Words for Python
+description: "BuiltInDocumentProperties.heading_pairs property. Specifies document headings and their names."
 type: docs
 weight: 120
 url: /python-net/aspose.words.properties/builtindocumentproperties/heading_pairs/

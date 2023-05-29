@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldLink class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the LINK field"
+linktitle: FieldLink class
+articleTitle: FieldLink class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldLink class. Implements the LINK field"
 type: docs
 weight: 650
 url: /python-net/aspose.words.fields/fieldlink/

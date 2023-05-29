@@ -1,7 +1,9 @@
 ﻿---
-title: ignore_fields property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a boolean value indicating either to ignore text inside fields"
+title: FindReplaceOptions.ignore_fields property
+linktitle: ignore_fields property
+articleTitle: ignore_fields property
+second_title: Aspose.Words for Python
+description: "FindReplaceOptions.ignore_fields property. Gets or sets a boolean value indicating either to ignore text inside fields"
 type: docs
 weight: 80
 url: /python-net/aspose.words.replacing/findreplaceoptions/ignore_fields/

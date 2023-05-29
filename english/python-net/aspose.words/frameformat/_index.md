@@ -1,7 +1,9 @@
 ﻿---
 title: FrameFormat class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents frame related formatting for a paragraph."
+linktitle: FrameFormat class
+articleTitle: FrameFormat class
+second_title: Aspose.Words for Python
+description: "aspose.words.FrameFormat class. Represents frame related formatting for a paragraph."
 type: docs
 weight: 420
 url: /python-net/aspose.words/frameformat/

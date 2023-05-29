@@ -1,7 +1,9 @@
 ﻿---
-title: dash_style property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the dot and dash pattern for a stroke."
+title: Stroke.dash_style property
+linktitle: dash_style property
+articleTitle: dash_style property
+second_title: Aspose.Words for Python
+description: "Stroke.dash_style property. Specifies the dot and dash pattern for a stroke."
 type: docs
 weight: 40
 url: /python-net/aspose.words.drawing/stroke/dash_style/

@@ -1,7 +1,9 @@
 ﻿---
-title: set_substitutes method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Override substitute font names for given original font name."
+title: TableSubstitutionRule.set_substitutes method
+linktitle: set_substitutes method
+articleTitle: set_substitutes method
+second_title: Aspose.Words for Python
+description: "TableSubstitutionRule.set_substitutes method. Override substitute font names for given original font name."
 type: docs
 weight: 80
 url: /python-net/aspose.words.fonts/tablesubstitutionrule/set_substitutes/

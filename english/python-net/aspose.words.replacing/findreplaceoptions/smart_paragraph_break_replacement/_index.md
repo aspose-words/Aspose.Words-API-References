@@ -1,7 +1,9 @@
 ﻿---
-title: smart_paragraph_break_replacement property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a boolean value indicating either it is allowed to replace paragraph break when there is no next sibling paragraph."
+title: FindReplaceOptions.smart_paragraph_break_replacement property
+linktitle: smart_paragraph_break_replacement property
+articleTitle: smart_paragraph_break_replacement property
+second_title: Aspose.Words for Python
+description: "FindReplaceOptions.smart_paragraph_break_replacement property. Gets or sets a boolean value indicating either it is allowed to replace paragraph break when there is no next sibling paragraph."
 type: docs
 weight: 160
 url: /python-net/aspose.words.replacing/findreplaceoptions/smart_paragraph_break_replacement/

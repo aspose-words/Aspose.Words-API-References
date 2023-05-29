@@ -1,7 +1,9 @@
 ﻿---
-title: visit_comment_start method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Called when enumeration of a comment text has started."
+title: DocumentVisitor.visit_comment_start method
+linktitle: visit_comment_start method
+articleTitle: visit_comment_start method
+second_title: Aspose.Words for Python
+description: "DocumentVisitor.visit_comment_start method. Called when enumeration of a comment text has started."
 type: docs
 weight: 130
 url: /python-net/aspose.words/documentvisitor/visit_comment_start/

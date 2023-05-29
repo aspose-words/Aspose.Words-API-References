@@ -1,7 +1,9 @@
 ﻿---
-title: child_framesets property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the collection of child frames and frames pages."
+title: Frameset.child_framesets property
+linktitle: child_framesets property
+articleTitle: child_framesets property
+second_title: Aspose.Words for Python
+description: "Frameset.child_framesets property. Gets the collection of child frames and frames pages."
 type: docs
 weight: 20
 url: /python-net/aspose.words.framesets/frameset/child_framesets/

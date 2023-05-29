@@ -1,7 +1,9 @@
 ﻿---
-title: remove method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Removes itself from the parent."
+title: Node.remove method
+linktitle: remove method
+articleTitle: remove method
+second_title: Aspose.Words for Python
+description: "Node.remove method. Removes itself from the parent."
 type: docs
 weight: 490
 url: /python-net/aspose.words/node/remove/

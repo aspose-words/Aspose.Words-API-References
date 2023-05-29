@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldBibliography class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the BIBLIOGRAPHY field"
+linktitle: FieldBibliography class
+articleTitle: FieldBibliography class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldBibliography class. Implements the BIBLIOGRAPHY field"
 type: docs
 weight: 180
 url: /python-net/aspose.words.fields/fieldbibliography/

@@ -1,7 +1,9 @@
 ﻿---
-title: id property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the identifier of the comment to which this region is linked to."
+title: CommentRangeEnd.id property
+linktitle: id property
+articleTitle: id property
+second_title: Aspose.Words for Python
+description: "CommentRangeEnd.id property. Specifies the identifier of the comment to which this region is linked to."
 type: docs
 weight: 20
 url: /python-net/aspose.words/commentrangeend/id/

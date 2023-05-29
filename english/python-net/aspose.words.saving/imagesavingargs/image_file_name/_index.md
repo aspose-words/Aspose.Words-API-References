@@ -1,7 +1,9 @@
 ﻿---
-title: image_file_name property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the file name (without path) where the image will be saved to."
+title: ImageSavingArgs.image_file_name property
+linktitle: image_file_name property
+articleTitle: image_file_name property
+second_title: Aspose.Words for Python
+description: "ImageSavingArgs.image_file_name property. Gets or sets the file name (without path) where the image will be saved to."
 type: docs
 weight: 30
 url: /python-net/aspose.words.saving/imagesavingargs/image_file_name/

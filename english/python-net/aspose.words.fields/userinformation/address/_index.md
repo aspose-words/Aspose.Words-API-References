@@ -1,7 +1,9 @@
 ﻿---
-title: address property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the user's postal address."
+title: UserInformation.address property
+linktitle: address property
+articleTitle: address property
+second_title: Aspose.Words for Python
+description: "UserInformation.address property. Gets or sets the user's postal address."
 type: docs
 weight: 20
 url: /python-net/aspose.words.fields/userinformation/address/

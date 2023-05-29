@@ -1,7 +1,9 @@
 ﻿---
-title: is_bold property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets whether to apply bold formatting to the page number for the entry."
+title: FieldTA.is_bold property
+linktitle: is_bold property
+articleTitle: is_bold property
+second_title: Aspose.Words for Python
+description: "FieldTA.is_bold property. Gets or sets whether to apply bold formatting to the page number for the entry."
 type: docs
 weight: 30
 url: /python-net/aspose.words.fields/fieldta/is_bold/

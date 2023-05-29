@@ -1,7 +1,9 @@
 ﻿---
 title: ChartYValueCollection class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a collection of Y values for a chart series."
+linktitle: ChartYValueCollection class
+articleTitle: ChartYValueCollection class
+second_title: Aspose.Words for Python
+description: "aspose.words.drawing.charts.ChartYValueCollection class. Represents a collection of Y values for a chart series."
 type: docs
 weight: 360
 url: /python-net/aspose.words.drawing.charts/chartyvaluecollection/

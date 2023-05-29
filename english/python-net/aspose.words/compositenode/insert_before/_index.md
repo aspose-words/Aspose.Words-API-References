@@ -1,7 +1,9 @@
 ﻿---
-title: insert_before method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Inserts the specified node immediately before the specified reference node."
+title: CompositeNode.insert_before method
+linktitle: insert_before method
+articleTitle: insert_before method
+second_title: Aspose.Words for Python
+description: "CompositeNode.insert_before method. Inserts the specified node immediately before the specified reference node."
 type: docs
 weight: 130
 url: /python-net/aspose.words/compositenode/insert_before/

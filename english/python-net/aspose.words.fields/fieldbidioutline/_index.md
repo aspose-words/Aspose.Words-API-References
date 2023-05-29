@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldBidiOutline class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the BIDIOUTLINE field"
+linktitle: FieldBidiOutline class
+articleTitle: FieldBidiOutline class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldBidiOutline class. Implements the BIDIOUTLINE field"
 type: docs
 weight: 190
 url: /python-net/aspose.words.fields/fieldbidioutline/

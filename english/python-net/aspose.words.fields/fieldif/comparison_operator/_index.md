@@ -1,7 +1,9 @@
 ﻿---
-title: comparison_operator property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the comparison operator."
+title: FieldIf.comparison_operator property
+linktitle: comparison_operator property
+articleTitle: comparison_operator property
+second_title: Aspose.Words for Python
+description: "FieldIf.comparison_operator property. Gets or sets the comparison operator."
 type: docs
 weight: 20
 url: /python-net/aspose.words.fields/fieldif/comparison_operator/

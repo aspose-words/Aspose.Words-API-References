@@ -1,7 +1,9 @@
 ﻿﻿---
 title: CommentRangeStart class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Denotes the start of a region of text that has a comment associated with it"
+linktitle: CommentRangeStart class
+articleTitle: CommentRangeStart class
+second_title: Aspose.Words for Python
+description: "aspose.words.CommentRangeStart class. Denotes the start of a region of text that has a comment associated with it"
 type: docs
 weight: 190
 url: /python-net/aspose.words/commentrangestart/

@@ -1,7 +1,9 @@
 ﻿---
-title: threshold_for_floyd_steinberg_dithering property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the threshold that determines the value of the binarization error in the Floyd-Steinberg method"
+title: ImageSaveOptions.threshold_for_floyd_steinberg_dithering property
+linktitle: threshold_for_floyd_steinberg_dithering property
+articleTitle: threshold_for_floyd_steinberg_dithering property
+second_title: Aspose.Words for Python
+description: "ImageSaveOptions.threshold_for_floyd_steinberg_dithering property. Gets or sets the threshold that determines the value of the binarization error in the Floyd-Steinberg method"
 type: docs
 weight: 130
 url: /python-net/aspose.words.saving/imagesaveoptions/threshold_for_floyd_steinberg_dithering/

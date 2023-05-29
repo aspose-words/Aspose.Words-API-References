@@ -1,7 +1,9 @@
 ﻿---
-title: extension_to_save_format method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Converts a file name extension into a [SaveFormat](../../saveformat/) value."
+title: FileFormatUtil.extension_to_save_format method
+linktitle: extension_to_save_format method
+articleTitle: extension_to_save_format method
+second_title: Aspose.Words for Python
+description: "FileFormatUtil.extension_to_save_format method. Converts a file name extension into a [SaveFormat](../../saveformat/) value."
 type: docs
 weight: 40
 url: /python-net/aspose.words/fileformatutil/extension_to_save_format/

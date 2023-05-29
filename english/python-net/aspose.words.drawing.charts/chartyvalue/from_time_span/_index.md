@@ -1,7 +1,9 @@
 ﻿---
-title: from_time_span method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Creates a [ChartYValue](../) instance of the [ChartYValueType.TIME](../../chartyvaluetype/#TIME) type."
+title: ChartYValue.from_time_span method
+linktitle: from_time_span method
+articleTitle: from_time_span method
+second_title: Aspose.Words for Python
+description: "ChartYValue.from_time_span method. Creates a [ChartYValue](../) instance of the [ChartYValueType.TIME](../../chartyvaluetype/#TIME) type."
 type: docs
 weight: 70
 url: /python-net/aspose.words.drawing.charts/chartyvalue/from_time_span/

@@ -1,6 +1,9 @@
 ﻿---
 title: BookmarksOutlineLevelCollection constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: BookmarksOutlineLevelCollection constructor
+articleTitle: BookmarksOutlineLevelCollection constructor
+second_title: Aspose.Words for Python
+description: "BookmarksOutlineLevelCollection constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.saving/bookmarksoutlinelevelcollection/__init__/

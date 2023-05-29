@@ -1,7 +1,9 @@
 ﻿---
-title: clone method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Performs a copy of the [VbaModule](../)."
+title: VbaModule.clone method
+linktitle: clone method
+articleTitle: clone method
+second_title: Aspose.Words for Python
+description: "VbaModule.clone method. Performs a copy of the [VbaModule](../)."
 type: docs
 weight: 50
 url: /python-net/aspose.words.vba/vbamodule/clone/

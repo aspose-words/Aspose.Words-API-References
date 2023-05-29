@@ -1,7 +1,9 @@
 ﻿---
-title: border_surrounds_header property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies whether the page border includes or excludes the header."
+title: PageSetup.border_surrounds_header property
+linktitle: border_surrounds_header property
+articleTitle: border_surrounds_header property
+second_title: Aspose.Words for Python
+description: "PageSetup.border_surrounds_header property. Specifies whether the page border includes or excludes the header."
 type: docs
 weight: 60
 url: /python-net/aspose.words/pagesetup/border_surrounds_header/

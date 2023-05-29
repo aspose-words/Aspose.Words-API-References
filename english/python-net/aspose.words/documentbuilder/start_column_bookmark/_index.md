@@ -1,7 +1,9 @@
 ﻿---
-title: start_column_bookmark method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Marks the current position in the document as a column bookmark start"
+title: DocumentBuilder.start_column_bookmark method
+linktitle: start_column_bookmark method
+articleTitle: start_column_bookmark method
+second_title: Aspose.Words for Python
+description: "DocumentBuilder.start_column_bookmark method. Marks the current position in the document as a column bookmark start"
 type: docs
 weight: 620
 url: /python-net/aspose.words/documentbuilder/start_column_bookmark/

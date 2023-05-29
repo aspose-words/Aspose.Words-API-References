@@ -1,7 +1,9 @@
 ﻿---
-title: show_category_name property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to specify whether category name is to be displayed for the data labels of the entire series"
+title: ChartDataLabelCollection.show_category_name property
+linktitle: show_category_name property
+articleTitle: show_category_name property
+second_title: Aspose.Words for Python
+description: "ChartDataLabelCollection.show_category_name property. Allows to specify whether category name is to be displayed for the data labels of the entire series"
 type: docs
 weight: 70
 url: /python-net/aspose.words.drawing.charts/chartdatalabelcollection/show_category_name/

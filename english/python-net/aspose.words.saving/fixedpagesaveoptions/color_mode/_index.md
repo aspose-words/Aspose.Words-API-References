@@ -1,7 +1,9 @@
 ﻿---
-title: color_mode property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a value determining how colors are rendered."
+title: FixedPageSaveOptions.color_mode property
+linktitle: color_mode property
+articleTitle: color_mode property
+second_title: Aspose.Words for Python
+description: "FixedPageSaveOptions.color_mode property. Gets or sets a value determining how colors are rendered."
 type: docs
 weight: 10
 url: /python-net/aspose.words.saving/fixedpagesaveoptions/color_mode/

@@ -1,7 +1,9 @@
 ﻿---
-title: remove_at method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Removes a bookmark at the specified index."
+title: BookmarkCollection.remove_at method
+linktitle: remove_at method
+articleTitle: remove_at method
+second_title: Aspose.Words for Python
+description: "BookmarkCollection.remove_at method. Removes a bookmark at the specified index."
 type: docs
 weight: 60
 url: /python-net/aspose.words/bookmarkcollection/remove_at/

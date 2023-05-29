@@ -1,7 +1,9 @@
 ﻿---
-title: visit_group_shape_end method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Called when enumeration of a group shape has ended."
+title: DocumentVisitor.visit_group_shape_end method
+linktitle: visit_group_shape_end method
+articleTitle: visit_group_shape_end method
+second_title: Aspose.Words for Python
+description: "DocumentVisitor.visit_group_shape_end method. Called when enumeration of a group shape has ended."
 type: docs
 weight: 260
 url: /python-net/aspose.words/documentvisitor/visit_group_shape_end/

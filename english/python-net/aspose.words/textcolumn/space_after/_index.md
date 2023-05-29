@@ -1,7 +1,9 @@
 ﻿---
-title: space_after property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the space between this column and the next column in points"
+title: TextColumn.space_after property
+linktitle: space_after property
+articleTitle: space_after property
+second_title: Aspose.Words for Python
+description: "TextColumn.space_after property. Gets or sets the space between this column and the next column in points"
 type: docs
 weight: 10
 url: /python-net/aspose.words/textcolumn/space_after/

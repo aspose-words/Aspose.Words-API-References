@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldMergeSeq class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the MERGESEQ field"
+linktitle: FieldMergeSeq class
+articleTitle: FieldMergeSeq class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldMergeSeq class. Implements the MERGESEQ field"
 type: docs
 weight: 710
 url: /python-net/aspose.words.fields/fieldmergeseq/

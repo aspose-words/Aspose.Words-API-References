@@ -1,7 +1,9 @@
 ﻿---
-title: unlink method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Performs the field unlink."
+title: Field.unlink method
+linktitle: unlink method
+articleTitle: unlink method
+second_title: Aspose.Words for Python
+description: "Field.unlink method. Performs the field unlink."
 type: docs
 weight: 1080
 url: /python-net/aspose.words.fields/field/unlink/

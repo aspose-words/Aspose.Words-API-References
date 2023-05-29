@@ -1,7 +1,9 @@
 ﻿---
-title: parent_paragraph property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Retrieves the parent [Paragraph](../../paragraph/) of this node."
+title: Inline.parent_paragraph property
+linktitle: parent_paragraph property
+articleTitle: parent_paragraph property
+second_title: Aspose.Words for Python
+description: "Inline.parent_paragraph property. Retrieves the parent [Paragraph](../../paragraph/) of this node."
 type: docs
 weight: 70
 url: /python-net/aspose.words/inline/parent_paragraph/

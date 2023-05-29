@@ -1,7 +1,9 @@
 ﻿---
-title: gradient_stops property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets a collection of [GradientStop](../../gradientstop/) objects for the fill."
+title: Fill.gradient_stops property
+linktitle: gradient_stops property
+articleTitle: gradient_stops property
+second_title: Aspose.Words for Python
+description: "Fill.gradient_stops property. Gets a collection of [GradientStop](../../gradientstop/) objects for the fill."
 type: docs
 weight: 100
 url: /python-net/aspose.words.drawing/fill/gradient_stops/

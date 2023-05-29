@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldGreetingLine class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the GREETINGLINE field"
+linktitle: FieldGreetingLine class
+articleTitle: FieldGreetingLine class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldGreetingLine class. Implements the GREETINGLINE field"
 type: docs
 weight: 520
 url: /python-net/aspose.words.fields/fieldgreetingline/

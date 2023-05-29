@@ -1,7 +1,9 @@
 ﻿---
-title: emphasis_mark property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the emphasis mark applied to this formatting."
+title: Font.emphasis_mark property
+linktitle: emphasis_mark property
+articleTitle: emphasis_mark property
+second_title: Aspose.Words for Python
+description: "Font.emphasis_mark property. Gets or sets the emphasis mark applied to this formatting."
 type: docs
 weight: 110
 url: /python-net/aspose.words/font/emphasis_mark/

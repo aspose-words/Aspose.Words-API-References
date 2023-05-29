@@ -1,7 +1,9 @@
 ﻿---
-title: type property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns the type of the font source."
+title: FolderFontSource.type property
+linktitle: type property
+articleTitle: type property
+second_title: Aspose.Words for Python
+description: "FolderFontSource.type property. Returns the type of the font source."
 type: docs
 weight: 40
 url: /python-net/aspose.words.fonts/folderfontsource/type/

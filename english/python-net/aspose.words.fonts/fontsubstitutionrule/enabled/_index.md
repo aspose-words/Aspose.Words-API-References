@@ -1,7 +1,9 @@
 ﻿---
-title: enabled property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies whether the rule is enabled or not."
+title: FontSubstitutionRule.enabled property
+linktitle: enabled property
+articleTitle: enabled property
+second_title: Aspose.Words for Python
+description: "FontSubstitutionRule.enabled property. Specifies whether the rule is enabled or not."
 type: docs
 weight: 10
 url: /python-net/aspose.words.fonts/fontsubstitutionrule/enabled/

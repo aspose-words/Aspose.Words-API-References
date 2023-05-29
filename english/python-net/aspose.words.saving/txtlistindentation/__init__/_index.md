@@ -1,6 +1,9 @@
 ﻿---
 title: TxtListIndentation constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: TxtListIndentation constructor
+articleTitle: TxtListIndentation constructor
+second_title: Aspose.Words for Python
+description: "TxtListIndentation constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.saving/txtlistindentation/__init__/

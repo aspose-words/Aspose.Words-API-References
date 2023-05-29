@@ -1,7 +1,9 @@
 ﻿---
-title: add_copy method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Creates a new list by copying the specified list and adding it to the collection of lists in the document."
+title: ListCollection.add_copy method
+linktitle: add_copy method
+articleTitle: add_copy method
+second_title: Aspose.Words for Python
+description: "ListCollection.add_copy method. Creates a new list by copying the specified list and adding it to the collection of lists in the document."
 type: docs
 weight: 50
 url: /python-net/aspose.words.lists/listcollection/add_copy/

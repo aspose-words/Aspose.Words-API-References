@@ -1,7 +1,9 @@
 ﻿---
-title: remove method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Removes the specified System.Type object from the set"
+title: KnownTypeSet.remove method
+linktitle: remove method
+articleTitle: remove method
+second_title: Aspose.Words for Python
+description: "KnownTypeSet.remove method. Removes the specified System.Type object from the set"
 type: docs
 weight: 40
 url: /python-net/aspose.words.reporting/knowntypeset/remove/

@@ -1,7 +1,9 @@
 ﻿---
-title: keep_together property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "True if all lines in the paragraph are to remain on the same page."
+title: ParagraphFormat.keep_together property
+linktitle: keep_together property
+articleTitle: keep_together property
+second_title: Aspose.Words for Python
+description: "ParagraphFormat.keep_together property. True if all lines in the paragraph are to remain on the same page."
 type: docs
 weight: 150
 url: /python-net/aspose.words/paragraphformat/keep_together/

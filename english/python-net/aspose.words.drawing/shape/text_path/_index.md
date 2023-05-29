@@ -1,7 +1,9 @@
 ﻿---
-title: text_path property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Defines the text of the text path (of a WordArt object)."
+title: Shape.text_path property
+linktitle: text_path property
+articleTitle: text_path property
+second_title: Aspose.Words for Python
+description: "Shape.text_path property. Defines the text of the text path (of a WordArt object)."
 type: docs
 weight: 230
 url: /python-net/aspose.words.drawing/shape/text_path/

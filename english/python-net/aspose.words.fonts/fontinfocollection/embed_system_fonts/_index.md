@@ -1,7 +1,9 @@
 ﻿---
-title: embed_system_fonts property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies whether or not to embed System fonts into the document"
+title: FontInfoCollection.embed_system_fonts property
+linktitle: embed_system_fonts property
+articleTitle: embed_system_fonts property
+second_title: Aspose.Words for Python
+description: "FontInfoCollection.embed_system_fonts property. Specifies whether or not to embed System fonts into the document"
 type: docs
 weight: 30
 url: /python-net/aspose.words.fonts/fontinfocollection/embed_system_fonts/

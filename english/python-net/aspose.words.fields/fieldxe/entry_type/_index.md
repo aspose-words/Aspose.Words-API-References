@@ -1,7 +1,9 @@
 ﻿---
-title: entry_type property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets an index entry type."
+title: FieldXE.entry_type property
+linktitle: entry_type property
+articleTitle: entry_type property
+second_title: Aspose.Words for Python
+description: "FieldXE.entry_type property. Gets or sets an index entry type."
 type: docs
 weight: 20
 url: /python-net/aspose.words.fields/fieldxe/entry_type/

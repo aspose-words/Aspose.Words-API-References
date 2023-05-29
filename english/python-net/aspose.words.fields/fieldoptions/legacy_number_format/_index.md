@@ -1,7 +1,9 @@
 ﻿---
-title: legacy_number_format property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the value indicating whether legacy (early than AW 13.10) number format for fields is enabled or not."
+title: FieldOptions.legacy_number_format property
+linktitle: legacy_number_format property
+articleTitle: legacy_number_format property
+second_title: Aspose.Words for Python
+description: "FieldOptions.legacy_number_format property. Gets or sets the value indicating whether legacy (early than AW 13.10) number format for fields is enabled or not."
 type: docs
 weight: 150
 url: /python-net/aspose.words.fields/fieldoptions/legacy_number_format/

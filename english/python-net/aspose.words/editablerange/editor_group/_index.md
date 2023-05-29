@@ -1,7 +1,9 @@
 ﻿---
-title: editor_group property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns or sets an alias (or editing group) which shall be used to determine if the current user shall be allowed to edit this editable range."
+title: EditableRange.editor_group property
+linktitle: editor_group property
+articleTitle: editor_group property
+second_title: Aspose.Words for Python
+description: "EditableRange.editor_group property. Returns or sets an alias (or editing group) which shall be used to determine if the current user shall be allowed to edit this editable range."
 type: docs
 weight: 30
 url: /python-net/aspose.words/editablerange/editor_group/

@@ -1,7 +1,9 @@
 ﻿---
 title: InterruptionToken class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "This class is obsolete"
+linktitle: InterruptionToken class
+articleTitle: InterruptionToken class
+second_title: Aspose.Words for Python
+description: "aspose.words.InterruptionToken class. This class is obsolete"
 type: docs
 weight: 600
 url: /python-net/aspose.words/interruptiontoken/

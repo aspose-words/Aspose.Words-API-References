@@ -1,7 +1,9 @@
 ﻿---
-title: resource_folder property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies a physical folder where all resources like images, fonts, and external CSS are saved when a document is exported to HTML"
+title: HtmlSaveOptions.resource_folder property
+linktitle: resource_folder property
+articleTitle: resource_folder property
+second_title: Aspose.Words for Python
+description: "HtmlSaveOptions.resource_folder property. Specifies a physical folder where all resources like images, fonts, and external CSS are saved when a document is exported to HTML"
 type: docs
 weight: 420
 url: /python-net/aspose.words.saving/htmlsaveoptions/resource_folder/

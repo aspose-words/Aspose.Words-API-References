@@ -1,7 +1,9 @@
 ﻿---
-title: text property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the text of the range."
+title: Range.text property
+linktitle: text property
+articleTitle: text property
+second_title: Aspose.Words for Python
+description: "Range.text property. Gets the text of the range."
 type: docs
 weight: 60
 url: /python-net/aspose.words/range/text/

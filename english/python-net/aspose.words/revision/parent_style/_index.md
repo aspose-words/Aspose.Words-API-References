@@ -1,7 +1,9 @@
 ﻿---
-title: parent_style property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the immediate parent style (owner) of this revision"
+title: Revision.parent_style property
+linktitle: parent_style property
+articleTitle: parent_style property
+second_title: Aspose.Words for Python
+description: "Revision.parent_style property. Gets the immediate parent style (owner) of this revision"
 type: docs
 weight: 50
 url: /python-net/aspose.words/revision/parent_style/

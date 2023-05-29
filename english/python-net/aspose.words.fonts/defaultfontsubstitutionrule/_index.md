@@ -1,7 +1,9 @@
 ﻿﻿---
 title: DefaultFontSubstitutionRule class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Default font substitution rule"
+linktitle: DefaultFontSubstitutionRule class
+articleTitle: DefaultFontSubstitutionRule class
+second_title: Aspose.Words for Python
+description: "aspose.words.fonts.DefaultFontSubstitutionRule class. Default font substitution rule"
 type: docs
 weight: 10
 url: /python-net/aspose.words.fonts/defaultfontsubstitutionrule/

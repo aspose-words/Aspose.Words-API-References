@@ -1,7 +1,9 @@
 ﻿---
-title: fonts_folder_alias property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the name of the folder used to construct font URIs written into an HTML document"
+title: HtmlSaveOptions.fonts_folder_alias property
+linktitle: fonts_folder_alias property
+articleTitle: fonts_folder_alias property
+second_title: Aspose.Words for Python
+description: "HtmlSaveOptions.fonts_folder_alias property. Specifies the name of the folder used to construct font URIs written into an HTML document"
 type: docs
 weight: 330
 url: /python-net/aspose.words.saving/htmlsaveoptions/fonts_folder_alias/

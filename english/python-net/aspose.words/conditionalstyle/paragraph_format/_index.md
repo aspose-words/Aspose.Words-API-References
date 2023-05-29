@@ -1,7 +1,9 @@
 ﻿---
-title: paragraph_format property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the paragraph formatting of the conditional style."
+title: ConditionalStyle.paragraph_format property
+linktitle: paragraph_format property
+articleTitle: paragraph_format property
+second_title: Aspose.Words for Python
+description: "ConditionalStyle.paragraph_format property. Gets the paragraph formatting of the conditional style."
 type: docs
 weight: 50
 url: /python-net/aspose.words/conditionalstyle/paragraph_format/

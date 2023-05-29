@@ -1,7 +1,9 @@
 ﻿﻿---
 title: OdsoFieldMapData class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies how a column in the external data source shall be mapped to the predefined merge fields within the document"
+linktitle: OdsoFieldMapData class
+articleTitle: OdsoFieldMapData class
+second_title: Aspose.Words for Python
+description: "aspose.words.settings.OdsoFieldMapData class. Specifies how a column in the external data source shall be mapped to the predefined merge fields within the document"
 type: docs
 weight: 140
 url: /python-net/aspose.words.settings/odsofieldmapdata/

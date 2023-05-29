@@ -1,7 +1,9 @@
 ﻿---
-title: language_id property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the language ID used to format the address."
+title: FieldAddressBlock.language_id property
+linktitle: language_id property
+articleTitle: language_id property
+second_title: Aspose.Words for Python
+description: "FieldAddressBlock.language_id property. Gets or sets the language ID used to format the address."
 type: docs
 weight: 50
 url: /python-net/aspose.words.fields/fieldaddressblock/language_id/

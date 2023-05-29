@@ -1,7 +1,9 @@
 ﻿---
 title: VbaReferenceType enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to specify the type of a [VbaReference](../vbareference/) object."
+linktitle: VbaReferenceType enumeration
+articleTitle: VbaReferenceType enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.vba.VbaReferenceType enumeration. Allows to specify the type of a [VbaReference](../vbareference/) object."
 type: docs
 weight: 80
 url: /python-net/aspose.words.vba/vbareferencetype/

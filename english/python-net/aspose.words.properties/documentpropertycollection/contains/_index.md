@@ -1,7 +1,9 @@
 ﻿---
-title: contains method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns ``True`` if a property with the specified name exists in the collection."
+title: DocumentPropertyCollection.contains method
+linktitle: contains method
+articleTitle: contains method
+second_title: Aspose.Words for Python
+description: "DocumentPropertyCollection.contains method. Returns ``True`` if a property with the specified name exists in the collection."
 type: docs
 weight: 40
 url: /python-net/aspose.words.properties/documentpropertycollection/contains/

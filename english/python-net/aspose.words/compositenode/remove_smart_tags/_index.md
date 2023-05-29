@@ -1,7 +1,9 @@
 ﻿---
-title: remove_smart_tags method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Removes all [SmartTag](../../../aspose.words.markup/smarttag/) descendant nodes of the current node."
+title: CompositeNode.remove_smart_tags method
+linktitle: remove_smart_tags method
+articleTitle: remove_smart_tags method
+second_title: Aspose.Words for Python
+description: "CompositeNode.remove_smart_tags method. Removes all [SmartTag](../../../aspose.words.markup/smarttag/) descendant nodes of the current node."
 type: docs
 weight: 170
 url: /python-net/aspose.words/compositenode/remove_smart_tags/

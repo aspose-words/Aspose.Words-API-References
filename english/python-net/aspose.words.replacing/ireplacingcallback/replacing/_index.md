@@ -1,7 +1,9 @@
 ﻿---
-title: replacing method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "A user defined method that is called during a replace operation for each match found just before a replace is made."
+title: IReplacingCallback.replacing method
+linktitle: replacing method
+articleTitle: replacing method
+second_title: Aspose.Words for Python
+description: "IReplacingCallback.replacing method. A user defined method that is called during a replace operation for each match found just before a replace is made."
 type: docs
 weight: 10
 url: /python-net/aspose.words.replacing/ireplacingcallback/replacing/

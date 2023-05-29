@@ -1,7 +1,9 @@
 ﻿---
 title: ChartSeriesCollection indexer
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns a [ChartSeries](../../chartseries/) at the specified index."
+linktitle: ChartSeriesCollection indexer
+articleTitle: ChartSeriesCollection indexer
+second_title: Aspose.Words for Python
+description: "ChartSeriesCollection indexer. Returns a [ChartSeries](../../chartseries/) at the specified index."
 type: docs
 weight: 10
 url: /python-net/aspose.words.drawing.charts/chartseriescollection/__getitem__/

@@ -1,6 +1,8 @@
 ﻿---
-title: add method
-second_title: Aspose.Words for Python via .NET API Reference
+title: CustomDocumentProperties.add method
+linktitle: add method
+articleTitle: add method
+second_title: Aspose.Words for Python
 description: "aspose.words.properties.CustomDocumentProperties.add method"
 type: docs
 weight: 20

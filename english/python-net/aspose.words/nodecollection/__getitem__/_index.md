@@ -1,7 +1,9 @@
 ﻿---
 title: NodeCollection indexer
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Retrieves a node at the given index."
+linktitle: NodeCollection indexer
+articleTitle: NodeCollection indexer
+second_title: Aspose.Words for Python
+description: "NodeCollection indexer. Retrieves a node at the given index."
 type: docs
 weight: 10
 url: /python-net/aspose.words/nodecollection/__getitem__/

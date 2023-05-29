@@ -1,7 +1,9 @@
 ﻿﻿---
 title: MailMergeSettings class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies all of the mail merge information for a document"
+linktitle: MailMergeSettings class
+articleTitle: MailMergeSettings class
+second_title: Aspose.Words for Python
+description: "aspose.words.settings.MailMergeSettings class. Specifies all of the mail merge information for a document"
 type: docs
 weight: 90
 url: /python-net/aspose.words.settings/mailmergesettings/

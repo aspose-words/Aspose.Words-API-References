@@ -1,6 +1,8 @@
 ﻿---
-title: create method
-second_title: Aspose.Words for Python via .NET API Reference
+title: CertificateHolder.create method
+linktitle: create method
+articleTitle: create method
+second_title: Aspose.Words for Python
 description: "aspose.words.digitalsignatures.CertificateHolder.create method"
 type: docs
 weight: 10

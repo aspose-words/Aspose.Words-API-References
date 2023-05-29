@@ -1,7 +1,9 @@
 ﻿---
-title: user_address property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the current user's postal address."
+title: FieldUserAddress.user_address property
+linktitle: user_address property
+articleTitle: user_address property
+second_title: Aspose.Words for Python
+description: "FieldUserAddress.user_address property. Gets or sets the current user's postal address."
 type: docs
 weight: 20
 url: /python-net/aspose.words.fields/fielduseraddress/user_address/

@@ -1,7 +1,9 @@
 ﻿---
-title: original_load_format property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the format of the original document that was loaded into this object."
+title: Document.original_load_format property
+linktitle: original_load_format property
+articleTitle: original_load_format property
+second_title: Aspose.Words for Python
+description: "Document.original_load_format property. Gets the format of the original document that was loaded into this object."
 type: docs
 weight: 300
 url: /python-net/aspose.words/document/original_load_format/

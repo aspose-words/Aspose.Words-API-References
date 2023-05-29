@@ -1,7 +1,9 @@
 ﻿---
-title: contains method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Determines whether the collection contains the specified value."
+title: DropDownItemCollection.contains method
+linktitle: contains method
+articleTitle: contains method
+second_title: Aspose.Words for Python
+description: "DropDownItemCollection.contains method. Determines whether the collection contains the specified value."
 type: docs
 weight: 50
 url: /python-net/aspose.words.fields/dropdownitemcollection/contains/

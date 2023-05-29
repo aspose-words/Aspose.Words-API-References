@@ -1,7 +1,9 @@
 ﻿---
-title: line_unit_before property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the amount of spacing (in gridlines) before the paragraphs."
+title: ParagraphFormat.line_unit_before property
+linktitle: line_unit_before property
+articleTitle: line_unit_before property
+second_title: Aspose.Words for Python
+description: "ParagraphFormat.line_unit_before property. Gets or sets the amount of spacing (in gridlines) before the paragraphs."
 type: docs
 weight: 210
 url: /python-net/aspose.words/paragraphformat/line_unit_before/

@@ -1,7 +1,9 @@
 ﻿---
-title: pretty_format property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "When ``True``, pretty formats output where applicable"
+title: SaveOptions.pretty_format property
+linktitle: pretty_format property
+articleTitle: pretty_format property
+second_title: Aspose.Words for Python
+description: "SaveOptions.pretty_format property. When ``True``, pretty formats output where applicable"
 type: docs
 weight: 90
 url: /python-net/aspose.words.saving/saveoptions/pretty_format/

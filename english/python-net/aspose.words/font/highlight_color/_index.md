@@ -1,7 +1,9 @@
 ﻿---
-title: highlight_color property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the highlight (marker) color."
+title: Font.highlight_color property
+linktitle: highlight_color property
+articleTitle: highlight_color property
+second_title: Aspose.Words for Python
+description: "Font.highlight_color property. Gets or sets the highlight (marker) color."
 type: docs
 weight: 150
 url: /python-net/aspose.words/font/highlight_color/

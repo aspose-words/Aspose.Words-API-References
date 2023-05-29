@@ -1,7 +1,9 @@
 ﻿---
-title: version property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the product version."
+title: BuildVersionInfo.version property
+linktitle: version property
+articleTitle: version property
+second_title: Aspose.Words for Python
+description: "BuildVersionInfo.version property. Gets the product version."
 type: docs
 weight: 20
 url: /python-net/aspose.words/buildversioninfo/version/

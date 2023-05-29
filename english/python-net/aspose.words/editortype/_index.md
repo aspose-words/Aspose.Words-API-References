@@ -1,7 +1,9 @@
 ﻿---
 title: EditorType enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the set of possible aliases (or editing groups) which can be used as aliases to determine if the current user shall be allowed to edit a single range  defined by an editable range within a document."
+linktitle: EditorType enumeration
+articleTitle: EditorType enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.EditorType enumeration. Specifies the set of possible aliases (or editing groups) which can be used as aliases to determine if the current user shall be allowed to edit a single range  defined by an editable range within a document."
 type: docs
 weight: 360
 url: /python-net/aspose.words/editortype/

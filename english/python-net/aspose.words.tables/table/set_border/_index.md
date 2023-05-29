@@ -1,7 +1,9 @@
 ﻿---
-title: set_border method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Sets the specified table border to the specified line style, width and color."
+title: Table.set_border method
+linktitle: set_border method
+articleTitle: set_border method
+second_title: Aspose.Words for Python
+description: "Table.set_border method. Sets the specified table border to the specified line style, width and color."
 type: docs
 weight: 410
 url: /python-net/aspose.words.tables/table/set_border/

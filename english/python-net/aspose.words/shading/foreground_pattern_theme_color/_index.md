@@ -1,7 +1,9 @@
 ﻿---
-title: foreground_pattern_theme_color property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the foreground pattern theme color in the applied color scheme that is associated with this [Shading](../) object."
+title: Shading.foreground_pattern_theme_color property
+linktitle: foreground_pattern_theme_color property
+articleTitle: foreground_pattern_theme_color property
+second_title: Aspose.Words for Python
+description: "Shading.foreground_pattern_theme_color property. Gets or sets the foreground pattern theme color in the applied color scheme that is associated with this [Shading](../) object."
 type: docs
 weight: 50
 url: /python-net/aspose.words/shading/foreground_pattern_theme_color/

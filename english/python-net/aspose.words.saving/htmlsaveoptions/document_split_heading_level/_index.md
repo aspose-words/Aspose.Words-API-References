@@ -1,7 +1,9 @@
 ﻿---
-title: document_split_heading_level property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the maximum level of headings at which to split the document"
+title: HtmlSaveOptions.document_split_heading_level property
+linktitle: document_split_heading_level property
+articleTitle: document_split_heading_level property
+second_title: Aspose.Words for Python
+description: "HtmlSaveOptions.document_split_heading_level property. Specifies the maximum level of headings at which to split the document"
 type: docs
 weight: 90
 url: /python-net/aspose.words.saving/htmlsaveoptions/document_split_heading_level/

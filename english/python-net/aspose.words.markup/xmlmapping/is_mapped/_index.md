@@ -1,7 +1,9 @@
 ﻿---
-title: is_mapped property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns ``True`` if the parent structured document tag is successfully mapped to XML data."
+title: XmlMapping.is_mapped property
+linktitle: is_mapped property
+articleTitle: is_mapped property
+second_title: Aspose.Words for Python
+description: "XmlMapping.is_mapped property. Returns ``True`` if the parent structured document tag is successfully mapped to XML data."
 type: docs
 weight: 20
 url: /python-net/aspose.words.markup/xmlmapping/is_mapped/

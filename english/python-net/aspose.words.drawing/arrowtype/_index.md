@@ -1,7 +1,9 @@
 ﻿---
 title: ArrowType enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the type of an arrow at a line end."
+linktitle: ArrowType enumeration
+articleTitle: ArrowType enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.drawing.ArrowType enumeration. Specifies the type of an arrow at a line end."
 type: docs
 weight: 20
 url: /python-net/aspose.words.drawing/arrowtype/

@@ -1,7 +1,9 @@
 ﻿---
-title: kerning property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the font size at which kerning starts."
+title: Font.kerning property
+linktitle: kerning property
+articleTitle: kerning property
+second_title: Aspose.Words for Python
+description: "Font.kerning property. Gets or sets the font size at which kerning starts."
 type: docs
 weight: 180
 url: /python-net/aspose.words/font/kerning/

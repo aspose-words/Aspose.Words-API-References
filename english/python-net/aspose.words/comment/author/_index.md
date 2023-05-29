@@ -1,7 +1,9 @@
 ﻿---
-title: author property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns or sets the author name for a comment."
+title: Comment.author property
+linktitle: author property
+articleTitle: author property
+second_title: Aspose.Words for Python
+description: "Comment.author property. Returns or sets the author name for a comment."
 type: docs
 weight: 30
 url: /python-net/aspose.words/comment/author/

@@ -1,7 +1,9 @@
 ﻿---
-title: current_paragraph property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the paragraph that is currently selected in this [DocumentBuilder](../)."
+title: DocumentBuilder.current_paragraph property
+linktitle: current_paragraph property
+articleTitle: current_paragraph property
+second_title: Aspose.Words for Python
+description: "DocumentBuilder.current_paragraph property. Gets the paragraph that is currently selected in this [DocumentBuilder](../)."
 type: docs
 weight: 50
 url: /python-net/aspose.words/documentbuilder/current_paragraph/

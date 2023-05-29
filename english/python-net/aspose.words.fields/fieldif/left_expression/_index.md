@@ -1,7 +1,9 @@
 ﻿---
-title: left_expression property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the left part of the comparison expression."
+title: FieldIf.left_expression property
+linktitle: left_expression property
+articleTitle: left_expression property
+second_title: Aspose.Words for Python
+description: "FieldIf.left_expression property. Gets or sets the left part of the comparison expression."
 type: docs
 weight: 40
 url: /python-net/aspose.words.fields/fieldif/left_expression/

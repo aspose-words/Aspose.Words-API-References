@@ -1,7 +1,9 @@
 ﻿---
-title: last_section property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the last section in the document."
+title: Document.last_section property
+linktitle: last_section property
+articleTitle: last_section property
+second_title: Aspose.Words for Python
+description: "Document.last_section property. Gets the last section in the document."
 type: docs
 weight: 240
 url: /python-net/aspose.words/document/last_section/

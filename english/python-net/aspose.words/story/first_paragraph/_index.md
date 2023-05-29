@@ -1,7 +1,9 @@
 ﻿---
-title: first_paragraph property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the first paragraph in the story."
+title: Story.first_paragraph property
+linktitle: first_paragraph property
+articleTitle: first_paragraph property
+second_title: Aspose.Words for Python
+description: "Story.first_paragraph property. Gets the first paragraph in the story."
 type: docs
 weight: 10
 url: /python-net/aspose.words/story/first_paragraph/

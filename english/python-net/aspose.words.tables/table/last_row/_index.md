@@ -1,7 +1,9 @@
 ﻿---
-title: last_row property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns the last [Row](../../row/) node in the table."
+title: Table.last_row property
+linktitle: last_row property
+articleTitle: last_row property
+second_title: Aspose.Words for Python
+description: "Table.last_row property. Returns the last [Row](../../row/) node in the table."
 type: docs
 weight: 180
 url: /python-net/aspose.words.tables/table/last_row/

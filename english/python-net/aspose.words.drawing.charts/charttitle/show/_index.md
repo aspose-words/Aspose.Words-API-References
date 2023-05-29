@@ -1,7 +1,9 @@
 ﻿---
-title: show property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Determines whether the title shall be shown for this chart"
+title: ChartTitle.show property
+linktitle: show property
+articleTitle: show property
+second_title: Aspose.Words for Python
+description: "ChartTitle.show property. Determines whether the title shall be shown for this chart"
 type: docs
 weight: 20
 url: /python-net/aspose.words.drawing.charts/charttitle/show/

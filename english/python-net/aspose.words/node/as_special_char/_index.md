@@ -1,7 +1,9 @@
 ﻿---
-title: as_special_char method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Cast node to [SpecialChar](../../specialchar/)."
+title: Node.as_special_char method
+linktitle: as_special_char method
+articleTitle: as_special_char method
+second_title: Aspose.Words for Python
+description: "Node.as_special_char method. Cast node to [SpecialChar](../../specialchar/)."
 type: docs
 weight: 370
 url: /python-net/aspose.words/node/as_special_char/

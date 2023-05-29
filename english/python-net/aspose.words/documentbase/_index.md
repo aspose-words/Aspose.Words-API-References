@@ -1,7 +1,9 @@
 ﻿﻿---
 title: DocumentBase class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides the abstract base class for a main document and a glossary document of a Word document"
+linktitle: DocumentBase class
+articleTitle: DocumentBase class
+second_title: Aspose.Words for Python
+description: "aspose.words.DocumentBase class. Provides the abstract base class for a main document and a glossary document of a Word document"
 type: docs
 weight: 280
 url: /python-net/aspose.words/documentbase/

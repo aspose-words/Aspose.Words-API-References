@@ -1,7 +1,9 @@
 ﻿﻿---
 title: MergeFieldImageDimension class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents an image dimension (i.e"
+linktitle: MergeFieldImageDimension class
+articleTitle: MergeFieldImageDimension class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.MergeFieldImageDimension class. Represents an image dimension (i.e"
 type: docs
 weight: 1280
 url: /python-net/aspose.words.fields/mergefieldimagedimension/

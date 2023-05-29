@@ -1,7 +1,9 @@
 ﻿---
-title: prefixed_sequence_identifier property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the identifier of a sequence for which a prefix should be added to the entry's page number."
+title: FieldToc.prefixed_sequence_identifier property
+linktitle: prefixed_sequence_identifier property
+articleTitle: prefixed_sequence_identifier property
+second_title: Aspose.Words for Python
+description: "FieldToc.prefixed_sequence_identifier property. Gets or sets the identifier of a sequence for which a prefix should be added to the entry's page number."
 type: docs
 weight: 120
 url: /python-net/aspose.words.fields/fieldtoc/prefixed_sequence_identifier/

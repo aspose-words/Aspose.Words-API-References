@@ -1,7 +1,9 @@
 ﻿---
-title: protected_for_forms property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "True if the section is protected for forms"
+title: Section.protected_for_forms property
+linktitle: protected_for_forms property
+articleTitle: protected_for_forms property
+second_title: Aspose.Words for Python
+description: "Section.protected_for_forms property. True if the section is protected for forms"
 type: docs
 weight: 60
 url: /python-net/aspose.words/section/protected_for_forms/

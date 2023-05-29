@@ -1,7 +1,9 @@
 ﻿---
-title: sequence_identifier property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the name assigned to the series of items that are to be numbered."
+title: FieldSeq.sequence_identifier property
+linktitle: sequence_identifier property
+articleTitle: sequence_identifier property
+second_title: Aspose.Words for Python
+description: "FieldSeq.sequence_identifier property. Gets or sets the name assigned to the series of items that are to be numbered."
 type: docs
 weight: 60
 url: /python-net/aspose.words.fields/fieldseq/sequence_identifier/

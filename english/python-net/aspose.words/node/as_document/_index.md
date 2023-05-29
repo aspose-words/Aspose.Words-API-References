@@ -1,7 +1,9 @@
 ﻿---
-title: as_document method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Cast node to [Node.document](../document/)."
+title: Node.as_document method
+linktitle: as_document method
+articleTitle: as_document method
+second_title: Aspose.Words for Python
+description: "Node.as_document method. Cast node to [Node.document](../document/)."
 type: docs
 weight: 190
 url: /python-net/aspose.words/node/as_document/

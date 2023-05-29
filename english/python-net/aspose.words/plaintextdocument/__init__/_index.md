@@ -1,6 +1,8 @@
 ﻿---
 title: PlainTextDocument constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: PlainTextDocument constructor
+articleTitle: PlainTextDocument constructor
+second_title: Aspose.Words for Python
 description: "aspose.words.PlainTextDocument constructor"
 type: docs
 weight: 10

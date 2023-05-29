@@ -1,7 +1,9 @@
 ﻿---
-title: list_format property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides access to the list formatting properties of the paragraph."
+title: Paragraph.list_format property
+linktitle: list_format property
+articleTitle: list_format property
+second_title: Aspose.Words for Python
+description: "Paragraph.list_format property. Provides access to the list formatting properties of the paragraph."
 type: docs
 weight: 150
 url: /python-net/aspose.words/paragraph/list_format/

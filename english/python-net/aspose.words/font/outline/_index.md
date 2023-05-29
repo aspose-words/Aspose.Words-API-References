@@ -1,7 +1,9 @@
 ﻿---
-title: outline property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "True if the font is formatted as outline."
+title: Font.outline property
+linktitle: outline property
+articleTitle: outline property
+second_title: Aspose.Words for Python
+description: "Font.outline property. True if the font is formatted as outline."
 type: docs
 weight: 290
 url: /python-net/aspose.words/font/outline/

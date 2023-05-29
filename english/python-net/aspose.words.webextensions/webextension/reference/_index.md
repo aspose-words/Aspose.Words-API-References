@@ -1,7 +1,9 @@
 ﻿---
-title: reference property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the primary reference to an web extension."
+title: WebExtension.reference property
+linktitle: reference property
+articleTitle: reference property
+second_title: Aspose.Words for Python
+description: "WebExtension.reference property. Specifies the primary reference to an web extension."
 type: docs
 weight: 60
 url: /python-net/aspose.words.webextensions/webextension/reference/

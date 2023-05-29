@@ -1,7 +1,9 @@
 ﻿---
-title: new_parent property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the node's parent that will be set after the operation completes."
+title: NodeChangingArgs.new_parent property
+linktitle: new_parent property
+articleTitle: new_parent property
+second_title: Aspose.Words for Python
+description: "NodeChangingArgs.new_parent property. Gets the node's parent that will be set after the operation completes."
 type: docs
 weight: 20
 url: /python-net/aspose.words/nodechangingargs/new_parent/

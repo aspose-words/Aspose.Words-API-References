@@ -1,7 +1,9 @@
 ﻿---
-title: substitution_settings property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Settings related to font substitution mechanism."
+title: FontSettings.substitution_settings property
+linktitle: substitution_settings property
+articleTitle: substitution_settings property
+second_title: Aspose.Words for Python
+description: "FontSettings.substitution_settings property. Settings related to font substitution mechanism."
 type: docs
 weight: 40
 url: /python-net/aspose.words.fonts/fontsettings/substitution_settings/

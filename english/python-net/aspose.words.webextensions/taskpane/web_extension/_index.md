@@ -1,7 +1,9 @@
 ﻿---
-title: web_extension property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents an web extension object."
+title: TaskPane.web_extension property
+linktitle: web_extension property
+articleTitle: web_extension property
+second_title: Aspose.Words for Python
+description: "TaskPane.web_extension property. Represents an web extension object."
 type: docs
 weight: 60
 url: /python-net/aspose.words.webextensions/taskpane/web_extension/

@@ -1,7 +1,9 @@
 ﻿---
-title: remove_at method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Removes the element at the specified index."
+title: OdsoFieldMapDataCollection.remove_at method
+linktitle: remove_at method
+articleTitle: remove_at method
+second_title: Aspose.Words for Python
+description: "OdsoFieldMapDataCollection.remove_at method. Removes the element at the specified index."
 type: docs
 weight: 60
 url: /python-net/aspose.words.settings/odsofieldmapdatacollection/remove_at/

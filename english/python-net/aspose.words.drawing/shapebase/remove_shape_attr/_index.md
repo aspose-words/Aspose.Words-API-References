@@ -1,7 +1,9 @@
 ﻿---
-title: remove_shape_attr method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Reserved for system use"
+title: ShapeBase.remove_shape_attr method
+linktitle: remove_shape_attr method
+articleTitle: remove_shape_attr method
+second_title: Aspose.Words for Python
+description: "ShapeBase.remove_shape_attr method. Reserved for system use"
 type: docs
 weight: 680
 url: /python-net/aspose.words.drawing/shapebase/remove_shape_attr/

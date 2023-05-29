@@ -1,7 +1,9 @@
 ﻿﻿---
 title: TableSubstitutionRule class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Table font substitution rule"
+linktitle: TableSubstitutionRule class
+articleTitle: TableSubstitutionRule class
+second_title: Aspose.Words for Python
+description: "aspose.words.fonts.TableSubstitutionRule class. Table font substitution rule"
 type: docs
 weight: 230
 url: /python-net/aspose.words.fonts/tablesubstitutionrule/

@@ -1,6 +1,8 @@
 ﻿---
 title: NodeImporter constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: NodeImporter constructor
+articleTitle: NodeImporter constructor
+second_title: Aspose.Words for Python
 description: "aspose.words.NodeImporter constructor"
 type: docs
 weight: 10

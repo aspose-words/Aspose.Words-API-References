@@ -1,7 +1,9 @@
 ﻿---
-title: custom_number_style_format property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the custom number style format for this list level"
+title: ListLevel.custom_number_style_format property
+linktitle: custom_number_style_format property
+articleTitle: custom_number_style_format property
+second_title: Aspose.Words for Python
+description: "ListLevel.custom_number_style_format property. Gets the custom number style format for this list level"
 type: docs
 weight: 20
 url: /python-net/aspose.words.lists/listlevel/custom_number_style_format/

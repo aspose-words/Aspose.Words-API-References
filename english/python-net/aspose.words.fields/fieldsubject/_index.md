@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldSubject class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the SUBJECT field"
+linktitle: FieldSubject class
+articleTitle: FieldSubject class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldSubject class. Implements the SUBJECT field"
 type: docs
 weight: 990
 url: /python-net/aspose.words.fields/fieldsubject/

@@ -1,6 +1,9 @@
 ﻿---
 title: CustomPart constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: CustomPart constructor
+articleTitle: CustomPart constructor
+second_title: Aspose.Words for Python
+description: "CustomPart constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.markup/custompart/__init__/

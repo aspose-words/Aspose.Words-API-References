@@ -1,6 +1,9 @@
 ﻿---
 title: OdsoFieldMapData constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: OdsoFieldMapData constructor
+articleTitle: OdsoFieldMapData constructor
+second_title: Aspose.Words for Python
+description: "OdsoFieldMapData constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.settings/odsofieldmapdata/__init__/

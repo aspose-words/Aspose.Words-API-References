@@ -1,7 +1,9 @@
 ﻿﻿---
 title: XmlDataLoadOptions class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents options for XML data loading"
+linktitle: XmlDataLoadOptions class
+articleTitle: XmlDataLoadOptions class
+second_title: Aspose.Words for Python
+description: "aspose.words.reporting.XmlDataLoadOptions class. Represents options for XML data loading"
 type: docs
 weight: 90
 url: /python-net/aspose.words.reporting/xmldataloadoptions/

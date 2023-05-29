@@ -1,7 +1,9 @@
 ﻿---
-title: last_printed property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the date when the document was last printed in UTC."
+title: BuiltInDocumentProperties.last_printed property
+linktitle: last_printed property
+articleTitle: last_printed property
+second_title: Aspose.Words for Python
+description: "BuiltInDocumentProperties.last_printed property. Gets or sets the date when the document was last printed in UTC."
 type: docs
 weight: 150
 url: /python-net/aspose.words.properties/builtindocumentproperties/last_printed/

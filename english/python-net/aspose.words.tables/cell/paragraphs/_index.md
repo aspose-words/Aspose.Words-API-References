@@ -1,7 +1,9 @@
 ﻿---
-title: paragraphs property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets a collection of paragraphs that are immediate children of the cell."
+title: Cell.paragraphs property
+linktitle: paragraphs property
+articleTitle: paragraphs property
+second_title: Aspose.Words for Python
+description: "Cell.paragraphs property. Gets a collection of paragraphs that are immediate children of the cell."
 type: docs
 weight: 80
 url: /python-net/aspose.words.tables/cell/paragraphs/

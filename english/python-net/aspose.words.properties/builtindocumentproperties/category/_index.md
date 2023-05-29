@@ -1,7 +1,9 @@
 ﻿---
-title: category property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the category of the document."
+title: BuiltInDocumentProperties.category property
+linktitle: category property
+articleTitle: category property
+second_title: Aspose.Words for Python
+description: "BuiltInDocumentProperties.category property. Gets or sets the category of the document."
 type: docs
 weight: 40
 url: /python-net/aspose.words.properties/builtindocumentproperties/category/

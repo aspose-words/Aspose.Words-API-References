@@ -1,7 +1,9 @@
 ﻿---
-title: border_applies_to property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies which pages the page border is printed on."
+title: PageSetup.border_applies_to property
+linktitle: border_applies_to property
+articleTitle: border_applies_to property
+second_title: Aspose.Words for Python
+description: "PageSetup.border_applies_to property. Specifies which pages the page border is printed on."
 type: docs
 weight: 30
 url: /python-net/aspose.words/pagesetup/border_applies_to/

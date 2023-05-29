@@ -1,7 +1,9 @@
 ﻿---
-title: characters_with_spaces property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents an estimate of the number of characters (including spaces) in the document."
+title: BuiltInDocumentProperties.characters_with_spaces property
+linktitle: characters_with_spaces property
+articleTitle: characters_with_spaces property
+second_title: Aspose.Words for Python
+description: "BuiltInDocumentProperties.characters_with_spaces property. Represents an estimate of the number of characters (including spaces) in the document."
 type: docs
 weight: 60
 url: /python-net/aspose.words.properties/builtindocumentproperties/characters_with_spaces/

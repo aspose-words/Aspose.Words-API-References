@@ -1,7 +1,9 @@
 ﻿---
-title: contains method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Determines whether the collection contains a property with the given name."
+title: CustomXmlPropertyCollection.contains method
+linktitle: contains method
+articleTitle: contains method
+second_title: Aspose.Words for Python
+description: "CustomXmlPropertyCollection.contains method. Determines whether the collection contains a property with the given name."
 type: docs
 weight: 50
 url: /python-net/aspose.words.markup/customxmlpropertycollection/contains/

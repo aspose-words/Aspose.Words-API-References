@@ -1,7 +1,9 @@
 ﻿---
-title: fields property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns a list of child fields."
+title: MailMergeRegionInfo.fields property
+linktitle: fields property
+articleTitle: fields property
+second_title: Aspose.Words for Python
+description: "MailMergeRegionInfo.fields property. Returns a list of child fields."
 type: docs
 weight: 20
 url: /python-net/aspose.words.mailmerging/mailmergeregioninfo/fields/

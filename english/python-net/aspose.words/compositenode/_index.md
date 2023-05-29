@@ -1,7 +1,9 @@
 ﻿﻿---
 title: CompositeNode class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Base class for nodes that can contain other nodes"
+linktitle: CompositeNode class
+articleTitle: CompositeNode class
+second_title: Aspose.Words for Python
+description: "aspose.words.CompositeNode class. Base class for nodes that can contain other nodes"
 type: docs
 weight: 200
 url: /python-net/aspose.words/compositenode/

@@ -1,7 +1,9 @@
 ﻿---
-title: resolve_font_names property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies whether font family names used in the document are resolved and substituted according to [Document.font_settings](../../../aspose.words/document/font_settings/) when being written into HTML-based formats."
+title: HtmlSaveOptions.resolve_font_names property
+linktitle: resolve_font_names property
+articleTitle: resolve_font_names property
+second_title: Aspose.Words for Python
+description: "HtmlSaveOptions.resolve_font_names property. Specifies whether font family names used in the document are resolved and substituted according to [Document.font_settings](../../../aspose.words/document/font_settings/) when being written into HTML-based formats."
 type: docs
 weight: 410
 url: /python-net/aspose.words.saving/htmlsaveoptions/resolve_font_names/

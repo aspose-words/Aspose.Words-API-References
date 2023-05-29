@@ -1,7 +1,9 @@
 ﻿---
-title: fore_color property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a Color object that represents the foreground color for the fill."
+title: Fill.fore_color property
+linktitle: fore_color property
+articleTitle: fore_color property
+second_title: Aspose.Words for Python
+description: "Fill.fore_color property. Gets or sets a Color object that represents the foreground color for the fill."
 type: docs
 weight: 60
 url: /python-net/aspose.words.drawing/fill/fore_color/

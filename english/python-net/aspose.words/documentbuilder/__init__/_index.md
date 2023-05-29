@@ -1,6 +1,8 @@
 ﻿---
 title: DocumentBuilder constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: DocumentBuilder constructor
+articleTitle: DocumentBuilder constructor
+second_title: Aspose.Words for Python
 description: "aspose.words.DocumentBuilder constructor"
 type: docs
 weight: 10

@@ -1,7 +1,9 @@
 ﻿---
 title: RtfLoadOptions constructor
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Initializes a new instance of this class with default values."
+linktitle: RtfLoadOptions constructor
+articleTitle: RtfLoadOptions constructor
+second_title: Aspose.Words for Python
+description: "RtfLoadOptions constructor. Initializes a new instance of this class with default values."
 type: docs
 weight: 10
 url: /python-net/aspose.words.loading/rtfloadoptions/__init__/

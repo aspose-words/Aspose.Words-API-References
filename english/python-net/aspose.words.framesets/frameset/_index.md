@@ -1,7 +1,9 @@
 ﻿﻿---
 title: Frameset class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a frames page or a single frame on a frames page"
+linktitle: Frameset class
+articleTitle: Frameset class
+second_title: Aspose.Words for Python
+description: "aspose.words.framesets.Frameset class. Represents a frames page or a single frame on a frames page"
 type: docs
 weight: 10
 url: /python-net/aspose.words.framesets/frameset/

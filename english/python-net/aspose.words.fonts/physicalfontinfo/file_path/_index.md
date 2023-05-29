@@ -1,7 +1,9 @@
 ﻿---
-title: file_path property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Path to the font file if any."
+title: PhysicalFontInfo.file_path property
+linktitle: file_path property
+articleTitle: file_path property
+second_title: Aspose.Words for Python
+description: "PhysicalFontInfo.file_path property. Path to the font file if any."
 type: docs
 weight: 10
 url: /python-net/aspose.words.fonts/physicalfontinfo/file_path/

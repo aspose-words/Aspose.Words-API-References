@@ -1,7 +1,9 @@
 ﻿---
-title: page_number_list_separator property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the character sequence that is used to separate two page numbers in a page number list."
+title: FieldIndex.page_number_list_separator property
+linktitle: page_number_list_separator property
+articleTitle: page_number_list_separator property
+second_title: Aspose.Words for Python
+description: "FieldIndex.page_number_list_separator property. Gets or sets the character sequence that is used to separate two page numbers in a page number list."
 type: docs
 weight: 110
 url: /python-net/aspose.words.fields/fieldindex/page_number_list_separator/

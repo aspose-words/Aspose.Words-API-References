@@ -1,7 +1,9 @@
 ﻿---
 title: TiffCompression enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies what type of compression to apply when saving page images into a TIFF file."
+linktitle: TiffCompression enumeration
+articleTitle: TiffCompression enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.saving.TiffCompression enumeration. Specifies what type of compression to apply when saving page images into a TIFF file."
 type: docs
 weight: 780
 url: /python-net/aspose.words.saving/tiffcompression/

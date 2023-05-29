@@ -1,7 +1,9 @@
 ﻿﻿---
 title: CsvDataSource class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides access to data of a CSV file or stream to be used within a report"
+linktitle: CsvDataSource class
+articleTitle: CsvDataSource class
+second_title: Aspose.Words for Python
+description: "aspose.words.reporting.CsvDataSource class. Provides access to data of a CSV file or stream to be used within a report"
 type: docs
 weight: 20
 url: /python-net/aspose.words.reporting/csvdatasource/

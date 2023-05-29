@@ -1,6 +1,9 @@
 ﻿---
 title: FieldXE constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: FieldXE constructor
+articleTitle: FieldXE constructor
+second_title: Aspose.Words for Python
+description: "FieldXE constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/fieldxe/__init__/

@@ -1,6 +1,8 @@
 ﻿---
-title: append_document method
-second_title: Aspose.Words for Python via .NET API Reference
+title: Document.append_document method
+linktitle: append_document method
+articleTitle: append_document method
+second_title: Aspose.Words for Python
 description: "aspose.words.Document.append_document method"
 type: docs
 weight: 530

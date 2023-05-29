@@ -1,7 +1,9 @@
 ﻿---
-title: prog_id property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the application type of the link information."
+title: FieldDdeAuto.prog_id property
+linktitle: prog_id property
+articleTitle: prog_id property
+second_title: Aspose.Words for Python
+description: "FieldDdeAuto.prog_id property. Gets or sets the application type of the link information."
 type: docs
 weight: 90
 url: /python-net/aspose.words.fields/fieldddeauto/prog_id/

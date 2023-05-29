@@ -1,7 +1,9 @@
 ﻿---
-title: string_value property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the stored string value."
+title: ChartXValue.string_value property
+linktitle: string_value property
+articleTitle: string_value property
+second_title: Aspose.Words for Python
+description: "ChartXValue.string_value property. Gets the stored string value."
 type: docs
 weight: 40
 url: /python-net/aspose.words.drawing.charts/chartxvalue/string_value/

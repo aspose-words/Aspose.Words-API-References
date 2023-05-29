@@ -1,7 +1,9 @@
 ﻿---
-title: sequence_separator property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the character sequence that is used to separate sequence numbers and page numbers."
+title: FieldToa.sequence_separator property
+linktitle: sequence_separator property
+articleTitle: sequence_separator property
+second_title: Aspose.Words for Python
+description: "FieldToa.sequence_separator property. Gets or sets the character sequence that is used to separate sequence numbers and page numbers."
 type: docs
 weight: 90
 url: /python-net/aspose.words.fields/fieldtoa/sequence_separator/

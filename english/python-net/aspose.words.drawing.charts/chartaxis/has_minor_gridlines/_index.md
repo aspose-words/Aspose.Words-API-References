@@ -1,7 +1,9 @@
 ﻿---
-title: has_minor_gridlines property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a flag indicating whether the axis has minor gridlines."
+title: ChartAxis.has_minor_gridlines property
+linktitle: has_minor_gridlines property
+articleTitle: has_minor_gridlines property
+second_title: Aspose.Words for Python
+description: "ChartAxis.has_minor_gridlines property. Gets or sets a flag indicating whether the axis has minor gridlines."
 type: docs
 weight: 90
 url: /python-net/aspose.words.drawing.charts/chartaxis/has_minor_gridlines/

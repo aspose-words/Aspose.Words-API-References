@@ -1,7 +1,9 @@
 ﻿---
-title: number_position property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns or sets the position (in points) of the number or bullet for the list level."
+title: ListLevel.number_position property
+linktitle: number_position property
+articleTitle: number_position property
+second_title: Aspose.Words for Python
+description: "ListLevel.number_position property. Returns or sets the position (in points) of the number or bullet for the list level."
 type: docs
 weight: 80
 url: /python-net/aspose.words.lists/listlevel/number_position/

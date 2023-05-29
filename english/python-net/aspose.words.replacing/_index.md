@@ -1,6 +1,8 @@
 ﻿﻿---
 title: aspose.words.replacing module
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: aspose.words.replacing module
+articleTitle: aspose.words.replacing module
+second_title: Aspose.Words for Python
 description: "The aspose.words.replacing module provides classes to manipulate with find/replace operations over the document tree."
 type: docs
 weight: 200

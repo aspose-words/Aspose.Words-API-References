@@ -1,7 +1,9 @@
 ﻿---
-title: axis_z property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides access to properties of the Z axis of the chart."
+title: Chart.axis_z property
+linktitle: axis_z property
+articleTitle: axis_z property
+second_title: Aspose.Words for Python
+description: "Chart.axis_z property. Provides access to properties of the Z axis of the chart."
 type: docs
 weight: 40
 url: /python-net/aspose.words.drawing.charts/chart/axis_z/

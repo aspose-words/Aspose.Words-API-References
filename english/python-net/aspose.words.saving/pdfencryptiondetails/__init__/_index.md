@@ -1,7 +1,9 @@
 ﻿---
 title: PdfEncryptionDetails constructor
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Initializes an instance of this class."
+linktitle: PdfEncryptionDetails constructor
+articleTitle: PdfEncryptionDetails constructor
+second_title: Aspose.Words for Python
+description: "PdfEncryptionDetails constructor. Initializes an instance of this class."
 type: docs
 weight: 10
 url: /python-net/aspose.words.saving/pdfencryptiondetails/__init__/

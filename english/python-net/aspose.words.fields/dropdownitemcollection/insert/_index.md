@@ -1,7 +1,9 @@
 ﻿---
-title: insert method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Inserts a string into the collection at the specified index."
+title: DropDownItemCollection.insert method
+linktitle: insert method
+articleTitle: insert method
+second_title: Aspose.Words for Python
+description: "DropDownItemCollection.insert method. Inserts a string into the collection at the specified index."
 type: docs
 weight: 70
 url: /python-net/aspose.words.fields/dropdownitemcollection/insert/

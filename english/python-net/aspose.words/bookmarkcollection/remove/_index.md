@@ -1,6 +1,8 @@
 ﻿---
-title: remove method
-second_title: Aspose.Words for Python via .NET API Reference
+title: BookmarkCollection.remove method
+linktitle: remove method
+articleTitle: remove method
+second_title: Aspose.Words for Python
 description: "aspose.words.BookmarkCollection.remove method"
 type: docs
 weight: 50

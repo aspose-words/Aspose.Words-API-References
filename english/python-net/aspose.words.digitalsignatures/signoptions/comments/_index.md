@@ -1,7 +1,9 @@
 ﻿---
-title: comments property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies comments on the digital signature"
+title: SignOptions.comments property
+linktitle: comments property
+articleTitle: comments property
+second_title: Aspose.Words for Python
+description: "SignOptions.comments property. Specifies comments on the digital signature"
 type: docs
 weight: 20
 url: /python-net/aspose.words.digitalsignatures/signoptions/comments/

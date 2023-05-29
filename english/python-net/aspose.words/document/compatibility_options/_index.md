@@ -1,7 +1,9 @@
 ﻿---
-title: compatibility_options property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides access to document compatibility options (that is, the user preferences entered on the Compatibility tab of the Options dialog in Word)."
+title: Document.compatibility_options property
+linktitle: compatibility_options property
+articleTitle: compatibility_options property
+second_title: Aspose.Words for Python
+description: "Document.compatibility_options property. Provides access to document compatibility options (that is, the user preferences entered on the Compatibility tab of the Options dialog in Word)."
 type: docs
 weight: 50
 url: /python-net/aspose.words/document/compatibility_options/

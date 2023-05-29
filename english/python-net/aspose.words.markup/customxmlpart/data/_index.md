@@ -1,7 +1,9 @@
 ﻿---
-title: data property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the XML content of this Custom XML Data Storage Part."
+title: CustomXmlPart.data property
+linktitle: data property
+articleTitle: data property
+second_title: Aspose.Words for Python
+description: "CustomXmlPart.data property. Gets or sets the XML content of this Custom XML Data Storage Part."
 type: docs
 weight: 20
 url: /python-net/aspose.words.markup/customxmlpart/data/

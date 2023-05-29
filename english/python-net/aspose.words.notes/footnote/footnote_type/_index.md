@@ -1,7 +1,9 @@
 ﻿---
-title: footnote_type property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns a value that specifies whether this is a footnote or endnote."
+title: Footnote.footnote_type property
+linktitle: footnote_type property
+articleTitle: footnote_type property
+second_title: Aspose.Words for Python
+description: "Footnote.footnote_type property. Returns a value that specifies whether this is a footnote or endnote."
 type: docs
 weight: 20
 url: /python-net/aspose.words.notes/footnote/footnote_type/

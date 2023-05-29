@@ -1,6 +1,9 @@
 ﻿---
 title: FieldIncludePicture constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: FieldIncludePicture constructor
+articleTitle: FieldIncludePicture constructor
+second_title: Aspose.Words for Python
+description: "FieldIncludePicture constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/fieldincludepicture/__init__/

@@ -1,7 +1,9 @@
 ﻿---
 title: CompressionLevel enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Compression level for OOXML files"
+linktitle: CompressionLevel enumeration
+articleTitle: CompressionLevel enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.saving.CompressionLevel enumeration. Compression level for OOXML files"
 type: docs
 weight: 30
 url: /python-net/aspose.words.saving/compressionlevel/

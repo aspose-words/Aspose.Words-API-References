@@ -1,7 +1,9 @@
 ﻿---
-title: scaling_factor property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Scaling factor for the symbol"
+title: BarcodeParameters.scaling_factor property
+linktitle: scaling_factor property
+articleTitle: scaling_factor property
+second_title: Aspose.Words for Python
+description: "BarcodeParameters.scaling_factor property. Scaling factor for the symbol"
 type: docs
 weight: 160
 url: /python-net/aspose.words.fields/barcodeparameters/scaling_factor/

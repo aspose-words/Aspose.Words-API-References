@@ -1,6 +1,8 @@
 ﻿---
-title: compare method
-second_title: Aspose.Words for Python via .NET API Reference
+title: Document.compare method
+linktitle: compare method
+articleTitle: compare method
+second_title: Aspose.Words for Python
 description: "aspose.words.Document.compare method"
 type: docs
 weight: 560

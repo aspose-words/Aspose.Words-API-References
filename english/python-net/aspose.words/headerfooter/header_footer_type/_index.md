@@ -1,7 +1,9 @@
 ﻿---
-title: header_footer_type property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the type of this header/footer."
+title: HeaderFooter.header_footer_type property
+linktitle: header_footer_type property
+articleTitle: header_footer_type property
+second_title: Aspose.Words for Python
+description: "HeaderFooter.header_footer_type property. Gets the type of this header/footer."
 type: docs
 weight: 20
 url: /python-net/aspose.words/headerfooter/header_footer_type/

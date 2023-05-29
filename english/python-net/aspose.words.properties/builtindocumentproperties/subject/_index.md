@@ -1,7 +1,9 @@
 ﻿---
-title: subject property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the subject of the document."
+title: BuiltInDocumentProperties.subject property
+linktitle: subject property
+articleTitle: subject property
+second_title: Aspose.Words for Python
+description: "BuiltInDocumentProperties.subject property. Gets or sets the subject of the document."
 type: docs
 weight: 260
 url: /python-net/aspose.words.properties/builtindocumentproperties/subject/

@@ -1,6 +1,9 @@
 ﻿---
 title: FieldMergeSeq constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: FieldMergeSeq constructor
+articleTitle: FieldMergeSeq constructor
+second_title: Aspose.Words for Python
+description: "FieldMergeSeq constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/fieldmergeseq/__init__/

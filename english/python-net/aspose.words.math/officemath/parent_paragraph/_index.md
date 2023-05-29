@@ -1,7 +1,9 @@
 ﻿---
-title: parent_paragraph property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Retrieves the parent [Paragraph](../../../aspose.words/paragraph/) of this node."
+title: OfficeMath.parent_paragraph property
+linktitle: parent_paragraph property
+articleTitle: parent_paragraph property
+second_title: Aspose.Words for Python
+description: "OfficeMath.parent_paragraph property. Retrieves the parent [Paragraph](../../../aspose.words/paragraph/) of this node."
 type: docs
 weight: 50
 url: /python-net/aspose.words.math/officemath/parent_paragraph/

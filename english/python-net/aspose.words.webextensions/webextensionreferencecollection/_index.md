@@ -1,7 +1,9 @@
 ﻿﻿---
 title: WebExtensionReferenceCollection class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies a list of web extension references"
+linktitle: WebExtensionReferenceCollection class
+articleTitle: WebExtensionReferenceCollection class
+second_title: Aspose.Words for Python
+description: "aspose.words.webextensions.WebExtensionReferenceCollection class. Specifies a list of web extension references"
 type: docs
 weight: 110
 url: /python-net/aspose.words.webextensions/webextensionreferencecollection/

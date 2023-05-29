@@ -1,7 +1,9 @@
 ﻿---
-title: insert_as_html property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets whether to insert the linked object as HTML format text."
+title: FieldLink.insert_as_html property
+linktitle: insert_as_html property
+articleTitle: insert_as_html property
+second_title: Aspose.Words for Python
+description: "FieldLink.insert_as_html property. Gets or sets whether to insert the linked object as HTML format text."
 type: docs
 weight: 50
 url: /python-net/aspose.words.fields/fieldlink/insert_as_html/

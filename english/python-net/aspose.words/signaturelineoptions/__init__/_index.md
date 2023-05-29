@@ -1,6 +1,9 @@
 ﻿---
 title: SignatureLineOptions constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: SignatureLineOptions constructor
+articleTitle: SignatureLineOptions constructor
+second_title: Aspose.Words for Python
+description: "SignatureLineOptions constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words/signaturelineoptions/__init__/

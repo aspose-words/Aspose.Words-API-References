@@ -1,7 +1,9 @@
 ﻿﻿---
 title: ChmLoadOptions class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to specify additional options when loading CHM document into a [Document](../../aspose.words/document/) object"
+linktitle: ChmLoadOptions class
+articleTitle: ChmLoadOptions class
+second_title: Aspose.Words for Python
+description: "aspose.words.loading.ChmLoadOptions class. Allows to specify additional options when loading CHM document into a [Document](../../aspose.words/document/) object"
 type: docs
 weight: 20
 url: /python-net/aspose.words.loading/chmloadoptions/

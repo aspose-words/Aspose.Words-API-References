@@ -1,7 +1,9 @@
 ﻿---
 title: ImageType enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the type (format) of an image in a Microsoft Word document."
+linktitle: ImageType enumeration
+articleTitle: ImageType enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.drawing.ImageType enumeration. Specifies the type (format) of an image in a Microsoft Word document."
 type: docs
 weight: 190
 url: /python-net/aspose.words.drawing/imagetype/

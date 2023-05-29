@@ -1,7 +1,9 @@
 ﻿---
-title: add method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Adds the specified System.Type object to the set"
+title: KnownTypeSet.add method
+linktitle: add method
+articleTitle: add method
+second_title: Aspose.Words for Python
+description: "KnownTypeSet.add method. Adds the specified System.Type object to the set"
 type: docs
 weight: 20
 url: /python-net/aspose.words.reporting/knowntypeset/add/

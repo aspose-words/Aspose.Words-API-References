@@ -1,7 +1,9 @@
 ﻿---
-title: source property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns the source of the warning."
+title: WarningInfo.source property
+linktitle: source property
+articleTitle: source property
+second_title: Aspose.Words for Python
+description: "WarningInfo.source property. Returns the source of the warning."
 type: docs
 weight: 20
 url: /python-net/aspose.words/warninginfo/source/

@@ -1,7 +1,9 @@
 ﻿﻿---
 title: MemoryFontSource class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents the single TrueType font file stored in memory"
+linktitle: MemoryFontSource class
+articleTitle: MemoryFontSource class
+second_title: Aspose.Words for Python
+description: "aspose.words.fonts.MemoryFontSource class. Represents the single TrueType font file stored in memory"
 type: docs
 weight: 190
 url: /python-net/aspose.words.fonts/memoryfontsource/

@@ -1,7 +1,9 @@
 ﻿---
-title: original_file_name property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the original font file name with an extension."
+title: FontSavingArgs.original_file_name property
+linktitle: original_file_name property
+articleTitle: original_file_name property
+second_title: Aspose.Words for Python
+description: "FontSavingArgs.original_file_name property. Gets the original font file name with an extension."
 type: docs
 weight: 100
 url: /python-net/aspose.words.saving/fontsavingargs/original_file_name/

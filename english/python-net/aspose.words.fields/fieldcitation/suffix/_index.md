@@ -1,7 +1,9 @@
 ﻿---
-title: suffix property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a suffix that is appended to the citation."
+title: FieldCitation.suffix property
+linktitle: suffix property
+articleTitle: suffix property
+second_title: Aspose.Words for Python
+description: "FieldCitation.suffix property. Gets or sets a suffix that is appended to the citation."
 type: docs
 weight: 70
 url: /python-net/aspose.words.fields/fieldcitation/suffix/

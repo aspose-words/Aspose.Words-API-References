@@ -1,6 +1,9 @@
 ﻿---
 title: LayoutOptions constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: LayoutOptions constructor
+articleTitle: LayoutOptions constructor
+second_title: Aspose.Words for Python
+description: "LayoutOptions constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.layout/layoutoptions/__init__/

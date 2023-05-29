@@ -1,6 +1,9 @@
 ﻿---
 title: CustomXmlPartCollection constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: CustomXmlPartCollection constructor
+articleTitle: CustomXmlPartCollection constructor
+second_title: Aspose.Words for Python
+description: "CustomXmlPartCollection constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.markup/customxmlpartcollection/__init__/

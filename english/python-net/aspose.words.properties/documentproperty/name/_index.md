@@ -1,7 +1,9 @@
 ﻿---
-title: name property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns the name of the property."
+title: DocumentProperty.name property
+linktitle: name property
+articleTitle: name property
+second_title: Aspose.Words for Python
+description: "DocumentProperty.name property. Returns the name of the property."
 type: docs
 weight: 30
 url: /python-net/aspose.words.properties/documentproperty/name/

@@ -1,7 +1,9 @@
 ﻿---
-title: crop_left property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Defines the fraction of picture removal from the left side."
+title: ImageData.crop_left property
+linktitle: crop_left property
+articleTitle: crop_left property
+second_title: Aspose.Words for Python
+description: "ImageData.crop_left property. Defines the fraction of picture removal from the left side."
 type: docs
 weight: 70
 url: /python-net/aspose.words.drawing/imagedata/crop_left/

@@ -1,7 +1,9 @@
 ﻿﻿---
 title: ChartSeriesCollection class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents collection of a [ChartSeries](../chartseries/)"
+linktitle: ChartSeriesCollection class
+articleTitle: ChartSeriesCollection class
+second_title: Aspose.Words for Python
+description: "aspose.words.drawing.charts.ChartSeriesCollection class. Represents collection of a [ChartSeries](../chartseries/)"
 type: docs
 weight: 280
 url: /python-net/aspose.words.drawing.charts/chartseriescollection/

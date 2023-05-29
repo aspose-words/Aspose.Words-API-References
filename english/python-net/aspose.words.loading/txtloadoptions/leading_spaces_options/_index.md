@@ -1,7 +1,9 @@
 ﻿---
-title: leading_spaces_options property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets preferred option of a leading space handling"
+title: TxtLoadOptions.leading_spaces_options property
+linktitle: leading_spaces_options property
+articleTitle: leading_spaces_options property
+second_title: Aspose.Words for Python
+description: "TxtLoadOptions.leading_spaces_options property. Gets or sets preferred option of a leading space handling"
 type: docs
 weight: 50
 url: /python-net/aspose.words.loading/txtloadoptions/leading_spaces_options/

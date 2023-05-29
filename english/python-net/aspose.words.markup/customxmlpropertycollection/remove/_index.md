@@ -1,7 +1,9 @@
 ﻿---
-title: remove method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Removes a property with the specified name from the collection."
+title: CustomXmlPropertyCollection.remove method
+linktitle: remove method
+articleTitle: remove method
+second_title: Aspose.Words for Python
+description: "CustomXmlPropertyCollection.remove method. Removes a property with the specified name from the collection."
 type: docs
 weight: 80
 url: /python-net/aspose.words.markup/customxmlpropertycollection/remove/

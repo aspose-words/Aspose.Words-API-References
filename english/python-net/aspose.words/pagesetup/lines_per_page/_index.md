@@ -1,7 +1,9 @@
 ﻿---
-title: lines_per_page property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the number of lines per page in the document grid."
+title: PageSetup.lines_per_page property
+linktitle: lines_per_page property
+articleTitle: lines_per_page property
+second_title: Aspose.Words for Python
+description: "PageSetup.lines_per_page property. Gets or sets the number of lines per page in the document grid."
 type: docs
 weight: 250
 url: /python-net/aspose.words/pagesetup/lines_per_page/

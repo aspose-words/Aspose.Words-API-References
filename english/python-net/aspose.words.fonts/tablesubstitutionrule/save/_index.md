@@ -1,6 +1,8 @@
 ﻿---
-title: save method
-second_title: Aspose.Words for Python via .NET API Reference
+title: TableSubstitutionRule.save method
+linktitle: save method
+articleTitle: save method
+second_title: Aspose.Words for Python
 description: "aspose.words.fonts.TableSubstitutionRule.save method"
 type: docs
 weight: 70

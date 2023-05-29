@@ -1,7 +1,9 @@
 ﻿---
-title: major_unit property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns or sets the distance between major tick marks."
+title: ChartAxis.major_unit property
+linktitle: major_unit property
+articleTitle: major_unit property
+second_title: Aspose.Words for Python
+description: "ChartAxis.major_unit property. Returns or sets the distance between major tick marks."
 type: docs
 weight: 120
 url: /python-net/aspose.words.drawing.charts/chartaxis/major_unit/

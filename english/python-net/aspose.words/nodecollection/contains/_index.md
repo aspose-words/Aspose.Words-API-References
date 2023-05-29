@@ -1,7 +1,9 @@
 ﻿---
-title: contains method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Determines whether a node is in the collection."
+title: NodeCollection.contains method
+linktitle: contains method
+articleTitle: contains method
+second_title: Aspose.Words for Python
+description: "NodeCollection.contains method. Determines whether a node is in the collection."
 type: docs
 weight: 50
 url: /python-net/aspose.words/nodecollection/contains/

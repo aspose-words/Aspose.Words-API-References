@@ -1,7 +1,9 @@
 ﻿---
-title: remove_at method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Removes the [VbaReference](../../vbareference/) element at the specified index of the collection."
+title: VbaReferenceCollection.remove_at method
+linktitle: remove_at method
+articleTitle: remove_at method
+second_title: Aspose.Words for Python
+description: "VbaReferenceCollection.remove_at method. Removes the [VbaReference](../../vbareference/) element at the specified index of the collection."
 type: docs
 weight: 40
 url: /python-net/aspose.words.vba/vbareferencecollection/remove_at/

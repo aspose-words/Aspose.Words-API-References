@@ -1,7 +1,9 @@
 ﻿---
-title: create_missing_outline_levels property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a value determining whether or not to create missing outline levels when the document is  exported."
+title: OutlineOptions.create_missing_outline_levels property
+linktitle: create_missing_outline_levels property
+articleTitle: create_missing_outline_levels property
+second_title: Aspose.Words for Python
+description: "OutlineOptions.create_missing_outline_levels property. Gets or sets a value determining whether or not to create missing outline levels when the document is  exported."
 type: docs
 weight: 30
 url: /python-net/aspose.words.saving/outlineoptions/create_missing_outline_levels/

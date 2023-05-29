@@ -1,7 +1,9 @@
 ﻿---
 title: BubbleSizeCollection class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a collection of bubble sizes for a chart series."
+linktitle: BubbleSizeCollection class
+articleTitle: BubbleSizeCollection class
+second_title: Aspose.Words for Python
+description: "aspose.words.drawing.charts.BubbleSizeCollection class. Represents a collection of bubble sizes for a chart series."
 type: docs
 weight: 110
 url: /python-net/aspose.words.drawing.charts/bubblesizecollection/

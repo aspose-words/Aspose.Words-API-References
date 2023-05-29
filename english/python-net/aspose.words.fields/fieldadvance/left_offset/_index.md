@@ -1,7 +1,9 @@
 ﻿---
-title: left_offset property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the number of points by which the text that follows the field should be moved left."
+title: FieldAdvance.left_offset property
+linktitle: left_offset property
+articleTitle: left_offset property
+second_title: Aspose.Words for Python
+description: "FieldAdvance.left_offset property. Gets or sets the number of points by which the text that follows the field should be moved left."
 type: docs
 weight: 40
 url: /python-net/aspose.words.fields/fieldadvance/left_offset/

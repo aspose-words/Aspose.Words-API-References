@@ -1,7 +1,9 @@
 ﻿---
-title: justification_mode property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the character spacing adjustment of a document."
+title: Document.justification_mode property
+linktitle: justification_mode property
+articleTitle: justification_mode property
+second_title: Aspose.Words for Python
+description: "Document.justification_mode property. Gets or sets the character spacing adjustment of a document."
 type: docs
 weight: 230
 url: /python-net/aspose.words/document/justification_mode/

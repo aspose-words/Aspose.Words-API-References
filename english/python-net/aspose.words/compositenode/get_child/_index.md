@@ -1,7 +1,9 @@
 ﻿---
-title: get_child method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns an Nth child node that matches the specified type."
+title: CompositeNode.get_child method
+linktitle: get_child method
+articleTitle: get_child method
+second_title: Aspose.Words for Python
+description: "CompositeNode.get_child method. Returns an Nth child node that matches the specified type."
 type: docs
 weight: 80
 url: /python-net/aspose.words/compositenode/get_child/

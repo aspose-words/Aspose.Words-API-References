@@ -1,7 +1,9 @@
 ﻿---
 title: Compatibility enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies names of compatibility options."
+linktitle: Compatibility enumeration
+articleTitle: Compatibility enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.settings.Compatibility enumeration. Specifies names of compatibility options."
 type: docs
 weight: 10
 url: /python-net/aspose.words.settings/compatibility/

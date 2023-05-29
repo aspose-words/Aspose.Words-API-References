@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FieldSaveDate class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the SAVEDATE field"
+linktitle: FieldSaveDate class
+articleTitle: FieldSaveDate class
+second_title: Aspose.Words for Python
+description: "aspose.words.fields.FieldSaveDate class. Implements the SAVEDATE field"
 type: docs
 weight: 890
 url: /python-net/aspose.words.fields/fieldsavedate/

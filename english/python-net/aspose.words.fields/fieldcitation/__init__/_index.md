@@ -1,6 +1,9 @@
 ﻿---
 title: FieldCitation constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: FieldCitation constructor
+articleTitle: FieldCitation constructor
+second_title: Aspose.Words for Python
+description: "FieldCitation constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/fieldcitation/__init__/

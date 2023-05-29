@@ -1,7 +1,9 @@
 ﻿﻿---
 title: StructuredDocumentTagRangeStart class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a start of ranged structured document tag which accepts multi-sections content"
+linktitle: StructuredDocumentTagRangeStart class
+articleTitle: StructuredDocumentTagRangeStart class
+second_title: Aspose.Words for Python
+description: "aspose.words.markup.StructuredDocumentTagRangeStart class. Represents a start of ranged structured document tag which accepts multi-sections content"
 type: docs
 weight: 200
 url: /python-net/aspose.words.markup/structureddocumenttagrangestart/

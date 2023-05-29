@@ -1,7 +1,9 @@
 ﻿﻿---
 title: Cell class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a table cell"
+linktitle: Cell class
+articleTitle: Cell class
+second_title: Aspose.Words for Python
+description: "aspose.words.tables.Cell class. Represents a table cell"
 type: docs
 weight: 20
 url: /python-net/aspose.words.tables/cell/

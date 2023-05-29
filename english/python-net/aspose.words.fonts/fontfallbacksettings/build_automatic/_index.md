@@ -1,7 +1,9 @@
 ﻿---
-title: build_automatic method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Automatically builds the fallback settings by scanning available fonts."
+title: FontFallbackSettings.build_automatic method
+linktitle: build_automatic method
+articleTitle: build_automatic method
+second_title: Aspose.Words for Python
+description: "FontFallbackSettings.build_automatic method. Automatically builds the fallback settings by scanning available fonts."
 type: docs
 weight: 10
 url: /python-net/aspose.words.fonts/fontfallbacksettings/build_automatic/

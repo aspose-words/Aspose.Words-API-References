@@ -1,7 +1,9 @@
 ﻿---
-title: runs property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides access to the typed collection of pieces of text inside the paragraph."
+title: Paragraph.runs property
+linktitle: runs property
+articleTitle: runs property
+second_title: Aspose.Words for Python
+description: "Paragraph.runs property. Provides access to the typed collection of pieces of text inside the paragraph."
 type: docs
 weight: 220
 url: /python-net/aspose.words/paragraph/runs/

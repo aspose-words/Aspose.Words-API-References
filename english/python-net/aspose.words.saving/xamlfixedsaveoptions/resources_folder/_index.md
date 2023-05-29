@@ -1,7 +1,9 @@
 ﻿---
-title: resources_folder property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the physical folder where resources (images and fonts) are saved when exporting a document to fixed page Xaml format"
+title: XamlFixedSaveOptions.resources_folder property
+linktitle: resources_folder property
+articleTitle: resources_folder property
+second_title: Aspose.Words for Python
+description: "XamlFixedSaveOptions.resources_folder property. Specifies the physical folder where resources (images and fonts) are saved when exporting a document to fixed page Xaml format"
 type: docs
 weight: 30
 url: /python-net/aspose.words.saving/xamlfixedsaveoptions/resources_folder/

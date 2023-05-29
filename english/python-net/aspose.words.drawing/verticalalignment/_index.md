@@ -1,7 +1,9 @@
 ﻿---
 title: VerticalAlignment enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies vertical alignment of a floating shape, text frame or a floating table."
+linktitle: VerticalAlignment enumeration
+articleTitle: VerticalAlignment enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.drawing.VerticalAlignment enumeration. Specifies vertical alignment of a floating shape, text frame or a floating table."
 type: docs
 weight: 450
 url: /python-net/aspose.words.drawing/verticalalignment/

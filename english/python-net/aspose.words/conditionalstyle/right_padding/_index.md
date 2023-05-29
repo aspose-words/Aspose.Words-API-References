@@ -1,7 +1,9 @@
 ﻿---
-title: right_padding property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the amount of space (in points) to add to the right of the contents of table cells."
+title: ConditionalStyle.right_padding property
+linktitle: right_padding property
+articleTitle: right_padding property
+second_title: Aspose.Words for Python
+description: "ConditionalStyle.right_padding property. Gets or sets the amount of space (in points) to add to the right of the contents of table cells."
 type: docs
 weight: 60
 url: /python-net/aspose.words/conditionalstyle/right_padding/

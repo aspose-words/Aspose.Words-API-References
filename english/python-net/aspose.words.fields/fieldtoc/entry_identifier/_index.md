@@ -1,7 +1,9 @@
 ﻿---
-title: entry_identifier property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets a string that should match type identifiers of TC fields being included."
+title: FieldToc.entry_identifier property
+linktitle: entry_identifier property
+articleTitle: entry_identifier property
+second_title: Aspose.Words for Python
+description: "FieldToc.entry_identifier property. Gets or sets a string that should match type identifiers of TC fields being included."
 type: docs
 weight: 50
 url: /python-net/aspose.words.fields/fieldtoc/entry_identifier/

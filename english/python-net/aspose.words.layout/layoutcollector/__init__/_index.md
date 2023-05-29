@@ -1,7 +1,9 @@
 ﻿---
 title: LayoutCollector constructor
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Initializes an instance of this class."
+linktitle: LayoutCollector constructor
+articleTitle: LayoutCollector constructor
+second_title: Aspose.Words for Python
+description: "LayoutCollector constructor. Initializes an instance of this class."
 type: docs
 weight: 10
 url: /python-net/aspose.words.layout/layoutcollector/__init__/

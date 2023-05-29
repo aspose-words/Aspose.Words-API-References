@@ -1,7 +1,9 @@
 ﻿---
-title: default_user property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Default user information."
+title: UserInformation.default_user property
+linktitle: default_user property
+articleTitle: default_user property
+second_title: Aspose.Words for Python
+description: "UserInformation.default_user property. Default user information."
 type: docs
 weight: 30
 url: /python-net/aspose.words.fields/userinformation/default_user/

@@ -1,7 +1,9 @@
 ﻿---
 title: BasicTextShaperCache constructor
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Wraps  and caches[ITextShaperFactory.get_text_shaper()](../../itextshaperfactory/get_text_shaper/#str_int) results."
+linktitle: BasicTextShaperCache constructor
+articleTitle: BasicTextShaperCache constructor
+second_title: Aspose.Words for Python
+description: "BasicTextShaperCache constructor. Wraps  and caches[ITextShaperFactory.get_text_shaper()](../../itextshaperfactory/get_text_shaper/#str_int) results."
 type: docs
 weight: 10
 url: /python-net/aspose.words.shaping/basictextshapercache/__init__/

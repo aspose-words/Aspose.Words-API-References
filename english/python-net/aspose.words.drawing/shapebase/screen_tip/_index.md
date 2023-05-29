@@ -1,7 +1,9 @@
 ﻿---
-title: screen_tip property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Defines the text displayed when the mouse pointer moves over the shape."
+title: ShapeBase.screen_tip property
+linktitle: screen_tip property
+articleTitle: screen_tip property
+second_title: Aspose.Words for Python
+description: "ShapeBase.screen_tip property. Defines the text displayed when the mouse pointer moves over the shape."
 type: docs
 weight: 480
 url: /python-net/aspose.words.drawing/shapebase/screen_tip/

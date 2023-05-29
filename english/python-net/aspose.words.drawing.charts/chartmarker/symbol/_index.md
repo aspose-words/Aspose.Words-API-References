@@ -1,7 +1,9 @@
 ﻿---
-title: symbol property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets chart marker symbol."
+title: ChartMarker.symbol property
+linktitle: symbol property
+articleTitle: symbol property
+second_title: Aspose.Words for Python
+description: "ChartMarker.symbol property. Gets or sets chart marker symbol."
 type: docs
 weight: 30
 url: /python-net/aspose.words.drawing.charts/chartmarker/symbol/

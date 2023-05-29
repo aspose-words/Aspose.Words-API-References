@@ -1,7 +1,9 @@
 ﻿﻿---
 title: RevisionOptions class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to control how document revisions are handled during layout process"
+linktitle: RevisionOptions class
+articleTitle: RevisionOptions class
+second_title: Aspose.Words for Python
+description: "aspose.words.layout.RevisionOptions class. Allows to control how document revisions are handled during layout process"
 type: docs
 weight: 110
 url: /python-net/aspose.words.layout/revisionoptions/

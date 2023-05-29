@@ -1,7 +1,9 @@
 ﻿---
-title: get_query_result method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns query result."
+title: IFieldDatabaseProvider.get_query_result method
+linktitle: get_query_result method
+articleTitle: get_query_result method
+second_title: Aspose.Words for Python
+description: "IFieldDatabaseProvider.get_query_result method. Returns query result."
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/ifielddatabaseprovider/get_query_result/

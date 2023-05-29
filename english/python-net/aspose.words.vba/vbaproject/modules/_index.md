@@ -1,7 +1,9 @@
 ﻿---
-title: modules property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns collection of VBA project modules."
+title: VbaProject.modules property
+linktitle: modules property
+articleTitle: modules property
+second_title: Aspose.Words for Python
+description: "VbaProject.modules property. Returns collection of VBA project modules."
 type: docs
 weight: 40
 url: /python-net/aspose.words.vba/vbaproject/modules/

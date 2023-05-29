@@ -1,7 +1,9 @@
 ﻿---
 title: IFontSavingCallback class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Implement this interface if you want to receive notifications and control how Aspose.Words saves fonts when exporting a document to HTML format."
+linktitle: IFontSavingCallback class
+articleTitle: IFontSavingCallback class
+second_title: Aspose.Words for Python
+description: "aspose.words.saving.IFontSavingCallback class. Implement this interface if you want to receive notifications and control how Aspose.Words saves fonts when exporting a document to HTML format."
 type: docs
 weight: 310
 url: /python-net/aspose.words.saving/ifontsavingcallback/

@@ -1,7 +1,9 @@
 ﻿---
 title: JsonDataLoadOptions constructor
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Initializes a new instance of this class with default options."
+linktitle: JsonDataLoadOptions constructor
+articleTitle: JsonDataLoadOptions constructor
+second_title: Aspose.Words for Python
+description: "JsonDataLoadOptions constructor. Initializes a new instance of this class with default options."
 type: docs
 weight: 10
 url: /python-net/aspose.words.reporting/jsondataloadoptions/__init__/

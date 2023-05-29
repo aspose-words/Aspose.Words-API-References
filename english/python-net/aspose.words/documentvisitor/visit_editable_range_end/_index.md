@@ -1,7 +1,9 @@
 ﻿---
-title: visit_editable_range_end method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Called when an end of an editable range is encountered in the document."
+title: DocumentVisitor.visit_editable_range_end method
+linktitle: visit_editable_range_end method
+articleTitle: visit_editable_range_end method
+second_title: Aspose.Words for Python
+description: "DocumentVisitor.visit_editable_range_end method. Called when an end of an editable range is encountered in the document."
 type: docs
 weight: 160
 url: /python-net/aspose.words/documentvisitor/visit_editable_range_end/

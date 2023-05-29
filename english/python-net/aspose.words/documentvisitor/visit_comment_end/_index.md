@@ -1,7 +1,9 @@
 ﻿---
-title: visit_comment_end method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Called when enumeration of a comment text has ended."
+title: DocumentVisitor.visit_comment_end method
+linktitle: visit_comment_end method
+articleTitle: visit_comment_end method
+second_title: Aspose.Words for Python
+description: "DocumentVisitor.visit_comment_end method. Called when enumeration of a comment text has ended."
 type: docs
 weight: 100
 url: /python-net/aspose.words/documentvisitor/visit_comment_end/

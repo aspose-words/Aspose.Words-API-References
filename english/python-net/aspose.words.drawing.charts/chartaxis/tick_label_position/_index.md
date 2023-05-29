@@ -1,7 +1,9 @@
 ﻿---
-title: tick_label_position property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns or sets the position of the tick labels on the axis."
+title: ChartAxis.tick_label_position property
+linktitle: tick_label_position property
+articleTitle: tick_label_position property
+second_title: Aspose.Words for Python
+description: "ChartAxis.tick_label_position property. Returns or sets the position of the tick labels on the axis."
 type: docs
 weight: 240
 url: /python-net/aspose.words.drawing.charts/chartaxis/tick_label_position/

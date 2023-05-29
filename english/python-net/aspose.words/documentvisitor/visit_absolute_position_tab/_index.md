@@ -1,7 +1,9 @@
 ﻿---
-title: visit_absolute_position_tab method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Called when a [AbsolutePositionTab](../../absolutepositiontab/) node is encountered in the document."
+title: DocumentVisitor.visit_absolute_position_tab method
+linktitle: visit_absolute_position_tab method
+articleTitle: visit_absolute_position_tab method
+second_title: Aspose.Words for Python
+description: "DocumentVisitor.visit_absolute_position_tab method. Called when a [AbsolutePositionTab](../../absolutepositiontab/) node is encountered in the document."
 type: docs
 weight: 10
 url: /python-net/aspose.words/documentvisitor/visit_absolute_position_tab/

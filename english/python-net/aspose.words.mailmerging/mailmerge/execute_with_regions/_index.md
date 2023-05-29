@@ -1,6 +1,8 @@
 ﻿---
-title: execute_with_regions method
-second_title: Aspose.Words for Python via .NET API Reference
+title: MailMerge.execute_with_regions method
+linktitle: execute_with_regions method
+articleTitle: execute_with_regions method
+second_title: Aspose.Words for Python
 description: "aspose.words.mailmerging.MailMerge.execute_with_regions method"
 type: docs
 weight: 190

@@ -1,7 +1,9 @@
 ﻿---
-title: clear method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Removes all elements from this collection."
+title: OdsoFieldMapDataCollection.clear method
+linktitle: clear method
+articleTitle: clear method
+second_title: Aspose.Words for Python
+description: "OdsoFieldMapDataCollection.clear method. Removes all elements from this collection."
 type: docs
 weight: 50
 url: /python-net/aspose.words.settings/odsofieldmapdatacollection/clear/

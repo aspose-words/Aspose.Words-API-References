@@ -1,7 +1,9 @@
 ﻿---
-title: document property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the document this collector instance is attached to."
+title: LayoutCollector.document property
+linktitle: document property
+articleTitle: document property
+second_title: Aspose.Words for Python
+description: "LayoutCollector.document property. Gets or sets the document this collector instance is attached to."
 type: docs
 weight: 20
 url: /python-net/aspose.words.layout/layoutcollector/document/

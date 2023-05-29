@@ -1,6 +1,8 @@
 ﻿---
 title: MemoryFontSource constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: MemoryFontSource constructor
+articleTitle: MemoryFontSource constructor
+second_title: Aspose.Words for Python
 description: "aspose.words.fonts.MemoryFontSource constructor"
 type: docs
 weight: 10

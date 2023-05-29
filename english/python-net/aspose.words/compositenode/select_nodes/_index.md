@@ -1,7 +1,9 @@
 ﻿---
-title: select_nodes method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Selects a list of nodes matching the XPath expression."
+title: CompositeNode.select_nodes method
+linktitle: select_nodes method
+articleTitle: select_nodes method
+second_title: Aspose.Words for Python
+description: "CompositeNode.select_nodes method. Selects a list of nodes matching the XPath expression."
 type: docs
 weight: 180
 url: /python-net/aspose.words/compositenode/select_nodes/

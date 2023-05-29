@@ -1,7 +1,9 @@
 ﻿﻿---
 title: ThemeFonts class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a collection of fonts in the font scheme, allowing to specify different fonts for different languages [ThemeFonts.latin](./latin/), [ThemeFonts.east_asian](./east_asian/) and [ThemeFonts.complex_script](./complex_script/)"
+linktitle: ThemeFonts class
+articleTitle: ThemeFonts class
+second_title: Aspose.Words for Python
+description: "aspose.words.themes.ThemeFonts class. Represents a collection of fonts in the font scheme, allowing to specify different fonts for different languages [ThemeFonts.latin](./latin/), [ThemeFonts.east_asian](./east_asian/) and [ThemeFonts.complex_script](./complex_script/)"
 type: docs
 weight: 50
 url: /python-net/aspose.words.themes/themefonts/

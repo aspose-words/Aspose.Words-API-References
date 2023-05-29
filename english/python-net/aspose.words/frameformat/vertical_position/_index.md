@@ -1,7 +1,9 @@
 ﻿---
-title: vertical_position property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets vertical distance between the edge of the frame and the item specified by the [FrameFormat.relative_vertical_position](../relative_vertical_position/) property."
+title: FrameFormat.vertical_position property
+linktitle: vertical_position property
+articleTitle: vertical_position property
+second_title: Aspose.Words for Python
+description: "FrameFormat.vertical_position property. Gets vertical distance between the edge of the frame and the item specified by the [FrameFormat.relative_vertical_position](../relative_vertical_position/) property."
 type: docs
 weight: 110
 url: /python-net/aspose.words/frameformat/vertical_position/

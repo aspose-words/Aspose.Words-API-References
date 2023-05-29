@@ -1,7 +1,9 @@
 ﻿---
-title: preserve_table_layout property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies whether the program should attempt to preserve layout of tables when saving in the plain text format"
+title: TxtSaveOptions.preserve_table_layout property
+linktitle: preserve_table_layout property
+articleTitle: preserve_table_layout property
+second_title: Aspose.Words for Python
+description: "TxtSaveOptions.preserve_table_layout property. Specifies whether the program should attempt to preserve layout of tables when saving in the plain text format"
 type: docs
 weight: 50
 url: /python-net/aspose.words.saving/txtsaveoptions/preserve_table_layout/

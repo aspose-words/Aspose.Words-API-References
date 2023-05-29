@@ -1,7 +1,9 @@
 ﻿---
 title: WrapSide enumeration
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies what side(s) of the shape or picture the text wraps around."
+linktitle: WrapSide enumeration
+articleTitle: WrapSide enumeration
+second_title: Aspose.Words for Python
+description: "aspose.words.drawing.WrapSide enumeration. Specifies what side(s) of the shape or picture the text wraps around."
 type: docs
 weight: 460
 url: /python-net/aspose.words.drawing/wrapside/

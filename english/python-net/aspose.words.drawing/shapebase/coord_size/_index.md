@@ -1,7 +1,9 @@
 ﻿---
-title: coord_size property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "The width and height of the coordinate space inside the containing block of this shape."
+title: ShapeBase.coord_size property
+linktitle: coord_size property
+articleTitle: coord_size property
+second_title: Aspose.Words for Python
+description: "ShapeBase.coord_size property. The width and height of the coordinate space inside the containing block of this shape."
 type: docs
 weight: 120
 url: /python-net/aspose.words.drawing/shapebase/coord_size/

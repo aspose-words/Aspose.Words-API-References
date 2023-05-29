@@ -1,6 +1,9 @@
 ﻿---
 title: FieldDocVariable constructor
-second_title: Aspose.Words for Python via .NET API Reference
+linktitle: FieldDocVariable constructor
+articleTitle: FieldDocVariable constructor
+second_title: Aspose.Words for Python
+description: "FieldDocVariable constructor. "
 type: docs
 weight: 10
 url: /python-net/aspose.words.fields/fielddocvariable/__init__/

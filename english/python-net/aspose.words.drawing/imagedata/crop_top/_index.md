@@ -1,7 +1,9 @@
 ﻿---
-title: crop_top property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Defines the fraction of picture removal from the top side."
+title: ImageData.crop_top property
+linktitle: crop_top property
+articleTitle: crop_top property
+second_title: Aspose.Words for Python
+description: "ImageData.crop_top property. Defines the fraction of picture removal from the top side."
 type: docs
 weight: 90
 url: /python-net/aspose.words.drawing/imagedata/crop_top/

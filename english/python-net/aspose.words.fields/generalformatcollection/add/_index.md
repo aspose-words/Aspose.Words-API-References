@@ -1,7 +1,9 @@
 ﻿---
-title: add method
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Adds a general format to the collection."
+title: GeneralFormatCollection.add method
+linktitle: add method
+articleTitle: add method
+second_title: Aspose.Words for Python
+description: "GeneralFormatCollection.add method. Adds a general format to the collection."
 type: docs
 weight: 30
 url: /python-net/aspose.words.fields/generalformatcollection/add/

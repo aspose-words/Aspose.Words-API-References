@@ -1,7 +1,9 @@
 ﻿﻿---
 title: FontSettings class
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies font settings for a document"
+linktitle: FontSettings class
+articleTitle: FontSettings class
+second_title: Aspose.Words for Python
+description: "aspose.words.fonts.FontSettings class. Specifies font settings for a document"
 type: docs
 weight: 140
 url: /python-net/aspose.words.fonts/fontsettings/

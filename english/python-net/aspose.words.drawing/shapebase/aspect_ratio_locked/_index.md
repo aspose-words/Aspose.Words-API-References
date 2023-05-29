@@ -1,7 +1,9 @@
 ﻿---
-title: aspect_ratio_locked property
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies whether the shape's aspect ratio is locked."
+title: ShapeBase.aspect_ratio_locked property
+linktitle: aspect_ratio_locked property
+articleTitle: aspect_ratio_locked property
+second_title: Aspose.Words for Python
+description: "ShapeBase.aspect_ratio_locked property. Specifies whether the shape's aspect ratio is locked."
 type: docs
 weight: 40
 url: /python-net/aspose.words.drawing/shapebase/aspect_ratio_locked/

@@ -1,7 +1,9 @@
 ﻿---
 title: ReportingEngine constructor
-second_title: Aspose.Words for Python via .NET API Reference
-description: "Initializes a new instance of this class."
+linktitle: ReportingEngine constructor
+articleTitle: ReportingEngine constructor
+second_title: Aspose.Words for Python
+description: "ReportingEngine constructor. Initializes a new instance of this class."
 type: docs
 weight: 10
 url: /python-net/aspose.words.reporting/reportingengine/__init__/
